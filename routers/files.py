@@ -9,6 +9,7 @@ import io
 
 load_dotenv()
 
+# Yangi google-genai client
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 router = APIRouter(prefix="/files", tags=["files"])
@@ -46,7 +47,7 @@ def chunk_text(text: str, chunk_size: int = 500, overlap: int = 80):
 def get_embedding(text: str):
     result = client.models.embed_content(
         model="gemini-embedding-001",
-        contents=text
+        contents=[text]
     )
     return result.embeddings[0].values
 
