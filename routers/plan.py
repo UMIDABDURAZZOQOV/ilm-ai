@@ -32,7 +32,7 @@ def generate_plan(data: PlanRequest):
     vectors = load_vectors(data.user_id)
 
     if not vectors:
-        return {"error": "No materials uploaded yet"}
+        return {"error": "No materials uploaded yet. Upload a PDF first."}
 
 
     filenames = list(set(v["filename"] for v in vectors))

@@ -1,54 +1,82 @@
-from fastapi import APIRouter
-from pydantic import BaseModel
-import hashlib
-import json
-import os
+import re
+
+from fastapi import APIRouter, HTTPException
+from pydantic import BaseModel, EmailStr, field_validator
+
+from services.users import (
+    create_user,
+    find_user_by_email,
+    hash_password,
+    verify_login,
+)
 
 router = APIRouter(prefix="/auth", tags=["auth"])
+
+EMAIL_PATTERN = re.compile(r"^[^\s@]+@[^\s@]+\.[^\s@]+$")
+
 
 class SignupRequest(BaseModel):
     name: str
     email: str
     password: str
 
+    @field_validator("name")
+    @classmethod
+    def name_valid(cls, v: str) -> str:
+        v = v.strip()
+        if len(v) < 2:
+            raise ValueError("Name must be at least 2 characters")
+        return v
+
+    @field_validator("email")
+    @classmethod
+    def email_valid(cls, v: str) -> str:
+        v = v.strip().lower()
+        if not EMAIL_PATTERN.match(v):
+            raise ValueError("Invalid email address")
+        return v
+
+    @field_validator("password")
+    @classmethod
+    def password_valid(cls, v: str) -> str:
+        if len(v) < 6:
+            raise ValueError("Password must be at least 6 characters")
+        return v
+
+
 class LoginRequest(BaseModel):
     email: str
     password: str
 
-def hash_password(password: str) -> str:
-    return hashlib.sha256(password.encode()).hexdigest()
+    @field_validator("email")
+    @classmethod
+    def email_valid(cls, v: str) -> str:
+        return v.strip().lower()
 
-USERS_FILE = "users.json"
-
-def load_users():
-    if not os.path.exists(USERS_FILE):
-        return []
-    with open(USERS_FILE, "r") as f:
-        return json.load(f)
-
-def save_users(users):
-    with open(USERS_FILE, "w") as f:
-        json.dump(users, f)
 
 @router.post("/signup")
 def signup(data: SignupRequest):
-    users = load_users()
-    if any(u["email"] == data.email for u in users):
-        return {"error": "Gmail aready exists"}
-    user = {
-        "id": len(users) + 1,
-        "name": data.name,
-        "email": data.email,
-        "password": hash_password(data.password)
+    if find_user_by_email(data.email):
+        raise HTTPException(status_code=409, detail="An account with this email already exists")
+
+    user = create_user(data.name, data.email, data.password)
+    return {
+        "message": "Account created successfully",
+        "user_id": user["id"],
+        "name": user["name"],
+        "email": user["email"],
     }
-    users.append(user)
-    save_users(users)
-    return {"message": "You registered successfully", "user_id": user["id"]}
+
 
 @router.post("/login")
 def login(data: LoginRequest):
-    users = load_users()
-    user = next((u for u in users if u["email"] == data.email and u["password"] == hash_password(data.password)), None)
+    user = verify_login(data.email, data.password)
     if not user:
-        return {"error": "Invalid email or password"}
-    return {"message": "Login successful", "user_id": user["id"], "name": user["name"]}
+        raise HTTPException(status_code=401, detail="Invalid email or password")
+
+    return {
+        "message": "Login successful",
+        "user_id": user["id"],
+        "name": user["name"],
+        "email": user["email"],
+    }

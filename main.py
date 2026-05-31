@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from routers import auth, files, chat, quiz, plan
+from routers import auth, files, chat, quiz, plan, telegram_link
 
 load_dotenv()
 
@@ -20,6 +20,7 @@ app.include_router(files.router)
 app.include_router(chat.router)
 app.include_router(quiz.router)
 app.include_router(plan.router)
+app.include_router(telegram_link.router)
 
 @app.get("/")
 def root():
