@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-dummy}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-dummy}
+    volumes:
+      - ./:/app
+  frontend:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - ./ilm-ai-frontend:/app:ro
+    ports:
+      - "5500:5500"
+    command: python -m http.server 5500

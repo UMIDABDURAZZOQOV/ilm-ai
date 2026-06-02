@@ -1,5 +1,6 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+from services.subscriptions import can_chat, record_chat
 import os
 import json
 import numpy as np
@@ -51,6 +52,10 @@ class ChatRequest(BaseModel):
 
 @router.post("/ask")
 def ask(data: ChatRequest):
+    ok, msg = can_chat(data.user_id)
+    if not ok:
+        raise HTTPException(status_code=403, detail=msg)
+
     results = search_chunks(data.question, data.user_id)
 
     if not results:
@@ -72,6 +77,7 @@ QUESTION:
 {data.question}"""
     )
 
+    record_chat(data.user_id)
     return {
         "answer": response.text,
         "sources_found": len(results)

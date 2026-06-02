@@ -1,4 +1,5 @@
-from fastapi import APIRouter, UploadFile, File
+from fastapi import APIRouter, HTTPException, UploadFile, File
+from services.subscriptions import can_upload, record_upload
 import os
 import json
 import numpy as np
@@ -35,6 +36,15 @@ def extract_text_from_pdf(file_bytes: bytes) -> str:
     reader = pypdf.PdfReader(io.BytesIO(file_bytes))
     return "\n".join(page.extract_text() or "" for page in reader.pages)
 
+def extract_text_from_docx(file_bytes: bytes) -> str:
+    try:
+        from docx import Document
+
+        doc = Document(io.BytesIO(file_bytes))
+        return "\n".join(p.text for p in doc.paragraphs)
+    except Exception:
+        return ""
+
 def chunk_text(text: str, chunk_size: int = 500, overlap: int = 80):
     text = text.strip()
     chunks = []
@@ -53,10 +63,17 @@ def get_embedding(text: str):
 
 @router.post("/upload")
 async def upload_file(user_id: int, file: UploadFile = File(...)):
+    ok, msg = can_upload(user_id)
+    if not ok:
+        raise HTTPException(status_code=403, detail=msg)
+
     content = await file.read()
 
-    if file.filename.endswith(".pdf"):
+    lower_name = file.filename.lower()
+    if lower_name.endswith(".pdf"):
         text = extract_text_from_pdf(content)
+    elif lower_name.endswith(".docx"):
+        text = extract_text_from_docx(content)
     else:
         text = content.decode("utf-8", errors="ignore")
 
@@ -75,6 +92,7 @@ async def upload_file(user_id: int, file: UploadFile = File(...)):
 
     existing.extend(new_entries)
     save_vectors(user_id, existing)
+    record_upload(user_id)
 
     return {
         "message": "File uploaded and indexed successfully",

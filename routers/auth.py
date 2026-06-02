@@ -9,6 +9,7 @@ from services.users import (
     hash_password,
     verify_login,
 )
+from services.tokens import create_access_token, create_refresh_token, verify_refresh_token, revoke_refresh_token, revoke_user_refreshs
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -60,11 +61,15 @@ def signup(data: SignupRequest):
         raise HTTPException(status_code=409, detail="An account with this email already exists")
 
     user = create_user(data.name, data.email, data.password)
+    access = create_access_token(user["id"])
+    refresh = create_refresh_token(user["id"])
     return {
         "message": "Account created successfully",
         "user_id": user["id"],
         "name": user["name"],
         "email": user["email"],
+        "access_token": access,
+        "refresh_token": refresh,
     }
 
 
@@ -73,10 +78,37 @@ def login(data: LoginRequest):
     user = verify_login(data.email, data.password)
     if not user:
         raise HTTPException(status_code=401, detail="Invalid email or password")
-
+    access = create_access_token(user["id"])
+    refresh = create_refresh_token(user["id"])
     return {
         "message": "Login successful",
         "user_id": user["id"],
         "name": user["name"],
         "email": user["email"],
+        "access_token": access,
+        "refresh_token": refresh,
     }
+
+
+class RefreshRequest(BaseModel):
+    refresh_token: str
+
+
+@router.post("/refresh")
+def refresh_token(data: RefreshRequest):
+    user_id = verify_refresh_token(data.refresh_token)
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Invalid or expired refresh token")
+    # issue new tokens
+    access = create_access_token(user_id)
+    refresh = create_refresh_token(user_id)
+    # revoke old
+    revoke_refresh_token(data.refresh_token)
+    return {"access_token": access, "refresh_token": refresh}
+
+
+@router.post("/logout")
+def logout(data: RefreshRequest):
+    # revoke refresh token
+    revoke_refresh_token(data.refresh_token)
+    return {"message": "Logged out"}
