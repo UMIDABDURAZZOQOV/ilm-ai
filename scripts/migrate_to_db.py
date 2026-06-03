@@ -11,10 +11,10 @@ import json
 from pathlib import Path
 
 from dotenv import load_dotenv
+from sqlalchemy.orm import Session
 from services.db import engine
 from services.models import Base, User, VectorEntry, QuizSession
 from services.users import load_users
-from sqlalchemy.orm import Session
 
 load_dotenv()
 
@@ -23,7 +23,6 @@ Base.metadata.create_all(bind=engine)
 
 print("Loading users.json and inserting into DB...")
 users = load_users()
-from sqlalchemy.orm import Session
 
 with Session(engine) as sess:
     for u in users:

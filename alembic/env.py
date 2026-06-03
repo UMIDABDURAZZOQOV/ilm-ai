@@ -3,7 +3,10 @@ import os
 import sys
 from dotenv import load_dotenv
 
+sys.path.append(os.getcwd())
+
 from alembic import context
+from services.db import engine, Base
 
 load_dotenv()
 
@@ -13,12 +16,6 @@ config = context.config
 
 # Interpret the config file for Python logging.
 fileConfig(config.config_file_name)
-
-# add project path
-sys.path.append(os.getcwd())
-
-# import the SQLAlchemy engine and models
-from services.db import engine, Base
 
 # Provide the metadata for 'autogenerate'
 target_metadata = Base.metadata
