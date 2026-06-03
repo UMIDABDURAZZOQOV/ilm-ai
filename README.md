@@ -1,73 +1,205 @@
-# Ilm AI
+# 🎓 Ilm AI — Personal AI Learning Companion
+ 
+> **"Learning is not a phase of life. It is life."**
+>
+> Ilm AI is a RAG-based intelligent learning platform that turns your documents into a personal tutor. Upload your materials and let AI quiz you, explain your mistakes, detect your knowledge gaps, and build a personalized learning plan.
+ 
+---
+ 
+## 🌐 Live Demo
+ 
+- **Frontend:** *(https://github.com/UMIDABDURAZZOQOV/ilm-ai-frontend)*
+- **Backend API Docs:** *(http://127.0.0.1:8000/docs)*
+---
+ 
+## 📸 Screenshots
+ 
+### 🏠 Frontend
+ 
+<img width="1538" height="759" alt="project5" src="https://github.com/user-attachments/assets/6fc5ed50-12dc-4b90-abe1-350bbced02a4" />
+<img width="1565" height="757" alt="project1" src="https://github.com/user-attachments/assets/1044172b-e296-47ca-9da5-e6889e61711b" />
+<img width="1562" height="750" alt="project2" src="https://github.com/user-attachments/assets/93fdd955-40a1-49a4-86df-7007493794b9" />
+<img width="1560" height="769" alt="project3" src="https://github.com/user-attachments/assets/df9197e1-b7ba-4d6b-bdd7-90c01adae89b" />
+<img width="1540" height="766" alt="project4" src="https://github.com/user-attachments/assets/edb64623-2d38-4359-b389-0f617df51d27" />
 
-Ilm AI — personal learning companion (backend + frontend).
 
-Quick start (development):
+ 
+## ✨ Features
+ 
+- 📄 **Document Upload** — Upload PDF, DOCX, TXT files and train your AI tutor
+- 💬 **RAG Chat** — Answers strictly grounded in your uploaded materials, with citations
+- 🧠 **Quiz Mode** — 3 difficulty levels (easy / medium / hard), with explanations after each answer
+- 📈 **Knowledge Gap Detection** — Identifies concepts you consistently struggle with across sessions
+- 📅 **Learning Plan Generator** — Creates a day-by-day study plan based on your goal and deadline
+- 📱 **Telegram Bot** — Daily reminders, on-demand quizzes, streak notifications
+- 💳 **Payment** — Premium subscription via Payme / Click
+- 🌐 **Multilingual** — Uzbek, Russian, English
+---
 
-1. Copy `.env.example` to `.env` and set `GEMINI_API_KEY` and `TELEGRAM_BOT_TOKEN` (can be dummy for local tests).
 
-2. Create a Python virtual environment and install dependencies:
+### 🔐 Authentication
+ 
+<img width="1569" height="772" alt="project7" src="https://github.com/user-attachments/assets/fdb799c4-0b2d-45ea-aa68-337420a118e1" />
+<img width="1566" height="774" alt="project6" src="https://github.com/user-attachments/assets/465f7381-656c-45cd-bd9f-65f81df08254" />
 
-```powershell
-cd C:\Users\Larry\ilm-ai
-python -m venv .venv
-.\.venv\Scripts\activate
+ 
+## 🛠 Tech Stack
+ 
+### Backend
+| Layer | Technology |
+|-------|-----------|
+| Framework | FastAPI (Python) |
+| Database | PostgreSQL + pgvector |
+| Migrations | Alembic |
+| LLM | Google Gemini |
+| Auth | JWT |
+| Payments | Payme, Click |
+| Messaging | Telegram Bot API |
+ 
+### Frontend
+| Layer | Technology |
+|-------|-----------|
+| Languages | HTML, CSS, JavaScript |
+| Repo | [ilm-ai-frontend](https://github.com/UMIDABDURAZZOQOV/ilm-ai-frontend) |
+ 
+### Infrastructure
+| Layer | Technology |
+|-------|-----------|
+| Container | Docker + Docker Compose |
+| CI/CD | GitHub Actions |
+ 
+---
+ 
+## 🚀 Quick Start
+ 
+### Docker (Recommended)
+ 
+```bash
+# Clone the repository
+git clone https://github.com/UMIDABDURAZZOQOV/ilm-ai.git
+cd ilm-ai
+ 
+# Start all services
+docker compose up -d
+```
+ 
+### Manual Setup
+ 
+```bash
+# Install dependencies
 pip install -r requirements.txt
-```
-
-3. Run backend:
-
-```powershell
-uvicorn main:app --reload
-```
-
-Database migration (optional):
-
-Set `DATABASE_URL` in `.env` and run:
-
-```powershell
-python scripts/migrate_to_db.py
-```
-
-This will create tables and import existing `users.json`, `data/quiz_history` and `vectors/*.json` into Postgres.
-
-Alembic migrations:
-
-1. Install alembic (`pip install alembic`) or ensure it's in `requirements.txt`.
-2. Configure `DATABASE_URL` in your environment.
-3. Run migrations:
-
-```powershell
+ 
+# Run database migrations
 alembic upgrade head
+ 
+# Start backend
+python main.py
+ 
+# Start Telegram bot (separate terminal)
+python run_telegram_bot.py
 ```
 
-The repo includes a basic Alembic scaffold in the `alembic/` folder and an initial migration `alembic/versions/0001_initial.py`.
+### 📊 Core Features Backend
+ 
+<img width="1561" height="762" alt="project11" src="https://github.com/user-attachments/assets/d92a4152-b643-4aef-8bea-c66e122b19b6" />
+<img width="1580" height="759" alt="project12" src="https://github.com/user-attachments/assets/b3cb7968-5e95-4adb-8c84-3401bcfc035b" />
+<img width="1579" height="759" alt="project13" src="https://github.com/user-attachments/assets/fae69333-0db5-49f8-8384-0a34ff51c1f4" />
+<img width="1586" height="767" alt="project8" src="https://github.com/user-attachments/assets/51af07aa-b3d6-409d-a4ac-ff03edbd2972" />
+<img width="1590" height="769" alt="project9" src="https://github.com/user-attachments/assets/c9b1e40f-4471-409f-9881-18d5840eed9f" />
+<img width="1567" height="773" alt="project10" src="https://github.com/user-attachments/assets/c8e293fe-1a78-4bb6-b959-3e5c517ce7d3" />
 
-4. Serve frontend (from `ilm-ai-frontend`):
 
+ 
+### Windows PowerShell Scripts
+ 
 ```powershell
-cd C:\Users\Larry\ilm-ai-frontend
-python -m http.server 5500
+# Start everything at once
+./start_all.ps1
+ 
+# Or start individually
+./start_backend.ps1
+./start_bot.ps1
+./start_frontend.ps1
 ```
-
-Open `http://127.0.0.1:5500` for the frontend and `http://127.0.0.1:8000/docs` for API docs.
-
-Notes & missing items:
-
-- Week 3 milestone features (quiz, gaps report, test-mode payments, Telegram bot, dashboard, feedback) are implemented.
-- The project currently uses JSON files for storage (`users.json`, `data/` directories). PostgreSQL + `pgvector` is not yet integrated.
-- OAuth (Google), JWT refresh tokens, CI/CD deployments, and production monitoring are NOT implemented yet. These are recommended next steps for a production-ready release.
-
-What I changed locally to help testing:
-
-- Added `python-docx` to `requirements.txt` and support for `.docx` uploads.
-- Added developer Docker and GitHub Actions CI workflow files (see repo root).
-
-If you want, I can continue and implement (in order of priority):
-1. PostgreSQL + migrations + switch storage from JSON to DB
-2. JWT + refresh tokens for auth
-3. Google OAuth
-4. Real payment provider integration (Stripe/Payme/Click)
-5. Add evaluation harness and automated test samples
-
-Tell me which of the above you want next and I will implement it.
+ 
+---
+ 
+## 📁 Project Structure
+ 
+```
+ilm-ai/
+├── main.py                  # FastAPI entry point
+├── run_telegram_bot.py      # Telegram bot runner
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── alembic.ini
+│
+├── routers/                 # API endpoints
+│   ├── auth.py
+│   ├── chat.py
+│   ├── files.py
+│   ├── quiz.py
+│   ├── plan.py
+│   ├── gaps.py
+│   ├── payments.py
+│   ├── feedback.py
+│   └── telegram_link.py
+│
+├── services/                # Business logic
+│   ├── db.py
+│   ├── models.py
+│   ├── users.py
+│   ├── tokens.py
+│   ├── quiz_engine.py
+│   ├── quiz_history.py
+│   ├── gap_detection.py
+│   ├── payments.py
+│   └── subscriptions.py
+│
+├── telegram_bot/            # Telegram bot
+│   └── bot.py
+│
+├── alembic/                 # Database migrations
+│   └── versions/
+│       └── 0001_initial.py
+│
+├── diary/                   # Weekly progress diary
+│   ├── 2026-05-28.md
+│   ├── 2026-05-29.md
+│   ├── 2026-05-31.md
+│   └── 2026-06-01.md
+│
+├── tests/
+│   └── test_smoke.py
+│
+└── assets/                  # Screenshots
+```
+ 
+---
+ 
+## 🗓 Project Milestones
+ 
+| Week | Milestone | Status |
+|------|-----------|--------|
+| Week 1 | Auth + File Upload + Basic RAG Chat | ✅ Done |
+| Week 2 | Quiz Mode + Learning Plan + Telegram Bot | ✅ Done |
+| Week 3 | Knowledge Gap Detection + Payment + Mobile UI | ✅ Done |
+ 
+---
+ 
+## 📓 Development Diary
+ 
+Weekly progress diary is available in the `diary/` folder. Each entry covers what was done, problems encountered, solutions found, and next steps.
+ 
+---
+ 
+## 👤 Author
+ 
+**Umid Abdurazzoqov**
+AI Mentorship Program — AI Incubator Uzbekistan 2025
+GitHub: [@UMIDABDURAZZOQOV](https://github.com/UMIDABDURAZZOQOV)
+ 
+---
+ 
+*Built with ❤️ during the AI Incubator Mentorship Program, Uzbekistan 2026*
