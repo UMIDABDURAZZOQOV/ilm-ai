@@ -1,6 +1,6 @@
 # 🎓 Ilm AI — Personal AI Learning Companion
  
-> **"Learning is not a phase of life. It is life."**
+
 >
 > Ilm AI is a RAG-based intelligent learning platform that turns your documents into a personal tutor. Upload your materials and let AI quiz you, explain your mistakes, detect your knowledge gaps, and build a personalized learning plan.
  
