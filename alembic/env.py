@@ -1,11 +1,11 @@
 from logging.config import fileConfig
 import os
 import sys
-
-from sqlalchemy import engine_from_config
-from sqlalchemy import pool
+from dotenv import load_dotenv
 
 from alembic import context
+
+load_dotenv()
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
@@ -18,8 +18,7 @@ fileConfig(config.config_file_name)
 sys.path.append(os.getcwd())
 
 # import the SQLAlchemy engine and models
-from services.db import engine, DATABASE_URL, Base
-import services.models as models
+from services.db import engine, Base
 
 # Provide the metadata for 'autogenerate'
 target_metadata = Base.metadata

@@ -40,10 +40,11 @@ def generate_plan(data: PlanRequest):
 
  
     today = datetime.now().date()
+
     try:
         target = datetime.strptime(data.target_date, "%Y-%m-%d").date()
         days_available = (target - today).days
-    except:
+    except (ValueError, TypeError):
         days_available = 30
 
     if days_available <= 0:
@@ -97,5 +98,5 @@ Return ONLY the JSON, no other text. Keep the plan realistic and specific."""
             if text.startswith("json"):
                 text = text[4:]
         return json.loads(text)
-    except:
+    except Exception:
         return {"error": "Could not generate plan", "raw": response.text}

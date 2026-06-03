@@ -7,15 +7,16 @@ It reads `users.json`, `data/quiz_history/user_{id}.json` and `vectors/*.json` a
 
 Make sure `DATABASE_URL` is set in .env or environment.
 """
-import os
 import json
 from pathlib import Path
-from dotenv import load_dotenv
 
-load_dotenv()
+from dotenv import load_dotenv
 from services.db import engine
 from services.models import Base, User, VectorEntry, QuizSession
 from services.users import load_users
+from sqlalchemy.orm import Session
+
+load_dotenv()
 
 print("Creating tables...")
 Base.metadata.create_all(bind=engine)

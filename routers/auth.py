@@ -1,15 +1,14 @@
 import re
 
 from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel, EmailStr, field_validator
+from pydantic import BaseModel, field_validator
 
 from services.users import (
     create_user,
     find_user_by_email,
-    hash_password,
     verify_login,
 )
-from services.tokens import create_access_token, create_refresh_token, verify_refresh_token, revoke_refresh_token, revoke_user_refreshs
+from services.tokens import create_access_token, create_refresh_token, verify_refresh_token, revoke_refresh_token
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 

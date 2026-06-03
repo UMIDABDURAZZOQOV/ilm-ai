@@ -2,7 +2,6 @@ from fastapi import APIRouter, HTTPException, UploadFile, File
 from services.subscriptions import can_upload, record_upload
 import os
 import json
-import numpy as np
 from google import genai
 from dotenv import load_dotenv
 import pypdf
