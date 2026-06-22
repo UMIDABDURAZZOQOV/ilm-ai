@@ -43,7 +43,48 @@
 <img width="1566" height="774" alt="project6" src="https://github.com/user-attachments/assets/465f7381-656c-45cd-bd9f-65f81df08254" />
 
  
-## 🛠 Tech Stack
+## � Integrations
+
+The project includes three major integrations for production deployment:
+
+### 🔐 Google OAuth
+- **Status:** ✅ Fully implemented
+- **Location:** `services/google_oauth.py`, `routers/auth.py`
+- **Setup:** See [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md#-google-oauth-sozlash)
+- **Features:**
+  - User registration/login with Google account
+  - JWT token generation
+  - CSRF protection with state tokens
+  - Automatic user creation on first login
+
+### 💳 Payment Gateways (Payme/Click)
+- **Status:** ✅ Fully implemented (supports both test and production modes)
+- **Location:** `services/payments.py`, `routers/payments.py`
+- **Setup:** See [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md#-paymeclick-tolov-sozlash)
+- **Features:**
+  - Payme payment integration
+  - Click payment integration
+  - Webhook handling for both gateways
+  - Test mode for development
+  - Premium subscription activation
+
+### 📊 Sentry Monitoring
+- **Status:** ✅ Fully implemented
+- **Location:** `services/monitoring.py`
+- **Setup:** See [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md#-sentry-monitoring-sozlash)
+- **Features:**
+  - Error tracking and alerting
+  - Performance monitoring
+  - User context tracking
+  - Custom event tracking (signups, logins, payments, quizzes)
+  - LLM call performance monitoring
+  - Sensitive data sanitization
+
+For detailed integration setup instructions, see [INTEGRATIONS_SETUP.md](INTEGRATIONS_SETUP.md).
+
+---
+
+## �🛠 Tech Stack
  
 ### Backend
 | Layer | Technology |

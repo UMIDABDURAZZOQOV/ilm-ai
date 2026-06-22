@@ -2,6 +2,7 @@ import json
 import os
 
 from google import genai
+from google.genai.errors import ClientError
 from dotenv import load_dotenv
 
 from services.quiz_engine import load_vectors
@@ -58,9 +59,13 @@ def generate_gaps_report(user_id: int, is_premium: bool) -> dict:
     )
 
     detail_level = "full" if is_premium else "summary"
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=f"""You are a learning analytics agent for Ilm AI.
+    import time
+    from services.monitoring import log_llm_call
+    start_time = time.time()
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=f"""You are a learning analytics agent for Ilm AI.
 Analyze quiz history and identify knowledge gaps.
 
 Report level: {detail_level}
@@ -85,6 +90,21 @@ Return JSON:
 }}
 
 Return ONLY JSON.""",
+        )
+    except ClientError as e:
+        return {
+            "ready": False,
+            "message": "Gemini API rate limit exceeded or error occurred. Try again later.",
+        }
+
+    latency_ms = int((time.time() - start_time) * 1000)
+    
+    log_llm_call(
+        user_id=user_id,
+        prompt=history_summary, # Simplified prompt for logging
+        response_text=response.text,
+        latency_ms=latency_ms,
+        model="gemini-2.5-flash"
     )
 
     try:
@@ -105,3 +125,4 @@ Return ONLY JSON.""",
             "ready": False,
             "message": "Could not generate gaps report. Try again later.",
         }
+

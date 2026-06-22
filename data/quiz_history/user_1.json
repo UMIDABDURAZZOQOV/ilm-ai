@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "completed_at": "2026-06-15T03:20:21.865166Z",
+    "score": 2,
+    "total": 5,
+    "difficulty": "medium",
+    "results": [
+      {
+        "question": "The context emphasizes focusing on specific individual stories rather than generic \"students.\" Which of the following best exemplifies the personalized learning experience the platform aims to provide?",
+        "user_answer": "A) A general user exploring various topics without a clear goal.",
+        "correct_answer": "B) A 42-year-old accountant learning Python to adapt to firm automation.",
+        "is_correct": false,
+        "topic": "User Profiles & Personalization",
+        "explanation": "The text explicitly mentions \"a 42-year-old accountant learning Python because their firm is automating\" as an example of a specific person with a clear learning objective, highlighting the personalized approach."
+      },
+      {
+        "question": "According to the \"demo\" section, what is the correct sequence of steps for a user experiencing the full flow of the platform?",
+        "user_answer": "A) Upload → Conversation → Quiz → Plan → Payment",
+        "correct_answer": "A) Upload → Conversation → Quiz → Plan → Payment",
+        "is_correct": true,
+        "topic": "Product Workflow",
+        "explanation": "The demo flow is explicitly stated as \"upload → conversation → quiz → plan → payment.\""
+      },
+      {
+        "question": "The recommended frontend architecture specifies Next.js (React) and Tailwind CSS, with a strong emphasis on a fully responsive, mobile-first design. What is the primary reason given for this mobile-first design choice?",
+        "user_answer": "D) To leverage the latest design trends for a modern aesthetic.",
+        "correct_answer": "B) Because a large proportion of users in Uzbekistan and Central Asia access the internet primarily via phone.",
+        "is_correct": false,
+        "topic": "Technical Architecture Decisions",
+        "explanation": "The text states: \"Fully responsive, mobile-first design — a large proportion of users in Uzbekistan and Central Asia access the internet primarily via phone.\""
+      },
+      {
+        "question": "As part of the Final Project Deliverables, what is a crucial aspect of the \"Evaluation report\" for the AI companion responses?",
+        "user_answer": "B) The AI's responses must be rated on a rubric covering accuracy, groundedness, helpfulness, and tone.",
+        "correct_answer": "B) The AI's responses must be rated on a rubric covering accuracy, groundedness, helpfulness, and tone.",
+        "is_correct": true,
+        "topic": "Project Evaluation",
+        "explanation": "The text specifies an \"Evaluation report — at least 50 AI companion responses rated on a rubric covering accuracy, groundedness in uploaded material, helpfulness, and tone.\""
+      },
+      {
+        "question": "According to the \"Model & Strategy Selection\" section, what is a significant drawback associated with using the \"Full Fine-Tuning\" strategy?",
+        "user_answer": "D) It only updates a small subset of the model's parameters.",
+        "correct_answer": "B) It is computationally expensive, requiring significant GPU memory.",
+        "is_correct": false,
+        "topic": "AI Model Strategy",
+        "explanation": "The \"Cons\" section for Full Fine-Tuning states: \"Computationally Expensive: Requires significant GPU memory to store gradients, optimizer states, and activations for all parameters.\""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "completed_at": "2026-06-15T15:19:56.173139Z",
+    "score": 2,
+    "total": 3,
+    "difficulty": "medium",
+    "results": [
+      {
+        "question": "Question 1",
+        "user_answer": "A) option1",
+        "correct_answer": "A) option1",
+        "is_correct": true,
+        "topic": "MachineLearning",
+        "explanation": "Correct answer explanation"
+      },
+      {
+        "question": "Question 2",
+        "user_answer": "B) option2",
+        "correct_answer": "A) option1",
+        "is_correct": false,
+        "topic": "MachineLearning",
+        "explanation": "Incorrect answer explanation"
+      },
+      {
+        "question": "Question 3",
+        "user_answer": "A) option1",
+        "correct_answer": "A) option1",
+        "is_correct": true,
+        "topic": "NeuralNetworks",
+        "explanation": "Correct answer explanation"
+      }
+    ]
+  }
+]

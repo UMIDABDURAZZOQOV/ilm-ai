@@ -172,7 +172,7 @@ async def quiz_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     chat_id = update.effective_chat.id
     await update.message.reply_text("⏳ Preparing your quiz...")
 
-    data = generate_quiz(user["id"], num_questions=5, difficulty="medium")
+    data = generate_quiz(user["id"], num_questions=5, difficulty="solid understanding")
     if "error" in data:
         await update.message.reply_text(f"❌ {data['error']}")
         return
@@ -257,6 +257,7 @@ async def on_text_answer(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         update.message.text.strip(),
         q.get("correct_answer", ""),
         session["context"],
+        user_id=session["user_id"],
     )
     if result.get("is_correct"):
         session["score"] += 1
@@ -275,6 +276,7 @@ async def evaluate_and_next(query, session, q, user_answer, context) -> None:
         user_answer,
         q.get("correct_answer", ""),
         session["context"],
+        user_id=session["user_id"],
     )
     if result.get("is_correct"):
         session["score"] += 1

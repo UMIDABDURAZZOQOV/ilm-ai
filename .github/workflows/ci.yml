@@ -27,6 +27,17 @@ jobs:
       - name: Build Docker image
         uses: docker/build-push-action@v4
         with:
-          context: .
-          push: false
-          tags: ilm-ai:ci
+            context: .
+            push: false
+            tags: ilm-ai:ci
+
+  deploy:
+    name: Deploy to Production
+    needs: test
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploying...
+        run: echo "Deploying to production server (e.g., VPS or Railway)"
+        # Here we would typically use an action like 'appleboy/ssh-action' or 'railway deploy'

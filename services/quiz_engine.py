@@ -1,9 +1,12 @@
 import json
 import os
 import random
+import time
 
 from google import genai
+from google.genai.errors import ClientError
 from dotenv import load_dotenv
+from services.monitoring import log_llm_call
 
 load_dotenv()
 
@@ -11,7 +14,28 @@ VECTOR_DIR = "vectors"
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 
+from services.users import USE_DB
+from services.db import SessionLocal
+from services.models import VectorEntry
+
 def load_vectors(user_id: int) -> list[dict]:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            entries = db.query(VectorEntry).filter(VectorEntry.user_id == user_id).all()
+            return [
+                {
+                    "id": e.chunk_id,
+                    "filename": e.filename,
+                    "topic": e.topic,
+                    "text": e.text,
+                    "embedding": e.embedding
+                }
+                for e in entries
+            ]
+        finally:
+            db.close()
+
     path = f"{VECTOR_DIR}/user_{user_id}.json"
     if not os.path.exists(path):
         return []
@@ -31,7 +55,8 @@ def _parse_json_response(text: str) -> dict:
 def generate_quiz(
     user_id: int,
     num_questions: int = 5,
-    difficulty: str = "medium",
+    difficulty: str = "solid understanding",
+    language: str = "en",
 ) -> dict:
     vectors = load_vectors(user_id)
     if not vectors:
@@ -44,16 +69,22 @@ def generate_quiz(
     context = "\n\n---\n\n".join(selected)
 
     difficulty_prompt = {
-        "easy": "Generate simple recall questions",
-        "medium": "Generate questions requiring understanding",
-        "hard": "Generate questions requiring deep analysis",
+        "gentle review": "Generate simple recall questions (easy)",
+        "solid understanding": "Generate questions requiring understanding and application (medium)",
+        "expert challenge": "Generate questions requiring deep analysis and critical thinking (hard)",
     }.get(difficulty, "Generate questions requiring understanding")
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=f"""You are a quiz generator. Based on the context below, generate {num_questions} quiz questions.
+    lang_instruction = ""
+    if language and language != "en":
+        lang_names = {"uz": "Uzbek", "ru": "Russian"}
+        lang_name = lang_names.get(language, language)
+        lang_instruction = f"\nIMPORTANT: Generate all questions and content in {lang_name} language."
 
-Difficulty: {difficulty_prompt}
+    prompt = f"""You are a quiz generator for Ilm AI. Based on the context below, generate exactly {num_questions} quiz questions.
+
+Difficulty: {difficulty_prompt}{lang_instruction}
+
+IMPORTANT: Generate ALL questions as Multiple Choice (MCQ) with exactly 4 options each.
 
 CONTEXT:
 {context}
@@ -66,13 +97,40 @@ Generate questions in this exact JSON format:
       "type": "mcq",
       "options": ["A) option1", "B) option2", "C) option3", "D) option4"],
       "correct_answer": "A) option1",
-      "explanation": "Brief explanation"
+      "explanation": "Brief explanation",
+      "topic": "topic name"
     }}
   ],
   "context": "short summary of source material used"
 }}
 
-Return ONLY the JSON, no other text.""",
+Rules:
+- Generate EXACTLY {num_questions} questions
+- Every question MUST have exactly 4 options labeled A), B), C), D)
+- The correct_answer MUST exactly match one of the options
+- Include a topic field for each question
+
+Return ONLY the JSON, no other text."""
+
+    start_time = time.time()
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+    except ClientError as e:
+        if hasattr(e, "status_code") and e.status_code == 429:
+            return {"error": "Gemini API rate limit exceeded. Please try again in a moment."}
+        return {"error": f"Gemini API Error: {str(e)}"}
+    
+    latency_ms = int((time.time() - start_time) * 1000)
+
+    log_llm_call(
+        user_id=user_id,
+        prompt=prompt,
+        response_text=response.text,
+        latency_ms=latency_ms,
+        model="gemini-2.5-flash"
     )
 
     try:
@@ -88,17 +146,17 @@ def check_answer(
     user_answer: str,
     correct_answer: str,
     context: str,
+    user_id: int = None,
 ) -> dict:
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=f"""You are a quiz evaluator.
+    prompt = f"""You are a quiz evaluator for Ilm AI.
 
 Question: {question}
 Correct answer: {correct_answer}
 User's answer: {user_answer}
 Context: {context}
 
-Evaluate if the user's answer is correct. Respond in JSON:
+Evaluate if the user's answer is correct. Be encouraging and Socratic.
+Respond in JSON:
 {{
   "is_correct": true or false,
   "score": 1 or 0,
@@ -106,7 +164,27 @@ Evaluate if the user's answer is correct. Respond in JSON:
   "explanation": "Full explanation"
 }}
 
-Return ONLY the JSON.""",
+Return ONLY the JSON."""
+
+    start_time = time.time()
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+    except ClientError as e:
+        if hasattr(e, "status_code") and e.status_code == 429:
+            return {"error": "Gemini API rate limit exceeded. Please try again in a moment."}
+        return {"error": f"Gemini API Error: {str(e)}"}
+    
+    latency_ms = int((time.time() - start_time) * 1000)
+
+    log_llm_call(
+        user_id=user_id,
+        prompt=prompt,
+        response_text=response.text,
+        latency_ms=latency_ms,
+        model="gemini-2.5-flash"
     )
 
     try:
@@ -117,3 +195,4 @@ Return ONLY the JSON.""",
             "feedback": "Could not evaluate answer",
             "explanation": "",
         }
+

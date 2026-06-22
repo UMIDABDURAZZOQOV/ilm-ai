@@ -44,6 +44,8 @@ with Session(engine) as sess:
             quiz_count_date=u.get("quiz_count_date"),
             chat_count_today=u.get("chat_count_today", 0),
             chat_count_date=u.get("chat_count_date"),
+            learning_goal=u.get("learning_goal"),
+            target_date=u.get("target_date"),
         )
         sess.add(user)
     sess.commit()
@@ -93,6 +95,7 @@ with Session(engine) as sess:
                 chunk_id=chunk_id,
                 text=v.get("text"),
                 embedding=v.get("embedding"),
+                topic=v.get("topic", "General"),
             )
             sess.add(ve)
     sess.commit()

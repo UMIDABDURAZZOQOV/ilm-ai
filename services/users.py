@@ -25,8 +25,12 @@ if USE_DB:
 def _load_users_from_file() -> List[Dict[str, Any]]:
     if not os.path.exists(USERS_FILE):
         return []
-    with open(USERS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(USERS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, list) else []
+    except (json.JSONDecodeError, ValueError):
+        return []
 
 
 def _save_users_to_file(users: List[Dict[str, Any]]) -> None:
@@ -140,10 +144,124 @@ def create_user(name: str, email: str, password: str) -> Dict[str, Any]:
         "quiz_count_date": None,
         "chat_count_today": 0,
         "chat_count_date": None,
+        "learning_goal": None,
+        "target_date": None,
     }
     users.append(user)
     _save_users_to_file(users)
     return user
+
+
+def create_user_with_oauth(name: str, email: str, provider: str = "google", provider_id: str = None, picture: str = None) -> Dict[str, Any]:
+    """Create a user account using OAuth authentication (no password)."""
+    email = email.strip().lower()
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            u = UserModel(
+                name=name.strip(), 
+                email=email, 
+                password=None,  # No password for OAuth users
+                oauth_provider=provider,
+                oauth_provider_id=provider_id,
+                profile_picture=picture
+            )
+            db.add(u)
+            db.commit()
+            db.refresh(u)
+            return {c: getattr(u, c) for c in u.__table__.columns.keys()}
+        finally:
+            db.close()
+
+    users = _load_users_from_file()
+    user_id = max((u.get("id", 0) for u in users), default=0) + 1
+    user = {
+        "id": user_id,
+        "name": name.strip(),
+        "email": email,
+        "password": None,  # No password for OAuth users
+        "oauth_provider": provider,
+        "oauth_provider_id": provider_id,
+        "profile_picture": picture,
+        "telegram_chat_id": None,
+        "reminder_time": "09:00",
+        "streak_days": 0,
+        "last_study_date": None,
+        "subscription_tier": "free",
+        "uploads_count": 0,
+        "quiz_count_today": 0,
+        "quiz_count_date": None,
+        "chat_count_today": 0,
+        "chat_count_date": None,
+        "learning_goal": None,
+        "target_date": None,
+    }
+    users.append(user)
+    _save_users_to_file(users)
+    return user
+
+
+def update_user_oauth_info(user_id: int, provider: str = None, provider_id: str = None, picture: str = None) -> bool:
+    """Update user OAuth information."""
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            u = db.query(UserModel).filter(UserModel.id == user_id).first()
+            if not u:
+                return False
+            if provider is not None:
+                u.oauth_provider = provider
+            if provider_id is not None:
+                u.oauth_provider_id = provider_id
+            if picture is not None:
+                u.profile_picture = picture
+            db.add(u)
+            db.commit()
+            return True
+        finally:
+            db.close()
+
+    users = _load_users_from_file()
+    u = next((x for x in users if x.get("id") == user_id), None)
+    if not u:
+        return False
+    if provider is not None:
+        u["oauth_provider"] = provider
+    if provider_id is not None:
+        u["oauth_provider_id"] = provider_id
+    if picture is not None:
+        u["profile_picture"] = picture
+    _save_users_to_file(users)
+    return True
+
+
+def update_user_profile(user_id: int, learning_goal: str = None, target_date: str = None) -> bool:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            u = db.query(UserModel).filter(UserModel.id == user_id).first()
+            if not u:
+                return False
+            if learning_goal is not None:
+                u.learning_goal = learning_goal
+            if target_date is not None:
+                u.target_date = target_date
+            db.add(u)
+            db.commit()
+            return True
+        finally:
+            db.close()
+
+    users = _load_users_from_file()
+    u = next((x for x in users if x.get("id") == user_id), None)
+    if not u:
+        return False
+    if learning_goal is not None:
+        u["learning_goal"] = learning_goal
+    if target_date is not None:
+        u["target_date"] = target_date
+    _save_users_to_file(users)
+    return True
 
 
 def find_user_by_chat_id(chat_id: int) -> Optional[Dict[str, Any]]:
