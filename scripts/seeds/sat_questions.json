@@ -1,0 +1,298 @@
+[
+  {
+    "exam_type": "SAT",
+    "domain": "Algebra",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "If 3x + 6 = 21, what is the value of x?",
+    "options": ["A) 3", "B) 5", "C) 7", "D) 9"],
+    "correct_answer": "B) 5",
+    "tags": ["linear equations", "algebra"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Algebra",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "Which of the following is equivalent to 2(x + 3) - 4?",
+    "options": ["A) 2x + 2", "B) 2x + 6", "C) 2x - 1", "D) 2x + 10"],
+    "correct_answer": "A) 2x + 2",
+    "tags": ["expressions", "algebra"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Algebra",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "If f(x) = 2x^2 - 3x + 1, what is f(3)?",
+    "options": ["A) 10", "B) 12", "C) 14", "D) 16"],
+    "correct_answer": "A) 10",
+    "tags": ["functions", "algebra"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Algebra",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "A line passes through (0, 4) and (2, 8). What is the equation of the line?",
+    "options": ["A) y = 2x + 4", "B) y = 4x + 2", "C) y = 2x - 4", "D) y = 4x - 4"],
+    "correct_answer": "A) y = 2x + 4",
+    "tags": ["linear equations", "slope"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Algebra",
+    "difficulty": "hard",
+    "question_type": "mcq",
+    "question_text": "If 2x - y = 5 and x + y = 4, what is the value of x?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "correct_answer": "B) 3",
+    "tags": ["systems of equations", "algebra"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Advanced Math",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "Which of the following is a factor of x^2 - 5x + 6?",
+    "options": ["A) (x - 1)", "B) (x - 2)", "C) (x + 2)", "D) (x + 3)"],
+    "correct_answer": "B) (x - 2)",
+    "tags": ["factoring", "quadratics"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Advanced Math",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "What are the solutions to x^2 - 4x - 12 = 0?",
+    "options": ["A) x = 6 and x = -2", "B) x = 4 and x = -3", "C) x = 3 and x = -4", "D) x = 2 and x = -6"],
+    "correct_answer": "A) x = 6 and x = -2",
+    "tags": ["quadratic equations", "advanced math"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Advanced Math",
+    "difficulty": "hard",
+    "question_type": "mcq",
+    "question_text": "If f(x) = x^3 - 3x^2 + 2x, for which values of x does f(x) = 0?",
+    "options": ["A) 0, 1, and 2", "B) 0, -1, and -2", "C) 1, 2, and 3", "D) -1, 0, and 1"],
+    "correct_answer": "A) 0, 1, and 2",
+    "tags": ["polynomials", "factoring"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Problem Solving & Data Analysis",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "A store sells apples for $0.50 each. If a customer buys 12 apples, how much do they pay?",
+    "options": ["A) $5.00", "B) $6.00", "C) $7.00", "D) $8.00"],
+    "correct_answer": "B) $6.00",
+    "tags": ["ratios", "problem solving"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Problem Solving & Data Analysis",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "A survey of 200 students found that 60% prefer math over science. How many students prefer math?",
+    "options": ["A) 100", "B) 110", "C) 120", "D) 130"],
+    "correct_answer": "C) 120",
+    "tags": ["percentages", "data analysis"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Problem Solving & Data Analysis",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "The mean of five numbers is 12. If four of the numbers are 8, 10, 14, and 16, what is the fifth number?",
+    "options": ["A) 10", "B) 12", "C) 14", "D) 16"],
+    "correct_answer": "B) 12",
+    "tags": ["mean", "statistics"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Problem Solving & Data Analysis",
+    "difficulty": "hard",
+    "question_type": "mcq",
+    "question_text": "In a class of 30 students, 18 play soccer and 12 play basketball. If 6 play both, how many play neither?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "correct_answer": "C) 6",
+    "tags": ["set theory", "data analysis"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Geometry & Trigonometry",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "What is the area of a rectangle with length 8 and width 5?",
+    "options": ["A) 30", "B) 35", "C) 40", "D) 45"],
+    "correct_answer": "C) 40",
+    "tags": ["area", "rectangles"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Geometry & Trigonometry",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "correct_answer": "B) 5",
+    "tags": ["pythagorean theorem", "triangles"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Geometry & Trigonometry",
+    "difficulty": "hard",
+    "question_type": "mcq",
+    "question_text": "In a circle with radius 6, what is the length of an arc that subtends a central angle of 60 degrees?",
+    "options": ["A) 2π", "B) 4π", "C) 6π", "D) 8π"],
+    "correct_answer": "A) 2π",
+    "tags": ["circles", "arc length"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Information and Ideas",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "According to the passage, which of the following best describes the main idea?",
+    "options": ["A) Technology improves education", "B) Reading enhances critical thinking", "C) Exercise benefits mental health", "D) Diet affects academic performance"],
+    "correct_answer": "C) Exercise benefits mental health",
+    "tags": ["reading comprehension", "main idea"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Information and Ideas",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "The author uses the phrase 'turning point' in line 12 to suggest that the event was:",
+    "options": ["A) unexpected", "B) significant", "C) minor", "D) gradual"],
+    "correct_answer": "B) significant",
+    "tags": ["vocabulary in context", "reading"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Craft and Structure",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "The tone of the following sentence is best described as: 'The scientist cautiously approached her groundbreaking discovery.'",
+    "options": ["A) excited", "B) cautious", "C) dismissive", "D) sarcastic"],
+    "correct_answer": "B) cautious",
+    "tags": ["tone", "craft and structure"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Craft and Structure",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "Which choice most effectively uses data from the table to support the author's claim?",
+    "options": ["A) Option A presents contradicting data", "B) Option B shows a correlation between variables", "C) Option C ignores the main finding", "D) Option D uses an unrelated statistic"],
+    "correct_answer": "B) Option B shows a correlation between variables",
+    "tags": ["evidence", "data interpretation"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Expression of Ideas",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "Which choice best combines the following two sentences? 'The project was challenging. The team completed it on time.'",
+    "options": ["A) Although the project was challenging, the team completed it on time.", "B) The project was challenging, so the team completed it on time.", "C) The project was challenging; but the team completed it on time.", "D) Because the project was challenging, the team completed it on time."],
+    "correct_answer": "A) Although the project was challenging, the team completed it on time.",
+    "tags": ["sentence structure", "writing"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Expression of Ideas",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "The writer wants to add a sentence here that transitions from the previous paragraph. Which choice best accomplishes this goal?",
+    "options": ["A) However, this perspective has been challenged.", "B) In addition, the results were surprising.", "C) Therefore, the experiment was successful.", "D) Meanwhile, other scientists disagreed."],
+    "correct_answer": "A) However, this perspective has been challenged.",
+    "tags": ["transitions", "writing"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Standard English Conventions",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "Which of the following is grammatically correct?",
+    "options": ["A) Their going to the store.", "B) There going to the store.", "C) They're going to the store.", "D) Theyre going to the store."],
+    "correct_answer": "C) They're going to the store.",
+    "tags": ["grammar", "homophones"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Standard English Conventions",
+    "difficulty": "medium",
+    "question_type": "mcq",
+    "question_text": "Which option correctly uses a comma?",
+    "options": ["A) The dog barked, loudly at the stranger.", "B) The dog barked loudly, at the stranger.", "C) The dog, barked loudly at the stranger.", "D) After the door opened, the dog barked loudly."],
+    "correct_answer": "D) After the door opened, the dog barked loudly.",
+    "tags": ["punctuation", "commas"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Standard English Conventions",
+    "difficulty": "hard",
+    "question_type": "mcq",
+    "question_text": "Which sentence uses the semicolon correctly?",
+    "options": ["A) I like apples; however I prefer oranges.", "B) I like apples; however, I prefer oranges.", "C) I like apples, however; I prefer oranges.", "D) I like apples however; I prefer oranges."],
+    "correct_answer": "B) I like apples; however, I prefer oranges.",
+    "tags": ["semicolons", "punctuation"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Algebra",
+    "difficulty": "medium",
+    "question_type": "short_answer",
+    "question_text": "If y = 3x - 7 and x = 4, what is the value of y?",
+    "correct_answer": "5",
+    "tags": ["substitution", "algebra"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Advanced Math",
+    "difficulty": "medium",
+    "question_type": "short_answer",
+    "question_text": "What is the vertex x-coordinate of the parabola y = x^2 - 6x + 8?",
+    "correct_answer": "3",
+    "tags": ["vertex", "parabola"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Problem Solving & Data Analysis",
+    "difficulty": "easy",
+    "question_type": "short_answer",
+    "question_text": "What is 25% of 80?",
+    "correct_answer": "20",
+    "tags": ["percentages", "arithmetic"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Geometry & Trigonometry",
+    "difficulty": "easy",
+    "question_type": "short_answer",
+    "question_text": "What is the circumference of a circle with radius 5? (Use π ≈ 3.14)",
+    "correct_answer": "31.4",
+    "tags": ["circumference", "circles"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Algebra",
+    "difficulty": "hard",
+    "question_type": "mcq",
+    "question_text": "If |2x - 3| = 7, what are the possible values of x?",
+    "options": ["A) x = 5 or x = -2", "B) x = 5 or x = -5", "C) x = 2 or x = -5", "D) x = 3 or x = -7"],
+    "correct_answer": "A) x = 5 or x = -2",
+    "tags": ["absolute value", "algebra"]
+  },
+  {
+    "exam_type": "SAT",
+    "domain": "Advanced Math",
+    "difficulty": "easy",
+    "question_type": "mcq",
+    "question_text": "What is the value of 2^5?",
+    "options": ["A) 10", "B) 16", "C) 32", "D) 64"],
+    "correct_answer": "C) 32",
+    "tags": ["exponents", "arithmetic"]
+  }
+]

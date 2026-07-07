@@ -254,5 +254,76 @@
     "test_mode": true,
     "created_at": "2026-06-16T18:59:35.350956Z",
     "paid_at": "2026-06-16T18:59:35.516927Z"
+  },
+  "test_06343e743871f226ab626ea9": {
+    "user_id": 4,
+    "plan": "premium",
+    "gateway": "payme",
+    "amount_uzs": 99000,
+    "currency": "UZS",
+    "status": "pending",
+    "test_mode": true,
+    "created_at": "2026-06-27T04:39:40.510339Z"
+  },
+  "test_c46d79e4e856a145a8ff7b5f": {
+    "user_id": 4,
+    "plan": "premium",
+    "gateway": "click",
+    "amount_uzs": 99000,
+    "currency": "UZS",
+    "status": "pending",
+    "test_mode": true,
+    "created_at": "2026-06-27T04:39:42.348371Z"
+  },
+  "test_090d1a5133571041772ccb98": {
+    "user_id": 4,
+    "plan": "premium",
+    "gateway": "stripe",
+    "amount_uzs": 99000,
+    "currency": "UZS",
+    "status": "pending",
+    "test_mode": true,
+    "created_at": "2026-06-27T04:39:48.421700Z"
+  },
+  "test_0eb52381e87f0d139d4d0dee": {
+    "user_id": 6,
+    "plan": "premium",
+    "gateway": "payme",
+    "amount_uzs": 99000,
+    "currency": "UZS",
+    "status": "pending",
+    "test_mode": true,
+    "created_at": "2026-06-27T18:20:44.274533Z"
+  },
+  "test_375cba611c4d4a54bcd61054": {
+    "user_id": 6,
+    "plan": "premium",
+    "gateway": "click",
+    "amount_uzs": 99000,
+    "currency": "UZS",
+    "status": "pending",
+    "test_mode": true,
+    "created_at": "2026-06-28T13:12:35.993716Z"
+  },
+  "test_df21f05c027c5f0f3ca65ea4": {
+    "user_id": 6,
+    "plan": "premium",
+    "gateway": "click",
+    "amount_uzs": 99000,
+    "currency": "UZS",
+    "status": "paid",
+    "test_mode": true,
+    "created_at": "2026-06-28T13:12:37.314765Z",
+    "paid_at": "2026-06-28T13:12:37.434023Z"
+  },
+  "test_b1c581a42acbddf3c89a8aa1": {
+    "user_id": 8,
+    "plan": "premium",
+    "gateway": "click",
+    "amount_uzs": 99000,
+    "currency": "UZS",
+    "status": "pending",
+    "test_mode": true,
+    "created_at": "2026-06-29T14:52:52.904572Z"
   }
 }

@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from dotenv import load_dotenv
-from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments, feedback, evaluation
+from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments, feedback, evaluation, sat_ielts
 from services.monitoring import init_monitoring
 from services.db import engine, Base
 from services.google_oauth import oauth
@@ -37,6 +37,7 @@ app.include_router(gaps.router)
 app.include_router(payments.router)
 app.include_router(feedback.router)
 app.include_router(evaluation.router)
+app.include_router(sat_ielts.router)
 
 @app.get("/")
 def root():

@@ -89,6 +89,16 @@ def record_upload(user_id: int) -> None:
     save_users(users)
 
 
+def record_delete_upload(user_id: int) -> None:
+    users = load_users()
+    user = next((u for u in users if u["id"] == user_id), None)
+    if not user:
+        return
+    _ensure_usage_fields(user)
+    user["uploads_count"] = max(0, user.get("uploads_count", 0) - 1)
+    save_users(users)
+
+
 def can_take_quiz(user_id: int) -> tuple[bool, str]:
     users = load_users()
     user = next((u for u in users if u["id"] == user_id), None)

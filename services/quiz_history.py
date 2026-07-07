@@ -16,7 +16,10 @@ def load_sessions(user_id: int) -> list[dict[str, Any]]:
     if not os.path.exists(path):
         return []
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        content = f.read().strip()
+        if not content:
+            return []
+        return json.loads(content)
 
 
 def save_sessions(user_id: int, sessions: list[dict[str, Any]]) -> None:

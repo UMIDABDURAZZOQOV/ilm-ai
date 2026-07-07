@@ -59,12 +59,22 @@ async def get_google_auth_url(request: Request, redirect_uri: str) -> Tuple[str,
     client = oauth.create_client('google')
     if not client:
         raise HTTPException(status_code=503, detail="Failed to create OAuth client")
-    
-    # Set redirect URI dynamically
-    client.redirect_uri = redirect_uri
-    
-    auth_url = client.authorize_redirect(request, state=state)
-    return (auth_url.url, state)
+
+    # Build authorization URL directly without redirect
+    metadata = await client.load_server_metadata()
+    auth_endpoint = metadata['authorization_endpoint']
+
+    import urllib.parse
+    params = {
+        'client_id': GOOGLE_CLIENT_ID,
+        'redirect_uri': redirect_uri,
+        'response_type': 'code',
+        'scope': 'openid email profile',
+        'state': state,
+        'access_type': 'offline',
+    }
+    auth_url = auth_endpoint + '?' + urllib.parse.urlencode(params)
+    return (auth_url, state)
 
 
 async def handle_google_callback(request: Request, redirect_uri: str) -> dict:

@@ -90,3 +90,32 @@ def add_profile_picture_column():
 # Try to add the column on import
 add_profile_picture_column()
 
+
+def migrate_sqlite_columns():
+    """Add any missing columns to SQLite database (auto-migration)."""
+    if not DATABASE_URL.startswith("sqlite"):
+        return
+    try:
+        with engine.connect() as conn:
+            result = conn.execute(text("PRAGMA table_info(users)"))
+            existing = [row[1] for row in result.fetchall()]
+
+            new_columns = {
+                "oauth_provider": "VARCHAR(50)",
+                "oauth_provider_id": "VARCHAR(200)",
+                "chat_count_today": "INTEGER DEFAULT 0",
+                "chat_count_date": "VARCHAR(20)",
+                "learning_goal": "TEXT",
+                "target_date": "VARCHAR(20)",
+            }
+            for col, col_type in new_columns.items():
+                if col not in existing:
+                    conn.execute(text(f"ALTER TABLE users ADD COLUMN {col} {col_type}"))
+                    conn.commit()
+                    print(f"Added column: users.{col}")
+    except Exception as e:
+        print(f"Migration error: {e}")
+
+
+migrate_sqlite_columns()
+

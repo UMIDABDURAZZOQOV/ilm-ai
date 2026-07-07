@@ -113,8 +113,10 @@ def get_embedding(text: str):
 async def upload_file(
     user_id: int = Depends(verify_user_access),
     topic: str = "General",
-    file: UploadFile = File(...),
+    file: UploadFile = File(default=None),
 ):
+    if file is None:
+        raise HTTPException(status_code=422, detail="No file provided. Send file as multipart/form-data with field name 'file'.")
     ok, msg = can_upload(user_id)
     if not ok:
         raise HTTPException(status_code=403, detail=msg)
@@ -210,6 +212,7 @@ def list_files(user_id: int = Depends(verify_user_access)):
 
 @router.delete("/delete")
 def delete_file(filename: str, user_id: int = Depends(verify_user_access)):
+    from services.subscriptions import record_delete_upload
     if USE_DB:
         db = SessionLocal()
         try:
@@ -222,6 +225,7 @@ def delete_file(filename: str, user_id: int = Depends(verify_user_access)):
                 raise HTTPException(status_code=404, detail="File not found")
         finally:
             db.close()
+        record_delete_upload(user_id)
         return {"message": f"File '{filename}' deleted successfully"}
 
     data = load_vectors(user_id)
@@ -230,12 +234,18 @@ def delete_file(filename: str, user_id: int = Depends(verify_user_access)):
         raise HTTPException(status_code=404, detail="File not found")
     
     save_vectors(user_id, new_data)
+    record_delete_upload(user_id)
     return {"message": f"File '{filename}' deleted successfully"}
 
 class UpdateTopicRequest(BaseModel):
     user_id: int
     filename: str
-    new_topic: str
+    new_topic: str = None
+    topic: str = None  # mobile sends 'topic', frontend may send 'new_topic'
+
+    @property
+    def resolved_topic(self) -> str:
+        return self.new_topic or self.topic or "General"
 
 @router.post("/update-topic")
 def update_topic(
@@ -243,29 +253,31 @@ def update_topic(
     auth_user_id: int = Depends(get_authenticated_user_id),
 ):
     ensure_own_user(data.user_id, auth_user_id)
+    new_topic = data.resolved_topic
+
     if USE_DB:
         db = SessionLocal()
         try:
             updated = db.query(VectorEntry).filter(
                 VectorEntry.user_id == data.user_id,
                 VectorEntry.filename == data.filename
-            ).update({VectorEntry.topic: data.new_topic})
+            ).update({VectorEntry.topic: new_topic})
             db.commit()
             if updated == 0:
                 raise HTTPException(status_code=404, detail="File not found")
         finally:
             db.close()
-        return {"message": f"Topic for '{data.filename}' updated to '{data.new_topic}'"}
+        return {"message": f"Topic for '{data.filename}' updated to '{new_topic}'"}
 
     vectors = load_vectors(data.user_id)
     found = False
     for v in vectors:
         if v["filename"] == data.filename:
-            v["topic"] = data.new_topic
+            v["topic"] = new_topic
             found = True
-    
+
     if not found:
         raise HTTPException(status_code=404, detail="File not found")
-    
+
     save_vectors(data.user_id, vectors)
-    return {"message": f"Topic for '{data.filename}' updated to '{data.new_topic}'"}
+    return {"message": f"Topic for '{data.filename}' updated to '{new_topic}'"}

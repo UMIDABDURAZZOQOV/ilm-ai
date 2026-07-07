@@ -114,14 +114,12 @@ def set_user_context(user_id: Optional[int] = None, email: Optional[str] = None,
 
 def track_custom_event(event_name: str, data: Dict[str, Any], level: str = "info"):
     """Track custom business logic events in Sentry."""
-    sentry_sdk.capture_message(
-        f"Custom Event: {event_name}",
-        level=level,
-        extra={
-            "event_name": event_name,
-            "event_data": data,
-        }
-    )
+    if not os.environ.get("SENTRY_DSN", "").strip():
+        return
+    with sentry_sdk.new_scope() as scope:
+        scope.set_extra("event_name", event_name)
+        scope.set_extra("event_data", data)
+        sentry_sdk.capture_message(f"Custom Event: {event_name}", level=level)
 
 
 def track_error(error: Exception, context: Dict[str, Any] = None):

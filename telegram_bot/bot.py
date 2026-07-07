@@ -1,7 +1,7 @@
+import datetime
 import logging
 import os
 import re
-from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
@@ -36,6 +36,9 @@ TZ = ZoneInfo("Asia/Tashkent")
 LINK_EMAIL, LINK_PASSWORD = range(2)
 quiz_sessions: dict[int, dict] = {}
 
+# SAT/IELTS pending questions: {chat_id: {session_id, question, user_id}}
+sat_pending: dict[int, dict] = {}
+
 
 def _linked_user(update: Update):
     return find_user_by_chat_id(update.effective_chat.id)
@@ -47,10 +50,13 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "I can:\n"
         "• Send daily study reminders\n"
         "• Run a quick 5-question quiz\n"
-        "• Track your learning streak\n\n"
+        "• Track your learning streak\n"
+        "• Send daily SAT/IELTS practice questions\n\n"
         "*First step:* link your web account with `/link`\n\n"
         "*Commands:*\n"
         "/quiz — 5-question quiz\n"
+        "/satpractice — toggle daily SAT question (07:00 Tashkent)\n"
+        "/satquiz — instant SAT/IELTS question\n"
         "/reminder 09:00 — daily reminder (Tashkent time)\n"
         "/streak — your streak\n"
         "/help — all commands",
@@ -63,6 +69,8 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "📚 *Ilm AI Bot Commands*\n\n"
         "/link — connect your web account\n"
         "/quiz — 5 questions from your materials\n"
+        "/satpractice — toggle daily SAT/IELTS question at 07:00 Tashkent\n"
+        "/satquiz — get an instant SAT/IELTS practice question\n"
         "/reminder 18:30 — set daily reminder\n"
         "/streak — consecutive study days\n"
         "/cancel — cancel linking\n\n"
@@ -300,6 +308,24 @@ async def finish_quiz(chat_id: int, context: ContextTypes.DEFAULT_TYPE) -> None:
     streak_days = streak_info["streak_days"]
     pct = int((score / total) * 100) if total else 0
 
+    # Save quiz session to history (for gap detection)
+    try:
+        from services.quiz_history import add_session
+        results = [
+            {
+                "question": q.get("question", ""),
+                "user_answer": session.get("answers", {}).get(str(i), ""),
+                "correct_answer": q.get("correct_answer", ""),
+                "is_correct": session.get("answers", {}).get(str(i), "") == q.get("correct_answer", ""),
+                "topic": q.get("topic", "general"),
+                "explanation": q.get("explanation", ""),
+            }
+            for i, q in enumerate(session["questions"])
+        ]
+        add_session(session["user_id"], score, total, "medium", results)
+    except Exception as e:
+        logger.warning("Failed to save telegram quiz session: %s", e)
+
     if pct >= 80:
         praise = "🌟 Excellent work!"
     elif pct >= 50:
@@ -328,7 +354,7 @@ async def finish_quiz(chat_id: int, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def send_daily_reminders(context: ContextTypes.DEFAULT_TYPE) -> None:
     from services.users import users_with_reminder_at
 
-    now = datetime.now(TZ)
+    now = datetime.datetime.now(TZ)
     for user in users_with_reminder_at(now.hour, now.minute):
         chat_id = user["telegram_chat_id"]
         streak = user.get("streak_days", 0)
@@ -345,8 +371,255 @@ async def send_daily_reminders(context: ContextTypes.DEFAULT_TYPE) -> None:
             logger.warning("Reminder failed for %s: %s", chat_id, e)
 
 
+# ===========================================================================
+# SAT/IELTS Telegram helpers (Tasks 13.1, 13.2, 13.3)
+# ===========================================================================
+
+
+async def _send_sat_question_to_user(chat_id: int, user_id: int, context: ContextTypes.DEFAULT_TYPE) -> bool:
+    """Select one SAT question for user_id and send it to chat_id as an inline keyboard.
+
+    Returns True on success, False if no question is available or limit reached.
+    """
+    from services.db import SessionLocal
+    from services.question_bank import select_questions_for_session
+    from services.sat_session_engine import create_session
+    from services.sat_subscription import can_attempt_sat_ielts, record_sat_ielts_attempt
+    from services.models import SatIeltsSession
+    from services.sat_session_engine import compute_domain_accuracy
+
+    db = SessionLocal()
+    try:
+        ok, msg = can_attempt_sat_ielts(user_id, db)
+        if not ok:
+            await context.bot.send_message(chat_id=chat_id, text=f"⚠️ {msg}")
+            return False
+
+        # Prefer weak domains for this user
+        sessions = (
+            db.query(SatIeltsSession)
+            .filter(
+                SatIeltsSession.user_id == user_id,
+                SatIeltsSession.exam_type == "SAT",
+                SatIeltsSession.status == "completed",
+            )
+            .order_by(SatIeltsSession.started_at.desc())
+            .limit(10)
+            .all()
+        )
+        domain_acc = compute_domain_accuracy(sessions) if sessions else {}
+        weak_domains = [d for d, acc in domain_acc.items() if acc < 0.70]
+        target_domain = weak_domains[0] if weak_domains else None
+
+        questions = select_questions_for_session(
+            db, exam_type="SAT", domain=target_domain, difficulty="medium", count=1
+        )
+        if not questions:
+            questions = select_questions_for_session(
+                db, exam_type="SAT", domain=None, difficulty="medium", count=1
+            )
+        if not questions:
+            await context.bot.send_message(
+                chat_id=chat_id,
+                text="📚 No SAT questions available yet. Seed the question bank first.",
+            )
+            return False
+
+        q = questions[0]
+        session = create_session(
+            db=db,
+            user_id=user_id,
+            exam_type="SAT",
+            questions=questions,
+            timed=False,
+            session_type="practice",
+        )
+        record_sat_ielts_attempt(user_id, 1, db)
+
+        # Store pending state
+        sat_pending[chat_id] = {
+            "session_id": session.id,
+            "question": {
+                "id": q.id,
+                "text": q.question_text,
+                "options": q.options or [],
+                "correct_answer": q.correct_answer,
+                "question_type": q.question_type,
+                "domain": q.domain,
+            },
+            "user_id": user_id,
+        }
+
+        domain_label = f"[{q.domain}]" if q.domain else ""
+        diff_label = q.difficulty.capitalize()
+        header = f"🎯 SAT Practice {domain_label} ({diff_label})\n\n{q.question_text}"
+
+        if q.question_type == "mcq" and q.options:
+            keyboard = [
+                [InlineKeyboardButton(opt, callback_data=f"sat_ans:{i}")]
+                for i, opt in enumerate(q.options)
+            ]
+            await context.bot.send_message(
+                chat_id=chat_id,
+                text=header,
+                reply_markup=InlineKeyboardMarkup(keyboard),
+            )
+        else:
+            await context.bot.send_message(
+                chat_id=chat_id,
+                text=header + "\n\n✏️ Type your answer as a message.",
+            )
+        return True
+    except Exception as e:
+        logger.error("SAT question send failed for chat_id=%s: %s", chat_id, e)
+        return False
+    finally:
+        db.close()
+
+
+async def send_daily_sat_question(context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Scheduled daily job: send one SAT question to each opted-in user at 07:00 Tashkent."""
+    from services.db import SessionLocal
+    from services.models import SatIeltsUserPrefs, User
+
+    db = SessionLocal()
+    try:
+        opted_in = (
+            db.query(SatIeltsUserPrefs, User)
+            .join(User, User.id == SatIeltsUserPrefs.user_id)
+            .filter(
+                SatIeltsUserPrefs.telegram_sat_enabled == True,
+                User.telegram_chat_id.isnot(None),
+            )
+            .all()
+        )
+    finally:
+        db.close()
+
+    for prefs, user in opted_in:
+        chat_id_str = user.telegram_chat_id
+        if not chat_id_str:
+            continue
+        try:
+            chat_id = int(chat_id_str)
+        except (ValueError, TypeError):
+            continue
+        try:
+            await _send_sat_question_to_user(chat_id, user.id, context)
+        except Exception as e:
+            logger.warning("Daily SAT question failed for user_id=%s: %s", user.id, e)
+
+
+async def satpractice_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """/satpractice — toggle daily SAT question subscription."""
+    user = _linked_user(update)
+    if not user:
+        await update.message.reply_text("Link your account first with /link")
+        return
+
+    from services.db import SessionLocal
+    from services.models import SatIeltsUserPrefs
+
+    db = SessionLocal()
+    try:
+        prefs = db.query(SatIeltsUserPrefs).filter(
+            SatIeltsUserPrefs.user_id == user["id"]
+        ).first()
+        if not prefs:
+            prefs = SatIeltsUserPrefs(user_id=user["id"], telegram_sat_enabled=False)
+            db.add(prefs)
+            db.commit()
+            db.refresh(prefs)
+
+        prefs.telegram_sat_enabled = not prefs.telegram_sat_enabled
+        db.commit()
+        status = "enabled ✅" if prefs.telegram_sat_enabled else "disabled ❌"
+        await update.message.reply_text(
+            f"Daily SAT practice question {status}.\n"
+            + ("You'll receive a question every day at 07:00 Tashkent time." if prefs.telegram_sat_enabled else "Use /satpractice again to re-enable.")
+        )
+    finally:
+        db.close()
+
+
+async def satquiz_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """/satquiz — immediately send one SAT question."""
+    user = _linked_user(update)
+    if not user:
+        await update.message.reply_text("Link your account first with /link")
+        return
+
+    chat_id = update.effective_chat.id
+    await update.message.reply_text("⏳ Fetching a SAT question...")
+    await _send_sat_question_to_user(chat_id, user["id"], context)
+
+
+async def on_sat_tg_answer(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Handle callback query from SAT inline keyboard answer buttons."""
+    query = update.callback_query
+    await query.answer()
+
+    chat_id = update.effective_chat.id
+    pending = sat_pending.get(chat_id)
+    if not pending:
+        await query.edit_message_text("⏱ Session expired. Use /satquiz for a new question.")
+        return
+
+    # Extract the chosen option index from callback data: "sat_ans:<index>"
+    data = query.data  # e.g. "sat_ans:2"
+    try:
+        opt_idx = int(data.split(":")[1])
+    except (IndexError, ValueError):
+        await query.edit_message_text("Invalid answer. Use /satquiz to try again.")
+        sat_pending.pop(chat_id, None)
+        return
+
+    q_info = pending["question"]
+    options = q_info.get("options", [])
+    if opt_idx < 0 or opt_idx >= len(options):
+        await query.edit_message_text("Invalid option. Use /satquiz to try again.")
+        sat_pending.pop(chat_id, None)
+        return
+
+    chosen_answer = options[opt_idx]
+    correct_answer = q_info.get("correct_answer", "")
+    is_correct = chosen_answer.strip() == correct_answer.strip()
+
+    # Record answer and finalise session
+    from services.db import SessionLocal
+    from services.sat_session_engine import record_answer, finalise_session
+
+    db = SessionLocal()
+    try:
+        record_answer(
+            db,
+            session_id=pending["session_id"],
+            question_id=q_info["id"],
+            answer=chosen_answer,
+            elapsed_ms=0,
+        )
+        finalise_session(db, pending["session_id"])
+    except Exception as e:
+        logger.warning("SAT answer record failed: %s", e)
+    finally:
+        db.close()
+
+    # Clear pending state
+    sat_pending.pop(chat_id, None)
+
+    icon = "✅" if is_correct else "❌"
+    feedback = (
+        f"{icon} {'Correct!' if is_correct else 'Incorrect.'}\n\n"
+        f"Your answer: *{chosen_answer}*\n"
+    )
+    if not is_correct:
+        feedback += f"Correct answer: *{correct_answer}*\n"
+    feedback += "\nUse /satquiz for another question."
+
+    await query.edit_message_text(feedback, parse_mode="Markdown")
+
+
 def build_application() -> Application:
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
     if not token:
         raise RuntimeError("TELEGRAM_BOT_TOKEN is missing from .env")
 
@@ -368,11 +641,18 @@ def build_application() -> Application:
     app.add_handler(CommandHandler("quiz", quiz_cmd))
     app.add_handler(CommandHandler("streak", streak_cmd))
     app.add_handler(CommandHandler("reminder", reminder_cmd))
+    app.add_handler(CommandHandler("satpractice", satpractice_cmd))
+    app.add_handler(CommandHandler("satquiz", satquiz_cmd))
+    app.add_handler(CallbackQueryHandler(on_sat_tg_answer, pattern=r"^sat_ans:"))
     app.add_handler(CallbackQueryHandler(on_quiz_answer, pattern=r"^ans:"))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text_answer))
 
     if app.job_queue:
         app.job_queue.run_repeating(send_daily_reminders, interval=60, first=10)
+        app.job_queue.run_daily(
+            send_daily_sat_question,
+            time=datetime.time(7, 0, tzinfo=TZ),
+        )
 
     return app
 

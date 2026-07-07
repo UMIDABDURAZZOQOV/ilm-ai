@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "completed_at": "2026-06-27T04:40:34.868779Z",
+    "score": 0,
+    "total": 5,
+    "difficulty": "easy",
+    "results": [
+      {
+        "question": "According to the summary, what is considered a 'bigger problem'?",
+        "user_answer": "rwer",
+        "correct_answer": "A) Not building with AI",
+        "is_correct": false,
+        "topic": "Summary of AI Importance",
+        "explanation": "The summary states 'Not building with AI → bigger problem'."
+      },
+      {
+        "question": "Who is Adham Zohirov?",
+        "user_answer": "b",
+        "correct_answer": "C) Both A and B",
+        "is_correct": false,
+        "topic": "Key Individuals",
+        "explanation": "Adham Zohirov is identified as a Google Developer Expert and Chief AI Officer."
+      },
+      {
+        "question": "In the 'New Builder Mindset', what does AI accelerate?",
+        "user_answer": "a",
+        "correct_answer": "C) Implementation",
+        "is_correct": false,
+        "topic": "New Builder Mindset",
+        "explanation": "The text states 'developer focuses on idea & logic & Architecture, AI accelerates implementation'."
+      },
+      {
+        "question": "Which of the following is a step in 'Vibe Coding Evaluation'?",
+        "user_answer": "c",
+        "correct_answer": "B) Define problem clearly",
+        "is_correct": false,
+        "topic": "Vibe Coding Evaluation",
+        "explanation": "One of the listed steps for Vibe Coding Evaluation is 'Define problem clearly'."
+      },
+      {
+        "question": "Which of these is listed as a 'Trending topic' related to AI Agents?",
+        "user_answer": "c",
+        "correct_answer": "B) Syntax Checker & Code Validation",
+        "is_correct": false,
+        "topic": "AI Agents Trending Topics",
+        "explanation": "Under AI Agents, 'Syntax Checker & Code Validation' is listed as a trending topic."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "completed_at": "2026-06-27T04:41:12.016040Z",
+    "score": 0,
+    "total": 5,
+    "difficulty": "easy",
+    "results": [
+      {
+        "question": "Which of the following is listed as a trending topic in the context of AI Agents?",
+        "user_answer": "a",
+        "correct_answer": "B) Syntax Checker & Code Validation",
+        "is_correct": false,
+        "topic": "Trending Topics in AI Agents",
+        "explanation": "The context explicitly lists 'Syntax Checker & Code Validation' as a trending topic."
+      },
+      {
+        "question": "According to the 'Vibe Coding Evaluation' section, what is the first step listed for evaluating a problem?",
+        "user_answer": "a",
+        "correct_answer": "C) Define problem clearly",
+        "is_correct": false,
+        "topic": "Vibe Coding Evaluation",
+        "explanation": "The 'Vibe Coding Evaluation' section begins with 'Define problem clearly'."
+      },
+      {
+        "question": "In 'The New Builder Mindset,' what role does AI primarily play in rapid prototyping?",
+        "user_answer": "a",
+        "correct_answer": "B) Accelerating implementation",
+        "is_correct": false,
+        "topic": "The New Builder Mindset",
+        "explanation": "The text states that AI 'accelerates implementation' while the developer focuses on idea & logic & Architecture."
+      },
+      {
+        "question": "Based on the summary provided, what is considered a 'bigger problem'?",
+        "user_answer": "a",
+        "correct_answer": "B) Not building with AI",
+        "is_correct": false,
+        "topic": "Summary of AI Use",
+        "explanation": "The summary states 'Not building with AI → bigger problem'."
+      },
+      {
+        "question": "Who is mentioned as a Google Developer Expert and Chief AI Officer in the context?",
+        "user_answer": "a",
+        "correct_answer": "C) Adham Zohirov",
+        "is_correct": false,
+        "topic": "Speaker Information",
+        "explanation": "Adham Zohirov is identified as the Google Developer Expert and Chief AI Officer."
+      }
+    ]
+  }
+]

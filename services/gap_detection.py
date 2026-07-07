@@ -126,3 +126,41 @@ Return ONLY JSON.""",
             "message": "Could not generate gaps report. Try again later.",
         }
 
+
+
+def inject_sat_weak_areas(user_id: int, weak_areas: list[str]) -> None:
+    """Inject SAT/IELTS weak domains as synthetic wrong-answer entries into the gap pipeline.
+
+    This appends structured entries to the user's quiz history so that the existing
+    ``generate_gaps_report`` can surface them alongside upload-based gaps without
+    any structural changes to the quiz history schema.
+    """
+    from services.quiz_history import load_sessions, add_session
+
+    if not weak_areas:
+        return
+
+    # Build a synthetic "session" entry that looks like a quiz session result
+    synthetic_results = [
+        {
+            "question": f"SAT/IELTS weak area: {area}",
+            "topic": area,
+            "is_correct": False,
+            "explanation": f"Identified as a weak area in SAT/IELTS practice session.",
+            "user_answer": "",
+            "correct_answer": "N/A",
+        }
+        for area in weak_areas
+    ]
+
+    try:
+        add_session(
+            user_id=user_id,
+            score=0,
+            total=len(weak_areas),
+            difficulty="medium",
+            results=synthetic_results,
+        )
+    except Exception:
+        # Non-critical helper — swallow errors silently
+        pass

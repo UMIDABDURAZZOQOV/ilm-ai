@@ -276,11 +276,11 @@ def verify_click_webhook(data: dict) -> bool:
             data.get("service_id", ""),
             data.get("merchant_id", ""),
             data.get("transaction_param", ""),
-            data.get("amount", ""),
+            str(data.get("amount", "")),
             CLICK_SECRET_KEY
         ])
         
-        expected_signature = hmac.new(
+        expected_signature = hmac.HMAC(
             CLICK_SECRET_KEY.encode(),
             params_str.encode(),
             hashlib.sha256

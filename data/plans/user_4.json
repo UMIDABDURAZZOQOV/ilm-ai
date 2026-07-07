@@ -1,0 +1,46 @@
+{
+  "goal": "AI Agents",
+  "target_date": "2026-06-29",
+  "days_available": 2,
+  "daily_hours": 3.0,
+  "summary": "This compact 2-day plan is designed to provide a foundational understanding of AI Agents using the provided 'AI agents.pdf' material. It focuses on core concepts, agent architectures, and different types of agents, ensuring a solid initial grasp of the subject.",
+  "weekly_breakdown": [
+    {
+      "week": 1,
+      "focus": "Foundations of AI Agents: Definitions, Architectures, and Types",
+      "days": [
+        {
+          "day": 1,
+          "topic": "Introduction to AI Agents & Simple Architectures",
+          "material": "AI agents.pdf",
+          "tasks": [
+            "Read initial sections of 'AI agents.pdf' covering definitions of AI agents, environments, percepts, and actions.",
+            "Understand and define PEAS (Performance, Environment, Actuators, Sensors) framework.",
+            "Study Simple Reflex Agents and Model-based Reflex Agents, including their mechanisms and limitations.",
+            "Summarize key concepts and agent characteristics in your own words."
+          ],
+          "duration_minutes": 180
+        },
+        {
+          "day": 2,
+          "topic": "Goal-based, Utility-based Agents & Environment Analysis",
+          "material": "AI agents.pdf",
+          "tasks": [
+            "Read sections on Goal-based Agents and Utility-based Agents in 'AI agents.pdf'.",
+            "Compare and contrast all studied agent types (Simple Reflex, Model-based Reflex, Goal-based, Utility-based).",
+            "Analyze examples of different agent environments (e.g., automated taxi, chess player, medical diagnosis system) using the PEAS framework.",
+            "Identify and discuss the challenges in designing rational agents for complex real-world scenarios."
+          ],
+          "duration_minutes": 180
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Actively read: Don't just skim. Take notes, highlight key concepts, and try to explain them in your own words.",
+    "Practice with examples: As you learn about different agent types, think of real-world scenarios where they might be applied.",
+    "Breaks are important: Even in a short plan, ensure you take short breaks to maintain focus and prevent burnout.",
+    "Review frequently: Since the plan is condensed, review material from Day 1 before starting Day 2 to reinforce learning."
+  ],
+  "generated_at": "2026-06-27T09:39:30.040506"
+}
