@@ -9,15 +9,11 @@ idempotent — once nothing is left as "General"/null it's a no-op.
 """
 import logging
 
-from sqlalchemy import or_
-
 from services.db import SessionLocal
 from services.models import SatIeltsQuestion
 from services.sat_taxonomy import SAT_TAXONOMY
 
 logger = logging.getLogger(__name__)
-
-_PLACEHOLDER = (None, "", "General")
 
 
 def _domain_skills() -> dict[str, list[str]]:
@@ -36,15 +32,20 @@ def retag_general_questions() -> None:
     updated = 0
     try:
         for domain, skills in skills_by_domain.items():
+            # A question is "unassigned" if its skill is a placeholder — null,
+            # blank, "General", or the domain name itself (Math questions were
+            # seeded with skill == domain, e.g. skill "Algebra" in domain
+            # "Algebra"), i.e. anything not one of the domain's real skills.
+            valid = set(skills)
             rows = (
                 db.query(SatIeltsQuestion)
                 .filter(SatIeltsQuestion.exam_type == "SAT")
                 .filter(SatIeltsQuestion.domain == domain)
-                .filter(or_(SatIeltsQuestion.skill.is_(None), SatIeltsQuestion.skill.in_(["", "General"])))
                 .order_by(SatIeltsQuestion.id)
                 .all()
             )
-            for i, q in enumerate(rows):
+            unassigned = [q for q in rows if (q.skill or "") not in valid]
+            for i, q in enumerate(unassigned):
                 q.skill = skills[i % len(skills)]
                 updated += 1
         if updated:
