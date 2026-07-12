@@ -119,7 +119,7 @@ def create_user(name: str, email: str, password: str) -> Dict[str, Any]:
     if USE_DB:
         db = SessionLocal()
         try:
-            u = UserModel(name=name.strip(), email=email, password=hash_password(password))
+            u = UserModel(name=name.strip(), email=email, password=hash_password(password), email_verified=False)
             db.add(u)
             db.commit()
             db.refresh(u)
@@ -146,10 +146,57 @@ def create_user(name: str, email: str, password: str) -> Dict[str, Any]:
         "chat_count_date": None,
         "learning_goal": None,
         "target_date": None,
+        "email_verified": False,
     }
     users.append(user)
     _save_users_to_file(users)
     return user
+
+
+def set_email_verified(user_id: int, verified: bool = True) -> bool:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            u = db.query(UserModel).filter(UserModel.id == user_id).first()
+            if not u:
+                return False
+            u.email_verified = verified
+            db.add(u)
+            db.commit()
+            return True
+        finally:
+            db.close()
+
+    users = _load_users_from_file()
+    u = next((x for x in users if x.get("id") == user_id), None)
+    if not u:
+        return False
+    u["email_verified"] = verified
+    _save_users_to_file(users)
+    return True
+
+
+def update_password(user_id: int, new_password: str) -> bool:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            u = db.query(UserModel).filter(UserModel.id == user_id).first()
+            if not u:
+                return False
+            u.password = hash_password(new_password)
+            db.add(u)
+            db.commit()
+            return True
+        finally:
+            db.close()
+
+    users = _load_users_from_file()
+    u = next((x for x in users if x.get("id") == user_id), None)
+    if not u:
+        return False
+    u["password"] = hash_password(new_password)
+    _save_users_to_file(users)
+    return True
 
 
 def create_user_with_oauth(name: str, email: str, provider: str = "google", provider_id: str = None, picture: str = None) -> Dict[str, Any]:
@@ -159,12 +206,13 @@ def create_user_with_oauth(name: str, email: str, provider: str = "google", prov
         db = SessionLocal()
         try:
             u = UserModel(
-                name=name.strip(), 
-                email=email, 
+                name=name.strip(),
+                email=email,
                 password=None,  # No password for OAuth users
                 oauth_provider=provider,
                 oauth_provider_id=provider_id,
-                profile_picture=picture
+                profile_picture=picture,
+                email_verified=True,  # OAuth provider already verified this address
             )
             db.add(u)
             db.commit()
@@ -195,6 +243,7 @@ def create_user_with_oauth(name: str, email: str, provider: str = "google", prov
         "chat_count_date": None,
         "learning_goal": None,
         "target_date": None,
+        "email_verified": True,  # OAuth provider already verified this address
     }
     users.append(user)
     _save_users_to_file(users)
@@ -235,7 +284,7 @@ def update_user_oauth_info(user_id: int, provider: str = None, provider_id: str 
     return True
 
 
-def update_user_profile(user_id: int, learning_goal: str = None, target_date: str = None) -> bool:
+def update_user_profile(user_id: int, learning_goal: str = None, target_date: str = None, name: str = None, avatar: str = None) -> bool:
     if USE_DB:
         db = SessionLocal()
         try:
@@ -246,6 +295,11 @@ def update_user_profile(user_id: int, learning_goal: str = None, target_date: st
                 u.learning_goal = learning_goal
             if target_date is not None:
                 u.target_date = target_date
+            if name is not None:
+                u.name = name
+            if avatar is not None:
+                # Empty string clears the avatar (fall back to initials on the client).
+                u.profile_picture = avatar or None
             db.add(u)
             db.commit()
             return True
@@ -260,6 +314,10 @@ def update_user_profile(user_id: int, learning_goal: str = None, target_date: st
         u["learning_goal"] = learning_goal
     if target_date is not None:
         u["target_date"] = target_date
+    if name is not None:
+        u["name"] = name
+    if avatar is not None:
+        u["profile_picture"] = avatar or None
     _save_users_to_file(users)
     return True
 
@@ -420,3 +478,51 @@ def users_with_reminder_at(hour: int, minute: int) -> List[Dict[str, Any]]:
             db.close()
 
     return [u for u in _load_users_from_file() if u.get("telegram_chat_id") and u.get("reminder_time") == target]
+
+
+def set_push_token(user_id: int, token: str) -> bool:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            u = db.query(UserModel).filter(UserModel.id == user_id).first()
+            if not u:
+                return False
+            u.push_token = token
+            db.add(u)
+            db.commit()
+            return True
+        finally:
+            db.close()
+
+    users = _load_users_from_file()
+    u = next((x for x in users if x.get("id") == user_id), None)
+    if not u:
+        return False
+    u["push_token"] = token
+    _save_users_to_file(users)
+    return True
+
+
+def users_with_push_reminder_at(hour: int, minute: int) -> List[Dict[str, Any]]:
+    target = f"{hour:02d}:{minute:02d}"
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            res = db.query(UserModel).filter(UserModel.push_token.isnot(None), UserModel.reminder_time == target).all()
+            return [{c: getattr(u, c) for c in u.__table__.columns.keys()} for u in res]
+        finally:
+            db.close()
+
+    return [u for u in _load_users_from_file() if u.get("push_token") and u.get("reminder_time") == target]
+
+
+def users_with_push_token() -> List[Dict[str, Any]]:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            res = db.query(UserModel).filter(UserModel.push_token.isnot(None)).all()
+            return [{c: getattr(u, c) for c in u.__table__.columns.keys()} for u in res]
+        finally:
+            db.close()
+
+    return [u for u in _load_users_from_file() if u.get("push_token")]

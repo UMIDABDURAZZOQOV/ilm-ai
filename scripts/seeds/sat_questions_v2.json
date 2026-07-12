@@ -1,0 +1,317 @@
+[
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear equations in one variable", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "If 5x - 9 = 21, what is the value of x?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "correct_answer": "B) 6",
+    "rubric": "Add 9 to both sides: 5x = 30. Divide both sides by 5: x = 6."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear equations in one variable", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "If 3(x + 4) = 2x + 19, what is the value of x?",
+    "options": ["A) 5", "B) 7", "C) 9", "D) 15"],
+    "correct_answer": "B) 7",
+    "rubric": "Distribute: 3x + 12 = 2x + 19. Subtract 2x from both sides: x + 12 = 19. Subtract 12: x = 7."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear equations in one variable", "difficulty": "hard", "question_type": "mcq",
+    "question_text": "In the equation k(x - 2) = 3x + 10, k is a constant. If the equation has no solution, what is the value of k?",
+    "options": ["A) -3", "B) 0", "C) 2", "D) 3"],
+    "correct_answer": "D) 3",
+    "rubric": "Expand: kx - 2k = 3x + 10. A linear equation has no solution when the x-coefficients are equal but the constants differ. So k = 3, giving -6 = 10, which is false — no solution."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear functions", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "The function f is defined by f(x) = 4x + 3. What is the value of f(5)?",
+    "options": ["A) 12", "B) 17", "C) 23", "D) 35"],
+    "correct_answer": "C) 23",
+    "rubric": "Substitute x = 5: f(5) = 4(5) + 3 = 20 + 3 = 23."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear functions", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A line has slope -2 and passes through the point (3, 4). Which equation defines this line?",
+    "options": ["A) y = -2x + 10", "B) y = -2x + 4", "C) y = -2x - 2", "D) y = 2x - 10"],
+    "correct_answer": "A) y = -2x + 10",
+    "rubric": "Use y = mx + b with m = -2. Substitute (3, 4): 4 = -2(3) + b, so 4 = -6 + b, giving b = 10. The equation is y = -2x + 10."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear functions", "difficulty": "hard", "question_type": "mcq",
+    "question_text": "The graph of the linear function f passes through the points (1, 5) and (4, 14). What is the y-intercept of the graph of f?",
+    "options": ["A) 2", "B) 3", "C) 5", "D) 9"],
+    "correct_answer": "A) 2",
+    "rubric": "Slope = (14 - 5)/(4 - 1) = 9/3 = 3. Using (1, 5): 5 = 3(1) + b, so b = 2. The y-intercept is (0, 2)."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear equations in two variables", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "The equation 3x + 5y = 30 is graphed in the xy-plane. What is the x-coordinate of the x-intercept?",
+    "options": ["A) 5", "B) 6", "C) 10", "D) 30"],
+    "correct_answer": "C) 10",
+    "rubric": "At the x-intercept, y = 0. So 3x = 30, giving x = 10."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear equations in two variables", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A movie theater sells adult tickets for $12 and child tickets for $8. Which equation represents the total revenue R, in dollars, from selling a adult tickets and c child tickets?",
+    "options": ["A) R = 20(a + c)", "B) R = 12a + 8c", "C) R = 8a + 12c", "D) R = 12a - 8c"],
+    "correct_answer": "B) R = 12a + 8c",
+    "rubric": "Revenue from adults is 12a and from children is 8c; total revenue is their sum: R = 12a + 8c."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Systems of two linear equations", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "If x + y = 10 and x - y = 4, what is the value of x?",
+    "options": ["A) 3", "B) 6", "C) 7", "D) 14"],
+    "correct_answer": "C) 7",
+    "rubric": "Add the equations: 2x = 14, so x = 7."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Systems of two linear equations", "difficulty": "hard", "question_type": "mcq",
+    "question_text": "The system 2x + 3y = 7 and 4x + 6y = c has infinitely many solutions. What is the value of c?",
+    "options": ["A) 7", "B) 10", "C) 14", "D) 28"],
+    "correct_answer": "C) 14",
+    "rubric": "For infinitely many solutions the second equation must be a multiple of the first. Multiplying 2x + 3y = 7 by 2 gives 4x + 6y = 14, so c = 14."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear inequalities", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "Which value of x satisfies the inequality 2x + 1 > 9?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "correct_answer": "D) 5",
+    "rubric": "Solve: 2x > 8, so x > 4. Only 5 is greater than 4."
+  },
+  {
+    "exam_type": "SAT", "domain": "Algebra", "skill": "Linear inequalities", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A delivery van can carry at most 1,200 pounds. Each large box weighs 45 pounds and each small box weighs 20 pounds. If the van carries 12 large boxes, which inequality gives the possible numbers s of small boxes the van can also carry?",
+    "options": ["A) s ≤ 33", "B) s ≤ 30", "C) s ≥ 33", "D) s ≤ 27"],
+    "correct_answer": "A) s ≤ 33",
+    "rubric": "12 large boxes weigh 540 pounds, leaving 1200 - 540 = 660 pounds. So 20s ≤ 660, giving s ≤ 33."
+  },
+  {
+    "exam_type": "SAT", "domain": "Advanced Math", "skill": "Nonlinear functions", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "The function g is defined by g(x) = x^2 - 6x + 8. What is the minimum value of g?",
+    "options": ["A) -1", "B) 0", "C) 3", "D) 8"],
+    "correct_answer": "A) -1",
+    "rubric": "The vertex occurs at x = -b/(2a) = 6/2 = 3. g(3) = 9 - 18 + 8 = -1, the minimum value since the parabola opens upward."
+  },
+  {
+    "exam_type": "SAT", "domain": "Advanced Math", "skill": "Nonlinear functions", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A population of bacteria doubles every 3 hours. If the population starts at 500, which function models the population P(t) after t hours?",
+    "options": ["A) P(t) = 500(2)^(t/3)", "B) P(t) = 500(2)^(3t)", "C) P(t) = 500 + 2^(t/3)", "D) P(t) = 1000^(t/3)"],
+    "correct_answer": "A) P(t) = 500(2)^(t/3)",
+    "rubric": "Exponential growth with doubling: initial value 500 multiplied by 2 raised to the number of doubling periods, which is t/3 after t hours."
+  },
+  {
+    "exam_type": "SAT", "domain": "Advanced Math", "skill": "Nonlinear equations and systems", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "If x^2 = 5x, what are all possible values of x?",
+    "options": ["A) 5 only", "B) 0 only", "C) 0 and 5", "D) -5 and 5"],
+    "correct_answer": "C) 0 and 5",
+    "rubric": "Rewrite as x^2 - 5x = 0, factor: x(x - 5) = 0. So x = 0 or x = 5. Dividing both sides by x would lose the x = 0 solution."
+  },
+  {
+    "exam_type": "SAT", "domain": "Advanced Math", "skill": "Nonlinear equations and systems", "difficulty": "hard", "question_type": "mcq",
+    "question_text": "The equation x^2 + bx + 16 = 0, where b is a positive constant, has exactly one real solution. What is the value of b?",
+    "options": ["A) 4", "B) 8", "C) 16", "D) 32"],
+    "correct_answer": "B) 8",
+    "rubric": "Exactly one real solution means the discriminant is zero: b^2 - 4(1)(16) = 0, so b^2 = 64 and b = 8 (b is positive)."
+  },
+  {
+    "exam_type": "SAT", "domain": "Advanced Math", "skill": "Equivalent expressions", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "Which expression is equivalent to (x + 3)(x - 3)?",
+    "options": ["A) x^2 - 9", "B) x^2 + 9", "C) x^2 - 6x - 9", "D) x^2 - 6x + 9"],
+    "correct_answer": "A) x^2 - 9",
+    "rubric": "This is a difference of squares: (x + 3)(x - 3) = x^2 - 3^2 = x^2 - 9."
+  },
+  {
+    "exam_type": "SAT", "domain": "Advanced Math", "skill": "Equivalent expressions", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "Which expression is equivalent to (2x^3 y^2)^3?",
+    "options": ["A) 6x^9 y^6", "B) 8x^6 y^5", "C) 8x^9 y^6", "D) 2x^9 y^6"],
+    "correct_answer": "C) 8x^9 y^6",
+    "rubric": "Raise each factor to the third power: 2^3 = 8, (x^3)^3 = x^9, (y^2)^3 = y^6."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "Ratios, rates, and proportions", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "A recipe uses 3 cups of flour for every 2 cups of sugar. How many cups of flour are needed with 8 cups of sugar?",
+    "options": ["A) 10", "B) 12", "C) 14", "D) 16"],
+    "correct_answer": "B) 12",
+    "rubric": "Set up the proportion 3/2 = f/8. Cross-multiply: 2f = 24, so f = 12."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "Ratios, rates, and proportions", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A car travels 240 miles using 8 gallons of gasoline. At this rate, how many gallons are needed to travel 420 miles?",
+    "options": ["A) 12", "B) 14", "C) 16", "D) 18"],
+    "correct_answer": "B) 14",
+    "rubric": "The rate is 240/8 = 30 miles per gallon. For 420 miles: 420/30 = 14 gallons."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "Percentages", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "A jacket originally costs $80 and is on sale for 25% off. What is the sale price?",
+    "options": ["A) $55", "B) $60", "C) $65", "D) $75"],
+    "correct_answer": "B) $60",
+    "rubric": "25% of $80 is $20. Sale price = 80 - 20 = $60."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "Percentages", "difficulty": "hard", "question_type": "mcq",
+    "question_text": "The price of a stock increased by 20% in the first year and then decreased by 20% in the second year. The final price is what percent of the original price?",
+    "options": ["A) 96%", "B) 100%", "C) 104%", "D) 120%"],
+    "correct_answer": "A) 96%",
+    "rubric": "Multiply the factors: 1.20 × 0.80 = 0.96, so the final price is 96% of the original. Percent changes don't cancel because they apply to different bases."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "One-variable data", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "The list 3, 7, 8, 10, 12 has a mean of 8. If the value 12 is replaced with 22, which statement is true?",
+    "options": ["A) The mean and median both increase", "B) The mean increases and the median stays the same", "C) The mean stays the same and the median increases", "D) The mean and median both stay the same"],
+    "correct_answer": "B) The mean increases and the median stays the same",
+    "rubric": "The median of 3, 7, 8, 10, 22 is still 8 (middle value), but the sum grows by 10, so the mean rises from 8 to 10. Extreme values affect the mean more than the median."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "Two-variable data", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A scatterplot shows a strong negative linear association between hours of television watched and exam score. Which statement is best supported?",
+    "options": ["A) Watching television causes lower exam scores", "B) As television hours increase, exam scores tend to decrease", "C) As television hours increase, exam scores tend to increase", "D) There is no relationship between the variables"],
+    "correct_answer": "B) As television hours increase, exam scores tend to decrease",
+    "rubric": "A negative association means the variables move in opposite directions. Correlation alone doesn't establish causation, so choice A goes too far."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "Probability", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "A bag contains 4 red, 5 blue, and 3 green marbles. If one marble is selected at random, what is the probability that it is blue?",
+    "options": ["A) 1/4", "B) 5/12", "C) 1/3", "D) 5/7"],
+    "correct_answer": "B) 5/12",
+    "rubric": "There are 12 marbles total and 5 are blue, so P(blue) = 5/12."
+  },
+  {
+    "exam_type": "SAT", "domain": "Problem Solving & Data Analysis", "skill": "Probability", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "In a survey, 60 students were asked whether they play a sport. Of the 35 students who play a sport, 20 also play an instrument. If a surveyed student who plays a sport is selected at random, what is the probability that the student also plays an instrument?",
+    "options": ["A) 1/3", "B) 20/60", "C) 4/7", "D) 7/12"],
+    "correct_answer": "C) 4/7",
+    "rubric": "This is conditional probability: out of the 35 sport players, 20 play an instrument, so 20/35 = 4/7. The total of 60 is not the denominator because the condition restricts the group."
+  },
+  {
+    "exam_type": "SAT", "domain": "Geometry & Trigonometry", "skill": "Area and volume", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "A rectangle has a length of 12 and a width of 5. What is its area?",
+    "options": ["A) 17", "B) 34", "C) 60", "D) 120"],
+    "correct_answer": "C) 60",
+    "rubric": "Area of a rectangle = length × width = 12 × 5 = 60."
+  },
+  {
+    "exam_type": "SAT", "domain": "Geometry & Trigonometry", "skill": "Area and volume", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A right circular cylinder has a radius of 3 and a height of 8. What is its volume?",
+    "options": ["A) 24π", "B) 48π", "C) 72π", "D) 96π"],
+    "correct_answer": "C) 72π",
+    "rubric": "Volume = πr²h = π(3²)(8) = 72π."
+  },
+  {
+    "exam_type": "SAT", "domain": "Geometry & Trigonometry", "skill": "Lines, angles, and triangles", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "In a triangle, two angles measure 35° and 65°. What is the measure of the third angle?",
+    "options": ["A) 70°", "B) 80°", "C) 90°", "D) 100°"],
+    "correct_answer": "B) 80°",
+    "rubric": "Angles of a triangle sum to 180°: 180 - 35 - 65 = 80°."
+  },
+  {
+    "exam_type": "SAT", "domain": "Geometry & Trigonometry", "skill": "Right triangles and trigonometry", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+    "options": ["A) 10", "B) 12", "C) 14", "D) 48"],
+    "correct_answer": "A) 10",
+    "rubric": "By the Pythagorean theorem: c² = 6² + 8² = 36 + 64 = 100, so c = 10."
+  },
+  {
+    "exam_type": "SAT", "domain": "Geometry & Trigonometry", "skill": "Circles", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "In the xy-plane, the equation (x - 2)² + (y + 3)² = 25 defines a circle. What are the center and radius of the circle?",
+    "options": ["A) Center (2, -3), radius 5", "B) Center (-2, 3), radius 5", "C) Center (2, -3), radius 25", "D) Center (-2, 3), radius 25"],
+    "correct_answer": "A) Center (2, -3), radius 5",
+    "rubric": "Standard form is (x - h)² + (y - k)² = r². Here h = 2, k = -3, r² = 25 so r = 5."
+  },
+  {
+    "exam_type": "SAT", "domain": "Information and Ideas", "skill": "Central Ideas and Details", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "Urban community gardens do more than provide fresh produce. Studies show they strengthen neighborhood ties, reduce stress among participants, and even lower local temperatures during summer heat waves. For many city planners, these secondary benefits are now the primary reason to fund new garden projects.\n\nWhich choice best states the main idea of the text?",
+    "options": ["A) Community gardens are an inexpensive source of fresh produce", "B) City planners have stopped funding community gardens", "C) The value of community gardens extends well beyond food production", "D) Community gardens are the most effective way to cool cities"],
+    "correct_answer": "C) The value of community gardens extends well beyond food production",
+    "rubric": "The passage opens by saying gardens 'do more than provide fresh produce' and lists social and environmental benefits, concluding that these are now the main reason for funding. Choice C captures this. A is too narrow, B contradicts the text, and D overstates one detail."
+  },
+  {
+    "exam_type": "SAT", "domain": "Information and Ideas", "skill": "Central Ideas and Details", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "The narwhal's long spiral tusk puzzled scientists for centuries. Recent research reveals it is a sensory organ containing millions of nerve endings that detect changes in water temperature, pressure, and salinity — information that may help narwhals locate food and navigate shifting Arctic ice.\n\nAccording to the text, what is one function of the narwhal's tusk?",
+    "options": ["A) Defending against predators", "B) Detecting changes in the surrounding water", "C) Breaking through Arctic ice", "D) Attracting mates during breeding season"],
+    "correct_answer": "B) Detecting changes in the surrounding water",
+    "rubric": "The text states the tusk detects 'changes in water temperature, pressure, and salinity.' The other choices are not mentioned in the passage."
+  },
+  {
+    "exam_type": "SAT", "domain": "Information and Ideas", "skill": "Inferences", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "Before refrigeration, coastal communities preserved fish by salting and drying it. Inland villages, lacking easy access to salt, relied instead on smoking or fermenting their catch. When trade routes later brought cheap salt inland, ________\n\nWhich choice most logically completes the text?",
+    "options": ["A) coastal communities abandoned salting entirely", "B) inland preservation methods began to shift toward salting as well", "C) fish became less important to inland diets", "D) smoking remained the only viable method inland"],
+    "correct_answer": "B) inland preservation methods began to shift toward salting as well",
+    "rubric": "The passage links the inland use of smoking/fermenting to a lack of salt. Once salt became available inland, the logical consequence is that salting spread there too. The other options don't follow from the setup."
+  },
+  {
+    "exam_type": "SAT", "domain": "Information and Ideas", "skill": "Command of Evidence", "difficulty": "hard", "question_type": "mcq",
+    "question_text": "A researcher claims that older adults who regularly play strategy games maintain stronger short-term memory than those who do not.\n\nWhich finding, if true, would most directly support the researcher's claim?",
+    "options": ["A) Older adults who play strategy games report enjoying puzzles more than card games", "B) In a two-year study, game-playing older adults scored 15% higher on short-term memory tests than non-players of the same age", "C) Younger adults outperform older adults on most memory tasks", "D) Strategy games have become more popular among older adults in the last decade"],
+    "correct_answer": "B) In a two-year study, game-playing older adults scored 15% higher on short-term memory tests than non-players of the same age",
+    "rubric": "The claim links game playing to stronger short-term memory in older adults. Only choice B provides a direct comparison of memory performance between players and non-players. The others discuss preferences, popularity, or a different comparison."
+  },
+  {
+    "exam_type": "SAT", "domain": "Craft and Structure", "skill": "Words in Context", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "The new bridge design was praised for being remarkably ________: it used half the steel of conventional designs while supporting the same load.\n\nWhich choice completes the text with the most logical and precise word?",
+    "options": ["A) efficient", "B) expensive", "C) fragile", "D) ornate"],
+    "correct_answer": "A) efficient",
+    "rubric": "Using fewer materials to achieve the same result is the definition of efficiency. 'Fragile' and 'ornate' contradict the praise, and 'expensive' doesn't fit using less steel."
+  },
+  {
+    "exam_type": "SAT", "domain": "Craft and Structure", "skill": "Words in Context", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "Although the two historians examined the same archival documents, their interpretations ________ sharply: one saw evidence of economic decline, while the other found signs of cultural renewal.\n\nWhich choice completes the text with the most logical and precise word?",
+    "options": ["A) converged", "B) diverged", "C) persisted", "D) faltered"],
+    "correct_answer": "B) diverged",
+    "rubric": "The colon introduces two opposing readings of the same documents, so the interpretations went in different directions — they diverged. 'Converged' means the opposite."
+  },
+  {
+    "exam_type": "SAT", "domain": "Craft and Structure", "skill": "Text Structure and Purpose", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "Every autumn, monarch butterflies travel up to 3,000 miles from Canada to central Mexico. Scientists long wondered how insects with brains the size of a pinhead manage such navigation. Recent experiments point to an internal 'sun compass' calibrated by the monarchs' circadian clock.\n\nWhich choice best describes the overall structure of the text?",
+    "options": ["A) A phenomenon is described, a question about it is raised, and a possible explanation is presented", "B) A hypothesis is stated and then rejected based on new evidence", "C) Two competing theories are compared and one is endorsed", "D) A personal anecdote is used to introduce a scientific debate"],
+    "correct_answer": "A) A phenomenon is described, a question about it is raised, and a possible explanation is presented",
+    "rubric": "The text moves from the migration (phenomenon) to scientists' puzzlement (question) to the sun-compass findings (explanation) — matching choice A."
+  },
+  {
+    "exam_type": "SAT", "domain": "Expression of Ideas", "skill": "Transitions", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "Solar panels have become far cheaper over the past decade. ________, many homeowners still hesitate to install them because of high upfront costs.\n\nWhich choice completes the text with the most logical transition?",
+    "options": ["A) Therefore", "B) Nevertheless", "C) For example", "D) Similarly"],
+    "correct_answer": "B) Nevertheless",
+    "rubric": "The second sentence contrasts with the first (cheaper, yet people hesitate), so a contrast transition is needed: 'Nevertheless.'"
+  },
+  {
+    "exam_type": "SAT", "domain": "Expression of Ideas", "skill": "Transitions", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "The museum's new wing was designed to showcase contemporary sculpture. ________, its high ceilings and open floor plan give curators the flexibility to exhibit works of almost any size.\n\nWhich choice completes the text with the most logical transition?",
+    "options": ["A) In contrast", "B) To that end", "C) Regardless", "D) Meanwhile"],
+    "correct_answer": "B) To that end",
+    "rubric": "The second sentence explains how the design serves the stated purpose, so a purpose-oriented transition fits: 'To that end.'"
+  },
+  {
+    "exam_type": "SAT", "domain": "Expression of Ideas", "skill": "Rhetorical Synthesis", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "A student is writing about the Hubble Space Telescope and has taken these notes:\n- Launched in 1990 into low Earth orbit\n- Has made more than 1.5 million observations\n- Its data have appeared in over 20,000 scientific papers\n- A flaw in its mirror was repaired by astronauts in 1993\n\nThe student wants to emphasize Hubble's scientific productivity. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": ["A) Launched in 1990, Hubble orbits close to Earth", "B) Hubble has made over 1.5 million observations that have fed more than 20,000 scientific papers", "C) In 1993, astronauts repaired a flaw in Hubble's mirror", "D) Hubble was launched in 1990 and repaired in 1993"],
+    "correct_answer": "B) Hubble has made over 1.5 million observations that have fed more than 20,000 scientific papers",
+    "rubric": "The goal is emphasizing scientific productivity, so the observation count and paper count are the relevant notes. The other choices focus on launch dates or repairs."
+  },
+  {
+    "exam_type": "SAT", "domain": "Standard English Conventions", "skill": "Boundaries", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "The marathon route passes three landmarks ________ the old lighthouse, the botanical gardens, and the city bridge.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": ["A) landmarks,", "B) landmarks:", "C) landmarks;", "D) landmarks"],
+    "correct_answer": "B) landmarks:",
+    "rubric": "A colon correctly introduces the list that explains 'three landmarks.' A semicolon must join independent clauses, and a comma or nothing creates a run-on/unclear boundary."
+  },
+  {
+    "exam_type": "SAT", "domain": "Standard English Conventions", "skill": "Boundaries", "difficulty": "hard", "question_type": "mcq",
+    "question_text": "The results of the experiment were surprising ________ the sample size, however, was too small to draw firm conclusions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": ["A) surprising,", "B) surprising;", "C) surprising", "D) surprising, and,"],
+    "correct_answer": "B) surprising;",
+    "rubric": "Two independent clauses ('The results were surprising' and 'the sample size was too small...') need a semicolon; a comma alone creates a comma splice."
+  },
+  {
+    "exam_type": "SAT", "domain": "Standard English Conventions", "skill": "Form, Structure, and Sense", "difficulty": "easy", "question_type": "mcq",
+    "question_text": "Each of the laboratory's microscopes ________ calibrated at the start of every semester.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": ["A) are", "B) were", "C) is", "D) have been"],
+    "correct_answer": "C) is",
+    "rubric": "The subject is 'Each,' which is singular, so the singular verb 'is' agrees — not the plural 'are/were/have been.' The phrase 'of the laboratory's microscopes' is a prepositional phrase, not the subject."
+  },
+  {
+    "exam_type": "SAT", "domain": "Standard English Conventions", "skill": "Form, Structure, and Sense", "difficulty": "medium", "question_type": "mcq",
+    "question_text": "Renowned for ________ intricate weaving patterns, the artisans of the village attract collectors from around the world.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": ["A) its", "B) their", "C) it's", "D) there"],
+    "correct_answer": "B) their",
+    "rubric": "The pronoun refers to the plural noun 'artisans,' so the plural possessive 'their' is required. 'Its' is singular, 'it's' means 'it is,' and 'there' is not a possessive."
+  }
+]

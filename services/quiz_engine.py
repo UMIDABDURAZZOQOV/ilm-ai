@@ -11,7 +11,7 @@ from services.monitoring import log_llm_call
 load_dotenv()
 
 VECTOR_DIR = "vectors"
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+from services.gemini import generate_content as gemini_generate
 
 
 from services.users import USE_DB
@@ -57,12 +57,20 @@ def generate_quiz(
     num_questions: int = 5,
     difficulty: str = "solid understanding",
     language: str = "en",
+    topic: str | None = None,
 ) -> dict:
     vectors = load_vectors(user_id)
     if not vectors:
         return {
             "error": "No materials uploaded yet. Upload a PDF on the website first.",
         }
+
+    if topic:
+        matched = [v for v in vectors if v.get("topic", "").strip().lower() == topic.strip().lower()]
+        if matched:
+            vectors = matched
+        # else: topic no longer matches any uploaded material (e.g. it was removed) —
+        # fall back to the full set rather than failing the quiz outright.
 
     chunks = [v["text"] for v in vectors]
     selected = random.sample(chunks, min(5, len(chunks)))
@@ -114,12 +122,12 @@ Return ONLY the JSON, no other text."""
 
     start_time = time.time()
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
+        response = gemini_generate(
+            model="gemini-flash-latest",
             contents=prompt,
         )
     except ClientError as e:
-        if hasattr(e, "status_code") and e.status_code == 429:
+        if getattr(e, "code", None) == 429:
             return {"error": "Gemini API rate limit exceeded. Please try again in a moment."}
         return {"error": f"Gemini API Error: {str(e)}"}
     
@@ -130,7 +138,7 @@ Return ONLY the JSON, no other text."""
         prompt=prompt,
         response_text=response.text,
         latency_ms=latency_ms,
-        model="gemini-2.5-flash"
+        model="gemini-flash-latest"
     )
 
     try:
@@ -168,12 +176,12 @@ Return ONLY the JSON."""
 
     start_time = time.time()
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
+        response = gemini_generate(
+            model="gemini-flash-latest",
             contents=prompt,
         )
     except ClientError as e:
-        if hasattr(e, "status_code") and e.status_code == 429:
+        if getattr(e, "code", None) == 429:
             return {"error": "Gemini API rate limit exceeded. Please try again in a moment."}
         return {"error": f"Gemini API Error: {str(e)}"}
     
@@ -184,7 +192,7 @@ Return ONLY the JSON."""
         prompt=prompt,
         response_text=response.text,
         latency_ms=latency_ms,
-        model="gemini-2.5-flash"
+        model="gemini-flash-latest"
     )
 
     try:

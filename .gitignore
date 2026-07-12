@@ -10,3 +10,8 @@ vectors/*.json
 telegram_bot/__pycache__/
 .DS_Store
 
+
+# runtime data & build artifacts (never commit)
+*.pyc
+*.db
+data/*.db

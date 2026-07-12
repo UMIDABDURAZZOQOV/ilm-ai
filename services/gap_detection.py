@@ -9,7 +9,7 @@ from services.quiz_engine import load_vectors
 from services.quiz_history import load_sessions
 
 load_dotenv()
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+from services.gemini import generate_content as gemini_generate
 
 
 def _parse_json(text: str) -> dict:
@@ -63,8 +63,8 @@ def generate_gaps_report(user_id: int, is_premium: bool) -> dict:
     from services.monitoring import log_llm_call
     start_time = time.time()
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
+        response = gemini_generate(
+            model="gemini-flash-latest",
             contents=f"""You are a learning analytics agent for Ilm AI.
 Analyze quiz history and identify knowledge gaps.
 
@@ -91,7 +91,7 @@ Return JSON:
 
 Return ONLY JSON.""",
         )
-    except ClientError as e:
+    except ClientError:
         return {
             "ready": False,
             "message": "Gemini API rate limit exceeded or error occurred. Try again later.",
@@ -104,13 +104,20 @@ Return ONLY JSON.""",
         prompt=history_summary, # Simplified prompt for logging
         response_text=response.text,
         latency_ms=latency_ms,
-        model="gemini-2.5-flash"
+        model="gemini-flash-latest"
     )
 
     try:
         report = _parse_json(response.text)
         report["ready"] = True
         report["sessions_analyzed"] = len(sessions)
+
+        weak_topics = report.get("weak_topics") or []
+        if weak_topics:
+            from services.review import upsert_weak_topics
+            source_material = filenames[0] if filenames else None
+            upsert_weak_topics(user_id, weak_topics, source_material)
+
         if not is_premium:
             report["premium_note"] = (
                 "Upgrade to Premium for full Gaps Reports and unlimited quizzes."
@@ -135,7 +142,7 @@ def inject_sat_weak_areas(user_id: int, weak_areas: list[str]) -> None:
     ``generate_gaps_report`` can surface them alongside upload-based gaps without
     any structural changes to the quiz history schema.
     """
-    from services.quiz_history import load_sessions, add_session
+    from services.quiz_history import add_session
 
     if not weak_areas:
         return
@@ -146,7 +153,7 @@ def inject_sat_weak_areas(user_id: int, weak_areas: list[str]) -> None:
             "question": f"SAT/IELTS weak area: {area}",
             "topic": area,
             "is_correct": False,
-            "explanation": f"Identified as a weak area in SAT/IELTS practice session.",
+            "explanation": "Identified as a weak area in SAT/IELTS practice session.",
             "user_answer": "",
             "correct_answer": "N/A",
         }

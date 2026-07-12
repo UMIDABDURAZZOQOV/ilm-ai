@@ -21,12 +21,42 @@ WEAK_AREA_THRESHOLD = 0.70  # domains below this are flagged as weak
 # Prompt builder
 # ---------------------------------------------------------------------------
 
-def _build_analysis_prompt(session: SatIeltsSession, is_premium: bool) -> str:
-    """Build the Gemini prompt for session analysis."""
+def _build_analysis_prompt(db: Session, session: SatIeltsSession, is_premium: bool) -> str:
+    """Build the Gemini prompt for session analysis — grounded in the student's
+    ACTUAL wrong answers (not just the aggregate score), so the model can explain
+    specific mistake patterns and give concrete strategy tips instead of generic
+    advice."""
+    from services.models import SatIeltsQuestion
+
     answers = session.answers or {}
     question_ids = session.questions or []
+    questions = db.query(SatIeltsQuestion).filter(SatIeltsQuestion.id.in_(question_ids)).all()
+    q_map = {q.id: q for q in questions}
+
+    mistakes = []
+    for qid in question_ids:
+        q = q_map.get(qid)
+        if not q:
+            continue
+        recorded = answers.get(str(qid)) or {}
+        user_answer = (recorded.get("answer") or "").strip()
+        is_correct = False
+        if q.question_type == "mcq" and q.correct_answer:
+            is_correct = user_answer == q.correct_answer.strip()
+        elif q.question_type == "short_answer" and q.correct_answer:
+            is_correct = user_answer.lower() == q.correct_answer.strip().lower()
+        if not is_correct:
+            mistakes.append({
+                "domain": q.domain,
+                "question": q.question_text[:300],
+                "your_answer": user_answer or "(no answer)",
+                "correct_answer": q.correct_answer,
+            })
 
     detail_level = "full" if is_premium else "summary"
+    # Cap how many mistakes go into the prompt — keeps it fast/cheap even for
+    # a full-length test with many wrong answers.
+    mistakes_json = json.dumps(mistakes[:20], ensure_ascii=False)
 
     return f"""You are an expert {session.exam_type} tutor analyzing a student's practice session.
 
@@ -35,24 +65,29 @@ Session details:
 - Domain/Section: {session.domain or "Mixed"}
 - Difficulty: {session.difficulty}
 - Score: {session.score}/{session.total} ({session.score_pct:.1f}%)
-- Questions attempted: {len(question_ids)}
-- Questions answered: {len(answers)}
+
+The student's actual wrong answers this session (question excerpt, what they answered, the correct answer):
+{mistakes_json}
 
 Analysis level: {detail_level}
 - summary: concise overview, top 3 weak areas, 2–3 study tips
-- full: detailed per-domain breakdown, step-by-step explanations for wrong answers, prioritised study topics, exam strategy tips
+- full: detailed per-domain breakdown, a specific explanation for EACH mistake pattern, prioritised study topics, exam strategy tips
 
-Based on this session's performance, provide:
-1. Weak areas (domains/skills where accuracy < {int(WEAK_AREA_THRESHOLD * 100)}%)
-2. Recommended study topics (prioritised)
-3. Study tips{"" if not is_premium else " with detailed explanations"}
+Based on the ACTUAL mistakes listed above (not just the score), provide:
+1. Weak areas (domains where mistakes cluster, or accuracy < {int(WEAK_AREA_THRESHOLD * 100)}%)
+2. For each notable mistake (or mistake pattern), a specific reason WHY the student likely got it wrong — misread the question, calculation error, vocabulary gap, timing pressure, wrong strategy, etc. Reference the actual question content, don't be generic.
+3. Recommended study topics (prioritised)
+4. Concrete, actionable strategy tips{"" if not is_premium else " with detailed explanations"}
 
 Return JSON:
 {{
   "weak_areas": ["domain1", "domain2"],
+  "mistake_analysis": [
+    {{"question": "short excerpt", "your_answer": "...", "correct_answer": "...", "why_wrong": "specific explanation grounded in the actual question"}}
+  ],
   "recommended_topics": ["topic1", "topic2"],
   "study_tips": ["tip1", "tip2"],
-  "summary": "Plain-language performance summary",
+  "summary": "Plain-language performance summary referencing the real mistake patterns above",
   "domain_feedback": {{
     "domain_name": "specific feedback"
   }}
@@ -81,13 +116,13 @@ async def analyse_session(
     from services.monitoring import log_llm_call
 
     load_dotenv()
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    from services.gemini import generate_content as gemini_generate
 
-    prompt = _build_analysis_prompt(session, is_premium)
+    prompt = _build_analysis_prompt(db, session, is_premium)
 
     start = time.time()
     try:
-        response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
+        response = gemini_generate(model="gemini-flash-latest", contents=prompt)
         latency_ms = int((time.time() - start) * 1000)
 
         log_llm_call(
@@ -95,7 +130,7 @@ async def analyse_session(
             prompt=prompt,
             response_text=response.text,
             latency_ms=latency_ms,
-            model="gemini-2.5-flash",
+            model="gemini-flash-latest",
         )
 
         # Parse response
@@ -105,6 +140,13 @@ async def analyse_session(
             if text.startswith("json"):
                 text = text[4:]
         result = json.loads(text)
+
+        # Free tier: truncate the richer fields (mirrors the same premium-gating
+        # pattern used by the general Gaps Report — services/gap_detection.py).
+        if not is_premium:
+            result["mistake_analysis"] = (result.get("mistake_analysis") or [])[:2]
+            result["study_tips"] = (result.get("study_tips") or [])[:2]
+            result["recommended_topics"] = (result.get("recommended_topics") or [])[:2]
 
         # Persist
         session.analysis_result = result
@@ -120,10 +162,14 @@ async def analyse_session(
 
     except (ClientError, Exception) as exc:
         # Graceful degradation: mark pending, don't raise
+        import traceback
+        print(f"[sat_analyzer] analyse_session failed for session {session.id}: {exc}")
+        traceback.print_exc()
         session.analysis_status = "pending"
         db.commit()
         return {
             "weak_areas": [],
+            "mistake_analysis": [],
             "recommended_topics": [],
             "study_tips": [],
             "summary": "Analysis pending — will retry shortly.",

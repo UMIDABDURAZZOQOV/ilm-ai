@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/ilm_ai")
+IS_PRODUCTION = os.environ.get("ENVIRONMENT", "development") == "production"
 
 
 def check_postgres_port(url: str) -> bool:
@@ -36,6 +37,15 @@ if postgres_ok:
         engine = create_engine(DATABASE_URL, echo=False, future=True)
     except Exception:
         postgres_ok = False
+
+if not postgres_ok and IS_PRODUCTION:
+    raise RuntimeError(
+        "DATABASE_URL is set to a Postgres URL and ENVIRONMENT=production, but "
+        "Postgres is unreachable. Refusing to silently fall back to an ephemeral "
+        "SQLite file in production (this would look like it works, then lose all "
+        "user data, uploads, quiz history, and payments on the next restart/redeploy). "
+        "Fix the DATABASE_URL / Postgres connectivity instead."
+    )
 
 if not postgres_ok:
     print("PostgreSQL is not available. Falling back to SQLite database...")
@@ -107,15 +117,95 @@ def migrate_sqlite_columns():
                 "chat_count_date": "VARCHAR(20)",
                 "learning_goal": "TEXT",
                 "target_date": "VARCHAR(20)",
+                "email_verified": "BOOLEAN DEFAULT 0",
+                "assistant_count_today": "INTEGER DEFAULT 0",
+                "assistant_count_date": "VARCHAR(20)",
+                "push_token": "VARCHAR(300)",
             }
+            added_email_verified = False
             for col, col_type in new_columns.items():
                 if col not in existing:
                     conn.execute(text(f"ALTER TABLE users ADD COLUMN {col} {col_type}"))
                     conn.commit()
                     print(f"Added column: users.{col}")
+                    if col == "email_verified":
+                        added_email_verified = True
+
+            if added_email_verified:
+                # OAuth accounts are already verified by their provider —
+                # don't lock out existing Google users on upgrade.
+                conn.execute(text("UPDATE users SET email_verified = 1 WHERE oauth_provider IS NOT NULL"))
+                conn.commit()
+
+            # sat_ielts_questions: skill sub-domain column (SAT platform taxonomy)
+            result = conn.execute(text("PRAGMA table_info(sat_ielts_questions)"))
+            q_existing = [row[1] for row in result.fetchall()]
+            if q_existing and "skill" not in q_existing:
+                conn.execute(text("ALTER TABLE sat_ielts_questions ADD COLUMN skill VARCHAR(120)"))
+                conn.commit()
+                print("Added column: sat_ielts_questions.skill")
     except Exception as e:
         print(f"Migration error: {e}")
 
 
 migrate_sqlite_columns()
+
+
+def make_password_nullable():
+    """
+    Rebuild the SQLite users table if `password` still has its original
+    NOT NULL constraint. Google/OAuth signups never set a password, so this
+    predates OAuth support — SQLite can't ALTER COLUMN to drop NOT NULL
+    directly, so the table has to be rebuilt (rename, recreate with the
+    current schema, copy rows back, drop the renamed original).
+    """
+    if not DATABASE_URL.startswith("sqlite"):
+        return
+    try:
+        with engine.connect() as conn:
+            result = conn.execute(text("PRAGMA table_info(users)"))
+            columns = result.fetchall()
+            if not columns:
+                return
+            password_col = next((c for c in columns if c[1] == "password"), None)
+            if not password_col or password_col[3] == 0:  # notnull flag; 0 = already nullable
+                return
+
+            col_names = [c[1] for c in columns]
+            col_list = ", ".join(f'"{c}"' for c in col_names)
+
+            conn.execute(text("ALTER TABLE users RENAME TO users_pre_oauth_migration"))
+            conn.execute(text("""
+                CREATE TABLE users (
+                    id INTEGER PRIMARY KEY,
+                    name VARCHAR(200) NOT NULL,
+                    email VARCHAR(200) NOT NULL,
+                    password VARCHAR(256),
+                    oauth_provider VARCHAR(50),
+                    oauth_provider_id VARCHAR(200),
+                    profile_picture VARCHAR(500),
+                    telegram_chat_id VARCHAR(64),
+                    reminder_time VARCHAR(8) DEFAULT '09:00',
+                    streak_days INTEGER DEFAULT 0,
+                    last_study_date VARCHAR(20),
+                    subscription_tier VARCHAR(32) DEFAULT 'free',
+                    uploads_count INTEGER DEFAULT 0,
+                    quiz_count_today INTEGER DEFAULT 0,
+                    quiz_count_date VARCHAR(20),
+                    chat_count_today INTEGER DEFAULT 0,
+                    chat_count_date VARCHAR(20),
+                    learning_goal TEXT,
+                    target_date VARCHAR(20)
+                )
+            """))
+            conn.execute(text(f"INSERT INTO users ({col_list}) SELECT {col_list} FROM users_pre_oauth_migration"))
+            conn.execute(text("DROP TABLE users_pre_oauth_migration"))
+            conn.execute(text("CREATE UNIQUE INDEX IF NOT EXISTS ix_users_email ON users (email)"))
+            conn.commit()
+            print("Rebuilt users table so password is nullable (required for OAuth signups)")
+    except Exception as e:
+        print(f"Error making password nullable: {e}")
+
+
+make_password_nullable()
 

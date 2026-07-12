@@ -1,7 +1,6 @@
 import json
 import os
 import secrets
-import base64
 import hmac
 import hashlib
 import requests
@@ -11,6 +10,9 @@ from fastapi import HTTPException
 
 from services.subscriptions import upgrade_to_premium
 from services.monitoring import track_error
+from services.users import USE_DB
+from services.db import SessionLocal
+from services.models import CheckoutSession
 
 DATA_DIR = "data/payments"
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -30,7 +32,7 @@ CLICK_SECRET_KEY = os.environ.get("CLICK_SECRET_KEY", "")
 CLICK_API_URL = "https://api.click.uz/v2"
 
 # Payment amounts
-PREMIUM_PRICE_UZS = 99000  # Premium subscription price in UZS
+PREMIUM_PRICE_UZS = 25000  # Premium subscription price in UZS (~$1.99)
 
 
 def _sessions_file() -> str:
@@ -38,6 +40,14 @@ def _sessions_file() -> str:
 
 
 def _load_sessions() -> dict[str, Any]:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            rows = db.query(CheckoutSession).all()
+            return {row.session_id: row.data for row in rows}
+        finally:
+            db.close()
+
     path = _sessions_file()
     if not os.path.exists(path):
         return {}
@@ -46,6 +56,21 @@ def _load_sessions() -> dict[str, Any]:
 
 
 def _save_sessions(data: dict[str, Any]) -> None:
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            db.query(CheckoutSession).delete()
+            for session_id, session_data in data.items():
+                db.add(CheckoutSession(
+                    session_id=session_id,
+                    user_id=session_data["user_id"],
+                    data=session_data,
+                ))
+            db.commit()
+        finally:
+            db.close()
+        return
+
     with open(_sessions_file(), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

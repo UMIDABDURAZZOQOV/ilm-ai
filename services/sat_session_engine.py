@@ -19,6 +19,7 @@ def create_session(
     timed: bool = False,
     duration_seconds: Optional[int] = None,
     session_type: str = "practice",
+    module_info: Optional[dict] = None,  # For SAT: {"module": 1, "section": "RW" or "Math"}
 ) -> SatIeltsSession:
     """Create a new SAT/IELTS session and persist it."""
     # Derive domain: single domain if all questions share one, else None
@@ -41,6 +42,7 @@ def create_session(
         duration_seconds=duration_seconds if timed else None,
         questions=[q.id for q in questions],
         answers={},
+        analysis_result=module_info or {},  # Store module info here
     )
     db.add(session)
     db.commit()
@@ -154,6 +156,296 @@ def auto_submit_expired_session(db: Session, session_id: int) -> SatIeltsSession
     db.commit()
 
     return finalise_session(db, session_id)
+
+
+def create_sat_full_test(
+    db: Session,
+    user_id: int,
+    difficulty: str = "medium",
+) -> dict:
+    """Create a SAT full test with Module 1 and Module 2 structure.
+    
+    SAT Digital Format:
+    - Module 1: Reading & Writing (27 questions, 32 min) + Math (22 questions, 35 min)
+    - Module 2: Reading & Writing (27 questions, 32 min) + Math (22 questions, 35 min)
+    Total: 98 questions
+    
+    Returns dict with session IDs for each module.
+    """
+    from services.question_bank import select_questions_for_session
+    
+    # SAT domains by section
+    rw_domains = [
+        "Information and Ideas",
+        "Craft and Structure", 
+        "Expression of Ideas",
+        "Standard English Conventions"
+    ]
+    math_domains = ["Algebra", "Advanced Math", "Problem Solving & Data Analysis", "Geometry & Trigonometry"]
+    
+    sessions = {}
+    
+    # Module 1 - Reading & Writing (27 questions)
+    rw_m1_questions = []
+    for domain in rw_domains:
+        qs = select_questions_for_session(
+            db, exam_type="SAT", domain=domain, difficulty=difficulty, count=7
+        )
+        rw_m1_questions.extend(qs)
+    
+    # Adjust to exactly 27
+    if len(rw_m1_questions) > 27:
+        rw_m1_questions = rw_m1_questions[:27]
+    elif len(rw_m1_questions) < 27:
+        # Fill with any available RW questions
+        for domain in rw_domains:
+            qs = select_questions_for_session(
+                db, exam_type="SAT", domain=domain, difficulty=difficulty, 
+                count=27 - len(rw_m1_questions)
+            )
+            rw_m1_questions.extend(qs)
+            if len(rw_m1_questions) >= 27:
+                break
+    
+    rw_m1_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="SAT",
+        questions=rw_m1_questions[:27],
+        timed=True,
+        duration_seconds=32 * 60,  # 32 minutes
+        session_type="full_test",
+        module_info={"module": 1, "section": "RW"}
+    )
+    sessions["module1_rw"] = rw_m1_session.id
+    
+    # Module 1 - Math (22 questions)
+    math_m1_questions = []
+    for domain in math_domains:
+        qs = select_questions_for_session(
+            db, exam_type="SAT", domain=domain, difficulty=difficulty, count=6
+        )
+        math_m1_questions.extend(qs)
+    
+    if len(math_m1_questions) > 22:
+        math_m1_questions = math_m1_questions[:22]
+    elif len(math_m1_questions) < 22:
+        for domain in math_domains:
+            qs = select_questions_for_session(
+                db, exam_type="SAT", domain=domain, difficulty=difficulty,
+                count=22 - len(math_m1_questions)
+            )
+            math_m1_questions.extend(qs)
+            if len(math_m1_questions) >= 22:
+                break
+    
+    math_m1_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="SAT",
+        questions=math_m1_questions[:22],
+        timed=True,
+        duration_seconds=35 * 60,  # 35 minutes
+        session_type="full_test",
+        module_info={"module": 1, "section": "Math"}
+    )
+    sessions["module1_math"] = math_m1_session.id
+    
+    # Module 2 - Reading & Writing (27 questions) - adaptive based on M1 performance
+    rw_m2_questions = []
+    for domain in rw_domains:
+        qs = select_questions_for_session(
+            db, exam_type="SAT", domain=domain, difficulty=difficulty, count=7
+        )
+        rw_m2_questions.extend(qs)
+    
+    if len(rw_m2_questions) > 27:
+        rw_m2_questions = rw_m2_questions[:27]
+    elif len(rw_m2_questions) < 27:
+        for domain in rw_domains:
+            qs = select_questions_for_session(
+                db, exam_type="SAT", domain=domain, difficulty=difficulty,
+                count=27 - len(rw_m2_questions)
+            )
+            rw_m2_questions.extend(qs)
+            if len(rw_m2_questions) >= 27:
+                break
+    
+    rw_m2_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="SAT",
+        questions=rw_m2_questions[:27],
+        timed=True,
+        duration_seconds=32 * 60,
+        session_type="full_test",
+        module_info={"module": 2, "section": "RW"}
+    )
+    sessions["module2_rw"] = rw_m2_session.id
+    
+    # Module 2 - Math (22 questions)
+    math_m2_questions = []
+    for domain in math_domains:
+        qs = select_questions_for_session(
+            db, exam_type="SAT", domain=domain, difficulty=difficulty, count=6
+        )
+        math_m2_questions.extend(qs)
+    
+    if len(math_m2_questions) > 22:
+        math_m2_questions = math_m2_questions[:22]
+    elif len(math_m2_questions) < 22:
+        for domain in math_domains:
+            qs = select_questions_for_session(
+                db, exam_type="SAT", domain=domain, difficulty=difficulty,
+                count=22 - len(math_m2_questions)
+            )
+            math_m2_questions.extend(qs)
+            if len(math_m2_questions) >= 22:
+                break
+    
+    math_m2_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="SAT",
+        questions=math_m2_questions[:22],
+        timed=True,
+        duration_seconds=35 * 60,
+        session_type="full_test",
+        module_info={"module": 2, "section": "Math"}
+    )
+    sessions["module2_math"] = math_m2_session.id
+    
+    return sessions
+
+
+def create_ielts_full_test(
+    db: Session,
+    user_id: int,
+    difficulty: str = "medium",
+) -> dict:
+    """Create an IELTS full test with 4 sections.
+    
+    IELTS Format:
+    - Listening: 40 questions, 30 min
+    - Reading: 40 questions, 60 min
+    - Writing: 2 tasks, 60 min
+    - Speaking: 3 parts, 11-14 min
+    
+    Returns dict with session IDs for each section.
+    """
+    from services.question_bank import select_questions_for_session
+    
+    ielts_domains = ["Listening", "Reading", "Writing", "Speaking"]
+    
+    sessions = {}
+    
+    # Listening section (40 questions)
+    listening_questions = select_questions_for_session(
+        db, exam_type="IELTS", domain="Listening", difficulty=difficulty, count=40
+    )
+    if len(listening_questions) < 40:
+        # Fill with any available IELTS questions
+        for domain in ielts_domains:
+            qs = select_questions_for_session(
+                db, exam_type="IELTS", domain=domain, difficulty=difficulty,
+                count=40 - len(listening_questions)
+            )
+            listening_questions.extend(qs)
+            if len(listening_questions) >= 40:
+                break
+    
+    listening_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="IELTS",
+        questions=listening_questions[:40],
+        timed=True,
+        duration_seconds=30 * 60,  # 30 minutes
+        session_type="full_test",
+        module_info={"section": "Listening"}
+    )
+    sessions["listening"] = listening_session.id
+    
+    # Reading section (40 questions)
+    reading_questions = select_questions_for_session(
+        db, exam_type="IELTS", domain="Reading", difficulty=difficulty, count=40
+    )
+    if len(reading_questions) < 40:
+        for domain in ielts_domains:
+            qs = select_questions_for_session(
+                db, exam_type="IELTS", domain=domain, difficulty=difficulty,
+                count=40 - len(reading_questions)
+            )
+            reading_questions.extend(qs)
+            if len(reading_questions) >= 40:
+                break
+    
+    reading_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="IELTS",
+        questions=reading_questions[:40],
+        timed=True,
+        duration_seconds=60 * 60,  # 60 minutes
+        session_type="full_test",
+        module_info={"section": "Reading"}
+    )
+    sessions["reading"] = reading_session.id
+    
+    # Writing section (2 tasks - essay type)
+    writing_questions = select_questions_for_session(
+        db, exam_type="IELTS", domain="Writing", difficulty=difficulty, count=2
+    )
+    if len(writing_questions) < 2:
+        # Create essay questions if not enough
+        for domain in ielts_domains:
+            qs = select_questions_for_session(
+                db, exam_type="IELTS", domain=domain, difficulty=difficulty,
+                count=2 - len(writing_questions)
+            )
+            writing_questions.extend(qs)
+            if len(writing_questions) >= 2:
+                break
+    
+    writing_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="IELTS",
+        questions=writing_questions[:2],
+        timed=True,
+        duration_seconds=60 * 60,  # 60 minutes
+        session_type="full_test",
+        module_info={"section": "Writing"}
+    )
+    sessions["writing"] = writing_session.id
+    
+    # Speaking section (3 parts - short answer type)
+    speaking_questions = select_questions_for_session(
+        db, exam_type="IELTS", domain="Speaking", difficulty=difficulty, count=3
+    )
+    if len(speaking_questions) < 3:
+        for domain in ielts_domains:
+            qs = select_questions_for_session(
+                db, exam_type="IELTS", domain=domain, difficulty=difficulty,
+                count=3 - len(speaking_questions)
+            )
+            speaking_questions.extend(qs)
+            if len(speaking_questions) >= 3:
+                break
+    
+    speaking_session = create_session(
+        db=db,
+        user_id=user_id,
+        exam_type="IELTS",
+        questions=speaking_questions[:3],
+        timed=True,
+        duration_seconds=14 * 60,  # 14 minutes
+        session_type="full_test",
+        module_info={"section": "Speaking"}
+    )
+    sessions["speaking"] = speaking_session.id
+    
+    return sessions
 
 
 def compute_domain_accuracy(sessions: list[SatIeltsSession]) -> dict[str, float]:

@@ -14,6 +14,7 @@ class QuizRequest(BaseModel):
     difficulty: str = "medium"
     num_questions: int = 5
     language: str = "en"
+    topic: str | None = None
 
 
 class AnswerRequest(BaseModel):
@@ -67,7 +68,7 @@ def generate_quiz(data: QuizRequest, auth_user_id: int = Depends(get_authenticat
     # Map frontend difficulty to backend difficulty label
     difficulty = DIFFICULTY_MAP.get(data.difficulty, "solid understanding")
 
-    result = build_quiz(data.user_id, data.num_questions, difficulty, language=data.language)
+    result = build_quiz(data.user_id, data.num_questions, difficulty, language=data.language, topic=data.topic)
     if "error" in result:
         return result
     if "_context" in result:
@@ -211,11 +212,11 @@ Return ONLY JSON."""
     start_time = time.time()
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-flash-latest",
             contents=prompt
         )
     except ClientError as e:
-        if hasattr(e, "status_code") and e.status_code == 429:
+        if getattr(e, "code", None) == 429:
             raise HTTPException(status_code=429, detail="Gemini API rate limit exceeded. Please wait a moment.")
         raise HTTPException(status_code=500, detail=f"Gemini API Error: {str(e)}")
 
@@ -226,7 +227,7 @@ Return ONLY JSON."""
         prompt=prompt,
         response_text=response.text,
         latency_ms=latency_ms,
-        model="gemini-2.5-flash"
+        model="gemini-flash-latest"
     )
 
     try:

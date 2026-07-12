@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from sqlalchemy import func, text
+from sqlalchemy import func
 from pydantic import BaseModel, ConfigDict
 from services.db import get_db
 from services.models import LLMLog, User, QuizSession, VectorEntry

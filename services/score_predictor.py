@@ -3,7 +3,6 @@ score_predictor.py — Weighted accuracy → SAT/IELTS score prediction.
 """
 from __future__ import annotations
 
-from datetime import datetime, timezone
 from typing import Optional
 
 from sqlalchemy.orm import Session

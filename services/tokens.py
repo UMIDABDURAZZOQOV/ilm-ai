@@ -9,6 +9,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 JWT_SECRET = os.environ.get("JWT_SECRET", "dev_secret")
+if os.environ.get("ENVIRONMENT") == "production" and JWT_SECRET == "dev_secret":
+    raise RuntimeError(
+        "JWT_SECRET is not set. Refusing to start in production with the default "
+        "dev_secret — anyone could forge valid auth tokens. Set JWT_SECRET in the "
+        "environment."
+    )
 ACCESS_EXPIRE = int(os.environ.get("ACCESS_TOKEN_EXPIRE_MINUTES", "15"))
 REFRESH_EXPIRE_DAYS = int(os.environ.get("REFRESH_TOKEN_EXPIRE_DAYS", "30"))
 DATA_DIR = "data"

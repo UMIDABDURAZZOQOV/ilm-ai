@@ -11,7 +11,7 @@ class User(Base):
     password = Column(String(256), nullable=True)  # Made nullable for OAuth users
     oauth_provider = Column(String(50), nullable=True)  # 'google', etc.
     oauth_provider_id = Column(String(200), nullable=True)  # Provider's user ID
-    profile_picture = Column(String(500), nullable=True)  # Profile picture URL from OAuth
+    profile_picture = Column(Text, nullable=True)  # Avatar: OAuth URL, /avatars/*.svg preset path, or a base64 data URI
     telegram_chat_id = Column(String(64), nullable=True)
     reminder_time = Column(String(8), default="09:00")
     streak_days = Column(Integer, default=0)
@@ -22,8 +22,35 @@ class User(Base):
     quiz_count_date = Column(String(20), nullable=True)
     chat_count_today = Column(Integer, default=0)
     chat_count_date = Column(String(20), nullable=True)
+    assistant_count_today = Column(Integer, default=0)
+    assistant_count_date = Column(String(20), nullable=True)
     learning_goal = Column(Text, nullable=True)
     target_date = Column(String(20), nullable=True)
+    email_verified = Column(Boolean, default=False, nullable=False)
+    push_token = Column(String(300), nullable=True)
+
+
+class EmailVerificationCode(Base):
+    __tablename__ = "email_verification_codes"
+    id = Column(Integer, primary_key=True, index=True)
+    email = Column(String(200), index=True, nullable=False)
+    code = Column(String(8), nullable=False)
+    purpose = Column(String(32), nullable=False)  # 'signup' | 'password_reset'
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    used = Column(Boolean, default=False, nullable=False)
+    attempts = Column(Integer, default=0, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class AssistantMessage(Base):
+    """General-purpose AI assistant conversation history — separate from the
+    materials-grounded chat (VectorEntry-backed). Not restricted to any topic."""
+    __tablename__ = "assistant_messages"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, index=True, nullable=False)
+    role = Column(String(16), nullable=False)  # 'user' | 'assistant'
+    content = Column(Text, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 
 class VectorEntry(Base):
@@ -46,6 +73,34 @@ class QuizSession(Base):
     total = Column(Integer)
     difficulty = Column(String(32))
     results = Column(JSON)
+
+
+class LearningPlan(Base):
+    __tablename__ = "learning_plans"
+    user_id = Column(Integer, ForeignKey("users.id"), primary_key=True)
+    plan = Column(JSON, nullable=False)
+    generated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+
+class ReviewItem(Base):
+    """A weak topic (from a Gaps Report) scheduled for spaced-repetition review."""
+    __tablename__ = "review_items"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), index=True, nullable=False)
+    topic = Column(String(200), nullable=False)
+    source_material = Column(String(300), nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    next_review_date = Column(String(20), nullable=False)  # YYYY-MM-DD
+    interval_stage = Column(Integer, default=0)  # index into REVIEW_INTERVALS
+    last_result = Column(String(16), nullable=True)  # "correct" | "incorrect"
+    last_reviewed_at = Column(DateTime(timezone=True), nullable=True)
+
+
+class CheckoutSession(Base):
+    __tablename__ = "checkout_sessions"
+    session_id = Column(String(64), primary_key=True)
+    user_id = Column(Integer, index=True, nullable=False)
+    data = Column(JSON, nullable=False)
 
 
 class RefreshToken(Base):
@@ -79,6 +134,7 @@ class SatIeltsQuestion(Base):
     id             = Column(Integer, primary_key=True, index=True)
     exam_type      = Column(String(8), nullable=False, index=True)    # "SAT" | "IELTS"
     domain         = Column(String(100), nullable=False, index=True)
+    skill          = Column(String(120), nullable=True, index=True)   # sub-domain skill, e.g. "Linear functions"
     difficulty     = Column(String(8), nullable=False)                # easy|medium|hard
     question_type  = Column(String(16), nullable=False)               # mcq|short_answer|essay
     question_text  = Column(Text, nullable=False)

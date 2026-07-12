@@ -15,7 +15,7 @@ from typing import Optional
 from sqlalchemy.orm import Session
 
 from services.sat_session_engine import compute_domain_accuracy
-from services.models import SatIeltsSession, SatIeltsUserPrefs
+from services.models import SatIeltsSession
 
 
 def generate_sat_plan(
@@ -40,7 +40,7 @@ def generate_sat_plan(
     from services.monitoring import log_llm_call
 
     load_dotenv()
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    from services.gemini import generate_content as gemini_generate
 
     # --- Gather session data ---
     sessions = (
@@ -149,9 +149,9 @@ Return ONLY the JSON, no other text."""
 
     start = time.time()
     try:
-        response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
+        response = gemini_generate(model="gemini-flash-latest", contents=prompt)
     except ClientError as exc:
-        if hasattr(exc, "status_code") and exc.status_code == 429:
+        if getattr(exc, "code", None) == 429:
             return {"error": "Gemini API rate limit exceeded. Please try again shortly."}
         return {"error": f"Gemini API error: {str(exc)}"}
     except Exception as exc:
@@ -163,7 +163,7 @@ Return ONLY the JSON, no other text."""
         prompt=prompt,
         response_text=response.text,
         latency_ms=latency_ms,
-        model="gemini-2.5-flash",
+        model="gemini-flash-latest",
     )
 
     # --- Parse response ---

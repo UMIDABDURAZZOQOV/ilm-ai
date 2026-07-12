@@ -11,7 +11,7 @@ from typing import Optional
 
 load_dotenv()
 
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+from services.gemini import generate_content as gemini_generate, embed_content as gemini_embed
 
 router = APIRouter(prefix="/plan", tags=["plan"])
 
@@ -21,7 +21,7 @@ os.makedirs(PLANS_DIR, exist_ok=True)
 
 from services.users import USE_DB
 from services.db import SessionLocal
-from services.models import VectorEntry
+from services.models import VectorEntry, LearningPlan
 
 def load_vectors(user_id: int):
     if USE_DB:
@@ -48,11 +48,32 @@ def load_vectors(user_id: int):
         return json.load(f)
 
 def save_plan_to_file(user_id: int, plan: dict):
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            row = db.query(LearningPlan).filter(LearningPlan.user_id == user_id).first()
+            if row:
+                row.plan = plan
+            else:
+                db.add(LearningPlan(user_id=user_id, plan=plan))
+            db.commit()
+        finally:
+            db.close()
+        return
+
     path = f"{PLANS_DIR}/user_{user_id}.json"
     with open(path, "w", encoding="utf-8") as f:
         json.dump(plan, f, ensure_ascii=False, indent=2)
 
 def load_plan_from_file(user_id: int):
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            row = db.query(LearningPlan).filter(LearningPlan.user_id == user_id).first()
+            return row.plan if row else None
+        finally:
+            db.close()
+
     path = f"{PLANS_DIR}/user_{user_id}.json"
     if not os.path.exists(path):
         return None
@@ -75,6 +96,43 @@ def get_plan(user_id: int = Depends(verify_user_access)):
     if not plan:
         raise HTTPException(status_code=404, detail="No plan generated yet")
     return plan
+
+
+@router.get("/{user_id}/today")
+def get_today_plan(user_id: int = Depends(verify_user_access)):
+    plan = load_plan_from_file(user_id)
+    if not plan or not plan.get("generated_at"):
+        return {"status": "no_plan", "day": None, "days_elapsed": 0, "days_total": 0}
+
+    # Flatten by position, not by the LLM's "day" field — that field can repeat
+    # or reset per week, but list position is always a reliable sequential index.
+    flattened = [
+        day
+        for week in plan.get("weekly_breakdown", [])
+        for day in week.get("days", [])
+    ]
+    days_total = len(flattened)
+    if days_total == 0:
+        return {"status": "no_plan", "day": None, "days_elapsed": 0, "days_total": 0}
+
+    try:
+        generated_date = datetime.fromisoformat(plan["generated_at"]).date()
+    except (ValueError, TypeError):
+        return {"status": "no_plan", "day": None, "days_elapsed": 0, "days_total": 0}
+
+    days_elapsed = (datetime.now().date() - generated_date).days
+
+    if days_elapsed >= days_total:
+        return {"status": "finished", "day": None, "days_elapsed": days_elapsed, "days_total": days_total}
+    if days_elapsed < 0:
+        days_elapsed = 0
+
+    return {
+        "status": "today",
+        "day": flattened[days_elapsed],
+        "days_elapsed": days_elapsed,
+        "days_total": days_total,
+    }
 
 @router.post("/generate")
 def generate_plan(data: PlanGenerateRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
@@ -162,12 +220,12 @@ Return ONLY the JSON, no other text. Keep the plan realistic and specific."""
     from services.monitoring import log_llm_call
     start_time = time.time()
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
+        response = gemini_generate(
+            model="gemini-flash-latest",
             contents=prompt
         )
     except ClientError as e:
-        if hasattr(e, "status_code") and e.status_code == 429:
+        if getattr(e, "code", None) == 429:
             raise HTTPException(status_code=429, detail="Gemini API rate limit exceeded (429). Please wait a moment and try again.")
         raise HTTPException(status_code=500, detail=f"Gemini API Error: {str(e)}")
     
@@ -178,7 +236,7 @@ Return ONLY the JSON, no other text. Keep the plan realistic and specific."""
         prompt=prompt,
         response_text=response.text,
         latency_ms=latency_ms,
-        model="gemini-2.5-flash"
+        model="gemini-flash-latest"
     )
 
     try:

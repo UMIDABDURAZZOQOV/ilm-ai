@@ -11,12 +11,14 @@ FREE_LIMITS = {
     "quiz_per_day": 3,
     "max_uploads": 5,
     "max_chat_per_day": 50,
+    "max_assistant_per_day": 15,
 }
 
 PREMIUM_LIMITS = {
     "quiz_per_day": 999,
     "max_uploads": 999,
     "max_chat_per_day": 999,
+    "max_assistant_per_day": 999,
 }
 
 
@@ -27,6 +29,8 @@ def _ensure_usage_fields(user: dict[str, Any]) -> None:
     user.setdefault("quiz_count_date", None)
     user.setdefault("chat_count_today", 0)
     user.setdefault("chat_count_date", None)
+    user.setdefault("assistant_count_today", 0)
+    user.setdefault("assistant_count_date", None)
 
 
 def _reset_daily_if_needed(user: dict[str, Any]) -> None:
@@ -37,6 +41,9 @@ def _reset_daily_if_needed(user: dict[str, Any]) -> None:
     if user.get("chat_count_date") != today:
         user["chat_count_today"] = 0
         user["chat_count_date"] = today
+    if user.get("assistant_count_date") != today:
+        user["assistant_count_today"] = 0
+        user["assistant_count_date"] = today
 
 
 def get_limits(user: dict[str, Any]) -> dict[str, int]:
@@ -146,6 +153,31 @@ def record_chat(user_id: int) -> None:
     _ensure_usage_fields(user)
     _reset_daily_if_needed(user)
     user["chat_count_today"] = user.get("chat_count_today", 0) + 1
+    save_users(users)
+
+
+def can_use_assistant(user_id: int) -> tuple[bool, str]:
+    users = load_users()
+    user = next((u for u in users if u["id"] == user_id), None)
+    if not user:
+        return False, "User not found"
+    _ensure_usage_fields(user)
+    _reset_daily_if_needed(user)
+    limits = get_limits(user)
+    if user.get("assistant_count_today", 0) >= limits["max_assistant_per_day"]:
+        return False, f"Daily AI assistant limit reached ({limits['max_assistant_per_day']}). Upgrade to Premium."
+    save_users(users)
+    return True, ""
+
+
+def record_assistant_use(user_id: int) -> None:
+    users = load_users()
+    user = next((u for u in users if u["id"] == user_id), None)
+    if not user:
+        return
+    _ensure_usage_fields(user)
+    _reset_daily_if_needed(user)
+    user["assistant_count_today"] = user.get("assistant_count_today", 0) + 1
     save_users(users)
 
 

@@ -3,7 +3,6 @@ import time
 import sentry_sdk
 from sentry_sdk.integrations.fastapi import FastApiIntegration
 from sentry_sdk.integrations.sqlalchemy import SqlalchemyIntegration
-from sentry_sdk.integrations.redis import RedisIntegration
 from services.db import SessionLocal
 from services.models import LLMLog
 from typing import Optional, Dict, Any, Callable
@@ -124,12 +123,16 @@ def track_custom_event(event_name: str, data: Dict[str, Any], level: str = "info
 
 def track_error(error: Exception, context: Dict[str, Any] = None):
     """Track an error with additional context."""
+    import traceback
+    print(f"[error] {type(error).__name__}: {error}" + (f" | context={context}" if context else ""))
+    traceback.print_exception(type(error), error, error.__traceback__)
+
     sentry_sdk.capture_exception(error)
     if context:
         sentry_sdk.set_extra("error_context", context)
 
 
-def log_llm_call(user_id, prompt, response_text, latency_ms, token_count=None, model="gemini-2.5-flash", context: Dict[str, Any] = None):
+def log_llm_call(user_id, prompt, response_text, latency_ms, token_count=None, model="gemini-flash-latest", context: Dict[str, Any] = None):
     """Log LLM call to both database and Sentry."""
     # Set user context for this operation
     set_user_context(user_id=user_id)

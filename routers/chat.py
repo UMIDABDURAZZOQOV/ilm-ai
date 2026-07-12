@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+from services.gemini import generate_content as gemini_generate, embed_content as gemini_embed
 
 import time
 from services.monitoring import log_llm_call
@@ -78,7 +78,7 @@ def load_vectors(user_id: int):
         return json.load(f)
 
 def get_embedding(text: str):
-    result = client.models.embed_content(
+    result = gemini_embed(
         model="gemini-embedding-001",
         contents=text
     )
@@ -158,12 +158,12 @@ QUESTION:
 
     start_time = time.time()
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
+        response = gemini_generate(
+            model="gemini-flash-latest",
             contents=prompt
         )
     except ClientError as e:
-        if hasattr(e, "status_code") and e.status_code == 429:
+        if getattr(e, "code", None) == 429:
             raise HTTPException(status_code=429, detail="Gemini API rate limit exceeded (429). Please wait a moment and try again.")
         raise HTTPException(status_code=500, detail=f"Gemini API Error: {str(e)}")
     
@@ -181,7 +181,7 @@ QUESTION:
         response_text=response.text,
         latency_ms=latency_ms,
         token_count=token_count,
-        model="gemini-2.5-flash"
+        model="gemini-flash-latest"
     )
 
     record_chat(data.user_id)

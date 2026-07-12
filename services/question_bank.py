@@ -3,8 +3,6 @@ question_bank.py — CRUD, validation and selection helpers for SAT/IELTS questi
 """
 from __future__ import annotations
 
-import json
-import os
 import random
 import time
 from typing import Optional
@@ -62,6 +60,7 @@ def add_question(db: Session, q_in: dict) -> SatIeltsQuestion:
     question = SatIeltsQuestion(
         exam_type=q_in["exam_type"],
         domain=q_in["domain"],
+        skill=q_in.get("skill"),
         difficulty=q_in["difficulty"],
         question_type=q_in["question_type"],
         question_text=q_in["question_text"],
@@ -82,6 +81,7 @@ def get_questions(
     db: Session,
     exam_type: Optional[str] = None,
     domain: Optional[str] = None,
+    skill: Optional[str] = None,
     difficulty: Optional[str] = None,
     question_type: Optional[str] = None,
     limit: int = 50,
@@ -94,6 +94,8 @@ def get_questions(
         q = q.filter(SatIeltsQuestion.exam_type == exam_type)
     if domain:
         q = q.filter(SatIeltsQuestion.domain == domain)
+    if skill:
+        q = q.filter(SatIeltsQuestion.skill == skill)
     if difficulty:
         q = q.filter(SatIeltsQuestion.difficulty == difficulty)
     if question_type:
@@ -110,16 +112,50 @@ def select_questions_for_session(
     difficulty: str,
     count: int,
     exclude_ids: Optional[list[int]] = None,
+    skill: Optional[str] = None,
+    section: Optional[str] = None,
 ) -> list[SatIeltsQuestion]:
-    """Random sample of min(count, available) questions matching the given params."""
+    """Random sample of min(count, available) questions matching the given params.
+
+    When ``section`` is given (e.g. "Reading & Writing"), the pool is restricted
+    to that section's domains only — so a section/mock test never interleaves
+    Math and Reading questions the way a plain mixed pull would.
+
+    Falls back to difficulty-agnostic (then skill-agnostic) pools rather than
+    returning nothing — a thin bank shouldn't hard-fail a practice request."""
+    # Section filter: gather questions across all domains in the section, then
+    # difficulty is treated as a soft preference (mock tests want a full spread).
+    if section and not domain:
+        from services.sat_taxonomy import get_section_domains
+
+        section_domains = set(get_section_domains(exam_type, section))
+        if section_domains:
+            all_q = get_questions(
+                db, exam_type=exam_type, limit=2000, exclude_ids=exclude_ids,
+            )
+            pool = [q for q in all_q if q.domain in section_domains]
+            k = min(count, len(pool))
+            return random.sample(pool, k) if k > 0 else []
+
     pool = get_questions(
         db,
         exam_type=exam_type,
         domain=domain,
+        skill=skill,
         difficulty=difficulty,
         limit=1000,  # pull a large pool then random-sample
         exclude_ids=exclude_ids,
     )
+    if not pool:
+        pool = get_questions(
+            db, exam_type=exam_type, domain=domain, skill=skill,
+            limit=1000, exclude_ids=exclude_ids,
+        )
+    if not pool and skill:
+        pool = get_questions(
+            db, exam_type=exam_type, domain=domain,
+            limit=1000, exclude_ids=exclude_ids,
+        )
     k = min(count, len(pool))
     return random.sample(pool, k) if k > 0 else []
 
@@ -170,7 +206,7 @@ Return ONLY valid JSON, no extra text."""
 
     start = time.time()
     try:
-        response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
+        response = client.models.generate_content(model="gemini-flash-latest", contents=prompt)
     except Exception:
         return []
 
@@ -180,7 +216,7 @@ Return ONLY valid JSON, no extra text."""
         prompt=prompt,
         response_text=response.text,
         latency_ms=latency_ms,
-        model="gemini-2.5-flash",
+        model="gemini-flash-latest",
     )
 
     try:

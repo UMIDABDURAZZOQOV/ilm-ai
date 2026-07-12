@@ -12,7 +12,7 @@ import io
 load_dotenv()
 
 # Yangi google-genai client
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+from services.gemini import generate_content as gemini_generate, embed_content as gemini_embed
 
 router = APIRouter(prefix="/files", tags=["files"])
 
@@ -99,13 +99,13 @@ from google.genai.errors import ClientError
 
 def get_embedding(text: str):
     try:
-        result = client.models.embed_content(
+        result = gemini_embed(
             model="gemini-embedding-001",
             contents=[text]
         )
         return result.embeddings[0].values
     except ClientError as e:
-        if hasattr(e, "status_code") and e.status_code == 429:
+        if getattr(e, "code", None) == 429:
             raise HTTPException(status_code=429, detail="Embedding API rate limit exceeded. Please wait a moment.")
         raise HTTPException(status_code=500, detail=f"Embedding API Error: {str(e)}")
 

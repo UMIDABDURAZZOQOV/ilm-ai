@@ -49,7 +49,7 @@ def confirm(
         raise HTTPException(status_code=400, detail=result.get("error", "Failed"))
     
     # Track successful payment
-    track_payment_success(user_id, 99000, "test", session_id)
+    track_payment_success(user_id, 25000, "test", session_id)
     
     return result
 
@@ -68,7 +68,6 @@ def payme_webhook(payload: dict):
     """Real Payme webhook handler."""
     from services.payments import verify_payme_webhook, confirm_checkout, _load_sessions, _save_sessions
     from services.monitoring import track_payment_success, track_payment_failure, track_error
-    import json
     
     try:
         # Verify webhook signature
@@ -119,10 +118,10 @@ def payme_webhook(payload: dict):
             
             if result.get("ok"):
                 # Track successful payment
-                track_payment_success(user_id, session.get("amount_uzs", 99000), "payme", order_id)
+                track_payment_success(user_id, session.get("amount_uzs", 25000), "payme", order_id)
                 return {"result": {"state": 2, "transaction_id": session.get("transaction_id", order_id)}}
             else:
-                track_payment_failure(user_id, session.get("amount_uzs", 99000), "payme", result.get("error", "Failed"))
+                track_payment_failure(user_id, session.get("amount_uzs", 25000), "payme", result.get("error", "Failed"))
                 return {"error": {"code": -31001, "message": result.get("error", "Failed")}}
                 
         elif method == "CheckTransaction":
@@ -147,7 +146,7 @@ def payme_webhook(payload: dict):
 @router.post("/webhook/click")
 def click_webhook(payload: dict):
     """Real Click webhook handler."""
-    from services.payments import verify_click_webhook, confirm_checkout, _load_sessions, _save_sessions
+    from services.payments import verify_click_webhook, confirm_checkout, _load_sessions
     from services.monitoring import track_payment_success, track_payment_failure, track_error
     
     try:
@@ -172,10 +171,10 @@ def click_webhook(payload: dict):
         
         if result.get("ok"):
             # Track successful payment
-            track_payment_success(user_id, session.get("amount_uzs", 99000), "click", transaction_param)
+            track_payment_success(user_id, session.get("amount_uzs", 25000), "click", transaction_param)
             return {"success": "true", "transaction_id": transaction_param}
         else:
-            track_payment_failure(user_id, session.get("amount_uzs", 99000), "click", result.get("error", "Failed"))
+            track_payment_failure(user_id, session.get("amount_uzs", 25000), "click", result.get("error", "Failed"))
             return {"success": "false", "error": result.get("error", "Failed")}
             
     except Exception as e:

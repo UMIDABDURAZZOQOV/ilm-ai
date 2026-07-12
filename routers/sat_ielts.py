@@ -28,9 +28,10 @@ from services.question_bank import (
     select_questions_for_session,
 )
 from services.sat_session_engine import (
-    auto_submit_expired_session,
     compute_domain_accuracy,
     create_session,
+    create_sat_full_test,
+    create_ielts_full_test,
     finalise_session,
     record_answer,
 )
@@ -77,10 +78,13 @@ class SessionStartRequest(BaseModel):
     user_id: int
     exam_type: Literal["SAT", "IELTS"]
     domain: Optional[str] = None
+    section: Optional[str] = None
+    skill: Optional[str] = None
     difficulty: Literal["easy", "medium", "hard"] = "medium"
     num_questions: int = Field(default=10, ge=1, le=50)
     timed: bool = False
     duration_seconds: Optional[int] = None
+    session_type: Optional[Literal["practice", "diagnostic"]] = "practice"
 
 
 class AnswerSubmission(BaseModel):
@@ -120,6 +124,7 @@ def _question_out(q: SatIeltsQuestion) -> dict:
         "id": q.id,
         "exam_type": q.exam_type,
         "domain": q.domain,
+        "skill": q.skill,
         "difficulty": q.difficulty,
         "question_type": q.question_type,
         "question_text": q.question_text,
@@ -132,7 +137,45 @@ def _question_out(q: SatIeltsQuestion) -> dict:
     }
 
 
-def _session_out(s: SatIeltsSession, include_answers: bool = False) -> dict:
+def _grade_answer(q: SatIeltsQuestion, user_answer: str) -> bool:
+    """Same correctness rule used for scoring (services/sat_session_engine.py's
+    _score_session) — kept in sync so per-question detail matches the score."""
+    if not user_answer or not q.correct_answer:
+        return False
+    if q.question_type == "mcq":
+        return user_answer.strip() == q.correct_answer.strip()
+    if q.question_type == "short_answer":
+        return user_answer.strip().lower() == q.correct_answer.strip().lower()
+    return False  # essay: not auto-graded
+
+
+def _build_per_question(s: SatIeltsSession, db: Session) -> list[dict]:
+    question_ids = s.questions or []
+    answers = s.answers or {}
+    questions = db.query(SatIeltsQuestion).filter(SatIeltsQuestion.id.in_(question_ids)).all()
+    q_map = {q.id: q for q in questions}
+    results = []
+    for qid in question_ids:
+        q = q_map.get(qid)
+        if not q:
+            continue
+        recorded = answers.get(str(qid)) or {}
+        user_answer = recorded.get("answer")
+        results.append({
+            "question_id": q.id,
+            "question_text": q.question_text,
+            "question_type": q.question_type,
+            "domain": q.domain,
+            "options": q.options,
+            "user_answer": user_answer,
+            "correct_answer": q.correct_answer,
+            "is_correct": _grade_answer(q, user_answer or ""),
+            "explanation": q.rubric,
+        })
+    return results
+
+
+def _session_out(s: SatIeltsSession, include_answers: bool = False, db: Session = None) -> dict:
     data = {
         "session_id": s.id,
         "user_id": s.user_id,
@@ -147,6 +190,8 @@ def _session_out(s: SatIeltsSession, include_answers: bool = False) -> dict:
         "score": s.score,
         "total": s.total,
         "score_pct": s.score_pct,
+        "questions_correct": s.score,
+        "questions_total": s.total,
         "analysis_status": s.analysis_status,
         "analysis_result": s.analysis_result,
         "started_at": s.started_at.isoformat() if s.started_at else None,
@@ -154,6 +199,21 @@ def _session_out(s: SatIeltsSession, include_answers: bool = False) -> dict:
     }
     if include_answers:
         data["answers"] = s.answers
+    # Per-question detail + domain-grouped section scores — only computed when a
+    # db handle is passed (session completion), since it requires a query.
+    if db is not None and s.status == "completed":
+        per_question = _build_per_question(s, db)
+        data["per_question"] = per_question
+        domain_totals: dict[str, list[int]] = {}
+        for pq in per_question:
+            d = pq["domain"] or "General"
+            bucket = domain_totals.setdefault(d, [0, 0])
+            bucket[1] += 1
+            if pq["is_correct"]:
+                bucket[0] += 1
+        data["section_scores"] = {
+            d: round(c / t * 100, 1) for d, (c, t) in domain_totals.items() if t > 0
+        }
     return data
 
 
@@ -196,6 +256,62 @@ def _background_analyse_and_predict(session_id: int, is_premium: bool) -> None:
             pass
     finally:
         db.close()
+
+
+def _select_diagnostic_questions(db: Session, exam_type: str, num_questions: int) -> list[SatIeltsQuestion]:
+    """Select questions for a diagnostic test - balanced across domains and difficulties.
+    
+    For SAT diagnostic, we want:
+    - Mix of Math and Reading & Writing domains
+    - Mix of easy, medium, and hard questions
+    - Representative sample of all skill areas
+    """
+    from services.sat_taxonomy import SAT_TAXONOMY, IELTS_TAXONOMY
+    
+    taxonomy = SAT_TAXONOMY if exam_type == "SAT" else IELTS_TAXONOMY
+    questions = []
+    
+    if exam_type == "SAT":
+        # SAT: Get domains from both sections
+        all_domains = []
+        for section in taxonomy.values():
+            for domain_data in section:
+                all_domains.append(domain_data["domain"])
+        
+        # Calculate questions per domain (roughly equal distribution)
+        questions_per_domain = max(1, num_questions // len(all_domains))
+        
+        for domain in all_domains:
+            # Get mix of difficulties for each domain
+            for difficulty in ["easy", "medium", "hard"]:
+                domain_questions = db.query(SatIeltsQuestion).filter(
+                    SatIeltsQuestion.exam_type == exam_type,
+                    SatIeltsQuestion.domain == domain,
+                    SatIeltsQuestion.difficulty == difficulty
+                ).order_by(db.func.random()).limit(questions_per_domain // 3 + 1).all()
+                
+                questions.extend(domain_questions)
+                
+                if len(questions) >= num_questions:
+                    break
+            
+            if len(questions) >= num_questions:
+                break
+    else:
+        # IELTS: Get questions from each section
+        for section in taxonomy.values():
+            for domain_data in section:
+                domain = domain_data["domain"]
+                domain_questions = db.query(SatIeltsQuestion).filter(
+                    SatIeltsQuestion.exam_type == exam_type,
+                    SatIeltsQuestion.domain == domain
+                ).order_by(db.func.random()).limit(num_questions // 4 + 1).all()
+                questions.extend(domain_questions)
+    
+    # Shuffle and limit to requested number
+    import random
+    random.shuffle(questions)
+    return questions[:num_questions]
 
 
 # ===========================================================================
@@ -283,7 +399,7 @@ def start_session(
     auth_user_id: int = Depends(get_authenticated_user_id),
     db: Session = Depends(get_db),
 ):
-    """Initiate a new practice session."""
+    """Initiate a new practice session or diagnostic test."""
     ensure_own_user(data.user_id, auth_user_id)
 
     # Subscription gate
@@ -296,13 +412,24 @@ def start_session(
             status_code=400, detail="duration_seconds is required when timed=True"
         )
 
-    questions = select_questions_for_session(
-        db,
-        exam_type=data.exam_type,
-        domain=data.domain,
-        difficulty=data.difficulty,
-        count=data.num_questions,
-    )
+    # Diagnostic mode: adaptive question selection
+    if data.session_type == "diagnostic":
+        questions = _select_diagnostic_questions(
+            db,
+            exam_type=data.exam_type,
+            num_questions=data.num_questions,
+        )
+    else:
+        questions = select_questions_for_session(
+            db,
+            exam_type=data.exam_type,
+            domain=data.domain,
+            difficulty=data.difficulty,
+            count=data.num_questions,
+            skill=data.skill,
+            section=data.section,
+        )
+    
     if not questions:
         raise HTTPException(
             status_code=404,
@@ -316,7 +443,7 @@ def start_session(
         questions=questions,
         timed=data.timed,
         duration_seconds=data.duration_seconds,
-        session_type="practice",
+        session_type=data.session_type or "practice",
     )
 
     # Record usage
@@ -377,7 +504,91 @@ def complete_session(
 
     background_tasks.add_task(_background_analyse_and_predict, session_id, is_prem)
 
-    return _session_out(session)
+    return _session_out(session, db=db)
+
+
+@router.post("/sessions/{session_id}/analyze")
+async def analyze_session_endpoint(
+    session_id: int,
+    auth_user_id: int = Depends(get_authenticated_user_id),
+    db: Session = Depends(get_db),
+):
+    """On-demand AI analysis of a completed session — explains the student's
+    actual mistakes (grounded in their real wrong answers, not just the score)
+    and gives concrete study strategy tips."""
+    session = db.query(SatIeltsSession).filter(SatIeltsSession.id == session_id).first()
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+    ensure_own_user(session.user_id, auth_user_id)
+    if session.status != "completed":
+        raise HTTPException(status_code=400, detail="Session must be completed before analysis")
+
+    user = _get_user_or_404(session.user_id, db)
+    is_prem = _is_premium(user)
+
+    from services.sat_analyzer import analyse_session
+    result = await analyse_session(db, session, user, is_prem)
+    return result
+
+
+@router.get("/skills/{user_id}")
+def get_skill_tree(
+    user_id: int = Depends(verify_user_access),
+    exam_type: str = "SAT",
+    db: Session = Depends(get_db),
+):
+    """The domain/skill taxonomy with question counts and this user's progress
+    (attempted/correct per skill) — powers the OnePrep-style Question Bank page."""
+    from services.sat_taxonomy import get_taxonomy
+
+    # All answered questions across this user's completed sessions
+    sessions = (
+        db.query(SatIeltsSession)
+        .filter(
+            SatIeltsSession.user_id == user_id,
+            SatIeltsSession.exam_type == exam_type,
+            SatIeltsSession.status == "completed",
+        )
+        .all()
+    )
+    answered: dict[str, str] = {}
+    for s in sessions:
+        for qid, rec in (s.answers or {}).items():
+            answered[qid] = (rec or {}).get("answer", "")
+
+    questions = db.query(SatIeltsQuestion).filter(SatIeltsQuestion.exam_type == exam_type).all()
+
+    # Per-(domain, skill) aggregates. skill=None rows count toward the domain only.
+    stats: dict[tuple, dict] = {}
+    domain_totals: dict[str, dict] = {}
+    for q in questions:
+        d_bucket = domain_totals.setdefault(q.domain, {"question_count": 0, "attempted": 0, "correct": 0})
+        d_bucket["question_count"] += 1
+        s_bucket = stats.setdefault((q.domain, q.skill), {"question_count": 0, "attempted": 0, "correct": 0})
+        s_bucket["question_count"] += 1
+        user_answer = answered.get(str(q.id))
+        if user_answer is not None:
+            d_bucket["attempted"] += 1
+            s_bucket["attempted"] += 1
+            if _grade_answer(q, user_answer):
+                d_bucket["correct"] += 1
+                s_bucket["correct"] += 1
+
+    taxonomy = get_taxonomy(exam_type)
+    sections = []
+    for section_name, domains in taxonomy.items():
+        out_domains = []
+        for d in domains:
+            dn = d["domain"]
+            totals = domain_totals.get(dn, {"question_count": 0, "attempted": 0, "correct": 0})
+            out_skills = [
+                {"skill": sk, **stats.get((dn, sk), {"question_count": 0, "attempted": 0, "correct": 0})}
+                for sk in d["skills"]
+            ]
+            out_domains.append({"domain": dn, **totals, "skills": out_skills})
+        sections.append({"section": section_name, "domains": out_domains})
+
+    return {"exam_type": exam_type, "sections": sections}
 
 
 @router.get("/sessions/{user_id}")
@@ -420,7 +631,73 @@ def start_full_test(
     if not ok:
         raise HTTPException(status_code=403, detail=msg)
 
-    # For a full test, pull the maximum questions (up to 50)
+    # For SAT, use the new module structure
+    if data.exam_type == "SAT":
+        sessions = create_sat_full_test(
+            db=db,
+            user_id=data.user_id,
+            difficulty=data.difficulty,
+        )
+        
+        # Get all questions for all sessions
+        all_questions = []
+        for session_id in sessions.values():
+            session = db.query(SatIeltsSession).filter(SatIeltsSession.id == session_id).first()
+            if session:
+                q_ids = session.questions or []
+                questions = db.query(SatIeltsQuestion).filter(SatIeltsQuestion.id.in_(q_ids)).all()
+                all_questions.extend([_question_out(q) for q in questions])
+        
+        record_sat_ielts_attempt(data.user_id, len(all_questions), db)
+        
+        return {
+            "test_type": "sat_modular",
+            "sessions": sessions,
+            "modules": [
+                {"module": 1, "section": "RW", "session_id": sessions["module1_rw"], "duration_seconds": 32 * 60, "question_count": 27},
+                {"module": 1, "section": "Math", "session_id": sessions["module1_math"], "duration_seconds": 35 * 60, "question_count": 22},
+                {"module": 2, "section": "RW", "session_id": sessions["module2_rw"], "duration_seconds": 32 * 60, "question_count": 27},
+                {"module": 2, "section": "Math", "session_id": sessions["module2_math"], "duration_seconds": 35 * 60, "question_count": 22},
+            ],
+            "total_questions": 98,
+            "total_duration_seconds": 134 * 60,  # 2 hours 14 minutes
+            "started_at": datetime.now(timezone.utc).isoformat(),
+        }
+    
+    # For IELTS, use the new section structure
+    elif data.exam_type == "IELTS":
+        sessions = create_ielts_full_test(
+            db=db,
+            user_id=data.user_id,
+            difficulty=data.difficulty,
+        )
+        
+        # Get all questions for all sessions
+        all_questions = []
+        for session_id in sessions.values():
+            session = db.query(SatIeltsSession).filter(SatIeltsSession.id == session_id).first()
+            if session:
+                q_ids = session.questions or []
+                questions = db.query(SatIeltsQuestion).filter(SatIeltsQuestion.id.in_(q_ids)).all()
+                all_questions.extend([_question_out(q) for q in questions])
+        
+        record_sat_ielts_attempt(data.user_id, len(all_questions), db)
+        
+        return {
+            "test_type": "ielts_sectional",
+            "sessions": sessions,
+            "sections": [
+                {"section": "Listening", "session_id": sessions["listening"], "duration_seconds": 30 * 60, "question_count": 40},
+                {"section": "Reading", "session_id": sessions["reading"], "duration_seconds": 60 * 60, "question_count": 40},
+                {"section": "Writing", "session_id": sessions["writing"], "duration_seconds": 60 * 60, "question_count": 2},
+                {"section": "Speaking", "session_id": sessions["speaking"], "duration_seconds": 14 * 60, "question_count": 3},
+            ],
+            "total_questions": 85,
+            "total_duration_seconds": 164 * 60,  # 2 hours 44 minutes
+            "started_at": datetime.now(timezone.utc).isoformat(),
+        }
+    
+    # Fallback for other exam types
     questions = select_questions_for_session(
         db,
         exam_type=data.exam_type,
@@ -506,7 +783,7 @@ def complete_full_test(
     session = finalise_session(db, test_id)
     background_tasks.add_task(_background_analyse_and_predict, test_id, is_prem)
 
-    return _session_out(session)
+    return _session_out(session, db=db)
 
 
 # ===========================================================================
