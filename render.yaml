@@ -27,6 +27,8 @@ services:
         sync: false
       - key: ELEVENLABS_API_KEY
         sync: false
+      - key: ELEVENLABS_VOICE_ID
+        sync: false
       - key: TELEGRAM_BOT_TOKEN
         sync: false
       # Frontend origin(s) allowed to make credentialed requests (comma-separated)
@@ -36,34 +38,16 @@ services:
         sync: false
       - key: GOOGLE_CLIENT_SECRET
         sync: false
-      - key: SMTP_HOST
+      # Email verification uses a Gmail address + app password
+      - key: GMAIL_ADDRESS
         sync: false
-      - key: SMTP_PORT
-        sync: false
-      - key: SMTP_USER
-        sync: false
-      - key: SMTP_PASSWORD
+      - key: GMAIL_APP_PASSWORD
         sync: false
       - key: SENTRY_DSN
         sync: false
       - key: PAYMENT_TEST_MODE
         value: "true"
 
-  # ── Telegram bot (background worker) ──────────────────────────────────────
-  - type: worker
-    name: ilm-ai-telegram-bot
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python run_telegram_bot.py
-    envVars:
-      - key: ENVIRONMENT
-        value: production
-      - key: DATABASE_URL
-        fromDatabase:
-          name: ilm-ai-db
-          property: connectionString
-      - key: GEMINI_API_KEYS
-        sync: false
-      - key: TELEGRAM_BOT_TOKEN
-        sync: false
+# Note: the Telegram bot runs as a separate process (run_telegram_bot.py).
+# Render's free plan does not include background workers, so it is not deployed
+# here — run it locally during beta, or add a worker service on a paid plan.
