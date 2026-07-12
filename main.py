@@ -16,6 +16,11 @@ init_monitoring()
 # Auto-create tables in DB on startup
 Base.metadata.create_all(bind=engine)
 
+# Seed the SAT/IELTS question bank on a fresh (empty) database — production
+# Postgres starts empty, so without this the Question Bank shows 0 questions.
+from services.seed_bank import seed_question_bank_if_empty
+seed_question_bank_if_empty()
+
 start_scheduler()
 
 IS_PRODUCTION = os.environ.get("ENVIRONMENT") == "production"
