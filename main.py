@@ -21,6 +21,11 @@ Base.metadata.create_all(bind=engine)
 from services.seed_bank import seed_question_bank_if_empty
 seed_question_bank_if_empty()
 
+# Spread placeholder-skill ("General"/null) questions across real taxonomy skills
+# so every question is reachable by topic in the Question Bank.
+from services.retag_bank import retag_general_questions
+retag_general_questions()
+
 start_scheduler()
 
 IS_PRODUCTION = os.environ.get("ENVIRONMENT") == "production"
