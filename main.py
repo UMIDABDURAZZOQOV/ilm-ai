@@ -1,5 +1,6 @@
+import logging
 import os
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from dotenv import load_dotenv
@@ -7,6 +8,7 @@ from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments
 from services.monitoring import init_monitoring
 from services.db import engine, Base
 from services.scheduler import start_scheduler
+from services import telegram_webhook
 
 load_dotenv()
 init_monitoring()
@@ -74,6 +76,28 @@ def root():
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+# ── Telegram bot in webhook mode (runs inside this web service) ────────────────
+
+@app.on_event("startup")
+async def _telegram_startup():
+    try:
+        await telegram_webhook.start_webhook()
+    except Exception as e:  # noqa: BLE001 — never block API startup on the bot
+        logging.getLogger(__name__).warning("Telegram webhook setup failed: %s", e)
+
+
+@app.on_event("shutdown")
+async def _telegram_shutdown():
+    await telegram_webhook.stop_webhook()
+
+
+@app.post("/telegram/webhook")
+async def telegram_webhook_route(request: Request):
+    data = await request.json()
+    await telegram_webhook.process_update(data)
+    return {"ok": True}
 
 
 if __name__ == "__main__":

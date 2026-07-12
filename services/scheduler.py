@@ -4,6 +4,8 @@ Distinct from telegram_bot/bot.py's job_queue, which runs in a separate process
 and only knows about Telegram chat ids — this scheduler is for push-token-based
 reminders, which need to fire independent of the Telegram bot.
 """
+import os
+import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -15,6 +17,18 @@ from services.users import users_with_push_reminder_at, find_user_by_id
 TZ = ZoneInfo("Asia/Tashkent")
 
 _scheduler: BackgroundScheduler | None = None
+
+
+def _keep_alive():
+    """Ping our own public URL so a free host (e.g. Render) never spins the
+    service down — this keeps the Telegram webhook always reachable."""
+    base = os.environ.get("RENDER_EXTERNAL_URL")
+    if not base:
+        return
+    try:
+        urllib.request.urlopen(f"{base.rstrip('/')}/health", timeout=20)
+    except Exception:  # noqa: BLE001 — best-effort keep-alive
+        pass
 
 
 def _check_daily_reminders():
@@ -48,4 +62,7 @@ def start_scheduler():
     _scheduler = BackgroundScheduler(timezone=TZ)
     _scheduler.add_job(_check_daily_reminders, "interval", seconds=60, id="push_daily_reminder")
     _scheduler.add_job(_check_due_reviews, "cron", hour=8, minute=0, id="push_due_reviews")
+    # Keep the free instance awake so the Telegram webhook never sleeps.
+    if os.environ.get("RENDER_EXTERNAL_URL"):
+        _scheduler.add_job(_keep_alive, "interval", minutes=10, id="keep_alive")
     _scheduler.start()
