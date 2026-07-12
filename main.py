@@ -23,7 +23,8 @@ seed_question_bank_if_empty()
 
 # Spread placeholder-skill ("General"/null) questions across real taxonomy skills
 # so every question is reachable by topic in the Question Bank.
-from services.retag_bank import retag_general_questions
+from services.retag_bank import retag_general_questions, clean_question_text
+clean_question_text()
 retag_general_questions()
 
 start_scheduler()

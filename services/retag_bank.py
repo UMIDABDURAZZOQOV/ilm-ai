@@ -16,6 +16,35 @@ from services.sat_taxonomy import SAT_TAXONOMY
 logger = logging.getLogger(__name__)
 
 
+def clean_question_text() -> None:
+    """Strip the stray leading "null" many seeded questions carry (a passage
+    placeholder that got stringified), e.g. 'null\\n\\nIf $x...$' -> 'If $x...$'."""
+    db = SessionLocal()
+    fixed = 0
+    try:
+        rows = (
+            db.query(SatIeltsQuestion)
+            .filter(SatIeltsQuestion.question_text.like("null%"))
+            .all()
+        )
+        for q in rows:
+            cleaned = q.question_text
+            # remove a leading literal "null" and the whitespace/newlines after it
+            if cleaned[:4].lower() == "null":
+                cleaned = cleaned[4:].lstrip("\r\n \t")
+            if cleaned and cleaned != q.question_text:
+                q.question_text = cleaned
+                fixed += 1
+        if fixed:
+            db.commit()
+            logger.info("Cleaned leading 'null' from %d question texts.", fixed)
+    except Exception as e:  # noqa: BLE001 — never block startup
+        db.rollback()
+        logger.warning("Question-text cleanup failed: %s", e)
+    finally:
+        db.close()
+
+
 def _domain_skills() -> dict[str, list[str]]:
     out: dict[str, list[str]] = {}
     for entries in SAT_TAXONOMY.values():
