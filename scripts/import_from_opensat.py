@@ -236,11 +236,11 @@ def main():
     
     db = SessionLocal()
     try:
-        # Import Math questions
-        math_imported, math_failed = import_opensat_section("math", db, limit_per_domain=100)
+        # Import Math questions - maximum limit per domain
+        math_imported, math_failed = import_opensat_section("math", db, limit_per_domain=2000)
         
-        # Import Reading & Writing questions
-        rw_imported, rw_failed = import_opensat_section("english", db, limit_per_domain=100)
+        # Import Reading & Writing questions - maximum limit per domain
+        rw_imported, rw_failed = import_opensat_section("english", db, limit_per_domain=2000)
         
         total_imported = math_imported + rw_imported
         total_failed = math_failed + rw_failed
