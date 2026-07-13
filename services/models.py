@@ -141,6 +141,7 @@ class SatIeltsQuestion(Base):
     options        = Column(JSON, nullable=True)                      # list[str], len==4 for MCQ
     correct_answer = Column(Text, nullable=True)
     rubric         = Column(Text, nullable=True)
+    image_url      = Column(Text, nullable=True)                      # URL or base64 data URI for question images (graphs, triangles, etc.)
     source_filename = Column(String(300), nullable=True)              # set for AI-generated
     tags           = Column(JSON, default=list)
     created_by     = Column(Integer, nullable=True)                   # user_id, NULL = seed
@@ -200,3 +201,123 @@ class SatIeltsUserPrefs(Base):
     questions_date       = Column(String(20), nullable=True)          # YYYY-MM-DD
     ai_generated_today   = Column(Integer, default=0)
     ai_generated_date    = Column(String(20), nullable=True)
+
+
+# ─── IELTS-specific tables ─────────────────────────────────────────────────────
+
+class IeltsListening(Base):
+    """IELTS Listening passages with audio and questions."""
+    __tablename__ = "ielts_listening"
+    id              = Column(Integer, primary_key=True, index=True)
+    section         = Column(Integer, nullable=False)                # 1-4
+    title           = Column(String(300), nullable=False)
+    audio_url       = Column(Text, nullable=True)                    # URL to audio file
+    transcript      = Column(Text, nullable=True)                     # Full transcript
+    difficulty      = Column(String(8), nullable=False)               # easy|medium|hard
+    duration_seconds = Column(Integer, nullable=True)
+    created_at      = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class IeltsReading(Base):
+    """IELTS Reading passages with questions."""
+    __tablename__ = "ielts_reading"
+    id              = Column(Integer, primary_key=True, index=True)
+    section         = Column(Integer, nullable=False)                # 1-3
+    title           = Column(String(300), nullable=False)
+    passage_text    = Column(Text, nullable=False)                    # Full passage
+    difficulty      = Column(String(8), nullable=False)               # easy|medium|hard
+    word_count      = Column(Integer, nullable=True)
+    created_at      = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class IeltsWriting(Base):
+    """IELTS Writing tasks (Task 1 and Task 2)."""
+    __tablename__ = "ielts_writing"
+    id              = Column(Integer, primary_key=True, index=True)
+    task_type       = Column(String(8), nullable=False)              # Task1|Task2
+    category        = Column(String(100), nullable=False)             # e.g., "Technology", "Education"
+    prompt          = Column(Text, nullable=False)
+    image_url       = Column(Text, nullable=True)                     # For Task 1 charts/graphs
+    min_words       = Column(Integer, nullable=False)
+    duration_minutes = Column(Integer, nullable=False)
+    difficulty      = Column(String(8), nullable=False)               # easy|medium|hard
+    created_at      = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class IeltsSpeaking(Base):
+    """IELTS Speaking topics and cue cards."""
+    __tablename__ = "ielts_speaking"
+    id              = Column(Integer, primary_key=True, index=True)
+    part            = Column(Integer, nullable=False)                # 1-3
+    topic           = Column(String(300), nullable=False)
+    questions       = Column(JSON, nullable=False)                    # List of questions
+    cue_card        = Column(Text, nullable=True)                     # For Part 2
+    prep_seconds    = Column(Integer, nullable=True)                  # Preparation time
+    speak_seconds   = Column(Integer, nullable=True)                  # Speaking time
+    difficulty      = Column(String(8), nullable=False)               # easy|medium|hard
+    created_at      = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class IeltsQuestion(Base):
+    """Unified question table for IELTS (can be linked to Listening/Reading)."""
+    __tablename__ = "ielts_questions"
+    id              = Column(Integer, primary_key=True, index=True)
+    skill           = Column(String(20), nullable=False)              # Listening|Reading
+    parent_id       = Column(Integer, nullable=True)                  # FK to ielts_listening or ielts_reading
+    question_type   = Column(String(20), nullable=False)              # mcq|tfng|completion|matching|heading
+    question_text   = Column(Text, nullable=False)
+    options         = Column(JSON, nullable=True)                     # For MCQ
+    correct_answer  = Column(Text, nullable=False)
+    hint            = Column(Text, nullable=True)                     # e.g., "ONE WORD ONLY"
+    order_index     = Column(Integer, nullable=False)                # Question order in section
+    created_at      = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class IeltsWritingSubmission(Base):
+    """User writing submissions with AI grading."""
+    __tablename__ = "ielts_writing_submissions"
+    id              = Column(Integer, primary_key=True, index=True)
+    user_id         = Column(Integer, ForeignKey("users.id"), index=True, nullable=False)
+    task_id         = Column(Integer, ForeignKey("ielts_writing.id"), nullable=False)
+    essay_text      = Column(Text, nullable=False)
+    word_count      = Column(Integer, nullable=True)
+    band_score      = Column(Float, nullable=True)                   # AI-graded 0-9
+    feedback        = Column(Text, nullable=True)                     # AI feedback
+    task_response   = Column(Text, nullable=True)                     # TR score
+    coherence       = Column(Text, nullable=True)                     # CC score
+    lexical         = Column(Text, nullable=True)                     # LR score
+    grammar         = Column(Text, nullable=True)                     # GRA score
+    submitted_at    = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class IeltsSpeakingSubmission(Base):
+    """User speaking recordings with AI grading."""
+    __tablename__ = "ielts_speaking_submissions"
+    id              = Column(Integer, primary_key=True, index=True)
+    user_id         = Column(Integer, ForeignKey("users.id"), index=True, nullable=False)
+    topic_id        = Column(Integer, ForeignKey("ielts_speaking.id"), nullable=False)
+    audio_url       = Column(Text, nullable=False)                    # Recording URL
+    duration_seconds = Column(Integer, nullable=True)
+    band_score      = Column(Float, nullable=True)                   # AI-graded 0-9
+    feedback        = Column(Text, nullable=True)                     # AI feedback
+    fluency         = Column(Text, nullable=True)                     # FC score
+    lexical         = Column(Text, nullable=True)                     # LR score
+    grammar         = Column(Text, nullable=True)                     # GRA score
+    pronunciation   = Column(Text, nullable=True)                     # P score
+    submitted_at    = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class IeltsMockTest(Base):
+    """Full IELTS computer-based mock test."""
+    __tablename__ = "ielts_mock_tests"
+    id              = Column(Integer, primary_key=True, index=True)
+    user_id         = Column(Integer, ForeignKey("users.id"), index=True, nullable=False)
+    test_type       = Column(String(20), nullable=False)              # academic|general_training
+    status          = Column(String(20), default="in_progress")       # in_progress|completed
+    listening_score = Column(Float, nullable=True)
+    reading_score   = Column(Float, nullable=True)
+    writing_score   = Column(Float, nullable=True)
+    speaking_score  = Column(Float, nullable=True)
+    overall_band    = Column(Float, nullable=True)
+    started_at      = Column(DateTime(timezone=True), server_default=func.now())
+    completed_at    = Column(DateTime(timezone=True), nullable=True)
