@@ -38,6 +38,27 @@ Frontend: `cd ilm-ai-frontend && npm install && npm run dev`.
 - **Bash tool cwd persists** across calls — a stray `cd` into the frontend folder made
   `data/ilm_ai.db` resolve to the wrong place and created an empty DB. Always `cd ilm-ai` first.
 
+## What's been built so far (feature history)
+Condensed record of work done to date (the code is the source of truth; read it for detail):
+- **Auth & accounts:** email verification via SMTP code, forgot-password flow, unverified-login
+  block, 8-char password rule + show/hide + live mismatch warning, Google Sign-In.
+- **General AI assistant** (`routers/assistant.py`): unrestricted (not materials-grounded),
+  voice input (audio→Gemini), free/premium daily limit, ElevenLabs TTS with device-TTS fallback.
+- **Learning core:** materials-grounded Chat (RAG), Quiz, Knowledge-Gaps report, Learning-Plan
+  generator, "Bugungi reja" today-plan card, spaced-repetition Review, score-trend chart.
+- **SAT platform:** skill taxonomy (`services/sat_taxonomy.py`), filtered practice sessions +
+  progress, Bluebook-style exam UI, results + AI, Mock Tests, Analytics, Official Full-Length
+  Tests page, question-bank seeding/import + prod sync.
+- **IELTS platform:** 8 tables + 18 routes (`routers/ielts.py`), Gemini rubric AI grading
+  (Writing/Speaking), 4-skill frontend `/ielts` pages + mock test. (Content not on prod yet.)
+- **Web frontend** (`ilm-ai-frontend`): dashboard panels for all of the above, light/dark theme
+  toggle, full uz/ru/en i18n, ChatGPT-style Live Voice overlay.
+- **Mobile** (`ilm-ai-mobile`, React Native/Expo): theming (light/dark), Settings screen,
+  onboarding carousel + language picker + pre-auth flow, AI Assistant + Live Voice screens,
+  push-notification infra, brand logo/icons, animations. (Launch paused — web is the priority.)
+- **Deployed:** backend on Render (`ilm-ai-backend`, see URL above), frontend on Vercel
+  (auto-deploy from `main`), Postgres on Render. Telegram bot runs as its own process.
+
 ## Status (as of 2026-07-15)
 - **SAT:** live and working. Prod bank ≈ 2417 questions, topic-tagged. Source = OpenSAT API
   (text-only, no figures). ~9 prod questions reference a missing figure (optional cleanup).
