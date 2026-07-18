@@ -176,6 +176,15 @@ def migrate_postgres_columns():
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS assistant_count_date VARCHAR(20)",
         # skilltree_lessons may pre-exist from an earlier deploy without `theory`.
         "ALTER TABLE skilltree_lessons ADD COLUMN IF NOT EXISTS theory JSON",
+        # sat_ielts_questions gained these columns after prod's table was first
+        # created; a missing mapped column makes the whole SELECT 500, so the
+        # question bank returned an Internal Server Error until they were added.
+        "ALTER TABLE sat_ielts_questions ADD COLUMN IF NOT EXISTS skill VARCHAR(120)",
+        "ALTER TABLE sat_ielts_questions ADD COLUMN IF NOT EXISTS rubric TEXT",
+        "ALTER TABLE sat_ielts_questions ADD COLUMN IF NOT EXISTS image_url TEXT",
+        "ALTER TABLE sat_ielts_questions ADD COLUMN IF NOT EXISTS source_filename VARCHAR(300)",
+        "ALTER TABLE sat_ielts_questions ADD COLUMN IF NOT EXISTS tags JSON",
+        "ALTER TABLE sat_ielts_questions ADD COLUMN IF NOT EXISTS created_by INTEGER",
     ]
     try:
         with engine.connect() as conn:
