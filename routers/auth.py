@@ -183,6 +183,31 @@ def resend_code(data: ResendCodeRequest):
     return {"message": "Code sent"}
 
 
+@router.get("/_diag/email")
+def email_diag():
+    """Temporary diagnostic: reports whether an email provider is configured and
+    actually attempts a self-send, returning the real SMTP error if any. Exposes
+    NO secret values — only booleans, lengths, and the error message (SMTP errors
+    never contain the password)."""
+    from services import email as em
+
+    result = {
+        "resend_key_set": bool(em.RESEND_API_KEY),
+        "gmail_address_set": bool(em.GMAIL_ADDRESS),
+        "gmail_address_len": len(em.GMAIL_ADDRESS or ""),
+        "gmail_password_set": bool(em.GMAIL_APP_PASSWORD),
+        "gmail_password_len": len(em.GMAIL_APP_PASSWORD or ""),
+    }
+    if em.GMAIL_ADDRESS and em.GMAIL_APP_PASSWORD:
+        try:
+            html, text = em._render("000000", "diagnostika", "diagnostika")
+            em._send_via_gmail(em.GMAIL_ADDRESS, "Ilm AI — diagnostika", html, text)
+            result["gmail_send"] = "ok"
+        except Exception as e:  # noqa: BLE001
+            result["gmail_send_error"] = str(e)[:400]
+    return result
+
+
 class PasswordResetRequest(BaseModel):
     email: str
 
