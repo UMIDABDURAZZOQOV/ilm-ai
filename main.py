@@ -4,7 +4,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from dotenv import load_dotenv
-from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments, feedback, evaluation, sat_ielts, assistant, notifications, review, ielts
+from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments, feedback, evaluation, sat_ielts, assistant, notifications, review, ielts, math_solver, skills, mock_exam, classes, parent, tutor
 from services.monitoring import init_monitoring
 from services.db import engine, Base
 from services.scheduler import start_scheduler
@@ -20,6 +20,10 @@ Base.metadata.create_all(bind=engine)
 # Postgres starts empty, so without this the Question Bank shows 0 questions.
 from services.seed_bank import seed_question_bank_if_empty
 seed_question_bank_if_empty()
+
+# Seed the Milliy Sertifikat skill tree (Ona tili + Tarix) on a fresh database.
+from services.seed_skilltree_bank import seed_skilltree_if_empty
+seed_skilltree_if_empty()
 
 # Spread placeholder-skill ("General"/null) questions across real taxonomy skills
 # so every question is reachable by topic in the Question Bank.
@@ -80,6 +84,12 @@ app.include_router(ielts.router)
 app.include_router(assistant.router)
 app.include_router(notifications.router)
 app.include_router(review.router)
+app.include_router(math_solver.router)
+app.include_router(skills.router)
+app.include_router(mock_exam.router)
+app.include_router(classes.router)
+app.include_router(parent.router)
+app.include_router(tutor.router)
 
 @app.get("/")
 def root():

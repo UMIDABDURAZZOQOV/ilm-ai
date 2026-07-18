@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, JSON, Text, Boolean, Float, ForeignKey, CheckConstraint
+from sqlalchemy import Column, Integer, String, DateTime, JSON, Text, Boolean, Float, ForeignKey, CheckConstraint, UniqueConstraint
 from sqlalchemy.sql import func
 from services.db import Base
 
@@ -28,6 +28,10 @@ class User(Base):
     target_date = Column(String(20), nullable=True)
     email_verified = Column(Boolean, default=False, nullable=False)
     push_token = Column(String(300), nullable=True)
+    # Skill-tree gamification (Milliy Sertifikat)
+    xp_total = Column(Integer, default=0, nullable=False)
+    referral_code = Column(String(16), unique=True, nullable=True)
+    referred_by = Column(Integer, nullable=True)  # user_id of the inviter (set once)
 
 
 class EmailVerificationCode(Base):
@@ -321,3 +325,219 @@ class IeltsMockTest(Base):
     overall_band    = Column(Float, nullable=True)
     started_at      = Column(DateTime(timezone=True), server_default=func.now())
     completed_at    = Column(DateTime(timezone=True), nullable=True)
+
+
+# ─── Skill Tree (Milliy Sertifikat, Duolingo-style) ────────────────────────────
+
+class SkillSubject(Base):
+    """A top-level subject (Ona tili, Tarix, ...). Generalized so more subjects
+    can be added later without a schema change — only new seed data."""
+    __tablename__ = "skilltree_subjects"
+    id = Column(Integer, primary_key=True, index=True)
+    slug = Column(String(40), unique=True, nullable=False)      # "ona_tili" | "tarix"
+    name_uz = Column(String(120), nullable=False)
+    name_ru = Column(String(120), nullable=False)
+    name_en = Column(String(120), nullable=False)
+    icon = Column(String(40), nullable=True)
+    color = Column(String(16), nullable=True)                   # hex accent for path theming
+    order_index = Column(Integer, nullable=False, default=0)
+    is_active = Column(Boolean, default=True)
+
+
+class SkillUnit(Base):
+    __tablename__ = "skilltree_units"
+    id = Column(Integer, primary_key=True, index=True)
+    subject_id = Column(Integer, ForeignKey("skilltree_subjects.id"), nullable=False, index=True)
+    slug = Column(String(60), nullable=False)
+    title_uz = Column(String(160), nullable=False)
+    title_ru = Column(String(160), nullable=False)
+    title_en = Column(String(160), nullable=False)
+    order_index = Column(Integer, nullable=False)               # unit position within subject
+    __table_args__ = (UniqueConstraint("subject_id", "order_index", name="uq_unit_order"),)
+
+
+class SkillLesson(Base):
+    __tablename__ = "skilltree_lessons"
+    id = Column(Integer, primary_key=True, index=True)
+    unit_id = Column(Integer, ForeignKey("skilltree_units.id"), nullable=False, index=True)
+    slug = Column(String(60), nullable=False)
+    title_uz = Column(String(160), nullable=False)
+    title_ru = Column(String(160), nullable=False)
+    title_en = Column(String(160), nullable=False)
+    order_index = Column(Integer, nullable=False)               # position within unit == path node order
+    xp_reward = Column(Integer, default=10)
+    # Duolingo-style teaching phase shown BEFORE the questions: a JSON list of
+    # cards [{"title": ..., "body": ..., "example": ...}] in Uzbek, generated
+    # by the seed script. Nullable so structure can exist before content does.
+    theory = Column(JSON, nullable=True)
+    __table_args__ = (UniqueConstraint("unit_id", "order_index", name="uq_lesson_order"),)
+
+
+class SkillLessonPrerequisite(Base):
+    """Explicit prereq edges (many-to-many) instead of a single 'previous lesson'
+    pointer, so future subjects can branch/merge paths without a schema change.
+    v1 seed data is a straight line: every lesson requires the lesson immediately
+    before it (a unit's first lesson requires the previous unit's last lesson);
+    a subject's very first lesson has no row here -> always unlocked."""
+    __tablename__ = "skilltree_lesson_prerequisites"
+    lesson_id = Column(Integer, ForeignKey("skilltree_lessons.id"), primary_key=True)
+    requires_lesson_id = Column(Integer, ForeignKey("skilltree_lessons.id"), primary_key=True)
+
+
+class SkillQuestion(Base):
+    __tablename__ = "skilltree_questions"
+    id = Column(Integer, primary_key=True, index=True)
+    lesson_id = Column(Integer, ForeignKey("skilltree_lessons.id"), nullable=False, index=True)
+    order_index = Column(Integer, nullable=False)               # stable order within the lesson session
+    language = Column(String(4), nullable=False)                # 'uz' | 'ru' | 'en'
+    question_type = Column(String(16), nullable=False, default="mcq")
+    question_text = Column(Text, nullable=False)
+    options = Column(JSON, nullable=True)                       # list[str], len==4 for mcq
+    correct_answer = Column(Text, nullable=False)
+    explanation = Column(Text, nullable=True)                   # shown on the immediate-feedback card
+    difficulty = Column(String(8), default="medium")
+    __table_args__ = (CheckConstraint("question_type IN ('mcq')", name="chk_skill_qtype"),)
+
+
+class UserLessonProgress(Base):
+    """One row per (user, lesson) once attempted at least once. Absence of a row
+    means 'not yet completed' -- combined with SkillLessonPrerequisite to compute
+    locked/unlocked/completed status at read time (no stored 'locked' state)."""
+    __tablename__ = "skilltree_user_lesson_progress"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    lesson_id = Column(Integer, ForeignKey("skilltree_lessons.id"), nullable=False, index=True)
+    stars = Column(Integer, default=0)                          # 0-3, best-ever
+    best_score_pct = Column(Float, nullable=True)
+    xp_earned = Column(Integer, default=0)                      # cumulative xp earned from this lesson
+    attempts = Column(Integer, default=0)
+    completed_at = Column(DateTime(timezone=True), nullable=True)   # first completion
+    last_attempt_at = Column(DateTime(timezone=True), nullable=True)
+    __table_args__ = (UniqueConstraint("user_id", "lesson_id", name="uq_user_lesson"),)
+
+
+class SkillMistake(Base):
+    """Mistakes notebook: a question the user answered wrong and hasn't yet
+    answered correctly in a mistakes-practice run. Upserted on lesson complete;
+    resolved_at set when the user finally gets it right."""
+    __tablename__ = "skilltree_mistakes"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    question_id = Column(Integer, ForeignKey("skilltree_questions.id"), nullable=False, index=True)
+    wrong_count = Column(Integer, default=1)
+    last_wrong_at = Column(DateTime(timezone=True), server_default=func.now())
+    resolved_at = Column(DateTime(timezone=True), nullable=True)
+    __table_args__ = (UniqueConstraint("user_id", "question_id", name="uq_user_mistake"),)
+
+
+class SkillDailyChallenge(Base):
+    """One row per (user, date): enforces the once-a-day bonus and records the score."""
+    __tablename__ = "skilltree_daily_challenges"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    date = Column(String(20), nullable=False)                   # YYYY-MM-DD
+    score = Column(Integer, nullable=True)
+    total = Column(Integer, nullable=True)
+    xp_awarded = Column(Integer, default=0)
+    completed_at = Column(DateTime(timezone=True), nullable=True)
+    __table_args__ = (UniqueConstraint("user_id", "date", name="uq_user_daily"),)
+
+
+class SkillLessonAttempt(Base):
+    """Per-session log (mirrors QuizSession) -- powers idempotent XP awarding
+    for idempotent XP awarding."""
+    __tablename__ = "skilltree_lesson_attempts"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    lesson_id = Column(Integer, ForeignKey("skilltree_lessons.id"), nullable=False, index=True)
+    started_at = Column(DateTime(timezone=True), server_default=func.now())
+    completed_at = Column(DateTime(timezone=True), nullable=True)
+    score = Column(Integer, nullable=True)
+    total = Column(Integer, nullable=True)
+    xp_awarded = Column(Integer, default=0)
+    results = Column(JSON, nullable=True)                       # [{question_id, user_answer, is_correct}]
+
+
+# ─── Mock exam + score prediction (Sinov imtihoni) ─────────────────────────────
+
+class SkillMockExam(Base):
+    """A full Milliy Sertifikat-style mock exam for one subject: a timed block
+    of questions pulled from that subject's committed bank. On completion we
+    grade it (percentage -> DTM-style certificate grade A+..C / no certificate)
+    and store a predicted real-exam grade blended from the user's lesson mastery."""
+    __tablename__ = "skilltree_mock_exams"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    subject_slug = Column(String(40), nullable=False, index=True)
+    status = Column(String(16), default="in_progress")          # in_progress | completed
+    question_ids = Column(JSON, nullable=False)                  # ordered list[int]
+    duration_seconds = Column(Integer, nullable=False, default=1800)
+    score = Column(Integer, nullable=True)
+    total = Column(Integer, nullable=True)
+    percentage = Column(Float, nullable=True)
+    grade = Column(String(20), nullable=True)                   # "A+" | "A" | ... | "Sertifikatsiz"
+    predicted_grade = Column(String(20), nullable=True)
+    predicted_pct = Column(Float, nullable=True)
+    results = Column(JSON, nullable=True)                        # [{question_id, is_correct}]
+    started_at = Column(DateTime(timezone=True), server_default=func.now())
+    completed_at = Column(DateTime(timezone=True), nullable=True)
+
+
+# ─── Teacher / class mode (Sinf rejimi) ────────────────────────────────────────
+
+class SkillClass(Base):
+    """A class a teacher opens. Any user can create one (becomes its teacher);
+    students join with the 6-char join_code. No global 'teacher' role needed."""
+    __tablename__ = "skilltree_classes"
+    id = Column(Integer, primary_key=True, index=True)
+    teacher_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    name = Column(String(160), nullable=False)
+    subject_slug = Column(String(40), nullable=True)            # optional focus subject
+    join_code = Column(String(12), unique=True, nullable=False, index=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    archived = Column(Boolean, default=False)
+
+
+class SkillClassMember(Base):
+    __tablename__ = "skilltree_class_members"
+    id = Column(Integer, primary_key=True, index=True)
+    class_id = Column(Integer, ForeignKey("skilltree_classes.id"), nullable=False, index=True)
+    student_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    joined_at = Column(DateTime(timezone=True), server_default=func.now())
+    __table_args__ = (UniqueConstraint("class_id", "student_id", name="uq_class_member"),)
+
+
+class SkillClassAssignment(Base):
+    """Homework a teacher assigns to a class: a whole subject or a specific
+    lesson, optionally due by a date. Progress is derived from each student's
+    existing lesson progress -- no per-assignment submission row needed."""
+    __tablename__ = "skilltree_class_assignments"
+    id = Column(Integer, primary_key=True, index=True)
+    class_id = Column(Integer, ForeignKey("skilltree_classes.id"), nullable=False, index=True)
+    subject_slug = Column(String(40), nullable=True)
+    lesson_id = Column(Integer, ForeignKey("skilltree_lessons.id"), nullable=True)
+    title = Column(String(200), nullable=False)
+    due_date = Column(String(20), nullable=True)                # YYYY-MM-DD
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
+# ─── Parent dashboard (Ota-ona paneli) ─────────────────────────────────────────
+
+class FamilyCode(Base):
+    """A stable code a student generates once and shares with a parent so the
+    parent can link to their account and view (read-only) their progress."""
+    __tablename__ = "skilltree_family_codes"
+    child_id = Column(Integer, ForeignKey("users.id"), primary_key=True)
+    code = Column(String(12), unique=True, nullable=False, index=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class ParentChildLink(Base):
+    """A confirmed parent -> child link (parent redeemed the child's FamilyCode).
+    Grants the parent read-only access to that child's stats."""
+    __tablename__ = "skilltree_parent_links"
+    id = Column(Integer, primary_key=True, index=True)
+    parent_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    child_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    __table_args__ = (UniqueConstraint("parent_id", "child_id", name="uq_parent_child"),)

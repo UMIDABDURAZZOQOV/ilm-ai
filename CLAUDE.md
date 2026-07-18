@@ -1,7 +1,12 @@
 # Ilm AI — Project Context (for Claude)
 
 Multilingual (Uzbek / Russian / English) AI education platform for youth in Uzbekistan.
-This repo (`ilm-ai`) is the **backend**. Companion repos: `ilm-ai-frontend` (web), `ilm-ai-mobile`.
+This repo (`ilm-ai`) is the **backend**. Companion repos: `ilm-ai-frontend` (web), `ilm-ai-flutter`
+(mobile, active).
+
+> **NOTE (2026-07-17):** the old `ilm-ai-mobile` (React Native) GitHub repo was permanently
+> deleted — it is fully replaced by `ilm-ai-flutter` (public: github.com/UMIDABDURAZZOQOV/ilm-ai-flutter).
+> Don't reference `ilm-ai-mobile` as an existing repo anymore; all mobile work happens in Flutter now.
 
 > **NOTE (secrets):** never commit `.env`. Only `.env.example` is tracked. Real Gemini keys,
 > DATABASE_URL, ElevenLabs, Telegram, Google/Gmail creds live in `.env` (copy it by hand onto
@@ -12,7 +17,9 @@ This repo (`ilm-ai`) is the **backend**. Companion repos: `ilm-ai-frontend` (web
   `sqlite:///data/ilm_ai.db` locally when the Postgres port is unreachable (`services/db.py`).
 - **Frontend:** Next.js 14 (App Router, TS, Tailwind) → Vercel, auto-deploys from GitHub `main`.
   `NEXT_PUBLIC_API_URL` is baked into the bundle at build time.
-- **Mobile:** React Native / Expo.
+- **Mobile:** Flutter (`ilm-ai-flutter`) — full rewrite, replaces the React Native app. Riverpod +
+  go_router + dio. The old `ilm-ai-mobile` (React Native/Expo) GitHub repo no longer exists (deleted
+  2026-07-17); Flutter is the only mobile codebase now.
 - **AI:** Google Gemini via `services/gemini.py` (multi-key rotation, `gemini-flash-latest`,
   drop-in `generate_content(**kwargs)` / `embed_content(**kwargs)`). ElevenLabs for TTS.
 
@@ -53,13 +60,173 @@ Condensed record of work done to date (the code is the source of truth; read it 
   (Writing/Speaking), 4-skill frontend `/ielts` pages + mock test. (Content not on prod yet.)
 - **Web frontend** (`ilm-ai-frontend`): dashboard panels for all of the above, light/dark theme
   toggle, full uz/ru/en i18n, ChatGPT-style Live Voice overlay.
-- **Mobile** (`ilm-ai-mobile`, React Native/Expo): theming (light/dark), Settings screen,
-  onboarding carousel + language picker + pre-auth flow, AI Assistant + Live Voice screens,
-  push-notification infra, brand logo/icons, animations. (Launch paused — web is the priority.)
+- **Mobile** — **fully rebuilt in Flutter** (`ilm-ai-flutter`), replacing the old React Native
+  app (its GitHub repo, `ilm-ai-mobile`, was deleted 2026-07-17). Full 27-screen parity: auth, dashboard, chat, AI
+  assistant + Live Voice, quiz, knowledge base, math solver (camera + CustomPainter graph plot),
+  college explorer (bell-curve chart), learning plan, knowledge gaps, subscription, Telegram
+  linking, settings (theme/language), profile w/ avatar pipeline. Riverpod + go_router + dio
+  (queued token-refresh interceptor) + flutter_secure_storage. Push notifications wired via
+  `firebase_messaging` on an additive FCM branch in `services/push.py` (Expo path untouched).
+  (Launch paused — web is the priority; the migration itself is done.)
+  **Scope note: SAT and IELTS are web-only, intentionally NOT in mobile** (neither the old RN app
+  nor the new Flutter app) — those platforms live exclusively in `ilm-ai-frontend`. Mobile's
+  "college explorer" shows SAT *score stats* (bell curve, accepted-range) as reference data for
+  college research, which is not the same as the SAT practice/exam platform.
+- **Milliy Sertifikat Skill Tree (Duolingo-style)** — the newest and biggest addition (2026-07-18).
+  A gamified, learn-then-test course for Uzbekistan's Milliy Sertifikat exam. **12 subjects, ~253
+  lessons, ~2500+ questions**, all Gemini-generated then committed as static seed fixtures (never
+  live-generated at request time). Subjects (slug → display): `ona_tili` (Ona tili), `matematika`,
+  `ingliz_tili`, `biologiya`, `kimyo`, `fizika`, `jahon_tarixi` (Jahon tarixi / World History),
+  `tarix` (O'zbekiston tarixi — note: slug is `tarix` but it's Uzbekistan history specifically;
+  world history is the separate `jahon_tarixi`), and (added 2026-07-18, +65 lessons / ~648 Q)
+  `ozbek_adabiyoti` (O'zbek adabiyoti), `jahon_adabiyoti` (Jahon adabiyoti / World Literature),
+  `koreys_tili` (Koreys tili / Korean), `fransuz_tili` (Fransuz tili / French). **Seeder note:** on
+  Windows run the seeder with `PYTHONIOENCODING=utf-8` (+`SEED_GEMINI_MODEL=gemini-flash-lite-latest`
+  for speed) or its progress `print()`s crash on non-cp1251 chars (Korean/French) — generation is
+  resumable, so re-running fills gaps and re-dumps the fixture. Each lesson = **theory cards first** (Duolingo
+  "teach-then-test": the `SkillLesson.theory` JSON column holds hand-shaped teaching cards) **then
+  10 MCQs GROUNDED in those cards** (the seed prompt embeds the theory so questions never test
+  un-taught material). Backend: `routers/skills.py` (all `/skills/*` endpoints), `services/
+  skill_tree.py` (lock/unlock via `SkillLessonPrerequisite`, computed at read time, no stored
+  state), `services/skilltree_taxonomy.py` (hand-authored unit/lesson structure — add a subject
+  here then run the seeder), `scripts/seed_skilltree.py` (Gemini gen w/ round-robin across all keys
+  + `--regen-questions` + `SEED_GEMINI_MODEL` override — used `gemini-flash-lite-latest` when
+  `gemini-2.5-flash` hit 503/quota), `services/seed_skilltree_bank.py` (loads committed fixtures on
+  startup, wired in `main.py`). New tables: `SkillSubject/Unit/Lesson/LessonPrerequisite/Question/
+  UserLessonProgress/SkillLessonAttempt/SkillMistake/SkillDailyChallenge`. **Hearts were built then
+  removed** per product decision (no lives gate; XP/stars/streak only). Engagement features (all
+  reuse the committed question bank → **zero API cost at runtime**): daily challenge (once/day,
+  deterministic per user+day), mistakes notebook (`SkillMistake`, auto-recorded on wrong answers,
+  resolved when finally correct), lightning round (60s timer), weekly leaderboard, derived
+  achievements (16 tiers, computed on the fly), share card (canvas PNG → Telegram), **referral**
+  (`User.referral_code`/`referred_by`, +50 XP both sides), **league tiers** (Bronza→Kumush→Oltin→
+  Olmos, derived from weekly XP — NOT cohort-batched), **profile/stats** (per-subject progress,
+  strongest/weakest, 84-day activity heatmap), **marathon** (30 Qs from one subject, exam-pressure).
+  Daily-goal ring (20 XP). Telegram evening streak-saver nudge added to `services/scheduler.py`
+  (19:00 Tashkent, direct Bot API call). Web UI: `src/app/dashboard/skills/SkillsDashboard.tsx`
+  (the hub) + `src/components/skills/*` + immersive lesson route `src/app/skills/session/
+  [lessonId]/page.tsx` + standalone `/skills` page; own owl **mascot** (canvas-drawn). Also on the
+  Flutter app (`lib/features/skills/`). Landing page has a "Milliy Sertifikat" feature card + the
+  top platform switcher lists it. **As of 2026-07-18 the full suite (engagement + mock/class/parent
+  + AI tutor) is on Flutter too** — see the "Flutter port" section below.
 - **Deployed:** backend on Render (`ilm-ai-backend`, see URL above), frontend on Vercel
   (auto-deploy from `main`), Postgres on Render. Telegram bot runs as its own process.
+  Frontend prod domain is now **https://ilm-ai-edu.vercel.app** (Vercel project renamed
+  `ilm-ai-frontend` → `ilm-ai`; old `ilm-ai-frontend.vercel.app` domain removed). **ALLOWED_ORIGINS
+  on Render must include `https://ilm-ai-edu.vercel.app`** or new-domain API/login calls hit CORS.
 
-## Status (as of 2026-07-15)
+## Milliy Sertifikat — mock exam, class mode, parent dashboard (BUILT 2026-07-18)
+All three of the priority features below are now built (web + backend). Zero extra Gemini cost —
+they reuse the committed question bank and existing progress tables. New tables are brand-new so
+`Base.metadata.create_all()` picks them up with no migration.
+1. **Mock exam + score prediction** (`routers/mock_exam.py`, prefix `/skills`, tables
+   `skilltree_mock_exams`). Per-subject, 30 Qs, 30-min timer, **server-graded** (client never sends
+   a score — start returns questions WITHOUT answers; complete compares to `correct_answer`).
+   Percentage → DTM-style certificate grade (A+ ≥93, A ≥85, B+ ≥78, B ≥70, C+ ≥65, C ≥60, else
+   "Sertifikatsiz"; 60% = certificate floor — clearly labelled as a mock scale, not the official DTM
+   table). **Prediction** blends latest mock % (0.5) + avg past mocks (0.3) + lesson mastery (0.2),
+   with a low/medium/high confidence from evidence count. Endpoints: `GET /skills/{uid}/mock-exam?
+   subject=`, `POST /skills/mock-exam/start`, `POST /skills/mock-exam/{id}/complete` (returns grade,
+   certificate bool, prediction, per-question review). Web: `components/skills/MockExam.tsx`
+   (overview → timed runner → grade + prediction + review), dashboard card "Sinov imtihoni" →
+   subject pick → exam.
+2. **Teacher / class mode** (`routers/classes.py`, prefix `/classes`, tables `skilltree_classes`,
+   `skilltree_class_members`, `skilltree_class_assignments`). Any user can open a class (becomes its
+   teacher) and share a 6-char join code; students join; teacher sees a live roster (each student's
+   lessons done / weekly XP / streak / active-today, from `services/skill_stats.py::student_row`) and
+   assigns homework (subject or lesson). No global "teacher" role — identity is the JWT. Endpoints:
+   `POST /classes`, `GET /classes/mine`, `POST /classes/join`, `POST /classes/leave`,
+   `GET /classes/{id}` (teacher-only roster+assignments, 403 otherwise), `POST /classes/{id}/assign`,
+   `DELETE …/assignments/{aid}`, `DELETE …/members/{sid}`, `DELETE /classes/{id}` (archive). Web:
+   `components/skills/ClassMode.tsx`, dashboard card "Sinf rejimi".
+3. **Parent dashboard** (`routers/parent.py`, prefix `/parent`, tables `skilltree_family_codes`,
+   `skilltree_parent_links`). A student generates a stable 6-char family code (`GET /parent/my-code`);
+   a parent redeems it (`POST /parent/link`) to get READ-ONLY view of the child's XP/streak/lessons/
+   strongest+weakest subject/activity heatmap (`services/skill_stats.py::student_detail`). Endpoints
+   also: `GET /parent/children`, `GET /parent/child/{id}` (403 if not linked), `POST /parent/unlink`.
+   Guards self-link. Web: `components/skills/ParentDashboard.tsx` (parent's children + the child's own
+   shareable code in one screen), dashboard card "Ota-onalar uchun".
+- Shared: `services/skill_stats.py` — `student_row` (compact) / `student_detail` (full, with 84-day
+  activity + strongest/weakest), reused by both class roster and parent view so numbers match the
+  learner's own Profile screen. All three registered in `main.py`. Verified end-to-end via curl with
+  minted JWTs (mock start→grade→predict; class create→cross-user join→roster→assign→403; parent
+  code→link→children→self-link 400). **Now also ported to Flutter** (see the "Flutter port" section).
+
+## In-lesson AI tutor (AI repetitor) — BUILT 2026-07-18
+On-demand only. `routers/tutor.py` (`POST /skills/tutor/explain`, prefix `/skills`). When a learner
+gets a question WRONG, a "🤔 Tushuntirib ber" button appears in the feedback; tapping it calls
+Gemini (`gemini-flash-latest`, plain text) for a short, warm, `lang`-aware explanation that says why
+the correct answer is right and gently corrects the wrong pick. NOT called per question, so API cost
+stays low; the fetched explanation is cached in component state. Body: `{question_text, options,
+correct_answer, user_answer, lang}` → `{explanation}`; graceful 502 `tutor_unavailable` on failure.
+Web: `components/skills/AiTutor.tsx`, wired into the lesson session page, `PracticeSession` (daily/
+mistakes/marathon — not lightning, which has no feedback pause), and the mock-exam review list.
+Verified live (returned a correct Uzbek explanation).
+
+**Extended platform-wide 2026-07-18:** the same `/skills/tutor/explain` endpoint + `AiTutor.tsx`
+component are now reused OUTSIDE Milliy Sertifikat — on wrong answers in **IELTS Reading**
+(`src/app/ielts/reading/page.tsx`), **IELTS Listening** (`src/app/ielts/listening/page.tsx`), and the
+**SAT session results review** (`src/app/sat/session/page.tsx`). (SAT Bluebook practice already had
+its own richer *conversational* tutor via `askAssistant`, so it was left as-is.) The endpoint is
+generic — it just needs question/options/correct/user-answer/lang — so no backend change was needed;
+verified live on a SAT-style algebra question (it correctly diagnosed picking 3x instead of x).
+SAT/IELTS are web-only (no Flutter features), so this is a web-only extension.
+
+## Premium UI redesign + interactive libraries (web, 2026-07-18)
+Owner wanted the whole web app to feel premium/animated like top ed-tech sites (OnePrep-inspired for
+SAT/IELTS/College, Duolingo-inspired for Milliy Sertifikat). **Boundary agreed with owner:** no
+copying of any logos/mascots/illustrations/marketing copy — all illustrations & animations are drawn
+from scratch (SVG/CSS/framer-motion), Ilm AI keeps its own brand/logo; only the *layout & interaction
+patterns* are the inspiration. What was built:
+- **Reusable UI kit** `src/components/ui/premium.tsx` — `PremiumCard` (entrance + hover-lift),
+  `StatCard` (count-up stat tile), `ProgressRing` (animated SVG ring), `CountUp` (in-view count-up),
+  `SectionTitle`. This is the shared design language — use it when upgrading any remaining screen.
+- **Screens rebuilt with the kit:** `src/app/sat/page.tsx` (countdown + predicted-score ring +
+  animated analytics + hover practice cards), `src/app/ielts/page.tsx` (band ring + gradient skill
+  cards + count-up stats), `src/app/sat/college/page.tsx` (selectivity tier chips + acceptance bars +
+  hover-lift + auto-animate filtering). `src/app/dashboard/page.tsx` got a light, safe pass (stat
+  cards animate in — the file is 2600+ lines so it was NOT fully rebuilt).
+- **Animated landing** `src/app/page.tsx`: `src/components/landing/ProductDemos.tsx` (4 tabbed,
+  self-playing interactive demos — SAT question+score, IELTS band dial, College cards, Milliy
+  skill-tree) and `src/components/landing/ParticleBackground.tsx` (interactive hero particles).
+- **Confetti** `src/components/skills/Confetti.tsx` — dependency-free celebration on lesson
+  completion (1+ star) and mock-exam certificate results.
+- **New npm deps (all MIT, config is ours):** `react-parallax-tilt` (3D card tilt on landing
+  features), `@tsparticles/react`+`@tsparticles/slim` (hero particle field — **v4 API**: wrap in
+  `ParticlesProvider init={...}`, gate render on `useParticlesProvider().loaded`, NOT the old
+  `initParticlesEngine`), `@formkit/auto-animate` (smooth college-grid filtering).
+Local dev run: backend `python -m uvicorn main:app --port 8000`, web `npm run dev` (localhost:3000).
+Remaining screens (SAT bank/analytics/vocab/mock, IELTS sub-pages) not yet upgraded — apply the kit.
+
+## Flutter port of the full skill-tree suite — BUILT 2026-07-18
+The whole Milliy Sertifikat suite is now on the Flutter app too (`ilm-ai-flutter`), not just web.
+New data layer: `lib/features/skills/data/skill_extras_models.dart` (DTOs for practice/mock/class/
+parent/profile/league/referral/leaderboard/achievements) + `skill_extras_repository.dart`
+(`skillExtrasRepositoryProvider`, every `/skills`, `/classes`, `/parent` endpoint incl. the AI
+tutor). `GamificationSummary` gained `todayXp`/`dailyGoalXp`. New screens under
+`lib/features/skills/presentation/`:
+- `skills_hub_screen.dart` — replaces the old plain subject picker at route `/skills`: daily-goal
+  bar + 8-subject grid + 11 feature cards (daily/mistakes/lightning/marathon/mock/leaderboard/
+  referral/profile/achievements/classes/parent). Marathon & mock open a subject-pick bottom sheet.
+- `skill_practice_screen.dart` — one runner for daily/mistakes/lightning(60s timer)/marathon, with
+  inline AI tutor on wrong answers.
+- `ai_tutor_widget.dart` — the on-demand "🤔 Tushuntirib ber" button (calls `/skills/tutor/explain`).
+- `mock_exam_screen.dart` (overview→timed runner→grade+prediction+review), `class_mode_screen.dart`
+  (+ `ClassDetailScreen` roster/assignments), `parent_dashboard_screen.dart`, `skill_profile_screen.dart`
+  (12-week heatmap + per-subject bars), `skill_leaderboard_screen.dart`, `skill_achievements_screen.dart`,
+  `skill_referral_screen.dart` (Telegram share via url_launcher).
+- `skill_ui.dart` — shared helpers: `str3(lang,uz,ru,en)` trilingual inline strings (no new i18n
+  keys), `skillColor`, `gradeColor`, `subjectIcons` (all 8 slugs).
+Routes wired in `core/router/app_router.dart` under `/skills/*` (practice, marathon, mock, classes,
+parent, profile, leaderboard, achievements, referral). `flutter analyze` clean (only the pre-existing
+quiz_repository.dart info-lint). Not yet driven on a device/emulator — backend endpoints already
+verified via curl; mobile UI is a manual smoke-test away.
+
+## Milliy Sertifikat — planned next (not built yet)
+Lower priority / later: streak-freeze mechanic, PWA/installable/offline, deeper Telegram
+(daily-challenge inside the bot), and a premium/monetization tier.
+
+## Status (as of 2026-07-18)
 - **SAT:** live and working. Prod bank ≈ 2417 questions, topic-tagged. Source = OpenSAT API
   (text-only, no figures). ~9 prod questions reference a missing figure (optional cleanup).
   Local sqlite has more (~3687); prod syncs via `scripts/sync_sat_bank_to_prod.py` (needs the
@@ -178,10 +345,43 @@ source of truth; this is the narrative so context isn't lost across machines/ses
 - Exported the full conversation to a personal **PDF** (`ilm-ai-suhbatlar.pdf`, 562 pages) for the
   user's own archive — not for feeding to Claude.
 
+### Phase 10 — Mobile: full React Native → Flutter rewrite (2026-07-16)
+- User decided to fully replace `ilm-ai-mobile` (React Native/Expo) with a new Flutter app,
+  `ilm-ai-flutter`, going forward. Reason: liked Flutter's animation consistency / no-JS-bridge
+  model; the RN app itself had no blocking defect. Old repo kept untouched as reference/fallback.
+- Rebuilt all **27 screens** with full feature parity, phase by phase (scaffold+nav shell → auth
+  → core tabs → 9 flagged high-complexity screens → platform config/notifications/QA), verified
+  live against the real backend on an Android emulator at every phase, not just `flutter analyze`.
+- Stack: Riverpod (non-codegen), `go_router` (`StatefulShellRoute.indexedStack` for the 6 bottom
+  tabs), `dio` with a queued/deduped token-refresh interceptor, `flutter_secure_storage` (upgrade
+  from RN's plaintext AsyncStorage), `freezed` for auth DTOs, `CustomPainter` for all charts (math
+  function plot, dashboard sparkline, SAT bell curve) — no charting library, matching RN's
+  hand-rolled SVG approach.
+- Ported `theme.ts`/`i18n.ts` (328 keys)/`colleges.ts` (44 curated entries) via one-off Node.js
+  scripts that `eval()`'d the JS literal and emitted the Dart/JSON, instead of manual transcription
+  — eliminates a whole class of silent porting bugs.
+- **One backend change**, additive only: `services/push.py` gained an FCM-sending branch
+  (`firebase-admin`) alongside the existing Expo path, since a plain Flutter app can't obtain an
+  Expo push token. `requirements.txt` gained `firebase-admin`. Token-register endpoint unchanged.
+- Deliberately dropped native file-picker (`file_picker`) after an extended AGP9/Kotlin-built-in
+  toolchain incompatibility (documented battle in the Flutter repo's own history) — Knowledge Base
+  upload is text-paste-only in the Flutter app for now. Everything else has full parity.
+- Fixed a real bug found only via live testing (not static analysis): `QuizSessionScreen` crashed
+  with a `RangeError` when the backend returned `{"error": ...}` with no `questions` key.
+- Final QA pass caught and fixed one parity gap: `TelegramScreen` had several strings hardcoded in
+  English where RN used inline uz/ru/en ternaries (and was missing RN's "what can the bot do?"
+  command list entirely) — rewritten to match RN exactly, verified on-device.
+- **Result: migration complete**, `flutter analyze` clean project-wide. Remaining item is external,
+  not a code gap (see Open items below).
+
 ### Immediate next steps
 1. IELTS → prod: dedupe local content, run `scripts/sync_ielts_to_prod.py`, confirm listening
    audio serves on Vercel, then generate more ORIGINAL content and verify AI grading live.
 2. `services/gemini.py` round-robin load-balancing before advertising.
+3. Flutter push notifications can't be tested end-to-end until real Firebase project files are
+   supplied: `google-services.json` (Android), `GoogleService-Info.plist` (iOS), and a
+   service-account JSON path set as `FIREBASE_SERVICE_ACCOUNT_PATH` on the backend. Everything is
+   wired and waiting — this is a credentials gap, not missing code.
 
 ## ⚠️ Content policy (important)
 Do NOT ingest or publish copyrighted exam material (Cambridge IELTS books, British Council

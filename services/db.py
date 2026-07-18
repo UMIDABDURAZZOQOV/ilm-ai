@@ -121,6 +121,9 @@ def migrate_sqlite_columns():
                 "assistant_count_today": "INTEGER DEFAULT 0",
                 "assistant_count_date": "VARCHAR(20)",
                 "push_token": "VARCHAR(300)",
+                "xp_total": "INTEGER DEFAULT 0",
+                "referral_code": "VARCHAR(16)",
+                "referred_by": "INTEGER",
             }
             added_email_verified = False
             for col, col_type in new_columns.items():
@@ -144,6 +147,14 @@ def migrate_sqlite_columns():
                 conn.execute(text("ALTER TABLE sat_ielts_questions ADD COLUMN skill VARCHAR(120)"))
                 conn.commit()
                 print("Added column: sat_ielts_questions.skill")
+
+            # skilltree_lessons: theory teaching-cards column (Duolingo-style learn-then-quiz)
+            result = conn.execute(text("PRAGMA table_info(skilltree_lessons)"))
+            l_existing = [row[1] for row in result.fetchall()]
+            if l_existing and "theory" not in l_existing:
+                conn.execute(text("ALTER TABLE skilltree_lessons ADD COLUMN theory JSON"))
+                conn.commit()
+                print("Added column: skilltree_lessons.theory")
     except Exception as e:
         print(f"Migration error: {e}")
 

@@ -9,10 +9,15 @@ keys still have quota. Once a working key is found, it sticks with it.
 import os
 
 from google import genai
+from google.genai import types
 from google.genai.errors import ClientError
 
 _clients: dict[str, genai.Client] = {}
 _current = 0
+
+# Without this, a stalled connection to a single key hangs the request forever
+# (no rotation, no error) instead of failing over to the next key.
+_REQUEST_TIMEOUT_MS = 20_000
 
 # A 400 (bad request) is caused by the prompt itself, so it is identical for
 # every key — no point retrying it across keys. EVERY other error (429 quota,
@@ -30,7 +35,7 @@ def _keys() -> list[str]:
 def _client_for(key: str) -> genai.Client:
     c = _clients.get(key)
     if c is None:
-        c = genai.Client(api_key=key)
+        c = genai.Client(api_key=key, http_options=types.HttpOptions(timeout=_REQUEST_TIMEOUT_MS))
         _clients[key] = c
     return c
 
