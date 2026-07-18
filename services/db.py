@@ -159,7 +159,39 @@ def migrate_sqlite_columns():
         print(f"Migration error: {e}")
 
 
+def migrate_postgres_columns():
+    """Add any missing columns to a Postgres (prod) database, idempotently, on
+    every startup. Needed because Render's start command doesn't run Alembic and
+    SQLAlchemy's create_all() only CREATEs new tables — it never ALTERs an
+    existing table (e.g. `users`) to add newly-introduced columns. Uses
+    Postgres' `ADD COLUMN IF NOT EXISTS`, so it's safe to run repeatedly."""
+    if not DATABASE_URL.startswith("postgres"):
+        return
+    statements = [
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS xp_total INTEGER DEFAULT 0",
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS referral_code VARCHAR(16)",
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS referred_by INTEGER",
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS push_token VARCHAR(300)",
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS assistant_count_today INTEGER DEFAULT 0",
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS assistant_count_date VARCHAR(20)",
+        # skilltree_lessons may pre-exist from an earlier deploy without `theory`.
+        "ALTER TABLE skilltree_lessons ADD COLUMN IF NOT EXISTS theory JSON",
+    ]
+    try:
+        with engine.connect() as conn:
+            for stmt in statements:
+                try:
+                    conn.execute(text(stmt))
+                    conn.commit()
+                except Exception as e:  # table may not exist yet on a fresh DB — create_all handles that
+                    conn.rollback()
+                    print(f"PG column migrate skipped: {e}")
+    except Exception as e:
+        print(f"Postgres migration error: {e}")
+
+
 migrate_sqlite_columns()
+migrate_postgres_columns()
 
 
 def make_password_nullable():
