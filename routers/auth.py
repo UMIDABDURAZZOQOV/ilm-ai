@@ -1,3 +1,4 @@
+import os
 import re
 
 from typing import Optional
@@ -22,6 +23,11 @@ from services.verification import issue_code, check_code
 router = APIRouter(prefix="/auth", tags=["auth"])
 
 EMAIL_PATTERN = re.compile(r"^[^\s@]+@[^\s@]+\.[^\s@]+$")
+
+# Temporary switch: while email delivery is being sorted out on prod, set
+# REQUIRE_EMAIL_VERIFICATION=false to let users sign up and log in immediately
+# without an email code. Set it back to true (or remove it) to re-enable.
+REQUIRE_EMAIL_VERIFICATION = os.environ.get("REQUIRE_EMAIL_VERIFICATION", "true").strip().lower() not in ("false", "0", "no", "off")
 
 
 class SignupRequest(BaseModel):
@@ -69,12 +75,23 @@ def signup(data: SignupRequest):
         raise HTTPException(status_code=409, detail="An account with this email already exists")
 
     user = create_user(data.name, data.email, data.password)
-    issue_code(user["email"], "signup")
-
-    # Track signup event (account isn't usable yet — verification is required
-    # before we issue tokens — but the funnel event is still meaningful)
     track_user_signup(user["id"], user["email"], method="email")
 
+    # Verification temporarily disabled → activate the account and log the user
+    # in immediately, with no email code (see REQUIRE_EMAIL_VERIFICATION).
+    if not REQUIRE_EMAIL_VERIFICATION:
+        set_email_verified(user["id"], True)
+        return {
+            "message": "Signup successful",
+            "verification_required": False,
+            "user_id": user["id"],
+            "name": user["name"],
+            "email": user["email"],
+            "access_token": create_access_token(user["id"]),
+            "refresh_token": create_refresh_token(user["id"]),
+        }
+
+    issue_code(user["email"], "signup")
     return {
         "message": "Verification code sent to your email",
         "verification_required": True,
@@ -88,7 +105,7 @@ def login(data: LoginRequest):
     if not user:
         raise HTTPException(status_code=401, detail="Invalid email or password")
 
-    if not user.get("oauth_provider") and not user.get("email_verified"):
+    if REQUIRE_EMAIL_VERIFICATION and not user.get("oauth_provider") and not user.get("email_verified"):
         raise HTTPException(
             status_code=403,
             detail={"code": "email_not_verified", "message": "Please verify your email before logging in", "email": user["email"]},
