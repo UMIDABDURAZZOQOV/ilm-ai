@@ -198,6 +198,38 @@ patterns* are the inspiration. What was built:
 Local dev run: backend `python -m uvicorn main:app --port 8000`, web `npm run dev` (localhost:3000).
 Remaining screens (SAT bank/analytics/vocab/mock, IELTS sub-pages) not yet upgraded — apply the kit.
 
+## Site-wide theme toggle + responsive fixes (web, 2026-07-18)
+- **Dark/light toggle everywhere:** new `src/components/ThemeToggle.tsx` (sun/moon button on
+  `useTheme().setThemeMode`) added to the landing nav (always visible, beside the hamburger), the
+  dashboard header, the SAT/IELTS/College layout mobile top bar, and login/signup. Previously the
+  theme was only changeable in settings.
+- **Responsive navbar fix:** the landing nav wrapped into a broken multi-row on tablets. Fixed in
+  `globals.css`: `.nav`/`.nav-links` set to `flex-wrap: nowrap`, and the mobile-hamburger media
+  query raised from `max-width: 900px` → `1024px` so all tablets get the clean hamburger. Note the
+  dashboard has its OWN Tailwind responsive system (`md:hidden`, 768px) — independent of that media
+  query; the `.dash-layout`/`.sidebar` rules in globals.css are legacy/unused.
+- **Global overflow guards** in `globals.css`: `body { overflow-x: hidden; max-width: 100vw }`,
+  `img/video/canvas/svg { max-width: 100% }`, `* { min-width: 0 }` — nothing forces horizontal scroll.
+
+## Deployment (state as of 2026-07-18)
+All three repos pushed to GitHub `main` (owner: `UMIDABDURAZZOQOV/{ilm-ai, ilm-ai-frontend,
+ilm-ai-flutter}`). **Frontend** auto-deploys to Vercel; live prod domain is **`ilm-ai-edu.vercel.app`**
+(also `ilm-ai.vercel.app`; the old `ilm-ai-frontend.vercel.app` is DEAD/404). **Backend** auto-deploys
+to Render; the real service URL is **`https://ilm-ai-backend-256x.onrender.com`** (NOT
+`ilm-ai-backend.onrender.com` — that's a different/old service). Verified live: `/health` ok, all
+**12 subjects** served, CORS already allows `ilm-ai-edu.vercel.app`. Two prod-only gotchas handled/known:
+- **Postgres schema:** Render's start command doesn't run Alembic and `create_all()` never ALTERs
+  existing tables, so new `users` columns (xp_total/referral_code/referred_by) wouldn't appear on
+  prod. Fixed with `services/db.py::migrate_postgres_columns()` (idempotent `ADD COLUMN IF NOT
+  EXISTS`, runs every startup). Add future prod column changes there too.
+- **Google OAuth `redirect_uri_mismatch`:** the frontend sends `redirect_uri =
+  <origin>/auth/google-callback`, which must be registered EXACTLY in Google Cloud Console → OAuth
+  client → Authorized redirect URIs (+ origin in Authorized JavaScript origins). When the domain
+  changed to `ilm-ai-edu.vercel.app`, the console still only had the old dead domain → login broke.
+  Fix is console-only (owner action): add `https://ilm-ai-edu.vercel.app/auth/google-callback` etc.
+- **Seeding caveat:** `seed_skilltree_if_empty()` only seeds when `SkillSubject` is empty; if prod
+  already had subjects, newly-added ones won't auto-load and need a manual sync.
+
 ## Flutter port of the full skill-tree suite — BUILT 2026-07-18
 The whole Milliy Sertifikat suite is now on the Flutter app too (`ilm-ai-flutter`), not just web.
 New data layer: `lib/features/skills/data/skill_extras_models.dart` (DTOs for practice/mock/class/
