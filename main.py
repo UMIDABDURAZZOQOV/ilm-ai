@@ -93,7 +93,11 @@ app.include_router(tutor.router)
 
 @app.get("/")
 def root():
-    return {"message": "Ilm AI Backend is running!"}
+    return {
+        "message": "Ilm AI Backend is running!",
+        "status": "test_mode",
+        "warning": "Diqqat: backend test rejimida ishlamoqda — xatoliklar bo'lishi mumkin. / This backend is in test mode — errors may occur.",
+    }
 
 @app.get("/health")
 def health():
