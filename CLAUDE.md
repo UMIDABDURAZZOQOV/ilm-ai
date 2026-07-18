@@ -229,6 +229,32 @@ to Render; the real service URL is **`https://ilm-ai-backend-256x.onrender.com`*
   Fix is console-only (owner action): add `https://ilm-ai-edu.vercel.app/auth/google-callback` etc.
 - **Seeding caveat:** `seed_skilltree_if_empty()` only seeds when `SkillSubject` is empty; if prod
   already had subjects, newly-added ones won't auto-load and need a manual sync.
+- **SAT question bank returned 500 on prod:** same root cause as the users table — `sat_ielts_questions`
+  was missing columns added after its table was first created (`skill`, `image_url`, `rubric`, `tags`,
+  `source_filename`, `created_by`), and a single missing mapped column makes the whole SELECT fail.
+  Fixed by adding those `ADD COLUMN IF NOT EXISTS` statements to `migrate_postgres_columns()`. Verified
+  live: SAT bank now serves 500+ questions (IELTS ~20). **Rule of thumb:** any new column on a
+  pre-existing table must be added to `migrate_postgres_columns()` or prod breaks.
+
+### Email verification (prod) — Render blocks SMTP
+- **Root cause:** Render's free tier blocks outbound SMTP ports (25/465/587), so Gmail SMTP fails on
+  prod with `[Errno 101] Network is unreachable` (works locally). Diagnosed via a temporary
+  `GET /auth/_diag/email` endpoint (reports provider-config booleans + password length + attempts a
+  self-send, no secrets exposed — **remove it once email is sorted**).
+- **Fix:** `services/email.py` now tries providers over HTTP (port 443, not blocked): **Brevo**
+  (`BREVO_API_KEY`, `BREVO_FROM_EMAIL` defaults to `GMAIL_ADDRESS`; free ~300/day, single-sender
+  verification, no domain needed — but its signup wants phone SMS which is flaky for +998) → **Resend**
+  (`RESEND_API_KEY`; no phone, but needs a verified domain to send to arbitrary recipients) → **Gmail**
+  SMTP (only works off-Render). Owner sets one provider's env vars on Render.
+- **Temporary bypass (currently ON):** `REQUIRE_EMAIL_VERIFICATION=false` on Render makes `/auth/signup`
+  auto-verify the account and return tokens immediately (no code); login also stops blocking unverified
+  users. Frontend `signup/page.tsx` handles `verification_required:false` by logging in and going to
+  the dashboard. **Set the flag back to `true` (or remove it) once an email provider works.**
+
+### Test-mode notice
+- Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
+  (rendered in `app/layout.tsx`, uz/ru/en, sessionStorage-dismissed). Backend: root `/` returns a
+  `status: test_mode` + `warning` field. Remove both when the site leaves test mode.
 
 ## Flutter port of the full skill-tree suite — BUILT 2026-07-18
 The whole Milliy Sertifikat suite is now on the Flutter app too (`ilm-ai-flutter`), not just web.
