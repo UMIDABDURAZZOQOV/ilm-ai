@@ -192,19 +192,19 @@ def email_diag():
     from services import email as em
 
     result = {
+        "brevo_key_set": bool(em.BREVO_API_KEY),
+        "brevo_from": em.BREVO_FROM_EMAIL or None,
         "resend_key_set": bool(em.RESEND_API_KEY),
         "gmail_address_set": bool(em.GMAIL_ADDRESS),
-        "gmail_address_len": len(em.GMAIL_ADDRESS or ""),
-        "gmail_password_set": bool(em.GMAIL_APP_PASSWORD),
         "gmail_password_len": len(em.GMAIL_APP_PASSWORD or ""),
     }
-    if em.GMAIL_ADDRESS and em.GMAIL_APP_PASSWORD:
+    if em.BREVO_API_KEY and em.BREVO_FROM_EMAIL:
         try:
             html, text = em._render("000000", "diagnostika", "diagnostika")
-            em._send_via_gmail(em.GMAIL_ADDRESS, "Ilm AI — diagnostika", html, text)
-            result["gmail_send"] = "ok"
+            em._send_via_brevo(em.BREVO_FROM_EMAIL, "Ilm AI — diagnostika", html, text)
+            result["brevo_send"] = "ok"
         except Exception as e:  # noqa: BLE001
-            result["gmail_send_error"] = str(e)[:400]
+            result["brevo_send_error"] = str(e)[:400]
     return result
 
 

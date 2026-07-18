@@ -18,9 +18,39 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
 RESEND_FROM = os.environ.get("RESEND_FROM", "Ilm AI <onboarding@resend.dev>")
 
+# Brevo (https://brevo.com) — HTTP email API (port 443). This is the provider
+# that WORKS on Render's free tier, which blocks outbound SMTP ports (25/465/587)
+# so Gmail SMTP fails with "Network is unreachable". Free tier ~300/day, and you
+# can send to any recipient after verifying a single sender email (no domain
+# needed). BREVO_FROM_EMAIL must be a Brevo-verified sender (defaults to the
+# Gmail address for convenience).
+BREVO_API_KEY = os.environ.get("BREVO_API_KEY")
+BREVO_FROM_EMAIL = os.environ.get("BREVO_FROM_EMAIL", GMAIL_ADDRESS or "")
+BREVO_FROM_NAME = os.environ.get("BREVO_FROM_NAME", "Ilm AI")
+
 
 def is_email_configured() -> bool:
-    return bool(RESEND_API_KEY or (GMAIL_ADDRESS and GMAIL_APP_PASSWORD))
+    return bool(BREVO_API_KEY or RESEND_API_KEY or (GMAIL_ADDRESS and GMAIL_APP_PASSWORD))
+
+
+def _send_via_brevo(to_email: str, subject: str, html: str, text: str) -> bool:
+    import requests
+
+    resp = requests.post(
+        "https://api.brevo.com/v3/smtp/email",
+        headers={"api-key": BREVO_API_KEY, "Content-Type": "application/json", "accept": "application/json"},
+        json={
+            "sender": {"email": BREVO_FROM_EMAIL, "name": BREVO_FROM_NAME},
+            "to": [{"email": to_email}],
+            "subject": subject,
+            "htmlContent": html,
+            "textContent": text,
+        },
+        timeout=15,
+    )
+    if resp.status_code >= 400:
+        raise RuntimeError(f"Brevo API {resp.status_code}: {resp.text[:200]}")
+    return True
 
 
 def _send_via_resend(to_email: str, subject: str, html: str, text: str) -> bool:
@@ -100,6 +130,7 @@ def send_verification_code(to_email: str, code: str, purpose: str = "signup") ->
 
     # Try providers in order of preference; fall through to the next on failure.
     for name, enabled, sender in (
+        ("brevo", bool(BREVO_API_KEY and BREVO_FROM_EMAIL), lambda: _send_via_brevo(to_email, subject, html, text)),
         ("resend", bool(RESEND_API_KEY), lambda: _send_via_resend(to_email, subject, html, text)),
         ("gmail", bool(GMAIL_ADDRESS and GMAIL_APP_PASSWORD), lambda: _send_via_gmail(to_email, subject, html, text)),
     ):
