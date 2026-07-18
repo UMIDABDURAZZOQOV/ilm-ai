@@ -10,12 +10,35 @@ load_dotenv()
 GMAIL_ADDRESS = os.environ.get("GMAIL_ADDRESS")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 
+# Resend (https://resend.com) — the preferred transactional-email provider:
+# far better deliverability than a personal Gmail, a simple HTTP API (no SMTP /
+# app-password hassle), and a free tier (~3000/month). Set RESEND_API_KEY to
+# enable it; RESEND_FROM defaults to Resend's shared test sender (which only
+# delivers to the account owner until you verify your own domain).
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
+RESEND_FROM = os.environ.get("RESEND_FROM", "Ilm AI <onboarding@resend.dev>")
+
 
 def is_email_configured() -> bool:
-    return bool(GMAIL_ADDRESS and GMAIL_APP_PASSWORD)
+    return bool(RESEND_API_KEY or (GMAIL_ADDRESS and GMAIL_APP_PASSWORD))
 
 
-def _build_message(to_email: str, subject: str, code: str, intro_html: str, intro_text: str) -> MIMEMultipart:
+def _send_via_resend(to_email: str, subject: str, html: str, text: str) -> bool:
+    import requests
+
+    resp = requests.post(
+        "https://api.resend.com/emails",
+        headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
+        json={"from": RESEND_FROM, "to": [to_email], "subject": subject, "html": html, "text": text},
+        timeout=15,
+    )
+    if resp.status_code >= 400:
+        raise RuntimeError(f"Resend API {resp.status_code}: {resp.text[:200]}")
+    return True
+
+
+def _render(code: str, intro_html: str, intro_text: str) -> tuple[str, str]:
+    """Build the (html, plain-text) bodies for a verification-code email."""
     html = f"""
     <div style="font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 480px; margin: 0 auto;">
       <div style="text-align: center; padding: 24px 0 8px;">
@@ -34,7 +57,10 @@ def _build_message(to_email: str, subject: str, code: str, intro_html: str, intr
     </div>
     """
     text = f"Ilm AI\n\n{intro_text}\n\n{code}\n\nBu kod 10 daqiqa amal qiladi. Agar bu so'rovni siz yubormagan bo'lsangiz, shunchaki e'tiborsiz qoldiring."
+    return html, text
 
+
+def _send_via_gmail(to_email: str, subject: str, html: str, text: str) -> bool:
     # A plain-text alternative + proper Message-ID/Date headers noticeably
     # improve deliverability — HTML-only mail with no envelope metadata is a
     # common spam-filter trigger, especially from a personal Gmail sender.
@@ -47,16 +73,21 @@ def _build_message(to_email: str, subject: str, code: str, intro_html: str, intr
     msg["Date"] = formatdate(localtime=True)
     msg.attach(MIMEText(text, "plain"))
     msg.attach(MIMEText(html, "html"))
-    return msg
+    with smtplib.SMTP("smtp.gmail.com", 587, timeout=15) as server:
+        server.starttls()
+        server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
+        server.sendmail(GMAIL_ADDRESS, [to_email], msg.as_string())
+    return True
 
 
 def send_verification_code(to_email: str, code: str, purpose: str = "signup") -> bool:
     """
-    Send a 6-digit verification code by email.
+    Send a 6-digit verification code by email. Tries Resend first (best
+    deliverability), then Gmail SMTP, then a console fallback for local dev.
 
-    Returns True if actually sent, False if email isn't configured (dev
+    Returns True if actually sent, False if no provider is configured (dev
     fallback: the code is printed to the console instead, so the flow can
-    still be tested end-to-end without SMTP credentials).
+    still be tested end-to-end without any email credentials).
     """
     if purpose == "signup":
         subject = "Ilm AI — Emailingizni tasdiqlang"
@@ -65,19 +96,22 @@ def send_verification_code(to_email: str, code: str, purpose: str = "signup") ->
         subject = "Ilm AI — Parolni tiklash kodi"
         intro = "Parolingizni tiklash uchun quyidagi kodni kiriting:"
 
-    if not is_email_configured():
-        print(f"[email] SMTP not configured — {purpose} code for {to_email}: {code}")
-        return False
+    html, text = _render(code, intro, intro)
 
-    try:
-        msg = _build_message(to_email, subject, code, intro, intro)
-        with smtplib.SMTP("smtp.gmail.com", 587, timeout=15) as server:
-            server.starttls()
-            server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
-            server.sendmail(GMAIL_ADDRESS, [to_email], msg.as_string())
-        return True
-    except Exception as e:
-        from services.monitoring import track_error
-        track_error(e, context={"operation": "send_verification_code", "to_email": to_email, "purpose": purpose})
-        print(f"[email] Failed to send to {to_email}, falling back to console — code: {code}")
-        return False
+    # Try providers in order of preference; fall through to the next on failure.
+    for name, enabled, sender in (
+        ("resend", bool(RESEND_API_KEY), lambda: _send_via_resend(to_email, subject, html, text)),
+        ("gmail", bool(GMAIL_ADDRESS and GMAIL_APP_PASSWORD), lambda: _send_via_gmail(to_email, subject, html, text)),
+    ):
+        if not enabled:
+            continue
+        try:
+            sender()
+            return True
+        except Exception as e:
+            from services.monitoring import track_error
+            track_error(e, context={"operation": "send_verification_code", "provider": name, "to_email": to_email, "purpose": purpose})
+            print(f"[email] {name} send failed for {to_email}: {e}")
+
+    print(f"[email] No email provider configured/working — {purpose} code for {to_email}: {code}")
+    return False
