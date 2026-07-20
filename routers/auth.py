@@ -106,6 +106,10 @@ def login(data: LoginRequest):
         raise HTTPException(status_code=401, detail="Invalid email or password")
 
     if REQUIRE_EMAIL_VERIFICATION and not user.get("oauth_provider") and not user.get("email_verified"):
+        # Send a fresh code so the /verify-email screen the frontend redirects to
+        # always has a valid one (the signup code may have expired). issue_code is
+        # rate-limited internally, so rapid retries won't spam the inbox.
+        issue_code(user["email"], "signup")
         raise HTTPException(
             status_code=403,
             detail={"code": "email_not_verified", "message": "Please verify your email before logging in", "email": user["email"]},
