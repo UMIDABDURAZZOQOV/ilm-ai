@@ -246,10 +246,69 @@ to Render; the real service URL is **`https://ilm-ai-backend-256x.onrender.com`*
   verification, no domain needed — but its signup wants phone SMS which is flaky for +998) → **Resend**
   (`RESEND_API_KEY`; no phone, but needs a verified domain to send to arbitrary recipients) → **Gmail**
   SMTP (only works off-Render). Owner sets one provider's env vars on Render.
-- **Temporary bypass (currently ON):** `REQUIRE_EMAIL_VERIFICATION=false` on Render makes `/auth/signup`
-  auto-verify the account and return tokens immediately (no code); login also stops blocking unverified
-  users. Frontend `signup/page.tsx` handles `verification_required:false` by logging in and going to
-  the dashboard. **Set the flag back to `true` (or remove it) once an email provider works.**
+- **Brevo WAS wired up (2026-07-20)** — `BREVO_API_KEY` set on Render, sender `yaktusecho9@gmail.com`
+  verified in Brevo, `/auth/_diag/email` returned `brevo_send: ok`. But it **does not deliver**: the
+  Brevo event log shows Gmail **deferring** every message — `421-4.7.28 ... mail from your domain
+  [brevosend.com] has been temporarily rate limited ... Bulk Email Senders Guidelines`. Root cause is
+  the **freemail sender**: you can't SPF/DKIM-align a `gmail.com` from address on a shared IP, so
+  Google rate-limits/soft-bounces it. **No config fixes this — it needs a real sending domain.**
+- **Decision (2026-07-20): verification turned OFF** — `REQUIRE_EMAIL_VERIFICATION=false` on Render.
+  `/auth/signup` auto-verifies + returns tokens immediately (no code); login stops blocking unverified
+  users. The frontend "we'll send a 6-digit code / check spam" notices on `signup/page.tsx` and
+  `login/page.tsx` were **removed** (commits on `ilm-ai-frontend@main`), but the i18n keys
+  (`signup_verify_note`, `login_verify_note`), the `verify-email` page, and the whole backend flow are
+  **kept intact** — nothing was deleted, only disabled.
+- **To re-enable (when a domain exists):** authenticate a domain (SPF+DKIM) in Brevo/Resend, set
+  `BREVO_FROM_EMAIL=noreply@thatdomain` (+ `RESEND_*` if using Resend), flip
+  `REQUIRE_EMAIL_VERIFICATION=true`, and re-add the two note boxes on signup/login. The owner already
+  owns `vakil-ai.com` (DNS currently broken — nameservers at IRANDNS don't answer); fixing that DNS +
+  authenticating it is the zero-cost path.
+
+### Session 2026-07-20 — localhost run, navbar polish, verification turned off
+Switched over from the Vakil AI work to Ilm AI. Everything below was done this session.
+
+**Running it locally (both halves):**
+- Frontend: `cd ilm-ai-frontend && npm run dev` → http://localhost:3000 (Next 14). `node_modules`
+  already present; `.env.local` has `NEXT_PUBLIC_API_URL=http://127.0.0.1:8000`. Harmless
+  `Invalid Sentry Dsn` warning (placeholder DSN) — ignore.
+- Backend: `cd ilm-ai && python -m uvicorn main:app --host 127.0.0.1 --port 8000`. The **global**
+  Python 3.12 already has fastapi/uvicorn/sqlalchemy, so **no venv needed** (the `start_backend.ps1`
+  points at a `.\venv` that doesn't exist — just call the module). `.env` `DATABASE_URL` targets a
+  local Postgres that isn't running, so the backend **auto-falls back to SQLite** ("PostgreSQL is not
+  available. Falling back to SQLite database...") — fine for local UI work; data is fresh/empty.
+
+**Mobile navbar fixes** (`ilm-ai-frontend`, `globals.css` + `app/page.tsx`, deployed):
+- The open mobile menu looked transparent (hero showed through). Cause: `.nav-sticky` has
+  `backdrop-filter: blur(16px)`, which makes `position: fixed` on its descendant `.nav-links.mobile-open`
+  resolve against the ~60px bar (its containing block), so `bottom:0` collapsed the overlay. Fix:
+  `height: 100dvh` + an opaque premium background (solid `var(--bg)` + brand radial glows + blur) +
+  `padding-top` to clear the logo/close button; the close (X) button got `position: relative` so its
+  `z-index:101` actually applies (stays tappable above the overlay).
+- The bar scrolled away instead of staying pinned — `position: sticky` was broken by an
+  `overflow-x:hidden` ancestor. Changed `.nav-sticky` to **`position: fixed`** and added
+  `pt-[72px]` on the page-root wrapper to offset its height.
+- The page scrolled behind the open menu. Added a **scroll-lock**: a `useEffect` sets
+  `document.body.style.overflow = "hidden"` while `mobileMenuOpen` (restores on close).
+
+**Backend behavior change** (`routers/auth.py`, deployed): an unverified login (403 `email_not_verified`)
+now calls `issue_code(...)` first, so the `/verify-email` screen the frontend redirects to always has a
+fresh code (the signup one may have expired). `issue_code` is rate-limited, so this can't spam. Harmless
+while verification is off (that branch never runs).
+
+**Email verification:** wired Brevo, found it undeliverable from a gmail freemail sender, turned
+verification OFF — full detail in the "Email verification" section above.
+
+**Deploy mechanics (this project):** both repos auto-deploy from `main`.
+- Frontend repo `ilm-ai-frontend` → Vercel project **`ilm-ai`** (`prj_…`, owner account
+  `pubgmobile200820102009@gmail.com`) → **`ilm-ai-edu.vercel.app`**. `git push origin main` triggers it.
+- Backend repo `ilm-ai` → Render service **`ilm-ai-backend`** (`srv-d99id4mcjfls738a8l80`) →
+  **`https://ilm-ai-backend-256x.onrender.com`**. `git push origin main` triggers a build; but an
+  **env-var change via the Render API does NOT auto-deploy** — you must POST a deploy
+  (`/v1/services/<id>/deploys`) for it to take effect.
+- Doc-only commits (like this CLAUDE.md) are committed but **not pushed alone** — pushing the backend
+  repo forces a full Render rebuild, so let doc commits ride along with the next real backend change.
+- Driven this session with the owner's **Render API key** (`rnd_…`) and **Vercel token** (`vcp_…`) —
+  revoke them when CLI/API access is no longer wanted.
 
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
