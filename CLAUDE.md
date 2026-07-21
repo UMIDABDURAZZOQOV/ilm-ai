@@ -391,6 +391,16 @@ content the app has.** The owner was, in their words, misled about this — CLAU
 "~253 lessons" accurately but the tree was presented as a complete course when a subject could be
 finished in under an hour. Quote the real counts, and say plainly what is not done yet.
 
+**The same failure showed up three times on 2026-07-21, and the shape of it is worth remembering:
+a check that passes because it cannot see the thing that is wrong.** The placement test reported a
+CEFR band from an uncalibrated bank; the IELTS parser printed `missing=[]` while question text was
+mangled (a broken question is still a question, so the count stayed green); and two startup seeders
+skipped their update because rows already existed. Whenever a check goes green here, ask what it
+would fail to notice.
+
+Also open: **the IELTS Listening tables** — see "IELTS section" below. The extractor exists and
+works; it is not wired in, so those questions still read as a heap of words on the site.
+
 The Cambridge IELTS 21 extraction is finished, deployed and verified (details below).
 
 **Everything below in this session is already committed AND deployed AND verified live.**
@@ -533,6 +543,47 @@ itself C1.
 - Frontend `components/skills/LevelTest.tsx` shows the **per-level breakdown**, because a bare
   "B2" is only believable if you can see which levels were cleared. A subject with no bank yet
   answers 404 and the dialog says "still being prepared", not "could not load".
+
+## IELTS section — must be indistinguishable from jumpinto.com
+
+The owner's standing bar, in their words: *"men kirganimda IELTS Sectionga bu Jumpintomi
+yoki Ilm ai mi deb so'rashim kerak … bitta logodan qolgan"* — opening it should be
+indistinguishable apart from the logo. They send screenshots of both side by side.
+**Treat every structural difference in such a screenshot as in scope, not only the one
+they name.** Content is theirs to fill (*"UI/UX zo'r bo'lsa bo'ldi, materiallarni o'zim
+hal qilaman"*); layout and behaviour are ours.
+
+Done 2026-07-21:
+- **`components/ielts/FullScreenExam.tsx`** — an open exam takes the whole viewport. It
+  used to render inside the dashboard layout, so the 252px sidebar stayed put and the
+  split view had half the width. The exam opens from page state, not a route, so the
+  layout cannot know about it — hence a fixed overlay rather than a flag. Escape exits.
+- **Answer boxes render inline**, where the gap is printed (`GAP_MARK` in
+  `ReadingExam.tsx`), not in a column down the right edge.
+- **`/sat/ielts` is a test browser**: book → card per test → its four skills, and a skill
+  link carries `?test=` so the page opens that test's paper. Skills with no material are
+  greyed, not hidden.
+- **The four skills are NOT in the sidebar** (`app/sat/layout.tsx`, `IELTS_NAV`). A skill
+  only means something inside a test; listing it separately let someone open one detached
+  from any test. Sidebar is Tests / Dictionary / Score Calculator.
+
+**OPEN: table questions.** `scripts/ielts_tables.py` is written and verified standalone
+but **not yet wired into `parse_ielts21.py`, and the frontend does not render a table** —
+so Listening tables (Test 1 Q1-6 and friends) still read as a heap of words on the site.
+
+Why it needed its own extractor: **pypdf returns a whole table row as one text run** —
+`"Taster day introduction to sailing £120 if booking one small groups (max"` — so the
+cell boundaries are not in its output at all. pdfplumber (now a dependency) gives
+per-word boxes. Two non-obvious things:
+- The **first column's header is a single word**, so it never reaches the popularity
+  threshold that finds the other column edges; without seeding it from the leftmost word,
+  every left-hand cell collapsed into column two.
+- The **dot leader is drawn across the cell and interleaves with the word beside it**:
+  `"....................a..v..a..il.a"` + `"ble"` is `"…… available"`. `clean_token()`
+  strips the dots and keeps the letters, leaving a `░` marker that becomes `[[n]]`.
+
+Remaining: attach the grid to the block in `parse_ielts21.py`, and render a real
+`<table>` client-side with the input dropped in where `[[n]]` is.
 
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
