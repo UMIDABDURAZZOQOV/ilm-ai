@@ -22,6 +22,36 @@ _EXPECTED_QUESTIONS = 320          # 4 tests × (40 listening + 40 reading)
 _EXPECTED_AUDIO_PARTS = 16         # 4 tests × 4 listening parts
 
 
+def _fixture_differs(db) -> bool:
+    """True when the fixture's question text is not what the database holds.
+
+    Counting rows is not enough: a parser fix changes the *wording* of questions
+    without changing how many there are, and that is exactly what happened — a note
+    that wrapped mid-sentence lost its tail, and every count stayed green. Sampling a
+    handful of texts catches it for the price of one query.
+    """
+    import json
+
+    with open(_SEED_FILE, encoding="utf-8") as fh:
+        data = json.load(fh)
+
+    sample: list[str] = []
+    for test in data.get("tests", []):
+        for section in test.get("reading", []) + test.get("listening", []):
+            for q in section.get("questions", [])[:2]:
+                if q.get("question_text"):
+                    sample.append(q["question_text"])
+    sample = sample[:24]
+    if not sample:
+        return False
+
+    found = {
+        t for (t,) in db.query(IeltsQuestion.question_text)
+        .filter(IeltsQuestion.question_text.in_(sample)).all()
+    }
+    return len(found) < len(set(sample))
+
+
 def seed_ielts21_if_needed() -> None:
     """Load the fixture unless the database already holds exactly this content."""
     if not os.path.exists(_SEED_FILE):
@@ -34,13 +64,14 @@ def seed_ielts21_if_needed() -> None:
         # An earlier fixture resolved the mp3 paths from the local filesystem, so a
         # production seed left every audio_url NULL even though the questions were fine.
         with_audio = db.query(IeltsListening).filter(IeltsListening.audio_url.isnot(None)).count()
+        stale = _fixture_differs(db)
     except Exception as exc:                       # table may not exist on a cold DB
         logger.warning("Cambridge 21 seed check failed: %s", exc)
         return
     finally:
         db.close()
 
-    if existing == _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS:
+    if existing == _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS and not stale:
         return
 
     logger.info("Seeding Cambridge 21 (found %s questions / %s parts with audio; "
