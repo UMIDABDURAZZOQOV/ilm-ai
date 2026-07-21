@@ -73,8 +73,11 @@ Condensed record of work done to date (the code is the source of truth; read it 
   "college explorer" shows SAT *score stats* (bell curve, accepted-range) as reference data for
   college research, which is not the same as the SAT practice/exam platform.
 - **Milliy Sertifikat Skill Tree (Duolingo-style)** — the newest and biggest addition (2026-07-18).
-  A gamified, learn-then-test course for Uzbekistan's Milliy Sertifikat exam. **12 subjects, ~253
-  lessons, ~2500+ questions**, all Gemini-generated then committed as static seed fixtures (never
+  A gamified, learn-then-test course for Uzbekistan's Milliy Sertifikat exam. **12 subjects, 814
+  lessons, ~8200 questions** (was 253 lessons / ~2500 until 2026-07-21 — see "Syllabus depth"
+  below; do NOT quote the old numbers, and do not describe the tree as a finished course while
+  `fill_content.sh` still reports lessons without questions). All Gemini-generated then committed
+  as static seed fixtures (never
   live-generated at request time). Subjects (slug → display): `ona_tili` (Ona tili), `matematika`,
   `ingliz_tili`, `biologiya`, `kimyo`, `fizika`, `jahon_tarixi` (Jahon tarixi / World History),
   `tarix` (O'zbekiston tarixi — note: slug is `tarix` but it's Uzbekistan history specifically;
@@ -368,8 +371,19 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 ### ▶ PICK UP HERE (state at end of 2026-07-21) — read this first after a context reset
 
-**No open task.** The Cambridge IELTS 21 extraction — the last one outstanding — is finished,
-deployed and verified (details below). Next session starts from whatever the owner asks for.
+**OPEN TASK: finish generating the skill-tree content.** 595 of 814 lessons have questions.
+Run `bash scripts/fill_content.sh` — it resumes where it stopped and exits (code 3) as soon as
+every Gemini key is out of daily free-tier quota, because the owner's machine is not always on.
+Then `python scripts/dump_skilltree_fixtures.py`, commit the fixtures, push. Remaining as of the
+last run: `ozbek_adabiyoti` 20/66, `jahon_adabiyoti` 18/66, `koreys_tili` 14/55, `fransuz_tili`
+13/55, `tarix` 45/77, plus the placement bank (321 of ~1700).
+
+**Read "Syllabus depth and the placement test" below before answering any question about how much
+content the app has.** The owner was, in their words, misled about this — CLAUDE.md recorded
+"~253 lessons" accurately but the tree was presented as a complete course when a subject could be
+finished in under an hour. Quote the real counts, and say plainly what is not done yet.
+
+The Cambridge IELTS 21 extraction is finished, deployed and verified (details below).
 
 **Everything below in this session is already committed AND deployed AND verified live.**
 - Backend `ilm-ai@main` → Render `ilm-ai-backend` (`srv-d99id4mcjfls738a8l80`) →
@@ -430,6 +444,77 @@ into "Cambridge IELTS 21 Academic → Test 1-4" by parsing the seeder's title fo
 `src/lib/cambridge.ts` — reading/listening carry the tag in `title`, speaking in `topic`, writing
 in `category`. **Speaking deliberately passes no `onSubmit`**: `/ielts/speaking/submit` cannot
 transcribe audio, so it would invent a band score; the recorder is for self-review only.
+
+## Syllabus depth and the placement test — REWORKED 2026-07-21
+
+Two things the owner found and was right about. Both are recorded here because both were
+misrepresented before, not merely incomplete.
+
+### 1. The tree was a demo presented as a course
+
+Every unit had 3-5 lessons: **the whole of Uzbek history was 27 lessons** ("Qadimgi davr" was
+four), the whole English language 22, Korean 14. A learner finished a subject in under an hour and
+found nothing after it. CLAUDE.md's "~253 lessons" was numerically true, but 253 across 12 subjects
+is 21 each — calling that a full course was wrong.
+
+- `scripts/expand_taxonomy.py` asks Gemini for the lessons each unit actually needs at DTM/Milliy
+  Sertifikat depth and writes **`services/skilltree_outline.json`**, which
+  `skilltree_taxonomy.py` merges over the hand-authored spine at import time (`_merge_expansion()`).
+  Result: **814 lessons**, 11 per unit.
+- **The merge only ever APPENDS, and never reorders or renames an existing slug.**
+  `UserLessonProgress` rows point at those slugs, so moving one silently repoints somebody's
+  completed lesson at a different lesson. Any future expansion must keep this property.
+- `scripts/fill_content.sh` is the runner: resume, then **exit as soon as a whole pass adds
+  nothing**, which means every key is out of daily quota. It does not idle overnight — the
+  machine is not always on.
+- `scripts/dump_skilltree_fixtures.py` re-exports the fixtures straight from the DB.
+  `seed_skilltree.py` only writes a subject's fixture when it *finishes* that subject, so a
+  quota-stopped run leaves the committed fixtures behind the database — and **production seeds
+  from the fixtures, not the database**. Run the dump before every deploy.
+
+**Quota reality:** the Gemini free tier is ~20 requests/day/key/model. With the 10 keys in
+`GEMINI_API_KEYS` that is roughly 600-800 successful calls a day; a full lesson costs 2 (theory +
+questions). Adding keys scales it linearly. `_generate_round_robin` sweeps the whole ring three
+times with a pause between sweeps — bailing after one sweep threw away a lesson over what was
+usually a one-minute limit.
+
+### 2. `seed_skilltree_if_empty()` meant none of this could ever ship
+
+It returned early whenever the tree had any subject at all. Production has been seeded since July,
+so **the expansion from 253 to 814 lessons would have stayed invisible there forever** no matter
+how much was generated locally. It is incremental now and safe on every boot: structure upsert
+creates only missing slugs, and questions/theory attach only to lessons that have none (verified: a
+second run added 8 missing lessons and 0 duplicate questions). `services/seed_placement_bank.py` is
+the matching loader for the placement bank, keyed on question text so a generator re-run across
+several days never duplicates.
+
+### 3. The placement test reported a level it had not measured
+
+It drew 15 questions from the ordinary lesson bank and mapped the raw percentage onto a CEFR band
+(90 → C1, 75 → B2, …). Wrong twice over:
+
+- **The lesson bank is not calibrated.** Its `easy/medium/hard` is relative to each lesson, so a
+  "hard" question in the A1 unit is still an A1 question. The test never measured CEFR at all —
+  users got B2 here and B1 elsewhere, which is worse than no result.
+- **One percentage cannot separate** "mastered A1, nothing above" from "half of everything".
+  Answering 57% at every level scored B1 under the old rule; that is the profile of a guesser.
+
+Now: **`PlacementQuestion`** is a separate bank whose rows are authored AT a level, with the prompt
+spelling out what the band means (an A1 row asks "I ___ a student", a C1 row wants inversion after
+"Only after …"). **`services/placement.py`** walks the scale bottom-up and stops at the first level
+not mastered (75%), with partial credit (45%) only for the one level directly above — a high score
+low down can never buy a level the learner has not shown. The 57%-everywhere learner now places A1.
+The level is resolved server-side from each question's own `level` column, so a client cannot award
+itself C1.
+
+- 7 questions per level, spread across skills, so grammar alone cannot carry a level.
+- Extended to **every subject**, not just the three languages: languages on CEFR **A1-C2**, the
+  rest on a Milliy Sertifikat **`daraja_1`..`daraja_5`** scale (`levels_for()` picks).
+- Generator: `scripts/seed_placement.py` (12 per level×skill bucket, 6 per Gemini call — a dozen
+  at once blew the 60s client timeout). Fixture `scripts/seeds/placement_bank.json`.
+- Frontend `components/skills/LevelTest.tsx` shows the **per-level breakdown**, because a bare
+  "B2" is only believable if you can see which levels were cleared. A subject with no bank yet
+  answers 404 and the dialog says "still being prepared", not "could not load".
 
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
