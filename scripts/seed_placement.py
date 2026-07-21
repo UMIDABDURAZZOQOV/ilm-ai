@@ -34,6 +34,8 @@ SEED_PATH = os.path.join(os.path.dirname(__file__), "seeds", "placement_bank.jso
 # Per (level, skill) bucket. 6 CEFR levels × 3 skills × 12 = 216 questions per
 # language; the test itself asks 7 per level, so a retake is a different paper.
 PER_BUCKET = 12
+# One call per 6 questions: a dozen at once regularly blew the 60s client timeout.
+CHUNK = 6
 LANGUAGE_SKILLS = ["grammar", "vocabulary", "reading"]
 SUBJECT_SKILLS = ["bilim", "qollash"]
 
@@ -142,31 +144,41 @@ def main() -> int:
                     if need <= 0:
                         continue
                     print(f"{subj.slug:16} {level:9} {skill:11} need {need}", flush=True)
-                    try:
-                        resp = _generate_round_robin(
-                            build_prompt(subj.name_uz, subj.slug, level, skill, need))
-                        items = _parse_json(resp.text)
-                        if isinstance(items, dict):
-                            items = items.get("questions", [])
-                    except Exception as exc:
-                        print(f"  FAILED: {exc}", flush=True)
-                        continue
 
+                    # Asking for a dozen questions in one call regularly blew the 60s
+                    # client timeout; smaller batches finish well inside it and a
+                    # timeout then costs one batch instead of the whole bucket.
                     added = 0
-                    for it in items:
-                        if not valid(it):
-                            continue
-                        db.add(PlacementQuestion(
-                            subject_slug=subj.slug,
-                            level=level,
-                            skill=skill,
-                            question_text=it["question_text"].strip(),
-                            options=it["options"],
-                            correct_answer=it["correct_answer"],
-                            explanation=(it.get("explanation") or "").strip() or None,
-                        ))
-                        added += 1
-                    db.commit()
+                    while added < need:
+                        batch = min(CHUNK, need - added)
+                        try:
+                            resp = _generate_round_robin(
+                                build_prompt(subj.name_uz, subj.slug, level, skill, batch))
+                            items = _parse_json(resp.text)
+                            if isinstance(items, dict):
+                                items = items.get("questions", [])
+                        except Exception as exc:
+                            print(f"  FAILED: {exc}", flush=True)
+                            break
+
+                        got = 0
+                        for it in items:
+                            if not valid(it):
+                                continue
+                            db.add(PlacementQuestion(
+                                subject_slug=subj.slug,
+                                level=level,
+                                skill=skill,
+                                question_text=it["question_text"].strip(),
+                                options=it["options"],
+                                correct_answer=it["correct_answer"],
+                                explanation=(it.get("explanation") or "").strip() or None,
+                            ))
+                            got += 1
+                        db.commit()
+                        added += got
+                        if got == 0:            # model returned nothing usable — stop
+                            break
                     print(f"  +{added}", flush=True)
 
         dump(db)

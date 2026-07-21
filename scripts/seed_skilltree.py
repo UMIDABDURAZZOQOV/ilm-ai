@@ -39,6 +39,10 @@ from services.skilltree_taxonomy import SKILLTREE_OUTLINE
 Base.metadata.create_all(bind=engine)
 
 MODEL = os.environ.get("SEED_GEMINI_MODEL", "gemini-flash-latest")
+# Round-robin across ten keys already keeps each one well under its RPM limit, so a
+# 3s pause between every call only mattered when there was one key. Over the ~1200
+# calls the syllabus expansion needs, it alone would have added an hour.
+SLEEP_BETWEEN_CALLS = float(os.environ.get("SEED_SLEEP", "0.4"))
 SEEDS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seeds")
 
 # Explicit round-robin across all configured keys (rather than gemini.py's
@@ -289,7 +293,7 @@ def main():
                                 print(f"THEORY INVALID {unit.title_uz} / {lesson.title_uz}: skipped")
                         except Exception as exc:
                             print(f"THEORY FAILED {unit.title_uz} / {lesson.title_uz}: {exc}")
-                        time.sleep(3)
+                        time.sleep(SLEEP_BETWEEN_CALLS)
                     if lesson.theory:
                         theory_rows.append({
                             "subject_slug": subject_slug,
@@ -355,7 +359,7 @@ def main():
                         inserted += 1
                     total += inserted
                     print(f"{unit.title_uz} / {lesson.title_uz}: +{inserted}")
-                    time.sleep(3)  # round-robin across all keys already keeps any single key well under its RPM limit
+                    time.sleep(SLEEP_BETWEEN_CALLS)
 
             fixture_path = os.path.join(SEEDS_DIR, f"skilltree_{subject_slug}.json")
             with open(fixture_path, "w", encoding="utf-8") as f:
