@@ -82,6 +82,222 @@
  },
  {
   "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "qo-sh-undosh-harflar",
+  "theory": [
+   {
+    "title": "Qo'sh undoshlar nima?",
+    "body": "Koreys tilida ba'zi undoshlar ikkitadan yonma-yon kelib, yangi 'kuchli' va 'qattiq' tovushni hosil qiladi. Ular oddiy undoshlardan farqli o'laroq, chuqurroq va bosim bilan talaffuz qilinadi. Jami 5 ta shunday harf mavjud.",
+    "example": "ㄱ (g) -> ㄲ (k'), ㄷ (d) -> ㄸ (t')"
+   },
+   {
+    "title": "Asosiy qo'sh undoshlar guruhlari",
+    "body": "Qo'sh undoshlarimiz quyidagilardir: ㄲ(kk), ㄸ(tt), ㅃ(pp), ㅆ(ss) va ㅉ(jj). Ularni yodlab olishning eng oson yo'li — oddiy undoshning 'egizagini' yoniga qo'yishdir.",
+    "example": "ㅂ (b) -> ㅃ (p'), ㅅ (s) -> ㅆ (s' qattiq)"
+   },
+   {
+    "title": "Talaffuzdagi o'ziga xoslik",
+    "body": "Eslab qoling: qo'sh undoshlarni aytganda nafasni ichkariga yutgandek, ovozni biroz bo'g'ib talaffuz qilamiz. Masalan, 'ㅆ' harfi oddiy 's' kabi emas, balki qattiqroq bosim bilan aytiladi.",
+    "example": "쌀 (ssal - guruch), 띠 (tti - belbog')"
+   },
+   {
+    "title": "Test: Bilimingizni tekshiring",
+    "body": "Quyidagi testga javob bering: 'ㄲ' harfi qaysi oddiy undoshning qo'shilgan shakli hisoblanadi? A) ㅋ, B) ㄱ, C) ㄴ. Shuningdek, 'ㅆ' harfining o'qilishini toping: A) yumshoq 's', B) qattiq 's' bosim bilan.",
+    "example": "To'g'ri javoblar: B (ㄱ) va B (qattiq 's')."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "murakkab-unli-harflar-diffonglar",
+  "theory": [
+   {
+    "title": "Murakkab unlilar nima?",
+    "body": "Koreys tilida ba'zi unlilar ikkita oddiy unlining qo'shilishidan hosil bo'ladi. Ular 'diffonglar' deyiladi va bitta harfdek o'qiladi. Asosiysi, ularni ko'rganingizda ikki tovushni qo'shib, tezroq aytishga harakat qiling.",
+    "example": "ㅏ (a) + ㅣ (i) = ㅐ (e) \n ㅓ (eo) + ㅣ (i) = ㅔ (e)"
+   },
+   {
+    "title": "Y-tovushli unlilar",
+    "body": "Agar oddiy unliga kichik bir chiziqcha qo'shilsa, uning oldiga 'y' tovushi qo'shiladi. Bu xuddi o'zbek tilidagi 'ya', 'yo', 'ye' tovushlariga o'xshaydi.",
+    "example": "ㅏ (a) → ㅑ (ya) \n ㅓ (eo) → ㅕ (yeo)"
+   },
+   {
+    "title": "W-tovushli murakkab unlilar",
+    "body": "Ba'zi unlilar 'u' yoki 'o' tovushi bilan boshlanadi va ularga boshqa unli qo'shilib 'w' (v) tovushini hosil qiladi. Buni o'qiyotganda lablaringizni cho'chqaytirib, tezda keyingi unliga o'ting.",
+    "example": "ㅗ (o) + ㅏ (a) = ㅘ (wa) \n ㅜ (u) + ㅓ (eo) = ㅝ (wo)"
+   },
+   {
+    "title": "Test: Murakkab unlini toping",
+    "body": "Quyidagi unlilardan qaysi biri 'ya' tovushini bildiradi? \n A) ㅑ \n B) ㅘ \n C) ㅔ",
+    "example": "To'g'ri javob: A (ㅑ)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "hangul-harflarini-yozish-qoidalari-va-chiziqlar-ketma-ketlig",
+  "theory": [
+   {
+    "title": "Yozishning oltin qoidasi",
+    "body": "Koreys tilida harflar har doim chapdan o'ngga va tepadan pastga qarab yoziladi. Bu qoida xat chiziqlarining chiroyli va tartibli chiqishini ta'minlaydi.",
+    "example": "Masalan, 'ㄴ' harfini yozayotganda avval tepadan pastga, keyin esa chapdan o'ngga chiziq tortasiz."
+   },
+   {
+    "title": "Bo'g'inlar tarkibi",
+    "body": "Koreys tilida harflar alohida-alohida emas, balki bir kvadrat shaklidagi 'bo'g'in bloklari' ichida yoziladi. Har bir blok kamida bitta undosh va bitta unlidan iborat bo'lishi shart.",
+    "example": "Masalan, 'ㄴ' (n) va 'ㅏ' (a) harflari birlashib, '나' (na) bo'g'inini hosil qiladi."
+   },
+   {
+    "title": "Unlilarning joylashuvi",
+    "body": "Unli harflar qanday shaklda ekanligiga qarab undoshning yoniga yoki ostiga qo'yiladi. Tik chiziqli unlilar (ㅏ, ㅓ, ㅣ) undoshning o'ng tomoniga, yotiq chiziqli unlilar (ㅗ, ㅜ, ㅡ) esa undoshning pastiga yoziladi.",
+    "example": "Yoniga: 가 (ga), ostiga: 고 (go)."
+   },
+   {
+    "title": "Yakuniy undosh (Batchim)",
+    "body": "Agar bo'g'in uchta harfdan iborat bo'lsa, uchinchi harf (batchim) doimo bo'g'inning eng pastki qismiga yoziladi. Bu yozuv blokning muvozanatini saqlab turadi.",
+    "example": "Masalan, '나' (na) bo'g'iniga 'ㄴ' (n) qo'shilsa, '난' (nan) bo'lib, pastki qismda joylashadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "bo-g-in-oxiri-undoshlari-oddiy-patchim",
+  "theory": [
+   {
+    "title": "Patchim nima?",
+    "body": "Koreys tilida bo'g'in oxirida keladigan undosh harflarga 'patchim' deyiladi. Ular bo'g'inning eng tagida yoziladi va o'ziga xos tovush beradi. Bu xuddi o'zbek tilidagi so'z oxiridagi undosh kabi jaranglaydi.",
+    "example": "감 (gam) – 'm' harfi patchim hisoblanadi."
+   },
+   {
+    "title": "Oddiy patchimlar qanday o'qiladi?",
+    "body": "Koreys tilida bir nechta undoshlar bo'g'in oxirida kelsa ham, ular 7 xil asosiy tovushdan birini beradi. Masalan, 'ㄱ' va 'ㅋ' patchimda kelsa, ikkalasi ham bo'g'in oxirida qat'iy 'k' tovushini beradi.",
+    "example": "부엌 (bu-ok) – 'ㅋ' patchimda kelgani uchun 'k' deb o'qiladi."
+   },
+   {
+    "title": "Burun tovushli patchimlar",
+    "body": "Ba'zi undoshlar bo'g'in oxirida kelganda burun orqali 'n' yoki 'ng' kabi yumshoqroq jaranglaydi. 'ㄴ' harfi 'n', 'ㅇ' harfi esa 'ng' tovushini hosil qiladi.",
+    "example": "산 (san) – 'n' tovushi; 강 (gang) – 'ng' tovushi."
+   },
+   {
+    "title": "Patchimni aniqlash mashqi",
+    "body": "Keling, tekshiramiz! '입' (ip) so'zida 'ㅂ' patchimda kelib, 'p' tovushini beradi. Endi quyidagi savolga javob bering: '꽃' (gul) so'zida 'ㅊ' patchimda kelgan, sizningcha u qaysi tovushga o'xshashroq jaranglaydi? (A: t, B: m)",
+    "example": "Javob: A (ch, t, s, sh kabi harflar patchimda 't' tovushini beradi)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "qo-sh-bo-g-in-oxiri-undoshlari-murakkab-patchim",
+  "theory": [
+   {
+    "title": "Murakkab patchim nima?",
+    "body": "Koreys tilida ba'zida bo'g'in oxirida ikkita harf yonma-yon keladi, ularni 'murakkab patchim' deymiz. Garchi ikkita harf yozilsa ham, o'qilishda odatda ulardan faqat bittasi eshitiladi. Keling, buni bosqichma-bosqich o'rganamiz!",
+    "example": "Masalan: 닭 (tovuq) so'zida 'ㄹ' va 'ㄱ' harflari pastda turibdi."
+   },
+   {
+    "title": "Chapdagi harf o'qiladi",
+    "body": "Murakkab patchimlarning ko'pchiligi chap tomondagi harf bilan o'qiladi. Ya'ni, o'ngdagi harf yozuvda qoladi-yu, talaffuzda deyarli bilinmaydi. Keling, ㄳ, ㄵ, ㄶ, ㄼ, ㄽ, ㄾ, ㅀ guruhini yodda tutamiz.",
+    "example": "앉다 (o'tirmoq) so'zi '안따' deb o'qiladi, chunki 'ㄵ' birikmasida chapdagi 'ㄴ' ustunlik qiladi."
+   },
+   {
+    "title": "O'ngdagi harf o'qiladi",
+    "body": "Ayrim maxsus birikmalar borki, ularda aksincha, o'ng tomondagi harf o'qiladi. Bu guruhga ㄺ, ㄻ, ㄿ kiradi. Bularni alohida eslab qolish kerak, chunki ular nutqda juda ko'p uchraydi.",
+    "example": "닭 (tovuq) so'zi '닥' deb o'qiladi, ya'ni 'ㄱ' tovushi eshitiladi."
+   },
+   {
+    "title": "O'zgarishlar (Testga tayyorgarlik)",
+    "body": "Oxirgi muhim qoida: agar murakkab patchimli so'zdan keyin unli harf bilan boshlanadigan qo'shimcha kelsa, ikkinchi harf keyingi bo'g'inga 'o'tib' ketadi. Shunda ikkala harf ham eshitiladi!",
+    "example": "닭이 (tovuq + ega) so'zida 'ㄹ' pastda qolib, 'ㄱ' keyingi '이' bilan birga '기' bo'lib o'qiladi: [달기]."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "tovushlarning-ulanib-o-qilishi-qoidasi-yenum",
+  "theory": [
+   {
+    "title": "Yenum nima?",
+    "body": "Koreys tilida bo'g'in oxiridagi undoshdan keyin unli harf kelsa, undosh to'g'ridan-to'g'ri keyingi bo'g'inga o'tib o'qiladi. Bu qoida 'yenum' deb ataladi va so'zlarni ravon talaffuz qilishga yordam beradi.",
+    "example": "음악 (um-ak) emas, 오(o) + 름(rum) = 오름 (o-rum) kabi."
+   },
+   {
+    "title": "Oddiy ulanish qoidasi",
+    "body": "Agar so'z undosh bilan tugab, keyingi so'z yoki bo'g'in 'ㅇ' (ng) bilan boshlansa, oldingi bo'g'inning undoshi 'ㅇ' o'rniga o'tib o'qiladi. 'ㅇ' o'zi hech qanday tovush bermaydi, u shunchaki o'rinbosar.",
+    "example": "학(hak) + 이(i) = 하기 (ha-gi). Ko'rib turganingizdek, 'k' harfi 'i' ning oldiga o'tib ketdi."
+   },
+   {
+    "title": "Ikki undoshli ulanish",
+    "body": "Agar bo'g'in oxirida ikkita harf (qo'sh undosh) kelsa, ikkinchi harf keyingi bo'g'inning boshiga o'tib o'qiladi. Birinchisi esa o'z o'rnida qoladi.",
+    "example": "닭(dalk) + 이(i) = 달(dal) + 기(gi) = 달기 (dal-gi). 'l' qoldi, 'k' esa keyingi bo'g'inga o'tdi."
+   },
+   {
+    "title": "Test: To'g'ri o'qilishini toping",
+    "body": "Qoidani eslang: '꽃이' (gul) so'zida 'ㅊ' harfi '이' unlisi bilan uchrashsa, qanday talaffuz qilinadi? A) Kkoc-i B) Kko-chi",
+    "example": "To'g'ri javob: B) Kko-chi. Chunki 'ㅊ' harfi 'ㅇ' o'rniga o'tib o'qiladi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "tovushlarning-kuchayishi-va-portlashi-qoidalari-kyongumxva-v",
+  "theory": [
+   {
+    "title": "Koreys tilida kuchli undoshlar",
+    "body": "Koreys tilida 'qattiq' aytiladigan kuchli undoshlar bor: ㄲ, ㄸ, ㅃ, ㅆ, ㅉ. Ular xuddi portlashdek, nafasni biroz ushlab, kuchliroq talaffuz qilinadi. Buni o'rganish sizga so'zlarni xuddi koreyslar kabi aniq va ravon aytishga yordam beradi.",
+    "example": "ㄱ (k) → ㄲ (kk); ㄷ (t) → ㄸ (tt); ㅂ (p) → ㅃ (pp)."
+   },
+   {
+    "title": "Tovushlarning kuchayishi (Kyongumxva)",
+    "body": "Ayrim hollarda so'zlar yonma-yon kelganda, ikkinchi tovush 'kuchayib' ketadi. Masalan, ㄱ, ㄷ, ㅂ undoshlaridan keyin yana shu undoshlar kelsa, ular o'z-o'zidan kuchli (ㄲ, ㄸ, ㅃ) shaklga o'tadi. Bu qoida o'qishni osonlashtiradi.",
+    "example": "학교 [xak-kyo] emas, balki [xak-kkyo] deb o'qiladi. O'q: [xak-kkyo]."
+   },
+   {
+    "title": "Tovushlarning portlashi (Kyogumxva)",
+    "body": "Portlash qoidasi - bu ㄱ, ㄷ, ㅂ undoshlarining 'ㅎ' (h) harfi bilan uchrashuvi. Ular birga kelganda, bu harflar o'zidan kuchliroq bo'lgan ㅋ, ㅌ, ㅍ tovushlariga aylanadi. Xuddi kichik portlash sodir bo'lgandek!",
+    "example": "입학 [ip-hak] so'zi [i-pax] yoki [i-pak] emas, balki [i-p'ak] deb o'qiladi."
+   },
+   {
+    "title": "Test: Qoidani sinab ko'ramiz",
+    "body": "Qoidani tushunganingizni tekshiramiz: 1) '학교' (maktab) so'zida 'ㄱ' harfi 'ㄲ'ga aylanishi qaysi qoida? 2) '입학' (o'qishga kirish) so'zida 'ㅂ+ㅎ' birikmasi 'ㅍ'ga aylanishi nima deyiladi?",
+    "example": "Javoblar: 1) Kyongumxva (kuchayish); 2) Kyogumxva (portlash). To'g'ri topdingizmi?"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "hangul",
+  "lesson_slug": "burun-va-yon-tovushlarining-o-zgarishi-qoidalari-biumxva-va-",
+  "theory": [
+   {
+    "title": "Burun tovushlari bilan tanishuv",
+    "body": "Koreys tilida 'ㅇ, ㄴ, ㅁ' harflari burun tovushlari deyiladi. Agar so'zda 'ㄱ, ㄷ, ㅂ' undoshlari aynan shu burun tovushlaridan keyin kelsa, ular ham burun tovushiga aylanib qoladi. Bu o'zgarish 'Biumxva' deb ataladi.",
+    "example": "국물 (guk-mul) → [궁물] (gung-mul). Ko'rib turganingizdek, 'ㄱ' harfi 'ㅁ' ta'sirida 'ㅇ' ga o'zgarib qoldi."
+   },
+   {
+    "title": "Biumxva qoidasi: 'ㄴ' ta'siri",
+    "body": "Ba'zida 'ㄱ' yoki 'ㅂ' undoshlari 'ㄴ' harfidan keyin kelsa, ular mos ravishda 'ㅇ' va 'ㅁ' tovushlariga o'tadi. Bu o'zgarish nutqni ravonlashtirish uchun kerak, shuning uchun yozilganda emas, aynan aytilishda o'zgaradi.",
+    "example": "입니다 (ib-ni-da) → [임니다] (im-ni-da). 'ㅂ' harfi 'ㄴ' ta'sirida 'ㅁ' ga aylandi."
+   },
+   {
+    "title": "Yon tovushlar: 'ㄹ' ning o'zgarishi",
+    "body": "Koreys tilida 'ㄹ' harfi 'yon tovush' hisoblanadi. Agar 'ㄴ' harfi 'ㄹ' bilan yonma-yon kelsa, 'ㄴ' ham 'ㄹ' ga aylanib ketadi. Bu qoida 'Yuumxva' deb ataladi, ya'ni tovushlar 'yonma-yon' bo'lib qoladi.",
+    "example": "신라 (sin-la) → [실라] (sil-la). 'ㄴ' harfi 'ㄹ' ga o'zgarib, ikkita 'ㄹ' paydo bo'ldi."
+   },
+   {
+    "title": "Biumxva va Yuumxva testi",
+    "body": "Keling, bilimizni sinaymiz! Quyidagi so'zlarning qaysi biri 'Yuumxva' qoidasiga (ㄴ→ㄹ) misol bo'ladi?",
+    "example": "A) 십리 (sib-ni) → [심니] \nB) 연락 (yeon-lak) → [열락] \nTo'g'ri javob: B"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
   "unit_slug": "salomlashish-ko",
   "lesson_slug": "salom-alik",
   "theory": [
@@ -163,6 +379,222 @@
  },
  {
   "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "mamlakat-va-millat-nomlarini-aytish",
+  "theory": [
+   {
+    "title": "Mamlakat nomini aytish",
+    "body": "Koreys tilida mamlakat nomini aytish uchun davlat nomiga '나라' (mamlakat) so‘zidan keyin keladigan '국' (davlat) qo‘shimchasi qo‘shiladi. Masalan, O‘zbekiston koreys tilida '우즈베키스탄' deb ataladi.",
+    "example": "우즈베키스탄 (O‘zbekiston), 한국 (Koreya)."
+   },
+   {
+    "title": "Millatni ifodalash qoidasi",
+    "body": "Siz qaysi davlat fuqarosi ekanligingizni aytish uchun mamlakat nomiga '사람' (odam/inson) so‘zini qo‘shasiz. Bu '...lik' yoki '...li' ma'nosini beradi.",
+    "example": "우즈베키스탄 사람 (O‘zbekistonlik), 한국 사람 (Koreyalik)."
+   },
+   {
+    "title": "Tanishuvda gap tuzish",
+    "body": "O‘z millatingizni to‘liq gap bilan aytish uchun '저는 ... 사람입니다' qolipidan foydalanamiz. '저는' — men, '입니다' — -man qo‘shimchasining rasmiy shakli.",
+    "example": "저는 우즈베키스탄 사람입니다. (Men o‘zbekistonlikman.)"
+   },
+   {
+    "title": "Til nomini shakllantirish",
+    "body": "Mamlakat nomidan keyin '어' (til) so‘zini qo‘shib, o‘sha davlat tilini aytishingiz mumkin. Bu siz qaysi tilda gaplashishingizni bildiradi.",
+    "example": "한국어 (Koreys tili), 우즈베크어 (O‘zbek tili)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "kasb-va-faoliyat-turlarini-tanishtirish",
+  "theory": [
+   {
+    "title": "Kasblarni ifodalash usuli",
+    "body": "Koreys tilida kasbni aytish uchun ot so'ziga '-(i)yeyo' yoki '-yeyo' qo'shimchasini qo'shamiz. Bu o'zbek tilidagi 'men ...man' iborasiga mos keladi. Unli bilan tugagan so'zlarga '-yeyo', undosh bilan tugaganlarga '-iyeyo' qo'shiladi.",
+    "example": "Hakseng-iyeyo (Talabaman). Uisa-yeyo (Shifokorman)."
+   },
+   {
+    "title": "O'zini tanishtirish qolipi",
+    "body": "O'zingizni tanishtirganda avval ismingizni, keyin esa kasbingizni aytasiz. Buning uchun 'Jeoneun [ism]-imnida' (Men ...man) va 'Jeoneun [kasb]-imnida' qoliplaridan foydalanamiz.",
+    "example": "Jeoneun Ali-imnida. Jeoneun seonsaeng-imnida (Men Ali-man. Men o'qituvchiman)."
+   },
+   {
+    "title": "Kasbni so'rash qolipi",
+    "body": "Biror kishining kasbini so'rash uchun 'mwo' (nima) so'rog'idan foydalanamiz. 'Jigeop-i mwo-yeyo?' iborasi 'Kasbingiz nima?' degan ma'noni anglatadi.",
+    "example": "A: Jigeop-i mwo-yeyo? B: Hoesa-won-iyeyo (Ofis xodimi man)."
+   },
+   {
+    "title": "Kasbni inkor etish",
+    "body": "Agar siz o'sha kasb egasi bo'lmasangiz, '-ga/i aniyeyo' qolipidan foydalanasiz. Bu '... emasman' degan ma'noni bildiradi. Undoshga tugagan so'zga 'i', unliga tugaganga 'ga' qo'shiladi.",
+    "example": "Jeoneun uisa-ga aniyeyo (Men shifokor emasman). Jeoneun hakseng-i aniyeyo (Men talaba emasman)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "ism-yosh-va-aloqa-ma-lumotlarini-so-rash",
+  "theory": [
+   {
+    "title": "Ism so'rash qoidalari",
+    "body": "Koreys tilida ism so'rashda 'Ismingiz nima?' deb o'rniga 'Ismingiz nima?' degan ma'noda '이름이 뭐예요?' (Ireumi mwoyeyo?) iborasini ishlatamiz. Bu juda keng tarqalgan va oddiy shakl.",
+    "example": "이름이 뭐예요? (Ismingiz nima?)"
+   },
+   {
+    "title": "Yoshni hurmat bilan so'rash",
+    "body": "Koreys madaniyatida yosh juda muhim. 'Yoshingiz nechada?' deb so'rash uchun '몇 살이에요?' (Myeot sarieyo?) iborasini ishlatamiz. Bu yaqin do'stlar yoki tengdoshlar o'rtasida mos keladi.",
+    "example": "몇 살이에요? (Yoshingiz nechada?)"
+   },
+   {
+    "title": "Telefon raqamini so'rash",
+    "body": "Aloqa ma'lumotlarini so'rash uchun '전화번호가 뭐예요?' (Jeonhwabeonhoga mwoyeyo?) iborasi ishlatiladi. Bu yerda '전화번호' telefon raqami degan ma'noni anglatadi.",
+    "example": "전화번호가 뭐예요? (Telefon raqamingiz nechchi?)"
+   },
+   {
+    "title": "O'zini tanishtirish formulasi",
+    "body": "O'zingizni tanishtirayotganda ismingizdan so'ng '이에요/예요' (yeyo/ieyo) qo'shimchasini qo'shasiz. Masalan, 'Men Alisherman' deyish uchun '저는 알리셔예요' deb aytamiz.",
+    "example": "저는 알리셔예요. (Men Alisherman.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "xayrlashish-va-kelgusi-uchrashuvlar-haqida-gapirish",
+  "theory": [
+   {
+    "title": "Ketayotganda xayrlashish usullari",
+    "body": "Koreys tilida xayrlashish suhbatdoshning kimligiga bog'liq. Agar siz ketayotgan bo'lsangiz va suhbatdosh qolayotgan bo'lsa, 'Annyeonghi gyeseyo' (qolishingiz yaxshi bo'lsin) iborasini ishlatamiz.",
+    "example": "Annyeonghi gyeseyo! (Qolishda xayrlashuv)"
+   },
+   {
+    "title": "Qolayotganda xayrlashish usullari",
+    "body": "Agar siz ketayotgan bo'lsangiz va suhbatdosh ham ketayotgan bo'lsa, 'Annyeonghi gaseyo' (ketishingiz yaxshi bo'lsin) deb aytamiz. Buni eslab qolish oson: 'ga' fe'li ketmoq degani.",
+    "example": "Annyeonghi gaseyo! (Ketishda xayrlashuv)"
+   },
+   {
+    "title": "Yana ko'rishguncha deyish",
+    "body": "Kelgusi uchrashuvni rejalashtirish uchun 'Ddo bwayo' iborasidan foydalanamiz. Bu 'yana ko'rishamiz' degan ma'noni anglatadi va do'stona muloqotlarda juda keng qo'llaniladi.",
+    "example": "Ddo bwayo! (Yana ko'rishguncha!)"
+   },
+   {
+    "title": "Rasmiy va hurmatli xayrlashuv",
+    "body": "Agar suhbatdosh kattaroq yoshdagi inson bo'lsa, 'Najo-e bwayo' ya'ni 'keyin ko'rishamiz' deyish o'rinli. Bu ibora uchrashuvning keyinroq bo'lishini hurmat bilan bildiradi.",
+    "example": "Najo-e bwayo. (Keyin ko'rishamiz.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "uchinchi-shaxsni-boshqa-odamni-tanishtirish",
+  "theory": [
+   {
+    "title": "Uchinchi shaxsni ko'rsatish",
+    "body": "Koreys tilida yonimizdagi odamni tanishtirayotganda 'bu' ma'nosini beruvchi 'i' (이) yoki 'jeo' (저) olmoshlaridan foydalanamiz. 'I' - yaqinimizdagi, 'jeo' esa biroz uzoqdagi odamni ko'rsatish uchun ishlatiladi.",
+    "example": "이분은 제 친구예요. (Bu kishi mening do'stim.)"
+   },
+   {
+    "title": "Hurmat darajasi: 'Bun'",
+    "body": "Odamni ko'rsatganda shunchaki 'i' (bu) emas, balki hurmat ifodasi uchun 'i-bun' (이분) so'zini qo'llashimiz kerak. 'Bun' - 'odam' so'zining yuqori hurmat shakli hisoblanadi.",
+    "example": "이분은 선생님이세요. (Bu kishi o'qituvchimdirlar.)"
+   },
+   {
+    "title": "Tanish qiling: -rago hamnida",
+    "body": "Uchinchi shaxsni tanishtirayotganda ismiga '-rago hamnida' (~라고 합니다) qo'shimchasini qo'shamiz. Bu '... deb ataladi' yoki '... deb tanishtiraman' degan rasmiy ma'noni anglatadi.",
+    "example": "이분은 김민수라고 합니다. (Bu kishini Kim Minsu deb tanishtiraman.)"
+   },
+   {
+    "title": "Tanishuvni yakunlash",
+    "body": "Tanishuvni tugatishda 'mannaso bangapseumnida' (uchrashganimdan xursandman) iborasini qo'shamiz. Bu har qanday vaziyatda odobli va professional chiqish uchun juda muhim.",
+    "example": "만나서 반갑습니다. (Tanishganimdan xursandman.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "minnatdorchilik-va-uzr-so-rash-iboralari",
+  "theory": [
+   {
+    "title": "Minnatdorchilik bildirish asoslari",
+    "body": "Koreys tilida rahmat aytishning eng keng tarqalgan va xushmuomala shakli 'Kamsa hamnida' iborasidir. Buni do'stlaringizga emas, balki kattalar yoki notanish insonlarga nisbatan hurmat bilan ishlatasiz.",
+    "example": "Kamsa hamnida! (Rahmat!)"
+   },
+   {
+    "title": "Uzr so'rash shakllari",
+    "body": "Kimdandir uzr so'ramoqchi bo'lsangiz, 'Choesong hamnida' so'zini ishlating. Bu ibora har qanday vaziyatda, ya'ni xato qilib qo'yganingizda yoki birovni bezovta qilganingizda juda qo'l keladi.",
+    "example": "Choesong hamnida. (Kechirasiz / Uzr so'rayman.)"
+   },
+   {
+    "title": "Javob qaytarish odobi",
+    "body": "Sizga rahmat aytishganda, bunga javoban 'Aiyeyo' deyish kifoya. Bu 'arzimaydi' yoki 'hechqisi yo'q' degan ma'nolarni anglatadi va suhbatni iliq yakunlashga yordam beradi.",
+    "example": "Aiyeyo. (Arzimaydi.)"
+   },
+   {
+    "title": "Hurmat darajasi muhim",
+    "body": "Koreys tilida 'hamnida' qo'shimchasi rasmiy va yuqori hurmatni bildiradi. Shuning uchun Milliy Sertifikat imtihonida topshiriqlarni bajarayotganda doim 'hamnida' bilan tugaydigan shakllarni tanlash eng to'g'ri yo'ldir.",
+    "example": "Kamsa hamnida (To'g'ri) / Kamsa (Noto'g'ri, juda erkin)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "ahvol-so-rash-va-salomatlik-haqida-suhbatlashish",
+  "theory": [
+   {
+    "title": "Ahvol so'rash: An-nyeong-ha-se-yo",
+    "body": "Koreys tilida eng ko'p ishlatiladigan salomlashish va ahvol so'rash shakli 'An-nyeong-ha-se-yo?' hisoblanadi. Bu ibora ham 'salom', ham 'ahvollaringiz yaxshimi?' ma'nosida qo'llaniladi va istalgan vaziyatda ishlatish mumkin.",
+    "example": "A: 안녕하세요? (An-nyeong-ha-se-yo?) - Salom/Ahvollaringiz yaxshimi?\nB: 안녕하세요. (An-nyeong-ha-se-yo.) - Salom."
+   },
+   {
+    "title": "Ahvolga javob berish",
+    "body": "Agar sizdan ahvolingizni so'rashsa, 'Yaxshiman' deb javob berish uchun 'Jal-ji-ne-yo' iborasini ishlatamiz. 'Jal' yaxshi, 'ji-ne-yo' esa yashamoq/o'tkazmoq degan ma'nolarni anglatadi.",
+    "example": "질문: 잘 지내요? (Jal-ji-ne-yo?) - Yaxshimisiz?\n답변: 네, 잘 지내요. (Ne, jal-ji-ne-yo.) - Ha, yaxshiman."
+   },
+   {
+    "title": "Salomatlik haqida so'rash",
+    "body": "Salomatligingiz qanday, deb so'rash uchun 'Geon-gang-ha-se-yo?' iborasidan foydalanamiz. 'Geon-gang' koreys tilida 'salomatlik' degani, shuning uchun bu savol asosan keksa yoshlilarga yoki hol-ahvolni chuqurroq surishtirganda ishlatiladi.",
+    "example": "건강하세요? (Geon-gang-ha-se-yo?) - Salomatligingiz yaxshimi?\n네, 건강해요. (Ne, geon-gang-hae-yo.) - Ha, salomatligim yaxshi."
+   },
+   {
+    "title": "Mashg'ulot: To'g'ri javobni tanlang",
+    "body": "Yuqoridagi darslarni takrorlab olamiz. Quyidagi vaziyat uchun qaysi javob mos keladi? \nSavol: '잘 지내요?' (Jal-ji-ne-yo?) deb so'rashganda, qanday javob berish to'g'ri?",
+    "example": "A) 네, 잘 지내요. (Ha, yaxshiman.)\nB) 안녕하세요. (Salom.)\n(To'g'ri javob: A)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "salomlashish-ko",
+  "lesson_slug": "tashrif-qog-ozi-vizitka-almashish-va-rasmiy-uchrashuv-odobi",
+  "theory": [
+   {
+    "title": "Tashrif qog'ozini uzatish odobi",
+    "body": "Koreyada vizitka almashish juda muhim jarayon. Uni har doim ikki qo'llab yoki o'ng qo'lda uzating va qabul qilib oling. Vizitkani uzatayotganda yozuvlar qarama-qarshi tarafga, ya'ni qabul qiluvchi o'qiy oladigan holatda bo'lishi shart.",
+    "example": "Vizitkani ikki qo'l bilan uzatib: '만나서 반갑습니다' (Siz bilan tanishganimdan xursandman) deb ayting."
+   },
+   {
+    "title": "Vizitkaga munosabat",
+    "body": "Sizga uzatilgan vizitkani darrov cho'ntagingizga solib qo'ymang. Uni bir muddat diqqat bilan o'qib chiqing va uchrashuv davomida stol ustiga o'zingizning oldingizga qo'ying. Bu qarshingizdagi insonni hurmat qilishingizni bildiradi.",
+    "example": "Stol ustida vizitkani shaxs o'tirgan joyga mos tarzda, tartib bilan qo'ying."
+   },
+   {
+    "title": "Rasmiy tanishuv iboralari",
+    "body": "Koreyada tanishganda o'z lavozimingiz va ismingizni aytish odobli hisoblanadi. Bunda '입니다' (imidā) qo'shimchasi bilan tugaydigan rasmiy uslubdan foydalanamiz. Bu sizning madaniyatli va professional ekanligingizni ko'rsatadi.",
+    "example": "Samsung kompaniyasidan Kim bo'lsangiz: '삼성의 김입니다' (Samsung'dan Kimman) deb tanishing."
+   },
+   {
+    "title": "O'zini tanishtirish tartibi",
+    "body": "Tanishuv chog'ida vizitkani uzatish va o'zini tanishtirish bir vaqtda amalga oshiriladi. Avval vizitkani uzating, so'ngra ta'zim qilib, o'z ismi sharifingizni ayting. Bu koreys biznes etiketining oltin qoidasidir.",
+    "example": "Vizitkani uzatib: '안녕하십니까, 김철수입니다' (Salom, men Kim Chol Su) deb ta'zim qiling."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
   "unit_slug": "sonlar-vaqt-ko",
   "lesson_slug": "koreys-sonlar",
   "theory": [
@@ -212,6 +644,254 @@
     "title": "Vaqtni to‘liq ifodalash",
     "body": "Koreyslar vaqtni aytganda odatda kunning qismini (ertalab, tush, kechqurun) soatdan oldin qo‘yishadi. 'Ojon' (ertalab), 'ohu' (tushdan keyin) so‘zlarini soat oldidan ishlatamiz.",
     "example": "Ertalab soat 9:00 - Ojon ahopsi (오전 아홉시)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "asosiy-hisob-so-zlari-buyumlar-insonlar-va-hayvonlar-uchun",
+  "theory": [
+   {
+    "title": "Koreys tilida sanoq turlari",
+    "body": "Koreys tilida ikkita sanoq tizimi bor: koreyscha (sof) va xitoycha (sino-koreys). Buyumlar, insonlar va hayvonlarni sanashda asosan koreyscha sonlardan (hana, dul, set...) foydalanamiz. Muhim qoida: raqamga 'hisob so'zi' qo'shilganda, 1, 2, 3, 4 va 20 sonlarining shakli biroz qisqaradi.",
+    "example": "1 (hana) -> han, 2 (dul) -> du, 3 (set) -> se, 4 (net) -> ne, 20 (sumul) -> sumu."
+   },
+   {
+    "title": "Insonlarni sanash qoidalari",
+    "body": "Insonlar sonini aytganda koreyscha sonlardan foydalanamiz va oxiriga '-myeong' (kisi) qo'shimchasini qo'shamiz. Hurmatli shaxslar haqida gapirganda esa '-myeong' o'rniga '-bun' ishlatiladi. Eslab qoling: 1 va 2 kishi uchun maxsus so'zlar bor.",
+    "example": "1 kishi (han myeong), 2 kishi (du myeong), 3 kishi (se myeong)."
+   },
+   {
+    "title": "Buyumlar uchun umumiy hisob so'zi",
+    "body": "Koreys tilida har bir narsa uchun alohida hisob so'zi bor, lekin hammasini yodlash qiyin bo'lsa, 'ge' so'zi qutqaradi. Bu umumiy hisob so'zi bo'lib, ko'p buyumlar uchun ishlatiladi. Faqat insonlar uchun buni ishlatmang!",
+    "example": "1 ta olma (han ge), 3 ta daftar (se ge)."
+   },
+   {
+    "title": "Hayvonlar va mashinalar hisobi",
+    "body": "Hayvonlarni sanashda '-mari' hisob so'zidan foydalanamiz. Mashinalar yoki elektron texnikalar uchun esa '-dae' qo'shimchasi ishlatiladi. Bularni o'rganib olsangiz, kundalik hayotda koreyslar bilan bemalol kelishib ketasiz.",
+    "example": "2 ta mushuk (du mari), 1 ta mashina (han dae)."
+   },
+   {
+    "title": "Bilimlarni tekshirish (Test)",
+    "body": "Keling, o'rganganlarimizni sinaymiz! Savollarga javob bering: 1) 2 kishini koreys tilida qanday aytamiz? 2) 'Han ge' deganda nimani nazarda tutamiz? 3) Hayvonlar uchun qaysi hisob so'zi ishlatiladi?",
+    "example": "Javoblar: 1) Du myeong, 2) 1 ta buyum, 3) -mari."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "telefon-raqamlari-avtobus-yo-nalishlari-va-manzillar",
+  "theory": [
+   {
+    "title": "Telefon raqamlari va Sino-koreys sonlari",
+    "body": "Koreys tilida telefon raqamlari, avtobus yo'nalishlari va manzillar uchun doimo Sino-koreys sonlaridan (il, i, sam, sa, o...) foydalanamiz. Bu sonlar sanash uchun emas, balki tartib va raqamlarni ifodalash uchun ishlatiladi.",
+    "example": "010-1234-5678: 'gong-il-gong-il-i-sam-sa-o-yuk-chil-pal'."
+   },
+   {
+    "title": "Telefon raqamlarida 'e' bog'lovchisi",
+    "body": "Koreys tilida telefon raqamlarini aytayotganda, raqamlar guruhi o'rtasida '-' belgisi o'rniga 'e' (의) so'zini ishlatamiz. Bu raqamlarni bir-biridan ajratib, tushunarli qilishga yordam beradi.",
+    "example": "010-1234-5678 raqami: 'gong-il-gong-e-il-i-sam-sa-e-o-yuk-chil-pal' deb aytiladi."
+   },
+   {
+    "title": "Avtobus yo'nalishlari va sonlar",
+    "body": "Avtobus raqamini aytganda ham xuddi telefon raqamlaridek Sino-koreys sonlaridan foydalanamiz. Agar avtobus raqamidan so'ng 'yo'nalish' ma'nosini anglatuvchi 'beon' (번) so'zini qo'shsangiz, bu juda tabiiy chiqadi.",
+    "example": "15-avtobus: 'sibo-beon beoseu' (15-sonli avtobus)."
+   },
+   {
+    "title": "Manzil va uy raqamlari",
+    "body": "Koreys manzillarida uy yoki bino raqamini aytganda ham Sino-koreys sonlari ishlatiladi. Raqamdan so'ng 'ho' (호) qo'shimchasini qo'shish orqali xonadon raqamini aniq ko'rsatishingiz mumkin.",
+    "example": "102-uy: 'baeg-i-ho'."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "narxlar-pul-birliklari-va-katta-sonlar-man-ok",
+  "theory": [
+   {
+    "title": "Koreys pul birligi: Von",
+    "body": "Koreyada pul birligi 'Von' deb ataladi va raqamlardan so'ng 'won' (원) so'zi qo'shiladi. Pulni sanashda biz har doim koreyscha sanoq sonlardan (il, i, sam, sa...) foydalanamiz.",
+    "example": "100 von = 100원 (baek-won), 1000 von = 1000원 (cheon-won)."
+   },
+   {
+    "title": "Katta sonlar: 'Man' (10 000)",
+    "body": "Koreys tilida sonlar bizdagidek 3 xonali emas, 4 xonali (10 000) birlikda sanaladi. 'Man' (만) so'zi o'n mingni bildiradi. Shunchaki raqamning oxiriga 'man' so'zini qo'shish kifoya.",
+    "example": "20 000 von = 2만 원 (i-man won), 50 000 von = 5만 원 (o-man won)."
+   },
+   {
+    "title": "Juda katta sonlar: 'Ok' (100 000 000)",
+    "body": "Agar summa 100 millionga yetsa, biz 'ok' (억) so'zidan foydalanamiz. Bu juda katta pullar yoki davlat budjeti kabi narsalarni ifodalashda ishlatiladi.",
+    "example": "100 000 000 von = 1억 원 (il-eok won)."
+   },
+   {
+    "title": "Narxni so'rash va aytish",
+    "body": "Narxni so'rash uchun '얼마예요?' (olmayeyo? - qancha turadi?) iborasini ishlatamiz. Javob berayotganda esa raqamni aytib, oxiriga 'won' so'zini qo'shib, '...이에요' deb tugatamiz.",
+    "example": "이 사과는 5,000원이에요. (Bu olma 5000 von.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "yosh-va-qavat-xona-raqamlarini-ifodalash",
+  "theory": [
+   {
+    "title": "Yoshni aytish qoidalari",
+    "body": "Koreys tilida yoshni ifodalash uchun har doim koreyscha sonlardan (han-dul, dul-dul...) foydalanamiz. Yosh birligini aytishda esa 'sal' so'zi qo'shiladi.",
+    "example": "20 yosh: seuml-sal (스무 살), 25 yosh: seumul-daseot sal (스물다섯 살)."
+   },
+   {
+    "title": "Yosh so'zining o'zgarishi",
+    "body": "E'tibor bering: 1, 2, 3, 4 va 20 sonlari 'sal' bilan birga kelganda shaklini o'zgartiradi. Masalan, 1 yosh 'han sal' emas, 'han sal' (hali ham o'zgarmaydi, lekin 20 'seumul' bo'ladi).",
+    "example": "1 yosh: han sal (한 살), 2 yosh: du sal (두 살), 3 yosh: se sal (세 살), 4 yosh: ne sal (네 살)."
+   },
+   {
+    "title": "Qavat va raqamlar",
+    "body": "Qavat yoki xona raqamlarini aytganda esa koreyscha sonlar emas, balki xitoycha sonlar (il, i, sam...) ishlatiladi. Qavat birligi uchun 'cheung' so'zi qo'shiladi.",
+    "example": "1-qavat: il-cheung (일층), 3-qavat: sam-cheung (삼층)."
+   },
+   {
+    "title": "Xona raqami qoidasi",
+    "body": "Xona raqamlarini aytishda xitoycha sonlardan foydalanamiz va oxiriga 'ho' so'zini qo'shamiz. Bu ko'p qavatli binolardagi xonalar uchun standart qoida hisoblanadi.",
+    "example": "105-xona: baek-o-ho (백오호), 202-xona: i-baek-i-ho (이백이호)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "vaqt-davomiyligi-va-oraliqlari-soat-kun-hafta-oy-yil-davomid",
+  "theory": [
+   {
+    "title": "Soat davomiyligi: 'Sigan'",
+    "body": "Koreys tilida soatning necha soat davom etganini aytish uchun sonlardan so'ng 'sigan' so'zini qo'shamiz. Bunda sonlar koreyscha (hana, dul, set) shaklida bo'ladi, lekin 1, 2, 3 va 4 raqamlari biroz o'zgaradi: han, du, se, ne.",
+    "example": "1 soat - hansi-gan, 3 soat - se-sigan."
+   },
+   {
+    "title": "Kun, hafta va oy",
+    "body": "Davomiylikni ifodalashda kun uchun 'dongan' (davomida) qo'shimchasidan foydalanamiz. Kun - 'il', hafta - 'ju', oy - 'dal'. Haftalar va oylar uchun 'dongan' so'zini qo'shib, ish-harakat qancha vaqt davom etganini bemalol ayta olasiz.",
+    "example": "3 kun davomida - sam-il dongan, 2 oy davomida - du-dal dongan."
+   },
+   {
+    "title": "Yil va umumiy qoida",
+    "body": "Yil davomiyligini aytishda 'nyon' so'zidan foydalanamiz. Bunda xitoycha-koreyscha sonlar (il, i, sam, sa...) ishlatiladi. Esda tuting: 'dongan' so'zini deyarli barcha vaqt birliklaridan keyin ishlatib, harakat qancha vaqt olganini aniq ko'rsatishingiz mumkin.",
+    "example": "1 yil davomida - il-nyon dongan, 5 yil davomida - o-nyon dongan."
+   },
+   {
+    "title": "Kichik test: O'z bilimingizni sinang",
+    "body": "Quyidagi savollarga javob bering: 1. '2 soat' koreys tilida qanday aytiladi? 2. '1 oy davomida' iborasida qaysi so'z ishlatiladi? To'g'ri javoblar: 1. Du-sigan. 2. Han-dal dongan.",
+    "example": "Mashq: 4 soatni 'ne-sigan', 2 haftani esa 'i-ju dongan' deb aytishni takrorlab ko'ring!"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "tartib-sonlar-va-ketma-ketlik-birinchi-ikkinchi",
+  "theory": [
+   {
+    "title": "Tartib sonlarning o'zagi",
+    "body": "Koreys tilida tartib sonlarni yasash juda oson: oddiy sonning oxiriga '-jjae' (째) qo‘shimchasini qo‘shamiz. Bu qo‘shimcha o‘zbek tilidagi '-inchi' ma’nosini beradi.",
+    "example": "Dul (2) + jjae = Duljjae (Ikkinchi)"
+   },
+   {
+    "title": "Muhim qoida: 1, 2 va 3",
+    "body": "Diqqat qiling! Birinchi (han), ikkinchi (dul) va uchinchi (set) sonlariga '-jjae' qo‘shilganda ular biroz o‘zgaradi. Birinchi – 'cheotjjae', ikkinchi – 'duljjae', uchinchi – 'setjjae' bo‘lib aytiladi.",
+    "example": "1-chi: Cheotjjae, 2-chi: Duljjae"
+   },
+   {
+    "title": "Tartib sonlar amalda",
+    "body": "Koreys tilida tartib sonlar odatda odamlar yoki narsalar qatorini ko‘rsatishda ishlatiladi. Esingizda tuting, '-jjae' qo‘shimchasi faqat sof koreys sonlariga (hana, dul, set...) qo‘shiladi.",
+    "example": "Ne-jjae (To‘rtinchi), Yeoseot-jjae (Oltinchi)"
+   },
+   {
+    "title": "O'zimizni sinaymiz",
+    "body": "Qani, bilimingizni tekshirib ko‘ramiz. Agar 'Ne' to‘rt degani bo‘lsa, 'To‘rtinchi' qanday bo‘ladi? To‘g‘ri javobni tanlang: A) Ne-jjae, B) Han-jjae, C) Dul-jjae.",
+    "example": "To‘g‘ri javob: A (Ne-jjae)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "harakatlarning-takrorlanishi-va-chastotasi-marta-haftasiga-b",
+  "theory": [
+   {
+    "title": "Marta so'zini ifodalash",
+    "body": "Koreys tilida biror ish necha marta bajarilganini aytish uchun sonlardan keyin '번' (beon) so'zini qo'shamiz. Bunda 1, 2 va 3 sonlari biroz o'zgaradi: han (1), du (2), se (3) + beon.",
+    "example": "한 번 (han beon) - bir marta, 두 번 (du beon) - ikki marta."
+   },
+   {
+    "title": "Vaqt davri va chastota",
+    "body": "Ish qanchalik tez-tez bajarilishini aytish uchun 'vaqt birligi + e' qo'shimchasidan foydalanamiz. Bu 'haftasiga', 'oyiga' yoki 'kuniga' degan ma'nolarni anglatadi.",
+    "example": "일주일에 (il-ju-il-e) - haftasiga, 한 달에 (han dal-e) - oyiga."
+   },
+   {
+    "title": "To'liq gap tuzish",
+    "body": "Endi barchasini birlashtiramiz: [Vaqt birligi] + [necha marta] + [fe'l]. Eslab qoling, koreys tilida takrorlanish tartibi ko'pincha o'zbek tiliga o'xshash bo'ladi.",
+    "example": "일주일에 두 번 운동해요. (Haftasiga ikki marta mashq qilaman.)"
+   },
+   {
+    "title": "Test: O'z bilimingizni sinang",
+    "body": "Quyidagi gapni koreys tiliga tarjima qiling: 'Men kuniga uch marta ovqatlanaman.' (Eslatma: kun - 하루 'haru', uch marta - 세 번 'se beon', ovqatlanmoq - 밥을 먹어요).",
+    "example": "Javob: 하루에 세 번 밥을 먹어요."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "taxminiy-sonlar-va-miqdorlar-taxminan-atrofida-bir-ikki",
+  "theory": [
+   {
+    "title": "Taxminan so'zi: 쯤 (jjeum)",
+    "body": "Koreys tilida biror narsa 'taxminan' shuncha bo'ladi demoqchi bo'lsangiz, raqam va o'lchov birligidan so'ng 쯤 (jjeum) qo'shimchasini qo'shasiz. Bu o'zbek tilidagi '-cha' yoki 'atrofida' ma'nosini beradi.",
+    "example": "한 시쯤 (han-si-jjeum) — soat bir atrofida; 열 명쯤 (yeol-myeong-jjeum) — o'n kishicha."
+   },
+   {
+    "title": "Oraliq miqdor: 한두 (han-du)",
+    "body": "Agar aniq sonni emas, 'bir-ikki' yoki 'ikki-uch' kabi noaniq miqdorni aytmoqchi bo'lsangiz, sonlarni yonma-yon qo'yasiz. Koreys tilida 'han-du' (bir-ikki) eng ko'p ishlatiladigan juftlikdir.",
+    "example": "한두 번 (han-du beon) — bir-ikki marta; 한두 시간 (han-du sigan) — bir-ikki soat."
+   },
+   {
+    "title": "Taxminiy son: 정도 (jeong-do)",
+    "body": "정도 (jeong-do) so'zi ham 'taxminan' degani, lekin u odatda raqamdan keyin alohida so'z sifatida yoziladi. U miqdor yoki darajani anglatishda juda keng qo'llaniladi.",
+    "example": "5분 정도 (o-bun jeong-do) — 5 daqiqa atrofida; 100달러 정도 (baek-dalleo jeong-do) — 100 dollar atrofida."
+   },
+   {
+    "title": "Test: Bilimni tekshiramiz",
+    "body": "Quyidagi savolga javob bering: 'Soat 3 atrofida' deb aytish uchun qaysi variant to'g'ri? A) 세 시쯤, B) 세 시정도 (yozilish qoidasi bo'yicha), C) 세 한두.",
+    "example": "To'g'ri javob: A) 세 시쯤. (Eslatma: 정도 so'zi odatda bo'sh joy bilan yoziladi: 세 시 정도)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "sonlar-vaqt-ko",
+  "lesson_slug": "vaqtga-oid-bog-lovchi-iboralar-va-grammatika-oldin-keyin-dav",
+  "theory": [
+   {
+    "title": "Vaqtda 'oldin' - (gi) jeon-e",
+    "body": "Biror ish bajarilishidan oldingi holatni aytish uchun fe'l o'zagiga '-gi jeon-e' qo'shiladi. Bu '...dan oldin' degan ma'noni beradi.",
+    "example": "Siksa-gi jeon-e (Ovqatlanishdan oldin), Jak-gi jeon-e (Uxlashdan oldin)."
+   },
+   {
+    "title": "Vaqtda 'keyin' - (eu)n hu-e",
+    "body": "Biror ish tugagandan so'ng amalga oshiriladigan holatni aytish uchun fe'l o'zagiga '-n hu-e' yoki '-eun hu-e' qo'shiladi. Bu '...dan keyin' deganidir.",
+    "example": "Siksa-n hu-e (Ovqatlanishdan keyin), Su-eop-eun hu-e (Darsdan keyin)."
+   },
+   {
+    "title": "Vaqtda 'davomida' - dong-an",
+    "body": "Biror ish qancha vaqt yoki muddat davom etganini aytish uchun so'z oxiriga 'dong-an' so'zi qo'shiladi. Bu '... davomida' yoki '... mobaynida' degan ma'noni bildiradi.",
+    "example": "Sigan-dong-an (Bir soat davomida), Yeoreum-dong-an (Yoz davomida)."
+   },
+   {
+    "title": "Kichik amaliyot testi",
+    "body": "Quyidagi gapni to'ldiring: 'Ishdan keyin do'stim bilan uchrashaman'. Koreys tilida 'Ish' - 'I' va 'keyin' - 'hu-e'. Qaysi biri to'g'ri?\n1. Il-gi jeon-e\n2. Il-eun hu-e\n3. Il-dong-an",
+    "example": "Javob: 2. Il-eun hu-e (Ishdan keyin)."
    }
   ]
  },
@@ -298,6 +978,227 @@
  },
  {
   "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "tushum-kelishigi-qo-shimchasi",
+  "theory": [
+   {
+    "title": "Tushum kelishigi nima?",
+    "body": "Koreys tilida gapda harakat qaratilgan ob'ektni (kimni yoki nimani) ko'rsatish uchun '을' yoki '를' qo'shimchalaridan foydalanamiz. Bu o'zbek tilidagi '-ni' qo'shimchasiga to'g'ri keladi va harakat kim yoki nima ustida bajarilayotganini bildiradi.",
+    "example": "사과(olma) + 를 = 사과를 (olmani); 책(kitob) + 을 = 책을 (kitobni)"
+   },
+   {
+    "title": "Qo'shimchalarni tanlash qoidasi",
+    "body": "Qaysi qo'shimchani tanlash so'zning oxirgi harfiga bog'liq. Agar ot undosh harf bilan tugasa, '을' qo'shiladi. Agar ot unli harf bilan tugasa, '를' qo'shiladi.",
+    "example": "밥(undosh) + 을 = 밥을 (ovqatni); 주스(unli) + 를 = 주스를 (sokni)"
+   },
+   {
+    "title": "Gapda qo'llash tartibi",
+    "body": "Koreys tilida gap qurilishi asosan 'Ega + Ob'ekt + Kesim' tartibida bo'ladi. Demak, siz 'kimni/nimani' degan so'zga qo'shimchani qo'shib, fe'ldan oldinga qo'yishingiz kerak.",
+    "example": "저는(men) 사과를(olmani) 먹어요(yeyman). / 민수가(Minsu) 책을(kitobni) 읽어요(o'qiydi)."
+   },
+   {
+    "title": "Kichik bilim testi",
+    "body": "Quyidagi savolga javob bering: 'Kino' so'zini (영화 - unli bilan tugaydi) tushum kelishigida qanday yozasiz? A) 영화을, B) 영화를.",
+    "example": "To'g'ri javob: B) 영화를. Chunki '영화' unli harf bilan tugagan."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "o-rin-payt-va-jo-nalish-kelishigi-qo-shimchalari",
+  "theory": [
+   {
+    "title": "Mavjudlikni bildiruvchi '에'",
+    "body": "Biror narsa yoki inson qayerdaligini aytmoqchi bo'lsangiz, otga '에' qo'shimchasini qo'shing. U o'zbek tilidagi 'da' qo'shimchasiga teng bo'lib, joylashuvni ko'rsatadi.",
+    "example": "집에 있어요 (Uyda bor/turibman). 학교에 있어요 (Maktabda bor/turibman)."
+   },
+   {
+    "title": "Harakat yo'nalishi uchun '에'",
+    "body": "Agar biror joyga qarab harakatlanayotgan bo'lsangiz (borish, kelish), yana '에' qo'shimchasidan foydalanamiz. Bu 'ga' ma'nosini anglatadi.",
+    "example": "병원에 가요 (Shifoxonaga ketyapman). 한국에 와요 (Koreyaga kelyapman)."
+   },
+   {
+    "title": "Harakat sodir bo'ladigan '에서'",
+    "body": "Agar o'sha joyda biror ish-harakat bajarsangiz (ovqatlanish, o'qish, ishlash), '에' emas, balki '에서' qo'shimchasini tanlang. Uni 'da' deb tarjima qilamiz, lekin faqat ish-harakat bajarilgan joy uchun ishlatiladi.",
+    "example": "식당에서 먹어요 (Oshxonada ovqatlanaman). 도서관에서 공부해요 (Kutubxonada o'qiyman)."
+   },
+   {
+    "title": "Farqni tushunib oling",
+    "body": "Qisqa qoida: Agar gapda 'bor' (있다) yoki 'borish-kelish' (가다/오다) fe'llari bo'lsa, '에' ishlating. Agar boshqa biror aniq ish (o'qish, yozish, sotib olish) qilsangiz, '에서' ishlating.",
+    "example": "방에 있어요 (Xonada bor) vs 방에서 자요 (Xonada uxlayman)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "otni-otga-bog-lovchi-yuklamalar",
+  "theory": [
+   {
+    "title": "Va/bilan bog'lovchilari: va",
+    "body": "Koreys tilida ikkita otni 'va' so'zi bilan bog'lash uchun -와/-과 qo'shimchalaridan foydalanamiz. Agar ot unli harf bilan tugasa '와', undosh harf bilan tugasa '과' qo'shiladi.",
+    "example": "사과와 배 (olma va nok), 책과 공책 (kitob va daftar)"
+   },
+   {
+    "title": "Og'zaki nutq: -하고",
+    "body": "Kundalik suhbatlarda -하고 yuklamasi juda ommabop. Uning afzalligi shundaki, ot unli yoki undosh bilan tugashidan qat'iy nazar, so'zga shunchaki -하고 qo'shib ketaverasiz.",
+    "example": "친구하고 나 (do'stim va men), 우유하고 빵 (sut va non)"
+   },
+   {
+    "title": "Do'stona uslub: -(이)랑",
+    "body": "Yaqin do'stlar va tengdoshlar bilan gaplashganda -(이)랑 shakli ishlatiladi. Agar ot undosh bilan tugasa -이랑, unli bilan tugasa -랑 shaklini tanlaysiz.",
+    "example": "동생이랑 놀아요 (uka bilan o'ynayman), 엄마랑 시장에 가요 (ona bilan bozorga boraman)"
+   },
+   {
+    "title": "Kichik bilimlar testi",
+    "body": "Quyidagi savolga javob bering: 'O'quvchi va o'qituvchi' so'z birikmasini -와/-과 yordamida qanday to'g'ri yozish mumkin? (학생: o'quvchi, 선생님: o'qituvchi)",
+    "example": "Javob: 학생과 선생님 (chunki '학생' undosh bilan tugaydi)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "inkor-shakllarining-hosil-qilinishi",
+  "theory": [
+   {
+    "title": "Oddiy inkor: '안' ishlatilishi",
+    "body": "Koreys tilida oddiy inkor yasash uchun fe'l yoki sifatdan oldin '안' so'zini qo'yamiz. Bu '... qilmayman' yoki '... emas' degan ma'noni anglatadi. E'tibor bering, '안' doim fe'ldan oldin keladi.",
+    "example": "밥을 안 먹어요. (Ovqat yemayman.) / 안 예뻐요. (Chiroyli emas.)"
+   },
+   {
+    "title": "Uzoq shakldagi inkor: '-지 않다'",
+    "body": "Yana bir keng tarqalgan inkor shakli bu fe'l yoki sifat o'zagiga '-지 않다' qo'shimchasini qo'shishdir. Bu shakl '안' ga qaraganda rasmiyroq va kitobiy hisoblanadi, ma'nosi esa bir xil.",
+    "example": "공부하지 않아요. (O'qimayapman.) / 춥지 않아요. (Sovuq emas.)"
+   },
+   {
+    "title": "Ilojsizlik inkori: '못'",
+    "body": "Agar biror ishni xohlasangiz ham, jismoniy yoki tashqi sabablarga ko'ra qila olmasangiz, '안' o'rniga '못' so'zini ishlatasiz. '못' so'zi 'qila olmaslik' ma'nosini beradi.",
+    "example": "너무 아파서 못 가요. (Juda kasalman, shuning uchun bora olmayman.)"
+   },
+   {
+    "title": "Test: Bilimingizni sinang",
+    "body": "Quyidagi vaziyatga mos inkor shaklini toping: 'Men bugun juda bandman, shuning uchun kino ko'ra olmayman.' (Bu yerda qaysi inkor shakli to'g'ri keladi?)",
+    "example": "Javob: 영화를 못 봐요 (Chunki imkoniyat yo'q). Variantlar: 1) 안 봐요 2) 못 봐요"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "fe-llarning-o-tgan-zamon-shakli",
+  "theory": [
+   {
+    "title": "O'tgan zamonga xush kelibsiz",
+    "body": "Koreys tilida fe'llarni o'tgan zamonga aylantirish uchun fe'l o'zagiga '-았/었/였-' qo'shimchalarini qo'shamiz. Bu jarayon fe'lning oxirgi unlisiga bog'liq. Keling, eng osonidan boshlaymiz!",
+    "example": "먹다 (yemoq) -> 먹었다 (yedi)"
+   },
+   {
+    "title": "Unlilar qoidasi: 았/었",
+    "body": "Agar fe'l o'zagi 'ㅏ' yoki 'ㅗ' unlisi bilan tugasa, '-았-' qo'shiladi. Boshqa barcha holatlarda (masalan, 'ㅓ', 'ㅜ', 'ㅣ') esa '-었-' ishlatiladi.",
+    "example": "가다 (bormoq) -> 갔다 (bordi); 읽다 (o'qimoq) -> 읽었다 (o'qidi)"
+   },
+   {
+    "title": "Istisno: '하다' fe'llari",
+    "body": "Koreys tilida '하다' (qilmoq) bilan tugaydigan barcha fe'llar o'tgan zamonda doim '-였다-' shakliga o'tadi. Buni '했-' deb qisqartirib aytish ham juda keng tarqalgan.",
+    "example": "공부하다 (o'qimoq) -> 공부하였다 yoki 공부했다 (o'qidi)"
+   },
+   {
+    "title": "Qisqa takrorlash: Test savoli",
+    "body": "Quyidagi fe'llarni o'tgan zamonga o'tkazing: 1) 보다 (ko'rmoq), 2) 먹다 (yemoq), 3) 운동하다 (sport bilan shug'ullanmoq). Javoblarni o'ylab ko'ring!",
+    "example": "1) 보았다/봤다, 2) 먹었다, 3) 운동하였다/운동했다"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "fe-llarning-kelasi-zamon-shakli",
+  "theory": [
+   {
+    "title": "Kelasi zamonni ifodalash",
+    "body": "Koreys tilida biror ish-harakatni kelajakda bajarishni aytish uchun fe'l o'zagiga -(으)ㄹ 거예요 qo'shimchasi qo'shiladi. Bu o'zbek tilidagi \"-aman/-aman\" yoki \"-ajakman\" qo'shimchalariga mos keladi.",
+    "example": "하다 (qilmoq) -> 할 거예요 (qilaman/qilajakman)"
+   },
+   {
+    "title": "Unli bilan tugagan fe'llar",
+    "body": "Agar fe'l o'zagi unli harf bilan tugasa, unga to'g'ridan-to'g'ri -ㄹ 거예요 birikadi. Bunda fe'lning oxirgi harfi ostiga 'ㄹ' harfi tushadi.",
+    "example": "가다 (bormoq) -> 갈 거예요 (boraman)"
+   },
+   {
+    "title": "Undosh bilan tugagan fe'llar",
+    "body": "Agar fe'l o'zagi undosh harf bilan tugasa, ularni bog'lash uchun '으' yordamchi unlisi kerak bo'ladi. Shuning uchun biz -을 거예요 shaklidan foydalanamiz.",
+    "example": "먹다 (yemoq) -> 먹을 거예요 (yeyman)"
+   },
+   {
+    "title": "Muhim qoida: ㄹ bilan tugash",
+    "body": "Agar fe'l o'zagi allaqachon 'ㄹ' harfi bilan tugagan bo'lsa, qo'shimcha qo'shishda hech narsa o'zgarmaydi. Shunchaki -거예요 ni qo'shib qo'ya qolasiz, chunki 'ㄹ' takrorlanmaydi.",
+    "example": "살다 (yashamoq) -> 살 거예요 (yashayman)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "gaplarni-bog-lovchi-eng-asosiy-qo-shimchalar",
+  "theory": [
+   {
+    "title": "-고 qo'shimchasi (Ketma-ketlik)",
+    "body": "Ikki yoki undan ortiq harakatni ketma-ket bajarishni yoki sanab o'tishni istasangiz, fe'l o'zagiga '-고' qo'shiladi. Bu xuddi o'zbek tilidagi 'va' bog'lovchisi kabi vazifani bajaradi.",
+    "example": "저는 밥을 먹고 학교에 가요. (Men ovqat yeyman va maktabga boraman.)"
+   },
+   {
+    "title": "-지만 qo'shimchasi (Zidlik)",
+    "body": "Agar biror narsa haqida gapirib, unga qarama-qarshi yoki zid fikr bildirmoqchi bo'lsangiz, '-지만' qo'shimchasidan foydalaning. Bu o'zbek tilidagi '...lekin', '...ammo' so'zlariga to'g'ri keladi.",
+    "example": "날씨는 좋지만 조금 더워요. (Ob-havo yaxshi, lekin biroz issiq.)"
+   },
+   {
+    "title": "Qo'shimchalarni qo'llash qoidasi",
+    "body": "Har ikkala qo'shimchani ham fe'l yoki sifat o'zagiga (tagida undosh bormi yoki yo'qligidan qat'iy nazar) to'g'ridan-to'g'ri yopishtirib yozamiz. Bular gapni bog'lab, uni mazmunliroq qiladi.",
+    "example": "책을 읽고 공부하지만 재미있어요. (Kitob o'qiyman va dars qilaman, lekin bu qiziqarli.)"
+   },
+   {
+    "title": "Mavzu bo'yicha yakuniy test",
+    "body": "Keling, o'rganganlarimizni tekshiramiz! Quyidagi gapni to'ldiring: 'Do'stim koreys tilini o'qiydi [?] yozmaydi.' (O'qish = 읽다, Yozish = 쓰다). To'g'ri javobni tanlang: A) 읽고 쓰다, B) 읽지만 쓰다.",
+    "example": "To'g'ri javob: B (-지만, chunki bu yerda zidlik bor)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "grammatika-ko",
+  "lesson_slug": "koreys-tilidagi-noto-g-ri-fe-llarning-turlanish-qoidalari",
+  "theory": [
+   {
+    "title": "ㅂ noto'g'ri fe'li",
+    "body": "Agar fe'l o'zagi 'ㅂ' bilan tugasa va unga unli bilan boshlanuvchi qo'shimcha qo'shilsa, 'ㅂ' tushib qolib, o'rniga '우' yoki '오' qo'shiladi. Bu eng keng tarqalgan qoidalardan biri.",
+    "example": "돕다 (yordam bermoq) -> 도와요 (yordam beraman); 춥다 (sovuq) -> 추워요 (sovuq)."
+   },
+   {
+    "title": "ㄷ va ㅅ noto'g'ri fe'llari",
+    "body": "Fe'l o'zagi 'ㄷ' bilan tugab, unli bilan boshlanuvchi qo'shimcha qo'shilsa, 'ㄷ' harfi 'ㄹ' ga o'zgaradi. 'ㅅ' bilan tugagan fe'llarda esa unli qo'shilganda 'ㅅ' shunchaki tushib qoladi.",
+    "example": "듣다 (eshitmoq) -> 들어요 (eshityapman); 짓다 (qurmoq) -> 지어요 (quryapman)."
+   },
+   {
+    "title": "ㅡ va ㄹ noto'g'ri fe'llari",
+    "body": "'ㅡ' bilan tugagan fe'llarda 'ㅡ' tushib qolib, undan oldingi bo'g'in unlisiga qarab '아' yoki '어' qo'shiladi. 'ㄹ' bilan tugagan fe'llarda esa 'ㄴ, ㅂ, ㅅ' harflari bilan boshlanuvchi qo'shimcha kelsa, 'ㄹ' tushib qoladi.",
+    "example": "쓰다 (yozmoq) -> 써요 (yozayapman); 살다 (yashamoq) -> 삽니다 (yashayman)."
+   },
+   {
+    "title": "르 noto'g'ri fe'li",
+    "body": "Fe'l o'zagi '르' bilan tugasa, unli qo'shilganda '르' qismi 'ㄹㄹ' ga aylanadi va oldingi bo'g'inga '아' yoki '어' qo'shiladi. Bu juda muhim qoida, uni yodlab oling!",
+    "example": "모르다 (bilmaslik) -> 몰라요 (bilmayman); 부르다 (aytmoq) -> 불러요 (aytaman)."
+   },
+   {
+    "title": "Bilimlarni tekshiramiz",
+    "body": "Quyidagi test savollariga javob bering: 1) '듣다' fe'lining '아요/어요' shakli qanday bo'ladi? 2) '춥다' fe'lida 'ㅂ' qaysi harfga aylanadi? 3) '모르다' fe'li '어요' bilan turlanganda nima bo'ladi?",
+    "example": "Javoblar: 1) 들어요, 2) 우, 3) 몰라요."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
   "unit_slug": "kundalik-hayot-ko",
   "lesson_slug": "oila-ko",
   "theory": [
@@ -374,6 +1275,222 @@
     "title": "To‘lov qilish: -e-yo",
     "body": "Do‘konda pul to‘layotganda 'Kartochka bilan' yoki 'Naqd pul bilan' deb aytish kerak bo‘ladi. Bunda 'kadeu' (karta) yoki 'hyeongum' (naqd) so‘zlariga 'ro' qo‘shimchasi qo‘shiladi va 'hesseyo' (qildim) deyiladi.",
     "example": "카드로 하겠어요 (Karta bilan to‘layman)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "kundalik-reja-va-vaqt",
+  "theory": [
+   {
+    "title": "Soat va daqiqani aytish",
+    "body": "Koreys tilida soatlar uchun koreyscha sonlar (hansi, dusi), daqiqalar uchun esa xitoycha sonlar (il, i, sam) ishlatiladi. Soatdan keyin 'si', daqiqadan keyin esa 'bun' qo'shimchasi qo'shiladi.",
+    "example": "1:30 - hansi samsip-bun. 5:10 - daseosi sip-bun."
+   },
+   {
+    "title": "Kun qismlari va vaqt",
+    "body": "Koreys tilida vaqtni aniqroq tushuntirish uchun kun qismlarini soatdan oldin qo'yamiz. 'Achim' (ertalab), 'ohu' (tushdan keyin) yoki 'bam' (kechqurun) so'zlarini soat oldidan ishlatish kifoya.",
+    "example": "Achim yeoldusi - kunduzi 12:00. Bam ahopsi - kechki 9:00."
+   },
+   {
+    "title": "Kundalik ish-harakatlar",
+    "body": "Rejalaringizni aytish uchun fe'lning o'zagiga '-yo' qo'shimchasini qo'shamiz. Bu sizga 'ovqatlanaman', 'uxlayman' yoki 'ishlayman' kabi kundalik gaplarni qurishga yordam beradi.",
+    "example": "Bab-eul meogeoyo (ovqatlanaman). Jam-eul jayo (uxlayman)."
+   },
+   {
+    "title": "Vaqt va rejani birlashtirish",
+    "body": "Gap tuzishda avval vaqtni, keyin esa ish-harakatni aytamiz. Vaqt so'zidan keyin 'e' qo'shimchasi qo'shilsa, o'sha vaqtda ish bajarilayotganini bildiradi.",
+    "example": "Achim yeol-si-e ilhaeyo (Ertalab soat 10 da ishlayman)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "ob-havo-va-fasllar",
+  "theory": [
+   {
+    "title": "To'rtta fasl nomlari",
+    "body": "Koreys tilida fasllarni o'rganishni boshlaymiz. Bahor — 'pom', yoz — 'yoreum', kuz — 'kaul', qish esa 'gyeoul' deb ataladi. Bularni yodlab olsangiz, suhbatni osongina boshlay olasiz.",
+    "example": "봄 (pom) - bahor, 여름 (yoreum) - yoz, 가을 (kaul) - kuz, 겨울 (gyeoul) - qish."
+   },
+   {
+    "title": "Ob-havoni tasvirlash",
+    "body": "Ob-havo haqida gapirganda sifatlardan foydalanamiz. 'Issiq' so'zi 'dopda', 'sovuq' esa 'chubda' deb aytiladi. Gap tuzishda fe'l oxiriga '-oyo' qo'shimchasini qo'shamiz.",
+    "example": "날씨가 더워요 (nalssiga dovoyo) - Ob-havo issiq. 날씨가 추워요 (nalssiga chuyoyo) - Ob-havo sovuq."
+   },
+   {
+    "title": "Yomg'ir va qor",
+    "body": "Tabiat hodisalarini ifodalash uchun 'bida' (yog'moq) fe'lidan foydalanamiz. Yomg'ir — 'bi', qor esa 'nun' degani. Ular yog'ayotganini aytish uchun 'oeyo' (kelyapti) qo'shimchasini qo'shamiz.",
+    "example": "비가 와요 (biga wayo) - Yomg'ir yog'yapti. 눈이 와요 (nuni wayo) - Qor yog'yapti."
+   },
+   {
+    "title": "Mavsumiy savol berish",
+    "body": "Kimgadir ob-havo qandayligini so'ramoqchi bo'lsangiz, 'O'neul nalssiga eottaeyo?' deb so'raysiz. Bu 'Bugun ob-havo qanday?' degan ma'noni anglatadi.",
+    "example": "오늘 날씨가 어때요? (O'neul nalssiga eottaeyo?) - Bugun ob-havo qanday?"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "bo-sh-vaqt-va-xobbi",
+  "theory": [
+   {
+    "title": "Xobbi haqida gapirish",
+    "body": "Koreys tilida 'Mening xobbim...' demoqchi bo'lsangiz, '제 취미는 ~이에요/예요' (Je chwimi-neun ~ieyo/yeyo) qolipidan foydalaning. '~' o'rniga o'z qiziqishingizni qo'ysangiz kifoya.",
+    "example": "제 취미는 독서예요. (Mening xobbim kitob o'qish.)"
+   },
+   {
+    "title": "Faoliyatni ifodalovchi fe'llar",
+    "body": "Ish-harakatni aytish uchun fe'l negiziga '-gi' qo'shimchasini qo'shib, uni otga aylantiramiz. Masalan, 'o'qimoq' (읽다) fe'li 'o'qish' (읽기) shakliga o'tadi.",
+    "example": "저는 영화 보기를 좋아해요. (Men kino ko'rishni yoqtiraman.)"
+   },
+   {
+    "title": "Chastotani ifodalash",
+    "body": "Bo'sh vaqtingizda biror ishni qanchalik tez-tez qilishingizni aytish uchun '자주' (tez-tez) yoki '가끔' (ba'zida) so'zlarini fe'ldan oldin qo'ying.",
+    "example": "저는 가끔 등산을 해요. (Men ba'zida tog'ga chiqaman.)"
+   },
+   {
+    "title": "Test savollari",
+    "body": "Bilimlaringizni sinab ko'ring: 1. 'Mening xobbim musiqa tinglash' iborasini qanday aytasiz? (O'ylang: 듣기 + 취미). 2. 'Men tez-tez kitob o'qiyman' gapida '자주' so'zi qayerga qo'yiladi?",
+    "example": "Javoblar: 1. 제 취미는 음악 듣기예요. 2. 저는 자주 책을 읽어요."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "transport-va-yo-l-topish",
+  "theory": [
+   {
+    "title": "Asosiy transport turlari",
+    "body": "Koreyada eng ko'p ishlatiladigan transport vositalarini bilish kundalik hayotda juda muhim. 'Avtobus' koreys tilida 버스 (beoseu), 'metro' esa 지하철 (jihacheol) deb ataladi.",
+    "example": "버스 (avtobus), 지하철 (metro)"
+   },
+   {
+    "title": "Transportga chiqish va tushish",
+    "body": "Transportga chiqish va tushish uchun maxsus fe'llardan foydalanamiz. 'Chiqmoq' uchun 타다 (tada), 'tushmoq' uchun esa 내리다 (naerida) so'zlarini yodlab oling.",
+    "example": "버스를 타요 (Avtobusga chiqaman). 지하철에서 내려요 (Metrodan tushaman)."
+   },
+   {
+    "title": "Manzilni so'rash",
+    "body": "Yo'l topishda eng kerakli ibora bu – qayerda ekanligini so'rashdir. Biror joy qayerdaligini bilish uchun o'sha joy nomi + 어디예요? (qayerda?) qolipidan foydalanamiz.",
+    "example": "역이 어디예요? (Bekat qayerda?). 화장실이 어디예요? (Hojatxona qayerda?)"
+   },
+   {
+    "title": "Yo'nalishni tushunish",
+    "body": "Manzilga yetib borish uchun yo'nalish so'zlarini bilish shart. 'To'g'ri' – 똑바로 (ttokbaro), 'o'ngga' – 오른쪽 (oreunjok) va 'chapga' – 왼쪽 (oenjok) deb aytiladi.",
+    "example": "똑바로 가세요 (To'g'ri yuring). 오른쪽으로 가세요 (O'ngga yuring)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "uy-va-yashash-joyi",
+  "theory": [
+   {
+    "title": "Uy joylarini nomlash",
+    "body": "Koreys tilida uyning asosiy qismlarini bilishdan boshlaymiz. Uy - 'jip', xona - 'bang', oshxona esa 'bueok' deyiladi. Bularni yodlab olsangiz, uyingiz haqida gapirish ancha osonlashadi.",
+    "example": "Bang-i keoyo (Xona katta). Bueok-i jogaeyo (Oshxona kichik)."
+   },
+   {
+    "title": "Bor yoki yo'qligini aytish",
+    "body": "Biror narsa yoki xona mavjudligini aytish uchun '-i/ga isseoyo' (bor) va '-i/ga eopseoyo' (yo'q) qoliplaridan foydalanamiz. Agar so'z undosh bilan tugasa '-i', unli bilan tugasa '-ga' qo'shiladi.",
+    "example": "Bang-i isseoyo (Xona bor). Hwajangsil-i eopseoyo (Hojatxona yo'q)."
+   },
+   {
+    "title": "Uy jihozlari va joylashuvi",
+    "body": "Uydagi buyumlarni aytish uchun 'chaeksang' (stol), 'chimdae' (karavot) kabi so'zlarni ishlatamiz. Ular qayerda joylashganini aytish uchun esa 'e' yuklamasi qo'shiladi (masalan, xonada).",
+    "example": "Bang-e chimdae-ga isseoyo (Xonada karavot bor)."
+   },
+   {
+    "title": "Mavzu bo'yicha yakuniy test",
+    "body": "Quyidagi savolga javob bering: 'Oshxonada stol yo'q' iborasini koreys tilida qanday ifodalaysiz? A) Bueok-e chaeksang-i isseoyo, B) Bueok-e chaeksang-i eopseoyo.",
+    "example": "To'g'ri javob: B) Bueok-e chaeksang-i eopseoyo."
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "sog-liq-va-shifoxona",
+  "theory": [
+   {
+    "title": "Kasalxonada kerakli so'zlar",
+    "body": "Kasalxonaga borganingizda eng avvalo 'kasal' (apuda) va 'shifoxona' (byeong-won) so'zlarini bilishingiz kerak. O'zbek tilidagi 'og'riyapti' iborasini koreys tilida 'apayo' deb aytamiz. Bu so'zni tana a'zosi nomidan keyin qo'shib ishlatamiz.",
+    "example": "Mori-ga apayo. (Boshim og'riyapti.) / Bae-ga apayo. (Qornim og'riyapti.)"
+   },
+   {
+    "title": "Tana a'zolari va og'riq",
+    "body": "Shifokorga nima joyingiz og'riyotganini tushuntirish uchun tana a'zolarini o'rganamiz: 'mori' (bosh), 'son' (qo'l), 'bal' (oyoq), 'bae' (qorin). Og'riqni ifodalash uchun tana a'zosi + 'ga' + 'apayo' formulasidan foydalanamiz.",
+    "example": "Soni-ga apayo. (Qo'lim og'riyapti.) / Bali-ga apayo. (Oyog'im og'riyapti.)"
+   },
+   {
+    "title": "Dori va retsept so'zlari",
+    "body": "Shifokor ko'rigidan so'ng sizga 'yak' (dori) yozib beriladi. Dorini qachon ichishni bilish uchun 'har kuni' (maeil) va 'ovqatdan keyin' (sikhu) so'zlari juda muhim. Bu so'zlar dorini to'g'ri qabul qilish tartibini tushunishga yordam beradi.",
+    "example": "Maeil sikhu yak-eul deuseyo. (Har kuni ovqatdan keyin dori iching.)"
+   },
+   {
+    "title": "Sog'liq haqida so'rash",
+    "body": "Birovning hol-ahvolini so'rash uchun 'odam' (saram) yoki 'siz' (dangsin) so'zlaridan keyin 'gwaenchanhayo?' (yaxshimisiz/tuzukmisiz?) deb so'raymiz. Agar sizga shunday savol berishsa, 'ne, gwaenchanhayo' (ha, yaxshiman) deb javob qaytaring.",
+    "example": "Gwaenchanhayo? (Yaxshimisiz?) / Ne, gwaenchanhayo. (Ha, yaxshiman.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "pochta-va-bank-xizmatlari",
+  "theory": [
+   {
+    "title": "Pochta: Xat va posilka yuborish",
+    "body": "Koreyada pochta bo‘limini 'Ucheguk' deb atashadi. Agar sizga xat yoki buyum jo‘natish kerak bo‘lsa, 'uphyoh' (pochta markasi) sotib olasiz yoki posilkani 'so-po' deb atab, operatorga topshirasiz.",
+    "example": "소포를 보내고 싶어요. (Posilka yubormoqchiman.)"
+   },
+   {
+    "title": "Bankda hisob ochish",
+    "body": "Bankka borganingizda birinchi bo‘lib hisob raqam ochishingiz kerak bo‘ladi. Buning uchun sizga albatta xorijlik pasporti va 'veguk-in dung-rok-chung' (yashash guvohnomasi) kerak bo‘ladi.",
+    "example": "통장을 만들고 싶어요. (Bank hisob raqamini ochmoqchiman.)"
+   },
+   {
+    "title": "Pul o‘tkazish va yechish",
+    "body": "Bankomatdan pul yechish uchun 'chul-geum', pul o‘tkazish uchun esa 'i-che' so‘zlaridan foydalanamiz. Bankomat ekranida ushbu tugmalarni topib, operatsiyani osongina bajarishingiz mumkin.",
+    "example": "돈을 송금하고 싶어요. (Pul o‘tkazmoqchiman.)"
+   },
+   {
+    "title": "Muhim bank atamalari",
+    "body": "Bank ishlarida 'bing-mil-bon-ho' (parol) va 'seum-tong-jang' (bank daftarchasi) eng ko‘p ishlatiladigan so‘zlardir. Har qanday operatsiyada xodim sizdan parolingizni kiritishingizni so‘raydi.",
+    "example": "비밀번호를 입력하세요. (Parolni kiriting.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "unit_slug": "kundalik-hayot-ko",
+  "lesson_slug": "uchrashuv-belgilash-va-telefon-suhbatlari",
+  "theory": [
+   {
+    "title": "Telefonni boshlash odobi",
+    "body": "Koreys tilida telefonga javob berganda eng birinchi bo'lib '여보세요' (Yoboseyo) deb aytish shart. Bu rus tilidagi 'Allo' so'zi bilan bir xil vazifani bajaradi va suhbatni xushmuomala boshlashga yordam beradi.",
+    "example": "- 여보세요? (Allo?)\n- 네, 안녕하세요. (Ha, assalomu alaykum.)"
+   },
+   {
+    "title": "Uchrashuv taklif qilish",
+    "body": "Birovni uchrashuvga chaqirmoqchi bo'lsangiz, fe'lning oxiriga '-을/를 까요?' qo'shimchasini qo'shasiz. Bu '... qilaylikmi?' degan ma'noni anglatadi va juda nazokatli eshitiladi.",
+    "example": "내일 만날까요? (Ertaga uchrashamizmi?)"
+   },
+   {
+    "title": "Vaqt va joyni belgilash",
+    "body": "Uchrashuv joyi yoki vaqtini aytganda, otlardan keyin '...에' (da/ga) qo'shimchasini ishlatamiz. Masalan, maktabda uchrashmoqchi bo'lsangiz '학교에서' deb aytishingiz kerak.",
+    "example": "6시에 학교에서 만나요. (Soat 6 da maktabda uchrashamiz.)"
+   },
+   {
+    "title": "Rozilik va rad etish",
+    "body": "Taklifga rozi bo'lish uchun '네, 좋아요' (Ha, yaxshi) deb javob bering. Agar vaqtingiz bo'lmasa, '죄송합니다만...' (Kechirasiz-u...) deb gapni boshlab, rad etishingiz eng to'g'ri yo'ldir.",
+    "example": "네, 좋아요! (Ha, yaxshi!)\n죄송합니다만, 내일은 시간이 없어요. (Kechirasiz-u, ertaga vaqtim yo'q.)"
    }
   ]
  }

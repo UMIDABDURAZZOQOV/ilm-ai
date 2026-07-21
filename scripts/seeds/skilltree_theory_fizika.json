@@ -1469,6 +1469,33 @@
  },
  {
   "subject_slug": "fizika",
+  "unit_slug": "elektr",
+  "lesson_slug": "o-zgaruvchan-elektr-toki-va-uning-zanjirlari",
+  "theory": [
+   {
+    "title": "O'zgaruvchan tok o'zi nima?",
+    "body": "Doimiy tokdan farqli o'laroq, o'zgaruvchan tokning yo'nalishi va kattaligi vaqt o'tishi bilan davriy ravishda o'zgarib turadi. U sinusoid qonuni bo'yicha tebranadi. Uyimizdagi rozetkalardan aynan shunday tok oqadi.",
+    "example": "Misol: Tarmoqdagi elektr chirog'i bir soniyada 50 marta o'chib-yonadi, lekin ko'zimiz buni sezmaydi, chunki o'zgarish chastotasi 50 Gts ga teng."
+   },
+   {
+    "title": "Aktiv qarshilik va Ohm qonuni",
+    "body": "O'zgaruvchan tok zanjiridagi oddiy qarshiliklar (masalan, cho'g'lanma lampochka yoki dazmol) aktiv qarshilik deb ataladi. Bu yerda ham o'zgarmas tokdagi kabi Ohm qonuni ishlaydi, faqat kuchlanish va tokning o'zgaruvchan qiymatlaridan foydalaniladi.",
+    "example": "Misol: Zanjirdagi samarali kuchlanish 220 V bo'lsa, aktiv qarshilik 44 Om bo'lsa, tok kuchi I = 220 / 44 = 5 A ga teng bo'ladi."
+   },
+   {
+    "title": "Kondensatorning o'zgaruvchan tokdagi qarshiligi",
+    "body": "Kondensator o'zgarmas tokni umuman o'tkazmaydi, lekin o'zgaruvchan tok zanjirida u o'ziga xos to'siq – sig'im qarshiligini hosil qiladi. Chastota qancha yuqori bo'lsa, kondensator tokni shuncha yaxshi o'tkazadi, ya'ni uning qarshiligi kichik bo'ladi.",
+    "example": "Misol: Chastota oshishi bilan kondensatorning zanjirga ko'rsatadigan qarshiligi kamayib boradi (X_c = 1 / omega*C)."
+   },
+   {
+    "title": "Rezonans hodisasi",
+    "body": "Zanjirda induktiv g'altak va kondensator birga ulanganda, ma'lum chastotada ularning qarshiliklari bir-birini qoplaydi. Bu holat rezonans deb ataladi. Rezonans paytida zanjirdagi tok kuchi o'zining eng yuqori (maksimal) qiymatiga erishadi.",
+    "example": "Misol: Radio qabul qilgichni kerakli chastotaga sozlash aynan rezonans hodisasiga asoslangan."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
   "unit_slug": "tebranish-optika",
   "lesson_slug": "tebranish-tolqinlar",
   "theory": [
@@ -1545,6 +1572,33 @@
     "title": "Linza formulasi",
     "body": "Linzaning fokus masofasi (F), narsagacha bo'lgan masofa (d) va tasvirgacha bo'lgan masofa (f) orasidagi bog'lanish 1/F = 1/d + 1/f formula bilan aniqlanadi. Bu formula optik asboblar hisob-kitobida asosiy qonuniyatdir.",
     "example": "Agar narsa linzadan 20 sm masofada turgan bo'lsa va linza 10 sm fokus masofasiga ega bo'lsa, formula orqali tasvir qayerda hosil bo'lishini topish mumkin."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "tebranish-optika",
+  "lesson_slug": "to-liq-ichki-qaytish-hodisasi-va-uning-amaliy-ahamiyati",
+  "theory": [
+   {
+    "title": "To'liq ichki qaytish nima?",
+    "body": "Yorug'lik optik zich muhitdan kamroq zich muhitga o'tayotganda (masalan, suvdan havoga), agar burchak juda katta bo'lib ketsa, u boshqa muhitga o'tolmaydi. Buning o'rniga yorug'lik to'laqonli tarzda yana o'z muhitiga qaytib tushadi. Biz buni to'liq ichki qaytish deymiz.",
+    "example": "Hovuz tubidan chiqqan yorug'lik nuri suv sirtidan to'g'ridan-to'g'ri qaytib, suv ichiga tushishi."
+   },
+   {
+    "title": "Chegaraviy burchak tushunchasi",
+    "body": "Har bir muhit juftligi uchun o'ziga xos kritik (chegaraviy) burchak bor. Agar tushish burchagi mana shu kritik qiymatdan oshib ketsa, tamom — to'liq ichki qaytish sodir bo'ladi. Undan kichik burchaklarda esa yorug'likning bir qismi baribir tashqariga chiqib ketadi.",
+    "example": "Suv uchun bu chegaraviy burchak taxminan 49° ga teng."
+   },
+   {
+    "title": "Optik tolali aloqa qanday ishlaydi?",
+    "body": "To'liq ichki qaytishning eng zo'r amaliy ahamiyati bu — optik tolalar. Yupqa shisha tola ichiga kirgan nur uning devorlariga tinimsiz ravishda to'liq ichki qaytish bilan urilib, hech qayoqqa qochmasdan manzilga yetib boradi. Internet va telefon ma'lumotlari aynan shu tarzda tezlik bilan uzatiladi.",
+    "example": "Tezkor internet kabellari va tibbiyotdagi endoskop moslamalari."
+   },
+   {
+    "title": "Mirajlar va tabiatdagi sirlar",
+    "body": "Issiq cho'llarda yoki yozda asfalt yo'lda harakatlanayotganda uzoqda suv ko'ringandek tuyulishi ham to'liq ichki qaytish tufayli yuzaga keladi. Yerga yaqin qatlamdagi issiq havo nurlarni sindiradi va osmondagi narsalarning aksini yo'lda ko'rsatib qo'yadi.",
+    "example": "Cho'ldagi karvonchilar uzoqdan ko'radigan suvli ko'lmak mirajlari."
    }
   ]
  },

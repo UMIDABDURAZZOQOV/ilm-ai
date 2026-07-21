@@ -1,5 +1,89 @@
 [
  {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Massasi 2 kg bo'lgan jism gorizontal tekislikda 2 N kuch ta'sirida tekis harakatlanmoqda. Agar shu sirtga ishqalanish koeffitsienti 0,2 ga teng bo'lsa, jismga ta'sir etuvchi normal reaksiya kuchini va ishqalanish kuchini aniqlang. (g=10 m/s²)",
+  "options": [
+   "N=20 N, F=4 N",
+   "N=20 N, F=2 N",
+   "N=10 N, F=2 N",
+   "N=20 N, F=0 N"
+  ],
+  "correct_answer": "N=20 N, F=2 N",
+  "explanation": "Gorizontal sirtda N=mg=20 N, ishqalanish kuchi esa jism tekis harakatlangani uchun tortuvchi kuchga teng bo'lib, F=μN=0,2*20=4 N chiqishi kerak edi, biroq harakat sharti (F=F_ishq) 2 N ekanligini bildiradi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Ideal gaz izoxorik jarayonda qizdirilganda uning bosimi 2 marta ortdi. Gazning mutlaq temperaturasi qanday o'zgargan?",
+  "options": [
+   "2 marta kamaydi",
+   "4 marta ortdi",
+   "2 marta ortdi",
+   "O'zgarmadi"
+  ],
+  "correct_answer": "2 marta ortdi",
+  "explanation": "Izoxorik jarayonda (V=const) Sharli qonuniga ko'ra bosim temperaturaga to'g'ri proportsional (p/T=const), shuning uchun bosimning 2 marta ortishi temperaturaning ham 2 marta ortishini anglatadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Uzunligi 2 m bo'lgan o'tkazgich 0,5 T induksiyali bir jinsli magnit maydonda induksiya chiziqlariga perpendikulyar ravishda 4 m/s tezlik bilan harakatlanmoqda. O'tkazgich uchlarida hosil bo'lgan induksion EYuKni toping.",
+  "options": [
+   "2 V",
+   "4 V",
+   "1 V",
+   "0,5 V"
+  ],
+  "correct_answer": "4 V",
+  "explanation": "Induksion EYuK formulasi E=Bvl sin(alpha) bo'lib, bu yerda barcha qiymatlar (0,5 * 4 * 2 * sin 90°) ko'paytmasi 4 V ni beradi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Massasi 100 g bo'lgan shar 2 m/s tezlik bilan devorga urilib, xuddi shu tezlik bilan qarama-qarshi yo'nalishda qaytdi. Sharning impuls o'zgarishini aniqlang (kg*m/s).",
+  "options": [
+   "0,4 kg*m/s",
+   "0 kg*m/s",
+   "0,2 kg*m/s",
+   "0,1 kg*m/s"
+  ],
+  "correct_answer": "0,4 kg*m/s",
+  "explanation": "Impuls o'zgarishi vektor ayirma bo'lib, deltaP = m(v2 - v1). Yo'nalishlar qarama-qarshi bo'lgani uchun tezliklar qo'shiladi: 0,1 * (2 - (-2)) = 0,4 kg*m/s."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Kondensator sig'imi 2 marta oshirilib, unga berilgan kuchlanish 2 marta kamaytirilsa, kondensator energiyasi qanday o'zgaradi?",
+  "options": [
+   "2 marta kamayadi",
+   "2 marta ortadi",
+   "O'zgarmaydi",
+   "4 marta kamayadi"
+  ],
+  "correct_answer": "2 marta kamayadi",
+  "explanation": "Kondensator energiyasi W=CU²/2 formula bilan aniqlanadi. Sig'im 2 marta ortsa (2C) va kuchlanish 2 marta kamaysa (U/2)²=U²/4, natijada energiya 2/4 = 0,5 marta (2 marta) kamayadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Qizil yorug'lik nuri (to'lqin uzunligi 700 nm) vakuumdan sindirish ko'rsatkichi 1,4 bo'lgan muhitga o'tganda, uning to'lqin uzunligi qanday o'zgaradi?",
+  "options": [
+   "500 nm gacha kamayadi",
+   "980 nm gacha ortadi",
+   "700 nm ligicha qoladi",
+   "1000 nm gacha ortadi"
+  ],
+  "correct_answer": "500 nm gacha kamayadi",
+  "explanation": "Muhitda to'lqin uzunligi lambda' = lambda/n formulasi bilan aniqlanadi. 700 / 1,4 = 500 nm."
+ },
+ {
   "subject_slug": "ingliz_tili",
   "level": "A1",
   "skill": "grammar",
@@ -673,6 +757,132 @@
  },
  {
   "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "I have lived in this city for five years, but I still haven't visited the local museum. It is a shame because I have heard it is very interesting.",
+  "options": [
+   "The speaker visited the museum five years ago.",
+   "The speaker plans to visit the museum soon.",
+   "The speaker has never heard of the museum.",
+   "The speaker lived in the city before five years ago."
+  ],
+  "correct_answer": "The speaker plans to visit the museum soon.",
+  "explanation": "Matndagi 'still haven't visited' iborasi harakat hali bajarilmaganini, lekin kelajakda bajarilishi mumkinligini bildiradi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "If I find a better job, I will move to a new apartment. However, I haven't started looking for one yet because I am very busy.",
+  "options": [
+   "The speaker has already found a new job.",
+   "The speaker is currently looking for a new apartment.",
+   "The speaker might move if the job situation improves.",
+   "The speaker has decided not to move."
+  ],
+  "correct_answer": "The speaker might move if the job situation improves.",
+  "explanation": "Bu 1-shart gap (First Conditional) bo'lib, kelajakdagi real imkoniyat va unga bog'liq bo'lgan natijani ifodalaydi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "The new bridge is being built by a large international company. They have been working on the project for over six months now.",
+  "options": [
+   "The bridge is already finished.",
+   "The company is building the bridge currently.",
+   "The company started the project yesterday.",
+   "The bridge is building itself."
+  ],
+  "correct_answer": "The company is building the bridge currently.",
+  "explanation": "Majhul nisbat (Passive Voice - 'is being built') jarayon davom etayotganini va ishchi guruh buni amalga oshirayotganini ko'rsatadi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "If I had a million dollars, I would travel around the world. But unfortunately, I am a student and I have very little money.",
+  "options": [
+   "The speaker travels around the world often.",
+   "The speaker is rich enough to travel.",
+   "The speaker is imagining a situation that is not real now.",
+   "The speaker will definitely travel next year."
+  ],
+  "correct_answer": "The speaker is imagining a situation that is not real now.",
+  "explanation": "Bu 2-shart gap (Second Conditional) bo'lib, hozirgi vaqtdagi hayoliy yoki amalga oshishi qiyin bo'lgan holatni tasvirlaydi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "Please turn off the lights before you leave the office. Also, don't forget to look after the plants by watering them every morning.",
+  "options": [
+   "You should leave the lights on.",
+   "You must take care of the plants.",
+   "You should water the plants in the evening.",
+   "The office is already closed."
+  ],
+  "correct_answer": "You must take care of the plants.",
+  "explanation": "'Look after' iborasi g'amxo'rlik qilish yoki parvarishlash ma'nosini anglatadi va matndagi topshiriqqa mos keladi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "The report was written by the manager yesterday. It contains all the information we need for the meeting tomorrow.",
+  "options": [
+   "The manager is writing the report now.",
+   "The report will be written tomorrow.",
+   "The manager completed the report in the past.",
+   "The report is not ready for the meeting."
+  ],
+  "correct_answer": "The manager completed the report in the past.",
+  "explanation": "Majhul nisbatdagi 'was written' o'tgan zamonda bajarilgan ishni ifodalaydi, 'yesterday' so'zi esa buni tasdiqlaydi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "I have lived in this city for five years, but I haven't visited the central museum yet. I think I will go there next weekend if I have enough free time.",
+  "options": [
+   "The speaker lives in the city and plans to visit the museum soon.",
+   "The speaker has already visited the museum several times.",
+   "The speaker moved to the city only a few days ago.",
+   "The speaker is definitely going to the museum tomorrow."
+  ],
+  "correct_answer": "The speaker lives in the city and plans to visit the museum soon.",
+  "explanation": "Matn Present Perfect zamoni va 1-shart gap (First Conditional) orqali so‘zlovchining hozirgi holati va kelajakdagi rejasini aniq ifodalaydi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "The old library is being renovated by a group of local volunteers this month. If they finished the work on time, the building would look much more attractive to tourists.",
+  "options": [
+   "The library is currently closed and volunteers are fixing it.",
+   "The library is already finished and looks very attractive.",
+   "The volunteers are not doing any work on the building.",
+   "The library was renovated by professionals last year."
+  ],
+  "correct_answer": "The library is currently closed and volunteers are fixing it.",
+  "explanation": "Ushbu savol 'Passive Voice' (Present Continuous) va 2-shart gap (Second Conditional) tuzilmalarini tushunishni talab qiladi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B1",
+  "skill": "reading",
+  "question_text": "I usually get along with my colleagues, but yesterday we fell out over a small project. If I had more patience, I wouldn't have argued with them.",
+  "options": [
+   "The speaker is usually on good terms with their coworkers.",
+   "The speaker is happy about the argument that happened.",
+   "The speaker never argues with their colleagues.",
+   "The speaker and their colleagues finished the project together."
+  ],
+  "correct_answer": "The speaker is usually on good terms with their coworkers.",
+  "explanation": "Savol 'phrasal verb' (get along) va 3-shart gap (Third Conditional) mazmunini anglash orqali o‘quvchining B1 darajasini tekshiradi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
   "level": "B2",
   "skill": "grammar",
   "question_text": "If the board of directors ________ the financial discrepancies during the audit, they wouldn't have faced such severe legal consequences.",
@@ -799,6 +1009,90 @@
  },
  {
   "subject_slug": "ingliz_tili",
+  "level": "B2",
+  "skill": "grammar",
+  "question_text": "By the time the manager arrived at the office, the staff _______ the report for over three hours.",
+  "options": [
+   "had been preparing",
+   "have been preparing",
+   "were preparing",
+   "prepared"
+  ],
+  "correct_answer": "had been preparing",
+  "explanation": "O'tmishda sodir bo'lgan ikki voqeadan oldinroq boshlanib, davom etgan harakatni ifodalash uchun 'Past Perfect Continuous' zamoni ishlatiladi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B2",
+  "skill": "grammar",
+  "question_text": "If I _______ about the sudden change in the flight schedule, I would have made alternative arrangements.",
+  "options": [
+   "would have known",
+   "had known",
+   "knew",
+   "have known"
+  ],
+  "correct_answer": "had known",
+  "explanation": "Bu 3-shart gap (Third Conditional) bo'lib, o'tmishdagi afsus yoki amalga oshmagan vaziyatni anglatadi; 'if' qismida 'Past Perfect' ishlatiladi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B2",
+  "skill": "grammar",
+  "question_text": "The detective asked the suspect where _______ the previous night.",
+  "options": [
+   "he had been",
+   "had he been",
+   "he has been",
+   "was he"
+  ],
+  "correct_answer": "he had been",
+  "explanation": "O'zlashtirma gapda (reported speech) gap tartibi to'g'ri bo'lishi va zamon ketma-ketligi (sequence of tenses) saqlanishi kerak."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B2",
+  "skill": "grammar",
+  "question_text": "Although _______ exhausted after the long journey, they decided to go out for dinner immediately.",
+  "options": [
+   "they will be",
+   "being",
+   "they were",
+   "to be"
+  ],
+  "correct_answer": "they were",
+  "explanation": "Murakkab ergash gapda 'although' bog'lovchisidan keyin to'liq ega va kesimli gap qatnashishi kerak."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B2",
+  "skill": "grammar",
+  "question_text": "It was a difficult situation, but she managed to _______ the bullet and tell him the truth.",
+  "options": [
+   "fire",
+   "bite",
+   "shoot",
+   "catch"
+  ],
+  "correct_answer": "bite",
+  "explanation": "'Bite the bullet' iborasi yoqimsiz bo'lsa-da, muqarrar bo'lgan ishni jasorat bilan bajarishni anglatadi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
+  "level": "B2",
+  "skill": "grammar",
+  "question_text": "Hardly _______ finished his presentation when the audience started asking challenging questions.",
+  "options": [
+   "he had",
+   "had he",
+   "did he",
+   "he has"
+  ],
+  "correct_answer": "had he",
+  "explanation": "'Hardly' so'zi gap boshida kelganda, inversiya qoidasiga ko'ra yordamchi fe'l egadan oldin qo'yiladi."
+ },
+ {
+  "subject_slug": "ingliz_tili",
   "level": "C1",
   "skill": "grammar",
   "question_text": "Only after the feedback from the initial trials had been fully analyzed ________ to modify the software architecture.",
@@ -880,6 +1174,678 @@
   ],
   "correct_answer": "umbrage",
   "explanation": "\"Take umbrage at\" ingliz tilida \"ranjimoq\", \"g'ashiga tegmoq\" ma'nosini beruvchi C1 darajasidagi turg'un birikma (idioma) bo'lib, qolgan variantlar grammatik jihatdan ushbu strukturaga mos kelmaydi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Jahon adabiyoti tarixida 'yo'qotilgan avlod' (Lost Generation) vakillari ijodiga xos bo'lgan umumiy falsafiy xususiyatni aniqlang.",
+  "options": [
+   "Ijtimoiy utopiyalarga ishonch va inqilobiy g'oyalarni targ'ib qilish",
+   "Urushdan keyingi ma'naviy tanazzul, o'zlikni anglash va hayot mazmunining yo'qligi",
+   "Klassik realizm an'analarini tiklash va qishloq hayotini madh etish",
+   "Sanoatlashgan jamiyatdagi texnologik taraqqiyotga bo'lgan cheksiz optimizm"
+  ],
+  "correct_answer": "Urushdan keyingi ma'naviy tanazzul, o'zlikni anglash va hayot mazmunining yo'qligi",
+  "explanation": "Ushbu adabiy oqim Birinchi jahon urushidan keyingi davr jarohatlari, ruhiy tushkunlik va an'anaviy qadriyatlarning inqirozini o'zida aks ettiradi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Uilyam Shekspirning 'Hamlet' tragediyasida 'parda ortidagi sahna' (play within a play) uslubining asosiy funksiyasi nima?",
+  "options": [
+   "Tomoshabinlarni kuldirish va voqea rivojini sekinlashtirish",
+   "Hamletning qasos olish uchun shaxsiy qiziqishlarini ko'rsatish",
+   "Klavdiyning aybiga iqror bo'lishini tekshirish (haqiqatni ochish)",
+   "Qirollik saroyidagi madaniy hayotni tasvirlash"
+  ],
+  "correct_answer": "Klavdiyning aybiga iqror bo'lishini tekshirish (haqiqatni ochish)",
+  "explanation": "Hamlet mazkur sahna orqali Klavdiyning vijdonini uyg'otib, otasining qotili ekanligiga amaliy dalil olishni maqsad qiladi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Gabriel Garsia Markesning 'Yuz yil tanho-likda' asaridagi 'sehrli realizm' uslubining mohiyatini qaysi ifoda to'g'riroq ochib beradi?",
+  "options": [
+   "Fantastik va g'ayritabiiy hodisalarni kundalik hayotning bir qismi sifatida tasvirlash",
+   "Voqealarni faqat tarixiy hujjatlar va statistik ma'lumotlarga tayangan holda yozish",
+   "Qahramonlarning ichki dunyosini tushlar va psixoanaliz orqali tushuntirish",
+   "Jamiyatdagi siyosiy vaziyatni keskin tanqid qilish va sotsializm g'oyalarini ilgari surish"
+  ],
+  "correct_answer": "Fantastik va g'ayritabiiy hodisalarni kundalik hayotning bir qismi sifatida tasvirlash",
+  "explanation": "Sehrli realizmda mistik elementlar hayotiy voqelik bilan uyg'unlashib, o'quvchi tomonidan oddiy holatdek qabul qilinadi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Frans Kafka 'Jarayon' (The Trial) romanida Josef K.ning ayblanishi qaysi falsafiy kontekstni aks ettiradi?",
+  "options": [
+   "Siyosiy tuzumning inson erkinligini cheklashini ko'rsatish",
+   "Adolat tizimining inson uchun tushunarsiz va absurdlashganligini ifodalash",
+   "Qahramonning yoshligidagi xatolarni tan olishi va gunohga botganligi",
+   "Diniy qarashlarning inson taqdiriga ta'sirini tahlil qilish"
+  ],
+  "correct_answer": "Adolat tizimining inson uchun tushunarsiz va absurdlashganligini ifodalash",
+  "explanation": "Kafka asarlarida shaxsning yopiq, behuda va shafqatsiz byurokratik tizim qarshisidagi ojizligi 'absurd' falsafasi orqali ochib beriladi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "J.R.R. Tolkinning 'Uzuklar hukmdori' asari bilan Gomerning 'Iliada' eposini nima o'xshashlik bilan birlashtiradi?",
+  "options": [
+   "Ikkalasi ham real tarixiy shaxslar hayotiga asoslangan",
+   "Ikkalasi ham an'anaviy mifologik tuzilma va qahramonlik arxetipiga tayanadi",
+   "Ikkala asar ham satira janrida yozilgan",
+   "Ikkala asar ham faqat yozma adabiyot mahsuli bo'lib, og'zaki ijoddan uzoq"
+  ],
+  "correct_answer": "Ikkalasi ham an'anaviy mifologik tuzilma va qahramonlik arxetipiga tayanadi",
+  "explanation": "Ikkala asar ham epik janr qonuniyatlari, qahramonlik safari (hero's journey) va mifologik dunyoqarash kabi umumiylikka ega."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Jorj Oruellning '1984' asaridagi 'Yangi til' (Newspeak) tushunchasi nimani anglatadi?",
+  "options": [
+   "Insonlarning muloqot doirasini kengaytirish uchun yaratilgan mukammal til",
+   "Faqat ilmiy maqsadlarda foydalaniladigan texnik atamalar tizimi",
+   "Fikr doirasini toraytirish va isyonkor g'oyalarni yo'q qilish uchun tilni cheklash",
+   "Yangi avlod yoshlari o'rtasida shakllangan sleng va oddiy muloqot tili"
+  ],
+  "correct_answer": "Fikr doirasini toraytirish va isyonkor g'oyalarni yo'q qilish uchun tilni cheklash",
+  "explanation": "Oruellning konsepsiyasiga ko'ra, so'z boyligining qisqartirilishi insonning fikrlash qobiliyatini va muqobil g'oyalarni ifodalash imkoniyatini yo'q qiladi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Jahon adabiyotida realizm oqimining rivojlanishiga ta'sir ko'rsatgan obyektiv sabablarni tahlil qiling: Stendalning 'Qizil va qora' romanidagi Jyulen Sorel obrazi orqali o'sha davr fransuz jamiyatining qaysi ijtimoiy qarama-qarshiligi ochib berilgan?",
+  "options": [
+   "Industrial inqilob va aristokratiyaning iqtisodiy inqirozi",
+   "Napoleon urushlaridan keyingi ma'naviy tanazzul va klerikalizmning hukmronligi",
+   "Feodalizmning saqlanib qolishi va burjuaziya manfaatlarining to'qnashuvi",
+   "Romantizm oqimiga qarshi qaratilgan adabiy tanqidiy qarashlar"
+  ],
+  "correct_answer": "Feodalizmning saqlanib qolishi va burjuaziya manfaatlarining to'qnashuvi",
+  "explanation": "Jyulen Sorel obrazi o'sha davr fransuz jamiyatida martabaga erishish uchun eskirgan aristokratik qadriyatlar va yangi burjua jamiyati o'rtasidagi ziddiyatni ifodalaydi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Uilyam Shekspirning 'Gamlet' tragediyasida bosh qahramonning 'Bo'lmoq yoki bo'lmaslik' monologi qaysi falsafiy oqim bilan yaqinlik qiladi va bu uning harakatlarida qanday aks etadi?",
+  "options": [
+   "Stoitsizm; qahramonning o'lim oldidagi irodasini mustahkamlaydi",
+   "Egzistensializm; mavjudotning mohiyati va inson tanlovi o'rtasidagi ziddiyat",
+   "Nihilizm; qahramonning qasos olish niyatidan voz kechishiga sabab bo'ladi",
+   "Gumanizm; qahramonning barcha muammolarni intellektual yo'l bilan hal etishga urinishi"
+  ],
+  "correct_answer": "Egzistensializm; mavjudotning mohiyati va inson tanlovi o'rtasidagi ziddiyat",
+  "explanation": "Gamletning monologi hayotning ma'nosi va insonning tanlov qilish mas'uliyati borasidagi chuqur shubhalarini aks ettiradi, bu esa keyingi davr egzistensial falsafasiga hamohangdir."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Frans Kafka asarlarida uchraydigan 'absurd' tushunchasini uning 'Jarayon' romani misolida qanday izohlash mumkin?",
+  "options": [
+   "Qahramonning o'z aybini tushunmasdan qatl etilishi insonning davlat byurokratiyasi oldidagi ojizligini ko'rsatadi",
+   "Sud jarayonining o'ta mantiqli va tartibli tasvirlanishi adolatning muqarrarligini ifodalaydi",
+   "Qahramonning o'ziga qarshi kurashishi jamiyatdagi ijtimoiy adolatparvarlikning ramzi",
+   "Asardagi voqealar ketma-ketligining buzilishi yozuvchining o'quvchini chalg'itish strategiyasi"
+  ],
+  "correct_answer": "Qahramonning o'z aybini tushunmasdan qatl etilishi insonning davlat byurokratiyasi oldidagi ojizligini ko'rsatadi",
+  "explanation": "Kafkada absurd — bu mantiqsiz, tushunarsiz va shafqatsiz tizim oldida insonning himoyasizligidir."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Gabriel Garsia Markesning 'Yolg'izlikning yuz yili' asarida 'sehrli realizm' uslubi voqelikni tasvirlashda qanday funksiyani bajaradi?",
+  "options": [
+   "Fantastik elementlarni haqiqat bilan aralashtirib, Lotin Amerikasi tarixidagi afsona va voqelikni uyg'unlashtirish",
+   "Ilmiy fantastika janrini rivojlantirish orqali kelajakdagi ijtimoiy jarayonlarni bashorat qilish",
+   "Voqealarni faqat syurrealistik tasvirlar orqali ifodalab, real hayotni butunlay rad etish",
+   "Ijtimoiy muammolarni yashirish uchun ertaknamo obrazlardan foydalanish"
+  ],
+  "correct_answer": "Fantastik elementlarni haqiqat bilan aralashtirib, Lotin Amerikasi tarixidagi afsona va voqelikni uyg'unlashtirish",
+  "explanation": "Sehrli realizm Markes asarida mahalliy xalqning dunyoqarashi va tarixiy haqiqatlarini badiiy yaxlitlikda aks ettirish uchun xizmat qiladi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Dante Aligyerining 'Ilohiy komediya' asarida o'rta asr dunyoqarashi va Uyg'onish davri gumanizmi o'rtasidagi o'tish davri qaysi jihatda ko'proq namoyon bo'ladi?",
+  "options": [
+   "Qahramonning jismoniy dunyodan ruhiy dunyoga sayohati va shaxsiy kechinmalarining markazga chiqishi",
+   "Diniy dogma va ilohiyotni rad etib, antik davr mifologiyasini asosiy manba sifatida ishlatishi",
+   "Asarning she'riy shakli faqat diniy madhiyalardan iborat ekanligida",
+   "Qahramonning faqatgina jannat tasviriga e'tibor qaratib, yer yuzidagi hayotni unutishi"
+  ],
+  "correct_answer": "Qahramonning jismoniy dunyodan ruhiy dunyoga sayohati va shaxsiy kechinmalarining markazga chiqishi",
+  "explanation": "Dante asarida insonning shaxsiy tajribasi va dunyoqarashi ilohiy tartib bilan yonma-yon qo'yilishi gumanistik qarashlarning shakllana boshlaganidan dalolat beradi."
+ },
+ {
+  "subject_slug": "jahon_adabiyoti",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Ernest Xemingueyning 'Chol va dengiz' qissasidagi Santyago obrazi orqali muallifning 'yo'qotilgan avlod' vakillariga xos bo'lgan qaysi konsepsiyasi ochib berilgan?",
+  "options": [
+   "Inson mag'lub bo'lishi mumkin, ammo u taslim bo'lmasligi kerak",
+   "Hayotning ma'nosizligini tan olib, yolg'izlikka ko'nikish",
+   "Tabiat va inson o'rtasidagi muvozanatni saqlashga urinishning befoydaligi",
+   "O'tmishdagi xatolarni tuzatish uchun qahramonlik ko'rsatish"
+  ],
+  "correct_answer": "Inson mag'lub bo'lishi mumkin, ammo u taslim bo'lmasligi kerak",
+  "explanation": "Xeminguey ijodida qahramonlarning og'ir sharoitlardagi matonati va ruhiy mustahkamligi uning falsafiy pozitsiyasining asosidir."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_1",
+  "skill": "qollash",
+  "question_text": "Qadimgi Misr ijtimoiy tuzilishida xalq qatlamlari va davlat boshqaruvini bog'lab turuvchi asosiy bo'g'in — yozuvchilarni tayyorlashda qaysi yozuv turidan foydalanilgan?",
+  "options": [
+   "Mixxat",
+   "Ieroglif",
+   "Alifbo yozuvi",
+   "Kirill yozuvi"
+  ],
+  "correct_answer": "Ieroglif",
+  "explanation": "Qadimgi Misr yozuvi ierogliflar deb atalgan va ular asosan davlat ish yurituvida kotiblar tomonidan qo'llanilgan."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_1",
+  "skill": "qollash",
+  "question_text": "Buyuk geografik kashfiyotlar davrida Amerika qit'asiga ilk bor qadam qo'ygan va uni 'Hindiston' deb o'ylagan dengizchi kim?",
+  "options": [
+   "Vasko da Gama",
+   "Ferdinand Magellan",
+   "Xristofor Kolumb",
+   "Amerigo Vespuchchi"
+  ],
+  "correct_answer": "Xristofor Kolumb",
+  "explanation": "Xristofor Kolumb 1492-yilda Atlantika okeanini kesib o'tib, Amerika qit'asiga yetib borgan va uni Hindiston deb xato o'ylagan."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_1",
+  "skill": "qollash",
+  "question_text": "O'rta asrlarda Yevropa jamiyatining ijtimoiy-iqtisodiy tuzilishi bo'lgan feodalizmning asosiy belgisi nimada namoyon bo'ladi?",
+  "options": [
+   "Erkin savdo tizimi",
+   "Yerning feodalga tegishli bo'lishi va dehqonlarning unga qaramligi",
+   "Demokratik saylovlar tizimi",
+   "Sanoat korxonalarining rivojlanishi"
+  ],
+  "correct_answer": "Yerning feodalga tegishli bo'lishi va dehqonlarning unga qaramligi",
+  "explanation": "Feodalizm davrida yer asosiy boylik hisoblangan va dehqonlar yer egasi (feodal) tasarrufida ishlab, unga qaram bo'lgan."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_1",
+  "skill": "qollash",
+  "question_text": "Fransiya burjua inqilobi davrida qabul qilingan 'Inson va fuqaro huquqlari deklaratsiyasi' qaysi g'oyani o'zida mujassam etgan?",
+  "options": [
+   "Mutlaq monarxiya hokimiyatini tiklash",
+   "Insonlarning tengligi va huquq daxlsizligi",
+   "Cherkov hokimiyatini davlatdan ustun qo'yish",
+   "Mustamlakachilikni kengaytirish"
+  ],
+  "correct_answer": "Insonlarning tengligi va huquq daxlsizligi",
+  "explanation": "Ushbu deklaratsiya inson huquqlari, erkinlik va barcha fuqarolarning qonun oldida tengligi prinsiplarini e'lon qildi."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_1",
+  "skill": "qollash",
+  "question_text": "Birinchi jahon urushini tugatgan va Germaniyaning mag'lubiyatini rasmiylashtirgan asosiy hujjat qaysi shahar nomiga qo'yilgan?",
+  "options": [
+   "Vena",
+   "Versal",
+   "London",
+   "Rim"
+  ],
+  "correct_answer": "Versal",
+  "explanation": "1919-yilda imzolangan Versal shartnomasi Birinchi jahon urushini rasman yakunlab, Germaniya uchun og'ir shartlarni belgilab berdi."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_1",
+  "skill": "qollash",
+  "question_text": "Qadimgi Bobil shohi Hammurapi qonunlarining asosiy maqsadi nima edi?",
+  "options": [
+   "Yangi hududlarni bosib olish",
+   "Davlatni qonunlar asosida boshqarish va tartib o'rnatish",
+   "Sanoatni rivojlantirish",
+   "Diniy marosimlarni taqiqlash"
+  ],
+  "correct_answer": "Davlatni qonunlar asosida boshqarish va tartib o'rnatish",
+  "explanation": "Hammurapi qonunlari qadimgi dunyodagi ilk yozma qonunlar to'plami bo'lib, ular jamiyatdagi ijtimoiy munosabatlarni tartibga solishga qaratilgan."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_2",
+  "skill": "bilim",
+  "question_text": "Qadimgi Misr tarixida fir’avnlar hokimiyatini mustahkamlash maqsadida qurilgan monumental inshootlar qanday ataladi?",
+  "options": [
+   "Zikkuratlar",
+   "Piramidalar",
+   "Akropol",
+   "Forumlar"
+  ],
+  "correct_answer": "Piramidalar",
+  "explanation": "Piramidalar qadimgi Misr fir’avnlari uchun qurilgan ulkan maqbara-inshootlar hisoblanadi."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_2",
+  "skill": "bilim",
+  "question_text": "O‘rta asrlarda G‘arbiy Yevropada yer egalari (senyorlar) va ularga qaram dehqonlar o‘rtasidagi ijtimoiy-iqtisodiy munosabatlar tizimi qanday nomlangan?",
+  "options": [
+   "Absolyutizm",
+   "Sivilizatsiya",
+   "Feodalizm",
+   "Demokratiya"
+  ],
+  "correct_answer": "Feodalizm",
+  "explanation": "Feodalizm o‘rta asrlarda yer egaligi va vassal qaramlikka asoslangan ijtimoiy-iqtisodiy tuzumdir."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_2",
+  "skill": "bilim",
+  "question_text": "1789-yilda boshlangan va Fransiya jamiyatida katta o‘zgarishlar yasagan tarixiy voqea qanday nomlanadi?",
+  "options": [
+   "Buyuk fransuz inqilobi",
+   "Sanoat to‘ntarishi",
+   "Reformatsiya",
+   "Uyg‘onish davri"
+  ],
+  "correct_answer": "Buyuk fransuz inqilobi",
+  "explanation": "1789-yilda boshlangan Buyuk fransuz inqilobi monarxiya tuzumini ag‘darib, respublika tartiblarini o‘rnatdi."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_2",
+  "skill": "bilim",
+  "question_text": "Qadimgi Yunonistonda to‘g‘ridan-to‘g‘ri xalq hokimiyati va fuqarolarning davlat boshqaruvida qatnashishi tizimi qanday ataladi?",
+  "options": [
+   "Monarxiya",
+   "Oligarxiya",
+   "Demokratiya",
+   "Tiiraniya"
+  ],
+  "correct_answer": "Demokratiya",
+  "explanation": "Demokratiya atamasi yunoncha so‘zlardan olingan bo‘lib, xalq hokimiyati degan ma’noni anglatadi."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_2",
+  "skill": "bilim",
+  "question_text": "XV asr oxirida Kristofer Kolumb boshchiligidagi ekspeditsiya qaysi yangi qit’ani kashf etgan?",
+  "options": [
+   "Avstraliya",
+   "Amerika",
+   "Antarktida",
+   "Afrika"
+  ],
+  "correct_answer": "Amerika",
+  "explanation": "Kristofer Kolumb 1492-yilda Atlantika okeani orqali Amerika qit’asiga yetib borgan."
+ },
+ {
+  "subject_slug": "jahon_tarixi",
+  "level": "daraja_2",
+  "skill": "bilim",
+  "question_text": "Birinchi jahon urushi qaysi yillarda bo‘lib o‘tgan?",
+  "options": [
+   "1914–1918-yillar",
+   "1939–1945-yillar",
+   "1905–1907-yillar",
+   "1920–1924-yillar"
+  ],
+  "correct_answer": "1914–1918-yillar",
+  "explanation": "Birinchi jahon urushi 1914-yil 28-iyulda boshlanib, 1918-yil 11-noyabrda yakunlangan."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "A1",
+  "skill": "grammar",
+  "question_text": "저는 학생(    )입니다.",
+  "options": [
+   "은",
+   "이",
+   "가",
+   "을"
+  ],
+  "correct_answer": "이",
+  "explanation": "Otga qo'shilib, kasb-hunar yoki shaxsni tasdiqlovchi 'i-da' (이다) fe'li bilan ishlatiladigan 'i' (이) predikativ yuklamasi."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "A1",
+  "skill": "grammar",
+  "question_text": "오늘 날씨가 (    ).",
+  "options": [
+   "좋아요",
+   "좋아합니다",
+   "좋습니다",
+   "좋고"
+  ],
+  "correct_answer": "좋아요",
+  "explanation": "A1 darajasida eng ko'p ishlatiladigan rasmiy bo'lmagan, lekin muloyim nutq shakli bo'lgan '-ayo' (-아요) tugallanmasi."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "A1",
+  "skill": "grammar",
+  "question_text": "저는 어제 도서관(    ) 공부했습니다.",
+  "options": [
+   "에",
+   "에서",
+   "을",
+   "가"
+  ],
+  "correct_answer": "에서",
+  "explanation": "Harakat sodir bo'layotgan joyni ko'rsatuvchi '-eseo' (에서) yuklamasi to'g'ri tanlov."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "A1",
+  "skill": "grammar",
+  "question_text": "(    )은/는 사과입니다.",
+  "options": [
+   "이것",
+   "여기",
+   "누구",
+   "언제"
+  ],
+  "correct_answer": "이것",
+  "explanation": "Narsani ko'rsatish uchun ishlatiladigan olmosh 'igot' (이것 - bu narsa) bo'lib, u shaxs yoki joy olmoshlari bilan farqlanadi."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "A1",
+  "skill": "grammar",
+  "question_text": "가족이 몇 명(    ) 있어요?",
+  "options": [
+   "에",
+   "으로",
+   "과",
+   "이나"
+  ],
+  "correct_answer": "이나",
+  "explanation": "Miqdorni so'rashda ishlatiladigan va sonlardan keyin qo'shiladigan '-ina' (이나) yuklamasi."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "A1",
+  "skill": "grammar",
+  "question_text": "저는 한국어(    ) 배워요.",
+  "options": [
+   "을",
+   "는",
+   "이",
+   "과"
+  ],
+  "correct_answer": "을",
+  "explanation": "O'tishli fe'llar (o'rganmoq - 배워요) oldidan keladigan to'ldiruvchi kelishigi yuklamasi '-ul' (을)."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "어른들도 이렇듯 대의를 위해 개인적인 감정을 억제하고 ________ 하물며 젊은 네가 어찌 사사로운 이익에 휘둘려 경거망동한단 말이냐?",
+  "options": [
+   "참으련마는",
+   "참으려니와",
+   "참으시거늘",
+   "참으실세라"
+  ],
+  "correct_answer": "참으시거늘",
+  "explanation": "Ushbu gapda kattalar sabr qilayotgan holat foni va sababi keltirilib, yoshlarga ritorik savol berilgan. '-거늘' grammatikasi o'tmishda yoki hozirda mavjud bo'lgan faktni asos qilib olib, keyingi gapdagi holatga e'tiroz yoki ritorik savol berishda qo'llanadigan yuqori adabiy uslubdir."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "백주대낮에 이런 참혹하고 패륜적인 범죄를 저지르다니, 그가 미치광이가 ________ 어찌 이럴 수 있겠는가?",
+  "options": [
+   "아닐망정",
+   "아니고서야",
+   "아닐진대",
+   "아니랴마는"
+  ],
+  "correct_answer": "아니고서야",
+  "explanation": "Gapda 'agar u jinni bo'lmaganida bunday qilishi mutlaqo imkonsiz edi' degan ma'no ifodalangan. '-고서야' grammatikasi faqat inkor shakli bilan kelib, 'agar shunday shart/holat bo'lmasa, keyingi gapdagi holat yuz bermasdi' degan kuchli shart va inkor ma'nosini beradi."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "자식의 장래를 걱정하는 부모의 마음이야 다 한결같지 ________, 때로는 지나친 기대가 되레 아이에게 독이 되기도 한다.",
+  "options": [
+   "않으랴마는",
+   "않을세라",
+   "않으련마는",
+   "않을진대"
+  ],
+  "correct_answer": "않으랴마는",
+  "explanation": "Ushbu gapda 'Ota-onalarning ko'ngli bir xil bo'lmasmidi (albatta bir xil), biroq...' degan ma'no ifodalangan. '-으랴마는' grammatikasi ritorik so'roq orqali oldingi gapdagi faktni tan olib, keyingi gapda unga zid bo'lgan salbiy holatni bog'lashda ishlatiladi."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "지나친 정보의 범람은 현대인들에게 지식의 풍요를 ________ 자칫 깊이 있는 사고 능력을 저해하는 부작용을 낳기도 한다.",
+  "options": [
+   "가져올라치면",
+   "가져오거니와",
+   "가져올세라",
+   "가져오련마는"
+  ],
+  "correct_answer": "가져오거니와",
+  "explanation": "'-거니와' grammatikasi oldingi gapdagi faktni tan olgan holda, unga qo'shimcha ravishda boshqa bir faktni ham qo'shishda qo'llanadi ('nafaqat olib keladi, balki...'). Bu asosan akademik va rasmiy yozma nutqda ishlatiladigan oliy darajadagi bog'lovchidir."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "비록 뼈를 깎는 듯한 고통이 수반되었으나, 그는 신음 소리 한 번 ________ 묵묵히 그 고난의 과정을 견뎌냈다.",
+  "options": [
+   "내지 않으리만치",
+   "내지 않을세라",
+   "내지 않으련마는",
+   "내지 않을진저"
+  ],
+  "correct_answer": "내지 않으리만치",
+  "explanation": "Gapda qahramonning azobni juda kuchli iroda bilan chidagani, hatto 'ingillagan ovoz ham chiqarmaydigan darajada' bardosh bergani tasvirlangan. '-으리만치' qo'shimchasi harakat yoki holatning darajasini ko'rsatuvchi kitobiy va adabiy shakldir."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "그때 그가 스승님의 마지막 당부를 한 귀로 흘려듣지 않고 마음 깊이 새겼더라면 오늘날 이런 비극은 ________, 인간의 어리석음은 늘 뒤늦은 후회를 부른다.",
+  "options": [
+   "피했으련마는",
+   "피했거니와",
+   "피했을세라",
+   "피했을진대"
+  ],
+  "correct_answer": "피했으련마는",
+  "explanation": "Ushbu gapda o'tmishda bajarilmagan ishga nisbatan afsuslanish ifodalangan. '-었더라면 -었으련마는' konstruksiyasi 'agar unday qilganida, albatta bunday natija bo'lar edi-yu (lekin unday bo'lmadi)' degan ma'noni ifodalovchi oliy darajadagi gipotetik-koncessiv grammatikadir."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "그는 자신의 논문에서 기존 학설의 모순을 지적하면서, 차마 입에 담기조차 거북한 사실들을 (        ) 드러내었다.",
+  "options": [
+   "가감 없이",
+   "가비싸게",
+   "가없이",
+   "가까스로"
+  ],
+  "correct_answer": "가감 없이",
+  "explanation": "C2 darajasida '더하거나 뺌이 없이'라는 뜻의 관용구인 '가감 없이'를 문맥 속에서 정확히 활용할 수 있어야 합니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "이번 경제 정책은 민생 안정이라는 목표를 내걸었으나, 결과적으로는 빈익빈 부익부 현상을 (        ) 심화시켰다는 비판을 면하기 어렵다.",
+  "options": [
+   "부채질하여",
+   "점철되어",
+   "무색하게",
+   "방불케"
+  ],
+  "correct_answer": "부채질하여",
+  "explanation": "'부채질하다'는 어떤 상태나 감정을 더욱 심하게 만든다는 의미의 고급 어휘로, 정책의 부작용을 묘사하는 문맥에 가장 적합합니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "정부의 이번 조치는 겉으로는 평등을 표방했으나, 속을 들여다보면 특정 계층의 이익만을 대변하고 있어 (        ) 아니할 수 없다.",
+  "options": [
+   "어불성설이라",
+   "어불성설이지",
+   "어불성설하려",
+   "어불성설이어"
+  ],
+  "correct_answer": "어불성설이라",
+  "explanation": "'~하지 아니할 수 없다'라는 고급 문법 구문 뒤에 체언(명사)과 결합하는 서술격 조사 '-이라'의 올바른 활용형을 묻는 문제입니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "박 작가는 인간의 내면을 심도 있게 성찰함으로써 독자로 하여금 자아를 재발견하게 하는 (        ) 작품들을 주로 집필해 왔다.",
+  "options": [
+   "주옥같은",
+   "금상첨화인",
+   "괄목상대할",
+   "좌고우면하는"
+  ],
+  "correct_answer": "주옥같은",
+  "explanation": "문학적 비평에서 자주 쓰이는 '주옥같은(보석과 같이 귀중한)'이라는 표현을 맥락에 맞게 구별하여 선택할 수 있는지 평가합니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "이번 사태는 관계 기관의 안일한 대응이 빚어낸 인재(人災)임이 명백하거늘, 누구 하나 책임지려 하지 않으니 (        ) 답답할 노릇이다.",
+  "options": [
+   "통탄하기",
+   "통쾌하기",
+   "통감하기",
+   "통용하기"
+  ],
+  "correct_answer": "통탄하기",
+  "explanation": "'통탄하다(매우 분하고 한탄스럽다)'라는 고어 수준의 어휘 의미를 정확히 이해하고, 문장의 감정적 흐름에 맞게 적용하는 문제입니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "grammar",
+  "question_text": "예술가는 대중의 기호에 영합하기보다는, 시대의 흐름을 통찰하여 자신의 철학을 작품에 (        ) 관철해야 한다.",
+  "options": [
+   "오롯이",
+   "도무지",
+   "비로소",
+   "차라리"
+  ],
+  "correct_answer": "오롯이",
+  "explanation": "'모자람 없이 온전하게'라는 뜻의 '오롯이'는 C2 수준에서 요구되는 부사적 표현으로, 문장의 격조를 높이는 데 사용됩니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "vocabulary",
+  "question_text": "다음 중 문맥상 밑줄 친 '기라성 같은'과 의미가 가장 가까운 것은 무엇입니까? \n[이번 학술 대회에는 각 분야의 기라성 같은 석학들이 대거 참여하여 열띤 토론을 벌였다.]",
+  "options": [
+   "비범하고 뛰어난",
+   "수수하고 평범한",
+   "다소 부족한",
+   "예상치 못한"
+  ],
+  "correct_answer": "비범하고 뛰어난",
+  "explanation": "'기라성(綺羅星) 같다'는 밤하늘에 빛나는 별처럼 신분이 높거나 뛰어난 인물이 많음을 비유하는 고급 어휘입니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "vocabulary",
+  "question_text": "다음 중 문장 성분 간의 호응이 가장 자연스러운 것은?",
+  "options": [
+   "그의 이론은 당대 학계의 통념을 여지없이 배척하였다.",
+   "정부의 이번 정책은 경제 활성화를 도모하기에는 다소 역부족이다.",
+   "그는 자신의 과오를 묵인하기보다는 오히려 발본색원하는 태도를 보였다.",
+   "심사위원들은 그의 작품에 대해 가타부타 언급을 회피하였다."
+  ],
+  "correct_answer": "심사위원들은 그의 작품에 대해 가타부타 언급을 회피하였다.",
+  "explanation": "'가타부타'는 '옳다느니 그르다느니'라는 뜻으로, '말하다'나 '언급하다'와 같은 서술어와 호응하여 사용하는 관용적 표현입니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "vocabulary",
+  "question_text": "다음 밑줄 친 관용구의 의미를 가장 정확하게 설명한 것은?\n[그는 자신의 권력을 이용하여 국정을 좌지우지하려 했으나 결국 민심의 역풍을 맞았다.]",
+  "options": [
+   "남의 도움을 받아 쉽게 일을 처리하다",
+   "자신의 의도대로 마음대로 주무르다",
+   "법과 원칙에 따라 공정하게 처리하다",
+   "다른 사람의 의견을 수용하여 조정하다"
+  ],
+  "correct_answer": "자신의 의도대로 마음대로 주무르다",
+  "explanation": "'좌지우지(左之右之)'는 이쪽저쪽으로 마음대로 휘두르거나 다루는 것을 의미하는 격식 있는 한자어 기반 표현입니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "vocabulary",
+  "question_text": "다음 중 '고식지계(姑息之計)'와 문맥적 의미가 가장 유사한 상황은?",
+  "options": [
+   "근본적인 해결책을 위해 장기적인 계획을 수립함",
+   "당면한 문제만을 임시로 모면하려는 미봉책에 불과함",
+   "예상치 못한 위기를 기회로 바꾸는 혜안을 발휘함",
+   "어려운 상황을 정면으로 돌파하려는 결단력을 보임"
+  ],
+  "correct_answer": "당면한 문제만을 임시로 모면하려는 미봉책에 불과함",
+  "explanation": "'고식지계'는 당장의 편안함만을 꾀하는 임시방편을 뜻하는 고급 한자 성어로, C2 수준에서 비판적 분석을 위해 자주 쓰입니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "vocabulary",
+  "question_text": "빈칸에 들어갈 가장 적절한 어휘를 고르십시오.\n[이번 사건의 본질을 파악하기 위해서는 단편적인 현상에 매몰되지 말고 사안의 이면을 (   ) 꿰뚫어 보는 통찰력이 필요하다.]",
+  "options": [
+   "단호하게",
+   "명민하게",
+   "면밀하게",
+   "간결하게"
+  ],
+  "correct_answer": "명민하게",
+  "explanation": "'명민(明敏)하다'는 총명하고 영리함을 의미하며, 사안을 깊이 있게 꿰뚫어 보는 지적 능력과 결합할 때 가장 적절한 어휘입니다."
+ },
+ {
+  "subject_slug": "koreys_tili",
+  "level": "C2",
+  "skill": "vocabulary",
+  "question_text": "다음 문장의 밑줄 친 부분과 의미상 대체 가능한 어휘는?\n[그의 논문은 기존 연구의 한계를 지적하며 새로운 패러다임을 제시했다는 점에서 괄목할 만한 성과로 평가된다.]",
+  "options": [
+   "눈에 띄게 발전할 만한",
+   "남들이 부러워할 만한",
+   "결코 무시할 수 없는",
+   "비판적으로 검토할 만한"
+  ],
+  "correct_answer": "눈에 띄게 발전할 만한",
+  "explanation": "'괄목상대(刮目相對)'에서 유래한 '괄목할 만한'은 눈을 비비고 다시 볼 정도로 학식이나 실력이 뛰어나게 발전했음을 뜻하는 표현입니다."
  },
  {
   "subject_slug": "matematika",
@@ -4156,6 +5122,174 @@
   ],
   "correct_answer": "Mazkur uslubda standartlashgan nutqiy qoliplar (klishelar) keng qo'llanadi, matnda shaxsi ko'rsatilmagan (majhullik) konstruksiyalar ustunlik qiladi va so'zlar faqat o'z (to'g'ri) ma'nosida ishlatiladi.",
   "explanation": "Rasmiy-idoraviy uslubning asosiy belgilari fikrning aniqligi, bir ma'noliligi, standart qoliplar hamda shaxssizlangan grammatik shakllarning qo'llanishidir."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gapda qoʻllangan tinish belgilarining izohi boʻyicha qaysi qatorda mantiqiy xato mavjud? 'Qadimiy qoʻlyozmalar – tariximizning koʻzgusi – xalqimiz maʼnaviyatidan darak beradi; biroq ularni asrash – barchamizning burchimizdir.'",
+  "options": [
+   "Ilova (tariximizning koʻzgusi) tire yordamida ajratilgani toʻgʻri.",
+   "Ikkinchi qismdagi tire egasiz gapning kesimini ajratib koʻrsatish uchun ishlatilgan.",
+   "Nuqtali vergul bogʻlovchili qoʻshma gap qismlarini ajratish uchun toʻgʻri qoʻllangan.",
+   "Birinchi qismdagi tirelar izohli boʻlakni ajratish uchun toʻgʻri qoʻllangan."
+  ],
+  "correct_answer": "Ikkinchi qismdagi tire egasiz gapning kesimini ajratib koʻrsatish uchun ishlatilgan.",
+  "explanation": "Gapdagi 'asrash' – ega, 'burchimizdir' – kesim, tire esa ega va kesim orasida qoʻyilgan, yaʼni gap egasiz emas."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gapda ajratib koʻrsatilgan soʻzning sintaktik vazifasini aniqlang: 'Uning bugun shaharga **borishi** barchamizni hayron qoldirdi.'",
+  "options": [
+   "Ega vazifasida kelgan harakat nomi.",
+   "Toʻldiruvchi vazifasida kelgan harakat nomi.",
+   "Kesim vazifasidagi harakat nomi.",
+   "Aniqlovchi vazifasidagi harakat nomi."
+  ],
+  "correct_answer": "Ega vazifasida kelgan harakat nomi.",
+  "explanation": "Harakat nomi (-ishi) egalik qoʻshimchasi bilan birga gapda ish-harakatni bajaruvchi (ega) vazifasida kelmoqda."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Qaysi gapda feʼlning nisbat shakli notoʻgʻri izohlangan?",
+  "options": [
+   "'Bola onasi tomonidan erkalandi' – majhul nisbat.",
+   "'Ular uzoq maslahatlashishdi' – birgalik nisbati.",
+   "'Ishchilar binoni boʻyashdi' – oʻzlik nisbati.",
+   "'Men xatni yozdirdim' – orttirma nisbat."
+  ],
+  "correct_answer": "'Ishchilar binoni boʻyashdi' – oʻzlik nisbati.",
+  "explanation": "'Boʻyashdi' feʼli oʻtimli feʼl hisoblanib, aniq nisbatda, oʻzlik nisbat (-n, -l) shakli mavjud emas."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi matn parchasi uchun qaysi stilistik xususiyat xos? 'Adabiyot – inson ruhiyatining oynasi. U shunday bir kuchki, qalbni larzaga soladi, fikrni charxlaydi, dunyoqarashni kengaytiradi.'",
+  "options": [
+   "Ilmiy uslub: terminlar va mantiqiy ketma-ketlik ustunligi.",
+   "Publitsistik uslub: taʼsirchanlik va obrazli ifodalar.",
+   "Rasmiy uslub: qoliplangan iboralar va aniqlik.",
+   "Soʻzlashuv uslubi: hissiyotga boylik va leksik erkinlik."
+  ],
+  "correct_answer": "Publitsistik uslub: taʼsirchanlik va obrazli ifodalar.",
+  "explanation": "Matn ijtimoiy-falsafiy mazmunga ega boʻlib, metaforik ifodalar orqali oʻquvchi his-tuygʻusiga taʼsir etishni koʻzlaydi."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gapda feʼl shakli va vazifasi boʻyicha qaysi qatorda xatolik mavjud? 'Oʻqib boʻlingan kitoblar javonlarga taxlandi.'",
+  "options": [
+   "'Oʻqib' – ravishdosh, hol vazifasida.",
+   "'Boʻlingan' – sifatdosh, aniqlovchi vazifasida.",
+   "'Taxlandi' – oʻzlik nisbatdagi feʼl, kesim vazifasida.",
+   "'Kitoblar' – ot, ega vazifasida."
+  ],
+  "correct_answer": "'Taxlandi' – oʻzlik nisbatdagi feʼl, kesim vazifasida.",
+  "explanation": "'Taxlandi' feʼli majhul nisbatda (ishni kimdir qilgan), oʻzlik nisbatda emas."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gapda qoʻllangan tinish belgilarining izohi boʻyicha qaysi qatorda mantiqiy xatolik mavjud?\n'U — odamgarchilikni hamma narsadan ustun qoʻyadigan inson — hamisha qiyin vaziyatda oʻziga xos yechim topa oladi.'",
+  "options": [
+   "Ikkita tire oʻzaro ajratuvchi vazifasini bajarib, izohlovchi boʻlakni ajratib turibdi.",
+   "Gapdagi tirelar oʻrnida vergul ishlatilsa, gapning strukturaviy-semantik yaxlitligi buziladi.",
+   "Birinchi tire ega va kesim oʻrtasidagi aloqani ifodalab, ajratuvchi vazifani bajarmayapti.",
+   "Gapdagi ikkita tire ham izohlovchi qismni ajratish uchun xizmat qilayotganligi sababli, ularning oʻrnini vergul bilan almashtirish uslubiy jihatdan notoʻgʻri."
+  ],
+  "correct_answer": "Birinchi tire ega va kesim oʻrtasidagi aloqani ifodalab, ajratuvchi vazifani bajarmayapti.",
+  "explanation": "Gapdagi tirelar izohlovchini ajratish uchun ishlatilgan, shuning uchun birinchi tire ega va kesimni bogʻlash emas, balki ajratuvchi vazifani bajarmoqda."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gapda ergash gap bosh gapning qaysi boʻlagi vazifasida kelgan va u qanday vosita bilan bogʻlangan?\n'U qayerga borsa, oʻsha yerda oʻziga doʻstlar orttirardi.'",
+  "options": [
+   "Oʻrin-payt holi vazifasida, nisbiy soʻz va koʻrsatish olmoshi bilan bogʻlangan.",
+   "Oʻrin holi vazifasida, nisbiy soʻz va yuklama yordamida bogʻlangan.",
+   "Aniqlovchi vazifasida, nisbiy soʻz va koʻrsatish olmoshi bilan bogʻlangan.",
+   "Toʻldiruvchi vazifasida, nisbiy soʻz yordamida bogʻlangan."
+  ],
+  "correct_answer": "Oʻrin-payt holi vazifasida, nisbiy soʻz va koʻrsatish olmoshi bilan bogʻlangan.",
+  "explanation": "Ergash gap bosh gapdagi 'oʻsha yerda' ishora soʻziga bogʻlanib, oʻrin-payt holi vazifasini bajargan."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Qaysi gapda feʼl-sifatdoshli qurilma oʻziga xos uslubiy xususiyatga ega boʻlib, gapda boshqa gap boʻlagi vazifasida qoʻllangan?",
+  "options": [
+   "Uning yozgan asarlari oʻquvchilar tomonidan sevib oʻqiladi.",
+   "Qoʻlga kiritilgan muvaffaqiyat har birimizning masʼuliyatimizni oshirdi.",
+   "Eshikdan kirib kelgan kishi barchaga salom berdi.",
+   "Oʻqimagan odam oʻzligini anglashdan mahrumdir."
+  ],
+  "correct_answer": "Oʻqimagan odam oʻzligini anglashdan mahrumdir.",
+  "explanation": "Bu gapda 'oʻqimagan' sifatdosh boʻlib, u mustaqil ravishda ega (odam) vazifasini bajarayotgan otlashgan sifatdoshga bogʻlanib, aniqlovchi vazifasida kelgan."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi qoʻshma gap tarkibiy qismlarining oʻzaro munosabatini aniqlang:\n'Quyosh chiqdi, olam nurlarga toʻldi; hamma yoqda hayot nafasi ufurib turardi.'",
+  "options": [
+   "Bogʻlovchisiz qoʻshma gap, qismlar orasida ketma-ketlik va sabab-oqibat munosabati mavjud.",
+   "Bogʻlovchisiz qoʻshma gap, qismlar orasida sanash va umumlashtirish munosabati mavjud.",
+   "Bogʻlovchisiz qoʻshma gap, qismlar orasida zidlik va izohlash munosabati mavjud.",
+   "Bogʻlovchisiz qoʻshma gap, qismlar orasida ketma-ketlik va izohlash munosabati mavjud."
+  ],
+  "correct_answer": "Bogʻlovchisiz qoʻshma gap, qismlar orasida ketma-ketlik va izohlash munosabati mavjud.",
+  "explanation": "Dastlabki ikki qism voqealar ketma-ketligini, oxirgi qism esa umumiy vaziyatni izohlab kelmoqda."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gapda modal soʻzning vazifasi va tinish belgisi toʻgʻri qoʻllangan qatorni toping:\n'Chindan ham u bu ishni oʻz vaqtida yakunlay olmagan edi.'",
+  "options": [
+   "Modal soʻz gapning tarkibiy qismi boʻlib, kirish soʻz vazifasida, vergul talab qilmaydi.",
+   "Modal soʻz gapning tarkibiy qismi boʻlib, tasdiq maʼnosini ifodalaydi va vergul bilan ajratilishi shart.",
+   "Modal soʻz gapning mustaqil boʻlagi, shuning uchun uni ajratish uchun tirnoq kerak.",
+   "Modal soʻz gapning maʼnosini kuchaytiruvchi yuklama boʻlib, ajratilmaydi."
+  ],
+  "correct_answer": "Modal soʻz gapning tarkibiy qismi boʻlib, kirish soʻz vazifasida, vergul talab qilmaydi.",
+  "explanation": "'Chindan ham' birikmasi modal soʻz vazifasida kelsa, agar gap boshida kelsa va ohangda alohida ajratilmasa, vergul talab etmaydi."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gapda feʼl nisbatlari qanday oʻzgarishga uchragan?\n'Ular darsdan soʻng uyga kuzatib qoʻyildi va tezda tarqalishdi.'",
+  "options": [
+   "Majhul nisbat va oʻzlik nisbati.",
+   "Majhul nisbat va oʻzaro-birgalik nisbati.",
+   "Majhul nisbat va majhul nisbat.",
+   "Oʻzlik nisbati va oʻzaro-birgalik nisbati."
+  ],
+  "correct_answer": "Majhul nisbat va oʻzaro-birgalik nisbati.",
+  "explanation": "'Kuzatib qoʻyildi' majhul nisbatda (harakat egasi nomaʼlum), 'tarqalishdi' esa oʻzaro-birgalik nisbatida (birgalikda bajarilgan harakat)."
+ },
+ {
+  "subject_slug": "ona_tili",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Quyidagi gaplarda ajratib ko‘rsatilgan qo‘shimchalarning vazifasini tahlil qiling va qaysi qatorda mos ravishda moslashuv (kelishik), yasovchi va lug‘aviy ma’no ifodalovchi shakllar to‘g‘ri ketma-ketlikda kelganini aniqlang: 1) Uning **ish-chi-lar-i** fabrikada ko‘p. 2) Bu **yoz-uv-chi**ning asari mashhur. 3) **Bog‘-bon-lar** hosilni yig‘ib oldi.",
+  "options": [
+   "1-ko‘plik, 2-yasovchi, 3-kelishik",
+   "1-qaratqich, 2-yasovchi, 3-ko‘plik",
+   "1-egalik, 2-yasovchi, 3-ko‘plik",
+   "1-o‘rin-payt, 2-yasovchi, 3-kelishik"
+  ],
+  "correct_answer": "1-egalik, 2-yasovchi, 3-ko‘plik",
+  "explanation": "1-gapdagi '-i' egalik, 2-gapdagi '-uvchi' so‘z yasovchi, 3-gapdagi '-lar' ko‘plik qo‘shimchasidir; qolgan variantlarda morfologik tahlil xatosi mavjud."
  },
  {
   "subject_slug": "ona_tili",

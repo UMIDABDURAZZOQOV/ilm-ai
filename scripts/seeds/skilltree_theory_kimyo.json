@@ -191,6 +191,60 @@
  {
   "subject_slug": "kimyo",
   "unit_slug": "atom-tuzilishi",
+  "lesson_slug": "kovalent-bog-lanishning-hosil-bo-lish-mexanizmlari-almashinu",
+  "theory": [
+   {
+    "title": "Kovalent bog'lanish nima?",
+    "body": "Tasavvur qil, ikkita do'stda bittadan pul bor, lekin ikkalasiga ham ikkita kitob kerak. Ular pulni qo'shib, kitobni birgalikda sotib olishadi. Kimyoda ham shundoq: atomlar elektronlarini 'o'rtaga tashlab', umumiy juft hosil qiladi va shu orqali mustahkam bog'lanadi.",
+    "example": "Masalan, vodorod ($H_2$) molekulasida har bir atom bittadan elektronini o'rtaga qo'shib, bitta umumiy elektron juftini hosil qiladi."
+   },
+   {
+    "title": "Almashinuv mexanizmi",
+    "body": "Bu eng ko'p uchraydigan usul. Bunda bog' hosil qilishda qatnashayotgan har bir atom o'zidan bittadan elektronni umumiy foydalanish uchun beradi. Adolatli sherikchilikka o'xshaydi: senga bir elektron, menga bir elektron.",
+    "example": "Xlor ($Cl_2$) yoki suv ($H_2O$) molekulasidagi bog'lar aynan shunday — har bir atom o't ochishga bittadan o'q berganidek, elektron qo'shadi."
+   },
+   {
+    "title": "Donor-akseptor mexanizmi",
+    "body": "Bu yerda esa sherikchilik 'noadolatli', lekin foydali! Bitta atom (donor) o'zida ortiqcha bo'lgan butun boshli elektron juftini beradi. Ikkinchi atomda (akseptor) эsa o'sha elektronlar uchun bo'sh joy (orbital) bo'ladi va u bu juftni qabul qiladi.",
+    "example": "Ammoniy ionining ($NH_4^+$) hosil bo'lishi: azot atomi o'zining bo'sh bo'lmagan juft elektronini vodorod ionining ($H^+$) bo'sh katakchasiga 'sovg'a qiladi'."
+   },
+   {
+    "title": "Donor va Akseptorni ajratamiz",
+    "body": "Testlarda adashmasliging uchun eslab qol: donor bo'lish uchun atomda kamida bitta taqsimlanmagan (juftlashmagan emas, juft) elektronlar bo'lishi shart (masalan, $N, O$). Akseptor bo'lish uchun esa elektronlarni qabul qiladigan bo'sh joyi bo'lishi kerak (masalan, musbat zaryadlangan ionlar yoki $H^+$).",
+    "example": "Azot (donor) va vodorod ioni ($H^+$, akseptor) o'rtasidagi bog'lanish donor-akseptor yo'li bilan yuzaga keladi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "kimyo",
+  "unit_slug": "atom-tuzilishi",
+  "lesson_slug": "atom-orbitallarining-gibridlanishi-va-molekulalar-geometriya",
+  "theory": [
+   {
+    "title": "Gibridlanish nima o'zi?",
+    "body": "Tasavvur qil, atomdagi har xil shakldagi (masalan, s va p) orbitallar o'zaro aralashib, bir xil shakl va energiyaga ega bo'lgan yangi \"gibrid\" orbital hosil qiladi. Bu hodisa atomlar bir-biri bilan mustahkamroq va bir xil uzunlikdagi bog'lar hosil qilishi uchun juda kerak.",
+    "example": "Uchta p va bitta s orbital aralashib, 4 ta bir xil sp³ gibrid orbitalni hosil qilishi."
+   },
+   {
+    "title": "Chiziqli va Uchburchak Geometriya (sp va sp²)",
+    "body": "Agar markaziy atomda 2 ta gibrid orbital bo'lsa ($sp$), ular bir-biridan iloji boricha uzoqlashib, 180° burchak hosil qiladi va molekula chiziqli shakl oladi. Agar 3 ta orbital qatnashsa ($sp^2$), ular tekislikda 120° burchak ostida joylashib, uchburchak shaklni yuzaga keltiradi.",
+    "example": "$BeCl_2$ molekulasi chiziqli (180°), $BCl_3$ esa uchburchak shaklga ega."
+   },
+   {
+    "title": "Tetraedr Geometriyasi va sp³ Gibridlanish",
+    "body": "Markaziy atom atrofida 4 ta yo'nalish (bog' yoki taqsimlanmagan elektron jufti) bo'lsa, $sp^3$ gibridlanish yuzaga keladi. Bu orbitallar fazoda bir-biridan maksimal uzoqlashib, tetraedr shaklini hosil qiladi va ular orasidagi burchak 109,5° ga teng bo'ladi.",
+    "example": "Metan ($CH_4$) molekulasi mukammal tetraedr shaklida bo'lib, burchagi 109,5°."
+   },
+   {
+    "title": "Elektron juftlari va Piramida shakllar",
+    "body": "Molekula shaklini aniqlashda faqat bog'lar emas, balki markaziy atomdagi taqsimlanmagan (bog' hosil qilmagan) elektron juftlari ham muhim rol o'ynaydi. Ular bog'larni o'zaro siqib, burchakni kichraytiradi va uchburchak piramida yoki burchakli shakllarni hosil qiladi.",
+    "example": "Ammiak ($NH_3$) molekulasida 1 ta taqsimlanmagan juft bor va uning shakli uchburchak piramida bo'ladi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "kimyo",
+  "unit_slug": "atom-tuzilishi",
   "lesson_slug": "kristall-panjara-turlari-va-moddalarning-fizik-xossalari",
   "theory": [
    {
@@ -946,6 +1000,60 @@
     "title": "Haroratning ta'siri",
     "body": "Ko'pgina qattiq moddalarning eruvchanligi harorat ko'tarilishi bilan ortadi. Ya'ni, suvni qizdirsangiz, u sovuq suvga qaraganda ko'proq moddani eritish qobiliyatiga ega bo'ladi.",
     "example": "Sovuq suvda shakar qiyinroq eriydi, lekin qaynoq suvda shakar ancha tez va ko'proq miqdorda eriydi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "kimyo",
+  "unit_slug": "eritmalar-reaksiyalar",
+  "lesson_slug": "ion-almashinish-reaksiyalari-va-ularning-oxirigacha-borish-s",
+  "theory": [
+   {
+    "title": "Ion almashinish reaksiyalari nima?",
+    "body": "Tasavvur qil, ikkita eritmani aralashtirsang, ulardagi ionlar bir-biri bilan joy almashib, yangi modda hosil qiladi. Bunga elektrodlitlar eritmalari orasidagi reaksiyalar kiradi. Asosiysi — ionlar o'rtasidagi \"savdo-sotiq\"!",
+    "example": "HCl + NaOH -> NaCl + H₂O (H⁺ va OH⁻ ionlari birlashadi)"
+   },
+   {
+    "title": "Reaksiya oxirigacha borish sharti",
+    "body": "Ion almashinish reaksiyasi oxirigacha (to'liq) borishi uchun mahsulotda uchta narsadan biri hosil bo'lishi shart: cho'kma (pastga tushuvchi strelka), gaz (yuqoriga tushuvchi strelka) yoki kuchsiz elektrolit (masalan, suv). Agar bulardan biri bo'lmasa, reaksiya teskari ketadi.",
+    "example": "BaCl₂ + H₂SO₄ -> BaSO₄↓ + 2HCl (Cho'kma — BaSO₄ hosil bo'ldi)"
+   },
+   {
+    "title": "Cho'kma va gaz hosil bo'lishi",
+    "body": "Eritmadagi ionlar bir-birini \"ushlab olib\", erimaydigan birikma — cho'kma hosil qilsa, ular erkin harakatdan chiqib ketadi. Xuddi shuningdek, gaz ajralib chiqsa ham reaksiya oxirigacha boradi, chunki gaz idishni tark etadi.",
+    "example": "Na₂CO₃ + 2HCl -> 2NaCl + H₂O + CO₂↑ (Gaz — CO₂ ajraldi)"
+   },
+   {
+    "title": "Kuchsiz elektrolit (suv) hosil bo'lishi",
+    "body": "Kislota va asos reaksiyaga kirishganda (neytrallanish) suv molekulyar holatda qoladi. Suv juda kuchsiz elektrolit bo'lgani uchun ionlarga parchalanmaydi va bu reaksiya oxirigacha borishining uchinchi qonunidir.",
+    "example": "KOH + HNO₃ -> KNO₃ + H₂O (Suv — H₂O hosil bo'ldi)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "kimyo",
+  "unit_slug": "eritmalar-reaksiyalar",
+  "lesson_slug": "tuzlar-gidrolizi-va-vodorod-ko-rsatkich-ph",
+  "theory": [
+   {
+    "title": "Gidroliz nima o'zi?",
+    "body": "Tasavvur qil, tuz suvga tushganda uning ionlari suv molekulalari bilan 'urishib ketadi'. Mana shu tuzning suv bilan ta'sirlashib, muhitni o'zgartirishi gidroliz deb ataladi. Asosiy qoida: kuchsiz tomondan kelgan ion suvni buzadi va muhitni o'zgartiradi.",
+    "example": "Natriy atsetat ($CH_3COONa$) suvda eriganda kuchsiz atsetat ioni gidrolizga uchraydi va muhit ishqoriy bo'ladi."
+   },
+   {
+    "title": "Qaysi tuzlar gidrolizlanadi?",
+    "body": "Har qanday tuz ham gidrolizga uchrayvermaydi. Kuchli kislota va kuchli asosdan hosil bo'lgan tuzlar (masalan, $NaCl$) suvda shunchaki eriydi, gidrolizlanmaydi. Faqat kuchsiz kislota yoki kuchsiz asos qatnashgan tuzlargina gidrolizlanadi.",
+    "example": "$K_2SO_4$ kuchli asos va kuchli kislotadan chiqqani uchun gidrolizlanmaydi ($pH = 7$)."
+   },
+   {
+    "title": "Muhitni qanday aniqlaymiz?",
+    "body": "Gidroliz natijasida hosil bo'lgan eritmaning tabiatini topish juda oson. Tuzda kim ustun kelishiga qaraymiz: agar kuchsiz asos va kuchli kislota tuzi bo'lsa, kislota ustun kelib muhit kislotali ($pH < 7$) bo'ladi. Kuchsiz kislota va kuchli asos tuzi bo'lsa, ishqoriy muhit ($pH > 7$) yuzaga keladi.",
+    "example": "$NH_4Cl$ (kuchsiz asos, kuchli kislota tuzi) eritmasi kislotali muhit hosil qiladi va $pH < 7$ bo'ladi."
+   },
+   {
+    "title": "pH va pOH tushunchalari",
+    "body": "$pH$ — bu eritmada vodorod ionlari ($H^+$) qanchalik ko'p ekanini ko'rsatuvchi o'lchov. $pH = 7$ bo'lsa neytral, 7 dan kichik bo'lsa kislotali, 7 dan katta bo'lsa ishqoriy muhit bo'ladi. Eslab qol: $pH$ va $pOH$ yig'indisi har doim 14 ga teng.",
+    "example": "Agar eritmaning $pH$ qiymati 3 ga teng bo'lsa, demak u kuchli kislotali muhit."
    }
   ]
  },

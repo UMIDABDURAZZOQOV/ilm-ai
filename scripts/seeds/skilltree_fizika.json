@@ -3742,6 +3742,516 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Prujinani tortganimizda uning yana avvalgi holatiga qaytishga harakat qiluvchi kuch qanday ataladi?",
+  "options": [
+   "Elastiklik kuchi",
+   "Og'irlik kuchi",
+   "Ishqalanish kuchi",
+   "Qattiqlik koeffitsiyenti"
+  ],
+  "correct_answer": "Elastiklik kuchi",
+  "explanation": "Kartochka 1 ga ko'ra, prujinani tortganingda u yana avvalgi holatiga qaytishga harakat qiladi va aynan shu qaytaruvchi kuch elastiklik kuchi deyiladi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "Elastiklik kuchi har doim qaysi tomonga yo'nalgan bo'ladi?",
+  "options": [
+   "Deformatsiyaga qarshi yo'nalgan bo'ladi",
+   "Cho'zilish yo'nalishi bo'yicha",
+   "Har doim pastga qarab",
+   "Doimo harakat yo'nalishida"
+  ],
+  "correct_answer": "Deformatsiyaga qarshi yo'nalgan bo'ladi",
+  "explanation": "Kartochka 1 da elastiklik kuchi har doim deformatsiyaga (shaklni o'zgarishiga) qarshi yo'nalgan bo'lishi ta'kidlangan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "Guk qonuniga ko'ra, elastiklik kuchining deformatsiya miqdoriga bog'liqligi qanday xarakterga ega?",
+  "options": [
+   "Chiziqli xarakterga ega",
+   "Murakkab egri chiziqli",
+   "Teskari proporsional",
+   "Hech qanday bog'liqlik yo'q"
+  ],
+  "correct_answer": "Chiziqli xarakterga ega",
+  "explanation": "Kartochka 2 da bu bog'liqlik chiziqli xarakterga ega ekanligi, ya'ni kuch deformatsiya miqdoriga to'g'ri proporsional ekani aytilgan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "$F = k \\cdot x$ formulasida 'x' harfi nimani anglatadi?",
+  "options": [
+   "Cho'zilish miqdori",
+   "Prujinaning qattiqligi",
+   "Elastiklik kuchi",
+   "Materialning massasi"
+  ],
+  "correct_answer": "Cho'zilish miqdori",
+  "explanation": "Kartochka 3 ga ko'ra, formulasidagi 'F' - elastiklik kuchi, 'x' - cho'zilish miqdori, 'k' эsa prujinaning qattiqlik koeffitsiyenti hisoblanadi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Prujinani 3 marta ko'proq cho'zsak, hosil bo'ladigan elastiklik kuchi qanday o'zgaradi?",
+  "options": [
+   "3 marta ortadi",
+   "O'zgarmaydi",
+   "3 marta kamayadi",
+   "9 marta ortadi"
+  ],
+  "correct_answer": "3 marta ortadi",
+  "explanation": "Kartochka 2 va 5 ga binoan, kuch deformatsiya miqdoriga to'g'ri proporsionaldir. Agar prujinani ko'proq (masalan, 3 marta) cho'zsak, qaytarishga urinadigan kuch ham shuncha (3 marta) ortadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "$F = k \\cdot x$ formulasidagi 'k' harfi nimani bildiradi?",
+  "options": [
+   "Prujinaning qattiqlik koeffitsiyenti",
+   "Cho'zilish tezligi",
+   "Deformatsiya yo'nalishi",
+   "Prujinaning uzunligi"
+  ],
+  "correct_answer": "Prujinaning qattiqlik koeffitsiyenti",
+  "explanation": "Kartochka 3 va 5 ga ko'ra, 'k' prujinaning qattiqlik koeffitsiyentini (prujinaning 'xarakterini') anglatadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "Prujinaning qattiqlik koeffitsiyenti ('k') nimaga bog'liq?",
+  "options": [
+   "Prujinaning materialiga va o'lchamiga",
+   "Faqat uni tortish tezligiga",
+   "Faqat cho'zilish miqdoriga",
+   "Hosil bo'lgan kuchning kattaligiga"
+  ],
+  "correct_answer": "Prujinaning materialiga va o'lchamiga",
+  "explanation": "Kartochka 4 da qattiqlik koeffitsiyenti prujinaning materialiga va o'lchamiga bog'liqligi aniq ko'rsatilgan.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "Quyidagilardan qaysi biri mashina amortizatorining prujinasi kabi katta qattiqlikka ('k') ega ekanligini bildiradi?",
+  "options": [
+   "Uni cho'zish juda qiyin bo'ladi",
+   "Uni cho'zish juda oson bo'ladi",
+   "U deformatsiyaga qarshi emas, yo'nalishda ishlaydi",
+   "U hech qanday elastiklik kuchiga ega emas"
+  ],
+  "correct_answer": "Uni cho'zish juda qiyin bo'ladi",
+  "explanation": "Kartochka 4 ga ko'ra, 'k' qanchalik katta bo'lsa, prujinani cho'zish shunchalik qiyin bo'ladi (masalan, mashina amortizatori).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "Agar prujinaning qattiqligi ($k$) 10 N/m bo'lsa va uni 2 metrga cho'zsak, yuzaga keladigan elastiklik kuchi ('F') qat'iy ravishda qancha bo'ladi?",
+  "options": [
+   "20 Nyuton",
+   "5 Nyuton",
+   "12 Nyuton",
+   "2 Nyuton"
+  ],
+  "correct_answer": "20 Nyuton",
+  "explanation": "Kartochka 3 dagi misolga asosan, $F = k \\cdot x$ formulasidan foydalanamiz: $F = 10 \\text{ N/m} \\cdot 2 \\text{ m} = 20$ Nyuton.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "elastiklik-kuchi-guk-qonuni",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Quyidagi fikrlardan qaysi biri Guk qonunining mohiyatini to'g'ri ochib beradi?",
+  "options": [
+   "Prujina qanchalik ko'p cho'zilsa, uni qaytarishga urinadigan kuch shunchalik katta bo'ladi",
+   "Elastiklik kuchi doimo harakatni tezlashtirish tomonga yo'nalgan bo'ladi",
+   "Prujinaning cho'zilish miqdori uning qattiqligiga bog'liq emas",
+   "Qattiqlik koeffitsiyenti har doim deformatsiya miqdoriga teskari proporsional"
+  ],
+  "correct_answer": "Prujina qanchalik ko'p cho'zilsa, uni qaytarishga urinadigan kuch shunchalik katta bo'ladi",
+  "explanation": "Kartochka 2 da Guk qonunining mohiyati aynan shundan iborat ekanligi ta'kidlangan: prujina qanchalik ko'p cho'zilsa, uni qaytarishga urinadigan kuch shunchalik katta bo'ladi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Olamdagi barcha jismlar bir-birini tortishi haqidagi qonunga ko'ra, bu kuch jismlarning qaysi xususiyatiga to'g'ri proportsionaldir?",
+  "options": [
+   "Massalariga",
+   "Hajmiga",
+   "Zichligiga",
+   "Tezligiga"
+  ],
+  "correct_answer": "Massalariga",
+  "explanation": "Kartochka 1 ga ko'ra, tortishish kuchi jismlarning massalariga to'g'ri, ular orasidagi masofaning kvadratiga esa teskari proportsionaldir.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Olamdagi barcha jismlar o'rtasidagi tortishish kuchi jismlarning massalariga qanday bog'liq?",
+  "options": [
+   "Massalariga teskari proportsionaldir",
+   "Massalariga to'g'ri proportsionaldir",
+   "Massalarga umuman bog'liq emas",
+   "Faqat ularning shakliga bog'liq"
+  ],
+  "correct_answer": "Massalariga to'g'ri proportsionaldir",
+  "explanation": "Butun olam tortishish qonuniga ko'ra, bu kuch jismlarning massalariga to'g'ri, ular orasidagi masofaning kvadratiga esa teskari proportsionaldir.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "Yer sirtiga yaqin joylashgan barcha jismlar bir xil tezlanish bilan pastga intiladi. Bu qanday nomlanadi?",
+  "options": [
+   "Erkin tushish tezlanishi",
+   "Markazga intilma tezlanish",
+   "Burchak tezlanish",
+   "Boshlang'ich tezlanish"
+  ],
+  "correct_answer": "Erkin tushish tezlanishi",
+  "explanation": "Kartochka 2 da ta'riflanganidek, Yer sirtiga yaqin joylashgan barcha jismlar bir xil tezlanish bilan pastga intiladi va biz buni erkin tushish tezlanishi deb ataymiz.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "Erkin tushish tezlanishining o'rtacha qiymati nechaga teng?",
+  "options": [
+   "9,8 m/s²",
+   "5 m/s²",
+   "10 m/s",
+   "9,8 m/s"
+  ],
+  "correct_answer": "9,8 m/s²",
+  "explanation": "Kartochkada ko'rsatilishicha, erkin tushish tezlanishining qiymati o'rtacha 9,8 m/s² ga teng.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "Erkin tushish tezlanishining o'rtacha qiymati nechaga teng?",
+  "options": [
+   "9,8 m/s²",
+   "10 m/s",
+   "9,8 m/s",
+   "8,9 m/s²"
+  ],
+  "correct_answer": "9,8 m/s²",
+  "explanation": "Kartochka 2 da erkin tushish tezlanishining qiymati o'rtacha 9,8 m/s² ga teng ekanligi ko'rsatilgan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "Erkin tushish tezlanishi jismning qaysi xususiyatiga bog'liq emas?",
+  "options": [
+   "Massasiga",
+   "Balandligiga",
+   "Yer sirtidan uzoqligiga",
+   "Turgan o'rniga"
+  ],
+  "correct_answer": "Massasiga",
+  "explanation": "Erkin tushish tezlanishi jismning massasiga bog'liq emasligi kartochkada alohida ta'kidlangan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "Erkin tushish tezlanishi jismning qaysi xususiyatiga bog'liq emas?",
+  "options": [
+   "Massasiga",
+   "Balandligiga",
+   "Yer markazidan uzoqligiga",
+   "Joylashgan o'rniga"
+  ],
+  "correct_answer": "Massasiga",
+  "explanation": "Kartochka 2 ga ko'ra, erkin tushish tezlanishi jismning massasiga bog'liq emas, shuning uchun vakuumda temir koptok va pat bir vaqtda tushadi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "Yer sirtidan uzoqlashgan sari (balandlikka chiqqan sari) Yerning tortish kuchi qanday o'zgaradi?",
+  "options": [
+   "Kamayadi",
+   "Ortadi",
+   "O'zgarmay qoladi",
+   "Nolga tenglashadi"
+  ],
+  "correct_answer": "Kamayadi",
+  "explanation": "Yer sirtidan uzoqlashgan sari Yerning tortish kuchi kamayadi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Yer sirtidan uzoqlashgan sari (balandlikka chiqqan sari) Yerning tortish kuchi qanday o'zgaradi?",
+  "options": [
+   "Kamayadi",
+   "Ortadi",
+   "O'zgarmaydi",
+   "Avval ortib, keyin kamayadi"
+  ],
+  "correct_answer": "Kamayadi",
+  "explanation": "Kartochka 3 ga muvofiq, Yer sirtidan uzoqlashgan sari Yerning tortish kuchi kamayadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Vakuumda (havo yo'q joyda) 2 kg li tosh va 0,5 kg li pat tushganda, ular haqida qaysi tasdiq to'g'ri?",
+  "options": [
+   "Tosh tezroq tushadi",
+   "Pat tezroq tushadi",
+   "Bir xil tezlanish bilan tushadi",
+   "Ularga tortishish kuchi ta'sir qilmaydi"
+  ],
+  "correct_answer": "Bir xil tezlanish bilan tushadi",
+  "explanation": "Vakuumda erkin tushish tezlanishi jismning massasiga bog'liq bo'lmagani uchun, har qanday jismlar bir xil tezlanish bilan pastga intiladi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "Vakuumda (havo yo'q joyda) 2 kg li yog'och bo'lagi va 20 kg li temir g'isht bir vaqtda tashlab yuborilsa nima sodir bo'ladi?",
+  "options": [
+   "Bir vaqtda Yerga tushadi",
+   "Temir g'isht oldin tushadi",
+   "Yog'och bo'lagi oldin tushadi",
+   "Hech qaysisi yerga tushmaydi"
+  ],
+  "correct_answer": "Bir vaqtda Yerga tushadi",
+  "explanation": "Kartochka 2 ga ko'ra, erkin tushish tezlanishi massaga bog'liq emas va vakuumda temir koptok va pat bir vaqtda tushgani kabi, bu jismlar ham bir vaqtda tushadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "Yer sirtidan balandga chiqqanda erkin tushish tezlanishi qanday o'zgaradi?",
+  "options": [
+   "Kamayadi",
+   "Ortadi",
+   "Avval ortib, keyin kamayadi",
+   "O'zgarmaydi"
+  ],
+  "correct_answer": "Kamayadi",
+  "explanation": "Yer sirtidan uzoqlashgan sari tortish kuchi kamaygani kabi, erkin tushish tezlanishi ham balandlik ortishi bilan kamayib boradi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "Yer sirtidan balandga chiqqanda erkin tushish tezlanishi qanday o'zgaradi?",
+  "options": [
+   "Kamayib boradi",
+   "Ortib boradi",
+   "O'zgarmas qoladi",
+   "Nolga tenglashadi"
+  ],
+  "correct_answer": "Kamayib boradi",
+  "explanation": "Kartochka 3 da ta'kidlanganidek, Yer sirtidan uzoqlashgan sari tortish kuchi kamayadi va shuning uchun erkin tushish tezlanishi ham balandlik ortishi bilan kamayib boradi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "Nima sababdan Yer Quyosh atrofida aylanadi?",
+  "options": [
+   "Yer va Quyosh o'rtasidagi tortishish kuchi tufayli",
+   "Quyoshning massasi kichik bo'lgani uchun",
+   "Faqat vakuum bo'lgani uchun",
+   "Yerning massasi doimiy kamayib borgani uchun"
+  ],
+  "correct_answer": "Yer va Quyosh o'rtasidagi tortishish kuchi tufayli",
+  "explanation": "Butun olam tortishish qonuniga ko'ra, Yer va Quyosh o'rtasidagi tortishish kuchi tufayli Yer uning atrofida aylanadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "Butun olam tortishish qonuniga ko'ra, ikki jism orasidagi tortishish kuchi nimaga turlicha ta'sir ko'rsatadi?",
+  "options": [
+   "Jismlarning massalari va ular orasidagi masofaning kvadratiga",
+   "Faqat jismlarning hajmiga",
+   "Faqat jismlarning tezligiga",
+   "Jismlarning shakli va rangiga"
+  ],
+  "correct_answer": "Jismlarning massalari va ular orasidagi masofaning kvadratiga",
+  "explanation": "Kartochka 1 ga ko'ra, tortishish kuchi jismlarning massalariga to'g'ri, ular orasidagi masofaning kvadratiga esa teskari proportsionaldir.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "Olamdagi jismlar orasidagi tortishish kuchi nimalarga bog'liq?",
+  "options": [
+   "Faqat massalariga",
+   "Massalariga va ular orasidagi masofaga",
+   "Faqat ular orasidagi masofaga",
+   "Faqat ularning hajmiga"
+  ],
+  "correct_answer": "Massalariga va ular orasidagi masofaga",
+  "explanation": "Butun olam tortishish qonuniga ko'ra, tortishish kuchi jismlarning massalariga to'g'ri, ular orasidagi masofaning kvadratiga esa teskari proportsionaldir.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "Yer markazidan ancha uzoqda, ya'ni Yer orbitasida yurgan kosmonavtga ta'sir etuvchi tortishish kuchi haqida nima deyish mumkin?",
+  "options": [
+   "Yerdegiga qaraganda ancha kamayadi",
+   "Yerdegidan ikki marta ortiq bo'ladi",
+   "Mutlaqo yo'qoladi va nolga tenglashadi",
+   "Yer sirtidagidan ham kuchliroq bo'ladi"
+  ],
+  "correct_answer": "Yerdegiga qaraganda ancha kamayadi",
+  "explanation": "Kartochka 3 dagi misolga ko'ra, kosmonavtlar Yer orbitasida bo'lganlarida, Yer markazidan uzoqda bo'lganlari sababli ularga ta'sir etuvchi tortishish kuchi yerdegiga qaraganda ancha kamayadi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "Agar ikki jism orasidagi masofa 2 marta ortsa, ular orasidagi tortishish kuchi qanday o'zgaradi?",
+  "options": [
+   "4 marta kamayadi",
+   "2 marta kamayadi",
+   "4 marta ortadi",
+   "O'zgarmaydi"
+  ],
+  "correct_answer": "4 marta kamayadi",
+  "explanation": "Tortishish kuchi masofaning kvadratiga teskari proportsional bo'lgani uchun, masofa 2 marta ortsa, kuch 2² = 4 marta kamayadi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Agar jism Yer sirtidan juda balandga ko'tarilsa, uning Yer markazidan uzoqlashishi natijasida vazni qanday o'zgaradi?",
+  "options": [
+   "Yengilroq bo'ladi",
+   "Og'irroq bo'ladi",
+   "O'zgarmaydi",
+   "Cheksiz ortib ketadi"
+  ],
+  "correct_answer": "Yengilroq bo'ladi",
+  "explanation": "Kartochka 3 da aniq ko'rsatilganidek, Yer markazidan qanchalik uzoq bo'lsangiz, vazningiz shunchalik yengilroq bo'ladi, chunki tortish kuchi kamayadi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "butun-olam-tortishish-qonuni-erkin-tushish-tezlanishi",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Nima uchun kosmonavtlar Yer orbitasida bo'lganlarida ularga ta'sir etuvchi tortishish kuchi yerdegiga qaraganda ancha kam bo'ladi?",
+  "options": [
+   "Chunki ular Yer markazidan uzoqda – balandlikda joylashganlar",
+   "Chunki kosmosda massa yo'qoladi",
+   "Chunki u yerda havo mutlaqo yo'q",
+   "Chunki kosmonavtlarning vazni har doim nolga teng"
+  ],
+  "correct_answer": "Chunki ular Yer markazidan uzoqda – balandlikda joylashganlar",
+  "explanation": "Yer sirtidan uzoqlashgan sari (balandlikka chiqqan sari) tortish kuchi kamayadi, Yer markazidan qanchalik uzoq bo'linsa, shunchalik vazn yengilroq bo'ladi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
   "lesson_slug": "jism-og-irligi-vaznsizlik-va-yuklanish",
   "order_index": 0,
   "language": "uz",
@@ -9857,6 +10367,346 @@
   ],
   "correct_answer": "Gaz miqdori ikki barobar ortadi",
   "explanation": "ν = m/M formulasiga ko'ra, gaz miqdori (ν) massa (m) bilan to'g'ri proporsionaldir. Massa ikki barobar oshsa, gaz miqdori ham ikki barobar ortadi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Gazdagi molekulalar qanday harakatda bo'ladi va bu idishda nimani hosil qiladi?",
+  "options": [
+   "Doimiy tartibsiz harakatda bo'lib, devorlarga urilib bosim hosil qiladi",
+   "Faqat bir yo'nalishda harakatlanib, issiqlik hosil qiladi",
+   "Tinimsiz tartibli harakatlanib, tezlikni kamaytiradi",
+   "Faqat idishning tubida harakatlanib, og'irlik hosil qiladi"
+  ],
+  "correct_answer": "Doimiy tartibsiz harakatda bo'lib, devorlarga urilib bosim hosil qiladi",
+  "explanation": "Kartochka 1 ga ko'ra, gazdagi molekulalar doimiy tartibsiz harakatda bo'ladi va idish devorlariga urilib, bosim hosil qiladi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Gazdagi molekulalarning idish devorlariga urilishi natijasida nima hosil bo'ladi?",
+  "options": [
+   "Gaz bosimi",
+   "Mutlaq harorat",
+   "Konsentratsiya",
+   "O'rtacha kvadratik tezlik"
+  ],
+  "correct_answer": "Gaz bosimi",
+  "explanation": "KARTOCHKA 1 ga ko'ra, gazdagi molekulalar doimiy tartibsiz harakatda bo'lib, idish devorlariga urilib bosim hosil qiladi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "Molekulalarning tezliklari kvadratlarining o'rtacha qiymatidan ildiz chiqarish natijasida hosil bo'lgan kattinalik qanday nomlanadi?",
+  "options": [
+   "O'rtacha kvadratik tezlik",
+   "Absolyut tezlik",
+   "Maksimal tezlik",
+   "Boshlang'ich tezlik"
+  ],
+  "correct_answer": "O'rtacha kvadratik tezlik",
+  "explanation": "Kartochka 2 da barcha molekulalar har xil tezlikda harakatlanishi va ularning tezliklari kvadratlarining o'rtacha qiymatidan ildiz chiqarish 'o'rtacha kvadratik tezlik' deb atalishi keltirilgan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "MKTning asosiy tenglamasi to'g'ri ko'rsatilgan javobni toping.",
+  "options": [
+   "P = 1/3 * n * m0 * v^2",
+   "v = sqrt(3RT / M)",
+   "P = n * k * T",
+   "v = m0 * n / 3"
+  ],
+  "correct_answer": "P = 1/3 * n * m0 * v^2",
+  "explanation": "KARTOCHKA 1 da MKTning asosiy tenglamasi P = 1/3 * n * m0 * v^2 ko'rinishida berilgan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "Gaz qiziganda molekulalarning harakatlanishi qanday o'zgaradi?",
+  "options": [
+   "Tezroq harakatlana boshlaydi",
+   "Sekinroq harakatlana boshlaydi",
+   "Harakatdan to'xtaydi",
+   "Faqat bir joyda tebranadi"
+  ],
+  "correct_answer": "Tezroq harakatlana boshlaydi",
+  "explanation": "Kartochka 3 ga muvofiq, gaz qiziganda molekulalar tezroq harakatlana boshlaydi va harorat oshishi bilan o'rtacha kvadratik tezlik ham ortadi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "Gazdagi barcha molekulalar har xil tezlikda harakatlanganda, hisob-kitoblarni osonlashtirish uchun qaysi kattakik ishlatiladi?",
+  "options": [
+   "O'rtacha kvadratik tezlik",
+   "Minimal tezlik",
+   "Maksimal tezlik",
+   "O'zgarmas tezlik"
+  ],
+  "correct_answer": "O'rtacha kvadratik tezlik",
+  "explanation": "KARTOCHKA 2 da aytilishicha, barcha molekulalar har xil tezlikda harakatlanadi va hisob-kitoblarni osonlashtirish uchun o'rtacha kvadratik tezlik ishlatiladi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "Molekulyar-kinetik nazariyaning (MKT) asosiy tenglamasi quyidagilardan qaysi biri?",
+  "options": [
+   "P = 1/3 * n * m0 * v^2",
+   "P = n * k * T",
+   "F = m * a",
+   "v = sqrt(3RT / M)"
+  ],
+  "correct_answer": "P = 1/3 * n * m0 * v^2",
+  "explanation": "Kartochka 1 da MKTning asosiy tenglamasi P = 1/3 * n * m0 * v^2 ko'rinishida berilgan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "Gaz qiziganda molekulalarning harakati qanday o'zgaradi?",
+  "options": [
+   "Tezroq harakatlana boshlaydi",
+   "Harakatdan to'xtaydi",
+   "Sekinlashadi",
+   "Faqat pastga tushadi"
+  ],
+  "correct_answer": "Tezroq harakatlana boshlaydi",
+  "explanation": "KARTOCHKA 3 ga ko'ra, gaz qiziganda molekulalar tezroq harakatlana boshlaydi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Gaz harorati 4 marta ortsa, molekulalarning o'rtacha kvadratik tezligi qanday o'zgaradi?",
+  "options": [
+   "2 marta ortadi",
+   "4 marta ortadi",
+   "16 marta ortadi",
+   "O'zgarmay qoladi"
+  ],
+  "correct_answer": "2 marta ortadi",
+  "explanation": "Kartochka 4 dagi misolga ko'ra, harorat ildiz ostida bo'lgani uchun, agar harorat 4 marta ortsa, tezlik ildiz ostida 4=2 marta ortadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Molekulalarning o'rtacha kvadratik tezligi qaysi formulaga asoslanib aniqlanadi?",
+  "options": [
+   "v = sqrt(3RT / M)",
+   "P = 1/3 * n * m0 * v^2",
+   "v = 3 * P / n",
+   "T = M * v^2 / 3R"
+  ],
+  "correct_answer": "v = sqrt(3RT / M)",
+  "explanation": "KARTOCHKA 3 da o'rtacha kvadratik tezlik formulasi v = sqrt(3RT / M) ekanligi ko'rsatilgan.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "MKTning asosiy tenglamasiga ko'ra, gaz bosimi nimaga bog'liq?",
+  "options": [
+   "Molekulalar konsentratsiyasi va ularning o'rtacha kinetik energiyasiga",
+   "Faqat idishning hajmiga",
+   "Faqat molekulalarning soniga",
+   "Faqat tashqi muhit bosimiga"
+  ],
+  "correct_answer": "Molekulalar konsentratsiyasi va ularning o'rtacha kinetik energiyasiga",
+  "explanation": "Kartochka 4 da MKTning asosiy tenglamasida bosim gazning molekulalar konsentratsiyasi (n) va ularning o'rtacha kinetik energiyasiga bog'liqligi aytilgan.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "Gaz harorati oshishi bilan o'rtacha kvadratik tezlik qanday o'zgaradi?",
+  "options": [
+   "Ortadi",
+   "Kamayadi",
+   "O'zgarmaydi",
+   "Nolga tenglashadi"
+  ],
+  "correct_answer": "Ortadi",
+  "explanation": "KARTOCHKA 3 ga muvofiq, harorat oshishi bilan o'rtacha kvadratik tezlik ham ortadi, chunki harorat ildiz ostida to'g'ri proporsionaldir.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "Choynakdagi suv qizigan sari bug' molekulalarining harakati nima sababdan qopqoqni ko'tarib tashlaydi?",
+  "options": [
+   "Molekulalar juda tez harakatlana boshlagani uchun",
+   "Molekulalar soni kamayib ketgani uchun",
+   "Idish hajmi kichraygani uchun",
+   "Molekulalar og'irlashib ketgani uchun"
+  ],
+  "correct_answer": "Molekulalar juda tez harakatlana boshlagani uchun",
+  "explanation": "Kartochka 3 dagi misolda choynakdagi suv qiziganda bug' molekulalari shunchalik tez harakatlanishi va bu qopqoqni ko'tarib tashlashi tushuntirilgan.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "Gaz harorati 4 marta ortsa, molekulalarning o'rtacha kvadratik tezligi qanday o'zgaradi?",
+  "options": [
+   "2 marta ortadi",
+   "4 marta ortadi",
+   "16 marta ortadi",
+   "O'zgarmaydi"
+  ],
+  "correct_answer": "2 marta ortadi",
+  "explanation": "KARTOCHKA 4 ning misolida ko'rsatilganidek, harorat 4 marta ortsa, tezlik ildiz ostidan chiqqani uchun 2 marta ortadi (chunki ildiz ostida 4=2).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "Nima uchun gazdagi barcha molekulalarning tezligi bir xil deb olinmaydi, balki o'rtacha kvadratik tezlik ishlatiladi?",
+  "options": [
+   "Chunki barcha molekulalar har xil tezlikda harakatlanadi",
+   "Chunki barcha molekulalar bir xil tezlikda harakatlanadi",
+   "Chunki molekulalar umuman harakatlanmaydi",
+   "Chunki tezlikni o'lchash imkonsiz"
+  ],
+  "correct_answer": "Chunki barcha molekulalar har xil tezlikda harakatlanadi",
+  "explanation": "Kartochka 2 ga ko'ra, gazdagi barcha molekulalar har xil tezlikda harakatlanadi, shuning uchun hisob-kitoblarni osonlashtirish uchun o'rtacha kvadratik tezlik ishlatiladi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "MKTning asosiy tenglamasiga ko'ra, bosim gazning qaysi xossalariga bog'liq?",
+  "options": [
+   "Molekulalar konsentratsiyasi va ularning o'rtacha kinetik energiyasiga",
+   "Faqat idish hajmiga",
+   "Faqat tashqi muhit bosimiga",
+   "Molekulalarning rangi va shakliga"
+  ],
+  "correct_answer": "Molekulalar konsentratsiyasi va ularning o'rtacha kinetik energiyasiga",
+  "explanation": "KARTOCHKA 4 ning 2-savoli javobiga ko'ra, bosim molekulalar konsentratsiyasi (n) va ularning o'rtacha kinetik energiyasiga bog'liq.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "O'rtacha kvadratik tezlikning haroratga bog'liqlik formulasi qaysi javobda to'g'ri ko'rsatilgan?",
+  "options": [
+   "v = sqrt(3RT / M)",
+   "v = 1/3 * n * m0 * v^2",
+   "v = m0 * v^2 / 2",
+   "v = R * T / 3"
+  ],
+  "correct_answer": "v = sqrt(3RT / M)",
+  "explanation": "Kartochka 3 da o'rtacha kvadratik tezlikning formulasi v = sqrt(3RT / M) ko'rinishida berilgan va harorat ildiz ostida to'g'ri proporsional ekanligi aytilgan.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "Idishdagi gaz molekulalarining tartibsiz harakati va devorlarga urilishi jarayonini tushuntiruvchi fizik kattaliklar MKT asosiy tenglamasida qanday bog'langan?",
+  "options": [
+   "Bosim molekulalar konsentratsiyasi, massasi va tezlik kvadratining uchdan bir qismiga teng",
+   "Tezlik haroratga teskari proporsional",
+   "Bosim faqat haroratga bog'liq",
+   "Konsentratsiya tezlikka teng"
+  ],
+  "correct_answer": "Bosim molekulalar konsentratsiyasi, massasi va tezlik kvadratining uchdan bir qismiga teng",
+  "explanation": "KARTOCHKA 1 da P = 1/3 * n * m0 * v^2 tenglamasi keltirilgan bo'lib, bu bosimning konsentratsiya (n), massa (m0) va tezlik kvadrati (v^2) ko'paytmasining uchdan bir qismiga tengligini bildiradi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Xona ichidagi havo molekulalari bizni har tomondan urib tursa-da, nima uchun biz buni doimiy ravishda alohida zarbalar sifatida sezmaymiz?",
+  "options": [
+   "Ularning soni juda ko'p bo'lgani uchun",
+   "Ularning harorati juda past bo'lgani uchun",
+   "Ular harakatlanmagani uchun",
+   "Ular bizga tegmasligi uchun"
+  ],
+  "correct_answer": "Ularning soni juda ko'p bo'lgani uchun",
+  "explanation": "Kartochka 1 dagi misolga ko'ra, xona ichidagi havo molekulalari bizni har tomondan urib turadi, lekin ularning soni juda ko'p bo'lgani uchun biz buni sezmaymiz, faqat bosimni his qilamiz.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Nima uchun xona ichidagi havo molekulalari bizni har tomondan urib tursa ham, biz buni sezmaymiz?",
+  "options": [
+   "Ularning soni juda ko'p bo'lgani uchun biz faqat bosimni his qilamiz",
+   "Ular umuman harakatlanmaydi",
+   "Ularning tezligi nolga teng",
+   "Ular bizga tegmaydi"
+  ],
+  "correct_answer": "Ularning soni juda ko'p bo'lgani uchun biz faqat bosimni his qilamiz",
+  "explanation": "KARTOCHKA 1 dagi misolga ko'ra, xona ichidagi havo molekulalari bizni urib tursa-da, ularning soni juda ko'p bo'lgani uchun biz buni alohida sezmaymiz, faqat umumiy bosimni his qilamiz.",
   "difficulty": "hard"
  },
  {
