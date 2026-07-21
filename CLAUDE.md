@@ -371,12 +371,20 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 ### ▶ PICK UP HERE (state at end of 2026-07-21) — read this first after a context reset
 
-**OPEN TASK: finish generating the skill-tree content.** 595 of 814 lessons have questions.
-Run `bash scripts/fill_content.sh` — it resumes where it stopped and exits (code 3) as soon as
-every Gemini key is out of daily free-tier quota, because the owner's machine is not always on.
-Then `python scripts/dump_skilltree_fixtures.py`, commit the fixtures, push. Remaining as of the
-last run: `ozbek_adabiyoti` 20/66, `jahon_adabiyoti` 18/66, `koreys_tili` 14/55, `fransuz_tili`
-13/55, `tarix` 45/77, plus the placement bank (321 of ~1700).
+**OPEN TASK: finish generating the skill-tree content.** Everything below is deployed and verified
+live — `GET https://ilm-ai-backend-256x.onrender.com/skills/subjects` reports the real state and is
+the fastest way to check it after a reset. At the last deploy (commit `37bc21b`): **607 of 814
+lessons answerable**, complete are `ona_tili` 77/77 and `ingliz_tili` 66/66; still short are
+`ozbek_adabiyoti` 20/66, `jahon_adabiyoti` 18/66, `koreys_tili` 14/55, `fransuz_tili` 13/55,
+`tarix` 57/77, plus the placement bank (321 of ~1700).
+
+The loop each time quota resets:
+
+```
+bash scripts/fill_content.sh              # resumes; exits 3 when every key is dry
+python scripts/dump_skilltree_fixtures.py # prod seeds from fixtures, NOT from the DB
+git add scripts/seeds && git commit && git push   # Render auto-deploys
+```
 
 **Read "Syllabus depth and the placement test" below before answering any question about how much
 content the app has.** The owner was, in their words, misled about this — CLAUDE.md recorded
@@ -410,6 +418,8 @@ hard-cut at exactly 800 chars, speaking bullets were mojibake, `ielts_writing.ta
 glyph runs in an order that interleaves columns — the answer keys came out as
 `"1 10/ten 21 &22 IN EITHER ORDER"` and the audioscripts lost speaker attribution entirely.
 
+The forensic record of what the broken first pass produced is kept in
+`scripts/IELTS21_EXTRACTION_NOTES.md` (marked DONE at the top).
 `scripts/parse_ielts21.py` fixes this by collecting each run with its text-matrix position and
 rebuilding the lines itself: **with the rotation, `tm[4]` (x) runs *down* the page = line order,
 and `tm[5]` (y) runs *across* it = column order.** Keep that in mind before touching it.
@@ -476,7 +486,15 @@ is 21 each — calling that a full course was wrong.
 `GEMINI_API_KEYS` that is roughly 600-800 successful calls a day; a full lesson costs 2 (theory +
 questions). Adding keys scales it linearly. `_generate_round_robin` sweeps the whole ring three
 times with a pause between sweeps — bailing after one sweep threw away a lesson over what was
-usually a one-minute limit.
+usually a one-minute limit. `SLEEP_BETWEEN_CALLS` (env `SEED_SLEEP`, default 0.4s) replaced a fixed
+3s pause between every call: with one key that mattered, with ten it only added an hour across the
+~1100 calls this needed.
+
+**Catalogue counts:** `GET /skills/subjects` returns `lesson_count` and `ready_lessons` per subject
+(one grouped query each, not one per subject). `ready_lessons` counts only lessons that actually
+have questions — a lesson exists in the tree as soon as the outline is merged, well before it is
+answerable, and the catalogue must not claim it. **This is the quickest way to see what is really
+live**, with no auth needed.
 
 ### 2. `seed_skilltree_if_empty()` meant none of this could ever ship
 
