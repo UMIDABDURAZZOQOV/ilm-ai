@@ -70,6 +70,24 @@ def _gamification_block(user: User, db: Session | None = None) -> dict:
 @router.get("/subjects")
 def list_subjects(db: Session = Depends(get_db)):
     subjects = db.query(SkillSubject).filter(SkillSubject.is_active.is_(True)).order_by(SkillSubject.order_index).all()
+
+    # Lesson counts per subject, in one grouped query rather than one per subject.
+    # `ready_lessons` counts only lessons that actually have questions: content is
+    # generated over several days against the free-tier quota, so a lesson can exist
+    # in the tree before it is answerable, and the catalogue should not claim it.
+    counts = dict(
+        db.query(SkillUnit.subject_id, sa_func.count(SkillLesson.id))
+        .join(SkillLesson, SkillLesson.unit_id == SkillUnit.id)
+        .group_by(SkillUnit.subject_id)
+        .all()
+    )
+    ready = dict(
+        db.query(SkillUnit.subject_id, sa_func.count(sa_func.distinct(SkillQuestion.lesson_id)))
+        .join(SkillLesson, SkillLesson.unit_id == SkillUnit.id)
+        .join(SkillQuestion, SkillQuestion.lesson_id == SkillLesson.id)
+        .group_by(SkillUnit.subject_id)
+        .all()
+    )
     return [
         {
             "id": s.id,
@@ -79,6 +97,8 @@ def list_subjects(db: Session = Depends(get_db)):
             "name_en": s.name_en,
             "icon": s.icon,
             "color": s.color,
+            "lesson_count": counts.get(s.id, 0),
+            "ready_lessons": ready.get(s.id, 0),
         }
         for s in subjects
     ]
