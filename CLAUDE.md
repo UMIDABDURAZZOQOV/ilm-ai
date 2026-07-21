@@ -366,6 +366,43 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 > item-writers, or openly-licensed texts). Every component above is content-agnostic and matches the
 > DB shape, so licensed material drops straight in.
 
+### ▶ PICK UP HERE (state at end of 2026-07-21) — read this first after a context reset
+
+**Everything below in this session is already committed AND deployed AND verified live.**
+- Backend `ilm-ai@main` → Render `ilm-ai-backend` (`srv-d99id4mcjfls738a8l80`) →
+  https://ilm-ai-backend-256x.onrender.com — deploy `live`, `/health` 200, `/vocab/define` 200.
+- Frontend `ilm-ai-frontend@main` → Vercel project `ilm-ai` → https://ilm-ai-edu.vercel.app —
+  `Ready`, `/` and `/sat/ielts` both 200.
+- Both repos push to `main` and auto-deploy. A Render **env-var change does NOT auto-deploy** —
+  POST `/v1/services/<id>/deploys` afterwards.
+- Owner-supplied credentials were used this session: Render API key `rnd_…`, Vercel token `vcp_…`,
+  Brevo key `xkeysib-…`, Gemini key. They still work; tell the owner to revoke when done.
+- Local dev during the session: frontend `npm run dev` (:3000), backend
+  `python -m uvicorn main:app --port 8000` (global Python 3.12, no venv; Postgres unreachable →
+  auto SQLite fallback, so local IELTS/skill data is the SQLite copy, not prod).
+
+**THE ONE OPEN TASK: Cambridge IELTS 21 content extraction.**
+The owner **has bought a licence** for the official book + audio, so ingesting them is legitimate
+(this reverses the earlier "don't touch Cambridge content" stance — that only applied while there
+was no licence). A first extraction pass was done by the owner's other tooling and **it is broken**:
+`ielts_questions` is **0 rows**, 12 of 16 reading passages contain only the 30–36-char instruction
+line, every listening transcript is hard-cut at exactly 800 chars, speaking bullets are mojibake
+(`�`), and `ielts_writing.task` is `None`. Audio is the one good part: 26 MP3s in
+`ilm-ai-frontend/public/audio/listening/` and all 16 listening rows link to them.
+
+**Full details, source paths, PDF page map and the rewrite plan are in
+`scripts/IELTS21_EXTRACTION_NOTES.md`** — open that file first, it is written for exactly this
+situation. Short version: book is `C:/Users/Page/Downloads/IELTS_21.pdf` (146 pages, clean text
+layer), only `pypdf` is installed, and questions must be extracted first because nothing works
+without them.
+
+**Frontend is ready and waiting for that content:** `src/components/ielts/` holds `ReadingExam`,
+`ListeningExam`, `WritingExam`, `SpeakingExam`, `ExamShell` + `TestBrowser`, and
+`src/lib/ieltsBand.ts` has the official raw→band tables. `/sat/ielts/reading` (on bundled samples)
+and `/sat/ielts/dictionary` are wired; **Listening / Writing / Speaking pages are intentionally NOT
+wired** because their grading endpoints need a real `task_id` and the tables are still wrong —
+wire them only after the re-extraction lands.
+
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
   (rendered in `app/layout.tsx`, uz/ru/en, sessionStorage-dismissed). Backend: root `/` returns a
