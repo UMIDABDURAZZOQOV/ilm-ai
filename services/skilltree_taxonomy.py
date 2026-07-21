@@ -793,3 +793,49 @@ SKILLTREE_OUTLINE = {
         ],
     },
 }
+
+
+# ─── Generated syllabus depth ────────────────────────────────────────────────
+# The structure above is the hand-authored spine: it fixes the units and the first
+# few lessons of each, and its slugs are what existing UserLessonProgress rows point
+# at. It is however far too shallow to be a course -- every unit above is 3-5 lessons,
+# which put the whole of Uzbek history at 27 lessons and let a learner finish a
+# subject in under an hour.
+#
+# scripts/expand_taxonomy.py generates the rest of each unit's lesson list and writes
+# services/skilltree_outline.json; it is merged in here rather than pasted above so the
+# hand-authored spine stays readable and reviewable on its own. The merge only ever
+# APPENDS -- an existing slug is never moved or renamed, because that would silently
+# repoint somebody's completed-lesson row at a different lesson.
+
+import json as _json  # noqa: E402
+import os as _os      # noqa: E402
+
+_EXPANSION_PATH = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)),
+                                "skilltree_outline.json")
+
+
+def _merge_expansion() -> None:
+    if not _os.path.exists(_EXPANSION_PATH):
+        return
+    with open(_EXPANSION_PATH, encoding="utf-8") as fh:
+        expansion = _json.load(fh)
+
+    for subject_slug, units in expansion.items():
+        subject = SKILLTREE_OUTLINE.get(subject_slug)
+        if not subject:
+            continue
+        for unit in subject["units"]:
+            extra = units.get(unit["slug"]) or []
+            existing = {l["slug"] for l in unit["lessons"]}
+            for item in extra:
+                if item["slug"] in existing:
+                    continue
+                existing.add(item["slug"])
+                unit["lessons"].append({
+                    "slug": item["slug"],
+                    "title": {"uz": item["uz"], "ru": item["ru"], "en": item["en"]},
+                })
+
+
+_merge_expansion()

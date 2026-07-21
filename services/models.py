@@ -449,6 +449,30 @@ class UserUnitExam(Base):
     __table_args__ = (UniqueConstraint("user_id", "unit_id", name="uq_user_unit_exam"),)
 
 
+class PlacementQuestion(Base):
+    """Calibrated question bank for the placement test.
+
+    Deliberately separate from `SkillQuestion`: lesson questions are only tagged
+    easy/medium/hard *relative to their own lesson*, so a "hard" question inside the
+    A1 unit is still an A1 question. Scoring a CEFR level off them gave a number that
+    disagreed with every other placement test. Each row here is authored AT a level and
+    is only ever used to decide whether the learner has mastered that level.
+
+    `level` is a CEFR band (A1..C2) for languages, or `daraja_1`..`daraja_5` for the
+    academic subjects, ordered by `LEVEL_ORDER` in services/placement.py.
+    """
+    __tablename__ = "skilltree_placement_questions"
+    id = Column(Integer, primary_key=True, index=True)
+    subject_slug = Column(String(40), nullable=False, index=True)
+    level = Column(String(12), nullable=False, index=True)
+    skill = Column(String(40), nullable=True)        # grammar | vocabulary | reading | …
+    question_text = Column(Text, nullable=False)
+    options = Column(JSON, nullable=False)
+    correct_answer = Column(String(500), nullable=False)
+    explanation = Column(Text, nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
 class UserLanguageLevel(Base):
     """Result of the placement test offered when opening a LANGUAGE subject
     (ingliz_tili / koreys_tili / fransuz_tili). One row per (user, subject) --

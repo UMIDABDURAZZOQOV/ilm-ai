@@ -16,6 +16,7 @@ from sqlalchemy.orm import Session
 from services.auth_deps import ensure_own_user, get_authenticated_user_id, verify_user_access
 from services.db import get_db
 from services.models import (
+    PlacementQuestion,
     SkillDailyChallenge,
     SkillLesson,
     SkillLessonAttempt,
@@ -27,6 +28,13 @@ from services.models import (
     UserLanguageLevel,
     UserLessonProgress,
     UserUnitExam,
+)
+from services.placement import (
+    LANGUAGE_SUBJECT_SLUGS,
+    QUESTIONS_PER_LEVEL,
+    level_label,
+    levels_for,
+    score_placement,
 )
 from services.skill_tree import build_tree, lesson_status, newly_unlocked_lesson_ids
 from services.users import record_study_activity
@@ -883,25 +891,18 @@ def complete_marathon(
     }
 
 
-# ─── Language placement test ─────────────────────────────────────────────────
-# Shown when the learner opens a LANGUAGE subject. It draws a short, mixed-
-# difficulty quiz from that subject's own question bank and maps the score onto
-# a CEFR band, so they know where they stand before starting the path.
-
-LANGUAGE_SUBJECT_SLUGS = {"ingliz_tili", "koreys_tili", "fransuz_tili"}
-LEVEL_TEST_QUESTION_COUNT = 15
-
-
-def _cefr_level(score_pct: float) -> str:
-    if score_pct >= 90:
-        return "C1"
-    if score_pct >= 75:
-        return "B2"
-    if score_pct >= 60:
-        return "B1"
-    if score_pct >= 40:
-        return "A2"
-    return "A1"
+# ─── Placement test ──────────────────────────────────────────────────────────
+# Offered when the learner opens a subject, so they know where they stand before
+# starting the path. Languages are placed on CEFR, the academic subjects on the
+# Milliy Sertifikat 1-5 scale.
+#
+# This used to draw 15 questions from the ordinary lesson bank and map the raw
+# percentage onto a band. That was wrong twice over -- the lesson bank is not
+# calibrated to CEFR (its easy/medium/hard is relative to each lesson), and a
+# single percentage cannot tell "mastered A1, nothing above" from "half of
+# everything". The result disagreed with other placement tests, which makes it
+# worse than useless. It now draws from PlacementQuestion, whose rows are authored
+# at a level, and scores by level mastery -- see services/placement.py.
 
 
 def _level_row(db: Session, user_id: int, subject_slug: str) -> dict | None:
@@ -914,6 +915,7 @@ def _level_row(db: Session, user_id: int, subject_slug: str) -> dict | None:
         return None
     return {
         "level": row.level,
+        "label": level_label(subject_slug, row.level),
         "score": row.score,
         "total": row.total,
         "score_pct": row.score_pct,
@@ -927,49 +929,56 @@ def get_level_test(
     user_id: int = Depends(verify_user_access),
     db: Session = Depends(get_db),
 ):
-    """Questions for the placement test of a language subject, plus any level the
-    learner already has (so the UI can offer 'retake' instead of 'start')."""
+    """The placement paper for a subject, plus any level the learner already has
+    (so the UI can offer 'retake' instead of 'start').
+
+    Questions are drawn evenly from every level, easiest first: the learner walks up
+    the scale and the point where they stop being able to answer IS the result. The
+    level of each question is sent back with it so the client can report per-level
+    results, but it is never used for grading -- that happens server-side in
+    /level-test/complete from the stored answers.
+    """
     subject_row = db.query(SkillSubject).filter(SkillSubject.slug == subject).first()
     if not subject_row:
         raise HTTPException(status_code=404, detail="Subject not found")
-    if subject not in LANGUAGE_SUBJECT_SLUGS:
-        raise HTTPException(status_code=400, detail="Not a language subject")
 
-    q = (
-        db.query(SkillQuestion)
-        .join(SkillLesson, SkillQuestion.lesson_id == SkillLesson.id)
-        .join(SkillUnit, SkillLesson.unit_id == SkillUnit.id)
-        .filter(SkillUnit.subject_id == subject_row.id)
-    )
-    # Spread the picks across difficulties so the score actually discriminates
-    # between levels instead of sampling one band by chance.
-    picked: list[SkillQuestion] = []
-    per_bucket = max(1, LEVEL_TEST_QUESTION_COUNT // 3)
-    for diff in ("easy", "medium", "hard"):
-        rows = q.filter(SkillQuestion.difficulty == diff).all()
+    picked: list[PlacementQuestion] = []
+    for level in levels_for(subject):
+        rows = (
+            db.query(PlacementQuestion)
+            .filter(PlacementQuestion.subject_slug == subject, PlacementQuestion.level == level)
+            .all()
+        )
         random.shuffle(rows)
-        picked.extend(rows[:per_bucket])
-    if len(picked) < LEVEL_TEST_QUESTION_COUNT:
-        rest = [r for r in q.all() if r not in picked]
-        random.shuffle(rest)
-        picked.extend(rest[: LEVEL_TEST_QUESTION_COUNT - len(picked)])
-    random.shuffle(picked)
-    picked = picked[:LEVEL_TEST_QUESTION_COUNT]
+        # Spread each level's slots across its skills so a learner who is strong on
+        # grammar but weak on reading cannot pass a level on grammar alone.
+        by_skill: dict[str, list[PlacementQuestion]] = {}
+        for r in rows:
+            by_skill.setdefault(r.skill or "", []).append(r)
+        chosen: list[PlacementQuestion] = []
+        while len(chosen) < QUESTIONS_PER_LEVEL and any(by_skill.values()):
+            for bucket in by_skill.values():
+                if bucket and len(chosen) < QUESTIONS_PER_LEVEL:
+                    chosen.append(bucket.pop())
+        picked.extend(chosen)
 
     if not picked:
-        raise HTTPException(status_code=404, detail="No questions available for this subject")
+        raise HTTPException(status_code=404, detail="No placement questions available for this subject")
 
     return {
         "subject": {"slug": subject_row.slug, "name_uz": subject_row.name_uz, "color": subject_row.color},
+        "scale": "cefr" if subject in LANGUAGE_SUBJECT_SLUGS else "milliy",
+        "levels": [{"level": l, "label": level_label(subject, l)} for l in levels_for(subject)],
         "current_level": _level_row(db, user_id, subject),
         "questions": [
             {
                 "id": p.id,
+                "level": p.level,
+                "skill": p.skill,
                 "question_text": p.question_text,
                 "options": p.options,
                 "correct_answer": p.correct_answer,
                 "explanation": p.explanation,
-                "difficulty": p.difficulty,
             }
             for p in picked
         ],
@@ -993,17 +1002,34 @@ def complete_level_test(
     auth_user_id: int = Depends(get_authenticated_user_id),
     db: Session = Depends(get_db),
 ):
-    """Score the placement test server-side and store the resulting CEFR level."""
+    """Score the placement test server-side and store the resulting level.
+
+    The client sends which questions it got right, not a level -- the level comes from
+    each question's own `level` column, looked up here, so a tampered client cannot
+    award itself C1.
+    """
     ensure_own_user(data.user_id, auth_user_id)
-    if data.subject_slug not in LANGUAGE_SUBJECT_SLUGS:
-        raise HTTPException(status_code=400, detail="Not a language subject")
     if not data.results:
         raise HTTPException(status_code=400, detail="No results submitted")
 
-    total = len(data.results)
-    score = sum(1 for r in data.results if r.is_correct)
-    score_pct = score / total * 100
-    level = _cefr_level(score_pct)
+    rows = (
+        db.query(PlacementQuestion)
+        .filter(PlacementQuestion.id.in_([r.question_id for r in data.results]))
+        .all()
+    )
+    level_of = {r.id: r.level for r in rows}
+    if not level_of:
+        raise HTTPException(status_code=400, detail="Unknown placement questions")
+
+    per_level: dict[str, tuple[int, int]] = {}
+    for r in data.results:
+        lvl = level_of.get(r.question_id)
+        if not lvl:
+            continue
+        correct, asked = per_level.get(lvl, (0, 0))
+        per_level[lvl] = (correct + (1 if r.is_correct else 0), asked + 1)
+
+    result = score_placement(data.subject_slug, per_level)
     now = datetime.now(timezone.utc)
 
     row = (
@@ -1014,16 +1040,16 @@ def complete_level_test(
     if not row:
         row = UserLanguageLevel(user_id=data.user_id, subject_slug=data.subject_slug)
         db.add(row)
-    row.level = level
-    row.score = score
-    row.total = total
-    row.score_pct = score_pct
+    row.level = result["level"]
+    row.score = result["score"]
+    row.total = result["total"]
+    row.score_pct = result["score_pct"]
     row.taken_at = now
     db.commit()
 
     record_study_activity(data.user_id)
 
-    return {"level": level, "score": score, "total": total, "score_pct": score_pct}
+    return result
 
 
 # ─── Unit checkpoint exam ────────────────────────────────────────────────────
