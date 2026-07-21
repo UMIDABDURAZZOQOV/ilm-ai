@@ -1,5 +1,11 @@
 # Cambridge IELTS 21 Academic — extraction notes (2026-07-21)
 
+> **STATUS: DONE.** `scripts/parse_ielts21.py` + `scripts/seed_ielts21.py` replaced everything
+> described below; the fixture `scripts/seeds/ielts21.json` holds 320/320 questions with 320/320
+> answer keys and is live in production. This file is kept as the record of *why* the first pass
+> failed. The decisive fact — every page is `/Rotate 90`, so pypdf's default reading order
+> interleaves columns — is the thing to remember if the parser ever needs changing.
+
 The owner has a **licence** for the official book + audio, so ingesting them is fine.
 
 Source files

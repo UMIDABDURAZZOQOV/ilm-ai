@@ -368,6 +368,9 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 ### ▶ PICK UP HERE (state at end of 2026-07-21) — read this first after a context reset
 
+**No open task.** The Cambridge IELTS 21 extraction — the last one outstanding — is finished,
+deployed and verified (details below). Next session starts from whatever the owner asks for.
+
 **Everything below in this session is already committed AND deployed AND verified live.**
 - Backend `ilm-ai@main` → Render `ilm-ai-backend` (`srv-d99id4mcjfls738a8l80`) →
   https://ilm-ai-backend-256x.onrender.com — deploy `live`, `/health` 200, `/vocab/define` 200.
@@ -381,27 +384,52 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
   `python -m uvicorn main:app --port 8000` (global Python 3.12, no venv; Postgres unreachable →
   auto SQLite fallback, so local IELTS/skill data is the SQLite copy, not prod).
 
-**THE ONE OPEN TASK: Cambridge IELTS 21 content extraction.**
+**Cambridge IELTS 21 extraction — DONE 2026-07-21, live and verified. Do not redo it.**
 The owner **has bought a licence** for the official book + audio, so ingesting them is legitimate
 (this reverses the earlier "don't touch Cambridge content" stance — that only applied while there
-was no licence). A first extraction pass was done by the owner's other tooling and **it is broken**:
-`ielts_questions` is **0 rows**, 12 of 16 reading passages contain only the 30–36-char instruction
-line, every listening transcript is hard-cut at exactly 800 chars, speaking bullets are mojibake
-(`�`), and `ielts_writing.task` is `None`. Audio is the one good part: 26 MP3s in
-`ilm-ai-frontend/public/audio/listening/` and all 16 listening rows link to them.
+was no licence).
 
-**Full details, source paths, PDF page map and the rewrite plan are in
-`scripts/IELTS21_EXTRACTION_NOTES.md`** — open that file first, it is written for exactly this
-situation. Short version: book is `C:/Users/Page/Downloads/IELTS_21.pdf` (146 pages, clean text
-layer), only `pypdf` is installed, and questions must be extracted first because nothing works
-without them.
+The first extraction pass (by the owner's other tooling) was broken: `ielts_questions` was **0
+rows**, 12 of 16 reading passages held only the 30–36-char instruction line, every transcript was
+hard-cut at exactly 800 chars, speaking bullets were mojibake, `ielts_writing.task` was `None`.
+**Root cause: every page of the PDF is `/Rotate 90`.** pypdf's plain `extract_text()` then emits
+glyph runs in an order that interleaves columns — the answer keys came out as
+`"1 10/ten 21 &22 IN EITHER ORDER"` and the audioscripts lost speaker attribution entirely.
 
-**Frontend is ready and waiting for that content:** `src/components/ielts/` holds `ReadingExam`,
-`ListeningExam`, `WritingExam`, `SpeakingExam`, `ExamShell` + `TestBrowser`, and
-`src/lib/ieltsBand.ts` has the official raw→band tables. `/sat/ielts/reading` (on bundled samples)
-and `/sat/ielts/dictionary` are wired; **Listening / Writing / Speaking pages are intentionally NOT
-wired** because their grading endpoints need a real `task_id` and the tables are still wrong —
-wire them only after the re-extraction lands.
+`scripts/parse_ielts21.py` fixes this by collecting each run with its text-matrix position and
+rebuilding the lines itself: **with the rotation, `tm[4]` (x) runs *down* the page = line order,
+and `tm[5]` (y) runs *across* it = column order.** Keep that in mind before touching it.
+- `page_lines()` — normal pages. `page_segments()` — answer keys only; splits at bare-number runs
+  that sit in a **frequent** across-page position (≥5 hits), so numeric answers like `3 250` are
+  not mistaken for question numbers.
+- Running heads are dropped **case-sensitively** ("Listening" is a head, "LISTENING" is the section
+  heading we must keep).
+- Verify with the script's own report: it must print `missing=[]` for all 8 skill/test pairs.
+
+Result, all committed: **320/320 questions + 320/320 answer keys**, 12 passages of 750–960 words,
+untruncated speaker-tagged transcripts, clean Part 1/2/3 speaking, Task 1/Task 2 writing.
+- Fixture: `scripts/seeds/ielts21.json` (332 KB, committed). Regenerate with
+  `python scripts/parse_ielts21.py`; load with `python scripts/seed_ielts21.py --purge-legacy`.
+- **Production seeds itself**: `services/seed_ielts21.py::seed_ielts21_if_needed()` runs from
+  `main.py` and reseeds whenever the question count ≠ 320 **or** any listening part lacks audio.
+  (The audio check exists because an earlier fixture resolved mp3 paths by globbing the frontend's
+  `public/` dir, which does not exist on Render — prod seeded 320 questions with every
+  `audio_url` NULL. Paths are now baked into the JSON at parse time.)
+- New column **`ielts_listening.audio_parts` (JSON)** — 9 of the 16 parts were ripped as two files
+  that must play back to back. Added via `services/db.py`'s `migrate_*_columns()`, which is this
+  project's real migration mechanism (**alembic/ is vestigial and is not run on Render**).
+- Audio: 26 MP3s, **179 MB, committed to `ilm-ai-frontend/public/audio/listening/`** on the owner's
+  explicit go-ahead after weighing repo bloat vs. external hosting. Served from Vercel's CDN.
+- Known gap: Test 2 Listening Q15-20 is a **map-labelling** task whose labels live inside vector
+  artwork with no text layer. Those items are emitted with `needs_figure: true` and placeholder
+  text so the 1–40 numbering stays intact.
+
+**All four IELTS pages are now wired to the API** (they previously ran on the bundled samples in
+`src/lib/ielts.ts`; Listening even read its script aloud with `speechSynthesis`). Rows are grouped
+into "Cambridge IELTS 21 Academic → Test 1-4" by parsing the seeder's title format via
+`src/lib/cambridge.ts` — reading/listening carry the tag in `title`, speaking in `topic`, writing
+in `category`. **Speaking deliberately passes no `onSubmit`**: `/ielts/speaking/submit` cannot
+transcribe audio, so it would invent a band score; the recorder is for self-review only.
 
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
