@@ -32,6 +32,7 @@ from google import genai
 from google.genai import types as genai_types
 
 from services.db import SessionLocal, engine, Base
+from services.llm_provider import generate as llm_generate, provider_name
 from services.models import SkillLesson, SkillLessonPrerequisite, SkillQuestion, SkillSubject, SkillUnit
 from services.skilltree_bank import add_question, validate_question
 from services.skilltree_taxonomy import SKILLTREE_OUTLINE
@@ -58,31 +59,9 @@ _key_index = 0
 
 
 def _generate_round_robin(prompt: str, rounds: int = 3):
-    """Try every key, then wait and try them all again.
-
-    A batch this size will exhaust some keys' daily free-tier quota, and giving up
-    after one pass meant a single busy minute lost the whole lesson. Sweeping the ring
-    a few times with a pause in between rides out per-minute limits; a key that is out
-    of quota for the day simply keeps failing and the others carry the run.
-    """
-    global _key_index
-    if not _CLIENTS:
-        raise RuntimeError("No GEMINI_API_KEYS / GEMINI_API_KEY configured")
-    last_err = None
-    for attempt in range(rounds):
-        for _ in range(len(_CLIENTS)):
-            client = _CLIENTS[_key_index]
-            idx = _key_index
-            _key_index = (_key_index + 1) % len(_CLIENTS)
-            try:
-                return client.models.generate_content(model=MODEL, contents=prompt)
-            except Exception as e:
-                print(f"  key #{idx} failed: {str(e)[:120]}")
-                last_err = e
-                continue
-        if attempt < rounds - 1:
-            time.sleep(20)
-    raise last_err
+    """Delegates to services.llm_provider, so a batch can be carried by Gemini or by
+    an OpenAI-compatible key without changing anything here (SEED_PROVIDER)."""
+    return llm_generate(prompt, rounds=rounds)
 
 
 def _parse_json(text: str):
@@ -274,6 +253,7 @@ def main():
     args = parser.parse_args()
 
     os.makedirs(SEEDS_DIR, exist_ok=True)
+    print(f"provider: {provider_name()}", flush=True)
 
     db = SessionLocal()
     total = 0
