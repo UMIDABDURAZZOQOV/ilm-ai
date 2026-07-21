@@ -218,6 +218,33 @@
   {
     "subject_slug": "matematika",
     "unit_slug": "sonlar-amallar",
+    "lesson_slug": "sonning-butun-va-kasr-qismi-sonlarni-yaxlitlash",
+    "theory": [
+      {
+        "title": "Sonning butun qismi",
+        "body": "Har qanday haqiqiy sonning butun qismi bu — sondan oshmaydigan eng katta butun sondir. Oddiy qilib aytganda, vergulgacha bo'lgan qismni olamiz (musbat sonlar uchun). Uni [x] belgisi bilan belgilaymiz.",
+        "example": "[5,7] = 5; [3] = 3; [0,9] = 0"
+      },
+      {
+        "title": "Sonning kasr qismi",
+        "body": "Sonning kasr qismi — bu sonning o'zidan uning butun qismini ayirib tashlaganimizda qoladigan qism. Kasr qismi har doim 0 dan katta yoki teng, lekin 1 dan kichik bo'ladi ({x} < 1).",
+        "example": "{5,7} = 5,7 - 5 = 0,7; {3} = 3 - 3 = 0"
+      },
+      {
+        "title": "Sonlarni yaxlitlash qoidalari",
+        "body": "Sonni kerakli xonagacha yaxlitlash uchun undan keyingi raqamga qaraymiz. Agar bu raqam 0, 1, 2, 3, 4 bo'lsa, son o'zgarishsiz qoladi; agar 5, 6, 7, 8, 9 bo'lsa, oxirgi raqamga 1 qo'shiladi.",
+        "example": "2,43 ≈ 2,4 (3 < 5); 2,46 ≈ 2,5 (6 > 5)"
+      },
+      {
+        "title": "Manfiy sonlarda ehtiyot bo'ling",
+        "body": "Manfiy sonlarda butun qismni aniqlashda ehtiyot bo'lish kerak, chunki butun qism 'sondan oshmaydigan eng katta butun son' bo'lishi shart. Shuning uchun -2,3 ning butun qismi -2 emas, balki -3 ga teng.",
+        "example": "[-2,3] = -3; {-2,3} = -2,3 - (-3) = 0,7"
+      }
+    ]
+  },
+  {
+    "subject_slug": "matematika",
+    "unit_slug": "sonlar-amallar",
     "lesson_slug": "butun-ko-rsatkichli-daraja-va-uning-xossalari-sonning-standa",
     "theory": [
       {
@@ -428,6 +455,33 @@
         "title": "Test savollari",
         "body": "Quyidagi testlar yordamida bilimingizni tekshiring: 1) 4/√2 kasrini maxrajini irratsionallikdan qutqaring. 2) 1/(√3-√2) kasrini maxrajini irratsionallikdan qutqaring. 3) 5/(2+√3) kasrining maxrajini irratsionallikdan qutqaring.",
         "example": "Javoblar: 1) 2√2; 2) √3+√2; 3) 5(2-√3)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "matematika",
+    "unit_slug": "algebraik-ifodalar",
+    "lesson_slug": "modul-qatnashgan-algebraik-ifodalarni-soddalashtirish",
+    "theory": [
+      {
+        "title": "Modul nima o'zi?",
+        "body": "Modul – bu sonning noldan qancha masofada joylashganini ko‘rsatadigan o‘lchovdir. Masofa hech qachon manfiy bo‘lmaydi, shuning uchun modul ichidagi ifoda musbat bo‘lsa o‘zi chiqadi, manfiy bo‘lsa oldiga minus ishorasi qo‘yilib (ya'ni musbatga aylantirilib) chiqadi.",
+        "example": "|5| = 5; |-7| = -(-7) = 7"
+      },
+      {
+        "title": "Modulni ochish qoidasi",
+        "body": "Modul ichidagi ifodaning ishorasini aniqlash uchun uni nolga tenglab, oraliqlarni tekshiramiz. Agar ifoda 0 dan katta yoki teng bo‘lsa, modulni shunchaki olib tashlaymiz. Agar kichik bo‘lsa, ichidagi barcha hadlarning ishorasini qarama-qarshisiga o‘zgartiramiz.",
+        "example": "x=2 bo‘lsa, |x-1| = x-1 (chunki 2-1 > 0). Agar x=0 bo‘lsa, |x-1| = -(x-1) = 1-x."
+      },
+      {
+        "title": "Murakkab modulni yechish",
+        "body": "Agar ifodada bir nechta modul bo‘lsa, har bir modulning «nolga aylanish nuqtalari»ni aniqlab olamiz. Bu nuqtalar sonlar o‘qini bo‘laklarga ajratadi va har bir bo‘lakda modul ishorasi turlicha bo‘ladi. Har bir oraliq uchun alohida holatni ko‘rib chiqamiz.",
+        "example": "|x-1| + |x-3| ni yechish uchun x=1 va x=3 nuqtalari bo‘yicha 3 ta oraliqni tekshiramiz."
+      },
+      {
+        "title": "Modul xossalari bilan soddalashtirish",
+        "body": "Ba'zida ifodani to‘liq ochmasdan, xossalaridan foydalanish osonroq. Masalan, |a|² = a² va |-a| = |a| ekanligini yodda tuting. Bu xossalar murakkab ifodalarni qisqartirishda va tenglamalarni tez yechishda yordam beradi.",
+        "example": "|x-5|² ifodani (x-5)² deb yozish mumkin, bu esa hisoblashni ancha osonlashtiradi."
       }
     ]
   },

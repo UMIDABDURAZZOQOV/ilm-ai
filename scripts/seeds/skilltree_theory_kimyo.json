@@ -109,6 +109,119 @@
   },
   {
     "subject_slug": "kimyo",
+    "unit_slug": "atom-tuzilishi",
+    "lesson_slug": "izotoplar-izobarlar-va-izotonlar",
+    "theory": [
+      {
+        "title": "Izotoplar: Egziz aka-ukalar",
+        "body": "Izotoplar – bu protonlar soni bir xil, lekin neytronlar soni har xil bo'lgan bir xil element atomlari. Ular xuddi egizaklardek, kimyoviy xossalari bir xil, lekin massalari bilan farq qiladi.",
+        "example": "Vodorodning 3 ta izotopi bor: Protium (¹H), Deyteriy (²H) va Tritiy (³H). Ularning barchasida 1 ta proton bor, lekin neytronlar soni mos ravishda 0, 1 va 2 ta."
+      },
+      {
+        "title": "Izobarlar: Massasi teng atomlar",
+        "body": "Izobarlar – bu turli xil kimyoviy elementlarning atomlari bo'lib, ularning umumiy massasi (proton va neytronlar yig'indisi) bir xil bo'ladi. Ularning tartib raqami har xil bo'lgani uchun ular har xil element hisoblanadi.",
+        "example": "Argon (₄₀Ar) va Kalsiy (₄₀Ca) atomlarini qarang. Ularning ikkalasi ham 40 massaga ega, lekin ular jadvalda turlicha o'rinda turadi."
+      },
+      {
+        "title": "Izotonlar: Neytronlar soni teng",
+        "body": "Izotonlar – bu tarkibidagi neytronlar soni aynan bir xil bo'lgan turli element atomlari. Ularni topish uchun atom massasidan protonlar sonini (tartib raqamini) ayirib ko'rsangiz kifoya.",
+        "example": "Uglerod (₁₃C) va Azot (₁₄N) izotonlardir. Ikkalasida ham 7 tadan neytron bor (13-6=7 va 14-7=7)."
+      },
+      {
+        "title": "Bilimlarni tekshiramiz",
+        "body": "Quyidagi savolga javob bering: Agar ikkita atomning protonlar soni bir xil bo'lsa-yu, massasi farq qilsa, ular nima deb ataladi? A) Izobar B) Izotop C) Izoton",
+        "example": "To'g'ri javob: B) Izotop. Chunki protonlar soni o'zgarmasdan qolib, massa o'zgarsa, demak neytronlar soni o'zgargan bo'ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "atom-tuzilishi",
+    "lesson_slug": "kvant-sonlari-va-elektron-konfiguratsiyalar",
+    "theory": [
+      {
+        "title": "Bosh kvant soni (n)",
+        "body": "Bosh kvant soni elektronning yadroga qanchalik yaqinligini va uning energiya qavatini ko'rsatadi. U 1 dan boshlanib cheksizgacha bo'lgan butun sonlar (1, 2, 3...) bilan belgilanadi. Raqam qancha katta bo'lsa, elektron yadrodan shuncha uzoqda bo'ladi.",
+        "example": "1-qavat (n=1), 2-qavat (n=2). Masalan, vodorod atomidagi elektron n=1 qavatda joylashgan."
+      },
+      {
+        "title": "Orbital kvant soni (l)",
+        "body": "Bu son orbitalning shaklini belgilaydi. U 0 dan (n-1) gacha bo'lgan qiymatlarni qabul qiladi. Har bir raqam harf bilan ifodalanadi: 0 - s, 1 - p, 2 - d, 3 - f.",
+        "example": "s-orbitali shar shaklida (l=0), p-orbitali esa gantel shaklida (l=1) bo'ladi."
+      },
+      {
+        "title": "Spin kvant soni (ms)",
+        "body": "Elektronlar o'z o'qi atrofida aylanadi, bu ularning 'spini' deyiladi. U faqat ikkita qiymatni qabul qiladi: +1/2 (soat yo'nalishi bo'yicha) yoki -1/2 (soat yo'nalishiga qarshi). Bitta orbitalda maksimal 2 ta qarama-qarshi spinli elektron bo'lishi mumkin.",
+        "example": "Agar bitta orbitalda ikkita elektron bo'lsa, biri +1/2, ikkinchisi -1/2 spiniga ega bo'ladi."
+      },
+      {
+        "title": "Elektron konfiguratsiyasi",
+        "body": "Bu atomdagi elektronlarning orbitallar bo'ylab taqsimlanish tartibi. Elektronlar avval eng kam energiyali (1s), so'ngra yuqoriroq energiyali orbitallarni to'ldiradi. Buni 'Aufbau prinsipi' deb ataymiz.",
+        "example": "Uglerod (6 ta elektron) konfiguratsiyasi: 1s² 2s² 2p²."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "atom-tuzilishi",
+    "lesson_slug": "elementlarning-davriy-xossalari-atom-radiusi-ionlanish-energ",
+    "theory": [
+      {
+        "title": "Atom radiusi o'zgarishi",
+        "body": "Atom radiusi davr bo'ylab chapdan o'ngga kichrayadi, chunki yadro zaryadi ortib, elektronlarni kuchliroq tortadi. Guruhlarda esa yuqoridan pastga qarab, elektron qavatlar soni ko'paygani uchun atom radiusi kattalashib boradi.",
+        "example": "Litiy (Li) atomi flor (F) atomidan katta, chunki litiy davr boshida joylashgan."
+      },
+      {
+        "title": "Ionlanish energiyasi nima?",
+        "body": "Ionlanish energiyasi – bu atomdan eng kuchsiz bog'langan elektronni uzib olish uchun sarflanadigan energiya. Atom radiusi qancha kichik bo'lsa, yadro elektronni shuncha qattiq ushlab turadi va uni uzib olish qiyinlashadi, ya'ni ionlanish energiyasi ortadi.",
+        "example": "Gazsimon natriy atomidan elektronni uzib olish uchun talab qilinadigan energiya miqdori."
+      },
+      {
+        "title": "Elektromanfiylik tushunchasi",
+        "body": "Elektromanfiylik – bu atomning kimyoviy bog'lanishdagi elektronlarni o'ziga tortish qobiliyati. U davriy jadvalda odatda chapdan o'ngga va pastdan yuqoriga qarab ortib boradi; eng katta elektromanfiylikka ega element – ftor (F).",
+        "example": "Ftor (F) kisloroddan (O) ko'ra elektronlarni kuchliroq tortadi."
+      },
+      {
+        "title": "Test: Davriy qonuniyatlar",
+        "body": "Quyidagi savolga javob bering: Davr bo'ylab chapdan o'ngga harakatlanganda atom radiusi qanday o'zgaradi va buning oqibatida elektromanfiylik qanday o'zgaradi? \n\nA) Kichrayadi, ortadi \nB) Kattalashadi, kamayadi \nC) O'zgarmaydi, ortadi \nD) Kichrayadi, kamayadi",
+        "example": "To'g'ri javob: A. Atom kichraygani uchun elektronlarni tortish kuchi (elektromanfiylik) ortadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "atom-tuzilishi",
+    "lesson_slug": "kristall-panjara-turlari-va-moddalarning-fizik-xossalari",
+    "theory": [
+      {
+        "title": "Kristall panjara nima?",
+        "body": "Qattiq moddalardagi atom, ion yoki molekulalar tartibli va muayyan geometrik shaklda joylashadi. Bu tartibli joylashuvni biz kristall panjara deb ataymiz. Aynan shu tuzilish moddaning qattiqlik, erish nuqtasi va elektr o'tkazuvchanlik xossalarini belgilaydi.",
+        "example": "Tuz kristali (kub shaklida) yoki olmosning o'ta qattiq tuzilishi."
+      },
+      {
+        "title": "Ionli kristall panjara",
+        "body": "Bu panjarada zaryadlangan zarrachalar — ionlar (musbat va manfiy) bir-birini tortib turadi. Bu bog'lanish juda kuchli bo'lgani uchun ionli moddalar yuqori haroratda eriydi va qattiq holatda elektrni o'tkazmaydi, lekin eritmasi yoki eritmasi o'tkazadi.",
+        "example": "Osh tuzi (NaCl) va aksariyat tuzlar."
+      },
+      {
+        "title": "Atomli va molekular panjaralar",
+        "body": "Atomli panjarada atomlar kuchli kovalent bog' bilan bog'lanib, o'ta qattiq moddalarni hosil qiladi. Molekular panjarada esa molekulalar kuchsiz kuchlar bilan ushlanib turadi, shuning uchun ular yumshoq va past haroratda eriydi.",
+        "example": "Atomli: olmos; Molekular: muz, quruq muz (CO2) yoki yod."
+      },
+      {
+        "title": "Metall panjara xususiyati",
+        "body": "Metallarda atomlar erkin elektronlar dengizida joylashgan bo'ladi. Aynan mana shu erkin harakatlanuvchi elektronlar tufayli metallar elektr tokini va issiqlikni juda yaxshi o'tkazadi hamda ularni cho'zish yoki bolg'alash mumkin.",
+        "example": "Temir, mis va alyuminiy simlar."
+      },
+      {
+        "title": "Bilimlarni tekshiramiz",
+        "body": "Quyidagi testlarga javob bering: 1) Qaysi moddalar odatda yumshoq va past haroratda eriydi? A) Ionli, B) Molekular. 2) Elektr tokini faqat eritmasi yoki suyultmasi o'tkazadigan modda qaysi panjaraga ega? A) Metall, B) Ionli.",
+        "example": "Javoblar: 1-B, 2-B."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
     "unit_slug": "kimyoviy-qonunlar",
     "lesson_slug": "kimyoviy-formulalar",
     "theory": [
@@ -212,6 +325,195 @@
         "title": "Murakkab guruhlar bilan ishlash",
         "body": "Agar reaksiyada (SO4) yoki (NO3) kabi o'zgarmas guruhlar qatnashsa, ularni alohida atom kabi qarash mumkin. Bu jarayonni juda tezlashtiradi.",
         "example": "NaOH + H2SO4 → Na2SO4 + H2O. Bunda (SO4) guruhini bitta blok deb qarasak, 2NaOH + H2SO4 → Na2SO4 + 2H2O bo'ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-qonunlar",
+    "lesson_slug": "tarkibning-doimiylik-va-massaning-saqlanish-qonunlari",
+    "theory": [
+      {
+        "title": "Massaning saqlanish qonuni",
+        "body": "Kimyoviy reaksiyada moddalar o'zgargani bilan, ularning umumiy massasi hech qayerga yo'qolib qolmaydi. Ya'ni, reaksiya boshida ishtirok etgan moddalar massasi, hosil bo'lgan mahsulotlar massasiga har doim teng bo'ladi.",
+        "example": "Agar 2 g vodorod va 16 g kislorod reaksiyaga kirishsa, natijada aniq 18 g suv hosil bo'ladi."
+      },
+      {
+        "title": "Tarkibning doimiylik qonuni",
+        "body": "Sof moddalar qayerdan olinishidan va qaysi usulda tayyorlanishidan qat'i nazar, doimo bir xil tarkibga ega bo'ladi. Ularni tashkil etuvchi elementlarning massa nisbati har doim o'zgarmas qoladi.",
+        "example": "Suv (H2O) istalgan manbadan olinsin, uning tarkibidagi vodorod va kislorodning massa nisbati har doim 1:8 shaklida bo'ladi."
+      },
+      {
+        "title": "Massalar nisbatini hisoblash",
+        "body": "Kimyoviy birikmadagi elementlarning massa nisbatini topish uchun ularning atom massalarini indekslarga ko'paytiramiz. Bu nisbat o'sha birikmaning pasporti kabi doimo barqaror turadi.",
+        "example": "CO2 molekulasida C (12) va O (16x2=32) massa nisbati 12:32, ya'ni qisqartirganda 3:8 bo'ladi."
+      },
+      {
+        "title": "Test savollari",
+        "body": "1. Agar 10 g modda A 5 g modda B bilan reaksiyaga kirishsa, necha gramm mahsulot hosil bo'ladi? 2. Suv molekulasida (H2O) vodorodning kislorodga massa nisbati qanday? (H=1, O=16)",
+        "example": "Javoblar: 1) 15 g (Massaning saqlanishi); 2) 2:16 yoki 1:8 (Tarkibning doimiyligi)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-qonunlar",
+    "lesson_slug": "avogadro-qonuni-va-gazlarning-molyar-hajmi",
+    "theory": [
+      {
+        "title": "Avogadro qonuni mohiyati",
+        "body": "Avogadro qonuniga ko'ra, bir xil bosim va harorat sharoitida istalgan gazlarning teng hajmlarida bir xil miqdorda (bir xil sondagi) molekulalar bo'ladi. Bu degani, gazning qanday gaz ekanligi muhim emas, hajmi teng bo'lsa, zarrachalari ham teng bo'ladi.",
+        "example": "1 litr vodorod (H₂) va 1 litr kislorod (O₂) gazlari bir xil sharoitda bir xil miqdorda molekulaga ega."
+      },
+      {
+        "title": "Normal sharoit (n.sh.) tushunchasi",
+        "body": "Kimyoda gazlar bilan ishlashda qulaylik uchun 'normal sharoit' degan tushuncha kiritilgan. Bu sharoitda harorat 0°C (273 K), bosim esa 1 atm (101,3 kPa) deb qabul qilinadi. Barcha hisob-kitoblarimiz shu standart sharoitga asoslanadi.",
+        "example": "Laboratoriyada gaz hajmini o'lchashdan oldin uni termometr va barometr yordamida 'n.sh.' ga keltirishga harakat qilamiz."
+      },
+      {
+        "title": "Molyar hajm qoidasi",
+        "body": "Har qanday gazning 1 moli normal sharoitda doimiy 22,4 litr hajmni egallaydi. Bu o'zgarmas son bo'lib, unga gazning molyar hajmi (Vm) deyiladi. Endi gazning hajmini bilsangiz, uning qancha mol ekanligini osongina topa olasiz.",
+        "example": "Agar sizda 22,4 litr geliy bo'lsa, bu roppa-rosa 1 mol geliy degani."
+      },
+      {
+        "title": "Hajm va mol bog'liqligi",
+        "body": "Gazning hajmi (V) ni uning mol miqdoriga (n) o'tkazish uchun oddiy formuladan foydalanamiz: V = n × 22,4. Agar hajmdan molni topmoqchi bo'lsangiz, hajmni 22,4 ga bo'lasiz.",
+        "example": "44,8 litr karbonat angidrid (CO₂) gazining moli: 44,8 / 22,4 = 2 mol."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-qonunlar",
+    "lesson_slug": "gazlarning-nisbiy-zichligi-va-o-rtacha-molyar-massa",
+    "theory": [
+      {
+        "title": "Nisbiy zichlik tushunchasi",
+        "body": "Gazlarning nisbiy zichligi bir gazning ikkinchisiga nisbatan necha marta og'ir ekanligini ko'rsatadi. Uni topish uchun birinchi gazning molyar massasini ikkinchi gazning molyar massasiga bo'lamiz. Bu ko'rsatkich birlikga ega emas.",
+        "example": "Geliy (He) gazining vodorod (H2) gaziga nisbatan zichligini topish: M(He)=4, M(H2)=2. Demak, 4/2 = 2 marta og'ir."
+      },
+      {
+        "title": "Havo bo'yicha zichlik",
+        "body": "Ko'pincha gazlar havoga nisbatan solishtiriladi. Havo aralashma bo'lgani uchun uning o'rtacha molyar massasi 29 g/mol deb qabul qilinadi. Har qanday gazning havoga nisbatan zichligini bilish uchun gaz molyar massasini 29 ga bo'lish kifoya.",
+        "example": "Metan (CH4) gazining molyar massasi 16 g/mol. Uning havoga nisbatan zichligi: D(havo) = 16 / 29 ≈ 0,55."
+      },
+      {
+        "title": "O'rtacha molyar massa",
+        "body": "Agar idishda bir emas, balki bir nechta gazlar aralashmasi bo'lsa, ularning massalarini umumiy mol soniga bo'lib, o'rtacha molyar massani topamiz. Buni topishning oson yo'li: har bir gazning molyar massasini uning hajmiy ulushiga ko'paytirib, yig'indisini hisoblashdir.",
+        "example": "50% H2 (2 g/mol) va 50% O2 (32 g/mol) aralashmasining o'rtacha molyar massasi: (0,5 * 2) + (0,5 * 32) = 1 + 16 = 17 g/mol."
+      },
+      {
+        "title": "Test: Bilimingizni sinang",
+        "body": "Keling, o'rganganlarimizni tekshiramiz! 1-savol: Metanning (CH4, M=16) vodorod (H2, M=2) gaziga nisbatan zichligini toping. 2-savol: Havoning o'rtacha molyar massasi nechaga teng deb olinadi?",
+        "example": "Javoblar: 1) 16/2 = 8. 2) 29 g/mol."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-qonunlar",
+    "lesson_slug": "ekvivalent-va-ekvivalentlar-qonuni",
+    "theory": [
+      {
+        "title": "Ekvivalent nima o'zi?",
+        "body": "Ekvivalent — bu moddaning shunday miqdoriki, u kimyoviy reaksiyalarda 1 mol vodorod atomi bilan birikadi yoki uni siqib chiqaradi. Oddiy qilib aytganda, bu moddaning 'ta'sir etish qobiliyati' yoki uning reaksiyadagi 'ulushi' hisoblanadi.",
+        "example": "1 mol HCl (xlorid kislota) 1 mol vodorod atomini tutadi, demak uning ekvivalenti o'ziga teng. Ammo 1 mol H₂SO₄ (sulfat kislota) 2 ta vodorod atomini tutgani uchun, uning ekvivalenti molyar massasining yarmiga teng."
+      },
+      {
+        "title": "Ekvivalent massani hisoblash",
+        "body": "Moddaning ekvivalent massasini topish juda oson: modda molyar massasini uning reaksiyadagi valentligiga (yoki almashtiriladigan H/OH guruhlari soniga) bo'lasiz. Metallar uchun bu valentlik, kislotalar uchun vodorod atomlari soni, asoslar uchun esa OH guruhlari sonidir.",
+        "example": "Aluminiyning (Al) atom massasi 27, valentligi 3. U holda ekvivalent massasi: 27 / 3 = 9 g/mol."
+      },
+      {
+        "title": "Ekvivalentlar qonuni",
+        "body": "Kimyoviy reaksiyada moddalar har doim ekvivalent miqdorlarda o'zaro reaksiyaga kirishadi. Bu degani, bir moddaning ekvivalentlar soni ikkinchi moddaning ekvivalentlar soniga teng bo'lishi shart.",
+        "example": "Agar siz 10 g modda 'A' ni 5 g modda 'B' bilan to'liq reaksiyaga kirishsa, ularning ekvivalentlari teng deb qabul qilinadi. Formulada: m1/E1 = m2/E2."
+      },
+      {
+        "title": "Test: Bilimni sinaymiz",
+        "body": "Quyidagi savolga javob bering: Kaltsiyning (Ca) atom massasi 40, valentligi 2 ga teng. U holda kaltsiyning ekvivalent massasi qanchaga teng bo'ladi? (Javobni o'ylab ko'ring: 40/2 formulasi).",
+        "example": "A) 10; B) 20; C) 40; D) 80. (To'g'ri javob: B - 20)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-qonunlar",
+    "lesson_slug": "elementlarning-massa-ulushi-va-kimyoviy-formulalarni-keltiri",
+    "theory": [
+      {
+        "title": "Elementning massa ulushi",
+        "body": "Birikma ichidagi biror elementning massasini butun moddaning molekulyar massasiga bo'lsang, o'sha elementning massa ulushini topasan. Bu qiymat odatda 0 dan 1 gacha bo'ladi yoki foizda (%) ifodalanadi.",
+        "example": "H2O da kislorodning massa ulushi: 16 (O massasi) / 18 (H2O molekulyar massasi) ≈ 0,89 yoki 89%."
+      },
+      {
+        "title": "Massa ulushi formulasi",
+        "body": "Elementning massa ulushini (w) topish uchun uning atom massasini (Ar), indeksiga (n) ko'paytirib, moddaning umumiy molekulyar massasiga (Mr) bo'lishing kerak. Formulani eslab qol: w = (n * Ar) / Mr.",
+        "example": "CO2 da uglerodning massa ulushi: w(C) = (1 * 12) / 44 ≈ 0,27 yoki 27%."
+      },
+      {
+        "title": "Empirik formulani aniqlash",
+        "body": "Agar senga moddadagi elementlarning massa ulushlari berilgan bo'lsa, ularni atom massalariga bo'lib chiq. Chiqqan sonlar nisbati elementlarning eng sodda indekslarini beradi.",
+        "example": "Agar moddada 50% A va 50% B bo'lsa (Ar lari teng deb olaylik), ularning mol nisbati 1:1 bo'ladi, ya'ni formula AB ko'rinishida."
+      },
+      {
+        "title": "Molekulyar formulani topish",
+        "body": "Empirik formula - bu moddaning eng sodda nisbati. Haqiqiy molekulyar formulani topish uchun moddaning nisbiy molekulyar massasini (Mr) empirik formulaning massasiga bo'lish kerak. Chiqqan koeffitsientni empirik formuladagi indekslarga ko'paytirasan.",
+        "example": "Empirik formulasi CH bo'lgan moddaning Mr = 26 bo'lsa, (CH)n → 13 * n = 26, demak n = 2. Haqiqiy formula: C2H2."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-qonunlar",
+    "lesson_slug": "kimyoviy-tenglamalar-bo-yicha-stexiometrik-hisoblashlar",
+    "theory": [
+      {
+        "title": "Kimyoviy tenglama nima?",
+        "body": "Kimyoviy tenglama — bu reaksiyada qaysi moddalar qatnashayotgani va ularning miqdorini ko'rsatuvchi yozuvdir. Tenglamadagi moddalar oldidagi sonlar (koeffitsiyentlar) o'sha moddalarning necha mol ekanligini bildiradi.",
+        "example": "N₂ + 3H₂ → 2NH₃ tenglamasida 1 mol azot 3 mol vodorod bilan reaksiyaga kirishib, 2 mol ammiak hosil qiladi."
+      },
+      {
+        "title": "Mol va koeffitsiyent bog'liqligi",
+        "body": "Reaksiyadagi moddalar miqdorini aniqlash uchun tenglamadagi koeffitsiyentlarga qaraymiz. Agar moddalardan birining moli ma'lum bo'lsa, proporsiya usuli bilan boshqasini osongina topish mumkin.",
+        "example": "2H₂ + O₂ → 2H₂O. Agar bizda 2 mol vodorod bo'lsa, tenglamaga ko'ra u 1 mol kislorod bilan birikadi."
+      },
+      {
+        "title": "Massani moldan topish",
+        "body": "Ko'pincha savollarda modda miqdori mol emas, gramm (massa) bilan beriladi. Avval massani molga aylantirib olamiz (n=m/M), keyin tenglama bo'yicha hisoblab, qaytib massaga o'tamiz (m=n*M).",
+        "example": "4 gramm vodorod (2 mol) yoqilganda qancha suv hosil bo'ladi? Tenglamaga ko'ra 2 mol H₂ dan 2 mol H₂O (36g) hosil bo'ladi."
+      },
+      {
+        "title": "Stexiometrik hisoblash algoritmi",
+        "body": "Har qanday masalani yechish uchun 3 qadamli qoidaga amal qil: 1) Tenglamani yoz va tenglashtir; 2) Berilgan qiymatni molga o'tkaz; 3) Tenglama koeffitsiyentlari bo'yicha proporsiya tuz va javobni top.",
+        "example": "2Mg + O₂ → 2MgO. 48g (2 mol) magniy yonganda 2 mol MgO hosil bo'ladi. Molyar massani hisoblab (40g/mol), 80g MgO hosil bo'lishini topamiz."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-qonunlar",
+    "lesson_slug": "reaksiya-unumi-aralashmalar-va-ortib-qolgan-moddaga-doir-his",
+    "theory": [
+      {
+        "title": "Reaksiya unumi nima?",
+        "body": "Kimyoviy reaksiyada nazariy hisoblagan mahsulotimiz hamma vaqt ham 100% hosil bo'lmaydi. Reaksiya unumi (η) – amalda olingan mahsulotning nazariy hisoblangan mahsulotga nisbatining foizdagi ifodasidir. Ya'ni, qancha mahsulot olishni rejalashtirgan bo'lsang, aslida shuning qancha qismi qo'lingga tegdi?",
+        "example": "Nazariy 100g modda olishing kerak edi, lekin 80g olding. Demak, unum (80/100)*100% = 80%."
+      },
+      {
+        "title": "Aralashmalar bilan ishlash",
+        "body": "Reaksiyaga kirishadigan moddalar ko'pincha sof bo'lmaydi, tarkibida keraksiz aralashmalar bo'ladi. Hisoblashlarda biz faqat 'sof modda' massasi bilan ishlaymiz. Agar modda 90% sof bo'lsa, uning massasini 0,9 ga ko'paytirib, sof qismini topib olamiz.",
+        "example": "100g texnik rux (90% sof) bo'lsa, reaksiyaga faqat 90g sof rux kirishadi."
+      },
+      {
+        "title": "Ortib qolgan moddani aniqlash",
+        "body": "Ikki modda reaksiyaga kirishganda, ulardan biri to'liq sarflanib, ikkinchisi ozgina ortib qolishi mumkin. Avval har ikkala moddani molga o'tkazib, tenglama bo'yicha qaysi biri kamroq ekanini solishtiramiz. Kam bo'lgani 'chegaralovchi' modda, u tugagach reaksiya to'xtaydi.",
+        "example": "A+B=C reaksiyasida 2 mol A va 5 mol B bo'lsa, 2 mol A tugaydi va 3 mol B ortib qoladi."
+      },
+      {
+        "title": "Test: Bilimingizni tekshiring",
+        "body": "1) 50g 80% toza ohaktosh (CaCO3) parchalanganda necha gramm sof CaCO3 qatnashadi? 2) Agar 10 mol moddadan nazariy 10 mol chiqishi kerak bo'lsa-yu, 7 mol olinsa, unum qancha? 3) 5 mol A va 3 mol B reaksiyaga kirishsa (1:1 nisbatda), qaysi moddadan ortib qoladi?",
+        "example": "Javoblar: 1) 40g (50*0.8); 2) 70% (7/10*100); 3) A moddadan 2 mol ortib qoladi."
       }
     ]
   },
@@ -325,6 +627,195 @@
   },
   {
     "subject_slug": "kimyo",
+    "unit_slug": "anorganik-birikmalar",
+    "lesson_slug": "amfoter-birikmalar-oksid-va-gidroksidlar",
+    "theory": [
+      {
+        "title": "Amfoterlik nima?",
+        "body": "Amfoter birikmalar — bu ham kislota, ham asos xossalarini namoyon qila oladigan moddalardir. Ular xuddi 'ikkita yuzli' odamdek, vaziyatga qarab kislota bilan ham, ishqor bilan ham reaksiyaga kirisha oladi.",
+        "example": "Al(OH)3 va ZnO — eng mashhur amfoter birikmalar."
+      },
+      {
+        "title": "Asosiy amfoter metallar",
+        "body": "Milliy sertifikat imtihonida eng ko'p uchraydigan amfoter metallarni eslab qolish shart: Bular — Be, Zn, Al, Pb, Sn, Cr(III), Fe(III). Aynan shu metallarning oksid va gidroksidlari amfoterlik xossasini namoyon qiladi.",
+        "example": "Eslab qoling: 'BeZnAl Pb Sn Cr Fe' — bularning oksid va gidroksidlari ikki xil fe'lli!"
+      },
+      {
+        "title": "Amfoterlarning o'ziga xos xossasi",
+        "body": "Amfoter oksidlarni kislota bilan reaksiyaga kiritsangiz, tuz va suv hosil bo'ladi (asos kabi). Agar ularni ishqor (kuchli asos) bilan reaksiyaga kiritsangiz, yana tuz va suv hosil bo'ladi. Ular hech qachon 'betaraf' qolmaydi!",
+        "example": "ZnO + 2HCl → ZnCl2 + H2O (asos kabi) | ZnO + 2NaOH → Na2ZnO2 + H2O (kislota kabi)."
+      },
+      {
+        "title": "Test: Qaysi biri amfoter?",
+        "body": "Quyidagi moddalardan qaysi biri amfoter xossaga ega ekanligini aniqlang: A) Na2O, B) Al2O3, C) SO3. O'ylang: Na2O - asosli, SO3 - kislotali, qolgani esa...?",
+        "example": "Javob: B) Al2O3. Chunki u ham kislota, ham asos bilan reaksiyaga kirishadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "anorganik-birikmalar",
+    "lesson_slug": "kristallgidratlar-va-ularning-xossalari",
+    "theory": [
+      {
+        "title": "Kristallgidrat nima?",
+        "body": "Ba'zi tuzlar kristallanish jarayonida o'z tarkibiga suv molekulalarini 'qamab' oladi. Bunday suv saqlagan moddalar kristallgidratlar deyiladi. Ular oddiy tuzdan farqli o'laroq, tarkibida aniq miqdorda kristalizatsiya suvi tutadi.",
+        "example": "Mis kuporosi: CuSO₄·5H₂O (unda 5 ta suv molekulasi bor)."
+      },
+      {
+        "title": "Tarkibni yozish tartibi",
+        "body": "Kristallgidratlar formulasini yozganda tuz va suv orasiga nuqta qo'yiladi. Nuqta kimyoviy bog'lanish emas, shunchaki modda tarkibida suv borligini anglatadi. Suv oldidagi raqam esa har bir tuz molekulasiga to'g'ri keladigan suv molekulalari sonidir.",
+        "example": "Glauber tuzi: Na₂SO₄·10H₂O (bir mol tuzga 10 mol suv to'g'ri keladi)."
+      },
+      {
+        "title": "Kristallgidratlarning xossalari",
+        "body": "Bu moddalarni qizdirsak, tarkibidagi suv bug'lanib ketadi va modda suvsiz tuzga aylanadi. Bu jarayon qaytar bo'lishi mumkin: agar suvsiz tuzga yana suv qo'shsak, u qayta kristallanadi. Shuning uchun ular ko'pincha rangli kristallar ko'rinishida bo'ladi.",
+        "example": "Moviy rangli mis kuporosi qizdirilsa, oq rangli suvsiz CuSO₄ ga aylanadi."
+      },
+      {
+        "title": "Kristallgidratlar bilan hisoblash",
+        "body": "Masalalarni yechganda kristallgidratning umumiy massasini hisoblash uchun tuz va suvning molyar massalarini qo'shamiz. Esingizda bo'lsin: suvsiz tuzning massasi o'zgarmaydi, faqat suv bug'lanib ketadi.",
+        "example": "CuSO₄·5H₂O ning molyar massasi: 160 (tuz) + 5 × 18 (suv) = 250 g/mol."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "anorganik-birikmalar",
+    "lesson_slug": "anorganik-birikmalarning-genetik-bog-liqligi",
+    "theory": [
+      {
+        "title": "Genetik bog'liqlik nima?",
+        "body": "Tasavvur qil, kimyoviy moddalar xuddi shajaradagi ota-bola kabi bir-biridan kelib chiqadi. Oddiy moddalar oksidlanib oksidga, oksidlar suv bilan reaksiyaga kirishib kislota yoki asosga, ular esa o‘zaro birikib tuzga aylanadi. Bu zanjirni tushunish kimyodagi barcha reaksiyalarni yodlashdan saqlaydi.",
+        "example": "Metall (Na) → Asosli oksid (Na2O) → Asos (NaOH) → Tuz (NaCl)."
+      },
+      {
+        "title": "Metall va nometall yo'li",
+        "body": "Genetik zanjirni boshlash uchun moddani ikkiga ajratib olamiz: metallar va nometallar. Metallar kislorod bilan birikib asosli oksidlar hosil qiladi, nometallar esa kislotali oksidlar. Bu birinchi qadam bo'lib, zanjirning keyingi qismlarini belgilab beradi.",
+        "example": "Kalsiy (Ca - metall) → CaO (asosli oksid); Oltingugurt (S - nometall) → SO2 (kislotali oksid)."
+      },
+      {
+        "title": "Oksidlar va ularning 'suvli' mahsuloti",
+        "body": "Oksidlar suv bilan do'stlashib, yangi moddalarga aylanadi. Asosli oksidlar suv bilan reaksiyaga kirishib ishqor (asos) hosil qiladi, kislotali oksidlar esa suv bilan qo'shilib kislotalarni yuzaga keltiradi. Bu jarayon moddalarning kimyoviy tabiatini o'zgartiradi.",
+        "example": "CaO + H2O → Ca(OH)2 (asos); SO3 + H2O → H2SO4 (kislota)."
+      },
+      {
+        "title": "Yakuniy nuqta: Tuz hosil qilish",
+        "body": "Zanjirning oxirida kislota va asos uchrashadi. Ular bir-birini neytrallab, tuz va suv hosil qiladi. Bu reaksiya 'neytrallanish reaksiyasi' deyiladi va u genetik bog'liqlik zanjirini berkitadi.",
+        "example": "NaOH (asos) + HCl (kislota) → NaCl (tuz) + H2O."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "anorganik-birikmalar",
+    "lesson_slug": "kislota-asos-va-tuzlarning-elektrolitik-dissotsilanishi",
+    "theory": [
+      {
+        "title": "Elektrolitik dissotsilanish nima?",
+        "body": "Tasavvur qiling, tuz yoki kislota suvga tushganda mayda zaryadlangan zarrachalarga — ionlarga ajralib ketadi. Aynan mana shu jarayon elektrolitik dissotsilanish deyiladi. Bu jarayon moddalarning elektr tokini o‘tkazishini ta’minlaydi.",
+        "example": "Osh tuzi (NaCl) suvda Na⁺ va Cl⁻ ionlariga parchalanadi."
+      },
+      {
+        "title": "Kislotalar va vodorod ioni",
+        "body": "Kislotalar suvli eritmada dissotsilanganda har doim vodorod ioni (H⁺) hosil qiladi. Aynan shu ion kislotaning nordon ta’mi va barcha kimyoviy xossalariga javobgar hisoblanadi.",
+        "example": "HCl → H⁺ + Cl⁻ (xlorid kislota dissotsilanishi)."
+      },
+      {
+        "title": "Asoslar va gidroksid ioni",
+        "body": "Asoslar esa kislotalarning aksidir. Ular suvda eriganda OH⁻ (gidroksid) ionlarini hosil qiladi. Agar modda tarkibida OH guruhi bo'lsa, u odatda asosiy xossani namoyon qiladi.",
+        "example": "NaOH → Na⁺ + OH⁻ (natriy gidroksid dissotsilanishi)."
+      },
+      {
+        "title": "Tuzlarning tarkibi",
+        "body": "Tuzlar dissotsilanganda metal kationlari va kislota qoldig‘i anionlariga ajraladi. Ular tarkibida H⁺ yoki OH⁻ ionlari bo‘lmasligi bilan kislota va asoslardan farq qiladi.",
+        "example": "K₂SO₄ → 2K⁺ + SO₄²⁻ (kaliy sulfat dissotsilanishi)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "anorganik-birikmalar",
+    "lesson_slug": "tuzlar-gidrolizi",
+    "theory": [
+      {
+        "title": "Gidroliz nima?",
+        "body": "Tuzlarning suv bilan ta'sirlashib, kislota yoki asos hosil qilish jarayoniga gidroliz deyiladi. Oddiy qilib aytganda, tuz suvda eriganda uning ionlari suv molekulalarini «parchalab», muhitni nordon yoki ishqoriy qilib qo'yadi.",
+        "example": "NaCl (osh tuzi) suvda gidrolizlanmaydi, lekin NH4Cl suvda eriganda muhitni nordonlashtiradi."
+      },
+      {
+        "title": "Kuchli va kuchsiz qoidasi",
+        "body": "Gidrolizda eng muhim qoida: «kuchsiz tomon g'olib chiqadi». Ya'ni, tuz tarkibidagi kuchsiz kislota yoki kuchsiz asos qoldig'i gidrolizga uchraydi va muhitni o'z tabiatiga moslaydi.",
+        "example": "CH3COONa tuzida CH3COO- (kuchsiz kislota qoldig'i) gidrolizlanadi, natijada muhit ishqoriy (pH > 7) bo'ladi."
+      },
+      {
+        "title": "Muhitni aniqlash siri",
+        "body": "Tuzning muhitini bilish uchun uni tarkibiy qismlarga ajrating: kuchli asos + kuchsiz kislota = ishqoriy muhit; kuchsiz asos + kuchli kislota = kislotali muhit. Ikkala tomon ham kuchli bo'lsa, gidroliz ketmaydi va muhit neytral qoladi.",
+        "example": "K2SO4 (kuchli asos + kuchli kislota) = neytral muhit; Al2(SO4)3 (kuchsiz asos + kuchli kislota) = kislotali muhit."
+      },
+      {
+        "title": "Gidrolizlanmaydigan tuzlar",
+        "body": "Agar tuz kuchli asos va kuchli kislotadan hosil bo'lsa, u suvda gidrolizlanmaydi. Bunday tuzlar eritmada o'zgarishsiz qoladi va muhit doim neytral (pH=7) bo'ladi.",
+        "example": "NaCl, KNO3, Na2SO4 kabi tuzlar suvda gidrolizga uchramaydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "anorganik-birikmalar",
+    "lesson_slug": "binor-ikki-elementli-birikmalar-gidridlar-karbidlar-nitridla",
+    "theory": [
+      {
+        "title": "Binor birikmalar nima?",
+        "body": "Binor birikmalar tarkibi faqat ikki xil kimyoviy elementdan tashkil topgan moddalardir. Ularning umumiy formulasi odatda AxBy ko'rinishida bo'ladi, bu yerda A va B - har xil elementlar, x va y esa ularning indekslari.",
+        "example": "Suv (H2O) — vodorod va kisloroddan, osh tuzi (NaCl) — natriy va xlordan tashkil topgan binor birikmalardir."
+      },
+      {
+        "title": "Gidridlar va karbidlar",
+        "body": "Gidridlar vodorodning metallar yoki metallmaslar bilan hosil qilgan birikmalari. Karbidlar esa uglerodning metallar yoki kremniy bilan birikib, o'ziga xos qattiq tuzilma hosil qilishi natijasida yuzaga keladi.",
+        "example": "Gidridga misol: NaH (natriy gidrid). Karbidga misol: CaC2 (kalsiy karbid) – bu kalsiyni uglerod bilan birlashtiradi."
+      },
+      {
+        "title": "Nitridlar va fosfidlar",
+        "body": "Nitridlar azotning metallar bilan, fosfidlar esa fosforning metallar bilan birikmasidir. Bu moddalar ko'pincha yuqori qattiqlikka va issiqqa chidamlilik xususiyatiga ega.",
+        "example": "Nitridga misol: Mg3N2 (magniy nitrid). Fosfidga misol: Zn3P2 (rux fosfidi)."
+      },
+      {
+        "title": "Binor birikmalarni nomlash",
+        "body": "Binor birikmalarni nomlashda avval ikkinchi elementning (elektromanfiyligi yuqori bo'lgan) nomi 'id' qo'shimchasi bilan aytiladi, keyin birinchi elementning nomi qo'shiladi.",
+        "example": "NaCl – natriy xlorid (xlor -> xlorid), AlN – alyuminiy nitrid (azot -> nitrid)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "anorganik-birikmalar",
+    "lesson_slug": "kompleks-birikmalar",
+    "theory": [
+      {
+        "title": "Kompleks birikma nima?",
+        "body": "Kompleks birikmalar — bu markaziy ion (odatda metall) atrofida bir necha atom yoki guruhlar (ligandlar) joylashgan murakkab zarralardir. Oddiy tuzlardan farqli o‘laroq, ular suvda eriganda o‘z tuzilishini saqlab qoladigan barqaror guruhlar hosil qiladi.",
+        "example": "[Cu(NH3)4]SO4 yoki K4[Fe(CN)6]"
+      },
+      {
+        "title": "Markaziy atom va ligand",
+        "body": "Kompleks birikmaning markazida joylashgan metall ioni 'markaziy atom' deyiladi, unga bog‘langan atom yoki molekulalar esa 'ligandlar' hisoblanadi. Ligandlar markaziy atomga o‘z elektron juftlarini taqdim etib, maxsus donor-akseptor bog‘ini hosil qiladi.",
+        "example": "[Ag(NH3)2]Cl kompleksida Ag — markaziy atom, NH3 esa liganddir."
+      },
+      {
+        "title": "Koordinatsion son",
+        "body": "Koordinatsion son deganda markaziy atomga bevosita bog‘langan ligandlar soni tushuniladi. Bu son kompleksning fazoviy tuzilishini belgilaydi va odatda 2, 4 yoki 6 ga teng bo‘ladi.",
+        "example": "[Cu(NH3)4]SO4 birikmasida koordinatsion son 4 ga teng, chunki mis bilan 4 ta NH3 bog‘langan."
+      },
+      {
+        "title": "Kompleks birikma testlari",
+        "body": "Keling, o‘rganganlarimizni sinab ko‘ramiz. Quyidagi savollarga javob bering: 1) [Zn(NH3)4]Cl2 birikmasida markaziy atom qaysi? 2) Ushbu kompleksning koordinatsion soni nechaga teng?",
+        "example": "Javoblar: 1) Zn (rux); 2) 4."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
     "unit_slug": "eritmalar-reaksiyalar",
     "lesson_slug": "eritmalar-konsentratsiya",
     "theory": [
@@ -433,6 +924,141 @@
   },
   {
     "subject_slug": "kimyo",
+    "unit_slug": "eritmalar-reaksiyalar",
+    "lesson_slug": "eruvchanlik-to-yingan-va-to-yinmagan-eritmalar",
+    "theory": [
+      {
+        "title": "Eruvchanlik nima?",
+        "body": "Eruvchanlik – bu ma'lum bir haroratda 100 gramm erituvchi (odatda suv) qancha moddani eritib, to'yingan eritma hosil qila olishini ko'rsatuvchi o'lchovdir. Tasavvur qiling, har bir moddaning suvda «sig'imi» bor, u cheksiz eriy olmaydi.",
+        "example": "20°C haroratda 100 g suvda ko'pi bilan 36 g osh tuzi (NaCl) eriydi. Agar undan ko'p solsangiz, ortig'i tubiga cho'kadi."
+      },
+      {
+        "title": "To'yingan eritma tushunchasi",
+        "body": "Agar erituvchi berilgan haroratda moddani eritib bo'lib, endi hech qancha qo'shib erita olmasa, bunday eritma to'yingan deyiladi. Bu holatda erigan modda va cho'kma o'rtasida muvozanat yuzaga keladi.",
+        "example": "Stakandagi suvga shakar solib aralashtirdingiz va pastda shakar qoldiqlari qoldi. Demak, sizning eritmaniz to'yingan."
+      },
+      {
+        "title": "To'yinmagan eritma",
+        "body": "To'yinmagan eritma – bu hali yana ma'lum miqdorda moddani eritib olish imkoniyatiga ega bo'lgan eritmadir. Unga ozroq modda qo'shsangiz, u erib ketadi va eritma to'yinganlik sari yaqinlashadi.",
+        "example": "Bir stakan iliq suvga bir choy qoshiq tuz soldingiz va u darhol eridi. Demak, eritma hali to'yinmagan edi."
+      },
+      {
+        "title": "Haroratning ta'siri",
+        "body": "Ko'pgina qattiq moddalarning eruvchanligi harorat ko'tarilishi bilan ortadi. Ya'ni, suvni qizdirsangiz, u sovuq suvga qaraganda ko'proq moddani eritish qobiliyatiga ega bo'ladi.",
+        "example": "Sovuq suvda shakar qiyinroq eriydi, lekin qaynoq suvda shakar ancha tez va ko'proq miqdorda eriydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "eritmalar-reaksiyalar",
+    "lesson_slug": "kimyoviy-reaksiya-tezligi-va-unga-ta-sir-etuvchi-omillar",
+    "theory": [
+      {
+        "title": "Kimyoviy reaksiya tezligi nima?",
+        "body": "Kimyoviy reaksiya tezligi — bu vaqt birligi ichida reaksiyaga kirishayotgan moddalar konsentratsiyasining o'zgarishidir. Oddiy qilib aytganda, reaksiya qanchalik tez ketsa, moddalar shunchalik tez sarflanadi va mahsulot tezroq hosil bo'ladi.",
+        "example": "Temirning zanglashi sekin kechadigan, gugurtning yonishi esa juda tez kechadigan reaksiyaga misoldir."
+      },
+      {
+        "title": "Konsentratsiyaning tezlikka ta'siri",
+        "body": "Reaksiyaga kirishuvchi moddalar konsentratsiyasini oshirsangiz, zarrachalar bir-biri bilan to'qnashish ehtimoli ortadi. Natijada reaksiya tezligi ham keskin oshadi, chunki ko'proq zarrachalar bir vaqtda to'qnashadi.",
+        "example": "Konsentrlangan kislotada metallar suyultirilgan kislotaga qaraganda ancha tezroq eriydi."
+      },
+      {
+        "title": "Haroratning reaksiya tezligiga ta'siri",
+        "body": "Haroratni oshirish zarrachalarning harakat tezligini va ularning energiyasini oshiradi. Natijada zarrachalar bir-biri bilan kuchliroq va tez-tez to'qnashib, reaksiya tezligini bir necha barobar tezlashtiradi.",
+        "example": "Muzlatgichda oziq-ovqatlar sekinroq buziladi, chunki past haroratda parchalanish reaksiyalari sekinlashadi."
+      },
+      {
+        "title": "Katalizatorning o'rni",
+        "body": "Katalizator — bu reaksiya tezligini oshiradigan, lekin o'zi reaksiya davomida sarflanmaydigan moddadir. U reaksiya uchun 'qisqa yo'l' (aktivlanish energiyasini kamaytiruvchi yo'l) yaratib beradi.",
+        "example": "Organizmimizdagi fermentlar katalizator vazifasini bajarib, hayotiy muhim jarayonlarni juda tez amalga oshiradi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "eritmalar-reaksiyalar",
+    "lesson_slug": "kimyoviy-muvozanat-va-uning-siljishi-le-shatelye-prinsipi",
+    "theory": [
+      {
+        "title": "Kimyoviy muvozanat nima?",
+        "body": "Kimyoviy muvozanat – bu to‘g‘ri va teskari reaksiyalar tezligi tenglashgan holatdir. Bu vaqtda moddalar sarflanib va hosil bo‘lib tursa-da, ularning konsentratsiyasi o‘zgarmay qoladi. Xuddi savdo markaziga kirayotgan va chiqayotgan odamlar soni teng bo‘lsa, ichkaridagi odamlar soni o‘zgarmay qolganidek.",
+        "example": "A + B ⇌ C + D reaksiyasida C va D hosil bo‘lish tezligi, ularning yana A va B ga parchalanish tezligiga tenglashganda muvozanat o‘rnatiladi."
+      },
+      {
+        "title": "Le-Shatelye prinsipi qoidasi",
+        "body": "Le-Shatelye prinsipi shuni aytadiki, agar muvozanatdagi tizimga tashqaridan ta’sir qilinsa (harorat, bosim yoki konsentratsiya), tizim bu ta’sirni kamaytirishga harakat qiladi. Ya'ni, muvozanat o‘zini himoya qilish uchun qarama-qarshi tomonga siljiydi.",
+        "example": "Xonaga issiqlik kirgizsangiz, tizim uni yutish uchun issiqlik yutiladigan (endotermik) tarafga qarab harakatlanadi."
+      },
+      {
+        "title": "Konsentratsiya va muvozanat",
+        "body": "Agar reaksiya aralashmasiga biror modda qo‘shsangiz, tizim o‘sha moddani kamaytirishga urinadi. Buning uchun muvozanat qo‘shilgan modda kamayadigan tomonga (qarama-qarshi tarafga) siljiydi. Aksincha, moddani olib tashlasangiz, muvozanat uni to‘ldirish uchun o‘sha tarafga siljiydi.",
+        "example": "A + B ⇌ C reaksiyasida A ni ko‘paytirsangiz, tizim uni sarflash uchun o‘ngga (C tomon) siljiydi."
+      },
+      {
+        "title": "Bosim va muvozanat",
+        "body": "Bosim faqat gaz holidagi moddalarga ta’sir qiladi. Agar bosimni oshirsangiz, muvozanat gazlar hajmi kichikroq bo‘lgan (mol miqdori kamroq) tomonga siljiydi. Bosimni pasaytirsangiz, gazlar hajmi kattaroq bo‘lgan tomonga siljiydi.",
+        "example": "N2(g) + 3H2(g) ⇌ 2NH3(g) reaksiyasida bosimni oshirsak, muvozanat gazlar kamroq bo‘lgan o‘ng tomonga (NH3 ga) siljiydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "eritmalar-reaksiyalar",
+    "lesson_slug": "suyuqlanma-va-eritmalarning-elektrolizi",
+    "theory": [
+      {
+        "title": "Elektroliz nima?",
+        "body": "Elektroliz — bu elektr toki yordamida moddalarni parchalash jarayoni. Tasavvur qiling, elektr toki kimyoviy bog‘larni uzib, ionlarni ajratib oladi va ularni elektrodlarga yo‘naltiradi.",
+        "example": "Tuzli suvdan elektr toki o‘tkazilsa, tuz tarkibiy qismlarga — natriy va xlorga ajraladi."
+      },
+      {
+        "title": "Suyuqlanma elektrolizi",
+        "body": "Agar tuzni eritmay, shunchaki eritib (suyuqlantirib) elektroliz qilsak, jarayon ancha sodda bo‘ladi. Bunda suv ishtirok etmaydi, shuning uchun faqat tuzning kationi manfiy elektrodga (katod), anioni esa musbat elektrodga (anod) boradi.",
+        "example": "NaCl suyuqlanmasini elektroliz qilsak, katodda sof natriy metalli, anodda esa xlor gazi ajralib chiqadi."
+      },
+      {
+        "title": "Eritmalar elektrolizining farqi",
+        "body": "Eritma elektrolizida suv ham 'o‘yinchi'ga aylanadi. Katodda metall bilan birga vodorod, anodda esa kislota qoldig‘i bilan birga kislorod ham ajralishi mumkin. Qaysi biri ajralishi metallning aktivlik qatoridagi o‘rniga bog‘liq.",
+        "example": "NaCl eritmasi elektrolizida katodda natriy emas, balki vodorod gazi ajraladi, chunki natriy suvda tura olmaydi."
+      },
+      {
+        "title": "Elektrodlarda nima bo‘ladi?",
+        "body": "Eslab qoling: katod — manfiy zaryadlangan bo‘lib, u yerda qaytarilish jarayoni ketadi. Anod — musbat zaryadlangan, u yerda esa oksidlanish jarayoni sodir bo‘ladi. Elektronlar doim katodga qarab oqadi.",
+        "example": "Katodda kationlar elektron olib metalga aylanadi, anodda esa anionlar elektron berib gaz holiga o‘tadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "eritmalar-reaksiyalar",
+    "lesson_slug": "faradey-qonunlari-elektrolizga-doir-kimyoviy-hisoblashlar",
+    "theory": [
+      {
+        "title": "Faradeyning 1-qonuni: Asosiy tushuncha",
+        "body": "Elektroliz paytida elektrodlarda ajralib chiqqan modda miqdori eritma orqali o'tgan elektr zaryadi (tok kuchi va vaqt ko'paytmasi) bilan to'g'ri proporsional. Ya'ni, tokni qancha uzoq va kuchliroq bersangiz, shuncha ko'p modda hosil bo'ladi.",
+        "example": "Agar tok kuchini 2 barobar oshirsangiz, katodda ajralgan metall massasi ham 2 barobar ortadi."
+      },
+      {
+        "title": "Faradeyning 2-qonuni: Ekvivalentlar",
+        "body": "Turli moddalardan bir xil miqdorda elektr toki o'tganda, ajralib chiqqan moddalarning massalari ularning ekvivalent massalariga mutanosib bo'ladi. Ekvivalent massa esa moddaning atom massasini uning valentligiga bo'lish orqali topiladi.",
+        "example": "Mis (II) ioni 2 ta elektron olib to'liq qaytariladi, kumush ioni esa faqat 1 ta elektron oladi. Shu sababli, 1 mol elektr bilan 1 mol kumush, lekin atigi 0,5 mol mis ajratib olish mumkin."
+      },
+      {
+        "title": "Faradey formulasi bilan ishlash",
+        "body": "Modda massasini (m) hisoblash uchun quyidagi formuladan foydalanamiz: m = (M * I * t) / (n * F). Bunda M - molyar massa, I - tok kuchi, t - vaqt, n - elektronlar soni, F esa Faradey soni (taxminan 96500 Kl/mol).",
+        "example": "Agar 2 amper tok 9650 soniya davomida o'tsa, F=96500 bo'lgani uchun sistemadan 0,2 mol elektron o'tgan bo'ladi."
+      },
+      {
+        "title": "Elektrolizda test savoli",
+        "body": "Tushunishni tekshiramiz: Agar eritmadan 96500 Kulon elektr miqdori o'tsa, katodda 1 mol monovalentli (valentligi 1) metall ajralib chiqadi. Xo'sh, agar valentligi 2 bo'lgan metall tuzi eritmasidan xuddi shuncha tok o'tsa, necha mol metall ajraladi?",
+        "example": "Javob: 0,5 mol. Chunki metall ionini qaytarish uchun 2 ta elektron talab etiladi, 1 mol elektr esa atigi 1 mol elektronni anglatadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
     "unit_slug": "organik-kimyo",
     "lesson_slug": "uglevodorodlar",
     "theory": [
@@ -514,6 +1140,222 @@
   },
   {
     "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "alkadiyenlar-va-alkinlar",
+    "theory": [
+      {
+        "title": "Alkinlarning o'ziga xosligi",
+        "body": "Alkinlar uglevodorodlar bo'lib, ularning tarkibida kamida bitta uch bog' (C≡C) mavjud. Bu bog' ularni juda faol qiladi va umumiy formulasi CnH2n-2 bo'ladi.",
+        "example": "Eng oddiy alkin – asetilen (etin): HC≡CH."
+      },
+      {
+        "title": "Alkadiyenlar nima?",
+        "body": "Alkadiyenlar molekulasida ikkita qo'sh bog' (=) bo'lgan to'yinmagan uglevodorodlardir. Ularning ham umumiy formulasi CnH2n-2 bo'lib, alkinlar bilan izomer hisoblanadi.",
+        "example": "Butadiyen-1,3: CH2=CH-CH=CH2."
+      },
+      {
+        "title": "Bog'larning joylashuvi",
+        "body": "Alkadiyenlarda qo'sh bog'lar bir-biriga nisbatan qanday joylashganiga qarab ular turlarga bo'linadi. Agar bog'lar orasida bitta uglerod bo'lsa (kumulyativ) yoki bir bog' orqali kelsa (konjugirlangan), ularning xossalari keskin farq qiladi.",
+        "example": "Konjugirlangan diyenlar (tizimli qo'sh bog'lar) tabiatda va sanoatda juda muhim hisoblanadi."
+      },
+      {
+        "title": "Reaksiyaga kirishish xususiyati",
+        "body": "Ham alkinlar, ham alkadiyenlar to'yinmagan bo'lgani uchun osonlikcha gidrogenlanadi (vodorod qo'shib oladi). Bu reaksiyalar natijasida ular to'yingan alkanlarga aylanadi.",
+        "example": "Asetilenga vodorod qo'shilsa, avval etilen, keyin etan hosil bo'ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "tsikloalkanlar-va-aromatik-uglevodorodlar-arenlar",
+    "theory": [
+      {
+        "title": "Tsikloalkanlar nima?",
+        "body": "Tsikloalkanlar – bu uglerod atomlari yopiq halqa hosil qilgan to'yingan uglevodorodlardir. Ularning umumiy formulasi CnH2n bo'lib, alkanlardan farqli o'laroq, ular yopiq tuzilishga ega.",
+        "example": "Eng kichik tsikloalkan – bu 3 ta ugleroddan tashkil topgan tsiklopropan (C3H6)."
+      },
+      {
+        "title": "Aromatik uglevodorodlar (Arenlar)",
+        "body": "Arenlar tarkibida benzol halqasi tutgan uglevodorodlardir. Ularning eng muhim xususiyati – halqa ichidagi qo'sh bog'larning o'zaro almashinib, barqaror elektron tizim hosil qilishidir.",
+        "example": "Benzol (C6H6) – barcha arenlarning asosiy vakili va eng oddiy aromatik birikma."
+      },
+      {
+        "title": "Arenlarning o'ziga xos xossasi",
+        "body": "Aromatik halqa juda barqaror bo'lgani uchun arenlar odatda qo'shilish reaksiyasiga emas, balki o'rin olish reaksiyasiga moyil bo'ladi. Bu ularni oddiy to'yinmagan uglevodorodlardan farqlab turadi.",
+        "example": "Benzolga xlor ta'sir ettirganda, u bromli suvni rangsizlantirmaydi, chunki halqa buzilmaydi."
+      },
+      {
+        "title": "Test: Bilimni tekshiramiz",
+        "body": "Quyidagi savolga javob bering: Tsikloalkanlarning umumiy formulasi qaysi? A) CnH2n+2, B) CnH2n, C) CnH2n-6. Shuningdek, benzol qanday reaksiyaga moyil: o'rin olishmi yoki qo'shilishmi?",
+        "example": "Javob: Umumiy formula CnH2n, benzol esa o'rin olish reaksiyasiga moyil."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "fenollar-va-oddiy-efirlar",
+    "theory": [
+      {
+        "title": "Fenollar nima o'zi?",
+        "body": "Fenollar - benzol halqasidagi vodorod atomi gidroksil guruhi (-OH) bilan bevosita almashingan organik birikmalar. Ularni oddiy spirtlar bilan adashtirmang, chunki fenolda -OH guruhi bevosita benzol halqasiga birikkan bo'ladi.",
+        "example": "Eng oddiy vakili - fenol (C6H5OH), ya'ni benzol halqasiga -OH birikkan holat."
+      },
+      {
+        "title": "Fenolning kislotalik xossasi",
+        "body": "Fenollar spirtlardan farqli o'laroq, kuchsiz kislotalik xossasiga ega. Benzol halqasi -OH guruhidagi kislorod atomining elektronlarini o'ziga tortib, vodorodning osonroq ajralib chiqishiga yordam beradi, shu sababli fenol ishqorlar bilan reaksiyaga kirishadi.",
+        "example": "C6H5OH + NaOH → C6H5ONa (natriy fenolyat) + H2O."
+      },
+      {
+        "title": "Oddiy efirlar tuzilishi",
+        "body": "Oddiy efirlar - kislorod atomi orqali bog'langan ikkita uglevodorod radikalidan (R-O-R') tashkil topgan moddalar. Ularni 'kislorod ko'prikchasi' bor molekulalar deb tasavvur qiling.",
+        "example": "Dimetilefir (CH3-O-CH3) yoki dietilefir (C2H5-O-C2H5)."
+      },
+      {
+        "title": "Fenolning sifat reaksiyasi",
+        "body": "Fenolni boshqa moddalardan ajratib olishning eng oson yo'li - temir(III) xlorid (FeCl3) bilan ta'sirlashishdir. Bu reaksiyada eritma o'ziga xos binafsha rangga kiradi, bu fenol borligining isboti.",
+        "example": "Fenol eritmasiga FeCl3 tomizilganda hosil bo'lgan binafsha rangli kompleks birikma."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "aldegidlar-va-ketonlar",
+    "theory": [
+      {
+        "title": "Karbonil guruhi nima?",
+        "body": "Aldegidlar va ketonlar tarkibida karbonil guruhi (C=O) mavjud. Bu guruhda uglerod atomi kislorod bilan qo'sh bog' orqali bog'langan bo'lib, ular organik kimyodagi eng muhim funksional guruhlardan biridir.",
+        "example": "Form aldegid (HCHO) va atseton (CH3COCH3) tarkibida aynan shu guruh bor."
+      },
+      {
+        "title": "Aldegid va keton farqi",
+        "body": "Agar karbonil guruhi zanjirning chetida bo'lsa, bu aldegid bo'ladi. Agar u ikki uglerod atomi orasida, ya'ni zanjirning o'rtasida joylashsa, u keton hisoblanadi.",
+        "example": "Aldegid: R-CHO (oxirida); Keton: R-CO-R (o'rtada)."
+      },
+      {
+        "title": "Nomenklatura: Nomlash qoidalari",
+        "body": "Aldegidlarni nomlashda alkan nomiga '-al' qo'shimchasi, ketonlarga esa '-on' qo'shimchasi qo'shiladi. Ketonlarda asosiy zanjir shunday raqamlanadiki, karbonil guruhiga eng kichik raqam tegsin.",
+        "example": "Metanal (formaldegid), Propanon (atseton)."
+      },
+      {
+        "title": "Oksidlanish va Kumush ko'zgusi",
+        "body": "Aldegidlar oson oksidlanib kislotaga aylanadi, ketonlar esa deyarli oksidlanmaydi. Shu sababli, aldegidlar 'kumush ko'zgusi' reaksiyasini beradi, bu esa ularni laboratoriyada aniqlashning eng ishonchli usulidir.",
+        "example": "Aldegid + [Ag(NH3)2]OH -> Kumush cho'kmasi (ko'zgu hosil bo'ladi)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "murakkab-efirlar",
+    "theory": [
+      {
+        "title": "Murakkab efirlar nima?",
+        "body": "Murakkab efirlar – bu organik kislotalar va spirtlar o‘zaro reaksiyaga kirishganda hosil bo‘ladigan moddalardir. Ularni hosil qilish jarayoni 'esterifikatsiya' deyiladi. Bu jarayonda suv molekulasi ajralib chiqadi.",
+        "example": "Sirka kislota + Etil spirti → Etilatsetat (murakkab efir) + Suv."
+      },
+      {
+        "title": "Murakkab efirlarning umumiy formulasi",
+        "body": "Ularning tarkibida ester guruhini (COO) ko‘ramiz. Umumiy formulasi R-COO-R' ko‘rinishida yoziladi, bu yerda R – kislota qoldig‘i, R' esa spirt qoldig‘idir.",
+        "example": "Metilatsetat: CH3-COO-CH3 (CH3CO- kislota qismi, -CH3 spirt qismi)."
+      },
+      {
+        "title": "Nomlash qoidalari",
+        "body": "Murakkab efirlarni nomlashda avval spirt qoldig‘i (radikali), so‘ngra kislota qoldig‘ining nomi (at yoki at-kislota) aytiladi. Bu xuddi familiya va ism kabi qat'iy tartibda bo‘ladi.",
+        "example": "CH3-COO-C2H5 → Etilatsetat (Etil radikali + atsetat kislota qoldig‘i)."
+      },
+      {
+        "title": "Murakkab efirlarning gidrolizi",
+        "body": "Murakkab efirlar suv bilan reaksiyaga kirishib, yana boshlang‘ich moddalar – kislota va spirtga parchalanadi. Bu jarayon teskari jarayon bo‘lib, katalizator (kislota yoki ishqor) ishtirokida tezroq kechadi.",
+        "example": "Etilatsetat + H2O → Sirka kislota + Etil spirti."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "aminlar-va-nitrobirikmalar",
+    "theory": [
+      {
+        "title": "Aminlar nima?",
+        "body": "Aminlar — bu ammiak (NH₃) molekulasidagi vodorod atomlarining uglevodorod radikallari bilan almashinishidan hosil bo'lgan organik birikmalar. Ularning asosiy xususiyati shundaki, ular asoslik xossasiga ega, ya'ni kislotalar bilan reaksiyaga kirishadi.",
+        "example": "Metilamin (CH₃NH₂) va etilamin (C₂H₅NH₂)."
+      },
+      {
+        "title": "Nitrobirikmalar tuzilishi",
+        "body": "Nitrobirikmalar — bu uglevodorodlardagi vodorod atomining nitro-gruppa (-NO₂) bilan almashinishidan hosil bo'ladi. Ular aminlardan farqli o'laroq, kuchli asoslik xossasiga ega emas va ko'pincha portlovchi moddalar tayyorlashda ishlatiladi.",
+        "example": "Nitrometan (CH₃NO₂) va nitrobenzol (C₆H₅NO₂)."
+      },
+      {
+        "title": "Aminlarning asoslik xossasi",
+        "body": "Aminlar o'z tarkibidagi azot atomida bo'sh elektron juftiga ega bo'lgani uchun asoslik xossasini namoyon qiladi. Alifatik aminlar (masalan, metilamin) ammiakka qaraganda kuchliroq asos hisoblanadi, aromatik aminlar (anilin) esa kuchsizroq.",
+        "example": "Metilamin suvli eritmasida lakmus qog'ozini ko'kka bo'yaydi, chunki u asosli muhit hosil qiladi."
+      },
+      {
+        "title": "Amin va nitrobirikma farqi",
+        "body": "Eng muhim farq shundaki, aminlar aminogruppa (-NH₂) tutadi va kislotalar bilan tuz hosil qiladi, nitrobirikmalar esa nitro-gruppa (-NO₂) tutadi. Aminlar hid jihatidan ko'pincha baliq hidiga o'xshaydi, nitrobirikmalar esa o'ziga xos o'tkir hidga ega.",
+        "example": "Metilamin (CH₃NH₂) — amin; Nitrometan (CH₃NO₂) — nitrobirikma."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "aminokislotalar",
+    "theory": [
+      {
+        "title": "Aminokislotalar nima?",
+        "body": "Aminokislotalar — tarkibida ikkita muhim funksional guruh: aminoguruh (-NH₂) va karboksil guruh (-COOH) saqlagan organik birikmalardir. Ularni 'oqsillar gʻishtchasi' deb atashadi, chunki tirik organizmdagi barcha oqsillar aynan shu kislotalardan quriladi.",
+        "example": "Eng oddiy aminokislota — glitsin (H₂N-CH₂-COOH)."
+      },
+      {
+        "title": "Amfoterlik xususiyati",
+        "body": "Aminokislotalar ikkilamchi tabiatga ega, ya'ni ular ham kislota, ham asos bilan reaksiyaga kirisha oladi. Aminoguruh asoslik xossasini, karboksil guruh esa kislotalik xossasini namoyon qiladi. Shu sababli ular 'amfoter' birikmalar deyiladi.",
+        "example": "Ular ishqorlar bilan tuz hosil qiladi (-COOH guruh orqali) va kislotalar bilan reaksiyaga kirishadi (-NH₂ guruh orqali)."
+      },
+      {
+        "title": "Peptid bogʻi nima?",
+        "body": "Ikki aminokislota molekulasi oʻzaro birikganda, birining aminogruppasi ikkinchisining karboksil gruppasi bilan reaksiyaga kirishadi. Natijada suv ajralib chiqadi va ular orasida kuchli 'peptid bogʻi' (-CO-NH-) hosil boʻladi.",
+        "example": "Ikkita glitsin molekulasi birlashganda glitsil-glitsin dipeptidi va suv hosil bo'ladi."
+      },
+      {
+        "title": "Izomeriya turlari",
+        "body": "Aminokislotalarda nafaqat tuzilish (izomeriya), balki optik izomeriya ham juda muhim. Tarkibidagi uglerod atomi to'rtta har xil guruh bilan bog'langan bo'lsa, u 'xiral markaz' hisoblanadi va molekula fazoda turlicha joylashishi mumkin.",
+        "example": "D- va L-aminokislotalar optik izomerlarga misol bo'ladi; tabiatda asosan L-shakldagi aminokislotalar uchraydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "organik-kimyo",
+    "lesson_slug": "sintetik-yuqori-molekulyar-birikmalar-polimerlar",
+    "theory": [
+      {
+        "title": "Polimer nima?",
+        "body": "Tasavvur qil, kichkina gʻishtchalar bir-biriga zanjir kabi ulanib, katta devor hosil qiladi. Kimyoda bu kichik boʻlaklar 'monomer', ularning birlashib hosil qilgan uzun zanjiri esa 'polimer' deyiladi. Ular tabiatda ham, kundalik hayotimizda ham juda koʻp uchraydi.",
+        "example": "Etilen (monomer) → Polietilen (polimer)."
+      },
+      {
+        "title": "Polimerlanish reaksiyasi",
+        "body": "Monomerlar qanday qilib uzun zanjirga aylanadi? Buning uchun ularning tarkibidagi qoʻsh bogʻlar uziladi va boʻshagan qoʻllar orqali ular bir-biriga mahkam yopishadi. Bu jarayon 'polimerlanish' deyiladi, bunda hech qanday yon mahsulot ajralmaydi.",
+        "example": "Vinilxlorid molekulalari qoʻsh bogʻini ochib, polivinilxlorid (PVX) zanjirini hosil qiladi."
+      },
+      {
+        "title": "Polikondensatlanish reaksiyasi",
+        "body": "Baʼzi polimerlar hosil boʻlishida monomerlar bir-biri bilan birikayotganda suv yoki boshqa kichik molekulalar ajralib chiqadi. Bu jarayon 'polikondensatlanish' deyiladi. Polimerlanishdan farqi shundaki, bu yerda zanjir hosil boʻlishi bilan birga qoʻshimcha 'chiqindi' ham chiqadi.",
+        "example": "Kaprone va neylon kabi poliamid tolalarning hosil boʻlishi."
+      },
+      {
+        "title": "Termoplastik va termoreaktivlar",
+        "body": "Polimerlarni qizdirganda nima boʻlishiga qarab ikki guruhga ajratamiz. Termoplastlar (polietilen) qizdirilsa eriydi va shaklini oʻzgartiradi, ularni qayta ishlash oson. Termoreaktivlar esa bir marta qotgach, qayta erimaydi, ular oʻta mustahkam boʻladi.",
+        "example": "Termoplastik: plastik idishlar; Termoreaktiv: avtomobil shinalari (rezina)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
     "unit_slug": "kimyoviy-hisoblashlar",
     "lesson_slug": "formula-boyicha-hisoblash",
     "theory": [
@@ -590,6 +1432,217 @@
         "title": "Eritmani suv bilan suyultirish",
         "body": "Agar eritmaning ustiga shunchaki suv qo'shsak, erigan moddaning massasi o'zgarmaydi, lekin eritmaning umumiy hajmi va massasi ortadi. Natijada konsentratsiya kamayadi. Har doim \"qancha modda bor edi?\" degan savoldan boshla.",
         "example": "100 g 20% li eritmaning ustiga 100 g suv qo'shsak, modda o'zgarmaydi (20g), lekin eritma 200g bo'ladi: 20/200 = 10%."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "gaz-qonunlari-va-gazlarning-nisbiy-zichligiga-oid-hisoblashl",
+    "theory": [
+      {
+        "title": "Molyar hajm tushunchasi",
+        "body": "Normal sharoitda (n.sh.) istalgan gazning 1 mol miqdori doimo 22,4 litr hajmni egallaydi. Bu raqamni eslab qolsang, gaz hajmi va mol miqdori orasidagi bog'liqlikni osongina topasan.",
+        "example": "2 mol kislorod (O2) n.sh.da: 2 × 22,4 = 44,8 litr hajmni egallaydi."
+      },
+      {
+        "title": "Gazlarning nisbiy zichligi",
+        "body": "Bir gazning ikkinchi gazga nisbatan og'irligini bilish uchun ularning molyar massalarini bir-biriga bo'lamiz. Bu formula orqali noma'lum gazning massasini osongina aniqlash mumkin.",
+        "example": "Metanning (CH4, M=16) vodorodga (H2, M=2) nisbatan zichligi: D=16/2=8. Demak, metan vodoroddan 8 marta og'ir."
+      },
+      {
+        "title": "Havo bo'yicha zichlik",
+        "body": "Kimyoda gazlarni ko'pincha havo bilan solishtiramiz. Havoning o'rtacha molyar massasi 29 ga teng deb qabul qilingan, shuning uchun istalgan gazning havo bo'yicha zichligini topish uchun uning molyar massasini 29 ga bo'lish kifoya.",
+        "example": "Uglerod (IV) oksidning (CO2, M=44) havo bo'yicha zichligi: D=44/29 ≈ 1,52."
+      },
+      {
+        "title": "Gazlar uchun asosiy testlar",
+        "body": "Endi bilimlaringni sinab ko'ramiz. 1) 0,5 mol gaz n.sh.da qancha hajm (litr) egallaydi? 2) Molyar massasi 64 bo'lgan gazning vodorodga nisbatan zichligi nechaga teng?",
+        "example": "Javoblar: 1) 0,5 × 22,4 = 11,2 litr; 2) 64 / 2 = 32."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "reaksiyaga-kirishuvchi-moddalardan-biri-ortib-qolishiga-doir",
+    "theory": [
+      {
+        "title": "Chegaralovchi reagent nima?",
+        "body": "Kimyoviy reaksiyada barcha moddalar bir vaqtda tugamasligi mumkin. Qaysi modda miqdori kamroq bo'lib, reaksiya davomida birinchi bo'lib tugab qolsa, o'sha modda 'chegaralovchi reagent' deyiladi. Reaksiya mahsulotining miqdori aynan shu tugab qolgan moddaga qarab aniqlanadi.",
+        "example": "Agar sizda 2 ta non va 10 ta kotlet bo'lsa, siz atigi 2 ta buterbrod tayyorlay olasiz. Bu yerda non — chegaralovchi reagent, kotlet esa ortib qoladi."
+      },
+      {
+        "title": "Ortib qolgan moddani aniqlash",
+        "body": "Reaksiyada qaysi modda ortib qolishini bilish uchun berilgan moddalarning mol miqdorlarini reaksiya tenglamasidagi koeffitsiyentlarga bo'lib ko'rish kerak. Natijasi kichikroq chiqqan modda tugaydi, kattasi esa albatta ortib qoladi.",
+        "example": "N2 + 3H2 → 2NH3 reaksiyasida 1 mol N2 va 5 mol H2 olsak: N2 uchun 1/1=1, H2 uchun 5/3=1.66. Demak, 1 < 1.66, N2 tugaydi, H2 esa ortib qoladi."
+      },
+      {
+        "title": "Ortib qolgan miqdorni hisoblash",
+        "body": "Ortib qolgan moddaning miqdorini topish uchun avval reaksiya uchun sarflangan qismini topib olamiz. Keyin boshlang'ich miqdordan sarflanganini ayiramiz. Matematikasi juda oddiy: (Boshlang'ich) - (Sarflangan) = (Ortib qolgan).",
+        "example": "Yuqoridagi misolda: 1 mol N2 bilan 3 mol H2 sarflanadi. Boshida 5 mol H2 bor edi, demak 5 - 3 = 2 mol H2 ortib qoladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "reaksiya-unumi-va-tarkibida-aralashmasi-bo-lgan-moddalarga-o",
+    "theory": [
+      {
+        "title": "Aralashma va sof modda",
+        "body": "Ko'pincha laboratoriyada ishlatiladigan moddalar 100% sof bo'lmaydi, ularda boshqa qo'shimchalar (aralashma) bo'ladi. Hisoblashlarda biz faqat 'sof modda' miqdori bilan ishlaymiz, shuning uchun umumiy massadan aralashma foizini ayirib tashlashni unutma.",
+        "example": "100 g texnik (aralashmali) ohaktosh tarkibida 10% aralashma bo'lsa, sof CaCO3 massasi = 100 - (100 * 0,1) = 90 g bo'ladi."
+      },
+      {
+        "title": "Reaksiya unumi tushunchasi",
+        "body": "Nazariyada qog'ozda hisoblagan natijamiz doim ham amalda chiqmaydi. Reaksiya unumi (η - eta) — bu amalda olingan mahsulotning nazariy hisoblangan mahsulotga nisbatidir. Unum 100% dan kam bo'lsa, demak, reaksiya to'liq bormagan.",
+        "example": "Nazariy 10 mol mahsulot chiqishi kerak edi, lekin amalda 8 mol olindi. Reaksiya unumi = (8 / 10) * 100% = 80%."
+      },
+      {
+        "title": "Hisoblashda unumni qo'llash",
+        "body": "Agar reaksiya unumi berilgan bo'lsa, xomashyodan mahsulotga o'tayotganda unumni ko'paytiruvchi sifatida (kamaytirib) ishlatamiz. Agar mahsulotdan xomashyoni topmoqchi bo'lsang, unumga bo'lish orqali qiymatni 'kattalashtirib' olamiz.",
+        "example": "10 mol moddadan 80% unum bilan: 10 * 0,8 = 8 mol mahsulot chiqadi. Agar 8 mol mahsulot 80% unum bilan olinsa: 8 / 0,8 = 10 mol xomashyo kerak bo'ladi."
+      },
+      {
+        "title": "Kompleks masalalar strategiyasi",
+        "body": "Murakkab masalalarni yechish uchun avval aralashmali moddaning sof qismini aniqla, keyin tenglama tuzib nazariy qiymatni top va yakunida unumdan foydalanib amaldagi javobni hisobla. Har doim qadam-baqadam yondashish xatolikdan saqlaydi.",
+        "example": "200 g 10% aralashmali uglerod yondirildi. 90% unum bilan qancha CO2 chiqadi? 1) Sof C = 180 g (15 mol). 2) Nazariy CO2 = 15 mol. 3) Amalda = 15 * 0,9 = 13,5 mol."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "termokimyoviy-tenglamalar-va-reaksiyaning-issiqlik-effektiga",
+    "theory": [
+      {
+        "title": "Termokimyoviy tenglama nima?",
+        "body": "Kimyoviy reaksiyalar jarayonida energiya yo yutiladi yoki ajraladi. Termokimyoviy tenglama – bu reaksiya davomida qancha issiqlik ajralganini yoki yutilganini ko'rsatib beruvchi maxsus yozuvdir. Bu qiymat odatda reaksiya oxirida 'ΔH' (entalpiya) belgisi bilan yoziladi.",
+        "example": "H₂(g) + ½O₂(g) → H₂O(s); ΔH = -286 kJ. (Minus belgisi issiqlik ajralganini, ya'ni ekzotermik reaksiyani bildiradi)."
+      },
+      {
+        "title": "Ekzo va Endotermik reaksiya",
+        "body": "Issiqlik ajralishi bilan boradigan reaksiyalar 'ekzotermik' deyiladi (ΔH < 0), ular atrofni isitadi. Agar reaksiya borishi uchun tashqaridan energiya berish kerak bo'lsa, bu 'endotermik' reaksiya deyiladi (ΔH > 0) va u atrofni sovutadi.",
+        "example": "Yonish reaksiyalari (o'tin yonganda issiqlik chiqadi) — ekzotermik; suvning parchalanishi (elektr toki yordamida) — endotermik."
+      },
+      {
+        "title": "Koeffitsiyent va issiqlik bog'liqligi",
+        "body": "Termokimyoviy tenglamada moddalar oldidagi koeffitsiyentlar issiqlik miqdoriga to'g'ridan-to'g'ri ta'sir qiladi. Agar tenglamadagi moddalar miqdorini 2 marta oshirsangiz, ajraladigan yoki yutiladigan issiqlik miqdori ham 2 marta ortadi.",
+        "example": "Agar 1 mol modda yonganda 100 kJ issiqlik ajralsa, 2 mol modda yonganda 200 kJ issiqlik ajraladi."
+      },
+      {
+        "title": "Termokimyoviy hisoblashlar tartibi",
+        "body": "Hisoblashlarda 'tenglama = issiqlik' proporsiyasidan foydalaniladi. Avval reaksiya tenglamasini yozib, koeffitsiyentlarni to'g'rilang, so'ngra berilgan modda moli va issiqlik miqdori o'rtasida oddiy proporsiya tuzing.",
+        "example": "C + O₂ → CO₂ + 400 kJ. 1 mol C yonganda 400 kJ ajralsa, 0,5 mol C yonganda 200 kJ issiqlik ajraladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "modda-aralashmalariga-gazlar-va-qattiq-moddalar-aralashmasi-",
+    "theory": [
+      {
+        "title": "Aralashma mohiyati",
+        "body": "Aralashma — bu ikki yoki undan ortiq moddaning bir joyda to‘planishi. Kimyoviy masalalarda biz odatda aralashmaning umumiy massasini bilamiz, lekin uning tarkibidagi har bir moddaning massasini aniqlashimiz kerak bo‘ladi.",
+        "example": "Tarkibida 10g temir va 5g oltingugurt bo‘lgan 15g aralashma. Bu yerda umumiy massa 15g, komponentlar esa 10g va 5g."
+      },
+      {
+        "title": "Noma'lumlarni belgilash",
+        "body": "Aralashma tarkibidagi moddalarni topish uchun eng oson yo‘l — ularni x va y deb belgilashdir. Birinchi modda massasini 'x', ikkinchisini 'y' desak, ularning yig‘indisi umumiy massaga teng bo‘ladi (x + y = umumiy massa).",
+        "example": "Agar aralashma 20g bo‘lsa: x (birinchi modda) + y (ikkinchi modda) = 20."
+      },
+      {
+        "title": "Tenglamalar sistemasini tuzish",
+        "body": "Bitta noma'lum (x) bilan ishlay olmasak, ikkinchi tenglamani reaksiya tenglamasi yordamida tuzamiz. Reaksiyaga kirishuvchi moddalar mol miqdorini x va y orqali ifodalab, berilgan hajm yoki massa bo‘yicha tenglama chiqaramiz.",
+        "example": "Agar aralashmada Zn va Mg bo‘lsa, ularning mollarini x/65 va y/24 deb yozib, ajralib chiqqan vodorod gaziga bog‘lab tenglama tuzamiz."
+      },
+      {
+        "title": "Gazlar aralashmasi va mol",
+        "body": "Gazlar bilan ishlaganda massadan ko‘ra hajmlar bilan ishlash qulayroq. Gazlar aralashmasining umumiy hajmi komponentlar hajmlari yig‘indisiga teng (V1 + V2 = V umumiy), bu xuddi massa kabi ishlaydi.",
+        "example": "CH4 va C2H6 aralashmasi 10 litr bo‘lsa: x (CH4) + y (C2H6) = 10 litr."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "moddalarning-eruvchanligi-va-kristallogidratlarga-doir-hisob",
+    "theory": [
+      {
+        "title": "Eruvchanlik tushunchasi",
+        "body": "Eruvchanlik koeffitsienti (S) ma'lum bir haroratda 100 g suvda eriy oladigan moddaning maksimal miqdorini (grammlarda) ko'rsatadi. Esingda tut, eritma massasi = suv massasi + erigan modda massasi.",
+        "example": "Agar tuzning eruvchanligi 20 °C da 36 g bo'lsa, bu 100 g suvda maksimal 36 g tuz erib, 136 g to'yingan eritma hosil bo'lishini anglatadi."
+      },
+      {
+        "title": "To'yingan eritma ulushi",
+        "body": "Eritmaning foiz konsentratsiyasini topish uchun erigan modda massasini umumiy eritma massasiga bo'lib, 100 ga ko'paytiramiz. Har doim eritma massasi 100 + S ekanligini yodda tut.",
+        "example": "Eruvchanligi 25 g bo'lgan moddaning to'yingan eritmasida: w = 25 / (100 + 25) = 25 / 125 = 0,2 yoki 20%."
+      },
+      {
+        "title": "Kristallogidrat nima?",
+        "body": "Kristallogidratlar tarkibida kimyoviy bog'langan suv molekulalari (kristallizatsiya suvi) bo'lgan tuzlardir. Hisoblashlarda ularning umumiy massasini, ya'ni tuz + suv massasini inobatga olish juda muhim.",
+        "example": "Mis kuporosi (CuSO₄·5H₂O) formulasida 1 mol tuz (160 g) bilan birga 5 mol suv (90 g) mavjud, demak, umumiy massa 250 g."
+      },
+      {
+        "title": "Kristallogidratli masalalar",
+        "body": "Kristallogidratdan eritma tayyorlaganda, uning tarkibidagi tuzni erigan modda, suvni esa erituvchi deb qaraymiz. Eritma massasi esa kristallogidratning o'zi bo'ladi.",
+        "example": "250 g CuSO₄·5H₂O ni suvda eritganda, biz aslida 160 g CuSO₄ va 90 g qo'shimcha suvni eritma tarkibiga qo'shamiz."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "kimyoviy-kinetika-va-kimyoviy-muvozanatga-oid-hisoblashlar",
+    "theory": [
+      {
+        "title": "Reaksiya tezligi tushunchasi",
+        "body": "Kimyoviy reaksiya tezligi vaqt birligida moddalar konsentratsiyasining o'zgarishidir. Reaksiya qancha tez ketsa, moddalar shuncha tez sarflanadi yoki hosil bo'ladi. Bu jarayonni harakatlanayotgan mashinaning tezligiga o'xshatishingiz mumkin.",
+        "example": "Vaqt o'tishi bilan A moddaning konsentratsiyasi 0.5 mol/l dan 0.2 mol/l ga kamaysa, reaksiya tezligi shu o'zgarish orqali aniqlanadi."
+      },
+      {
+        "title": "Guldberg-Vaage qonuni",
+        "body": "Reaksiya tezligi reaksiyaga kirishuvchi moddalar konsentratsiyalarining ko'paytmasiga to'g'ri proporsionaldir. Oddiyroq aytganda, idishda modda qancha ko'p bo'lsa, zarralar bir-biri bilan shuncha ko'p to'qnashadi va reaksiya tezlashadi.",
+        "example": "A + B → C reaksiyasi uchun tezlik tenglamasi: v = k * [A] * [B] ko'rinishida yoziladi."
+      },
+      {
+        "title": "Kimyoviy muvozanat mohiyati",
+        "body": "Qaytar reaksiyalarda to'g'ri reaksiya tezligi teskari reaksiya tezligiga tenglashganda kimyoviy muvozanat qaror topadi. Bu vaqtda moddalar konsentratsiyasi o'zgarmay turgandek tuyuladi, lekin jarayon to'xtab qolmagan bo'ladi.",
+        "example": "N2 + 3H2 ⇌ 2NH3 jarayonida, ma'lum vaqtdan so'ng hosil bo'layotgan ammiak miqdori parchalanayotgan ammiak miqdori bilan tenglashadi."
+      },
+      {
+        "title": "Muvozanat konstantasi (Kc)",
+        "body": "Muvozanat konstantasi mahsulotlar konsentratsiyasining dastlabki moddalar konsentratsiyasiga nisbatidir (koeffitsiyentlar daraja sifatida yoziladi). Bu qiymat faqat harorat o'zgargandagina o'zgaradi.",
+        "example": "A + 2B ⇌ 3C reaksiyasi uchun Kc = [C]^3 / ([A] * [B]^2) formula bilan topiladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "kimyo",
+    "unit_slug": "kimyoviy-hisoblashlar",
+    "lesson_slug": "elektroliz-jarayonlari-va-faradey-qonunlariga-oid-hisoblashl",
+    "theory": [
+      {
+        "title": "Faradey qonuni mohiyati",
+        "body": "Elektroliz paytida elektrodlarda ajralib chiqadigan modda miqdori zanjirdan o'tgan elektr miqdoriga (qutbga) to'g'ridan-to'g'ri bog'liq. Ya'ni, qancha ko'p tok bersangiz, shuncha ko'p modda hosil bo'ladi.",
+        "example": "1 mol elektron (1 Faradey) o'tganda, 1 valentli metallning 1 gramm-ekvivalenti ajralib chiqadi."
+      },
+      {
+        "title": "Faradey formulasi bilan ishlash",
+        "body": "Modda massasini topish uchun m = (M * I * t) / (n * F) formulasidan foydalanamiz. Bu yerda I – tok kuchi (Amper), t – vaqt (sekund), n – elektronlar soni, F esa Faradey doimiysi (96500).",
+        "example": "2 Amper tok kuchi bilan 965 sekund davomida elektroliz qilsangiz, zanjirdan 2 * 965 = 1930 Kulon zaryad o'tadi."
+      },
+      {
+        "title": "Valentalik va elektronlar soni",
+        "body": "Elektrolizda ajralib chiqayotgan moddaning valentligi (n) juda muhim. Masalan, natriy uchun n=1, kalsiy uchun n=2, alyuminiy uchun n=3. Aynan shu qiymat formula maxrajida qatnashadi.",
+        "example": "Alyuminiy xlorid (AlCl3) elektrolizida Al³⁺ → Al⁰ o'tishi uchun 3 ta elektron kerak (n=3)."
+      },
+      {
+        "title": "Elektroliz test savollari",
+        "body": "Keling, bilimlaringizni sinab ko'ramiz! 1. Agar 1 Faradey elektr miqdori o'tsa, 2 valentli misdan (Cu²⁺) necha mol ajralib chiqadi? 2. I=2A va t=4825s bo'lsa, zanjirdan necha Faradey elektr o'tadi?",
+        "example": "Javoblar: 1) 0,5 mol (chunki 2 ta elektron kerak); 2) (2 * 4825) / 96500 = 0,1 Faradey."
       }
     ]
   }

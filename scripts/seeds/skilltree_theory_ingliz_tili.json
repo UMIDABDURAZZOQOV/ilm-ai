@@ -109,6 +109,195 @@
   },
   {
     "subject_slug": "ingliz_tili",
+    "unit_slug": "parts-of-speech",
+    "lesson_slug": "sonlar-miqdor-va-tartib-sonlar",
+    "theory": [
+      {
+        "title": "Miqdor sonlar nima?",
+        "body": "Miqdor sonlar (Cardinal numbers) narsalarning sonini bildiradi va ular savolga javob bo'ladi: 'Nechta?'. Ingliz tilida bular oddiy sanash uchun ishlatiladigan so'zlardir: one, two, three va hokazo.",
+        "example": "I have two apples. (Menda ikkita olma bor.)"
+      },
+      {
+        "title": "Tartib sonlar siri",
+        "body": "Tartib sonlar (Ordinal numbers) predmetning o'rnini yoki tartibini bildiradi: 'Nechanchi?'. Ularni yasash uchun odatda sonning oxiriga '-th' qo'shimchasi qo'shiladi, lekin birinchi (first), ikkinchi (second) va uchinchi (third) istisno hisoblanadi.",
+        "example": "He is the first student. (U birinchi o'quvchi.)"
+      },
+      {
+        "title": "O'nliklar va o'n yilliklar",
+        "body": "20 dan 90 gacha bo'lgan sonlarni yasashda '-ty' qo'shimchasidan foydalanamiz. E'tibor bering, 13-19 gacha bo'lgan sonlar '-teen' bilan tugaydi, ularni adashtirib yubormang!",
+        "example": "Twenty (20) vs Thirteen (13)."
+      },
+      {
+        "title": "Katta sonlarni o'qish",
+        "body": "Ingliz tilida yuzliklar (hundred) va mingliklar (thousand) sanalganda, ulardan so'ng 's' qo'shimchasi qo'shilmaydi. 101 dan 999 gacha bo'lgan sonlarni aytganda esa yuzlikdan keyin 'and' so'zi ishlatiladi.",
+        "example": "Two hundred and five (205)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "parts-of-speech",
+    "lesson_slug": "miqdor-ko-rsatkichlari-quantifiers-much-many-few-little",
+    "theory": [
+      {
+        "title": "Sanaladigan va sanalmaydigan otlar",
+        "body": "Ingliz tilida miqdor so'zlarini ishlatishdan oldin otni aniqlab olishimiz kerak. Sanaladigan otlar (kitob, olma) ko'plikda bo'la oladi, sanalmaydiganlar (suv, vaqt, pul) esa doim birlikda keladi va ularni raqamlab bo'lmaydi.",
+        "example": "Countable: 2 apples, 3 books. Uncountable: water, money, information."
+      },
+      {
+        "title": "Many va Much farqi",
+        "body": "Ko'plikdagi sanaladigan otlar uchun 'many', sanalmaydiganlar uchun esa 'much' ishlatiladi. Ikkalasi ham 'ko'p' degan ma'noni anglatadi va odatda so'roq yoki inkor gaplarda qo'llaniladi.",
+        "example": "How many friends do you have? I don't have much time."
+      },
+      {
+        "title": "Few va Little ishlatilishi",
+        "body": "Agar narsaning ozligini va bu yetarli emasligini ta'kidlamoqchi bo'lsak, sanaladiganlar uchun 'few', sanalmaydiganlar uchun 'little' ishlatamiz. Bular inkor ma'no kasb etadi.",
+        "example": "I have few friends (do'stlarim juda kam). I have little water (suv juda oz, deyarli yo'q)."
+      },
+      {
+        "title": "A few va A little",
+        "body": "Agar oz bo'lsa ham, borligini va bu yetarli ekanini aytmoqchi bo'lsangiz, so'z oldidan 'a' harfini qo'shing. 'A few' – biroz (sanaladigan), 'a little' – biroz (sanalmaydigan) degani.",
+        "example": "I have a few apples (bir nechta olmam bor). Drink a little water (biroz suv ich)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "parts-of-speech",
+    "lesson_slug": "yordamchi-va-bog-lovchi-fe-llar-auxiliary-and-linking-verbs",
+    "theory": [
+      {
+        "title": "Yordamchi fe'l nima?",
+        "body": "Yordamchi fe'llar (be, do, have) gapda asosiy ish-harakatni bajarmaydi, balki gapning zamoni yoki shaklini yasashga yordam beradi. Ular o'zidan keyin kelgan asosiy fe'lga 'ko'makchi' vazifasini o'taydi.",
+        "example": "I am reading. (Bu yerda 'am' yordamchi, 'reading' asosiy fe'l)"
+      },
+      {
+        "title": "Bog'lovchi fe'llar vazifasi",
+        "body": "Bog'lovchi fe'llar (linking verbs) subyekt (ega) va uning holati yoki sifati o'rtasidagi ko'prikdir. Ular harakatni emas, balki kimdir yoki nimadir qandayligini bildiradi (masalan: be, become, seem, look).",
+        "example": "The cake tastes delicious. (Cake = delicious)"
+      },
+      {
+        "title": "Farqni aniqlash usuli",
+        "body": "Eng oson usul: Agar fe'ldan keyin sifat kelsa, bu bog'lovchi fe'ldir. Agar fe'ldan keyin -ing yoki -ed shaklidagi harakat kelsa, bu yordamchi fe'ldir.",
+        "example": "He is happy (bog'lovchi). He is sleeping (yordamchi)."
+      },
+      {
+        "title": "Test: Qaysi biri bog'lovchi?",
+        "body": "Quyidagi gaplardan qaysi birida fe'l 'bog'lovchi' (linking verb) hisoblanadi? \n1) She is studying English. \n2) She looks very tired.",
+        "example": "To'g'ri javob: 2-gap, chunki 'looks' so'zi eganing holatini (charchaganligini) tasvirlamoqda."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "parts-of-speech",
+    "lesson_slug": "modal-fe-llar-va-ularning-ekvivalentlari",
+    "theory": [
+      {
+        "title": "Modal fe'llar nima?",
+        "body": "Modal fe'llar gapda shunchaki harakatni emas, balki qobiliyat, ruxsat yoki majburiyat kabi ma'nolarni ifodalaydi. Ularning eng katta qoidasi: undan keyin keladigan fe'l hech qanday qo'shimchasiz, ya'ni 'to'siz' va 's'siz' keladi.",
+        "example": "I can swim. (Men suza olaman.) / You must study. (Sen o'qishing shart.)"
+      },
+      {
+        "title": "Qobiliyat va ruxsat: Can",
+        "body": "'Can' so'zi biror narsani qila olish (qobiliyat) yoki ruxsat so'rash uchun ishlatiladi. Bu eng ko'p ishlatiladigan modal fe'l bo'lib, barcha shaxslar (I, you, he, she, they) uchun bir xil ko'rinishda qoladi.",
+        "example": "She can speak English. (U inglizcha gapira oladi.) / Can I come in? (Ichkariga kirsam maylimi?)"
+      },
+      {
+        "title": "Majburiyat: Must vs Have to",
+        "body": "'Must' shaxsiy qaror yoki ichki majburiyatni bildirsa, 'have to' tashqi qoidalarni ifodalaydi. Muhimi, 'have to' zamonlarga qarab o'zgarishi mumkin (masalan, o'tmishda 'had to'), lekin 'must' doim o'zgarishsiz qoladi.",
+        "example": "I must do my homework. (Men vazifamni bajarishim shart - o'zim xohlayman.) / We have to wear uniform. (Biz forma kiyishimiz shart - maktab qoidasi.)"
+      },
+      {
+        "title": "Maslahat: Should",
+        "body": "'Should' fe'li biror ishni qilish yaxshi yoki to'g'ri ekanligini ko'rsatish uchun ishlatiladi. Bu majburiyat emas, balki do'stona maslahat berishning eng oddiy usulidir.",
+        "example": "You should sleep early. (Sen ertaroq uxlashing kerak - maslahat.) / We should help him. (Biz unga yordam berishimiz kerak.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "parts-of-speech",
+    "lesson_slug": "bog-lovchilar-va-bog-lovchi-so-zlar-conjunctions",
+    "theory": [
+      {
+        "title": "Bog'lovchilar nima o'zi?",
+        "body": "Bog'lovchilar — bu gapdagi so'zlar yoki ikki kichik gapni bir-biriga yelim kabi yopishtirib beradigan kichik so'zlar. Ular gapni chiroyli va mazmunli qilish uchun kerak. Oddiy qilib aytganda, ular o'zaro bog'liqlikni ta'minlaydi.",
+        "example": "I like apples AND oranges. (Men olmani VA apelsinni yoqtiraman.)"
+      },
+      {
+        "title": "Qarama-qarshilik bog'lovchilari",
+        "body": "Agar fikringiz to'satdan o'zgarsa yoki zid ma'no bildirmoqchi bo'lsangiz, 'but' (lekin) so'zini ishlatamiz. Bu bog'lovchi ijobiy gapni salbiy (yoki aksincha) ma'no bilan birlashtirishda asqotadi.",
+        "example": "I wanted to go out, BUT it started raining. (Tashqariga chiqmoqchi edim, LEKIN yomg'ir yog'a boshladi.)"
+      },
+      {
+        "title": "Sabab va natija bog'lovchilari",
+        "body": "Nega biror ish qilganimizni aytmoqchi bo'lsak, 'because' (chunki) so'zidan foydalanamiz. U sababni natija bilan bog'lab, gapga mantiqiy aniqlik kiritadi.",
+        "example": "I was late BECAUSE the bus was slow. (Men kechikdim, CHUNKI avtobus sekin edi.)"
+      },
+      {
+        "title": "Tanlov bog'lovchisi: Or",
+        "body": "Qachonki bizda ikkita yoki undan ortiq variant bo'lsa, 'or' (yoki) bog'lovchisini tanlaymiz. U tanlov qilish imkoniyatini ko'rsatadi.",
+        "example": "Do you want tea OR coffee? (Choy xohlaysanmi YOKI kofe?)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "parts-of-speech",
+    "lesson_slug": "fe-lning-shaxsiz-shakllari-infinitive-va-gerund",
+    "theory": [
+      {
+        "title": "Gerund nima?",
+        "body": "Gerund — bu fe'lga '-ing' qo‘shimchasini qo‘shish orqali yasaladigan 'otlashgan' shakl. U ko‘pincha gapda ish-harakatning nomi sifatida, ya'ni ega yoki to‘ldiruvchi vazifasida keladi.",
+        "example": "Swimming is healthy. (Suzish foydali.)"
+      },
+      {
+        "title": "Infinitive nima?",
+        "body": "Infinitive — bu fe'lning boshlang‘ich shakli bo‘lib, ko‘pincha oldidan 'to' yuklamasi bilan ishlatiladi. U ko‘pincha maqsadni yoki qilinishi kerak bo‘lgan ishni ifodalaydi.",
+        "example": "I want to learn English. (Men ingliz tilini o‘rganishni xohlayman.)"
+      },
+      {
+        "title": "Gerund talab qiluvchi fe'llar",
+        "body": "Ingliz tilida ba'zi fe'llar (masalan: enjoy, mind, finish, avoid) dan keyin faqat Gerund ishlatiladi. Bu fe'llarni ko‘rib qolsangiz, darhol '-ing' shaklini qidiring.",
+        "example": "I enjoy reading books. (Kitob o‘qishdan zavqlanaman.)"
+      },
+      {
+        "title": "Infinitive talab qiluvchi fe'llar",
+        "body": "Ba'zi fe'llar (masalan: want, decide, hope, plan) dan keyin esa faqat 'to + fe'l' shakli keladi. Bu qoida qat'iy va uni yodlash kerak.",
+        "example": "She decided to stay home. (U uyda qolishga qaror qildi.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "parts-of-speech",
+    "lesson_slug": "so-z-yasalishi-so-z-turkumlarini-affikslar-yordamida-hosil-q",
+    "theory": [
+      {
+        "title": "So'z yasalishi nima?",
+        "body": "Ingliz tilida bitta so'zga maxsus qo'shimchalar (affikslar) qo'shib, uning ma'nosini yoki turkumini o'zgartirish mumkin. Bu xuddi Lego o'yiniga o'xshaydi: asosiy so'zga kichik bo'lak qo'shib, yangi vazifadagi so'z hosil qilamiz.",
+        "example": "Teach (o'qitmoq - fe'l) + er = Teacher (o'qituvchi - ot)"
+      },
+      {
+        "title": "Ot yasovchi qo'shimchalar",
+        "body": "Fe'l yoki sifatga -er, -or, -ist, -ness kabi qo'shimchalarni qo'shib, biz narsalar yoki odamlarni bildiruvchi otlar hosil qilamiz. Bu qo'shimchalar ko'pincha 'kasb' yoki 'holat'ni anglatadi.",
+        "example": "Act (harakat qilmoq) + or = Actor (aktyor); Happy (baxtli) + ness = Happiness (baxt)"
+      },
+      {
+        "title": "Sifat yasovchi qo'shimchalar",
+        "body": "Ot yoki fe'llarga -ful, -less, -able kabi qo'shimchalarni qo'shib sifat yasaymiz. -ful 'bor' degan ma'noni, -less esa 'yo'q' degan ma'noni anglatadi.",
+        "example": "Care (g'amxo'rlik) + ful = Careful (ehtiyotkor); Care + less = Careless (beparvo)"
+      },
+      {
+        "title": "Fe'l yasovchi qo'shimchalar",
+        "body": "Sifat yoki otlardan harakatni bildiruvchi fe'llar yasash uchun so'z oxiriga -en yoki -ize qo'shamiz. Bu ko'pincha 'biror holatga keltirmoq' degan ma'noni beradi.",
+        "example": "Wide (keng) + en = Widen (kengaytirmoq); Modern (zamonaviy) + ize = Modernize (modernizatsiya qilmoq)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
     "unit_slug": "tenses-present-past",
     "lesson_slug": "present-simple-continuous",
     "theory": [
@@ -217,6 +406,195 @@
   },
   {
     "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-present-past",
+    "lesson_slug": "harakat-va-holat-fe-llari-stative-va-dynamic-fe-llar",
+    "theory": [
+      {
+        "title": "Harakat va Holat fe'llari",
+        "body": "Ingliz tilida fe'llar ikki turga bo'linadi. 'Dynamic' (harakat) fe'llari jismoniy ish-harakatni bildiradi, 'Stative' (holat) fe'llari esa tuyg'u, fikr yoki holatni ifodalaydi.",
+        "example": "Dynamic: I eat (ovqatlanaman). Stative: I love (yaxshi ko'raman)."
+      },
+      {
+        "title": "Stative fe'llar qoidasi",
+        "body": "Eng muhim qoida: Holat (Stative) fe'llarini -ing qo'shimchasi bilan, ya'ni Continuous zamonlarda ishlatib bo'lmaydi. Ular odatda faqat Simple zamonlarda keladi.",
+        "example": "To'g'ri: I understand you. Xato: I am understanding you."
+      },
+      {
+        "title": "Asosiy Stative fe'llar ro'yxati",
+        "body": "Ko'pincha imtihonda duch keladigan holat fe'llariga fikrlash (know, believe), his-tuyg'u (love, hate, like) va egalik (have, own, belong) fe'llari kiradi.",
+        "example": "I know the answer (To'g'ri). I am knowing the answer (Xato)."
+      },
+      {
+        "title": "Istisno holatlar",
+        "body": "Ba'zi fe'llar gapdagi ma'nosiga qarab ham 'Dynamic', ham 'Stative' bo'lishi mumkin. Masalan, 'have' egalikni bildirsa, continuous bo'lmaydi, lekin 'nonushta qilmoq' ma'nosida bo'lsa, uni -ing bilan ishlatsa bo'ladi.",
+        "example": "I have a car (egalik). I am having breakfast (jarayon)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-present-past",
+    "lesson_slug": "present-perfect-va-past-simple-zamonlari-o-rtasidagi-farq",
+    "theory": [
+      {
+        "title": "Past Simple: Tugagan ishlar",
+        "body": "Past Simple o'tmishda qachon sodir bo'lgani aniq bo'lgan ish-harakatlar uchun ishlatiladi. Bu ish tugagan va hozirgi payt bilan bog'liq emas. Gapda 'yesterday', 'last year', 'in 2010' kabi aniq vaqt ko'rsatkichlari bo'ladi.",
+        "example": "I visited Samarkand last year. (Men o'tgan yili Samarqandga bordim.)"
+      },
+      {
+        "title": "Present Perfect: Natija muhim",
+        "body": "Present Perfect esa ish qachon bo'lgani emas, uning hozirgi kundagi natijasi muhim bo'lganda ishlatiladi. Biz ishning tugagan yoki tugamaganligiga urg'u beramiz, aniq vaqtni aytmaymiz.",
+        "example": "I have lost my keys. (Kalitlarimni yo'qotib qo'yganman — hozir ham topa olmayapman.)"
+      },
+      {
+        "title": "Vaqtga qarab ajrating",
+        "body": "Eng oson usuli – gapda vaqtga urg'u bormi yoki natijaga? Agar 'yesterday' yoki 'ago' kabi aniq o'tmish vaqti bo'lsa, Past Simple tanlang. Agar 'just', 'already', 'yet' yoki umuman vaqt bo'lmasa, Present Perfect tanlang.",
+        "example": "I saw him yesterday (Past Simple). I have already seen him (Present Perfect)."
+      },
+      {
+        "title": "Test savollari",
+        "body": "Quyidagi gaplarni to'ldiring: 1) I ____ (finish) my homework an hour ago. 2) She ____ (read) this book already. Qaysi biri Past Simple, qaysi biri Present Perfect?",
+        "example": "Javoblar: 1) finished (vaqt aniq), 2) has read (natija muhim)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-present-past",
+    "lesson_slug": "present-perfect-continuous-zamoni",
+    "theory": [
+      {
+        "title": "Present Perfect Continuous nima?",
+        "body": "Bu zamon o'tmishda boshlanib, hozir ham davom etayotgan yoki yaqingina tugagan harakatlarni ifodalaydi. Biz diqqatni harakatning qanchalik uzoq davom etganiga qaratamiz. Formulasi: have/has + been + fe'l+ing.",
+        "example": "I have been reading this book for two hours. (Men ikki soatdan beri kitob o'qiyapman.)"
+      },
+      {
+        "title": "For va Since ishlatilishi",
+        "body": "Bu zamonda vaqtni ko'rsatish uchun ikki muhim so'z bor: 'for' davomiylikni (masalan, 2 soat), 'since' esa harakat boshlangan aniq nuqtani (masalan, soat 5 dan beri) anglatadi.",
+        "example": "She has been working here for 3 years. / She has been working here since 2021."
+      },
+      {
+        "title": "Ijobiy va inkor shakl",
+        "body": "Ijobiy gaplarda 'have/has been + ing' ishlatamiz. Inkor gaplarda esa 'have/has'dan keyin 'not' qo'shiladi (haven't/hasn't been). 'I/you/we/they' uchun 'have', 'he/she/it' uchun 'has' ishlatishni unutmang.",
+        "example": "They have been playing football. / He hasn't been sleeping well lately."
+      },
+      {
+        "title": "Test: Bilimingizni tekshiring",
+        "body": "Quyidagi gapni to'g'ri shakl bilan to'ldiring: 'She ____ (study) English since morning.' Variantlar: A) has been studying, B) have been studying, C) has studied.",
+        "example": "To'g'ri javob: A. Chunki 'she' uchun 'has' ishlatiladi va harakat davom etmoqda."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-present-past",
+    "lesson_slug": "o-tmishdagi-odat-va-holatlar-used-to-va-would",
+    "theory": [
+      {
+        "title": "Used to nima?",
+        "body": "Used to iborasini o'tmishda tez-tez qilgan, lekin hozirda to'xtatgan ish-harakatlarimizni aytish uchun ishlatamiz. Bu shakl barcha shaxslar (I, you, he, she, we, they) uchun bir xil bo'ladi.",
+        "example": "I used to play football every day. (Men ilgari har kuni futbol o'ynardim, hozir yo'q.)"
+      },
+      {
+        "title": "Holat fe'llari va Used to",
+        "body": "Diqqat qiling: holatni ifodalovchi fe'llar (be, have, live, love kabi) bilan faqat 'used to' ishlatiladi. 'Would' esa bunday holatlarda ishlatilmaydi, chunki u faqat takrorlanuvchi harakatlarga xos.",
+        "example": "She used to live in Tashkent. (To'g'ri) / She would live in Tashkent. (Noto'g'ri)"
+      },
+      {
+        "title": "Would nima va farqi?",
+        "body": "Would ham o'tmishdagi takrorlanuvchi harakatlarni bildiradi, lekin u faqat 'action' (harakat) fe'llari bilan ishlatiladi. U hikoya qilayotgandek ohang beradi.",
+        "example": "Every summer, we would go to the mountains. (Har yoz tog'ga borardik - harakatni ifodalaydi.)"
+      },
+      {
+        "title": "Savol va Inkor shakllari",
+        "body": "Used to so'zini savol yoki inkorda ishlatganda 'd' harfi tushib qoladi va 'did' yordamchi fe'li keladi. Inkor shakli 'didn't use to' deb yoziladi.",
+        "example": "I didn't use to like coffee. Did you use to study here?"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-present-past",
+    "lesson_slug": "ko-nikmalarni-ifodalash-be-used-to-va-get-used-to-tuzilmalar",
+    "theory": [
+      {
+        "title": "Be used to nima?",
+        "body": "Bu ibora biror narsaga allaqachon ko'nikib bo'lganingizni, ya'ni bu ish siz uchun oddiy holga aylanib qolganini bildiradi. U 'odatlanganman' degan ma'noda ishlatiladi va hozirgi holatni tasvirlaydi.",
+        "example": "I am used to waking up early. (Men erta turishga ko'nikib qolganman.)"
+      },
+      {
+        "title": "Get used to farqi",
+        "body": "Agar siz hali ko'nikmagan bo'lsangiz va bu jarayon endi boshlanayotgan bo'lsa, 'get used to'dan foydalanamiz. Bu 'ko'nikishni boshlash' yoki 'o'rganish' degan ma'noni anglatadi.",
+        "example": "I am getting used to living in a new city. (Men yangi shaharda yashashga ko'nikib boryapman.)"
+      },
+      {
+        "title": "Grammatik oltin qoida",
+        "body": "Eng muhim narsa: bu iboralardan keyin fe'l kelsa, u albatta '-ing' qo'shimchasini olishi shart. Bular oddiy 'to' emas, balki iboraning bir qismi hisoblanadi.",
+        "example": "She is used to driving (to'g'ri) / She is used to drive (xato)."
+      },
+      {
+        "title": "O'tmishda ko'nikish",
+        "body": "Bu iboralarni o'tgan zamonga ham o'tkazsak bo'ladi. 'Was/were used to' o'tmishda nimagadir ko'nikkanligingizni, 'got used to' esa o'tmishda qandaydir jarayonga o'rganib qolganingizni bildiradi.",
+        "example": "I got used to the cold weather eventually. (Oxiri sovuq havoga ko'nikdim.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-present-past",
+    "lesson_slug": "past-perfect-va-past-simple-zamonlarining-gapda-birgalikda-q",
+    "theory": [
+      {
+        "title": "Ikki o'tgan zamon farqi",
+        "body": "O'tmishda ketma-ket sodir bo'lgan voqealar uchun Past Simple ishlatamiz. Agar voqealardan biri boshqasidan oldinroq sodir bo'lgan bo'lsa, o'sha 'oldinroq' qismiga Past Perfect (had + V3) ishlatamiz.",
+        "example": "I arrived at the station, but the train had already left. (Poyezd ketib bo'lgan edi - oldingi voqea, men keldim - keyingi voqea)"
+      },
+      {
+        "title": "When va Before bog'lovchilari",
+        "body": "Gapda 'when' yoki 'before' kelsa, odatda ulardan keyin Past Simple keladi, chunki bu bog'lovchilar voqealar ketma-ketligini ko'rsatadi. Ikkinchi qismda esa natija o'laroq Past Perfect ishlatilishi mumkin.",
+        "example": "When I arrived, the meeting had already started. (Men yetib kelgunimcha majlis boshlanib bo'lgan edi)"
+      },
+      {
+        "title": "After va By the time",
+        "body": "'After' (keyin) so'zidan keyin ish tugaganini ko'rsatish uchun Past Perfect ishlatiladi. 'By the time' (o'sha vaqtga kelib) iborasi esa aynan Past Perfect bilan juda mos keladi.",
+        "example": "After I had finished my homework, I went out. / By the time he woke up, I had cooked breakfast."
+      },
+      {
+        "title": "Test: Bilimni sinaymiz",
+        "body": "Quyidagi gapni to'g'ri shaklga keltiring: 'When the police (arrive), the thief (escape) already.'",
+        "example": "To'g'ri javob: When the police arrived, the thief had already escaped. (Kelgunicha qochib bo'lgan edi)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-present-past",
+    "lesson_slug": "past-perfect-continuous-zamoni",
+    "theory": [
+      {
+        "title": "Past Perfect Continuous nima?",
+        "body": "Bu zamon o'tmishda qaysidir ish boshlanib, yana bir o'tmishdagi voqea sodir bo'lguncha davom etib kelganini bildiradi. Ya'ni, ish o'tmishda boshlangan va o'tmishning ma'lum bir nuqtasigacha to'xtovsiz davom etgan.",
+        "example": "I had been waiting for two hours before the bus arrived. (Avtobus kelgunicha men 2 soat kutib o'tirgan edim.)"
+      },
+      {
+        "title": "Yasalish qoidasi",
+        "body": "Past Perfect Continuous yasash juda oson: barcha shaxslar (I, you, he, she, we, they) uchun 'had been' yordamchi fe'li va asosiy fe'lga '-ing' qo'shimchasi qo'shiladi.",
+        "example": "She had been studying English all day. (U kun bo'yi ingliz tilini o'rganayotgan edi.)"
+      },
+      {
+        "title": "Vaqt ko'rsatkichlari",
+        "body": "Bu zamonda ishning qancha vaqt davom etganini ko'rsatish uchun 'for' (muddat uchun) va 'since' (boshlanish nuqtasi uchun) so'zlaridan tez-tez foydalanamiz. Ular gapdagi davomiylikni aniqlashtirib beradi.",
+        "example": "They had been playing football for an hour. / He had been working there since 2010."
+      },
+      {
+        "title": "Test: O'zlashtirishni tekshiramiz",
+        "body": "To'g'ri variantni tanlang: 'By the time she arrived, we _____ (cook) dinner for an hour.' \n\nA) had cooked \nB) had been cooking \nC) were cooking",
+        "example": "To'g'ri javob: B) had been cooking. Chunki ish o'tmishdagi voqeadan oldin ma'lum vaqt davomida to'xtovsiz davom etgan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
     "unit_slug": "tenses-future-modals",
     "lesson_slug": "future-forms",
     "theory": [
@@ -293,6 +671,222 @@
         "title": "Test: Bilimni sinaymiz",
         "body": "Quyidagi gapni to‘g‘ri shaklga keltiring: 'The letter ____ (send) tomorrow.' (Xat ertaga yuboriladi.) Qaysi variant to‘g‘ri: a) will send, b) will be sent?",
         "example": "To‘g‘ri javob: b) will be sent. Sababi, xat o‘zini o‘zi yubormaydi, u yuboriladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "kelasi-zamon-ma-nosida-qo-llaniladigan-hozirgi-davomli-va-ho",
+    "theory": [
+      {
+        "title": "Rejalashtirilgan harakatlar",
+        "body": "Kelajakda aniq vaqti belgilangan, oldindan kelishilgan rejalaringiz uchun 'Present Continuous' (am/is/are + V-ing) ishlatamiz. Bu xuddi kalendaringizga yozib qo'ygan ishlaringizdek gap.",
+        "example": "I am meeting my doctor tomorrow at 10:00. (Ertaga soat 10 da shifokor bilan uchrashyapman.)"
+      },
+      {
+        "title": "Jadval asosidagi kelajak",
+        "body": "Agar ish-harakat poyezd, avtobus yoki dars jadvali kabi o'zgarmas grafik asosida sodir bo'lsa, 'Present Simple' ishlatamiz. Bunda vaqt kelajak bo'lsa ham, fe'l oddiy ko'rinishda qoladi.",
+        "example": "The train leaves at 8:00 PM tonight. (Poyezd bugun kechqurun soat 8 da jo'naydi.)"
+      },
+      {
+        "title": "Qaysi zamonni tanlash kerak?",
+        "body": "Farqni tushunish oson: agar insonning shaxsiy rejasi bo'lsa – 'Present Continuous', agar tashqi jadval yoki qat'iy qoida bo'lsa – 'Present Simple'dan foydalaning.",
+        "example": "We are flying to London tomorrow (shaxsiy reja). The plane takes off at 9 AM (jadval)."
+      },
+      {
+        "title": "Test: To'g'ri shaklni top",
+        "body": "Quyidagi gapni to'ldiring: 'My English course _____ (start) next Monday.' Javobni 'starts' yoki 'is starting' variantlaridan biri bilan tanlang. Eslatma: Kurslar jadval asosida boshlanadi.",
+        "example": "To'g'ri javob: starts. (Kurslar jadvalga ko'ra qat'iy vaqtda boshlanadi.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "kelasi-davomli-zamon-future-continuous",
+    "theory": [
+      {
+        "title": "Future Continuous nima?",
+        "body": "Future Continuous zamoni kelajakda aynan bir vaqtda davom etayotgan harakatlarni ifodalash uchun ishlatiladi. Bu xuddi o'sha paytda 'nima qilayotgan bo'lasiz?' degan savolga javob beradi.",
+        "example": "At 8 PM tonight, I will be studying English. (Bugun kechki soat 8 da men ingliz tilini o‘qiyotgan bo‘laman.)"
+      },
+      {
+        "title": "Tuzilishi: Will be + ing",
+        "body": "Bu zamonni yasash juda oson: barcha shaxslar uchun 'will be' yordamchi fe'lini qo'llaymiz va asosiy fe'lga '-ing' qo'shimchasini qo'shamiz. Shunchaki 'will be' va fe'lning davomli shaklini birlashtiring.",
+        "example": "They will be playing football. (Ular futbol o‘ynayotgan bo‘lishadi.)"
+      },
+      {
+        "title": "Inkor va so‘roq shakli",
+        "body": "Inkor gapda 'will' va 'be' orasiga 'not' qo'shiladi (won't be). So'roq gapda esa 'will' egadan oldinga o'tadi. Boshqa hech narsa o'zgarmaydi!",
+        "example": "Will you be working? No, I won't be working. (Ishlayotgan bo'lasanmi? Yo'q, ishlamayotgan bo'laman.)"
+      },
+      {
+        "title": "Qachon ishlatiladi?",
+        "body": "Bu zamonni kelajakdagi aniq bir vaqt ko'rsatilganida ishlating (masalan: at this time tomorrow, at 5 PM). U rejali, davomiy jarayonlarni tasvirlash uchun juda qo'l keladi.",
+        "example": "This time tomorrow, I will be flying to Tashkent. (Ertaga shu vaqtda men Toshkentga uchib ketayotgan bo'laman.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "kelasi-tugallangan-va-kelasi-tugallangan-davomli-zamonlar-fu",
+    "theory": [
+      {
+        "title": "Future Perfect: Kelajakdagi natija",
+        "body": "Future Perfect zamoni kelajakda aniq bir vaqtga kelib tugab bo'ladigan ish-harakatlar uchun ishlatiladi. Bunda biz 'will have' va fe'lning 3-shaklidan (V3) foydalanamiz. Bu xuddi 'o'sha vaqtga kelib, men buni bajargan bo'laman' deganingizdek gap.",
+        "example": "By 8 PM, I will have finished my homework. (Soat 8 ga kelib, uy vazifamni bajarib bo'laman.)"
+      },
+      {
+        "title": "Future Perfect Continuous: Davomiylik",
+        "body": "Agar ish tugaganini emas, balki kelajakda ma'lum bir vaqtga kelib qancha vaqtdan beri davom etayotganini ta'kidlamoqchi bo'lsangiz, bu zamonni tanlang. Formula: 'will have been' + fe'lga '-ing' qo'shimchasi. Bu yerda jarayonning davom etayotgani muhim.",
+        "example": "By next month, I will have been learning English for a year. (Kelasi oyga kelib, ingliz tilini o'rganayotganimga bir yil bo'ladi.)"
+      },
+      {
+        "title": "Zamonlarni farqlash siri",
+        "body": "Asosiy farq shundaki: Future Perfect 'natija'ga (ish tugadi), Future Perfect Continuous esa 'jarayon'ga (ish davom etmoqda) qaratiladi. Agar gapda 'for 3 hours', 'for a long time' kabi davomiylikni bildiruvchi so'zlar bo'lsa, ko'pincha Continuous shakli to'g'ri keladi.",
+        "example": "I will have read this book by Friday (tugataman). I will have been reading for two hours by then (jarayon)."
+      },
+      {
+        "title": "O'zini sinash: Test",
+        "body": "Quyidagi gapni to'ldiring: 'By 10 PM, I _____ (work) on this project for five hours.' Qaysi zamon to'g'ri keladi? A) will have worked; B) will have been working. (Javob: B, chunki 'for five hours' davomiylikni bildiryapti).",
+        "example": "Test savoli: By next June, they ____ (live) here for ten years. (Javobingizni o'ylab ko'ring: will have been living)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "qobiliyat-ruxsat-va-ehtimollik-modal-fe-llari-could-may-migh",
+    "theory": [
+      {
+        "title": "Qobiliyat: Can va Be able to",
+        "body": "Biror narsani qila olish qobiliyatini bildirish uchun 'can' yoki 'be able to'dan foydalanamiz. Farqi shundaki, 'can' faqat hozirgi zamonda ishlatiladi, 'be able to' esa zamon tanlamaydi (o'tgan yoki kelasi zamonda ham qo'llash mumkin).",
+        "example": "I can swim. / I will be able to speak English fluently soon."
+      },
+      {
+        "title": "O'tmishdagi qobiliyat: Could",
+        "body": "Agar siz o'tmishda doimiy ravishda bajara olgan ish haqida gapirmoqchi bo'lsangiz, 'can'ning o'tgan zamon shakli bo'lgan 'could'ni ishlatasiz. Bu 'men qila olardim' degan ma'noni anglatadi.",
+        "example": "When I was a child, I could run very fast."
+      },
+      {
+        "title": "Ruxsat va ehtimollik: May va Might",
+        "body": "'May' va 'might' biror narsa sodir bo'lishi ehtimolini bildiradi. 'May' biroz aniqroq (taxminan 50%), 'might' esa uzoqroq, kamroq ehtimolni (taxminan 30%) ifodalaydi, shuningdek, 'may' ruxsat so'rashda ham ishlatiladi.",
+        "example": "It may rain today. / I might go to the party, but I'm not sure yet."
+      },
+      {
+        "title": "Qobiliyat, Ehtimollik va Ruxsat - Test",
+        "body": "Quyidagi bo'shliqlarni to'ldiring: 1. She ___ speak three languages now. (qobiliyat). 2. It's cloudy, it ___ rain later. (ehtimollik - past). 3. When I was five, I ___ read. (o'tmishdagi qobiliyat).",
+        "example": "Javoblar: 1. can / is able to; 2. might; 3. could."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "majburiyat-zaruriyat-va-taqiq-modal-fe-llari-have-to-need-to",
+    "theory": [
+      {
+        "title": "Majburiyat: Have to",
+        "body": "Biror narsani qilishga majbur bo'lganingizda 'have to'dan foydalanamiz. Bu ko'pincha tashqi qoida yoki sharoit taqozosidir. Masalan, maktab formasini kiyish o'quvchi uchun tashqi qoidadir.",
+        "example": "I have to wear a uniform at school. (Maktabda forma kiyishim shart.)"
+      },
+      {
+        "title": "Zaruriyat: Need to",
+        "body": "Biror ishni qilish zarur yoki kerak bo'lsa, 'need to' ishlatiladi. Bu odatda shaxsiy ehtiyojingiz bilan bog'liq. 'Have to'dan farqi shundaki, bu yerda ichki yoki hayotiy ehtiyoj birinchi o'rinda turadi.",
+        "example": "I need to buy some bread. (Non sotib olishim kerak.)"
+      },
+      {
+        "title": "Taqiq: Mustn't",
+        "body": "Biror ishni qilish qat'iyan taqiqlangan bo'lsa, 'mustn't' ishlatamiz. Bu shunchaki maslahat emas, balki qoida yoki xavfli holatdir. 'Mustn't' eshitilganda, darhol to'xtash yoki qilmaslik kerakligini tushuning.",
+        "example": "You mustn't park here. (Bu yerda to'xtash taqiqlanadi.)"
+      },
+      {
+        "title": "Zarur emasligi: Needn't",
+        "body": "Agar biror ishni qilish shart bo'lmasa yoki majburiyat bo'lmasa, 'needn't'dan foydalanamiz. Ya'ni, uni qilsangiz ham bo'ladi, qilmasangiz ham – hech kim sizni majburlamaydi.",
+        "example": "You needn't bring an umbrella; it's not raining. (Soyabon olib kelishing shart emas, yomg'ir yog'mayapti.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "hozirgi-zamonda-mantiqiy-xulosa-va-taxmin-modal-fe-llari-mus",
+    "theory": [
+      {
+        "title": "Must: Ishonchli xulosa",
+        "body": "Biror narsa haqida 90-100% amin bo'lsangiz va mantiqiy dalilingiz bo'lsa, 'must'dan foydalanamiz. Bu 'albatta shunday bo'lishi kerak' degan ma'noni anglatadi.",
+        "example": "She has been working all day, she must be tired. (U butun kun ishladi, demak u albatta charchagan.)"
+      },
+      {
+        "title": "Can't: Imkonsiz narsalar",
+        "body": "Biror narsaning bo'lishi mutlaqo imkonsiz deb hisoblasangiz, 'can't' ishlatamiz. Bu 'bo'lishi mumkin emas' degan qat'iy inkor ma'nosini beradi.",
+        "example": "He just ate a full meal, he can't be hungry. (U hali to'liq ovqatlandi, demak u och bo'lishi mumkin emas.)"
+      },
+      {
+        "title": "Might/Could: Taxminiy imkoniyat",
+        "body": "Agar biror narsa sodir bo'lishi mumkinligiga 50% ishonchingiz bo'lsa, 'might' yoki 'could' ishlatamiz. Bular 'balki shundaydir' kabi noaniq taxminlarni bildiradi.",
+        "example": "Where is Ann? She might be in the library or could be at home. (Enn qayerda? Balki kutubxonadadir yoki uyidadir.)"
+      },
+      {
+        "title": "Mantiqiy xulosa testi",
+        "body": "Keling, bilimlaringizni sinab ko'ramiz! 1. It's snowing outside, so it ____ be cold. 2. He is a millionaire, he ____ be poor. 3. I don't know my keys, they ____ be in the car.",
+        "example": "Javoblar: 1. must, 2. can't, 3. might/could."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "o-tgan-zamondagi-majburiyat-va-qobiliyat-modal-fe-llari-had-",
+    "theory": [
+      {
+        "title": "O'tgan zamon majburiyati: Had to",
+        "body": "Ingliz tilida 'must' modal fe'lining o'tgan zamon shakli yo'q. Shuning uchun, o'tgan zamonda majbur bo'lgan ish-harakatlarimizni aytish uchun 'had to'dan foydalanamiz. Bu barcha shaxslar (I, he, she, we, they) uchun bir xil ishlatiladi.",
+        "example": "I had to wake up early yesterday. (Kecha erta uyg'onishga majbur edim.)"
+      },
+      {
+        "title": "Umumiy qobiliyat: Could",
+        "body": "O'tgan zamonda biror narsani qila olish qobiliyatini ifodalash uchun 'could'dan foydalanamiz. Bu odatda uzoq vaqt davomida egallangan umumiy qobiliyatlarga nisbatan ishlatiladi.",
+        "example": "She could swim when she was five. (U besh yoshida suza olardi.)"
+      },
+      {
+        "title": "Aniq vaziyatdagi qobiliyat: Was/were able to",
+        "body": "Agar biror qiyin ishni aynan o'sha vaziyatda uddalagan bo'lsangiz, 'could' o'rniga 'was/were able to' ishlatish ancha to'g'riroq. Bu o'sha paytdagi muvaffaqiyatni, ya'ni harakatni amalga oshirganingizni ta'kidlaydi.",
+        "example": "The door was locked, but I was able to open it. (Eshik qulflangan edi, lekin men uni ochishga muvaffaq bo'ldim.)"
+      },
+      {
+        "title": "Test: Bilimni tekshiramiz",
+        "body": "Quyidagi savollarni o'ylab ko'ring: 1. Kecha darsga borishga majbur edim - qaysi birini tanlaysiz: 'had to'mi yoki 'must'? 2. 'I ____ run fast yesterday to catch the bus' gapida 'could' ishlatish to'g'rimi? (Yo'q, chunki bu bir martalik aniq vaziyat, shuning uchun 'was able to' kerak).",
+        "example": "To'g'ri javoblar: 1. had to. 2. was able to."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "tenses-future-modals",
+    "lesson_slug": "o-tgan-zamondagi-mantiqiy-xulosa-va-afsuslanish-modal-fe-lla",
+    "theory": [
+      {
+        "title": "O'tgan zamon mantiqiy xulosasi",
+        "body": "O'tgan ish-harakat haqida 90-100% ishonch bilan xulosa qilmoqchi bo'lsangiz, 'must have + V3' (o'tgan zamon sifatdoshi) formulasidan foydalaning. Bu o'sha ish aniq sodir bo'lganiga deyarli amin bo'lganimizda ishlatiladi.",
+        "example": "He didn't come to work. He must have been ill. (U ishga kelmadi. Demak, u kasal bo'lgan bo'lishi kerak.)"
+      },
+      {
+        "title": "Imkonsiz o'tgan ishlar",
+        "body": "Agar biror ish o'tmishda sodir bo'lishi mutlaqo imkonsiz deb hisoblasangiz, 'can't have + V3'dan foydalaning. Bu 'must have'ning teskarisi bo'lib, xulosangizda qat'iy ishonchsizlikni bildiradi.",
+        "example": "She can't have forgotten the keys; she had them a minute ago. (U kalitlarni unutgan bo'lishi mumkin emas; bir daqiqa oldin ular yonida edi.)"
+      },
+      {
+        "title": "Afsuslanish va o'tkazib yuborilgan imkoniyat",
+        "body": "Agar o'tmishda qilingan xatodan afsuslansangiz yoki aksincha, qilmagan ishingizni qilishingiz kerak edi deb hisoblasangiz, 'should have + V3' qolipini ishlating. Bu ko'pincha 'attang' degan ma'noni beradi.",
+        "example": "I should have studied harder for the exam. (Imtihonga ko'proq tayyorlanishim kerak edi.)"
+      },
+      {
+        "title": "Tezkor sinov: O'rganganingizni tekshiring",
+        "body": "Quyidagi vaziyatga mos javobni toping: 'Do'stingiz kecha partiyaga kelmadi, lekin siz u uyda uxlaganiga amin bo'lsangiz, qaysi qolipni tanlaysiz?' \n A) He must have slept. \n B) He should have slept. \n C) He can't have slept.",
+        "example": "To'g'ri javob: A (Chunki siz aniq xulosa qilyapsiz)."
       }
     ]
   },
@@ -406,6 +1000,195 @@
   },
   {
     "subject_slug": "ingliz_tili",
+    "unit_slug": "sentence-structure",
+    "lesson_slug": "sodda-qo-shma-va-murakkab-gaplar",
+    "theory": [
+      {
+        "title": "Sodda gap nima?",
+        "body": "Sodda gap – bu bitta tugallangan fikrni ifodalovchi va bitta kesimga ega bo‘lgan gapdir. Unda bitta subyekt (ega) va bitta harakat (kesim) bo‘ladi. Uni tushunish juda oson: kimdir nimanidir qildi, tamom.",
+        "example": "I read a book. / She is happy."
+      },
+      {
+        "title": "Qo‘shma gap asoslari",
+        "body": "Qo‘shma gap – bu ikkita sodda gapning bog‘lovchi so‘zlar (and, but, or) yordamida birlashishi. Bu ikki mustaqil fikrni bitta gapda aytmoqchi bo‘lganimizda juda qo‘l keladi.",
+        "example": "I read a book, and she watched TV. / It was cold, but I went out."
+      },
+      {
+        "title": "Murakkab gaplar dunyosi",
+        "body": "Murakkab gapda asosiy gapga bo‘ysunuvchi yana bir qo‘shimcha qism bo‘ladi. Ular 'because', 'although', 'if' yoki 'when' kabi bog‘lovchilar bilan yasaladi va asosiy gapga sabab yoki shart qo‘shadi.",
+        "example": "I stayed home because it was raining. / If you study, you will pass."
+      },
+      {
+        "title": "Bilimni tekshirish testlari",
+        "body": "Quyidagi gaplarning turini aniqlang: 1) 'He likes apples.' 2) 'He likes apples, but she likes pears.' 3) 'He likes apples because they are sweet.' Javoblarni belgilang.",
+        "example": "1. Sodda gap. 2. Qo‘shma gap (but bog‘lagan). 3. Murakkab gap (because sababni ko‘rsatgan)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "sentence-structure",
+    "lesson_slug": "ega-va-kesim-mosligi",
+    "theory": [
+      {
+        "title": "Ega va Kesim Oltin Qoidasi",
+        "body": "Ingliz tilida gapning egasi birlikda bo'lsa, fe'lga ham -s/-es qo'shimchasi qo'shiladi. Agar ega ko'plikda bo'lsa, fe'l o'z holicha qoladi. Bu xuddi jamoaning bir xil formada bo'lishi kabi muhimdir.",
+        "example": "He readS a book. / They read a book."
+      },
+      {
+        "title": "I va You Istisnolari",
+        "body": "I (men) va You (sen/siz) olmoshlari garchi bitta insonni anglatsa ham, ular har doim ko'plikdagi fe'llar bilan ishlatiladi. Buni shunchaki qoida sifatida yodlab qolish kerak.",
+        "example": "I play football. / You play football."
+      },
+      {
+        "title": "And bilan bog'langan egalar",
+        "body": "Agar ikki shaxs yoki narsa 'and' (va) bog'lovchisi bilan birlashsa, ular avtomatik ravishda ko'plikka aylanadi. Shuning uchun fe'lga -s qo'shimchasi qo'shilmaydi.",
+        "example": "Ali and Valiy run fast. (Ular yuguradi)"
+      },
+      {
+        "title": "Or va Nor qoidasi",
+        "body": "Agar ega 'or' (yoki) yoki 'nor' (na u, na bu) bilan bog'lansa, fe'l o'ziga eng yaqin turgan egaga qarab moslashadi. Yaqinroqdagi ega birlik bo'lsa – fe'l birlik, ko'plik bo'lsa – ko'plik bo'ladi.",
+        "example": "Neither the teacher nor the students ARE here. (Students yaqin bo'lgani uchun are ishlatildi)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "sentence-structure",
+    "lesson_slug": "hol-ergash-gaplar-vaqt-sabab-maqsad-va-zidlik",
+    "theory": [
+      {
+        "title": "Vaqt ergash gaplari",
+        "body": "Vaqt ergash gaplari ish-harakat qachon sodir bo'lganini bildiradi. Biz ular uchun 'when', 'while', 'after', 'before' kabi bog'lovchilardan foydalanamiz. Eslab qoling: bog'lovchidan keyin keladigan qism har doim vaqtni ko'rsatadi.",
+        "example": "I will call you when I arrive home. (Uyga yetib borganimda senga qo'ng'iroq qilaman.)"
+      },
+      {
+        "title": "Sabab ergash gaplari",
+        "body": "Biror narsa nima uchun sodir bo'lganini tushuntirish uchun sabab bog'lovchilarini ishlatamiz. 'Because', 'since' yoki 'as' so'zlari gapdagi asosiy fikrning sababini ko'rsatadi. Bu bog'lovchilar gapni 'nima uchun?' savoliga javob beradigan qilib shakllantiradi.",
+        "example": "She stayed home because it was raining. (Yomg'ir yog'ayotgani uchun u uyda qoldi.)"
+      },
+      {
+        "title": "Maqsad ergash gaplari",
+        "body": "Biror harakatni nima maqsadda qilayotganimizni aytish uchun 'to', 'in order to' yoki 'so that' dan foydalanamiz. 'So that' dan keyin odatda fe'lning zamoni (can/could) bilan keladi, 'to' esa fe'lning o'zi bilan ishlatiladi.",
+        "example": "I study hard so that I can pass the exam. (Imtihondan o'tishim uchun qattiq o'qiyman.)"
+      },
+      {
+        "title": "Zidlik ergash gaplari",
+        "body": "Kutilmagan natijani ifodalash uchun zidlik bog'lovchilari – 'although', 'even though' yoki 'despite' ni ishlatamiz. Ular 'garchi... bo'lsa-da' ma'nosini beradi va ikki qism o'rtasida qarama-qarshilik hosil qiladi.",
+        "example": "Although it was cold, he went out without a coat. (Garchi sovuq bo'lsa-da, u paltosiz tashqariga chiqdi.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "sentence-structure",
+    "lesson_slug": "ot-ergash-gaplar",
+    "theory": [
+      {
+        "title": "Ot ergash gap nima?",
+        "body": "Ot ergash gap (Noun Clause) bu — butun bir gapning ot vazifasini bajarib, asosiy gapning ega yoki to‘ldiruvchisi bo‘lib kelishidir. U ko‘pincha 'that', 'if/whether' yoki 'wh-so‘roq so‘zlari' bilan boshlanadi.",
+        "example": "I know that he is tired. (Men uning charchaganini bilaman.)"
+      },
+      {
+        "title": "That bog‘lovchisi",
+        "body": "Agar biror fakt yoki fikrni ifodalamoqchi bo‘lsangiz, 'that' bog‘lovchisidan foydalanasiz. Ko‘pincha bu so‘z ixtiyoriy tushib qolishi mumkin, ya’ni uni ishlatmasangiz ham gap mazmuni o‘zgarmaydi.",
+        "example": "She said (that) she likes apples. (U olma yoqtirishini aytdi.)"
+      },
+      {
+        "title": "So‘roq so‘zli ergash gaplar",
+        "body": "Kim, nima, qachon, qayerda kabi savollarni gap ichida keltirmoqchi bo‘lsangiz, 'wh-words' (what, where, when, who, why) dan foydalaning. Muhimi: bu yerda gap tartibi oddiy darak gapdek bo‘ladi, ya’ni yordamchi fe'l egadan keyinga o‘tadi.",
+        "example": "I don't know where he lives. (U qayerda yashashini bilmayman.)"
+      },
+      {
+        "title": "If/Whether tanlovi",
+        "body": "Ha/yo‘q javobli savollarni gap tarkibiga kiritish uchun 'if' yoki 'whether' so‘zlaridan foydalanamiz. Bu 'mi' qo‘shimchasi vazifasini bajaradi.",
+        "example": "I wonder if/whether he will come. (U kelarmikin deb o‘ylayapman.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "sentence-structure",
+    "lesson_slug": "istak-va-gipoteza-gaplar-wish-if-only-would-rather",
+    "theory": [
+      {
+        "title": "Wish bilan afsuslanish",
+        "body": "Hozirgi holatingizdan norozi bo'lsangiz, 'I wish' dan keyin fe'lni o'tgan zamonga (Past Simple) qo'ying. Garchi gap o'tgan zamondek ko'rinsa-da, bu hozirgi paytdagi istakni bildiradi.",
+        "example": "I wish I knew the answer. (Hozir javobni bilishni istardim, lekin bilmayman.)"
+      },
+      {
+        "title": "If only kuchi",
+        "body": "'If only' ham 'I wish' bilan bir xil ishlatiladi, lekin u his-tuyg'uni kuchaytiradi. Bu 'Qaniydi...' deb tarjima qilinadi va afsuslanishni yanada ta'sirliroq ko'rsatadi.",
+        "example": "If only I were taller! (Qaniydi balandroq bo'lsam!)"
+      },
+      {
+        "title": "Would rather bilan tanlov",
+        "body": "'Would rather' o'z istagingizni bildirish uchun ishlatiladi va '... qilgan bo'lardim' deb tarjima qilinadi. E'tibor bering, undan keyin fe'l hech qanday qo'shimchasiz, oddiy ko'rinishda keladi.",
+        "example": "I would rather drink tea than coffee. (Men qahvadan ko'ra choy ichgan bo'lardim.)"
+      },
+      {
+        "title": "O'tgan zamon afsusi",
+        "body": "Agar o'tmishda qilingan ishdan afsuslansangiz, 'wish' dan keyin Past Perfect (had + V3) zamonini ishlating. Bu bo'lib o'tgan ishni o'zgartira olmaslikni anglatadi.",
+        "example": "I wish I had studied harder for the exam. (Imtihonga ko'proq tayyorlanganimda edi, deb afsuslanyapman.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "sentence-structure",
+    "lesson_slug": "sifatdosh-va-ravishdosh-iborali-gaplar-qisqartirilgan-ergash",
+    "theory": [
+      {
+        "title": "Sifatdosh (Participle) nima?",
+        "body": "Ingliz tilida gapni qisqartirish uchun fe'lning -ing shaklidan foydalanamiz. Agar ish bajarilyotgan bo'lsa (aktiv ma'noda), fe'lga -ing qo'shamiz. Bu '...ayotgan' yoki '...ib' ma'nosini beradi.",
+        "example": "The boy playing football is my brother. (Futbol o'ynayotgan bola – akam.)"
+      },
+      {
+        "title": "O'timli fe'llar va -ed",
+        "body": "Agar gapda ish o'zimizga nisbatan qilingan bo'lsa (passiv ma'noda), fe'lning 3-shaklini (-ed/V3) ishlatamiz. Bu '...qilingan' degan ma'noni anglatadi.",
+        "example": "The book written by him is popular. (U tomonidan yozilgan kitob – mashhur.)"
+      },
+      {
+        "title": "Sababni qisqartirish",
+        "body": "Agar gapda 'Because' yoki 'Since' ishlatilsa, biz buni -ing shakli orqali qisqartira olamiz. Bu gapni ancha ixcham va professional ko'rsatadi.",
+        "example": "Feeling tired, I went to sleep. (Charchaganim uchun, uxlab qoldim.)"
+      },
+      {
+        "title": "Ehtiyot bo'ling: Egasi bir xil",
+        "body": "Eng muhim qoida: qisqartirilgan qismdagi harakatni kim bajarayotgan bo'lsa, asosiy gapning egasi ham o'sha bo'lishi shart. Aks holda gap mantiqsiz bo'lib qoladi.",
+        "example": "Walking to school, I saw a cat. (To'g'ri: Men maktabga ketayotganimda mushukni ko'rdim.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "sentence-structure",
+    "lesson_slug": "gapda-inversiya-teskari-so-z-tartibi",
+    "theory": [
+      {
+        "title": "Inversiya nima?",
+        "body": "Odatda ingliz tilida ega kesimdan oldin keladi. Inversiyada esa biz gapni kuchaytirish yoki rasmiyroq ohang berish uchun kesim qismini (yoki yordamchi fe'lni) egadan oldinga o'tkazamiz. Bu xuddi savol shakliga o'xshaydi, lekin gap oxirida nuqta qo'yiladi.",
+        "example": "Normal: I have never seen such a view. \nInversion: Never have I seen such a view."
+      },
+      {
+        "title": "Inkor so'zlar bilan inversiya",
+        "body": "Gapimiz 'Never', 'Rarely', 'Seldom' yoki 'Hardly' kabi inkor ma'noli so'zlar bilan boshlansa, darhol inversiya qilamiz. Bu gapga ta'sirli va dramatik tus beradi. Eslatma: fe'l egaga mos kelishi shart.",
+        "example": "Rarely does he visit his parents. (U juda kamdan-kam holatlarda ota-onasini ko'rgani boradi.)"
+      },
+      {
+        "title": "Only iboralari bilan inversiya",
+        "body": "Agar gapni 'Only after', 'Only when' yoki 'Only in this way' kabi iboralar bilan boshlasangiz, asosiy qismda inversiya qilinadi. Bu qoida ko'pincha Milliy sertifikat testlarida grammatik tuzilishni tekshirish uchun juda ko'p ishlatiladi.",
+        "example": "Only then did I realize the truth. (Shundagina men haqiqatni angladim.)"
+      },
+      {
+        "title": "Little va Not only",
+        "body": "Gapni 'Little' (xabar yo'qligini bildirganda) yoki 'Not only' (biror narsaga qo'shimcha ma'lumot berilganda) bilan boshlasangiz ham inversiya talab qilinadi. 'Not only' ishlatganda ikkinchi qismda 'but also' kelishini unutmang.",
+        "example": "Little did she know about the surprise. Not only did he cook, but he also cleaned."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
     "unit_slug": "vocabulary",
     "lesson_slug": "common-verbs-collocations",
     "theory": [
@@ -514,6 +1297,195 @@
   },
   {
     "subject_slug": "ingliz_tili",
+    "unit_slug": "vocabulary",
+    "lesson_slug": "chalkashadigan-so-zlar-va-o-xshash-talaffuzli-so-zlar-homoni",
+    "theory": [
+      {
+        "title": "Homofonlar nima?",
+        "body": "Homofonlar – bu aytilishi bir xil, lekin yozilishi va ma'nosi har xil bo'lgan so'zlar. Ular sizni chalg'itishi mumkin, shuning uchun kontekstga e'tibor berish juda muhim.",
+        "example": "Sun (quyosh) va Son (o'g'il) so'zlarini eshitganda farqlash qiyin, lekin gapdagi o'rniga qarab ajratamiz."
+      },
+      {
+        "title": "To'g'ri so'zni tanlash: Their/There/They're",
+        "body": "Bu uchlik ingliz tilidagi eng mashhur chalkashlikdir. 'Their' egalikni, 'There' joyni, 'They're' esa 'they are' iborasining qisqartmasini bildiradi.",
+        "example": "Their house is there, and they're waiting for us. (Ularning uyi o'sha yerda va ular bizni kutishyapti.)"
+      },
+      {
+        "title": "Ta'sir va natija: Affect va Effect",
+        "body": "Ko'p hollarda 'Affect' – fe'l (ta'sir qilmoq), 'Effect' esa ot (natija/ta'sir) sifatida ishlatiladi. Esingizda tuting: A harfi Action (harakat) bilan boshlanadi.",
+        "example": "The cold weather affected my health. The effect was a bad cough. (Sovuq havo sog'lig'imga ta'sir qildi. Natijasi esa yomon yo'tal bo'ldi.)"
+      },
+      {
+        "title": "Ishlatilishi murakkab so'zlar: Complement va Compliment",
+        "body": "Agar biror narsa boshqasini to'ldirib tursa, 'complement' ishlatamiz. Agar kimningdir tashqi ko'rinishini yoki ishini maqtamoqchi bo'lsangiz, 'compliment' so'zidan foydalaning.",
+        "example": "His tie complements his suit. He gave me a nice compliment. (Uning galstugi kostyumiga mos tushadi. U menga chiroyli maqtov aytdi.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "vocabulary",
+    "lesson_slug": "do-make-have-va-take-fe-llari-bilan-keladigan-turg-un-birikm",
+    "theory": [
+      {
+        "title": "Do vs Make: Asosiy farq",
+        "body": "Ingliz tilida 'do' va 'make'ni adashtirmaslikning siri bor: 'do' ko'proq jarayon va bajariladigan ishlarga, 'make' esa yangi bir narsa yaratish yoki hosil qilishga ishlatiladi. Ishlar (tasks) uchun 'do', mahsulot (product) uchun 'make'ni tanlang.",
+        "example": "Do the dishes (idish yuvish), Make a cake (tort pishirish)."
+      },
+      {
+        "title": "Do bilan keladigan birikmalar",
+        "body": "‘Do’ fe’li odatda kundalik yumushlar, uy vazifasi yoki umumiy ishlar bilan ishlatiladi. Esingizda tuting: agar gap biror topshiriq yoki majburiyat haqida ketsa, deyarli har doim 'do' ishlatiladi.",
+        "example": "Do homework (uy vazifasini qilmoq), Do business (biznes qilmoq)."
+      },
+      {
+        "title": "Have va Take qoidalari",
+        "body": "'Have' ko'pincha ovqatlanish, tanaffus yoki tajribalar bilan keladi. 'Take' esa ko'proq vaqt ajratish, imkoniyatdan foydalanish yoki biror narsani o'zingiz bilan olib ketish ma'nosida ishlatiladi.",
+        "example": "Have lunch (tushlik qilmoq), Take a break (tanaffus qilmoq)."
+      },
+      {
+        "title": "Imtihon uchun muhim eslatma",
+        "body": "Milliy sertifikat testlarida bu fe'llar turg'un birikma (collocation) sifatida keladi. Ularni alohida so'z deb emas, juftlik bo'yicha yodlang. Masalan, 'make' doim 'decision' (qaror) bilan keladi, 'do' esa 'decision' bilan hech qachon ishlatilmaydi.",
+        "example": "Make a decision (qaror qabul qilmoq), Do a favor (yordam bermoq)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "vocabulary",
+    "lesson_slug": "bog-liq-predloglar-fe-l-ot-va-sifatlardan-keyin-keladigan-pr",
+    "theory": [
+      {
+        "title": "Bog'liq predlog nima?",
+        "body": "Ingliz tilida ba'zi fe'l, sifat yoki otlardan keyin doimo ma'lum bir predlog keladi. Buni mantiqan tushuntirib bo'lmaydi, shunchaki yodlab olish kerak. Ular so'zning ma'nosini to'ldirib keladi.",
+        "example": "Interested in (qiziqmoq): I am interested in English. (O'zbekchada 'ga' deb tarjima qilinsa ham, inglizchada 'in' ishlatamiz)."
+      },
+      {
+        "title": "Sifat va predlog juftligi",
+        "body": "Sifatlardan keyin keladigan predloglar odatda birikma holida keladi. Eng ko'p ishlatiladiganlari: 'good at', 'fed up with' va 'proud of'. Bularni gap ichida ko'rib yodlash eng oson usul.",
+        "example": "She is good at swimming. (U suzishga mohir.) / Are you proud of your result? (Natijangdan faxrlanasanmi?)"
+      },
+      {
+        "title": "Fe'l va predlog uyg'unligi",
+        "body": "Ba'zi harakat bildiruvchi so'zlardan keyin predlog kelishi shart. Masalan, 'depend' so'zidan keyin har doim 'on', 'listen' so'zidan keyin esa 'to' keladi. Bularni alohida ajratib yodlang.",
+        "example": "Success depends on hard work. (Muvaffaqiyat mehnatga bog'liq.) / Listen to me! (Menga quloq sol!)"
+      },
+      {
+        "title": "Test: Bilimingizni sinang",
+        "body": "Quyidagi bo'sh joylarni to'ldiring: \n1. He is interested ___ music. \n2. I am tired ___ waiting. \n3. It depends ___ the weather.",
+        "example": "Javoblar: 1. in, 2. of, 3. on. (Agar hammasini topgan bo'lsangiz, siz tayyorsiz!)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "vocabulary",
+    "lesson_slug": "sifat-ot-va-ravish-sifat-birikmalari-collocations",
+    "theory": [
+      {
+        "title": "Collocation o'zi nima?",
+        "body": "Ingliz tilida ba'zi so'zlar bir-biri bilan «do'st» bo'lib yashaydi. Ularni shunchaki tarjima qilmasdan, aynan birga ishlatish kerak. Masalan, 'katta xato' demoqchi bo'lsangiz, 'big mistake' deysiz, 'large mistake' emas.",
+        "example": "Do'st: 'make a mistake' (xato qilmoq), 'do homework' (uyga vazifa qilmoq)."
+      },
+      {
+        "title": "Sifat + Ot birikmalari",
+        "body": "Sifat otni ta'riflaydi. Milliy sertifikatda eng ko'p uchraydigan holat - bu so'zning ma'nosiga qarab mos sifatni tanlash. Masalan, 'og'ir yomg'ir' uchun 'heavy rain' deymiz, 'strong rain' esa xato hisoblanadi.",
+        "example": "A 'heavy rain' (kuchli yomg'ir), 'strong evidence' (kuchli dalil)."
+      },
+      {
+        "title": "Ravish + Sifat birikmalari",
+        "body": "Ravish sifatni yanada kuchaytiradi. Ko'pincha 'juda' ma'nosini beruvchi ravishlarni sifatlar bilan bog'laymiz. Masalan, 'butunlay' ma'nosida 'absolutely' so'zini 'impossible' sifati bilan ishlatsangiz, nutqingiz tabiiy chiqadi.",
+        "example": "Absolutely impossible (mutlaqo imkonsiz), highly intelligent (juda aqlli)."
+      },
+      {
+        "title": "Test: To'g'risini tanlang",
+        "body": "Quyidagi qoidalarni eslang va mosini toping: 1. Biz 'heavy' yomg'ir deymiz. 2. Biz 'make' xato deymiz. 3. Biz 'highly' aqlli deymiz. Quyidagi variantlardan qaysi biri to'g'ri: A) Strong rain, B) Make a mistake, C) Highly impossible?",
+        "example": "To'g'ri javob: B va C (Chunki 'strong rain' emas, 'heavy rain' ishlatiladi)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "vocabulary",
+    "lesson_slug": "predlogli-iboralar-prepositional-phrases",
+    "theory": [
+      {
+        "title": "Predlogli ibora nima?",
+        "body": "Ingliz tilida predlog (in, on, at, by) va undan keyin keladigan ot yoki olmosh birgalikda 'predlogli ibora' deyiladi. Ular gapda vaqt, joy yoki holat haqida qo'shimcha ma'lumot beradi. Oddiy qilib aytganda, bu iboralar gapimizni boyituvchi 'bezaklar'dir.",
+        "example": "in the morning (vaqt), at school (joy)"
+      },
+      {
+        "title": "Vaqt uchun 'In', 'On', 'At'",
+        "body": "Vaqt haqida gapirganda adashmaslik uchun quyidagi qoidani eslab qoling: 'At' aniq soatlar uchun, 'On' kunlar va sanalar uchun, 'In' esa oylar, yillar yoki kunning qismlari uchun ishlatiladi.",
+        "example": "at 5 o'clock, on Monday, in July"
+      },
+      {
+        "title": "Joyni belgilovchi predloglar",
+        "body": "Joy haqida gapirganda, 'At' kichikroq yoki aniq nuqtani (masalan, bekat), 'In' esa ichkarida yoki kengroq joylarni (shahar, mamlakat) bildiradi. 'On' esa odatda yuzalar (stol usti, devor) uchun ishlatiladi.",
+        "example": "at the bus stop, in Tashkent, on the table"
+      },
+      {
+        "title": "Fiksatsiyalangan iboralar",
+        "body": "Ba'zi predlogli iboralar mantiqqa bo'ysunmaydi, ularni shunchaki yod olish kerak. Masalan, inglizlar 'on holiday' (ta'tilda) yoki 'by car' (mashinada) deyishadi. Bularni lug'atdan yodlagan ma'qul.",
+        "example": "by bus, on foot, for a long time"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "vocabulary",
+    "lesson_slug": "akademik-va-rasmiy-lug-at-boyligi-b2-c1-darajasi",
+    "theory": [
+      {
+        "title": "So'zlarni tanlash san'ati",
+        "body": "Akademik ingliz tilida 'get' yoki 'do' kabi oddiy so'zlar o'rniga aniqroq ma'no beruvchi fe'llarni ishlatamiz. Bu sizning yozma ishingizni professional va jiddiyroq ko'rsatadi.",
+        "example": "Oddiy: 'He got a new job.' (U ish topdi) -> Akademik: 'He secured a new position.' (U lavozimga ega bo'ldi)"
+      },
+      {
+        "title": "Phrasal fe'llardan qoching",
+        "body": "Kundalik suhbatlarda 'find out', 'look into' kabi iboralarni ko'p ishlatamiz, lekin akademik darajada ularning bitta so'zli sinonimlarini ishlatish talab etiladi.",
+        "example": "Kundalik: 'look into' -> Akademik: 'investigate'. Kundalik: 'find out' -> Akademik: 'ascertain'."
+      },
+      {
+        "title": "O'ta kuchli so'zlardan foydalaning",
+        "body": "Gaplaringizni ta'sirli qilish uchun 'very good' yoki 'very big' kabi oddiy birikmalar o'rniga bitta kuchli sifat ishlatish kifoya. Bu matnni qisqa va mazmunli qiladi.",
+        "example": " 'Very good' o'rniga 'exceptional' yoki 'superb'; 'Very big' o'rniga 'enormous' yoki 'substantial' so'zlarini tanlang."
+      },
+      {
+        "title": "Nominalizatsiya (Otlashtirish)",
+        "body": "Akademik uslubda fe'llarni ot shakliga o'tkazish matnni yanada rasmiy qiladi. Bu usul ayniqsa tadqiqotlar va xulosalar yozganda juda qo'l keladi.",
+        "example": " 'People analyzed the data carefully' o'rniga 'A careful analysis of the data was conducted' deyish ancha akademikroq."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "vocabulary",
+    "lesson_slug": "idiomalar-va-ko-chma-ma-noli-turg-un-iboralar",
+    "theory": [
+      {
+        "title": "Idiomalar nima?",
+        "body": "Idiomalar — bu so‘zma-so‘z tarjima qilinmaydigan turg‘un iboralar. Agar ularni so‘zma-so‘z o‘girsangiz, ma’nosi umuman boshqa narsani anglatib qoladi. Ular ingliz tilini jonli va tabiiy qiladi, shuning uchun Milliy sertifikatda yuqori ball olish uchun ularni yoddan bilish shart.",
+        "example": "Masalan: 'Piece of cake' (o'zbekcha: 'judayam oson'). Uni 'tort bo'lagi' deb tarjima qilsangiz, xato bo'ladi."
+      },
+      {
+        "title": "Ranglar va his-tuyg‘ular",
+        "body": "Ingliz tilida ko‘plab idiomalar ranglar orqali his-tuyg‘ularni ifodalaydi. Bu iboralarni o‘rganish oson, chunki ular ko‘pincha mantiqqa tayanadi. Ularni matn ichida o‘z o‘rnida ishlata bilsangiz, nutqingiz professional yangraydi.",
+        "example": "'Feeling blue' – xafa yoki tushkun kayfiyatda bo‘lmoq. 'Out of the blue' – kutilmaganda, to‘satdan."
+      },
+      {
+        "title": "Tana a’zolari bilan bog‘liq iboralar",
+        "body": "Inglizlar inson tanasi a’zolarini turli vaziyatlarni tasvirlash uchun juda ko‘p ishlatishadi. Masalan, 'bosh', 'ko‘z' yoki 'qo‘l' so‘zlari qatnashgan iboralarni eslab qolsangiz, imtihondagi 'Reading' qismlarida matn mazmunini tezroq tushunasiz.",
+        "example": "'Keep an eye on' – kuzatib turmoq, nazorat qilmoq. 'Cost an arm and a leg' – juda qimmatga tushmoq."
+      },
+      {
+        "title": "Idiomalar bilan ishlash strategiyasi",
+        "body": "Idiomalar bilan ishlashda ularning kontekstiga e’tibor bering. Har doim gapning umumiy mazmuniga qarang, chunki ibora gapning butun ma’nosini o‘zgartirib yuborishi mumkin. Ularni alohida so‘z emas, balki tayyor qolip sifatida yodlang.",
+        "example": "Agar gapda 'break a leg' kelsa, bu oyog‘ingni sindir emas, aksincha, 'omad tilayman' (masalan, sahnaga chiqishdan oldin) deganidir."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
     "unit_slug": "reading-comprehension",
     "lesson_slug": "main-idea",
     "theory": [
@@ -590,6 +1562,222 @@
         "title": "Mantiqiy bog'liqlikni topish",
         "body": "Oxirgi qadam – umumiy vaziyatni tahlil qilish. O'zingizdan so'rang: 'Bu vaziyatda nima sodir bo'lishi mantiqan to'g'ri?'. O'z tajribangiz va dunyoqarashingizni kontekstga qo'shing.",
         "example": "Gap: 'The desert was so arid that no plants could grow there.' (Cho'lda o'simlik o'smasligi uchun u yer qanday bo'lishi kerak? Albatta, 'suvsiz' yoki 'quruq', ya'ni 'arid'.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "matndagi-havola-so-zlar-va-olmoshlarni-aniqlash",
+    "theory": [
+      {
+        "title": "Havola so'zlar nima?",
+        "body": "Matnda har doim ham bir so'zni qayta-qayta yozmaymiz. O'rniga 'u', 'bu', 'ular' kabi olmoshlar yoki ishora so'zlarini ishlatamiz. Bu so'zlar matnning davomiyligini ta'minlaydi va ularni 'havola so'zlar' deb ataymiz.",
+        "example": "Aziza is a doctor. She (Aziza) works in a hospital."
+      },
+      {
+        "title": "Olmoshlar kimni anglatadi?",
+        "body": "He, she, it, they kabi olmoshlar matndagi aniq bir otni almashtiradi. Ularni aniqlash uchun gapda undan oldin kelgan mos otni (inson, narsa yoki hayvon) qidirishingiz kerak.",
+        "example": "The books are on the table. They (books) are very interesting."
+      },
+      {
+        "title": "Ishora so'zlari: This va That",
+        "body": "Agar 'This' yoki 'That' so'zidan keyin ot kelmasa, ular oldingi gapdagi butun bir fikrni yoki narsani anglatadi. 'This' yaqinroq, 'That' esa uzoqroq narsa yoki voqeaga ishora qiladi.",
+        "example": "He failed his exam. This (the failure) made him sad."
+      },
+      {
+        "title": "Havola so'zlarni topish testi",
+        "body": "Matndagi 'Which', 'Who' yoki 'Whose' kabi so'zlar o'zidan oldin kelgan so'z haqida qo'shimcha ma'lumot beradi. Testda bu so'zlar aynan qaysi otga tegishli ekanligini topish uchun ulardan oldingi so'zlarni tekshiring.",
+        "example": "The teacher, who (the teacher) lives nearby, is very kind."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "matnda-parafrazalarni-muqobil-ifodalarni-aniqlash",
+    "theory": [
+      {
+        "title": "Parafraza nima?",
+        "body": "Parafraza — bu bir xil fikrni boshqacha so‘zlar bilan ifodalash. Milliy sertifikat imtihonida savollardagi so‘zlar matnda aynan takrorlanmaydi, balki ularning ma’nodoshlari (sinonimlari) ishlatiladi. Bu qobiliyat matnni tushunishingizni tekshirish uchun juda muhim.",
+        "example": "Original: 'The weather is hot.' / Parafraza: 'The temperature is very high.'"
+      },
+      {
+        "title": "Sinonimlardan foydalanish",
+        "body": "Eng oson parafraza usuli — bu so‘zlarni ma’nodoshlari bilan almashtirish. Matnni o‘qiyotganda, savoldagi asosiy so‘zlarning (kalit so‘zlar) sinonimlarini izlang. Bu sizga kerakli javobni tezroq topishga yordam beradi.",
+        "example": "Savolda: 'difficult task' / Matnda: 'challenging job'"
+      },
+      {
+        "title": "Gap tuzilishini o‘zgartirish",
+        "body": "Ba'zida faqat so‘z emas, gapning strukturasi ham o‘zgaradi. Masalan, faol nisbatdagi (Active voice) gap majhul nisbatga (Passive voice) o‘tkazilishi mumkin. Bunday hollarda gapning egasi va kesimi o‘rnini o‘zgartirsa ham, mazmun bir xil qoladi.",
+        "example": "Active: 'Scientists discovered the cure.' / Passive: 'The cure was discovered by scientists.'"
+      },
+      {
+        "title": "Umumlashtiruvchi atamalar",
+        "body": "Imtihon matnlarida ko‘pincha bitta narsa o‘rniga uning umumiy guruhini bildiruvchi so‘zlar qo‘llanadi. Masalan, 'apples, bananas, and grapes' o‘rniga 'fruits' so‘zi ishlatilishi mumkin. Bu usulni 'generalization' deb ataymiz.",
+        "example": "Matnda: 'She likes playing football and tennis.' / Savolda: 'She is fond of sports.'"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "bog-lovchi-vositalar-va-mantiqiy-bog-liqlikni-tushunish",
+    "theory": [
+      {
+        "title": "Bog'lovchi vositalar nima?",
+        "body": "Ingliz tilida gaplar yoki fikrlarni bir-biriga bog'lab, ularni mantiqiy tartibga soladigan so'zlarni bog'lovchi vositalar deymiz. Ular xuddi ikki g'ishtni bir-biriga yopishtiruvchi sement vazifasini bajaradi, shunda matn parcha-parcha bo'lib qolmaydi.",
+        "example": "And (va) – fikrni qo'shadi, But (lekin) – fikrni qarama-qarshi qo'yadi."
+      },
+      {
+        "title": "Qarama-qarshilikni ifodalash",
+        "body": "Ba'zida gapning ikkinchi qismi birinchisiga zid keladi. Bunday holatda 'But', 'However' yoki 'Although' kabi bog'lovchilarni ishlatamiz. Ular o'quvchiga 'diqqat, fikr o'zgarmoqda!' degan ishora beradi.",
+        "example": "He studied hard, but he failed. (U qattiq o'qidi, lekin yiqildi.)"
+      },
+      {
+        "title": "Sabab va natija bog'liqligi",
+        "body": "Agar biror narsa nima uchun sodir bo'lganini tushuntirmoqchi bo'lsak, sabab-oqibat bog'lovchilaridan foydalanamiz. 'Because' sababni, 'Therefore' yoki 'So' esa natijani ko'rsatadi.",
+        "example": "It rained, so we stayed home. (Yomg'ir yog'di, shuning uchun uyda qoldik.)"
+      },
+      {
+        "title": "Ketma-ketlikni ko'rsatish",
+        "body": "Voqealar qaysi tartibda sodir bo'lganini tushuntirish uchun vaqt bog'lovchilaridan foydalanamiz. 'First', 'Then', 'After' kabi so'zlar voqealar oqimini tartibga solib, matnni tushunishni osonlashtiradi.",
+        "example": "First, boil the water. Then, add the tea. (Birinchi, suvni qaynat. Keyin, choyni sol.)"
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "faktlarni-muallifning-shaxsiy-fikridan-farqlash",
+    "theory": [
+      {
+        "title": "Fakt nima?",
+        "body": "Fakt — bu shubhasiz haqiqat. Uni ilmiy dalillar, raqamlar yoki tarixiy manbalar bilan isbotlash mumkin. U kimningdir kayfiyatiga bog'liq emas, shunchaki bor narsa.",
+        "example": "Masalan: 'O'zbekiston Markaziy Osiyoda joylashgan' yoki 'Suv 100 darajada qaynaydi'."
+      },
+      {
+        "title": "Shaxsiy fikr nima?",
+        "body": "Fikr — bu insonning ichki qarashi yoki hissiyoti. Uni isbotlab bo'lmaydi, chunki boshqa odamlar bunga mutlaqo boshqacha munosabatda bo'lishi mumkin. Bunda ko'pincha 'menimcha', 'yaxshi', 'yomon' kabi so'zlar ishlatiladi.",
+        "example": "Masalan: 'Ingliz tilini o'rganish juda qiziqarli' yoki 'Yoz fasli eng go'zal fasl'."
+      },
+      {
+        "title": "Ajratish kalit so'zlari",
+        "body": "Matnda fikrni aniqlash uchun 'bence' (fikrimcha), 'should' (kerak), 'better' (yaxshiroq) kabi sifatlovchi so'zlarni qidiring. Faktlar esa odatda aniq sanalar, nomlar va statistik ma'lumotlarga tayanadi.",
+        "example": "Fakt: 'U 2020-yilda bitirdi'. Fikr: 'U 2020-yilda juda ajoyib ish qildi'."
+      },
+      {
+        "title": "O'zini tekshirish testi",
+        "body": "Quyidagi ikkita gapdan qaysi biri fakt, qaysi biri fikr ekanligini toping: 1. 'Toshkent - O'zbekiston poytaxti.' 2. 'Toshkent dunyodagi eng chiroyli shahar.'",
+        "example": "Javob: 1-gap fakt (isbotlangan), 2-gap fikr (subyektiv baho)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "muallifning-ohangi-munosabati-va-maqsadini-aniqlash",
+    "theory": [
+      {
+        "title": "Muallifning maqsadi nima?",
+        "body": "Muallif har bir matnni yozganda biror maqsadni ko'zlaydi. U sizga yangi ma'lumot bermoqchimi (to inform), biror narsaga ishontirmoqchimi (to persuade) yoki shunchaki qiziqarli voqea aytib bermoqchimi (to entertain)?",
+        "example": "Darslikdagi matn - ma'lumot berish; reklama - ishontirish; ertak - ko'ngil ochish."
+      },
+      {
+        "title": "Ohangni qanday sezamiz?",
+        "body": "Ohang (tone) - bu muallifning mavzuga bo'lgan ichki his-tuyg'usi. U matndagi sifatlar va fe'llar orqali namoyon bo'ladi. Muallif quvnoqmi, jiddiy, tanqidiy yoki g'azablanganligini so'z tanlovidan bilib olamiz.",
+        "example": "'Vahimali' so'zi ishlatilgan matn - xavotirli ohang; 'ajoyib' so'zi - ijobiy ohang."
+      },
+      {
+        "title": "Munosabatni aniqlash usuli",
+        "body": "Muallifning munosabati (attitude) - uning mavzuga nisbatan tarafkashligi. U hodisani yoqlaydimi (positive), qoralaydimi (negative) yoki hech qanday tomonni olmay, xolis (neutral) qoladimi? Buni matndagi subyektiv baholovchi so'zlarga qarab topamiz.",
+        "example": "Agar muallif 'baxtsizlik' deb atasa - salbiy; 'yutuq' desa - ijobiy munosabat."
+      },
+      {
+        "title": "Kalit so'zlar siri",
+        "body": "Testlarda muallifning maqsadini topish uchun matnning bosh va oxirgi qismlariga qarang. Agar matnda 'should', 'must', 'better' kabi so'zlar ko'p bo'lsa, muallif sizni nimagadir undayapti (persuade). Faqat faktlar va sanalar bo'lsa - xolis ma'lumot beryapti (inform).",
+        "example": "'We must act now' - ishontirish; 'In 1990, the event happened' - ma'lumot berish."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "matn-tuzilishi-va-axborot-taqdim-etilish-usullarini-tahlil-q",
+    "theory": [
+      {
+        "title": "Matnning asosiy strukturasi",
+        "body": "Har qanday akademik matn uch qismdan iborat: kirish, asosiy qism va xulosa. Kirishda mavzu tanishtiriladi, asosiy qismda dalillar keltiriladi, xulosada esa fikr umumlashtiriladi.",
+        "example": "Kirish: Iqlim o'zgarishi muammosi. Asosiy qism: Sabablar va oqibatlar. Xulosa: Yechimlar taklifi."
+      },
+      {
+        "title": "Muammo va yechim modeli",
+        "body": "Yozuvchi muammoni qo'yadi va uni hal qilish yo'llarini ko'rsatadi. Matnni tushunish uchun avval qiyinchilikni, keyin esa taklif etilgan yechimni topishga harakat qiling.",
+        "example": "Muammo: Shaharda tirbandlik ko'p. Yechim: Jamoat transportini rivojlantirish."
+      },
+      {
+        "title": "Sabab va oqibat tahlili",
+        "body": "Ba'zi matnlar hodisalar o'rtasidagi sabab-oqibat bog'liqligini ko'rsatadi. 'Because', 'therefore', 'as a result' kabi so'zlarga e'tibor bering, ular voqealar zanjirini ochib beradi.",
+        "example": "Sabab: Qurg'oqchilik bo'ldi. Oqibat: Hosildorlik keskin pasayib ketdi."
+      },
+      {
+        "title": "Solishtirish va qarama-qarshilik",
+        "body": "Yozuvchi ikki narsani o'xshatishi yoki bir-biriga qarshi qo'yishi mumkin. 'However', 'in contrast', 'similarly' kabi bog'lovchilar matn tuzilishini tushunishga yordam beradi.",
+        "example": "Solishtirish: Ikkala shahar ham rivojlangan. Qarama-qarshilik: A shahri boy, B shahri esa kambag'al."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "matn-yaxlitligi-va-tushib-qolgan-gaplarni-joylashtirish",
+    "theory": [
+      {
+        "title": "Gaplarni bog'lovchi kalit so'zlar",
+        "body": "Matndagi bo'shliqni to'ldirish uchun avvalgi va keyingi gapdagi 'tanish' so'zlarga e'tibor bering. O'xshash mavzudagi so'zlar (sinonimlar) yoki bir xil mavzuga oid atamalar ko'pincha ketma-ket keladi.",
+        "example": "Agar birinchi gapda 'The city' haqida so'z ketsa, keyingi gapda 'It' yoki 'this urban area' kabi bog'lovchi so'zlar bo'lishi kerak."
+      },
+      {
+        "title": "Olmoshlar yordamida topish",
+        "body": "Ingliz tilida 'he, she, it, they, this, those' kabi olmoshlar oldin aytilgan ism yoki narsaga ishora qiladi. Agar bo'shliqdan keyin 'they' deb boshlansa, demak, oldingi gapda ko'plikdagi shaxslar yoki narsalar tilga olingan bo'lishi shart.",
+        "example": "Bo'shliqdan keyin 'They usually travel by bus' deb kelsa, bo'shliqqa 'My friends' yoki 'Students' kabi ko'plikdagi otlar qatnashgan gapni qo'yishimiz kerak."
+      },
+      {
+        "title": "Mantiqiy ketma-ketlik va bog'lovchilar",
+        "body": "Gaplar o'zaro mantiqiy bog'lanishi kerak. 'However' (qarama-qarshilik), 'Therefore' (natija), 'Firstly' (tartib) kabi bog'lovchilar matnning rivojlanish yo'nalishini ko'rsatib beradi.",
+        "example": "Agar gap 'However' bilan boshlansa, undan oldingi gapda zid ma'noli fikr bo'lishi kerak."
+      },
+      {
+        "title": "Matn yaxlitligini tekshirish",
+        "body": "Tanlangan gapni bo'shliqqa qo'yib, matnni to'liq o'qing. Agar gaplar orasidagi fikr uzilib qolmay, ravon o'tib ketsa, demak siz to'g'ri javobni topdingiz.",
+        "example": "O'qiyotganda fikrlar bir-birini mantiqan to'ldiryaptimi yoki keskin o'zgarib ketyaptimi, shunga e'tibor bering."
+      }
+    ]
+  },
+  {
+    "subject_slug": "ingliz_tili",
+    "unit_slug": "reading-comprehension",
+    "lesson_slug": "turli-matnlar-yoki-abzaslar-bo-yicha-ma-lumotlarni-solishtir",
+    "theory": [
+      {
+        "title": "Kalit so'zlarni topish",
+        "body": "Matn va savollarni solishtirishda eng birinchi qadam – bu savoldagi asosiy so'zlarni (ism, sana, joy yoki maxsus atamalar) matndan qidirishdir. Bu sizga javob yashiringan qismni tezda topishga yordam beradi.",
+        "example": "Savol: 'When did the museum open?' Matnda 'museum' va 'opened in 1995' kabi kalit so'zlarni qidiring."
+      },
+      {
+        "title": "Parafrazani tushunish",
+        "body": "Imtihonda javoblar ko'pincha matndagi so'zlar bilan aynan bir xil bo'lmaydi. Savoldagi fikr boshqa so'zlar bilan ifodalangan bo'lishi mumkin, shuning uchun so'zma-so'z emas, ma'no jihatdan moslikni qidiring.",
+        "example": "Matnda: 'The library is free for everyone.' Savolda: 'You do not have to pay to use the library.'"
+      },
+      {
+        "title": "Ma'lumotlarni solishtirish",
+        "body": "Bir nechta abzasli matnlarda ma'lumotlarni moslashtirish uchun har bir abzasning asosiy g'oyasini bir so'z bilan belgilab oling. Bu sizga qaysi abzasda qaysi mavzu yoritilganini chalkashtirmaslikka yordam beradi.",
+        "example": "A-abzas: Tarix haqida; B-abzas: Joylashuvi haqida. 'Where is the building?' degan savol bo'lsa, darhol B-abzasga qarang."
+      },
+      {
+        "title": "Chalg'ituvchi variantlar",
+        "body": "Ko'pincha matnda savolga o'xshash, lekin noto'g'ri ma'lumot beruvchi jumlalar bo'ladi. Har doim javobni tanlashdan oldin, u matndagi ma'lumotni to'liq tasdiqlashiga ishonch hosil qiling.",
+        "example": "Matnda: 'He usually walks, but today he took a bus.' Savol: 'How does he go to work?' Javob 'Bus' emas, balki 'Walks' bo'lishi kerak."
       }
     ]
   }
