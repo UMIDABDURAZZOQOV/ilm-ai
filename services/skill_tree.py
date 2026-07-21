@@ -14,6 +14,7 @@ from services.models import (
     SkillSubject,
     SkillUnit,
     UserLessonProgress,
+    UserUnitExam,
 )
 
 
@@ -68,12 +69,30 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
     for l in lessons:
         lessons_by_unit.setdefault(l.unit_id, []).append(l)
 
+    exams = (
+        db.query(UserUnitExam)
+        .filter(UserUnitExam.user_id == user_id, UserUnitExam.unit_id.in_(unit_ids))
+        .all()
+    ) if unit_ids else []
+    exam_map = {e.unit_id: e for e in exams}
+
     result_units = []
+    # A unit's checkpoint exam gates the NEXT unit: you can't start a new bob
+    # until the previous one's exam is passed. The first unit is never gated.
+    gate_open = True
     for u in units:
+        u_lessons = lessons_by_unit.get(u.id, [])
+        # Don't retroactively lock people who were already working inside this
+        # unit before checkpoints existed -- only block *entering* a fresh one.
+        started_here = any(l.id in completed_ids for l in u_lessons)
+        gated = (not gate_open) and not started_here
+
         unit_lessons = []
-        for l in lessons_by_unit.get(u.id, []):
+        for l in u_lessons:
             if l.id in completed_ids:
                 status = "completed"
+            elif gated:
+                status = "locked"
             else:
                 requires = prereq_map.get(l.id, [])
                 status = "unlocked" if all(r in completed_ids for r in requires) else "locked"
@@ -90,6 +109,18 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
                 "stars": p.stars if p else 0,
                 "best_score_pct": p.best_score_pct if p else None,
             })
+        all_done = bool(u_lessons) and all(l.id in completed_ids for l in u_lessons)
+        ex = exam_map.get(u.id)
+        exam_passed = bool(ex and ex.passed)
+        if not u_lessons:
+            exam_state = "none"           # nothing to examine -- never gates
+        elif exam_passed:
+            exam_state = "passed"
+        elif all_done and not gated:
+            exam_state = "unlocked"       # every lesson done -> checkpoint opens
+        else:
+            exam_state = "locked"
+
         result_units.append({
             "id": u.id,
             "slug": u.slug,
@@ -98,7 +129,16 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
             "title_en": u.title_en,
             "order_index": u.order_index,
             "lessons": unit_lessons,
+            "exam": {
+                "status": exam_state,
+                "passed": exam_passed,
+                "best_score_pct": ex.best_score_pct if ex else None,
+                "attempts": ex.attempts if ex else 0,
+            },
         })
+
+        # The next unit only opens once this one's checkpoint is passed.
+        gate_open = exam_passed or not u_lessons
 
     return {
         "subject": {

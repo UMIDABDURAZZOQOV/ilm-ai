@@ -310,6 +310,62 @@ verification OFF — full detail in the "Email verification" section above.
 - Driven this session with the owner's **Render API key** (`rnd_…`) and **Vercel token** (`vcp_…`) —
   revoke them when CLI/API access is no longer wanted.
 
+### Session 2026-07-21 — bug fixes, skill-tree gating, language level test, IELTS UI
+
+**Bugs found & fixed**
+- **Flashcards were 500-ing** (`routers/quiz.py`) and so was AI question generation
+  (`services/question_bank.py`): both did `from services.quiz_engine import client`, but
+  `quiz_engine` no longer defines `client` (it was refactored onto `services/gemini.py`). The
+  runtime `ImportError` surfaced as "Kartochkalarni generatsiya qilib bo'lmadi". Both now call
+  `services.gemini.generate_content` (multi-key rotation + timeout). **Rule: never import a raw
+  Gemini `client` — always go through `services/gemini.py`.**
+- **Everything looked "static"** — `apiFetch` (frontend `lib/api.ts`) had no cache control, so the
+  browser replayed cached GETs (e.g. `/gaps/report/<id>`); freshly finished quizzes only appeared
+  after a manual refresh. Fixed with `cache: "no-store"` on both fetch calls.
+
+**Skill tree (Fanlar) — progression rules**
+- **Star tiers + pass mark** (`routers/skills.py`): `STAR3_PCT=90 / STAR2_PCT=80 / STAR1_PCT=60`,
+  `PASS_THRESHOLD_PCT = STAR1_PCT`. On a 10-question lesson: 10-9 → 3⭐, 8 → 2⭐, 7-6 → 1⭐, ≤5 → fail.
+  `passed = stars >= 1`. **Failing no longer completes the lesson**, so the next node stays locked and
+  the session screen says "yana bir marta o'rganing". An already-completed lesson is never downgraded.
+- **Unit checkpoint exam** — new `UserUnitExam` table + `GET /skills/{id}/unit-exam?unit_id=` and
+  `POST /skills/unit-exam/complete` (15 Q drawn from every lesson in the unit, 60% to pass, +50 XP).
+  `services/skill_tree.py::build_tree` now gates each unit behind the previous unit's exam
+  (`gate_open`), exposes `unit.exam.status` (`none|locked|unlocked|passed`), and **deliberately does
+  not retro-lock** anyone who already has progress inside a unit (`started_here`).
+- Renamed the section **"Milliy Sertifikat" → "Fanlar"** across nav, dashboard, marquee and i18n.
+
+**Language placement test** — new `UserLanguageLevel` table, `GET /skills/{id}/level-test?subject=`
+(15 Q sampled across easy/medium/hard) + `POST /skills/level-test/complete`. CEFR mapping
+90/75/60/40 → C1/B2/B1/A2/A1. Only for `ingliz_tili | koreys_tili | fransuz_tili`; the card appears
+above the path on those subjects.
+
+**IELTS — full exam UI rebuilt (frontend), content deliberately NOT included**
+Modelled on the UX of jumpinto.com. New under `ilm-ai-frontend/src/components/ielts/`:
+`ReadingExam` (split pane, MCQ/TFNG/YNNG/completion/matching/heading, grouped instructions, guided
+highlight, localStorage autosave, Answer-Keys drawer with My/Correct + band), `ListeningExam`
+(audio + collapsible speaker-tagged audioscript), `WritingExam` (boxed prompt, figure, live word
+count, Submit-for-Feedback, 4-criteria bands, sample answer), `SpeakingExam` (cue card +
+MediaRecorder + timer), `ExamShell` (bottom `Listening · 1 · 2 · 3 · Writing · Speaking` nav) and
+`TestBrowser` (book → test cards with band chips). `src/lib/ieltsBand.ts` holds the official
+raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.25/.75 round up).
+- **Wired so far:** `/sat/ielts/reading` (uses the bundled sample passages) and the new
+  `/sat/ielts/dictionary`. Listening/Writing/Speaking pages are **not wired yet** — their grading
+  endpoints need a real `task_id` and `ielts_writing/listening/speaking` are still empty, so wiring
+  them now would ship a button that 500s. Seed those tables first.
+- **New `routers/vocab.py`** — IELTS dictionary: `GET /vocab/define` (free dictionaryapi.dev, i.e.
+  Wiktionary data — deliberately not a commercial dictionary), `GET /vocab/examples` (sentences
+  mined from OUR OWN passages/transcripts), and starred words (`UserStarredWord`,
+  `GET /vocab/{id}/starred`, `POST|DELETE /vocab/starred`).
+
+> **Content note (important, decided with the owner):** the IELTS *interface* is modelled on
+> jumpinto.com, but its **content is Cambridge IELTS 18–21, which is copyrighted** and hosted there
+> without a licence. We did **not** copy, scrape or ingest any of it, and repeated requests to do so
+> (including via uploaded PDFs) were declined — for a startup applying to UzCombinator that is a
+> deal-breaking IP risk. The owner will source content himself (licence from Cambridge, own
+> item-writers, or openly-licensed texts). Every component above is content-agnostic and matches the
+> DB shape, so licensed material drops straight in.
+
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
   (rendered in `app/layout.tsx`, uz/ru/en, sessionStorage-dismissed). Backend: root `/` returns a
@@ -500,9 +556,4 @@ source of truth; this is the narrative so context isn't lost across machines/ses
    service-account JSON path set as `FIREBASE_SERVICE_ACCOUNT_PATH` on the backend. Everything is
    wired and waiting — this is a credentials gap, not missing code.
 
-## ⚠️ Content policy (important)
-Do NOT ingest or publish copyrighted exam material (Cambridge IELTS books, British Council
-official tests, etc.) onto the platform — that is copyright infringement (true even while the
-site is free; distribution is the issue, not payment). Use AI-generated ORIGINAL content in the
-IELTS format, or genuinely open-licensed material. This matches the site's own "100% original
-content" promise.
+

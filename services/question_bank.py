@@ -169,7 +169,10 @@ def generate_questions_from_materials(
     db: Session,
 ) -> list[SatIeltsQuestion]:
     """Use existing RAG vectors + Gemini to produce questions, tag them, persist."""
-    from services.quiz_engine import load_vectors, client, _parse_json_response
+    # quiz_engine no longer exposes a raw `client` — go through services.gemini,
+    # which rotates GEMINI_API_KEYS and applies a request timeout.
+    from services.quiz_engine import load_vectors, _parse_json_response
+    from services.gemini import generate_content as gemini_generate
     import random as _random
 
     vectors = load_vectors(user_id)
@@ -206,7 +209,7 @@ Return ONLY valid JSON, no extra text."""
 
     start = time.time()
     try:
-        response = client.models.generate_content(model="gemini-flash-latest", contents=prompt)
+        response = gemini_generate(model="gemini-flash-latest", contents=prompt)
     except Exception:
         return []
 

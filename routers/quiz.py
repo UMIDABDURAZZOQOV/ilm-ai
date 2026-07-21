@@ -190,7 +190,10 @@ def _generate_flashcards(user_id: int, language: str = "en"):
     if not vectors:
         return {"error": "No materials found"}
 
-    from services.quiz_engine import client, _parse_json_response
+    # quiz_engine no longer exposes a raw `client` — go through services.gemini,
+    # which rotates GEMINI_API_KEYS and applies a request timeout.
+    from services.quiz_engine import _parse_json_response
+    from services.gemini import generate_content as gemini_generate
 
     chunks = [v["text"] for v in vectors]
     selected = random.sample(chunks, min(3, len(chunks)))
@@ -211,7 +214,7 @@ Return ONLY JSON."""
     from services.monitoring import log_llm_call
     start_time = time.time()
     try:
-        response = client.models.generate_content(
+        response = gemini_generate(
             model="gemini-flash-latest",
             contents=prompt
         )

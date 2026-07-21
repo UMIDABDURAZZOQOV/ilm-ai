@@ -24,7 +24,9 @@ from services.models import (
     SkillSubject,
     SkillUnit,
     User,
+    UserLanguageLevel,
     UserLessonProgress,
+    UserUnitExam,
 )
 from services.skill_tree import build_tree, lesson_status, newly_unlocked_lesson_ids
 from services.users import record_study_activity
@@ -164,6 +166,16 @@ class CompleteLessonRequest(BaseModel):
     results: list[LessonResultItem]
 
 
+# Star tiers, and the pass mark. Earning at least one star (>= 60%) completes the
+# lesson and unlocks the next node; below that the learner is asked to study the
+# topic again and retry. On a 10-question lesson:
+#   10 or 9 correct -> 3 stars | 8 -> 2 stars | 7 or 6 -> 1 star | 5 or fewer -> fail.
+STAR3_PCT = 90.0
+STAR2_PCT = 80.0
+STAR1_PCT = 60.0
+PASS_THRESHOLD_PCT = STAR1_PCT
+
+
 @router.post("/lessons/{lesson_id}/complete")
 def complete_lesson(
     lesson_id: int,
@@ -192,7 +204,10 @@ def complete_lesson(
     if attempt.completed_at is not None:
         # Already submitted -- return the original result idempotently rather
         # than re-awarding XP on a replayed request.
+        prev_pct = (attempt.score / attempt.total * 100) if attempt.total else 0.0
         return {
+            "passed": prev_pct >= PASS_THRESHOLD_PCT,
+            "pass_threshold_pct": PASS_THRESHOLD_PCT,
             "stars": (
                 db.query(UserLessonProgress)
                 .filter(UserLessonProgress.user_id == data.user_id, UserLessonProgress.lesson_id == lesson_id)
@@ -212,11 +227,11 @@ def complete_lesson(
     score = sum(1 for r in data.results if r.is_correct)
     score_pct = (score / total * 100) if total > 0 else 0.0
 
-    if score_pct >= 100:
+    if score_pct >= STAR3_PCT:
         stars = 3
-    elif score_pct >= 80:
+    elif score_pct >= STAR2_PCT:
         stars = 2
-    elif score_pct >= 50:
+    elif score_pct >= STAR1_PCT:
         stars = 1
     else:
         stars = 0
@@ -226,7 +241,12 @@ def complete_lesson(
         .filter(UserLessonProgress.user_id == data.user_id, UserLessonProgress.lesson_id == lesson_id)
         .first()
     )
-    is_first_completion = not progress or progress.completed_at is None
+    # Failing the threshold never completes the lesson (and so never unlocks the
+    # next one). An already-completed lesson stays completed if a later replay
+    # falls short -- we only ever move progress forward.
+    passed = stars >= 1  # i.e. score_pct >= STAR1_PCT
+    already_completed = bool(progress and progress.completed_at is not None)
+    is_first_completion = passed and not already_completed
     xp_awarded = lesson.xp_reward if is_first_completion else 5
 
     now = datetime.now(timezone.utc)
@@ -277,6 +297,8 @@ def complete_lesson(
     streak = record_study_activity(data.user_id)
 
     return {
+        "passed": passed,
+        "pass_threshold_pct": PASS_THRESHOLD_PCT,
         "stars": stars,
         "score": score,
         "total": total,
@@ -855,6 +877,290 @@ def complete_marathon(
     return {
         "score": data.score,
         "total": data.total,
+        "xp_awarded": xp_awarded,
+        "xp_total": user.xp_total,
+        "streak_days": streak.get("streak_days", user.streak_days or 0),
+    }
+
+
+# ─── Language placement test ─────────────────────────────────────────────────
+# Shown when the learner opens a LANGUAGE subject. It draws a short, mixed-
+# difficulty quiz from that subject's own question bank and maps the score onto
+# a CEFR band, so they know where they stand before starting the path.
+
+LANGUAGE_SUBJECT_SLUGS = {"ingliz_tili", "koreys_tili", "fransuz_tili"}
+LEVEL_TEST_QUESTION_COUNT = 15
+
+
+def _cefr_level(score_pct: float) -> str:
+    if score_pct >= 90:
+        return "C1"
+    if score_pct >= 75:
+        return "B2"
+    if score_pct >= 60:
+        return "B1"
+    if score_pct >= 40:
+        return "A2"
+    return "A1"
+
+
+def _level_row(db: Session, user_id: int, subject_slug: str) -> dict | None:
+    row = (
+        db.query(UserLanguageLevel)
+        .filter(UserLanguageLevel.user_id == user_id, UserLanguageLevel.subject_slug == subject_slug)
+        .first()
+    )
+    if not row:
+        return None
+    return {
+        "level": row.level,
+        "score": row.score,
+        "total": row.total,
+        "score_pct": row.score_pct,
+        "taken_at": row.taken_at.isoformat() if row.taken_at else None,
+    }
+
+
+@router.get("/{user_id}/level-test")
+def get_level_test(
+    subject: str,
+    user_id: int = Depends(verify_user_access),
+    db: Session = Depends(get_db),
+):
+    """Questions for the placement test of a language subject, plus any level the
+    learner already has (so the UI can offer 'retake' instead of 'start')."""
+    subject_row = db.query(SkillSubject).filter(SkillSubject.slug == subject).first()
+    if not subject_row:
+        raise HTTPException(status_code=404, detail="Subject not found")
+    if subject not in LANGUAGE_SUBJECT_SLUGS:
+        raise HTTPException(status_code=400, detail="Not a language subject")
+
+    q = (
+        db.query(SkillQuestion)
+        .join(SkillLesson, SkillQuestion.lesson_id == SkillLesson.id)
+        .join(SkillUnit, SkillLesson.unit_id == SkillUnit.id)
+        .filter(SkillUnit.subject_id == subject_row.id)
+    )
+    # Spread the picks across difficulties so the score actually discriminates
+    # between levels instead of sampling one band by chance.
+    picked: list[SkillQuestion] = []
+    per_bucket = max(1, LEVEL_TEST_QUESTION_COUNT // 3)
+    for diff in ("easy", "medium", "hard"):
+        rows = q.filter(SkillQuestion.difficulty == diff).all()
+        random.shuffle(rows)
+        picked.extend(rows[:per_bucket])
+    if len(picked) < LEVEL_TEST_QUESTION_COUNT:
+        rest = [r for r in q.all() if r not in picked]
+        random.shuffle(rest)
+        picked.extend(rest[: LEVEL_TEST_QUESTION_COUNT - len(picked)])
+    random.shuffle(picked)
+    picked = picked[:LEVEL_TEST_QUESTION_COUNT]
+
+    if not picked:
+        raise HTTPException(status_code=404, detail="No questions available for this subject")
+
+    return {
+        "subject": {"slug": subject_row.slug, "name_uz": subject_row.name_uz, "color": subject_row.color},
+        "current_level": _level_row(db, user_id, subject),
+        "questions": [
+            {
+                "id": p.id,
+                "question_text": p.question_text,
+                "options": p.options,
+                "correct_answer": p.correct_answer,
+                "explanation": p.explanation,
+                "difficulty": p.difficulty,
+            }
+            for p in picked
+        ],
+    }
+
+
+class LevelTestResultItem(BaseModel):
+    question_id: int
+    is_correct: bool
+
+
+class CompleteLevelTestRequest(BaseModel):
+    user_id: int
+    subject_slug: str
+    results: list[LevelTestResultItem]
+
+
+@router.post("/level-test/complete")
+def complete_level_test(
+    data: CompleteLevelTestRequest,
+    auth_user_id: int = Depends(get_authenticated_user_id),
+    db: Session = Depends(get_db),
+):
+    """Score the placement test server-side and store the resulting CEFR level."""
+    ensure_own_user(data.user_id, auth_user_id)
+    if data.subject_slug not in LANGUAGE_SUBJECT_SLUGS:
+        raise HTTPException(status_code=400, detail="Not a language subject")
+    if not data.results:
+        raise HTTPException(status_code=400, detail="No results submitted")
+
+    total = len(data.results)
+    score = sum(1 for r in data.results if r.is_correct)
+    score_pct = score / total * 100
+    level = _cefr_level(score_pct)
+    now = datetime.now(timezone.utc)
+
+    row = (
+        db.query(UserLanguageLevel)
+        .filter(UserLanguageLevel.user_id == data.user_id, UserLanguageLevel.subject_slug == data.subject_slug)
+        .first()
+    )
+    if not row:
+        row = UserLanguageLevel(user_id=data.user_id, subject_slug=data.subject_slug)
+        db.add(row)
+    row.level = level
+    row.score = score
+    row.total = total
+    row.score_pct = score_pct
+    row.taken_at = now
+    db.commit()
+
+    record_study_activity(data.user_id)
+
+    return {"level": level, "score": score, "total": total, "score_pct": score_pct}
+
+
+# ─── Unit checkpoint exam ────────────────────────────────────────────────────
+# Taken at the end of a unit (bob), covering every lesson in it. Passing it is
+# what unlocks the NEXT unit -- see services/skill_tree.py::build_tree. Applies
+# to every subject, not just one.
+
+UNIT_EXAM_QUESTION_COUNT = 15
+UNIT_EXAM_XP = 50
+
+
+def _unit_lesson_ids(db: Session, unit_id: int) -> list[int]:
+    return [l.id for l in db.query(SkillLesson).filter(SkillLesson.unit_id == unit_id).all()]
+
+
+@router.get("/{user_id}/unit-exam")
+def get_unit_exam(
+    unit_id: int,
+    user_id: int = Depends(verify_user_access),
+    db: Session = Depends(get_db),
+):
+    """Questions for a unit's checkpoint exam, drawn from every lesson in it.
+    Only available once all of the unit's lessons are completed."""
+    unit = db.query(SkillUnit).filter(SkillUnit.id == unit_id).first()
+    if not unit:
+        raise HTTPException(status_code=404, detail="Unit not found")
+
+    lesson_ids = _unit_lesson_ids(db, unit_id)
+    if not lesson_ids:
+        raise HTTPException(status_code=404, detail="Unit has no lessons")
+
+    done = (
+        db.query(UserLessonProgress)
+        .filter(
+            UserLessonProgress.user_id == user_id,
+            UserLessonProgress.lesson_id.in_(lesson_ids),
+            UserLessonProgress.completed_at.isnot(None),
+        )
+        .count()
+    )
+    if done < len(lesson_ids):
+        raise HTTPException(status_code=403, detail="Finish every lesson in this unit first")
+
+    questions = db.query(SkillQuestion).filter(SkillQuestion.lesson_id.in_(lesson_ids)).all()
+    if not questions:
+        raise HTTPException(status_code=404, detail="No questions available for this unit")
+    random.shuffle(questions)
+    picked = questions[:UNIT_EXAM_QUESTION_COUNT]
+
+    prev = db.query(UserUnitExam).filter(UserUnitExam.user_id == user_id, UserUnitExam.unit_id == unit_id).first()
+    return {
+        "unit": {
+            "id": unit.id,
+            "title_uz": unit.title_uz,
+            "title_ru": unit.title_ru,
+            "title_en": unit.title_en,
+        },
+        "pass_threshold_pct": PASS_THRESHOLD_PCT,
+        "previous": (
+            {"passed": prev.passed, "best_score_pct": prev.best_score_pct, "attempts": prev.attempts}
+            if prev
+            else None
+        ),
+        "questions": [
+            {
+                "id": q.id,
+                "question_text": q.question_text,
+                "options": q.options,
+                "correct_answer": q.correct_answer,
+                "explanation": q.explanation,
+            }
+            for q in picked
+        ],
+    }
+
+
+class CompleteUnitExamRequest(BaseModel):
+    user_id: int
+    unit_id: int
+    results: list[LevelTestResultItem]
+
+
+@router.post("/unit-exam/complete")
+def complete_unit_exam(
+    data: CompleteUnitExamRequest,
+    auth_user_id: int = Depends(get_authenticated_user_id),
+    db: Session = Depends(get_db),
+):
+    """Score the checkpoint server-side. Passing unlocks the next unit; failing
+    leaves it locked and the learner retries."""
+    ensure_own_user(data.user_id, auth_user_id)
+    user = db.query(User).filter(User.id == data.user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    if not data.results:
+        raise HTTPException(status_code=400, detail="No results submitted")
+
+    total = len(data.results)
+    score = sum(1 for r in data.results if r.is_correct)
+    score_pct = score / total * 100
+    passed = score_pct >= PASS_THRESHOLD_PCT
+    now = datetime.now(timezone.utc)
+
+    row = (
+        db.query(UserUnitExam)
+        .filter(UserUnitExam.user_id == data.user_id, UserUnitExam.unit_id == data.unit_id)
+        .first()
+    )
+    if not row:
+        row = UserUnitExam(user_id=data.user_id, unit_id=data.unit_id, attempts=0)
+        db.add(row)
+
+    newly_passed = passed and not row.passed
+    row.attempts = (row.attempts or 0) + 1
+    row.score = score
+    row.total = total
+    row.best_score_pct = max(row.best_score_pct or 0.0, score_pct)
+    row.last_attempt_at = now
+    if newly_passed:
+        row.passed = True            # never downgraded by a weaker retake
+        row.passed_at = now
+
+    xp_awarded = UNIT_EXAM_XP if newly_passed else 0
+    if xp_awarded:
+        user.xp_total = (user.xp_total or 0) + xp_awarded
+        db.add(user)
+    db.commit()
+    db.refresh(user)
+
+    streak = record_study_activity(data.user_id)
+
+    return {
+        "passed": passed,
+        "pass_threshold_pct": PASS_THRESHOLD_PCT,
+        "score": score,
+        "total": total,
+        "score_pct": score_pct,
         "xp_awarded": xp_awarded,
         "xp_total": user.xp_total,
         "streak_days": streak.get("streak_days", user.streak_days or 0),

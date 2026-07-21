@@ -416,6 +416,52 @@ class UserLessonProgress(Base):
     __table_args__ = (UniqueConstraint("user_id", "lesson_id", name="uq_user_lesson"),)
 
 
+class UserStarredWord(Base):
+    """A word the learner starred in the IELTS dictionary, so it shows up under
+    "My Starred Words". One row per (user, word)."""
+    __tablename__ = "ielts_starred_words"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    word = Column(String(64), nullable=False, index=True)
+    note = Column(Text, nullable=True)                    # optional learner note
+    created_at = Column(DateTime(timezone=True), nullable=True)
+    __table_args__ = (UniqueConstraint("user_id", "word", name="uq_user_starred_word"),)
+
+
+class UserUnitExam(Base):
+    """Checkpoint exam taken at the end of a unit (bob), covering every lesson in
+    it. The next unit stays locked until this is passed. One row per (user, unit);
+    a retake overwrites it, and `passed` is never downgraded once earned."""
+    __tablename__ = "skilltree_user_unit_exams"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    unit_id = Column(Integer, ForeignKey("skilltree_units.id"), nullable=False, index=True)
+    passed = Column(Boolean, default=False)
+    score = Column(Integer, default=0)
+    total = Column(Integer, default=0)
+    best_score_pct = Column(Float, default=0.0)
+    attempts = Column(Integer, default=0)
+    passed_at = Column(DateTime(timezone=True), nullable=True)
+    last_attempt_at = Column(DateTime(timezone=True), nullable=True)
+    __table_args__ = (UniqueConstraint("user_id", "unit_id", name="uq_user_unit_exam"),)
+
+
+class UserLanguageLevel(Base):
+    """Result of the placement test offered when opening a LANGUAGE subject
+    (ingliz_tili / koreys_tili / fransuz_tili). One row per (user, subject) --
+    retaking the test overwrites it."""
+    __tablename__ = "skilltree_user_language_levels"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    subject_slug = Column(String(40), nullable=False, index=True)
+    level = Column(String(8), nullable=False)                       # A1 | A2 | B1 | B2 | C1
+    score = Column(Integer, default=0)
+    total = Column(Integer, default=0)
+    score_pct = Column(Float, default=0.0)
+    taken_at = Column(DateTime(timezone=True), nullable=True)
+    __table_args__ = (UniqueConstraint("user_id", "subject_slug", name="uq_user_language_level"),)
+
+
 class SkillMistake(Base):
     """Mistakes notebook: a question the user answered wrong and hasn't yet
     answered correctly in a mistakes-practice run. Upserted on lesson complete;
