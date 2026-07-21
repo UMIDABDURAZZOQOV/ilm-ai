@@ -25,6 +25,10 @@ seed_question_bank_if_empty()
 from services.seed_skilltree_bank import seed_skilltree_if_empty
 seed_skilltree_if_empty()
 
+# Seed Cambridge IELTS 21 Academic (4 full tests: 320 questions + answer keys).
+from services.seed_ielts21 import seed_ielts21_if_needed
+seed_ielts21_if_needed()
+
 # Spread placeholder-skill ("General"/null) questions across real taxonomy skills
 # so every question is reachable by topic in the Question Bank.
 from services.retag_bank import retag_general_questions, clean_question_text

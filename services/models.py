@@ -216,6 +216,9 @@ class IeltsListening(Base):
     section         = Column(Integer, nullable=False)                # 1-4
     title           = Column(String(300), nullable=False)
     audio_url       = Column(Text, nullable=True)                    # URL to audio file
+    audio_parts     = Column(JSON, nullable=True)                     # ordered URLs when the
+                                                                      # recording was ripped in
+                                                                      # several files
     transcript      = Column(Text, nullable=True)                     # Full transcript
     difficulty      = Column(String(8), nullable=False)               # easy|medium|hard
     duration_seconds = Column(Integer, nullable=True)

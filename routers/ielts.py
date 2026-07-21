@@ -23,6 +23,7 @@ class ListeningResponse(BaseModel):
     section: int
     title: str
     audio_url: Optional[str]
+    audio_parts: Optional[List[str]] = None
     transcript: Optional[str]
     difficulty: str
     duration_seconds: Optional[int]

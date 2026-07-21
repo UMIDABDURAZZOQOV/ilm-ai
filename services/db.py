@@ -148,6 +148,14 @@ def migrate_sqlite_columns():
                 conn.commit()
                 print("Added column: sat_ielts_questions.skill")
 
+            # ielts_listening: Cambridge 21 parts were ripped as two files each
+            result = conn.execute(text("PRAGMA table_info(ielts_listening)"))
+            a_existing = [row[1] for row in result.fetchall()]
+            if a_existing and "audio_parts" not in a_existing:
+                conn.execute(text("ALTER TABLE ielts_listening ADD COLUMN audio_parts JSON"))
+                conn.commit()
+                print("Added column: ielts_listening.audio_parts")
+
             # skilltree_lessons: theory teaching-cards column (Duolingo-style learn-then-quiz)
             result = conn.execute(text("PRAGMA table_info(skilltree_lessons)"))
             l_existing = [row[1] for row in result.fetchall()]
@@ -176,6 +184,8 @@ def migrate_postgres_columns():
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS assistant_count_date VARCHAR(20)",
         # skilltree_lessons may pre-exist from an earlier deploy without `theory`.
         "ALTER TABLE skilltree_lessons ADD COLUMN IF NOT EXISTS theory JSON",
+        # Cambridge 21 listening parts are often two audio files, played in order.
+        "ALTER TABLE ielts_listening ADD COLUMN IF NOT EXISTS audio_parts JSON",
         # sat_ielts_questions gained these columns after prod's table was first
         # created; a missing mapped column makes the whole SELECT 500, so the
         # question bank returned an Internal Server Error until they were added.
