@@ -785,6 +785,33 @@
  {
   "subject_slug": "biologiya",
   "unit_slug": "zoologiya",
+  "lesson_slug": "hayvonlarning-nafas-olish-va-qon-aylanish-sistemalari",
+  "theory": [
+   {
+    "title": "Nafas olishning asosiy maqsadi",
+    "body": "Hayvonlar organizmiga tashqi muhitdan kislorod kirib kelishi va hosil bo'lgan karbonat angidridning chiqarib yuborilishi nafas olish deyiladi. Kislorod hujayralarga borib, ozuqalarni parchalash va energiya hosil qilish uchun suvday zarur.",
+    "example": "Yer yuzida yashovchi sutemizuvchilar o'pka orqali, baliqlar esa jabralar orqali nafas oladi."
+   },
+   {
+    "title": "Umurtqasizlarda nafas olish",
+    "body": "Barcha hayvonlar ham bizga o'xshab o'pka bilan nafas olavermaydi. Mayda yoki suvsiz hayvonlar (masalan, yomg'ir chuvalchangi) butun tana yuzasi orqali nafas olsa, hasharotlar tanasidagi maxsus havo naychalari — traxeyalar yordamida nafas oladi.",
+    "example": "Chigirtka yoki suvarakning qornidagi kichik teshikchalari (stigmalar) havo kirishini ta'minlaydi."
+   },
+   {
+    "title": "Ochiq qon aylanish sistemasi",
+    "body": "Qon tomirlardan chiqib, organlar orasidagi bo'shliqlarga quyilsa va ular bilan bevosita yuvib o'tsa, bunday tizim ochiq qon aylanish sistemasi deyiladi. Bunda qon va to'qima suyuqligi aralashib ketadi.",
+    "example": "Hasharotlar va mollyuskalarda qon yurakdan chiqib bo'shliqlarga oqadi."
+   },
+   {
+    "title": "Yopiq qon aylanish sistemasi",
+    "body": "Qon tomirlar ichidangina harakatlanib, organlar bo'shlig'iga chiqmasa, bu yopiq qon aylanish sistemasi deb ataladi. U juda tez va samarali ishlaydi, shuning uchun hayvonlarning faol harakatlanishiga yordam beradi.",
+    "example": "Barcha umurtqali hayvonlarda, jumladan baliqlar, qushlar va odamda qon tomirlar ichida aylanadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "biologiya",
+  "unit_slug": "zoologiya",
   "lesson_slug": "hayvonlarning-nerv-sistemasi-va-sezgi-a-zolari",
   "theory": [
    {
@@ -1383,6 +1410,60 @@
     "title": "Modifikatsion o'zgarishlarning ahamiyati",
     "body": "Bu o'zgarishlar organizmlarning o'zgaruvchan tashqi muhitda omon qolishiga yordam beradi. Ular evolyutsiyada yangi tur hosil qilmasa ham, mavjud turning yashovchanligini oshiradi. Demak, modifikatsion o'zgarishlar – bu organizmning muhitga 'moslashuv' mexanizmidir.",
     "example": "Mavsumga qarab hayvonlar junining qalinlashishi yoki o'simlik barglarining yorug'likka qarab shakl o'zgartirishi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "biologiya",
+  "unit_slug": "genetika",
+  "lesson_slug": "mutatsion-o-zgaruvchanlik-mutatsiyalar-turlari-va-tasnifi",
+  "theory": [
+   {
+    "title": "Mutatsiya o'zi nima?",
+    "body": "Tasavvur qil kitob ko‘chirayotganda bitta harf xato yozilib qoldi va ma'no o‘zgardi. DNK da ham shunaqa bo‘ladi! Organizmning irsiy belgilarini saqlovchi DNK yoki xromosomalarda to‘satdan, tasodifiy sodir bo‘ladigan o‘zgarishlar mutatsiya deyiladi. Ular avloddan-avlodga o‘tishi mumkin.",
+    "example": "Ota-onasining ko'zi qora bo'la turib, mutatsiya tufayli ko'k ko'zli farzand tug'ilishi."
+   },
+   {
+    "title": "Gen mutatsiyasi: Harf darajasidagi xato",
+    "body": "Gen mutatsiyasi deganda bitta genning ichidagi kimyoviy tuzilish buzilishi tushuniladi. Xuddi bitta so'zdagi bitta harf o'zgargandek, bu ham oqsil sinteziga ta'sir qiladi. Ba'zan bu hech qanday o'zgarish bermasligi yoki organizmga jiddiy ta'sir qilishi mumkin.",
+    "example": "Odamlardagi oq tanlilik (albinizm) yoki o‘roqsimon hujayrali anemiya kasalligi."
+   },
+   {
+    "title": "Xromosoma mutatsiyasi: Sahifa darajasidagi buzilish",
+    "body": "Bu darajada bitta harf emas, butun boshli satrlar yoki sahifalar (xromosoma qismlari) yo'qoladi, joyi almashadi yoki ikkita bo'lib qoladi. Xromosomalarning tuzilishi buzilishi natijasida organizmda katta o'zgarishlar yuzaga keladi.",
+    "example": "Xromosomaning bir bo'lagi uzilib boshqasiga yopishishi (translokatsiya) yoki butunlay tushib qolishi (diletsiya)."
+   },
+   {
+    "title": "Genom mutatsiyasi: Butun kitoblar sonining o'zgarishi",
+    "body": "Eng yirik mutatsiya turi bu genom mutatsiyasi bo'lib, unda xromosomalarning umumiy soni o'zgarib ketadi. Ya'ni bitta xromosoma ortiqcha qo'shilib qolishi yoki yetishmasligi kuzatiladi. Bu odatda jiddiy irsiy kasalliklarga sabab bo'ladi.",
+    "example": "Daun sindromi – 21-juft xromosomalarning uchtaligidan kelib chiqadi (jami 46 emas, 47 ta xromosoma bo'ladi)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "biologiya",
+  "unit_slug": "genetika",
+  "lesson_slug": "odam-genetikasi-va-uni-o-rganish-usullari",
+  "theory": [
+   {
+    "title": "Odam genetikasi nima?",
+    "body": "Salom! Odam genetikasi — bu inson nasli, irsiy kasalliklar va belgilarning avloddan-avlodga qanday o'tishini o'rganadigan fan. Nega ayrimlarimizning ko'zimiz ko'k, boshqalarniki qora? Hammasining javobi genlarimizda!",
+    "example": "Ota-onaning soch turi yoki qon guruhi farzandiga irsiylanishi odam genetikasi mavzusiga kiradi."
+   },
+   {
+    "title": "Genealogik usul (Shajara)",
+    "body": "Tasavvur qil, biror oilaning kasalligini aniqlamoqchisan. Buning uchun ularning bir necha avlod davomidagi shajarasini chizib chiqasan. Genealogik usul aynan shunga xizmat qiladi — oila shajarasini tahlil qilish orqali irsiy kasalliklar qanday nasldan-naslga o'tishini ko'ramiz.",
+    "example": "Gematofiliya (qon oqishi) kasalligining qirollik oilalarida qanday tarqalganini shu usul bilan o'rganish mumkin."
+   },
+   {
+    "title": "Egeneologik va Sitogenetik usul",
+    "body": "Ikkinchi muhim usulimiz — sitogenetik usul. Bunda biz hujayradagi xromosomalar soni va tuzilishini mikroskop ostida tekshiramiz. Agar xromosomalarda o'zgarish bo'lsa, uni shu usul bilan darhol topamiz.",
+    "example": "Daun sindromi 21-xromosomaning ortiqcha bo'lishidan kelib chiqadi va buni sitogenetik usul bilan osongina aniqlanadi."
+   },
+   {
+    "title": "Egizaklar va Biokimyoviy usul",
+    "body": "Oxirgi usullarimizdan biri — egizaklar usuli. Bir tuxum hujayrali egizaklarning genlari bir xil bo'lgani uchun, ulardagi farqlar faqat tashqi muhit ta'sirini ko'rsatadi. Biokimyoviy usul esa moddalar almashinuvidagi irsiy xatoliklarni qon yoki peshob tahlili orqali topadi.",
+    "example": "Bir xil egizaklardan biri sport bilan shug'ullansa, ikkinchisi yo'q — ularning qomatidagi farq muhit ta'siri bilan izohlanadi."
    }
   ]
  },
