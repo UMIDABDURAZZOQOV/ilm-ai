@@ -57,21 +57,31 @@ _CLIENTS = [genai.Client(api_key=k, http_options=genai_types.HttpOptions(timeout
 _key_index = 0
 
 
-def _generate_round_robin(prompt: str):
+def _generate_round_robin(prompt: str, rounds: int = 3):
+    """Try every key, then wait and try them all again.
+
+    A batch this size will exhaust some keys' daily free-tier quota, and giving up
+    after one pass meant a single busy minute lost the whole lesson. Sweeping the ring
+    a few times with a pause in between rides out per-minute limits; a key that is out
+    of quota for the day simply keeps failing and the others carry the run.
+    """
     global _key_index
     if not _CLIENTS:
         raise RuntimeError("No GEMINI_API_KEYS / GEMINI_API_KEY configured")
     last_err = None
-    for _ in range(len(_CLIENTS)):
-        client = _CLIENTS[_key_index]
-        idx = _key_index
-        _key_index = (_key_index + 1) % len(_CLIENTS)
-        try:
-            return client.models.generate_content(model=MODEL, contents=prompt)
-        except Exception as e:
-            print(f"  key #{idx} failed: {e}")
-            last_err = e
-            continue
+    for attempt in range(rounds):
+        for _ in range(len(_CLIENTS)):
+            client = _CLIENTS[_key_index]
+            idx = _key_index
+            _key_index = (_key_index + 1) % len(_CLIENTS)
+            try:
+                return client.models.generate_content(model=MODEL, contents=prompt)
+            except Exception as e:
+                print(f"  key #{idx} failed: {str(e)[:120]}")
+                last_err = e
+                continue
+        if attempt < rounds - 1:
+            time.sleep(20)
     raise last_err
 
 
