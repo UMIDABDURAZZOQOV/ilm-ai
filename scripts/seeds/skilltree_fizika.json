@@ -12411,6 +12411,346 @@
  },
  {
   "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Bosim nima deb ataladi?",
+  "options": [
+   "Sirtga ta’sir etuvchi kuchning maydonga nisbati",
+   "Jismning ogʻirligi",
+   "Sirt maydoni",
+   "Kuchning yoʻnalishi"
+  ],
+  "correct_answer": "Sirtga ta’sir etuvchi kuchning maydonga nisbati",
+  "explanation": "Bosim – bu biror sirtga tik tushgan kuchning shu sirt maydoniga ta’sirini bildiradi. Kuchni maydonga boʻlish orqali bosim aniqlanadi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "Pichoqning oʻtkir tomoni bilan kesish osonroq boʻladi, chunki...",
+  "options": [
+   "Kuch kichik maydonga ta’sir qiladi va bosim kuchayadi",
+   "Pichoq ogʻirroq boʻladi",
+   "Kuch kamayadi",
+   "Maydon kengayadi"
+  ],
+  "correct_answer": "Kuch kichik maydonga ta’sir qiladi va bosim kuchayadi",
+  "explanation": "Bir xil kuchni kichikroq maydonga ta’sir ettirsangiz, bosim oshadi. Pichoqning oʻtkir tomoni maydoni kichik boʻlgani uchun bosim kuchliroq boʻladi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "Suyuqlik ichida bosim qanday tarqaladi?",
+  "options": [
+   "Har tomonga bir xil kuch bilan ta’sir qiladi",
+   "Faqat pastga qarab ta’sir qiladi",
+   "Faqat yuqoriga qarab ta’sir qiladi",
+   "Faqat yon tomonga ta’sir qiladi"
+  ],
+  "correct_answer": "Har tomonga bir xil kuch bilan ta’sir qiladi",
+  "explanation": "Suyuqlik ichida bosim har tomonga bir xil kuch bilan ta’sir qiladi, chunki suyuqlik oqishi va shaklini oʻzgartira oladi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "Paskal qonuni qaysi holatda qoʻllaniladi?",
+  "options": [
+   "Berk idishdagi suyuqlikka tashqi bosim berilganda",
+   "Gazlar bosimini oʻlchaganda",
+   "Jismning ogʻirligini hisoblashda",
+   "Suyuqlikning haroratini oʻlchashda"
+  ],
+  "correct_answer": "Berk idishdagi suyuqlikka tashqi bosim berilganda",
+  "explanation": "Paskal qonuni berk idishdagi suyuqlikka tashqi bosim berilsa, bu bosim suyuqlikning barcha nuqtalariga bir xil miqdorda uzatilishi haqida gapiradi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Gidravlik pressda katta yukni kichik kuch bilan koʻtarish mumkin, chunki...",
+  "options": [
+   "Bosim suyuqlik orqali uzatiladi",
+   "Suyuqlikning ogʻirligi kamayadi",
+   "Kuch toʻgʻridan-toʻgʻri yukka ta’sir qiladi",
+   "Suyuqlik qattiqlashadi"
+  ],
+  "correct_answer": "Bosim suyuqlik orqali uzatiladi",
+  "explanation": "Paskal qonuniga koʻra, bosim suyuqlik orqali bir xil miqdorda uzatiladi, shuning uchun kichik kuch bilan katta yukni koʻtarish mumkin.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "Suv ostida chuqurroq joyga tushsangiz, bosim nima uchun oshadi?",
+  "options": [
+   "Ustingizdagi suv ogʻirligi koʻpayadi",
+   "Suvning zichligi oʻzgaradi",
+   "Suvning harorati pasayadi",
+   "Suvning hajmi kengayadi"
+  ],
+  "correct_answer": "Ustingizdagi suv ogʻirligi koʻpayadi",
+  "explanation": "Chuqurroq joyga tushganda, ustingizdagi suv qatlami qalinlashadi va uning ogʻirligi ortadi, natijada bosim oshadi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "Gaz bosimi qanday paydo boʻladi?",
+  "options": [
+   "Gaz molekulalarining idish devorlariga urilishi natijasida",
+   "Gazning ogʻirligi tufayli",
+   "Gazning harorati pasayganda",
+   "Gazning hajmi kengayganda"
+  ],
+  "correct_answer": "Gaz molekulalarining idish devorlariga urilishi natijasida",
+  "explanation": "Gaz molekulalari doimiy harakatda boʻlib, idish devorlariga uriladi. Bu urilishlar natijasida gaz bosimi paydo boʻladi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "Oyoq kiyimning poshnasi keng boʻlsa, qor ustida yurish osonroq boʻladi, chunki...",
+  "options": [
+   "Bosim kamayadi",
+   "Kuch kuchayadi",
+   "Maydon kichrayadi",
+   "Ogʻirlik oshadi"
+  ],
+  "correct_answer": "Bosim kamayadi",
+  "explanation": "Keng poshnali oyoq kiyimda kuch katta maydonga ta’sir qiladi, natijada bosim kamayadi va qor ustida yurish osonlashadi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "Shprits ignasi ingichka boʻlishi nima uchun muhim?",
+  "options": [
+   "Kuch kichik maydonga ta’sir qiladi va bosim kuchayadi",
+   "Ignaning ogʻirligi kamayadi",
+   "Dori suyuqligi sekin chiqadi",
+   "Ignaning uzunligi oshadi"
+  ],
+  "correct_answer": "Kuch kichik maydonga ta’sir qiladi va bosim kuchayadi",
+  "explanation": "Ingichka igna maydoni kichik boʻlgani uchun bir xil kuch bilan bosim kuchayadi, bu esa terini teshib oson kirishiga imkon beradi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Avtomobil shinasini haddan tashqari havo bilan toʻldirsangiz, nima sodir boʻlishi mumkin?",
+  "options": [
+   "Bosim oshib, shina yorilishi mumkin",
+   "Shina hajmi kengayadi",
+   "Bosim kamayadi",
+   "Shina sovib ketadi"
+  ],
+  "correct_answer": "Bosim oshib, shina yorilishi mumkin",
+  "explanation": "Gaz qanchalik koʻp toʻldirilsa, molekulalar tezroq harakatlanadi va koʻproq uriladi, natijada bosim oshadi va shina yorilishi mumkin.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Arximed kuchi nima?",
+  "options": [
+   "Jismga pastga qarab taʼsir qiluvchi ogʻirlik kuchi",
+   "Suyuqlikka botirilgan jismga yuqoriga qarab taʼsir qiluvchi kuch",
+   "Jismning hajmini oʻlchaydigan kuch",
+   "Suyuqlikning zichligini oʻzgartiruvchi kuch"
+  ],
+  "correct_answer": "Suyuqlikka botirilgan jismga yuqoriga qarab taʼsir qiluvchi kuch",
+  "explanation": "Arximed kuchi suyuqlikka botirilgan jismga suyuqlik tomonidan yuqoriga qarab taʼsir qiluvchi kuchdir. Bu kuch jismning suyuqlikka botgan qismining hajmi bilan bogʻliq.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "Arximed kuchini hisoblash formulasini toping.",
+  "options": [
+   "F_A = m * g",
+   "F_A = ρ * V",
+   "F_A = ρ * g * V",
+   "F_A = g * V"
+  ],
+  "correct_answer": "F_A = ρ * g * V",
+  "explanation": "Arximed kuchi formulasiga koʻra, F_A = ρ * g * V, bu yerda ρ – suyuqlik zichligi, g – erkin tushish tezlanishi, V – jismning suyuqlikka botgan qismining hajmi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "1 litr hajmli yogʻoch suvga butunlay botganda, Arximed kuchi qancha boʻladi? (Suv zichligi 1000 kg/m³, g = 9.8 m/s²)",
+  "options": [
+   "9.8 N",
+   "1 N",
+   "1000 N",
+   "9800 N"
+  ],
+  "correct_answer": "9.8 N",
+  "explanation": "Arximed kuchi F_A = ρ * g * V formula bilan hisoblanadi. 1 litr = 0.001 m³, shuning uchun F_A = 1000 * 9.8 * 0.001 = 9.8 N.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "Jism qachon suzadi?",
+  "options": [
+   "Jismning ogʻirligi Arximed kuchidan katta boʻlsa",
+   "Jismning zichligi suyuqlik zichligidan katta boʻlsa",
+   "Jismning ogʻirligi Arximed kuchiga teng yoki undan kichik boʻlsa",
+   "Jismning hajmi suyuqlik hajmiga teng boʻlsa"
+  ],
+  "correct_answer": "Jismning ogʻirligi Arximed kuchiga teng yoki undan kichik boʻlsa",
+  "explanation": "Jism suzishi uchun uning ogʻirligi (P = m*g) Arximed kuchiga teng yoki undan kichik boʻlishi kerak. Bu shart bajarilsa, jism suzadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Qaysi jism suvda choʻkadi?",
+  "options": [
+   "Yogʻoch",
+   "Muz",
+   "Temir",
+   "Kema"
+  ],
+  "correct_answer": "Temir",
+  "explanation": "Temirning zichligi suvnikidan katta boʻlgani uchun u suvda choʻkadi. Yogʻoch, muz va kemalar esa suvda suzadi, chunki ularning zichligi suvnikidan kichik.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "Suv osti kemasi qanday suzish holatida boʻladi?",
+  "options": [
+   "Suzish",
+   "Muallaq suzish",
+   "Choʻkish",
+   "Suv yuzasida suzish"
+  ],
+  "correct_answer": "Muallaq suzish",
+  "explanation": "Suv osti kemasi suv ichida muallaq suzadi, chunki uning ogʻirligi Arximed kuchiga moslashtirilgan boʻladi va butunlay suyuqlik ichida qoladi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "Muz tuzli suvda oddiy suvga nisbatan qanday suzadi?",
+  "options": [
+   "Yuqoriroq suzadi",
+   "Pastroq suzadi",
+   "Bir xil darajada suzadi",
+   "Choʻkadi"
+  ],
+  "correct_answer": "Yuqoriroq suzadi",
+  "explanation": "Tuzli suvning zichligi oddiy suvnikidan katta boʻlgani uchun muz unda yuqoriroq suzadi. Arximed kuchi zichroq suyuqlikda katta boʻladi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "Arximed kuchi qaysi omillarga bogʻliq?",
+  "options": [
+   "Jismning ogʻirligi va hajmi",
+   "Suyuqlikning zichligi va jismning botgan hajmi",
+   "Jismning shakli va rangi",
+   "Suyuqlikning harorati va bosimi"
+  ],
+  "correct_answer": "Suyuqlikning zichligi va jismning botgan hajmi",
+  "explanation": "Arximed kuchi suyuqlikning zichligi (ρ) va jismning suyuqlikka botgan qismining hajmi (V) bilan bogʻliq. F_A = ρ * g * V.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "Kema temirdan yasalgan boʻlsa ham nega suzadi?",
+  "options": [
+   "Chunki temirning zichligi suvnikidan kichik",
+   "Chunki kemaning ichi boʻsh va oʻrtacha zichligi suvnikidan kichik",
+   "Chunki kema juda katta hajmga ega",
+   "Chunki temir suvda erib ketadi"
+  ],
+  "correct_answer": "Chunki kemaning ichi boʻsh va oʻrtacha zichligi suvnikidan kichik",
+  "explanation": "Kemalar temirdan yasalgan boʻlsa ham, ularning ichi boʻsh boʻlgani uchun oʻrtacha zichligi suvnikidan kichik boʻladi va shu sababli suzadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Jismning zichligi suyuqlik zichligiga teng boʻlsa, jism qanday holatda boʻladi?",
+  "options": [
+   "Suv yuzasida suzadi",
+   "Suyuqlik ichida muallaq qoladi",
+   "Tubga choʻkadi",
+   "Suvdan chiqib turadi"
+  ],
+  "correct_answer": "Suyuqlik ichida muallaq qoladi",
+  "explanation": "Agar jismning zichligi suyuqlik zichligiga teng boʻlsa, jism suyuqlik ichida muallaq qoladi, chunki uning ogʻirligi Arximed kuchiga teng boʻladi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "fizika",
   "unit_slug": "elektr",
   "lesson_slug": "elektr-zaryad-maydon",
   "order_index": 0,

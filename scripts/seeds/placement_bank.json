@@ -2605,6 +2605,90 @@
  },
  {
   "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Massasi $m$ bo'lgan tosh vertikal yuqoriga $v_0$ boshlang'ich tezlik bilan otildi. Harakat davomida unga o'lchami o'zgarmas, qiymati $F_{qar} = kv$ bo'lgan havo qarshiligi ta'sir qiladi ($k > 0$). Tosh ko'tarila oladigan maksimal balandlikni aniqlang.",
+  "options": [
+   "$H = \\frac{m^2}{k^2} \\ln\\left(1 + \\frac{kv_0}{mg}\\right) - \\frac{mv_0}{k}$",
+   "$H = \\frac{mv_0}{k} - \\frac{m^2}{k^2} \\ln\\left(1 + \\frac{kv_0}{mg}\\right)$",
+   "$H = \\frac{m^2}{2k^2} \\ln\\left(1 + \\frac{kv_0^2}{mg}\\right)$",
+   "$H = \\frac{v_0^2}{2g} - \\frac{kmv_0^3}{3g^2}$"
+  ],
+  "correct_answer": "$H = \\frac{mv_0}{k} - \\frac{m^2}{k^2} \\ln\\left(1 + \\frac{kv_0}{mg}\\right)$",
+  "explanation": "Harakat tenglamasini $m \\frac{dv}{dt} = -mg - kv$ shaklda yozib, tezlikni koordinataga bog'lab integrallash orqali maksimal balandlik keltirib chiqariladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Ideal bir atomli gaz ustida quyidagi jarayon bajarildi: gaz bosimi uning hajmiga to'g'ri proporsional ravishda $p = \\alpha V$ qonuniyat bo'yicha ortdi. Agar gaz hajmi $V_1$ dan $V_2$ gacha oshgan bo'lsa, gazga berilgan issiqlik miqdorini toping ($V_2 > V_1$).",
+  "options": [
+   "$Q = \\frac{3}{2}\\alpha(V_2^2 - V_1^2)$",
+   "$Q = \\alpha(V_2^2 - V_1^2)$",
+   "$Q = \\frac{5}{2}\\alpha(V_2^2 - V_1^2)$",
+   "$Q = 3\\alpha(V_2^2 - V_1^2)$"
+  ],
+  "correct_answer": "$Q = \\alpha(V_2^2 - V_1^2)$",
+  "explanation": "Termodinamikaning birinchi qonuniga ko'ra $Q = \\Delta U + A$ hisoblanadi. $p=\\alpha V$ bo'lgani uchun bajarilgan ish $A = \\frac{1}{2}\\alpha(V_2^2 - V_1^2)$ va ichki energiya o'zgarishi $\\Delta U = \\frac{3}{2}\\alpha(V_2^2 - V_1^2)$ yig'indisi izlanayotgan javobni beradi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Nuqtaviy $q$ zaryad cheksiz, grounded (yerga ulangan) yassi o'tkazgichdan $d$ masofada joylashgan. Zaryadga ta'sir qiluvchi elektrostatik tortishish kuchini toping.",
+  "options": [
+   "$F = \\frac{q^2}{4\\pi \\varepsilon_0 d^2}$",
+   "$F = \\frac{q^2}{16\\pi \\varepsilon_0 d^2}$",
+   "$F = \\frac{q^2}{8\\pi \\varepsilon_0 d^2}$",
+   "$F = \\frac{q^2}{2\\pi \\varepsilon_0 d^2}$"
+  ],
+  "correct_answer": "$F = \\frac{q^2}{16\\pi \\varepsilon_0 d^2}$",
+  "explanation": "Aks ettirish usuliga (method of images) ko'ra, o'tkazgich sirtidagi ta'sirni uning ortida joylashgan $-q$ zaryad va asli $q$ zaryad orasidagi o'zaro ta'sir kuchi sifatida $2d$ masofada Coulomb qonuni yordamida topiladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Massasi $m$ va uzunligi $l$ bo'lgan yupqa bir jinsli sterjen bir uchi atrofida gorizontal tekislikda $\\omega$ burchak tezlik bilan aylanmoqda. Sterjenning aylanish o'qidan o'tuvchi va unga tik bo'lgan o'q nisbatan kinetik energiyasini hisoblang (notog'ri: bir uchi atrofida).",
+  "options": [
+   "$E_k = \\frac{1}{6} m l^2 \\omega^2$",
+   "$E_k = \\frac{1}{3} m l^2 \\omega^2$",
+   "$E_k = \\frac{1}{12} m l^2 \\omega^2$",
+   "$E_k = \\frac{1}{2} m l^2 \\omega^2$"
+  ],
+  "correct_answer": "$E_k = \\frac{1}{3} m l^2 \\omega^2$",
+  "explanation": "Sterjenning bir uchi atrofida aylanishdagi inersiya momenti $I = \\frac{1}{3}ml^2$ ga teng. Kinetik energiya formulasi $E_k = \\frac{I \\omega^2}{2}$ ga asosan hisoblanadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Ideal gaz bilan to'ldirilgan vertikal silindr ichida massasi $m$, yuzasi $S$ bo'lgan porshen muvozanatda turibdi. Porshenni muvozanat vaziyatidan ozgina pastga bosib qo'yib yuborilganda, u qanday chastota bilan garmonik tebranishlar hosil qiladi? (Jarayon adiabatik, atmosfera bosimi $p_0$, silindr devorlari bilan ishqalanish yo'q).",
+  "options": [
+   "$\\nu = \\frac{1}{2\\pi} \\sqrt{\\frac{\\gamma (p_0 + \\frac{mg}{S}) S^2}{m V_0}}$",
+   "$\\nu = \\frac{1}{2\\pi} \\sqrt{\\frac{p_0 S^2}{m V_0}}$",
+   "$\\nu = \\frac{1}{2\\pi} \\sqrt{\\frac{\\gamma p_0 S}{m H_0}}$",
+   "$\\nu = \\frac{1}{2\\pi} \\sqrt{\\frac{mg S}{m V_0}}"
+  ],
+  "correct_answer": "$\\nu = \\frac{1}{2\\pi} \\sqrt{\\frac{\\gamma (p_0 + \\frac{mg}{S}) S^2}{m V_0}}$",
+  "explanation": "Adiabatik jarayon tenglamasi va Nyutonning ikkinchi qonunidan foydalanib tiklangan kuch qaytaruvchi kuch sifatida qaraladi va tebranish chastotasi aniqlanadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_3",
+  "skill": "qollash",
+  "question_text": "Moddiy nuqta $x(t) = A \\sin(\\omega t) + B \\cos(\\omega t)$ qonuniyat bo'yicha garmonik tebranmoqda. Ushbu tebranishning amplitudasini aniqlang.",
+  "options": [
+   "$x_{max} = A + B$",
+   "$x_{max} = \\sqrt{A^2 + B^2}$",
+   "$x_{max} = \\sqrt{|A^2 - B^2|}$",
+   "$x_{max} = \\frac{A + B}{2}$"
+  ],
+  "correct_answer": "$x_{max} = \\sqrt{A^2 + B^2}$",
+  "explanation": "Trigonometrik o'zgartirishlar yordamida yig'indini $x(t) = \\sqrt{A^2+B^2} \\sin(\\omega t + \\varphi)$ ko'rinishga keltiriladi, bunda koeffitsiyent amplituda bo'ladi."
+ },
+ {
+  "subject_slug": "fizika",
   "level": "daraja_4",
   "skill": "bilim",
   "question_text": "Termodinamikaning ikkinchi qonuniga ko'ra, berk tizimning entropiyasi o'zgarishi uchun qanday shart bajarilishi zarur va yetarli?",
@@ -2857,6 +2941,90 @@
  },
  {
   "subject_slug": "fizika",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Massasi $m$ bo'lgan kichik sharik $L$ uzunlikdagi cho'zilmaydigan ipga osilib, vertikal tekislikda aylanma harakat qilmoqda. Sharik pastki nuqtadan o'tayotganda uning tezligi $v_0$ ga teng. Sharik trayektoriyasining eng yuqori nuqtasidan o'tgandan keyin ip to'satdan uzilib ketsa, sharikning tushish nuqtasi pastki nuqtadan qanday eng kichik $v_0$ tezlikda qanday masofada bo'ladi? (Ip osilgan nuqta yer sirtidan $H$ balandlikda, $H > 2L$, havo qarshiligi hisobga olinmasin).",
+  "options": [
+   "$s = 2\\sqrt{L(v_0^2/g - 4L)}$",
+   "$s = \\sqrt{2L(v_0^2/g - 2L)}$",
+   "$s = 4\\sqrt{L(v_0^2/g - 4L)}$",
+   "$s = 2\\sqrt{2L(v_0^2/g - 4L)}$"
+  ],
+  "correct_answer": "$s = 2\\sqrt{L(v_0^2/g - 4L)}$",
+  "explanation": "Mexanik energiyaning saqlanish qonuni yordamida yuqori nuqtadagi tezlik topiladi, ip uzilgandan so'ng jism erkin tushish harakatini bajaradi va kinematika tenglamalari orqali masofa aniqlanadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Ideal gaz uchun $p - V$ diagrammada termodinamik jarayon berilgan. Gaz $1$ holatdan ($p_1, V_1$) $2$ holatga ($p_2, V_2$) to'g'ri chiziq bo'ylab o'tadi. Bunda $p_2 = 3p_1$ va $V_2 = 2V_1$. Bir atomli ideal gazning shu jarayonda olgan issiqlik miqdorini toping.",
+  "options": [
+   "$Q = 4.5 p_1 V_1$",
+   "$Q = 5.5 p_1 V_1$",
+   "$Q = 6.0 p_1 V_1$",
+   "$Q = 3.5 p_1 V_1$"
+  ],
+  "correct_answer": "$Q = 5.5 p_1 V_1$",
+  "explanation": "Termodinamikaning birinchi qonuniga ko'ra $Q = \\Delta U + A$. Ichki energiyaning o'zgarishi $\\Delta U = \\frac{3}{2}\\Delta(pV)$, bajarilgan ish esa $A$ trapesiya yuzasi sifatida hisoblanadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Radiusi $R$ bo'lgan yupqa dielektrik sirtga $q$ zaryad bir tekis taqsimlangan. Sirt markazidan o'tuvchi o'q bo'ylab, markazdan $x$ masofada joylashgan nuqtaviy $q_0$ zaryadga ta'sir etuvchi elektrostatik kuchning qiymatini toping ($x \\gg R$).",
+  "options": [
+   "$F = \\frac{q q_0 R^2}{4 \\pi \\varepsilon_0 x^3}$",
+   "$F = \\frac{q q_0}{4 \\pi \\varepsilon_0 x^2}$",
+   "$F = \\frac{3 q q_0 R^2}{4 \\pi \\varepsilon_0 x^4}$",
+   "$F = \\frac{q q_0 R^2}{2 \\pi \\varepsilon_0 x^3}$"
+  ],
+  "correct_answer": "$F = \\frac{q q_0 R^2}{4 \\pi \\varepsilon_0 x^3}$",
+  "explanation": "Zaryadlangan halqa yoki sirt potensiali yoki elektr maydon kuchlanganligi taqribiy formulasidan foydalanib ($x \\gg R$ shartda), Kulon qonuni orqali kuch topiladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Induktivligi $L$ bo'lgan g'altak va sig'imi $C$ bo'lgan kondensatordan iborat tebranish konturida elektr maydon energiyasi maksimal bo'lgan paytda, konturga ketma-ket ulangan rezistorda ajraladigan umumiy issiqlik miqdorini toping. Konturdagi boshlang'ich maksimal zaryad $Q_m$.",
+  "options": [
+   "$W = \\frac{Q_m^2}{2C}$",
+   "$W = \\frac{Q_m^2}{4C}$",
+   "$W = \\frac{Q_m^2}{C}$",
+   "$W = 0$"
+  ],
+  "correct_answer": "$W = \\frac{Q_m^2}{2C}$",
+  "explanation": "Elektr maydon energiyasi maksimal bo'lganda kondensator to'liq zaryadlangan bo'ladi va uning energiyasi $W = Q_m^2 / (2C)$ ga teng. To'liq so'nish jarayonida barcha energiya rezistorda issiqlikka aylanadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Fokal masofasi $F$ bo'lgan yig'uvchi linza bosh optik o'qi bo'ylab $v$ tezlik bilan harakatlanayotgan yorug'lik nuqtaviy manbaidan $2F$ masofada joylashgan. Manba linzadan uzoqlashayotgan paytda uning haqiqiy tasviri qanday tezlik bilan harakatlanadi?",
+  "options": [
+   "$u = v$",
+   "$u = 4v$",
+   "$u = 2v$",
+   "$u = v/2$"
+  ],
+  "correct_answer": "$u = v$",
+  "explanation": "Linza formulasini vaqt bo'yicha hosilaga olib, tasvir tezligi $u = -k^2 v$ orqali topiladi. $d = 2F$ bo'lganda chiziqli kattalashish $k = 1$ bo'lib, tasvir tezligi manba tezligiga teng bo'ladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_4",
+  "skill": "qollash",
+  "question_text": "Tinch holatdagi massasi $m_0$ bo'lgan zarracha yorug'lik tezligiga yaqin $v = 0.6c$ tezlik bilan harakatlana boshladi. Relativistik dinamika qonunlariga ko'ra, uning kinetik energiyasini toping.",
+  "options": [
+   "$E_k = 0.25 m_0 c^2$",
+   "$E_k = 0.5 m_0 c^2$",
+   "$E_k = 0.75 m_0 c^2$",
+   "$E_k = 0.2 m_0 c^2$"
+  ],
+  "correct_answer": "$E_k = 0.25 m_0 c^2$",
+  "explanation": "Relativistik kinetik energiya formulasi $E_k = E - E_0 = \\frac{m_0 c^2}{\\sqrt{1 - v^2/c^2}} - m_0 c^2$ ga ko'ra, $v = 0.6c$ qiymat qo'yib hisoblanadi."
+ },
+ {
+  "subject_slug": "fizika",
   "level": "daraja_5",
   "skill": "bilim",
   "question_text": "Kvant mexanikasida zarrachaning to'lqin funksiyasi uchun Born ehtimollik talqiniga ko'ra, fazoning biror sohasida zarrachani topish ehtimolligining zichligi nimaga teng?",
@@ -3106,6 +3274,90 @@
   ],
   "correct_answer": "25% ga ortadi",
   "explanation": "Dastlabki FIK $\\eta_1 = 1 - T_2/T_1 = 2/3$ (yoki 67%), isitkich $2$ marta oshganda yangi FIK $\\eta_2 = 1 - T_2/(2T_1) = 5/6$ (yoki 83.3%) bo'ladi, farq 16.6% yoki nisbiy o'zgarish tahlil qilinadi, aniq foiz qiymati 25% ga ortishini ko'rsatadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_5",
+  "skill": "qollash",
+  "question_text": "Massasi $m$ bo'lgan kichik shar to'liq silliq, radiusi $R$ bo'lgan yarmsfera ichki sirtining eng quyi nuqtasidan gorizontal yo'nalishda shunday boshlang'ich tezlik bilan otildiki, u sirtni tark etmasdan to'liq aylanma harakat qila oladi. Shar sirtni tark etish nuqtasida sirt tomonidan unga ta'sir etuvchi reaksiya kuchi nolga teng bo'lishini hisobga olib, boshlang'ich tezlikning minimal qiymatini toping ($g$ — erkin tushish tezlanishi).",
+  "options": [
+   "$v_0 = \\sqrt{5gR}$",
+   "$v_0 = \\sqrt{\\frac{17}{3}gR}$",
+   "$v_0 = \\sqrt{6gR}$",
+   "$v_0 = \\sqrt{\\frac{27}{5}gR}$"
+  ],
+  "correct_answer": "$v_0 = \\sqrt{\\frac{17}{3}gR}$",
+  "explanation": "Energiyaning saqlanish qonuni va sirtni tark etish sharti ($N=0, mg\\cos\\theta = \\frac{mv^2}{R}$) birgalikda qo'llanilib, trayektoriya balandligi topiladi va boshlang'ich tezlikka keltiriladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_5",
+  "skill": "qollash",
+  "question_text": "Idish ichidagi ideal gaz ustida ustki yuzasi $S$ bo'lgan yengil porshen erkin harakatlana oladi. Porshen ustiga asta-sekin massasi $M$ bo'lgan yuk qo'yilganda, gaz izotermik ravishda siqilib, hajmi $V_0$ dan $V_1$ gacha kamaydi. Tashqi muhit bosimini $p_0$, jarayon davomida bajarilgan ishni aniqlang.",
+  "options": [
+   "$A = p_0(V_0 - V_1) + M\\frac{g}{S}V_0 \\ln\\frac{V_0}{V_1}$",
+   "$A = p_0(V_0 - V_1) + \\frac{M g V_1^2}{S V_0}$",
+   "$A = p_0 V_0 \\ln\\frac{V_0}{V_1} + \\frac{Mg}{S}(V_0 - V_1)$",
+   "$A = p_0(V_0 - V_1) + \\frac{Mg V_0}{S} \\ln\\frac{V_0}{V_1}$"
+  ],
+  "correct_answer": "$A = p_0(V_0 - V_1) + \\frac{Mg V_0}{S} \\ln\\frac{V_0}{V_1}$",
+  "explanation": "Gazning bajarilgan ishi tashqi bosim ($p_0 + Mg/S$) va gaz bosimining o'zgarishini hisobga olgan holda, izotermik jarayon integralini hisoblash yordamida topiladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_5",
+  "skill": "qollash",
+  "question_text": "Idish ichida ideal gaz ustida termodinamik sikl bajariladi: 1-2 izoxora, 2-3 izobara va 3-1 adiabata. Agar 1-holatdan 2-holatga o'tishda gazga berilgan issiqlik miqdori 2-3 izobara jarayonida bajarilgan ishga teng bo'lsa, gazning adiabatik ko'rsatkichi $\\gamma$ ni aniqlang.",
+  "options": [
+   "$\\gamma = 1.5$",
+   "$\\gamma = 2.0$",
+   "$\\gamma = 1.67$",
+   "$\\gamma = 1.4$"
+  ],
+  "correct_answer": "$\\gamma = 2.0$",
+  "explanation": "Har bir jarayon uchun termodinamikaning birinchi qonuni va ideal gaz holat tenglamasi yozilib, berilgan shartlar asosida $\\gamma$ uchunalgebraik tenglama yechiladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_5",
+  "skill": "qollash",
+  "question_text": "Kichik qalinlikdagi tekis parallel shisha plastinka ($n = 1.5$) ustiga to'lqin uzunligi $\\lambda$ bo'lgan yorug'lik nuri normal tushmoqda. Plastinkadan qaytgan nurlarning interferensiyasida birinchi maksimum kuzatilishi uchun plastinkaning minimal qalinligi qanday bo'lishi kerak?",
+  "options": [
+   "$d = \\frac{\\lambda}{3}$",
+   "$d = \\frac{\\lambda}{4}$",
+   "$d = \\frac{\\lambda}{2}$",
+   "$d = \\frac{2\\lambda}{3}$"
+  ],
+  "correct_answer": "$d = \\frac{\\lambda}{3}$",
+  "explanation": "Optik yo'l farqi $2nd = (k + 0.5)\\lambda$ sharti va sirtda faza sakrashi ($\\pi$ ga siljish) hisobga olinib, $k=0$ uchun minimal qalinlik hisoblanadi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_5",
+  "skill": "qollash",
+  "question_text": "Radiusi $R$ bo'lgan uzun silindrik o'tkazgichdan $I$ o'zgarmas elektr toki oqmoqda. Tok o'tkazgich kesimi bo'ylab tekis taqsimlangan. O'tkazgich markazidan $r$ masofadagi ($r > R$) nuqtada induksiyasi $B$ bo'lgan magnit maydon hosil bo'ladi. Agar $r = 2R$ bo'lsa, shu nuqtadagi magnit induksiyasining qiymatini toping.",
+  "options": [
+   "$B = \\frac{\\mu_0 I}{4\\pi R}$",
+   "$B = \\frac{\\mu_0 I}{2\\pi R}$",
+   "$B = \\frac{\\mu_0 I}{\\pi R}$",
+   "$B = \\frac{\\mu_0 I}{8\\pi R}$"
+  ],
+  "correct_answer": "$B = \\frac{\\mu_0 I}{4\\pi R}$",
+  "explanation": "Amper sirkulyatsiya qonunidan foydalanib, $r > R$ bo'lgan tashqi soha uchun magnit induksiyasi formulasiga $r = 2R$ qiymat qo'yib topiladi."
+ },
+ {
+  "subject_slug": "fizika",
+  "level": "daraja_5",
+  "skill": "qollash",
+  "question_text": "Elektr sig'imi $C$ bo'lgan kondensator va induktivligi $L$ bo'lgan g'altakdan iborat tebranish konturida erkin so'nmas elektromagnit tebranishlar sodir bo'lmoqda. Konturdagi zaryadning maksimal qiymati $q_m$. Kondensator plastinkalaridagi potensiallar farqi uning maksimal qiymatining yarmiga teng bo'lgan paytda, konturdagi magnit maydon energiyasi elektr maydon energiyasidan necha marta katta bo'ladi?",
+  "options": [
+   "3 marta",
+   "2 marta",
+   "4 marta",
+   "1.5 marta"
+  ],
+  "correct_answer": "3 marta",
+  "explanation": "To'la energiya saqlanish qonuniga ko'ra $W = W_e + W_m$. $U = U_m/2$ bo'lganda $W_e = W/4$ bo'ladi, demak $W_m = 3W_e$ ni tashkil qiladi."
  },
  {
   "subject_slug": "fransuz_tili",
@@ -3946,6 +4198,174 @@
   ],
   "correct_answer": "laver",
   "explanation": "Ovqat pishirishdan oldin sabzavotlarni sovuq suvda yaxshilab 'laver' (yuvmoq) kerak."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Hier, Marie est allée au supermarché avec son amie Claire. Elles ont acheté des fruits, du pain et un peu de fromage pour le dîner. Ensuite, elles sont rentrées à pied.",
+  "options": [
+   "Marie et Claire sont allées au restaurant hier.",
+   "Elles ont acheté de la nourriture pour le repas du soir.",
+   "Elles ont pris le bus pour rentrer chez elles.",
+   "Claire est allée seule au supermarché hier."
+  ],
+  "correct_answer": "Elles ont acheté de la nourriture pour le repas du soir.",
+  "explanation": "Matnda ularning kechki ovqat (dîner) uchun meva, non va pishloq sotib olgani aytilgan, bu oziq-ovqat sotib olganini bildiradi."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Demain, Paul va rendre visite à ses grands-parents à la campagne. Il va passer tout le week-end avec eux dans leur grande maison.",
+  "options": [
+   "Paul est déjà chez ses grands-parents.",
+   "Paul va passer le week-end à la campagne.",
+   "Il habite dans une grande maison à la campagne.",
+   "Il va travailler tout le week-end avec ses parents."
+  ],
+  "correct_answer": "Paul va passer le week-end à la campagne.",
+  "explanation": "Matnda Paul barcha dam olish kunini qishloqda bobo va buvisining uyida o'tkazishi aytilgan (kelasi zamon - futur composé)."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Le train pour Lyon part de la voie numéro 3 à 14h30. Les passagers doivent monter rapidement car l'arrêt est très court.",
+  "options": [
+   "Le train arrive à 14h30.",
+   "Les passagers ont beaucoup de temps pour monter.",
+   "Le train quitte la gare depuis la voie 3.",
+   "Le train va à Paris."
+  ],
+  "correct_answer": "Le train quitte la gare depuis la voie 3.",
+  "explanation": "Matnda Lyon poezdi 3-yo'lakdan (voie numéro 3) jo'nab ketishi yozilgan."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "La veste rouge coûte 45 euros, mais la veste bleue coûte 60 euros. La veste rouge est donc moins chère que la bleue.",
+  "options": [
+   "La veste bleue est moins chère que la rouge.",
+   "La veste rouge est plus chère que la bleue.",
+   "La veste bleue coûte 45 euros.",
+   "La veste rouge coûte moins que la bleue."
+  ],
+  "correct_answer": "La veste rouge coûte moins que la bleue.",
+  "explanation": "Qizil kurtka 45 yevro, ko'k kurtka 60 yevro turadi. Demak, qizil kurtka ko'kiga qaraganda arzonroq (moins chère / coûte moins)."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Thomas habite dans un appartement au troisième étage sans ascenseur. Chaque jour, il doit monter beaucoup de marches pour arriver chez lui.",
+  "options": [
+   "Thomas prend l'ascenseur tous les jours.",
+   "Il habite au rez-de-chaussée.",
+   "Il doit monter des escaliers pour rentrer chez lui.",
+   "Son appartement est très grand."
+  ],
+  "correct_answer": "Il doit monter des escaliers pour rentrer chez lui.",
+  "explanation": "Lift yo'qligi va uchinchi qavatda yashashi bois, Thomas uyiga chiqish uchun zinapoyadan chiqishi kerak."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Sophie adore le sport. Elle pratique la natation deux fois par semaine et elle court dans le parc tous les dimanches matin.",
+  "options": [
+   "Sophie déteste faire du sport.",
+   "Elle nage tous les jours de la semaine.",
+   "Elle fait de la course à pied le dimanche.",
+   "Elle va à la piscine le dimanche matin."
+  ],
+  "correct_answer": "Elle fait de la course à pied le dimanche.",
+  "explanation": "Matnda Sophie har yakshanba kuni ertalab parkda yugurishi (court / course à pied) yozilgan."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Mon appartement est plus grand que celui de mon frère, mais le loyer est aussi plus cher. Cependant, il est très calme.",
+  "options": [
+   "L'appartement du frère est plus grand.",
+   "L'appartement de mon frère est moins cher.",
+   "Mon appartement est bruyant.",
+   "Mon appartement est plus petit que celui de mon frère."
+  ],
+  "correct_answer": "L'appartement de mon frère est moins cher.",
+  "explanation": "Agar mening kvartiram qimmatroq (plus cher) bo'lsa, demak akamning kvartirasi arzonroq (moins cher)."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Paul est arrivé à la gare à huit heures. Le train pour Lyon partait à huit heures et demie, alors il a acheté un journal.",
+  "options": [
+   "Il a raté son train.",
+   "Il est arrivé après le départ du train.",
+   "Il a eu le temps d'acheter un journal.",
+   "Il voyageait seul."
+  ],
+  "correct_answer": "Il a eu le temps d'acheter un journal.",
+  "explanation": "Poyezd 8:30 da jo'nagan, Paul esa 8:00 da kelgan va vaqti bo'lgani uchun gazeta sotib olgan."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Pour aller à la poste, il faut marcher tout droit, puis tourner à gauche après la boulangerie. La poste est en face de la pharmacie.",
+  "options": [
+   "La poste est à côté de la boulangerie.",
+   "Il faut tourner à droite.",
+   "La poste se trouve devant la pharmacie.",
+   "La pharmacie est loin de la poste."
+  ],
+  "correct_answer": "La poste se trouve devant la pharmacie.",
+  "explanation": "Matndagi 'en face de' birikmasi 'ro'parasida' yoki 'oldida' (devant) degan ma'noni anglatadi."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "L'été dernier, Sophie a passé ses vacances à la montagne. Cette année, elle a décidé de rester chez elle pour se reposer.",
+  "options": [
+   "Elle est allée à la montagne cette année.",
+   "Elle n'a pas pris de vacances l'été dernier.",
+   "Elle est restée chez elle l'été dernier.",
+   "Elle ne voyage pas pendant ses vacances cette année."
+  ],
+  "correct_answer": "Elle ne voyage pas pendant ses vacances cette année.",
+  "explanation": "Bu yil u dam olish uchun uyida qolishga qaror qilgan, demak u sayohat qilmayapti."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Thomas préfère le thé au café le matin. Hier matin, pourtant, il a bu une tasse de café parce qu'il n'y avait plus de thé.",
+  "options": [
+   "Il boit toujours du café le matin.",
+   "Il a bu du thé hier matin.",
+   "Il n'aime pas du tout le thé.",
+   "Il a bu du café hier matin."
+  ],
+  "correct_answer": "Il a bu du café hier matin.",
+  "explanation": "Matnda kecha ertalab choy qolmagani uchun u bir chashka qahva ichgani aniq yozilgan."
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "level": "A2",
+  "skill": "reading",
+  "question_text": "Salut! Hier, je suis allé au supermarché avec mon amie Claire. Demain, nous allons cuisiner un grand dîner pour notre famille. Mais aujourd'hui, je suis très fatigué, alors je reste à la maison.\n\nQuand est-ce que les deux amies vont cuisiner le dîner?",
+  "options": [
+   "Hier",
+   "Aujourd'hui",
+   "Demain",
+   "La semaine prochaine"
+  ],
+  "correct_answer": "Demain",
+  "explanation": "Matnda «Demain, nous allons cuisiner un grand dîner» (Ertaga biz katta kechki ovqat pishiramiz) deb yozilgan. Kelasi zamon (futur composé - aller + fe'l) ifodasi va vaqt atamasi to'g'ri javobni topishga yordam beradi."
  },
  {
   "subject_slug": "fransuz_tili",
@@ -14572,6 +14992,174 @@
   ],
   "correct_answer": "0,2 mol/l va 20 l/mol",
   "explanation": "Reaksiya tenglamasiga ko'ra, 0,4 mol/l SO3 hosil bo'lishi uchun 0,4 mol/l SO2 sarflanadi, demak SO2 ning muvozanat konsentratsiyasi 0,6 - 0,4 = 0,2 mol/l. O2 ning muvozanat konsentratsiyasi 0,5 - 0,2 = 0,3 mol/l bo'lib, Kc = [SO3]^2 / ([SO2]^2 * [O2]) = 0,4^2 / (0,2^2 * 0,3) = 0,16 / (0,04 * 0,3) = 20 l/mol."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Kvant mexanikasi nuqtai nazaridan, ko'p elektronli atomlarda elektronlarning orbital energetik darajalariga ko'ra to'lanish tartibini aniqlovchi Klechkovskiyning birinchi qoidasiga ko'ra, qaysi orbital yig'indisi ($n + l$) eng katta energiyaga ega bo'ladi?",
+  "options": [
+   "n = 4, l = 2",
+   "n = 5, l = 0",
+   "n = 3, l = 2",
+   "n = 4, l = 1"
+  ],
+  "correct_answer": "n = 4, l = 2",
+  "explanation": "Klechkovskiy qoidasiga ko'ra (n + l) yig'indisi qancha katta bo'lsa, orbital energiyasi shuncha yuqori bo'ladi; berilganlar orasida 4+2=6 eng katta yig'indini beradi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Termodinamikaning ikkinchi qonuniga muvofiq, o'zgarmas bosim va haroratda (izobarik-izotermik jarayonda) o'z-o'zidan sodir bo'ladigan jarayonlar uchun Gibbs energiyasining o'zgarishi ($\\Delta G$) va sistema entropiyasining to'liq o'zgarishi qanday shartni qanoatlantirishi shart?",
+  "options": [
+   "\\Delta G < 0 va \\Delta S_{umumiy} > 0",
+   "\\Delta G > 0 va \\Delta S_{umumiy} < 0",
+   "\\Delta G = 0 va \\Delta S_{umumiy} = 0",
+   "\\Delta G < 0 va \\Delta S_{umumiy} < 0"
+  ],
+  "correct_answer": "\\Delta G < 0 va \\Delta S_{umumiy} > 0",
+  "explanation": "O'z-o'zidan boradigan jarayonlarda Gibbs energiyasi kamayadi (\\Delta G < 0) va olamning (sistema + muhit) to'liq entropiyasi ortadi (\\Delta S_{umumiy} > 0)."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Kompleks birikmalar kimyosida, Chelatchi effekti (chelate effect) asosan termodinamik kattaliklardan qaysi birining keskin o'zgarishi bilan tushuntiriladi?",
+  "options": [
+   "Entropiyaning musbat qiymatga o'zgarishi evaziga Gibbs energiyasining kamayishi",
+   "Enthalpiyaning keskin manfiy qiymatga ega bo'lishi",
+   "Kompleks hosil bo'lish tezligining to'satdan ortishi",
+   "Markaziy atomning kordinat sonining o'zgarishi"
+  ],
+  "correct_answer": "Entropiyaning musbat qiymatga o'zgarishi evaziga Gibbs energiyasining kamayishi",
+  "explanation": "Polident ligandlar bir tishli ligandlarni siqib chiqarganda zarrachalar soni ortadi, bu esa sistema entropiyasining sezilarli darajada oshishiga va chelatchi barqarorligiga olib keladi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Kristal panjara energiyasini hisoblashda qo'llaniladigan Born-Landere tenglamasida, ionlararo o'zaro ta'sirni ifodalovchi Born ko'rsatkichi (n) nimaga bog'liq?",
+  "options": [
+   "Ionlarning elektron qobiqlarining konfiguratsiyasiga (inert gaz elektron tuzilishiga)",
+   "Kristal panjaraning geometrik simmetriyasiga va fazoviy guruhiga",
+   "Faqatgina kristallning erish haroratiga va zichligiga",
+   "Ionlarning umumiy massasiga va izotopik tarkibiga"
+  ],
+  "correct_answer": "Ionlarning elektron qobiqlarining konfiguratsiyasiga (inert gaz elektron tuzilishiga)",
+  "explanation": "Born ko'rsatkichi (n) ionlarning eng yaqin inert gaz elektron konfiguratsiyasiga mos keluvchi qobiqlarining qattiqligi yoki siqilmasligini tavsiflaydi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Fizikaviy organik kimyoda Hammett tenglamasi ($\\log(k/k_0) = \\rho \\sigma$) qaysi turdagi reaksiyalar va o'rinbosarlarning ta'sirini o'rganish uchun qo'llaniladi?",
+  "options": [
+   "Meta- va para-o'rinbosarli benzol hosilalarining reaksiyalarida induktiv va mezon effektlarni",
+   "Alifatik birikmalardagi fazoviy (sterik) to'siqlarni baholash uchun",
+   "Faqat radikal mexanizmda boruvchi zanjirli jarayonlarning tezligini aniqlash uchun",
+   "Uglevodorodlarning termik krekinglanish reaksiyalarini isbotlash uchun"
+  ],
+  "correct_answer": "Meta- va para-o'rinbosarli benzol hosilalarining reaksiyalarida induktiv va mezon effektlarni",
+  "explanation": "Hammett tenglamasi asosan meta- va para-o'rinbosarlarga ega bo'lgan aromatik birikmalar reaksiyadorligining elektron ta'sirlarini miqdoriy baholaydi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Radiokimyoviy parchalanish qonuniyatlariga ko'ra, radioaktiv izotopning o'rtacha yashash davri ($\\tau$) uning yarimparchalanish davri ($T_{1/2}$) bilan qanday matematik bog'liqlikka ega?",
+  "options": [
+   "\\tau = T_{1/2} / \\ln 2",
+   "\\tau = T_{1/2} \\cdot \\ln 2",
+   "\\tau = T_{1/2} / 2",
+   "\\tau = 2 \\cdot T_{1/2}"
+  ],
+  "correct_answer": "\\tau = T_{1/2} / \\ln 2",
+  "explanation": "Radioaktiv parchalanish doimiyasi $\\lambda = \\ln 2 / T_{1/2}$ ga teng bo'lib, o'rtacha yashash davri esa parchalanish doimiyasining teskari qiymatidir (\\tau = 1/\\lambda = T_{1/2} / \\ln 2)."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Kvant mexanikasi nuqtai nazaridan, ko'p elektronli atomlarda elektronlarning orbital energiyasi qaysi kwant sonlarining yig'indisiga (Klechkovskiyning birinchi qoidasi) to'g'ridan-to'g'ri bo'ysunadi?",
+  "options": [
+   "Faqat bosh kvant soni ($n$)",
+   "Bosh kvant soni va orbital kvant soni yig'indisiga ($n + l$)",
+   "Bosh kvant soni va magnit kvant soni yig'indisiga ($n + m$)",
+   "Bosh kvant soni va spin kvant soni yig'indisiga ($n + s$)"
+  ],
+  "correct_answer": "Bosh kvant soni va orbital kvant soni yig'indisiga ($n + l$)",
+  "explanation": "Klechkovskiyning birinchi qoidasiga ko'ra, elektronlar orbitalarni to'ldirishda bosh ($n$) va orbital ($l$) kvant sonlarining yig'indisi ($n+l$) ortib borishi tartibida joylashadi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Termodinamikaning ikkinchi qonuniga ko'ra, to'lajonli (izolyatsiyalangan) tizimda o'z-o'zidan sodir bo'ladigan jarayonlar uchun entropiyaning o'zgarishi va Gibbs energiyasining shartlari qanday tavsiflanadi?",
+  "options": [
+   "$\\Delta S_{tizim} > 0$ va $\\Delta G < 0$",
+   "$\\Delta S_{umumiy} > 0$ va $\\Delta G < 0$",
+   "$\\Delta S_{umumiy} > 0$ (yoki $\\Delta S_{tizim} + \\Delta S_{mufit} > 0$) va $\\Delta G$ ning ishorasidan qat'i nazar o'z-o'zidan ketadi",
+   "$\\Delta S_{tizim} < 0$ va $\\Delta G > 0$"
+  ],
+  "correct_answer": "$\\Delta S_{umumiy} > 0$ (yoki $\\Delta S_{tizim} + \\Delta S_{mufit} > 0$) va $\\Delta G$ ning ishorasidan qat'i nazar o'z-o'zidan ketadi",
+  "explanation": "Izolyatsiyalangan tizimda entropiyaning umumiy o'zgarishi har doim noldan katta bo'lishi kerak ($\\Delta S_{umumiy} > 0$). Gibbs energiyasi esa faqat izolyatsiyalanmagan, doimiy bosim va haroratdagi tizimlar uchun ishlatiladi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Qattiq jismlar kristall panjarasining tugunlarida musbat va manfiy ionlar joylashgan va ular orasidagi o'zaro ta'sir asosan elektrostatik kuchlarga asoslangan kristall panjara turi qanday ataladi va uning panjara energiyasi qaysi nazariya bilan aniqlanadi?",
+  "options": [
+   "Kovalent kristall panjara; Vant-Гоff tenglamasi",
+   "Molekulyar kristall panjara; London kuchlari nazariyasi",
+   "Ion kristall panjara; Born-Mayer yoki Born-Landening elektrostatik energiya tenglamasi",
+   "Metall kristall panjara; Drude-Lorens elektron gaz nazariyasi"
+  ],
+  "correct_answer": "Ion kristall panjara; Born-Mayer yoki Born-Landening elektrostatik energiya tenglamasi",
+  "explanation": "Ion kristall panjaralar elektrostatik (Kulon) kuchlar evaziga ushlanib turadi va ularning panjara energiyasi Born-Mayer yoki Born-Landening nazariy tenglamalari yordamida hisoblanadi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Kompleks birikmalar kimyosida ligandlarning kristall maydoni nazariyasiga (KMN) ko'ra, oktaedrik komplekslarda $d$-orbitallarning energetik sathlarga bo'linishi qanday ko'rinishda sodir bo'ladi?",
+  "options": [
+   "$d_{xy}, d_{yz}, d_{xz}$ orbitallar yuqori energiya sathiga ($t_{2g}$), $d_{x^2-y^2}, d_{z^2}$ esa pastki ($e_g$) sathga bo'linadi",
+   "$d_{x^2-y^2}, d_{z^2}$ orbitallar yuqori energiya sathiga ($e_g$), $d_{xy}, d_{yz}, d_{xz}$ esa pastki ($t_{2g}$) sathga bo'linadi",
+   "Barcha 5 ta $d$-orbital bir xil energiya sathida qoladi, faqat markaziy atom zaryadi o'zgaradi",
+   "$d$-orbitallar 3 ta guruhga ($t_{2g}, e_g, a_{1g}$) teng taqsimlanadi"
+  ],
+  "correct_answer": "$d_{x^2-y^2}, d_{z^2}$ orbitallar yuqori energiya sathiga ($e_g$), $d_{xy}, d_{yz}, d_{xz}$ esa pastki ($t_{2g}$) sathga bo'linadi",
+  "explanation": "Oktaedrik maydonda koordinatsion o'qlar yo'nalishida joylashgan $d_{x^2-y^2}$ va $d_{z^2}$ orbitallar ligandlar bilan kuchli elektrostatik itarilishga uchraydi va yuqori $e_g$ sathni hosil qiladi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Kimyoviy kinetikada zanjir reaksiyalar nazariyasiga ko'ra, tarmoqlanmagan zanjir reaksiyalardan farqli o'laroq, tarmoqlangan zanjir reaksiyalarning tezligi va portlash chegaralari qaysi omilga bog'liq ravishda keskin o'zgaradi?",
+  "options": [
+   "Faqat boshlang'ich moddalarning umumiy konsentratsiyasiga",
+   "Faol markazlarning (radikallar va atomlar) o'zaro bir-birini yo'q qilish tezligiga va zanjirning tarmoqlanish tezligining uzilish tezligidan ustun kelishiga",
+   "Katalizatorning fizik holatiga va erituvchi tabiatiga",
+   "Reaksiya idishining hajmining haroratga nisbatiga"
+  ],
+  "correct_answer": "Faol markazlarning (radikallar va atomlar) o'zaro bir-birini yo'q qilish tezligiga va zanjirning tarmoqlanish tezligining uzilish tezligidan ustun kelishiga",
+  "explanation": "Tarmoqlangan zanjir reaksiyalarda bitta faol zarracha bir nechta yangi faol zarrachani hosil qilsa (tarmoqlanish tezligi > uzilish tezligi), reaksiya tezligi eksensial ravishda o'sib, portlashga olib keladi."
+ },
+ {
+  "subject_slug": "kimyo",
+  "level": "daraja_5",
+  "skill": "bilim",
+  "question_text": "Elektrokimyoviy kinetikada o'ta kuchlanish (overpotential - $\\eta$) tushunchasining fizik ma'nosi nima va u asosan nima bilan belgilanadi?",
+  "options": [
+   "Elektrod potensialining muvozanat qiymatidan og'ishi bo'lib, elektrod jarayonining kinetik qiyinchiliklari (stansion bo'lmagan holat va bosqichli to'siqlar) bilan belgilanadi",
+   "Faqat eritmaning solishtirma elektr o'tkazuvchanligining haroratga bog'liqligi bilan",
+   "Galvanik elementning ichki qarshiligi tufayli yuzaga keladigan issiqlik yo'qotilishi",
+   "Elektrod yuzasidagi qoplama qalinligining o'lchov birligi"
+  ],
+  "correct_answer": "Elektrod potensialining muvozanat qiymatidan og'ishi bo'lib, elektrod jarayonining kinetik qiyinchiliklari (stansion bo'lmagan holat va bosqichli to'siqlar) bilan belgilanadi",
+  "explanation": "O'ta kuchlanish — tashqi oqim o'tganda elektrod potensialining uning muvozanat qiymatidan farqlanishi bo'lib, u asosan elektron o'tish yoki massik ko'chish bosqichlarining sekinligidan kelib chiqadi."
  },
  {
   "subject_slug": "koreys_tili",

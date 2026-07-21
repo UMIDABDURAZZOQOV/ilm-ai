@@ -1199,6 +1199,60 @@
  },
  {
   "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "theory": [
+   {
+    "title": "Bosim nima?",
+    "body": "Bosim – bu biror sirtga tik tushgan kuchning shu sirt maydoniga ta’sirini bildiradi. Oddiy qilib aytganda, bir xil kuchni kichikroq maydonga ta’sir ettirsangiz, bosim kuchayadi. Masalan, pichoqning o’tkir tomoni bilan kesish osonroq, chunki kuch kichik maydonga ta’sir qiladi.",
+    "example": "1) Oyoq kiyimning poshnasi keng boʻlsa, qor ustida yurish osonroq, chunki bosim kamayadi. 2) Shprits ignasi ingichka – shuning uchun terini teshib oson kiradi."
+   },
+   {
+    "title": "Suyuqlik bosimi qanday tarqaladi?",
+    "body": "Suyuqlik ichida bosim har tomonga bir xil kuch bilan ta’sir qiladi. Bu xususiyat suyuqlikning oqishi va shaklini oʻzgartira olishi bilan bogʻliq. Masalan, idishdagi suvning sirtiga bosim berilsa, bu bosim suvning barcha nuqtalariga teng tarqaladi.",
+    "example": "1) Suv bilan toʻldirilgan sharni siqib koʻrsangiz, suv barcha yoʻnalishlarda bir xil bosim bilan chiqadi. 2) Suv ostida chuqurroq joyga tushsangiz, bosim oshadi, chunki ustingizdagi suv ogʻirligi koʻpayadi."
+   },
+   {
+    "title": "Paskal qonuni nima?",
+    "body": "Paskal qonuni aytadiki: berk idishdagi suyuqlikka tashqi bosim berilsa, bu bosim suyuqlikning barcha nuqtalariga bir xil miqdorda uzatiladi. Bu prinsip gidravlik tizimlarda (masalan, avtomobil tormozlarida) keng qoʻllaniladi.",
+    "example": "1) Gidravlik pressda kichik kuch bilan katta yukni koʻtarish mumkin, chunki bosim suyuqlik orqali uzatiladi. 2) Shpritsni siqib, dori suyuqligini chiqarish ham Paskal qonuniga asoslangan."
+   },
+   {
+    "title": "Gaz bosimi qanday paydo boʻladi?",
+    "body": "Gaz molekulalari doimiy harakatda boʻlib, idish devorlariga uriladi. Bu urilishlar natijasida gaz bosimi paydo boʻladi. Gaz qanchalik qizdirilsa yoki hajmi qisqartirilsa, bosim shunchalik oshadi, chunki molekulalar tezroq harakatlanadi va koʻproq uriladi.",
+    "example": "1) Havoni puflab sharchani shishirganingizda, ichidagi gaz bosimi oshadi. 2) Avtomobil shinasini haddan tashqari havo bilan toʻldirsangiz, bosim oshib, shina yorilishi mumkin."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "arximed-qonuni",
+  "theory": [
+   {
+    "title": "Arximed kuchi nima?",
+    "body": "Suvga yoki boshqa suyuqlikka botirilgan jismga suyuqlik yuqoriga qarab kuch taʼsir qiladi. Bu kuchni Arximed kuchi deyiladi. U jismning suyuqlikka botgan qismining hajmi bilan bevosita bogʻliq – qanchalik koʻp botgan boʻlsa, shunchalik katta kuch taʼsir qiladi.",
+    "example": "Vanna ichidagi suvga qoʻlingizni botirganingizda, suv qoʻlingizni yuqoriga itaradi. Bu Arximed kuchi taʼsiridir. Yoki kema suvda suzib yurishi ham shu kuch tufaylidur."
+   },
+   {
+    "title": "Arximed qonuni formulasi",
+    "body": "Arximed kuchi quyidagi formula bilan hisoblanadi: F_A = ρ * g * V. Bu yerda ρ – suyuqlikning zichligi, g – erkin tushish tezlanishi (9.8 m/s²), V – jismning suyuqlikka botgan qismining hajmi. Yaʼni, suyuqlik zichroq boʻlsa yoki jism koʻproq botgan boʻlsa, kuch ham katta boʻladi.",
+    "example": "1 litr hajmli yogʻoch suvga butunlay botganida, Arximed kuchi ~9.8 N boʻladi (suv zichligi 1000 kg/m³). Agar shu yogʻoch tuzli dengiz suviga botganida, kuch yanada katta boʻladi, chunki dengiz suvi zichroq."
+   },
+   {
+    "title": "Jism qachon suzadi?",
+    "body": "Jism suzishi uchun uning ogʻirligi (P = m*g) Arximed kuchiga teng yoki undan kichik boʻlishi kerak. Agar jismning zichligi suyuqlik zichligidan kichik boʻlsa, u suzadi. Aks holda, choʻkadi. Agar zichliklar teng boʻlsa, jism suyuqlik ichida muallaq qoladi.",
+    "example": "Yogʻoch suvda suzadi, chunki uning zichligi suvnikidan kichik. Temir esa choʻkadi, chunki uning zichligi suvnikidan katta. Lekin kemalar temirdan yasalgan boʻlsa ham suzadi, chunki ularning ichi boʻsh va oʻrtacha zichligi suvnikidan kichik."
+   },
+   {
+    "title": "Suzish shartlari turlari",
+    "body": "Jismning suzish holati uch xil boʻlishi mumkin: 1) Suzish – jismning bir qismi suyuqlikdan chiqib turadi (masalan, kema). 2) Muallaq suzish – jism butunlay suyuqlik ichida, lekin choʻkmaydi (masalan, suv osti kemasi). 3) Choʻkish – jism tubga tushadi (masalan, tosh).",
+    "example": "Muz suvda suzadi, chunki uning zichligi suvnikidan kichik. Lekin muz tuzli suvda yanada yuqoriroq suzadi, chunki tuzli suv zichroq. Suv osti kemasi esa suv ichida muallaq suzadi, ogʻirligini Arximed kuchiga moslab turadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
   "unit_slug": "elektr",
   "lesson_slug": "elektr-zaryad-maydon",
   "theory": [

@@ -440,6 +440,12 @@
     "uz": "So'z turkumlarining o'zaro ko'chishi (transpozitsiya)",
     "ru": "Переход слов из одной части речи в другую (транспозиция)",
     "en": "Transposition of parts of speech"
+   },
+   {
+    "slug": "soz-yasalishi",
+    "uz": "So'z yasalishi: yasovchi qo'shimchalar va usullari",
+    "ru": "Словообразование",
+    "en": "Word formation"
    }
   ],
   "sintaksis": [
@@ -806,6 +812,30 @@
     "uz": "Murakkab va teskari funksiyalar",
     "ru": "Сложные и обратные функции",
     "en": "Composite and inverse functions"
+   },
+   {
+    "slug": "hosila-tushunchasi",
+    "uz": "Funksiya hosilasi va uning geometrik ma'nosi",
+    "ru": "Производная функции",
+    "en": "The derivative of a function"
+   },
+   {
+    "slug": "hosila-qollanilishi",
+    "uz": "Hosila yordamida funksiyani tekshirish va ekstremumlar",
+    "ru": "Исследование функции с помощью производной",
+    "en": "Using the derivative to analyse a function"
+   },
+   {
+    "slug": "boshlangich-funksiya",
+    "uz": "Boshlang'ich funksiya va aniqmas integral",
+    "ru": "Первообразная и неопределённый интеграл",
+    "en": "Antiderivatives and the indefinite integral"
+   },
+   {
+    "slug": "aniq-integral",
+    "uz": "Aniq integral va yuzalarni hisoblash",
+    "ru": "Определённый интеграл и площади",
+    "en": "The definite integral and areas"
    }
   ],
   "geometriya-planimetriya": [
@@ -1462,6 +1492,12 @@
     "uz": "Populyatsiya genetikasi. Xardi-Vaynberg qonuni",
     "ru": "Популяционная генетика. Закон Харди-Вайнберга",
     "en": "Population genetics. Hardy-Weinberg law"
+   },
+   {
+    "slug": "seleksiya",
+    "uz": "Seleksiya asoslari va uning usullari",
+    "ru": "Основы селекции",
+    "en": "The principles of selective breeding"
    }
   ],
   "evolutsiya-ekologiya": [
@@ -1646,6 +1682,12 @@
     "uz": "Kompleks birikmalar",
     "ru": "Комплексные соединения",
     "en": "Complex compounds"
+   },
+   {
+    "slug": "galogenlar",
+    "uz": "Galogenlar va ularning birikmalari",
+    "ru": "Галогены и их соединения",
+    "en": "The halogens and their compounds"
    }
   ],
   "eritmalar-reaksiyalar": [
@@ -1986,6 +2028,18 @@
     "uz": "Issiqlik dvigatellari va ularning foydali ish koeffitsiyenti. Karno sikli",
     "ru": "Тепловые двигатели и их коэффициент полезного действия. Цикл Карно",
     "en": "Heat engines and their efficiency. Carnot cycle"
+   },
+   {
+    "slug": "gidrostatik-bosim",
+    "uz": "Suyuqlik va gaz bosimi. Paskal qonuni",
+    "ru": "Давление жидкостей и газов. Закон Паскаля",
+    "en": "Pressure in fluids. Pascal's law"
+   },
+   {
+    "slug": "arximed-qonuni",
+    "uz": "Arximed qonuni va jismlarning suzishi",
+    "ru": "Закон Архимеда и плавание тел",
+    "en": "Archimedes' principle and floating"
    }
   ],
   "elektr": [
@@ -3012,6 +3066,54 @@
     "uz": "Kobo Abe va intellektual adabiyot. \"Qumdagi xotin\" romani",
     "ru": "Кобо Абэ и интеллектуальная литература. Роман \"Женщина в песках\"",
     "en": "Kōbō Abe and intellectual literature. \"The Woman in the Dunes\" novel"
+   },
+   {
+    "slug": "postmodernizm-va-uning-adabiy-namunalari",
+    "uz": "Postmodernizm va uning adabiy namunalari",
+    "ru": "Постмодернизм и его литературные образцы",
+    "en": "Postmodernism and its literary examples"
+   },
+   {
+    "slug": "xx-asr-adabiyotida-urush-mavzusi-erix-mariya-remarkning-garb",
+    "uz": "XX asr adabiyotida urush mavzusi. Erix Mariya Remarkning \"Gʻarbiy frontda oʻzgarish yoʻq\" romani",
+    "ru": "Тема войны в литературе XX века. Роман Эриха Марии Ремарка \"На Западном фронте без перемен\"",
+    "en": "The theme of war in 20th-century literature. Erich Maria Remarque's \"All Quiet on the Western Front\""
+   },
+   {
+    "slug": "boris-pasternak-ijodi-va-doktor-jivago-romani",
+    "uz": "Boris Pasternak ijodi va \"Doktor Jivago\" romani",
+    "ru": "Творчество Бориса Пастернака и роман \"Доктор Живаго\"",
+    "en": "Boris Pasternak's works and the novel \"Doctor Zhivago\""
+   },
+   {
+    "slug": "xx-asr-adabiyotida-ayol-mualliflar-va-feministik-adabiyot-vi",
+    "uz": "XX asr adabiyotida ayol mualliflar va feministik adabiyot. Virjiniya Vulfning \"Xonaga oʻz xonasi\" essesi",
+    "ru": "Женщины-писательницы и феминистская литература XX века. Эссе Вирджинии Вулф \"Своя комната\"",
+    "en": "Women writers and feminist literature in the 20th century. Virginia Woolf's \"A Room of One's Own\""
+   },
+   {
+    "slug": "italo-kalvino-ijodi-va-postmodernistik-ertaklar-korinmas-sha",
+    "uz": "Italo Kalvino ijodi va postmodernistik ertaklar. \"Koʻrinmas shaharlar\" asari",
+    "ru": "Творчество Итало Кальвино и постмодернистские сказки. \"Невидимые города\"",
+    "en": "Italo Calvino's works and postmodernist tales. \"Invisible Cities\""
+   },
+   {
+    "slug": "xx-asr-adabiyotida-ilmiy-fantastik-janr-rey-bredberining-far",
+    "uz": "XX asr adabiyotida ilmiy-fantastik janr. Rey Bredberining \"Farengeyt 451\" romani",
+    "ru": "Научная фантастика в литературе XX века. Роман Рэя Брэдбери \"451 градус по Фаренгейту\"",
+    "en": "Science fiction in 20th-century literature. Ray Bradbury's \"Fahrenheit 451\""
+   },
+   {
+    "slug": "xx-asr-adabiyotida-avtobiografik-roman-janri-marsel-prustnin",
+    "uz": "XX asr adabiyotida avtobiografik roman janri. Marsel Prustning \"Yoʻqotilgan vaqt izidan\" asari",
+    "ru": "Автобиографический роман в литературе XX века. \"В поисках утраченного времени\" Марселя Пруста",
+    "en": "Autobiographical novel in 20th-century literature. Marcel Proust's \"In Search of Lost Time\""
+   },
+   {
+    "slug": "xx-asr-adabiyotida-psixoanaliz-va-adabiyot-zigmund-freydning",
+    "uz": "XX asr adabiyotida psixoanaliz va adabiyot. Zigmund Freydning adabiy asarlarga taʼsiri",
+    "ru": "Психоанализ и литература XX века. Влияние Зигмунда Фрейда на литературные произведения",
+    "en": "Psychoanalysis and literature in the 20th century. Sigmund Freud's influence on literary works"
    }
   ]
  },

@@ -19,6 +19,7 @@ fixture at production startup so prod never calls Gemini live.
 import argparse
 import json
 import os
+import re
 import sys
 import time
 
@@ -70,7 +71,15 @@ def _parse_json(text: str):
         cleaned = cleaned.split("```")[1]
         if cleaned.startswith("json"):
             cleaned = cleaned[4:]
-    return json.loads(cleaned)
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        # Maths topics come back with LaTeX in them — "\log", "\sqrt", "rac" —
+        # and a lone backslash is not a legal JSON escape, so the whole lesson was
+        # lost to "Invalid \escape". Escape the backslashes that JSON does not
+        # recognise and try once more.
+        repaired = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', cleaned)
+        return json.loads(repaired)
 
 
 def upsert_structure(db, subject_slug: str, subject_def: dict) -> SkillSubject:

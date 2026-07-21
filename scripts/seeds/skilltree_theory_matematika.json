@@ -1189,6 +1189,114 @@
  },
  {
   "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "theory": [
+   {
+    "title": "Hosila nima?",
+    "body": "Hosila – bu funksiya oʻzgarish tezligini oʻlchaydigan raqam. Qisqacha qilib aytganda, funksiya qanchalik tez oʻsishi yoki kamayishini koʻrsatadi. Masalan, mashina tezligi – bu uning yoʻl funksiyasining hosilasi.",
+    "example": "f(x) = x² funksiya uchun hosila f'(x) = 2x. Bu x=3 da funksiya 6 birlik tezlikda oʻsishini anglatadi."
+   },
+   {
+    "title": "Hosilani qanday topamiz?",
+    "body": "Hosilani topish uchun funksiya qoidalaridan foydalanamiz. Eng oddiy qoida: f(x) = xⁿ boʻlsa, f'(x) = n·xⁿ⁻¹. Yaʼni, darajani oldinga koʻchirib, birga koʻpaytiramiz.",
+    "example": "f(x) = 5x³ → f'(x) = 15x². Daraja 3 dan 2 ga tushdi, 5 esa koʻpaytirildi."
+   },
+   {
+    "title": "Hosilaning geometrik ma'nosi",
+    "body": "Hosila – bu funksiya grafigiga chizilgan urinma chiziqning burchak koeffitsienti. Agar hosila musbat boʻlsa, funksiya oʻsadi; manfiy boʻlsa, kamayadi. Nolga teng boʻlsa, funksiya oʻzgarmaydi.",
+    "example": "f(x) = x² da x=1 da hosila 2. Demak, bu nuqtada urinma chiziq 2 burchak koeffitsienti bilan koʻtariladi."
+   },
+   {
+    "title": "Hosila va ekstremumlar",
+    "body": "Agar funksiya biror nuqtada ekstremumga ega boʻlsa (maksimum yoki minimum), bu nuqtada hosila nolga teng boʻladi. Lekin har nol hosila ekstremum degani emas – bu faqat shubhali nuqtalarni topishga yordam beradi.",
+    "example": "f(x) = x³ da x=0 da hosila 0, lekin bu nuqtada ekstremum yoʻq – bu infleksiya nuqtasi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "theory": [
+   {
+    "title": "Hosila nima?",
+    "body": "Hosila – bu funksiyaning oʻzgarish tezligini oʻlchaydigan asbob. Qisqacha qilib aytganda, funksiya qanchalik tez oʻsishi yoki kamayishini koʻrsatadi. Agar hosila musbat boʻlsa, funksiya oʻsadi; manfiy boʻlsa, kamayadi. Uni hisoblash uchun maxsus qoidalardan foydalanamiz.",
+    "example": "Misol: f(x) = x² funksiyasining hosilasi f'(x) = 2x. Bu shuni anglatadiki, x=3 da funksiya 6 birlik tezlikda oʻsadi (chunki f'(3) = 6)."
+   },
+   {
+    "title": "Funksiyaning ekstremumi",
+    "body": "Ekstremum – bu funksiya qiymatining eng katta (maksimum) yoki eng kichik (minimum) nuqtasi. Hosila yordamida bu nuqtalarni topish mumkin: hosila nolga teng boʻlganda, ekstremum boʻlishi mumkin. Lekin har doim ham emas – tekshirish kerak!",
+    "example": "Misol: f(x) = x³ - 3x² funksiyasida f'(x) = 3x² - 6x. f'(x) = 0 dan x=0 va x=2 topiladi. Bu nuqtalarda ekstremum borligini tekshirish kerak."
+   },
+   {
+    "title": "Ekstremumni tekshirish",
+    "body": "Ekstremumni aniqlash uchun hosila ishorasini tekshiramiz. Agar hosila chapdan oʻngga oʻtishda (+) dan (-) ga oʻzgarib ketsa, bu maksimum; (-) dan (+) ga oʻzgarib ketsa, minimum. Agar ishora oʻzgarmasa, ekstremum yoʻq.",
+    "example": "Misol: f(x) = x² - 4x da f'(x) = 2x - 4. x=2 da hosila (+) dan (-) ga oʻtmaydi, balki (-) dan (+) ga oʻtadi. Demak, bu nuqtada minimum bor."
+   },
+   {
+    "title": "Funksiyaning oʻsish/kamayishi",
+    "body": "Hosila ishorasiga qarab, funksiya qayerda oʻsishi yoki kamayishini bilish mumkin. Hosila musbat boʻlgan oraliqda funksiya oʻsadi, manfiy boʻlgan oraliqda kamayadi. Bu grafik chizishda juda yordam beradi!",
+    "example": "Misol: f(x) = -x² + 4x da f'(x) = -2x + 4. f'(x) > 0 boʻlsa, x < 2. Demak, funksiya (-∞, 2) oraliqda oʻsadi, (2, +∞) da kamayadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "theory": [
+   {
+    "title": "Boshlangʻich funksiya nima?",
+    "body": "Boshlangʻich funksiya — bu berilgan funksiyaning „asosi“. Agar sizda funksiya f(x) bor boʻlsa, uning boshlangʻich funksiyasi F(x) deb ataladi, chunki F(x) ning hosilasi yana f(x) ga teng boʻladi. Oddiy qilib aytganda, hosila olingan funksiyani qaytarib olishdir.",
+    "example": "Misol 1: f(x) = 2x boʻlsa, boshlangʻich funksiya F(x) = x², chunki (x²)' = 2x. \nMisol 2: f(x) = cos(x) boʻlsa, F(x) = sin(x), chunki (sin(x))' = cos(x)."
+   },
+   {
+    "title": "Boshlangʻich funksiya qanday topiladi?",
+    "body": "Boshlangʻich funksiya topish uchun hosila olishning teskarisini bajarish kerak. Yaʼni, berilgan funksiyani integrallash kerak. Eng oddiy holatda, xⁿ ning boshlangʻich funksiyasi (xⁿ⁺¹)/(n+1) boʻladi (agar n ≠ -1).",
+    "example": "Misol 1: f(x) = 3x² boʻlsa, boshlangʻich funksiya F(x) = x³, chunki (x³)' = 3x². \nMisol 2: f(x) = 1/x boʻlsa, F(x) = ln|x|, chunki (ln|x|)' = 1/x."
+   },
+   {
+    "title": "Aniqmas integral nima?",
+    "body": "Aniqmas integral — bu boshlangʻich funksiya topishning matematik ifodasi. U ∫f(x)dx kabi yoziladi va „f(x) ning boshlangʻich funksiyasini top“ degan maʼnoni bildiradi. Natijaga doim +C (doimiy son) qoʻshiladi, chunki hosila olinganda doimiy son yoʻqoladi.",
+    "example": "Misol 1: ∫2x dx = x² + C. \nMisol 2: ∫eˣ dx = eˣ + C, chunki (eˣ)' = eˣ."
+   },
+   {
+    "title": "Integralning asosiy xossalari",
+    "body": "Integralni hisoblashda bir necha oddiy qoidalar yordam beradi: 1) Doimiy koeffitsientni integral tashqarisiga chiqarish mumkin (∫k·f(x)dx = k·∫f(x)dx). 2) Yigʻindini integrallash alohida integrallarning yigʻindisiga teng (∫[f(x)+g(x)]dx = ∫f(x)dx + ∫g(x)dx).",
+    "example": "Misol 1: ∫5x³ dx = 5·∫x³ dx = 5·(x⁴/4) + C = (5x⁴)/4 + C. \nMisol 2: ∫(2x + sin(x)) dx = ∫2x dx + ∫sin(x) dx = x² - cos(x) + C."
+   }
+  ]
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "theory": [
+   {
+    "title": "Integral nima?",
+    "body": "Integral — bu mayda qismlarga boʻlingan narsaning umumiy yigʻindisini topish usuli. Masalan, biror shaklning yuzasini hisoblashda uni ingichka chiziqlarga boʻlib, har birining yuzasini qoʻshsak, integralga oʻxshash natija chiqadi. Matematikada bu cheksiz kichik qismlarni yigʻish degani.",
+    "example": "Masalan, toʻgʻri toʻrtburchakning yuzasi asos × balandlik. Agar balandlik oʻzgarib turadigan shakl boʻlsa (masalan, trapesiyaning bir tomoni qiyshiq), integral yordamida uning yuzasini topamiz."
+   },
+   {
+    "title": "Aniq integral chegaralari",
+    "body": "Aniq integral — bu ikki chegara (a va b) orasidagi funksiyaning yigʻindisi. Pastki chegara (a) boshlangʻich nuqta, yuqori chegara (b) esa oxirgi nuqta. Integral belgisi ∫ ning pastida a, ustida b yoziladi: ∫[a→b] f(x) dx.",
+    "example": "Masalan, ∫[0→2] x² dx — bu 0 dan 2 gacha x² funksiyasining yigʻindisi. Natija bu oraliqdagi yuzani beradi."
+   },
+   {
+    "title": "Integralni hisoblash formulasi",
+    "body": "Aniq integralni hisoblash uchun funksiyaning antiderivativini (F(x)) topib, chegaralar farqini olish kerak: ∫[a→b] f(x) dx = F(b) − F(a). Bu Nyuton-Leybnits formulasidir. Antiderivativ — bu hosilasi berilgan funksiyaga teng boʻlgan funksiya.",
+    "example": "∫[1→3] 2x dx = x² |[1→3] = 3² − 1² = 9 − 1 = 8. Demak, 1 dan 3 gacha 2x funksiyasining yigʻindisi 8 ga teng."
+   },
+   {
+    "title": "Yuzani integral bilan topish",
+    "body": "Agar sizga ikkita funksiya orasidagi yuza kerak boʻlsa, katta funksiyadan kichik funksiyani ayirib, integralini oling. Masalan, y = f(x) va y = g(x) orasidagi yuza: ∫[a→b] (f(x) − g(x)) dx. Chegaralar (a va b) funksiyalarning kesishish nuqtalari boʻladi.",
+    "example": "y = x² va y = x orasidagi yuza (0 dan 1 gacha): ∫[0→1] (x − x²) dx = (x²/2 − x³/3) |[0→1] = 1/2 − 1/3 = 1/6."
+   }
+  ]
+ },
+ {
+  "subject_slug": "matematika",
   "unit_slug": "geometriya-planimetriya",
   "lesson_slug": "uchburchaklar",
   "theory": [

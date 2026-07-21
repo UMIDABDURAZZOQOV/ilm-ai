@@ -5085,6 +5085,176 @@
  {
   "subject_slug": "matematika",
   "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "$\\log_2{16}$ ifodasi qanday qiymatga teng?",
+  "options": [
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "correct_answer": "4",
+  "explanation": "$\\log_2{16} = 4$, chunki $2^4 = 16$. Logarifm asosini darajaga ko'tarish orqali natijani topamiz.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "$\\log_5{x} = 3$ tenglamaning yechimi nima?",
+  "options": [
+   "15",
+   "25",
+   "125",
+   "625"
+  ],
+  "correct_answer": "125",
+  "explanation": "$\\log_5{x} = 3$ tenglamasini $x = 5^3$ ko'rinishiga keltiramiz, ya'ni $x = 125$.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "$\\log_3{27}$ ifodasi qanday qiymatga teng?",
+  "options": [
+   "2",
+   "3",
+   "9",
+   "27"
+  ],
+  "correct_answer": "3",
+  "explanation": "$\\log_3{27} = 3$, chunki $3^3 = 27$. Logarifm asosini darajaga ko'tarish orqali natijani topamiz.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "$\\log_4{(x-1)} = 2$ tenglamaning yechimi nima?",
+  "options": [
+   "5",
+   "9",
+   "15",
+   "17"
+  ],
+  "correct_answer": "17",
+  "explanation": "$\\log_4{(x-1)} = 2$ tenglamasini $x-1 = 4^2$ ko'rinishiga keltiramiz, ya'ni $x-1 = 16$ va $x = 17$.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "$\\log_{10}{x} = -2$ tenglamaning yechimi nima?",
+  "options": [
+   "0.01",
+   "0.1",
+   "1",
+   "10"
+  ],
+  "correct_answer": "0.01",
+  "explanation": "$\\log_{10}{x} = -2$ tenglamasini $x = 10^{-2}$ ko'rinishiga keltiramiz, ya'ni $x = 0.01$.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "$\\log_2{(3x + 1)} = 4$ tenglamaning yechimi nima?",
+  "options": [
+   "3",
+   "5",
+   "7",
+   "9"
+  ],
+  "correct_answer": "5",
+  "explanation": "$\\log_2{(3x + 1)} = 4$ tenglamasini $3x + 1 = 2^4$ ko'rinishiga keltiramiz, ya'ni $3x + 1 = 16$ va $x = 5$.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "$\\log_6{(x + 2)} = \\log_6{20}$ tenglamaning yechimi nima?",
+  "options": [
+   "10",
+   "18",
+   "20",
+   "22"
+  ],
+  "correct_answer": "18",
+  "explanation": "Logarifmlar asoslari bir xil bo'lgani uchun, $x + 2 = 20$ bo'lishi kerak, ya'ni $x = 18$.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "$\\log_3{(x^2 - 4)} = 2$ tenglamaning yechimlari qaysi javobda to'g'ri ko'rsatilgan?",
+  "options": [
+   "x = 5 yoki x = -5",
+   "x = 3 yoki x = -3",
+   "x = 4 yoki x = -4",
+   "x = 2 yoki x = -2"
+  ],
+  "correct_answer": "x = 5 yoki x = -5",
+  "explanation": "$\\log_3{(x^2 - 4)} = 2$ tenglamasini $x^2 - 4 = 3^2$ ko'rinishiga keltiramiz, ya'ni $x^2 - 4 = 9$ va $x^2 = 13$. Shuning uchun $x = \\sqrt{13} = 5$ yoki $x = -\\sqrt{13} = -5$ (taxminan).",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "$\\log_{0.5}{(x + 1)} = -3$ tenglamaning yechimi nima?",
+  "options": [
+   "3",
+   "7",
+   "8",
+   "9"
+  ],
+  "correct_answer": "7",
+  "explanation": "$\\log_{0.5}{(x + 1)} = -3$ tenglamasini $x + 1 = (0.5)^{-3}$ ko'rinishiga keltiramiz, ya'ni $x + 1 = 8$ va $x = 7$.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
+  "lesson_slug": "logarifmik-tenglamalar",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "$\\log_2{(x - 3)} + \\log_2{(x + 3)} = 4$ tenglamaning yechimi nima? (Eslatma: Logarifmlarni birlashtirish mumkin emas, lekin asoslari bir xil.)",
+  "options": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "correct_answer": "5",
+  "explanation": "$\\log_2{(x - 3)(x + 3)} = 4$ ko'rinishiga keltiramiz, ya'ni $(x - 3)(x + 3) = 2^4$ va $x^2 - 9 = 16$. Shuning uchun $x^2 = 25$ va $x = 5$ (faqat musbat yechim qabul qilinadi, chunki $x - 3 > 0$).",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tenglamalar",
   "lesson_slug": "trigonometrik-tenglamalar",
   "order_index": 0,
   "language": "uz",
@@ -7291,6 +7461,686 @@
   "correct_answer": "5",
   "explanation": "Teskari funksiya funksiyaning bajargan ishini bekor qiladi, shuning uchun f⁻¹(f(x)) har doim x ga teng bo'ladi.",
   "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Funksiya hosilasi nima haqida maʼlumot beradi?",
+  "options": [
+   "Funksiyaning qiymati haqida",
+   "Funksiyaning oʻzgarish tezligi haqida",
+   "Funksiyaning aniq qiymati haqida",
+   "Funksiyaning grafigi haqida"
+  ],
+  "correct_answer": "Funksiyaning oʻzgarish tezligi haqida",
+  "explanation": "Hosila funksiya oʻzgarish tezligini oʻlchaydi, yaʼni funksiya qanchalik tez oʻsishi yoki kamayishini koʻrsatadi (KARTOCHKA 1).",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "f(x) = 3x⁴ funksiyasining hosilasini toping.",
+  "options": [
+   "f'(x) = 12x³",
+   "f'(x) = 3x³",
+   "f'(x) = 7x³",
+   "f'(x) = 12x⁴"
+  ],
+  "correct_answer": "f'(x) = 12x³",
+  "explanation": "Darajani oldinga koʻchirib, birga koʻpaytiramiz: 4 * 3x⁴⁻¹ = 12x³ (KARTOCHKA 2).",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "f(x) = 2x² + 5x funksiyasining x=1 dagi hosilasi nechaga teng?",
+  "options": [
+   "7",
+   "9",
+   "5",
+   "2"
+  ],
+  "correct_answer": "9",
+  "explanation": "f'(x) = 4x + 5. x=1 da: 4*1 + 5 = 9 (KARTOCHKA 2).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "Funksiya grafigiga chizilgan urinma chiziqning burchak koeffitsienti nima bilan ifodalanadi?",
+  "options": [
+   "Funksiyaning qiymati bilan",
+   "Funksiyaning hosilasi bilan",
+   "Funksiyaning ekstremumi bilan",
+   "Funksiyaning infleksiya nuqtasi bilan"
+  ],
+  "correct_answer": "Funksiyaning hosilasi bilan",
+  "explanation": "Hosila funksiya grafigiga chizilgan urinma chiziqning burchak koeffitsientini ifodalaydi (KARTOCHKA 3).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "f(x) = x³ funksiyasining x=2 dagi hosilasi nechaga teng?",
+  "options": [
+   "6",
+   "12",
+   "3",
+   "8"
+  ],
+  "correct_answer": "12",
+  "explanation": "f'(x) = 3x². x=2 da: 3*4 = 12 (KARTOCHKA 2).",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "Agar funksiya biror nuqtada ekstremumga ega boʻlsa, bu nuqtada hosila qanday boʻladi?",
+  "options": [
+   "Musbat",
+   "Manfiy",
+   "Nolga teng",
+   "Cheksiz katta"
+  ],
+  "correct_answer": "Nolga teng",
+  "explanation": "Ekstremum nuqtasida hosila nolga teng boʻladi, lekin har nol hosila ekstremum degani emas (KARTOCHKA 4).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "f(x) = 4x³ - 6x² + 2x - 1 funksiyasining hosilasi nolga teng boʻlgan nuqtalarni toping.",
+  "options": [
+   "x = 0 va x = 1/2",
+   "x = 0 va x = 1",
+   "x = 1/3 va x = 1/2",
+   "x = 1/2 va x = 1"
+  ],
+  "correct_answer": "x = 1/3 va x = 1/2",
+  "explanation": "f'(x) = 12x² - 12x + 2. Tenglama 12x² - 12x + 2 = 0 ni yechamiz: x = [12 ± √(144 - 96)] / 24 = [12 ± √48] / 24 = [12 ± 4√3] / 24 = (3 ± √3)/6 ≈ 1/3 va 1/2 (KARTOCHKA 2 va 4).",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "f(x) = -x² + 4x funksiyasining x=1 dagi hosilasi nechaga teng va bu funksiya bu nuqtada qanday oʻzgaradi?",
+  "options": [
+   "2, oʻsadi",
+   "-2, kamayadi",
+   "2, kamayadi",
+   "-2, oʻsadi"
+  ],
+  "correct_answer": "2, oʻsadi",
+  "explanation": "f'(x) = -2x + 4. x=1 da: -2*1 + 4 = 2. Hosila musbat, demak funksiya oʻsadi (KARTOCHKA 2 va 3).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "f(x) = x⁴ - 4x³ funksiyasining ekstremum nuqtalarini topishda hosiladan qanday foydalanamiz?",
+  "options": [
+   "Hosilani nolga tenglab, yechimlarni topamiz",
+   "Hosilani musbat qilib, yechimlarni topamiz",
+   "Hosilani manfiy qilib, yechimlarni topamiz",
+   "Hosilani cheksiz katta qilib, yechimlarni topamiz"
+  ],
+  "correct_answer": "Hosilani nolga tenglab, yechimlarni topamiz",
+  "explanation": "Ekstremum nuqtalarini topish uchun hosilani nolga tenglab, yechimlarni topamiz (KARTOCHKA 4).",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-tushunchasi",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "f(x) = 7 funksiyasining hosilasi nechaga teng?",
+  "options": [
+   "7",
+   "0",
+   "1",
+   "Cheksiz"
+  ],
+  "correct_answer": "0",
+  "explanation": "Doimiy funksiya hosilasi nolga teng, chunki u oʻzgarish tezligi nol (KARTOCHKA 2).",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "f(x) = 3x² - 12x funksiyasining hosilasi nima?",
+  "options": [
+   "f'(x) = 6x - 12",
+   "f'(x) = 3x - 12",
+   "f'(x) = 6x + 12",
+   "f'(x) = 3x + 12"
+  ],
+  "correct_answer": "f'(x) = 6x - 12",
+  "explanation": "Hosila hisoblash qoidasiga koʻra, x² ning hosilasi 2x, shuning uchun 3x² ning hosilasi 6x boʻladi. Doimiy son (-12) ning hosilasi 0, x ning hosilasi 1, shuning uchun -12x ning hosilasi -12. Natijada f'(x) = 6x - 12.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "f(x) = x³ - 5x funksiyasining hosilasi f'(x) = 3x² - 5. x=1 da funksiya qanday oʻzgaradi?",
+  "options": [
+   "O'sadi",
+   "Kamayadi",
+   "O'zgarmaydi",
+   "Ekstremumga ega"
+  ],
+  "correct_answer": "Kamayadi",
+  "explanation": "f'(1) = 3(1)² - 5 = 3 - 5 = -2. Hosila manfiy boʻlgani uchun funksiya kamayadi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "f(x) = x⁴ - 4x³ funksiyasining ekstremum nuqtalari qayerda boʻlishi mumkin?",
+  "options": [
+   "x=0 va x=3",
+   "x=0 va x=4",
+   "x=0 va x=2",
+   "x=1 va x=3"
+  ],
+  "correct_answer": "x=0 va x=3",
+  "explanation": "f'(x) = 4x³ - 12x². f'(x) = 0 dan 4x³ - 12x² = 0 → 4x²(x - 3) = 0 → x=0 yoki x=3. Ekstremum boʻlishi mumkin boʻlgan nuqtalar shular.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "f(x) = -2x² + 8x funksiyasining hosilasi f'(x) = -4x + 8. Funksiya qaysi oraliqda oʻsadi?",
+  "options": [
+   "(2, +∞)",
+   "(-∞, 2)",
+   "(-∞, 0)",
+   "(0, +∞)"
+  ],
+  "correct_answer": "(-∞, 2)",
+  "explanation": "f'(x) > 0 → -4x + 8 > 0 → -4x > -8 → x < 2. Demak, funksiya (-∞, 2) oraliqda oʻsadi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "f(x) = x³ - 3x² funksiyasining hosilasi f'(x) = 3x² - 6x. x=2 nuqtasida qanday ekstremum mavjud?",
+  "options": [
+   "Maksimum",
+   "Minimum",
+   "Ekstremum yoʻq",
+   "Aniqlab boʻlmaydi"
+  ],
+  "correct_answer": "Minimum",
+  "explanation": "f'(x) = 3x² - 6x = 0 → x=0 va x=2. x=2 da hosila (-) dan (+) ga oʻtadi, demak minimum mavjud.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "f(x) = x⁴ - 8x² funksiyasining hosilasi f'(x) = 4x³ - 16x. Funksiya qaysi oraliqda kamayadi?",
+  "options": [
+   "(-2, 0) va (2, +∞)",
+   "(0, 2)",
+   "(-∞, -2) va (0, 2)",
+   "(-2, 0)"
+  ],
+  "correct_answer": "(-∞, -2) va (0, 2)",
+  "explanation": "f'(x) < 0 → 4x³ - 16x < 0 → 4x(x² - 4) < 0. Bu tengsizlik (-∞, -2) va (0, 2) oraliqlarda bajariladi, demak funksiya shu oraliqlarda kamayadi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "f(x) = x³ - 6x² + 9x funksiyasining hosilasi f'(x) = 3x² - 12x + 9. x=1 nuqtasida qanday ekstremum mavjud?",
+  "options": [
+   "Maksimum",
+   "Minimum",
+   "Ekstremum yoʻq",
+   "Aniqlab boʻlmaydi"
+  ],
+  "correct_answer": "Maksimum",
+  "explanation": "f'(x) = 0 → x=1 va x=3. x=1 da hosila (+) dan (-) ga oʻtadi, demak bu nuqtada maksimum mavjud.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "f(x) = 5x - 3 funksiyasining hosilasi nima?",
+  "options": [
+   "f'(x) = 5",
+   "f'(x) = 0",
+   "f'(x) = -3",
+   "f'(x) = 5x"
+  ],
+  "correct_answer": "f'(x) = 5",
+  "explanation": "Doimiy son (-3) ning hosilasi 0, x ning hosilasi 1, shuning uchun 5x ning hosilasi 5 boʻladi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "f(x) = x² - 6x + 8 funksiyasining hosilasi f'(x) = 2x - 6. Funksiya qaysi nuqtada ekstremumga ega?",
+  "options": [
+   "x=3",
+   "x=2",
+   "x=4",
+   "x=1"
+  ],
+  "correct_answer": "x=3",
+  "explanation": "f'(x) = 0 → 2x - 6 = 0 → x=3. Bu nuqtada ekstremum boʻlishi mumkin.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "hosila-qollanilishi",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "f(x) = x⁵ - 5x³ funksiyasining hosilasi f'(x) = 5x⁴ - 15x². Funksiya qaysi oraliqda oʻsadi?",
+  "options": [
+   "(-∞, -√3) va (√3, +∞)",
+   "(-√3, 0) va (√3, +∞)",
+   "(-∞, -√3) va (0, √3)",
+   "(-√3, √3)"
+  ],
+  "correct_answer": "(-∞, -√3) va (√3, +∞)",
+  "explanation": "f'(x) > 0 → 5x⁴ - 15x² > 0 → 5x²(x² - 3) > 0. Bu tengsizlik (-∞, -√3) va (√3, +∞) oraliqlarda bajariladi, demak funksiya shu oraliqlarda oʻsadi.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "f(x) = 4x³ funksiyasining boshlangʻich funksiyasi qaysi?",
+  "options": [
+   "x⁴ + C",
+   "x³ + C",
+   "4x⁴ + C",
+   "x⁴/4 + C"
+  ],
+  "correct_answer": "x⁴ + C",
+  "explanation": "Boshlangʻich funksiya topish uchun hosila olishning teskarisini bajarish kerak. xⁿ ning boshlangʻich funksiyasi (xⁿ⁺¹)/(n+1) boʻladi. Demak, 4x³ uchun (4x⁴)/4 = x⁴ + C.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "∫3x² dx integralining qiymati qaysi?",
+  "options": [
+   "x³ + C",
+   "3x³ + C",
+   "x² + C",
+   "6x + C"
+  ],
+  "correct_answer": "x³ + C",
+  "explanation": "Doimiy koeffitsientni integral tashqarisiga chiqarish mumkin: ∫3x² dx = 3·∫x² dx = 3·(x³/3) + C = x³ + C.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "f(x) = sin(x) + 2x funksiyasining boshlangʻich funksiyasi qaysi?",
+  "options": [
+   "cos(x) + x² + C",
+   "-cos(x) + x² + C",
+   "cos(x) + 2x² + C",
+   "-cos(x) + 2x + C"
+  ],
+  "correct_answer": "-cos(x) + x² + C",
+  "explanation": "sin(x) ning boshlangʻich funksiyasi -cos(x), 2x ning boshlangʻich funksiyasi esa x². Yigʻindini integrallash alohida integrallarning yigʻindisiga teng.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "∫(5x⁴ - 3x²) dx integralining qiymati qaysi?",
+  "options": [
+   "x⁵ - x³ + C",
+   "5x⁵ - 3x³ + C",
+   "x⁵ - x² + C",
+   "x⁵/5 - x³ + C"
+  ],
+  "correct_answer": "x⁵ - x³ + C",
+  "explanation": "Har bir hadni alohida integrallash kerak: ∫5x⁴ dx = x⁵, ∫3x² dx = x³. Natijaga doimiy son C qoʻshiladi.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "f(x) = eˣ funksiyasining boshlangʻich funksiyasi qaysi?",
+  "options": [
+   "eˣ + C",
+   "ln(x) + C",
+   "x·eˣ + C",
+   "eˣ/2 + C"
+  ],
+  "correct_answer": "eˣ + C",
+  "explanation": "eˣ ning hosilasi yana eˣ ga teng, shuning uchun uning boshlangʻich funksiyasi ham eˣ + C boʻladi.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "∫(4/x) dx integralining qiymati qaysi?",
+  "options": [
+   "4ln|x| + C",
+   "ln|4x| + C",
+   "4x + C",
+   "x/4 + C"
+  ],
+  "correct_answer": "4ln|x| + C",
+  "explanation": "1/x ning boshlangʻich funksiyasi ln|x|. Doimiy koeffitsientni integral tashqarisiga chiqarish mumkin: ∫4/x dx = 4·∫1/x dx = 4ln|x| + C.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "f(x) = 6x² - 2x + 5 funksiyasining boshlangʻich funksiyasi F(x) = 2x³ - x² + 5x + C boʻlsa, C ning qiymati nima, agar F(1) = 10?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "correct_answer": "4",
+  "explanation": "F(1) = 2(1)³ - (1)² + 5(1) + C = 2 - 1 + 5 + C = 6 + C = 10. Demak, C = 4.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "∫(3x² + 2cos(x)) dx integralining qiymati qaysi?",
+  "options": [
+   "x³ + 2sin(x) + C",
+   "x³ - 2sin(x) + C",
+   "3x³ + 2sin(x) + C",
+   "x³ + 2cos(x) + C"
+  ],
+  "correct_answer": "x³ + 2sin(x) + C",
+  "explanation": "3x² ning boshlangʻich funksiyasi x³, 2cos(x) ning boshlangʻich funksiyasi 2sin(x). Yigʻindini integrallash alohida integrallarning yigʻindisiga teng.",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "f(x) = 7 funksiyasining boshlangʻich funksiyasi qaysi?",
+  "options": [
+   "7x + C",
+   "x⁷ + C",
+   "7 + C",
+   "x + C"
+  ],
+  "correct_answer": "7x + C",
+  "explanation": "Doimiy funksiya 7 ning boshlangʻich funksiyasi 7x boʻladi, chunki (7x)' = 7.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "boshlangich-funksiya",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "∫(2x³ - 5/x) dx integralining qiymati qaysi?",
+  "options": [
+   "x⁴/2 - 5ln|x| + C",
+   "2x⁴ - 5ln|x| + C",
+   "x⁴ - 5ln|x| + C",
+   "x⁴/2 - 5x + C"
+  ],
+  "correct_answer": "x⁴/2 - 5ln|x| + C",
+  "explanation": "2x³ ning boshlangʻich funksiyasi x⁴/2, 5/x ning boshlangʻich funksiyasi esa 5ln|x|. Har bir hadni alohida integrallash kerak.",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 0,
+  "language": "uz",
+  "question_text": "Aniq integral belgisi ∫[a→b] f(x) dx da a va b nima deb ataladi?",
+  "options": [
+   "a — yuqori chegara, b — pastki chegara",
+   "a — pastki chegara, b — yuqori chegara",
+   "a va b — funksiyaning qiymatlari",
+   "a va b — funksiyaning hosilalari"
+  ],
+  "correct_answer": "a — pastki chegara, b — yuqori chegara",
+  "explanation": "Aniq integralda a boshlangʻich (pastki) chegara, b esa oxirgi (yuqori) chegara deb ataladi. Bu Kartochka 2 da aytilgan.",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 1,
+  "language": "uz",
+  "question_text": "∫[2→5] 3x² dx integralini hisoblash uchun qaysi formula ishlatiladi?",
+  "options": [
+   "F(b) + F(a)",
+   "F(b) − F(a)",
+   "F(a) − F(b)",
+   "F(b) × F(a)"
+  ],
+  "correct_answer": "F(b) − F(a)",
+  "explanation": "Nyuton-Leybnits formulasiga koʻra, aniq integralni hisoblash uchun antiderivativning yuqori chegara qiymatidan pastki chegara qiymati ayiriladi (Kartochka 3).",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 2,
+  "language": "uz",
+  "question_text": "y = 4 va y = x² funksiyalari orasidagi yuza 0 dan 2 gacha qanday ifodalanadi?",
+  "options": [
+   "∫[0→2] (4 − x²) dx",
+   "∫[0→2] (x² − 4) dx",
+   "∫[0→2] (4 + x²) dx",
+   "∫[0→2] (4x − x²) dx"
+  ],
+  "correct_answer": "∫[0→2] (4 − x²) dx",
+  "explanation": "Katta funksiyadan kichik funksiyani ayirish kerak. Bu yerda 4 > x² (0 dan 2 gacha), shuning uchun integral (4 − x²) boʻladi (Kartochka 4).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 3,
+  "language": "uz",
+  "question_text": "∫[1→4] 5 dx integralining qiymati nechaga teng?",
+  "options": [
+   "5",
+   "10",
+   "15",
+   "20"
+  ],
+  "correct_answer": "15",
+  "explanation": "Doimiy funksiyaning integrali (5) chegaralar farqiga koʻpaytiriladi: 5 × (4 − 1) = 15. Bu Nyuton-Leybnits formulasining oddiy holati (Kartochka 3).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 4,
+  "language": "uz",
+  "question_text": "Integral yordamida nima hisoblash mumkin?",
+  "options": [
+   "Faqat uzunlik",
+   "Faqat hajm",
+   "Yuzalar va umumiy yigʻindilar",
+   "Faqat burchaklar"
+  ],
+  "correct_answer": "Yuzalar va umumiy yigʻindilar",
+  "explanation": "Integral mayda qismlarga boʻlingan narsaning umumiy yigʻindisini, masalan, yuzalarni hisoblash uchun ishlatiladi (Kartochka 1).",
+  "difficulty": "easy"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 5,
+  "language": "uz",
+  "question_text": "y = x va y = √x funksiyalari orasidagi yuza 0 dan 1 gacha qanday ifodalanadi?",
+  "options": [
+   "∫[0→1] (x − √x) dx",
+   "∫[0→1] (√x − x) dx",
+   "∫[0→1] (x + √x) dx",
+   "∫[0→1] (x × √x) dx"
+  ],
+  "correct_answer": "∫[0→1] (√x − x) dx",
+  "explanation": "0 dan 1 gacha √x > x, shuning uchun katta funksiyadan kichik funksiyani ayirish kerak: (√x − x) (Kartochka 4).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 6,
+  "language": "uz",
+  "question_text": "∫[0→π] sin x dx integralining qiymati nechaga teng?",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "π"
+  ],
+  "correct_answer": "2",
+  "explanation": "sin x funksiyasining antiderivativi −cos x. Nyuton-Leybnits formulasiga koʻra: −cos π − (−cos 0) = −(−1) − (−1) = 1 + 1 = 2 (Kartochka 3).",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 7,
+  "language": "uz",
+  "question_text": "y = x² va y = 2x funksiyalari orasidagi yuza 0 dan 2 gacha qanday ifodalanadi?",
+  "options": [
+   "∫[0→2] (x² − 2x) dx",
+   "∫[0→2] (2x − x²) dx",
+   "∫[0→1] (2x − x²) dx + ∫[1→2] (x² − 2x) dx",
+   "∫[0→2] (x² + 2x) dx"
+  ],
+  "correct_answer": "∫[0→1] (2x − x²) dx + ∫[1→2] (x² − 2x) dx",
+  "explanation": "Funksiyalar 0 dan 1 gacha 2x > x², 1 dan 2 gacha x² > 2x. Shuning uchun ikki integralni alohida hisoblash kerak (Kartochka 4).",
+  "difficulty": "hard"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 8,
+  "language": "uz",
+  "question_text": "∫[−1→1] x³ dx integralining qiymati nechaga teng?",
+  "options": [
+   "−1",
+   "0",
+   "1",
+   "2"
+  ],
+  "correct_answer": "0",
+  "explanation": "x³ funksiyasi toq funksiya boʻlib, simmetrik chegaralarda (−a dan a gacha) integrali 0 ga teng. Antiderivativ x⁴/4, chegaralar farqi: (1/4) − (1/4) = 0 (Kartochka 3).",
+  "difficulty": "medium"
+ },
+ {
+  "subject_slug": "matematika",
+  "unit_slug": "tengsizliklar-funksiyalar",
+  "lesson_slug": "aniq-integral",
+  "order_index": 9,
+  "language": "uz",
+  "question_text": "Aniq integralni hisoblashda qaysi formula ishlatiladi?",
+  "options": [
+   "F(a) + F(b)",
+   "F(b) − F(a)",
+   "F(a) × F(b)",
+   "F(b) / F(a)"
+  ],
+  "correct_answer": "F(b) − F(a)",
+  "explanation": "Nyuton-Leybnits formulasiga koʻra, aniq integral antiderivativning yuqori chegara qiymatidan pastki chegara qiymati ayiriladi (Kartochka 3).",
+  "difficulty": "easy"
  },
  {
   "subject_slug": "matematika",
