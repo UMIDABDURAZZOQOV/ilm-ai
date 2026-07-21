@@ -1,6 +1,19 @@
 """
 One text-generation call, whichever provider is configured.
 
+⚠️ OFFLINE CONTENT SEEDING ONLY — DO NOT WIRE THIS INTO A REQUEST PATH.
+
+The seeding key may be on a data-sharing plan (OpenAI grants free daily tokens in
+exchange for training on everything sent through it), and that is only acceptable
+because these prompts carry no user data at all: a prompt here is "Fan: Matematika,
+Bo'lim: Trigonometriya, Mavzu: Sinus teoremasi — write teaching cards", built from the
+hand-authored syllabus in skilltree_taxonomy.py.
+
+Runtime features handle real student work — the AI assistant, chat, IELTS Writing
+grading — and those go through `services/gemini.py` on a separate key. Routing any of
+them here would send a learner's own essay to be trained on. If that ever becomes
+desirable, the data-sharing plan has to be turned off first.
+
 The content seeders were written against Gemini's client directly, which was fine
 until the free tier's daily cap started pacing the work. This lets an OpenAI key (or
 any OpenAI-compatible endpoint — DeepSeek, Groq, a local server) carry the batch
