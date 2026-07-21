@@ -371,20 +371,25 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 ### ▶ PICK UP HERE (state at end of 2026-07-21) — read this first after a context reset
 
-**OPEN TASK: finish generating the skill-tree content.** Everything below is deployed and verified
-live — `GET https://ilm-ai-backend-256x.onrender.com/skills/subjects` reports the real state and is
-the fastest way to check it after a reset. At the last deploy (commit `37bc21b`): **607 of 814
-lessons answerable**, complete are `ona_tili` 77/77 and `ingliz_tili` 66/66; still short are
-`ozbek_adabiyoti` 20/66, `jahon_adabiyoti` 18/66, `koreys_tili` 14/55, `fransuz_tili` 13/55,
-`tarix` 57/77, plus the placement bank (321 of ~1700).
+**Skill-tree content is essentially finished: 811 of 814 lessons answerable in production,
+12162 questions** (it was 253 lessons / 2526 this morning). Complete: ona_tili, ingliz_tili,
+kimyo, fizika, jahon_tarixi, tarix, ozbek_adabiyoti, jahon_adabiyoti, koreys_tili, fransuz_tili.
+Short by a lesson or two: matematika 76/77, biologiya 64/66. Placement bank is 402 of ~1700, so
+subjects beyond ona_tili/ingliz_tili still answer 404 for the level test.
 
-The loop each time quota resets:
+`GET https://ilm-ai-backend-256x.onrender.com/skills/subjects` reports the live state with no
+auth — check it before quoting any number. To top up:
 
 ```
 bash scripts/fill_content.sh              # resumes; exits 3 when every key is dry
 python scripts/dump_skilltree_fixtures.py # prod seeds from fixtures, NOT from the DB
 git add scripts/seeds && git commit && git push   # Render auto-deploys
 ```
+
+**Never edit a script a background job is executing.** The generation loop was running from a
+copy in /tmp and that file was rewritten underneath it; bash reads a script incrementally, so it
+hit a syntax error mid-run and the batch died silently. That is why the runner lives in the repo
+as `scripts/fill_content.sh`.
 
 **Read "Syllabus depth and the placement test" below before answering any question about how much
 content the app has.** The owner was, in their words, misled about this — CLAUDE.md recorded
