@@ -327,10 +327,11 @@ def join_wrapped_gaps(lines: list[str]) -> list[str]:
     for line in lines:
         prev = out[-1] if out else ""
         wraps_leader = re.search(r"\b\d{1,2}\s*$", prev) and re.match(r"^[.·…]{4,}", line)
-        # Re-flow the summary paragraph: a lower-case line continues the one above,
-        # whereas a capitalised one starts the next bullet or sub-heading. Both halves
-        # matter — the gap can fall on either side of the wrap.
-        runs_on = ((line[:1].islower() or GAP.match(line)) and prev[:1] != "•"
+        # Re-flow the paragraph: a lower-case line continues the one above, whereas a
+        # capitalised one starts the next sub-heading and a bulleted one starts the next
+        # note — both are excluded by the lower-case test, since a bullet line begins
+        # with "•". The gap can fall on either side of the wrap, hence GAP.match too.
+        runs_on = ((line[:1].islower() or GAP.match(line))
                    and not prev.rstrip().endswith((".", ":", "?")))
         if prev and (wraps_leader or runs_on):
             out[-1] = f"{prev} {line}"
