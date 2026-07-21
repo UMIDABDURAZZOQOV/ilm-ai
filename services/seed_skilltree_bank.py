@@ -97,15 +97,27 @@ def _upsert_structure_only(db, subject_slug: str, subject_def: dict) -> SkillSub
 
 
 def seed_skilltree_if_empty() -> None:
-    """Bulk-load subjects/units/lessons + fixture questions when the skill
-    tree is empty. Best-effort -- never blocks startup on failure."""
+    """Sync the skill tree with the committed fixtures. Best-effort -- never blocks
+    startup on failure.
+
+    This used to bail out whenever the tree already had any subject, which meant a
+    deepened syllabus could never reach a database that had been seeded once: the
+    expansion from 253 to 814 lessons would have stayed invisible in production
+    forever. It is incremental instead.
+
+    Everything it does is additive and keyed by slug, so it is safe to run on every
+    boot: `_upsert_structure_only` only creates units/lessons whose slug is missing
+    (never touching an existing one, which UserLessonProgress rows point at), and
+    questions and theory cards are only attached to lessons that have none.
+    """
     db = SessionLocal()
     try:
-        existing = db.query(SkillSubject).count()
-        if existing > 0:
-            return
-
         lesson_by_key: dict[tuple, int] = {}
+        # Lessons that already carry questions must not get a second copy on the
+        # next boot.
+        already_has_questions = {
+            row[0] for row in db.query(SkillQuestion.lesson_id).distinct()
+        }
 
         for subject_slug, subject_def in SKILLTREE_OUTLINE.items():
             subject = _upsert_structure_only(db, subject_slug, subject_def)
@@ -125,7 +137,7 @@ def seed_skilltree_if_empty() -> None:
             for r in rows:
                 key = (r.get("subject_slug"), r.get("unit_slug"), r.get("lesson_slug"))
                 lesson_id = lesson_by_key.get(key)
-                if not lesson_id:
+                if not lesson_id or lesson_id in already_has_questions:
                     continue
                 mappings.append({
                     "lesson_id": lesson_id,

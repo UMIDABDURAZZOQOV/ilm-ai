@@ -25,6 +25,10 @@ seed_question_bank_if_empty()
 from services.seed_skilltree_bank import seed_skilltree_if_empty
 seed_skilltree_if_empty()
 
+# Seed the calibrated placement bank (CEFR for languages, 1-5 for the rest).
+from services.seed_placement_bank import seed_placement_if_needed
+seed_placement_if_needed()
+
 # Seed Cambridge IELTS 21 Academic (4 full tests: 320 questions + answer keys).
 from services.seed_ielts21 import seed_ielts21_if_needed
 seed_ielts21_if_needed()
