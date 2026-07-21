@@ -561,6 +561,23 @@ def rebuild_paragraphs(body: list[str]) -> list[str]:
 
 PART_RE = re.compile(r"^PART\s*(\d)\s*(?:Questions?\s*(\d{1,2})\s*[-–]\s*(\d{1,2}))?", re.I)
 
+# The recordings live in the frontend's public/ dir, which only exists on a dev machine —
+# so the file list is resolved here, at parse time, and baked into the fixture. The
+# seeder then works unchanged on Render, where those files are not present.
+AUDIO_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                         "..", "ilm-ai-frontend", "public", "audio", "listening")
+
+
+def audio_urls(test_no: int, part: int) -> list[str]:
+    """Ordered URLs for a part; nine of the sixteen were ripped as two files."""
+    stem = f"C21T{test_no}P{part}"
+    try:
+        names = sorted(n for n in os.listdir(AUDIO_DIR)
+                       if n.endswith(".mp3") and n[:-len(".mp3")].split(".")[0] == stem)
+    except FileNotFoundError:
+        return []
+    return [f"/audio/listening/{n}" for n in names]
+
 
 def parse_listening(lines: list[str], test_no: int, answers: dict[int, str],
                     transcripts: dict[int, str]) -> list[dict]:
@@ -588,7 +605,7 @@ def parse_listening(lines: list[str], test_no: int, answers: dict[int, str],
             "test": test_no,
             "section": part,
             "title": title,
-            "audio_url": f"/audio/listening/C21T{test_no}P{part}.mp3",
+            "audio_parts": audio_urls(test_no, part),
             "transcript": transcripts.get(part, ""),
             "questions": questions,
         })

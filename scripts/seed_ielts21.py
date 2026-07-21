@@ -20,21 +20,7 @@ from services.models import (                               # noqa: E402
 )
 
 SEED_PATH = os.path.join(os.path.dirname(__file__), "seeds", "ielts21.json")
-AUDIO_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                         "..", "ilm-ai-frontend", "public", "audio", "listening")
 PREFIX = "Cambridge 21 Test"
-
-
-def audio_urls(test_no: int, part: int) -> list[str]:
-    """Some parts were ripped as two files (C21T1P1.1.mp3 / .2.mp3); keep both, in order."""
-    stem = f"C21T{test_no}P{part}"
-    try:
-        names = sorted(n for n in os.listdir(AUDIO_DIR)
-                       if n.endswith(".mp3")
-                       and n[:-len(".mp3")].split(".")[0] == stem)
-    except FileNotFoundError:
-        names = []
-    return [f"/audio/listening/{n}" for n in names]
 
 
 def wipe(db, legacy: bool = False) -> None:
@@ -104,7 +90,8 @@ def main() -> int:
             n = test["test"]
 
             for sec in test["listening"]:
-                urls = audio_urls(n, sec["section"])
+                # Resolved at parse time — the mp3s are not on the server.
+                urls = sec.get("audio_parts") or []
                 row = IeltsListening(
                     section=sec["section"],
                     title=f"{PREFIX} {n} — Listening Part {sec['section']}: {sec['title']}"[:300],

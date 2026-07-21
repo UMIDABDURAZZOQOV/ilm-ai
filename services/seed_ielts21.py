@@ -12,13 +12,14 @@ import os
 import sys
 
 from services.db import SessionLocal
-from services.models import IeltsQuestion
+from services.models import IeltsListening, IeltsQuestion
 
 logger = logging.getLogger(__name__)
 
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _SEED_FILE = os.path.join(_ROOT, "scripts", "seeds", "ielts21.json")
 _EXPECTED_QUESTIONS = 320          # 4 tests × (40 listening + 40 reading)
+_EXPECTED_AUDIO_PARTS = 16         # 4 tests × 4 listening parts
 
 
 def seed_ielts21_if_needed() -> None:
@@ -30,17 +31,21 @@ def seed_ielts21_if_needed() -> None:
     db = SessionLocal()
     try:
         existing = db.query(IeltsQuestion).count()
+        # An earlier fixture resolved the mp3 paths from the local filesystem, so a
+        # production seed left every audio_url NULL even though the questions were fine.
+        with_audio = db.query(IeltsListening).filter(IeltsListening.audio_url.isnot(None)).count()
     except Exception as exc:                       # table may not exist on a cold DB
         logger.warning("Cambridge 21 seed check failed: %s", exc)
         return
     finally:
         db.close()
 
-    if existing == _EXPECTED_QUESTIONS:
+    if existing == _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS:
         return
 
-    logger.info("Seeding Cambridge 21 (found %s questions, expected %s)",
-                existing, _EXPECTED_QUESTIONS)
+    logger.info("Seeding Cambridge 21 (found %s questions / %s parts with audio; "
+                "expected %s / %s)", existing, with_audio,
+                _EXPECTED_QUESTIONS, _EXPECTED_AUDIO_PARTS)
     sys.path.insert(0, os.path.join(_ROOT, "scripts"))
     try:
         from seed_ielts21 import main as run_seed   # noqa: PLC0415 — optional, script-local
