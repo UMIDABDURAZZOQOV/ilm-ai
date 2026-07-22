@@ -106,10 +106,20 @@ def seed_ielts21_if_needed() -> None:
         try:
             listening = db.query(IeltsListening).filter(IeltsListening.title.like(f"{prefix}%"))
             reading = db.query(IeltsReading).filter(IeltsReading.title.like(f"{prefix}%"))
-            parent_ids = [r.id for r in listening.all()] + [r.id for r in reading.all()]
-            existing = (
-                db.query(IeltsQuestion).filter(IeltsQuestion.parent_id.in_(parent_ids)).count()
-                if parent_ids else 0
+            # Counted per skill. `parent_id` is only unique *within* a skill — listening
+            # part 5 and reading passage 5 are both parent_id 5 — so matching on the ids
+            # alone counts every reading question against the listening rows too. The
+            # total came out larger than the fixture holds, and since the guard asks for
+            # "at least as many", a book that had lost questions would still look whole.
+            existing = sum(
+                db.query(IeltsQuestion).filter(
+                    IeltsQuestion.skill == skill_name,
+                    IeltsQuestion.parent_id.in_(ids),
+                ).count()
+                for skill_name, ids in (
+                    ("Listening", [r.id for r in listening.all()]),
+                    ("Reading", [r.id for r in reading.all()]),
+                ) if ids
             )
             with_audio = listening.filter(IeltsListening.audio_url.isnot(None)).count()
             # Counting rows and sampling question text both miss a field that is new —

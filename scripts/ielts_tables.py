@@ -28,6 +28,7 @@ GAP_RE = re.compile(r"[.·…]{4,}")
 # Stripping the dots out of such a token recovers the word, and the marker records
 # that a gap was there.
 DOTTY = re.compile(r"[.·…]")
+DOT_RUN = re.compile(r"[.·…]{4,}")     # a leader long enough to be an answer space
 GAP_TOKEN = "░"          # placeholder; turned into [[n]] once the number is known
 ROW_TOL = 6.0            # words within this many points share a printed line
 MIN_COLUMN_HITS = 3      # an x position must start this many words to be a column
@@ -57,8 +58,13 @@ def column_starts(words: list[dict]) -> list[float]:
 
 def clean_token(text: str) -> str:
     """Pull the answer-space dots out of a token, keeping any letters caught in them."""
-    if len(DOTTY.findall(text)) >= 4:
-        return (GAP_TOKEN + " " + DOTTY.sub("", text)).strip()
+    if DOT_RUN.search(text):
+        # The token must keep its original order. One edition prints the number and its
+        # leader as separate words ("2" then "……"), the other as one ("2……………."), and
+        # moving the marker to the front turned the second into "░ 2" — which
+        # `mark_gaps` cannot read, so the whole grid came back with no gaps in it and
+        # was discarded as "not a table".
+        return DOT_RUN.sub(f" {GAP_TOKEN} ", text).strip()
     # The tail of a leader can also break off as its own token ("..t" of "and tides").
     if text and DOTTY.sub("", text) and len(DOTTY.findall(text)) >= 1 and text[0] in ".·…":
         return DOTTY.sub("", text)

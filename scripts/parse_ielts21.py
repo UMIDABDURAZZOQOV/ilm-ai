@@ -42,11 +42,34 @@ NAV_RE = re.compile(r"[➔➜]|p\.\s*1\d\d")
 RUNNING_HEAD = {"Test 1", "Test 2", "Test 3", "Test 4", "Reading", "Listening",
                 "Writing", "Speaking", "Audioscripts", "Listening and Reading answer keys"}
 
+# Two very different physical layouts ship under this series, and the difference is not
+# cosmetic. Book 21 is the publisher's own typesetting: every page carries /Rotate 90,
+# so visual lines have to be rebuilt from glyph coordinates. Book 20 arrived re-typeset
+# — upright pages, no audioscripts, no Writing or Speaking papers, and answer keys laid
+# out in two columns separated by wide runs of spaces.
+#
+# Detected in main() from /Rotate rather than from the book number, because it is a
+# property of the file, not of the edition. Everything downstream of `load_pages` —
+# cutting a page into question blocks, collecting options, numbering gaps — is shared.
+PLAIN_LAYOUT = False
+
 
 # ─── low-level page reconstruction ────────────────────────────────────────────
 
+def plain_lines(page) -> list[str]:
+    """Upright page: pypdf's own line breaks are already the visual ones.
+
+    Leading and trailing space is trimmed but *interior* runs are kept — they are the
+    only thing separating the two columns of an answer-key page.
+    """
+    return [line for raw in (page.extract_text() or "").split("\n")
+            if (line := raw.strip()) and line not in RUNNING_HEAD]
+
+
 def page_lines(page) -> list[str]:
     """Rebuild a rotated page's visual lines, dropping running heads and footers."""
+    if PLAIN_LAYOUT:
+        return plain_lines(page)
     runs: list[tuple[float, float, str]] = []
 
     def visit(text, cm, tm, font, size):
@@ -141,6 +164,19 @@ def locate_back_matter(reader) -> None:
     """
     global AUDIOSCRIPT_PAGES, ANSWER_KEY_PAGES
 
+    if PLAIN_LAYOUT:
+        # This edition has no Contents and no audioscripts; the keys are simply
+        # everything from the first "TEST n LISTENING ANSWERS" page to the end.
+        first = next((i for i, page in enumerate(reader.pages, start=1)
+                      if any(ANSWER_HEAD.search(l) for l in plain_lines(page)[:3])), None)
+        if first is None:
+            raise RuntimeError("No answer-key pages found in this PDF.")
+        AUDIOSCRIPT_PAGES = range(0)
+        ANSWER_KEY_PAGES = range(first, len(reader.pages) + 1)
+        print(f"back matter: no audioscripts, answer keys "
+              f"{first}-{len(reader.pages)}", flush=True)
+        return
+
     listed: dict[str, int] = {}
     for page in reader.pages[:12]:
         for line in page_lines(page):
@@ -174,6 +210,8 @@ def locate_back_matter(reader) -> None:
 
 
 def load_pages(reader) -> list[list[str]]:
+    if PLAIN_LAYOUT:
+        return [plain_lines(p) for p in reader.pages]
     return [page_segments(p) if (i + 1) in ANSWER_KEY_PAGES else page_lines(p)
             for i, p in enumerate(reader.pages)]
 
@@ -235,6 +273,54 @@ def parse_answer_keys(pages: list[list[str]]) -> dict[tuple[int, str], dict[int,
     return keys
 
 
+ANSWER_HEAD = re.compile(r"(LISTENING|READING)\s+ANSWERS", re.I)
+COLUMN_GAP = re.compile(r"\s{4,}")
+# "21-22 C.E" — one two-mark question, either letter accepted in either box.
+PAIR_PLAIN = re.compile(r"^(\d{1,2})\s*[-–—]\s*(\d{1,2})\s+([A-J])\s*[.,/&]\s*([A-J])$")
+
+
+def record_plain_answer(cur: dict[int, str], cell: str) -> None:
+    if not cell:
+        return
+    if m := PAIR_PLAIN.match(cell):
+        cur[int(m.group(1))] = cur[int(m.group(2))] = f"{m.group(3)}/{m.group(4)}"
+        return
+    # The space after the number is usually there but not always ("40C"), and demanding
+    # nothing at all would read a bare year like "1980" as question 19 answer "80".
+    m = re.match(r"^(\d{1,2})\s+(.+)$", cell) or re.match(r"^(\d{1,2})([A-Z]{1,2})$", cell)
+    if m and 1 <= int(m.group(1)) <= 40:
+        cur[int(m.group(1))] = normalise_answer(m.group(2))
+
+
+def parse_answer_keys_plain(pages: list[list[str]]) -> dict[tuple[int, str], dict[int, str]]:
+    """Book 20's keys: two columns a page, separated by a wide run of spaces.
+
+    Only the Listening page names its test ("TEST 1 LISTENING ANSWERS"); the Reading
+    page that follows says just "READING ANSWERS", so the number carries over from the
+    page before it.
+    """
+    keys: dict[tuple[int, str], dict[int, str]] = {}
+    test_no: int | None = None
+
+    for pno in ANSWER_KEY_PAGES:
+        lines = pages[pno - 1]
+        head = next((l for l in lines[:3] if ANSWER_HEAD.search(l)), None)
+        if not head:
+            continue
+        if m := re.search(r"TEST\s*(\d)", head, re.I):
+            test_no = int(m.group(1))
+        if test_no is None:
+            continue
+        skill = "listening" if re.search(r"LISTENING", head, re.I) else "reading"
+        cur = keys.setdefault((test_no, skill), {})
+        for line in lines:
+            if ANSWER_HEAD.search(line):
+                continue
+            for cell in COLUMN_GAP.split(line):
+                record_plain_answer(cur, cell.strip())
+    return keys
+
+
 def normalise_answer(ans: str) -> str:
     # A neighbouring column's heading can trail the answer when no number separates them.
     ans = re.split(r"\b(?:Reading Passage|Questions?|Part\b|If you score)", ans)[0]
@@ -263,6 +349,29 @@ def find_test_pages(pages: list[list[str]]) -> list[dict]:
     return tests
 
 
+TEST_BANNER = re.compile(r"^TEST\s*(\d)$", re.I)
+
+
+def find_test_pages_plain(pages: list[list[str]]) -> list[dict]:
+    """Upright layout: a test opens with a bare "TEST n" banner, not a LISTENING head.
+
+    Writing and Speaking are absent from this edition, so both are pinned to the end of
+    the test — `flatten` then hands their parsers an empty list and they yield nothing,
+    which is the honest result rather than a crash.
+    """
+    tests = [{"test": int(m.group(1)), "listening": i}
+             for i, lines in enumerate(pages)
+             if lines and (m := TEST_BANNER.match(lines[0]))]
+
+    last = ANSWER_KEY_PAGES.start - 1
+    for t, nxt in zip(tests, tests[1:] + [{"listening": last}]):
+        t["end"] = t["writing"] = t["speaking"] = nxt["listening"]
+        t["reading"] = next(
+            (p for p in range(t["listening"], t["end"])
+             if any(PASSAGE_RE.match(l) for l in pages[p][:2])), t["end"])
+    return tests
+
+
 def flatten(pages: list[list[str]], start: int, end: int) -> list[str]:
     out: list[str] = []
     for p in range(start, end):
@@ -274,12 +383,28 @@ def flatten(pages: list[list[str]], start: int, end: int) -> list[str]:
 
 # A block header is normally its own line, but Listening prints the first one on the
 # part heading ("PART 4 Questions 31-40"), so allow that prefix too.
-Q_HEADER = re.compile(r"^(?:PART\s*\d\s+)?Questions?\s+(\d{1,2})\s*(?:[-–—]|and)\s*(\d{1,2})\s*$", re.I)
-Q_HEADER_ONE = re.compile(r"^(?:PART\s*\d\s+)?Questions?\s+(\d{1,2})\s*$", re.I)
+# The part heading carries the first block's range, and the two layouts label the part
+# differently ("PART 4 Questions 31-40" vs "Section 4 Question 31-40").
+_PART_PREFIX = r"(?:(?:PART|Section)\s*\d\s+)?"
+Q_HEADER = re.compile(_PART_PREFIX + r"Questions?\s+(\d{1,2})\s*(?:[-–—]|and)\s*(\d{1,2})\s*$", re.I)
+Q_HEADER_ONE = re.compile(_PART_PREFIX + r"Questions?\s+(\d{1,2})\s*$", re.I)
 # The gap leader is typeset with dots on most pages but with middots on a few.
-GAP = re.compile(r"(\d{1,2})\s*[£$€]?\s*[.·…]{4,}")
-OPTION_LINE = re.compile(r"^([A-J])\s+(\S.*)$")
-NUM_LINE = re.compile(r"^(\d{1,2})\s+(\S.*)$")
+# The number is sometimes followed by its own full stop before the currency sign
+# ("Set lunch costs 9.£………… per person"), which otherwise eats one dot of the leader
+# and leaves the gap unrecognised.
+GAP = re.compile(r"(\d{1,2})\s*\.?\s*[£$€]?\s*[.·…]{4,}")
+# "A the clay it was made with" in one edition, "A.the clay it was made with" — no space
+# at all — in the other, so the letter may be followed by punctuation or by space, but
+# something must separate it from the text or every capitalised word starts an option.
+OPTION_LINE = re.compile(r"^([A-J])(?:[.)]\s*|\s+)(\S.*)$")
+# One edition numbers its items "14 reference to…", the other "14. reference to…" and
+# sometimes "14.Paragraph A". A separator is required either way: without one, "2015
+# researchers reported" reads as item 20 answering "15 researchers reported".
+NUM_LINE = re.compile(r"^(\d{1,2})(?:[.)]\s*|\s+)(\S.*)$")
+
+# "21 -22Which TWO things…" — a two-mark question that prints its own range inline and
+# runs straight into the stem. Left alone it yields question 21 and silently drops 22.
+RANGE_PREFIX = re.compile(r"^(\d{1,2})\s*[-–—]\s*(\d{1,2})\s*(?=[A-Z])")
 
 INSTRUCTION_HINTS = (
     "complete the", "choose", "do the following", "write the correct",
@@ -299,6 +424,12 @@ def detect_type(text: str) -> str:
         return "heading"
     if "choose the correct letter" in low or "choose two letters" in low or "choose three letters" in low:
         return "mcq"
+    # "Complete each sentence with the correct ending, A-G" is worded as a completion
+    # but answered from a lettered box, and it prints no dot leader for the completion
+    # branch to find — so it must be classified before the "complete" test below, or the
+    # whole block yields nothing at all.
+    if "correct ending" in low or "list of phrases" in low:
+        return "matching"
     if ("match each" in low or "which section" in low or "which paragraph" in low
             or "look at the following" in low or "choose six answers" in low
             or "choose five answers" in low or "write the correct letter" in low
@@ -460,6 +591,8 @@ def build_questions(block: dict, qtype: str) -> list[dict]:
         return dedupe(out, lo, hi, block_instruction(block))
 
     if qtype == "mcq":
+        if re.search(r"TWO letters", " ".join(instr), re.I):
+            content = [RANGE_PREFIX.sub("", l) for l in content]
         stem: list[str] = []
         opts: list[str] = []
         num: int | None = None
@@ -554,6 +687,37 @@ SPEND_RE = re.compile(r"^You should spend|^Passage \d+ below", re.I)
 FOOTNOTE_RE = re.compile(r"^\*+")
 
 
+MIN_PASSAGE_WORDS = 300
+
+
+def passage_segment(region: list[str]) -> list[str]:
+    """The article does not always come before its questions.
+
+    Test 3's Passage 2 prints the heading and the "choose a heading" task first, then the
+    article, then the remaining questions. Slicing at the first "Questions" header left
+    that passage empty while all thirteen of its questions parsed cleanly — so every
+    count was green and the exam would have shipped with nothing to read.
+
+    The region is cut at its "Questions" headers and the wordiest slice wins; the rubric
+    and lettered box that open that slice are dropped by skipping to the first full line
+    of prose. Chasing an unbroken run of long lines instead does not work — a paragraph's
+    last line is usually short, so the article breaks into fragments.
+    """
+    cuts = [i for i, l in enumerate(region)
+            if Q_HEADER.match(l) or Q_HEADER_ONE.match(l)]
+    slices = list(zip([0] + cuts, cuts + [len(region)]))
+    lo, hi = max(slices, key=lambda b: sum(len(l.split()) for l in region[b[0]:b[1]]))
+    lines = region[lo:hi]
+    # A rubric can be longer than the length test ("Choose the correct heading for each
+    # section from the list of headings below." is 75 characters), and starting the
+    # article there also makes the line above it — "Reading Passage 2 has six sections"
+    # — look like the title.
+    first = next((i for i, l in enumerate(lines)
+                  if len(l) >= 60 and not NUM_LINE.match(l) and not SPEND_RE.match(l)
+                  and not l.lower().startswith(INSTRUCTION_HINTS)), 0)
+    return lines[first:]
+
+
 def parse_reading(lines: list[str], test_no: int, answers: dict[int, str]) -> list[dict]:
     # Cut the section into three passage regions.
     starts = [i for i, l in enumerate(lines) if PASSAGE_RE.match(l)]
@@ -566,6 +730,14 @@ def parse_reading(lines: list[str], test_no: int, answers: dict[int, str]) -> li
                         if Q_HEADER.match(l) or Q_HEADER_ONE.match(l)), len(region))
         body = region[1:first_q]
         body = [l for l in body if not SPEND_RE.match(l) and not FOOTNOTE_RE.match(l)]
+        if sum(len(l.split()) for l in body) < MIN_PASSAGE_WORDS:
+            if run := passage_segment(region):
+                # The title is the short line immediately above the article.
+                head = region[:region.index(run[0])]
+                lead = next((l for l in reversed(head) if len(l) < 80
+                             and not SPEND_RE.match(l) and not Q_HEADER.match(l)
+                             and not Q_HEADER_ONE.match(l)), None)
+                body = ([lead] if lead else []) + run
         title = body[0] if body else f"Reading Passage {idx}"
         paragraphs = rebuild_paragraphs(body[1:])
 
@@ -612,7 +784,7 @@ def rebuild_paragraphs(body: list[str]) -> list[str]:
 
 # ─── listening ────────────────────────────────────────────────────────────────
 
-PART_RE = re.compile(r"^PART\s*(\d)\s*(?:Questions?\s*(\d{1,2})\s*[-–]\s*(\d{1,2}))?", re.I)
+PART_RE = re.compile(r"^(?:PART|Section)\s*(\d)\s*(?:Questions?\s*(\d{1,2})\s*(?:[-–]|and)\s*(\d{1,2}))?", re.I)
 
 # The recordings live in the frontend's public/ dir, which only exists on a dev machine —
 # so the file list is resolved here, at parse time, and baked into the fixture. The
@@ -626,7 +798,8 @@ def audio_urls(test_no: int, part: int) -> list[str]:
     stem = f"C{BOOK}T{test_no}P{part}"
     try:
         names = sorted(n for n in os.listdir(AUDIO_DIR)
-                       if n.endswith(".mp3") and n[:-len(".mp3")].split(".")[0] == stem)
+                       if n.endswith((".mp3", ".m4a"))
+                       and os.path.splitext(n)[0].split(".")[0] == stem)
     except FileNotFoundError:
         return []
     return [f"/audio/listening/{n}" for n in names]
@@ -651,9 +824,18 @@ def parse_listening(lines: list[str], test_no: int, answers: dict[int, str],
                 questions.append(q)
         questions.sort(key=lambda q: q["number"])
 
-        title = next((l for l in region[1:6]
-                      if not Q_HEADER.match(l) and not l.lower().startswith(
-                          ("complete", "choose", "write", "questions"))), f"Part {part}")
+        # The part's own caption if it prints one ("Reclaiming urban rivers"), else the
+        # part number. Anything numbered, lettered or interrogative is a question, and a
+        # very short line is a stray table-header cell ("Name of" / "restaurant") — both
+        # were being shown to students as the title of the paper.
+        title = next(
+            (l for l in region[1:6]
+             if len(l) >= 12 and not l.endswith("?")
+             and not Q_HEADER.match(l) and not Q_HEADER_ONE.match(l)
+             and not NUM_LINE.match(l) and not OPTION_LINE.match(l)
+             and not l.lower().startswith(INSTRUCTION_HINTS)
+             and not l.lower().startswith(("write ", "which ", "what ", "who ", "how "))),
+            f"Part {part}")
         out.append({
             "test": test_no,
             "section": part,
@@ -809,12 +991,16 @@ def attach_tables(pages: list[list[str]], sections: list[dict],
 
 
 def main() -> int:
+    global PLAIN_LAYOUT
     reader = PdfReader(PDF_PATH)
+    PLAIN_LAYOUT = all(int(p.get("/Rotate", 0) or 0) == 0 for p in reader.pages)
+    print(f"layout: {'upright' if PLAIN_LAYOUT else 'rotated'}", flush=True)
+
     locate_back_matter(reader)
     pages = load_pages(reader)
-    keys = parse_answer_keys(pages)
-    scripts = parse_audioscripts(pages)
-    tests = find_test_pages(pages)
+    keys = parse_answer_keys_plain(pages) if PLAIN_LAYOUT else parse_answer_keys(pages)
+    scripts = {} if PLAIN_LAYOUT else parse_audioscripts(pages)
+    tests = find_test_pages_plain(pages) if PLAIN_LAYOUT else find_test_pages(pages)
 
     data = {"source": f"Cambridge IELTS {BOOK} Academic", "book": BOOK, "tests": []}
     for t in tests:
