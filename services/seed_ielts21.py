@@ -100,6 +100,18 @@ def _fixture_differs(db, path: str) -> bool:
     book = data.get("book")
     prefix = f"Cambridge {book} Test"
 
+    # Writing prompts and their figures. Book 21's Task 1 charts are vector drawings
+    # that took a render-and-crop pass to extract; attaching them changed no count and
+    # no question, so nothing else here could tell that four tasks had gained a figure.
+    for test in data.get("tests", []):
+        for task in test.get("writing", []):
+            row = (db.query(IeltsWriting)
+                   .filter(IeltsWriting.category == f"{prefix} {test['test']}",
+                           IeltsWriting.task_type == task["task_type"]).first())
+            if (row is None or row.prompt != task["prompt"]
+                    or row.image_url != task.get("image_url")):
+                return True
+
     # Table *content*, not just how many sections have one. Reading Cambridge 20's
     # tables off their printed rules instead of guessing rows from word positions
     # rewrote every cell without changing the count, so this check passed and

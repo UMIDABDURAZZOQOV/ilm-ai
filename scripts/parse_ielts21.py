@@ -791,6 +791,8 @@ PART_RE = re.compile(r"^(?:PART|Section)\s*(\d)\s*(?:Questions?\s*(\d{1,2})\s*(?
 # seeder then works unchanged on Render, where those files are not present.
 AUDIO_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                          "..", "ilm-ai-frontend", "public", "audio", "listening")
+FIGURE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                          "..", "ilm-ai-frontend", "public", "ielts")
 
 
 def audio_urls(test_no: int, part: int) -> list[str]:
@@ -897,15 +899,34 @@ def parse_writing(lines: list[str], test_no: int) -> list[dict]:
                 continue
             if not stop:
                 prompt_lines.append(l)
+        # The paper prints "Write at least 150 words." under the box, and the exam
+        # screen prints it again below the prompt — so it was shown twice. The rubric
+        # is also its own paragraph, not a continuation of the topic sentence.
+        prompt_lines = [l for l in prompt_lines if not re.match(r"^Write at least", l, re.I)]
+        prompt = " ".join(prompt_lines).strip()
+        prompt = re.sub(r"\s+(Summarise the information|Do the following|Give reasons)",
+                        lambda m: "\n\n" + m.group(1), prompt, count=1)
+
         out.append({
             "test": test_no,
             "task": task,
             "task_type": f"Task{task}",
-            "prompt": " ".join(prompt_lines).strip(),
+            "prompt": prompt,
+            # Task 1 asks the candidate to describe a figure, so the essay cannot be
+            # attempted without it. Book 21 draws its figures as vector art, so they had
+            # to be rendered and cropped (see the commit that added public/ielts/c21).
+            "image_url": figure_url(test_no) if task == 1 else None,
             "min_words": 150 if task == 1 else 250,
             "duration_minutes": 20 if task == 1 else 40,
         })
     return out
+
+
+def figure_url(test_no: int) -> str | None:
+    name = f"t{test_no}-task1.png"
+    if os.path.exists(os.path.join(FIGURE_DIR, f"c{BOOK}", name)):
+        return f"/ielts/c{BOOK}/{name}"
+    return None
 
 
 BULLET = re.compile(r"^[•·▪◦*\-•�]\s*")
