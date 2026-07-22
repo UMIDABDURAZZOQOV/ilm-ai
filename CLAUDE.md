@@ -374,40 +374,20 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 **Two Cambridge books are loaded: 21 and 20**, both complete on all four skills: 320
 questions each with every answer keyed, twelve passages, eight Writing tasks, twelve
-Speaking papers. Book 20 also has its four Task 1 figures (book 21's are still vector art
-in the PDF and have not been extracted).
+Speaking papers, and all four Task 1 figures.
 
-Book 20 came as **two different files, and both are needed**. The re-typeset one has a text
-layer and is where Listening and Reading are parsed from. The full 130-page edition is a
-**scan with no text layer at all** — pypdf returns zero characters — and is the only copy
-of the Writing and Speaking papers, which were read off the page by hand into
-`scripts/seeds/ielts20_manual.json` and are merged by the parser (only where the PDF itself
-yielded nothing). An OCR pass drafted them but is not what shipped: it lost word spacing
-and dropped a whole question, so every prompt was checked against the page image. **If a
-future book is a scan, expect the same: OCR to find the material, eyes to confirm it.**
+Everything about **how** a second book is added — the two files book 20 needed, the two
+table methods, the two ways a Task 1 figure comes out, and what a third book will break in
+the frontend — is written up under **"Adding another Cambridge book"** in the IELTS section.
+Read that before touching any of it.
 
-Adding a third book is now a two-command job, and neither is edited first:
+**If a third book parses to green counts, still read some of the output.** The failure that
+cost the most time was Test 3's Passage 2, whose thirteen questions all parsed cleanly while
+the article itself came out empty, because that paper prints its questions first.
 
-```
-IELTS_BOOK=19 IELTS_PDF=<file> python scripts/parse_ielts21.py   # → scripts/seeds/ielts19.json
-IELTS_BOOK=19 python scripts/seed_ielts21.py
-```
-
-Copy the recordings to `ilm-ai-frontend/public/audio/listening/` named `C19T<test>P<part>`
-(`.mp3` or `.m4a`; split rips take `.1`/`.2` before the extension). The startup seeder loads
-every `scripts/seeds/ielts*.json` it finds and checks each volume against its own fixture,
-so a new book needs no code change here at all.
-
-The parser handles two physical layouts and picks between them from `/Rotate`, not from the
-book number: book 21 is rotated publisher typesetting, book 20 is upright and re-typeset.
-**If a third book parses to green counts, still read some of the output** — the failure that
-cost the most time was Test 3's Passage 2, whose thirteen questions all parsed while the
-article itself came out empty, because the paper prints its questions first.
-
-**What is NOT verified for book 20:** that each recording matches its section. They arrived
-named `T1S1.m4a`…`T4S4.m4a` and were copied straight across on that reading; the durations
-(6.8-9.5 min) are right for a Listening section, but nobody has listened to one against its
-questions.
+**What is NOT verified:** that each of book 20's recordings matches its section. They arrived
+named `T1S1.m4a`…`T4S4.m4a` and were copied across on that reading; the durations (6.8-9.5
+min) are right for a Listening part, but nobody has listened to one against its questions.
 
 **Skill-tree content is DONE: 836 of 836 lessons answerable in production, 12441 questions,
 all twelve subjects at 100%** (it was 253 lessons / 2526 on the morning of 2026-07-21). The
@@ -641,7 +621,8 @@ without checking, and the same failure kept coming back in new clothes.
 
 ### The one pattern behind almost every bug
 
-**A check passed because it could not see the thing that was wrong.** Five times:
+**A check passed because it could not see the thing that was wrong.** Eight times over two
+days — five on 07-21, three more while adding Cambridge 20 on 07-22:
 
 | The check | What it missed |
 |---|---|
@@ -650,8 +631,14 @@ without checking, and the same failure kept coming back in new clothes.
 | Question count + audio + sampled text | `tables` was a new field; the grids never shipped |
 | `order_index` written only at creation | A resequenced unit kept its old order in the database |
 | Seven unit titles | Read as the syllabus; the 77 lesson titles underneath said otherwise |
+| `tables.isnot(None)` | A JSON column stores Python `None` as JSON `null`, not SQL NULL — so it matched all 28 sections when 3 have a table, and could never fail |
+| Question count by `parent_id` alone | `parent_id` is unique only *within* a skill; reading questions were counted against the listening rows, so the total ran high and a book that had lost questions still looked whole |
+| Counts of everything | Section titles, table *contents*, Writing prompts and `image_url` all changed without a single count moving — every one would have stayed in the fixture and reached nobody |
 
-When something here goes green, ask what it structurally cannot notice.
+The last three all took the same shape: **the fixture was right and production was wrong, and
+the guard compared the wrong thing.** `_fixture_differs()` now compares question text, section
+titles, table contents, writing prompts and figures. When something here goes green, ask what
+it structurally cannot notice — and prove it by breaking the data and watching the guard fire.
 
 ### Syllabus: 253 → 836 lessons
 
@@ -721,13 +708,29 @@ Done 2026-07-21:
   only means something inside a test; listing it separately let someone open one detached
   from any test. Sidebar is Tests / Dictionary / Score Calculator.
 
-**Table questions — DONE.** `scripts/ielts_tables.py` is wired into `parse_ielts21.py`
-(`attach_tables`), the grids ride to production in `ielts21.json` → `ielts_listening.tables` /
-`ielts_reading.tables`, and `components/ielts/QuestionTable.tsx` renders a real `<table>` with
-the input dropped in wherever a cell holds `[[7]]`. Three tables in this book: Listening T1P1,
-Listening T2P1, Reading T2P1.
+**Table questions — DONE, by two different methods.** `scripts/ielts_tables.py` is wired into
+`parse_ielts21.py` (`attach_tables`), the grids ride to production in the fixtures →
+`ielts_listening.tables` / `ielts_reading.tables`, and `components/ielts/QuestionTable.tsx`
+renders a real `<table>` with the input dropped in wherever a cell holds `[[7]]`. Book 21 has
+three (Listening T1P1, Listening T2P1, Reading T2P1); book 20 has two (Listening T1P1, T3P1).
 
-Why it needed its own extractor: **pypdf returns a whole table row as one text run** —
+**Which method depends on the book, and it is decided per page, not per volume.**
+`grid_from_rules()` reads the cells straight off the printed rules and is used whenever a page
+draws them; `grid_from_words()` reconstructs rows from word positions and is the fallback.
+Book 20 rules its tables, book 21 draws none at all — which is exactly why the owner saw one
+book right and the other wrong. Word positions **cannot tell a new row from a wrapped line**:
+"Name of restaurant" wraps, so Test 1 Part 1 showed a header of "Name of | Location | Reason
+for" with a phantom row "restaurant | | recommendation" beneath it and every entry split
+across three.
+
+Telling a real rule from a shading rectangle's side took two wrong attempts, and the lesson is
+worth keeping: **length alone does not work.** Test 1's table is drawn cell by cell, so no rule
+runs its full height; Test 3's runs the full height but is surrounded by shaded boxes whose
+sides are edges too (sixteen "columns" for a three-column table). What holds for both is that
+a real boundary's *pieces together cross the whole table*, so edges are grouped by position and
+measured by the union of their spans.
+
+Why the word-position fallback needed its own extractor: **pypdf returns a whole table row as one text run** —
 `"Taster day introduction to sailing £120 if booking one small groups (max"` — so the cell
 boundaries are not in its output at all. pdfplumber gives per-word boxes. Four non-obvious things
 came out of getting it right:
@@ -741,6 +744,60 @@ came out of getting it right:
   pair is resolved while reading order is intact and placed in the *number's* cell.
 - Matching a grid to a section must be **scoped to one skill's pages**. Listening and Reading both
   number from 1, so a Reading table matched a Listening part just as well.
+
+### Adding another Cambridge book (done twice; read this before a third)
+
+Two commands, and neither file is edited first:
+
+```
+IELTS_BOOK=19 IELTS_PDF=<file> python scripts/parse_ielts21.py   # → scripts/seeds/ielts19.json
+IELTS_BOOK=19 python scripts/seed_ielts21.py
+```
+
+Recordings go to `ilm-ai-frontend/public/audio/listening/` as `C19T<test>P<part>` (`.mp3` or
+`.m4a`; a split rip takes `.1`/`.2` before the extension). Task 1 figures go to
+`public/ielts/c19/t<test>-task1.png` and `parse_writing()` picks them up by filename. The
+startup seeder loads **every** `scripts/seeds/ielts*.json` it finds and checks each volume on
+its own, so no code here changes for a new book.
+
+**The parser handles two physical layouts and picks between them from `/Rotate`, not from the
+book number** — book 21 is rotated publisher typesetting whose lines must be rebuilt from glyph
+coordinates, book 20 is upright and re-typeset. Everything downstream of `load_pages` is shared.
+
+**A book may arrive as more than one file, and you may need all of them.** Cambridge 20 came
+first as a 71-page re-typeset PDF with a text layer but no Writing, Speaking or audioscripts,
+then as the full 130-page edition — which is a **scan with no text layer at all** (pypdf returns
+zero characters). Listening and Reading are parsed from the first; the Writing and Speaking
+papers exist only in the second and were transcribed into `scripts/seeds/ielts20_manual.json`,
+which `manual_papers()` merges **only where the PDF itself yielded nothing**, so a book whose
+papers do parse is never overridden by a file that has gone stale.
+
+**OCR drafts, eyes confirm.** A rapidocr pass located the scanned material and is a good way to
+find it, but it is not what shipped: it lost word spacing in the boilerplate
+(`whatotherpeoplehavesaid`) and silently dropped a whole question from Test 3 Part 1. Every
+prompt was checked against the page image.
+
+**Task 1 figures come out differently per book, and neither is optional** — the essay asks the
+candidate to describe the figure. Book 20 embeds them as images (crop from the page). Book 21
+draws them as **vector art**, so there is nothing to extract: the page is rendered with
+pypdfium2 at 2x and the drawing cut out, with bounds taken from the words either side. Two
+wrong bounds on the way — matching a page-number pattern anywhere below the prompt caught the
+graph's own axis labels and cut Test 1 off at its first tick, and a bottom-eighth cutoff sliced
+through Test 2's second floor plan, whose lower wall reaches within 11% of the page foot.
+
+Frontend things a second book broke, all of which had been correct with one book loaded:
+- Every skill page filtered on the **test number alone**. Two books both have a "Test 1", so
+  opening Cambridge 20 Test 1 listed Cambridge 21's beside it and the "exactly one match, open
+  it" shortcut never fired. Links carry `?book=` now.
+- `overallFor()` divided by **four skills unconditionally**. While book 20 had only Listening
+  and Reading, a candidate scoring 8.0 on both would have been shown 4.0. It averages over the
+  skills the paper actually has.
+- `WritingExam` asked for its height with `flex-1`, but its parent in `FullScreenExam` is a
+  plain block, so the rule did nothing and the grid took its content's height. It overflowed a
+  parent with `overflow-hidden`, so the Task 1 figure was cut off partway down **and no amount
+  of scrolling brought the rest up** — the pane that owns the scrollbar was never bounded.
+  `h-full`, as `SkillExam` already does. It also had no horizontal padding, so "TASK 1" read as
+  "ASK 1" against the window edge.
 
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
