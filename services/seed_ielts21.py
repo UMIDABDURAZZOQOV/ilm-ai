@@ -86,7 +86,30 @@ def _fixture_differs(db, path: str) -> bool:
         t for (t,) in db.query(IeltsQuestion.question_text)
         .filter(IeltsQuestion.question_text.in_(sample)).all()
     }
-    return len(found) < len(set(sample))
+    if len(found) < len(set(sample)):
+        return True
+
+    # Section titles are what a student picks a paper by, and nothing above looks at
+    # them. Teaching the parser to stop titling a part with its first question changed
+    # five of book 21's titles without touching a single question, so the counts, the
+    # audio and the sampled text all matched and production would have kept showing
+    # "Which TWO pieces of advice are given about the Marsden Coastal Walk?" as the name
+    # of Part 2.
+    book = data.get("book")
+    prefix = f"Cambridge {book} Test"
+    for key, model in (("listening", IeltsListening), ("reading", IeltsReading)):
+        wanted = {
+            f"{prefix} {test['test']} — "
+            f"{'Listening Part' if key == 'listening' else 'Reading Passage'} "
+            f"{section['section']}: {section['title']}"[:300]
+            for test in data.get("tests", []) for section in test.get(key, [])
+        }
+        if not wanted:
+            continue
+        have = {t for (t,) in db.query(model.title).filter(model.title.in_(wanted)).all()}
+        if have != wanted:
+            return True
+    return False
 
 
 def seed_ielts21_if_needed() -> None:
