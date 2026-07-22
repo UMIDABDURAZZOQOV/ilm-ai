@@ -825,6 +825,7 @@ def _merge_expansion() -> None:
         subject = SKILLTREE_OUTLINE.get(subject_slug)
         if not subject:
             continue
+        order = units.get("_order") or {}
         for unit in subject["units"]:
             extra = units.get(unit["slug"]) or []
             existing = {l["slug"] for l in unit["lessons"]}
@@ -836,6 +837,15 @@ def _merge_expansion() -> None:
                     "slug": item["slug"],
                     "title": {"uz": item["uz"], "ru": item["ru"], "en": item["en"]},
                 })
+
+            # Appending kept everyone's progress safe but left each unit reading
+            # "the original four, then the seven added later" — in Tarix that taught
+            # the 13th century before the 5th. `_order` is a teaching sequence over
+            # the same slugs; anything it does not mention keeps its place at the end.
+            wanted = order.get(unit["slug"])
+            if wanted:
+                rank = {slug: i for i, slug in enumerate(wanted)}
+                unit["lessons"].sort(key=lambda l: rank.get(l["slug"], len(rank)))
 
 
 _merge_expansion()

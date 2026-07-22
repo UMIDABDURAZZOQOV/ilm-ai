@@ -118,6 +118,17 @@ def upsert_structure(db, subject_slug: str, subject_def: dict) -> SkillSubject:
             db.commit()
             db.refresh(unit)
 
+        # (unit_id, order_index) is UNIQUE, so a resequenced unit cannot be renumbered
+        # a row at a time — the first move collides with whoever holds that slot. Park
+        # the whole unit above the range first, then assign the real indices.
+        wanted = {d["slug"]: i for i, d in enumerate(unit_def["lessons"])}
+        current = db.query(SkillLesson).filter(SkillLesson.unit_id == unit.id).all()
+        if any(l.order_index != wanted.get(l.slug, l.order_index) for l in current):
+            for offset, l in enumerate(current):
+                l.order_index = 10_000 + offset
+                db.add(l)
+            db.commit()
+
         for l_idx, lesson_def in enumerate(unit_def["lessons"]):
             lesson = (
                 db.query(SkillLesson)
@@ -137,19 +148,24 @@ def upsert_structure(db, subject_slug: str, subject_def: dict) -> SkillSubject:
                 db.add(lesson)
                 db.commit()
                 db.refresh(lesson)
+            elif lesson.order_index != l_idx:
+                # order_index used to be set only at creation, so a resequenced unit
+                # kept its old order in the database. The slug is untouched, so
+                # UserLessonProgress still points at the same lesson.
+                lesson.order_index = l_idx
+                db.add(lesson)
+                db.commit()
 
             if previous_lesson is not None:
-                exists = (
-                    db.query(SkillLessonPrerequisite)
-                    .filter(
-                        SkillLessonPrerequisite.lesson_id == lesson.id,
-                        SkillLessonPrerequisite.requires_lesson_id == previous_lesson.id,
-                    )
-                    .first()
-                )
-                if not exists:
-                    db.add(SkillLessonPrerequisite(lesson_id=lesson.id, requires_lesson_id=previous_lesson.id))
-                    db.commit()
+                # The chain follows the current order, so a stale edge from the old
+                # sequence would leave a lesson locked behind one that now comes after
+                # it. Rebuild this lesson's edge rather than only adding to it.
+                db.query(SkillLessonPrerequisite).filter(
+                    SkillLessonPrerequisite.lesson_id == lesson.id
+                ).delete(synchronize_session=False)
+                db.add(SkillLessonPrerequisite(lesson_id=lesson.id,
+                                               requires_lesson_id=previous_lesson.id))
+                db.commit()
             previous_lesson = lesson
 
     return subject

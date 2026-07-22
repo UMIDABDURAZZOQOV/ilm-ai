@@ -137,33 +137,6 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "alifbo-talaffuz-fr",
-  "lesson_slug": "o-qilmaydigan-oxirgi-undoshlar-va-dumsiz-e-e-muet-qoidalari",
-  "theory": [
-   {
-    "title": "Oxirgi undoshlar qoidasi",
-    "body": "Fransuz tilida so'z oxiridagi undosh harflar (c, d, f, l, r, q kabi) ko'pincha o'qilmaydi. Ular xuddi 'yashirin' turganidek, so'zning oxirgi unlisigacha o'qiymiz va to'xtaymiz.",
-    "example": "Chat (mushuk) – [sha], Petit (kichik) – [pöti]."
-   },
-   {
-    "title": "Dumsiz 'e' (e muet)",
-    "body": "So'z oxiridagi 'e' harfi o'zidan oldin kelgan undoshni o'qishga majbur qiladi, lekin o'zi 'dumsiz' bo'lib, umuman talaffuz qilinmaydi. U shunchaki so'zni urg'uli va to'liqroq qilish uchun xizmat qiladi.",
-    "example": "Petite (kichkina-ayol) – [pötit], (oxirgi 'e' o'qilmaydi, lekin 't' o'qiladi)."
-   },
-   {
-    "title": "Istisno: 'c, r, f, l' harflari",
-    "body": "Sizga eslab qolish uchun oddiy usul: 'CaReFuL' so'zini eslab qoling. Bu harflar (c, r, f, l) so'z oxirida kelsa, odatda o'qiladi, qolgan ko'pchilik undoshlar esa jim turadi.",
-    "example": "Sac (sumka) – [sak], Mer (dengiz) – [mer], Chef (boshliq) – [shef]."
-   },
-   {
-    "title": "Test: Bilimingizni sinang",
-    "body": "Quyidagi so'zlardan qaysi birida oxirgi harf o'qiladi? A) Chat (mushuk) B) Sac (sumka) C) Petit (kichik). Shuningdek, 'Petite' so'zida oxirgi 'e' o'qiladimi?",
-    "example": "To'g'ri javob: B (c harfi o'qiladi). 'Petite' so'zidagi 'e' o'qilmaydi, faqat 't' ni eshitamiz."
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "alifbo-talaffuz-fr",
   "lesson_slug": "burun-unli-tovushlari-voyelles-nasales-va-ularning-talaffuzi",
   "theory": [
    {
@@ -185,6 +158,33 @@
     "title": "Keling, tekshirib ko'ramiz!",
     "body": "Quyidagi savolga javob bering: 'Vin' va 'Pain' so'zlaridagi burun unlisi qaysi harf birikmasi orqali hosil bo'lgan va u qanday tovush beradi?",
     "example": "Test: 'in/ain' harf birikmalari [ɛ̃] tovushini beradi. 'Maman' so'zida esa [ɑ̃] tovushi bor."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "alifbo-talaffuz-fr",
+  "lesson_slug": "o-qilmaydigan-oxirgi-undoshlar-va-dumsiz-e-e-muet-qoidalari",
+  "theory": [
+   {
+    "title": "Oxirgi undoshlar qoidasi",
+    "body": "Fransuz tilida so'z oxiridagi undosh harflar (c, d, f, l, r, q kabi) ko'pincha o'qilmaydi. Ular xuddi 'yashirin' turganidek, so'zning oxirgi unlisigacha o'qiymiz va to'xtaymiz.",
+    "example": "Chat (mushuk) – [sha], Petit (kichik) – [pöti]."
+   },
+   {
+    "title": "Dumsiz 'e' (e muet)",
+    "body": "So'z oxiridagi 'e' harfi o'zidan oldin kelgan undoshni o'qishga majbur qiladi, lekin o'zi 'dumsiz' bo'lib, umuman talaffuz qilinmaydi. U shunchaki so'zni urg'uli va to'liqroq qilish uchun xizmat qiladi.",
+    "example": "Petite (kichkina-ayol) – [pötit], (oxirgi 'e' o'qilmaydi, lekin 't' o'qiladi)."
+   },
+   {
+    "title": "Istisno: 'c, r, f, l' harflari",
+    "body": "Sizga eslab qolish uchun oddiy usul: 'CaReFuL' so'zini eslab qoling. Bu harflar (c, r, f, l) so'z oxirida kelsa, odatda o'qiladi, qolgan ko'pchilik undoshlar esa jim turadi.",
+    "example": "Sac (sumka) – [sak], Mer (dengiz) – [mer], Chef (boshliq) – [shef]."
+   },
+   {
+    "title": "Test: Bilimingizni sinang",
+    "body": "Quyidagi so'zlardan qaysi birida oxirgi harf o'qiladi? A) Chat (mushuk) B) Sac (sumka) C) Petit (kichik). Shuningdek, 'Petite' so'zida oxirgi 'e' o'qiladimi?",
+    "example": "To'g'ri javob: B (c harfi o'qiladi). 'Petite' so'zidagi 'e' o'qilmaydi, faqat 't' ni eshitamiz."
    }
   ]
  },
@@ -353,27 +353,54 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "salomlashish-fr",
-  "lesson_slug": "xayrlashish-iboralari",
+  "lesson_slug": "muloqotda-xushmuomalalik-shakllari-sen-va-siz-tu-va-vous",
   "theory": [
    {
-    "title": "Eng ommabop xayrlashuv",
-    "body": "Fransuz tilida eng ko'p ishlatiladigan so'z bu — 'Au revoir'. Bu ibora 'yana ko'rishguncha' degan ma'noni anglatadi va ham rasmiy, ham norasmiy vaziyatlarda bemalol qo'llaniladi.",
-    "example": "- Au revoir, monsieur! (Xayr, janob!)"
+    "title": "Tu va Vous farqi",
+    "body": "Fransuz tilida ikkita 'sen' bor: 'Tu' va 'Vous'. 'Tu' yaqin do'stlar, oila va bolalar uchun ishlatilsa, 'Vous' rasmiy munosabatlar yoki notanish kattalar uchun ishlatiladi.",
+    "example": "Do'stingga: 'Tu vas bien?' (Yaxshimisan?). Notanish odamga: 'Vous allez bien?' (Yaxshimisiz?)."
    },
    {
-    "title": "Do'stona xayrlashish",
-    "body": "Do'stlaringiz yoki yaqinlaringiz bilan xayrlashayotganda 'Salut' so'zidan foydalaning. Bu ham 'salom', ham 'xayr' ma'nosini beradigan universal va erkin so'zdir.",
-    "example": "- Salut, Marie! À demain! (Xayr, Mari! Ertagacha!)"
+    "title": "Vous - hurmat va ko'plik",
+    "body": "Fransuz tilida 'Vous' ham hurmat shakli, ham ko'plikni anglatadi. Agar bir vaqtning o'zida bir nechta odamga murojaat qilsangiz, ular do'stingiz bo'lsa ham 'Vous' ishlatiladi.",
+    "example": "Bir guruh do'stlaringizga: 'Comment allez-vous?' (Qalaysizlar?)"
    },
    {
-    "title": "Vaqtga bog'liq xayrlashuv",
-    "body": "Tez orada ko'rishmoqchi bo'lsangiz, 'À bientôt' (tez orada ko'rishguncha) yoki 'À plus tard' (keyinroq ko'rishguncha) iboralarini ishlatish juda o'rinli.",
-    "example": "- À bientôt ! (Tez orada ko'rishamiz!)"
+    "title": "Tu qachon ishlatiladi?",
+    "body": "Faqatgina juda yaqin insonlar, do'stlar va oila a'zolari bilan suhbatda 'Tu' ishlatiladi. Notanish odamga 'Tu' deyish odobsizlik hisoblanishi mumkin.",
+    "example": "Onangizga: 'Tu manges?' (Ovqat yeyapsanmi?)."
    },
    {
-    "title": "Muayyan vaqtni belgilash",
-    "body": "Agar ertaga ko'rishishni reja qilsangiz, 'À demain' iborasini ishlating. Bu 'ertagacha' degani va kundalik muloqotda juda muhim o'rin tutadi.",
-    "example": "- Bonne journée, à demain ! (Xayrli kun, ertagacha!)"
+    "title": "Test savollari",
+    "body": "Keling, bilimlaringizni sinab ko'ramiz! 1. Notanish odamdan ismini so'rash uchun qaysi birini tanlaysiz: 'Tu t'appelles comment?' yoki 'Vous vous appelez comment?' 2. Do'stlaringiz guruhiga murojaat qilayotganda qaysi olmosh ishlatiladi: 'Tu'mi yoki 'Vous'mi?",
+    "example": "Javoblar: 1. Vous vous appelez comment? 2. Vous."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "salomlashish-fr",
+  "lesson_slug": "muloqotdagi-xushmuomalalik-va-odob-iboralari-rahmat-iltimos-",
+  "theory": [
+   {
+    "title": "Iltimos va rahmat",
+    "body": "Fransuz tilida xushmuomala bo'lish uchun ikki sehrli so'zni bilish kifoya. 'S'il vous plaît' (iltimos) so'rovni nazokatli qiladi, 'Merci' esa minnatdorchilik bildiradi.",
+    "example": "Un café, s'il vous plaît. (Bir kofe, iltimos.) Merci beaucoup! (Katta rahmat!)"
+   },
+   {
+    "title": "Tanishganimdan xursandman",
+    "body": "Yangi tanishgan odamingizga xushmuomalalik ko'rsatish uchun 'Enchanté' (erkaklar uchun) yoki 'Enchantée' (ayollar uchun) so'zini ishlating. Bu 'tanishganimdan xursandman' degan ma'noni anglatadi.",
+    "example": "Bonjour, je m'appelle Ali. - Enchanté !"
+   },
+   {
+    "title": "Rasmiy va norasmiy muloqot",
+    "body": "Fransuz tilida kattalar yoki notanishlar bilan gaplashganda 'vous' (siz) shaklidan foydalanish shart. Do'stlar yoki yaqinlar bilan esa 'tu' (sen) ishlatiladi.",
+    "example": "Comment allez-vous ? (Siz qandaysiz? - rasmiy) / Comment vas-tu ? (Qalaysan? - norasmiy)"
+   },
+   {
+    "title": "Kechirim so'rash odobi",
+    "body": "Biror kishining e'tiborini tortmoqchi yoki noqulaylik uchun uzr so'ramoqchi bo'lsangiz, 'Pardon' yoki 'Excusez-moi' so'zlarini qo'llang.",
+    "example": "Excusez-moi, monsieur. (Kechirasiz, janob.) Pardon, madame. (Kechirasiz, xonim.)"
    }
   ]
  },
@@ -401,33 +428,6 @@
     "title": "Javob berish va qayta so'rash",
     "body": "Holingizni aytganingizdan so'ng, suhbatdoshdan ham 'O'zingiz-chi?' deb so'rash uchun 'Et toi?' (norasmiy) yoki 'Et vous?' (rasmiy) iborasini qo'shib qo'ying. Bu suhbatni davom ettirishning eng yaxshi yo'li.",
     "example": "— Ça va bien, et toi? (Yaxshi, o'zing-chi?)\n— Très bien, merci. (Juda yaxshi, rahmat.)"
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "salomlashish-fr",
-  "lesson_slug": "muloqotda-xushmuomalalik-shakllari-sen-va-siz-tu-va-vous",
-  "theory": [
-   {
-    "title": "Tu va Vous farqi",
-    "body": "Fransuz tilida ikkita 'sen' bor: 'Tu' va 'Vous'. 'Tu' yaqin do'stlar, oila va bolalar uchun ishlatilsa, 'Vous' rasmiy munosabatlar yoki notanish kattalar uchun ishlatiladi.",
-    "example": "Do'stingga: 'Tu vas bien?' (Yaxshimisan?). Notanish odamga: 'Vous allez bien?' (Yaxshimisiz?)."
-   },
-   {
-    "title": "Vous - hurmat va ko'plik",
-    "body": "Fransuz tilida 'Vous' ham hurmat shakli, ham ko'plikni anglatadi. Agar bir vaqtning o'zida bir nechta odamga murojaat qilsangiz, ular do'stingiz bo'lsa ham 'Vous' ishlatiladi.",
-    "example": "Bir guruh do'stlaringizga: 'Comment allez-vous?' (Qalaysizlar?)"
-   },
-   {
-    "title": "Tu qachon ishlatiladi?",
-    "body": "Faqatgina juda yaqin insonlar, do'stlar va oila a'zolari bilan suhbatda 'Tu' ishlatiladi. Notanish odamga 'Tu' deyish odobsizlik hisoblanishi mumkin.",
-    "example": "Onangizga: 'Tu manges?' (Ovqat yeyapsanmi?)."
-   },
-   {
-    "title": "Test savollari",
-    "body": "Keling, bilimlaringizni sinab ko'ramiz! 1. Notanish odamdan ismini so'rash uchun qaysi birini tanlaysiz: 'Tu t'appelles comment?' yoki 'Vous vous appelez comment?' 2. Do'stlaringiz guruhiga murojaat qilayotganda qaysi olmosh ishlatiladi: 'Tu'mi yoki 'Vous'mi?",
-    "example": "Javoblar: 1. Vous vous appelez comment? 2. Vous."
    }
   ]
  },
@@ -488,33 +488,6 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "salomlashish-fr",
-  "lesson_slug": "kelib-chiqishi-va-millatini-so-rash-hamda-aytish",
-  "theory": [
-   {
-    "title": "Qayerdansiz deb so'rash",
-    "body": "Fransuz tilida qayerdan ekanligingizni so'rash uchun 'D'où venez-vous ?' iborasini ishlatamiz. Bu rasmiy va eng keng tarqalgan shakl hisoblanadi.",
-    "example": "- D'où venez-vous ?\n- Je viens d'Ouzbékistan."
-   },
-   {
-    "title": "Millatni ifodalash qoidalari",
-    "body": "Millatingizni aytishda 'Je suis' (Men ...man) so'zlaridan foydalanamiz. E'tibor bering, fransuz tilida millat nomlari bosh harf bilan yozilmaydi.",
-    "example": "- Je suis ouzbek. (Men o'zbekman.)\n- Je suis français. (Men fransuzman.)"
-   },
-   {
-    "title": "Jinsga qarab o'zgarish",
-    "body": "Millatni aytganda jins muhim: ayollar uchun millat nomiga odatda '-e' qo'shimchasi qo'shiladi. Masalan, 'ouzbek' so'zi ikkala jins uchun ham o'zgarmaydi, lekin 'français' erkaklar uchun, 'française' esa ayollar uchun ishlatiladi.",
-    "example": "- Il est français. (U fransuz - o'g'il bola)\n- Elle est française. (U fransuz - qiz bola)"
-   },
-   {
-    "title": "Test: Bilimingizni tekshiring",
-    "body": "Quyidagi savolga javob bering: Agar siz qiz bola bo'lsangiz va O'zbekistondan bo'lsangiz, o'zingizni qanday tanishtirasiz?",
-    "example": "To'g'ri javob: 'Je viens d'Ouzbékistan, je suis ouzbek.' (Eslatma: 'ouzbek' millat nomi jinsga qarab o'zgarmaydi)."
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "salomlashish-fr",
   "lesson_slug": "kasb-va-faoliyat-turini-so-rash-hamda-aytish",
   "theory": [
    {
@@ -569,27 +542,54 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "salomlashish-fr",
-  "lesson_slug": "muloqotdagi-xushmuomalalik-va-odob-iboralari-rahmat-iltimos-",
+  "lesson_slug": "kelib-chiqishi-va-millatini-so-rash-hamda-aytish",
   "theory": [
    {
-    "title": "Iltimos va rahmat",
-    "body": "Fransuz tilida xushmuomala bo'lish uchun ikki sehrli so'zni bilish kifoya. 'S'il vous plaît' (iltimos) so'rovni nazokatli qiladi, 'Merci' esa minnatdorchilik bildiradi.",
-    "example": "Un café, s'il vous plaît. (Bir kofe, iltimos.) Merci beaucoup! (Katta rahmat!)"
+    "title": "Qayerdansiz deb so'rash",
+    "body": "Fransuz tilida qayerdan ekanligingizni so'rash uchun 'D'où venez-vous ?' iborasini ishlatamiz. Bu rasmiy va eng keng tarqalgan shakl hisoblanadi.",
+    "example": "- D'où venez-vous ?\n- Je viens d'Ouzbékistan."
    },
    {
-    "title": "Tanishganimdan xursandman",
-    "body": "Yangi tanishgan odamingizga xushmuomalalik ko'rsatish uchun 'Enchanté' (erkaklar uchun) yoki 'Enchantée' (ayollar uchun) so'zini ishlating. Bu 'tanishganimdan xursandman' degan ma'noni anglatadi.",
-    "example": "Bonjour, je m'appelle Ali. - Enchanté !"
+    "title": "Millatni ifodalash qoidalari",
+    "body": "Millatingizni aytishda 'Je suis' (Men ...man) so'zlaridan foydalanamiz. E'tibor bering, fransuz tilida millat nomlari bosh harf bilan yozilmaydi.",
+    "example": "- Je suis ouzbek. (Men o'zbekman.)\n- Je suis français. (Men fransuzman.)"
    },
    {
-    "title": "Rasmiy va norasmiy muloqot",
-    "body": "Fransuz tilida kattalar yoki notanishlar bilan gaplashganda 'vous' (siz) shaklidan foydalanish shart. Do'stlar yoki yaqinlar bilan esa 'tu' (sen) ishlatiladi.",
-    "example": "Comment allez-vous ? (Siz qandaysiz? - rasmiy) / Comment vas-tu ? (Qalaysan? - norasmiy)"
+    "title": "Jinsga qarab o'zgarish",
+    "body": "Millatni aytganda jins muhim: ayollar uchun millat nomiga odatda '-e' qo'shimchasi qo'shiladi. Masalan, 'ouzbek' so'zi ikkala jins uchun ham o'zgarmaydi, lekin 'français' erkaklar uchun, 'française' esa ayollar uchun ishlatiladi.",
+    "example": "- Il est français. (U fransuz - o'g'il bola)\n- Elle est française. (U fransuz - qiz bola)"
    },
    {
-    "title": "Kechirim so'rash odobi",
-    "body": "Biror kishining e'tiborini tortmoqchi yoki noqulaylik uchun uzr so'ramoqchi bo'lsangiz, 'Pardon' yoki 'Excusez-moi' so'zlarini qo'llang.",
-    "example": "Excusez-moi, monsieur. (Kechirasiz, janob.) Pardon, madame. (Kechirasiz, xonim.)"
+    "title": "Test: Bilimingizni tekshiring",
+    "body": "Quyidagi savolga javob bering: Agar siz qiz bola bo'lsangiz va O'zbekistondan bo'lsangiz, o'zingizni qanday tanishtirasiz?",
+    "example": "To'g'ri javob: 'Je viens d'Ouzbékistan, je suis ouzbek.' (Eslatma: 'ouzbek' millat nomi jinsga qarab o'zgarmaydi)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "salomlashish-fr",
+  "lesson_slug": "xayrlashish-iboralari",
+  "theory": [
+   {
+    "title": "Eng ommabop xayrlashuv",
+    "body": "Fransuz tilida eng ko'p ishlatiladigan so'z bu — 'Au revoir'. Bu ibora 'yana ko'rishguncha' degan ma'noni anglatadi va ham rasmiy, ham norasmiy vaziyatlarda bemalol qo'llaniladi.",
+    "example": "- Au revoir, monsieur! (Xayr, janob!)"
+   },
+   {
+    "title": "Do'stona xayrlashish",
+    "body": "Do'stlaringiz yoki yaqinlaringiz bilan xayrlashayotganda 'Salut' so'zidan foydalaning. Bu ham 'salom', ham 'xayr' ma'nosini beradigan universal va erkin so'zdir.",
+    "example": "- Salut, Marie! À demain! (Xayr, Mari! Ertagacha!)"
+   },
+   {
+    "title": "Vaqtga bog'liq xayrlashuv",
+    "body": "Tez orada ko'rishmoqchi bo'lsangiz, 'À bientôt' (tez orada ko'rishguncha) yoki 'À plus tard' (keyinroq ko'rishguncha) iboralarini ishlatish juda o'rinli.",
+    "example": "- À bientôt ! (Tez orada ko'rishamiz!)"
+   },
+   {
+    "title": "Muayyan vaqtni belgilash",
+    "body": "Agar ertaga ko'rishishni reja qilsangiz, 'À demain' iborasini ishlating. Bu 'ertagacha' degani va kundalik muloqotda juda muhim o'rin tutadi.",
+    "example": "- Bonne journée, à demain ! (Xayrli kun, ertagacha!)"
    }
   ]
  },
@@ -644,6 +644,33 @@
     "title": "Test: Bilimingizni sinang",
     "body": "Quyidagi savolga javob bering: 'Le chat' (mushuk) so'zini ko'plik shakliga o'tkazing va to'g'ri artiklni tanlang. A) Le chats, B) Les chat, C) Les chats.",
     "example": "To'g'ri javob: C) Les chats (chunki 'chat' so'zi 's' bilan tugamaydi, shuning uchun 's' qo'shamiz va artiklni 'les' qilamiz)."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "artikl-rod-fr",
+  "lesson_slug": "otlarning-rodini-ularning-qo-shimchalari-suffikslari-orqali-",
+  "theory": [
+   {
+    "title": "Ayollik rodini aniqlash",
+    "body": "-tion, -sion, -té va -ure bilan tugaydigan barcha otlar deyarli har doim ayollik rodida bo'ladi. Ular oldidan har doim 'la' yoki 'une' artiklini ishlatamiz.",
+    "example": "la situation, une liberté, la nature"
+   },
+   {
+    "title": "Erkaklik rodini aniqlash",
+    "body": "-isme, -ment va -age bilan tugaydigan otlar odatda erkaklik rodiga mansub. Bular uchun 'le' yoki 'un' artikllarini tanlaymiz.",
+    "example": "le tourisme, un appartement, le courage"
+   },
+   {
+    "title": "Kasb va shaxs suffikslari",
+    "body": "-eur bilan tugaydigan so'zlar (agar ular kasb-hunarni anglatsa) ko'pincha erkaklik rodida bo'ladi. E'tibor bering, -e bilan tugaydigan ayol kasb egalari bundan mustasno.",
+    "example": "le professeur (o'qituvchi), le vendeur (sotuvchi)"
+   },
+   {
+    "title": "Test: To'g'ri artiklni tanlang",
+    "body": "Qoidalarni eslab qoldingizmi? Keling, tekshiramiz: '... nature' va '... logement' so'zlari uchun qaysi artikllar mos keladi?",
+    "example": "Javob: la nature, le logement"
    }
   ]
  },
@@ -731,33 +758,6 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "artikl-rod-fr",
-  "lesson_slug": "miqdor-ko-rsatkichlari-va-ravishlardan-keyin-artikllarning-t",
-  "theory": [
-   {
-    "title": "Miqdor bildiruvchi so'zlar",
-    "body": "Fransuz tilida 'beaucoup', 'peu', 'assez' kabi miqdor bildiruvchi so'zlardan so'ng ot kelsa, artikllar (le, la, les, un, une) ishlatilmaydi. Ularning o'rniga shunchaki 'de' yuklamasi qo'yiladi.",
-    "example": "J'ai beaucoup d'amis. (Ko'p do'stlarim bor.)"
-   },
-   {
-    "title": "Raflar va miqdor birliklari",
-    "body": "Kilogramm, litr, gramm yoki stakan kabi aniq o'lchov birliklari ham xuddi miqdor so'zlari kabi ishlaydi. Ulardan keyin ham artikl qo'yilmaydi, faqat 'de' ishlatiladi.",
-    "example": "Un kilo de pommes. (Bir kilo olma.)"
-   },
-   {
-    "title": "Inkor shaklida artikllar",
-    "body": "Gapni inkor qilganimizda (ne... pas), noaniq artikllar (un, une, des) tushib qoladi va ularning o'rnini 'de' egallaydi. Ammo 'le, la, les' aniq artikllari inkor paytida saqlanib qoladi.",
-    "example": "Je n'ai pas de livre. (Menda kitob yo'q.)"
-   },
-   {
-    "title": "Istisno: 'Être' fe'li",
-    "body": "Eng muhim qoida: 'Être' (bo'lmoq) fe'li bilan ishlaganda artikllar hech qachon tushib qolmaydi. Hatto inkor yoki miqdor so'zlari bo'lsa ham, artiklni saqlab qolamiz.",
-    "example": "Ce ne sont pas des livres. (Bular kitoblar emas.)"
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "artikl-rod-fr",
   "lesson_slug": "sifatlardan-oldin-kelgan-ko-plikdagi-des-artiklining-de-ga-o",
   "theory": [
    {
@@ -812,6 +812,33 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "artikl-rod-fr",
+  "lesson_slug": "miqdor-ko-rsatkichlari-va-ravishlardan-keyin-artikllarning-t",
+  "theory": [
+   {
+    "title": "Miqdor bildiruvchi so'zlar",
+    "body": "Fransuz tilida 'beaucoup', 'peu', 'assez' kabi miqdor bildiruvchi so'zlardan so'ng ot kelsa, artikllar (le, la, les, un, une) ishlatilmaydi. Ularning o'rniga shunchaki 'de' yuklamasi qo'yiladi.",
+    "example": "J'ai beaucoup d'amis. (Ko'p do'stlarim bor.)"
+   },
+   {
+    "title": "Raflar va miqdor birliklari",
+    "body": "Kilogramm, litr, gramm yoki stakan kabi aniq o'lchov birliklari ham xuddi miqdor so'zlari kabi ishlaydi. Ulardan keyin ham artikl qo'yilmaydi, faqat 'de' ishlatiladi.",
+    "example": "Un kilo de pommes. (Bir kilo olma.)"
+   },
+   {
+    "title": "Inkor shaklida artikllar",
+    "body": "Gapni inkor qilganimizda (ne... pas), noaniq artikllar (un, une, des) tushib qoladi va ularning o'rnini 'de' egallaydi. Ammo 'le, la, les' aniq artikllari inkor paytida saqlanib qoladi.",
+    "example": "Je n'ai pas de livre. (Menda kitob yo'q.)"
+   },
+   {
+    "title": "Istisno: 'Être' fe'li",
+    "body": "Eng muhim qoida: 'Être' (bo'lmoq) fe'li bilan ishlaganda artikllar hech qachon tushib qolmaydi. Hatto inkor yoki miqdor so'zlari bo'lsa ham, artiklni saqlab qolamiz.",
+    "example": "Ce ne sont pas des livres. (Bular kitoblar emas.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "artikl-rod-fr",
   "lesson_slug": "kasb-hunar-millat-va-dinni-ifodalovchi-otlar-bilan-artikllar",
   "theory": [
    {
@@ -839,33 +866,6 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "artikl-rod-fr",
-  "lesson_slug": "otlarning-rodini-ularning-qo-shimchalari-suffikslari-orqali-",
-  "theory": [
-   {
-    "title": "Ayollik rodini aniqlash",
-    "body": "-tion, -sion, -té va -ure bilan tugaydigan barcha otlar deyarli har doim ayollik rodida bo'ladi. Ular oldidan har doim 'la' yoki 'une' artiklini ishlatamiz.",
-    "example": "la situation, une liberté, la nature"
-   },
-   {
-    "title": "Erkaklik rodini aniqlash",
-    "body": "-isme, -ment va -age bilan tugaydigan otlar odatda erkaklik rodiga mansub. Bular uchun 'le' yoki 'un' artikllarini tanlaymiz.",
-    "example": "le tourisme, un appartement, le courage"
-   },
-   {
-    "title": "Kasb va shaxs suffikslari",
-    "body": "-eur bilan tugaydigan so'zlar (agar ular kasb-hunarni anglatsa) ko'pincha erkaklik rodida bo'ladi. E'tibor bering, -e bilan tugaydigan ayol kasb egalari bundan mustasno.",
-    "example": "le professeur (o'qituvchi), le vendeur (sotuvchi)"
-   },
-   {
-    "title": "Test: To'g'ri artiklni tanlang",
-    "body": "Qoidalarni eslab qoldingizmi? Keling, tekshiramiz: '... nature' va '... logement' so'zlari uchun qaysi artikllar mos keladi?",
-    "example": "Javob: la nature, le logement"
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "artikl-rod-fr",
   "lesson_slug": "rodi-o-zgarishi-bilan-ma-nosi-o-zgaradigan-otlar",
   "theory": [
    {
@@ -887,6 +887,33 @@
     "title": "Test: Ma'noni aniqlang",
     "body": "Keling, o'rganganlarimizni sinaymiz. Agar 'Le' artikli ishtirok etsa, bu odatda predmet yoki lavozim, 'La' esa joy yoki tushuncha bo'ladi. Quyidagi variantlardan to'g'risini tanlang.",
     "example": "Savol: '___ poste' (pochta idorasi) bo'lishi uchun qaysi artikl kerak? A) Le, B) La."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "fellar-fr",
+  "lesson_slug": "olmoshlar-fr",
+  "theory": [
+   {
+    "title": "Shaxs olmoshlari nima?",
+    "body": "Fransuz tilida shaxs olmoshlari – bu kishilarni yoki narsalarni koʻrsatish uchun ishlatiladigan soʻzlar. Ular feʼllar bilan birga kelib, kim yoki nima harakat qilayotganini bildiradi. Masalan, „men“, „sen“, „u“ kabi soʻzlar shaxs olmoshlari hisoblanadi.",
+    "example": "Misol: *Je* parle (Men gapiraman), *Tu* manges (Sen yemsan)."
+   },
+   {
+    "title": "Asosiy shaxs olmoshlari",
+    "body": "Fransuz tilida 6 ta asosiy shaxs olmoshi bor: *je* (men), *tu* (sen), *il/elle* (u – erkak/jinsiy aloqadorlik), *nous* (biz), *vous* (siz), *ils/elles* (ular – erkaklar/ayollar). Ularni yodlab, feʼllar bilan moslashtirishni oʻrganing.",
+    "example": "Misol: *Nous* chantons (Biz kuylaymiz), *Vous* dansez (Siz raqsga tushasiz)."
+   },
+   {
+    "title": "Feʼl bilan moslashuv",
+    "body": "Shaxs olmoshlari feʼllarning shaklini oʻzgartiradi. Masalan, *parler* (gapirish) feʼli: *je parle* (men gapiraman), *tu parles* (sen gapirasan), *il parle* (u gapiradi). Har bir shaxs uchun feʼl turlicha tugaydi – buni yodlab olish muhim!",
+    "example": "Misol: *Je* finis (Men tugataman), *Tu* finis (Sen tugatasan), *Il* finit (U tugatadi)."
+   },
+   {
+    "title": "Siz va sen farqi",
+    "body": "*Tu* – bir kishiga norasmiy murojaat (doʻst, oila), *vous* – rasmiy murojaat (kattalar, begona odamlar) yoki koʻp kishilarga. Xato qilmaslik uchun *vous* dan boshlang – bu hurmatni bildiradi.",
+    "example": "Misol: *Tu* es gentil (Sen mehribonisan), *Vous* êtes gentil (Siz mehribonsiz)."
    }
   ]
  },
@@ -947,33 +974,6 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "fellar-fr",
-  "lesson_slug": "hozirgi-zamon-fr",
-  "theory": [
-   {
-    "title": "Fransuz tilida fe'l guruhlari",
-    "body": "Fransuz tilida fe'llar tugashiga qarab 3 guruhga bo'linadi. Eng ko'p uchraydiganlari -er bilan tugaydigan 1-guruh fe'llaridir. Ularni o'rganishni boshlasak, qolganlari ham osonlashadi.",
-    "example": "Parler (gapirmoq), Manger (yemoq), Regarder (ko'rmoq)."
-   },
-   {
-    "title": "1-guruh fe'llarini tuslash",
-    "body": "1-guruh fe'llarini tuslash uchun fe'l oxiridagi -er qo'shimchasini olib tashlab, shaxsga mos yangi qo'shimchalar qo'shasiz. -e, -es, -e, -ons, -ez, -ent ketma-ketligini yodlab oling.",
-    "example": "Parler fe'li: Je parl-e, Tu parl-es, Il/Elle parl-e."
-   },
-   {
-    "title": "Ko'plik shakllari",
-    "body": "Ko'plik shakllarida (-ons, -ez, -ent) fe'l negiziga mos ravishda qo'shimchalar qo'shiladi. Esda tuting, 3-shaxs ko'plikdagi -ent qo'shimchasi o'qilmaydi, faqat yoziladi.",
-    "example": "Nous parl-ons (biz gapiramiz), Vous parl-ez (siz gapirasiz), Ils parl-ent (ular gapirishadi)."
-   },
-   {
-    "title": "Test: Fe'l tuslash amaliyoti",
-    "body": "Quyidagi fe'lni tuslab ko'ring: 'Habiter' (yashamoq). Jumlani to'ldiring: 'Je ____ à Tashkent'. Qaysi variant to'g'ri: 'habite' yoki 'habites'?",
-    "example": "To'g'ri javob: Je habite (chunki 'Je' uchun -e qo'shimchasi qo'shiladi)."
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "fellar-fr",
   "lesson_slug": "ikkinchi-guruh-ir-fe-llarining-hozirgi-zamonda-tuslanishi",
   "theory": [
    {
@@ -1022,6 +1022,33 @@
     "title": "Test: Bilimingizni sinang",
     "body": "Quyidagi gapni to'g'ri shakl bilan to'ldiring: 'Je (vendre - sotmoq) mon livre'. Shuningdek, 'Prendre' fe'lining 'Nous' shaklini toping.",
     "example": "Javob: Je vends mon livre. Nous prenons."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "fellar-fr",
+  "lesson_slug": "hozirgi-zamon-fr",
+  "theory": [
+   {
+    "title": "Fransuz tilida fe'l guruhlari",
+    "body": "Fransuz tilida fe'llar tugashiga qarab 3 guruhga bo'linadi. Eng ko'p uchraydiganlari -er bilan tugaydigan 1-guruh fe'llaridir. Ularni o'rganishni boshlasak, qolganlari ham osonlashadi.",
+    "example": "Parler (gapirmoq), Manger (yemoq), Regarder (ko'rmoq)."
+   },
+   {
+    "title": "1-guruh fe'llarini tuslash",
+    "body": "1-guruh fe'llarini tuslash uchun fe'l oxiridagi -er qo'shimchasini olib tashlab, shaxsga mos yangi qo'shimchalar qo'shasiz. -e, -es, -e, -ons, -ez, -ent ketma-ketligini yodlab oling.",
+    "example": "Parler fe'li: Je parl-e, Tu parl-es, Il/Elle parl-e."
+   },
+   {
+    "title": "Ko'plik shakllari",
+    "body": "Ko'plik shakllarida (-ons, -ez, -ent) fe'l negiziga mos ravishda qo'shimchalar qo'shiladi. Esda tuting, 3-shaxs ko'plikdagi -ent qo'shimchasi o'qilmaydi, faqat yoziladi.",
+    "example": "Nous parl-ons (biz gapiramiz), Vous parl-ez (siz gapirasiz), Ils parl-ent (ular gapirishadi)."
+   },
+   {
+    "title": "Test: Fe'l tuslash amaliyoti",
+    "body": "Quyidagi fe'lni tuslab ko'ring: 'Habiter' (yashamoq). Jumlani to'ldiring: 'Je ____ à Tashkent'. Qaysi variant to'g'ri: 'habite' yoki 'habites'?",
+    "example": "To'g'ri javob: Je habite (chunki 'Je' uchun -e qo'shimchasi qo'shiladi)."
    }
   ]
  },
@@ -1082,33 +1109,6 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "fellar-fr",
-  "lesson_slug": "yaqin-kelgusi-futur-proche-va-yaqin-o-tgan-passe-recent-zamo",
-  "theory": [
-   {
-    "title": "Yaqin kelgusi zamon (Futur proche)",
-    "body": "Yaqin kelgusida sodir bo'ladigan ish-harakatni bildirish uchun 'Aller' fe'lini hozirgi zamonda (présent) qo'llab, unga asosiy fe'lning boshlang'ich shaklini (infinitif) qo'shamiz. Bu xuddi o'zbek tilidagi 'bormoqchiman' yoki 'qilmoqchiman' degan ma'noni beradi.",
-    "example": "Je vais manger. (Men ovqatlanmoqchiman/ovqatlanishim kerak.)"
-   },
-   {
-    "title": "Yaqin o'tgan zamon (Passé récent)",
-    "body": "Yaqin daqiqalarda bo'lib o'tgan ish-harakatni ifodalash uchun 'Venir' fe'lini hozirgi zamonda ishlatamiz, unga 'de' predlogi va asosiy fe'lning infinitif shaklini qo'shamiz. Bu 'endigina qildim' degan ma'noda ishlatiladi.",
-    "example": "Je viens de manger. (Men endigina ovqatlandim.)"
-   },
-   {
-    "title": "Eslatma: Aller va Venir fe'llari",
-    "body": "Bu zamonlarni tuzish uchun 'Aller' (borish) va 'Venir' (kelish) fe'llarining tuslanishini yoddan bilish shart. E'tibor bering, ikkinchi fe'l har doim o'zgarmas, ya'ni infinitif holatda qoladi.",
-    "example": "Il va partir. (U ketmoqchi.) Ils viennent de partir. (Ular endigina ketishdi.)"
-   },
-   {
-    "title": "O'zini tekshirish testi",
-    "body": "Quyidagi savolga javob bering: 'Men endigina darsni tugatdim' iborasini fransuzchada qanday aytamiz? A) Je vais finir le cours. B) Je viens de finir le cours. C) Je viens finir le cours.",
-    "example": "To'g'ri javob: B (Chunki 'venir de + infinitif' yaqin o'tgan zamonni bildiradi)."
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "fellar-fr",
   "lesson_slug": "murakkab-o-tgan-zamon-passe-compose",
   "theory": [
    {
@@ -1130,6 +1130,33 @@
     "title": "Être yordamchi fe'li",
     "body": "Ba'zi fe'llar (harakatni ifodalovchi, masalan: aller, venir, partir) 'avoir' emas, 'être' yordamchi fe'li bilan keladi. 'Être' bilan kelganda, fe'lga eganing jinsiga (ayol kishi bo'lsa -e) va soniga (ko'plikda -s) qarab qo'shimcha qo'shiladi.",
     "example": "Elle est allée. (U bordi - qiz bola.) / Ils sont partis. (Ular ketishdi.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "fellar-fr",
+  "lesson_slug": "yaqin-kelgusi-futur-proche-va-yaqin-o-tgan-passe-recent-zamo",
+  "theory": [
+   {
+    "title": "Yaqin kelgusi zamon (Futur proche)",
+    "body": "Yaqin kelgusida sodir bo'ladigan ish-harakatni bildirish uchun 'Aller' fe'lini hozirgi zamonda (présent) qo'llab, unga asosiy fe'lning boshlang'ich shaklini (infinitif) qo'shamiz. Bu xuddi o'zbek tilidagi 'bormoqchiman' yoki 'qilmoqchiman' degan ma'noni beradi.",
+    "example": "Je vais manger. (Men ovqatlanmoqchiman/ovqatlanishim kerak.)"
+   },
+   {
+    "title": "Yaqin o'tgan zamon (Passé récent)",
+    "body": "Yaqin daqiqalarda bo'lib o'tgan ish-harakatni ifodalash uchun 'Venir' fe'lini hozirgi zamonda ishlatamiz, unga 'de' predlogi va asosiy fe'lning infinitif shaklini qo'shamiz. Bu 'endigina qildim' degan ma'noda ishlatiladi.",
+    "example": "Je viens de manger. (Men endigina ovqatlandim.)"
+   },
+   {
+    "title": "Eslatma: Aller va Venir fe'llari",
+    "body": "Bu zamonlarni tuzish uchun 'Aller' (borish) va 'Venir' (kelish) fe'llarining tuslanishini yoddan bilish shart. E'tibor bering, ikkinchi fe'l har doim o'zgarmas, ya'ni infinitif holatda qoladi.",
+    "example": "Il va partir. (U ketmoqchi.) Ils viennent de partir. (Ular endigina ketishdi.)"
+   },
+   {
+    "title": "O'zini tekshirish testi",
+    "body": "Quyidagi savolga javob bering: 'Men endigina darsni tugatdim' iborasini fransuzchada qanday aytamiz? A) Je vais finir le cours. B) Je viens de finir le cours. C) Je viens finir le cours.",
+    "example": "To'g'ri javob: B (Chunki 'venir de + infinitif' yaqin o'tgan zamonni bildiradi)."
    }
   ]
  },
@@ -1184,33 +1211,6 @@
     "title": "Test: Bilimingizni sinang",
     "body": "Quyidagi fe'llarni Futur Simple zamoniga o'tkazing: 1) Parler (je) -> ?, 2) Finir (tu) -> ?, 3) Prendre (nous) -> ? Javoblar: 1) Je parlerai, 2) Tu finiras, 3) Nous prendrons.",
     "example": "Eslatma: Doim fe'lning to'liq shaklini saqlab qolishga harakat qiling!"
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "fellar-fr",
-  "lesson_slug": "olmoshlar-fr",
-  "theory": [
-   {
-    "title": "Shaxs olmoshlari nima?",
-    "body": "Fransuz tilida shaxs olmoshlari – bu kishilarni yoki narsalarni koʻrsatish uchun ishlatiladigan soʻzlar. Ular feʼllar bilan birga kelib, kim yoki nima harakat qilayotganini bildiradi. Masalan, „men“, „sen“, „u“ kabi soʻzlar shaxs olmoshlari hisoblanadi.",
-    "example": "Misol: *Je* parle (Men gapiraman), *Tu* manges (Sen yemsan)."
-   },
-   {
-    "title": "Asosiy shaxs olmoshlari",
-    "body": "Fransuz tilida 6 ta asosiy shaxs olmoshi bor: *je* (men), *tu* (sen), *il/elle* (u – erkak/jinsiy aloqadorlik), *nous* (biz), *vous* (siz), *ils/elles* (ular – erkaklar/ayollar). Ularni yodlab, feʼllar bilan moslashtirishni oʻrganing.",
-    "example": "Misol: *Nous* chantons (Biz kuylaymiz), *Vous* dansez (Siz raqsga tushasiz)."
-   },
-   {
-    "title": "Feʼl bilan moslashuv",
-    "body": "Shaxs olmoshlari feʼllarning shaklini oʻzgartiradi. Masalan, *parler* (gapirish) feʼli: *je parle* (men gapiraman), *tu parles* (sen gapirasan), *il parle* (u gapiradi). Har bir shaxs uchun feʼl turlicha tugaydi – buni yodlab olish muhim!",
-    "example": "Misol: *Je* finis (Men tugataman), *Tu* finis (Sen tugatasan), *Il* finit (U tugatadi)."
-   },
-   {
-    "title": "Siz va sen farqi",
-    "body": "*Tu* – bir kishiga norasmiy murojaat (doʻst, oila), *vous* – rasmiy murojaat (kattalar, begona odamlar) yoki koʻp kishilarga. Xato qilmaslik uchun *vous* dan boshlang – bu hurmatni bildiradi.",
-    "example": "Misol: *Tu* es gentil (Sen mehribonisan), *Vous* êtes gentil (Siz mehribonsiz)."
    }
   ]
  },
@@ -1325,6 +1325,33 @@
  {
   "subject_slug": "fransuz_tili",
   "unit_slug": "sonlar-kundalik-fr",
+  "lesson_slug": "yo-nalish-ko-rsatish-va-manzillarni-so-rash",
+  "theory": [
+   {
+    "title": "Manzilni muloyim so'rash",
+    "body": "Fransuz tilida kimgadir murojaat qilib manzil so'rashda albatta 'Pardonne-moi' (Kechirasiz) yoki 'Excusez-moi' so'zlaridan boshlaymiz. Keyin esa 'O'sha joy qayerda?' deb so'rash uchun 'Où est...?' qolipini ishlatamiz.",
+    "example": "Excusez-moi, où est la gare? (Kechirasiz, vokzal qayerda?)"
+   },
+   {
+    "title": "Asosiy yo'nalish fe'llari",
+    "body": "Yo'nalish ko'rsatishda eng ko'p ishlatiladigan harakatlar bular: to'g'ri yurish ('aller tout droit') va burilish. O'ngga burilish uchun 'tourner à droite', chapga burilish uchun esa 'tourner à gauche' deymiz.",
+    "example": "Allez tout droit, puis tournez à droite. (To'g'ri yuring, keyin o'ngga buriling.)"
+   },
+   {
+    "title": "Joylashuv va mo'ljallar",
+    "body": "Biror joyning qayerda joylashganini tushuntirish uchun predloglar muhim. 'En face de' (ro'parasida), 'à côté de' (yonida) va 'entre' (orasida) so'zlarini yodlab oling, ular imtihonda juda ko'p keladi.",
+    "example": "La pharmacie est à côté de la banque. (Dorixona bankning yonida.)"
+   },
+   {
+    "title": "Masofa va vaqtni so'rash",
+    "body": "Manzilga qancha masofa qolganini yoki piyoda qancha vaqt ketishini so'rash uchun 'C'est loin d'ici?' (Bu yerdan uzoqmi?) yoki 'Combien de temps...?' qoliplarini ishlatamiz.",
+    "example": "C'est loin d'ici? – Non, c'est à cinq minutes à pied. (Bu yerdan uzoqmi? – Yo'q, piyoda besh daqiqalik yo'l.)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "fransuz_tili",
+  "unit_slug": "sonlar-kundalik-fr",
   "lesson_slug": "narxlar-pul-birliklari-va-xarid-qilish",
   "theory": [
    {
@@ -1422,33 +1449,6 @@
     "title": "Vaqtni qismlarga bo'lish: yarim va chorak",
     "body": "Faqat to'liq soatlar bilan cheklanib qolmaymiz! Fransuz tilida \"yarim\" uchun \"et demie\" (va yarim), \"chorak o'tdi\" uchun \"et quart\" so'zlarini qo'shamiz. Bu sizga aniqroq reja tuzishga yordam beradi.",
     "example": "Il est huit heures et demie. (Soat sakkiz yarim.)\nIl est dix heures et quart. (Soat o'n o'n besh / o'n dan chorak o'tdi.)"
-   }
-  ]
- },
- {
-  "subject_slug": "fransuz_tili",
-  "unit_slug": "sonlar-kundalik-fr",
-  "lesson_slug": "yo-nalish-ko-rsatish-va-manzillarni-so-rash",
-  "theory": [
-   {
-    "title": "Manzilni muloyim so'rash",
-    "body": "Fransuz tilida kimgadir murojaat qilib manzil so'rashda albatta 'Pardonne-moi' (Kechirasiz) yoki 'Excusez-moi' so'zlaridan boshlaymiz. Keyin esa 'O'sha joy qayerda?' deb so'rash uchun 'Où est...?' qolipini ishlatamiz.",
-    "example": "Excusez-moi, où est la gare? (Kechirasiz, vokzal qayerda?)"
-   },
-   {
-    "title": "Asosiy yo'nalish fe'llari",
-    "body": "Yo'nalish ko'rsatishda eng ko'p ishlatiladigan harakatlar bular: to'g'ri yurish ('aller tout droit') va burilish. O'ngga burilish uchun 'tourner à droite', chapga burilish uchun esa 'tourner à gauche' deymiz.",
-    "example": "Allez tout droit, puis tournez à droite. (To'g'ri yuring, keyin o'ngga buriling.)"
-   },
-   {
-    "title": "Joylashuv va mo'ljallar",
-    "body": "Biror joyning qayerda joylashganini tushuntirish uchun predloglar muhim. 'En face de' (ro'parasida), 'à côté de' (yonida) va 'entre' (orasida) so'zlarini yodlab oling, ular imtihonda juda ko'p keladi.",
-    "example": "La pharmacie est à côté de la banque. (Dorixona bankning yonida.)"
-   },
-   {
-    "title": "Masofa va vaqtni so'rash",
-    "body": "Manzilga qancha masofa qolganini yoki piyoda qancha vaqt ketishini so'rash uchun 'C'est loin d'ici?' (Bu yerdan uzoqmi?) yoki 'Combien de temps...?' qoliplarini ishlatamiz.",
-    "example": "C'est loin d'ici? – Non, c'est à cinq minutes à pied. (Bu yerdan uzoqmi? – Yo'q, piyoda besh daqiqalik yo'l.)"
    }
   ]
  },

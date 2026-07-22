@@ -56,60 +56,6 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "mexanika-kinematika",
-  "lesson_slug": "erkin-tushish",
-  "theory": [
-   {
-    "title": "Erkin tushish nima?",
-    "body": "Faqat Yerning tortishish kuchi ta'sirida, havoning qarshiligini hisobga olmaganda sodir bo'ladigan harakatni erkin tushish deymiz. Bu harakatda barcha jismlar massasidan qat'iy nazar bir xil tezlanish bilan tushadi.",
-    "example": "Vakuum sharoitida (havo bo'lmaganda) temir sharcha va pat bir vaqtda yerga tushadi."
-   },
-   {
-    "title": "Erkin tushish tezlanishi",
-    "body": "Erkin tushayotgan jismning tezligi har soniyada taxminan 9.8 m/s ga ortib boradi. Fizikada bu qiymatni 'g' harfi bilan belgilaymiz va uni erkin tushish tezlanishi deb ataymiz, hisoblashda ko'pincha g=10 m/s² deb olamiz.",
-    "example": "Agar jism tinch holatdan tushishni boshlasa, 1 soniyadan keyin uning tezligi 10 m/s, 2 soniyadan keyin esa 20 m/s bo'ladi."
-   },
-   {
-    "title": "Boshlang'ich tezliksiz tushish",
-    "body": "Agar jismni shunchaki qo'ldan qo'yib yuborsangiz (boshlang'ich tezlik nol bo'lsa), u bosib o'tgan yo'lni h = (g * t²) / 2 formulasi orqali topamiz. Ya'ni, vaqt qancha ko'p bo'lsa, jism shunchalik tezroq pastga qarab 'tezlashadi'.",
-    "example": "Bino tomidan tushib ketgan tosh 3 soniyada qancha masofani bosib o'tadi? Javob: h = (10 * 3²) / 2 = 45 metr."
-   },
-   {
-    "title": "Yuqoriga otilgan jism harakati",
-    "body": "Jismni yuqoriga otganingizda u sekinlashib boradi, chunki Yer tortishish kuchi uni pastga tortadi. Eng yuqori nuqtada jism bir lahzaga to'xtaydi (tezligi 0 bo'ladi) va yana pastga qarab tushishni boshlaydi.",
-    "example": "To'pni osmonga tepganingizda, u eng yuqori nuqtaga yetguncha tezligi kamayadi, so'ngra u yana yerga qarab tezlanib tushadi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "mexanika-kinematika",
-  "lesson_slug": "nisbiy-harakat-va-tezliklarni-qo-shish-qonuni",
-  "theory": [
-   {
-    "title": "Nisbiy harakat nima?",
-    "body": "Atrofdagi narsalar harakatlanayotganini aniqlash uchun biz ularni biror narsaga nisbatan kuzatamiz. Sen harakatlanayotgan avtobusda o'tiribsan: yo'l chetidagi daraxtlarga nisbatan harakatdasan, lekin o'rindiqqa nisbatan tinch turibsan. Demak, harakat narsaning kuzatuvchiga nisbatan o'rnini o'zgarishidir.",
-    "example": "Poyezd vagonida ketayotgan yo‘lovchi vagon ichidagi o‘rindiqqa nisbatan tinch, lekin temir yo‘l stansiyasiga nisbatan harakatda."
-   },
-   {
-    "title": "Tezliklarni qo'shish qonuni",
-    "body": "Agar jism biror transport vositasida harakatlansa, uning umumiy tezligi ikkita tezlik yig‘indisiga teng. Agar odam transport bilan bir yo‘nalishda yursa, tezliklar qo‘shiladi, qarama-qarshi yursa, ayiriladi. Bu huddi oqim bo‘ylab yoki oqimga qarshi suzayotgan qayiq kabidir.",
-    "example": "Soati 5 km tezlikda yuradigan odam, 50 km/soat tezlikdagi poyezd ichida poyezd yo‘nalishida yursa, yerga nisbatan uning tezligi 55 km/soat bo‘ladi."
-   },
-   {
-    "title": "Vektorli qo'shish usuli",
-    "body": "Tezliklarni har doim ham oddiy qo‘shib bo‘lmaydi, chunki ular yo‘nalishga ega. Agar ikki jism bir-biriga tik (perpendikulyar) yo‘nalishda harakatlansa, ularning nisbiy tezligini topishda Pifagor teoremasidan foydalanamiz. Vektorlar har doim boshlanish va tugash nuqtalari bilan hisobga olinadi.",
-    "example": "Shimolga qarab 3 m/s tezlikda suzayotgan kema, sharqqa qarab 4 m/s tezlikda esayotgan shamol ta’sirida 5 m/s tezlik bilan harakatlanadi (3² + 4² = 5²)."
-   },
-   {
-    "title": "Test: Bilimingni tekshir",
-    "body": "Quyidagi savolga javob ber: Agar daryo oqimi 2 m/s, qayiqning turg‘un suvdagi tezligi esa 8 m/s bo‘lsa, qayiq oqim bo‘ylab harakatlanganda yerga nisbatan qanday tezlikka ega bo‘ladi? Javob variantlari: A) 6 m/s, B) 10 m/s, C) 16 m/s.",
-    "example": "To‘g‘ri javob: B) 10 m/s (chunki bir xil yo‘nalishda tezliklar qo‘shiladi: 8 + 2 = 10)."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "mexanika-kinematika",
   "lesson_slug": "kinematik-grafiklar-va-ularni-tahlil-qilish",
   "theory": [
    {
@@ -131,6 +77,33 @@
     "title": "Grafik ostidagi yuzaning ma'nosi",
     "body": "Tezlik-vaqt (v-t) grafigi ostida qolgan shaklning yuzi jism qancha masofa bosib o'tganini ko'rsatadi. Bu fizika masalalarida tezlik va vaqtni ko'paytirish (v * t) orqali masofani topishning grafik usulidir.",
     "example": "To'g'ri to'rtburchak shaklidagi grafik ostidagi yuzani hisoblasangiz, jism bosib o'tgan aniq yo'lni topasiz."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-kinematika",
+  "lesson_slug": "erkin-tushish",
+  "theory": [
+   {
+    "title": "Erkin tushish nima?",
+    "body": "Faqat Yerning tortishish kuchi ta'sirida, havoning qarshiligini hisobga olmaganda sodir bo'ladigan harakatni erkin tushish deymiz. Bu harakatda barcha jismlar massasidan qat'iy nazar bir xil tezlanish bilan tushadi.",
+    "example": "Vakuum sharoitida (havo bo'lmaganda) temir sharcha va pat bir vaqtda yerga tushadi."
+   },
+   {
+    "title": "Erkin tushish tezlanishi",
+    "body": "Erkin tushayotgan jismning tezligi har soniyada taxminan 9.8 m/s ga ortib boradi. Fizikada bu qiymatni 'g' harfi bilan belgilaymiz va uni erkin tushish tezlanishi deb ataymiz, hisoblashda ko'pincha g=10 m/s² deb olamiz.",
+    "example": "Agar jism tinch holatdan tushishni boshlasa, 1 soniyadan keyin uning tezligi 10 m/s, 2 soniyadan keyin esa 20 m/s bo'ladi."
+   },
+   {
+    "title": "Boshlang'ich tezliksiz tushish",
+    "body": "Agar jismni shunchaki qo'ldan qo'yib yuborsangiz (boshlang'ich tezlik nol bo'lsa), u bosib o'tgan yo'lni h = (g * t²) / 2 formulasi orqali topamiz. Ya'ni, vaqt qancha ko'p bo'lsa, jism shunchalik tezroq pastga qarab 'tezlashadi'.",
+    "example": "Bino tomidan tushib ketgan tosh 3 soniyada qancha masofani bosib o'tadi? Javob: h = (10 * 3²) / 2 = 45 metr."
+   },
+   {
+    "title": "Yuqoriga otilgan jism harakati",
+    "body": "Jismni yuqoriga otganingizda u sekinlashib boradi, chunki Yer tortishish kuchi uni pastga tortadi. Eng yuqori nuqtada jism bir lahzaga to'xtaydi (tezligi 0 bo'ladi) va yana pastga qarab tushishni boshlaydi.",
+    "example": "To'pni osmonga tepganingizda, u eng yuqori nuqtaga yetguncha tezligi kamayadi, so'ngra u yana yerga qarab tezlanib tushadi."
    }
   ]
  },
@@ -212,6 +185,33 @@
     "title": "Traektoriya shakli: Parabola",
     "body": "Havo qarshiligini hisobga olmasak, jism har doim simmetrik parabola shaklidagi yo‘lni bosib o‘tadi. Bu degani, jismning ko‘tarilish vaqti va tushish vaqti bir-biriga teng bo‘ladi.",
     "example": "Futbol to‘pi maydonda uchib o‘tgan yoy shaklidagi chiziq aynan paraboladir."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-kinematika",
+  "lesson_slug": "nisbiy-harakat-va-tezliklarni-qo-shish-qonuni",
+  "theory": [
+   {
+    "title": "Nisbiy harakat nima?",
+    "body": "Atrofdagi narsalar harakatlanayotganini aniqlash uchun biz ularni biror narsaga nisbatan kuzatamiz. Sen harakatlanayotgan avtobusda o'tiribsan: yo'l chetidagi daraxtlarga nisbatan harakatdasan, lekin o'rindiqqa nisbatan tinch turibsan. Demak, harakat narsaning kuzatuvchiga nisbatan o'rnini o'zgarishidir.",
+    "example": "Poyezd vagonida ketayotgan yo‘lovchi vagon ichidagi o‘rindiqqa nisbatan tinch, lekin temir yo‘l stansiyasiga nisbatan harakatda."
+   },
+   {
+    "title": "Tezliklarni qo'shish qonuni",
+    "body": "Agar jism biror transport vositasida harakatlansa, uning umumiy tezligi ikkita tezlik yig‘indisiga teng. Agar odam transport bilan bir yo‘nalishda yursa, tezliklar qo‘shiladi, qarama-qarshi yursa, ayiriladi. Bu huddi oqim bo‘ylab yoki oqimga qarshi suzayotgan qayiq kabidir.",
+    "example": "Soati 5 km tezlikda yuradigan odam, 50 km/soat tezlikdagi poyezd ichida poyezd yo‘nalishida yursa, yerga nisbatan uning tezligi 55 km/soat bo‘ladi."
+   },
+   {
+    "title": "Vektorli qo'shish usuli",
+    "body": "Tezliklarni har doim ham oddiy qo‘shib bo‘lmaydi, chunki ular yo‘nalishga ega. Agar ikki jism bir-biriga tik (perpendikulyar) yo‘nalishda harakatlansa, ularning nisbiy tezligini topishda Pifagor teoremasidan foydalanamiz. Vektorlar har doim boshlanish va tugash nuqtalari bilan hisobga olinadi.",
+    "example": "Shimolga qarab 3 m/s tezlikda suzayotgan kema, sharqqa qarab 4 m/s tezlikda esayotgan shamol ta’sirida 5 m/s tezlik bilan harakatlanadi (3² + 4² = 5²)."
+   },
+   {
+    "title": "Test: Bilimingni tekshir",
+    "body": "Quyidagi savolga javob ber: Agar daryo oqimi 2 m/s, qayiqning turg‘un suvdagi tezligi esa 8 m/s bo‘lsa, qayiq oqim bo‘ylab harakatlanganda yerga nisbatan qanday tezlikka ega bo‘ladi? Javob variantlari: A) 6 m/s, B) 10 m/s, C) 16 m/s.",
+    "example": "To‘g‘ri javob: B) 10 m/s (chunki bir xil yo‘nalishda tezliklar qo‘shiladi: 8 + 2 = 10)."
    }
   ]
  },
@@ -358,33 +358,6 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "mexanika-dinamika",
-  "lesson_slug": "impuls-saqlanish",
-  "theory": [
-   {
-    "title": "Impuls nima?",
-    "body": "Jismning harakat miqdorini ifodalovchi fizik kattalik impuls deyiladi. U jismning massasi (m) va tezligi (v) ko'paytmasiga teng (p=mv). Tushunish uchun oddiy qoida: jism qanchalik og'ir bo'lsa yoki qanchalik tez harakatlansa, uning impulsi shunchalik katta bo'ladi.",
-    "example": "Sekin harakatlanayotgan yuk mashinasining impulsi katta, chunki massasi juda katta. Xuddi shunday, o'ta tez uchayotgan kichik o'q ham katta impulsga ega."
-   },
-   {
-    "title": "Impulsning saqlanish qonuni",
-    "body": "Tashqi kuchlar ta'sir qilmaydigan berk tizimda jismlarning umumiy impulsi o'zgarmaydi. Bu shuni anglatadiki, to'qnashuvdan oldingi jami impuls to'qnashuvdan keyingi jami impulsga teng bo'ladi.",
-    "example": "Bilyard stolida ikkita shar to'qnashganda, ular to'qnashuvdan oldin qanday harakatda bo'lsa, to'qnashuvdan keyin ham shu impuls miqdori saqlanib qoladi."
-   },
-   {
-    "title": "Reaktiv harakat",
-    "body": "Impulsning saqlanish qonunining eng qiziqarli ko'rinishi – reaktiv harakatdir. Jism o'zidan biror qismni (gaz yoki suyuqlikni) katta tezlik bilan orqaga itarib chiqarsa, jismning o'zi qarama-qarshi tomonga qarab harakatlanadi.",
-    "example": "Raketa yoqilg'isi yonganda, gazlar katta tezlikda orqaga otilib chiqadi va bu raketani oldinga qarab 'tepadi'. Xuddi shunday, puflangan sharni qo'yib yuborsangiz, havo chiqib ketishi evaziga u oldinga uchadi."
-   },
-   {
-    "title": "Test savollari",
-    "body": "1. Massasi 2 kg bo'lgan jism 5 m/s tezlik bilan harakatlansa, uning impulsi nimaga teng? 2. Ikkita shar to'qnashganda ularning umumiy impulsi qanday o'zgaradi? 3. Raketa qaysi qonunga asosan fazoda harakatlana oladi?",
-    "example": "Javoblar: 1) 10 kg·m/s (p=m*v). 2) O'zgarmaydi. 3) Impulsning saqlanish qonuni (reaktiv harakat)."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "mexanika-dinamika",
   "lesson_slug": "elastiklik-kuchi-guk-qonuni",
   "theory": [
    {
@@ -471,33 +444,6 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "mexanika-dinamika",
-  "lesson_slug": "aylana-bo-ylab-harakat-dinamikasi-markazga-intilma-kuch",
-  "theory": [
-   {
-    "title": "Aylana bo'ylab harakat nima?",
-    "body": "Jism to'g'ri chiziq bo'ylab emas, balki egri chiziq – aylana bo'ylab harakatlansa, uning tezlik yo'nalishi doimo o'zgarib turadi. Tezlikning yo'nalishi o'zgarishi uchun jismga markazga yo'nalgan kuch ta'sir qilishi shart. Aynan shu kuch jismni aylanib qolishga majbur qiladi.",
-    "example": "Iplangan toshni boshingiz uzra aylantirganingizda, ipdagi taranglik kuchi toshni markazga tortib turadi."
-   },
-   {
-    "title": "Markazga intilma kuch tushunchasi",
-    "body": "Markazga intilma kuch – bu jismni aylana bo'ylab ushlab turuvchi kuchdir. U har doim aylana markaziga qarab yo'nalgan bo'ladi va tezlik vektoriga perpendikulyar turadi. Bu kuch yo'qolsa, jism aylana bo'ylab harakatni to'xtatib, to'g'ri chiziq bo'ylab uchib ketadi.",
-    "example": "Avtomobil burilishda harakatlanayotganda, uni yo'ldan chiqib ketishdan saqlab turuvchi kuch – g'ildiraklar va yo'l orasidagi ishqalanish kuchidir."
-   },
-   {
-    "title": "Kuchning matematik formulasi",
-    "body": "Markazga intilma kuch (F) jismning massasi (m), uning tezligi (v) va aylananing radiusi (R) ga bog'liq. Formula quyidagicha: F = (m * v²) / R. Ya'ni, tezlik qancha katta bo'lsa yoki burilish radiusi qancha kichik bo'lsa, uni ushlab turish uchun shuncha ko'p kuch kerak bo'ladi.",
-    "example": "Kichikroq burilishda (R kamayganda) avtomobilni ushlab turish uchun ishqalanish kuchi (F) sezilarli darajada oshishi kerak."
-   },
-   {
-    "title": "Markazga intilma tezlanish",
-    "body": "Har qanday kuch jismga tezlanish beradi, demak, markazga intilma kuch ham tezlanish hosil qiladi. Bu tezlanish (a) markazga intilma kuch bilan bir xil yo'nalgan bo'ladi. Uning qiymati tezlikning kvadrati va radiusning nisbatiga teng: a = v² / R.",
-    "example": "Karuselning chetida o'tirgan odam markazga qarab tortilishni his qiladi, chunki uning tezlanishi aynan aylana markaziga yo'nalgan bo'ladi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "mexanika-dinamika",
   "lesson_slug": "qiya-tekislikdagi-harakat-dinamikasi",
   "theory": [
    {
@@ -519,6 +465,33 @@
     "title": "Nyutonning ikkinchi qonuni",
     "body": "Qiya tekislikdagi jismning tezlanishini topish uchun Nyutonning ikkinchi qonunidan foydalanamiz: F_tortuvchi - F_ishqalanish = m * a. Demak, tezlanish jismning massasiga bog'liq emas, balki faqat burchak va ishqalanish koeffitsiyentiga bog'liq.",
     "example": "Vakuumda yoki ishqalanishsiz sharoitda og'ir va yengil jism qiya tekislikdan bir xil tezlanish bilan tushadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "aylana-bo-ylab-harakat-dinamikasi-markazga-intilma-kuch",
+  "theory": [
+   {
+    "title": "Aylana bo'ylab harakat nima?",
+    "body": "Jism to'g'ri chiziq bo'ylab emas, balki egri chiziq – aylana bo'ylab harakatlansa, uning tezlik yo'nalishi doimo o'zgarib turadi. Tezlikning yo'nalishi o'zgarishi uchun jismga markazga yo'nalgan kuch ta'sir qilishi shart. Aynan shu kuch jismni aylanib qolishga majbur qiladi.",
+    "example": "Iplangan toshni boshingiz uzra aylantirganingizda, ipdagi taranglik kuchi toshni markazga tortib turadi."
+   },
+   {
+    "title": "Markazga intilma kuch tushunchasi",
+    "body": "Markazga intilma kuch – bu jismni aylana bo'ylab ushlab turuvchi kuchdir. U har doim aylana markaziga qarab yo'nalgan bo'ladi va tezlik vektoriga perpendikulyar turadi. Bu kuch yo'qolsa, jism aylana bo'ylab harakatni to'xtatib, to'g'ri chiziq bo'ylab uchib ketadi.",
+    "example": "Avtomobil burilishda harakatlanayotganda, uni yo'ldan chiqib ketishdan saqlab turuvchi kuch – g'ildiraklar va yo'l orasidagi ishqalanish kuchidir."
+   },
+   {
+    "title": "Kuchning matematik formulasi",
+    "body": "Markazga intilma kuch (F) jismning massasi (m), uning tezligi (v) va aylananing radiusi (R) ga bog'liq. Formula quyidagicha: F = (m * v²) / R. Ya'ni, tezlik qancha katta bo'lsa yoki burilish radiusi qancha kichik bo'lsa, uni ushlab turish uchun shuncha ko'p kuch kerak bo'ladi.",
+    "example": "Kichikroq burilishda (R kamayganda) avtomobilni ushlab turish uchun ishqalanish kuchi (F) sezilarli darajada oshishi kerak."
+   },
+   {
+    "title": "Markazga intilma tezlanish",
+    "body": "Har qanday kuch jismga tezlanish beradi, demak, markazga intilma kuch ham tezlanish hosil qiladi. Bu tezlanish (a) markazga intilma kuch bilan bir xil yo'nalgan bo'ladi. Uning qiymati tezlikning kvadrati va radiusning nisbatiga teng: a = v² / R.",
+    "example": "Karuselning chetida o'tirgan odam markazga qarab tortilishni his qiladi, chunki uning tezlanishi aynan aylana markaziga yo'nalgan bo'ladi."
    }
   ]
  },
@@ -573,6 +546,33 @@
     "title": "Test: Bilimingizni sinab ko‘ring",
     "body": "Savol: Avtobus oldinga qarab tezlanish bilan harakatlana boshladi. Bu vaqtda avtobus ichidagi yo‘lovchi qaysi tomonga qarab 'turtiladi' va nima uchun? A) Oldinga, chunki u harakatga intiladi. B) Orqaga, chunki inertsiya kuchi tezlanishga qarama-qarshi ta'sir qiladi. C) Hech qayerga, chunki kuch ta'sir qilmaydi.",
     "example": "To‘g‘ri javob: B. Avtobusning tezlanishi oldinga bo‘lgani uchun, inertsiya kuchi orqaga yo‘naladi va yo‘lovchini orqaga 'itaradi'."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "mexanika-dinamika",
+  "lesson_slug": "impuls-saqlanish",
+  "theory": [
+   {
+    "title": "Impuls nima?",
+    "body": "Jismning harakat miqdorini ifodalovchi fizik kattalik impuls deyiladi. U jismning massasi (m) va tezligi (v) ko'paytmasiga teng (p=mv). Tushunish uchun oddiy qoida: jism qanchalik og'ir bo'lsa yoki qanchalik tez harakatlansa, uning impulsi shunchalik katta bo'ladi.",
+    "example": "Sekin harakatlanayotgan yuk mashinasining impulsi katta, chunki massasi juda katta. Xuddi shunday, o'ta tez uchayotgan kichik o'q ham katta impulsga ega."
+   },
+   {
+    "title": "Impulsning saqlanish qonuni",
+    "body": "Tashqi kuchlar ta'sir qilmaydigan berk tizimda jismlarning umumiy impulsi o'zgarmaydi. Bu shuni anglatadiki, to'qnashuvdan oldingi jami impuls to'qnashuvdan keyingi jami impulsga teng bo'ladi.",
+    "example": "Bilyard stolida ikkita shar to'qnashganda, ular to'qnashuvdan oldin qanday harakatda bo'lsa, to'qnashuvdan keyin ham shu impuls miqdori saqlanib qoladi."
+   },
+   {
+    "title": "Reaktiv harakat",
+    "body": "Impulsning saqlanish qonunining eng qiziqarli ko'rinishi – reaktiv harakatdir. Jism o'zidan biror qismni (gaz yoki suyuqlikni) katta tezlik bilan orqaga itarib chiqarsa, jismning o'zi qarama-qarshi tomonga qarab harakatlanadi.",
+    "example": "Raketa yoqilg'isi yonganda, gazlar katta tezlikda orqaga otilib chiqadi va bu raketani oldinga qarab 'tepadi'. Xuddi shunday, puflangan sharni qo'yib yuborsangiz, havo chiqib ketishi evaziga u oldinga uchadi."
+   },
+   {
+    "title": "Test savollari",
+    "body": "1. Massasi 2 kg bo'lgan jism 5 m/s tezlik bilan harakatlansa, uning impulsi nimaga teng? 2. Ikkita shar to'qnashganda ularning umumiy impulsi qanday o'zgaradi? 3. Raketa qaysi qonunga asosan fazoda harakatlana oladi?",
+    "example": "Javoblar: 1) 10 kg·m/s (p=m*v). 2) O'zgarmaydi. 3) Impulsning saqlanish qonuni (reaktiv harakat)."
    }
   ]
  },
@@ -660,27 +660,27 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "ish-energiya",
-  "lesson_slug": "energiya-saqlanish",
+  "lesson_slug": "elastik-deformatsiyalangan-jismning-potensial-energiyasi",
   "theory": [
    {
-    "title": "Energiyaning o‘zgarmasligi",
-    "body": "Energiyaning saqlanish qonuniga ko‘ra, energiya hech qayerdan paydo bo‘lmaydi va izsiz yo‘qolmaydi. U faqat bir shakldan ikkinchi shaklga o‘tadi. Ya’ni, tizimdagi umumiy energiya miqdori har doim o‘zgarmas qoladi.",
-    "example": "To‘pni yuqoriga otsangiz, uning kinetik energiyasi asta-sekin potensial energiyaga aylanadi, lekin ularning yig‘indisi bir xil bo‘lib qoladi."
+    "title": "Elastik deformatsiya nima?",
+    "body": "Tasavvur qiling, prujinani tortdingiz yoki siqdingiz. Agar kuchni qo'yib yuborganingizda u o'zining dastlabki shakliga qaytsa, demak bu elastik deformatsiyadir. Bunda jism o'zida ma'lum miqdorda energiya to'playdi.",
+    "example": "Soatdagi prujina yoki oddiy rezinka ipni cho'zish bunga yaqqol misoldir."
    },
    {
-    "title": "Kinetik va potensial energiya",
-    "body": "Mexanik energiyaning ikki asosiy turi bor: harakatdagi jismning kinetik energiyasi va balandlikda joylashgan jismning potensial energiyasi. Ular doimiy ravishda bir-biriga aylanib turadi.",
-    "example": "Arqondan osilgan belanchak eng yuqori nuqtada faqat potensial energiyaga ega, pastga tushganda esa bu energiya kinetik energiyaga aylanadi."
+    "title": "Guk qonuni va kuchi",
+    "body": "Prujinani qanchalik ko'p cho'zsangiz, uni ushlab turish uchun shunchalik ko'p kuch kerak bo'ladi. Prujinaning qattiqligi (k) va cho'zilishi (x) o'rtasidagi bog'liqlik Guk qonuni bilan aniqlanadi: F = kx.",
+    "example": "Qattiq prujinani cho'zish yumshog'iga qaraganda qiyinroq, chunki uning 'k' qiymati katta."
    },
    {
-    "title": "To‘la mexanik energiya",
-    "body": "Tizimning to‘la mexanik energiyasi uning kinetik va potensial energiyalari yig‘indisiga teng. Tashqi kuchlar (ishqalanish) bo‘lmasa, bu yig‘indi har qanday vaqtda bir xil qiymatni saqlab qoladi.",
-    "example": "Erkin tushayotgan toshning har bir nuqtadagi kinetik va potensial energiyalari yig‘indisi uning boshlang‘ich potensial energiyasiga teng."
+    "title": "Potensial energiya formulasi",
+    "body": "Elastik deformatsiyalangan jismning potensial energiyasi uning qattiqligiga va cho'zilish kvadratiga bog'liq. Bu formula W = (kx²)/2 ko'rinishida yoziladi. E'tibor bering, cho'zilish qancha ko'p bo'lsa, energiya shuncha tez (kvadratik) ortadi.",
+    "example": "Prujinani 2 sm ga cho'zganingizdan ko'ra, 4 sm ga cho'zganingizda undagi energiya 4 marta ortadi."
    },
    {
-    "title": "Energiyaning saqlanish qonuni testi",
-    "body": "Keling, o‘rganganlaringizni tekshiramiz. Savol: Agar jismning potensial energiyasi 10 J ga kamaysa va ishqalanish bo‘lmasa, uning kinetik energiyasi qanday o‘zgaradi?",
-    "example": "Javob variantlari: A) 10 J ga kamayadi; B) 10 J ga ortadi; C) O‘zgarmaydi. (To‘g‘ri javob: B)"
+    "title": "Test savollari",
+    "body": "Bilimlaringizni sinab ko'ring: 1) Prujinaning cho'zilishi 2 marta ortsa, uning potensial energiyasi necha marta o'zgaradi? 2) Prujina qattiqligi (k) o'zgarmas bo'lsa, energiyani maksimal qilish uchun nima qilish kerak?",
+    "example": "Javoblar: 1) 4 marta ortadi; 2) Cho'zilish masofasini (x) oshirish kerak."
    }
   ]
  },
@@ -714,27 +714,81 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "ish-energiya",
-  "lesson_slug": "elastik-deformatsiyalangan-jismning-potensial-energiyasi",
+  "lesson_slug": "konservativ-va-nokonservativ-kuchlar-ishqalanish-kuchining-i",
   "theory": [
    {
-    "title": "Elastik deformatsiya nima?",
-    "body": "Tasavvur qiling, prujinani tortdingiz yoki siqdingiz. Agar kuchni qo'yib yuborganingizda u o'zining dastlabki shakliga qaytsa, demak bu elastik deformatsiyadir. Bunda jism o'zida ma'lum miqdorda energiya to'playdi.",
-    "example": "Soatdagi prujina yoki oddiy rezinka ipni cho'zish bunga yaqqol misoldir."
+    "title": "Konservativ kuchlar nima?",
+    "body": "Konservativ kuchlar shunday kuchlarki, ular bajargan ish trayektoriya shakliga bog'liq emas, faqat boshlang'ich va oxirgi nuqtaga bog'liq. Agar jism yopiq kontur bo'ylab harakatlanib, yana boshlang'ich nuqtasiga qaytsa, bu kuchlarning bajargan umumiy ishi nolga teng bo'ladi.",
+    "example": "Og'irlik kuchi va elastiklik kuchi konservativ kuchlardir. Masalan, to'pni yuqoriga irg'itib, yana qo'lingizga qaytarib olsangiz, og'irlik kuchining to'liq ish sikli nolga teng."
    },
    {
-    "title": "Guk qonuni va kuchi",
-    "body": "Prujinani qanchalik ko'p cho'zsangiz, uni ushlab turish uchun shunchalik ko'p kuch kerak bo'ladi. Prujinaning qattiqligi (k) va cho'zilishi (x) o'rtasidagi bog'liqlik Guk qonuni bilan aniqlanadi: F = kx.",
-    "example": "Qattiq prujinani cho'zish yumshog'iga qaraganda qiyinroq, chunki uning 'k' qiymati katta."
+    "title": "Nokonservativ kuchlar va ishqalanish",
+    "body": "Nokonservativ kuchlar (masalan, ishqalanish) konservativ kuchlardan farqli o'laroq, harakat yo'liga bog'liq. Ishqalanish kuchi har doim harakat yo'nalishiga qarshi yo'nalgan bo'lgani uchun, u har doim mexanik energiyaning bir qismini issiqlik sifatida 'o'g'irlaydi' va atrof-muhitga tarqatib yuboradi.",
+    "example": "Jismni qancha uzunroq yo'l bo'ylab sursangiz, ishqalanish kuchi shuncha ko'p energiya sarflaydi. Shuning uchun muzlatgichni xona ichida aylantirib, joyiga qaytarsangiz ham, ishqalanish tufayli ko'p kuch sarflagan bo'lasiz."
    },
    {
-    "title": "Potensial energiya formulasi",
-    "body": "Elastik deformatsiyalangan jismning potensial energiyasi uning qattiqligiga va cho'zilish kvadratiga bog'liq. Bu formula W = (kx²)/2 ko'rinishida yoziladi. E'tibor bering, cho'zilish qancha ko'p bo'lsa, energiya shuncha tez (kvadratik) ortadi.",
-    "example": "Prujinani 2 sm ga cho'zganingizdan ko'ra, 4 sm ga cho'zganingizda undagi energiya 4 marta ortadi."
+    "title": "Ishqalanish kuchining ishi",
+    "body": "Ishqalanish kuchi bajargan ishni topish uchun ishqalanish kuchini jism bosib o'tgan yo'l uzunligiga ko'paytiramiz (A = -F * s). Bu yerda ish har doim manfiy ishorali bo'ladi, chunki ishqalanish harakatga to'sqinlik qiladi va energiyani kamaytiradi.",
+    "example": "Agar qutini 5 metr masofaga 10 N ishqalanish kuchi yengib sursangiz, ishqalanish kuchi -50 J ish bajargan bo'ladi."
    },
    {
-    "title": "Test savollari",
-    "body": "Bilimlaringizni sinab ko'ring: 1) Prujinaning cho'zilishi 2 marta ortsa, uning potensial energiyasi necha marta o'zgaradi? 2) Prujina qattiqligi (k) o'zgarmas bo'lsa, energiyani maksimal qilish uchun nima qilish kerak?",
-    "example": "Javoblar: 1) 4 marta ortadi; 2) Cho'zilish masofasini (x) oshirish kerak."
+    "title": "Test: Bilimingizni sinang",
+    "body": "Quyidagi savollarga javob bering: 1) Jism yopiq trayektoriya bo'ylab harakatlansa, og'irlik kuchi bajargan ish nimaga teng? 2) Ishqalanish kuchi bajargan ish har doim musbatmi yoki manfiy? 3) Qaysi kuch turi harakat yo'liga bog'liq emas?",
+    "example": "Javoblar: 1) Nolga teng; 2) Manfiy (energiya yo'qotiladi); 3) Konservativ kuchlar."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "ish-energiya",
+  "lesson_slug": "energiya-saqlanish",
+  "theory": [
+   {
+    "title": "Energiyaning o‘zgarmasligi",
+    "body": "Energiyaning saqlanish qonuniga ko‘ra, energiya hech qayerdan paydo bo‘lmaydi va izsiz yo‘qolmaydi. U faqat bir shakldan ikkinchi shaklga o‘tadi. Ya’ni, tizimdagi umumiy energiya miqdori har doim o‘zgarmas qoladi.",
+    "example": "To‘pni yuqoriga otsangiz, uning kinetik energiyasi asta-sekin potensial energiyaga aylanadi, lekin ularning yig‘indisi bir xil bo‘lib qoladi."
+   },
+   {
+    "title": "Kinetik va potensial energiya",
+    "body": "Mexanik energiyaning ikki asosiy turi bor: harakatdagi jismning kinetik energiyasi va balandlikda joylashgan jismning potensial energiyasi. Ular doimiy ravishda bir-biriga aylanib turadi.",
+    "example": "Arqondan osilgan belanchak eng yuqori nuqtada faqat potensial energiyaga ega, pastga tushganda esa bu energiya kinetik energiyaga aylanadi."
+   },
+   {
+    "title": "To‘la mexanik energiya",
+    "body": "Tizimning to‘la mexanik energiyasi uning kinetik va potensial energiyalari yig‘indisiga teng. Tashqi kuchlar (ishqalanish) bo‘lmasa, bu yig‘indi har qanday vaqtda bir xil qiymatni saqlab qoladi.",
+    "example": "Erkin tushayotgan toshning har bir nuqtadagi kinetik va potensial energiyalari yig‘indisi uning boshlang‘ich potensial energiyasiga teng."
+   },
+   {
+    "title": "Energiyaning saqlanish qonuni testi",
+    "body": "Keling, o‘rganganlaringizni tekshiramiz. Savol: Agar jismning potensial energiyasi 10 J ga kamaysa va ishqalanish bo‘lmasa, uning kinetik energiyasi qanday o‘zgaradi?",
+    "example": "Javob variantlari: A) 10 J ga kamayadi; B) 10 J ga ortadi; C) O‘zgarmaydi. (To‘g‘ri javob: B)"
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "ish-energiya",
+  "lesson_slug": "to-la-mexanik-energiyaning-o-zgarishi-qonuni-dissipativ-tizi",
+  "theory": [
+   {
+    "title": "To'la mexanik energiya nima?",
+    "body": "Jismning kinetik va potensial energiyalari yig'indisi uning to'la mexanik energiyasi deyiladi. Agar tizimga faqat og'irlik yoki elastiklik kuchi kabi konservativ kuchlar ta'sir qilsa, bu energiya o'zgarmaydi va doimiy bo'lib qoladi.",
+    "example": "Erkin tushayotgan toshning balandligi kamayganda potensial energiyasi kamayadi, lekin tezligi ortib kinetik energiyasi shuncha miqdorga ko'payadi. Natijada yig'indi o'zgarmaydi."
+   },
+   {
+    "title": "Dissipativ tizimlar nima?",
+    "body": "Real hayotda ishqalanish va qarshilik kuchlari mavjud bo'lib, ular mexanik energiyaning bir qismini issiqlikka aylantirib yuboradi. Energiyani yo'qotadigan bunday tizimlar dissipativ tizimlar deyiladi.",
+    "example": "Stolda sirg'alayotgan quti ishqalanish tufayli to'xtab qoladi; uning mexanik energiyasi stol va quti sirtini qizdirishga sarflanadi."
+   },
+   {
+    "title": "Energiyaning o'zgarishi qonuni",
+    "body": "Agar tizimda ishqalanish kuchi kabi no konservativ kuchlar ish bajarsa, to'la mexanik energiya saqlanmaydi. Uning o'zgarishi aynan shu tashqi (ishqalanish) kuchlar bajargan ishga teng bo'ladi.",
+    "example": "Sirt ustida harakatlanayotgan jismning mexanik energiyasi kamaysa, bu kamayish aynan ishqalanish kuchining ishi hisobiga sodir bo'ladi."
+   },
+   {
+    "title": "Test: Bilimingizni tekshiring",
+    "body": "1. Konservativ kuchlar ta'sirida to'la mexanik energiya qanday o'zgaradi? 2. Ishqalanish kuchi mavjud tizimda energiya nima uchun kamayadi? Javoblaringizni o'ylab ko'ring.",
+    "example": "1. O'zgarmaydi (saqlanadi). 2. Chunki mexanik energiya issiqlik energiyasiga aylanib, tizimdan 'chiqib ketadi' (dissipatsiya)."
    }
   ]
  },
@@ -822,60 +876,6 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "ish-energiya",
-  "lesson_slug": "konservativ-va-nokonservativ-kuchlar-ishqalanish-kuchining-i",
-  "theory": [
-   {
-    "title": "Konservativ kuchlar nima?",
-    "body": "Konservativ kuchlar shunday kuchlarki, ular bajargan ish trayektoriya shakliga bog'liq emas, faqat boshlang'ich va oxirgi nuqtaga bog'liq. Agar jism yopiq kontur bo'ylab harakatlanib, yana boshlang'ich nuqtasiga qaytsa, bu kuchlarning bajargan umumiy ishi nolga teng bo'ladi.",
-    "example": "Og'irlik kuchi va elastiklik kuchi konservativ kuchlardir. Masalan, to'pni yuqoriga irg'itib, yana qo'lingizga qaytarib olsangiz, og'irlik kuchining to'liq ish sikli nolga teng."
-   },
-   {
-    "title": "Nokonservativ kuchlar va ishqalanish",
-    "body": "Nokonservativ kuchlar (masalan, ishqalanish) konservativ kuchlardan farqli o'laroq, harakat yo'liga bog'liq. Ishqalanish kuchi har doim harakat yo'nalishiga qarshi yo'nalgan bo'lgani uchun, u har doim mexanik energiyaning bir qismini issiqlik sifatida 'o'g'irlaydi' va atrof-muhitga tarqatib yuboradi.",
-    "example": "Jismni qancha uzunroq yo'l bo'ylab sursangiz, ishqalanish kuchi shuncha ko'p energiya sarflaydi. Shuning uchun muzlatgichni xona ichida aylantirib, joyiga qaytarsangiz ham, ishqalanish tufayli ko'p kuch sarflagan bo'lasiz."
-   },
-   {
-    "title": "Ishqalanish kuchining ishi",
-    "body": "Ishqalanish kuchi bajargan ishni topish uchun ishqalanish kuchini jism bosib o'tgan yo'l uzunligiga ko'paytiramiz (A = -F * s). Bu yerda ish har doim manfiy ishorali bo'ladi, chunki ishqalanish harakatga to'sqinlik qiladi va energiyani kamaytiradi.",
-    "example": "Agar qutini 5 metr masofaga 10 N ishqalanish kuchi yengib sursangiz, ishqalanish kuchi -50 J ish bajargan bo'ladi."
-   },
-   {
-    "title": "Test: Bilimingizni sinang",
-    "body": "Quyidagi savollarga javob bering: 1) Jism yopiq trayektoriya bo'ylab harakatlansa, og'irlik kuchi bajargan ish nimaga teng? 2) Ishqalanish kuchi bajargan ish har doim musbatmi yoki manfiy? 3) Qaysi kuch turi harakat yo'liga bog'liq emas?",
-    "example": "Javoblar: 1) Nolga teng; 2) Manfiy (energiya yo'qotiladi); 3) Konservativ kuchlar."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "ish-energiya",
-  "lesson_slug": "to-la-mexanik-energiyaning-o-zgarishi-qonuni-dissipativ-tizi",
-  "theory": [
-   {
-    "title": "To'la mexanik energiya nima?",
-    "body": "Jismning kinetik va potensial energiyalari yig'indisi uning to'la mexanik energiyasi deyiladi. Agar tizimga faqat og'irlik yoki elastiklik kuchi kabi konservativ kuchlar ta'sir qilsa, bu energiya o'zgarmaydi va doimiy bo'lib qoladi.",
-    "example": "Erkin tushayotgan toshning balandligi kamayganda potensial energiyasi kamayadi, lekin tezligi ortib kinetik energiyasi shuncha miqdorga ko'payadi. Natijada yig'indi o'zgarmaydi."
-   },
-   {
-    "title": "Dissipativ tizimlar nima?",
-    "body": "Real hayotda ishqalanish va qarshilik kuchlari mavjud bo'lib, ular mexanik energiyaning bir qismini issiqlikka aylantirib yuboradi. Energiyani yo'qotadigan bunday tizimlar dissipativ tizimlar deyiladi.",
-    "example": "Stolda sirg'alayotgan quti ishqalanish tufayli to'xtab qoladi; uning mexanik energiyasi stol va quti sirtini qizdirishga sarflanadi."
-   },
-   {
-    "title": "Energiyaning o'zgarishi qonuni",
-    "body": "Agar tizimda ishqalanish kuchi kabi no konservativ kuchlar ish bajarsa, to'la mexanik energiya saqlanmaydi. Uning o'zgarishi aynan shu tashqi (ishqalanish) kuchlar bajargan ishga teng bo'ladi.",
-    "example": "Sirt ustida harakatlanayotgan jismning mexanik energiyasi kamaysa, bu kamayish aynan ishqalanish kuchining ishi hisobiga sodir bo'ladi."
-   },
-   {
-    "title": "Test: Bilimingizni tekshiring",
-    "body": "1. Konservativ kuchlar ta'sirida to'la mexanik energiya qanday o'zgaradi? 2. Ishqalanish kuchi mavjud tizimda energiya nima uchun kamayadi? Javoblaringizni o'ylab ko'ring.",
-    "example": "1. O'zgarmaydi (saqlanadi). 2. Chunki mexanik energiya issiqlik energiyasiga aylanib, tizimdan 'chiqib ketadi' (dissipatsiya)."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "ish-energiya",
   "lesson_slug": "mutloq-elastik-va-elastik-bo-lmagan-to-qnashuvlarda-energiya",
   "theory": [
    {
@@ -930,54 +930,27 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "molekulyar-fizika",
-  "lesson_slug": "temperatura-issiqlik",
+  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
   "theory": [
    {
-    "title": "Temperatura nima?",
-    "body": "Temperatura — bu jismlardagi molekulalar qanchalik tez harakatlanayotganini ko'rsatuvchi o'lchov. Molekulalar qancha tez harakatlansa, temperatura shuncha yuqori bo'ladi va jism issiqroq tuyuladi.",
-    "example": "Qaynayotgan choydagi molekulalar muz bo'lagidagiga qaraganda ancha tezroq va tartibsiz harakat qiladi."
+    "title": "Molekulalar qanday harakatlanadi?",
+    "body": "Gazdagi molekulalar doimiy tartibsiz harakatda bo'ladi va idish devorlariga urilib, bosim hosil qiladi. MKTning asosiy tenglamasi aynan shu molekulalarning devorga urilish kuchi bilan gaz bosimi orasidagi bog'liqlikni ifodalaydi: P = 1/3 * n * m0 * v^2.",
+    "example": "Xona ichidagi havo molekulalari bizni har tomondan urib turadi, lekin ularning soni juda ko'p bo'lgani uchun biz buni sezmaymiz, faqat bosimni his qilamiz."
    },
    {
-    "title": "Issiqlik miqdori nima?",
-    "body": "Issiqlik miqdori — bu bir jismdan ikkinchisiga o'tayotgan energiya oqimi. Jism qiziganda u energiya oladi, soviganda esa bu energiyani atrof-muhitga beradi.",
-    "example": "Pechkaga qo'yilgan qozon olovdan issiqlik miqdorini olib qiziydi, xonadagi havo esa ochiq derazadan sovuqni «olmaydi», balki issiqlikni tashqariga berib soviydi."
+    "title": "O'rtacha kvadratik tezlik nima?",
+    "body": "Gazdagi barcha molekulalar har xil tezlikda harakatlanadi. Hisob-kitoblarni osonlashtirish uchun biz ularning tezliklari kvadratlarining o'rtacha qiymatidan ildiz chiqaramiz, bu 'o'rtacha kvadratik tezlik' deyiladi.",
+    "example": "Agar sinfdagi o'quvchilarning baholari har xil bo'lsa, ularning o'rtacha bahosini hisoblaganimiz kabi, molekulalarning ham o'rtacha tezligini topamiz."
    },
    {
-    "title": "Issiqlik miqdori formulasi",
-    "body": "Jismni isitish uchun zarur bo'lgan issiqlik miqdori (Q) jismning massasi (m), solishtirma issiqlik sig'imi (c) va temperatura o'zgarishiga (Δt) bog'liq. Formula: Q = cmΔt.",
-    "example": "Bir stakan suvni (m) 10 gradusga (Δt) isitish uchun sarflanadigan energiya (Q) uning miqdoriga to'g'ridan-to'g'ri proportsionaldir."
+    "title": "Tezlik va harorat bog'liqligi",
+    "body": "Gaz qiziganda molekulalar tezroq harakatlana boshlaydi, ya'ni harorat oshishi bilan o'rtacha kvadratik tezlik ham ortadi. Uning formulasi v = sqrt(3RT / M) ko'rinishida bo'lib, harorat ildiz ostida to'g'ri proporsionaldir.",
+    "example": "Choynakdagi suv qizigan sari bug' molekulalari shunchalik tez harakatlanadiki, ular qopqoqni ko'tarib tashlaydi."
    },
    {
-    "title": "Test savollari",
-    "body": "1. Molekulalarning harakat tezligi ortsa, jismning temperaturasi qanday o'zgaradi? 2. Agar Q = cmΔt formulasida jism massasi ikki marta ortsa, uni o'sha temperaturagacha isitish uchun zarur bo'lgan issiqlik miqdori qanday o'zgaradi?",
-    "example": "Javoblar: 1. Ko'tariladi. 2. Ikki marta ortadi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "molekulyar-fizika",
-  "lesson_slug": "gaz-qonunlari",
-  "theory": [
-   {
-    "title": "Gaz qonunlari nima?",
-    "body": "Gaz qonunlari — bu gazning bosimi (P), hajmi (V) va harorati (T) o'rtasidagi bog'liqlikdir. Agar biz gazning bir parametrini o'zgartirsak, qolganlari ham unga qarab o'zgaradi. Xuddi shishirilgan sharni siqqaningizda bosim ortgani kabi.",
-    "example": "Sharni qattiq siqsangiz (hajmni kamaytirsangiz), uning ichidagi bosim oshadi."
-   },
-   {
-    "title": "Izotermik jarayon (Boyl-Mariott)",
-    "body": "Izotermik jarayonda harorat (T) o'zgarmaydi. Bunda gaz hajmi qancha kamaysa, bosimi shuncha ortadi. Buni 'teskari proporsional' bog'liqlik deymiz: P1*V1 = P2*V2.",
-    "example": "Velosiped g'ildiragiga nasos bilan havo haydaganda, nasos qizib ketmasligi uchun sekin harakat qilsak, bu jarayon taxminan izotermik bo'ladi."
-   },
-   {
-    "title": "Izobarik jarayon (Gey-Lyussak)",
-    "body": "Izobarik jarayonda bosim (P) doimiy qoladi. Bunda gazni qizdirsangiz, u kengayadi va hajmi ortadi. Ya'ni, harorat va hajm to'g'ri proporsional: V1/T1 = V2/T2.",
-    "example": "Quyoshda qolgan yopiq plastik idishdagi havo qiziganda kengayib, idish shaklini o'zgartirishi yoki uni shishirib yuborishi."
-   },
-   {
-    "title": "Izoxorik jarayon (Sharl)",
-    "body": "Izoxorik jarayonda gazning hajmi (V) o'zgarmaydi. Idishdagi gazni qizdirsangiz, bosim ortadi, chunki molekulalar idish devorlariga kuchliroq uriladi. Formula: P1/T1 = P2/T2.",
-    "example": "Ochiq olov ustiga qo'yilgan yopiq metall gaz balloni qiziganda ichidagi bosim keskin ortib, portlash xavfini tug'diradi."
+    "title": "Test: Bilimingizni sinang",
+    "body": "1. Gaz harorati 4 marta ortsa, molekulalarning o'rtacha kvadratik tezligi qanday o'zgaradi? 2. MKTning asosiy tenglamasida bosim gazning qaysi xossalariga bog'liq?",
+    "example": "Javoblar: 1. 2 marta ortadi (chunki ildiz ostida 4=2). 2. Molekulalar konsentratsiyasi (n) va ularning o'rtacha kinetik energiyasiga."
    }
   ]
  },
@@ -1011,6 +984,87 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "temperatura-issiqlik",
+  "theory": [
+   {
+    "title": "Temperatura nima?",
+    "body": "Temperatura — bu jismlardagi molekulalar qanchalik tez harakatlanayotganini ko'rsatuvchi o'lchov. Molekulalar qancha tez harakatlansa, temperatura shuncha yuqori bo'ladi va jism issiqroq tuyuladi.",
+    "example": "Qaynayotgan choydagi molekulalar muz bo'lagidagiga qaraganda ancha tezroq va tartibsiz harakat qiladi."
+   },
+   {
+    "title": "Issiqlik miqdori nima?",
+    "body": "Issiqlik miqdori — bu bir jismdan ikkinchisiga o'tayotgan energiya oqimi. Jism qiziganda u energiya oladi, soviganda esa bu energiyani atrof-muhitga beradi.",
+    "example": "Pechkaga qo'yilgan qozon olovdan issiqlik miqdorini olib qiziydi, xonadagi havo esa ochiq derazadan sovuqni «olmaydi», balki issiqlikni tashqariga berib soviydi."
+   },
+   {
+    "title": "Issiqlik miqdori formulasi",
+    "body": "Jismni isitish uchun zarur bo'lgan issiqlik miqdori (Q) jismning massasi (m), solishtirma issiqlik sig'imi (c) va temperatura o'zgarishiga (Δt) bog'liq. Formula: Q = cmΔt.",
+    "example": "Bir stakan suvni (m) 10 gradusga (Δt) isitish uchun sarflanadigan energiya (Q) uning miqdoriga to'g'ridan-to'g'ri proportsionaldir."
+   },
+   {
+    "title": "Test savollari",
+    "body": "1. Molekulalarning harakat tezligi ortsa, jismning temperaturasi qanday o'zgaradi? 2. Agar Q = cmΔt formulasida jism massasi ikki marta ortsa, uni o'sha temperaturagacha isitish uchun zarur bo'lgan issiqlik miqdori qanday o'zgaradi?",
+    "example": "Javoblar: 1. Ko'tariladi. 2. Ikki marta ortadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gidrostatik-bosim",
+  "theory": [
+   {
+    "title": "Bosim nima?",
+    "body": "Bosim – bu biror sirtga tik tushgan kuchning shu sirt maydoniga ta’sirini bildiradi. Oddiy qilib aytganda, bir xil kuchni kichikroq maydonga ta’sir ettirsangiz, bosim kuchayadi. Masalan, pichoqning o’tkir tomoni bilan kesish osonroq, chunki kuch kichik maydonga ta’sir qiladi.",
+    "example": "1) Oyoq kiyimning poshnasi keng boʻlsa, qor ustida yurish osonroq, chunki bosim kamayadi. 2) Shprits ignasi ingichka – shuning uchun terini teshib oson kiradi."
+   },
+   {
+    "title": "Suyuqlik bosimi qanday tarqaladi?",
+    "body": "Suyuqlik ichida bosim har tomonga bir xil kuch bilan ta’sir qiladi. Bu xususiyat suyuqlikning oqishi va shaklini oʻzgartira olishi bilan bogʻliq. Masalan, idishdagi suvning sirtiga bosim berilsa, bu bosim suvning barcha nuqtalariga teng tarqaladi.",
+    "example": "1) Suv bilan toʻldirilgan sharni siqib koʻrsangiz, suv barcha yoʻnalishlarda bir xil bosim bilan chiqadi. 2) Suv ostida chuqurroq joyga tushsangiz, bosim oshadi, chunki ustingizdagi suv ogʻirligi koʻpayadi."
+   },
+   {
+    "title": "Paskal qonuni nima?",
+    "body": "Paskal qonuni aytadiki: berk idishdagi suyuqlikka tashqi bosim berilsa, bu bosim suyuqlikning barcha nuqtalariga bir xil miqdorda uzatiladi. Bu prinsip gidravlik tizimlarda (masalan, avtomobil tormozlarida) keng qoʻllaniladi.",
+    "example": "1) Gidravlik pressda kichik kuch bilan katta yukni koʻtarish mumkin, chunki bosim suyuqlik orqali uzatiladi. 2) Shpritsni siqib, dori suyuqligini chiqarish ham Paskal qonuniga asoslangan."
+   },
+   {
+    "title": "Gaz bosimi qanday paydo boʻladi?",
+    "body": "Gaz molekulalari doimiy harakatda boʻlib, idish devorlariga uriladi. Bu urilishlar natijasida gaz bosimi paydo boʻladi. Gaz qanchalik qizdirilsa yoki hajmi qisqartirilsa, bosim shunchalik oshadi, chunki molekulalar tezroq harakatlanadi va koʻproq uriladi.",
+    "example": "1) Havoni puflab sharchani shishirganingizda, ichidagi gaz bosimi oshadi. 2) Avtomobil shinasini haddan tashqari havo bilan toʻldirsangiz, bosim oshib, shina yorilishi mumkin."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "gaz-qonunlari",
+  "theory": [
+   {
+    "title": "Gaz qonunlari nima?",
+    "body": "Gaz qonunlari — bu gazning bosimi (P), hajmi (V) va harorati (T) o'rtasidagi bog'liqlikdir. Agar biz gazning bir parametrini o'zgartirsak, qolganlari ham unga qarab o'zgaradi. Xuddi shishirilgan sharni siqqaningizda bosim ortgani kabi.",
+    "example": "Sharni qattiq siqsangiz (hajmni kamaytirsangiz), uning ichidagi bosim oshadi."
+   },
+   {
+    "title": "Izotermik jarayon (Boyl-Mariott)",
+    "body": "Izotermik jarayonda harorat (T) o'zgarmaydi. Bunda gaz hajmi qancha kamaysa, bosimi shuncha ortadi. Buni 'teskari proporsional' bog'liqlik deymiz: P1*V1 = P2*V2.",
+    "example": "Velosiped g'ildiragiga nasos bilan havo haydaganda, nasos qizib ketmasligi uchun sekin harakat qilsak, bu jarayon taxminan izotermik bo'ladi."
+   },
+   {
+    "title": "Izobarik jarayon (Gey-Lyussak)",
+    "body": "Izobarik jarayonda bosim (P) doimiy qoladi. Bunda gazni qizdirsangiz, u kengayadi va hajmi ortadi. Ya'ni, harorat va hajm to'g'ri proporsional: V1/T1 = V2/T2.",
+    "example": "Quyoshda qolgan yopiq plastik idishdagi havo qiziganda kengayib, idish shaklini o'zgartirishi yoki uni shishirib yuborishi."
+   },
+   {
+    "title": "Izoxorik jarayon (Sharl)",
+    "body": "Izoxorik jarayonda gazning hajmi (V) o'zgarmaydi. Idishdagi gazni qizdirsangiz, bosim ortadi, chunki molekulalar idish devorlariga kuchliroq uriladi. Formula: P1/T1 = P2/T2.",
+    "example": "Ochiq olov ustiga qo'yilgan yopiq metall gaz balloni qiziganda ichidagi bosim keskin ortib, portlash xavfini tug'diradi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
   "lesson_slug": "ideal-gaz-holat-tenglamasi-dalton-qonuni",
   "theory": [
    {
@@ -1032,87 +1086,6 @@
     "title": "Masalalar uchun oltin qoida",
     "body": "Fizika masalalarida har doim haroratni Kelvin (K) shkalasida olishni unutmang. Selsiydagi haroratga 273 ni qo'shib, uni mutlaq haroratga aylantiramiz (T = t + 273).",
     "example": "27°C haroratni tenglamaga qo'yish uchun uni 300 K deb yozishingiz shart."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "molekulyar-fizika",
-  "lesson_slug": "molekulyar-kinetik-nazariyaning-asosiy-tenglamasi-molekulala",
-  "theory": [
-   {
-    "title": "Molekulalar qanday harakatlanadi?",
-    "body": "Gazdagi molekulalar doimiy tartibsiz harakatda bo'ladi va idish devorlariga urilib, bosim hosil qiladi. MKTning asosiy tenglamasi aynan shu molekulalarning devorga urilish kuchi bilan gaz bosimi orasidagi bog'liqlikni ifodalaydi: P = 1/3 * n * m0 * v^2.",
-    "example": "Xona ichidagi havo molekulalari bizni har tomondan urib turadi, lekin ularning soni juda ko'p bo'lgani uchun biz buni sezmaymiz, faqat bosimni his qilamiz."
-   },
-   {
-    "title": "O'rtacha kvadratik tezlik nima?",
-    "body": "Gazdagi barcha molekulalar har xil tezlikda harakatlanadi. Hisob-kitoblarni osonlashtirish uchun biz ularning tezliklari kvadratlarining o'rtacha qiymatidan ildiz chiqaramiz, bu 'o'rtacha kvadratik tezlik' deyiladi.",
-    "example": "Agar sinfdagi o'quvchilarning baholari har xil bo'lsa, ularning o'rtacha bahosini hisoblaganimiz kabi, molekulalarning ham o'rtacha tezligini topamiz."
-   },
-   {
-    "title": "Tezlik va harorat bog'liqligi",
-    "body": "Gaz qiziganda molekulalar tezroq harakatlana boshlaydi, ya'ni harorat oshishi bilan o'rtacha kvadratik tezlik ham ortadi. Uning formulasi v = sqrt(3RT / M) ko'rinishida bo'lib, harorat ildiz ostida to'g'ri proporsionaldir.",
-    "example": "Choynakdagi suv qizigan sari bug' molekulalari shunchalik tez harakatlanadiki, ular qopqoqni ko'tarib tashlaydi."
-   },
-   {
-    "title": "Test: Bilimingizni sinang",
-    "body": "1. Gaz harorati 4 marta ortsa, molekulalarning o'rtacha kvadratik tezligi qanday o'zgaradi? 2. MKTning asosiy tenglamasida bosim gazning qaysi xossalariga bog'liq?",
-    "example": "Javoblar: 1. 2 marta ortadi (chunki ildiz ostida 4=2). 2. Molekulalar konsentratsiyasi (n) va ularning o'rtacha kinetik energiyasiga."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "molekulyar-fizika",
-  "lesson_slug": "havo-namligi-gigrometr-va-psixrometr",
-  "theory": [
-   {
-    "title": "Havo namligi nima?",
-    "body": "Havo namligi deganda havoda qancha suv bug'i borligi tushuniladi. Havo qanchalik issiq bo'lsa, u shunchalik ko'p namlikni o'zida ushlab tura oladi. Sovuq havoda esa namlik tezroq to'yinib, shudringga aylanadi.",
-    "example": "Yozda havo 'og'ir' va dim bo'lishining sababi – havoda bug'langan suv miqdorining juda ko'pligidir."
-   },
-   {
-    "title": "Nisbiy namlik tushunchasi",
-    "body": "Nisbiy namlik – bu havoning hozirgi holatda to'yinishiga qancha yetishmayotganini ko'rsatadigan foizli o'lchovdir. Agar u 100% bo'lsa, havo to'yingan bo'ladi va shudring tushadi. 0% bo'lsa, havo o'ta quruq degani.",
-    "example": "Ob-havo ma'lumotlarida 'namlik 50%' deyilsa, bu havo o'ziga sig'dira oladigan maksimal bug'ning yarmini ushlab turibdi degani."
-   },
-   {
-    "title": "Psixrometr qanday ishlaydi?",
-    "body": "Psixrometr ikkita termometrdan iborat: biri quruq, ikkinchisi namlangan. Nam termometr atrofidagi suv bug'langanda sovib qoladi. Ikki termometr ko'rsatkichi orasidagi farq qanchalik katta bo'lsa, havo shunchalik quruq bo'ladi.",
-    "example": "Agar quruq va nam termometr ko'rsatkichlari bir xil bo'lsa, demak, havo 100% namlikka ega."
-   },
-   {
-    "title": "Namlikni o'lchash qurilmalari",
-    "body": "Gigrometr – namlikni bevosita o'lchaydigan asbob. Sochli gigrometrda yog'sizlantirilgan inson sochi namlik o'zgarganda uzayib-qisqaradi va strelkani harakatga keltiradi.",
-    "example": "Kutubxona yoki muzeylarda qog'ozlar va eksponatlar buzilmasligi uchun doimiy namlikni aynan gigrometr yordamida nazorat qilishadi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "molekulyar-fizika",
-  "lesson_slug": "sirt-taranglik-kuchi-va-kapillyar-hodisalar",
-  "theory": [
-   {
-    "title": "Sirt taranglik kuchi nima?",
-    "body": "Suyuqlik sirtidagi molekulalar ichkaridagilarga qaraganda ko'proq tortishadi, bu esa sirtni tarang parda kabi qisib turadi. Aynan shu kuch tufayli suyuqlik o'z sirtini imkon qadar kichik qilishga harakat qiladi.",
-    "example": "Suv yuzasida yuruvchi suv o'lchovchi hasharotlar yoki suv tomchilarining shar shaklida bo'lishi."
-   },
-   {
-    "title": "Kapillyar hodisalar siri",
-    "body": "Kapillyar — bu juda ingichka naycha. Suyuqlik bunday naychalarda sirt tarangligi tufayli o'z og'irligiga qarshi yuqoriga ko'tarilishi yoki pastga tushishi mumkin.",
-    "example": "Qog'oz sochiq suvni shimib olishi yoki o'simlik ildizidagi suvning poya bo'ylab yuqoriga harakatlanishi."
-   },
-   {
-    "title": "Namlovchi va namlamaydigan suyuqlik",
-    "body": "Agar suyuqlik idish devoriga yopishsa, u namlovchi suyuqlik deyiladi va kapillyarda yuqoriga ko'tariladi. Agar yopishmasa, namlamaydi va aksincha, pastga tushadi.",
-    "example": "Suv oynani namlaydi, lekin simob oynaga yopishmaydi va uni namlamaydi."
-   },
-   {
-    "title": "Test savollari",
-    "body": "1) Suv tomchisi nima uchun sharsimon shaklga ega bo'ladi? 2) Kapillyar naycha qanchalik ingichka bo'lsa, suyuqlik sathi qanday o'zgaradi? 3) Agar suyuqlik naycha devorini namlamasa, u naycha ichida qanday sirt hosil qiladi?",
-    "example": "Javoblar: 1) Sirt taranglik kuchi sirtni kichraytirgani uchun. 2) Suyuqlik sathi balandroq ko'tariladi. 3) Qavariq sirt (menisk)."
    }
   ]
  },
@@ -1200,27 +1173,54 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "molekulyar-fizika",
-  "lesson_slug": "gidrostatik-bosim",
+  "lesson_slug": "havo-namligi-gigrometr-va-psixrometr",
   "theory": [
    {
-    "title": "Bosim nima?",
-    "body": "Bosim – bu biror sirtga tik tushgan kuchning shu sirt maydoniga ta’sirini bildiradi. Oddiy qilib aytganda, bir xil kuchni kichikroq maydonga ta’sir ettirsangiz, bosim kuchayadi. Masalan, pichoqning o’tkir tomoni bilan kesish osonroq, chunki kuch kichik maydonga ta’sir qiladi.",
-    "example": "1) Oyoq kiyimning poshnasi keng boʻlsa, qor ustida yurish osonroq, chunki bosim kamayadi. 2) Shprits ignasi ingichka – shuning uchun terini teshib oson kiradi."
+    "title": "Havo namligi nima?",
+    "body": "Havo namligi deganda havoda qancha suv bug'i borligi tushuniladi. Havo qanchalik issiq bo'lsa, u shunchalik ko'p namlikni o'zida ushlab tura oladi. Sovuq havoda esa namlik tezroq to'yinib, shudringga aylanadi.",
+    "example": "Yozda havo 'og'ir' va dim bo'lishining sababi – havoda bug'langan suv miqdorining juda ko'pligidir."
    },
    {
-    "title": "Suyuqlik bosimi qanday tarqaladi?",
-    "body": "Suyuqlik ichida bosim har tomonga bir xil kuch bilan ta’sir qiladi. Bu xususiyat suyuqlikning oqishi va shaklini oʻzgartira olishi bilan bogʻliq. Masalan, idishdagi suvning sirtiga bosim berilsa, bu bosim suvning barcha nuqtalariga teng tarqaladi.",
-    "example": "1) Suv bilan toʻldirilgan sharni siqib koʻrsangiz, suv barcha yoʻnalishlarda bir xil bosim bilan chiqadi. 2) Suv ostida chuqurroq joyga tushsangiz, bosim oshadi, chunki ustingizdagi suv ogʻirligi koʻpayadi."
+    "title": "Nisbiy namlik tushunchasi",
+    "body": "Nisbiy namlik – bu havoning hozirgi holatda to'yinishiga qancha yetishmayotganini ko'rsatadigan foizli o'lchovdir. Agar u 100% bo'lsa, havo to'yingan bo'ladi va shudring tushadi. 0% bo'lsa, havo o'ta quruq degani.",
+    "example": "Ob-havo ma'lumotlarida 'namlik 50%' deyilsa, bu havo o'ziga sig'dira oladigan maksimal bug'ning yarmini ushlab turibdi degani."
    },
    {
-    "title": "Paskal qonuni nima?",
-    "body": "Paskal qonuni aytadiki: berk idishdagi suyuqlikka tashqi bosim berilsa, bu bosim suyuqlikning barcha nuqtalariga bir xil miqdorda uzatiladi. Bu prinsip gidravlik tizimlarda (masalan, avtomobil tormozlarida) keng qoʻllaniladi.",
-    "example": "1) Gidravlik pressda kichik kuch bilan katta yukni koʻtarish mumkin, chunki bosim suyuqlik orqali uzatiladi. 2) Shpritsni siqib, dori suyuqligini chiqarish ham Paskal qonuniga asoslangan."
+    "title": "Psixrometr qanday ishlaydi?",
+    "body": "Psixrometr ikkita termometrdan iborat: biri quruq, ikkinchisi namlangan. Nam termometr atrofidagi suv bug'langanda sovib qoladi. Ikki termometr ko'rsatkichi orasidagi farq qanchalik katta bo'lsa, havo shunchalik quruq bo'ladi.",
+    "example": "Agar quruq va nam termometr ko'rsatkichlari bir xil bo'lsa, demak, havo 100% namlikka ega."
    },
    {
-    "title": "Gaz bosimi qanday paydo boʻladi?",
-    "body": "Gaz molekulalari doimiy harakatda boʻlib, idish devorlariga uriladi. Bu urilishlar natijasida gaz bosimi paydo boʻladi. Gaz qanchalik qizdirilsa yoki hajmi qisqartirilsa, bosim shunchalik oshadi, chunki molekulalar tezroq harakatlanadi va koʻproq uriladi.",
-    "example": "1) Havoni puflab sharchani shishirganingizda, ichidagi gaz bosimi oshadi. 2) Avtomobil shinasini haddan tashqari havo bilan toʻldirsangiz, bosim oshib, shina yorilishi mumkin."
+    "title": "Namlikni o'lchash qurilmalari",
+    "body": "Gigrometr – namlikni bevosita o'lchaydigan asbob. Sochli gigrometrda yog'sizlantirilgan inson sochi namlik o'zgarganda uzayib-qisqaradi va strelkani harakatga keltiradi.",
+    "example": "Kutubxona yoki muzeylarda qog'ozlar va eksponatlar buzilmasligi uchun doimiy namlikni aynan gigrometr yordamida nazorat qilishadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "molekulyar-fizika",
+  "lesson_slug": "sirt-taranglik-kuchi-va-kapillyar-hodisalar",
+  "theory": [
+   {
+    "title": "Sirt taranglik kuchi nima?",
+    "body": "Suyuqlik sirtidagi molekulalar ichkaridagilarga qaraganda ko'proq tortishadi, bu esa sirtni tarang parda kabi qisib turadi. Aynan shu kuch tufayli suyuqlik o'z sirtini imkon qadar kichik qilishga harakat qiladi.",
+    "example": "Suv yuzasida yuruvchi suv o'lchovchi hasharotlar yoki suv tomchilarining shar shaklida bo'lishi."
+   },
+   {
+    "title": "Kapillyar hodisalar siri",
+    "body": "Kapillyar — bu juda ingichka naycha. Suyuqlik bunday naychalarda sirt tarangligi tufayli o'z og'irligiga qarshi yuqoriga ko'tarilishi yoki pastga tushishi mumkin.",
+    "example": "Qog'oz sochiq suvni shimib olishi yoki o'simlik ildizidagi suvning poya bo'ylab yuqoriga harakatlanishi."
+   },
+   {
+    "title": "Namlovchi va namlamaydigan suyuqlik",
+    "body": "Agar suyuqlik idish devoriga yopishsa, u namlovchi suyuqlik deyiladi va kapillyarda yuqoriga ko'tariladi. Agar yopishmasa, namlamaydi va aksincha, pastga tushadi.",
+    "example": "Suv oynani namlaydi, lekin simob oynaga yopishmaydi va uni namlamaydi."
+   },
+   {
+    "title": "Test savollari",
+    "body": "1) Suv tomchisi nima uchun sharsimon shaklga ega bo'ladi? 2) Kapillyar naycha qanchalik ingichka bo'lsa, suyuqlik sathi qanday o'zgaradi? 3) Agar suyuqlik naycha devorini namlamasa, u naycha ichida qanday sirt hosil qiladi?",
+    "example": "Javoblar: 1) Sirt taranglik kuchi sirtni kichraytirgani uchun. 2) Suyuqlik sathi balandroq ko'tariladi. 3) Qavariq sirt (menisk)."
    }
   ]
  },
@@ -1281,6 +1281,33 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "elektr",
+  "lesson_slug": "elektr-maydon-potensiali-elektr-sig-imi-va-kondensatorlar",
+  "theory": [
+   {
+    "title": "Elektr maydon potensiali",
+    "body": "Elektr maydondagi biror nuqtaning potensiali — bu musbat birlik zaryadni cheksizlikdan shu nuqtaga olib kelish uchun qilingan ishdir. Uni balandlikka o'xshatish mumkin: zaryadlar yuqori potensialdan past potensialga qarab harakatlanadi.",
+    "example": "Tog'ning cho'qqisi yuqori potensial, etagi esa past potensialdir. Xuddi suv balandlikdan pastga oqqanidek, zaryadlar ham potensiallar farqi bor joyda harakatlanadi."
+   },
+   {
+    "title": "Elektr sig'imi nima?",
+    "body": "Elektr sig'imi — bu o'tkazgichning elektr zaryadini to'plab bera olish qobiliyatidir. U zaryadning potensialga nisbati bilan aniqlanadi (C = q/U) va Farad (F) birligida o'lchanadi.",
+    "example": "Tasavvur qiling, sig'im — bu idishning hajmi. Idish qanchalik katta bo'lsa, siz shunchalik ko'p suv (zaryad) sig'dira olasiz."
+   },
+   {
+    "title": "Kondensator va uning vazifasi",
+    "body": "Kondensator — bu zaryad va elektr energiyasini to'plash uchun mo'ljallangan qurilma. U ikkita bir-biriga yaqin joylashgan o'tkazgich qoplamadan iborat bo'lib, ular orasida izolyator qatlami bo'ladi.",
+    "example": "Kondensator xuddi fotoapparat chaqnog'idagi (vspishka) kabi ishlaydi: u energiyani sekin yig'ib, kerak bo'lganda bir zumda chiqarib beradi."
+   },
+   {
+    "title": "Kondensator sig'imiga ta'sir",
+    "body": "Kondensatorning sig'imi uning qoplamalari yuzasiga, ular orasidagi masofaga va moddaning xususiyatiga (dielektrik singdiruvchanlik) bog'liq. Qoplamalar qanchalik katta va yaqin bo'lsa, sig'im shunchalik yuqori bo'ladi.",
+    "example": "Agar kondensator qoplamalarini bir-biriga yaqinlashtirsangiz, u ko'proq zaryadni o'zida ushlab tura oladi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "elektr",
   "lesson_slug": "elektr-tok-om-qonuni",
   "theory": [
    {
@@ -1335,60 +1362,6 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "elektr",
-  "lesson_slug": "magnit-maydon",
-  "theory": [
-   {
-    "title": "Magnit maydon nima?",
-    "body": "Magnit maydon – bu magnitlar yoki tok o‘tayotgan o‘tkazgichlar atrofida mavjud bo‘lgan maxsus muhit. U ko‘zga ko‘rinmaydi, lekin boshqa magnit yoki metallarga o‘z ta’sirini o‘tkazib, ularni itarishi yoki o‘ziga tortishi mumkin.",
-    "example": "Muzlatgich eshigiga yopishib turadigan magnitlar yoki kompas milining shimolga burilishi magnit maydon ta’siridir."
-   },
-   {
-    "title": "Magnit kuch chiziqlari",
-    "body": "Magnit maydonni tasavvur qilish uchun biz 'kuch chiziqlari'dan foydalanamiz. Bu chiziqlar har doim shimoliy qutbdan (N) chiqib, janubiy qutbga (S) kiradi va ular qanchalik zich bo‘lsa, maydon shunchalik kuchli bo‘ladi.",
-    "example": "Magnit atrofiga temir qirindilarini sepsangiz, ular aynan shu chiziqlar shaklida tizilib qoladi."
-   },
-   {
-    "title": "Tokli o‘tkazgich va Amper kuchi",
-    "body": "Agar elektr toki o‘tayotgan simni magnit maydoniga joylashtirsak, magnit maydoni unga kuch bilan ta’sir qiladi. Bu kuch 'Amper kuchi' deyiladi va uning yo‘nalishini 'chap qo‘l qoidasi' yordamida osongina aniqlash mumkin.",
-    "example": "Elektr dvigatellari aynan shu kuch hisobiga ishlaydi: tok o‘tgan sim magnit maydonida harakatga keladi."
-   },
-   {
-    "title": "Lorents kuchi tushunchasi",
-    "body": "Agar zaryadli zarracha (masalan, elektron) magnit maydonda harakatlansa, unga ham magnit maydoni kuch bilan ta’sir qiladi. Bu kuch Lorents kuchi deyiladi va u zarrachani egri chiziqli yo‘l bo‘ylab harakatlanishga majbur qiladi.",
-    "example": "Televizor ekranidagi tasvirni hosil qiluvchi elektronlar magnit maydon yordamida kerakli nuqtaga yo‘naltiriladi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "elektr",
-  "lesson_slug": "elektr-maydon-potensiali-elektr-sig-imi-va-kondensatorlar",
-  "theory": [
-   {
-    "title": "Elektr maydon potensiali",
-    "body": "Elektr maydondagi biror nuqtaning potensiali — bu musbat birlik zaryadni cheksizlikdan shu nuqtaga olib kelish uchun qilingan ishdir. Uni balandlikka o'xshatish mumkin: zaryadlar yuqori potensialdan past potensialga qarab harakatlanadi.",
-    "example": "Tog'ning cho'qqisi yuqori potensial, etagi esa past potensialdir. Xuddi suv balandlikdan pastga oqqanidek, zaryadlar ham potensiallar farqi bor joyda harakatlanadi."
-   },
-   {
-    "title": "Elektr sig'imi nima?",
-    "body": "Elektr sig'imi — bu o'tkazgichning elektr zaryadini to'plab bera olish qobiliyatidir. U zaryadning potensialga nisbati bilan aniqlanadi (C = q/U) va Farad (F) birligida o'lchanadi.",
-    "example": "Tasavvur qiling, sig'im — bu idishning hajmi. Idish qanchalik katta bo'lsa, siz shunchalik ko'p suv (zaryad) sig'dira olasiz."
-   },
-   {
-    "title": "Kondensator va uning vazifasi",
-    "body": "Kondensator — bu zaryad va elektr energiyasini to'plash uchun mo'ljallangan qurilma. U ikkita bir-biriga yaqin joylashgan o'tkazgich qoplamadan iborat bo'lib, ular orasida izolyator qatlami bo'ladi.",
-    "example": "Kondensator xuddi fotoapparat chaqnog'idagi (vspishka) kabi ishlaydi: u energiyani sekin yig'ib, kerak bo'lganda bir zumda chiqarib beradi."
-   },
-   {
-    "title": "Kondensator sig'imiga ta'sir",
-    "body": "Kondensatorning sig'imi uning qoplamalari yuzasiga, ular orasidagi masofaga va moddaning xususiyatiga (dielektrik singdiruvchanlik) bog'liq. Qoplamalar qanchalik katta va yaqin bo'lsa, sig'im shunchalik yuqori bo'ladi.",
-    "example": "Agar kondensator qoplamalarini bir-biriga yaqinlashtirsangiz, u ko'proq zaryadni o'zida ushlab tura oladi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "elektr",
   "lesson_slug": "elektr-tokining-ishi-va-quvvati-to-liq-zanjir-uchun-om-qonun",
   "theory": [
    {
@@ -1437,6 +1410,33 @@
     "title": "Yarimo'tkazgichlarning o'ziga xosligi",
     "body": "Yarimo'tkazgichlar (kremniy, germaniy) past haroratda tok o'tkazmaydi. Ularda tok tashuvchilar elektronlar va 'kovaklar' (elektron yetishmagan joylar) hisoblanadi. Harorat ko'tarilishi yoki yorug'lik tushishi bilan ularning o'tkazuvchanligi ortadi.",
     "example": "Quyosh batareyalari yorug'lik energiyasini yutib, yarimo'tkazgich ichida erkin elektronlar va kovaklar hosil qilish orqali tok beradi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "elektr",
+  "lesson_slug": "magnit-maydon",
+  "theory": [
+   {
+    "title": "Magnit maydon nima?",
+    "body": "Magnit maydon – bu magnitlar yoki tok o‘tayotgan o‘tkazgichlar atrofida mavjud bo‘lgan maxsus muhit. U ko‘zga ko‘rinmaydi, lekin boshqa magnit yoki metallarga o‘z ta’sirini o‘tkazib, ularni itarishi yoki o‘ziga tortishi mumkin.",
+    "example": "Muzlatgich eshigiga yopishib turadigan magnitlar yoki kompas milining shimolga burilishi magnit maydon ta’siridir."
+   },
+   {
+    "title": "Magnit kuch chiziqlari",
+    "body": "Magnit maydonni tasavvur qilish uchun biz 'kuch chiziqlari'dan foydalanamiz. Bu chiziqlar har doim shimoliy qutbdan (N) chiqib, janubiy qutbga (S) kiradi va ular qanchalik zich bo‘lsa, maydon shunchalik kuchli bo‘ladi.",
+    "example": "Magnit atrofiga temir qirindilarini sepsangiz, ular aynan shu chiziqlar shaklida tizilib qoladi."
+   },
+   {
+    "title": "Tokli o‘tkazgich va Amper kuchi",
+    "body": "Agar elektr toki o‘tayotgan simni magnit maydoniga joylashtirsak, magnit maydoni unga kuch bilan ta’sir qiladi. Bu kuch 'Amper kuchi' deyiladi va uning yo‘nalishini 'chap qo‘l qoidasi' yordamida osongina aniqlash mumkin.",
+    "example": "Elektr dvigatellari aynan shu kuch hisobiga ishlaydi: tok o‘tgan sim magnit maydonida harakatga keladi."
+   },
+   {
+    "title": "Lorents kuchi tushunchasi",
+    "body": "Agar zaryadli zarracha (masalan, elektron) magnit maydonda harakatlansa, unga ham magnit maydoni kuch bilan ta’sir qiladi. Bu kuch Lorents kuchi deyiladi va u zarrachani egri chiziqli yo‘l bo‘ylab harakatlanishga majbur qiladi.",
+    "example": "Televizor ekranidagi tasvirni hosil qiluvchi elektronlar magnit maydon yordamida kerakli nuqtaga yo‘naltiriladi."
    }
   ]
  },
@@ -1578,114 +1578,6 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "tebranish-optika",
-  "lesson_slug": "yoruglik-qonunlari",
-  "theory": [
-   {
-    "title": "Yorug'likning qaytish qonuni",
-    "body": "Yorug'lik silliq sirtga tushganda, u xuddi to'p kabi qaytib ketadi. Eng muhimi: yorug'likning tushish burchagi har doim uning qaytish burchagiga teng bo'ladi.",
-    "example": "Ko'zguga qaraganingizda o'zingizni ko'rishingiz — yorug'likning aynan shu qonun bo'yicha qaytishidir."
-   },
-   {
-    "title": "Yorug'likning sinishi",
-    "body": "Yorug'lik bir muhitdan (masalan, havodan) ikkinchisiga (masalan, suvga) o'tganda yo'nalishini o'zgartiradi. Bu hodisa yorug'likning sinishi deyiladi va muhitlarning optik zichligiga bog'liq.",
-    "example": "Suv solingan stakanga qalamni tushirsangiz, u singan yoki qiyshaygandek bo'lib ko'rinadi."
-   },
-   {
-    "title": "Sinish burchagi va zichlik",
-    "body": "Agar yorug'lik kam zich muhitdan zichroq muhitga (masalan, havodan shishaga) o'tsa, u tikka chiziqqa yaqinlashadi. Zichroq muhitdan kam zich muhitga o'tganda esa u tikka chiziqdan uzoqlashadi.",
-    "example": "Suv ostidagi baliqqa qaraganingizda, u aslida turgan joyidan sal boshqacharoq ko'rinishi shundan."
-   },
-   {
-    "title": "Test: Bilimingizni tekshiring",
-    "body": "1. Agar yorug'lik nuri sirtga 30 gradus burchak ostida tushsa, uning qaytish burchagi necha gradus bo'ladi? 2. Yorug'lik zichroq muhitga kirganda tikka chiziqqa yaqinlashadimi yoki uzoqlashadimi?",
-    "example": "Javoblar: 1. 30 gradus (qaytish burchagi tushish burchagiga teng). 2. Yaqinlashadi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "tebranish-optika",
-  "lesson_slug": "linzalar",
-  "theory": [
-   {
-    "title": "Linza nima?",
-    "body": "Linza – ikki tomoni silliq, shaffof materialdan (shisha yoki plastik) yasalgan optik buyum. U yorug'lik nurlarini sindirib, narsalarning tasvirini hosil qiladi.",
-    "example": "Ko'zoynak oynalari va fotoapparat obyektivi eng keng tarqalgan linzalardir."
-   },
-   {
-    "title": "Qavariq linza xususiyati",
-    "body": "Qavariq linza chetlariga qaraganda o'rtasi qalinroq bo'ladi. U o'ziga tushgan parallel nurlarni bir nuqtaga jamlaydi, shuning uchun uni 'yig'uvchi linza' deb ham ataymiz.",
-    "example": "Kattalashtiruvchi oyna (lupa) qavariq linzadir, u narsalarni kattalashtirib ko'rsatadi."
-   },
-   {
-    "title": "Sochuvchi linza xususiyati",
-    "body": "Sochuvchi linza o'rtasi chetlariga qaraganda yupqaroq bo'ladi. U nurlarni o'zidan o'tkazganda ularni bir-biridan uzoqlashtiradi, ya'ni sochib yuboradi.",
-    "example": "Yaqindan ko'ra olmaslik (miopiya) kasalligini davolash uchun sochuvchi linzali ko'zoynak taqiladi."
-   },
-   {
-    "title": "Linza formulasi",
-    "body": "Linzaning fokus masofasi (F), narsagacha bo'lgan masofa (d) va tasvirgacha bo'lgan masofa (f) orasidagi bog'lanish 1/F = 1/d + 1/f formula bilan aniqlanadi. Bu formula optik asboblar hisob-kitobida asosiy qonuniyatdir.",
-    "example": "Agar narsa linzadan 20 sm masofada turgan bo'lsa va linza 10 sm fokus masofasiga ega bo'lsa, formula orqali tasvir qayerda hosil bo'lishini topish mumkin."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "tebranish-optika",
-  "lesson_slug": "to-liq-ichki-qaytish-hodisasi-va-uning-amaliy-ahamiyati",
-  "theory": [
-   {
-    "title": "To'liq ichki qaytish nima?",
-    "body": "Yorug'lik optik zich muhitdan kamroq zich muhitga o'tayotganda (masalan, suvdan havoga), agar burchak juda katta bo'lib ketsa, u boshqa muhitga o'tolmaydi. Buning o'rniga yorug'lik to'laqonli tarzda yana o'z muhitiga qaytib tushadi. Biz buni to'liq ichki qaytish deymiz.",
-    "example": "Hovuz tubidan chiqqan yorug'lik nuri suv sirtidan to'g'ridan-to'g'ri qaytib, suv ichiga tushishi."
-   },
-   {
-    "title": "Chegaraviy burchak tushunchasi",
-    "body": "Har bir muhit juftligi uchun o'ziga xos kritik (chegaraviy) burchak bor. Agar tushish burchagi mana shu kritik qiymatdan oshib ketsa, tamom — to'liq ichki qaytish sodir bo'ladi. Undan kichik burchaklarda esa yorug'likning bir qismi baribir tashqariga chiqib ketadi.",
-    "example": "Suv uchun bu chegaraviy burchak taxminan 49° ga teng."
-   },
-   {
-    "title": "Optik tolali aloqa qanday ishlaydi?",
-    "body": "To'liq ichki qaytishning eng zo'r amaliy ahamiyati bu — optik tolalar. Yupqa shisha tola ichiga kirgan nur uning devorlariga tinimsiz ravishda to'liq ichki qaytish bilan urilib, hech qayoqqa qochmasdan manzilga yetib boradi. Internet va telefon ma'lumotlari aynan shu tarzda tezlik bilan uzatiladi.",
-    "example": "Tezkor internet kabellari va tibbiyotdagi endoskop moslamalari."
-   },
-   {
-    "title": "Mirajlar va tabiatdagi sirlar",
-    "body": "Issiq cho'llarda yoki yozda asfalt yo'lda harakatlanayotganda uzoqda suv ko'ringandek tuyulishi ham to'liq ichki qaytish tufayli yuzaga keladi. Yerga yaqin qatlamdagi issiq havo nurlarni sindiradi va osmondagi narsalarning aksini yo'lda ko'rsatib qo'yadi.",
-    "example": "Cho'ldagi karvonchilar uzoqdan ko'radigan suvli ko'lmak mirajlari."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "tebranish-optika",
-  "lesson_slug": "fotometriya-yorug-lik-oqimi-yorug-lik-kuchi-va-yoritilganlik",
-  "theory": [
-   {
-    "title": "Yorug'lik oqimi nima?",
-    "body": "Yorug'lik oqimi - bu manbadan chiqayotgan yorug'likning umumiy miqdori. Uni suv jo'mragidan oqib chiqayotgan suv oqimi deb tasavvur qiling; oqim qancha katta bo'lsa, manba shuncha kuchli nur sochadi. O'lchov birligi - Lyumen (lm).",
-    "example": "60 vattli oddiy lampochka 400-500 lm yorug'lik oqimi bera oladi."
-   },
-   {
-    "title": "Yorug'lik kuchi tushunchasi",
-    "body": "Yorug'lik kuchi - bu manbaning ma'lum bir yo'nalishda qanchalik 'yaltirab' nur taratishi. Agar lampochka atrofga bir xil nur sochsa, uning kuchi hamma yo'nalishda bir xil bo'ladi. O'lchov birligi - Kandela (kd).",
-    "example": "Avtomobil farasidagi reflektor yorug'likni bir yo'nalishga to'plab, o'sha yo'nalishdagi yorug'lik kuchini keskin oshiradi."
-   },
-   {
-    "title": "Yoritilganlik qanday o'lchanadi?",
-    "body": "Yoritilganlik - bu yorug'lik tushayotgan sirtning qanchalik yorug' ekanligi. U sirtga tushayotgan yorug'lik oqimining shu sirt yuzasiga nisbatiga teng. O'lchov birligi - Lyuks (lx).",
-    "example": "Kitobni o'qiyotganingizda stoldagi yoritilganlik 300-500 lyuks bo'lsa, ko'zingiz toliqmaydi."
-   },
-   {
-    "title": "Masofaning ta'siri",
-    "body": "Sirt yoritilganligi manbaga bo'lgan masofaning kvadratiga teskari proporsionaldir. Ya'ni, masofani 2 barobar oshirsangiz, yoritilganlik 4 marta kamayadi. Shuning uchun manbadan uzoqlashgan sari sirt xira ko'rinadi.",
-    "example": "Chiroqqa yaqin turganingizda kitob yorqinroq ko'rinadi, biroq 2 metr nariga o'tsangiz, yorug'lik sezilarli darajada susayadi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "tebranish-optika",
   "lesson_slug": "elektromagnit-tebranishlar-tebranish-konturi-va-tomson-formu",
   "theory": [
    {
@@ -1740,27 +1632,81 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "tebranish-optika",
-  "lesson_slug": "yorug-lik-dispersiyasi-spektrlar-va-ularning-turlari",
+  "lesson_slug": "yoruglik-qonunlari",
   "theory": [
    {
-    "title": "Yorug'lik dispersiyasi nima?",
-    "body": "Oq yorug'lik prizmadan o'tganda yetti xil rangga ajralish hodisasi dispersiya deyiladi. Bu yorug'likning tezligi muhitda uning chastotasiga bog'liq bo'lgani uchun yuz beradi.",
-    "example": "Yomg'irdan keyin osmonda kamalak hosil bo'lishi yorug'lik dispersiyasining eng go'zal tabiiy namunasidir."
+    "title": "Yorug'likning qaytish qonuni",
+    "body": "Yorug'lik silliq sirtga tushganda, u xuddi to'p kabi qaytib ketadi. Eng muhimi: yorug'likning tushish burchagi har doim uning qaytish burchagiga teng bo'ladi.",
+    "example": "Ko'zguga qaraganingizda o'zingizni ko'rishingiz — yorug'likning aynan shu qonun bo'yicha qaytishidir."
    },
    {
-    "title": "Ranglar va ularning sinishi",
-    "body": "Spektrda eng kam sinadigan rang qizil, eng ko'p sinadigan rang esa binafsha rangdir. Chunki qizil nurning to'lqin uzunligi eng katta, binafshaniki esa eng kichik bo'ladi.",
-    "example": "Prizma orqali o'tgan nurlarda qizil rang yuqorida, binafsha rang esa pastda (yopiq burchakda) joylashadi."
+    "title": "Yorug'likning sinishi",
+    "body": "Yorug'lik bir muhitdan (masalan, havodan) ikkinchisiga (masalan, suvga) o'tganda yo'nalishini o'zgartiradi. Bu hodisa yorug'likning sinishi deyiladi va muhitlarning optik zichligiga bog'liq.",
+    "example": "Suv solingan stakanga qalamni tushirsangiz, u singan yoki qiyshaygandek bo'lib ko'rinadi."
    },
    {
-    "title": "Spektrlar turlari",
-    "body": "Spektrlar uchta asosiy turga bo'linadi: uzluksiz, chiziqli va yo'lli (tasmali). Uzluksiz spektr qizigan qattiq jismlardan, chiziqli spektr esa atomar gazlardan chiqadi.",
-    "example": "Quyosh nuri uzluksiz spektr beradi, chunki u qizigan gazsimon plazmadan iborat."
+    "title": "Sinish burchagi va zichlik",
+    "body": "Agar yorug'lik kam zich muhitdan zichroq muhitga (masalan, havodan shishaga) o'tsa, u tikka chiziqqa yaqinlashadi. Zichroq muhitdan kam zich muhitga o'tganda esa u tikka chiziqdan uzoqlashadi.",
+    "example": "Suv ostidagi baliqqa qaraganingizda, u aslida turgan joyidan sal boshqacharoq ko'rinishi shundan."
    },
    {
-    "title": "Spektral tahlil usuli",
-    "body": "Moddalarning spektriga qarab ularning kimyoviy tarkibini aniqlash mumkin. Har bir kimyoviy element o'ziga xos noyob chiziqli spektrga ega, bu uni \"barmoq izi\" kabi ajratib turadi.",
-    "example": "Astronomlar uzoq yulduzlarning nurini spektral tahlil qilib, ularda qanday elementlar (vodorod, geliy va h.k.) borligini aniqlashadi."
+    "title": "Test: Bilimingizni tekshiring",
+    "body": "1. Agar yorug'lik nuri sirtga 30 gradus burchak ostida tushsa, uning qaytish burchagi necha gradus bo'ladi? 2. Yorug'lik zichroq muhitga kirganda tikka chiziqqa yaqinlashadimi yoki uzoqlashadimi?",
+    "example": "Javoblar: 1. 30 gradus (qaytish burchagi tushish burchagiga teng). 2. Yaqinlashadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "tebranish-optika",
+  "lesson_slug": "fotometriya-yorug-lik-oqimi-yorug-lik-kuchi-va-yoritilganlik",
+  "theory": [
+   {
+    "title": "Yorug'lik oqimi nima?",
+    "body": "Yorug'lik oqimi - bu manbadan chiqayotgan yorug'likning umumiy miqdori. Uni suv jo'mragidan oqib chiqayotgan suv oqimi deb tasavvur qiling; oqim qancha katta bo'lsa, manba shuncha kuchli nur sochadi. O'lchov birligi - Lyumen (lm).",
+    "example": "60 vattli oddiy lampochka 400-500 lm yorug'lik oqimi bera oladi."
+   },
+   {
+    "title": "Yorug'lik kuchi tushunchasi",
+    "body": "Yorug'lik kuchi - bu manbaning ma'lum bir yo'nalishda qanchalik 'yaltirab' nur taratishi. Agar lampochka atrofga bir xil nur sochsa, uning kuchi hamma yo'nalishda bir xil bo'ladi. O'lchov birligi - Kandela (kd).",
+    "example": "Avtomobil farasidagi reflektor yorug'likni bir yo'nalishga to'plab, o'sha yo'nalishdagi yorug'lik kuchini keskin oshiradi."
+   },
+   {
+    "title": "Yoritilganlik qanday o'lchanadi?",
+    "body": "Yoritilganlik - bu yorug'lik tushayotgan sirtning qanchalik yorug' ekanligi. U sirtga tushayotgan yorug'lik oqimining shu sirt yuzasiga nisbatiga teng. O'lchov birligi - Lyuks (lx).",
+    "example": "Kitobni o'qiyotganingizda stoldagi yoritilganlik 300-500 lyuks bo'lsa, ko'zingiz toliqmaydi."
+   },
+   {
+    "title": "Masofaning ta'siri",
+    "body": "Sirt yoritilganligi manbaga bo'lgan masofaning kvadratiga teskari proporsionaldir. Ya'ni, masofani 2 barobar oshirsangiz, yoritilganlik 4 marta kamayadi. Shuning uchun manbadan uzoqlashgan sari sirt xira ko'rinadi.",
+    "example": "Chiroqqa yaqin turganingizda kitob yorqinroq ko'rinadi, biroq 2 metr nariga o'tsangiz, yorug'lik sezilarli darajada susayadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "tebranish-optika",
+  "lesson_slug": "to-liq-ichki-qaytish-hodisasi-va-uning-amaliy-ahamiyati",
+  "theory": [
+   {
+    "title": "To'liq ichki qaytish nima?",
+    "body": "Yorug'lik optik zich muhitdan kamroq zich muhitga o'tayotganda (masalan, suvdan havoga), agar burchak juda katta bo'lib ketsa, u boshqa muhitga o'tolmaydi. Buning o'rniga yorug'lik to'laqonli tarzda yana o'z muhitiga qaytib tushadi. Biz buni to'liq ichki qaytish deymiz.",
+    "example": "Hovuz tubidan chiqqan yorug'lik nuri suv sirtidan to'g'ridan-to'g'ri qaytib, suv ichiga tushishi."
+   },
+   {
+    "title": "Chegaraviy burchak tushunchasi",
+    "body": "Har bir muhit juftligi uchun o'ziga xos kritik (chegaraviy) burchak bor. Agar tushish burchagi mana shu kritik qiymatdan oshib ketsa, tamom — to'liq ichki qaytish sodir bo'ladi. Undan kichik burchaklarda esa yorug'likning bir qismi baribir tashqariga chiqib ketadi.",
+    "example": "Suv uchun bu chegaraviy burchak taxminan 49° ga teng."
+   },
+   {
+    "title": "Optik tolali aloqa qanday ishlaydi?",
+    "body": "To'liq ichki qaytishning eng zo'r amaliy ahamiyati bu — optik tolalar. Yupqa shisha tola ichiga kirgan nur uning devorlariga tinimsiz ravishda to'liq ichki qaytish bilan urilib, hech qayoqqa qochmasdan manzilga yetib boradi. Internet va telefon ma'lumotlari aynan shu tarzda tezlik bilan uzatiladi.",
+    "example": "Tezkor internet kabellari va tibbiyotdagi endoskop moslamalari."
+   },
+   {
+    "title": "Mirajlar va tabiatdagi sirlar",
+    "body": "Issiq cho'llarda yoki yozda asfalt yo'lda harakatlanayotganda uzoqda suv ko'ringandek tuyulishi ham to'liq ichki qaytish tufayli yuzaga keladi. Yerga yaqin qatlamdagi issiq havo nurlarni sindiradi va osmondagi narsalarning aksini yo'lda ko'rsatib qo'yadi.",
+    "example": "Cho'ldagi karvonchilar uzoqdan ko'radigan suvli ko'lmak mirajlari."
    }
   ]
  },
@@ -1821,6 +1767,60 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "tebranish-optika",
+  "lesson_slug": "yorug-lik-dispersiyasi-spektrlar-va-ularning-turlari",
+  "theory": [
+   {
+    "title": "Yorug'lik dispersiyasi nima?",
+    "body": "Oq yorug'lik prizmadan o'tganda yetti xil rangga ajralish hodisasi dispersiya deyiladi. Bu yorug'likning tezligi muhitda uning chastotasiga bog'liq bo'lgani uchun yuz beradi.",
+    "example": "Yomg'irdan keyin osmonda kamalak hosil bo'lishi yorug'lik dispersiyasining eng go'zal tabiiy namunasidir."
+   },
+   {
+    "title": "Ranglar va ularning sinishi",
+    "body": "Spektrda eng kam sinadigan rang qizil, eng ko'p sinadigan rang esa binafsha rangdir. Chunki qizil nurning to'lqin uzunligi eng katta, binafshaniki esa eng kichik bo'ladi.",
+    "example": "Prizma orqali o'tgan nurlarda qizil rang yuqorida, binafsha rang esa pastda (yopiq burchakda) joylashadi."
+   },
+   {
+    "title": "Spektrlar turlari",
+    "body": "Spektrlar uchta asosiy turga bo'linadi: uzluksiz, chiziqli va yo'lli (tasmali). Uzluksiz spektr qizigan qattiq jismlardan, chiziqli spektr esa atomar gazlardan chiqadi.",
+    "example": "Quyosh nuri uzluksiz spektr beradi, chunki u qizigan gazsimon plazmadan iborat."
+   },
+   {
+    "title": "Spektral tahlil usuli",
+    "body": "Moddalarning spektriga qarab ularning kimyoviy tarkibini aniqlash mumkin. Har bir kimyoviy element o'ziga xos noyob chiziqli spektrga ega, bu uni \"barmoq izi\" kabi ajratib turadi.",
+    "example": "Astronomlar uzoq yulduzlarning nurini spektral tahlil qilib, ularda qanday elementlar (vodorod, geliy va h.k.) borligini aniqlashadi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "tebranish-optika",
+  "lesson_slug": "linzalar",
+  "theory": [
+   {
+    "title": "Linza nima?",
+    "body": "Linza – ikki tomoni silliq, shaffof materialdan (shisha yoki plastik) yasalgan optik buyum. U yorug'lik nurlarini sindirib, narsalarning tasvirini hosil qiladi.",
+    "example": "Ko'zoynak oynalari va fotoapparat obyektivi eng keng tarqalgan linzalardir."
+   },
+   {
+    "title": "Qavariq linza xususiyati",
+    "body": "Qavariq linza chetlariga qaraganda o'rtasi qalinroq bo'ladi. U o'ziga tushgan parallel nurlarni bir nuqtaga jamlaydi, shuning uchun uni 'yig'uvchi linza' deb ham ataymiz.",
+    "example": "Kattalashtiruvchi oyna (lupa) qavariq linzadir, u narsalarni kattalashtirib ko'rsatadi."
+   },
+   {
+    "title": "Sochuvchi linza xususiyati",
+    "body": "Sochuvchi linza o'rtasi chetlariga qaraganda yupqaroq bo'ladi. U nurlarni o'zidan o'tkazganda ularni bir-biridan uzoqlashtiradi, ya'ni sochib yuboradi.",
+    "example": "Yaqindan ko'ra olmaslik (miopiya) kasalligini davolash uchun sochuvchi linzali ko'zoynak taqiladi."
+   },
+   {
+    "title": "Linza formulasi",
+    "body": "Linzaning fokus masofasi (F), narsagacha bo'lgan masofa (d) va tasvirgacha bo'lgan masofa (f) orasidagi bog'lanish 1/F = 1/d + 1/f formula bilan aniqlanadi. Bu formula optik asboblar hisob-kitobida asosiy qonuniyatdir.",
+    "example": "Agar narsa linzadan 20 sm masofada turgan bo'lsa va linza 10 sm fokus masofasiga ega bo'lsa, formula orqali tasvir qayerda hosil bo'lishini topish mumkin."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "tebranish-optika",
   "lesson_slug": "yorug-likning-qutblanishi-va-sochilishi",
   "theory": [
    {
@@ -1875,60 +1875,6 @@
  {
   "subject_slug": "fizika",
   "unit_slug": "atom-yadro-fizikasi",
-  "lesson_slug": "radioaktivlik",
-  "theory": [
-   {
-    "title": "Radioaktivlik nima?",
-    "body": "Radioaktivlik – bu beqaror atom yadrolarining o‘z-o‘zidan parchalanishi va shu jarayonda energiya yoki nurlanish chiqarishidir. Oddiy qilib aytganda, yadro «ortiqcha yuk»dan qutulib, barqaror holatga o‘tishga harakat qiladi.",
-    "example": "Uran yoki Radiy elementlarining vaqt o‘tishi bilan o‘z-o‘zidan boshqa elementlarga aylanishi bunga yaqqol misoldir."
-   },
-   {
-    "title": "Alfa va Beta nurlanish",
-    "body": "Radioaktiv moddalar asosan alfa (geliy yadrolari) va beta (elektronlar) zarralarini chiqaradi. Alfa zarrasi og‘irroq, beta esa yengilroq bo‘lib, ularning har biri atom yadrosining tarkibini o‘zgartiradi.",
-    "example": "Alfa yemirilishda atom tartib raqami 2 taga, beta yemirilishda esa 1 taga o‘zgaradi."
-   },
-   {
-    "title": "Yadro reaksiyalari qonunlari",
-    "body": "Yadro reaksiyalarida ikki narsaga qat'iy amal qilamiz: zaryadlar soni (pastki indeks) va nuklonlar soni (yuqori indeks) reaksiya boshida va oxirida teng bo‘lishi shart. Buni xuddi matematik tenglamadek tasavvur qiling.",
-    "example": "Agar reaksiya chap tomonida massa soni 238 bo‘lsa, o‘ng tomonidagi hosil bo‘lgan barcha zarralarning massa sonlari yig‘indisi ham 238 bo‘lishi kerak."
-   },
-   {
-    "title": "Yarim yemirilish davri",
-    "body": "Radioaktiv moddaning yarmi parchalanib ketishi uchun ketadigan vaqtga yarim yemirilish davri deyiladi. Bu jarayon har bir element uchun o‘zgarmas va aniq vaqtni talab qiladi.",
-    "example": "Agar moddaning yarim yemirilish davri 10 yil bo‘lsa, 10 yildan keyin moddaning 50% qoladi, 20 yildan keyin esa dastlabki miqdorining 25% qoladi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "atom-yadro-fizikasi",
-  "lesson_slug": "rentgen-nurlanishi-va-uning-xossalari",
-  "theory": [
-   {
-    "title": "Rentgen nurlari nima?",
-    "body": "Rentgen nurlari – bu juda yuqori energiyaga ega bo'lgan ko'rinmas elektromagnit to'lqinlardir. Ular tez harakatlanayotgan elektronlar keskin tormozlanganda yoki atomlarning ichki qatlamlaridagi o'zgarishlar natijasida paydo bo'ladi.",
-    "example": "Kasalxonadagi rentgen apparati aynan shu nurlar yordamida tana ichidagi suyaklar tasvirini oladi."
-   },
-   {
-    "title": "Rentgen nurlarining o'tkazuvchanligi",
-    "body": "Rentgen nurlarining eng asosiy xossasi – ularning moddalardan o'tib keta olish qobiliyatidir. Nurlarning o'tishi moddaning zichligiga bog'liq: zichroq moddalar (masalan, suyak) nurlarni kuchliroq yutadi va tasvirda oq rangda ko'rinadi.",
-    "example": "Rentgen nuri yumshoq to'qimalardan bemalol o'tadi, lekin zich suyak yoki metall to'siqlarga duch kelganda ularni yutib yuboradi yoki qaytaradi."
-   },
-   {
-    "title": "Tormozlanish va xarakteristik nurlanish",
-    "body": "Rentgen nurlanishining ikki turi bor. Tormozlanish nurlanishi elektronlarning keskin to'xtashi natijasida hosil bo'ladi. Xarakteristik nurlanish esa elektron atomning ichki qatlamiga urilib, u yerdagi elektronni chiqarib yuborganda, o'rniga boshqa qatlamdan elektron tushishi bilan yuzaga keladi.",
-    "example": "Tormozlanish nurlanishini tez ketayotgan mashinaning to'satdan tormoz berib, issiqlik va shovqin chiqarishiga o'xshatish mumkin."
-   },
-   {
-    "title": "Rentgen nurlarining qo'llanilishi",
-    "body": "Rentgen nurlari nafaqat tibbiyotda, balki sanoatda ham muhim. Ular yordamida metall detallardagi ko'zga ko'rinmas yoriqlarni aniqlash va kristallarning ichki tuzilishini o'rganish (rentgenostrukturali tahlil) mumkin.",
-    "example": "Samolyot qismlarining ichki tuzilishini buzmasdan tekshirish uchun rentgen nurlaridan foydalaniladi."
-   }
-  ]
- },
- {
-  "subject_slug": "fizika",
-  "unit_slug": "atom-yadro-fizikasi",
   "lesson_slug": "atom-yadrosining-tarkibi-izotoplar",
   "theory": [
    {
@@ -1977,6 +1923,60 @@
     "title": "Test: Bilimni tekshiramiz",
     "body": "Quyidagi savolga javob bering: 1) Massa defekti musbat qiymat bo'lishi shartmi? 2) Agar yadro massasi uning tarkibiy qismlari massalari yig'indisidan kichik bo'lsa, bu nimani anglatadi? 3) Solishtirma bog'lanish energiyasi katta bo'lgan yadro barqarorroqmi yoki aksincha?",
     "example": "Javoblar: 1) Ha, chunki yadro massasi har doim yig'indidan kichik. 2) Bu energiya ajralib chiqqanini anglatadi. 3) Katta bo'lsa - barqarorroq."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "atom-yadro-fizikasi",
+  "lesson_slug": "rentgen-nurlanishi-va-uning-xossalari",
+  "theory": [
+   {
+    "title": "Rentgen nurlari nima?",
+    "body": "Rentgen nurlari – bu juda yuqori energiyaga ega bo'lgan ko'rinmas elektromagnit to'lqinlardir. Ular tez harakatlanayotgan elektronlar keskin tormozlanganda yoki atomlarning ichki qatlamlaridagi o'zgarishlar natijasida paydo bo'ladi.",
+    "example": "Kasalxonadagi rentgen apparati aynan shu nurlar yordamida tana ichidagi suyaklar tasvirini oladi."
+   },
+   {
+    "title": "Rentgen nurlarining o'tkazuvchanligi",
+    "body": "Rentgen nurlarining eng asosiy xossasi – ularning moddalardan o'tib keta olish qobiliyatidir. Nurlarning o'tishi moddaning zichligiga bog'liq: zichroq moddalar (masalan, suyak) nurlarni kuchliroq yutadi va tasvirda oq rangda ko'rinadi.",
+    "example": "Rentgen nuri yumshoq to'qimalardan bemalol o'tadi, lekin zich suyak yoki metall to'siqlarga duch kelganda ularni yutib yuboradi yoki qaytaradi."
+   },
+   {
+    "title": "Tormozlanish va xarakteristik nurlanish",
+    "body": "Rentgen nurlanishining ikki turi bor. Tormozlanish nurlanishi elektronlarning keskin to'xtashi natijasida hosil bo'ladi. Xarakteristik nurlanish esa elektron atomning ichki qatlamiga urilib, u yerdagi elektronni chiqarib yuborganda, o'rniga boshqa qatlamdan elektron tushishi bilan yuzaga keladi.",
+    "example": "Tormozlanish nurlanishini tez ketayotgan mashinaning to'satdan tormoz berib, issiqlik va shovqin chiqarishiga o'xshatish mumkin."
+   },
+   {
+    "title": "Rentgen nurlarining qo'llanilishi",
+    "body": "Rentgen nurlari nafaqat tibbiyotda, balki sanoatda ham muhim. Ular yordamida metall detallardagi ko'zga ko'rinmas yoriqlarni aniqlash va kristallarning ichki tuzilishini o'rganish (rentgenostrukturali tahlil) mumkin.",
+    "example": "Samolyot qismlarining ichki tuzilishini buzmasdan tekshirish uchun rentgen nurlaridan foydalaniladi."
+   }
+  ]
+ },
+ {
+  "subject_slug": "fizika",
+  "unit_slug": "atom-yadro-fizikasi",
+  "lesson_slug": "radioaktivlik",
+  "theory": [
+   {
+    "title": "Radioaktivlik nima?",
+    "body": "Radioaktivlik – bu beqaror atom yadrolarining o‘z-o‘zidan parchalanishi va shu jarayonda energiya yoki nurlanish chiqarishidir. Oddiy qilib aytganda, yadro «ortiqcha yuk»dan qutulib, barqaror holatga o‘tishga harakat qiladi.",
+    "example": "Uran yoki Radiy elementlarining vaqt o‘tishi bilan o‘z-o‘zidan boshqa elementlarga aylanishi bunga yaqqol misoldir."
+   },
+   {
+    "title": "Alfa va Beta nurlanish",
+    "body": "Radioaktiv moddalar asosan alfa (geliy yadrolari) va beta (elektronlar) zarralarini chiqaradi. Alfa zarrasi og‘irroq, beta esa yengilroq bo‘lib, ularning har biri atom yadrosining tarkibini o‘zgartiradi.",
+    "example": "Alfa yemirilishda atom tartib raqami 2 taga, beta yemirilishda esa 1 taga o‘zgaradi."
+   },
+   {
+    "title": "Yadro reaksiyalari qonunlari",
+    "body": "Yadro reaksiyalarida ikki narsaga qat'iy amal qilamiz: zaryadlar soni (pastki indeks) va nuklonlar soni (yuqori indeks) reaksiya boshida va oxirida teng bo‘lishi shart. Buni xuddi matematik tenglamadek tasavvur qiling.",
+    "example": "Agar reaksiya chap tomonida massa soni 238 bo‘lsa, o‘ng tomonidagi hosil bo‘lgan barcha zarralarning massa sonlari yig‘indisi ham 238 bo‘lishi kerak."
+   },
+   {
+    "title": "Yarim yemirilish davri",
+    "body": "Radioaktiv moddaning yarmi parchalanib ketishi uchun ketadigan vaqtga yarim yemirilish davri deyiladi. Bu jarayon har bir element uchun o‘zgarmas va aniq vaqtni talab qiladi.",
+    "example": "Agar moddaning yarim yemirilish davri 10 yil bo‘lsa, 10 yildan keyin moddaning 50% qoladi, 20 yildan keyin esa dastlabki miqdorining 25% qoladi."
    }
   ]
  },
