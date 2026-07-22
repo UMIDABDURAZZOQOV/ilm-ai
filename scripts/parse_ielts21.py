@@ -53,8 +53,253 @@ RUNNING_HEAD = {"Test 1", "Test 2", "Test 3", "Test 4", "Reading", "Listening",
 # cutting a page into question blocks, collecting options, numbering gaps — is shared.
 PLAIN_LAYOUT = False
 
+# A scanned volume has no text layer at all, so its pages come from
+# `scripts/ocr_pages.py` instead of from pypdf. Set in main() when the cache exists.
+OCR_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seeds", "ocr", f"c{BOOK}")
+OCR_PAGES = False
+# A word starts a new visual line when its centre sits this far from the current one,
+# as a fraction of its own height.
+OCR_ROW_TOL = 0.6
+# Two columns of an answer key share one printed line. The gap between them is many
+# times a word space, so it is re-emitted as four — `parse_answer_keys_plain` splits on
+# runs of four, and without this the two columns merge into one unreadable row.
+OCR_COLUMN_GAP = 34.0
+# Neither engine returns the dot leader that marks an answer space — the dots are too
+# faint to be read as text — so a note came back as "Area: 1    hectares" and not one of
+# the ten gaps in a Listening Part 1 was found. The leader is put back from the width of
+# the hole it left. A part heading ("PART 1    Questions 1-10") leaves a 66px gap and a
+# real leader 95-186px, so the threshold sits between them, and headings are skipped
+# outright rather than trusted to the number.
+OCR_LEADER_GAP = 90.0
+# A heading ends in a number too. "READING PASSAGE 1" became "READING PASSAGE 1 ........."
+# and stopped matching PASSAGE_RE, which cost every reading passage in the book.
+# Two marks that only an audioscript page carries: the speaker label, and the "Q26" the
+# margin prints where the answer is spoken. Part 4 is one uninterrupted lecture, so it
+# has no speaker labels at all — going by those alone stopped the walk on the first
+# Part 4 page and left the section empty.
+# "Questions II and 12" — OCR reads 11 as two capital I's, so the block header was not
+# recognised, the block was never split, and the "Choose TWO letters" fallback filled
+# the whole 13-20 range with one shared stem: eight duplicate questions.
+OCR_QRANGE_RE = re.compile(
+    r"\b(Questions?)\s+([\dIlO|]{1,2})\s*([-–—]|and)\s*([\dIlO|]{1,2})\b", re.I)
+SPEAKER_RE = re.compile(r"^[A-Z][A-Z'. ]{1,14}\s*:")
+SCRIPT_MARK_RE = re.compile(r"\bQ\d{1,2}\b")
+
+
+def is_script_page(lines: list[str]) -> bool:
+    return any(SPEAKER_RE.match(l) or SCRIPT_MARK_RE.search(l) for l in lines)
+OCR_HEADING_RE = re.compile(
+    r"^(READING PASSAGE|PART|TEST|SECTION|WRITING TASK|Questions?)\b", re.I)
+
 
 # ─── low-level page reconstruction ────────────────────────────────────────────
+
+def ocr_lines(page_no: int) -> list[str]:
+    """Visual lines rebuilt from the OCR word boxes of a scanned page.
+
+    The engine returns lines in its own order, which is not the page's: on a Listening
+    page the five question numbers come back as five lines of their own, detached from
+    the sentences they belong to. Grouping words by vertical position puts "11" back in
+    front of its question, which is what every downstream regex expects.
+    """
+    with open(os.path.join(OCR_DIR, f"{page_no}.json"), encoding="utf-8") as fh:
+        page = json.load(fh)
+    return lines_from_boxes(page["words"], page_height=page.get("height"))
+
+
+def lines_from_boxes(words: list[dict], leaders: bool = True,
+                     page_height: float | None = None) -> list[str]:
+    """Group boxed words into visual lines, keeping a column gap as four spaces.
+
+    With `leaders`, a wide hole after a question number is re-emitted as the dot leader
+    the page actually prints. Answer-key pages pass False: there the wide gap separates
+    the two columns of the key, and a number followed by one is a question number
+    followed by its answer, not a gap.
+    """
+    if not words:
+        return []
+
+    # A leader is sometimes half-read, leaving a stray "." or "„" in the middle of it.
+    # Those tokens are not text, and left in place they break the hole into two gaps too
+    # narrow to recognise — question 31 of Test 2 came out as "31 . and".
+    if leaders:
+        words = [w for w in words if not re.fullmatch(r"[.·…„,']{1,4}", w["t"])]
+
+    rows: list[list[dict]] = []
+    for w in sorted(words, key=lambda w: w["y"] + w["h"] / 2):
+        centre = w["y"] + w["h"] / 2
+        if rows:
+            last = rows[-1][-1]
+            if abs(centre - (last["y"] + last["h"] / 2)) <= last["h"] * OCR_ROW_TOL:
+                rows[-1].append(w)
+                continue
+        rows.append([w])
+
+    lines: list[str] = []
+    for row in rows:
+        row.sort(key=lambda w: w["x"])
+        plain = " ".join(w["t"] for w in row)
+        # A Contents entry is also a short line ending in a number ("Audioscripts 100"),
+        # and appending a leader to it hid the Contents page from locate_back_matter.
+        heading = bool(Q_HEADER.match(plain) or Q_HEADER_ONE.match(plain)
+                       or OCR_HEADING_RE.match(plain) or CONTENTS_RE.match(plain))
+
+        # Asked before the text is assembled, because it rewrites a letter-shaped number
+        # in place: checking afterwards left the line reading "the movement of the I ....",
+        # with the leader restored but the number still a capital I.
+        trailing = leaders and not heading and ends_with_gap(row, page_height)
+
+        parts: list[str] = []
+        for i, w in enumerate(row):
+            if i:
+                prev = row[i - 1]
+                gap = w["x"] - (prev["x"] + prev["w"])
+                if (leaders and not heading and gap > OCR_LEADER_GAP
+                        and is_gap_number(row, i - 1)):
+                    parts.append(" ......... ")
+                else:
+                    parts.append("    " if gap > OCR_COLUMN_GAP else " ")
+            parts.append(w["t"])
+        text = "".join(parts).strip()
+        if trailing:
+            text += " ........."
+
+        text = OCR_QRANGE_RE.sub(
+            lambda m: f"{m.group(1)} {m.group(2).translate(OCR_NUM_TRANS)} "
+                      f"{m.group(3)} {m.group(4).translate(OCR_NUM_TRANS)}", text)
+        if text and text not in RUNNING_HEAD:
+            lines.append(text)
+    return lines
+
+
+def as_number(text: str) -> str | None:
+    """The digits this token reads as, allowing OCR's I for 1, l for 1 and O for 0.
+
+    A trailing stop is part of the leader, not of the number: where only the first dot
+    of the leader survived, the token came back as "7." and the gap went unrecognised.
+    """
+    text = text.rstrip(".,·…")
+    if re.fullmatch(r"\d{1,2}", text):
+        return text
+    if re.fullmatch(r"[IlO|]{1,2}", text):
+        digits = text.translate(OCR_NUM_TRANS)
+        return digits if digits.isdigit() and digits != "0" else None
+    return None
+
+
+def is_gap_number(row: list[dict], i: int, ocr_shapes: bool = False) -> bool:
+    """Is `row[i]` the printed number of an answer space?
+
+    A currency sign is part of the answer, not of the number ("Cost per child: 9 £ ...").
+    The number is rewritten in place when OCR gave it as letters, because everything
+    downstream looks for a digit.
+    """
+    if re.fullmatch(r"[£$€]", row[i]["t"]) and i:
+        i -= 1
+    # Letter shapes are only trusted at the end of a line. Mid-line, "I" is far more
+    # often the word than the number, and accepting it there invented gaps that pushed
+    # real ones out — twelve questions were lost that way.
+    digits = as_number(row[i]["t"]) if ocr_shapes else (
+        row[i]["t"] if re.fullmatch(r"\d{1,2}", row[i]["t"]) else None)
+    if digits is None:
+        return False
+    row[i]["t"] = digits
+    return True
+
+
+def ends_with_gap(row: list[dict], page_height: float | None) -> bool:
+    """A leader running to the end of the line leaves only its number behind.
+
+    One guard, arrived at by measuring the whole book rather than by reasoning: the page
+    number is a lone number too, so the bottom sliver of the page is ignored.
+
+    Everything else that looked prudent cost questions. Capping the line length to keep
+    prose out lost eighteen — notes and table rows run longer than they look, and the
+    number has to be the last token anyway. Requiring two tokens lost three more: a
+    table cell is often nothing but its number.
+    """
+    if not row:
+        return False
+    # Measured, not guessed: the running foot sits at 0.92-0.93 of the page height and
+    # the last line of content at 0.75. A 0.94 cut-off left the page number in, and the
+    # leader appended to it produced a phantom "22 ........." on the page whose printed
+    # number is 22.
+    if page_height and row[0]["y"] > page_height * 0.90:
+        return False
+    return is_gap_number(row, len(row) - 1, ocr_shapes=True)
+
+
+OCR_NUM_TRANS = str.maketrans({"I": "1", "l": "1", "|": "1", "O": "0"})
+
+
+def fix_leading_number(text: str) -> str:
+    """"I Mathieson" → "1 Mathieson", "IO alone" → "10 alone", "4() flooding" → "40 …".
+
+    OCR reads the 1 of a question number as a capital I, the 10 as IO and the 0 as "()"
+    often enough that whole columns of answers went unrecognised. Only a leading token
+    made purely of those shapes is touched, and only when it reads as a number after.
+    """
+    text = re.sub(r"^(\d)\(\)", r"\g<1>0", text)
+    # "22Visualisation" — the space between the number and its answer is not always
+    # returned, and the answer is then lost with the number attached to it.
+    text = re.sub(r"^(\d{1,2})([A-Za-z][A-Za-z/() -]*)$", r"\1 \2", text)
+    m = re.match(r"^([IlO|\d]{1,2})(\s+\S.*)$", text)
+    if not m or m.group(1).isdigit():
+        return text
+    digits = m.group(1).translate(OCR_NUM_TRANS)
+    return digits + m.group(2) if digits.isdigit() else text
+
+
+MERGED_KEY_RE = re.compile(r"^(\d{1,2}(?:\s+\d{1,2})+)\s+(\S+(?:\s+\S+)*)$")
+
+
+def split_merged_key(cell: str) -> list[str]:
+    """"10 8 9 topspin training paint" → "8 topspin", "9 training", "10 paint".
+
+    rapidocr sometimes takes several rows of a key as one box, and then emits the whole
+    number column before the whole answer column. The numbers come out in the order the
+    box was scanned, not in the order of the answers, so they are sorted; the answers
+    are already in reading order.
+
+    Only fires on two or more leading numbers with exactly as many words after them, and
+    never when one of those words is itself a number — "3 250 / two hundred and fifty"
+    must not be torn apart.
+    """
+    m = MERGED_KEY_RE.match(cell)
+    if not m:
+        return [cell]
+    nums, rest = m.group(1).split(), m.group(2).split()
+    if len(nums) != len(rest) or len(nums) < 2:
+        return [cell]
+    if any(re.fullmatch(r"\d+", r) for r in rest):
+        return [cell]
+    return [f"{n} {a}" for n, a in zip(sorted(nums, key=int), rest)]
+
+
+def ocr_key_segments(page_no: int) -> list[str]:
+    """One string per printed answer on a scanned answer-key page.
+
+    The two halves of the key are one printed line ("2 beginners    22 B"), so they are
+    cut at the wide gap that `lines_from_boxes` preserves. That is the same shape
+    `page_segments` produces for the rotated book, so `parse_answer_keys` reads either.
+    """
+    # Both engines, in that order. rapidocr is the one that sees the isolated capitals
+    # and so must have the last word, but it drops the occasional whole answer — Test 4's
+    # question 40 was simply absent from it, and Windows OCR had it all along.
+    lines = ocr_lines(page_no)
+    path = os.path.join(OCR_DIR, "keys", f"{page_no}.json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as fh:
+            lines = lines + lines_from_boxes(json.load(fh)["words"], leaders=False)
+
+    out: list[str] = []
+    for line in lines:
+        for cell in re.split(r"\s{4,}", line):
+            cell = fix_leading_number(cell.strip())
+            if cell:
+                out.extend(split_merged_key(cell))
+    return out
+
 
 def plain_lines(page) -> list[str]:
     """Upright page: pypdf's own line breaks are already the visual ones.
@@ -153,6 +398,19 @@ CONTENTS_RE = re.compile(r"^(Audioscripts|Listening and Reading answer keys|"
                          r"Sample Writing answers)\s+(\d{1,3})\s*$", re.I)
 
 
+def page_reader(reader):
+    """How to get the visual lines of page `n` (1-based) for this PDF.
+
+    Three sources now: OCR word boxes for a scan, pypdf's own line breaks for an upright
+    file, and coordinate reconstruction for a rotated one.
+    """
+    if OCR_PAGES:
+        return ocr_lines
+    if PLAIN_LAYOUT:
+        return lambda n: plain_lines(reader.pages[n - 1])
+    return lambda n: page_lines(reader.pages[n - 1])
+
+
 def locate_back_matter(reader) -> None:
     """Read the Contents page for where the audioscripts and answer keys start.
 
@@ -164,24 +422,13 @@ def locate_back_matter(reader) -> None:
     """
     global AUDIOSCRIPT_PAGES, ANSWER_KEY_PAGES
 
-    if PLAIN_LAYOUT:
-        # This edition has no Contents and no audioscripts; the keys are simply
-        # everything from the first "TEST n LISTENING ANSWERS" page to the end.
-        first = next((i for i, page in enumerate(reader.pages, start=1)
-                      if any(ANSWER_HEAD.search(l) for l in plain_lines(page)[:3])), None)
-        if first is None:
-            raise RuntimeError("No answer-key pages found in this PDF.")
-        AUDIOSCRIPT_PAGES = range(0)
-        ANSWER_KEY_PAGES = range(first, len(reader.pages) + 1)
-        print(f"back matter: no audioscripts, answer keys "
-              f"{first}-{len(reader.pages)}", flush=True)
-        return
+    read = page_reader(reader)
+    total = len(reader.pages)
 
     listed: dict[str, int] = {}
-    for page in reader.pages[:12]:
-        for line in page_lines(page):
-            m = CONTENTS_RE.match(line)
-            if m:
+    for n in range(1, min(12, total) + 1):
+        for line in read(n):
+            if m := CONTENTS_RE.match(line):
                 listed[m.group(1).lower()] = int(m.group(2))
         if len(listed) >= 3:
             break
@@ -189,27 +436,70 @@ def locate_back_matter(reader) -> None:
     scripts_at = listed.get("audioscripts")
     keys_at = listed.get("listening and reading answer keys")
     writing_at = listed.get("sample writing answers")
-    if not (scripts_at and keys_at and writing_at):
-        raise RuntimeError(
-            "Could not read the Contents page. Set AUDIOSCRIPT_PAGES / ANSWER_KEY_PAGES "
-            "by hand for this volume."
-        )
 
-    # Find the real index of the first audioscript page to learn the offset.
+    if not (scripts_at and keys_at and writing_at):
+        # A re-typeset edition prints no Contents and no audioscripts at all; the keys
+        # are then everything from the first "... ANSWERS" heading to the end.
+        first = next((n for n in range(1, total + 1)
+                      if any(ANSWER_HEAD.search(l) for l in read(n)[:3])), None)
+        if first is None:
+            raise RuntimeError("No Contents page and no answer-key heading in this PDF.")
+        AUDIOSCRIPT_PAGES = range(0)
+        ANSWER_KEY_PAGES = range(first, total + 1)
+        print(f"back matter: no audioscripts, answer keys {first}-{total}", flush=True)
+        return
+
+    # The printed numbers run a page or two behind the PDF's own indices because of the
+    # front matter, so the offset is measured from where the heading actually falls.
     offset = 1
-    for i, page in enumerate(reader.pages[scripts_at - 3: scripts_at + 4],
-                             start=scripts_at - 2):
-        if any(l.strip() == "Audioscripts" for l in page_lines(page)):
-            offset = i - scripts_at
+    for n in range(max(1, scripts_at - 2), min(total, scripts_at + 4) + 1):
+        if any(l.strip() == "Audioscripts" for l in read(n)):
+            offset = n - scripts_at
             break
 
     AUDIOSCRIPT_PAGES = range(scripts_at + offset, keys_at + offset)
     ANSWER_KEY_PAGES = range(keys_at + offset, writing_at + offset)
+
+    # The Contents gives the printed numbers and the offset is inferred from one
+    # heading, which put Cambridge 19's keys two pages late — the whole of Test 1 fell
+    # outside the range and its forty answers were silently absent. An answer-key page
+    # is unmistakable in itself: a "TEST n" banner and a bare skill heading. Where those
+    # pages are found, they win over the arithmetic.
+    found = [n for n in range(scripts_at + offset, total + 1)
+             if any(re.fullmatch(r"[Il|]?\s*TEST\s*[\dIlO|]{1,2}", l, re.I) for l in read(n))
+             and any(re.fullmatch(r"LISTENING|READING", l) for l in read(n))]
+    if found:
+        ANSWER_KEY_PAGES = range(min(found), max(found) + 1)
+
+        # Same two-page drift as the keys, and it cost more: the audioscripts were held
+        # to start two pages late, so Test 1's transcript fell outside the range while
+        # Test 4's Speaking paper ran on into the scripts and produced five parts and
+        # forty-eight questions for forty slots.
+        #
+        # A script page is the only kind that carries speaker labels, so the section is
+        # the run of them that ends where the keys begin. Looking instead for the page
+        # that reopens at "TEST 1 / PART 1" matched a Speaking paper, which prints both.
+        n = min(found) - 1
+        while n > 1 and is_script_page(read(n)):
+            n -= 1
+        # Only when the walk actually found script pages. The rotated book's scripts
+        # carry neither margin marks nor speaker labels in a form this recognises, so
+        # the walk stops immediately there and would leave the section empty — losing
+        # all sixteen of its transcripts and running Test 4's Speaking paper on into
+        # the scripts. Where it finds nothing, the Contents arithmetic stands.
+        if n + 1 < min(found):
+            AUDIOSCRIPT_PAGES = range(n + 1, min(found))
+        else:
+            AUDIOSCRIPT_PAGES = range(scripts_at + offset, min(found))
+
     print(f"back matter: audioscripts {AUDIOSCRIPT_PAGES.start}-{AUDIOSCRIPT_PAGES.stop - 1}, "
           f"answer keys {ANSWER_KEY_PAGES.start}-{ANSWER_KEY_PAGES.stop - 1}", flush=True)
 
 
 def load_pages(reader) -> list[list[str]]:
+    if OCR_PAGES:
+        return [ocr_key_segments(n) if n in ANSWER_KEY_PAGES else ocr_lines(n)
+                for n in range(1, len(reader.pages) + 1)]
     if PLAIN_LAYOUT:
         return [plain_lines(p) for p in reader.pages]
     return [page_segments(p) if (i + 1) in ANSWER_KEY_PAGES else page_lines(p)
@@ -224,7 +514,14 @@ BAND_NOISE = re.compile(
     r"improving your English|Answer key with extra|Resource Bank|in Resource"
 )
 ANSWER_LINE = re.compile(r"^(\d{1,2})\s+(.+)$")
-PAIR_HEAD = re.compile(r"^(\d{1,2})\s*&\s*(\d{1,2})\s+IN EITHER ORDER", re.I)
+# rapidocr, which reads the scanned keys, drops the spaces between words — the
+# heading comes back as "17&18INEITHERORDER". Every two-mark answer in the book was
+# lost to that: forty questions with no key at all.
+# The ampersand is misread too — "23&24" came back as "238.24" — so anything short
+# between the two numbers is accepted. "IN EITHER ORDER" following it is what makes
+# the line unambiguous.
+PAIR_HEAD = re.compile(
+    r"^(\d{1,2})[&8.,\s]{1,3}(\d{1,2})[\s1lI|]{0,3}IN\s*EITHER\s*ORDER", re.I)
 
 
 def parse_answer_keys(pages: list[list[str]]) -> dict[tuple[int, str], dict[int, str]]:
@@ -236,8 +533,14 @@ def parse_answer_keys(pages: list[list[str]]) -> dict[tuple[int, str], dict[int,
         # One page holds exactly one (test, skill) key, but column-order reading can put
         # the "TEST n" banner after the skill heading — so resolve both up front.
         # The banner is sometimes preceded by a stray rule glyph ("I TEST 1").
-        test_no = next((int(m.group(1)) for l in lines
-                        if (m := re.fullmatch(r"[Il|]?\s*TEST\s*(\d)", l, re.I))), None)
+        # A scan's "TEST 1" comes back as "TEST I" often enough that a whole test's key
+        # was skipped; the leading stray glyph of the rotated book still has to be
+        # allowed too, which is what the optional group at the front is for.
+        test_no = next(
+            (int(m.group(1).translate(OCR_NUM_TRANS)) for l in lines
+             if (m := re.fullmatch(r"[Il|]?\s*TEST\s*([\dIlO|]{1,2})", l, re.I))
+             and m.group(1).translate(OCR_NUM_TRANS).isdigit()),
+            None)
         skill = next((l.lower() for l in lines if re.fullmatch(r"LISTENING|READING", l)), None)
         if test_no is None or skill is None:
             continue
@@ -256,8 +559,8 @@ def parse_answer_keys(pages: list[list[str]]) -> dict[tuple[int, str], dict[int,
                 continue
             # The two letters of an "IN EITHER ORDER" pair are printed on their own lines.
             if pending_pair and (m_solo := re.fullmatch(
-                    r"([A-H])(?:\s+(?:Part|Reading Passage|Questions)\b.*)?", line)):
-                cur[pending_pair.pop(0)] = m_solo.group(1)
+                    r"([A-Ha-h])(?:\s+(?:Part|Reading Passage|Questions)\b.*)?", line)):
+                cur[pending_pair.pop(0)] = m_solo.group(1).upper()
                 continue
 
             m = ANSWER_LINE.match(line)
@@ -326,6 +629,9 @@ def normalise_answer(ans: str) -> str:
     ans = re.split(r"\b(?:Reading Passage|Questions?|Part\b|If you score)", ans)[0]
     ans = ans.replace(" I ", " / ").replace("NOTGIVEN", "NOT GIVEN")
     ans = re.sub(r"\s+", " ", ans).strip(" .")
+    # OCR returns some of the lettered answers in lower case ("28 c").
+    if re.fullmatch(r"[a-h]", ans):
+        ans = ans.upper()
     return ans
 
 
@@ -335,7 +641,8 @@ def find_test_pages(pages: list[list[str]]) -> list[dict]:
     """Locate, per test, the page index (0-based) of each skill heading."""
     tests: list[dict] = []
     cur: dict | None = None
-    for i, lines in enumerate(pages[:97]):
+    last = (AUDIOSCRIPT_PAGES.start or ANSWER_KEY_PAGES.start) - 1
+    for i, lines in enumerate(pages[:last]):
         joined = lines[:4]
         for tag in ("LISTENING", "READING", "WRITING", "SPEAKING"):
             if tag in joined:
@@ -344,7 +651,7 @@ def find_test_pages(pages: list[list[str]]) -> list[dict]:
                     tests.append(cur)
                 elif cur is not None:
                     cur.setdefault(tag.lower(), i)
-    for t, nxt in zip(tests, tests[1:] + [{"listening": 97}]):
+    for t, nxt in zip(tests, tests[1:] + [{"listening": last}]):
         t["end"] = nxt["listening"]
     return tests
 
@@ -385,7 +692,7 @@ def flatten(pages: list[list[str]], start: int, end: int) -> list[str]:
 # part heading ("PART 4 Questions 31-40"), so allow that prefix too.
 # The part heading carries the first block's range, and the two layouts label the part
 # differently ("PART 4 Questions 31-40" vs "Section 4 Question 31-40").
-_PART_PREFIX = r"(?:(?:PART|Section)\s*\d\s+)?"
+_PART_PREFIX = r"(?:(?:P\s?A\s?R\s?T|Section)\s*\d\s+)?"
 Q_HEADER = re.compile(_PART_PREFIX + r"Questions?\s+(\d{1,2})\s*(?:[-–—]|and)\s*(\d{1,2})\s*$", re.I)
 Q_HEADER_ONE = re.compile(_PART_PREFIX + r"Questions?\s+(\d{1,2})\s*$", re.I)
 # The gap leader is typeset with dots on most pages but with middots on a few.
@@ -543,8 +850,33 @@ def block_instruction(block: dict) -> str:
     return " ".join(out).strip()
 
 
+def repair_item_numbers(lines: list[str], lo: int, hi: int) -> list[str]:
+    """"I a reference to…" → "1 a reference to…", inside this block only.
+
+    OCR gives a lone 1 as I and a 10 as IO. Repairing that anywhere would rewrite prose
+    that begins with "I", so it is done here, where the block's range says whether the
+    reading is even possible.
+    """
+    out = []
+    for line in lines:
+        # "2() There are more worthwhile things…" — the 0 of a 20 is read as a bracket
+        # pair. Repaired here rather than globally, for the same reason as the letters.
+        m0 = re.match(r"^(\d)\(\)(\s+\S.*)$", line)
+        if m0 and lo <= int(m0.group(1) + "0") <= hi:
+            line = m0.group(1) + "0" + m0.group(2)
+        m = re.match(r"^([IlO|]{1,2})(\s+\S.*)$", line)
+        if m:
+            digits = m.group(1).translate(OCR_NUM_TRANS)
+            if digits.isdigit() and lo <= int(digits) <= hi:
+                line = digits + m.group(2)
+        out.append(line)
+    return out
+
+
 def build_questions(block: dict, qtype: str) -> list[dict]:
     lo, hi = block["lo"], block["hi"]
+    if OCR_PAGES:
+        block = {**block, "lines": repair_item_numbers(block["lines"], lo, hi)}
     instr, content = split_instruction(block["lines"], lo, hi)
     out: list[dict] = []
 
@@ -588,6 +920,14 @@ def build_questions(block: dict, qtype: str) -> list[dict]:
                         # sub-heading that the rubric swallowed.
                         text = f"{instr[-1]}: {display}" if instr else display
                     out.append({"number": num, "question_text": text, "options": None})
+
+        # "Complete the sentences" prints the number at the head of the sentence and the
+        # blank at its end, often on the wrapped line below — so there is no leader
+        # beside the number for the loop above to find, and Test 2's questions 19 to 21
+        # were lost while 22, whose blank happens to fall first, came through.
+        found = {q["number"] for q in out}
+        if len(found) < hi - lo + 1:
+            out.extend(trailing_blank_items(content, lo, hi, found))
         return dedupe(out, lo, hi, block_instruction(block))
 
     if qtype == "mcq":
@@ -635,6 +975,30 @@ def build_questions(block: dict, qtype: str) -> list[dict]:
             parts.append(line)
     flush_plain(out, num, parts, options)
     return dedupe(out, lo, hi, block_instruction(block))
+
+
+def trailing_blank_items(content: list[str], lo: int, hi: int,
+                         found: set[int]) -> list[dict]:
+    """Numbered sentences whose blank is at the end, with their wrapped continuation."""
+    items: list[dict] = []
+    num: int | None = None
+    parts: list[str] = []
+
+    def flush():
+        if num is not None and num not in found:
+            text = re.sub(r"\s+", " ", " ".join(parts)).strip(" .")
+            items.append({"number": num, "question_text": f"{text} ________",
+                          "options": None})
+
+    for line in content:
+        m = NUM_LINE.match(line)
+        if m and lo <= int(m.group(1)) <= hi:
+            flush()
+            num, parts = int(m.group(1)), [m.group(2)]
+        elif num is not None and not line.lower().startswith(INSTRUCTION_HINTS):
+            parts.append(line)
+    flush()
+    return items
 
 
 def flush_mcq(out, num, stem, opts):
@@ -784,7 +1148,11 @@ def rebuild_paragraphs(body: list[str]) -> list[str]:
 
 # ─── listening ────────────────────────────────────────────────────────────────
 
-PART_RE = re.compile(r"^(?:PART|Section)\s*(\d)\s*(?:Questions?\s*(\d{1,2})\s*(?:[-–]|and)\s*(\d{1,2}))?", re.I)
+# The scan's OCR breaks a word wherever the letter spacing widens, so the heading of
+# Test 2 Part 4 came back as "PAR T 4" — the part was never recognised and all ten of
+# its questions were lost.
+PART_RE = re.compile(r"^(?:P\s?A\s?R\s?T|Section)\s*(\d)\s*"
+                     r"(?:Questions?\s*(\d{1,2})\s*(?:[-–]|and)\s*(\d{1,2}))?", re.I)
 
 # The recordings live in the frontend's public/ dir, which only exists on a dev machine —
 # so the file list is resolved here, at parse time, and baked into the fixture. The
@@ -1028,16 +1396,32 @@ def manual_papers() -> dict:
 
 
 def main() -> int:
-    global PLAIN_LAYOUT
+    global PLAIN_LAYOUT, OCR_PAGES
     reader = PdfReader(PDF_PATH)
     PLAIN_LAYOUT = all(int(p.get("/Rotate", 0) or 0) == 0 for p in reader.pages)
-    print(f"layout: {'upright' if PLAIN_LAYOUT else 'rotated'}", flush=True)
+    # A scan's pages come from the OCR cache instead. "Has a text layer" is measured by
+    # how much text, not whether there is any: Cambridge 19 returns 410 characters over
+    # 138 pages — stray marks, enough to make an any() test say the book is readable.
+    sampled = sum(len((p.extract_text() or "").strip()) for p in reader.pages[:20])
+    OCR_PAGES = sampled < 20 * 40
+    if OCR_PAGES and not os.path.isdir(OCR_DIR):
+        raise SystemExit(f"This PDF has no text layer and {OCR_DIR} is missing.\n"
+                         f'Run: python scripts/ocr_pages.py "{PDF_PATH}" {BOOK}')
+    print("layout: " + ("scanned + OCR" if OCR_PAGES
+                        else "upright" if PLAIN_LAYOUT else "rotated"), flush=True)
 
     locate_back_matter(reader)
     pages = load_pages(reader)
-    keys = parse_answer_keys_plain(pages) if PLAIN_LAYOUT else parse_answer_keys(pages)
-    scripts = {} if PLAIN_LAYOUT else parse_audioscripts(pages)
-    tests = find_test_pages_plain(pages) if PLAIN_LAYOUT else find_test_pages(pages)
+    # Cambridge 19 is upright like book 20 but prints its keys in book 21's format, so
+    # neither of these can be chosen by /Rotate. Try the publisher's layout first and
+    # fall back to the re-typeset one when it yields nothing.
+    keys = parse_answer_keys(pages) or parse_answer_keys_plain(pages)
+    scripts = parse_audioscripts(pages) if AUDIOSCRIPT_PAGES else {}
+    # Which finder applies is not a property of the rotation. Cambridge 19 is upright
+    # like book 20 but typeset like book 21, with LISTENING / READING / WRITING /
+    # SPEAKING headings; choosing by /Rotate looked for book 20's bare "TEST n" banner
+    # and found one test in a book that has four. So: headings first, banner as fallback.
+    tests = find_test_pages(pages) or find_test_pages_plain(pages)
 
     manual = manual_papers()
     data = {"source": f"Cambridge IELTS {BOOK} Academic", "book": BOOK, "tests": []}
@@ -1057,6 +1441,7 @@ def main() -> int:
             for w in manual.get("writing", {}).get(str(n), [])
         ]
         speaking = speaking or [{"test": n, **sp} for sp in manual.get("speaking", {}).get(str(n), [])]
+        add_manual_questions(manual, n, listening, reading, keys)
         attach_tables(pages, listening, t["listening"], t["reading"])
         attach_tables(pages, reading, t["reading"], t["writing"])
 
@@ -1072,6 +1457,37 @@ def main() -> int:
     report(data)
     print(f"\nwrote {OUT_PATH}")
     return 0
+
+
+def add_manual_questions(manual: dict, test_no: int, listening: list[dict],
+                         reading: list[dict], keys: dict) -> None:
+    """Insert questions the page could not be read for at all.
+
+    Only for a scan, and only where both OCR engines lost the same cell — Test 3's
+    "a 10 ................ tart" is absent from each of them, not merely garbled. The
+    answer still comes from the parsed key, so a hand-written file can never disagree
+    with the book about what is correct.
+    """
+    for item in manual.get("questions", []):
+        if item["test"] != test_no:
+            continue
+        sections = listening if item["skill"] == "listening" else reading
+        section = next((s for s in sections if s["section"] == item["section"]), None)
+        if section is None:
+            print(f"  manual question {item['number']}: no section "
+                  f"{item['skill']} {item['section']}", flush=True)
+            continue
+        if any(q["number"] == item["number"] for q in section["questions"]):
+            continue
+        section["questions"].append({
+            "number": item["number"],
+            "question_type": item.get("question_type", "completion"),
+            "question_text": item["question_text"],
+            "options": item.get("options"),
+            "group_instruction": item.get("group_instruction"),
+            "correct_answer": keys.get((test_no, item["skill"]), {}).get(item["number"], ""),
+        })
+        section["questions"].sort(key=lambda q: q["number"])
 
 
 def report(data: dict) -> None:

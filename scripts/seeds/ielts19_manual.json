@@ -1,0 +1,14 @@
+{
+ "_note": "Cambridge 19 is a 138-page scan with no text layer, so every page is read by OCR (scripts/ocr_pages.py). 319 of its 320 questions come out of that. This file carries the one neither engine could read: the cell 'a 10 ................ tart' in Test 3's Listening Part 1 table, which Windows OCR returned as 'Bakery  a brown loaf  tart' and rapidocr as 'Bakery' and 'tart' — the 'a 10' is simply absent from both. Transcribed from the page image; the answer is the parser's own, out of the key on page 55.",
+ "questions": [
+  {
+   "test": 3,
+   "skill": "listening",
+   "section": 1,
+   "number": 10,
+   "question_type": "completion",
+   "question_text": "Shopping — Bakery, Other ideas: a ________ tart",
+   "group_instruction": "Complete the table below. Write ONE WORD ONLY for each answer."
+  }
+ ]
+}
