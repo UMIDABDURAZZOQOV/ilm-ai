@@ -990,6 +990,22 @@ def attach_tables(pages: list[list[str]], sections: list[dict],
                     break
 
 
+def manual_papers() -> dict:
+    """Papers that cannot be parsed out of this book's PDF, transcribed by hand.
+
+    Cambridge 20 was sold as two files: a re-typeset one carrying only Listening and
+    Reading, and the full 130-page edition, which is a scan with no text layer at all.
+    The Writing prompts and Speaking questions exist only in the scan, so they were read
+    off the page and committed as `ielts20_manual.json`. Merged rather than pasted into
+    the fixture so that re-running the parser cannot quietly drop them.
+    """
+    path = os.path.join(os.path.dirname(__file__), "seeds", f"ielts{BOOK}_manual.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
 def main() -> int:
     global PLAIN_LAYOUT
     reader = PdfReader(PDF_PATH)
@@ -1002,6 +1018,7 @@ def main() -> int:
     scripts = {} if PLAIN_LAYOUT else parse_audioscripts(pages)
     tests = find_test_pages_plain(pages) if PLAIN_LAYOUT else find_test_pages(pages)
 
+    manual = manual_papers()
     data = {"source": f"Cambridge IELTS {BOOK} Academic", "book": BOOK, "tests": []}
     for t in tests:
         n = t["test"]
@@ -1012,6 +1029,13 @@ def main() -> int:
             flatten(pages, t["reading"], t["writing"]), n, keys.get((n, "reading"), {}))
         writing = parse_writing(flatten(pages, t["writing"], t["speaking"]), n)
         speaking = parse_speaking(flatten(pages, t["speaking"], t["end"]), n)
+        # Only where the PDF yielded nothing — a book whose papers do parse is never
+        # overridden by a hand-written file that may have gone stale.
+        writing = writing or [
+            {"test": n, "task": 1 if w["task_type"] == "Task1" else 2, **w}
+            for w in manual.get("writing", {}).get(str(n), [])
+        ]
+        speaking = speaking or [{"test": n, **sp} for sp in manual.get("speaking", {}).get(str(n), [])]
         attach_tables(pages, listening, t["listening"], t["reading"])
         attach_tables(pages, reading, t["reading"], t["writing"])
 

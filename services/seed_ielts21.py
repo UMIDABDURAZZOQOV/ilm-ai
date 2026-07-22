@@ -12,7 +12,8 @@ import os
 import sys
 
 from services.db import SessionLocal
-from services.models import IeltsListening, IeltsQuestion, IeltsReading
+from services.models import (IeltsListening, IeltsQuestion, IeltsReading,
+                            IeltsSpeaking, IeltsWriting)
 
 logger = logging.getLogger(__name__)
 
@@ -39,8 +40,8 @@ _EXPECTED_AUDIO_PARTS = 16         # 4 tests × 4 listening parts
 _EXPECTED_TABLES = 3               # the book prints three: L1P1, L2P1 and R2P1
 
 
-def _fixture_counts(path: str) -> tuple[int, int]:
-    """(questions, sections with a table) that this fixture should produce.
+def _fixture_counts(path: str) -> tuple[int, int, int]:
+    """(questions, sections with a table, writing+speaking papers) for this fixture.
 
     Read from the fixture rather than hard-coded: volumes differ, and a constant like
     "expect 3 tables" is only true of book 21. The first version compared against
@@ -50,13 +51,14 @@ def _fixture_counts(path: str) -> tuple[int, int]:
 
     with open(path, encoding="utf-8") as fh:
         data = json.load(fh)
-    questions = tables = 0
+    questions = tables = papers = 0
     for test in data.get("tests", []):
         for section in test.get("listening", []) + test.get("reading", []):
             questions += len(section.get("questions", []))
             if section.get("tables"):
                 tables += 1
-    return questions, tables
+        papers += len(test.get("writing", [])) + len(test.get("speaking", []))
+    return questions, tables, papers
 
 
 def _fixture_differs(db, path: str) -> bool:
@@ -157,6 +159,14 @@ def seed_ielts21_if_needed() -> None:
             ) + sum(
                 1 for (t,) in reading.with_entities(IeltsReading.tables).all() if t
             )
+            # Writing and Speaking arrived for book 20 a day after its Listening and
+            # Reading did, and nothing else here counts them: the questions, the audio,
+            # the tables and the sampled text were all unchanged, so without this the
+            # eight new papers would have sat in the fixture and reached nobody.
+            papers = (
+                db.query(IeltsWriting).filter(IeltsWriting.category.like(f"{prefix}%")).count()
+                + db.query(IeltsSpeaking).filter(IeltsSpeaking.topic.like(f"{prefix}%")).count()
+            )
             stale = _fixture_differs(db, path)
         except Exception as exc:                   # table may not exist on a cold DB
             logger.warning("Cambridge %s seed check failed: %s", book, exc)
@@ -165,14 +175,14 @@ def seed_ielts21_if_needed() -> None:
         finally:
             db.close()
 
-        want_questions, want_tables = _fixture_counts(path)
+        want_questions, want_tables, want_papers = _fixture_counts(path)
         if (existing >= want_questions and with_audio >= _EXPECTED_AUDIO_PARTS
-                and with_tables >= want_tables and not stale):
+                and with_tables >= want_tables and papers >= want_papers and not stale):
             continue
 
         logger.info("Seeding Cambridge %s (have %s/%s questions, %s with audio, %s/%s "
-                    "with tables)", book, existing, want_questions, with_audio,
-                    with_tables, want_tables)
+                    "with tables, %s/%s papers)", book, existing, want_questions,
+                    with_audio, with_tables, want_tables, papers, want_papers)
         sys.path.insert(0, os.path.join(_ROOT, "scripts"))
         os.environ["IELTS_BOOK"] = str(book)
         try:

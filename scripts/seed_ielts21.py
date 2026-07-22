@@ -129,7 +129,10 @@ def main() -> int:
                     task_type=task["task_type"],
                     category=f"{PREFIX} {n}",
                     prompt=task["prompt"],
-                    image_url=None,
+                    # Task 1 shows a chart, a plan or a diagram, and the essay makes no
+                    # sense without it. Book 21's figures are vector art still to be
+                    # extracted; book 20's were cropped from the scan.
+                    image_url=task.get("image_url"),
                     min_words=task["min_words"],
                     duration_minutes=task["duration_minutes"],
                     difficulty="medium",
