@@ -39,6 +39,26 @@ _EXPECTED_AUDIO_PARTS = 16         # 4 tests × 4 listening parts
 _EXPECTED_TABLES = 3               # the book prints three: L1P1, L2P1 and R2P1
 
 
+def _fixture_counts(path: str) -> tuple[int, int]:
+    """(questions, sections with a table) that this fixture should produce.
+
+    Read from the fixture rather than hard-coded: volumes differ, and a constant like
+    "expect 3 tables" is only true of book 21. The first version compared against
+    `>= 1`, which meant a book that lost two of its three tables still looked fine.
+    """
+    import json
+
+    with open(path, encoding="utf-8") as fh:
+        data = json.load(fh)
+    questions = tables = 0
+    for test in data.get("tests", []):
+        for section in test.get("listening", []) + test.get("reading", []):
+            questions += len(section.get("questions", []))
+            if section.get("tables"):
+                tables += 1
+    return questions, tables
+
+
 def _fixture_differs(db, path: str) -> bool:
     """True when the fixture's question text is not what the database holds.
 
@@ -95,8 +115,15 @@ def seed_ielts21_if_needed() -> None:
             # Counting rows and sampling question text both miss a field that is new —
             # the printed tables arrived without a single question changing, so neither
             # check fired and production kept serving sections with no table at all.
-            with_tables = (listening.filter(IeltsListening.tables.isnot(None)).count()
-                           + reading.filter(IeltsReading.tables.isnot(None)).count())
+            #
+            # Counted in Python on purpose: a JSON column stores Python None as the JSON
+            # value `null`, not as SQL NULL, so `tables.isnot(None)` matches every row
+            # and the guard silently passes for a database with no tables in it at all.
+            with_tables = sum(
+                1 for (t,) in listening.with_entities(IeltsListening.tables).all() if t
+            ) + sum(
+                1 for (t,) in reading.with_entities(IeltsReading.tables).all() if t
+            )
             stale = _fixture_differs(db, path)
         except Exception as exc:                   # table may not exist on a cold DB
             logger.warning("Cambridge %s seed check failed: %s", book, exc)
@@ -105,12 +132,14 @@ def seed_ielts21_if_needed() -> None:
         finally:
             db.close()
 
-        if (existing >= _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS
-                and with_tables >= 1 and not stale):
+        want_questions, want_tables = _fixture_counts(path)
+        if (existing >= want_questions and with_audio >= _EXPECTED_AUDIO_PARTS
+                and with_tables >= want_tables and not stale):
             continue
 
-        logger.info("Seeding Cambridge %s (found %s questions / %s with audio / %s with "
-                    "tables)", book, existing, with_audio, with_tables)
+        logger.info("Seeding Cambridge %s (have %s/%s questions, %s with audio, %s/%s "
+                    "with tables)", book, existing, want_questions, with_audio,
+                    with_tables, want_tables)
         sys.path.insert(0, os.path.join(_ROOT, "scripts"))
         os.environ["IELTS_BOOK"] = str(book)
         try:
