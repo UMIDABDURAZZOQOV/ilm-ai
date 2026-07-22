@@ -21,13 +21,18 @@ from collections import defaultdict
 
 from pypdf import PdfReader
 
-PDF_PATH = os.environ.get("IELTS21_PDF", r"C:/Users/Page/Downloads/IELTS_21.pdf")
-OUT_PATH = os.path.join(os.path.dirname(__file__), "seeds", "ielts21.json")
+# Which book: `--book 20` (or IELTS_BOOK) picks the paths and the title prefix, so a
+# newly bought Cambridge volume needs no edit here.
+BOOK = int(os.environ.get("IELTS_BOOK", "21"))
+PDF_PATH = os.environ.get("IELTS_PDF") or os.environ.get(
+    "IELTS21_PDF", rf"C:/Users/Page/Downloads/IELTS_{BOOK}.pdf")
+OUT_PATH = os.path.join(os.path.dirname(__file__), "seeds", f"ielts{BOOK}.json")
 
-# Page numbers below are 1-based, matching the "===== PAGE n =====" dumps used while
-# reverse-engineering the layout. They come from the book's own table of contents.
-AUDIOSCRIPT_PAGES = range(98, 118)
-ANSWER_KEY_PAGES = range(118, 126)
+# Filled from the book's own Contents page by `locate_back_matter()`; the ranges differ
+# between volumes, and the Contents lists them ("Audioscripts 97 / Listening and Reading
+# answer keys 117 / Sample Writing answers 125").
+AUDIOSCRIPT_PAGES: range = range(0)
+ANSWER_KEY_PAGES: range = range(0)
 
 LINE_TOL = 6.0          # two runs within this many units of x are on the same visual line
 FOOTER_X = 812.0        # everything below the last text baseline is running-foot junk
@@ -119,6 +124,53 @@ def page_segments(page) -> list[str]:
             if text and not NAV_RE.search(text) and text.strip(" .") not in RUNNING_HEAD:
                 out.append(text)
     return out
+
+
+CONTENTS_RE = re.compile(r"^(Audioscripts|Listening and Reading answer keys|"
+                         r"Sample Writing answers)\s+(\d{1,3})\s*$", re.I)
+
+
+def locate_back_matter(reader) -> None:
+    """Read the Contents page for where the audioscripts and answer keys start.
+
+    These were hard-coded to book 21's pages. Every volume paginates differently, so a
+    new book would have parsed its front matter as answer keys and found nothing. The
+    Contents lists all three sections; the printed numbers run a page or two behind the
+    PDF's own indices (front matter), so the offset is measured from where the
+    "Audioscripts" heading actually appears.
+    """
+    global AUDIOSCRIPT_PAGES, ANSWER_KEY_PAGES
+
+    listed: dict[str, int] = {}
+    for page in reader.pages[:12]:
+        for line in page_lines(page):
+            m = CONTENTS_RE.match(line)
+            if m:
+                listed[m.group(1).lower()] = int(m.group(2))
+        if len(listed) >= 3:
+            break
+
+    scripts_at = listed.get("audioscripts")
+    keys_at = listed.get("listening and reading answer keys")
+    writing_at = listed.get("sample writing answers")
+    if not (scripts_at and keys_at and writing_at):
+        raise RuntimeError(
+            "Could not read the Contents page. Set AUDIOSCRIPT_PAGES / ANSWER_KEY_PAGES "
+            "by hand for this volume."
+        )
+
+    # Find the real index of the first audioscript page to learn the offset.
+    offset = 1
+    for i, page in enumerate(reader.pages[scripts_at - 3: scripts_at + 4],
+                             start=scripts_at - 2):
+        if any(l.strip() == "Audioscripts" for l in page_lines(page)):
+            offset = i - scripts_at
+            break
+
+    AUDIOSCRIPT_PAGES = range(scripts_at + offset, keys_at + offset)
+    ANSWER_KEY_PAGES = range(keys_at + offset, writing_at + offset)
+    print(f"back matter: audioscripts {AUDIOSCRIPT_PAGES.start}-{AUDIOSCRIPT_PAGES.stop - 1}, "
+          f"answer keys {ANSWER_KEY_PAGES.start}-{ANSWER_KEY_PAGES.stop - 1}", flush=True)
 
 
 def load_pages(reader) -> list[list[str]]:
@@ -571,7 +623,7 @@ AUDIO_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file_
 
 def audio_urls(test_no: int, part: int) -> list[str]:
     """Ordered URLs for a part; nine of the sixteen were ripped as two files."""
-    stem = f"C21T{test_no}P{part}"
+    stem = f"C{BOOK}T{test_no}P{part}"
     try:
         names = sorted(n for n in os.listdir(AUDIO_DIR)
                        if n.endswith(".mp3") and n[:-len(".mp3")].split(".")[0] == stem)
@@ -758,12 +810,13 @@ def attach_tables(pages: list[list[str]], sections: list[dict],
 
 def main() -> int:
     reader = PdfReader(PDF_PATH)
+    locate_back_matter(reader)
     pages = load_pages(reader)
     keys = parse_answer_keys(pages)
     scripts = parse_audioscripts(pages)
     tests = find_test_pages(pages)
 
-    data = {"source": "Cambridge IELTS 21 Academic", "tests": []}
+    data = {"source": f"Cambridge IELTS {BOOK} Academic", "book": BOOK, "tests": []}
     for t in tests:
         n = t["test"]
         listening = parse_listening(

@@ -19,8 +19,11 @@ from services.models import (                               # noqa: E402
     IeltsListening, IeltsReading, IeltsWriting, IeltsSpeaking, IeltsQuestion,
 )
 
-SEED_PATH = os.path.join(os.path.dirname(__file__), "seeds", "ielts21.json")
-PREFIX = "Cambridge 21 Test"
+# Which volume this run loads. Each book keeps its own fixture and its own title
+# prefix, so adding Cambridge 20 leaves 21 untouched.
+BOOK = int(os.environ.get("IELTS_BOOK", "21"))
+SEED_PATH = os.path.join(os.path.dirname(__file__), "seeds", f"ielts{BOOK}.json")
+PREFIX = f"Cambridge {BOOK} Test"
 
 
 def wipe(db, legacy: bool = False) -> None:

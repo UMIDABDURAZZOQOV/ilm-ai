@@ -17,13 +17,29 @@ from services.models import IeltsListening, IeltsQuestion, IeltsReading
 logger = logging.getLogger(__name__)
 
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-_SEED_FILE = os.path.join(_ROOT, "scripts", "seeds", "ielts21.json")
+_SEEDS_DIR = os.path.join(_ROOT, "scripts", "seeds")
+
+
+def _fixtures() -> list[tuple[int, str]]:
+    """Every Cambridge volume whose fixture is committed, as (book, path).
+
+    Adding a book is dropping `ielts20.json` in beside `ielts21.json`; nothing here
+    should need editing for it.
+    """
+    import glob
+    import re as _re
+    out = []
+    for path in sorted(glob.glob(os.path.join(_SEEDS_DIR, "ielts*.json"))):
+        m = _re.search(r"ielts(\d+)\.json$", os.path.basename(path))
+        if m:
+            out.append((int(m.group(1)), path))
+    return out
 _EXPECTED_QUESTIONS = 320          # 4 tests × (40 listening + 40 reading)
 _EXPECTED_AUDIO_PARTS = 16         # 4 tests × 4 listening parts
 _EXPECTED_TABLES = 3               # the book prints three: L1P1, L2P1 and R2P1
 
 
-def _fixture_differs(db) -> bool:
+def _fixture_differs(db, path: str) -> bool:
     """True when the fixture's question text is not what the database holds.
 
     Counting rows is not enough: a parser fix changes the *wording* of questions
@@ -33,7 +49,7 @@ def _fixture_differs(db) -> bool:
     """
     import json
 
-    with open(_SEED_FILE, encoding="utf-8") as fh:
+    with open(path, encoding="utf-8") as fh:
         data = json.load(fh)
 
     sample: list[str] = []
@@ -54,45 +70,57 @@ def _fixture_differs(db) -> bool:
 
 
 def seed_ielts21_if_needed() -> None:
-    """Load the fixture unless the database already holds exactly this content."""
-    if not os.path.exists(_SEED_FILE):
-        logger.warning("Cambridge 21 fixture missing at %s", _SEED_FILE)
+    """Load every committed Cambridge fixture whose content is not already in place.
+
+    Each volume is checked and seeded on its own, so buying Cambridge 20 is a matter of
+    dropping `ielts20.json` into scripts/seeds — no code here changes.
+    """
+    fixtures = _fixtures()
+    if not fixtures:
+        logger.warning("No Cambridge fixtures found in %s", _SEEDS_DIR)
         return
 
-    db = SessionLocal()
-    try:
-        existing = db.query(IeltsQuestion).count()
-        # An earlier fixture resolved the mp3 paths from the local filesystem, so a
-        # production seed left every audio_url NULL even though the questions were fine.
-        with_audio = db.query(IeltsListening).filter(IeltsListening.audio_url.isnot(None)).count()
-        stale = _fixture_differs(db)
-        # Counting rows and sampling question text both miss a field that is new —
-        # the printed tables arrived without a single question changing, so neither
-        # check fired and production kept serving sections with no table at all.
-        with_tables = (
-            db.query(IeltsListening).filter(IeltsListening.tables.isnot(None)).count()
-            + db.query(IeltsReading).filter(IeltsReading.tables.isnot(None)).count()
-        )
-    except Exception as exc:                       # table may not exist on a cold DB
-        logger.warning("Cambridge 21 seed check failed: %s", exc)
-        return
-    finally:
-        db.close()
-
-    if (existing == _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS
-            and with_tables >= _EXPECTED_TABLES and not stale):
-        return
-
-    logger.info("Seeding Cambridge 21 (found %s questions / %s with audio / %s with "
-                "tables; expected %s / %s / %s)", existing, with_audio, with_tables,
-                _EXPECTED_QUESTIONS, _EXPECTED_AUDIO_PARTS, _EXPECTED_TABLES)
-    sys.path.insert(0, os.path.join(_ROOT, "scripts"))
-    try:
-        from seed_ielts21 import main as run_seed   # noqa: PLC0415 — optional, script-local
-        argv, sys.argv = sys.argv, ["seed_ielts21.py", "--purge-legacy"]
+    for book, path in fixtures:
+        prefix = f"Cambridge {book} Test"
+        db = SessionLocal()
         try:
-            run_seed()
+            listening = db.query(IeltsListening).filter(IeltsListening.title.like(f"{prefix}%"))
+            reading = db.query(IeltsReading).filter(IeltsReading.title.like(f"{prefix}%"))
+            parent_ids = [r.id for r in listening.all()] + [r.id for r in reading.all()]
+            existing = (
+                db.query(IeltsQuestion).filter(IeltsQuestion.parent_id.in_(parent_ids)).count()
+                if parent_ids else 0
+            )
+            with_audio = listening.filter(IeltsListening.audio_url.isnot(None)).count()
+            # Counting rows and sampling question text both miss a field that is new —
+            # the printed tables arrived without a single question changing, so neither
+            # check fired and production kept serving sections with no table at all.
+            with_tables = (listening.filter(IeltsListening.tables.isnot(None)).count()
+                           + reading.filter(IeltsReading.tables.isnot(None)).count())
+            stale = _fixture_differs(db, path)
+        except Exception as exc:                   # table may not exist on a cold DB
+            logger.warning("Cambridge %s seed check failed: %s", book, exc)
+            db.close()
+            continue
         finally:
-            sys.argv = argv
-    except Exception as exc:
-        logger.exception("Cambridge 21 seeding failed: %s", exc)
+            db.close()
+
+        if (existing >= _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS
+                and with_tables >= 1 and not stale):
+            continue
+
+        logger.info("Seeding Cambridge %s (found %s questions / %s with audio / %s with "
+                    "tables)", book, existing, with_audio, with_tables)
+        sys.path.insert(0, os.path.join(_ROOT, "scripts"))
+        os.environ["IELTS_BOOK"] = str(book)
+        try:
+            import importlib
+            import seed_ielts21 as seeder            # noqa: PLC0415 — script-local
+            importlib.reload(seeder)                 # picks up IELTS_BOOK
+            argv, sys.argv = sys.argv, ["seed_ielts21.py"]
+            try:
+                seeder.main()
+            finally:
+                sys.argv = argv
+        except Exception as exc:
+            logger.exception("Cambridge %s seeding failed: %s", book, exc)
