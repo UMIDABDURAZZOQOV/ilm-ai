@@ -369,18 +369,28 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 > item-writers, or openly-licensed texts). Every component above is content-agnostic and matches the
 > DB shape, so licensed material drops straight in.
 
-### ▶ PICK UP HERE (state at end of 2026-07-21) — read this first after a context reset
+### ▶ PICK UP HERE (state at end of 2026-07-22) — read this first after a context reset
 
-**Skill-tree content is DONE: 831 of 831 lessons answerable in production, 12391 questions,
-all twelve subjects at 100%** (it was 253 lessons / 2526 on 2026-07-21). The placement bank is
-complete too — 1797 questions covering every level of every subject, so the level test works
-everywhere: 35 questions over 5 `daraja_*` levels for the academic subjects, 42 over 6 CEFR bands
-for the three languages.
+**Skill-tree content is DONE: 836 of 836 lessons answerable in production, 12441 questions,
+all twelve subjects at 100%** (it was 253 lessons / 2526 on the morning of 2026-07-21). The
+placement bank is complete too — 1797 questions covering every level of every subject, so the
+level test works everywhere: 35 questions over 5 `daraja_*` levels for the academic subjects,
+42 over 6 CEFR bands for the three languages.
 
-Syllabus coverage was verified with `python scripts/coverage_check.py`, which greps lesson titles
-for each required topic under several spellings. **Do not trust an LLM audit for this** —
-`scripts/audit_units.py` called 62 of 74 units complete, Matematika among them, while it had no
-calculus at all.
+Two checks back this, and both are scripts you can re-run:
+- `python scripts/coverage_check.py` — greps *lesson* titles for ~80 required topics across all
+  twelve subjects, each under several spellings. **Do not trust an LLM audit for this**:
+  `scripts/audit_units.py` called 62 of 74 units complete, Matematika among them, while it had
+  no calculus at all. The 14 topics this found (calculus, Archimedes, halogens, selective
+  breeding, word formation, Homer, Hemingway, Korean honorifics, …) are the ones now filled.
+- Lesson **order** is a teaching sequence, not the order lessons were assembled in
+  (`scripts/reorder_lessons.py` → `_order` in `skilltree_outline.json` → applied by
+  `scripts/apply_lesson_order.py`). 68 of 74 units were resequenced; six answers were rejected
+  for not being a true permutation and those units kept their previous order untouched.
+
+**What is NOT verified:** the wording of 12441 questions. Sampling looked good; nobody has read
+them all. If a lesson reads badly, regenerate that one with
+`python scripts/seed_skilltree.py --subject <slug> --regen-questions`.
 
 `GET https://ilm-ai-backend-256x.onrender.com/skills/subjects` reports the live state with no
 auth — check it before quoting any number. To add more:
@@ -399,7 +409,16 @@ as `scripts/fill_content.sh`.
 **A new lesson's unit slug must exist in the spine.** Two fluid-mechanics lessons were written
 into `fizika/molekulyar-issiqlik`; the real slug is `molekulyar-fizika`, and
 `skilltree_taxonomy.py::_merge_expansion()` only touches units it recognises, so they vanished
-without an error. Check against `[u['slug'] for u in SKILLTREE_OUTLINE[subject]['units']]`.
+without an error. Check against `[u['slug'] for u in SKILLTREE_OUTLINE[subject]['units']]` — the
+guard caught the same mistake again the next day (`qadimgi-adabiyot` for `antik-adabiyot`).
+
+**Reordering a unit needs two things that are easy to miss.** `(unit_id, order_index)` is UNIQUE,
+so a unit cannot be renumbered a row at a time — the first move collides with whoever holds the
+slot; park the whole unit at `10_000 + n` first, then assign the real indices. And the
+prerequisite chain must be **rebuilt**, not added to, or a lesson stays locked behind one that
+now comes after it. Both `scripts/seed_skilltree.py::upsert_structure` and
+`services/seed_skilltree_bank.py::_upsert_structure_only` do this; they mirror each other and
+must be changed together.
 
 **Provider is switchable** (`services/llm_provider.py`, `SEED_PROVIDER`). Gemini's free tier is
 ~20 requests/day/key — with ten keys, ~640/day. Mistral's free "Experiment" tier
@@ -576,6 +595,70 @@ itself C1.
 - Frontend `components/skills/LevelTest.tsx` shows the **per-level breakdown**, because a bare
   "B2" is only believable if you can see which levels were cleared. A subject with no bank yet
   answers 404 and the dialog says "still being prepared", not "could not load".
+
+## Session 2026-07-21/22 — what was actually done, and what it cost
+
+Recorded in full because most of the day's work was undoing claims that had been made
+without checking, and the same failure kept coming back in new clothes.
+
+### The one pattern behind almost every bug
+
+**A check passed because it could not see the thing that was wrong.** Five times:
+
+| The check | What it missed |
+|---|---|
+| `missing=[]` from the IELTS parser | A mangled question is still a question — the count stayed green while the text lost its tail |
+| "seed only if the table is empty" | Rows existed, so 253→836 lessons would never have reached production |
+| Question count + audio + sampled text | `tables` was a new field; the grids never shipped |
+| `order_index` written only at creation | A resequenced unit kept its old order in the database |
+| Seven unit titles | Read as the syllabus; the 77 lesson titles underneath said otherwise |
+
+When something here goes green, ask what it structurally cannot notice.
+
+### Syllabus: 253 → 836 lessons
+
+- `scripts/expand_taxonomy.py` filled each unit out to 11 lessons.
+- `scripts/coverage_check.py` then found 14 genuinely missing topics across the twelve
+  subjects; those were added by hand and generated.
+- `scripts/reorder_lessons.py` + `apply_lesson_order.py` put each unit into teaching
+  order. Appending had left Tarix teaching the Mongols before the Ephthalites.
+- `scripts/fill_content.sh` is the runner: resumes, and **exits when every key is out
+  of quota** rather than idling overnight, because the owner's machine is not always on.
+
+### Placement test: rebuilt from scratch
+
+It drew 15 questions from the lesson bank and mapped a percentage onto CEFR. The lesson
+bank is not calibrated, so it was never measuring CEFR — users got B2 here and B1
+elsewhere. `PlacementQuestion` + `services/placement.py` replace it: rows authored AT a
+level, scored by walking up the scale and stopping at the first level not mastered.
+A learner answering 57% at every level used to score B1; they now place A1.
+
+### IELTS: extraction and Jumpinto parity
+
+Every page of the PDF is `/Rotate 90`, which is what defeated the first attempt — see
+the IELTS section below for the parser, the tables, and the four coordinate traps.
+On the UI side: full-viewport exam, answer boxes inline where the gap is printed, the
+home page as book → test → four skills, and **one band per skill over all 40 questions**
+instead of a separate mark per part.
+
+### Providers
+
+`services/llm_provider.py` — `SEED_PROVIDER` picks Gemini or any OpenAI-compatible
+endpoint. Gemini free tier ≈ 640 calls/day across ten keys; Mistral's free tier is
+~1 req/sec and carried the last batches. OpenAI was tried and abandoned: its free daily
+tokens require usage Tier 1, so a $0 account answers `insufficient_quota` no matter what
+data-sharing is enabled.
+
+### Deployment facts worth keeping
+
+- **Production seeds from `scripts/seeds/*.json`, never from the local database.** Run
+  `python scripts/dump_skilltree_fixtures.py` before every deploy — `seed_skilltree.py`
+  only writes a subject's fixture when it *finishes* that subject.
+- **Never edit a script a background job is executing.** A generation loop running from
+  /tmp was rewritten underneath itself; bash reads scripts incrementally and it died
+  mid-batch with a syntax error and no other sign.
+- `GET /skills/subjects` returns `lesson_count` and `ready_lessons` per subject with no
+  auth. Quote that, not a remembered number.
 
 ## IELTS section — must be indistinguishable from jumpinto.com
 
