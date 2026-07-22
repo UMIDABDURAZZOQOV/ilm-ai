@@ -371,14 +371,19 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 ### ▶ PICK UP HERE (state at end of 2026-07-21) — read this first after a context reset
 
-**Skill-tree content is essentially finished: 811 of 814 lessons answerable in production,
-12162 questions** (it was 253 lessons / 2526 this morning). Complete: ona_tili, ingliz_tili,
-kimyo, fizika, jahon_tarixi, tarix, ozbek_adabiyoti, jahon_adabiyoti, koreys_tili, fransuz_tili.
-Short by a lesson or two: matematika 76/77, biologiya 64/66. Placement bank is 402 of ~1700, so
-subjects beyond ona_tili/ingliz_tili still answer 404 for the level test.
+**Skill-tree content is DONE: 831 of 831 lessons answerable in production, 12391 questions,
+all twelve subjects at 100%** (it was 253 lessons / 2526 on 2026-07-21). The placement bank is
+complete too — 1797 questions covering every level of every subject, so the level test works
+everywhere: 35 questions over 5 `daraja_*` levels for the academic subjects, 42 over 6 CEFR bands
+for the three languages.
+
+Syllabus coverage was verified with `python scripts/coverage_check.py`, which greps lesson titles
+for each required topic under several spellings. **Do not trust an LLM audit for this** —
+`scripts/audit_units.py` called 62 of 74 units complete, Matematika among them, while it had no
+calculus at all.
 
 `GET https://ilm-ai-backend-256x.onrender.com/skills/subjects` reports the live state with no
-auth — check it before quoting any number. To top up:
+auth — check it before quoting any number. To add more:
 
 ```
 bash scripts/fill_content.sh              # resumes; exits 3 when every key is dry
@@ -390,6 +395,18 @@ git add scripts/seeds && git commit && git push   # Render auto-deploys
 copy in /tmp and that file was rewritten underneath it; bash reads a script incrementally, so it
 hit a syntax error mid-run and the batch died silently. That is why the runner lives in the repo
 as `scripts/fill_content.sh`.
+
+**A new lesson's unit slug must exist in the spine.** Two fluid-mechanics lessons were written
+into `fizika/molekulyar-issiqlik`; the real slug is `molekulyar-fizika`, and
+`skilltree_taxonomy.py::_merge_expansion()` only touches units it recognises, so they vanished
+without an error. Check against `[u['slug'] for u in SKILLTREE_OUTLINE[subject]['units']]`.
+
+**Provider is switchable** (`services/llm_provider.py`, `SEED_PROVIDER`). Gemini's free tier is
+~20 requests/day/key — with ten keys, ~640/day. Mistral's free "Experiment" tier
+(`OPENAI_BASE_URL=https://api.mistral.ai/v1`, `mistral-large-latest`) is ~1 req/sec and was used
+for the last batch; its Uzbek is good, slightly more formal in register than Gemini's. OpenAI
+needs paid credit — data sharing grants free daily tokens only from usage Tier 1, which a $0
+account is not, so a brand-new key answers `insufficient_quota`.
 
 **Read "Syllabus depth and the placement test" below before answering any question about how much
 content the app has.** The owner was, in their words, misled about this — CLAUDE.md recorded
@@ -496,6 +513,14 @@ is 21 each — calling that a full course was wrong.
   `seed_skilltree.py` only writes a subject's fixture when it *finishes* that subject, so a
   quota-stopped run leaves the committed fixtures behind the database — and **production seeds
   from the fixtures, not the database**. Run the dump before every deploy.
+- `scripts/coverage_check.py` is the check that actually works: it greps *lesson* titles for each
+  required topic under several spellings. Reading the seven **unit** titles of Matematika, I told
+  the owner it lacked trigonometry, logarithms, progressions and vectors — all four were there as
+  lessons. A unit title is a summary, and a summary cannot be checked against a syllabus. One
+  keyword is not enough either: `article` misses the lesson called "Otlar va artikllar".
+- `scripts/audit_units.py` and `scripts/fill_syllabus_gaps.py` ask a model the same question, and
+  **it rubber-stamps** — 62 of 74 units came back "complete" including the one with no calculus.
+  Useful for suggestions, never for assurance.
 
 **Quota reality:** the Gemini free tier is ~20 requests/day/key/model. With the 10 keys in
 `GEMINI_API_KEYS` that is roughly 600-800 successful calls a day; a full lesson costs 2 (theory +
