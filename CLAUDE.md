@@ -26,7 +26,8 @@ This repo (`ilm-ai`) is the **backend**. Companion repos: `ilm-ai-frontend` (web
 ## Live URLs
 - Backend (prod): **https://ilm-ai-backend-256x.onrender.com**  ← the `-256x` suffix is REAL.
   The un-suffixed `ilm-ai-backend.onrender.com` is someone else's app (returns a fake 404).
-- Frontend (prod): https://ilm-ai-frontend.vercel.app
+- Frontend (prod): **https://ilm-ai-edu.vercel.app**  ← the Vercel project was renamed;
+  `ilm-ai-frontend.vercel.app` is gone and now 404s, including for the audio files.
 - Prod DB: Render Postgres `ilm-ai-db` (free plan). Config in `render.yaml`.
 
 ## Run locally (Windows)
@@ -370,6 +371,34 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 > DB shape, so licensed material drops straight in.
 
 ### ▶ PICK UP HERE (state at end of 2026-07-22) — read this first after a context reset
+
+**Two Cambridge books are loaded: 21 and 20.** 320 questions each, every answer keyed,
+twelve passages apiece. Book 20 has **Listening and Reading only** — the edition the owner
+bought prints no audioscripts and no Writing or Speaking papers, so those two are greyed out
+on its cards and its overall band averages over two skills, not four.
+
+Adding a third book is now a two-command job, and neither is edited first:
+
+```
+IELTS_BOOK=19 IELTS_PDF=<file> python scripts/parse_ielts21.py   # → scripts/seeds/ielts19.json
+IELTS_BOOK=19 python scripts/seed_ielts21.py
+```
+
+Copy the recordings to `ilm-ai-frontend/public/audio/listening/` named `C19T<test>P<part>`
+(`.mp3` or `.m4a`; split rips take `.1`/`.2` before the extension). The startup seeder loads
+every `scripts/seeds/ielts*.json` it finds and checks each volume against its own fixture,
+so a new book needs no code change here at all.
+
+The parser handles two physical layouts and picks between them from `/Rotate`, not from the
+book number: book 21 is rotated publisher typesetting, book 20 is upright and re-typeset.
+**If a third book parses to green counts, still read some of the output** — the failure that
+cost the most time was Test 3's Passage 2, whose thirteen questions all parsed while the
+article itself came out empty, because the paper prints its questions first.
+
+**What is NOT verified for book 20:** that each recording matches its section. They arrived
+named `T1S1.m4a`…`T4S4.m4a` and were copied straight across on that reading; the durations
+(6.8-9.5 min) are right for a Listening section, but nobody has listened to one against its
+questions.
 
 **Skill-tree content is DONE: 836 of 836 lessons answerable in production, 12441 questions,
 all twelve subjects at 100%** (it was 253 lessons / 2526 on the morning of 2026-07-21). The
