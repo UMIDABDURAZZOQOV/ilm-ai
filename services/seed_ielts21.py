@@ -12,7 +12,7 @@ import os
 import sys
 
 from services.db import SessionLocal
-from services.models import IeltsListening, IeltsQuestion
+from services.models import IeltsListening, IeltsQuestion, IeltsReading
 
 logger = logging.getLogger(__name__)
 
@@ -20,6 +20,7 @@ _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _SEED_FILE = os.path.join(_ROOT, "scripts", "seeds", "ielts21.json")
 _EXPECTED_QUESTIONS = 320          # 4 tests × (40 listening + 40 reading)
 _EXPECTED_AUDIO_PARTS = 16         # 4 tests × 4 listening parts
+_EXPECTED_TABLES = 3               # the book prints three: L1P1, L2P1 and R2P1
 
 
 def _fixture_differs(db) -> bool:
@@ -65,18 +66,26 @@ def seed_ielts21_if_needed() -> None:
         # production seed left every audio_url NULL even though the questions were fine.
         with_audio = db.query(IeltsListening).filter(IeltsListening.audio_url.isnot(None)).count()
         stale = _fixture_differs(db)
+        # Counting rows and sampling question text both miss a field that is new —
+        # the printed tables arrived without a single question changing, so neither
+        # check fired and production kept serving sections with no table at all.
+        with_tables = (
+            db.query(IeltsListening).filter(IeltsListening.tables.isnot(None)).count()
+            + db.query(IeltsReading).filter(IeltsReading.tables.isnot(None)).count()
+        )
     except Exception as exc:                       # table may not exist on a cold DB
         logger.warning("Cambridge 21 seed check failed: %s", exc)
         return
     finally:
         db.close()
 
-    if existing == _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS and not stale:
+    if (existing == _EXPECTED_QUESTIONS and with_audio >= _EXPECTED_AUDIO_PARTS
+            and with_tables >= _EXPECTED_TABLES and not stale):
         return
 
-    logger.info("Seeding Cambridge 21 (found %s questions / %s parts with audio; "
-                "expected %s / %s)", existing, with_audio,
-                _EXPECTED_QUESTIONS, _EXPECTED_AUDIO_PARTS)
+    logger.info("Seeding Cambridge 21 (found %s questions / %s with audio / %s with "
+                "tables; expected %s / %s / %s)", existing, with_audio, with_tables,
+                _EXPECTED_QUESTIONS, _EXPECTED_AUDIO_PARTS, _EXPECTED_TABLES)
     sys.path.insert(0, os.path.join(_ROOT, "scripts"))
     try:
         from seed_ielts21 import main as run_seed   # noqa: PLC0415 — optional, script-local
