@@ -220,6 +220,8 @@ class IeltsListening(Base):
                                                                       # recording was ripped in
                                                                       # several files
     transcript      = Column(Text, nullable=True)                     # Full transcript
+    tables          = Column(JSON, nullable=True)                     # printed grids; cells
+                                                                      # mark gaps as "[[7]]"
     difficulty      = Column(String(8), nullable=False)               # easy|medium|hard
     duration_seconds = Column(Integer, nullable=True)
     created_at      = Column(DateTime(timezone=True), server_default=func.now())
@@ -232,6 +234,8 @@ class IeltsReading(Base):
     section         = Column(Integer, nullable=False)                # 1-3
     title           = Column(String(300), nullable=False)
     passage_text    = Column(Text, nullable=False)                    # Full passage
+    tables          = Column(JSON, nullable=True)                     # printed grids; cells
+                                                                      # mark gaps as "[[7]]"
     difficulty      = Column(String(8), nullable=False)               # easy|medium|hard
     word_count      = Column(Integer, nullable=True)
     created_at      = Column(DateTime(timezone=True), server_default=func.now())

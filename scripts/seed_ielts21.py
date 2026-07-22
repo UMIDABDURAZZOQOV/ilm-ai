@@ -98,6 +98,7 @@ def main() -> int:
                     audio_url=urls[0] if urls else None,
                     audio_parts=urls if len(urls) > 1 else None,
                     transcript=sec["transcript"] or None,
+                    tables=sec.get("tables") or None,
                     difficulty="medium",
                     duration_seconds=None,
                 )
@@ -113,6 +114,7 @@ def main() -> int:
                     passage_text=sec["passage_text"],
                     difficulty="medium",
                     word_count=sec["word_count"],
+                    tables=sec.get("tables") or None,
                 )
                 db.add(row)
                 db.flush()

@@ -77,13 +77,32 @@ def build_grid(words: list[dict], starts: list[float]) -> list[list[str]]:
     grid: list[list[str]] = []
     for row in rows:
         cells = [""] * len(starts)
-        for w in row:
-            # Belongs to the last column that starts at or before it.
+        ordered = sorted(row, key=lambda w: w["x0"])
+        skip = set()
+        for j, w in enumerate(ordered):
+            if j in skip:
+                continue
+            text = w["text"]
+            # A gap is printed as "3" followed by its dot leader, and the leader is wide
+            # enough to reach into the next column — which put the number in one cell and
+            # its marker in another, so question 3 of Test 1 simply had no box. Pair them
+            # here, while the reading order is still intact, and place the result in the
+            # NUMBER's cell, which is where the paper prints it.
+            if re.fullmatch(r"\d{1,2}", text) and j + 1 < len(ordered):
+                nxt = ordered[j + 1]["text"]
+                if len(DOTTY.findall(nxt)) >= 4:
+                    skip.add(j + 1)
+                    text = f"{text} {GAP_TOKEN} {DOTTY.sub('', nxt)}".strip()
+                else:
+                    text = clean_token(text)
+            else:
+                text = clean_token(text)
+
             idx = 0
             for i, s in enumerate(starts):
                 if w["x0"] + 2 >= s:
                     idx = i
-            cells[idx] = (cells[idx] + " " + clean_token(w["text"])).strip()
+            cells[idx] = (cells[idx] + " " + text).strip()
         grid.append(cells)
 
     return merge_wrapped(grid)
@@ -127,12 +146,59 @@ def extract_table(pdf_path: str, page_no: int, top: float, bottom: float) -> lis
             w for w in pdf.pages[page_no - 1].extract_words()
             if top <= w["top"] <= bottom
         ]
+    return grid_from_words(words)
+
+
+def grid_from_words(words: list[dict]) -> list[list[str]] | None:
     if not words:
         return None
     starts = column_starts(words)
     if len(starts) < 2:
         return None
     return mark_gaps(build_grid(words, starts))
+
+
+# The rubric that always precedes a table, and the heading that always ends it.
+_RUBRIC = re.compile(r"^(Write|Choose)\b.*(\bfor each answer|on your answer sheet)", re.I)
+_NEXT_BLOCK = re.compile(r"^Questions?\s+\d", re.I)
+
+
+def tables_on_page(pdf_path: str, page_no: int) -> list[list[list[str]]]:
+    """Every table printed on a page, found by its surrounding text.
+
+    A table sits between the "Write ONE WORD AND/OR A NUMBER for each answer" rubric
+    and whatever heading comes next, so the bounds are read off the page rather than
+    hard-coded — the three tables in this book are on pages 11, 33 and 41, but a
+    different book would put them elsewhere.
+    """
+    with pdfplumber.open(pdf_path) as pdf:
+        page = pdf.pages[page_no - 1]
+        words = page.extract_words()
+        lines: dict[float, list[dict]] = {}
+        for w in words:
+            key = next((k for k in lines if abs(k - w["top"]) <= ROW_TOL), w["top"])
+            lines.setdefault(key, []).append(w)
+
+        starts, ends = [], []
+        for top in sorted(lines):
+            text = " ".join(x["text"] for x in sorted(lines[top], key=lambda x: x["x0"]))
+            if _RUBRIC.match(text):
+                starts.append(top + 8)          # just past the rubric's own baseline
+            elif _NEXT_BLOCK.match(text):
+                ends.append(top - 4)
+
+        # Rubric lines stack up ("Choose ONE WORD ONLY…" then "Write your answers in
+        # boxes 1-5…"), and the table begins after the last of a stack — but a page can
+        # also hold two separate tables, so only collapse starts that are adjacent.
+        starts = [s for s, nxt in zip(starts, starts[1:] + [1e9]) if nxt - s > 40]
+
+        out = []
+        for start in starts:
+            stop = next((e for e in ends if e > start), page.height)
+            grid = grid_from_words([w for w in words if start <= w["top"] <= stop])
+            if grid and any("[[" in c for row in grid for c in row):
+                out.append(grid)
+        return out
 
 
 if __name__ == "__main__":       # quick check against Test 1 Part 1

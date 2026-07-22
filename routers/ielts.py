@@ -25,6 +25,7 @@ class ListeningResponse(BaseModel):
     audio_url: Optional[str]
     audio_parts: Optional[List[str]] = None
     transcript: Optional[str]
+    tables: Optional[List[List[List[str]]]] = None
     difficulty: str
     duration_seconds: Optional[int]
 
@@ -37,6 +38,7 @@ class ReadingResponse(BaseModel):
     section: int
     title: str
     passage_text: str
+    tables: Optional[List[List[List[str]]]] = None
     difficulty: str
     word_count: Optional[int]
 

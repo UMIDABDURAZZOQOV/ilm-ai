@@ -155,6 +155,13 @@ def migrate_sqlite_columns():
                 conn.execute(text("ALTER TABLE ielts_listening ADD COLUMN audio_parts JSON"))
                 conn.commit()
                 print("Added column: ielts_listening.audio_parts")
+            if a_existing and "tables" not in a_existing:
+                conn.execute(text("ALTER TABLE ielts_listening ADD COLUMN tables JSON"))
+                conn.commit()
+            r_existing = [row[1] for row in conn.execute(text("PRAGMA table_info(ielts_reading)")).fetchall()]
+            if r_existing and "tables" not in r_existing:
+                conn.execute(text("ALTER TABLE ielts_reading ADD COLUMN tables JSON"))
+                conn.commit()
 
             # skilltree_lessons: theory teaching-cards column (Duolingo-style learn-then-quiz)
             result = conn.execute(text("PRAGMA table_info(skilltree_lessons)"))
@@ -186,6 +193,9 @@ def migrate_postgres_columns():
         "ALTER TABLE skilltree_lessons ADD COLUMN IF NOT EXISTS theory JSON",
         # Cambridge 21 listening parts are often two audio files, played in order.
         "ALTER TABLE ielts_listening ADD COLUMN IF NOT EXISTS audio_parts JSON",
+        # Tables printed in the paper, rebuilt from per-word boxes; "[[7]]" marks a gap.
+        "ALTER TABLE ielts_listening ADD COLUMN IF NOT EXISTS tables JSON",
+        "ALTER TABLE ielts_reading ADD COLUMN IF NOT EXISTS tables JSON",
         # sat_ielts_questions gained these columns after prod's table was first
         # created; a missing mapped column makes the whole SELECT 500, so the
         # question bank returned an Internal Server Error until they were added.

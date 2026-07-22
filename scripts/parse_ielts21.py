@@ -727,6 +727,35 @@ def parse_speaking(lines: list[str], test_no: int) -> list[dict]:
 
 # ─── main ─────────────────────────────────────────────────────────────────────
 
+TABLE_MARK = re.compile(r"\[\[(\d{1,2})\]\]")
+
+
+def attach_tables(pages: list[list[str]], sections: list[dict],
+                  first_page: int, last_page: int) -> None:
+    """Give a section its printed table, where the paper prints one.
+
+    pypdf returns a table row as one run, so the grid has to come from pdfplumber
+    (services… see scripts/ielts_tables.py). The grid is matched to a section by the
+    question numbers inside it rather than by position — but only within one skill's
+    pages, because Listening and Reading both number from 1, so a Reading table would
+    otherwise match a Listening part just as well.
+    """
+    from ielts_tables import tables_on_page
+
+    for page_no in range(first_page + 1, last_page + 1):
+        if not any("Complete the table" in l for l in pages[page_no - 1]):
+            continue
+        for grid in tables_on_page(PDF_PATH, page_no):
+            numbers = {int(m) for row in grid for cell in row for m in TABLE_MARK.findall(cell)}
+            if not numbers:
+                continue
+            for section in sections:
+                owned = {q["number"] for q in section["questions"]}
+                if numbers & owned == numbers:
+                    section.setdefault("tables", []).append(grid)
+                    break
+
+
 def main() -> int:
     reader = PdfReader(PDF_PATH)
     pages = load_pages(reader)
@@ -744,6 +773,9 @@ def main() -> int:
             flatten(pages, t["reading"], t["writing"]), n, keys.get((n, "reading"), {}))
         writing = parse_writing(flatten(pages, t["writing"], t["speaking"]), n)
         speaking = parse_speaking(flatten(pages, t["speaking"], t["end"]), n)
+        attach_tables(pages, listening, t["listening"], t["reading"])
+        attach_tables(pages, reading, t["reading"], t["writing"])
+
         data["tests"].append({
             "test": n, "listening": listening, "reading": reading,
             "writing": writing, "speaking": speaking,
