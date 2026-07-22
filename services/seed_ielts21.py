@@ -99,6 +99,22 @@ def _fixture_differs(db, path: str) -> bool:
     # of Part 2.
     book = data.get("book")
     prefix = f"Cambridge {book} Test"
+
+    # Table *content*, not just how many sections have one. Reading Cambridge 20's
+    # tables off their printed rules instead of guessing rows from word positions
+    # rewrote every cell without changing the count, so this check passed and
+    # production kept serving the grid that split "Name of restaurant" across two rows.
+    for key, model, label in (("listening", IeltsListening, "Listening Part"),
+                              ("reading", IeltsReading, "Reading Passage")):
+        for test in data.get("tests", []):
+            for section in test.get(key, []):
+                if not section.get("tables"):
+                    continue
+                title = (f"{prefix} {test['test']} — {label} "
+                         f"{section['section']}: {section['title']}")[:300]
+                row = db.query(model).filter(model.title == title).first()
+                if row is None or row.tables != section["tables"]:
+                    return True
     for key, model in (("listening", IeltsListening), ("reading", IeltsReading)):
         wanted = {
             f"{prefix} {test['test']} — "

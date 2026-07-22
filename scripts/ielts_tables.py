@@ -138,7 +138,10 @@ def mark_gaps(grid: list[list[str]]) -> list[list[str]]:
         cells = []
         for cell in row:
             # "7 ░" — the number printed before the leader names the answer box.
-            cell = re.sub(rf"(\d{{1,2}})\s*[£$€]?\s*{GAP_TOKEN}", lambda m: f"[[{m.group(1)}]]", cell)
+            # "Set lunch costs 9.£ ░ per person" — the number carries its own full stop
+            # before the currency sign, and without allowing it question 9 lost its box.
+            cell = re.sub(rf"(\d{{1,2}})\s*\.?\s*[£$€]?\s*{GAP_TOKEN}",
+                          lambda m: f"[[{m.group(1)}]]", cell)
             cell = cell.replace(GAP_TOKEN, "")
             cells.append(re.sub(r"\s+", " ", cell).strip())
         out.append(cells)
@@ -153,6 +156,77 @@ def extract_table(pdf_path: str, page_no: int, top: float, bottom: float) -> lis
             if top <= w["top"] <= bottom
         ]
     return grid_from_words(words)
+
+
+def cluster(values, tol: float = 3.0) -> list[float]:
+    """Collapse near-identical rule positions — each line is drawn as two edges."""
+    out: list[float] = []
+    for v in sorted(values):
+        if not out or v - out[-1] > tol:
+            out.append(v)
+    return out
+
+
+def grid_from_rules(page, top: float, bottom: float) -> list[list[str]] | None:
+    """Cells read straight off the printed rules, where the paper draws them.
+
+    Rebuilding rows from word positions cannot tell a new row from a wrapped line.
+    "Name of restaurant" wraps, and its second line became a row of its own, so Test 1
+    Part 1 showed a header of "Name of | Location | Reason for" with a phantom row
+    "restaurant | | recommendation" underneath, and every entry split across three
+    rows. Book 20 rules its tables, so the row and column boundaries are simply there
+    to be read; book 21 draws no rules at all, which is why only one of the two was
+    wrong and why the word-position reconstruction has to stay as the fallback.
+    """
+    verticals = [e for e in page.edges
+                 if e["orientation"] == "v" and e["top"] < bottom and e["bottom"] > top]
+    horizontals = [e for e in page.edges
+                   if e["orientation"] == "h" and top - 2 <= e["top"] <= bottom + 2]
+    if not verticals or not horizontals:
+        return None
+
+    # Shaded cells and inset boxes are drawn as rectangles, and every side of one is an
+    # edge too: Test 3 Part 1 offered sixteen "columns" for a three-column table, while
+    # Test 1's table is drawn cell by cell so no single rule runs its full height.
+    #
+    # What separates a real boundary from a rectangle's side is that its pieces together
+    # cross the whole table. Measured against the longest boundary found rather than
+    # against the search window, which reaches to the foot of the page.
+    def spans(edges, pos, lo, hi):
+        groups: dict[float, list[tuple[float, float]]] = {}
+        for e in edges:
+            key = next((k for k in groups if abs(k - e[pos]) <= 3), e[pos])
+            groups.setdefault(key, []).append((e[lo], e[hi]))
+        out = {}
+        for key, segs in groups.items():
+            covered, end = 0.0, float("-inf")
+            for a, b in sorted(segs):
+                covered += max(0.0, b - max(a, end))
+                end = max(end, b)
+            out[key] = covered
+        return out
+
+    col = spans(verticals, "x0", "top", "bottom")
+    row = spans(horizontals, "top", "x0", "x1")
+    xs = cluster(x for x, n in col.items() if n >= max(col.values()) * 0.75)
+    ys = cluster(y for y, n in row.items() if n >= max(row.values()) * 0.75)
+    if len(xs) < 3 or len(ys) < 3:
+        return None
+
+    cells = [["" for _ in range(len(xs) - 1)] for _ in range(len(ys) - 1)]
+    for w in sorted(page.extract_words(), key=lambda w: (w["top"], w["x0"])):
+        cx, cy = (w["x0"] + w["x1"]) / 2, (w["top"] + w["bottom"]) / 2
+        col = next((i for i in range(len(xs) - 1) if xs[i] <= cx < xs[i + 1]), None)
+        row = next((i for i in range(len(ys) - 1) if ys[i] <= cy < ys[i + 1]), None)
+        if col is None or row is None:
+            continue
+        cells[row][col] = (cells[row][col] + " " + clean_token(w["text"])).strip()
+
+    # The page's own margin rules are edges too, so the grid comes out with an empty
+    # column down each side.
+    keep = [i for i in range(len(cells[0])) if any(r[i] for r in cells)]
+    rows = [[r[i] for i in keep] for r in cells]
+    return mark_gaps([r for r in rows if any(r)])
 
 
 def grid_from_words(words: list[dict]) -> list[list[str]] | None:
@@ -201,7 +275,8 @@ def tables_on_page(pdf_path: str, page_no: int) -> list[list[list[str]]]:
         out = []
         for start in starts:
             stop = next((e for e in ends if e > start), page.height)
-            grid = grid_from_words([w for w in words if start <= w["top"] <= stop])
+            grid = (grid_from_rules(page, start, stop)
+                    or grid_from_words([w for w in words if start <= w["top"] <= stop]))
             if grid and any("[[" in c for row in grid for c in row):
                 out.append(grid)
         return out
