@@ -420,8 +420,11 @@ mangled (a broken question is still a question, so the count stayed green); and 
 skipped their update because rows already existed. Whenever a check goes green here, ask what it
 would fail to notice.
 
-Also open: **the IELTS Listening tables** — see "IELTS section" below. The extractor exists and
-works; it is not wired in, so those questions still read as a heap of words on the site.
+**A "seed only if needed" guard has now held back a correction three times** — questions that
+were mangled but countable, audio URLs that were NULL, and tables on a field the check did not
+look at. `services/seed_ielts21.py` compares the question count, the audio links, a sample of
+question *text*, and the number of sections with a table. Extend it whenever the fixture gains a
+field, or production will keep serving the old shape while everything looks green locally.
 
 The Cambridge IELTS 21 extraction is finished, deployed and verified (details below).
 
@@ -597,23 +600,26 @@ Done 2026-07-21:
   only means something inside a test; listing it separately let someone open one detached
   from any test. Sidebar is Tests / Dictionary / Score Calculator.
 
-**OPEN: table questions.** `scripts/ielts_tables.py` is written and verified standalone
-but **not yet wired into `parse_ielts21.py`, and the frontend does not render a table** —
-so Listening tables (Test 1 Q1-6 and friends) still read as a heap of words on the site.
+**Table questions — DONE.** `scripts/ielts_tables.py` is wired into `parse_ielts21.py`
+(`attach_tables`), the grids ride to production in `ielts21.json` → `ielts_listening.tables` /
+`ielts_reading.tables`, and `components/ielts/QuestionTable.tsx` renders a real `<table>` with
+the input dropped in wherever a cell holds `[[7]]`. Three tables in this book: Listening T1P1,
+Listening T2P1, Reading T2P1.
 
 Why it needed its own extractor: **pypdf returns a whole table row as one text run** —
-`"Taster day introduction to sailing £120 if booking one small groups (max"` — so the
-cell boundaries are not in its output at all. pdfplumber (now a dependency) gives
-per-word boxes. Two non-obvious things:
-- The **first column's header is a single word**, so it never reaches the popularity
-  threshold that finds the other column edges; without seeding it from the leftmost word,
-  every left-hand cell collapsed into column two.
-- The **dot leader is drawn across the cell and interleaves with the word beside it**:
-  `"....................a..v..a..il.a"` + `"ble"` is `"…… available"`. `clean_token()`
-  strips the dots and keeps the letters, leaving a `░` marker that becomes `[[n]]`.
-
-Remaining: attach the grid to the block in `parse_ielts21.py`, and render a real
-`<table>` client-side with the input dropped in where `[[n]]` is.
+`"Taster day introduction to sailing £120 if booking one small groups (max"` — so the cell
+boundaries are not in its output at all. pdfplumber gives per-word boxes. Four non-obvious things
+came out of getting it right:
+- The **first column's header is a single word**, so it never reaches the popularity threshold
+  that finds the other column edges; without seeding it from the leftmost word, every left-hand
+  cell collapsed into column two.
+- The **dot leader interleaves with the word beside it**: `"....................a..v..a..il.a"` +
+  `"ble"` is `"…… available"`. `clean_token()` strips the dots and keeps the letters.
+- A gap is **"3" followed by a leader wide enough to cross into the next column**, which put the
+  number in one cell and its marker in another — question 3 of Test 1 had no box anywhere. The
+  pair is resolved while reading order is intact and placed in the *number's* cell.
+- Matching a grid to a section must be **scoped to one skill's pages**. Listening and Reading both
+  number from 1, so a Reading table matched a Listening part just as well.
 
 ### Test-mode notice
 - Frontend: `components/TestModeBanner.tsx` — slim dismissible amber bar at the top of every page
