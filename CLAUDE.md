@@ -372,22 +372,29 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 ### ▶ PICK UP HERE (state at end of 2026-07-22) — read this first after a context reset
 
-**Two Cambridge books are loaded: 21 and 20**, both complete on all four skills: 320
-questions each with every answer keyed, twelve passages, eight Writing tasks, twelve
-Speaking papers, and all four Task 1 figures.
+**Three Cambridge books are loaded: 21, 20 and 19** — 960 questions in production, every one
+of them keyed, with 36 passages, 48 recordings, 24 Writing tasks (12 of them with their
+figure) and 36 Speaking papers. Only book 20 lacks transcripts, because that edition prints
+no audioscripts.
 
-Everything about **how** a second book is added — the two files book 20 needed, the two
-table methods, the two ways a Task 1 figure comes out, and what a third book will break in
-the frontend — is written up under **"Adding another Cambridge book"** in the IELTS section.
-Read that before touching any of it.
+Everything about **how** a book is added — the three physical layouts and why the choice comes
+from the file rather than the book number, the two OCR engines a scan needs and what each one
+cannot see, the two table methods, the two ways a Task 1 figure comes out, and the frontend
+assumptions a second book broke — is under **"Adding another Cambridge book"** in the IELTS
+section. Read that before touching any of it.
 
-**If a third book parses to green counts, still read some of the output.** The failure that
-cost the most time was Test 3's Passage 2, whose thirteen questions all parsed cleanly while
-the article itself came out empty, because that paper prints its questions first.
+**Green counts are not the same as correct output.** Two failures cost the most time and
+neither showed up in a count: Test 3's Passage 2 in book 20, whose thirteen questions parsed
+cleanly while the article itself came out empty because that paper prints its questions first;
+and book 21 losing all sixteen transcripts to a change made for book 19. **Re-run all three
+books after every parser change** — that is how the second one was caught.
 
-**What is NOT verified:** that each of book 20's recordings matches its section. They arrived
-named `T1S1.m4a`…`T4S4.m4a` and were copied across on that reading; the durations (6.8-9.5
-min) are right for a Listening part, but nobody has listened to one against its questions.
+**What is NOT verified:**
+- that each of book 19's and book 20's recordings matches its section. They were copied on the
+  strength of their filenames (`T1S1.m4a`, `Cam 19 - Test 1 - Part 2.mp3`); durations are right
+  for a Listening part, but nobody has listened to one against its questions.
+- the wording of all 960 questions. Book 19's 320 come from OCR, which is the largest risk in
+  the set; its answer keys were each checked against the page, and the question text sampled.
 
 **Skill-tree content is DONE: 836 of 836 lessons answerable in production, 12441 questions,
 all twelve subjects at 100%** (it was 253 lessons / 2526 on the morning of 2026-07-21). The
@@ -745,7 +752,7 @@ came out of getting it right:
 - Matching a grid to a section must be **scoped to one skill's pages**. Listening and Reading both
   number from 1, so a Reading table matched a Listening part just as well.
 
-### Adding another Cambridge book (done twice; read this before a third)
+### Adding another Cambridge book (done three times; read this before a fourth)
 
 Two commands, and neither file is edited first:
 
@@ -760,9 +767,61 @@ Recordings go to `ilm-ai-frontend/public/audio/listening/` as `C19T<test>P<part>
 startup seeder loads **every** `scripts/seeds/ielts*.json` it finds and checks each volume on
 its own, so no code here changes for a new book.
 
-**The parser handles two physical layouts and picks between them from `/Rotate`, not from the
-book number** — book 21 is rotated publisher typesetting whose lines must be rebuilt from glyph
-coordinates, book 20 is upright and re-typeset. Everything downstream of `load_pages` is shared.
+**Three physical layouts so far, and the parser picks between them from the file, never from
+the book number.** Book 21 is rotated publisher typesetting whose lines must be rebuilt from
+glyph coordinates; book 20 is upright and re-typeset; book 19 is an upright scan. Everything
+downstream of `load_pages` is shared.
+
+Note that these are independent: **19 is upright like 20 but typeset like 21**, with
+LISTENING / READING / WRITING / SPEAKING headings and book 21's answer-key format. Choosing
+the test finder and the key parser by `/Rotate` found one test in a book that has four, so
+both now try the publisher's layout first and fall back to the re-typeset one.
+
+**A scan needs `scripts/ocr_pages.py` run first**; the parser refuses with the command to run
+if the cache is missing. "Has a text layer" is measured by how much text there is, not whether
+there is any — book 19 returns 410 characters over 138 pages, enough stray marks to make an
+`any()` test say the book is readable.
+
+```
+python scripts/ocr_pages.py "<pdf>" 19               # 130 content pages, Windows OCR
+python scripts/ocr_pages.py "<pdf>" 19 --keys 119 126  # answer-key pages, rapidocr
+```
+
+**Two OCR engines, split by what each is good at, and both are needed.** Windows' own OCR does
+a page in 0.4s with the word spacing intact; rapidocr merges words
+("WhatwillhappeninStanthorpetomarkthe25th") and is 90x slower, so it is useless for content.
+But **Windows OCR cannot see an isolated capital letter** — on the Test 2 Listening key it
+returned ten of the twenty single-letter answers, silently, at every resolution from 150 to
+375 dpi. The key pages are almost nothing but isolated letters and a missing answer marks a
+correct student wrong, so rapidocr reads those. Both are consulted for the keys, rapidocr last,
+because it in turn drops the occasional whole answer — Test 4's question 40 was absent from it
+and Windows OCR had it.
+
+**Neither engine returns the dot leader that marks an answer space**, so the gaps are put back
+from the width of the hole left behind: a part heading leaves a 66px gap and a real leader
+95-186px. Everything I added to that rule beyond the page-number guard cost questions and was
+removed after measuring the whole book — capping the line length to keep prose out lost
+eighteen, requiring two tokens lost three more. **Measure the book; do not reason about it.**
+
+The rest of the work on a scan is OCR's own misreadings, and each one cost real questions:
+
+| Misread | What it cost |
+|---|---|
+| `TEST 1` → `TEST I` | a whole test's answer key |
+| `Questions II and 12` | the block was never split — eight duplicate questions |
+| `PART` → `PAR T` | all ten questions of that part |
+| `17&18INEITHERORDER` | **every two-mark answer in the book — forty questions** |
+| `2()` for 20, `4()` for 40, `7.` for 7 | three more |
+
+**The Contents can be wrong, and it was — by two pages in book 19**, which took the answer keys
+and the audioscripts with it: Test 1's key fell outside the range and Test 4's Speaking paper
+ran on into the scripts, producing five parts and forty-eight questions for forty slots. Both
+are located by content now. A key page carries a TEST banner over a bare skill heading; a script
+page carries speaker labels **or** the margin's "Q26" — Part 4 is one uninterrupted lecture and
+has no speaker labels at all, which stopped an earlier version of the walk on its first page.
+The content-based audioscript search only wins where it finds something: book 21's scripts carry
+neither mark in a recognisable form, and letting an empty result through lost all sixteen of its
+transcripts and broke its Speaking papers.
 
 **A book may arrive as more than one file, and you may need all of them.** Cambridge 20 came
 first as a 71-page re-typeset PDF with a text layer but no Writing, Speaking or audioscripts,
@@ -772,10 +831,16 @@ papers exist only in the second and were transcribed into `scripts/seeds/ielts20
 which `manual_papers()` merges **only where the PDF itself yielded nothing**, so a book whose
 papers do parse is never overridden by a file that has gone stale.
 
-**OCR drafts, eyes confirm.** A rapidocr pass located the scanned material and is a good way to
-find it, but it is not what shipped: it lost word spacing in the boilerplate
-(`whatotherpeoplehavesaid`) and silently dropped a whole question from Test 3 Part 1. Every
-prompt was checked against the page image.
+**OCR drafts, eyes confirm — for anything short enough to check.** Book 20's Writing and
+Speaking were drafted by rapidocr and then read off the page image, because it lost word
+spacing in the boilerplate (`whatotherpeoplehavesaid`) and silently dropped a whole question
+from Test 3 Part 1. Book 19 is 320 questions and could not be checked that way; what was
+checked there is every answer key against its page, and samples of the question text.
+
+**Where both engines lose the same thing, transcribe it.** `ielts19_manual.json` carries one
+cell — "a 10 ................ tart" — that is absent from each of them rather than garbled. Its
+`questions` list is merged by `add_manual_questions()`, and the **answer still comes from the
+parsed key**, so a hand-written file can never disagree with the book about what is correct.
 
 **Task 1 figures come out differently per book, and neither is optional** — the essay asks the
 candidate to describe the figure. Book 20 embeds them as images (crop from the page). Book 21
