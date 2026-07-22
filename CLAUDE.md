@@ -372,10 +372,19 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 
 ### ▶ PICK UP HERE (state at end of 2026-07-22) — read this first after a context reset
 
-**Two Cambridge books are loaded: 21 and 20.** 320 questions each, every answer keyed,
-twelve passages apiece. Book 20 has **Listening and Reading only** — the edition the owner
-bought prints no audioscripts and no Writing or Speaking papers, so those two are greyed out
-on its cards and its overall band averages over two skills, not four.
+**Two Cambridge books are loaded: 21 and 20**, both complete on all four skills: 320
+questions each with every answer keyed, twelve passages, eight Writing tasks, twelve
+Speaking papers. Book 20 also has its four Task 1 figures (book 21's are still vector art
+in the PDF and have not been extracted).
+
+Book 20 came as **two different files, and both are needed**. The re-typeset one has a text
+layer and is where Listening and Reading are parsed from. The full 130-page edition is a
+**scan with no text layer at all** — pypdf returns zero characters — and is the only copy
+of the Writing and Speaking papers, which were read off the page by hand into
+`scripts/seeds/ielts20_manual.json` and are merged by the parser (only where the PDF itself
+yielded nothing). An OCR pass drafted them but is not what shipped: it lost word spacing
+and dropped a whole question, so every prompt was checked against the page image. **If a
+future book is a scan, expect the same: OCR to find the material, eyes to confirm it.**
 
 Adding a third book is now a two-command job, and neither is edited first:
 
