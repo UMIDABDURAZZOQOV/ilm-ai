@@ -747,12 +747,25 @@ def detect_type(text: str) -> str:
     return "completion"
 
 
+# On a scan the word "Questions" is sometimes lost from a block header, leaving just the
+# range — Test 2 Reading came back with a bare "14\u201419" where six questions live. A
+# bare range is only trusted as a header when the next line is a rubric, so a range that
+# occurs inside a sentence is left alone.
+BARE_RANGE = re.compile(r"^(\d{1,2})\s*(?:[-\u2013\u2014]|and)\s*(\d{1,2})\s*$")
+RUBRIC_NEXT = re.compile(
+    r"^(Choose|Write|Complete|Match|Do the following|Look at|Which|Label|Answer|"
+    r"Reading Passage|Classify|Using)", re.I)
+
+
 def split_blocks(lines: list[str]) -> list[dict]:
     """Split a skill section into `Questions N-M` blocks."""
     blocks: list[dict] = []
     cur: dict | None = None
-    for line in lines:
+    for i, line in enumerate(lines):
         m = Q_HEADER.match(line) or Q_HEADER_ONE.match(line)
+        if not m and (br := BARE_RANGE.match(line)) and i + 1 < len(lines) \
+                and RUBRIC_NEXT.match(lines[i + 1]):
+            m = br
         if m:
             lo = int(m.group(1))
             hi = int(m.group(2)) if m.lastindex and m.lastindex >= 2 else lo

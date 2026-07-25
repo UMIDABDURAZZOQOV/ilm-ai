@@ -396,6 +396,38 @@ books after every parser change** — that is how the second one was caught.
 - the wording of all 960 questions. Book 19's 320 come from OCR, which is the largest risk in
   the set; its answer keys were each checked against the page, and the question text sampled.
 
+### ⏸ IN PROGRESS — Cambridge IELTS 18 (paused 2026-07-26, resume here)
+
+Book 18 is bought and its files are in `Desktop/Cambridge 18 Academic/` (PDF + 16 mp3s named
+`C 18 section<N>-part<M>[@cambridge_library].mp3`). It is **another scan** like book 19 — 147
+pages, no text layer — and some of its pages are `/Rotate 180`, which pypdfium2 handles on
+render so the OCR comes out upright.
+
+Done so far:
+- `python scripts/ocr_pages.py "<pdf>" 18` and `--keys 121 128` have been run; the cache is at
+  `scripts/seeds/ocr/c18/` (untracked).
+- `scripts/parse_ielts21.py` parses it to **~273/320 questions, 6 without answers**. The fixture
+  `scripts/seeds/ielts18.json` exists but is **untracked and NOT seeded** — production stays at
+  three books until 18 is finished.
+- One general fix landed while on it and is worth keeping regardless: a scan sometimes loses the
+  word "Questions" from a block header, leaving a bare range ("14—19"); `split_blocks` now
+  accepts a bare `N–M` line as a header when the next line is a rubric. Verified it changes
+  nothing for 19/20/21.
+
+Still to do — the missing questions are the same shapes already solved for book 19, so the fixes
+will rhyme with those in the parser's OCR section:
+
+```
+T1: L[1,5,35]  R[4,6,7]
+T2: L[1,3,7,8,9,13,14,32,37]  R[3,4,8,14,15,16,17,18,19,35]
+T3: L[5,7,8,9,10,32,37]  R[1,2,3,4,6,7]
+T4: L[1,6,8,34,37,40]  R[31,34,36]
+```
+
+When 18 reaches 320/320 with every answer keyed: crop its four Task 1 figures to
+`public/ielts/c18/`, copy the mp3s to `public/audio/listening/` as `C18T<test>P<part>.mp3`,
+commit the fixture + ocr cache, seed, deploy — the same close-out as book 19.
+
 **Skill-tree content is DONE: 836 of 836 lessons answerable in production, 12441 questions,
 all twelve subjects at 100%** (it was 253 lessons / 2526 on the morning of 2026-07-21). The
 placement bank is complete too — 1797 questions covering every level of every subject, so the
