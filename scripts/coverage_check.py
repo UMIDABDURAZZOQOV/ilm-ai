@@ -173,6 +173,22 @@ CHECKS: dict[str, list[tuple[str, list[str]]]] = {
         ("O'zbekiston geografiyasi", ["o'zbekiston", "ozbekiston"]),
         ("Ekologiya", ["ekologik", "orol"]),
     ],
+    "psixologiya": [
+        ("Tadqiqot metodlari", ["tadqiqot metod", "eksperimental", "korrelyatsion"]),
+        ("Biologik asoslar", ["neyron", "nerv sistema", "miya tuzilish"]),
+        ("Ong holatlari", ["ong va uning holat", "uyqu"]),
+        ("Sezgi va idrok", ["sezgi va idrok", "ko'rish", "idrokni tashkil"]),
+        ("Klassik/operant shartlanish", ["klassik shartlanish", "operant shartlanish"]),
+        ("Kuzatuv orqali o'rganish", ["kuzatuv orqali"]),
+        ("Xotira", ["xotira jarayon", "xotira turlar"]),
+        ("Tafakkur va intellekt", ["tafakkur", "intellekt"]),
+        ("Rivojlanish", ["kognitiv rivojlanish", "ijtimoiy va emotsional rivojlanish"]),
+        ("Motivatsiya va emotsiya", ["motivatsiya", "emotsiya"]),
+        ("Shaxs nazariyalari", ["psixoanalitik", "gumanistik", "xususiyatlar nazariya"]),
+        ("Ruhiy buzilishlar", ["ruhiy buzilish", "xavotir buzilish", "shizofreniya"]),
+        ("Psixoterapiya", ["psixoterapiya"]),
+        ("Ijtimoiy psixologiya", ["ijtimoiy ta'sir", "ijtimoiy idrok", "guruh psixologiya"]),
+    ],
 }
 
 
