@@ -146,6 +146,33 @@ CHECKS: dict[str, list[tuple[str, list[str]]]] = {
         ("Reported speech", ["reported", "o'zlashtirma"]),
         ("Phrasal verbs", ["phrasal", "frazeologik fe'l"]),
     ],
+    "geometriya": [
+        ("Uchburchaklar tengligi", ["uchburchaklar tengligi", "tengligi alomat"]),
+        ("Uchburchaklar o'xshashligi", ["o'xshashlig", "oxshashlig"]),
+        ("Pifagor teoremasi", ["pifagor"]),
+        ("Parallelogramm", ["parallelogramm"]),
+        ("Trapetsiya", ["trapetsiya", "trapesiya"]),
+        ("Aylana va urinma", ["urinma", "chizilgan burchak"]),
+        ("Vektorlar", ["vektor"]),
+        ("Koordinatalar", ["koordinat", "to'g'ri chiziq tenglamasi"]),
+        ("Sinuslar/kosinuslar teoremasi", ["sinuslar teorema", "kosinuslar teorema"]),
+        ("Prizma va piramida", ["prizma", "piramida"]),
+        ("Silindr, konus, shar", ["silindr", "konus", "shar"]),
+        ("Hajm va sirt", ["hajm", "sirt"]),
+    ],
+    "geografiya": [
+        ("Kartografiya", ["masshtab", "geografik koordinat", "proyeksiya"]),
+        ("Astronomik geografiya", ["quyosh sistema", "vaqt mintaqa", "aylanish"]),
+        ("Litosfera plitalari", ["litosfera plita", "zilzila", "vulqon"]),
+        ("Atmosfera va iqlim", ["iqlim", "atmosfera bosim", "shamol"]),
+        ("Gidrosfera", ["dunyo okean", "daryolar", "okean oqim"]),
+        ("Tuproq va tabiat zonalari", ["tuproq", "tabiat zona"]),
+        ("Aholi geografiyasi", ["aholi", "urbanizatsiya", "migratsiya"]),
+        ("Iqtisodiy geografiya", ["sanoat", "qishloq xo'jalig", "transport geograf"]),
+        ("Materiklar", ["yevrosiyo", "afrika", "amerika", "antarktida"]),
+        ("O'zbekiston geografiyasi", ["o'zbekiston", "ozbekiston"]),
+        ("Ekologiya", ["ekologik", "orol"]),
+    ],
 }
 
 
