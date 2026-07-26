@@ -112,6 +112,80 @@ def get_summary(user_id: int = Depends(verify_user_access), db: Session = Depend
     return _gamification_block(user, db)
 
 
+@router.get("/{user_id}/progress")
+def get_progress(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    """Per-subject mastery and the weakest units, for the progress dashboard.
+
+    mastery_pct is the average best score over the lessons actually attempted, so a
+    subject only barely started does not read as 0% overall; completed counts lessons
+    passed (>=1 star). weak_units are the three attempted units with the lowest average
+    best score, which is where a learner should look next.
+    """
+    if not db.query(User.id).filter(User.id == user_id).first():
+        raise HTTPException(status_code=404, detail="User not found")
+
+    # One pass over the join, grouped in Python — small tables, and clearer than SQL here.
+    rows = (
+        db.query(SkillSubject, SkillUnit, SkillLesson, UserLessonProgress)
+        .join(SkillUnit, SkillUnit.subject_id == SkillSubject.id)
+        .join(SkillLesson, SkillLesson.unit_id == SkillUnit.id)
+        .outerjoin(
+            UserLessonProgress,
+            (UserLessonProgress.lesson_id == SkillLesson.id)
+            & (UserLessonProgress.user_id == user_id),
+        )
+        .filter(SkillSubject.is_active.is_(True))
+        .all()
+    )
+
+    subjects: dict[int, dict] = {}
+    unit_scores: dict[tuple[int, int], dict] = {}
+    for subject, unit, _lesson, prog in rows:
+        s = subjects.setdefault(subject.id, {
+            "slug": subject.slug, "name_uz": subject.name_uz, "name_ru": subject.name_ru,
+            "name_en": subject.name_en, "icon": subject.icon, "color": subject.color,
+            "order_index": subject.order_index,
+            "total": 0, "attempted": 0, "completed": 0, "score_sum": 0.0,
+        })
+        s["total"] += 1
+        u = unit_scores.setdefault((subject.id, unit.id), {
+            "subject_id": subject.id, "title_uz": unit.title_uz, "order_index": unit.order_index,
+            "attempted": 0, "score_sum": 0.0,
+        })
+        if prog is not None and prog.attempts:
+            score = prog.best_score_pct or 0.0
+            s["attempted"] += 1
+            s["score_sum"] += score
+            if (prog.stars or 0) >= 1:
+                s["completed"] += 1
+            u["attempted"] += 1
+            u["score_sum"] += score
+
+    out = []
+    for sid, s in subjects.items():
+        weak = sorted(
+            (u for (subj_id, _uid), u in unit_scores.items()
+             if subj_id == sid and u["attempted"]),
+            key=lambda u: u["score_sum"] / u["attempted"],
+        )[:3]
+        out.append({
+            "slug": s["slug"], "name_uz": s["name_uz"], "name_ru": s["name_ru"],
+            "name_en": s["name_en"], "icon": s["icon"], "color": s["color"],
+            "total_lessons": s["total"], "attempted": s["attempted"], "completed": s["completed"],
+            "mastery_pct": round(s["score_sum"] / s["attempted"], 1) if s["attempted"] else 0.0,
+            "progress_pct": round(100 * s["completed"] / s["total"], 1) if s["total"] else 0.0,
+            "weak_units": [
+                {"title_uz": u["title_uz"], "avg_pct": round(u["score_sum"] / u["attempted"], 1)}
+                for u in weak
+            ],
+            "_order": s["order_index"],
+        })
+    out.sort(key=lambda x: x["_order"])
+    for x in out:
+        x.pop("_order", None)
+    return {"subjects": out}
+
+
 @router.get("/{user_id}/tree")
 def get_tree(
     subject: str,
