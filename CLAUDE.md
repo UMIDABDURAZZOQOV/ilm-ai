@@ -428,15 +428,24 @@ When 18 reaches 320/320 with every answer keyed: crop its four Task 1 figures to
 `public/ielts/c18/`, copy the mp3s to `public/audio/listening/` as `C18T<test>P<part>.mp3`,
 commit the fixture + ocr cache, seed, deploy — the same close-out as book 19.
 
-**Skill-tree content is DONE: 836 of 836 lessons answerable in production, 12441 questions,
-all twelve subjects at 100%** (it was 253 lessons / 2526 on the morning of 2026-07-21). The
-placement bank is complete too — 1797 questions covering every level of every subject, so the
-level test works everywhere: 35 questions over 5 `daraja_*` levels for the academic subjects,
-42 over 6 CEFR bands for the three languages.
+**Skill-tree content is DONE: 1040 of 1040 lessons answerable in production, all fifteen
+subjects at 100%** (it was 253 lessons / 12 subjects on 2026-07-21). Three subjects were added
+on 2026-07-26 and are live with full content: **Geometriya** (71 lessons, 710 questions),
+**Geografiya** (70, 700) and **Psixologiya** (63, 628) — the last built on the AP Psychology
+topic areas, since psychology is not taught in Uzbek schools. Verify with
+`GET /skills/subjects`, whose `ready_lessons` must equal `lesson_count` for every row.
+
+The placement bank covers all fifteen — 35 questions over 5 `daraja_*` levels for the academic
+subjects, 42 over 6 CEFR bands for the three languages. A new subject needs no code: author it
+into `skilltree_taxonomy.py`, then `python scripts/seed_skilltree.py --subject <slug>` and
+`python scripts/seed_placement.py --subject <slug>`, commit the fixtures. Both prod seeders are
+incremental (keyed by slug / question text), so new subjects seed and the existing ones don't
+move. Generation is provider-paced and resumable; a lesson that times out is filled by a plain
+re-run of the same command (it skips lessons that already have questions).
 
 Two checks back this, and both are scripts you can re-run:
-- `python scripts/coverage_check.py` — greps *lesson* titles for ~80 required topics across all
-  twelve subjects, each under several spellings. **Do not trust an LLM audit for this**:
+- `python scripts/coverage_check.py` — greps *lesson* titles for the required topics across all
+  fifteen subjects, each under several spellings. **Do not trust an LLM audit for this**:
   `scripts/audit_units.py` called 62 of 74 units complete, Matematika among them, while it had
   no calculus at all. The 14 topics this found (calculus, Archimedes, halogens, selective
   breeding, word formation, Homer, Hemingway, Korean honorifics, …) are the ones now filled.
@@ -445,7 +454,7 @@ Two checks back this, and both are scripts you can re-run:
   `scripts/apply_lesson_order.py`). 68 of 74 units were resequenced; six answers were rejected
   for not being a true permutation and those units kept their previous order untouched.
 
-**What is NOT verified:** the wording of 12441 questions. Sampling looked good; nobody has read
+**What is NOT verified:** the wording of the 14479 questions. Sampling looked good; nobody has read
 them all. If a lesson reads badly, regenerate that one with
 `python scripts/seed_skilltree.py --subject <slug> --regen-questions`.
 
