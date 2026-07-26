@@ -993,6 +993,105 @@ SUBJECT_EXAM_SIZE = 30          # a full sitting; ~1 minute a question
 SUBJECT_EXAM_SECONDS_PER_Q = 60
 
 
+# ─── Pronunciation practice (til fanlari) ─────────────────────────────────────
+# Only the three language subjects. The learner is shown a phrase, says it, and
+# Gemini scores how close the pronunciation was — the one thing text practice can't
+# teach. Phrases are generated once per language and cached for the process.
+_PRON_LANG = {"ingliz_tili": "English", "koreys_tili": "Korean", "fransuz_tili": "French"}
+_pron_cache: dict[str, list] = {}
+
+
+@router.get("/{user_id}/pronunciation")
+def get_pronunciation_phrases(subject: str, user_id: int = Depends(verify_user_access),
+                              db: Session = Depends(get_db)):
+    """A set of phrases to practise saying, in the chosen language."""
+    lang = _PRON_LANG.get(subject)
+    if not lang:
+        raise HTTPException(status_code=400, detail="Pronunciation practice is for language subjects only")
+    if subject in _pron_cache:
+        return {"phrases": _pron_cache[subject], "language": lang}
+
+    import json
+    from services.gemini import generate_content
+    prompt = f"""Generate 12 short {lang} phrases for a beginner-to-intermediate learner to
+practise pronouncing aloud: everyday greetings, questions and useful sentences, from very
+short to a full sentence. For each give the phrase in {lang} and its Uzbek translation.
+Return ONLY JSON: [{{"text": "{lang} phrase", "uz": "o'zbekcha tarjima"}}]"""
+    try:
+        resp = generate_content(model="gemini-flash-latest", contents=prompt,
+                                config={"response_mime_type": "application/json"})
+        phrases = json.loads(resp.text)
+        phrases = [p for p in phrases if p.get("text")][:12]
+    except Exception:
+        phrases = []
+    if phrases:
+        _pron_cache[subject] = phrases
+    return {"phrases": phrases, "language": lang}
+
+
+class PronunciationScoreRequest(BaseModel):
+    user_id: int
+    subject: str
+    target_text: str
+    audio_base64: str
+    mime_type: str = "audio/webm"
+
+
+@router.post("/pronunciation/score")
+def score_pronunciation(
+    data: PronunciationScoreRequest,
+    auth_user_id: int = Depends(get_authenticated_user_id),
+    db: Session = Depends(get_db),
+):
+    """Score one spoken attempt against the target phrase."""
+    ensure_own_user(data.user_id, auth_user_id)
+    lang = _PRON_LANG.get(data.subject, "the target language")
+
+    import base64
+    import json
+    from services.gemini import generate_content
+    from google.genai import types
+
+    try:
+        audio_bytes = base64.b64decode(data.audio_base64)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid audio data")
+    if len(audio_bytes) < 600:
+        raise HTTPException(status_code=400, detail="Recording is empty or too short")
+
+    prompt = f"""The learner was asked to say this {lang} phrase aloud:
+
+"{data.target_text}"
+
+The attached audio is their attempt. Transcribe what they actually said, then rate the
+pronunciation from 0 to 100 (accuracy of sounds, stress and intonation for {lang}), and
+give one short, specific tip in Uzbek. If the audio is silent or unrelated, score 0.
+
+Return ONLY JSON:
+{{"heard": "what they said", "score": 82, "tip": "bitta qisqa maslahat o'zbekcha"}}"""
+    try:
+        resp = generate_content(
+            model="gemini-flash-latest",
+            contents=[prompt, types.Part.from_bytes(data=audio_bytes, mime_type=data.mime_type)],
+            config={"response_mime_type": "application/json"},
+        )
+        result = json.loads(resp.text)
+        score = int(result.get("score") or 0)
+        # A good attempt earns a little XP, so pronunciation practice counts too.
+        if score >= 60:
+            user = db.query(User).filter(User.id == data.user_id).first()
+            if user:
+                user.xp_total = (user.xp_total or 0) + 2
+                db.add(user)
+                db.commit()
+        record_study_activity(data.user_id)
+        return {"heard": result.get("heard", ""), "score": score, "tip": result.get("tip", "")}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"Scoring failed: {e}")
+
+
 @router.get("/{user_id}/subject-exam")
 def get_subject_exam(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     """A timed exam over a whole subject, spread across its units.
