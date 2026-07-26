@@ -954,6 +954,114 @@ def get_marathon(subject: str, user_id: int = Depends(verify_user_access), db: S
     return {"questions": out, "subject_name": s.name_uz}
 
 
+SUBJECT_EXAM_SIZE = 30          # a full sitting; ~1 minute a question
+SUBJECT_EXAM_SECONDS_PER_Q = 60
+
+
+@router.get("/{user_id}/subject-exam")
+def get_subject_exam(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    """A timed exam over a whole subject, spread across its units.
+
+    Unlike the marathon (untimed practice, purely random), this samples evenly from
+    every unit so the exam actually covers the subject, and it carries the unit each
+    question came from so the result can point at the weakest bob.
+    """
+    s = db.query(SkillSubject).filter(SkillSubject.slug == subject).first()
+    if not s:
+        raise HTTPException(status_code=404, detail="Subject not found")
+
+    units = db.query(SkillUnit).filter(SkillUnit.subject_id == s.id).order_by(SkillUnit.order_index).all()
+    if not units:
+        return {"questions": []}
+
+    # Questions grouped by unit, so the sample can be balanced across bob-lar.
+    per_unit: dict[int, list] = {}
+    unit_title: dict[int, str] = {}
+    for u in units:
+        unit_title[u.id] = u.title_uz
+        lesson_ids = [l.id for l in db.query(SkillLesson.id).filter(SkillLesson.unit_id == u.id).all()]
+        if lesson_ids:
+            per_unit[u.id] = [row[0] for row in
+                              db.query(SkillQuestion.id).filter(SkillQuestion.lesson_id.in_(lesson_ids)).all()]
+
+    # Round-robin across units until the exam is full, so every unit is represented and
+    # a big unit does not crowd out a small one.
+    picks: list[tuple[int, int]] = []          # (question_id, unit_id)
+    pools = {uid: random.sample(qids, len(qids)) for uid, qids in per_unit.items() if qids}
+    while pools and len(picks) < SUBJECT_EXAM_SIZE:
+        for uid in list(pools):
+            if not pools[uid]:
+                del pools[uid]
+                continue
+            picks.append((pools[uid].pop(), uid))
+            if len(picks) >= SUBJECT_EXAM_SIZE:
+                break
+
+    random.shuffle(picks)
+    q_map = {q.id: q for q in db.query(SkillQuestion).filter(
+        SkillQuestion.id.in_([p[0] for p in picks])).all()}
+    out = []
+    for qid, uid in picks:
+        q = q_map.get(qid)
+        if not q:
+            continue
+        out.append({
+            "id": q.id,
+            "unit_id": uid,
+            "unit_title": unit_title.get(uid, ""),
+            "question_text": q.question_text,
+            "options": q.options,
+            "correct_answer": q.correct_answer,
+            "explanation": q.explanation,
+        })
+    return {
+        "questions": out,
+        "subject_name": s.name_uz,
+        "duration_seconds": len(out) * SUBJECT_EXAM_SECONDS_PER_Q,
+    }
+
+
+class SubjectExamCompleteRequest(BaseModel):
+    user_id: int
+    subject: str
+    score: int
+    total: int
+    # Per-unit tally so the result can name the weakest bob: {unit_title: [correct, total]}
+    per_unit: dict[str, list[int]] = {}
+
+
+@router.post("/subject-exam/complete")
+def complete_subject_exam(
+    data: SubjectExamCompleteRequest,
+    auth_user_id: int = Depends(get_authenticated_user_id),
+    db: Session = Depends(get_db),
+):
+    ensure_own_user(data.user_id, auth_user_id)
+    user = db.query(User).filter(User.id == data.user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    pct = round(100 * data.score / data.total, 1) if data.total else 0.0
+    xp_awarded = min(data.score, SUBJECT_EXAM_SIZE)
+    user.xp_total = (user.xp_total or 0) + xp_awarded
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+    streak = record_study_activity(data.user_id)
+
+    weak = sorted(
+        ({"title_uz": title, "pct": round(100 * c / t, 1)}
+         for title, (c, t) in data.per_unit.items() if t),
+        key=lambda x: x["pct"],
+    )[:3]
+    return {
+        "score": data.score, "total": data.total, "score_pct": pct,
+        "passed": pct >= 70, "xp_awarded": xp_awarded, "xp_total": user.xp_total,
+        "streak_days": streak.get("streak_days", user.streak_days or 0),
+        "weak_units": weak,
+    }
+
+
 class MarathonCompleteRequest(BaseModel):
     user_id: int
     score: int
