@@ -116,8 +116,9 @@ class WritingSubmissionResponse(BaseModel):
 class SpeakingSubmissionRequest(BaseModel):
     user_id: int
     topic_id: int
-    audio_url: str
-    duration_seconds: Optional[int]
+    audio_base64: str                       # the recording, base64-encoded
+    mime_type: str = "audio/webm"           # what MediaRecorder produced
+    duration_seconds: Optional[int] = None
 
 
 class SpeakingSubmissionResponse(BaseModel):
@@ -127,6 +128,7 @@ class SpeakingSubmissionResponse(BaseModel):
     audio_url: str
     duration_seconds: Optional[int]
     band_score: Optional[float]
+    transcript: Optional[str] = None
     feedback: Optional[str]
     fluency: Optional[str]
     lexical: Optional[str]
@@ -373,80 +375,105 @@ def get_speaking_by_id(speaking_id: int, db: Session = Depends(get_db)):
 
 @router.post("/speaking/submit", response_model=SpeakingSubmissionResponse)
 def submit_speaking(submission: SpeakingSubmissionRequest, db: Session = Depends(get_db)):
-    """Submit a speaking recording for AI grading."""
+    """Grade a spoken IELTS answer from the recording itself.
+
+    Gemini is multimodal, so the audio goes to it directly: one call transcribes the
+    answer and marks it against the four IELTS Speaking criteria. No separate
+    speech-to-text step, and it uses the runtime Gemini keys (services/gemini.py), not
+    the offline seeding provider.
+    """
+    import base64
+    import json
     from services.gemini import generate_content
-    
-    # Get the topic
+    from google.genai import types
+
     topic = db.query(IeltsSpeaking).filter(IeltsSpeaking.id == submission.topic_id).first()
     if not topic:
         raise HTTPException(status_code=404, detail="Speaking topic not found")
-    
-    # Note: In production, you would transcribe the audio first using Speech-to-Text
-    # For now, we'll provide a placeholder grading based on duration and topic
-    # Real implementation would use Google Cloud Speech-to-Text + Gemini grading
-    
-    grading_prompt = f"""You are an IELTS examiner. Grade a speaking response based on the topic and duration.
+
+    try:
+        audio_bytes = base64.b64decode(submission.audio_base64)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid audio data")
+    if len(audio_bytes) < 800:
+        raise HTTPException(status_code=400, detail="Recording is empty or too short")
+
+    prompt = f"""You are a certified IELTS Speaking examiner. The attached audio is a
+candidate's spoken answer.
 
 Speaking Part: {topic.part}
 Topic: {topic.topic}
-Questions: {', '.join(topic.questions)}
-Duration: {submission.duration_seconds} seconds
+Questions asked: {', '.join(topic.questions) if topic.questions else topic.cue_card or ''}
 
-Since this is a placeholder (audio transcription not implemented), provide a realistic grading based on:
-- Fluency & Coherence (FC): Flow, natural speech, connectors
-- Lexical Resource (LR): Vocabulary range and accuracy
-- Grammatical Range (GRA): Sentence structures and grammar
-- Pronunciation (P): Clarity, intonation, stress
+First transcribe exactly what the candidate says. Then mark the answer against the four
+official IELTS Speaking criteria, each with a band 0-9 and one sentence of justification,
+and give an overall band (the average, to the nearest 0.5). Be honest and specific; if
+the audio is silent or not English, say so and give band 0.
 
-Provide your response in this exact JSON format:
+Return ONLY this JSON:
 {{
-    "band_score": 6.5,
-    "fluency": "6.0 - Speaks at length but may lose coherence...",
-    "lexical": "7.0 - Uses a sufficient range of vocabulary...",
-    "grammar": "6.5 - Uses a mix of simple and complex forms...",
-    "pronunciation": "6.0 - Generally clear but with some issues...",
-    "feedback": "Overall feedback with specific suggestions..."
-}}
+  "transcript": "word-for-word transcription",
+  "band_score": 6.5,
+  "fluency": "6.0 - Fluency & Coherence: ...",
+  "lexical": "6.5 - Lexical Resource: ...",
+  "grammar": "6.0 - Grammatical Range & Accuracy: ...",
+  "pronunciation": "6.5 - Pronunciation: ...",
+  "feedback": "2-4 sentences of concrete advice to reach the next band."
+}}"""
 
-Return ONLY the JSON, no additional text."""
-    
+    transcript = None
+    clean_feedback = None
     try:
         response = generate_content(
             model="gemini-flash-latest",
-            contents=grading_prompt,
-            config={"response_mime_type": "application/json"}
+            contents=[prompt, types.Part.from_bytes(data=audio_bytes, mime_type=submission.mime_type)],
+            config={"response_mime_type": "application/json"},
         )
-        
-        import json
-        grading_result = json.loads(response.text)
-        
+        result = json.loads(response.text)
+        transcript = result.get("transcript")
+        clean_feedback = result.get("feedback")
         db_submission = IeltsSpeakingSubmission(
             user_id=submission.user_id,
             topic_id=submission.topic_id,
-            audio_url=submission.audio_url,
+            audio_url="inline",                 # recordings are graded in memory, not hosted
             duration_seconds=submission.duration_seconds,
-            band_score=grading_result.get("band_score"),
-            feedback=grading_result.get("feedback"),
-            fluency=grading_result.get("fluency"),
-            lexical=grading_result.get("lexical"),
-            grammar=grading_result.get("grammar"),
-            pronunciation=grading_result.get("pronunciation"),
+            band_score=result.get("band_score"),
+            # Persist the transcript with the feedback, since the table has no column for it.
+            feedback=((f"Transcript:\n{transcript}\n\n" if transcript else "") + (result.get("feedback") or "")) or None,
+            fluency=result.get("fluency"),
+            lexical=result.get("lexical"),
+            grammar=result.get("grammar"),
+            pronunciation=result.get("pronunciation"),
         )
     except Exception as e:
-        # Fallback if AI grading fails
         db_submission = IeltsSpeakingSubmission(
             user_id=submission.user_id,
             topic_id=submission.topic_id,
-            audio_url=submission.audio_url,
+            audio_url="inline",
             duration_seconds=submission.duration_seconds,
             band_score=None,
             feedback=f"AI grading failed: {str(e)}",
         )
-    
+
     db.add(db_submission)
     db.commit()
     db.refresh(db_submission)
-    return db_submission
+
+    return SpeakingSubmissionResponse(
+        id=db_submission.id,
+        user_id=db_submission.user_id,
+        topic_id=db_submission.topic_id,
+        audio_url=db_submission.audio_url,
+        duration_seconds=db_submission.duration_seconds,
+        band_score=db_submission.band_score,
+        transcript=transcript,
+        feedback=clean_feedback if clean_feedback is not None else db_submission.feedback,
+        fluency=db_submission.fluency,
+        lexical=db_submission.lexical,
+        grammar=db_submission.grammar,
+        pronunciation=db_submission.pronunciation,
+        submitted_at=str(db_submission.submitted_at),
+    )
 
 
 @router.get("/speaking/submissions/{user_id}", response_model=List[SpeakingSubmissionResponse])
