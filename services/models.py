@@ -504,6 +504,12 @@ class SkillMistake(Base):
     wrong_count = Column(Integer, default=1)
     last_wrong_at = Column(DateTime(timezone=True), server_default=func.now())
     resolved_at = Column(DateTime(timezone=True), nullable=True)
+    # Spaced repetition: a mistake is not shown again until `due_at`, and each correct
+    # review pushes it to the next, longer interval (stage indexes SRS_INTERVALS); a
+    # wrong review drops it back to stage 0. It graduates out (resolved) past the last
+    # stage. Nullable so rows created before SRS existed still behave (treated as due).
+    review_stage = Column(Integer, default=0)
+    due_at = Column(DateTime(timezone=True), nullable=True)
     __table_args__ = (UniqueConstraint("user_id", "question_id", name="uq_user_mistake"),)
 
 

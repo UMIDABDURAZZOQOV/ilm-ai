@@ -170,6 +170,15 @@ def migrate_sqlite_columns():
                 conn.execute(text("ALTER TABLE skilltree_lessons ADD COLUMN theory JSON"))
                 conn.commit()
                 print("Added column: skilltree_lessons.theory")
+
+            # skilltree_mistakes: spaced-repetition scheduling columns.
+            result = conn.execute(text("PRAGMA table_info(skilltree_mistakes)"))
+            m_existing = [row[1] for row in result.fetchall()]
+            if m_existing and "due_at" not in m_existing:
+                conn.execute(text("ALTER TABLE skilltree_mistakes ADD COLUMN review_stage INTEGER DEFAULT 0"))
+                conn.execute(text("ALTER TABLE skilltree_mistakes ADD COLUMN due_at DATETIME"))
+                conn.commit()
+                print("Added columns: skilltree_mistakes.review_stage, due_at")
     except Exception as e:
         print(f"Migration error: {e}")
 
@@ -191,6 +200,9 @@ def migrate_postgres_columns():
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS assistant_count_date VARCHAR(20)",
         # skilltree_lessons may pre-exist from an earlier deploy without `theory`.
         "ALTER TABLE skilltree_lessons ADD COLUMN IF NOT EXISTS theory JSON",
+        # Spaced repetition for the mistakes notebook.
+        "ALTER TABLE skilltree_mistakes ADD COLUMN IF NOT EXISTS review_stage INTEGER DEFAULT 0",
+        "ALTER TABLE skilltree_mistakes ADD COLUMN IF NOT EXISTS due_at TIMESTAMPTZ",
         # Cambridge 21 listening parts are often two audio files, played in order.
         "ALTER TABLE ielts_listening ADD COLUMN IF NOT EXISTS audio_parts JSON",
         # Tables printed in the paper, rebuilt from per-word boxes; "[[7]]" marks a gap.

@@ -377,7 +377,8 @@ def complete_lesson(
     db.refresh(user)
 
     # Mistakes notebook: a wrong answer becomes (or refreshes) an unresolved
-    # mistake; a correct answer resolves any previously recorded one.
+    # mistake, scheduled for spaced-repetition review; a correct answer resolves any
+    # previously recorded one.
     for r in data.results:
         m = db.query(SkillMistake).filter(SkillMistake.user_id == data.user_id, SkillMistake.question_id == r.question_id).first()
         if r.is_correct:
@@ -385,12 +386,16 @@ def complete_lesson(
                 m.resolved_at = now
                 db.add(m)
         else:
+            due = now + timedelta(days=SRS_INTERVALS[0])
             if m:
                 m.wrong_count = (m.wrong_count or 0) + 1
                 m.last_wrong_at = now
                 m.resolved_at = None
+                m.review_stage = 0
+                m.due_at = due
             else:
-                m = SkillMistake(user_id=data.user_id, question_id=r.question_id, wrong_count=1, last_wrong_at=now)
+                m = SkillMistake(user_id=data.user_id, question_id=r.question_id,
+                                 wrong_count=1, last_wrong_at=now, review_stage=0, due_at=due)
             db.add(m)
     db.commit()
 
@@ -455,12 +460,25 @@ def weekly_leaderboard(
 
 # ─── Mistakes notebook (Xatolar daftari) ──────────────────────────────────────
 
+# Spaced repetition: days until a mistake is due again after each correct review.
+# A wrong review drops back to stage 0; graduating past the last stage resolves it.
+SRS_INTERVALS = [1, 3, 7, 16, 35]
+
+
 @router.get("/{user_id}/mistakes")
 def list_mistakes(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    # Only what is due now: an item reviewed correctly is hidden until its next interval,
+    # which is the whole point of spaced repetition. Rows created before SRS have no
+    # due_at and are treated as due.
+    now = datetime.now(timezone.utc)
     mistakes = (
         db.query(SkillMistake)
-        .filter(SkillMistake.user_id == user_id, SkillMistake.resolved_at.is_(None))
-        .order_by(SkillMistake.last_wrong_at.desc())
+        .filter(
+            SkillMistake.user_id == user_id,
+            SkillMistake.resolved_at.is_(None),
+            (SkillMistake.due_at.is_(None)) | (SkillMistake.due_at <= now),
+        )
+        .order_by(SkillMistake.due_at.is_(None).desc(), SkillMistake.due_at.asc())
         .limit(20)
         .all()
     )
@@ -505,16 +523,27 @@ def complete_mistakes_practice(
 
     now = datetime.now(timezone.utc)
     correct = 0
+    graduated = 0
     for r in data.results:
         m = db.query(SkillMistake).filter(SkillMistake.user_id == data.user_id, SkillMistake.question_id == r.question_id).first()
         if not m:
             continue
         if r.is_correct:
-            m.resolved_at = now
             correct += 1
+            stage = (m.review_stage or 0) + 1
+            if stage >= len(SRS_INTERVALS):
+                # Answered right at the longest interval — it has stuck; retire it.
+                m.resolved_at = now
+                graduated += 1
+            else:
+                m.review_stage = stage
+                m.due_at = now + timedelta(days=SRS_INTERVALS[stage])
         else:
+            # Back to the start of the schedule.
             m.wrong_count = (m.wrong_count or 0) + 1
             m.last_wrong_at = now
+            m.review_stage = 0
+            m.due_at = now + timedelta(days=SRS_INTERVALS[0])
         db.add(m)
 
     xp_awarded = min(correct, 10)
@@ -523,10 +552,16 @@ def complete_mistakes_practice(
     db.commit()
     db.refresh(user)
     streak = record_study_activity(data.user_id)
-    remaining = db.query(SkillMistake).filter(SkillMistake.user_id == data.user_id, SkillMistake.resolved_at.is_(None)).count()
+    now2 = datetime.now(timezone.utc)
+    due_remaining = db.query(SkillMistake).filter(
+        SkillMistake.user_id == data.user_id,
+        SkillMistake.resolved_at.is_(None),
+        (SkillMistake.due_at.is_(None)) | (SkillMistake.due_at <= now2),
+    ).count()
     return {
-        "resolved": correct,
-        "remaining": remaining,
+        "resolved": correct,          # answered right this round
+        "graduated": graduated,       # retired from the notebook for good
+        "remaining": due_remaining,   # still due right now
         "xp_awarded": xp_awarded,
         "xp_total": user.xp_total,
         "streak_days": streak.get("streak_days", user.streak_days or 0),
