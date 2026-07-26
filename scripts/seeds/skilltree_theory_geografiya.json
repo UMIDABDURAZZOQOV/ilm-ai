@@ -1,0 +1,1892 @@
+[
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "yer-shakli",
+    "theory": [
+      {
+        "title": "Yerning shakli qanday?",
+        "body": "Yer mukammal shar emas, biroz yassilangan. Uni geoid deb ataymiz – yaʼni, qutblardan bosilgan va ekvatorda qabariqroq boʻlgan shakl. Bu shakl Yerning oʻz oʻqi atrofida aylanishi tufayli paydo boʻladi.",
+        "example": "Aynan shunga oʻxshash shaklni olma yoki mandarin koʻrishingiz mumkin – ular ham qutblardan biroz yassilangan boʻladi."
+      },
+      {
+        "title": "Yerning ekvator radiusi",
+        "body": "Yerning ekvator boʻylab oʻlchangan radiusi (markazdan chetigacha boʻlgan masofa) taxminan 6378 kilometr. Bu qutb radiusi (6357 km)dan bir oz uzunroq, chunki ekvator atrofi qabariqroq.",
+        "example": "Agar ekvator boʻylab Yerni kesib chiqadigan tunnel qazilsa, uning uzunligi 12 756 km boʻladi – bu Yer diametridir."
+      },
+      {
+        "title": "Yerning aylanishi qanday taʼsir qiladi?",
+        "body": "Yer oʻz oʻqi atrofida aylanadi, bu esa markazdan qochma kuch paydo qiladi. Shu tufayli ekvator atrofi qabariq, qutblar esa yassilangan. Aynan shu sababli Yerning shakli geoidga oʻxshaydi.",
+        "example": "Aylanayotgan loy gʻildiragini tasavvur qiling – uning chetlari qabariq, markazi esa yassiroq boʻladi. Yer ham xuddi shunday."
+      },
+      {
+        "title": "Yerning yuzasi maydoni",
+        "body": "Yerning umumiy yuzasi taxminan 510 million kvadrat kilometr. Shundan 71% suv (okeanlar), 29% quruqlik (materiklar va orollar) egallaydi. Bu raqamlar Yerning ulkanligini tushunishga yordam beradi.",
+        "example": "Oʻzbekistonning maydoni 448,9 ming km² – bu Yerning umumiy yuzasining atigi 0,09% ni tashkil qiladi!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "globus-karta",
+    "theory": [
+      {
+        "title": "Globus nima?",
+        "body": "Globus – bu Yer sayyorasining kichik hajmdagi nusxasi. U sharsimon shaklda boʻlib, yer yuzasidagi qitʼalar, okeanlar va boshqa geografik obyektlarni toʻgʻri koʻrsatadi. Globusdan foydalanib, Yer qanday koʻrinishda ekanligini osongina tasavvur qilish mumkin.",
+        "example": "Maktabdagi katta globusni eslaysizmi? Unda Osiyo, Afrika va Amerika qitʼalari qanday joylashganini koʻrishingiz mumkin."
+      },
+      {
+        "title": "Geografik karta nima?",
+        "body": "Geografik karta – bu Yer yuzasining tekis yuzaga (qogʻoz yoki ekran) tushirilgan tasviri. U globusdan farqli ravishda tekis boʻlib, yer yuzasidagi obyektlarni shartli belgilar yordamida koʻrsatadi. Kartalar turli masshtablarda tuzilishi mumkin.",
+        "example": "Maktab darsligidagi Oʻzbekiston xaritasi yoki Google Maps – bularning barchasi geografik kartalar."
+      },
+      {
+        "title": "Masshtab nima?",
+        "body": "Masshtab – bu karta yoki globusdagi masofa bilan haqiqiy yer yuzidagi masofa oʻrtasidagi nisbat. U qanchalik katta boʻlsa, karta shunchalik batafsilroq boʻladi. Masalan, 1:100 000 masshtabda 1 sm karta 1 km haqiqiy masofaga teng.",
+        "example": "Agar karta masshtabi 1:50 000 deb yozilgan boʻlsa, unda 1 sm karta 500 metr haqiqiy masofaga toʻgʻri keladi."
+      },
+      {
+        "title": "Kartaning shartli belgilari",
+        "body": "Kartalarda turli obyektlar maxsus belgilar bilan koʻrsatiladi. Masalan, daryolar koʻk chiziq, yoʻllar qora yoki qizil chiziq, shaharlar esa nuqta yoki doira bilan belgilanadi. Bu belgilar yordamida karta oʻqish osonlashadi.",
+        "example": "Xaritada koʻk chiziqni koʻrsangiz, bilinki – bu daryo. Yashil rangli maydonlar esa oʻrmon yoki bogʻlarni anglatadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "masshtab",
+    "theory": [
+      {
+        "title": "Masshtab nima?",
+        "body": "Masshtab – bu xarita yoki chizma ustida masofani necha marta kichraytirib koʻrsatilganligini bildiradi. Oddiy qilib aytganda, haqiqiy dunyodagi masofa xaritada qanchalik kichik yoki katta koʻrsatilganligini koʻrsatadi. Masalan, 1:100 000 masshtabda 1 sm xaritada 100 000 sm (yoki 1 km) haqiqiy masofaga teng.",
+        "example": "Agar xaritada Toshkent va Samarqand orasi 3 sm boʻlib, masshtab 1:1 000 000 boʻlsa, haqiqiy masofa 30 km boʻladi."
+      },
+      {
+        "title": "Masshtab turlari",
+        "body": "Masshtab ikki turda boʻladi: sonli va chiziqli. Sonli masshtab raqamlar bilan ifodalanadi (masalan, 1:50 000). Chiziqli masshtab esa xaritada chiziq shaklida koʻrsatiladi va unda masofalar bevosita oʻlchanishi mumkin. Ikkalasi ham bir xil maqsadda ishlatiladi – haqiqiy masofani topish uchun.",
+        "example": "Sonli masshtab: 1:100 000. Chiziqli masshtab: xaritada 1 sm = 1 km chiziq chizilgan boʻladi."
+      },
+      {
+        "title": "Katta va kichik masshtab",
+        "body": "Masshtab qanchalik katta boʻlsa, xarita shunchalik batafsilroq boʻladi. Katta masshtab (masalan, 1:10 000) shaharning kichik qismini koʻrsatadi, kichik masshtab (masalan, 1:1 000 000) esa butun mamlakatni yoki qit’ani qamrab oladi. Kichik masshtabda koʻproq joy, lekin kamroq tafsilot boʻladi.",
+        "example": "1:5 000 – katta masshtab (mahalla xaritasi), 1:5 000 000 – kichik masshtab (butun Oʻzbekiston xaritasi)."
+      },
+      {
+        "title": "Masshtabdan foydalanish",
+        "body": "Xaritada masofani hisoblash uchun masshtabdan foydalanamiz. Buning uchun xaritadagi masofani oʻlchab, masshtabga koʻra koʻpaytiramiz. Masalan, 1:200 000 masshtabda 5 sm masofa haqiqatda 5 × 200 000 sm = 10 km boʻladi. Asosiy formul: Haqiqiy masofa = Xaritadagi masofa × Masshtabdagi son.",
+        "example": "Xaritada 4 sm, masshtab 1:50 000 → haqiqiy masofa 4 × 50 000 sm = 2 km."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "geografik-koordinata",
+    "theory": [
+      {
+        "title": "Geografik koordinatalar nima?",
+        "body": "Dunyodagi har bir joyni aniqlash uchun biz geografik koordinatalardan foydalanamiz. Bu koordinatalar ikki son bilan ifodalanadi: kenglik va uzunlik. Ular yer yuzidagi nuqtani aniq topishga yordam beradi, xuddi uy manzili kabi.",
+        "example": "Masalan, Toshkent shahri 41° shimoliy kenglik va 69° sharqiy uzunlikda joylashgan. Bu raqamlar yordamida xaritada Toshkentni topishingiz mumkin."
+      },
+      {
+        "title": "Kenglik chiziqlari",
+        "body": "Kenglik chiziqlari ekvatordan boshlanib, shimol va janubga tomon parallel ravishda chiziladi. Ular 0° (ekvator) dan 90° (qutblar) gacha oʻlchanadi. Kenglik chiziqlari har doim gorizontal boʻlib, yer yuzini „kesib“ oʻtadi.",
+        "example": "Ekvator 0° kenglikda, Shimoliy qutb esa 90° shimoliy kenglikda joylashgan. Moskva shahri 55° shimoliy kenglikda joylashgan."
+      },
+      {
+        "title": "Uzunlik chiziqlari",
+        "body": "Uzunlik chiziqlari shimoliy va janubiy qutblarni birlashtiruvchi vertikal chiziqlardir. Ular 0° (Griniç meridiani) dan boshlanib, sharq va gʻarbga tomon 180° gacha davom etadi. Uzunlik chiziqlari kenglik chiziqlariga perpendikulyar boʻladi.",
+        "example": "Griniç meridiani 0° uzunlikda, Nyu-York shahri esa 74° gʻarbiy uzunlikda joylashgan. Oʻzbekistonning uzunligi asosan sharqiy yarimsharda joylashgan."
+      },
+      {
+        "title": "Koordinatalarni oʻqish",
+        "body": "Geografik koordinatalarni oʻqish uchun avval kenglik, keyin uzunlik koʻrsatiladi. Masalan, 40°N, 70°E — bu 40° shimoliy kenglik va 70° sharqiy uzunlik degani. Koordinatalar yordamida xaritada istalgan nuqtani topishingiz mumkin.",
+        "example": "Samarqand shahri 39° shimoliy kenglik va 66° sharqiy uzunlikda joylashgan. Bu koordinatalar yordamida xaritada Samarqandni topa olasiz."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "kartada-relyef",
+    "theory": [
+      {
+        "title": "Relyef nima?",
+        "body": "Relyef – bu yer yuzasining tekis yoki notekis shakllari. Togʻlar, vodiy, tekisliklar, chuqurliklar – bularning barchasi relyefning turli koʻrinishlari. Har bir relyef shakli tabiatda oʻziga xos koʻrinishga ega va xaritada maxsus belgilar bilan koʻrsatiladi.",
+        "example": "Masalan, togʻlar – bu relyefning baland va tik shakli, tekisliklar esa tekis va keng joylar."
+      },
+      {
+        "title": "Izohipslar nima?",
+        "body": "Izohipslar – bu xaritada bir xil balandlikdagi nuqtalarni birlashtiruvchi chiziqlar. Ular relyefning shaklini va balandligini tushunishga yordam beradi. Izohipslar qanchalik zich joylashsa, relyef shunchalik tik boʻladi.",
+        "example": "Masalan, togʻning tepasiga yaqin joyda izohipslar zichroq, tekislikda esa siyrakroq chiziladi."
+      },
+      {
+        "title": "Relyefni ranglar bilan koʻrsatish",
+        "body": "Xaritalarda relyefni koʻrsatish uchun ranglardan ham foydalaniladi. Odatda, yashil rang pasttekisliklarni, sariq va jigarrang ranglar balandliklarni, koʻk rang esa suv havzalarini bildiradi. Ranglar relyefning baland-pastligini tezda farqlashga yordam beradi.",
+        "example": "Masalan, Oʻzbekiston xaritasida Fargʻona vodiysi yashil, Tyanshan togʻlari esa jigarrang rangda koʻrsatiladi."
+      },
+      {
+        "title": "Sharqiy va gʻarbiy yon bagʻirlar",
+        "body": "Togʻ yoki tepalikning quyosh nuriga qaragan (sharqiy) va qarama-qarshi (gʻarbiy) yon bagʻirlari turlicha boʻladi. Sharqiy yon bagʻirlar odatda quyosh nuri koʻproq tushgani uchun quruqroq, gʻarbiy yon bagʻirlar esa namroq boʻladi. Xaritalarda bu farq relyefning shakli va izohipslarning joylashuvi orqali koʻrinadi.",
+        "example": "Masalan, Hisor togʻlarining sharqiy yon bagʻirlari quruq, gʻarbiy yon bagʻirlari esa koʻproq yomgʻir oladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "karta-turlari",
+    "theory": [
+      {
+        "title": "Karta nima?",
+        "body": "Karta – bu Yer yuzasining yoki uning bir qismining kichraytirilgan va soddalashtirilgan tasviridir. U bizga joylar haqida vizual ma’lumot beradi, masalan, shaharlar, daryolar yoki togʻlar qayerda joylashganini koʻrsatadi. Kartalar turli maqsadlar uchun yaratiladi: yoʻl topish, ob-havo bashorat qilish yoki mamlakatlar chegaralarini oʻrganish.",
+        "example": "Maktab darsligidagi Oʻzbekiston xaritasi – bu mamlakatimizning shaharlari, daryolari va togʻlarini koʻrsatadigan karta. Google Maps ham karta – u sizga yoʻl topishda yordam beradi."
+      },
+      {
+        "title": "Masshtab – karta kattaligi",
+        "body": "Masshtab – bu kartada masofa haqiqiy masofadan necha marta kichikligini koʻrsatadi. Masalan, 1:100 000 masshtabda 1 sm kartada 100 000 sm (yoki 1 km) haqiqiy masofaga teng. Masshtab qanchalik katta boʻlsa, karta shunchalik batafsilroq boʻladi.",
+        "example": "1:50 000 masshtabli karta – 1 sm = 500 m. 1:1 000 000 masshtabli karta – 1 sm = 10 km. Birinchisi shahar xaritasiga, ikkinchisi butun mamlakat xaritasiga mos keladi."
+      },
+      {
+        "title": "Kartografik proyeksiyalar",
+        "body": "Yer sharsimon, lekin karta tekis. Shuning uchun Yer yuzasini tekislikka tushirishda buzilishlar yuz beradi. Proyeksiyalar – bu buzilishlarni minimallashtirish usullari. Har bir proyeksiyada biror narsa (masofa, maydon yoki shakl) toʻgʻri aks etadi, lekin boshqa narsalar buzilishi mumkin.",
+        "example": "Silindrik proyeksiyada (masalan, Merkator) ekvator atrofi aniq, lekin qutblar juda katta koʻrinadi. Konus proyeksiyasi esa oʻrta kengliklar uchun qulay."
+      },
+      {
+        "title": "Kartalar turlari",
+        "body": "Kartalar maqsadiga koʻra turli xil boʻladi. Umumiy geografik kartalar – barcha asosiy obyektlarni koʻrsatadi (daryolar, shaharlar, togʻlar). Maxsus kartalar esa faqat bir narsaga eʼtibor beradi: ob-havo, aholi zichligi yoki yoʻllar. Har bir tur oʻziga xos belgilar va ranglar bilan ajralib turadi.",
+        "example": "Ob-havo xaritasi – bulutlar, yogʻinlar va shamol yoʻnalishini koʻrsatadi. Siyosiy karta – davlatlar chegaralari va poytaxtlarni. Turistik karta – diqqatga sazovor joylar va mehmonxonalarni."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "quyosh-sistemasi",
+    "theory": [
+      {
+        "title": "Quyosh sistemasi nima?",
+        "body": "Quyosh sistemasi – bu Quyosh va uning atrofida aylanib yuruvchi barcha jismlar (sayyoralar, yoʻldoshlar, asteroidlar va boshqalar) majmuasi. Buni Quyoshning „oilasi“ deb tasavvur qilsangiz boʻladi. Barcha sayyoralar Quyoshning tortishish kuchi tufayli uning atrofida aylanadi.",
+        "example": "Misol uchun, Yer Quyosh sistemasining bir qismi, chunki u Quyosh atrofida aylanadi. Yana bir misol – Oy, u Yer atrofida aylanadi, lekin bevosita Quyosh sistemasiga ham kiradi."
+      },
+      {
+        "title": "Yer sayyorasi qanday joylashgan?",
+        "body": "Yer Quyosh sistemasida Quyoshdan uzoqligi boʻyicha uchinchi sayyora. Quyoshdan taxminan 150 million kilometr uzoqlikda joylashgan. Bu masofa „astronomik birlik“ deb ataladi va Quyosh sistemasidagi masofalarni oʻlchash uchun ishlatiladi.",
+        "example": "Misol uchun, Merkuriy Quyoshga eng yaqin (1-pozitsiya), Venera ikkinchi, Yer esa uchinchi oʻrinda. Mars esa toʻrtinchi oʻrinda joylashgan."
+      },
+      {
+        "title": "Yer nega aylanadi?",
+        "body": "Yer ikki xil harakat qiladi: oʻz oʻqi atrofida va Quyosh atrofida. Oʻz oʻqi atrofida aylanishi tufayli kun va tun paydo boʻladi. Quyosh atrofida aylanishi esa yil fasllarini keltirib chiqaradi. Bu harakatlar Yerga hayot uchun qulay sharoit yaratadi.",
+        "example": "Oʻz oʻqi atrofida aylanishi: 24 soat ichida Yer bir marta aylanadi – shuning uchun kun va tun almashinadi. Quyosh atrofida aylanishi: 365 kun (1 yil) davomida Yer Quyosh atrofida bir marta toʻliq aylanadi."
+      },
+      {
+        "title": "Quyosh va Yer orasidagi masofa qanday oʻlchanadi?",
+        "body": "Quyosh va Yer orasidagi masofa „astronomik birlik“ (AB) bilan oʻlchanadi. 1 AB taxminan 150 million kilometrga teng. Bu oʻlchov Quyosh sistemasidagi boshqa masofalarni tushunish uchun ham ishlatiladi.",
+        "example": "Misol uchun, Mars Quyoshdan 1,5 AB uzoqlikda joylashgan, yaʼni Yerga qaraganda 1,5 baravar uzoqroq. Yupiter esa 5,2 AB masofada – deyarli 5 baravar uzoqroq!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "yer-oz-oqi-aylanishi",
+    "theory": [
+      {
+        "title": "Yerning aylanishi nima?",
+        "body": "Yer doimiy ravishda oʻz oʻqi atrofida aylanib turadi – bu oʻq shimoldan janubga oʻtgan xayoliy chiziq. Aylanish shimoldan qaraganda soat mili yoʻnalishiga teskari boʻlib, bir toʻliq aylanish 24 soat davom etadi. Shu sababli kun va tun almashinib turadi.",
+        "example": "Aylanmasdan turib, siz bir joyda turasiz, lekin Yer aylanayotgani uchun quyosh chiqib, botadi – bu kun va tunning paydo boʻlishi."
+      },
+      {
+        "title": "Kun va tun qanday paydo boʻladi?",
+        "body": "Yer aylanayotganida Quyosh nuri faqat uning bir tomonini yoritadi. Yoritilgan tomon – kun, qorongʻi tomon esa tun boʻladi. Yer aylanishi tufayli bu tomonlar doim oʻzgarib turadi. Aylanish tezligi sababli kun va tun har doim 24 soat davom etmaydi, lekin oʻrtacha shunday.",
+        "example": "Oʻzbekistonda quyosh chiqsa, AQShda tun boʻladi. 12 soatdan keyin esa aksincha – chunki Yer aylanib, quyosh nuri boshqa tomonni yoritadi."
+      },
+      {
+        "title": "Koriolis effekti nima?",
+        "body": "Yerning aylanishi tufayli harakatlanuvchi jismlar (masalan, shamol yoki daryolar) Shimoliy yarimsharda oʻngga, Janubiy yarimsharda chapga ogʻadi. Bu hodisani Koriolis effekti deyiladi. U ob-havo va okean oqimlariga katta taʼsir qiladi.",
+        "example": "Shimoliy yarimsharda dovullar doimo soat mili yoʻnalishida aylanadi, Janubiy yarimsharda esa teskari – bu Koriolis effekti tufayli."
+      },
+      {
+        "title": "Yerning aylanishi tezligi qayerda katta?",
+        "body": "Yer aylanish tezligi ekvatorda eng katta – taxminan 1670 km/soat. Qutblarga yaqinlashgan sari bu tezlik kamayib boradi, chunki aylanish doirasi kichrayadi. Qutblarda esa tezlik deyarli nolga teng – u yerda Yer faqat aylanadi, lekin siljimaydi.",
+        "example": "Ekvator yaqinidagi kema tezroq harakatlanayotganga oʻxshaydi, chunki Yer ham u yerda tezroq aylanadi. Qutbda esa siz bir joyda aylanib turasiz."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "yer-quyosh-aylanishi",
+    "theory": [
+      {
+        "title": "Yerning elliptik orbita",
+        "body": "Yer Quyosh atrofida aylanadi, lekin bu aylanish mukammal doira emas. Orbita choʻziq shaklda – elliptik deb ataladi. Shu sababli, Yer Quyoshdan baʼzi vaqtlarda yaqinroq, baʼzida uzoqroq boʻladi. Lekin bu masofa farqi fasllarning oʻzgarishiga sabab boʻlmaydi, faqat Quyosh nurining ozgina kuchliroq yoki kuchsizroq boʻlishiga taʼsir qiladi.",
+        "example": "Masalan, yanvar oyida Yer Quyoshga eng yaqin (147 million km), iyulda esa eng uzoq (152 million km) boʻladi. Lekin shu vaqtda Shimoliy yarimsharda qish, Janubiy yarimsharda yoz boʻladi – bu elliptik orbitadan emas, Yerning oʻqining ogʻishi sabab."
+      },
+      {
+        "title": "Yerning oʻqi doimo bir tomonga ogʻgan",
+        "body": "Yer Quyosh atrofida aylanar ekan, uning oʻqi (shimol va janub qutblarini bogʻlaydigan xayoliy chiziq) doimo bir tomonga – taxminan Shimoliy Yulduzga qarab ogʻgan holda qoladi. Bu ogʻish 23,5° ga teng. Aynan shu ogʻish fasllarning paydo boʻlishiga sabab boʻladi: bir yarimshar Quyosh nurini tikroq olsa, u yerda yoz, boshqa yarimsharda esa qish boʻladi.",
+        "example": "Oʻyinchoq globusni qoʻlingizga oling. Uni bir tomonga ogʻdirib, Quyosh (masalan, lampani) atrofida aylantiring. Globusning bir tomoni doimo Quyoshga yaqinroq boʻladi – bu yoz, boshqa tomoni esa uzoqroq – bu qish."
+      },
+      {
+        "title": "Fasllarning sababi – nur burchagi",
+        "body": "Fasllar Yerning Quyoshdan masofasi bilan emas, balki Quyosh nurlarining yerga tushish burchagi bilan bogʻliq. Yerning oʻqi ogʻgani uchun, bir yarimshar tikroq nur oladi (yoz), boshqa yarimshar esa qiya nur oladi (qish). Tik nurlar koʻproq issiqlik beradi, chunki ular kichikroq maydonga toʻplanadi. Qiya nurlar esa katta maydonga tarqaladi va kamroq isitadi.",
+        "example": "Fonar nurini stolga tik tushirib koʻring – yorugʻ doira kichik va yorqin boʻladi. Endi fonarni qiyalab tuting – nur katta maydonga tarqaladi va xira boʻladi. Xuddi shunday, yozda Quyosh nuri tikroq tushadi va koʻproq isitadi."
+      },
+      {
+        "title": "Kun va tun tengligi – ekvinoksiya",
+        "body": "Yil davomida ikki marta – bahorda (20-21 mart) va kuzda (22-23 sentabr) – Yerning oʻqi Quyoshga nisbatan perpendikulyar boʻladi. Bu kunlarda kun va tun butun dunyoda teng – 12 soatdan. Bu hodisani ekvinoksiya (kun-tun tengligi) deb ataymiz. Ekvinoksdan keyin bir yarimsharda kun uzaya boshlaydi (yozga tomon), boshqa yarimsharda qisqara boshlaydi (qishga tomon).",
+        "example": "Oʻzbekistonda bahor ekvinoksida (21 mart) quyosh chiqishi va botishi orasidagi vaqt 12 soat boʻladi. Shu kuni ekvatorda Quyosh peshin vaqtida toʻgʻridan-toʻgʻri boshimiz ustida boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "vaqt-mintaqalari",
+    "theory": [
+      {
+        "title": "Vaqt mintaqasi nima?",
+        "body": "Yer sharini 24 ta qismga boʻlib, har bir qismda vaqt bir xil boʻladi. Har bir bunday qismni vaqt mintaqasi deyiladi. Bunda Yer oʻz oʻqi atrofida aylanishi sababli quyosh turli joylarda turli vaqtlarda chiqadi va botadi.",
+        "example": "Masalan, Toshkent va Moskva bir vaqt mintaqasida emas. Toshkentda soat 12:00 boʻlsa, Moskvada 10:00 boʻladi."
+      },
+      {
+        "title": "Vaqt mintaqalari nechta?",
+        "body": "Yer sharida jami 24 ta vaqt mintaqasi mavjud. Har bir mintaqa 15 daraja uzunlikka ega, chunki Yer 24 soatda 360 daraja aylanadi (360:24=15). Har bir mintaqa bir soat farq qiladi.",
+        "example": "Masalan, Toshkent UTC+5 vaqt mintaqasida joylashgan, yaʼni Greenwichdan 5 soat oldinda."
+      },
+      {
+        "title": "Vaqt mintaqalari chegaralari",
+        "body": "Vaqt mintaqalari toʻgʻri chiziqlar boʻylab emas, davlat chegaralari va tabiiy obyektlar (daryolar, togʻlar) boʻylab oʻtadi. Bu odamlarning hayotini qulay qilish uchun qilinadi. Shuning uchun baʼzi davlatlar bir necha vaqt mintaqalariga boʻlinishi mumkin.",
+        "example": "Masalan, Rossiya 11 ta vaqt mintaqasiga ega, AQSh esa 6 ta vaqt mintaqasiga boʻlingan."
+      },
+      {
+        "title": "Yozgi vaqt nima?",
+        "body": "Baʼzi davlatlar yozda soatlarni bir soat oldinga surishadi, bu yozgi vaqt deb ataladi. Buning maqsadi quyosh nuridan koʻproq foydalanish va energiya tejash. Kuzda esa soatlar yana bir soat orqaga qaytariladi.",
+        "example": "Masalan, Yevropaning koʻp mamlakatlarida yozda soat bir soat oldinga suriladi, Oʻzbekistonda esa bunday amaliyot yoʻq."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "kartografiya-astronomik",
+    "lesson_slug": "oy-tutilishlar",
+    "theory": [
+      {
+        "title": "Oy nima?",
+        "body": "Oy – Yer sayyorasining yagona tabiiy yo‘ldoshi. U Yer atrofida aylanib, kechalari osmonda ko‘rinadi. Oy o‘zining yorug‘ligini Quyosh nuridan oladi, o‘zi nur chiqarmaydi. Uning yuzasi tosh va chang bilan qoplangan.",
+        "example": "Tunda osmonda katta yorug‘ doira ko‘rsang, bilki bu Oy! U Quyosh nurini aks ettirib, kechalari yorqin ko‘rinadi."
+      },
+      {
+        "title": "Oy fazalari qanday?",
+        "body": "Oy Yer atrofida aylanar ekan, uning Quyoshga qaragan tomonining turli qismlari yorug‘lanadi. Shu sababli Oy turli shakllarda ko‘rinadi: yangi oy, yarim oy, to‘lin oy va hokazo. Bu o‘zgarishlar Oy fazalari deyiladi.",
+        "example": "Yangi oy paytida Oy deyarli ko‘rinmaydi, to‘lin oyda esa butunlay yorug‘ doira ko‘rinadi. Yarim oyda esa faqat yarmi ko‘rinadi."
+      },
+      {
+        "title": "Quyosh tutilishi qanday sodir bo‘ladi?",
+        "body": "Quyosh tutilishi – Oy Quyosh va Yer orasiga kirib, Quyosh nurini to‘sib qo‘yganda sodir bo‘ladi. Bu paytda Oyning soyasi Yerga tushadi va Quyosh qorayib qoladi. Faqat Oy yangi oy fazasida bo‘lganida mumkin.",
+        "example": "Quyosh tutilishi paytida osmonda Quyosh qorayib, atrof qorong‘ilashadi. Bu hodisa kamdan-kam takrorlanadi va faqat ma‘lum joylarda ko‘rinadi."
+      },
+      {
+        "title": "Oy tutilishi qanday sodir bo‘ladi?",
+        "body": "Oy tutilishi – Yer Quyosh va Oy orasiga kirib, Quyosh nurini Oyga tushishiga to‘sqinlik qilganda sodir bo‘ladi. Bu paytda Oy Yer soyasiga kirib, qizil-jigarrang rangda ko‘rinadi. Faqat to‘lin oy fazasida mumkin.",
+        "example": "Oy tutilishi paytida Oy qizil rangda ko‘rinadi, chunki Yer atmosferasi Quyosh nurining faqat qizil qismini Oyga yo‘naltiradi. Bu hodisa ko‘proq joylarda ko‘rinadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "yer-ichki-tuzilishi",
+    "theory": [
+      {
+        "title": "Yerning qatlamlari",
+        "body": "Yer ichi uchta asosiy qatlamdan iborat: poʻst, mantiy va yadro. Har bir qatlamning oʻziga xos xususiyatlari bor. Eng ustki qatlam — poʻst, undan keyin mantiy, eng ichida esa yadro joylashgan. Bu qatlamlar bir-biridan zichligi va tarkibi bilan farq qiladi.",
+        "example": "Masalan, tuxumni oling: poʻst — tuxum poʻchogʻi, mantiy — oqsil, yadro — sariq qismi kabi."
+      },
+      {
+        "title": "Yer poʻsti nima?",
+        "body": "Yer poʻsti — bu Yer yuzasining eng ustki, qattiq qatlami. U quruqlikda (materik poʻsti) va okean ostida (okean poʻsti) farq qiladi. Materik poʻsti qalinroq (30-70 km), okean poʻsti esa yupqaroq (5-10 km) boʻladi.",
+        "example": "Masalan, togʻlar materik poʻstining bir qismi, okean tubi esa okean poʻstidan iborat."
+      },
+      {
+        "title": "Mantiy va uning roli",
+        "body": "Mantiy — Yer poʻsti ostidagi qalin qatlam (2900 km gacha). U qattiq, lekin asta-sekin harakatlanadigan jinslardan iborat. Mantiyda issiqlik va bosim taʼsirida konveksiya oqimlari paydo boʻladi, bu esa tektonik plitalarning harakatlanishiga sabab boʻladi.",
+        "example": "Mantiy harakati tufayli qitʼalar asta-sekin siljiydi, masalan, Afrika va Janubiy Amerika bir-biridan uzoqlashmoqda."
+      },
+      {
+        "title": "Yadro: ichki va tashqi",
+        "body": "Yadro — Yer markazidagi eng issiq va zich qatlam. U ikki qismdan iborat: tashqi yadro (suyuq holatda) va ichki yadro (qattiq holatda). Tashqi yadro harakati Yer magnit maydonini hosil qiladi, bu esa bizni kosmik nurdan himoya qiladi.",
+        "example": "Magnit kompas ignasi shimolga qaraydi, chunki Yer magnit maydoni tashqi yadro harakati tufayli paydo boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "minerallar-togh-jinslari",
+    "theory": [
+      {
+        "title": "Mineral nima?",
+        "body": "Minerallar — tabiatda uchraydigan, kimyoviy tarkibi va tuzilishi bir xil boʻlgan qattiq jismlar. Ular yer poʻstida toshlar tarkibida yoki alohida holda uchraydi. Har bir mineralning oʻziga xos rangi, shakli va qattiqligi bor. Masalan, olmos eng qattiq mineral hisoblanadi.",
+        "example": "Tuz (galit) — mineral, kvars (qumning asosiy qismi) ham mineral."
+      },
+      {
+        "title": "Togʻ jinslari qanday hosil boʻladi?",
+        "body": "Togʻ jinslari minerallarning birlashuvi natijasida hosil boʻladi. Ular uch xil yoʻl bilan paydo boʻladi: magmatik (erigan lava soviganda), choʻkindi (daryo, shamol, muz taʼsirida) va metamorfik (issiq yoki bosim taʼsirida oʻzgarib). Har bir togʻ jinsi oʻziga xos tuzilishga ega.",
+        "example": "Granit — magmatik togʻ jinsi, ohak toshi — choʻkindi togʻ jinsi."
+      },
+      {
+        "title": "Magmatik togʻ jinslari",
+        "body": "Magmatik togʻ jinslari Yer ichidagi erigan magma (lava) soviganda hosil boʻladi. Agar magma yer yuzasiga chiqib sovisa — vulkanik jinslar (masalan, bazalt), agar chuqurda sekin sovisa — intruziv jinslar (masalan, granit) paydo boʻladi. Ular odatda qattiq va donador boʻladi.",
+        "example": "Bazalt — yoʻllar qurishda ishlatiladi, granit — meʼmorlikda."
+      },
+      {
+        "title": "Choʻkindi togʻ jinslari",
+        "body": "Choʻkindi togʻ jinslari suv, shamol yoki muz taʼsirida mayda zarrachalar choʻkib, vaqt oʻtishi bilan qattiqlashganda hosil boʻladi. Ular qatlamli tuzilishga ega boʻlib, koʻpincha qazilma qoldiqlar (masalan, toshkoʻmir, neft) saqlaydi. Bu jinslar Yer yuzasining 75% ni egallaydi.",
+        "example": "Ohak toshi — qurilishda ishlatiladi, qum — shisha ishlab chiqarishda."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "litosfera-plitalari",
+    "theory": [
+      {
+        "title": "Litosfera nima?",
+        "body": "Litosfera – bu Yer poʻstining qattiq, tashqi qatlami. U toshlar, togʻ jinslari va yer yuzasining ustki qismidan iborat. Xuddi tuxum poʻchogʻi kabi, u Yerni qoplab turadi va doimiy harakatda boʻladi.",
+        "example": "Masalan, togʻlar, tekisliklar va okean tubi – bularning barchasi litosferaning bir qismidir."
+      },
+      {
+        "title": "Litosfera plitalari",
+        "body": "Litosfera birdan-bir boʻlmagan, balki katta-kichik boʻlaklarga – plitalarga boʻlingan. Ular suzib yuruvchi ulkan tosh parchalari kabi, asta-sekin harakat qiladi. Har bir plita bir necha ming kilometrga choʻzilgan boʻlishi mumkin.",
+        "example": "Masalan, Tinch okean plitasi yoki Yevroosiyo plitasi – dunyodagi eng katta plitalardan ikkitasi."
+      },
+      {
+        "title": "Plitalar qanday harakat qiladi?",
+        "body": "Plitalar Yer mantiyasidagi issiq, suyuq jinslar (magma) oqimi taʼsirida harakatlanadi. Ular bir-biriga yaqinlashishi, uzoqlashishi yoki yonma-yon sirgʻalib oʻtishi mumkin. Bu harakatlar millionlab yillar davomida davom etadi.",
+        "example": "Masalan, Janubiy Amerika va Afrika plitalari bir-biridan uzoqlashib, Atlantika okeanini kengaytirmoqda."
+      },
+      {
+        "title": "Plitalar toʻqnashganda nima boʻladi?",
+        "body": "Plitalar toʻqnashganda katta kuchlar paydo boʻladi. Agar ikki qitʼa plitasi toʻqnashsa, togʻlar hosil boʻladi. Agar okean plitasi qitʼa plitasiga kirib ketsa, zilzila yoki vulqonlar paydo boʻlishi mumkin.",
+        "example": "Masalan, Hindiston plitasi Yevroosiyo plitasiga toʻqnashib, Himolay togʻlarini hosil qilgan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "zilzilalar",
+    "theory": [
+      {
+        "title": "Zilzila nima?",
+        "body": "Zilzila – bu Yerning ichki qatlamlarida toshlar birdan sinishi yoki siljishi natijasida paydo boʻladigan tebranishlar. Bu tebranishlar yer yuzasida silkinishlar shaklida seziladi. Odatda, zilzilalar yer ostidagi kuchli bosim tufayli yuzaga keladi.",
+        "example": "Masalan, 1966-yilda Toshkentda kuchli zilzila sodir boʻlib, koʻplab binolar shikastlangan. Yoki, 2011-yildagi Yaponiyadagi zilzila tsunamiga sabab boʻlgan."
+      },
+      {
+        "title": "Zilzila oʻchogʻi va epitsentr",
+        "body": "Zilzila oʻchogʻi – bu yer ostida zilzila boshlanadigan joy. Epitsentr esa oʻchogʻning toʻgʻridan-toʻgʻri yer yuzasidagi nuqtasi. Epitsentrda zilzila eng kuchli seziladi, uzoqlashgan sari uning kuchi pasayadi.",
+        "example": "Masalan, zilzila oʻchogʻi 10 km chuqurlikda boʻlsa, epitsentr shu nuqtaning yer yuzasidagi proyeksiyasidir. 2003-yildagi Bam (Eron) zilzilasida epitsentr shahar markazida joylashgan edi."
+      },
+      {
+        "title": "Zilzila magnitudasi",
+        "body": "Magnituda – zilzila energiyasini oʻlchaydigan shkala. Eng mashhuri Richter shkalasi boʻlib, 1 dan 10 gacha raqamlar bilan ifodalanadi. Har bir raqam oldingisidan 10 baravar kuchliroq zilzilani anglatadi.",
+        "example": "Masalan, 5 magnitudali zilzila yengil silkinishlarni keltirib chiqaradi, 7 magnitudali esa jiddiy vayronagarchilikka sabab boʻladi. 2010-yildagi Gaitidagi 7 magnitudali zilzila minglab odamlarning hayotiga zomin boʻldi."
+      },
+      {
+        "title": "Zilzila oldi belgilari",
+        "body": "Zilziladan oldin baʼzi tabiiy hodisalar kuzatilishi mumkin: yer ostidan gʻalati tovushlar eshitiladi, hayvonlar bezovtalanadi, quduqlardagi suv sathi oʻzgaradi. Biroq, bular har doim ham ishonchli belgilar emas.",
+        "example": "Masalan, Xitoyda 1975-yilda hayvonlarning gʻalati xatti-harakatlari tufayli zilzila oldindan bashorat qilingan va odamlar evakuatsiya qilingan. Ammo 2008-yildagi Sichuan zilzilasi oldin hech qanday ogohlantirishsiz sodir boʻldi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "vulqonlar",
+    "theory": [
+      {
+        "title": "Vulqon nima?",
+        "body": "Vulqon – bu Yer poʻstidagi yoriq yoki teshik boʻlib, undan erigan togʻ jinslari (magma), gazlar va kul chiqadi. Ular odatda togʻ shaklida boʻladi, lekin baʼzilari tekislikda ham uchraydi. Vulqonlar Yer ichidagi issiqlik va bosim natijasida paydo boʻladi.",
+        "example": "Yaponiyadagi Fuji togʻi va Italiyadagi Vezuviy vulqoni shunday togʻlardir."
+      },
+      {
+        "title": "Magma va lava farqi",
+        "body": "Magma – bu Yer ichidagi erigan togʻ jinsi. U vulqon ogʻzidan chiqib, yer yuzasiga yetganda lava deb ataladi. Magma yer ostida, lava esa yer ustida boʻladi. Lava sovigach, qattiq togʻ jinsiga aylanadi.",
+        "example": "Gavayi orollaridagi Kilauea vulqonidan oqayotgan qizil oqim – lava. Yer ostidagi erigan jins esa magma."
+      },
+      {
+        "title": "Vulqon turlari",
+        "body": "Vulqonlar faol, uxlab yotgan va oʻlik turlarga boʻlinadi. Faol vulqonlar tez-tez otilib turadi. Uxlab yotganlar uzoq vaqt otilmagan, lekin kelajakda otilishi mumkin. Oʻlik vulqonlar esa ming yillar davomida otilmagan va endi xavfli emas.",
+        "example": "Faol: Kilauea (Gavayi). Uxlab yotgan: Yellowstone (AQSh). Oʻlik: Kilimanjaro (Tanzaniya)."
+      },
+      {
+        "title": "Vulqon otilishining oqibatlari",
+        "body": "Vulqon otilishi atrof-muhitga katta zarar yetkazishi mumkin: kul va gazlar havoni ifloslantiradi, lava qishloqlarni vayron qiladi, yer silkinishi va sunami paydo boʻlishi mumkin. Ammo vulqonlar yangi yerlar hosil qiladi va tuproqni unumdor qiladi.",
+        "example": "1883-yilda Krakatau vulqoni otilishi natijasida Indoneziyada katta sunami sodir boʻldi. Ammo vulqon kulidan hosil boʻlgan tuproqlar qishloq xoʻjaligiga foydali."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "yer-relyefi",
+    "theory": [
+      {
+        "title": "Relyef nima?",
+        "body": "Relyef – bu Yer yuzasining turli shakllari, ya’ni togʻlar, tekisliklar, vodiylar va boshqa notekisliklar. Oddiy qilib aytganda, relyef Yer yuzasining „qiyofasi“. U tabiiy kuchlar (suv, shamol, zilzila) va inson faoliyati natijasida oʻzgarib turadi.",
+        "example": "Masalan, togʻlar relyefning baland qismlari, choʻllar esa tekis yoki biroz tepalikli relyefga misol boʻladi."
+      },
+      {
+        "title": "Relyefning asosiy turlari",
+        "body": "Relyefni asosan ikki katta turga ajratish mumkin: **togʻ relyefi** (baland, tik yon bagʻirli) va **tekislik relyefi** (tekis yoki biroz tepalikli). Bundan tashqari, oraliq shakllar ham bor, masalan, plato yoki tepaliklar.",
+        "example": "Himolay togʻlari – togʻ relyefi, Oʻzbekistonning Fargʻona vodiysi esa tekislik relyefiga misol."
+      },
+      {
+        "title": "Relyefni shakllantiruvchi kuchlar",
+        "body": "Relyefni ikki turdagi kuchlar yaratadi: **ichki kuchlar** (zilzila, vulkanlar, tektonik harakatlar) va **tashqi kuchlar** (suv, shamol, muz). Ichki kuchlar relyefni „koʻtaradi“ yoki „yoriydi“, tashqi kuchlar esa uni „yemiradi“ yoki „tekislaydi“.",
+        "example": "Zilzila natijasida togʻlar paydo boʻlishi – ichki kuchlar, daryolar vodiyni oʻyib tekislashi – tashqi kuchlar taʼsiri."
+      },
+      {
+        "title": "Relyefning inson hayotiga taʼsiri",
+        "body": "Relyef inson hayotida katta rol oʻynaydi: qishloq xoʻjaligi, transport, shahar qurilishi va hatto iqlimga ham taʼsir qiladi. Masalan, togʻli joylarda yoʻllar qurish qiyin, tekisliklarda esa dehqonchilik osonroq.",
+        "example": "Shveytsariyadagi togʻli relyef temir yoʻllarni tunnellar orqali qurishga majbur qiladi, Oʻzbekistondagi tekisliklar esa paxta yetishtirishga qulay."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "toghlar",
+    "theory": [
+      {
+        "title": "Tog' nima?",
+        "body": "Tog' – bu yer yuzasining baland, tik va keng joy egallagan qismi. U tekisliklardan farqli ravishda ancha baland koʻtarilib, atrofidan ajralib turadi. Togʻlar tabiatning ulkan va goʻzal shakllaridan biri boʻlib, odatda 600 metrdan baland boʻladi.",
+        "example": "Masalan, Oʻzbekistondagi Chimyon togʻi yoki dunyodagi eng baland togʻ – Everest (Jomolungma)."
+      },
+      {
+        "title": "Tog'lar qanday hosil bo'ladi?",
+        "body": "Togʻlar asosan tektonik harakatlar natijasida paydo boʻladi. Yer poʻstining harakatlanishi, plitalarning bir-biriga urilishi yoki choʻzilishi natijasida yer yuzasi bukiladi va togʻlar shakllanadi. Bu jarayon millionlab yillar davom etadi.",
+        "example": "Masalan, Himolay togʻlari Hindiston plitasi Yevroosiyo plitasiga urilishi natijasida paydo boʻlgan."
+      },
+      {
+        "title": "Tog'larning turlari",
+        "body": "Togʻlar paydo boʻlishiga koʻra bir necha turga boʻlinadi: **burmali togʻlar** (plitalar urilganda hosil boʻladi), **vulqon togʻlari** (vulqon otilishi natijasida paydo boʻladi) va **blokli togʻlar** (yer poʻstining sinishi va koʻtarilishi bilan hosil boʻladi). Har bir turining oʻziga xos xususiyatlari bor.",
+        "example": "Burmali togʻlar: Himolay. Vulqon togʻi: Yaponiyadagi Fudziyama. Blokli togʻlar: Germaniyadagi Garz togʻlari."
+      },
+      {
+        "title": "Tog'larning ahamiyati",
+        "body": "Togʻlar tabiat va inson hayotida katta ahamiyatga ega. Ular suv manbalari (daryolar, muzliklar), biologik xilma-xillik (noyob oʻsimliklar va hayvonlar), mineral resurslar (oltin, kumush, koʻmir) manbai hisoblanadi. Shuningdek, togʻlar turizm va sport uchun ham muhimdir.",
+        "example": "Masalan, Oʻzbekistondagi Chatqol togʻlari mineral resurslarga boy, Chimyon togʻi esa sayyohlar uchun mashhur joy."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "tekisliklar",
+    "theory": [
+      {
+        "title": "Tekislik nima?",
+        "body": "Tekislik – bu yer yuzasining tekis yoki deyarli tekis qismi. U yer qa’rida togʻlar yoki chuqurlar boʻlmaydi, shuning uchun odamlar bu yerlarda osonlikcha yashaydilar va dehqonchilik qiladilar. Tekisliklar tabiatning eng qulay joylaridan biri!",
+        "example": "Masalan, O‘zbekistonning Farg‘ona vodiysi yoki Rossiyaning Gʻarbiy Sibir tekisligi shunday joylardir."
+      },
+      {
+        "title": "Tekisliklar qanday hosil boʻladi?",
+        "body": "Tekisliklar asosan ikki yoʻl bilan paydo boʻladi: birinchisi, daryolar va shamol yillar davomida togʻlarni yemirib, tekislab qoʻyadi. Ikkinchisi, dengizlar yoki koʻllar tubida choʻkindilar toʻplanib, keyin suv chekinganda tekislik hosil boʻladi.",
+        "example": "Masalan, Amudaryo va Sirdaryo yillar davomida togʻlarni yemirib, Markaziy Osiyo tekisliklarini yaratgan."
+      },
+      {
+        "title": "Tekisliklarning turlari",
+        "body": "Tekisliklar balandligiga qarab ikki turga boʻlinadi: pasttekisliklar (dengiz sathidan 200 metr balandlikdan past) va balandtekisliklar (200 metrdan yuqori). Pasttekisliklarda odatda iqlim yumshoqroq, balandtekisliklarda esa sovuqroq boʻladi.",
+        "example": "Masalan, Kaspiy boʻyi pasttekisligi (pasttekislik) va Pomir balandtekisligi (balandtekislik) shular jumlasidan."
+      },
+      {
+        "title": "Tekisliklarning ahamiyati",
+        "body": "Tekisliklar inson hayotida juda muhim: bu yerlarda qishloq xoʻjaligi, shaharlar, yoʻllar va zavodlar qurish oson. Shuningdek, tekisliklar tabiiy resurslarga boy boʻlib, neft, gaz va minerallar topiladi. Lekin ba’zan suv toshqinlari ham boʻladi.",
+        "example": "Masalan, O‘zbekistonning paxta yetishtiriladigan yerlari asosan tekisliklarda joylashgan. Yana Misrning Nil daryosi boʻyidagi tekisliklari ming yillar davomida dehqonchilik uchun muhim boʻlgan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "tashqi-kuchlar",
+    "theory": [
+      {
+        "title": "Tashqi kuchlar nima?",
+        "body": "Relyefni oʻzgartiruvchi tashqi kuchlar – bu Yer yuzasiga taʼsir qiluvchi tabiiy jarayonlar. Ular togʻlarni yemiradi, tekisliklarni hosil qiladi va yer yuzasini doimiy ravishda oʻzgartirib turadi. Asosan quyosh energiyasi va gravitatsiya taʼsirida ishlaydi.",
+        "example": "Yomgʻir, shamol, daryolar, muzliklar – bularning barchasi tashqi kuchlardir. Masalan, daryo toshqin paytida qirgʻoqlarni yuvib, yangi relyef shakllarini yaratadi."
+      },
+      {
+        "title": "Yemirilish (denudatsiya)",
+        "body": "Yemirilish – bu togʻ jinslarining shamol, suv, muz yoki harorat oʻzgarishi taʼsirida parchalanishi va maydalanishi. Bu jarayon relyefni asta-sekin tekislab, pasttekisliklarni hosil qiladi. Ikki turi bor: fizikaviy va kimyoviy yemirilish.",
+        "example": "Qoyalar issiq kunda kengayib, sovuqda qisqarganda yoriladi – bu fizikaviy yemirilish. Yomgʻir suvi ohakli togʻ jinslarini eritib, gʻorlar hosil qiladi – bu kimyoviy yemirilish."
+      },
+      {
+        "title": "Akumulatsiya (toʻplanish)",
+        "body": "Akumulatsiya – bu yemirilgan jinslar, qum, loy va boshqa materiallarning suv, shamol yoki muz yordamida boshqa joyga koʻchib, toʻplanishi. Natijada yangi relyef shakllari paydo boʻladi, masalan, daryo deltalari yoki qum tepalari.",
+        "example": "Amudaryo va Sirdaryo deltalari – daryolar yil davomida olib kelgan loy va qumning toʻplanishi natijasida hosil boʻlgan. Sahrodagi qumtepalar esa shamol akkumulyatsiyasining natijasidir."
+      },
+      {
+        "title": "Eroziya va uning turlari",
+        "body": "Eroziya – bu suv, shamol yoki muzning yer yuzasini yemirib, jinslarni koʻchirishi. U relyefni chuqurlashtiradi, vodiylar, jarliklar va kanʼonlar hosil qiladi. Asosiy turlari: suv eroziyasi, shamol eroziyasi va muzlik eroziyasi.",
+        "example": "Daryolar togʻ jinslarini yemirib, chuqur kanʼonlar (masalan, AQShdagi Grand Kanʼon) hosil qiladi – bu suv eroziyasi. Sahroda shamol qumni uchirib, toshlarni sayqallaydi – bu shamol eroziyasi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "litosfera",
+    "lesson_slug": "foydali-qazilmalar",
+    "theory": [
+      {
+        "title": "Foydali qazilmalar nima?",
+        "body": "Foydali qazilmalar – bu yer qobigʻida tabiiy holda hosil boʻlgan va inson uchun foydali boʻlgan minerallar yoki togʻ jinslari. Ularni qazib olib, turli maqsadlarda ishlatamiz. Masalan, yoqilgʻi, qurilish yoki sanoatda foydalanish mumkin.",
+        "example": "Koʻmir (yoqilgʻi sifatida), temir rudasi (metall olish uchun)."
+      },
+      {
+        "title": "Foydali qazilmalar turlari",
+        "body": "Foydali qazilmalar uch turga boʻlinadi: yoqilgʻi (energiya olish uchun), metall (metall ishlab chiqarish uchun) va nometall (qurilish, kimyo sanoati uchun). Har bir tur oʻziga xos xususiyatlarga ega va turli sohalarda ishlatiladi.",
+        "example": "Yoqilgʻi: neft, gaz; Metall: oltin, mis; Nometall: tuz, gips."
+      },
+      {
+        "title": "Foydali qazilmalar qayerda topiladi?",
+        "body": "Foydali qazilmalar yer ostida, togʻ jinslari orasida yoki yer yuzasida uchraydi. Ular geologik jarayonlar natijasida millionlab yillar davomida hosil boʻladi. Baʼzilari ochiq usulda (konlar), baʼzilari esa yer ostidan qazib olinadi.",
+        "example": "Oʻzbekistonda Oltintopgan oltin koni, Muborak gaz koni."
+      },
+      {
+        "title": "Foydali qazilmalarni qazib olish",
+        "body": "Foydali qazilmalarni qazib olish uchun maxsus konlar ochiladi. Agar qazilma yer yuzasiga yaqin boʻlsa, ochiq usulda (karerlar), chuqurda boʻlsa, shaxta yoki burgʻilash usuli bilan qazib olinadi. Bu jarayon murakkab va katta xarajat talab qiladi.",
+        "example": "Angren koʻmir koni (ochiq usul), Shoʻrtan gaz koni (burgʻilash)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "atmosfera-tuzilishi",
+    "theory": [
+      {
+        "title": "Atmosfera nima?",
+        "body": "Atmosfera – bu Yer atrofini oʻrab turgan havo qatlami. U bizni Quyoshning zararli nurlaridan himoya qiladi, nafas olishimiz uchun zarur boʻlgan kislorodni beradi va ob-havoni hosil qiladi. Atmosferasiz hayot boʻlmasdi!",
+        "example": "Masalan, kosmonavtlar kosmik kemada atmosfera yoʻqligi uchun maxsus skafandr kiyishadi. Yerdagi atmosfera esa bizni tabiiy skafandr kabi himoya qiladi."
+      },
+      {
+        "title": "Atmosfera tarkibi",
+        "body": "Atmosfera turli gazlardan iborat. Eng koʻp – azot (78%), keyin kislorod (21%), qolgan 1% esa argon, karbonat angidrid va boshqa gazlar. Bu gazlar aralashmasi bizga nafas olish va yashash imkonini beradi.",
+        "example": "Olov yonishi uchun kislorod kerak. Agar atmosferada kislorod koʻp boʻlsa, olov yanada kuchliroq yonar edi. Azot esa olovni susaytiradi."
+      },
+      {
+        "title": "Atmosfera qatlamlari",
+        "body": "Atmosfera 5 asosiy qatlamdan iborat: troposfera (eng past, ob-havo shu yerda), stratosfera (ozon qatlami shu yerda), mezosfera, termosfera va ekzosfera (kosmosga yaqin). Har bir qatlamning oʻziga xos xususiyatlari bor.",
+        "example": "Samolyotlar troposferada uchadi, lekin kosmik raketalar termosfera va undan yuqoriga chiqadi. Ozon qatlami esa stratosferada joylashgan."
+      },
+      {
+        "title": "Ozon qatlami nima?",
+        "body": "Ozon qatlami – stratosferadagi maxsus qatlam boʻlib, Quyoshning zararli ultrabinafsha nurlaridan himoya qiladi. Usiz biz quyosh kuydirishi, teri kasalliklari va koʻz muammolariga duch kelamiz. Ozon qatlami – Yer uchun quyoshdan keladigan „qalqon“!",
+        "example": "Aks holda, quyoshda 10 daqiqa oʻtirish oʻrniga 1 daqiqa oʻtirish yetarli boʻlardi, chunki ultrabinafsha nurlar juda xavfli."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "havo-harorati",
+    "theory": [
+      {
+        "title": "Havo harorati nima?",
+        "body": "Havo harorati – bu atmosferadagi havoning qanchalik iliq yoki sovuq ekanligini koʻrsatadigan oʻlchov. Uni odatda termometr bilan oʻlchaymiz. Haroratni bilish ob-havo haqida tushuncha beradi va kundalik hayotimizda muhim rol oʻynaydi.",
+        "example": "Masalan, yozda havo harorati 30°C boʻlsa, issiq kun deb hisoblaymiz. Qishda esa -5°C sovuq hisoblanadi."
+      },
+      {
+        "title": "Haroratni qanday oʻlchaymiz?",
+        "body": "Havo haroratini oʻlchash uchun termometrdan foydalanamiz. U asosan ikki turda boʻladi: simobli (anʼanaviy) va raqamli. Haroratni Selsiy (°C) yoki Farengeyt (°F) shkalasida oʻlchash mumkin, lekin bizda koʻproq Selsiy ishlatiladi.",
+        "example": "Misol uchun, termometr 25°C koʻrsatsa, havo iliq degani. Agar 0°C boʻlsa, suv muzlaydi."
+      },
+      {
+        "title": "Harorat kun davomida oʻzgaradi",
+        "body": "Havo harorati kun davomida doim oʻzgarib turadi. Kunduzi quyosh nuri yer yuzasini isitadi, shuning uchun harorat koʻtariladi. Kechasi esa quyosh boʻlmaydi, yer sovib, harorat pasayadi. Eng issiq vaqt – tushdan keyin, eng sovuq vaqt – tong otganda.",
+        "example": "Masalan, ertalab 10°C boʻlsa, tushdan keyin 25°C gacha koʻtarilishi mumkin. Kechasi esa yana 15°C gacha pasayadi."
+      },
+      {
+        "title": "Harorat balandlikka qarab oʻzgaradi",
+        "body": "Balandlik ortgan sari havo harorati pasayadi. Buning sababi – atmosferada yuqoriga koʻtarilgan sari havo siyraklashadi va issiqlikni ushlab turolmaydi. Har 1000 metr balandlikda harorat taxminan 6°C ga pasayadi.",
+        "example": "Togʻ etagida 20°C boʻlsa, 3000 metr balandlikda atigi 2°C boʻlishi mumkin. Shuning uchun togʻlarda doimo sovuqroq boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "atmosfera-bosimi",
+    "theory": [
+      {
+        "title": "Atmosfera bosimi nima?",
+        "body": "Atmosfera bosimi – bu havoning yer yuzasiga va undagi barcha narsalarga bosimi. Oddiy qilib aytganda, havo ham vaznga ega, va bu vazn bizga bosim qiladi. Siz uni his qilmaysiz, chunki sizning tanangiz ham ichki bosim bilan muvozanatda.",
+        "example": "Masalan, balonni puflab shishirganingizda, havo uni ichidan bosadi. Shu kabi, atmosfera ham yer yuzasini hamma tomondan bosadi."
+      },
+      {
+        "title": "Bosim qanday o'lchanadi?",
+        "body": "Atmosfera bosimi odatda millimetr simob ustuni (mm.sim.ust) yoki gepaskal (gPa) bilan o'lchanadi. Dengiz sathida o'rtacha atmosfera bosimi 760 mm.sim.ust yoki 1013 gPa ga teng. Bu raqamlar ob-havo bilan o'zgarishi mumkin.",
+        "example": "Agar ob-havo ma'lumotlarida bosim 750 mm.sim.ust deb ko'rsatsa, bu past bosim degani – yomg'ir yoki shamol bo'lishi mumkin."
+      },
+      {
+        "title": "Bosim balandlik bilan qanday o'zgaradi?",
+        "body": "Balandlik ortgan sari atmosfera bosimi kamayadi, chunki yuqoriroqda havo qatlami yupqaroq bo'ladi va uning vazni kamroq bo'ladi. Shu sababli tog'larda nafas olish qiyinroq bo'ladi – havo siyrakroq va bosimi pastroq.",
+        "example": "Everest cho'qqisida atmosfera bosimi dengiz sathidagidan 3 baravar kamroq. Shuning uchun alpinistlar kislorod ballonlaridan foydalanishadi."
+      },
+      {
+        "title": "Izobaralar nima?",
+        "body": "Izobaralar – xaritada bir xil atmosfera bosimiga ega nuqtalarni birlashtiruvchi chiziqlar. Ular ob-havo xaritalarida ko'rsatiladi va shamol yo'nalishi, ob-havo o'zgarishlarini bashorat qilishda yordam beradi. Izobaralar zich joylashgan joylarda shamol kuchliroq bo'ladi.",
+        "example": "Ob-havo xaritasida izobaralar bir-biriga yaqin joylashgan bo'lsa, kuchli shamol yoki bo'ron kutishingiz mumkin."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "shamollar",
+    "theory": [
+      {
+        "title": "Shamol nima?",
+        "body": "Shamol – bu havoning yuqori bosimli joydan past bosimli joyga harakatlanishi. Oddiy qilib aytganda, havo oqimi. Siz issiq kunlarda derazani ochganingizda, havo oqib kirishini his qilgansiz – bu ham shamol! U tabiatda doimo harakatda boʻladi va ob-havoga katta taʼsir qiladi.",
+        "example": "Dengiz qirgʻogʻida esadigan salqin shamol yoki choʻlda issiq shamol – bularning barchasi havoning harakatidan iborat."
+      },
+      {
+        "title": "Shamol qanday paydo boʻladi?",
+        "body": "Shamol quyosh nuri yer yuzasini turli darajada isitishi natijasida paydo boʻladi. Issiq havo yengil boʻlib, koʻtariladi, sovuq havo esa ogʻir boʻlib, uning oʻrniga keladi. Shu harakat natijasida shamol hosil boʻladi. Qisqasi: quyosh + harorat farqi = shamol!",
+        "example": "Togʻ etagida kun issiq boʻlsa, havo koʻtariladi, uning oʻrniga vodiyda sovuq havo oqib keladi – shu shamolni his qilasiz."
+      },
+      {
+        "title": "Shamolning turlari",
+        "body": "Shamollar doimiy, mavsumiy va mahalliy turlarga boʻlinadi. Doimiy shamollar yil davomida bir yoʻnalishda esadi (masalan, passatlar). Mavsumiy shamollar fasllarga qarab yoʻnalishini oʻzgartiradi (masalan, mussonlar). Mahalliy shamollar esa kichik hududlarda paydo boʻladi (masalan, togʻ-vodiylar shamoli).",
+        "example": "Yozda Hindistonga yogʻin keltiruvchi musson shamoli mavsumiy shamolga misol boʻlsa, togʻdan tushadigan salqin shamol mahalliy shamol hisoblanadi."
+      },
+      {
+        "title": "Shamolning ahamiyati",
+        "body": "Shamol ob-havo, iqlim va inson hayotida muhim rol oʻynaydi. U bulutlarni harakatlantirib, yogʻin keltiradi, dengizlarda toʻlqinlar hosil qiladi, shamol energiyasidan elektr olish mumkin. Qadim zamonlarda shamol kemalarni harakatlantirgan, bugungi kunda esa shamol turbinalari orqali toza energiya manbai hisoblanadi.",
+        "example": "Niderlandiya shamol tegirmonlari bilan mashhur – u yerda shamol energiyasidan un tortish va suv chiqarish uchun foydalanilgan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "namlik-yoginlar",
+    "theory": [
+      {
+        "title": "Havo namligi nima?",
+        "body": "Havo namligi – bu atmosferada suv bugʻining miqdori. Oddiy qilib aytganda, havoda qancha suv bugʻi borligini koʻrsatadi. Namlik yuqori boʻlsa, havo „hoʻl“ tuyuladi, past boʻlsa – „quruq“.",
+        "example": "Yozda nam havoda teringiz yopishadi, qishda esa quruq havoda lablaringiz yoriladi."
+      },
+      {
+        "title": "Mutlaq va nisbiy namlik",
+        "body": "Mutlaq namlik – havoda haqiqatan qancha suv bugʻi borligini koʻrsatadi (gramm/metr kubda). Nisbiy namlik esa – havoning hozirgi holatda ushlab turishi mumkin boʻlgan maksimal namlikning foizi. Masalan, 50% nisbiy namlik – havo yarim yoʻlida toʻyingan degani.",
+        "example": "Sovuq havoda nisbiy namlik yuqori boʻladi, chunki sovuq havo kamroq suv bugʻini ushlab turadi. Shuning uchun qishda oynalar „shudring“ boʻladi."
+      },
+      {
+        "title": "Shudring va shabnam",
+        "body": "Tunda yer soviganda havodagi suv bugʻi mayda tomchilarga aylanib, yerga yoki narsalarga yopishadi – bunga shudring deyiladi. Agar havo harorati 0°C dan past boʻlsa, suv bugʻi muzga aylanib, qiro koʻrinishida tushadi. Kunduzi esa quyosh nuri bilan bugʻlanib, shabnamga aylanadi.",
+        "example": "Ertalab oʻtlar ustida paydo boʻladigan mayda suv tomchilari – shudring. Qishda esa daraxt shoxlarida paydo boʻladigan oq muz kristallari – qiro."
+      },
+      {
+        "title": "Yogʻin turlari",
+        "body": "Yogʻinlar – atmosferadan yerga tushadigan suv shakllari. Asosiylari: yomgʻir (suyuq), qor (qattiq), doʻl (muz zarralari) va qiro (muz kristallari). Yogʻinlar bulutlardagi suv bugʻining sovishi va birlashishi natijasida hosil boʻladi.",
+        "example": "Yozda kuchli yomgʻir yogʻsa, qishda esa qor toʻshagi paydo boʻladi. Doʻl esa momaqaldiroq paytida tushadi va baʼzan hosilga zarar yetkazadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "ob-havo",
+    "theory": [
+      {
+        "title": "Ob-havo nima?",
+        "body": "Ob-havo – bu atmosferaning qisqa vaqt ichida (bir necha soatdan bir necha kungacha) qanday holatda ekanligini bildiradi. Masalan, bugun quyoshli yoki yomgʻir yogʻishi, shamol esishi kabi holatlar ob-havoga kiradi. Ob-havo doimo oʻzgarib turadi, shuning uchun uni oldindan bilish qiyin.",
+        "example": "Bugun Toshkentda +25°C va quyoshli ob-havo, ertaga esa yomgʻir yogʻishi mumkin."
+      },
+      {
+        "title": "Ob-havo elementlari",
+        "body": "Ob-havoni belgilaydigan asosiy unsurlar: harorat, namlik, shamol, yogʻin va bulutlilik. Bu unsurlar birgalikda ob-havo holatini hosil qiladi. Masalan, yuqori harorat va namlik – jazirama kunni, shamol va yomgʻir esa boʻronli ob-havoni bildiradi.",
+        "example": "Qish kunida harorat -10°C, shamol tezligi 15 m/s va qor yogʻishi – sovuq va boʻronli ob-havo."
+      },
+      {
+        "title": "Ob-havo va iqlim farqi",
+        "body": "Ob-havo – bu qisqa muddatli atmosfer holati, iqlim esa bir joyning uzoq yillar davomidagi oʻrtacha ob-havo sharoitidir. Masalan, Toshkentda yozda issiq ob-havo boʻlishi odatiy, lekin bu iqlimning bir qismi. Ob-havo esa kun sayin oʻzgarishi mumkin.",
+        "example": "Qoraqalpogʻistonda yozda harorat +40°C gacha koʻtariladi – bu iqlim, lekin bugun +35°C – bu ob-havo."
+      },
+      {
+        "title": "Ob-havo xaritasi",
+        "body": "Ob-havo xaritasi – bu atmosferadagi ob-havo holatlarini koʻrsatuvchi maxsus xarita. Unda harorat, yogʻin, shamol yoʻnalishi va bosim kabi maʼlumotlar belgilanadi. Bunday xaritalar ob-havo oldindan aytishda yordam beradi.",
+        "example": "Ob-havo xaritasida Toshkent ustida quyosh belgisi, Samarqandda esa yomgʻir buluti chizilgan boʻlsa, demak Toshkentda quyoshli, Samarqandda yomgʻirli ob-havo kutilyapti."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "iqlim-omillari",
+    "theory": [
+      {
+        "title": "Iqlim nima?",
+        "body": "Iqlim – bu bir joyda uzoq yillar davomida takrorlanadigan ob-havo holati. Ob-havo bir kun yoki hafta davomida oʻzgarib turadi, lekin iqlim yillar davomida barqaror boʻladi. Masalan, Qoraqalpogʻistonda issiq va quruq iqlim, Fargʻonada esa moʻtadil iqlim hukmron.",
+        "example": "Oʻzbekistonda yozda doimo issiq boʻladi – bu iqlim. Bugun yomgʻir yogʻdi – bu ob-havo."
+      },
+      {
+        "title": "Iqlimni nima hosil qiladi?",
+        "body": "Iqlimni quyosh nuri, yer yuzasining shakli, dengizga yaqinlik va shamollar kabi omillar hosil qiladi. Quyosh nuri koʻproq tushadigan joylarda iqlim issiq, kamroq tushadigan joylarda sovuqroq boʻladi. Dengizga yaqin joylar namroq, uzoq joylar quruqroq iqlimga ega.",
+        "example": "Qoraqalpogʻiston choʻl zonasida quyosh koʻp tushadi va dengizdan uzoq – shuning uchun u yerda issiq va quruq iqlim. Toshkent esa dengizdan uzoq boʻlsa ham, togʻlar yaqinligi tufayli moʻtadilroq."
+      },
+      {
+        "title": "Quyosh nurining roli",
+        "body": "Quyosh nuri – iqlimning asosiy „dvigateli“. Yer yuziga tushadigan quyosh nurlarining miqdori har joyda turlicha. Ekvator yaqinida quyosh tik tushadi – shuning uchun u yerda doimo issiq. Qutblarga yaqin joylarda esa quyosh nuri qiya tushadi – shuning uchun sovuq.",
+        "example": "Ekvator yaqinidagi mamlakatlarda (masalan, Ekvador) yil davomida issiq, qutb yaqinidagi mamlakatlarda (masalan, Norvegiya) esa sovuq boʻladi."
+      },
+      {
+        "title": "Shamol va dengiz oqimlari",
+        "body": "Shamollar va dengiz oqimlari iqlimni „boshqaradi“. Shamollar issiq yoki sovuq havoni bir joydan ikkinchi joyga olib boradi. Dengiz oqimlari esa suvning haroratini oʻzgartirib, qirgʻoq iqlimiga taʼsir qiladi. Masalan, Golfstrim oqimi Yevropani isitadi.",
+        "example": "Oʻzbekistonda „Afgʻon shamoli“ issiq va quruq havoni olib keladi. Yevropada esa Golfstrim oqimi tufayli qishlar yumshoqroq boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "iqlim-mintaqalari",
+    "theory": [
+      {
+        "title": "Iqlim nima?",
+        "body": "Iqlim – bu bir joyda uzoq vaqt davomida (odatda 30 yil yoki undan koʻproq) kuzatiladigan ob-havo sharoitlarining oʻrtacha holati. Ob-havo har kuni oʻzgarishi mumkin, lekin iqlim barqarorroq va uzoq muddatli. Masalan, qish issiq yoki sovuq boʻlishi iqlimga bogʻliq.",
+        "example": "Oʻzbekistonda yoz issiq va quruq, qish esa moʻtadil sovuq – bu bizning iqlimimiz. Antarktida esa yil davomida juda sovuq – bu ularning iqlimi."
+      },
+      {
+        "title": "Iqlim mintaqalari qanday?",
+        "body": "Yer yuzida quyosh nurlarining turli burchaklarda tushishi va boshqa omillar tufayli iqlim turlicha boʻladi. Shu sababli, olimlar Yer sharini bir necha iqlim mintaqalariga ajratishgan. Har bir mintaqaning oʻziga xos ob-havo xususiyatlari bor.",
+        "example": "Ekvator yaqinida tropik iqlim – doim issiq va nam. Qutblarda esa qutbiy iqlim – doim sovuq va qorli."
+      },
+      {
+        "title": "Asosiy iqlim mintaqalari",
+        "body": "Olimlar iqlimni 5 ta asosiy mintaqaga ajratishadi: ekvatorial, tropik, moʻtadil, qutbiy va choʻl iqlimi. Har bir mintaqaning yogʻin miqdori, harorati va fasllari turlicha. Masalan, moʻtadil iqlimda toʻrt fasl aniq ajraladi, tropikda esa faqat ikki fasl – quruq va nam mavsum.",
+        "example": "Oʻzbekiston moʻtadil iqlim mintaqasida joylashgan. Braziliyaning Amazon oʻrmoni esa ekvatorial iqlimda – doim issiq va nam."
+      },
+      {
+        "title": "Iqlimni nima belgilaydi?",
+        "body": "Iqlimni bir necha omil belgilaydi: quyosh nurlarining burchagi (kenglik), dengizdan uzoqlik, shamollar, okean oqimlari va relyef (togʻlar, tekisliklar). Masalan, dengiz yaqinida iqlim yumshoqroq, togʻlarda esa sovuqroq boʻladi.",
+        "example": "Toshkentda yoz issiq, lekin qishda sovuq boʻladi, chunki u dengizdan uzoqda. Angliyaning Londoni esa dengiz yaqinida – qishi yumshoq va nam."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "atmosfera",
+    "lesson_slug": "atmosfera-sirkulyatsiyasi",
+    "theory": [
+      {
+        "title": "Atmosfera nima?",
+        "body": "Atmosfera – bu Yer atrofini oʻrab turgan havo qatlami. U bizni quyosh nurlarining zararli qismidan himoya qiladi, nafas olish uchun zarur boʻlgan kislorodni beradi va ob-havoni shakllantiradi. Qisqasi, atmosfera – bu Yer uchun „nafas oluvchi parda“.",
+        "example": "Masalan, balonni puflab havoga qoʻyganingizda, u atmosferadagi havo bosimi tufayli osmonga koʻtariladi. Yoki yomgʻir yogʻishi – atmosferadagi suv bugʻlarining kondensatsiyasi natijasidir."
+      },
+      {
+        "title": "Atmosfera sirkulyatsiyasi nima?",
+        "body": "Atmosfera sirkulyatsiyasi – bu Yer yuzida havoning doimiy harakatlanishi. Quyosh nurlarining ekvatorga koʻproq tushishi sababli, havo isib koʻtariladi, sovuqroq joylarga harakatlanadi va yana pastga tushadi. Bu jarayon shamollar va iqlimni hosil qiladi.",
+        "example": "Masalan, tropik mintaqalarda doimiy issiq shamollar (passatlar) esadi, chunki quyosh nuri ekvatorda kuchliroq isitadi. Yoki qishda Oʻzbekistonga sovuq havo shimoldan keladi – bu ham sirkulyatsiyaning bir qismi."
+      },
+      {
+        "title": "Passat shamollari",
+        "body": "Passatlar – ekvatordan 30° shimol va janub kengliklarga tomon doimiy esadigan shamollar. Ular Yer aylanishi tufayli gʻarbga ogʻadi. Passatlar tropik mintaqalarda ob-havoni barqarorlashtiradi va dengizchilar uchun muhim boʻlgan shamollardir.",
+        "example": "Masalan, Kolumb Amerikaga passat shamollari yordamida suzib borgan. Yoki bugungi kunda laynerlar ham bu shamollardan yoʻnalishni belgilashda foydalanadi."
+      },
+      {
+        "title": "Gʻarbiy shamollar va siklonlar",
+        "body": "Gʻarbiy shamollar – 30° va 60° kengliklar orasida esadigan shamollar. Ular gʻarbdan sharqqa harakatlanadi va koʻpincha yomgʻir yoki qor keltiradi. Bu shamollar siklonlar (past bosimli havo aylanmalari) bilan birga keladi, natijada ob-havo tez oʻzgaradi.",
+        "example": "Masalan, Oʻzbekistonda qish faslida gʻarbdan keladigan siklonlar koʻp yomgʻir yoki qor keltiradi. Yoki Yevropada kuchli shamollar va boʻronlar koʻpincha gʻarbiy shamollar tufayli yuz beradi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "gidrosfera-suv-aylanishi",
+    "theory": [
+      {
+        "title": "Gidrosfera nima?",
+        "body": "Gidrosfera – bu Yer sharidagi barcha suvlarning umumiy nomi. Okeanlar, daryolar, ko'llar, yer osti suvlari, hatto havodagi bugʻ ham shu gidrosferaga kiradi. Qisqasi, suv qayerda boʻlsa, u yerda gidrosfera bor deb hisobla!",
+        "example": "Masalan, Tinch okeani, Amudaryo, Sirdaryo, Issiqkoʻl – bularning barchasi gidrosferaning bir qismi."
+      },
+      {
+        "title": "Suvning aylanma harakati",
+        "body": "Suv tabiatda doim harakatda boʻladi – quyosh nuri uni bugʻlatadi, bulutlar hosil qiladi, yomgʻir yoki qor boʻlib tushadi, keyin yana daryolar orqali okeanlarga qaytadi. Bu jarayon hech toʻxtamaydi va uni „suv aylanmasi“ deb ataymiz.",
+        "example": "Yozda quyosh dengiz suvini bugʻlatadi, bulutlar hosil boʻladi, keyin togʻlarga yomgʻir yogʻadi, daryolar orqali suv yana dengizga oqib keladi."
+      },
+      {
+        "title": "Bugʻlanish va kondensatsiya",
+        "body": "Bugʻlanish – suvning quyosh issigʻida gaz holatiga oʻtishi. Kondensatsiya esa aksincha – suv bugʻining sovib, yana suyuqlikka aylanishi. Bu ikki jarayon suv aylanmasining asosiy „dvigateli“!",
+        "example": "Choydanni qaynatganda bugʻ chiqadi – bu bugʻlanish. Sovuq oynaga bugʻ tegib, tomchilar paydo boʻlsa – bu kondensatsiya."
+      },
+      {
+        "title": "Suvning yer yuzasidagi harakati",
+        "body": "Suv yomgʻir yoki qor boʻlib tushgandan keyin yer yuzasida oqadi – daryolar, soylar orqali pastga tomon harakatlanadi. Baʼzi suvlar yer ostiga singib, buloqlar hosil qiladi. Oxir-oqibat, hamma suv okeanlarga qaytadi.",
+        "example": "Togʻdan oqayotgan soy, yer ostidan chiqayotgan buloq – bular suvning yer yuzasidagi va ostidagi harakatiga misol."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "dunyo-okeani",
+    "theory": [
+      {
+        "title": "Dunyo okeani nima?",
+        "body": "Dunyo okeani – Yer yuzidagi barcha suv havzalarining umumiy nomi. U bir-biri bilan bogʻlangan beshta katta okeandan iborat: Tinch, Atlantika, Hind, Shimoliy Muz va Janubiy okeanlar. Barcha okeanlar birgalikda gidrosferaning eng katta qismini tashkil qiladi – yer sharining 71% ini qoplaydi!",
+        "example": "Masalan, Tinch okean dunyodagi eng katta va chuqur okean boʻlib, unda Mariana choʻkigʻi joylashgan – bu yerda chuqurlik 11 km dan oshadi!"
+      },
+      {
+        "title": "Okeanlar qanday boʻlinadi?",
+        "body": "Okeanlar tabiiy chegaralar – qitʼalar, orollar yoki suv osti relyefi (masalan, suv osti togʻ tizmalari) bilan ajratiladi. Har bir okeanning oʻziga xos iqlimi, oqimlari va hayvonot dunyosi bor. Masalan, Atlantika okeani Yevropa va Shimoliy Amerikani ajratadi, Hind okeani esa Osiyo va Afrikani oʻrab turadi.",
+        "example": "Shimoliy Muz okeani – eng sovuq va kichik okean boʻlib, u butunlay muz bilan qoplangan. Atlantika okeani esa eng uzun okean – shimoldan janubga 16 ming km ga choʻzilgan!"
+      },
+      {
+        "title": "Okean suvining xususiyatlari",
+        "body": "Okean suvi shoʻr, chunki unda turli tuzlar erigan. Oʻrtacha shoʻrlik 35‰ (promille) – yaʼni 1 litr suvda 35 gramm tuz bor. Shoʻrlik har xil joylarda farq qiladi: issiq va quruq joylarda bugʻlanish koʻp boʻlgani uchun shoʻrlik yuqori, qutb yaqinida esa muz erishi tufayli pastroq boʻladi.",
+        "example": "Qizil dengiz dunyodagi eng shoʻr dengiz – unda shoʻrlik 41‰ ga yetadi! Oʻlik dengiz esa hatto 300‰ dan oshadi, shuning uchun unda hech narsa yashamaydi."
+      },
+      {
+        "title": "Okean oqimlari nima?",
+        "body": "Okean oqimlari – bu okean suvining doimiy harakati. Ular shamol, Yer aylanishi va suv zichligining farqi tufayli paydo boʻladi. Oqimlar issiq yoki sovuq boʻlishi mumkin va ular iqlimga katta taʼsir koʻrsatadi. Masalan, Golfstrim oqimi Yevropani iliq qiladi, aks holda u yer sovuqroq boʻlardi!",
+        "example": "Golfstrim – Atlantika okeanidagi eng mashhur issiq oqim. U Meksika qoʻltigʻidan boshlanib, Yevropa qirgʻoqlariga issiq suv olib boradi, shuning uchun Norvegiya portlari qishda muzlamaydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "okean-suvi-xossalari",
+    "theory": [
+      {
+        "title": "Okean suvi nima?",
+        "body": "Okean suvi – Yer yuzidagi barcha dengiz va okeanlarni qoplagan ulkan suv massasi. U oddiy chuchuk suvdan farqli ravishda tuzli boʻladi, chunki unda turli minerallar erigan. Bu suv doimiy harakatda boʻlib, iqlim va hayot uchun juda muhim.",
+        "example": "Masalan, Tinch okeanidagi suv ham, Oʻzbekistondagi Orol dengizidagi suv ham okean suvi hisoblanadi, lekin ularning tuzliligi turlicha."
+      },
+      {
+        "title": "Tuzlilik – suvning „taʼmi“",
+        "body": "Okean suvining eng muhim xossasi – tuzlilik. Bu suvda erigan tuz miqdori. Oʻrtacha okean suvi 1 litrda 35 gramm tuz (asosan osh tuzi) tutadi. Tuzlilik har xil joylarda farq qiladi: issiq joylarda suv koʻproq bugʻlanadi, shuning uchun tuzlilik ortadi.",
+        "example": "Qizil dengizda tuzlilik 40‰ (promille) ga yetadi, chunki u issiq iqlimda joylashgan va suv bugʻlanishi kuchli. Boltiq dengizida esa atigi 5-10‰, chunki u yerda chuchuk suv koʻp keladi."
+      },
+      {
+        "title": "Suvning harorati qayerda yuqori?",
+        "body": "Okean suvining harorati joylashuviga qarab oʻzgaradi. Ekvator yaqinida suv issiq (25-30°C), qutblarga yaqinlashgan sari sovuq (-2°C gacha) boʻladi. Chuqurlik ortgan sari ham harorat pasayadi. Yuza qatlami quyosh nuri bilan isiydi, lekin chuqur suv sovuq va qorongʻi qoladi.",
+        "example": "Hind okeanining ekvator qismida suv iliq, shuning uchun marjon riflari rivojlangan. Shimoliy Muz okeanida esa suv muzlaydi, chunki harorat juda past."
+      },
+      {
+        "title": "Suvning zichligi nima?",
+        "body": "Okean suvining zichligi uning „ogʻirligi“ni koʻrsatadi. Tuzlilik va haroratga bogʻliq: sovuq va tuzli suv zichroq, iliq va chuchuk suv esa yengilroq. Zich suv pastga choʻkadi, yengil suv yuqoriga koʻtariladi – bu okeandagi oqimlarni hosil qiladi.",
+        "example": "Shimoliy Atlantikada sovuq va tuzli suv ogʻir boʻlib, pastga choʻkadi va global oqimlarni harakatga keltiradi. Tropiklarda esa iliq suv yuzada qoladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "okean-oqimlari",
+    "theory": [
+      {
+        "title": "Okean oqimlari nima?",
+        "body": "Okean oqimlari – bu dengiz va okean suvlarining doimiy yoki vaqtinchalik harakati. Ular shamol, suv zichligi farqi yoki Yer aylanishi tufayli paydo boʻladi. Oqimlar suvni bir joydan ikkinchi joyga olib boradi, goʻyo daryolar okeanning ichida oqayotgandek.",
+        "example": "Gulfstrim – Shimoliy Atlantika okeanidagi iliq oqim, u Yevropaning iqlimini yumshatadi. Yana bir misol – Peru oqimi, u Janubiy Amerikaning gʻarbiy qirgʻoqlarini sovuq suv bilan taʼminlaydi."
+      },
+      {
+        "title": "Oqimlar qanday turlarga boʻlinadi?",
+        "body": "Okean oqimlari asosan ikki turga boʻlinadi: **sirtqi** va **chuqur** oqimlar. Sirtqi oqimlar shamol taʼsirida paydo boʻladi va okeanning yuqori qatlamlarida harakatlanadi. Chuqur oqimlar esa suvning harorati va shoʻrlanish farqi tufayli vujudga keladi.",
+        "example": "Gulfstrim – sirtqi oqim, chunki u shamol taʼsirida harakatlanadi. Antarktika atrofidagi chuqur oqimlar esa sovuq va shoʻr suvning ogʻirligi tufayli pastga choʻkib, okeanning tubiga tomon oqadi."
+      },
+      {
+        "title": "Oqimlarning iqlimga taʼsiri",
+        "body": "Okean oqimlari dunyo iqlimiga katta taʼsir koʻrsatadi. Iliq oqimlar qirgʻoqlarni isitadi, sovuq oqimlar esa havoni salqinlashtiradi. Masalan, Yevropaning shimoli iliq Gulfstrim tufayli qishda ham moʻtadil iqlimga ega.",
+        "example": "Norvegiya qirgʻoqlari Gulfstrim tufayli qishda muzlamaydi, lekin Kanadaning sharqiy qirgʻoqlari Labrador oqimi taʼsirida sovuq boʻladi. Yana bir misol – Kaliforniya oqimi, u AQShning gʻarbiy qirgʻoqlarini yozda salqinlashtiradi."
+      },
+      {
+        "title": "Oqimlarning hayotga foydasi",
+        "body": "Okean oqimlari dengiz hayvonlari uchun oziq-ovqat manbai boʻlib xizmat qiladi. Ular planktonlarni bir joydan ikkinchi joyga olib boradi, bu esa baliqlar va boshqa dengiz jonivorlari uchun ozuqa manbai boʻladi. Shuningdek, oqimlar kemalar harakatiga yordam beradi.",
+        "example": "Peru oqimi boʻylab anchous baliqlari koʻpayadi, bu esa Peru baliqchilik sanoatini dunyoda yetakchilardan biriga aylantirgan. Yana bir misol – yelkanli kemalar davrida savdogarlar oqimlardan foydalanib, tezroq yoʻl bosishgan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "daryolar",
+    "theory": [
+      {
+        "title": "Daryo nima?",
+        "body": "Daryo – bu yer yuzasida tabiiy ravishda oqib yuradigan suv oqimi. U odatda togʻlardan boshlanib, dengiz, koʻl yoki boshqa daryoga quyiladi. Daryolar tabiatning muhim qismi boʻlib, odamlar, hayvonlar va oʻsimliklar uchun suv manbai hisoblanadi.",
+        "example": "Amudaryo va Sirdaryo – Oʻzbekistondagi eng yirik daryolar. Ular togʻlardan boshlanib, Orol dengiziga quyiladi."
+      },
+      {
+        "title": "Daryoning qismlari",
+        "body": "Har bir daryoning uchta asosiy qismi bor: bosh (boshlanish joyi), oʻrta oqim (daryoning asosiy qismi) va quyilish joyi (dengiz, koʻl yoki boshqa daryoga quyiladigan joy). Bosh qismida suv tez oqadi, quyilish joyida esa sekinroq boʻladi.",
+        "example": "Chirchiq daryosi Toshkent viloyatida boshlanib (bosh), Chirchiq shahri yonidan oqib oʻtadi (oʻrta oqim), soʻngra Sirdaryoga quyiladi (quyilish joyi)."
+      },
+      {
+        "title": "Daryolar qayerdan suv oladi?",
+        "body": "Daryolar suvini yomgʻir, qor erishi, yer osti suvlari va muzliklardan oladi. Togʻlarda qor erib, daryolarni toʻldirsa, tekisliklarda esa yomgʻir va yer osti suvlari muhim rol oʻynaydi. Qurib qolmasligi uchun daryolar doimiy ravishda suv olishi kerak.",
+        "example": "Zarafshon daryosi Pomir togʻlaridagi muzliklardan boshlanadi. Yozda muz erishi tufayli suvi koʻpayadi."
+      },
+      {
+        "title": "Daryolarning ahamiyati",
+        "body": "Daryolar inson hayotida juda muhim: ichimlik suvi, sugʻorish, elektr energiyasi ishlab chiqarish, transport va baliqchilik uchun ishlatiladi. Shuningdek, ular atrof-muhitni tozalab, turli hayvonlar va oʻsimliklar uchun yashash joyi boʻladi.",
+        "example": "Sirdaryo va Amudaryo Oʻzbekistonning dehqonchilik rayonlarini sugʻoradi. Chirchiq daryosida esa GESlar (gidroelektr stansiyalari) qurilgan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "kollar",
+    "theory": [
+      {
+        "title": "Koʻl nima?",
+        "body": "Koʻl – bu quruqlikda tabiiy ravishda hosil boʻlgan, suv bilan toʻlgan chuqurlik. U daryolar yoki yomgʻir suvi bilan toʻladi va dengizga bevosita bogʻliq emas. Koʻllar turli shakl va oʻlchamlarda boʻlishi mumkin – baʼzilari kichik, baʼzilari esa ulkan!",
+        "example": "Masalan, Orol dengizi avval ulkan koʻl edi, lekin hozir quriy boshladi. Buxoro yaqinidagi Zarafshon daryosi boʻyidagi koʻllar esa kichikroq."
+      },
+      {
+        "title": "Koʻllar qanday hosil boʻladi?",
+        "body": "Koʻllar tabiatdagi turli jarayonlar natijasida paydo boʻladi. Masalan, togʻ jinslarining yemirilishi, muzliklarning erishi, zilzilalar yoki vulkanlar harakati natijasida yer yuzasida chuqurliklar paydo boʻladi. Ular suv bilan toʻlganida – koʻlga aylanadi.",
+        "example": "Baʼzi koʻllar muzliklar erishi natijasida hosil boʻladi (masalan, Alp togʻlaridagi koʻllar). Boshqalari esa vulkan kraterlarida paydo boʻladi (masalan, Yaponiyadagi Tova koʻli)."
+      },
+      {
+        "title": "Koʻllarning turlari",
+        "body": "Koʻllar suvining tuzliligi va kelib chiqishiga koʻra farqlanadi. Tuzli koʻllar – suvida koʻp miqdorda tuz boʻlgan koʻllar (masalan, Oʻzbekistondagi Arnasoy). chuchuk suvli koʻllar esa ichishga yaroqli suvga ega (masalan, Issiqkoʻl).",
+        "example": "Oʻzbekistondagi Aydarkoʻl – chuchuk suvli, Qoraqalpogʻistondagi Sulton Uvays – tuzli koʻl. Tuzli koʻllarda baliq yashamaydi, lekin chuchuk suvli koʻllarda turli hayvonlar yashaydi."
+      },
+      {
+        "title": "Koʻllarning ahamiyati",
+        "body": "Koʻllar insonlar va tabiat uchun juda muhim. Ular ichimlik suvi manbai, baliqchilik uchun joy, turizm obyekti va hatto iqlimni yumshatuvchi omil boʻlishi mumkin. Koʻllar atrofidagi yerlar odatda unumdor boʻladi, chunki suv tuproqni namlaydi.",
+        "example": "Issiqkoʻl – Qirgʻizistondagi mashhur turistik joy. Oʻzbekistondagi Dengizkoʻl esa baliqchilik va dam olish uchun muhim."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "yer-osti-suvlari",
+    "theory": [
+      {
+        "title": "Yer osti suvlari nima?",
+        "body": "Yer osti suvlari – bu yer yuzasining ostida, tuproq va togʻ jinslari orasidagi boʻshliqlar yoki yoriqlarda toʻplangan suvlar. Ular yomgʻir, qor yoki daryolardan sizib kirib, yer ostida saqlanadi. Siz ham ularni quduqdan yoki buloqdan koʻrganmisiz?",
+        "example": "Misol: Qishloqlardagi quduq suvi yoki togʻlardan oqib chiqadigan buloqlar yer osti suvlaridir."
+      },
+      {
+        "title": "Yer osti suvlari qayerda?",
+        "body": "Bu suvlar ikki asosiy qatlamda boʻladi: suv oʻtkazuvchi qatlam (akvifer) va suv oʻtkazmaydigan qatlam (akvitard). Akvifer – suvni yaxshi oʻtkazadigan qum, shagʻal yoki ohakli jinslar. Akvitard esa suvni ushlab turadigan gil yoki zich jinslar.",
+        "example": "Misol: Oʻzbekistondagi Mirzachoʻl yer osti suvlari qumli qatlamlarda toʻplangan."
+      },
+      {
+        "title": "Yer osti suvlarining turlari",
+        "body": "Yer osti suvlari ikki turga boʻlinadi: grunt suvlar (yuzaga yaqin, quduqlardan olinadi) va artezian suvlar (chuqurda, bosim ostida, oʻz-oʻzidan chiqadi). Artezian suvlari toza va ichishga mos boʻladi.",
+        "example": "Misol: Toshkent viloyatidagi artezian quduqlari suvni yer yuzasiga oʻz-oʻzidan chiqarib beradi."
+      },
+      {
+        "title": "Yer osti suvlarining ahamiyati",
+        "body": "Bu suvlar ichimlik suvi, qishloq xoʻjaligi va sanoat uchun muhim manba. Oʻzbekistonda yer osti suvlari ekinlarni sugʻorishda va aholi ehtiyojlari uchun keng ishlatiladi. Ularni asrash juda muhim, chunki ular qayta tiklanmaydi!",
+        "example": "Misol: Qoraqalpogʻistondagi qurgʻoqchil hududlarda yer osti suvlari hayot manbai hisoblanadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "muzliklar",
+    "theory": [
+      {
+        "title": "Muzlik nima?",
+        "body": "Muzlik – bu yer yuzida uzoq vaqt davomida toʻplangan va harakatlanuvchi ulkan muz massasi. U qorning uzoq yillar davomida erimay, zichlanib, muzga aylanishi natijasida hosil boʻladi. Muzliklar togʻlarda yoki qutb mintaqalarida uchraydi.",
+        "example": "Masalan, Antarktida va Grenlandiyadagi ulkan muz qatlamlari yoki Pomirdagi Fedchenko muzligi."
+      },
+      {
+        "title": "Muzliklar qanday hosil boʻladi?",
+        "body": "Muzliklar qorning doimiy toʻplanishi va erimay qolishi natijasida paydo boʻladi. Qor qatlamlari ustma-ust toʻplanib, ogʻirligi ostida zichlanib, muzga aylanadi. Bu jarayon yillar davom etadi. Muzliklar asta-sekin harakatlanib, togʻ yonbagʻirlaridan pastga oqadi.",
+        "example": "Togʻlardagi muzliklar qishda toʻplangan qor yozda toʻliq erimaganda, keyingi yillarda ham toʻplanib boradi va muzlikka aylanadi."
+      },
+      {
+        "title": "Muzliklarning turlari",
+        "body": "Muzliklar asosan ikkita katta turga boʻlinadi: togʻ muzliklari va qoplam muzliklari. Togʻ muzliklari togʻ yonbagʻirlarida, qoplam muzliklari esa katta maydonlarni qoplab, tekisliklarda hosil boʻladi. Qoplam muzliklari ancha katta va qalin boʻladi.",
+        "example": "Togʻ muzligi – Pomirdagi muzliklar; qoplam muzligi – Antarktidadagi muz qatlami."
+      },
+      {
+        "title": "Muzliklarning ahamiyati",
+        "body": "Muzliklar yer yuzidagi chuchuk suvning asosiy manbalaridan biri. Ular erigan suv daryolarni toʻldirib, odamlar, hayvonlar va oʻsimliklar uchun suv taʼminotini taʼminlaydi. Shuningdek, muzliklar iqlim oʻzgarishlarini oʻrganishda muhim rol oʻynaydi.",
+        "example": "Masalan, Oʻrta Osiyodagi Amudaryo va Sirdaryo muzliklardan boshlanadi. Muzliklar erib, bu daryolarni suv bilan taʼminlaydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "gidrosfera",
+    "lesson_slug": "botqoqlik-suv-omborlari",
+    "theory": [
+      {
+        "title": "Botqoqlik nima?",
+        "body": "Botqoqlik – bu yer yuzasining doim nam, suvga toʻlib turadigan qismi. Odatda pasttekisliklarda, daryo va koʻllar yaqinida uchraydi. Suv bugʻlanmay, tuproqda toʻplanib qoladi, shuning uchun oʻsimliklar chirib, torf hosil qiladi.",
+        "example": "Sirdaryo va Amudaryo deltalari, Fargʻona vodiysidagi past joylar botqoqliklarga misol boʻladi."
+      },
+      {
+        "title": "Botqoqlik qanday hosil boʻladi?",
+        "body": "Botqoqliklar uch yoʻl bilan paydo boʻladi: 1) Suvning yerga singib ketmasligi (masalan, loy qatlami tufayli); 2) Yomgʻir yoki qor suvining toʻplanishi; 3) Daryo yoki koʻllarning toshib, atrofni suv bosishi. Har uchala holatda ham suv bugʻlanmay, yer botqoqlanadi.",
+        "example": "Zarafshon daryosining ayrim qismlari toshganda, atrofdagi yerlar botqoqlanadi."
+      },
+      {
+        "title": "Suv omborlari nimaga xizmat qiladi?",
+        "body": "Suv omborlari – bu insonlar tomonidan qurilgan sunʼiy koʻllar. Ular suvni toʻplash, elektr energiyasi ishlab chiqarish, qishloq xoʻjaligini sugʻorish va ichimlik suv bilan taʼminlash uchun ishlatiladi. Oʻzbekistonda eng katta suv ombori – Chorvoq.",
+        "example": "Chorvoq suv ombori Toshkent viloyatini suv va elektr energiyasi bilan taʼminlaydi."
+      },
+      {
+        "title": "Botqoqlik va suv omborlari farqi",
+        "body": "Botqoqlik tabiiy hodisa – suvning yerda toʻplanib qolishi. Suv ombori esa inson qoʻli bilan qurilgan sunʼiy inshoot. Botqoqliklar foydadan koʻra zarar keltirsa, suv omborlari odamlar uchun juda muhimdir. Ikkalasi ham suv bilan bogʻliq, lekin maqsadi va kelib chiqishi turlicha.",
+        "example": "Tabiiy botqoqlik – Sudochye koʻli atrofi. Sunʼiy suv ombori – Tuyabuguz suv ombori."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "biosfera",
+    "theory": [
+      {
+        "title": "Biosfera nima?",
+        "body": "Biosfera – bu Yer sayyorasining tirik organizmlar yashaydigan qismi. Unda barcha oʻsimliklar, hayvonlar, zamburugʻlar, bakteriyalar va hatto odamlar ham yashaydi. Qisqasi, biosfera – bu hayotning uyidir!",
+        "example": "Oʻrmon, choʻl, okean va hatto havodagi qushlar ham biosferaga kiradi."
+      },
+      {
+        "title": "Biosfera qayerdan boshlanadi?",
+        "body": "Biosfera Yer poʻstlogʻining bir necha kilometr chuqurligidan boshlanib, atmosfera (havo qatlami)ning yuqori qismigacha davom etadi. Yaʼni, u quruqlik, suv va havoni qamrab oladi. Tirik mavjudotlar qayerda yashasa, biosfera shu yerda boshlanadi.",
+        "example": "Yer ostidagi bakteriyalar ham, bulutlarda uchadigan qushlar ham biosferada yashaydi."
+      },
+      {
+        "title": "Biosferaning asosiy qismlari",
+        "body": "Biosfera uchta asosiy qismdan iborat: 1) **Litosfera** – quruqlik (tuproq, togʻlar); 2) **Gidrosfera** – suv (daryolar, koʻllar, okeanlar); 3) **Atmosfera** – havo (havo qatlami). Ular bir-biriga bogʻliq boʻlib, hayotni taʼminlaydi.",
+        "example": "Baliq suvda (gidrosfera), daraxt tuproqda (litosfera), qush esa havoda (atmosfera) yashaydi – barchasi biosferaning bir qismi."
+      },
+      {
+        "title": "Biosfera nima uchun muhim?",
+        "body": "Biosfera inson va barcha tirik mavjudotlar uchun zarur boʻlgan hamma narsani beradi: kislorod, oziq-ovqat, toza suv va hatto iqlimni barqarorlashtiradi. Agar biosfera buzilsa, hayot ham xavf ostida qoladi. Shuning uchun uni asrash juda muhim!",
+        "example": "Oʻrmonlar havoni tozalaydi, asalariylar gul changlatib, mevalar hosil boʻlishiga yordam beradi – bularning barchasi biosfera ishi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "tuproq-hosil-bolishi",
+    "theory": [
+      {
+        "title": "Tuproq nima?",
+        "body": "Tuproq – bu yer yuzasining ustki qatlami, unda oʻsimliklar oʻsadi va hayvonlar yashaydi. U togʻ jinslarining parchalanishi, organik qoldiqlar (masalan, barglar, ildizlar) va mikroorganizmlar faoliyati natijasida hosil boʻladi. Tuproqsiz yerda deyarli hech qanday hayot boʻlmaydi!",
+        "example": "Bogʻingizdagi qora rangli yer yoki dala ekinlari oʻsadigan qatlam – bu tuproq. Qum yoki tosh esa tuproq emas, chunki ularda oʻsimliklar yaxshi oʻsmaydi."
+      },
+      {
+        "title": "Tuproq hosil boʻlishi",
+        "body": "Tuproq bir zumda hosil boʻlmaydi – bu juda sekin jarayon! Minglab yillar davomida shamol, suv, quyosh va tirik organizmlar togʻ jinslarini maydalab, unga organik moddalar qoʻshadi. Masalan, daraxt barglari chirib, tuproqqa ozuqa beradi, yomgʻir esa minerallarni yuvib, chuqurroq qatlamlarga olib boradi.",
+        "example": "Togʻ yonbagʻridagi toshlar yillar davomida yomgʻir va shamol taʼsirida maydalanib, asta-sekin tuproqqa aylanadi. Shu sababli togʻ etaklarida koʻpincha unumdor yerlar paydo boʻladi."
+      },
+      {
+        "title": "Tuproqning asosiy qismlari",
+        "body": "Har qanday tuproq toʻrtta asosiy qismdan iborat: 1) **Mineral qism** (maydalangan toshlar, qum, loy); 2) **Organik moddalar** (chirigan barglar, ildizlar, hayvon qoldiqlari); 3) **Suv va havo** (tuproqdagi boʻshliqlarni toʻldiradi); 4) **Mikroorganizmlar** (bakteriyalar, zamburugʻlar, chuvalchanglar). Ularning barchasi birgalikda oʻsimliklar uchun uy va ozuqa boʻladi.",
+        "example": "Agar bir hovuch tuproqni qoʻlingizga olsangiz, unda mayda toshlar (mineral), chirigan barglar (organik), namlik (suv) va hatto kichik hasharotlar (mikroorganizmlar)ni koʻrishingiz mumkin."
+      },
+      {
+        "title": "Tuproq hosil boʻlish omillari",
+        "body": "Tuproqning qanday boʻlishi beshta asosiy omilga bogʻliq: 1) **Iqlim** (issiq-yomgʻirli joylarda tuproq tezroq hosil boʻladi); 2) **Ona jins** (toshning turi tuproq tarkibini belgilaydi); 3) **Relyef** (togʻ yonbagʻrida tuproq yuvilib ketishi mumkin); 4) **Organizmlar** (oʻsimliklar va hayvonlar tuproqni boyitadi); 5) **Vaqt** (minglab yillar kerak boʻladi!). Bu omillar birgalikda tuproqning rangi, qalinligi va unumdorligini belgilaydi.",
+        "example": "Choʻl va oʻrmon tuproqlari bir-biridan farq qiladi: choʻlda kam yomgʻir va issiq sababli tuproq quruq va qumli, oʻrmonda esa koʻp organik moddalar tufayli qora va unumdor boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "tuproq-turlari",
+    "theory": [
+      {
+        "title": "Tuproq nima?",
+        "body": "Tuproq – bu yer yuzasining ustki qatlami, unda oʻsimliklar oʻsadi. U minerallar, organik moddalar, suv va havodan iborat. Tuproqsiz yerda hayot deyarli boʻlmaydi, chunki u oʻsimliklar uchun oziq-ovqat ombori vazifasini bajaradi.",
+        "example": "Masalan, bogʻdagi qora tuproq – sabzavotlar va gullar oʻsishi uchun eng yaxshi joy. Choʻlda esa tuproq kam va qattiq, shuning uchun u yerda kam oʻsimlik bor."
+      },
+      {
+        "title": "Tuproqning asosiy tarkibi",
+        "body": "Tuproq toʻrtta asosiy qismdan iborat: 1) Minerallar (toshlar parchalanib hosil boʻladi), 2) Organik moddalar (chirigan barglar, hayvon qoldiqlari), 3) Suv (oʻsimliklar uchun zarur), 4) Havo (ildizlar nafas olishi uchun). Bu qismlarning nisbati tuproq turiga qarab oʻzgaradi.",
+        "example": "Qumli tuproqda minerallar koʻp, lekin suv va organik moddalar kam. Qora tuproqda esa organik moddalar koʻp, shuning uchun u unumdor."
+      },
+      {
+        "title": "Tuproq hosil boʻlishi",
+        "body": "Tuproq juda sekin hosil boʻladi – bir santimetr tuproq uchun yuzlab yillar kerak! Buning uchun toshlar shamol, suv va harorat taʼsirida parchalanadi, keyin oʻsimliklar va hayvonlar qoldiqlari aralashadi. Iqlim, relyef va vaqt ham muhim rol oʻynaydi.",
+        "example": "Togʻlarda shamol va yomgʻir toshlarni asta-sekin parchalab, tuproq hosil qiladi. Oʻrmonlarda esa chirigan barglar va daraxtlar tuproqni boyitadi."
+      },
+      {
+        "title": "Asosiy tuproq turlari",
+        "body": "Dunyoda turli xil tuproqlar bor, lekin eng keng tarqalganlari: 1) Qora tuproq (unumdor, organik moddalar koʻp), 2) Qumli tuproq (suvni tez oʻtkazadi, unumdorligi past), 3) Gil tuproq (suvni yaxshi saqlaydi, lekin havo kam), 4) Podzol tuproq (oʻrmonlarda uchraydi, kislotali). Oʻzbekistonda asosan boʻz tuproq va qumloq tuproqlar bor.",
+        "example": "Oʻzbekistonning dashtlarida boʻz tuproq koʻp – u paxta va gʻalla yetishtirish uchun mos. Amudaryo boʻylarida esa qumloq tuproqlar uchraydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "tabiat-zonalari",
+    "theory": [
+      {
+        "title": "Tabiat zonalari nima?",
+        "body": "Tabiat zonalari – bu Yer yuzasida iqlim, tuproq, oʻsimlik va hayvonot dunyosi oʻxshash boʻlgan katta hududlar. Ular ekvatordan qutblarga qarab oʻzgarib boradi. Har bir zonaning oʻziga xos xususiyatlari bor, masalan, issiq yoki sovuq, nam yoki quruq.",
+        "example": "Sahroi Kabir choʻli – quruq va issiq tabiat zonasi, Amazon oʻrmoni esa nam va issiq zonaga misol."
+      },
+      {
+        "title": "Tabiat zonalari qanday hosil boʻladi?",
+        "body": "Tabiat zonalari asosan quyosh nurlarining Yerga turli burchaklarda tushishi va iqlim sharoitlariga bogʻliq. Ekvatorda quyosh tik tushadi – shuning uchun u yerda issiq va nam, qutblarda esa quyosh nuri kamroq – shuning uchun sovuq va qorli zonalar paydo boʻladi.",
+        "example": "Shimoliy qutb yaqinidagi tundra zonasi juda sovuq, chunki quyosh nuri deyarli tik tushmaydi."
+      },
+      {
+        "title": "Asosiy tabiat zonalari",
+        "body": "Yer yuzida bir necha asosiy tabiat zonalari bor: ekvatorial oʻrmonlar, choʻllar, dashtlar, oʻrmonlar, tundra va muzliklar. Har bir zonada faqat shu zonaga mos oʻsimlik va hayvonlar yashaydi. Masalan, choʻllarda kaktuslar, tundrada esa moxlar oʻsadi.",
+        "example": "Sahroi Kabir – choʻl zonasi, Sibir taygasi – ignabargli oʻrmon zonasi."
+      },
+      {
+        "title": "Tabiat zonalari oʻzgarishi",
+        "body": "Tabiat zonalari doimiy emas – ular vaqt oʻtishi bilan oʻzgarishi mumkin. Iqlim isishi, yogʻingarchilikning kamayishi yoki koʻpayishi, odamlarning faoliyati (masalan, oʻrmonlarni kesish) zonalarning chegaralarini siljitishi mumkin. Bu hayvonlar va oʻsimliklarning yashash joylariga taʼsir qiladi.",
+        "example": "Amazon oʻrmonlarining qisqarishi ekvatorial zonaning maydonini kamaytiradi, choʻllar esa kengayib boradi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "balandlik-mintaqalanishi",
+    "theory": [
+      {
+        "title": "Balandlik mintaqalanishi nima?",
+        "body": "Balandlik mintaqalanishi – bu togʻlarda balandlik ortishi bilan iqlim, oʻsimliklar va hayvonot dunyosi oʻzgarib borishi. Pastdan yuqoriga koʻtarilgan sari havo soviyib, bosimi pasayadi, shuning uchun tabiat ham oʻzgaradi. Bu xuddi ekvatordan qutblarga tomon sayohat qilishga oʻxshaydi, lekin togʻlarda vertikal yoʻnalishda!",
+        "example": "Masalan, Tyan-Shan togʻlarida etakda choʻl oʻsimliklari oʻsadi, biroz yuqoriroqda oʻtloqlar, soʻngra igna bargli oʻrmonlar, eng yuqorida esa muzliklar va qorlar boshlanadi."
+      },
+      {
+        "title": "Nega balandlikda iqlim oʻzgaradi?",
+        "body": "Balandlik ortishi bilan havo siyraklashadi va issiqlikni ushlab turish qobiliyati pasayadi. Har 1000 metrga koʻtarilgan sari harorat taxminan 6°C ga tushadi. Shuningdek, bulutlar koʻproq yomgʻir yogʻdiradi, shuning uchun yuqori joylarda namlik ham oʻzgaradi.",
+        "example": "Masalan, Chimyon togʻ etagida yozda +30°C boʻlsa, choʻqqida atigi +10°C boʻlishi mumkin. Shu sababli yuqorida doim qor saqlanib qoladi."
+      },
+      {
+        "title": "Togʻlardagi tabiat zonalari",
+        "body": "Togʻlarda tabiat zonalari pastdan yuqoriga qarab ketma-ket joylashadi. Odatda quyidagi tartibda: choʻl yoki dasht (etakda), bargli oʻrmonlar, igna bargli oʻrmonlar, subalp va alp oʻtloqlari, soʻngra qor va muzliklar. Har bir zonaning oʻziga xos oʻsimliklari va hayvonlari bor.",
+        "example": "Pomir togʻlarida etakda efemer oʻsimliklar oʻsadi, 3000 metrda archa oʻrmonlari, 4000 metrda alp oʻtloqlari, 5000 metrda esa faqat tosh va muz qoladi."
+      },
+      {
+        "title": "Balandlik mintaqalanishining ahamiyati",
+        "body": "Bu hodisa tabiatning xilma-xilligini saqlaydi. Bir togʻda bir necha iqlim zonalari boʻlishi turli oʻsimlik va hayvonlarning yashashiga imkon beradi. Shuningdek, odamlar uchun ham muhim: yuqori joylarda yaylovlar, pastda esa dehqonchilik qilinadi.",
+        "example": "Masalan, Oʻzbekistonda Hisor togʻlarining turli balandliklarida uzum, olma, yongʻoq yetishtiriladi, yuqori joylarda esa qoʻylar boqiladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "tabiiy-komplekslar",
+    "theory": [
+      {
+        "title": "Tabiiy kompleks nima?",
+        "body": "Tabiiy kompleks – bu tabiatning bir-biriga bogʻliq va birgalikda mavjud boʻlgan qismlari: yer, suv, havo, oʻsimliklar va hayvonlar. Ular bir joyda birga yashab, bir-biriga taʼsir qiladi. Masalan, daryo va uning atrofidagi oʻrmon birga tabiiy kompleksni tashkil qiladi.",
+        "example": "Oʻrmon – bu daraxtlar, hayvonlar, tuproq va havodan iborat tabiiy kompleks. Daryo va uning qirgʻoqlari ham tabiiy kompleksdir."
+      },
+      {
+        "title": "Geografik qobiq qanday?",
+        "body": "Geografik qobiq – bu Yer yuzasining eng yuqori qatlami, u yer qobigʻi, atmosfera, gidrosfera va biosferadan iborat. Bu yerda tabiatning barcha qismlari bir-biriga bogʻliq holda mavjud boʻladi. Aynan shu qatlamda inson va tirik organizmlar yashaydi.",
+        "example": "Togʻlar, choʻllar, okeanlar va oʻrmonlar – barchasi geografik qobiqning bir qismi. Masalan, Orol dengizi va uning atrofidagi choʻl geografik qobiqning oʻzgarishiga misol boʻla oladi."
+      },
+      {
+        "title": "Tabiat zonalari nima?",
+        "body": "Tabiat zonalari – bu geografik qobiqning keng hududlari, u yerda iqlim, tuproq, oʻsimliklar va hayvonlar bir xil xususiyatlarga ega. Har bir zona oʻziga xos tabiiy sharoitlarga ega. Masalan, tropik oʻrmonlar issiq va nam, choʻllar esa quruq va issiq boʻladi.",
+        "example": "Oʻzbekistonda choʻl zonasi (Qizilqum), dasht zonasi (Mirzachoʻl) va togʻ zonasi (Hisor tizmasi) kabi tabiat zonalari mavjud."
+      },
+      {
+        "title": "Tabiiy komplekslar qanday oʻzgaradi?",
+        "body": "Tabiiy komplekslar doimiy ravishda oʻzgarib turadi. Bunga inson faoliyati (masalan, oʻrmonlarni kesish), iqlim oʻzgarishi yoki tabiiy ofatlar (zilzila, suv toshqini) sabab boʻlishi mumkin. Baʼzi oʻzgarishlar sekin, baʼzilari esa tez sodir boʻladi.",
+        "example": "Orol dengizining qurishi – inson faoliyati tufayli tabiiy kompleksning keskin oʻzgarishiga misol. Oʻrmon yongʻinlari ham tabiiy kompleksni tezda oʻzgartirishi mumkin."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "ekologik-muammolar",
+    "theory": [
+      {
+        "title": "Ekologik muammo nima?",
+        "body": "Ekologik muammo – bu tabiatning buzilib, odamlar va hayvonlar hayotiga zarar yetkazadigan holat. Masalan, ifloslanish, daraxtlarning kesilishi yoki suv tanqisligi. Bunday muammolar odatda inson faoliyati tufayli yuzaga keladi va tabiatni tiklashni qiyinlashtiradi.",
+        "example": "Havo ifloslanishi – mashinalar va zavodlardan chiqadigan tutun tufayli shaharlar havosi ifloslanadi. Yana bir misol: plastik qoplar tabiatda yillar davomida parchalanmaydi va hayvonlarga zarar yetkazadi."
+      },
+      {
+        "title": "Atrof-muhit ifloslanishi",
+        "body": "Atrof-muhit ifloslanishi – bu tabiatga zararli moddalar kirishi. Ular havo, suv yoki tuproqni ifloslantiradi. Natijada, oʻsimliklar, hayvonlar va insonlar kasallanishi mumkin. Ifloslanishning asosiy sabablari – sanoat chiqindilari, transport va uy-roʻzgʻor chiqindilari.",
+        "example": "Daryolarga zavod chiqindilari quyilsa, suv ifloslanadi va baliqlar nobud boʻladi. Yana bir misol: shaharlarda avtomobillar tutuni havoni ifloslantirib, odamlarda nafas olish kasalliklarini keltirib chiqaradi."
+      },
+      {
+        "title": "Tabiiy resurslarning kamayishi",
+        "body": "Tabiiy resurslar – bu inson hayotida kerak boʻladigan tabiiy boyliklar, masalan, suv, yogʻoch, neft va minerallar. Ular cheksiz emas, lekin odamlar ularni haddan tashqari koʻp ishlatadi. Natijada, resurslar kamayib, kelajakda yetishmay qolishi mumkin.",
+        "example": "Oʻrmonlarning kesilishi – yogʻoch va qogʻoz ishlab chiqarish uchun daraxtlar koʻp kesiladi, lekin yangi daraxtlar ekilmaydi. Yana bir misol: yer osti suvlari haddan tashqari koʻp ishlatilsa, quduqlar qurib qolishi mumkin."
+      },
+      {
+        "title": "Iqlim oʻzgarishi va global isish",
+        "body": "Global isish – bu Yer sayyorasining oʻrtacha harorati koʻtarilishi. Asosiy sababi – havoga koʻp miqdorda karbonat angidrid (CO₂) chiqishi. Natijada, muzliklar eriyapti, ob-havo nooʻrin boʻladi va tabiiy ofatlar koʻpayadi. Bu butun dunyo uchun jiddiy xavf.",
+        "example": "Muzliklarning erishi – Arktika va Antarktidadagi muzlar tez erib, dengiz sathi koʻtarilmoqda. Yana bir misol: qurgʻoqchiliklar koʻpayib, ekinlar nobud boʻlmoqda, bu esa oziq-ovqat tanqisligiga olib keladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "biosfera-tuproq-tabiat",
+    "lesson_slug": "orol-muammosi",
+    "theory": [
+      {
+        "title": "Orol dengizi nima?",
+        "body": "Orol dengizi – Markaziy Osiyodagi yirik koʻl boʻlib, Oʻzbekiston va Qozogʻiston chegarasida joylashgan. Bir vaqtlar dunyodagi toʻrtinchi yirik koʻl boʻlgan, ammo hozir deyarli qurib ketgan. Uni „dengiz“ deb atashadi, chunki u juda katta va shoʻrlangan suvga ega.",
+        "example": "Masalan, Orol dengizi hajmi boʻyicha Oʻzbekistondagi barcha koʻllarning yigʻindisidan ham katta edi. Hozir esa uning oʻrnida faqat qum va shoʻr botqoqlar qolgan."
+      },
+      {
+        "title": "Nega Orol quriyapti?",
+        "body": "Orol dengizi quriyapti, chunki unga quyiladigan Amudaryo va Sirdaryo daryolarining suvi paxta va boshqa ekinlarni sugʻorishga sarflanadi. Daryolar suvi kamayib, dengizga yetib bormay qoldi. Natijada, dengiz asta-sekin quriy boshladi.",
+        "example": "1960-yillarda paxta yetishtirish uchun daryolardan koʻp suv olingan. Shu sababli, 2000-yilga kelib Orol dengizining 90% dan ortigʻi yoʻqolib ketgan."
+      },
+      {
+        "title": "Orol muammosining oqibatlari",
+        "body": "Orol dengizining qurishi atrof-muhit va odamlar uchun katta muammolar keltirdi. Tuproq shoʻrlanib, qishloq xoʻjaligi zarar koʻradi. Chang-toʻzon boʻronlari koʻpayib, odamlar sogʻligʻiga zarar yetkazmoqda. Baliqchilik va transport ham yoʻqolib ketdi.",
+        "example": "Masalan, Moʻynoq shahri bir vaqtlar baliqchilik markazi edi, lekin hozir dengizdan uzoqda qolib, iqtisodiyoti quladi. Chang boʻronlari esa nafas olish kasalliklarini koʻpaytirdi."
+      },
+      {
+        "title": "Muammoni hal qilish uchun nima qilinmoqda?",
+        "body": "Orol muammosini hal qilish uchun xalqaro tashkilotlar va davlatlar birgalikda ishlayapti. Daryolarga suv kam sarflanadigan texnologiyalar joriy qilinmoqda. Kichik koʻllar va oʻrmonlar barpo etilmoqda, shoʻr yerlarni tiklashga harakat qilinmoqda.",
+        "example": "Masalan, Qozogʻistonda „Kichik Orol“ loyihasi muvaffaqiyatli boʻldi – Shimoliy Orol dengizining bir qismi tiklandi. Oʻzbekistonda esa „Orol dengizi“ fondi atrof-muhitni yaxshilashga yordam bermoqda."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "aholi-soni-osishi",
+    "theory": [
+      {
+        "title": "Aholi soni nima?",
+        "body": "Aholi soni – bu dunyoda yoki bir mamlakatda yashayotgan odamlarning umumiy soni. Uni hisoblash uchun aholini roʻyxatga olish (roʻyxatdan oʻtkazish) oʻtkaziladi. Masalan, Oʻzbekistonda 2024-yilda taxminan 37 million kishi yashaydi.",
+        "example": "Xitoy dunyoda eng koʻp aholiga ega – 1,4 milliarddan ortiq kishi. Oʻzbekiston esa Markaziy Osiyoda aholisi eng koʻp davlat."
+      },
+      {
+        "title": "Aholi oʻsishi qanday oʻlchanadi?",
+        "body": "Aholi oʻsishi – bu bir yil ichida aholining qancha koʻpayganini koʻrsatadigan koʻrsatkich. U foizda yoki son bilan ifodalanadi. Masalan, agar bir yilda 1000 kishidan 20 kishi koʻpaygan boʻlsa, oʻsish 2% yoki 20 kishi deb yoziladi.",
+        "example": "2023-yilda Hindiston aholisi yiliga 1% ga oʻsdi, yaʼni har yili taxminan 14 million kishi qoʻshildi."
+      },
+      {
+        "title": "Tabiiy oʻsish nima?",
+        "body": "Tabiiy oʻsish – bu tugʻilish va oʻlimlar soni oʻrtasidagi farq. Agar tugʻilish koʻp boʻlsa, aholi oʻsadi; agar oʻlimlar koʻp boʻlsa, kamayadi. Bu koʻrsatkich har 1000 kishiga hisoblab chiqiladi. Masalan, 1000 kishiga 20 tugʻilish va 10 oʻlim boʻlsa, tabiiy oʻsish +10 boʻladi.",
+        "example": "Nigeriyada tugʻilish koʻp (har 1000 kishiga 40 dan ortiq), shuning uchun tabiiy oʻsish yuqori. Germaniyada esa tugʻilish kam (10 dan kam), shuning uchun aholi kamayib bormoqda."
+      },
+      {
+        "title": "Migratsiya va aholi oʻsishi",
+        "body": "Aholi soni faqat tugʻilish va oʻlim bilan emas, balki migratsiya (odamlarning bir joydan boshqasiga koʻchishi) bilan ham oʻzgaradi. Agar koʻp odam bir mamlakatga koʻchib kelsa, aholi soni oshadi; aksincha, ketib qolsa, kamayadi. Bu tabiiy oʻsishga qoʻshimcha taʼsir qiladi.",
+        "example": "AQShda har yili millionlab odamlar boshqa mamlakatlardan koʻchib keladi, shuning uchun aholi soni migratsiya tufayli ham oʻsadi. Suriyada esa urush tufayli koʻp odamlar ketgan, aholi soni kamaygan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "aholi-joylashuvi",
+    "theory": [
+      {
+        "title": "Aholining joylashishi nima?",
+        "body": "Aholining joylashishi – bu odamlarning yer yuzida qayerda yashashini koʻrsatadi. Baʼzi joylarda odamlar koʻp, baʼzilarida esa kam yashaydi. Bu tabiiy sharoit, iqtisodiy imkoniyatlar va tarixiy omillarga bogʻliq. Masalan, daryo boʻylarida odamlar koʻproq yashaydi, chunki suv hayot uchun zarur.",
+        "example": "Misollar: Toshkent shahri aholi zich joylashgan, Qoraqalpogʻistonning baʼzi choʻl hududlarida esa aholi kam."
+      },
+      {
+        "title": "Aholi zichligi qanday oʻlchanadi?",
+        "body": "Aholi zichligi – bu bir kvadrat kilometrga necha kishi toʻgʻri kelishini koʻrsatadi. Hisoblash uchun mintaqadagi aholi sonini uning maydoniga boʻlamiz. Natija qancha katta boʻlsa, hudud shuncha zich joylashgan degani. Masalan, shaharlarda zichlik yuqori, qishloqlarda esa pastroq.",
+        "example": "Toshkent viloyatida 1 km² ga 600 kishi toʻgʻri keladi, Navoiy viloyatida esa atigi 10 kishi."
+      },
+      {
+        "title": "Aholi zichligini nima belgilaydi?",
+        "body": "Aholi zichligini bir necha omil belgilaydi: tabiiy sharoit (iqlim, relyef), iqtisodiy imkoniyatlar (ish joylari, infratuzilma) va tarixiy sabablar (urushlar, migratsiya). Qulay joylarda odamlar koʻproq toʻplanadi, noqulay joylarda esa kamroq yashaydi.",
+        "example": "Fargʻona vodiysi aholi zichligi yuqori, chunki bu yerda yer unumdor, iqlim qulay. Choʻllarda esa zichlik past, chunki suv va resurslar kam."
+      },
+      {
+        "title": "Oʻzbekistonda aholi zichligi qayerda yuqori?",
+        "body": "Oʻzbekistonda aholi zichligi eng yuqori boʻlgan joylar – Fargʻona vodiysi, Toshkent va Samarqand viloyatlari. Bu yerlarda iqtisodiy imkoniyatlar koʻp, yer unumdor, transport rivojlangan. Choʻl va togʻli hududlarda esa aholi zichligi past, chunki yashash sharoitlari qiyin.",
+        "example": "Fargʻona viloyatida 1 km² ga 500 dan ortiq kishi toʻgʻri keladi, Qoraqalpogʻistonning baʼzi tumanlarida esa 5 kishigacha."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "irqlar-xalqlar",
+    "theory": [
+      {
+        "title": "Irq nima?",
+        "body": "Irq – bu odamlarning tashqi belgilariga qarab ajratiladigan katta guruh. Bularga teri rangi, soch turi, yuz tuzilishi kabi xususiyatlar kiradi. Bu belgilar asosan iqlim va geografik sharoitga moslashish natijasida paydo bo'lgan.",
+        "example": "Masalan, ekvator yaqinida yashovchi odamlarning terisi quyuqroq, chunki quyosh nurlaridan himoya qilish kerak. Shimoliy mintaqalarda esa odamlarning terisi oqroq bo'lishi mumkin."
+      },
+      {
+        "title": "Asosiy irqlar qaysilar?",
+        "body": "Dunyoda uchta asosiy irq bor: yevropeoid (oq irq), mongoloid (sariq irq) va negroid (qora irq). Ular orasida aralash irqlar ham mavjud, masalan, metislar yoki mulatlar. Bu irqlar bir-biridan tashqi ko'rinishida farq qiladi.",
+        "example": "O'zbekiston aholisi asosan yevropeoid irqiga mansub, ammo sharqiy viloyatlarda mongoloid irqiga xos belgilar ham uchraydi."
+      },
+      {
+        "title": "Xalq nima?",
+        "body": "Xalq – bu bir til, madaniyat, tarix va urf-odatlar bilan birlashgan odamlar guruhi. Xalqlar irqlardan farq qiladi, chunki irq tashqi belgilarga, xalq esa madaniy va til birligiga asoslanadi. Bir irq ichida bir necha xalq bo'lishi mumkin.",
+        "example": "Masalan, oq irq ichida ruslar, nemislar, o'zbeklar kabi turli xalqlar mavjud. Ularning barchasi yevropeoid irqiga mansub, lekin har birining o'z tili va madaniyati bor."
+      },
+      {
+        "title": "Xalq va millat farqi",
+        "body": "Xalq – bu tabiiy ravishda shakllangan guruh, millat esa siyosiy va iqtisodiy birlashuv natijasida paydo bo'ladi. Millatda davlat yoki umumiy iqtisodiy aloqalar bo'lishi mumkin. Xalq esa ko'pincha tarixiy jarayonlarda shakllanadi.",
+        "example": "O'zbek xalqining tarixi ming yillar davomida shakllangan, O'zbekiston millati esa mustaqillikdan keyin davlat chegaralari doirasida birlashgan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "aholi-migratsiyasi",
+    "theory": [
+      {
+        "title": "Migratsiya nima?",
+        "body": "Migratsiya – bu odamlarning bir joydan boshqa joyga doimiy yoki vaqtinchalik koʻchib ketishi. Bu koʻchish mamlakat ichida ham, chet elga ham boʻlishi mumkin. Masalan, qishloqdan shaharga ishlash uchun kelish ham migratsiya hisoblanadi.",
+        "example": "Toshkentdan Samarqandga oʻqishga kelgan talaba – ichki migratsiya. Oʻzbekistondan Rossiyaga mehnat qilish uchun ketgan ishchi – tashqi migratsiya."
+      },
+      {
+        "title": "Migratsiya turlari",
+        "body": "Migratsiya ikki turga boʻlinadi: ichki (mamlakat ichida) va tashqi (chet elga). Shuningdek, vaqt boʻyicha doimiy (abadiy koʻchish) va vaqtinchalik (bir muddatga ketish) boʻlishi mumkin. Koʻpincha odamlar iqtisodiy sabablarga koʻra koʻchadi.",
+        "example": "Ichki: Fargʻonadan Toshkentga ishlash uchun kelish. Tashqi: Oʻzbekistondan Turkiyaga mehnat migratsiyasi."
+      },
+      {
+        "title": "Migratsiya sabablari",
+        "body": "Odamlar nima uchun koʻchadi? Asosiy sabablari: ish topish, yaxshi hayot sharoiti, taʼlim olish, urush yoki tabiiy ofatlardan qochish. Baʼzida oilaviy sabablar ham boʻlishi mumkin, masalan, turmush qurish uchun boshqa shaharga koʻchish.",
+        "example": "Ishsizlik tufayli qishloqdan shaharga koʻchish – iqtisodiy sabab. Urushdan qochib, boshqa mamlakatga ketish – siyosiy sabab."
+      },
+      {
+        "title": "Migratsiyaning oqibatlari",
+        "body": "Migratsiya ham ijobiy, ham salbiy oqibatlarga olib keladi. Ijobiy tomoni: ishchi kuchining taqsimlanishi, madaniy almashinuv, iqtisodiy rivojlanish. Salbiy tomoni: oilalarning ajralishi, madaniy toʻqnashuvlar, aholi zichligining oshishi (masalan, katta shaharlarda).",
+        "example": "Toshkentda aholi zichligining oshishi – migratsiyaning salbiy oqibati. Chet eldan kelgan pul mablagʻlari (remittensalar) – ijobiy oqibat."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "urbanizatsiya",
+    "theory": [
+      {
+        "title": "Urbanizatsiya nima?",
+        "body": "Urbanizatsiya – bu qishloqlardan shaharlarga odamlarning koʻchishi va shaharlarning kengayishi jarayoni. Oddiy qilib aytganda, koʻproq odam shaharlarda yashay boshlaydi, qishloqlar esa kamayadi. Bu tabiiy ravishda, odamlar ish, taʼlim yoki qulaylik izlab shaharlarga kelganda sodir boʻladi.",
+        "example": "Masalan, 1950-yilda Oʻzbekistonda aholining atigi 20% shaharlarda yashagan boʻlsa, bugun bu koʻrsatkich 50% dan oshdi. Toshkent, Samarqand kabi shaharlar oʻsib, atrofdagi qishloqlarni oʻziga qoʻshib oldi."
+      },
+      {
+        "title": "Shahar va qishloq farqi",
+        "body": "Shahar – bu koʻp odam yashaydigan, koʻp qavatli uylar, yoʻllar, zavodlar, maktablar, kasalxonalar kabi infratuzilmalar mavjud boʻlgan joy. Qishloq esa odatda kamroq aholiga ega, uy-joylar bir qavatli, xoʻjalik va qishloq xoʻjaligi bilan shugʻullaniladi. Asosiy farq – aholi zichligi va iqtisodiy imkoniyatlardadir.",
+        "example": "Toshkent – shahar, Chortoq (Namangan viloyati) – qishloq. Toshkentda metrolar, universitetlar, savdo markazlari bor, Chortoqda esa asosan fermer xoʻjaliklari va kichik doʻkonlar mavjud."
+      },
+      {
+        "title": "Megapolis va yirik shaharlar",
+        "body": "Megapolis – bu bir necha million aholiga ega boʻlgan ulkan shahar. Bunday shaharlarda transport, iqtisodiyot va madaniyat juda rivojlangan boʻladi. Oʻzbekistonda Toshkent yagona megapolis hisoblanadi. Yirik shaharlar esa 500 mingdan 1 milliongacha aholiga ega boʻlib, mintaqaviy markazlar hisoblanadi.",
+        "example": "Toshkent – megapolis (2,5 milliondan ortiq aholi), Samarqand va Namangan – yirik shaharlar (500 mingdan ortiq aholi). Megapolislarda koʻproq imkoniyatlar, lekin tirbandlik va ifloslanish ham koʻp boʻladi."
+      },
+      {
+        "title": "Urbanizatsiyaning ijobiy va salbiy tomonlari",
+        "body": "Urbanizatsiya odamlarga yaxshi taʼlim, sogʻliqni saqlash va ish imkoniyatlarini beradi. Lekin shaharlar haddan tashqari oʻsib, tirbandlik, uy-joy tanqisligi, ifloslanish va stress kabi muammolarni keltirib chiqaradi. Qishloqlarda esa yoshlar kamayib, iqtisodiy rivojlanish sekinlashadi.",
+        "example": "Toshkentda koʻproq universitetlar va kasalxonalar bor, lekin transportda tirbandlik va havo ifloslanishi muammo. Qishloqlarda esa yoshlar kamayib, fermer xoʻjaliklari tanazzulga uchrayapti."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "jahon-xojaligi",
+    "theory": [
+      {
+        "title": "Jahon xo'jaligi nima?",
+        "body": "Jahon xo'jaligi – bu barcha mamlakatlarning iqtisodiy faoliyati yigʻindisi. Oddiy qilib aytganda, dunyodagi barcha mamlakatlar bir-biriga bogʻliq boʻlib, tovarlar, xizmatlar va pul almashinadi. Har bir mamlakat oʻziga xos mahsulotlar ishlab chiqaradi va ularni sotadi yoki sotib oladi.",
+        "example": "Oʻzbekiston paxta yetishtirib, uni chet elga sotadi, evaziga esa mashinalar, texnika yoki oziq-ovqat mahsulotlarini xarid qiladi."
+      },
+      {
+        "title": "Xo'jalik tarmoqlari turlari",
+        "body": "Jahon xo'jaligi ikki katta guruhga boʻlinadi: **moddiy ishlab chiqarish** (sanoat, qishloq xoʻjaligi, qurilish) va **noishlab chiqarish** (xizmatlar, savdo, transport). Moddiy tarmoqlar jismoniy mahsulotlar yaratadi, noishlab chiqarish esa odamlarga kerakli xizmatlarni taqdim etadi.",
+        "example": "Sanoat – avtomobil ishlab chiqarish (moddiy), transport – yuk tashish xizmati (noishlab chiqarish)."
+      },
+      {
+        "title": "Ixtisoslashuv va xalqaro mehnat taqsimoti",
+        "body": "Har bir mamlakat oʻziga qulay boʻlgan mahsulotni koʻproq ishlab chiqaradi va uni boshqa mamlakatlarga sotadi. Buni **ixtisoslashuv** deyiladi. Natijada, mamlakatlar bir-biriga bogʻlanib, **xalqaro mehnat taqsimoti** paydo boʻladi – har bir davlat oʻziga mos ishni bajaradi.",
+        "example": "Braziliya kofe yetishtirishda, Yaponiya esa elektronika ishlab chiqarishda ixtisoslashgan."
+      },
+      {
+        "title": "Global iqtisodiy integratsiya",
+        "body": "Mamlakatlar birlashib, iqtisodiy ittifoqlar tuzadi. Bu **global integratsiya** deyiladi. Bunday ittifoqlar savdo toʻsiqlarini kamaytiradi, investitsiyalarni osonlashtiradi va mamlakatlar oʻrtasidagi hamkorlikni kuchaytiradi. Masalan, Yevropa Ittifoqi (YI) yoki Osiyo-Tinch okean iqtisodiy hamkorligi (APEC).",
+        "example": "Yevropa Ittifoqiga aʼzo mamlakatlar oʻrtasida vizasiz sayohat qilish va yagona valyuta (yevro) mavjud."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "sanoat-geografiyasi",
+    "theory": [
+      {
+        "title": "Sanoat nima?",
+        "body": "Sanoat – bu xom ashyo yoki materiallarni tayyor mahsulotga aylantiradigan faoliyat. Oddiy qilib aytganda, tabiatdan olingan narsalarni odamlar foydalanishi uchun moslashtirish. Masalan, paxta tolasidan matolar toʻqish yoki neftdan benzin ishlab chiqarish sanoatga kiradi.",
+        "example": "Toʻqimachilik fabrikasi (paxtadan matolar tayyorlash) yoki avtomobil zavodi (metall va plastmassadan mashina yasash)."
+      },
+      {
+        "title": "Sanoat turlari",
+        "body": "Sanoat ikki katta turga boʻlinadi: ogʻir va yengil sanoat. Ogʻir sanoat katta mashinalar, metallar, yoqilgʻi bilan ishlaydi. Yengil sanoat esa kiyim-kechak, oziq-ovqat kabi kundalik ehtiyojlar uchun mahsulotlar ishlab chiqaradi.",
+        "example": "Ogʻir sanoat: poʻlat ishlab chiqarish (metallurgiya). Yengil sanoat: tikuvchilik fabrikasi (kiyim tikish)."
+      },
+      {
+        "title": "Sanoatning joylashuvi",
+        "body": "Sanoat korxonalari qayerda joylashishi muhim. Koʻpincha ular xom ashyo manbalariga yaqin (masalan, konlar yonida) yoki isteʼmolchilar koʻp boʻlgan joylarda (shaharlarda) quriladi. Transport va energiya ham katta rol oʻynaydi – yoʻllar va elektrsiz sanoat ishlamaydi!",
+        "example": "Fargʻonadagi shakar zavodi qand lavlagi yetishtiriladigan hududda joylashgan. Toshkentdagi avtomobil zavodi esa katta shahar yaqinida, bozorga yaqinroq."
+      },
+      {
+        "title": "Oʻzbekistonda asosiy sanoatlar",
+        "body": "Oʻzbekistonda eng muhim sanoatlar: paxta tozalash, toʻqimachilik, oziq-ovqat, kimyo, mashinasozlik va konchilik. Mamlakatimizda tabiiy gaz, oltin, mis kabi qazilma boyliklar koʻp, shuning uchun konchilik sanoati rivojlangan. Paxta esa anʼanaviy ravishda toʻqimachilik sanoatining asosidir.",
+        "example": "Navoiy kon-metallurgiya kombinati (oltin qazib olish), Toshkent toʻqimachilik kombinati (matolar ishlab chiqarish)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "qishloq-xojaligi",
+    "theory": [
+      {
+        "title": "Qishloq xo'jaligi nima?",
+        "body": "Qishloq xo'jaligi – bu yer, suv va hayvonlardan foydalanib, oziq-ovqat, paxta, goʻsht kabi mahsulotlar yetishtirish va ishlab chiqarish. Bu insoniyatning eng qadimgi kasbi boʻlib, bugungi kunda ham dunyoning asosiy tarmoqlaridan biri. Oʻzbekistonda qishloq xoʻjaligi mamlakat iqtisodiyotining muhim qismi hisoblanadi.",
+        "example": "Gʻallachilik (bugʻdoy, sholi yetishtirish), paxtachilik, chorvachilik (qoramol, qoʻy boqish) – bularning barchasi qishloq xoʻjaligiga kiradi."
+      },
+      {
+        "title": "Ekiladigan ekinlar turlari",
+        "body": "Qishloq xoʻjaligida ekiladigan ekinlar ikki katta guruhga boʻlinadi: **oziq-ovqat ekinlari** (odamlar isteʼmol qiladigan mahsulotlar) va **texnika ekinlari** (sanoatda ishlatiladigan xom ashyo). Oʻzbekistonda bu ikki tur ham keng tarqalgan, chunki bizda ham non, sabzavot, ham paxta, kanop yetishtiriladi.",
+        "example": "Oziq-ovqat ekinlari: bugʻdoy, sholi, kartoshka. Texnika ekinlari: paxta, kanop, tamaki."
+      },
+      {
+        "title": "Chorvachilik nima?",
+        "body": "Chorvachilik – bu hayvonlarni boqish va ulardan goʻsht, sut, jun, teri kabi mahsulotlar olish. Oʻzbekistonda chorvachilik qishloq xoʻjaligining muhim qismi boʻlib, asosan qoʻy, qoramol, echki, parranda va yilqichilik bilan shugʻullaniladi. Chorvachilik ikki turga boʻlinadi: **koʻchmanchi** (yaylovlarda) va **oʻtroq** (fermalarda).",
+        "example": "Qoraqalpogʻistonda qoʻy boqish koʻchmanchi chorvachilikka, Toshkent viloyatida esa fermer xoʻjaliklarida qoramol boqish oʻtroq chorvachilikka misol boʻladi."
+      },
+      {
+        "title": "Qishloq xoʻjaligining geografiyasi",
+        "body": "Har bir mintaqada qaysi ekinlar yetishtirilishi yoki qanday chorvachilik qilinishi tabiiy sharoitga bogʻliq. Masalan, issiq va qurgʻoqchil joylarda paxta, uzum, qovun yetishtirish qulay, nam va serunum joylarda esa sholi, sabzavotlar ekiladi. Oʻzbekistonda **Fargʻona vodiysi** – paxta va mevalar, **Xorazm** – sholi va poliz ekinlari, **Qoraqalpogʻiston** – qoʻychilik va baliqchilik uchun mashhur.",
+        "example": "Fargʻona vodiysida paxta koʻp ekiladi, chunki u yerda issiq iqlim va sugʻorish imkoniyati yaxshi. Qoraqalpogʻistonda esa qoʻy boqish afzalroq, chunki yaylovlar keng va qurgʻoqchil iqlim chorvachilikka mos."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "transport-geografiyasi",
+    "theory": [
+      {
+        "title": "Transport nima?",
+        "body": "Transport – bu odamlar, yuklar va ma’lumotlarni bir joydan ikkinchi joyga olib borish usuli. U bizning harakatchanligimizni ta’minlaydi va mamlakat iqtisodiyotining muhim qismi. Transportsiz zamonaviy hayotni tasavvur qilib bo‘lmaydi!",
+        "example": "Avtobus sizni maktabga olib boradi, yuk mashinasi bozorlarga meva-sabzavot yetkazib beradi."
+      },
+      {
+        "title": "Transport turlari",
+        "body": "Transportni asosan uch turga ajratamiz: quruqlik (avtomobil, temir yo‘l), suv (kema, qayiq) va havo (samolyot, vertolyot) transporti. Har bir tur o‘ziga xos xususiyatlarga ega va turli maqsadlarda ishlatiladi.",
+        "example": "Toshkentdan Samarqandga poyezdda borish – quruqlik transporti, O‘zbekistondan Xitoyga samolyotda uchish – havo transporti."
+      },
+      {
+        "title": "Transportning ahamiyati",
+        "body": "Transport mamlakat ichida va xalqaro miqyosda savdo-sotiqni rivojlantiradi, odamlarning ishga, o‘qishga borishini osonlashtiradi. Shuningdek, turizm va madaniy aloqalarni mustahkamlaydi. Transport yaxshi bo‘lmasa, iqtisodiyot ham sust rivojlanadi.",
+        "example": "O‘zbekistonning paxta va mevalari transport orqali xorijga eksport qilinadi, bu mamlakat uchun katta daromad manbai."
+      },
+      {
+        "title": "Transport geografiyasi",
+        "body": "Transport geografiyasi – bu transport tizimlarining joylashishi, rivojlanishi va ularning tabiiy sharoit, iqtisodiyot bilan bog‘liqligini o‘rganadi. Masalan, tog‘li hududlarda yo‘llar qiyinroq quriladi, shuning uchun transport turlari ham boshqacha bo‘lishi mumkin.",
+        "example": "Farg‘ona vodiysida avtomobil yo‘llari zich, chunki bu yerda aholi ko‘p. Ammo Qoraqalpog‘istonning ba’zi cho‘l hududlarida temir yo‘l yo‘qligi uchun transport cheklangan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "aholi-iqtisodiy",
+    "lesson_slug": "xalqaro-integratsiya",
+    "theory": [
+      {
+        "title": "Iqtisodiy integratsiya nima?",
+        "body": "Xalqaro iqtisodiy integratsiya – bu turli davlatlar birgalikda iqtisodiy hamkorlik qilish uchun birlashishi. Bunda davlatlar savdo, investitsiyalar yoki siyosatda bir-biriga yordam berishadi. Masalan, birgalikda bozor yaratish yoki tariflarni kamaytirish mumkin.",
+        "example": "Yevropa Ittifoqi (YI) – 27 davlat birlashib, umumiy bozor va pul birligi (yevro) yaratgan eng yirik integratsiya misoli."
+      },
+      {
+        "title": "Integratsiya darajalari",
+        "body": "Integratsiya bir necha bosqichda amalga oshadi. Eng oddiy shakli – **erkin savdo zonasi** (davlatlar o‘rtasida tariflar bekor qilinadi). Keyinroq **bozor ittifoqi** (umumiy savdo qoidalar), **iqtisodiy ittifoq** (umumiy pul siyosati) va nihoyat **to‘liq integratsiya** (siyosiy birlashuv) keladi.",
+        "example": "NAFTA (hozirgi USMCA) – AQSh, Kanada va Meksika o‘rtasidagi erkin savdo zonasi. Yevropa Ittifoqi esa iqtisodiy ittifoq darajasiga yetgan."
+      },
+      {
+        "title": "Integratsiyaning foydalari",
+        "body": "Integratsiya davlatlarga katta imkoniyatlar beradi: tovarlar arzonlashadi, investitsiyalar ko‘payadi, texnologiyalar almashinadi. Shuningdek, kichik davlatlar katta bozorlarga kirish imkoniga ega bo‘ladi. Lekin ba’zi hollarda mahalliy ishlab chiqaruvchilar raqobatda qiyinlikka uchrashi mumkin.",
+        "example": "O‘zbekistonning YXHT va Shanxay Hamkorlik Tashkilotiga a’zoligi tufayli eksport imkoniyatlari kengaydi, masalan, paxta va mevalarni Osiyo bozorlariga sotish osonlashdi."
+      },
+      {
+        "title": "Integratsiyaning muammolari",
+        "body": "Integratsiya har doim ham oson emas. Davlatlar o‘z suverenitetidan ayrilishni xohlamaydilar, ba’zi tarmoqlar (masalan, qishloq xo‘jaligi) himoyalanishi kerak bo‘ladi. Shuningdek, iqtisodiy inqirozlar bir davlatdan boshqasiga o‘tishi mumkin – bu **integratsiya riski** deb ataladi.",
+        "example": "2010-yildagi Yevro inqirozi Gretsiya, Ispaniya kabi davlatlarni qiyin ahvolga solib, butun Yevropa Ittifoqiga ta’sir qildi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "materiklar-okeanlar",
+    "theory": [
+      {
+        "title": "Materik nima?",
+        "body": "Materik – bu Yer yuzidagi ulkan quruqlik qismi, suv bilan oʻralgan. Dunyoda jami 6 ta materik bor. Ular bir-biridan okeanlar, dengizlar yoki boʻgʻozlar bilan ajralgan. Har bir materikning oʻziga xos tabiati, iqlimi va hayvonot dunyosi mavjud.",
+        "example": "Masalan, Afrika materigi issiq iqlimi va choʻllari bilan mashhur, Antarktida esa doimiy muz bilan qoplangan."
+      },
+      {
+        "title": "Okean nima?",
+        "body": "Okean – bu Yer yuzining katta qismini egallagan ulkan tuzli suv havzalari. Dunyoda 5 ta okean bor. Ular materiklarni bir-biridan ajratib turadi va iqlimga katta taʼsir koʻrsatadi. Okeanlar dengizlarga nisbatan ancha katta va chuqurroq.",
+        "example": "Tinch okean – dunyodagi eng katta okean boʻlib, Osiyo va Amerika materiklarini ajratib turadi."
+      },
+      {
+        "title": "Materik va qitʼa farqi",
+        "body": "Koʻpincha „materik“ va „qitʼa“ soʻzlari bir xil maʼnoda ishlatiladi, lekin farqi bor. Materik – faqat quruqlik qismi, qitʼa esa quruqlik va uning atrofidagi orollarni ham oʻz ichiga oladi. Masalan, Yevroosiyo – bitta qitʼa, lekin ikki materik (Yevropa va Osiyo) deb hisoblanadi.",
+        "example": "Avstraliya materigi ham, Avstraliya qitʼasi ham bir xil hududni anglatadi, lekin Yevroosiyo qitʼasi ikki materikdan iborat."
+      },
+      {
+        "title": "Dunyodagi eng katta materik",
+        "body": "Yer yuzidagi eng katta materik – Osiyo. U nafaqat maydoni (44,5 million km²), balki aholisi soni boʻyicha ham birinchi oʻrinda. Osiyoda dunyoning eng baland togʻlari (Himolay), eng katta koʻllari (Baykal) va eng zich joylashgan davlatlar (Xitoy, Hindiston) joylashgan.",
+        "example": "Osiyoda Oʻzbekiston ham joylashgan boʻlib, bu materikning markaziy qismida joylashgan mamlakatimizdir."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "yevrosiyo",
+    "theory": [
+      {
+        "title": "Yevrosiyo nima?",
+        "body": "Yevrosiyo – Yer sharidagi eng katta qitʼa. U Yevropa va Osiyo qitʼalarini birlashtiradi. Aslida, bu ikkisi tabiiy ravishda ajralmagan, shuning uchun geograflar ularni bitta katta qitʼa deb hisoblashadi. Yevrosiyo shimoldan Arktika okeani, janubdan esa Hind va Tinch okeanlari bilan oʻralgan.",
+        "example": "Masalan, Rossiya Yevrosiyoda joylashgan – uning bir qismi Yevropada, ikkinchi qismi Osiyoda. Xitoy ham butunlay Osiyo qismida, lekin Yevrosiyoning bir boʻlagi."
+      },
+      {
+        "title": "Yevrosiyoning chegaralari",
+        "body": "Yevropa va Osiyo oʻrtasidagi shartli chegara Ural togʻlari, Ural daryosi, Kaspiy dengizi, Kavkaz togʻlari va Qora dengiz orqali oʻtadi. Bu chiziqni odamlar oʻylab topishgan, tabiatda aniq ajratuvchi yoʻq. Shuning uchun baʼzi mamlakatlar, masalan, Turkiya, ikkala qitʼada ham joylashgan deb hisoblanadi.",
+        "example": "Oʻzbekiston Osiyoda, Germaniya esa Yevropada joylashgan. Ammo ikkalasi ham Yevrosiyo qitʼasining bir qismi."
+      },
+      {
+        "title": "Yevrosiyoning iqlimi",
+        "body": "Yevrosiyo juda katta, shuning uchun iqlimi ham xilma-xil. Shimolda muzdek sovuq (Arktika iqlimi), janubda issiq va nam (tropik iqlim), markazda esa kontinental iqlim – qishi sovuq, yozi issiq. Eng issiq joylari Yaqin Sharq va Markaziy Osiyoda, eng sovuq joylari esa Sibirda.",
+        "example": "Misol uchun, Oʻzbekistonda yozi quruq va issiq (+40°), qishi esa yumshoq (+5°). Rossiyaning shimolida esa qishda −50° gacha sovuq boʻlishi mumkin!"
+      },
+      {
+        "title": "Yevrosiyodagi eng katta davlatlar",
+        "body": "Yevrosiyoda dunyoning eng katta davlatlari joylashgan. Maydoni boʻyicha eng kattasi – Rossiya (butun qitʼaning uchdan bir qismi!). Keyin Xitoy, Hindiston, Qozogʻiston va Saudiya Arabistoni keladi. Aholisi boʻyicha esa Xitoy va Hindiston dunyoda birinchi va ikkinchi oʻrinda turadi.",
+        "example": "Oʻzbekiston ham Yevrosiyoda – maydoni boʻyicha 56-oʻrinda, aholisi boʻyicha esa 42-oʻrinda. Ammo bizning mamlakatimiz Markaziy Osiyoning eng gavjum davlati!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "afrika",
+    "theory": [
+      {
+        "title": "Afrika qayerda joylashgan?",
+        "body": "Afrika – Yer sharidagi eng issiq va ikkinchi yirik qitʼa. U Yevropa va Osiyodan Oʻrta dengiz, Qizil dengiz va Suvaysh kanali orqali ajralib turadi. Afrika ekvator chizigʻi orqali oʻtadi, shuning uchun u yerda yil davomida issiq boʻladi.",
+        "example": "Masalan, Kongo daryosi ekvatorda joylashgan, shuning uchun u yerda doim yozdek issiq. Misr esa Afrikada, lekin Oʻrta dengizga yaqin, shuning uchun u yerda qishi salqinroq."
+      },
+      {
+        "title": "Afrikaning eng katta choʻli",
+        "body": "Sahroi Kabir – dunyodagi eng katta issiq choʻl. U Afrikada, qitʼaning shimolida joylashgan. Sahroi Kabir deyarli butunlay qum va toshlardan iborat, yomgʻir kam yogʻadi, kunlari juda issiq, kechalari esa sovuq boʻladi.",
+        "example": "Masalan, Sahroi Kabirda kunlari harorat +50°C ga yetishi mumkin, kechalari esa 0°C gacha pasayadi. Bu yerda tuya va kaktuslar kabi issiqqa chidamli oʻsimliklar oʻsadi."
+      },
+      {
+        "title": "Afrikaning eng uzun daryosi",
+        "body": "Nil daryosi – dunyodagi eng uzun daryo (6650 km). U Afrikadan oqib oʻtadi va Misrning deyarli barcha aholisi shu daryo suviga bogʻliq. Nilning suvi qishloq xoʻjaligi uchun juda muhim, chunki u yerda yomgʻir kam yogʻadi.",
+        "example": "Misrda qadim zamonlardan beri Nil daryosi boʻyida dehqonchilik qilinadi. Hatto piramidalar ham Nil yaqinida qurilgan, chunki u yerda yer unumdor."
+      },
+      {
+        "title": "Afrikaning eng baland togʻi",
+        "body": "Kilimanjaro – Afrikadagi eng baland togʻ (5895 m). U Tanzaniyada joylashgan va qor bilan qoplangan choʻqqisi bilan mashhur. Kilimanjaro – harakatsiz vulqon, yaʼni u endi otilmaydi, lekin uning atrofida issiq buloqlar bor.",
+        "example": "Kilimanjaro choʻqqisiga chiqish uchun alpinistlar bir necha kun yurishadi. Togʻning pastki qismida tropik oʻrmonlar, yuqoriroqda esa muzliklar bor."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "shimoliy-amerika",
+    "theory": [
+      {
+        "title": "Shimoliy Amerika qayerda?",
+        "body": "Shimoliy Amerika – Yer sharining shimoliy yarimsharida joylashgan uchinchi yirik qitʼa. Gʻarbda Tinch okeani, sharqda Atlantika okeani, shimolda Shimoliy Muz okeani bilan oʻralgan. Janubda Panama boʻyni orqali Janubiy Amerika bilan tutashadi.",
+        "example": "AQSh, Kanada va Meksika – Shimoliy Amerikadagi eng yirik davlatlar."
+      },
+      {
+        "title": "Relyefning xilma-xilligi",
+        "body": "Shimoliy Amerikada togʻlar, tekisliklar va choʻllar bor. Gʻarbda baland togʻ tizmalari (masalan, Qoyali togʻlar), sharqda esa tekisliklar (Buyuk tekisliklar) joylashgan. Bu yerda dunyodagi eng katta chuchuk suvli koʻllar ham bor – Buyuk koʻllar.",
+        "example": "Missisipi daryosi Buyuk tekisliklardan oqib oʻtadi, Grand Kanyon esa Qoyali togʻlar yaqinidagi ajoyib tabiat yodgorligi."
+      },
+      {
+        "title": "Iqlim zonalari",
+        "body": "Shimoliy Amerikada har xil iqlim zonalari mavjud: shimolda sovuq arktika iqlimi, markazda moʻʼtadil kontinental iqlim, janubda tropik va choʻl iqlimi. Bu yerda tornadolar va dovullar ham tez-tez uchraydi.",
+        "example": "Kanada shimolida qishda −40°C gacha sovuq boʻlsa, Meksika janubida yil davomida issiq boʻladi."
+      },
+      {
+        "title": "Aholisi va madaniyati",
+        "body": "Shimoliy Amerika koʻp millatli qitʼa. Asosan Yevropa, Afrika va Osiyodan kelgan muhojirlar avlodlari yashaydi. Ingliz, ispan va fransuz tillari keng tarqalgan. Bu yerda turli madaniyatlar aralashib, oʻziga xos madaniy merosni yaratgan.",
+        "example": "AQShda „Thanksgiving“ bayrami, Meksikada „Día de los Muertos“ (Oʻliklar kuni) nishonlanadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "janubiy-amerika",
+    "theory": [
+      {
+        "title": "Janubiy Amerika qayerda?",
+        "body": "Janubiy Amerika – Yer sharining gʻarbiy yarimsharida, asosan janubiy qismida joylashgan katta materik. U shimolda Shimoliy Amerikadan Panama boʻyni bilan ajralib turadi, sharqda Atlantika okeani, gʻarbda esa Tinch okeani bilan oʻralgan.",
+        "example": "Masalan, Braziliya, Argentina va Peru kabi davlatlar shu materikda joylashgan."
+      },
+      {
+        "title": "Eng uzun daryo – Amazonka",
+        "body": "Janubiy Amerikadagi Amazonka daryosi dunyodagi eng uzun va suvi eng koʻp daryolardan biri. U Braziliya, Peru va Kolumbiya kabi davlatlardan oqib oʻtadi. Amazonka oʻrmonlari dunyodagi eng katta tropik oʻrmon boʻlib, koʻplab noyob hayvonlar va oʻsimliklarga uy.",
+        "example": "Amazonka daryosida piraniyalar, daryo delfinlari va anakondalar yashaydi."
+      },
+      {
+        "title": "And togʻlari – dunyodagi eng uzun togʻ tizmasi",
+        "body": "And togʻlari Janubiy Amerikaning gʻarbiy qirgʻogʻi boʻylab choʻzilgan ulkan togʻ tizmasi. U 7000 km dan ortiq masofani egallab, Venesuela, Kolumbiya, Ekvador, Peru, Boliviya, Chili va Argentinadan oʻtadi. Bu togʻlarda dunyodagi eng baland vulkanlar joylashgan.",
+        "example": "Masalan, And togʻlarida joylashgan Aconcagua choʻqqisi (6960 m) Gʻarbiy yarimshardagi eng baland nuqtadir."
+      },
+      {
+        "title": "Janubiy Amerikaning iqlimi",
+        "body": "Bu materikda turli xil iqlim zonalari mavjud: shimolda tropik issiq va nam iqlim, markazda choʻl va dashtlar, janubda esa moʻtadil va sovuq iqlim hukmron. Amazonka oʻrmonlarida yil davomida issiq va nam, Atakama choʻlida esa dunyodagi eng quruq joylardan biri.",
+        "example": "Masalan, Braziliyaning Rio-de-Janeyro shahrida doim issiq, Chilining janubida esa qish sovuq boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "avstraliya-okeaniya",
+    "theory": [
+      {
+        "title": "Avstraliya qayerda?",
+        "body": "Avstraliya – dunyodagi eng kichik materik, lekin eng katta orol ham hisoblanadi. U Janubiy yarimsharda, Tinch va Hind okeanlari orasida joylashgan. Uning atrofida hech qanday boshqa materik yo‘q, shuning uchun uni „yakka materik“ deb ham atashadi.",
+        "example": "Masalan, Avstraliyadan Osiyoga uchmoqchi bo‘lsangiz, kamida 7-8 soat parvoz qilishingiz kerak, chunki u juda uzoqda joylashgan."
+      },
+      {
+        "title": "Okeaniya nima?",
+        "body": "Okeaniya – Tinch okeanining janubiy va markaziy qismida joylashgan minglab orollar guruhi. U uchta asosiy qismga bo‘linadi: Melaneziya, Mikroneziya va Polineziya. Avstraliya ham baʼzan Okeaniyaga kiritiladi, lekin u alohida materik hisoblanadi.",
+        "example": "Masalan, Gavayi orollari Polineziyaga, Fiji esa Melaneziyaga kiradi."
+      },
+      {
+        "title": "Avstraliyaning iqlimi",
+        "body": "Avstraliyaning katta qismi issiq va quruq iqlimga ega. Shimolda tropik iqlim hukmron – u yerda nam va issiq, janubda esa mo‘tadil iqlim. Markaziy qismida esa cho‘l va chala cho‘l zonalari bor, u yerda yog‘ingarchilik kam bo‘ladi.",
+        "example": "Masalan, Sidneyda yozi issiq, qishi yumshoq, ammo Uluru (Ayers Rock) atrofida esa deyarli doim quyoshli va quruq."
+      },
+      {
+        "title": "Avstraliya hayvonlari",
+        "body": "Avstraliya o‘zining noyob hayvonlari bilan mashhur. Ko‘p hayvonlar faqat shu yerda yashaydi – masalan, kenguru, koalalar, echidna va platipus. Bu hayvonlar millionlab yillar davomida boshqa materiklardan ajralib qolganligi sababli shunday noyob rivojlangan.",
+        "example": "Koalalar faqat evkalipt daraxtlarining barglarini yeydi, platipus esa tuxum qo‘yadigan sutemizuvchi – juda g‘alati, to‘g‘rimi?"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "antarktida",
+    "theory": [
+      {
+        "title": "Antarktida – muz qitʼasi",
+        "body": "Antarktida – dunyodagi eng sovuq va quruq qitʼa. U butunlay Janubiy qutbda joylashgan va 98% muz bilan qoplangan. Bu yerda doimiy aholi yashamaydi, faqat olimlar va tadqiqotchilar vaqtincha qoladi. Qitʼaning eng past harorati -89,2°C gacha tushgan!",
+        "example": "Misol: Antarktidadagi muz qatlami shunchalik qalinki, agar u erisa, dunyo okeanlari 60 metrga koʻtariladi."
+      },
+      {
+        "title": "Antarktida kashf etilishi",
+        "body": "Antarktida odamlar tomonidan oxirgi kashf etilgan qitʼa. Birinchi marta 1820-yilda rus ekspeditsiyasi (Bellinsgauzen va Lazarev) tomonidan koʻrilgan. Keyinchalik, 1911-yilda norvegiyalik Roald Amundsen Janubiy qutbga birinchi boʻlib yetib bordi.",
+        "example": "Misol: Agar siz Antarktidaga sayohat qilsangiz, u yerda Amundsen va Skottning tarixiy izlarini topishingiz mumkin."
+      },
+      {
+        "title": "Antarktida iqlimi",
+        "body": "Antarktida – dunyodagi eng sovuq joy. Qishda harorat -60°C gacha tushadi, yozda esa -20°C atrofida boʻladi. Shamollar juda kuchli, baʼzan 300 km/soat tezlikka yetadi. Yogʻingarchilik kam, shuning uchun uni „muzli choʻl“ deb ham atashadi.",
+        "example": "Misol: Antarktidadagi McMurdo stansiyasida yozda ham qor erimaydi, faqat muz qatlami yupqalashadi."
+      },
+      {
+        "title": "Antarktida hayvonlari",
+        "body": "Antarktida hayvonlari sovuqqa moslashgan. Eng mashhurlari – pingvinlar (masalan, imperator pingvin), tyulenlar va kitlar. Quruqlikda hasharotlar deyarli yoʻq, lekin dengizda baliqlar va kalmarlar koʻp. Ular ozuqa uchun okeanga bogʻliq.",
+        "example": "Misol: Imperator pingvinlari qishni -60°C sovuqda tuxumlarini bosib oʻtkazadilar – bu tabiatdagi eng chidamli hayvonlardan biri!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "ozbekiston-orni-relyefi",
+    "theory": [
+      {
+        "title": "Geografik oʻrni nima?",
+        "body": "Geografik oʻrni – bu bir joyning Yer yuzidagi oʻrni, yaʼni qaysi qitʼada, qaysi mamlakatlar bilan chegaradosh ekanligi. O‘zbekistonning geografik oʻrni uning iqlimi, iqtisodi va hayot tarziga katta taʼsir qiladi. Masalan, qaysi davlatlar bilan chegaradosh ekanligi savdo va transportda muhim rol oʻynaydi.",
+        "example": "O‘zbekiston Markaziy Osiyoda joylashgan va Qozog‘iston, Qirgʻiziston, Tojikiston, Afgʻoniston va Turkmaniston bilan chegaradosh."
+      },
+      {
+        "title": "Relyef – bu yer yuzasining shakli",
+        "body": "Relyef – bu yer yuzasining tekis, togʻli yoki past-baland ekanligini bildiradi. O‘zbekistonda relyef xilma-xil: tekisliklar, togʻlar va choʻllar bor. Relyef qishloq xoʻjaligi, transport va aholi yashashiga taʼsir qiladi. Masalan, tekisliklarda dehqonchilik yaxshi rivojlangan.",
+        "example": "Toshkent viloyati – tekislik, Chimyon togʻlari – togʻli relyef."
+      },
+      {
+        "title": "O‘zbekistonning asosiy relyef turlari",
+        "body": "O‘zbekistonda uchta asosiy relyef turi bor: tekisliklar (masalan, Mirzachoʻl), togʻlar (Tyan-Shan, Pomir-Olay) va choʻllar (Qizilqum). Har bir relyef turi oʻziga xos iqlim va tabiiy resurslarga ega. Togʻlarda suv manbalari koʻp, choʻllarda esa foydali qazilmalar topiladi.",
+        "example": "Qizilqum choʻli – qumli relyef, Fargʻona vodiysi – tekislik."
+      },
+      {
+        "title": "Relyefning iqtisodiy ahamiyati",
+        "body": "Relyef mamlakat iqtisodiga bevosita taʼsir qiladi. Tekisliklarda qishloq xoʻjaligi, togʻlarda konchilik va turizm, choʻllarda esa quyosh energiyasi va gaz qazib olish rivojlangan. O‘zbekistonning relyefi uni Markaziy Osiyoning muhim iqtisodiy markaziga aylantiradi.",
+        "example": "Navoiy viloyatida oltin qazib olish togʻli relyef tufayli mumkin."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "ozbekiston-iqlim-suvlari",
+    "theory": [
+      {
+        "title": "O'zbekistonning iqlim turi",
+        "body": "O'zbekiston asosan keskin kontinental iqlimga ega. Bu degani, yozda juda issiq, qishda esa sovuq boʻladi. Yogʻingarchilik kam, koʻp joylarda choʻl va dashtlar hukmron. Havo harorati mavsumga qarab keskin oʻzgaradi – yozda +40°C gacha koʻtarilsa, qishda −20°C gacha pasayishi mumkin.",
+        "example": "Masalan, Qoraqalpogʻistonning Qoraoʻzak tumanida yozda qum boʻronlari boʻlib, qishda esa kuchli sovuqlar kuzatiladi."
+      },
+      {
+        "title": "Yogʻingarchilikning taqsimlanishi",
+        "body": "O'zbekistonda yogʻingarchilik notekis taqsimlanadi. Togʻli hududlarda (masalan, Fargʻona vodiysi atroflari) koʻproq yogʻin yogʻadi, tekisliklarda esa kam. Eng kam yogʻin Qizilqum choʻlida – yiliga atigi 100 mm atrofida. Yogʻingarchilikning koʻp qismi bahor va kuzda tushadi.",
+        "example": "Toshkentda yiliga 400-500 mm yogʻin yogʻsa, Navoiy viloyatida bu koʻrsatkich 200 mm dan kam."
+      },
+      {
+        "title": "Suv manbalari: daryolar",
+        "body": "O'zbekistonning asosiy suv manbalari – Amudaryo va Sirdaryo daryolari. Ular togʻlardagi qor va muzliklardan boshlanadi. Bu daryolar sugʻorishda, elektr energiyasi ishlab chiqarishda va ichimlik suvi olishda muhim rol oʻynaydi. Amudaryo Orol dengiziga quyiladi, Sirdaryo esa Qozogʻiston orqali oqib oʻtadi.",
+        "example": "Amudaryo boʻyida Termiz, Sirdaryo boʻyida esa Guliston shaharlari joylashgan."
+      },
+      {
+        "title": "Suv muammolari va saqlash",
+        "body": "O'zbekistonda suv tanqisligi muammo boʻlib qolmoqda. Daryolardan koʻp suv sugʻorishga sarflanadi, bu esa Orol dengizining qurib ketishiga olib keldi. Hozir suvni tejash uchun tomchilatib sugʻorish, kanallarni betonlash va suv omborlari qurish kabi chora-tadbirlar koʻrilmoqda.",
+        "example": "Chordara suv ombori Sirdaryodan suv toʻplash va sugʻorish uchun qurilgan yirik inshootlardan biri."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "ozbekiston-tabiat-zonalari",
+    "theory": [
+      {
+        "title": "Tabiat zonalari nima?",
+        "body": "Tabiat zonalari – bu yer yuzining iqlim, tuproq, oʻsimlik va hayvonot dunyosi oʻxshash boʻlgan katta hududlari. Har bir zona oʻziga xos tabiiy sharoitlarga ega. Masalan, choʻl zonasi issiq va quruq, oʻrmon zonasi esa nam va salqin boʻladi.",
+        "example": "Oʻzbekistonda choʻl, dasht va togʻ oldi zonalari bor. Qizilqum choʻli – tipik choʻl zonasi, Chimyon atrofi esa togʻ oldi zonasiga misol."
+      },
+      {
+        "title": "Choʻl zonasi xususiyatlari",
+        "body": "Choʻl zonasi juda kam yogʻingarchilik va yuqori harorat bilan ajralib turadi. Tuproqlari qumli yoki shoʻrlangan, oʻsimliklari suvga chidamli boʻladi. Hayvonlar ham issiq va qurgʻoqchilikka moslashgan. Bu yerda kun va tun oraligʻida harorat keskin farq qiladi.",
+        "example": "Qizilqum va Qoraqum choʻllari – Oʻzbekistonning eng katta choʻl zonalari. Bu yerda saksovul, yantoq kabi oʻsimliklar va tulki, kaltakesak kabi hayvonlar yashaydi."
+      },
+      {
+        "title": "Dasht zonasi qayerda?",
+        "body": "Dasht zonasi choʻl va togʻ oldi zonalari orasida joylashgan. Bu yerda yogʻingarchilik choʻldan koʻproq, lekin hali ham yetarli emas. Tuproqlari unumdorroq, oʻsimliklari asosan oʻtlar va butalardan iborat. Dashtlar qishloq xoʻjaligi uchun muhimdir.",
+        "example": "Mirzachoʻl dashti – Oʻzbekistondagi eng katta dasht zonasi. Bu yerda paxta, bugʻdoy kabi ekinlar yetishtiriladi va qoʻylar boqiladi."
+      },
+      {
+        "title": "Togʻ oldi zonasi nima?",
+        "body": "Togʻ oldi zonasi togʻlarning etaklarida joylashgan boʻlib, iqlimi moʻtadilroq va yogʻingarchilik koʻproq. Tuproqlari unumdor, oʻsimlik va hayvonot dunyosi boy. Bu zona dehqonchilik va bogʻdorchilik uchun qulay.",
+        "example": "Fargʻona vodiysi va Toshkent viloyatining togʻ oldi qismlari – bu zonaga misol. Bu yerda olma, shaftoli kabi mevalar yetishtiriladi va turli qushlar yashaydi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "ozbekiston-aholisi",
+    "theory": [
+      {
+        "title": "Aholi soni nima?",
+        "body": "Aholi soni – bu bir mamlakatda yoki hududda yashaydigan odamlarning umumiy soni. O‘zbekistonda bu raqam har yili o‘sib boradi. Masalan, 2024-yilda taxminan 37 million kishi yashaydi. Aholi sonini bilish mamlakatni rejalashtirishda juda muhim!",
+        "example": "O‘zbekistonning aholi soni – 37 million (2024-yil). Qozog‘istonning aholi soni esa – 20 million."
+      },
+      {
+        "title": "Aholi zichligi qanday hisoblanadi?",
+        "body": "Aholi zichligi – bu 1 kvadrat kilometrga necha kishi to‘g‘ri kelishini ko‘rsatadi. Hisoblash uchun aholi sonini hudud maydoniga bo‘lish kerak. Masalan, O‘zbekistonda aholi zichligi o‘rtacha 80 kishi/km², lekin shaharlarda bu ko‘rsatkich ancha yuqori bo‘ladi.",
+        "example": "Toshkent shahri maydoni – 335 km², aholisi – 2,7 million. Aholi zichligi: 2 700 000 ÷ 335 ≈ 8060 kishi/km²."
+      },
+      {
+        "title": "Aholi tarkibidagi millatlar",
+        "body": "O‘zbekiston – ko‘p millatli davlat. Eng katta qismi o‘zbeklar (80% dan ortiq), lekin qozoqlar, tojiklar, ruslar, qoraqalpoqlar va boshqalar ham yashaydi. Barcha millatlar teng huquqlarga ega va bir-birining madaniyatiga hurmat qiladi.",
+        "example": "Samarqandda tojiklar ko‘p, Qoraqalpog‘istonda qoraqalpoqlar, Toshkentda esa ruslar va koreyslar ham yashaydi."
+      },
+      {
+        "title": "Aholi urbanizatsiyasi nima?",
+        "body": "Urbanizatsiya – bu aholining qishloqlardan shaharlarga ko‘chishi. O‘zbekistonda ham shahar aholisi ortib bormoqda. Ko‘p odamlar shaharlarda ish topish, ta’lim olish yoki yaxshi sharoitda yashash uchun ko‘chib keladi. Natijada shaharlar kengayib, qishloqlar bo‘shay boshlaydi.",
+        "example": "Toshkent, Samarqand va Namangan kabi shaharlar aholisi tez o‘smoqda, chunki odamlar u yerda ko‘proq imkoniyat topadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "ozbekiston-iqtisodiyoti",
+    "theory": [
+      {
+        "title": "Iqtisodiyot nima?",
+        "body": "Iqtisodiyot – bu mamlakatda pul, tovarlar va xizmatlar qanday ishlab chiqariladi, taqsimlanadi va ishlatilishini oʻrganadigan fan. Oddiy qilib aytganda, bu mamlakatning „pul ishlashi“ haqida. O‘zbekistonda ham qishloq xo‘jaligi, sanoat, savdo kabi tarmoqlar iqtisodiyotning bir qismi.",
+        "example": "Misol: Paxta yetishtirish – qishloq xo‘jaligi, paxtadan matolar to‘qish – sanoat, bu matolarni chet elga sotish – savdo."
+      },
+      {
+        "title": "O‘zbekistonning asosiy tarmoqlari",
+        "body": "O‘zbekiston iqtisodiyoti asosan uchta katta tarmoqqa bo‘linadi: qishloq xo‘jaligi, sanoat va xizmat ko‘rsatish. Qishloq xo‘jaligida paxta, bug‘doy, mevalar yetishtiriladi. Sanoatda esa metallar, kimyo mahsulotlari, gaz ishlab chiqariladi. Xizmat ko‘rsatish – bu turizm, banklar, transport kabi sohalar.",
+        "example": "Misol: Navoiy kon-metallurgiya kombinati – sanoat, „O‘zbekturizm“ kompaniyasi – xizmat ko‘rsatish."
+      },
+      {
+        "title": "Eksport va import nima?",
+        "body": "Eksport – bu mamlakatda ishlab chiqarilgan tovarlarni chet elga sotish. Import esa – chet eldan tovarlarni olib kelish. O‘zbekiston asosan paxta, gaz, oltin eksport qiladi. Import qilib esa mashinalar, elektronika, dorilar keltiradi. Bu ikki tushuncha mamlakatning chet el bilan savdo aloqalarini ko‘rsatadi.",
+        "example": "Misol: O‘zbekiston Rossiyaga gaz eksport qiladi, Xitoydan telefonlar import qiladi."
+      },
+      {
+        "title": "Iqtisodiyotning rivojlanishi",
+        "body": "Iqtisodiyotning rivojlanishi – bu mamlakatda ishlab chiqarish, aholi farovonligi va texnologiyalarning yaxshilanishi. O‘zbekistonda soʻnggi yillarda yangi zavodlar qurilmoqda, xorijiy investitsiyalar jalb qilinmoqda, kichik biznes rivojlantirilmoqda. Bu esa aholi uchun yangi ish joylari va yaxshi hayot shart-sharoitlarini yaratadi.",
+        "example": "Misol: Toshkentda qurilgan „Angren“ sanoat zonasida yangi korxonalar ochilmoqda, bu minglab odamlarga ish imkonini berdi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geografiya",
+    "unit_slug": "materiklar-mamlakatlar-ozbekiston",
+    "lesson_slug": "ozbekiston-viloyatlar",
+    "theory": [
+      {
+        "title": "O'zbekistonning hududiy tuzilishi",
+        "body": "O'zbekiston 12 ta viloyat, 1 ta avtonom respublika (Qoraqalpog'iston) va Toshkent shahridan iborat. Har bir viloyat va respublika o'z navbatida tumanlar va shaharlarga bo'linadi. Hududiy bo'linish mamlakatni boshqarishni osonlashtiradi va har bir hududning o'ziga xos xususiyatlarini hisobga olish imkonini beradi.",
+        "example": "Masalan, Samarqand viloyati 14 ta tuman va 2 ta shaharga (Samarqand va Kattaqoʻrgʻon) boʻlingan. Toshkent shahri esa 12 ta tumanga ega."
+      },
+      {
+        "title": "Viloyat va ularning markazlari",
+        "body": "Har bir viloyatning o'z markazi – yaʼni bosh shahri bor. Bu shahar viloyatning siyosiy, iqtisodiy va madaniy markazi hisoblanadi. Viloyat markazlari odatda eng yirik va rivojlangan shaharlar boʻladi.",
+        "example": "Masalan, Fargʻona viloyatining markazi – Fargʻona shahri, Buxoro viloyatining markazi – Buxoro shahri. Toshkent esa mustaqil shahar boʻlib, viloyat markazi emas."
+      },
+      {
+        "title": "Qoraqalpog'istonning alohida maqomi",
+        "body": "Qoraqalpogʻiston O'zbekiston tarkibidagi yagona avtonom respublikadir. Bu uning ichki masalalarda kengroq huquqlarga ega ekanligini anglatadi. Qoraqalpogʻistonning poytaxti Nukus shahri boʻlib, u ham oʻziga xos madaniy va iqtisodiy markazdir.",
+        "example": "Masalan, Qoraqalpogʻistonda oʻz Konstitutsiyasi, parlamenti (Joʻqorgʻi Kengesi) va davlat ramzlari (gerb, bayroq) mavjud."
+      },
+      {
+        "title": "Tuman va shaharlar",
+        "body": "Viloyatlar va Qoraqalpogʻiston tumanlar va shaharlarga boʻlinadi. Tumanlar kichikroq maʼmuriy birlik boʻlib, qishloq va shaharchalarni oʻz ichiga oladi. Shaharlar esa alohida maʼmuriy birlik sifatida boshqariladi va odatda iqtisodiy ahamiyatga ega boʻladi.",
+        "example": "Masalan, Toshkent viloyatida Zangiota, Yangiyoʻl kabi tumanlar, shuningdek, Chirchiq, Olmaliq kabi shaharlar bor. Toshkent shahri esa viloyat tarkibiga kirmaydi."
+      }
+    ]
+  }
+]

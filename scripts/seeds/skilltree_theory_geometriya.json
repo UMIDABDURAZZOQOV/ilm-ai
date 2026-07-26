@@ -1,0 +1,1919 @@
+[
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "nuqta-chiziq-kesma",
+    "theory": [
+      {
+        "title": "Nuqta nima?",
+        "body": "Nuqta – bu geometriyadagi eng oddiy shakl. U faqat joylashuvni bildiradi, oʻlchami yoʻq: uzunligi, kengligi yoki balandligi yoʻq. Qogʻozdagi nuqtani oddiy qalam bilan bosgan joy deb tasavvur qiling. Uni odatda katta harf bilan belgilaymiz.",
+        "example": "Masalan, A yoki B kabi nuqtalar. Ular xaritada shahar joylashgan oʻrinni koʻrsatishi mumkin."
+      },
+      {
+        "title": "Chiziq – cheksiz yoʻl",
+        "body": "Chiziq – bu ikki tomonga cheksiz choʻzilgan toʻgʻri yoʻl. U faqat uzunlikka ega, kengligi yoki qalinligi yoʻq. Chiziqni chizganda uning ikki uchini oʻqqa tutashtirib chizamiz, chunki u cheksiz davom etadi. Odatda kichik lotin harflari (a, b, c) yoki ikki nuqta bilan (AB) belgilanadi.",
+        "example": "Masalan, temir yoʻl yoʻnalishi yoki quyosh nuri chiziqqa oʻxshaydi – u cheksiz davom etadi."
+      },
+      {
+        "title": "Kesma – chiziqning bir qismi",
+        "body": "Kesma – bu chiziqning ikki nuqta orasidagi qismi. U boshlanish va tugash nuqtalariga ega, shuning uchun oʻlchovli boʻladi. Kesmani chizganda ikki nuqtani birlashtirib, ularni toʻgʻri chiziq bilan bogʻlaymiz. Kesma odatda ikki nuqta bilan belgilanadi, masalan, AB kesmasi.",
+        "example": "Masalan, stolning bir chetidan ikkinchi chetigacha boʻlgan masofa kesma boʻlib, uni oʻlchash mumkin."
+      },
+      {
+        "title": "Nur – bir tomonga yoʻl",
+        "body": "Nur – bu chiziqning bir nuqtadan boshlanib, bir tomonga cheksiz davom etadigan qismi. U boshlangʻich nuqtaga ega, lekin oxiri yoʻq. Nurni chizganda boshlangʻich nuqtadan oʻq yoʻnalishida chiziq chizamiz. Odatda boshlangʻich nuqta va boshqa bir nuqta bilan belgilanadi, masalan, OA nuri.",
+        "example": "Masalan, chiroqdan taralayotgan nur yoki lazer nuri geometrik nurni eslatadi – boshlanish nuqtasi bor, lekin oxiri yoʻq."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "burchak-turlari",
+    "theory": [
+      {
+        "title": "Burchak nima?",
+        "body": "Burchak – bu ikki nur bir nuqtadan chiqib, tekislikda hosil qilgan shakl. Oʻsha boshlangʻich nuqtani burchakning *uchigi* deyiladi, nurlari esa *yonlari* deb ataladi. Burchakni oʻlchash uchun uning *kattaligi* (gradusda) muhim, shakli emas.",
+        "example": "Soat mili 3 va 12 da turganida, soat markazida 90 graduslik burchak hosil boʻladi. Yoki ochilgan kitobning ikki qoplogʻi ham burchak hosil qiladi."
+      },
+      {
+        "title": "Oʻtkir va oʻtmas burchaklar",
+        "body": "Agar burchak 90 gradusdan *kichik* boʻlsa, uni *oʻtkir* deyiladi. Agar 90 gradusdan *katta* boʻlsa – *oʻtmas* (yoki *soʻm*). 90 graduslik burchak esa *toʻgʻri* deb ataladi. Buni eslab qolish oson: oʻtkir – oʻtmas, toʻgʻri – toʻgʻri!)",
+        "example": "Uchburchakning ichki burchaklari koʻpincha oʻtkir boʻladi. Eshikni yarim ochsangiz, oʻtmas burchak hosil boʻladi."
+      },
+      {
+        "title": "Toʻgʻri burchak va belgisi",
+        "body": "Toʻgʻri burchak – aynan 90 gradusli burchak. Uning yonlari bir-biriga *perpendikulyar* (tik) boʻladi. Chizma va rasmlarda toʻgʻri burchakni kichik kvadratcha bilan belgilashadi – bu uning 90 gradus ekanligini koʻrsatadi.",
+        "example": "Kitob burchagi, devor bilan pol orasidagi burchak – toʻgʻri burchak. Chizmada kvadratcha koʻrsangiz, bilinki, u yerda toʻgʻri burchak bor."
+      },
+      {
+        "title": "Yoyiq va toʻla burchak",
+        "body": "Yoyiq burchak – 180 gradusli burchak, u toʻgʻri chiziqqa oʻxshaydi. Toʻla burchak esa 360 gradus – bir nuqtadan chiqib, toʻliq aylanib qaytgan nurlar hosil qiladi. Buni eslab qolish uchun: yoyiq – yarim aylana, toʻla – toʻliq aylana!",
+        "example": "Yoyiq burchakni tekis stol ustiga qoʻyilgan chiziqqa qiyoslash mumkin. Toʻla burchak esa soat mili bir kun davomida aylanib, boshlangʻich nuqtaga qaytganda hosil boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "qoshni-vertikal-burchak",
+    "theory": [
+      {
+        "title": "Burchak nima?",
+        "body": "Burchak – bu ikki nur bir nuqtadan chiqib, tekislikda hosil qilgan shakl. O‘sha boshlang‘ich nuqtani burchakning *uchigi* deyiladi. Burchakning o‘lchovi *gradus* bilan ifodalanadi – to‘liq aylanma 360° ga teng.",
+        "example": "Soat mili 12 dan 3 gacha burilsa, 90° burchak hosil qiladi. Kitobning burchagi ham shunday – ikki tomoni orasidagi joy."
+      },
+      {
+        "title": "Qo‘shni burchaklar",
+        "body": "Agar ikki burchak bitta umumiy tomon va uchig‘iga ega bo‘lsa, ularni *qo‘shni burchaklar* deyiladi. Ularning yig‘indisi har doim 180° ga teng – chunki ular bir to‘g‘ri chiziqni tashkil qiladi.",
+        "example": "Eshikning ochiq holatida devor bilan hosil qilgan ikki burchak qo‘shni burchaklardir. Ularning yig‘indisi 180° bo‘ladi."
+      },
+      {
+        "title": "Vertikal burchaklar",
+        "body": "Ikki to‘g‘ri chiziq kesishganda hosil bo‘ladigan qarama-qarshi burchaklar *vertikal burchaklar* deyiladi. Ular har doim teng bo‘ladi – chunki bir xil shaklni takrorlaydi.",
+        "example": "Qaychi tig‘ining kesishgan joyidagi qarama-qarshi burchaklar vertikal burchaklardir. Ikkalasi ham bir xil o‘lchamda bo‘ladi."
+      },
+      {
+        "title": "Qo‘shni va vertikal farqi",
+        "body": "Qo‘shni burchaklar yonma-yon joylashib, yig‘indisi 180° bo‘ladi. Vertikal burchaklar esa qarama-qarshi joylashib, teng bo‘ladi. Birinchisi *yig‘indi*, ikkinchisi *tenglik* haqida gapiradi.",
+        "example": "T yo‘l kesishmasida: yo‘l yo‘nalishlari orasidagi burchaklar qo‘shni (180°), qarama-qarshi yo‘nalishlardagi burchaklar esa vertikal (teng) bo‘ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "perpendikulyar-chiziqlar",
+    "theory": [
+      {
+        "title": "Perpendikulyar chiziq nima?",
+        "body": "Perpendikulyar chiziqlar — bu ikki toʻgʻri chiziq bir-biriga 90 daraja (toʻgʻri burchak) ostida kesishganda hosil boʻladi. Yaʼni, agar bir chiziq ikkinchisiga „tik“ tushsa, ular perpendikulyar deyiladi. Buni oddiyroq qilib aytganda: bir chiziq ikkinchisiga „toʻgʻri“ turadi.",
+        "example": "Misol 1: Stolning oyogʻi stol ustiga perpendikulyar. Misol 2: Kitobning orqa muqovasi uning sahifalariga perpendikulyar."
+      },
+      {
+        "title": "Perpendikulyarlik belgisi",
+        "body": "Matematikada perpendikulyarlikni maxsus belgi bilan koʻrsatamiz: ⊥. Masalan, AB ⊥ CD yozuvi „AB chiziqi CD chiziqqa perpendikulyar“ degani. Bu belgi geometriyada juda koʻp ishlatiladi, uni eslab qolish muhim.",
+        "example": "Misol: Agar l ⊥ m yozilgan boʻlsa, bu ikki chiziq bir-biriga toʻgʻri burchak ostida kesishadi degani."
+      },
+      {
+        "title": "Perpendikulyar chiziq chizish",
+        "body": "Perpendikulyar chiziq chizish uchun chiziqqa biror nuqtadan boshlab, toʻgʻri burchak hosil qiladigan chiziq chizamiz. Buni chizgich va burchak oʻlchagich (gonimetr) yordamida qilamiz. Amaliyotda: bir chiziqqa „tik“ tushadigan ikkinchi chiziqni chizing.",
+        "example": "Misol: Toʻgʻri chiziq chizib, uning ustiga bir nuqta belgilang. Shu nuqtadan boshlab, 90 daraja burchak ostida ikkinchi chiziqni chizing — natijada perpendikulyar chiziq paydo boʻladi."
+      },
+      {
+        "title": "Perpendikulyar va parallel farqi",
+        "body": "Perpendikulyar chiziqlar bir-biriga toʻgʻri burchak ostida kesishadi, parallel chiziqlar esa hech qachon kesishmaydi va bir-biriga „teng“ yoʻnalishda davom etadi. Perpendikulyar — „tik“, parallel — „yonma-yon“ deb eslab qoʻying!",
+        "example": "Misol 1: Stol oyogʻi (perpendikulyar) va stol usti (parallel). Misol 2: Temir yoʻl relslari (parallel), relslar ustidagi shpal (perpendikulyar)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "parallel-chiziqlar",
+    "theory": [
+      {
+        "title": "Parallel chiziqlar nima?",
+        "body": "Parallel chiziqlar – bu hech qachon kesishmaydigan ikki toʻgʻri chiziq. Ular bir tekislikda yotib, bir-biriga yaqinlashmaydi yoki uzoqlashmaydi. Oddiy qilib aytganda, ular bir xil yoʻnalishda davom etadi, lekin hech qachon uchrashmaydi.",
+        "example": "Temir yoʻl relslari yoki maktab doskasining ikki chetidagi chiziqlar parallel chiziqlarga misol boʻla oladi."
+      },
+      {
+        "title": "Parallel chiziqlar belgisi",
+        "body": "Agar ikki chiziq bir uchidan oʻtkazilgan uchinchi chiziq (kesuvchi) bilan bir xil burchak hosil qilsa, u holda bu ikki chiziq parallel boʻladi. Buni tekshirish uchun oʻxshash burchaklar tengligini tekshirish kifoya.",
+        "example": "Ikki yoʻl kesishgan joyda bir xil burchak hosil boʻlsa, bu yoʻllar parallel hisoblanadi."
+      },
+      {
+        "title": "Parallel chiziqlar xossasi",
+        "body": "Parallel chiziqlar orasidagi masofa har doim bir xil boʻladi. Agar bir chiziqqa perpendikulyar chiziq chizilsa, u ikkinchi chiziqqa ham perpendikulyar boʻladi. Bu xossa parallel chiziqlarni aniqlashda yordam beradi.",
+        "example": "Kitobning ikki chetidagi chiziqlar orasidagi kenglik har doim bir xil – bu parallel chiziqlar xossasiga misol."
+      },
+      {
+        "title": "Parallel chiziqlarni tekshirish",
+        "body": "Parallel chiziqlarni tekshirish uchun kesuvchi chiziq yordamida hosil boʻlgan mos burchaklar yoki ichki bir tomonli burchaklar yigʻindisini tekshirish kerak. Agar mos burchaklar teng yoki ichki bir tomonli burchaklar yigʻindisi 180° boʻlsa, chiziqlar parallel.",
+        "example": "Ikki yoʻl kesishgan joyda hosil boʻlgan burchaklar teng boʻlsa, bu yoʻllar parallel ekanligini anglatadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "parallel-kesuvchi",
+    "theory": [
+      {
+        "title": "Parallel chiziqlar nima?",
+        "body": "Parallel chiziqlar – bu hech qachon kesishmaydigan ikki toʻgʻri chiziq. Ular bir tekislikda yotib, bir-biriga yaqinlashmaydi yoki uzoqlashmaydi. Agar ikki chiziq parallel boʻlsa, ularning yoʻnalishlari bir xil boʻladi. Oddiy qilib aytganda, ular bir-biriga „oʻxshash“ yoʻnalishda davom etadi.",
+        "example": "Mashina yoʻlining ikki chetidagi chiziqlar yoki temir yoʻl relslari parallel chiziqlarga misol boʻladi."
+      },
+      {
+        "title": "Kesuvchi chiziq nima?",
+        "body": "Kesuvchi chiziq – bu ikki yoki undan ortiq toʻgʻri chiziqni bir nuqtada kesib oʻtuvchi toʻgʻri chiziq. U parallel boʻlmagan chiziqlarni bir nuqtada uchratadi. Kesuvchi chiziq yordamida parallel chiziqlar orasidagi burchaklarni oʻrganish mumkin.",
+        "example": "Yoʻlda ketayotgan mashina yoʻlini kesib oʻtuvchi yoʻl kesuvchi chiziq boʻlib, ikki yoʻlni bir nuqtada kesib oʻtadi."
+      },
+      {
+        "title": "Alternativ ichki burchaklar",
+        "body": "Parallel chiziqlarni kesuvchi chiziq kesib oʻtganda hosil boʻladigan burchaklardan biri – alternativ ichki burchaklar. Ular kesuvchi chiziqning ikki tomonida, parallel chiziqlarning ichki qismida joylashadi va bir-biriga teng boʻladi. Bu xususiyat parallel chiziqlarni aniqlashda juda muhim!",
+        "example": "Poyezd relslari (parallel chiziqlar) va ularni kesib oʻtuvchi yoʻl (kesuvchi chiziq) orasidagi burchaklar alternativ ichki burchaklarga misol boʻladi."
+      },
+      {
+        "title": "Mos burchaklar tengligi",
+        "body": "Parallel chiziqlarni kesuvchi chiziq kesib oʻtganda hosil boʻladigan yana bir muhim burchaklar – mos burchaklar. Ular kesuvchi chiziqning bir xil tomonida, parallel chiziqlarning bir xil yoʻnalishida joylashadi va teng boʻladi. Bu xususiyatni yodda tutsangiz, koʻplab masalalarni oson yechishingiz mumkin!",
+        "example": "Zinalarning parallel pogʻonalari va ularni kesib oʻtuvchi devor orasidagi burchaklar mos burchaklarga misol boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "geometriya-aksiomalari",
+    "theory": [
+      {
+        "title": "Geometriya nima?",
+        "body": "Geometriya – bu shakllar, oʻlchamlar va fazolar haqidagi fan. Unda biz nuqtalar, chiziqlar, uchburchaklar kabi shakllarni oʻrganamiz. Aslida, geometriya bizga dunyoni oʻlchash va tushunishga yordam beradi – masalan, yer maydonini hisoblash yoki uy qurish.",
+        "example": "Stol ustidagi kitobning shakli toʻrtburchak, uning tomonlarini oʻlchash geometriyadir. Yoki yoʻlda ketayotganingizda, ikki nuqta orasidagi masofani bilish ham geometriya."
+      },
+      {
+        "title": "Aksioma – geometriyaning qonuni",
+        "body": "Aksioma – bu isbotga muhtoj boʻlmagan, hamma tomonidan qabul qilingan oddiy haqiqat. Geometriyada aksiomalar qoidalar kabi ishlaydi: ularni shunchaki qabul qilamiz va ularga asoslanib boshqa narsalarni isbotlaymiz. Masalan, 'ikki nuqta orasidan faqat bitta toʻgʻri chiziq oʻtadi' – bu aksioma.",
+        "example": "Aksiomaga misol: 'Qogʻozda ikkita nuqta chizing. Ular orasidan faqat bitta toʻgʻri chiziq oʻtkazish mumkin.' Bu shunchaki toʻgʻri, uni isbotlash shart emas."
+      },
+      {
+        "title": "Nuqta va toʻgʻri chiziq",
+        "body": "Nuqta – bu geometriyadagi eng oddiy shakl, u oʻlchamga ega emas, faqat joylashuvni koʻrsatadi. Toʻgʻri chiziq esa cheksiz uzunlikka ega boʻlgan bir oʻlchamli shakldir. Aksiomaga koʻra, ikki nuqta orasidan faqat bitta toʻgʻri chiziq oʻtadi.",
+        "example": "Stol ustidagi qalam uchi – nuqta. Stolning chetidan oʻtkazilgan chiziq esa toʻgʻri chiziq. Ikkita nuqta orasidan faqat bitta toʻgʻri chiziq oʻtkazishingiz mumkin."
+      },
+      {
+        "title": "Tekislik va uning xossalari",
+        "body": "Tekislik – bu cheksiz keng va uzunlikka ega boʻlgan ikki oʻlchamli sirt. U tekis va hech qayerga bukilmaydi. Aksiomaga koʻra, uchta nuqta (agar bir toʻgʻri chiziqda yotmasa) bitta tekislikni aniqlaydi. Yaʼni, uchta nuqta orqali faqat bitta tekislik oʻtadi.",
+        "example": "Stol yuzasi – tekislik. Stol ustiga uchta qalam qoʻyilsa, ular bitta tekislikni hosil qiladi. Agar uchala qalam bir chiziqda yotsa, ular cheksiz koʻp tekisliklarni hosil qilishi mumkin."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "geometrik-yasashlar",
+    "theory": [
+      {
+        "title": "Sirkul nima?",
+        "body": "Sirkul – bu ikki uchi bor asbob: bir uchiga qalam qo'yiladi, ikkinchi uchini qog'ozga qo'yib, aylantirib doira chizasiz. Aslida, bu doira yasash uchun mo'ljallangan 'chizg'ich'. Uni to'g'ri ushlab, bir joyda ushlab turib, qalamni aylantirsangiz – mukammal doira paydo bo'ladi!",
+        "example": "Masalan, 5 sm radiusli doira chizmoqchisiz. Sirkulning bir uchini qog'ozga qo'yib, ikkinchi uchi bilan 5 sm masofani belgilang. So'ngra qalamni aylantirib, doirani chizing."
+      },
+      {
+        "title": "Chizg'ich bilan kesma yasash",
+        "body": "Chizg'ich – bu to'g'ri chiziq chizish yoki uzunlik o'lchash uchun ishlatiladigan asbob. Undan kesma yasash uchun: avval ikkita nuqta belgilang, keyin chizg'ichni ularning ustiga qo'ying va qalam bilan ikkala nuqtani birlashtirib, to'g'ri chiziq chizing. Bu chiziq – kesma deb ataladi.",
+        "example": "Masalan, A va B nuqtalar orasidagi masofa 7 sm. Chizg'ich yordamida bu ikki nuqtani birlashtirib, AB kesmani yasang."
+      },
+      {
+        "title": "Sirkul bilan teng kesma nusxalash",
+        "body": "Agar sizda biror kesma berilgan bo'lsa, uni boshqa joyga nusxalash uchun sirkuldan foydalaning. Buning uchun: sirkulning bir uchini kesmaning bir uchiga qo'ying, ikkinchi uchi bilan kesmaning ikkinchi uchiga yetguncha oching. So'ngra yangi joyda shu ochilgan masofani chizib, teng kesmani nusxalang.",
+        "example": "Masalan, CD kesmani EF kesma sifatida nusxalamoqchisiz. Sirkulni C va D nuqtalari orasiga moslab, keyin E nuqtadan boshlab, shu masofani F nuqtaga yetguncha chizing."
+      },
+      {
+        "title": "Perpendikulyar chizish",
+        "body": "Perpendikulyar – bu ikki chiziqning bir-biriga 90° burchak ostida kesishishi. Berilgan chiziqqa perpendikulyar chizish uchun: avval chiziq ustida bir nuqta belgilang. So'ngra sirkul yordamida bu nuqtadan teng masofada ikkita yordamchi nuqta chizing. Ularni birlashtirib, perpendikulyarni hosil qiling.",
+        "example": "Masalan, AB chiziqqa C nuqtadan perpendikulyar chizmoqchisiz. Sirkulni C nuqtaga qo'yib, AB chiziqni kesadigan ikkita yordamchi nuqta chizing. Ularni birlashtirib, perpendikulyarni hosil qiling."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "uzunlik-burchak-olchash",
+    "theory": [
+      {
+        "title": "Uzunlik nima?",
+        "body": "Uzunlik – bu ikki nuqta orasidagi masofa. Uni odatda santimetr (sm), metr (m) yoki kilometr (km) bilan oʻlchaymiz. Masalan, stolning eni yoki yoʻlning uzunligi uzunlikka misol boʻla oladi.",
+        "example": "1. Stolning eni 50 sm. 2. Uyimizdan maktabgacha 2 km masofa bor."
+      },
+      {
+        "title": "Burchakni oʻlchash",
+        "body": "Burchak – bu ikki nur bir nuqtadan chiqib, bir-biriga qanchalik „ochilganini“ koʻrsatadi. Burchakni gradus (°) bilan oʻlchaymiz. Toʻliq aylanma 360° ga teng, toʻgʻri burchak esa 90° boʻladi.",
+        "example": "1. Kitobning burchagi 90° (toʻgʻri burchak). 2. Soat mili 3 soatda 90° ga buriladi."
+      },
+      {
+        "title": "Kesma uzunligini oʻlchash",
+        "body": "Kesma – bu ikki nuqta orasidagi toʻgʻri chiziq. Uning uzunligini oʻlchash uchun chizgʻichdan foydalanamiz. Masalan, A va B nuqtalar orasidagi kesma uzunligini AB deb yozamiz.",
+        "example": "1. AB kesma 8 sm. 2. Uchburchakning bir tomoni 5 sm."
+      },
+      {
+        "title": "Burchakni transportir bilan oʻlchash",
+        "body": "Transportir – bu burchaklarni oʻlchash uchun ishlatiladigan asbob. Uni burchakning tepasiga qoʻyib, 0° dan boshlab oʻlchaymiz. Transportirning yordamida istalgan burchakni aniq oʻlchash mumkin.",
+        "example": "1. Transportir bilan oʻlchaganda, bu burchak 45° chiqdi. 2. Uchburchakning bir burchagi 60° ekan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "planimetriya-asoslari",
+    "lesson_slug": "tekislik-figuralari",
+    "theory": [
+      {
+        "title": "Figura nima?",
+        "body": "Geometrik figura – bu tekislikdagi nuqtalar toʻplami. Oddiy qilib aytganda, chizib koʻrishingiz mumkin boʻlgan har qanday shakl figura deyiladi. Masalan, chiziq, uchburchak yoki aylana ham figuralardir. Ular cheksiz kichik nuqtalardan iborat deb tasavvur qilishingiz mumkin.",
+        "example": "Daftaringizdagi kvadrat yoki doira – oddiy geometrik figuralar. Yoki yoʻl chetidagi toʻgʻri chiziq ham figura hisoblanadi."
+      },
+      {
+        "title": "Yopiq va ochiq figuralar",
+        "body": "Agar figura boshlangʻich nuqtasiga qaytsa va ichki qismini toʻliq oʻrab olsa, u *yopiq figura* deyiladi. Aks holda, *ochiq figura* boʻladi – uning boshlanishi va oxiri bir-biriga tutashmaydi. Yopiq figuralar ichida joylashgan maydonni oʻlchash mumkin.",
+        "example": "Uchburchak – yopiq figura, chunki uning uchta tomoni bir-biriga tutashib, ichki qismini oʻrab oladi. Ammo toʻgʻri chiziq yoki yarim aylana – ochiq figura."
+      },
+      {
+        "title": "Koʻpburchak nima?",
+        "body": "Koʻpburchak – faqat toʻgʻri chiziqlar (tomonlar) bilan chegaralangan yopiq figura. Uning tomonlari bir-biriga tutashgan nuqtalar *uchlar* deyiladi. Koʻpburchakning eng kam tomoni 3 ta (uchburchak), cheksiz koʻp tomoni boʻlishi mumkin (masalan, mingburchak).",
+        "example": "Kvadrat, beshburchak yoki oltiburchak – bularning barchasi koʻpburchaklar. Ammo aylana koʻpburchak emas, chunki uning tomonlari egri chiziqdan iborat."
+      },
+      {
+        "title": "Figuralarning oʻlchovlari",
+        "body": "Har qanday figura ikki asosiy oʻlchovga ega: *perimetr* (chegara uzunligi) va *yuza* (ichki maydon). Perimetrni chizib chiqib, barcha tomonlarni qoʻshish orqali topamiz. Yuza esa figura ichidagi kvadrat birliklar soni bilan oʻlchanadi.",
+        "example": "Kvadratning tomoni 4 sm boʻlsa, perimetri 16 sm (4+4+4+4), yuzasi esa 16 sm² (4×4) boʻladi. Uchburchakning yuzasini esa asos va balandlik orqali hisoblash mumkin."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-turlari",
+    "theory": [
+      {
+        "title": "Uchburchak nima?",
+        "body": "Uchburchak – bu uchta nuqta va ularni tutashtiruvchi uchta kesmadan iborat yopiq shakl. Bu nuqtalar uchburchakning uchlari, kesmalar esa uning tomonlari deyiladi. Eng oddiy shakllardan biri, lekin juda muhim!",
+        "example": "Masalan, uchburchak shaklidagi yo'l belgisi yoki pichoqning uchli uchi."
+      },
+      {
+        "title": "Tomonlari boʻyicha turlari",
+        "body": "Uchburchaklarni tomonlarining uzunligiga qarab uch turga ajratamiz: teng tomonli (barcha tomonlari teng), teng yonli (ikkita tomoni teng) va turli tomonli (barcha tomonlari har xil). Qaysi tur ekanligini bilish muammolarni yechishda yordam beradi!",
+        "example": "Teng tomonli: teng tomonli uchburchakli shirinlik qolipi. Teng yonli: tom uyining tomi."
+      },
+      {
+        "title": "Burchaklari boʻyicha turlari",
+        "body": "Uchburchaklarni burchaklariga qarab ham tasniflash mumkin: oʻtkir burchakli (barcha burchaklari 90° dan kichik), toʻgʻri burchakli (bitta burchagi 90°) va oʻtmas burchakli (bitta burchagi 90° dan katta). Burchaklarni oʻlchashda bu juda kerak boʻladi!",
+        "example": "Toʻgʻri burchakli: kitob burchagi. Oʻtmas burchakli: ochiq qogʻoz varagʻining burchagi."
+      },
+      {
+        "title": "Uchburchakning ichki burchaklari yigʻindisi",
+        "body": "Har qanday uchburchakning ichki burchaklari yigʻindisi doimo 180° ga teng. Bu qonunni eslab qolsangiz, burchaklarni topishda hech qachon adashmaysiz. Sinovlarda bu juda koʻp yordam beradi!",
+        "example": "Agar ikkita burchak 50° va 60° boʻlsa, uchinchisi 180° – (50° + 60°) = 70° boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-burchaklari",
+    "theory": [
+      {
+        "title": "Uchburchak nima?",
+        "body": "Uchburchak — bu uchta nuqta va ularni tutashtiruvchi uchta kesmadan iborat figura. Bu nuqtalar uchburchakning uchlari, kesmalar esa uning tomonlari deyiladi. Har bir uchburchakda uchta burchak bor, shuning uchun ham uni uchburchak deyishadi!",
+        "example": "Masalan, uchta gugurt choʻpini uchburchak shaklida qoʻyib koʻring — shu uchburchakdir. Yoki yoʻl belgilarida uchburchak shaklini koʻrganmisiz?"
+      },
+      {
+        "title": "Burchaklar yigʻindisi doim bir xil",
+        "body": "Qiziqarli fakt: har qanday uchburchakning ichki burchaklari yigʻindisi doim 180 gradusga teng. Katta-kichik, choʻziq-yassi — farqi yoʻq, barchasida shu qoida ishlaydi. Bu geometriyaning eng muhim qoidalaridan biri!",
+        "example": "Masalan, teng yonli uchburchakda ikkita burchak 70° boʻlsa, uchinchisi 180° - (70° + 70°) = 40° boʻladi."
+      },
+      {
+        "title": "Tashqi burchak sirli xususiyati",
+        "body": "Uchburchakning har bir uchida ichki burchak bilan birga tashqi burchak ham bor. Tashqi burchak — bu ichki burchakning qoʻshni tomonini choʻzib, hosil qilinadigan burchak. Va bu tashqi burchak qolgan ikkita ichki burchak yigʻindisiga teng boʻladi!",
+        "example": "Agar uchburchakda ikkita ichki burchak 50° va 60° boʻlsa, ularning qoʻshni tomonidagi tashqi burchak 50° + 60° = 110° boʻladi."
+      },
+      {
+        "title": "Teng yonli uchburchakning maxsusligi",
+        "body": "Teng yonli uchburchakda ikkita tomon va ikkita burchak teng boʻladi. Bu degani, agar ikkita burchakni bilsek, uchinchisini osongina topishimiz mumkin. Chunki ularning yigʻindisi ham 180° ga teng!",
+        "example": "Masalan, teng yonli uchburchakda bitta burchak 80° boʻlsa, qolgan ikkita burchak (180° - 80°) / 2 = 50° boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-tengligi",
+    "theory": [
+      {
+        "title": "Uchburchak nima?",
+        "body": "Uchburchak – bu uchta nuqta va ularni tutashtiruvchi uchta kesmadan iborat geometrik shakl. Bu nuqtalar uchburchakning uchlari, kesmalar esa tomonlari deyiladi. Har bir uchburchakda uchta burchak va uchta tomon borligini eslab qoling!",
+        "example": "Masalan, uchta gugurt choʻpini uchburchak shaklida qoʻyib koʻrsangiz, shu uchburchak boʻladi. Uchta nuqta (gugurt choʻplarining uchlari) va uchta tomon (choʻplar) bor."
+      },
+      {
+        "title": "Teng tomonli uchburchak",
+        "body": "Agar uchburchakning barcha tomonlari teng boʻlsa, u *teng tomonli uchburchak* deyiladi. Bunday uchburchakda barcha burchaklar ham teng – har biri 60 gradus. Oddiy qilib aytganda, tomonlari ham, burchaklari ham bir xil!",
+        "example": "Misol: Teng tomonli uchburchakning har bir tomoni 5 sm. Demak, barcha burchaklari 60° boʻladi."
+      },
+      {
+        "title": "Birinchi tenglik alomati",
+        "body": "Agar ikkita uchburchakning ikkita tomoni va ular orasidagi burchagi teng boʻlsa, bu uchburchaklar *teng* deyiladi. Bu alomatni eslab qolish oson: *ikki tomon va ular orasidagi burchak* – teng boʻlsa, butun uchburchak teng!",
+        "example": "Misol: Birinchi uchburchakda AB=5 sm, AC=7 sm, ∠A=60°. Ikkinchi uchburchakda ham shunday tomonlar va burchak bor. Demak, bu ikki uchburchak teng!"
+      },
+      {
+        "title": "Ikkinchi tenglik alomati",
+        "body": "Agar ikkita uchburchakning bir tomoni va unga yopishgan ikkita burchagi teng boʻlsa, bu uchburchaklar ham teng boʻladi. Bu alomatni *bir tomon va ikkita burchak* deb eslab qolish mumkin. Burchaklar teng boʻlsa, qolgan tomonlar ham avtomatik teng chiqadi!",
+        "example": "Misol: Birinchi uchburchakda BC=6 sm, ∠B=50°, ∠C=70°. Ikkinchi uchburchakda ham shunday tomon va burchaklar bor. Demak, bu ikki uchburchak teng!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "teng-yonli-uchburchak",
+    "theory": [
+      {
+        "title": "Teng yonli uchburchak nima?",
+        "body": "Teng yonli uchburchakda ikkita tomon bir-biriga teng boʻladi. Yaʼni, ikkita yon tomoni uzunligi bir xil. Buni eslab qolish oson: ikkita yoni teng, degani! Uchinchi tomon esa har xil boʻlishi mumkin.",
+        "example": "Masalan, uchburchakning ikki tomoni 5 sm, uchinchi tomoni esa 3 sm boʻlsa, bu teng yonli uchburchak deyiladi."
+      },
+      {
+        "title": "Teng tomonli uchburchak",
+        "body": "Teng tomonli uchburchakda barcha uchta tomon bir-biriga teng. Yaʼni, har bir tomoni bir xil uzunlikda. Bunday uchburchakda barcha burchaklar ham teng boʻladi – har biri 60 gradus.",
+        "example": "Masalan, uchta tomoni ham 4 sm boʻlgan uchburchak teng tomonli uchburchakdir."
+      },
+      {
+        "title": "Teng yonli uchburchakning burchaklari",
+        "body": "Teng yonli uchburchakda teng tomonlarga qarama-qarshi burchaklar ham teng boʻladi. Yaʼni, agar ikki tomoni teng boʻlsa, ularning qarshisidagi burchaklar ham bir xil. Bu qoidani eslab qolish juda muhim!",
+        "example": "Masalan, ikki tomoni 6 sm boʻlgan uchburchakda bu tomonlarga qarama-qarshi burchaklar teng boʻladi."
+      },
+      {
+        "title": "Teng tomonli uchburchakning xususiyatlari",
+        "body": "Teng tomonli uchburchakda barcha tomonlar va barcha burchaklar teng. Har bir burchagi 60 gradusga teng. Bunday uchburchakni teng burchakli ham deyish mumkin, chunki barcha burchaklari bir xil.",
+        "example": "Masalan, har bir tomoni 5 sm boʻlgan uchburchakda barcha burchaklar 60 gradus boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "togri-burchakli-uchburchak",
+    "theory": [
+      {
+        "title": "To'g'ri burchakli uchburchak nima?",
+        "body": "To'g'ri burchakli uchburchak — bu burchaklaridan biri 90° (to'g'ri burchak) bo'lgan uchburchak. Qolgan ikki burchak esa o'tmas va o'tkir bo'ladi. Uning tomonlari maxsus nomlarga ega: to'g'ri burchakka qarama-qarshi tomon *gipotenuza*, qolgan ikki tomon esa *katetlar* deyiladi.",
+        "example": "Masalan, sizda 3 sm, 4 sm va 5 sm tomonli uchburchak bor. 3² + 4² = 5² (9 + 16 = 25) tengligi o'rinli bo'lsa, bu uchburchak to'g'ri burchakli bo'ladi. 5 sm — gipotenuza, qolganlari esa katetlar."
+      },
+      {
+        "title": "Pifagor teoremasi",
+        "body": "To'g'ri burchakli uchburchakda gipotenuza kvadrati ikki katet kvadratlarining yig'indisiga teng. Bu qoida Pifagor teoremasi deyiladi. Formulasi: a² + b² = c², bu yerda c — gipotenuza, a va b — katetlar.",
+        "example": "Agar katetlar 6 sm va 8 sm bo'lsa, gipotenuza uzunligini topish uchun: 6² + 8² = 36 + 64 = 100. Demak, gipotenuza √100 = 10 sm bo'ladi."
+      },
+      {
+        "title": "Katet va gipotenuza munosabati",
+        "body": "To'g'ri burchakli uchburchakda har bir katet gipotenuza va o'ziga tushirilgan balandlikka proportsional. Yoki boshqacha aytganda: katet = gipotenuza × sin(qarama-qarshi burchak). Bu formulalar yordamida noma'lum tomonlarni topish mumkin.",
+        "example": "Gipotenuza 10 sm, burchaklardan biri 30° bo'lsa, unga qarama-qarshi katet 10 × sin(30°) = 10 × 0.5 = 5 sm bo'ladi."
+      },
+      {
+        "title": "Balandlik va yuza",
+        "body": "To'g'ri burchakli uchburchakning yuzasini ikki usulda hisoblash mumkin: 1) ikki katet ko'paytmasining yarmi (S = (a×b)/2); 2) gipotenuza va unga tushirilgan balandlik ko'paytmasining yarmi (S = (c×h)/2). Balandlikni topish uchun esa: h = (a×b)/c.",
+        "example": "Katetlar 9 sm va 12 sm bo'lsa, yuza (9×12)/2 = 54 sm². Gipotenuzani 15 sm deb olsak, balandlik (9×12)/15 = 7.2 sm bo'ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "pifagor-teoremasi",
+    "theory": [
+      {
+        "title": "Pifagor teoremasi nima?",
+        "body": "Pifagor teoremasi toʻgʻri burchakli uchburchaklar haqidagi eng muhim qoidalardan biri. U aytadiki: toʻgʻri burchakli uchburchakning ikkita katetining kvadratlari yigʻindisi gipotenuza kvadratiga teng. Oddiyroq qilib aytganda, agar uchburchakda 90 graduslik burchak boʻlsa, uning ikki tomonining uzunliklarini kvadrat qilib qoʻshsangiz, uchinchi tomonning kvadratiga teng boʻladi.",
+        "example": "Masalan, toʻgʻri burchakli uchburchakda katetlar 3 va 4 boʻlsa, gipotenuza 5 boʻladi. Chunki 3² + 4² = 9 + 16 = 25, bu esa 5² ga teng."
+      },
+      {
+        "title": "Katet va gipotenuza farqi",
+        "body": "Toʻgʻri burchakli uchburchakda ikkita qisqa tomon **katet** deyiladi, ular toʻgʻri burchakni hosil qiladi. Eng uzun tomon esa **gipotenuza** deb ataladi va u toʻgʻri burchakka qarama-qarshi joylashadi. Pifagor teoremasi faqat shu ikki turdagi tomonlar oʻrtasidagi aloqani koʻrsatadi.",
+        "example": "Uchburchakda tomonlar 5, 12 va 13 boʻlsa, 5 va 12 – katetlar, 13 esa gipotenuza boʻladi, chunki 5² + 12² = 13² (25 + 144 = 169)."
+      },
+      {
+        "title": "Pifagor teoremasini qanday ishlatish?",
+        "body": "Agar toʻgʻri burchakli uchburchakning ikkita tomonini biladigan boʻlsangiz, uchinchisini topish uchun Pifagor teoremasidan foydalaning. Avval maʼlum tomonlarni kvadrat qilib qoʻshing, soʻngra natijadan kvadrat ildiz oling. Natija sizga nomaʼlum tomonning uzunligini beradi.",
+        "example": "Katetlar 6 va 8 boʻlsa, gipotenuza: √(6² + 8²) = √(36 + 64) = √100 = 10. Demak, gipotenuza 10 ga teng."
+      },
+      {
+        "title": "Teskari Pifagor teoremasi",
+        "body": "Agar uchburchakning uchta tomonini bilib, u toʻgʻri burchakli ekanligini tekshirmoqchi boʻlsangiz, Pifagor teoremasini teskari ishlatishingiz mumkin. Yaʼni, eng uzun tomonning kvadrati qolgan ikki tomon kvadratlari yigʻindisiga teng boʻlsa, uchburchak toʻgʻri burchakli boʻladi.",
+        "example": "Tomonlar 7, 24, 25. Tekshiramiz: 7² + 24² = 49 + 576 = 625, 25² = 625. Tenglik bajarilgani uchun bu uchburchak toʻgʻri burchakli."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-chiziqlari",
+    "theory": [
+      {
+        "title": "Mediana nima?",
+        "body": "Mediana — bu uchburchakning bir uchidan qarama-qarshi tomonning oʻrtasiga tortilgan chiziq. U uchburchakni ikkita teng yuza maydonga ajratadi. Har qanday uchburchakda uchta mediana boʻladi, va ular bir nuqtada kesishadi.",
+        "example": "Masalan, uchburchak ABCda, A uchidan BC tomonining oʻrtasiga (M nuqtaga) tortilgan AM chiziq — mediana. Agar BC = 10 sm boʻlsa, BM = MC = 5 sm boʻladi."
+      },
+      {
+        "title": "Bissektrisa qanday chiziq?",
+        "body": "Bissektrisa — bu uchburchakning burchagini ikkiga teng boʻluvchi chiziq. U burchakni teng ikkiga boʻladi va qarama-qarshi tomonga yetib boradi. Bissektrisa ham uchta boʻladi va ular bir nuqtada kesishadi.",
+        "example": "Uchburchak ABCda, A burchakdan tortilgan AD chiziq burchakni teng ikkiga boʻlsa, AD — bissektrisa. Agar ∠BAD = ∠CAD boʻlsa, AD haqiqatan bissektrisadir."
+      },
+      {
+        "title": "Balandlik nima?",
+        "body": "Balandlik — bu uchburchakning bir uchidan qarama-qarshi tomonga (yoki uning davomi) perpendikulyar chiziq. U uchburchakning balandligini oʻlchashda ishlatiladi. Har bir uchburchakda uchta balandlik bor va ular bir nuqtada kesishadi.",
+        "example": "Uchburchak ABCda, A uchidan BC tomonga perpendikulyar chiziq AH — balandlik. AH ⊥ BC boʻlsa, AH balandlik hisoblanadi."
+      },
+      {
+        "title": "Mediana, bissektrisa va balandlik farqi",
+        "body": "Mediana — tomonning oʻrtasiga, bissektrisa — burchakni teng ikkiga, balandlik esa — perpendikulyar chiziq. Uchala chiziq ham uchburchakning muhim elementlari, lekin vazifalari turlicha. Teng yonli uchburchakda mediana, bissektrisa va balandlik bir xil boʻlishi mumkin!",
+        "example": "Teng yonli uchburchak ABCda (AB = AC), A uchidan BCga tortilgan chiziq bir vaqtning oʻzida mediana, bissektrisa va balandlik boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-muhim-nuqtalari",
+    "theory": [
+      {
+        "title": "Uchburchakning medianasi",
+        "body": "Mediana — bu uchburchakning bir uchidan qarama-qarshi tomonning oʻrtasiga tortilgan chiziq. Har bir uchburchakda uchta mediana bor, va ular bir nuqtada kesishadi. Bu chiziq uchburchakni ikkita teng yuza maydonga ajratadi, lekin tomonlari teng boʻlmaydi.",
+        "example": "Masalan, uchburchak ABCda A uchidan BC tomonining oʻrtasi Mga tortilgan AM chiziq — mediana. Agar BC = 6 sm boʻlsa, BM = MC = 3 sm boʻladi."
+      },
+      {
+        "title": "Medianalar kesishmasi — ogʻirlik markazi",
+        "body": "Uchburchakning barcha medianalari bir nuqtada kesishadi, bu nuqta ogʻirlik markazi deb ataladi. Bu nuqta medianani 2:1 nisbatda boʻladi — yaʼni uchdan uzoqroq qismi ikki baravar uzunroq. Ogʻirlik markazi uchburchakning „ogʻirlik“ markazi hisoblanadi.",
+        "example": "Agar mediana uzunligi 9 sm boʻlsa, ogʻirlik markazi uchdan 6 sm, tomonning oʻrtasidan esa 3 sm uzoqlikda joylashadi."
+      },
+      {
+        "title": "Uchburchakning balandligi",
+        "body": "Balandlik — bu uchburchakning bir uchidan qarama-qarshi tomonga (yoki uning davomi) perpendikulyar tushirilgan chiziq. Har bir uchburchakda uchta balandlik bor. Ular ham bir nuqtada — ortosentrda kesishadi. Balandlik uchburchakning yuzasini hisoblashda ishlatiladi.",
+        "example": "Toʻgʻri burchakli uchburchakda ikkita balandlik katetlarning oʻzidir, uchinchisi esa gipotenuza ustiga tushadi."
+      },
+      {
+        "title": "Ortosentr — balandliklar kesishmasi",
+        "body": "Barcha balandliklar bir nuqtada — ortosentrda kesishadi. Bu nuqta uchburchakning turiga qarab ichida, chetida yoki tashqarida joylashishi mumkin. Masalan, oʻtkir burchakli uchburchakda ortosentr ichida, toʻgʻri burchaklida esa toʻgʻri burchakda boʻladi.",
+        "example": "Oʻtkir burchakli uchburchakda ortosentr ichida, toʻmtoq burchakli uchburchakda esa tashqarida joylashadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-orta-chizigi",
+    "theory": [
+      {
+        "title": "O'rta chiziq nima?",
+        "body": "Uchburchakning o'rta chizig'i – bu uning ikki tomonining o'rtasini birlashtiruvchi kesma. U uchburchakning uchinchi tomoniga parallel bo'lib, uning uzunligining yarmini tashkil qiladi. Oddiy qilib aytganda, uchburchakni 'ikki qismga' ajratadigan chiziq deb tasavvur qilishingiz mumkin.",
+        "example": "Masalan, uchburchak ABCda AB va AC tomonlarining o'rtalari M va N bo'lsa, MN kesma o'rta chiziq bo'ladi. U BC ga parallel va BC ning yarmi uzunlikda."
+      },
+      {
+        "title": "O'rta chiziqning xossasi",
+        "body": "Eng muhim xossa: o'rta chiziq uchburchakning uchinchi tomoniga parallel va uning uzunligining yarmini tashkil qiladi. Bu degani, agar uchburchakning bir tomonining uzunligini biladigan bo'lsangiz, o'rta chiziqning uzunligini osongina topishingiz mumkin.",
+        "example": "Agar BC tomonining uzunligi 10 sm bo'lsa, uning o'rta chizig'i (MN) 5 sm bo'ladi va BC ga parallel bo'ladi."
+      },
+      {
+        "title": "O'rta chiziqni topish",
+        "body": "O'rta chiziqni topish uchun avval uchburchakning ikki tomonining o'rtasini belgilang. So'ng bu ikki nuqtani to'g'ri chiziq bilan birlashtiring. Natijada hosil bo'lgan kesma o'rta chiziq bo'ladi. Uning uzunligini topish uchun uchinchi tomonning uzunligini ikkiga bo'ling.",
+        "example": "Uchburchakda AB=8 sm, AC=6 sm, BC=12 sm. AB va AC ning o'rtalari M va N bo'lsa, MN o'rta chiziq bo'lib, uning uzunligi BC/2 = 6 sm ga teng."
+      },
+      {
+        "title": "O'rta chiziq va maydoni",
+        "body": "Qiziqarli fakt: o'rta chiziq uchburchakni ikkita kichikroq uchburchakka ajratadi, ularning har birining maydoni asl uchburchak maydonining to'rtdan bir qismiga teng. Ya'ni, o'rta chiziq bilan ajratilgan ikkala qism ham teng maydonga ega.",
+        "example": "Asl uchburchakning maydoni 20 sm² bo'lsa, o'rta chiziq bilan ajratilgan har bir kichik uchburchakning maydoni 5 sm² bo'ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchaklar-oxshashligi",
+    "theory": [
+      {
+        "title": "O'xshashlik nima?",
+        "body": "Ikkita uchburchak o'xshash deb ataladi, agar ularning barcha mos burchaklari teng va mos tomoqlari proporsional (bir xil nisbatda) bo'lsa. Ya'ni, bir uchburchakni kattalashtirib yoki kichraytirib, ikkinchisiga aylantirish mumkin. O'xshashlik belgisi: ∼.",
+        "example": "Masalan, ikkita uchburchakda barcha burchaklar 60°, 70° va 50° bo'lsa, ular o'xshashdir. Tomonlari esa 3:4:5 va 6:8:10 nisbatda bo'lishi mumkin."
+      },
+      {
+        "title": "O'xshashlik alomatlari",
+        "body": "Uchburchaklar o'xshashligini tekshirish uchun uchta asosiy alomat bor: 1) Barcha mos burchaklar teng; 2) Ikkita tomon proporsional va ular orasidagi burchak teng; 3) Barcha tomonlar proporsional. Bitta alomat yetarli!",
+        "example": "Agar ikkita uchburchakda AB/A'B' = AC/A'C' = 2 va ∠A = ∠A' bo'lsa, ular o'xshash (2-alomat)."
+      },
+      {
+        "title": "O'xshashlik koeffitsienti",
+        "body": "O'xshash uchburchaklarning mos tomonlari nisbatini o'xshashlik koeffitsienti (k) deyiladi. Agar k=2 bo'lsa, birinchi uchburchak ikkinchisidan 2 marta katta. Yuqori sinflarda bu koeffitsient yordamida yuzalar nisbatini topamiz: k².",
+        "example": "Bir uchburchakning tomoni 5, ikkinchisining mos tomoni 10 bo'lsa, k=10/5=2. Demak, ikkinchi uchburchakning yuzi birinchi niki 4 marta katta (2²=4)."
+      },
+      {
+        "title": "O'xshashlik va parallel chiziqlar",
+        "body": "Agar uchburchak ichida unga parallel chiziq chizilsa, u yangi kichik uchburchak hosil qiladi. Bu kichik uchburchak asl uchburchak bilan o'xshash bo'ladi. Bu xossa masalalarda ko'p ishlatiladi!",
+        "example": "ABC uchburchakda DE ∥ BC bo'lsa, ADE ∼ ABC. Demak, AD/AB = AE/AC = DE/BC."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-yuzi",
+    "theory": [
+      {
+        "title": "Uchburchak nima?",
+        "body": "Uchburchak — bu uchta nuqta va ularni tutashtiruvchi uchta kesmadan iborat geometrik shakl. Bu nuqtalar uchburchakning uchlari, kesmalar esa uning tomonlari deyiladi. Har qanday uchburchakda uchta burchak ham mavjud boʻladi.",
+        "example": "Masalan, uchta gugurt choʻpini uchburchak shaklida qoʻyib koʻring — shu uchburchak boʻladi. Yoki yoʻl belgisidagi „berkitish“ belgisi ham uchburchak shaklidadir."
+      },
+      {
+        "title": "Uchburchak yuzi qanday oʻlchanadi?",
+        "body": "Uchburchakning yuzi — bu uning ichki qismi qanchalik katta ekanligini koʻrsatadi. Eng oddiy formulasi: *asos × balandlik ÷ 2*. Asos — uchburchakning istalgan tomoni, balandlik esa shu asosga tushirilgan perpendikulyar chiziqning uzunligi.",
+        "example": "Agar uchburchakning asosi 6 sm, balandligi 4 sm boʻlsa, uning yuzi: (6 × 4) ÷ 2 = 12 sm² boʻladi."
+      },
+      {
+        "title": "Balandlikni topish",
+        "body": "Balandlikni topish uchun uchburchakning bir tomonini asos qilib oling. Keyin qarama-qarshi uchidan shu asosga perpendikulyar chiziq chizing. Bu chiziqning uzunligi — balandlik. Toʻgʻri burchakli uchburchakda balandlik toʻgʻridan-toʻgʻri katetlardan biri boʻlishi mumkin.",
+        "example": "Masalan, toʻgʻri burchakli uchburchakda katetlardan biri asos, ikkinchisi balandlik boʻladi. Teng yonli uchburchakda esa balandlik asosni teng ikkiga boʻladi."
+      },
+      {
+        "title": "Geron formulasi",
+        "body": "Agar uchburchakning barcha tomonlari maʼlum boʻlsa, uning yuzini Geron formulasi bilan topish mumkin. Buning uchun avval yarim perimetrni hisoblang: *p = (a + b + c) ÷ 2*. Keyin yuzni toping: *√[p × (p - a) × (p - b) × (p - c)]*. Bu formula har qanday uchburchak uchun ishlaydi!",
+        "example": "Uchburchakning tomonlari 3, 4 va 5 sm boʻlsa, yarim perimetr: (3+4+5)÷2=6. Yuzi: √[6×(6-3)×(6-4)×(6-5)] = √36 = 6 sm²."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "uchburchaklar",
+    "lesson_slug": "uchburchak-tengsizligi",
+    "theory": [
+      {
+        "title": "Uchburchak nima?",
+        "body": "Uchburchak — bu uchta nuqta va ularni tutashtiruvchi uchta kesmadan iborat figura. Bu nuqtalar uchburchakning uchlari, kesmalar esa uning tomonlari deyiladi. Har qanday uchburchakda tomonlar uzunligi va burchaklari muhim ahamiyatga ega.",
+        "example": "Masalan, uchburchakning tomonlari 3 sm, 4 sm va 5 sm bo‘lishi mumkin. Bu uchburchak to‘g‘ri burchakli bo‘ladi."
+      },
+      {
+        "title": "Uchburchak tengsizligi qoidasi",
+        "body": "Uchburchakning har qanday ikki tomoni yig‘indisi uchinchi tomondan katta bo‘lishi kerak. Agar bu shart bajarilmasa, bunday tomonlar bilan uchburchak yasab bo‘lmaydi. Bu qoida geometriyaning eng muhim qoidalaridan biri!",
+        "example": "Tomonlari 2 sm, 3 sm va 6 sm bo‘lgan uchburchak yasab bo‘lmaydi, chunki 2 + 3 = 5 < 6. Demak, bunday tomonlar uchburchak hosil qila olmaydi."
+      },
+      {
+        "title": "Tengsizlikni tekshirish",
+        "body": "Uchburchak yasash uchun berilgan uchta tomonni tekshirib ko‘rish kerak: har bir tomon qolgan ikki tomon yig‘indisidan kichik bo‘lishi shart. Agar bu shart bajarilsa, bunday tomonlar bilan uchburchak mavjud bo‘ladi.",
+        "example": "Tomonlari 5 sm, 7 sm va 10 sm bo‘lgan uchburchak mavjud, chunki: 5 + 7 > 10, 5 + 10 > 7, 7 + 10 > 5."
+      },
+      {
+        "title": "Tengsizlikdan foydalanish",
+        "body": "Uchburchak tengsizligi yordamida noma’lum tomon uzunligini topish mumkin. Agar ikki tomon ma’lum bo‘lsa, uchinchi tomon ularning ayirmasi va yig‘indisi orasida bo‘lishi kerak.",
+        "example": "Uchburchakning ikki tomoni 4 sm va 6 sm bo‘lsa, uchinchi tomon (x) quyidagicha bo‘lishi kerak: 6 - 4 < x < 6 + 4, ya’ni 2 < x < 10."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "torturchak-tushuncha",
+    "theory": [
+      {
+        "title": "To'rtburchak nima?",
+        "body": "To'rtburchak — bu toʻrtta tomon va toʻrtta burchakdan iborat geometrik shakl. Har bir tomon toʻgʻri chiziqdan iborat, va qarama-qarshi tomonlar bir-biriga parallel boʻlishi mumkin. Eng oddiy shakllaridan biri!",
+        "example": "Kitobingizning beti yoki stol ustidagi daftar — toʻrtburchak shaklida."
+      },
+      {
+        "title": "To'rtburchakning turlari",
+        "body": "To'rtburchaklar turli xil boʻladi: kvadrat, toʻgʻri toʻrtburchak, parallelogramm, romb va trapetsiya. Ularning barchasida toʻrtta tomon bor, lekin tomonlari va burchaklari turlicha joylashgan.",
+        "example": "Kvadratda barcha tomonlar teng va burchaklar 90°, toʻgʻri toʻrtburchakda esa faqat qarama-qarshi tomonlar teng."
+      },
+      {
+        "title": "Qarama-qarshi tomonlar",
+        "body": "To'rtburchakda qarama-qarshi tomonlar bir-biriga parallel va teng uzunlikda boʻladi. Bu xususiyat parallelogramm, toʻgʻri toʻrtburchak va kvadratda ham mavjud. Shuning uchun ularni osongina ajratish mumkin!",
+        "example": "A4 qogʻoz varagʻi — toʻgʻri toʻrtburchak, uning qarama-qarshi tomonlari teng va parallel."
+      },
+      {
+        "title": "To'rtburchakning diagonallari",
+        "body": "Diagonal — bu toʻrtburchakning qarama-qarshi uchlarini birlashtiruvchi kesma. Kvadrat va rombda diagonallar bir-biriga perpendikulyar, toʻgʻri toʻrtburchakda esa faqat teng uzunlikda boʻladi.",
+        "example": "Televizor ekrani toʻgʻri toʻrtburchak shaklida, uning diagonallari teng uzunlikda."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "parallelogramm",
+    "theory": [
+      {
+        "title": "Parallelogramm nima?",
+        "body": "Parallelogramm – bu qarama-qarshi tomonlari parallel va teng boʻlgan toʻrtburchak. Yaʼni, uning ikki juft tomoni bir-biriga parallel va bir xil uzunlikda. Bunday shaklni koʻp joylarda uchratishingiz mumkin, masalan, kitobning yuzi yoki derazadagi shisha.",
+        "example": "Misol: Stol ustidagi romb shaklidagi stolcha yoki kvadrat – bularning barchasi parallelogrammning maxsus turlari."
+      },
+      {
+        "title": "Qarama-qarshi tomonlar teng",
+        "body": "Parallelogrammda qarama-qarshi tomonlar nafaqat parallel, balki teng ham boʻladi. Agar bir tomonining uzunligini biladigan boʻlsangiz, uning qarama-qarshi tomonining uzunligini ham bilasiz. Bu xossa masalalarni yechishda juda foydali boʻladi.",
+        "example": "Misol: Agar bir tomoni 5 sm boʻlsa, uning qarama-qarshi tomoni ham 5 sm boʻladi."
+      },
+      {
+        "title": "Qarama-qarshi burchaklar teng",
+        "body": "Parallelogrammda qarama-qarshi burchaklar ham teng boʻladi. Yaʼni, bir burchak 70° boʻlsa, uning qarama-qarshi burchagi ham 70° boʻladi. Qolgan ikki burchak esa bir-biriga qoʻshni boʻlib, ularning yigʻindisi 180° ni tashkil qiladi.",
+        "example": "Misol: Agar bir burchak 60° boʻlsa, uning qarama-qarshi burchagi ham 60°, qoʻshni burchaklari esa 120° boʻladi."
+      },
+      {
+        "title": "Diagonalarning xossasi",
+        "body": "Parallelogrammning diagonallari bir-birini ikkiga boʻladi. Yaʼni, diagonallar kesishgan joyda teng ikkita qismga boʻlinadi. Bu xossa parallelogrammni boshqa toʻrtburchaklardan ajratib turadi.",
+        "example": "Misol: Agar diagonallardan biri 10 sm boʻlsa, u kesishgan joyda 5 sm va 5 sm ga boʻlinadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "togri-torturchak",
+    "theory": [
+      {
+        "title": "To'g'ri to'rtburchak nima?",
+        "body": "To'g'ri to'rtburchak — bu barcha burchaklari 90 daraja boʻlgan toʻrtburchak. Yaʼni, uning har bir burchagi toʻgʻri burchak. Bunday toʻrtburchakda qarama-qarshi tomonlar bir-biriga teng va parallel boʻladi. Oddiyroq qilib aytganda, bu biz koʻp koʻradigan toʻrtburchak shaklidir.",
+        "example": "Masalan, kitobingizning sahifasi yoki telefoningizning ekrani toʻgʻri toʻrtburchak shaklida boʻladi."
+      },
+      {
+        "title": "Tomonlari va perimetri",
+        "body": "Toʻgʻri toʻrtburchakning ikki juft teng tomonlari bor: uzunligi (a) va kengligi (b). Perimetri — bu toʻrtburchakning barcha tomonlarining yigʻindisi. Uni hisoblash uchun formuladan foydalanamiz: P = 2(a + b). Bu formulani eslab qolish oson, chunki tomonlarni ikki marta qoʻshamiz.",
+        "example": "Agar toʻrtburchakning uzunligi 5 sm, kengligi 3 sm boʻlsa, uning perimetri: 2*(5 + 3) = 16 sm boʻladi."
+      },
+      {
+        "title": "Yuzasi qanday topiladi?",
+        "body": "Toʻgʻri toʻrtburchakning yuzasi uning ichki qismining maydonini bildiradi. Uni hisoblash uchun uzunlikni kenglikka koʻpaytirish kerak: S = a * b. Bu formulani eslab qolish uchun oʻylab koʻring: toʻrtburchakni kvadratlardan iborat deb tasavvur qilsak, har bir qator va ustunda nechta kvadrat borligini koʻpaytiramiz.",
+        "example": "Masalan, uzunligi 6 sm, kengligi 4 sm boʻlgan toʻrtburchakning yuzasi: 6 * 4 = 24 sm² boʻladi."
+      },
+      {
+        "title": "Diagonalining xossalari",
+        "body": "Toʻgʻri toʻrtburchakning diagonallari bir-biriga teng va bir-birini teng ikkiga boʻladi. Diagonal uzunligini topish uchun Pifagor teoremasidan foydalanamiz: d = √(a² + b²). Bu diagonal toʻrtburchakni ikkita teng toʻgʻri uchburchakka ajratadi.",
+        "example": "Agar tomonlari 3 sm va 4 sm boʻlgan toʻgʻri toʻrtburchakning diagonali: √(3² + 4²) = √(9 + 16) = √25 = 5 sm boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "romb",
+    "theory": [
+      {
+        "title": "Romb nima?",
+        "body": "Romb – bu barcha tomonlari teng boʻlgan toʻrtburchak. Yaʼni, uning toʻrtta tomoni ham bir xil uzunlikda. Rombni qiya kvadrat deb ham tasavvur qilish mumkin, chunki kvadrat ham rombning bir turi, lekin barcha burchaklari toʻgʻri boʻladi. Rombda esa burchaklar har xil boʻlishi mumkin.",
+        "example": "Masalan, olmos shaklidagi koʻprik toshi yoki qogʻozdan kesilgan qiya kvadrat rombga misol boʻladi."
+      },
+      {
+        "title": "Rombning diagonallari",
+        "body": "Rombning diagonallari (kesuvchi chiziqlari) bir-biriga perpendikulyar kesishadi va har bir diagonal rombni ikkita teng yonli uchburchakka ajratadi. Diagonallar rombning burchaklarini teng ikkiga boʻladi – bu xususiyat uni boshqa toʻrtburchaklardan ajratib turadi.",
+        "example": "Agar rombning diagonallari 6 sm va 8 sm boʻlsa, ular bir-birini 90° burchakda kesadi va rombni toʻrtta teng yonli uchburchakka ajratadi."
+      },
+      {
+        "title": "Romb yuzi formulasi",
+        "body": "Rombning yuzini ikki usulda hisoblash mumkin: 1) tomon uzunligini balandlikka koʻpaytirish (S = a × h); 2) diagonallar koʻpaytmasini ikkiga boʻlish (S = d₁ × d₂ / 2). Ikkinchi usul koʻproq ishlatiladi, chunki diagonallarni oʻlchash osonroq.",
+        "example": "Diagonallari 10 sm va 12 sm boʻlgan rombning yuzi: (10 × 12) / 2 = 60 sm² boʻladi."
+      },
+      {
+        "title": "Rombning xossalari",
+        "body": "Rombning asosiy xossalari: 1) Barcha tomonlari teng; 2) Diagonallari perpendikulyar; 3) Diagonallar burchaklarni teng ikkiga boʻladi; 4) Qarama-qarshi burchaklari teng. Bu xususiyatlar rombni parallelogrammning maxsus turi ekanligini koʻrsatadi.",
+        "example": "Agar rombning bir burchagi 70° boʻlsa, uning qarama-qarshi burchagi ham 70°, qolgan ikki burchagi esa 110° boʻladi (chunki toʻrtburchak burchaklari yigʻindisi 360°)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "kvadrat",
+    "theory": [
+      {
+        "title": "Kvadrat nima?",
+        "body": "Kvadrat – bu barcha tomonlari teng va barcha burchaklari 90 daraja boʻlgan toʻrtburchak. Oddiyroq qilib aytganda, u toʻrtta teng tomonli va toʻrtta toʻgʻri burchakli shakl. Uni oddiy qogʻoz varagʻiga oʻxshatishingiz mumkin – barcha chetlari bir xil, burchaklari esa toʻgʻri.",
+        "example": "Misollar: shaxmat doskasi kataklari, deraza oynasi, baʼzi kitob muqovalari."
+      },
+      {
+        "title": "Kvadratning xossalari",
+        "body": "Kvadratning asosiy xossalari: 1) Barcha tomonlari teng; 2) Barcha burchaklari 90°; 3) Diagonalari bir-biriga teng va kesishgan joyda toʻgʻri burchak hosil qiladi; 4) Diagonalari bir-birini teng ikkiga boʻladi. Bu xususiyatlar kvadratni boshqa toʻrtburchaklardan ajratib turadi.",
+        "example": "Masalan, kvadratning diagonalini chizsangiz, u ikkita teng uchburchak hosil qiladi va diagonalning uzunligi tomon uzunligidan √2 marta katta boʻladi (masalan, tomon 5 boʻlsa, diagonal ≈7.07)."
+      },
+      {
+        "title": "Kvadrat perimetri",
+        "body": "Kvadratning perimetri – bu uning barcha tomonlarining yigʻindisi. Chunki barcha tomonlari teng, perimetrni topish uchun bitta tomon uzunligini 4 ga koʻpaytirish kifoya. Formula: P = 4 × a (bu yerda a – tomon uzunligi).",
+        "example": "Agar kvadratning bir tomoni 6 sm boʻlsa, uning perimetri 4 × 6 = 24 sm boʻladi."
+      },
+      {
+        "title": "Kvadrat yuzasi",
+        "body": "Kvadratning yuzasi – bu uning ichki qismining oʻlchami. Yuzani topish uchun tomon uzunligini oʻziga koʻpaytirish kerak. Formula: S = a × a yoki S = a². Bu kvadratning eng muhim xususiyatlaridan biri – yuzani hisoblash juda oson!",
+        "example": "Masalan, kvadratning tomoni 5 metr boʻlsa, uning yuzasi 5 × 5 = 25 m² boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "trapetsiya",
+    "theory": [
+      {
+        "title": "Trapetsiya nima?",
+        "body": "Trapetsiya — bu ikki tomoni parallel (bir-biriga yonma-yon va hech qachon kesishmaydigan) boʻlgan toʻrtburchak. Parallel tomonlar *asoslar* deb ataladi, qolgan ikki tomoni esa *yon tomonlar* deyiladi. Trapetsiyaning asosiy xususiyati shundaki, faqat bitta juft tomoni parallel boʻladi, qolgan toʻrtburchaklardan farqi shunda.",
+        "example": "Masalan, yoʻl chetidagi yoʻl belgisi (uchburchak shaklida emas, balki yuqori va pastki tomonlari parallel boʻlgan toʻrtburchak) yoki stolning bir tomoni qisqaroq boʻlgan shakli trapetsiyaga misol boʻladi."
+      },
+      {
+        "title": "Trapetsiyaning balandligi",
+        "body": "Trapetsiyaning balandligi — bu asoslar orasidagi eng qisqa masofa, yaʼni parallel tomonlarga perpendikulyar (tik) chizilgan kesma. Balandlikni topish uchun asoslardan biridan ikkinchisiga tik chiziq chizing. Bu chiziqning uzunligi balandlik boʻladi. Balandlik har doim asoslarga perpendikulyar boʻladi, hatto yon tomonlar qiya boʻlsa ham.",
+        "example": "Misol uchun, yuqori asosi 4 sm, pastki asosi 8 sm boʻlgan trapetsiyada, balandlik 5 sm boʻlsa, bu ikki asos orasidagi tik masofa 5 sm degani."
+      },
+      {
+        "title": "Trapetsiyaning oʻrta chizigʻi",
+        "body": "Trapetsiyaning oʻrta chizigʻi — bu yon tomonlarni birlashtiruvchi va asoslarga parallel boʻlgan kesma. U har doim asoslarning yigʻindisining yarimiga teng boʻladi. Formulasi: oʻrta chiziq = (asos1 + asos2) / 2. Bu juda foydali, chunki oʻrta chiziq orqali trapetsiyaning yuzasini ham topish mumkin.",
+        "example": "Agar yuqori asosi 3 sm, pastki asosi 7 sm boʻlgan trapetsiyaning oʻrta chizigʻi (3 + 7) / 2 = 5 sm boʻladi. Bu degani, oʻrta chiziq 5 sm uzunlikda boʻladi."
+      },
+      {
+        "title": "Trapetsiyaning yuzasi",
+        "body": "Trapetsiyaning yuzasini topish uchun asoslarning yigʻindisini ikkiga boʻling va natijani balandlikka koʻpaytiring. Formulasi: S = (a + b) / 2 * h, bu yerda *a* va *b* — asoslar, *h* — balandlik. Bu formulani eslab qolish oson: oʻrta chiziqni balandlikka koʻpaytirsangiz ham yuza chiqadi!",
+        "example": "Misol: yuqori asosi 4 sm, pastki asosi 10 sm, balandligi 6 sm boʻlgan trapetsiyaning yuzasi (4 + 10) / 2 * 6 = 7 * 6 = 42 sm² boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "trapetsiya-orta-chizigi",
+    "theory": [
+      {
+        "title": "Trapetsiya nima?",
+        "body": "Trapetsiya – bu ikki tomoni parallel (bir-biriga parallel) boʻlgan toʻrtburchak. Parallel tomonlarni *asoslar*, qolgan ikki tomonni esa *yon tomonlar* deyiladi. Trapetsiyaning asosiy xususiyati shundaki, uning faqat bitta juft parallel tomonlari bor.",
+        "example": "Masalan, yoʻl chetidagi uchburchak shakldagi yoʻlak trapetsiyaga misol boʻla oladi: yuqori va pastki qirralari parallel, lekin yon tomonlari turli uzunlikda."
+      },
+      {
+        "title": "Oʻrta chiziq qayerda?",
+        "body": "Trapetsiyaning oʻrta chizigʻi – bu uning ikki yon tomonini birlashtiruvchi va asoslarga parallel boʻlgan kesma. U har doim asoslarning oʻrtasidan oʻtadi va ularning yigʻindisini yarimga boʻlish orqali topiladi.",
+        "example": "Agar trapetsiyaning asoslari 6 sm va 10 sm boʻlsa, oʻrta chiziq (6 + 10) : 2 = 8 sm boʻladi."
+      },
+      {
+        "title": "Oʻrta chiziq formulasi",
+        "body": "Trapetsiyaning oʻrta chizigʻi (m) asoslarning yigʻindisini ikkiga boʻlish orqali topiladi: m = (a + b) / 2. Bu formula har qanday trapetsiya uchun ishlaydi, faqat a va b – parallel asoslarning uzunliklari boʻlsin.",
+        "example": "Asoslari 4 sm va 12 sm boʻlgan trapetsiyaning oʻrta chizigʻi: (4 + 12) / 2 = 8 sm."
+      },
+      {
+        "title": "Oʻrta chiziq va yuza",
+        "body": "Trapetsiyaning yuzasini oʻrta chiziq orqali ham hisoblash mumkin: S = m * h, bu yerda m – oʻrta chiziq, h – balandlik. Bu formuladan foydalanib, balandlikni topish ham mumkin, agar yuza maʼlum boʻlsa.",
+        "example": "Oʻrta chizigʻi 7 sm, balandligi 5 sm boʻlgan trapetsiyaning yuzasi: 7 * 5 = 35 sm²."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "torturchak-yuzi",
+    "theory": [
+      {
+        "title": "To'rtburchak nima?",
+        "body": "To'rtburchak – bu toʻrtta tomon va toʻrtta burchakdan iborat geometrik shakl. Har bir tomon toʻgʻri chiziq boʻlib, qarama-qarshi tomonlar bir-biriga parallel (yoki parallel boʻlmasligi mumkin). Eng oddiy misol – kvadrat yoki toʻrtburchak shaklidagi kitobingiz!",
+        "example": "1. Stol yuzasi toʻrtburchak shaklda. 2. Telefon ekrani koʻpincha toʻrtburchak boʻladi."
+      },
+      {
+        "title": "To'rtburchak yuzasi qanday hisoblanadi?",
+        "body": "To'rtburchakning yuzasi – bu uning ichki qismining hajmi. Eng oddiy formulasi: *yuz = asos × balandlik*. Asos – bir tomonning uzunligi, balandlik esa unga perpendikulyar (tik) tushirilgan chiziq. Kvadratda esa yuz = tomon × tomon.",
+        "example": "1. Toʻrtburchakning asosi 5 sm, balandligi 3 sm boʻlsa, yuzi 5 × 3 = 15 sm². 2. Kvadratning tomoni 4 sm boʻlsa, yuzi 4 × 4 = 16 sm²."
+      },
+      {
+        "title": "Parallel to'rtburchaklar yuzi",
+        "body": "Parallel to'rtburchak (masalan, romb yoki toʻgʻri toʻrtburchak)da yuzani hisoblash uchun ham *asos × balandlik* formulasi ishlatiladi. Farqi shundaki, qarama-qarshi tomonlar parallel va teng boʻladi. Balandlikni topish uchun asosga tik chiziq chizing.",
+        "example": "1. Parallel to'rtburchakning asosi 6 sm, balandligi 4 sm boʻlsa, yuzi 6 × 4 = 24 sm². 2. Rombning diagonallari 8 sm va 6 sm boʻlsa, yuzi (8 × 6) / 2 = 24 sm²."
+      },
+      {
+        "title": "Trapeetsiya yuzi formulasi",
+        "body": "Trapeetsiya – faqat ikkita parallel tomoni bor toʻrtburchak. Uning yuzasi: *(asos1 + asos2) × balandlik / 2*. Asoslar – parallel tomonlar, balandlik esa ular orasidagi eng qisqa masofa. Bu formulani yodda tutish oson: ikkita asosni qoʻshib, yarmini oling!",
+        "example": "1. Trapeetsiyaning asoslari 5 sm va 3 sm, balandligi 4 sm boʻlsa, yuzi (5 + 3) × 4 / 2 = 16 sm². 2. Koʻprik shaklidagi tomning yuzi trapeetsiya formulasi bilan hisoblanadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "kopburchak-burchaklari",
+    "theory": [
+      {
+        "title": "Ko'pburchak nima?",
+        "body": "Ko'pburchak — bu tekislikda bir-biriga ketma-ket ulanib, yopiq shakl hosil qiluvchi uch yoki undan ortiq kesmalar (yoʻllar) dan iborat figura. Har bir kesma boshqa ikki kesma bilan tutashadi, lekin kesishmaydi. Oddiy qilib aytganda, uchburchak, toʻrtburchak, beshburchak — bularning barchasi koʻpburchaklar.",
+        "example": "Misol: Uchburchak (3 ta tomon), kvadrat (4 ta tomon), beshburchak (5 ta tomon)."
+      },
+      {
+        "title": "Ko'pburchakning ichki burchaklari",
+        "body": "Har bir koʻpburchakning ichki burchaklari — bu uning ichki qismida hosil boʻladigan burchaklar. Masalan, uchburchakda 3 ta, toʻrtburchakda 4 ta ichki burchak bor. Koʻpburchakning barcha ichki burchaklari yigʻindisini hisoblash uchun maxsus formula mavjud.",
+        "example": "Misol: Uchburchakning ichki burchaklari yigʻindisi 180°, kvadratniki esa 360°."
+      },
+      {
+        "title": "Ichki burchaklar yig'indisi formulasi",
+        "body": "Koʻpburchakning ichki burchaklari yigʻindisini topish uchun bu formuladan foydalanamiz: (n - 2) × 180°, bu yerda n — koʻpburchakning tomonlari soni. Bu formula har qanday koʻpburchak uchun ishlaydi, faqat tomonlar sonini bilish kifoya!",
+        "example": "Misol: Beshburchak (5 tomon) uchun: (5 - 2) × 180° = 540°. Oltiburchak (6 tomon) uchun: (6 - 2) × 180° = 720°."
+      },
+      {
+        "title": "Tashqi burchaklar va ularning yig'indisi",
+        "body": "Koʻpburchakning har bir uchida ichki burchak bilan birga tashqi burchak ham mavjud. Tashqi burchak — bu koʻpburchakning bir tomonini choʻzib, hosil qilinadigan qoʻshimcha burchak. Qiziq fakt: har qanday koʻpburchakning barcha tashqi burchaklari yigʻindisi doim 360° ga teng!",
+        "example": "Misol: Uchburchakning har bir uchida tashqi burchaklar yigʻindisi 360°. Kvadratniki ham xuddi shunday — 360°."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "muntazam-kopburchak",
+    "theory": [
+      {
+        "title": "Muntazam ko'pburchak nima?",
+        "body": "Muntazam ko'pburchak – bu barcha tomonlari teng va barcha burchaklari ham teng bo'lgan ko'pburchak. Oddiy qilib aytganda, u mukammal simmetriyaga ega. Masalan, teng tomonli uchburchak yoki kvadrat muntazam ko'pburchaklardir.",
+        "example": "Teng tomonli uchburchak (3 ta teng tomon, 3 ta 60° burchak) va kvadrat (4 ta teng tomon, 4 ta 90° burchak) muntazam ko'pburchaklardir."
+      },
+      {
+        "title": "Muntazam ko'pburchakning xossalari",
+        "body": "Muntazam ko'pburchakda hamma tomonlar bir xil uzunlikda, hamma ichki burchaklar bir xil o'lchamda bo'ladi. Bundan tashqari, uning tashqi burchaklari ham teng. Har bir muntazam ko'pburchakni aylana ichiga chizish mumkin – bu uning yana bir muhim xossasi.",
+        "example": "Muntazam beshburchak (pentagon)da barcha tomonlar teng, ichki burchaklar 108° ga teng, tashqi burchaklar esa 72°."
+      },
+      {
+        "title": "Ichki burchakni hisoblash",
+        "body": "Muntazam ko'pburchakning bitta ichki burchagini topish uchun formuladan foydalanamiz: (n-2) × 180° / n, bu yerda n – tomonlar soni. Bu formula yordamida istalgan muntazam ko'pburchakning ichki burchagini osongina topishingiz mumkin.",
+        "example": "Muntazam oltiburchak (n=8) uchun: (8-2) × 180° / 8 = 135°. Demak, har bir ichki burchak 135° ga teng."
+      },
+      {
+        "title": "Tashqi burchakni hisoblash",
+        "body": "Muntazam ko'pburchakning tashqi burchagini topish juda oson: 360° ni tomonlar soniga (n) bo'lamiz. Har bir tashqi burchak bir xil bo'ladi, chunki ko'pburchak muntazam. Bu formula har qanday muntazam ko'pburchak uchun ishlaydi.",
+        "example": "Muntazam oltiburchak (n=6) uchun: 360° / 6 = 60°. Demak, har bir tashqi burchak 60° ga teng."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "torturchak-kopburchak",
+    "lesson_slug": "kopburchak-yuzi",
+    "theory": [
+      {
+        "title": "Ko'pburchak nima?",
+        "body": "Ko'pburchak — bu tekislikda yopiq shakldagi chiziq, uch yoki undan ortiq toʻgʻri kesmalardan iborat. Har bir kesma boshqa ikki kesma bilan tutashib, burchak hosil qiladi. Ko'pburchakning eng oddiy misoli — uchburchak, lekin toʻrtburchak, beshburchak va hokazo ham mavjud.",
+        "example": "Masalan, uchburchak — 3 ta tomonli ko'pburchak, kvadrat esa 4 ta teng tomonli ko'pburchak."
+      },
+      {
+        "title": "Ko'pburchakning yuzi qanday oʻlchanadi?",
+        "body": "Ko'pburchak yuzi — bu uning ichki qismining kattaligi. Yuzi oʻlchash uchun turli formulalar mavjud, lekin eng muhimi — uni kvadrat birliklarda (masalan, sm², m²) ifodalash. Har bir ko'pburchak turi uchun oʻziga xos formula bor, masalan, uchburchak yoki toʻrtburchak uchun.",
+        "example": "Kvadratning yuzi tomon uzunligining kvadratiga teng: agar tomon 5 sm boʻlsa, yuzi 5 × 5 = 25 sm²."
+      },
+      {
+        "title": "Uchburchak yuzini hisoblash",
+        "body": "Uchburchakning yuzi asos va balandlik koʻpaytmasining yarimiga teng. Formulasi: Yuzi = (asos × balandlik) / 2. Asos — uchburchakning istalgan tomoni, balandlik esa shu asosga tushirilgan perpendikulyar chiziq.",
+        "example": "Agar uchburchakning asosi 6 sm, balandligi 4 sm boʻlsa, yuzi (6 × 4) / 2 = 12 sm²."
+      },
+      {
+        "title": "Toʻgʻri toʻrtburchak yuzini topish",
+        "body": "Toʻgʻri toʻrtburchakning yuzi uning uzunligi va kengligining koʻpaytmasiga teng. Formulasi: Yuzi = uzunlik × kenglik. Bu eng oddiy va koʻp ishlatiladigan formula.",
+        "example": "Masalan, toʻrtburchakning uzunligi 8 sm, kengligi 3 sm boʻlsa, yuzi 8 × 3 = 24 sm²."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "aylana-elementlari",
+    "theory": [
+      {
+        "title": "Aylana nima?",
+        "body": "Aylana – bu tekislikda bir nuqtadan (markazdan) bir xil masofada joylashgan barcha nuqtalar toʻplami. Bu masofa radius deyiladi. Aylana faqat chiziq boʻlib, uning ichi boʻsh deb hisoblanadi. Uni doira bilan aralashtirmang!",
+        "example": "Velosiped gʻildiragining chetlari aylana shaklida. Markaz – gʻildirakning oʻrta qismi, radius esa gʻildirakning markazidan chetigacha boʻlgan masofa."
+      },
+      {
+        "title": "Radius va diametr",
+        "body": "Radius – aylana markazidan uning chetigacha boʻlgan masofa. Diametr esa aylanani ikki teng qismga boʻladigan toʻgʻri chiziq boʻlib, radiusning ikki barobariga teng. Diametr har doim markazdan oʻtadi.",
+        "example": "Pitsa kesilsa, uning bir boʻlakning markazdan chetigacha boʻlgan qismi radius, butun pitsaning bir chetidan ikkinchi chetigacha kesilgan chiziq esa diametr boʻladi."
+      },
+      {
+        "title": "Xorda va uning xossalari",
+        "body": "Xorda – aylana ichida ikki nuqtani birlashtiruvchi toʻgʻri chiziq. U diametr boʻlishi ham mumkin (agar markazdan oʻtgan boʻlsa), lekin har doim diametr emas. Aylana ichida cheksiz koʻp xordalar chizish mumkin.",
+        "example": "Soatning 3 va 9 raqamlari orasidagi toʻgʻri chiziq aylanadagi xordadir. Agar bu chiziq soat markazidan oʻtgan boʻlsa, u diametr boʻladi."
+      },
+      {
+        "title": "Aylana yoyi va uning oʻlchovi",
+        "body": "Aylana yoyi – aylananing ikki nuqta orasidagi qismi. Uning uzunligi markaz burchak (yoyga qaragan burchak) bilan bevosita bogʻliq. Butun aylana 360° ga teng, shuning uchun yoy uzunligi ham shunga mos ravishda oʻlchanadi.",
+        "example": "Pitsaning 1/4 qismi – 90° ga teng yoy. Agar butun pitsa 360° boʻlsa, uning chorak qismi 90° yoy hosil qiladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "vatar-yoy",
+    "theory": [
+      {
+        "title": "Vatar nima?",
+        "body": "Aylananing ikki nuqtasini birlashtiruvchi kesma vatar deyiladi. Qisqacha qilib aytganda, vatar — aylana ichidagi toʻgʻri chiziq. U aylanani ikki qismga ajratadi, lekin uning uzunligi aylananing diametridan qisqa boʻladi.",
+        "example": "Masalan, velosiped gʻildiragining simlari — bu vatarning oddiy misoli. Yoki soatning 3 va 9 raqamlari orasidagi toʻgʻri chiziq ham vatar."
+      },
+      {
+        "title": "Yoy — aylananing bir qismi",
+        "body": "Aylana ustida ikki nuqta orasidagi egri chiziq yoy deyiladi. Vatar aylanani ikki yoyga ajratadi: kichik yoy (qisqaroq qismi) va katta yoy (uzunroq qismi). Yoy uzunligi uning markaziy burchagiga bogʻliq.",
+        "example": "Pitsaning bir boʻlak chetlari — bu yoy. Yoki soatning 12 va 3 raqamlari orasidagi egri chiziq ham yoyga misol boʻladi."
+      },
+      {
+        "title": "Vatar va yoyning bogʻliqligi",
+        "body": "Har bir vatar aylanani ikki yoyga ajratadi. Agar vatar diametr boʻlsa, ikkala yoy teng boʻladi (yarim aylana). Aks holda, biri katta, ikkinchisi kichik yoy boʻladi. Yoy uzunligi qancha katta boʻlsa, vatarning uzunligi ham shunchalik katta boʻladi.",
+        "example": "Masalan, soatda 12 va 6 raqamlari orasidagi toʻgʻri chiziq (diametr) ikkita teng yarim aylana yoy hosil qiladi. 12 va 3 raqamlari orasidagi vatar esa kichik va katta yoylarni yaratadi."
+      },
+      {
+        "title": "Vatar uzunligi qanday oʻlchanadi?",
+        "body": "Vatar uzunligini topish uchun aylananing radiusini (r) va vatarning markazdan masofasini (d) bilish kerak. Formulasi: vatar uzunligi = 2√(r² - d²). Agar vatar diametr boʻlsa (d=0), uzunligi 2r ga teng boʻladi — bu aylanadagi eng uzun vatar.",
+        "example": "Radius 5 sm boʻlgan aylanada markazdan 3 sm uzoqlikdagi vatar uzunligini toping: 2√(5² - 3²) = 2√(25-9) = 2√16 = 8 sm."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "markaziy-ichki-burchak",
+    "theory": [
+      {
+        "title": "Markaziy burchak nima?",
+        "body": "Aylananing markazidan oʻtuvchi ikkita radius orasidagi burchakni markaziy burchak deyiladi. Bu burchak aylananing qaysi qismini kesib olganini koʻrsatadi. Oddiy qilib aytganda, markazda joylashgan burchak deb tasavvur qiling!",
+        "example": "Masalan, soat 12 va 3 oraligʻidagi burchak markaziy burchak boʻladi, chunki u aylananing markazidan oʻtadi va 90 gradusni tashkil qiladi."
+      },
+      {
+        "title": "Ichki chizilgan burchak qayerda?",
+        "body": "Ichki chizilgan burchak aylananing istalgan nuqtasida joylashgan uchta nuqta bilan hosil boʻladi. Uning bir uchi aylana ustida, qolgan ikki uchi esa aylana ichidagi istalgan joyda boʻlishi mumkin. Bu burchak aylananing ichida joylashgani uchun shunday nom olgan.",
+        "example": "Masalan, aylana ustida A, B, C nuqtalari oling. B nuqtadagi burchak ichki chizilgan burchak boʻladi, chunki uning ikki tomoni AB va BC kesmalaridir."
+      },
+      {
+        "title": "Markaziy va ichki burchaklar aloqasi",
+        "body": "Qiziqarli fakt: bir xil yoyga tayangan markaziy burchak, ichki chizilgan burchakdan ikki baravar katta boʻladi! Yaʼni, agar ichki burchak 30 gradus boʻlsa, unga mos keluvchi markaziy burchak 60 gradus boʻladi.",
+        "example": "Masalan, aylana ustida bir xil yoyga tayangan ichki burchak 40 gradus boʻlsa, shu yoyga mos keluvchi markaziy burchak 80 gradus boʻladi."
+      },
+      {
+        "title": "Ichki burchakni hisoblash",
+        "body": "Ichki chizilgan burchakni topish uchun uning tayangan yoyining yarmini olish kerak. Yaʼni, agar yoy 100 gradus boʻlsa, unga mos keluvchi ichki burchak 50 gradus boʻladi. Bu qoidani eslab qolsangiz, koʻp masalalarni oson yechishingiz mumkin!",
+        "example": "Masalan, aylana ustida 120 graduslik yoyga tayangan ichki burchak 60 gradus boʻladi, chunki 120:2=60."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "aylanaga-urinma",
+    "theory": [
+      {
+        "title": "Urinma nima?",
+        "body": "Aylana va toʻgʻri chiziq bir-biriga tegishganda, bu toʻgʻri chiziqni aylanaga **urinma** deyiladi. Urinma aylanaga faqat bitta nuqtada tegadi – bu nuqta **teginish nuqtasi** deb ataladi. Urinma aylanaga hech qachon kesib oʻtmaydi, faqat tekkis tegadi.",
+        "example": "Velosiped gʻildiragiga yopishgan yoʻl chizigʻi – aylanaga urinma. Gʻildirak yoʻlga faqat bitta nuqtada tegadi, shuning uchun bu urinma boʻladi."
+      },
+      {
+        "title": "Urinmaning xossasi",
+        "body": "Aylanaga urinma chizilganida, uning radiusi teginish nuqtasida urinmaga **tik** boʻladi. Yaʼni, radius va urinma orasidagi burchak har doim 90° ga teng. Bu xossa geometriyada juda muhim – uni yodlab oling!",
+        "example": "Aylana markazidan teginish nuqtasiga chizilgan radiusni tasavvur qiling. Agar siz shu nuqtada urinmani chizsangiz, radius bilan urinma orasidagi burchak toʻgʻri boʻladi."
+      },
+      {
+        "title": "Urinma uzunligini topish",
+        "body": "Agar sizga aylana markazi bilan urinma orasidagi masofa (d) va aylana radiusi (r) berilgan boʻlsa, urinma uzunligini (l) topish mumkin. Buning uchun **Pifagor teoremasidan** foydalanamiz: l = √(r² - d²). Bu formulani unutmang – koʻp masalalarda kerak boʻladi!",
+        "example": "Aylana radiusi 5 sm, markazdan urinmagacha masofa 3 sm. Urinma uzunligi: √(5² - 3²) = √(25 - 9) = √16 = 4 sm."
+      },
+      {
+        "title": "Ikki urinma orasidagi masofa",
+        "body": "Agar aylana tashqarisidan ikkita urinma chizilsa, ularning uzunliklari teng boʻladi. Yaʼni, bir nuqtadan aylana tomon chizilgan ikkita urinma bir xil uzunlikka ega. Bu xossa koʻp masalalarda yordam beradi – uni eslab qoling!",
+        "example": "Aylana tashqarisidagi nuqtadan ikkita urinma chizilgan. Agar birinchisi 6 sm boʻlsa, ikkinchisi ham 6 sm boʻladi – teng uzunlikda!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "uchburchak-ichki-tashqi-aylana",
+    "theory": [
+      {
+        "title": "Ichki chizilgan aylana nima?",
+        "body": "Uchburchakning ichki chizilgan aylanasi — bu uchburchakning ichiga chizilgan va uning barcha uchta tomoniga tegib turadigan aylana. Bu aylana uchburchakning har bir tomoniga faqat bitta nuqtada tegadi. Uni topish uchun uchburchakning burchak bissektrisalarining kesishish nuqtasidan foydalanamiz.",
+        "example": "Masalan, teng yonli uchburchakda ichki aylana asosga ham, yon tomonlarga ham tegib turadi. Uning markazi uchburchakning balandligi, medianasi va bissektrisasi birlashadigan nuqtada joylashadi."
+      },
+      {
+        "title": "Ichki aylananing radiusi",
+        "body": "Ichki aylananing radiusi (r) uchburchakning yuzasi (S) va yarim perimetri (p) orqali topiladi: r = S/p. Bu formula yordamida istalgan uchburchakning ichki aylanasining radiusini hisoblash mumkin. Asosiy shart — uchburchakning tomonlari va yuzasini bilish kerak.",
+        "example": "Toʻgʻri burchakli uchburchakda tomonlar 3, 4 va 5 boʻlsa, yarim perimetri p = (3+4+5)/2 = 6, yuza S = (3*4)/2 = 6. Demak, r = 6/6 = 1."
+      },
+      {
+        "title": "Tashqi chizilgan aylana nima?",
+        "body": "Tashqi chizilgan aylana — bu uchburchakning tashqarisiga chizilgan va uning barcha uchta uchidan oʻtadigan aylana. Har bir uchburchakning faqat bitta tashqi aylanasi boʻladi. Uning markazi uchburchakning tomonlarining oʻrta perpendikulyarlarining kesishish nuqtasida joylashadi.",
+        "example": "Teng tomonli uchburchakda tashqi aylananing markazi uchburchakning ogʻirlik markazi bilan bir joyda boʻladi. Radiusi esa tomon uzunligining √3/3 qismiga teng."
+      },
+      {
+        "title": "Tashqi aylananing radiusi",
+        "body": "Tashqi aylananing radiusi (R) uchburchakning tomonlari (a, b, c) va yuzasi (S) orqali topiladi: R = (a*b*c)/(4S). Bu formula har qanday uchburchak uchun ishlaydi. Toʻgʻri burchakli uchburchakda esa R gipotenuza uzunligining yarimiga teng boʻladi.",
+        "example": "Toʻgʻri burchakli uchburchakda gipotenuza 10 boʻlsa, tashqi aylananing radiusi R = 10/2 = 5. Chunki toʻgʻri burchakli uchburchakda tashqi aylananing markazi gipotenuza oʻrta nuqtasida joylashadi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "torturchak-aylana",
+    "theory": [
+      {
+        "title": "Aylana ichidagi toʻrtburchak",
+        "body": "Agar toʻrtburchakning barcha uchlari aylana ustida yotsa, u *aylanaga ichki chizilgan toʻrtburchak* deyiladi. Buning uchun toʻrtburchakning qarama-qarshi burchaklari yigʻindisi 180° boʻlishi kerak. Oddiyroq qilib aytganda: toʻrtburchak aylana ichida „sigʻishi“ uchun uning burchaklari bir-birini toʻldirishi lozim.",
+        "example": "Masalan, kvadrat yoki toʻgʻri toʻrtburchak har doim aylana ichiga chizilishi mumkin, chunki ularning barcha burchaklari 90° va qarama-qarshi burchaklari yigʻindisi 180° ni tashkil qiladi."
+      },
+      {
+        "title": "Qarama-qarshi burchaklar qonuni",
+        "body": "Aylana ichiga chizilgan toʻrtburchakning eng muhim xususiyati: uning qarama-qarshi burchaklari yigʻindisi 180° ga teng. Bu qonun yordamida toʻrtburchakning nomaʼlum burchagini topishingiz mumkin. Faqat burchaklarni qoʻshib, 180° dan ayirib qoʻying!",
+        "example": "Agar bir burchagi 70° boʻlsa, unga qarama-qarshi burchak 110° boʻladi (chunki 70° + 110° = 180°)."
+      },
+      {
+        "title": "Aylana tashqarisidagi toʻrtburchak",
+        "body": "Agar toʻrtburchakning barcha tomonlariga aylana urinadigan boʻlsa (yaʼni tomonlar aylanaga urinma boʻlsa), u *aylanaga tashqi chizilgan toʻrtburchak* deyiladi. Buning uchun toʻrtburchakning qarama-qarshi tomonlari yigʻindisi teng boʻlishi kerak. Bu xususiyat aylanaga tashqi chizilgan toʻrtburchaklarni topishda yordam beradi.",
+        "example": "Masalan, romb yoki kvadrat aylana tashqarisiga chizilishi mumkin, chunki ularning qarama-qarshi tomonlari teng. Agar tomonlari 5 va 7 boʻlsa, qarama-qarshi tomonlar ham 5 va 7 boʻlishi kerak."
+      },
+      {
+        "title": "Tashqi chizilgan toʻrtburchakning tomonlari",
+        "body": "Aylana tashqarisiga chizilgan toʻrtburchakning qarama-qarshi tomonlari yigʻindisi teng. Yaʼni, a + c = b + d. Bu qonun yordamida nomaʼlum tomonni topishingiz mumkin. Faqat tenglikni yozib, yeching!",
+        "example": "Agar tomonlari 3, 4, x va 5 boʻlsa, 3 + x = 4 + 5 → x = 6 boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "aylana-uzunligi",
+    "theory": [
+      {
+        "title": "Aylana nima?",
+        "body": "Aylana – bu tekislikda bir nuqtadan (markazdan) bir xil masofada joylashgan barcha nuqtalar toʻplami. Bu masofa radius deyiladi. Aylana faqat chetidan iborat boʻlib, ichi boʻsh deb hisoblanadi. Uni chizish uchun markaz va radius yetarli!",
+        "example": "Velosiped gʻildiragi aylana shaklida. Gʻildirakning markazi – oʻqi, radius esa gʻildirakning chetigacha boʻlgan masofa."
+      },
+      {
+        "title": "Aylana uzunligi formulasi",
+        "body": "Aylana uzunligini hisoblash uchun faqat radiusni bilish kifoya. Formulasi: L = 2πr, bu yerda L – aylana uzunligi, r – radius, π (pi) esa taxminan 3,14 ga teng doimiy son. Radiusni ikki barobar koʻpaytirib, π ga koʻpaytirsangiz – aylana uzunligini topasiz!",
+        "example": "Radiusi 5 sm boʻlgan aylana uzunligi: L = 2 × 3,14 × 5 = 31,4 sm."
+      },
+      {
+        "title": "Diametr orqali hisoblash",
+        "body": "Agar radius oʻrniga diametr (d) berilgan boʻlsa, aylana uzunligini shunchaki π ga koʻpaytirish yetarli: L = πd. Diametr radiusning ikki barobariga teng (d = 2r), shuning uchun ikkala formula bir xil natija beradi. Qaysi biri qulay boʻlsa, oʻshani ishlating!",
+        "example": "Diametri 10 sm boʻlgan aylana uzunligi: L = 3,14 × 10 = 31,4 sm (oldingi misol bilan bir xil natija!)."
+      },
+      {
+        "title": "π ning roli",
+        "body": "π (pi) – bu aylana uzunligining diametrga nisbatini koʻrsatadigan doimiy son. Yaʼni, har qanday aylana uchun uning uzunligi diametrining π marta katta boʻladi. π ning aniq qiymati cheksiz davom etadi (3,14159...), lekin amaliy masalalarda 3,14 yoki 22/7 deb qabul qilinadi.",
+        "example": "Diametri 7 sm boʻlgan aylana uzunligi: L = 22/7 × 7 = 22 sm. Bu yerda π = 22/7 deb olingan."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "doira-yuzi",
+    "theory": [
+      {
+        "title": "Doira nima?",
+        "body": "Doira – bu tekislikdagi barcha nuqtalar toʻplami, ular markaz deb ataladigan bitta nuqtadan bir xil masofada joylashgan. Bu masofa doiraning radiusi deyiladi. Doirani aylana bilan adashtirmang: aylana – bu faqat chekka chiziq, doira esa shu chiziq bilan chegaralangan butun maydon.",
+        "example": "Masalan, siz stol ustiga tanga qoʻydingiz. Tanganing chetlari – aylana, ichidagi butun maydon esa doira."
+      },
+      {
+        "title": "Doira yuzi formulasi",
+        "body": "Doira yuzini hisoblash uchun faqat radiusni bilishingiz kerak. Formulasi: S = π × r². Bu yerda π (pi) – doimiy son, taxminan 3,14 ga teng, r esa radius. Radiusni ikki marta koʻpaytirib, pi ga koʻpaytirsangiz, doira yuzini topasiz.",
+        "example": "Radiusi 5 sm boʻlgan doira yuzi: S = 3,14 × 5² = 3,14 × 25 = 78,5 sm²."
+      },
+      {
+        "title": "Diametr orqali hisoblash",
+        "body": "Agar radius oʻrniga diametr (d) berilgan boʻlsa, radiusni topib olish kerak: r = d ÷ 2. Keyin esa S = π × r² formulasi bilan hisoblaysiz. Yoki toʻgʻridan-toʻgʻri diametr orqali: S = (π × d²) ÷ 4.",
+        "example": "Diametri 10 sm boʻlgan doira yuzi: S = (3,14 × 10²) ÷ 4 = (3,14 × 100) ÷ 4 = 78,5 sm²."
+      },
+      {
+        "title": "Radiusni yuzadan topish",
+        "body": "Agar doira yuzi berilgan boʻlsa, radiusni topish uchun teskari amallarni bajarish kerak. Formulani oʻzgartiramiz: r = √(S ÷ π). Yaʼni, yuzani pi ga boʻlish, soʻngra kvadrat ildizdan chiqarish kerak.",
+        "example": "Yuzasi 50,24 sm² boʻlgan doira radiusini toping: r = √(50,24 ÷ 3,14) = √16 = 4 sm."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "aylana-doira",
+    "lesson_slug": "sektor-segment-yuzi",
+    "theory": [
+      {
+        "title": "Sektor nima?",
+        "body": "Doira ichida ikkita radius va ular orasidagi yoy bilan chegaralangan qismni **sektor** deyiladi. Oddiy qilib aytganda, doira tilimi kabi – bir bo‘lak pirogni tasavvur qiling. Radiuslar kesib olgan joydan yoygacha bo‘lgan maydon sektor bo‘ladi.",
+        "example": "Soat milining 12 dan 3 gacha aylanganda hosil bo‘lgan doira qismi – sektor. Yoki pizzaning bir bo‘lagi ham sektorga misol bo‘la oladi."
+      },
+      {
+        "title": "Sektor yuzini hisoblash",
+        "body": "Sektor yuzini topish uchun doira yuzini bilishing kerak: **S = πr²**. Keyin sektorning markaziy burchagi (α) ni bilib, shu burchak butun doira (360°) ga nisbatan qanchalik qismini egallashini topamiz. Formula: **S_sektor = (α/360) × πr²**.",
+        "example": "Radiusi 6 sm, markaziy burchagi 60° bo‘lgan sektor yuzi: (60/360) × π × 6² = 6π sm². Demak, bu sektor doiraning oltidan bir qismi."
+      },
+      {
+        "title": "Segment nima?",
+        "body": "Doira ichida birorta xorda va shu xorda yotgan yoy bilan chegaralangan qism **segment** deyiladi. Sektordan farqi – segmentda radiuslar emas, faqat bitta xorda va yoy bor. Uni doiraning “qirqib olingan” qismi deb tasavvur qilsangiz bo‘ladi.",
+        "example": "Yarim oy shaklidagi bulut – doira segmenti. Yoki limon tilimini kesib olganingizda hosil bo‘lgan qism ham segmentga misol."
+      },
+      {
+        "title": "Segment yuzini topish",
+        "body": "Segment yuzini hisoblash uchun avval sektor yuzini topamiz, keyin undan uchburchak yuzini ayiramiz. Formula: **S_segment = S_sektor – S_uchburchak**. Uchburchak yuzini esa **S = (1/2) × r² × sin(α)** orqali topamiz (α – markaziy burchak).",
+        "example": "Radiusi 5 sm, markaziy burchagi 90° bo‘lgan segment yuzi: S_sektor = (90/360) × π × 5² = 6.25π sm². S_uchburchak = (1/2) × 5 × 5 = 12.5 sm². Demak, S_segment = 6.25π – 12.5 sm²."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "vektor-tushuncha",
+    "theory": [
+      {
+        "title": "Vektor nima?",
+        "body": "Vektor — bu kattalik va yoʻnalishga ega boʻlgan miqdor. Oddiy son (skalyardan) farqi shundaki, vektor qayerga qaratilganligini ham koʻrsatadi. Masalan, kuch yoki tezlik vektor bilan ifodalanadi, chunki ular ham kattalik, ham yoʻnalishga ega.",
+        "example": "Mashina 60 km/soat tezlikda shimolga harakatlanmoqda. Bu yerda 60 km/soat — kattalik, shimol — yoʻnalish. Demak, bu vektor!"
+      },
+      {
+        "title": "Vektorni qanday belgilash mumkin?",
+        "body": "Vektorni ikki usulda belgilash mumkin: 1) Boshlangʻich va oxirgi nuqta bilan (masalan, AB vektori A dan B ga yoʻnalgan); 2) Kichik harf bilan ustiga strelka qoʻyib (masalan, →a). Koordinatalar sistemasida vektor (x; y) koʻrinishida yoziladi.",
+        "example": "Agar A(1; 2) va B(4; 6) nuqtalar boʻlsa, AB vektori (4-1; 6-2) = (3; 4) koʻrinishida yoziladi."
+      },
+      {
+        "title": "Vektorlarning tengligi",
+        "body": "Ikki vektor teng deb hisoblanadi, agar ularning kattaliklari ham, yoʻnalishlari ham bir xil boʻlsa. Yaʼni, ularni parallel koʻchirib bir-biriga moslashtirish mumkin. Koordinatalarda bu ularning mos komponentlari tengligini anglatadi.",
+        "example": "→a = (2; 5) va →b = (2; 5) vektorlari teng, chunki ularning har ikki komponenti bir xil. →c = (5; 2) esa teng emas, chunki komponentlar tartibi farq qiladi."
+      },
+      {
+        "title": "Nol vektor",
+        "body": "Nol vektor — bu kattaligi 0 ga teng boʻlgan vektor. Uning yoʻnalishi aniq emas (chunki u hech qayerga qaratilmagan). Koordinatalarda nol vektor (0; 0) koʻrinishida yoziladi. Har qanday vektorga nol vektorni qoʻshish oʻzgarmaydi.",
+        "example": "Agar siz bir joyda turib qolsangiz, siljish vektoringiz nol vektor boʻladi. Yoki matematikada: →a + →0 = →a."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "vektor-amallar",
+    "theory": [
+      {
+        "title": "Vektor nima?",
+        "body": "Vektor — bu kattalik va yoʻnalishga ega boʻlgan chiziq. Oddiy son (skalyardan) farqi shundaki, vektor qayerga qaratilganligini ham koʻrsatadi. Masalan, kuch yoki tezlik vektor bilan ifodalanadi, chunki ular ham kattalik, ham yoʻnalishga ega.",
+        "example": "Mashina 60 km/soat tezlikda shimolga harakatlanmoqda. Bu yerda 60 km/soat — kattalik, shimol — yoʻnalish. Demak, bu tezlik vektordir."
+      },
+      {
+        "title": "Vektorlarni qoʻshish",
+        "body": "Ikki vektorni qoʻshish uchun ularni „uchdan uchga“ ulaysiz. Birinchi vektorning oxiri ikkinchi vektorning boshiga toʻgʻri kelishi kerak. Soʻng, birinchi vektorning boshidan ikkinchi vektor oxirigacha chizilgan chiziq — natija vektori boʻladi.",
+        "example": "A vektori 3 birlik oʻngga, B vektori 4 birlik yuqoriga qaratilgan. Ularni qoʻshsak, natija vektori oʻngga 3 va yuqoriga 4 birlikdan iborat boʻladi (Pifagor teoremasi boʻyicha 5 birlik)."
+      },
+      {
+        "title": "Vektorlarni ayirish",
+        "body": "Vektorlarni ayirish uchun ikkinchi vektorni teskari yoʻnalishga burib, soʻng qoʻshish kerak. Yaʼni, A – B = A + (–B). –B vektori B bilan bir xil kattalikda, lekin qarama-qarshi yoʻnalishda boʻladi.",
+        "example": "A vektori 5 birlik oʻngga, B vektori 2 birlik oʻngga qaratilgan. A – B = 5 – 2 = 3 birlik oʻngga (chunki B ni teskari qilish chapga 2 birlik beradi, soʻng qoʻshish oʻngga 3 birlik qoladi)."
+      },
+      {
+        "title": "Vektorni skalyar koʻpaytirish",
+        "body": "Vektorni skalyar (oddiy son) bilan koʻpaytirish uning kattaligini oʻzgartiradi, yoʻnalishini esa saqlaydi (agar son musbat boʻlsa) yoki teskarisiga aylantiradi (agar son manfiy boʻlsa). Masalan, 2A vektori A bilan bir xil yoʻnalishda, lekin 2 baravar uzunroq boʻladi.",
+        "example": "A vektori 3 birlik chapga qaratilgan. –2A vektori oʻngga 6 birlik boʻladi (kattalik 2 baravar oshdi, yoʻnalish teskari)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "vektor-koordinatalari",
+    "theory": [
+      {
+        "title": "Vektor nima?",
+        "body": "Vektor — bu kattalik va yoʻnalishga ega boʻlgan miqdor. Oddiy son (skalyardan) farqi shundaki, vektor qayerga qaratilganligini ham koʻrsatadi. Masalan, kuch yoki tezlik vektor bilan ifodalanadi, chunki ular ham kattalik, ham yoʻnalishga ega.",
+        "example": "Mashina 60 km/soat tezlikda shimolga harakatlanmoqda. Bu yerda 60 km/soat — kattalik, shimol — yoʻnalish. Demak, bu tezlik vektordir."
+      },
+      {
+        "title": "Vektorni koordinatalar bilan ifodalash",
+        "body": "Vektorni koordinata sistemasida boshlangʻich nuqtadan (odatda O(0;0)) oxirgi nuqtaga qaratilgan oʻq bilan ifodalash mumkin. Vektorning koordinatalari uning oxirgi nuqtasining koordinatalari bilan bir xil boʻladi, agar boshlangʻich nuqta O(0;0) boʻlsa.",
+        "example": "Vektor A(3;4) degani, u O(0;0) dan (3;4) nuqtaga qaratilgan. Bu vektorning uzunligi 5 birlikka teng (Pifagor teoremasi boʻyicha)."
+      },
+      {
+        "title": "Vektor koordinatalarini topish",
+        "body": "Agar vektor ikki nuqta orasidagi masofani ifodalasa, uning koordinatalarini topish uchun oxirgi nuqtaning koordinatalaridan boshlangʻich nuqtaning koordinatalarini ayirish kerak. Formulasi: AB = (x₂ - x₁; y₂ - y₁).",
+        "example": "A(1;2) va B(4;6) nuqtalar orasidagi vektor AB = (4-1; 6-2) = (3;4) boʻladi."
+      },
+      {
+        "title": "Vektor uzunligini hisoblash",
+        "body": "Vektorning uzunligi (moduli) uning koordinatalari yordamida Pifagor teoremasi bilan topiladi. Agar vektor a = (x; y) boʻlsa, uning uzunligi |a| = √(x² + y²) formula bilan hisoblanadi.",
+        "example": "Vektor c = (6; 8) ning uzunligi |c| = √(6² + 8²) = √(36 + 64) = √100 = 10 birlik."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "skalyar-kopaytma",
+    "theory": [
+      {
+        "title": "Vektor nima?",
+        "body": "Vektor — bu kattalik va yoʻnalishga ega boʻlgan chiziq. Oddiy son (skalyardan) farqi shundaki, vektor qayerga qaratilganligini ham koʻrsatadi. Masalan, kuch yoki tezlik vektor bilan ifodalanadi.",
+        "example": "Mashina 60 km/soat tezlikda shimolga harakatlansa, bu tezlik vektordir. Faqat 60 km/soat — skalyar, yoʻnalishsiz son."
+      },
+      {
+        "title": "Skalyar koʻpaytma qanday?",
+        "body": "Ikki vektorning skalyar koʻpaytmasi — bu ularning uzunliklarini oʻzaro koʻpaytirib, orasidagi burchakning kosinusi bilan koʻpaytirish. Natija — oddiy son (skalyar), yoʻnalishsiz. Formulasi: a·b = |a|·|b|·cos(θ).",
+        "example": "Agar ikkita vektor bir xil yoʻnalishda boʻlsa (θ=0°), ularning skalyar koʻpaytmasi uzunliklarining oddiy koʻpaytmasi: 3·4·cos(0°) = 12."
+      },
+      {
+        "title": "Skalyar koʻpaytmaning xossalari",
+        "body": "1) Kommutativlik: a·b = b·a. 2) Vektor oʻziga koʻpaytirilsa, kvadrati chiqadi: a·a = |a|². 3) Agar vektorlar perpendikulyar boʻlsa (θ=90°), ularning skalyar koʻpaytmasi 0 ga teng, chunki cos(90°)=0.",
+        "example": "Vektorlar (1,0) va (0,1) perpendikulyar. Ularning skalyar koʻpaytmasi: 1·0 + 0·1 = 0."
+      },
+      {
+        "title": "Koordinatalarda skalyar koʻpaytma",
+        "body": "Agar vektorlar koordinatalarda berilgan boʻlsa, ularning skalyar koʻpaytmasi mos koordinatalarini koʻpaytirib, yigʻish orqali topiladi. Masalan, a=(x₁,y₁) va b=(x₂,y₂) boʻlsa, a·b = x₁x₂ + y₁y₂.",
+        "example": "a=(2,3) va b=(4,1) vektorlarining skalyar koʻpaytmasi: 2·4 + 3·1 = 8 + 3 = 11."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "koordinata-tekisligi",
+    "theory": [
+      {
+        "title": "Koordinatalar tekisligi nima?",
+        "body": "Koordinatalar tekisligi – bu ikki oʻqdan iborat tekislik: gorizontal (x oʻqi) va vertikal (y oʻqi). Ular kesishgan nuqtada boshlangʻich nuqta (0;0) joylashadi. Har bir nuqta bu ikki oʻq boʻyicha aniqlanadi, masalan, (3;4) degani x=3, y=4 degani.",
+        "example": "Misol: Shaxmat doskasidagi ‘e4’ katagi koordinatalar tekisligidagi (5;4) nuqtaga oʻxshaydi."
+      },
+      {
+        "title": "Nuqtaning koordinatalari",
+        "body": "Har bir nuqta ikki son bilan ifodalanadi: (x; y). Birinchi son x oʻqidagi, ikkinchi son y oʻqidagi joylashuvini koʻrsatadi. Masalan, (2; -1) degani x=2, y esa pastga qarab 1 birlik masofada degani.",
+        "example": "Misol: Uyingizning joylashuvi xaritada (3;5) koordinatada boʻlsa, bu x oʻqida 3 km, y oʻqida 5 km masofada degani."
+      },
+      {
+        "title": "Koordinatalar choragi",
+        "body": "Koordinatalar tekisligi 4 qismga boʻlinadi – choraklarga. Birinchi chorakda x va y musbat, ikkinchi chorakda x manfiy, y musbat, uchinchi chorakda ikkisi ham manfiy, toʻrtinchida x musbat, y manfiy boʻladi.",
+        "example": "Misol: Nuqta (4; -2) toʻrtinchi chorakda, (-3; 1) esa ikkinchi chorakda joylashadi."
+      },
+      {
+        "title": "Ikki nuqta orasidagi masofa",
+        "body": "Ikki nuqta (x₁; y₁) va (x₂; y₂) orasidagi masofani topish uchun formuladan foydalanamiz: masofa = √[(x₂ - x₁)² + (y₂ - y₁)²]. Bu Pifagor teoremasining koordinatalardagi koʻrinishi!",
+        "example": "Misol: (1;2) va (4;6) nuqtalar orasidagi masofa √[(4-1)² + (6-2)²] = √(9 + 16) = 5 birlik."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "ikki-nuqta-masofa",
+    "theory": [
+      {
+        "title": "Nuqtaning koordinatalari",
+        "body": "Geometriyada har bir nuqta tekislikda joylashgan joyini ikki son bilan ifodalashimiz mumkin. Bu sonlar x va y oʻqlaridagi qiymatlar boʻlib, ularni (x; y) koʻrinishida yozamiz. Masalan, (3; 4) degani x oʻqida 3, y oʻqida 4 ga toʻgʻri keladigan nuqtadir.",
+        "example": "Maktabingizning joylashuvi (5; 2) koordinatada deylik. Bu x oʻqida 5 km, y oʻqida 2 km uzoqlikda degani."
+      },
+      {
+        "title": "Ikki nuqta orasidagi masofa",
+        "body": "Ikki nuqta orasidagi masofani topish uchun ularning koordinatalaridan foydalanamiz. Agar birinchi nuqta (x₁; y₁), ikkinchisi (x₂; y₂) boʻlsa, masofa formulasi: √[(x₂ - x₁)² + (y₂ - y₁)²]. Bu formulani oddiyroq qilib aytganda, ikki nuqta orasidagi gorizontal va vertikal farqlarni kvadratga koʻtarib, yigʻib, soʻngra ildizdan chiqarish kerak.",
+        "example": "A(1; 2) va B(4; 6) nuqtalari orasidagi masofa: √[(4-1)² + (6-2)²] = √(9 + 16) = √25 = 5."
+      },
+      {
+        "title": "Masofa formulasi qayerdan kelib chiqdi?",
+        "body": "Bu formula Pifagor teoremasidan kelib chiqqan. Ikki nuqta orasidagi gorizontal va vertikal farqlar toʻgʻri burchakli uchburchakning katetlari boʻladi. Gipotenuzasi esa aynan shu ikki nuqta orasidagi masofa. Shuning uchun kvadratlarni yigʻib, ildizdan chiqarish kerak boʻladi.",
+        "example": "Agar bir nuqta (0; 0), ikkinchisi (3; 4) boʻlsa, masofa 5 ga teng. Chunki 3² + 4² = 5² (Pifagor teoremasi)."
+      },
+      {
+        "title": "Masofani hisoblashda xatolar",
+        "body": "Koʻpincha x₂ - x₁ yoki y₂ - y₁ ni notoʻgʻri tartibda olib, manfiy son chiqarib yuborishadi. Esingizda boʻlsin: farqni kvadratga koʻtarish manfiylikni yoʻqotadi, shuning uchun tartib muhim emas. Ammo koordinatalarni chalkashtirmaslik kerak!",
+        "example": "A(2; 5) va B(5; 2) uchun: √[(5-2)² + (2-5)²] = √(9 + 9) = √18. Agar (5-2)² + (5-2)² deb hisoblab yuborsangiz, natija xato chiqadi!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "kesma-orta-koordinata",
+    "theory": [
+      {
+        "title": "Kesma nima?",
+        "body": "Kesma — bu ikki nuqta orasidagi toʻgʻri chiziqning bir qismi. Masalan, A va B nuqtalarini bogʻlagan chiziq kesma deyiladi. Kesmaning boshlanishi va oxiri aniq boʻladi, shuning uchun u cheklangan uzunlikka ega.",
+        "example": "Masalan, stol ustidagi chiziqni tasavvur qiling: uning boshlanishi va oxiri bor — bu kesma. Yoki A(1, 2) va B(4, 6) nuqtalarini bogʻlagan chiziq ham kesma."
+      },
+      {
+        "title": "Kesma oʻrtasini topish",
+        "body": "Kesmaning oʻrtasi — bu ikki nuqta orasidagi masofani teng ikkiga boʻladigan nuqta. Uni topish uchun ikkala nuqtaning koordinatalarini alohida-alohida qoʻshib, ikkilab boʻlish kerak. Bu oddiy arifmetik amallar bilan amalga oshiriladi!",
+        "example": "A(2, 3) va B(6, 7) nuqtalarining oʻrtasi: x = (2+6)/2 = 4, y = (3+7)/2 = 5. Demak, oʻrtasi (4, 5) nuqtasida."
+      },
+      {
+        "title": "Formulani yodlash",
+        "body": "Kesma oʻrtasining koordinatalari formulasini eslab qolish oson: (x₁ + x₂)/2 va (y₁ + y₂)/2. Bu yerda (x₁, y₁) — birinchi nuqta, (x₂, y₂) — ikkinchi nuqta. Faqat koordinatalarni aralashtirmang!",
+        "example": "C(-1, 4) va D(5, -2) nuqtalarining oʻrtasi: x = (-1 + 5)/2 = 2, y = (4 + (-2))/2 = 1. Natija: (2, 1)."
+      },
+      {
+        "title": "Amaliy masala yechish",
+        "body": "Endi amaliy masalalarda ishlatamiz. Agar uchburchakning ikki uchi va ogʻirlik markazi berilgan boʻlsa, uchinchi uchini topish uchun kesma oʻrtasi formulasidan foydalanish mumkin. Ogʻirlik markazi uchburchak uchlarining oʻrtalarini birlashtiruvchi kesmalar kesishgan nuqtadir.",
+        "example": "Uchburchakning A(1, 1), B(3, 5) uchlari va ogʻirlik markazi G(2, 3) berilgan. Uchinchi uchi C(x, y) ni topish uchun: (1+3+x)/3 = 2 va (1+5+y)/3 = 3. Yeching: x = 2, y = 3. Demak, C(2, 3)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "togri-chiziq-tenglamasi",
+    "theory": [
+      {
+        "title": "To'g'ri chiziq nima?",
+        "body": "To'g'ri chiziq — bu cheksiz cho'zilgan tekis chiziq. U ikki nuqta orqali bir xil yo'nalishda davom etadi. Geometrik shakllar orasida eng soddasi, lekin juda muhim! Uni koordinata tekisligida tenglama bilan ifodalash mumkin.",
+        "example": "Masalan, stolda chizilgan chiziq yoki chiziqli chizilgan yo'l — to'g'ri chiziqning oddiy misollari."
+      },
+      {
+        "title": "To'g'ri chiziqning tenglamasi",
+        "body": "Koordinata tekisligida to'g'ri chiziqni *y = kx + b* shaklida yozish mumkin. Bu yerda *k* — chiziqning qiyaligi (qancha tik yoki yotiq ekanligini ko'rsatadi), *b* esa *y*-o'q bilan kesishgan nuqtasi (chiziq qayerdan boshlanishini bildiradi).",
+        "example": "Tenglama *y = 2x + 1* bo'lsa, chiziq *y*-o'qdan 1 da boshlanadi va har bir *x* ga 2 birlik yuqoriga ko'tariladi."
+      },
+      {
+        "title": "Qiyalikni topish",
+        "body": "Qiyalik (*k*) ikki nuqta orasidagi o'zgarishni ko'rsatadi. Agar chiziq ikki nuqta *(x₁, y₁)* va *(x₂, y₂)* dan o'tsa, qiyalikni *k = (y₂ - y₁) / (x₂ - x₁)* formulasi bilan topamiz. Bu chiziqning qanchalik tikligini bildiradi.",
+        "example": "Nuqtalar (1, 3) va (3, 7) dan o'tgan chiziqning qiyaligi: *k = (7-3)/(3-1) = 4/2 = 2*."
+      },
+      {
+        "title": "Umumiy tenglama",
+        "body": "Ba'zan to'g'ri chiziq *Ax + By + C = 0* shaklida yoziladi. Bu *y = kx + b* dan farqli, lekin aynan shu tenglamaga aylantirish mumkin. *A*, *B* va *C* — sonlar, *B* ≠ 0 bo'lsa, *y* ni ajratib yozish mumkin.",
+        "example": "Tenglama *2x + 3y - 6 = 0* ni *y = (-2x + 6)/3* shakliga keltirsak, qiyalik *k = -2/3* bo'ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "vektor-koordinata",
+    "lesson_slug": "aylana-tenglamasi",
+    "theory": [
+      {
+        "title": "Aylana nima?",
+        "body": "Aylana – bu tekislikda bir nuqtadan (markazdan) bir xil masofada joylashgan barcha nuqtalar toʻplami. Bu masofa aylananing radiusi deyiladi. Oddiy qilib aytganda, aylana – bu tekislikdagi yumaloq shakl.",
+        "example": "Masalan, velosiped gʻildiragi yoki soat yuzasi aylanaga misol boʻla oladi. Gʻildirakning markazi – aylananing markazi, uning chetidan markazgacha boʻlgan masofa – radius."
+      },
+      {
+        "title": "Aylana tenglamasi",
+        "body": "Aylana tenglamasi markazi (a, b) va radiusi r boʻlgan aylanani ifodalaydi. Uning standart koʻrinishi: (x - a)² + (y - b)² = r². Bu tenglama aylanadagi har bir nuqta (x, y) uchun toʻgʻri keladi.",
+        "example": "Markazi (2, 3) va radiusi 5 boʻlgan aylana tenglamasi: (x - 2)² + (y - 3)² = 25. Bu tenglama aylana chetidagi har bir nuqta uchun bajariladi."
+      },
+      {
+        "title": "Markaz va radiusni topish",
+        "body": "Agar aylana tenglamasi x² + y² + Dx + Ey + F = 0 koʻrinishida berilgan boʻlsa, uni standart koʻrinishga keltirish uchun toʻldirish usulidan foydalanamiz. Natijada markaz (-D/2, -E/2) va radius √(D²/4 + E²/4 - F) ga teng boʻladi.",
+        "example": "Tenglama x² + y² - 4x + 6y - 3 = 0 berilgan. Toʻldirishdan soʻng: (x - 2)² + (y + 3)² = 16. Demak, markaz (2, -3), radius 4."
+      },
+      {
+        "title": "Aylana va nuqta",
+        "body": "Berilgan nuqta aylanada, ichida yoki tashqarida ekanligini aniqlash uchun uning koordinatalarini aylana tenglamasiga qoʻyamiz. Natija r² ga teng boʻlsa – nuqta aylanada, kichik boʻlsa – ichida, katta boʻlsa – tashqarida.",
+        "example": "Aylana (x - 1)² + (y - 1)² = 9. Nuqta (2, 3) ni tekshirsak: (2-1)² + (3-1)² = 1 + 4 = 5 < 9. Demak, nuqta aylana ichida."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "simmetriya",
+    "theory": [
+      {
+        "title": "Simmetriya nima?",
+        "body": "Simmetriya – bu figura yoki shaklning biror chiziq yoki nuqta atrofida bir xil koʻrinishga ega boʻlishi. Agar biror shaklni buklab yoki aylantirib, oʻzi bilan mos tushsa, u simmetrik deyiladi. Oddiy qilib aytganda, chap va oʻng tomon bir xil koʻrinishdagi narsalar simmetrik boʻladi.",
+        "example": "Kaptar qanotlari, inson yuzi yoki kapalak qanotlari – bularning barchasi oʻqqa nisbatan simmetrik shakllar."
+      },
+      {
+        "title": "Oʻqqa nisbatan simmetriya",
+        "body": "Oʻqqa nisbatan simmetriya – bu figura biror toʻgʻri chiziq (simmetriya oʻqi) boʻylab buklanganda ikki tomon bir-biriga toʻliq mos tushishi. Bu oʻq figurani ikki bir xil qismga ajratadi. Agar oʻqdan bir nuqtani olsangiz, uning simmetrik nuqtasi oʻqning boshqa tomonida bir xil masofada joylashadi.",
+        "example": "Kvadratning diagonal chiziqlari yoki teng yonli uchburchakning balandligi – simmetriya oʻqlari. Agar kvadratni diagonal boʻylab buksangiz, ikki yarmi bir-biriga toʻgʻri keladi."
+      },
+      {
+        "title": "Markazga nisbatan simmetriya",
+        "body": "Markazga nisbatan simmetriya – bu figura biror nuqta (simmetriya markazi) atrofida 180° aylantirilganda oʻzi bilan mos tushishi. Bunda har bir nuqtaning simmetrik nuqtasi markazdan bir xil masofada, lekin qarama-qarshi yoʻnalishda joylashadi. Bu aylanma simmetriya deb ham ataladi.",
+        "example": "Aylana, kvadrat yoki harf „S“ markazga nisbatan simmetrik. Agar „S“ harfini markazi atrofida 180° aylantirsangiz, yana oʻsha shakl paydo boʻladi."
+      },
+      {
+        "title": "Simmetriya oʻqi va markazini topish",
+        "body": "Simmetriya oʻqini topish uchun figurani chiziq boʻylab buklang va ikki tomon mos tushadimi, tekshiring. Markazni topish uchun esa figurani 180° aylantirib, oʻzi bilan mos keladimi, kuzating. Agar mos kelsa, aylantirish markazi – simmetriya markazi boʻladi.",
+        "example": "Teng yonli uchburchakda 3 ta simmetriya oʻqi bor (har bir tepa va qarama-qarshi tomon oʻrtasidagi chiziq). Doirada esa cheksiz koʻp simmetriya oʻqlari va bitta markaz mavjud."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "parallel-kochirish",
+    "theory": [
+      {
+        "title": "Parallel ko'chirish nima?",
+        "body": "Parallel ko'chirish — bu geometrik shaklni tekislikda bir joydan ikkinchi joyga siljitish. Bunda shaklning barcha nuqtalari bir xil masofaga va bir xil yo‘nalishda siljiydi. Shaklning o‘zi o‘zgarmaydi, faqat joyi o‘zgaradi.",
+        "example": "Masalan, stol ustidagi kitobni bir chetidan ikkinchi chetiga surdingiz. Kitobning shakli va o‘lchami o‘zgarmaydi, faqat joyi o‘zgaradi — bu parallel ko‘chirish."
+      },
+      {
+        "title": "Vektor orqali ko'chirish",
+        "body": "Parallel ko‘chirishni vektor bilan ifodalash mumkin. Vektor — bu yo‘nalish va uzunlikni ko‘rsatuvchi o‘q. Agar shaklni vektor bo‘yicha siljitsangiz, har bir nuqta shu vektor uzunligi va yo‘nalishi bo‘yicha ko‘chadi.",
+        "example": "Misol: Uchburchakni (2, 3) vektor bo‘yicha siljitsangiz, uning har bir nuqtasi x o‘qda 2 birlik, y o‘qda 3 birlikka ko‘chadi."
+      },
+      {
+        "title": "Ko'chirishning xossalari",
+        "body": "Parallel ko‘chirishda shaklning o‘lchamlari, burchaklari va shakli saqlanadi. Faqat joylashuvi o‘zgaradi. Shuningdek, parallel ko‘chirishdan keyin hosil bo‘lgan yangi shakl asl shaklga teng va parallel bo‘ladi.",
+        "example": "Masalan, kvadratni parallel ko‘chirganda, yangi kvadrat asl kvadratga teng va tomonlari parallel bo‘ladi."
+      },
+      {
+        "title": "Ko'chirishni koordinatalarda ifodalash",
+        "body": "Agar shaklni koordinata tekisligida (a, b) vektor bo‘yicha siljitsangiz, har bir nuqta (x, y) yangi nuqtaga (x + a, y + b) ko‘chadi. Bu formuladan foydalanib, istalgan shaklni osongina ko‘chirish mumkin.",
+        "example": "Misol: Nuqta A(1, 2) ni (3, -1) vektor bo‘yicha siljitsangiz, yangi nuqta A'(4, 1) bo‘ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "burish",
+    "theory": [
+      {
+        "title": "Burish nima?",
+        "body": "Burish – bu tekislikdagi shaklni ma’lum bir nuqta (burish markazi) atrofida ma’lum burchakka aylantirish. Qiziqasi, shaklning o’lchami va shakli o’zgarmaydi, faqat joyi va yo’nalishi. Tasavvur qiling, soat mili qanday aylanadi – shunga o’xshash!",
+        "example": "Masalan, uchburchakni O nuqtasi atrofida 90° ga burish. Har bir uchining joyi o’zgardi, lekin uchburchakning o’zi bir xil qoldi."
+      },
+      {
+        "title": "Burish markazi",
+        "body": "Burish markazi – bu aylanishning “o’qi” bo’lgan nuqta. Barcha nuqtalar shu markaz atrofida aylanadi. Agar markazni o’zgartirsangiz, natija butunlay boshqacha chiqadi. Shu sababli, har doim markazni aniq belgilang!",
+        "example": "Masalan, kvadratni markazi atrofida 45° ga burish. Agar markaz kvadratning burchagi bo’lsa, natija markaz kvadrat o’rtasida bo’lganidan farq qiladi."
+      },
+      {
+        "title": "Burish burchagi",
+        "body": "Burish burchagi – bu shakl qanchalik aylantirilishini ko’rsatadi. Burchakni soat mili harakati bo’yicha (musbat) yoki unga qarshi (manfiy) hisoblash mumkin. Masalan, 90° – to’g’ri burchak, 180° – teskari holatga keltiradi.",
+        "example": "Doirani 180° ga burish – uni “boshqacha tomonga” aylantiradi. 360° ga burish esa – hech narsa o’zgarmaydi, chunki to’liq aylanib chiqdi!"
+      },
+      {
+        "title": "Burishni koordinatalarda ifodalash",
+        "body": "Koordinatalarda nuqtani (x, y) O(0,0) markaz atrofida burish uchun formulalar bor: x’ = x·cosθ – y·sinθ, y’ = x·sinθ + y·cosθ. Bu yerda θ – burish burchagi. Dastlab murakkab tuyulsa ham, amalda oddiy!",
+        "example": "Nuqtani (1, 0) 90° ga burish: x’ = 1·0 – 0·1 = 0, y’ = 1·1 + 0·0 = 1. Natija: (0, 1) – to’g’ri burchak hosil bo’ldi!"
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "gomotetiya",
+    "theory": [
+      {
+        "title": "Gomotetiya nima?",
+        "body": "Gomotetiya – bu figuralarni bir nuqtadan (markazdan) kattalashtirib yoki kichraytirib, oʻxshashini yaratish. Qisqacha qilib aytganda, bir xil shaklni turli oʻlchamlarda koʻrish imkonini beradi. Markazdan qanchalik uzoq boʻlsa, shunchalik katta boʻladi.",
+        "example": "Masalan, proyektor ekrandagi tasvirni kattalashtiradi – bu gomotetiyaga misol. Yoki kichik uchburchakni markazdan 2 marta kattalashtirsangiz, yangi uchburchak paydo boʻladi, lekin burchaklari oʻzgarmaydi."
+      },
+      {
+        "title": "Gomotetiyaning kattalashtirish koeffitsienti",
+        "body": "Gomotetiyaning kattalashtirish koeffitsienti (k) – bu figuraning necha marta kattalashganini yoki kichrayganini koʻrsatadi. Agar k > 1 boʻlsa, figura kattalashadi, 0 < k < 1 boʻlsa – kichrayadi. Agar k manfiy boʻlsa, figura markazga nisbatan qarama-qarshi tomonda joylashadi.",
+        "example": "Agar uchburchakni k=3 bilan gomotetiyaga uchratsangiz, har bir tomoni 3 marta uzayadi. Agar k=0.5 boʻlsa, tomoni 2 marta qisqaradi. k=-2 boʻlsa, figura qarama-qarshi tomonda 2 marta kattalashadi."
+      },
+      {
+        "title": "Gomotetiya va oʻxshashlik aloqasi",
+        "body": "Gomotetiya natijasida hosil boʻlgan figura asl figuraga oʻxshash boʻladi. Yaʼni, barcha burchaklar teng, tomonlar esa kattalashtirish koeffitsienti (k) ga proporsional boʻladi. Oʻxshashlikning maxsus turi deb ham aytsak boʻladi!",
+        "example": "Masalan, ikkita kvadratni oling: biri 2 sm, ikkinchisi 6 sm tomonga ega. Ular gomotetiya orqali bogʻliq, chunki 6/2=3 – bu kattalashtirish koeffitsienti. Barcha burchaklari 90° boʻlib, oʻxshashdir."
+      },
+      {
+        "title": "Gomotetiyaning markazi qayerda?",
+        "body": "Gomotetiyaning markazi – bu nuqta, undan boshlab figura kattalashtiriladi yoki kichraytiriladi. Agar ikki oʻxshash figura berilgan boʻlsa, ularning mos nuqtalari markazdan oʻtuvchi toʻgʻri chiziqda yotadi. Markazni topish uchun mos nuqtalarni birlashtiruvchi toʻgʻri chiziqlarni kesishish nuqtasini toping.",
+        "example": "Ikkita oʻxshash uchburchak ABC va A’B’C’ berilgan. A va A’, B va B’ nuqtalarini birlashtiruvchi toʻgʻri chiziqlar O nuqtada kesishsa, O – gomotetiyaning markazi boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "trigonometrik-nisbatlar",
+    "theory": [
+      {
+        "title": "Trigonometrik nisbatlar nima?",
+        "body": "Toʻgʻri burchakli uchburchakda uchta asosiy trigonometrik nisbat bor: sinus, kosinus va tangens. Ular uchburchakning tomonlari orasidagi nisbatlarni ifodalaydi. Oʻylab koʻring, bu nisbatlar uchburchakning burchaklarini tomonlari bilan bogʻlaydi – shunchaki tomonlarni bir-biriga boʻlish kerak!",
+        "example": "Masalan, 3-4-5 uchburchakda: sin(θ) = qarama-qarshi katet / gipotenuza = 3/5, cos(θ) = yonma-yon katet / gipotenuza = 4/5."
+      },
+      {
+        "title": "Sinus – qarama-qarshi tomon",
+        "body": "Sinus (sin) – bu burchakning qarama-qarshi kateti bilan gipotenuza orasidagi nisbat. Qaysi tomon qarama-qarshi? Burchak roʻparasidagi tomon! Sinusni hisoblash uchun shunchaki qarama-qarshi tomonni gipotenuza uzunligiga boʻling.",
+        "example": "Agar gipotenuza 10, qarama-qarshi katet 6 boʻlsa, sin(θ) = 6/10 = 0.6."
+      },
+      {
+        "title": "Kosinus – yonma-yon tomon",
+        "body": "Kosinus (cos) – bu burchakning yonma-yon (yaqin) kateti bilan gipotenuza orasidagi nisbat. Yonma-yon tomon – bu burchak bilan tutashgan ikkita tomonning biri. Kosinusni topish uchun yonma-yon katetni gipotenuza uzunligiga boʻling.",
+        "example": "Gipotenuza 13, yonma-yon katet 5 boʻlsa, cos(θ) = 5/13 ≈ 0.38."
+      },
+      {
+        "title": "Tangens – qarama-qarshi / yonma-yon",
+        "body": "Tangens (tan) – bu sinus va kosinusning nisbati, yaʼni qarama-qarshi katetni yonma-yon katetga boʻlish. Boshqacha aytganda, tan(θ) = sin(θ)/cos(θ). Amalda bu ikki katetni bir-biriga boʻlish degani!",
+        "example": "Qarama-qarshi katet 7, yonma-yon katet 24 boʻlsa, tan(θ) = 7/24 ≈ 0.29."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "sinuslar-teoremasi",
+    "theory": [
+      {
+        "title": "Sinuslar teoremasi nima?",
+        "body": "Sinuslar teoremasi uchburchakning tomonlari va burchaklarining sinuslari orasidagi aloqani aytadi. Qisqacha qilib aytganda: har qanday uchburchakda tomon uzunligi uning qarama-qarshi burchak sinusiga proporsional bo‘ladi. Bu formuladan foydalanib, uchburchakning noma’lum tomonlari yoki burchaklarini topish mumkin.",
+        "example": "Masalan, uchburchakda a = 8, b = 6, ∠A = 60°. Sinuslar teoremasi orqali ∠B ni topish mumkin: 8/sin(60°) = 6/sin(B)."
+      },
+      {
+        "title": "Sinuslar teoremasining formulasi",
+        "body": "Formulasi juda oddiy: a/sin(A) = b/sin(B) = c/sin(C) = 2R. Bu yerda a, b, c — tomonlar, A, B, C — ularga qarama-qarshi burchaklar, R — uchburchakning tashqi chizilgan aylanasining radiusi. Asosan, birinchi uchta nisbatdan foydalanamiz.",
+        "example": "Agar uchburchakda ∠A = 30°, ∠B = 45°, a = 5 bo‘lsa, b tomonini topish uchun: 5/sin(30°) = b/sin(45°)."
+      },
+      {
+        "title": "Qachon ishlatamiz?",
+        "body": "Sinuslar teoremasi ikkita burchak va bitta tomon (AAS yoki ASA) yoki ikkita tomon va ulardan biriga qarama-qarshi burchak (SSA) berilganda ishlatiladi. SSA holatida yechim bir nechta bo‘lishi mumkin, shuning uchun ehtiyot bo‘ling!",
+        "example": "Uchburchakda a = 7, b = 10, ∠A = 30° berilgan. ∠B ni topish uchun sinuslar teoremasidan foydalanamiz, lekin ikkita yechim bo‘lishi mumkin."
+      },
+      {
+        "title": "Amaliy masala yechish",
+        "body": "Sinuslar teoremasidan foydalanib, masalani yechish uchun avval berilgan qiymatlarni formulaga qo‘ying. So‘ngra, noma’lum qiymatni ifodalab, tenglamani yeching. Natijani tekshirishni unutmang — burchaklar yig‘indisi 180° bo‘lishi kerak!",
+        "example": "Uchburchakda a = 9, ∠A = 40°, ∠B = 60°. c tomonini toping: avval ∠C = 80°, keyin 9/sin(40°) = c/sin(80°)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "kosinuslar-teoremasi",
+    "theory": [
+      {
+        "title": "Kosinuslar teoremasi nima?",
+        "body": "Kosinuslar teoremasi uchburchakning istalgan tomonini uning boshqa ikki tomoni va ular orasidagi burchak orqali topishga yordam beradi. Oddiy qilib aytganda, uchburchakda «yoʻqolgan» tomonni topish uchun ishlatiladi. Bu teorema toʻgʻri burchakli boʻlmagan uchburchaklar uchun ham qoʻllaniladi.",
+        "example": "Masalan, uchburchakda ikki tomoni 5 va 7, ular orasidagi burchak 60° boʻlsa, uchinchi tomonni kosinuslar teoremasi bilan topish mumkin."
+      },
+      {
+        "title": "Teorema formulasini yozamiz",
+        "body": "Kosinuslar teoremasi formulasini eslab qolish oson: c² = a² + b² - 2ab·cos(C). Bu yerda c — topilayotgan tomon, a va b — maʼlum tomonlar, C — a va b tomonlari orasidagi burchak. Toʻgʻri burchakli uchburchakda bu teorema Pifagor teoremasiga aylanadi (cos(90°)=0).",
+        "example": "Agar a=3, b=4, C=90° boʻlsa, c²=3²+4²-2·3·4·cos(90°)=9+16-0=25 → c=5 (Pifagor teoremasi kabi)."
+      },
+      {
+        "title": "Burchakni topish uchun",
+        "body": "Kosinuslar teoremasi yordamida uchburchakning burchagini ham topish mumkin. Buning uchun formulani oʻzgartiramiz: cos(C) = (a² + b² - c²) / (2ab). Bu yerda barcha tomonlar maʼlum, lekin burchakni bilmaymiz. Arccos yordamida burchakni hisoblash mumkin.",
+        "example": "Uchburchakda a=5, b=6, c=7 boʻlsa, cos(C)=(25+36-49)/(2·5·6)=12/60=0.2 → C=arccos(0.2)≈78.46°."
+      },
+      {
+        "title": "Qayerda ishlatiladi?",
+        "body": "Kosinuslar teoremasi amaliy masalalarda koʻp ishlatiladi: masofani oʻlchash, yoʻnalishni aniqlash, qurilishda uchburchak shaklidagi tuzilmalarni hisoblash. Ayniqsa, uchburchakning barcha tomonlari yoki ikki tomoni va burchagi maʼlum boʻlganda juda foydali.",
+        "example": "Ikki daraxt orasidagi masofani oʻlchash uchun uchinchi nuqtadan ularning burchagini oʻlchab, kosinuslar teoremasidan foydalanish mumkin."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "almashtirish-trigonometriya",
+    "lesson_slug": "uchburchakni-yechish",
+    "theory": [
+      {
+        "title": "Uchburchakni yechish nima?",
+        "body": "Uchburchakni yechish — bu uchburchakning barcha tomonlari va burchaklarini topish degani. Agar sizga uchburchak haqida kamida 3 ta ma’lumot (masalan, ikki tomon va bir burchak) berilgan bo‘lsa, qolganlarini topishingiz mumkin. Bu geometriyaning eng muhim ko‘nikmalaridan biri!",
+        "example": "Masalan, uchburchakning ikki tomoni 5 va 7, ular orasidagi burchak 60° berilgan. Siz qolgan tomon va burchaklarni topishingiz kerak."
+      },
+      {
+        "title": "Sinuslar teoremasi",
+        "body": "Sinuslar teoremasi aytadi: uchburchakning har qanday tomoni uning qarama-qarshi burchagining sinusiga proporsional. Formulasi: a/sin(A) = b/sin(B) = c/sin(C). Bu teorema yordamida noma’lum tomon yoki burchakni topishingiz mumkin.",
+        "example": "Agar uchburchakda tomon a=8, burchak A=30°, burchak B=45° bo‘lsa, tomon b ni topish uchun: 8/sin(30°) = b/sin(45°)."
+      },
+      {
+        "title": "Kosinuslar teoremasi",
+        "body": "Kosinuslar teoremasi uchburchakning tomonlari va burchaklari orasidagi bog‘liqlikni ko‘rsatadi. Formulasi: c² = a² + b² - 2ab·cos(C). Bu teorema yordamida uchinchi tomonni yoki burchakni topishingiz mumkin, agar ikki tomon va ular orasidagi burchak berilgan bo‘lsa.",
+        "example": "Masalan, uchburchakda a=3, b=4, burchak C=60° bo‘lsa, tomon c ni topish uchun: c² = 3² + 4² - 2·3·4·cos(60°)."
+      },
+      {
+        "title": "To‘g‘ri burchakli uchburchakni yechish",
+        "body": "To‘g‘ri burchakli uchburchakda Pifagor teoremasi (a² + b² = c²) va trigonometrik nisbatlar (sin, cos, tan) yordamida yechish oson. Eng katta tomon (gipotenuza) doimo to‘g‘ri burchakning qarama-qarshi tomonida joylashadi.",
+        "example": "Agar katetlar 6 va 8 bo‘lsa, gipotenuza: √(6² + 8²) = 10. Agar bir burchak 30° bo‘lsa, qarama-qarshi katet gipotenuzaning yarmi bo‘ladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "fazoda-chiziq-tekislik",
+    "theory": [
+      {
+        "title": "Fazoda chiziq va tekislik",
+        "body": "Fazoda to‘g‘ri chiziq va tekislikni tasavvur qilish uchun oddiyroq misoldan boshlaymiz. Tekislik – bu cheksiz yoyilgan tekis yuza, masalan, stol usti yoki devor. To‘g‘ri chiziq esa bu tekislik ichida yoki tashqarida joylashgan cheksiz uzun chiziq. Ular bir-biriga nisbatan turli holatlarda bo‘lishi mumkin.",
+        "example": "Masalan, stol ustida chizilgan chiziq tekislik ichida yotadi. Agar chiziq stolga perpendikulyar bo‘lsa, u tekislikdan tashqarida joylashgan bo‘ladi."
+      },
+      {
+        "title": "Chiziq va tekislikning kesishishi",
+        "body": "Agar to‘g‘ri chiziq tekislik bilan bir nuqtada uchrashsa, ular kesishadi deb aytiladi. Bu nuqta chiziqning tekislik bilan tutashgan joyi bo‘ladi. Agar chiziq tekislikka parallel bo‘lsa, ular hech qachon kesishmaydi.",
+        "example": "Masalan, stol ustiga tik turgan qalam tekislik bilan faqat bir nuqtada (qalamning uchi) kesishadi. Agar qalam stolga parallel bo‘lsa, u hech qayerda tekislik bilan uchrashmaydi."
+      },
+      {
+        "title": "Chiziq tekislikda yotishi",
+        "body": "Agar to‘g‘ri chiziqning barcha nuqtalari tekislikda joylashgan bo‘lsa, bu chiziq tekislikda yotadi deb aytiladi. Bunda chiziq tekislikning bir qismi bo‘lib qoladi. Bu holatda chiziq tekislik bilan cheksiz ko‘p nuqtada kesishadi.",
+        "example": "Masalan, stol ustida chizilgan har qanday chiziq stol tekisligida yotadi. Shuningdek, kitob sahifasidagi har qanday chiziq ham sahifa tekisligida yotadi."
+      },
+      {
+        "title": "Chiziq va tekislikning perpendikulyarligi",
+        "body": "Agar to‘g‘ri chiziq tekislikdagi har qanday chiziqqa perpendikulyar bo‘lsa, u tekislikka perpendikulyar bo‘ladi. Bu degani, chiziq tekislikka tik tushgan va uni faqat bir nuqtada kesadi. Bunday chiziq tekislikning normali deb ham ataladi.",
+        "example": "Masalan, stol ustiga tik o‘rnatilgan qalam stol tekisligiga perpendikulyar bo‘ladi. Yoki xonaning burchagiga tik o‘rnatilgan ustun devor tekisligiga perpendikulyar."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "fazoda-parallellik",
+    "theory": [
+      {
+        "title": "Fazoda toʻgʻri chiziqlar",
+        "body": "Fazoda ikki nuqta orasidagi eng qisqa yoʻl toʻgʻri chiziq deyiladi. Agar ikki toʻgʻri chiziq bir tekislikda yotsa va kesishmasa, ular parallel boʻladi. Agar bir tekislikda yotmasa, ular chigʻanoq (kesishmaydigan) deb ataladi.",
+        "example": "Masalan, xonaning ikki qarama-qarshi devoridagi chiziqlar parallel, bir devordagi chiziq bilan shiftdagi chiziq esa chigʻanoq boʻladi."
+      },
+      {
+        "title": "Parallel tekisliklar",
+        "body": "Ikki tekislik hech qachon kesishmasa, ular parallel deyiladi. Buning uchun ularda bir xil yoʻnalishga ega boʻlgan ikki kesishmaydigan toʻgʻri chiziq boʻlishi kerak. Parallel tekisliklar orasidagi masofa doim bir xil boʻladi.",
+        "example": "Kitobning ikki qopqogʻi yoki xonaning shipi va polini oʻylab koʻring – ular parallel tekisliklardir."
+      },
+      {
+        "title": "Toʻgʻri chiziq va tekislik parallel",
+        "body": "Agar toʻgʻri chiziq tekislik bilan hech qachon kesishmasa, ular parallel boʻladi. Buning uchun chiziq tekislikdagi biror toʻgʻri chiziqqa parallel boʻlishi yetarli. Yaʼni, chiziq tekislikka „tegmaydi“.",
+        "example": "Stol ustidagi ruchkani stolga parallel ushlab turganingizda, ruchka va stol tekisligi parallel boʻladi."
+      },
+      {
+        "title": "Parallel tekisliklar orasidagi masofa",
+        "body": "Ikki parallel tekislik orasidagi masofa – bu ulardan biridagi istalgan nuqtadan ikkinchi tekislikka tushirilgan perpendikulyar uzunligidir. Bu masofa doim bir xil boʻladi, chunki tekisliklar hech qachon kesishmaydi.",
+        "example": "Ikki parallel devor orasidagi masofani oʻlchash uchun devorga perpendikulyar chiziq chizing va uning uzunligini oʻlchang."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "fazoda-perpendikulyarlik",
+    "theory": [
+      {
+        "title": "Fazoda perpendikulyarlik nima?",
+        "body": "Perpendikulyarlik – bu ikki chiziq yoki tekislik orasidagi 90 graduslik burchak. Agar bir chiziq ikkinchisiga perpendikulyar boʻlsa, ular bir-biriga toʻgʻri kelib, toʻrtburchak hosil qiladi. Fazoda bu tushuncha koʻproq tekisliklar va chiziqlar orasidagi munosabatda ishlatiladi.",
+        "example": "Masalan, stol ustidagi kitobning cheti stol tekisligiga perpendikulyar boʻladi. Yoki devorga osilgan rasmning chetlari devor tekisligiga toʻgʻri keladi."
+      },
+      {
+        "title": "Chiziq va tekislik perpendikulyarligi",
+        "body": "Agar bir chiziq tekislikdagi har qanday chiziqqa perpendikulyar boʻlsa, u holda bu chiziq butun tekislikka perpendikulyar hisoblanadi. Buni tekshirish uchun tekislikda ikkita kesishuvchi chiziqni olib, ularga perpendikulyarlikni tekshirish kifoya.",
+        "example": "Masalan, stol ustiga tik oʻrnatilgan qalam stol tekisligiga perpendikulyar. Chunki qalam stol ustidagi har qanday chiziqqa toʻgʻri keladi."
+      },
+      {
+        "title": "Tekisliklar orasidagi perpendikulyarlik",
+        "body": "Ikki tekislik perpendikulyar boʻlsa, ularning kesishish chizigʻiga perpendikulyar boʻlgan chiziq har ikkala tekislikda ham yotadi. Yaʼni, bir tekislikdagi toʻgʻri chiziq ikkinchi tekislikka perpendikulyar boʻlsa, bu ikki tekislik perpendikulyar hisoblanadi.",
+        "example": "Masalan, xona devori bilan pol perpendikulyar. Chunki devordagi vertikal chiziq polga toʻgʻri keladi."
+      },
+      {
+        "title": "Perpendikulyar proyeksiyalar",
+        "body": "Fazoda biror nuqtaning tekislikka perpendikulyar proyeksiyasi – bu nuqtadan tekislikka tushirilgan perpendikulyar oyoq. Bu tushuncha geometrik masalalarda masofa oʻlchashda juda muhim.",
+        "example": "Masalan, chiroqdan devorga tushgan soyani koʻraylik. Chiroqdan devorga perpendikulyar chiziq tushirilsa, soyaning uzunligi shu perpendikulyar masofaga bogʻliq boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "ikki-yoqli-burchak",
+    "theory": [
+      {
+        "title": "Ikki yoqli burchak nima?",
+        "body": "Ikki yoqli burchak — bu ikki tekislikning kesishishidan hosil boʻladigan figura. Tasavvur qiling, kitobning ikki sahifasi ochilgan holatda — ularning orasidagi burchak ham ikki yoqli burchak boʻladi. Bu burchakni oʻlchash uchun uning „qirrasi“ va „yuzasi“ borligini eslab qoling.",
+        "example": "1. Kitobning ochiq sahifalari orasidagi burchak. 2. Xonaning ikki devori kesishgan joyidagi burchak."
+      },
+      {
+        "title": "Ikki yoqli burchakning qirrasi",
+        "body": "Ikki yoqli burchakning qirrasi — bu ikki tekislikning kesishish chizigʻi. Yaʼni, ikki tekislik bir-biriga tegib turgan toʻgʻri chiziq. Bu chiziq ikki yoqli burchakning „oʻqi“ deb ham ataladi. Qirra har doim toʻgʻri chiziq shaklida boʻladi.",
+        "example": "1. Kitobning sahifalari orasidagi chok — qirra. 2. Ikki devorning tutashgan chizigʻi — qirra."
+      },
+      {
+        "title": "Ikki yoqli burchakni oʻlchash",
+        "body": "Ikki yoqli burchakni oʻlchash uchun uning qirrasiga perpendikulyar (tik) boʻlgan tekislikda hosil boʻladigan oddiy burchakni oʻlchaymiz. Bu oddiy burchak ikki yoqli burchakning oʻlchamini koʻrsatadi. Oʻlchov birligi — daraja yoki radian.",
+        "example": "1. Kitobning sahifalari orasidagi burchak 45° boʻlsa, ikki yoqli burchak ham 45° boʻladi. 2. Ikki devor orasidagi burchak 90° — toʻgʻri ikki yoqli burchak."
+      },
+      {
+        "title": "Ikki yoqli burchakning turlari",
+        "body": "Ikki yoqli burchaklar oʻlchamiga koʻra uch turga boʻlinadi: oʻtmas (0° dan 90° gacha), toʻgʻri (90°) va oʻtkir (90° dan 180° gacha). Agar ikki tekislik parallel boʻlsa, ularning orasidagi burchak 0° boʻladi — yaʼni ikki yoqli burchak yoʻq.",
+        "example": "1. Kitobning yarim ochiq sahifalari — oʻtmas ikki yoqli burchak. 2. Devor va pol orasidagi burchak — toʻgʻri ikki yoqli burchak (90°)."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "prizma",
+    "theory": [
+      {
+        "title": "Prizma nima?",
+        "body": "Prizma — bu ikki parallel va teng koʻpburchak asoslari hamda ularni tutashtiruvchi toʻgʻri toʻrtburchak yon tomonlardan iborat geometrik shakl. Oddiy qilib aytganda, bir xil ikki shaklni ustma-ust qoʻyib, ularni toʻgʻri chiziqlar bilan birlashtirsangiz, prizma hosil boʻladi. Asoslari uchburchak, toʻrtburchak yoki boshqa koʻpburchak boʻlishi mumkin.",
+        "example": "Masalan, oddiy qalamning yogʻoch qismi — oltiburchakli prizma. Yoki suv idishi (stakan) — aylana asosli prizma (silindr) deb ham aytiladi, lekin aslida silindr alohida shakl."
+      },
+      {
+        "title": "Prizmaning turlari",
+        "body": "Prizmalar asoslarining shakliga qarab nomlanadi: uchburchakli prizma (uchburchak asos), toʻrtburchakli prizma (toʻrtburchak asos) va hokazo. Agar yon tomonlari asosga perpendikulyar boʻlsa, u *toʻgʻri prizma* deyiladi. Aks holda — *qiyshiq prizma*. Toʻgʻri prizmalarning yon tomonlari toʻgʻri toʻrtburchak shaklida boʻladi.",
+        "example": "Kub — toʻrtburchakli toʻgʻri prizma (barcha tomonlari kvadrat). Kitob — toʻrtburchakli toʻgʻri prizma (yon tomonlari toʻgʻri toʻrtburchak)."
+      },
+      {
+        "title": "Prizmaning hajmi",
+        "body": "Prizmaning hajmini hisoblash uchun asosining maydonini (S) uning balandligi (h) ga koʻpaytirish kerak: V = S × h. Balandlik — asoslar orasidagi perpendikulyar masofa. Toʻgʻri prizmada balandlik yon tomonning uzunligiga teng boʻladi.",
+        "example": "Asosi 5 sm², balandligi 10 sm boʻlgan toʻrtburchakli prizmaning hajmi: 5 × 10 = 50 sm³. Kubning tomoni 3 sm boʻlsa, hajmi: 3 × 3 × 3 = 27 sm³ (asos maydoni 9 sm², balandlik 3 sm)."
+      },
+      {
+        "title": "Prizmaning toʻla sirt maydoni",
+        "body": "Prizmaning toʻla sirt maydoni — bu uning barcha tomonlarining maydonlari yigʻindisi. U ikkita asos maydoni (2S) va yon sirt maydonidan iborat. Yon sirt maydoni — yon tomonlarning perimetri (P) ni balandlikka (h) koʻpaytirish: S_yon = P × h. Toʻla sirt maydoni: S_toʻla = 2S + S_yon.",
+        "example": "Tomoni 2 sm boʻlgan kubning toʻla sirt maydoni: 6 × (2 × 2) = 24 sm². Asosi 3 sm va 4 sm boʻlgan toʻrtburchakli toʻgʻri prizma (balandlik 5 sm) uchun: asos maydoni 12 sm², yon sirt maydoni (3+4+3+4)×5=70 sm², toʻla sirt maydoni 2×12 + 70 = 94 sm²."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "parallelepiped",
+    "theory": [
+      {
+        "title": "Parallelepiped nima?",
+        "body": "Parallelepiped — bu barcha tomonlari parallelogramm boʻlgan uch oʻlchamli shakl. Tasavvur qiling, bir xonaning devorlari bir-biriga parallel va bir xil shaklda — shunday qutiga oʻxshaydi. Uning 6 ta yuzi, 12 ta qirrasi va 8 ta uchi bor.",
+        "example": "Kutubxonadagi kitoblar javoni yoki poyabzal qutisi parallelepipedga misol boʻla oladi."
+      },
+      {
+        "title": "Toʻgʻri parallelepiped",
+        "body": "Agar parallelepipedning barcha yuzlari toʻgʻri toʻrtburchak (yaʼni burchaklari 90°) boʻlsa, u toʻgʻri parallelepiped deyiladi. Bunda qirralar ham bir-biriga perpendikulyar joylashadi. Oddiy quti shunday shaklga misol.",
+        "example": "Komp’yuter monitorining qutisi yoki shokoladli konfet qutisi toʻgʻri parallelepipedga misol."
+      },
+      {
+        "title": "Kub — maxsus parallelepiped",
+        "body": "Kub — bu barcha qirralari teng boʻlgan toʻgʻri parallelepiped. Yaʼni, uning barcha yuzlari kvadrat shaklida va barcha qirralari bir xil uzunlikda. Kubning 6 ta teng yuzi, 12 ta teng qirrasi va 8 ta uchi bor.",
+        "example": "Rubik kubi yoki bolalar oʻynaydigan qismli kubiklar shu shaklda boʻladi."
+      },
+      {
+        "title": "Parallelepiped hajmi",
+        "body": "Parallelepipedning hajmini topish uchun uning uchta qirrasini koʻpaytirish kerak: uzunlik × kenglik × balandlik. Agar kub boʻlsa, bitta qirrani uchinchi darajaga koʻtarish yetarli, chunki barcha qirralar teng.",
+        "example": "Masalan, qirrasi 3 sm boʻlgan kubning hajmi 3 × 3 × 3 = 27 sm³ boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "piramida",
+    "theory": [
+      {
+        "title": "Piramida nima?",
+        "body": "Piramida – bu tekis koʻpburchak asosga ega va uning barcha uchlari bitta nuqtaga (uchiga) birlashgan uch oʻlchamli shakl. Asos har qanday koʻpburchak boʻlishi mumkin, lekin eng oddiysi – uchburchak yoki toʻrtburchak asosli piramida. Uchidan asosga tushirilgan perpendikulyar piramidaning balandligi deyiladi.",
+        "example": "Misollar: Misr piramidalari toʻrtburchak asosli, choy paketlari esa uchburchak asosli piramidaga oʻxshaydi."
+      },
+      {
+        "title": "Piramidaning yon qirralari",
+        "body": "Piramidaning yon qirralari – bu asosning har bir uchidan uchiga tortilgan toʻgʻri chiziqlar. Ular uchburchak shaklida boʻladi. Agar asos muntazam koʻpburchak boʻlsa, barcha yon qirralar teng boʻladi. Yon qirralarning uzunligi piramidaning shaklini belgilaydi.",
+        "example": "Masalan, kvadrat asosli piramidada 4 ta yon qirra boʻladi, ularning hammasi teng uzunlikda boʻlishi mumkin."
+      },
+      {
+        "title": "Piramidaning toʻla sirt maydoni",
+        "body": "Piramidaning toʻla sirt maydoni – bu asos va barcha yon uchburchaklarning yuzalarining yigʻindisi. Asos maydoni oddiy koʻpburchak formulasiga koʻra hisoblanadi, yon uchburchaklar esa alohida-alohida hisoblanadi. Formulasi: S_toʻla = S_asos + S_yon.",
+        "example": "Toʻrtburchak asosli piramida uchun: asos maydoni a², yon uchburchaklar maydoni esa 4 ta teng uchburchakning maydoniga teng."
+      },
+      {
+        "title": "Piramidaning hajmi",
+        "body": "Piramidaning hajmi asos maydoni bilan balandlik koʻpaytmasining uchdan biriga teng. Formulasi: V = (1/3) * S_asos * h. Bu yerda h – piramidaning uchidan asosga tushirilgan perpendikulyar uzunligi.",
+        "example": "Masalan, uchburchak asosli piramida hajmi: V = (1/3) * (asos maydoni) * balandlik. Agar asos maydoni 6 sm², balandlik 9 sm boʻlsa, hajmi 18 sm³ boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "silindr",
+    "theory": [
+      {
+        "title": "Silindr nima?",
+        "body": "Silindr – bu ikki parallel tekislikda joylashgan teng ikki doira va ularni birlashtiruvchi yon sirtdan iborat geometrik shakl. Oddiyroq qilib aytganda, silindr – bu choʻzilgan doira, masalan, konservalar qutisi yoki suv idishi shunday shaklda boʻladi.",
+        "example": "1. Konserva qutisi – klassik silindr. 2. Qalam ushlagich ham silindr shaklida boʻladi."
+      },
+      {
+        "title": "Silindrning asosiy elementlari",
+        "body": "Silindrda ikkita asosiy doira (pastki va yuqori asoslar) va yon sirt (yoki yon yuza) bor. Asoslar orasidagi masofa – silindrning balandligi (h), asos doirasining radiusi esa (r) deb ataladi. Yon sirtni yoyib yuborsak, toʻgʻri toʻrtburchak hosil boʻladi.",
+        "example": "1. Suv idishining qopqogʻi va tubi – asoslar. 2. Idishning yon qismi – yon sirt."
+      },
+      {
+        "title": "Silindr hajmini hisoblash",
+        "body": "Silindr hajmi – bu uning ichiga sigʻadigan hajm. Uni hisoblash uchun asos doirasining maydonini (πr²) balandlik (h) ga koʻpaytiramiz. Formula: V = πr²h. Bu yerda π ≈ 3,14, r – radius, h – balandlik.",
+        "example": "1. Radius 2 sm, balandlik 5 sm boʻlgan silindr hajmi: V = 3,14 × 2² × 5 = 62,8 sm³. 2. Radius 3 sm, balandlik 10 sm boʻlsa, hajmi 282,6 sm³."
+      },
+      {
+        "title": "Silindr yon sirti maydoni",
+        "body": "Silindrning yon sirti maydonini hisoblash uchun asos aylanasi uzunligini (2πr) balandlik (h) ga koʻpaytiramiz. Formula: S = 2πrh. Bu yon sirtni yoyib yuborganda hosil boʻladigan toʻgʻri toʻrtburchakning maydoni.",
+        "example": "1. Radius 3 sm, balandlik 4 sm boʻlgan silindr yon sirti maydoni: S = 2 × 3,14 × 3 × 4 = 75,36 sm². 2. Radius 1 sm, balandlik 10 sm boʻlsa, maydoni 62,8 sm²."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "konus",
+    "theory": [
+      {
+        "title": "Konus nima?",
+        "body": "Konus – bu tekislikda aylana shaklidagi asosga ega va uning barcha nuqtalaridan bitta umumiy nuqtaga (choʻqqi) tortilgan toʻgʻri chiziqlar bilan hosil boʻlgan geometrik shakl. Oddiyroq qilib aytganda, muzqaymoq konusi yoki qalam uchi shunday koʻrinishga ega.",
+        "example": "Muzqaymoq konusi, yoʻl konusi (signal konusi), qalam uchi."
+      },
+      {
+        "title": "Konusning asosiy elementlari",
+        "body": "Konusda uchta asosiy element bor: asos (aylana), choʻqqi (eng yuqori nuqta) va yon sirti (aylanadan choʻqqigacha boʻlgan toʻgʻri chiziqlar). Konusning balandligi – bu choʻqqidan asosga tushirilgan perpendikulyar masofa.",
+        "example": "Konus shaklidagi stakan: stakanning tubi – asos, ogʻzi – choʻqqi, yon tomoni – yon sirt."
+      },
+      {
+        "title": "Konusning yon sirti yoyilganda",
+        "body": "Agar konusning yon sirti yoyilsa, u sektor (doira qismi) shakliga aylanadi. Bu sektorning radiusi konusning yasovchi chizigʻiga (l) teng boʻladi, yoy uzunligi esa konus asosining aylana uzunligiga teng.",
+        "example": "Konus shaklidagi qogʻozni kesib yoyilsangiz, u sizga doira sektorini beradi. Masalan, 60° burchakli sektor konusning yon sirti boʻlishi mumkin."
+      },
+      {
+        "title": "Konus hajmini hisoblash",
+        "body": "Konus hajmi uning asos yuzasi (S) va balandligi (h) orqali hisoblanadi. Formula: V = (1/3) * S * h. Asos yuzasi aylana boʻlgani uchun S = πr², shuning uchun V = (1/3)πr²h.",
+        "example": "Agar konusning radiusi 3 sm, balandligi 4 sm boʻlsa, hajmi V = (1/3) * π * 3² * 4 = 12π sm³ boʻladi."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "shar-sfera",
+    "theory": [
+      {
+        "title": "Shar nima?",
+        "body": "Shar – bu uch oʻlchamli fazoda barcha nuqtalari markazdan bir xil masofada joylashgan jism. Oddiyroq qilib aytganda, shar – bu toʻliq yumaloq jism, masalan, futbol toʻpi yoki sharob stakanidagi shar. Uning markazi bor, va shu markazdan har qanday nuqtasigacha boʻlgan masofa bir xil – bu masofa radius deyiladi.",
+        "example": "Misol: Yer shar shaklida. Yer markazidan yuzasigacha boʻlgan masofa (radius) taxminan 6371 km."
+      },
+      {
+        "title": "Sharning sirt maydoni",
+        "body": "Sharning sirt maydoni – bu uning tashqi yuzasining umumiy hajmi. Uni hisoblash uchun formuladan foydalanamiz: S = 4πr². Bu yerda r – shar radiusidir. π (pi) esa taxminan 3,14 ga teng doimiy son. Radius qancha katta boʻlsa, sirt maydoni shuncha katta boʻladi.",
+        "example": "Misol: Radiusi 5 sm boʻlgan shar sirt maydoni: S = 4π(5)² = 100π ≈ 314 sm²."
+      },
+      {
+        "title": "Sharning hajmi",
+        "body": "Sharning hajmi – bu uning ichki qismida joylashgan fazoning miqdori. Hajmni hisoblash formulasi: V = (4/3)πr³. Radiusni kubga koʻtarib, 4/3 ga koʻpaytiramiz va π ni qoʻshamiz. Radius kattalashsa, hajm juda tez oʻsadi – radius 2 baravar ortsa, hajm 8 baravar ortadi!",
+        "example": "Misol: Radiusi 3 sm boʻlgan shar hajmi: V = (4/3)π(3)³ = 36π ≈ 113,1 sm³."
+      },
+      {
+        "title": "Sfera nima?",
+        "body": "Sfera – bu shar yuzasi, yaʼni faqat tashqi qobigʻi. Agar shar toʻla jism boʻlsa, sfera – faqat uning yupqa qobigʻi, masalan, sovun koʻpigi yoki sharob stakanidagi shar shaklidagi idishning devori. Sfera ham markazdan bir xil masofada joylashgan nuqtalar toʻplami, lekin u faqat sirt – ichi boʻsh.",
+        "example": "Misol: Globus – sfera, chunki u faqat Yer yuzasini koʻrsatadi, ichi boʻsh. Futbol toʻpi esa shar, chunki u toʻla jism."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "jismlar-hajmi",
+    "theory": [
+      {
+        "title": "Hajm nima?",
+        "body": "Hajm – bu jism egallagan uch oʻlchamli joy miqdori. Oddiy qilib aytganda, idishga qanchalik koʻp suv sigʻishi mumkinligini oʻlchaydi. Hajmni kub santimetr (sm³), litr (l) yoki kub metr (m³) bilan oʻlchaymiz.",
+        "example": "Masalan, 1 litrli sut paketi 1000 sm³ hajmga ega. Kichik kubik shakldagi shakar donasi esa taxminan 1 sm³ hajmda boʻladi."
+      },
+      {
+        "title": "Prizma hajmi",
+        "body": "Prizma hajmini topish uchun uning asos yuzasini (S) balandligi (h) ga koʻpaytirish kerak. Formula: V = S × h. Asos shakli aylanma, uchburchak yoki toʻrtburchak boʻlishi mumkin – farqi yoʻq!",
+        "example": "Masalan, toʻrtburchakli prizma (quti)ning asos yuzasi 20 sm², balandligi 10 sm boʻlsa, hajmi 20 × 10 = 200 sm³ boʻladi."
+      },
+      {
+        "title": "Silindr hajmi",
+        "body": "Silindr – aylanma asosli prizma. Uning hajmini topish uchun asos yuzasi (aylana yuzasi) ni balandlikka koʻpaytiramiz. Formula: V = π × r² × h. Bu yerda r – radius, h – balandlik.",
+        "example": "Masalan, radius 3 sm, balandligi 5 sm boʻlgan silindr hajmi: 3.14 × 3² × 5 ≈ 141.3 sm³."
+      },
+      {
+        "title": "Piramida va konus hajmi",
+        "body": "Piramida va konusning hajmi asos yuzasi va balandlik koʻpaytmasining uchdan bir qismiga teng. Formula: V = (S × h) / 3. Konus uchun asos – aylana, piramida uchun – koʻpburchak.",
+        "example": "Masalan, asos yuzasi 30 sm², balandligi 9 sm boʻlgan piramida hajmi: (30 × 9) / 3 = 90 sm³."
+      }
+    ]
+  },
+  {
+    "subject_slug": "geometriya",
+    "unit_slug": "stereometriya",
+    "lesson_slug": "jismlar-sirti",
+    "theory": [
+      {
+        "title": "Sirt yuzi nima?",
+        "body": "Sirt yuzi – bu jismning tashqi qismi, yaʼni uni „qoplagan“ maydon. Agar jismni boʻyamoqchi boʻlsangiz, boʻyoq sarflanadigan joy aynan sirt yuzi boʻladi. Uni kvadrat birliklarda (masalan, sm²) oʻlchaymiz.",
+        "example": "Masalan, kubning sirt yuzi uning barcha 6 ta tomonining yuzalarini yigʻindisi. Agar kubning tomoni 2 sm boʻlsa, sirt yuzi 6 × (2 × 2) = 24 sm² boʻladi."
+      },
+      {
+        "title": "Prizmaning sirt yuzi",
+        "body": "Prizmaning sirt yuzi ikki turdagi yuzalardan iborat: asoslar (pastki va yuqori) hamda yon tomonlar (yon qirralar). Umumiy sirt yuzi = 2 × asos yuzi + yon sirt yuzi. Yon sirt yuzi – bu prizmaning yon qirralarining yigʻindisi.",
+        "example": "Toʻgʻri toʻrtburchakli prizmaning asoslari 3 sm va 4 sm, balandligi 5 sm. Asos yuzi = 3 × 4 = 12 sm², yon sirt yuzi = (3+4+3+4) × 5 = 70 sm². Umumiy sirt yuzi = 2×12 + 70 = 94 sm²."
+      },
+      {
+        "title": "Silindr sirt yuzi",
+        "body": "Silindrning sirt yuzi ikki doira (asoslar) va bir toʻgʻri toʻrtburchak (yon sirt)dan iborat. Yon sirt – bu silindrni „yoyib“ qoʻysak hosil boʻladigan toʻrtburchak. Uning bir tomoni silindr balandligi, ikkinchi tomoni esa asos aylanasi uzunligi (2πr) boʻladi.",
+        "example": "Silindrning radiusi 2 sm, balandligi 5 sm. Asos yuzi = π×2² = 4π sm², yon sirt yuzi = 2π×2×5 = 20π sm². Umumiy sirt yuzi = 2×4π + 20π = 28π sm²."
+      },
+      {
+        "title": "Konus sirt yuzi",
+        "body": "Konusning sirt yuzi bitta doira (asos) va yon sirt (sektor)dan iborat. Yon sirt – bu konusni „yoyib“ qoʻysak hosil boʻladigan doira sektori. Uning radiusi konusning yasovchi chizigʻi (l), yoy uzunligi esa asos aylanasi uzunligi (2πr) boʻladi.",
+        "example": "Konusning radiusi 3 sm, yasovchi chizigʻi 5 sm. Asos yuzi = π×3² = 9π sm², yon sirt yuzi = π×3×5 = 15π sm². Umumiy sirt yuzi = 9π + 15π = 24π sm²."
+      }
+    ]
+  }
+]
