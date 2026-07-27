@@ -183,3 +183,80 @@ async def voice_check(
     except (ValueError, AttributeError):
         # Parsing failed — still give the learner the model's words as feedback.
         return {"understood": False, "transcript": "", "feedback": raw}
+
+
+def _guess_image_mime(upload: UploadFile) -> str:
+    mime = upload.content_type
+    if mime and mime != "application/octet-stream":
+        return mime
+    name = (upload.filename or "").lower()
+    if name.endswith(".png"):
+        return "image/png"
+    if name.endswith(".webp"):
+        return "image/webp"
+    if name.endswith(".heic"):
+        return "image/heic"
+    return "image/jpeg"
+
+
+@router.post("/tutor/photo-check")
+async def photo_check(
+    question_text: str = Form(""),
+    lang: str = Form("uz"),
+    image: UploadFile = File(...),
+    auth_user_id: int = Depends(get_authenticated_user_id),
+):
+    """Read a photo of the learner's handwritten answer for ANY subject and give
+    feedback. Unlike the math solver (which solves the problem), this reads what
+    the learner actually wrote and evaluates it — right/wrong, what's missing,
+    how to improve — so it works for history, biology, essays, and so on. One
+    multimodal call does OCR + evaluation. The question is optional: with it, the
+    answer is judged against it; without it, the writing is assessed on its own."""
+    lang = lang if lang in _LANG_NAME else "uz"
+    lang_word = _LANG_NAME[lang]
+
+    image_bytes = await image.read()
+    if not image_bytes:
+        raise HTTPException(status_code=400, detail="empty_image")
+
+    q = question_text.strip()
+    context = f"\nSavol/topshiriq: {q}" if q else ""
+    against = (
+        "javob savolga to'g'ri va to'liq ekanini bahola"
+        if q
+        else "yozilgan javob mazmunan to'g'ri va aniq ekanini bahola"
+    )
+    prompt = (
+        f"Sen sabrli repetitorsan. Rasmda o'quvchining QO'LDA yozgan javobi bor. Avval matnni "
+        f"diqqat bilan o'qib transkripsiya qil (o'zbekcha), keyin {against}. Qisqa, do'stona izoh "
+        f"yoz ({lang_word} tilida): to'g'ri joyini maqta, xato yoki kam joyini yumshoq to'g'irlab "
+        f"ayt. FAQAT JSON qaytar, boshqa matnsiz:\n"
+        f'{{\"correct\": true/false, \"score\": 0-100, \"transcript\": \"...\", \"feedback\": \"...\"}}'
+        f"{context}"
+    )
+    image_part = types.Part.from_bytes(data=image_bytes, mime_type=_guess_image_mime(image))
+
+    try:
+        resp = gemini_generate(
+            model="gemini-flash-latest",
+            contents=[prompt, image_part],
+            config={"response_mime_type": "application/json"},
+        )
+        raw = (resp.text or "").strip()
+    except Exception:
+        raise HTTPException(status_code=502, detail="tutor_unavailable")
+    if not raw:
+        raise HTTPException(status_code=502, detail="tutor_unavailable")
+
+    match = re.search(r"\{.*\}", raw, re.DOTALL)
+    try:
+        data = json.loads(match.group(0) if match else raw)
+        score = data.get("score")
+        return {
+            "correct": bool(data.get("correct")),
+            "score": int(score) if isinstance(score, (int, float)) else None,
+            "transcript": str(data.get("transcript", "")).strip(),
+            "feedback": str(data.get("feedback", "")).strip(),
+        }
+    except (ValueError, AttributeError):
+        return {"correct": False, "score": None, "transcript": "", "feedback": raw}
