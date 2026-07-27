@@ -177,8 +177,10 @@ def as_number(text: str) -> str | None:
 
     A trailing stop is part of the leader, not of the number: where only the first dot
     of the leader survived, the token came back as "7." and the gap went unrecognised.
+    OCR also hangs a stray apostrophe on a table cell's number ("5'", "8'."), so those
+    are stripped too.
     """
-    text = text.rstrip(".,·…")
+    text = text.strip("'`").rstrip(".,·…").strip("'`")
     if re.fullmatch(r"\d{1,2}", text):
         return text
     if re.fullmatch(r"[IlO|]{1,2}", text):
@@ -752,9 +754,28 @@ def detect_type(text: str) -> str:
 # bare range is only trusted as a header when the next line is a rubric, so a range that
 # occurs inside a sentence is left alone.
 BARE_RANGE = re.compile(r"^(\d{1,2})\s*(?:[-\u2013\u2014]|and)\s*(\d{1,2})\s*$")
+# OCR sometimes drops the range from the header entirely, leaving a bare "Questions" \u2014
+# but the rubric a line or two down still says "in boxes 1-4 on your answer sheet". That
+# range is the block's, so a lone "Questions" borrows it.
+QUESTIONS_BARE = re.compile(r"^Questions?\s*$", re.I)
+BOXES_RANGE = re.compile(r"box(?:es)?\s+(\d{1,2})\s*(?:[-\u2013\u2014]|and)\s*(\d{1,2})", re.I)
 RUBRIC_NEXT = re.compile(
     r"^(Choose|Write|Complete|Match|Do the following|Look at|Which|Label|Answer|"
     r"Reading Passage|Classify|Using)", re.I)
+
+
+def is_block_header(lines: list[str], i: int) -> bool:
+    """True if lines[i] opens a question block, in any of the forms OCR leaves it in:
+    a proper "Questions N-M", a bare "14—19" above a rubric, or a lone "Questions" whose
+    range is in the "in boxes N-M" rubric just below."""
+    line = lines[i]
+    if Q_HEADER.match(line) or Q_HEADER_ONE.match(line):
+        return True
+    if BARE_RANGE.match(line) and i + 1 < len(lines) and RUBRIC_NEXT.match(lines[i + 1]):
+        return True
+    if QUESTIONS_BARE.match(line) and any(BOXES_RANGE.search(l) for l in lines[i + 1:i + 5]):
+        return True
+    return False
 
 
 def split_blocks(lines: list[str]) -> list[dict]:
@@ -766,6 +787,12 @@ def split_blocks(lines: list[str]) -> list[dict]:
         if not m and (br := BARE_RANGE.match(line)) and i + 1 < len(lines) \
                 and RUBRIC_NEXT.match(lines[i + 1]):
             m = br
+        if not m and QUESTIONS_BARE.match(line):
+            # A lone "Questions" — take its range from the "in boxes N-M" rubric below.
+            for nxt in lines[i + 1:i + 5]:
+                if bm := BOXES_RANGE.search(nxt):
+                    m = bm
+                    break
         if m:
             lo = int(m.group(1))
             hi = int(m.group(2)) if m.lastindex and m.lastindex >= 2 else lo
@@ -1103,8 +1130,12 @@ def parse_reading(lines: list[str], test_no: int, answers: dict[int, str]) -> li
     out: list[dict] = []
     for idx, (s, e) in enumerate(regions, start=1):
         region = lines[s:e]
-        first_q = next((i for i, l in enumerate(region)
-                        if Q_HEADER.match(l) or Q_HEADER_ONE.match(l)), len(region))
+        # A passage's first question block can be a bare "14—19" (the word "Questions"
+        # lost to OCR); if first_q only recognised proper headers it would run on to the
+        # next one and swallow that whole block into the passage text — which is how
+        # Test 2's questions 14-19 vanished while its passage 2 read 1339 words.
+        first_q = next((i for i, l in enumerate(region) if is_block_header(region, i)),
+                       len(region))
         body = region[1:first_q]
         body = [l for l in body if not SPEND_RE.match(l) and not FOOTNOTE_RE.match(l)]
         if sum(len(l.split()) for l in body) < MIN_PASSAGE_WORDS:
