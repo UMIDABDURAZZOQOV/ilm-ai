@@ -59,3 +59,52 @@ def explain(
     if not text:
         raise HTTPException(status_code=502, detail="tutor_unavailable")
     return {"explanation": text}
+
+
+class TutorMessage(BaseModel):
+    role: str          # "user" | "assistant"
+    content: str
+
+
+class ChatRequest(BaseModel):
+    question_text: str
+    options: list[str] | None = None
+    correct_answer: str
+    messages: list[TutorMessage]     # the conversation so far, oldest first
+    lang: str = "uz"
+
+
+@router.post("/tutor/chat")
+def chat(data: ChatRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """A follow-up turn with the tutor: the learner can keep asking about the same
+    question and the tutor answers in context. Still on-demand (only when they type),
+    so cost stays tied to real use."""
+    lang = data.lang if data.lang in _LANG_NAME else "uz"
+    lang_word = _LANG_NAME[lang]
+
+    if not data.messages:
+        raise HTTPException(status_code=400, detail="no message")
+    # Keep the window short so the prompt stays cheap; the last several turns are enough.
+    history = data.messages[-8:]
+    opts = ("\nVariantlar: " + "; ".join(data.options)) if data.options else ""
+
+    convo = "\n".join(
+        f"{'Savol' if m.role == 'user' else 'Repetitor'}: {m.content}" for m in history
+    )
+    prompt = (
+        f"Sen sabrli, do'stona repetitorsan va {lang_word} tilida javob berasan. Quyidagi "
+        f"test savoli bo'yicha o'quvchi bilan suhbatlashyapsan. Uning oxirgi savoliga qisqa, "
+        f"aniq va sodda javob ber (ko'pi bilan 4-5 jumla). Faqat shu mavzuda qol; boshqa "
+        f"mavzuga o'tsa, muloyimlik bilan savolga qaytar.\n\n"
+        f"Savol: {data.question_text}{opts}\n"
+        f"To'g'ri javob: {data.correct_answer}\n\n"
+        f"Suhbat:\n{convo}\n\nRepetitor:"
+    )
+    try:
+        resp = gemini_generate(model="gemini-flash-latest", contents=prompt)
+        text = (resp.text or "").strip()
+    except Exception:
+        raise HTTPException(status_code=502, detail="tutor_unavailable")
+    if not text:
+        raise HTTPException(status_code=502, detail="tutor_unavailable")
+    return {"reply": text}
