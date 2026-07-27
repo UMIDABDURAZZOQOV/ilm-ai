@@ -47,6 +47,10 @@ services:
         sync: false
       - key: PAYMENT_TEST_MODE
         value: "true"
+      # Shared secret for POST /skills/cron/streak-reminders, called daily by a free
+      # external scheduler (cron-job.org / GitHub Action) since the free plan has no cron.
+      - key: CRON_SECRET
+        generateValue: true
 
 # Note: the Telegram bot runs as a separate process (run_telegram_bot.py).
 # Render's free plan does not include background workers, so it is not deployed

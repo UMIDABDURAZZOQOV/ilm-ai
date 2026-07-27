@@ -993,6 +993,47 @@ SUBJECT_EXAM_SIZE = 30          # a full sitting; ~1 minute a question
 SUBJECT_EXAM_SECONDS_PER_Q = 60
 
 
+@router.post("/cron/streak-reminders")
+def cron_streak_reminders(key: str = "", db: Session = Depends(get_db)):
+    """Push a reminder to everyone whose streak is about to break.
+
+    Render's free plan has no cron/worker, so this is an HTTP trigger a free external
+    scheduler (cron-job.org, a GitHub Action) can hit once a day in the evening. Guarded
+    by CRON_SECRET so only that scheduler can fire it.
+    """
+    import os
+    secret = os.environ.get("CRON_SECRET")
+    if not secret or key != secret:
+        raise HTTPException(status_code=403, detail="forbidden")
+
+    from datetime import date
+    from services.push import send_push
+
+    today = date.today().isoformat()
+    users = (
+        db.query(User)
+        .filter(
+            User.streak_days >= 1,
+            User.push_token.isnot(None),
+            (User.last_study_date.is_(None)) | (User.last_study_date != today),
+        )
+        .all()
+    )
+    sent = 0
+    for u in users:
+        try:
+            if send_push(
+                u.push_token,
+                f"🔥 {u.streak_days or 0} kunlik streak xavf ostida!",
+                "Bugun hali mashq qilmadingiz. Streakni saqlash uchun bitta dars yeching.",
+                {"type": "streak_reminder"},
+            ):
+                sent += 1
+        except Exception:
+            pass
+    return {"at_risk": len(users), "sent": sent}
+
+
 # ─── Pronunciation practice (til fanlari) ─────────────────────────────────────
 # Only the three language subjects. The learner is shown a phrase, says it, and
 # Gemini scores how close the pronunciation was — the one thing text practice can't
