@@ -12,6 +12,13 @@ from google.genai.errors import ClientError
 from services.auth_deps import ensure_own_user, get_authenticated_user_id, verify_user_access
 from services.subscriptions import can_use_assistant, record_assistant_use
 from services.assistant_history import load_history, append_message, clear_history
+from services.assistant_context import (
+    build_student_context,
+    retrieve_material_context,
+    memories_block,
+    save_memory,
+    parse_tags,
+)
 from services.monitoring import log_llm_call, track_error
 from services.tts import synthesize_speech, TTSError
 
@@ -22,14 +29,38 @@ router = APIRouter(prefix="/assistant", tags=["assistant"])
 
 MAX_HISTORY_PAIRS = 10
 
-SYSTEM_PROMPT = """You are a helpful, knowledgeable general-purpose AI assistant — like ChatGPT or Gemini.
-You are NOT restricted to any particular topic, document, or material. Answer anything the
-user asks: general knowledge, math, science, coding, writing, advice, explanations,
-translations, brainstorming — anything.
+SYSTEM_PROMPT = """You are Ilm AI — the learner's personal AI tutor and companion, the heart of the
+Ilm AI study app. You are fully general-purpose (answer anything: general knowledge, math,
+science, coding, writing, translations, advice), but you are NOT a blank ChatGPT: you know this
+specific learner and you help them reach their goals.
 
-Be accurate, clear, and genuinely helpful. If you don't know something, say so honestly
-rather than making things up. Format code in code blocks. Keep answers reasonably concise
-unless the user asks for depth."""
+How to behave:
+- Use the "O'QUVCHI HAQIDA" profile and remembered facts to make answers personal — greet by name
+  when natural, connect help to their goal, exam date, weak areas and level. Don't recite the
+  profile back; just let it shape your help.
+- If material from the learner's own uploaded documents is provided, ANSWER FROM IT and name the
+  source. If their question clearly isn't covered by it, answer from general knowledge instead.
+- Be accurate and honest — if you don't know, say so. Format code in code blocks. Keep answers
+  reasonably concise unless they ask for depth. Reply in the requested language.
+
+Two optional tags you MAY add at the very END of your reply (never mention them, never explain them):
+1. When you learn a DURABLE fact about the learner worth remembering long-term (a goal, a persistent
+   struggle, a preference — NOT trivia or one-off details), add: <remember>the fact, one short sentence</remember>
+2. When the best next step is somewhere in the app, suggest ONE action button:
+   <action label="short call to action" href="/route"/>
+   Allowed routes only:
+     /skills            — lessons, daily practice, review mistakes (Milliy Sertifikat subjects)
+     /skills/progress   — their progress and mastery
+     /ielts             — IELTS practice (listening/reading/writing/speaking)
+     /sat               — SAT practice
+     /sat/planner       — study plan
+     /dashboard?panel=quiz       — generate a quiz from their uploaded materials
+     /dashboard?panel=files      — upload/manage study materials
+     /dashboard?panel=flashcards — flashcards from their materials
+     /dashboard?panel=review     — spaced-repetition review
+     /dashboard?panel=gaps       — their knowledge-gaps report
+   Use an action only when it genuinely helps — not on every reply. Prefer /dashboard?panel=upload-style
+   material actions when they ask something that would be better answered from their own notes."""
 
 
 def _build_history_text(user_id: int) -> str:
@@ -84,15 +115,26 @@ def ask_assistant(data: AssistantRequest, auth_user_id: int = Depends(get_authen
         raise HTTPException(status_code=403, detail=msg)
 
     lang_instruction = f"\nRespond in the following language: {data.language}." if data.language else ""
-    prompt = f"{SYSTEM_PROMPT}{lang_instruction}{_build_history_text(data.user_id)}\n\nQUESTION:\n{data.question}"
+    # The four companion capabilities, all folded into a single Gemini call:
+    student = build_student_context(data.user_id)                    # personalization
+    memory = memories_block(data.user_id)                            # long-term memory
+    material, sources = retrieve_material_context(data.user_id, data.question)  # RAG
+    prompt = (
+        f"{SYSTEM_PROMPT}{lang_instruction}{student}{memory}{material}"
+        f"{_build_history_text(data.user_id)}\n\nQUESTION:\n{data.question}"
+    )
 
-    answer = _call_gemini(prompt, data.user_id)
+    raw = _call_gemini(prompt, data.user_id)
+    answer, new_memories, action = parse_tags(raw)   # actions + memory extraction
+
+    for fact in new_memories:
+        save_memory(data.user_id, fact)
 
     record_assistant_use(data.user_id)
     append_message(data.user_id, "user", data.question)
     append_message(data.user_id, "assistant", answer)
 
-    return {"answer": answer}
+    return {"answer": answer, "action": action, "sources": sources}
 
 
 @router.post("/ask-voice")
@@ -139,21 +181,29 @@ async def ask_assistant_voice(
         "paragraph at most for something that genuinely needs more). Avoid bullet lists, "
         "headers, or long structured breakdowns — say it the way you'd say it out loud."
     )
+    # Voice stays personal and remembers too (no RAG here — the question is audio,
+    # so there's no text to embed for retrieval). Tags are stripped before speaking.
+    student = build_student_context(user_id)
+    memory = memories_block(user_id)
     instruction = (
-        f"{SYSTEM_PROMPT}{lang_instruction}{voice_instruction}{_build_history_text(user_id)}\n\n"
+        f"{SYSTEM_PROMPT}{lang_instruction}{voice_instruction}{student}{memory}{_build_history_text(user_id)}\n\n"
         "The user's question is in the attached audio clip. Transcribe it mentally, "
         "then answer it directly — don't repeat the transcription back, just answer."
     )
 
     audio_part = types.Part.from_bytes(data=audio_bytes, mime_type=mime_type)
-    answer = _call_gemini([instruction, audio_part], user_id)
+    raw = _call_gemini([instruction, audio_part], user_id)
+    answer, new_memories, action = parse_tags(raw)
+
+    for fact in new_memories:
+        save_memory(user_id, fact)
 
     record_assistant_use(user_id)
     # We don't have the transcribed question text to store on our side — just log the answer.
     append_message(user_id, "user", "🎤 (voice message)")
     append_message(user_id, "assistant", answer)
 
-    return {"answer": answer}
+    return {"answer": answer, "action": action}
 
 
 class SpeakRequest(BaseModel):
@@ -184,3 +234,18 @@ def get_assistant_history(user_id: int = Depends(verify_user_access)):
 def clear_assistant_history(user_id: int = Depends(verify_user_access)):
     clear_history(user_id)
     return {"message": "Assistant history cleared"}
+
+
+@router.get("/memory/{user_id}")
+def get_assistant_memory(user_id: int = Depends(verify_user_access)):
+    """What the companion has remembered about the learner — surfaced so they can
+    see (and clear) it, keeping the personalization transparent."""
+    from services.assistant_context import load_memories
+    return {"memories": load_memories(user_id)}
+
+
+@router.delete("/memory/{user_id}")
+def clear_assistant_memory(user_id: int = Depends(verify_user_access)):
+    from services.assistant_context import clear_memories
+    clear_memories(user_id)
+    return {"message": "Assistant memory cleared"}

@@ -57,6 +57,17 @@ class AssistantMessage(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 
+class AssistantMemory(Base):
+    """Durable facts the companion has learned about a learner (goals, struggles,
+    preferences), carried across sessions so it behaves like a tutor who remembers
+    you — distinct from AssistantMessage, which is just the recent chat transcript."""
+    __tablename__ = "assistant_memories"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, index=True, nullable=False)
+    content = Column(Text, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
 class VectorEntry(Base):
     __tablename__ = "vectors"
     id = Column(Integer, primary_key=True, index=True)
