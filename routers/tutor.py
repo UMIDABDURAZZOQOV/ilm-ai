@@ -6,8 +6,12 @@ so API usage stays low.
 """
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends, HTTPException
+import json
+import re
+
+from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel
+from google.genai import types
 
 from services.auth_deps import get_authenticated_user_id
 from services.gemini import generate_content as gemini_generate
@@ -108,3 +112,74 @@ def chat(data: ChatRequest, auth_user_id: int = Depends(get_authenticated_user_i
     if not text:
         raise HTTPException(status_code=502, detail="tutor_unavailable")
     return {"reply": text}
+
+
+def _guess_audio_mime(upload: UploadFile) -> str:
+    """Some upload clients send a generic/blank content type; fall back to the
+    file extension the way /assistant/ask-voice does so Gemini accepts it."""
+    mime = upload.content_type
+    if mime and mime != "application/octet-stream":
+        return mime
+    name = (upload.filename or "").lower()
+    if name.endswith(".wav"):
+        return "audio/wav"
+    if name.endswith(".mp3"):
+        return "audio/mp3"
+    if name.endswith((".m4a", ".mp4")):
+        return "audio/mp4"
+    if name.endswith(".ogg"):
+        return "audio/ogg"
+    return "audio/webm"
+
+
+@router.post("/tutor/voice-check")
+async def voice_check(
+    question_text: str = Form(...),
+    correct_answer: str = Form(...),
+    lang: str = Form("uz"),
+    audio: UploadFile = File(...),
+    auth_user_id: int = Depends(get_authenticated_user_id),
+):
+    """Spoken-answer check for non-speaking subjects (history, biology, ...). The
+    learner explains the answer out loud in Uzbek; Gemini transcribes it and judges
+    whether they actually understand the concept — not just whether they hit the
+    exact keyword. One multimodal call: transcription + evaluation together."""
+    lang = lang if lang in _LANG_NAME else "uz"
+    lang_word = _LANG_NAME[lang]
+
+    audio_bytes = await audio.read()
+    if not audio_bytes:
+        raise HTTPException(status_code=400, detail="empty_audio")
+
+    prompt = (
+        f"Sen sabrli repetitorsan. O'quvchi quyidagi savolga OG'ZAKI javob berdi (biriktirilgan "
+        f"audio). Avval uning gapini o'zbekcha transkripsiya qil, keyin javobi mazmunan to'g'ri "
+        f"va tushunganini bahola — aynan bir xil so'z bo'lishi shart emas, ma'no muhim. "
+        f"Qisqa, do'stona izoh yoz ({lang_word} tilida): to'g'ri joyini maqta, kam joyini yumshoq "
+        f"to'ldir. FAQAT JSON qaytar, boshqa matnsiz:\n"
+        f'{{\"understood\": true/false, \"transcript\": \"...\", \"feedback\": \"...\"}}\n\n'
+        f"Savol: {question_text}\n"
+        f"To'g'ri javob: {correct_answer}"
+    )
+    audio_part = types.Part.from_bytes(data=audio_bytes, mime_type=_guess_audio_mime(audio))
+
+    try:
+        resp = gemini_generate(model="gemini-flash-latest", contents=[prompt, audio_part])
+        raw = (resp.text or "").strip()
+    except Exception:
+        raise HTTPException(status_code=502, detail="tutor_unavailable")
+    if not raw:
+        raise HTTPException(status_code=502, detail="tutor_unavailable")
+
+    # Gemini usually returns clean JSON but may wrap it in ```json fences or prose.
+    match = re.search(r"\{.*\}", raw, re.DOTALL)
+    try:
+        data = json.loads(match.group(0) if match else raw)
+        return {
+            "understood": bool(data.get("understood")),
+            "transcript": str(data.get("transcript", "")).strip(),
+            "feedback": str(data.get("feedback", "")).strip(),
+        }
+    except (ValueError, AttributeError):
+        # Parsing failed — still give the learner the model's words as feedback.
+        return {"understood": False, "transcript": "", "feedback": raw}
