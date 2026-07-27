@@ -814,6 +814,80 @@ def get_league(user_id: int = Depends(verify_user_access), db: Session = Depends
     }
 
 
+# ─── Exam countdown (Imtihongacha) ────────────────────────────────────────────
+
+
+class ExamDateRequest(BaseModel):
+    target_date: str  # YYYY-MM-DD
+
+
+@router.get("/{user_id}/exam-countdown")
+def get_exam_countdown(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    """Days left until the learner's exam plus a paced daily XP target, so the
+    home screen turns 'someday' into 'today's share'. Uses the existing
+    User.target_date; returns has_date=False when it isn't set yet."""
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="user_not_found")
+
+    raw = (user.target_date or "").strip()
+    if not raw:
+        return {"has_date": False}
+    try:
+        target = datetime.strptime(raw, "%Y-%m-%d").date()
+    except ValueError:
+        return {"has_date": False}
+
+    today = date.today()
+    days_left = (target - today).days
+    weekly = _weekly_xp(db, user_id)
+    studied_today = (user.last_study_date == today.isoformat())
+
+    # Spread a rough remaining-XP goal across the days left. This isn't a hard
+    # promise — it just gives the learner a concrete "do this much today" number.
+    weeks_left = max(1, (days_left + 6) // 7)
+    suggested_daily_xp = 0
+    if days_left > 0:
+        # Aim to keep at least a Bronze-league pace (100 XP/week) all the way to
+        # the exam, nudged up the closer it gets.
+        weekly_goal = 150 if days_left > 30 else 250
+        suggested_daily_xp = max(20, round(weekly_goal / 7 / 5) * 5)
+
+    return {
+        "has_date": True,
+        "target_date": raw,
+        "days_left": days_left,
+        "passed": days_left < 0,
+        "weeks_left": weeks_left,
+        "weekly_xp": weekly,
+        "suggested_daily_xp": suggested_daily_xp,
+        "studied_today": studied_today,
+        "streak_days": user.streak_days or 0,
+    }
+
+
+@router.post("/{user_id}/exam-date")
+def set_exam_date(
+    data: ExamDateRequest,
+    user_id: int = Depends(verify_user_access),
+    db: Session = Depends(get_db),
+):
+    """Set (or clear, with an empty string) the exam date used by the countdown."""
+    raw = data.target_date.strip()
+    if raw:
+        try:
+            datetime.strptime(raw, "%Y-%m-%d")
+        except ValueError:
+            raise HTTPException(status_code=400, detail="bad_date")
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="user_not_found")
+    user.target_date = raw or None
+    db.add(user)
+    db.commit()
+    return {"ok": True, "target_date": raw}
+
+
 # ─── Referrals (Do'st taklif qilish) ──────────────────────────────────────────
 
 def _ensure_referral_code(db: Session, user: User) -> str:
