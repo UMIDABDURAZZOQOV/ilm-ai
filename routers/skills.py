@@ -959,6 +959,73 @@ def get_profile(user_id: int = Depends(verify_user_access), db: Session = Depend
 
 # ─── Marathon / exam mode ─────────────────────────────────────────────────────
 
+MIXED_REVIEW_SIZE = 15
+
+
+@router.get("/{user_id}/mixed-review")
+def get_mixed_review(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    """A single daily set that mixes review and practice: due spaced-repetition mistakes
+    first, then fresh questions from the subjects the learner has actually started,
+    weighted toward the ones they are weakest at. One tap covers the day's goal."""
+    now = datetime.now(timezone.utc)
+    out: list[dict] = []
+    seen: set[int] = set()
+
+    # 1) Due mistakes — the whole point of spaced repetition.
+    due = (
+        db.query(SkillMistake)
+        .filter(SkillMistake.user_id == user_id, SkillMistake.resolved_at.is_(None),
+                (SkillMistake.due_at.is_(None)) | (SkillMistake.due_at <= now))
+        .order_by(SkillMistake.due_at.asc())
+        .limit(MIXED_REVIEW_SIZE)
+        .all()
+    )
+    if due:
+        qmap = {q.id: q for q in db.query(SkillQuestion).filter(
+            SkillQuestion.id.in_([m.question_id for m in due])).all()}
+        for m in due:
+            q = qmap.get(m.question_id)
+            if q and q.id not in seen:
+                seen.add(q.id)
+                out.append({"id": q.id, "question_text": q.question_text, "options": q.options,
+                            "correct_answer": q.correct_answer, "explanation": q.explanation})
+
+    # 2) Fill from started subjects, weakest first, so the day always has fresh work too.
+    if len(out) < MIXED_REVIEW_SIZE:
+        attempted = (
+            db.query(SkillLesson.id)
+            .join(UserLessonProgress, UserLessonProgress.lesson_id == SkillLesson.id)
+            .filter(UserLessonProgress.user_id == user_id, UserLessonProgress.attempts > 0)
+            .subquery()
+        )
+        lesson_ids = [
+            r[0] for r in db.query(SkillLesson.id)
+            .join(SkillUnit, SkillUnit.id == SkillLesson.unit_id)
+            .filter(SkillUnit.subject_id.in_(
+                db.query(SkillUnit.subject_id).join(SkillLesson, SkillLesson.unit_id == SkillUnit.id)
+                .filter(SkillLesson.id.in_(attempted)).distinct()
+            )).all()
+        ]
+        if lesson_ids:
+            ids = [r[0] for r in db.query(SkillQuestion.id)
+                   .filter(SkillQuestion.lesson_id.in_(lesson_ids)).all()]
+            random.shuffle(ids)
+            need = MIXED_REVIEW_SIZE - len(out)
+            for qid in ids:
+                if qid in seen:
+                    continue
+                q = db.query(SkillQuestion).filter(SkillQuestion.id == qid).first()
+                if q:
+                    seen.add(qid)
+                    out.append({"id": q.id, "question_text": q.question_text, "options": q.options,
+                                "correct_answer": q.correct_answer, "explanation": q.explanation})
+                if len(out) >= MIXED_REVIEW_SIZE:
+                    break
+
+    random.shuffle(out)
+    return {"questions": out[:MIXED_REVIEW_SIZE], "due_count": len(due)}
+
+
 MARATHON_SIZE = 30
 
 
