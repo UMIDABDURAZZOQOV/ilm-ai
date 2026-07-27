@@ -1133,6 +1133,91 @@ Return ONLY JSON:
         raise HTTPException(status_code=502, detail=f"Scoring failed: {e}")
 
 
+@router.get("/{user_id}/written-exam")
+def get_written_exam(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    """One essay prompt for the subject, in Uzbek — the kind of open question a lesson
+    quiz can't ask. Generated fresh so it is not memorised."""
+    s = db.query(SkillSubject).filter(SkillSubject.slug == subject).first()
+    if not s:
+        raise HTTPException(status_code=404, detail="Subject not found")
+    import json
+    from services.gemini import generate_content
+    units = [u.title_uz for u in db.query(SkillUnit).filter(SkillUnit.subject_id == s.id).all()]
+    prompt = f"""Siz "{s.name_uz}" fani o'qituvchisisiz. Shu fandan o'quvchiga bitta
+insho/ochiq savol tuzing — u fikrlashni, tushuntirishni yoki tahlil qilishni talab
+qilsin (faqat ta'rif emas). Fan bo'limlari: {', '.join(units[:8])}.
+Faqat JSON qaytaring: {{"prompt": "savol matni o'zbekcha", "min_words": 150}}"""
+    try:
+        resp = generate_content(model="gemini-flash-latest", contents=prompt,
+                                config={"response_mime_type": "application/json"})
+        data = json.loads(resp.text)
+        return {"prompt": data.get("prompt", ""), "min_words": data.get("min_words", 150), "subject_name": s.name_uz}
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"Could not generate a prompt: {e}")
+
+
+class WrittenExamGradeRequest(BaseModel):
+    user_id: int
+    subject: str
+    prompt: str
+    essay_text: str
+
+
+@router.post("/written-exam/grade")
+def grade_written_exam(
+    data: WrittenExamGradeRequest,
+    auth_user_id: int = Depends(get_authenticated_user_id),
+    db: Session = Depends(get_db),
+):
+    """Grade a subject essay: content accuracy, structure/argument and language, each
+    0-100, with an overall score and concrete advice — all in Uzbek."""
+    ensure_own_user(data.user_id, auth_user_id)
+    s = db.query(SkillSubject).filter(SkillSubject.slug == data.subject).first()
+    subject_name = s.name_uz if s else data.subject
+    if len((data.essay_text or "").split()) < 10:
+        raise HTTPException(status_code=400, detail="Essay is too short")
+
+    import json
+    from services.gemini import generate_content
+    prompt = f"""Siz "{subject_name}" fani imtihonchisisiz. O'quvchining inshosini baholang.
+
+Savol: {data.prompt}
+
+O'quvchi inshosi:
+{data.essay_text}
+
+Uch mezon bo'yicha 0-100 baho bering va umumiy baho (o'rtacha) chiqaring:
+- content: mavzu bilimi va faktlar to'g'riligi
+- structure: tuzilish, mantiq va dalillar
+- language: til, ravonlik va savodxonlik
+Har biriga qisqa izoh, va 2-4 gaplik yaxshilash maslahati bering — barchasi o'zbekcha.
+
+Faqat JSON qaytaring:
+{{"score": 78, "content": "80 - ...", "structure": "75 - ...", "language": "80 - ...", "feedback": "..."}}"""
+    try:
+        resp = generate_content(model="gemini-flash-latest", contents=prompt,
+                                config={"response_mime_type": "application/json"})
+        result = json.loads(resp.text)
+        score = int(result.get("score") or 0)
+        if score >= 60:
+            user = db.query(User).filter(User.id == data.user_id).first()
+            if user:
+                user.xp_total = (user.xp_total or 0) + 10
+                db.add(user); db.commit()
+        record_study_activity(data.user_id)
+        return {
+            "score": score,
+            "content": result.get("content", ""),
+            "structure": result.get("structure", ""),
+            "language": result.get("language", ""),
+            "feedback": result.get("feedback", ""),
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"Grading failed: {e}")
+
+
 @router.get("/{user_id}/flashcards")
 def get_flashcards(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     """Flashcards built from the subject's lesson theory — front the concept, back the
