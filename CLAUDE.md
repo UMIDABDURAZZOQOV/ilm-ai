@@ -426,13 +426,18 @@ Done so far:
   passage no longer swallows its own first question block. `as_number` strips a stray apostrophe
   ("5'", "8'."). These recovered Test 2 R 14-19 and Test 3 R 1-4.
 
-Still to do — the residual **37** are individual OCR cell-losses (a notes/table blank where the
-scan dropped the dot-leader and left only a mangled number like "35." or "7'"), not block-level,
-so parser tweaks no longer help much. 35 of the 37 have their answer in the parsed key; only
-T4 R 31 & 36 do not. The reliable finish is a hand-authored `scripts/seeds/ielts18_manual.json`
-overlay (the `add_manual_questions` mechanism), where the question text is read off the page and
-the answer comes from the key — as was done for book 20's Writing/Speaking and book 19's one
-cell. It is real transcription work; a cleaner source PDF would parse further on its own.
+Now at **314/320** on disk (2026-07-26): `scripts/seeds/ielts18_manual.json` was hand-authored,
+reading the blank's stem off the page image, with `add_manual_questions` filling the answer from
+the parsed key (and an optional `"answer"` field for the two-mark pairs the key parser missed —
+that override was added to `add_manual_questions`). Fixture, overlay and OCR cache are all still
+**untracked**, so production is untouched (books 21/20/19 only). Three separate PDFs of book 18
+were tried — the bought copy, a "@cambridge_library" download, and one named "18 new" — all three
+are image-only scans of the same low quality, so none parses further on its own.
+
+Remaining 6 questions + a few key-parse gaps were being finished by hand when it was paused for
+token cost — not worth it for the last stretch. **Left at 314/320, unshipped.** The clean finish
+is a text-layer ("searchable") PDF: with one, `parse_ielts21.py` would reach 320/320 in one run.
+The manual overlay already carries most of the residual stems, so a resume is short.
 
 ```
 T1: L[1,5,35]  R[4,6,7]
