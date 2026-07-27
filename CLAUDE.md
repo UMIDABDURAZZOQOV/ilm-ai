@@ -417,21 +417,27 @@ render so the OCR comes out upright.
 Done so far:
 - `python scripts/ocr_pages.py "<pdf>" 18` and `--keys 121 128` have been run; the cache is at
   `scripts/seeds/ocr/c18/` (untracked).
-- `scripts/parse_ielts21.py` parses it to **~273/320 questions, 6 without answers**. The fixture
-  `scripts/seeds/ielts18.json` exists but is **untracked and NOT seeded** — production stays at
-  three books until 18 is finished.
-- One general fix landed while on it and is worth keeping regardless: a scan sometimes loses the
-  word "Questions" from a block header, leaving a bare range ("14—19"); `split_blocks` now
-  accepts a bare `N–M` line as a header when the next line is a rubric. Verified it changes
-  nothing for 19/20/21.
+- `scripts/parse_ielts21.py` parses it to **283/320 questions, 6 without answers** (was 273). The
+  fixture `scripts/seeds/ielts18.json` exists but is **untracked and NOT seeded** — production
+  stays at three books until 18 is finished.
+- Two block-detection fixes landed and are committed (regression-free on 19/21): `is_block_header`
+  now also opens a block on a bare "14—19" range above a rubric, and on a lone "Questions" whose
+  range is in the "in boxes N-M" rubric below — `parse_reading`'s first_q uses it too, so a
+  passage no longer swallows its own first question block. `as_number` strips a stray apostrophe
+  ("5'", "8'."). These recovered Test 2 R 14-19 and Test 3 R 1-4.
 
-Still to do — the missing questions are the same shapes already solved for book 19, so the fixes
-will rhyme with those in the parser's OCR section:
+Still to do — the residual **37** are individual OCR cell-losses (a notes/table blank where the
+scan dropped the dot-leader and left only a mangled number like "35." or "7'"), not block-level,
+so parser tweaks no longer help much. 35 of the 37 have their answer in the parsed key; only
+T4 R 31 & 36 do not. The reliable finish is a hand-authored `scripts/seeds/ielts18_manual.json`
+overlay (the `add_manual_questions` mechanism), where the question text is read off the page and
+the answer comes from the key — as was done for book 20's Writing/Speaking and book 19's one
+cell. It is real transcription work; a cleaner source PDF would parse further on its own.
 
 ```
 T1: L[1,5,35]  R[4,6,7]
-T2: L[1,3,7,8,9,13,14,32,37]  R[3,4,8,14,15,16,17,18,19,35]
-T3: L[5,7,8,9,10,32,37]  R[1,2,3,4,6,7]
+T2: L[1,3,7,8,9,13,14,32,37]  R[3,4,8,35]
+T3: L[5,7,8,9,10,32,37]  R[6,7]
 T4: L[1,6,8,34,37,40]  R[31,34,36]
 ```
 
@@ -1001,7 +1007,7 @@ Result: 320/320, every answer keyed, sixteen transcripts, Writing + Speaking + f
 figures. Fixing 19's audioscript boundary briefly emptied book 21's transcripts, caught
 only because all books are re-parsed after every change.
 
-### Cambridge IELTS 18 — PAUSED at 273/320 (see the ⏸ block above)
+### Cambridge IELTS 18 — resumed to 283/320, still paused (see the ⏸ block above)
 
 Another scan, some pages `/Rotate 180`. Parses to 273/320; fixture and OCR cache are
 untracked so production stays at three books. The one general fix kept: a scan can drop
