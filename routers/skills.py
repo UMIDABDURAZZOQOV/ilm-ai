@@ -1133,6 +1133,39 @@ Return ONLY JSON:
         raise HTTPException(status_code=502, detail=f"Scoring failed: {e}")
 
 
+@router.get("/{user_id}/flashcards")
+def get_flashcards(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    """Flashcards built from the subject's lesson theory — front the concept, back the
+    explanation. No new content: the teaching cards a learner already saw become review
+    cards. One per teaching card, in lesson order, capped so a deck is a sitting."""
+    s = db.query(SkillSubject).filter(SkillSubject.slug == subject).first()
+    if not s:
+        raise HTTPException(status_code=404, detail="Subject not found")
+
+    lessons = (
+        db.query(SkillLesson)
+        .join(SkillUnit, SkillUnit.id == SkillLesson.unit_id)
+        .filter(SkillUnit.subject_id == s.id)
+        .order_by(SkillUnit.order_index, SkillLesson.order_index)
+        .all()
+    )
+    cards = []
+    for lesson in lessons:
+        for card in (lesson.theory or []):
+            front = (card.get("title") or "").strip()
+            back = (card.get("body") or "").strip()
+            example = (card.get("example") or "").strip()
+            if not front or not back:
+                continue
+            cards.append({
+                "front": front,
+                "back": back + (f"\n\nMisol: {example}" if example else ""),
+                "lesson": lesson.title_uz,
+            })
+    random.shuffle(cards)
+    return {"cards": cards[:40], "subject_name": s.name_uz, "total": len(cards)}
+
+
 @router.get("/{user_id}/subject-exam")
 def get_subject_exam(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     """A timed exam over a whole subject, spread across its units.
