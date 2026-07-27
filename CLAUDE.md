@@ -370,7 +370,18 @@ raw→band tables (Listening and Academic Reading differ) and IELTS rounding (.2
 > item-writers, or openly-licensed texts). Every component above is content-agnostic and matches the
 > DB shape, so licensed material drops straight in.
 
-### ▶ PICK UP HERE (state at end of 2026-07-22) — read this first after a context reset
+### ▶ PICK UP HERE (state at end of 2026-07-26) — read this first after a context reset
+
+**The skill tree has a full learning suite now** (built 2026-07-26, all live): spaced-repetition
+mistakes, pronunciation scoring and dictation for the language subjects, flashcards from lesson
+theory, an AI-graded written exam, completion certificates, adaptive practice, a timed subject
+exam, and a progress dashboard. **SAT Math has the real tools**: Desmos (graphing + scientific,
+pop-out), the geometry reference sheet, text highlighting/notes, and a reading guide. Details in
+the session log "Session 2026-07-26 (later)". One thing still needs manual setup: the streak
+push reminder needs an external free scheduler (cron-job.org) to call
+`POST /skills/cron/streak-reminders?key=<CRON_SECRET>` daily, because Render's free plan has no cron.
+
+
 
 **Three Cambridge books are loaded: 21, 20 and 19** — 960 questions in production, every one
 of them keyed, with 36 passages, 48 recordings, 24 Writing tasks (12 of them with their
@@ -1010,6 +1021,69 @@ provider pipeline (mistral), resumably, across a machine restart; three psycholo
 lessons timed out and were filled by a plain re-run. Live totals: 2038 new questions,
 204 lessons of teaching cards, 354 placement questions — every new lesson answerable,
 0 malformed. The DTM framing elsewhere was **left as-is** at the owner's request.
+
+## Session 2026-07-26 (later) — SAT Math tools, then ten learning features
+
+All live in production. Two threads: SAT exam tools, then a run of skill-tree features.
+
+### SAT Math: Desmos, a reference sheet, annotation, a reading guide
+
+Four tools on the SAT session toolbar, Math questions only (except the reading guide),
+like the real Digital SAT / OnePrep:
+- **Desmos** (`components/sat/DesmosCalculator.tsx`) — the real widget from Desmos's API
+  (demo key, `NEXT_PUBLIC_DESMOS_API_KEY` overrides), with a Graphing/Scientific toggle,
+  Pop Out to a full window, and drag/resize/minimize. Not a reimplementation.
+- **Reference sheet** (`ReferenceSheet.tsx`) — the standard SAT geometry reference: all
+  twelve figure-formulas as our own SVG plus the three arc/angle facts.
+- **Annotation** (`Annotatable.tsx`) — select text → Highlight or Note, persisted per
+  question. Drawn with the **CSS Custom Highlight API** so MathText's `<sup>`/`<span>`
+  DOM is never mutated; annotations are stored as character offsets and rebuilt each
+  render.
+- **Reading guide** (`LineReader.tsx`) — a movable clear band over a dimmed page.
+
+"Is this a Math question" is the mock plan's section for a full test, or the question's
+domain (the four SAT Math domains) for a plain practice session — `Question` has no
+`section` field.
+
+### Ten skill-tree features (in the order built)
+
+Every one reuses existing content or tech — no new question generation.
+
+1. **Spaced repetition.** `skilltree_mistakes` gained `review_stage` + `due_at` (startup
+   column migration, SQLite + Postgres). A wrong answer is due in 1 day; each correct
+   review advances the interval (1,3,7,16,35), a wrong one resets to stage 0, and it
+   retires past the last stage. `/mistakes` returns only what is **due now** — the point
+   of SRS. This replaced a flat resolve-on-first-correct list.
+2. **Pronunciation practice** (language subjects). `GET /skills/{u}/pronunciation`
+   generates phrases (cached per language); `POST /skills/pronunciation/score` sends the
+   recording to Gemini for a 0-100 score + Uzbek tip. Same audio path as IELTS Speaking.
+3. **Daily goal + streak reminder.** The daily-goal ring already existed; added a
+   streak-at-risk banner, and `POST /skills/cron/streak-reminders` (guarded by
+   CRON_SECRET) that pushes via the existing FCM path. **Render's free plan has no cron**,
+   so an external free scheduler (cron-job.org) must call it daily — that is the only
+   manual setup left for this feature.
+4. **Flashcards.** `GET /skills/{u}/flashcards` turns lesson `theory` cards into flip
+   cards (front concept, back explanation). "Review" cards return at the end of the deck.
+5. **Written exam.** `GET /skills/{u}/written-exam` generates one Uzbek essay prompt;
+   `POST /skills/written-exam/grade` marks content/structure/language 0-100 via Gemini.
+6. **Certificate** (`components/skills/Certificate.tsx`). A subject at 100% shows a button
+   on the progress dashboard that draws Ilm AI's own completion certificate on a canvas,
+   downloadable as PNG — the platform's own record, not any external institution's.
+7. **Adaptive practice.** `GET /skills/{u}/adaptive` returns questions bucketed by
+   difficulty; the client climbs a level on a correct answer, drops on a wrong one, whole
+   pool fetched once so there is no per-question wait.
+8. **Dictation** (language subjects). Browser TTS speaks a phrase, the learner types it,
+   compared normalised. Reuses the pronunciation phrase bank; frontend-only.
+
+Also this session: **the progress dashboard** (`/skills/progress`, `GET
+/skills/{u}/progress`) — per-subject mastery ring, completion bar, weakest units; and the
+**timed subject exam** (`GET /skills/{u}/subject-exam`, round-robin across units) with a
+per-unit weak-area breakdown. Both predate the ten-feature run in the same session.
+
+Runtime AI note carried through all of this: student-facing calls (speaking, pronunciation,
+written-exam, phrase generation) go through `services/gemini.py` (runtime keys), never the
+offline seeding provider. Gemini is multimodal, so audio is sent inline with
+`types.Part.from_bytes` — no separate speech-to-text.
 
 ## Detailed work log (chronological, with outcomes)
 Full history of what was done and the result, from the start to 2026-07-15. The code is the
