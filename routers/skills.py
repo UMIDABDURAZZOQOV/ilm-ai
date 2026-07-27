@@ -1133,6 +1133,42 @@ Return ONLY JSON:
         raise HTTPException(status_code=502, detail=f"Scoring failed: {e}")
 
 
+@router.get("/{user_id}/adaptive")
+def get_adaptive_pool(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    """A pool of the subject's questions bucketed by difficulty, for adaptive practice.
+
+    The client serves one at a time and climbs to harder questions after a correct
+    answer, drops to easier after a wrong one — real adaptivity with no per-question
+    round-trip. Buckets are capped so the payload stays small.
+    """
+    s = db.query(SkillSubject).filter(SkillSubject.slug == subject).first()
+    if not s:
+        raise HTTPException(status_code=404, detail="Subject not found")
+    unit_ids = [u.id for u in db.query(SkillUnit.id).filter(SkillUnit.subject_id == s.id).all()]
+    lesson_ids = [l.id for l in db.query(SkillLesson.id).filter(SkillLesson.unit_id.in_(unit_ids)).all()] if unit_ids else []
+    if not lesson_ids:
+        return {"easy": [], "medium": [], "hard": [], "subject_name": s.name_uz}
+
+    buckets: dict[str, list] = {"easy": [], "medium": [], "hard": []}
+    rows = db.query(SkillQuestion).filter(SkillQuestion.lesson_id.in_(lesson_ids)).all()
+    random.shuffle(rows)
+    for q in rows:
+        d = (q.difficulty or "medium").lower()
+        if d not in buckets:
+            d = "medium"
+        if len(buckets[d]) >= 20:
+            continue
+        buckets[d].append({
+            "id": q.id,
+            "difficulty": d,
+            "question_text": q.question_text,
+            "options": q.options,
+            "correct_answer": q.correct_answer,
+            "explanation": q.explanation,
+        })
+    return {**buckets, "subject_name": s.name_uz}
+
+
 @router.get("/{user_id}/written-exam")
 def get_written_exam(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     """One essay prompt for the subject, in Uzbek — the kind of open question a lesson
