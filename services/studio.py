@@ -202,6 +202,30 @@ def text_flashcards(text: str, language: str = "uz") -> dict:
     return {"flashcards": cards}
 
 
+# ─── Translate & explain (for foreign-language textbooks) ─────────────────────
+
+def translate_explain(user_id: int, filename: str | None = None, target_language: str = "uz") -> dict:
+    """Translate the learner's material into their language AND explain the key ideas
+    simply — many learners study from English/Russian textbooks they only half-follow."""
+    text, files = material_text(user_id, filename)
+    if not text:
+        return {"error": "no_materials"}
+    prompt = (
+        f"The learner is studying from material that may be in another language. Into "
+        f"{target_language}: (1) give a clear translation/retelling of the key content, then "
+        f"(2) explain the hardest ideas simply, as a patient tutor. Use Markdown with short "
+        f"sections. Return only the Markdown.\n\nMATERIAL:\n{text}"
+    )
+    try:
+        resp = gemini_generate(model="gemini-flash-latest", contents=prompt)
+        md = (resp.text or "").strip()
+    except Exception:
+        return {"error": "generation_failed"}
+    if not md:
+        return {"error": "generation_failed"}
+    return {"markdown": md, "sources": files}
+
+
 # ─── Mock test from materials ─────────────────────────────────────────────────
 
 def mock_from_materials(user_id: int, language: str = "uz", n: int = 15) -> dict:

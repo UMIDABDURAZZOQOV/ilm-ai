@@ -90,6 +90,12 @@ def cheat_sheet(data: MaterialRequest, auth_user_id: int = Depends(get_authentic
     return _handle(data.user_id, studio.cheat_sheet(data.user_id, data.filename, data.language))
 
 
+@router.post("/translate")
+def translate(data: MaterialRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    _guard(data.user_id, auth_user_id)
+    return _handle(data.user_id, studio.translate_explain(data.user_id, data.filename, data.language))
+
+
 class TextFlashcardsRequest(BaseModel):
     user_id: int
     text: str
