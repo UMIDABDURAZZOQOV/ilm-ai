@@ -1232,4 +1232,96 @@ source of truth; this is the narrative so context isn't lost across machines/ses
    service-account JSON path set as `FIREBASE_SERVICE_ACCOUNT_PATH` on the backend. Everything is
    wired and waiting — this is a credentials gap, not missing code.
 
+## Session 2026-07-28 — Ilm AI companion overhaul + a large feature/polish run
+
+Long autonomous build session. Guiding insight from the owner: **everything (SAT, IELTS,
+College, Fanlar) is built on top of the Ilm AI companion + the "upload material → learn"
+loop; strengthening that core is the priority.** Then: make it feel like the best
+education platform (animations, UX), and keep adding until told to stop. All of the below
+is live in production (Render backend + Vercel frontend), each committed separately, every
+change typechecked (`npx tsc --noEmit`) and `npm run build`-clean, backend imports verified.
+
+**New DB tables** (all brand-new → picked up by `create_all`, no migration; behaviour is
+identical for users with no rows): `AssistantMemory`, `StreakFreeze`, `UserCourse`,
+`ShareLink`. **New routers**: `course`, `studio`, `college`, `insights`, `share` (all
+registered in `main.py`). Extended: `assistant`, `tutor`, `skills`, `files`.
+
+### The companion is now a personal tutor (`routers/assistant.py` + `services/assistant_context.py`)
+Was a bare "you are a general assistant" ChatGPT clone that knew nothing about the learner.
+All folded into the **single existing Gemini call** per message (cost barely changed):
+- **Personalization** — `build_student_context()` injects a compact profile: name, goal,
+  exam countdown, streak/XP, placement levels, weakest topics (from open `SkillMistake`s).
+- **RAG over uploads** — `retrieve_material_context()` embeds the question, cosine-ranks the
+  learner's `VectorEntry` chunks, answers from them and returns source filenames; optional
+  `filename` scopes to one document (chat-with-a-doc).
+- **Long-term memory** — model emits `<remember>…</remember>`; extracted into
+  `AssistantMemory`, injected into every prompt. `GET/DELETE /assistant/memory/{id}`.
+- **Actions** — model emits `<action label href/>` (closed route allow-list) → an in-app
+  button. Dashboard gained `?panel=` deep-linking so those actions open Quiz/Materials/etc.
+- **Follow-ups** — `<follow>` tags → up to 3 tappable next-question chips.
+- **In-chat image** — `POST /assistant/ask-image` (multimodal); attach a photo in chat.
+- **Daily briefing** — `GET /assistant/briefing/{id}` proactive "here's today" from profile.
+- **Rephrase** — `POST /assistant/rephrase` re-explains any answer simpler/deeper.
+- **Answer → flashcards** — one tap on any answer → `POST /studio/text-flashcards`.
+- Voice path (`/ask-voice`) got personalization + memory too.
+
+### Materialdan kurs — `/course` (`routers/course.py`, `services/user_course.py`, `UserCourse`)
+Turns the learner's uploaded materials into a Duolingo-style course: outline generated
+once (chapters → lessons) and stored; **per-lesson questions generated on demand** (token
+saving). Runs each lesson through the shared `PracticeSession`; tracks completion.
+
+### Ilm AI Studio — `/studio` (`routers/studio.py`, `services/studio.py`) — **12 tools**
+All grounded in the learner's own materials (or a photo/topic):
+photo study kit, **AI podcast** (two-host dialogue, read aloud client-side with two browser
+voices — no audio-API quota), audio recap (ElevenLabs TTS + browser fallback), knowledge
+map (SVG radial graph), one-page cheat sheet (Save-as-PDF via `printDoc.ts`), mock test,
+translate & explain, notes → library (photo OCR appended to `VectorEntry`, `/files/upload-image`),
+search your notes (semantic), My materials (list/delete, `/files/documents`), **AI diagram**
+(Mermaid, dynamically imported), and text→flashcards. Share buttons create public links.
+
+### Gamification / retention / exams (mostly `routers/skills.py`)
+- **Weekly league UI** — surfaced the existing `/skills/{id}/league` tiers (bronze→diamond)
+  with a promotion banner + per-entry medal in `Leaderboard.tsx`.
+- **Streak freeze** — `StreakFreeze` table + `services/streak_freeze.py`; auto-earned every
+  7-day mark (cap 3), auto-spent to bridge a missed day. **Backward compatible**: the change
+  to `record_study_activity` (in `services/users.py`) only bridges when freezes exist,
+  otherwise resets exactly as before.
+- **Exam countdown** — `/skills/{id}/exam-countdown|exam-date` (uses existing `target_date`)
+  → days-left + paced daily XP on the skills home.
+- **Mixed daily review** — `/skills/{id}/mixed-review` (due SRS + fresh questions).
+- **Ilm AI gamification** — `services/gamify.py`: using the companion/Studio now marks the
+  shared streak and awards a little XP; `GET /insights/gamify/{id}`; dashboard streak+XP card.
+- **Learning insights** — `/insights/{id}` (`services/insights.py`, no-LLM): materials
+  covered, quiz trend, strong/weak topics; `/insights` page with animated sparkline/bars.
+
+### IELTS / SAT / College additions
+- **IELTS Writing band breakdown** — the grader already returned per-criterion bands; the
+  page now shows the 4 official criteria (TR/CC/LR/GRA) as colour-coded rows.
+- **AI tutor chat** (`/skills/tutor/chat`), **voice tutor** (TTS read-aloud), **voice answer**
+  (`/skills/tutor/voice-check`, speak an answer, Gemini judges), **photo answer**
+  (`/skills/tutor/photo-check`).
+- **College Essay Coach** — `POST /college/essay-review` + `/sat/college/essay`: structured
+  admissions-essay feedback (overall+rating, strengths, improvements, line edits).
+  SAT itself was assessed as already mature; no redundant feature forced.
+
+### Platform-wide (root `layout.tsx`, `components/ui/*`)
+- **PWA** — `manifest.json` (standalone, brand theme, 192/512+maskable icons generated from
+  the logo via PIL), a conservative network-first `sw.js` (never caches API or serves stale
+  app code), production-only `PwaRegister`. App is installable on phone/desktop.
+- **Command palette** — `CommandPalette` (Ctrl/Cmd+K) mounted in the root layout; jump to any
+  page/Studio tool.
+- **Focus mode** — `/focus` Pomodoro (25/50 focus, short 5 / long 10 break, auto-long every
+  4th round) + `FocusTimerWidget`, a compact floating timer whose state persists in
+  localStorage (survives navigation/refresh). Mounted on **every exam/study surface**: SAT
+  session, all `/sat/*` via `sat/layout.tsx`, Fanlar lesson, standalone IELTS pages.
+- **Onboarding tour** — first-visit 6-step carousel (localStorage flag).
+- **Daily tip** + **Share** (`/share`, public `/s/[token]`, `ShareButton`) + animations
+  (`AnimatedNumber` count-up, `Celebration` confetti on quiz completion, staggered reveals,
+  animated stat tiles/bars). Quiz completion celebration is in the shared `PracticeSession`,
+  so it fires across every practice mode.
+
+**Deliberately NOT done (with reason):** none of the streak/core changes touch behaviour for
+users without the new rows; no redundant SAT feature was forced (it's already complete);
+two-voice podcast uses **browser TTS, not ElevenLabs**, to avoid burning the free audio quota.
+
 
