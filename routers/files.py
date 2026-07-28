@@ -213,6 +213,34 @@ async def upload_image(
     return {"message": "Notes added to your library", "filename": filename, "chunks": len(chunks), "text": text}
 
 
+@router.get("/documents/{user_id}")
+def list_documents(user_id: int = Depends(verify_user_access)):
+    """The learner's uploaded documents with how many chunks each holds — the data
+    a materials manager needs to show and delete individual files."""
+    vectors = load_vectors(user_id)
+    counts: dict[str, dict] = {}
+    for v in vectors:
+        fn = v.get("filename", "")
+        if not fn:
+            continue
+        d = counts.setdefault(fn, {"filename": fn, "chunks": 0, "topic": v.get("topic", "General")})
+        d["chunks"] += 1
+    return {"documents": sorted(counts.values(), key=lambda d: d["filename"])}
+
+
+@router.delete("/documents/{user_id}")
+def delete_document(user_id: int = Depends(verify_user_access), filename: str = ""):
+    """Remove one uploaded document (all its chunks) from the materials library,
+    keeping the rest. No-op-safe if the filename isn't found."""
+    if not filename:
+        raise HTTPException(status_code=400, detail="filename required")
+    vectors = load_vectors(user_id)
+    kept = [v for v in vectors if v.get("filename") != filename]
+    removed = len(vectors) - len(kept)
+    save_vectors(user_id, kept)
+    return {"removed_chunks": removed, "remaining_documents": len({v.get("filename") for v in kept if v.get("filename")})}
+
+
 class UploadTextRequest(BaseModel):
     user_id: int
     filename: str
