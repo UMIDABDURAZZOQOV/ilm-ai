@@ -239,6 +239,41 @@ def text_flashcards(text: str, language: str = "uz") -> dict:
     return {"flashcards": cards}
 
 
+# ─── Two-voice podcast script (read aloud client-side) ────────────────────────
+
+def podcast(user_id: int, filename: str | None = None, language: str = "uz") -> dict:
+    """A lively two-host dialogue that explains the learner's material — returned as
+    a script the client reads aloud with two distinct voices. Script-only (no server
+    TTS) so it never burns audio quota and always works."""
+    text, files = material_text(user_id, filename)
+    if not text:
+        return {"error": "no_materials"}
+    prompt = (
+        f"Turn the material below into a lively, friendly two-host podcast that teaches it. "
+        f"Language: {language}. Host A asks good questions and reacts; Host B explains clearly with "
+        f"examples and analogies. Natural spoken style, no markdown. 10-16 short turns total. "
+        f"Return ONLY this JSON, no fences:\n"
+        f'{{\"title\": \"episode title\", \"script\": [{{\"speaker\": \"A\", \"text\": \"...\"}}]}}\n\n'
+        f"MATERIAL:\n{text}"
+    )
+    try:
+        resp = gemini_generate(
+            model="gemini-flash-latest",
+            contents=prompt,
+            config={"response_mime_type": "application/json"},
+        )
+        data = _parse_json(resp.text)
+    except Exception:
+        return {"error": "generation_failed"}
+    lines = [
+        {"speaker": "B" if str(l.get("speaker", "A")).strip().upper() == "B" else "A", "text": (l.get("text") or "").strip()}
+        for l in data.get("script", []) if (l.get("text") or "").strip()
+    ]
+    if not lines:
+        return {"error": "generation_failed"}
+    return {"title": data.get("title", ""), "script": lines, "sources": files}
+
+
 # ─── AI diagram / mind-map (Mermaid) ──────────────────────────────────────────
 
 def diagram(user_id: int, topic: str = "", from_materials: bool = False, language: str = "uz") -> dict:

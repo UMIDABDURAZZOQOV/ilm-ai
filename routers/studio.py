@@ -95,6 +95,13 @@ def audio_recap(data: MaterialRequest, auth_user_id: int = Depends(get_authentic
     return {"script": result["script"], "audio_base64": audio_b64, "sources": result.get("sources", [])}
 
 
+@router.post("/podcast")
+def podcast(data: MaterialRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """Two-host podcast SCRIPT from the learner's material (read aloud client-side)."""
+    _guard(data.user_id, auth_user_id)
+    return _handle(data.user_id, studio.podcast(data.user_id, data.filename, data.language))
+
+
 @router.post("/knowledge-map")
 def knowledge_map(data: MaterialRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
     _guard(data.user_id, auth_user_id)
