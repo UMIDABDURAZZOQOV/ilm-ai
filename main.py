@@ -4,7 +4,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from dotenv import load_dotenv
-from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments, feedback, evaluation, sat_ielts, assistant, notifications, review, ielts, math_solver, skills, mock_exam, classes, parent, tutor, vocab, course, studio
+from routers import auth, files, chat, quiz, plan, telegram_link, gaps, payments, feedback, evaluation, sat_ielts, assistant, notifications, review, ielts, math_solver, skills, mock_exam, classes, parent, tutor, vocab, course, studio, college
 from services.monitoring import init_monitoring
 from services.db import engine, Base
 from services.scheduler import start_scheduler
@@ -101,6 +101,7 @@ app.include_router(parent.router)
 app.include_router(tutor.router)
 app.include_router(course.router)
 app.include_router(studio.router)
+app.include_router(college.router)
 
 @app.get("/")
 def root():
