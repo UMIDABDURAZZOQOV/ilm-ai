@@ -30,6 +30,11 @@ def _handle(user_id: int, result: dict) -> dict:
         code = 400 if result["error"] == "no_materials" else 502
         raise HTTPException(status_code=code, detail=result["error"])
     record_assistant_use(user_id)
+    try:
+        from services.gamify import award_study
+        award_study(user_id)
+    except Exception:
+        pass
     return result
 
 

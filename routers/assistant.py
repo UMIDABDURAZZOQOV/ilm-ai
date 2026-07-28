@@ -139,6 +139,11 @@ def ask_assistant(data: AssistantRequest, auth_user_id: int = Depends(get_authen
         save_memory(data.user_id, fact)
 
     record_assistant_use(data.user_id)
+    try:
+        from services.gamify import award_study
+        award_study(data.user_id)
+    except Exception:
+        pass
     append_message(data.user_id, "user", data.question)
     append_message(data.user_id, "assistant", answer)
 
