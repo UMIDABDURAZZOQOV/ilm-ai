@@ -213,6 +213,78 @@ async def upload_image(
     return {"message": "Notes added to your library", "filename": filename, "chunks": len(chunks), "text": text}
 
 
+class ImportUrlRequest(BaseModel):
+    user_id: int
+    url: str
+    topic: str = "Web"
+
+
+def _html_to_text(html: str) -> tuple[str, str]:
+    """Dependency-free extraction: drop script/style/head, strip tags, unescape.
+    Returns (title, text). Good enough for articles without pulling in bs4."""
+    import html as html_lib
+    import re
+
+    title = ""
+    m = re.search(r"<title[^>]*>(.*?)</title>", html, re.IGNORECASE | re.DOTALL)
+    if m:
+        title = html_lib.unescape(re.sub(r"\s+", " ", m.group(1))).strip()
+    # Remove non-content blocks entirely.
+    for tag in ("script", "style", "noscript", "head", "svg", "nav", "footer", "form"):
+        html = re.sub(rf"<{tag}[^>]*>.*?</{tag}>", " ", html, flags=re.IGNORECASE | re.DOTALL)
+    # Block tags → newlines so paragraphs survive.
+    html = re.sub(r"</(p|div|h[1-6]|li|br|tr|section|article)>", "\n", html, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", html)
+    text = html_lib.unescape(text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n\s*\n+", "\n\n", text)
+    return title, text.strip()
+
+
+@router.post("/import-url")
+def import_url(data: ImportUrlRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """Fetch a web article/page, extract its text, and add it to the materials
+    library (chunked + embedded, appended) so RAG/quizzes/course can use it."""
+    ensure_own_user(data.user_id, auth_user_id)
+    ok, msg = can_upload(data.user_id)
+    if not ok:
+        raise HTTPException(status_code=403, detail=msg)
+
+    url = data.url.strip()
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
+    import requests as _rq
+    try:
+        resp = _rq.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0 (compatible; IlmAI/1.0)"})
+        resp.raise_for_status()
+    except Exception:
+        raise HTTPException(status_code=400, detail="fetch_failed")
+
+    ctype = resp.headers.get("content-type", "")
+    if "text/html" in ctype or "<html" in resp.text[:2000].lower():
+        title, text = _html_to_text(resp.text)
+    else:
+        title, text = "", resp.text
+    if len(text) < 60:
+        raise HTTPException(status_code=422, detail="no_text_found")
+
+    from urllib.parse import urlparse
+    filename = (title or urlparse(url).netloc or "webpage")[:120]
+    chunks = chunk_text(text[:60000])
+    existing = load_vectors(data.user_id)
+    for i, chunk in enumerate(chunks):
+        existing.append({
+            "id": f"{filename}::chunk{i}::{os.urandom(4).hex()}",
+            "filename": filename,
+            "topic": data.topic,
+            "text": chunk,
+            "embedding": get_embedding(chunk),
+        })
+    save_vectors(data.user_id, existing)
+    record_upload(data.user_id)
+    return {"message": "Added to your library", "filename": filename, "chunks": len(chunks)}
+
+
 @router.get("/documents/{user_id}")
 def list_documents(user_id: int = Depends(verify_user_access)):
     """The learner's uploaded documents with how many chunks each holds — the data
