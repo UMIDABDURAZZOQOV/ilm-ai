@@ -33,6 +33,18 @@ def _handle(user_id: int, result: dict) -> dict:
     return result
 
 
+class SearchRequest(BaseModel):
+    user_id: int
+    query: str
+
+
+@router.post("/search")
+def search(data: SearchRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """Semantic 'search your notes' over the learner's uploaded materials."""
+    ensure_own_user(data.user_id, auth_user_id)
+    return studio.search_materials(data.user_id, data.query)
+
+
 @router.get("/files/{user_id}")
 def list_files(user_id: int = Depends(verify_user_access)):
     """Filenames the learner has uploaded — lets the UI scope a tool to one file."""

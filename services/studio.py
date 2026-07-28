@@ -13,6 +13,7 @@ their actual course, not generic content.
 from __future__ import annotations
 
 import json
+import math
 import re
 
 from google.genai import types
@@ -21,6 +22,42 @@ from services.quiz_engine import load_vectors
 from services.gemini import generate_content as gemini_generate
 
 MAX_MATERIAL_CHARS = 14000
+
+
+def _cosine(a: list[float], b: list[float]) -> float:
+    if not a or not b:
+        return 0.0
+    dot = sum(x * y for x, y in zip(a, b))
+    na = math.sqrt(sum(x * x for x in a))
+    nb = math.sqrt(sum(y * y for y in b))
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def search_materials(user_id: int, query: str, k: int = 6) -> dict:
+    """Semantic search over the learner's uploads — 'search your notes'. Returns the
+    most relevant chunks with their source file and a match score."""
+    q = (query or "").strip()
+    if not q:
+        return {"results": []}
+    vectors = load_vectors(user_id)
+    if not vectors:
+        return {"results": [], "no_materials": True}
+    try:
+        from services.gemini import embed_content as gemini_embed
+        emb = list(gemini_embed(model="gemini-embedding-001", contents=[q]).embeddings[0].values)
+    except Exception:
+        return {"results": []}
+    scored = [(_cosine(emb, v.get("embedding") or []), v) for v in vectors if v.get("embedding")]
+    scored.sort(key=lambda s: s[0], reverse=True)
+    results = [
+        {
+            "filename": v.get("filename", ""),
+            "text": (v.get("text") or "").strip(),
+            "score": round(float(score), 3),
+        }
+        for score, v in scored[:k] if score > 0.35
+    ]
+    return {"results": results}
 
 
 def _parse_json(text: str) -> dict:
