@@ -156,6 +156,63 @@ async def upload_file(
         "chunks": len(chunks)
     }
 
+@router.post("/upload-image")
+async def upload_image(
+    user_id: int = Depends(verify_user_access),
+    topic: str = "Notes",
+    file: UploadFile = File(default=None),
+):
+    """Photograph handwritten (or printed) notes and add them to the materials
+    library: Gemini reads the page into clean text, which is then chunked, embedded
+    and appended just like an uploaded document — so RAG can answer from paper notes."""
+    if file is None:
+        raise HTTPException(status_code=422, detail="No image provided.")
+    ok, msg = can_upload(user_id)
+    if not ok:
+        raise HTTPException(status_code=403, detail=msg)
+
+    content = await file.read()
+    if not content:
+        raise HTTPException(status_code=400, detail="Empty image")
+
+    mime = file.content_type
+    if not mime or mime == "application/octet-stream":
+        name = (file.filename or "").lower()
+        mime = "image/png" if name.endswith(".png") else "image/webp" if name.endswith(".webp") else "image/jpeg"
+
+    from google.genai import types
+    ocr_prompt = (
+        "Transcribe ALL the text in this image (handwritten or printed) into clean, well-structured "
+        "plain text. Fix obvious spacing, keep the original language, preserve lists and structure. "
+        "Return only the transcribed text, nothing else."
+    )
+    try:
+        resp = gemini_generate(
+            model="gemini-flash-latest",
+            contents=[ocr_prompt, types.Part.from_bytes(data=content, mime_type=mime)],
+        )
+        text = (resp.text or "").strip()
+    except Exception:
+        raise HTTPException(status_code=502, detail="ocr_failed")
+    if len(text) < 15:
+        raise HTTPException(status_code=422, detail="no_text_found")
+
+    filename = file.filename or f"notes-{os.urandom(3).hex()}.jpg"
+    chunks = chunk_text(text)
+    existing = load_vectors(user_id)
+    for i, chunk in enumerate(chunks):
+        existing.append({
+            "id": f"{filename}::chunk{i}::{os.urandom(4).hex()}",
+            "filename": filename,
+            "topic": topic,
+            "text": chunk,
+            "embedding": get_embedding(chunk),
+        })
+    save_vectors(user_id, existing)
+    record_upload(user_id)
+    return {"message": "Notes added to your library", "filename": filename, "chunks": len(chunks), "text": text}
+
+
 class UploadTextRequest(BaseModel):
     user_id: int
     filename: str
