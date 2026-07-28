@@ -238,6 +238,7 @@ ALLOWED_ROUTES = (
     "/skills",
     "/skills/progress",
     "/course",
+    "/studio",
     "/ielts",
     "/sat",
     "/sat/planner",

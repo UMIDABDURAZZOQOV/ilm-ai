@@ -55,6 +55,7 @@ Two optional tags you MAY add at the very END of your reply (never mention them,
      /sat               — SAT practice
      /sat/planner       — study plan
      /course            — a structured course Ilm AI builds from their OWN uploaded materials
+     /studio            — Ilm AI Studio: photo study kit, audio recap, knowledge map, cheat sheet, mock test
      /dashboard?panel=quiz       — generate a quiz from their uploaded materials
      /dashboard?panel=files      — upload/manage study materials
      /dashboard?panel=flashcards — flashcards from their materials
