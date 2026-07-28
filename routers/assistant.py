@@ -269,6 +269,48 @@ async def ask_assistant_image(
     return {"answer": answer, "action": action, "followups": followups}
 
 
+class RephraseRequest(BaseModel):
+    user_id: int
+    text: str
+    mode: str = "simpler"   # "simpler" | "deeper"
+    language: str = "en"
+
+
+@router.post("/rephrase")
+def rephrase(data: RephraseRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """Re-explain a previous answer at a different level — one tap to make it simpler
+    (like to a younger student) or go deeper (more rigour, examples, nuance)."""
+    ensure_own_user(data.user_id, auth_user_id)
+    ok, msg = can_use_assistant(data.user_id)
+    if not ok:
+        raise HTTPException(status_code=403, detail=msg)
+    text = (data.text or "").strip()
+    if not text:
+        raise HTTPException(status_code=400, detail="empty")
+
+    if data.mode == "deeper":
+        style = (
+            "Explain the SAME thing in more depth: add rigour, a concrete example, an edge case or "
+            "the 'why' behind it, and any useful nuance — as if teaching a motivated student who wants mastery."
+        )
+    else:
+        style = (
+            "Explain the SAME thing much more simply: plain words, a relatable everyday analogy, short "
+            "sentences — as if explaining to a curious younger student. Keep it accurate."
+        )
+    lang_instruction = f" Respond in the following language: {data.language}." if data.language else ""
+    prompt = f"{style}{lang_instruction}\n\nThe explanation to rework:\n{text}"
+    try:
+        raw = _call_gemini(prompt, data.user_id)
+    except HTTPException:
+        raise
+    out = (raw or "").strip()
+    if not out:
+        raise HTTPException(status_code=502, detail="failed")
+    record_assistant_use(data.user_id)
+    return {"answer": out}
+
+
 @router.get("/briefing/{user_id}")
 def daily_briefing(user_id: int = Depends(verify_user_access)):
     """A short, proactive 'here's what to do today' from the companion, built from
