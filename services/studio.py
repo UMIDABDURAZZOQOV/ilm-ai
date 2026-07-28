@@ -174,6 +174,34 @@ def cheat_sheet(user_id: int, filename: str | None = None, language: str = "uz")
     return {"markdown": md, "sources": files}
 
 
+# ─── Flashcards from an arbitrary passage (e.g. a companion answer) ───────────
+
+def text_flashcards(text: str, language: str = "uz") -> dict:
+    """Turn any passage — typically a companion explanation — into flashcards, so
+    a good answer can become spaced-repetition material in one tap."""
+    snippet = (text or "").strip()[:6000]
+    if not snippet:
+        return {"error": "empty"}
+    prompt = (
+        f"Turn the following passage into 4-8 study flashcards (front = a term or question, "
+        f"back = a concise answer). Language: {language}. Return ONLY this JSON, no fences:\n"
+        f'{{\"flashcards\": [{{\"front\": \"...\", \"back\": \"...\"}}]}}\n\nPASSAGE:\n{snippet}'
+    )
+    try:
+        resp = gemini_generate(
+            model="gemini-flash-latest",
+            contents=prompt,
+            config={"response_mime_type": "application/json"},
+        )
+        data = _parse_json(resp.text)
+    except Exception:
+        return {"error": "generation_failed"}
+    cards = [c for c in data.get("flashcards", []) if c.get("front") and c.get("back")]
+    if not cards:
+        return {"error": "generation_failed"}
+    return {"flashcards": cards}
+
+
 # ─── Mock test from materials ─────────────────────────────────────────────────
 
 def mock_from_materials(user_id: int, language: str = "uz", n: int = 15) -> dict:

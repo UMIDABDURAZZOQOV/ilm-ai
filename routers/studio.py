@@ -90,6 +90,24 @@ def cheat_sheet(data: MaterialRequest, auth_user_id: int = Depends(get_authentic
     return _handle(data.user_id, studio.cheat_sheet(data.user_id, data.filename, data.language))
 
 
+class TextFlashcardsRequest(BaseModel):
+    user_id: int
+    text: str
+    language: str = "uz"
+
+
+@router.post("/text-flashcards")
+def text_flashcards(data: TextFlashcardsRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """Flashcards from any passage (e.g. a companion answer) — no upload needed."""
+    _guard(data.user_id, auth_user_id)
+    result = studio.text_flashcards(data.text, data.language)
+    if result.get("error"):
+        code = 400 if result["error"] == "empty" else 502
+        raise HTTPException(status_code=code, detail=result["error"])
+    record_assistant_use(data.user_id)
+    return result
+
+
 class MockRequest(BaseModel):
     user_id: int
     language: str = "uz"
