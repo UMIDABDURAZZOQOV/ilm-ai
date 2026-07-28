@@ -57,6 +57,18 @@ class AssistantMessage(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 
+class FlashcardDeck(Base):
+    """A saved flashcard deck the learner reviews over time with spaced repetition.
+    Cards live inline as JSON: [{front, back, stage, due}] — stage indexes the SRS
+    intervals, due is an ISO datetime. Small decks, so no separate cards table."""
+    __tablename__ = "flashcard_decks"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, index=True, nullable=False)
+    title = Column(String(200), nullable=False)
+    cards = Column(JSON, nullable=False, default=list)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
 class ShareLink(Base):
     """A public, read-only snapshot the learner chose to share (a diagram, a flashcard
     deck, a cheat sheet, a course outline). Keyed by a random token; the payload is a
