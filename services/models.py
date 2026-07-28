@@ -57,6 +57,19 @@ class AssistantMessage(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 
+class ShareLink(Base):
+    """A public, read-only snapshot the learner chose to share (a diagram, a flashcard
+    deck, a cheat sheet, a course outline). Keyed by a random token; the payload is a
+    self-contained JSON copy so the share keeps working even if the source changes."""
+    __tablename__ = "share_links"
+    token = Column(String(24), primary_key=True)
+    user_id = Column(Integer, index=True, nullable=False)
+    kind = Column(String(24), nullable=False)     # diagram | flashcards | cheatsheet | course
+    title = Column(String(200), nullable=True)
+    payload = Column(JSON, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
 class StreakFreeze(Base):
     """Duolingo-style streak freezes: each one bridges a single missed day so the
     learner's streak survives. Stored per-user in its own table (no User-column
