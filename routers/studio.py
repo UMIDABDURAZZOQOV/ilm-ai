@@ -126,6 +126,25 @@ def text_flashcards(data: TextFlashcardsRequest, auth_user_id: int = Depends(get
     return result
 
 
+class DiagramRequest(BaseModel):
+    user_id: int
+    topic: str = ""
+    from_materials: bool = False
+    language: str = "uz"
+
+
+@router.post("/diagram")
+def diagram(data: DiagramRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """Generate a Mermaid diagram / mind-map for a topic or the learner's materials."""
+    _guard(data.user_id, auth_user_id)
+    result = studio.diagram(data.user_id, data.topic, data.from_materials, data.language)
+    if result.get("error"):
+        code = 400 if result["error"] in ("no_materials", "empty") else 502
+        raise HTTPException(status_code=code, detail=result["error"])
+    record_assistant_use(data.user_id)
+    return result
+
+
 class MockRequest(BaseModel):
     user_id: int
     language: str = "uz"

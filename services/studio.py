@@ -239,6 +239,49 @@ def text_flashcards(text: str, language: str = "uz") -> dict:
     return {"flashcards": cards}
 
 
+# ─── AI diagram / mind-map (Mermaid) ──────────────────────────────────────────
+
+def diagram(user_id: int, topic: str = "", from_materials: bool = False, language: str = "uz") -> dict:
+    """Generate a Mermaid diagram (flowchart or mindmap) for a topic, optionally
+    grounded in the learner's materials. Returns valid Mermaid source to render."""
+    source = ""
+    if from_materials:
+        text, _ = material_text(user_id)
+        if not text:
+            return {"error": "no_materials"}
+        source = f"\n\nBase it on this material:\n{text[:8000]}"
+    elif not topic.strip():
+        return {"error": "empty"}
+
+    prompt = (
+        f"Create a clear Mermaid diagram that helps a student SEE how the ideas connect for: "
+        f"\"{topic or 'the material below'}\". Language for the labels: {language}.\n"
+        f"Rules for valid Mermaid:\n"
+        f"- Use `flowchart TD` (top-down) OR `mindmap`.\n"
+        f"- Keep node labels SHORT (2-5 words), letters/numbers/spaces only — NO parentheses, "
+        f"quotes, commas, colons, semicolons or special characters inside labels.\n"
+        f"- 8-16 nodes. Make the structure meaningful (hierarchy or flow).\n"
+        f"Return ONLY this JSON, no fences:\n"
+        f'{{\"title\": \"short title\", \"mermaid\": \"flowchart TD\\n  A[Root] --> B[Child]\"}}'
+        f"{source}"
+    )
+    try:
+        resp = gemini_generate(
+            model="gemini-flash-latest",
+            contents=prompt,
+            config={"response_mime_type": "application/json"},
+        )
+        data = _parse_json(resp.text)
+    except Exception:
+        return {"error": "generation_failed"}
+    code = (data.get("mermaid") or "").strip()
+    if code.startswith("```"):
+        code = code.split("```")[1].replace("mermaid", "", 1).strip()
+    if not code:
+        return {"error": "generation_failed"}
+    return {"title": data.get("title", ""), "mermaid": code}
+
+
 # ─── Translate & explain (for foreign-language textbooks) ─────────────────────
 
 def translate_explain(user_id: int, filename: str | None = None, target_language: str = "uz") -> dict:
