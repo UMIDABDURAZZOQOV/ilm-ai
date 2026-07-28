@@ -119,14 +119,19 @@ def _embed(text: str) -> list[float] | None:
         return None
 
 
-def retrieve_material_context(user_id: int, query: str, k: int = 4) -> tuple[str, list[str]]:
+def retrieve_material_context(
+    user_id: int, query: str, k: int = 4, filename: str | None = None
+) -> tuple[str, list[str]]:
     """Top-k chunks from the learner's uploaded materials most relevant to the
     question. Returns (context_block, filenames_used). Empty when the learner has
     uploaded nothing or the query can't be embedded — the companion then just
-    answers from general knowledge instead of failing."""
+    answers from general knowledge instead of failing. When `filename` is given,
+    retrieval is scoped to just that document (chat-with-a-document)."""
     from services.quiz_engine import load_vectors
 
     vectors = load_vectors(user_id)
+    if filename:
+        vectors = [v for v in vectors if v.get("filename") == filename]
     if not vectors:
         return "", []
 
@@ -144,8 +149,13 @@ def retrieve_material_context(user_id: int, query: str, k: int = 4) -> tuple[str
     scored.sort(key=lambda s: s[0], reverse=True)
 
     # Only keep chunks that are actually related — a low top score means the
-    # question isn't about their materials, so we add nothing.
-    top = [v for score, v in scored[:k] if score > 0.55]
+    # question isn't about their materials, so we add nothing. When the learner
+    # explicitly scoped to one document, keep the best chunks regardless: they
+    # asked about THAT file, so answer from it even on a weaker match.
+    if filename:
+        top = [v for _, v in scored[:k]]
+    else:
+        top = [v for score, v in scored[:k] if score > 0.55]
     if not top:
         return "", []
 
@@ -225,6 +235,7 @@ def clear_memories(user_id: int) -> None:
 # ─── 4. Tag parsing (memory + action, emitted inline in one response) ─────────
 
 _REMEMBER_RE = re.compile(r"<remember>(.*?)</remember>", re.DOTALL | re.IGNORECASE)
+_FOLLOW_RE = re.compile(r"<follow>(.*?)</follow>", re.DOTALL | re.IGNORECASE)
 _ACTION_RE = re.compile(
     r"""<action\s+label=["'](?P<label>[^"']+)["']\s+href=["'](?P<href>[^"']+)["']\s*/?>""",
     re.IGNORECASE,
@@ -245,9 +256,10 @@ ALLOWED_ROUTES = (
 )
 
 
-def parse_tags(text: str) -> tuple[str, list[str], dict | None]:
-    """Split the model's reply into (clean_text, new_memories, action|None)."""
+def parse_tags(text: str) -> tuple[str, list[str], dict | None, list[str]]:
+    """Split the model's reply into (clean_text, new_memories, action|None, followups)."""
     memories = [m.strip() for m in _REMEMBER_RE.findall(text) if m.strip()]
+    followups = [f.strip() for f in _FOLLOW_RE.findall(text) if f.strip()][:3]
 
     action = None
     m = _ACTION_RE.search(text)
@@ -256,5 +268,5 @@ def parse_tags(text: str) -> tuple[str, list[str], dict | None]:
         if any(href == r or href.startswith(r + "?") or href.startswith(r + "/") for r in ALLOWED_ROUTES):
             action = {"label": m.group("label").strip(), "href": href}
 
-    clean = _ACTION_RE.sub("", _REMEMBER_RE.sub("", text)).strip()
-    return clean, memories, action
+    clean = _FOLLOW_RE.sub("", _ACTION_RE.sub("", _REMEMBER_RE.sub("", text))).strip()
+    return clean, memories, action, followups

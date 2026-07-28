@@ -62,7 +62,10 @@ Two optional tags you MAY add at the very END of your reply (never mention them,
      /dashboard?panel=review     — spaced-repetition review
      /dashboard?panel=gaps       — their knowledge-gaps report
    Use an action only when it genuinely helps — not on every reply. Prefer /dashboard?panel=upload-style
-   material actions when they ask something that would be better answered from their own notes."""
+   material actions when they ask something that would be better answered from their own notes.
+3. Suggest up to THREE natural follow-up questions the learner might ask next, each as:
+   <follow>the follow-up question</follow>
+   Keep them short, specific to the topic, and phrased in the learner's language."""
 
 
 def _build_history_text(user_id: int) -> str:
@@ -107,6 +110,7 @@ class AssistantRequest(BaseModel):
     user_id: int
     question: str
     language: str = "en"
+    filename: str | None = None   # scope RAG to one uploaded document (chat-with-a-document)
 
 
 @router.post("/ask")
@@ -120,14 +124,16 @@ def ask_assistant(data: AssistantRequest, auth_user_id: int = Depends(get_authen
     # The four companion capabilities, all folded into a single Gemini call:
     student = build_student_context(data.user_id)                    # personalization
     memory = memories_block(data.user_id)                            # long-term memory
-    material, sources = retrieve_material_context(data.user_id, data.question)  # RAG
+    material, sources = retrieve_material_context(                   # RAG (optionally one doc)
+        data.user_id, data.question, filename=data.filename
+    )
     prompt = (
         f"{SYSTEM_PROMPT}{lang_instruction}{student}{memory}{material}"
         f"{_build_history_text(data.user_id)}\n\nQUESTION:\n{data.question}"
     )
 
     raw = _call_gemini(prompt, data.user_id)
-    answer, new_memories, action = parse_tags(raw)   # actions + memory extraction
+    answer, new_memories, action, followups = parse_tags(raw)
 
     for fact in new_memories:
         save_memory(data.user_id, fact)
@@ -136,7 +142,7 @@ def ask_assistant(data: AssistantRequest, auth_user_id: int = Depends(get_authen
     append_message(data.user_id, "user", data.question)
     append_message(data.user_id, "assistant", answer)
 
-    return {"answer": answer, "action": action, "sources": sources}
+    return {"answer": answer, "action": action, "sources": sources, "followups": followups}
 
 
 @router.post("/ask-voice")
@@ -195,7 +201,7 @@ async def ask_assistant_voice(
 
     audio_part = types.Part.from_bytes(data=audio_bytes, mime_type=mime_type)
     raw = _call_gemini([instruction, audio_part], user_id)
-    answer, new_memories, action = parse_tags(raw)
+    answer, new_memories, action, _followups = parse_tags(raw)
 
     for fact in new_memories:
         save_memory(user_id, fact)
@@ -206,6 +212,85 @@ async def ask_assistant_voice(
     append_message(user_id, "assistant", answer)
 
     return {"answer": answer, "action": action}
+
+
+@router.post("/ask-image")
+async def ask_assistant_image(
+    user_id: int = Form(...),
+    question: str = Form(""),
+    language: str = Form("en"),
+    image: UploadFile = File(...),
+    auth_user_id: int = Depends(get_authenticated_user_id),
+):
+    """Multimodal chat: the learner attaches a photo (a problem, notes, a diagram)
+    and optionally a question. The companion sees the image and answers in context,
+    staying personal and remembering facts like the text path."""
+    ensure_own_user(user_id, auth_user_id)
+    ok, msg = can_use_assistant(user_id)
+    if not ok:
+        raise HTTPException(status_code=403, detail=msg)
+
+    image_bytes = await image.read()
+    if not image_bytes:
+        raise HTTPException(status_code=400, detail="Empty image file")
+
+    mime_type = image.content_type
+    if not mime_type or mime_type == "application/octet-stream":
+        name = (image.filename or "").lower()
+        if name.endswith(".png"):
+            mime_type = "image/png"
+        elif name.endswith(".webp"):
+            mime_type = "image/webp"
+        elif name.endswith(".heic"):
+            mime_type = "image/heic"
+        else:
+            mime_type = "image/jpeg"
+
+    lang_instruction = f"\nRespond in the following language: {language}." if language else ""
+    student = build_student_context(user_id)
+    memory = memories_block(user_id)
+    q = question.strip() or "(look at the attached image and help me with it)"
+    instruction = (
+        f"{SYSTEM_PROMPT}{lang_instruction}{student}{memory}{_build_history_text(user_id)}\n\n"
+        f"The learner attached an image. Look at it carefully and respond to their message.\n"
+        f"QUESTION: {q}"
+    )
+    image_part = types.Part.from_bytes(data=image_bytes, mime_type=mime_type)
+    raw = _call_gemini([instruction, image_part], user_id)
+    answer, new_memories, action, followups = parse_tags(raw)
+
+    for fact in new_memories:
+        save_memory(user_id, fact)
+
+    record_assistant_use(user_id)
+    append_message(user_id, "user", f"🖼️ {q}")
+    append_message(user_id, "assistant", answer)
+
+    return {"answer": answer, "action": action, "followups": followups}
+
+
+@router.get("/briefing/{user_id}")
+def daily_briefing(user_id: int = Depends(verify_user_access)):
+    """A short, proactive 'here's what to do today' from the companion, built from
+    the learner's own state (exam countdown, weak areas, streak). One cheap call;
+    the client shows it at the top of the chat."""
+    student = build_student_context(user_id)
+    if not student:
+        # Nothing personal to brief on yet — let the client show a generic hello.
+        return {"briefing": "", "action": None}
+    prompt = (
+        f"{SYSTEM_PROMPT}\nRespond in Uzbek.{student}{memories_block(user_id)}\n\n"
+        "Write a SHORT proactive daily briefing (2-3 warm sentences) as their tutor: greet them, "
+        "point at the single most useful thing to do today based on their profile (due reviews, weak "
+        "areas, exam countdown), and motivate them. You MAY add ONE <action .../> button. No <remember> "
+        "or <follow> tags here."
+    )
+    try:
+        raw = _call_gemini(prompt, user_id)
+    except HTTPException:
+        return {"briefing": "", "action": None}
+    text, _mem, action, _f = parse_tags(raw)
+    return {"briefing": text, "action": action}
 
 
 class SpeakRequest(BaseModel):
