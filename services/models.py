@@ -57,6 +57,16 @@ class AssistantMessage(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 
+class StreakFreeze(Base):
+    """Duolingo-style streak freezes: each one bridges a single missed day so the
+    learner's streak survives. Stored per-user in its own table (no User-column
+    migration); when a learner has none, streak behaviour is exactly as before."""
+    __tablename__ = "streak_freezes"
+    user_id = Column(Integer, primary_key=True)
+    count = Column(Integer, default=0, nullable=False)
+    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+
 class AssistantMemory(Base):
     """Durable facts the companion has learned about a learner (goals, struggles,
     preferences), carried across sessions so it behaves like a tutor who remembers

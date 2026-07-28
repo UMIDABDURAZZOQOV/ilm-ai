@@ -415,6 +415,8 @@ def record_study_activity(user_id: int) -> Dict[str, Any]:
             today = date.today().isoformat()
             last = u.last_study_date
             streak = int(u.streak_days or 0)
+            prev_streak = streak
+            froze = 0
             if last == today:
                 pass
             elif last is None:
@@ -426,7 +428,15 @@ def record_study_activity(user_id: int) -> Dict[str, Any]:
                     if delta == 1:
                         streak += 1
                     elif delta > 1:
-                        streak = 1
+                        # Try to bridge the missed day(s) with streak freezes; only a
+                        # fully-covered gap keeps the streak, otherwise it resets.
+                        missed = delta - 1
+                        try:
+                            from services import streak_freeze
+                            froze = streak_freeze.consume(user_id, missed)
+                        except Exception:
+                            froze = 0
+                        streak = streak + 1 if froze >= missed else 1
                 except Exception:
                     streak = 1
 
@@ -434,7 +444,16 @@ def record_study_activity(user_id: int) -> Dict[str, Any]:
             u.last_study_date = today
             db.add(u)
             db.commit()
-            return {"streak_days": streak, "last_study_date": today}
+
+            # Earn a freeze each time the streak crosses a GRANT_EVERY-day mark.
+            try:
+                from services import streak_freeze
+                if streak > prev_streak and streak % streak_freeze.GRANT_EVERY == 0:
+                    streak_freeze.grant(user_id, 1)
+            except Exception:
+                pass
+
+            return {"streak_days": streak, "last_study_date": today, "froze": froze}
         finally:
             db.close()
 

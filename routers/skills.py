@@ -814,6 +814,18 @@ def get_league(user_id: int = Depends(verify_user_access), db: Session = Depends
     }
 
 
+# ─── Streak freezes (Streak muzlatish) ────────────────────────────────────────
+
+
+@router.get("/{user_id}/streak-freezes")
+def get_streak_freezes(user_id: int = Depends(verify_user_access)):
+    """How many streak freezes the learner holds. Freezes are earned automatically
+    (one each time the streak crosses a 7-day mark) and are spent automatically to
+    bridge a missed day — this endpoint just surfaces the current count."""
+    from services import streak_freeze
+    return {"count": streak_freeze.get_count(user_id), "cap": streak_freeze.FREEZE_CAP}
+
+
 # ─── Exam countdown (Imtihongacha) ────────────────────────────────────────────
 
 
