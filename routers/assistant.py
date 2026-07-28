@@ -54,6 +54,7 @@ Two optional tags you MAY add at the very END of your reply (never mention them,
      /ielts             — IELTS practice (listening/reading/writing/speaking)
      /sat               — SAT practice
      /sat/planner       — study plan
+     /course            — a structured course Ilm AI builds from their OWN uploaded materials
      /dashboard?panel=quiz       — generate a quiz from their uploaded materials
      /dashboard?panel=files      — upload/manage study materials
      /dashboard?panel=flashcards — flashcards from their materials

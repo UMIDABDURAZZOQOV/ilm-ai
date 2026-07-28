@@ -97,6 +97,19 @@ class LearningPlan(Base):
     generated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
 
 
+class UserCourse(Base):
+    """A structured mini-course Ilm AI builds from the learner's OWN uploaded
+    materials — chapters -> lessons -> checkpoints, Duolingo-style but generated
+    from their PDFs rather than a fixed syllabus. Stored as JSON (like LearningPlan);
+    per-lesson questions are generated on demand, not baked in here."""
+    __tablename__ = "user_courses"
+    user_id = Column(Integer, ForeignKey("users.id"), primary_key=True)
+    course = Column(JSON, nullable=False)
+    # {lesson_key: {"completed": bool, "score": int}} — light progress, keyed "c{ci}l{li}".
+    progress = Column(JSON, default=dict)
+    generated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+
 class ReviewItem(Base):
     """A weak topic (from a Gaps Report) scheduled for spaced-repetition review."""
     __tablename__ = "review_items"
