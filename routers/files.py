@@ -98,16 +98,42 @@ def chunk_text(text: str, chunk_size: int = 500, overlap: int = 80):
 from google.genai.errors import ClientError
 
 def get_embedding(text: str):
-    try:
-        result = gemini_embed(
-            model="gemini-embedding-001",
-            contents=[text]
-        )
-        return result.embeddings[0].values
-    except ClientError as e:
-        if getattr(e, "code", None) == 429:
-            raise HTTPException(status_code=429, detail="Embedding API rate limit exceeded. Please wait a moment.")
-        raise HTTPException(status_code=500, detail=f"Embedding API Error: {str(e)}")
+    return get_embeddings([text])[0]
+
+
+# A large book chunked at ~500 chars is hundreds of pieces. Embedding them one at
+# a time is hundreds of sequential API calls — minutes of work, long enough that
+# the upload connection is dropped and the browser reports "Failed to fetch".
+# Batching (many chunks per request) turns that into a handful of calls. Capped so
+# a pathologically large upload can't run unbounded.
+EMBED_BATCH = 100
+MAX_CHUNKS = 800
+
+
+def _embed_one(text: str):
+    result = gemini_embed(model="gemini-embedding-001", contents=[text])
+    return result.embeddings[0].values
+
+
+def get_embeddings(texts: list[str]) -> list:
+    out: list = []
+    for start in range(0, len(texts), EMBED_BATCH):
+        group = texts[start:start + EMBED_BATCH]
+        try:
+            result = gemini_embed(model="gemini-embedding-001", contents=group)
+            out.extend(emb.values for emb in result.embeddings)
+        except ClientError as e:
+            if getattr(e, "code", None) == 429:
+                raise HTTPException(status_code=429, detail="Embedding API rate limit exceeded. Please wait a moment.")
+            # Some models/quotas reject large batches — fall back to one-by-one for
+            # this group so a batch-size limit never breaks the whole upload.
+            try:
+                out.extend(_embed_one(t) for t in group)
+            except ClientError as e2:
+                if getattr(e2, "code", None) == 429:
+                    raise HTTPException(status_code=429, detail="Embedding API rate limit exceeded. Please wait a moment.")
+                raise HTTPException(status_code=500, detail=f"Embedding API Error: {str(e2)}")
+    return out
 
 @router.post("/upload")
 async def upload_file(
@@ -131,19 +157,22 @@ async def upload_file(
     else:
         text = content.decode("utf-8", errors="ignore")
 
-    chunks = chunk_text(text)
+    chunks = chunk_text(text)[:MAX_CHUNKS]
+    if not chunks:
+        raise HTTPException(status_code=422, detail="No readable text found in the file.")
     existing = load_vectors(user_id)
 
-    new_entries = []
-    for i, chunk in enumerate(chunks):
-        embedding = get_embedding(chunk)
-        new_entries.append({
+    embeddings = get_embeddings(chunks)   # one batched pass, not one call per chunk
+    new_entries = [
+        {
             "id": f"{file.filename}::chunk{i}::{os.urandom(4).hex()}",
             "filename": file.filename,
             "topic": topic,
             "text": chunk,
-            "embedding": embedding
-        })
+            "embedding": embeddings[i],
+        }
+        for i, chunk in enumerate(chunks)
+    ]
 
     existing.extend(new_entries)
     save_vectors(user_id, existing)
@@ -198,15 +227,16 @@ async def upload_image(
         raise HTTPException(status_code=422, detail="no_text_found")
 
     filename = file.filename or f"notes-{os.urandom(3).hex()}.jpg"
-    chunks = chunk_text(text)
+    chunks = chunk_text(text)[:MAX_CHUNKS]
     existing = load_vectors(user_id)
+    embeddings = get_embeddings(chunks)
     for i, chunk in enumerate(chunks):
         existing.append({
             "id": f"{filename}::chunk{i}::{os.urandom(4).hex()}",
             "filename": filename,
             "topic": topic,
             "text": chunk,
-            "embedding": get_embedding(chunk),
+            "embedding": embeddings[i],
         })
     save_vectors(user_id, existing)
     record_upload(user_id)
@@ -270,15 +300,16 @@ def import_url(data: ImportUrlRequest, auth_user_id: int = Depends(get_authentic
 
     from urllib.parse import urlparse
     filename = (title or urlparse(url).netloc or "webpage")[:120]
-    chunks = chunk_text(text[:60000])
+    chunks = chunk_text(text[:60000])[:MAX_CHUNKS]
     existing = load_vectors(data.user_id)
+    embeddings = get_embeddings(chunks)
     for i, chunk in enumerate(chunks):
         existing.append({
             "id": f"{filename}::chunk{i}::{os.urandom(4).hex()}",
             "filename": filename,
             "topic": data.topic,
             "text": chunk,
-            "embedding": get_embedding(chunk),
+            "embedding": embeddings[i],
         })
     save_vectors(data.user_id, existing)
     record_upload(data.user_id)
@@ -329,19 +360,20 @@ def upload_text(
     if not ok:
         raise HTTPException(status_code=403, detail=msg)
 
-    chunks = chunk_text(data.text)
+    chunks = chunk_text(data.text)[:MAX_CHUNKS]
     existing = load_vectors(data.user_id)
 
-    new_entries = []
-    for i, chunk in enumerate(chunks):
-        embedding = get_embedding(chunk)
-        new_entries.append({
+    embeddings = get_embeddings(chunks)
+    new_entries = [
+        {
             "id": f"{data.filename}::chunk{i}::{os.urandom(4).hex()}",
             "filename": data.filename,
             "topic": data.topic,
             "text": chunk,
-            "embedding": embedding
-        })
+            "embedding": embeddings[i],
+        }
+        for i, chunk in enumerate(chunks)
+    ]
 
     existing.extend(new_entries)
     save_vectors(data.user_id, existing)
