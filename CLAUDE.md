@@ -1324,4 +1324,52 @@ search your notes (semantic), My materials (list/delete, `/files/documents`), **
 users without the new rows; no redundant SAT feature was forced (it's already complete);
 two-voice podcast uses **browser TTS, not ElevenLabs**, to avoid burning the free audio quota.
 
+### Session 2026-07-28 (continued) — more features, a full UI/UX polish pass, and two real bug fixes
+
+Continuation of the same day. All committed + pushed (both repos `origin/main`, no unpushed
+commits). The only uncommitted file is `scripts/parse_ielts21.py` — the paused Cambridge 18
+scratch work, intentionally not shipped (see the ⏸ block).
+
+**More features (new tables/routers created by `create_all`, no migration):**
+- **Saved flashcard decks with spaced repetition.** New `FlashcardDeck` table (cards inline as
+  JSON: `[{front, back, stage, due}]`); `routers/decks.py` (create / list-with-due-counts /
+  get-due / review / delete) on the same `[1,3,7,16,35]` ladder as skill-tree mistakes. Frontend
+  `/decks` page (list + flip-card review, confetti on finish) and a reusable `SaveDeckButton`
+  wired into Studio photo-kit flashcards and the companion's answer→flashcards.
+- **Import material from a URL** — `POST /files/import-url` fetches a web article, extracts text
+  (dependency-free regex, no bs4) and appends it to the materials library. UI: "Add from a link"
+  row in Studio's My materials.
+- **Resume card** (continue your in-progress course) + **daily reminder time settings** (writes
+  `reminder_time` via the existing `/telegram` endpoints; the scheduler already delivers) on the
+  dashboard.
+
+**Full UI/UX polish pass (`components/ui/*`, `app/template.tsx`, `globals.css`):**
+- `template.tsx` — a subtle fade+rise on every route navigation.
+- `Skeleton` shimmer primitive (+ `.ilm-shimmer` keyframes) replacing bare spinners on Insights /
+  Decks / Course loading.
+- Dashboard: time-of-day greeting hero with animated blobs; a colourful **Quick access** card grid
+  (Companion / Focus / Flashcards / Insights / Subjects / SAT·IELTS) with staggered entrance +
+  hover lift.
+- Companion chat messages animate in (spring). Plus earlier: `AnimatedNumber` count-ups,
+  `Celebration` confetti in the shared `PracticeSession` completion (fires across every mode),
+  animated Studio cards, focus-timer glow.
+
+**Two real production bugs fixed (reported by the owner testing the live site):**
+1. **i18n gap** — the platform dropdown's new entries (Subjects/Course/Studio/Focus/Insights/Decks)
+   and the public `/s/[token]` share page were hardcoded Uzbek and stayed Uzbek in RU/EN. Now
+   language-aware. (Most new components already used a `tr(lang, …)` helper.)
+2. **"Failed to fetch" on book uploads** — `/files/upload` embedded each ~500-char chunk with a
+   SEPARATE Gemini call, so a big PDF = hundreds of sequential requests = minutes = dropped
+   connection. Fixed by **batch embedding** (`get_embeddings`, 100 chunks/call, with a one-by-one
+   fallback if a batch is rejected) + a `MAX_CHUNKS=800` cap, applied to file/image/url/text ingest.
+   Turns minutes into seconds. **Practical limits worth knowing:** free tier = 5 files
+   (`max_uploads`, premium 999); per book ~first 180-190 pages are indexed (MAX_CHUNKS=800 ×
+   ~420 effective chars/chunk ≈ 336k chars). Raising the per-book cap is a one-constant change but
+   trades off DB storage (embeddings are large) and embedding quota.
+- Also: the login page pre-warms the backend (`/health` on mount) so the Google OAuth exchange
+  doesn't pay Render's free-plan cold-start; the callback shows a "server is waking up" message
+  after 6s instead of a silent frozen-looking spinner. The proper permanent fix for cold starts is
+  an EXTERNAL uptime pinger (cron-job.org / UptimeRobot) hitting `/health` every ~10 min — the
+  in-process keep-alive can't help once the service has already slept.
+
 
