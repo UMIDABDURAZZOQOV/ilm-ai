@@ -86,7 +86,10 @@ def extract_text_from_docx(file_bytes: bytes) -> str:
     except Exception:
         return ""
 
-def chunk_text(text: str, chunk_size: int = 500, overlap: int = 80):
+# Larger chunks (1000 vs 500) roughly halve the number of pieces, so a big book
+# needs half as many embeddings — much faster to ingest and lighter on the free
+# tier's memory, while still small enough for good RAG retrieval.
+def chunk_text(text: str, chunk_size: int = 1000, overlap: int = 150):
     text = text.strip()
     chunks = []
     start = 0
