@@ -27,16 +27,14 @@ def load_vectors(user_id: int):
     if USE_DB:
         db = SessionLocal()
         try:
-            entries = db.query(VectorEntry).filter(VectorEntry.user_id == user_id).all()
+            # The plan only needs filenames/topics — never select the big embedding
+            # column, which would load a whole book into memory and OOM the 512MB tier.
+            rows = db.query(
+                VectorEntry.chunk_id, VectorEntry.filename, VectorEntry.topic, VectorEntry.text
+            ).filter(VectorEntry.user_id == user_id).all()
             return [
-                {
-                    "id": e.chunk_id,
-                    "filename": e.filename,
-                    "topic": e.topic,
-                    "text": e.text,
-                    "embedding": e.embedding
-                }
-                for e in entries
+                {"id": r[0], "filename": r[1], "topic": r[2], "text": r[3], "embedding": None}
+                for r in rows
             ]
         finally:
             db.close()
