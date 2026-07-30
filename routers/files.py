@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, BackgroundTasks
 from services.auth_deps import verify_user_access, ensure_own_user, get_authenticated_user_id
 from pydantic import BaseModel
 from services.subscriptions import can_upload, record_upload
@@ -110,7 +110,7 @@ def get_embedding(text: str):
 # Batching (many chunks per request) turns that into a handful of calls. Capped so
 # a pathologically large upload can't run unbounded.
 EMBED_BATCH = 100
-MAX_CHUNKS = 800
+MAX_CHUNKS = 1400   # ~600 pages of text at 1000-char chunks
 
 
 def _embed_one(text: str):
@@ -138,8 +138,32 @@ def get_embeddings(texts: list[str]) -> list:
                 raise HTTPException(status_code=500, detail=f"Embedding API Error: {str(e2)}")
     return out
 
+def _embed_and_store(user_id: int, filename: str, topic: str, chunks: list[str]):
+    """Embed the chunks and append them to the user's vector store. Runs in the
+    BACKGROUND (after the upload response is already sent), so a 500-page book
+    never keeps the HTTP request open long enough to time out. Best-effort:
+    embedding is batched, and a failure only affects this document."""
+    try:
+        embeddings = get_embeddings(chunks)
+    except HTTPException:
+        return  # e.g. quota — the document just won't be indexed this time
+    existing = load_vectors(user_id)
+    existing.extend(
+        {
+            "id": f"{filename}::chunk{i}::{os.urandom(4).hex()}",
+            "filename": filename,
+            "topic": topic,
+            "text": chunk,
+            "embedding": embeddings[i],
+        }
+        for i, chunk in enumerate(chunks)
+    )
+    save_vectors(user_id, existing)
+
+
 @router.post("/upload")
 async def upload_file(
+    background_tasks: BackgroundTasks,
     user_id: int = Depends(verify_user_access),
     topic: str = "General",
     file: UploadFile = File(default=None),
@@ -163,29 +187,20 @@ async def upload_file(
     chunks = chunk_text(text)[:MAX_CHUNKS]
     if not chunks:
         raise HTTPException(status_code=422, detail="No readable text found in the file.")
-    existing = load_vectors(user_id)
 
-    embeddings = get_embeddings(chunks)   # one batched pass, not one call per chunk
-    new_entries = [
-        {
-            "id": f"{file.filename}::chunk{i}::{os.urandom(4).hex()}",
-            "filename": file.filename,
-            "topic": topic,
-            "text": chunk,
-            "embedding": embeddings[i],
-        }
-        for i, chunk in enumerate(chunks)
-    ]
-
-    existing.extend(new_entries)
-    save_vectors(user_id, existing)
+    # Text extraction (fast) is done here; the slow part — embedding every chunk —
+    # runs in the background AFTER we respond, so the upload returns in ~1-2s no
+    # matter how big the book is. The document appears searchable once indexing
+    # finishes (a page refresh shows it).
     record_upload(user_id)
+    background_tasks.add_task(_embed_and_store, user_id, file.filename, topic, chunks)
 
     return {
-        "message": f"File uploaded to '{topic}' and indexed successfully",
+        "message": f"'{file.filename}' qabul qilindi — indekslanmoqda ({len(chunks)} bo'lak).",
         "filename": file.filename,
         "topic": topic,
-        "chunks": len(chunks)
+        "chunks": len(chunks),
+        "processing": True,
     }
 
 @router.post("/upload-image")
