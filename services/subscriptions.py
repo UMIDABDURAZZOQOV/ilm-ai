@@ -21,6 +21,10 @@ PREMIUM_LIMITS = {
     "max_assistant_per_day": 999,
 }
 
+# Growth mode: while we acquire users, give EVERYONE full (premium) access — no
+# paywall, no free-tier caps. Flip back to False to re-enable free/premium tiers.
+FREE_FOR_ALL = True
+
 
 def _ensure_usage_fields(user: dict[str, Any]) -> None:
     user.setdefault("subscription_tier", "free")
@@ -47,6 +51,8 @@ def _reset_daily_if_needed(user: dict[str, Any]) -> None:
 
 
 def get_limits(user: dict[str, Any]) -> dict[str, int]:
+    if FREE_FOR_ALL:
+        return PREMIUM_LIMITS
     tier = user.get("subscription_tier", "free")
     return PREMIUM_LIMITS if tier == "premium" else FREE_LIMITS
 
@@ -70,7 +76,7 @@ def get_subscription_status(user_id: int) -> dict[str, Any]:
         "quiz_limit": limits["quiz_per_day"],
         "chat_today": user.get("chat_count_today", 0),
         "chat_limit": limits["max_chat_per_day"],
-        "is_premium": user.get("subscription_tier") == "premium",
+        "is_premium": FREE_FOR_ALL or user.get("subscription_tier") == "premium",
     }
 
 
