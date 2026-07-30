@@ -1372,4 +1372,55 @@ scratch work, intentionally not shipped (see the ⏸ block).
   an EXTERNAL uptime pinger (cron-job.org / UptimeRobot) hitting `/health` every ~10 min — the
   in-process keep-alive can't help once the service has already slept.
 
+## Session 2026-07-30 — production hardening (free-tier reality) + growth mode
+
+Owner is taking Ilm AI live for real users (students). This session was almost entirely
+**live production debugging** driven by the owner testing the deployed site. Backend URL:
+`https://ilm-ai-backend-256x.onrender.com`; web: `ilm-ai-edu.vercel.app`. All committed + pushed.
+A cron-job.org job now pings `/health` every 5 min to keep the free service warm.
+
+**The one root cause behind most "Failed to fetch" / crashes: Render free tier = 512MB RAM,**
+and several paths loaded a whole document's 3072-dim embeddings into memory at once, OOM-crashing
+the container (Render logs literally: "Ran out of memory (512MB)"). When it OOM-crashes it
+restarts, so SAT/IELTS/login/companion all briefly fail too — nothing is deleted, the DB content
+returns on recovery. Fixes, all in `routers/files.py` / `services/`:
+- **Uploads** — batch the embeddings (100→ then 32/call) instead of one call per chunk; move the
+  slow embedding into a FastAPI **BackgroundTask** so the upload returns in ~1-2s regardless of
+  size (no request timeout); index **batch-by-batch appending straight to the DB** (`_append_vectors`,
+  not load-all + `save_vectors` which deletes+rewrites everything) with `gc.collect()` between
+  batches; a **20MB file cap** and `MAX_CHUNKS=700` (~350 pages) so one big file can't OOM the whole
+  service. Larger chunks (1000/150) halve the count. Two-stage UI: "received — processing…" then
+  polls the docs list → "✅ your material is ready!".
+- **Quiz / flashcards** — `generate_quiz` and `_generate_flashcards` called `load_vectors` (all
+  embeddings) but only use the TEXT → OOM on every quiz for a user with a big book. New
+  `quiz_engine.load_chunk_texts()` selects only text/topic columns.
+- **Companion RAG** — `retrieve_material_context` now **streams** `VectorEntry` in batches
+  (`yield_per(200)`) and keeps only a small top-k heap, instead of loading every embedding.
+- **HONEST LIMIT:** 512MB cannot reliably fully-index a 500-page book. ~200-300 pages is the safe
+  ceiling on free; 500+ needs more RAM (Render Standard 2GB, ~$25/mo). Studio `search_materials`
+  still loads all vectors — same streaming fix if it OOMs.
+
+**Google login "Failed to fetch"** was a cold-start (the very first request hits a sleeping/
+restarting backend). Fix: the login page pre-warms `/health` on mount; `handleGoogleLogin` and the
+callback exchange **retry on network failure** with backoff (~30s), showing "Server is waking up…"
+instead of failing. NOTE: the retry shows that message on ANY transient failure, so it can flash
+even when things are basically fine — and crucially, **every backend deploy restarts the container
+(one cold start)**, which is why frequent pushes made it look perpetually "waking up". The real cure
+is to stop deploying and let the cron keep it warm.
+
+**Growth mode — no paywall:** `services/subscriptions.py` gained `FREE_FOR_ALL = True` — `get_limits()`
+returns the premium (unlimited) limits for everyone and status reports `is_premium=true`, so no
+free-tier caps and no upgrade gates. Flip to `False` to restore tiers. The dashboard's "Go Premium"
+upsell card is gated on `!is_premium` so it's hidden; the subscription nav item was already removed.
+Per-upload memory caps are unaffected.
+
+**Smaller UX fixes:** quiz results/mid-quiz gained **Back** + **New test** buttons (were missing);
+platform-menu entries and the public `/s/[token]` share page were still hardcoded Uzbek in RU/EN →
+now trilingual.
+
+**Lesson for next time:** each push auto-deploys and restarts the 512MB service; batching many
+fixes into fewer deploys (and testing against the live backend, which this environment sometimes
+couldn't reach due to a local TLS/network quirk) would have avoided hours of self-inflicted "waking
+up" churn.
+
 
