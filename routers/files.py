@@ -138,27 +138,49 @@ def get_embeddings(texts: list[str]) -> list:
                 raise HTTPException(status_code=500, detail=f"Embedding API Error: {str(e2)}")
     return out
 
+def _append_vectors(user_id: int, entries: list):
+    """Append new chunks to the store WITHOUT loading or rewriting the existing
+    ones — critical on the free tier's 512MB: save_vectors() deletes+re-inserts
+    everything, which balloons memory for a big book or a user with prior docs."""
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            for item in entries:
+                db.add(VectorEntry(
+                    user_id=user_id, filename=item["filename"], chunk_id=item["id"],
+                    text=item["text"], embedding=item["embedding"], topic=item.get("topic", "General"),
+                ))
+            db.commit()
+        finally:
+            db.close()
+    else:
+        existing = load_vectors(user_id)
+        existing.extend(entries)
+        save_vectors(user_id, existing)
+
+
 def _embed_and_store(user_id: int, filename: str, topic: str, chunks: list[str]):
-    """Embed the chunks and append them to the user's vector store. Runs in the
-    BACKGROUND (after the upload response is already sent), so a 500-page book
-    never keeps the HTTP request open long enough to time out. Best-effort:
-    embedding is batched, and a failure only affects this document."""
-    try:
-        embeddings = get_embeddings(chunks)
-    except HTTPException:
-        return  # e.g. quota — the document just won't be indexed this time
-    existing = load_vectors(user_id)
-    existing.extend(
-        {
-            "id": f"{filename}::chunk{i}::{os.urandom(4).hex()}",
-            "filename": filename,
-            "topic": topic,
-            "text": chunk,
-            "embedding": embeddings[i],
-        }
-        for i, chunk in enumerate(chunks)
-    )
-    save_vectors(user_id, existing)
+    """Embed the chunks and append them, in the BACKGROUND (after the upload
+    response is sent), so a 500-page book never keeps the HTTP request open long
+    enough to time out. Processed BATCH BY BATCH — only ~100 embeddings are held
+    in memory at a time and each batch is written straight to the DB — so a big
+    book can't exhaust the free tier's memory and crash the server."""
+    for start in range(0, len(chunks), EMBED_BATCH):
+        group = chunks[start:start + EMBED_BATCH]
+        try:
+            embeddings = get_embeddings(group)
+        except HTTPException:
+            return  # e.g. quota — stop; what's already indexed stays usable
+        _append_vectors(user_id, [
+            {
+                "id": f"{filename}::chunk{start + i}::{os.urandom(4).hex()}",
+                "filename": filename,
+                "topic": topic,
+                "text": chunk,
+                "embedding": embeddings[i],
+            }
+            for i, chunk in enumerate(group)
+        ])
 
 
 @router.post("/upload")
