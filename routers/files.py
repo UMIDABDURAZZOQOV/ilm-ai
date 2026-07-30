@@ -109,8 +109,12 @@ def get_embedding(text: str):
 # the upload connection is dropped and the browser reports "Failed to fetch".
 # Batching (many chunks per request) turns that into a handful of calls. Capped so
 # a pathologically large upload can't run unbounded.
-EMBED_BATCH = 100
-MAX_CHUNKS = 1400   # ~600 pages of text at 1000-char chunks
+# Tuned for Render's 512MB free tier. Small batches + gc keep the indexer's
+# memory flat; the file-size cap stops a huge PDF from OOM-crashing the whole
+# service (which would also take SAT/IELTS/login down until it restarts).
+EMBED_BATCH = 32
+MAX_CHUNKS = 700          # ~350 pages at 1000-char chunks
+MAX_FILE_BYTES = 20 * 1024 * 1024   # 20MB upload cap
 
 
 def _embed_one(text: str):
@@ -165,6 +169,7 @@ def _embed_and_store(user_id: int, filename: str, topic: str, chunks: list[str])
     enough to time out. Processed BATCH BY BATCH — only ~100 embeddings are held
     in memory at a time and each batch is written straight to the DB — so a big
     book can't exhaust the free tier's memory and crash the server."""
+    import gc
     for start in range(0, len(chunks), EMBED_BATCH):
         group = chunks[start:start + EMBED_BATCH]
         try:
@@ -181,6 +186,8 @@ def _embed_and_store(user_id: int, filename: str, topic: str, chunks: list[str])
             }
             for i, chunk in enumerate(group)
         ])
+        del embeddings
+        gc.collect()   # free each batch before the next — keeps memory flat
 
 
 @router.post("/upload")
@@ -197,6 +204,11 @@ async def upload_file(
         raise HTTPException(status_code=403, detail=msg)
 
     content = await file.read()
+    if len(content) > MAX_FILE_BYTES:
+        raise HTTPException(
+            status_code=413,
+            detail=f"Fayl juda katta ({len(content)//(1024*1024)}MB). Iltimos 20MB'дан kичик fayl yoki bitta bob yuklang.",
+        )
 
     lower_name = file.filename.lower()
     if lower_name.endswith(".pdf"):
