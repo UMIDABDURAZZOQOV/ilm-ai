@@ -43,6 +43,23 @@ def load_vectors(user_id: int) -> list[dict]:
         return json.load(f)
 
 
+def load_chunk_texts(user_id: int) -> list[dict]:
+    """Chunk texts WITHOUT the embeddings — for quiz/flashcard generation, which
+    only needs the text. Loading a big book's full embeddings (3072 floats each)
+    into memory can OOM the 512MB free tier and crash the whole service; selecting
+    just the text/topic columns keeps this light."""
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            rows = db.query(VectorEntry.text, VectorEntry.topic).filter(
+                VectorEntry.user_id == user_id
+            ).all()
+            return [{"text": r[0], "topic": r[1] or "General"} for r in rows]
+        finally:
+            db.close()
+    return [{"text": v.get("text", ""), "topic": v.get("topic", "General")} for v in load_vectors(user_id)]
+
+
 def _parse_json_response(text: str) -> dict:
     cleaned = text.strip()
     if cleaned.startswith("```"):
@@ -59,7 +76,7 @@ def generate_quiz(
     language: str = "en",
     topic: str | None = None,
 ) -> dict:
-    vectors = load_vectors(user_id)
+    vectors = load_chunk_texts(user_id)   # text only — never load big embeddings here
     if not vectors:
         return {
             "error": "No materials uploaded yet. Upload a PDF on the website first.",

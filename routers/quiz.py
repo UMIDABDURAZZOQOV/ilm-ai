@@ -183,10 +183,10 @@ def generate_flashcards(user_id: int = Depends(verify_user_access)):
 from google.genai.errors import ClientError
 
 def _generate_flashcards(user_id: int, language: str = "en"):
-    from services.quiz_engine import load_vectors
+    from services.quiz_engine import load_chunk_texts
     import random
 
-    vectors = load_vectors(user_id)
+    vectors = load_chunk_texts(user_id)   # text only — avoid loading big embeddings
     if not vectors:
         return {"error": "No materials found"}
 
