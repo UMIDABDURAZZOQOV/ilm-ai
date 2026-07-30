@@ -127,23 +127,52 @@ def retrieve_material_context(
     uploaded nothing or the query can't be embedded — the companion then just
     answers from general knowledge instead of failing. When `filename` is given,
     retrieval is scoped to just that document (chat-with-a-document)."""
-    from services.quiz_engine import load_vectors
-
-    vectors = load_vectors(user_id)
-    if filename:
-        vectors = [v for v in vectors if v.get("filename") == filename]
-    if not vectors:
-        return "", []
-
     q_emb = _embed(query)
     if not q_emb:
         return "", []
 
-    scored = []
-    for v in vectors:
-        emb = v.get("embedding")
-        if emb:
-            scored.append((_cosine(q_emb, emb), v))
+    # Stream the stored chunks in batches and keep only the best few in memory —
+    # never load every embedding at once (a big/older document's 3072-float vectors
+    # would OOM the 512MB free tier and drop the request as "Failed to fetch").
+    import heapq
+    from services.users import USE_DB
+
+    scored: list[tuple[float, dict]] = []
+    KEEP = max(k * 3, 12)
+    if USE_DB:
+        from services.db import SessionLocal
+        from services.models import VectorEntry
+        db = SessionLocal()
+        try:
+            q = db.query(VectorEntry.filename, VectorEntry.text, VectorEntry.embedding).filter(
+                VectorEntry.user_id == user_id
+            )
+            if filename:
+                q = q.filter(VectorEntry.filename == filename)
+            heap: list[tuple[float, int, dict]] = []
+            seq = 0
+            for fn, text, emb in q.yield_per(200):
+                if not emb:
+                    continue
+                s = _cosine(q_emb, emb)
+                v = {"filename": fn, "text": text}
+                if len(heap) < KEEP:
+                    heapq.heappush(heap, (s, seq, v)); seq += 1
+                elif s > heap[0][0]:
+                    heapq.heapreplace(heap, (s, seq, v)); seq += 1
+            scored = [(s, v) for s, _, v in heap]
+        finally:
+            db.close()
+    else:
+        from services.quiz_engine import load_vectors
+        vectors = load_vectors(user_id)
+        if filename:
+            vectors = [v for v in vectors if v.get("filename") == filename]
+        for v in vectors:
+            emb = v.get("embedding")
+            if emb:
+                scored.append((_cosine(q_emb, emb), v))
+
     if not scored:
         return "", []
     scored.sort(key=lambda s: s[0], reverse=True)
