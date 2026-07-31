@@ -115,6 +115,7 @@ def root():
     }
 
 @app.get("/health")
+@app.post("/health")
 def health():
     return {"status": "ok"}
 
