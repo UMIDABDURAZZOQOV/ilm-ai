@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Ping Render Backend
         run: |
-          curl -f https://ilm-ai-backend-256x.onrender.com/health || exit 1
+          curl -f -m 60 https://ilm-ai-backend-256x.onrender.com/health || exit 1
