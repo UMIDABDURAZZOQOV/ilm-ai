@@ -198,7 +198,7 @@ def dump(db) -> None:
     os.makedirs(os.path.dirname(SEED_PATH), exist_ok=True)
     with open(SEED_PATH, "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
-    print(f"\ndumped {len(data)} questions → {SEED_PATH}")
+    print(f"\ndumped {len(data)} questions -> {SEED_PATH}")
 
 
 if __name__ == "__main__":
