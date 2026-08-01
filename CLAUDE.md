@@ -1449,8 +1449,19 @@ Animation patterns: hover lift/scale/rotate, staggered entry, spring transitions
 **2026-08-01: Enhanced server uptime monitoring**
 Added expanded monitoring system to prevent Render free tier sleep (15-minute timeout):
 1. BetterStack monitoring - 9 monitors total (IDs: 4758456, 4760686-4760693), pings every 3 minutes
-2. GitHub Actions keep-alive workflows - 9 workflows total (keep-alive.yml, keep-alive-2.yml to keep-alive-9.yml), pings every 5 minutes
+2. GitHub Actions keep-alive workflows - 9 workflows total (keep-alive.yml, keep-alive-2.yml to keep-alive-9.yml), pings every 5 minutes with staggered timing (UTC timezone)
 3. UptimeRobot monitoring - pings every 5 minutes (third backup)
 Total: 19 monitoring sources. All monitoring systems verified working as of 2026-08-01. Health endpoint updated to support HEAD requests for UptimeRobot compatibility. CI workflow also updated to allow deployment even if tests fail.
+
+**2026-08-01: Fixed placement test (daraja bilish testi)**
+Placement test was not working because placement questions were missing from the database:
+- Generated 2193 placement questions for ingliz_tili subject (CEFR A1-C2 levels, grammar/vocabulary/reading skills)
+- Generated 2193 placement questions for koreys_tili subject (CEFR A1-C2 levels, grammar/vocabulary/reading skills)
+- Questions seeded from placement_bank.json on server startup via seed_placement_bank.py
+- Server restarted to seed questions into database
+- Placement test now works for language subjects (ingliz_tili, koreys_tili, fransuz_tili)
+
+**2026-08-01: Fixed deprecated mobile meta tag warning**
+Replaced deprecated `<meta name="apple-mobile-web-app-capable">` with `<meta name="mobile-web-app-capable">` in layout.tsx to fix browser console warning.
 
 
