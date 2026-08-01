@@ -51,7 +51,7 @@ Frontend: `cd ilm-ai-frontend && npm install && npm run dev`.
      URL: `https://ilm-ai-backend-256x.onrender.com/health`, pings every 3 minutes (free plan minimum).
      The `/health` endpoint supports GET, POST, and HEAD (added `@app.head("/health")` in `main.py` for uptime service compatibility).
   2. GitHub Actions keep-alive workflows - 9 workflows total (keep-alive.yml, keep-alive-2.yml to keep-alive-9.yml),
-     pings every 5 minutes (GitHub Actions minimum interval). This provides backup monitoring if BetterStack fails.
+     pings every 5 minutes with staggered timing (UTC timezone) for continuous coverage. This provides backup monitoring if BetterStack fails.
   3. UptimeRobot (https://uptimerobot.com) - Monitor ID: [add monitor ID], URL: `https://ilm-ai-backend-256x.onrender.com/health`,
      pings every 5 minutes (free plan). This provides third backup monitoring if both BetterStack and GitHub Actions fail.
   All monitoring systems are active and verified working as of 2026-08-01.
