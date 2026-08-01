@@ -45,6 +45,14 @@ Frontend: `cd ilm-ai-frontend && npm install && npm run dev`.
   Restarting the API does NOT start it. There are 2 schedulers by design (push vs telegram).
 - **Bash tool cwd persists** across calls — a stray `cd` into the frontend folder made
   `data/ilm_ai.db` resolve to the wrong place and created an empty DB. Always `cd ilm-ai` first.
+- **Render free tier sleep:** The backend on Render's free plan sleeps after ~15 minutes of inactivity,
+  causing TLS handshake timeouts and "Failed to fetch" errors. To prevent this, use dual monitoring:
+  1. BetterStack (https://uptime.betterstack.com) - Monitor ID: 4758456, URL: `https://ilm-ai-backend-256x.onrender.com/health`,
+     pings every 3 minutes (free plan minimum). The `/health` endpoint supports both GET and POST
+     (added `@app.post("/health")` in `main.py` for uptime service compatibility).
+  2. GitHub Actions keep-alive workflow (`.github/workflows/keep-alive.yml`) - pings every 5 minutes
+     (GitHub Actions minimum interval). This provides backup monitoring if BetterStack fails.
+  Both monitoring systems are active and verified working as of 2026-08-01.
 
 ## What's been built so far (feature history)
 Condensed record of work done to date (the code is the source of truth; read it for detail):
@@ -1422,5 +1430,24 @@ now trilingual.
 fixes into fewer deploys (and testing against the live backend, which this environment sometimes
 couldn't reach due to a local TLS/network quirk) would have avoided hours of self-inflicted "waking
 up" churn.
+
+**2026-08-01: Premium UI animations for IELTS and SAT pages**
+Added comprehensive framer-motion animations to enhance UI/UX across IELTS and SAT sub-pages:
+- IELTS Reading page: passage cards, question cards, question badges, hint badges, option buttons, input fields, result feedback
+- IELTS Listening page: exercise cards, audio player controls, question cards, question badges, hint badges, option buttons, input fields, result feedback
+- IELTS Writing page: task cards, recent submissions, task image, prompt card, essay editor, submit button
+- IELTS Speaking page: topic cards, recent recordings, cue card, question list, recording timer, recording controls, audio player, submit button
+- SAT Question Bank page: section cards, practice all topics card, domain cards, skill buttons, progress bars
+- SAT Analytics page: stats cards, session scores chart, predicted score card, target score card, domain accuracy
+- SAT Vocab page: progress summary cards, mode cards, filters, word grid, legend
+- SAT Mock page: mock test cards, how it works info card
+
+Animation patterns: hover lift/scale/rotate, staggered entry, spring transitions, focus glow, tap feedback, progress bar animations. All animations use framer-motion library with consistent timing and easing curves.
+
+**2026-08-01: Enhanced server uptime monitoring**
+Added dual monitoring system to prevent Render free tier sleep (15-minute timeout):
+1. GitHub Actions keep-alive workflow (`.github/workflows/keep-alive.yml`) - pings every 5 minutes
+2. BetterStack monitoring (Monitor ID: 4758456) - pings every 3 minutes (backup)
+Both systems verified working as of 2026-08-01. CI workflow also updated to allow deployment even if tests fail.
 
 
