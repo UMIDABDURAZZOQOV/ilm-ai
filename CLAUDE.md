@@ -50,8 +50,8 @@ Frontend: `cd ilm-ai-frontend && npm install && npm run dev`.
   1. BetterStack (https://uptime.betterstack.com) - 9 monitors total (IDs: 4758456, 4760686-4760693),
      URL: `https://ilm-ai-backend-256x.onrender.com/health`, pings every 3 minutes (free plan minimum).
      The `/health` endpoint supports GET, POST, and HEAD (added `@app.head("/health")` in `main.py` for uptime service compatibility).
-  2. GitHub Actions keep-alive workflow (`.github/workflows/keep-alive.yml`) - pings every 5 minutes
-     (GitHub Actions minimum interval). This provides backup monitoring if BetterStack fails.
+  2. GitHub Actions keep-alive workflows - 9 workflows total (keep-alive.yml, keep-alive-2.yml to keep-alive-9.yml),
+     pings every 5 minutes (GitHub Actions minimum interval). This provides backup monitoring if BetterStack fails.
   3. UptimeRobot (https://uptimerobot.com) - Monitor ID: [add monitor ID], URL: `https://ilm-ai-backend-256x.onrender.com/health`,
      pings every 5 minutes (free plan). This provides third backup monitoring if both BetterStack and GitHub Actions fail.
   All monitoring systems are active and verified working as of 2026-08-01.
@@ -1449,8 +1449,8 @@ Animation patterns: hover lift/scale/rotate, staggered entry, spring transitions
 **2026-08-01: Enhanced server uptime monitoring**
 Added expanded monitoring system to prevent Render free tier sleep (15-minute timeout):
 1. BetterStack monitoring - 9 monitors total (IDs: 4758456, 4760686-4760693), pings every 3 minutes
-2. GitHub Actions keep-alive workflow (`.github/workflows/keep-alive.yml`) - pings every 5 minutes
+2. GitHub Actions keep-alive workflows - 9 workflows total (keep-alive.yml, keep-alive-2.yml to keep-alive-9.yml), pings every 5 minutes
 3. UptimeRobot monitoring - pings every 5 minutes (third backup)
-All monitoring systems verified working as of 2026-08-01. Health endpoint updated to support HEAD requests for UptimeRobot compatibility. CI workflow also updated to allow deployment even if tests fail.
+Total: 19 monitoring sources. All monitoring systems verified working as of 2026-08-01. Health endpoint updated to support HEAD requests for UptimeRobot compatibility. CI workflow also updated to allow deployment even if tests fail.
 
 
