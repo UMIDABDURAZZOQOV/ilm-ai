@@ -2,7 +2,8 @@ name: Keep Render Server Alive 4
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    # Run every 5 minutes, staggered by 3 minutes (UTC timezone)
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
   workflow_dispatch:
 
 jobs:
