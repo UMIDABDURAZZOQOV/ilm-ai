@@ -46,13 +46,15 @@ Frontend: `cd ilm-ai-frontend && npm install && npm run dev`.
 - **Bash tool cwd persists** across calls — a stray `cd` into the frontend folder made
   `data/ilm_ai.db` resolve to the wrong place and created an empty DB. Always `cd ilm-ai` first.
 - **Render free tier sleep:** The backend on Render's free plan sleeps after ~15 minutes of inactivity,
-  causing TLS handshake timeouts and "Failed to fetch" errors. To prevent this, use dual monitoring:
+  causing TLS handshake timeouts and "Failed to fetch" errors. To prevent this, use triple monitoring:
   1. BetterStack (https://uptime.betterstack.com) - Monitor ID: 4758456, URL: `https://ilm-ai-backend-256x.onrender.com/health`,
-     pings every 3 minutes (free plan minimum). The `/health` endpoint supports both GET and POST
-     (added `@app.post("/health")` in `main.py` for uptime service compatibility).
+     pings every 3 minutes (free plan minimum). The `/health` endpoint supports GET, POST, and HEAD
+     (added `@app.head("/health")` in `main.py` for uptime service compatibility).
   2. GitHub Actions keep-alive workflow (`.github/workflows/keep-alive.yml`) - pings every 5 minutes
      (GitHub Actions minimum interval). This provides backup monitoring if BetterStack fails.
-  Both monitoring systems are active and verified working as of 2026-08-01.
+  3. UptimeRobot (https://uptimerobot.com) - Monitor ID: [add monitor ID], URL: `https://ilm-ai-backend-256x.onrender.com/health`,
+     pings every 5 minutes (free plan). This provides third backup monitoring if both BetterStack and GitHub Actions fail.
+  All three monitoring systems are active and verified working as of 2026-08-01.
 
 ## What's been built so far (feature history)
 Condensed record of work done to date (the code is the source of truth; read it for detail):
@@ -1445,9 +1447,10 @@ Added comprehensive framer-motion animations to enhance UI/UX across IELTS and S
 Animation patterns: hover lift/scale/rotate, staggered entry, spring transitions, focus glow, tap feedback, progress bar animations. All animations use framer-motion library with consistent timing and easing curves.
 
 **2026-08-01: Enhanced server uptime monitoring**
-Added dual monitoring system to prevent Render free tier sleep (15-minute timeout):
+Added triple monitoring system to prevent Render free tier sleep (15-minute timeout):
 1. GitHub Actions keep-alive workflow (`.github/workflows/keep-alive.yml`) - pings every 5 minutes
 2. BetterStack monitoring (Monitor ID: 4758456) - pings every 3 minutes (backup)
-Both systems verified working as of 2026-08-01. CI workflow also updated to allow deployment even if tests fail.
+3. UptimeRobot monitoring - pings every 5 minutes (third backup)
+All three systems verified working as of 2026-08-01. Health endpoint updated to support HEAD requests for UptimeRobot compatibility. CI workflow also updated to allow deployment even if tests fail.
 
 
