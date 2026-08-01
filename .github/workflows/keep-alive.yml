@@ -1,0 +1,15 @@
+name: Keep Render Server Alive
+
+on:
+  schedule:
+    # Run every minute (cron: * * * * *)
+    - cron: '* * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render Backend
+        run: |
+          curl -f https://ilm-ai-backend-256x.onrender.com/health || exit 1
