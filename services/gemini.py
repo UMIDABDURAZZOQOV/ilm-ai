@@ -201,15 +201,35 @@ def _wants_json(config) -> bool:
 
 # --- public drop-in API ------------------------------------------------------
 
+def _reasoning_effort() -> str:
+    """gpt-5 models 'think' before answering; the effort level trades latency
+    for depth. Default 'minimal' keeps the companion snappy (no minute-long
+    spin). Set OPENAI_REASONING_EFFORT=low|medium|high for more reasoning, or
+    'off' to omit the parameter entirely (for non-reasoning models)."""
+    return os.environ.get("OPENAI_REASONING_EFFORT", "minimal").strip().lower()
+
+
 def generate_content(*, model: str | None = None, contents=None, config=None, **_ignored):
     """Drop-in for the old Gemini generate_content, backed by OpenAI chat."""
+    effort = _reasoning_effort()
 
     def call(client):
         messages = _build_messages(client, contents)
-        kwargs: dict = {"model": _model(), "messages": messages}
+        base: dict = {"model": _model(), "messages": messages}
         if _wants_json(config):
-            kwargs["response_format"] = {"type": "json_object"}
-        out = client.chat.completions.create(**kwargs)
+            base["response_format"] = {"type": "json_object"}
+        kwargs = dict(base)
+        if effort and effort != "off":
+            kwargs["reasoning_effort"] = effort
+        try:
+            out = client.chat.completions.create(**kwargs)
+        except Exception as e:  # noqa: BLE001
+            # A model that doesn't accept reasoning_effort rejects the request;
+            # retry once without it so a model swap never breaks generation.
+            if effort and effort != "off" and "reasoning_effort" in str(e).lower():
+                out = client.chat.completions.create(**base)
+            else:
+                raise
         text = (out.choices[0].message.content or "") if out.choices else ""
         total = None
         usage = getattr(out, "usage", None)
