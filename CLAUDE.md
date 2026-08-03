@@ -20,8 +20,18 @@ This repo (`ilm-ai`) is the **backend**. Companion repos: `ilm-ai-frontend` (web
 - **Mobile:** Flutter (`ilm-ai-flutter`) — full rewrite, replaces the React Native app. Riverpod +
   go_router + dio. The old `ilm-ai-mobile` (React Native/Expo) GitHub repo no longer exists (deleted
   2026-07-17); Flutter is the only mobile codebase now.
-- **AI:** Google Gemini via `services/gemini.py` (multi-key rotation, `gemini-flash-latest`,
-  drop-in `generate_content(**kwargs)` / `embed_content(**kwargs)`). ElevenLabs for TTS.
+- **AI:** **OpenAI** (migrated off Gemini 2026-08-03). `services/gemini.py` keeps its name +
+  drop-in surface (`generate_content(**kwargs)` / `embed_content(**kwargs)`) but is now an
+  OpenAI adapter: `OPENAI_MODEL` (default `gpt-5-mini`) for text+vision, `OPENAI_EMBED_MODEL`
+  (`text-embedding-3-small`, 1536 dims) for RAG, `OPENAI_TRANSCRIBE_MODEL` (`whisper-1`) for voice.
+  `services/ai_compat.py` shims the old `google.genai` surface (`types.Part.from_bytes`,
+  `ClientError.code`) so call sites were untouched; the adapter absorbs multimodal — image Parts →
+  vision, audio Parts → Whisper-transcribed-then-folded-into-prompt. ElevenLabs still does TTS.
+  **Embedding-space change:** old chunks were Gemini 3072-dim; run `python -m scripts.reembed_openai`
+  (idempotent) against prod to re-embed to 1536. Cosine fns skip mismatched-dim vectors meanwhile.
+  Data-sharing is ON for the single runtime OpenAI key (owner's explicit choice for the free 1M
+  tokens/day; student data is trained on — noted, owner accepts). Gemini keys are runtime-dead;
+  only offline seeders (`services/llm_provider.py`, `SEED_PROVIDER`) can still use them.
 
 ## Live URLs
 - Backend (prod): **https://ilm-ai-backend-256x.onrender.com**  ← the `-256x` suffix is REAL.

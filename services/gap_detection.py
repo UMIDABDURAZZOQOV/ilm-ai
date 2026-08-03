@@ -1,8 +1,8 @@
 import json
 import os
 
-from google import genai
-from google.genai.errors import ClientError
+from services.ai_compat import genai
+from services.ai_compat import ClientError
 from dotenv import load_dotenv
 
 from services.quiz_engine import load_vectors

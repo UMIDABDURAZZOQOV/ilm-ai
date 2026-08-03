@@ -34,8 +34,8 @@ def generate_sat_plan(
     3. Calls Gemini 2.5 Flash.
     4. Returns the parsed plan JSON (same schema as the existing /plan endpoint).
     """
-    from google import genai
-    from google.genai.errors import ClientError
+    from services.ai_compat import genai
+    from services.ai_compat import ClientError
     from dotenv import load_dotenv
     from services.monitoring import log_llm_call
 

@@ -3,8 +3,8 @@ from services.auth_deps import verify_user_access, ensure_own_user, get_authenti
 from pydantic import BaseModel
 import os
 import json
-from google import genai
-from google.genai.errors import ClientError
+from services.ai_compat import genai
+from services.ai_compat import ClientError
 from dotenv import load_dotenv
 from datetime import datetime
 from typing import Optional

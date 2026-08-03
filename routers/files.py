@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from services.subscriptions import can_upload, record_upload
 import os
 import json
-from google import genai
+from services.ai_compat import genai
 from dotenv import load_dotenv
 import pypdf
 import io
@@ -98,7 +98,7 @@ def chunk_text(text: str, chunk_size: int = 1000, overlap: int = 150):
         start += chunk_size - overlap
     return chunks
 
-from google.genai.errors import ClientError
+from services.ai_compat import ClientError
 
 def get_embedding(text: str):
     return get_embeddings([text])[0]
@@ -261,7 +261,7 @@ async def upload_image(
         name = (file.filename or "").lower()
         mime = "image/png" if name.endswith(".png") else "image/webp" if name.endswith(".webp") else "image/jpeg"
 
-    from google.genai import types
+    from services.ai_compat import types
     ocr_prompt = (
         "Transcribe ALL the text in this image (handwritten or printed) into clean, well-structured "
         "plain text. Fix obvious spacing, keep the original language, preserve lists and structure. "

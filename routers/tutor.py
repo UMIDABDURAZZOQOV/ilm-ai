@@ -11,7 +11,7 @@ import re
 
 from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel
-from google.genai import types
+from services.ai_compat import types
 
 from services.auth_deps import get_authenticated_user_id
 from services.gemini import generate_content as gemini_generate

@@ -1244,7 +1244,7 @@ def score_pronunciation(
     import base64
     import json
     from services.gemini import generate_content
-    from google.genai import types
+    from services.ai_compat import types
 
     try:
         audio_bytes = base64.b64decode(data.audio_base64)

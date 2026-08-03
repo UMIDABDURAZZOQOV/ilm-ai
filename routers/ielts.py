@@ -385,7 +385,7 @@ def submit_speaking(submission: SpeakingSubmissionRequest, db: Session = Depends
     import base64
     import json
     from services.gemini import generate_content
-    from google.genai import types
+    from services.ai_compat import types
 
     topic = db.query(IeltsSpeaking).filter(IeltsSpeaking.id == submission.topic_id).first()
     if not topic:

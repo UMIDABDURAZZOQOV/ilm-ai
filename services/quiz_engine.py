@@ -3,8 +3,8 @@ import os
 import random
 import time
 
-from google import genai
-from google.genai.errors import ClientError
+from services.ai_compat import genai
+from services.ai_compat import ClientError
 from dotenv import load_dotenv
 from services.monitoring import log_llm_call
 

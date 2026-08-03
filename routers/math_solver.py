@@ -3,8 +3,8 @@ import time
 
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
-from google.genai import types
-from google.genai.errors import ClientError
+from services.ai_compat import types
+from services.ai_compat import ClientError
 
 from services.auth_deps import ensure_own_user, get_authenticated_user_id
 from services.subscriptions import can_use_assistant, record_assistant_use

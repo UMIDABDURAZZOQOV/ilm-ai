@@ -5,8 +5,8 @@ from services.subscriptions import can_chat, record_chat
 import os
 import json
 import numpy as np
-from google import genai
-from google.genai.errors import ClientError
+from services.ai_compat import genai
+from services.ai_compat import ClientError
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -85,9 +85,15 @@ def get_embedding(text: str):
     return result.embeddings[0].values
 
 def cosine_similarity(a, b):
+    # Mismatched length = a vector from a different embedding model (an old
+    # Gemini 3072-dim chunk not yet re-embedded to OpenAI's 1536). np.dot would
+    # raise on unaligned shapes, so skip it instead.
+    if a is None or b is None or len(a) != len(b):
+        return -1.0
     a = np.array(a)
     b = np.array(b)
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+    denom = np.linalg.norm(a) * np.linalg.norm(b)
+    return float(np.dot(a, b) / denom) if denom else -1.0
 
 def search_chunks(query: str, user_id: int, top_k: int = 4):
     data = load_vectors(user_id)

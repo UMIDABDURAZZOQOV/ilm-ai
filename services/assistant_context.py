@@ -102,7 +102,10 @@ def _weak_areas(db, user_id: int, limit: int = 3) -> list[str]:
 # ─── 2. RAG over uploaded materials ───────────────────────────────────────────
 
 def _cosine(a: list[float], b: list[float]) -> float:
-    if not a or not b:
+    if not a or not b or len(a) != len(b):
+        # Mismatched length = a vector from a different embedding model (e.g. an
+        # old Gemini 3072-dim chunk not yet re-embedded). Skip it rather than
+        # score it wrongly.
         return 0.0
     dot = sum(x * y for x, y in zip(a, b))
     na = math.sqrt(sum(x * x for x in a))

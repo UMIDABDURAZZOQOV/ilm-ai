@@ -5,9 +5,9 @@ import time
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from dotenv import load_dotenv
-from google import genai
-from google.genai import types
-from google.genai.errors import ClientError
+from services.ai_compat import genai
+from services.ai_compat import types
+from services.ai_compat import ClientError
 
 from services.auth_deps import ensure_own_user, get_authenticated_user_id, verify_user_access
 from services.subscriptions import can_use_assistant, record_assistant_use

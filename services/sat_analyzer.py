@@ -110,8 +110,8 @@ async def analyse_session(
 
     On LLM failure: sets analysis_status='pending', does NOT raise.
     """
-    from google import genai
-    from google.genai.errors import ClientError
+    from services.ai_compat import genai
+    from services.ai_compat import ClientError
     from dotenv import load_dotenv
     from services.monitoring import log_llm_call
 
