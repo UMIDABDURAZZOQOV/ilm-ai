@@ -188,11 +188,10 @@ async def ask_assistant_voice(
             mime_type = "audio/m4a"
     lang_instruction = f"\nRespond in the following language: {language}." if language else ""
     voice_instruction = (
-        "\nThis is a spoken voice conversation, not a written document — your answer will be "
-        "read aloud by text-to-speech. Answer like you're talking to someone: natural, "
-        "conversational, and reasonably brief (a few sentences for simple questions, a short "
-        "paragraph at most for something that genuinely needs more). Avoid bullet lists, "
-        "headers, or long structured breakdowns — say it the way you'd say it out loud."
+        "\nThis is a spoken voice conversation — your answer is read aloud by text-to-speech, so "
+        "keep it SHORT and snappy: 1-3 short sentences for almost everything (a few more only if "
+        "truly necessary). Talk naturally, like a quick reply out loud. No bullet lists, headers "
+        "or long breakdowns — the shorter the answer, the faster the user hears it."
     )
     # Voice stays personal and remembers too (no RAG here — the question is audio,
     # so there's no text to embed for retrieval). Tags are stripped before speaking.
