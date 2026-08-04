@@ -206,6 +206,67 @@ def get_tree(
 
 class StartLessonRequest(BaseModel):
     user_id: int
+    language: str = "uz"
+
+
+# Lesson content is authored in Uzbek. When a learner uses the app in Russian or
+# English we translate the theory + questions with OpenAI at request time and
+# cache the result per (lesson, language) so we only pay for it once per lesson.
+_LESSON_TRANSLATION_CACHE: dict[tuple[int, str], dict] = {}
+
+
+def _translate_lesson_content(lesson_id: int, language: str, theory: list, questions: list) -> tuple[list, list]:
+    lang_name = {"ru": "Russian", "en": "English"}.get(language)
+    if not lang_name:
+        return theory, questions  # uz (source) or unknown — serve as-is
+    cache_key = (lesson_id, language)
+    cached = _LESSON_TRANSLATION_CACHE.get(cache_key)
+    if cached is not None:
+        return cached["theory"], cached["questions"]
+
+    import json as _json
+    from services.gemini import generate_content as _gen
+
+    payload = {
+        "theory": theory,
+        "questions": [
+            {
+                "id": q["id"],
+                "question_text": q["question_text"],
+                "options": q["options"],
+                "correct_answer": q["correct_answer"],
+                "explanation": q["explanation"],
+            }
+            for q in questions
+        ],
+    }
+    prompt = (
+        f"Translate ALL human-readable text in this JSON to {lang_name}. Keep the EXACT same "
+        f"JSON structure, keys, ids and array order. Translate theory cards (title, body, example), "
+        f"and for every question translate question_text, each option, correct_answer and explanation. "
+        f"correct_answer MUST stay exactly equal to the translated version of the option that was "
+        f"correct. Do not add, drop or reorder items. Return ONLY the JSON.\n\n"
+        f"{_json.dumps(payload, ensure_ascii=False)}"
+    )
+    try:
+        resp = _gen(model="translate", contents=prompt, config={"response_mime_type": "application/json"}, large=True)
+        data = _json.loads(resp.text)
+        t_theory = data.get("theory", theory)
+        t_qmap = {q.get("id"): q for q in data.get("questions", [])}
+        # Merge translated text back onto the original question dicts (preserving
+        # order_index and any field the model may have dropped).
+        t_questions = []
+        for q in questions:
+            tq = t_qmap.get(q["id"], {})
+            merged = dict(q)
+            for f in ("question_text", "options", "correct_answer", "explanation"):
+                if tq.get(f) is not None:
+                    merged[f] = tq[f]
+            t_questions.append(merged)
+        _LESSON_TRANSLATION_CACHE[cache_key] = {"theory": t_theory, "questions": t_questions}
+        return t_theory, t_questions
+    except Exception:
+        return theory, questions  # never block a lesson on a translation hiccup
 
 
 @router.post("/lessons/{lesson_id}/start")
@@ -238,21 +299,25 @@ def start_lesson(
         .order_by(SkillQuestion.order_index)
         .all()
     )
+    theory = lesson.theory or []
+    q_list = [
+        {
+            "id": q.id,
+            "question_text": q.question_text,
+            "options": q.options,
+            "correct_answer": q.correct_answer,
+            "explanation": q.explanation,
+            "order_index": q.order_index,
+        }
+        for q in questions
+    ]
+    # Serve the lesson in the learner's language (translated + cached for ru/en).
+    theory, q_list = _translate_lesson_content(lesson_id, data.language, theory, q_list)
     return {
         "attempt_id": attempt.id,
         # Duolingo-style: the client shows these teaching cards first, THEN the questions.
-        "theory": lesson.theory or [],
-        "questions": [
-            {
-                "id": q.id,
-                "question_text": q.question_text,
-                "options": q.options,
-                "correct_answer": q.correct_answer,
-                "explanation": q.explanation,
-                "order_index": q.order_index,
-            }
-            for q in questions
-        ],
+        "theory": theory,
+        "questions": q_list,
     }
 
 

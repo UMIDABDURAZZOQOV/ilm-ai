@@ -41,7 +41,11 @@ _current = 0
 _REQUEST_TIMEOUT_S = 60.0
 
 
-def _model() -> str:
+def _model(large: bool = False) -> str:
+    # Quality-critical / harder tasks (translation, essay grading) can opt into a
+    # bigger model via large=True; everyday chat/quiz stays on the fast mini model.
+    if large:
+        return os.environ.get("OPENAI_MODEL_LARGE", "gpt-5")
     return os.environ.get("OPENAI_MODEL", "gpt-5-mini")
 
 
@@ -209,13 +213,14 @@ def _reasoning_effort() -> str:
     return os.environ.get("OPENAI_REASONING_EFFORT", "minimal").strip().lower()
 
 
-def generate_content(*, model: str | None = None, contents=None, config=None, **_ignored):
-    """Drop-in for the old Gemini generate_content, backed by OpenAI chat."""
+def generate_content(*, model: str | None = None, contents=None, config=None, large: bool = False, **_ignored):
+    """Drop-in for the old Gemini generate_content, backed by OpenAI chat.
+    Pass large=True to route this call to the bigger OPENAI_MODEL_LARGE."""
     effort = _reasoning_effort()
 
     def call(client):
         messages = _build_messages(client, contents)
-        base: dict = {"model": _model(), "messages": messages}
+        base: dict = {"model": _model(large), "messages": messages}
         if _wants_json(config):
             base["response_format"] = {"type": "json_object"}
         kwargs = dict(base)
