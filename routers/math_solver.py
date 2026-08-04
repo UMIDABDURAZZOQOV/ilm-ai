@@ -50,6 +50,7 @@ def _call_gemini_json(contents, user_id: int) -> dict:
             model="gemini-flash-latest",
             contents=contents,
             config={"response_mime_type": "application/json"},
+            large=True,  # step-by-step math solving is quality-critical -> bigger model
         )
     except ClientError as e:
         if getattr(e, "code", None) == 429:

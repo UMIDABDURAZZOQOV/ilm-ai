@@ -122,7 +122,7 @@ async def analyse_session(
 
     start = time.time()
     try:
-        response = gemini_generate(model="gemini-flash-latest", contents=prompt)
+        response = gemini_generate(model="gemini-flash-latest", contents=prompt, large=True)
         latency_ms = int((time.time() - start) * 1000)
 
         log_llm_call(

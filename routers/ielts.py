@@ -303,9 +303,10 @@ Return ONLY the JSON, no additional text."""
         response = generate_content(
             model="gemini-flash-latest",
             contents=grading_prompt,
-            config={"response_mime_type": "application/json"}
+            config={"response_mime_type": "application/json"},
+            large=True,  # band-scoring an essay is quality-critical -> bigger model
         )
-        
+
         import json
         grading_result = json.loads(response.text)
         
@@ -428,6 +429,7 @@ Return ONLY this JSON:
             model="gemini-flash-latest",
             contents=[prompt, types.Part.from_bytes(data=audio_bytes, mime_type=submission.mime_type)],
             config={"response_mime_type": "application/json"},
+            large=True,  # band-scoring speaking is quality-critical -> bigger model
         )
         result = json.loads(response.text)
         transcript = result.get("transcript")
