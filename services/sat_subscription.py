@@ -36,6 +36,15 @@ def _reset_if_stale(prefs: SatIeltsUserPrefs, db: Session) -> None:
 
 
 def _is_premium(user_id: int, db: Session) -> bool:
+    # Honour the app-wide FREE_FOR_ALL flag (growth mode: everyone is premium),
+    # otherwise this SAT gate would still cap free users at the daily limit and
+    # surface as "Не удалось" once they hit it.
+    try:
+        from services.subscriptions import FREE_FOR_ALL
+        if FREE_FOR_ALL:
+            return True
+    except Exception:
+        pass
     user = db.query(User).filter(User.id == user_id).first()
     if not user:
         return False
