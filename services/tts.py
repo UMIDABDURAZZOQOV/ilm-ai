@@ -20,18 +20,37 @@ def _openai_key() -> str:
 
 
 def _openai_tts(text: str) -> bytes:
-    """OpenAI text-to-speech — natural multilingual voice (also handles Uzbek far
-    better than on-device TTS) and it reuses the OpenAI key we already pay for."""
+    """OpenAI text-to-speech — natural multilingual voice (handles Uzbek far
+    better than on-device TTS) and it reuses the OpenAI key we already use.
+
+    Defaults to the newer `gpt-4o-mini-tts`, which is noticeably more natural
+    and less accented (closer to ChatGPT's Advanced Voice) than the older
+    `tts-1`, and supports an `instructions` steer for tone/accent. If that model
+    (or the instructions arg) isn't accepted, we transparently fall back to
+    tts-1 so voice never breaks over a quality upgrade."""
     key = _openai_key()
     if not key:
         raise TTSError("OPENAI_API_KEY not configured")
     from openai import OpenAI
 
     client = OpenAI(api_key=key, base_url=os.environ.get("OPENAI_BASE_URL") or None, timeout=60.0)
-    model = os.environ.get("OPENAI_TTS_MODEL", "tts-1")
-    voice = os.environ.get("OPENAI_TTS_VOICE", "alloy")
-    resp = client.audio.speech.create(model=model, voice=voice, input=text, response_format="mp3")
-    return resp.content
+    model = os.environ.get("OPENAI_TTS_MODEL", "gpt-4o-mini-tts")
+    voice = os.environ.get("OPENAI_TTS_VOICE", "nova")  # warm, clear, low-accent
+    kwargs = dict(model=model, voice=voice, input=text, response_format="mp3")
+    if model.startswith("gpt-4o"):
+        kwargs["instructions"] = os.environ.get(
+            "OPENAI_TTS_INSTRUCTIONS",
+            "Speak naturally and clearly like a friendly tutor, with a neutral "
+            "accent, calm warm tone, and a natural conversational pace.",
+        )
+    try:
+        return client.audio.speech.create(**kwargs).content
+    except Exception:
+        # Newer model/instructions not available on this key — use the always-
+        # available tts-1 with the same voice (nova is valid on both).
+        return client.audio.speech.create(
+            model="tts-1", voice=voice, input=text, response_format="mp3"
+        ).content
 
 
 def synthesize_speech(text: str, language: str) -> bytes:
