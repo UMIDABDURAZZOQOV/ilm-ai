@@ -185,6 +185,7 @@ def mock_exam_overview(subject: str, user_id: int = Depends(verify_user_access),
 class StartMockRequest(BaseModel):
     user_id: int
     subject: str
+    language: str = "uz"
 
 
 @router.post("/mock-exam/start")
@@ -218,11 +219,12 @@ def start_mock_exam(
         {"id": i, "question_text": q_map[i].question_text, "options": q_map[i].options}
         for i in chosen if i in q_map
     ]
+    from routers.skills import _translate_questions
     return {
         "exam_id": exam.id,
         "subject_name_uz": s.name_uz,
         "duration_seconds": MOCK_EXAM_DURATION_SECONDS,
-        "questions": questions,
+        "questions": _translate_questions(questions, data.language),
     }
 
 

@@ -209,64 +209,82 @@ class StartLessonRequest(BaseModel):
     language: str = "uz"
 
 
-# Lesson content is authored in Uzbek. When a learner uses the app in Russian or
-# English we translate the theory + questions with OpenAI at request time and
-# cache the result per (lesson, language) so we only pay for it once per lesson.
-_LESSON_TRANSLATION_CACHE: dict[tuple[int, str], dict] = {}
+# Skill content is authored in Uzbek. When a learner uses the app in Russian or
+# English we translate it with OpenAI at request time. Caches are keyed so we pay
+# only once: per-question (shared by lessons, practice, marathon, mock, review)
+# and per-lesson for theory cards.
+_QUESTION_TX_CACHE: dict[tuple, dict] = {}
+_THEORY_TX_CACHE: dict[tuple, list] = {}
 
 
-def _translate_lesson_content(lesson_id: int, language: str, theory: list, questions: list) -> tuple[list, list]:
-    lang_name = {"ru": "Russian", "en": "English"}.get(language)
-    if not lang_name:
-        return theory, questions  # uz (source) or unknown — serve as-is
-    cache_key = (lesson_id, language)
-    cached = _LESSON_TRANSLATION_CACHE.get(cache_key)
-    if cached is not None:
-        return cached["theory"], cached["questions"]
+def _lang_name(language: str) -> str | None:
+    return {"ru": "Russian", "en": "English"}.get(language)
 
+
+def _translate_questions(questions: list, language: str) -> list:
+    """Translate a list of question dicts (question_text/options/correct_answer/
+    explanation) to ru/en, caching each question by id so any screen reuses it."""
+    name = _lang_name(language)
+    if not name or not questions:
+        return questions
+    todo = [q for q in questions if q.get("id") is not None and (q["id"], language) not in _QUESTION_TX_CACHE]
+    if todo:
+        import json as _json
+        from services.gemini import generate_content as _gen
+        payload = {"questions": [
+            {"id": q["id"], "question_text": q.get("question_text", ""), "options": q.get("options"),
+             "correct_answer": q.get("correct_answer"), "explanation": q.get("explanation")}
+            for q in todo
+        ]}
+        prompt = (
+            f"Translate ALL human-readable text in this JSON to {name}. Keep the EXACT same structure, "
+            f"keys, ids and array order. For every question translate question_text, each option, "
+            f"correct_answer (it MUST stay exactly equal to the translated version of the correct option) "
+            f"and explanation. Do not add, drop or reorder items. Return ONLY the JSON.\n\n"
+            f"{_json.dumps(payload, ensure_ascii=False)}"
+        )
+        try:
+            resp = _gen(model="translate", contents=prompt, config={"response_mime_type": "application/json"}, large=True)
+            tmap = {t.get("id"): t for t in _json.loads(resp.text).get("questions", [])}
+            for q in todo:
+                t = tmap.get(q["id"])
+                if not t:
+                    continue
+                merged = dict(q)
+                for f in ("question_text", "options", "correct_answer", "explanation"):
+                    if t.get(f) is not None:
+                        merged[f] = t[f]
+                _QUESTION_TX_CACHE[(q["id"], language)] = merged
+        except Exception:
+            pass  # never block on a translation hiccup — serve original for the rest
+    return [_QUESTION_TX_CACHE.get((q.get("id"), language), q) for q in questions]
+
+
+def _translate_theory(lesson_id: int, language: str, theory: list) -> list:
+    name = _lang_name(language)
+    if not name or not theory:
+        return theory
+    key = (lesson_id, language)
+    if key in _THEORY_TX_CACHE:
+        return _THEORY_TX_CACHE[key]
     import json as _json
     from services.gemini import generate_content as _gen
-
-    payload = {
-        "theory": theory,
-        "questions": [
-            {
-                "id": q["id"],
-                "question_text": q["question_text"],
-                "options": q["options"],
-                "correct_answer": q["correct_answer"],
-                "explanation": q["explanation"],
-            }
-            for q in questions
-        ],
-    }
     prompt = (
-        f"Translate ALL human-readable text in this JSON to {lang_name}. Keep the EXACT same "
-        f"JSON structure, keys, ids and array order. Translate theory cards (title, body, example), "
-        f"and for every question translate question_text, each option, correct_answer and explanation. "
-        f"correct_answer MUST stay exactly equal to the translated version of the option that was "
-        f"correct. Do not add, drop or reorder items. Return ONLY the JSON.\n\n"
-        f"{_json.dumps(payload, ensure_ascii=False)}"
+        f"Translate ALL text in this JSON to {name}, keeping the exact same structure, keys and order. "
+        f"Translate every theory card's title, body and example. Return ONLY the JSON.\n\n"
+        f"{_json.dumps({'theory': theory}, ensure_ascii=False)}"
     )
     try:
         resp = _gen(model="translate", contents=prompt, config={"response_mime_type": "application/json"}, large=True)
-        data = _json.loads(resp.text)
-        t_theory = data.get("theory", theory)
-        t_qmap = {q.get("id"): q for q in data.get("questions", [])}
-        # Merge translated text back onto the original question dicts (preserving
-        # order_index and any field the model may have dropped).
-        t_questions = []
-        for q in questions:
-            tq = t_qmap.get(q["id"], {})
-            merged = dict(q)
-            for f in ("question_text", "options", "correct_answer", "explanation"):
-                if tq.get(f) is not None:
-                    merged[f] = tq[f]
-            t_questions.append(merged)
-        _LESSON_TRANSLATION_CACHE[cache_key] = {"theory": t_theory, "questions": t_questions}
-        return t_theory, t_questions
+        result = _json.loads(resp.text).get("theory", theory)
+        _THEORY_TX_CACHE[key] = result
+        return result
     except Exception:
-        return theory, questions  # never block a lesson on a translation hiccup
+        return theory
+
+
+def _translate_lesson_content(lesson_id: int, language: str, theory: list, questions: list) -> tuple[list, list]:
+    return _translate_theory(lesson_id, language, theory), _translate_questions(questions, language)
 
 
 @router.post("/lessons/{lesson_id}/start")
@@ -531,7 +549,7 @@ SRS_INTERVALS = [1, 3, 7, 16, 35]
 
 
 @router.get("/{user_id}/mistakes")
-def list_mistakes(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+def list_mistakes(language: str = "uz", user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     # Only what is due now: an item reviewed correctly is hidden until its next interval,
     # which is the whole point of spaced repetition. Rows created before SRS have no
     # due_at and are treated as due.
@@ -562,7 +580,7 @@ def list_mistakes(user_id: int = Depends(verify_user_access), db: Session = Depe
             "explanation": q.explanation,
             "wrong_count": m.wrong_count,
         })
-    return {"questions": out, "count": len(out)}
+    return {"questions": _translate_questions(out, language), "count": len(out)}
 
 
 class PracticeResultItem(BaseModel):
@@ -651,7 +669,7 @@ def _daily_questions(db: Session, user_id: int) -> list[SkillQuestion]:
 
 
 @router.get("/{user_id}/daily-challenge")
-def get_daily_challenge(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+def get_daily_challenge(language: str = "uz", user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     existing = (
         db.query(SkillDailyChallenge)
         .filter(SkillDailyChallenge.user_id == user_id, SkillDailyChallenge.date == date.today().isoformat())
@@ -666,18 +684,19 @@ def get_daily_challenge(user_id: int = Depends(verify_user_access), db: Session 
             "questions": [],
         }
     questions = _daily_questions(db, user_id)
+    q_list = [
+        {
+            "id": q.id,
+            "question_text": q.question_text,
+            "options": q.options,
+            "correct_answer": q.correct_answer,
+            "explanation": q.explanation,
+        }
+        for q in questions
+    ]
     return {
         "completed": False,
-        "questions": [
-            {
-                "id": q.id,
-                "question_text": q.question_text,
-                "options": q.options,
-                "correct_answer": q.correct_answer,
-                "explanation": q.explanation,
-            }
-            for q in questions
-        ],
+        "questions": _translate_questions(q_list, language),
     }
 
 
@@ -787,7 +806,7 @@ def get_achievements(user_id: int = Depends(verify_user_access), db: Session = D
 # ─── Lightning round (Tezlik raundi) ──────────────────────────────────────────
 
 @router.get("/{user_id}/lightning")
-def get_lightning_round(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+def get_lightning_round(language: str = "uz", user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     """A fresh random batch from the whole bank -- the client runs a 60s timer."""
     ids = [row[0] for row in db.query(SkillQuestion.id).all()]
     if not ids:
@@ -805,7 +824,7 @@ def get_lightning_round(user_id: int = Depends(verify_user_access), db: Session 
             "options": q.options,
             "correct_answer": q.correct_answer,
         })
-    return {"questions": out}
+    return {"questions": _translate_questions(out, language)}
 
 
 class LightningCompleteRequest(BaseModel):
@@ -1114,7 +1133,7 @@ MIXED_REVIEW_SIZE = 15
 
 
 @router.get("/{user_id}/mixed-review")
-def get_mixed_review(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+def get_mixed_review(language: str = "uz", user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     """A single daily set that mixes review and practice: due spaced-repetition mistakes
     first, then fresh questions from the subjects the learner has actually started,
     weighted toward the ones they are weakest at. One tap covers the day's goal."""
@@ -1174,14 +1193,14 @@ def get_mixed_review(user_id: int = Depends(verify_user_access), db: Session = D
                     break
 
     random.shuffle(out)
-    return {"questions": out[:MIXED_REVIEW_SIZE], "due_count": len(due)}
+    return {"questions": _translate_questions(out[:MIXED_REVIEW_SIZE], language), "due_count": len(due)}
 
 
 MARATHON_SIZE = 30
 
 
 @router.get("/{user_id}/marathon")
-def get_marathon(subject: str, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+def get_marathon(subject: str, language: str = "uz", user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     s = db.query(SkillSubject).filter(SkillSubject.slug == subject).first()
     if not s:
         raise HTTPException(status_code=404, detail="Subject not found")
@@ -1204,7 +1223,8 @@ def get_marathon(subject: str, user_id: int = Depends(verify_user_access), db: S
             "correct_answer": q.correct_answer,
             "explanation": q.explanation,
         })
-    return {"questions": out, "subject_name": s.name_uz}
+    subject_name = {"ru": s.name_ru, "en": s.name_en}.get(language) or s.name_uz
+    return {"questions": _translate_questions(out, language), "subject_name": subject_name}
 
 
 SUBJECT_EXAM_SIZE = 30          # a full sitting; ~1 minute a question
