@@ -268,10 +268,16 @@ def clear_memories(user_id: int) -> None:
 
 _REMEMBER_RE = re.compile(r"<remember>(.*?)</remember>", re.DOTALL | re.IGNORECASE)
 _FOLLOW_RE = re.compile(r"<follow>(.*?)</follow>", re.DOTALL | re.IGNORECASE)
+# The quote chars are captured and back-referenced so a value can contain the
+# OTHER quote (e.g. label="Studio'da test" — the apostrophe used to break the
+# old [^"']+ pattern, leaving the raw <action …> tag in the answer text).
 _ACTION_RE = re.compile(
-    r"""<action\s+label=["'](?P<label>[^"']+)["']\s+href=["'](?P<href>[^"']+)["']\s*/?>""",
-    re.IGNORECASE,
+    r"""<action\s+label=(["'])(?P<label>.*?)\1\s+href=(["'])(?P<href>.*?)\3\s*/?>""",
+    re.IGNORECASE | re.DOTALL,
 )
+# Catch-all to scrub ANY leftover action tag the strict parser didn't capture
+# (attribute order, stray </action>, etc.) so nothing ever leaks to the user.
+_ACTION_SCRUB_RE = re.compile(r"<\s*/?\s*action\b[^>]*>", re.IGNORECASE | re.DOTALL)
 
 # The companion may only route to these in-app destinations — a closed list so it
 # can't invent broken links. "/dashboard" also covers its panels via ?panel=…
@@ -300,5 +306,6 @@ def parse_tags(text: str) -> tuple[str, list[str], dict | None, list[str]]:
         if any(href == r or href.startswith(r + "?") or href.startswith(r + "/") for r in ALLOWED_ROUTES):
             action = {"label": m.group("label").strip(), "href": href}
 
-    clean = _FOLLOW_RE.sub("", _ACTION_RE.sub("", _REMEMBER_RE.sub("", text))).strip()
+    clean = _FOLLOW_RE.sub("", _ACTION_RE.sub("", _REMEMBER_RE.sub("", text)))
+    clean = _ACTION_SCRUB_RE.sub("", clean).strip()  # remove any tag the parser missed
     return clean, memories, action, followups

@@ -80,6 +80,11 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
     # A unit's checkpoint exam gates the NEXT unit: you can't start a new bob
     # until the previous one's exam is passed. The first unit is never gated.
     gate_open = True
+    # Order-based unlocking: the FIRST not-yet-completed lesson in teaching order
+    # is the current (unlocked) node; everything after it is locked. This is
+    # robust to stale/broken prerequisite edges in the DB, which were locking even
+    # the very first lesson of every subject.
+    first_open_taken = False
     for u in units:
         u_lessons = lessons_by_unit.get(u.id, [])
         # Don't retroactively lock people who were already working inside this
@@ -93,9 +98,11 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
                 status = "completed"
             elif gated:
                 status = "locked"
+            elif not first_open_taken:
+                status = "unlocked"
+                first_open_taken = True
             else:
-                requires = prereq_map.get(l.id, [])
-                status = "unlocked" if all(r in completed_ids for r in requires) else "locked"
+                status = "locked"
             p = progress_map.get(l.id)
             unit_lessons.append({
                 "id": l.id,
@@ -165,25 +172,38 @@ def lesson_status(db: Session, user_id: int, lesson: SkillLesson) -> str:
     if progress and progress.completed_at is not None:
         return "completed"
 
-    requires = [
-        p.requires_lesson_id
-        for p in db.query(SkillLessonPrerequisite)
-        .filter(SkillLessonPrerequisite.lesson_id == lesson.id)
-        .all()
-    ]
-    if not requires:
+    # Order-based (matches build_tree): the first not-yet-completed lesson in the
+    # subject's teaching order is unlocked; later ones are locked. Robust to stale
+    # prerequisite edges that were locking even the very first lesson.
+    unit = db.query(SkillUnit).filter(SkillUnit.id == lesson.unit_id).first()
+    if not unit:
         return "unlocked"
-
-    completed_count = (
-        db.query(UserLessonProgress)
+    units = (
+        db.query(SkillUnit)
+        .filter(SkillUnit.subject_id == unit.subject_id)
+        .order_by(SkillUnit.order_index)
+        .all()
+    )
+    unit_order = {u.id: u.order_index for u in units}
+    lessons = (
+        db.query(SkillLesson)
+        .filter(SkillLesson.unit_id.in_([u.id for u in units]))
+        .all()
+    )
+    lessons.sort(key=lambda l: (unit_order.get(l.unit_id, 0), l.order_index))
+    completed_ids = {
+        row[0]
+        for row in db.query(UserLessonProgress.lesson_id)
         .filter(
             UserLessonProgress.user_id == user_id,
-            UserLessonProgress.lesson_id.in_(requires),
             UserLessonProgress.completed_at.isnot(None),
         )
-        .count()
-    )
-    return "unlocked" if completed_count == len(requires) else "locked"
+        .all()
+    }
+    for l in lessons:
+        if l.id not in completed_ids:
+            return "unlocked" if l.id == lesson.id else "locked"
+    return "unlocked"
 
 
 def newly_unlocked_lesson_ids(db: Session, user_id: int, completed_lesson: SkillLesson) -> list[int]:

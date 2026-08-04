@@ -244,7 +244,7 @@ def _translate_questions(questions: list, language: str) -> list:
             f"{_json.dumps(payload, ensure_ascii=False)}"
         )
         try:
-            resp = _gen(model="translate", contents=prompt, config={"response_mime_type": "application/json"}, large=True)
+            resp = _gen(model="translate", contents=prompt, config={"response_mime_type": "application/json"})
             tmap = {t.get("id"): t for t in _json.loads(resp.text).get("questions", [])}
             for q in todo:
                 t = tmap.get(q["id"])
@@ -275,7 +275,7 @@ def _translate_theory(lesson_id: int, language: str, theory: list) -> list:
         f"{_json.dumps({'theory': theory}, ensure_ascii=False)}"
     )
     try:
-        resp = _gen(model="translate", contents=prompt, config={"response_mime_type": "application/json"}, large=True)
+        resp = _gen(model="translate", contents=prompt, config={"response_mime_type": "application/json"})
         result = _json.loads(resp.text).get("theory", theory)
         _THEORY_TX_CACHE[key] = result
         return result

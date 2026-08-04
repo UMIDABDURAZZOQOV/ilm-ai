@@ -46,11 +46,12 @@ Omit the "graph" key entirely if the problem isn't a simple plottable function o
 def _call_gemini_json(contents, user_id: int) -> dict:
     start_time = time.time()
     try:
+        # Fast mini model for vision+JSON: gpt-5 (large) with an image often
+        # exceeded the client timeout, which surfaced as "math solver doesn't work".
         response = gemini_generate(
             model="gemini-flash-latest",
             contents=contents,
             config={"response_mime_type": "application/json"},
-            large=True,  # step-by-step math solving is quality-critical -> bigger model
         )
     except ClientError as e:
         if getattr(e, "code", None) == 429:
