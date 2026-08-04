@@ -1,8 +1,11 @@
 import base64
+import json
 import os
+import re
 import time
 
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from services.ai_compat import genai
@@ -23,7 +26,12 @@ from services.monitoring import log_llm_call, track_error
 from services.tts import synthesize_speech, TTSError
 
 load_dotenv()
-from services.gemini import generate_content as gemini_generate, embed_content as gemini_embed
+from services.gemini import (
+    generate_content as gemini_generate,
+    embed_content as gemini_embed,
+    transcribe_bytes,
+    stream_text,
+)
 
 router = APIRouter(prefix="/assistant", tags=["assistant"])
 
@@ -216,6 +224,160 @@ async def ask_assistant_voice(
     append_message(user_id, "assistant", answer)
 
     return {"answer": answer, "action": action}
+
+
+_SENTENCE_END = re.compile(r"[.!?…\n]")
+
+
+def _pop_sentences(buf: str):
+    """Split off any COMPLETE sentences from the front of `buf`.
+    Returns (list_of_finished_sentences, remainder_still_being_written)."""
+    out: list[str] = []
+    last = 0
+    for m in _SENTENCE_END.finditer(buf):
+        seg = buf[last:m.end()].strip()
+        if seg:
+            out.append(seg)
+        last = m.end()
+    return out, buf[last:]
+
+
+@router.post("/ask-voice-stream")
+async def ask_assistant_voice_stream(
+    user_id: int = Form(...),
+    language: str = Form("en"),
+    audio: UploadFile = File(...),
+    auth_user_id: int = Depends(get_authenticated_user_id),
+):
+    """Streaming voice: same as /ask-voice, but instead of waiting for the whole
+    answer + whole audio, we transcribe once (Whisper), STREAM the gpt-5-mini
+    answer, and synthesize speech sentence-by-sentence — emitting each sentence's
+    audio the instant it's ready. The client plays segments back-to-back, so the
+    reply starts almost immediately (ChatGPT-like), with no extra cost (same
+    free models). Response is newline-delimited JSON (NDJSON); each line is one of:
+        {"type":"audio","text":..,"b64":<mp3 base64>}  — play this segment
+        {"type":"say","text":..}                        — TTS failed, speak on-device
+        {"type":"done","answer":..,"action":..}         — final metadata
+        {"type":"error","detail":..}                    — fatal error
+    """
+    ensure_own_user(user_id, auth_user_id)
+    ok, msg = can_use_assistant(user_id)
+    if not ok:
+        raise HTTPException(status_code=403, detail=msg)
+
+    audio_bytes = await audio.read()
+    if not audio_bytes:
+        raise HTTPException(status_code=400, detail="Empty audio file")
+
+    mime_type = audio.content_type
+    if not mime_type or mime_type == "application/octet-stream":
+        filename = (audio.filename or "").lower()
+        if filename.endswith(".wav"):
+            mime_type = "audio/wav"
+        elif filename.endswith(".mp3"):
+            mime_type = "audio/mp3"
+        elif filename.endswith(".m4a") or filename.endswith(".mp4"):
+            mime_type = "audio/mp4"
+        else:
+            mime_type = "audio/m4a"
+
+    lang_instruction = f"\nRespond in the following language: {language}." if language else ""
+    voice_instruction = (
+        "\nThis is a spoken voice conversation — your answer is read aloud by text-to-speech, so "
+        "keep it SHORT and snappy: 1-3 short sentences for almost everything (a few more only if "
+        "truly necessary). Talk naturally, like a quick reply out loud. No bullet lists, headers "
+        "or long breakdowns — the shorter the answer, the faster the user hears it."
+    )
+
+    def _tts_frame(text: str):
+        t = (text or "").strip()
+        if not t:
+            return None
+        try:
+            audio_out = synthesize_speech(t, language)
+            return json.dumps({"type": "audio", "text": t,
+                               "b64": base64.b64encode(audio_out).decode("ascii")}) + "\n"
+        except Exception:
+            # Backend TTS unavailable for this sentence — let the client speak it
+            # on-device so the turn still has a voice.
+            return json.dumps({"type": "say", "text": t}) + "\n"
+
+    def gen():
+        # Transcribe + build context inside the generator so these (sync) calls
+        # run in Starlette's threadpool, not on the event loop.
+        try:
+            question_text = (transcribe_bytes(audio_bytes, mime_type) or "").strip()
+        except Exception as e:  # noqa: BLE001
+            track_error(e, {"endpoint": "assistant/ask-voice-stream", "stage": "transcribe"})
+            yield json.dumps({"type": "error", "detail": "transcribe_failed"}) + "\n"
+            return
+        if not question_text:
+            question_text = "(the audio was unclear — ask them to repeat, briefly)"
+
+        student = build_student_context(user_id)
+        memory = memories_block(user_id)
+        instruction = (
+            f"{SYSTEM_PROMPT}{lang_instruction}{voice_instruction}{student}{memory}"
+            f"{_build_history_text(user_id)}\n\n"
+            f'The user asked (spoken, transcribed): "{question_text}"\n'
+            "Answer it directly — don't repeat the question back, just answer."
+        )
+
+        raw = ""
+        pending = ""          # clean prose awaiting a sentence boundary
+        tags_started = False  # once a '<' tag begins, stop speaking; tags handled at end
+        try:
+            for delta in stream_text(instruction):
+                raw += delta
+                if tags_started:
+                    continue
+                pending += delta
+                lt = pending.find("<")
+                if lt != -1:
+                    tags_started = True
+                    clean = pending[:lt]
+                    sentences, tail = _pop_sentences(clean)
+                    for s in sentences:
+                        f = _tts_frame(s)
+                        if f:
+                            yield f
+                    f = _tts_frame(tail)
+                    if f:
+                        yield f
+                    pending = ""
+                    continue
+                sentences, pending = _pop_sentences(pending)
+                for s in sentences:
+                    f = _tts_frame(s)
+                    if f:
+                        yield f
+            if not tags_started:
+                f = _tts_frame(pending)
+                if f:
+                    yield f
+        except ClientError as e:
+            if getattr(e, "code", None) == 429:
+                yield json.dumps({"type": "error", "detail": "rate_limited"}) + "\n"
+            else:
+                track_error(e, {"endpoint": "assistant/ask-voice-stream", "stage": "stream"})
+                yield json.dumps({"type": "error", "detail": "stream_failed"}) + "\n"
+        except Exception as e:  # noqa: BLE001
+            track_error(e, {"endpoint": "assistant/ask-voice-stream", "stage": "stream"})
+            yield json.dumps({"type": "error", "detail": "stream_failed"}) + "\n"
+
+        answer, new_memories, action, _followups = parse_tags(raw)
+        for fact in new_memories:
+            save_memory(user_id, fact)
+        record_assistant_use(user_id)
+        append_message(user_id, "user", "🎤 (voice message)")
+        append_message(user_id, "assistant", answer)
+        yield json.dumps({"type": "done", "answer": answer, "action": action}) + "\n"
+
+    return StreamingResponse(
+        gen(),
+        media_type="application/x-ndjson",
+        headers={"X-Accel-Buffering": "no", "Cache-Control": "no-cache"},
+    )
 
 
 @router.post("/ask-image")

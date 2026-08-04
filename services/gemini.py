@@ -245,6 +245,61 @@ def generate_content(*, model: str | None = None, contents=None, config=None, la
     return _run_with_rotation(call)
 
 
+def transcribe_bytes(audio_bytes: bytes, mime_type: str = "") -> str:
+    """Whisper transcription for raw audio bytes (used by the streaming voice
+    pipeline, which needs the question text up front to stream the answer)."""
+    part = Part.from_bytes(data=audio_bytes, mime_type=mime_type or "audio/m4a")
+
+    def call(client):
+        return _transcribe(client, part)
+
+    return _run_with_rotation(call)
+
+
+def stream_text(instruction: str, large: bool = False):
+    """Yield answer text deltas from a STREAMING chat completion.
+
+    The voice pipeline uses this so text-to-speech can start on the first
+    finished sentence instead of waiting for the whole answer — this is what
+    makes the spoken reply feel near-instant (ChatGPT-like) without any extra
+    cost (same gpt-5-mini we already use for free)."""
+    effort = _reasoning_effort()
+    clients = _build_clients()
+    n = len(clients)
+    global _current
+    last_err: Exception | None = None
+    for offset in range(n):
+        idx = (_current + offset) % n
+        client = clients[idx]
+        messages = [{"role": "user", "content": instruction}]
+        base: dict = {"model": _model(large), "messages": messages, "stream": True}
+        kwargs = dict(base)
+        if effort and effort != "off":
+            kwargs["reasoning_effort"] = effort
+        try:
+            stream = client.chat.completions.create(**kwargs)
+        except Exception as e:  # noqa: BLE001
+            if effort and effort != "off" and "reasoning_effort" in str(e).lower():
+                try:
+                    stream = client.chat.completions.create(**base)
+                except Exception as e2:  # noqa: BLE001
+                    last_err = e2
+                    continue
+            else:
+                last_err = e
+                continue
+        _current = idx
+        for chunk in stream:
+            if not chunk.choices:
+                continue
+            piece = getattr(chunk.choices[0].delta, "content", None)
+            if piece:
+                yield piece
+        return
+    code = _status_code(last_err) if last_err else None
+    raise ClientError(str(last_err) if last_err else "OpenAI stream failed", code=code)
+
+
 def embed_content(*, model: str | None = None, contents=None, **_ignored):
     """Drop-in for the old Gemini embed_content, backed by OpenAI embeddings.
 
