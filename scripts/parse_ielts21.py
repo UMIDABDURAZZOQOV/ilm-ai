@@ -1447,14 +1447,38 @@ def main() -> int:
     # how much text, not whether there is any: Cambridge 19 returns 410 characters over
     # 138 pages — stray marks, enough to make an any() test say the book is readable.
     sampled = sum(len((p.extract_text() or "").strip()) for p in reader.pages[:20])
-    OCR_PAGES = sampled < 20 * 40
+    OCR_PAGES = sampled < 20 * 40 or BOOK == 15  # Force OCR for IELTS 15
     if OCR_PAGES and not os.path.isdir(OCR_DIR):
         raise SystemExit(f"This PDF has no text layer and {OCR_DIR} is missing.\n"
                          f'Run: python scripts/ocr_pages.py "{PDF_PATH}" {BOOK}')
     print("layout: " + ("scanned + OCR" if OCR_PAGES
                         else "upright" if PLAIN_LAYOUT else "rotated"), flush=True)
 
-    locate_back_matter(reader)
+    if BOOK == 12 or BOOK == 13 or BOOK == 14 or BOOK == 15 or BOOK == 17:
+        # Manual back matter for IELTS 12/13/14/15/17
+        global AUDIOSCRIPT_PAGES, ANSWER_KEY_PAGES
+        if BOOK == 12:
+            AUDIOSCRIPT_PAGES = range(95, 116)  # Audioscripts at pages 95-115
+            ANSWER_KEY_PAGES = range(116, 124)  # Answer keys at pages 116-123
+            print(f"back matter: manual for IELTS 12 - audioscripts 95-115, answer keys 116-123", flush=True)
+        elif BOOK == 13:
+            AUDIOSCRIPT_PAGES = range(97, 119)  # Audioscripts at pages 97-118
+            ANSWER_KEY_PAGES = range(118, 126)  # Answer keys at pages 118-125
+            print(f"back matter: manual for IELTS 13 - audioscripts 97-118, answer keys 118-125", flush=True)
+        elif BOOK == 14:
+            AUDIOSCRIPT_PAGES = range(0)  # No audioscripts found
+            ANSWER_KEY_PAGES = range(88, 96)  # Answer keys at pages 88-95
+            print(f"back matter: manual for IELTS 14 - audioscripts none, answer keys 88-95", flush=True)
+        elif BOOK == 15:
+            AUDIOSCRIPT_PAGES = range(96, 119)  # Audioscripts at pages 96-118
+            ANSWER_KEY_PAGES = range(119, 127)  # Answer keys at pages 119-126
+            print(f"back matter: manual for IELTS 15 - audioscripts 96-118, answer keys 119-126", flush=True)
+        elif BOOK == 17:
+            AUDIOSCRIPT_PAGES = range(96, 119)  # Audioscripts at pages 96-118
+            ANSWER_KEY_PAGES = range(119, 127)  # Answer keys at pages 119-126
+            print(f"back matter: manual for IELTS 17 - audioscripts 96-118, answer keys 119-126", flush=True)
+    else:
+        locate_back_matter(reader)
     pages = load_pages(reader)
     # Cambridge 19 is upright like book 20 but prints its keys in book 21's format, so
     # neither of these can be chosen by /Rotate. Try the publisher's layout first and
@@ -1551,7 +1575,7 @@ def report(data: dict) -> None:
         print(f"  writing    {[(w['task'], len(w['prompt'])) for w in t['writing']]}")
         print(f"  speaking   {[(s['part'], len(s['questions']), len(s['cue_card'] or '')) for s in t['speaking']]}")
         if no_ans:
-            print(f"  ⚠ no answer key for {no_ans}")
+            print(f"  WARNING: no answer key for {no_ans}")
 
 
 if __name__ == "__main__":
