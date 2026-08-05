@@ -160,6 +160,8 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
             if not existing_user.get('oauth_provider'):
                 from services.users import update_user_oauth_info
                 update_user_oauth_info(user_id, 'google', google_id, picture)
+            # Existing users who never went through onboarding still need a name+age.
+            needs_onboarding = existing_user.get('age') is None
         else:
             # Create new user with OAuth
             user = create_user_with_oauth(
@@ -170,6 +172,7 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
                 picture=picture
             )
             user_id = user['id']
+            needs_onboarding = True  # brand-new user: must pick a name + age
 
         # Generate JWT tokens
         access_token = create_access_token(user_id)
@@ -186,7 +189,8 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
             "picture": picture,
             "access_token": access_token,
             "refresh_token": refresh_token,
-            "provider": "google"
+            "provider": "google",
+            "needs_onboarding": needs_onboarding,
         }
 
     except HTTPException:

@@ -111,6 +111,7 @@ def migrate_sqlite_columns():
             existing = [row[1] for row in result.fetchall()]
 
             new_columns = {
+                "age": "INTEGER",
                 "oauth_provider": "VARCHAR(50)",
                 "oauth_provider_id": "VARCHAR(200)",
                 "chat_count_today": "INTEGER DEFAULT 0",
@@ -192,6 +193,7 @@ def migrate_postgres_columns():
     if not DATABASE_URL.startswith("postgres"):
         return
     statements = [
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS age INTEGER",
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS xp_total INTEGER DEFAULT 0",
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS referral_code VARCHAR(16)",
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS referred_by INTEGER",

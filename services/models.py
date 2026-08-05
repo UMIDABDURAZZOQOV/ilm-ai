@@ -7,6 +7,7 @@ class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(200), nullable=False)
+    age = Column(Integer, nullable=True)  # set at onboarding after Google sign-in (name+age required)
     email = Column(String(200), unique=True, index=True, nullable=False)
     password = Column(String(256), nullable=True)  # Made nullable for OAuth users
     oauth_provider = Column(String(50), nullable=True)  # 'google', etc.

@@ -338,7 +338,43 @@ def get_profile(user_id: int = Depends(verify_user_access)):
     
     # Remove password from response
     user.pop("password", None)
+    # A user must pick a name + age right after Google sign-in; until then age is null.
+    user["needs_onboarding"] = user.get("age") is None
     return user
+
+
+class OnboardingRequest(BaseModel):
+    user_id: int
+    name: str
+    age: int
+
+    @field_validator("name")
+    @classmethod
+    def name_ok(cls, v: str) -> str:
+        v = (v or "").strip()
+        if len(v) < 2:
+            raise ValueError("Name must be at least 2 characters")
+        return v
+
+    @field_validator("age")
+    @classmethod
+    def age_ok(cls, v: int) -> int:
+        if v < 5 or v > 100:
+            raise ValueError("Age must be between 5 and 100")
+        return v
+
+
+@router.post("/complete-onboarding")
+def complete_onboarding_endpoint(
+    data: OnboardingRequest,
+    auth_user_id: int = Depends(get_authenticated_user_id),
+):
+    """Save the name + age the user picks after Google sign-in (both required)."""
+    from services.users import complete_onboarding
+    ensure_own_user(data.user_id, auth_user_id)
+    if not complete_onboarding(data.user_id, data.name, data.age):
+        raise HTTPException(status_code=404, detail="User not found")
+    return {"message": "Onboarding complete", "needs_onboarding": False}
 
 
 @router.post("/update-profile")
@@ -436,5 +472,6 @@ async def google_callback_mobile(code: str, state: str, request: Request):
         "user_id": result["user_id"],
         "name": result["name"],
         "email": result["email"],
+        "needs_onboarding": "1" if result.get("needs_onboarding") else "0",
     })
     return RedirectResponse(url=f"ilmai://auth/callback?{query}")

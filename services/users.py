@@ -322,6 +322,34 @@ def update_user_profile(user_id: int, learning_goal: str = None, target_date: st
     return True
 
 
+def complete_onboarding(user_id: int, name: str, age: int) -> bool:
+    """Set the name + age a user chooses right after Google sign-in. Both are
+    required by the onboarding step; once `age` is non-null the user is considered
+    onboarded (see `needs_onboarding`)."""
+    if USE_DB:
+        db = SessionLocal()
+        try:
+            u = db.query(UserModel).filter(UserModel.id == user_id).first()
+            if not u:
+                return False
+            u.name = name
+            u.age = age
+            db.add(u)
+            db.commit()
+            return True
+        finally:
+            db.close()
+
+    users = _load_users_from_file()
+    u = next((x for x in users if x.get("id") == user_id), None)
+    if not u:
+        return False
+    u["name"] = name
+    u["age"] = age
+    _save_users_to_file(users)
+    return True
+
+
 def find_user_by_chat_id(chat_id: int) -> Optional[Dict[str, Any]]:
     if USE_DB:
         db = SessionLocal()
