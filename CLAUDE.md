@@ -1,5 +1,145 @@
 # Ilm AI — Project Context (for Claude)
 
+## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
+
+**Avval shu bo‘limni o‘qing.** Quyidagi eski sessiya yozuvlari tarixiy ma’lumot;
+hozirgi mahsulot qarori va tugallanmagan ishlar shu yerda. O‘zgarishlar lokal,
+hali commit/push/deploy yoki APK/AAB qilinmagan.
+
+### Foydalanuvchi nima so‘radi
+
+- `ilm-ai` — backend; `ilm-ai-flutter` — amaldagi mobil ilova;
+  `ilm-ai-frontend` — web. Eski `ilm-ai-mobile`ga tegilmaydi.
+- Butun tizim haqidagi umumiy hujjat aynan **shu `ilm-ai/CLAUDE.md`**.
+  Mobil yoki webdagi ishlar ham shu faylga yoziladi.
+- Mobil ilova endi faqat **fanlarni oson o‘rgatishga** qaratiladi.
+  Foydalanuvchi bir necha marta «Duolingo 100% copy, yagona farq — biz fan
+  o‘rgatamiz» dedi. Faqat menyuni yashirish uning talabini bajarmaydi:
+  dars, yo‘l, mashqlar, motivatsiya va barcha ekranlarning to‘liq tajribasini xohlaydi.
+- Fanlardan tashqari SAT, IELTS, assistant, Studio, fayllar, college va boshqa
+  xizmatlar **ko‘rinmasin**, lekin kodlari kelajakda qayta yoqish uchun saqlansin.
+- Tez ishlash va tokenni tejash muhim: o‘qilgan katta fayllarni qayta-qayta
+  chiqarish, uzun statuslar va tekshirilgan ishni sababsiz qayta tekshirishdan saqlaning.
+- Bepul Android yoki Super/Max ham kerakligi asinxron so‘ralgan, javob olinmagan.
+  Hozircha bepul Android tajribasi asos sifatida qabul qilingan; bu tasdiqlangan
+  yakuniy funksiyalar ro‘yxati emas. «100% tayyor» deb asossiz aytmang.
+
+### Yozilgan o‘zgarishlar
+
+Barcha quyidagi yo‘llar `ilm-ai-flutter/` ichida:
+
+1. `lib/core/config/product_mode.dart`: `SUBJECTS_ONLY` odatda `true`.
+   `--dart-define=SUBJECTS_ONLY=false` bilan oldingi keng mahsulot menyusi,
+   bosh sahifasi va onboarding qaytadi. Bu build sozlamasi, ilova ichidagi tugma emas.
+2. `lib/core/router/app_router.dart`: kirgan foydalanuvchi `/learn`ga boradi;
+   yashirilgan eski yo‘llar ham shu yerga qaytariladi. `/settings` eski olti
+   menyuli shell tashqarisida. Kerakli `extra` bo‘lmagan dars/mashq havolalari
+   ekran qulatmasdan qaytariladi; checkpoint uchun `unit_id` uzatiladi.
+3. `lib/features/skills/presentation/subject_home_screen.dart`: birinchi kirishda
+   fan tanlash; tanlov `subject_<userId>` kaliti bilan foydalanuvchi bo‘yicha
+   saqlanadi. Keyingi kirishda shu fanning yo‘li ochiladi. Hozirgi menyu:
+   **O‘rganish / Mashq / Vazifalar / Liga / Profil**. Yutuqlar Vazifalar ichida.
+   Til, tema va logout sozlamalarda qolgan. Mashqlar mavjud barcha fanlarga
+   tegishli daily/mistakes/lightning APIlarini ishlatadi; buni UI tushuntiradi.
+4. `lib/features/onboarding/presentation/onboarding_screen.dart`: yangi uchta
+   fanlarga oid tanishtiruv slaydi, uz/ru/en; eski slaydlar flag ortida saqlangan.
+5. `lib/features/skills/presentation/skill_path_screen.dart`: fan almashtirish,
+   haqiqiy kunlik XP progressi, birinchi ochiq darsga Continue, hajmli tugunlar,
+   dars oldi ma’lumot oynasi, qulflangan dars sababi va Bo‘limlar xaritasi.
+   Xarita darslar ro‘yxati, tugallanish soni va bo‘lim sinoviga kirishni ko‘rsatadi.
+   Ochiq dars qolmaganda ochilgan checkpointga yo‘naltirish tugmasi bor.
+6. `lib/features/skills/presentation/skill_lesson_screen.dart`: tanlash → CHECK
+   → izoh/to‘g‘ri javob → Continue. Dars oxirida xato savollar qaytadi va
+   to‘g‘ri ishlanmaguncha davom etmaydi. Serverga faqat **birinchi javoblar**
+   yuboriladi: takrorlash natijasi ballni sun’iy oshirmaydi. Yakunda aniqlik,
+   vaqt, XP va streak; muvaffaqiyatsiz darsga mos sarlavha. Bo‘sh savollar,
+   async dispose, takror yuborish va saqlash xatosiga qayta urinish himoyalari bor.
+7. `lib/features/skills/presentation/skill_quests_screen.dart`: haqiqiy summary,
+   daily challenge va streak-freezes APIlari orqali kunlik XP vazifasi, kunlik
+   sinov, seriya va muzlatishlar soni; yutuqlarga o‘tish. Soxta mukofot berilmaydi.
+8. `lib/features/skills/presentation/skill_leaderboard_screen.dart`: mavjud API
+   asosida liga nishonlari, haftalik XP, keyingi ligagacha progress va reyting.
+   Bu hali Duolingodagi cohort/promotion/demotion turnir tizimi emas.
+9. `lib/features/skills/data/skill_tree_models.dart`: unit `exam.status`ni o‘qiydi.
+   `skill_extras_repository.dart`: mavjud unit-exam GET/complete POST APIlari.
+   `skill_practice_screen.dart`: yangi checkpoint rejimi; natija saqlanmaguncha
+   muvaffaqiyat ko‘rsatilmaydi; yuklash/saqlash xatosi va qayta urinish mavjud.
+   Backend unit sinovi keyingi bo‘limni ochish uchun kerak, oldin Flutterda kirish yo‘q edi.
+10. `lib/core/theme/app_theme.dart`, `lib/app.dart`: subjects-only uchun yashil
+    rangli light/dark palitra. Flag o‘chirilganda eski palitra qaytadi.
+
+### Tekshiruvlarning ANIQ holati
+
+- `test/subject_experience_test.dart`: **23/23 test to‘liq o‘tdi**.
+- **1-vazifa (Sound FX + Tantanalar):**
+  - `SoundService` (`AppSoundService` va `FakeSoundService`): keshlanadigan, audio drayver bo‘lmasa ham qulamaydigan xavfsiz tizim. Tovushlar (`correct.wav`, `incorrect.wav`, `complete.wav`) matematik sintez orqali yaratilgan (royalty-free / CC0).
+  - Sozlamalarda `sound_effects_enabled` kaliti (`SharedPreferences`, standart: yoqilgan) va switch boshqaruvi.
+  - `CelebrationConfetti`: yengil 3D zarrachalar, `disableAnimations` / reduce motion parametrida avtomatik o‘chadi.
+- **2-vazifa (Skill Path dizayni):**
+  - Faol ochiq dars tuguni tepasida suzuvchi "Boshlash" (START) indikatori (reduce motion'da statik).
+  - 3D hajmli tugunlar (`_LessonNodeWidget`, `_ThreeDButton`): 6px pastki bevel, bosilganda pastga tushuvchi taktil push effekti; ochiq, tugallangan, qulflangan, yulduzli holatlar. Light va dark rejimda to‘liq kontrast.
+  - Checkpoint (bo‘lim sinovi) tugunlari dars tugunlaridan farqlangan (72x72 hajmli, kubok/nishon belgisi).
+  - `LessonPopoverContent`: dars nomi, 3 ta yulduz, backend `lesson.xpReward`dan olinadigan XP, dinamik `LessonLockReason` qulflanish sababi ("Oldingi dars tugallanmagan." / "Bo‘lim sinovidan o‘tish kerak.").
+- **Kunlik maqsad modali (`daily_goal_bottom_sheet.dart`):**
+  - `showDailyGoalBottomSheet` orqali ochiladi (`skill_path_screen` bannerida ulandi).
+  - Saqlash usuli: backendda alohida setter endpoint yo‘qligi sababli `SharedPreferences` (`daily_goal_<userId>`) orqali har bir foydalanuvchiga ajratilgan holda saqlanadi va `userDailyGoalProvider` orqali reaktiv yangilanadi; vazifalar ekranida (`skill_quests_screen`) ham maqsad sifatida aks etadi.
+- **Streak kalendari (`streak_calendar_widget.dart`):**
+  - Profil ekraniga (`skill_profile_screen.dart`) to‘liq ulangan.
+  - API dan keluvchi `profile.activity` xaritasi asosida oy kunlari va olov ko‘rsatkichlarini chizadi; null yoki bo‘sh kesh kelganda qulamaydi.
+- **Placement test oqimi (`skill_practice_screen.dart`):**
+  - Bo‘limlar xaritasidan "Darajamni aniqlash" tugmasi orqali ochiladi (`PracticeMode.placement`).
+  - Mavjud `SkillExtrasRepository.getPlacement` va `completePlacement` APIlariga ulangan; 404 xatosida "Hali tayyorlanmoqda" xabari va orqaga qaytish tugmasi chiqadi.
+  - Natija serverga saqlash muvaffaqiyatli bo‘lgandagina ko‘rsatiladi; taxminiy daraja va taqsimot serverdan olingan `label` va `breakdown` bo‘yicha chiqariladi (o‘zboshimchalik bilan hisoblanmaydi).
+- **StudyExitGuard (`study_exit_guard.dart`):**
+  - Dars (`skill_lesson_screen`) va mashq/sinov (`skill_practice_screen`) ekranlariga ulangan.
+  - Android orqaga qaytish va yopish tugmalarini tutib oladi, dars o‘rtasida tasdiqlovchi dialog ("Darsdan chiqasizmi?") ko‘rsatadi, faol dars va saqlash jarayonlarini himoyalaydi.
+- **Qarorlar — kechiktirilgan va yopilgan vazifalar:**
+  - Hearts (energiya tizimi): biznes model paydo bo‘lguncha kechiktirilgan.
+  - "Juftliklarni topish" (3-vazifa) va "Raqam kiritish" (4-vazifa): kontent xususiyatlari (nazariya kartalari uzunligi va savollarning qat’iy MCQligi) sababli rasman yopilgan / to‘xtatilgan.
+  - Gems/do‘kon, do‘stlar, cohort ligalar: hozir qilinmaydi.
+- **Analizator:** barcha o‘zgartirilgan 24 ta faylda `flutter analyze`: **toza, 0 ta xato/ogohlantirish** (`No issues found!`).
+- **Qurilmada tekshirilmagan holat:** barcha 23 test mock repositorylar orqali avtomatik sinovdan o‘tdi; real jismoniy telefonda popover, kunlik maqsad modali, streak kalendari, placement oqimi va exit guard dialogi qo‘lda to‘liq tekshirilmagan.
+- `pubspec.yaml` ish boshlanishidayoq o‘zgargan edi; bu foydalanuvchining avvalgi o‘zgarishi.
+
+### Keyingi qadamlar va qolgan ish
+
+1. Joriy testlar (23/23) to‘liq o‘tgan va o‘zgartirilgan 24 ta fayl tahlili toza (`No issues found!`). Yangi o‘zgarishlar kiritilsa, testlar va `flutter analyze` doimiy ravishda qayta tekshirib boriladi.
+2. Real hisobda fan tanlash → dars → xatolar → saqlash → checkpoint → keyingi bo‘lim, qayta kirish va uz/ru/en/light/dark ekranlarini tekshiring.
+3. Duolingo bilan hali katta farqlar bor: energiya/hearts (kechiktirilgan), virtual valyuta/do‘kon, do‘stlar va birgalikdagi vazifalar, cohort ligalar/turnirlar, kengroq mashq turlari, skip-ahead oqimi, batafsil animatsiya va vizual moslik. Ro‘yxat to‘liq parity auditi emas.
+4. Barcha fan nazariyasi/savollarini pedagogik sifat, to‘g‘rilik va ketma-ketlik bo‘yicha to‘liq tekshirish yoki qayta yaratish qilinmagan. Mavjud kontent va baholash endpointlari qayta ishlatilgan.
+5. APK/AAB yig‘ilmagan; commit, push, deploy qilinmagan. Web/backend ishchi kodi shu sessiyada o‘zgartirilmagan; backenddagi o‘zgarish faqat ushbu hujjat.
+
+### Oldingi bosqich qaydi (yuqoridagi holat ustun)
+
+The owner has pivoted Flutter to **subjects only**: teach school subjects through a
+short-lesson learning path. Keep all other feature code for a future return, but
+do not show SAT, IELTS, assistant, Studio, uploads, generic quizzes, college, etc.
+in the mobile UI. Web and backend remain unchanged by this mobile navigation work.
+
+- `ilm-ai-flutter/lib/core/config/product_mode.dart`: `SUBJECTS_ONLY` defaults to
+  true. Build/run with `--dart-define=SUBJECTS_ONLY=false` to restore the original
+  dashboard, navigation and onboarding. This is a build-time switch, not an end-user setting.
+- The router sends signed-in learners to `/learn` and redirects hidden routes,
+  including old deep links, to learning. `/settings` is outside the legacy tab shell.
+- `subject_home_screen.dart`: first choose a subject; remember its slug per user
+  in preferences; reopen its path on the next visit. Tabs: Learn, Practice, Awards,
+  League, Profile. Settings retains language, theme and logout. Practice uses the
+  existing cross-subject daily/mistakes/lightning endpoints and labels that scope.
+- `skill_path_screen.dart`: subject switcher, actual daily XP goal, and a Continue
+  button for the first unlocked lesson. Existing lesson nodes/progress are retained.
+- Intro slides now describe subjects, short lessons and daily learning (uz/ru/en).
+- Lesson choices now require Check before grading; feedback shows the right answer,
+  and Continue sits below scrollable feedback. Empty question lists fail gracefully;
+  disposed screens ignore async results; saving disables duplicate taps and supports retry.
+- Tests: `ilm-ai-flutter/test/subject_experience_test.dart` covers route hiding,
+  legacy deep links, per-user subject selection/restoration, answer confirmation and
+  empty lessons. All 7 tests passed, including widget checks at 390x844 phone size.
+  Analyzer reports no issues in the 7 changed/new Dart files (after fixing the
+  three style lints found by the full-project analysis).
+- No APK/AAB, commit, push or production deployment is included in these edits.
+  No comprehensive subject-content audit or regeneration has been performed: this
+  change must not be described as verified full Duolingo parity or fully vetted curricula.
+
 Multilingual (Uzbek / Russian / English) AI education platform for youth in Uzbekistan.
 This repo (`ilm-ai`) is the **backend**. Companion repos: `ilm-ai-frontend` (web), `ilm-ai-flutter`
 (mobile, active).
@@ -1542,5 +1682,4 @@ Got the Flutter app store-ready, then hit a hard blocker documented below.
 - **Play Console account created** — owner Google `ashirovzulfiqor2@gmail.com`, legal name **Umid Abdurazzakov**, Samarkand; $25 paid (father's card — fine, only the ID must match the owner). Developer name "Ilm AI". Account type **Personal** → note the **12-testers × 14-day closed-test** requirement before production.
 - 🚫 **BLOCKER — owner is 17.** Owner was born **2008-09-11**, so on 2026-08-06 they are 17; Google requires **18+** and now demands **identity verification (photo ID: passport / national ID — NOT birth certificate or military registration)** before you can even create an app. **Do NOT upload the owner's ID before their 18th birthday (2026-09-11)** — it shows age 17, would fail, and could suspend the account (the $25 is non-refundable). **Resume publishing after 2026-09-11** (verify with the owner's passport then), OR put the whole account in an adult's (father's) name. Everything else (AAB, keystore, privacy, listing, Data Safety) is ready to go the moment identity is verifiable.
 - **OUTSTANDING for launch (post-verification):** publish Google OAuth consent screen to **Production** (else non-test users can't sign in); complete the Data Safety + content rating; run the 14-day closed test; optionally move Render to the $7 Starter plan (cold start).
-
 
