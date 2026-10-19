@@ -1,10 +1,44 @@
 # Ilm AI — Project Context (for Claude)
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
+- 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
+- 2026-10-19: BOSQICH 0A (Duolingo 100% onboarding 6 ekrani) to'liq yakunlandi: 1-Ochilish (markazlashgan Ilmo 140, "Ilm AI", shior, "BOSHLASH" va "MENDA AKKAUNT BOR", haptic feedback), 2-Salom ("Salom! Men Ilmoman" pastga qaragan speech bubble, easeOutBack sakrash animatsiyasi), 3-Savollar kirish ("6 ta qisqa savolga" bold matn, Ilmo explaining), 4-Fan/sinf tanlash (ixcham Ilmo, gorizontal 5-11 sinf chiplari, 3D fan kartalari turkuaz tana/chegara/checkmark, faolsiz Davom etish), 5-Manba (8 ta tanlov: Do'stlar, Instagram/FB, TikTok, Telegram, YouTube, Do'kon, Maktab, Boshqa; SharedPreferences ga saqlash), 6-Yuklanish (nafas oluvchi Ilmo, "REJA TAYYORLANMOQDA...", motivatsion maslahat, 1.2s kechikish va fade-out).
+- 2026-10-19: 0-QADAM tekshirildi (commit 187b40a: duo_chrome.dart, hearts_xp_widgets.dart Hearts ∞ saqlangan — energiya yoqilmagan, SUBJECTS_ONLY buzilmagan; checkpoint/placement testlarida Check->Continue moslashtirildi, 43/43 test o'tdi, flutter analyze toza).
+- 2026-10-15 (yangi chat verify): APK #1–8 kodda tasdiqlandi; `dart run flutter_launcher_icons` + `flutter_native_splash:create` qayta ishga tushirildi; til jadvali quyida.
+- 2026-10-15 (verify fix): `MascotImage.animate` maydoni flutter_animate `.animate()` ni yashirgan → zanjir olib tashlandi; IndexedStack lazy-mount (`_visitedTabs`) — Quests/Profil 18s timeout timerlari birinchi ochilganda; tip testlar til override + alohida uz/ru/en. `flutter analyze`: No issues; `flutter test`: 39/39.
+- 2026-10-15 (APK #1 ikonka/splash): sabab — flutter_native_splash oq fon + assets/icons/icon.png va Android12 #ffffff; endi indigo #2A1F6B + splash_logo.png (light/dark), flutter_launcher_icons qayta ishga tushirildi, Flutter SplashScreen ham yangilandi.
+- 2026-10-15 (APK #2–3 maskot): eski CustomPainter `Mascot` UI dan olib tashlandi (kod saqlangan); MascotImage Ilmo: fan tanlash hello 120, nazariya explaining 110, savol thinking 104, feedback happy/sad 100, natija ~170–180, path hello 112.
+- 2026-10-15 (APK #4 variant shrifti): savol ~21sp, variant ~17.5sp, minHeight 56, kattaroq padding.
+- 2026-10-15 (APK #5 xatolar oxiri): retry logikasi tasdiqlandi; xato feedbackda «Bu savol oxirida yana chiqadi» (uz/ru/en); widget test: 3 xato → 3 qayta.
+- 2026-10-15 (APK #6 pastki menyu): sabab — har tabda widget destroy + autoDispose + `_revision++`; IndexedStack + keepAlive providerlar + 18s timeout + skipLoadingOnReload/Qayta urinish.
+- 2026-10-15 (APK #7 ism): sabab — Sozlamalarda ism faqat o‘qilardi, API chaqirilmasdi; endi `/auth/update-profile` + local session name yangilanadi, profil ham session nomini ko‘rsatadi.
+- 2026-10-15 (APK #8 til): UI str3/t() tiliga bog‘langan; tarjima yo‘q kontent uchun ContentLanguageBadge; backend: fan kontenti uz (author), ru/en OpenAI on-demand (`_translate_*`), subject/league name_uz|ru|en.
+
+### Backend fan kontenti tillari (faqat o‘qib aniqlangan, `routers/skills.py`)
+
+| Maydon / endpoint | uz | ru | en | Izoh |
+|---|---|---|---|---|
+| Subject `name_uz/ru/en` | DB | DB | DB | Har til uchun alohida ustun |
+| League `name_uz/ru/en` | kod | kod | kod | `LEAGUES` konstantasi |
+| Lesson theory + questions (author) | DB | — | — | Asosiy til o‘zbek |
+| `start_lesson` (+ language) | asl | `_translate_*` | `_translate_*` | OpenAI on-demand, kesh `(id, lang)` |
+| mistakes / daily / lightning / mixed / marathon | asl | `_translate_questions` | `_translate_questions` | Tarjima yiqilsa — asl uz qaytadi |
+| marathon `subject_name` | `name_uz` | `name_ru` | `name_en` | |
+| Pronunciation phrases | — | — | — | Faqat til fanlari (ingliz/koreys/fransuz) |
+
+Flutter: UI matnlari `str3`/`t()`; kontent tarjima qilinmagan bo‘lsa `ContentLanguageBadge`.
+- 2026-10-12 (Google Auth fix): AndroidManifest.xml'dan MainActivity'dagi android:taskAffinity="" olib tashlandi (Custom Tab yopilmasligi va cheksiz spinner sababi tuzatildi).
+- 2026-10-12 (Google Auth fix): google_auth.dart da 30 soniyalik timeout (googleAuthTimeout) va needsProfileSetupProvider qo'shildi; login oldidan holat yangilanishi ta'minlandi.
+- 2026-10-12 (Google Auth fix): app_router.dart va setup_profile_screen.dart da needsProfileSetupProvider ulandi (needs_onboarding bo'lsa /setup ga, aks holda /learn ga kafolatlangan o'tish).
+- 2026-10-12 (Google Auth fix): login_screen.dart da navigatsiya aniqlandi (/setup yoki /learn), Render sovuq ishga tushishi va timeout uchun 3 tilli (uz/ru/en) xato xabarlari ulandi.
+- ILMO-REJA: 0-bosqich TUGADI. Google login tekshiruvi (taskAffinity, 30s timeout, needsProfileSetupProvider, /setup yo'naltirish) tasdiqlandi; 28/28 test va flutter analyze toza o'tdi.
+- 2026-10-12 (Palitra auditi): Boshlang'ich flutter analyze (No issues found!) va flutter test (34/34 o'tdi) tekshirildi.
+- 2026-10-12 (Palitra auditi): lib/ dagi qoldiq ranglar to'g'rilandi (skill_path banner Continue tugmasi fg subjectColor, skill_quests freeze ikonkasi turkuaz #2DD4BF, skill_achievements da yutilgan nishonlarga RombBadge ulandi).
+- 2026-10-12 (Ilova ikonkasi): flutter_launcher_icons orqali indigo #2A1F6B adaptive icon va iOS AppIcon generatsiya qilindi; AndroidManifest da icon/roundIcon (@mipmap/ic_launcher) va 'Ilm AI' nomi tasdiqlandi.
 
 **Avval shu bo‘limni o‘qing.** Quyidagi eski sessiya yozuvlari tarixiy ma’lumot;
 hozirgi mahsulot qarori va tugallanmagan ishlar shu yerda. O‘zgarishlar lokal,
-hali commit/push/deploy yoki APK/AAB qilinmagan.
+APK yig'ilgan va telefonda sinalmoqda; hali commit/push/deploy qilinmagan.
 
 ### Foydalanuvchi nima so‘radi
 
@@ -65,12 +99,15 @@ Barcha quyidagi yo‘llar `ilm-ai-flutter/` ichida:
    `skill_practice_screen.dart`: yangi checkpoint rejimi; natija saqlanmaguncha
    muvaffaqiyat ko‘rsatilmaydi; yuklash/saqlash xatosi va qayta urinish mavjud.
    Backend unit sinovi keyingi bo‘limni ochish uchun kerak, oldin Flutterda kirish yo‘q edi.
-10. `lib/core/theme/app_theme.dart`, `lib/app.dart`: subjects-only uchun yashil
-    rangli light/dark palitra. Flag o‘chirilganda eski palitra qaytadi.
+10. `lib/core/theme/app_theme.dart`, `lib/app.dart`: subjects-only uchun indigo #2A1F6B
+    asosiy, #F9A825 streak/XP, #2DD4BF firuza tanlovli light/dark palitra. Flag o‘chirilganda eski palitra qaytadi.
 
 ### Tekshiruvlarning ANIQ holati
 
-- `test/subject_experience_test.dart`: **23/23 test to‘liq o‘tdi**.
+- **Testlar:** Jami 53/53 test (10 ta duo_onboarding_test, 35 ta subject_experience_test, 8 ta auth_flow_test) to‘liq o‘tdi.
+- **Ilmo maskoti (`MascotImage`, 5 ta poza: hello, happy, thinking, explaining, sad):**
+  - `assets/mascot/` papkasi `pubspec.yaml`ga ulandi; yengil kirish animatsiyasiga ega `MascotImage` widgeti yaratildi.
+  - 4 ta joyga ulandi: dars yakunida (aniqlik >= 80% bo‘lsa `happy`, aks holda `hello`), xato javob varag‘ida (`sad`, 48px), AI tushuntirish oynasida (yuklanishda `thinking`, javobda `explaining`), Skill Path ekranida (`hello`, 72px).
 - **1-vazifa (Sound FX + Tantanalar):**
   - `SoundService` (`AppSoundService` va `FakeSoundService`): keshlanadigan, audio drayver bo‘lmasa ham qulamaydigan xavfsiz tizim. Tovushlar (`correct.wav`, `incorrect.wav`, `complete.wav`) matematik sintez orqali yaratilgan (royalty-free / CC0).
   - Sozlamalarda `sound_effects_enabled` kaliti (`SharedPreferences`, standart: yoqilgan) va switch boshqaruvi.
@@ -107,7 +144,7 @@ Barcha quyidagi yo‘llar `ilm-ai-flutter/` ichida:
 2. Real hisobda fan tanlash → dars → xatolar → saqlash → checkpoint → keyingi bo‘lim, qayta kirish va uz/ru/en/light/dark ekranlarini tekshiring.
 3. Duolingo bilan hali katta farqlar bor: energiya/hearts (kechiktirilgan), virtual valyuta/do‘kon, do‘stlar va birgalikdagi vazifalar, cohort ligalar/turnirlar, kengroq mashq turlari, skip-ahead oqimi, batafsil animatsiya va vizual moslik. Ro‘yxat to‘liq parity auditi emas.
 4. Barcha fan nazariyasi/savollarini pedagogik sifat, to‘g‘rilik va ketma-ketlik bo‘yicha to‘liq tekshirish yoki qayta yaratish qilinmagan. Mavjud kontent va baholash endpointlari qayta ishlatilgan.
-5. APK/AAB yig‘ilmagan; commit, push, deploy qilinmagan. Web/backend ishchi kodi shu sessiyada o‘zgartirilmagan; backenddagi o‘zgarish faqat ushbu hujjat.
+5. APK yig‘ilgan, telefonda sinalmoqda; hali commit, push, deploy qilinmagan. Web/backend ishchi kodi shu sessiyada o‘zgartirilmagan; backenddagi o‘zgarish faqat ushbu hujjat.
 
 ### Oldingi bosqich qaydi (yuqoridagi holat ustun)
 
@@ -136,7 +173,7 @@ in the mobile UI. Web and backend remain unchanged by this mobile navigation wor
   empty lessons. All 7 tests passed, including widget checks at 390x844 phone size.
   Analyzer reports no issues in the 7 changed/new Dart files (after fixing the
   three style lints found by the full-project analysis).
-- No APK/AAB, commit, push or production deployment is included in these edits.
+- APK yig'ilgan va telefonda sinalmoqda; commit, push, production deployment qilinmagan.
   No comprehensive subject-content audit or regeneration has been performed: this
   change must not be described as verified full Duolingo parity or fully vetted curricula.
 
