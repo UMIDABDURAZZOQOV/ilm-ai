@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-30-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-34",
+  "title": "Kuz faslida o‘simliklar hayotida ro‘y beradigan o‘zgarishlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-30-f1": {
+      "claim": "Kuzda kunlar qisqarib, yorug‘lik kamayadi; ko‘plab daraxtlarda barg rangi o‘zgarib, xazonrezgilik boshlanadi.",
+      "answer": "Kun qisqarishi, barg rangi o‘zgarishi va to‘kilishi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f2": {
+      "claim": "Barg to‘kish qishga tayyorgarlikda barglar orqali suv yo‘qotishni kamaytiradi.",
+      "answer": "Barglar orqali suv yo‘qotish kamayadi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f3": {
+      "claim": "Barg bandining novdaga birikkan joyida ajratuvchi qavat hosil bo‘lishi bargning uzilib tushishiga olib keladi.",
+      "answer": "Barg bandi novdaga birikkan joyda",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f4": {
+      "claim": "Archa va shamshod barglarini yil davomida asta-sekin almashtirgani uchun yashil ko‘rinishini saqlaydi.",
+      "answer": "Yil davomida asta-sekin almashtiradi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzgi belgilar",
+      "body": "Kuzda kunlar qisqarib, yorug‘lik kamayadi; ko‘plab daraxtlarda barg rangi o‘zgarib, xazonrezgilik boshlanadi.",
+      "fact_ids": [
+        "paragraph-30-f1"
+      ]
+    },
+    {
+      "title": "Suvni saqlash",
+      "body": "Barg to‘kish qishga tayyorgarlikda barglar orqali suv yo‘qotishni kamaytiradi.",
+      "fact_ids": [
+        "paragraph-30-f2"
+      ]
+    },
+    {
+      "title": "Ajratuvchi qavat",
+      "body": "Barg bandining novdaga birikkan joyida ajratuvchi qavat hosil bo‘lishi bargning uzilib tushishiga olib keladi.",
+      "fact_ids": [
+        "paragraph-30-f3"
+      ]
+    },
+    {
+      "title": "Doim yashil ham yangilanadi",
+      "body": "Archa va shamshod barglarini yil davomida asta-sekin almashtirgani uchun yashil ko‘rinishini saqlaydi.",
+      "fact_ids": [
+        "paragraph-30-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-30-q1",
+      "fact_id": "paragraph-30-f1",
+      "question_text": "Kuzgi kuzatuvda qaysi belgilar birga uchrashi mumkin?",
+      "options": [
+        "Faqat urug‘pallalarning soni ortishi",
+        "Kun qisqarishi, barg rangi o‘zgarishi va to‘kilishi",
+        "Kun uzayishi va barcha kurtaklarning birdan ochilishi",
+        "Faqat barcha daraxtlarning gullashi"
+      ],
+      "correct_answer": "Kun qisqarishi, barg rangi o‘zgarishi va to‘kilishi",
+      "explanation": "Kuzda kunlar qisqarib, yorug‘lik kamayadi; ko‘plab daraxtlarda barg rangi o‘zgarib, xazonrezgilik boshlanadi."
+    },
+    {
+      "key": "paragraph-30-q2",
+      "fact_id": "paragraph-30-f2",
+      "question_text": "Xazonrezgilikning qishga moslashuvdagi foydasi nima?",
+      "options": [
+        "Barglar orqali suv yo‘qotish kamayadi",
+        "Transpiratsiya doimo ortadi",
+        "Ildizlar darhol yo‘qoladi",
+        "Organizm tirikligini butunlay yo‘qotadi"
+      ],
+      "correct_answer": "Barglar orqali suv yo‘qotish kamayadi",
+      "explanation": "Barg to‘kish qishga tayyorgarlikda barglar orqali suv yo‘qotishni kamaytiradi."
+    },
+    {
+      "key": "paragraph-30-q3",
+      "fact_id": "paragraph-30-f3",
+      "question_text": "Bargning ajralishiga tayyorlanadigan qavat qayerda hosil bo‘ladi?",
+      "options": [
+        "Faqat gul changdonida",
+        "Faqat urug‘pallaning ichida",
+        "Faqat ildiz qinchasi uchida",
+        "Barg bandi novdaga birikkan joyda"
+      ],
+      "correct_answer": "Barg bandi novdaga birikkan joyda",
+      "explanation": "Barg bandining novdaga birikkan joyida ajratuvchi qavat hosil bo‘lishi bargning uzilib tushishiga olib keladi."
+    },
+    {
+      "key": "paragraph-30-q4",
+      "fact_id": "paragraph-30-f4",
+      "question_text": "Doim yashil archa barglarini qanday yangilaydi?",
+      "options": [
+        "Barcha bargi faqat bir kunda almashadi",
+        "Har bir barg meva ichiga ko‘chadi",
+        "Yil davomida asta-sekin almashtiradi",
+        "Barglari hech qachon almashmaydi"
+      ],
+      "correct_answer": "Yil davomida asta-sekin almashtiradi",
+      "explanation": "Archa va shamshod barglarini yil davomida asta-sekin almashtirgani uchun yashil ko‘rinishini saqlaydi."
+    }
+  ]
+}

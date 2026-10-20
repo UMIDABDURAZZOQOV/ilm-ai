@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-52-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-57",
+  "title": "Ituzumdoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-52-f1": {
+      "claim": "Ituzumdoshlarda beshta gulkosachabarg va beshta gultojbarg birikkan, changchilar beshta, urug‘chi bitta bo‘ladi.",
+      "answer": "Bitta",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f2": {
+      "claim": "Ituzumdoshlarning mevasi rezavor meva yoki ko‘sak bo‘lishi mumkin; faqat bitta meva shakliga qarab butun oilani ta’riflab bo‘lmaydi.",
+      "answer": "Rezavor meva va ko‘sak",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f3": {
+      "claim": "Qora ituzumning guli oqish, mevasi pishganda qora rangli rezavor bo‘ladi. Yovvoyi mevalarni tanish mashqi ularni tatib ko‘rish topshirig‘i emas.",
+      "answer": "Qora rangli rezavor meva",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f4": {
+      "claim": "Kartoshka, pomidor, baqlajon va qalampir ituzumdoshlar oilasiga kiradigan madaniy o‘simliklardir.",
+      "answer": "Pomidor, qalampir, baqlajon",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f5": {
+      "claim": "Bangidevona va mingdevona zaharli ituzumdoshlar sifatida keltirilgan. Ularni o‘zboshimchalik bilan iste’mol qilish yoki davolanish uchun ishlatish mumkin emas.",
+      "answer": "Bangidevona va mingdevona",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f6": {
+      "claim": "Tamaki tarkibidagi nikotin odamning asab va yurak-qon tomir tizimlariga zarar yetkazadi.",
+      "answer": "Asab va yurak-qon tomir tizimlariga zarar",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gul tuzilishidan oilani aniqlash",
+      "body": "Ituzumdoshlarda beshta gulkosachabarg va beshta gultojbarg birikkan, changchilar beshta, urug‘chi bitta bo‘ladi.",
+      "fact_ids": [
+        "paragraph-52-f1"
+      ]
+    },
+    {
+      "title": "Meva belgisi",
+      "body": "Ituzumdoshlarning mevasi rezavor meva yoki ko‘sak bo‘lishi mumkin; faqat bitta meva shakliga qarab butun oilani ta’riflab bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-52-f2"
+      ]
+    },
+    {
+      "title": "Yovvoyi vakilni tanish",
+      "body": "Qora ituzumning guli oqish, mevasi pishganda qora rangli rezavor bo‘ladi. Yovvoyi mevalarni tanish mashqi ularni tatib ko‘rish topshirig‘i emas.",
+      "fact_ids": [
+        "paragraph-52-f3"
+      ]
+    },
+    {
+      "title": "Ekinlarni guruhlash",
+      "body": "Kartoshka, pomidor, baqlajon va qalampir ituzumdoshlar oilasiga kiradigan madaniy o‘simliklardir.",
+      "fact_ids": [
+        "paragraph-52-f4"
+      ]
+    },
+    {
+      "title": "Zaharli vakillar",
+      "body": "Bangidevona va mingdevona zaharli ituzumdoshlar sifatida keltirilgan. Ularni o‘zboshimchalik bilan iste’mol qilish yoki davolanish uchun ishlatish mumkin emas.",
+      "fact_ids": [
+        "paragraph-52-f5"
+      ]
+    },
+    {
+      "title": "Tamaki va sog‘liq",
+      "body": "Tamaki tarkibidagi nikotin odamning asab va yurak-qon tomir tizimlariga zarar yetkazadi.",
+      "fact_ids": [
+        "paragraph-52-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-52-q1",
+      "fact_id": "paragraph-52-f1",
+      "question_text": "Besh changchi va birikkan besh gultojbargli ituzum gulida nechta urug‘chi bor?",
+      "options": [
+        "Oltita",
+        "Bitta",
+        "Uchta",
+        "Beshta"
+      ],
+      "correct_answer": "Bitta",
+      "explanation": "Ituzumdoshlarda beshta gulkosachabarg va beshta gultojbarg birikkan, changchilar beshta, urug‘chi bitta bo‘ladi."
+    },
+    {
+      "key": "paragraph-52-q2",
+      "fact_id": "paragraph-52-f2",
+      "question_text": "Darslikda ituzumdoshlar uchun qaysi meva juftligi ko‘rsatilgan?",
+      "options": [
+        "Rezavor meva va ko‘sak",
+        "Dukkak va qo‘zoq",
+        "Don va pista",
+        "Qanotli meva va yong‘oq"
+      ],
+      "correct_answer": "Rezavor meva va ko‘sak",
+      "explanation": "Ituzumdoshlarning mevasi rezavor meva yoki ko‘sak bo‘lishi mumkin; faqat bitta meva shakliga qarab butun oilani ta’riflab bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-52-q3",
+      "fact_id": "paragraph-52-f3",
+      "question_text": "Qora ituzumning pishgan mevasini qanday ta’riflash to‘g‘ri?",
+      "options": [
+        "Sariq rangli dukkak",
+        "Quruq qanotli meva",
+        "Oq rangli don",
+        "Qora rangli rezavor meva"
+      ],
+      "correct_answer": "Qora rangli rezavor meva",
+      "explanation": "Qora ituzumning guli oqish, mevasi pishganda qora rangli rezavor bo‘ladi. Yovvoyi mevalarni tanish mashqi ularni tatib ko‘rish topshirig‘i emas."
+    },
+    {
+      "key": "paragraph-52-q4",
+      "fact_id": "paragraph-52-f4",
+      "question_text": "Bozordagi qaysi mahsulotlar bir oilaga mansub o‘simliklardan olinadi?",
+      "options": [
+        "Kartoshka, piyoz, sabzi",
+        "Baqlajon, qovun, bug‘doy",
+        "Pomidor, qalampir, baqlajon",
+        "Pomidor, bodring, karam"
+      ],
+      "correct_answer": "Pomidor, qalampir, baqlajon",
+      "explanation": "Kartoshka, pomidor, baqlajon va qalampir ituzumdoshlar oilasiga kiradigan madaniy o‘simliklardir."
+    },
+    {
+      "key": "paragraph-52-q5",
+      "fact_id": "paragraph-52-f5",
+      "question_text": "Darslikdagi qaysi juftlik zaharli ituzumdoshlarga kiradi?",
+      "options": [
+        "Tok va qovun",
+        "Bangidevona va mingdevona",
+        "Pomidor va qalampir",
+        "Bug‘doy va sholi"
+      ],
+      "correct_answer": "Bangidevona va mingdevona",
+      "explanation": "Bangidevona va mingdevona zaharli ituzumdoshlar sifatida keltirilgan. Ularni o‘zboshimchalik bilan iste’mol qilish yoki davolanish uchun ishlatish mumkin emas."
+    },
+    {
+      "key": "paragraph-52-q6",
+      "fact_id": "paragraph-52-f6",
+      "question_text": "Tamaki nikotinining darslikda ko‘rsatilgan ta’siri qaysi?",
+      "options": [
+        "Asab va yurak-qon tomir tizimlariga zarar",
+        "Barcha infeksiyalardan doimiy himoya",
+        "Qon aylanishini butunlay almashtirish",
+        "Odamga oziq modda ishlab chiqarish"
+      ],
+      "correct_answer": "Asab va yurak-qon tomir tizimlariga zarar",
+      "explanation": "Tamaki tarkibidagi nikotin odamning asab va yurak-qon tomir tizimlariga zarar yetkazadi."
+    }
+  ]
+}

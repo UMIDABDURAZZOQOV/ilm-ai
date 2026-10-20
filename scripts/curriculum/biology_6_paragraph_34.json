@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-34-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-38",
+  "title": "Meva va urug‘larning tarqalishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-34-f1": {
+      "claim": "Ayrim o‘simliklarda meva pallalari ochilib yoki buralib, urug‘larni tashqariga chiqaradi; bu o‘z kuchi bilan tarqalishdir.",
+      "answer": "O‘z kuchi bilan tarqalishga",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f2": {
+      "claim": "Yengil urug‘ va mevalardagi tuklar yoki qanotchalar shamolda tarqalishga moslashuvdir.",
+      "answer": "Shamolda uchishni osonlashtiradi",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f3": {
+      "claim": "Suv o‘tkazmaydigan qobiqli ayrim mevalar suvda qalqib uzoqqa tarqaladi.",
+      "answer": "Suvda qalqishi va suv o‘tkazmaydigan qobig‘i",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f4": {
+      "claim": "Ilashuvchi moslamalar va shirali mevalar hayvonlar yordamida tarqalishga xizmat qiladi; odamlar urug‘larni boshqa hududlarga ham olib boradi.",
+      "answer": "Hayvon orqali",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "O‘z kuchi bilan tarqalish",
+      "body": "Ayrim o‘simliklarda meva pallalari ochilib yoki buralib, urug‘larni tashqariga chiqaradi; bu o‘z kuchi bilan tarqalishdir.",
+      "fact_ids": [
+        "paragraph-34-f1"
+      ]
+    },
+    {
+      "title": "Shamolning yordami",
+      "body": "Yengil urug‘ va mevalardagi tuklar yoki qanotchalar shamolda tarqalishga moslashuvdir.",
+      "fact_ids": [
+        "paragraph-34-f2"
+      ]
+    },
+    {
+      "title": "Suvdagi safar",
+      "body": "Suv o‘tkazmaydigan qobiqli ayrim mevalar suvda qalqib uzoqqa tarqaladi.",
+      "fact_ids": [
+        "paragraph-34-f3"
+      ]
+    },
+    {
+      "title": "Hayvon va inson orqali",
+      "body": "Ilashuvchi moslamalar va shirali mevalar hayvonlar yordamida tarqalishga xizmat qiladi; odamlar urug‘larni boshqa hududlarga ham olib boradi.",
+      "fact_ids": [
+        "paragraph-34-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-34-q1",
+      "fact_id": "paragraph-34-f1",
+      "question_text": "Dukkak pallasi ochilib urug‘ni chiqarishi qaysi tarqalishga misol?",
+      "options": [
+        "Faqat inson ekishiga",
+        "O‘z kuchi bilan tarqalishga",
+        "Faqat qush orqali tashilishga",
+        "Faqat suvda qalqishga"
+      ],
+      "correct_answer": "O‘z kuchi bilan tarqalishga",
+      "explanation": "Ayrim o‘simliklarda meva pallalari ochilib yoki buralib, urug‘larni tashqariga chiqaradi; bu o‘z kuchi bilan tarqalishdir."
+    },
+    {
+      "key": "paragraph-34-q2",
+      "fact_id": "paragraph-34-f2",
+      "question_text": "Tuk va qanotchalarning tarqalishdagi foydasi nima?",
+      "options": [
+        "Shamolda uchishni osonlashtiradi",
+        "Urug‘ni ildizga aylantiradi",
+        "Har doim suv tubiga cho‘ktiradi",
+        "Faqat urug‘lanishni bajaradi"
+      ],
+      "correct_answer": "Shamolda uchishni osonlashtiradi",
+      "explanation": "Yengil urug‘ va mevalardagi tuklar yoki qanotchalar shamolda tarqalishga moslashuvdir."
+    },
+    {
+      "key": "paragraph-34-q3",
+      "fact_id": "paragraph-34-f3",
+      "question_text": "Mevaning suvda tarqalishiga qaysi xususiyat yordam beradi?",
+      "options": [
+        "Faqat juda tez cho‘kishi",
+        "Faqat gul changining hidi",
+        "Faqat ildiz tukchasi soni",
+        "Suvda qalqishi va suv o‘tkazmaydigan qobig‘i"
+      ],
+      "correct_answer": "Suvda qalqishi va suv o‘tkazmaydigan qobig‘i",
+      "explanation": "Suv o‘tkazmaydigan qobiqli ayrim mevalar suvda qalqib uzoqqa tarqaladi."
+    },
+    {
+      "key": "paragraph-34-q4",
+      "fact_id": "paragraph-34-f4",
+      "question_text": "Hayvon juniga ilashadigan meva qanday yo‘l bilan tarqaladi?",
+      "options": [
+        "Faqat suv ostida",
+        "Faqat kurtak ichida",
+        "Hayvon orqali",
+        "Faqat o‘z kuchi bilan otib"
+      ],
+      "correct_answer": "Hayvon orqali",
+      "explanation": "Ilashuvchi moslamalar va shirali mevalar hayvonlar yordamida tarqalishga xizmat qiladi; odamlar urug‘larni boshqa hududlarga ham olib boradi."
+    }
+  ]
+}

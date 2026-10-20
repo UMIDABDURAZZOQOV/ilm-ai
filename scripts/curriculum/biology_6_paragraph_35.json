@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-35-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-39",
+  "title": "Urug‘larning unib chiqishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-35-f1": {
+      "claim": "Urug‘ unishi uchun suv, havo va mos harorat zarur; turli o‘simliklarning haroratga talabi bir xil emas.",
+      "answer": "Ularning mos haroratga talabi farqlanishini",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f2": {
+      "claim": "Urug‘ suv shimib bo‘rtadi; suv zaxira oziq moddalarning erishi va rivojlanayotgan murtakka o‘tishiga ham zarur.",
+      "answer": "Bo‘rtish va zaxira oziqdan foydalanishga yordam berish",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f3": {
+      "claim": "Nishning yosh ildizchasi tuproq ichiga, kurtakli poyachasi esa tuproq yuzasiga o‘sadi.",
+      "answer": "Tuproq ichiga",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f4": {
+      "claim": "Nish avval urug‘palla va endospermdagi zaxiradan foydalanadi; yashil maysa keyin fotosintez mahsulotlari bilan oziqlanadi.",
+      "answer": "Urug‘dagi zaxira moddalardan",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Unish shartlari",
+      "body": "Urug‘ unishi uchun suv, havo va mos harorat zarur; turli o‘simliklarning haroratga talabi bir xil emas.",
+      "fact_ids": [
+        "paragraph-35-f1"
+      ]
+    },
+    {
+      "title": "Bo‘rtish va zaxira",
+      "body": "Urug‘ suv shimib bo‘rtadi; suv zaxira oziq moddalarning erishi va rivojlanayotgan murtakka o‘tishiga ham zarur.",
+      "fact_ids": [
+        "paragraph-35-f2"
+      ]
+    },
+    {
+      "title": "Nishning rivojlanishi",
+      "body": "Nishning yosh ildizchasi tuproq ichiga, kurtakli poyachasi esa tuproq yuzasiga o‘sadi.",
+      "fact_ids": [
+        "paragraph-35-f3"
+      ]
+    },
+    {
+      "title": "Zaxiradan fotosintezga",
+      "body": "Nish avval urug‘palla va endospermdagi zaxiradan foydalanadi; yashil maysa keyin fotosintez mahsulotlari bilan oziqlanadi.",
+      "fact_ids": [
+        "paragraph-35-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-35-q1",
+      "fact_id": "paragraph-35-f1",
+      "question_text": "Bir xil namlikda ikki tur urug‘ turlicha unishi nimani ko‘rsatishi mumkin?",
+      "options": [
+        "Har qanday urug‘ faqat muzda unishini",
+        "Ularning mos haroratga talabi farqlanishini",
+        "Barcha urug‘lar havo talab qilmasligini",
+        "Urug‘larda hujayra yo‘qligini"
+      ],
+      "correct_answer": "Ularning mos haroratga talabi farqlanishini",
+      "explanation": "Urug‘ unishi uchun suv, havo va mos harorat zarur; turli o‘simliklarning haroratga talabi bir xil emas."
+    },
+    {
+      "key": "paragraph-35-q2",
+      "fact_id": "paragraph-35-f2",
+      "question_text": "Suvning unishdagi vazifasi qaysi?",
+      "options": [
+        "Bo‘rtish va zaxira oziqdan foydalanishga yordam berish",
+        "Urug‘dagi barcha oziqni darhol yo‘qotish",
+        "Nafas olishni butunlay to‘xtatish",
+        "Murtakni mineral toshga aylantirish"
+      ],
+      "correct_answer": "Bo‘rtish va zaxira oziqdan foydalanishga yordam berish",
+      "explanation": "Urug‘ suv shimib bo‘rtadi; suv zaxira oziq moddalarning erishi va rivojlanayotgan murtakka o‘tishiga ham zarur."
+    },
+    {
+      "key": "paragraph-35-q3",
+      "fact_id": "paragraph-35-f3",
+      "question_text": "Unayotgan murtak ildizchasi odatda qaysi tomonga rivojlanadi?",
+      "options": [
+        "Faqat havoga yuqoriga",
+        "Faqat gul ichiga",
+        "Faqat meva po‘stiga",
+        "Tuproq ichiga"
+      ],
+      "correct_answer": "Tuproq ichiga",
+      "explanation": "Nishning yosh ildizchasi tuproq ichiga, kurtakli poyachasi esa tuproq yuzasiga o‘sadi."
+    },
+    {
+      "key": "paragraph-35-q4",
+      "fact_id": "paragraph-35-f4",
+      "question_text": "Barglar rivojlanishidan avval nishning oziqi qayerdan keladi?",
+      "options": [
+        "Faqat tashqi changdan",
+        "Faqat meva po‘stining rangidan",
+        "Urug‘dagi zaxira moddalardan",
+        "Faqat gul nektaridan"
+      ],
+      "correct_answer": "Urug‘dagi zaxira moddalardan",
+      "explanation": "Nish avval urug‘palla va endospermdagi zaxiradan foydalanadi; yashil maysa keyin fotosintez mahsulotlari bilan oziqlanadi."
+    }
+  ]
+}

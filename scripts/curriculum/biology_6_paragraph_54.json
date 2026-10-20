@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-54-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-59",
+  "title": "Qovoqdoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-54-f1": {
+      "claim": "Qovoqdoshlar ko‘pincha yer bag‘irlab yoki jingalaklari bilan ilashib o‘sadigan o‘t o‘simliklardir, barglari oddiy.",
+      "answer": "Jingalakli o‘t o‘simlik, oddiy barg",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f2": {
+      "claim": "Oshqovoqda changchili va urug‘chili gullar alohida, ammo bitta o‘simlikda joylashadi. Shu sababli u bir uyli o‘simlikdir.",
+      "answer": "Oshqovoq bir uyli o‘simlik",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f3": {
+      "claim": "Qovoqdoshlarning ayrim jinsli gullari hasharotlar yordamida changlanadi.",
+      "answer": "Hasharotlar",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f4": {
+      "claim": "Oshqovoq mevasining tashqi qavati qattiq, ichki qismi etli; uning urug‘ida moy bor.",
+      "answer": "Tashqi qavati qattiq, ichki qismi etli",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          129
+        ],
+        "printed_pages": [
+          129
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f5": {
+      "claim": "Qovun, tarvuz, bodring, handalak, idishqovoq va qozonyuvgich qovoqdoshlar vakillaridir; itqovun esa shu oilaning begona o‘tidir.",
+      "answer": "Tarvuz, bodring, qovun",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          129
+        ],
+        "printed_pages": [
+          129
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "O‘sish shakli",
+      "body": "Qovoqdoshlar ko‘pincha yer bag‘irlab yoki jingalaklari bilan ilashib o‘sadigan o‘t o‘simliklardir, barglari oddiy.",
+      "fact_ids": [
+        "paragraph-54-f1"
+      ]
+    },
+    {
+      "title": "Bir o‘simlikdagi ikki xil gul",
+      "body": "Oshqovoqda changchili va urug‘chili gullar alohida, ammo bitta o‘simlikda joylashadi. Shu sababli u bir uyli o‘simlikdir.",
+      "fact_ids": [
+        "paragraph-54-f2"
+      ]
+    },
+    {
+      "title": "Chang tashuvchini aniqlash",
+      "body": "Qovoqdoshlarning ayrim jinsli gullari hasharotlar yordamida changlanadi.",
+      "fact_ids": [
+        "paragraph-54-f3"
+      ]
+    },
+    {
+      "title": "Mevaning qatlamlari",
+      "body": "Oshqovoq mevasining tashqi qavati qattiq, ichki qismi etli; uning urug‘ida moy bor.",
+      "fact_ids": [
+        "paragraph-54-f4"
+      ]
+    },
+    {
+      "title": "Oila vakillari",
+      "body": "Qovun, tarvuz, bodring, handalak, idishqovoq va qozonyuvgich qovoqdoshlar vakillaridir; itqovun esa shu oilaning begona o‘tidir.",
+      "fact_ids": [
+        "paragraph-54-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-54-q1",
+      "fact_id": "paragraph-54-f1",
+      "question_text": "Qovoqdoshlarni tavsiflovchi belgilar qaysi qatorda?",
+      "options": [
+        "Yog‘ochlashgan tanali palma",
+        "Jingalakli o‘t o‘simlik, oddiy barg",
+        "Ignabargli daraxt, qubba",
+        "Bargsiz parazit, spora"
+      ],
+      "correct_answer": "Jingalakli o‘t o‘simlik, oddiy barg",
+      "explanation": "Qovoqdoshlar ko‘pincha yer bag‘irlab yoki jingalaklari bilan ilashib o‘sadigan o‘t o‘simliklardir, barglari oddiy."
+    },
+    {
+      "key": "paragraph-54-q2",
+      "fact_id": "paragraph-54-f2",
+      "question_text": "Bir oshqovoq tupida alohida changchili va urug‘chili gullar bor. Bu nimani anglatadi?",
+      "options": [
+        "Oshqovoq bir uyli o‘simlik",
+        "Har bir guli albatta ikki jinsli",
+        "Oshqovoq ikki uyli o‘simlik",
+        "Gullarida jinsiy organlar yo‘q"
+      ],
+      "correct_answer": "Oshqovoq bir uyli o‘simlik",
+      "explanation": "Oshqovoqda changchili va urug‘chili gullar alohida, ammo bitta o‘simlikda joylashadi. Shu sababli u bir uyli o‘simlikdir."
+    },
+    {
+      "key": "paragraph-54-q3",
+      "fact_id": "paragraph-54-f3",
+      "question_text": "Qovoqdosh gullarining changlanishiga qaysi guruh yordam beradi?",
+      "options": [
+        "Faqat yerosti ildizlari",
+        "Faqat urug‘pallalar",
+        "Faqat mevaning qattiq po‘sti",
+        "Hasharotlar"
+      ],
+      "correct_answer": "Hasharotlar",
+      "explanation": "Qovoqdoshlarning ayrim jinsli gullari hasharotlar yordamida changlanadi."
+    },
+    {
+      "key": "paragraph-54-q4",
+      "fact_id": "paragraph-54-f4",
+      "question_text": "Oshqovoq mevasining tuzilishini qaysi javob to‘g‘ri tasvirlaydi?",
+      "options": [
+        "Ikki pallaga ochiladigan dukkak",
+        "Urug‘siz yog‘och qubba",
+        "Tashqi qavati qattiq, ichki qismi etli",
+        "Butunlay quruq bir urug‘li don"
+      ],
+      "correct_answer": "Tashqi qavati qattiq, ichki qismi etli",
+      "explanation": "Oshqovoq mevasining tashqi qavati qattiq, ichki qismi etli; uning urug‘ida moy bor."
+    },
+    {
+      "key": "paragraph-54-q5",
+      "fact_id": "paragraph-54-f5",
+      "question_text": "Qaysi qatorda faqat qovoqdoshlar keltirilgan?",
+      "options": [
+        "Karam, turp, jag‘-jag‘",
+        "Tarvuz, bodring, qovun",
+        "Pomidor, qalampir, kartoshka",
+        "Bug‘doy, sholi, suli"
+      ],
+      "correct_answer": "Tarvuz, bodring, qovun",
+      "explanation": "Qovun, tarvuz, bodring, handalak, idishqovoq va qozonyuvgich qovoqdoshlar vakillaridir; itqovun esa shu oilaning begona o‘tidir."
+    }
+  ]
+}

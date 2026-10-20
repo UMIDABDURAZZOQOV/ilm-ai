@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-50-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-55",
+  "title": "Gulxayridoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-50-f1": {
+      "claim": "Gulxayridoshlarda odatda beshta gultojbarg, ko‘p changchi va urug‘chini o‘rab turgan birikkan changchi iplari bo‘ladi.",
+      "answer": "Birikib urug‘chini o‘rab turadi",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f2": {
+      "claim": "Yerbag‘ir tugmachagul, dorivor gulxayri va g‘o‘za gulxayridoshlarga kiradi; tugmachagul yer bag‘irlab yoki yonboshlab o‘sadi.",
+      "answer": "G‘o‘za, gulxayri, tugmachagul",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f3": {
+      "claim": "Meksika g‘o‘zasining mevasi ko‘sak; uning chigitida tola hosil bo‘ladi, navlari ekin sifatida o‘stiriladi.",
+      "answer": "Chigit",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f4": {
+      "claim": "Gulxayridoshlardan g‘o‘za va kanop tola olishda ahamiyatli; darslikda baobab ham shu keng oila tarkibida berilgan.",
+      "answer": "Kanop",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gulning ajratuvchi belgisi",
+      "body": "Gulxayridoshlarda odatda beshta gultojbarg, ko‘p changchi va urug‘chini o‘rab turgan birikkan changchi iplari bo‘ladi.",
+      "fact_ids": [
+        "paragraph-50-f1"
+      ]
+    },
+    {
+      "title": "Vakillarni aniqlash",
+      "body": "Yerbag‘ir tugmachagul, dorivor gulxayri va g‘o‘za gulxayridoshlarga kiradi; tugmachagul yer bag‘irlab yoki yonboshlab o‘sadi.",
+      "fact_ids": [
+        "paragraph-50-f2"
+      ]
+    },
+    {
+      "title": "G‘o‘zaning mevasi",
+      "body": "Meksika g‘o‘zasining mevasi ko‘sak; uning chigitida tola hosil bo‘ladi, navlari ekin sifatida o‘stiriladi.",
+      "fact_ids": [
+        "paragraph-50-f3"
+      ]
+    },
+    {
+      "title": "Foydali tolali o‘simliklar",
+      "body": "Gulxayridoshlardan g‘o‘za va kanop tola olishda ahamiyatli; darslikda baobab ham shu keng oila tarkibida berilgan.",
+      "fact_ids": [
+        "paragraph-50-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-50-q1",
+      "fact_id": "paragraph-50-f1",
+      "question_text": "Gulxayridosh gulida ko‘p changchi iplari qanday joylashadi?",
+      "options": [
+        "Faqat meva po‘stiga aylanadi",
+        "Birikib urug‘chini o‘rab turadi",
+        "Har doim butunlay yo‘qoladi",
+        "Faqat tuproqqa qarab o‘sadi"
+      ],
+      "correct_answer": "Birikib urug‘chini o‘rab turadi",
+      "explanation": "Gulxayridoshlarda odatda beshta gultojbarg, ko‘p changchi va urug‘chini o‘rab turgan birikkan changchi iplari bo‘ladi."
+    },
+    {
+      "key": "paragraph-50-q2",
+      "fact_id": "paragraph-50-f2",
+      "question_text": "Qaysi qatorda gulxayridoshlar vakillari berilgan?",
+      "options": [
+        "G‘o‘za, gulxayri, tugmachagul",
+        "Karam, jag‘-jag‘, turp",
+        "Bug‘doy, arpa, suli",
+        "Tok, uzum, piyoz"
+      ],
+      "correct_answer": "G‘o‘za, gulxayri, tugmachagul",
+      "explanation": "Yerbag‘ir tugmachagul, dorivor gulxayri va g‘o‘za gulxayridoshlarga kiradi; tugmachagul yer bag‘irlab yoki yonboshlab o‘sadi."
+    },
+    {
+      "key": "paragraph-50-q3",
+      "fact_id": "paragraph-50-f3",
+      "question_text": "G‘o‘zada tola olingach ajratiladigan urug‘ qanday ataladi?",
+      "options": [
+        "Sorus",
+        "Zoospora",
+        "Gulkosa",
+        "Chigit"
+      ],
+      "correct_answer": "Chigit",
+      "explanation": "Meksika g‘o‘zasining mevasi ko‘sak; uning chigitida tola hosil bo‘ladi, navlari ekin sifatida o‘stiriladi."
+    },
+    {
+      "key": "paragraph-50-q4",
+      "fact_id": "paragraph-50-f4",
+      "question_text": "G‘o‘za bilan birga tola manbai sifatida qaysi o‘simlik keltirilgan?",
+      "options": [
+        "Archa",
+        "Qamish",
+        "Kanop",
+        "Lola"
+      ],
+      "correct_answer": "Kanop",
+      "explanation": "Gulxayridoshlardan g‘o‘za va kanop tola olishda ahamiyatli; darslikda baobab ham shu keng oila tarkibida berilgan."
+    }
+  ]
+}

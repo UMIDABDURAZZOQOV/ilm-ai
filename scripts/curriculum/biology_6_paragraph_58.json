@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-58-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-63",
+  "title": "Bug‘doydoshlar (Boshoqdoshlar) oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-58-f1": {
+      "claim": "Bug‘doydoshlarning popuk ildiz tizimi qo‘shimcha ildizlardan tuziladi. Bo‘g‘imlarga bo‘lingan poyasi poxol yoki somon poya deyiladi.",
+      "answer": "Popuk ildiz va bo‘g‘imli poxol poya",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f2": {
+      "claim": "Bug‘doydoshlar bargi poyani o‘rab turadigan barg qini va barg yaprog‘idan iborat. Ularning tutashgan joyida tilcha bo‘ladi.",
+      "answer": "Barg qini va yaprog‘i tutashgan joyda",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f3": {
+      "claim": "Mayda gullar boshoqchalarda, boshoqchalar esa murakkab boshoq yoki ro‘vak kabi to‘pgullarda joylashadi.",
+      "answer": "Boshoqchaga",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f4": {
+      "claim": "Bug‘doydoshlarning mevasi quruq va bir urug‘li don mevadir.",
+      "answer": "Quruq, bir urug‘li don",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f5": {
+      "claim": "Bug‘doy, sholi, makkajo‘xori va oqjo‘xori bug‘doydoshlarga mansub asosiy oziq-ovqat ekinlaridir.",
+      "answer": "Bug‘doy, sholi, makkajo‘xori",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f6": {
+      "claim": "G‘umay va chayir ajriq ildizpoyali ko‘p yillik begona o‘tlardir. Darslik chayir ajriqning ildizpoyasi uzun va sershoxligini ta’kidlaydi.",
+      "answer": "Ildizpoya",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ildiz va poya",
+      "body": "Bug‘doydoshlarning popuk ildiz tizimi qo‘shimcha ildizlardan tuziladi. Bo‘g‘imlarga bo‘lingan poyasi poxol yoki somon poya deyiladi.",
+      "fact_ids": [
+        "paragraph-58-f1"
+      ]
+    },
+    {
+      "title": "Bargning ikki qismi",
+      "body": "Bug‘doydoshlar bargi poyani o‘rab turadigan barg qini va barg yaprog‘idan iborat. Ularning tutashgan joyida tilcha bo‘ladi.",
+      "fact_ids": [
+        "paragraph-58-f2"
+      ]
+    },
+    {
+      "title": "Boshoqchadan to‘pgulga",
+      "body": "Mayda gullar boshoqchalarda, boshoqchalar esa murakkab boshoq yoki ro‘vak kabi to‘pgullarda joylashadi.",
+      "fact_ids": [
+        "paragraph-58-f3"
+      ]
+    },
+    {
+      "title": "Donni tanish",
+      "body": "Bug‘doydoshlarning mevasi quruq va bir urug‘li don mevadir.",
+      "fact_ids": [
+        "paragraph-58-f4"
+      ]
+    },
+    {
+      "title": "Oziq-ovqat ekinlari",
+      "body": "Bug‘doy, sholi, makkajo‘xori va oqjo‘xori bug‘doydoshlarga mansub asosiy oziq-ovqat ekinlaridir.",
+      "fact_ids": [
+        "paragraph-58-f5"
+      ]
+    },
+    {
+      "title": "Begona o‘tning yashovchanligi",
+      "body": "G‘umay va chayir ajriq ildizpoyali ko‘p yillik begona o‘tlardir. Darslik chayir ajriqning ildizpoyasi uzun va sershoxligini ta’kidlaydi.",
+      "fact_ids": [
+        "paragraph-58-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-58-q1",
+      "fact_id": "paragraph-58-f1",
+      "question_text": "Bug‘doydoshlar tavsifiga mos juftlik qaysi?",
+      "options": [
+        "Havo ildizi va yerosti guli",
+        "Popuk ildiz va bo‘g‘imli poxol poya",
+        "O‘qildiz va yog‘och qubba",
+        "Faqat rizoid va bargsiz tallom"
+      ],
+      "correct_answer": "Popuk ildiz va bo‘g‘imli poxol poya",
+      "explanation": "Bug‘doydoshlarning popuk ildiz tizimi qo‘shimcha ildizlardan tuziladi. Bo‘g‘imlarga bo‘lingan poyasi poxol yoki somon poya deyiladi."
+    },
+    {
+      "key": "paragraph-58-q2",
+      "fact_id": "paragraph-58-f2",
+      "question_text": "Bug‘doy bargidagi tilcha qayerda joylashadi?",
+      "options": [
+        "Barg qini va yaprog‘i tutashgan joyda",
+        "Ildizning uchki qismida",
+        "Donning ichki murtagida",
+        "Gulning urug‘kurtagida"
+      ],
+      "correct_answer": "Barg qini va yaprog‘i tutashgan joyda",
+      "explanation": "Bug‘doydoshlar bargi poyani o‘rab turadigan barg qini va barg yaprog‘idan iborat. Ularning tutashgan joyida tilcha bo‘ladi."
+    },
+    {
+      "key": "paragraph-58-q3",
+      "fact_id": "paragraph-58-f3",
+      "question_text": "Bug‘doydoshlarda mayda gullar avval qaysi tuzilmaga birlashadi?",
+      "options": [
+        "Savatcha o‘ramiga",
+        "Piyozboshga",
+        "Ildiz qiniga",
+        "Boshoqchaga"
+      ],
+      "correct_answer": "Boshoqchaga",
+      "explanation": "Mayda gullar boshoqchalarda, boshoqchalar esa murakkab boshoq yoki ro‘vak kabi to‘pgullarda joylashadi."
+    },
+    {
+      "key": "paragraph-58-q4",
+      "fact_id": "paragraph-58-f4",
+      "question_text": "Bug‘doydoshlar mevasiga qaysi ta’rif mos?",
+      "options": [
+        "Uch pallaga ochiladigan ko‘sak",
+        "Ikki pallaga ajraladigan dukkak",
+        "Quruq, bir urug‘li don",
+        "Etli, ko‘p urug‘li qovoqmeva"
+      ],
+      "correct_answer": "Quruq, bir urug‘li don",
+      "explanation": "Bug‘doydoshlarning mevasi quruq va bir urug‘li don mevadir."
+    },
+    {
+      "key": "paragraph-58-q5",
+      "fact_id": "paragraph-58-f5",
+      "question_text": "Bir oilaga mansub donli ekinlar qatorini toping.",
+      "options": [
+        "Makkajo‘xori, karam, pomidor",
+        "Bug‘doy, sholi, makkajo‘xori",
+        "Bug‘doy, piyoz, kartoshka",
+        "Sholi, qovun, tok"
+      ],
+      "correct_answer": "Bug‘doy, sholi, makkajo‘xori",
+      "explanation": "Bug‘doy, sholi, makkajo‘xori va oqjo‘xori bug‘doydoshlarga mansub asosiy oziq-ovqat ekinlaridir."
+    },
+    {
+      "key": "paragraph-58-q6",
+      "fact_id": "paragraph-58-f6",
+      "question_text": "Chayir ajriqda uzun va sershox qaysi organ rivojlangan?",
+      "options": [
+        "Ildizpoya",
+        "Piyozbosh",
+        "Qo‘zoq meva",
+        "Savatcha to‘pgul"
+      ],
+      "correct_answer": "Ildizpoya",
+      "explanation": "G‘umay va chayir ajriq ildizpoyali ko‘p yillik begona o‘tlardir. Darslik chayir ajriqning ildizpoyasi uzun va sershoxligini ta’kidlaydi."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-laboratory-6-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-laboratory-6",
+  "title": "6-laboratoriya. Urug‘ning tuzilishi va unishini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-6-f1": {
+      "claim": "Laboratoriyada ikki urug‘pallali loviya urug‘i va bir urug‘pallali bug‘doy doni tuzilishi o‘rganilib taqqoslanadi.",
+      "answer": "Loviya",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-6-f2": {
+      "claim": "Unish kuzatuvida urug‘lar namlangan qipiq solingan shisha bankaga qo‘yilib, namlik vaqti-vaqti bilan saqlanadi.",
+      "answer": "Namlik",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-6-f3": {
+      "claim": "Har kuni unayotgan urug‘ namunasi ajratilib, 10–12 kun oxirida unish va nish rivojlanishi bosqichlari kolleksiyasi tuziladi.",
+      "answer": "Rivojlanish bosqichlarini taqqoslash",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki namunani taqqoslash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriyada ikki urug‘pallali loviya urug‘i va bir urug‘pallali bug‘doy doni tuzilishi o‘rganilib taqqoslanadi.",
+      "fact_ids": [
+        "laboratory-6-f1"
+      ]
+    },
+    {
+      "title": "Kuzatuv muhitini saqlash",
+      "body": "Unish kuzatuvida urug‘lar namlangan qipiq solingan shisha bankaga qo‘yilib, namlik vaqti-vaqti bilan saqlanadi.",
+      "fact_ids": [
+        "laboratory-6-f2"
+      ]
+    },
+    {
+      "title": "Bosqichli kolleksiya",
+      "body": "Har kuni unayotgan urug‘ namunasi ajratilib, 10–12 kun oxirida unish va nish rivojlanishi bosqichlari kolleksiyasi tuziladi.",
+      "fact_ids": [
+        "laboratory-6-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-6-q1",
+      "fact_id": "laboratory-6-f1",
+      "question_text": "Ikki urug‘pallali namuna sifatida nima tanlanadi?",
+      "options": [
+        "Makkajo‘xori",
+        "Loviya",
+        "Bug‘doy",
+        "Arpa"
+      ],
+      "correct_answer": "Loviya",
+      "explanation": "Laboratoriyada ikki urug‘pallali loviya urug‘i va bir urug‘pallali bug‘doy doni tuzilishi o‘rganilib taqqoslanadi."
+    },
+    {
+      "key": "laboratory-6-q2",
+      "fact_id": "laboratory-6-f2",
+      "question_text": "Urug‘larni kuzatish muhitida qaysi shart ta’minlanadi?",
+      "options": [
+        "Namlik",
+        "Doimiy butunlay quruqlik",
+        "Faqat qalin bo‘yoq qatlami",
+        "Havoni to‘liq yo‘qotish"
+      ],
+      "correct_answer": "Namlik",
+      "explanation": "Unish kuzatuvida urug‘lar namlangan qipiq solingan shisha bankaga qo‘yilib, namlik vaqti-vaqti bilan saqlanadi."
+    },
+    {
+      "key": "laboratory-6-q3",
+      "fact_id": "laboratory-6-f3",
+      "question_text": "Kunlik namunalarni alohida saqlashdan maqsad nima?",
+      "options": [
+        "Barcha namunalarning sanasini yo‘qotish",
+        "Faqat idishlarni to‘ldirish",
+        "Urug‘larni tekshirmasdan tayyor deyish",
+        "Rivojlanish bosqichlarini taqqoslash"
+      ],
+      "correct_answer": "Rivojlanish bosqichlarini taqqoslash",
+      "explanation": "Har kuni unayotgan urug‘ namunasi ajratilib, 10–12 kun oxirida unish va nish rivojlanishi bosqichlari kolleksiyasi tuziladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Urug‘ning tuzilishi va unishini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Ikki namunani taqqoslash",
+        "fact_ids": [
+          "laboratory-6-f1"
+        ]
+      },
+      {
+        "instruction": "Kuzatuv muhitini saqlash",
+        "fact_ids": [
+          "laboratory-6-f2"
+        ]
+      },
+      {
+        "instruction": "Bosqichli kolleksiya",
+        "fact_ids": [
+          "laboratory-6-f3"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-56-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-61",
+  "title": "Loladoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-56-f1": {
+      "claim": "Loladoshlar piyozboshli yoki ildizpoyali ko‘p yillik o‘t o‘simliklardir; barglari oddiy, tomirlanishi parallel yoki yoysimon bo‘ladi.",
+      "answer": "Piyozbosh yoki ildizpoya, parallel yoki yoysimon tomirlanish",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f2": {
+      "claim": "Loladosh gulining oddiy gulqo‘rg‘oni oltita bargchadan, changchilari ham oltitadan iborat; ular uchta-uchtadan ikki doirada joylashadi.",
+      "answer": "Uchta-uchtadan ikki doirada",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f3": {
+      "claim": "Loladoshlar gulida uch mevabargning qo‘shilishidan bitta urug‘chi hosil bo‘ladi; oilada ko‘sak yoki rezavor meva uchraydi.",
+      "answer": "Bitta",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f4": {
+      "claim": "Lola urug‘idan ham, piyozboshidan ham ko‘payadi. Mevasi uch pallaga ochiladigan ko‘sakdir.",
+      "answer": "Uch pallali ko‘sak",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f5": {
+      "claim": "Yovvoyi lolalarni uzish va piyozboshlarini qazib olish ularning kamayishiga sabab bo‘ladi. Tabiatdagi gulni joyida kuzatish uni saqlashga yordam beradi.",
+      "answer": "Gulni piyozboshi bilan qazimasdan joyida kuzatish",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yerosti organi va hayot shakli",
+      "body": "Loladoshlar piyozboshli yoki ildizpoyali ko‘p yillik o‘t o‘simliklardir; barglari oddiy, tomirlanishi parallel yoki yoysimon bo‘ladi.",
+      "fact_ids": [
+        "paragraph-56-f1"
+      ]
+    },
+    {
+      "title": "Gul qismlarini sanash",
+      "body": "Loladosh gulining oddiy gulqo‘rg‘oni oltita bargchadan, changchilari ham oltitadan iborat; ular uchta-uchtadan ikki doirada joylashadi.",
+      "fact_ids": [
+        "paragraph-56-f2"
+      ]
+    },
+    {
+      "title": "Urug‘chi va meva",
+      "body": "Loladoshlar gulida uch mevabargning qo‘shilishidan bitta urug‘chi hosil bo‘ladi; oilada ko‘sak yoki rezavor meva uchraydi.",
+      "fact_ids": [
+        "paragraph-56-f3"
+      ]
+    },
+    {
+      "title": "Lola ko‘payishi",
+      "body": "Lola urug‘idan ham, piyozboshidan ham ko‘payadi. Mevasi uch pallaga ochiladigan ko‘sakdir.",
+      "fact_ids": [
+        "paragraph-56-f4"
+      ]
+    },
+    {
+      "title": "Gulni asrash",
+      "body": "Yovvoyi lolalarni uzish va piyozboshlarini qazib olish ularning kamayishiga sabab bo‘ladi. Tabiatdagi gulni joyida kuzatish uni saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-56-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-56-q1",
+      "fact_id": "paragraph-56-f1",
+      "question_text": "Loladoshlarni tanishda qaysi belgilar birgalikda yordam beradi?",
+      "options": [
+        "Bargsiz tana, faqat sporalar",
+        "Piyozbosh yoki ildizpoya, parallel yoki yoysimon tomirlanish",
+        "Yog‘och tanasi, faqat ignasimon barg",
+        "O‘qildiz, doim murakkab patsimon barg"
+      ],
+      "correct_answer": "Piyozbosh yoki ildizpoya, parallel yoki yoysimon tomirlanish",
+      "explanation": "Loladoshlar piyozboshli yoki ildizpoyali ko‘p yillik o‘t o‘simliklardir; barglari oddiy, tomirlanishi parallel yoki yoysimon bo‘ladi."
+    },
+    {
+      "key": "paragraph-56-q2",
+      "fact_id": "paragraph-56-f2",
+      "question_text": "Lola gulida oltita gulqo‘rg‘on bargchasi qanday joylashgan?",
+      "options": [
+        "Uchta-uchtadan ikki doirada",
+        "Beshtasi tashqarida, bittasi ichkarida",
+        "Oltitasi bitta qubbada",
+        "Ikki-ikkitadan uchta savatchada"
+      ],
+      "correct_answer": "Uchta-uchtadan ikki doirada",
+      "explanation": "Loladosh gulining oddiy gulqo‘rg‘oni oltita bargchadan, changchilari ham oltitadan iborat; ular uchta-uchtadan ikki doirada joylashadi."
+    },
+    {
+      "key": "paragraph-56-q3",
+      "fact_id": "paragraph-56-f3",
+      "question_text": "Uch mevabarg qo‘shilgan loladosh gulida nechta urug‘chi bo‘ladi?",
+      "options": [
+        "Uchta alohida",
+        "Oltita alohida",
+        "Urug‘chi bo‘lmaydi",
+        "Bitta"
+      ],
+      "correct_answer": "Bitta",
+      "explanation": "Loladoshlar gulida uch mevabargning qo‘shilishidan bitta urug‘chi hosil bo‘ladi; oilada ko‘sak yoki rezavor meva uchraydi."
+    },
+    {
+      "key": "paragraph-56-q4",
+      "fact_id": "paragraph-56-f4",
+      "question_text": "Lola mevasi pishgach qanday tuzilma ochiladi?",
+      "options": [
+        "Ikki pallali dukkak",
+        "Go‘shtdor rezavor",
+        "Uch pallali ko‘sak",
+        "Bir urug‘li don"
+      ],
+      "correct_answer": "Uch pallali ko‘sak",
+      "explanation": "Lola urug‘idan ham, piyozboshidan ham ko‘payadi. Mevasi uch pallaga ochiladigan ko‘sakdir."
+    },
+    {
+      "key": "paragraph-56-q5",
+      "fact_id": "paragraph-56-f5",
+      "question_text": "Lola populyatsiyasini saqlashga qaysi xatti-harakat mos?",
+      "options": [
+        "O‘sayotgan maydonni butunlay payhon qilish",
+        "Gulni piyozboshi bilan qazimasdan joyida kuzatish",
+        "Har bir gulning piyozboshini yig‘ish",
+        "Urug‘ yetilmasidan barcha gullarni uzish"
+      ],
+      "correct_answer": "Gulni piyozboshi bilan qazimasdan joyida kuzatish",
+      "explanation": "Yovvoyi lolalarni uzish va piyozboshlarini qazib olish ularning kamayishiga sabab bo‘ladi. Tabiatdagi gulni joyida kuzatish uni saqlashga yordam beradi."
+    }
+  ]
+}

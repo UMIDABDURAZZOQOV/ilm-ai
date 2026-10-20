@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-55-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-60",
+  "title": "Qoqio‘tdoshlar (Murakkabguldoshlar) oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-55-f1": {
+      "claim": "Qoqio‘tdoshlardagi savatcha to‘pgul ko‘plab mayda gullardan tashkil topgan. Uni tashqi tomondan o‘rama barglar o‘rab turadi.",
+      "answer": "Savatchada ko‘plab mayda gullar bor",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f2": {
+      "claim": "Qoqio‘tdoshlar oilasida pista meva hosil bo‘ladi; gultojbarglar birikib turli shakldagi gullarni hosil qiladi.",
+      "answer": "Pista",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f3": {
+      "claim": "Qoqio‘tning pista mevasidagi tukli popuk shamol yordamida tarqalishga xizmat qiladi.",
+      "answer": "Shamolda tarqalishga yordam beradi",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f4": {
+      "claim": "Sachratqi savatchasidagi gullar zangori, tilsimon va ikki jinsli. Kungaboqarda esa savatcha chetidagi tilsimon va o‘rtadagi naysimon gullar farqlanadi.",
+      "answer": "Naysimon gullar",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f5": {
+      "claim": "Shuvoq yozgi qurg‘oqchilikda tinim holatiga o‘tib, kuzda yana o‘sadi; u cho‘l yaylovlarida yem-xashak sifatida ahamiyatli.",
+      "answer": "Yozda tinim, kuzda o‘sish",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f6": {
+      "claim": "Kungaboqar moy olinadigan qoqio‘tdosh ekindir; xrizantema, qo‘qongul va kartoshkagul shu oilaning manzarali vakillaridir.",
+      "answer": "Kungaboqar",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bitta guldek ko‘rinadigan to‘pgul",
+      "body": "Qoqio‘tdoshlardagi savatcha to‘pgul ko‘plab mayda gullardan tashkil topgan. Uni tashqi tomondan o‘rama barglar o‘rab turadi.",
+      "fact_ids": [
+        "paragraph-55-f1"
+      ]
+    },
+    {
+      "title": "Meva turini farqlash",
+      "body": "Qoqio‘tdoshlar oilasida pista meva hosil bo‘ladi; gultojbarglar birikib turli shakldagi gullarni hosil qiladi.",
+      "fact_ids": [
+        "paragraph-55-f2"
+      ]
+    },
+    {
+      "title": "Qoqio‘t va tarqalish",
+      "body": "Qoqio‘tning pista mevasidagi tukli popuk shamol yordamida tarqalishga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-55-f3"
+      ]
+    },
+    {
+      "title": "Gul shakllarini taqqoslash",
+      "body": "Sachratqi savatchasidagi gullar zangori, tilsimon va ikki jinsli. Kungaboqarda esa savatcha chetidagi tilsimon va o‘rtadagi naysimon gullar farqlanadi.",
+      "fact_ids": [
+        "paragraph-55-f4"
+      ]
+    },
+    {
+      "title": "Qurg‘oqchil sharoitga javob",
+      "body": "Shuvoq yozgi qurg‘oqchilikda tinim holatiga o‘tib, kuzda yana o‘sadi; u cho‘l yaylovlarida yem-xashak sifatida ahamiyatli.",
+      "fact_ids": [
+        "paragraph-55-f5"
+      ]
+    },
+    {
+      "title": "Xo‘jalikdagi ahamiyati",
+      "body": "Kungaboqar moy olinadigan qoqio‘tdosh ekindir; xrizantema, qo‘qongul va kartoshkagul shu oilaning manzarali vakillaridir.",
+      "fact_ids": [
+        "paragraph-55-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-55-q1",
+      "fact_id": "paragraph-55-f1",
+      "question_text": "Kungaboqarning savatchasini bitta gul deb hisoblash nega noto‘g‘ri?",
+      "options": [
+        "Savatcha ildiz tugunidir",
+        "Savatchada ko‘plab mayda gullar bor",
+        "Savatcha faqat bitta gulkosachabargdir",
+        "Savatchada faqat bitta urug‘chi bor"
+      ],
+      "correct_answer": "Savatchada ko‘plab mayda gullar bor",
+      "explanation": "Qoqio‘tdoshlardagi savatcha to‘pgul ko‘plab mayda gullardan tashkil topgan. Uni tashqi tomondan o‘rama barglar o‘rab turadi."
+    },
+    {
+      "key": "paragraph-55-q2",
+      "fact_id": "paragraph-55-f2",
+      "question_text": "Qoqio‘tdoshlar uchun qaysi meva turi xos?",
+      "options": [
+        "Pista",
+        "Dukkak",
+        "Rezavor",
+        "Qo‘zoq"
+      ],
+      "correct_answer": "Pista",
+      "explanation": "Qoqio‘tdoshlar oilasida pista meva hosil bo‘ladi; gultojbarglar birikib turli shakldagi gullarni hosil qiladi."
+    },
+    {
+      "key": "paragraph-55-q3",
+      "fact_id": "paragraph-55-f3",
+      "question_text": "Qoqio‘t mevasining yengil tukli popugi nima uchun muhim?",
+      "options": [
+        "Tuproqdan suv shimadi",
+        "Mevani dukkakka aylantiradi",
+        "Changchi o‘rnida chang ishlab chiqaradi",
+        "Shamolda tarqalishga yordam beradi"
+      ],
+      "correct_answer": "Shamolda tarqalishga yordam beradi",
+      "explanation": "Qoqio‘tning pista mevasidagi tukli popuk shamol yordamida tarqalishga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-55-q4",
+      "fact_id": "paragraph-55-f4",
+      "question_text": "Kungaboqar savatchasining o‘rtasida qaysi shakldagi gullar joylashadi?",
+      "options": [
+        "Faqat voronkasimon gullar",
+        "Ignasimon barglar",
+        "Naysimon gullar",
+        "Faqat tilsimon gullar"
+      ],
+      "correct_answer": "Naysimon gullar",
+      "explanation": "Sachratqi savatchasidagi gullar zangori, tilsimon va ikki jinsli. Kungaboqarda esa savatcha chetidagi tilsimon va o‘rtadagi naysimon gullar farqlanadi."
+    },
+    {
+      "key": "paragraph-55-q5",
+      "fact_id": "paragraph-55-f5",
+      "question_text": "Shuvoqning yoz va kuzdagi holatini qanday bog‘lash to‘g‘ri?",
+      "options": [
+        "Yozda suvosti hayoti, kuzda sporalanish",
+        "Yozda tinim, kuzda o‘sish",
+        "Yozda muzlash, kuzda butunlay yo‘qolish",
+        "Yozda don yetilishi, kuzda qubba hosil bo‘lishi"
+      ],
+      "correct_answer": "Yozda tinim, kuzda o‘sish",
+      "explanation": "Shuvoq yozgi qurg‘oqchilikda tinim holatiga o‘tib, kuzda yana o‘sadi; u cho‘l yaylovlarida yem-xashak sifatida ahamiyatli."
+    },
+    {
+      "key": "paragraph-55-q6",
+      "fact_id": "paragraph-55-f6",
+      "question_text": "Qoqio‘tdoshlardan qaysi ekin urug‘idan moy olinadi?",
+      "options": [
+        "Kungaboqar",
+        "Tok",
+        "Bug‘doy",
+        "Bosh piyoz"
+      ],
+      "correct_answer": "Kungaboqar",
+      "explanation": "Kungaboqar moy olinadigan qoqio‘tdosh ekindir; xrizantema, qo‘qongul va kartoshkagul shu oilaning manzarali vakillaridir."
+    }
+  ]
+}

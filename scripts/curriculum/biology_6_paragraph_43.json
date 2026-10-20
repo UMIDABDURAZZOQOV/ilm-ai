@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-43-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-48",
+  "title": "Qirqbo‘g‘imlar bo‘limi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-43-f1": {
+      "claim": "Dala qirqbo‘g‘imi ildizpoyali ko‘p yillik o‘t; poyasi bo‘g‘imlarga ajralgan, mayda barglari bo‘g‘imlarda halqa hosil qiladi.",
+      "answer": "Bo‘g‘imli va bo‘g‘imlarida halqali bargli",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f2": {
+      "claim": "Dala qirqbo‘g‘imining qo‘ng‘ir, shoxlanmagan bahorgi novdasi uchida sporali boshoq yetiladi.",
+      "answer": "Bahorgi qo‘ng‘ir novdasida",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f3": {
+      "claim": "Yozgi yashil, shoxlangan vegetativ novda fotosintez qiladi; qirqbo‘g‘im ildizpoya orqali ham ko‘payadi.",
+      "answer": "Fotosintez",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f4": {
+      "claim": "Qirqbo‘g‘imlarda spermatozoidning tuxum hujayraga yetib borib qo‘shilishi suv ishtirokida amalga oshadi.",
+      "answer": "Suv",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bo‘g‘imli tuzilish",
+      "body": "Dala qirqbo‘g‘imi ildizpoyali ko‘p yillik o‘t; poyasi bo‘g‘imlarga ajralgan, mayda barglari bo‘g‘imlarda halqa hosil qiladi.",
+      "fact_ids": [
+        "paragraph-43-f1"
+      ]
+    },
+    {
+      "title": "Bahorgi novda",
+      "body": "Dala qirqbo‘g‘imining qo‘ng‘ir, shoxlanmagan bahorgi novdasi uchida sporali boshoq yetiladi.",
+      "fact_ids": [
+        "paragraph-43-f2"
+      ]
+    },
+    {
+      "title": "Yozgi novda",
+      "body": "Yozgi yashil, shoxlangan vegetativ novda fotosintez qiladi; qirqbo‘g‘im ildizpoya orqali ham ko‘payadi.",
+      "fact_ids": [
+        "paragraph-43-f3"
+      ]
+    },
+    {
+      "title": "Urug‘lanish muhiti",
+      "body": "Qirqbo‘g‘imlarda spermatozoidning tuxum hujayraga yetib borib qo‘shilishi suv ishtirokida amalga oshadi.",
+      "fact_ids": [
+        "paragraph-43-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-43-q1",
+      "fact_id": "paragraph-43-f1",
+      "question_text": "Dala qirqbo‘g‘imining poyasiga qaysi tavsif mos?",
+      "options": [
+        "Faqat urug‘palladan iborat",
+        "Bo‘g‘imli va bo‘g‘imlarida halqali bargli",
+        "Yirik gulli va mevali",
+        "Bir hujayrali va xivchinli"
+      ],
+      "correct_answer": "Bo‘g‘imli va bo‘g‘imlarida halqali bargli",
+      "explanation": "Dala qirqbo‘g‘imi ildizpoyali ko‘p yillik o‘t; poyasi bo‘g‘imlarga ajralgan, mayda barglari bo‘g‘imlarda halqa hosil qiladi."
+    },
+    {
+      "key": "paragraph-43-q2",
+      "fact_id": "paragraph-43-f2",
+      "question_text": "Sporali boshoq dala qirqbo‘g‘imining qaysi novdasida hosil bo‘ladi?",
+      "options": [
+        "Bahorgi qo‘ng‘ir novdasida",
+        "Faqat yashil yozgi novdasida",
+        "Faqat ildiz tukchasida",
+        "Faqat urug‘pallasida"
+      ],
+      "correct_answer": "Bahorgi qo‘ng‘ir novdasida",
+      "explanation": "Dala qirqbo‘g‘imining qo‘ng‘ir, shoxlanmagan bahorgi novdasi uchida sporali boshoq yetiladi."
+    },
+    {
+      "key": "paragraph-43-q3",
+      "fact_id": "paragraph-43-f3",
+      "question_text": "Yashil yozgi qirqbo‘g‘im novdasining muhim vazifasi qaysi?",
+      "options": [
+        "Faqat meva pishirish",
+        "Faqat urug‘palla chiqarish",
+        "Faqat gul changini tarqatish",
+        "Fotosintez"
+      ],
+      "correct_answer": "Fotosintez",
+      "explanation": "Yozgi yashil, shoxlangan vegetativ novda fotosintez qiladi; qirqbo‘g‘im ildizpoya orqali ham ko‘payadi."
+    },
+    {
+      "key": "paragraph-43-q4",
+      "fact_id": "paragraph-43-f4",
+      "question_text": "Qirqbo‘g‘imning urug‘lanishida qaysi tashqi sharoit zarur?",
+      "options": [
+        "Faqat shamoldagi gul changi",
+        "Faqat meva ichidagi issiqlik",
+        "Suv",
+        "Mutlaq quruqlik"
+      ],
+      "correct_answer": "Suv",
+      "explanation": "Qirqbo‘g‘imlarda spermatozoidning tuxum hujayraga yetib borib qo‘shilishi suv ishtirokida amalga oshadi."
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-32-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-36",
+  "title": "Gullarning changlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-32-f1": {
+      "claim": "Changdondan chiqqan changning urug‘chi tumshuqchasiga tushishi changlanish deyiladi; bu hali jinsiy hujayralar qo‘shilishi emas.",
+      "answer": "Urug‘chi tumshuqchasiga",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f2": {
+      "claim": "Hasharotlar gul nektari va changidan foydalanib, tanasiga yopishgan changni boshqa gullarga olib o‘tadi.",
+      "answer": "Tanadagi changni boshqa gulga ko‘chiradi",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f3": {
+      "claim": "Shamol bilan changlanuvchi ko‘p o‘simliklarda gullar mayda va hidsiz, chang esa yengil va ko‘p bo‘ladi.",
+      "answer": "Shamol bilan changlanishga",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f4": {
+      "claim": "Chang shu gulning urug‘chi tumshuqchasiga tushsa o‘z-o‘zidan changlanish yuz beradi.",
+      "answer": "O‘z-o‘zidan changlanish",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f5": {
+      "claim": "Odamning changni gul tumshuqchasiga ko‘chirishi sun’iy changlatish deyiladi; bu yangi navlar yaratish va hosildorlikda qo‘llanadi.",
+      "answer": "Sun’iy changlatish",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Changlanishning chegarasi",
+      "body": "Changdondan chiqqan changning urug‘chi tumshuqchasiga tushishi changlanish deyiladi; bu hali jinsiy hujayralar qo‘shilishi emas.",
+      "fact_ids": [
+        "paragraph-32-f1"
+      ]
+    },
+    {
+      "title": "Hasharotning yordami",
+      "body": "Hasharotlar gul nektari va changidan foydalanib, tanasiga yopishgan changni boshqa gullarga olib o‘tadi.",
+      "fact_ids": [
+        "paragraph-32-f2"
+      ]
+    },
+    {
+      "title": "Shamolga moslashuv",
+      "body": "Shamol bilan changlanuvchi ko‘p o‘simliklarda gullar mayda va hidsiz, chang esa yengil va ko‘p bo‘ladi.",
+      "fact_ids": [
+        "paragraph-32-f3"
+      ]
+    },
+    {
+      "title": "O‘zidan changlanish",
+      "body": "Chang shu gulning urug‘chi tumshuqchasiga tushsa o‘z-o‘zidan changlanish yuz beradi.",
+      "fact_ids": [
+        "paragraph-32-f4"
+      ]
+    },
+    {
+      "title": "Insonning ishtiroki",
+      "body": "Odamning changni gul tumshuqchasiga ko‘chirishi sun’iy changlatish deyiladi; bu yangi navlar yaratish va hosildorlikda qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-32-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-32-q1",
+      "fact_id": "paragraph-32-f1",
+      "question_text": "Changlanishda chang qayerga tushadi?",
+      "options": [
+        "Meva po‘sti ichiga",
+        "Urug‘chi tumshuqchasiga",
+        "Ildiz qinchasiga",
+        "Murtak ildizchasiga"
+      ],
+      "correct_answer": "Urug‘chi tumshuqchasiga",
+      "explanation": "Changdondan chiqqan changning urug‘chi tumshuqchasiga tushishi changlanish deyiladi; bu hali jinsiy hujayralar qo‘shilishi emas."
+    },
+    {
+      "key": "paragraph-32-q2",
+      "fact_id": "paragraph-32-f2",
+      "question_text": "Asalarining guldan gulga o‘tishi changlanishga qanday yordam beradi?",
+      "options": [
+        "Tanadagi changni boshqa gulga ko‘chiradi",
+        "Barcha changni urug‘ga aylantiradi",
+        "Gulbandni ildizga aylantiradi",
+        "Ildiz bosimini yo‘qotadi"
+      ],
+      "correct_answer": "Tanadagi changni boshqa gulga ko‘chiradi",
+      "explanation": "Hasharotlar gul nektari va changidan foydalanib, tanasiga yopishgan changni boshqa gullarga olib o‘tadi."
+    },
+    {
+      "key": "paragraph-32-q3",
+      "fact_id": "paragraph-32-f3",
+      "question_text": "Yengil va ko‘p chang hamda mayda hidsiz gullar qaysi usulga mos?",
+      "options": [
+        "Faqat suv ostida urug‘ unishiga",
+        "Faqat ildiz bachkisi hosil bo‘lishiga",
+        "Faqat meva yeyilishiga",
+        "Shamol bilan changlanishga"
+      ],
+      "correct_answer": "Shamol bilan changlanishga",
+      "explanation": "Shamol bilan changlanuvchi ko‘p o‘simliklarda gullar mayda va hidsiz, chang esa yengil va ko‘p bo‘ladi."
+    },
+    {
+      "key": "paragraph-32-q4",
+      "fact_id": "paragraph-32-f4",
+      "question_text": "Chang aynan o‘sha gulning tumshuqchasiga tushsa qanday changlanish deyiladi?",
+      "options": [
+        "Faqat payvandlash",
+        "Faqat parxish",
+        "O‘z-o‘zidan changlanish",
+        "Chetdan changlanish"
+      ],
+      "correct_answer": "O‘z-o‘zidan changlanish",
+      "explanation": "Chang shu gulning urug‘chi tumshuqchasiga tushsa o‘z-o‘zidan changlanish yuz beradi."
+    },
+    {
+      "key": "paragraph-32-q5",
+      "fact_id": "paragraph-32-f5",
+      "question_text": "Changni inson maqsadli ravishda ko‘chirsa qaysi usul bo‘ladi?",
+      "options": [
+        "Faqat tugunak hosil bo‘lishi",
+        "Sun’iy changlatish",
+        "Ildiz bosimi",
+        "Tabiiy xazonrezgilik"
+      ],
+      "correct_answer": "Sun’iy changlatish",
+      "explanation": "Odamning changni gul tumshuqchasiga ko‘chirishi sun’iy changlatish deyiladi; bu yangi navlar yaratish va hosildorlikda qo‘llanadi."
+    }
+  ]
+}

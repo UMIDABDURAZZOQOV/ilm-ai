@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-38-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-43",
+  "title": "O‘simliklar sistematikasi haqida tushuncha",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-38-f1": {
+      "claim": "O‘simliklar sistematikasi ularni o‘xshashlik, kelib chiqish va rivojlanish belgilariga qarab guruhlaydi; eng kichik asosiy birlik turdir.",
+      "answer": "Tur",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f2": {
+      "claim": "Binar nomenklaturada o‘simlik nomi turkum nomi va turni bildiruvchi so‘z bilan beriladi; ilmiy nomlar lotincha qo‘llanadi.",
+      "answer": "Turkum va turni",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f3": {
+      "claim": "Yaqin turlar turkumga, yaqin turkumlar oilaga birlashadi; bodom, olma va na’matak turkumlari ra’nodoshlar oilasiga kiradi.",
+      "answer": "Oilani",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f4": {
+      "claim": "O‘simliklar sistematik birliklari kichikdan kattaga tur, turkum, oila, sinf, bo‘lim va dunyo tartibida joylashadi.",
+      "answer": "Sinf",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f5": {
+      "claim": "Meksika g‘o‘zasi g‘o‘za turkumiga, bu turkum esa gulxayridoshlar oilasiga kiradi.",
+      "answer": "Gulxayridoshlar",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Sistema nimaga kerak?",
+      "body": "O‘simliklar sistematikasi ularni o‘xshashlik, kelib chiqish va rivojlanish belgilariga qarab guruhlaydi; eng kichik asosiy birlik turdir.",
+      "fact_ids": [
+        "paragraph-38-f1"
+      ]
+    },
+    {
+      "title": "Qo‘shaloq nom",
+      "body": "Binar nomenklaturada o‘simlik nomi turkum nomi va turni bildiruvchi so‘z bilan beriladi; ilmiy nomlar lotincha qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-38-f2"
+      ]
+    },
+    {
+      "title": "Yaqin guruhlarni birlashtirish",
+      "body": "Yaqin turlar turkumga, yaqin turkumlar oilaga birlashadi; bodom, olma va na’matak turkumlari ra’nodoshlar oilasiga kiradi.",
+      "fact_ids": [
+        "paragraph-38-f3"
+      ]
+    },
+    {
+      "title": "Katta birliklar tartibi",
+      "body": "O‘simliklar sistematik birliklari kichikdan kattaga tur, turkum, oila, sinf, bo‘lim va dunyo tartibida joylashadi.",
+      "fact_ids": [
+        "paragraph-38-f4"
+      ]
+    },
+    {
+      "title": "G‘o‘za misoli",
+      "body": "Meksika g‘o‘zasi g‘o‘za turkumiga, bu turkum esa gulxayridoshlar oilasiga kiradi.",
+      "fact_ids": [
+        "paragraph-38-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-38-q1",
+      "fact_id": "paragraph-38-f1",
+      "question_text": "O‘simliklar sistemasidagi eng kichik asosiy birlik qaysi?",
+      "options": [
+        "Bo‘lim",
+        "Tur",
+        "Oila",
+        "Sinf"
+      ],
+      "correct_answer": "Tur",
+      "explanation": "O‘simliklar sistematikasi ularni o‘xshashlik, kelib chiqish va rivojlanish belgilariga qarab guruhlaydi; eng kichik asosiy birlik turdir."
+    },
+    {
+      "key": "paragraph-38-q2",
+      "fact_id": "paragraph-38-f2",
+      "question_text": "Binar nomlashda ikki so‘z nimani ajratishga xizmat qiladi?",
+      "options": [
+        "Turkum va turni",
+        "Faqat oila va sinfni",
+        "Faqat barg va poyani",
+        "Faqat mamlakat va shaharni"
+      ],
+      "correct_answer": "Turkum va turni",
+      "explanation": "Binar nomenklaturada o‘simlik nomi turkum nomi va turni bildiruvchi so‘z bilan beriladi; ilmiy nomlar lotincha qo‘llanadi."
+    },
+    {
+      "key": "paragraph-38-q3",
+      "fact_id": "paragraph-38-f3",
+      "question_text": "Bir-biriga yaqin turkumlar qaysi birlikni hosil qiladi?",
+      "options": [
+        "Bitta hujayrani",
+        "Bitta urug‘pallani",
+        "Faqat ildiz tizimini",
+        "Oilani"
+      ],
+      "correct_answer": "Oilani",
+      "explanation": "Yaqin turlar turkumga, yaqin turkumlar oilaga birlashadi; bodom, olma va na’matak turkumlari ra’nodoshlar oilasiga kiradi."
+    },
+    {
+      "key": "paragraph-38-q4",
+      "fact_id": "paragraph-38-f4",
+      "question_text": "Oila va bo‘lim orasidagi birlik qaysi?",
+      "options": [
+        "Turkum",
+        "Urug‘",
+        "Sinf",
+        "Tur"
+      ],
+      "correct_answer": "Sinf",
+      "explanation": "O‘simliklar sistematik birliklari kichikdan kattaga tur, turkum, oila, sinf, bo‘lim va dunyo tartibida joylashadi."
+    },
+    {
+      "key": "paragraph-38-q5",
+      "fact_id": "paragraph-38-f5",
+      "question_text": "G‘o‘za qaysi oilaga mansub?",
+      "options": [
+        "Loladoshlar",
+        "Gulxayridoshlar",
+        "Ra’nodoshlar",
+        "Bug‘doydoshlar"
+      ],
+      "correct_answer": "Gulxayridoshlar",
+      "explanation": "Meksika g‘o‘zasi g‘o‘za turkumiga, bu turkum esa gulxayridoshlar oilasiga kiradi."
+    }
+  ]
+}

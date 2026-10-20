@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-48-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-53",
+  "title": "Karamdoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-48-f1": {
+      "claim": "Karamdoshlarda to‘rtta erkin gulkosachabarg, to‘rtta gultojbarg, oltita changchi va bitta urug‘chi bo‘ladi; gullar ko‘pincha shingilda joylashadi.",
+      "answer": "Karamdoshlar",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f2": {
+      "claim": "Karamdoshlar mevasi qo‘zoq yoki qisqaroq qo‘zoqcha bo‘lib, pishganda ikki pallaga ochiladi.",
+      "answer": "Qo‘zoq yoki qo‘zoqcha",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f3": {
+      "claim": "Jag‘-jag‘ gullari shingilda, mevasi yuraksimon qo‘zoqcha; bu oilaning yovvoyi vakillaridan biridir.",
+      "answer": "Jag‘-jag‘",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f4": {
+      "claim": "Karam, sholg‘om, rediska va turp karamdosh sabzavot ekinlari; o‘sma bo‘yoq beruvchi vakil sifatida o‘stiriladi.",
+      "answer": "Karam, sholg‘om, turp",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gul formulasidan tanish",
+      "body": "Karamdoshlarda to‘rtta erkin gulkosachabarg, to‘rtta gultojbarg, oltita changchi va bitta urug‘chi bo‘ladi; gullar ko‘pincha shingilda joylashadi.",
+      "fact_ids": [
+        "paragraph-48-f1"
+      ]
+    },
+    {
+      "title": "Meva belgisi",
+      "body": "Karamdoshlar mevasi qo‘zoq yoki qisqaroq qo‘zoqcha bo‘lib, pishganda ikki pallaga ochiladi.",
+      "fact_ids": [
+        "paragraph-48-f2"
+      ]
+    },
+    {
+      "title": "Jag‘-jag‘ni tanish",
+      "body": "Jag‘-jag‘ gullari shingilda, mevasi yuraksimon qo‘zoqcha; bu oilaning yovvoyi vakillaridan biridir.",
+      "fact_ids": [
+        "paragraph-48-f3"
+      ]
+    },
+    {
+      "title": "Madaniy vakillar",
+      "body": "Karam, sholg‘om, rediska va turp karamdosh sabzavot ekinlari; o‘sma bo‘yoq beruvchi vakil sifatida o‘stiriladi.",
+      "fact_ids": [
+        "paragraph-48-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-48-q1",
+      "fact_id": "paragraph-48-f1",
+      "question_text": "To‘rt gultojbarg va 4+2 changchi qaysi oilaga xos belgi?",
+      "options": [
+        "Piyozdoshlar",
+        "Karamdoshlar",
+        "Ra’nodoshlar",
+        "Bug‘doydoshlar"
+      ],
+      "correct_answer": "Karamdoshlar",
+      "explanation": "Karamdoshlarda to‘rtta erkin gulkosachabarg, to‘rtta gultojbarg, oltita changchi va bitta urug‘chi bo‘ladi; gullar ko‘pincha shingilda joylashadi."
+    },
+    {
+      "key": "paragraph-48-q2",
+      "fact_id": "paragraph-48-f2",
+      "question_text": "Karamdosh namunani aniqlashda qaysi meva mos?",
+      "options": [
+        "Qo‘zoq yoki qo‘zoqcha",
+        "Dukkak",
+        "Danakli meva",
+        "Rezavor meva"
+      ],
+      "correct_answer": "Qo‘zoq yoki qo‘zoqcha",
+      "explanation": "Karamdoshlar mevasi qo‘zoq yoki qisqaroq qo‘zoqcha bo‘lib, pishganda ikki pallaga ochiladi."
+    },
+    {
+      "key": "paragraph-48-q3",
+      "fact_id": "paragraph-48-f3",
+      "question_text": "Yuraksimon qo‘zoqcha mevali yovvoyi karamdosh qaysi?",
+      "options": [
+        "Loviya",
+        "Na’matak",
+        "Bug‘doy",
+        "Jag‘-jag‘"
+      ],
+      "correct_answer": "Jag‘-jag‘",
+      "explanation": "Jag‘-jag‘ gullari shingilda, mevasi yuraksimon qo‘zoqcha; bu oilaning yovvoyi vakillaridan biridir."
+    },
+    {
+      "key": "paragraph-48-q4",
+      "fact_id": "paragraph-48-f4",
+      "question_text": "Qaysi guruh faqat karamdosh sabzavotlardan iborat?",
+      "options": [
+        "No‘xat, loviya, soya",
+        "Olma, nok, shaftoli",
+        "Karam, sholg‘om, turp",
+        "Pomidor, kartoshka, qalampir"
+      ],
+      "correct_answer": "Karam, sholg‘om, turp",
+      "explanation": "Karam, sholg‘om, rediska va turp karamdosh sabzavot ekinlari; o‘sma bo‘yoq beruvchi vakil sifatida o‘stiriladi."
+    }
+  ]
+}

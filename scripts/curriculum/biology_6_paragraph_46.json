@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-46-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-51",
+  "title": "Yopiq urug‘li o‘simliklar haqida ma’lumotlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-46-f1": {
+      "claim": "Yopiq urug‘lilarning urug‘kurtagi urug‘chi tugunchasi ichida, urug‘i esa meva ichida yetiladi.",
+      "answer": "Tuguncha ichida",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f2": {
+      "claim": "Haqiqiy gul va qo‘sh urug‘lanish yopiq urug‘lilarning muhim belgilaridir.",
+      "answer": "Gul va qo‘sh urug‘lanish",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f3": {
+      "claim": "Darslik taqqoslashida bir urug‘pallalilarda bitta urug‘palla va odatda parallel/yoysimon tomirlanish; ikki urug‘pallalilarda ikkita urug‘palla va to‘rsimon tomirlanish berilgan.",
+      "answer": "Bir urug‘pallalilarga",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f4": {
+      "claim": "Bir urug‘pallalilar gul qismlari ko‘pincha uchtadan, ikki urug‘pallalilarda esa to‘rt yoki beshtadan joylashadi.",
+      "answer": "Bir urug‘pallalilarga",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Urug‘kurtak himoyasi",
+      "body": "Yopiq urug‘lilarning urug‘kurtagi urug‘chi tugunchasi ichida, urug‘i esa meva ichida yetiladi.",
+      "fact_ids": [
+        "paragraph-46-f1"
+      ]
+    },
+    {
+      "title": "Muhim ko‘payish belgisi",
+      "body": "Haqiqiy gul va qo‘sh urug‘lanish yopiq urug‘lilarning muhim belgilaridir.",
+      "fact_ids": [
+        "paragraph-46-f2"
+      ]
+    },
+    {
+      "title": "Belgilar majmuasi",
+      "body": "Darslik taqqoslashida bir urug‘pallalilarda bitta urug‘palla va odatda parallel/yoysimon tomirlanish; ikki urug‘pallalilarda ikkita urug‘palla va to‘rsimon tomirlanish berilgan.",
+      "fact_ids": [
+        "paragraph-46-f3"
+      ]
+    },
+    {
+      "title": "Gul qismlarining soni",
+      "body": "Bir urug‘pallalilar gul qismlari ko‘pincha uchtadan, ikki urug‘pallalilarda esa to‘rt yoki beshtadan joylashadi.",
+      "fact_ids": [
+        "paragraph-46-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-46-q1",
+      "fact_id": "paragraph-46-f1",
+      "question_text": "Yopiq urug‘lida urug‘kurtakning dastlabki himoya joyi qayer?",
+      "options": [
+        "Faqat ildiz uchida",
+        "Tuguncha ichida",
+        "Qubba tangachasi ustida ochiq",
+        "Faqat barg tukchasi ustida"
+      ],
+      "correct_answer": "Tuguncha ichida",
+      "explanation": "Yopiq urug‘lilarning urug‘kurtagi urug‘chi tugunchasi ichida, urug‘i esa meva ichida yetiladi."
+    },
+    {
+      "key": "paragraph-46-q2",
+      "fact_id": "paragraph-46-f2",
+      "question_text": "Qaysi belgilar birgalikda yopiq urug‘lilarga xos?",
+      "options": [
+        "Gul va qo‘sh urug‘lanish",
+        "Faqat sorus va spora",
+        "Faqat ko‘sakchali yo‘sin sporofiti",
+        "Faqat ochiq qubba tangachasi"
+      ],
+      "correct_answer": "Gul va qo‘sh urug‘lanish",
+      "explanation": "Haqiqiy gul va qo‘sh urug‘lanish yopiq urug‘lilarning muhim belgilaridir."
+    },
+    {
+      "key": "paragraph-46-q3",
+      "fact_id": "paragraph-46-f3",
+      "question_text": "Bitta urug‘palla va parallel tomirlanish qaysi guruhga mos?",
+      "options": [
+        "Ikki urug‘pallalilarga",
+        "Yo‘sinlarga",
+        "Qirqquloqlarga",
+        "Bir urug‘pallalilarga"
+      ],
+      "correct_answer": "Bir urug‘pallalilarga",
+      "explanation": "Darslik taqqoslashida bir urug‘pallalilarda bitta urug‘palla va odatda parallel/yoysimon tomirlanish; ikki urug‘pallalilarda ikkita urug‘palla va to‘rsimon tomirlanish berilgan."
+    },
+    {
+      "key": "paragraph-46-q4",
+      "fact_id": "paragraph-46-f4",
+      "question_text": "Gul qismlari uchtadan, murtagi bir urug‘pallali namuna qaysi guruhga mos?",
+      "options": [
+        "Ochiq urug‘lilarga",
+        "Suvo‘tlarga",
+        "Bir urug‘pallalilarga",
+        "Ikki urug‘pallalilarga"
+      ],
+      "correct_answer": "Bir urug‘pallalilarga",
+      "explanation": "Bir urug‘pallalilar gul qismlari ko‘pincha uchtadan, ikki urug‘pallalilarda esa to‘rt yoki beshtadan joylashadi."
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-40-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-45",
+  "title": "Ko‘p hujayrali yashil suvo‘tlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-40-f1": {
+      "claim": "Ulotriks qattanasida bir qator hujayralar zanjir kabi joylashadi, ip shoxlanmaydi; pastki hujayra rizoid bo‘lib yopishadi.",
+      "answer": "Rizoid",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f2": {
+      "claim": "Ulotriksning jinssiz ko‘payishida hosil bo‘lgan zoosporalar to‘rtta xivchin bilan suzadi.",
+      "answer": "To‘rtta xivchin",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f3": {
+      "claim": "Ulotriksning jinsiy ko‘payishida ikki xivchinli izogametalar qo‘shilib, qalin qobiqli zigota hosil qiladi.",
+      "answer": "Izogametalar",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f4": {
+      "claim": "Spirogira ipi shoxlanmagan va suvda erkin qalqiydi; kladofora tallomi esa shoxlangan bo‘ladi.",
+      "answer": "Kladofora",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f5": {
+      "claim": "Spirogira rasmida xromatofor hujayra ichida spiral tasma ko‘rinishida, ulotriksda esa belbog‘simon tasvirlangan.",
+      "answer": "Xromatofor shakli orqali",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ipsimon tallom",
+      "body": "Ulotriks qattanasida bir qator hujayralar zanjir kabi joylashadi, ip shoxlanmaydi; pastki hujayra rizoid bo‘lib yopishadi.",
+      "fact_ids": [
+        "paragraph-40-f1"
+      ]
+    },
+    {
+      "title": "Zoospora harakati",
+      "body": "Ulotriksning jinssiz ko‘payishida hosil bo‘lgan zoosporalar to‘rtta xivchin bilan suzadi.",
+      "fact_ids": [
+        "paragraph-40-f2"
+      ]
+    },
+    {
+      "title": "Gametalardan zigota",
+      "body": "Ulotriksning jinsiy ko‘payishida ikki xivchinli izogametalar qo‘shilib, qalin qobiqli zigota hosil qiladi.",
+      "fact_ids": [
+        "paragraph-40-f3"
+      ]
+    },
+    {
+      "title": "Shoxlanishni taqqoslash",
+      "body": "Spirogira ipi shoxlanmagan va suvda erkin qalqiydi; kladofora tallomi esa shoxlangan bo‘ladi.",
+      "fact_ids": [
+        "paragraph-40-f4"
+      ]
+    },
+    {
+      "title": "Xromatofor shakli",
+      "body": "Spirogira rasmida xromatofor hujayra ichida spiral tasma ko‘rinishida, ulotriksda esa belbog‘simon tasvirlangan.",
+      "fact_ids": [
+        "paragraph-40-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-40-q1",
+      "fact_id": "paragraph-40-f1",
+      "question_text": "Ulotriksning substratga birikkan pastki hujayrasi nima deyiladi?",
+      "options": [
+        "Gulband",
+        "Rizoid",
+        "Haqiqiy ildiz",
+        "Urug‘palla"
+      ],
+      "correct_answer": "Rizoid",
+      "explanation": "Ulotriks qattanasida bir qator hujayralar zanjir kabi joylashadi, ip shoxlanmaydi; pastki hujayra rizoid bo‘lib yopishadi."
+    },
+    {
+      "key": "paragraph-40-q2",
+      "fact_id": "paragraph-40-f2",
+      "question_text": "Ulotriks zoosporasining harakatlanishiga nima yordam beradi?",
+      "options": [
+        "To‘rtta xivchin",
+        "Ikkita barg",
+        "Bitta gulband",
+        "Haqiqiy ildizlar"
+      ],
+      "correct_answer": "To‘rtta xivchin",
+      "explanation": "Ulotriksning jinssiz ko‘payishida hosil bo‘lgan zoosporalar to‘rtta xivchin bilan suzadi."
+    },
+    {
+      "key": "paragraph-40-q3",
+      "fact_id": "paragraph-40-f3",
+      "question_text": "Ulotriksning jinsiy ko‘payishidagi hujayralar jufti qaysi?",
+      "options": [
+        "Faqat ildiz tukchalari",
+        "Faqat gultojlar",
+        "Faqat meva pallalari",
+        "Izogametalar"
+      ],
+      "correct_answer": "Izogametalar",
+      "explanation": "Ulotriksning jinsiy ko‘payishida ikki xivchinli izogametalar qo‘shilib, qalin qobiqli zigota hosil qiladi."
+    },
+    {
+      "key": "paragraph-40-q4",
+      "fact_id": "paragraph-40-f4",
+      "question_text": "Shoxlangan tallom qaysi yashil suvo‘tga xos?",
+      "options": [
+        "Spirogira",
+        "Xlorella",
+        "Kladofora",
+        "Ulotriks"
+      ],
+      "correct_answer": "Kladofora",
+      "explanation": "Spirogira ipi shoxlanmagan va suvda erkin qalqiydi; kladofora tallomi esa shoxlangan bo‘ladi."
+    },
+    {
+      "key": "paragraph-40-q5",
+      "fact_id": "paragraph-40-f5",
+      "question_text": "Spirogira bilan ulotriksni hujayra ichida qaysi belgi orqali farqlash mumkin?",
+      "options": [
+        "Faqat meva turi orqali",
+        "Xromatofor shakli orqali",
+        "Faqat gul soni orqali",
+        "Faqat urug‘palla soni orqali"
+      ],
+      "correct_answer": "Xromatofor shakli orqali",
+      "explanation": "Spirogira rasmida xromatofor hujayra ichida spiral tasma ko‘rinishida, ulotriksda esa belbog‘simon tasvirlangan."
+    }
+  ]
+}

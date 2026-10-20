@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-51-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-56",
+  "title": "Burchoqdoshlar (Dukkakdoshlar) oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-51-f1": {
+      "claim": "Burchoqdoshlar ildizidagi tuganak bakteriyalari havodagi azotni o‘zlashtirib, tuproqni azotli birikmalar bilan boyitadi.",
+      "answer": "Azotli birikmalarga",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f2": {
+      "claim": "Burchoqdoshlarning odatiy kapalakguli yelkancha, ikki eshkakcha va qo‘shilgan ikki gultojbargli qayiqchadan iborat.",
+      "answer": "Yelkancha",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f3": {
+      "claim": "Ko‘p burchoqdoshlarda o‘nta changchidan to‘qqiztasining ipi birikkan, bittasi erkin; mevasi dukkakdir.",
+      "answer": "Dukkak",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f4": {
+      "claim": "Yeryong‘oq guli urug‘langach uning meva hosil qiluvchi qismi tuproqqa kirib, dukkagi yer ostida rivojlanadi.",
+      "answer": "Tuproq ichida",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f5": {
+      "claim": "Mosh, no‘xat, loviya, soya va yasmiq madaniy burchoqdoshlar; beda va sebarga yem-xashak sifatida ham ahamiyatli.",
+      "answer": "Beda va sebarga",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tuganakdagi hamkorlik",
+      "body": "Burchoqdoshlar ildizidagi tuganak bakteriyalari havodagi azotni o‘zlashtirib, tuproqni azotli birikmalar bilan boyitadi.",
+      "fact_ids": [
+        "paragraph-51-f1"
+      ]
+    },
+    {
+      "title": "Kapalaksimon gultoj",
+      "body": "Burchoqdoshlarning odatiy kapalakguli yelkancha, ikki eshkakcha va qo‘shilgan ikki gultojbargli qayiqchadan iborat.",
+      "fact_ids": [
+        "paragraph-51-f2"
+      ]
+    },
+    {
+      "title": "9+1 va meva",
+      "body": "Ko‘p burchoqdoshlarda o‘nta changchidan to‘qqiztasining ipi birikkan, bittasi erkin; mevasi dukkakdir.",
+      "fact_ids": [
+        "paragraph-51-f3"
+      ]
+    },
+    {
+      "title": "Yer ostida yetiladigan meva",
+      "body": "Yeryong‘oq guli urug‘langach uning meva hosil qiluvchi qismi tuproqqa kirib, dukkagi yer ostida rivojlanadi.",
+      "fact_ids": [
+        "paragraph-51-f4"
+      ]
+    },
+    {
+      "title": "Oziq va yem-xashak",
+      "body": "Mosh, no‘xat, loviya, soya va yasmiq madaniy burchoqdoshlar; beda va sebarga yem-xashak sifatida ham ahamiyatli.",
+      "fact_ids": [
+        "paragraph-51-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-51-q1",
+      "fact_id": "paragraph-51-f1",
+      "question_text": "Burchoqdosh ildizidagi bakteriyalar tuproqni nimaga boyitadi?",
+      "options": [
+        "Faqat kislorod pufaklariga",
+        "Azotli birikmalarga",
+        "Faqat qumga",
+        "Faqat osh tuziga"
+      ],
+      "correct_answer": "Azotli birikmalarga",
+      "explanation": "Burchoqdoshlar ildizidagi tuganak bakteriyalari havodagi azotni o‘zlashtirib, tuproqni azotli birikmalar bilan boyitadi."
+    },
+    {
+      "key": "paragraph-51-q2",
+      "fact_id": "paragraph-51-f2",
+      "question_text": "Kapalakgulning ustki yirik gultojbargi nima deyiladi?",
+      "options": [
+        "Yelkancha",
+        "Qayiqcha",
+        "Eshkakcha",
+        "Tuguncha"
+      ],
+      "correct_answer": "Yelkancha",
+      "explanation": "Burchoqdoshlarning odatiy kapalakguli yelkancha, ikki eshkakcha va qo‘shilgan ikki gultojbargli qayiqchadan iborat."
+    },
+    {
+      "key": "paragraph-51-q3",
+      "fact_id": "paragraph-51-f3",
+      "question_text": "Burchoqdoshning odatiy meva turi qaysi?",
+      "options": [
+        "Qo‘zoq",
+        "Don",
+        "Danakli meva",
+        "Dukkak"
+      ],
+      "correct_answer": "Dukkak",
+      "explanation": "Ko‘p burchoqdoshlarda o‘nta changchidan to‘qqiztasining ipi birikkan, bittasi erkin; mevasi dukkakdir."
+    },
+    {
+      "key": "paragraph-51-q4",
+      "fact_id": "paragraph-51-f4",
+      "question_text": "Yeryong‘oqning iste’mol qilinadigan dukkagi qayerda rivojlanadi?",
+      "options": [
+        "Suv yuzidagi tallomda",
+        "Daraxt uchidagi savatchada",
+        "Tuproq ichida",
+        "Qarag‘ay qubbasida"
+      ],
+      "correct_answer": "Tuproq ichida",
+      "explanation": "Yeryong‘oq guli urug‘langach uning meva hosil qiluvchi qismi tuproqqa kirib, dukkagi yer ostida rivojlanadi."
+    },
+    {
+      "key": "paragraph-51-q5",
+      "fact_id": "paragraph-51-f5",
+      "question_text": "Qaysi juftlik burchoqdosh yem-xashak ekinlariga misol?",
+      "options": [
+        "Karam va turp",
+        "Beda va sebarga",
+        "Lola va piyoz",
+        "Archa va qarag‘ay"
+      ],
+      "correct_answer": "Beda va sebarga",
+      "explanation": "Mosh, no‘xat, loviya, soya va yasmiq madaniy burchoqdoshlar; beda va sebarga yem-xashak sifatida ham ahamiyatli."
+    }
+  ]
+}

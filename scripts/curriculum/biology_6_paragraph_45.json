@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-45-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-50",
+  "title": "Ochiq urug‘li o‘simliklar bo‘limi. Archa",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-45-f1": {
+      "claim": "Ochiq urug‘lilarda urug‘lar meva ichida emas, qubba tangachalarida yetiladi; archa va qarag‘ay misol bo‘ladi.",
+      "answer": "Qubba tangachalarida, meva bilan o‘ralmagan",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f2": {
+      "claim": "Archa doim yashil daraxt yoki buta bo‘lib, barglari mayda tangachasimon yoki ignasimon bo‘lishi mumkin.",
+      "answer": "Mayda tangachasimon yoki ignasimon shakl",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f3": {
+      "claim": "Zarafshon archasida changchili va urug‘kurtakli qubbalar alohida tuplarda rivojlanadi.",
+      "answer": "Qubbalarning jinsiga ko‘ra alohida tuplarda bo‘lishini",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f4": {
+      "claim": "Archaning urug‘chi qubba tangachalari yo‘g‘onlashib birlashadi; etli ko‘rinishiga qaramay u guldan hosil bo‘lgan meva emas.",
+      "answer": "U qubba tangachalaridan hosil bo‘lgan",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f5": {
+      "claim": "Oddiy qarag‘ay bir uyli, yorug‘sevar, doim yashil daraxt; barglari novdada ikkitadan joylashgan ignalardir.",
+      "answer": "Bir uylilikka",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f6": {
+      "claim": "Qarag‘ay changi shamol orqali urug‘chi qubbalarga yetadi; qubbalari odatda ikki yilda yetiladi.",
+      "answer": "Shamol",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mevasiz urug‘",
+      "body": "Ochiq urug‘lilarda urug‘lar meva ichida emas, qubba tangachalarida yetiladi; archa va qarag‘ay misol bo‘ladi.",
+      "fact_ids": [
+        "paragraph-45-f1"
+      ]
+    },
+    {
+      "title": "Archa barglari",
+      "body": "Archa doim yashil daraxt yoki buta bo‘lib, barglari mayda tangachasimon yoki ignasimon bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-45-f2"
+      ]
+    },
+    {
+      "title": "Ikki uylilik misoli",
+      "body": "Zarafshon archasida changchili va urug‘kurtakli qubbalar alohida tuplarda rivojlanadi.",
+      "fact_ids": [
+        "paragraph-45-f3"
+      ]
+    },
+    {
+      "title": "Archa qubbasining yetilishi",
+      "body": "Archaning urug‘chi qubba tangachalari yo‘g‘onlashib birlashadi; etli ko‘rinishiga qaramay u guldan hosil bo‘lgan meva emas.",
+      "fact_ids": [
+        "paragraph-45-f4"
+      ]
+    },
+    {
+      "title": "Qarag‘ayni taqqoslash",
+      "body": "Oddiy qarag‘ay bir uyli, yorug‘sevar, doim yashil daraxt; barglari novdada ikkitadan joylashgan ignalardir.",
+      "fact_ids": [
+        "paragraph-45-f5"
+      ]
+    },
+    {
+      "title": "Shamoldagi chang",
+      "body": "Qarag‘ay changi shamol orqali urug‘chi qubbalarga yetadi; qubbalari odatda ikki yilda yetiladi.",
+      "fact_ids": [
+        "paragraph-45-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-45-q1",
+      "fact_id": "paragraph-45-f1",
+      "question_text": "Ochiq urug‘lilarda urug‘ning joylashishi qaysi tavsifga mos?",
+      "options": [
+        "Faqat barg og‘izchasida",
+        "Qubba tangachalarida, meva bilan o‘ralmagan",
+        "Faqat shirali meva ichida",
+        "Faqat gultoj ichida"
+      ],
+      "correct_answer": "Qubba tangachalarida, meva bilan o‘ralmagan",
+      "explanation": "Ochiq urug‘lilarda urug‘lar meva ichida emas, qubba tangachalarida yetiladi; archa va qarag‘ay misol bo‘ladi."
+    },
+    {
+      "key": "paragraph-45-q2",
+      "fact_id": "paragraph-45-f2",
+      "question_text": "Archa bargini tanishga qaysi belgi yordam beradi?",
+      "options": [
+        "Mayda tangachasimon yoki ignasimon shakl",
+        "Keng uch bargchali murakkab barg",
+        "Faqat suvo‘t qattanasi",
+        "Faqat pishgan urug‘palla"
+      ],
+      "correct_answer": "Mayda tangachasimon yoki ignasimon shakl",
+      "explanation": "Archa doim yashil daraxt yoki buta bo‘lib, barglari mayda tangachasimon yoki ignasimon bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-45-q3",
+      "fact_id": "paragraph-45-f3",
+      "question_text": "Zarafshon archasining ikki uyliligi nimani bildiradi?",
+      "options": [
+        "Har bir qubbada ikkita meva bo‘lishini",
+        "Har bir urug‘da ikkita daraxt bo‘lishini",
+        "Barglarning faqat juft chiqishini",
+        "Qubbalarning jinsiga ko‘ra alohida tuplarda bo‘lishini"
+      ],
+      "correct_answer": "Qubbalarning jinsiga ko‘ra alohida tuplarda bo‘lishini",
+      "explanation": "Zarafshon archasida changchili va urug‘kurtakli qubbalar alohida tuplarda rivojlanadi."
+    },
+    {
+      "key": "paragraph-45-q4",
+      "fact_id": "paragraph-45-f4",
+      "question_text": "Archaning etli qubbasini meva bilan adashtirmaslik uchun nima esda tutiladi?",
+      "options": [
+        "Unda faqat gulbarglar bor",
+        "U yopiq urug‘li mevadir",
+        "U qubba tangachalaridan hosil bo‘lgan",
+        "U gulli o‘simlikning tugunchasidir"
+      ],
+      "correct_answer": "U qubba tangachalaridan hosil bo‘lgan",
+      "explanation": "Archaning urug‘chi qubba tangachalari yo‘g‘onlashib birlashadi; etli ko‘rinishiga qaramay u guldan hosil bo‘lgan meva emas."
+    },
+    {
+      "key": "paragraph-45-q5",
+      "fact_id": "paragraph-45-f5",
+      "question_text": "Oddiy qarag‘aydagi changchili va urug‘kurtakli qubbalar qaysi holatga mos?",
+      "options": [
+        "Mevaning ikki pallaliligiga",
+        "Bir uylilikka",
+        "Faqat ikki uylilikka",
+        "Gulning ikki jinsliligiga"
+      ],
+      "correct_answer": "Bir uylilikka",
+      "explanation": "Oddiy qarag‘ay bir uyli, yorug‘sevar, doim yashil daraxt; barglari novdada ikkitadan joylashgan ignalardir."
+    },
+    {
+      "key": "paragraph-45-q6",
+      "fact_id": "paragraph-45-f6",
+      "question_text": "Qarag‘ay changining ko‘chishida asosiy vosita nima?",
+      "options": [
+        "Shamol",
+        "Faqat suvdagi spermatozoidlar",
+        "Faqat hasharot nektari",
+        "Faqat meva sharbati"
+      ],
+      "correct_answer": "Shamol",
+      "explanation": "Qarag‘ay changi shamol orqali urug‘chi qubbalarga yetadi; qubbalari odatda ikki yilda yetiladi."
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-33-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-37",
+  "title": "Gulli o‘simliklarning jinsiy ko‘payishi. Urug‘lanish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-33-f1": {
+      "claim": "Urug‘lanish jinsiy hujayralarning qo‘shilishidir; changning tumshuqchaga tushishi esa changlanishdir.",
+      "answer": "Jinsiy hujayralarning qo‘shilishi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f2": {
+      "claim": "Chang naychasi tumshuqchadan ustuncha orqali tugunchadagi urug‘kurtakka yetadi va spermiylarni olib boradi.",
+      "answer": "Urug‘kurtakka",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f3": {
+      "claim": "Bitta spermiy tuxum hujayra bilan, ikkinchisi markaziy hujayra bilan qo‘shiladi; bu qo‘sh urug‘lanishdir.",
+      "answer": "Markaziy hujayra bilan",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f4": {
+      "claim": "Urug‘langan tuxum hujayradan murtak, urug‘langan markaziy hujayradan esa endosperm rivojlanadi.",
+      "answer": "Urug‘langan tuxum hujayradan",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f5": {
+      "claim": "Urug‘lanishdan keyin urug‘kurtak urug‘ga, tuguncha esa mevaga aylanadi.",
+      "answer": "Urug‘kurtak → urug‘; tuguncha → meva",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Urug‘lanish va changlanish farqi",
+      "body": "Urug‘lanish jinsiy hujayralarning qo‘shilishidir; changning tumshuqchaga tushishi esa changlanishdir.",
+      "fact_ids": [
+        "paragraph-33-f1"
+      ]
+    },
+    {
+      "title": "Chang naychasi yo‘li",
+      "body": "Chang naychasi tumshuqchadan ustuncha orqali tugunchadagi urug‘kurtakka yetadi va spermiylarni olib boradi.",
+      "fact_ids": [
+        "paragraph-33-f2"
+      ]
+    },
+    {
+      "title": "Qo‘sh urug‘lanish",
+      "body": "Bitta spermiy tuxum hujayra bilan, ikkinchisi markaziy hujayra bilan qo‘shiladi; bu qo‘sh urug‘lanishdir.",
+      "fact_ids": [
+        "paragraph-33-f3"
+      ]
+    },
+    {
+      "title": "Murtak va endosperm",
+      "body": "Urug‘langan tuxum hujayradan murtak, urug‘langan markaziy hujayradan esa endosperm rivojlanadi.",
+      "fact_ids": [
+        "paragraph-33-f4"
+      ]
+    },
+    {
+      "title": "Urug‘ va meva",
+      "body": "Urug‘lanishdan keyin urug‘kurtak urug‘ga, tuguncha esa mevaga aylanadi.",
+      "fact_ids": [
+        "paragraph-33-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-33-q1",
+      "fact_id": "paragraph-33-f1",
+      "question_text": "Qaysi hodisa urug‘lanishga mos?",
+      "options": [
+        "Faqat mevaning tarqalishi",
+        "Jinsiy hujayralarning qo‘shilishi",
+        "Faqat changning tumshuqchaga tushishi",
+        "Faqat gulning ochilishi"
+      ],
+      "correct_answer": "Jinsiy hujayralarning qo‘shilishi",
+      "explanation": "Urug‘lanish jinsiy hujayralarning qo‘shilishidir; changning tumshuqchaga tushishi esa changlanishdir."
+    },
+    {
+      "key": "paragraph-33-q2",
+      "fact_id": "paragraph-33-f2",
+      "question_text": "Chang naychasi qayerga yetib boradi?",
+      "options": [
+        "Urug‘kurtakka",
+        "Ildiz qinchasiga",
+        "Barg bandining tashqarisiga",
+        "Quruq gulband uchiga"
+      ],
+      "correct_answer": "Urug‘kurtakka",
+      "explanation": "Chang naychasi tumshuqchadan ustuncha orqali tugunchadagi urug‘kurtakka yetadi va spermiylarni olib boradi."
+    },
+    {
+      "key": "paragraph-33-q3",
+      "fact_id": "paragraph-33-f3",
+      "question_text": "Qo‘sh urug‘lanishda ikkinchi spermiy qaysi hujayra bilan qo‘shiladi?",
+      "options": [
+        "Faqat epiderma bilan",
+        "Changchi ipi bilan",
+        "Gultojbarg hujayrasi bilan",
+        "Markaziy hujayra bilan"
+      ],
+      "correct_answer": "Markaziy hujayra bilan",
+      "explanation": "Bitta spermiy tuxum hujayra bilan, ikkinchisi markaziy hujayra bilan qo‘shiladi; bu qo‘sh urug‘lanishdir."
+    },
+    {
+      "key": "paragraph-33-q4",
+      "fact_id": "paragraph-33-f4",
+      "question_text": "Murtak qaysi hujayradan rivojlanadi?",
+      "options": [
+        "Faqat gultojdan",
+        "Faqat changchi ipidan",
+        "Urug‘langan tuxum hujayradan",
+        "Urug‘langan markaziy hujayradan"
+      ],
+      "correct_answer": "Urug‘langan tuxum hujayradan",
+      "explanation": "Urug‘langan tuxum hujayradan murtak, urug‘langan markaziy hujayradan esa endosperm rivojlanadi."
+    },
+    {
+      "key": "paragraph-33-q5",
+      "fact_id": "paragraph-33-f5",
+      "question_text": "Urug‘kurtak va tugunchaning keyingi holati qaysi tartibda mos?",
+      "options": [
+        "Urug‘kurtak → to‘pgul; tuguncha → po‘kak",
+        "Urug‘kurtak → urug‘; tuguncha → meva",
+        "Urug‘kurtak → gulband; tuguncha → ildiz",
+        "Urug‘kurtak → barg; tuguncha → chang"
+      ],
+      "correct_answer": "Urug‘kurtak → urug‘; tuguncha → meva",
+      "explanation": "Urug‘lanishdan keyin urug‘kurtak urug‘ga, tuguncha esa mevaga aylanadi."
+    }
+  ]
+}

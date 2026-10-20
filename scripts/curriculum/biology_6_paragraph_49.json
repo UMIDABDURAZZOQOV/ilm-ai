@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-49-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-54",
+  "title": "Sho‘radoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-49-f1": {
+      "claim": "Darslikda sho‘radoshlar ko‘p hollarda sho‘r, qumli va quruq yerlarda o‘sishi, gullari mayda va gulqo‘rg‘oni sodda bo‘lishi bilan tavsiflangan.",
+      "answer": "Mayda, sodda gulqo‘rg‘onli",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f2": {
+      "claim": "Oddiy lavlagi ikki yillik: birinchi yili oziq to‘plovchi ildizmeva va barglar, ikkinchi yili gulli novda hosil qiladi.",
+      "answer": "Ildizmeva",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f3": {
+      "claim": "Saksovulning mayda tangachasimon barglari va novdalarning bir qismini to‘kishi quruq cho‘lda suvni tejashga moslashuvdir.",
+      "answer": "Issiq va quruq cho‘lga",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f4": {
+      "claim": "Oq va qora saksovul qumli cho‘llarda o‘sadi; saksovul ko‘chma qumlarni mustahkamlashda ishlatiladi.",
+      "answer": "Ko‘chma qumlarni mustahkamlash",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f5": {
+      "claim": "Darslikda lavlagi va ismaloq sho‘radoshlar tarkibida berilgan; rezavor ismaloqning poya va barglari oziq sifatida ishlatiladi.",
+      "answer": "Ismaloq",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Darslikdagi oila belgilari",
+      "body": "Darslikda sho‘radoshlar ko‘p hollarda sho‘r, qumli va quruq yerlarda o‘sishi, gullari mayda va gulqo‘rg‘oni sodda bo‘lishi bilan tavsiflangan.",
+      "fact_ids": [
+        "paragraph-49-f1"
+      ]
+    },
+    {
+      "title": "Lavlagi sikli",
+      "body": "Oddiy lavlagi ikki yillik: birinchi yili oziq to‘plovchi ildizmeva va barglar, ikkinchi yili gulli novda hosil qiladi.",
+      "fact_ids": [
+        "paragraph-49-f2"
+      ]
+    },
+    {
+      "title": "Saksovulning moslashuvi",
+      "body": "Saksovulning mayda tangachasimon barglari va novdalarning bir qismini to‘kishi quruq cho‘lda suvni tejashga moslashuvdir.",
+      "fact_ids": [
+        "paragraph-49-f3"
+      ]
+    },
+    {
+      "title": "Qumlarni mustahkamlash",
+      "body": "Oq va qora saksovul qumli cho‘llarda o‘sadi; saksovul ko‘chma qumlarni mustahkamlashda ishlatiladi.",
+      "fact_ids": [
+        "paragraph-49-f4"
+      ]
+    },
+    {
+      "title": "Oiladagi foydali vakil",
+      "body": "Darslikda lavlagi va ismaloq sho‘radoshlar tarkibida berilgan; rezavor ismaloqning poya va barglari oziq sifatida ishlatiladi.",
+      "fact_ids": [
+        "paragraph-49-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-49-q1",
+      "fact_id": "paragraph-49-f1",
+      "question_text": "Darslikdagi sho‘radoshlarga qaysi gul belgisi mos?",
+      "options": [
+        "Faqat yirik qo‘sh gulqo‘rg‘onli",
+        "Mayda, sodda gulqo‘rg‘onli",
+        "Har doim yirik kapalakgulli",
+        "Har doim ko‘p rangli savatchali"
+      ],
+      "correct_answer": "Mayda, sodda gulqo‘rg‘onli",
+      "explanation": "Darslikda sho‘radoshlar ko‘p hollarda sho‘r, qumli va quruq yerlarda o‘sishi, gullari mayda va gulqo‘rg‘oni sodda bo‘lishi bilan tavsiflangan."
+    },
+    {
+      "key": "paragraph-49-q2",
+      "fact_id": "paragraph-49-f2",
+      "question_text": "Lavlagining birinchi yilida qaysi organ oziq to‘playdi?",
+      "options": [
+        "Ildizmeva",
+        "Faqat gul changdoni",
+        "Faqat meva qanotchasi",
+        "Faqat urug‘palla po‘sti"
+      ],
+      "correct_answer": "Ildizmeva",
+      "explanation": "Oddiy lavlagi ikki yillik: birinchi yili oziq to‘plovchi ildizmeva va barglar, ikkinchi yili gulli novda hosil qiladi."
+    },
+    {
+      "key": "paragraph-49-q3",
+      "fact_id": "paragraph-49-f3",
+      "question_text": "Saksovulning mayda barglari qanday sharoitga moslashgan?",
+      "options": [
+        "Faqat suv osti hayotiga",
+        "Faqat doimiy muzlikka",
+        "Faqat nam botqoqqa",
+        "Issiq va quruq cho‘lga"
+      ],
+      "correct_answer": "Issiq va quruq cho‘lga",
+      "explanation": "Saksovulning mayda tangachasimon barglari va novdalarning bir qismini to‘kishi quruq cho‘lda suvni tejashga moslashuvdir."
+    },
+    {
+      "key": "paragraph-49-q4",
+      "fact_id": "paragraph-49-f4",
+      "question_text": "Saksovul ekishning ekologik foydasi qaysi?",
+      "options": [
+        "Barcha tuproqni tuzga aylantirish",
+        "Suv havzasini ataylab ifloslash",
+        "Ko‘chma qumlarni mustahkamlash",
+        "Qumni ko‘proq ko‘chirish"
+      ],
+      "correct_answer": "Ko‘chma qumlarni mustahkamlash",
+      "explanation": "Oq va qora saksovul qumli cho‘llarda o‘sadi; saksovul ko‘chma qumlarni mustahkamlashda ishlatiladi."
+    },
+    {
+      "key": "paragraph-49-q5",
+      "fact_id": "paragraph-49-f5",
+      "question_text": "Darslikdagi qaysi vakil barg va poyasi uchun o‘stiriladi?",
+      "options": [
+        "Qirqquloq",
+        "Ismaloq",
+        "Archa",
+        "Qarag‘ay"
+      ],
+      "correct_answer": "Ismaloq",
+      "explanation": "Darslikda lavlagi va ismaloq sho‘radoshlar tarkibida berilgan; rezavor ismaloqning poya va barglari oziq sifatida ishlatiladi."
+    }
+  ]
+}

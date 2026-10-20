@@ -64,11 +64,13 @@ def test_distinct_continuation_questions_and_honest_theory_activity_counts():
     assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
     report = readiness_report(catalog, lessons)
     assert sum(r["topics"] for r in report) == 355
-    assert sum(r["ready_theory_lessons"] for r in report) == 59
-    assert sum(r["ready_activities"] for r in report) == 17
-    assert report[0]["course_ready"] and not any(r["course_ready"] for r in report[1:])
-    assert report[0]["remaining_topics"] == 0
-    assert report[0]["remaining_activity_ids"] == []
+    assert sum(r["ready_theory_lessons"] for r in report) == 89
+    assert sum(r["ready_activities"] for r in report) == 19
+    assert all(r["course_ready"] for r in report[:2])
+    assert not any(r["course_ready"] for r in report[2:])
+    for row in report[:2]:
+        assert row["remaining_topics"] == 0
+        assert row["remaining_activity_ids"] == []
 
 
 @pytest.mark.parametrize("damage", ["physical", "step", "source", "answer"])
@@ -86,7 +88,7 @@ def test_activity_cannot_claim_physical_execution_or_lose_evidence(damage):
         validate_lesson(load_documents()[0], lesson)
 
 
-def test_full_grade5_and_grade6_foundation_real_api_flow_once_only_xp(setup, tmp_path):
+def test_full_grade5_and_grade6_real_api_flow_once_only_xp(setup, tmp_path):
     client, factory = setup
     catalog, _ = load_documents()
     lessons = load_lesson_set()
@@ -97,7 +99,7 @@ def test_full_grade5_and_grade6_foundation_real_api_flow_once_only_xp(setup, tmp
     xp = events = 0
     for grade in (5, 6):
         tree = client.get(f"/skills/1/tree?subject=biologiya&grade={grade}").json()
-        units = tree["units"] if grade == 5 else tree["units"][:3]
+        units = tree["units"]
         for unit in units:
             assert unit["coverage_complete"]
             for row in unit["lessons"]:
@@ -158,12 +160,12 @@ def test_full_grade5_and_grade6_foundation_real_api_flow_once_only_xp(setup, tmp
         outline = client.get(
             f"/skills/1/curriculum?subject=biologiya&grade={grade}"
         ).json()
-        assert outline["completed"] is (grade == 5)
-        assert outline["next_grade"] == (6 if grade == 5 else None)
+        assert outline["completed"]
+        assert outline["next_grade"] == grade + 1
     with factory.begin() as db:
         assert db.get(User, 1).xp_total == xp
         assert db.query(StudyEvent).count() == events
-        assert db.query(UserLessonProgress).count() == events - 6
+        assert db.query(UserLessonProgress).count() == events - 8
         for lesson in lessons:
             assert not import_curriculum(db, catalog, lesson)["created"]
         assert db.get(User, 1).xp_total == xp

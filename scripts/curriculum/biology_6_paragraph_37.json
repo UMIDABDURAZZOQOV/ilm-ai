@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-37-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-41",
+  "title": "O‘simliklar dunyosiga ekologik omillarning ta’siri",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-37-f1": {
+      "claim": "Tuproq, suv, harorat, yorug‘lik va havo abiotik omillar; boshqa tirik organizmlarning ta’siri biotik omillardir.",
+      "answer": "Biotik",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f2": {
+      "claim": "O‘simliklar yorug‘likka munosabatiga qarab soyasevar va yorug‘sevar guruhlarga ajratiladi.",
+      "answer": "Soyasevar yoki yorug‘sevarligi",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          90
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f3": {
+      "claim": "Tuganak bakteriyalari dukkakli o‘simlik oziqlanishiga yordam beradi; zarpechak va shumg‘iya kabi parazitlar boshqa o‘simliklarga zarar yetkazadi.",
+      "answer": "Ildizdagi tuganak bakteriyalari",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          90
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f4": {
+      "claim": "O‘rmonni tiklash va ko‘chat ekish ijobiy, zararli kimyoviy ifloslanish va o‘simliklarni haddan tashqari yig‘ish salbiy ta’sir misollaridir.",
+      "answer": "O‘rmonni tiklash va ko‘chat ekish",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Omillarni guruhlash",
+      "body": "Tuproq, suv, harorat, yorug‘lik va havo abiotik omillar; boshqa tirik organizmlarning ta’siri biotik omillardir.",
+      "fact_ids": [
+        "paragraph-37-f1"
+      ]
+    },
+    {
+      "title": "Yorug‘lik talabi",
+      "body": "O‘simliklar yorug‘likka munosabatiga qarab soyasevar va yorug‘sevar guruhlarga ajratiladi.",
+      "fact_ids": [
+        "paragraph-37-f2"
+      ]
+    },
+    {
+      "title": "Tirik hamkorlar va parazitlar",
+      "body": "Tuganak bakteriyalari dukkakli o‘simlik oziqlanishiga yordam beradi; zarpechak va shumg‘iya kabi parazitlar boshqa o‘simliklarga zarar yetkazadi.",
+      "fact_ids": [
+        "paragraph-37-f3"
+      ]
+    },
+    {
+      "title": "Inson ta’sirini baholash",
+      "body": "O‘rmonni tiklash va ko‘chat ekish ijobiy, zararli kimyoviy ifloslanish va o‘simliklarni haddan tashqari yig‘ish salbiy ta’sir misollaridir.",
+      "fact_ids": [
+        "paragraph-37-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-37-q1",
+      "fact_id": "paragraph-37-f1",
+      "question_text": "Zamburug‘ning o‘simlikka ta’siri qanday omil?",
+      "options": [
+        "Faqat namlik",
+        "Biotik",
+        "Abiotik",
+        "Faqat harorat"
+      ],
+      "correct_answer": "Biotik",
+      "explanation": "Tuproq, suv, harorat, yorug‘lik va havo abiotik omillar; boshqa tirik organizmlarning ta’siri biotik omillardir."
+    },
+    {
+      "key": "paragraph-37-q2",
+      "fact_id": "paragraph-37-f2",
+      "question_text": "Xona o‘simligini joylashtirishda qaysi talab hisobga olinadi?",
+      "options": [
+        "Soyasevar yoki yorug‘sevarligi",
+        "Faqat yorliq rangi",
+        "Faqat idishning narxi",
+        "Faqat barglarning nomi"
+      ],
+      "correct_answer": "Soyasevar yoki yorug‘sevarligi",
+      "explanation": "O‘simliklar yorug‘likka munosabatiga qarab soyasevar va yorug‘sevar guruhlarga ajratiladi."
+    },
+    {
+      "key": "paragraph-37-q3",
+      "fact_id": "paragraph-37-f3",
+      "question_text": "Dukkakli o‘simlikka foydali biotik aloqaga qaysi misol mos?",
+      "options": [
+        "Faqat havoning sovishi",
+        "Faqat qurg‘oqchilik",
+        "Faqat yorug‘lik kamayishi",
+        "Ildizdagi tuganak bakteriyalari"
+      ],
+      "correct_answer": "Ildizdagi tuganak bakteriyalari",
+      "explanation": "Tuganak bakteriyalari dukkakli o‘simlik oziqlanishiga yordam beradi; zarpechak va shumg‘iya kabi parazitlar boshqa o‘simliklarga zarar yetkazadi."
+    },
+    {
+      "key": "paragraph-37-q4",
+      "fact_id": "paragraph-37-f4",
+      "question_text": "Qaysi ish o‘simliklar qoplamini tiklashga yordam beradi?",
+      "options": [
+        "Zararli chiqindini ko‘paytirish",
+        "Yosh daraxtlarni zaruratsiz kesish",
+        "O‘rmonni tiklash va ko‘chat ekish",
+        "Himoyasiz cheksiz yig‘ish"
+      ],
+      "correct_answer": "O‘rmonni tiklash va ko‘chat ekish",
+      "explanation": "O‘rmonni tiklash va ko‘chat ekish ijobiy, zararli kimyoviy ifloslanish va o‘simliklarni haddan tashqari yig‘ish salbiy ta’sir misollaridir."
+    }
+  ]
+}

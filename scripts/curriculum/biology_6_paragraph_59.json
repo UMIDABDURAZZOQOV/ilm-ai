@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-59-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-64",
+  "title": "Yerda o‘simliklar dunyosining rivojlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-59-f1": {
+      "claim": "Darslik o‘simliklarning quruqlikka chiqishini avval sayoz suvlar, keyin sohilning sernam joylariga moslashish bilan bog‘lab tushuntiradi.",
+      "answer": "Sayoz suv va sernam sohil",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f2": {
+      "claim": "Darslikdagi riniya kabi qadimgi quruqlik o‘simliklarida haqiqiy ildiz va barglar bo‘lmagan, shoxlangan poyalarida sporangiylar joylashgan.",
+      "answer": "Haqiqiy ildiz va barg yo‘q, shoxlangan poyada sporangiylar bor",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f3": {
+      "claim": "Qadimda daraxtsimon qirqquloqlar va qirqbo‘g‘imlar ham yashagan. Hozirgi kichik o‘t vakillari guruhning butun tarixini ifodalamaydi.",
+      "answer": "Qirqquloqlar va qirqbo‘g‘imlar",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f4": {
+      "claim": "Yo‘qolib ketgan qadimgi o‘simliklarning ayrim qoldiqlari qazilma holida saqlanadi. Shu dalillar o‘tmishdagi o‘simliklarni o‘rganishga yordam beradi.",
+      "answer": "Qazilma qoldiq",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f5": {
+      "claim": "Qarag‘ay, qoraqarag‘ay va archa ochiq urug‘li o‘simliklarning hozirgacha yashab kelayotgan vakillaridir.",
+      "answer": "Qarag‘ay, qoraqarag‘ay, archa",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f6": {
+      "claim": "Yopiq urug‘li o‘simliklarning turli muhitlarga moslashishi ularning Yer yuzida keng tarqalishiga yordam bergan.",
+      "answer": "Turli muhit sharoitlariga moslashish bilan",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suvdan quruqlikka moslashish",
+      "body": "Darslik o‘simliklarning quruqlikka chiqishini avval sayoz suvlar, keyin sohilning sernam joylariga moslashish bilan bog‘lab tushuntiradi.",
+      "fact_ids": [
+        "paragraph-59-f1"
+      ]
+    },
+    {
+      "title": "Qadimgi tuzilish dalili",
+      "body": "Darslikdagi riniya kabi qadimgi quruqlik o‘simliklarida haqiqiy ildiz va barglar bo‘lmagan, shoxlangan poyalarida sporangiylar joylashgan.",
+      "fact_ids": [
+        "paragraph-59-f2"
+      ]
+    },
+    {
+      "title": "O‘tmish o‘rmonlari",
+      "body": "Qadimda daraxtsimon qirqquloqlar va qirqbo‘g‘imlar ham yashagan. Hozirgi kichik o‘t vakillari guruhning butun tarixini ifodalamaydi.",
+      "fact_ids": [
+        "paragraph-59-f3"
+      ]
+    },
+    {
+      "title": "Qazilma dalillari",
+      "body": "Yo‘qolib ketgan qadimgi o‘simliklarning ayrim qoldiqlari qazilma holida saqlanadi. Shu dalillar o‘tmishdagi o‘simliklarni o‘rganishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-59-f4"
+      ]
+    },
+    {
+      "title": "Hozirgacha saqlangan vakillar",
+      "body": "Qarag‘ay, qoraqarag‘ay va archa ochiq urug‘li o‘simliklarning hozirgacha yashab kelayotgan vakillaridir.",
+      "fact_ids": [
+        "paragraph-59-f5"
+      ]
+    },
+    {
+      "title": "Muhitlarga tarqalish",
+      "body": "Yopiq urug‘li o‘simliklarning turli muhitlarga moslashishi ularning Yer yuzida keng tarqalishiga yordam bergan.",
+      "fact_ids": [
+        "paragraph-59-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-59-q1",
+      "fact_id": "paragraph-59-f1",
+      "question_text": "Quruqlikdagi hayotga o‘tishda dastlabki moslashish qaysi muhit bilan bog‘langan?",
+      "options": [
+        "Faqat chuqur yerosti g‘orlari",
+        "Sayoz suv va sernam sohil",
+        "Faqat quruq cho‘l qumi",
+        "Faqat abadiy muz qoplami"
+      ],
+      "correct_answer": "Sayoz suv va sernam sohil",
+      "explanation": "Darslik o‘simliklarning quruqlikka chiqishini avval sayoz suvlar, keyin sohilning sernam joylariga moslashish bilan bog‘lab tushuntiradi."
+    },
+    {
+      "key": "paragraph-59-q2",
+      "fact_id": "paragraph-59-f2",
+      "question_text": "Riniya singari qadimgi o‘simlik tuzilishiga qaysi belgi mos?",
+      "options": [
+        "Haqiqiy ildiz va barg yo‘q, shoxlangan poyada sporangiylar bor",
+        "Gul va rezavor mevalar bor",
+        "Piyozbosh va murakkab soyabon bor",
+        "Meva ichida urug‘ va oltita gultojbarg bor"
+      ],
+      "correct_answer": "Haqiqiy ildiz va barg yo‘q, shoxlangan poyada sporangiylar bor",
+      "explanation": "Darslikdagi riniya kabi qadimgi quruqlik o‘simliklarida haqiqiy ildiz va barglar bo‘lmagan, shoxlangan poyalarida sporangiylar joylashgan."
+    },
+    {
+      "key": "paragraph-59-q3",
+      "fact_id": "paragraph-59-f3",
+      "question_text": "Qadimgi o‘rmonlar tasvirida qaysi guruhlarning daraxtsimon vakillari berilgan?",
+      "options": [
+        "Faqat piyoz va sarimsoq",
+        "Faqat sholi va bug‘doy",
+        "Faqat tok va bodring",
+        "Qirqquloqlar va qirqbo‘g‘imlar"
+      ],
+      "correct_answer": "Qirqquloqlar va qirqbo‘g‘imlar",
+      "explanation": "Qadimda daraxtsimon qirqquloqlar va qirqbo‘g‘imlar ham yashagan. Hozirgi kichik o‘t vakillari guruhning butun tarixini ifodalamaydi."
+    },
+    {
+      "key": "paragraph-59-q4",
+      "fact_id": "paragraph-59-f4",
+      "question_text": "Bugun yashamaydigan qadimgi o‘simlik haqida qanday dalil topish mumkin?",
+      "options": [
+        "Faqat dala telefon raqami",
+        "Faqat ob-havoning bugungi ma’lumoti",
+        "Qazilma qoldiq",
+        "Faqat zamonaviy nav yorlig‘i"
+      ],
+      "correct_answer": "Qazilma qoldiq",
+      "explanation": "Yo‘qolib ketgan qadimgi o‘simliklarning ayrim qoldiqlari qazilma holida saqlanadi. Shu dalillar o‘tmishdagi o‘simliklarni o‘rganishga yordam beradi."
+    },
+    {
+      "key": "paragraph-59-q5",
+      "fact_id": "paragraph-59-f5",
+      "question_text": "Qaysi uchlik hozirgi ochiq urug‘li vakillardan tuzilgan?",
+      "options": [
+        "Qirqquloq, qirqbo‘g‘im, funariya",
+        "Qarag‘ay, qoraqarag‘ay, archa",
+        "Lola, piyoz, bug‘doy",
+        "Tok, qovun, pomidor"
+      ],
+      "correct_answer": "Qarag‘ay, qoraqarag‘ay, archa",
+      "explanation": "Qarag‘ay, qoraqarag‘ay va archa ochiq urug‘li o‘simliklarning hozirgacha yashab kelayotgan vakillaridir."
+    },
+    {
+      "key": "paragraph-59-q6",
+      "fact_id": "paragraph-59-f6",
+      "question_text": "Darslik yopiq urug‘lilarning keng tarqalishini nima bilan bog‘laydi?",
+      "options": [
+        "Turli muhit sharoitlariga moslashish bilan",
+        "Faqat bitta nam o‘rmonda qolish bilan",
+        "Barcha ildizlarining yo‘qolishi bilan",
+        "Gul va urug‘ hosil qilmasligi bilan"
+      ],
+      "correct_answer": "Turli muhit sharoitlariga moslashish bilan",
+      "explanation": "Yopiq urug‘li o‘simliklarning turli muhitlarga moslashishi ularning Yer yuzida keng tarqalishiga yordam bergan."
+    }
+  ]
+}

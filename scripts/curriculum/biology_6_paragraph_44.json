@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-44-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-49",
+  "title": "Qirqquloqlar bo‘limi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-44-f1": {
+      "claim": "Qirqquloqlar odatda ildizpoyali, yirik patsimon bargli sporali o‘simliklar; yosh barglarning o‘ralgan uchi o‘sishda yoziladi.",
+      "answer": "Uchining o‘ralgan bo‘lib keyin yozilishi",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f2": {
+      "claim": "Qirqquloq bargi osti yoki chetidagi soruslarda sporangiylar joylashadi va sporalar yetiladi.",
+      "answer": "Sporangiylarni",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f3": {
+      "claim": "Qirqquloq sporasidan rizoidli, yashil yuraksimon gametofit rivojlanadi; unda jinsiy organlar yetiladi.",
+      "answer": "Yashil yuraksimon kichik o‘simta",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f4": {
+      "claim": "Qirqquloq siklida spora → gametofit → urug‘lanish → murtak → yangi sporofit bosqichlari ketadi.",
+      "answer": "Urug‘lanish va murtak rivojlanishi",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          106
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f5": {
+      "claim": "Suv qirqqulog‘ida ikki barg suv yuzasida, mayda qirqilgan uchinchi barg suv ostida turadi; haqiqiy ildiz bo‘lmaydi.",
+      "answer": "Shakli o‘zgargan barg",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          106
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qirqquloq belgisi",
+      "body": "Qirqquloqlar odatda ildizpoyali, yirik patsimon bargli sporali o‘simliklar; yosh barglarning o‘ralgan uchi o‘sishda yoziladi.",
+      "fact_ids": [
+        "paragraph-44-f1"
+      ]
+    },
+    {
+      "title": "Sorus va sporangiy",
+      "body": "Qirqquloq bargi osti yoki chetidagi soruslarda sporangiylar joylashadi va sporalar yetiladi.",
+      "fact_ids": [
+        "paragraph-44-f2"
+      ]
+    },
+    {
+      "title": "Kichik yashil avlod",
+      "body": "Qirqquloq sporasidan rizoidli, yashil yuraksimon gametofit rivojlanadi; unda jinsiy organlar yetiladi.",
+      "fact_ids": [
+        "paragraph-44-f3"
+      ]
+    },
+    {
+      "title": "Siklni tartiblash",
+      "body": "Qirqquloq siklida spora → gametofit → urug‘lanish → murtak → yangi sporofit bosqichlari ketadi.",
+      "fact_ids": [
+        "paragraph-44-f4"
+      ]
+    },
+    {
+      "title": "Suv qirqqulog‘i",
+      "body": "Suv qirqqulog‘ida ikki barg suv yuzasida, mayda qirqilgan uchinchi barg suv ostida turadi; haqiqiy ildiz bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-44-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-44-q1",
+      "fact_id": "paragraph-44-f1",
+      "question_text": "Qirqquloqning yosh bargiga xos belgi qaysi?",
+      "options": [
+        "Ikkita urug‘pallaga ajralishi",
+        "Uchining o‘ralgan bo‘lib keyin yozilishi",
+        "Gulqo‘rg‘on bilan o‘ralishi",
+        "Meva ichidan chiqishi"
+      ],
+      "correct_answer": "Uchining o‘ralgan bo‘lib keyin yozilishi",
+      "explanation": "Qirqquloqlar odatda ildizpoyali, yirik patsimon bargli sporali o‘simliklar; yosh barglarning o‘ralgan uchi o‘sishda yoziladi."
+    },
+    {
+      "key": "paragraph-44-q2",
+      "fact_id": "paragraph-44-f2",
+      "question_text": "Sorus nimani o‘z ichiga oladi?",
+      "options": [
+        "Sporangiylarni",
+        "Faqat urug‘pallalarni",
+        "Faqat gul changdonlarini",
+        "Faqat meva danaklarini"
+      ],
+      "correct_answer": "Sporangiylarni",
+      "explanation": "Qirqquloq bargi osti yoki chetidagi soruslarda sporangiylar joylashadi va sporalar yetiladi."
+    },
+    {
+      "key": "paragraph-44-q3",
+      "fact_id": "paragraph-44-f3",
+      "question_text": "Qirqquloq gametofiti qaysi ko‘rinishga ega?",
+      "options": [
+        "Yirik qubbali daraxt",
+        "Qalin po‘stli danak",
+        "Faqat ipsiz bitta spora",
+        "Yashil yuraksimon kichik o‘simta"
+      ],
+      "correct_answer": "Yashil yuraksimon kichik o‘simta",
+      "explanation": "Qirqquloq sporasidan rizoidli, yashil yuraksimon gametofit rivojlanadi; unda jinsiy organlar yetiladi."
+    },
+    {
+      "key": "paragraph-44-q4",
+      "fact_id": "paragraph-44-f4",
+      "question_text": "Qirqquloqning gametofitidan keyin yangi sporofitga olib boruvchi jarayon qaysi?",
+      "options": [
+        "Urug‘palla bo‘linishi",
+        "Qubbaning chatnashi",
+        "Urug‘lanish va murtak rivojlanishi",
+        "Gulning changlanib meva pishishi"
+      ],
+      "correct_answer": "Urug‘lanish va murtak rivojlanishi",
+      "explanation": "Qirqquloq siklida spora → gametofit → urug‘lanish → murtak → yangi sporofit bosqichlari ketadi."
+    },
+    {
+      "key": "paragraph-44-q5",
+      "fact_id": "paragraph-44-f5",
+      "question_text": "Suv qirqqulog‘ining suv ostidagi ipsimon qismi darslikda nima deb ko‘rsatilgan?",
+      "options": [
+        "Urug‘palla",
+        "Shakli o‘zgargan barg",
+        "Haqiqiy o‘q ildiz",
+        "Gulband"
+      ],
+      "correct_answer": "Shakli o‘zgargan barg",
+      "explanation": "Suv qirqqulog‘ida ikki barg suv yuzasida, mayda qirqilgan uchinchi barg suv ostida turadi; haqiqiy ildiz bo‘lmaydi."
+    }
+  ]
+}

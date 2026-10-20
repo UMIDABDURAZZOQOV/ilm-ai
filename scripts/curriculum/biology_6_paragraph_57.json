@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-57-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-62",
+  "title": "Piyozdoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-57-f1": {
+      "claim": "Darslik piyozdoshlarni alohida oila sifatida o‘rganadi: ular piyozboshli ko‘p yillik o‘tlardir. Bu dars shu darslikdagi guruh nomidan foydalanadi.",
+      "answer": "Piyozbosh",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f2": {
+      "claim": "Piyozdoshlarning gullari oddiy soyabon to‘pgulda yig‘iladi; ochilmagan to‘pgul tashqaridan qobiq bilan o‘ralgan bo‘ladi.",
+      "answer": "Oddiy soyabon",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f3": {
+      "claim": "Piyozdoshlar gulida oltita gulqo‘rg‘on bargchasi va oltita changchi bo‘ladi; uch mevabarg qo‘shilib bitta urug‘chini hosil qiladi.",
+      "answer": "Oltita",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f4": {
+      "claim": "Bosh piyozning barglari naysimon, to‘pguli sharsimon soyabon bo‘lib, unda gullar zich joylashgan.",
+      "answer": "Bosh piyoz",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f5": {
+      "claim": "Bosh piyoz va sarimsoq piyoz madaniy ekinlardir. Pskom piyozi, Oshanin piyozi va anzur piyoz tabiiy holda uchraydigan vakillar sifatida keltirilgan.",
+      "answer": "Bosh piyoz va sarimsoq piyoz",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Darslikdagi oila",
+      "body": "Darslik piyozdoshlarni alohida oila sifatida o‘rganadi: ular piyozboshli ko‘p yillik o‘tlardir. Bu dars shu darslikdagi guruh nomidan foydalanadi.",
+      "fact_ids": [
+        "paragraph-57-f1"
+      ]
+    },
+    {
+      "title": "Soyabon to‘pgul",
+      "body": "Piyozdoshlarning gullari oddiy soyabon to‘pgulda yig‘iladi; ochilmagan to‘pgul tashqaridan qobiq bilan o‘ralgan bo‘ladi.",
+      "fact_ids": [
+        "paragraph-57-f2"
+      ]
+    },
+    {
+      "title": "Gulning rejasi",
+      "body": "Piyozdoshlar gulida oltita gulqo‘rg‘on bargchasi va oltita changchi bo‘ladi; uch mevabarg qo‘shilib bitta urug‘chini hosil qiladi.",
+      "fact_ids": [
+        "paragraph-57-f3"
+      ]
+    },
+    {
+      "title": "Bosh piyozni kuzatish",
+      "body": "Bosh piyozning barglari naysimon, to‘pguli sharsimon soyabon bo‘lib, unda gullar zich joylashgan.",
+      "fact_ids": [
+        "paragraph-57-f4"
+      ]
+    },
+    {
+      "title": "Yovvoyi va madaniy vakillar",
+      "body": "Bosh piyoz va sarimsoq piyoz madaniy ekinlardir. Pskom piyozi, Oshanin piyozi va anzur piyoz tabiiy holda uchraydigan vakillar sifatida keltirilgan.",
+      "fact_ids": [
+        "paragraph-57-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-57-q1",
+      "fact_id": "paragraph-57-f1",
+      "question_text": "Darslikdagi piyozdoshlarning yerosti organi qaysi?",
+      "options": [
+        "Faqat ildiz tukchasi",
+        "Piyozbosh",
+        "Tuganakmeva",
+        "Faqat havo ildizi"
+      ],
+      "correct_answer": "Piyozbosh",
+      "explanation": "Darslik piyozdoshlarni alohida oila sifatida o‘rganadi: ular piyozboshli ko‘p yillik o‘tlardir. Bu dars shu darslikdagi guruh nomidan foydalanadi."
+    },
+    {
+      "key": "paragraph-57-q2",
+      "fact_id": "paragraph-57-f2",
+      "question_text": "Piyozdoshlarning asosiy to‘pgulini toping.",
+      "options": [
+        "Oddiy soyabon",
+        "Savatcha",
+        "Murakkab boshoq",
+        "So‘ta"
+      ],
+      "correct_answer": "Oddiy soyabon",
+      "explanation": "Piyozdoshlarning gullari oddiy soyabon to‘pgulda yig‘iladi; ochilmagan to‘pgul tashqaridan qobiq bilan o‘ralgan bo‘ladi."
+    },
+    {
+      "key": "paragraph-57-q3",
+      "fact_id": "paragraph-57-f3",
+      "question_text": "Piyoz gulining changchilari soni nechta?",
+      "options": [
+        "Beshta",
+        "Bitta",
+        "To‘rtta",
+        "Oltita"
+      ],
+      "correct_answer": "Oltita",
+      "explanation": "Piyozdoshlar gulida oltita gulqo‘rg‘on bargchasi va oltita changchi bo‘ladi; uch mevabarg qo‘shilib bitta urug‘chini hosil qiladi."
+    },
+    {
+      "key": "paragraph-57-q4",
+      "fact_id": "paragraph-57-f4",
+      "question_text": "Naysimon barg va sharsimon soyabon birgalikda qaysi o‘simlikni tanishga yordam beradi?",
+      "options": [
+        "Bug‘doy",
+        "Oshqovoq",
+        "Bosh piyoz",
+        "Kungaboqar"
+      ],
+      "correct_answer": "Bosh piyoz",
+      "explanation": "Bosh piyozning barglari naysimon, to‘pguli sharsimon soyabon bo‘lib, unda gullar zich joylashgan."
+    },
+    {
+      "key": "paragraph-57-q5",
+      "fact_id": "paragraph-57-f5",
+      "question_text": "Qaysi juftlik piyoz turkumining madaniy ekinlaridan tuzilgan?",
+      "options": [
+        "Arpa va sholi",
+        "Bosh piyoz va sarimsoq piyoz",
+        "Qovun va tarvuz",
+        "Tok va partenotsissus"
+      ],
+      "correct_answer": "Bosh piyoz va sarimsoq piyoz",
+      "explanation": "Bosh piyoz va sarimsoq piyoz madaniy ekinlardir. Pskom piyozi, Oshanin piyozi va anzur piyoz tabiiy holda uchraydigan vakillar sifatida keltirilgan."
+    }
+  ]
+}

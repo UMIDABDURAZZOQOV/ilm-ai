@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-53-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-58",
+  "title": "Tokdoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-53-f1": {
+      "claim": "Tokdoshlar jingalaklari yordamida tayanchga ilashadigan yog‘ochlashgan o‘simliklardir; jingalaklar shakli o‘zgargan novdalardir.",
+      "answer": "Novdaning",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f2": {
+      "claim": "Madaniy tok qalamchasi yordamida vegetativ ko‘paytiriladi; bunda yangi o‘simlik novda qismidan rivojlanadi.",
+      "answer": "Vegetativ ko‘paytirish",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f3": {
+      "claim": "Madaniy tokning oddiy bargi uzun bandli, panjasimon bo‘lakli bo‘ladi.",
+      "answer": "Oddiy, uzun bandli, panjasimon bo‘lakli",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f4": {
+      "claim": "Tokning mayda ikki jinsli gullari murakkab shingil, ya’ni ro‘vak to‘pgulda joylashadi.",
+      "answer": "Ro‘vak",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f5": {
+      "claim": "Tokdoshlar gulida beshta changchi va bitta urug‘chi bo‘ladi, mevasi esa rezavor mevadir.",
+      "answer": "Rezavor meva",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f6": {
+      "claim": "Besh yaproqchali partenotsissus manzarali tokdosh bo‘lib, bargi murakkab: beshta bargchadan iborat. Madaniy tokning bo‘lakli oddiy bargi bilan aralashtirmang.",
+      "answer": "Beshta bargchali murakkab barg",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ilashib o‘sish",
+      "body": "Tokdoshlar jingalaklari yordamida tayanchga ilashadigan yog‘ochlashgan o‘simliklardir; jingalaklar shakli o‘zgargan novdalardir.",
+      "fact_ids": [
+        "paragraph-53-f1"
+      ]
+    },
+    {
+      "title": "Ko‘paytirish usuli",
+      "body": "Madaniy tok qalamchasi yordamida vegetativ ko‘paytiriladi; bunda yangi o‘simlik novda qismidan rivojlanadi.",
+      "fact_ids": [
+        "paragraph-53-f2"
+      ]
+    },
+    {
+      "title": "Bargni kuzatish",
+      "body": "Madaniy tokning oddiy bargi uzun bandli, panjasimon bo‘lakli bo‘ladi.",
+      "fact_ids": [
+        "paragraph-53-f3"
+      ]
+    },
+    {
+      "title": "To‘pgulni kuzatish",
+      "body": "Tokning mayda ikki jinsli gullari murakkab shingil, ya’ni ro‘vak to‘pgulda joylashadi.",
+      "fact_ids": [
+        "paragraph-53-f4"
+      ]
+    },
+    {
+      "title": "Meva va gul",
+      "body": "Tokdoshlar gulida beshta changchi va bitta urug‘chi bo‘ladi, mevasi esa rezavor mevadir.",
+      "fact_ids": [
+        "paragraph-53-f5"
+      ]
+    },
+    {
+      "title": "O‘xshash nom, boshqa barg",
+      "body": "Besh yaproqchali partenotsissus manzarali tokdosh bo‘lib, bargi murakkab: beshta bargchadan iborat. Madaniy tokning bo‘lakli oddiy bargi bilan aralashtirmang.",
+      "fact_ids": [
+        "paragraph-53-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-53-q1",
+      "fact_id": "paragraph-53-f1",
+      "question_text": "Tokning tayanchga ilashadigan jingalagi qaysi organning o‘zgarishidir?",
+      "options": [
+        "Urug‘pallaning",
+        "Novdaning",
+        "Ildiz tukchasining",
+        "Gultojbargning"
+      ],
+      "correct_answer": "Novdaning",
+      "explanation": "Tokdoshlar jingalaklari yordamida tayanchga ilashadigan yog‘ochlashgan o‘simliklardir; jingalaklar shakli o‘zgargan novdalardir."
+    },
+    {
+      "key": "paragraph-53-q2",
+      "fact_id": "paragraph-53-f2",
+      "question_text": "Bog‘bon tok navini qalamcha ekib ko‘paytirdi. Qaysi usuldan foydalandi?",
+      "options": [
+        "Vegetativ ko‘paytirish",
+        "Sporadan ko‘paytirish",
+        "Faqat urug‘dan ko‘paytirish",
+        "Chang donini ekish"
+      ],
+      "correct_answer": "Vegetativ ko‘paytirish",
+      "explanation": "Madaniy tok qalamchasi yordamida vegetativ ko‘paytiriladi; bunda yangi o‘simlik novda qismidan rivojlanadi."
+    },
+    {
+      "key": "paragraph-53-q3",
+      "fact_id": "paragraph-53-f3",
+      "question_text": "Tok bargiga mos belgilarni toping.",
+      "options": [
+        "Murakkab, beshta mustaqil bargchali",
+        "Ignabargli, bandsiz",
+        "Faqat tangachasimon, rangsiz",
+        "Oddiy, uzun bandli, panjasimon bo‘lakli"
+      ],
+      "correct_answer": "Oddiy, uzun bandli, panjasimon bo‘lakli",
+      "explanation": "Madaniy tokning oddiy bargi uzun bandli, panjasimon bo‘lakli bo‘ladi."
+    },
+    {
+      "key": "paragraph-53-q4",
+      "fact_id": "paragraph-53-f4",
+      "question_text": "Tokning mayda gullari qanday to‘pgulga yig‘iladi?",
+      "options": [
+        "So‘ta",
+        "Oddiy soyabon",
+        "Ro‘vak",
+        "Savatcha"
+      ],
+      "correct_answer": "Ro‘vak",
+      "explanation": "Tokning mayda ikki jinsli gullari murakkab shingil, ya’ni ro‘vak to‘pgulda joylashadi."
+    },
+    {
+      "key": "paragraph-53-q5",
+      "fact_id": "paragraph-53-f5",
+      "question_text": "Tokdosh mevasi uchun qaysi atama mos?",
+      "options": [
+        "Qo‘zoq",
+        "Rezavor meva",
+        "Dukkak",
+        "Don"
+      ],
+      "correct_answer": "Rezavor meva",
+      "explanation": "Tokdoshlar gulida beshta changchi va bitta urug‘chi bo‘ladi, mevasi esa rezavor mevadir."
+    },
+    {
+      "key": "paragraph-53-q6",
+      "fact_id": "paragraph-53-f6",
+      "question_text": "Bargni ajratib turuvchi qaysi belgi besh yaproqchali partenotsissusga tegishli?",
+      "options": [
+        "Beshta bargchali murakkab barg",
+        "Panjasimon bo‘lakli oddiy barg",
+        "Bitta ignasimon barg",
+        "Barg o‘rnidagi quruq qipiq"
+      ],
+      "correct_answer": "Beshta bargchali murakkab barg",
+      "explanation": "Besh yaproqchali partenotsissus manzarali tokdosh bo‘lib, bargi murakkab: beshta bargchadan iborat. Madaniy tokning bo‘lakli oddiy bargi bilan aralashtirmang."
+    }
+  ]
+}

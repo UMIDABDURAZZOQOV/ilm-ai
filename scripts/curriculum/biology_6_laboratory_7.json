@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-laboratory-7-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-laboratory-7",
+  "title": "7-laboratoriya. O‘simliklarning tuzilishida sinf va oilalarning belgilarini aniqlash",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-7-f1": {
+      "claim": "Mashg‘ulotda bir va ikki urug‘pallali o‘simliklarning gerbariylari yoki tirik namunalarini kuzatish taklif etiladi.",
+      "answer": "Gerbariy yoki tirik o‘simlik namunalari",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f2": {
+      "claim": "Namunada hayotiy shakl, ildiz tizimi, poya, barg tomirlanishi va joylashuvi, gul, to‘pgul hamda meva turi aniqlanadi.",
+      "answer": "Ildiz, barg, gul va meva belgilarini ham qayd etish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f3": {
+      "claim": "Darslik avval belgilarni aniqlab, keyin ularning asosida namunalarni bir yoki ikki urug‘pallalilar sinfiga ajratishni topshiradi.",
+      "answer": "Namunani kuzatish → belgilarni qayd etish → sinfini ajratish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f4": {
+      "claim": "Jadvalda o‘simlik nomi, sinfi, oilasi, ildiz tizimi, barg tomirlanishi, gul formulasi, to‘pguli va meva turi uchun alohida ustunlar bor.",
+      "answer": "Ildiz tizimi, tomirlanish, gul formulasi, to‘pgul va meva",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv materialini tanlash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nMashg‘ulotda bir va ikki urug‘pallali o‘simliklarning gerbariylari yoki tirik namunalarini kuzatish taklif etiladi.",
+      "fact_ids": [
+        "laboratory-7-f1"
+      ]
+    },
+    {
+      "title": "Bir nechta belgini tekshirish",
+      "body": "Namunada hayotiy shakl, ildiz tizimi, poya, barg tomirlanishi va joylashuvi, gul, to‘pgul hamda meva turi aniqlanadi.",
+      "fact_ids": [
+        "laboratory-7-f2"
+      ]
+    },
+    {
+      "title": "Kuzatuvdan tasnifga",
+      "body": "Darslik avval belgilarni aniqlab, keyin ularning asosida namunalarni bir yoki ikki urug‘pallalilar sinfiga ajratishni topshiradi.",
+      "fact_ids": [
+        "laboratory-7-f3"
+      ]
+    },
+    {
+      "title": "Natijani hujjatlashtirish",
+      "body": "Jadvalda o‘simlik nomi, sinfi, oilasi, ildiz tizimi, barg tomirlanishi, gul formulasi, to‘pguli va meva turi uchun alohida ustunlar bor.",
+      "fact_ids": [
+        "laboratory-7-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-7-q1",
+      "fact_id": "laboratory-7-f1",
+      "question_text": "Sinf va oila belgilarini taqqoslash uchun darslik qaysi materialni taklif qiladi?",
+      "options": [
+        "Faqat o‘simlik nomining uzunligi",
+        "Gerbariy yoki tirik o‘simlik namunalari",
+        "Faqat meva sharbatining ta’mi",
+        "Faqat tuproqning rangi"
+      ],
+      "correct_answer": "Gerbariy yoki tirik o‘simlik namunalari",
+      "explanation": "Mashg‘ulotda bir va ikki urug‘pallali o‘simliklarning gerbariylari yoki tirik namunalarini kuzatish taklif etiladi."
+    },
+    {
+      "key": "laboratory-7-q2",
+      "fact_id": "laboratory-7-f2",
+      "question_text": "Faqat gul rangiga qaragan o‘quvchi ishni qanday to‘ldirishi kerak?",
+      "options": [
+        "Ildiz, barg, gul va meva belgilarini ham qayd etish",
+        "Gul rangini sinf nomi deb yozish",
+        "Kuzatilmagan meva turini taxmin qilish",
+        "Barcha namunalarni bir oilaga kiritish"
+      ],
+      "correct_answer": "Ildiz, barg, gul va meva belgilarini ham qayd etish",
+      "explanation": "Namunada hayotiy shakl, ildiz tizimi, poya, barg tomirlanishi va joylashuvi, gul, to‘pgul hamda meva turi aniqlanadi."
+    },
+    {
+      "key": "laboratory-7-q3",
+      "fact_id": "laboratory-7-f3",
+      "question_text": "Mashg‘ulotning mantiqiy ketma-ketligi qaysi?",
+      "options": [
+        "Avval sinfni taxmin qilish → namunani ko‘rmaslik",
+        "Avval meva yeyish → so‘ng nom qo‘yish",
+        "Faqat balandligini yozish → barcha belgilarni o‘chirish",
+        "Namunani kuzatish → belgilarni qayd etish → sinfini ajratish"
+      ],
+      "correct_answer": "Namunani kuzatish → belgilarni qayd etish → sinfini ajratish",
+      "explanation": "Darslik avval belgilarni aniqlab, keyin ularning asosida namunalarni bir yoki ikki urug‘pallalilar sinfiga ajratishni topshiradi."
+    },
+    {
+      "key": "laboratory-7-q4",
+      "fact_id": "laboratory-7-f4",
+      "question_text": "Kuzatuv jadvali sinf va oiladan tashqari qaysi belgilarni alohida saqlaydi?",
+      "options": [
+        "Faqat o‘quvchining yoshi va bo‘yi",
+        "Faqat xonaning harorati va namligi",
+        "Ildiz tizimi, tomirlanish, gul formulasi, to‘pgul va meva",
+        "Faqat barg soni va kunning vaqti"
+      ],
+      "correct_answer": "Ildiz tizimi, tomirlanish, gul formulasi, to‘pgul va meva",
+      "explanation": "Jadvalda o‘simlik nomi, sinfi, oilasi, ildiz tizimi, barg tomirlanishi, gul formulasi, to‘pguli va meva turi uchun alohida ustunlar bor."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "O‘simliklarning tuzilishida sinf va oilalarning belgilarini aniqlash: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv materialini tanlash",
+        "fact_ids": [
+          "laboratory-7-f1"
+        ]
+      },
+      {
+        "instruction": "Bir nechta belgini tekshirish",
+        "fact_ids": [
+          "laboratory-7-f2"
+        ]
+      },
+      {
+        "instruction": "Kuzatuvdan tasnifga",
+        "fact_ids": [
+          "laboratory-7-f3"
+        ]
+      },
+      {
+        "instruction": "Natijani hujjatlashtirish",
+        "fact_ids": [
+          "laboratory-7-f4"
+        ]
+      }
+    ]
+  }
+}

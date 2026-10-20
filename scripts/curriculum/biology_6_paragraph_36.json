@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-36-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-40",
+  "title": "O‘simlik – yaxlit organizm",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-36-f1": {
+      "claim": "O‘simlik organlari o‘zaro bog‘liq: ildiz suv-minerallarni olib, poya tashiydi, barglarda organik moddalar hosil bo‘ladi.",
+      "answer": "Bargga suv va mineral moddalar yetkazilishi kamayadi",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f2": {
+      "claim": "Barg fotosintezda hosil qilgan organik moddalarni o‘simlikning boshqa organlari ham o‘sish va rivojlanishda ishlatadi.",
+      "answer": "O‘sish va rivojlanish uchun",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f3": {
+      "claim": "G‘o‘zada avvalroq ochilgan gullardan hosil bo‘lgan ko‘saklar boshqalariga qaraganda ertaroq yetiladi.",
+      "answer": "Gullar turli vaqtda ochilgani uchun",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f4": {
+      "claim": "Yaxlit o‘simlik faoliyati suv, yorug‘lik, mos harorat va kislorodga bog‘liq; tashqi muhitdan ajralgan holda o‘sish mumkin emas.",
+      "answer": "Suv, yorug‘lik, harorat va havo",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Birgalikdagi faoliyat",
+      "body": "O‘simlik organlari o‘zaro bog‘liq: ildiz suv-minerallarni olib, poya tashiydi, barglarda organik moddalar hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-36-f1"
+      ]
+    },
+    {
+      "title": "Umumiy oziq taqsimoti",
+      "body": "Barg fotosintezda hosil qilgan organik moddalarni o‘simlikning boshqa organlari ham o‘sish va rivojlanishda ishlatadi.",
+      "fact_ids": [
+        "paragraph-36-f2"
+      ]
+    },
+    {
+      "title": "Hayot bosqichlari",
+      "body": "G‘o‘zada avvalroq ochilgan gullardan hosil bo‘lgan ko‘saklar boshqalariga qaraganda ertaroq yetiladi.",
+      "fact_ids": [
+        "paragraph-36-f3"
+      ]
+    },
+    {
+      "title": "Muhitga bog‘liqlik",
+      "body": "Yaxlit o‘simlik faoliyati suv, yorug‘lik, mos harorat va kislorodga bog‘liq; tashqi muhitdan ajralgan holda o‘sish mumkin emas.",
+      "fact_ids": [
+        "paragraph-36-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-36-q1",
+      "fact_id": "paragraph-36-f1",
+      "question_text": "Ildiz faoliyati buzilsa, barg ishiga nega ta’sir qiladi?",
+      "options": [
+        "Ildiz faqat gul changi yetkazgani uchun",
+        "Bargga suv va mineral moddalar yetkazilishi kamayadi",
+        "Barg ildizga aloqasiz alohida organizm bo‘lgani uchun",
+        "Barg faqat po‘kakdan tuzilgani uchun"
+      ],
+      "correct_answer": "Bargga suv va mineral moddalar yetkazilishi kamayadi",
+      "explanation": "O‘simlik organlari o‘zaro bog‘liq: ildiz suv-minerallarni olib, poya tashiydi, barglarda organik moddalar hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-36-q2",
+      "fact_id": "paragraph-36-f2",
+      "question_text": "Ildiz va yosh kurtaklar bargdan kelgan organik oziqdan nima uchun foydalanadi?",
+      "options": [
+        "O‘sish va rivojlanish uchun",
+        "Faqat havoni muzlatish uchun",
+        "Faqat urug‘palla sonini almashtirish uchun",
+        "Faqat gul changini yuvish uchun"
+      ],
+      "correct_answer": "O‘sish va rivojlanish uchun",
+      "explanation": "Barg fotosintezda hosil qilgan organik moddalarni o‘simlikning boshqa organlari ham o‘sish va rivojlanishda ishlatadi."
+    },
+    {
+      "key": "paragraph-36-q3",
+      "fact_id": "paragraph-36-f3",
+      "question_text": "Bir g‘o‘za tupidagi ko‘saklar nega bir vaqtda yetilmasligi mumkin?",
+      "options": [
+        "Barchasi bir kunda hosil bo‘lgani uchun",
+        "Har bir ko‘sak alohida daraxt bo‘lgani uchun",
+        "Barchasida urug‘ bo‘lmagani uchun",
+        "Gullar turli vaqtda ochilgani uchun"
+      ],
+      "correct_answer": "Gullar turli vaqtda ochilgani uchun",
+      "explanation": "G‘o‘zada avvalroq ochilgan gullardan hosil bo‘lgan ko‘saklar boshqalariga qaraganda ertaroq yetiladi."
+    },
+    {
+      "key": "paragraph-36-q4",
+      "fact_id": "paragraph-36-f4",
+      "question_text": "Rayhon parvarishida qaysi omillarni birgalikda hisobga olamiz?",
+      "options": [
+        "Faqat o‘simlik nomi",
+        "Faqat gulning rangi",
+        "Suv, yorug‘lik, harorat va havo",
+        "Faqat tuvak bezagi"
+      ],
+      "correct_answer": "Suv, yorug‘lik, harorat va havo",
+      "explanation": "Yaxlit o‘simlik faoliyati suv, yorug‘lik, mos harorat va kislorodga bog‘liq; tashqi muhitdan ajralgan holda o‘sish mumkin emas."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-41-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-46",
+  "title": "Qo‘ng‘ir va qizil suvo‘tlar bo‘limlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-41-f1": {
+      "claim": "Dengiz suvo‘tlarida xlorofill bilan birga boshqa pigmentlar ham bor; laminariya qo‘ng‘ir, porfira qizil, ulva yashil guruhga misol.",
+      "answer": "Qo‘ng‘ir — qizil — yashil",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f2": {
+      "claim": "Yapon laminariyasining yuqori qismi uzun tasmasimon bo‘lib, dengizdagi jismlarga birikib o‘sadi.",
+      "answer": "Suvo‘t qattanasini",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f3": {
+      "claim": "Yapon laminariyasi jinsiy yo‘l bilan va zoosporalar orqali jinssiz ko‘payadi.",
+      "answer": "Zoosporalar",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f4": {
+      "claim": "Qizil suvo‘tlardan agar-agar olinib, oziq-ovqat sanoatida va laboratoriya o‘stirish muhitlarini tayyorlashda ishlatiladi.",
+      "answer": "Qizil suvo‘tlardan",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Rang beruvchi pigmentlar",
+      "body": "Dengiz suvo‘tlarida xlorofill bilan birga boshqa pigmentlar ham bor; laminariya qo‘ng‘ir, porfira qizil, ulva yashil guruhga misol.",
+      "fact_ids": [
+        "paragraph-41-f1"
+      ]
+    },
+    {
+      "title": "Laminariya tuzilishi",
+      "body": "Yapon laminariyasining yuqori qismi uzun tasmasimon bo‘lib, dengizdagi jismlarga birikib o‘sadi.",
+      "fact_ids": [
+        "paragraph-41-f2"
+      ]
+    },
+    {
+      "title": "Ko‘payish usullari",
+      "body": "Yapon laminariyasi jinsiy yo‘l bilan va zoosporalar orqali jinssiz ko‘payadi.",
+      "fact_ids": [
+        "paragraph-41-f3"
+      ]
+    },
+    {
+      "title": "Agar-agar manbasi",
+      "body": "Qizil suvo‘tlardan agar-agar olinib, oziq-ovqat sanoatida va laboratoriya o‘stirish muhitlarini tayyorlashda ishlatiladi.",
+      "fact_ids": [
+        "paragraph-41-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-41-q1",
+      "fact_id": "paragraph-41-f1",
+      "question_text": "Laminariya — porfira — ulva tartibiga qaysi rang guruhlari mos?",
+      "options": [
+        "Uchovi ham faqat qo‘ng‘ir",
+        "Qo‘ng‘ir — qizil — yashil",
+        "Yashil — qo‘ng‘ir — qizil",
+        "Qizil — yashil — qo‘ng‘ir"
+      ],
+      "correct_answer": "Qo‘ng‘ir — qizil — yashil",
+      "explanation": "Dengiz suvo‘tlarida xlorofill bilan birga boshqa pigmentlar ham bor; laminariya qo‘ng‘ir, porfira qizil, ulva yashil guruhga misol."
+    },
+    {
+      "key": "paragraph-41-q2",
+      "fact_id": "paragraph-41-f2",
+      "question_text": "Laminariyaning tasmasimon tanasi nimani ifodalaydi?",
+      "options": [
+        "Suvo‘t qattanasini",
+        "Haqiqiy bargli gulli novdani",
+        "Urug‘li mevani",
+        "Popuk ildiz tizimini"
+      ],
+      "correct_answer": "Suvo‘t qattanasini",
+      "explanation": "Yapon laminariyasining yuqori qismi uzun tasmasimon bo‘lib, dengizdagi jismlarga birikib o‘sadi."
+    },
+    {
+      "key": "paragraph-41-q3",
+      "fact_id": "paragraph-41-f3",
+      "question_text": "Laminariyaning jinssiz ko‘payishida qaysi hujayralar qatnashadi?",
+      "options": [
+        "Urug‘pallalar",
+        "Meva danaklari",
+        "Gul changdonlari",
+        "Zoosporalar"
+      ],
+      "correct_answer": "Zoosporalar",
+      "explanation": "Yapon laminariyasi jinsiy yo‘l bilan va zoosporalar orqali jinssiz ko‘payadi."
+    },
+    {
+      "key": "paragraph-41-q4",
+      "fact_id": "paragraph-41-f4",
+      "question_text": "Agar-agar qaysi suvo‘tlar guruhidan olinadi?",
+      "options": [
+        "Faqat qirqbo‘g‘imlardan",
+        "Faqat ochiq urug‘lilardan",
+        "Qizil suvo‘tlardan",
+        "Faqat yo‘sinlardan"
+      ],
+      "correct_answer": "Qizil suvo‘tlardan",
+      "explanation": "Qizil suvo‘tlardan agar-agar olinib, oziq-ovqat sanoatida va laboratoriya o‘stirish muhitlarini tayyorlashda ishlatiladi."
+    }
+  ]
+}

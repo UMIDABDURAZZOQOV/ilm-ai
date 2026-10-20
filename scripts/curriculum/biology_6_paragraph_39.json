@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-39-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-44",
+  "title": "Suvo‘tlar. Bir hujayrali yashil suvo‘tlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-39-f1": {
+      "claim": "Suvo‘tlar tanasi ildiz, poya va bargga ajralmagan qattana yoki tallomdir; ular bir yoki ko‘p hujayrali bo‘lishi mumkin.",
+      "answer": "Tanasining ildiz, poya va bargga ajralmaganligi",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f2": {
+      "claim": "Bir hujayrali xlorellaning xromatoforida xlorofill bor; unda yorug‘lik yordamida organik moddalar hosil bo‘ladi.",
+      "answer": "Xloroplast",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f3": {
+      "claim": "Xlorella ona hujayrasi ichida bir necha yosh hujayra hosil bo‘lib, qobiqdan tashqariga chiqadi va mustaqil o‘sadi.",
+      "answer": "Ona hujayra ichida",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f4": {
+      "claim": "Xlamidomonada rasmida xivchin va ko‘zcha ko‘rsatilgan; xlorella rasmida bunday harakat tuzilmalari yo‘q.",
+      "answer": "Xivchinlar",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qattana tuzilishi",
+      "body": "Suvo‘tlar tanasi ildiz, poya va bargga ajralmagan qattana yoki tallomdir; ular bir yoki ko‘p hujayrali bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-39-f1"
+      ]
+    },
+    {
+      "title": "Xlorelladagi fotosintez",
+      "body": "Bir hujayrali xlorellaning xromatoforida xlorofill bor; unda yorug‘lik yordamida organik moddalar hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-39-f2"
+      ]
+    },
+    {
+      "title": "Jinssiz ko‘payish",
+      "body": "Xlorella ona hujayrasi ichida bir necha yosh hujayra hosil bo‘lib, qobiqdan tashqariga chiqadi va mustaqil o‘sadi.",
+      "fact_ids": [
+        "paragraph-39-f3"
+      ]
+    },
+    {
+      "title": "Ikki organizmni taqqoslash",
+      "body": "Xlamidomonada rasmida xivchin va ko‘zcha ko‘rsatilgan; xlorella rasmida bunday harakat tuzilmalari yo‘q.",
+      "fact_ids": [
+        "paragraph-39-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-39-q1",
+      "fact_id": "paragraph-39-f1",
+      "question_text": "Suvo‘tni ildizli yuksak o‘simlikdan ajratishda qaysi belgi muhim?",
+      "options": [
+        "Faqat hujayralardan tuzilishi",
+        "Tanasining ildiz, poya va bargga ajralmaganligi",
+        "Faqat yashil rangli bo‘lishi",
+        "Faqat suvga ehtiyoji"
+      ],
+      "correct_answer": "Tanasining ildiz, poya va bargga ajralmaganligi",
+      "explanation": "Suvo‘tlar tanasi ildiz, poya va bargga ajralmagan qattana yoki tallomdir; ular bir yoki ko‘p hujayrali bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-39-q2",
+      "fact_id": "paragraph-39-f2",
+      "question_text": "Xlorelladagi xromatofor qaysi tuzilmaning vazifasiga o‘xshash vazifa bajaradi?",
+      "options": [
+        "Xloroplast",
+        "Urug‘palla",
+        "Changdon",
+        "Ildiz qinchasi"
+      ],
+      "correct_answer": "Xloroplast",
+      "explanation": "Bir hujayrali xlorellaning xromatoforida xlorofill bor; unda yorug‘lik yordamida organik moddalar hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-39-q3",
+      "fact_id": "paragraph-39-f3",
+      "question_text": "Xlorellaning yangi hujayralari dastlab qayerda hosil bo‘ladi?",
+      "options": [
+        "Faqat gul ichida",
+        "Faqat meva danagida",
+        "Faqat ildiz uchida",
+        "Ona hujayra ichida"
+      ],
+      "correct_answer": "Ona hujayra ichida",
+      "explanation": "Xlorella ona hujayrasi ichida bir necha yosh hujayra hosil bo‘lib, qobiqdan tashqariga chiqadi va mustaqil o‘sadi."
+    },
+    {
+      "key": "paragraph-39-q4",
+      "fact_id": "paragraph-39-f4",
+      "question_text": "Xlamidomonadani xlorelladan ajratishga qaysi tuzilma yordam beradi?",
+      "options": [
+        "Faqat yadro",
+        "Faqat sitoplazma",
+        "Xivchinlar",
+        "Faqat hujayra qobig‘i"
+      ],
+      "correct_answer": "Xivchinlar",
+      "explanation": "Xlamidomonada rasmida xivchin va ko‘zcha ko‘rsatilgan; xlorella rasmida bunday harakat tuzilmalari yo‘q."
+    }
+  ]
+}

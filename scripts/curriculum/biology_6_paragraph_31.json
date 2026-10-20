@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-31-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-35",
+  "title": "O‘simliklarning ko‘payishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-31-f1": {
+      "claim": "O‘simliklar jinsiy va jinssiz ko‘payadi; vegetativ organlardan yangi o‘simlik hosil bo‘lishi jinssiz ko‘payishning bir usulidir.",
+      "answer": "Vegetativ ko‘payishga",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          75
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f2": {
+      "claim": "Terak va na’matak ildizidagi kurtaklardan yangi novdalar — ildiz bachkilari — hosil bo‘lishi mumkin.",
+      "answer": "Ildiz bachkisi",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          75
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f3": {
+      "claim": "Tok, anor va anjir kabi o‘simliklar novda qalamchasi orqali ko‘paytiriladi.",
+      "answer": "Novdasidan",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f4": {
+      "claim": "Payvandlashda bir o‘simlikning qismi boshqa o‘simlikka ulanadi; ulanadigan nav qismi payvandust, uni tutib turuvchi o‘simlik payvandtag deyiladi.",
+      "answer": "Payvand o‘rnatiladigan o‘simlikni",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f5": {
+      "claim": "Parxishda novdaning bir qismi ona o‘simlikdan uzilmagan holda tuproqqa ko‘miladi; ildiz olgach ajratiladi.",
+      "answer": "Ildiz hosil qilganidan keyin",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f6": {
+      "claim": "Qulupnayning sudraluvchi novdasidagi kurtaklardan barg va ildizli yangi tuplar rivojlanadi.",
+      "answer": "Ildiz va bargli yangi tup",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ko‘payish usullari",
+      "body": "O‘simliklar jinsiy va jinssiz ko‘payadi; vegetativ organlardan yangi o‘simlik hosil bo‘lishi jinssiz ko‘payishning bir usulidir.",
+      "fact_ids": [
+        "paragraph-31-f1"
+      ]
+    },
+    {
+      "title": "Ildiz bachkisi",
+      "body": "Terak va na’matak ildizidagi kurtaklardan yangi novdalar — ildiz bachkilari — hosil bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-31-f2"
+      ]
+    },
+    {
+      "title": "Madaniy o‘simlik qalamchasi",
+      "body": "Tok, anor va anjir kabi o‘simliklar novda qalamchasi orqali ko‘paytiriladi.",
+      "fact_ids": [
+        "paragraph-31-f3"
+      ]
+    },
+    {
+      "title": "Payvandlash tushunchasi",
+      "body": "Payvandlashda bir o‘simlikning qismi boshqa o‘simlikka ulanadi; ulanadigan nav qismi payvandust, uni tutib turuvchi o‘simlik payvandtag deyiladi.",
+      "fact_ids": [
+        "paragraph-31-f4"
+      ]
+    },
+    {
+      "title": "Parxish bilan ko‘payish",
+      "body": "Parxishda novdaning bir qismi ona o‘simlikdan uzilmagan holda tuproqqa ko‘miladi; ildiz olgach ajratiladi.",
+      "fact_ids": [
+        "paragraph-31-f5"
+      ]
+    },
+    {
+      "title": "Jingalakdan yangi tup",
+      "body": "Qulupnayning sudraluvchi novdasidagi kurtaklardan barg va ildizli yangi tuplar rivojlanadi.",
+      "fact_ids": [
+        "paragraph-31-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-31-q1",
+      "fact_id": "paragraph-31-f1",
+      "question_text": "Qalamchadan yangi o‘simlik olish qaysi usulga kiradi?",
+      "options": [
+        "Faqat meva tarqalishiga",
+        "Vegetativ ko‘payishga",
+        "Faqat urug‘lanishga",
+        "Faqat chetdan changlanishga"
+      ],
+      "correct_answer": "Vegetativ ko‘payishga",
+      "explanation": "O‘simliklar jinsiy va jinssiz ko‘payadi; vegetativ organlardan yangi o‘simlik hosil bo‘lishi jinssiz ko‘payishning bir usulidir."
+    },
+    {
+      "key": "paragraph-31-q2",
+      "fact_id": "paragraph-31-f2",
+      "question_text": "Na’matakning ildiz kurtagidan chiqqan yangi novda nima deyiladi?",
+      "options": [
+        "Ildiz bachkisi",
+        "Chang naychasi",
+        "Urug‘palla",
+        "Gultojbarg"
+      ],
+      "correct_answer": "Ildiz bachkisi",
+      "explanation": "Terak va na’matak ildizidagi kurtaklardan yangi novdalar — ildiz bachkilari — hosil bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-31-q3",
+      "fact_id": "paragraph-31-f3",
+      "question_text": "Tok qalamchasi o‘simlikning qaysi qismidan olinadi?",
+      "options": [
+        "Faqat changdonidan",
+        "Faqat meva po‘stidan",
+        "Faqat urug‘pallasidan",
+        "Novdasidan"
+      ],
+      "correct_answer": "Novdasidan",
+      "explanation": "Tok, anor va anjir kabi o‘simliklar novda qalamchasi orqali ko‘paytiriladi."
+    },
+    {
+      "key": "paragraph-31-q4",
+      "fact_id": "paragraph-31-f4",
+      "question_text": "Payvandtag nimani anglatadi?",
+      "options": [
+        "Faqat gul changini",
+        "Faqat yetilgan mevani",
+        "Payvand o‘rnatiladigan o‘simlikni",
+        "Ulanadigan kurtakning o‘zini"
+      ],
+      "correct_answer": "Payvand o‘rnatiladigan o‘simlikni",
+      "explanation": "Payvandlashda bir o‘simlikning qismi boshqa o‘simlikka ulanadi; ulanadigan nav qismi payvandust, uni tutib turuvchi o‘simlik payvandtag deyiladi."
+    },
+    {
+      "key": "paragraph-31-q5",
+      "fact_id": "paragraph-31-f5",
+      "question_text": "Parxishda novda ona o‘simlikdan qachon ajratiladi?",
+      "options": [
+        "Faqat gul changi yetilganda",
+        "Ildiz hosil qilganidan keyin",
+        "Tuproqqa ko‘mishdan oldin har doim",
+        "Faqat urug‘lanish boshlanganda"
+      ],
+      "correct_answer": "Ildiz hosil qilganidan keyin",
+      "explanation": "Parxishda novdaning bir qismi ona o‘simlikdan uzilmagan holda tuproqqa ko‘miladi; ildiz olgach ajratiladi."
+    },
+    {
+      "key": "paragraph-31-q6",
+      "fact_id": "paragraph-31-f6",
+      "question_text": "Qulupnay jingalagidagi kurtakdan nima rivojlanishi mumkin?",
+      "options": [
+        "Ildiz va bargli yangi tup",
+        "Faqat gul changi donasi",
+        "Faqat bitta urug‘palla",
+        "Faqat quruq po‘kak bo‘lagi"
+      ],
+      "correct_answer": "Ildiz va bargli yangi tup",
+      "explanation": "Qulupnayning sudraluvchi novdasidagi kurtaklardan barg va ildizli yangi tuplar rivojlanadi."
+    }
+  ]
+}

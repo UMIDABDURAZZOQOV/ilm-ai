@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-42-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-47",
+  "title": "Yo‘sinlar bo‘limi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-42-f1": {
+      "claim": "Yo‘sinlarda jinsiy va jinssiz avlodlar gallanadi; hayot siklida jinsiy avlod — gametofit — ustun bo‘ladi.",
+      "answer": "Gametofit",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f2": {
+      "claim": "Yo‘sinlarda haqiqiy ildiz bo‘lmaydi; funariya tuproqqa rizoidlar bilan birikadi va nam joylarda o‘sadi.",
+      "answer": "Rizoidlari bilan",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f3": {
+      "claim": "Yo‘sinning erkaklik organi anteridiy, urg‘ochilik organi arxegoniy deyiladi; urug‘lanishda suv zarur.",
+      "answer": "Arxegoniy",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f4": {
+      "claim": "Funariya zigotasidan sporangiyband va sporali ko‘sakchadan iborat sporofit rivojlanadi.",
+      "answer": "Band va sporali ko‘sakchadan",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f5": {
+      "claim": "Nam tuproqqa tushgan spora yashil shoxlangan ip hosil qiladi; ipdagi kurtaklardan yangi poya-bargli yo‘sin o‘sadi.",
+      "answer": "Yashil shoxlangan ip",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Avlodlarning gallanishi",
+      "body": "Yo‘sinlarda jinsiy va jinssiz avlodlar gallanadi; hayot siklida jinsiy avlod — gametofit — ustun bo‘ladi.",
+      "fact_ids": [
+        "paragraph-42-f1"
+      ]
+    },
+    {
+      "title": "Ildiz o‘rnidagi tuzilma",
+      "body": "Yo‘sinlarda haqiqiy ildiz bo‘lmaydi; funariya tuproqqa rizoidlar bilan birikadi va nam joylarda o‘sadi.",
+      "fact_ids": [
+        "paragraph-42-f2"
+      ]
+    },
+    {
+      "title": "Jinsiy organlar",
+      "body": "Yo‘sinning erkaklik organi anteridiy, urg‘ochilik organi arxegoniy deyiladi; urug‘lanishda suv zarur.",
+      "fact_ids": [
+        "paragraph-42-f3"
+      ]
+    },
+    {
+      "title": "Sporofit va spora",
+      "body": "Funariya zigotasidan sporangiyband va sporali ko‘sakchadan iborat sporofit rivojlanadi.",
+      "fact_ids": [
+        "paragraph-42-f4"
+      ]
+    },
+    {
+      "title": "Siklning qaytishi",
+      "body": "Nam tuproqqa tushgan spora yashil shoxlangan ip hosil qiladi; ipdagi kurtaklardan yangi poya-bargli yo‘sin o‘sadi.",
+      "fact_ids": [
+        "paragraph-42-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-42-q1",
+      "fact_id": "paragraph-42-f1",
+      "question_text": "Yo‘sin hayotida qaysi avlod ustun?",
+      "options": [
+        "Faqat meva",
+        "Gametofit",
+        "Sporofit",
+        "Faqat urug‘"
+      ],
+      "correct_answer": "Gametofit",
+      "explanation": "Yo‘sinlarda jinsiy va jinssiz avlodlar gallanadi; hayot siklida jinsiy avlod — gametofit — ustun bo‘ladi."
+    },
+    {
+      "key": "paragraph-42-q2",
+      "fact_id": "paragraph-42-f2",
+      "question_text": "Funariya tuproqqa qanday birikadi?",
+      "options": [
+        "Rizoidlari bilan",
+        "O‘q ildizi bilan",
+        "Popuk ildizi bilan",
+        "Meva bandi bilan"
+      ],
+      "correct_answer": "Rizoidlari bilan",
+      "explanation": "Yo‘sinlarda haqiqiy ildiz bo‘lmaydi; funariya tuproqqa rizoidlar bilan birikadi va nam joylarda o‘sadi."
+    },
+    {
+      "key": "paragraph-42-q3",
+      "fact_id": "paragraph-42-f3",
+      "question_text": "Yo‘sinning tuxum hujayrasi yetiladigan organ qaysi?",
+      "options": [
+        "Anteridiy",
+        "Changdon",
+        "Gultoj",
+        "Arxegoniy"
+      ],
+      "correct_answer": "Arxegoniy",
+      "explanation": "Yo‘sinning erkaklik organi anteridiy, urg‘ochilik organi arxegoniy deyiladi; urug‘lanishda suv zarur."
+    },
+    {
+      "key": "paragraph-42-q4",
+      "fact_id": "paragraph-42-f4",
+      "question_text": "Funariya sporofiti qanday qismlardan iborat?",
+      "options": [
+        "Faqat ildiz tukchalari va urug‘dan",
+        "Faqat qo‘sh urug‘palladan",
+        "Band va sporali ko‘sakchadan",
+        "Faqat gul va mevadan"
+      ],
+      "correct_answer": "Band va sporali ko‘sakchadan",
+      "explanation": "Funariya zigotasidan sporangiyband va sporali ko‘sakchadan iborat sporofit rivojlanadi."
+    },
+    {
+      "key": "paragraph-42-q5",
+      "fact_id": "paragraph-42-f5",
+      "question_text": "Funariya sporasidan keyingi dastlabki o‘sish qaysi?",
+      "options": [
+        "Gulli novda",
+        "Yashil shoxlangan ip",
+        "Pishgan meva",
+        "Urug‘palla"
+      ],
+      "correct_answer": "Yashil shoxlangan ip",
+      "explanation": "Nam tuproqqa tushgan spora yashil shoxlangan ip hosil qiladi; ipdagi kurtaklardan yangi poya-bargli yo‘sin o‘sadi."
+    }
+  ]
+}

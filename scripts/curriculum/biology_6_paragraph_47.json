@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-47-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-52",
+  "title": "Ra’nodoshlar oilasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-47-f1": {
+      "claim": "Ra’nodoshlar gullari odatda ikki jinsli, to‘g‘ri, besh gultojbargli va ko‘p changchili bo‘ladi; daraxt, buta va o‘t vakillari bor.",
+      "answer": "Ra’nodoshlar",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f2": {
+      "claim": "Olma, nok, olcha, shaftoli, qulupnay va malina ra’nodoshlar oilasiga kiradi.",
+      "answer": "Olma, nok, qulupnay",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f3": {
+      "claim": "Na’matak tikanli buta, barglari murakkab toq patsimon; gullarida ko‘p changchi va urug‘chi mavjud.",
+      "answer": "Murakkab toq patsimon",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f4": {
+      "claim": "Nok meva etidagi sklereid — tosh hujayralar — uning donadorroq tuzilishiga sabab bo‘ladi.",
+      "answer": "Sklereidlar",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f5": {
+      "claim": "Yovvoyi mevali o‘simliklarning sovuq va zararkunandalarga chidamli belgilari yangi nav yaratish hamda payvandtag tanlashda ahamiyatli.",
+      "answer": "Chidamli navlar va payvandtaglar uchun manba bo‘lishi",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oilaviy gul belgisi",
+      "body": "Ra’nodoshlar gullari odatda ikki jinsli, to‘g‘ri, besh gultojbargli va ko‘p changchili bo‘ladi; daraxt, buta va o‘t vakillari bor.",
+      "fact_ids": [
+        "paragraph-47-f1"
+      ]
+    },
+    {
+      "title": "Vakillarni guruhlash",
+      "body": "Olma, nok, olcha, shaftoli, qulupnay va malina ra’nodoshlar oilasiga kiradi.",
+      "fact_ids": [
+        "paragraph-47-f2"
+      ]
+    },
+    {
+      "title": "Na’matakning bargi",
+      "body": "Na’matak tikanli buta, barglari murakkab toq patsimon; gullarida ko‘p changchi va urug‘chi mavjud.",
+      "fact_ids": [
+        "paragraph-47-f3"
+      ]
+    },
+    {
+      "title": "Nokning tosh hujayralari",
+      "body": "Nok meva etidagi sklereid — tosh hujayralar — uning donadorroq tuzilishiga sabab bo‘ladi.",
+      "fact_ids": [
+        "paragraph-47-f4"
+      ]
+    },
+    {
+      "title": "Yovvoyi qarindoshlar",
+      "body": "Yovvoyi mevali o‘simliklarning sovuq va zararkunandalarga chidamli belgilari yangi nav yaratish hamda payvandtag tanlashda ahamiyatli.",
+      "fact_ids": [
+        "paragraph-47-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-47-q1",
+      "fact_id": "paragraph-47-f1",
+      "question_text": "Besh erkin gultojbarg va ko‘p changchili olma qaysi oilaga misol?",
+      "options": [
+        "Tokdoshlar",
+        "Ra’nodoshlar",
+        "Karamdoshlar",
+        "Bug‘doydoshlar"
+      ],
+      "correct_answer": "Ra’nodoshlar",
+      "explanation": "Ra’nodoshlar gullari odatda ikki jinsli, to‘g‘ri, besh gultojbargli va ko‘p changchili bo‘ladi; daraxt, buta va o‘t vakillari bor."
+    },
+    {
+      "key": "paragraph-47-q2",
+      "fact_id": "paragraph-47-f2",
+      "question_text": "Qaysi qatorda faqat ra’nodoshlar vakillari berilgan?",
+      "options": [
+        "Olma, nok, qulupnay",
+        "Bug‘doy, arpa, suli",
+        "Karam, turp, rediska",
+        "Piyoz, tok, qovoq"
+      ],
+      "correct_answer": "Olma, nok, qulupnay",
+      "explanation": "Olma, nok, olcha, shaftoli, qulupnay va malina ra’nodoshlar oilasiga kiradi."
+    },
+    {
+      "key": "paragraph-47-q3",
+      "fact_id": "paragraph-47-f3",
+      "question_text": "Na’matakning barg tuzilishi qanday?",
+      "options": [
+        "Faqat oddiy parallel",
+        "Faqat ignasimon",
+        "Faqat bandsiz tasmasimon",
+        "Murakkab toq patsimon"
+      ],
+      "correct_answer": "Murakkab toq patsimon",
+      "explanation": "Na’matak tikanli buta, barglari murakkab toq patsimon; gullarida ko‘p changchi va urug‘chi mavjud."
+    },
+    {
+      "key": "paragraph-47-q4",
+      "fact_id": "paragraph-47-f4",
+      "question_text": "Nok eti tuzilishini tushuntiruvchi maxsus hujayralar qaysi?",
+      "options": [
+        "Faqat ildiz tukchalari",
+        "Faqat elaksimon naylar",
+        "Sklereidlar",
+        "Faqat og‘izcha hujayralari"
+      ],
+      "correct_answer": "Sklereidlar",
+      "explanation": "Nok meva etidagi sklereid — tosh hujayralar — uning donadorroq tuzilishiga sabab bo‘ladi."
+    },
+    {
+      "key": "paragraph-47-q5",
+      "fact_id": "paragraph-47-f5",
+      "question_text": "Yovvoyi nok va olma turlarini saqlashning amaliy foydasi qaysi?",
+      "options": [
+        "Gul tuzilishini o‘rganmaslik",
+        "Chidamli navlar va payvandtaglar uchun manba bo‘lishi",
+        "Barcha turlarni bir xil qilish",
+        "Mevalarni urug‘siz deb belgilash"
+      ],
+      "correct_answer": "Chidamli navlar va payvandtaglar uchun manba bo‘lishi",
+      "explanation": "Yovvoyi mevali o‘simliklarning sovuq va zararkunandalarga chidamli belgilari yangi nav yaratish hamda payvandtag tanlashda ahamiyatli."
+    }
+  ]
+}
