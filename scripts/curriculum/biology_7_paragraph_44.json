@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-44-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-64",
+  "title": "Qushlarning ko‘payishi, rivojlanishi va kelib chiqishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-44-f1": {
+      "claim": "Qushlarning ko‘payish davri tuxumdan chiqqan bolalar uchun oziq yetarli bo‘ladigan mavsum bilan bog‘liq.",
+      "answer": "Bolalarni oziqlantirishga",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          149
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f2": {
+      "claim": "Qushlar uya qurishda turli usullardan foydalanadi; qaldirg‘och loydan foydalanadi, kakku esa tuxumini boshqa qush uyasiga tashlaydi.",
+      "answer": "Tuxumini boshqa qush uyasiga qo‘yish",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f3": {
+      "claim": "Qush tuxumida sariqlik, oqsil, po‘choqosti pardalar, havo kamerasi va qattiq po‘choq farqlanadi; murtak sariqlik sirtida joylashadi.",
+      "answer": "Sariqlik sirtida",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f4": {
+      "claim": "Tovuq va o‘rdak jo‘jalari ko‘zi ochiq, parli holda chiqib tez yuradi; kaptar bolasi esa ojiz chiqib ota-ona parvarishiga muhtoj bo‘ladi.",
+      "answer": "Ko‘zi ochiq, parli va tez yura olishi",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f5": {
+      "claim": "Qushlar tuxum bosib, bolalarini isitish, oziqlantirish va yirtqichlardan himoya qilish orqali naslga g‘amxo‘rlik qiladi.",
+      "answer": "Jo‘jani oziqlantirish va himoya qilish",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f6": {
+      "claim": "Arxeopteriks qoldiqlarida pat va qanotlar bilan birga jag‘ tishlari hamda uzun suyakli dum aniqlangan. Bu turli belgilarni taqqoslash imkonini beradi.",
+      "answer": "Jag‘ tishlari va uzun suyakli dum",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ko‘payish va oziq vaqti",
+      "body": "Qushlarning ko‘payish davri tuxumdan chiqqan bolalar uchun oziq yetarli bo‘ladigan mavsum bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-44-f1"
+      ]
+    },
+    {
+      "title": "Uyaning xilma-xilligi",
+      "body": "Qushlar uya qurishda turli usullardan foydalanadi; qaldirg‘och loydan foydalanadi, kakku esa tuxumini boshqa qush uyasiga tashlaydi.",
+      "fact_ids": [
+        "paragraph-44-f2"
+      ]
+    },
+    {
+      "title": "Tuxumning qismlari",
+      "body": "Qush tuxumida sariqlik, oqsil, po‘choqosti pardalar, havo kamerasi va qattiq po‘choq farqlanadi; murtak sariqlik sirtida joylashadi.",
+      "fact_ids": [
+        "paragraph-44-f3"
+      ]
+    },
+    {
+      "title": "Jo‘janing mustaqillik darajasi",
+      "body": "Tovuq va o‘rdak jo‘jalari ko‘zi ochiq, parli holda chiqib tez yuradi; kaptar bolasi esa ojiz chiqib ota-ona parvarishiga muhtoj bo‘ladi.",
+      "fact_ids": [
+        "paragraph-44-f4"
+      ]
+    },
+    {
+      "title": "Naslni himoya qilish",
+      "body": "Qushlar tuxum bosib, bolalarini isitish, oziqlantirish va yirtqichlardan himoya qilish orqali naslga g‘amxo‘rlik qiladi.",
+      "fact_ids": [
+        "paragraph-44-f5"
+      ]
+    },
+    {
+      "title": "Qazilma va belgilar",
+      "body": "Arxeopteriks qoldiqlarida pat va qanotlar bilan birga jag‘ tishlari hamda uzun suyakli dum aniqlangan. Bu turli belgilarni taqqoslash imkonini beradi.",
+      "fact_ids": [
+        "paragraph-44-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-44-q1",
+      "fact_id": "paragraph-44-f1",
+      "question_text": "Ko‘payish mavsumining oziq ko‘pligi bilan mos kelishi nimaga foydali?",
+      "options": [
+        "Bolalarni oziqlantirishga",
+        "Barcha patlarning bir vaqtda yo‘qolishiga",
+        "Barcha tuxumlarni quruq toshga aylantirishga",
+        "Qon aylanishni to‘xtatishga"
+      ],
+      "correct_answer": "Bolalarni oziqlantirishga",
+      "explanation": "Qushlarning ko‘payish davri tuxumdan chiqqan bolalar uchun oziq yetarli bo‘ladigan mavsum bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-44-q2",
+      "fact_id": "paragraph-44-f2",
+      "question_text": "Kakkuning ko‘payishdagi o‘ziga xos usuli qaysi?",
+      "options": [
+        "Har bir tuxumga alohida suyak qobiq yasash",
+        "Faqat suvda g‘umbak chiqarish",
+        "Faqat tirik bola tug‘ish",
+        "Tuxumini boshqa qush uyasiga qo‘yish"
+      ],
+      "correct_answer": "Tuxumini boshqa qush uyasiga qo‘yish",
+      "explanation": "Qushlar uya qurishda turli usullardan foydalanadi; qaldirg‘och loydan foydalanadi, kakku esa tuxumini boshqa qush uyasiga tashlaydi."
+    },
+    {
+      "key": "paragraph-44-q3",
+      "fact_id": "paragraph-44-f3",
+      "question_text": "Qush tuxumining murtak diski qayerda joylashgan?",
+      "options": [
+        "Faqat havo kamerasining o‘rtasida",
+        "Faqat ona qushning patida",
+        "Sariqlik sirtida",
+        "Faqat qattiq po‘choqning tashqarisida"
+      ],
+      "correct_answer": "Sariqlik sirtida",
+      "explanation": "Qush tuxumida sariqlik, oqsil, po‘choqosti pardalar, havo kamerasi va qattiq po‘choq farqlanadi; murtak sariqlik sirtida joylashadi."
+    },
+    {
+      "key": "paragraph-44-q4",
+      "fact_id": "paragraph-44-f4",
+      "question_text": "Tuxumdan chiqqan tovuq jo‘jasini kaptar bolasidan nima farqlaydi?",
+      "options": [
+        "Tuxumdan tayyor uchuvchi bo‘lib chiqishi",
+        "Ko‘zi ochiq, parli va tez yura olishi",
+        "Har doim ko‘zi yumuq, butunlay yalang‘ochligi",
+        "Faqat suvda jabra bilan nafas olishi"
+      ],
+      "correct_answer": "Ko‘zi ochiq, parli va tez yura olishi",
+      "explanation": "Tovuq va o‘rdak jo‘jalari ko‘zi ochiq, parli holda chiqib tez yuradi; kaptar bolasi esa ojiz chiqib ota-ona parvarishiga muhtoj bo‘ladi."
+    },
+    {
+      "key": "paragraph-44-q5",
+      "fact_id": "paragraph-44-f5",
+      "question_text": "Qushlarda naslga g‘amxo‘rlik qaysi holatda ko‘rsatilgan?",
+      "options": [
+        "Jo‘jani oziqlantirish va himoya qilish",
+        "Har bir tuxumni uyadan chiqarib tashlash",
+        "Faqat eski patlarni to‘kish",
+        "Faqat bir joydan uchib o‘tish"
+      ],
+      "correct_answer": "Jo‘jani oziqlantirish va himoya qilish",
+      "explanation": "Qushlar tuxum bosib, bolalarini isitish, oziqlantirish va yirtqichlardan himoya qilish orqali naslga g‘amxo‘rlik qiladi."
+    },
+    {
+      "key": "paragraph-44-q6",
+      "fact_id": "paragraph-44-f6",
+      "question_text": "Arxeopteriksning hozirgi qushlardan farqlangan belgisi qaysi?",
+      "options": [
+        "Faqat pat va qanot borligi",
+        "Faqat tuxum qo‘yishi",
+        "Faqat ikki ko‘zi borligi",
+        "Jag‘ tishlari va uzun suyakli dum"
+      ],
+      "correct_answer": "Jag‘ tishlari va uzun suyakli dum",
+      "explanation": "Arxeopteriks qoldiqlarida pat va qanotlar bilan birga jag‘ tishlari hamda uzun suyakli dum aniqlangan. Bu turli belgilarni taqqoslash imkonini beradi."
+    }
+  ]
+}

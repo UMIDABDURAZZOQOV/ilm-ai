@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-49-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-69",
+  "title": "Parrandachilik .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-49-f1": {
+      "claim": "Xonaki parranda zotlari odam tanlovi bilan kerakli xususiyatlarga qarab yaratiladi; mahsulot yo‘nalishi zotlar orasida farqlanadi.",
+      "answer": "Kerakli mahsulot va xususiyatlarni",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          166
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f2": {
+      "claim": "Tovuq zotlari tuxum, go‘sht va go‘sht-tuxum yo‘nalishlariga ajratiladi.",
+      "answer": "Tuxum, go‘sht, go‘sht-tuxum",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          166
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f3": {
+      "claim": "Rus oq tovug‘i va Leggorn tuxum olish uchun boqiladigan zotlardir; go‘sht yo‘nalishidagi zotlardan foydalanish maqsadi farq qiladi.",
+      "answer": "Rus oq tovug‘i va Leggorn",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          166
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f4": {
+      "claim": "Broylerlar go‘sht yetishtirish uchun boqiladigan yosh parrandalardir; o‘sish sharoiti xo‘jalikda nazorat qilinadi.",
+      "answer": "Go‘sht yetishtirish",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f5": {
+      "claim": "Parrandachilikda jo‘jalar maxsus inkubatorlarda ochiriladi; harorat va namlik kabi sharoitlar apparatlar yordamida boshqariladi.",
+      "answer": "Tuxumdan jo‘ja ochirish uchun",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f6": {
+      "claim": "Xonaki g‘ozlar go‘shti va momiq pari uchun boqiladi. Turli parranda mahsulotlaridan xo‘jalikda turlicha foydalaniladi.",
+      "answer": "Go‘sht va momiq par",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Zot va maqsad",
+      "body": "Xonaki parranda zotlari odam tanlovi bilan kerakli xususiyatlarga qarab yaratiladi; mahsulot yo‘nalishi zotlar orasida farqlanadi.",
+      "fact_ids": [
+        "paragraph-49-f1"
+      ]
+    },
+    {
+      "title": "Uch mahsulot yo‘nalishi",
+      "body": "Tovuq zotlari tuxum, go‘sht va go‘sht-tuxum yo‘nalishlariga ajratiladi.",
+      "fact_ids": [
+        "paragraph-49-f2"
+      ]
+    },
+    {
+      "title": "Tuxumchi zot misoli",
+      "body": "Rus oq tovug‘i va Leggorn tuxum olish uchun boqiladigan zotlardir; go‘sht yo‘nalishidagi zotlardan foydalanish maqsadi farq qiladi.",
+      "fact_ids": [
+        "paragraph-49-f3"
+      ]
+    },
+    {
+      "title": "Broylerning vazifasi",
+      "body": "Broylerlar go‘sht yetishtirish uchun boqiladigan yosh parrandalardir; o‘sish sharoiti xo‘jalikda nazorat qilinadi.",
+      "fact_ids": [
+        "paragraph-49-f4"
+      ]
+    },
+    {
+      "title": "Inkubatorning o‘rni",
+      "body": "Parrandachilikda jo‘jalar maxsus inkubatorlarda ochiriladi; harorat va namlik kabi sharoitlar apparatlar yordamida boshqariladi.",
+      "fact_ids": [
+        "paragraph-49-f5"
+      ]
+    },
+    {
+      "title": "G‘ozning mahsuloti",
+      "body": "Xonaki g‘ozlar go‘shti va momiq pari uchun boqiladi. Turli parranda mahsulotlaridan xo‘jalikda turlicha foydalaniladi.",
+      "fact_ids": [
+        "paragraph-49-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-49-q1",
+      "fact_id": "paragraph-49-f1",
+      "question_text": "Parranda zotlarini yaratishda inson nimani tanlaydi?",
+      "options": [
+        "Kerakli mahsulot va xususiyatlarni",
+        "Faqat yovvoyi uya balandligini",
+        "Faqat dengiz suvining tuzliligini",
+        "Faqat qushlar nomidagi harf sonini"
+      ],
+      "correct_answer": "Kerakli mahsulot va xususiyatlarni",
+      "explanation": "Xonaki parranda zotlari odam tanlovi bilan kerakli xususiyatlarga qarab yaratiladi; mahsulot yo‘nalishi zotlar orasida farqlanadi."
+    },
+    {
+      "key": "paragraph-49-q2",
+      "fact_id": "paragraph-49-f2",
+      "question_text": "Tovuq zotlarini mahsulotiga qarab ajratishning to‘g‘ri qatori qaysi?",
+      "options": [
+        "Faqat jun, sut, teri",
+        "Faqat nektar, mum, ipak",
+        "Faqat suyak, tangacha, jabra",
+        "Tuxum, go‘sht, go‘sht-tuxum"
+      ],
+      "correct_answer": "Tuxum, go‘sht, go‘sht-tuxum",
+      "explanation": "Tovuq zotlari tuxum, go‘sht va go‘sht-tuxum yo‘nalishlariga ajratiladi."
+    },
+    {
+      "key": "paragraph-49-q3",
+      "fact_id": "paragraph-49-f3",
+      "question_text": "Darslikdagi tuxumchi zotlar juftligini toping.",
+      "options": [
+        "Faqat Pekin o‘rdagi va kurka",
+        "Faqat kaptar va qaldirg‘och",
+        "Rus oq tovug‘i va Leggorn",
+        "Faqat Kornuel va Plimutrok"
+      ],
+      "correct_answer": "Rus oq tovug‘i va Leggorn",
+      "explanation": "Rus oq tovug‘i va Leggorn tuxum olish uchun boqiladigan zotlardir; go‘sht yo‘nalishidagi zotlardan foydalanish maqsadi farq qiladi."
+    },
+    {
+      "key": "paragraph-49-q4",
+      "fact_id": "paragraph-49-f4",
+      "question_text": "Broyler boqishning asosiy maqsadi nima?",
+      "options": [
+        "Faqat asal yig‘ish",
+        "Go‘sht yetishtirish",
+        "Faqat mayin jun olish",
+        "Faqat sut olish"
+      ],
+      "correct_answer": "Go‘sht yetishtirish",
+      "explanation": "Broylerlar go‘sht yetishtirish uchun boqiladigan yosh parrandalardir; o‘sish sharoiti xo‘jalikda nazorat qilinadi."
+    },
+    {
+      "key": "paragraph-49-q5",
+      "fact_id": "paragraph-49-f5",
+      "question_text": "Inkubator parrandachilikda nima uchun qo‘llanadi?",
+      "options": [
+        "Tuxumdan jo‘ja ochirish uchun",
+        "Faqat qushning patini bo‘yash uchun",
+        "Faqat sutni saqlash uchun",
+        "Faqat baliqni yemlash uchun"
+      ],
+      "correct_answer": "Tuxumdan jo‘ja ochirish uchun",
+      "explanation": "Parrandachilikda jo‘jalar maxsus inkubatorlarda ochiriladi; harorat va namlik kabi sharoitlar apparatlar yordamida boshqariladi."
+    },
+    {
+      "key": "paragraph-49-q6",
+      "fact_id": "paragraph-49-f6",
+      "question_text": "Xonaki g‘ozdan darslikda ko‘rsatilgan qaysi mahsulotlar olinadi?",
+      "options": [
+        "Sut va jun",
+        "Asal va mum",
+        "Ipak va paxta",
+        "Go‘sht va momiq par"
+      ],
+      "correct_answer": "Go‘sht va momiq par",
+      "explanation": "Xonaki g‘ozlar go‘shti va momiq pari uchun boqiladi. Turli parranda mahsulotlaridan xo‘jalikda turlicha foydalaniladi."
+    }
+  ]
+}

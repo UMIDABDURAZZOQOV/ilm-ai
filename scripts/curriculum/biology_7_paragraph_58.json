@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-58-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-79",
+  "title": "Primatlar turkumi. Sutemizuvchilarning ahamiyati .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-58-f1": {
+      "claim": "Ko‘plab primatlarda bosh barmoq boshqalariga qarama-qarshi qo‘yilib, shox va mayda narsalarni ushlashga yordam beradi.",
+      "answer": "Narsalarni mahkam ushlash uchun",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f2": {
+      "claim": "Primatlarning oldinda joylashgan ikki ko‘zi narsani ikki tomondan ko‘rib, masofani chamalashga yordam beradi.",
+      "answer": "Masofani chamalashga",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f3": {
+      "claim": "Shimpanze novda yoki cho‘p bilan tor joydan hasharot chiqarishi mumkin. Bu oziq topishda buyumdan foydalanish misolidir.",
+      "answer": "Buyumdan oziq topish quroli sifatida foydalanishini",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          195
+        ],
+        "printed_pages": [
+          195
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f4": {
+      "claim": "Gorilla, shimpanze va orangutan odamsimon maymunlarga misol; orangutan Sumatra va Kalimantan orollari bilan bog‘liq vakildir.",
+      "answer": "Gorilla, shimpanze, orangutan",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          195
+        ],
+        "printed_pages": [
+          195
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f5": {
+      "claim": "Sutemizuvchilar urug‘ tarqatish, tuproqni yumshatish va hasharotlar sonini cheklashda qatnashadi. Bir guruhning ekologik vazifalari xilma-xildir.",
+      "answer": "Tuproqni yumshatishi",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          196
+        ],
+        "printed_pages": [
+          196
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f6": {
+      "claim": "Noyob va kamayib borayotgan sutemizuvchilarni asrash uchun qo‘riqxonalar tashkil etiladi va muhofaza ro‘yxatlari yuritiladi.",
+      "answer": "Qo‘riqxona va muhofaza choralarini tashkil etish",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          196
+        ],
+        "printed_pages": [
+          196
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ushlashga mos panja",
+      "body": "Ko‘plab primatlarda bosh barmoq boshqalariga qarama-qarshi qo‘yilib, shox va mayda narsalarni ushlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-58-f1"
+      ]
+    },
+    {
+      "title": "Oldinga qaragan ko‘zlar",
+      "body": "Primatlarning oldinda joylashgan ikki ko‘zi narsani ikki tomondan ko‘rib, masofani chamalashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-58-f2"
+      ]
+    },
+    {
+      "title": "Sodda quroldan foydalanish",
+      "body": "Shimpanze novda yoki cho‘p bilan tor joydan hasharot chiqarishi mumkin. Bu oziq topishda buyumdan foydalanish misolidir.",
+      "fact_ids": [
+        "paragraph-58-f3"
+      ]
+    },
+    {
+      "title": "Odamsimon vakillar",
+      "body": "Gorilla, shimpanze va orangutan odamsimon maymunlarga misol; orangutan Sumatra va Kalimantan orollari bilan bog‘liq vakildir.",
+      "fact_ids": [
+        "paragraph-58-f4"
+      ]
+    },
+    {
+      "title": "Tuproqqa va o‘simlikka ta’sir",
+      "body": "Sutemizuvchilar urug‘ tarqatish, tuproqni yumshatish va hasharotlar sonini cheklashda qatnashadi. Bir guruhning ekologik vazifalari xilma-xildir.",
+      "fact_ids": [
+        "paragraph-58-f5"
+      ]
+    },
+    {
+      "title": "Noyob turlarni saqlash",
+      "body": "Noyob va kamayib borayotgan sutemizuvchilarni asrash uchun qo‘riqxonalar tashkil etiladi va muhofaza ro‘yxatlari yuritiladi.",
+      "fact_ids": [
+        "paragraph-58-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-58-q1",
+      "fact_id": "paragraph-58-f1",
+      "question_text": "Primat panjasidagi qarama-qarshi bosh barmoq nima uchun foydali?",
+      "options": [
+        "Narsalarni mahkam ushlash uchun",
+        "Faqat suzishda jabra vazifasi uchun",
+        "Faqat tuxum po‘stini ishlab chiqarish uchun",
+        "Faqat tishlarni almashtirish uchun"
+      ],
+      "correct_answer": "Narsalarni mahkam ushlash uchun",
+      "explanation": "Ko‘plab primatlarda bosh barmoq boshqalariga qarama-qarshi qo‘yilib, shox va mayda narsalarni ushlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-58-q2",
+      "fact_id": "paragraph-58-f2",
+      "question_text": "Shoxdan shoxga o‘tishda ko‘zlarning oldinda joylashishi qanday yordam beradi?",
+      "options": [
+        "Faqat oziqni chaynashga",
+        "Faqat jun ishlab chiqarishga",
+        "Faqat suvni filtrlashga",
+        "Masofani chamalashga"
+      ],
+      "correct_answer": "Masofani chamalashga",
+      "explanation": "Primatlarning oldinda joylashgan ikki ko‘zi narsani ikki tomondan ko‘rib, masofani chamalashga yordam beradi."
+    },
+    {
+      "key": "paragraph-58-q3",
+      "fact_id": "paragraph-58-f3",
+      "question_text": "Shimpanzening cho‘p bilan hasharot chiqarishi nimani ko‘rsatadi?",
+      "options": [
+        "Tuxumdan g‘umbak hosil qilishini",
+        "Jabralarini chayishini",
+        "Buyumdan oziq topish quroli sifatida foydalanishini",
+        "Fotosintez qilishini"
+      ],
+      "correct_answer": "Buyumdan oziq topish quroli sifatida foydalanishini",
+      "explanation": "Shimpanze novda yoki cho‘p bilan tor joydan hasharot chiqarishi mumkin. Bu oziq topishda buyumdan foydalanish misolidir."
+    },
+    {
+      "key": "paragraph-58-q4",
+      "fact_id": "paragraph-58-f4",
+      "question_text": "Qaysi qatorda odamsimon maymunlar berilgan?",
+      "options": [
+        "Jayron, zebra, to‘ng‘iz",
+        "Gorilla, shimpanze, orangutan",
+        "Kenguru, koala, yexidna",
+        "Tulki, korsak, bo‘ri"
+      ],
+      "correct_answer": "Gorilla, shimpanze, orangutan",
+      "explanation": "Gorilla, shimpanze va orangutan odamsimon maymunlarga misol; orangutan Sumatra va Kalimantan orollari bilan bog‘liq vakildir."
+    },
+    {
+      "key": "paragraph-58-q5",
+      "fact_id": "paragraph-58-f5",
+      "question_text": "Yer kovlaydigan sutemizuvchilarning tuproqqa foydasi qaysi?",
+      "options": [
+        "Tuproqni yumshatishi",
+        "Faqat barcha urug‘ni yo‘q qilishi",
+        "Faqat tuproqni qattiq shishaga aylantirishi",
+        "Faqat tuproqdan havoni butunlay chiqarishi"
+      ],
+      "correct_answer": "Tuproqni yumshatishi",
+      "explanation": "Sutemizuvchilar urug‘ tarqatish, tuproqni yumshatish va hasharotlar sonini cheklashda qatnashadi. Bir guruhning ekologik vazifalari xilma-xildir."
+    },
+    {
+      "key": "paragraph-58-q6",
+      "fact_id": "paragraph-58-f6",
+      "question_text": "Kamayib borayotgan sutemizuvchini saqlashga qaysi chora mos?",
+      "options": [
+        "Yashash joylarini butunlay buzish",
+        "Har birini zararkunanda deb yo‘qotish",
+        "Barcha populyatsiyani ovlashga ochish",
+        "Qo‘riqxona va muhofaza choralarini tashkil etish"
+      ],
+      "correct_answer": "Qo‘riqxona va muhofaza choralarini tashkil etish",
+      "explanation": "Noyob va kamayib borayotgan sutemizuvchilarni asrash uchun qo‘riqxonalar tashkil etiladi va muhofaza ro‘yxatlari yuritiladi."
+    }
+  ]
+}

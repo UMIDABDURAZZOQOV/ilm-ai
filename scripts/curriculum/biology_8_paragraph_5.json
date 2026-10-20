@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-5-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-8",
+  "title": "Organizm funksiyasining gumoral va nerv boshqarilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-5-f1": {
+      "claim": "Hujayra, to‘qima, organ va organlar sistemalari o‘zaro muvofiqlashgan holda ishlaydi. Boshqarishda nerv sistemasi va kimyoviy signallar qatnashadi.",
+      "answer": "Nerv va gumoral boshqarilish",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f2": {
+      "claim": "Ichki sekretsiya bezlari ajratgan gormonlar qon orqali tarqalib, ularga sezgir organlar faoliyatiga ta’sir qiladi.",
+      "answer": "Qon orqali",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f3": {
+      "claim": "Nerv impulslari nerv hujayralari membranasi bo‘ylab uzatiladigan elektr signallaridir. Ular organ ishini qo‘zg‘atishi yoki tormozlashi mumkin.",
+      "answer": "Impuls nerv hujayrasi bo‘ylab signal sifatida uzatiladi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f4": {
+      "claim": "Retseptorlar ta’sirni sezadi; hosil bo‘lgan signallar sezuvchi nerv tolalari orqali orqa miya va bosh miyaga boradi.",
+      "answer": "Retseptor → sezuvchi nerv → markaziy nerv sistemasi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f5": {
+      "claim": "Harakatlantiruvchi nervlar markaziy nerv sistemasidan tegishli organlarga signal olib boradi. Muskul nerv impulsi ta’sirida qisqarishi mumkin.",
+      "answer": "Harakatlantiruvchi nervlar",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f6": {
+      "claim": "Ichki muhitning nisbiy doimiyligi gomeostaz deyiladi. Nerv va gumoral boshqarilish uning saqlanishida birgalikda qatnashadi.",
+      "answer": "Ichki muhitning nisbiy doimiyligi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir butun organizm",
+      "body": "Hujayra, to‘qima, organ va organlar sistemalari o‘zaro muvofiqlashgan holda ishlaydi. Boshqarishda nerv sistemasi va kimyoviy signallar qatnashadi.",
+      "fact_ids": [
+        "paragraph-5-f1"
+      ]
+    },
+    {
+      "title": "Gormonning yo‘li",
+      "body": "Ichki sekretsiya bezlari ajratgan gormonlar qon orqali tarqalib, ularga sezgir organlar faoliyatiga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-5-f2"
+      ]
+    },
+    {
+      "title": "Nerv signali",
+      "body": "Nerv impulslari nerv hujayralari membranasi bo‘ylab uzatiladigan elektr signallaridir. Ular organ ishini qo‘zg‘atishi yoki tormozlashi mumkin.",
+      "fact_ids": [
+        "paragraph-5-f3"
+      ]
+    },
+    {
+      "title": "Ta’sirni sezish",
+      "body": "Retseptorlar ta’sirni sezadi; hosil bo‘lgan signallar sezuvchi nerv tolalari orqali orqa miya va bosh miyaga boradi.",
+      "fact_ids": [
+        "paragraph-5-f4"
+      ]
+    },
+    {
+      "title": "Javob signali",
+      "body": "Harakatlantiruvchi nervlar markaziy nerv sistemasidan tegishli organlarga signal olib boradi. Muskul nerv impulsi ta’sirida qisqarishi mumkin.",
+      "fact_ids": [
+        "paragraph-5-f5"
+      ]
+    },
+    {
+      "title": "Ichki muhit doimiyligi",
+      "body": "Ichki muhitning nisbiy doimiyligi gomeostaz deyiladi. Nerv va gumoral boshqarilish uning saqlanishida birgalikda qatnashadi.",
+      "fact_ids": [
+        "paragraph-5-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-5-q1",
+      "fact_id": "paragraph-5-f1",
+      "question_text": "Organizmni bir butun sistema sifatida ishlashiga qaysi juftlik yordam beradi?",
+      "options": [
+        "Faqat suyak va soch o‘sishi",
+        "Faqat ovqatning mexanik maydalanishi",
+        "Faqat terining tashqi rangi",
+        "Nerv va gumoral boshqarilish"
+      ],
+      "correct_answer": "Nerv va gumoral boshqarilish",
+      "explanation": "Hujayra, to‘qima, organ va organlar sistemalari o‘zaro muvofiqlashgan holda ishlaydi. Boshqarishda nerv sistemasi va kimyoviy signallar qatnashadi."
+    },
+    {
+      "key": "paragraph-5-q2",
+      "fact_id": "paragraph-5-f2",
+      "question_text": "Bezdan ajralgan gormon boshqa organga asosan nima orqali yetib boradi?",
+      "options": [
+        "Soch tolasi orqali",
+        "Suyakning qattiq moddasi orqali",
+        "Qon orqali",
+        "Nafas chiqarish havosi orqali"
+      ],
+      "correct_answer": "Qon orqali",
+      "explanation": "Ichki sekretsiya bezlari ajratgan gormonlar qon orqali tarqalib, ularga sezgir organlar faoliyatiga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-5-q3",
+      "fact_id": "paragraph-5-f3",
+      "question_text": "Nerv impulsi bilan gormon tarqalishi o‘rtasidagi farqni toping.",
+      "options": [
+        "Impuls suyakda to‘planadigan tuzdir",
+        "Impuls nerv hujayrasi bo‘ylab signal sifatida uzatiladi",
+        "Impuls doimo oshqozon shirasida oqadi",
+        "Impuls faqat eritrotsit ichida saqlanadi"
+      ],
+      "correct_answer": "Impuls nerv hujayrasi bo‘ylab signal sifatida uzatiladi",
+      "explanation": "Nerv impulslari nerv hujayralari membranasi bo‘ylab uzatiladigan elektr signallaridir. Ular organ ishini qo‘zg‘atishi yoki tormozlashi mumkin."
+    },
+    {
+      "key": "paragraph-5-q4",
+      "fact_id": "paragraph-5-f4",
+      "question_text": "Ta’sir sezilgach, signalning markazga yo‘nalishi qaysi?",
+      "options": [
+        "Retseptor → sezuvchi nerv → markaziy nerv sistemasi",
+        "Muskul → suyak → soch",
+        "Jigar → o‘t yo‘li → ichak",
+        "Teri rangi → tirnoq → tish"
+      ],
+      "correct_answer": "Retseptor → sezuvchi nerv → markaziy nerv sistemasi",
+      "explanation": "Retseptorlar ta’sirni sezadi; hosil bo‘lgan signallar sezuvchi nerv tolalari orqali orqa miya va bosh miyaga boradi."
+    },
+    {
+      "key": "paragraph-5-q5",
+      "fact_id": "paragraph-5-f5",
+      "question_text": "Markazdan muskulga buyruqni qaysi nervlar yetkazadi?",
+      "options": [
+        "Faqat sezuvchi nervlar",
+        "Qon plazmasidagi oqsillar",
+        "Suyakning o‘sish tog‘ayi",
+        "Harakatlantiruvchi nervlar"
+      ],
+      "correct_answer": "Harakatlantiruvchi nervlar",
+      "explanation": "Harakatlantiruvchi nervlar markaziy nerv sistemasidan tegishli organlarga signal olib boradi. Muskul nerv impulsi ta’sirida qisqarishi mumkin."
+    },
+    {
+      "key": "paragraph-5-q6",
+      "fact_id": "paragraph-5-f6",
+      "question_text": "Gomeostazni to‘g‘ri izohlang.",
+      "options": [
+        "Organlarning bir-biridan butunlay mustaqilligi",
+        "Faqat tana tashqi shaklining o‘zgarmasligi",
+        "Ichki muhitning nisbiy doimiyligi",
+        "Har qanday sharoitda barcha jarayonning to‘xtashi"
+      ],
+      "correct_answer": "Ichki muhitning nisbiy doimiyligi",
+      "explanation": "Ichki muhitning nisbiy doimiyligi gomeostaz deyiladi. Nerv va gumoral boshqarilish uning saqlanishida birgalikda qatnashadi."
+    }
+  ]
+}

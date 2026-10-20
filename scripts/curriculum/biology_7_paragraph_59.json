@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-59-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-80",
+  "title": "Sutemizuvchilar sinfiga mansub chorva mollari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-59-f1": {
+      "claim": "Chorvachilik oziq-ovqat, jun va teri kabi xomashyo, ish hayvonlari hamda organik o‘g‘it bilan ta’minlaydi.",
+      "answer": "Jun va teri",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          197
+        ],
+        "printed_pages": [
+          197
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f2": {
+      "claim": "Qoramol zotlari sut, go‘sht va sut-go‘sht yo‘nalishlariga ajratiladi; yo‘nalish mahsulot xususiyatini bildiradi.",
+      "answer": "Sut-go‘sht yo‘nalishi",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          197
+        ],
+        "printed_pages": [
+          197
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f3": {
+      "claim": "Qo‘ylar jun sifatiga ko‘ra mayin, chala mayin va dag‘al junli zotlarga ajratiladi; mayin jundan nafis gazlama to‘qiladi.",
+      "answer": "Mayin jun",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          198
+        ],
+        "printed_pages": [
+          198
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f4": {
+      "claim": "Hisor qo‘yi go‘sht-yog‘ yo‘nalishidagi zot sifatida keltirilgan; uning dumbasida yog‘ to‘planadi.",
+      "answer": "Go‘sht-yog‘",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          199
+        ],
+        "printed_pages": [
+          199
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f5": {
+      "claim": "Otlar ish, transport, sport, go‘sht va sut olish uchun boqiladi; foydalanish maqsadiga ko‘ra zotlar farqlanadi.",
+      "answer": "Ish, sport yoki mahsulot olish maqsadi",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          199
+        ],
+        "printed_pages": [
+          199
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f6": {
+      "claim": "Qorabayir O‘zbekistonda yetishtirilgan salt miniladigan ot zoti sifatida berilgan; Orlov yo‘rg‘asi esa yengil yuk tortish yo‘nalishiga misoldir.",
+      "answer": "Qorabayir",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          200
+        ],
+        "printed_pages": [
+          200
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Chorvachilik mahsulotlari",
+      "body": "Chorvachilik oziq-ovqat, jun va teri kabi xomashyo, ish hayvonlari hamda organik o‘g‘it bilan ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-59-f1"
+      ]
+    },
+    {
+      "title": "Qoramol yo‘nalishlari",
+      "body": "Qoramol zotlari sut, go‘sht va sut-go‘sht yo‘nalishlariga ajratiladi; yo‘nalish mahsulot xususiyatini bildiradi.",
+      "fact_ids": [
+        "paragraph-59-f2"
+      ]
+    },
+    {
+      "title": "Qo‘y junini guruhlash",
+      "body": "Qo‘ylar jun sifatiga ko‘ra mayin, chala mayin va dag‘al junli zotlarga ajratiladi; mayin jundan nafis gazlama to‘qiladi.",
+      "fact_ids": [
+        "paragraph-59-f3"
+      ]
+    },
+    {
+      "title": "Hisor qo‘yining mahsulot yo‘nalishi",
+      "body": "Hisor qo‘yi go‘sht-yog‘ yo‘nalishidagi zot sifatida keltirilgan; uning dumbasida yog‘ to‘planadi.",
+      "fact_ids": [
+        "paragraph-59-f4"
+      ]
+    },
+    {
+      "title": "Otning xo‘jalikdagi o‘rni",
+      "body": "Otlar ish, transport, sport, go‘sht va sut olish uchun boqiladi; foydalanish maqsadiga ko‘ra zotlar farqlanadi.",
+      "fact_ids": [
+        "paragraph-59-f5"
+      ]
+    },
+    {
+      "title": "Mahalliy zotni tanish",
+      "body": "Qorabayir O‘zbekistonda yetishtirilgan salt miniladigan ot zoti sifatida berilgan; Orlov yo‘rg‘asi esa yengil yuk tortish yo‘nalishiga misoldir.",
+      "fact_ids": [
+        "paragraph-59-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-59-q1",
+      "fact_id": "paragraph-59-f1",
+      "question_text": "Chorvachilikning yengil sanoat uchun xomashyosini toping.",
+      "options": [
+        "Jun va teri",
+        "Faqat asal va mum",
+        "Faqat paxta va ipak",
+        "Faqat yog‘och va po‘kak"
+      ],
+      "correct_answer": "Jun va teri",
+      "explanation": "Chorvachilik oziq-ovqat, jun va teri kabi xomashyo, ish hayvonlari hamda organik o‘g‘it bilan ta’minlaydi."
+    },
+    {
+      "key": "paragraph-59-q2",
+      "fact_id": "paragraph-59-f2",
+      "question_text": "Sut ham, go‘sht ham olishga yo‘naltirilgan qoramol zoti qanday guruhga kiradi?",
+      "options": [
+        "Faqat par yo‘nalishi",
+        "Faqat tuxum yo‘nalishi",
+        "Faqat ipak yo‘nalishi",
+        "Sut-go‘sht yo‘nalishi"
+      ],
+      "correct_answer": "Sut-go‘sht yo‘nalishi",
+      "explanation": "Qoramol zotlari sut, go‘sht va sut-go‘sht yo‘nalishlariga ajratiladi; yo‘nalish mahsulot xususiyatini bildiradi."
+    },
+    {
+      "key": "paragraph-59-q3",
+      "fact_id": "paragraph-59-f3",
+      "question_text": "Nafis gazlama uchun qaysi qo‘y juni mos sifatida berilgan?",
+      "options": [
+        "Faqat qo‘pol tuyoq",
+        "Faqat suyak plastinka",
+        "Mayin jun",
+        "Faqat qattiq tirnoq"
+      ],
+      "correct_answer": "Mayin jun",
+      "explanation": "Qo‘ylar jun sifatiga ko‘ra mayin, chala mayin va dag‘al junli zotlarga ajratiladi; mayin jundan nafis gazlama to‘qiladi."
+    },
+    {
+      "key": "paragraph-59-q4",
+      "fact_id": "paragraph-59-f4",
+      "question_text": "Darslikdagi Hisor qo‘yi qaysi yo‘nalishga misol?",
+      "options": [
+        "Faqat asal",
+        "Go‘sht-yog‘",
+        "Faqat tuxum",
+        "Faqat momiq par"
+      ],
+      "correct_answer": "Go‘sht-yog‘",
+      "explanation": "Hisor qo‘yi go‘sht-yog‘ yo‘nalishidagi zot sifatida keltirilgan; uning dumbasida yog‘ to‘planadi."
+    },
+    {
+      "key": "paragraph-59-q5",
+      "fact_id": "paragraph-59-f5",
+      "question_text": "Ot zotlarini tanlashda qaysi omil muhim?",
+      "options": [
+        "Ish, sport yoki mahsulot olish maqsadi",
+        "Faqat tuxum rangi",
+        "Faqat g‘umbak shakli",
+        "Faqat dengizdagi jabra soni"
+      ],
+      "correct_answer": "Ish, sport yoki mahsulot olish maqsadi",
+      "explanation": "Otlar ish, transport, sport, go‘sht va sut olish uchun boqiladi; foydalanish maqsadiga ko‘ra zotlar farqlanadi."
+    },
+    {
+      "key": "paragraph-59-q6",
+      "fact_id": "paragraph-59-f6",
+      "question_text": "Darslikda O‘zbekistonda yetishtirilgan salt miniladigan zot qaysi?",
+      "options": [
+        "Leggorn",
+        "Simmental",
+        "Merinos",
+        "Qorabayir"
+      ],
+      "correct_answer": "Qorabayir",
+      "explanation": "Qorabayir O‘zbekistonda yetishtirilgan salt miniladigan ot zoti sifatida berilgan; Orlov yo‘rg‘asi esa yengil yuk tortish yo‘nalishiga misoldir."
+    }
+  ]
+}

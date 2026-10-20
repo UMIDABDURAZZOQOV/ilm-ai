@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-51-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-72",
+  "title": "Itning ichki tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-51-f1": {
+      "claim": "It og‘zida oziq tishlar bilan maydalanadi, so‘lak bilan ho‘llanib til yordamida aralashadi va yutiladi.",
+      "answer": "Oziqni ho‘llaydi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          171
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f2": {
+      "claim": "Itning ko‘krak qafasi diafragma bilan qorin bo‘shlig‘idan ajralgan. Diafragma nafas olish harakatlarida qatnashadi.",
+      "answer": "Diafragma",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f3": {
+      "claim": "Nafas olganda diafragma qorin tomonga siljib, ko‘krak hajmi oshadi va havo o‘pkaga kiradi.",
+      "answer": "Kengayadi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f4": {
+      "claim": "It yuragida ikkita bo‘lma va ikkita qorincha bor; katta va kichik qon aylanish doiralari mavjud.",
+      "answer": "Kaptarnikiga",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f5": {
+      "claim": "It buyraklarida hosil bo‘lgan siydik siydik yo‘llari orqali qovuqqa, keyin chiqarish nayi bilan tashqariga o‘tadi.",
+      "answer": "Buyrak → siydik yo‘li → qovuq → chiqarish nayi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f6": {
+      "claim": "Burun va ko‘z yaqinidagi uzun yo‘g‘on sezgi qillari atrofdagi narsaga tegishni sezishda qatnashadi.",
+      "answer": "Tegishni sezish",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          174
+        ],
+        "printed_pages": [
+          174
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziqning dastlabki ishlanishi",
+      "body": "It og‘zida oziq tishlar bilan maydalanadi, so‘lak bilan ho‘llanib til yordamida aralashadi va yutiladi.",
+      "fact_ids": [
+        "paragraph-51-f1"
+      ]
+    },
+    {
+      "title": "Diafragma chegarasi",
+      "body": "Itning ko‘krak qafasi diafragma bilan qorin bo‘shlig‘idan ajralgan. Diafragma nafas olish harakatlarida qatnashadi.",
+      "fact_ids": [
+        "paragraph-51-f2"
+      ]
+    },
+    {
+      "title": "Nafas olishda hajm",
+      "body": "Nafas olganda diafragma qorin tomonga siljib, ko‘krak hajmi oshadi va havo o‘pkaga kiradi.",
+      "fact_ids": [
+        "paragraph-51-f3"
+      ]
+    },
+    {
+      "title": "Ajralgan qon oqimlari",
+      "body": "It yuragida ikkita bo‘lma va ikkita qorincha bor; katta va kichik qon aylanish doiralari mavjud.",
+      "fact_ids": [
+        "paragraph-51-f4"
+      ]
+    },
+    {
+      "title": "Siydikning yo‘li",
+      "body": "It buyraklarida hosil bo‘lgan siydik siydik yo‘llari orqali qovuqqa, keyin chiqarish nayi bilan tashqariga o‘tadi.",
+      "fact_ids": [
+        "paragraph-51-f5"
+      ]
+    },
+    {
+      "title": "Sezuvchi mo‘ylovlar",
+      "body": "Burun va ko‘z yaqinidagi uzun yo‘g‘on sezgi qillari atrofdagi narsaga tegishni sezishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-51-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-51-q1",
+      "fact_id": "paragraph-51-f1",
+      "question_text": "It og‘zida so‘lak oziqqa qanday ta’sir qiladi?",
+      "options": [
+        "Oziqni ho‘llaydi",
+        "Faqat suyak hosil qiladi",
+        "Faqat kislorodni qonga o‘tkazadi",
+        "Oziqni bir zumda butunlay yo‘qotadi"
+      ],
+      "correct_answer": "Oziqni ho‘llaydi",
+      "explanation": "It og‘zida oziq tishlar bilan maydalanadi, so‘lak bilan ho‘llanib til yordamida aralashadi va yutiladi."
+    },
+    {
+      "key": "paragraph-51-q2",
+      "fact_id": "paragraph-51-f2",
+      "question_text": "Ko‘krak va qorin bo‘shlig‘ini ajratadigan tuzilma qaysi?",
+      "options": [
+        "Faqat jig‘ildon",
+        "Faqat kloaka",
+        "Faqat orqa miya",
+        "Diafragma"
+      ],
+      "correct_answer": "Diafragma",
+      "explanation": "Itning ko‘krak qafasi diafragma bilan qorin bo‘shlig‘idan ajralgan. Diafragma nafas olish harakatlarida qatnashadi."
+    },
+    {
+      "key": "paragraph-51-q3",
+      "fact_id": "paragraph-51-f3",
+      "question_text": "It nafas olayotganda ko‘krak bo‘shlig‘i hajmi qanday o‘zgaradi?",
+      "options": [
+        "Har doim o‘zgarmay qoladi",
+        "Qattiq suyak bilan to‘lib qoladi",
+        "Kengayadi",
+        "Faqat butunlay yo‘qoladi"
+      ],
+      "correct_answer": "Kengayadi",
+      "explanation": "Nafas olganda diafragma qorin tomonga siljib, ko‘krak hajmi oshadi va havo o‘pkaga kiradi."
+    },
+    {
+      "key": "paragraph-51-q4",
+      "fact_id": "paragraph-51-f4",
+      "question_text": "Itning yuragi tuzilishi qaysi hayvonnikiga kameralar soni bilan o‘xshaydi?",
+      "options": [
+        "Lansetnikning yuragiga",
+        "Kaptarnikiga",
+        "Zog‘ora baliqnikiga",
+        "Ko‘l baqasinikiga"
+      ],
+      "correct_answer": "Kaptarnikiga",
+      "explanation": "It yuragida ikkita bo‘lma va ikkita qorincha bor; katta va kichik qon aylanish doiralari mavjud."
+    },
+    {
+      "key": "paragraph-51-q5",
+      "fact_id": "paragraph-51-f5",
+      "question_text": "Itning siydik yo‘li ketma-ketligini toping.",
+      "options": [
+        "Buyrak → siydik yo‘li → qovuq → chiqarish nayi",
+        "Qovuq → o‘pka → oshqozon",
+        "Ichak → jabra → quloq",
+        "Yurak → tuxumdon → qovuq"
+      ],
+      "correct_answer": "Buyrak → siydik yo‘li → qovuq → chiqarish nayi",
+      "explanation": "It buyraklarida hosil bo‘lgan siydik siydik yo‘llari orqali qovuqqa, keyin chiqarish nayi bilan tashqariga o‘tadi."
+    },
+    {
+      "key": "paragraph-51-q6",
+      "fact_id": "paragraph-51-f6",
+      "question_text": "It va boshqa sutemizuvchilardagi sezgi mo‘ylovining vazifasi qaysi?",
+      "options": [
+        "Faqat oziqni hazm qilish",
+        "Faqat qon haydash",
+        "Faqat tuxum rivojlantirish",
+        "Tegishni sezish"
+      ],
+      "correct_answer": "Tegishni sezish",
+      "explanation": "Burun va ko‘z yaqinidagi uzun yo‘g‘on sezgi qillari atrofdagi narsaga tegishni sezishda qatnashadi."
+    }
+  ]
+}

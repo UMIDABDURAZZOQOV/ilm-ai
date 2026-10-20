@@ -2355,3 +2355,27 @@ Editorial decisions: exclude the textbook's unsafe snakebite instructions (PDF 1
 Files: `biology_7_paragraph_23.json`–`_42.json`, laboratories 4–5, lesson index, readiness report, continuation test counts and this document. No application-runtime change, schema migration, production import, website change, deploy or merge in this batch. All original 19 lessons, 72 cards, 140 questions and seven catalogues are preserved.
 
 **Next source:** grade 7 **§43, PDF/printed p.146**. Remaining grade-7 §43–59 are **17 topics**, with no remaining laboratory activities; continue those before grade 8 §5 (PDF/printed p.17). A 20-topic release can combine those 17 with grade-8 §5–7. Continue source-image verification, tests and feature-branch pushes; do not count unindexed drafts as ready.
+
+## 2026-10-20 — Biology continuation-06: grade 7 completed; grade 8 paragraphs 5–7
+
+Release 05 was pushed as **`d8a4ca7`**. Release 06 adds **20 theory lessons**: grade-7 **§43–59** (17) and grade-8 **§5–7** (3), with **122 new explanation cards and 122 source-linked questions**. Original grade-7 PDF/printed images **146–200** and grade-8 images **17–24** were inspected; OCR alone was not used to certify facts. Multi-page claims explicitly cite all relevant pages, including bird migration (154–155) and carnivoran families (184–186).
+
+Current totals: **149/355 theory topics ready, 206 remaining; 24 digital activities; 173 manifests; 901 cards; 983 questions**. All grade-5, grade-6 and grade-7 theory and catalogued digital activities are authored. This is content/engine coverage, not a declaration of production deployment, physical laboratory completion or independent subject-specialist certification.
+
+| Grade | Total theory | Ready theory | Remaining | Ready activities / total | Questions |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 5 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 59 | 59 | 0 | 7 / 7 | 331 |
+| 7 | 59 | 59 | 0 | 5 / 5 | 381 |
+| 8 | 61 | 7 | 54 | 0 / 7 | 48 |
+| 9 | 56 | 2 | 54 | 0 / 11 | 12 |
+| 10 | 58 | 2 | 56 | 0 / 4 | 14 |
+| 11 | 44 | 2 | 42 | 0 / 5 | 15 |
+
+Actual verification: **173 manifests validated** in the global importer dry-run; **full backend pytest: 273 passed**, 12 existing lifecycle deprecation warnings, **75.84 s**. The integration flow now completes all lessons/activities and **all 16 checkpoints across grades 5–7**, checks transitions **5→6→7→8**, then exercises available grade-8 lessons while retaining its incomplete checkpoint block. Replayed completions award XP only once; reimport preserves XP/progress. Original 19 lessons/72 cards/140 questions and all seven source catalogues remain byte-identical.
+
+Editorial decisions: exclude erroneous/generalised bird alveolar-breathing descriptions; Protoavis ancestry certainty; dogs lacking a third eyelid or all sweat glands; claims of dolphin prey location by smell; monotremes/marsupials lacking a uterus; the mammal-ancestry date typo; rabbits classified as rodents; hippopotamus stomach simplification; universal primate opposable feet or troop organisation; and outdated cattle/horse domestication statements. Grade-8 endocrine content excludes the epiphyseal melatonin/pigment claim, the assertion that epiphyseal function ceases at puberty and the vitamin-D/parathormone synthesis statement. No treatment/medication instructions were generated. These source exclusions do not modify the original catalogue or PDFs.
+
+Changed: grade-7 paragraph manifests 43–59, grade-8 paragraph manifests 5–7, explicit batch index, readiness report, continuation regression tests and this document. Flutter stays at **`68e77c3`**, with its recorded 103 passing tests, clean analyze and successful web validation build. Next.js website is untouched. No production import, database migration, deploy or main merge. Native-device/live PostgreSQL validation and GitHub PR creation (API Forbidden) remain outstanding.
+
+**Next source:** grade 8 **§8 “Oshqozonosti va jinsiy bezlar, sekretsiya bezlari ishining boshqarilishi”, PDF/printed p.24**. Next 20-topic release target: **§8–27**, with laboratories **1 (p.43), 2 (p.69), 3 (p.81)** in textbook order. Do not recreate grades 5–7 or grade-8 §1–7. Use the latest readiness report and explicit release batches.

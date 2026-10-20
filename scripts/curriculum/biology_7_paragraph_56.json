@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-56-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-77",
+  "title": "Dengiz sutemizuvchilari: kurakoyoqlilar va kitsimonlar turkumlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-56-f1": {
+      "claim": "Tyulen, dengiz mushugi va morjning oyoqlari suzgich kurak shakliga o‘zgargan. Ular dam olish va ko‘payish uchun quruqlik yoki muzga chiqadi.",
+      "answer": "Suvda suzishga",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          187
+        ],
+        "printed_pages": [
+          187
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f2": {
+      "claim": "Grenlandiya tyuleni bolasining oq momiq juni sovuqdan asraydi va muz ustida ko‘zga kam tashlanishiga yordam beradi.",
+      "answer": "Issiqlikni saqlash va muzda yashirinish",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          187
+        ],
+        "printed_pages": [
+          187
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f3": {
+      "claim": "Kit, kashalot va delfin butunlay suvda yashashga moslashgan sutemizuvchilardir; ular kitsimonlar sifatida o‘rganiladi.",
+      "answer": "Sutemizuvchilar",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          188
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f4": {
+      "claim": "Ko‘k kitning yuqori jag‘idagi popukli muguz plastinkalar suvdan mayda plankton oziqni suzib olishga yordam beradi.",
+      "answer": "Mayda oziqni suvdan filtrlab ajratadi",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          188
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f5": {
+      "claim": "Delfin va kashalot tishli kitsimonlarga kiradi; tishlari oziqni ushlab turishga xizmat qiladi.",
+      "answer": "Delfin va kashalot",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          188
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f6": {
+      "claim": "Delfinlar o‘lja topishda ultratovushdan, o‘zaro aloqada tovush signallaridan foydalanadi.",
+      "answer": "O‘zaro aloqa qilishga xizmat qiladi",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          189
+        ],
+        "printed_pages": [
+          189
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suvdagi harakat uchun kurak",
+      "body": "Tyulen, dengiz mushugi va morjning oyoqlari suzgich kurak shakliga o‘zgargan. Ular dam olish va ko‘payish uchun quruqlik yoki muzga chiqadi.",
+      "fact_ids": [
+        "paragraph-56-f1"
+      ]
+    },
+    {
+      "title": "Yosh tyulenning qoplami",
+      "body": "Grenlandiya tyuleni bolasining oq momiq juni sovuqdan asraydi va muz ustida ko‘zga kam tashlanishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-56-f2"
+      ]
+    },
+    {
+      "title": "Kit baliq emas",
+      "body": "Kit, kashalot va delfin butunlay suvda yashashga moslashgan sutemizuvchilardir; ular kitsimonlar sifatida o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-56-f3"
+      ]
+    },
+    {
+      "title": "Kit mo‘ylovi bilan filtrlash",
+      "body": "Ko‘k kitning yuqori jag‘idagi popukli muguz plastinkalar suvdan mayda plankton oziqni suzib olishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-56-f4"
+      ]
+    },
+    {
+      "title": "Tishli kitsimonlar",
+      "body": "Delfin va kashalot tishli kitsimonlarga kiradi; tishlari oziqni ushlab turishga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-56-f5"
+      ]
+    },
+    {
+      "title": "Tovush va axborot",
+      "body": "Delfinlar o‘lja topishda ultratovushdan, o‘zaro aloqada tovush signallaridan foydalanadi.",
+      "fact_ids": [
+        "paragraph-56-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-56-q1",
+      "fact_id": "paragraph-56-f1",
+      "question_text": "Tyulenning suzgich kurak oyoqlari qaysi yashash tarziga moslashgan?",
+      "options": [
+        "Suvda suzishga",
+        "Faqat havoda uchishga",
+        "Faqat daraxt shoxini ushlashga",
+        "Faqat yerosti ildizini chiqarishga"
+      ],
+      "correct_answer": "Suvda suzishga",
+      "explanation": "Tyulen, dengiz mushugi va morjning oyoqlari suzgich kurak shakliga o‘zgargan. Ular dam olish va ko‘payish uchun quruqlik yoki muzga chiqadi."
+    },
+    {
+      "key": "paragraph-56-q2",
+      "fact_id": "paragraph-56-f2",
+      "question_text": "Yosh Grenlandiya tyulenining oq momiq juni qanday foyda beradi?",
+      "options": [
+        "Faqat suvda jabra hosil qilish",
+        "Faqat tuxumini ranglash",
+        "Faqat tumshuqni o‘stirish",
+        "Issiqlikni saqlash va muzda yashirinish"
+      ],
+      "correct_answer": "Issiqlikni saqlash va muzda yashirinish",
+      "explanation": "Grenlandiya tyuleni bolasining oq momiq juni sovuqdan asraydi va muz ustida ko‘zga kam tashlanishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-56-q3",
+      "fact_id": "paragraph-56-f3",
+      "question_text": "Kit va delfin qaysi hayvonlar sinfiga kiradi?",
+      "options": [
+        "Tog‘ayli baliqlar",
+        "Suvda hamda quruqlikda yashovchilar",
+        "Sutemizuvchilar",
+        "Suyakli baliqlar"
+      ],
+      "correct_answer": "Sutemizuvchilar",
+      "explanation": "Kit, kashalot va delfin butunlay suvda yashashga moslashgan sutemizuvchilardir; ular kitsimonlar sifatida o‘rganiladi."
+    },
+    {
+      "key": "paragraph-56-q4",
+      "fact_id": "paragraph-56-f4",
+      "question_text": "Ko‘k kitning mo‘ylov plastinkalari nima qiladi?",
+      "options": [
+        "Faqat daraxt shoxini kesadi",
+        "Mayda oziqni suvdan filtrlab ajratadi",
+        "Faqat qattiq oziqni tish kabi chaynaydi",
+        "Faqat tuxumni isitadi"
+      ],
+      "correct_answer": "Mayda oziqni suvdan filtrlab ajratadi",
+      "explanation": "Ko‘k kitning yuqori jag‘idagi popukli muguz plastinkalar suvdan mayda plankton oziqni suzib olishga yordam beradi."
+    },
+    {
+      "key": "paragraph-56-q5",
+      "fact_id": "paragraph-56-f5",
+      "question_text": "Qaysi juftlik tishli kitsimonlardan iborat?",
+      "options": [
+        "Delfin va kashalot",
+        "Ko‘k kit va barcha mo‘ylovli kitlar",
+        "Tyulen va morj",
+        "Pingvin va o‘rdak"
+      ],
+      "correct_answer": "Delfin va kashalot",
+      "explanation": "Delfin va kashalot tishli kitsimonlarga kiradi; tishlari oziqni ushlab turishga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-56-q6",
+      "fact_id": "paragraph-56-f6",
+      "question_text": "Delfinning suvda tovush signallari qanday ahamiyatga ega?",
+      "options": [
+        "Faqat suvni qattiq muzga aylantiradi",
+        "Faqat tashqi gul changini tarqatadi",
+        "Faqat patini yangilaydi",
+        "O‘zaro aloqa qilishga xizmat qiladi"
+      ],
+      "correct_answer": "O‘zaro aloqa qilishga xizmat qiladi",
+      "explanation": "Delfinlar o‘lja topishda ultratovushdan, o‘zaro aloqada tovush signallaridan foydalanadi."
+    }
+  ]
+}

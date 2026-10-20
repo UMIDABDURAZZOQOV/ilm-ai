@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-47-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-67",
+  "title": "Suv havzalari va sohil qushlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-47-f1": {
+      "claim": "Suv qushlarining barmoqlari orasidagi parda oyoqning suvni itarish yuzasini kengaytiradi; oyoqlar tananing keyinroq qismiga birikadi.",
+      "answer": "Suzishda suvni itarishga yordam berish",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f2": {
+      "claim": "Suv qushi dumg‘aza bezining yog‘simon suyuqligini patlariga suradi; zich pat qoplamasi bilan birga bu suvda ivib qolmaslikka yordam beradi.",
+      "answer": "Patni suv yuqtirmaydigan holatda saqlashga",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          160
+        ],
+        "printed_pages": [
+          160
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f3": {
+      "claim": "O‘rdak tumshug‘i chetidagi muguz plastinkalar suv va balchiqdan mayda oziqni ajratib olishga yordam beradi.",
+      "answer": "Mayda oziqni suvdan ajratishga",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          160
+        ],
+        "printed_pages": [
+          160
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f4": {
+      "claim": "Pingvinning kalta qanotlari eshkakka aylangan; ular havoda uchishdan ko‘ra suvda suzishga moslashgan.",
+      "answer": "Suvda suzish uchun",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f5": {
+      "claim": "Laylak va boshqa ko‘plab sohil qushlarining uzun oyoqlari sayoz suv va balchiqda yurishga yordam beradi.",
+      "answer": "Sayoz suv va balchiqda",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f6": {
+      "claim": "Oq laylak baqa, sichqon, hasharot va kaltakesak kabi mayda hayvonlar bilan oziqlanadi.",
+      "answer": "Baqa, sichqon va hasharotlar",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suzishga mos oyoqlar",
+      "body": "Suv qushlarining barmoqlari orasidagi parda oyoqning suvni itarish yuzasini kengaytiradi; oyoqlar tananing keyinroq qismiga birikadi.",
+      "fact_ids": [
+        "paragraph-47-f1"
+      ]
+    },
+    {
+      "title": "Patni parvarishlash",
+      "body": "Suv qushi dumg‘aza bezining yog‘simon suyuqligini patlariga suradi; zich pat qoplamasi bilan birga bu suvda ivib qolmaslikka yordam beradi.",
+      "fact_ids": [
+        "paragraph-47-f2"
+      ]
+    },
+    {
+      "title": "Tumshuq bilan suzish",
+      "body": "O‘rdak tumshug‘i chetidagi muguz plastinkalar suv va balchiqdan mayda oziqni ajratib olishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-47-f3"
+      ]
+    },
+    {
+      "title": "Pingvin qanotining boshqa vazifasi",
+      "body": "Pingvinning kalta qanotlari eshkakka aylangan; ular havoda uchishdan ko‘ra suvda suzishga moslashgan.",
+      "fact_ids": [
+        "paragraph-47-f4"
+      ]
+    },
+    {
+      "title": "Sohilda yurishga mos oyoq",
+      "body": "Laylak va boshqa ko‘plab sohil qushlarining uzun oyoqlari sayoz suv va balchiqda yurishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-47-f5"
+      ]
+    },
+    {
+      "title": "Laylakning oziq doirasi",
+      "body": "Oq laylak baqa, sichqon, hasharot va kaltakesak kabi mayda hayvonlar bilan oziqlanadi.",
+      "fact_ids": [
+        "paragraph-47-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-47-q1",
+      "fact_id": "paragraph-47-f1",
+      "question_text": "O‘rdak barmoqlari orasidagi pardaning vazifasi nima?",
+      "options": [
+        "Suzishda suvni itarishga yordam berish",
+        "Faqat tumshuqni qattiqlashtirish",
+        "Faqat tuxumni isitish",
+        "Faqat ko‘zdagi rangni ajratish"
+      ],
+      "correct_answer": "Suzishda suvni itarishga yordam berish",
+      "explanation": "Suv qushlarining barmoqlari orasidagi parda oyoqning suvni itarish yuzasini kengaytiradi; oyoqlar tananing keyinroq qismiga birikadi."
+    },
+    {
+      "key": "paragraph-47-q2",
+      "fact_id": "paragraph-47-f2",
+      "question_text": "O‘rdakning patiga yog‘simon suyuqlik surishi nimaga yordam beradi?",
+      "options": [
+        "Patni qattiq suyakka aylantirishga",
+        "Barcha havo xaltalarini berkitishga",
+        "Faqat yangi suzgich pufagi hosil qilishga",
+        "Patni suv yuqtirmaydigan holatda saqlashga"
+      ],
+      "correct_answer": "Patni suv yuqtirmaydigan holatda saqlashga",
+      "explanation": "Suv qushi dumg‘aza bezining yog‘simon suyuqligini patlariga suradi; zich pat qoplamasi bilan birga bu suvda ivib qolmaslikka yordam beradi."
+    },
+    {
+      "key": "paragraph-47-q3",
+      "fact_id": "paragraph-47-f3",
+      "question_text": "O‘rdak tumshug‘idagi plastinkalar qaysi vazifaga moslashgan?",
+      "options": [
+        "Faqat daraxtga mixlanishga",
+        "Faqat hayvon qonini so‘rishga",
+        "Mayda oziqni suvdan ajratishga",
+        "Yirik toshni uchga bo‘lishga"
+      ],
+      "correct_answer": "Mayda oziqni suvdan ajratishga",
+      "explanation": "O‘rdak tumshug‘i chetidagi muguz plastinkalar suv va balchiqdan mayda oziqni ajratib olishga yordam beradi."
+    },
+    {
+      "key": "paragraph-47-q4",
+      "fact_id": "paragraph-47-f4",
+      "question_text": "Pingvin qanotidan asosiy qaysi harakat uchun foydalanadi?",
+      "options": [
+        "Daraxtni teshib uya qurish uchun",
+        "Suvda suzish uchun",
+        "Havoda uzoq parvoz uchun",
+        "Tuproq ostida ildiz surish uchun"
+      ],
+      "correct_answer": "Suvda suzish uchun",
+      "explanation": "Pingvinning kalta qanotlari eshkakka aylangan; ular havoda uchishdan ko‘ra suvda suzishga moslashgan."
+    },
+    {
+      "key": "paragraph-47-q5",
+      "fact_id": "paragraph-47-f5",
+      "question_text": "Laylakning uzun oyoqlari qaysi muhitda oziq topishga yordam beradi?",
+      "options": [
+        "Sayoz suv va balchiqda",
+        "Faqat dengizning eng chuqur tubida",
+        "Faqat daraxt ichidagi tor yo‘lda",
+        "Faqat quruq g‘or devorida"
+      ],
+      "correct_answer": "Sayoz suv va balchiqda",
+      "explanation": "Laylak va boshqa ko‘plab sohil qushlarining uzun oyoqlari sayoz suv va balchiqda yurishga yordam beradi."
+    },
+    {
+      "key": "paragraph-47-q6",
+      "fact_id": "paragraph-47-f6",
+      "question_text": "Oq laylak uchun qaysi oziq guruhi mos?",
+      "options": [
+        "Faqat gul nektari",
+        "Faqat quruq bug‘doy uni",
+        "Faqat suvdagi tuz kristallari",
+        "Baqa, sichqon va hasharotlar"
+      ],
+      "correct_answer": "Baqa, sichqon va hasharotlar",
+      "explanation": "Oq laylak baqa, sichqon, hasharot va kaltakesak kabi mayda hayvonlar bilan oziqlanadi."
+    }
+  ]
+}

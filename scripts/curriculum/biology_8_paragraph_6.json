@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-6-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-9",
+  "title": "Sekretsiya bezlari, qalqonsimon bez",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-6-f1": {
+      "claim": "Sekretsiya bezlari tashqi, ichki va aralash bezlarga ajratiladi. Ular mahsulotini qayerga chiqarishi bilan farqlanadi.",
+      "answer": "Tashqi, ichki va aralash",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f2": {
+      "claim": "Tashqi sekretsiya bezlarining mahsuloti maxsus yo‘l bilan organ bo‘shlig‘iga yoki tana sirtiga chiqariladi.",
+      "answer": "Tashqi sekretsiya",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f3": {
+      "claim": "Ichki sekretsiya bezlarida sekret chiqarish yo‘li bo‘lmaydi; ular gormonlarini qonga ajratadi.",
+      "answer": "Chiqarish yo‘lisiz gormonini qonga ajratishi",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f4": {
+      "claim": "Oshqozonosti bezi qonga insulin kabi gormonlar, ichakka esa hazm fermentlarini chiqaradi. Shu bois u aralash bezdir.",
+      "answer": "Gormonni qonga, hazm fermentini ichakka chiqaradi",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f5": {
+      "claim": "Qalqonsimon bez bo‘yinning oldingi qismida joylashadi. Uning tiroksin gormoni tarkibida yod bor va u moddalar almashinuviga ta’sir qiladi.",
+      "answer": "Tiroksin — yod",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f6": {
+      "claim": "Yod yetishmasligi qalqonsimon bez kattalashishi bilan bog‘liq endemik buqoq sabablaridan biridir. Darslik yodlangan osh tuzini profilaktika bilan bog‘laydi.",
+      "answer": "Yodlangan osh tuzi",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bezlar turlari",
+      "body": "Sekretsiya bezlari tashqi, ichki va aralash bezlarga ajratiladi. Ular mahsulotini qayerga chiqarishi bilan farqlanadi.",
+      "fact_ids": [
+        "paragraph-6-f1"
+      ]
+    },
+    {
+      "title": "Tashqi sekretsiya",
+      "body": "Tashqi sekretsiya bezlarining mahsuloti maxsus yo‘l bilan organ bo‘shlig‘iga yoki tana sirtiga chiqariladi.",
+      "fact_ids": [
+        "paragraph-6-f2"
+      ]
+    },
+    {
+      "title": "Ichki sekretsiya",
+      "body": "Ichki sekretsiya bezlarida sekret chiqarish yo‘li bo‘lmaydi; ular gormonlarini qonga ajratadi.",
+      "fact_ids": [
+        "paragraph-6-f3"
+      ]
+    },
+    {
+      "title": "Aralash bez",
+      "body": "Oshqozonosti bezi qonga insulin kabi gormonlar, ichakka esa hazm fermentlarini chiqaradi. Shu bois u aralash bezdir.",
+      "fact_ids": [
+        "paragraph-6-f4"
+      ]
+    },
+    {
+      "title": "Qalqonsimon bez",
+      "body": "Qalqonsimon bez bo‘yinning oldingi qismida joylashadi. Uning tiroksin gormoni tarkibida yod bor va u moddalar almashinuviga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-6-f5"
+      ]
+    },
+    {
+      "title": "Yod va bez faoliyati",
+      "body": "Yod yetishmasligi qalqonsimon bez kattalashishi bilan bog‘liq endemik buqoq sabablaridan biridir. Darslik yodlangan osh tuzini profilaktika bilan bog‘laydi.",
+      "fact_ids": [
+        "paragraph-6-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-6-q1",
+      "fact_id": "paragraph-6-f1",
+      "question_text": "Sekretsiya bezlarining uch turi qaysi qatorda to‘g‘ri berilgan?",
+      "options": [
+        "Faqat suyak, tog‘ay va pay",
+        "Faqat arterial, venoz va kapillyar",
+        "Sezuvchi, harakatlantiruvchi va oraliq",
+        "Tashqi, ichki va aralash"
+      ],
+      "correct_answer": "Tashqi, ichki va aralash",
+      "explanation": "Sekretsiya bezlari tashqi, ichki va aralash bezlarga ajratiladi. Ular mahsulotini qayerga chiqarishi bilan farqlanadi."
+    },
+    {
+      "key": "paragraph-6-q2",
+      "fact_id": "paragraph-6-f2",
+      "question_text": "Bez mahsulotini yo‘l orqali ichak bo‘shlig‘iga chiqarsa, bu qanday sekretsiya?",
+      "options": [
+        "Nerv impulsi hosil bo‘lishi",
+        "Suyaklanish",
+        "Tashqi sekretsiya",
+        "Faqat ichki sekretsiya"
+      ],
+      "correct_answer": "Tashqi sekretsiya",
+      "explanation": "Tashqi sekretsiya bezlarining mahsuloti maxsus yo‘l bilan organ bo‘shlig‘iga yoki tana sirtiga chiqariladi."
+    },
+    {
+      "key": "paragraph-6-q3",
+      "fact_id": "paragraph-6-f3",
+      "question_text": "Ichki sekretsiya bezini qaysi belgi ajratib turadi?",
+      "options": [
+        "Mahsulot ishlab chiqarmasligi",
+        "Chiqarish yo‘lisiz gormonini qonga ajratishi",
+        "Fermentni faqat teri sirtiga chiqarishi",
+        "Sekretni albatta ichak bo‘shlig‘iga chiqarishi"
+      ],
+      "correct_answer": "Chiqarish yo‘lisiz gormonini qonga ajratishi",
+      "explanation": "Ichki sekretsiya bezlarida sekret chiqarish yo‘li bo‘lmaydi; ular gormonlarini qonga ajratadi."
+    },
+    {
+      "key": "paragraph-6-q4",
+      "fact_id": "paragraph-6-f4",
+      "question_text": "Nega oshqozonosti bezi aralash bez hisoblanadi?",
+      "options": [
+        "Gormonni qonga, hazm fermentini ichakka chiqaradi",
+        "Faqat ter ishlab chiqaradi",
+        "Faqat ko‘z yoshini chiqaradi",
+        "Hech qanday sekret ishlab chiqarmaydi"
+      ],
+      "correct_answer": "Gormonni qonga, hazm fermentini ichakka chiqaradi",
+      "explanation": "Oshqozonosti bezi qonga insulin kabi gormonlar, ichakka esa hazm fermentlarini chiqaradi. Shu bois u aralash bezdir."
+    },
+    {
+      "key": "paragraph-6-q5",
+      "fact_id": "paragraph-6-f5",
+      "question_text": "Qaysi juftlik qalqonsimon bezga mos?",
+      "options": [
+        "Insulin — oshqozon shirasi",
+        "Adrenalin — tish emali",
+        "Somatotrop — so‘lak fermenti",
+        "Tiroksin — yod"
+      ],
+      "correct_answer": "Tiroksin — yod",
+      "explanation": "Qalqonsimon bez bo‘yinning oldingi qismida joylashadi. Uning tiroksin gormoni tarkibida yod bor va u moddalar almashinuviga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-6-q6",
+      "fact_id": "paragraph-6-f6",
+      "question_text": "Darslikda endemik buqoqning oldini olish bilan qaysi mahsulot bog‘langan?",
+      "options": [
+        "Faqat kraxmal",
+        "Yod o‘rniga oddiy qum",
+        "Yodlangan osh tuzi",
+        "Faqat shakar"
+      ],
+      "correct_answer": "Yodlangan osh tuzi",
+      "explanation": "Yod yetishmasligi qalqonsimon bez kattalashishi bilan bog‘liq endemik buqoq sabablaridan biridir. Darslik yodlangan osh tuzini profilaktika bilan bog‘laydi."
+    }
+  ]
+}

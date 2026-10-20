@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-46-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-66",
+  "title": "Qushlarning xilma-xilligi: voha va cho‘l qushlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-46-f1": {
+      "claim": "Qaldirg‘ochning tumshug‘i qisqa bo‘lsa ham og‘zi keng ochiladi; u uchayotgan hasharotlarni havoda tutadi.",
+      "answer": "Havodagi hasharotni tutishga",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f2": {
+      "claim": "Chug‘urchiq dalada hasharot yeyishi bilan foyda keltiradi, pishiqchilikda esa rezavor mevalarni cho‘qishi mumkin. Foyda va zarar sharoitga bog‘liq.",
+      "answer": "Bir tur oziqlanishi mavsumga qarab farqlanishini",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f3": {
+      "claim": "Ko‘k kaptar don va yovvoyi o‘t urug‘larini yeydi; qoyalar, jarliklar va binolar chordog‘iga uya quradi.",
+      "answer": "Don va yovvoyi o‘t urug‘lari",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f4": {
+      "claim": "Cho‘l qushlarining yer rangiga mos pati, baquvvat oyoqlari va uzun bo‘yni oziq topish va yirtqichni payqashga yordam beradi.",
+      "answer": "Atrofga qo‘shilib yashirinishga",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f5": {
+      "claim": "Afrika tuyaqushi uchmaydi, kuchli uzun oyoqlari bilan tez yuguradi; oyoqlarida ikkitadan barmoq bor.",
+      "answer": "Ikki barmoqli kuchli oyoqlar",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          158
+        ],
+        "printed_pages": [
+          158
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f6": {
+      "claim": "Tuyaqush yerda tayyorlangan uyaga tuxum qo‘yadi. Darslikda tuxumni bosishda ikkala jins ham qatnashishi ko‘rsatilgan.",
+      "answer": "Yerdagi uyaga",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          158
+        ],
+        "printed_pages": [
+          158
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Havoda ovlashga mos tumshuq",
+      "body": "Qaldirg‘ochning tumshug‘i qisqa bo‘lsa ham og‘zi keng ochiladi; u uchayotgan hasharotlarni havoda tutadi.",
+      "fact_ids": [
+        "paragraph-46-f1"
+      ]
+    },
+    {
+      "title": "Mavsumga qarab oziq",
+      "body": "Chug‘urchiq dalada hasharot yeyishi bilan foyda keltiradi, pishiqchilikda esa rezavor mevalarni cho‘qishi mumkin. Foyda va zarar sharoitga bog‘liq.",
+      "fact_ids": [
+        "paragraph-46-f2"
+      ]
+    },
+    {
+      "title": "Kaptarning yashash joyi",
+      "body": "Ko‘k kaptar don va yovvoyi o‘t urug‘larini yeydi; qoyalar, jarliklar va binolar chordog‘iga uya quradi.",
+      "fact_ids": [
+        "paragraph-46-f3"
+      ]
+    },
+    {
+      "title": "Ochiq cho‘lga moslanish",
+      "body": "Cho‘l qushlarining yer rangiga mos pati, baquvvat oyoqlari va uzun bo‘yni oziq topish va yirtqichni payqashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-46-f4"
+      ]
+    },
+    {
+      "title": "Uchmasdan tez yugurish",
+      "body": "Afrika tuyaqushi uchmaydi, kuchli uzun oyoqlari bilan tez yuguradi; oyoqlarida ikkitadan barmoq bor.",
+      "fact_ids": [
+        "paragraph-46-f5"
+      ]
+    },
+    {
+      "title": "Yerdagi uya va tuxum",
+      "body": "Tuyaqush yerda tayyorlangan uyaga tuxum qo‘yadi. Darslikda tuxumni bosishda ikkala jins ham qatnashishi ko‘rsatilgan.",
+      "fact_ids": [
+        "paragraph-46-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-46-q1",
+      "fact_id": "paragraph-46-f1",
+      "question_text": "Qaldirg‘ochning keng ochiladigan og‘zi qaysi oziqlanishga mos?",
+      "options": [
+        "Havodagi hasharotni tutishga",
+        "Faqat qattiq yong‘oqni sindirishga",
+        "Faqat katta baliqni butun yutishga",
+        "Faqat daraxt po‘stini teshishga"
+      ],
+      "correct_answer": "Havodagi hasharotni tutishga",
+      "explanation": "Qaldirg‘ochning tumshug‘i qisqa bo‘lsa ham og‘zi keng ochiladi; u uchayotgan hasharotlarni havoda tutadi."
+    },
+    {
+      "key": "paragraph-46-q2",
+      "fact_id": "paragraph-46-f2",
+      "question_text": "Chug‘urchiq misoli qush oziqlanishi haqida nimani ko‘rsatadi?",
+      "options": [
+        "Barcha qushlar faqat bir xil oziq yeyishini",
+        "Hasharotxo‘r qush hech qachon meva yemasligini",
+        "Qushlar oziqsiz doim yashashini",
+        "Bir tur oziqlanishi mavsumga qarab farqlanishini"
+      ],
+      "correct_answer": "Bir tur oziqlanishi mavsumga qarab farqlanishini",
+      "explanation": "Chug‘urchiq dalada hasharot yeyishi bilan foyda keltiradi, pishiqchilikda esa rezavor mevalarni cho‘qishi mumkin. Foyda va zarar sharoitga bog‘liq."
+    },
+    {
+      "key": "paragraph-46-q3",
+      "fact_id": "paragraph-46-f3",
+      "question_text": "Ko‘k kaptar ozig‘iga qaysi guruh kiradi?",
+      "options": [
+        "Faqat dengizdagi yirik qisqichbaqa",
+        "Faqat xom yog‘och",
+        "Don va yovvoyi o‘t urug‘lari",
+        "Faqat odam qoni"
+      ],
+      "correct_answer": "Don va yovvoyi o‘t urug‘lari",
+      "explanation": "Ko‘k kaptar don va yovvoyi o‘t urug‘larini yeydi; qoyalar, jarliklar va binolar chordog‘iga uya quradi."
+    },
+    {
+      "key": "paragraph-46-q4",
+      "fact_id": "paragraph-46-f4",
+      "question_text": "Cho‘l qushining yer rangidagi pati qaysi moslanishga misol?",
+      "options": [
+        "Faqat yirik daraxtni kemirishga",
+        "Atrofga qo‘shilib yashirinishga",
+        "Faqat suv tubida nafas olishga",
+        "Faqat tungi elektr ishlab chiqarishga"
+      ],
+      "correct_answer": "Atrofga qo‘shilib yashirinishga",
+      "explanation": "Cho‘l qushlarining yer rangiga mos pati, baquvvat oyoqlari va uzun bo‘yni oziq topish va yirtqichni payqashga yordam beradi."
+    },
+    {
+      "key": "paragraph-46-q5",
+      "fact_id": "paragraph-46-f5",
+      "question_text": "Afrika tuyaqushini tanishda qaysi oyoq belgisi muhim?",
+      "options": [
+        "Ikki barmoqli kuchli oyoqlar",
+        "Olti barmoqli qisqa oyoqlar",
+        "Faqat ikkita eshkaksimon qanot",
+        "Oyoqsiz yumshoq tana"
+      ],
+      "correct_answer": "Ikki barmoqli kuchli oyoqlar",
+      "explanation": "Afrika tuyaqushi uchmaydi, kuchli uzun oyoqlari bilan tez yuguradi; oyoqlarida ikkitadan barmoq bor."
+    },
+    {
+      "key": "paragraph-46-q6",
+      "fact_id": "paragraph-46-f6",
+      "question_text": "Tuyaqush tuxumlarini qayerdagi uyaga qo‘yadi?",
+      "options": [
+        "Faqat suvga osilgan uyaga",
+        "Faqat daraxt kovagiga",
+        "Faqat marjon rifiga",
+        "Yerdagi uyaga"
+      ],
+      "correct_answer": "Yerdagi uyaga",
+      "explanation": "Tuyaqush yerda tayyorlangan uyaga tuxum qo‘yadi. Darslikda tuxumni bosishda ikkala jins ham qatnashishi ko‘rsatilgan."
+    }
+  ]
+}

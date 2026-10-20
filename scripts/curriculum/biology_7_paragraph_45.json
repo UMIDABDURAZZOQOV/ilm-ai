@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-45-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-65",
+  "title": "Qushlarning mavsumiy hodisalarga moslashishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-45-f1": {
+      "claim": "Yil davomida bir hududda yashaydigan qushlar o‘troq qushlar deyiladi; darslikda chumchuq, mayna va kaptar misol sifatida keltirilgan.",
+      "answer": "O‘troq qush",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f2": {
+      "claim": "Ko‘chib yuruvchi qushlar fasllarga qarab oziq ko‘proq va qor kamroq joylarga o‘tib turadi.",
+      "answer": "Ko‘chib yuruvchi qushlarga",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f3": {
+      "claim": "Uchib ketuvchi qushlar noqulay mavsumda boshqa o‘lkalarda qishlab, ko‘payish davrida qaytadi.",
+      "answer": "Kuzda qishlov joyiga, bahorda ko‘payish joyiga",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f4": {
+      "claim": "Kuzda kunning qisqarishi qushlarning qishlovga uchib ketishiga signal bo‘la oladi. Migratsiya mavsumiy sharoitga moslashishdir.",
+      "answer": "Kunning qisqarishi",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f5": {
+      "claim": "Qushlar yo‘nalishni aniqlashda quyosh, yulduzlar va ayrim hollarda Yer magnit maydoni kabi belgilarni sezishdan foydalanadi.",
+      "answer": "Yulduzlar",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          154,
+          155
+        ],
+        "printed_pages": [
+          154,
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f6": {
+      "claim": "Maxsus belgi qo‘yilgan qushlar haqidagi takroriy kuzatuvlar ularning uchish yo‘li, qishlov joyi va umrini o‘rganishga yordam beradi.",
+      "answer": "Migratsiya va hayot davomiyligini o‘rganish",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "O‘troq hayot",
+      "body": "Yil davomida bir hududda yashaydigan qushlar o‘troq qushlar deyiladi; darslikda chumchuq, mayna va kaptar misol sifatida keltirilgan.",
+      "fact_ids": [
+        "paragraph-45-f1"
+      ]
+    },
+    {
+      "title": "Ko‘chib yurish",
+      "body": "Ko‘chib yuruvchi qushlar fasllarga qarab oziq ko‘proq va qor kamroq joylarga o‘tib turadi.",
+      "fact_ids": [
+        "paragraph-45-f2"
+      ]
+    },
+    {
+      "title": "Uzoq qishlov",
+      "body": "Uchib ketuvchi qushlar noqulay mavsumda boshqa o‘lkalarda qishlab, ko‘payish davrida qaytadi.",
+      "fact_ids": [
+        "paragraph-45-f3"
+      ]
+    },
+    {
+      "title": "Mavsumiy signal",
+      "body": "Kuzda kunning qisqarishi qushlarning qishlovga uchib ketishiga signal bo‘la oladi. Migratsiya mavsumiy sharoitga moslashishdir.",
+      "fact_ids": [
+        "paragraph-45-f4"
+      ]
+    },
+    {
+      "title": "Yo‘l topish omillari",
+      "body": "Qushlar yo‘nalishni aniqlashda quyosh, yulduzlar va ayrim hollarda Yer magnit maydoni kabi belgilarni sezishdan foydalanadi.",
+      "fact_ids": [
+        "paragraph-45-f5"
+      ]
+    },
+    {
+      "title": "Halqalashdan olinadigan bilim",
+      "body": "Maxsus belgi qo‘yilgan qushlar haqidagi takroriy kuzatuvlar ularning uchish yo‘li, qishlov joyi va umrini o‘rganishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-45-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-45-q1",
+      "fact_id": "paragraph-45-f1",
+      "question_text": "Bir hududda yil bo‘yi qoladigan qush qanday ataladi?",
+      "options": [
+        "O‘troq qush",
+        "Faqat uchib o‘tuvchi qush",
+        "Faqat yozgi ko‘chmanchi qush",
+        "Faqat dengiz qushi"
+      ],
+      "correct_answer": "O‘troq qush",
+      "explanation": "Yil davomida bir hududda yashaydigan qushlar o‘troq qushlar deyiladi; darslikda chumchuq, mayna va kaptar misol sifatida keltirilgan."
+    },
+    {
+      "key": "paragraph-45-q2",
+      "fact_id": "paragraph-45-f2",
+      "question_text": "Fasliga qarab yaqinroq oziqli joylarga o‘tib yurish qaysi guruhga xos?",
+      "options": [
+        "Faqat uyada turgan jo‘jalarga",
+        "Faqat yil bo‘yi bir daraxtdan chiqmaydigan qushlarga",
+        "Faqat hali tuxumdan chiqmagan murtakka",
+        "Ko‘chib yuruvchi qushlarga"
+      ],
+      "correct_answer": "Ko‘chib yuruvchi qushlarga",
+      "explanation": "Ko‘chib yuruvchi qushlar fasllarga qarab oziq ko‘proq va qor kamroq joylarga o‘tib turadi."
+    },
+    {
+      "key": "paragraph-45-q3",
+      "fact_id": "paragraph-45-f3",
+      "question_text": "Uchib ketuvchi qushning mavsumiy yo‘li qaysi tavsifga mos?",
+      "options": [
+        "Faqat tuxum ichida aylanish",
+        "Hech qachon yashash joyini o‘zgartirmaslik",
+        "Kuzda qishlov joyiga, bahorda ko‘payish joyiga",
+        "Har kuni faqat uyadan bir shoxga"
+      ],
+      "correct_answer": "Kuzda qishlov joyiga, bahorda ko‘payish joyiga",
+      "explanation": "Uchib ketuvchi qushlar noqulay mavsumda boshqa o‘lkalarda qishlab, ko‘payish davrida qaytadi."
+    },
+    {
+      "key": "paragraph-45-q4",
+      "fact_id": "paragraph-45-f4",
+      "question_text": "Qishlov migratsiyasini boshlashga qanday mavsumiy signal ta’sir qiladi?",
+      "options": [
+        "Faqat dum suyagining yo‘qolishi",
+        "Kunning qisqarishi",
+        "Faqat toshlarning yumaloqlashishi",
+        "Faqat tuxum po‘stining ko‘karishi"
+      ],
+      "correct_answer": "Kunning qisqarishi",
+      "explanation": "Kuzda kunning qisqarishi qushlarning qishlovga uchib ketishiga signal bo‘la oladi. Migratsiya mavsumiy sharoitga moslashishdir."
+    },
+    {
+      "key": "paragraph-45-q5",
+      "fact_id": "paragraph-45-f5",
+      "question_text": "Tunda uchuvchi qushning yo‘l topishiga qaysi tashqi belgi yordam berishi mumkin?",
+      "options": [
+        "Yulduzlar",
+        "Faqat og‘izdagi oziq rangi",
+        "Faqat tuxumning shakli",
+        "Faqat patning vazni"
+      ],
+      "correct_answer": "Yulduzlar",
+      "explanation": "Qushlar yo‘nalishni aniqlashda quyosh, yulduzlar va ayrim hollarda Yer magnit maydoni kabi belgilarni sezishdan foydalanadi."
+    },
+    {
+      "key": "paragraph-45-q6",
+      "fact_id": "paragraph-45-f6",
+      "question_text": "Qushlarni ilmiy halqalashning maqsadi nima?",
+      "options": [
+        "Ularning barcha patlarini almashtirish",
+        "Barcha qushlarni ucholmaydigan qilish",
+        "Faqat tuxum rangini o‘zgartirish",
+        "Migratsiya va hayot davomiyligini o‘rganish"
+      ],
+      "correct_answer": "Migratsiya va hayot davomiyligini o‘rganish",
+      "explanation": "Maxsus belgi qo‘yilgan qushlar haqidagi takroriy kuzatuvlar ularning uchish yo‘li, qishlov joyi va umrini o‘rganishga yordam beradi."
+    }
+  ]
+}

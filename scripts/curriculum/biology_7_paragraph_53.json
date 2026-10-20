@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-53-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-74",
+  "title": "Sutemizuvchilarning xilma-xilligi: tuxum qo‘yuvchilar, xaltalilar, yo‘ldoshlilar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-53-f1": {
+      "claim": "Darslik sutemizuvchilarni ko‘payishi va bola rivojlanishiga ko‘ra tuxum qo‘yuvchilar, xaltalilar va yo‘ldoshlilar sifatida taqqoslaydi.",
+      "answer": "Ko‘payish va bola rivojlanishi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          177
+        ],
+        "printed_pages": [
+          177
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f2": {
+      "claim": "O‘rdakburun va yexidna tuxum qo‘yadigan sutemizuvchilardir. Ular bolalarini sut bilan oziqlantiradi.",
+      "answer": "O‘rdakburun va yexidna",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          178
+        ],
+        "printed_pages": [
+          178
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f3": {
+      "claim": "O‘rdakburunda sut bezlari so‘rg‘ichga ochilmaydi; yoshlar teri yuzasiga ajralgan sutni yalab oziqlanadi.",
+      "answer": "Teri yuzasiga ajralgan sutni yalaydi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          178
+        ],
+        "printed_pages": [
+          178
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f4": {
+      "claim": "Kenguru juda kichik va ojiz bola tug‘adi; u onasining xaltasida sut emib rivojlanishda davom etadi.",
+      "answer": "Onasining xaltasi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          178
+        ],
+        "printed_pages": [
+          178
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f5": {
+      "claim": "Yo‘ldoshli sutemizuvchilarda homila bachadonda rivojlanadi; sichqon, fil va ko‘plab xonaki hayvonlar shu guruhdadir.",
+      "answer": "Yo‘ldoshli bo‘lib, homila bachadonda rivojlanishi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          179
+        ],
+        "printed_pages": [
+          179
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ko‘payish bo‘yicha guruhlash",
+      "body": "Darslik sutemizuvchilarni ko‘payishi va bola rivojlanishiga ko‘ra tuxum qo‘yuvchilar, xaltalilar va yo‘ldoshlilar sifatida taqqoslaydi.",
+      "fact_ids": [
+        "paragraph-53-f1"
+      ]
+    },
+    {
+      "title": "Tuxum qo‘yuvchi vakillar",
+      "body": "O‘rdakburun va yexidna tuxum qo‘yadigan sutemizuvchilardir. Ular bolalarini sut bilan oziqlantiradi.",
+      "fact_ids": [
+        "paragraph-53-f2"
+      ]
+    },
+    {
+      "title": "O‘rdakburunda sut oziq",
+      "body": "O‘rdakburunda sut bezlari so‘rg‘ichga ochilmaydi; yoshlar teri yuzasiga ajralgan sutni yalab oziqlanadi.",
+      "fact_ids": [
+        "paragraph-53-f3"
+      ]
+    },
+    {
+      "title": "Xaltada davom etadigan parvarish",
+      "body": "Kenguru juda kichik va ojiz bola tug‘adi; u onasining xaltasida sut emib rivojlanishda davom etadi.",
+      "fact_ids": [
+        "paragraph-53-f4"
+      ]
+    },
+    {
+      "title": "Yo‘ldoshli xilma-xillik",
+      "body": "Yo‘ldoshli sutemizuvchilarda homila bachadonda rivojlanadi; sichqon, fil va ko‘plab xonaki hayvonlar shu guruhdadir.",
+      "fact_ids": [
+        "paragraph-53-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-53-q1",
+      "fact_id": "paragraph-53-f1",
+      "question_text": "Bu darsda sutemizuvchilar qaysi belgilar asosida uch guruhga taqqoslanadi?",
+      "options": [
+        "Ko‘payish va bola rivojlanishi",
+        "Faqat jun rangi",
+        "Faqat quloqning uzunligi",
+        "Faqat yashash joyi nomi"
+      ],
+      "correct_answer": "Ko‘payish va bola rivojlanishi",
+      "explanation": "Darslik sutemizuvchilarni ko‘payishi va bola rivojlanishiga ko‘ra tuxum qo‘yuvchilar, xaltalilar va yo‘ldoshlilar sifatida taqqoslaydi."
+    },
+    {
+      "key": "paragraph-53-q2",
+      "fact_id": "paragraph-53-f2",
+      "question_text": "Tuxum qo‘yib, bolasini sut bilan boqadigan juftlik qaysi?",
+      "options": [
+        "Tovuq va o‘rdak",
+        "Kaltakesak va timsoh",
+        "Baqa va salamandra",
+        "O‘rdakburun va yexidna"
+      ],
+      "correct_answer": "O‘rdakburun va yexidna",
+      "explanation": "O‘rdakburun va yexidna tuxum qo‘yadigan sutemizuvchilardir. Ular bolalarini sut bilan oziqlantiradi."
+    },
+    {
+      "key": "paragraph-53-q3",
+      "fact_id": "paragraph-53-f3",
+      "question_text": "O‘rdakburun bolasi sutni qanday oladi?",
+      "options": [
+        "Faqat tuxum oqini tashqaridan so‘radi",
+        "Faqat suvdan plankton suzadi",
+        "Teri yuzasiga ajralgan sutni yalaydi",
+        "Faqat qattiq urug‘ni chaynaydi"
+      ],
+      "correct_answer": "Teri yuzasiga ajralgan sutni yalaydi",
+      "explanation": "O‘rdakburunda sut bezlari so‘rg‘ichga ochilmaydi; yoshlar teri yuzasiga ajralgan sutni yalab oziqlanadi."
+    },
+    {
+      "key": "paragraph-53-q4",
+      "fact_id": "paragraph-53-f4",
+      "question_text": "Kenguruning yangi tug‘ilgan bolasining keyingi rivojlanish joyi qaysi?",
+      "options": [
+        "Faqat suvdagi jabra bo‘shlig‘i",
+        "Onasining xaltasi",
+        "Faqat tashqi qattiq tuxum",
+        "Faqat daraxt po‘stidagi g‘umbak"
+      ],
+      "correct_answer": "Onasining xaltasi",
+      "explanation": "Kenguru juda kichik va ojiz bola tug‘adi; u onasining xaltasida sut emib rivojlanishda davom etadi."
+    },
+    {
+      "key": "paragraph-53-q5",
+      "fact_id": "paragraph-53-f5",
+      "question_text": "Sichqon va filning ko‘payishida qaysi umumiy belgi bor?",
+      "options": [
+        "Yo‘ldoshli bo‘lib, homila bachadonda rivojlanishi",
+        "Tuxumini qirg‘oqqa ko‘mishi",
+        "Bir hujayraning teng ikkiga bo‘linishi",
+        "Faqat suvda tashqi urug‘lanish"
+      ],
+      "correct_answer": "Yo‘ldoshli bo‘lib, homila bachadonda rivojlanishi",
+      "explanation": "Yo‘ldoshli sutemizuvchilarda homila bachadonda rivojlanadi; sichqon, fil va ko‘plab xonaki hayvonlar shu guruhdadir."
+    }
+  ]
+}

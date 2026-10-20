@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-57-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-78",
+  "title": "Tuyoqli sutemizuvchilar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-57-f1": {
+      "claim": "Sigir, qo‘y va boshqa kavsh qaytaruvchilarda oshqozon to‘rt bo‘limli; ular o‘simlik oziqlaridan foydalanishga moslashgan.",
+      "answer": "To‘rt",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          190
+        ],
+        "printed_pages": [
+          190
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f2": {
+      "claim": "Kavsh qaytaruvchilar oshqozonidagi mikroorganizmlar o‘simlik kletchatkasining hazm bo‘lishiga yordam beradi.",
+      "answer": "Oshqozondagi mikroorganizmlar",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          191
+        ],
+        "printed_pages": [
+          191
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f3": {
+      "claim": "Yutilgan oziq og‘izga qaytarilib yaxshilab chaynaladi, keyin yana oshqozonga yutiladi.",
+      "answer": "Yutish → og‘izga qaytarish → qayta chaynash → yutish",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          191
+        ],
+        "printed_pages": [
+          191
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f4": {
+      "claim": "To‘ng‘iz juft tuyoqli hayvon, ammo kavsh qaytarmaydi. Juft tuyoqlilik barcha vakillarda bir xil hazm usulini anglatmaydi.",
+      "answer": "To‘ng‘iz",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          191
+        ],
+        "printed_pages": [
+          191
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f5": {
+      "claim": "Toq tuyoqlilarda tananing asosiy og‘irligi kuchli rivojlangan uchinchi barmoqqa tushadi; ot, zebra, karkidon va tapir shu guruhga misoldir.",
+      "answer": "Uchinchi barmoqqa",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          192
+        ],
+        "printed_pages": [
+          192
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f6": {
+      "claim": "Ot, eshak va zebra toq tuyoqli; sigir, qo‘y va echki juft tuyoqli hayvonlardir.",
+      "answer": "Ot, eshak, zebra",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          192
+        ],
+        "printed_pages": [
+          192
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kavsh qaytaruvchi oshqozon",
+      "body": "Sigir, qo‘y va boshqa kavsh qaytaruvchilarda oshqozon to‘rt bo‘limli; ular o‘simlik oziqlaridan foydalanishga moslashgan.",
+      "fact_ids": [
+        "paragraph-57-f1"
+      ]
+    },
+    {
+      "title": "Mikroorganizmlar yordami",
+      "body": "Kavsh qaytaruvchilar oshqozonidagi mikroorganizmlar o‘simlik kletchatkasining hazm bo‘lishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-57-f2"
+      ]
+    },
+    {
+      "title": "Kavsh qaytarish jarayoni",
+      "body": "Yutilgan oziq og‘izga qaytarilib yaxshilab chaynaladi, keyin yana oshqozonga yutiladi.",
+      "fact_ids": [
+        "paragraph-57-f3"
+      ]
+    },
+    {
+      "title": "Kavsh qaytarmaydigan misol",
+      "body": "To‘ng‘iz juft tuyoqli hayvon, ammo kavsh qaytarmaydi. Juft tuyoqlilik barcha vakillarda bir xil hazm usulini anglatmaydi.",
+      "fact_ids": [
+        "paragraph-57-f4"
+      ]
+    },
+    {
+      "title": "Toq tuyoqlining tayanchi",
+      "body": "Toq tuyoqlilarda tananing asosiy og‘irligi kuchli rivojlangan uchinchi barmoqqa tushadi; ot, zebra, karkidon va tapir shu guruhga misoldir.",
+      "fact_ids": [
+        "paragraph-57-f5"
+      ]
+    },
+    {
+      "title": "Tuyoqlilarni guruhlash",
+      "body": "Ot, eshak va zebra toq tuyoqli; sigir, qo‘y va echki juft tuyoqli hayvonlardir.",
+      "fact_ids": [
+        "paragraph-57-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-57-q1",
+      "fact_id": "paragraph-57-f1",
+      "question_text": "Kavsh qaytaruvchi hayvon oshqozoni nechta asosiy bo‘limdan iborat?",
+      "options": [
+        "To‘rt",
+        "Ikki",
+        "Bitta",
+        "Oltita"
+      ],
+      "correct_answer": "To‘rt",
+      "explanation": "Sigir, qo‘y va boshqa kavsh qaytaruvchilarda oshqozon to‘rt bo‘limli; ular o‘simlik oziqlaridan foydalanishga moslashgan."
+    },
+    {
+      "key": "paragraph-57-q2",
+      "fact_id": "paragraph-57-f2",
+      "question_text": "Kletchatkani hazm qilishda kavsh qaytaruvchiga nima yordam beradi?",
+      "options": [
+        "Faqat oyoqdagi tuyoq",
+        "Faqat teridagi jun",
+        "Faqat ko‘zning qorachig‘i",
+        "Oshqozondagi mikroorganizmlar"
+      ],
+      "correct_answer": "Oshqozondagi mikroorganizmlar",
+      "explanation": "Kavsh qaytaruvchilar oshqozonidagi mikroorganizmlar o‘simlik kletchatkasining hazm bo‘lishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-57-q3",
+      "fact_id": "paragraph-57-f3",
+      "question_text": "Kavsh qaytarishni qaysi ketma-ketlik ifodalaydi?",
+      "options": [
+        "Oziqni butunlay og‘izdan tashlash → tuxum qo‘yish",
+        "Yutish → pilla o‘rash → g‘umbaklanish",
+        "Yutish → og‘izga qaytarish → qayta chaynash → yutish",
+        "Chaynash → jabra → suzgich pufagi"
+      ],
+      "correct_answer": "Yutish → og‘izga qaytarish → qayta chaynash → yutish",
+      "explanation": "Yutilgan oziq og‘izga qaytarilib yaxshilab chaynaladi, keyin yana oshqozonga yutiladi."
+    },
+    {
+      "key": "paragraph-57-q4",
+      "fact_id": "paragraph-57-f4",
+      "question_text": "Qaysi hayvon juft tuyoqli bo‘lsa ham kavsh qaytarmaydi?",
+      "options": [
+        "Echki",
+        "To‘ng‘iz",
+        "Sigir",
+        "Qo‘y"
+      ],
+      "correct_answer": "To‘ng‘iz",
+      "explanation": "To‘ng‘iz juft tuyoqli hayvon, ammo kavsh qaytarmaydi. Juft tuyoqlilik barcha vakillarda bir xil hazm usulini anglatmaydi."
+    },
+    {
+      "key": "paragraph-57-q5",
+      "fact_id": "paragraph-57-f5",
+      "question_text": "Toq tuyoqlida tana og‘irligi asosan qaysi barmoqqa tushadi?",
+      "options": [
+        "Uchinchi barmoqqa",
+        "Birinchi barmoqqa",
+        "Ikkinchi barmoqqa",
+        "Faqat beshinchi barmoqqa"
+      ],
+      "correct_answer": "Uchinchi barmoqqa",
+      "explanation": "Toq tuyoqlilarda tananing asosiy og‘irligi kuchli rivojlangan uchinchi barmoqqa tushadi; ot, zebra, karkidon va tapir shu guruhga misoldir."
+    },
+    {
+      "key": "paragraph-57-q6",
+      "fact_id": "paragraph-57-f6",
+      "question_text": "Qaysi qatorda faqat toq tuyoqlilar berilgan?",
+      "options": [
+        "Sigir, qo‘y, echki",
+        "Jayron, bug‘u, zubr",
+        "Bo‘ri, tulki, it",
+        "Ot, eshak, zebra"
+      ],
+      "correct_answer": "Ot, eshak, zebra",
+      "explanation": "Ot, eshak va zebra toq tuyoqli; sigir, qo‘y va echki juft tuyoqli hayvonlardir."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-43-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-63",
+  "title": "Qushlarning ichki tuzilishi va sezgi organlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-43-f1": {
+      "claim": "Kaptarda qizilo‘ngachning kengaygan qismi jig‘ildon bo‘lib, yutilgan oziq vaqtincha shu yerda saqlanadi.",
+      "answer": "Jig‘ildon",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f2": {
+      "claim": "Qush oshqozonining bezli qismida hazm shirasi ajraladi, muskulli qismida oziq maydalanadi; yutilgan mayda toshlar maydalashga yordam beradi.",
+      "answer": "Muskulli oshqozonda",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f3": {
+      "claim": "Qushda o‘pka havo xaltalari bilan bog‘langan; ular nafas olish sistemasida havo almashinishiga xizmat qiladi.",
+      "answer": "Havo xaltalari",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f4": {
+      "claim": "Qush yuragi ikkita bo‘lma va ikkita qorinchadan iborat; kislorodga boy va kambag‘al qon yurakda bir-biridan ajratilgan.",
+      "answer": "Ikki bo‘lma va ikki qorincha",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f5": {
+      "claim": "Qushlarda ko‘rish yaxshi rivojlangan; ranglarni ajratish oziq topish va atrofni kuzatishda ahamiyatli.",
+      "answer": "Ko‘rish",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f6": {
+      "claim": "Qushning murakkab harakatlari rivojlangan miyachasi bilan bog‘liq; nerv sistemasi parvoz harakatlarini muvofiqlashtirishda qatnashadi.",
+      "answer": "Miyacha",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f7": {
+      "claim": "Qushlar chaqiriq, xavotir yoki boshqa holatlarni bildiradigan tovushlar orqali o‘zaro axborot almashadi.",
+      "answer": "Xavf haqidagi axborotni",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Jig‘ildon va oziq zaxirasi",
+      "body": "Kaptarda qizilo‘ngachning kengaygan qismi jig‘ildon bo‘lib, yutilgan oziq vaqtincha shu yerda saqlanadi.",
+      "fact_ids": [
+        "paragraph-43-f1"
+      ]
+    },
+    {
+      "title": "Ikki bo‘limli oshqozon",
+      "body": "Qush oshqozonining bezli qismida hazm shirasi ajraladi, muskulli qismida oziq maydalanadi; yutilgan mayda toshlar maydalashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-43-f2"
+      ]
+    },
+    {
+      "title": "O‘pka bilan bog‘langan xaltalar",
+      "body": "Qushda o‘pka havo xaltalari bilan bog‘langan; ular nafas olish sistemasida havo almashinishiga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-43-f3"
+      ]
+    },
+    {
+      "title": "Qonning ikki oqimi",
+      "body": "Qush yuragi ikkita bo‘lma va ikkita qorinchadan iborat; kislorodga boy va kambag‘al qon yurakda bir-biridan ajratilgan.",
+      "fact_ids": [
+        "paragraph-43-f4"
+      ]
+    },
+    {
+      "title": "Ko‘rish va oziq topish",
+      "body": "Qushlarda ko‘rish yaxshi rivojlangan; ranglarni ajratish oziq topish va atrofni kuzatishda ahamiyatli.",
+      "fact_ids": [
+        "paragraph-43-f5"
+      ]
+    },
+    {
+      "title": "Harakat va miyacha",
+      "body": "Qushning murakkab harakatlari rivojlangan miyachasi bilan bog‘liq; nerv sistemasi parvoz harakatlarini muvofiqlashtirishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-43-f6"
+      ]
+    },
+    {
+      "title": "Tovush bilan aloqa",
+      "body": "Qushlar chaqiriq, xavotir yoki boshqa holatlarni bildiradigan tovushlar orqali o‘zaro axborot almashadi.",
+      "fact_ids": [
+        "paragraph-43-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-43-q1",
+      "fact_id": "paragraph-43-f1",
+      "question_text": "Kaptarda yutilgan oziqni vaqtincha saqlaydigan organ qaysi?",
+      "options": [
+        "Jig‘ildon",
+        "Faqat kloaka",
+        "Faqat havo xaltasi",
+        "Faqat buyrak"
+      ],
+      "correct_answer": "Jig‘ildon",
+      "explanation": "Kaptarda qizilo‘ngachning kengaygan qismi jig‘ildon bo‘lib, yutilgan oziq vaqtincha shu yerda saqlanadi."
+    },
+    {
+      "key": "paragraph-43-q2",
+      "fact_id": "paragraph-43-f2",
+      "question_text": "Qush oshqozonida oziqni mexanik maydalash qaysi qismda kechadi?",
+      "options": [
+        "Faqat jig‘ildon tashqarisida",
+        "Faqat havo xaltasida",
+        "Faqat yurak bo‘lmasida",
+        "Muskulli oshqozonda"
+      ],
+      "correct_answer": "Muskulli oshqozonda",
+      "explanation": "Qush oshqozonining bezli qismida hazm shirasi ajraladi, muskulli qismida oziq maydalanadi; yutilgan mayda toshlar maydalashga yordam beradi."
+    },
+    {
+      "key": "paragraph-43-q3",
+      "fact_id": "paragraph-43-f3",
+      "question_text": "Qush nafas sistemasida o‘pka bilan bog‘langan tuzilmalar qaysi?",
+      "options": [
+        "Faqat malpigi naychalari",
+        "Faqat soxta oyoqlar",
+        "Havo xaltalari",
+        "Faqat yashil bezlar"
+      ],
+      "correct_answer": "Havo xaltalari",
+      "explanation": "Qushda o‘pka havo xaltalari bilan bog‘langan; ular nafas olish sistemasida havo almashinishiga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-43-q4",
+      "fact_id": "paragraph-43-f4",
+      "question_text": "Kaptar yuragi tuzilishiga qaysi ta’rif mos?",
+      "options": [
+        "Faqat bitta umumiy bo‘shliq",
+        "Ikki bo‘lma va ikki qorincha",
+        "Ikki bo‘lma va bir qorincha",
+        "Bir bo‘lma va bir qorincha"
+      ],
+      "correct_answer": "Ikki bo‘lma va ikki qorincha",
+      "explanation": "Qush yuragi ikkita bo‘lma va ikkita qorinchadan iborat; kislorodga boy va kambag‘al qon yurakda bir-biridan ajratilgan."
+    },
+    {
+      "key": "paragraph-43-q5",
+      "fact_id": "paragraph-43-f5",
+      "question_text": "Qushning uzoqdagi oziqni payqashiga qaysi sezgi ayniqsa yordam beradi?",
+      "options": [
+        "Ko‘rish",
+        "Faqat oshqozon shirasi",
+        "Faqat qorin muskuli",
+        "Faqat tuxum po‘chog‘i"
+      ],
+      "correct_answer": "Ko‘rish",
+      "explanation": "Qushlarda ko‘rish yaxshi rivojlangan; ranglarni ajratish oziq topish va atrofni kuzatishda ahamiyatli."
+    },
+    {
+      "key": "paragraph-43-q6",
+      "fact_id": "paragraph-43-f6",
+      "question_text": "Qush harakatlarini muvofiqlashtirish bilan bog‘liq miya qismi qaysi?",
+      "options": [
+        "Faqat jig‘ildon",
+        "Faqat siydik yo‘li",
+        "Faqat kloaka",
+        "Miyacha"
+      ],
+      "correct_answer": "Miyacha",
+      "explanation": "Qushning murakkab harakatlari rivojlangan miyachasi bilan bog‘liq; nerv sistemasi parvoz harakatlarini muvofiqlashtirishda qatnashadi."
+    },
+    {
+      "key": "paragraph-43-q7",
+      "fact_id": "paragraph-43-f7",
+      "question_text": "Qushning xavotir tovushi boshqa qushlarga nimani yetkazishi mumkin?",
+      "options": [
+        "Faqat suyaklarning aniq sonini",
+        "Faqat tuxumdon hujayralarini",
+        "Xavf haqidagi axborotni",
+        "Faqat oziqning kimyoviy tarkibini to‘liq"
+      ],
+      "correct_answer": "Xavf haqidagi axborotni",
+      "explanation": "Qushlar chaqiriq, xavotir yoki boshqa holatlarni bildiradigan tovushlar orqali o‘zaro axborot almashadi."
+    }
+  ]
+}

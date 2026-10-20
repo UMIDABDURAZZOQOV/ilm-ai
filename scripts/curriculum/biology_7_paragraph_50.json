@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-50-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-71",
+  "title": "Itning tashqi tuzilishi, skeleti va muskullari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-50-f1": {
+      "claim": "Itning oyoqlari tanasining ostida joylashgan va tanani yerdan ko‘tarib turadi; u yurganda barmoqlariga tayanadi.",
+      "answer": "Barmoqlariga",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          168
+        ],
+        "printed_pages": [
+          168
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f2": {
+      "claim": "It junining tashqi qavati uzunroq dag‘al qillar, ichki qavati mayin kalta tuklardan iborat. Tuk orasidagi havo issiqlikni saqlashga yordam beradi.",
+      "answer": "Tana issiqligini saqlaydi",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f3": {
+      "claim": "Issiq paytda itning og‘zini ochib tez nafas olishi tanani sovitishga yordam beradi.",
+      "answer": "Tanani sovitishga",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f4": {
+      "claim": "It umurtqa pog‘onasi bo‘yin, ko‘krak, bel, dumg‘aza va dum bo‘limlariga bo‘linadi.",
+      "answer": "Bo‘yin → ko‘krak → bel → dumg‘aza → dum",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f5": {
+      "claim": "Itning kurak, qoziq va oziq tishlari shakli bilan farqlanadi; yirik qoziq tishlari yirtqich oziqlanishga moslashgan.",
+      "answer": "Qoziq tish",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          170
+        ],
+        "printed_pages": [
+          170
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f6": {
+      "claim": "Itning pastki jag‘ini harakatlantiradigan muskullari kuchli rivojlangan; ular tishlar bilan birga oziqni qayta ishlashda qatnashadi.",
+      "answer": "Chaynash muskullari",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          170
+        ],
+        "printed_pages": [
+          170
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oyoqlarning tana ostida joylashishi",
+      "body": "Itning oyoqlari tanasining ostida joylashgan va tanani yerdan ko‘tarib turadi; u yurganda barmoqlariga tayanadi.",
+      "fact_ids": [
+        "paragraph-50-f1"
+      ]
+    },
+    {
+      "title": "Jun qoplamasining qatlamlari",
+      "body": "It junining tashqi qavati uzunroq dag‘al qillar, ichki qavati mayin kalta tuklardan iborat. Tuk orasidagi havo issiqlikni saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-50-f2"
+      ]
+    },
+    {
+      "title": "Issiqda tez nafas olish",
+      "body": "Issiq paytda itning og‘zini ochib tez nafas olishi tanani sovitishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-50-f3"
+      ]
+    },
+    {
+      "title": "Umurtqa pog‘onasi bo‘limlari",
+      "body": "It umurtqa pog‘onasi bo‘yin, ko‘krak, bel, dumg‘aza va dum bo‘limlariga bo‘linadi.",
+      "fact_ids": [
+        "paragraph-50-f4"
+      ]
+    },
+    {
+      "title": "Tish va vazifa",
+      "body": "Itning kurak, qoziq va oziq tishlari shakli bilan farqlanadi; yirik qoziq tishlari yirtqich oziqlanishga moslashgan.",
+      "fact_ids": [
+        "paragraph-50-f5"
+      ]
+    },
+    {
+      "title": "Chaynash muskullari",
+      "body": "Itning pastki jag‘ini harakatlantiradigan muskullari kuchli rivojlangan; ular tishlar bilan birga oziqni qayta ishlashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-50-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-50-q1",
+      "fact_id": "paragraph-50-f1",
+      "question_text": "It yurishda asosan nimaga tayanadi?",
+      "options": [
+        "Barmoqlariga",
+        "Faqat dumining uchiga",
+        "Faqat qorin terisiga",
+        "Faqat pastki jag‘iga"
+      ],
+      "correct_answer": "Barmoqlariga",
+      "explanation": "Itning oyoqlari tanasining ostida joylashgan va tanani yerdan ko‘tarib turadi; u yurganda barmoqlariga tayanadi."
+    },
+    {
+      "key": "paragraph-50-q2",
+      "fact_id": "paragraph-50-f2",
+      "question_text": "Jun orasidagi havo hayvonga qanday foyda beradi?",
+      "options": [
+        "Qonni tanadan chiqaradi",
+        "Faqat qattiq oziqni chaynaydi",
+        "Tuxumni urug‘lantiradi",
+        "Tana issiqligini saqlaydi"
+      ],
+      "correct_answer": "Tana issiqligini saqlaydi",
+      "explanation": "It junining tashqi qavati uzunroq dag‘al qillar, ichki qavati mayin kalta tuklardan iborat. Tuk orasidagi havo issiqlikni saqlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-50-q3",
+      "fact_id": "paragraph-50-f3",
+      "question_text": "Issiqda itning tez-tez hansirashi qanday vazifaga xizmat qiladi?",
+      "options": [
+        "Faqat ko‘payish hujayrasini yaratishga",
+        "Faqat junni suyaklashtirishga",
+        "Tanani sovitishga",
+        "Faqat yangi tish chiqarishga"
+      ],
+      "correct_answer": "Tanani sovitishga",
+      "explanation": "Issiq paytda itning og‘zini ochib tez nafas olishi tanani sovitishga yordam beradi."
+    },
+    {
+      "key": "paragraph-50-q4",
+      "fact_id": "paragraph-50-f4",
+      "question_text": "It umurtqa pog‘onasining ketma-ket bo‘limlari qaysi?",
+      "options": [
+        "Jag‘ → dumg‘aza → til → suzgich",
+        "Bo‘yin → ko‘krak → bel → dumg‘aza → dum",
+        "Bosh → panja → qovurg‘a → qanot",
+        "Ko‘krak → dum → bo‘yin → panja"
+      ],
+      "correct_answer": "Bo‘yin → ko‘krak → bel → dumg‘aza → dum",
+      "explanation": "It umurtqa pog‘onasi bo‘yin, ko‘krak, bel, dumg‘aza va dum bo‘limlariga bo‘linadi."
+    },
+    {
+      "key": "paragraph-50-q5",
+      "fact_id": "paragraph-50-f5",
+      "question_text": "It jag‘idagi yirik konussimon tish qanday ataladi?",
+      "options": [
+        "Qoziq tish",
+        "Kurak tish",
+        "Yassi oziq tish",
+        "Shoxsimon tumshuq"
+      ],
+      "correct_answer": "Qoziq tish",
+      "explanation": "Itning kurak, qoziq va oziq tishlari shakli bilan farqlanadi; yirik qoziq tishlari yirtqich oziqlanishga moslashgan."
+    },
+    {
+      "key": "paragraph-50-q6",
+      "fact_id": "paragraph-50-f6",
+      "question_text": "Itning pastki jag‘ini harakatlantiradigan tuzilma nima?",
+      "options": [
+        "Faqat teridagi mayin jun",
+        "Faqat quloq suprasi",
+        "Faqat dum umurtqalari",
+        "Chaynash muskullari"
+      ],
+      "correct_answer": "Chaynash muskullari",
+      "explanation": "Itning pastki jag‘ini harakatlantiradigan muskullari kuchli rivojlangan; ular tishlar bilan birga oziqni qayta ishlashda qatnashadi."
+    }
+  ]
+}

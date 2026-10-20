@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-54-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-75",
+  "title": "Qo‘lqanotlilar va kemiruvchilar turkumlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-54-f1": {
+      "claim": "Ko‘rshapalakning oldingi oyoq barmoqlari cho‘zilgan, ularning orasiga va tana yoniga teri parda tortilgan. Qanotning ko‘tarish yuzasi shu pardadir.",
+      "answer": "Ko‘tarish yuzasi patdan emas, teri pardadan tuzilgan",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          180
+        ],
+        "printed_pages": [
+          180
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f2": {
+      "claim": "Ko‘plab ko‘rshapalaklar ultratovush chiqarib, to‘siq yoki o‘ljadan qaytgan aks-sadoni eshitadi va fazoda yo‘naladi.",
+      "answer": "To‘siq va o‘ljani aniqlashga",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f3": {
+      "claim": "Kemiruvchilarning yirik kurak tishlari umr davomida o‘sib va yeyilib turadi; bu qattiq oziqni uzishga yordam beradi.",
+      "answer": "Kurak tishlari",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f4": {
+      "claim": "Kemiruvchilarda qoziq tishlar yo‘q; oziqni oldingi kurak tishlar bilan uzib, oziq tishlar bilan maydalaydi.",
+      "answer": "Qoziq tish",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f5": {
+      "claim": "Sichqon va kalamushlar ombordagi don hamda oziq-ovqatni kemirib zarar yetkazadi.",
+      "answer": "Don va oziq-ovqatning kemirilishi",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f6": {
+      "claim": "Hasharotxo‘r ko‘rshapalaklar ko‘p hasharotlarni yeydi; ularning pana joylarini buzmaslik foydali populyatsiyalarni saqlashga yordam beradi.",
+      "answer": "Hasharotlar sonini tabiiy cheklashga yordam berishi",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Teri pardali qanot",
+      "body": "Ko‘rshapalakning oldingi oyoq barmoqlari cho‘zilgan, ularning orasiga va tana yoniga teri parda tortilgan. Qanotning ko‘tarish yuzasi shu pardadir.",
+      "fact_ids": [
+        "paragraph-54-f1"
+      ]
+    },
+    {
+      "title": "Aks-sadodan yo‘l topish",
+      "body": "Ko‘plab ko‘rshapalaklar ultratovush chiqarib, to‘siq yoki o‘ljadan qaytgan aks-sadoni eshitadi va fazoda yo‘naladi.",
+      "fact_ids": [
+        "paragraph-54-f2"
+      ]
+    },
+    {
+      "title": "Kemiruvchi tishlar",
+      "body": "Kemiruvchilarning yirik kurak tishlari umr davomida o‘sib va yeyilib turadi; bu qattiq oziqni uzishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-54-f3"
+      ]
+    },
+    {
+      "title": "Tishlar o‘rtasidagi farq",
+      "body": "Kemiruvchilarda qoziq tishlar yo‘q; oziqni oldingi kurak tishlar bilan uzib, oziq tishlar bilan maydalaydi.",
+      "fact_ids": [
+        "paragraph-54-f4"
+      ]
+    },
+    {
+      "title": "Ombordagi zarar",
+      "body": "Sichqon va kalamushlar ombordagi don hamda oziq-ovqatni kemirib zarar yetkazadi.",
+      "fact_ids": [
+        "paragraph-54-f5"
+      ]
+    },
+    {
+      "title": "Ko‘rshapalakni asrash",
+      "body": "Hasharotxo‘r ko‘rshapalaklar ko‘p hasharotlarni yeydi; ularning pana joylarini buzmaslik foydali populyatsiyalarni saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-54-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-54-q1",
+      "fact_id": "paragraph-54-f1",
+      "question_text": "Ko‘rshapalak qanoti qush qanotidan qaysi belgi bilan farq qiladi?",
+      "options": [
+        "Ko‘tarish yuzasi patdan emas, teri pardadan tuzilgan",
+        "Qanotida faqat oltita pat bor",
+        "Qanot o‘rnida faqat suvdagi jabra bor",
+        "Faqat orqa oyog‘i qattiq kosaga aylangan"
+      ],
+      "correct_answer": "Ko‘tarish yuzasi patdan emas, teri pardadan tuzilgan",
+      "explanation": "Ko‘rshapalakning oldingi oyoq barmoqlari cho‘zilgan, ularning orasiga va tana yoniga teri parda tortilgan. Qanotning ko‘tarish yuzasi shu pardadir."
+    },
+    {
+      "key": "paragraph-54-q2",
+      "fact_id": "paragraph-54-f2",
+      "question_text": "Ko‘rshapalakning ultratovush aks-sadosini qabul qilishi nimaga xizmat qiladi?",
+      "options": [
+        "Faqat gulni changga aylantirishga",
+        "Faqat tana haroratini muzlatishga",
+        "Faqat tuxum po‘stini qotirishga",
+        "To‘siq va o‘ljani aniqlashga"
+      ],
+      "correct_answer": "To‘siq va o‘ljani aniqlashga",
+      "explanation": "Ko‘plab ko‘rshapalaklar ultratovush chiqarib, to‘siq yoki o‘ljadan qaytgan aks-sadoni eshitadi va fazoda yo‘naladi."
+    },
+    {
+      "key": "paragraph-54-q3",
+      "fact_id": "paragraph-54-f3",
+      "question_text": "Kemiruvchining doimo o‘sib-yeyilib turadigan tishlari qaysi?",
+      "options": [
+        "Faqat sut tishining ildizsiz qobig‘i",
+        "Shoxsimon tumshug‘i",
+        "Kurak tishlari",
+        "Faqat katta qoziq tishlari"
+      ],
+      "correct_answer": "Kurak tishlari",
+      "explanation": "Kemiruvchilarning yirik kurak tishlari umr davomida o‘sib va yeyilib turadi; bu qattiq oziqni uzishga yordam beradi."
+    },
+    {
+      "key": "paragraph-54-q4",
+      "fact_id": "paragraph-54-f4",
+      "question_text": "Kemiruvchi tish sistemasida odatda qaysi tur yo‘q?",
+      "options": [
+        "Yuqori kurak tish",
+        "Qoziq tish",
+        "Kurak tish",
+        "Oziq tish"
+      ],
+      "correct_answer": "Qoziq tish",
+      "explanation": "Kemiruvchilarda qoziq tishlar yo‘q; oziqni oldingi kurak tishlar bilan uzib, oziq tishlar bilan maydalaydi."
+    },
+    {
+      "key": "paragraph-54-q5",
+      "fact_id": "paragraph-54-f5",
+      "question_text": "Ombordagi kemiruvchi zarari qaysi holatda ko‘rsatilgan?",
+      "options": [
+        "Don va oziq-ovqatning kemirilishi",
+        "Gulning ari yordamida changlanishi",
+        "Yosh qushning qanot yozishi",
+        "Baliqning kislorod olishi"
+      ],
+      "correct_answer": "Don va oziq-ovqatning kemirilishi",
+      "explanation": "Sichqon va kalamushlar ombordagi don hamda oziq-ovqatni kemirib zarar yetkazadi."
+    },
+    {
+      "key": "paragraph-54-q6",
+      "fact_id": "paragraph-54-f6",
+      "question_text": "Hasharotxo‘r ko‘rshapalaklarni asrashning foydasi nima?",
+      "options": [
+        "Barcha o‘simliklarni kemirib tugatishi",
+        "Barcha baliq chavoqlarini quritishi",
+        "Gullarni changlanmaydigan qilishi",
+        "Hasharotlar sonini tabiiy cheklashga yordam berishi"
+      ],
+      "correct_answer": "Hasharotlar sonini tabiiy cheklashga yordam berishi",
+      "explanation": "Hasharotxo‘r ko‘rshapalaklar ko‘p hasharotlarni yeydi; ularning pana joylarini buzmaslik foydali populyatsiyalarni saqlashga yordam beradi."
+    }
+  ]
+}

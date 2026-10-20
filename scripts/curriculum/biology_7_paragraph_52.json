@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-52-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-73",
+  "title": "Sutemizuvchilarning ko‘payishi, rivojlanishi va kelib chiqishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-52-f1": {
+      "claim": "Ko‘pchilik sutemizuvchilar embrioni ona tanasidagi bachadonda rivojlanadi; urug‘lanish tuxum yo‘lida boshlanadi.",
+      "answer": "Bachadonda",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f2": {
+      "claim": "Yo‘ldosh orqali ona va homila o‘rtasida oziq moddalar, kislorod va almashinuv chiqindilari almashadi.",
+      "answer": "Yo‘ldosh",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f3": {
+      "claim": "Homilaning ona organizmida rivojlanish davri homiladorlik deyiladi; uning davomiyligi hayvon turiga qarab farqlanadi.",
+      "answer": "Homilaning ona tanasida rivojlanishini",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f4": {
+      "claim": "Sutemizuvchi onaning sut bezlari bolasi uchun sut ishlab chiqaradi; sutda suv, oqsil, yog‘, uglevod, vitamin va minerallar bo‘ladi.",
+      "answer": "Bolasini sut bilan boqishi",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          176
+        ],
+        "printed_pages": [
+          176
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f5": {
+      "claim": "Ayrim sutemizuvchilar bolasi ojiz tug‘ilib pana joyda parvarishlanadi, boshqalari ancha rivojlangan bo‘lib tez yuradi.",
+      "answer": "Tug‘ilishdagi rivojlanganlik darajasi turlicha",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f6": {
+      "claim": "Darslik qadimgi hayvonlarning skeleti va ixtisoslashgan tishlari qoldiqlarini qarindoshlik belgilarini taqqoslashda ishlatadi.",
+      "answer": "Skelet va tish qoldiqlari",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          176
+        ],
+        "printed_pages": [
+          176
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Murtak rivojlanadigan joy",
+      "body": "Ko‘pchilik sutemizuvchilar embrioni ona tanasidagi bachadonda rivojlanadi; urug‘lanish tuxum yo‘lida boshlanadi.",
+      "fact_ids": [
+        "paragraph-52-f1"
+      ]
+    },
+    {
+      "title": "Yo‘ldosh orqali almashinuv",
+      "body": "Yo‘ldosh orqali ona va homila o‘rtasida oziq moddalar, kislorod va almashinuv chiqindilari almashadi.",
+      "fact_ids": [
+        "paragraph-52-f2"
+      ]
+    },
+    {
+      "title": "Homiladorlik mazmuni",
+      "body": "Homilaning ona organizmida rivojlanish davri homiladorlik deyiladi; uning davomiyligi hayvon turiga qarab farqlanadi.",
+      "fact_ids": [
+        "paragraph-52-f3"
+      ]
+    },
+    {
+      "title": "Sut bezining mahsuloti",
+      "body": "Sutemizuvchi onaning sut bezlari bolasi uchun sut ishlab chiqaradi; sutda suv, oqsil, yog‘, uglevod, vitamin va minerallar bo‘ladi.",
+      "fact_ids": [
+        "paragraph-52-f4"
+      ]
+    },
+    {
+      "title": "Yangi tug‘ilganlarning farqi",
+      "body": "Ayrim sutemizuvchilar bolasi ojiz tug‘ilib pana joyda parvarishlanadi, boshqalari ancha rivojlangan bo‘lib tez yuradi.",
+      "fact_ids": [
+        "paragraph-52-f5"
+      ]
+    },
+    {
+      "title": "Qadimgi qarindoshlik dalillari",
+      "body": "Darslik qadimgi hayvonlarning skeleti va ixtisoslashgan tishlari qoldiqlarini qarindoshlik belgilarini taqqoslashda ishlatadi.",
+      "fact_ids": [
+        "paragraph-52-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-52-q1",
+      "fact_id": "paragraph-52-f1",
+      "question_text": "Yo‘ldoshli sutemizuvchining murtagi asosan qayerda rivojlanadi?",
+      "options": [
+        "Bachadonda",
+        "Faqat tashqi suvda",
+        "Faqat quruq barg ostida",
+        "Faqat ona hayvonning oshqozonida"
+      ],
+      "correct_answer": "Bachadonda",
+      "explanation": "Ko‘pchilik sutemizuvchilar embrioni ona tanasidagi bachadonda rivojlanadi; urug‘lanish tuxum yo‘lida boshlanadi."
+    },
+    {
+      "key": "paragraph-52-q2",
+      "fact_id": "paragraph-52-f2",
+      "question_text": "Homilaga oziq va kislorod yetkazilishida qaysi organ muhim?",
+      "options": [
+        "Faqat onaning teri tuklari",
+        "Faqat quloq suprasi",
+        "Faqat tashqi tirnoq",
+        "Yo‘ldosh"
+      ],
+      "correct_answer": "Yo‘ldosh",
+      "explanation": "Yo‘ldosh orqali ona va homila o‘rtasida oziq moddalar, kislorod va almashinuv chiqindilari almashadi."
+    },
+    {
+      "key": "paragraph-52-q3",
+      "fact_id": "paragraph-52-f3",
+      "question_text": "Homiladorlik atamasi qaysi davrni bildiradi?",
+      "options": [
+        "Faqat junning qishki almashishini",
+        "Faqat tishning oziqni chaynashini",
+        "Homilaning ona tanasida rivojlanishini",
+        "Faqat yosh hayvonning sut ichishdan keyingi umrini"
+      ],
+      "correct_answer": "Homilaning ona tanasida rivojlanishini",
+      "explanation": "Homilaning ona organizmida rivojlanish davri homiladorlik deyiladi; uning davomiyligi hayvon turiga qarab farqlanadi."
+    },
+    {
+      "key": "paragraph-52-q4",
+      "fact_id": "paragraph-52-f4",
+      "question_text": "Sutemizuvchini boshqa o‘rganilgan sinflardan ajratadigan parvarish belgisi qaysi?",
+      "options": [
+        "Faqat o‘pka bilan nafas olishi",
+        "Bolasini sut bilan boqishi",
+        "Faqat tuxum qo‘yishi",
+        "Faqat quruqlikda yurishi"
+      ],
+      "correct_answer": "Bolasini sut bilan boqishi",
+      "explanation": "Sutemizuvchi onaning sut bezlari bolasi uchun sut ishlab chiqaradi; sutda suv, oqsil, yog‘, uglevod, vitamin va minerallar bo‘ladi."
+    },
+    {
+      "key": "paragraph-52-q5",
+      "fact_id": "paragraph-52-f5",
+      "question_text": "Yangi tug‘ilgan sutemizuvchilar haqida qaysi xulosa to‘g‘ri?",
+      "options": [
+        "Tug‘ilishdagi rivojlanganlik darajasi turlicha",
+        "Barcha turlar darhol mustaqil oziqlanadi",
+        "Barcha turlar albatta ko‘zi yumuq tug‘iladi",
+        "Barcha turlar avval g‘umbakka aylanadi"
+      ],
+      "correct_answer": "Tug‘ilishdagi rivojlanganlik darajasi turlicha",
+      "explanation": "Ayrim sutemizuvchilar bolasi ojiz tug‘ilib pana joyda parvarishlanadi, boshqalari ancha rivojlangan bo‘lib tez yuradi."
+    },
+    {
+      "key": "paragraph-52-q6",
+      "fact_id": "paragraph-52-f6",
+      "question_text": "Qadimgi sutemizuvchilar qarindoshlarini o‘rganishda qaysi dalil muhim?",
+      "options": [
+        "Faqat hozirgi qafas narxi",
+        "Faqat kitob muqovasining rangi",
+        "Faqat hayvon nomining imlosi",
+        "Skelet va tish qoldiqlari"
+      ],
+      "correct_answer": "Skelet va tish qoldiqlari",
+      "explanation": "Darslik qadimgi hayvonlarning skeleti va ixtisoslashgan tishlari qoldiqlarini qarindoshlik belgilarini taqqoslashda ishlatadi."
+    }
+  ]
+}

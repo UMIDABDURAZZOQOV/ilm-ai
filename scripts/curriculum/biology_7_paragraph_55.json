@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-55-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-76",
+  "title": "Yirtqich sutemizuvchilar turkumi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-55-f1": {
+      "claim": "Bo‘ri, chiyabo‘ri, tulki va korsak bo‘risimonlar oilasiga kiradi. Ular hidni yaxshi sezib o‘ljani topishda foydalanadi.",
+      "answer": "Bo‘ri, tulki, chiyabo‘ri",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f2": {
+      "claim": "Tulki kemiruvchi va hasharotlardan tashqari ayrim mavsumlarda meva ham yeyishi mumkin; yirtqich turkumdagi hayvon ozig‘i faqat go‘sht bilan cheklanmasligi mumkin.",
+      "answer": "Hayvon ozig‘i bilan birga meva ham yeyishi",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          184
+        ],
+        "printed_pages": [
+          184
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f3": {
+      "claim": "Mushuksimonlarning o‘tkir qayrilgan tirnoqlari o‘ljani tutishga, tishlari esa ushlab turishga yordam beradi; ko‘plari o‘ljani poylaydi.",
+      "answer": "Qayrilgan o‘tkir tirnoqlar",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          184
+        ],
+        "printed_pages": [
+          184
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f4": {
+      "claim": "Ko‘plab suvsarsimonlarning tanasi ingichka, oyoqlari kalta bo‘lib, yoriq va tor joylarda harakatlanishga yordam beradi.",
+      "answer": "Tor yoriqlarga kirishga yordam beradi",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          185
+        ],
+        "printed_pages": [
+          185
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f5": {
+      "claim": "Qo‘ng‘ir ayiq o‘simlik oziqlari bilan birga mayda hayvonlarni ham yeydi; oq ayiq esa asosan dengiz hayvonlari bilan oziqlanishga moslashgan.",
+      "answer": "O‘simlik qismlari va hayvon ozig‘i",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          185
+        ],
+        "printed_pages": [
+          185
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f6": {
+      "claim": "Yo‘lbars mushuksimon, tulki bo‘risimon, bo‘rsiq suvsarsimon va qo‘ng‘ir ayiq ayiqsimonlar vakilidir.",
+      "answer": "Bo‘rsiq — suvsarsimon",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          184,
+          185,
+          186
+        ],
+        "printed_pages": [
+          184,
+          185,
+          186
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bo‘risimonlar vakillari",
+      "body": "Bo‘ri, chiyabo‘ri, tulki va korsak bo‘risimonlar oilasiga kiradi. Ular hidni yaxshi sezib o‘ljani topishda foydalanadi.",
+      "fact_ids": [
+        "paragraph-55-f1"
+      ]
+    },
+    {
+      "title": "Tulkining turli ozig‘i",
+      "body": "Tulki kemiruvchi va hasharotlardan tashqari ayrim mavsumlarda meva ham yeyishi mumkin; yirtqich turkumdagi hayvon ozig‘i faqat go‘sht bilan cheklanmasligi mumkin.",
+      "fact_ids": [
+        "paragraph-55-f2"
+      ]
+    },
+    {
+      "title": "Mushuksimon ovchi",
+      "body": "Mushuksimonlarning o‘tkir qayrilgan tirnoqlari o‘ljani tutishga, tishlari esa ushlab turishga yordam beradi; ko‘plari o‘ljani poylaydi.",
+      "fact_ids": [
+        "paragraph-55-f3"
+      ]
+    },
+    {
+      "title": "Tor joyga mos gavda",
+      "body": "Ko‘plab suvsarsimonlarning tanasi ingichka, oyoqlari kalta bo‘lib, yoriq va tor joylarda harakatlanishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-55-f4"
+      ]
+    },
+    {
+      "title": "Ayiqlarning oziq xilma-xilligi",
+      "body": "Qo‘ng‘ir ayiq o‘simlik oziqlari bilan birga mayda hayvonlarni ham yeydi; oq ayiq esa asosan dengiz hayvonlari bilan oziqlanishga moslashgan.",
+      "fact_ids": [
+        "paragraph-55-f5"
+      ]
+    },
+    {
+      "title": "Guruh va vakilni moslash",
+      "body": "Yo‘lbars mushuksimon, tulki bo‘risimon, bo‘rsiq suvsarsimon va qo‘ng‘ir ayiq ayiqsimonlar vakilidir.",
+      "fact_ids": [
+        "paragraph-55-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-55-q1",
+      "fact_id": "paragraph-55-f1",
+      "question_text": "Qaysi qatorda bo‘risimonlar vakillari berilgan?",
+      "options": [
+        "Bo‘ri, tulki, chiyabo‘ri",
+        "Yo‘lbars, sher, ilvirs",
+        "Bo‘rsiq, norka, suvsar",
+        "Koala, kenguru, yexidna"
+      ],
+      "correct_answer": "Bo‘ri, tulki, chiyabo‘ri",
+      "explanation": "Bo‘ri, chiyabo‘ri, tulki va korsak bo‘risimonlar oilasiga kiradi. Ular hidni yaxshi sezib o‘ljani topishda foydalanadi."
+    },
+    {
+      "key": "paragraph-55-q2",
+      "fact_id": "paragraph-55-f2",
+      "question_text": "Tulki misolida qaysi oziqlanish xususiyati bor?",
+      "options": [
+        "Faqat mineral suv ichib yashashi",
+        "Faqat bargda fotosintez qilishi",
+        "Har doim faqat sut emishi",
+        "Hayvon ozig‘i bilan birga meva ham yeyishi"
+      ],
+      "correct_answer": "Hayvon ozig‘i bilan birga meva ham yeyishi",
+      "explanation": "Tulki kemiruvchi va hasharotlardan tashqari ayrim mavsumlarda meva ham yeyishi mumkin; yirtqich turkumdagi hayvon ozig‘i faqat go‘sht bilan cheklanmasligi mumkin."
+    },
+    {
+      "key": "paragraph-55-q3",
+      "fact_id": "paragraph-55-f3",
+      "question_text": "Mushuksimonlarda o‘ljani tutishga nima moslashgan?",
+      "options": [
+        "Faqat changdon savatchasi",
+        "Faqat qattiq ikki palla",
+        "Qayrilgan o‘tkir tirnoqlar",
+        "Faqat suzgich parda"
+      ],
+      "correct_answer": "Qayrilgan o‘tkir tirnoqlar",
+      "explanation": "Mushuksimonlarning o‘tkir qayrilgan tirnoqlari o‘ljani tutishga, tishlari esa ushlab turishga yordam beradi; ko‘plari o‘ljani poylaydi."
+    },
+    {
+      "key": "paragraph-55-q4",
+      "fact_id": "paragraph-55-f4",
+      "question_text": "Ingichka tana va kalta oyoqlar suvsarsimonlarga qanday foyda beradi?",
+      "options": [
+        "Faqat katta qubba ko‘tarishga",
+        "Tor yoriqlarga kirishga yordam beradi",
+        "Faqat dengizda uchishga",
+        "Faqat daraxtda gul chiqarishga"
+      ],
+      "correct_answer": "Tor yoriqlarga kirishga yordam beradi",
+      "explanation": "Ko‘plab suvsarsimonlarning tanasi ingichka, oyoqlari kalta bo‘lib, yoriq va tor joylarda harakatlanishga yordam beradi."
+    },
+    {
+      "key": "paragraph-55-q5",
+      "fact_id": "paragraph-55-f5",
+      "question_text": "Qo‘ng‘ir ayiq uchun qaysi oziq guruhi mos?",
+      "options": [
+        "O‘simlik qismlari va hayvon ozig‘i",
+        "Faqat gul nektari",
+        "Faqat quruq yog‘och",
+        "Faqat suvdagi mayda suvo‘tlar"
+      ],
+      "correct_answer": "O‘simlik qismlari va hayvon ozig‘i",
+      "explanation": "Qo‘ng‘ir ayiq o‘simlik oziqlari bilan birga mayda hayvonlarni ham yeydi; oq ayiq esa asosan dengiz hayvonlari bilan oziqlanishga moslashgan."
+    },
+    {
+      "key": "paragraph-55-q6",
+      "fact_id": "paragraph-55-f6",
+      "question_text": "Qaysi hayvon-oila mosligi to‘g‘ri?",
+      "options": [
+        "Yo‘lbars — bo‘risimon",
+        "Tulki — ayiqsimon",
+        "Qo‘ng‘ir ayiq — mushuksimon",
+        "Bo‘rsiq — suvsarsimon"
+      ],
+      "correct_answer": "Bo‘rsiq — suvsarsimon",
+      "explanation": "Yo‘lbars mushuksimon, tulki bo‘risimon, bo‘rsiq suvsarsimon va qo‘ng‘ir ayiq ayiqsimonlar vakilidir."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-48-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-68",
+  "title": "Yirtqich qushlar.",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-48-f1": {
+      "claim": "Yirtqich qushlarda qayrilgan o‘tkir tirnoqlar o‘ljani tutadi, kuchli qayrilgan tumshuq esa uning etini uzishga yordam beradi.",
+      "answer": "O‘ljani mahkam ushlashga",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f2": {
+      "claim": "Qora kalxatning ayrisimon dumi uni uchib borayotganida tanishga yordam beradi; u mayda hayvonlar va o‘laksalar bilan ham oziqlanadi.",
+      "answer": "Ayrisimon dum",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f3": {
+      "claim": "Tasqara hayvonlarning o‘laksalari bilan oziqlanadi; kuchli qayrilgan tumshug‘i teri va etni uzishga yordam beradi.",
+      "answer": "O‘laksa",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f4": {
+      "claim": "Ko‘plab yapaloqqushlarda katta ko‘z va sezgir eshitish sust yorug‘likda o‘lja topishga yordam beradi.",
+      "answer": "Katta ko‘z va sezgir eshitish",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f5": {
+      "claim": "Yapaloqqushning yumshoq patlari uchish shovqinini kamaytiradi; bu o‘ljaga sezilmay yaqinlashishda muhim.",
+      "answer": "Parvoz shovqinini kamaytiradi",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f6": {
+      "claim": "Uyalarni buzmaslik va qushlarni bezovta qilmaslik ularni asrash choralaridir; dalalar chetiga daraxt ekish foydali qushlarni jalb etadi.",
+      "answer": "Uyani buzmaslik va bezovta qilmaslik",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          165
+        ],
+        "printed_pages": [
+          165
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "O‘ljani ushlashga mos tuzilish",
+      "body": "Yirtqich qushlarda qayrilgan o‘tkir tirnoqlar o‘ljani tutadi, kuchli qayrilgan tumshuq esa uning etini uzishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-48-f1"
+      ]
+    },
+    {
+      "title": "Qora kalxatni tanish",
+      "body": "Qora kalxatning ayrisimon dumi uni uchib borayotganida tanishga yordam beradi; u mayda hayvonlar va o‘laksalar bilan ham oziqlanadi.",
+      "fact_ids": [
+        "paragraph-48-f2"
+      ]
+    },
+    {
+      "title": "O‘laksaxo‘rlik",
+      "body": "Tasqara hayvonlarning o‘laksalari bilan oziqlanadi; kuchli qayrilgan tumshug‘i teri va etni uzishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-48-f3"
+      ]
+    },
+    {
+      "title": "Tunda sezish",
+      "body": "Ko‘plab yapaloqqushlarda katta ko‘z va sezgir eshitish sust yorug‘likda o‘lja topishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-48-f4"
+      ]
+    },
+    {
+      "title": "Shovqinsiz yaqinlashish",
+      "body": "Yapaloqqushning yumshoq patlari uchish shovqinini kamaytiradi; bu o‘ljaga sezilmay yaqinlashishda muhim.",
+      "fact_ids": [
+        "paragraph-48-f5"
+      ]
+    },
+    {
+      "title": "Qushni muhofaza qilish",
+      "body": "Uyalarni buzmaslik va qushlarni bezovta qilmaslik ularni asrash choralaridir; dalalar chetiga daraxt ekish foydali qushlarni jalb etadi.",
+      "fact_ids": [
+        "paragraph-48-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-48-q1",
+      "fact_id": "paragraph-48-f1",
+      "question_text": "Yirtqich qushning o‘tkir qayrilgan tirnog‘i qaysi vazifaga mos?",
+      "options": [
+        "O‘ljani mahkam ushlashga",
+        "Faqat nektarni filtrlashga",
+        "Faqat daraxt shirasini yalashga",
+        "Faqat suv ostida jabra vazifasiga"
+      ],
+      "correct_answer": "O‘ljani mahkam ushlashga",
+      "explanation": "Yirtqich qushlarda qayrilgan o‘tkir tirnoqlar o‘ljani tutadi, kuchli qayrilgan tumshuq esa uning etini uzishga yordam beradi."
+    },
+    {
+      "key": "paragraph-48-q2",
+      "fact_id": "paragraph-48-f2",
+      "question_text": "Uchayotgan qora kalxatni qaysi dum belgisi orqali tanish mumkin?",
+      "options": [
+        "Faqat mutlaqo dumsizlik",
+        "Faqat qattiq halqali dum",
+        "Faqat ikkita uzun oyoq o‘rnidagi dum",
+        "Ayrisimon dum"
+      ],
+      "correct_answer": "Ayrisimon dum",
+      "explanation": "Qora kalxatning ayrisimon dumi uni uchib borayotganida tanishga yordam beradi; u mayda hayvonlar va o‘laksalar bilan ham oziqlanadi."
+    },
+    {
+      "key": "paragraph-48-q3",
+      "fact_id": "paragraph-48-f3",
+      "question_text": "Tasqara ozig‘ining asosiy turi qaysi?",
+      "options": [
+        "Faqat yosh barg",
+        "Faqat bug‘doy doni",
+        "O‘laksa",
+        "Faqat gul nektari"
+      ],
+      "correct_answer": "O‘laksa",
+      "explanation": "Tasqara hayvonlarning o‘laksalari bilan oziqlanadi; kuchli qayrilgan tumshug‘i teri va etni uzishga yordam beradi."
+    },
+    {
+      "key": "paragraph-48-q4",
+      "fact_id": "paragraph-48-f4",
+      "question_text": "Tungi ovda yapaloqqushga qaysi belgilar yordam beradi?",
+      "options": [
+        "Faqat kalta til va yopiq quloq",
+        "Katta ko‘z va sezgir eshitish",
+        "Faqat uzun suv pardali oyoq",
+        "Faqat yog‘ochni teshuvchi tumshuq"
+      ],
+      "correct_answer": "Katta ko‘z va sezgir eshitish",
+      "explanation": "Ko‘plab yapaloqqushlarda katta ko‘z va sezgir eshitish sust yorug‘likda o‘lja topishga yordam beradi."
+    },
+    {
+      "key": "paragraph-48-q5",
+      "fact_id": "paragraph-48-f5",
+      "question_text": "Yapaloqqushning yumshoq patlari ovda qanday foyda beradi?",
+      "options": [
+        "Parvoz shovqinini kamaytiradi",
+        "O‘ljaga faqat elektr toki yuboradi",
+        "Hasharotlar uchun asal hosil qiladi",
+        "Barcha o‘ljani yorqin rangga bo‘yaydi"
+      ],
+      "correct_answer": "Parvoz shovqinini kamaytiradi",
+      "explanation": "Yapaloqqushning yumshoq patlari uchish shovqinini kamaytiradi; bu o‘ljaga sezilmay yaqinlashishda muhim."
+    },
+    {
+      "key": "paragraph-48-q6",
+      "fact_id": "paragraph-48-f6",
+      "question_text": "Qushlarni himoyalash uchun qaysi harakat mos?",
+      "options": [
+        "Har bir uyani ochib tuxumni olish",
+        "Barcha daraxtlarni kesib tashlash",
+        "Barcha qushlarni zararkunanda deb yo‘qotish",
+        "Uyani buzmaslik va bezovta qilmaslik"
+      ],
+      "correct_answer": "Uyani buzmaslik va bezovta qilmaslik",
+      "explanation": "Uyalarni buzmaslik va qushlarni bezovta qilmaslik ularni asrash choralaridir; dalalar chetiga daraxt ekish foydali qushlarni jalb etadi."
+    }
+  ]
+}
