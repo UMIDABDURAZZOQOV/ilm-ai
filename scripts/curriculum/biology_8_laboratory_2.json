@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-laboratory-2-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-laboratory-2",
+  "title": "2-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-2-f1": {
+      "claim": "Ikkinchi laboratoriya jismoniy mashqning yurak-qon tomirlar sistemasiga ta’sirini puls orqali kuzatishni taklif qiladi.",
+      "answer": "Jismoniy holat va puls o‘rtasidagi bog‘lanish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f2": {
+      "claim": "Darslik jihoz sifatida sekundomerli soatni ko‘rsatadi. Bir xil vaqt ichidagi puls soni holatlarni solishtirishga yordam beradi.",
+      "answer": "Sanash davomiyligi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f3": {
+      "claim": "Ish boshlanishida o‘quvchi besh minut tinch o‘tirib dam oladi. Bu tinch holatdagi boshlang‘ich pulsni aniqlashga xizmat qiladi.",
+      "answer": "Tinch holat uchun boshlang‘ich o‘lchov olishga",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f4": {
+      "claim": "Kuzatuvda bilakning bosh barmoq tomonidagi arteriya sohasida puls sanaladi.",
+      "answer": "Bilakning bosh barmoq tomonidagi arteriyadan",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f5": {
+      "claim": "Jadvalda tinch o‘tirgan, tik turgan va mashqdan keyingi puls alohida qayd etiladi. Ilovada ushbu tajriba rejasini tahlil qilamiz.",
+      "answer": "Tinch o‘tirish, tik turish va mashqdan keyingi holat",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f6": {
+      "claim": "Jadval o‘lchangan puls sonlarini yozish uchun berilgan; unda oldindan tayyor natija yo‘q. Natijani taxmin qilib o‘lchov sifatida kiritish mumkin emas.",
+      "answer": "Haqiqatan o‘lchangan sonlar",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv savoli",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nIkkinchi laboratoriya jismoniy mashqning yurak-qon tomirlar sistemasiga ta’sirini puls orqali kuzatishni taklif qiladi.",
+      "fact_ids": [
+        "laboratory-2-f1"
+      ]
+    },
+    {
+      "title": "Vaqtni o‘lchash",
+      "body": "Darslik jihoz sifatida sekundomerli soatni ko‘rsatadi. Bir xil vaqt ichidagi puls soni holatlarni solishtirishga yordam beradi.",
+      "fact_ids": [
+        "laboratory-2-f2"
+      ]
+    },
+    {
+      "title": "Boshlang‘ich o‘lchov",
+      "body": "Ish boshlanishida o‘quvchi besh minut tinch o‘tirib dam oladi. Bu tinch holatdagi boshlang‘ich pulsni aniqlashga xizmat qiladi.",
+      "fact_ids": [
+        "laboratory-2-f3"
+      ]
+    },
+    {
+      "title": "Pulsni topish",
+      "body": "Kuzatuvda bilakning bosh barmoq tomonidagi arteriya sohasida puls sanaladi.",
+      "fact_ids": [
+        "laboratory-2-f4"
+      ]
+    },
+    {
+      "title": "Holatlarni taqqoslash",
+      "body": "Jadvalda tinch o‘tirgan, tik turgan va mashqdan keyingi puls alohida qayd etiladi. Ilovada ushbu tajriba rejasini tahlil qilamiz.",
+      "fact_ids": [
+        "laboratory-2-f5"
+      ]
+    },
+    {
+      "title": "Haqiqiy natija",
+      "body": "Jadval o‘lchangan puls sonlarini yozish uchun berilgan; unda oldindan tayyor natija yo‘q. Natijani taxmin qilib o‘lchov sifatida kiritish mumkin emas.",
+      "fact_ids": [
+        "laboratory-2-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-2-q1",
+      "fact_id": "laboratory-2-f1",
+      "question_text": "Bu laboratoriyada qaysi bog‘lanish o‘rganiladi?",
+      "options": [
+        "Faqat suyak rangi va bo‘y",
+        "Faqat ko‘z rangi va qon guruhi",
+        "Faqat tishlar soni va tana harorati",
+        "Jismoniy holat va puls o‘rtasidagi bog‘lanish"
+      ],
+      "correct_answer": "Jismoniy holat va puls o‘rtasidagi bog‘lanish",
+      "explanation": "Ikkinchi laboratoriya jismoniy mashqning yurak-qon tomirlar sistemasiga ta’sirini puls orqali kuzatishni taklif qiladi."
+    },
+    {
+      "key": "laboratory-2-q2",
+      "fact_id": "laboratory-2-f2",
+      "question_text": "Holatlar bo‘yicha pulsni solishtirishda nima bir xil bo‘lishi kerak?",
+      "options": [
+        "Faqat daftar muqovasi",
+        "Faqat xona eshigi shakli",
+        "Sanash davomiyligi",
+        "Faqat kiyim rangi"
+      ],
+      "correct_answer": "Sanash davomiyligi",
+      "explanation": "Darslik jihoz sifatida sekundomerli soatni ko‘rsatadi. Bir xil vaqt ichidagi puls soni holatlarni solishtirishga yordam beradi."
+    },
+    {
+      "key": "laboratory-2-q3",
+      "fact_id": "laboratory-2-f3",
+      "question_text": "Darslikda dastlab nega tinch dam olish taklif etilgan?",
+      "options": [
+        "Qon guruhini almashtirishga",
+        "Tinch holat uchun boshlang‘ich o‘lchov olishga",
+        "Yuklama natijasini oldindan taxmin qilishga",
+        "Pulsni butunlay yo‘qotishga"
+      ],
+      "correct_answer": "Tinch holat uchun boshlang‘ich o‘lchov olishga",
+      "explanation": "Ish boshlanishida o‘quvchi besh minut tinch o‘tirib dam oladi. Bu tinch holatdagi boshlang‘ich pulsni aniqlashga xizmat qiladi."
+    },
+    {
+      "key": "laboratory-2-q4",
+      "fact_id": "laboratory-2-f4",
+      "question_text": "Ish tartibida puls qayerdan topiladi?",
+      "options": [
+        "Bilakning bosh barmoq tomonidagi arteriyadan",
+        "Tish emalidan",
+        "Soch uchidan",
+        "Tirnoqning erkin chetidan"
+      ],
+      "correct_answer": "Bilakning bosh barmoq tomonidagi arteriyadan",
+      "explanation": "Kuzatuvda bilakning bosh barmoq tomonidagi arteriya sohasida puls sanaladi."
+    },
+    {
+      "key": "laboratory-2-q5",
+      "fact_id": "laboratory-2-f5",
+      "question_text": "Kuzatuv jadvali qaysi uch holatni solishtiradi?",
+      "options": [
+        "Faqat ertalab, tushlik va kechki ovqat nomlari",
+        "Faqat qonning uch guruhi",
+        "Faqat suyakning uch xil rangi",
+        "Tinch o‘tirish, tik turish va mashqdan keyingi holat"
+      ],
+      "correct_answer": "Tinch o‘tirish, tik turish va mashqdan keyingi holat",
+      "explanation": "Jadvalda tinch o‘tirgan, tik turgan va mashqdan keyingi puls alohida qayd etiladi. Ilovada ushbu tajriba rejasini tahlil qilamiz."
+    },
+    {
+      "key": "laboratory-2-q6",
+      "fact_id": "laboratory-2-f6",
+      "question_text": "Puls jadvaliga qaysi ma’lumot yozilishi kerak?",
+      "options": [
+        "Barcha odam uchun bitta o‘zgarmas taxmin",
+        "O‘lchov o‘rniga faqat kattalar uchun bitta o‘rtacha son",
+        "Haqiqatan o‘lchangan sonlar",
+        "Oldindan tasodifiy tanlangan sonlar"
+      ],
+      "correct_answer": "Haqiqatan o‘lchangan sonlar",
+      "explanation": "Jadval o‘lchangan puls sonlarini yozish uchun berilgan; unda oldindan tayyor natija yo‘q. Natijani taxmin qilib o‘lchov sifatida kiritish mumkin emas."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "2-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv savoli",
+        "fact_ids": [
+          "laboratory-2-f1"
+        ]
+      },
+      {
+        "instruction": "Vaqtni o‘lchash",
+        "fact_ids": [
+          "laboratory-2-f2"
+        ]
+      },
+      {
+        "instruction": "Boshlang‘ich o‘lchov",
+        "fact_ids": [
+          "laboratory-2-f3"
+        ]
+      },
+      {
+        "instruction": "Pulsni topish",
+        "fact_ids": [
+          "laboratory-2-f4"
+        ]
+      },
+      {
+        "instruction": "Holatlarni taqqoslash",
+        "fact_ids": [
+          "laboratory-2-f5"
+        ]
+      },
+      {
+        "instruction": "Haqiqiy natija",
+        "fact_ids": [
+          "laboratory-2-f6"
+        ]
+      }
+    ]
+  }
+}

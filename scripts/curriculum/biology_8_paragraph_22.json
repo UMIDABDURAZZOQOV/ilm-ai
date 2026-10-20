@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-22-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-28",
+  "title": "Tomirlardan qon ketganida birinchi yordam ko‘rsatish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-22-f1": {
+      "claim": "Ko‘p qon yo‘qotilishi qon bosimini va organlarning kislorod bilan ta’minlanishini pasaytirib, hayot uchun xavf tug‘diradi.",
+      "answer": "Organlarga qon va kislorod yetkazilishi buziladi",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f2": {
+      "claim": "Yuzaki mayda tomir jarohatlarida qon odatda sekin sizib chiqadi. Qonash manbai va og‘irligini baholash muhim.",
+      "answer": "Jarohat yuzasidan sekin sizib chiqish",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f3": {
+      "claim": "Arteriyalarda bosim yuqori bo‘lgani uchun jarohatda kuchli, urib chiqadigan qonash yuz berishi mumkin. Bunday qonash shoshilinch yordamni talab qiladi.",
+      "answer": "Shoshilinch yordam talab qiladigan xavf deb qarash",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f4": {
+      "claim": "Darslik jarohatni toza bint bilan bog‘lashni ko‘rsatadi. Toza material jarohatning ifloslanishini kamaytiradi.",
+      "answer": "Tozaligi",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f5": {
+      "claim": "Ichki qon ketishda qon tana bo‘shlig‘i yoki to‘qimalarga chiqishi mumkin. Tashqarida qon ko‘rinmasa ham xavf saqlanadi va tez tibbiy yordam zarur.",
+      "answer": "Zudlik bilan tez tibbiy yordam chaqirish",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qon yo‘qotish xavfi",
+      "body": "Ko‘p qon yo‘qotilishi qon bosimini va organlarning kislorod bilan ta’minlanishini pasaytirib, hayot uchun xavf tug‘diradi.",
+      "fact_ids": [
+        "paragraph-22-f1"
+      ]
+    },
+    {
+      "title": "Kapillyar qonashi",
+      "body": "Yuzaki mayda tomir jarohatlarida qon odatda sekin sizib chiqadi. Qonash manbai va og‘irligini baholash muhim.",
+      "fact_ids": [
+        "paragraph-22-f2"
+      ]
+    },
+    {
+      "title": "Arterial qonash",
+      "body": "Arteriyalarda bosim yuqori bo‘lgani uchun jarohatda kuchli, urib chiqadigan qonash yuz berishi mumkin. Bunday qonash shoshilinch yordamni talab qiladi.",
+      "fact_ids": [
+        "paragraph-22-f3"
+      ]
+    },
+    {
+      "title": "Toza bog‘ich",
+      "body": "Darslik jarohatni toza bint bilan bog‘lashni ko‘rsatadi. Toza material jarohatning ifloslanishini kamaytiradi.",
+      "fact_ids": [
+        "paragraph-22-f4"
+      ]
+    },
+    {
+      "title": "Ichki qon ketishi",
+      "body": "Ichki qon ketishda qon tana bo‘shlig‘i yoki to‘qimalarga chiqishi mumkin. Tashqarida qon ko‘rinmasa ham xavf saqlanadi va tez tibbiy yordam zarur.",
+      "fact_ids": [
+        "paragraph-22-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-22-q1",
+      "fact_id": "paragraph-22-f1",
+      "question_text": "Ko‘p qon yo‘qotish nega xavfli?",
+      "options": [
+        "Suyak darhol uzunlashib ketadi",
+        "Qon guruhi albatta o‘zgaradi",
+        "Yurakka kislorod keraksiz bo‘lib qoladi",
+        "Organlarga qon va kislorod yetkazilishi buziladi"
+      ],
+      "correct_answer": "Organlarga qon va kislorod yetkazilishi buziladi",
+      "explanation": "Ko‘p qon yo‘qotilishi qon bosimini va organlarning kislorod bilan ta’minlanishini pasaytirib, hayot uchun xavf tug‘diradi."
+    },
+    {
+      "key": "paragraph-22-q2",
+      "fact_id": "paragraph-22-f2",
+      "question_text": "Yuzaki kapillyar qonashiga qaysi ko‘rinish mos?",
+      "options": [
+        "Faqat suyakdan havo chiqishi",
+        "Faqat terining quruq oqarishi",
+        "Jarohat yuzasidan sekin sizib chiqish",
+        "Har doim kuchli favvora"
+      ],
+      "correct_answer": "Jarohat yuzasidan sekin sizib chiqish",
+      "explanation": "Yuzaki mayda tomir jarohatlarida qon odatda sekin sizib chiqadi. Qonash manbai va og‘irligini baholash muhim."
+    },
+    {
+      "key": "paragraph-22-q3",
+      "fact_id": "paragraph-22-f3",
+      "question_text": "Kuchli, urib chiqayotgan qonashga qanday munosabat zarur?",
+      "options": [
+        "Faqat ko‘z rangiga qarab baholash",
+        "Shoshilinch yordam talab qiladigan xavf deb qarash",
+        "O‘z-o‘zidan to‘xtashini uzoq kutish",
+        "Jarohatni mashq bilan tekshirish"
+      ],
+      "correct_answer": "Shoshilinch yordam talab qiladigan xavf deb qarash",
+      "explanation": "Arteriyalarda bosim yuqori bo‘lgani uchun jarohatda kuchli, urib chiqadigan qonash yuz berishi mumkin. Bunday qonash shoshilinch yordamni talab qiladi."
+    },
+    {
+      "key": "paragraph-22-q4",
+      "fact_id": "paragraph-22-f4",
+      "question_text": "Jarohatga qo‘yiladigan materialning muhim belgisi qaysi?",
+      "options": [
+        "Tozaligi",
+        "Tuproq bilan qoplanganligi",
+        "Albatta juda rangli bo‘lishi",
+        "Qattiq simdan tuzilganligi"
+      ],
+      "correct_answer": "Tozaligi",
+      "explanation": "Darslik jarohatni toza bint bilan bog‘lashni ko‘rsatadi. Toza material jarohatning ifloslanishini kamaytiradi."
+    },
+    {
+      "key": "paragraph-22-q5",
+      "fact_id": "paragraph-22-f5",
+      "question_text": "Ichki qon ketish gumonida qaysi qaror to‘g‘ri?",
+      "options": [
+        "Tashqi qon ko‘rinmagani uchun xavfni inkor qilish",
+        "Bemorni yugurtirib tekshirish",
+        "O‘zboshimchalik bilan jarrohlik qilish",
+        "Zudlik bilan tez tibbiy yordam chaqirish"
+      ],
+      "correct_answer": "Zudlik bilan tez tibbiy yordam chaqirish",
+      "explanation": "Ichki qon ketishda qon tana bo‘shlig‘i yoki to‘qimalarga chiqishi mumkin. Tashqarida qon ko‘rinmasa ham xavf saqlanadi va tez tibbiy yordam zarur."
+    }
+  ]
+}

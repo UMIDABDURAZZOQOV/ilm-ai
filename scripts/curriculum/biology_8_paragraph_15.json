@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-15-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-20",
+  "title": "Qonning kimyoviy tarkibi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-15-f1": {
+      "claim": "Qon suyuq plazma va shaklli elementlardan iborat. Shaklli elementlarga eritrotsitlar, leykotsitlar va trombotsitlar kiradi.",
+      "answer": "Eritrotsit, leykotsit va trombotsit",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f2": {
+      "claim": "Qon plazmasining taxminan 90 foizi suvdir. Qolgan qismida oqsillar, boshqa organik moddalar va mineral tuzlar bor.",
+      "answer": "90 ml",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f3": {
+      "claim": "Trombotsitlar qon plastinkalari deb ham ataladi va qon ivishida qatnashadi.",
+      "answer": "Trombotsit",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f4": {
+      "claim": "Ivish paytida plazmadagi eruvchan fibrinogen erimaydigan fibrin tolalariga aylanadi. Tolalar qon laxtasining to‘rini hosil qiladi.",
+      "answer": "Fibrinogen",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f5": {
+      "claim": "Qon ivish jarayonida plazmadagi kalsiy tuzlari ham qatnashadi. Ivish faqat bitta hujayra yoki bitta omilning ishi emas.",
+      "answer": "Kalsiy",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f6": {
+      "claim": "Gemofiliya irsiy qon ivish buzilishidir; ivish omillarining yetishmovchiligi sabab qon ketishi cho‘zilishi mumkin.",
+      "answer": "Qon ivishi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qonning ikki tarkibi",
+      "body": "Qon suyuq plazma va shaklli elementlardan iborat. Shaklli elementlarga eritrotsitlar, leykotsitlar va trombotsitlar kiradi.",
+      "fact_ids": [
+        "paragraph-15-f1"
+      ]
+    },
+    {
+      "title": "Plazmadagi suv",
+      "body": "Qon plazmasining taxminan 90 foizi suvdir. Qolgan qismida oqsillar, boshqa organik moddalar va mineral tuzlar bor.",
+      "fact_ids": [
+        "paragraph-15-f2"
+      ]
+    },
+    {
+      "title": "Qon plastinkalari",
+      "body": "Trombotsitlar qon plastinkalari deb ham ataladi va qon ivishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-15-f3"
+      ]
+    },
+    {
+      "title": "Fibrin hosil bo‘lishi",
+      "body": "Ivish paytida plazmadagi eruvchan fibrinogen erimaydigan fibrin tolalariga aylanadi. Tolalar qon laxtasining to‘rini hosil qiladi.",
+      "fact_ids": [
+        "paragraph-15-f4"
+      ]
+    },
+    {
+      "title": "Ivishdagi mineral",
+      "body": "Qon ivish jarayonida plazmadagi kalsiy tuzlari ham qatnashadi. Ivish faqat bitta hujayra yoki bitta omilning ishi emas.",
+      "fact_ids": [
+        "paragraph-15-f5"
+      ]
+    },
+    {
+      "title": "Ivish buzilishi",
+      "body": "Gemofiliya irsiy qon ivish buzilishidir; ivish omillarining yetishmovchiligi sabab qon ketishi cho‘zilishi mumkin.",
+      "fact_ids": [
+        "paragraph-15-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-15-q1",
+      "fact_id": "paragraph-15-f1",
+      "question_text": "Qonning shaklli elementlari qaysi qatorda?",
+      "options": [
+        "Faqat suv va osh tuzi",
+        "Faqat albumin va glukoza",
+        "Faqat limfa suyuqligi",
+        "Eritrotsit, leykotsit va trombotsit"
+      ],
+      "correct_answer": "Eritrotsit, leykotsit va trombotsit",
+      "explanation": "Qon suyuq plazma va shaklli elementlardan iborat. Shaklli elementlarga eritrotsitlar, leykotsitlar va trombotsitlar kiradi."
+    },
+    {
+      "key": "paragraph-15-q2",
+      "fact_id": "paragraph-15-f2",
+      "question_text": "100 ml plazmaning darslikdagi taxminiy suv qismi qancha?",
+      "options": [
+        "45 ml",
+        "1 ml",
+        "90 ml",
+        "9 ml"
+      ],
+      "correct_answer": "90 ml",
+      "explanation": "Qon plazmasining taxminan 90 foizi suvdir. Qolgan qismida oqsillar, boshqa organik moddalar va mineral tuzlar bor."
+    },
+    {
+      "key": "paragraph-15-q3",
+      "fact_id": "paragraph-15-f3",
+      "question_text": "Jarohatda qon ivishida qaysi shaklli element muhim?",
+      "options": [
+        "Faqat suyak hujayrasi",
+        "Trombotsit",
+        "Faqat eritrotsit",
+        "Faqat nerv hujayrasi"
+      ],
+      "correct_answer": "Trombotsit",
+      "explanation": "Trombotsitlar qon plastinkalari deb ham ataladi va qon ivishida qatnashadi."
+    },
+    {
+      "key": "paragraph-15-q4",
+      "fact_id": "paragraph-15-f4",
+      "question_text": "Fibrin to‘rining boshlang‘ich oqsili qaysi?",
+      "options": [
+        "Fibrinogen",
+        "Gemoglobin",
+        "Insulin",
+        "Melanin"
+      ],
+      "correct_answer": "Fibrinogen",
+      "explanation": "Ivish paytida plazmadagi eruvchan fibrinogen erimaydigan fibrin tolalariga aylanadi. Tolalar qon laxtasining to‘rini hosil qiladi."
+    },
+    {
+      "key": "paragraph-15-q5",
+      "fact_id": "paragraph-15-f5",
+      "question_text": "Ivish jarayonida qaysi mineral ion qatnashadi?",
+      "options": [
+        "Faqat yod",
+        "Faqat temir pigmenti",
+        "Faqat oltin",
+        "Kalsiy"
+      ],
+      "correct_answer": "Kalsiy",
+      "explanation": "Qon ivish jarayonida plazmadagi kalsiy tuzlari ham qatnashadi. Ivish faqat bitta hujayra yoki bitta omilning ishi emas."
+    },
+    {
+      "key": "paragraph-15-q6",
+      "fact_id": "paragraph-15-f6",
+      "question_text": "Gemofiliya nimaning buzilishi bilan bog‘liq?",
+      "options": [
+        "Faqat suyak uzunligi",
+        "Faqat qorachiqning kengayishi",
+        "Qon ivishi",
+        "Faqat kislorodning havoga chiqishi"
+      ],
+      "correct_answer": "Qon ivishi",
+      "explanation": "Gemofiliya irsiy qon ivish buzilishidir; ivish omillarining yetishmovchiligi sabab qon ketishi cho‘zilishi mumkin."
+    }
+  ]
+}

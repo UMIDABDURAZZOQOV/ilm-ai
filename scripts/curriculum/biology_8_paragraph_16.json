@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-16-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-21",
+  "title": "Eritrotsitlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-16-f1": {
+      "claim": "Yetilgan odam eritrotsiti ikki tomoni botiq disk shaklida bo‘lib, yadro saqlamaydi. Shakli gaz almashinuvi yuzasiga yordam beradi.",
+      "answer": "Ikki tomoni botiq, yadrosiz disk",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f2": {
+      "claim": "Eritrotsitdagi gemoglobin qonga qizil rang beradi va kislorod tashishda qatnashadi.",
+      "answer": "Kislorod tashish",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f3": {
+      "claim": "O‘pka kapillyarlarida gemoglobin kislorod bilan birikib, oksigemoglobin hosil qiladi; to‘qimalarda kislorodni ajratadi.",
+      "answer": "O‘pka kapillyarlarida",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f4": {
+      "claim": "Darslik eritrotsitning o‘rtacha umrini taxminan 120 kun deb beradi. Eskirgan hujayralar o‘rniga yangilari hosil bo‘ladi.",
+      "answer": "Taxminan 120 kun",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f5": {
+      "claim": "Yangi eritrotsitlar qizil suyak iligida hosil bo‘ladi. Eritrotsitlar yoki gemoglobin kamayishi kamqonlik bilan bog‘liq bo‘lishi mumkin.",
+      "answer": "Gemoglobin yoki eritrotsit miqdorining kamayishi",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f6": {
+      "claim": "ABO sistemasida II guruh eritrotsitlarida A, III guruhda B, IV guruhda A va B antigenlari bor; I guruhda bu ikki antigen yo‘q.",
+      "answer": "A va B",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f7": {
+      "claim": "Eritrotsitlarda rezus omilining bor yoki yo‘qligiga ko‘ra rezus musbat va manfiy holat farqlanadi. Bu ABO guruhidan alohida belgi.",
+      "answer": "Eritrotsitdagi rezus antigeni",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f8": {
+      "claim": "Donor qon beruvchi, retsipiyent esa qon oluvchi shaxsdir. Bu atamalar shaxslarning qon quyish jarayonidagi rolini bildiradi.",
+      "answer": "Retsipiyent",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          51
+        ],
+        "printed_pages": [
+          51
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Eritrotsit shakli",
+      "body": "Yetilgan odam eritrotsiti ikki tomoni botiq disk shaklida bo‘lib, yadro saqlamaydi. Shakli gaz almashinuvi yuzasiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-16-f1"
+      ]
+    },
+    {
+      "title": "Gemoglobin vazifasi",
+      "body": "Eritrotsitdagi gemoglobin qonga qizil rang beradi va kislorod tashishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-16-f2"
+      ]
+    },
+    {
+      "title": "Kislorod bilan birikish",
+      "body": "O‘pka kapillyarlarida gemoglobin kislorod bilan birikib, oksigemoglobin hosil qiladi; to‘qimalarda kislorodni ajratadi.",
+      "fact_ids": [
+        "paragraph-16-f3"
+      ]
+    },
+    {
+      "title": "Eritrotsit umri",
+      "body": "Darslik eritrotsitning o‘rtacha umrini taxminan 120 kun deb beradi. Eskirgan hujayralar o‘rniga yangilari hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-16-f4"
+      ]
+    },
+    {
+      "title": "Hosil bo‘lish va kamqonlik",
+      "body": "Yangi eritrotsitlar qizil suyak iligida hosil bo‘ladi. Eritrotsitlar yoki gemoglobin kamayishi kamqonlik bilan bog‘liq bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-16-f5"
+      ]
+    },
+    {
+      "title": "ABO belgilar",
+      "body": "ABO sistemasida II guruh eritrotsitlarida A, III guruhda B, IV guruhda A va B antigenlari bor; I guruhda bu ikki antigen yo‘q.",
+      "fact_ids": [
+        "paragraph-16-f6"
+      ]
+    },
+    {
+      "title": "Rezus omil",
+      "body": "Eritrotsitlarda rezus omilining bor yoki yo‘qligiga ko‘ra rezus musbat va manfiy holat farqlanadi. Bu ABO guruhidan alohida belgi.",
+      "fact_ids": [
+        "paragraph-16-f7"
+      ]
+    },
+    {
+      "title": "Donor va retsipiyent",
+      "body": "Donor qon beruvchi, retsipiyent esa qon oluvchi shaxsdir. Bu atamalar shaxslarning qon quyish jarayonidagi rolini bildiradi.",
+      "fact_ids": [
+        "paragraph-16-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-16-q1",
+      "fact_id": "paragraph-16-f1",
+      "question_text": "Yetilgan odam eritrotsitiga qaysi ta’rif mos?",
+      "options": [
+        "Yadroli uzun nerv tolasi",
+        "Qattiq devorli to‘rtburchak hujayra",
+        "Ko‘p oyoqli yirik muskul tolasi",
+        "Ikki tomoni botiq, yadrosiz disk"
+      ],
+      "correct_answer": "Ikki tomoni botiq, yadrosiz disk",
+      "explanation": "Yetilgan odam eritrotsiti ikki tomoni botiq disk shaklida bo‘lib, yadro saqlamaydi. Shakli gaz almashinuvi yuzasiga yordam beradi."
+    },
+    {
+      "key": "paragraph-16-q2",
+      "fact_id": "paragraph-16-f2",
+      "question_text": "Gemoglobinning asosiy transport vazifasi nima?",
+      "options": [
+        "Suyaklarni biriktirish",
+        "Nerv impulsini tezlatish",
+        "Kislorod tashish",
+        "Faqat o‘t ishlab chiqarish"
+      ],
+      "correct_answer": "Kislorod tashish",
+      "explanation": "Eritrotsitdagi gemoglobin qonga qizil rang beradi va kislorod tashishda qatnashadi."
+    },
+    {
+      "key": "paragraph-16-q3",
+      "fact_id": "paragraph-16-f3",
+      "question_text": "Oksigemoglobin qayerda ko‘proq hosil bo‘ladi?",
+      "options": [
+        "Faqat teri sirtida",
+        "O‘pka kapillyarlarida",
+        "Faqat tish emalida",
+        "Faqat ichak bo‘shlig‘ida"
+      ],
+      "correct_answer": "O‘pka kapillyarlarida",
+      "explanation": "O‘pka kapillyarlarida gemoglobin kislorod bilan birikib, oksigemoglobin hosil qiladi; to‘qimalarda kislorodni ajratadi."
+    },
+    {
+      "key": "paragraph-16-q4",
+      "fact_id": "paragraph-16-f4",
+      "question_text": "Eritrotsitning darslikdagi o‘rtacha umri qancha?",
+      "options": [
+        "Taxminan 120 kun",
+        "Taxminan 120 yil",
+        "Atigi bir soniya",
+        "Odam umri davomida o‘zgarmaydi"
+      ],
+      "correct_answer": "Taxminan 120 kun",
+      "explanation": "Darslik eritrotsitning o‘rtacha umrini taxminan 120 kun deb beradi. Eskirgan hujayralar o‘rniga yangilari hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-16-q5",
+      "fact_id": "paragraph-16-f5",
+      "question_text": "Kamqonlik bilan qaysi o‘zgarish bog‘liq?",
+      "options": [
+        "Faqat tishlar sonining ortishi",
+        "Qonning suyakga aylanishi",
+        "Faqat tirnoqning tez o‘sishi",
+        "Gemoglobin yoki eritrotsit miqdorining kamayishi"
+      ],
+      "correct_answer": "Gemoglobin yoki eritrotsit miqdorining kamayishi",
+      "explanation": "Yangi eritrotsitlar qizil suyak iligida hosil bo‘ladi. Eritrotsitlar yoki gemoglobin kamayishi kamqonlik bilan bog‘liq bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-16-q6",
+      "fact_id": "paragraph-16-f6",
+      "question_text": "ABO bo‘yicha IV guruh eritrotsitlarida qaysi antigenlar bor?",
+      "options": [
+        "Faqat B",
+        "A ham, B ham yo‘q",
+        "A va B",
+        "Faqat A"
+      ],
+      "correct_answer": "A va B",
+      "explanation": "ABO sistemasida II guruh eritrotsitlarida A, III guruhda B, IV guruhda A va B antigenlari bor; I guruhda bu ikki antigen yo‘q."
+    },
+    {
+      "key": "paragraph-16-q7",
+      "fact_id": "paragraph-16-f7",
+      "question_text": "Rezus musbat yoki manfiylik qaysi tuzilmadagi belgi bilan bog‘liq?",
+      "options": [
+        "Ko‘z gavharining rangi",
+        "Eritrotsitdagi rezus antigeni",
+        "Faqat oshqozon shirasi",
+        "Tish emalining qalinligi"
+      ],
+      "correct_answer": "Eritrotsitdagi rezus antigeni",
+      "explanation": "Eritrotsitlarda rezus omilining bor yoki yo‘qligiga ko‘ra rezus musbat va manfiy holat farqlanadi. Bu ABO guruhidan alohida belgi."
+    },
+    {
+      "key": "paragraph-16-q8",
+      "fact_id": "paragraph-16-f8",
+      "question_text": "Qon oluvchi shaxs qanday ataladi?",
+      "options": [
+        "Retsipiyent",
+        "Donor",
+        "Fagotsit",
+        "Retseptor"
+      ],
+      "correct_answer": "Retsipiyent",
+      "explanation": "Donor qon beruvchi, retsipiyent esa qon oluvchi shaxsdir. Bu atamalar shaxslarning qon quyish jarayonidagi rolini bildiradi."
+    }
+  ]
+}

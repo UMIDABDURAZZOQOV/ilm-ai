@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-20-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-26",
+  "title": "Qonning qon tomirlari bo‘ylab oqishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-20-f1": {
+      "claim": "Qon bosimi qon aylanish sistemasining hamma qismida bir xil emas. Qon yuqoriroq bosimli sohadan pastroq bosimli tomonga oqadi.",
+      "answer": "Tomirlar bo‘ylab bosim farqi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f2": {
+      "claim": "Arterial qon bosimi yelka arteriyasi sohasida tonometr bilan o‘lchanadi.",
+      "answer": "Tonometr",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f3": {
+      "claim": "Puls — yurak qisqarishida arteriya devorida tarqaladigan tebranish to‘lqinidir. Uni teriga yaqin arteriyada sezish mumkin.",
+      "answer": "Arteriya devorining",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f4": {
+      "claim": "Qon kapillyarlarda sekinroq oqadi. Bu kislorod, oziq moddalar va almashinuv mahsulotlarining almashinishiga vaqt beradi.",
+      "answer": "Qon va to‘qima o‘rtasidagi modda almashinuviga vaqt beradi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f5": {
+      "claim": "Atrofdagi skelet muskullarining qisqarishi venalardagi qonning yurakka qaytishiga yordam beradi.",
+      "answer": "Venalardagi qonni yurak tomon siljitishga ko‘maklashadi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f6": {
+      "claim": "To‘qima suyuqligining bir qismi limfa kapillyarlariga o‘tadi. Limfa yirik venalarga quyilib, suyuqlik qon oqimiga qaytadi.",
+      "answer": "Limfa kapillyari → limfa tomirlari → yirik vena",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f7": {
+      "claim": "Limfa tugunlari mikroorganizmlarni tutishda va immun reaksiyalarda qatnashadigan tuzilmalardir.",
+      "answer": "Mikroorganizmlarni tutish va immun himoyada qatnashish",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f8": {
+      "claim": "Taloq chap qovurg‘alar ostida joylashadi. U immun himoyada va eskirgan qon elementlarini parchalashda qatnashadi.",
+      "answer": "Chap qovurg‘alar osti — immun himoya va eski qon elementlarini parchalash",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bosim farqi",
+      "body": "Qon bosimi qon aylanish sistemasining hamma qismida bir xil emas. Qon yuqoriroq bosimli sohadan pastroq bosimli tomonga oqadi.",
+      "fact_ids": [
+        "paragraph-20-f1"
+      ]
+    },
+    {
+      "title": "Tonometr",
+      "body": "Arterial qon bosimi yelka arteriyasi sohasida tonometr bilan o‘lchanadi.",
+      "fact_ids": [
+        "paragraph-20-f2"
+      ]
+    },
+    {
+      "title": "Puls",
+      "body": "Puls — yurak qisqarishida arteriya devorida tarqaladigan tebranish to‘lqinidir. Uni teriga yaqin arteriyada sezish mumkin.",
+      "fact_ids": [
+        "paragraph-20-f3"
+      ]
+    },
+    {
+      "title": "Sekin oqimning foydasi",
+      "body": "Qon kapillyarlarda sekinroq oqadi. Bu kislorod, oziq moddalar va almashinuv mahsulotlarining almashinishiga vaqt beradi.",
+      "fact_ids": [
+        "paragraph-20-f4"
+      ]
+    },
+    {
+      "title": "Venaga ko‘mak",
+      "body": "Atrofdagi skelet muskullarining qisqarishi venalardagi qonning yurakka qaytishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-20-f5"
+      ]
+    },
+    {
+      "title": "Limfaning qaytishi",
+      "body": "To‘qima suyuqligining bir qismi limfa kapillyarlariga o‘tadi. Limfa yirik venalarga quyilib, suyuqlik qon oqimiga qaytadi.",
+      "fact_ids": [
+        "paragraph-20-f6"
+      ]
+    },
+    {
+      "title": "Limfa tugunlari",
+      "body": "Limfa tugunlari mikroorganizmlarni tutishda va immun reaksiyalarda qatnashadigan tuzilmalardir.",
+      "fact_ids": [
+        "paragraph-20-f7"
+      ]
+    },
+    {
+      "title": "Taloq",
+      "body": "Taloq chap qovurg‘alar ostida joylashadi. U immun himoyada va eskirgan qon elementlarini parchalashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-20-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-20-q1",
+      "fact_id": "paragraph-20-f1",
+      "question_text": "Qon oqimini ta’minlovchi omillardan biri qaysi?",
+      "options": [
+        "Barcha tomirlarda mutlaqo teng bosim",
+        "Faqat qon guruhining nomi",
+        "Faqat tana yuzasidagi rang",
+        "Tomirlar bo‘ylab bosim farqi"
+      ],
+      "correct_answer": "Tomirlar bo‘ylab bosim farqi",
+      "explanation": "Qon bosimi qon aylanish sistemasining hamma qismida bir xil emas. Qon yuqoriroq bosimli sohadan pastroq bosimli tomonga oqadi."
+    },
+    {
+      "key": "paragraph-20-q2",
+      "fact_id": "paragraph-20-f2",
+      "question_text": "Arterial bosimni o‘lchash asbobi qaysi?",
+      "options": [
+        "Mikroskop",
+        "Kamerton",
+        "Tonometr",
+        "Spirometr"
+      ],
+      "correct_answer": "Tonometr",
+      "explanation": "Arterial qon bosimi yelka arteriyasi sohasida tonometr bilan o‘lchanadi."
+    },
+    {
+      "key": "paragraph-20-q3",
+      "fact_id": "paragraph-20-f3",
+      "question_text": "Puls aslida nimaning tebranishi?",
+      "options": [
+        "Tish emalining",
+        "Arteriya devorining",
+        "Bo‘g‘im tog‘ayining",
+        "Ko‘z gavharining"
+      ],
+      "correct_answer": "Arteriya devorining",
+      "explanation": "Puls — yurak qisqarishida arteriya devorida tarqaladigan tebranish to‘lqinidir. Uni teriga yaqin arteriyada sezish mumkin."
+    },
+    {
+      "key": "paragraph-20-q4",
+      "fact_id": "paragraph-20-f4",
+      "question_text": "Kapillyarlardagi sekin oqim nima uchun foydali?",
+      "options": [
+        "Qon va to‘qima o‘rtasidagi modda almashinuviga vaqt beradi",
+        "Hamma qonning ivishini majburiy boshlaydi",
+        "Nerv signallarini butunlay to‘xtatadi",
+        "Yurakning umrbod ishlamasligini ta’minlaydi"
+      ],
+      "correct_answer": "Qon va to‘qima o‘rtasidagi modda almashinuviga vaqt beradi",
+      "explanation": "Qon kapillyarlarda sekinroq oqadi. Bu kislorod, oziq moddalar va almashinuv mahsulotlarining almashinishiga vaqt beradi."
+    },
+    {
+      "key": "paragraph-20-q5",
+      "fact_id": "paragraph-20-f5",
+      "question_text": "Oyoq muskullari qisqarishi venoz oqimga qanday yordam beradi?",
+      "options": [
+        "Qonni faqat arteriyadan teri sirtiga chiqaradi",
+        "Venani havo yo‘liga aylantiradi",
+        "Qondagi barcha hujayralarni yo‘qotadi",
+        "Venalardagi qonni yurak tomon siljitishga ko‘maklashadi"
+      ],
+      "correct_answer": "Venalardagi qonni yurak tomon siljitishga ko‘maklashadi",
+      "explanation": "Atrofdagi skelet muskullarining qisqarishi venalardagi qonning yurakka qaytishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-20-q6",
+      "fact_id": "paragraph-20-f6",
+      "question_text": "To‘qima suyuqligining limfa orqali qaytish yo‘li qaysi?",
+      "options": [
+        "Buyrak nayi → qovuq → teri",
+        "O‘t yo‘li → oshqozon → soch",
+        "Limfa kapillyari → limfa tomirlari → yirik vena",
+        "Bronx → alveola → burun"
+      ],
+      "correct_answer": "Limfa kapillyari → limfa tomirlari → yirik vena",
+      "explanation": "To‘qima suyuqligining bir qismi limfa kapillyarlariga o‘tadi. Limfa yirik venalarga quyilib, suyuqlik qon oqimiga qaytadi."
+    },
+    {
+      "key": "paragraph-20-q7",
+      "fact_id": "paragraph-20-f7",
+      "question_text": "Limfa tugunlarining vazifasiga qaysi biri mos?",
+      "options": [
+        "Faqat suyakni uzunlashtirish",
+        "Mikroorganizmlarni tutish va immun himoyada qatnashish",
+        "Faqat qonni aortaga haydash",
+        "Faqat havoni isitish"
+      ],
+      "correct_answer": "Mikroorganizmlarni tutish va immun himoyada qatnashish",
+      "explanation": "Limfa tugunlari mikroorganizmlarni tutishda va immun reaksiyalarda qatnashadigan tuzilmalardir."
+    },
+    {
+      "key": "paragraph-20-q8",
+      "fact_id": "paragraph-20-f8",
+      "question_text": "Taloqqa mos joy va vazifani tanlang.",
+      "options": [
+        "Chap qovurg‘alar osti — immun himoya va eski qon elementlarini parchalash",
+        "Bo‘yin oldi — tiroksin ishlab chiqarish",
+        "Ko‘krak markazi — qonni aortaga haydash",
+        "Bosh miya — harakatni ongli boshqarish"
+      ],
+      "correct_answer": "Chap qovurg‘alar osti — immun himoya va eski qon elementlarini parchalash",
+      "explanation": "Taloq chap qovurg‘alar ostida joylashadi. U immun himoyada va eskirgan qon elementlarini parchalashda qatnashadi."
+    }
+  ]
+}

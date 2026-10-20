@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-9-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-13",
+  "title": "Tayanch-harakatlanish sistemasining tuzilishi, funksiyasi va ahamiyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-9-f1": {
+      "claim": "Tayanch-harakatlanish sistemasi skelet va muskullardan iborat. U tanani tutib turish, harakatlantirish va ichki organlarni himoyalashda qatnashadi.",
+      "answer": "Skelet va muskullar",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f2": {
+      "claim": "Kalla qutisi bosh miyani, umurtqa pog‘onasi orqa miyani himoya qiladi. Ko‘krak qafasi yurak va o‘pkani o‘rab turadi.",
+      "answer": "Umurtqa pog‘onasi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f3": {
+      "claim": "Umurtqa pog‘onasida bo‘yin, ko‘krak, bel, dumg‘aza va dum bo‘limlari ajratiladi. Bo‘yin qismida 7 ta, ko‘krak qismida 12 ta umurtqa bor.",
+      "answer": "7 va 12",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f4": {
+      "claim": "Odam ko‘krak qafasida 12 juft qovurg‘a bor. Oxirgi ikki jufti old tomonda to‘sh suyagiga birikmaydi va yetim qovurg‘alar deyiladi.",
+      "answer": "Old tomonda to‘sh suyagiga birikmasligi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f5": {
+      "claim": "Suyaklar harakatchan, yarim harakatchan yoki harakatsiz birikadi. Qo‘l-oyoqning ko‘plab erkin harakatlari bo‘g‘imlar orqali amalga oshadi.",
+      "answer": "Harakatchan bo‘g‘im",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f6": {
+      "claim": "Bo‘g‘im yuzasidagi tog‘ay va bo‘g‘im suyuqligi suyaklar orasidagi ishqalanishni kamaytiradi.",
+      "answer": "Ishqalanishni kamaytiradi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tayanch va harakat",
+      "body": "Tayanch-harakatlanish sistemasi skelet va muskullardan iborat. U tanani tutib turish, harakatlantirish va ichki organlarni himoyalashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-9-f1"
+      ]
+    },
+    {
+      "title": "Himoya vazifasi",
+      "body": "Kalla qutisi bosh miyani, umurtqa pog‘onasi orqa miyani himoya qiladi. Ko‘krak qafasi yurak va o‘pkani o‘rab turadi.",
+      "fact_ids": [
+        "paragraph-9-f2"
+      ]
+    },
+    {
+      "title": "Umurtqa bo‘limlari",
+      "body": "Umurtqa pog‘onasida bo‘yin, ko‘krak, bel, dumg‘aza va dum bo‘limlari ajratiladi. Bo‘yin qismida 7 ta, ko‘krak qismida 12 ta umurtqa bor.",
+      "fact_ids": [
+        "paragraph-9-f3"
+      ]
+    },
+    {
+      "title": "Qovurg‘alar",
+      "body": "Odam ko‘krak qafasida 12 juft qovurg‘a bor. Oxirgi ikki jufti old tomonda to‘sh suyagiga birikmaydi va yetim qovurg‘alar deyiladi.",
+      "fact_ids": [
+        "paragraph-9-f4"
+      ]
+    },
+    {
+      "title": "Harakatli birikish",
+      "body": "Suyaklar harakatchan, yarim harakatchan yoki harakatsiz birikadi. Qo‘l-oyoqning ko‘plab erkin harakatlari bo‘g‘imlar orqali amalga oshadi.",
+      "fact_ids": [
+        "paragraph-9-f5"
+      ]
+    },
+    {
+      "title": "Bo‘g‘im yuzasi",
+      "body": "Bo‘g‘im yuzasidagi tog‘ay va bo‘g‘im suyuqligi suyaklar orasidagi ishqalanishni kamaytiradi.",
+      "fact_ids": [
+        "paragraph-9-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-9-q1",
+      "fact_id": "paragraph-9-f1",
+      "question_text": "Tayanch-harakatlanish sistemasini qaysi tuzilmalar tashkil etadi?",
+      "options": [
+        "Faqat o‘pka va bronxlar",
+        "Faqat buyrak va siydik yo‘li",
+        "Faqat oshqozon va ichak",
+        "Skelet va muskullar"
+      ],
+      "correct_answer": "Skelet va muskullar",
+      "explanation": "Tayanch-harakatlanish sistemasi skelet va muskullardan iborat. U tanani tutib turish, harakatlantirish va ichki organlarni himoyalashda qatnashadi."
+    },
+    {
+      "key": "paragraph-9-q2",
+      "fact_id": "paragraph-9-f2",
+      "question_text": "Orqa miyani asosan qaysi tuzilma himoya qiladi?",
+      "options": [
+        "Kaft suyaklari",
+        "Tizza qopqog‘i",
+        "Umurtqa pog‘onasi",
+        "Pastki jag‘"
+      ],
+      "correct_answer": "Umurtqa pog‘onasi",
+      "explanation": "Kalla qutisi bosh miyani, umurtqa pog‘onasi orqa miyani himoya qiladi. Ko‘krak qafasi yurak va o‘pkani o‘rab turadi."
+    },
+    {
+      "key": "paragraph-9-q3",
+      "fact_id": "paragraph-9-f3",
+      "question_text": "Bo‘yin va ko‘krak umurtqalari soni qanday juftlanadi?",
+      "options": [
+        "2 va 5",
+        "7 va 12",
+        "12 va 7",
+        "5 va 7"
+      ],
+      "correct_answer": "7 va 12",
+      "explanation": "Umurtqa pog‘onasida bo‘yin, ko‘krak, bel, dumg‘aza va dum bo‘limlari ajratiladi. Bo‘yin qismida 7 ta, ko‘krak qismida 12 ta umurtqa bor."
+    },
+    {
+      "key": "paragraph-9-q4",
+      "fact_id": "paragraph-9-f4",
+      "question_text": "Yetim qovurg‘alarni qaysi belgi ajratadi?",
+      "options": [
+        "Old tomonda to‘sh suyagiga birikmasligi",
+        "Bosh miyani o‘rab turishi",
+        "Faqat oyoqda joylashishi",
+        "Tish ildizini hosil qilishi"
+      ],
+      "correct_answer": "Old tomonda to‘sh suyagiga birikmasligi",
+      "explanation": "Odam ko‘krak qafasida 12 juft qovurg‘a bor. Oxirgi ikki jufti old tomonda to‘sh suyagiga birikmaydi va yetim qovurg‘alar deyiladi."
+    },
+    {
+      "key": "paragraph-9-q5",
+      "fact_id": "paragraph-9-f5",
+      "question_text": "Tizza harakatini ta’minlaydigan birikish turi qaysi?",
+      "options": [
+        "Harakatsiz kalla choki",
+        "Suyaklarning butunlay qo‘shilmasligi",
+        "Faqat teri orqali birikish",
+        "Harakatchan bo‘g‘im"
+      ],
+      "correct_answer": "Harakatchan bo‘g‘im",
+      "explanation": "Suyaklar harakatchan, yarim harakatchan yoki harakatsiz birikadi. Qo‘l-oyoqning ko‘plab erkin harakatlari bo‘g‘imlar orqali amalga oshadi."
+    },
+    {
+      "key": "paragraph-9-q6",
+      "fact_id": "paragraph-9-f6",
+      "question_text": "Bo‘g‘im suyuqligining foydasi nimada?",
+      "options": [
+        "Muskulni suyakdan butunlay ajratadi",
+        "Nafas havosini isitadi",
+        "Ishqalanishni kamaytiradi",
+        "Suyaklarni doimo bir-biriga qotirib qo‘yadi"
+      ],
+      "correct_answer": "Ishqalanishni kamaytiradi",
+      "explanation": "Bo‘g‘im yuzasidagi tog‘ay va bo‘g‘im suyuqligi suyaklar orasidagi ishqalanishni kamaytiradi."
+    }
+  ]
+}

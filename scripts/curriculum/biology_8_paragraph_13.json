@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-13-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-17",
+  "title": "Muskullarning rivojlanishi, odam qad-qomatining shakllanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-13-f1": {
+      "claim": "Muntazam, me’yoridagi jismoniy mashq muskullar va skelet rivojlanishiga yordam beradi. O‘sish davrida me’yoridan ortiq yuk bo‘g‘imlarga zarar yetkazishi mumkin.",
+      "answer": "Me’yoridagi muntazam jismoniy mashq",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f2": {
+      "claim": "Ishlayotgan muskulga ko‘proq qon oqib kelib, kislorod va oziq moddalar yetkazilishi kuchayadi.",
+      "answer": "Kislorod va oziq moddalar yetkazilishi yaxshilanadi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f3": {
+      "claim": "Qad-qomat tananing erkin tutish holatidir; u skelet, muskullar va umurtqa pog‘onasi rivojlanishi bilan bog‘liq.",
+      "answer": "Skelet, muskullar va umurtqa pog‘onasi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f4": {
+      "claim": "Umurtqa pog‘onasining bo‘yin va bel qismlari biroz oldinga, ko‘krak va dumg‘aza qismlari biroz orqaga egilgan.",
+      "answer": "Bo‘yin-bel oldinga, ko‘krak-dumg‘aza orqaga",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f5": {
+      "claim": "Oyoq panjasi gumbazi tayanchni taqsimlash va harakatdagi zarbani yumshatishda qatnashadi.",
+      "answer": "Zarbani yumshatish va tayanchni taqsimlash",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f6": {
+      "claim": "Yassioyoqlikda oyoq panjasi gumbazi pasayadi. Og‘riq yoki muammo bo‘lsa, mutaxassis tavsiyasi asosida yondashish darslikda ko‘rsatilgan.",
+      "answer": "Oyoq panjasi gumbazining pasayishi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mashq va rivojlanish",
+      "body": "Muntazam, me’yoridagi jismoniy mashq muskullar va skelet rivojlanishiga yordam beradi. O‘sish davrida me’yoridan ortiq yuk bo‘g‘imlarga zarar yetkazishi mumkin.",
+      "fact_ids": [
+        "paragraph-13-f1"
+      ]
+    },
+    {
+      "title": "Ishlayotgan muskul",
+      "body": "Ishlayotgan muskulga ko‘proq qon oqib kelib, kislorod va oziq moddalar yetkazilishi kuchayadi.",
+      "fact_ids": [
+        "paragraph-13-f2"
+      ]
+    },
+    {
+      "title": "Qad-qomat",
+      "body": "Qad-qomat tananing erkin tutish holatidir; u skelet, muskullar va umurtqa pog‘onasi rivojlanishi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-13-f3"
+      ]
+    },
+    {
+      "title": "Tabiiy egilishlar",
+      "body": "Umurtqa pog‘onasining bo‘yin va bel qismlari biroz oldinga, ko‘krak va dumg‘aza qismlari biroz orqaga egilgan.",
+      "fact_ids": [
+        "paragraph-13-f4"
+      ]
+    },
+    {
+      "title": "Oyoq gumbazi",
+      "body": "Oyoq panjasi gumbazi tayanchni taqsimlash va harakatdagi zarbani yumshatishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-13-f5"
+      ]
+    },
+    {
+      "title": "Yassioyoqlik",
+      "body": "Yassioyoqlikda oyoq panjasi gumbazi pasayadi. Og‘riq yoki muammo bo‘lsa, mutaxassis tavsiyasi asosida yondashish darslikda ko‘rsatilgan.",
+      "fact_ids": [
+        "paragraph-13-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-13-q1",
+      "fact_id": "paragraph-13-f1",
+      "question_text": "O‘sayotgan bola uchun darslikka mos yondashuv qaysi?",
+      "options": [
+        "Har doim eng og‘ir yukni ko‘tarish",
+        "Harakatdan butunlay voz kechish",
+        "Og‘riqqa qaramay mashqni kuchaytirish",
+        "Me’yoridagi muntazam jismoniy mashq"
+      ],
+      "correct_answer": "Me’yoridagi muntazam jismoniy mashq",
+      "explanation": "Muntazam, me’yoridagi jismoniy mashq muskullar va skelet rivojlanishiga yordam beradi. O‘sish davrida me’yoridan ortiq yuk bo‘g‘imlarga zarar yetkazishi mumkin."
+    },
+    {
+      "key": "paragraph-13-q2",
+      "fact_id": "paragraph-13-f2",
+      "question_text": "Mashq paytida faol muskulga qon kelishi ortishining foydasi nima?",
+      "options": [
+        "Muskul faqat mineral tuz bilan oziqlanadi",
+        "Nerv impulsiga ehtiyoj butunlay yo‘qoladi",
+        "Kislorod va oziq moddalar yetkazilishi yaxshilanadi",
+        "Muskul qon ta’minotidan butunlay uziladi"
+      ],
+      "correct_answer": "Kislorod va oziq moddalar yetkazilishi yaxshilanadi",
+      "explanation": "Ishlayotgan muskulga ko‘proq qon oqib kelib, kislorod va oziq moddalar yetkazilishi kuchayadi."
+    },
+    {
+      "key": "paragraph-13-q3",
+      "fact_id": "paragraph-13-f3",
+      "question_text": "Qad-qomatga qaysi tuzilmalar ta’sir qiladi?",
+      "options": [
+        "Faqat tirnoq shakli",
+        "Skelet, muskullar va umurtqa pog‘onasi",
+        "Faqat ko‘z rangining o‘zgarishi",
+        "Faqat qon guruhining turi"
+      ],
+      "correct_answer": "Skelet, muskullar va umurtqa pog‘onasi",
+      "explanation": "Qad-qomat tananing erkin tutish holatidir; u skelet, muskullar va umurtqa pog‘onasi rivojlanishi bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-13-q4",
+      "fact_id": "paragraph-13-f4",
+      "question_text": "Sog‘lom umurtqadagi tabiiy egilishlar qanday?",
+      "options": [
+        "Bo‘yin-bel oldinga, ko‘krak-dumg‘aza orqaga",
+        "Barcha qismlar faqat bir tomonga",
+        "Faqat bo‘yin orqaga, qolganlari mutlaqo tekis",
+        "Barcha qismlar yon tomonga keskin qiyshiq"
+      ],
+      "correct_answer": "Bo‘yin-bel oldinga, ko‘krak-dumg‘aza orqaga",
+      "explanation": "Umurtqa pog‘onasining bo‘yin va bel qismlari biroz oldinga, ko‘krak va dumg‘aza qismlari biroz orqaga egilgan."
+    },
+    {
+      "key": "paragraph-13-q5",
+      "fact_id": "paragraph-13-f5",
+      "question_text": "Oyoq panjasi gumbazining vazifasi qaysi?",
+      "options": [
+        "Qonni bevosita haydash",
+        "Havoni o‘pkaga kiritish",
+        "Gormonlarni ishlab chiqarish",
+        "Zarbani yumshatish va tayanchni taqsimlash"
+      ],
+      "correct_answer": "Zarbani yumshatish va tayanchni taqsimlash",
+      "explanation": "Oyoq panjasi gumbazi tayanchni taqsimlash va harakatdagi zarbani yumshatishda qatnashadi."
+    },
+    {
+      "key": "paragraph-13-q6",
+      "fact_id": "paragraph-13-f6",
+      "question_text": "Yassioyoqlikning asosiy tuzilish belgisi qaysi?",
+      "options": [
+        "Bo‘yin umurtqalari sonining ortishi",
+        "Bilak suyagining uzayishi",
+        "Oyoq panjasi gumbazining pasayishi",
+        "Tizza qopqog‘ining yo‘qolishi"
+      ],
+      "correct_answer": "Oyoq panjasi gumbazining pasayishi",
+      "explanation": "Yassioyoqlikda oyoq panjasi gumbazi pasayadi. Og‘riq yoki muammo bo‘lsa, mutaxassis tavsiyasi asosida yondashish darslikda ko‘rsatilgan."
+    }
+  ]
+}

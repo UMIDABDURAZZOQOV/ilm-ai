@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-26-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-34",
+  "title": "Ovqat hazm qilish sistemasi organlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-26-f1": {
+      "claim": "Ovqat hazm qilish yo‘li og‘iz, halqum, qizilo‘ngach, oshqozon va ichaklardan iborat. Ovqat shu ketma-ketlik bo‘yicha siljiydi.",
+      "answer": "Halqum → qizilo‘ngach → oshqozon → ichak",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f2": {
+      "claim": "Tishlar ovqatni maydalaydi, til uni aralashtirib yutishga yordam beradi. So‘lak ovqat bilan aralashadi.",
+      "answer": "Tish maydalaydi, til aralashtirib yutishga yordam beradi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f3": {
+      "claim": "Yosh bolalarda 20 ta sut tishi bo‘ladi. To‘liq doimiy tishlar to‘plami odatda 32 ta tishni o‘z ichiga oladi.",
+      "answer": "20 ta",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f4": {
+      "claim": "Tishning ichki yumshoq qismi pulpa deyiladi; unga ildiz uchi orqali qon tomirlari va nervlar kiradi.",
+      "answer": "Pulpa",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f5": {
+      "claim": "Tish toji emal bilan, ildizi sement bilan qoplangan. Emal va sement ostida dentin joylashadi.",
+      "answer": "Emal",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f6": {
+      "claim": "Kurak tishlar ovqatni uzib olishga, oziq tishlar esa chaynab maydalashga moslashgan.",
+      "answer": "Kurak — uzish; oziq tish — chaynab maydalash",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f7": {
+      "claim": "So‘lakdagi amilaza kraxmalning parchalanishini boshlaydi. Shuning uchun og‘izda mexanik va kimyoviy ishlov birga kechadi.",
+      "answer": "Kraxmal",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f8": {
+      "claim": "Yutilgan ovqat qizilo‘ngach devori muskullari qisqarishi bilan oshqozonga siljiydi. Ovqat yo‘li kekirdakdan farq qiladi.",
+      "answer": "Qizilo‘ngach muskullarining qisqarishi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hazm yo‘li",
+      "body": "Ovqat hazm qilish yo‘li og‘iz, halqum, qizilo‘ngach, oshqozon va ichaklardan iborat. Ovqat shu ketma-ketlik bo‘yicha siljiydi.",
+      "fact_ids": [
+        "paragraph-26-f1"
+      ]
+    },
+    {
+      "title": "Og‘izda ishlov",
+      "body": "Tishlar ovqatni maydalaydi, til uni aralashtirib yutishga yordam beradi. So‘lak ovqat bilan aralashadi.",
+      "fact_ids": [
+        "paragraph-26-f2"
+      ]
+    },
+    {
+      "title": "Tishlar to‘plami",
+      "body": "Yosh bolalarda 20 ta sut tishi bo‘ladi. To‘liq doimiy tishlar to‘plami odatda 32 ta tishni o‘z ichiga oladi.",
+      "fact_ids": [
+        "paragraph-26-f3"
+      ]
+    },
+    {
+      "title": "Tishning ichki qismi",
+      "body": "Tishning ichki yumshoq qismi pulpa deyiladi; unga ildiz uchi orqali qon tomirlari va nervlar kiradi.",
+      "fact_ids": [
+        "paragraph-26-f4"
+      ]
+    },
+    {
+      "title": "Tish sirtlari",
+      "body": "Tish toji emal bilan, ildizi sement bilan qoplangan. Emal va sement ostida dentin joylashadi.",
+      "fact_ids": [
+        "paragraph-26-f5"
+      ]
+    },
+    {
+      "title": "Tishlar ishi",
+      "body": "Kurak tishlar ovqatni uzib olishga, oziq tishlar esa chaynab maydalashga moslashgan.",
+      "fact_ids": [
+        "paragraph-26-f6"
+      ]
+    },
+    {
+      "title": "So‘lak fermenti",
+      "body": "So‘lakdagi amilaza kraxmalning parchalanishini boshlaydi. Shuning uchun og‘izda mexanik va kimyoviy ishlov birga kechadi.",
+      "fact_ids": [
+        "paragraph-26-f7"
+      ]
+    },
+    {
+      "title": "Yutish va siljish",
+      "body": "Yutilgan ovqat qizilo‘ngach devori muskullari qisqarishi bilan oshqozonga siljiydi. Ovqat yo‘li kekirdakdan farq qiladi.",
+      "fact_ids": [
+        "paragraph-26-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-26-q1",
+      "fact_id": "paragraph-26-f1",
+      "question_text": "Ovqatning og‘izdan keyingi to‘g‘ri yo‘lini toping.",
+      "options": [
+        "Kekirdak → bronx → alveola",
+        "Aorta → vena → kapillyar",
+        "Buyrak → siydik nayi → qovuq",
+        "Halqum → qizilo‘ngach → oshqozon → ichak"
+      ],
+      "correct_answer": "Halqum → qizilo‘ngach → oshqozon → ichak",
+      "explanation": "Ovqat hazm qilish yo‘li og‘iz, halqum, qizilo‘ngach, oshqozon va ichaklardan iborat. Ovqat shu ketma-ketlik bo‘yicha siljiydi."
+    },
+    {
+      "key": "paragraph-26-q2",
+      "fact_id": "paragraph-26-f2",
+      "question_text": "Og‘izda tish va tilning vazifalari qanday farqlanadi?",
+      "options": [
+        "Ikkalasi ham faqat kislorod tashiydi",
+        "Tish qonni haydaydi, til limfa chiqaradi",
+        "Tish maydalaydi, til aralashtirib yutishga yordam beradi",
+        "Til mineral suyak hosil qiladi, tish gormon chiqaradi"
+      ],
+      "correct_answer": "Tish maydalaydi, til aralashtirib yutishga yordam beradi",
+      "explanation": "Tishlar ovqatni maydalaydi, til uni aralashtirib yutishga yordam beradi. So‘lak ovqat bilan aralashadi."
+    },
+    {
+      "key": "paragraph-26-q3",
+      "fact_id": "paragraph-26-f3",
+      "question_text": "Sut tishlari to‘liq to‘plamida nechta tish bo‘ladi?",
+      "options": [
+        "4 ta",
+        "20 ta",
+        "32 ta",
+        "8 ta"
+      ],
+      "correct_answer": "20 ta",
+      "explanation": "Yosh bolalarda 20 ta sut tishi bo‘ladi. To‘liq doimiy tishlar to‘plami odatda 32 ta tishni o‘z ichiga oladi."
+    },
+    {
+      "key": "paragraph-26-q4",
+      "fact_id": "paragraph-26-f4",
+      "question_text": "Tishdagi qon tomirlari va nervlar bilan bog‘liq yumshoq qism qaysi?",
+      "options": [
+        "Pulpa",
+        "Emal",
+        "Sementning faqat tashqi qatlami",
+        "Jag‘ning tashqi terisi"
+      ],
+      "correct_answer": "Pulpa",
+      "explanation": "Tishning ichki yumshoq qismi pulpa deyiladi; unga ildiz uchi orqali qon tomirlari va nervlar kiradi."
+    },
+    {
+      "key": "paragraph-26-q5",
+      "fact_id": "paragraph-26-f5",
+      "question_text": "Tish tojini qoplaydigan qattiq qatlam qaysi?",
+      "options": [
+        "Pulpa",
+        "Milk",
+        "Pay",
+        "Emal"
+      ],
+      "correct_answer": "Emal",
+      "explanation": "Tish toji emal bilan, ildizi sement bilan qoplangan. Emal va sement ostida dentin joylashadi."
+    },
+    {
+      "key": "paragraph-26-q6",
+      "fact_id": "paragraph-26-f6",
+      "question_text": "Qaysi juftlik tish vazifalarini to‘g‘ri ko‘rsatadi?",
+      "options": [
+        "Kurak — eshitish; oziq tish — nafas olish",
+        "Kurak — kislorod tashish; oziq tish — suyak hosil qilish",
+        "Kurak — uzish; oziq tish — chaynab maydalash",
+        "Kurak — qon haydash; oziq tish — gormon chiqarish"
+      ],
+      "correct_answer": "Kurak — uzish; oziq tish — chaynab maydalash",
+      "explanation": "Kurak tishlar ovqatni uzib olishga, oziq tishlar esa chaynab maydalashga moslashgan."
+    },
+    {
+      "key": "paragraph-26-q7",
+      "fact_id": "paragraph-26-f7",
+      "question_text": "So‘lak amilazasi qaysi oziq modda parchalanishini boshlaydi?",
+      "options": [
+        "Faqat tish emali",
+        "Kraxmal",
+        "Faqat mineral tuzlar",
+        "Faqat suv"
+      ],
+      "correct_answer": "Kraxmal",
+      "explanation": "So‘lakdagi amilaza kraxmalning parchalanishini boshlaydi. Shuning uchun og‘izda mexanik va kimyoviy ishlov birga kechadi."
+    },
+    {
+      "key": "paragraph-26-q8",
+      "fact_id": "paragraph-26-f8",
+      "question_text": "Ovqatning qizilo‘ngachdan oshqozonga siljishiga nima yordam beradi?",
+      "options": [
+        "Qizilo‘ngach muskullarining qisqarishi",
+        "Ovoz paylarining tebranishi",
+        "Alveolalarda gaz almashinuvi",
+        "Yurak klapanining ochilishi"
+      ],
+      "correct_answer": "Qizilo‘ngach muskullarining qisqarishi",
+      "explanation": "Yutilgan ovqat qizilo‘ngach devori muskullari qisqarishi bilan oshqozonga siljiydi. Ovqat yo‘li kekirdakdan farq qiladi."
+    }
+  ]
+}

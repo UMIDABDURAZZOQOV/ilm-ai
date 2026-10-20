@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-27-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-35",
+  "title": "Ovqat hazm qilish sistemasi organlarining tuzilishi va funksiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-27-f1": {
+      "claim": "Oshqozon qorin bo‘shlig‘ining yuqori qismida, diafragma ostida joylashadi. Unda ovqat hazm shirasi bilan aralashadi.",
+      "answer": "Qorinning yuqori qismida, diafragma ostida",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f2": {
+      "claim": "Oshqozon shilliq moddasi uning devorini mexanik va kimyoviy ta’sirdan himoyalashda qatnashadi.",
+      "answer": "Oshqozon devorini himoyalash",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f3": {
+      "claim": "Oshqozon shirasida xlorid kislota va fermentlar bor. Kislota mikroblarni zararsizlantirish va ayrim hazm fermentlarini faollashtirishda qatnashadi.",
+      "answer": "Mikroblarni zararsizlantirish va fermentlar ishiga yordam berish",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f4": {
+      "claim": "Oshqozonosti bezining hazm shirasi o‘n ikki barmoqli ichakka chiqariladi. Unda oqsil, yog‘ va uglevodlarni parchalovchi fermentlar bor.",
+      "answer": "O‘n ikki barmoqli ichakka",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f5": {
+      "claim": "O‘t jigarda ishlab chiqariladi va o‘t pufagida to‘planadi. U o‘n ikki barmoqli ichakka chiqariladi.",
+      "answer": "Jigar",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f6": {
+      "claim": "O‘t yog‘larni mayda tomchilarga ajratish — emulsiyalashda qatnashib, ularning hazm bo‘lishiga yordam beradi.",
+      "answer": "Yog‘larni emulsiyalashga yordam berish",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f7": {
+      "claim": "Ingichka ichak vorsinkalarida qon va limfa tomirlari bor. Parchalangan oziq moddalar ichak devori orqali qon va limfaga so‘riladi.",
+      "answer": "Parchalangan oziq moddalarni so‘rishda qatnashish",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f8": {
+      "claim": "Hazm bo‘lmagan qoldiq yo‘g‘on ichakka o‘tadi. Unda qoldiqdan suv so‘rilishi va axlat massasining shakllanishi davom etadi.",
+      "answer": "Qoldiqdan suv so‘rilishi va axlat shakllanishi",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oshqozon o‘rni",
+      "body": "Oshqozon qorin bo‘shlig‘ining yuqori qismida, diafragma ostida joylashadi. Unda ovqat hazm shirasi bilan aralashadi.",
+      "fact_ids": [
+        "paragraph-27-f1"
+      ]
+    },
+    {
+      "title": "Himoya qatlami",
+      "body": "Oshqozon shilliq moddasi uning devorini mexanik va kimyoviy ta’sirdan himoyalashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-27-f2"
+      ]
+    },
+    {
+      "title": "Kislotali shira",
+      "body": "Oshqozon shirasida xlorid kislota va fermentlar bor. Kislota mikroblarni zararsizlantirish va ayrim hazm fermentlarini faollashtirishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-27-f3"
+      ]
+    },
+    {
+      "title": "Oshqozonosti shirasi",
+      "body": "Oshqozonosti bezining hazm shirasi o‘n ikki barmoqli ichakka chiqariladi. Unda oqsil, yog‘ va uglevodlarni parchalovchi fermentlar bor.",
+      "fact_ids": [
+        "paragraph-27-f4"
+      ]
+    },
+    {
+      "title": "O‘tning manbai",
+      "body": "O‘t jigarda ishlab chiqariladi va o‘t pufagida to‘planadi. U o‘n ikki barmoqli ichakka chiqariladi.",
+      "fact_ids": [
+        "paragraph-27-f5"
+      ]
+    },
+    {
+      "title": "Yog‘ni emulsiyalash",
+      "body": "O‘t yog‘larni mayda tomchilarga ajratish — emulsiyalashda qatnashib, ularning hazm bo‘lishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-27-f6"
+      ]
+    },
+    {
+      "title": "Vorsinkalar",
+      "body": "Ingichka ichak vorsinkalarida qon va limfa tomirlari bor. Parchalangan oziq moddalar ichak devori orqali qon va limfaga so‘riladi.",
+      "fact_ids": [
+        "paragraph-27-f7"
+      ]
+    },
+    {
+      "title": "Yo‘g‘on ichak",
+      "body": "Hazm bo‘lmagan qoldiq yo‘g‘on ichakka o‘tadi. Unda qoldiqdan suv so‘rilishi va axlat massasining shakllanishi davom etadi.",
+      "fact_ids": [
+        "paragraph-27-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-27-q1",
+      "fact_id": "paragraph-27-f1",
+      "question_text": "Oshqozonning joylashuvi qaysi?",
+      "options": [
+        "Bosh miya ichida",
+        "Ko‘krakda faqat o‘pka orasida",
+        "Tizza bo‘g‘imi ichida",
+        "Qorinning yuqori qismida, diafragma ostida"
+      ],
+      "correct_answer": "Qorinning yuqori qismida, diafragma ostida",
+      "explanation": "Oshqozon qorin bo‘shlig‘ining yuqori qismida, diafragma ostida joylashadi. Unda ovqat hazm shirasi bilan aralashadi."
+    },
+    {
+      "key": "paragraph-27-q2",
+      "fact_id": "paragraph-27-f2",
+      "question_text": "Oshqozon shilliq moddasining muhim vazifasi nima?",
+      "options": [
+        "Suyaklarni bir-biriga ulash",
+        "Ovoz hosil qilish",
+        "Oshqozon devorini himoyalash",
+        "Kislorodni eritrotsitga biriktirish"
+      ],
+      "correct_answer": "Oshqozon devorini himoyalash",
+      "explanation": "Oshqozon shilliq moddasi uning devorini mexanik va kimyoviy ta’sirdan himoyalashda qatnashadi."
+    },
+    {
+      "key": "paragraph-27-q3",
+      "fact_id": "paragraph-27-f3",
+      "question_text": "Oshqozon shirasidagi xlorid kislotaga qaysi vazifa mos?",
+      "options": [
+        "O‘pkaga kislorod ishlab chiqarish",
+        "Mikroblarni zararsizlantirish va fermentlar ishiga yordam berish",
+        "Qonni barcha guruhlarga moslashtirish",
+        "Yurakni bevosita qisqartirish"
+      ],
+      "correct_answer": "Mikroblarni zararsizlantirish va fermentlar ishiga yordam berish",
+      "explanation": "Oshqozon shirasida xlorid kislota va fermentlar bor. Kislota mikroblarni zararsizlantirish va ayrim hazm fermentlarini faollashtirishda qatnashadi."
+    },
+    {
+      "key": "paragraph-27-q4",
+      "fact_id": "paragraph-27-f4",
+      "question_text": "Oshqozonosti bezining hazm shirasi qayerga chiqariladi?",
+      "options": [
+        "O‘n ikki barmoqli ichakka",
+        "Faqat qonga gormon sifatida",
+        "Faqat o‘pka alveolasiga",
+        "Faqat siydik qovug‘iga"
+      ],
+      "correct_answer": "O‘n ikki barmoqli ichakka",
+      "explanation": "Oshqozonosti bezining hazm shirasi o‘n ikki barmoqli ichakka chiqariladi. Unda oqsil, yog‘ va uglevodlarni parchalovchi fermentlar bor."
+    },
+    {
+      "key": "paragraph-27-q5",
+      "fact_id": "paragraph-27-f5",
+      "question_text": "O‘tni qaysi organ ishlab chiqaradi?",
+      "options": [
+        "O‘t pufagining o‘zi",
+        "Oshqozon",
+        "Qizilo‘ngach",
+        "Jigar"
+      ],
+      "correct_answer": "Jigar",
+      "explanation": "O‘t jigarda ishlab chiqariladi va o‘t pufagida to‘planadi. U o‘n ikki barmoqli ichakka chiqariladi."
+    },
+    {
+      "key": "paragraph-27-q6",
+      "fact_id": "paragraph-27-f6",
+      "question_text": "O‘tning yog‘ hazmidagi roli qaysi?",
+      "options": [
+        "Yog‘ni suyak tuziga aylantirish",
+        "Yog‘ning ichakka kelishini butunlay to‘xtatish",
+        "Yog‘larni emulsiyalashga yordam berish",
+        "Yog‘ni to‘g‘ridan to‘g‘ri kislorodga aylantirish"
+      ],
+      "correct_answer": "Yog‘larni emulsiyalashga yordam berish",
+      "explanation": "O‘t yog‘larni mayda tomchilarga ajratish — emulsiyalashda qatnashib, ularning hazm bo‘lishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-27-q7",
+      "fact_id": "paragraph-27-f7",
+      "question_text": "Ingichka ichak vorsinkalarining asosiy vazifasi qaysi?",
+      "options": [
+        "Faqat skeletga tayanch bo‘lish",
+        "Parchalangan oziq moddalarni so‘rishda qatnashish",
+        "Faqat ovoz paylarini tebratish",
+        "Faqat qon guruhini o‘zgartirish"
+      ],
+      "correct_answer": "Parchalangan oziq moddalarni so‘rishda qatnashish",
+      "explanation": "Ingichka ichak vorsinkalarida qon va limfa tomirlari bor. Parchalangan oziq moddalar ichak devori orqali qon va limfaga so‘riladi."
+    },
+    {
+      "key": "paragraph-27-q8",
+      "fact_id": "paragraph-27-f8",
+      "question_text": "Yo‘g‘on ichak vazifasiga qaysi holat mos?",
+      "options": [
+        "Qoldiqdan suv so‘rilishi va axlat shakllanishi",
+        "Oziqni faqat tishlar bilan uzish",
+        "Havoni isitish va namlash",
+        "Tiroksinni qonga chiqarish"
+      ],
+      "correct_answer": "Qoldiqdan suv so‘rilishi va axlat shakllanishi",
+      "explanation": "Hazm bo‘lmagan qoldiq yo‘g‘on ichakka o‘tadi. Unda qoldiqdan suv so‘rilishi va axlat massasining shakllanishi davom etadi."
+    }
+  ]
+}

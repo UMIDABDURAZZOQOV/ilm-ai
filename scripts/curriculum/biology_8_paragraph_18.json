@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-18-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-24",
+  "title": "Qon aylanishining ahamiyati, yurakning tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-18-f1": {
+      "claim": "Yurak muskulli nasos bo‘lib, qonning tomirlar bo‘ylab harakatlanishini ta’minlaydi. Shu yo‘l bilan organlarga kislorod va oziq moddalar yetadi.",
+      "answer": "Qonni tomirlarga haydash",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f2": {
+      "claim": "Odam yuragi o‘ng va chap bo‘lmacha hamda o‘ng va chap qorinchadan iborat. Bo‘lmachalar yuqorida, qorinchalar pastda joylashgan.",
+      "answer": "Ikki bo‘lmacha va ikki qorincha",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f3": {
+      "claim": "O‘ng bo‘lmacha bilan o‘ng qorincha orasida uch tavaqali, chap tomonda ikki tavaqali klapan bor.",
+      "answer": "Ikki tavaqali klapan",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f4": {
+      "claim": "Chap qorincha qonni katta qon aylanish doirasiga haydaydi. Uning muskul devori o‘ng qorinchanikidan qalinroq.",
+      "answer": "Qonni katta qon aylanish doirasiga haydaydi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f5": {
+      "claim": "Yurakning o‘zidagi maxsus hujayralarda paydo bo‘ladigan qo‘zg‘alishlar uning ritmik qisqarishiga asos bo‘ladi. Bu yurak avtomatiyasidir.",
+      "answer": "Yurakdagi o‘z qo‘zg‘alishlari ta’sirida ritmik qisqarish",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f6": {
+      "claim": "Yurak siklida bo‘lmachalar qisqarishi, qorinchalar qisqarishi va umumiy bo‘shashish navbatlashadi.",
+      "answer": "Bo‘lmacha qisqarishi → qorincha qisqarishi → umumiy bo‘shashish",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f7": {
+      "claim": "Minutlik hajm bir urishda chiqarilgan qon hajmi bilan bir minutdagi urishlar soni ko‘paytmasidir. 70 ml × 70 = 4900 ml, ya’ni 4,9 litr.",
+      "answer": "4,9 litr",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yurakning vazifasi",
+      "body": "Yurak muskulli nasos bo‘lib, qonning tomirlar bo‘ylab harakatlanishini ta’minlaydi. Shu yo‘l bilan organlarga kislorod va oziq moddalar yetadi.",
+      "fact_ids": [
+        "paragraph-18-f1"
+      ]
+    },
+    {
+      "title": "To‘rt kamera",
+      "body": "Odam yuragi o‘ng va chap bo‘lmacha hamda o‘ng va chap qorinchadan iborat. Bo‘lmachalar yuqorida, qorinchalar pastda joylashgan.",
+      "fact_ids": [
+        "paragraph-18-f2"
+      ]
+    },
+    {
+      "title": "Tavaqali klapanlar",
+      "body": "O‘ng bo‘lmacha bilan o‘ng qorincha orasida uch tavaqali, chap tomonda ikki tavaqali klapan bor.",
+      "fact_ids": [
+        "paragraph-18-f3"
+      ]
+    },
+    {
+      "title": "Chap qorincha devori",
+      "body": "Chap qorincha qonni katta qon aylanish doirasiga haydaydi. Uning muskul devori o‘ng qorinchanikidan qalinroq.",
+      "fact_ids": [
+        "paragraph-18-f4"
+      ]
+    },
+    {
+      "title": "Yurak avtomatiyasi",
+      "body": "Yurakning o‘zidagi maxsus hujayralarda paydo bo‘ladigan qo‘zg‘alishlar uning ritmik qisqarishiga asos bo‘ladi. Bu yurak avtomatiyasidir.",
+      "fact_ids": [
+        "paragraph-18-f5"
+      ]
+    },
+    {
+      "title": "Yurak sikli",
+      "body": "Yurak siklida bo‘lmachalar qisqarishi, qorinchalar qisqarishi va umumiy bo‘shashish navbatlashadi.",
+      "fact_ids": [
+        "paragraph-18-f6"
+      ]
+    },
+    {
+      "title": "Minutlik hajm",
+      "body": "Minutlik hajm bir urishda chiqarilgan qon hajmi bilan bir minutdagi urishlar soni ko‘paytmasidir. 70 ml × 70 = 4900 ml, ya’ni 4,9 litr.",
+      "fact_ids": [
+        "paragraph-18-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-18-q1",
+      "fact_id": "paragraph-18-f1",
+      "question_text": "Qon aylanishida yurakning asosiy vazifasi nima?",
+      "options": [
+        "Havoni bevosita alveolaga tortish",
+        "Oziqni ichakda parchalash",
+        "Suyakda mineral to‘plash",
+        "Qonni tomirlarga haydash"
+      ],
+      "correct_answer": "Qonni tomirlarga haydash",
+      "explanation": "Yurak muskulli nasos bo‘lib, qonning tomirlar bo‘ylab harakatlanishini ta’minlaydi. Shu yo‘l bilan organlarga kislorod va oziq moddalar yetadi."
+    },
+    {
+      "key": "paragraph-18-q2",
+      "fact_id": "paragraph-18-f2",
+      "question_text": "Odam yuragining to‘rt kamerasi qanday taqsimlangan?",
+      "options": [
+        "Bitta bo‘lmacha va uch qorincha",
+        "To‘rtta bo‘lmacha, qorinchasiz",
+        "Ikki bo‘lmacha va ikki qorincha",
+        "Uch bo‘lmacha va bitta qorincha"
+      ],
+      "correct_answer": "Ikki bo‘lmacha va ikki qorincha",
+      "explanation": "Odam yuragi o‘ng va chap bo‘lmacha hamda o‘ng va chap qorinchadan iborat. Bo‘lmachalar yuqorida, qorinchalar pastda joylashgan."
+    },
+    {
+      "key": "paragraph-18-q3",
+      "fact_id": "paragraph-18-f3",
+      "question_text": "Chap bo‘lmacha va chap qorincha orasida qaysi klapan joylashgan?",
+      "options": [
+        "Faqat o‘pka arteriyasi klapani",
+        "Ikki tavaqali klapan",
+        "Uch tavaqali klapan",
+        "Faqat aorta yarimoysimon klapani"
+      ],
+      "correct_answer": "Ikki tavaqali klapan",
+      "explanation": "O‘ng bo‘lmacha bilan o‘ng qorincha orasida uch tavaqali, chap tomonda ikki tavaqali klapan bor."
+    },
+    {
+      "key": "paragraph-18-q4",
+      "fact_id": "paragraph-18-f4",
+      "question_text": "Nega chap qorincha devori qalinroq?",
+      "options": [
+        "Qonni katta qon aylanish doirasiga haydaydi",
+        "Unda hech qanday qon bo‘lmaydi",
+        "U faqat havo saqlaydi",
+        "U faqat limfa ishlab chiqaradi"
+      ],
+      "correct_answer": "Qonni katta qon aylanish doirasiga haydaydi",
+      "explanation": "Chap qorincha qonni katta qon aylanish doirasiga haydaydi. Uning muskul devori o‘ng qorinchanikidan qalinroq."
+    },
+    {
+      "key": "paragraph-18-q5",
+      "fact_id": "paragraph-18-f5",
+      "question_text": "Yurak avtomatiyasi nimani bildiradi?",
+      "options": [
+        "Faqat odamning ongli buyrug‘i bilan urish",
+        "Har doim bir xil kuch bilan o‘zgarmay urish",
+        "Yurakning nerv va gormonlarga umuman javob bermasligi",
+        "Yurakdagi o‘z qo‘zg‘alishlari ta’sirida ritmik qisqarish"
+      ],
+      "correct_answer": "Yurakdagi o‘z qo‘zg‘alishlari ta’sirida ritmik qisqarish",
+      "explanation": "Yurakning o‘zidagi maxsus hujayralarda paydo bo‘ladigan qo‘zg‘alishlar uning ritmik qisqarishiga asos bo‘ladi. Bu yurak avtomatiyasidir."
+    },
+    {
+      "key": "paragraph-18-q6",
+      "fact_id": "paragraph-18-f6",
+      "question_text": "Yurak siklidagi to‘g‘ri ketma-ketlik qaysi?",
+      "options": [
+        "Doimo faqat qorincha bo‘shashishi",
+        "Bo‘lmachalar ishining umrbod to‘xtashi",
+        "Bo‘lmacha qisqarishi → qorincha qisqarishi → umumiy bo‘shashish",
+        "Doimo faqat bo‘lmacha qisqarishi"
+      ],
+      "correct_answer": "Bo‘lmacha qisqarishi → qorincha qisqarishi → umumiy bo‘shashish",
+      "explanation": "Yurak siklida bo‘lmachalar qisqarishi, qorinchalar qisqarishi va umumiy bo‘shashish navbatlashadi."
+    },
+    {
+      "key": "paragraph-18-q7",
+      "fact_id": "paragraph-18-f7",
+      "question_text": "Har urishda 70 ml qon chiqib, yurak minutiga 70 marta ursa, minutlik hajm qancha?",
+      "options": [
+        "140 litr",
+        "4,9 litr",
+        "49 litr",
+        "0,49 litr"
+      ],
+      "correct_answer": "4,9 litr",
+      "explanation": "Minutlik hajm bir urishda chiqarilgan qon hajmi bilan bir minutdagi urishlar soni ko‘paytmasidir. 70 ml × 70 = 4900 ml, ya’ni 4,9 litr."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-12-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-16",
+  "title": "Muskullar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-12-f1": {
+      "claim": "Odamda skelet, yurak va silliq muskul to‘qimalari farqlanadi. Skelet muskullari odatda ixtiyoriy harakatlarni bajaradi.",
+      "answer": "Skelet muskuli",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f2": {
+      "claim": "Yurak muskuli ko‘ndalang chiziqli bo‘lsa-da, uning qisqarishi odamning ixtiyoriga bog‘liq emas.",
+      "answer": "Ko‘ndalang chiziqli, lekin ixtiyorsiz ishlaydi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f3": {
+      "claim": "Silliq muskullar ichak va qon tomirlari kabi ichki organlar devorida joylashadi. Ular ixtiyorsiz qisqaradi.",
+      "answer": "Silliq muskul",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f4": {
+      "claim": "Yelkaning old tomonidagi ikki boshli muskul qo‘lni tirsakdan bukishda, orqa tomonidagi uch boshli muskul yozishda qatnashadi.",
+      "answer": "Yelkaning uch boshli muskuli",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f5": {
+      "claim": "Muskul qisqarishda energiya sarflaydi. Oziq bilan keladigan organik moddalar parchalanishi bu energiyaning manbalaridan biridir.",
+      "answer": "Organik oziq moddalarning parchalanishidan",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f6": {
+      "claim": "Uzoq vaqt dam olmasdan ishlaganda muskulning ish qobiliyati vaqtincha pasayadi. Dam olish tiklanishga yordam beradi.",
+      "answer": "Ish qobiliyatining vaqtincha pasayishi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f7": {
+      "claim": "Harakatlantiruvchi nerv orqali muskulga kelgan impuls qisqarishni yuzaga keltiradi. Bu muskullar ishining nerv boshqarilishiga misoldir.",
+      "answer": "Harakatlantiruvchi nerv orqali",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Muskul turlari",
+      "body": "Odamda skelet, yurak va silliq muskul to‘qimalari farqlanadi. Skelet muskullari odatda ixtiyoriy harakatlarni bajaradi.",
+      "fact_ids": [
+        "paragraph-12-f1"
+      ]
+    },
+    {
+      "title": "Yurak muskuli",
+      "body": "Yurak muskuli ko‘ndalang chiziqli bo‘lsa-da, uning qisqarishi odamning ixtiyoriga bog‘liq emas.",
+      "fact_ids": [
+        "paragraph-12-f2"
+      ]
+    },
+    {
+      "title": "Silliq muskullar",
+      "body": "Silliq muskullar ichak va qon tomirlari kabi ichki organlar devorida joylashadi. Ular ixtiyorsiz qisqaradi.",
+      "fact_ids": [
+        "paragraph-12-f3"
+      ]
+    },
+    {
+      "title": "Bukish va yozish",
+      "body": "Yelkaning old tomonidagi ikki boshli muskul qo‘lni tirsakdan bukishda, orqa tomonidagi uch boshli muskul yozishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-12-f4"
+      ]
+    },
+    {
+      "title": "Muskul energiyasi",
+      "body": "Muskul qisqarishda energiya sarflaydi. Oziq bilan keladigan organik moddalar parchalanishi bu energiyaning manbalaridan biridir.",
+      "fact_ids": [
+        "paragraph-12-f5"
+      ]
+    },
+    {
+      "title": "Charchash va tiklanish",
+      "body": "Uzoq vaqt dam olmasdan ishlaganda muskulning ish qobiliyati vaqtincha pasayadi. Dam olish tiklanishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-12-f6"
+      ]
+    },
+    {
+      "title": "Harakatni boshqarish",
+      "body": "Harakatlantiruvchi nerv orqali muskulga kelgan impuls qisqarishni yuzaga keltiradi. Bu muskullar ishining nerv boshqarilishiga misoldir.",
+      "fact_ids": [
+        "paragraph-12-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-12-q1",
+      "fact_id": "paragraph-12-f1",
+      "question_text": "Qo‘lni xohish bilan ko‘tarishda asosan qaysi muskul turi ishlaydi?",
+      "options": [
+        "Yurak muskuli",
+        "Ichak silliq muskuli",
+        "Qon tomiri silliq muskuli",
+        "Skelet muskuli"
+      ],
+      "correct_answer": "Skelet muskuli",
+      "explanation": "Odamda skelet, yurak va silliq muskul to‘qimalari farqlanadi. Skelet muskullari odatda ixtiyoriy harakatlarni bajaradi."
+    },
+    {
+      "key": "paragraph-12-q2",
+      "fact_id": "paragraph-12-f2",
+      "question_text": "Yurak muskuli haqida to‘g‘ri fikrni toping.",
+      "options": [
+        "Paydan iborat va qisqarmaydi",
+        "Suyak to‘qimasidan tashkil topgan",
+        "Ko‘ndalang chiziqli, lekin ixtiyorsiz ishlaydi",
+        "Silliq va faqat buyruq bilan ishlaydi"
+      ],
+      "correct_answer": "Ko‘ndalang chiziqli, lekin ixtiyorsiz ishlaydi",
+      "explanation": "Yurak muskuli ko‘ndalang chiziqli bo‘lsa-da, uning qisqarishi odamning ixtiyoriga bog‘liq emas."
+    },
+    {
+      "key": "paragraph-12-q3",
+      "fact_id": "paragraph-12-f3",
+      "question_text": "Ichak devorida uchraydigan muskul turi qaysi?",
+      "options": [
+        "Faqat suyakusti pardasi",
+        "Silliq muskul",
+        "Faqat qo‘lning ikki boshli muskuli",
+        "Faqat yurak muskuli"
+      ],
+      "correct_answer": "Silliq muskul",
+      "explanation": "Silliq muskullar ichak va qon tomirlari kabi ichki organlar devorida joylashadi. Ular ixtiyorsiz qisqaradi."
+    },
+    {
+      "key": "paragraph-12-q4",
+      "fact_id": "paragraph-12-f4",
+      "question_text": "Tirsakni yozishda qaysi muskul muhim?",
+      "options": [
+        "Yelkaning uch boshli muskuli",
+        "Yelkaning ikki boshli muskuli",
+        "Faqat chaynash muskuli",
+        "Faqat diafragma"
+      ],
+      "correct_answer": "Yelkaning uch boshli muskuli",
+      "explanation": "Yelkaning old tomonidagi ikki boshli muskul qo‘lni tirsakdan bukishda, orqa tomonidagi uch boshli muskul yozishda qatnashadi."
+    },
+    {
+      "key": "paragraph-12-q5",
+      "fact_id": "paragraph-12-f5",
+      "question_text": "Muskul ishi uchun energiya qayerdan olinadi?",
+      "options": [
+        "Bo‘g‘imning quruq ishqalanishidan",
+        "Suyak mineral tuzlarining bug‘lanishidan",
+        "Teri rangining o‘zgarishidan",
+        "Organik oziq moddalarning parchalanishidan"
+      ],
+      "correct_answer": "Organik oziq moddalarning parchalanishidan",
+      "explanation": "Muskul qisqarishda energiya sarflaydi. Oziq bilan keladigan organik moddalar parchalanishi bu energiyaning manbalaridan biridir."
+    },
+    {
+      "key": "paragraph-12-q6",
+      "fact_id": "paragraph-12-f6",
+      "question_text": "Muskul charchashini qaysi holat ifodalaydi?",
+      "options": [
+        "Muskulning suyak to‘qimasiga aylanishi",
+        "Nerv tolalarining avtomatik uzilishi",
+        "Ish qobiliyatining vaqtincha pasayishi",
+        "Har qanday harakatning umrbod yo‘qolishi"
+      ],
+      "correct_answer": "Ish qobiliyatining vaqtincha pasayishi",
+      "explanation": "Uzoq vaqt dam olmasdan ishlaganda muskulning ish qobiliyati vaqtincha pasayadi. Dam olish tiklanishga yordam beradi."
+    },
+    {
+      "key": "paragraph-12-q7",
+      "fact_id": "paragraph-12-f7",
+      "question_text": "Muskulga qisqarish signali qaysi yo‘l bilan yetadi?",
+      "options": [
+        "Faqat bo‘g‘im suyuqligi orqali",
+        "Harakatlantiruvchi nerv orqali",
+        "Faqat suyak iligi orqali",
+        "Faqat ter bezining yo‘li orqali"
+      ],
+      "correct_answer": "Harakatlantiruvchi nerv orqali",
+      "explanation": "Harakatlantiruvchi nerv orqali muskulga kelgan impuls qisqarishni yuzaga keltiradi. Bu muskullar ishining nerv boshqarilishiga misoldir."
+    }
+  ]
+}

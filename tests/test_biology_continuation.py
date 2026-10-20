@@ -64,13 +64,28 @@ def test_distinct_continuation_questions_and_honest_theory_activity_counts():
     assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
     report = readiness_report(catalog, lessons)
     assert sum(r["topics"] for r in report) == 355
-    assert sum(r["ready_theory_lessons"] for r in report) == 149
-    assert sum(r["ready_activities"] for r in report) == 24
+    assert sum(r["ready_theory_lessons"] for r in report) == 169
+    assert sum(r["ready_activities"] for r in report) == 27
     assert all(r["course_ready"] for r in report[:3])
     assert not any(r["course_ready"] for r in report[3:])
     for row in report[:3]:
         assert row["remaining_topics"] == 0
         assert row["remaining_activity_ids"] == []
+
+
+def test_release_batches_preserve_foundation_and_add_twenty_to_thirty_theory_topics():
+    index = json.loads(CATALOG_PATH.with_name("biology_lessons.json").read_text())
+    catalog, _ = load_documents()
+    published = set(index["batches"]["foundation-19"])
+    for name, filenames in index["batches"].items():
+        if not name.startswith("continuation-"):
+            continue
+        assert not published.intersection(filenames), f"Republished lessons in {name}"
+        documents = load_lesson_set(batch=name)
+        records = [validate_lesson(catalog, document)[1] for document in documents]
+        assert 20 <= sum(r["kind"] == "topic" for r in records) <= 30
+        published.update(filenames)
+    assert published == set(index["lessons"]), "Unreleased drafts must not enter import"
 
 
 @pytest.mark.parametrize("damage", ["physical", "step", "source", "answer"])

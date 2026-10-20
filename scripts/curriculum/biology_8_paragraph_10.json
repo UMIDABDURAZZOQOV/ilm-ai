@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-10-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-14",
+  "title": "Suyaklarning tuzilishi va o‘sishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-10-f1": {
+      "claim": "Suyak biriktiruvchi to‘qima turi bo‘lib, hujayralar va qattiq hujayralararo moddadan iborat. Unda nervlar va qon tomirlari mavjud.",
+      "answer": "Unda hujayralar, nervlar va qon tomirlari bor",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f2": {
+      "claim": "Suyakning qizil iligida qonning shaklli elementlari hosil bo‘ladi; uzun naysimon suyak kovagida sariq ilik ham bo‘ladi.",
+      "answer": "Qizil suyak iligi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f3": {
+      "claim": "O‘sayotgan naysimon suyakning uzunlashishi uning uchlariga yaqin tog‘aylarning o‘sishi bilan bog‘liq.",
+      "answer": "Uchlariga yaqin o‘sish tog‘ayi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f4": {
+      "claim": "Suyakusti pardasi suyakning yo‘g‘onlashib o‘sishida qatnashadi. Bu uzunlikka o‘sishdan farqlanadi.",
+      "answer": "Suyakusti pardasi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f5": {
+      "claim": "Suyakdagi kalsiy tuzlari kabi anorganik moddalar uning qattiqligini ta’minlaydi.",
+      "answer": "Anorganik mineral tuzlar",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f6": {
+      "claim": "Suyakdagi organik moddalar qayishqoqlikka hissa qo‘shadi. Organik va mineral tarkib birgalikda suyakning mustahkamligini ta’minlaydi.",
+      "answer": "Qayishqoqlik",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tirik suyak",
+      "body": "Suyak biriktiruvchi to‘qima turi bo‘lib, hujayralar va qattiq hujayralararo moddadan iborat. Unda nervlar va qon tomirlari mavjud.",
+      "fact_ids": [
+        "paragraph-10-f1"
+      ]
+    },
+    {
+      "title": "Suyak iligi",
+      "body": "Suyakning qizil iligida qonning shaklli elementlari hosil bo‘ladi; uzun naysimon suyak kovagida sariq ilik ham bo‘ladi.",
+      "fact_ids": [
+        "paragraph-10-f2"
+      ]
+    },
+    {
+      "title": "Bo‘yiga o‘sish",
+      "body": "O‘sayotgan naysimon suyakning uzunlashishi uning uchlariga yaqin tog‘aylarning o‘sishi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-10-f3"
+      ]
+    },
+    {
+      "title": "Yo‘g‘onlashish",
+      "body": "Suyakusti pardasi suyakning yo‘g‘onlashib o‘sishida qatnashadi. Bu uzunlikka o‘sishdan farqlanadi.",
+      "fact_ids": [
+        "paragraph-10-f4"
+      ]
+    },
+    {
+      "title": "Mineral moddalar",
+      "body": "Suyakdagi kalsiy tuzlari kabi anorganik moddalar uning qattiqligini ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-10-f5"
+      ]
+    },
+    {
+      "title": "Organik moddalar",
+      "body": "Suyakdagi organik moddalar qayishqoqlikka hissa qo‘shadi. Organik va mineral tarkib birgalikda suyakning mustahkamligini ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-10-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-10-q1",
+      "fact_id": "paragraph-10-f1",
+      "question_text": "Suyakni tirik to‘qima deyishga qaysi dalil mos?",
+      "options": [
+        "U faqat jonsiz toshdan iborat",
+        "Unda hech qachon modda almashinuvi bo‘lmaydi",
+        "Uning tarkibida hujayra bo‘lmaydi",
+        "Unda hujayralar, nervlar va qon tomirlari bor"
+      ],
+      "correct_answer": "Unda hujayralar, nervlar va qon tomirlari bor",
+      "explanation": "Suyak biriktiruvchi to‘qima turi bo‘lib, hujayralar va qattiq hujayralararo moddadan iborat. Unda nervlar va qon tomirlari mavjud."
+    },
+    {
+      "key": "paragraph-10-q2",
+      "fact_id": "paragraph-10-f2",
+      "question_text": "Qon hujayralari hosil bo‘lishi bilan qaysi tuzilma bog‘liq?",
+      "options": [
+        "Bo‘g‘imning faqat tashqi terisi",
+        "Soch tolasi",
+        "Qizil suyak iligi",
+        "Tish emali"
+      ],
+      "correct_answer": "Qizil suyak iligi",
+      "explanation": "Suyakning qizil iligida qonning shaklli elementlari hosil bo‘ladi; uzun naysimon suyak kovagida sariq ilik ham bo‘ladi."
+    },
+    {
+      "key": "paragraph-10-q3",
+      "fact_id": "paragraph-10-f3",
+      "question_text": "O‘sayotgan uzun suyakning bo‘yiga uzayishida nima muhim?",
+      "options": [
+        "Tirnoq uchining kesilishi",
+        "Uchlariga yaqin o‘sish tog‘ayi",
+        "Faqat terining qorayishi",
+        "Faqat sariq ilikning rangi"
+      ],
+      "correct_answer": "Uchlariga yaqin o‘sish tog‘ayi",
+      "explanation": "O‘sayotgan naysimon suyakning uzunlashishi uning uchlariga yaqin tog‘aylarning o‘sishi bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-10-q4",
+      "fact_id": "paragraph-10-f4",
+      "question_text": "Suyakning yo‘g‘onlashishida qaysi tuzilma qatnashadi?",
+      "options": [
+        "Suyakusti pardasi",
+        "Ko‘z gavhari",
+        "Ichak kipriklari",
+        "Tish toji"
+      ],
+      "correct_answer": "Suyakusti pardasi",
+      "explanation": "Suyakusti pardasi suyakning yo‘g‘onlashib o‘sishida qatnashadi. Bu uzunlikka o‘sishdan farqlanadi."
+    },
+    {
+      "key": "paragraph-10-q5",
+      "fact_id": "paragraph-10-f5",
+      "question_text": "Suyakning qattiqligi asosan qaysi tarkib bilan bog‘liq?",
+      "options": [
+        "Faqat ichidagi havo",
+        "Faqat teri pigmenti",
+        "Faqat ko‘z yoshi suvi",
+        "Anorganik mineral tuzlar"
+      ],
+      "correct_answer": "Anorganik mineral tuzlar",
+      "explanation": "Suyakdagi kalsiy tuzlari kabi anorganik moddalar uning qattiqligini ta’minlaydi."
+    },
+    {
+      "key": "paragraph-10-q6",
+      "fact_id": "paragraph-10-f6",
+      "question_text": "Mineral tuzlardan farqli ravishda organik moddalar suyakka nima beradi?",
+      "options": [
+        "Gaz almashinuvi",
+        "So‘lak ajratish xususiyati",
+        "Qayishqoqlik",
+        "Faqat tashqi ko‘k rang"
+      ],
+      "correct_answer": "Qayishqoqlik",
+      "explanation": "Suyakdagi organik moddalar qayishqoqlikka hissa qo‘shadi. Organik va mineral tarkib birgalikda suyakning mustahkamligini ta’minlaydi."
+    }
+  ]
+}

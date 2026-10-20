@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-11-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-15",
+  "title": "Suyaklar shikastlanganida birinchi yordam ko‘rsatish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-11-f1": {
+      "claim": "Pay-boylam shikastlanganida bo‘g‘im atrofida og‘riq va shish bo‘lishi mumkin. Shikastlangan joyni zo‘riqtirishdan saqlash va tibbiy yordamga murojaat qilish kerak.",
+      "answer": "Harakatni to‘xtatib, tibbiy yordamga murojaat qilish",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f2": {
+      "claim": "Suyak chiqishida bo‘g‘im yuzalari odatdagi holatidan siljiydi. Uni tibbiy malakasiz kuch bilan joyiga solishga urinish jarohatni kuchaytirishi mumkin.",
+      "answer": "Bo‘g‘imni kuch bilan o‘zi joyiga solish",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f3": {
+      "claim": "Suyak sinishi ochiq yoki yopiq bo‘lishi mumkin. Ochiq jarohatda teri shikastlanishi va infeksiya tushishi xavfi mavjud.",
+      "answer": "Jarohatga infeksiya tushishi",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f4": {
+      "claim": "Suyak singan deb gumon qilinganda shikastlangan qismning qimirlamasligini ta’minlash muhim. Keraksiz siljish qo‘shni to‘qimalarni jarohatlashi mumkin.",
+      "answer": "Suyak bo‘laklari siljishi va qo‘shimcha shikastni kamaytirish",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f5": {
+      "claim": "Ochiq sinishdagi jarohatga toza bog‘ich qo‘yish va bemorni tibbiy yordamga yetkazish darslikda ta’kidlanadi.",
+      "answer": "Toza bog‘ich",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f6": {
+      "claim": "Bosh yoki umurtqa jarohatidan shubhalanganda tibbiy yordamni kechiktirmaslik kerak. Darslik bunday jarohatlarda tibbiy yordam chaqirishni ko‘rsatadi.",
+      "answer": "Kechiktirmay tibbiy yordam chaqirish",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          35
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bo‘g‘im jarohati",
+      "body": "Pay-boylam shikastlanganida bo‘g‘im atrofida og‘riq va shish bo‘lishi mumkin. Shikastlangan joyni zo‘riqtirishdan saqlash va tibbiy yordamga murojaat qilish kerak.",
+      "fact_ids": [
+        "paragraph-11-f1"
+      ]
+    },
+    {
+      "title": "Suyak chiqishi",
+      "body": "Suyak chiqishida bo‘g‘im yuzalari odatdagi holatidan siljiydi. Uni tibbiy malakasiz kuch bilan joyiga solishga urinish jarohatni kuchaytirishi mumkin.",
+      "fact_ids": [
+        "paragraph-11-f2"
+      ]
+    },
+    {
+      "title": "Sinish turlari",
+      "body": "Suyak sinishi ochiq yoki yopiq bo‘lishi mumkin. Ochiq jarohatda teri shikastlanishi va infeksiya tushishi xavfi mavjud.",
+      "fact_ids": [
+        "paragraph-11-f3"
+      ]
+    },
+    {
+      "title": "Harakatsiz tutish",
+      "body": "Suyak singan deb gumon qilinganda shikastlangan qismning qimirlamasligini ta’minlash muhim. Keraksiz siljish qo‘shni to‘qimalarni jarohatlashi mumkin.",
+      "fact_ids": [
+        "paragraph-11-f4"
+      ]
+    },
+    {
+      "title": "Toza bog‘ich",
+      "body": "Ochiq sinishdagi jarohatga toza bog‘ich qo‘yish va bemorni tibbiy yordamga yetkazish darslikda ta’kidlanadi.",
+      "fact_ids": [
+        "paragraph-11-f5"
+      ]
+    },
+    {
+      "title": "Shoshilinch yordam",
+      "body": "Bosh yoki umurtqa jarohatidan shubhalanganda tibbiy yordamni kechiktirmaslik kerak. Darslik bunday jarohatlarda tibbiy yordam chaqirishni ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-11-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-11-q1",
+      "fact_id": "paragraph-11-f1",
+      "question_text": "Sportdan keyin bo‘g‘im shishib, qattiq og‘risa, qaysi qaror ma’qul?",
+      "options": [
+        "Og‘riqqa qaramay yugurishni davom ettirish",
+        "Jarohatni sinash uchun kuch bilan burash",
+        "Bo‘g‘imni joyiga o‘zi solish",
+        "Harakatni to‘xtatib, tibbiy yordamga murojaat qilish"
+      ],
+      "correct_answer": "Harakatni to‘xtatib, tibbiy yordamga murojaat qilish",
+      "explanation": "Pay-boylam shikastlanganida bo‘g‘im atrofida og‘riq va shish bo‘lishi mumkin. Shikastlangan joyni zo‘riqtirishdan saqlash va tibbiy yordamga murojaat qilish kerak."
+    },
+    {
+      "key": "paragraph-11-q2",
+      "fact_id": "paragraph-11-f2",
+      "question_text": "Suyak chiqqan deb gumon qilinganda nima qilish mumkin emas?",
+      "options": [
+        "Tibbiy yordam chaqirish",
+        "Harakatni kamaytirish",
+        "Bo‘g‘imni kuch bilan o‘zi joyiga solish",
+        "Jarohatlangan qismni tinch tutish"
+      ],
+      "correct_answer": "Bo‘g‘imni kuch bilan o‘zi joyiga solish",
+      "explanation": "Suyak chiqishida bo‘g‘im yuzalari odatdagi holatidan siljiydi. Uni tibbiy malakasiz kuch bilan joyiga solishga urinish jarohatni kuchaytirishi mumkin."
+    },
+    {
+      "key": "paragraph-11-q3",
+      "fact_id": "paragraph-11-f3",
+      "question_text": "Ochiq sinishda qo‘shimcha qaysi xavf bor?",
+      "options": [
+        "Qon tomirlarining avtomatik mustahkamlanishi",
+        "Jarohatga infeksiya tushishi",
+        "Suyakning darhol to‘liq bitishi",
+        "Bo‘g‘imning hech qachon og‘rimasligi"
+      ],
+      "correct_answer": "Jarohatga infeksiya tushishi",
+      "explanation": "Suyak sinishi ochiq yoki yopiq bo‘lishi mumkin. Ochiq jarohatda teri shikastlanishi va infeksiya tushishi xavfi mavjud."
+    },
+    {
+      "key": "paragraph-11-q4",
+      "fact_id": "paragraph-11-f4",
+      "question_text": "Singan joyni harakatsiz tutishning maqsadi nima?",
+      "options": [
+        "Suyak bo‘laklari siljishi va qo‘shimcha shikastni kamaytirish",
+        "Suyakni kuch bilan cho‘zish",
+        "Qon oqishini ataylab tezlatish",
+        "Og‘riqni tekshirish uchun bo‘g‘imni burash"
+      ],
+      "correct_answer": "Suyak bo‘laklari siljishi va qo‘shimcha shikastni kamaytirish",
+      "explanation": "Suyak singan deb gumon qilinganda shikastlangan qismning qimirlamasligini ta’minlash muhim. Keraksiz siljish qo‘shni to‘qimalarni jarohatlashi mumkin."
+    },
+    {
+      "key": "paragraph-11-q5",
+      "fact_id": "paragraph-11-f5",
+      "question_text": "Ochiq sinishda jarohatni tashqi ifloslanishdan saqlashga nima yordam beradi?",
+      "options": [
+        "Tuproq sepish",
+        "Suyakni tashqaridan kuch bilan bosish",
+        "Jarohatni ochiq iflos holda qoldirish",
+        "Toza bog‘ich"
+      ],
+      "correct_answer": "Toza bog‘ich",
+      "explanation": "Ochiq sinishdagi jarohatga toza bog‘ich qo‘yish va bemorni tibbiy yordamga yetkazish darslikda ta’kidlanadi."
+    },
+    {
+      "key": "paragraph-11-q6",
+      "fact_id": "paragraph-11-f6",
+      "question_text": "Bosh yoki umurtqa jarohati gumonida eng muhim qaror qaysi?",
+      "options": [
+        "Boshni kuch bilan burab tekshirish",
+        "Umurtqani uyda to‘g‘rilashga urinish",
+        "Kechiktirmay tibbiy yordam chaqirish",
+        "Alomatlar kuchayguncha sport bilan shug‘ullanish"
+      ],
+      "correct_answer": "Kechiktirmay tibbiy yordam chaqirish",
+      "explanation": "Bosh yoki umurtqa jarohatidan shubhalanganda tibbiy yordamni kechiktirmaslik kerak. Darslik bunday jarohatlarda tibbiy yordam chaqirishni ko‘rsatadi."
+    }
+  ]
+}

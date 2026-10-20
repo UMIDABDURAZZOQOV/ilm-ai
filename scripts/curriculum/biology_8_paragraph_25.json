@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-25-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-32",
+  "title": "Nafas olishning boshqarilishi, nafas olish organlari kasalliklari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-25-f1": {
+      "claim": "Nafas olish harakatlarining muhim markazi uzunchoq miyada joylashgan. Nerv impulslari nafas muskullariga uzatiladi.",
+      "answer": "Uzunchoq miyada",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f2": {
+      "claim": "Qonda karbonat angidrid ortishi nafas markazi faoliyatiga ta’sir etib, nafasni tezlashtirish va chuqurlashtirishga yordam beradi.",
+      "answer": "Nafas olishning tezlashishi va chuqurlashishi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f3": {
+      "claim": "Aksirish va yo‘tal nafas yo‘llarini begona zarrachalardan tozalashga yordam beradigan himoya reflekslaridir.",
+      "answer": "Burun yo‘lidagi ta’sirlovchi zarrachalarni chiqarishga yordam berish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f4": {
+      "claim": "Grippni viruslar qo‘zg‘atadi. Nafas yo‘llaridan ajralgan zarrachalar bilan infeksiya boshqalarga tarqalishi mumkin.",
+      "answer": "Virus",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f5": {
+      "claim": "O‘pka silini sil tayoqchasi deb ataladigan bakteriyalar qo‘zg‘atadi. Bu gripp virusi bilan bir xil qo‘zg‘atuvchi emas.",
+      "answer": "Sil — bakteriya, gripp — virus",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f6": {
+      "claim": "Gul yoki uy changi kabi ayrim moddalar ularga sezgir odamda allergik belgilarni qo‘zg‘atishi mumkin. Allergiyani infeksiya bilan bir xil tushunmaslik kerak.",
+      "answer": "Gul yoki uy changi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f7": {
+      "claim": "Tamaki tutuni nafas yo‘llari himoyasiga zarar yetkazadi. Undagi is gazi gemoglobin bilan birikib, kislorod tashilishiga to‘sqinlik qilishi mumkin.",
+      "answer": "Gemoglobin orqali kislorod tashilishini buzadi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Nafas markazi",
+      "body": "Nafas olish harakatlarining muhim markazi uzunchoq miyada joylashgan. Nerv impulslari nafas muskullariga uzatiladi.",
+      "fact_ids": [
+        "paragraph-25-f1"
+      ]
+    },
+    {
+      "title": "Karbonat angidrid signali",
+      "body": "Qonda karbonat angidrid ortishi nafas markazi faoliyatiga ta’sir etib, nafasni tezlashtirish va chuqurlashtirishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-25-f2"
+      ]
+    },
+    {
+      "title": "Himoya refleksi",
+      "body": "Aksirish va yo‘tal nafas yo‘llarini begona zarrachalardan tozalashga yordam beradigan himoya reflekslaridir.",
+      "fact_ids": [
+        "paragraph-25-f3"
+      ]
+    },
+    {
+      "title": "Gripp qo‘zg‘atuvchisi",
+      "body": "Grippni viruslar qo‘zg‘atadi. Nafas yo‘llaridan ajralgan zarrachalar bilan infeksiya boshqalarga tarqalishi mumkin.",
+      "fact_ids": [
+        "paragraph-25-f4"
+      ]
+    },
+    {
+      "title": "Sil qo‘zg‘atuvchisi",
+      "body": "O‘pka silini sil tayoqchasi deb ataladigan bakteriyalar qo‘zg‘atadi. Bu gripp virusi bilan bir xil qo‘zg‘atuvchi emas.",
+      "fact_ids": [
+        "paragraph-25-f5"
+      ]
+    },
+    {
+      "title": "Allergik ta’sir",
+      "body": "Gul yoki uy changi kabi ayrim moddalar ularga sezgir odamda allergik belgilarni qo‘zg‘atishi mumkin. Allergiyani infeksiya bilan bir xil tushunmaslik kerak.",
+      "fact_ids": [
+        "paragraph-25-f6"
+      ]
+    },
+    {
+      "title": "Tamaki tutuni",
+      "body": "Tamaki tutuni nafas yo‘llari himoyasiga zarar yetkazadi. Undagi is gazi gemoglobin bilan birikib, kislorod tashilishiga to‘sqinlik qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-25-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-25-q1",
+      "fact_id": "paragraph-25-f1",
+      "question_text": "Nafas ritmini boshqaruvchi muhim markaz qayerda?",
+      "options": [
+        "Faqat oshqozon shilliq pardasida",
+        "Faqat buyrak jomida",
+        "Faqat tizza bo‘g‘imida",
+        "Uzunchoq miyada"
+      ],
+      "correct_answer": "Uzunchoq miyada",
+      "explanation": "Nafas olish harakatlarining muhim markazi uzunchoq miyada joylashgan. Nerv impulslari nafas muskullariga uzatiladi."
+    },
+    {
+      "key": "paragraph-25-q2",
+      "fact_id": "paragraph-25-f2",
+      "question_text": "Qonda CO₂ ortganda nafas boshqaruvidagi javob odatda qaysi?",
+      "options": [
+        "Alveolalarning suyakka aylanishi",
+        "Burun bo‘shlig‘ining yo‘qolishi",
+        "Nafas olishning tezlashishi va chuqurlashishi",
+        "Nafas muskullarining doimo umrbod to‘xtashi"
+      ],
+      "correct_answer": "Nafas olishning tezlashishi va chuqurlashishi",
+      "explanation": "Qonda karbonat angidrid ortishi nafas markazi faoliyatiga ta’sir etib, nafasni tezlashtirish va chuqurlashtirishga yordam beradi."
+    },
+    {
+      "key": "paragraph-25-q3",
+      "fact_id": "paragraph-25-f3",
+      "question_text": "Aksirishga qaysi vazifa mos?",
+      "options": [
+        "Suyakni uzunlashtirish",
+        "Burun yo‘lidagi ta’sirlovchi zarrachalarni chiqarishga yordam berish",
+        "Qon guruhini aniqlash",
+        "Ovqatni ichakda maydalash"
+      ],
+      "correct_answer": "Burun yo‘lidagi ta’sirlovchi zarrachalarni chiqarishga yordam berish",
+      "explanation": "Aksirish va yo‘tal nafas yo‘llarini begona zarrachalardan tozalashga yordam beradigan himoya reflekslaridir."
+    },
+    {
+      "key": "paragraph-25-q4",
+      "fact_id": "paragraph-25-f4",
+      "question_text": "Grippning qo‘zg‘atuvchisi qaysi turga kiradi?",
+      "options": [
+        "Virus",
+        "Faqat parazit chuvalchang",
+        "Faqat mineral tuz",
+        "Faqat gul changi"
+      ],
+      "correct_answer": "Virus",
+      "explanation": "Grippni viruslar qo‘zg‘atadi. Nafas yo‘llaridan ajralgan zarrachalar bilan infeksiya boshqalarga tarqalishi mumkin."
+    },
+    {
+      "key": "paragraph-25-q5",
+      "fact_id": "paragraph-25-f5",
+      "question_text": "Sil va gripp qo‘zg‘atuvchilari qaysi qatorda to‘g‘ri farqlangan?",
+      "options": [
+        "Sil — virus, gripp — chuvalchang",
+        "Ikkalasi ham faqat gul changi",
+        "Ikkalasi ham faqat oziq yetishmasligi",
+        "Sil — bakteriya, gripp — virus"
+      ],
+      "correct_answer": "Sil — bakteriya, gripp — virus",
+      "explanation": "O‘pka silini sil tayoqchasi deb ataladigan bakteriyalar qo‘zg‘atadi. Bu gripp virusi bilan bir xil qo‘zg‘atuvchi emas."
+    },
+    {
+      "key": "paragraph-25-q6",
+      "fact_id": "paragraph-25-f6",
+      "question_text": "Allergik belgilarni qo‘zg‘atishi mumkin bo‘lgan modda qaysi?",
+      "options": [
+        "Faqat suyak iligi",
+        "Faqat bo‘g‘im suyuqligi",
+        "Gul yoki uy changi",
+        "Faqat qon guruhi nomi"
+      ],
+      "correct_answer": "Gul yoki uy changi",
+      "explanation": "Gul yoki uy changi kabi ayrim moddalar ularga sezgir odamda allergik belgilarni qo‘zg‘atishi mumkin. Allergiyani infeksiya bilan bir xil tushunmaslik kerak."
+    },
+    {
+      "key": "paragraph-25-q7",
+      "fact_id": "paragraph-25-f7",
+      "question_text": "Tamaki tutunidagi is gazi qanday zarar yetkazadi?",
+      "options": [
+        "Alveolalarni yangi suyak bilan almashtiradi",
+        "Gemoglobin orqali kislorod tashilishini buzadi",
+        "Kislorod tashishni doimo yaxshilaydi",
+        "Qon guruhini sog‘lom guruhga almashtiradi"
+      ],
+      "correct_answer": "Gemoglobin orqali kislorod tashilishini buzadi",
+      "explanation": "Tamaki tutuni nafas yo‘llari himoyasiga zarar yetkazadi. Undagi is gazi gemoglobin bilan birikib, kislorod tashilishiga to‘sqinlik qilishi mumkin."
+    }
+  ]
+}

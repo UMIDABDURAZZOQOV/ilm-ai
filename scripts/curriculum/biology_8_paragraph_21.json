@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-21-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-27",
+  "title": "Qon aylanish organlari ishining boshqarilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-21-f1": {
+      "claim": "Simpatik nerv ta’siri yurak qisqarish tezligi va kuchini oshirishi mumkin.",
+      "answer": "Tezlik va kuchini oshiradi",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f2": {
+      "claim": "Parasimpatik nerv ta’siri yurak qisqarishini sekinlashtiradi; simpatik va parasimpatik boshqaruv ta’siri farqlanadi.",
+      "answer": "Parasimpatik",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f3": {
+      "claim": "Adrenalin yurak ishini tezlashtirish va kuchaytirishda qatnashadi. Bu gumoral boshqarilish misolidir.",
+      "answer": "Gumoral boshqarilish",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f4": {
+      "claim": "Jismoniy ishda yurak tezroq va kuchliroq qisqarib, faol muskullarga ko‘proq qon yetkazishga yordam beradi.",
+      "answer": "Muskullarga kislorod va oziq moddalar yetkazilishini oshirish",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f5": {
+      "claim": "Darslik arterial qon bosimining oshishini gipertoniya bilan bog‘laydi. Qon bosimi yurak va tomirlar faoliyatiga tegishli ko‘rsatkichdir.",
+      "answer": "Arterial qon bosimi",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f6": {
+      "claim": "Darslik yurak-tomir salomatligi uchun zararli odatlardan saqlanish va muntazam me’yoriy jismoniy faollikni ta’kidlaydi.",
+      "answer": "Chekmaslik va muntazam me’yoriy jismoniy faollik",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Simpatik ta’sir",
+      "body": "Simpatik nerv ta’siri yurak qisqarish tezligi va kuchini oshirishi mumkin.",
+      "fact_ids": [
+        "paragraph-21-f1"
+      ]
+    },
+    {
+      "title": "Parasimpatik ta’sir",
+      "body": "Parasimpatik nerv ta’siri yurak qisqarishini sekinlashtiradi; simpatik va parasimpatik boshqaruv ta’siri farqlanadi.",
+      "fact_ids": [
+        "paragraph-21-f2"
+      ]
+    },
+    {
+      "title": "Adrenalin javobi",
+      "body": "Adrenalin yurak ishini tezlashtirish va kuchaytirishda qatnashadi. Bu gumoral boshqarilish misolidir.",
+      "fact_ids": [
+        "paragraph-21-f3"
+      ]
+    },
+    {
+      "title": "Faol muskul ehtiyoji",
+      "body": "Jismoniy ishda yurak tezroq va kuchliroq qisqarib, faol muskullarga ko‘proq qon yetkazishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-21-f4"
+      ]
+    },
+    {
+      "title": "Gipertoniya tushunchasi",
+      "body": "Darslik arterial qon bosimining oshishini gipertoniya bilan bog‘laydi. Qon bosimi yurak va tomirlar faoliyatiga tegishli ko‘rsatkichdir.",
+      "fact_ids": [
+        "paragraph-21-f5"
+      ]
+    },
+    {
+      "title": "Oldini olish",
+      "body": "Darslik yurak-tomir salomatligi uchun zararli odatlardan saqlanish va muntazam me’yoriy jismoniy faollikni ta’kidlaydi.",
+      "fact_ids": [
+        "paragraph-21-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-21-q1",
+      "fact_id": "paragraph-21-f1",
+      "question_text": "Simpatik nerv yurakka odatda qanday ta’sir qiladi?",
+      "options": [
+        "Har doim yurakni to‘xtatadi",
+        "Yurakni suyak to‘qimasiga aylantiradi",
+        "Qonni faqat limfaga aylantiradi",
+        "Tezlik va kuchini oshiradi"
+      ],
+      "correct_answer": "Tezlik va kuchini oshiradi",
+      "explanation": "Simpatik nerv ta’siri yurak qisqarish tezligi va kuchini oshirishi mumkin."
+    },
+    {
+      "key": "paragraph-21-q2",
+      "fact_id": "paragraph-21-f2",
+      "question_text": "Yurak urishini sekinlashtiruvchi nerv ta’siri qaysi?",
+      "options": [
+        "Faqat ko‘ruv nervi",
+        "Faqat eshituv nervi",
+        "Parasimpatik",
+        "Simpatik"
+      ],
+      "correct_answer": "Parasimpatik",
+      "explanation": "Parasimpatik nerv ta’siri yurak qisqarishini sekinlashtiradi; simpatik va parasimpatik boshqaruv ta’siri farqlanadi."
+    },
+    {
+      "key": "paragraph-21-q3",
+      "fact_id": "paragraph-21-f3",
+      "question_text": "Yurakka adrenalin ta’siri qanday boshqarilishga misol?",
+      "options": [
+        "Faqat tovushni sezish",
+        "Gumoral boshqarilish",
+        "Faqat mexanik suyak tayanchi",
+        "Faqat ovqatni chaynash"
+      ],
+      "correct_answer": "Gumoral boshqarilish",
+      "explanation": "Adrenalin yurak ishini tezlashtirish va kuchaytirishda qatnashadi. Bu gumoral boshqarilish misolidir."
+    },
+    {
+      "key": "paragraph-21-q4",
+      "fact_id": "paragraph-21-f4",
+      "question_text": "Jismoniy ishda yurak faoliyatining kuchayishi nima uchun kerak?",
+      "options": [
+        "Muskullarga kislorod va oziq moddalar yetkazilishini oshirish",
+        "Muskullarni kislorodsiz qoldirish",
+        "Ovqat yo‘lini butunlay berkitish",
+        "Suyak iligini to‘xtatish"
+      ],
+      "correct_answer": "Muskullarga kislorod va oziq moddalar yetkazilishini oshirish",
+      "explanation": "Jismoniy ishda yurak tezroq va kuchliroq qisqarib, faol muskullarga ko‘proq qon yetkazishga yordam beradi."
+    },
+    {
+      "key": "paragraph-21-q5",
+      "fact_id": "paragraph-21-f5",
+      "question_text": "Gipertoniya qaysi ko‘rsatkichning oshishi bilan bog‘liq?",
+      "options": [
+        "Faqat bo‘y uzunligi",
+        "Faqat tishlar soni",
+        "Faqat nafas yo‘li diametri",
+        "Arterial qon bosimi"
+      ],
+      "correct_answer": "Arterial qon bosimi",
+      "explanation": "Darslik arterial qon bosimining oshishini gipertoniya bilan bog‘laydi. Qon bosimi yurak va tomirlar faoliyatiga tegishli ko‘rsatkichdir."
+    },
+    {
+      "key": "paragraph-21-q6",
+      "fact_id": "paragraph-21-f6",
+      "question_text": "Yurak-tomir salomatligiga mos odat qaysi?",
+      "options": [
+        "Harakatni umuman cheklash",
+        "Og‘riqqa qaramay ortiqcha yuklama berish",
+        "Chekmaslik va muntazam me’yoriy jismoniy faollik",
+        "Chekish orqali tomirlarni chiniqtirish"
+      ],
+      "correct_answer": "Chekmaslik va muntazam me’yoriy jismoniy faollik",
+      "explanation": "Darslik yurak-tomir salomatligi uchun zararli odatlardan saqlanish va muntazam me’yoriy jismoniy faollikni ta’kidlaydi."
+    }
+  ]
+}

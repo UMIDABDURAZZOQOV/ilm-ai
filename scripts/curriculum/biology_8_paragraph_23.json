@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-23-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-30",
+  "title": "Nafas olish organlarining tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-23-f1": {
+      "claim": "Nafas olish sistemasi havo o‘tkazuvchi yo‘llar va o‘pkadan iborat. Havo burun bo‘shlig‘i, halqum, hiqildoq, kekirdak va bronxlar orqali o‘pkaga boradi.",
+      "answer": "Burun → halqum → hiqildoq → kekirdak → bronx",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f2": {
+      "claim": "Burun bo‘shlig‘idan o‘tayotgan havo namlanadi va iliydi; shilliq parda hamda tuklar changni ushlashda qatnashadi.",
+      "answer": "Havoning namlanishi, ilishi va changdan tozalanishi",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f3": {
+      "claim": "Yutish paytida hiqildoq yo‘lini hiqildoq usti tog‘ayi berkitadi. Bu ovqatning nafas yo‘liga ketishidan saqlashga yordam beradi.",
+      "answer": "Hiqildoq usti tog‘ayi",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f4": {
+      "claim": "Nafas chiqarilgan havo hiqildoqdagi ovoz paylarini tebratib tovush hosil qiladi.",
+      "answer": "Hiqildoqda",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f5": {
+      "claim": "Kekirdak ikki asosiy bronxga bo‘linadi; o‘pkada ularning shoxlari mayda havo yo‘llarini hosil qiladi. Ularning oxiridagi alveolalar kapillyarlar bilan o‘ralgan.",
+      "answer": "Alveolalar",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f6": {
+      "claim": "O‘pka va ko‘krak qafasi ichki yuzasi ikki qavat plevra bilan qoplangan. Ichki qavati o‘pka sirtini o‘raydi.",
+      "answer": "Plevra",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f7": {
+      "claim": "Nafas olishda diafragma va tashqi qovurg‘alararo muskullar qisqaradi; ko‘krak qafasi kengayib, o‘pkadagi bosim pasayganda havo ichkariga kiradi.",
+      "answer": "Ko‘krak hajmi ortib, o‘pkadagi bosim pasayishi",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f8": {
+      "claim": "Jismoniy harakatda nafas olish tezlashadi. Organizm ehtiyojiga qarab nafas harakatlari tinch holatdan farqlanadi.",
+      "answer": "Tezlashadi",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Havoning yo‘li",
+      "body": "Nafas olish sistemasi havo o‘tkazuvchi yo‘llar va o‘pkadan iborat. Havo burun bo‘shlig‘i, halqum, hiqildoq, kekirdak va bronxlar orqali o‘pkaga boradi.",
+      "fact_ids": [
+        "paragraph-23-f1"
+      ]
+    },
+    {
+      "title": "Burunning vazifasi",
+      "body": "Burun bo‘shlig‘idan o‘tayotgan havo namlanadi va iliydi; shilliq parda hamda tuklar changni ushlashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-23-f2"
+      ]
+    },
+    {
+      "title": "Yutishdagi himoya",
+      "body": "Yutish paytida hiqildoq yo‘lini hiqildoq usti tog‘ayi berkitadi. Bu ovqatning nafas yo‘liga ketishidan saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-23-f3"
+      ]
+    },
+    {
+      "title": "Ovoz manbai",
+      "body": "Nafas chiqarilgan havo hiqildoqdagi ovoz paylarini tebratib tovush hosil qiladi.",
+      "fact_ids": [
+        "paragraph-23-f4"
+      ]
+    },
+    {
+      "title": "Bronx va alveola",
+      "body": "Kekirdak ikki asosiy bronxga bo‘linadi; o‘pkada ularning shoxlari mayda havo yo‘llarini hosil qiladi. Ularning oxiridagi alveolalar kapillyarlar bilan o‘ralgan.",
+      "fact_ids": [
+        "paragraph-23-f5"
+      ]
+    },
+    {
+      "title": "Plevra",
+      "body": "O‘pka va ko‘krak qafasi ichki yuzasi ikki qavat plevra bilan qoplangan. Ichki qavati o‘pka sirtini o‘raydi.",
+      "fact_ids": [
+        "paragraph-23-f6"
+      ]
+    },
+    {
+      "title": "Nafas olish mexanikasi",
+      "body": "Nafas olishda diafragma va tashqi qovurg‘alararo muskullar qisqaradi; ko‘krak qafasi kengayib, o‘pkadagi bosim pasayganda havo ichkariga kiradi.",
+      "fact_ids": [
+        "paragraph-23-f7"
+      ]
+    },
+    {
+      "title": "Harakatga moslashish",
+      "body": "Jismoniy harakatda nafas olish tezlashadi. Organizm ehtiyojiga qarab nafas harakatlari tinch holatdan farqlanadi.",
+      "fact_ids": [
+        "paragraph-23-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-23-q1",
+      "fact_id": "paragraph-23-f1",
+      "question_text": "Nafas yo‘lidagi to‘g‘ri ketma-ketlikni toping.",
+      "options": [
+        "Burun → qizilo‘ngach → oshqozon → bronx",
+        "Bronx → oshqozon → ichak → alveola",
+        "Hiqildoq → aorta → o‘pka venasi",
+        "Burun → halqum → hiqildoq → kekirdak → bronx"
+      ],
+      "correct_answer": "Burun → halqum → hiqildoq → kekirdak → bronx",
+      "explanation": "Nafas olish sistemasi havo o‘tkazuvchi yo‘llar va o‘pkadan iborat. Havo burun bo‘shlig‘i, halqum, hiqildoq, kekirdak va bronxlar orqali o‘pkaga boradi."
+    },
+    {
+      "key": "paragraph-23-q2",
+      "fact_id": "paragraph-23-f2",
+      "question_text": "Burun orqali nafas olishning foydasi qaysi?",
+      "options": [
+        "Kislorodning butunlay yo‘qolishi",
+        "Havoning suyak iligiga bevosita o‘tishi",
+        "Havoning namlanishi, ilishi va changdan tozalanishi",
+        "Havoning oziq sifatida hazm bo‘lishi"
+      ],
+      "correct_answer": "Havoning namlanishi, ilishi va changdan tozalanishi",
+      "explanation": "Burun bo‘shlig‘idan o‘tayotgan havo namlanadi va iliydi; shilliq parda hamda tuklar changni ushlashda qatnashadi."
+    },
+    {
+      "key": "paragraph-23-q3",
+      "fact_id": "paragraph-23-f3",
+      "question_text": "Yutishda nafas yo‘lini yopishga qaysi tuzilma yordam beradi?",
+      "options": [
+        "Quloq suprasi",
+        "Hiqildoq usti tog‘ayi",
+        "Bo‘g‘im tog‘ayi",
+        "Burun to‘sig‘i"
+      ],
+      "correct_answer": "Hiqildoq usti tog‘ayi",
+      "explanation": "Yutish paytida hiqildoq yo‘lini hiqildoq usti tog‘ayi berkitadi. Bu ovqatning nafas yo‘liga ketishidan saqlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-23-q4",
+      "fact_id": "paragraph-23-f4",
+      "question_text": "Ovoz paylari qaysi organda joylashgan?",
+      "options": [
+        "Hiqildoqda",
+        "Oshqozonda",
+        "Qizilo‘ngachda",
+        "O‘t pufagida"
+      ],
+      "correct_answer": "Hiqildoqda",
+      "explanation": "Nafas chiqarilgan havo hiqildoqdagi ovoz paylarini tebratib tovush hosil qiladi."
+    },
+    {
+      "key": "paragraph-23-q5",
+      "fact_id": "paragraph-23-f5",
+      "question_text": "Gaz almashinuvi uchun mos mayda pufakchalar qaysi?",
+      "options": [
+        "Oshqozon bezlari",
+        "Buyrak jomlari",
+        "Bo‘g‘im xaltalari",
+        "Alveolalar"
+      ],
+      "correct_answer": "Alveolalar",
+      "explanation": "Kekirdak ikki asosiy bronxga bo‘linadi; o‘pkada ularning shoxlari mayda havo yo‘llarini hosil qiladi. Ularning oxiridagi alveolalar kapillyarlar bilan o‘ralgan."
+    },
+    {
+      "key": "paragraph-23-q6",
+      "fact_id": "paragraph-23-f6",
+      "question_text": "O‘pka sirtini o‘rab turuvchi parda qaysi?",
+      "options": [
+        "Tish emali",
+        "Ichak vorsinkasi",
+        "Plevra",
+        "Suyakusti pardasi"
+      ],
+      "correct_answer": "Plevra",
+      "explanation": "O‘pka va ko‘krak qafasi ichki yuzasi ikki qavat plevra bilan qoplangan. Ichki qavati o‘pka sirtini o‘raydi."
+    },
+    {
+      "key": "paragraph-23-q7",
+      "fact_id": "paragraph-23-f7",
+      "question_text": "Havo ichkariga kirishiga qaysi o‘zgarish yordam beradi?",
+      "options": [
+        "Diafragmaning suyakga aylanishi",
+        "Ko‘krak hajmi ortib, o‘pkadagi bosim pasayishi",
+        "Ko‘krak hajmi kamayib, bosim ortishi",
+        "Bronxlarning butunlay berkilishi"
+      ],
+      "correct_answer": "Ko‘krak hajmi ortib, o‘pkadagi bosim pasayishi",
+      "explanation": "Nafas olishda diafragma va tashqi qovurg‘alararo muskullar qisqaradi; ko‘krak qafasi kengayib, o‘pkadagi bosim pasayganda havo ichkariga kiradi."
+    },
+    {
+      "key": "paragraph-23-q8",
+      "fact_id": "paragraph-23-f8",
+      "question_text": "Yugurish paytida tinch o‘tirishga nisbatan nafas olish odatda qanday bo‘ladi?",
+      "options": [
+        "Tezlashadi",
+        "Har doim butunlay to‘xtaydi",
+        "Faqat burun yo‘li yo‘qoladi",
+        "Alveolalar qon tomiriga aylanadi"
+      ],
+      "correct_answer": "Tezlashadi",
+      "explanation": "Jismoniy harakatda nafas olish tezlashadi. Organizm ehtiyojiga qarab nafas harakatlari tinch holatdan farqlanadi."
+    }
+  ]
+}

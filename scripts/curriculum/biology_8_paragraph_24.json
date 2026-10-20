@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-24-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-31",
+  "title": "O‘pkalar va to‘qimalarda gazlar almashinuvi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-24-f1": {
+      "claim": "Darslik tinch holatda bir nafasda taxminan 500 ml havo olinib chiqarilishini nafas havosi deb ataydi. Bu taxminiy kattalikdir.",
+      "answer": "Tinch nafasda olinib chiqariladigan havo hajmi",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f2": {
+      "claim": "O‘pkaning tiriklik sig‘imi chuqur nafas olgandan keyin chiqarish mumkin bo‘lgan eng katta havo hajmidir. U spirometr bilan o‘lchanadi.",
+      "answer": "Spirometr",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f3": {
+      "claim": "Darslik misolida 500 ml nafas havosi, 1500 ml qo‘shimcha va 1500 ml rezerv havo yig‘indisi 3500 ml bo‘ladi.",
+      "answer": "3500 ml",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f4": {
+      "claim": "Chuqur nafas chiqarilgandan keyin ham o‘pkada qoldiq havo qoladi. U tiriklik sig‘imiga qo‘shib hisoblanmaydi.",
+      "answer": "Eng chuqur nafas chiqarilgandan keyin ham",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f5": {
+      "claim": "Alveolalarda kislorod havodan qonga, karbonat angidrid esa qondan alveola havosiga o‘tadi.",
+      "answer": "Kislorod havodan qonga, CO₂ qondan havoga",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          75
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f6": {
+      "claim": "To‘qimalarda kislorod qondan to‘qima suyuqligi orqali hujayralarga, karbonat angidrid hujayralardan qonga o‘tadi.",
+      "answer": "Qondan to‘qima suyuqligi orqali",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          75
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f7": {
+      "claim": "Is gazi gemoglobin bilan birikib, qonning kislorod tashishiga to‘sqinlik qiladi. Natijada to‘qimalarda kislorod tanqisligi yuz berishi mumkin.",
+      "answer": "Gemoglobinning kislorod tashishi buzilishi",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Nafas havosi",
+      "body": "Darslik tinch holatda bir nafasda taxminan 500 ml havo olinib chiqarilishini nafas havosi deb ataydi. Bu taxminiy kattalikdir.",
+      "fact_ids": [
+        "paragraph-24-f1"
+      ]
+    },
+    {
+      "title": "Tiriklik sig‘imi",
+      "body": "O‘pkaning tiriklik sig‘imi chuqur nafas olgandan keyin chiqarish mumkin bo‘lgan eng katta havo hajmidir. U spirometr bilan o‘lchanadi.",
+      "fact_ids": [
+        "paragraph-24-f2"
+      ]
+    },
+    {
+      "title": "Hajmlarni qo‘shish",
+      "body": "Darslik misolida 500 ml nafas havosi, 1500 ml qo‘shimcha va 1500 ml rezerv havo yig‘indisi 3500 ml bo‘ladi.",
+      "fact_ids": [
+        "paragraph-24-f3"
+      ]
+    },
+    {
+      "title": "Qoldiq havo",
+      "body": "Chuqur nafas chiqarilgandan keyin ham o‘pkada qoldiq havo qoladi. U tiriklik sig‘imiga qo‘shib hisoblanmaydi.",
+      "fact_ids": [
+        "paragraph-24-f4"
+      ]
+    },
+    {
+      "title": "O‘pkadagi almashinuv",
+      "body": "Alveolalarda kislorod havodan qonga, karbonat angidrid esa qondan alveola havosiga o‘tadi.",
+      "fact_ids": [
+        "paragraph-24-f5"
+      ]
+    },
+    {
+      "title": "To‘qimadagi almashinuv",
+      "body": "To‘qimalarda kislorod qondan to‘qima suyuqligi orqali hujayralarga, karbonat angidrid hujayralardan qonga o‘tadi.",
+      "fact_ids": [
+        "paragraph-24-f6"
+      ]
+    },
+    {
+      "title": "Is gazining xavfi",
+      "body": "Is gazi gemoglobin bilan birikib, qonning kislorod tashishiga to‘sqinlik qiladi. Natijada to‘qimalarda kislorod tanqisligi yuz berishi mumkin.",
+      "fact_ids": [
+        "paragraph-24-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-24-q1",
+      "fact_id": "paragraph-24-f1",
+      "question_text": "Nafas havosi atamasi nimani bildiradi?",
+      "options": [
+        "O‘pkadagi barcha havoning mutlaq yo‘qolishi",
+        "Faqat qondagi erigan kislorod",
+        "Faqat burun bo‘shlig‘i uzunligi",
+        "Tinch nafasda olinib chiqariladigan havo hajmi"
+      ],
+      "correct_answer": "Tinch nafasda olinib chiqariladigan havo hajmi",
+      "explanation": "Darslik tinch holatda bir nafasda taxminan 500 ml havo olinib chiqarilishini nafas havosi deb ataydi. Bu taxminiy kattalikdir."
+    },
+    {
+      "key": "paragraph-24-q2",
+      "fact_id": "paragraph-24-f2",
+      "question_text": "O‘pkaning tiriklik sig‘imini qaysi asbob o‘lchaydi?",
+      "options": [
+        "Termometr",
+        "Mikroskop",
+        "Spirometr",
+        "Tonometr"
+      ],
+      "correct_answer": "Spirometr",
+      "explanation": "O‘pkaning tiriklik sig‘imi chuqur nafas olgandan keyin chiqarish mumkin bo‘lgan eng katta havo hajmidir. U spirometr bilan o‘lchanadi."
+    },
+    {
+      "key": "paragraph-24-q3",
+      "fact_id": "paragraph-24-f3",
+      "question_text": "500 + 1500 + 1500 ml havo hajmlari yig‘indisi qancha?",
+      "options": [
+        "5000 ml",
+        "3500 ml",
+        "1500 ml",
+        "2500 ml"
+      ],
+      "correct_answer": "3500 ml",
+      "explanation": "Darslik misolida 500 ml nafas havosi, 1500 ml qo‘shimcha va 1500 ml rezerv havo yig‘indisi 3500 ml bo‘ladi."
+    },
+    {
+      "key": "paragraph-24-q4",
+      "fact_id": "paragraph-24-f4",
+      "question_text": "Qoldiq havo qachon ham o‘pkada qoladi?",
+      "options": [
+        "Eng chuqur nafas chiqarilgandan keyin ham",
+        "Faqat burunni yuvgandan keyin",
+        "Faqat barcha alveolalar yo‘qolganda",
+        "Faqat qon bosimi o‘lchanganda"
+      ],
+      "correct_answer": "Eng chuqur nafas chiqarilgandan keyin ham",
+      "explanation": "Chuqur nafas chiqarilgandan keyin ham o‘pkada qoldiq havo qoladi. U tiriklik sig‘imiga qo‘shib hisoblanmaydi."
+    },
+    {
+      "key": "paragraph-24-q5",
+      "fact_id": "paragraph-24-f5",
+      "question_text": "Alveoladagi gaz almashinuvi qaysi juftlikda to‘g‘ri?",
+      "options": [
+        "Kislorod faqat qondan havoga, CO₂ faqat havodan qonga",
+        "Ikkalasi ham faqat suyakga o‘tadi",
+        "Alveolalarda gaz almashinuvi bo‘lmaydi",
+        "Kislorod havodan qonga, CO₂ qondan havoga"
+      ],
+      "correct_answer": "Kislorod havodan qonga, CO₂ qondan havoga",
+      "explanation": "Alveolalarda kislorod havodan qonga, karbonat angidrid esa qondan alveola havosiga o‘tadi."
+    },
+    {
+      "key": "paragraph-24-q6",
+      "fact_id": "paragraph-24-f6",
+      "question_text": "Ishlayotgan muskul hujayrasiga kislorod qaysi tomondan keladi?",
+      "options": [
+        "Faqat ichak bo‘shlig‘idan nay bilan",
+        "Faqat suyak mineralidan",
+        "Qondan to‘qima suyuqligi orqali",
+        "Faqat tashqi teri sirtidan bevosita"
+      ],
+      "correct_answer": "Qondan to‘qima suyuqligi orqali",
+      "explanation": "To‘qimalarda kislorod qondan to‘qima suyuqligi orqali hujayralarga, karbonat angidrid hujayralardan qonga o‘tadi."
+    },
+    {
+      "key": "paragraph-24-q7",
+      "fact_id": "paragraph-24-f7",
+      "question_text": "Is gazi zaharlanishida kislorod tanqisligining sababi nima?",
+      "options": [
+        "Tish emalining to‘liq erishi",
+        "Gemoglobinning kislorod tashishi buzilishi",
+        "Suyaklar sonining tez kamayishi",
+        "Qon guruhining darhol o‘zgarishi"
+      ],
+      "correct_answer": "Gemoglobinning kislorod tashishi buzilishi",
+      "explanation": "Is gazi gemoglobin bilan birikib, qonning kislorod tashishiga to‘sqinlik qiladi. Natijada to‘qimalarda kislorod tanqisligi yuz berishi mumkin."
+    }
+  ]
+}

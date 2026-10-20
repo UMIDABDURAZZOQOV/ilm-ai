@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-8-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-11",
+  "title": "Oshqozonosti va jinsiy bezlar, sekretsiya bezlari ishining boshqarilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-8-f1": {
+      "claim": "Oshqozonosti bezi oshqozonning osti va biroz orqasida joylashgan. Uning Langergans orolchalari gormonlar ishlab chiqaradi.",
+      "answer": "Langergans orolchalari",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f2": {
+      "claim": "Insulin hujayralarda glukoza sarflanishini va glikogen sintezini kuchaytirib, qondagi glukoza miqdorini kamaytirishga yordam beradi.",
+      "answer": "Kamayishga moyil bo‘ladi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f3": {
+      "claim": "Glukagon glikogenning glukozaga aylanishini kuchaytirib, qondagi glukoza miqdorini oshirishga yordam beradi.",
+      "answer": "Qondagi glukoza miqdorini oshirishga yordam beradi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f4": {
+      "claim": "Urug‘donlarda urug‘ hujayralari hamda qonga chiqariladigan jinsiy gormonlar hosil bo‘ladi. Testosteron ikkilamchi jinsiy belgilar rivojlanishida qatnashadi.",
+      "answer": "Urug‘ hujayralari va jinsiy gormonlar hosil bo‘lishi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f5": {
+      "claim": "Tuxumdonlarda tuxum hujayralari yetiladi va estrogen gormonlari ishlab chiqariladi. Estrogenlar ikkilamchi ayollik jinsiy belgilariga ta’sir qiladi.",
+      "answer": "Tuxum hujayralari va estrogenlar",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f6": {
+      "claim": "Gipotalamus nerv signallari ta’sirida faollashib, gipofiz ishiga ta’sir etuvchi signallar chiqaradi. Gipofiz orqali boshqa bezlar faoliyati boshqariladi.",
+      "answer": "Gipotalamus → gipofiz → boshqa ichki sekretsiya bezlari",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oshqozonosti bezi",
+      "body": "Oshqozonosti bezi oshqozonning osti va biroz orqasida joylashgan. Uning Langergans orolchalari gormonlar ishlab chiqaradi.",
+      "fact_ids": [
+        "paragraph-8-f1"
+      ]
+    },
+    {
+      "title": "Insulin ta’siri",
+      "body": "Insulin hujayralarda glukoza sarflanishini va glikogen sintezini kuchaytirib, qondagi glukoza miqdorini kamaytirishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-8-f2"
+      ]
+    },
+    {
+      "title": "Glukagon ta’siri",
+      "body": "Glukagon glikogenning glukozaga aylanishini kuchaytirib, qondagi glukoza miqdorini oshirishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-8-f3"
+      ]
+    },
+    {
+      "title": "Erkak jinsiy bezi",
+      "body": "Urug‘donlarda urug‘ hujayralari hamda qonga chiqariladigan jinsiy gormonlar hosil bo‘ladi. Testosteron ikkilamchi jinsiy belgilar rivojlanishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-8-f4"
+      ]
+    },
+    {
+      "title": "Ayol jinsiy bezi",
+      "body": "Tuxumdonlarda tuxum hujayralari yetiladi va estrogen gormonlari ishlab chiqariladi. Estrogenlar ikkilamchi ayollik jinsiy belgilariga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-8-f5"
+      ]
+    },
+    {
+      "title": "Nerv va bez aloqasi",
+      "body": "Gipotalamus nerv signallari ta’sirida faollashib, gipofiz ishiga ta’sir etuvchi signallar chiqaradi. Gipofiz orqali boshqa bezlar faoliyati boshqariladi.",
+      "fact_ids": [
+        "paragraph-8-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-8-q1",
+      "fact_id": "paragraph-8-f1",
+      "question_text": "Oshqozonosti bezining gormon ishlab chiqaruvchi qismi qaysi?",
+      "options": [
+        "Tish emali",
+        "Nafas yo‘li kipriklari",
+        "Suyakusti pardasi",
+        "Langergans orolchalari"
+      ],
+      "correct_answer": "Langergans orolchalari",
+      "explanation": "Oshqozonosti bezi oshqozonning osti va biroz orqasida joylashgan. Uning Langergans orolchalari gormonlar ishlab chiqaradi."
+    },
+    {
+      "key": "paragraph-8-q2",
+      "fact_id": "paragraph-8-f2",
+      "question_text": "Insulin ta’siri kuchayganda qondagi glukoza qanday o‘zgaradi?",
+      "options": [
+        "Qon butunlay suvga aylanadi",
+        "Glukoza hech qachon ishlatilmaydi",
+        "Kamayishga moyil bo‘ladi",
+        "Faqat ko‘payadi"
+      ],
+      "correct_answer": "Kamayishga moyil bo‘ladi",
+      "explanation": "Insulin hujayralarda glukoza sarflanishini va glikogen sintezini kuchaytirib, qondagi glukoza miqdorini kamaytirishga yordam beradi."
+    },
+    {
+      "key": "paragraph-8-q3",
+      "fact_id": "paragraph-8-f3",
+      "question_text": "Insulindan farqli ravishda glukagonning ta’siri qaysi?",
+      "options": [
+        "Faqat ko‘z yoshini ajratadi",
+        "Qondagi glukoza miqdorini oshirishga yordam beradi",
+        "Faqat soch o‘stiradi",
+        "Glukozani qon tarkibidan butunlay yo‘qotadi"
+      ],
+      "correct_answer": "Qondagi glukoza miqdorini oshirishga yordam beradi",
+      "explanation": "Glukagon glikogenning glukozaga aylanishini kuchaytirib, qondagi glukoza miqdorini oshirishga yordam beradi."
+    },
+    {
+      "key": "paragraph-8-q4",
+      "fact_id": "paragraph-8-f4",
+      "question_text": "Urug‘donning aralash bez ekanini qaysi juftlik ko‘rsatadi?",
+      "options": [
+        "Urug‘ hujayralari va jinsiy gormonlar hosil bo‘lishi",
+        "O‘t suyuqligi va so‘lak ajralishi",
+        "Faqat ter va ko‘z yoshi ajralishi",
+        "Faqat suyak tuzi to‘planishi"
+      ],
+      "correct_answer": "Urug‘ hujayralari va jinsiy gormonlar hosil bo‘lishi",
+      "explanation": "Urug‘donlarda urug‘ hujayralari hamda qonga chiqariladigan jinsiy gormonlar hosil bo‘ladi. Testosteron ikkilamchi jinsiy belgilar rivojlanishida qatnashadi."
+    },
+    {
+      "key": "paragraph-8-q5",
+      "fact_id": "paragraph-8-f5",
+      "question_text": "Tuxumdon va uning mahsulotlari qaysi qatorda mos?",
+      "options": [
+        "Urug‘ hujayralari va so‘lak",
+        "Adrenalin va o‘t suyuqligi",
+        "Tiroksin va ter",
+        "Tuxum hujayralari va estrogenlar"
+      ],
+      "correct_answer": "Tuxum hujayralari va estrogenlar",
+      "explanation": "Tuxumdonlarda tuxum hujayralari yetiladi va estrogen gormonlari ishlab chiqariladi. Estrogenlar ikkilamchi ayollik jinsiy belgilariga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-8-q6",
+      "fact_id": "paragraph-8-f6",
+      "question_text": "Bezlar boshqaruvidagi ketma-ketlikni tanlang.",
+      "options": [
+        "O‘t pufagi → burun → quloq",
+        "Tizza → pay → ko‘z yoshi",
+        "Gipotalamus → gipofiz → boshqa ichki sekretsiya bezlari",
+        "Tirnoq → tish emali → soch"
+      ],
+      "correct_answer": "Gipotalamus → gipofiz → boshqa ichki sekretsiya bezlari",
+      "explanation": "Gipotalamus nerv signallari ta’sirida faollashib, gipofiz ishiga ta’sir etuvchi signallar chiqaradi. Gipofiz orqali boshqa bezlar faoliyati boshqariladi."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-19-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-25",
+  "title": "Qon tomirlari, qon aylanish doirasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-19-f1": {
+      "claim": "Arteriyalar qonni yurakdan olib chiqadi; venalar qonni yurakka qaytaradi. Bu nomlar oqim yo‘nalishini bildiradi.",
+      "answer": "Arteriya qonni yurakdan olib chiqadi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f2": {
+      "claim": "Chap qorinchadan aorta, o‘ng qorinchadan o‘pka arteriyasi chiqadi.",
+      "answer": "Aorta",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f3": {
+      "claim": "Kapillyarlarning juda yupqa, bir qavat hujayrali devori qon va to‘qimalar o‘rtasidagi modda almashinuviga moslashgan.",
+      "answer": "Moddalarning qon va to‘qima orasida o‘tishiga yordam beradi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f4": {
+      "claim": "Katta qon aylanish doirasi chap qorinchadan aorta orqali boshlanib, tana to‘qimalarini aylanadi va kovak venalar bilan o‘ng bo‘lmachaga qaytadi.",
+      "answer": "Chap qorincha → o‘ng bo‘lmacha",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f5": {
+      "claim": "Kichik doira o‘ng qorinchadan o‘pka arteriyasi orqali boshlanadi. O‘pkadagi gaz almashinuvidan so‘ng qon o‘pka venalari bilan chap bo‘lmachaga qaytadi.",
+      "answer": "Chap bo‘lmachada",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f6": {
+      "claim": "O‘pkada kislorod olgan qon o‘pka venalari orqali yurakka qaytadi. Vena nomi kislorod kamligini emas, yurakka yo‘nalishni bildiradi.",
+      "answer": "Vena nomi qonning yurakka qaytish yo‘nalishini bildiradi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f7": {
+      "claim": "Ko‘plab yirik venalardagi klapanlar qonning orqaga qaytishini cheklab, yurak tomon harakatiga yordam beradi.",
+      "answer": "Qonning orqaga oqishini cheklash",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Arteriya va vena",
+      "body": "Arteriyalar qonni yurakdan olib chiqadi; venalar qonni yurakka qaytaradi. Bu nomlar oqim yo‘nalishini bildiradi.",
+      "fact_ids": [
+        "paragraph-19-f1"
+      ]
+    },
+    {
+      "title": "Yurakdan chiqish",
+      "body": "Chap qorinchadan aorta, o‘ng qorinchadan o‘pka arteriyasi chiqadi.",
+      "fact_ids": [
+        "paragraph-19-f2"
+      ]
+    },
+    {
+      "title": "Kapillyar devori",
+      "body": "Kapillyarlarning juda yupqa, bir qavat hujayrali devori qon va to‘qimalar o‘rtasidagi modda almashinuviga moslashgan.",
+      "fact_ids": [
+        "paragraph-19-f3"
+      ]
+    },
+    {
+      "title": "Katta doira",
+      "body": "Katta qon aylanish doirasi chap qorinchadan aorta orqali boshlanib, tana to‘qimalarini aylanadi va kovak venalar bilan o‘ng bo‘lmachaga qaytadi.",
+      "fact_ids": [
+        "paragraph-19-f4"
+      ]
+    },
+    {
+      "title": "Kichik doira",
+      "body": "Kichik doira o‘ng qorinchadan o‘pka arteriyasi orqali boshlanadi. O‘pkadagi gaz almashinuvidan so‘ng qon o‘pka venalari bilan chap bo‘lmachaga qaytadi.",
+      "fact_ids": [
+        "paragraph-19-f5"
+      ]
+    },
+    {
+      "title": "O‘pka venasidagi qon",
+      "body": "O‘pkada kislorod olgan qon o‘pka venalari orqali yurakka qaytadi. Vena nomi kislorod kamligini emas, yurakka yo‘nalishni bildiradi.",
+      "fact_ids": [
+        "paragraph-19-f6"
+      ]
+    },
+    {
+      "title": "Klapan va yo‘nalish",
+      "body": "Ko‘plab yirik venalardagi klapanlar qonning orqaga qaytishini cheklab, yurak tomon harakatiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-19-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-19-q1",
+      "fact_id": "paragraph-19-f1",
+      "question_text": "Arteriyani venadan ajratadigan asosiy qoida qaysi?",
+      "options": [
+        "Arteriya doimo yurakka qon olib keladi",
+        "Arteriya faqat limfa tashiydi",
+        "Arteriya faqat teri sirtida bo‘ladi",
+        "Arteriya qonni yurakdan olib chiqadi"
+      ],
+      "correct_answer": "Arteriya qonni yurakdan olib chiqadi",
+      "explanation": "Arteriyalar qonni yurakdan olib chiqadi; venalar qonni yurakka qaytaradi. Bu nomlar oqim yo‘nalishini bildiradi."
+    },
+    {
+      "key": "paragraph-19-q2",
+      "fact_id": "paragraph-19-f2",
+      "question_text": "Chap qorinchadan qaysi yirik tomir boshlanadi?",
+      "options": [
+        "O‘pka venasi",
+        "Pastki kovak vena",
+        "Aorta",
+        "Yuqori kovak vena"
+      ],
+      "correct_answer": "Aorta",
+      "explanation": "Chap qorinchadan aorta, o‘ng qorinchadan o‘pka arteriyasi chiqadi."
+    },
+    {
+      "key": "paragraph-19-q3",
+      "fact_id": "paragraph-19-f3",
+      "question_text": "Kapillyar yupqa devorining asosiy ahamiyati nima?",
+      "options": [
+        "Havoni ovozga aylantiradi",
+        "Moddalarning qon va to‘qima orasida o‘tishiga yordam beradi",
+        "Qon oqimini butunlay to‘xtatadi",
+        "Suyakni faqat bo‘yiga o‘stiradi"
+      ],
+      "correct_answer": "Moddalarning qon va to‘qima orasida o‘tishiga yordam beradi",
+      "explanation": "Kapillyarlarning juda yupqa, bir qavat hujayrali devori qon va to‘qimalar o‘rtasidagi modda almashinuviga moslashgan."
+    },
+    {
+      "key": "paragraph-19-q4",
+      "fact_id": "paragraph-19-f4",
+      "question_text": "Katta doiraning boshlanishi va tugashi qaysi?",
+      "options": [
+        "Chap qorincha → o‘ng bo‘lmacha",
+        "O‘ng qorincha → chap bo‘lmacha",
+        "Chap bo‘lmacha → o‘pka alveolasi",
+        "O‘ng bo‘lmacha → aorta"
+      ],
+      "correct_answer": "Chap qorincha → o‘ng bo‘lmacha",
+      "explanation": "Katta qon aylanish doirasi chap qorinchadan aorta orqali boshlanib, tana to‘qimalarini aylanadi va kovak venalar bilan o‘ng bo‘lmachaga qaytadi."
+    },
+    {
+      "key": "paragraph-19-q5",
+      "fact_id": "paragraph-19-f5",
+      "question_text": "Kichik qon aylanish doirasi qayerda tugaydi?",
+      "options": [
+        "O‘ng bo‘lmachada",
+        "Chap qorinchadan tashqarida aortada",
+        "Jigar darvoza venasida",
+        "Chap bo‘lmachada"
+      ],
+      "correct_answer": "Chap bo‘lmachada",
+      "explanation": "Kichik doira o‘ng qorinchadan o‘pka arteriyasi orqali boshlanadi. O‘pkadagi gaz almashinuvidan so‘ng qon o‘pka venalari bilan chap bo‘lmachaga qaytadi."
+    },
+    {
+      "key": "paragraph-19-q6",
+      "fact_id": "paragraph-19-f6",
+      "question_text": "Nega o‘pka venasida kislorodga boy qon bo‘lishi vena ta’rifiga zid emas?",
+      "options": [
+        "O‘pka venasi aslida qon tashimaydi",
+        "Vena faqat qizil bo‘lmagan tomir nomidir",
+        "Vena nomi qonning yurakka qaytish yo‘nalishini bildiradi",
+        "Barcha venalarda faqat havo bo‘ladi"
+      ],
+      "correct_answer": "Vena nomi qonning yurakka qaytish yo‘nalishini bildiradi",
+      "explanation": "O‘pkada kislorod olgan qon o‘pka venalari orqali yurakka qaytadi. Vena nomi kislorod kamligini emas, yurakka yo‘nalishni bildiradi."
+    },
+    {
+      "key": "paragraph-19-q7",
+      "fact_id": "paragraph-19-f7",
+      "question_text": "Vena klapanining foydasi qaysi?",
+      "options": [
+        "Qon guruhini almashtirish",
+        "Qonning orqaga oqishini cheklash",
+        "Kislorodni karbonat angidridga aylantirish",
+        "Eritrotsitlarni ishlab chiqarish"
+      ],
+      "correct_answer": "Qonning orqaga oqishini cheklash",
+      "explanation": "Ko‘plab yirik venalardagi klapanlar qonning orqaga qaytishini cheklab, yurak tomon harakatiga yordam beradi."
+    }
+  ]
+}

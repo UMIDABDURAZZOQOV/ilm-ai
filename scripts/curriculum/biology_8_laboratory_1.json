@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-laboratory-1-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-laboratory-1",
+  "title": "1-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-1-f1": {
+      "claim": "Darslikning birinchi laboratoriyasi suyaklarning tuzilishi va tarkibini o‘rganishga bag‘ishlangan. Ilovada ish rejasini va kuzatuv xulosasini tahlil qilamiz.",
+      "answer": "Suyaklarning tuzilishi va tarkibi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f2": {
+      "claim": "Darslikda odam skeleti modeli va naysimon suyaklar to‘plami ko‘rgazmali vositalar sifatida keltiriladi.",
+      "answer": "Skelet modeli va suyaklar to‘plami",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f3": {
+      "claim": "Darslik namoyishida kalsiysizlantirilgan suyakning egilishi kuzatiladi. Ilovada shu kuzatuv natijasini muhokama qilamiz, kislota bilan amaliy ishlash talab etilmaydi.",
+      "answer": "Egiluvchanlik",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f4": {
+      "claim": "Naysimon suyakni ko‘zdan kechirishda uning tanasi va ikki uchi farqlanadi.",
+      "answer": "Tanasi va ikki uchi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f5": {
+      "claim": "Ish tartibida suyak uchlaridagi bo‘g‘im chuqurchasi yoki bo‘rtig‘i aniqlanadi.",
+      "answer": "Chuqurcha yoki bo‘rtiq",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f6": {
+      "claim": "Darslik laboratoriyasi oxirida suyak tashqi tuzilishini chizib, qismlarini yozishni taklif qiladi. Rasm va belgi kuzatuvni tartibli qayd etadi.",
+      "answer": "Tuzilishni chizib, qismlar nomini yozish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ishning maqsadi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nDarslikning birinchi laboratoriyasi suyaklarning tuzilishi va tarkibini o‘rganishga bag‘ishlangan. Ilovada ish rejasini va kuzatuv xulosasini tahlil qilamiz.",
+      "fact_ids": [
+        "laboratory-1-f1"
+      ]
+    },
+    {
+      "title": "Kuzatuv vositasi",
+      "body": "Darslikda odam skeleti modeli va naysimon suyaklar to‘plami ko‘rgazmali vositalar sifatida keltiriladi.",
+      "fact_ids": [
+        "laboratory-1-f2"
+      ]
+    },
+    {
+      "title": "Tajriba kuzatuvi",
+      "body": "Darslik namoyishida kalsiysizlantirilgan suyakning egilishi kuzatiladi. Ilovada shu kuzatuv natijasini muhokama qilamiz, kislota bilan amaliy ishlash talab etilmaydi.",
+      "fact_ids": [
+        "laboratory-1-f3"
+      ]
+    },
+    {
+      "title": "Tashqi qismlar",
+      "body": "Naysimon suyakni ko‘zdan kechirishda uning tanasi va ikki uchi farqlanadi.",
+      "fact_ids": [
+        "laboratory-1-f4"
+      ]
+    },
+    {
+      "title": "Bo‘g‘im yuzalari",
+      "body": "Ish tartibida suyak uchlaridagi bo‘g‘im chuqurchasi yoki bo‘rtig‘i aniqlanadi.",
+      "fact_ids": [
+        "laboratory-1-f5"
+      ]
+    },
+    {
+      "title": "Natijani qayd etish",
+      "body": "Darslik laboratoriyasi oxirida suyak tashqi tuzilishini chizib, qismlarini yozishni taklif qiladi. Rasm va belgi kuzatuvni tartibli qayd etadi.",
+      "fact_ids": [
+        "laboratory-1-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-1-q1",
+      "fact_id": "laboratory-1-f1",
+      "question_text": "Birinchi laboratoriya qaysi mavzuga bag‘ishlangan?",
+      "options": [
+        "Faqat yurak urish tezligi",
+        "Faqat o‘pkaning hajmi",
+        "Faqat ko‘z refleksi",
+        "Suyaklarning tuzilishi va tarkibi"
+      ],
+      "correct_answer": "Suyaklarning tuzilishi va tarkibi",
+      "explanation": "Darslikning birinchi laboratoriyasi suyaklarning tuzilishi va tarkibini o‘rganishga bag‘ishlangan. Ilovada ish rejasini va kuzatuv xulosasini tahlil qilamiz."
+    },
+    {
+      "key": "laboratory-1-q2",
+      "fact_id": "laboratory-1-f2",
+      "question_text": "Suyaklarning tashqi tuzilishini tahlil qilish uchun qaysi vosita mos?",
+      "options": [
+        "Faqat puls o‘lchagich",
+        "Faqat tovush kamertoni",
+        "Skelet modeli va suyaklar to‘plami",
+        "Faqat termometr"
+      ],
+      "correct_answer": "Skelet modeli va suyaklar to‘plami",
+      "explanation": "Darslikda odam skeleti modeli va naysimon suyaklar to‘plami ko‘rgazmali vositalar sifatida keltiriladi."
+    },
+    {
+      "key": "laboratory-1-q3",
+      "fact_id": "laboratory-1-f3",
+      "question_text": "Darslikdagi kalsiysizlantirilgan suyak namoyishida qaysi xususiyat kuzatiladi?",
+      "options": [
+        "Nerv impulsi chiqarish",
+        "Egiluvchanlik",
+        "Yurak kabi urish",
+        "Kislorod ishlab chiqarish"
+      ],
+      "correct_answer": "Egiluvchanlik",
+      "explanation": "Darslik namoyishida kalsiysizlantirilgan suyakning egilishi kuzatiladi. Ilovada shu kuzatuv natijasini muhokama qilamiz, kislota bilan amaliy ishlash talab etilmaydi."
+    },
+    {
+      "key": "laboratory-1-q4",
+      "fact_id": "laboratory-1-f4",
+      "question_text": "Naysimon suyak tashqi qismlari qaysi?",
+      "options": [
+        "Tanasi va ikki uchi",
+        "Faqat po‘stloq va mag‘iz bezlari",
+        "Faqat klapan va pay iplari",
+        "Faqat bronx va alveolalar"
+      ],
+      "correct_answer": "Tanasi va ikki uchi",
+      "explanation": "Naysimon suyakni ko‘zdan kechirishda uning tanasi va ikki uchi farqlanadi."
+    },
+    {
+      "key": "laboratory-1-q5",
+      "fact_id": "laboratory-1-f5",
+      "question_text": "Suyak uchini tekshirishda qaysi belgi bo‘g‘imga tegishli?",
+      "options": [
+        "Ko‘z qorachig‘i",
+        "Gormon chiqarish yo‘li",
+        "O‘pka pufakchasi",
+        "Chuqurcha yoki bo‘rtiq"
+      ],
+      "correct_answer": "Chuqurcha yoki bo‘rtiq",
+      "explanation": "Ish tartibida suyak uchlaridagi bo‘g‘im chuqurchasi yoki bo‘rtig‘i aniqlanadi."
+    },
+    {
+      "key": "laboratory-1-q6",
+      "fact_id": "laboratory-1-f6",
+      "question_text": "Kuzatuv natijasini qayd etishning darslikdagi usuli qaysi?",
+      "options": [
+        "Hech qanday qayd qilmaslik",
+        "Barcha qismlarga bitta bir xil nom qo‘yish",
+        "Tuzilishni chizib, qismlar nomini yozish",
+        "Kuzatilmagan natijani taxmin bilan belgilash"
+      ],
+      "correct_answer": "Tuzilishni chizib, qismlar nomini yozish",
+      "explanation": "Darslik laboratoriyasi oxirida suyak tashqi tuzilishini chizib, qismlarini yozishni taklif qiladi. Rasm va belgi kuzatuvni tartibli qayd etadi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "1-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Ishning maqsadi",
+        "fact_ids": [
+          "laboratory-1-f1"
+        ]
+      },
+      {
+        "instruction": "Kuzatuv vositasi",
+        "fact_ids": [
+          "laboratory-1-f2"
+        ]
+      },
+      {
+        "instruction": "Tajriba kuzatuvi",
+        "fact_ids": [
+          "laboratory-1-f3"
+        ]
+      },
+      {
+        "instruction": "Tashqi qismlar",
+        "fact_ids": [
+          "laboratory-1-f4"
+        ]
+      },
+      {
+        "instruction": "Bo‘g‘im yuzalari",
+        "fact_ids": [
+          "laboratory-1-f5"
+        ]
+      },
+      {
+        "instruction": "Natijani qayd etish",
+        "fact_ids": [
+          "laboratory-1-f6"
+        ]
+      }
+    ]
+  }
+}

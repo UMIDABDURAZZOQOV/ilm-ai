@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-laboratory-3-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-laboratory-3",
+  "title": "3-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-3-f1": {
+      "claim": "Uchinchi laboratoriyaning birinchi ishi nafas olishda ko‘krak qafasi harakatini kuzatadi. Vaqt va aylana o‘lchovlari taqqoslanadi.",
+      "answer": "Nafasga bog‘liq ko‘krak qafasi harakati",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f2": {
+      "claim": "Nafas sonini sanash uchun sekundomerli soat, ko‘krak aylanasini o‘lchash uchun santimetrli tasma ishlatiladi.",
+      "answer": "Santimetrli tasma",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f3": {
+      "claim": "Darslik tinch va chuqur nafas olish-chiqarish holatlaridagi ko‘krak aylanasini taqqoslashni taklif qiladi. Ilovada o‘lchov rejasini tahlil qilamiz.",
+      "answer": "Nafas olish va chiqarishdagi aylana",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f4": {
+      "claim": "Ikkinchi ishda distillangan suv va ohakli suv natijalari taqqoslanadi. Distillangan suv rangi o‘zgarmagani nazorat kuzatuvidir.",
+      "answer": "Distillangan suv",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f5": {
+      "claim": "Darslikdagi namoyishda nafas chiqarilgan havo ta’sirida ohakli suv loyqalanadi, distillangan suv esa o‘zgarmaydi. Ilovada tayyor kuzatuv izohlanadi, eritmaga puflash talab qilinmaydi.",
+      "answer": "Ohakli suv",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f6": {
+      "claim": "Nafasdagi CO₂ ohakli suvdagi kalsiy gidroksid bilan ta’sirlashib, kalsiy karbonat hosil qiladi. Shu cho‘kma loyqalanish bilan bog‘liq.",
+      "answer": "Karbonat angidrid",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ko‘krak harakatini kuzatish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nUchinchi laboratoriyaning birinchi ishi nafas olishda ko‘krak qafasi harakatini kuzatadi. Vaqt va aylana o‘lchovlari taqqoslanadi.",
+      "fact_ids": [
+        "laboratory-3-f1"
+      ]
+    },
+    {
+      "title": "O‘lchov vositalari",
+      "body": "Nafas sonini sanash uchun sekundomerli soat, ko‘krak aylanasini o‘lchash uchun santimetrli tasma ishlatiladi.",
+      "fact_ids": [
+        "laboratory-3-f2"
+      ]
+    },
+    {
+      "title": "Holatlarni taqqoslash",
+      "body": "Darslik tinch va chuqur nafas olish-chiqarish holatlaridagi ko‘krak aylanasini taqqoslashni taklif qiladi. Ilovada o‘lchov rejasini tahlil qilamiz.",
+      "fact_ids": [
+        "laboratory-3-f3"
+      ]
+    },
+    {
+      "title": "Nazorat namunasi",
+      "body": "Ikkinchi ishda distillangan suv va ohakli suv natijalari taqqoslanadi. Distillangan suv rangi o‘zgarmagani nazorat kuzatuvidir.",
+      "fact_ids": [
+        "laboratory-3-f4"
+      ]
+    },
+    {
+      "title": "Kuzatilgan o‘zgarish",
+      "body": "Darslikdagi namoyishda nafas chiqarilgan havo ta’sirida ohakli suv loyqalanadi, distillangan suv esa o‘zgarmaydi. Ilovada tayyor kuzatuv izohlanadi, eritmaga puflash talab qilinmaydi.",
+      "fact_ids": [
+        "laboratory-3-f5"
+      ]
+    },
+    {
+      "title": "Kimyoviy xulosa",
+      "body": "Nafasdagi CO₂ ohakli suvdagi kalsiy gidroksid bilan ta’sirlashib, kalsiy karbonat hosil qiladi. Shu cho‘kma loyqalanish bilan bog‘liq.",
+      "fact_ids": [
+        "laboratory-3-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-3-q1",
+      "fact_id": "laboratory-3-f1",
+      "question_text": "Birinchi ishda qaysi hodisa kuzatiladi?",
+      "options": [
+        "Faqat qon guruhi almashishi",
+        "Faqat ko‘z rangining o‘zgarishi",
+        "Faqat tish ildizining o‘sishi",
+        "Nafasga bog‘liq ko‘krak qafasi harakati"
+      ],
+      "correct_answer": "Nafasga bog‘liq ko‘krak qafasi harakati",
+      "explanation": "Uchinchi laboratoriyaning birinchi ishi nafas olishda ko‘krak qafasi harakatini kuzatadi. Vaqt va aylana o‘lchovlari taqqoslanadi."
+    },
+    {
+      "key": "laboratory-3-q2",
+      "fact_id": "laboratory-3-f2",
+      "question_text": "Ko‘krak aylanasini o‘lchash uchun qaysi vosita mos?",
+      "options": [
+        "Kamerton",
+        "Mikroskop",
+        "Santimetrli tasma",
+        "Tonometr"
+      ],
+      "correct_answer": "Santimetrli tasma",
+      "explanation": "Nafas sonini sanash uchun sekundomerli soat, ko‘krak aylanasini o‘lchash uchun santimetrli tasma ishlatiladi."
+    },
+    {
+      "key": "laboratory-3-q3",
+      "fact_id": "laboratory-3-f3",
+      "question_text": "Aylana farqini aniqlash uchun qaysi qiymatlar taqqoslanadi?",
+      "options": [
+        "Faqat tish va tirnoq uzunligi",
+        "Nafas olish va chiqarishdagi aylana",
+        "Faqat ikki odamning qon guruhlari",
+        "Faqat daftar va kitob eni"
+      ],
+      "correct_answer": "Nafas olish va chiqarishdagi aylana",
+      "explanation": "Darslik tinch va chuqur nafas olish-chiqarish holatlaridagi ko‘krak aylanasini taqqoslashni taklif qiladi. Ilovada o‘lchov rejasini tahlil qilamiz."
+    },
+    {
+      "key": "laboratory-3-q4",
+      "fact_id": "laboratory-3-f4",
+      "question_text": "Bu tajribadagi taqqoslash namunasi nima?",
+      "options": [
+        "Distillangan suv",
+        "Faqat ko‘krak aylanasining soni",
+        "Faqat puls tezligi",
+        "Faqat suyak modeli"
+      ],
+      "correct_answer": "Distillangan suv",
+      "explanation": "Ikkinchi ishda distillangan suv va ohakli suv natijalari taqqoslanadi. Distillangan suv rangi o‘zgarmagani nazorat kuzatuvidir."
+    },
+    {
+      "key": "laboratory-3-q5",
+      "fact_id": "laboratory-3-f5",
+      "question_text": "Darslik namoyishida qaysi eritma loyqalanadi?",
+      "options": [
+        "Distillangan suv",
+        "Ikkalasi ham bir xil qorayadi",
+        "Ikkalasi ham doim muzlaydi",
+        "Ohakli suv"
+      ],
+      "correct_answer": "Ohakli suv",
+      "explanation": "Darslikdagi namoyishda nafas chiqarilgan havo ta’sirida ohakli suv loyqalanadi, distillangan suv esa o‘zgarmaydi. Ilovada tayyor kuzatuv izohlanadi, eritmaga puflash talab qilinmaydi."
+    },
+    {
+      "key": "laboratory-3-q6",
+      "fact_id": "laboratory-3-f6",
+      "question_text": "Ohakli suv namoyishi nafas chiqarilgan havoda qaysi gaz borligini ko‘rsatadi?",
+      "options": [
+        "Faqat geliy",
+        "Faqat azot",
+        "Karbonat angidrid",
+        "Faqat vodorod"
+      ],
+      "correct_answer": "Karbonat angidrid",
+      "explanation": "Nafasdagi CO₂ ohakli suvdagi kalsiy gidroksid bilan ta’sirlashib, kalsiy karbonat hosil qiladi. Shu cho‘kma loyqalanish bilan bog‘liq."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "3-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Ko‘krak harakatini kuzatish",
+        "fact_ids": [
+          "laboratory-3-f1"
+        ]
+      },
+      {
+        "instruction": "O‘lchov vositalari",
+        "fact_ids": [
+          "laboratory-3-f2"
+        ]
+      },
+      {
+        "instruction": "Holatlarni taqqoslash",
+        "fact_ids": [
+          "laboratory-3-f3"
+        ]
+      },
+      {
+        "instruction": "Nazorat namunasi",
+        "fact_ids": [
+          "laboratory-3-f4"
+        ]
+      },
+      {
+        "instruction": "Kuzatilgan o‘zgarish",
+        "fact_ids": [
+          "laboratory-3-f5"
+        ]
+      },
+      {
+        "instruction": "Kimyoviy xulosa",
+        "fact_ids": [
+          "laboratory-3-f6"
+        ]
+      }
+    ]
+  }
+}
