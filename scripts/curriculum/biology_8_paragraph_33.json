@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-33-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-42",
+  "title": "Organizmda energiya sarfi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-33-f1": {
+      "claim": "Oziq moddalardagi kimyoviy energiya hujayralarda turli ishlarga sarflanadi. Muskul harakati, nerv signali va issiqlik shu almashinuv bilan bog‘liq.",
+      "answer": "Harakat va issiqlik hosil bo‘lishiga",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f2": {
+      "claim": "Energiya ehtiyoji yosh, tana xususiyatlari va faoliyat turiga bog‘liq. Darslik og‘ir jismoniy mehnatda sarf ortishini ko‘rsatadi.",
+      "answer": "Jismoniy faoliyat turi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f3": {
+      "claim": "Energiya kaloriya yoki joul bilan ifodalanadi; oziq jadvallarida ko‘pincha kilokaloriya ishlatiladi.",
+      "answer": "Energiya",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f4": {
+      "claim": "Darslikda 1 g uglevod uchun 4,1 kkal qiymati berilgan. Shu hisobda 20 g uglevod 82 kkal bo‘ladi.",
+      "answer": "82 kkal",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f5": {
+      "claim": "Bir mahsulot organizmning barcha oziq moddalarga ehtiyojini yakka o‘zi qondirmaydi. Ratsionda turli oziq guruhlari bo‘lishi muhim.",
+      "answer": "Turli zarur moddalarni olish uchun",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f6": {
+      "claim": "O‘sayotgan organizmga yangi to‘qimalar qurish uchun ham moddalar zarur. Ovqatlanish faqat sarflangan harakat energiyasini almashtirish emas.",
+      "answer": "Yangi to‘qimalar qurilishiga kerakli moddalar",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Energiya o‘zgarishi",
+      "body": "Oziq moddalardagi kimyoviy energiya hujayralarda turli ishlarga sarflanadi. Muskul harakati, nerv signali va issiqlik shu almashinuv bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-33-f1"
+      ]
+    },
+    {
+      "title": "Faoliyatga bog‘liqlik",
+      "body": "Energiya ehtiyoji yosh, tana xususiyatlari va faoliyat turiga bog‘liq. Darslik og‘ir jismoniy mehnatda sarf ortishini ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-33-f2"
+      ]
+    },
+    {
+      "title": "Energiya birliklari",
+      "body": "Energiya kaloriya yoki joul bilan ifodalanadi; oziq jadvallarida ko‘pincha kilokaloriya ishlatiladi.",
+      "fact_ids": [
+        "paragraph-33-f3"
+      ]
+    },
+    {
+      "title": "Uglevod hisobi",
+      "body": "Darslikda 1 g uglevod uchun 4,1 kkal qiymati berilgan. Shu hisobda 20 g uglevod 82 kkal bo‘ladi.",
+      "fact_ids": [
+        "paragraph-33-f4"
+      ]
+    },
+    {
+      "title": "Xilma-xillik",
+      "body": "Bir mahsulot organizmning barcha oziq moddalarga ehtiyojini yakka o‘zi qondirmaydi. Ratsionda turli oziq guruhlari bo‘lishi muhim.",
+      "fact_ids": [
+        "paragraph-33-f5"
+      ]
+    },
+    {
+      "title": "O‘sayotgan organizm",
+      "body": "O‘sayotgan organizmga yangi to‘qimalar qurish uchun ham moddalar zarur. Ovqatlanish faqat sarflangan harakat energiyasini almashtirish emas.",
+      "fact_ids": [
+        "paragraph-33-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-33-q1",
+      "fact_id": "paragraph-33-f1",
+      "question_text": "Muskul qisqarishida oziqning kimyoviy energiyasi nimaga xizmat qiladi?",
+      "options": [
+        "Faqat qon guruhini almashtirishga",
+        "Faqat tanadagi moddalarni yo‘qdan yaratishga",
+        "Faqat ovoz paylarini suyakka aylantirishga",
+        "Harakat va issiqlik hosil bo‘lishiga"
+      ],
+      "correct_answer": "Harakat va issiqlik hosil bo‘lishiga",
+      "explanation": "Oziq moddalardagi kimyoviy energiya hujayralarda turli ishlarga sarflanadi. Muskul harakati, nerv signali va issiqlik shu almashinuv bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-33-q2",
+      "fact_id": "paragraph-33-f2",
+      "question_text": "Energiya ehtiyojini baholashda qaysi omil muhim?",
+      "options": [
+        "Faqat ism uzunligi",
+        "Faqat qon guruhi yozilishi",
+        "Jismoniy faoliyat turi",
+        "Faqat ko‘z rangi"
+      ],
+      "correct_answer": "Jismoniy faoliyat turi",
+      "explanation": "Energiya ehtiyoji yosh, tana xususiyatlari va faoliyat turiga bog‘liq. Darslik og‘ir jismoniy mehnatda sarf ortishini ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-33-q3",
+      "fact_id": "paragraph-33-f3",
+      "question_text": "Oziq jadvalidagi kkal qaysi kattalikning birligi?",
+      "options": [
+        "Bosim",
+        "Energiya",
+        "Uzunlik",
+        "Vaqt"
+      ],
+      "correct_answer": "Energiya",
+      "explanation": "Energiya kaloriya yoki joul bilan ifodalanadi; oziq jadvallarida ko‘pincha kilokaloriya ishlatiladi."
+    },
+    {
+      "key": "paragraph-33-q4",
+      "fact_id": "paragraph-33-f4",
+      "question_text": "Darslik qiymati bilan 20 g uglevod qancha energiya beradi?",
+      "options": [
+        "82 kkal",
+        "4,1 kkal",
+        "820 kkal",
+        "24,1 kkal"
+      ],
+      "correct_answer": "82 kkal",
+      "explanation": "Darslikda 1 g uglevod uchun 4,1 kkal qiymati berilgan. Shu hisobda 20 g uglevod 82 kkal bo‘ladi."
+    },
+    {
+      "key": "paragraph-33-q5",
+      "fact_id": "paragraph-33-f5",
+      "question_text": "Nega oziq mahsulotlari xilma-xil bo‘lishi kerak?",
+      "options": [
+        "Faqat bir mahsulot har qanday ehtiyojni qondirgani uchun",
+        "Vitamin va minerallar keraksiz bo‘lgani uchun",
+        "Barcha mahsulot tarkibi mutlaqo bir xil bo‘lgani uchun",
+        "Turli zarur moddalarni olish uchun"
+      ],
+      "correct_answer": "Turli zarur moddalarni olish uchun",
+      "explanation": "Bir mahsulot organizmning barcha oziq moddalarga ehtiyojini yakka o‘zi qondirmaydi. Ratsionda turli oziq guruhlari bo‘lishi muhim."
+    },
+    {
+      "key": "paragraph-33-q6",
+      "fact_id": "paragraph-33-f6",
+      "question_text": "Bolaning ovqatlanishida o‘sish uchun nima zarur?",
+      "options": [
+        "Oqsilni butunlay chiqarib tashlash",
+        "Barcha moddalarni faqat shakar bilan almashtirish",
+        "Yangi to‘qimalar qurilishiga kerakli moddalar",
+        "Faqat suvning rangini o‘zgartirish"
+      ],
+      "correct_answer": "Yangi to‘qimalar qurilishiga kerakli moddalar",
+      "explanation": "O‘sayotgan organizmga yangi to‘qimalar qurish uchun ham moddalar zarur. Ovqatlanish faqat sarflangan harakat energiyasini almashtirish emas."
+    }
+  ]
+}

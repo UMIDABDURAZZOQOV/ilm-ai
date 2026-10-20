@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-44-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-55",
+  "title": "Nerv sistemasi kasalliklari va ularning oldini olish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-44-f1": {
+      "claim": "Nevralgiyada muayyan nerv sohasida kuchli og‘riq kuzatilishi mumkin. Darslik yuz va tish sohasidagi og‘riqni ham nerv aloqalari bilan tushuntiradi.",
+      "answer": "Nevralgiya",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f2": {
+      "claim": "Poliomiyelit virusi orqa miyadagi harakatlantiruvchi neyronlarni zararlashi va falajga olib kelishi mumkin.",
+      "answer": "Harakatlantiruvchi neyronlar",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f3": {
+      "claim": "Miyada qon aylanishi buzilsa, kislorod va oziq moddalar yetkazilishi kamayib, miya faoliyati zararlanishi mumkin.",
+      "answer": "Nerv to‘qimasiga kislorod va oziq moddalar yetmay qolishi mumkin",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f4": {
+      "claim": "Ayrim zaharli kimyoviy moddalar nerv sistemasi ishini buzadi. Darslik alkogol va giyohvand moddalar ta’sirini ham xavf sifatida keltiradi.",
+      "answer": "Zaharli va giyohvand moddalar ta’siridan saqlanish",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f5": {
+      "claim": "Nerv aloqalari zararlanishi signal uzatilishi va miyadagi axborotni qayta ishlashni buzishi mumkin. Natijada javob sekinlashadi.",
+      "answer": "Ta’sirga javobning sekinlashishi va axborot ishlovining buzilishi",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Nerv og‘rig‘i",
+      "body": "Nevralgiyada muayyan nerv sohasida kuchli og‘riq kuzatilishi mumkin. Darslik yuz va tish sohasidagi og‘riqni ham nerv aloqalari bilan tushuntiradi.",
+      "fact_ids": [
+        "paragraph-44-f1"
+      ]
+    },
+    {
+      "title": "Poliomiyelit",
+      "body": "Poliomiyelit virusi orqa miyadagi harakatlantiruvchi neyronlarni zararlashi va falajga olib kelishi mumkin.",
+      "fact_ids": [
+        "paragraph-44-f2"
+      ]
+    },
+    {
+      "title": "Miya va qon ta’minoti",
+      "body": "Miyada qon aylanishi buzilsa, kislorod va oziq moddalar yetkazilishi kamayib, miya faoliyati zararlanishi mumkin.",
+      "fact_ids": [
+        "paragraph-44-f3"
+      ]
+    },
+    {
+      "title": "Zaharli moddalar",
+      "body": "Ayrim zaharli kimyoviy moddalar nerv sistemasi ishini buzadi. Darslik alkogol va giyohvand moddalar ta’sirini ham xavf sifatida keltiradi.",
+      "fact_ids": [
+        "paragraph-44-f4"
+      ]
+    },
+    {
+      "title": "Axborotni qayta ishlash",
+      "body": "Nerv aloqalari zararlanishi signal uzatilishi va miyadagi axborotni qayta ishlashni buzishi mumkin. Natijada javob sekinlashadi.",
+      "fact_ids": [
+        "paragraph-44-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-44-q1",
+      "fact_id": "paragraph-44-f1",
+      "question_text": "Nerv sohasidagi og‘riq bilan bog‘liq atama qaysi?",
+      "options": [
+        "Sistit",
+        "Gastrit",
+        "Raxit",
+        "Nevralgiya"
+      ],
+      "correct_answer": "Nevralgiya",
+      "explanation": "Nevralgiyada muayyan nerv sohasida kuchli og‘riq kuzatilishi mumkin. Darslik yuz va tish sohasidagi og‘riqni ham nerv aloqalari bilan tushuntiradi."
+    },
+    {
+      "key": "paragraph-44-q2",
+      "fact_id": "paragraph-44-f2",
+      "question_text": "Poliomiyelitda harakat buzilishi qaysi hujayralar zararlanishi bilan bog‘liq?",
+      "options": [
+        "Faqat eritrotsitlar",
+        "Faqat teri muguz hujayralari",
+        "Harakatlantiruvchi neyronlar",
+        "Faqat tish emali hujayralari"
+      ],
+      "correct_answer": "Harakatlantiruvchi neyronlar",
+      "explanation": "Poliomiyelit virusi orqa miyadagi harakatlantiruvchi neyronlarni zararlashi va falajga olib kelishi mumkin."
+    },
+    {
+      "key": "paragraph-44-q3",
+      "fact_id": "paragraph-44-f3",
+      "question_text": "Miya qon ta’minotining buzilishi nega xavfli?",
+      "options": [
+        "Miya faqat tashqi havodan bevosita oziqlanadi",
+        "Nerv to‘qimasiga kislorod va oziq moddalar yetmay qolishi mumkin",
+        "Nerv hujayralari kislorodga umuman muhtoj emas",
+        "Qon yetishmasligi miya faoliyatini doimo yaxshilaydi"
+      ],
+      "correct_answer": "Nerv to‘qimasiga kislorod va oziq moddalar yetmay qolishi mumkin",
+      "explanation": "Miyada qon aylanishi buzilsa, kislorod va oziq moddalar yetkazilishi kamayib, miya faoliyati zararlanishi mumkin."
+    },
+    {
+      "key": "paragraph-44-q4",
+      "fact_id": "paragraph-44-f4",
+      "question_text": "Nerv sistemasi salomatligi uchun qaysi yondashuv mos?",
+      "options": [
+        "Zaharli va giyohvand moddalar ta’siridan saqlanish",
+        "Ularni o‘rganish uchun ataylab iste’mol qilish",
+        "Zaharlanishni mashq deb hisoblash",
+        "Barcha kimyoviy moddani zararsiz deb e’lon qilish"
+      ],
+      "correct_answer": "Zaharli va giyohvand moddalar ta’siridan saqlanish",
+      "explanation": "Ayrim zaharli kimyoviy moddalar nerv sistemasi ishini buzadi. Darslik alkogol va giyohvand moddalar ta’sirini ham xavf sifatida keltiradi."
+    },
+    {
+      "key": "paragraph-44-q5",
+      "fact_id": "paragraph-44-f5",
+      "question_text": "Nerv aloqalari buzilishining oqibati qaysi?",
+      "options": [
+        "Qon guruhining darhol yangilanishi",
+        "Suyaklarning bir zumda ko‘payishi",
+        "O‘pkaning qattiq tog‘ayga aylanishi",
+        "Ta’sirga javobning sekinlashishi va axborot ishlovining buzilishi"
+      ],
+      "correct_answer": "Ta’sirga javobning sekinlashishi va axborot ishlovining buzilishi",
+      "explanation": "Nerv aloqalari zararlanishi signal uzatilishi va miyadagi axborotni qayta ishlashni buzishi mumkin. Natijada javob sekinlashadi."
+    }
+  ]
+}

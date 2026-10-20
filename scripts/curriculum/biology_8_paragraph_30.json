@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-30-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-39",
+  "title": "Moddalar va energiya almashinuvining ahamiyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-30-f1": {
+      "claim": "Metabolizm organizmdagi moddalar va energiyaning o‘zgarishi bilan bog‘liq jarayonlar majmuasidir. Organizm tashqi muhitdan moddalar oladi va almashinuv mahsulotlarini chiqaradi.",
+      "answer": "Moddalar va energiya almashinuvi jarayonlarini",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f2": {
+      "claim": "Assimilatsiya yoki anabolizm oddiyroq moddalardan murakkab moddalar sintezlanishidir. Masalan, aminokislotalardan oqsil quriladi.",
+      "answer": "Anabolizm",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f3": {
+      "claim": "Dissimilatsiya yoki katabolizmda yirik organik moddalar parchalanib, energiya ajraladi. Bu energiya hayotiy faoliyatga sarflanadi.",
+      "answer": "Katabolizm",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f4": {
+      "claim": "Ajralgan energiyaning bir qismi ATF kabi birikmalarda saqlanadi va hujayra ishlarida foydalaniladi.",
+      "answer": "Energiya saqlash va undan foydalanishda qatnashish",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f5": {
+      "claim": "Hujayralarda sintez va parchalanish jarayonlari bir vaqtda kechishi mumkin. Ular o‘zaro bog‘liq bo‘lib, hayot faoliyatini ta’minlaydi.",
+      "answer": "Ular hujayrada o‘zaro bog‘liq va bir vaqtda kechishi mumkin",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f6": {
+      "claim": "Hujayradagi ko‘plab kimyoviy jarayonlar suvli muhitda kechadi. Suv moddalarni tashishda va harorat boshqarilishida ham muhim.",
+      "answer": "Reaksiyalar muhiti, modda tashish va haroratni boshqarish",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f7": {
+      "claim": "Kalsiy tuzlari suyak to‘qimasi tarkibiga kiradi va qon ivishida qatnashadi. Mineral moddalar faqat energiya manbai emas.",
+      "answer": "Suyak tarkibi va qon ivishida qatnashish",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Metabolizm",
+      "body": "Metabolizm organizmdagi moddalar va energiyaning o‘zgarishi bilan bog‘liq jarayonlar majmuasidir. Organizm tashqi muhitdan moddalar oladi va almashinuv mahsulotlarini chiqaradi.",
+      "fact_ids": [
+        "paragraph-30-f1"
+      ]
+    },
+    {
+      "title": "Anabolizm",
+      "body": "Assimilatsiya yoki anabolizm oddiyroq moddalardan murakkab moddalar sintezlanishidir. Masalan, aminokislotalardan oqsil quriladi.",
+      "fact_ids": [
+        "paragraph-30-f2"
+      ]
+    },
+    {
+      "title": "Katabolizm",
+      "body": "Dissimilatsiya yoki katabolizmda yirik organik moddalar parchalanib, energiya ajraladi. Bu energiya hayotiy faoliyatga sarflanadi.",
+      "fact_ids": [
+        "paragraph-30-f3"
+      ]
+    },
+    {
+      "title": "ATF va energiya",
+      "body": "Ajralgan energiyaning bir qismi ATF kabi birikmalarda saqlanadi va hujayra ishlarida foydalaniladi.",
+      "fact_ids": [
+        "paragraph-30-f4"
+      ]
+    },
+    {
+      "title": "Birgalikdagi jarayonlar",
+      "body": "Hujayralarda sintez va parchalanish jarayonlari bir vaqtda kechishi mumkin. Ular o‘zaro bog‘liq bo‘lib, hayot faoliyatini ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-30-f5"
+      ]
+    },
+    {
+      "title": "Suvning roli",
+      "body": "Hujayradagi ko‘plab kimyoviy jarayonlar suvli muhitda kechadi. Suv moddalarni tashishda va harorat boshqarilishida ham muhim.",
+      "fact_ids": [
+        "paragraph-30-f6"
+      ]
+    },
+    {
+      "title": "Kalsiyning roli",
+      "body": "Kalsiy tuzlari suyak to‘qimasi tarkibiga kiradi va qon ivishida qatnashadi. Mineral moddalar faqat energiya manbai emas.",
+      "fact_ids": [
+        "paragraph-30-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-30-q1",
+      "fact_id": "paragraph-30-f1",
+      "question_text": "Metabolizm atamasi nimani qamrab oladi?",
+      "options": [
+        "Faqat ovqatning tishda maydalanishini",
+        "Faqat yurak kameralarining nomini",
+        "Faqat suyaklar sonini",
+        "Moddalar va energiya almashinuvi jarayonlarini"
+      ],
+      "correct_answer": "Moddalar va energiya almashinuvi jarayonlarini",
+      "explanation": "Metabolizm organizmdagi moddalar va energiyaning o‘zgarishi bilan bog‘liq jarayonlar majmuasidir. Organizm tashqi muhitdan moddalar oladi va almashinuv mahsulotlarini chiqaradi."
+    },
+    {
+      "key": "paragraph-30-q2",
+      "fact_id": "paragraph-30-f2",
+      "question_text": "Aminokislotalardan oqsil hosil bo‘lishi qaysi jarayon?",
+      "options": [
+        "Faqat nafas chiqarish",
+        "Faqat suv bug‘lanishi",
+        "Anabolizm",
+        "Faqat katabolizm"
+      ],
+      "correct_answer": "Anabolizm",
+      "explanation": "Assimilatsiya yoki anabolizm oddiyroq moddalardan murakkab moddalar sintezlanishidir. Masalan, aminokislotalardan oqsil quriladi."
+    },
+    {
+      "key": "paragraph-30-q3",
+      "fact_id": "paragraph-30-f3",
+      "question_text": "Murakkab organik moddaning parchalanib energiya ajratishi qanday ataladi?",
+      "options": [
+        "Faqat tashqi sekretsiya",
+        "Katabolizm",
+        "Faqat anabolizm",
+        "Faqat suyaklarning birikishi"
+      ],
+      "correct_answer": "Katabolizm",
+      "explanation": "Dissimilatsiya yoki katabolizmda yirik organik moddalar parchalanib, energiya ajraladi. Bu energiya hayotiy faoliyatga sarflanadi."
+    },
+    {
+      "key": "paragraph-30-q4",
+      "fact_id": "paragraph-30-f4",
+      "question_text": "ATFning hujayra faoliyatidagi ahamiyati qaysi?",
+      "options": [
+        "Energiya saqlash va undan foydalanishda qatnashish",
+        "Faqat qonga rang berish",
+        "Faqat suyaklarni mexanik ulash",
+        "Faqat ko‘zga tasvir tushirish"
+      ],
+      "correct_answer": "Energiya saqlash va undan foydalanishda qatnashish",
+      "explanation": "Ajralgan energiyaning bir qismi ATF kabi birikmalarda saqlanadi va hujayra ishlarida foydalaniladi."
+    },
+    {
+      "key": "paragraph-30-q5",
+      "fact_id": "paragraph-30-f5",
+      "question_text": "Sintez va parchalanish haqida to‘g‘ri fikrni toping.",
+      "options": [
+        "Tirik hujayrada faqat sintez bo‘ladi",
+        "Tirik hujayrada faqat parchalanish bo‘ladi",
+        "Ular organizm energiyasiga hech aloqasi yo‘q",
+        "Ular hujayrada o‘zaro bog‘liq va bir vaqtda kechishi mumkin"
+      ],
+      "correct_answer": "Ular hujayrada o‘zaro bog‘liq va bir vaqtda kechishi mumkin",
+      "explanation": "Hujayralarda sintez va parchalanish jarayonlari bir vaqtda kechishi mumkin. Ular o‘zaro bog‘liq bo‘lib, hayot faoliyatini ta’minlaydi."
+    },
+    {
+      "key": "paragraph-30-q6",
+      "fact_id": "paragraph-30-f6",
+      "question_text": "Suvning organizmdagi vazifalariga qaysi biri kiradi?",
+      "options": [
+        "Faqat qon guruhini belgilash",
+        "Faqat tishlar sonini oshirish",
+        "Reaksiyalar muhiti, modda tashish va haroratni boshqarish",
+        "Faqat suyakni butunlay eritish"
+      ],
+      "correct_answer": "Reaksiyalar muhiti, modda tashish va haroratni boshqarish",
+      "explanation": "Hujayradagi ko‘plab kimyoviy jarayonlar suvli muhitda kechadi. Suv moddalarni tashishda va harorat boshqarilishida ham muhim."
+    },
+    {
+      "key": "paragraph-30-q7",
+      "fact_id": "paragraph-30-f7",
+      "question_text": "Kalsiy uchun qaysi ikki vazifa mos?",
+      "options": [
+        "Faqat yog‘ni emulsiyalash",
+        "Suyak tarkibi va qon ivishida qatnashish",
+        "Ovoz chiqarish va ko‘z rangini belgilash",
+        "Faqat glukoza ishlab chiqarish"
+      ],
+      "correct_answer": "Suyak tarkibi va qon ivishida qatnashish",
+      "explanation": "Kalsiy tuzlari suyak to‘qimasi tarkibiga kiradi va qon ivishida qatnashadi. Mineral moddalar faqat energiya manbai emas."
+    }
+  ]
+}

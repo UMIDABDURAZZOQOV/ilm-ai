@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-43-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-54",
+  "title": "Bosh miya katta yarimsharlarining tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-43-f1": {
+      "claim": "Bosh miyaning o‘ng va chap katta yarimsharlari qadoqsimon tana orqali bog‘langan. Bu tolalar ularning hamkor ishlashiga yordam beradi.",
+      "answer": "Qadoqsimon tana",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f2": {
+      "claim": "Katta yarimsharlarda tashqi po‘stloq kulrang moddadan, uning ostidagi qism asosan oq moddadan tashkil topgan.",
+      "answer": "Kulrang modda",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f3": {
+      "claim": "Po‘stloqdagi egat va pushtalar uning yuzasini kengaytiradi. Bu ko‘proq nerv hujayralari joylashishiga yordam beradi.",
+      "answer": "Yuzani kengaytirish",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f4": {
+      "claim": "Katta yarimsharlarda peshana, tepa, chakka va ensa bo‘limlari ajratiladi.",
+      "answer": "Peshana, tepa, chakka va ensa",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f5": {
+      "claim": "Po‘stloqning ensa bo‘limi ko‘rish, chakka bo‘limi eshitish axborotini qayta ishlashda muhim.",
+      "answer": "Ko‘rish — ensa; eshitish — chakka",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-43-f6": {
+      "claim": "Assotsiativ zonalar po‘stloq qismlaridan kelgan axborotni bog‘lash, tahlil va umumlashtirishda qatnashadi.",
+      "answer": "Assotsiativ zonalar",
+      "source": {
+        "paragraph": 43,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yarimsharlar aloqasi",
+      "body": "Bosh miyaning o‘ng va chap katta yarimsharlari qadoqsimon tana orqali bog‘langan. Bu tolalar ularning hamkor ishlashiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-43-f1"
+      ]
+    },
+    {
+      "title": "Po‘stloq va oq modda",
+      "body": "Katta yarimsharlarda tashqi po‘stloq kulrang moddadan, uning ostidagi qism asosan oq moddadan tashkil topgan.",
+      "fact_ids": [
+        "paragraph-43-f2"
+      ]
+    },
+    {
+      "title": "Egat va pushtalar",
+      "body": "Po‘stloqdagi egat va pushtalar uning yuzasini kengaytiradi. Bu ko‘proq nerv hujayralari joylashishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-43-f3"
+      ]
+    },
+    {
+      "title": "Bo‘limlarni ajratish",
+      "body": "Katta yarimsharlarda peshana, tepa, chakka va ensa bo‘limlari ajratiladi.",
+      "fact_ids": [
+        "paragraph-43-f4"
+      ]
+    },
+    {
+      "title": "Ko‘rish va eshitish",
+      "body": "Po‘stloqning ensa bo‘limi ko‘rish, chakka bo‘limi eshitish axborotini qayta ishlashda muhim.",
+      "fact_ids": [
+        "paragraph-43-f5"
+      ]
+    },
+    {
+      "title": "Assotsiativ aloqa",
+      "body": "Assotsiativ zonalar po‘stloq qismlaridan kelgan axborotni bog‘lash, tahlil va umumlashtirishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-43-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-43-q1",
+      "fact_id": "paragraph-43-f1",
+      "question_text": "Ikki katta yarimsharni bog‘lovchi tuzilma qaysi?",
+      "options": [
+        "O‘t yo‘li",
+        "Buyrak jomi",
+        "Ovoz payi",
+        "Qadoqsimon tana"
+      ],
+      "correct_answer": "Qadoqsimon tana",
+      "explanation": "Bosh miyaning o‘ng va chap katta yarimsharlari qadoqsimon tana orqali bog‘langan. Bu tolalar ularning hamkor ishlashiga yordam beradi."
+    },
+    {
+      "key": "paragraph-43-q2",
+      "fact_id": "paragraph-43-f2",
+      "question_text": "Katta yarimsharlar po‘stlog‘i asosan qaysi moddadan iborat?",
+      "options": [
+        "Faqat tog‘ay",
+        "Faqat qon plazmasi",
+        "Kulrang modda",
+        "Faqat sariq suyak iligi"
+      ],
+      "correct_answer": "Kulrang modda",
+      "explanation": "Katta yarimsharlarda tashqi po‘stloq kulrang moddadan, uning ostidagi qism asosan oq moddadan tashkil topgan."
+    },
+    {
+      "key": "paragraph-43-q3",
+      "fact_id": "paragraph-43-f3",
+      "question_text": "Po‘stloq burmalarining ahamiyati nima?",
+      "options": [
+        "Havoni isitish",
+        "Yuzani kengaytirish",
+        "Barcha nerv hujayralarini yo‘qotish",
+        "Faqat qon guruhini o‘zgartirish"
+      ],
+      "correct_answer": "Yuzani kengaytirish",
+      "explanation": "Po‘stloqdagi egat va pushtalar uning yuzasini kengaytiradi. Bu ko‘proq nerv hujayralari joylashishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-43-q4",
+      "fact_id": "paragraph-43-f4",
+      "question_text": "Katta yarimshar bo‘limlari qaysi qatorda?",
+      "options": [
+        "Peshana, tepa, chakka va ensa",
+        "Bo‘yin, bel, dumg‘aza va dum",
+        "Po‘stloq, mag‘iz, jom va kosacha",
+        "Og‘iz, halqum, oshqozon va ichak"
+      ],
+      "correct_answer": "Peshana, tepa, chakka va ensa",
+      "explanation": "Katta yarimsharlarda peshana, tepa, chakka va ensa bo‘limlari ajratiladi."
+    },
+    {
+      "key": "paragraph-43-q5",
+      "fact_id": "paragraph-43-f5",
+      "question_text": "Ko‘rish va eshitish bilan bog‘liq bo‘limlar qaysi juftlikda mos?",
+      "options": [
+        "Ko‘rish — buyrak; eshitish — jigar",
+        "Ko‘rish — bel; eshitish — dum",
+        "Ko‘rish — qovuq; eshitish — oshqozon",
+        "Ko‘rish — ensa; eshitish — chakka"
+      ],
+      "correct_answer": "Ko‘rish — ensa; eshitish — chakka",
+      "explanation": "Po‘stloqning ensa bo‘limi ko‘rish, chakka bo‘limi eshitish axborotini qayta ishlashda muhim."
+    },
+    {
+      "key": "paragraph-43-q6",
+      "fact_id": "paragraph-43-f6",
+      "question_text": "Turli sezgi axborotini birlashtirishda qaysi zonalar muhim?",
+      "options": [
+        "Faqat buyrak kapsulasi",
+        "Faqat suyak iligi",
+        "Assotsiativ zonalar",
+        "Faqat tishning emal qavati"
+      ],
+      "correct_answer": "Assotsiativ zonalar",
+      "explanation": "Assotsiativ zonalar po‘stloq qismlaridan kelgan axborotni bog‘lash, tahlil va umumlashtirishda qatnashadi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-42-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-53",
+  "title": "Bosh miyaning tuzilishi va funksiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-42-f1": {
+      "claim": "Bosh miya kalla qutisi ichida joylashadi va nerv sistemasi markaziy qismiga kiradi. Uning bo‘limlari o‘zaro nerv yo‘llari bilan bog‘langan.",
+      "answer": "Kalla qutisi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f2": {
+      "claim": "Uzunchoq miyada nafas olish, yurak ishini boshqarish va ayrim himoya reflekslari markazlari bor.",
+      "answer": "Nafas va yurak boshqaruvi markazlari bilan bog‘liqligi uchun",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f3": {
+      "claim": "Miya ko‘prigi uzunchoq miya va o‘rta miya oralig‘ida joylashib, nerv signallarining bo‘limlar orasida o‘tishida qatnashadi.",
+      "answer": "Bo‘limlar orasidagi nerv aloqalarida qatnashadi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f4": {
+      "claim": "O‘rta miya ko‘rish va eshitish ta’siriga chamalash reaksiyalarida qatnashadi. Tovush tomonga boshni burish shunga misoldir.",
+      "answer": "O‘rta miya",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f5": {
+      "claim": "Oraliq miya ochlik, chanqash va tana harorati kabi holatlar boshqarilishida qatnashadi.",
+      "answer": "Oraliq miya",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f6": {
+      "claim": "Miyacha harakatning aniqligi, muvozanat va muskul tonusini muvofiqlashtirishda muhim. Zararlanganda yurish va yozish aniqligi buzilishi mumkin.",
+      "answer": "Muvozanat va harakat aniqligi buzilishiga",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Miya himoyasi",
+      "body": "Bosh miya kalla qutisi ichida joylashadi va nerv sistemasi markaziy qismiga kiradi. Uning bo‘limlari o‘zaro nerv yo‘llari bilan bog‘langan.",
+      "fact_ids": [
+        "paragraph-42-f1"
+      ]
+    },
+    {
+      "title": "Uzunchoq miya",
+      "body": "Uzunchoq miyada nafas olish, yurak ishini boshqarish va ayrim himoya reflekslari markazlari bor.",
+      "fact_ids": [
+        "paragraph-42-f2"
+      ]
+    },
+    {
+      "title": "Miya ko‘prigi",
+      "body": "Miya ko‘prigi uzunchoq miya va o‘rta miya oralig‘ida joylashib, nerv signallarining bo‘limlar orasida o‘tishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-42-f3"
+      ]
+    },
+    {
+      "title": "O‘rta miya",
+      "body": "O‘rta miya ko‘rish va eshitish ta’siriga chamalash reaksiyalarida qatnashadi. Tovush tomonga boshni burish shunga misoldir.",
+      "fact_ids": [
+        "paragraph-42-f4"
+      ]
+    },
+    {
+      "title": "Oraliq miya",
+      "body": "Oraliq miya ochlik, chanqash va tana harorati kabi holatlar boshqarilishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-42-f5"
+      ]
+    },
+    {
+      "title": "Miyacha muvofiqlashuvi",
+      "body": "Miyacha harakatning aniqligi, muvozanat va muskul tonusini muvofiqlashtirishda muhim. Zararlanganda yurish va yozish aniqligi buzilishi mumkin.",
+      "fact_ids": [
+        "paragraph-42-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-42-q1",
+      "fact_id": "paragraph-42-f1",
+      "question_text": "Bosh miyani tashqi tomondan qaysi suyak tuzilma o‘raydi?",
+      "options": [
+        "Faqat ko‘krak qafasi",
+        "Faqat chanoq",
+        "Faqat bilak suyagi",
+        "Kalla qutisi"
+      ],
+      "correct_answer": "Kalla qutisi",
+      "explanation": "Bosh miya kalla qutisi ichida joylashadi va nerv sistemasi markaziy qismiga kiradi. Uning bo‘limlari o‘zaro nerv yo‘llari bilan bog‘langan."
+    },
+    {
+      "key": "paragraph-42-q2",
+      "fact_id": "paragraph-42-f2",
+      "question_text": "Uzunchoq miya zararlanishi nega hayotiy xavf tug‘dirishi mumkin?",
+      "options": [
+        "Faqat tish sonini oshirgani uchun",
+        "Faqat tirnoq o‘stirgani uchun",
+        "Nafas va yurak boshqaruvi markazlari bilan bog‘liqligi uchun",
+        "Faqat soch rangini belgilagani uchun"
+      ],
+      "correct_answer": "Nafas va yurak boshqaruvi markazlari bilan bog‘liqligi uchun",
+      "explanation": "Uzunchoq miyada nafas olish, yurak ishini boshqarish va ayrim himoya reflekslari markazlari bor."
+    },
+    {
+      "key": "paragraph-42-q3",
+      "fact_id": "paragraph-42-f3",
+      "question_text": "Miya ko‘prigi uchun qaysi tavsif mos?",
+      "options": [
+        "Faqat siydikni to‘playdigan organ",
+        "Bo‘limlar orasidagi nerv aloqalarida qatnashadi",
+        "Faqat oziq saqlaydigan xalta",
+        "Faqat qon ishlab chiqaradigan suyak"
+      ],
+      "correct_answer": "Bo‘limlar orasidagi nerv aloqalarida qatnashadi",
+      "explanation": "Miya ko‘prigi uzunchoq miya va o‘rta miya oralig‘ida joylashib, nerv signallarining bo‘limlar orasida o‘tishida qatnashadi."
+    },
+    {
+      "key": "paragraph-42-q4",
+      "fact_id": "paragraph-42-f4",
+      "question_text": "Tovush tomonga boshni burib qarash qaysi bo‘limning chamalash faoliyatiga misol?",
+      "options": [
+        "O‘rta miya",
+        "Faqat buyrak mag‘zi",
+        "Faqat oshqozon",
+        "Faqat qalqonsimon bez"
+      ],
+      "correct_answer": "O‘rta miya",
+      "explanation": "O‘rta miya ko‘rish va eshitish ta’siriga chamalash reaksiyalarida qatnashadi. Tovush tomonga boshni burish shunga misoldir."
+    },
+    {
+      "key": "paragraph-42-q5",
+      "fact_id": "paragraph-42-f5",
+      "question_text": "Chanqash va tana harorati boshqarilishi qaysi bo‘lim bilan bog‘liq?",
+      "options": [
+        "Faqat ko‘z gavhari",
+        "Faqat quloq suprasi",
+        "Faqat qizilo‘ngach",
+        "Oraliq miya"
+      ],
+      "correct_answer": "Oraliq miya",
+      "explanation": "Oraliq miya ochlik, chanqash va tana harorati kabi holatlar boshqarilishida qatnashadi."
+    },
+    {
+      "key": "paragraph-42-q6",
+      "fact_id": "paragraph-42-f6",
+      "question_text": "Miyacha faoliyatining buzilishi qaysi holatga olib kelishi mumkin?",
+      "options": [
+        "Tishlarning darhol ko‘payishiga",
+        "Suyakda emal hosil bo‘lishiga",
+        "Muvozanat va harakat aniqligi buzilishiga",
+        "Qon guruhining almashishiga"
+      ],
+      "correct_answer": "Muvozanat va harakat aniqligi buzilishiga",
+      "explanation": "Miyacha harakatning aniqligi, muvozanat va muskul tonusini muvofiqlashtirishda muhim. Zararlanganda yurish va yozish aniqligi buzilishi mumkin."
+    }
+  ]
+}

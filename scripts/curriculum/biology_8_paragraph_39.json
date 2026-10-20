@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-39-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-50",
+  "title": "Nerv sistemasining tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-39-f1": {
+      "claim": "Nerv to‘qimasida neyronlar va ularni qo‘llab-quvvatlovchi neyrogliya hujayralari bor. Neyron nerv signallarini qabul qilib uzatadi.",
+      "answer": "Neyron",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f2": {
+      "claim": "Odatdagi neyronning dendritlari signalni tanasi tomon, aksoni esa tanasidan keyingi hujayra tomon o‘tkazishda qatnashadi.",
+      "answer": "Akson",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f3": {
+      "claim": "Neyronlar o‘rtasidagi maxsus aloqa joyi sinaps deyiladi. Kimyoviy sinapsda mediator keyingi hujayraga signal yetkazadi.",
+      "answer": "Signalni keyingi hujayraga yetkazishga",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f4": {
+      "claim": "Sezuvchi neyronlar retseptorlardan markaziy nerv sistemasiga signallar olib boradi.",
+      "answer": "Sezuvchi neyron",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f5": {
+      "claim": "Harakatlantiruvchi neyron markaziy nerv sistemasidan muskullar va boshqa ishchi organlarga signal olib boradi.",
+      "answer": "Harakatlantiruvchi neyron",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f6": {
+      "claim": "Markaziy nerv sistemasi bosh va orqa miyadan iborat. Ulardan tashqaridagi nervlar va tugunlar periferik qismga kiradi.",
+      "answer": "Bosh miya va orqa miya",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f7": {
+      "claim": "Somatik qism skelet muskullari va sezgi bilan, vegetativ qism esa ichki organlar boshqaruvi bilan bog‘liq.",
+      "answer": "Vegetativ nerv sistemasiga",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Nerv to‘qimasi",
+      "body": "Nerv to‘qimasida neyronlar va ularni qo‘llab-quvvatlovchi neyrogliya hujayralari bor. Neyron nerv signallarini qabul qilib uzatadi.",
+      "fact_ids": [
+        "paragraph-39-f1"
+      ]
+    },
+    {
+      "title": "Dendrit va akson",
+      "body": "Odatdagi neyronning dendritlari signalni tanasi tomon, aksoni esa tanasidan keyingi hujayra tomon o‘tkazishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-39-f2"
+      ]
+    },
+    {
+      "title": "Sinaps",
+      "body": "Neyronlar o‘rtasidagi maxsus aloqa joyi sinaps deyiladi. Kimyoviy sinapsda mediator keyingi hujayraga signal yetkazadi.",
+      "fact_ids": [
+        "paragraph-39-f3"
+      ]
+    },
+    {
+      "title": "Sezuvchi neyron",
+      "body": "Sezuvchi neyronlar retseptorlardan markaziy nerv sistemasiga signallar olib boradi.",
+      "fact_ids": [
+        "paragraph-39-f4"
+      ]
+    },
+    {
+      "title": "Harakatlantiruvchi neyron",
+      "body": "Harakatlantiruvchi neyron markaziy nerv sistemasidan muskullar va boshqa ishchi organlarga signal olib boradi.",
+      "fact_ids": [
+        "paragraph-39-f5"
+      ]
+    },
+    {
+      "title": "Markaz va periferiya",
+      "body": "Markaziy nerv sistemasi bosh va orqa miyadan iborat. Ulardan tashqaridagi nervlar va tugunlar periferik qismga kiradi.",
+      "fact_ids": [
+        "paragraph-39-f6"
+      ]
+    },
+    {
+      "title": "Somatik va vegetativ",
+      "body": "Somatik qism skelet muskullari va sezgi bilan, vegetativ qism esa ichki organlar boshqaruvi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-39-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-39-q1",
+      "fact_id": "paragraph-39-f1",
+      "question_text": "Nerv signalini qabul qilish va uzatishga ixtisoslashgan hujayra qaysi?",
+      "options": [
+        "Eritrotsit",
+        "Trombotsit",
+        "Teri muguz hujayrasi",
+        "Neyron"
+      ],
+      "correct_answer": "Neyron",
+      "explanation": "Nerv to‘qimasida neyronlar va ularni qo‘llab-quvvatlovchi neyrogliya hujayralari bor. Neyron nerv signallarini qabul qilib uzatadi."
+    },
+    {
+      "key": "paragraph-39-q2",
+      "fact_id": "paragraph-39-f2",
+      "question_text": "Neyronning signalni tanasidan uzoqlashtiruvchi o‘simtasi qaysi?",
+      "options": [
+        "Yadrocha",
+        "Qon kapillyari",
+        "Akson",
+        "Dendrit"
+      ],
+      "correct_answer": "Akson",
+      "explanation": "Odatdagi neyronning dendritlari signalni tanasi tomon, aksoni esa tanasidan keyingi hujayra tomon o‘tkazishda qatnashadi."
+    },
+    {
+      "key": "paragraph-39-q3",
+      "fact_id": "paragraph-39-f3",
+      "question_text": "Kimyoviy sinapsdagi mediator nimaga xizmat qiladi?",
+      "options": [
+        "Ovqatni mexanik maydalashga",
+        "Signalni keyingi hujayraga yetkazishga",
+        "Qonni ivitishga",
+        "Suyakni uzaytirishga"
+      ],
+      "correct_answer": "Signalni keyingi hujayraga yetkazishga",
+      "explanation": "Neyronlar o‘rtasidagi maxsus aloqa joyi sinaps deyiladi. Kimyoviy sinapsda mediator keyingi hujayraga signal yetkazadi."
+    },
+    {
+      "key": "paragraph-39-q4",
+      "fact_id": "paragraph-39-f4",
+      "question_text": "Retseptordan markazga signal olib boradigan neyron qaysi?",
+      "options": [
+        "Sezuvchi neyron",
+        "Harakatlantiruvchi neyron",
+        "Faqat muskul tolasi",
+        "Faqat trombotsit"
+      ],
+      "correct_answer": "Sezuvchi neyron",
+      "explanation": "Sezuvchi neyronlar retseptorlardan markaziy nerv sistemasiga signallar olib boradi."
+    },
+    {
+      "key": "paragraph-39-q5",
+      "fact_id": "paragraph-39-f5",
+      "question_text": "Markazdan ishchi organga signalni qaysi neyron uzatadi?",
+      "options": [
+        "Faqat sezuvchi neyron",
+        "Faqat eritrotsit",
+        "Faqat neyrogliyaning oziqlantiruvchi hujayrasi",
+        "Harakatlantiruvchi neyron"
+      ],
+      "correct_answer": "Harakatlantiruvchi neyron",
+      "explanation": "Harakatlantiruvchi neyron markaziy nerv sistemasidan muskullar va boshqa ishchi organlarga signal olib boradi."
+    },
+    {
+      "key": "paragraph-39-q6",
+      "fact_id": "paragraph-39-f6",
+      "question_text": "Markaziy nerv sistemasiga nima kiradi?",
+      "options": [
+        "Faqat teri retseptorlari",
+        "Faqat qovuq devori",
+        "Bosh miya va orqa miya",
+        "Faqat qo‘l-oyoq nervlari"
+      ],
+      "correct_answer": "Bosh miya va orqa miya",
+      "explanation": "Markaziy nerv sistemasi bosh va orqa miyadan iborat. Ulardan tashqaridagi nervlar va tugunlar periferik qismga kiradi."
+    },
+    {
+      "key": "paragraph-39-q7",
+      "fact_id": "paragraph-39-f7",
+      "question_text": "Ichki organlar faoliyatining ko‘p ixtiyorsiz boshqaruvi qaysi qismga tegishli?",
+      "options": [
+        "Faqat suyakusti pardasiga",
+        "Vegetativ nerv sistemasiga",
+        "Faqat somatik skelet muskuli nerviga",
+        "Faqat tish emaliga"
+      ],
+      "correct_answer": "Vegetativ nerv sistemasiga",
+      "explanation": "Somatik qism skelet muskullari va sezgi bilan, vegetativ qism esa ichki organlar boshqaruvi bilan bog‘liq."
+    }
+  ]
+}

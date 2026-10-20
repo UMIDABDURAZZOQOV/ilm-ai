@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-29-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-37",
+  "title": "Oshqozon-ichak kasalliklari va ularning oldini olish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-29-f1": {
+      "claim": "Oshqozon shilliq pardasining yallig‘lanishi gastrit deyiladi. Bu atama organ va zararlangan qatlamni bildiradi.",
+      "answer": "Oshqozon shilliq pardasi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          90
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f2": {
+      "claim": "Ichak infeksiyalari ifloslangan ichimlik suvi va oziq orqali tarqalishi mumkin. Oqava suvning ichimlik manbasiga tushishi xavf tug‘diradi.",
+      "answer": "Ichimlik suvining oqava bilan ifloslanishi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f3": {
+      "claim": "Antibiotiklar foydali ichak bakteriyalariga ham ta’sir qilishi mumkin. Darslik ulardan faqat shifokor nazoratida foydalanishni ta’kidlaydi.",
+      "answer": "Foydali bakteriyalar ham zararlanishi mumkin",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f4": {
+      "claim": "Parazit tuxumi bilan ifloslangan qo‘l va yuvilmagan mahsulotlar ayrim chuvalchanglarning yuqishiga sabab bo‘lishi mumkin.",
+      "answer": "Qo‘l va iste’mol qilinadigan mahsulotlarni tozalash",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f5": {
+      "claim": "Qo‘lni sovunlab yuvish, meva-sabzavotni yuvish, xavfsiz suv ichish va go‘shtni yaxshi pishirish ichak kasalliklari oldini olishga yordam beradi.",
+      "answer": "Mahsulotlarni yuvish va go‘shtni yetarli pishirish",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f6": {
+      "claim": "Oziq mahsulotini pashshadan himoyalab, yopiq saqlash ifloslanishni kamaytiradi. Bu qo‘l yuvish kabi boshqa gigiyena choralarini almashtirmaydi.",
+      "answer": "Pashsha va tashqi ifloslanishdan himoyalash",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gastrit tushunchasi",
+      "body": "Oshqozon shilliq pardasining yallig‘lanishi gastrit deyiladi. Bu atama organ va zararlangan qatlamni bildiradi.",
+      "fact_ids": [
+        "paragraph-29-f1"
+      ]
+    },
+    {
+      "title": "Iflos suv xavfi",
+      "body": "Ichak infeksiyalari ifloslangan ichimlik suvi va oziq orqali tarqalishi mumkin. Oqava suvning ichimlik manbasiga tushishi xavf tug‘diradi.",
+      "fact_ids": [
+        "paragraph-29-f2"
+      ]
+    },
+    {
+      "title": "Dori nazorati",
+      "body": "Antibiotiklar foydali ichak bakteriyalariga ham ta’sir qilishi mumkin. Darslik ulardan faqat shifokor nazoratida foydalanishni ta’kidlaydi.",
+      "fact_ids": [
+        "paragraph-29-f3"
+      ]
+    },
+    {
+      "title": "Parazit yuqishi",
+      "body": "Parazit tuxumi bilan ifloslangan qo‘l va yuvilmagan mahsulotlar ayrim chuvalchanglarning yuqishiga sabab bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-29-f4"
+      ]
+    },
+    {
+      "title": "Xavfsiz ovqat",
+      "body": "Qo‘lni sovunlab yuvish, meva-sabzavotni yuvish, xavfsiz suv ichish va go‘shtni yaxshi pishirish ichak kasalliklari oldini olishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-29-f5"
+      ]
+    },
+    {
+      "title": "Ovqatni yopiq saqlash",
+      "body": "Oziq mahsulotini pashshadan himoyalab, yopiq saqlash ifloslanishni kamaytiradi. Bu qo‘l yuvish kabi boshqa gigiyena choralarini almashtirmaydi.",
+      "fact_ids": [
+        "paragraph-29-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-29-q1",
+      "fact_id": "paragraph-29-f1",
+      "question_text": "Gastritda asosan qaysi qatlam yallig‘lanadi?",
+      "options": [
+        "O‘pka plevrasi",
+        "Suyakusti pardasi",
+        "Ko‘zning shox pardasi",
+        "Oshqozon shilliq pardasi"
+      ],
+      "correct_answer": "Oshqozon shilliq pardasi",
+      "explanation": "Oshqozon shilliq pardasining yallig‘lanishi gastrit deyiladi. Bu atama organ va zararlangan qatlamni bildiradi."
+    },
+    {
+      "key": "paragraph-29-q2",
+      "fact_id": "paragraph-29-f2",
+      "question_text": "Ichak infeksiyasi tarqalishiga qaysi sharoit yordam beradi?",
+      "options": [
+        "Qo‘lni sovunlab yuvish",
+        "Oziqni gigiyenik tayyorlash",
+        "Ichimlik suvining oqava bilan ifloslanishi",
+        "Ichimlik suvini toza saqlash"
+      ],
+      "correct_answer": "Ichimlik suvining oqava bilan ifloslanishi",
+      "explanation": "Ichak infeksiyalari ifloslangan ichimlik suvi va oziq orqali tarqalishi mumkin. Oqava suvning ichimlik manbasiga tushishi xavf tug‘diradi."
+    },
+    {
+      "key": "paragraph-29-q3",
+      "fact_id": "paragraph-29-f3",
+      "question_text": "Antibiotikni o‘zboshimchalik bilan ichmaslikka qaysi sabab mos?",
+      "options": [
+        "Ular ichakdagi barcha mikroblarga ta’sir qilmaydi",
+        "Foydali bakteriyalar ham zararlanishi mumkin",
+        "Ular har doim barcha virusni yo‘qotadi",
+        "Ular faqat suyakni uzaytiradi"
+      ],
+      "correct_answer": "Foydali bakteriyalar ham zararlanishi mumkin",
+      "explanation": "Antibiotiklar foydali ichak bakteriyalariga ham ta’sir qilishi mumkin. Darslik ulardan faqat shifokor nazoratida foydalanishni ta’kidlaydi."
+    },
+    {
+      "key": "paragraph-29-q4",
+      "fact_id": "paragraph-29-f4",
+      "question_text": "Parazit tuxumlari yuqishi xavfini qaysi odat kamaytiradi?",
+      "options": [
+        "Qo‘l va iste’mol qilinadigan mahsulotlarni tozalash",
+        "Yuvilmagan mevani iste’mol qilish",
+        "Ovqatni iflos qo‘l bilan ushlash",
+        "Ichimlikni ochiq iflos idishda saqlash"
+      ],
+      "correct_answer": "Qo‘l va iste’mol qilinadigan mahsulotlarni tozalash",
+      "explanation": "Parazit tuxumi bilan ifloslangan qo‘l va yuvilmagan mahsulotlar ayrim chuvalchanglarning yuqishiga sabab bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-29-q5",
+      "fact_id": "paragraph-29-f5",
+      "question_text": "Darslik tavsiya qilgan xavfsiz ovqatlanish juftligi qaysi?",
+      "options": [
+        "Xom go‘shtni har doim xavfsiz deb hisoblash",
+        "Suv manbasini tekshirmaslik",
+        "Mevaga pashsha qo‘nishiga yo‘l qo‘yish",
+        "Mahsulotlarni yuvish va go‘shtni yetarli pishirish"
+      ],
+      "correct_answer": "Mahsulotlarni yuvish va go‘shtni yetarli pishirish",
+      "explanation": "Qo‘lni sovunlab yuvish, meva-sabzavotni yuvish, xavfsiz suv ichish va go‘shtni yaxshi pishirish ichak kasalliklari oldini olishga yordam beradi."
+    },
+    {
+      "key": "paragraph-29-q6",
+      "fact_id": "paragraph-29-f6",
+      "question_text": "Ovqatni yopiq saqlashning foydasi nima?",
+      "options": [
+        "Har qanday buzilgan mahsulotni xavfsiz qilish",
+        "Barcha mikroblarni darhol o‘ldirish",
+        "Pashsha va tashqi ifloslanishdan himoyalash",
+        "Mahsulotni yuvish talabini butunlay bekor qilish"
+      ],
+      "correct_answer": "Pashsha va tashqi ifloslanishdan himoyalash",
+      "explanation": "Oziq mahsulotini pashshadan himoyalab, yopiq saqlash ifloslanishni kamaytiradi. Bu qo‘l yuvish kabi boshqa gigiyena choralarini almashtirmaydi."
+    }
+  ]
+}

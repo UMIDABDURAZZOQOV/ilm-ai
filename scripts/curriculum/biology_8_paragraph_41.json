@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-41-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-52",
+  "title": "Orqa miyaning tuzilishi va funksiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-41-f1": {
+      "claim": "Orqa miya umurtqa pog‘onasi kanalida joylashadi. Uning markaziy kanali miya suyuqligi bilan bog‘liq bo‘shliqdir.",
+      "answer": "Umurtqa pog‘onasi kanalida",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f2": {
+      "claim": "Orqa miya kesimida ichkarida kapalak shakliga o‘xshash kulrang modda, uning atrofida oq modda bor.",
+      "answer": "Ichkarida, oq modda bilan o‘ralgan",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f3": {
+      "claim": "Orqa ildizchalar orqali sezuvchi signallar markazga kiradi; oldingi ildizchalar orqali harakatlantiruvchi signallar chiqadi.",
+      "answer": "Markazdan ishchi organ tomon",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f4": {
+      "claim": "Oldingi va orqa ildizchalar qo‘shilib aralash orqa miya nervini hosil qiladi. Odamda 31 juft orqa miya nervi bor.",
+      "answer": "Sezuvchi va harakatlantiruvchi tolalar birlashgani uchun",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f5": {
+      "claim": "Orqa miyaning kulrang moddasidagi markazlar reflekslarda qatnashadi. Tizza refleksi shunday javoblardan biridir.",
+      "answer": "Tizza refleksi",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          129
+        ],
+        "printed_pages": [
+          129
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f6": {
+      "claim": "Oq moddadagi yo‘llar yuqoriga bosh miya tomon va pastga orqa miya bo‘limlari tomon signallar o‘tkazadi.",
+      "answer": "Nerv signallarini o‘tkazish",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          129
+        ],
+        "printed_pages": [
+          129
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Orqa miyaning o‘rni",
+      "body": "Orqa miya umurtqa pog‘onasi kanalida joylashadi. Uning markaziy kanali miya suyuqligi bilan bog‘liq bo‘shliqdir.",
+      "fact_ids": [
+        "paragraph-41-f1"
+      ]
+    },
+    {
+      "title": "Kulrang va oq modda",
+      "body": "Orqa miya kesimida ichkarida kapalak shakliga o‘xshash kulrang modda, uning atrofida oq modda bor.",
+      "fact_ids": [
+        "paragraph-41-f2"
+      ]
+    },
+    {
+      "title": "Ildizchalar",
+      "body": "Orqa ildizchalar orqali sezuvchi signallar markazga kiradi; oldingi ildizchalar orqali harakatlantiruvchi signallar chiqadi.",
+      "fact_ids": [
+        "paragraph-41-f3"
+      ]
+    },
+    {
+      "title": "Aralash nervlar",
+      "body": "Oldingi va orqa ildizchalar qo‘shilib aralash orqa miya nervini hosil qiladi. Odamda 31 juft orqa miya nervi bor.",
+      "fact_ids": [
+        "paragraph-41-f4"
+      ]
+    },
+    {
+      "title": "Reflektorlik",
+      "body": "Orqa miyaning kulrang moddasidagi markazlar reflekslarda qatnashadi. Tizza refleksi shunday javoblardan biridir.",
+      "fact_ids": [
+        "paragraph-41-f5"
+      ]
+    },
+    {
+      "title": "O‘tkazuvchanlik",
+      "body": "Oq moddadagi yo‘llar yuqoriga bosh miya tomon va pastga orqa miya bo‘limlari tomon signallar o‘tkazadi.",
+      "fact_ids": [
+        "paragraph-41-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-41-q1",
+      "fact_id": "paragraph-41-f1",
+      "question_text": "Orqa miya qayerda joylashgan?",
+      "options": [
+        "Oshqozon bo‘shlig‘ida",
+        "O‘t pufagida",
+        "Burun bo‘shlig‘ida",
+        "Umurtqa pog‘onasi kanalida"
+      ],
+      "correct_answer": "Umurtqa pog‘onasi kanalida",
+      "explanation": "Orqa miya umurtqa pog‘onasi kanalida joylashadi. Uning markaziy kanali miya suyuqligi bilan bog‘liq bo‘shliqdir."
+    },
+    {
+      "key": "paragraph-41-q2",
+      "fact_id": "paragraph-41-f2",
+      "question_text": "Orqa miyada kulrang modda qanday joylashgan?",
+      "options": [
+        "Faqat orqa miya tashqarisidagi suyakda",
+        "Orqa miyada umuman yo‘q",
+        "Ichkarida, oq modda bilan o‘ralgan",
+        "Faqat tashqi teri sirtida"
+      ],
+      "correct_answer": "Ichkarida, oq modda bilan o‘ralgan",
+      "explanation": "Orqa miya kesimida ichkarida kapalak shakliga o‘xshash kulrang modda, uning atrofida oq modda bor."
+    },
+    {
+      "key": "paragraph-41-q3",
+      "fact_id": "paragraph-41-f3",
+      "question_text": "Oldingi ildizchaning asosiy signal yo‘nalishi qaysi?",
+      "options": [
+        "Faqat havodan qonga",
+        "Markazdan ishchi organ tomon",
+        "Faqat retseptordan markaz tomon",
+        "Faqat tomirdan suyak tomon"
+      ],
+      "correct_answer": "Markazdan ishchi organ tomon",
+      "explanation": "Orqa ildizchalar orqali sezuvchi signallar markazga kiradi; oldingi ildizchalar orqali harakatlantiruvchi signallar chiqadi."
+    },
+    {
+      "key": "paragraph-41-q4",
+      "fact_id": "paragraph-41-f4",
+      "question_text": "Nega orqa miya nervi aralash deyiladi?",
+      "options": [
+        "Sezuvchi va harakatlantiruvchi tolalar birlashgani uchun",
+        "Faqat qon va limfa aralashgani uchun",
+        "Faqat suyak va tog‘aydan tuzilgani uchun",
+        "Faqat havo va oziq o‘tishi uchun"
+      ],
+      "correct_answer": "Sezuvchi va harakatlantiruvchi tolalar birlashgani uchun",
+      "explanation": "Oldingi va orqa ildizchalar qo‘shilib aralash orqa miya nervini hosil qiladi. Odamda 31 juft orqa miya nervi bor."
+    },
+    {
+      "key": "paragraph-41-q5",
+      "fact_id": "paragraph-41-f5",
+      "question_text": "Orqa miyaning reflektorlik vazifasiga qaysi misol mos?",
+      "options": [
+        "Faqat oshqozondagi kislotaning rangi",
+        "Faqat qon guruhining nomi",
+        "Faqat tish toji shakli",
+        "Tizza refleksi"
+      ],
+      "correct_answer": "Tizza refleksi",
+      "explanation": "Orqa miyaning kulrang moddasidagi markazlar reflekslarda qatnashadi. Tizza refleksi shunday javoblardan biridir."
+    },
+    {
+      "key": "paragraph-41-q6",
+      "fact_id": "paragraph-41-f6",
+      "question_text": "Orqa miyaning oq moddasiga xos asosiy vazifa qaysi?",
+      "options": [
+        "Faqat yog‘ni emulsiyalash",
+        "Faqat ovqatni mexanik maydalash",
+        "Nerv signallarini o‘tkazish",
+        "Faqat qizil qon hujayralarini ishlab chiqarish"
+      ],
+      "correct_answer": "Nerv signallarini o‘tkazish",
+      "explanation": "Oq moddadagi yo‘llar yuqoriga bosh miya tomon va pastga orqa miya bo‘limlari tomon signallar o‘tkazadi."
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-laboratory-5-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-laboratory-5",
+  "title": "5-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-5-f1": {
+      "claim": "Beshinchi laboratoriya oziq jadvalidan foydalanib, mahsulotlarning oqsil, yog‘, uglevod va energiya qiymatini tahlil qiladi. Bu hisob mashqi, shaxsiy parhez retsepti emas.",
+      "answer": "Oqsil, yog‘, uglevod va energiya",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f2": {
+      "claim": "Mahsulot tarkibi jadvali 100 g uchun berilgan. Porsiya o‘zgarsa, jadval qiymati tegishli nisbatga ko‘paytiriladi.",
+      "answer": "100 g",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f3": {
+      "claim": "Darslik jadvalida 100 g sut 65 kkal deb berilgan. Shu o‘quv hisobida 200 g sut 130 kkal bo‘ladi.",
+      "answer": "130 kkal",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f4": {
+      "claim": "Jadvalda 100 g sutda 2,8 g oqsil berilgan. Bir xil mahsulotning 200 g qismida bu miqdor ikki baravar — 5,6 g bo‘ladi.",
+      "answer": "5,6 g",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f5": {
+      "claim": "Jadvalda 100 g olma 45 kkal deb ko‘rsatilgan. Shu jadvalga ko‘ra 200 g olma 90 kkal bo‘ladi.",
+      "answer": "90 kkal",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f6": {
+      "claim": "Darslik jadvalida 100 g no‘xatda 19,8 g, 100 g oq nonda 6,7 g oqsil bor. Bu sonlar teng massa mahsulotlarni taqqoslashga xizmat qiladi.",
+      "answer": "No‘xatda",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Jadvalni o‘qish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nBeshinchi laboratoriya oziq jadvalidan foydalanib, mahsulotlarning oqsil, yog‘, uglevod va energiya qiymatini tahlil qiladi. Bu hisob mashqi, shaxsiy parhez retsepti emas.",
+      "fact_ids": [
+        "laboratory-5-f1"
+      ]
+    },
+    {
+      "title": "Hisob bazasi",
+      "body": "Mahsulot tarkibi jadvali 100 g uchun berilgan. Porsiya o‘zgarsa, jadval qiymati tegishli nisbatga ko‘paytiriladi.",
+      "fact_ids": [
+        "laboratory-5-f2"
+      ]
+    },
+    {
+      "title": "Sut energiyasi",
+      "body": "Darslik jadvalida 100 g sut 65 kkal deb berilgan. Shu o‘quv hisobida 200 g sut 130 kkal bo‘ladi.",
+      "fact_ids": [
+        "laboratory-5-f3"
+      ]
+    },
+    {
+      "title": "Sut oqsili",
+      "body": "Jadvalda 100 g sutda 2,8 g oqsil berilgan. Bir xil mahsulotning 200 g qismida bu miqdor ikki baravar — 5,6 g bo‘ladi.",
+      "fact_ids": [
+        "laboratory-5-f4"
+      ]
+    },
+    {
+      "title": "Ikki porsiya hisobi",
+      "body": "Jadvalda 100 g olma 45 kkal deb ko‘rsatilgan. Shu jadvalga ko‘ra 200 g olma 90 kkal bo‘ladi.",
+      "fact_ids": [
+        "laboratory-5-f5"
+      ]
+    },
+    {
+      "title": "Qiymatlarni solishtirish",
+      "body": "Darslik jadvalida 100 g no‘xatda 19,8 g, 100 g oq nonda 6,7 g oqsil bor. Bu sonlar teng massa mahsulotlarni taqqoslashga xizmat qiladi.",
+      "fact_ids": [
+        "laboratory-5-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-5-q1",
+      "fact_id": "laboratory-5-f1",
+      "question_text": "Jadval yordamida qaysi ma’lumotlar taqqoslanadi?",
+      "options": [
+        "Faqat mahsulotning tashqi rangi",
+        "Faqat odamning qon guruhi",
+        "Faqat ko‘z qorachig‘i kattaligi",
+        "Oqsil, yog‘, uglevod va energiya"
+      ],
+      "correct_answer": "Oqsil, yog‘, uglevod va energiya",
+      "explanation": "Beshinchi laboratoriya oziq jadvalidan foydalanib, mahsulotlarning oqsil, yog‘, uglevod va energiya qiymatini tahlil qiladi. Bu hisob mashqi, shaxsiy parhez retsepti emas."
+    },
+    {
+      "key": "laboratory-5-q2",
+      "fact_id": "laboratory-5-f2",
+      "question_text": "Jadvaldagi mahsulot qiymatlari odatda qaysi massa uchun berilgan?",
+      "options": [
+        "1 mg",
+        "10 kg",
+        "100 g",
+        "1 kg"
+      ],
+      "correct_answer": "100 g",
+      "explanation": "Mahsulot tarkibi jadvali 100 g uchun berilgan. Porsiya o‘zgarsa, jadval qiymati tegishli nisbatga ko‘paytiriladi."
+    },
+    {
+      "key": "laboratory-5-q3",
+      "fact_id": "laboratory-5-f3",
+      "question_text": "Jadval bo‘yicha 200 g sut energiyasi qancha?",
+      "options": [
+        "13 kkal",
+        "130 kkal",
+        "65 kkal",
+        "325 kkal"
+      ],
+      "correct_answer": "130 kkal",
+      "explanation": "Darslik jadvalida 100 g sut 65 kkal deb berilgan. Shu o‘quv hisobida 200 g sut 130 kkal bo‘ladi."
+    },
+    {
+      "key": "laboratory-5-q4",
+      "fact_id": "laboratory-5-f4",
+      "question_text": "Darslik jadvali bilan 200 g sutdagi oqsilni hisoblang.",
+      "options": [
+        "5,6 g",
+        "2,8 g",
+        "28 g",
+        "0,56 g"
+      ],
+      "correct_answer": "5,6 g",
+      "explanation": "Jadvalda 100 g sutda 2,8 g oqsil berilgan. Bir xil mahsulotning 200 g qismida bu miqdor ikki baravar — 5,6 g bo‘ladi."
+    },
+    {
+      "key": "laboratory-5-q5",
+      "fact_id": "laboratory-5-f5",
+      "question_text": "Darslik qiymati bilan 200 g olma energiyasi qancha?",
+      "options": [
+        "45 kkal",
+        "450 kkal",
+        "9 kkal",
+        "90 kkal"
+      ],
+      "correct_answer": "90 kkal",
+      "explanation": "Jadvalda 100 g olma 45 kkal deb ko‘rsatilgan. Shu jadvalga ko‘ra 200 g olma 90 kkal bo‘ladi."
+    },
+    {
+      "key": "laboratory-5-q6",
+      "fact_id": "laboratory-5-f6",
+      "question_text": "Darslik jadvalidagi teng 100 g massada qaysisida oqsil ko‘proq?",
+      "options": [
+        "Ikkalasida aynan teng",
+        "Jadvalda oqsil umuman ko‘rsatilmagan",
+        "No‘xatda",
+        "Oq nonda"
+      ],
+      "correct_answer": "No‘xatda",
+      "explanation": "Darslik jadvalida 100 g no‘xatda 19,8 g, 100 g oq nonda 6,7 g oqsil bor. Bu sonlar teng massa mahsulotlarni taqqoslashga xizmat qiladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "5-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Jadvalni o‘qish",
+        "fact_ids": [
+          "laboratory-5-f1"
+        ]
+      },
+      {
+        "instruction": "Hisob bazasi",
+        "fact_ids": [
+          "laboratory-5-f2"
+        ]
+      },
+      {
+        "instruction": "Sut energiyasi",
+        "fact_ids": [
+          "laboratory-5-f3"
+        ]
+      },
+      {
+        "instruction": "Sut oqsili",
+        "fact_ids": [
+          "laboratory-5-f4"
+        ]
+      },
+      {
+        "instruction": "Ikki porsiya hisobi",
+        "fact_ids": [
+          "laboratory-5-f5"
+        ]
+      },
+      {
+        "instruction": "Qiymatlarni solishtirish",
+        "fact_ids": [
+          "laboratory-5-f6"
+        ]
+      }
+    ]
+  }
+}

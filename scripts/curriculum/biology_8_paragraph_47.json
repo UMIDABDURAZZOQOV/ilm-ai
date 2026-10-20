@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-47-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-59",
+  "title": "Aql-idrok, tafakkur, so‘z va nutq",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-47-f1": {
+      "claim": "Darslik shimpanzening yashiklarni ustma-ust qo‘yib oziqqa yetish tajribasini keltiradi. Bu buyumlar o‘rtasidagi aloqadan foydalanishni ko‘rsatadi.",
+      "answer": "Vaziyatdagi buyumlar aloqasidan foydalanishni",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f2": {
+      "claim": "Aql-idrok narsalar va hodisalar o‘rtasidagi bog‘lanishni tushunib, undan yangi sharoitda foydalanish qobiliyati bilan izohlanadi.",
+      "answer": "Bog‘lanishni tushunib, uni yangi vaziyatda qo‘llash",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f3": {
+      "claim": "So‘z narsa yoki hodisani ifodalovchi ramz bo‘lib xizmat qiladi. U bevosita buyum yonimizda bo‘lmaganda ham ma’no yetkazadi.",
+      "answer": "Narsa va hodisani ma’no orqali ifodalash",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f4": {
+      "claim": "Stol so‘zi faqat bitta stolni emas, turli stollarni ham bildirishi mumkin. So‘z umumlashtirishga yordam beradi.",
+      "answer": "Umumlashtirish",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f5": {
+      "claim": "Axborot og‘zaki, yozma va imo-ishora shakllarida ifodalanishi mumkin. Nutq faqat ovozli so‘zlashdan iborat emas.",
+      "answer": "Og‘zaki, yozma va imo-ishora",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-47-f6": {
+      "claim": "So‘zlar yordamida odam yonida bo‘lmagan buyum va hodisalar haqida ham fikrlashi mumkin. Bu abstrakt fikrlashga imkon beradi.",
+      "answer": "Abstrakt fikrlash",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Masalani yechish",
+      "body": "Darslik shimpanzening yashiklarni ustma-ust qo‘yib oziqqa yetish tajribasini keltiradi. Bu buyumlar o‘rtasidagi aloqadan foydalanishni ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-47-f1"
+      ]
+    },
+    {
+      "title": "Yangi sharoit",
+      "body": "Aql-idrok narsalar va hodisalar o‘rtasidagi bog‘lanishni tushunib, undan yangi sharoitda foydalanish qobiliyati bilan izohlanadi.",
+      "fact_ids": [
+        "paragraph-47-f2"
+      ]
+    },
+    {
+      "title": "So‘z va ramz",
+      "body": "So‘z narsa yoki hodisani ifodalovchi ramz bo‘lib xizmat qiladi. U bevosita buyum yonimizda bo‘lmaganda ham ma’no yetkazadi.",
+      "fact_ids": [
+        "paragraph-47-f3"
+      ]
+    },
+    {
+      "title": "Umumlashtirish",
+      "body": "Stol so‘zi faqat bitta stolni emas, turli stollarni ham bildirishi mumkin. So‘z umumlashtirishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-47-f4"
+      ]
+    },
+    {
+      "title": "Nutq shakllari",
+      "body": "Axborot og‘zaki, yozma va imo-ishora shakllarida ifodalanishi mumkin. Nutq faqat ovozli so‘zlashdan iborat emas.",
+      "fact_ids": [
+        "paragraph-47-f5"
+      ]
+    },
+    {
+      "title": "Abstrakt fikrlash",
+      "body": "So‘zlar yordamida odam yonida bo‘lmagan buyum va hodisalar haqida ham fikrlashi mumkin. Bu abstrakt fikrlashga imkon beradi.",
+      "fact_ids": [
+        "paragraph-47-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-47-q1",
+      "fact_id": "paragraph-47-f1",
+      "question_text": "Yashiklarni ustma-ust qo‘yib oziqqa yetish tajribasi nimani ko‘rsatadi?",
+      "options": [
+        "Faqat avtomatik qon ivishini",
+        "Faqat suyakning mineralizatsiyasini",
+        "Faqat o‘pka gaz almashinuvini",
+        "Vaziyatdagi buyumlar aloqasidan foydalanishni"
+      ],
+      "correct_answer": "Vaziyatdagi buyumlar aloqasidan foydalanishni",
+      "explanation": "Darslik shimpanzening yashiklarni ustma-ust qo‘yib oziqqa yetish tajribasini keltiradi. Bu buyumlar o‘rtasidagi aloqadan foydalanishni ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-47-q2",
+      "fact_id": "paragraph-47-f2",
+      "question_text": "Aql-idrokka qaysi tavsif mos?",
+      "options": [
+        "Faqat qon bosimining o‘zgarishi",
+        "Faqat tana haroratining saqlanishi",
+        "Bog‘lanishni tushunib, uni yangi vaziyatda qo‘llash",
+        "Faqat ta’sirni sezmasdan qolish"
+      ],
+      "correct_answer": "Bog‘lanishni tushunib, uni yangi vaziyatda qo‘llash",
+      "explanation": "Aql-idrok narsalar va hodisalar o‘rtasidagi bog‘lanishni tushunib, undan yangi sharoitda foydalanish qobiliyati bilan izohlanadi."
+    },
+    {
+      "key": "paragraph-47-q3",
+      "fact_id": "paragraph-47-f3",
+      "question_text": "So‘zning ramziy vazifasi qaysi?",
+      "options": [
+        "Faqat suyakning qattiqligini oshirish",
+        "Narsa va hodisani ma’no orqali ifodalash",
+        "Faqat tovush balandligini o‘lchash",
+        "Faqat qonni filtrlash"
+      ],
+      "correct_answer": "Narsa va hodisani ma’no orqali ifodalash",
+      "explanation": "So‘z narsa yoki hodisani ifodalovchi ramz bo‘lib xizmat qiladi. U bevosita buyum yonimizda bo‘lmaganda ham ma’no yetkazadi."
+    },
+    {
+      "key": "paragraph-47-q4",
+      "fact_id": "paragraph-47-f4",
+      "question_text": "Bir so‘zning turli stol turlariga qo‘llanishi qaysi xususiyat?",
+      "options": [
+        "Umumlashtirish",
+        "Faqat refleksning so‘nishi",
+        "Faqat mexanik bukilish",
+        "Faqat gaz diffuziyasi"
+      ],
+      "correct_answer": "Umumlashtirish",
+      "explanation": "Stol so‘zi faqat bitta stolni emas, turli stollarni ham bildirishi mumkin. So‘z umumlashtirishga yordam beradi."
+    },
+    {
+      "key": "paragraph-47-q5",
+      "fact_id": "paragraph-47-f5",
+      "question_text": "Qaysi qator til orqali axborot ifodalash shakllarini ko‘rsatadi?",
+      "options": [
+        "Faqat yuqori va past qon bosimi",
+        "Faqat oq va kulrang modda",
+        "Faqat arterial va venoz qon",
+        "Og‘zaki, yozma va imo-ishora"
+      ],
+      "correct_answer": "Og‘zaki, yozma va imo-ishora",
+      "explanation": "Axborot og‘zaki, yozma va imo-ishora shakllarida ifodalanishi mumkin. Nutq faqat ovozli so‘zlashdan iborat emas."
+    },
+    {
+      "key": "paragraph-47-q6",
+      "fact_id": "paragraph-47-f6",
+      "question_text": "Yonimizda bo‘lmagan hodisa haqida so‘z bilan fikrlash nimaga misol?",
+      "options": [
+        "Faqat suyak o‘sishi",
+        "Faqat qoldiq havo",
+        "Abstrakt fikrlash",
+        "Faqat kapillyar qonash"
+      ],
+      "correct_answer": "Abstrakt fikrlash",
+      "explanation": "So‘zlar yordamida odam yonida bo‘lmagan buyum va hodisalar haqida ham fikrlashi mumkin. Bu abstrakt fikrlashga imkon beradi."
+    }
+  ]
+}

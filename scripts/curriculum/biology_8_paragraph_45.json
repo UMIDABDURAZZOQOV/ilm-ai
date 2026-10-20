@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-45-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-57",
+  "title": "Oliy nerv faoliyati, shartli va shartsiz reflekslar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-45-f1": {
+      "claim": "Shartsiz reflekslar tug‘ma javoblardir. Masalan, kuchli yorug‘likda ko‘z qorachig‘ining torayishi shunday javob hisoblanadi.",
+      "answer": "Shartsiz refleks",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f2": {
+      "claim": "Chaqaloq labiga so‘rg‘ich tegishi emish refleksini yuzaga keltiradi. Bu oldindan o‘rgatishni talab qilmaydigan tug‘ma javobdir.",
+      "answer": "Tug‘ma ovqatlanish refleksi",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f3": {
+      "claim": "Yo‘talish, aksirish va ko‘zni yumish himoyalanish reflekslariga misoldir. Ular zararli ta’sirni cheklashga yordam beradi.",
+      "answer": "Yo‘talish, aksirish va ko‘zni yumish",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f4": {
+      "claim": "Notanish tovushga quloq solish yoki boshni burish chamalash refleksiga misoldir. U yangi ta’sirni aniqlashga yordam beradi.",
+      "answer": "Chamalash refleksi",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f5": {
+      "claim": "Shartli reflekslar hayot davomida shakllanadi va oldingi tajribaga bog‘liq. Ular tug‘ma reflekslardan shu jihati bilan farqlanadi.",
+      "answer": "Hayot davomida tajriba asosida shakllanishi",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f6": {
+      "claim": "Oliy nerv faoliyati bosh miya katta yarimsharlari po‘stlog‘i bilan bog‘liq. O‘rganish va tajriba asosida yangi aloqalar shakllanadi.",
+      "answer": "Katta yarimsharlar po‘stlog‘i",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tug‘ma javob",
+      "body": "Shartsiz reflekslar tug‘ma javoblardir. Masalan, kuchli yorug‘likda ko‘z qorachig‘ining torayishi shunday javob hisoblanadi.",
+      "fact_ids": [
+        "paragraph-45-f1"
+      ]
+    },
+    {
+      "title": "Ovqatlanish refleksi",
+      "body": "Chaqaloq labiga so‘rg‘ich tegishi emish refleksini yuzaga keltiradi. Bu oldindan o‘rgatishni talab qilmaydigan tug‘ma javobdir.",
+      "fact_ids": [
+        "paragraph-45-f2"
+      ]
+    },
+    {
+      "title": "Himoya guruhiga misol",
+      "body": "Yo‘talish, aksirish va ko‘zni yumish himoyalanish reflekslariga misoldir. Ular zararli ta’sirni cheklashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-45-f3"
+      ]
+    },
+    {
+      "title": "Chamalash javobi",
+      "body": "Notanish tovushga quloq solish yoki boshni burish chamalash refleksiga misoldir. U yangi ta’sirni aniqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-45-f4"
+      ]
+    },
+    {
+      "title": "O‘rganilgan javob",
+      "body": "Shartli reflekslar hayot davomida shakllanadi va oldingi tajribaga bog‘liq. Ular tug‘ma reflekslardan shu jihati bilan farqlanadi.",
+      "fact_ids": [
+        "paragraph-45-f5"
+      ]
+    },
+    {
+      "title": "Katta yarimsharlar",
+      "body": "Oliy nerv faoliyati bosh miya katta yarimsharlari po‘stlog‘i bilan bog‘liq. O‘rganish va tajriba asosida yangi aloqalar shakllanadi.",
+      "fact_ids": [
+        "paragraph-45-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-45-q1",
+      "fact_id": "paragraph-45-f1",
+      "question_text": "Kuchli yorug‘likda qorachiq torayishi qaysi turga kiradi?",
+      "options": [
+        "Faqat hayot davomida yodlangan qoida",
+        "Faqat yozishni o‘rganish",
+        "Faqat kasbiy ko‘nikma",
+        "Shartsiz refleks"
+      ],
+      "correct_answer": "Shartsiz refleks",
+      "explanation": "Shartsiz reflekslar tug‘ma javoblardir. Masalan, kuchli yorug‘likda ko‘z qorachig‘ining torayishi shunday javob hisoblanadi."
+    },
+    {
+      "key": "paragraph-45-q2",
+      "fact_id": "paragraph-45-f2",
+      "question_text": "Chaqaloqning emish refleksi qanday xususiyatga ega?",
+      "options": [
+        "Faqat katta yoshda paydo bo‘ladi",
+        "Faqat sport mashqiga javobdir",
+        "Tug‘ma ovqatlanish refleksi",
+        "Faqat yozma ta’limdan so‘ng hosil bo‘ladi"
+      ],
+      "correct_answer": "Tug‘ma ovqatlanish refleksi",
+      "explanation": "Chaqaloq labiga so‘rg‘ich tegishi emish refleksini yuzaga keltiradi. Bu oldindan o‘rgatishni talab qilmaydigan tug‘ma javobdir."
+    },
+    {
+      "key": "paragraph-45-q3",
+      "fact_id": "paragraph-45-f3",
+      "question_text": "Qaysi guruh himoya reflekslaridan tuzilgan?",
+      "options": [
+        "O‘t ishlab chiqarish, glikogen saqlash va yog‘ yig‘ish",
+        "Yo‘talish, aksirish va ko‘zni yumish",
+        "O‘qish, yozish va hisoblash",
+        "Bo‘y o‘sishi, suyak mineralizatsiyasi va soch rangi"
+      ],
+      "correct_answer": "Yo‘talish, aksirish va ko‘zni yumish",
+      "explanation": "Yo‘talish, aksirish va ko‘zni yumish himoyalanish reflekslariga misoldir. Ular zararli ta’sirni cheklashga yordam beradi."
+    },
+    {
+      "key": "paragraph-45-q4",
+      "fact_id": "paragraph-45-f4",
+      "question_text": "Notanish tovush tomonga bosh burish qanday javob?",
+      "options": [
+        "Chamalash refleksi",
+        "Faqat qon ivishi",
+        "Faqat gaz almashinuvi",
+        "Faqat filtrlash"
+      ],
+      "correct_answer": "Chamalash refleksi",
+      "explanation": "Notanish tovushga quloq solish yoki boshni burish chamalash refleksiga misoldir. U yangi ta’sirni aniqlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-45-q5",
+      "fact_id": "paragraph-45-f5",
+      "question_text": "Shartli refleksning asosiy farqi nima?",
+      "options": [
+        "Barcha holatda tug‘ilishdan tayyor bo‘lishi",
+        "Nerv sistemasiga hech aloqasi yo‘qligi",
+        "Faqat mineral tuzdan hosil bo‘lishi",
+        "Hayot davomida tajriba asosida shakllanishi"
+      ],
+      "correct_answer": "Hayot davomida tajriba asosida shakllanishi",
+      "explanation": "Shartli reflekslar hayot davomida shakllanadi va oldingi tajribaga bog‘liq. Ular tug‘ma reflekslardan shu jihati bilan farqlanadi."
+    },
+    {
+      "key": "paragraph-45-q6",
+      "fact_id": "paragraph-45-f6",
+      "question_text": "Oliy nerv faoliyati qaysi tuzilma bilan bog‘liq?",
+      "options": [
+        "Faqat teri yog‘ qavati",
+        "Faqat tish emali",
+        "Katta yarimsharlar po‘stlog‘i",
+        "Faqat buyrak jomi"
+      ],
+      "correct_answer": "Katta yarimsharlar po‘stlog‘i",
+      "explanation": "Oliy nerv faoliyati bosh miya katta yarimsharlari po‘stlog‘i bilan bog‘liq. O‘rganish va tajriba asosida yangi aloqalar shakllanadi."
+    }
+  ]
+}

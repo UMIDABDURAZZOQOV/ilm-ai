@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-40-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-51",
+  "title": "Nerv sistemasining funksiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-40-f1": {
+      "claim": "Refleks — markaziy nerv sistemasi ishtirokida tashqi yoki ichki ta’sirga yuzaga keladigan javob reaksiyasi.",
+      "answer": "Ta’sirga markaziy nerv sistemasi ishtirokidagi javob",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f2": {
+      "claim": "Refleks yoyi retseptor, sezuvchi yo‘l, markaziy qism, harakatlantiruvchi yo‘l va ishchi organni bog‘laydi.",
+      "answer": "Retseptor → sezuvchi yo‘l → markaz → harakatlantiruvchi yo‘l → ishchi organ",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f3": {
+      "claim": "Retseptor muayyan ta’sirni qabul qiladi va uni nerv signaliga aylantirishda qatnashadi. U refleks yoyining boshlang‘ich qismidir.",
+      "answer": "Retseptor",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f4": {
+      "claim": "Issiq buyumdan qo‘lni tortib olish zarar yetkazuvchi ta’sirga himoya javobidir. Bunda muskullar muvofiqlashgan holda ishlaydi.",
+      "answer": "Issiq buyumdan qo‘lni tortib olish",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f5": {
+      "claim": "Nerv sistemasida qo‘zg‘alish bilan birga tormozlanish ham bor. Tormozlanish ayrim javoblarni kamaytirishi yoki yuzaga chiqishini cheklashi mumkin.",
+      "answer": "Javobni kamaytirishi yoki cheklashi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f6": {
+      "claim": "Bukuvchi va yozuvchi muskullar markazlarining kelishilgan qo‘zg‘alish-tormozlanishi harakatni muvofiqlashtiradi.",
+      "answer": "Qarama-qarshi muskullar ishining muvofiqlashuvi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Refleks tushunchasi",
+      "body": "Refleks — markaziy nerv sistemasi ishtirokida tashqi yoki ichki ta’sirga yuzaga keladigan javob reaksiyasi.",
+      "fact_ids": [
+        "paragraph-40-f1"
+      ]
+    },
+    {
+      "title": "Refleks yoyi",
+      "body": "Refleks yoyi retseptor, sezuvchi yo‘l, markaziy qism, harakatlantiruvchi yo‘l va ishchi organni bog‘laydi.",
+      "fact_ids": [
+        "paragraph-40-f2"
+      ]
+    },
+    {
+      "title": "Retseptor vazifasi",
+      "body": "Retseptor muayyan ta’sirni qabul qiladi va uni nerv signaliga aylantirishda qatnashadi. U refleks yoyining boshlang‘ich qismidir.",
+      "fact_ids": [
+        "paragraph-40-f3"
+      ]
+    },
+    {
+      "title": "Himoya misoli",
+      "body": "Issiq buyumdan qo‘lni tortib olish zarar yetkazuvchi ta’sirga himoya javobidir. Bunda muskullar muvofiqlashgan holda ishlaydi.",
+      "fact_ids": [
+        "paragraph-40-f4"
+      ]
+    },
+    {
+      "title": "Tormozlanish",
+      "body": "Nerv sistemasida qo‘zg‘alish bilan birga tormozlanish ham bor. Tormozlanish ayrim javoblarni kamaytirishi yoki yuzaga chiqishini cheklashi mumkin.",
+      "fact_ids": [
+        "paragraph-40-f5"
+      ]
+    },
+    {
+      "title": "Muvofiqlashgan harakat",
+      "body": "Bukuvchi va yozuvchi muskullar markazlarining kelishilgan qo‘zg‘alish-tormozlanishi harakatni muvofiqlashtiradi.",
+      "fact_ids": [
+        "paragraph-40-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-40-q1",
+      "fact_id": "paragraph-40-f1",
+      "question_text": "Refleksning to‘g‘ri ta’rifi qaysi?",
+      "options": [
+        "Har qanday moddaning tasodifiy bug‘lanishi",
+        "Faqat qon guruhining irsiy o‘tishi",
+        "Faqat suyakning qattiqligi",
+        "Ta’sirga markaziy nerv sistemasi ishtirokidagi javob"
+      ],
+      "correct_answer": "Ta’sirga markaziy nerv sistemasi ishtirokidagi javob",
+      "explanation": "Refleks — markaziy nerv sistemasi ishtirokida tashqi yoki ichki ta’sirga yuzaga keladigan javob reaksiyasi."
+    },
+    {
+      "key": "paragraph-40-q2",
+      "fact_id": "paragraph-40-f2",
+      "question_text": "Oddiy refleks yoyining yo‘nalishi qaysi?",
+      "options": [
+        "Qon → o‘t → ichak → burun",
+        "Muskul → emal → jigar → ko‘z",
+        "Retseptor → sezuvchi yo‘l → markaz → harakatlantiruvchi yo‘l → ishchi organ",
+        "Ishchi organ → suyak → soch → havo"
+      ],
+      "correct_answer": "Retseptor → sezuvchi yo‘l → markaz → harakatlantiruvchi yo‘l → ishchi organ",
+      "explanation": "Refleks yoyi retseptor, sezuvchi yo‘l, markaziy qism, harakatlantiruvchi yo‘l va ishchi organni bog‘laydi."
+    },
+    {
+      "key": "paragraph-40-q3",
+      "fact_id": "paragraph-40-f3",
+      "question_text": "Refleks yoyida ta’sirni birinchi qabul qiluvchi tuzilma qaysi?",
+      "options": [
+        "Faqat qorincha klapani",
+        "Retseptor",
+        "Faqat harakatlantiruvchi akson uchi",
+        "Faqat ishchi muskul"
+      ],
+      "correct_answer": "Retseptor",
+      "explanation": "Retseptor muayyan ta’sirni qabul qiladi va uni nerv signaliga aylantirishda qatnashadi. U refleks yoyining boshlang‘ich qismidir."
+    },
+    {
+      "key": "paragraph-40-q4",
+      "fact_id": "paragraph-40-f4",
+      "question_text": "Himoya refleksiga qaysi holat misol?",
+      "options": [
+        "Issiq buyumdan qo‘lni tortib olish",
+        "Glyukozaning jadvaldagi formulasini yozish",
+        "Suyakning mineral tarkibini hisoblash",
+        "Qon guruhini yodlash"
+      ],
+      "correct_answer": "Issiq buyumdan qo‘lni tortib olish",
+      "explanation": "Issiq buyumdan qo‘lni tortib olish zarar yetkazuvchi ta’sirga himoya javobidir. Bunda muskullar muvofiqlashgan holda ishlaydi."
+    },
+    {
+      "key": "paragraph-40-q5",
+      "fact_id": "paragraph-40-f5",
+      "question_text": "Tormozlanish nerv javobiga qanday ta’sir qilishi mumkin?",
+      "options": [
+        "Har doim barcha javobni kuchaytirishi",
+        "Har doim yangi suyak yaratishi",
+        "Qonning kimyoviy tarkibini o‘zgarmas qilishi",
+        "Javobni kamaytirishi yoki cheklashi"
+      ],
+      "correct_answer": "Javobni kamaytirishi yoki cheklashi",
+      "explanation": "Nerv sistemasida qo‘zg‘alish bilan birga tormozlanish ham bor. Tormozlanish ayrim javoblarni kamaytirishi yoki yuzaga chiqishini cheklashi mumkin."
+    },
+    {
+      "key": "paragraph-40-q6",
+      "fact_id": "paragraph-40-f6",
+      "question_text": "Tirsakning ravon bukilib-yozilishi uchun nima zarur?",
+      "options": [
+        "Barcha nerv signallarining umrbod to‘xtashi",
+        "Faqat suyak uzunligining o‘zgarishi",
+        "Qarama-qarshi muskullar ishining muvofiqlashuvi",
+        "Ikkala muskulning doimo maksimal qisqarishi"
+      ],
+      "correct_answer": "Qarama-qarshi muskullar ishining muvofiqlashuvi",
+      "explanation": "Bukuvchi va yozuvchi muskullar markazlarining kelishilgan qo‘zg‘alish-tormozlanishi harakatni muvofiqlashtiradi."
+    }
+  ]
+}

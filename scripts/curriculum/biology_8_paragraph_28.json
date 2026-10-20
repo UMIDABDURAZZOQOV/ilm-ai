@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-28-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-36",
+  "title": "Ovqat hazm qilishning boshqarilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-28-f1": {
+      "claim": "I. P. Pavlov tajribalari hazm shirasi faqat ovqat oshqozonga tushganda emas, ovqatni ko‘rish va hidini sezishda ham ajralishini ko‘rsatgan.",
+      "answer": "Hazm bezlari ovqat oshqozonga tushmasidan ham nerv signallariga javob beradi",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f2": {
+      "claim": "Og‘izdagi ta’m retseptoridan qo‘zg‘alish sezuvchi nerv orqali hazm markazlariga boradi. Markazlardan bezlarga kelgan signallar shira ajralishiga ta’sir qiladi.",
+      "answer": "Retseptor → sezuvchi nerv → nerv markazi → hazm bezi",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f3": {
+      "claim": "Darslik ovqatni ko‘rish yoki hidini sezishda ajraladigan shirani Pavlov qo‘llagan ishtaha shirasi atamasi bilan tushuntiradi.",
+      "answer": "Ovqatni ko‘rish yoki hidini sezish",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f4": {
+      "claim": "Endoskop — ichki organni ko‘rish uchun ishlatiladigan maxsus optik asbob. Darslik hazm organlarini o‘rganishda uni keltiradi.",
+      "answer": "Endoskopiya",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f5": {
+      "claim": "Shoshilmay, me’yorida ovqatlanish ovqatning yaxshiroq aralashishi va hazm bo‘lishiga yordam beradi.",
+      "answer": "Shoshilmasdan me’yorida ovqatlanish",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f6": {
+      "claim": "Ovqatdagi faol moddalar hazm bezlari ishiga ta’sir etib, shira ajralishining gumoral boshqarilishida qatnashadi.",
+      "answer": "Gumoral",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          90
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hazmni o‘rganish",
+      "body": "I. P. Pavlov tajribalari hazm shirasi faqat ovqat oshqozonga tushganda emas, ovqatni ko‘rish va hidini sezishda ham ajralishini ko‘rsatgan.",
+      "fact_ids": [
+        "paragraph-28-f1"
+      ]
+    },
+    {
+      "title": "Nerv yo‘li",
+      "body": "Og‘izdagi ta’m retseptoridan qo‘zg‘alish sezuvchi nerv orqali hazm markazlariga boradi. Markazlardan bezlarga kelgan signallar shira ajralishiga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-28-f2"
+      ]
+    },
+    {
+      "title": "Ishtaha shirasi",
+      "body": "Darslik ovqatni ko‘rish yoki hidini sezishda ajraladigan shirani Pavlov qo‘llagan ishtaha shirasi atamasi bilan tushuntiradi.",
+      "fact_ids": [
+        "paragraph-28-f3"
+      ]
+    },
+    {
+      "title": "Endoskopiya",
+      "body": "Endoskop — ichki organni ko‘rish uchun ishlatiladigan maxsus optik asbob. Darslik hazm organlarini o‘rganishda uni keltiradi.",
+      "fact_ids": [
+        "paragraph-28-f4"
+      ]
+    },
+    {
+      "title": "Ovqatlanish sharoiti",
+      "body": "Shoshilmay, me’yorida ovqatlanish ovqatning yaxshiroq aralashishi va hazm bo‘lishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-28-f5"
+      ]
+    },
+    {
+      "title": "Gumoral ta’sir",
+      "body": "Ovqatdagi faol moddalar hazm bezlari ishiga ta’sir etib, shira ajralishining gumoral boshqarilishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-28-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-28-q1",
+      "fact_id": "paragraph-28-f1",
+      "question_text": "Ovqat hidi sezilganda shira ajralishi nimani ko‘rsatadi?",
+      "options": [
+        "Bez faqat suyak harakatiga javob beradi",
+        "Shira faqat ovqat ichakdan chiqqach ajraladi",
+        "Nerv sistemasi hazmga hech ta’sir qilmaydi",
+        "Hazm bezlari ovqat oshqozonga tushmasidan ham nerv signallariga javob beradi"
+      ],
+      "correct_answer": "Hazm bezlari ovqat oshqozonga tushmasidan ham nerv signallariga javob beradi",
+      "explanation": "I. P. Pavlov tajribalari hazm shirasi faqat ovqat oshqozonga tushganda emas, ovqatni ko‘rish va hidini sezishda ham ajralishini ko‘rsatgan."
+    },
+    {
+      "key": "paragraph-28-q2",
+      "fact_id": "paragraph-28-f2",
+      "question_text": "Ta’m ta’sirida shira ajralishining to‘g‘ri yo‘li qaysi?",
+      "options": [
+        "Alveola → aorta → hiqildoq",
+        "Qovuq → siydik yo‘li → til",
+        "Retseptor → sezuvchi nerv → nerv markazi → hazm bezi",
+        "Hazm bezi → tish emali → suyak iligi"
+      ],
+      "correct_answer": "Retseptor → sezuvchi nerv → nerv markazi → hazm bezi",
+      "explanation": "Og‘izdagi ta’m retseptoridan qo‘zg‘alish sezuvchi nerv orqali hazm markazlariga boradi. Markazlardan bezlarga kelgan signallar shira ajralishiga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-28-q3",
+      "fact_id": "paragraph-28-f3",
+      "question_text": "Ishtaha shirasi qaysi holat bilan bog‘liq?",
+      "options": [
+        "Faqat qon guruhi",
+        "Ovqatni ko‘rish yoki hidini sezish",
+        "Faqat suyak sinishi",
+        "Faqat ko‘z qorachig‘i kengligi"
+      ],
+      "correct_answer": "Ovqatni ko‘rish yoki hidini sezish",
+      "explanation": "Darslik ovqatni ko‘rish yoki hidini sezishda ajraladigan shirani Pavlov qo‘llagan ishtaha shirasi atamasi bilan tushuntiradi."
+    },
+    {
+      "key": "paragraph-28-q4",
+      "fact_id": "paragraph-28-f4",
+      "question_text": "Optik asbob yordamida hazm yo‘lini ichkaridan ko‘rish usuli qaysi?",
+      "options": [
+        "Endoskopiya",
+        "Faqat puls sanash",
+        "Faqat spirometriya",
+        "Faqat bo‘y o‘lchash"
+      ],
+      "correct_answer": "Endoskopiya",
+      "explanation": "Endoskop — ichki organni ko‘rish uchun ishlatiladigan maxsus optik asbob. Darslik hazm organlarini o‘rganishda uni keltiradi."
+    },
+    {
+      "key": "paragraph-28-q5",
+      "fact_id": "paragraph-28-f5",
+      "question_text": "Hazm uchun qaysi ovqatlanish odati mos?",
+      "options": [
+        "Har safar imkon qadar ko‘p yutish",
+        "Chaynamasdan shoshilish",
+        "Ovqat vaqtida doimo kuchli zo‘riqish",
+        "Shoshilmasdan me’yorida ovqatlanish"
+      ],
+      "correct_answer": "Shoshilmasdan me’yorida ovqatlanish",
+      "explanation": "Shoshilmay, me’yorida ovqatlanish ovqatning yaxshiroq aralashishi va hazm bo‘lishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-28-q6",
+      "fact_id": "paragraph-28-f6",
+      "question_text": "Hazm beziga biologik faol moddaning ta’siri qaysi boshqarilish turidir?",
+      "options": [
+        "Faqat tashqi ishqalanish",
+        "Faqat bo‘g‘imning harakatsiz birikishi",
+        "Gumoral",
+        "Faqat skelet mexanikasi"
+      ],
+      "correct_answer": "Gumoral",
+      "explanation": "Ovqatdagi faol moddalar hazm bezlari ishiga ta’sir etib, shira ajralishining gumoral boshqarilishida qatnashadi."
+    }
+  ]
+}

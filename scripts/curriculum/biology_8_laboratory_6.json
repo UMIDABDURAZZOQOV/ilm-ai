@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-laboratory-6-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-laboratory-6",
+  "title": "6-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-6-f1": {
+      "claim": "Oltinchi laboratoriya tizza refleksini kuzatish va uning sxemasini tahlil qilishga bag‘ishlangan. Ilovada refleks yo‘lini o‘rganamiz; bir-birini bolg‘acha bilan urish talab qilinmaydi.",
+      "answer": "Tizza refleksi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-6-f2": {
+      "claim": "Sxemada sezuvchi neyron signalni retseptordan orqa miya tomon olib boradi. Bu refleks yoyining kiruvchi qismidir.",
+      "answer": "Orqa miyaga",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-6-f3": {
+      "claim": "Harakatlantiruvchi neyronning aksoni orqa miyadan son muskuli tomon boradi va qisqarish signalini yetkazadi.",
+      "answer": "Harakatlantiruvchi neyron aksoni",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-6-f4": {
+      "claim": "Darslikdagi tizza refleksida oldingi son muskullari qisqarib, oyoq tizzadan yoziladi.",
+      "answer": "Oldingi son muskuli qisqarib, oyoq tizzadan yozilishi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-6-f5": {
+      "claim": "Ish oxirida kuzatuv yozib qo‘yiladi va refleks sxemasi chiziladi. Natijani talqin qilishni tibbiy tashxis bilan tenglashtirmaslik kerak.",
+      "answer": "Yozuv va refleks sxemasi bilan",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv maqsadi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nOltinchi laboratoriya tizza refleksini kuzatish va uning sxemasini tahlil qilishga bag‘ishlangan. Ilovada refleks yo‘lini o‘rganamiz; bir-birini bolg‘acha bilan urish talab qilinmaydi.",
+      "fact_ids": [
+        "laboratory-6-f1"
+      ]
+    },
+    {
+      "title": "Sezuvchi yo‘l",
+      "body": "Sxemada sezuvchi neyron signalni retseptordan orqa miya tomon olib boradi. Bu refleks yoyining kiruvchi qismidir.",
+      "fact_ids": [
+        "laboratory-6-f2"
+      ]
+    },
+    {
+      "title": "Chiquvchi yo‘l",
+      "body": "Harakatlantiruvchi neyronning aksoni orqa miyadan son muskuli tomon boradi va qisqarish signalini yetkazadi.",
+      "fact_ids": [
+        "laboratory-6-f3"
+      ]
+    },
+    {
+      "title": "Kuzatilgan javob",
+      "body": "Darslikdagi tizza refleksida oldingi son muskullari qisqarib, oyoq tizzadan yoziladi.",
+      "fact_ids": [
+        "laboratory-6-f4"
+      ]
+    },
+    {
+      "title": "Natijani qayd qilish",
+      "body": "Ish oxirida kuzatuv yozib qo‘yiladi va refleks sxemasi chiziladi. Natijani talqin qilishni tibbiy tashxis bilan tenglashtirmaslik kerak.",
+      "fact_ids": [
+        "laboratory-6-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-6-q1",
+      "fact_id": "laboratory-6-f1",
+      "question_text": "Bu laboratoriya qaysi hodisani o‘rganadi?",
+      "options": [
+        "Faqat ko‘z rangi",
+        "Faqat qon guruhi",
+        "Faqat teri bezlarining soni",
+        "Tizza refleksi"
+      ],
+      "correct_answer": "Tizza refleksi",
+      "explanation": "Oltinchi laboratoriya tizza refleksini kuzatish va uning sxemasini tahlil qilishga bag‘ishlangan. Ilovada refleks yo‘lini o‘rganamiz; bir-birini bolg‘acha bilan urish talab qilinmaydi."
+    },
+    {
+      "key": "laboratory-6-q2",
+      "fact_id": "laboratory-6-f2",
+      "question_text": "Sxemadagi sezuvchi neyron signalni qayerga olib boradi?",
+      "options": [
+        "Faqat tashqi havoga",
+        "Faqat soch uchiga",
+        "Orqa miyaga",
+        "Faqat tish emaliga"
+      ],
+      "correct_answer": "Orqa miyaga",
+      "explanation": "Sxemada sezuvchi neyron signalni retseptordan orqa miya tomon olib boradi. Bu refleks yoyining kiruvchi qismidir."
+    },
+    {
+      "key": "laboratory-6-q3",
+      "fact_id": "laboratory-6-f3",
+      "question_text": "Sxemada markazdan muskulga signal qaysi yo‘l bilan boradi?",
+      "options": [
+        "Faqat suyak kanali",
+        "Harakatlantiruvchi neyron aksoni",
+        "Faqat qon plazmasi",
+        "Faqat ter bezining yo‘li"
+      ],
+      "correct_answer": "Harakatlantiruvchi neyron aksoni",
+      "explanation": "Harakatlantiruvchi neyronning aksoni orqa miyadan son muskuli tomon boradi va qisqarish signalini yetkazadi."
+    },
+    {
+      "key": "laboratory-6-q4",
+      "fact_id": "laboratory-6-f4",
+      "question_text": "Tizza refleksi sxemasidagi muskul javobi qaysi?",
+      "options": [
+        "Oldingi son muskuli qisqarib, oyoq tizzadan yozilishi",
+        "Tishlarning o‘z-o‘zidan almashishi",
+        "Ko‘z gavharining yirtilishi",
+        "Faqat sochning oqarishi"
+      ],
+      "correct_answer": "Oldingi son muskuli qisqarib, oyoq tizzadan yozilishi",
+      "explanation": "Darslikdagi tizza refleksida oldingi son muskullari qisqarib, oyoq tizzadan yoziladi."
+    },
+    {
+      "key": "laboratory-6-q5",
+      "fact_id": "laboratory-6-f5",
+      "question_text": "Darslik laboratoriyasida kuzatuv qanday qayd qilinadi?",
+      "options": [
+        "Kuzatilmagan sonlarni to‘qib yozish bilan",
+        "Faqat mahsulot kaloriyasini yozish bilan",
+        "Natijani qayd etmaslik bilan",
+        "Yozuv va refleks sxemasi bilan"
+      ],
+      "correct_answer": "Yozuv va refleks sxemasi bilan",
+      "explanation": "Ish oxirida kuzatuv yozib qo‘yiladi va refleks sxemasi chiziladi. Natijani talqin qilishni tibbiy tashxis bilan tenglashtirmaslik kerak."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "6-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv maqsadi",
+        "fact_ids": [
+          "laboratory-6-f1"
+        ]
+      },
+      {
+        "instruction": "Sezuvchi yo‘l",
+        "fact_ids": [
+          "laboratory-6-f2"
+        ]
+      },
+      {
+        "instruction": "Chiquvchi yo‘l",
+        "fact_ids": [
+          "laboratory-6-f3"
+        ]
+      },
+      {
+        "instruction": "Kuzatilgan javob",
+        "fact_ids": [
+          "laboratory-6-f4"
+        ]
+      },
+      {
+        "instruction": "Natijani qayd qilish",
+        "fact_ids": [
+          "laboratory-6-f5"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-laboratory-4-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-laboratory-4",
+  "title": "4-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-4-f1": {
+      "claim": "To‘rtinchi laboratoriya kraxmalga so‘lak ta’sirini turli sharoitlarda taqqoslaydi. Ilovada tajriba rejasi va darslikda berilgan kuzatuv tahlil qilinadi.",
+      "answer": "So‘lakning kraxmalga turli sharoitdagi ta’siri",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f2": {
+      "claim": "Birinchi probirkada kraxmal bor, ammo so‘lak qo‘shilmaydi. U so‘lak mavjudligi bilan bog‘liq farqni ko‘rishga yordam beradi.",
+      "answer": "Taqqoslash uchun nazorat namunasi bo‘lish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f3": {
+      "claim": "Kraxmal yod ta’sirida ko‘k rang hosil qiladi. Shu belgi namuna tarkibida kraxmal qolganini aniqlashda ishlatiladi.",
+      "answer": "Kraxmal borligini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f4": {
+      "claim": "Muzli idishdagi namunada so‘lakning kraxmalga ta’siri sustlashadi. Darslik ushbu namunada kraxmalning saqlanib qolishini ko‘rsatadi.",
+      "answer": "Haroratni",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f5": {
+      "claim": "Uchinchi probirkada kislotali muhit hosil qilinadi. Darslikda bu sharoitda so‘lakning kraxmalga ta’siri susayishi tahlil qilinadi.",
+      "answer": "Kislotali muhit",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f6": {
+      "claim": "To‘rtinchi namunada iliq sharoitda so‘lak kraxmalni parchalaydi. Natijalarni sovuq, kislotali va so‘laksiz namunalar bilan solishtirish kerak.",
+      "answer": "Iliq sharoitdagi to‘rtinchi namuna",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Taqqoslash rejasi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nTo‘rtinchi laboratoriya kraxmalga so‘lak ta’sirini turli sharoitlarda taqqoslaydi. Ilovada tajriba rejasi va darslikda berilgan kuzatuv tahlil qilinadi.",
+      "fact_ids": [
+        "laboratory-4-f1"
+      ]
+    },
+    {
+      "title": "Nazorat probirkasi",
+      "body": "Birinchi probirkada kraxmal bor, ammo so‘lak qo‘shilmaydi. U so‘lak mavjudligi bilan bog‘liq farqni ko‘rishga yordam beradi.",
+      "fact_ids": [
+        "laboratory-4-f2"
+      ]
+    },
+    {
+      "title": "Yod belgisi",
+      "body": "Kraxmal yod ta’sirida ko‘k rang hosil qiladi. Shu belgi namuna tarkibida kraxmal qolganini aniqlashda ishlatiladi.",
+      "fact_ids": [
+        "laboratory-4-f3"
+      ]
+    },
+    {
+      "title": "Sovuq sharoit",
+      "body": "Muzli idishdagi namunada so‘lakning kraxmalga ta’siri sustlashadi. Darslik ushbu namunada kraxmalning saqlanib qolishini ko‘rsatadi.",
+      "fact_ids": [
+        "laboratory-4-f4"
+      ]
+    },
+    {
+      "title": "Kislotali sharoit",
+      "body": "Uchinchi probirkada kislotali muhit hosil qilinadi. Darslikda bu sharoitda so‘lakning kraxmalga ta’siri susayishi tahlil qilinadi.",
+      "fact_ids": [
+        "laboratory-4-f5"
+      ]
+    },
+    {
+      "title": "Iliq namuna xulosasi",
+      "body": "To‘rtinchi namunada iliq sharoitda so‘lak kraxmalni parchalaydi. Natijalarni sovuq, kislotali va so‘laksiz namunalar bilan solishtirish kerak.",
+      "fact_ids": [
+        "laboratory-4-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-4-q1",
+      "fact_id": "laboratory-4-f1",
+      "question_text": "Bu laboratoriyaning asosiy taqqoslashi nima?",
+      "options": [
+        "Faqat qon guruhlarining soni",
+        "Faqat o‘pka pufakchalari soni",
+        "Faqat suyak shakli",
+        "So‘lakning kraxmalga turli sharoitdagi ta’siri"
+      ],
+      "correct_answer": "So‘lakning kraxmalga turli sharoitdagi ta’siri",
+      "explanation": "To‘rtinchi laboratoriya kraxmalga so‘lak ta’sirini turli sharoitlarda taqqoslaydi. Ilovada tajriba rejasi va darslikda berilgan kuzatuv tahlil qilinadi."
+    },
+    {
+      "key": "laboratory-4-q2",
+      "fact_id": "laboratory-4-f2",
+      "question_text": "So‘laksiz probirkaning tajribadagi roli nima?",
+      "options": [
+        "Barcha sharoitlarni bir xil deb e’lon qilish",
+        "Tajriba vaqtini o‘lchash",
+        "Taqqoslash uchun nazorat namunasi bo‘lish",
+        "Natijani o‘lchamasdan taxmin qilish"
+      ],
+      "correct_answer": "Taqqoslash uchun nazorat namunasi bo‘lish",
+      "explanation": "Birinchi probirkada kraxmal bor, ammo so‘lak qo‘shilmaydi. U so‘lak mavjudligi bilan bog‘liq farqni ko‘rishga yordam beradi."
+    },
+    {
+      "key": "laboratory-4-q3",
+      "fact_id": "laboratory-4-f3",
+      "question_text": "Yod qo‘shilganda ko‘k rang hosil bo‘lishi nimani ko‘rsatadi?",
+      "options": [
+        "Kraxmal mutlaqo yo‘qligini",
+        "Kraxmal borligini",
+        "Faqat glukoza borligini",
+        "Faqat yog‘ borligini"
+      ],
+      "correct_answer": "Kraxmal borligini",
+      "explanation": "Kraxmal yod ta’sirida ko‘k rang hosil qiladi. Shu belgi namuna tarkibida kraxmal qolganini aniqlashda ishlatiladi."
+    },
+    {
+      "key": "laboratory-4-q4",
+      "fact_id": "laboratory-4-f4",
+      "question_text": "Muzli idish tajribada qaysi omilni o‘zgartiradi?",
+      "options": [
+        "Haroratni",
+        "Qon guruhini",
+        "Suyak uzunligini",
+        "Ovoz balandligini"
+      ],
+      "correct_answer": "Haroratni",
+      "explanation": "Muzli idishdagi namunada so‘lakning kraxmalga ta’siri sustlashadi. Darslik ushbu namunada kraxmalning saqlanib qolishini ko‘rsatadi."
+    },
+    {
+      "key": "laboratory-4-q5",
+      "fact_id": "laboratory-4-f5",
+      "question_text": "Uchinchi probirkada qaysi sharoit sinovdan o‘tkaziladi?",
+      "options": [
+        "Qonning arterial bosimi",
+        "Yurakning hajmi",
+        "Yorug‘likning ko‘zga tushishi",
+        "Kislotali muhit"
+      ],
+      "correct_answer": "Kislotali muhit",
+      "explanation": "Uchinchi probirkada kislotali muhit hosil qilinadi. Darslikda bu sharoitda so‘lakning kraxmalga ta’siri susayishi tahlil qilinadi."
+    },
+    {
+      "key": "laboratory-4-q6",
+      "fact_id": "laboratory-4-f6",
+      "question_text": "Darslikda so‘lak kraxmalni parchalagan namuna qaysi?",
+      "options": [
+        "Muzli ikkinchi namuna",
+        "Kislotali uchinchi namuna",
+        "Iliq sharoitdagi to‘rtinchi namuna",
+        "So‘laksiz birinchi namuna"
+      ],
+      "correct_answer": "Iliq sharoitdagi to‘rtinchi namuna",
+      "explanation": "To‘rtinchi namunada iliq sharoitda so‘lak kraxmalni parchalaydi. Natijalarni sovuq, kislotali va so‘laksiz namunalar bilan solishtirish kerak."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "4-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Taqqoslash rejasi",
+        "fact_ids": [
+          "laboratory-4-f1"
+        ]
+      },
+      {
+        "instruction": "Nazorat probirkasi",
+        "fact_ids": [
+          "laboratory-4-f2"
+        ]
+      },
+      {
+        "instruction": "Yod belgisi",
+        "fact_ids": [
+          "laboratory-4-f3"
+        ]
+      },
+      {
+        "instruction": "Sovuq sharoit",
+        "fact_ids": [
+          "laboratory-4-f4"
+        ]
+      },
+      {
+        "instruction": "Kislotali sharoit",
+        "fact_ids": [
+          "laboratory-4-f5"
+        ]
+      },
+      {
+        "instruction": "Iliq namuna xulosasi",
+        "fact_ids": [
+          "laboratory-4-f6"
+        ]
+      }
+    ]
+  }
+}

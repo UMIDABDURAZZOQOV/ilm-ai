@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-36-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-46",
+  "title": "Teri gigiyenasi, teri shikastlanganda birinchi yordam ko‘rsatish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-36-f1": {
+      "claim": "Terini toza tutish undagi kir va ajralmalarni ketkazishga yordam beradi. Shaxsiy gigiyena terining himoya vazifasini saqlash uchun muhim.",
+      "answer": "Terini muntazam toza tutish",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f2": {
+      "claim": "Kiyim faslga mos, qulay va havoni yaxshi o‘tkazadigan bo‘lishi kerak. Bu issiqlik almashinuviga ham ta’sir qiladi.",
+      "answer": "Faslga moslik va qulay havo o‘tkazish",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f3": {
+      "claim": "Kuygan joyda paydo bo‘lgan pufakni yorish mumkin emas. Darslik jarohatga yog‘, spirt yoki margansovka surtmaslikni ham aytadi.",
+      "answer": "Uni ataylab yormaslik",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f4": {
+      "claim": "Kiyimi yonayotgan odam yugursa, havo oqimi yonishni kuchaytiradi. Darslik yugurmasdan yerga yotib dumalashni ko‘rsatadi.",
+      "answer": "Havo oqimi olovni kuchaytirishi mumkin",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f5": {
+      "claim": "Issiq va nam muhit terning bug‘lanishini qiyinlashtirib, tananing qizib ketishiga yordam berishi mumkin.",
+      "answer": "Ter bug‘lanishi va issiqlik chiqishi qiyinlashadi",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f6": {
+      "claim": "Alkogol issiqlik hissini berishi mumkin, ammo issiqlik yo‘qotilishini kuchaytirib, sovuqda xavfni oshiradi. Uni isitish vositasi deb qabul qilish noto‘g‘ri.",
+      "answer": "Issiqlik yo‘qotilishini kuchaytirishi mumkin",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tozalik",
+      "body": "Terini toza tutish undagi kir va ajralmalarni ketkazishga yordam beradi. Shaxsiy gigiyena terining himoya vazifasini saqlash uchun muhim.",
+      "fact_ids": [
+        "paragraph-36-f1"
+      ]
+    },
+    {
+      "title": "Kiyim tanlash",
+      "body": "Kiyim faslga mos, qulay va havoni yaxshi o‘tkazadigan bo‘lishi kerak. Bu issiqlik almashinuviga ham ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-36-f2"
+      ]
+    },
+    {
+      "title": "Kuygan pufak",
+      "body": "Kuygan joyda paydo bo‘lgan pufakni yorish mumkin emas. Darslik jarohatga yog‘, spirt yoki margansovka surtmaslikni ham aytadi.",
+      "fact_ids": [
+        "paragraph-36-f3"
+      ]
+    },
+    {
+      "title": "Olov xavfi",
+      "body": "Kiyimi yonayotgan odam yugursa, havo oqimi yonishni kuchaytiradi. Darslik yugurmasdan yerga yotib dumalashni ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-36-f4"
+      ]
+    },
+    {
+      "title": "Issiqlik almashinuvi",
+      "body": "Issiq va nam muhit terning bug‘lanishini qiyinlashtirib, tananing qizib ketishiga yordam berishi mumkin.",
+      "fact_ids": [
+        "paragraph-36-f5"
+      ]
+    },
+    {
+      "title": "Sovuq va alkogol",
+      "body": "Alkogol issiqlik hissini berishi mumkin, ammo issiqlik yo‘qotilishini kuchaytirib, sovuqda xavfni oshiradi. Uni isitish vositasi deb qabul qilish noto‘g‘ri.",
+      "fact_ids": [
+        "paragraph-36-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-36-q1",
+      "fact_id": "paragraph-36-f1",
+      "question_text": "Teri gigiyenasiga qaysi odat mos?",
+      "options": [
+        "Ifloslanishni doimo e’tiborsiz qoldirish",
+        "Jarohatga kir surtish",
+        "Terlashdan keyin hech qachon yuvinmaslik",
+        "Terini muntazam toza tutish"
+      ],
+      "correct_answer": "Terini muntazam toza tutish",
+      "explanation": "Terini toza tutish undagi kir va ajralmalarni ketkazishga yordam beradi. Shaxsiy gigiyena terining himoya vazifasini saqlash uchun muhim."
+    },
+    {
+      "key": "paragraph-36-q2",
+      "fact_id": "paragraph-36-f2",
+      "question_text": "Darslik kiyim uchun qaysi belgini ta’kidlaydi?",
+      "options": [
+        "Har doim juda tor bo‘lish",
+        "Havoni mutlaqo o‘tkazmaslik",
+        "Faslga moslik va qulay havo o‘tkazish",
+        "Har qanday havoda eng qalin qatlam"
+      ],
+      "correct_answer": "Faslga moslik va qulay havo o‘tkazish",
+      "explanation": "Kiyim faslga mos, qulay va havoni yaxshi o‘tkazadigan bo‘lishi kerak. Bu issiqlik almashinuviga ham ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-36-q3",
+      "fact_id": "paragraph-36-f3",
+      "question_text": "Kuygan joydagi pufak bilan qanday munosabat to‘g‘ri?",
+      "options": [
+        "Uni qattiq ishqalash",
+        "Uni ataylab yormaslik",
+        "Uni iflos igna bilan teshib chiqish",
+        "Ustiga spirtni majburiy surtish"
+      ],
+      "correct_answer": "Uni ataylab yormaslik",
+      "explanation": "Kuygan joyda paydo bo‘lgan pufakni yorish mumkin emas. Darslik jarohatga yog‘, spirt yoki margansovka surtmaslikni ham aytadi."
+    },
+    {
+      "key": "paragraph-36-q4",
+      "fact_id": "paragraph-36-f4",
+      "question_text": "Kiyim yonayotganda yugurish nega xavfli?",
+      "options": [
+        "Havo oqimi olovni kuchaytirishi mumkin",
+        "Olovni har doim darhol o‘chiradi",
+        "Kiyimni avtomatik sovitadi",
+        "Havo yonishga hech ta’sir qilmaydi"
+      ],
+      "correct_answer": "Havo oqimi olovni kuchaytirishi mumkin",
+      "explanation": "Kiyimi yonayotgan odam yugursa, havo oqimi yonishni kuchaytiradi. Darslik yugurmasdan yerga yotib dumalashni ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-36-q5",
+      "fact_id": "paragraph-36-f5",
+      "question_text": "Nega issiq, nam muhitda qizib ketish xavfi oshadi?",
+      "options": [
+        "Ter darhol muzlaydi",
+        "Organizm umuman issiqlik hosil qilmaydi",
+        "Teri butunlay yo‘qoladi",
+        "Ter bug‘lanishi va issiqlik chiqishi qiyinlashadi"
+      ],
+      "correct_answer": "Ter bug‘lanishi va issiqlik chiqishi qiyinlashadi",
+      "explanation": "Issiq va nam muhit terning bug‘lanishini qiyinlashtirib, tananing qizib ketishiga yordam berishi mumkin."
+    },
+    {
+      "key": "paragraph-36-q6",
+      "fact_id": "paragraph-36-f6",
+      "question_text": "Sovuqda alkogol bilan isinish haqidagi to‘g‘ri fikr qaysi?",
+      "options": [
+        "Sovuq urishini butunlay yo‘qotadi",
+        "Qon tomirlariga umuman ta’sir qilmaydi",
+        "Issiqlik yo‘qotilishini kuchaytirishi mumkin",
+        "Har doim tana issiqligini xavfsiz saqlaydi"
+      ],
+      "correct_answer": "Issiqlik yo‘qotilishini kuchaytirishi mumkin",
+      "explanation": "Alkogol issiqlik hissini berishi mumkin, ammo issiqlik yo‘qotilishini kuchaytirib, sovuqda xavfni oshiradi. Uni isitish vositasi deb qabul qilish noto‘g‘ri."
+    }
+  ]
+}

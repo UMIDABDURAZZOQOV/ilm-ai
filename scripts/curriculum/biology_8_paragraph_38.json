@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-38-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-48",
+  "title": "Siydik ajratish organlarining funksiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-38-f1": {
+      "claim": "Nefron kapillyarlaridan suyuqlik kapsulaga filtrlanib, birlamchi siydik hosil bo‘ladi. Bu siydik hosil bo‘lishining dastlabki bosqichidir.",
+      "answer": "Filtratsiya",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f2": {
+      "claim": "Nefron naychalarida suvning katta qismi, glukoza va aminokislotalar qonga qayta so‘riladi. Bu reabsorbsiya deyiladi.",
+      "answer": "Naychadagi suyuqlikdan qonga qayta so‘rilish",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f3": {
+      "claim": "Oxirgi siydikda mochevina va kreatinin kabi almashinuv mahsulotlari, ma’lum miqdorda suv va tuzlar bor.",
+      "answer": "Mochevina",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f4": {
+      "claim": "Siydik yo‘li devorining peristaltik qisqarishi siydikning qovuq tomon siljishiga yordam beradi.",
+      "answer": "Siydik yo‘li muskullarining peristaltik qisqarishi",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f5": {
+      "claim": "Antidiuretik gormon buyrakda suvning qayta so‘rilishini kuchaytiradi va chiqariladigan siydik miqdorini kamaytirishi mumkin.",
+      "answer": "Suvning qayta so‘rilishi ortadi",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f6": {
+      "claim": "Nefrit buyrak, sistit qovuq yallig‘lanishi bilan bog‘liq atamalardir. Ularni bir xil organ kasalligi deb adashtirmaslik kerak.",
+      "answer": "Qovuq",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Filtratsiya",
+      "body": "Nefron kapillyarlaridan suyuqlik kapsulaga filtrlanib, birlamchi siydik hosil bo‘ladi. Bu siydik hosil bo‘lishining dastlabki bosqichidir.",
+      "fact_ids": [
+        "paragraph-38-f1"
+      ]
+    },
+    {
+      "title": "Reabsorbsiya",
+      "body": "Nefron naychalarida suvning katta qismi, glukoza va aminokislotalar qonga qayta so‘riladi. Bu reabsorbsiya deyiladi.",
+      "fact_ids": [
+        "paragraph-38-f2"
+      ]
+    },
+    {
+      "title": "Qoldiq tarkibi",
+      "body": "Oxirgi siydikda mochevina va kreatinin kabi almashinuv mahsulotlari, ma’lum miqdorda suv va tuzlar bor.",
+      "fact_ids": [
+        "paragraph-38-f3"
+      ]
+    },
+    {
+      "title": "Siydik yo‘li harakati",
+      "body": "Siydik yo‘li devorining peristaltik qisqarishi siydikning qovuq tomon siljishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-38-f4"
+      ]
+    },
+    {
+      "title": "ADG ta’siri",
+      "body": "Antidiuretik gormon buyrakda suvning qayta so‘rilishini kuchaytiradi va chiqariladigan siydik miqdorini kamaytirishi mumkin.",
+      "fact_ids": [
+        "paragraph-38-f5"
+      ]
+    },
+    {
+      "title": "Kasallik atamalari",
+      "body": "Nefrit buyrak, sistit qovuq yallig‘lanishi bilan bog‘liq atamalardir. Ularni bir xil organ kasalligi deb adashtirmaslik kerak.",
+      "fact_ids": [
+        "paragraph-38-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-38-q1",
+      "fact_id": "paragraph-38-f1",
+      "question_text": "Birlamchi siydik qanday jarayon bilan boshlanadi?",
+      "options": [
+        "Faqat ovqatni chaynash",
+        "Faqat havoni isitish",
+        "Faqat qonning ivishi",
+        "Filtratsiya"
+      ],
+      "correct_answer": "Filtratsiya",
+      "explanation": "Nefron kapillyarlaridan suyuqlik kapsulaga filtrlanib, birlamchi siydik hosil bo‘ladi. Bu siydik hosil bo‘lishining dastlabki bosqichidir."
+    },
+    {
+      "key": "paragraph-38-q2",
+      "fact_id": "paragraph-38-f2",
+      "question_text": "Reabsorbsiya qaysi yo‘nalishdagi jarayon?",
+      "options": [
+        "Faqat qovuqdan oshqozonga o‘tish",
+        "Faqat suyakdan teriga siljish",
+        "Naychadagi suyuqlikdan qonga qayta so‘rilish",
+        "Faqat qondan tashqi havoga uchish"
+      ],
+      "correct_answer": "Naychadagi suyuqlikdan qonga qayta so‘rilish",
+      "explanation": "Nefron naychalarida suvning katta qismi, glukoza va aminokislotalar qonga qayta so‘riladi. Bu reabsorbsiya deyiladi."
+    },
+    {
+      "key": "paragraph-38-q3",
+      "fact_id": "paragraph-38-f3",
+      "question_text": "Siydik bilan chiqariladigan almashinuv mahsuloti qaysi?",
+      "options": [
+        "Faqat bo‘g‘im tog‘ayi",
+        "Mochevina",
+        "Faqat tish emali",
+        "Faqat soch pigmenti"
+      ],
+      "correct_answer": "Mochevina",
+      "explanation": "Oxirgi siydikda mochevina va kreatinin kabi almashinuv mahsulotlari, ma’lum miqdorda suv va tuzlar bor."
+    },
+    {
+      "key": "paragraph-38-q4",
+      "fact_id": "paragraph-38-f4",
+      "question_text": "Buyrakdan qovuqqa siydik siljishiga nima ko‘maklashadi?",
+      "options": [
+        "Siydik yo‘li muskullarining peristaltik qisqarishi",
+        "Ovoz paylarining tebranishi",
+        "Tishlarning chaynashi",
+        "Ko‘z qorachig‘ining torayishi"
+      ],
+      "correct_answer": "Siydik yo‘li muskullarining peristaltik qisqarishi",
+      "explanation": "Siydik yo‘li devorining peristaltik qisqarishi siydikning qovuq tomon siljishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-38-q5",
+      "fact_id": "paragraph-38-f5",
+      "question_text": "ADG ta’siri kuchayganda qaysi o‘zgarish kutiladi?",
+      "options": [
+        "Qayta so‘rilish har doim butunlay to‘xtaydi",
+        "Buyrakda glukoza o‘rniga suyak hosil bo‘ladi",
+        "Siydik qovuqdan o‘pkaga o‘tadi",
+        "Suvning qayta so‘rilishi ortadi"
+      ],
+      "correct_answer": "Suvning qayta so‘rilishi ortadi",
+      "explanation": "Antidiuretik gormon buyrakda suvning qayta so‘rilishini kuchaytiradi va chiqariladigan siydik miqdorini kamaytirishi mumkin."
+    },
+    {
+      "key": "paragraph-38-q6",
+      "fact_id": "paragraph-38-f6",
+      "question_text": "Sistit qaysi organning yallig‘lanishi?",
+      "options": [
+        "O‘pka",
+        "Qalqonsimon bez",
+        "Qovuq",
+        "Oshqozon"
+      ],
+      "correct_answer": "Qovuq",
+      "explanation": "Nefrit buyrak, sistit qovuq yallig‘lanishi bilan bog‘liq atamalardir. Ularni bir xil organ kasalligi deb adashtirmaslik kerak."
+    }
+  ]
+}

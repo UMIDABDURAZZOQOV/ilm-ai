@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-46-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-58",
+  "title": "Shartli reflekslarning hosil bo‘lishi va tormozlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-46-f1": {
+      "claim": "Pavlov tajribasida ovqat berishdan oldin chiroq yoqilgan. Takrorlashdan so‘ng chiroqning o‘zi so‘lak ajralishiga signal bo‘lgan.",
+      "answer": "Chiroq yoqilishi",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f2": {
+      "claim": "Ovqat so‘lak ajralishini o‘rganishsiz qo‘zg‘atadi; tajribada u shartsiz ta’sirlovchidir.",
+      "answer": "Ovqat",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f3": {
+      "claim": "Darslik tajribasida chiroq ovqatdan oldin yoqilib, juftlash bir necha marta takrorlangan. Signal keyingi hodisa bilan bog‘langan.",
+      "answer": "Chiroq va undan keyingi ovqatni takroran bog‘lash",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f4": {
+      "claim": "Chiroqdan keyin ovqat qayta-qayta berilmasa, chiroqqa so‘lak ajralishi kamayishi mumkin. Bu shartli javobning so‘nishidir.",
+      "answer": "Asta-sekin so‘nishi",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f5": {
+      "claim": "Kuchli yoki notanish yangi tovush mavjud shartli javobni vaqtincha tormozlashi mumkin. Bu tashqi tormozlanishga misoldir.",
+      "answer": "Tashqi tormozlanish",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f6": {
+      "claim": "Darslik takrorlanmagan o‘rganilgan bilim unutilishi, qayta takrorlanganda esa yana esga tushishi mumkinligini ko‘rsatadi.",
+      "answer": "Mazmunli takrorlash",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tajriba signali",
+      "body": "Pavlov tajribasida ovqat berishdan oldin chiroq yoqilgan. Takrorlashdan so‘ng chiroqning o‘zi so‘lak ajralishiga signal bo‘lgan.",
+      "fact_ids": [
+        "paragraph-46-f1"
+      ]
+    },
+    {
+      "title": "Shartsiz ta’sirlovchi",
+      "body": "Ovqat so‘lak ajralishini o‘rganishsiz qo‘zg‘atadi; tajribada u shartsiz ta’sirlovchidir.",
+      "fact_ids": [
+        "paragraph-46-f2"
+      ]
+    },
+    {
+      "title": "Bog‘lanishni shakllantirish",
+      "body": "Darslik tajribasida chiroq ovqatdan oldin yoqilib, juftlash bir necha marta takrorlangan. Signal keyingi hodisa bilan bog‘langan.",
+      "fact_ids": [
+        "paragraph-46-f3"
+      ]
+    },
+    {
+      "title": "So‘nish",
+      "body": "Chiroqdan keyin ovqat qayta-qayta berilmasa, chiroqqa so‘lak ajralishi kamayishi mumkin. Bu shartli javobning so‘nishidir.",
+      "fact_ids": [
+        "paragraph-46-f4"
+      ]
+    },
+    {
+      "title": "Tashqi chalg‘itish",
+      "body": "Kuchli yoki notanish yangi tovush mavjud shartli javobni vaqtincha tormozlashi mumkin. Bu tashqi tormozlanishga misoldir.",
+      "fact_ids": [
+        "paragraph-46-f5"
+      ]
+    },
+    {
+      "title": "Takrorlash ahamiyati",
+      "body": "Darslik takrorlanmagan o‘rganilgan bilim unutilishi, qayta takrorlanganda esa yana esga tushishi mumkinligini ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-46-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-46-q1",
+      "fact_id": "paragraph-46-f1",
+      "question_text": "Pavlovning darslikdagi tajribasida shartli signal nima?",
+      "options": [
+        "Ovqatning og‘izga tushishi",
+        "Faqat itning suyagi",
+        "Faqat so‘lakning o‘zi",
+        "Chiroq yoqilishi"
+      ],
+      "correct_answer": "Chiroq yoqilishi",
+      "explanation": "Pavlov tajribasida ovqat berishdan oldin chiroq yoqilgan. Takrorlashdan so‘ng chiroqning o‘zi so‘lak ajralishiga signal bo‘lgan."
+    },
+    {
+      "key": "paragraph-46-q2",
+      "fact_id": "paragraph-46-f2",
+      "question_text": "Tajribada shartsiz ta’sirlovchi sifatida nima berilgan?",
+      "options": [
+        "Qo‘ng‘iroqning yangi ovozi",
+        "Faqat tajriba xonasining rangi",
+        "Ovqat",
+        "Chiroqning yorug‘ligi"
+      ],
+      "correct_answer": "Ovqat",
+      "explanation": "Ovqat so‘lak ajralishini o‘rganishsiz qo‘zg‘atadi; tajribada u shartsiz ta’sirlovchidir."
+    },
+    {
+      "key": "paragraph-46-q3",
+      "fact_id": "paragraph-46-f3",
+      "question_text": "Chiroqning ovqat signaliga aylanishida nima muhim bo‘lgan?",
+      "options": [
+        "Signalni faqat ovqatdan ancha keyin berish",
+        "Chiroq va undan keyingi ovqatni takroran bog‘lash",
+        "Ovqatni hech qachon bermaslik",
+        "Har safar barcha sharoitni tasodifiy almashtirish"
+      ],
+      "correct_answer": "Chiroq va undan keyingi ovqatni takroran bog‘lash",
+      "explanation": "Darslik tajribasida chiroq ovqatdan oldin yoqilib, juftlash bir necha marta takrorlangan. Signal keyingi hodisa bilan bog‘langan."
+    },
+    {
+      "key": "paragraph-46-q4",
+      "fact_id": "paragraph-46-f4",
+      "question_text": "Mustahkamlashsiz takrorlangan signalga javob nima bo‘lishi mumkin?",
+      "options": [
+        "Asta-sekin so‘nishi",
+        "Har doim cheksiz kuchayishi",
+        "Suyak refleksiga aylanishi",
+        "Qon guruhiga aylanishi"
+      ],
+      "correct_answer": "Asta-sekin so‘nishi",
+      "explanation": "Chiroqdan keyin ovqat qayta-qayta berilmasa, chiroqqa so‘lak ajralishi kamayishi mumkin. Bu shartli javobning so‘nishidir."
+    },
+    {
+      "key": "paragraph-46-q5",
+      "fact_id": "paragraph-46-f5",
+      "question_text": "Kutilmagan baland tovushning shartli javobni susaytirishi qaysi hodisa?",
+      "options": [
+        "Faqat glikogen sintezi",
+        "Faqat mineral almashinuvi",
+        "Faqat qonning ivishi",
+        "Tashqi tormozlanish"
+      ],
+      "correct_answer": "Tashqi tormozlanish",
+      "explanation": "Kuchli yoki notanish yangi tovush mavjud shartli javobni vaqtincha tormozlashi mumkin. Bu tashqi tormozlanishga misoldir."
+    },
+    {
+      "key": "paragraph-46-q6",
+      "fact_id": "paragraph-46-f6",
+      "question_text": "O‘rganilgan bilimni mustahkamlashga qaysi odat yordam beradi?",
+      "options": [
+        "Faqat tasodifiy belgilash",
+        "Barcha mashqlarni tashlab ketish",
+        "Mazmunli takrorlash",
+        "Hech qachon qayta eslamaslik"
+      ],
+      "correct_answer": "Mazmunli takrorlash",
+      "explanation": "Darslik takrorlanmagan o‘rganilgan bilim unutilishi, qayta takrorlanganda esa yana esga tushishi mumkinligini ko‘rsatadi."
+    }
+  ]
+}

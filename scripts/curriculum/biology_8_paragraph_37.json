@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-37-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-47",
+  "title": "Siydik ajratish organlarining tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-37-f1": {
+      "claim": "Siydik ajratish sistemasiga buyraklar, siydik yo‘llari, qovuq va siydik chiqarish nayi kiradi. Buyraklar suv-tuz muvozanatida muhim.",
+      "answer": "Buyrak → siydik yo‘li → qovuq → chiqarish nayi",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f2": {
+      "claim": "Buyrak kesimida tashqi po‘stloq va ichki mag‘iz qismlari farqlanadi. Mag‘izda piramidasimon tuzilmalar bor.",
+      "answer": "Po‘stloq va mag‘iz",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f3": {
+      "claim": "Nefron buyrakning tuzilish va funksional birligidir. U kapillyar chigal bilan bog‘langan kapsula va naychalardan tashkil topgan.",
+      "answer": "Nefron",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f4": {
+      "claim": "Nefronda kapsuladan boshlanuvchi naychalar va Genle halqasi bor. Naychalar yig‘uvchi yo‘llarga ulanadi.",
+      "answer": "Nefron",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f5": {
+      "claim": "Nefron kapsulasida kapillyar chigal bor; undan keyingi tomirlar naychalar atrofida ham kapillyarlar hosil qiladi.",
+      "answer": "Nefron bilan qon tomirlari o‘rtasidagi yaqin aloqaga",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f6": {
+      "claim": "Qovuq siydikni vaqtincha to‘playdi; ikki siydik yo‘li unga ochiladi. Undan alohida chiqarish nayi boshlanadi.",
+      "answer": "Qovuq",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ajratish yo‘li",
+      "body": "Siydik ajratish sistemasiga buyraklar, siydik yo‘llari, qovuq va siydik chiqarish nayi kiradi. Buyraklar suv-tuz muvozanatida muhim.",
+      "fact_ids": [
+        "paragraph-37-f1"
+      ]
+    },
+    {
+      "title": "Buyrak qavatlari",
+      "body": "Buyrak kesimida tashqi po‘stloq va ichki mag‘iz qismlari farqlanadi. Mag‘izda piramidasimon tuzilmalar bor.",
+      "fact_ids": [
+        "paragraph-37-f2"
+      ]
+    },
+    {
+      "title": "Nefron",
+      "body": "Nefron buyrakning tuzilish va funksional birligidir. U kapillyar chigal bilan bog‘langan kapsula va naychalardan tashkil topgan.",
+      "fact_ids": [
+        "paragraph-37-f3"
+      ]
+    },
+    {
+      "title": "Naycha va halqa",
+      "body": "Nefronda kapsuladan boshlanuvchi naychalar va Genle halqasi bor. Naychalar yig‘uvchi yo‘llarga ulanadi.",
+      "fact_ids": [
+        "paragraph-37-f4"
+      ]
+    },
+    {
+      "title": "Qon bilan aloqa",
+      "body": "Nefron kapsulasida kapillyar chigal bor; undan keyingi tomirlar naychalar atrofida ham kapillyarlar hosil qiladi.",
+      "fact_ids": [
+        "paragraph-37-f5"
+      ]
+    },
+    {
+      "title": "Qovuq",
+      "body": "Qovuq siydikni vaqtincha to‘playdi; ikki siydik yo‘li unga ochiladi. Undan alohida chiqarish nayi boshlanadi.",
+      "fact_ids": [
+        "paragraph-37-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-37-q1",
+      "fact_id": "paragraph-37-f1",
+      "question_text": "Siydik yo‘lining to‘g‘ri ketma-ketligi qaysi?",
+      "options": [
+        "Buyrak → kekirdak → o‘pka",
+        "Qovuq → oshqozon → jigar",
+        "Jigar → o‘t yo‘li → alveola",
+        "Buyrak → siydik yo‘li → qovuq → chiqarish nayi"
+      ],
+      "correct_answer": "Buyrak → siydik yo‘li → qovuq → chiqarish nayi",
+      "explanation": "Siydik ajratish sistemasiga buyraklar, siydik yo‘llari, qovuq va siydik chiqarish nayi kiradi. Buyraklar suv-tuz muvozanatida muhim."
+    },
+    {
+      "key": "paragraph-37-q2",
+      "fact_id": "paragraph-37-f2",
+      "question_text": "Buyrakning tashqi va ichki qismlari qanday ataladi?",
+      "options": [
+        "Plevra va alveola",
+        "Bo‘lmacha va qorincha",
+        "Po‘stloq va mag‘iz",
+        "Emal va dentin"
+      ],
+      "correct_answer": "Po‘stloq va mag‘iz",
+      "explanation": "Buyrak kesimida tashqi po‘stloq va ichki mag‘iz qismlari farqlanadi. Mag‘izda piramidasimon tuzilmalar bor."
+    },
+    {
+      "key": "paragraph-37-q3",
+      "fact_id": "paragraph-37-f3",
+      "question_text": "Buyrakning tuzilish va funksional birligi nima?",
+      "options": [
+        "Vorsinka",
+        "Nefron",
+        "Neyron",
+        "Alveola"
+      ],
+      "correct_answer": "Nefron",
+      "explanation": "Nefron buyrakning tuzilish va funksional birligidir. U kapillyar chigal bilan bog‘langan kapsula va naychalardan tashkil topgan."
+    },
+    {
+      "key": "paragraph-37-q4",
+      "fact_id": "paragraph-37-f4",
+      "question_text": "Genle halqasi qaysi tuzilma tarkibiga kiradi?",
+      "options": [
+        "Nefron",
+        "O‘pka alveolasi",
+        "Yurak klapani",
+        "Ichak vorsinkasi"
+      ],
+      "correct_answer": "Nefron",
+      "explanation": "Nefronda kapsuladan boshlanuvchi naychalar va Genle halqasi bor. Naychalar yig‘uvchi yo‘llarga ulanadi."
+    },
+    {
+      "key": "paragraph-37-q5",
+      "fact_id": "paragraph-37-f5",
+      "question_text": "Nefron naychalari atrofidagi kapillyarlar nimaga dalil?",
+      "options": [
+        "Buyrakning qondan butunlay ajralganiga",
+        "Siydikning faqat havodan hosil bo‘lishiga",
+        "Buyrakda qon tomiri bo‘lmasligiga",
+        "Nefron bilan qon tomirlari o‘rtasidagi yaqin aloqaga"
+      ],
+      "correct_answer": "Nefron bilan qon tomirlari o‘rtasidagi yaqin aloqaga",
+      "explanation": "Nefron kapsulasida kapillyar chigal bor; undan keyingi tomirlar naychalar atrofida ham kapillyarlar hosil qiladi."
+    },
+    {
+      "key": "paragraph-37-q6",
+      "fact_id": "paragraph-37-f6",
+      "question_text": "Siydikni vaqtincha to‘playdigan organ qaysi?",
+      "options": [
+        "O‘t pufagi",
+        "Oshqozon",
+        "Qovuq",
+        "Buyrakusti bezi"
+      ],
+      "correct_answer": "Qovuq",
+      "explanation": "Qovuq siydikni vaqtincha to‘playdi; ikki siydik yo‘li unga ochiladi. Undan alohida chiqarish nayi boshlanadi."
+    }
+  ]
+}

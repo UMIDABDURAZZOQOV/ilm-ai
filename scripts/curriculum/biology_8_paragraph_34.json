@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-34-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-44",
+  "title": "Terining tuzilishi va funksiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-34-f1": {
+      "claim": "Teri tanani qoplab, ortiqcha suv yo‘qotishdan, mexanik ta’sirdan va mikroorganizmlardan himoyalaydi.",
+      "answer": "Ortiqcha suv yo‘qotilishi va mikroblar kirishini cheklash",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f2": {
+      "claim": "Epidermis terining tashqi qavati bo‘lib, hujayralari yangilanadi. Uning yuzaki qismida muguzlangan hujayralar bor.",
+      "answer": "Epidermis",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f3": {
+      "claim": "Terida bosim, og‘riq va harorat ta’sirlarini sezuvchi retseptorlar joylashgan. Ular ta’sirni nerv signallariga bog‘laydi.",
+      "answer": "Retseptorlar",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f4": {
+      "claim": "Quyoshning ultrabinafsha nurlari ta’sirida terida D vitamini hosil bo‘lishi mumkin. Bu terining sintez jarayonida qatnashishidir.",
+      "answer": "D vitamini",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f5": {
+      "claim": "Derma qon tomirlari, nerv tolalari, ter va yog‘ bezlari, soch ildizlari joylashgan qavatdir.",
+      "answer": "Dermada",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f6": {
+      "claim": "Teriosti qavatidagi yog‘ to‘qimasi energiya zaxirasi va issiqlikni saqlashda qatnashadi.",
+      "answer": "Zaxira va issiqlikni saqlash",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Teri to‘sig‘i",
+      "body": "Teri tanani qoplab, ortiqcha suv yo‘qotishdan, mexanik ta’sirdan va mikroorganizmlardan himoyalaydi.",
+      "fact_ids": [
+        "paragraph-34-f1"
+      ]
+    },
+    {
+      "title": "Tashqi qavat",
+      "body": "Epidermis terining tashqi qavati bo‘lib, hujayralari yangilanadi. Uning yuzaki qismida muguzlangan hujayralar bor.",
+      "fact_ids": [
+        "paragraph-34-f2"
+      ]
+    },
+    {
+      "title": "Teri sezgilari",
+      "body": "Terida bosim, og‘riq va harorat ta’sirlarini sezuvchi retseptorlar joylashgan. Ular ta’sirni nerv signallariga bog‘laydi.",
+      "fact_ids": [
+        "paragraph-34-f3"
+      ]
+    },
+    {
+      "title": "D vitamini sintezi",
+      "body": "Quyoshning ultrabinafsha nurlari ta’sirida terida D vitamini hosil bo‘lishi mumkin. Bu terining sintez jarayonida qatnashishidir.",
+      "fact_ids": [
+        "paragraph-34-f4"
+      ]
+    },
+    {
+      "title": "Chin teri",
+      "body": "Derma qon tomirlari, nerv tolalari, ter va yog‘ bezlari, soch ildizlari joylashgan qavatdir.",
+      "fact_ids": [
+        "paragraph-34-f5"
+      ]
+    },
+    {
+      "title": "Teriosti qavati",
+      "body": "Teriosti qavatidagi yog‘ to‘qimasi energiya zaxirasi va issiqlikni saqlashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-34-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-34-q1",
+      "fact_id": "paragraph-34-f1",
+      "question_text": "Terining to‘siq vazifasiga qaysi misol mos?",
+      "options": [
+        "Qonni bevosita aortaga haydash",
+        "Ovqatni ichakda parchalash",
+        "Siydikni qovuqda to‘plash",
+        "Ortiqcha suv yo‘qotilishi va mikroblar kirishini cheklash"
+      ],
+      "correct_answer": "Ortiqcha suv yo‘qotilishi va mikroblar kirishini cheklash",
+      "explanation": "Teri tanani qoplab, ortiqcha suv yo‘qotishdan, mexanik ta’sirdan va mikroorganizmlardan himoyalaydi."
+    },
+    {
+      "key": "paragraph-34-q2",
+      "fact_id": "paragraph-34-f2",
+      "question_text": "Terining tashqi qavati qanday ataladi?",
+      "options": [
+        "Suyakusti pardasi",
+        "Plevra",
+        "Epidermis",
+        "Derma"
+      ],
+      "correct_answer": "Epidermis",
+      "explanation": "Epidermis terining tashqi qavati bo‘lib, hujayralari yangilanadi. Uning yuzaki qismida muguzlangan hujayralar bor."
+    },
+    {
+      "key": "paragraph-34-q3",
+      "fact_id": "paragraph-34-f3",
+      "question_text": "Issiq buyumni sezish terining qaysi tuzilmasi bilan bog‘liq?",
+      "options": [
+        "Faqat muguzlangan tirnoq",
+        "Retseptorlar",
+        "Faqat yog‘ zaxirasi",
+        "Faqat soch o‘qi"
+      ],
+      "correct_answer": "Retseptorlar",
+      "explanation": "Terida bosim, og‘riq va harorat ta’sirlarini sezuvchi retseptorlar joylashgan. Ular ta’sirni nerv signallariga bog‘laydi."
+    },
+    {
+      "key": "paragraph-34-q4",
+      "fact_id": "paragraph-34-f4",
+      "question_text": "Teri qaysi vitamin hosil bo‘lishida qatnashadi?",
+      "options": [
+        "D vitamini",
+        "Faqat B₁₂",
+        "Faqat C",
+        "Faqat B₁"
+      ],
+      "correct_answer": "D vitamini",
+      "explanation": "Quyoshning ultrabinafsha nurlari ta’sirida terida D vitamini hosil bo‘lishi mumkin. Bu terining sintez jarayonida qatnashishidir."
+    },
+    {
+      "key": "paragraph-34-q5",
+      "fact_id": "paragraph-34-f5",
+      "question_text": "Ter bezlari va soch ildizlari qaysi qavatda joylashgan?",
+      "options": [
+        "Faqat tashqi o‘lik muguz qatlamida",
+        "Faqat tish emalida",
+        "Faqat suyak iligida",
+        "Dermada"
+      ],
+      "correct_answer": "Dermada",
+      "explanation": "Derma qon tomirlari, nerv tolalari, ter va yog‘ bezlari, soch ildizlari joylashgan qavatdir."
+    },
+    {
+      "key": "paragraph-34-q6",
+      "fact_id": "paragraph-34-f6",
+      "question_text": "Teriosti yog‘ qavatiga qaysi vazifa mos?",
+      "options": [
+        "Faqat teri rangini ko‘rish",
+        "Faqat ichakda ferment ajratish",
+        "Zaxira va issiqlikni saqlash",
+        "Faqat nerv impulsini hosil qilish"
+      ],
+      "correct_answer": "Zaxira va issiqlikni saqlash",
+      "explanation": "Teriosti qavatidagi yog‘ to‘qimasi energiya zaxirasi va issiqlikni saqlashda qatnashadi."
+    }
+  ]
+}

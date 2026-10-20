@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-31-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-40",
+  "title": "Oqsillar, karbonsuvlar va yog‘lar almashinuvi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-31-f1": {
+      "claim": "Ovqat oqsillari aminokislotalarga parchalanadi. So‘rilgan aminokislotalardan hujayralarda organizmga xos oqsillar sintezlanadi.",
+      "answer": "Aminokislotalar",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f2": {
+      "claim": "Oqsillar hujayra tuzilishi, fermentlar faoliyati, himoya va muskul qisqarishida qatnashadi. Ular faqat energiya zaxirasi emas.",
+      "answer": "Fermentlar va hujayra tuzilmalarida qatnashish",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f3": {
+      "claim": "Murakkab uglevodlar hazmda oddiy uglevodlarga parchalanadi. Kraxmal parchalanishining yakuniy mahsulotlaridan biri glukozadir.",
+      "answer": "Glukoza",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f4": {
+      "claim": "Glukozaning bir qismi glikogen ko‘rinishida jigar va muskullarda zaxiralanadi. Zaruratda bu zaxiradan foydalaniladi.",
+      "answer": "Jigar va muskullarda",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f5": {
+      "claim": "Insulin glukozadan foydalanish va zaxira hosil qilishga yordam beradi; glukagon glikogenning glukozaga aylanishida qatnashadi.",
+      "answer": "Insulin va glukagon",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f6": {
+      "claim": "Yog‘lar energiya zaxirasi, membrana tarkibi va issiqlikni saqlashda qatnashadi. Organlar atrofidagi yog‘ mexanik himoyaga ham hissa qo‘shadi.",
+      "answer": "Issiqlik yo‘qotilishini kamaytirishga yordam berish",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f7": {
+      "claim": "Darslik hisobida 1 g yog‘ parchalanganda 9,3 kkal energiya ajraladi. Shu qiymat asosida 10 g yog‘ uchun 93 kkal chiqadi.",
+      "answer": "93 kkal",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oqsilning yo‘li",
+      "body": "Ovqat oqsillari aminokislotalarga parchalanadi. So‘rilgan aminokislotalardan hujayralarda organizmga xos oqsillar sintezlanadi.",
+      "fact_ids": [
+        "paragraph-31-f1"
+      ]
+    },
+    {
+      "title": "Oqsil vazifalari",
+      "body": "Oqsillar hujayra tuzilishi, fermentlar faoliyati, himoya va muskul qisqarishida qatnashadi. Ular faqat energiya zaxirasi emas.",
+      "fact_ids": [
+        "paragraph-31-f2"
+      ]
+    },
+    {
+      "title": "Kraxmaldan glukozaga",
+      "body": "Murakkab uglevodlar hazmda oddiy uglevodlarga parchalanadi. Kraxmal parchalanishining yakuniy mahsulotlaridan biri glukozadir.",
+      "fact_ids": [
+        "paragraph-31-f3"
+      ]
+    },
+    {
+      "title": "Glikogen zaxirasi",
+      "body": "Glukozaning bir qismi glikogen ko‘rinishida jigar va muskullarda zaxiralanadi. Zaruratda bu zaxiradan foydalaniladi.",
+      "fact_ids": [
+        "paragraph-31-f4"
+      ]
+    },
+    {
+      "title": "Insulin bilan boshqarish",
+      "body": "Insulin glukozadan foydalanish va zaxira hosil qilishga yordam beradi; glukagon glikogenning glukozaga aylanishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-31-f5"
+      ]
+    },
+    {
+      "title": "Yog‘ning vazifalari",
+      "body": "Yog‘lar energiya zaxirasi, membrana tarkibi va issiqlikni saqlashda qatnashadi. Organlar atrofidagi yog‘ mexanik himoyaga ham hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-31-f6"
+      ]
+    },
+    {
+      "title": "Energiya hisobi",
+      "body": "Darslik hisobida 1 g yog‘ parchalanganda 9,3 kkal energiya ajraladi. Shu qiymat asosida 10 g yog‘ uchun 93 kkal chiqadi.",
+      "fact_ids": [
+        "paragraph-31-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-31-q1",
+      "fact_id": "paragraph-31-f1",
+      "question_text": "Oqsil hazmidan keyin yangi oqsil qurilishiga qaysi mahsulot ishlatiladi?",
+      "options": [
+        "Faqat mineral tuzlar",
+        "Faqat o‘t suyuqligi",
+        "Faqat suv bug‘i",
+        "Aminokislotalar"
+      ],
+      "correct_answer": "Aminokislotalar",
+      "explanation": "Ovqat oqsillari aminokislotalarga parchalanadi. So‘rilgan aminokislotalardan hujayralarda organizmga xos oqsillar sintezlanadi."
+    },
+    {
+      "key": "paragraph-31-q2",
+      "fact_id": "paragraph-31-f2",
+      "question_text": "Oqsil vazifasiga qaysi biri mos?",
+      "options": [
+        "Faqat o‘t pufagida saqlanish",
+        "Faqat teri sirtida bug‘lanish",
+        "Fermentlar va hujayra tuzilmalarida qatnashish",
+        "Faqat hazm bo‘lmay chiqib ketish"
+      ],
+      "correct_answer": "Fermentlar va hujayra tuzilmalarida qatnashish",
+      "explanation": "Oqsillar hujayra tuzilishi, fermentlar faoliyati, himoya va muskul qisqarishida qatnashadi. Ular faqat energiya zaxirasi emas."
+    },
+    {
+      "key": "paragraph-31-q3",
+      "fact_id": "paragraph-31-f3",
+      "question_text": "Kraxmal hazmi bilan qaysi oddiy modda bog‘liq?",
+      "options": [
+        "Xolesterin",
+        "Glukoza",
+        "Gemoglobin",
+        "Fibrin"
+      ],
+      "correct_answer": "Glukoza",
+      "explanation": "Murakkab uglevodlar hazmda oddiy uglevodlarga parchalanadi. Kraxmal parchalanishining yakuniy mahsulotlaridan biri glukozadir."
+    },
+    {
+      "key": "paragraph-31-q4",
+      "fact_id": "paragraph-31-f4",
+      "question_text": "Glikogen zaxirasi asosan qaysi organ va to‘qimalarda bo‘ladi?",
+      "options": [
+        "Jigar va muskullarda",
+        "Faqat tish emalida",
+        "Faqat ko‘z gavharida",
+        "Faqat soch tolalarida"
+      ],
+      "correct_answer": "Jigar va muskullarda",
+      "explanation": "Glukozaning bir qismi glikogen ko‘rinishida jigar va muskullarda zaxiralanadi. Zaruratda bu zaxiradan foydalaniladi."
+    },
+    {
+      "key": "paragraph-31-q5",
+      "fact_id": "paragraph-31-f5",
+      "question_text": "Qaysi juftlik uglevod almashinuvini boshqaradi?",
+      "options": [
+        "Faqat amilaza va tish emali",
+        "Faqat o‘t va tupuk",
+        "Faqat plevra va perikard",
+        "Insulin va glukagon"
+      ],
+      "correct_answer": "Insulin va glukagon",
+      "explanation": "Insulin glukozadan foydalanish va zaxira hosil qilishga yordam beradi; glukagon glikogenning glukozaga aylanishida qatnashadi."
+    },
+    {
+      "key": "paragraph-31-q6",
+      "fact_id": "paragraph-31-f6",
+      "question_text": "Terosti yog‘ining issiqlik bilan bog‘liq vazifasi nima?",
+      "options": [
+        "Kislorodni bevosita ishlab chiqarish",
+        "Nerv tolalarini butunlay to‘xtatish",
+        "Issiqlik yo‘qotilishini kamaytirishga yordam berish",
+        "Tana haroratini har doim muzlatish"
+      ],
+      "correct_answer": "Issiqlik yo‘qotilishini kamaytirishga yordam berish",
+      "explanation": "Yog‘lar energiya zaxirasi, membrana tarkibi va issiqlikni saqlashda qatnashadi. Organlar atrofidagi yog‘ mexanik himoyaga ham hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-31-q7",
+      "fact_id": "paragraph-31-f7",
+      "question_text": "Kitobdagi 9,3 kkal/g qiymat bilan 10 g yog‘ energiyasi qancha?",
+      "options": [
+        "19,3 kkal",
+        "93 kkal",
+        "9,3 kkal",
+        "930 kkal"
+      ],
+      "correct_answer": "93 kkal",
+      "explanation": "Darslik hisobida 1 g yog‘ parchalanganda 9,3 kkal energiya ajraladi. Shu qiymat asosida 10 g yog‘ uchun 93 kkal chiqadi."
+    }
+  ]
+}

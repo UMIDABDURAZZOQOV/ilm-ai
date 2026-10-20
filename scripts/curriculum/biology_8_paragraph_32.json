@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-32-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-41",
+  "title": "Vitaminlar va ularning ahamiyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-32-f1": {
+      "claim": "Vitaminlar oz miqdorda zarur bo‘lsa ham, organizmdagi ko‘plab jarayonlarda muhim. Yetishmovchilik moddalar almashinuvini buzishi mumkin.",
+      "answer": "Kam miqdorda ham muhim vazifa bajaradi",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f2": {
+      "claim": "A vitamini ko‘rish va rivojlanishda muhim; yetishmovchiligi shabko‘rlik bilan bog‘liq bo‘lishi mumkin. Sabzidagi karotin A vitamini hosil bo‘lishiga xizmat qiladi.",
+      "answer": "A vitamini",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f3": {
+      "claim": "C vitamini yetishmaganda singa rivojlanishi mumkin. Darslik C vitamini manbalari sifatida na’matak, limon va ko‘katlarni keltiradi.",
+      "answer": "C vitamini",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f4": {
+      "claim": "B₁ vitamini uglevod almashinuvida qatnashadi; yetishmovchiligi beri-beri bilan bog‘liq. Don va dukkaklilar darslikda uning manbalaridir.",
+      "answer": "B₁ vitamini",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f5": {
+      "claim": "B₁₂ vitamini qon hosil bo‘lishida qatnashadi. Uning yetishmovchiligi kamqonlikka sabab bo‘lishi mumkin.",
+      "answer": "B₁₂",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f6": {
+      "claim": "D vitamini kalsiy-fosfor almashinuvi va suyaklanishda muhim. Yetishmovchiligi bolalarda raxit bilan bog‘liq; terida quyosh nuri ta’sirida ham hosil bo‘ladi.",
+      "answer": "Raxit",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f7": {
+      "claim": "C vitamini issiqlik va ochiq havoda yemirilishi mumkin. Mahsulotni saqlash va tayyorlash sharoiti vitamin miqdoriga ta’sir qiladi.",
+      "answer": "Uzoq issiqlik va ochiq havo ta’siri",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f8": {
+      "claim": "Darslik vitaminlarni keragidan ortiq iste’mol qilish ham salbiy oqibat keltirishini aytadi. Vitamin preparatlari shifokor tavsiyasi bilan qo‘llanadi.",
+      "answer": "Shifokor tavsiyasiga amal qilib, ortiqcha iste’moldan saqlanish",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Vitaminlar zarurati",
+      "body": "Vitaminlar oz miqdorda zarur bo‘lsa ham, organizmdagi ko‘plab jarayonlarda muhim. Yetishmovchilik moddalar almashinuvini buzishi mumkin.",
+      "fact_ids": [
+        "paragraph-32-f1"
+      ]
+    },
+    {
+      "title": "A vitamini",
+      "body": "A vitamini ko‘rish va rivojlanishda muhim; yetishmovchiligi shabko‘rlik bilan bog‘liq bo‘lishi mumkin. Sabzidagi karotin A vitamini hosil bo‘lishiga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-32-f2"
+      ]
+    },
+    {
+      "title": "C vitamini",
+      "body": "C vitamini yetishmaganda singa rivojlanishi mumkin. Darslik C vitamini manbalari sifatida na’matak, limon va ko‘katlarni keltiradi.",
+      "fact_ids": [
+        "paragraph-32-f3"
+      ]
+    },
+    {
+      "title": "B₁ vitamini",
+      "body": "B₁ vitamini uglevod almashinuvida qatnashadi; yetishmovchiligi beri-beri bilan bog‘liq. Don va dukkaklilar darslikda uning manbalaridir.",
+      "fact_ids": [
+        "paragraph-32-f4"
+      ]
+    },
+    {
+      "title": "B₁₂ vitamini",
+      "body": "B₁₂ vitamini qon hosil bo‘lishida qatnashadi. Uning yetishmovchiligi kamqonlikka sabab bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-32-f5"
+      ]
+    },
+    {
+      "title": "D vitamini",
+      "body": "D vitamini kalsiy-fosfor almashinuvi va suyaklanishda muhim. Yetishmovchiligi bolalarda raxit bilan bog‘liq; terida quyosh nuri ta’sirida ham hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-32-f6"
+      ]
+    },
+    {
+      "title": "Vitaminni saqlash",
+      "body": "C vitamini issiqlik va ochiq havoda yemirilishi mumkin. Mahsulotni saqlash va tayyorlash sharoiti vitamin miqdoriga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-32-f7"
+      ]
+    },
+    {
+      "title": "Me’yor muhim",
+      "body": "Darslik vitaminlarni keragidan ortiq iste’mol qilish ham salbiy oqibat keltirishini aytadi. Vitamin preparatlari shifokor tavsiyasi bilan qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-32-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-32-q1",
+      "fact_id": "paragraph-32-f1",
+      "question_text": "Vitaminlar oz miqdorda kerakligi ularning ahamiyati haqida nimani bildiradi?",
+      "options": [
+        "Organizm uchun umuman keraksiz",
+        "Faqat katta miqdorda energiya manbai",
+        "Faqat suyaklarning mexanik birikmasi",
+        "Kam miqdorda ham muhim vazifa bajaradi"
+      ],
+      "correct_answer": "Kam miqdorda ham muhim vazifa bajaradi",
+      "explanation": "Vitaminlar oz miqdorda zarur bo‘lsa ham, organizmdagi ko‘plab jarayonlarda muhim. Yetishmovchilik moddalar almashinuvini buzishi mumkin."
+    },
+    {
+      "key": "paragraph-32-q2",
+      "fact_id": "paragraph-32-f2",
+      "question_text": "Qaysi vitamin yetishmovchiligi shabko‘rlik bilan bog‘liq?",
+      "options": [
+        "B₁ vitamini",
+        "D vitamini",
+        "A vitamini",
+        "C vitamini"
+      ],
+      "correct_answer": "A vitamini",
+      "explanation": "A vitamini ko‘rish va rivojlanishda muhim; yetishmovchiligi shabko‘rlik bilan bog‘liq bo‘lishi mumkin. Sabzidagi karotin A vitamini hosil bo‘lishiga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-32-q3",
+      "fact_id": "paragraph-32-f3",
+      "question_text": "Singa qaysi vitamin yetishmovchiligi bilan bog‘liq?",
+      "options": [
+        "B₁₂ vitamini",
+        "C vitamini",
+        "A vitamini",
+        "D vitamini"
+      ],
+      "correct_answer": "C vitamini",
+      "explanation": "C vitamini yetishmaganda singa rivojlanishi mumkin. Darslik C vitamini manbalari sifatida na’matak, limon va ko‘katlarni keltiradi."
+    },
+    {
+      "key": "paragraph-32-q4",
+      "fact_id": "paragraph-32-f4",
+      "question_text": "Beri-beri qaysi vitamin bilan bog‘liq?",
+      "options": [
+        "B₁ vitamini",
+        "C vitamini",
+        "A vitamini",
+        "D vitamini"
+      ],
+      "correct_answer": "B₁ vitamini",
+      "explanation": "B₁ vitamini uglevod almashinuvida qatnashadi; yetishmovchiligi beri-beri bilan bog‘liq. Don va dukkaklilar darslikda uning manbalaridir."
+    },
+    {
+      "key": "paragraph-32-q5",
+      "fact_id": "paragraph-32-f5",
+      "question_text": "Qon hosil bo‘lishi bilan bog‘liq B guruhi vitamini qaysi?",
+      "options": [
+        "Faqat C",
+        "Faqat A",
+        "Faqat D",
+        "B₁₂"
+      ],
+      "correct_answer": "B₁₂",
+      "explanation": "B₁₂ vitamini qon hosil bo‘lishida qatnashadi. Uning yetishmovchiligi kamqonlikka sabab bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-32-q6",
+      "fact_id": "paragraph-32-f6",
+      "question_text": "D vitamini yetishmovchiligi bolalarda qaysi holat bilan bog‘liq?",
+      "options": [
+        "Faqat sil",
+        "Faqat shabko‘rlik",
+        "Raxit",
+        "Faqat gripp"
+      ],
+      "correct_answer": "Raxit",
+      "explanation": "D vitamini kalsiy-fosfor almashinuvi va suyaklanishda muhim. Yetishmovchiligi bolalarda raxit bilan bog‘liq; terida quyosh nuri ta’sirida ham hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-32-q7",
+      "fact_id": "paragraph-32-f7",
+      "question_text": "C vitaminiga qaysi omillar zarar yetkazishi mumkin?",
+      "options": [
+        "Faqat suyaklar soni",
+        "Uzoq issiqlik va ochiq havo ta’siri",
+        "Faqat daftar rangining o‘zgarishi",
+        "Faqat yurak urishi"
+      ],
+      "correct_answer": "Uzoq issiqlik va ochiq havo ta’siri",
+      "explanation": "C vitamini issiqlik va ochiq havoda yemirilishi mumkin. Mahsulotni saqlash va tayyorlash sharoiti vitamin miqdoriga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-32-q8",
+      "fact_id": "paragraph-32-f8",
+      "question_text": "Vitamin preparatiga qaysi yondashuv to‘g‘ri?",
+      "options": [
+        "Shifokor tavsiyasiga amal qilib, ortiqcha iste’moldan saqlanish",
+        "Ko‘proq bo‘lsa, har doim foydaliroq deb hisoblash",
+        "Ovqatni butunlay vitamin tabletkasi bilan almashtirish",
+        "Barcha vitaminni bitta cheksiz dozada ichish"
+      ],
+      "correct_answer": "Shifokor tavsiyasiga amal qilib, ortiqcha iste’moldan saqlanish",
+      "explanation": "Darslik vitaminlarni keragidan ortiq iste’mol qilish ham salbiy oqibat keltirishini aytadi. Vitamin preparatlari shifokor tavsiyasi bilan qo‘llanadi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-35-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-45",
+  "title": "Ter bezlari va teri hosilalari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-35-f1": {
+      "claim": "Ter bezining derma ichidagi qismi o‘ralgan nayga o‘xshaydi; chiqarish yo‘li teri yuzasiga ochiladi.",
+      "answer": "Teri yuzasiga",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f2": {
+      "claim": "Terning katta qismi suv; unda tuzlar va ayrim almashinuv mahsulotlari ham bor. Ter ajralishi harorat boshqarilishida muhim.",
+      "answer": "Suv",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f3": {
+      "claim": "Yog‘ bezlari soch va teri sirtini yog‘lab, qurib qolishdan saqlashga yordam beradi. Bu ter bezlarining suvli mahsulotidan farqlanadi.",
+      "answer": "Teri va sochni qurib qolishdan saqlashga",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f4": {
+      "claim": "Soch va tirnoq teri hosilalaridir. Ularning tashqi qismlari muguzlangan tuzilmalardir.",
+      "answer": "Soch va tirnoq",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f5": {
+      "claim": "Sochning teridan chiqib turgan qismi o‘q, teri ichidagi qismi ildiz deyiladi. Ildiz soch xaltasida joylashadi.",
+      "answer": "Ildiz",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f6": {
+      "claim": "Tirnoq barmoq uchini himoyalaydigan muguz plastinkadir. U ildiz qismidagi hujayralar hisobiga o‘sadi.",
+      "answer": "Barmoq uchini himoyalash",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ter bezining yo‘li",
+      "body": "Ter bezining derma ichidagi qismi o‘ralgan nayga o‘xshaydi; chiqarish yo‘li teri yuzasiga ochiladi.",
+      "fact_ids": [
+        "paragraph-35-f1"
+      ]
+    },
+    {
+      "title": "Ter tarkibi",
+      "body": "Terning katta qismi suv; unda tuzlar va ayrim almashinuv mahsulotlari ham bor. Ter ajralishi harorat boshqarilishida muhim.",
+      "fact_ids": [
+        "paragraph-35-f2"
+      ]
+    },
+    {
+      "title": "Yog‘ bezi",
+      "body": "Yog‘ bezlari soch va teri sirtini yog‘lab, qurib qolishdan saqlashga yordam beradi. Bu ter bezlarining suvli mahsulotidan farqlanadi.",
+      "fact_ids": [
+        "paragraph-35-f3"
+      ]
+    },
+    {
+      "title": "Teri hosilalari",
+      "body": "Soch va tirnoq teri hosilalaridir. Ularning tashqi qismlari muguzlangan tuzilmalardir.",
+      "fact_ids": [
+        "paragraph-35-f4"
+      ]
+    },
+    {
+      "title": "Soch qismlari",
+      "body": "Sochning teridan chiqib turgan qismi o‘q, teri ichidagi qismi ildiz deyiladi. Ildiz soch xaltasida joylashadi.",
+      "fact_ids": [
+        "paragraph-35-f5"
+      ]
+    },
+    {
+      "title": "Tirnoq himoyasi",
+      "body": "Tirnoq barmoq uchini himoyalaydigan muguz plastinkadir. U ildiz qismidagi hujayralar hisobiga o‘sadi.",
+      "fact_ids": [
+        "paragraph-35-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-35-q1",
+      "fact_id": "paragraph-35-f1",
+      "question_text": "Ter bezining mahsuloti qayerga chiqariladi?",
+      "options": [
+        "Faqat qonga gormon sifatida",
+        "Faqat ichak bo‘shlig‘iga",
+        "Faqat qovuq ichiga",
+        "Teri yuzasiga"
+      ],
+      "correct_answer": "Teri yuzasiga",
+      "explanation": "Ter bezining derma ichidagi qismi o‘ralgan nayga o‘xshaydi; chiqarish yo‘li teri yuzasiga ochiladi."
+    },
+    {
+      "key": "paragraph-35-q2",
+      "fact_id": "paragraph-35-f2",
+      "question_text": "Ter tarkibining asosiy qismi nima?",
+      "options": [
+        "Faqat yog‘",
+        "Faqat kraxmal",
+        "Suv",
+        "Faqat gemoglobin"
+      ],
+      "correct_answer": "Suv",
+      "explanation": "Terning katta qismi suv; unda tuzlar va ayrim almashinuv mahsulotlari ham bor. Ter ajralishi harorat boshqarilishida muhim."
+    },
+    {
+      "key": "paragraph-35-q3",
+      "fact_id": "paragraph-35-f3",
+      "question_text": "Yog‘ bezining mahsuloti nimaga yordam beradi?",
+      "options": [
+        "Suyakni cho‘zishga",
+        "Teri va sochni qurib qolishdan saqlashga",
+        "Qonni bevosita kislorodga boyitishga",
+        "Bo‘g‘imni ochishga"
+      ],
+      "correct_answer": "Teri va sochni qurib qolishdan saqlashga",
+      "explanation": "Yog‘ bezlari soch va teri sirtini yog‘lab, qurib qolishdan saqlashga yordam beradi. Bu ter bezlarining suvli mahsulotidan farqlanadi."
+    },
+    {
+      "key": "paragraph-35-q4",
+      "fact_id": "paragraph-35-f4",
+      "question_text": "Teri hosilalari qaysi qatorda?",
+      "options": [
+        "Soch va tirnoq",
+        "Buyrak va qovuq",
+        "Yurak va aorta",
+        "Oshqozon va jigar"
+      ],
+      "correct_answer": "Soch va tirnoq",
+      "explanation": "Soch va tirnoq teri hosilalaridir. Ularning tashqi qismlari muguzlangan tuzilmalardir."
+    },
+    {
+      "key": "paragraph-35-q5",
+      "fact_id": "paragraph-35-f5",
+      "question_text": "Sochning teri ichidagi qismi qanday ataladi?",
+      "options": [
+        "O‘q",
+        "Tirnoq tanasi",
+        "Teri yuzasi",
+        "Ildiz"
+      ],
+      "correct_answer": "Ildiz",
+      "explanation": "Sochning teridan chiqib turgan qismi o‘q, teri ichidagi qismi ildiz deyiladi. Ildiz soch xaltasida joylashadi."
+    },
+    {
+      "key": "paragraph-35-q6",
+      "fact_id": "paragraph-35-f6",
+      "question_text": "Tirnoqning asosiy vazifasi qaysi?",
+      "options": [
+        "Qonni filtrlash",
+        "Havoni isitish",
+        "Barmoq uchini himoyalash",
+        "Gormon ishlab chiqarish"
+      ],
+      "correct_answer": "Barmoq uchini himoyalash",
+      "explanation": "Tirnoq barmoq uchini himoyalaydigan muguz plastinkadir. U ildiz qismidagi hujayralar hisobiga o‘sadi."
+    }
+  ]
+}
