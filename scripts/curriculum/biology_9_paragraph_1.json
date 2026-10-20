@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-1-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-3",
+  "title": "Tirik organizmlarning o‘ziga xos xususiyatlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p1-fact-1": {
+      "claim": "Hujayra tiriklik xossalarini namoyon qiladigan eng kichik birlikdir; organizmlar tashqi muhit bilan modda va energiya almashadi.",
+      "answer": "Hujayra",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-2": {
+      "claim": "Moddalar almashinuvining o‘zaro bog‘liq tomonlari assimilyatsiya va dissimilyatsiyadir.",
+      "answer": "Assimilyatsiya va dissimilyatsiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-3": {
+      "claim": "Organizmning tashqi yoki ichki o‘zgarishga javob berishi qo‘zg‘aluvchanlik bilan bog‘liq.",
+      "answer": "Qo‘zg‘aluvchanlik",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-4": {
+      "claim": "Gomeostaz ichki kimyoviy tarkib va fiziologik jarayonlarni ma’lum me’yorda ushlab turish bilan bog‘liq.",
+      "answer": "Gomeostaz",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-5": {
+      "claim": "Ko‘payish tiriklikning davom etishini ta’minlaydi. Irsiyat belgilar davomiyligi, o‘zgaruvchanlik esa xilma-xillik bilan bog‘liq.",
+      "answer": "Irsiyat",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-6": {
+      "claim": "O‘zgaruvchanlik tufayli bir tur ichida ham belgilar farqlanadi va xilma-xillik paydo bo‘ladi.",
+      "answer": "O‘zgaruvchanlik",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tiriklikning umumiyligi",
+      "body": "Hujayra tiriklik xossalarini namoyon qiladigan eng kichik birlikdir; organizmlar tashqi muhit bilan modda va energiya almashadi.\n\nModdalar almashinuvining o‘zaro bog‘liq tomonlari assimilyatsiya va dissimilyatsiyadir.",
+      "fact_ids": [
+        "p1-fact-1",
+        "p1-fact-2"
+      ]
+    },
+    {
+      "title": "Javob va muvozanat",
+      "body": "Organizmning tashqi yoki ichki o‘zgarishga javob berishi qo‘zg‘aluvchanlik bilan bog‘liq.\n\nGomeostaz ichki kimyoviy tarkib va fiziologik jarayonlarni ma’lum me’yorda ushlab turish bilan bog‘liq.",
+      "fact_ids": [
+        "p1-fact-3",
+        "p1-fact-4"
+      ]
+    },
+    {
+      "title": "Avlod va farqlar",
+      "body": "Ko‘payish tiriklikning davom etishini ta’minlaydi. Irsiyat belgilar davomiyligi, o‘zgaruvchanlik esa xilma-xillik bilan bog‘liq.\n\nO‘zgaruvchanlik tufayli bir tur ichida ham belgilar farqlanadi va xilma-xillik paydo bo‘ladi.",
+      "fact_ids": [
+        "p1-fact-5",
+        "p1-fact-6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p1-q1",
+      "fact_id": "p1-fact-1",
+      "question_text": "Tiriklik xossalarini namoyon qiladigan eng kichik birlikni tanlang.",
+      "options": [
+        "Qum donasi",
+        "Hujayra",
+        "Tosh parchasi",
+        "Suv tomchisining o‘zi"
+      ],
+      "correct_answer": "Hujayra",
+      "explanation": "Hujayra tiriklik xossalarini namoyon qiladigan eng kichik birlikdir; organizmlar tashqi muhit bilan modda va energiya almashadi."
+    },
+    {
+      "key": "p1-q2",
+      "fact_id": "p1-fact-2",
+      "question_text": "Moddalar almashinuvi asosini qaysi juftlik tashkil etadi?",
+      "options": [
+        "Assimilyatsiya va dissimilyatsiya",
+        "Faqat rang va shakl",
+        "Faqat bosim va uzunlik",
+        "Faqat massa va tezlik"
+      ],
+      "correct_answer": "Assimilyatsiya va dissimilyatsiya",
+      "explanation": "Moddalar almashinuvining o‘zaro bog‘liq tomonlari assimilyatsiya va dissimilyatsiyadir."
+    },
+    {
+      "key": "p1-q3",
+      "fact_id": "p1-fact-3",
+      "question_text": "Yashil o‘simlikning yorug‘likka javobini qaysi xususiyat bilan bog‘laymiz?",
+      "options": [
+        "Faqat oziq zaxirasi",
+        "Faqat sistematik nom",
+        "Faqat tana o‘lchami",
+        "Qo‘zg‘aluvchanlik"
+      ],
+      "correct_answer": "Qo‘zg‘aluvchanlik",
+      "explanation": "Organizmning tashqi yoki ichki o‘zgarishga javob berishi qo‘zg‘aluvchanlik bilan bog‘liq."
+    },
+    {
+      "key": "p1-q4",
+      "fact_id": "p1-fact-4",
+      "question_text": "Tashqi sharoit o‘zgarsa ham ichki muvozanatni saqlash qanday ataladi?",
+      "options": [
+        "Faqat guruhlash",
+        "Faqat tashqi rang",
+        "Gomeostaz",
+        "Faqat tarqalish"
+      ],
+      "correct_answer": "Gomeostaz",
+      "explanation": "Gomeostaz ichki kimyoviy tarkib va fiziologik jarayonlarni ma’lum me’yorda ushlab turish bilan bog‘liq."
+    },
+    {
+      "key": "p1-q5",
+      "fact_id": "p1-fact-5",
+      "question_text": "Avlodlarda belgilar davomiyligini ta’minlaydigan xususiyatni tanlang.",
+      "options": [
+        "Faqat oziqlanish",
+        "Irsiyat",
+        "Faqat harakat",
+        "Faqat ayirish"
+      ],
+      "correct_answer": "Irsiyat",
+      "explanation": "Ko‘payish tiriklikning davom etishini ta’minlaydi. Irsiyat belgilar davomiyligi, o‘zgaruvchanlik esa xilma-xillik bilan bog‘liq."
+    },
+    {
+      "key": "p1-q6",
+      "fact_id": "p1-fact-6",
+      "question_text": "Bir tur vakillarida belgilar turlicha namoyon bo‘lishi qaysi xususiyat bilan bog‘liq?",
+      "options": [
+        "O‘zgaruvchanlik",
+        "Bir xil qotib qolish",
+        "Faqat nafas olish",
+        "Faqat mineral tarkib"
+      ],
+      "correct_answer": "O‘zgaruvchanlik",
+      "explanation": "O‘zgaruvchanlik tufayli bir tur ichida ham belgilar farqlanadi va xilma-xillik paydo bo‘ladi."
+    }
+  ]
+}

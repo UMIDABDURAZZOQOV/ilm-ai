@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-1-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-2",
+  "title": "Biologiya – hayot haqidagi fan",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p1-fact-1": {
+      "claim": "Biologiya hayotning turli tuzilish darajalaridagi tizimlarni o‘rganadi; organizm va muhit munosabatlari ham uning doirasiga kiradi.",
+      "answer": "Ekologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-2": {
+      "claim": "Tadqiqot obyektiga ko‘ra mikologiya zamburug‘larni, gidrobiologiya suvdagi organizmlarni, paleontologiya qazilma organizmlarni o‘rganadi.",
+      "answer": "Paleontologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-3": {
+      "claim": "Anatomiya tuzilishni, fiziologiya funksiyani, etologiya esa hayvonlarning xulq-atvorini o‘rganadi.",
+      "answer": "Etologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-4": {
+      "claim": "Kuzatish hodisani qayd etish va tahlil qilishga, taqqoslash esa o‘xshashlik hamda farqlarni aniqlashga yordam beradi.",
+      "answer": "Taqqoslash",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-5": {
+      "claim": "Tarixiy metod organizmlarning kelib chiqishi va evolutsion taraqqiyotini dalillar asosida o‘rganadi.",
+      "answer": "Tarixiy metod",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-6": {
+      "claim": "Eksperimental metodda maxsus yaratilgan sharoitda hayotiy jarayon o‘rganiladi. Modellashtirishda tizimning muhim jihatlari model bilan ifodalanadi.",
+      "answer": "Eksperimental",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-7": {
+      "claim": "Matematik yoki kompyuter modeli biologik jarayonning mumkin bo‘lgan natijalarini o‘rganishga yordam beradi.",
+      "answer": "Modellashtirish",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Biologiya va yo‘nalishlari",
+      "body": "Biologiya hayotning turli tuzilish darajalaridagi tizimlarni o‘rganadi; organizm va muhit munosabatlari ham uning doirasiga kiradi.\n\nTadqiqot obyektiga ko‘ra mikologiya zamburug‘larni, gidrobiologiya suvdagi organizmlarni, paleontologiya qazilma organizmlarni o‘rganadi.\n\nAnatomiya tuzilishni, fiziologiya funksiyani, etologiya esa hayvonlarning xulq-atvorini o‘rganadi.",
+      "fact_ids": [
+        "p1-fact-1",
+        "p1-fact-2",
+        "p1-fact-3"
+      ]
+    },
+    {
+      "title": "Ilmiy bilish usullari",
+      "body": "Kuzatish hodisani qayd etish va tahlil qilishga, taqqoslash esa o‘xshashlik hamda farqlarni aniqlashga yordam beradi.\n\nTarixiy metod organizmlarning kelib chiqishi va evolutsion taraqqiyotini dalillar asosida o‘rganadi.",
+      "fact_ids": [
+        "p1-fact-4",
+        "p1-fact-5"
+      ]
+    },
+    {
+      "title": "Tajriba va model",
+      "body": "Eksperimental metodda maxsus yaratilgan sharoitda hayotiy jarayon o‘rganiladi. Modellashtirishda tizimning muhim jihatlari model bilan ifodalanadi.\n\nMatematik yoki kompyuter modeli biologik jarayonning mumkin bo‘lgan natijalarini o‘rganishga yordam beradi.",
+      "fact_ids": [
+        "p1-fact-6",
+        "p1-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p1-q1",
+      "fact_id": "p1-fact-1",
+      "question_text": "Organizmlar va muhit o‘rtasidagi munosabatni qaysi soha o‘rganadi?",
+      "options": [
+        "Ekologiya",
+        "Faqat anatomiya",
+        "Faqat mineralogiya",
+        "Faqat geometriya"
+      ],
+      "correct_answer": "Ekologiya",
+      "explanation": "Biologiya hayotning turli tuzilish darajalaridagi tizimlarni o‘rganadi; organizm va muhit munosabatlari ham uning doirasiga kiradi."
+    },
+    {
+      "key": "p1-q2",
+      "fact_id": "p1-fact-2",
+      "question_text": "Qazilma organizm qoldiqlarini tadqiq etuvchi sohani toping.",
+      "options": [
+        "Mikologiya",
+        "Etologiya",
+        "Gidrobiologiya",
+        "Paleontologiya"
+      ],
+      "correct_answer": "Paleontologiya",
+      "explanation": "Tadqiqot obyektiga ko‘ra mikologiya zamburug‘larni, gidrobiologiya suvdagi organizmlarni, paleontologiya qazilma organizmlarni o‘rganadi."
+    },
+    {
+      "key": "p1-q3",
+      "fact_id": "p1-fact-3",
+      "question_text": "Ilmo hayvonning xulq-atvorini kuzatmoqda. Qaysi fan yo‘nalishi mos?",
+      "options": [
+        "Mikologiya",
+        "Sistematika",
+        "Etologiya",
+        "Anatomiya"
+      ],
+      "correct_answer": "Etologiya",
+      "explanation": "Anatomiya tuzilishni, fiziologiya funksiyani, etologiya esa hayvonlarning xulq-atvorini o‘rganadi."
+    },
+    {
+      "key": "p1-q4",
+      "fact_id": "p1-fact-4",
+      "question_text": "Ikki tur hujayrasidagi o‘xshash va farqli qismlarni ajratish qaysi metodga misol?",
+      "options": [
+        "Faqat tarixiy rekonstruksiya",
+        "Taqqoslash",
+        "Faqat modellashtirish",
+        "Faqat maxsus tajriba"
+      ],
+      "correct_answer": "Taqqoslash",
+      "explanation": "Kuzatish hodisani qayd etish va tahlil qilishga, taqqoslash esa o‘xshashlik hamda farqlarni aniqlashga yordam beradi."
+    },
+    {
+      "key": "p1-q5",
+      "fact_id": "p1-fact-5",
+      "question_text": "Turli davrlardagi organizm shakllarining taraqqiyotini qaysi metod o‘rganadi?",
+      "options": [
+        "Tarixiy metod",
+        "Faqat bir martalik sanash",
+        "Faqat hozirgi rangni tasvirlash",
+        "Faqat o‘lchov asbobini sozlash"
+      ],
+      "correct_answer": "Tarixiy metod",
+      "explanation": "Tarixiy metod organizmlarning kelib chiqishi va evolutsion taraqqiyotini dalillar asosida o‘rganadi."
+    },
+    {
+      "key": "p1-q6",
+      "fact_id": "p1-fact-6",
+      "question_text": "Bir omilni o‘zgartirib, nazorat sharoitida o‘simlik o‘sishini tekshirish qaysi metod?",
+      "options": [
+        "Faqat kuzatish",
+        "Faqat tarixiy",
+        "Faqat bibliografik",
+        "Eksperimental"
+      ],
+      "correct_answer": "Eksperimental",
+      "explanation": "Eksperimental metodda maxsus yaratilgan sharoitda hayotiy jarayon o‘rganiladi. Modellashtirishda tizimning muhim jihatlari model bilan ifodalanadi."
+    },
+    {
+      "key": "p1-q7",
+      "fact_id": "p1-fact-7",
+      "question_text": "Ekosistema o‘zgarishini kompyuterda sinab ko‘rish qaysi metodga yaqin?",
+      "options": [
+        "Faqat tasodifiy taxmin",
+        "Faqat tur nomlash",
+        "Modellashtirish",
+        "Faqat anatomik kesish"
+      ],
+      "correct_answer": "Modellashtirish",
+      "explanation": "Matematik yoki kompyuter modeli biologik jarayonning mumkin bo‘lgan natijalarini o‘rganishga yordam beradi."
+    }
+  ]
+}

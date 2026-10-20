@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-3-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-4",
+  "title": "O‘simliklarning hayotiy shakllari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p3-fact-1": {
+      "claim": "O‘simliklarning muhitga turli tashqi shakllarda moslanishi hayotiy shakl deyiladi.",
+      "answer": "Hayotiy shakllarni",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-2": {
+      "claim": "Daraxt odatda bitta yo‘g‘on yog‘ochlashgan tanaga, buta esa bir necha yog‘ochlashgan poyaga ega bo‘ladi.",
+      "answer": "Buta",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-3": {
+      "claim": "Darslik terak va sadaqayrag‘ochni daraxtlarga, nastarin va qoraqatni butalarga misol qilib ko‘rsatadi.",
+      "answer": "Terak",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-4": {
+      "claim": "Yarimbutaning pastki poyasi yog‘ochlashadi, yuqori yashil qismi esa qishda nobud bo‘ladi. Shuvoq shu guruhga misol.",
+      "answer": "Yarimbuta",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-5": {
+      "claim": "Ko‘p yillik o‘tlarda yerusti qismi qishda qurishi mumkin, o‘sish kurtaklari esa tuproq ostida saqlanadi.",
+      "answer": "Ko‘p yillik o‘t",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-6": {
+      "claim": "Ikki yillik o‘simlik birinchi yili vegetativ organlar va oziq zaxirasini hosil qiladi, ikkinchi yili gullab meva tugadi.",
+      "answer": "Gullash va meva tugish",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-7": {
+      "claim": "Bir yillik o‘t bir yil ichida unib, o‘sib, gullab, meva hosil qilib hayot siklini yakunlaydi. Darslik bug‘doyni shu guruhga kiritadi.",
+      "answer": "Bir yillik o‘t",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hayotiy shakl",
+      "body": "O‘simliklarning muhitga turli tashqi shakllarda moslanishi hayotiy shakl deyiladi.",
+      "fact_ids": [
+        "p3-fact-1"
+      ]
+    },
+    {
+      "title": "Yog‘ochlashgan o‘simliklar",
+      "body": "Daraxt odatda bitta yo‘g‘on yog‘ochlashgan tanaga, buta esa bir necha yog‘ochlashgan poyaga ega bo‘ladi.\n\nDarslik terak va sadaqayrag‘ochni daraxtlarga, nastarin va qoraqatni butalarga misol qilib ko‘rsatadi.",
+      "fact_ids": [
+        "p3-fact-2",
+        "p3-fact-3"
+      ]
+    },
+    {
+      "title": "O‘tlar va yarimbutalar",
+      "body": "Yarimbutaning pastki poyasi yog‘ochlashadi, yuqori yashil qismi esa qishda nobud bo‘ladi. Shuvoq shu guruhga misol.\n\nKo‘p yillik o‘tlarda yerusti qismi qishda qurishi mumkin, o‘sish kurtaklari esa tuproq ostida saqlanadi.\n\nIkki yillik o‘simlik birinchi yili vegetativ organlar va oziq zaxirasini hosil qiladi, ikkinchi yili gullab meva tugadi.",
+      "fact_ids": [
+        "p3-fact-4",
+        "p3-fact-5",
+        "p3-fact-6"
+      ]
+    },
+    {
+      "title": "Bir yillik sikl",
+      "body": "Bir yillik o‘t bir yil ichida unib, o‘sib, gullab, meva hosil qilib hayot siklini yakunlaydi. Darslik bug‘doyni shu guruhga kiritadi.",
+      "fact_ids": [
+        "p3-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p3-q1",
+      "fact_id": "p3-fact-1",
+      "question_text": "Daraxt, buta va o‘t degan guruhlar nimani ifodalaydi?",
+      "options": [
+        "Faqat meva ta’mini",
+        "Faqat urug‘ og‘irligini",
+        "Hayotiy shakllarni",
+        "Faqat gul ranglarini"
+      ],
+      "correct_answer": "Hayotiy shakllarni",
+      "explanation": "O‘simliklarning muhitga turli tashqi shakllarda moslanishi hayotiy shakl deyiladi."
+    },
+    {
+      "key": "p3-q2",
+      "fact_id": "p3-fact-2",
+      "question_text": "Bir necha yog‘ochlashgan poyali na’matak qaysi hayotiy shaklga misol?",
+      "options": [
+        "Suvdagi bir hujayrali",
+        "Buta",
+        "Bir yillik o‘t",
+        "Ikki yillik o‘t"
+      ],
+      "correct_answer": "Buta",
+      "explanation": "Daraxt odatda bitta yo‘g‘on yog‘ochlashgan tanaga, buta esa bir necha yog‘ochlashgan poyaga ega bo‘ladi."
+    },
+    {
+      "key": "p3-q3",
+      "fact_id": "p3-fact-3",
+      "question_text": "Daraxtga misol bo‘ladigan o‘simlikni tanlang.",
+      "options": [
+        "Terak",
+        "Nastarin",
+        "Qoraqat",
+        "Sabzi"
+      ],
+      "correct_answer": "Terak",
+      "explanation": "Darslik terak va sadaqayrag‘ochni daraxtlarga, nastarin va qoraqatni butalarga misol qilib ko‘rsatadi."
+    },
+    {
+      "key": "p3-q4",
+      "fact_id": "p3-fact-4",
+      "question_text": "Pastki poyasi yog‘ochlashib, yuqori yashil qismi qishda nobud bo‘ladigan shakl qaysi?",
+      "options": [
+        "Daraxt",
+        "Bir yillik o‘t",
+        "Suv o‘ti",
+        "Yarimbuta"
+      ],
+      "correct_answer": "Yarimbuta",
+      "explanation": "Yarimbutaning pastki poyasi yog‘ochlashadi, yuqori yashil qismi esa qishda nobud bo‘ladi. Shuvoq shu guruhga misol."
+    },
+    {
+      "key": "p3-q5",
+      "fact_id": "p3-fact-5",
+      "question_text": "Yerusti qismi qishda qurib, yerosti kurtagi saqlanadigan o‘t qaysi guruhga mos?",
+      "options": [
+        "Faqat bir yillik o‘t",
+        "Faqat bir hujayrali o‘simlik",
+        "Ko‘p yillik o‘t",
+        "Faqat daraxt"
+      ],
+      "correct_answer": "Ko‘p yillik o‘t",
+      "explanation": "Ko‘p yillik o‘tlarda yerusti qismi qishda qurishi mumkin, o‘sish kurtaklari esa tuproq ostida saqlanadi."
+    },
+    {
+      "key": "p3-q6",
+      "fact_id": "p3-fact-6",
+      "question_text": "Ikki yillik o‘tning ikkinchi yiliga qaysi hodisa xos?",
+      "options": [
+        "Faqat ildizning yo‘qolishi",
+        "Gullash va meva tugish",
+        "Faqat birinchi marta urug‘dan chiqish",
+        "Hayotning doim gullamasdan tugashi"
+      ],
+      "correct_answer": "Gullash va meva tugish",
+      "explanation": "Ikki yillik o‘simlik birinchi yili vegetativ organlar va oziq zaxirasini hosil qiladi, ikkinchi yili gullab meva tugadi."
+    },
+    {
+      "key": "p3-q7",
+      "fact_id": "p3-fact-7",
+      "question_text": "Bug‘doyning bir yil ichida to‘liq hayot siklini o‘tishi qaysi guruhga mos?",
+      "options": [
+        "Bir yillik o‘t",
+        "Ikki yillik o‘t",
+        "Buta",
+        "Daraxt"
+      ],
+      "correct_answer": "Bir yillik o‘t",
+      "explanation": "Bir yillik o‘t bir yil ichida unib, o‘sib, gullab, meva hosil qilib hayot siklini yakunlaydi. Darslik bug‘doyni shu guruhga kiritadi."
+    }
+  ]
+}

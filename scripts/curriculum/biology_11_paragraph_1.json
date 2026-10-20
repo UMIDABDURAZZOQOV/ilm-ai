@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-1-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-2",
+  "title": "Biologik tizimlar. Ekologiya – biologik tizimlar haqidagi fan",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p1-fact-1": {
+      "claim": "Biologik sistema o‘zaro ta’sir qiladigan qismlardan tashkil topadi. Gulli o‘simlikning organlari birgalikda yaxlit organizmni hosil qiladi.",
+      "answer": "Organlari o‘zaro bog‘langan yaxlit organizm",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-2": {
+      "claim": "Iyerarxik tuzilishda yirik darajalar kichik darajalarni tarkibiga oladi; qismlar o‘rtasidagi aloqa yangi umumiy xossalarni yuzaga chiqaradi.",
+      "answer": "Yirik tizim kichik tizimlarni o‘z ichiga olishini",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-3": {
+      "claim": "Hujayralar to‘qimalarni, to‘qimalar organlarni, organlar sistemasi esa organizmni tashkil etishda qatnashadi.",
+      "answer": "Hujayra → to‘qima → organ",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-4": {
+      "claim": "Biosfera barcha biogeotsenozlarni qamrab oladi; biogeotsenozlar turli populyatsiyalardan tashkil topadi.",
+      "answer": "Biosfera",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-5": {
+      "claim": "Ekologiya organizmlarning bir-biri va atrof-muhit bilan munosabatlarini o‘rganadi; uning doirasiga populyatsiya, jamoa va biosfera ham kiradi.",
+      "answer": "Ekologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-6": {
+      "claim": "«Ekologiya» atamasini Ernest Gekkel 1866-yilda fanga kiritgan.",
+      "answer": "Ernest Gekkel",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-7": {
+      "claim": "Ekologik bilim va ong tabiat hamda jamiyat o‘rtasidagi barqaror munosabatni shakllantirishga yordam beradi.",
+      "answer": "Tabiiy resurslardan oqilona foydalanish",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Sistema va aloqalar",
+      "body": "Biologik sistema o‘zaro ta’sir qiladigan qismlardan tashkil topadi. Gulli o‘simlikning organlari birgalikda yaxlit organizmni hosil qiladi.\n\nIyerarxik tuzilishda yirik darajalar kichik darajalarni tarkibiga oladi; qismlar o‘rtasidagi aloqa yangi umumiy xossalarni yuzaga chiqaradi.",
+      "fact_ids": [
+        "p1-fact-1",
+        "p1-fact-2"
+      ]
+    },
+    {
+      "title": "Darajalar zanjiri",
+      "body": "Hujayralar to‘qimalarni, to‘qimalar organlarni, organlar sistemasi esa organizmni tashkil etishda qatnashadi.\n\nBiosfera barcha biogeotsenozlarni qamrab oladi; biogeotsenozlar turli populyatsiyalardan tashkil topadi.",
+      "fact_ids": [
+        "p1-fact-3",
+        "p1-fact-4"
+      ]
+    },
+    {
+      "title": "Ekologik fikrlash",
+      "body": "Ekologiya organizmlarning bir-biri va atrof-muhit bilan munosabatlarini o‘rganadi; uning doirasiga populyatsiya, jamoa va biosfera ham kiradi.\n\n«Ekologiya» atamasini Ernest Gekkel 1866-yilda fanga kiritgan.",
+      "fact_ids": [
+        "p1-fact-5",
+        "p1-fact-6"
+      ]
+    },
+    {
+      "title": "Mas’uliyatli munosabat",
+      "body": "Ekologik bilim va ong tabiat hamda jamiyat o‘rtasidagi barqaror munosabatni shakllantirishga yordam beradi.",
+      "fact_ids": [
+        "p1-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p1-q1",
+      "fact_id": "p1-fact-1",
+      "question_text": "O‘simlikni biologik sistema sifatida tushuntiradigan javobni tanlang.",
+      "options": [
+        "Bir-biriga aloqasiz buyumlar yig‘indisi",
+        "Faqat bitta mineral",
+        "Faqat muhitdan uzilgan barg",
+        "Organlari o‘zaro bog‘langan yaxlit organizm"
+      ],
+      "correct_answer": "Organlari o‘zaro bog‘langan yaxlit organizm",
+      "explanation": "Biologik sistema o‘zaro ta’sir qiladigan qismlardan tashkil topadi. Gulli o‘simlikning organlari birgalikda yaxlit organizmni hosil qiladi."
+    },
+    {
+      "key": "p1-q2",
+      "fact_id": "p1-fact-2",
+      "question_text": "Hayot darajalari iyerarxiyasi nimani anglatadi?",
+      "options": [
+        "Faqat nomlar tartibsizligini",
+        "Barcha darajalar bitta organ ekanini",
+        "Yirik tizim kichik tizimlarni o‘z ichiga olishini",
+        "Har bir tizim mutlaqo aloqasizligini"
+      ],
+      "correct_answer": "Yirik tizim kichik tizimlarni o‘z ichiga olishini",
+      "explanation": "Iyerarxik tuzilishda yirik darajalar kichik darajalarni tarkibiga oladi; qismlar o‘rtasidagi aloqa yangi umumiy xossalarni yuzaga chiqaradi."
+    },
+    {
+      "key": "p1-q3",
+      "fact_id": "p1-fact-3",
+      "question_text": "Kichikdan kattaga qaysi ketma-ketlik to‘g‘ri?",
+      "options": [
+        "To‘qima → molekula → hujayra",
+        "Hujayra → to‘qima → organ",
+        "Organ → hujayra → to‘qima",
+        "Biosfera → hujayra → organ"
+      ],
+      "correct_answer": "Hujayra → to‘qima → organ",
+      "explanation": "Hujayralar to‘qimalarni, to‘qimalar organlarni, organlar sistemasi esa organizmni tashkil etishda qatnashadi."
+    },
+    {
+      "key": "p1-q4",
+      "fact_id": "p1-fact-4",
+      "question_text": "Barcha biogeotsenozlarni qamrab oluvchi tizimni tanlang.",
+      "options": [
+        "Biosfera",
+        "Faqat individ",
+        "Faqat organ",
+        "Faqat to‘qima"
+      ],
+      "correct_answer": "Biosfera",
+      "explanation": "Biosfera barcha biogeotsenozlarni qamrab oladi; biogeotsenozlar turli populyatsiyalardan tashkil topadi."
+    },
+    {
+      "key": "p1-q5",
+      "fact_id": "p1-fact-5",
+      "question_text": "Faqat bitta organizm emas, jamoa va muhit aloqalarini ham qaysi fan tekshiradi?",
+      "options": [
+        "Faqat anatomiya",
+        "Faqat gistologiya",
+        "Faqat sitologiya",
+        "Ekologiya"
+      ],
+      "correct_answer": "Ekologiya",
+      "explanation": "Ekologiya organizmlarning bir-biri va atrof-muhit bilan munosabatlarini o‘rganadi; uning doirasiga populyatsiya, jamoa va biosfera ham kiradi."
+    },
+    {
+      "key": "p1-q6",
+      "fact_id": "p1-fact-6",
+      "question_text": "Darslikda ekologiya atamasini fanga kiritgan olim kim?",
+      "options": [
+        "Gregor Mendel",
+        "Anton Levenguk",
+        "Ernest Gekkel",
+        "Karl Linney"
+      ],
+      "correct_answer": "Ernest Gekkel",
+      "explanation": "«Ekologiya» atamasini Ernest Gekkel 1866-yilda fanga kiritgan."
+    },
+    {
+      "key": "p1-q7",
+      "fact_id": "p1-fact-7",
+      "question_text": "Ekologik bilimni amalda qo‘llashga qaysi qaror mos?",
+      "options": [
+        "Jamoalardagi aloqalarni hisobga olmaslik",
+        "Tabiiy resurslardan oqilona foydalanish",
+        "Muhit ta’sirini butunlay inkor etish",
+        "Chiqindini nazoratsiz ko‘paytirish"
+      ],
+      "correct_answer": "Tabiiy resurslardan oqilona foydalanish",
+      "explanation": "Ekologik bilim va ong tabiat hamda jamiyat o‘rtasidagi barqaror munosabatni shakllantirishga yordam beradi."
+    }
+  ]
+}

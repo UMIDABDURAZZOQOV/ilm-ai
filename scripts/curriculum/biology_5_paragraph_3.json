@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-3-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-4",
+  "title": "Biologiyaning o‘rganish usullari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p3-fact-1": {
+      "claim": "Kuzatishda tirik obyektga tabiiy holatini o‘zgartiradigan ta’sir qilmay ma’lumot yig‘iladi. Taqqoslashda o‘xshashlik va farqlar aniqlanadi.",
+      "answer": "Kuzatish",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-2": {
+      "claim": "Ikki organizmning o‘xshash va farqli belgilarini yonma-yon tekshirish taqqoslash usulidir.",
+      "answer": "Taqqoslash",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-3": {
+      "claim": "Tarixiy usul qadimdagi organizmlar bilan hozirgi organizmlarni solishtirib, vaqt davomida ro‘y bergan o‘zgarishlarni o‘rganadi.",
+      "answer": "Tarixiy usul",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-4": {
+      "claim": "Tajriba usulida ma’lum sharoit yaratiladi va shu sharoitning organizmga ta’siri o‘rganiladi.",
+      "answer": "Tajriba",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-5": {
+      "claim": "Darslikdagi Redi tajribasida bir xil go‘shtli uch idishning og‘zi ochiq, berk yoki doka bilan yopilgan holda solishtirilgan.",
+      "answer": "Idish og‘zining ochiq yoki yopiq bo‘lishi",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-6": {
+      "claim": "Redi misolida ochiq idishda pashsha tuxumi va qurtlar kuzatilgan; pashsha kira olmaydigan go‘shtli idishlarda bu holat kuzatilmagan.",
+      "answer": "Turli yopilish sharoitlaridagi kuzatuvlarni",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatish va taqqoslash",
+      "body": "Kuzatishda tirik obyektga tabiiy holatini o‘zgartiradigan ta’sir qilmay ma’lumot yig‘iladi. Taqqoslashda o‘xshashlik va farqlar aniqlanadi.\n\nIkki organizmning o‘xshash va farqli belgilarini yonma-yon tekshirish taqqoslash usulidir.",
+      "fact_ids": [
+        "p3-fact-1",
+        "p3-fact-2"
+      ]
+    },
+    {
+      "title": "Tarixiy usul",
+      "body": "Tarixiy usul qadimdagi organizmlar bilan hozirgi organizmlarni solishtirib, vaqt davomida ro‘y bergan o‘zgarishlarni o‘rganadi.",
+      "fact_ids": [
+        "p3-fact-3"
+      ]
+    },
+    {
+      "title": "Tajribani tushunish",
+      "body": "Tajriba usulida ma’lum sharoit yaratiladi va shu sharoitning organizmga ta’siri o‘rganiladi.\n\nDarslikdagi Redi tajribasida bir xil go‘shtli uch idishning og‘zi ochiq, berk yoki doka bilan yopilgan holda solishtirilgan.",
+      "fact_ids": [
+        "p3-fact-4",
+        "p3-fact-5"
+      ]
+    },
+    {
+      "title": "Dalildan xulosa",
+      "body": "Redi misolida ochiq idishda pashsha tuxumi va qurtlar kuzatilgan; pashsha kira olmaydigan go‘shtli idishlarda bu holat kuzatilmagan.",
+      "fact_ids": [
+        "p3-fact-6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p3-q1",
+      "fact_id": "p3-fact-1",
+      "question_text": "Ilmo qush uyasini masofadan kuzatib qayd yozmoqda. Qaysi usul qo‘llanyapti?",
+      "options": [
+        "Maxsus sharoitli tajriba",
+        "Faqat tarixiy tahlil",
+        "Faqat taxmin qilish",
+        "Kuzatish"
+      ],
+      "correct_answer": "Kuzatish",
+      "explanation": "Kuzatishda tirik obyektga tabiiy holatini o‘zgartiradigan ta’sir qilmay ma’lumot yig‘iladi. Taqqoslashda o‘xshashlik va farqlar aniqlanadi."
+    },
+    {
+      "key": "p3-q2",
+      "fact_id": "p3-fact-2",
+      "question_text": "Ikki hayvonning tashqi belgilari jadvalda solishtirildi. Bu qaysi usul?",
+      "options": [
+        "Faqat tarixiy tahlil",
+        "Faqat laboratoriya jihozini sanash",
+        "Taqqoslash",
+        "Faqat kuzatmasdan yozish"
+      ],
+      "correct_answer": "Taqqoslash",
+      "explanation": "Ikki organizmning o‘xshash va farqli belgilarini yonma-yon tekshirish taqqoslash usulidir."
+    },
+    {
+      "key": "p3-q3",
+      "fact_id": "p3-fact-3",
+      "question_text": "Qadimgi va hozirgi hayvon shakllarini vaqt bo‘yicha solishtirish qaysi usulga mos?",
+      "options": [
+        "Faqat qush ovozini yozish",
+        "Tarixiy usul",
+        "Faqat hozirgi haroratni o‘lchash",
+        "Faqat idishlarni yuvish"
+      ],
+      "correct_answer": "Tarixiy usul",
+      "explanation": "Tarixiy usul qadimdagi organizmlar bilan hozirgi organizmlarni solishtirib, vaqt davomida ro‘y bergan o‘zgarishlarni o‘rganadi."
+    },
+    {
+      "key": "p3-q4",
+      "fact_id": "p3-fact-4",
+      "question_text": "Bir o‘simlikka turli sharoit yaratib ta’sirini tekshirish qanday usul?",
+      "options": [
+        "Tajriba",
+        "Faqat tabiiy kuzatish",
+        "Faqat tarixiy usul",
+        "Faqat nom berish"
+      ],
+      "correct_answer": "Tajriba",
+      "explanation": "Tajriba usulida ma’lum sharoit yaratiladi va shu sharoitning organizmga ta’siri o‘rganiladi."
+    },
+    {
+      "key": "p3-q5",
+      "fact_id": "p3-fact-5",
+      "question_text": "Redi tajribasidagi idishlar orasida ataylab farq qilingan sharoit nima?",
+      "options": [
+        "Go‘sht o‘rniga tuproq ishlatilishi",
+        "Har idishda boshqa sayyora bo‘lishi",
+        "Idishlarga turli hayvon organi solinishi",
+        "Idish og‘zining ochiq yoki yopiq bo‘lishi"
+      ],
+      "correct_answer": "Idish og‘zining ochiq yoki yopiq bo‘lishi",
+      "explanation": "Darslikdagi Redi tajribasida bir xil go‘shtli uch idishning og‘zi ochiq, berk yoki doka bilan yopilgan holda solishtirilgan."
+    },
+    {
+      "key": "p3-q6",
+      "fact_id": "p3-fact-6",
+      "question_text": "Tajriba natijasini baholashda Ilmo nimani solishtirishi kerak?",
+      "options": [
+        "Faqat olim ismini",
+        "Hech qanday natijani emas",
+        "Turli yopilish sharoitlaridagi kuzatuvlarni",
+        "Faqat idish rangini"
+      ],
+      "correct_answer": "Turli yopilish sharoitlaridagi kuzatuvlarni",
+      "explanation": "Redi misolida ochiq idishda pashsha tuxumi va qurtlar kuzatilgan; pashsha kira olmaydigan go‘shtli idishlarda bu holat kuzatilmagan."
+    }
+  ]
+}

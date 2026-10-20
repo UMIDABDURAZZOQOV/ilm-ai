@@ -895,13 +895,1903 @@
       ]
     },
     {
-      "id": "biology-6-unavailable",
-      "grade": 6,
       "file_name": "botanika_6_uzb.pdf",
-      "title": "Botanika",
-      "status": "blocked_transfer_limit_32_mib",
-      "records": [],
-      "note": "User attachment exists, but the available transfer tool rejected files over 32 MiB; no pages read."
+      "title": "Biologiya (Botanika)",
+      "year": 2017,
+      "authors": [
+        "O‘. Pratov",
+        "A. S. To‘xtayev",
+        "F. O‘. Azimova",
+        "I. Z. Saparboyev",
+        "M. T. Umaraliyeva"
+      ],
+      "publisher": "O‘zbekiston",
+      "chapter_count": 5,
+      "paragraph_count": 59,
+      "isbn": "978-9943-01-421-3",
+      "id": "biology-6-2017",
+      "grade": 6,
+      "status": "mapped",
+      "segments": [
+        {
+          "file_name": "6_sinf_botanika_PDF_sahifa_001-036.pdf",
+          "sha256": "71ef99a1eb85fd270fe25bb0e646d8d9fef0d396ca1b8e0ccb2f3216a36f431f",
+          "start": 1,
+          "end": 36,
+          "pages": 36
+        },
+        {
+          "file_name": "6_sinf_botanika_PDF_sahifa_037-072.pdf",
+          "sha256": "9c32a31c6a2de6d4b4fc34a062a186ff1c624172be2ec23c5f1a8621b72768f3",
+          "start": 37,
+          "end": 72,
+          "pages": 36
+        },
+        {
+          "file_name": "6_sinf_botanika_PDF_sahifa_073-108.pdf",
+          "sha256": "a566373244756b4346af827de8e325c5cba1e542e53b273661c853734cc8177f",
+          "start": 73,
+          "end": 108,
+          "pages": 36
+        },
+        {
+          "file_name": "6_sinf_botanika_PDF_sahifa_109-144.pdf",
+          "sha256": "d3b4a3388da0eb78c650bbdd4111d0f5ad3d3376138775860ec52209c98c3815",
+          "start": 109,
+          "end": 144,
+          "pages": 36
+        }
+      ],
+      "source_set_sha256": "00c67650b872ca68f5c26665a0340f8b43fbf2fc08efb19e789c58dc299337d2",
+      "source_format": "scanned_pdf_segments",
+      "text_extraction": "tesseract_eng_OCR_not_authoritative_fact_review",
+      "introduction_count": 0,
+      "pdf_page_count": 144,
+      "toc_pdf_pages": [
+        142,
+        143
+      ],
+      "bibliography_pdf_pages": [
+        1,
+        2
+      ],
+      "questions_and_tasks": {
+        "present": true,
+        "evidence_pdf_pages": [
+          2,
+          3,
+          16,
+          60,
+          62,
+          65,
+          73,
+          81
+        ],
+        "verification": "text_layer_legends_and_assessment_markers",
+        "textbook_questions_republished": false
+      },
+      "rights": {
+        "fulltext_republication": "not_authorized",
+        "images_republication": "not_authorized",
+        "published_payload": "bibliography_headings_page_references_and_original_fact_based_lessons"
+      },
+      "duplicate_pdf_ranges": [],
+      "records": [
+        {
+          "kind": "chapter",
+          "title": "I bob. O‘simliklar dunyosi bilan umumiy tanishuv",
+          "paragraph": null,
+          "toc_printed_start": 4,
+          "toc_pdf_page": 142,
+          "id": "bio-6-chapter-1",
+          "chapter_id": "bio-6-chapter-1",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 4,
+          "pdf_end": 11,
+          "printed_start": 4,
+          "printed_end": 11,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 1,
+          "title": "1-§. Botanika – o‘simliklar haqidagi fan",
+          "toc_printed_start": 4,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-2",
+          "chapter_id": "bio-6-chapter-1",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 4,
+          "printed_start": 4,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 49
+          },
+          "pdf_end": 7,
+          "printed_end": 7,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 2,
+          "title": "2-§. Gulli o‘simliklar bilan umumiy tanishish",
+          "toc_printed_start": 7,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-3",
+          "chapter_id": "bio-6-chapter-1",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 7,
+          "printed_start": 7,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 114
+          },
+          "pdf_end": 8,
+          "printed_end": 8,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 3,
+          "title": "3-§. O‘simliklarning hayotiy shakllari",
+          "toc_printed_start": 8,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-4",
+          "chapter_id": "bio-6-chapter-1",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 8,
+          "printed_start": 8,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.967,
+            "heading_offset": 1441
+          },
+          "pdf_end": 11,
+          "printed_end": 11,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "II bob. Hujayra – hayotning asosi",
+          "paragraph": null,
+          "toc_printed_start": 12,
+          "toc_pdf_page": 142,
+          "id": "bio-6-chapter-5",
+          "chapter_id": "bio-6-chapter-5",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 12,
+          "pdf_end": 21,
+          "printed_start": 12,
+          "printed_end": 21,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 4,
+          "title": "4-§. O‘simlik hujayrasining tuzilishi",
+          "toc_printed_start": 12,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-6",
+          "chapter_id": "bio-6-chapter-5",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 12,
+          "printed_start": 12,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 34
+          },
+          "pdf_end": 15,
+          "printed_end": 15,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 5,
+          "title": "5-§. Hujayralarning hayotiy faoliyati",
+          "toc_printed_start": 15,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-7",
+          "chapter_id": "bio-6-chapter-5",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 15,
+          "printed_start": 15,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1251
+          },
+          "pdf_end": 17,
+          "printed_end": 17,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 6,
+          "title": "6-§. O‘simlik to‘qimalari",
+          "toc_printed_start": 18,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-8",
+          "chapter_id": "bio-6-chapter-5",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 18,
+          "printed_start": 18,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 21,
+          "printed_end": 21,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "III bob. Gulli o‘simliklarning vegetativ va generativ organlari",
+          "paragraph": null,
+          "toc_printed_start": 21,
+          "toc_pdf_page": 142,
+          "id": "bio-6-chapter-9",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 21,
+          "pdf_end": 60,
+          "printed_start": 21,
+          "printed_end": 60,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 7,
+          "title": "7-§. Ildiz turlari va tizimlari",
+          "toc_printed_start": 21,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-10",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 21,
+          "printed_start": 21,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1332
+          },
+          "pdf_end": 23,
+          "printed_end": 23,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 8,
+          "title": "8-§. Ildizning ichki tuzilishi",
+          "toc_printed_start": 23,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-11",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 23,
+          "printed_start": 23,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 675
+          },
+          "pdf_end": 26,
+          "printed_end": 26,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 9,
+          "title": "9-§. Shakli o‘zgargan ildizlar",
+          "toc_printed_start": 26,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-12",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 26,
+          "printed_start": 26,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 874
+          },
+          "pdf_end": 27,
+          "printed_end": 27,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 10,
+          "title": "10-§. Novda",
+          "toc_printed_start": 27,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-13",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 27,
+          "printed_start": 27,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 872
+          },
+          "pdf_end": 28,
+          "printed_end": 28,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 11,
+          "title": "11-§. Poyalarning xilma-xilligi",
+          "toc_printed_start": 28,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-14",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 28,
+          "printed_start": 28,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 545
+          },
+          "pdf_end": 29,
+          "printed_end": 29,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 12,
+          "title": "12-§. Kurtak",
+          "toc_printed_start": 30,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-15",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 30,
+          "printed_start": 30,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 31,
+          "printed_end": 31,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 13,
+          "title": "13-§. Poyaning ichki tuzilishi",
+          "toc_printed_start": 31,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-16",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 31,
+          "printed_start": 31,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1639
+          },
+          "pdf_end": 33,
+          "printed_end": 33,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 14,
+          "title": "14-§. Novda tizimining shakllanishi",
+          "toc_printed_start": 34,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-17",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 34,
+          "printed_start": 34,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 36,
+          "printed_end": 36,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 15,
+          "title": "15-§. Barglarning tashqi tuzilishi",
+          "toc_printed_start": 36,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-18",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 36,
+          "printed_start": 36,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1354
+          },
+          "pdf_end": 38,
+          "printed_end": 38,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 16,
+          "title": "16-§. Oddiy va murakkab barglar",
+          "toc_printed_start": 38,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-19",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 38,
+          "printed_start": 38,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 777
+          },
+          "pdf_end": 40,
+          "printed_end": 40,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 17,
+          "title": "17-§. Novdada barglarning joylashishi",
+          "toc_printed_start": 40,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-20",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 40,
+          "printed_start": 40,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 633
+          },
+          "pdf_end": 41,
+          "printed_end": 41,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 18,
+          "title": "18-§. Barglarning ichki tuzilishi",
+          "toc_printed_start": 41,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-21",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 41,
+          "printed_start": 41,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 747
+          },
+          "pdf_end": 42,
+          "printed_end": 42,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 19,
+          "title": "19-§. Shakli o‘zgargan novdalar",
+          "toc_printed_start": 43,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-22",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 43,
+          "printed_start": 43,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 46,
+          "printed_end": 46,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 20,
+          "title": "20-§. Gul – o‘simliklarning generativ ko‘payish organi",
+          "toc_printed_start": 46,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-23",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 46,
+          "printed_start": 46,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 627
+          },
+          "pdf_end": 50,
+          "printed_end": 50,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 21,
+          "title": "21-§. Gullarning xilma-xilligi",
+          "toc_printed_start": 50,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-24",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 50,
+          "printed_start": 50,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 567
+          },
+          "pdf_end": 52,
+          "printed_end": 52,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 22,
+          "title": "22-§. To‘pgullar",
+          "toc_printed_start": 52,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-25",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 52,
+          "printed_start": 52,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 319
+          },
+          "pdf_end": 54,
+          "printed_end": 54,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 23,
+          "title": "23-§. Mevalar",
+          "toc_printed_start": 55,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-26",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 55,
+          "printed_start": 55,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 58,
+          "printed_end": 58,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 24,
+          "title": "24-§. Urug‘",
+          "toc_printed_start": 58,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-27",
+          "chapter_id": "bio-6-chapter-9",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 58,
+          "printed_start": 58,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 976
+          },
+          "pdf_end": 60,
+          "printed_end": 60,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "IV bob. Gulli o‘simliklarning hayotiy faoliyati",
+          "paragraph": null,
+          "toc_printed_start": 60,
+          "toc_pdf_page": 142,
+          "id": "bio-6-chapter-28",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 60,
+          "pdf_end": 92,
+          "printed_start": 60,
+          "printed_end": 92,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 25,
+          "title": "25-§. O‘simliklarning mineral oziqlanishi. Ildiz bosimi. O‘g‘itlar",
+          "toc_printed_start": 60,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-29",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 60,
+          "printed_start": 60,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1481
+          },
+          "pdf_end": 62,
+          "printed_end": 62,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 26,
+          "title": "26-§. Poyada oziq moddalarning harakatlanishi",
+          "toc_printed_start": 62,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-30",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 62,
+          "printed_start": 62,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1446
+          },
+          "pdf_end": 65,
+          "printed_end": 65,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 27,
+          "title": "27-§. Barglarda organik moddalarning hosil bo‘lishi",
+          "toc_printed_start": 65,
+          "toc_pdf_page": 142,
+          "id": "bio-6-topic-31",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 65,
+          "printed_start": 65,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 336
+          },
+          "pdf_end": 68,
+          "printed_end": 68,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 28,
+          "title": "28-§. O‘simliklarning nafas olishi, oziqlanishi. O‘simliklarda moddalar almashinuvi",
+          "toc_printed_start": 68,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-32",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 68,
+          "printed_start": 68,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 815
+          },
+          "pdf_end": 70,
+          "printed_end": 70,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 29,
+          "title": "29-§. O‘simliklarning suv bug‘latishi",
+          "toc_printed_start": 70,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-33",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 70,
+          "printed_start": 70,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.963,
+            "heading_offset": 856
+          },
+          "pdf_end": 72,
+          "printed_end": 72,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 30,
+          "title": "30-§. Kuz faslida o‘simliklar hayotida ro‘y beradigan o‘zgarishlar",
+          "toc_printed_start": 73,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-34",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 73,
+          "printed_start": 73,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.588,
+            "heading_offset": 0
+          },
+          "pdf_end": 74,
+          "printed_end": 74,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 31,
+          "title": "31-§. O‘simliklarning ko‘payishi",
+          "toc_printed_start": 75,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-35",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 75,
+          "printed_start": 75,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 79,
+          "printed_end": 79,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 32,
+          "title": "32-§. Gullarning changlanishi",
+          "toc_printed_start": 79,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-36",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 79,
+          "printed_start": 79,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 186
+          },
+          "pdf_end": 81,
+          "printed_end": 81,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 33,
+          "title": "33-§. Gulli o‘simliklarning jinsiy ko‘payishi. Urug‘lanish",
+          "toc_printed_start": 81,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-37",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 81,
+          "printed_start": 81,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.523,
+            "heading_offset": 908
+          },
+          "pdf_end": 83,
+          "printed_end": 83,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "savol"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 34,
+          "title": "34-§. Meva va urug‘larning tarqalishi",
+          "toc_printed_start": 83,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-38",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 83,
+          "printed_start": 83,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 959
+          },
+          "pdf_end": 84,
+          "printed_end": 84,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 35,
+          "title": "35-§. Urug‘larning unib chiqishi",
+          "toc_printed_start": 85,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-39",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 85,
+          "printed_start": 85,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.826,
+            "heading_offset": 0
+          },
+          "pdf_end": 87,
+          "printed_end": 87,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 36,
+          "title": "36-§. O‘simlik – yaxlit organizm",
+          "toc_printed_start": 87,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-40",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 87,
+          "printed_start": 87,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1572
+          },
+          "pdf_end": 89,
+          "printed_end": 89,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 37,
+          "title": "37-§. O‘simliklar dunyosiga ekologik omillarning ta’siri",
+          "toc_printed_start": 89,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-41",
+          "chapter_id": "bio-6-chapter-28",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 89,
+          "printed_start": 89,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.614,
+            "heading_offset": 850
+          },
+          "pdf_end": 92,
+          "printed_end": 92,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "V bob. O‘simliklar sistematikasi",
+          "paragraph": null,
+          "toc_printed_start": 92,
+          "toc_pdf_page": 143,
+          "id": "bio-6-chapter-42",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 92,
+          "pdf_end": 141,
+          "printed_start": 92,
+          "printed_end": 141,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 38,
+          "title": "38-§. O‘simliklar sistematikasi haqida tushuncha",
+          "toc_printed_start": 92,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-43",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 92,
+          "printed_start": 92,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.974,
+            "heading_offset": 666
+          },
+          "pdf_end": 94,
+          "printed_end": 94,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 39,
+          "title": "39-§. Suvo‘tlar. Bir hujayrali yashil suvo‘tlar",
+          "toc_printed_start": 94,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-44",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 94,
+          "printed_start": 94,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 970
+          },
+          "pdf_end": 96,
+          "printed_end": 96,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 40,
+          "title": "40-§. Ko‘p hujayrali yashil suvo‘tlar",
+          "toc_printed_start": 97,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-45",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 97,
+          "printed_start": 97,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 99,
+          "printed_end": 99,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 41,
+          "title": "41-§. Qo‘ng‘ir va qizil suvo‘tlar bo‘limlari",
+          "toc_printed_start": 99,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-46",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 99,
+          "printed_start": 99,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 462
+          },
+          "pdf_end": 100,
+          "printed_end": 100,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 42,
+          "title": "42-§. Yo‘sinlar bo‘limi",
+          "toc_printed_start": 100,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-47",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 100,
+          "printed_start": 100,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.643,
+            "heading_offset": 1059
+          },
+          "pdf_end": 103,
+          "printed_end": 103,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 43,
+          "title": "43-§. Qirqbo‘g‘imlar bo‘limi",
+          "toc_printed_start": 103,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-48",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 103,
+          "printed_start": 103,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 390
+          },
+          "pdf_end": 104,
+          "printed_end": 104,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 44,
+          "title": "44-§. Qirqquloqlar bo‘limi",
+          "toc_printed_start": 105,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-49",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 105,
+          "printed_start": 105,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.944,
+            "heading_offset": 0
+          },
+          "pdf_end": 107,
+          "printed_end": 107,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 45,
+          "title": "45-§. Ochiq urug‘li o‘simliklar bo‘limi. Archa",
+          "toc_printed_start": 107,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-50",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 107,
+          "printed_start": 107,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 232
+          },
+          "pdf_end": 109,
+          "printed_end": 109,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 46,
+          "title": "46-§. Yopiq urug‘li o‘simliklar haqida ma’lumotlar",
+          "toc_printed_start": 110,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-51",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 110,
+          "printed_start": 110,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 112,
+          "printed_end": 112,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 47,
+          "title": "47-§. Ra’nodoshlar oilasi",
+          "toc_printed_start": 112,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-52",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 112,
+          "printed_start": 112,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.882,
+            "heading_offset": 859
+          },
+          "pdf_end": 114,
+          "printed_end": 114,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 48,
+          "title": "48-§. Karamdoshlar oilasi",
+          "toc_printed_start": 115,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-53",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 115,
+          "printed_start": 115,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 117,
+          "printed_end": 117,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 49,
+          "title": "49-§. Sho‘radoshlar oilasi",
+          "toc_printed_start": 117,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-54",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 117,
+          "printed_start": 117,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 327
+          },
+          "pdf_end": 119,
+          "printed_end": 119,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 50,
+          "title": "50-§. Gulxayridoshlar oilasi",
+          "toc_printed_start": 119,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-55",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 119,
+          "printed_start": 119,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 602
+          },
+          "pdf_end": 121,
+          "printed_end": 121,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 51,
+          "title": "51-§. Burchoqdoshlar (Dukkakdoshlar) oilasi",
+          "toc_printed_start": 121,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-56",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 121,
+          "printed_start": 121,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 904
+          },
+          "pdf_end": 124,
+          "printed_end": 124,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 52,
+          "title": "52-§. Ituzumdoshlar oilasi",
+          "toc_printed_start": 124,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-57",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 124,
+          "printed_start": 124,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 577
+          },
+          "pdf_end": 126,
+          "printed_end": 126,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 53,
+          "title": "53-§. Tokdoshlar oilasi",
+          "toc_printed_start": 126,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-58",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 126,
+          "printed_start": 126,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 707
+          },
+          "pdf_end": 128,
+          "printed_end": 128,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 54,
+          "title": "54-§. Qovoqdoshlar oilasi",
+          "toc_printed_start": 128,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-59",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 128,
+          "printed_start": 128,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 367
+          },
+          "pdf_end": 129,
+          "printed_end": 129,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 55,
+          "title": "55-§. Qoqio‘tdoshlar (Murakkabguldoshlar) oilasi",
+          "toc_printed_start": 129,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-60",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 129,
+          "printed_start": 129,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1161
+          },
+          "pdf_end": 133,
+          "printed_end": 133,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 56,
+          "title": "56-§. Loladoshlar oilasi",
+          "toc_printed_start": 133,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-61",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 133,
+          "printed_start": 133,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 377
+          },
+          "pdf_end": 135,
+          "printed_end": 135,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 57,
+          "title": "57-§. Piyozdoshlar oilasi",
+          "toc_printed_start": 135,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-62",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 135,
+          "printed_start": 135,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 839
+          },
+          "pdf_end": 136,
+          "printed_end": 136,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 58,
+          "title": "58-§. Bug‘doydoshlar (Boshoqdoshlar) oilasi",
+          "toc_printed_start": 137,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-63",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 137,
+          "printed_start": 137,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.969,
+            "heading_offset": 0
+          },
+          "pdf_end": 138,
+          "printed_end": 138,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 59,
+          "title": "59-§. Yerda o‘simliklar dunyosining rivojlanishi",
+          "toc_printed_start": 139,
+          "toc_pdf_page": 143,
+          "id": "bio-6-topic-64",
+          "chapter_id": "bio-6-chapter-42",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 139,
+          "printed_start": 139,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 920
+          },
+          "pdf_end": 141,
+          "printed_end": 141,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-6-laboratory-1",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "Ildiz turlari va ildizning tuzilishini o‘rganish",
+          "chapter_id": "bio-6-chapter-9",
+          "pdf_start": 27,
+          "printed_start": 27,
+          "toc_pdf_page": null,
+          "toc_printed_start": null,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 381
+          },
+          "pdf_end": 27,
+          "printed_end": 27,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-6-laboratory-2",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "Kurtaklarning tuzilishi va novdada joylashishini o‘rganish",
+          "chapter_id": "bio-6-chapter-9",
+          "pdf_start": 31,
+          "printed_start": 31,
+          "toc_pdf_page": null,
+          "toc_printed_start": null,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 899
+          },
+          "pdf_end": 31,
+          "printed_end": 31,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-6-laboratory-3",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "Bargning tashqi tuzilishini o‘rganish",
+          "chapter_id": "bio-6-chapter-9",
+          "pdf_start": 42,
+          "printed_start": 42,
+          "toc_pdf_page": null,
+          "toc_printed_start": null,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 1247
+          },
+          "pdf_end": 42,
+          "printed_end": 42,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-6-laboratory-4",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "Gul va to‘pgullarning tuzilishi bilan tanishish",
+          "chapter_id": "bio-6-chapter-9",
+          "pdf_start": 54,
+          "printed_start": 54,
+          "toc_pdf_page": null,
+          "toc_printed_start": null,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 866
+          },
+          "pdf_end": 54,
+          "printed_end": 54,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-6-laboratory-5",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "Mevalarning tuzilishi va xilma-xilligini o‘rganish",
+          "chapter_id": "bio-6-chapter-9",
+          "pdf_start": 58,
+          "printed_start": 58,
+          "toc_pdf_page": null,
+          "toc_printed_start": null,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 529
+          },
+          "pdf_end": 58,
+          "printed_end": 58,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-6-laboratory-6",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "Urug‘ning tuzilishi va unishini o‘rganish",
+          "chapter_id": "bio-6-chapter-28",
+          "pdf_start": 87,
+          "printed_start": 87,
+          "toc_pdf_page": null,
+          "toc_printed_start": null,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 320
+          },
+          "pdf_end": 87,
+          "printed_end": 87,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-6-laboratory-7",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "O‘simliklarning tuzilishida sinf va oilalarning belgilarini aniqlash",
+          "chapter_id": "bio-6-chapter-42",
+          "pdf_start": 139,
+          "printed_start": 139,
+          "toc_pdf_page": null,
+          "toc_printed_start": null,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 0
+          },
+          "pdf_end": 139,
+          "printed_end": 139,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        }
+      ]
     },
     {
       "file_name": "zoologiya_7_uzb.pdf",
@@ -2932,13 +4822,2179 @@
       ]
     },
     {
-      "id": "biology-8-unavailable",
-      "grade": 8,
       "file_name": "odam_va_uning_salomatligi_8_uzb.pdf",
-      "title": "Odam va uning salomatligi",
-      "status": "blocked_transfer_limit_32_mib",
-      "records": [],
-      "note": "User attachment exists, but the available transfer tool rejected files over 32 MiB; no pages read."
+      "title": "Biologiya (Odam va uning salomatligi)",
+      "year": 2019,
+      "authors": [
+        "O. Mavlonov",
+        "T. Tilavov",
+        "B. Aminov"
+      ],
+      "publisher": "O‘qituvchi",
+      "edition": 6,
+      "chapter_count": 13,
+      "paragraph_count": 61,
+      "isbn": "978-9943-5749-0-8",
+      "id": "biology-8-2019",
+      "grade": 8,
+      "status": "mapped",
+      "segments": [
+        {
+          "file_name": "8_sinf_odam_salomatligi_PDF_sahifa_001-048.pdf",
+          "sha256": "bf58975fed13c03bd2fefa572eda5f396e79521930a8a7c62f1b03a65f502603",
+          "start": 1,
+          "end": 48,
+          "pages": 48
+        },
+        {
+          "file_name": "8_sinf_odam_salomatligi_PDF_sahifa_049-096.pdf",
+          "sha256": "185517d735e640a39d39c56980e377126bc39ce963cd3cdf185b827220d52f50",
+          "start": 49,
+          "end": 96,
+          "pages": 48
+        },
+        {
+          "file_name": "8_sinf_odam_salomatligi_PDF_sahifa_097-144.pdf",
+          "sha256": "628000f8767732a09e25c49c9703dfcc87e4ec8615ce43865c819848f7075608",
+          "start": 97,
+          "end": 144,
+          "pages": 48
+        },
+        {
+          "file_name": "8_sinf_odam_salomatligi_PDF_sahifa_145-192.pdf",
+          "sha256": "8c717b520eead69c931028efcb740b7ca9e282db4d13ef5dd762edcb70a68bdb",
+          "start": 145,
+          "end": 192,
+          "pages": 48
+        }
+      ],
+      "source_set_sha256": "ae46fe4fe14f7debba8eb8ff6eb8808a7b4a3ed01df55b940a06c831aa353495",
+      "source_format": "scanned_pdf_segments",
+      "text_extraction": "tesseract_eng_OCR_not_authoritative_fact_review",
+      "introduction_count": 1,
+      "pdf_page_count": 192,
+      "toc_pdf_pages": [
+        188,
+        189,
+        190
+      ],
+      "bibliography_pdf_pages": [
+        1,
+        2
+      ],
+      "questions_and_tasks": {
+        "present": true,
+        "evidence_pdf_pages": [
+          2,
+          3,
+          8,
+          14,
+          30,
+          32,
+          39,
+          42
+        ],
+        "verification": "text_layer_legends_and_assessment_markers",
+        "textbook_questions_republished": false
+      },
+      "rights": {
+        "fulltext_republication": "not_authorized",
+        "images_republication": "not_authorized",
+        "published_payload": "bibliography_headings_page_references_and_original_fact_based_lessons"
+      },
+      "duplicate_pdf_ranges": [],
+      "records": [
+        {
+          "kind": "introduction",
+          "title": "KIRISH",
+          "paragraph": null,
+          "toc_printed_start": 4,
+          "toc_pdf_page": 188,
+          "id": "bio-8-introduction-1",
+          "chapter_id": "bio-8-introduction-1",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 4,
+          "pdf_end": 8,
+          "printed_start": 4,
+          "printed_end": 8,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 1,
+          "title": "1-§. Odam va uning salomatligi to‘g‘risida umumiy tushuncha",
+          "toc_printed_start": 4,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-2",
+          "chapter_id": "bio-8-introduction-1",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 4,
+          "printed_start": 4,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 8,
+          "printed_end": 8,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq",
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "I BOB. ODAM ORGANIZMI TO‘G‘RISIDA UMUMIY MA’LUMOT",
+          "paragraph": null,
+          "toc_printed_start": 9,
+          "toc_pdf_page": 188,
+          "id": "bio-8-chapter-3",
+          "chapter_id": "bio-8-chapter-3",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 9,
+          "pdf_end": 16,
+          "printed_start": 9,
+          "printed_end": 16,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 2,
+          "title": "2-§. Odam organizmining hujayraviy tuzilishi",
+          "toc_printed_start": 9,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-4",
+          "chapter_id": "bio-8-chapter-3",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 9,
+          "printed_start": 9,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 43
+          },
+          "pdf_end": 11,
+          "printed_end": 11,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 3,
+          "title": "3-§. Hujayra va organizmning hayotiy xossalari",
+          "toc_printed_start": 12,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-5",
+          "chapter_id": "bio-8-chapter-3",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 12,
+          "printed_start": 12,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 14,
+          "printed_end": 14,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 4,
+          "title": "4-§. To‘qimalar, organlar va organizm",
+          "toc_printed_start": 14,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-6",
+          "chapter_id": "bio-8-chapter-3",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 14,
+          "printed_start": 14,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1052
+          },
+          "pdf_end": 16,
+          "printed_end": 16,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "II BOB. ORGANIZM FUNKSIYASINING BOSHQARILISHI, SEKRETSIYA BEZLARI",
+          "paragraph": null,
+          "toc_printed_start": 17,
+          "toc_pdf_page": 188,
+          "id": "bio-8-chapter-7",
+          "chapter_id": "bio-8-chapter-7",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 17,
+          "pdf_end": 26,
+          "printed_start": 17,
+          "printed_end": 26,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 5,
+          "title": "5-§. Organizm funksiyasining gumoral va nerv boshqarilishi",
+          "toc_printed_start": 17,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-8",
+          "chapter_id": "bio-8-chapter-7",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 17,
+          "printed_start": 17,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 55
+          },
+          "pdf_end": 19,
+          "printed_end": 19,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 6,
+          "title": "6-§. Sekretsiya bezlari, qalqonsimon bez",
+          "toc_printed_start": 19,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-9",
+          "chapter_id": "bio-8-chapter-7",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 19,
+          "printed_start": 19,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 793
+          },
+          "pdf_end": 22,
+          "printed_end": 22,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 7,
+          "title": "7-§. Qalqonoldi, gipofiz, ayrisimon bez, buyrakusti bezlari, ularning tuzilishi va funksiyasi",
+          "toc_printed_start": 22,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-10",
+          "chapter_id": "bio-8-chapter-7",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 22,
+          "printed_start": 22,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 789
+          },
+          "pdf_end": 24,
+          "printed_end": 24,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 8,
+          "title": "8-§. Oshqozonosti va jinsiy bezlar, sekretsiya bezlari ishining boshqarilishi",
+          "toc_printed_start": 24,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-11",
+          "chapter_id": "bio-8-chapter-7",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 24,
+          "printed_start": 24,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1866
+          },
+          "pdf_end": 26,
+          "printed_end": 26,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "III BOB. TAYANCH-HARAKATLANISH SISTEMASI",
+          "paragraph": null,
+          "toc_printed_start": 27,
+          "toc_pdf_page": 188,
+          "id": "bio-8-chapter-12",
+          "chapter_id": "bio-8-chapter-12",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 27,
+          "pdf_end": 43,
+          "printed_start": 27,
+          "printed_end": 43,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 9,
+          "title": "9-§. Tayanch-harakatlanish sistemasining tuzilishi, funksiyasi va ahamiyati",
+          "toc_printed_start": 27,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-13",
+          "chapter_id": "bio-8-chapter-12",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 27,
+          "printed_start": 27,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 30,
+          "printed_end": 30,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 10,
+          "title": "10-§. Suyaklarning tuzilishi va o‘sishi",
+          "toc_printed_start": 31,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-14",
+          "chapter_id": "bio-8-chapter-12",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 31,
+          "printed_start": 31,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 32,
+          "printed_end": 32,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 11,
+          "title": "11-§. Suyaklar shikastlanganida birinchi yordam ko‘rsatish",
+          "toc_printed_start": 33,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-15",
+          "chapter_id": "bio-8-chapter-12",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 33,
+          "printed_start": 33,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 35,
+          "printed_end": 35,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 12,
+          "title": "12-§. Muskullar",
+          "toc_printed_start": 36,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-16",
+          "chapter_id": "bio-8-chapter-12",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 36,
+          "printed_start": 36,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 39,
+          "printed_end": 39,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 13,
+          "title": "13-§. Muskullarning rivojlanishi, odam qad-qomatining shakllanishi",
+          "toc_printed_start": 40,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-17",
+          "chapter_id": "bio-8-chapter-12",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 40,
+          "printed_start": 40,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 43,
+          "printed_end": 43,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "IV BOB. QON",
+          "paragraph": null,
+          "toc_printed_start": 44,
+          "toc_pdf_page": 188,
+          "id": "bio-8-chapter-18",
+          "chapter_id": "bio-8-chapter-18",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 44,
+          "pdf_end": 54,
+          "printed_start": 44,
+          "printed_end": 54,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 14,
+          "title": "14-§. Qon va uning vazifasi",
+          "toc_printed_start": 44,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-19",
+          "chapter_id": "bio-8-chapter-18",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 44,
+          "printed_start": 44,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 47,
+          "printed_end": 47,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 15,
+          "title": "15-§. Qonning kimyoviy tarkibi",
+          "toc_printed_start": 47,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-20",
+          "chapter_id": "bio-8-chapter-18",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 47,
+          "printed_start": 47,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 303
+          },
+          "pdf_end": 49,
+          "printed_end": 49,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 16,
+          "title": "16-§. Eritrotsitlar",
+          "toc_printed_start": 49,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-21",
+          "chapter_id": "bio-8-chapter-18",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 49,
+          "printed_start": 49,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 749
+          },
+          "pdf_end": 52,
+          "printed_end": 52,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 17,
+          "title": "17-§. Leykotsitlar",
+          "toc_printed_start": 52,
+          "toc_pdf_page": 188,
+          "id": "bio-8-topic-22",
+          "chapter_id": "bio-8-chapter-18",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 52,
+          "printed_start": 52,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 112
+          },
+          "pdf_end": 54,
+          "printed_end": 54,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "V BOB. QON AYLANISH SISTEMASI",
+          "paragraph": null,
+          "toc_printed_start": 55,
+          "toc_pdf_page": 189,
+          "id": "bio-8-chapter-23",
+          "chapter_id": "bio-8-chapter-23",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 55,
+          "pdf_end": 69,
+          "printed_start": 55,
+          "printed_end": 69,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 18,
+          "title": "18-§. Qon aylanishining ahamiyati, yurakning tuzilishi",
+          "toc_printed_start": 55,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-24",
+          "chapter_id": "bio-8-chapter-23",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 55,
+          "printed_start": 55,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 37
+          },
+          "pdf_end": 58,
+          "printed_end": 58,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 19,
+          "title": "19-§. Qon tomirlari, qon aylanish doirasi",
+          "toc_printed_start": 58,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-25",
+          "chapter_id": "bio-8-chapter-23",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 58,
+          "printed_start": 58,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 592
+          },
+          "pdf_end": 61,
+          "printed_end": 61,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 20,
+          "title": "20-§. Qonning qon tomirlari bo‘ylab oqishi",
+          "toc_printed_start": 61,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-26",
+          "chapter_id": "bio-8-chapter-23",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 61,
+          "printed_start": 61,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.581,
+            "heading_offset": 379
+          },
+          "pdf_end": 64,
+          "printed_end": 64,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 21,
+          "title": "21-§. Qon aylanish organlari ishining boshqarilishi",
+          "toc_printed_start": 64,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-27",
+          "chapter_id": "bio-8-chapter-23",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 64,
+          "printed_start": 64,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1407
+          },
+          "pdf_end": 66,
+          "printed_end": 66,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 22,
+          "title": "22-§. Tomirlardan qon ketganida birinchi yordam ko‘rsatish",
+          "toc_printed_start": 67,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-28",
+          "chapter_id": "bio-8-chapter-23",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 67,
+          "printed_start": 67,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 69,
+          "printed_end": 69,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "VI BOB. NAFAS OLISH SISTEMASI",
+          "paragraph": null,
+          "toc_printed_start": 70,
+          "toc_pdf_page": 189,
+          "id": "bio-8-chapter-29",
+          "chapter_id": "bio-8-chapter-29",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 70,
+          "pdf_end": 81,
+          "printed_start": 70,
+          "printed_end": 81,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 23,
+          "title": "23-§. Nafas olish organlarining tuzilishi",
+          "toc_printed_start": 70,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-30",
+          "chapter_id": "bio-8-chapter-29",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 70,
+          "printed_start": 70,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 32
+          },
+          "pdf_end": 74,
+          "printed_end": 74,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 24,
+          "title": "24-§. O‘pkalar va to‘qimalarda gazlar almashinuvi",
+          "toc_printed_start": 74,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-31",
+          "chapter_id": "bio-8-chapter-29",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 74,
+          "printed_start": 74,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 124
+          },
+          "pdf_end": 77,
+          "printed_end": 77,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 25,
+          "title": "25-§. Nafas olishning boshqarilishi, nafas olish organlari kasalliklari",
+          "toc_printed_start": 77,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-32",
+          "chapter_id": "bio-8-chapter-29",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 77,
+          "printed_start": 77,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 779
+          },
+          "pdf_end": 81,
+          "printed_end": 81,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "VII BOB. OVQAT HAZM QILISH SISTEMASI",
+          "paragraph": null,
+          "toc_printed_start": 82,
+          "toc_pdf_page": 189,
+          "id": "bio-8-chapter-33",
+          "chapter_id": "bio-8-chapter-33",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 82,
+          "pdf_end": 94,
+          "printed_start": 82,
+          "printed_end": 94,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 26,
+          "title": "26-§. Ovqat hazm qilish sistemasi organlari",
+          "toc_printed_start": 82,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-34",
+          "chapter_id": "bio-8-chapter-33",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 82,
+          "printed_start": 82,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 39
+          },
+          "pdf_end": 85,
+          "printed_end": 85,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 27,
+          "title": "27-§. Ovqat hazm qilish sistemasi organlarining tuzilishi va funksiyasi",
+          "toc_printed_start": 85,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-35",
+          "chapter_id": "bio-8-chapter-33",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 85,
+          "printed_start": 85,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 929
+          },
+          "pdf_end": 88,
+          "printed_end": 88,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 28,
+          "title": "28-§. Ovqat hazm qilishning boshqarilishi",
+          "toc_printed_start": 88,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-36",
+          "chapter_id": "bio-8-chapter-33",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 88,
+          "printed_start": 88,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 424
+          },
+          "pdf_end": 90,
+          "printed_end": 90,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 29,
+          "title": "29-§. Oshqozon-ichak kasalliklari va ularning oldini olish",
+          "toc_printed_start": 90,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-37",
+          "chapter_id": "bio-8-chapter-33",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 90,
+          "printed_start": 90,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1668
+          },
+          "pdf_end": 94,
+          "printed_end": 94,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "VIII BOB. MODDALAR VA ENERGIYA ALMASHINUVI",
+          "paragraph": null,
+          "toc_printed_start": 95,
+          "toc_pdf_page": 189,
+          "id": "bio-8-chapter-38",
+          "chapter_id": "bio-8-chapter-38",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 95,
+          "pdf_end": 108,
+          "printed_start": 95,
+          "printed_end": 108,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 30,
+          "title": "30-§. Moddalar va energiya almashinuvining ahamiyati",
+          "toc_printed_start": 95,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-39",
+          "chapter_id": "bio-8-chapter-38",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 95,
+          "printed_start": 95,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 42
+          },
+          "pdf_end": 97,
+          "printed_end": 97,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 31,
+          "title": "31-§. Oqsillar, karbonsuvlar va yog‘lar almashinuvi",
+          "toc_printed_start": 97,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-40",
+          "chapter_id": "bio-8-chapter-38",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 97,
+          "printed_start": 97,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 0.949,
+            "heading_offset": 1093
+          },
+          "pdf_end": 99,
+          "printed_end": 99,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 32,
+          "title": "32-§. Vitaminlar va ularning ahamiyati",
+          "toc_printed_start": 100,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-41",
+          "chapter_id": "bio-8-chapter-38",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 100,
+          "printed_start": 100,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 103,
+          "printed_end": 103,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 33,
+          "title": "33-§. Organizmda energiya sarfi",
+          "toc_printed_start": 103,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-42",
+          "chapter_id": "bio-8-chapter-38",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 103,
+          "printed_start": 103,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 845
+          },
+          "pdf_end": 107,
+          "printed_end": 107,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "IX BOB. TERI VA SIYDIK AYIRISH SISTEMASI",
+          "paragraph": null,
+          "toc_printed_start": 109,
+          "toc_pdf_page": 189,
+          "id": "bio-8-chapter-43",
+          "chapter_id": "bio-8-chapter-43",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 109,
+          "pdf_end": 121,
+          "printed_start": 109,
+          "printed_end": 121,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 34,
+          "title": "34-§. Terining tuzilishi va funksiyasi",
+          "toc_printed_start": 109,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-44",
+          "chapter_id": "bio-8-chapter-43",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 109,
+          "printed_start": 109,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 42
+          },
+          "pdf_end": 111,
+          "printed_end": 111,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 35,
+          "title": "35-§. Ter bezlari va teri hosilalari",
+          "toc_printed_start": 111,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-45",
+          "chapter_id": "bio-8-chapter-43",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 111,
+          "printed_start": 111,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 160
+          },
+          "pdf_end": 112,
+          "printed_end": 112,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 36,
+          "title": "36-§. Teri gigiyenasi, teri shikastlanganda birinchi yordam ko‘rsatish",
+          "toc_printed_start": 113,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-46",
+          "chapter_id": "bio-8-chapter-43",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 113,
+          "printed_start": 113,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 115,
+          "printed_end": 115,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 37,
+          "title": "37-§. Siydik ajratish organlarining tuzilishi",
+          "toc_printed_start": 115,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-47",
+          "chapter_id": "bio-8-chapter-43",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 115,
+          "printed_start": 115,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1405
+          },
+          "pdf_end": 119,
+          "printed_end": 119,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 38,
+          "title": "38-§. Siydik ajratish organlarining funksiyasi",
+          "toc_printed_start": 119,
+          "toc_pdf_page": 189,
+          "id": "bio-8-topic-48",
+          "chapter_id": "bio-8-chapter-43",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 119,
+          "printed_start": 119,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 952
+          },
+          "pdf_end": 121,
+          "printed_end": 121,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "X BOB. NERV SISTEMASI",
+          "paragraph": null,
+          "toc_printed_start": 122,
+          "toc_pdf_page": 190,
+          "id": "bio-8-chapter-49",
+          "chapter_id": "bio-8-chapter-49",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 122,
+          "pdf_end": 138,
+          "printed_start": 122,
+          "printed_end": 138,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 39,
+          "title": "39-§. Nerv sistemasining tuzilishi",
+          "toc_printed_start": 122,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-50",
+          "chapter_id": "bio-8-chapter-49",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 122,
+          "printed_start": 122,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 26
+          },
+          "pdf_end": 125,
+          "printed_end": 125,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 40,
+          "title": "40-§. Nerv sistemasining funksiyasi",
+          "toc_printed_start": 125,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-51",
+          "chapter_id": "bio-8-chapter-49",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 125,
+          "printed_start": 125,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1640
+          },
+          "pdf_end": 127,
+          "printed_end": 127,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 41,
+          "title": "41-§. Orqa miyaning tuzilishi va funksiyasi",
+          "toc_printed_start": 127,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-52",
+          "chapter_id": "bio-8-chapter-49",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 127,
+          "printed_start": 127,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1562
+          },
+          "pdf_end": 130,
+          "printed_end": 130,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 42,
+          "title": "42-§. Bosh miyaning tuzilishi va funksiyasi",
+          "toc_printed_start": 130,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-53",
+          "chapter_id": "bio-8-chapter-49",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 130,
+          "printed_start": 130,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 642
+          },
+          "pdf_end": 133,
+          "printed_end": 133,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 43,
+          "title": "43-§. Bosh miya katta yarimsharlarining tuzilishi",
+          "toc_printed_start": 133,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-54",
+          "chapter_id": "bio-8-chapter-49",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 133,
+          "printed_start": 133,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1009
+          },
+          "pdf_end": 136,
+          "printed_end": 136,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 44,
+          "title": "44-§. Nerv sistemasi kasalliklari va ularning oldini olish",
+          "toc_printed_start": 136,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-55",
+          "chapter_id": "bio-8-chapter-49",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 136,
+          "printed_start": 136,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 92
+          },
+          "pdf_end": 137,
+          "printed_end": 137,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "XI BOB. OLIY NERV FAOLIYATI",
+          "paragraph": null,
+          "toc_printed_start": 139,
+          "toc_pdf_page": 190,
+          "id": "bio-8-chapter-56",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 139,
+          "pdf_end": 156,
+          "printed_start": 139,
+          "printed_end": 156,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 45,
+          "title": "45-§. Oliy nerv faoliyati, shartli va shartsiz reflekslar",
+          "toc_printed_start": 139,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-57",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 139,
+          "printed_start": 139,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 33
+          },
+          "pdf_end": 141,
+          "printed_end": 141,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 46,
+          "title": "46-§. Shartli reflekslarning hosil bo‘lishi va tormozlanishi",
+          "toc_printed_start": 141,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-58",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 141,
+          "printed_start": 141,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1163
+          },
+          "pdf_end": 143,
+          "printed_end": 143,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 47,
+          "title": "47-§. Aql-idrok, tafakkur, so‘z va nutq",
+          "toc_printed_start": 144,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-59",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 144,
+          "printed_start": 144,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 146,
+          "printed_end": 146,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 48,
+          "title": "48-§. Hissiyot va uning boshqarilishi",
+          "toc_printed_start": 146,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-60",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 146,
+          "printed_start": 146,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1563
+          },
+          "pdf_end": 149,
+          "printed_end": 149,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 49,
+          "title": "49-§. Xotira",
+          "toc_printed_start": 150,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-61",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 150,
+          "printed_start": 150,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 151,
+          "printed_end": 151,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "mustaqil"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 50,
+          "title": "50-§. Uyqu va uning ahamiyati",
+          "toc_printed_start": 152,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-62",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 152,
+          "printed_start": 152,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0
+          },
+          "pdf_end": 154,
+          "printed_end": 154,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 51,
+          "title": "51-§. Nerv faoliyati tiplari, nerv sistemasi gigiyenasi",
+          "toc_printed_start": 154,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-63",
+          "chapter_id": "bio-8-chapter-56",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 154,
+          "printed_start": 154,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 576
+          },
+          "pdf_end": 156,
+          "printed_end": 156,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "XII BOB. SEZGI ORGANLARI",
+          "paragraph": null,
+          "toc_printed_start": 157,
+          "toc_pdf_page": 190,
+          "id": "bio-8-chapter-64",
+          "chapter_id": "bio-8-chapter-64",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 157,
+          "pdf_end": 174,
+          "printed_start": 157,
+          "printed_end": 174,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 52,
+          "title": "52-§. Sezgi organlarining ahamiyati",
+          "toc_printed_start": 157,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-65",
+          "chapter_id": "bio-8-chapter-64",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 157,
+          "printed_start": 157,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 29
+          },
+          "pdf_end": 159,
+          "printed_end": 159,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 53,
+          "title": "53-§. Ko‘rish analizatorlari",
+          "toc_printed_start": 159,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-66",
+          "chapter_id": "bio-8-chapter-64",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 159,
+          "printed_start": 159,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 619
+          },
+          "pdf_end": 162,
+          "printed_end": 162,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 54,
+          "title": "54-§. Ko‘rish organlarining funksiyasi",
+          "toc_printed_start": 162,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-67",
+          "chapter_id": "bio-8-chapter-64",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 162,
+          "printed_start": 162,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 299
+          },
+          "pdf_end": 164,
+          "printed_end": 164,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 55,
+          "title": "55-§. Eshitish organlarining tuzilishi, eshitish gigiyenasi",
+          "toc_printed_start": 165,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-68",
+          "chapter_id": "bio-8-chapter-64",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 165,
+          "printed_start": 165,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1721
+          },
+          "pdf_end": 168,
+          "printed_end": 168,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 56,
+          "title": "56-§. Muvozanat saqlash, muskul sezish va tuyg‘u organlari",
+          "toc_printed_start": 168,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-69",
+          "chapter_id": "bio-8-chapter-64",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 168,
+          "printed_start": 168,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1544
+          },
+          "pdf_end": 171,
+          "printed_end": 171,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 57,
+          "title": "57-§. Hid bilish va ta’m bilish organlari",
+          "toc_printed_start": 171,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-70",
+          "chapter_id": "bio-8-chapter-64",
+          "part_id": null,
+          "subchapter_id": null,
+          "verification": {
+            "status": "page_image_reviewed",
+            "pdf_page": 171,
+            "method": "page_image_reviewed",
+            "reviewed_on": "2026-10-20",
+            "reason": "OCR section sign misrecognized as digit 8",
+            "heading_token": "57-8.",
+            "heading_offset": 1295
+          },
+          "pdf_start": 171,
+          "printed_start": 171,
+          "pdf_end": 174,
+          "printed_end": 174,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "kind": "chapter",
+          "title": "XIII BOB. KO‘PAYISH VA RIVOJLANISH. ODAMNING BIOLOGIK VA IJTIMOIY TABIATI",
+          "paragraph": null,
+          "toc_printed_start": 175,
+          "toc_pdf_page": 190,
+          "id": "bio-8-chapter-71",
+          "chapter_id": "bio-8-chapter-71",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 175,
+          "pdf_end": 183,
+          "printed_start": 175,
+          "printed_end": 183,
+          "verification": {
+            "status": "children_heading_matched",
+            "method": "toc_and_body_children"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 58,
+          "title": "58-§. Ko‘payish organlari",
+          "toc_printed_start": 175,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-72",
+          "chapter_id": "bio-8-chapter-71",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 175,
+          "printed_start": 175,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 66
+          },
+          "pdf_end": 176,
+          "printed_end": 176,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 59,
+          "title": "59-§. Urug‘lanish va homilaning rivojlanishi",
+          "toc_printed_start": 176,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-73",
+          "chapter_id": "bio-8-chapter-71",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 176,
+          "printed_start": 176,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 518
+          },
+          "pdf_end": 178,
+          "printed_end": 178,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 60,
+          "title": "60-§. Bolaning o‘sishi va rivojlanishi",
+          "toc_printed_start": 178,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-74",
+          "chapter_id": "bio-8-chapter-71",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 179,
+          "printed_start": 179,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 0,
+            "toc_body_page_difference": true
+          },
+          "pdf_end": 181,
+          "printed_end": 181,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "kind": "topic",
+          "paragraph": 61,
+          "title": "61-§. Odamning biologik o‘zgarishi va ijtimoiy tabiati",
+          "toc_printed_start": 181,
+          "toc_pdf_page": 190,
+          "id": "bio-8-topic-75",
+          "chapter_id": "bio-8-chapter-71",
+          "part_id": null,
+          "subchapter_id": null,
+          "pdf_start": 181,
+          "printed_start": 181,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "ocr_paragraph_number_and_heading",
+            "heading_similarity": 1.0,
+            "heading_offset": 1230
+          },
+          "pdf_end": 183,
+          "printed_end": 183,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        },
+        {
+          "id": "bio-8-laboratory-1",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "1-laboratoriya mashg‘uloti",
+          "chapter_id": "bio-8-chapter-12",
+          "pdf_start": 43,
+          "printed_start": 43,
+          "toc_pdf_page": 188,
+          "toc_printed_start": 43,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 250
+          },
+          "pdf_end": 43,
+          "printed_end": 43,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-8-laboratory-2",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "2-laboratoriya mashg‘uloti",
+          "chapter_id": "bio-8-chapter-23",
+          "pdf_start": 69,
+          "printed_start": 69,
+          "toc_pdf_page": 189,
+          "toc_printed_start": 69,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 826
+          },
+          "pdf_end": 69,
+          "printed_end": 69,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-8-laboratory-3",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "3-laboratoriya mashg‘uloti",
+          "chapter_id": "bio-8-chapter-29",
+          "pdf_start": 81,
+          "printed_start": 81,
+          "toc_pdf_page": 189,
+          "toc_printed_start": 81,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 153
+          },
+          "pdf_end": 81,
+          "printed_end": 81,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-8-laboratory-4",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "4-laboratoriya mashg‘uloti",
+          "chapter_id": "bio-8-chapter-33",
+          "pdf_start": 94,
+          "printed_start": 94,
+          "toc_pdf_page": 189,
+          "toc_printed_start": 94,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 129
+          },
+          "pdf_end": 94,
+          "printed_end": 94,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-8-laboratory-5",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "5-laboratoriya mashg‘uloti",
+          "chapter_id": "bio-8-chapter-38",
+          "pdf_start": 107,
+          "printed_start": 107,
+          "toc_pdf_page": 189,
+          "toc_printed_start": 107,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 148
+          },
+          "pdf_end": 108,
+          "printed_end": 108,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-8-laboratory-6",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "6-laboratoriya mashg‘uloti",
+          "chapter_id": "bio-8-chapter-49",
+          "pdf_start": 138,
+          "printed_start": 138,
+          "toc_pdf_page": 190,
+          "toc_printed_start": 138,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 0
+          },
+          "pdf_end": 138,
+          "printed_end": 138,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [],
+            "status": "not_detected_not_proof_of_absence"
+          }
+        },
+        {
+          "id": "bio-8-laboratory-7",
+          "kind": "laboratory",
+          "paragraph": null,
+          "title": "7-laboratoriya mashg‘uloti",
+          "chapter_id": "bio-8-chapter-64",
+          "pdf_start": 164,
+          "printed_start": 164,
+          "toc_pdf_page": 190,
+          "toc_printed_start": 164,
+          "verification": {
+            "status": "ocr_heading_matched",
+            "method": "numbered_body_activity",
+            "heading_offset": 1777
+          },
+          "pdf_end": 165,
+          "printed_end": 165,
+          "range_method": "next_verified_heading_boundary_inclusive",
+          "assessment_marker_scan": {
+            "detected": [
+              "topshiriq"
+            ],
+            "status": "detected"
+          }
+        }
+      ]
     },
     {
       "file_name": "biologiya_9_uzb.pdf",

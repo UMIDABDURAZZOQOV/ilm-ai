@@ -30,7 +30,7 @@ def build_tree(db: Session, user_id: int, subject_slug: str, grade: int | None =
         return None
 
     from services.models import CurriculumChapter, CurriculumCourse
-    from services.curriculum import chapter_coverage_map
+    from services.curriculum import chapter_coverage_map, lessons_after_source_gaps
     mapped = db.query(CurriculumChapter.unit_id)
     if grade is not None:
         mapped = mapped.join(CurriculumCourse).filter(CurriculumCourse.subject_id == subject.id, CurriculumCourse.grade == grade)
@@ -74,6 +74,7 @@ def build_tree(db: Session, user_id: int, subject_slug: str, grade: int | None =
     exam_map = {e.unit_id: e for e in exams}
 
     coverage_by_unit = chapter_coverage_map(db, unit_ids)
+    source_blocked_ids = lessons_after_source_gaps(db, unit_ids) if grade is not None else set()
     result_units = []
     # A unit's checkpoint exam gates the NEXT unit: you can't start a new bob
     # until the previous one's exam is passed. The first unit is never gated.
@@ -94,7 +95,7 @@ def build_tree(db: Session, user_id: int, subject_slug: str, grade: int | None =
         for l in u_lessons:
             if l.id in completed_ids:
                 status = "completed"
-            elif gated:
+            elif gated or l.id in source_blocked_ids:
                 status = "locked"
             elif not first_open_taken:
                 status = "unlocked"

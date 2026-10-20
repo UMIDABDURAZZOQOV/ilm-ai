@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-1-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-2",
+  "title": "Odam va uning salomatligi to‘g‘risida umumiy tushuncha",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p1-fact-1": {
+      "claim": "Odam organizmini bilish salomatlikni asrashga yordam beradi. Anatomiya organlarning tuzilishini, fiziologiya ularning ishlashini o‘rganadi.",
+      "answer": "Fiziologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-2": {
+      "claim": "Gigiyena turmush va mehnat sharoitlarining sog‘liqqa ta’sirini o‘rganadi.",
+      "answer": "Gigiyena",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-3": {
+      "claim": "Gippokrat bemorni davolashda unga individual yondashish g‘oyasi bilan darslikda tilga olingan.",
+      "answer": "Gippokrat",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-4": {
+      "claim": "Ibn Sinoning «Tib qonunlari» asarida anatomiya, gigiyena va tibbiyotning boshqa yo‘nalishlari haqidagi bilimlar jamlangan.",
+      "answer": "Abu Ali ibn Sino",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-5": {
+      "claim": "Komiljon Zufarov O‘zbekistonda birinchi elektron mikroskopiya laboratoriyasini tashkil etgan olim sifatida keltirilgan.",
+      "answer": "Komiljon Zufarov",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-6": {
+      "claim": "Tibbiy emlashlar ayrim xavfli yuqumli kasalliklarning tarqalishini oldini olishda muhim o‘rin tutadi.",
+      "answer": "Tibbiy emlash",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-7": {
+      "claim": "Odam organizmining tuzilishi va funksiyasini bilish kasalliklardan saqlanish uchun zarur bilimlar qatoriga kiradi.",
+      "answer": "Organizm tuzilishi va faoliyatini o‘rganish",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Salomatlikni tushunish",
+      "body": "Odam organizmini bilish salomatlikni asrashga yordam beradi. Anatomiya organlarning tuzilishini, fiziologiya ularning ishlashini o‘rganadi.\n\nGigiyena turmush va mehnat sharoitlarining sog‘liqqa ta’sirini o‘rganadi.",
+      "fact_ids": [
+        "p1-fact-1",
+        "p1-fact-2"
+      ]
+    },
+    {
+      "title": "Tibbiyot tarixidan",
+      "body": "Gippokrat bemorni davolashda unga individual yondashish g‘oyasi bilan darslikda tilga olingan.",
+      "fact_ids": [
+        "p1-fact-3"
+      ]
+    },
+    {
+      "title": "Vatandosh olimlar",
+      "body": "Ibn Sinoning «Tib qonunlari» asarida anatomiya, gigiyena va tibbiyotning boshqa yo‘nalishlari haqidagi bilimlar jamlangan.",
+      "fact_ids": [
+        "p1-fact-4"
+      ]
+    },
+    {
+      "title": "Zamonaviy imkoniyatlar",
+      "body": "Komiljon Zufarov O‘zbekistonda birinchi elektron mikroskopiya laboratoriyasini tashkil etgan olim sifatida keltirilgan.\n\nTibbiy emlashlar ayrim xavfli yuqumli kasalliklarning tarqalishini oldini olishda muhim o‘rin tutadi.",
+      "fact_ids": [
+        "p1-fact-5",
+        "p1-fact-6"
+      ]
+    },
+    {
+      "title": "Bilimni hayotga bog‘lash",
+      "body": "Odam organizmining tuzilishi va funksiyasini bilish kasalliklardan saqlanish uchun zarur bilimlar qatoriga kiradi.",
+      "fact_ids": [
+        "p1-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p1-q1",
+      "fact_id": "p1-fact-1",
+      "question_text": "Yurak qanday ishlashini tekshirish qaysi yo‘nalish vazifasi?",
+      "options": [
+        "Botanika",
+        "Mineralogiya",
+        "Fiziologiya",
+        "Anatomiya"
+      ],
+      "correct_answer": "Fiziologiya",
+      "explanation": "Odam organizmini bilish salomatlikni asrashga yordam beradi. Anatomiya organlarning tuzilishini, fiziologiya ularning ishlashini o‘rganadi."
+    },
+    {
+      "key": "p1-q2",
+      "fact_id": "p1-fact-2",
+      "question_text": "Ilmo sinf xonasidagi sharoitning sog‘liqqa ta’sirini o‘rganmoqda. Qaysi yo‘nalish mos?",
+      "options": [
+        "Paleontologiya",
+        "Gigiyena",
+        "Sistematika",
+        "Astronomiya"
+      ],
+      "correct_answer": "Gigiyena",
+      "explanation": "Gigiyena turmush va mehnat sharoitlarining sog‘liqqa ta’sirini o‘rganadi."
+    },
+    {
+      "key": "p1-q3",
+      "fact_id": "p1-fact-3",
+      "question_text": "Har bir bemorga individual yondashish g‘oyasi qaysi olim bilan bog‘langan?",
+      "options": [
+        "Gippokrat",
+        "Karl Linney",
+        "Charlz Darvin",
+        "Aleksandr Gumbold"
+      ],
+      "correct_answer": "Gippokrat",
+      "explanation": "Gippokrat bemorni davolashda unga individual yondashish g‘oyasi bilan darslikda tilga olingan."
+    },
+    {
+      "key": "p1-q4",
+      "fact_id": "p1-fact-4",
+      "question_text": "«Tib qonunlari» asari muallifini tanlang.",
+      "options": [
+        "Karl Linney",
+        "Anton Levenguk",
+        "Ernest Gekkel",
+        "Abu Ali ibn Sino"
+      ],
+      "correct_answer": "Abu Ali ibn Sino",
+      "explanation": "Ibn Sinoning «Tib qonunlari» asarida anatomiya, gigiyena va tibbiyotning boshqa yo‘nalishlari haqidagi bilimlar jamlangan."
+    },
+    {
+      "key": "p1-q5",
+      "fact_id": "p1-fact-5",
+      "question_text": "Darslik O‘zbekistondagi ilk elektron mikroskopiya laboratoriyasini kim bilan bog‘laydi?",
+      "options": [
+        "Karl Linney",
+        "Isaak Nyuton",
+        "Komiljon Zufarov",
+        "Teofrast"
+      ],
+      "correct_answer": "Komiljon Zufarov",
+      "explanation": "Komiljon Zufarov O‘zbekistonda birinchi elektron mikroskopiya laboratoriyasini tashkil etgan olim sifatida keltirilgan."
+    },
+    {
+      "key": "p1-q6",
+      "fact_id": "p1-fact-6",
+      "question_text": "Ayrim yuqumli kasalliklar tarqalishining oldini olishga qaysi chora xizmat qiladi?",
+      "options": [
+        "Shaxsiy gigiyenani tashlash",
+        "Tibbiy emlash",
+        "Kasallikni yashirish",
+        "Tekshiruvdan doim qochish"
+      ],
+      "correct_answer": "Tibbiy emlash",
+      "explanation": "Tibbiy emlashlar ayrim xavfli yuqumli kasalliklarning tarqalishini oldini olishda muhim o‘rin tutadi."
+    },
+    {
+      "key": "p1-q7",
+      "fact_id": "p1-fact-7",
+      "question_text": "Salomatlikni ongli asrash uchun Ilmo qaysi yo‘lni tanlaydi?",
+      "options": [
+        "Organizm tuzilishi va faoliyatini o‘rganish",
+        "Faqat tashqi ko‘rinishga qarash",
+        "Organlar vazifasini inkor etish",
+        "Hech qanday bilim olmaslik"
+      ],
+      "correct_answer": "Organizm tuzilishi va faoliyatini o‘rganish",
+      "explanation": "Odam organizmining tuzilishi va funksiyasini bilish kasalliklardan saqlanish uchun zarur bilimlar qatoriga kiradi."
+    }
+  ]
+}

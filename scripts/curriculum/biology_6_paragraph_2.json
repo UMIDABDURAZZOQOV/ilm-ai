@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-2-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-3",
+  "title": "Gulli o‘simliklar bilan umumiy tanishish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p2-fact-1": {
+      "claim": "Gulli o‘simlik hayoti davomida gullaydi va meva hosil qiladi. Uning umumiy tuzilishida ildiz, poya, barg, gul va meva ajratiladi.",
+      "answer": "Gullash va meva hosil qilish",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-2": {
+      "claim": "Gulli o‘simlik tuzilishidagi ildiz yer ostidagi qism, poya esa barg va gullar joylashadigan qism sifatida ko‘rsatilgan.",
+      "answer": "Ildiz",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-3": {
+      "claim": "Saksovul va qandim qumli issiq joylarga, nilufar esa suv muhitiga moslashgan o‘simliklar misolidir.",
+      "answer": "Nilufar",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-4": {
+      "claim": "Darslik Meksika kaktuslarini tanasida suv saqlaydigan o‘simliklarga misol qilib keltiradi.",
+      "answer": "Kaktus",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-5": {
+      "claim": "Vegetativ organlar o‘sish va rivojlanish bilan bog‘liq. Darslik ildiz va poyani shu guruhga misol qiladi.",
+      "answer": "Ildiz va poya",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-6": {
+      "claim": "Gul, meva va urug‘ generativ organlar guruhiga kiradi; ular o‘simlikning ko‘payishi bilan bog‘liq.",
+      "answer": "Generativ",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-7": {
+      "claim": "Turli ekologik sharoitlarga moslanish o‘simliklarda xilma-xil belgilar shakllanishi bilan bog‘liq.",
+      "answer": "Sharoit xilma-xillikka ta’sir qiladi",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gulli o‘simlikni tanish",
+      "body": "Gulli o‘simlik hayoti davomida gullaydi va meva hosil qiladi. Uning umumiy tuzilishida ildiz, poya, barg, gul va meva ajratiladi.\n\nGulli o‘simlik tuzilishidagi ildiz yer ostidagi qism, poya esa barg va gullar joylashadigan qism sifatida ko‘rsatilgan.",
+      "fact_ids": [
+        "p2-fact-1",
+        "p2-fact-2"
+      ]
+    },
+    {
+      "title": "Turli sharoitga moslanish",
+      "body": "Saksovul va qandim qumli issiq joylarga, nilufar esa suv muhitiga moslashgan o‘simliklar misolidir.\n\nDarslik Meksika kaktuslarini tanasida suv saqlaydigan o‘simliklarga misol qilib keltiradi.",
+      "fact_ids": [
+        "p2-fact-3",
+        "p2-fact-4"
+      ]
+    },
+    {
+      "title": "Organlarni farqlash",
+      "body": "Vegetativ organlar o‘sish va rivojlanish bilan bog‘liq. Darslik ildiz va poyani shu guruhga misol qiladi.\n\nGul, meva va urug‘ generativ organlar guruhiga kiradi; ular o‘simlikning ko‘payishi bilan bog‘liq.\n\nTurli ekologik sharoitlarga moslanish o‘simliklarda xilma-xil belgilar shakllanishi bilan bog‘liq.",
+      "fact_ids": [
+        "p2-fact-5",
+        "p2-fact-6",
+        "p2-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p2-q1",
+      "fact_id": "p2-fact-1",
+      "question_text": "Gulli o‘simlikka xos hayotiy hodisalar juftligini tanlang.",
+      "options": [
+        "Faqat toshga aylanish",
+        "Faqat jun hosil qilish",
+        "Faqat pat chiqarish",
+        "Gullash va meva hosil qilish"
+      ],
+      "correct_answer": "Gullash va meva hosil qilish",
+      "explanation": "Gulli o‘simlik hayoti davomida gullaydi va meva hosil qiladi. Uning umumiy tuzilishida ildiz, poya, barg, gul va meva ajratiladi."
+    },
+    {
+      "key": "p2-q2",
+      "fact_id": "p2-fact-2",
+      "question_text": "Qurtatana tasvirida ildiz tizimi qaysi organ bilan bog‘langan?",
+      "options": [
+        "Meva",
+        "Barg",
+        "Ildiz",
+        "Gul"
+      ],
+      "correct_answer": "Ildiz",
+      "explanation": "Gulli o‘simlik tuzilishidagi ildiz yer ostidagi qism, poya esa barg va gullar joylashadigan qism sifatida ko‘rsatilgan."
+    },
+    {
+      "key": "p2-q3",
+      "fact_id": "p2-fact-3",
+      "question_text": "Ilmo suv yuzasida gullagan o‘simlikni kuzatdi. Darslikdagi qaysi misol mos?",
+      "options": [
+        "Pista",
+        "Nilufar",
+        "Saksovul",
+        "Qandim"
+      ],
+      "correct_answer": "Nilufar",
+      "explanation": "Saksovul va qandim qumli issiq joylarga, nilufar esa suv muhitiga moslashgan o‘simliklar misolidir."
+    },
+    {
+      "key": "p2-q4",
+      "fact_id": "p2-fact-4",
+      "question_text": "Qurg‘oqchilikka moslanishda tanasida suv to‘plash bilan qaysi o‘simlik misol bo‘ladi?",
+      "options": [
+        "Kaktus",
+        "Nilufar",
+        "Olma",
+        "Bug‘doy"
+      ],
+      "correct_answer": "Kaktus",
+      "explanation": "Darslik Meksika kaktuslarini tanasida suv saqlaydigan o‘simliklarga misol qilib keltiradi."
+    },
+    {
+      "key": "p2-q5",
+      "fact_id": "p2-fact-5",
+      "question_text": "Quyidagi juftlikdan vegetativ organlarni toping.",
+      "options": [
+        "Gul va meva",
+        "Meva va urug‘",
+        "Gul va urug‘",
+        "Ildiz va poya"
+      ],
+      "correct_answer": "Ildiz va poya",
+      "explanation": "Vegetativ organlar o‘sish va rivojlanish bilan bog‘liq. Darslik ildiz va poyani shu guruhga misol qiladi."
+    },
+    {
+      "key": "p2-q6",
+      "fact_id": "p2-fact-6",
+      "question_text": "Gul, meva va urug‘ birgalikda qanday organlar deyiladi?",
+      "options": [
+        "Faqat qoplovchi",
+        "Faqat tayanch",
+        "Generativ",
+        "Faqat vegetativ"
+      ],
+      "correct_answer": "Generativ",
+      "explanation": "Gul, meva va urug‘ generativ organlar guruhiga kiradi; ular o‘simlikning ko‘payishi bilan bog‘liq."
+    },
+    {
+      "key": "p2-q7",
+      "fact_id": "p2-fact-7",
+      "question_text": "Turli muhitga moslangan o‘simliklarning belgilarini taqqoslashda qaysi xulosa mos?",
+      "options": [
+        "Barcha o‘simliklar faqat suvda yashaydi",
+        "Sharoit xilma-xillikka ta’sir qiladi",
+        "Muhitning hech qanday ta’siri yo‘q",
+        "Barcha turlar bir xil sharoit talab qiladi"
+      ],
+      "correct_answer": "Sharoit xilma-xillikka ta’sir qiladi",
+      "explanation": "Turli ekologik sharoitlarga moslanish o‘simliklarda xilma-xil belgilar shakllanishi bilan bog‘liq."
+    }
+  ]
+}

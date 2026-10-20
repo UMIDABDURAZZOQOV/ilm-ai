@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-1-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-2",
+  "title": "Botanika – o‘simliklar haqidagi fan",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p1-fact-1": {
+      "claim": "Botanika o‘simliklarning tuzilishi, hayot jarayonlari, tarqalishi va muhofazasini o‘rganadi.",
+      "answer": "Botanika",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-2": {
+      "claim": "Morfologiya o‘simlik organlarining tashqi tuzilishini, anatomiya esa ichki tuzilishini o‘rganadi.",
+      "answer": "Morfologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-3": {
+      "claim": "O‘simliklar fiziologiyasi nafas olish, fotosintez va suv bug‘latish kabi hayotiy jarayonlarni tekshiradi.",
+      "answer": "Fiziologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-4": {
+      "claim": "Sistematika o‘simliklarni belgilari va kelib chiqishiga ko‘ra guruhlaydi. Ekologiya esa ularning tashqi muhit bilan munosabatini o‘rganadi.",
+      "answer": "Sistematika",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-5": {
+      "claim": "Yashil o‘simliklar fotosintezda organik oziq hosil qilib, kislorod ajratadi. Bu boshqa tirik mavjudotlar hayoti uchun ham muhim.",
+      "answer": "Kislorod",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-6": {
+      "claim": "O‘simliklar oziq-ovqat, dori va xomashyo manbai bo‘lish bilan birga tuproqni yemirilishdan saqlashga ham yordam beradi.",
+      "answer": "Yemirilishdan saqlashga yordam beradi",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-7": {
+      "claim": "Yo‘qolish xavfidagi o‘simliklar O‘zbekiston Qizil kitobiga kiritiladi; ularni asrash har bir kishining vazifasidir.",
+      "answer": "Uni asrash va muhofaza qilishni",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-8": {
+      "claim": "Darslik o‘simliklarni o‘rganish tarixini qadimgi yunon olimi Teofrast nomi bilan bog‘laydi.",
+      "answer": "Teofrast",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Botanikaning yo‘nalishlari",
+      "body": "Botanika o‘simliklarning tuzilishi, hayot jarayonlari, tarqalishi va muhofazasini o‘rganadi.\n\nMorfologiya o‘simlik organlarining tashqi tuzilishini, anatomiya esa ichki tuzilishini o‘rganadi.\n\nO‘simliklar fiziologiyasi nafas olish, fotosintez va suv bug‘latish kabi hayotiy jarayonlarni tekshiradi.",
+      "fact_ids": [
+        "p1-fact-1",
+        "p1-fact-2",
+        "p1-fact-3"
+      ]
+    },
+    {
+      "title": "O‘simlik va muhit",
+      "body": "Sistematika o‘simliklarni belgilari va kelib chiqishiga ko‘ra guruhlaydi. Ekologiya esa ularning tashqi muhit bilan munosabatini o‘rganadi.\n\nYashil o‘simliklar fotosintezda organik oziq hosil qilib, kislorod ajratadi. Bu boshqa tirik mavjudotlar hayoti uchun ham muhim.\n\nO‘simliklar oziq-ovqat, dori va xomashyo manbai bo‘lish bilan birga tuproqni yemirilishdan saqlashga ham yordam beradi.",
+      "fact_ids": [
+        "p1-fact-4",
+        "p1-fact-5",
+        "p1-fact-6"
+      ]
+    },
+    {
+      "title": "O‘rganish va muhofaza",
+      "body": "Yo‘qolish xavfidagi o‘simliklar O‘zbekiston Qizil kitobiga kiritiladi; ularni asrash har bir kishining vazifasidir.\n\nDarslik o‘simliklarni o‘rganish tarixini qadimgi yunon olimi Teofrast nomi bilan bog‘laydi.",
+      "fact_ids": [
+        "p1-fact-7",
+        "p1-fact-8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p1-q1",
+      "fact_id": "p1-fact-1",
+      "question_text": "Ilmo o‘simliklar haqidagi tadqiqotni qaysi fan bo‘limiga joylaydi?",
+      "options": [
+        "Botanika",
+        "Zoologiya",
+        "Geologiya",
+        "Astronomiya"
+      ],
+      "correct_answer": "Botanika",
+      "explanation": "Botanika o‘simliklarning tuzilishi, hayot jarayonlari, tarqalishi va muhofazasini o‘rganadi."
+    },
+    {
+      "key": "p1-q2",
+      "fact_id": "p1-fact-2",
+      "question_text": "Bargning tashqi shaklini tasvirlash qaysi yo‘nalishga mos?",
+      "options": [
+        "Anatomiya",
+        "Paleobotanika",
+        "Algologiya",
+        "Morfologiya"
+      ],
+      "correct_answer": "Morfologiya",
+      "explanation": "Morfologiya o‘simlik organlarining tashqi tuzilishini, anatomiya esa ichki tuzilishini o‘rganadi."
+    },
+    {
+      "key": "p1-q3",
+      "fact_id": "p1-fact-3",
+      "question_text": "O‘simlik suvni qanday bug‘latishini o‘rganish qaysi yo‘nalish vazifasi?",
+      "options": [
+        "Faqat paleobotanika",
+        "Faqat lixenologiya",
+        "Fiziologiya",
+        "Faqat morfologiya"
+      ],
+      "correct_answer": "Fiziologiya",
+      "explanation": "O‘simliklar fiziologiyasi nafas olish, fotosintez va suv bug‘latish kabi hayotiy jarayonlarni tekshiradi."
+    },
+    {
+      "key": "p1-q4",
+      "fact_id": "p1-fact-4",
+      "question_text": "O‘simliklarni o‘xshash belgilariga ko‘ra guruhlash bilan qaysi bo‘lim shug‘ullanadi?",
+      "options": [
+        "Geobotanika",
+        "Sistematika",
+        "Fiziologiya",
+        "Anatomiya"
+      ],
+      "correct_answer": "Sistematika",
+      "explanation": "Sistematika o‘simliklarni belgilari va kelib chiqishiga ko‘ra guruhlaydi. Ekologiya esa ularning tashqi muhit bilan munosabatini o‘rganadi."
+    },
+    {
+      "key": "p1-q5",
+      "fact_id": "p1-fact-5",
+      "question_text": "Fotosintezda havoga ajraladigan, nafas olish uchun zarur gazni tanlang.",
+      "options": [
+        "Kislorod",
+        "Azot",
+        "Vodorod",
+        "Metan"
+      ],
+      "correct_answer": "Kislorod",
+      "explanation": "Yashil o‘simliklar fotosintezda organik oziq hosil qilib, kislorod ajratadi. Bu boshqa tirik mavjudotlar hayoti uchun ham muhim."
+    },
+    {
+      "key": "p1-q6",
+      "fact_id": "p1-fact-6",
+      "question_text": "Tuproqni asrashda o‘simliklar qanday foyda keltiradi?",
+      "options": [
+        "Doim yemirilishni tezlashtiradi",
+        "Tuproq bilan hech qanday aloqasi yo‘q",
+        "Har doim tuproqni tuzga aylantiradi",
+        "Yemirilishdan saqlashga yordam beradi"
+      ],
+      "correct_answer": "Yemirilishdan saqlashga yordam beradi",
+      "explanation": "O‘simliklar oziq-ovqat, dori va xomashyo manbai bo‘lish bilan birga tuproqni yemirilishdan saqlashga ham yordam beradi."
+    },
+    {
+      "key": "p1-q7",
+      "fact_id": "p1-fact-7",
+      "question_text": "Noyob o‘simlikni uzish o‘rniga Ilmo nimani tavsiya etadi?",
+      "options": [
+        "Barcha urug‘larini yo‘qotishni",
+        "Yashash joyini buzishni",
+        "Uni asrash va muhofaza qilishni",
+        "Uni ildizi bilan sug‘urishni"
+      ],
+      "correct_answer": "Uni asrash va muhofaza qilishni",
+      "explanation": "Yo‘qolish xavfidagi o‘simliklar O‘zbekiston Qizil kitobiga kiritiladi; ularni asrash har bir kishining vazifasidir."
+    },
+    {
+      "key": "p1-q8",
+      "fact_id": "p1-fact-8",
+      "question_text": "Darslikda qadimgi botanika tarixida qaysi olim tilga olingan?",
+      "options": [
+        "Mendeleyev",
+        "Teofrast",
+        "Karl Linney",
+        "Galiley"
+      ],
+      "correct_answer": "Teofrast",
+      "explanation": "Darslik o‘simliklarni o‘rganish tarixini qadimgi yunon olimi Teofrast nomi bilan bog‘laydi."
+    }
+  ]
+}

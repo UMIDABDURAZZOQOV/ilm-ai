@@ -35,14 +35,35 @@ def citation(book, topic, source):
         "authors": book["authors"],
         "year": book["year"],
         "file_name": book["file_name"],
-        "sha256": book["sha256"],
+        **(
+            {"sha256": book["sha256"]}
+            if "sha256" in book
+            else {
+                "source_set_sha256": book["source_set_sha256"],
+                "source_segments": [
+                    {
+                        "file_name": p["file_name"],
+                        "sha256": p["sha256"],
+                        "original_pdf_start": p["start"],
+                        "original_pdf_end": p["end"],
+                        "segment_pdf_pages": [
+                            n - p["start"] + 1
+                            for n in source["pdf_pages"]
+                            if p["start"] <= n <= p["end"]
+                        ],
+                    }
+                    for p in book["segments"]
+                    if any(p["start"] <= n <= p["end"] for n in source["pdf_pages"])
+                ],
+            }
+        ),
         "chapter_id": topic["chapter_id"],
         "topic_id": topic["id"],
         **source,
     }
 
 
-def import_curriculum(db, catalog, lesson):
+def import_curriculum(db, catalog, lesson, *, allow_source_upgrade=False):
     """Caller controls one transaction. Never deletes or rewrites legacy progress.
 
     Published lessons are immutable; changed content requires a new reviewed key.
@@ -78,7 +99,22 @@ def import_curriculum(db, catalog, lesson):
             .first()
         )
         if course and course.catalog != item:
-            raise ValueError("catalog_changed_requires_reviewed_migration")
+            # Only previously unread, empty grade shells may acquire a verified
+            # source. Existing catalogues/content/progress remain immutable.
+            if not (
+                allow_source_upgrade
+                and course.status.startswith("blocked_")
+                and not course.catalog["records"]
+                and item["status"] == "mapped"
+                and not db.query(CurriculumChapter)
+                .filter_by(course_id=course.id)
+                .first()
+            ):
+                raise ValueError("catalog_changed_requires_reviewed_migration")
+            course.catalog = item
+            course.title_uz = item["title"]
+            course.source_book_id = item["id"]
+            course.status = item["status"]
         if not course:
             course = CurriculumCourse(
                 subject_id=subject.id,
@@ -91,7 +127,7 @@ def import_curriculum(db, catalog, lesson):
             db.add(course)
             db.flush()
         for record in item["records"]:
-            if record["kind"] != "chapter":
+            if record["kind"] not in {"chapter", "introduction"}:
                 continue
             chapter = (
                 db.query(CurriculumChapter)
@@ -225,6 +261,45 @@ def question_sources(db, ids):
         for qid, ref in row.question_references.items()
         if int(qid) in ids
     }
+
+
+def lessons_after_source_gaps(db, unit_ids):
+    """An authored later paragraph must never bypass an unwritten earlier one."""
+    rows = (
+        db.query(
+            CurriculumChapter.unit_id,
+            CurriculumTopic.id,
+            CurriculumTopic.source,
+            CurriculumLessonSource.lesson_id,
+        )
+        .join(CurriculumTopic, CurriculumTopic.chapter_id == CurriculumChapter.id)
+        .outerjoin(
+            CurriculumLessonSource,
+            CurriculumLessonSource.topic_id == CurriculumTopic.id,
+        )
+        .filter(
+            CurriculumChapter.unit_id.in_(unit_ids), CurriculumTopic.kind == "topic"
+        )
+        .all()
+    )
+    units = {}
+    for unit, topic, source, lesson in rows:
+        item = units.setdefault(unit, {}).setdefault(
+            topic, {"source": source, "lessons": []}
+        )
+        if lesson:
+            item["lessons"].append(lesson)
+    blocked = set()
+    for topics in units.values():
+        gap = False
+        for item in sorted(
+            topics.values(), key=lambda item: item["source"]["paragraph"]
+        ):
+            if gap:
+                blocked.update(item["lessons"])
+            if not item["lessons"]:
+                gap = True
+    return blocked
 
 
 def chapter_coverage_map(db, unit_ids):

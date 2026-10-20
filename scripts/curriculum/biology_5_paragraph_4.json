@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-4-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-5",
+  "title": "Hujayra – tiriklikning asosi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p4-fact-1": {
+      "claim": "Hujayra tiriklikning eng kichik birligidir. Hujayralarning shakli bajaradigan vazifasiga qarab farqlanadi.",
+      "answer": "Hujayra",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-2": {
+      "claim": "Eritrotsitlar kislorod tashishda, leykotsitlar esa mikroblardan himoyalanishda qatnashadi.",
+      "answer": "Leykotsitlar",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-3": {
+      "claim": "Prokariotlarda shakllangan yadro bo‘lmaydi, eukariotlarda esa yadro shakllangan bo‘ladi.",
+      "answer": "Eukariotlar",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-4": {
+      "claim": "Eukariot hujayrasining asosiy qismlari membrana, sitoplazma va yadrodir. Membrana moddalarni tanlab o‘tkazadi.",
+      "answer": "Membrana",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-5": {
+      "claim": "Yadro irsiy axborotni saqlaydi va hujayra faoliyatini boshqarishda ishtirok etadi.",
+      "answer": "Yadro",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-6": {
+      "claim": "O‘simlik hujayrasida sellyuloza qobiq, plastidalar va hujayra shirasi bilan to‘lgan yirik vakuola bo‘lishi uning muhim belgilaridir.",
+      "answer": "Sellyuloza",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-7": {
+      "claim": "O‘xshash vazifali hujayralar to‘qimaga, to‘qimalar organga, organlar yaxlit organizmga birlashadi.",
+      "answer": "To‘qimalar organni hosil qiladi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hujayra va vazifa",
+      "body": "Hujayra tiriklikning eng kichik birligidir. Hujayralarning shakli bajaradigan vazifasiga qarab farqlanadi.\n\nEritrotsitlar kislorod tashishda, leykotsitlar esa mikroblardan himoyalanishda qatnashadi.",
+      "fact_ids": [
+        "p4-fact-1",
+        "p4-fact-2"
+      ]
+    },
+    {
+      "title": "Asosiy qismlar",
+      "body": "Prokariotlarda shakllangan yadro bo‘lmaydi, eukariotlarda esa yadro shakllangan bo‘ladi.\n\nEukariot hujayrasining asosiy qismlari membrana, sitoplazma va yadrodir. Membrana moddalarni tanlab o‘tkazadi.\n\nYadro irsiy axborotni saqlaydi va hujayra faoliyatini boshqarishda ishtirok etadi.",
+      "fact_ids": [
+        "p4-fact-3",
+        "p4-fact-4",
+        "p4-fact-5"
+      ]
+    },
+    {
+      "title": "O‘simlik va hayvon hujayrasi",
+      "body": "O‘simlik hujayrasida sellyuloza qobiq, plastidalar va hujayra shirasi bilan to‘lgan yirik vakuola bo‘lishi uning muhim belgilaridir.",
+      "fact_ids": [
+        "p4-fact-6"
+      ]
+    },
+    {
+      "title": "Hujayradan organizmgacha",
+      "body": "O‘xshash vazifali hujayralar to‘qimaga, to‘qimalar organga, organlar yaxlit organizmga birlashadi.",
+      "fact_ids": [
+        "p4-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p4-q1",
+      "fact_id": "p4-fact-1",
+      "question_text": "Tirik organizmning eng kichik birligini tanlang.",
+      "options": [
+        "Butun organizm",
+        "Barcha turlar",
+        "Hujayra",
+        "Butun organ"
+      ],
+      "correct_answer": "Hujayra",
+      "explanation": "Hujayra tiriklikning eng kichik birligidir. Hujayralarning shakli bajaradigan vazifasiga qarab farqlanadi."
+    },
+    {
+      "key": "p4-q2",
+      "fact_id": "p4-fact-2",
+      "question_text": "Mikroblardan himoyalanish bilan qaysi hujayralar bog‘liq?",
+      "options": [
+        "Faqat yog‘ hujayrasi",
+        "Leykotsitlar",
+        "Eritrotsitlar",
+        "Faqat barg og‘izchasi"
+      ],
+      "correct_answer": "Leykotsitlar",
+      "explanation": "Eritrotsitlar kislorod tashishda, leykotsitlar esa mikroblardan himoyalanishda qatnashadi."
+    },
+    {
+      "key": "p4-q3",
+      "fact_id": "p4-fact-3",
+      "question_text": "Shakllangan yadrosi bor organizmlar qaysi guruhga kiradi?",
+      "options": [
+        "Eukariotlar",
+        "Prokariotlar",
+        "Faqat viruslar",
+        "Jonsiz jismlar"
+      ],
+      "correct_answer": "Eukariotlar",
+      "explanation": "Prokariotlarda shakllangan yadro bo‘lmaydi, eukariotlarda esa yadro shakllangan bo‘ladi."
+    },
+    {
+      "key": "p4-q4",
+      "fact_id": "p4-fact-4",
+      "question_text": "Hujayrani tashqi tomondan o‘rab moddalar o‘tishini tanlaydigan qismni toping.",
+      "options": [
+        "Yadro",
+        "Faqat vakuola",
+        "Faqat plastida",
+        "Membrana"
+      ],
+      "correct_answer": "Membrana",
+      "explanation": "Eukariot hujayrasining asosiy qismlari membrana, sitoplazma va yadrodir. Membrana moddalarni tanlab o‘tkazadi."
+    },
+    {
+      "key": "p4-q5",
+      "fact_id": "p4-fact-5",
+      "question_text": "Irsiy axborotni saqlash vazifasi qaysi asosiy qismga tegishli?",
+      "options": [
+        "Faqat suv",
+        "Faqat sellyuloza qobiq",
+        "Yadro",
+        "Faqat hujayra tashqarisi"
+      ],
+      "correct_answer": "Yadro",
+      "explanation": "Yadro irsiy axborotni saqlaydi va hujayra faoliyatini boshqarishda ishtirok etadi."
+    },
+    {
+      "key": "p4-q6",
+      "fact_id": "p4-fact-6",
+      "question_text": "O‘simlik hujayrasiga qo‘shimcha mustahkamlik beradigan qobiq qanday modda bilan bog‘liq?",
+      "options": [
+        "Faqat osh tuzi",
+        "Sellyuloza",
+        "Faqat gemoglobin",
+        "Faqat keratin"
+      ],
+      "correct_answer": "Sellyuloza",
+      "explanation": "O‘simlik hujayrasida sellyuloza qobiq, plastidalar va hujayra shirasi bilan to‘lgan yirik vakuola bo‘lishi uning muhim belgilaridir."
+    },
+    {
+      "key": "p4-q7",
+      "fact_id": "p4-fact-7",
+      "question_text": "Zarang bargining turli to‘qimalardan tuzilishi qaysi bog‘lanishga misol?",
+      "options": [
+        "To‘qimalar organni hosil qiladi",
+        "Organlar alohida molekulani hosil qiladi",
+        "Hujayralar doim bir-biriga aloqasiz",
+        "Faqat biosfera hujayrani hosil qiladi"
+      ],
+      "correct_answer": "To‘qimalar organni hosil qiladi",
+      "explanation": "O‘xshash vazifali hujayralar to‘qimaga, to‘qimalar organga, organlar yaxlit organizmga birlashadi."
+    }
+  ]
+}

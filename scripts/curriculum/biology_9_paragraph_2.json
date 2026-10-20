@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-2-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-4",
+  "title": "Tiriklikning tuzilish darajalari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p2-fact-1": {
+      "claim": "Molekula darajasida oqsil, nuklein kislota, lipid va uglevod kabi organik moddalar bilan bog‘liq jarayonlar o‘rganiladi.",
+      "answer": "Molekula",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-2": {
+      "claim": "Hujayra organizmlarning tuzilish, rivojlanish va funksional birligidir.",
+      "answer": "Hujayra",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-3": {
+      "claim": "Mustaqil hayot kechiruvchi bir yoki ko‘p hujayrali tirik tizim organizmdir; bu darajadagi birlik individ hisoblanadi.",
+      "answer": "Organizm",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-4": {
+      "claim": "Bir turga mansub, muayyan hududda uzoq yashovchi va erkin chatishadigan individlar guruhi populyatsiyadir.",
+      "answer": "Populyatsiya",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-5": {
+      "claim": "Biogeotsenoz turli organizmlar va ularning yashash sharoitlarini bir tizimda birlashtiradi.",
+      "answer": "Biogeotsenoz",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-6": {
+      "claim": "Barcha biogeotsenozlar yig‘indisi biosferani tashkil etadi; bu daraja sayyoradagi hayotni qamraydi.",
+      "answer": "Biosfera",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kichik darajalar",
+      "body": "Molekula darajasida oqsil, nuklein kislota, lipid va uglevod kabi organik moddalar bilan bog‘liq jarayonlar o‘rganiladi.\n\nHujayra organizmlarning tuzilish, rivojlanish va funksional birligidir.",
+      "fact_ids": [
+        "p2-fact-1",
+        "p2-fact-2"
+      ]
+    },
+    {
+      "title": "Organizm va populyatsiya",
+      "body": "Mustaqil hayot kechiruvchi bir yoki ko‘p hujayrali tirik tizim organizmdir; bu darajadagi birlik individ hisoblanadi.\n\nBir turga mansub, muayyan hududda uzoq yashovchi va erkin chatishadigan individlar guruhi populyatsiyadir.",
+      "fact_ids": [
+        "p2-fact-3",
+        "p2-fact-4"
+      ]
+    },
+    {
+      "title": "Yirik tizimlar",
+      "body": "Biogeotsenoz turli organizmlar va ularning yashash sharoitlarini bir tizimda birlashtiradi.\n\nBarcha biogeotsenozlar yig‘indisi biosferani tashkil etadi; bu daraja sayyoradagi hayotni qamraydi.",
+      "fact_ids": [
+        "p2-fact-5",
+        "p2-fact-6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p2-q1",
+      "fact_id": "p2-fact-1",
+      "question_text": "Oqsil va nuklein kislotalarni o‘rganish qaysi darajaga bevosita mos?",
+      "options": [
+        "Molekula",
+        "Populyatsiya",
+        "Biogeotsenoz",
+        "Biosfera"
+      ],
+      "correct_answer": "Molekula",
+      "explanation": "Molekula darajasida oqsil, nuklein kislota, lipid va uglevod kabi organik moddalar bilan bog‘liq jarayonlar o‘rganiladi."
+    },
+    {
+      "key": "p2-q2",
+      "fact_id": "p2-fact-2",
+      "question_text": "Tuzilish va funksiyaning asosiy birligi qaysi javobda berilgan?",
+      "options": [
+        "Butun biosfera",
+        "Tog‘ jinslari",
+        "Faqat populyatsiya",
+        "Hujayra"
+      ],
+      "correct_answer": "Hujayra",
+      "explanation": "Hujayra organizmlarning tuzilish, rivojlanish va funksional birligidir."
+    },
+    {
+      "key": "p2-q3",
+      "fact_id": "p2-fact-3",
+      "question_text": "Bitta mustaqil quyon tiriklikning qaysi darajasiga misol?",
+      "options": [
+        "Butun biosfera",
+        "Faqat organoid",
+        "Organizm",
+        "Faqat molekula"
+      ],
+      "correct_answer": "Organizm",
+      "explanation": "Mustaqil hayot kechiruvchi bir yoki ko‘p hujayrali tirik tizim organizmdir; bu darajadagi birlik individ hisoblanadi."
+    },
+    {
+      "key": "p2-q4",
+      "fact_id": "p2-fact-4",
+      "question_text": "Bir tur vakillarining uzoq vaqt bir hududda yashovchi guruhini tanlang.",
+      "options": [
+        "Barcha sayyoralar",
+        "Populyatsiya",
+        "Bitta organ",
+        "Bitta hujayra"
+      ],
+      "correct_answer": "Populyatsiya",
+      "explanation": "Bir turga mansub, muayyan hududda uzoq yashovchi va erkin chatishadigan individlar guruhi populyatsiyadir."
+    },
+    {
+      "key": "p2-q5",
+      "fact_id": "p2-fact-5",
+      "question_text": "Turli turlarni yashash muhiti bilan birga ko‘rib chiqish qaysi darajaga mos?",
+      "options": [
+        "Biogeotsenoz",
+        "Faqat molekula",
+        "Faqat yadro",
+        "Faqat individ"
+      ],
+      "correct_answer": "Biogeotsenoz",
+      "explanation": "Biogeotsenoz turli organizmlar va ularning yashash sharoitlarini bir tizimda birlashtiradi."
+    },
+    {
+      "key": "p2-q6",
+      "fact_id": "p2-fact-6",
+      "question_text": "Barcha biogeotsenozlarni birlashtiradigan darajani tanlang.",
+      "options": [
+        "Ribosoma",
+        "To‘qima",
+        "Bitta populyatsiya",
+        "Biosfera"
+      ],
+      "correct_answer": "Biosfera",
+      "explanation": "Barcha biogeotsenozlar yig‘indisi biosferani tashkil etadi; bu daraja sayyoradagi hayotni qamraydi."
+    }
+  ]
+}

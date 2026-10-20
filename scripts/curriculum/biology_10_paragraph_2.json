@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-2-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-3",
+  "title": "Hayot mohiyati va tiriklikning xususiyatlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p2-fact-1": {
+      "claim": "Tirik tizim tashqi muhitdan modda va energiya olib, almashinuv mahsulotlarini chiqaradi; shu sabab u ochiq tizimdir.",
+      "answer": "Ochiq tizimligini",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-2": {
+      "claim": "Ko‘payishda nuklein kislotalardagi irsiy axborot asosida o‘xshash avlod hosil bo‘ladi.",
+      "answer": "Irsiy axborot",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-3": {
+      "claim": "Gomeostaz muhit o‘zgarishiga qaramay ichki holatning muayyan barqarorligini saqlashdir.",
+      "answer": "Gomeostaz",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-4": {
+      "claim": "Irsiyat belgi-xususiyatlarning avlodlarga o‘tishi, o‘zgaruvchanlik yangi belgi-xususiyatlar namoyon bo‘lishidir.",
+      "answer": "Irsiyat",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-5": {
+      "claim": "O‘xshash tuzilish va vazifaga ega hujayralar to‘qima, bir necha to‘qimadan tuzilgan muayyan qism esa organ darajasini hosil qiladi.",
+      "answer": "Organ",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-6": {
+      "claim": "Muayyan hududdagi bir tur individlari populyatsiya hosil qiladi; turli turlar va muhit birligi esa ekosistemadir.",
+      "answer": "Ekosistema",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-7": {
+      "claim": "Biosfera Yerdagi hayotning barcha ko‘rinishlarini qamraydigan eng yuqori tuzilish darajasidir.",
+      "answer": "Biosfera",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tirik tizimning xossalari",
+      "body": "Tirik tizim tashqi muhitdan modda va energiya olib, almashinuv mahsulotlarini chiqaradi; shu sabab u ochiq tizimdir.\n\nKo‘payishda nuklein kislotalardagi irsiy axborot asosida o‘xshash avlod hosil bo‘ladi.",
+      "fact_ids": [
+        "p2-fact-1",
+        "p2-fact-2"
+      ]
+    },
+    {
+      "title": "Barqarorlik va o‘zgarish",
+      "body": "Gomeostaz muhit o‘zgarishiga qaramay ichki holatning muayyan barqarorligini saqlashdir.\n\nIrsiyat belgi-xususiyatlarning avlodlarga o‘tishi, o‘zgaruvchanlik yangi belgi-xususiyatlar namoyon bo‘lishidir.",
+      "fact_ids": [
+        "p2-fact-3",
+        "p2-fact-4"
+      ]
+    },
+    {
+      "title": "Hujayradan organizmgacha",
+      "body": "O‘xshash tuzilish va vazifaga ega hujayralar to‘qima, bir necha to‘qimadan tuzilgan muayyan qism esa organ darajasini hosil qiladi.",
+      "fact_ids": [
+        "p2-fact-5"
+      ]
+    },
+    {
+      "title": "Populyatsiyadan biosferagacha",
+      "body": "Muayyan hududdagi bir tur individlari populyatsiya hosil qiladi; turli turlar va muhit birligi esa ekosistemadir.\n\nBiosfera Yerdagi hayotning barcha ko‘rinishlarini qamraydigan eng yuqori tuzilish darajasidir.",
+      "fact_ids": [
+        "p2-fact-6",
+        "p2-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p2-q1",
+      "fact_id": "p2-fact-1",
+      "question_text": "Organizmning muhit bilan modda va energiya almashishi nimani bildiradi?",
+      "options": [
+        "Muhitdan butunlay ajralganini",
+        "Hech qachon energiya olmasligini",
+        "Barcha jarayonlar to‘xtaganini",
+        "Ochiq tizimligini"
+      ],
+      "correct_answer": "Ochiq tizimligini",
+      "explanation": "Tirik tizim tashqi muhitdan modda va energiya olib, almashinuv mahsulotlarini chiqaradi; shu sabab u ochiq tizimdir."
+    },
+    {
+      "key": "p2-q2",
+      "fact_id": "p2-fact-2",
+      "question_text": "Ko‘payishda avlod davomiyligi qaysi axborot bilan bog‘liq?",
+      "options": [
+        "Faqat ob-havo xabari",
+        "Faqat tasodifiy harorat",
+        "Irsiy axborot",
+        "Faqat tashqi shovqin"
+      ],
+      "correct_answer": "Irsiy axborot",
+      "explanation": "Ko‘payishda nuklein kislotalardagi irsiy axborot asosida o‘xshash avlod hosil bo‘ladi."
+    },
+    {
+      "key": "p2-q3",
+      "fact_id": "p2-fact-3",
+      "question_text": "Ichki holatni me’yorda tutish xususiyatini belgilang.",
+      "options": [
+        "Faqat geografik tarqalish",
+        "Gomeostaz",
+        "Sistematika",
+        "Faqat tashqi ko‘rinish"
+      ],
+      "correct_answer": "Gomeostaz",
+      "explanation": "Gomeostaz muhit o‘zgarishiga qaramay ichki holatning muayyan barqarorligini saqlashdir."
+    },
+    {
+      "key": "p2-q4",
+      "fact_id": "p2-fact-4",
+      "question_text": "Belgilarning nasldan naslga o‘tishi qanday ataladi?",
+      "options": [
+        "Irsiyat",
+        "Faqat o‘sish",
+        "Faqat nafas olish",
+        "Faqat ayirish"
+      ],
+      "correct_answer": "Irsiyat",
+      "explanation": "Irsiyat belgi-xususiyatlarning avlodlarga o‘tishi, o‘zgaruvchanlik yangi belgi-xususiyatlar namoyon bo‘lishidir."
+    },
+    {
+      "key": "p2-q5",
+      "fact_id": "p2-fact-5",
+      "question_text": "Yurakni hujayra emas, qaysi daraja bilan belgilash to‘g‘ri?",
+      "options": [
+        "Faqat molekula",
+        "Populyatsiya",
+        "Biosfera",
+        "Organ"
+      ],
+      "correct_answer": "Organ",
+      "explanation": "O‘xshash tuzilish va vazifaga ega hujayralar to‘qima, bir necha to‘qimadan tuzilgan muayyan qism esa organ darajasini hosil qiladi."
+    },
+    {
+      "key": "p2-q6",
+      "fact_id": "p2-fact-6",
+      "question_text": "Bir maydondagi turli turlar va ularning muhiti birgalikda nima?",
+      "options": [
+        "Bitta hujayra",
+        "Faqat molekula",
+        "Ekosistema",
+        "Bitta individ"
+      ],
+      "correct_answer": "Ekosistema",
+      "explanation": "Muayyan hududdagi bir tur individlari populyatsiya hosil qiladi; turli turlar va muhit birligi esa ekosistemadir."
+    },
+    {
+      "key": "p2-q7",
+      "fact_id": "p2-fact-7",
+      "question_text": "Butun Yerdagi hayotni qamrab oluvchi darajani toping.",
+      "options": [
+        "Bitta populyatsiya",
+        "Biosfera",
+        "Bitta organ",
+        "Bitta hujayra"
+      ],
+      "correct_answer": "Biosfera",
+      "explanation": "Biosfera Yerdagi hayotning barcha ko‘rinishlarini qamraydigan eng yuqori tuzilish darajasidir."
+    }
+  ]
+}

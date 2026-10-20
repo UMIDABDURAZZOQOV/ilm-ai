@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-1-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-2",
+  "title": "Zoologiya fani va uning vazifalari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p1-fact-1": {
+      "claim": "Zoologiya hayvonlarning tuzilishi, hayot kechirishi, ko‘payishi, rivojlanishi va tarqalishini o‘rganadi.",
+      "answer": "Zoologiya",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-2": {
+      "claim": "Karl Linney hayvonlarni tur, urug‘, turkum va sinf kabi guruhlarga ajratib o‘rganishni taklif qilgan olim sifatida berilgan.",
+      "answer": "Karl Linney",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          4
+        ],
+        "printed_pages": [
+          4
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-3": {
+      "claim": "Harorat, namlik va yorug‘lik hayvon yashaydigan muhitning ekologik omillaridir.",
+      "answer": "Ekologik omillar",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-4": {
+      "claim": "O‘simlik bilan oziqlanadigan hayvon o‘txo‘r, boshqa hayvonni tutib yeydigan hayvon yirtqich deyiladi.",
+      "answer": "Yirtqich",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-5": {
+      "claim": "Parazitlar boshqa organizm hisobiga yashaydi; ular uchun xo‘jayin organizmi yashash muhiti ham bo‘ladi.",
+      "answer": "Boshqa tirik organizm",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          5
+        ],
+        "printed_pages": [
+          5
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-6": {
+      "claim": "Organik qoldiqlarni iste’mol qiladigan yoki suvdan filtrlab oladigan ayrim hayvonlar muhitni tozalashga yordam beradi.",
+      "answer": "Muhitni tozalashga yordam beradi",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-7": {
+      "claim": "Arilar va kapalaklar gullarning changlanishida qatnashib, o‘simliklarning hosildorligiga yordam beradi.",
+      "answer": "Changlatish",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p1-fact-8": {
+      "claim": "Qo‘riqxonalar va milliy bog‘lar noyob hayvonlarni va ularning yashash joylarini asrashga xizmat qiladi.",
+      "answer": "Qo‘riqxona tashkil etish",
+      "source": {
+        "paragraph": 1,
+        "pdf_pages": [
+          6
+        ],
+        "printed_pages": [
+          6
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Zoologiya nimani o‘rganadi?",
+      "body": "Zoologiya hayvonlarning tuzilishi, hayot kechirishi, ko‘payishi, rivojlanishi va tarqalishini o‘rganadi.\n\nKarl Linney hayvonlarni tur, urug‘, turkum va sinf kabi guruhlarga ajratib o‘rganishni taklif qilgan olim sifatida berilgan.",
+      "fact_ids": [
+        "p1-fact-1",
+        "p1-fact-2"
+      ]
+    },
+    {
+      "title": "Muhit va oziqlanish",
+      "body": "Harorat, namlik va yorug‘lik hayvon yashaydigan muhitning ekologik omillaridir.\n\nO‘simlik bilan oziqlanadigan hayvon o‘txo‘r, boshqa hayvonni tutib yeydigan hayvon yirtqich deyiladi.\n\nParazitlar boshqa organizm hisobiga yashaydi; ular uchun xo‘jayin organizmi yashash muhiti ham bo‘ladi.",
+      "fact_ids": [
+        "p1-fact-3",
+        "p1-fact-4",
+        "p1-fact-5"
+      ]
+    },
+    {
+      "title": "Tabiatdagi vazifa",
+      "body": "Organik qoldiqlarni iste’mol qiladigan yoki suvdan filtrlab oladigan ayrim hayvonlar muhitni tozalashga yordam beradi.\n\nArilar va kapalaklar gullarning changlanishida qatnashib, o‘simliklarning hosildorligiga yordam beradi.",
+      "fact_ids": [
+        "p1-fact-6",
+        "p1-fact-7"
+      ]
+    },
+    {
+      "title": "Hayvonlarni asrash",
+      "body": "Qo‘riqxonalar va milliy bog‘lar noyob hayvonlarni va ularning yashash joylarini asrashga xizmat qiladi.",
+      "fact_ids": [
+        "p1-fact-8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p1-q1",
+      "fact_id": "p1-fact-1",
+      "question_text": "Ilmo hayvonlarning hayotini o‘rganuvchi bo‘limni izlayapti. Qaysi biri mos?",
+      "options": [
+        "Botanika",
+        "Geometriya",
+        "Mineralogiya",
+        "Zoologiya"
+      ],
+      "correct_answer": "Zoologiya",
+      "explanation": "Zoologiya hayvonlarning tuzilishi, hayot kechirishi, ko‘payishi, rivojlanishi va tarqalishini o‘rganadi."
+    },
+    {
+      "key": "p1-q2",
+      "fact_id": "p1-fact-2",
+      "question_text": "Hayvonlarni guruhlarga ajratib o‘rganish tarixida darslik qaysi olimni ko‘rsatadi?",
+      "options": [
+        "Dmitriy Mendeleyev",
+        "Yuriy Gagarin",
+        "Karl Linney",
+        "Isaak Nyuton"
+      ],
+      "correct_answer": "Karl Linney",
+      "explanation": "Karl Linney hayvonlarni tur, urug‘, turkum va sinf kabi guruhlarga ajratib o‘rganishni taklif qilgan olim sifatida berilgan."
+    },
+    {
+      "key": "p1-q3",
+      "fact_id": "p1-fact-3",
+      "question_text": "Ilmo namlik va haroratni yozib oldi. Bular qaysi guruhga kiradi?",
+      "options": [
+        "Sistematik sinflar",
+        "Ekologik omillar",
+        "Organlar sistemalari",
+        "Hujayra organoidlari"
+      ],
+      "correct_answer": "Ekologik omillar",
+      "explanation": "Harorat, namlik va yorug‘lik hayvon yashaydigan muhitning ekologik omillaridir."
+    },
+    {
+      "key": "p1-q4",
+      "fact_id": "p1-fact-4",
+      "question_text": "Boshqa hayvonni tutib oziqlanadigan hayvonni qaysi guruhga kiritamiz?",
+      "options": [
+        "Yirtqich",
+        "O‘txo‘r",
+        "Yashil o‘simlik",
+        "Avtotrof bakteriya"
+      ],
+      "correct_answer": "Yirtqich",
+      "explanation": "O‘simlik bilan oziqlanadigan hayvon o‘txo‘r, boshqa hayvonni tutib yeydigan hayvon yirtqich deyiladi."
+    },
+    {
+      "key": "p1-q5",
+      "fact_id": "p1-fact-5",
+      "question_text": "Parazit hayvonning yashash muhiti bo‘lishi mumkin bo‘lgan javobni tanlang.",
+      "options": [
+        "Faqat quruq tosh",
+        "Faqat bo‘sh fazo",
+        "Faqat shisha idishning o‘zi",
+        "Boshqa tirik organizm"
+      ],
+      "correct_answer": "Boshqa tirik organizm",
+      "explanation": "Parazitlar boshqa organizm hisobiga yashaydi; ular uchun xo‘jayin organizmi yashash muhiti ham bo‘ladi."
+    },
+    {
+      "key": "p1-q6",
+      "fact_id": "p1-fact-6",
+      "question_text": "Organik qoldiqlarni kamaytiradigan hayvonlarning foydasi nimada?",
+      "options": [
+        "Fotosintezni to‘liq to‘xtatadi",
+        "Suvni doimo ifloslantiradi",
+        "Muhitni tozalashga yordam beradi",
+        "Barcha o‘simliklarni yo‘q qiladi"
+      ],
+      "correct_answer": "Muhitni tozalashga yordam beradi",
+      "explanation": "Organik qoldiqlarni iste’mol qiladigan yoki suvdan filtrlab oladigan ayrim hayvonlar muhitni tozalashga yordam beradi."
+    },
+    {
+      "key": "p1-q7",
+      "fact_id": "p1-fact-7",
+      "question_text": "Gullar orasida uchadigan arining qaysi xizmati o‘simlikka foydali?",
+      "options": [
+        "Barglarni butunlay yo‘qotish",
+        "Changlatish",
+        "Ildizni uzish",
+        "Tuproqni zaharlash"
+      ],
+      "correct_answer": "Changlatish",
+      "explanation": "Arilar va kapalaklar gullarning changlanishida qatnashib, o‘simliklarning hosildorligiga yordam beradi."
+    },
+    {
+      "key": "p1-q8",
+      "fact_id": "p1-fact-8",
+      "question_text": "Noyob hayvonning yashash joyini saqlash uchun qaysi chora mos?",
+      "options": [
+        "Qo‘riqxona tashkil etish",
+        "Ovni nazoratsiz ko‘paytirish",
+        "Yashash joyini buzish",
+        "Barcha oziq manbalarini yo‘qotish"
+      ],
+      "correct_answer": "Qo‘riqxona tashkil etish",
+      "explanation": "Qo‘riqxonalar va milliy bog‘lar noyob hayvonlarni va ularning yashash joylarini asrashga xizmat qiladi."
+    }
+  ]
+}

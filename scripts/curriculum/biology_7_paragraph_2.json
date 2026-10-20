@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-2-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-3",
+  "title": "Hayvon organizmining tuzilishi, hayvonlarni klassifikatsiya qilish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p2-fact-1": {
+      "claim": "Hayvon va o‘simlik organizmi hujayralardan tuzilgan. Hayvon hujayrasida yashil xloroplastlar bo‘lmaydi.",
+      "answer": "Xloroplast",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          7
+        ],
+        "printed_pages": [
+          7
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-2": {
+      "claim": "Tuzilishi va vazifasi o‘xshash hujayralar to‘qima hosil qiladi. Ko‘p hujayrali hayvonlarda epiteliy, biriktiruvchi, muskul va nerv to‘qimalari bor.",
+      "answer": "To‘qima",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-3": {
+      "claim": "Epiteliy sirtlarni qoplab himoya qiladi; biriktiruvchi to‘qimalar orasida qon, suyak va tog‘ay ham bor.",
+      "answer": "Biriktiruvchi",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          8
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-4": {
+      "claim": "Muskul to‘qimasi qisqarib harakatni ta’minlaydi. Nerv to‘qimasi esa ta’sirni qabul qiladi va o‘tkazadi.",
+      "answer": "Nerv",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-5": {
+      "claim": "Bir necha to‘qima organ hosil qiladi. Birgalikda o‘xshash vazifani bajaradigan organlar organlar sistemasiga birlashadi.",
+      "answer": "Hazm qilish sistemasiga",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-6": {
+      "claim": "Hayvonlarni guruhlashda eng kichik sistematik birlik turdir. Yaqin turlar urug‘ga, urug‘lar oilaga birlashtiriladi.",
+      "answer": "Tur → urug‘",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-7": {
+      "claim": "Sistematik guruhlar kichikdan kattaga tur, urug‘, oila, turkum, sinf, tip tartibida ketadi.",
+      "answer": "Sinf",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-8": {
+      "claim": "Turlar lotin tilida ikki nom bilan, undan yuqori sistematik guruhlar esa bitta nom bilan ataladi.",
+      "answer": "Tur",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hujayradan boshlaymiz",
+      "body": "Hayvon va o‘simlik organizmi hujayralardan tuzilgan. Hayvon hujayrasida yashil xloroplastlar bo‘lmaydi.",
+      "fact_ids": [
+        "p2-fact-1"
+      ]
+    },
+    {
+      "title": "To‘qimalar vazifasi",
+      "body": "Tuzilishi va vazifasi o‘xshash hujayralar to‘qima hosil qiladi. Ko‘p hujayrali hayvonlarda epiteliy, biriktiruvchi, muskul va nerv to‘qimalari bor.\n\nEpiteliy sirtlarni qoplab himoya qiladi; biriktiruvchi to‘qimalar orasida qon, suyak va tog‘ay ham bor.",
+      "fact_ids": [
+        "p2-fact-2",
+        "p2-fact-3"
+      ]
+    },
+    {
+      "title": "Organlar hamkorligi",
+      "body": "Muskul to‘qimasi qisqarib harakatni ta’minlaydi. Nerv to‘qimasi esa ta’sirni qabul qiladi va o‘tkazadi.\n\nBir necha to‘qima organ hosil qiladi. Birgalikda o‘xshash vazifani bajaradigan organlar organlar sistemasiga birlashadi.",
+      "fact_ids": [
+        "p2-fact-4",
+        "p2-fact-5"
+      ]
+    },
+    {
+      "title": "Klassifikatsiya zinalari",
+      "body": "Hayvonlarni guruhlashda eng kichik sistematik birlik turdir. Yaqin turlar urug‘ga, urug‘lar oilaga birlashtiriladi.\n\nSistematik guruhlar kichikdan kattaga tur, urug‘, oila, turkum, sinf, tip tartibida ketadi.",
+      "fact_ids": [
+        "p2-fact-6",
+        "p2-fact-7"
+      ]
+    },
+    {
+      "title": "Nom va belgi",
+      "body": "Turlar lotin tilida ikki nom bilan, undan yuqori sistematik guruhlar esa bitta nom bilan ataladi.",
+      "fact_ids": [
+        "p2-fact-8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p2-q1",
+      "fact_id": "p2-fact-1",
+      "question_text": "Odatdagi hayvon hujayrasida qaysi tuzilma bo‘lmaydi?",
+      "options": [
+        "Membrana",
+        "Yadro",
+        "Xloroplast",
+        "Sitoplazma"
+      ],
+      "correct_answer": "Xloroplast",
+      "explanation": "Hayvon va o‘simlik organizmi hujayralardan tuzilgan. Hayvon hujayrasida yashil xloroplastlar bo‘lmaydi."
+    },
+    {
+      "key": "p2-q2",
+      "fact_id": "p2-fact-2",
+      "question_text": "O‘xshash hujayralar bir xil vazifaga birlashsa, nima hosil qiladi?",
+      "options": [
+        "Biosfera",
+        "To‘qima",
+        "Turkum",
+        "Urug‘"
+      ],
+      "correct_answer": "To‘qima",
+      "explanation": "Tuzilishi va vazifasi o‘xshash hujayralar to‘qima hosil qiladi. Ko‘p hujayrali hayvonlarda epiteliy, biriktiruvchi, muskul va nerv to‘qimalari bor."
+    },
+    {
+      "key": "p2-q3",
+      "fact_id": "p2-fact-3",
+      "question_text": "Qonni qaysi asosiy to‘qima guruhiga kiritamiz?",
+      "options": [
+        "Biriktiruvchi",
+        "Epiteliy",
+        "Muskul",
+        "Nerv"
+      ],
+      "correct_answer": "Biriktiruvchi",
+      "explanation": "Epiteliy sirtlarni qoplab himoya qiladi; biriktiruvchi to‘qimalar orasida qon, suyak va tog‘ay ham bor."
+    },
+    {
+      "key": "p2-q4",
+      "fact_id": "p2-fact-4",
+      "question_text": "Ta’sir haqidagi signalni qabul qilish va o‘tkazishga qaysi to‘qima moslashgan?",
+      "options": [
+        "Muskul",
+        "Suyak",
+        "Epiteliy",
+        "Nerv"
+      ],
+      "correct_answer": "Nerv",
+      "explanation": "Muskul to‘qimasi qisqarib harakatni ta’minlaydi. Nerv to‘qimasi esa ta’sirni qabul qiladi va o‘tkazadi."
+    },
+    {
+      "key": "p2-q5",
+      "fact_id": "p2-fact-5",
+      "question_text": "Og‘iz, qizilo‘ngach, oshqozon va ichak birga nimaga misol?",
+      "options": [
+        "Bitta to‘qimaga",
+        "Sistematik turga",
+        "Hazm qilish sistemasiga",
+        "Bitta hujayraga"
+      ],
+      "correct_answer": "Hazm qilish sistemasiga",
+      "explanation": "Bir necha to‘qima organ hosil qiladi. Birgalikda o‘xshash vazifani bajaradigan organlar organlar sistemasiga birlashadi."
+    },
+    {
+      "key": "p2-q6",
+      "fact_id": "p2-fact-6",
+      "question_text": "Eng kichik sistematik birlikdan keyingi guruhga qaysi o‘tish to‘g‘ri?",
+      "options": [
+        "Tip → organ",
+        "Tur → urug‘",
+        "Sinf → tur",
+        "Oila → hujayra"
+      ],
+      "correct_answer": "Tur → urug‘",
+      "explanation": "Hayvonlarni guruhlashda eng kichik sistematik birlik turdir. Yaqin turlar urug‘ga, urug‘lar oilaga birlashtiriladi."
+    },
+    {
+      "key": "p2-q7",
+      "fact_id": "p2-fact-7",
+      "question_text": "Turkumdan keyingi yirikroq sistematik guruhni tanlang.",
+      "options": [
+        "Sinf",
+        "Tur",
+        "Urug‘",
+        "Oila"
+      ],
+      "correct_answer": "Sinf",
+      "explanation": "Sistematik guruhlar kichikdan kattaga tur, urug‘, oila, turkum, sinf, tip tartibida ketadi."
+    },
+    {
+      "key": "p2-q8",
+      "fact_id": "p2-fact-8",
+      "question_text": "Sistematikada ikki lotincha nom bilan qaysi birlik ataladi?",
+      "options": [
+        "Sinf",
+        "Tip",
+        "Oila",
+        "Tur"
+      ],
+      "correct_answer": "Tur",
+      "explanation": "Turlar lotin tilida ikki nom bilan, undan yuqori sistematik guruhlar esa bitta nom bilan ataladi."
+    }
+  ]
+}

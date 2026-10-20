@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-3-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-5",
+  "title": "Hujayra va organizmning hayotiy xossalari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p3-fact-1": {
+      "claim": "Assimilyatsiyada yangi moddalar sintezlanadi; dissimilyatsiyada moddalar parchalanib, energiya ajraladi. Ikkalasi bir vaqtda davom etadi.",
+      "answer": "Assimilyatsiya",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-2": {
+      "claim": "Dissimilyatsiya vaqtida ajralgan energiya hujayraning hayotiy ishlariga sarflanadi.",
+      "answer": "Dissimilyatsiya",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-3": {
+      "claim": "Qo‘zg‘aluvchanlikda hujayra ta’sirga javob beradi: muskul hujayrasi qisqaradi, nerv hujayrasi impuls hosil qiladi.",
+      "answer": "Nerv impulsi",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-4": {
+      "claim": "O‘sish o‘lcham ortishi, rivojlanish esa yangi belgilar paydo bo‘lishi bilan bog‘liq.",
+      "answer": "Rivojlanish",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-5": {
+      "claim": "Qon, limfa va to‘qima suyuqligi organizmning ichki muhitini tashkil etadi.",
+      "answer": "Qon, limfa va to‘qima suyuqligi",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p3-fact-6": {
+      "claim": "Ichki muhit hujayralarga suv, kislorod va oziqni yetkazishda hamda almashinuv mahsulotlarini olib chiqishda qatnashadi.",
+      "answer": "Zarur moddalarni yetkazish va chiqindilarni olib ketish",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Almashinuvning ikki tomoni",
+      "body": "Assimilyatsiyada yangi moddalar sintezlanadi; dissimilyatsiyada moddalar parchalanib, energiya ajraladi. Ikkalasi bir vaqtda davom etadi.\n\nDissimilyatsiya vaqtida ajralgan energiya hujayraning hayotiy ishlariga sarflanadi.",
+      "fact_ids": [
+        "p3-fact-1",
+        "p3-fact-2"
+      ]
+    },
+    {
+      "title": "Ta’sir va yangilanish",
+      "body": "Qo‘zg‘aluvchanlikda hujayra ta’sirga javob beradi: muskul hujayrasi qisqaradi, nerv hujayrasi impuls hosil qiladi.",
+      "fact_ids": [
+        "p3-fact-3"
+      ]
+    },
+    {
+      "title": "O‘sish va ichki muhit",
+      "body": "O‘sish o‘lcham ortishi, rivojlanish esa yangi belgilar paydo bo‘lishi bilan bog‘liq.\n\nQon, limfa va to‘qima suyuqligi organizmning ichki muhitini tashkil etadi.\n\nIchki muhit hujayralarga suv, kislorod va oziqni yetkazishda hamda almashinuv mahsulotlarini olib chiqishda qatnashadi.",
+      "fact_ids": [
+        "p3-fact-4",
+        "p3-fact-5",
+        "p3-fact-6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p3-q1",
+      "fact_id": "p3-fact-1",
+      "question_text": "Hujayrada yangi modda sintezlanishi qaysi jarayon?",
+      "options": [
+        "Assimilyatsiya",
+        "Dissimilyatsiya",
+        "Faqat ayirish",
+        "Faqat harakat"
+      ],
+      "correct_answer": "Assimilyatsiya",
+      "explanation": "Assimilyatsiyada yangi moddalar sintezlanadi; dissimilyatsiyada moddalar parchalanib, energiya ajraladi. Ikkalasi bir vaqtda davom etadi."
+    },
+    {
+      "key": "p3-q2",
+      "fact_id": "p3-fact-2",
+      "question_text": "Moddalar parchalanib energiya ajralishi qaysi jarayonga mos?",
+      "options": [
+        "Faqat biosintez",
+        "Faqat tur nomlash",
+        "Faqat to‘qima tasnifi",
+        "Dissimilyatsiya"
+      ],
+      "correct_answer": "Dissimilyatsiya",
+      "explanation": "Dissimilyatsiya vaqtida ajralgan energiya hujayraning hayotiy ishlariga sarflanadi."
+    },
+    {
+      "key": "p3-q3",
+      "fact_id": "p3-fact-3",
+      "question_text": "Ta’sirga javoban nerv hujayrasida nima hosil bo‘ladi?",
+      "options": [
+        "Urug‘",
+        "Gul",
+        "Nerv impulsi",
+        "Meva"
+      ],
+      "correct_answer": "Nerv impulsi",
+      "explanation": "Qo‘zg‘aluvchanlikda hujayra ta’sirga javob beradi: muskul hujayrasi qisqaradi, nerv hujayrasi impuls hosil qiladi."
+    },
+    {
+      "key": "p3-q4",
+      "fact_id": "p3-fact-4",
+      "question_text": "Organizmda yangi belgi paydo bo‘lishi qaysi tushunchaga mos?",
+      "options": [
+        "Faqat nafas chiqarish",
+        "Rivojlanish",
+        "Faqat miqdoriy o‘sish",
+        "Faqat ayirish"
+      ],
+      "correct_answer": "Rivojlanish",
+      "explanation": "O‘sish o‘lcham ortishi, rivojlanish esa yangi belgilar paydo bo‘lishi bilan bog‘liq."
+    },
+    {
+      "key": "p3-q5",
+      "fact_id": "p3-fact-5",
+      "question_text": "Ichki muhit tarkibi to‘g‘ri berilgan javobni tanlang.",
+      "options": [
+        "Qon, limfa va to‘qima suyuqligi",
+        "Faqat tashqi havo",
+        "Faqat suyak va teri",
+        "Faqat og‘izdagi ovqat"
+      ],
+      "correct_answer": "Qon, limfa va to‘qima suyuqligi",
+      "explanation": "Qon, limfa va to‘qima suyuqligi organizmning ichki muhitini tashkil etadi."
+    },
+    {
+      "key": "p3-q6",
+      "fact_id": "p3-fact-6",
+      "question_text": "Ichki muhitning hujayra uchun muhim vazifasi qaysi?",
+      "options": [
+        "Hujayrani doim kislorodsiz qoldirish",
+        "Barcha reaksiyalarni to‘xtatish",
+        "Organlar aloqasini uzish",
+        "Zarur moddalarni yetkazish va chiqindilarni olib ketish"
+      ],
+      "correct_answer": "Zarur moddalarni yetkazish va chiqindilarni olib ketish",
+      "explanation": "Ichki muhit hujayralarga suv, kislorod va oziqni yetkazishda hamda almashinuv mahsulotlarini olib chiqishda qatnashadi."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-4-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-6",
+  "title": "To‘qimalar, organlar va organizm",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p4-fact-1": {
+      "claim": "Kelib chiqishi, tuzilishi va vazifasi o‘xshash hujayralar hujayralararo modda bilan birga to‘qima hosil qiladi.",
+      "answer": "To‘qima",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-2": {
+      "claim": "Epiteliy teri yuzasi hamda ayrim organlarning ichki yuzasini qoplab, himoya va sekretsiya vazifalarida qatnashadi.",
+      "answer": "Epiteliy",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-3": {
+      "claim": "Biriktiruvchi to‘qimaning suyuq shakllariga qon va limfa, qattiq shakllariga suyak va tog‘ay misol bo‘ladi.",
+      "answer": "Biriktiruvchi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-4": {
+      "claim": "Muskul tolalarining qisqarishi harakatga xizmat qiladi; nerv to‘qimasi organlarning aloqasi va boshqarilishida qatnashadi.",
+      "answer": "Muskul",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-5": {
+      "claim": "Bir yoki bir necha xil to‘qimadan tuzilgan va muayyan vazifaga moslashgan tana qismi organ deyiladi.",
+      "answer": "Organ",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-6": {
+      "claim": "O‘zaro bog‘langan vazifani bajaradigan organlar sistema hosil qiladi; barcha sistemalar birgalikda organizmni tashkil etadi.",
+      "answer": "Organlar sistemasi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p4-fact-7": {
+      "claim": "Bosh miya miya qutisida, orqa miya umurtqa pog‘onasi nayida joylashgan. Diafragma ko‘krak va qorin bo‘shliqlarini ajratadi.",
+      "answer": "Diafragma",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "To‘qimalarni farqlash",
+      "body": "Kelib chiqishi, tuzilishi va vazifasi o‘xshash hujayralar hujayralararo modda bilan birga to‘qima hosil qiladi.\n\nEpiteliy teri yuzasi hamda ayrim organlarning ichki yuzasini qoplab, himoya va sekretsiya vazifalarida qatnashadi.\n\nBiriktiruvchi to‘qimaning suyuq shakllariga qon va limfa, qattiq shakllariga suyak va tog‘ay misol bo‘ladi.",
+      "fact_ids": [
+        "p4-fact-1",
+        "p4-fact-2",
+        "p4-fact-3"
+      ]
+    },
+    {
+      "title": "To‘qimadan organga",
+      "body": "Muskul tolalarining qisqarishi harakatga xizmat qiladi; nerv to‘qimasi organlarning aloqasi va boshqarilishida qatnashadi.\n\nBir yoki bir necha xil to‘qimadan tuzilgan va muayyan vazifaga moslashgan tana qismi organ deyiladi.\n\nO‘zaro bog‘langan vazifani bajaradigan organlar sistema hosil qiladi; barcha sistemalar birgalikda organizmni tashkil etadi.",
+      "fact_ids": [
+        "p4-fact-4",
+        "p4-fact-5",
+        "p4-fact-6"
+      ]
+    },
+    {
+      "title": "Tana bo‘shliqlari",
+      "body": "Bosh miya miya qutisida, orqa miya umurtqa pog‘onasi nayida joylashgan. Diafragma ko‘krak va qorin bo‘shliqlarini ajratadi.",
+      "fact_ids": [
+        "p4-fact-7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p4-q1",
+      "fact_id": "p4-fact-1",
+      "question_text": "O‘xshash hujayralar va hujayralararo moddadan tashkil topadigan birlikni toping.",
+      "options": [
+        "Biosfera",
+        "Populyatsiya",
+        "Turkum",
+        "To‘qima"
+      ],
+      "correct_answer": "To‘qima",
+      "explanation": "Kelib chiqishi, tuzilishi va vazifasi o‘xshash hujayralar hujayralararo modda bilan birga to‘qima hosil qiladi."
+    },
+    {
+      "key": "p4-q2",
+      "fact_id": "p4-fact-2",
+      "question_text": "Teri yuzasini qoplashga moslashgan to‘qima qaysi?",
+      "options": [
+        "Nerv",
+        "Faqat suyak",
+        "Epiteliy",
+        "Muskul"
+      ],
+      "correct_answer": "Epiteliy",
+      "explanation": "Epiteliy teri yuzasi hamda ayrim organlarning ichki yuzasini qoplab, himoya va sekretsiya vazifalarida qatnashadi."
+    },
+    {
+      "key": "p4-q3",
+      "fact_id": "p4-fact-3",
+      "question_text": "Qon va limfa qaysi asosiy to‘qima guruhiga kiradi?",
+      "options": [
+        "Nerv",
+        "Biriktiruvchi",
+        "Epiteliy",
+        "Muskul"
+      ],
+      "correct_answer": "Biriktiruvchi",
+      "explanation": "Biriktiruvchi to‘qimaning suyuq shakllariga qon va limfa, qattiq shakllariga suyak va tog‘ay misol bo‘ladi."
+    },
+    {
+      "key": "p4-q4",
+      "fact_id": "p4-fact-4",
+      "question_text": "Organlar harakatini bevosita ta’minlaydigan qisqaruvchi to‘qima qaysi?",
+      "options": [
+        "Muskul",
+        "Epiteliy",
+        "Suyak",
+        "Tog‘ay"
+      ],
+      "correct_answer": "Muskul",
+      "explanation": "Muskul tolalarining qisqarishi harakatga xizmat qiladi; nerv to‘qimasi organlarning aloqasi va boshqarilishida qatnashadi."
+    },
+    {
+      "key": "p4-q5",
+      "fact_id": "p4-fact-5",
+      "question_text": "Yurak bir necha to‘qimadan tuzilgan tana qismi sifatida qaysi darajaga kiradi?",
+      "options": [
+        "Bitta hujayra",
+        "Butun populyatsiya",
+        "Butun biosfera",
+        "Organ"
+      ],
+      "correct_answer": "Organ",
+      "explanation": "Bir yoki bir necha xil to‘qimadan tuzilgan va muayyan vazifaga moslashgan tana qismi organ deyiladi."
+    },
+    {
+      "key": "p4-q6",
+      "fact_id": "p4-fact-6",
+      "question_text": "Birgalikda vazifa bajaruvchi organlar qanday tuzilmani hosil qiladi?",
+      "options": [
+        "Faqat bitta hujayra",
+        "Faqat hujayralararo modda",
+        "Organlar sistemasi",
+        "Faqat organoid"
+      ],
+      "correct_answer": "Organlar sistemasi",
+      "explanation": "O‘zaro bog‘langan vazifani bajaradigan organlar sistema hosil qiladi; barcha sistemalar birgalikda organizmni tashkil etadi."
+    },
+    {
+      "key": "p4-q7",
+      "fact_id": "p4-fact-7",
+      "question_text": "Ko‘krak va qorin bo‘shliqlarini ajratib turadigan tuzilmani toping.",
+      "options": [
+        "Faqat teri",
+        "Diafragma",
+        "Faqat bosh miya",
+        "Faqat quloq"
+      ],
+      "correct_answer": "Diafragma",
+      "explanation": "Bosh miya miya qutisida, orqa miya umurtqa pog‘onasi nayida joylashgan. Diafragma ko‘krak va qorin bo‘shliqlarini ajratadi."
+    }
+  ]
+}

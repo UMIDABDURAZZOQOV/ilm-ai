@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-2-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-3",
+  "title": "Tirik organizmlarning xususiyatlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p2-fact-1": {
+      "claim": "Moddalar almashinuvida sintez va parchalanish birgalikda kechadi. Sintez assimilyatsiya, parchalanish dissimilyatsiya deyiladi.",
+      "answer": "Assimilyatsiya",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-2": {
+      "claim": "Avtotroflar o‘z oziqasini sintezlaydi; geterotroflar esa tayyor organik oziqdan foydalanadi.",
+      "answer": "Avtotrof",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-3": {
+      "claim": "Nafas olishda ko‘pchilik organizmlar kisloroddan foydalanadi va karbonat angidrid ajratadi. Suv hayvonlari suvda erigan kisloroddan foydalanadi.",
+      "answer": "Suvda erigan kisloroddan",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-4": {
+      "claim": "Ayirish organizmdagi ortiqcha yoki zararli mahsulotlarni tashqariga chiqarishga xizmat qiladi.",
+      "answer": "Ayirish",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-5": {
+      "claim": "Mimoza bargiga tegilganda uning yumilishi tashqi ta’sirga javob, ya’ni ta’sirlanishdir.",
+      "answer": "Ta’sirlanish",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-6": {
+      "claim": "Hayvonlarning yugurishi faol harakatga misol. O‘simliklarda ham yorug‘lik tomonga yo‘nalish kabi sekin harakat kuzatiladi.",
+      "answer": "O‘simliklarda ham harakat borligini",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-7": {
+      "claim": "Ko‘payish orqali organizm nasl qoldiradi. Jinsiy ko‘payishda qatnashadigan jinsiy hujayralar gametalar deb ataladi.",
+      "answer": "Gameta",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-8": {
+      "claim": "O‘sishda miqdor ortadi; rivojlanishda yangi sifat va belgilar paydo bo‘ladi. O‘simlikning gullashi rivojlanish namunasidir.",
+      "answer": "Rivojlanish",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziqa va energiya",
+      "body": "Moddalar almashinuvida sintez va parchalanish birgalikda kechadi. Sintez assimilyatsiya, parchalanish dissimilyatsiya deyiladi.\n\nAvtotroflar o‘z oziqasini sintezlaydi; geterotroflar esa tayyor organik oziqdan foydalanadi.\n\nNafas olishda ko‘pchilik organizmlar kisloroddan foydalanadi va karbonat angidrid ajratadi. Suv hayvonlari suvda erigan kisloroddan foydalanadi.",
+      "fact_ids": [
+        "p2-fact-1",
+        "p2-fact-2",
+        "p2-fact-3"
+      ]
+    },
+    {
+      "title": "Muhitga javob",
+      "body": "Ayirish organizmdagi ortiqcha yoki zararli mahsulotlarni tashqariga chiqarishga xizmat qiladi.\n\nMimoza bargiga tegilganda uning yumilishi tashqi ta’sirga javob, ya’ni ta’sirlanishdir.",
+      "fact_ids": [
+        "p2-fact-4",
+        "p2-fact-5"
+      ]
+    },
+    {
+      "title": "Harakat va yangi avlod",
+      "body": "Hayvonlarning yugurishi faol harakatga misol. O‘simliklarda ham yorug‘lik tomonga yo‘nalish kabi sekin harakat kuzatiladi.\n\nKo‘payish orqali organizm nasl qoldiradi. Jinsiy ko‘payishda qatnashadigan jinsiy hujayralar gametalar deb ataladi.",
+      "fact_ids": [
+        "p2-fact-6",
+        "p2-fact-7"
+      ]
+    },
+    {
+      "title": "O‘sish va rivojlanish",
+      "body": "O‘sishda miqdor ortadi; rivojlanishda yangi sifat va belgilar paydo bo‘ladi. O‘simlikning gullashi rivojlanish namunasidir.",
+      "fact_ids": [
+        "p2-fact-8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p2-q1",
+      "fact_id": "p2-fact-1",
+      "question_text": "Ilmo oqsil hosil bo‘lishini sintez jarayoniga yozdi. Bu qaysi jarayon?",
+      "options": [
+        "Assimilyatsiya",
+        "Dissimilyatsiya",
+        "Ayirish",
+        "Ta’sirlanish"
+      ],
+      "correct_answer": "Assimilyatsiya",
+      "explanation": "Moddalar almashinuvida sintez va parchalanish birgalikda kechadi. Sintez assimilyatsiya, parchalanish dissimilyatsiya deyiladi."
+    },
+    {
+      "key": "p2-q2",
+      "fact_id": "p2-fact-2",
+      "question_text": "O‘z oziqasini sintezlaydigan yashil o‘simlik qaysi oziqlanish guruhiga kiradi?",
+      "options": [
+        "Geterotrof",
+        "Faqat yirtqich",
+        "Faqat parazit",
+        "Avtotrof"
+      ],
+      "correct_answer": "Avtotrof",
+      "explanation": "Avtotroflar o‘z oziqasini sintezlaydi; geterotroflar esa tayyor organik oziqdan foydalanadi."
+    },
+    {
+      "key": "p2-q3",
+      "fact_id": "p2-fact-3",
+      "question_text": "Baliq uchun nafas olishdagi kislorod qayerdan olinadi?",
+      "options": [
+        "Faqat qumdan",
+        "Faqat yorug‘likdan",
+        "Suvda erigan kisloroddan",
+        "Faqat suvdagi tuzdan"
+      ],
+      "correct_answer": "Suvda erigan kisloroddan",
+      "explanation": "Nafas olishda ko‘pchilik organizmlar kisloroddan foydalanadi va karbonat angidrid ajratadi. Suv hayvonlari suvda erigan kisloroddan foydalanadi."
+    },
+    {
+      "key": "p2-q4",
+      "fact_id": "p2-fact-4",
+      "question_text": "Organizmdan ortiqcha tuz chiqarilishi qaysi xususiyatga misol?",
+      "options": [
+        "O‘sish",
+        "Ayirish",
+        "Ko‘payish",
+        "Assimilyatsiya"
+      ],
+      "correct_answer": "Ayirish",
+      "explanation": "Ayirish organizmdagi ortiqcha yoki zararli mahsulotlarni tashqariga chiqarishga xizmat qiladi."
+    },
+    {
+      "key": "p2-q5",
+      "fact_id": "p2-fact-5",
+      "question_text": "Mimoza bargi tegishga javoban yumildi. Ilmo buni qaysi belgi bilan bog‘laydi?",
+      "options": [
+        "Ta’sirlanish",
+        "Oziqlanish",
+        "Nasl qoldirish",
+        "Ayirish"
+      ],
+      "correct_answer": "Ta’sirlanish",
+      "explanation": "Mimoza bargiga tegilganda uning yumilishi tashqi ta’sirga javob, ya’ni ta’sirlanishdir."
+    },
+    {
+      "key": "p2-q6",
+      "fact_id": "p2-fact-6",
+      "question_text": "O‘simlik bargining yorug‘likka yo‘nalishi nimani ko‘rsatadi?",
+      "options": [
+        "O‘simliklar hech qachon harakatlanmasligini",
+        "Barcha o‘simliklar yugurishini",
+        "Faqat hayvonlar yorug‘likni sezishini",
+        "O‘simliklarda ham harakat borligini"
+      ],
+      "correct_answer": "O‘simliklarda ham harakat borligini",
+      "explanation": "Hayvonlarning yugurishi faol harakatga misol. O‘simliklarda ham yorug‘lik tomonga yo‘nalish kabi sekin harakat kuzatiladi."
+    },
+    {
+      "key": "p2-q7",
+      "fact_id": "p2-fact-7",
+      "question_text": "Jinsiy ko‘payishda qatnashadigan hujayrani tanlang.",
+      "options": [
+        "Probirka",
+        "Pinset",
+        "Gameta",
+        "Petri idishi"
+      ],
+      "correct_answer": "Gameta",
+      "explanation": "Ko‘payish orqali organizm nasl qoldiradi. Jinsiy ko‘payishda qatnashadigan jinsiy hujayralar gametalar deb ataladi."
+    },
+    {
+      "key": "p2-q8",
+      "fact_id": "p2-fact-8",
+      "question_text": "Ilmo o‘simlikda birinchi gul paydo bo‘lganini qayd etdi. Bu nimaga misol?",
+      "options": [
+        "Faqat nafas olish",
+        "Rivojlanish",
+        "Faqat o‘lcham ortishi",
+        "Faqat ayirish"
+      ],
+      "correct_answer": "Rivojlanish",
+      "explanation": "O‘sishda miqdor ortadi; rivojlanishda yangi sifat va belgilar paydo bo‘ladi. O‘simlikning gullashi rivojlanish namunasidir."
+    }
+  ]
+}

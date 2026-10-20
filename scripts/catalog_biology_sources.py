@@ -31,7 +31,25 @@ BOOKS = {
         paragraph_count=18,
         isbn="978-9943-6479-3-0",
     ),
-    6: dict(file_name="botanika_6_uzb.pdf", title="Botanika"),
+    6: dict(
+        file_name="botanika_6_uzb.pdf",
+        title="Biologiya (Botanika)",
+        year=2017,
+        authors=[
+            "O‘. Pratov",
+            "A. S. To‘xtayev",
+            "F. O‘. Azimova",
+            "I. Z. Saparboyev",
+            "M. T. Umaraliyeva",
+        ],
+        publisher="O‘zbekiston",
+        toc=[142, 143],
+        end=142,
+        offset=0,
+        chapter_count=5,
+        paragraph_count=59,
+        isbn="978-9943-01-421-3",
+    ),
     7: dict(
         file_name="zoologiya_7_uzb.pdf",
         title="Biologiya (Zoologiya)",
@@ -48,7 +66,17 @@ BOOKS = {
     ),
     8: dict(
         file_name="odam_va_uning_salomatligi_8_uzb.pdf",
-        title="Odam va uning salomatligi",
+        title="Biologiya (Odam va uning salomatligi)",
+        year=2019,
+        authors=["O. Mavlonov", "T. Tilavov", "B. Aminov"],
+        publisher="O‘qituvchi",
+        edition=6,
+        toc=[188, 189, 190],
+        end=184,
+        offset=0,
+        chapter_count=13,
+        paragraph_count=61,
+        isbn="978-9943-5749-0-8",
     ),
     9: dict(
         file_name="biologiya_9_uzb.pdf",
@@ -273,31 +301,84 @@ def verify_record(r, pages, book):
         r["verification"]["toc_body_page_difference"] = True
 
 
-def index_book(path, grade, book):
-    if (
-        grade not in VERIFIED_PDF_SHA256
-        or hashlib.sha256(path.read_bytes()).hexdigest() != VERIFIED_PDF_SHA256[grade]
-    ):
-        raise ValueError(
-            f"Unreviewed PDF/edition for grade {grade}; do not reuse another edition's metadata."
+def index_book(path, grade, book, *, scanned=None, pages=None):
+    if scanned is None:
+        if (
+            grade not in VERIFIED_PDF_SHA256
+            or hashlib.sha256(path.read_bytes()).hexdigest()
+            != VERIFIED_PDF_SHA256[grade]
+        ):
+            raise ValueError(f"Unreviewed PDF/edition for grade {grade}")
+        raw = subprocess.check_output(
+            ["pdftotext", "-layout", str(path), "-"], text=True
         )
-    raw = subprocess.check_output(["pdftotext", "-layout", str(path), "-"], text=True)
-    pages = raw.split("\f")
-    if not pages[-1].strip():
-        pages.pop()
-    records = toc_records(pages, book)
+        pages = raw.split("\f")
+        if not pages[-1].strip():
+            pages.pop()
+        records = toc_records(pages, book)
+    else:
+        records = [dict(r) for r in scanned["toc_transcription"]]
     chapter = part = subsection = None
     for i, r in enumerate(records):
         r["id"] = f"bio-{grade}-{r['kind']}-{i + 1}"
         if r["kind"] == "part":
             part = r["id"]
             chapter = subsection = None
-        elif r["kind"] == "chapter":
+        elif r["kind"] in {"chapter", "introduction"}:
             chapter, subsection = r["id"], None
         elif r["kind"] == "subchapter":
             subsection = r["id"]
         r.update(chapter_id=chapter, part_id=part, subchapter_id=subsection)
         verify_record(r, pages, book)
+        if scanned and r.get("verification", {}).get("status") == "text_layer_matched":
+            r["verification"].update(
+                status="ocr_heading_matched", method="ocr_paragraph_number_and_heading"
+            )
+        override = (
+            (scanned or {}).get("heading_overrides", {}).get(str(r.get("paragraph")))
+        )
+        if override:
+            page = override["pdf_page"]
+            r.update(pdf_start=page, printed_start=page - book["offset"])
+            r["verification"] = {
+                "status": "page_image_reviewed",
+                **override,
+                "heading_offset": pages[page - 1].find(override["heading_token"]),
+            }
+    if scanned:
+        for activity in scanned.get("body_activities", []):
+            page, number = activity["pdf_page"], activity["number"]
+            owner = max(
+                (
+                    r
+                    for r in records
+                    if r.get("paragraph") and r.get("pdf_start", 999) <= page
+                ),
+                key=lambda r: r["pdf_start"],
+            )
+            match = re.search(
+                rf"(?im)^\s*{number}[-–]laboratori[^\n]*", pages[page - 1]
+            )
+            if not match:
+                raise ValueError(f"Activity heading not found: {grade}/{number}")
+            records.append(
+                dict(
+                    id=f"bio-{grade}-laboratory-{number}",
+                    kind="laboratory",
+                    paragraph=None,
+                    title=activity["title"],
+                    chapter_id=owner["chapter_id"],
+                    pdf_start=page,
+                    printed_start=page - book["offset"],
+                    toc_pdf_page=activity.get("toc_pdf_page"),
+                    toc_printed_start=page if activity.get("toc_pdf_page") else None,
+                    verification={
+                        "status": "ocr_heading_matched",
+                        "method": "numbered_body_activity",
+                        "heading_offset": match.start(),
+                    },
+                )
+            )
     # Non-TOC laboratory/practical sections of grade 5 are indexed independently.
     if grade == 5:
         for page, kind, number, title in [
@@ -404,9 +485,10 @@ def index_book(path, grade, book):
         }
     # Chapter/part start pages derive from real children, not TOC page mistakes.
     for r in reversed(records):
-        if r["kind"] in {"chapter", "part", "subchapter"}:
+        if r["kind"] in {"chapter", "introduction", "part", "subchapter"}:
             field = {
                 "chapter": "chapter_id",
+                "introduction": "chapter_id",
                 "part": "part_id",
                 "subchapter": "subchapter_id",
             }[r["kind"]]
@@ -443,7 +525,19 @@ def index_book(path, grade, book):
             for r in records
         )
         else "indexed_pending_review",
-        "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+        **(
+            {"sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
+            if scanned is None
+            else {
+                "segments": scanned["segments"],
+                "source_set_sha256": hashlib.sha256(
+                    json.dumps(scanned["segments"], sort_keys=True).encode()
+                ).hexdigest(),
+                "source_format": "scanned_pdf_segments",
+                "text_extraction": "tesseract_eng_OCR_not_authoritative_fact_review",
+                "introduction_count": int(grade == 8),
+            }
+        ),
         "pdf_page_count": len(pages),
         "toc_pdf_pages": book["toc"],
         "bibliography_pdf_pages": [2, 3] if grade == 5 else [1, 2],
@@ -472,6 +566,11 @@ def main():
     parser.add_argument("--pdf-dir", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument(
+        "--ocr-cache",
+        type=Path,
+        help="Local page OCR JSON generated from the pinned split PDFs",
+    )
+    parser.add_argument(
         "--blocked-transfer-grade",
         type=int,
         action="append",
@@ -482,6 +581,40 @@ def main():
     books = []
     for grade, book in BOOKS.items():
         matches = list(args.pdf_dir.rglob(book["file_name"]))
+        if not matches and grade in {6, 8} and args.ocr_cache:
+            review = json.loads(
+                Path(__file__)
+                .with_name("curriculum")
+                .joinpath("biology_scanned_review.json")
+                .read_text()
+            )
+            scanned = next(b for b in review["books"] if b["grade"] == grade)
+            for segment in scanned["segments"]:
+                paths = list(args.pdf_dir.rglob(segment["file_name"]))
+                if (
+                    len(paths) != 1
+                    or hashlib.sha256(paths[0].read_bytes()).hexdigest()
+                    != segment["sha256"]
+                ):
+                    raise ValueError(
+                        "Missing or unreviewed PDF segment: " + segment["file_name"]
+                    )
+                count = subprocess.check_output(["pdfinfo", str(paths[0])], text=True)
+                if not re.search(rf"Pages:\s+{segment['pages']}\b", count):
+                    raise ValueError("PDF segment page count mismatch")
+            raw = (args.ocr_cache / f"grade-{grade}-ocr-pages.json").read_bytes()
+            cache = json.loads((args.ocr_cache / "ocr_cache_manifest.json").read_text())
+            cached = next(b for b in cache["books"] if b["grade"] == grade)
+            if (
+                cached["segments"] != scanned["segments"]
+                or cached["ocr_sha256"] != hashlib.sha256(raw).hexdigest()
+            ):
+                raise ValueError("OCR cache provenance mismatch")
+            pages = json.loads(raw)
+            if len(pages) != scanned["segments"][-1]["end"]:
+                raise ValueError("OCR page count mismatch")
+            books.append(index_book(None, grade, book, scanned=scanned, pages=pages))
+            continue
         if not matches:
             books.append(
                 {

@@ -3,6 +3,7 @@
 Safe for dry-run validation even when a production DATABASE_URL is present.
 """
 
+import hashlib
 import json
 from pathlib import Path
 
@@ -31,6 +32,29 @@ def validate_catalog(catalog):
             if book["records"] or any(k in book for k in ("year", "authors", "sha256")):
                 raise ValueError("unread_source_must_not_claim_metadata")
             continue
+        if "segments" in book:
+            segments = book["segments"]
+            cursor, names = 1, set()
+            for segment in segments:
+                if (
+                    segment["start"] != cursor
+                    or segment["end"] < cursor
+                    or segment["pages"] != segment["end"] - cursor + 1
+                ):
+                    raise ValueError("source_segment_gap_overlap_or_page_count")
+                if segment["file_name"] in names or len(segment["sha256"]) != 64:
+                    raise ValueError("source_segment_identity_invalid")
+                names.add(segment["file_name"])
+                cursor = segment["end"] + 1
+            digest = hashlib.sha256(
+                json.dumps(segments, sort_keys=True).encode()
+            ).hexdigest()
+            if (
+                cursor - 1 != book["pdf_page_count"]
+                or digest != book.get("source_set_sha256")
+                or "sha256" in book
+            ):
+                raise ValueError("source_set_digest_or_page_count_mismatch")
         records = book["records"]
         if len({r["id"] for r in records}) != len(records):
             raise ValueError("duplicate_catalog_record")
@@ -40,7 +64,17 @@ def validate_catalog(catalog):
             range(1, book["paragraph_count"] + 1)
         ):
             raise ValueError("paragraph_coverage_mismatch")
+        owners = {r["id"] for r in records if r["kind"] in {"chapter", "introduction"}}
+        if sum(r["kind"] == "introduction" for r in records) != book.get(
+            "introduction_count", 0
+        ):
+            raise ValueError("introduction_coverage_mismatch")
         for r in records:
+            if (
+                r["kind"] in {"topic", "laboratory", "practical"}
+                and r.get("chapter_id") not in owners
+            ):
+                raise ValueError("topic_without_source_chapter")
             if (
                 not r.get("pdf_start")
                 or not 1 <= r["pdf_start"] <= r["pdf_end"] <= book["pdf_page_count"]
@@ -98,6 +132,7 @@ def validate_lesson(catalog, lesson):
             or any(f not in facts for f in card["fact_ids"])
         ):
             raise ValueError("teaching_card_evidence_required")
+    taught = {fact_id for card in lesson["theory"] for fact_id in card["fact_ids"]}
     keys = set()
     for q in lesson["questions"]:
         if not q.get("key") or q["key"] in keys:
@@ -112,6 +147,8 @@ def validate_lesson(catalog, lesson):
             or any(not s for s in normalized)
         ):
             raise ValueError("four_distinct_nonempty_options_required")
+        if q.get("fact_id") not in taught:
+            raise ValueError("assessed_fact_must_be_taught")
         fact = facts.get(q.get("fact_id"))
         if (
             not fact
@@ -122,3 +159,43 @@ def validate_lesson(catalog, lesson):
         if not q.get("question_text") or not q.get("explanation"):
             raise ValueError("question_and_feedback_required")
     return book, topic
+
+
+def load_lesson_set():
+    """Explicit reviewed manifest list: no draft file is published by globbing."""
+    index = json.loads(CATALOG_PATH.with_name("biology_lessons.json").read_text())
+    lessons = [
+        json.loads(CATALOG_PATH.with_name(name).read_text())
+        for name in index["lessons"]
+    ]
+    if len({lesson["key"] for lesson in lessons}) != len(lessons):
+        raise ValueError("duplicate_content_key")
+    return lessons
+
+
+def readiness_report(catalog, lessons):
+    """Source headings and usable digital lessons are separate quantities."""
+    for lesson in lessons:
+        validate_lesson(catalog, lesson)
+    result = []
+    for book in catalog["books"]:
+        ready = [lesson for lesson in lessons if lesson["book_id"] == book["id"]]
+        topics = [r for r in book["records"] if r["kind"] == "topic"]
+        ids = {lesson["topic_id"] for lesson in ready}
+        result.append(
+            {
+                "grade": book["grade"],
+                "chapters": book.get("chapter_count", 0),
+                "introductions": book.get("introduction_count", 0),
+                "numbered_paragraphs": book.get("paragraph_count", 0),
+                "topics": len(topics),
+                "laboratories": sum(r["kind"] == "laboratory" for r in book["records"]),
+                "practicals": sum(r["kind"] == "practical" for r in book["records"]),
+                "ready_topics": len(ids),
+                "ready_lessons": len(ready),
+                "questions": sum(len(lesson["questions"]) for lesson in ready),
+                "remaining_topic_ids": [r["id"] for r in topics if r["id"] not in ids],
+                "course_ready": len(ids) == len(topics) and bool(topics),
+            }
+        )
+    return result

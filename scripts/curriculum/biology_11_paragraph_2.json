@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-2-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-3",
+  "title": "Ekologiyaning rivojlanishi, bo‘limlari va metodlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p2-fact-1": {
+      "claim": "Autekologiya alohida organizmning muhit bilan munosabatlarini, demekologiya esa populyatsiyalarni o‘rganadi.",
+      "answer": "Demekologiya",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-2": {
+      "claim": "Sinekologiya turli turlardan iborat jamoalarning o‘zaro va tashqi muhit bilan munosabatlarini o‘rganadi.",
+      "answer": "Sinekologiya",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-3": {
+      "claim": "Ekotizim konsepsiyasi A. Tensli, biogeotsenoz nazariyasi esa V. N. Sukachev bilan bog‘langan.",
+      "answer": "A. Tensli",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-4": {
+      "claim": "Tarixiy ekologiya insoniyat sivilizatsiyasi rivoji davomida yuz bergan ekologik o‘zgarishlarni o‘rganadi.",
+      "answer": "Tarixiy ekologiya",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-5": {
+      "claim": "Dala metodida organizmlar tabiiy sharoitda kuzatiladi; meteorologik qayd va organizmlar sonini hisoblash ham shunga kiradi.",
+      "answer": "Dala metodi",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-6": {
+      "claim": "Ekologik tajribada ayrim omilning organizm yoki jamoaga ta’siri maxsus sharoitda tekshiriladi; akvarium chuchuk suv havzasi modeli bo‘lishi mumkin.",
+      "answer": "Ekologik tajriba",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-7": {
+      "claim": "Matematik model tizim xususiyatlarini belgilar va hisob-kitoblar bilan ifodalaydi; u mumkin bo‘lgan o‘zgarishlarni oldindan o‘rganishga yordam beradi.",
+      "answer": "Matematik modellashtirish",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-8": {
+      "claim": "Ekologik tadqiqotda dala kuzatuvi, tajriba va modellashtirish ko‘pincha birgalikda qo‘llanadi.",
+      "answer": "Bir-birini to‘ldiradigan tarzda birga",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ekologiyaning bo‘limlari",
+      "body": "Autekologiya alohida organizmning muhit bilan munosabatlarini, demekologiya esa populyatsiyalarni o‘rganadi.\n\nSinekologiya turli turlardan iborat jamoalarning o‘zaro va tashqi muhit bilan munosabatlarini o‘rganadi.\n\nEkotizim konsepsiyasi A. Tensli, biogeotsenoz nazariyasi esa V. N. Sukachev bilan bog‘langan.",
+      "fact_ids": [
+        "p2-fact-1",
+        "p2-fact-2",
+        "p2-fact-3"
+      ]
+    },
+    {
+      "title": "Tarix va qo‘llanish",
+      "body": "Tarixiy ekologiya insoniyat sivilizatsiyasi rivoji davomida yuz bergan ekologik o‘zgarishlarni o‘rganadi.",
+      "fact_ids": [
+        "p2-fact-4"
+      ]
+    },
+    {
+      "title": "Tabiatni o‘rganish",
+      "body": "Dala metodida organizmlar tabiiy sharoitda kuzatiladi; meteorologik qayd va organizmlar sonini hisoblash ham shunga kiradi.\n\nEkologik tajribada ayrim omilning organizm yoki jamoaga ta’siri maxsus sharoitda tekshiriladi; akvarium chuchuk suv havzasi modeli bo‘lishi mumkin.\n\nMatematik model tizim xususiyatlarini belgilar va hisob-kitoblar bilan ifodalaydi; u mumkin bo‘lgan o‘zgarishlarni oldindan o‘rganishga yordam beradi.",
+      "fact_ids": [
+        "p2-fact-5",
+        "p2-fact-6",
+        "p2-fact-7"
+      ]
+    },
+    {
+      "title": "Metodlarni birlashtirish",
+      "body": "Ekologik tadqiqotda dala kuzatuvi, tajriba va modellashtirish ko‘pincha birgalikda qo‘llanadi.",
+      "fact_ids": [
+        "p2-fact-8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p2-q1",
+      "fact_id": "p2-fact-1",
+      "question_text": "Bitta turning populyatsiyasida individlar soni o‘zgarishini qaysi bo‘lim o‘rganadi?",
+      "options": [
+        "Faqat anatomiya",
+        "Faqat embriologiya",
+        "Demekologiya",
+        "Autekologiya"
+      ],
+      "correct_answer": "Demekologiya",
+      "explanation": "Autekologiya alohida organizmning muhit bilan munosabatlarini, demekologiya esa populyatsiyalarni o‘rganadi."
+    },
+    {
+      "key": "p2-q2",
+      "fact_id": "p2-fact-2",
+      "question_text": "Turli turlar jamoasidagi munosabatlarni qaysi bo‘lim tahlil qiladi?",
+      "options": [
+        "Faqat fiziologiya",
+        "Sinekologiya",
+        "Faqat autekologiya",
+        "Faqat gistologiya"
+      ],
+      "correct_answer": "Sinekologiya",
+      "explanation": "Sinekologiya turli turlardan iborat jamoalarning o‘zaro va tashqi muhit bilan munosabatlarini o‘rganadi."
+    },
+    {
+      "key": "p2-q3",
+      "fact_id": "p2-fact-3",
+      "question_text": "Ekotizim konsepsiyasi bilan bog‘langan olimni tanlang.",
+      "options": [
+        "A. Tensli",
+        "V. N. Sukachev",
+        "Gregor Mendel",
+        "Karl Linney"
+      ],
+      "correct_answer": "A. Tensli",
+      "explanation": "Ekotizim konsepsiyasi A. Tensli, biogeotsenoz nazariyasi esa V. N. Sukachev bilan bog‘langan."
+    },
+    {
+      "key": "p2-q4",
+      "fact_id": "p2-fact-4",
+      "question_text": "Neolitdan hozirgacha inson faoliyati bilan bog‘liq ekologik o‘zgarishlar qaysi bo‘limga mos?",
+      "options": [
+        "Faqat sitologiya",
+        "Faqat autekologiya",
+        "Faqat embriologiya",
+        "Tarixiy ekologiya"
+      ],
+      "correct_answer": "Tarixiy ekologiya",
+      "explanation": "Tarixiy ekologiya insoniyat sivilizatsiyasi rivoji davomida yuz bergan ekologik o‘zgarishlarni o‘rganadi."
+    },
+    {
+      "key": "p2-q5",
+      "fact_id": "p2-fact-5",
+      "question_text": "Ilmo tabiiy hududda qushlar sonini qayd etmoqda. Bu qaysi metod?",
+      "options": [
+        "Faqat laboratoriya tajribasi",
+        "Faqat anatomik tekshiruv",
+        "Dala metodi",
+        "Faqat matematik model"
+      ],
+      "correct_answer": "Dala metodi",
+      "explanation": "Dala metodida organizmlar tabiiy sharoitda kuzatiladi; meteorologik qayd va organizmlar sonini hisoblash ham shunga kiradi."
+    },
+    {
+      "key": "p2-q6",
+      "fact_id": "p2-fact-6",
+      "question_text": "Akvariumda bitta omil ta’sirini alohida tekshirish qaysi yondashuvga misol?",
+      "options": [
+        "Faqat sistematik nomlash",
+        "Ekologik tajriba",
+        "Faqat tabiiy dala kuzatuvi",
+        "Faqat tarixiy manba yig‘ish"
+      ],
+      "correct_answer": "Ekologik tajriba",
+      "explanation": "Ekologik tajribada ayrim omilning organizm yoki jamoaga ta’siri maxsus sharoitda tekshiriladi; akvarium chuchuk suv havzasi modeli bo‘lishi mumkin."
+    },
+    {
+      "key": "p2-q7",
+      "fact_id": "p2-fact-7",
+      "question_text": "Ekotizim kelajagini parametrlarni o‘zgartirib hisoblash qaysi metodga mos?",
+      "options": [
+        "Matematik modellashtirish",
+        "Faqat tashqi shaklni chizish",
+        "Faqat gerbariy tuzish",
+        "Faqat bitta organizmni nomlash"
+      ],
+      "correct_answer": "Matematik modellashtirish",
+      "explanation": "Matematik model tizim xususiyatlarini belgilar va hisob-kitoblar bilan ifodalaydi; u mumkin bo‘lgan o‘zgarishlarni oldindan o‘rganishga yordam beradi."
+    },
+    {
+      "key": "p2-q8",
+      "fact_id": "p2-fact-8",
+      "question_text": "Ekosistemani chuqurroq tekshirish uchun metodlarni qanday qo‘llash mumkin?",
+      "options": [
+        "Faqat bittasini mutlaq deb qabul qilish",
+        "Kuzatuv ma’lumotlarini tashlab yuborish",
+        "Tajriba natijasini hech qachon tekshirmaslik",
+        "Bir-birini to‘ldiradigan tarzda birga"
+      ],
+      "correct_answer": "Bir-birini to‘ldiradigan tarzda birga",
+      "explanation": "Ekologik tadqiqotda dala kuzatuvi, tajriba va modellashtirish ko‘pincha birgalikda qo‘llanadi."
+    }
+  ]
+}

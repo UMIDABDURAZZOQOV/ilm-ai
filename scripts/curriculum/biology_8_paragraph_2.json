@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-2-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-4",
+  "title": "Odam organizmining hujayraviy tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "p2-fact-1": {
+      "claim": "Odam hujayralari shakli va vazifasiga ko‘ra farqlanadi. Membrana hujayrani chegaralab, moddalar o‘tishini tanlab boshqaradi.",
+      "answer": "Hujayra membranasi",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-2": {
+      "claim": "Sitoplazma hujayraning ichini to‘ldiradi; unda organoidlar joylashadi. Yadro hujayra faoliyatini boshqarishda qatnashadi.",
+      "answer": "Sitoplazma",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-3": {
+      "claim": "Ribosomalarda oqsil sintezlanadi; mitoxondriyalar hujayrani energiya bilan ta’minlashda qatnashadi.",
+      "answer": "Ribosoma",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-4": {
+      "claim": "Mitoxondriya hujayra faoliyati uchun zarur energiyani hosil qilishda muhimdir.",
+      "answer": "Mitoxondriya",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-5": {
+      "claim": "Golji majmuasi hujayrada hosil bo‘lgan moddalarni to‘plash va tarqatishga, lizosomalar esa oziq moddalarni parchalashga xizmat qiladi.",
+      "answer": "Lizosoma",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-6": {
+      "claim": "Xromosomalar organizm tuzilishi va xususiyatlari haqidagi irsiy axborotni saqlaydi. Odatdagi tana hujayrasida 46, jinsiy hujayrada 23 xromosoma bo‘ladi.",
+      "answer": "46 ta",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-7": {
+      "claim": "Oqsil, yog‘, karbonsuv va nuklein kislotalar hujayradagi organik moddalardir. Nuklein kislotalar irsiy axborot bilan bog‘liq.",
+      "answer": "Nuklein kislotalar",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "p2-fact-8": {
+      "claim": "Suv hujayradagi reaksiyalar va moddalar tashilishi uchun muhim muhitdir.",
+      "answer": "Reaksiyalar uchun muhit bo‘lishi",
+      "source": {
+        "paragraph": 2,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hujayra chegarasi va boshqaruvi",
+      "body": "Odam hujayralari shakli va vazifasiga ko‘ra farqlanadi. Membrana hujayrani chegaralab, moddalar o‘tishini tanlab boshqaradi.\n\nSitoplazma hujayraning ichini to‘ldiradi; unda organoidlar joylashadi. Yadro hujayra faoliyatini boshqarishda qatnashadi.",
+      "fact_ids": [
+        "p2-fact-1",
+        "p2-fact-2"
+      ]
+    },
+    {
+      "title": "Organoidlar hamkorligi",
+      "body": "Ribosomalarda oqsil sintezlanadi; mitoxondriyalar hujayrani energiya bilan ta’minlashda qatnashadi.\n\nMitoxondriya hujayra faoliyati uchun zarur energiyani hosil qilishda muhimdir.\n\nGolji majmuasi hujayrada hosil bo‘lgan moddalarni to‘plash va tarqatishga, lizosomalar esa oziq moddalarni parchalashga xizmat qiladi.",
+      "fact_ids": [
+        "p2-fact-3",
+        "p2-fact-4",
+        "p2-fact-5"
+      ]
+    },
+    {
+      "title": "Irsiy axborot",
+      "body": "Xromosomalar organizm tuzilishi va xususiyatlari haqidagi irsiy axborotni saqlaydi. Odatdagi tana hujayrasida 46, jinsiy hujayrada 23 xromosoma bo‘ladi.",
+      "fact_ids": [
+        "p2-fact-6"
+      ]
+    },
+    {
+      "title": "Hujayradagi moddalar",
+      "body": "Oqsil, yog‘, karbonsuv va nuklein kislotalar hujayradagi organik moddalardir. Nuklein kislotalar irsiy axborot bilan bog‘liq.\n\nSuv hujayradagi reaksiyalar va moddalar tashilishi uchun muhim muhitdir.",
+      "fact_ids": [
+        "p2-fact-7",
+        "p2-fact-8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "p2-q1",
+      "fact_id": "p2-fact-1",
+      "question_text": "Moddalarning hujayraga kirib-chiqishini tanlab boshqaradigan qismni toping.",
+      "options": [
+        "Mitoxondriya",
+        "Hujayra membranasi",
+        "Ribosoma",
+        "Xromosoma"
+      ],
+      "correct_answer": "Hujayra membranasi",
+      "explanation": "Odam hujayralari shakli va vazifasiga ko‘ra farqlanadi. Membrana hujayrani chegaralab, moddalar o‘tishini tanlab boshqaradi."
+    },
+    {
+      "key": "p2-q2",
+      "fact_id": "p2-fact-2",
+      "question_text": "Organoidlar joylashadigan hujayraning ichki muhiti nima?",
+      "options": [
+        "Sitoplazma",
+        "Faqat hujayra tashqarisidagi havo",
+        "Faqat suyak",
+        "Faqat qon tomiri"
+      ],
+      "correct_answer": "Sitoplazma",
+      "explanation": "Sitoplazma hujayraning ichini to‘ldiradi; unda organoidlar joylashadi. Yadro hujayra faoliyatini boshqarishda qatnashadi."
+    },
+    {
+      "key": "p2-q3",
+      "fact_id": "p2-fact-3",
+      "question_text": "Ilmo oqsil sintezi sodir bo‘ladigan organoidni belgilashi kerak. Qaysi biri?",
+      "options": [
+        "Lizosoma",
+        "Vakuola",
+        "Membrana",
+        "Ribosoma"
+      ],
+      "correct_answer": "Ribosoma",
+      "explanation": "Ribosomalarda oqsil sintezlanadi; mitoxondriyalar hujayrani energiya bilan ta’minlashda qatnashadi."
+    },
+    {
+      "key": "p2-q4",
+      "fact_id": "p2-fact-4",
+      "question_text": "Hujayraning energiya ta’minotida qaysi organoid asosiy rol o‘ynaydi?",
+      "options": [
+        "Ribosoma",
+        "Xromosoma",
+        "Mitoxondriya",
+        "Golji majmuasi"
+      ],
+      "correct_answer": "Mitoxondriya",
+      "explanation": "Mitoxondriya hujayra faoliyati uchun zarur energiyani hosil qilishda muhimdir."
+    },
+    {
+      "key": "p2-q5",
+      "fact_id": "p2-fact-5",
+      "question_text": "Oziq moddalarni parchalash vazifasi qaysi organoidga mos?",
+      "options": [
+        "Hujayra yadrosi",
+        "Lizosoma",
+        "Ribosoma",
+        "Xromosoma"
+      ],
+      "correct_answer": "Lizosoma",
+      "explanation": "Golji majmuasi hujayrada hosil bo‘lgan moddalarni to‘plash va tarqatishga, lizosomalar esa oziq moddalarni parchalashga xizmat qiladi."
+    },
+    {
+      "key": "p2-q6",
+      "fact_id": "p2-fact-6",
+      "question_text": "Darslikka ko‘ra odamning odatdagi tana hujayrasida nechta xromosoma bor?",
+      "options": [
+        "46 ta",
+        "23 ta",
+        "12 ta",
+        "92 ta"
+      ],
+      "correct_answer": "46 ta",
+      "explanation": "Xromosomalar organizm tuzilishi va xususiyatlari haqidagi irsiy axborotni saqlaydi. Odatdagi tana hujayrasida 46, jinsiy hujayrada 23 xromosoma bo‘ladi."
+    },
+    {
+      "key": "p2-q7",
+      "fact_id": "p2-fact-7",
+      "question_text": "Irsiy axborotni saqlash va o‘tkazish bilan qaysi organik moddalar bog‘liq?",
+      "options": [
+        "Faqat suv",
+        "Faqat mineral tuz",
+        "Faqat osh tuzi",
+        "Nuklein kislotalar"
+      ],
+      "correct_answer": "Nuklein kislotalar",
+      "explanation": "Oqsil, yog‘, karbonsuv va nuklein kislotalar hujayradagi organik moddalardir. Nuklein kislotalar irsiy axborot bilan bog‘liq."
+    },
+    {
+      "key": "p2-q8",
+      "fact_id": "p2-fact-8",
+      "question_text": "Suvning hujayradagi ahamiyatiga qaysi javob mos?",
+      "options": [
+        "Organoidlarni yo‘q qilishi",
+        "Irsiy axborotni butunlay almashtirishi",
+        "Reaksiyalar uchun muhit bo‘lishi",
+        "Barcha reaksiyalarni doim to‘xtatishi"
+      ],
+      "correct_answer": "Reaksiyalar uchun muhit bo‘lishi",
+      "explanation": "Suv hujayradagi reaksiyalar va moddalar tashilishi uchun muhim muhitdir."
+    }
+  ]
+}

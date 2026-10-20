@@ -36,12 +36,12 @@ def biology(setup):
 def test_real_catalog_covers_every_available_toc_paragraph_and_flags_missing_files():
     catalog, lesson = load_documents()
     validate_lesson(catalog, lesson)
-    assert sum(len(b["records"]) for b in catalog["books"]) == 315
-    assert sum(b.get("chapter_count", 0) for b in catalog["books"]) == 28
-    assert sum(b.get("paragraph_count", 0) for b in catalog["books"]) == 246
+    assert sum(len(b["records"]) for b in catalog["books"]) == 468
+    assert sum(b.get("chapter_count", 0) for b in catalog["books"]) == 46
+    assert sum(b.get("paragraph_count", 0) for b in catalog["books"]) == 366
     assert [
         b["grade"] for b in catalog["books"] if b["status"].startswith("blocked_")
-    ] == [6, 8]
+    ] == []
     five = catalog["books"][0]
     assert five["duplicate_pdf_ranges"] == [[99, 195]]
     first = next(r for r in five["records"] if r.get("paragraph") == 1)
@@ -114,8 +114,8 @@ def test_additive_import_is_idempotent_and_does_not_rewrite_progress(biology):
             == 2
         )
         assert db.query(CurriculumCourse).count() == 7
-        assert db.query(CurriculumChapter).count() == 28
-        assert db.query(CurriculumTopic).count() == 272
+        assert db.query(CurriculumChapter).count() == 47
+        assert db.query(CurriculumTopic).count() == 406
 
 
 def test_published_source_and_lesson_are_immutable(biology):
