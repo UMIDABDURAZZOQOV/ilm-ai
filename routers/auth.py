@@ -402,7 +402,13 @@ async def google_login(request: Request, redirect_uri: str = None, code_challeng
     if code_challenge and code_challenge_method != "S256":
         raise HTTPException(400, "pkce_s256_required")
     auth_url, state = await get_google_auth_url(request, redirect_uri, code_challenge)
-    return {"auth_url": auth_url, "state": state}
+    return {"auth_url": auth_url, "state": state, "mobile_auth_version": 2}
+
+
+@router.get("/mobile/config")
+def mobile_auth_config():
+    return {"mobile_auth_version":2,"pkce_method":"S256","code_exchange_path":"/auth/mobile/exchange",
+            "google_configured":is_google_oauth_enabled()}
 
 
 @router.get("/google-callback")

@@ -225,7 +225,7 @@ def start_mock_exam(
         "exam_id": exam.id,
         "subject_name_uz": s.name_uz,
         "duration_seconds": MOCK_EXAM_DURATION_SECONDS,
-        "questions": _translate_questions(questions, data.language),
+        "questions": _translate_questions(questions, data.language, db),
     }
 
 

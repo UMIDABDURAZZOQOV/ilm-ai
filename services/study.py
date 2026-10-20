@@ -92,6 +92,9 @@ def checkpoint_ready(db, user_id, unit_id):
     unit = db.get(SkillUnit, unit_id)
     if not unit:
         raise HTTPException(404, "Unit not found")
+    from services.curriculum import chapter_coverage
+    if not chapter_coverage(db, unit_id):
+        raise HTTPException(409, "chapter_content_not_ready")
     ids = [
         r[0] for r in db.query(SkillLesson.id).filter(SkillLesson.unit_id == unit_id)
     ]
@@ -261,9 +264,10 @@ def complete(db, user_id, kind, submitted, scope=None, attempt_id=None):
         subject = db.get(SkillSubject, unit.subject_id)
 
         def unlocked():
+            from services.curriculum import grade_for_unit
             return {
                 l["id"]
-                for u in build_tree(db, user_id, subject.slug)["units"]
+                for u in build_tree(db, user_id, subject.slug, grade_for_unit(db, unit.id))["units"]
                 for l in u["lessons"]
                 if l["status"] == "unlocked"
             }

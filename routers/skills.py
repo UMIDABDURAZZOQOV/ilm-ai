@@ -178,6 +178,7 @@ def get_progress(user_id: int = Depends(verify_user_access), db: Session = Depen
 @router.get("/{user_id}/tree")
 def get_tree(
     subject: str,
+    grade: int | None = None,
     user_id: int = Depends(verify_user_access),
     db: Session = Depends(get_db),
 ):
@@ -185,12 +186,29 @@ def get_tree(
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
 
-    tree = build_tree(db, user_id, subject)
+    if grade is not None:
+        from services.curriculum import course_outline
+        course_outline(db, user_id, subject, grade)  # Unknown grade must not look like an empty valid path.
+    tree = build_tree(db, user_id, subject, grade)
     if not tree:
         raise HTTPException(status_code=404, detail="Subject not found")
 
     tree["user"] = _gamification_block(user, db)
     return tree
+
+
+@router.get("/subjects/{subject_slug}/grades")
+def list_curriculum_grades(subject_slug: str, db: Session = Depends(get_db)):
+    from services.curriculum import grade_list
+    return grade_list(db, subject_slug)
+
+
+@router.get("/{user_id}/curriculum")
+def get_curriculum(subject: str, grade: int, user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    from services.curriculum import course_outline
+    if not db.get(User, user_id):
+        raise HTTPException(404, "User not found")
+    return course_outline(db, user_id, subject, grade)
 
 
 class StartLessonRequest(BaseModel):
@@ -210,13 +228,17 @@ def _lang_name(language: str) -> str | None:
     return {"ru": "Russian", "en": "English"}.get(language)
 
 
-def _translate_questions(questions: list, language: str) -> list:
+def _translate_questions(questions: list, language: str, db: Session | None = None) -> list:
     """Translate a list of question dicts (question_text/options/correct_answer/
     explanation) to ru/en, caching each question by id so any screen reuses it."""
+    if db is not None and questions:
+        from services.curriculum import question_sources
+        sources = question_sources(db, {q["id"] for q in questions})
+        questions = [{**q, "source":sources[q["id"]]} if q["id"] in sources else q for q in questions]
     name = _lang_name(language)
     if not name or not questions:
         return questions
-    todo = [q for q in questions if q.get("id") is not None and (q["id"], language) not in _QUESTION_TX_CACHE]
+    todo = [q for q in questions if not q.get("source") and q.get("id") is not None and (q["id"], language) not in _QUESTION_TX_CACHE]
     if todo:
         import json as _json
         from services.gemini import generate_content as _gen
@@ -256,7 +278,7 @@ def _translate_questions(questions: list, language: str) -> list:
                 _QUESTION_TX_CACHE[(q["id"], language)] = merged
         except Exception:
             pass  # never block on a translation hiccup — serve original for the rest
-    return [_QUESTION_TX_CACHE.get((q.get("id"), language), q) for q in questions]
+    return [q if q.get("source") else _QUESTION_TX_CACHE.get((q.get("id"), language), q) for q in questions]
 
 
 def _translate_theory(lesson_id: int, language: str, theory: list) -> list:
@@ -329,13 +351,21 @@ def start_lesson(
         for q in questions
     ]
     # Serve the lesson in the learner's language (translated + cached for ru/en).
-    theory, q_list = _translate_lesson_content(lesson_id, data.language, theory, q_list)
+    from services.models import CurriculumLessonSource
+    source = db.get(CurriculumLessonSource, lesson_id)
+    if source:
+        for q in q_list:
+            q["source"] = source.question_references.get(str(q["id"]))
+    else:
+        theory, q_list = _translate_lesson_content(lesson_id, data.language, theory, q_list)
     issue(db, data.user_id, "lesson", str(lesson_id), q_list, f"lesson:{attempt.id}")
     return {
         "attempt_id": attempt.id,
         # Duolingo-style: the client shows these teaching cards first, THEN the questions.
         "theory": theory,
         "questions": q_list,
+        "content_language": "uz" if source else data.language,
+        "sources": source.references if source else [],
     }
 
 
@@ -434,7 +464,7 @@ def list_mistakes(language: str = "uz", user_id: int = Depends(verify_user_acces
             "explanation": q.explanation,
             "wrong_count": m.wrong_count,
         })
-    return issued_payload(db, user_id, "mistakes", "all", {"questions": _translate_questions(out, language), "count": len(out)}, session_id=None)
+    return issued_payload(db, user_id, "mistakes", "all", {"questions": _translate_questions(out, language, db), "count": len(out)}, session_id=None)
 
 
 class PracticeResultItem(BaseModel):
@@ -505,7 +535,7 @@ def get_daily_challenge(language: str = "uz", user_id: int = Depends(verify_user
     ]
     return issued_payload(db, user_id, "daily", datetime.now(timezone.utc).date().isoformat(), {
         "completed": False,
-        "questions": _translate_questions(q_list, language),
+        "questions": _translate_questions(q_list, language, db),
     }, session_id=f"daily:{user_id}:{datetime.now(timezone.utc).date().isoformat()}")
 
 
@@ -589,7 +619,7 @@ def get_lightning_round(language: str = "uz", user_id: int = Depends(verify_user
             "options": q.options,
             "correct_answer": q.correct_answer,
         })
-    return issued_payload(db, user_id, "lightning", "all", {"questions": _translate_questions(out, language)}, session_id=None)
+    return issued_payload(db, user_id, "lightning", "all", {"questions": _translate_questions(out, language, db)}, session_id=None)
 
 
 class LightningCompleteRequest(PracticeCompleteRequest):
@@ -918,7 +948,7 @@ def get_mixed_review(language: str = "uz", user_id: int = Depends(verify_user_ac
                     break
 
     random.shuffle(out)
-    return issued_payload(db, user_id, "mistakes", "all", {"questions": _translate_questions(out[:MIXED_REVIEW_SIZE], language), "due_count": len(due)})
+    return issued_payload(db, user_id, "mistakes", "all", {"questions": _translate_questions(out[:MIXED_REVIEW_SIZE], language, db), "due_count": len(due)})
 
 
 MARATHON_SIZE = 30
@@ -949,7 +979,7 @@ def get_marathon(subject: str, language: str = "uz", user_id: int = Depends(veri
             "explanation": q.explanation,
         })
     subject_name = {"ru": s.name_ru, "en": s.name_en}.get(language) or s.name_uz
-    return issued_payload(db, user_id, "marathon", subject, {"questions": _translate_questions(out, language), "subject_name": subject_name}, session_id=None)
+    return issued_payload(db, user_id, "marathon", subject, {"questions": _translate_questions(out, language, db), "subject_name": subject_name}, session_id=None)
 
 
 SUBJECT_EXAM_SIZE = 30          # a full sitting; ~1 minute a question
@@ -1484,6 +1514,8 @@ def get_unit_exam(
     if not unit:
         raise HTTPException(status_code=404, detail="Unit not found")
 
+    from services.study import checkpoint_ready
+    checkpoint_ready(db, user_id, unit_id)
     lesson_ids = _unit_lesson_ids(db, unit_id)
     if not lesson_ids:
         raise HTTPException(status_code=404, detail="Unit has no lessons")
@@ -1529,7 +1561,7 @@ def get_unit_exam(
                 "explanation": q.explanation,
             }
             for q in picked
-        ], language),
+        ], language, db),
     }, session_id=None)
 
 

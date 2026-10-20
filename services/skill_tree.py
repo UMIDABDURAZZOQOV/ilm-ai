@@ -22,16 +22,22 @@ def get_subject_by_slug(db: Session, slug: str) -> SkillSubject | None:
     return db.query(SkillSubject).filter(SkillSubject.slug == slug).first()
 
 
-def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
+def build_tree(db: Session, user_id: int, subject_slug: str, grade: int | None = None) -> dict | None:
     """Returns {"subject": {...}, "units": [{...,"lessons":[{...,"status":...}]}]}
     or None if the subject doesn't exist."""
     subject = get_subject_by_slug(db, subject_slug)
     if not subject:
         return None
 
+    from services.models import CurriculumChapter, CurriculumCourse
+    from services.curriculum import chapter_coverage_map
+    mapped = db.query(CurriculumChapter.unit_id)
+    if grade is not None:
+        mapped = mapped.join(CurriculumCourse).filter(CurriculumCourse.subject_id == subject.id, CurriculumCourse.grade == grade)
+    unit_query = db.query(SkillUnit).filter(SkillUnit.subject_id == subject.id)
+    unit_query = unit_query.filter(SkillUnit.id.in_(mapped)) if grade is not None else unit_query.filter(~SkillUnit.id.in_(mapped))
     units = (
-        db.query(SkillUnit)
-        .filter(SkillUnit.subject_id == subject.id)
+        unit_query
         .order_by(SkillUnit.order_index)
         .all()
     )
@@ -67,6 +73,7 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
     ) if unit_ids else []
     exam_map = {e.unit_id: e for e in exams}
 
+    coverage_by_unit = chapter_coverage_map(db, unit_ids)
     result_units = []
     # A unit's checkpoint exam gates the NEXT unit: you can't start a new bob
     # until the previous one's exam is passed. The first unit is never gated.
@@ -107,11 +114,12 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
                 "stars": p.stars if p else 0,
                 "best_score_pct": p.best_score_pct if p else None,
             })
-        all_done = bool(u_lessons) and all(l.id in completed_ids for l in u_lessons)
+        coverage_complete = coverage_by_unit.get(u.id, True)
+        all_done = coverage_complete and bool(u_lessons) and all(l.id in completed_ids for l in u_lessons)
         ex = exam_map.get(u.id)
         exam_passed = bool(ex and ex.passed)
         if not u_lessons:
-            exam_state = "none"           # nothing to examine -- never gates
+            exam_state = "none" if coverage_complete else "locked"
         elif exam_passed:
             exam_state = "passed"
         elif all_done and not gated:
@@ -126,6 +134,7 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
             "title_ru": u.title_ru,
             "title_en": u.title_en,
             "order_index": u.order_index,
+            "coverage_complete": coverage_complete,
             "lessons": unit_lessons,
             "exam": {
                 "status": exam_state,
@@ -136,7 +145,7 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
         })
 
         # The next unit only opens once this one's checkpoint is passed.
-        gate_open = exam_passed or not u_lessons
+        gate_open = exam_passed or (not u_lessons and coverage_complete)
 
     return {
         "subject": {
@@ -149,6 +158,7 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
             "color": subject.color,
         },
         "units": result_units,
+        "grade": grade,
     }
 
 
@@ -157,7 +167,8 @@ def lesson_status(db: Session, user_id: int, lesson: SkillLesson) -> str:
     if not unit:
         return "locked"
     subject = db.query(SkillSubject).filter(SkillSubject.id == unit.subject_id).first()
-    tree = build_tree(db, user_id, subject.slug) if subject else None
+    from services.curriculum import grade_for_unit
+    tree = build_tree(db, user_id, subject.slug, grade_for_unit(db, unit.id)) if subject else None
     for u in (tree or {}).get("units", []):
         for item in u["lessons"]:
             if item["id"] == lesson.id:

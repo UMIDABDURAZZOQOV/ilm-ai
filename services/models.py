@@ -739,3 +739,44 @@ class UserStudyPreferences(Base):
     source = Column(String(100), nullable=True)
     level = Column(Integer, nullable=True)
     reason = Column(String(500), nullable=True)
+
+
+class CurriculumCourse(Base):
+    """Additive grade path; legacy subject units/progress remain independent."""
+    __tablename__ = "curriculum_courses"
+    id = Column(Integer, primary_key=True)
+    subject_id = Column(Integer, ForeignKey("skilltree_subjects.id"), nullable=False)
+    grade = Column(Integer, nullable=False)
+    title_uz = Column(Text, nullable=False)
+    source_book_id = Column(String(80), nullable=False)
+    status = Column(String(48), nullable=False)
+    catalog = Column(JSON, nullable=False)
+    __table_args__ = (UniqueConstraint("subject_id", "grade", name="uq_curriculum_subject_grade"),)
+
+
+class CurriculumChapter(Base):
+    __tablename__ = "curriculum_chapters"
+    id = Column(Integer, primary_key=True)
+    course_id = Column(Integer, ForeignKey("curriculum_courses.id"), nullable=False, index=True)
+    source_key = Column(String(80), nullable=False)
+    unit_id = Column(Integer, ForeignKey("skilltree_units.id"), nullable=False, unique=True)
+    __table_args__ = (UniqueConstraint("course_id", "source_key", name="uq_curriculum_chapter"),)
+
+
+class CurriculumTopic(Base):
+    __tablename__ = "curriculum_topics"
+    id = Column(String(80), primary_key=True)
+    chapter_id = Column(Integer, ForeignKey("curriculum_chapters.id"), nullable=False, index=True)
+    kind = Column(String(16), nullable=False)
+    title_uz = Column(Text, nullable=False)
+    source = Column(JSON, nullable=False)
+
+
+class CurriculumLessonSource(Base):
+    __tablename__ = "curriculum_lesson_sources"
+    lesson_id = Column(Integer, ForeignKey("skilltree_lessons.id"), primary_key=True)
+    topic_id = Column(String(80), ForeignKey("curriculum_topics.id"), nullable=False, index=True)
+    content_key = Column(String(100), nullable=False, unique=True)
+    content_sha256 = Column(String(64), nullable=False)
+    references = Column(JSON, nullable=False)
+    question_references = Column(JSON, nullable=False)
