@@ -158,6 +158,8 @@ Release-ready holati **tasdiqlanmagan**. Bloklovchilar: o‘zgartirilmagan veb p
 
 GitHub review uchun backend base `docs/codex-project-context`, Flutter base `subjects-only-duolingo`; ikkalasida head `feat/mobile-release-hardening`. Git HTTPS proxy orqali repository read va push dry-run ishladi; GitHub API chaqiruvi Forbidden qaytargani sabab PR yaratish imkoniyati alohida tekshiriladi. PR yaratilmagan bo‘lsa compare havolasini PR deb ko‘rsatmang:
 
+**Yakuniy GitHub handoff — 2026-10-20:** backend kod `b9ca0bd` + hujjat `372f396` va mobil `de52ca2` feature branchlarga haqiqatan push qilindi. So‘ng ikkala repo uchun `gh pr create --draft` tegishli yuqoridagi base/head bilan sinab ko‘rildi; ikkisi ham `Post https://api.github.com/graphql: Forbidden` qaytardi. **PR yaratilmagan.** Bu Git read/push huquqi ishlamaydi degani emas: ikkala yangi remote branch pushi muvaffaqiyatli. Tayyor PR body’lari workspace `.setup/pr-backend.md` va `.setup/pr-flutter.md` da saqlangan; quyidagi compare sahifalaridan qo‘lda draft ochish mumkin. Ushbu handoff yozuvi ham alohida hujjat commitida o‘sha backend feature branchga yuboriladi. Remote CI statusi tekshirilmagan.
+
 - Backend compare: https://github.com/UMIDABDURAZZOQOV/ilm-ai/compare/docs/codex-project-context...feat/mobile-release-hardening
 - Flutter compare: https://github.com/UMIDABDURAZZOQOV/ilm-ai-flutter/compare/subjects-only-duolingo...feat/mobile-release-hardening
 
