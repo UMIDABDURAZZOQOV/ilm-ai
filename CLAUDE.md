@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy davom ettirish nuqtasi — 2026-10-20:** mobil ilova va unga zarur backend tuzatishlari uchun quyidagi [release hardening hisobotini](#mobil-release-hardening--2026-10-20) o‘qing. Avvalgi yozuvlar tarix sifatida saqlangan. Ushbu ishda `main` emas, `feat/mobile-release-hardening` ishlatiladi. Veb-sayt kodi o‘zgartirilmaydi. Production release hali tasdiqlanmagan.
+> **Joriy davom ettirish nuqtasi — 2026-10-20:** [5–11-sinf Biologiya bosqichi](#biologiya-511-sinf--2026-10-20) uchun backend va Flutter `feat/biology-curriculum` branchlarida. Beshta kitob xaritalandi; 6/8-sinf PDF’lari transfer limitida ochilmadi. Birinchi manbali dars va sinf yo‘llari test/staging uchun yaratildi. Veb-sayt kodi o‘zgartirilmaydi; productionga deploy/migratsiya bajarilmaydi. Oldingi [mobile hardening hisoboti](#mobil-release-hardening--2026-10-20) va uning release bloklovchilari ham amal qiladi.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -35,6 +35,134 @@ Flutter: UI matnlari `str3`/`t()`; kontent tarjima qilinmagan bo‘lsa `ContentL
 - 2026-10-12 (Google Auth fix): login_screen.dart da navigatsiya aniqlandi (/setup yoki /learn), Render sovuq ishga tushishi va timeout uchun 3 tilli (uz/ru/en) xato xabarlari ulandi.
 - ILMO-REJA: 0-bosqich TUGADI. Google login tekshiruvi (taskAffinity, 30s timeout, needsProfileSetupProvider, /setup yo'naltirish) tasdiqlandi; 28/28 test va flutter analyze toza o'tdi.
 - 2026-10-12 (Palitra auditi): Boshlang'ich flutter analyze (No issues found!) va flutter test (34/34 o'tdi) tekshirildi.
+
+## Biologiya 5–11-sinf — 2026-10-20
+
+### Bosqich holati va Git asoslari
+
+Foydalanuvchining yangi topshirig‘i ushbu bosqichda manbali o‘zbekcha Biologiya kontentini yaratishga ruxsat berdi; avvalgi kontentga tegmaslik qaydi oldingi mobile hardening bosqichining tarixidir. Eski ishlar qayta boshlanmadi. Backend `feat/biology-curriculum` branchi `53262d4`, Flutter xuddi shu nomli alohida branchi `de52ca2` ustidan yaratildi. `feat/mobile-release-hardening` remote referenslari saqlangan. `ilm-ai-frontend` `054f0ce` holatida toza, uning kodi, commitlari yoki remote branchlari o‘zgartirilmadi.
+
+**Bu to‘liq 5–11-sinf tayyor kursi emas.** Manbalarning beshtasi to‘liq mundarija/sarlavha darajasida xaritalandi, ikkitasining sahifalari ochilmadi. Bitta birinchi interaktiv dars ishlab chiqildi. Qolgan mavzular uchun dars/savol/progress yasab qo‘yilmadi. Manbalar to‘liq ochilmagani sabab barcha yetti kitobni xaritalash bosqichi yakunlangan deb hisoblanmaydi.
+
+### Haqiqatan ochilgan manbalar va katalog
+
+| Sinf | Biriktirilgan darslik / tasdiqlangan nashr | PDF sahifalari | Bob / raqamlangan paragraf | Laboratoriya / amaliy | Holat |
+|---|---|---:|---:|---:|---|
+| 5 | **Biologiya**, O‘. Pratov, A. To‘xtayev, F. Azimova, Z. Tillayeva; O‘zbekiston, 2020, 5-nashr | 195 | 3 / 18 | 4 / 8 | Xaritalangan; §1 bo‘yicha bitta interaktiv dars |
+| 6 | `botanika_6_uzb.pdf` | O‘qilmadi | — | — | Transfer vositasi **32 MiB** limit bilan rad etdi; muallif/yil/mundarija taxmin qilinmadi |
+| 7 | **Biologiya (Zoologiya)**, O. Mavlonov; O‘zbekiston milliy ensiklopediyasi, 2017, 4-nashr | 208 | 8 / 59 | 5 / 0 | Xaritalangan; interaktiv kontent hali yaratilmagan |
+| 8 | `odam_va_uning_salomatligi_8_uzb.pdf` | O‘qilmadi | — | — | Transfer vositasi **32 MiB** limit bilan rad etdi; metadata taxmin qilinmadi |
+| 9 | **Biologiya. Sitologiya va genetika asoslari**, A. Zikiryayev, A. To‘xtayev, I. Azimov, N. Sonin; Yangiyul Poligraph Service, 2019, 5-nashr | 192 | 8 / 67 | 8 / 3 | Xaritalangan; 67 raqam ichiga laboratoriya/amaliy paragraflar ham kiradi |
+| 10 | **Biologiya**, A. G‘afurov, A. Abdukarimov, J. Tolipova, O. Ishankulov, M. Umaraliyeva, I. Abduraxmonova; Sharq, 2017, 1-nashr | 240 | 5 / 58 | 4 / 0 | Xaritalangan; interaktiv kontent hali yaratilmagan |
+| 11 | **Biologiya**, shu olti muallif; Sharq, 2018, 1-nashr | 240 | 4 / 44 | 5 / 0 | Xaritalangan; interaktiv kontent hali yaratilmagan |
+
+Mashina o‘qiydigan asosiy xarita: [`scripts/curriculum/biology_sources.json`](scripts/curriculum/biology_sources.json). Ochilgan beshta manba bo‘yicha **28 bob, 246 raqamlangan paragraf, jami 315 katalog yozuvi**: bob, bo‘lim, kichik bo‘lim, mavzu, laboratoriya va amaliy mashg‘ulotlar. Laboratoriya/amaliy yozuvlar: 26 + 11. Bular interaktiv darslar soni emas.
+
+Har bir manbada fayl nomi, SHA-256, kitob nomi, mualliflar, nashr, yil, ISBN, mundarijaning PDF sahifalari, manba huquqi va savol/topshiriq belgilari borligi qayd etiladi. Har bir yozuvda bob/bo‘lim bog‘lanishi, paragraf raqami, sarlavha, bosma/PDF boshlanish va tugash sahifalari, body sarlavhasi bilan taqqoslash usuli va assessment marker tekshiruvi saqlanadi. Sahifa oralig‘i keyingi haqiqiy sarlavha chegarasidan chiqariladi; bir sahifada ikki bo‘lim bo‘lsa, oraliqlar kesishishi mumkin. Bu barcha sahifalardagi fan faktlarini ekspert o‘qib tasdiqladi degani emas: katalog uchun matn qatlami/mundarija/sarlavhalar tekshirildi, dars faktlari uchun alohida sahifa rasmi o‘qildi.
+
+Muhim manba farqlari:
+
+- 5-sinf PDF’ida kitob ikki marta bor: asosiy nusxa 2–98, takror qism 99–195 PDF sahifalari. Takror nusxa ikkinchi kurs/mavzu sifatida sanalmaydi. Bosma sahifa odatda PDF sahifasidan 1 kam. Mundarija PDF 95-sahifada, birinchi §1 PDF 5–8 / bosma 4–7-betlarda.
+- 7-sinf §40 mundarijada bosma 132 deb berilgan, haqiqiy sarlavha 136-sahifada. Ikkala raqam va farq belgisi saqlandi. Running headerlar yangi mavzu boshlanishi deb olinmaydi.
+- 5-sinf laboratoriya/amaliy ishlari mundarijada to‘liq sanalmagan; body matnidagi barcha 4 laboratoriya va 8 amaliy sarlavha alohida qo‘shildi. 9-sinf laboratoriya/amaliy ishlari esa paragraf raqamining o‘zi bilan berilgan — qo‘shimcha soxta paragraf yaratilmaydi.
+- `scripts/catalog_biology_sources.py` aynan o‘qilgan PDF SHA-256’larini tekshiradi; bir xil fayl nomidagi boshqa nashrga metadata/sahifalar avtomatik ko‘chirilmaydi. Yetishmagan oddiy fayl `blocked_source_unavailable`, vosita limitida haqiqatan rad etilgan fayl esa explicit flag bilan `blocked_transfer_limit_32_mib` bo‘ladi.
+
+Qayta kataloglash (PDF’lar GitHub repozitoriyasida bo‘lmaydi):
+
+```bash
+python scripts/catalog_biology_sources.py \
+  --pdf-dir /workspace/attachments \
+  --blocked-transfer-grade 6 --blocked-transfer-grade 8 \
+  --output scripts/curriculum/biology_sources.json
+```
+
+### Mualliflik huquqi va yangi kontent
+
+Tekshirilgan kitoblarning titul/copyright sahifalarida muallif/nashriyot huquqlari belgilangan; to‘liq matn yoki rasmlarni qayta nashr qilish litsenziyasi topilmadi. PDF’lar, ajratilgan to‘liq matnlar, maktab rasmlari va olim portretlari repo/appga qo‘shilmadi. Katalogda bibliografiya, qisqa sarlavhalar va sahifa ko‘rsatkichlari, darsda esa faktlarga asoslangan **original qayta tuzilgan** tushuntirish va savollar bor. Darslikdagi tayyor mashq matnlari ko‘chirilmadi. Manba indekslashini kitobni to‘liq qayta nashr qilish ruxsati deb talqin qilmang.
+
+Kontent manifesti: [`scripts/curriculum/biology_5_first_lesson.json`](scripts/curriculum/biology_5_first_lesson.json). Dars nomi manbadagi **«Biologiya – hayot haqidagi fan»**, I bob, §1. Besh tushuntirish kartasi va **12 original MCQ**: biologiya sohalari, amaliy ahamiyat, tabiatga oqilona munosabat va darslikdagi o‘zbek olimlari. Har bir karta `fact_ids`, har bir savol `fact_id` bilan bog‘langan. Faktlar sahifa rasmi orqali tekshirilgan: PDF **5 / bosma 4** hamda PDF **7 / bosma 6**. Har savolning to‘g‘ri javobi shu faktning tekshirilgan javobiga teng, feedback ham shu bilimga tayangan. UZ kontent uchun avtomatik RU/EN tarjima ishga tushirilmaydi; ilovaning uch interfeys tili saqlangan.
+
+Savol tanlash, tasdiqlash, Ilmo reaksiyasi, feedback, natija, server baholashi, XP va saqlangan progress mavjud lesson engine orqali ishlaydi. Birinchi muvaffaqiyatli yakun — 20 XP; qayta yuborish yangi XP bermaydi. Dars tugashi **butun bob yoki sinfni tugallash emas**: boshqa mavzular tayyor emasligi tufayli bob checkpointi yopiq qoladi. Keyingi sinfga o‘tish amali faqat haqiqiy grade completion bo‘lganda ko‘rsatiladi.
+
+### Additive backend va API
+
+`services/models.py`ga eski jadvallarni o‘zgartirmaydigan to‘rtta yangi jadval qo‘shildi:
+
+- `CurriculumCourse`: bitta `biologiya` fani ichida 5–11 sinf, manba katalogi va haqiqiy tayyorlik holati.
+- `CurriculumChapter`: sinf/bobni yangi `SkillUnit` bilan bog‘laydi; mavjud unit yoki ID qayta ishlatilmaydi.
+- `CurriculumTopic`: mavzu, laboratoriya/amaliy yozuv va bosma/PDF sahifa bog‘lanishi.
+- `CurriculumLessonSource`: existing lesson ID, topic, immutable content key/SHA, dars va **har bir question ID** uchun manbalar.
+
+Eski userlar, progresslar, XP/SRS, eski Biologiya yo‘li va boshqa fanlar o‘chirilmagan yoki ko‘chirilmagan. Grade lesson/unit ID’lari alohida bo‘lgani uchun bir sinfdagi progress boshqasini ochmaydi. XP/streak umumiy account tizimida qoladi. `grade` berilmagan tree eski yo‘lni saqlaydi, yangi curriculum unitlarini unga qo‘shmaydi. Lesson start/complete shu mavjud API’dan foydalanadi; prerequisite, completion va unlock hisobi unitning haqiqiy sinfini oladi. Curriculum bob checkpointi uchun tegishli nazariy mavzular kontenti tayyorligi ham shart.
+
+Yangi/additive endpointlar:
+
+| Endpoint | Kontrakt |
+|---|---|
+| `GET /skills/subjects/{subject_slug}/grades` | Ochiq katalog; sinflar, verified/blocked holati, real ready lesson soni. Hardcoded/fake mobil sinflar o‘rnida backend ro‘yxati. |
+| `GET /skills/{user_id}/curriculum?subject=biologiya&grade=5` | Account access; bob/mavzu/manba/tayyorlik, shu sinf progressi, haqiqiy completion/next_grade. |
+| `GET /skills/{user_id}/tree?subject=biologiya&grade=5` | Sinfga tegishli Skill Path. `grade` optional, eski client shakli ishlashda davom etadi. |
+| Existing lesson start | `source` har bir theory/questionda, `sources` va `content_language` rootda; eski maydonlar saqlangan. |
+| `GET /auth/mobile/config` | Maxfiy kalitsiz `mobile_auth_version=2`, S256, exchange path va Google konfiguratsiya bor/yo‘qligi. |
+| Existing `/auth/google-login` | Eski `auth_url/state` saqlanib, `mobile_auth_version=2` qo‘shilgan. Mobil client eski token-bearing callbackni ochishdan oldin capabilityni tekshiradi. |
+
+`services/curriculum_validation.py` validatorlari yetti unique grade, barcha manbali bob/paragraf raqamlari, bosma/PDF sahifa chegaralari va o‘zaro offseti, source verification, original UZ manifest, theory evidence, unique question key, to‘rtta alohida variant va tekshirilgan javob mosligini tekshiradi. Modul ORM/DB import qilmaydi: dry-run hatto production DATABASE_URL mavjud bo‘lsa ham bazaga ulanmaydi yoki startup migration chaqirmaydi — alohida subprocess testi bor. `services/curriculum.py` import va grade read modelini bajaradi. Bu pedagogik ekspertiza o‘rnini bosmaydi. Published manifest/catalog o‘zgarsa import jim qayta yozmaydi — yangi reviewed key/migration qarori talab qilinadi. Dars tartibi paragraf ketma-ketligiga, katalog ko‘rinishi haqiqiy sahifa/sarlavha tartibiga bog‘langan. Butun sinf outline’i uchun query soni bob/mavzu boshiga oshmaydi; 9-sinfning 8 bobli xaritasi 8 tadan ko‘p query ishlatmasligi test qilindi.
+
+Staging importer startupga ulanmagan. Oddiy ishga tushirilishi faqat validatsiya; `--apply` faqat explicit lokal SQLite DB’da ishlaydi, production yoki boshqa DB URL’da rad etiladi. Bitta tranzaksiyali, idempotent, eski progressni qayta yozmaydi. Keyingi reviewed manifest uchun `--lesson path.json` bor.
+
+```bash
+ENVIRONMENT=development DATABASE_URL=sqlite:////tmp/biology-staging.db \
+  python scripts/import_biology_curriculum.py
+ENVIRONMENT=development python scripts/import_biology_curriculum.py \
+  --apply --database-url sqlite:////tmp/biology-staging.db
+```
+
+Haqiqiy production DDL, migration, seed/import yoki deploy bajarilmadi. PostgreSQL uchun yangi jadvallarning DDL compile testi bor; real PostgreSQL staging yo‘q. Existing startup `create_all` mexanizmi yangi modellarni taniydi — shu sabab kelajakdagi production deploy ham alohida DDL/rollout ruxsatisiz bajarilmaydi.
+
+### Flutter va topilgan UI holatlari
+
+`CurriculumLearningScreen` backenddan yetti sinf holatini yuklaydi. Sinf tanlovi account bo‘yicha preferencega saqlanadi, oldingi umumiy Biologiya yo‘liga qaytish imkoniyati bor. Tayyor dars yo‘q sinflar ochiq empty/preparing state ko‘rsatadi; manbasi o‘qilmagan 6/8-sinfda mavzular uydirilmaydi. Mavzular sheet’i bob, paragraf, bosma sahifa va actual completionni ko‘rsatadi. Qolgan to‘rtta asosiy tab, Ilmo/logo, ranglar, `SUBJECTS_ONLY` va hidden modullar saqlangan.
+
+`ContentSourceButton` theory/lesson/practice savoli yonida kitob, muallif, yil, paragraf, bosma va PDF sahifani ko‘rsatadi. PDF tasviri appga joylanmaydi. Uzoq asl bob nomlari oldingi bir qatorli clippingdan chiqarildi: matn haqiqiy text scale bilan o‘lchanib path koordinatalari moslashadi, floating Start label ustiga chiqmaydi. Biologiya firuza kartalarida to‘q matn kontrasti, uzun checkpoint dialogida scroll va 200% shrift Row wrap tuzatildi. Theory kirish animatsiyasi ham Reduce Motion’ga moslashtirildi. Bu o‘zgarishlar uchun long-title/large-text checkpoint testi qo‘shilgan; xatoni yashirish uchun assertion o‘chirilmagan.
+
+### Telefonda xabar qilingan ikki xato
+
+1. **«Fanlarni yuklab bo‘lmadi» — production ildiz sababi tasdiqlanmagan.** Mavjud `GET /skills/subjects` ommaviy endpoint bo‘lib, grade qo‘shilishi yoki token talab qilmaydi. Cloud’dan Render `/health`, `/skills/subjects`, `/openapi.json` so‘rovlari proxy’da `Tunnel connection failed: 403 Forbidden` bilan rad etildi; bu telefon ham aynan shu proxy xatosini oladi degani emas. Mobil katalog xatosida endi umumiy sarlavha bilan birga network/timeout/server/format farqi ko‘rsatiladi; noto‘g‘ri JSON katalog alohida xato beradi. Lokal public subjects va yangi grade API ishlashi test qilingan.
+2. **Google «Amal bajarilmadi» — production/native sabab tasdiqlanmagan.** Yangi mobil client PKCE HTTPS exchange talab qiladi; server capabilitysi bo‘lmasa brauzerni ochmasdan aniq versiya nomuvofiqligi beradi. Eski va mos server response shakllari test qilindi. Cancel alohida lokalizatsiyalangan. Google Console redirect/credentials, production backend versiyasi va haqiqiy Android browser/deep-link oqimi hali tekshirilishi kerak. Demo QA entrypoint loginni test token bilan chetlab o‘tadi va **Google ishladi degan dalil sifatida ko‘rsatilmaydi**.
+
+Read-only diagnostika: `python scripts/check_mobile_backend.py --base-url https://ilm-ai-backend-256x.onrender.com`. U faqat health/public subjects/mobile config/grades’ni oladi, OAuth boshlamaydi, token/credential chiqarmaydi. Cloud’dagi natija `.setup/biology-sources/production-readiness.json`: barcha remote route’lar unreachable. Production hosti cloud allowed domains’ga qo‘shilib, haqiqiy server response/version tekshirilishi kerak; bu o‘z-o‘zidan production deploy ruxsati emas.
+
+### Test natijalari va davom ettirish
+
+| Tekshiruv | Amalda olingan natija |
+|---|---|
+| Backend `python -m pytest -q` | **65 passed, 12 warnings, 10.82s**. Oldingi 47 test saqlandi; katalog/source, grade/progress, birinchi real dars, old/new OAuth capability, pure dry-run va query chegarasi testlari qo‘shildi. Eski Pydantic/FastAPI deprecation warninglari qolgan. |
+| Backend targeted Ruff `F821,F822,E9` | **All checks passed**. |
+| PDF katalog generatori + validator | Beshta aniq SHA’li PDF: **315 yozuv, 28 bob, 246 paragraf**, pending heading check yo‘q. 6/8-sinf bloklangan, kontent to‘ldirilmagan. Bular 315 interaktiv dars degani emas. |
+| Staging import va qayta import | Birinchi `created: true`; takror `created: false`. Real browser QA bazasidagi 20 XP / 1 streak / **bitta** StudyEvent saqlandi. Productionga ulanilmagan. |
+| Flutter `flutter analyze` | **No issues found**. |
+| Flutter `flutter test` | **87 tests passed** — oldingi 79 + yangi 8. Birinchi real 12 savolli dars, source references, grade selection/account storage, noto‘g‘ri API shakli, eski OAuth, kichik/landscape va 200% shrift/uzun bob checkpointi tekshirildi. |
+| `flutter build web --no-pub --no-web-resources-cdn --no-wasm-dry-run` | **Built build/web**, final production-target source uchun 48.6s. Bu Flutter web targeti; Next.js veb-saytga tahrir qilinmagan. |
+| Haqiqiy lokal API + Chromium | §1’ning 5 kartasi → **12/12**, **20 XP**, **1 streak**; har bir feedback correct; manba sheet’i bosma 4 / PDF 5 ni ko‘rsatdi; qaytganda progress yangilandi, boshqa boblar tayyor deb belgilanmadi; runtime exceptionlar `[]`. Bu Google login/native release emas. |
+| `flutter build apk --debug --no-pub` | **Failed: No Android SDK found**. APK tayyor deb e’lon qilinmaydi. |
+| PostgreSQL/native Google/FCM/real TalkBack | Additive PostgreSQL DDL compile testidan tashqari jonli PostgreSQL yo‘q; real Android/iOS/Google/FCM/TalkBack sinovi bajarilmagan. |
+| Git hygiene | Staged diff check toza; PDF/rasm/DB/env/signing key/JWT/private credential artefakti kiritilmagan. Veb working tree o‘zgarmagan. |
+
+Dalil screenshotlari workspace `.setup/biology-path.png`, `biology-theory.png`, `biology-source.png`, `biology-feedback.png`, `biology-result.png`, `biology-progress.png`, `biology-outline.png` da. UI bilan birga manba va natija rasmlari ko‘rib chiqildi. Browser tokeni/config, `.dart_tool/biology_smoke.dart`, QA DB va build/screenshotlar product commitiga kiritilmagan. Flutter `test/fixtures/biology_*.json` fayllari aynan izolyatsiyalangan staging API javoblari; synthetic QA account production foydalanuvchisi yoki soxta product statistikasi emas. PDF/olim portretlari bu fixturelarga ham qo‘shilmagan.
+
+Kod commitlari: backend **`d69918d`** (14 fayl), Flutter **`454178d`** (22 fayl), ikkalasi `feat/biology-curriculum`; ushbu markaziy hujjat alohida docs commitida. Remote push/PR natijasi handoffda qayd etiladi; compare sahifasi ochilgan PR bilan teng emas:
+
+- Backend: https://github.com/UMIDABDURAZZOQOV/ilm-ai/compare/feat/mobile-release-hardening...feat/biology-curriculum
+- Flutter: https://github.com/UMIDABDURAZZOQOV/ilm-ai-flutter/compare/feat/mobile-release-hardening...feat/biology-curriculum
+
+O‘zgargan modullar: backend `routers/{auth,skills,mock_exam}.py`, `services/{models,skill_tree,study,curriculum,curriculum_validation}.py`, uchta source/import/diagnostic skript, ikki JSON manifest va yangi backend test fayli; Flutter network/auth/onboarding, grade DTO/repository/provider/screen, theory/question/practice source button, path layout/motion va test/fixturelar. Aniq fayl inventari commit diff’larida; eski kontent seederlari, banklar, `users.json`, theme/brand assetlari va veb kodiga tegilmagan.
+
+Qolgan ishlar:
+
+1. **6 va 8-sinf manbasi bloklangan:** ularni har biri 32 MiB’dan kichik siqilgan yoki sahifalarga bo‘lingan PDF holida olish kerak. Manba o‘qilmaguncha yil/muallif/mundarija/savol yaratilmadi. Yangi fayl/segment SHA va original bosma/PDF mappingni aniq qayd etib, `BOOKS`/parser katalogiga manbadan qo‘shish kerak. Hozirgi metadata bilan boshqa nashrni almashtirmang.
+2. Yetti kitob xaritasi tugagach, shu fakt/sahifa validatorlari bilan qolgan 5-sinf mavzularidan ketma-ket kontent yaratish. Avval yangi sahifalar rasmlarini o‘qish, keyin fact registry, original lesson va source-reviewed savol; har katta bobdan so‘ng source/API/widget regression. Hozir boshqa mavzular tayyor deb belgilanmagan.
+3. Haqiqiy Android SDK/APK, Google login, TalkBack, physical lifecycle/push/performance va PostgreSQL rehearsal hali kerak. Avvalgi hardening’ning o‘zgartirilmagan veb practice kontrakti release bloklovchisi ham qolgan. Productionni ko‘rmasdan telefondagi ikki xatoni tuzatildi deb yopmang.
+4. Keyingi import o‘zgarishlari ham faqat test/staging; production migrate/deploy/merge/Play publish uchun egasining alohida ruxsati kerak. Backend va Flutter birga review/staging qilinadi; veb kodi ushbu bosqichda o‘zgartirilmaydi.
 
 ## Mobil release hardening — 2026-10-20
 
