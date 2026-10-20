@@ -125,6 +125,14 @@ Kod commitlari: backend **`9a31c92`** (30 fayl), Flutter **`4cec585`** (9 fayl).
 
 Backend o‘zgarishlari: `scripts/{catalog_biology_sources,ocr_biology_segments,import_biology_curriculum}.py`, `services/{curriculum,curriculum_validation,skill_tree}.py`, `tests/test_biology_{curriculum,segments}.py`, source/review/readiness/index JSONlari va 18 yangi `scripts/curriculum/biology_*_paragraph_*.json`. Flutter: `content_source_button.dart`, `test/biology_curriculum_test.dart`, real staging API javoblaridan olingan 7 yangi fixture. Aniq fayl inventari yuqoridagi code commitlarida. `ilm-ai-frontend` **`054f0ce`**, working tree toza; commit/push qilinmadi.
 
+**Joriy GitHub handoff:** backend kod `9a31c92` va hisobot `1f23f04`, Flutter `4cec585` haqiqatan remote `feat/biology-curriculum` branchlariga push qilindi; `git ls-remote` bilan tekshirildi. Ikkala repozitoriyada `gh pr create --draft` yana sinab ko‘rildi — `Post https://api.github.com/graphql: Forbidden`. **PR yaratilmagan**, Git push esa muvaffaqiyatli. Review uchun compare sahifalari (bular PR havolasi emas):
+
+- Backend: https://github.com/UMIDABDURAZZOQOV/ilm-ai/compare/feat/mobile-release-hardening...feat/biology-curriculum
+- Flutter: https://github.com/UMIDABDURAZZOQOV/ilm-ai-flutter/compare/feat/mobile-release-hardening...feat/biology-curriculum
+
+Tayyor PR matnlari `.setup/biology-pr-backend.md` va `.setup/biology-pr-flutter.md`da. Remote CI natijasi kuzatilmagan. Ushbu GitHub natijasi alohida handoff docs commitida shu feature branchga yuboriladi. Production main/deploy/migratsiya va ilova nashri bajarilmagan.
+
+
 
 ## Biologiya 5–11-sinf — 2026-10-20
 
