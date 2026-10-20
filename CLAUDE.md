@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy davom ettirish nuqtasi — 2026-10-20:** [5–11-sinf Biologiya bosqichi](#biologiya-511-sinf--2026-10-20) uchun backend va Flutter `feat/biology-curriculum` branchlarida. Beshta kitob xaritalandi; 6/8-sinf PDF’lari transfer limitida ochilmadi. Birinchi manbali dars va sinf yo‘llari test/staging uchun yaratildi. Veb-sayt kodi o‘zgartirilmaydi; productionga deploy/migratsiya bajarilmaydi. Oldingi [mobile hardening hisoboti](#mobil-release-hardening--2026-10-20) va uning release bloklovchilari ham amal qiladi.
+> **Joriy davom ettirish nuqtasi — 2026-10-20:** `feat/biology-curriculum` branchlarida yangi 6/8-sinfning sakkiz segmenti (336 PDF sahifa) ochildi. Endi yetti kitob xaritasi bor: **46 bob + Kirish, 366 paragraf; 19 original UZ interaktiv dars / 140 savol**. Har sinfning to‘liq kursi hali tayyor emas. Quyidagi yangi davom ettirish hisoboti joriy holatdir; undan keyingi dastlabki Biologiya va mobile hardening bo‘limlari tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -36,7 +36,99 @@ Flutter: UI matnlari `str3`/`t()`; kontent tarjima qilinmagan bo‘lsa `ContentL
 - ILMO-REJA: 0-bosqich TUGADI. Google login tekshiruvi (taskAffinity, 30s timeout, needsProfileSetupProvider, /setup yo'naltirish) tasdiqlandi; 28/28 test va flutter analyze toza o'tdi.
 - 2026-10-12 (Palitra auditi): Boshlang'ich flutter analyze (No issues found!) va flutter test (34/34 o'tdi) tekshirildi.
 
+## Biologiya — 6/8-sinf manbalari va birinchi boblar — 2026-10-20
+
+Bu `feat/biology-curriculum` branchlaridagi **davom ettirish** bosqichi. Boshlanishda backend `2733496`, Flutter `454178d` lokal va remote HEADlari bir xil edi; dastlabki backend `docs/codex-project-context/3a304aa` va Flutter `subjects-only-duolingo/4f70cb2` referenslari ham qayta tekshirildi. Oldingi mobil hardening, original Ilmo/ranglar, server baholashi, XP/progress va yashirin eski modullar saqlandi. Veb-sayt kodi o‘zgartirilmadi.
+
+### Sakkiz yangi PDF qismi haqiqatan ochildi
+
+| Sinf | Asl PDF sahifa oraliqlari | Har qismdagi sahifa | Jami |
+|---|---|---:|---:|
+| 6 | 001–036, 037–072, 073–108, 109–144 | 36 | **144** |
+| 8 | 001–048, 049–096, 097–144, 145–192 | 48 | **192** |
+
+Sakkizalasining transferi muvaffaqiyatli; har biri 32 MiB’dan kichik. Barcha **336 sahifa Poppler orqali tasvirga aylantirildi va Tesseract OCRdan o‘tdi**. 6-sinfda matn qatlami yo‘q, 8-sinfda esa asosan watermark bor; OCR yordamchisi shu sabab qo‘shildi. Mundarija, bibliografiya, OCRdagi istisno sarlavhalar va **yangi darslarda ishlatilgan fakt sahifalari rasmdan ko‘rib chiqildi**. Butun kitobning barcha fan faktlari ekspertizadan o‘tdi degan da’vo yo‘q.
+
+- **6-sinf:** O‘. Pratov, A. S. To‘xtayev, F. O‘. Azimova, I. Z. Saparboyev, M. T. Umaraliyeva; *Biologiya (Botanika)*, O‘zbekiston, **2017**, ISBN **978-9943-01-421-3**. Mundarija PDF **142–143**, bibliografiya **1–2**. Nashr tartib raqami ochilgan sahifalarda ko‘rsatilmagani uchun taxmin qilinmadi.
+- **8-sinf:** O. Mavlonov, T. Tilavov, B. Aminov; *Biologiya (Odam va uning salomatligi)*, O‘qituvchi, **2019**, **6-nashr**, ISBN **978-9943-5749-0-8**. Mundarija PDF **188–190**, bibliografiya **1–2**.
+- Har segmentning nomi, SHA-256, birinchi/oxirgi **asl PDF** sahifasi va lokal sahifa soni `biology_scanned_review.json`/`biology_sources.json`da saqlandi. Uzilish, kesishish, noto‘g‘ri son yoki digest validator tomonidan rad etiladi. Butun asl PDF olinmaganligi uchun unga soxta SHA berilmadi: `source_set_sha256` segment manifesti digestidir. Har citation ichidagi `source_segments` esa **aynan segment fayli SHA**si va `segment_pdf_pages`ni beradi. Masalan, asl PDF 73 → `073-108.pdf`ning lokal 1-sahifasi.
+- 8-sinf §1 **KIRISH** ichida; keyin I bob §2 bilan boshlanadi. Katalogda 13 bob + 1 alohida kirish, yo‘lda esa kirishning mustaqil unit/checkpointi bor. Bob raqamlari sun’iy o‘zgartirilmadi. §57 dagi OCR `§`ni `8`, «Hid»ni «Ilid» deb o‘qigan — PDF171 rasmi bilan tekshirildi. §60 mundarijada 178, haqiqiy body boshlanishi **179**; ikkala ko‘rsatkich saqlangan.
+- 6-sinf mundarijasida sanalmagan barcha **7 laboratoriya** bodydan topildi va sarlavha rasmlari ko‘rildi; 8-sinfdagi barcha **7 laboratoriya** ham kiritildi. Eski beshta kitobning bibliografiyasi, SHA’lari, record ID va diapazonlari o‘zgarmadi; 5-sinfdagi takror PDF nusxasi qayta sanalmaydi.
+- PDF, skan rasmlari va ajratilgan to‘liq matn **Git/app/ommaviy GitHub’ga qo‘shilmagan**. Faqat bibliografiya, qisqa sarlavhalar, sahifa indekslari va yangi original fan tushuntirish/savollari saqlanadi. Darslikdagi mashqlar matni yoki rasmlari qayta nashr qilinmadi.
+
+### Yetti sinfning qamrovi va haqiqiy tayyorligi
+
+| Sinf | Bob | Alohida kirish | Raqamlangan paragraf | Nazariy mavzu | Lab / amaliy | Tayyor interaktiv dars | Savol |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 5 | 3 | 0 | 18 | 18 | 4 / 8 | **4** (§1–4) | 33 |
+| 6 | 5 | 0 | 59 | 59 | 7 / 0 | **3** (§1–3) | 22 |
+| 7 | 8 | 0 | 59 | 59 | 5 / 0 | **2** (§1–2) | 16 |
+| 8 | 13 | 1 | 61 | 61 | 7 / 0 | **4** (§1–4) | 28 |
+| 9 | 8 | 0 | 67 | 56 | 8 / 3 | **2** (§1–2) | 12 |
+| 10 | 5 | 0 | 58 | 58 | 4 / 0 | **2** (§1–2) | 14 |
+| 11 | 4 | 0 | 44 | 44 | 5 / 0 | **2** (§1–2) | 15 |
+
+**Jami: 46 bob + 1 kirish, 366 raqamlangan paragraf, 468 katalog yozuvi; 19 haqiqiy interaktiv dars, 72 tushuntirish kartasi, 140 original MCQ.** 9-sinfning 67 paragrafi ichiga 8 laboratoriya va 3 amaliy paragraf ham kiradi — ularni yana nazariy mavzu qilib sanamang. 468 katalog yozuvi 468 interaktiv dars emas. Avvalgi bitta §1 manifesti o‘zgarmadi; **18 yangi** dars qo‘shildi.
+
+Mashina o‘qiydigan haqiqiy holat: `scripts/curriculum/biology_readiness.json`; yozilgan darslarning explicit ro‘yxati `biology_lessons.json`. `remaining_topic_ids` har sinf uchun qolgan mavzularni ko‘rsatadi. Har bir sinfda **`course_ready: false`**; jami **336 nazariy mavzu** va katalogdagi laboratoriya/amaliy mashg‘ulotlar uchun raqamli darslar hali yozilmagan. Bu bosqichdagi tayyorlik test/staging uchun, productionda ushbu kontent hali yo‘q.
+
+### Kod, kontent va integratsiya qarorlari
+
+1. `scripts/ocr_biology_segments.py` — aniq SHA’li segmentlarni topadi, har sahifani dekodlaydi, OCRni vaqtinchalik rasmlar orqali bajaradi va private kesh uchun provenance manifest yozadi. `catalog_biology_sources.py --ocr-cache` shu manifest/sha/sahifalar sonini tekshiradi; qo‘lda ko‘rilgan mundarija transkripsiyasini body sarlavhalari bilan solishtiradi. OCR o‘zi fakt tasdig‘i emas.
+2. `services/curriculum_validation.py` — segment qamrovi/digest, kirish/bobga tegishlilik va barcha 366 paragraf ketma-ketligini tekshiradi. Har savol o‘qilgan sahifaga, tekshirilgan javobga va **nazariya kartasida o‘tilgan faktga** bog‘lanishi shart. UZ-only qoidasi va oldingi page/answer tekshiruvlari saqlandi.
+3. `services/curriculum.py` — eski **bo‘sh blocked** 6/8-sinf shell’lariga yangi tasdiqlangan manbani qabul qilish faqat explicit `allow_source_upgrade=True` bilan mumkin. Boshqa source/catalogni, published manifestni yoki user progressni qayta yozishga bu flag ruxsat bermaydi. Kurs ID’lari va oldingi dars SHA/progress/XP saqlanadi.
+4. `scripts/import_biology_curriculum.py --all` — faqat explicit reviewed manifestlar ro‘yxatini oladi, hammasini avval validatsiya qiladi, lokal stagingda **bitta tranzaksiyada** import qiladi. Draft fayllar glob bilan avtomatik publish qilinmaydi. `--apply` production yoki non-local-SQLite URL’da rad etiladi; oddiy va `--all` dry-run production DATABASE_URL mavjudligida ham ORM/DBga tegmaydi. Startupga importer qo‘shilmadi.
+5. Qo‘shimcha haqiqiy prerequisite xatosi tuzatildi: oldingi nazariy paragraf hali yozilmagan bo‘lsa, keyinroq import qilingan dars mavjud darslar ro‘yxatida birinchi bo‘lib ochilib ketishi mumkin edi. `lessons_after_source_gaps` + `services/skill_tree.py` bunday darsni tree va start API’da yopadi. Import vaqtidan qat’i nazar source paragraf tartibi saqlanadi; oldingi tugallangan user progress o‘chirilmaydi.
+6. Flutter `content_source_button.dart` — original kitob/PDF sahifasi yonida segment fayli nomi va **qism ichidagi PDF sahifasi**ni ham ko‘rsatadi. UZ/RU/EN interfeys matnlari bor; fan kontenti o‘zbekcha qoladi. Scroll, SafeArea va katta shrift saqlangan. Yangi asset yoki boshqa maskot qo‘shilmadi. Mavjud Ilmo/nazariya/test/feedback/natija engine’i qayta ishlatildi.
+7. `test/fixtures/biology_{grade6,grade8}_{lesson,tree,result}.json` va `biology_batch_grades.json` real izolyatsiyalangan FastAPI TestClient javoblaridir. PDF matni/rasmi, production user/token yoki sun’iy product statistikasi emas.
+
+Qayta tekshirish (backend ildizidan; Poppler/Tesseract kerak; kesh/PDF’larni Gitga qo‘shmang):
+
+```bash
+python scripts/ocr_biology_segments.py --pdf-dir /workspace/attachments \
+  --cache /workspace/.setup/biology-ocr --workers 4
+python scripts/catalog_biology_sources.py --pdf-dir /workspace/attachments \
+  --ocr-cache /workspace/.setup/biology-ocr --output /tmp/biology-sources-review.json
+python scripts/import_biology_curriculum.py --all --report /tmp/biology-readiness.json
+ENVIRONMENT=development python scripts/import_biology_curriculum.py \
+  --all --allow-source-upgrade --apply \
+  --database-url sqlite:////tmp/biology-reviewed-staging.db
+```
+
+Yangidan olingan OCR boshqacha xatolar berishi mumkin: generator chiqishini published katalog ustiga ko‘r-ko‘rona yozmang; source mapping va tekshirish yozuvlari review qilinadi. Mavjud katalog o‘zgarsa immutable guard saqlanadi. Production migratsiya/deploy ushbu buyruqlarning birortasida ruxsat etilmagan.
+
+### Haqiqiy validatsiya natijalari
+
+| Tekshiruv | Joriy natija |
+|---|---|
+| Backend `pytest -q` | **83 passed, 12 warnings** (31.95s). Warnings: mavjud Pydantic class Config va FastAPI on_event deprecationlari. |
+| Yangi source/batch testlari | Yetti sinfning barcha 19 darsi server orqali boshlanib/yakunlandi; 8-sinf kirishi va bob I gate’i; **8 checkpoint**; takroriy complete XP bermaydi. **18 yangi test** (oldingi 65 regression bilan jami 83): fakt avval nazariyada o‘tilishi va `--all` production-URL dry-run xavfsizligi ham tekshirildi. |
+| Flutter `flutter test` | **96 tests passed** — oldingi 87 + yangi 9. 6/8 darslari theory → javob → feedback → natija oqimida; bir dona complete yuboriladi. |
+| Flutter `flutter analyze` | **No issues found**. Yangi testdagi bitta style info tuzatilib, analyze qayta o‘tkazildi. |
+| Flutter production-target web build | **Built build/web**, **65.3s**. Next.js veb-sayt kodi o‘zgartirilmadi. |
+| Ruff `F821,F822,E9` | **All checks passed** (curriculum, source/OCR/import va regression modullari). |
+| Staging upgrade + repeated import | Oldingi real browser QA bazasining izolyatsiyalangan nusxasida: **20 XP / 1 StudyEvent → 20 XP / 1 StudyEvent**. 19 dars importi, so‘ng takror import: hammasi `created:false`; avvalgi natija saqlangan. |
+| Responsive/manba | 320×568, 200% shrift, UZ/RU/EN’da har ikki yangi kitob segment nomi va lokal PDF sahifasi scroll orqali ko‘rinadi; overflow exception yo‘q. Oldingi landscape/path testlari ham umumiy suite ichida o‘tdi. |
+| Source/OCR qayta bajarilishi | Tracked OCR skripti yangi private keshda **144 + 192 sahifani** qayta ochdi. Yetti kitob katalogi qayta yaratildi; barcha 19 dars validatsiyasi o‘tdi va canonical katalog bilan **sahifa diapazonlari farqi yo‘q**. |
+| Native/production | Android SDK hali yo‘q; ushbu bosqich uchun APK/iOS/native Google/FCM/TalkBack/physical performance sinovi bajarilmadi. Jonli PostgreSQL rehearsal yo‘q. Production ma’lumotlari va veb kodiga tegilmadi. |
+
+Yangi kod bo‘yicha dalillar: `/tmp/biology-backend-final*.log`, `/tmp/biology-flutter-final.log`, `/tmp/biology-analyze-final2.log`, `/tmp/biology-web-final.log`, `/tmp/biology-{upgrade,repeat}-qa.log`. Keshlar, QA DBlar, source rasmlari va loglar product commitiga qo‘shilmaydi.
+
+### Qolgan ishlar va release chegarasi
+
+- Keyingi boshlanish nuqtalari: **5-sinf §5, 6-sinf §4, 7-sinf §3, 8-sinf §5, 9-sinf §3, 10-sinf §3, 11-sinf §3**. Qolgan mavzular va laboratoriya/amaliy kontent uchun avval tegishli sahifa rasmi o‘qiladi; keyin original lesson/fact/question yoziladi. O‘qilmagan mavzuga savol yoki tayyorlik berilmaydi.
+- 19 dars birinchi boblarning nazariy qismi uchun muhim boshlanish; to‘liq 5–11-sinf kursi yoki pedagog mutaxassis tasdig‘i o‘rnida ko‘rsatilmaydi. Har yangi bobda ayni source/API/widget tekshiruvlari va immutable key qoidasi davom etadi.
+- Haqiqiy Androidda Ilmo/theory/feedback/result, tarmoq uzilishi va qayta yuborish, process deathdan progress tiklash, TalkBack/katta shrift, Google login va account/push almashishi tekshiriladi. Productiondagi eski veb practice kontrakti bo‘yicha oldingi release bloklovchisi qolgan; uni xavfsiz server baholashini susaytirib chetlab o‘tmang.
+- Production migratsiya, deploy, main merge va ilova nashri bajarilmadi. GitHub feature branchlari va PR imkoniyati final handoffda qayd etiladi.
+
+Kod commitlari: backend **`9a31c92`** (30 fayl), Flutter **`4cec585`** (9 fayl). Ikkalasi `feat/biology-curriculum` branchida. Ushbu markaziy hujjat alohida docs commitida saqlanadi.
+
+Backend o‘zgarishlari: `scripts/{catalog_biology_sources,ocr_biology_segments,import_biology_curriculum}.py`, `services/{curriculum,curriculum_validation,skill_tree}.py`, `tests/test_biology_{curriculum,segments}.py`, source/review/readiness/index JSONlari va 18 yangi `scripts/curriculum/biology_*_paragraph_*.json`. Flutter: `content_source_button.dart`, `test/biology_curriculum_test.dart`, real staging API javoblaridan olingan 7 yangi fixture. Aniq fayl inventari yuqoridagi code commitlarida. `ilm-ai-frontend` **`054f0ce`**, working tree toza; commit/push qilinmadi.
+
+
 ## Biologiya 5–11-sinf — 2026-10-20
+
+> Dastlabki bosqichning tarixiy hisoboti. O‘sha paytdagi 6/8-sinf transfer cheklovi yuqoridagi yangi bosqichda bartaraf etildi; bitta darsdan 19 darsga davom ettirildi. Quyidagi eski test/countlar tarixiy natijalardir.
 
 ### Bosqich holati va Git asoslari
 
