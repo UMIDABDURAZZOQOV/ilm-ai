@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-14-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-19",
+  "title": "Organizmlarning ko‘payishi. Jinssiz ko‘payish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-14-f1": {
+      "claim": "Jinssiz ko‘payishda yangi organizm hosil bo‘lishi uchun gametalar qo‘shilishi talab etilmaydi. Eukaryotlardagi ko‘plab usullar mitozga asoslanadi, bakteriya bo‘linishini esa mitoz deb atamaymiz.",
+      "answer": "Yangi organizm gametalar qo‘shilmasdan hosil bo‘ladi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f2": {
+      "claim": "Bakteriyaning odatdagi binar bo‘linishida DNK nusxalanadi va hujayra ikkiga ajraladi. Unda eukaryot yadrosining mitoz fazalari bo‘lmaydi.",
+      "answer": "Binar bo‘linish, eukaryot mitozi emas",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f3": {
+      "claim": "Shizogoniya ko‘p bo‘linish usulidir; darslik bezgak parazitining hayot siklini misol qilib keltiradi.",
+      "answer": "Shizogoniya",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f4": {
+      "claim": "Achitqi zamburug‘ida ona hujayrada kichik bo‘rtma paydo bo‘lib, o‘sadi va yosh hujayraga aylanadi. Bu kurtaklanishdir.",
+      "answer": "Kurtaklanish",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f5": {
+      "claim": "Fragmentatsiya tananing bo‘laklari orqali ko‘payish bo‘lib, regeneratsiya imkoniyati bilan bog‘liq. Darslik spirogira va yassi chuvalchanglarni misol qiladi.",
+      "answer": "Fragmentatsiyaga",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f6": {
+      "claim": "Poliembrioniyada dastlab bitta zigotadan boshlangan embrion bir necha rivojlanish boshlang‘ichiga ajralishi mumkin; bir tuxumli egizaklar misol sifatida keltiriladi.",
+      "answer": "Bitta",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f7": {
+      "claim": "O‘simlikning ildiz, poya yoki barg kabi vegetativ organlari orqali yangi o‘simlik hosil bo‘lishi vegetativ ko‘payishdir.",
+      "answer": "Vegetativ jinssiz",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir ota-ona, gameta qo‘shilmaydi",
+      "body": "Jinssiz ko‘payishda yangi organizm hosil bo‘lishi uchun gametalar qo‘shilishi talab etilmaydi. Eukaryotlardagi ko‘plab usullar mitozga asoslanadi, bakteriya bo‘linishini esa mitoz deb atamaymiz.",
+      "fact_ids": [
+        "paragraph-14-f1"
+      ]
+    },
+    {
+      "title": "Prokaryotning bo‘linishi",
+      "body": "Bakteriyaning odatdagi binar bo‘linishida DNK nusxalanadi va hujayra ikkiga ajraladi. Unda eukaryot yadrosining mitoz fazalari bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-14-f2"
+      ]
+    },
+    {
+      "title": "Ko‘p marta bo‘linish",
+      "body": "Shizogoniya ko‘p bo‘linish usulidir; darslik bezgak parazitining hayot siklini misol qilib keltiradi.",
+      "fact_ids": [
+        "paragraph-14-f3"
+      ]
+    },
+    {
+      "title": "Kurtakni taniymiz",
+      "body": "Achitqi zamburug‘ida ona hujayrada kichik bo‘rtma paydo bo‘lib, o‘sadi va yosh hujayraga aylanadi. Bu kurtaklanishdir.",
+      "fact_ids": [
+        "paragraph-14-f4"
+      ]
+    },
+    {
+      "title": "Bo‘lakdan butun organizm",
+      "body": "Fragmentatsiya tananing bo‘laklari orqali ko‘payish bo‘lib, regeneratsiya imkoniyati bilan bog‘liq. Darslik spirogira va yassi chuvalchanglarni misol qiladi.",
+      "fact_ids": [
+        "paragraph-14-f5"
+      ]
+    },
+    {
+      "title": "Embrion ajralishining ma’nosi",
+      "body": "Poliembrioniyada dastlab bitta zigotadan boshlangan embrion bir necha rivojlanish boshlang‘ichiga ajralishi mumkin; bir tuxumli egizaklar misol sifatida keltiriladi.",
+      "fact_ids": [
+        "paragraph-14-f6"
+      ]
+    },
+    {
+      "title": "Vegetativ qismdan yangi o‘simlik",
+      "body": "O‘simlikning ildiz, poya yoki barg kabi vegetativ organlari orqali yangi o‘simlik hosil bo‘lishi vegetativ ko‘payishdir.",
+      "fact_ids": [
+        "paragraph-14-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-14-q1",
+      "fact_id": "paragraph-14-f1",
+      "question_text": "Jinssiz ko‘payishni aniqlash uchun eng to‘g‘ri mezon qaysi?",
+      "options": [
+        "Faqat urug‘ hosil bo‘lganda sodir bo‘ladi",
+        "Yangi organizm gametalar qo‘shilmasdan hosil bo‘ladi",
+        "Har doim ikkita gameta qo‘shiladi",
+        "Faqat ko‘p hujayralilarda uchraydi"
+      ],
+      "correct_answer": "Yangi organizm gametalar qo‘shilmasdan hosil bo‘ladi",
+      "explanation": "Jinssiz ko‘payishda yangi organizm hosil bo‘lishi uchun gametalar qo‘shilishi talab etilmaydi. Eukaryotlardagi ko‘plab usullar mitozga asoslanadi, bakteriya bo‘linishini esa mitoz deb atamaymiz."
+    },
+    {
+      "key": "paragraph-14-q2",
+      "fact_id": "paragraph-14-f2",
+      "question_text": "Bakteriyaning ikkiga ajralishini qaysi ifoda to‘g‘ri beradi?",
+      "options": [
+        "Binar bo‘linish, eukaryot mitozi emas",
+        "Meyoz I va meyoz II",
+        "Tuxum va spermiy qo‘shilishi",
+        "Qo‘sh urug‘lanish"
+      ],
+      "correct_answer": "Binar bo‘linish, eukaryot mitozi emas",
+      "explanation": "Bakteriyaning odatdagi binar bo‘linishida DNK nusxalanadi va hujayra ikkiga ajraladi. Unda eukaryot yadrosining mitoz fazalari bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-14-q3",
+      "fact_id": "paragraph-14-f3",
+      "question_text": "Bir bosqichda ko‘p yosh hujayra hosil qiluvchi ko‘p bo‘linish qanday nomlanadi?",
+      "options": [
+        "Oogamiya",
+        "Izogamiya",
+        "Transkripsiya",
+        "Shizogoniya"
+      ],
+      "correct_answer": "Shizogoniya",
+      "explanation": "Shizogoniya ko‘p bo‘linish usulidir; darslik bezgak parazitining hayot siklini misol qilib keltiradi."
+    },
+    {
+      "key": "paragraph-14-q4",
+      "fact_id": "paragraph-14-f4",
+      "question_text": "Achitqida avval kichik yon bo‘rtma, keyin yosh hujayra ko‘rinsa, qaysi usul tasvirlangan?",
+      "options": [
+        "Krossingover",
+        "Gastrulyatsiya",
+        "Kurtaklanish",
+        "Ikki gametaning qo‘shilishi"
+      ],
+      "correct_answer": "Kurtaklanish",
+      "explanation": "Achitqi zamburug‘ida ona hujayrada kichik bo‘rtma paydo bo‘lib, o‘sadi va yosh hujayraga aylanadi. Bu kurtaklanishdir."
+    },
+    {
+      "key": "paragraph-14-q5",
+      "fact_id": "paragraph-14-f5",
+      "question_text": "Spirogira ipi qismlaridan yangi iplar rivojlanishi qaysi usulga mos?",
+      "options": [
+        "Gametogenezga",
+        "Fragmentatsiyaga",
+        "Urug‘lanishga",
+        "Changlanishga"
+      ],
+      "correct_answer": "Fragmentatsiyaga",
+      "explanation": "Fragmentatsiya tananing bo‘laklari orqali ko‘payish bo‘lib, regeneratsiya imkoniyati bilan bog‘liq. Darslik spirogira va yassi chuvalchanglarni misol qiladi."
+    },
+    {
+      "key": "paragraph-14-q6",
+      "fact_id": "paragraph-14-f6",
+      "question_text": "Bir tuxumli egizaklar misolida boshlang‘ich zigota soni nechta?",
+      "options": [
+        "Bitta",
+        "Ikkita mustaqil urug‘langan zigota",
+        "To‘rtta majburiy zigota",
+        "Zigota umuman bo‘lmagan"
+      ],
+      "correct_answer": "Bitta",
+      "explanation": "Poliembrioniyada dastlab bitta zigotadan boshlangan embrion bir necha rivojlanish boshlang‘ichiga ajralishi mumkin; bir tuxumli egizaklar misol sifatida keltiriladi."
+    },
+    {
+      "key": "paragraph-14-q7",
+      "fact_id": "paragraph-14-f7",
+      "question_text": "Poya qalamchasidan yangi o‘simlik o‘sishi qanday ko‘payish?",
+      "options": [
+        "Gametalar qo‘shiladigan jinsiy",
+        "Faqat chang donasi orqali",
+        "Faqat qo‘sh urug‘lanish",
+        "Vegetativ jinssiz"
+      ],
+      "correct_answer": "Vegetativ jinssiz",
+      "explanation": "O‘simlikning ildiz, poya yoki barg kabi vegetativ organlari orqali yangi o‘simlik hosil bo‘lishi vegetativ ko‘payishdir."
+    }
+  ]
+}

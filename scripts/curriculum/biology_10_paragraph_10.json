@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-10-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-13",
+  "title": "Hujayra – tiriklikning irsiy birligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-10-f1": {
+      "claim": "Matritsali sintezda mavjud axborot yangi mahsulot hosil bo‘lishini yo‘naltiradi. DNK reduplikatsiyasi, transkripsiya va translyatsiya turli mahsulot beradi.",
+      "answer": "Reduplikatsiya, transkripsiya, translyatsiya",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f2": {
+      "claim": "Reduplikatsiyada DNKning eski zanjirlari yangi komplementar zanjirlar uchun matritsa bo‘ladi. Jarayonda DNK-polimeraza qatnashadi.",
+      "answer": "Eski zanjirga komplementarlikka",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f3": {
+      "claim": "Gen DNKning funksional mahsulotga oid axborot tutuvchi qismidir; darslik oqsil bilan birga ribosomal va transport RNKlariga oid genlarni ham ko‘rsatadi.",
+      "answer": "Ayrim genlar RNK mahsuloti haqidagi axborotni ham tutadi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f4": {
+      "claim": "Standart kod jadvalida AUG metioninni kodlaydi va odatda start vazifasini bajaradi; UAA, UAG va UGA stop signallardir.",
+      "answer": "Zanjir sintezini tugatish signali",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f5": {
+      "claim": "Standart kodda bir aminokislota bir nechta kodon bilan ifodalanishi mumkin, ammo aminokislotani kodlovchi bitta kodon shu jadvalda bitta aminokislotaga mos keladi.",
+      "answer": "Kodning ortiqchaligini",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f6": {
+      "claim": "RNK-polimeraza DNKning matritsa zanjiridan RNK sintezlaydi; RNKdagi U DNKning A asosiga komplementar keladi.",
+      "answer": "Uratsil",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f7": {
+      "claim": "Ribosoma i-RNK kodonlarini o‘qiyotganda t-RNK mos aminokislotani olib keladi; aminokislotalar peptid bog‘lari bilan ulanadi.",
+      "answer": "Mos aminokislotani ribosomaga yetkazish",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f8": {
+      "claim": "Oziq oqsili hazmda aminokislotalarga parchalanadi. Hujayra o‘z oqsilini genetik axborot bo‘yicha sintezlaydi; tayyor oziq oqsili to‘g‘ridan-to‘g‘ri hujayra oqsilining o‘rniga o‘rnatilmaydi.",
+      "answer": "U parchalanadi va aminokislotalardan axborotga muvofiq yangi oqsil yig‘iladi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Matritsa nima beradi?",
+      "body": "Matritsali sintezda mavjud axborot yangi mahsulot hosil bo‘lishini yo‘naltiradi. DNK reduplikatsiyasi, transkripsiya va translyatsiya turli mahsulot beradi.",
+      "fact_ids": [
+        "paragraph-10-f1"
+      ]
+    },
+    {
+      "title": "Komplementar nusxa",
+      "body": "Reduplikatsiyada DNKning eski zanjirlari yangi komplementar zanjirlar uchun matritsa bo‘ladi. Jarayonda DNK-polimeraza qatnashadi.",
+      "fact_ids": [
+        "paragraph-10-f2"
+      ]
+    },
+    {
+      "title": "Gen faqat oqsil emas",
+      "body": "Gen DNKning funksional mahsulotga oid axborot tutuvchi qismidir; darslik oqsil bilan birga ribosomal va transport RNKlariga oid genlarni ham ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-10-f3"
+      ]
+    },
+    {
+      "title": "Kodonni o‘qiymiz",
+      "body": "Standart kod jadvalida AUG metioninni kodlaydi va odatda start vazifasini bajaradi; UAA, UAG va UGA stop signallardir.",
+      "fact_ids": [
+        "paragraph-10-f4"
+      ]
+    },
+    {
+      "title": "Bir ma’no, bir nechta yozuv",
+      "body": "Standart kodda bir aminokislota bir nechta kodon bilan ifodalanishi mumkin, ammo aminokislotani kodlovchi bitta kodon shu jadvalda bitta aminokislotaga mos keladi.",
+      "fact_ids": [
+        "paragraph-10-f5"
+      ]
+    },
+    {
+      "title": "Transkripsiyaning mahsuloti",
+      "body": "RNK-polimeraza DNKning matritsa zanjiridan RNK sintezlaydi; RNKdagi U DNKning A asosiga komplementar keladi.",
+      "fact_ids": [
+        "paragraph-10-f6"
+      ]
+    },
+    {
+      "title": "Axborotdan polipeptidga",
+      "body": "Ribosoma i-RNK kodonlarini o‘qiyotganda t-RNK mos aminokislotani olib keladi; aminokislotalar peptid bog‘lari bilan ulanadi.",
+      "fact_ids": [
+        "paragraph-10-f7"
+      ]
+    },
+    {
+      "title": "Oziq va axborot farqi",
+      "body": "Oziq oqsili hazmda aminokislotalarga parchalanadi. Hujayra o‘z oqsilini genetik axborot bo‘yicha sintezlaydi; tayyor oziq oqsili to‘g‘ridan-to‘g‘ri hujayra oqsilining o‘rniga o‘rnatilmaydi.",
+      "fact_ids": [
+        "paragraph-10-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-10-q1",
+      "fact_id": "paragraph-10-f1",
+      "question_text": "DNK → DNK, DNK → RNK, i-RNK → oqsil ketma-ketligi qaysi jarayonlarga mos?",
+      "options": [
+        "Krossingover, ontogenez, nafas olish",
+        "Reduplikatsiya, transkripsiya, translyatsiya",
+        "Translyatsiya, mitoz, glikoliz",
+        "Fotosintez, meyoz, sitokinez"
+      ],
+      "correct_answer": "Reduplikatsiya, transkripsiya, translyatsiya",
+      "explanation": "Matritsali sintezda mavjud axborot yangi mahsulot hosil bo‘lishini yo‘naltiradi. DNK reduplikatsiyasi, transkripsiya va translyatsiya turli mahsulot beradi."
+    },
+    {
+      "key": "paragraph-10-q2",
+      "fact_id": "paragraph-10-f2",
+      "question_text": "Yangi DNK zanjirining mos tartibda sintezlanishi nimaga tayanadi?",
+      "options": [
+        "Eski zanjirga komplementarlikka",
+        "Aminokislotalarning tasodifiy rangiga",
+        "Faqat sitoplazma hajmiga",
+        "Barcha nukleotidlarning bir xil bo‘lishiga"
+      ],
+      "correct_answer": "Eski zanjirga komplementarlikka",
+      "explanation": "Reduplikatsiyada DNKning eski zanjirlari yangi komplementar zanjirlar uchun matritsa bo‘ladi. Jarayonda DNK-polimeraza qatnashadi."
+    },
+    {
+      "key": "paragraph-10-q3",
+      "fact_id": "paragraph-10-f3",
+      "question_text": "Qaysi fikr gen tushunchasini asossiz toraytirmaydi?",
+      "options": [
+        "Har bir gen faqat yog‘ tomchisidir",
+        "Gen har doim butun xromosomaning o‘zi",
+        "Gen faqat hujayra tashqarisida mavjud",
+        "Ayrim genlar RNK mahsuloti haqidagi axborotni ham tutadi"
+      ],
+      "correct_answer": "Ayrim genlar RNK mahsuloti haqidagi axborotni ham tutadi",
+      "explanation": "Gen DNKning funksional mahsulotga oid axborot tutuvchi qismidir; darslik oqsil bilan birga ribosomal va transport RNKlariga oid genlarni ham ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-10-q4",
+      "fact_id": "paragraph-10-f4",
+      "question_text": "Kod jadvalida AUGdan keyin UAA kelsa, ikkinchi triplet qanday ma’no beradi?",
+      "options": [
+        "DNKni ikki baravar oshirish",
+        "Glyukozani parchalash",
+        "Zanjir sintezini tugatish signali",
+        "Yana bitta metionin qo‘shish"
+      ],
+      "correct_answer": "Zanjir sintezini tugatish signali",
+      "explanation": "Standart kod jadvalida AUG metioninni kodlaydi va odatda start vazifasini bajaradi; UAA, UAG va UGA stop signallardir."
+    },
+    {
+      "key": "paragraph-10-q5",
+      "fact_id": "paragraph-10-f5",
+      "question_text": "Bir aminokislotaning bir nechta kodoni bo‘lishi nimani anglatadi?",
+      "options": [
+        "Kodonning doim bittagina nukleotiddan tuzilishini",
+        "Kodning ortiqchaligini",
+        "Har bir kodon doim ikki aminokislota berishini",
+        "Stop kodonlar faqat yog‘ni kodlashini"
+      ],
+      "correct_answer": "Kodning ortiqchaligini",
+      "explanation": "Standart kodda bir aminokislota bir nechta kodon bilan ifodalanishi mumkin, ammo aminokislotani kodlovchi bitta kodon shu jadvalda bitta aminokislotaga mos keladi."
+    },
+    {
+      "key": "paragraph-10-q6",
+      "fact_id": "paragraph-10-f6",
+      "question_text": "DNK matritsasidagi adeninga RNK sintezida qaysi asos mos qo‘yiladi?",
+      "options": [
+        "Uratsil",
+        "Timin",
+        "Glitserin",
+        "Leytsin"
+      ],
+      "correct_answer": "Uratsil",
+      "explanation": "RNK-polimeraza DNKning matritsa zanjiridan RNK sintezlaydi; RNKdagi U DNKning A asosiga komplementar keladi."
+    },
+    {
+      "key": "paragraph-10-q7",
+      "fact_id": "paragraph-10-f7",
+      "question_text": "Translyatsiyada t-RNKning vazifasini tanlang.",
+      "options": [
+        "Yangi DNKni xromosomaga aylantirish",
+        "Faqat CO2ni xloroplastga yetkazish",
+        "Kraxmalni glikogenga kodlash",
+        "Mos aminokislotani ribosomaga yetkazish"
+      ],
+      "correct_answer": "Mos aminokislotani ribosomaga yetkazish",
+      "explanation": "Ribosoma i-RNK kodonlarini o‘qiyotganda t-RNK mos aminokislotani olib keladi; aminokislotalar peptid bog‘lari bilan ulanadi."
+    },
+    {
+      "key": "paragraph-10-q8",
+      "fact_id": "paragraph-10-f8",
+      "question_text": "Nega iste’mol qilingan oqsil hujayradagi kerakli oqsilning tayyor nusxasi bo‘lib qolmaydi?",
+      "options": [
+        "Uning barcha atomlari organizmdan darhol chiqadi",
+        "Har qanday oziq oqsili aynan bir xil ketma-ketlikka ega",
+        "U parchalanadi va aminokislotalardan axborotga muvofiq yangi oqsil yig‘iladi",
+        "U doimo to‘g‘ridan-to‘g‘ri DNKga aylanadi"
+      ],
+      "correct_answer": "U parchalanadi va aminokislotalardan axborotga muvofiq yangi oqsil yig‘iladi",
+      "explanation": "Oziq oqsili hazmda aminokislotalarga parchalanadi. Hujayra o‘z oqsilini genetik axborot bo‘yicha sintezlaydi; tayyor oziq oqsili to‘g‘ridan-to‘g‘ri hujayra oqsilining o‘rniga o‘rnatilmaydi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-21-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-26",
+  "title": "Jins bilan bog‘liq holda irsiylanish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-21-f1": {
+      "claim": "Jinsga birikkan belgilarda qaysi ota-ona allelni olib kelishi natijaga ta’sir qilishi mumkin. Resiprok chatishtirishda erkak va urg‘ochining belgilari o‘rni almashtiriladi.",
+      "answer": "Allelning ota yoki onadan kelishi ahamiyatini tekshirish uchun",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f2": {
+      "claim": "W+ qizil, w oq ko‘z alleli bo‘lgan X-bog‘liq modelda X^wX^w urg‘ochi va X^W+Y erkakdan o‘g‘illar X^wY bo‘ladi, qizlar X^W+X^w bo‘ladi.",
+      "answer": "Oq",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f3": {
+      "claim": "X^W+X^w × X^W+Y modelida o‘g‘illar onadan X^W+ yoki X^w oladi. Shuning uchun o‘g‘illarning yarmi oq ko‘zli kutiladi.",
+      "answer": "60",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f4": {
+      "claim": "X^W+X^w × X^W+Y modelida oq ko‘zli o‘g‘il barcha avlodning 1/4 qismidir, jinslar teng ehtimolli deb olinadi. Bu o‘g‘illar orasidagi 1/2 bilan boshqa maxrajdir.",
+      "answer": "60",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f5": {
+      "claim": "Oddiy XX/XY modelida ota X xromosomasini qizlariga, Yni o‘g‘illariga beradi. Shuning uchun otaning Xidagi lokus o‘g‘liga bevosita otadan o‘tmaydi.",
+      "answer": "Bu modelda ota o‘g‘liga Y beradi",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f6": {
+      "claim": "Darslik X-bog‘liq irsiyat uchun gemofiliya va rang ajratish holatlarini misol qiladi. O‘quv modelini barcha shu nomli klinik holatlar uchun yagona tashxis deb qo‘llamaymiz.",
+      "answer": "Berilgan lokus va genotip shartidagi ehtimolni",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Resiprok tahlil",
+      "body": "Jinsga birikkan belgilarda qaysi ota-ona allelni olib kelishi natijaga ta’sir qilishi mumkin. Resiprok chatishtirishda erkak va urg‘ochining belgilari o‘rni almashtiriladi.",
+      "fact_ids": [
+        "paragraph-21-f1"
+      ]
+    },
+    {
+      "title": "Drosofila ko‘z modeli",
+      "body": "W+ qizil, w oq ko‘z alleli bo‘lgan X-bog‘liq modelda X^wX^w urg‘ochi va X^W+Y erkakdan o‘g‘illar X^wY bo‘ladi, qizlar X^W+X^w bo‘ladi.",
+      "fact_ids": [
+        "paragraph-21-f2"
+      ]
+    },
+    {
+      "title": "O‘g‘illarda ulush",
+      "body": "X^W+X^w × X^W+Y modelida o‘g‘illar onadan X^W+ yoki X^w oladi. Shuning uchun o‘g‘illarning yarmi oq ko‘zli kutiladi.",
+      "fact_ids": [
+        "paragraph-21-f3"
+      ]
+    },
+    {
+      "title": "Barcha avloddagi ulush",
+      "body": "X^W+X^w × X^W+Y modelida oq ko‘zli o‘g‘il barcha avlodning 1/4 qismidir, jinslar teng ehtimolli deb olinadi. Bu o‘g‘illar orasidagi 1/2 bilan boshqa maxrajdir.",
+      "fact_ids": [
+        "paragraph-21-f4"
+      ]
+    },
+    {
+      "title": "Otaning X yo‘li",
+      "body": "Oddiy XX/XY modelida ota X xromosomasini qizlariga, Yni o‘g‘illariga beradi. Shuning uchun otaning Xidagi lokus o‘g‘liga bevosita otadan o‘tmaydi.",
+      "fact_ids": [
+        "paragraph-21-f5"
+      ]
+    },
+    {
+      "title": "Kasallik nomini umumlashtirmaymiz",
+      "body": "Darslik X-bog‘liq irsiyat uchun gemofiliya va rang ajratish holatlarini misol qiladi. O‘quv modelini barcha shu nomli klinik holatlar uchun yagona tashxis deb qo‘llamaymiz.",
+      "fact_ids": [
+        "paragraph-21-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-21-q1",
+      "fact_id": "paragraph-21-f1",
+      "question_text": "Nega to‘g‘ri va resiprok chatishtirish natijalarini solishtiramiz?",
+      "options": [
+        "Rekombinatsiya hech qachon bo‘lmasligini isbotlash uchun",
+        "Allelning ota yoki onadan kelishi ahamiyatini tekshirish uchun",
+        "Faqat barcha avlodning sonini majburiy ikki baravar qilish uchun",
+        "Barcha genlarni autosomaga ko‘chirish uchun"
+      ],
+      "correct_answer": "Allelning ota yoki onadan kelishi ahamiyatini tekshirish uchun",
+      "explanation": "Jinsga birikkan belgilarda qaysi ota-ona allelni olib kelishi natijaga ta’sir qilishi mumkin. Resiprok chatishtirishda erkak va urg‘ochining belgilari o‘rni almashtiriladi."
+    },
+    {
+      "key": "paragraph-21-q2",
+      "fact_id": "paragraph-21-f2",
+      "question_text": "Oq ko‘zli urg‘ochi × qizil ko‘zli erkak modelida F1 o‘g‘illar ko‘zi qanday?",
+      "options": [
+        "Oq",
+        "Qizil",
+        "Yarmi oq, yarmi qizil",
+        "Barchasi allelsiz"
+      ],
+      "correct_answer": "Oq",
+      "explanation": "W+ qizil, w oq ko‘z alleli bo‘lgan X-bog‘liq modelda X^wX^w urg‘ochi va X^W+Y erkakdan o‘g‘illar X^wY bo‘ladi, qizlar X^W+X^w bo‘ladi."
+    },
+    {
+      "key": "paragraph-21-q3",
+      "fact_id": "paragraph-21-f3",
+      "question_text": "Ushbu chatishtirishda 120 o‘g‘il orasida oq ko‘zli kutiladigan son qancha?",
+      "options": [
+        "30",
+        "90",
+        "120",
+        "60"
+      ],
+      "correct_answer": "60",
+      "explanation": "X^W+X^w × X^W+Y modelida o‘g‘illar onadan X^W+ yoki X^w oladi. Shuning uchun o‘g‘illarning yarmi oq ko‘zli kutiladi."
+    },
+    {
+      "key": "paragraph-21-q4",
+      "fact_id": "paragraph-21-f4",
+      "question_text": "Shu shartlarda 240 jami avlod orasida oq ko‘zli o‘g‘il kutiladigan son qancha?",
+      "options": [
+        "180",
+        "30",
+        "60",
+        "120"
+      ],
+      "correct_answer": "60",
+      "explanation": "X^W+X^w × X^W+Y modelida oq ko‘zli o‘g‘il barcha avlodning 1/4 qismidir, jinslar teng ehtimolli deb olinadi. Bu o‘g‘illar orasidagi 1/2 bilan boshqa maxrajdir."
+    },
+    {
+      "key": "paragraph-21-q5",
+      "fact_id": "paragraph-21-f5",
+      "question_text": "X-bog‘liq lokusni otadan o‘g‘ilga to‘g‘ridan-to‘g‘ri yozish nega xato?",
+      "options": [
+        "Barcha X lokuslar faqat autosomada bo‘ladi",
+        "Bu modelda ota o‘g‘liga Y beradi",
+        "Ota o‘g‘liga hech qanday xromosoma bermaydi",
+        "O‘g‘il onadan faqat Y oladi"
+      ],
+      "correct_answer": "Bu modelda ota o‘g‘liga Y beradi",
+      "explanation": "Oddiy XX/XY modelida ota X xromosomasini qizlariga, Yni o‘g‘illariga beradi. Shuning uchun otaning Xidagi lokus o‘g‘liga bevosita otadan o‘tmaydi."
+    },
+    {
+      "key": "paragraph-21-q6",
+      "fact_id": "paragraph-21-f6",
+      "question_text": "X-bog‘liq retsessiv masala natijasi nimani beradi?",
+      "options": [
+        "Berilgan lokus va genotip shartidagi ehtimolni",
+        "Barcha irsiy holatlar uchun tayyor klinik tashxisni",
+        "Faqat ota-ona aybdor ekanining isbotini",
+        "Har bir oilada majburiy bir xil natijani"
+      ],
+      "correct_answer": "Berilgan lokus va genotip shartidagi ehtimolni",
+      "explanation": "Darslik X-bog‘liq irsiyat uchun gemofiliya va rang ajratish holatlarini misol qiladi. O‘quv modelini barcha shu nomli klinik holatlar uchun yagona tashxis deb qo‘llamaymiz."
+    }
+  ]
+}

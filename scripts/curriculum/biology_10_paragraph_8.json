@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-8-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-11",
+  "title": "Moddalar almashinuvi – hujayra hayotiy faoliyatining asosi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-8-f1": {
+      "claim": "Anabolizm murakkab moddalarni sintezlash, katabolizm esa moddalarning parchalanishi va energiya ajralishi bilan bog‘liq. Ular metabolizmning o‘zaro aloqador tomonlaridir.",
+      "answer": "Anabolizm, katabolizm",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f2": {
+      "claim": "Sintez uchun energiya zarur, energiya almashinuvi uchun esa hujayra sintezlagan fermentlar kerak. Shuning uchun ikki yo‘nalish bir-birini ta’minlaydi.",
+      "answer": "Parchalanish sintezga energiya beradi, sintez esa fermentlarni yaratadi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f3": {
+      "claim": "Tirik hujayra muhit bilan modda va energiya almashadi; bu uni ochiq tizim deb atashga asos bo‘ladi.",
+      "answer": "Ochiqlik",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f4": {
+      "claim": "Tayyorlovda yirik oziq molekulalari kichikroq qismlarga ajraladi: oqsillar aminokislotalarga, polisaxaridlar monosaxaridlarga. Bu jarayon keyingi foydalanish uchun material beradi.",
+      "answer": "Tayyorlov bosqichiga",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f5": {
+      "claim": "Glyukozaning kislorodsiz parchalanishida ATF hosil bo‘lishi mumkin; darslikning soddalashtirilgan hisobida sof natija 2 ATF deb olinadi.",
+      "answer": "6 ATF",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f6": {
+      "claim": "Darslik masalalarida to‘liq parchalanish 2+36=38 ATF modeli bilan hisoblanadi. Bu har bir real hujayrada doim aynan 38 ATF chiqadi degan universal qoida emas.",
+      "answer": "Berilgan soddalashtirilgan masala modeli sifatida",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f7": {
+      "claim": "Aerob parchalanishda organik modda energiyasi ajralib, yakuniy mahsulotlar sifatida karbonat angidrid va suv hosil bo‘ladi; energiyaning bir qismi ATF orqali foydalaniladi.",
+      "answer": "CO2 va suv hosil bo‘ladi, energiyaning bir qismi ATFga bog‘lanadi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki yo‘nalish, bitta metabolizm",
+      "body": "Anabolizm murakkab moddalarni sintezlash, katabolizm esa moddalarning parchalanishi va energiya ajralishi bilan bog‘liq. Ular metabolizmning o‘zaro aloqador tomonlaridir.",
+      "fact_ids": [
+        "paragraph-8-f1"
+      ]
+    },
+    {
+      "title": "Qurilish va energiya bog‘lanadi",
+      "body": "Sintez uchun energiya zarur, energiya almashinuvi uchun esa hujayra sintezlagan fermentlar kerak. Shuning uchun ikki yo‘nalish bir-birini ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-8-f2"
+      ]
+    },
+    {
+      "title": "Ochiq tizim",
+      "body": "Tirik hujayra muhit bilan modda va energiya almashadi; bu uni ochiq tizim deb atashga asos bo‘ladi.",
+      "fact_ids": [
+        "paragraph-8-f3"
+      ]
+    },
+    {
+      "title": "Tayyorlov bosqichi",
+      "body": "Tayyorlovda yirik oziq molekulalari kichikroq qismlarga ajraladi: oqsillar aminokislotalarga, polisaxaridlar monosaxaridlarga. Bu jarayon keyingi foydalanish uchun material beradi.",
+      "fact_ids": [
+        "paragraph-8-f4"
+      ]
+    },
+    {
+      "title": "Kislorodsiz energiya olish",
+      "body": "Glyukozaning kislorodsiz parchalanishida ATF hosil bo‘lishi mumkin; darslikning soddalashtirilgan hisobida sof natija 2 ATF deb olinadi.",
+      "fact_ids": [
+        "paragraph-8-f5"
+      ]
+    },
+    {
+      "title": "Model chegarasini bilamiz",
+      "body": "Darslik masalalarida to‘liq parchalanish 2+36=38 ATF modeli bilan hisoblanadi. Bu har bir real hujayrada doim aynan 38 ATF chiqadi degan universal qoida emas.",
+      "fact_ids": [
+        "paragraph-8-f6"
+      ]
+    },
+    {
+      "title": "Oksidlanishning yakuni",
+      "body": "Aerob parchalanishda organik modda energiyasi ajralib, yakuniy mahsulotlar sifatida karbonat angidrid va suv hosil bo‘ladi; energiyaning bir qismi ATF orqali foydalaniladi.",
+      "fact_ids": [
+        "paragraph-8-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-8-q1",
+      "fact_id": "paragraph-8-f1",
+      "question_text": "Oqsil sintezi va oziq moddaning parchalanishini ketma-ket tasniflang.",
+      "options": [
+        "Ikkalasi faqat suv bug‘lanishi",
+        "Anabolizm, katabolizm",
+        "Katabolizm, anabolizm",
+        "Ikkalasi faqat irsiy mutatsiya"
+      ],
+      "correct_answer": "Anabolizm, katabolizm",
+      "explanation": "Anabolizm murakkab moddalarni sintezlash, katabolizm esa moddalarning parchalanishi va energiya ajralishi bilan bog‘liq. Ular metabolizmning o‘zaro aloqador tomonlaridir."
+    },
+    {
+      "key": "paragraph-8-q2",
+      "fact_id": "paragraph-8-f2",
+      "question_text": "Katabolizm va anabolizmning bog‘liqligini qaysi fikr ochadi?",
+      "options": [
+        "Parchalanish sintezga energiya beradi, sintez esa fermentlarni yaratadi",
+        "Ular hech qachon bir hujayrada uchramaydi",
+        "Sintez hech qanday energiya talab qilmaydi",
+        "Fermentlar faqat hujayradan tashqarida paydo bo‘ladi"
+      ],
+      "correct_answer": "Parchalanish sintezga energiya beradi, sintez esa fermentlarni yaratadi",
+      "explanation": "Sintez uchun energiya zarur, energiya almashinuvi uchun esa hujayra sintezlagan fermentlar kerak. Shuning uchun ikki yo‘nalish bir-birini ta’minlaydi."
+    },
+    {
+      "key": "paragraph-8-q3",
+      "fact_id": "paragraph-8-f3",
+      "question_text": "Hujayraga modda kirib, chiqindi chiqishi qanday tizim xossasi?",
+      "options": [
+        "Mutlaq yopiqlik",
+        "Faqat xromosoma juftligi",
+        "Genetik kodning o‘zgarishi",
+        "Ochiqlik"
+      ],
+      "correct_answer": "Ochiqlik",
+      "explanation": "Tirik hujayra muhit bilan modda va energiya almashadi; bu uni ochiq tizim deb atashga asos bo‘ladi."
+    },
+    {
+      "key": "paragraph-8-q4",
+      "fact_id": "paragraph-8-f4",
+      "question_text": "Oqsilning hazm bo‘lib aminokislotalarga ajralishi qaysi bosqichga mos?",
+      "options": [
+        "DNK reduplikatsiyasiga",
+        "Meyozning ikkinchi bo‘linishiga",
+        "Tayyorlov bosqichiga",
+        "Fotosintezning yorug‘lik bosqichiga"
+      ],
+      "correct_answer": "Tayyorlov bosqichiga",
+      "explanation": "Tayyorlovda yirik oziq molekulalari kichikroq qismlarga ajraladi: oqsillar aminokislotalarga, polisaxaridlar monosaxaridlarga. Bu jarayon keyingi foydalanish uchun material beradi."
+    },
+    {
+      "key": "paragraph-8-q5",
+      "fact_id": "paragraph-8-f5",
+      "question_text": "Darslik hisobida uchta glyukozaning kislorodsiz bosqichi sof nechta ATF beradi?",
+      "options": [
+        "114 ATF",
+        "6 ATF",
+        "2 ATF",
+        "36 ATF"
+      ],
+      "correct_answer": "6 ATF",
+      "explanation": "Glyukozaning kislorodsiz parchalanishida ATF hosil bo‘lishi mumkin; darslikning soddalashtirilgan hisobida sof natija 2 ATF deb olinadi."
+    },
+    {
+      "key": "paragraph-8-q6",
+      "fact_id": "paragraph-8-f6",
+      "question_text": "38 ATF haqidagi darslik hisobini qanday ishlatish to‘g‘ri?",
+      "options": [
+        "Berilgan soddalashtirilgan masala modeli sifatida",
+        "Barcha hujayralar uchun o‘zgarmas o‘lchov sifatida",
+        "Bir ATFning grammdagi massasi sifatida",
+        "Har bir oqsilning aminokislota soni sifatida"
+      ],
+      "correct_answer": "Berilgan soddalashtirilgan masala modeli sifatida",
+      "explanation": "Darslik masalalarida to‘liq parchalanish 2+36=38 ATF modeli bilan hisoblanadi. Bu har bir real hujayrada doim aynan 38 ATF chiqadi degan universal qoida emas."
+    },
+    {
+      "key": "paragraph-8-q7",
+      "fact_id": "paragraph-8-f7",
+      "question_text": "To‘liq aerob oksidlanishning modda va energiya natijasini tanlang.",
+      "options": [
+        "Faqat yangi DNK hosil bo‘ladi",
+        "Faqat glyukoza zaxirasi ortadi",
+        "Hech qanday energiya almashinuvi bo‘lmaydi",
+        "CO2 va suv hosil bo‘ladi, energiyaning bir qismi ATFga bog‘lanadi"
+      ],
+      "correct_answer": "CO2 va suv hosil bo‘ladi, energiyaning bir qismi ATFga bog‘lanadi",
+      "explanation": "Aerob parchalanishda organik modda energiyasi ajralib, yakuniy mahsulotlar sifatida karbonat angidrid va suv hosil bo‘ladi; energiyaning bir qismi ATF orqali foydalaniladi."
+    }
+  ]
+}

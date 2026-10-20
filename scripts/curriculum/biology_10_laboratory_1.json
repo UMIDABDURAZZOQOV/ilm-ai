@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-laboratory-1-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-laboratory-15",
+  "title": "1-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-1-f1": {
+      "claim": "DNK uzunligini hisoblashda bir yoki ikki zanjirdagi nukleotidlar soni berilganini ajratish kerak. Ikki zanjirda jami 2400 nukleotid bo‘lsa, 1200 juft mavjud. Qoida manbasi: §6, PDF 30.",
+      "answer": "1200 juft",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-8",
+            "paragraph": 6,
+            "pdf_pages": [
+              30
+            ],
+            "printed_pages": [
+              30
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "laboratory-1-f2": {
+      "claim": "Darslik masalasida qo‘shni juftlar bo‘yicha uzunlik 0,34 nm qadam bilan hisoblanadi. 1200 juft uchun model uzunligi 1200 × 0,34 = 408 nm. Qoida manbasi: §6, PDF 30.",
+      "answer": "408 nm",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-8",
+            "paragraph": 6,
+            "pdf_pages": [
+              30
+            ],
+            "printed_pages": [
+              30
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "laboratory-1-f3": {
+      "claim": "Ikki zanjirli DNKda G=C va A=T. Jami 2400 nukleotidning 400 tasi C bo‘lsa, G ham 400, A va T esa 800 tadan bo‘ladi. Qoida manbasi: §6, PDF 31.",
+      "answer": "800",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-8",
+            "paragraph": 6,
+            "pdf_pages": [
+              31
+            ],
+            "printed_pages": [
+              31
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "laboratory-1-f4": {
+      "claim": "Komplementar zanjirlar antiparallel. Matritsa 3′-TAC-GGA-5′ bo‘lsa, undan 5′-AUG-CCU-3′ i-RNK yoziladi; RNKda T o‘rniga U ishlatiladi. Qoida manbasi: §10, PDF 49.",
+      "answer": "AUG-CCU",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-13",
+            "paragraph": 10,
+            "pdf_pages": [
+              49
+            ],
+            "printed_pages": [
+              49
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "laboratory-1-f5": {
+      "claim": "Kodon uch nukleotiddan iborat. Agar shartda stop kodonsiz 270 nukleotidli kodlovchi qism berilsa, u 270/3=90 aminokislotani ifodalaydi. Qoida manbasi: §10, PDF 48.",
+      "answer": "90",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-13",
+            "paragraph": 10,
+            "pdf_pages": [
+              48
+            ],
+            "printed_pages": [
+              48
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "laboratory-1-f6": {
+      "claim": "Darslikning shartli hisobida 1 mol to‘liq parchalanganga 38 mol ATF, faqat kislorodsiz parchalanganga 2 mol ATF olinadi. 3 mol to‘liq va 2 mol kislorodsiz parchalanishda 3×38+2×2=118 mol ATF chiqadi. Qoida manbasi: §8, PDF 40, 41.",
+      "answer": "118 mol",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-11",
+            "paragraph": 8,
+            "pdf_pages": [
+              40,
+              41
+            ],
+            "printed_pages": [
+              40,
+              41
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "laboratory-1-f7": {
+      "claim": "Raqamli laboratoriyada shart, hisob, birlik va xulosa izchil tekshiriladi. Masala yechish haqiqiy hujayra tajribasi o‘tkazilganini tasdiqlamaydi.",
+      "answer": "Masala sharti va hisoblari tahlil qilinganini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Masalaning shartini aniqlaymiz",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nDNK uzunligini hisoblashda bir yoki ikki zanjirdagi nukleotidlar soni berilganini ajratish kerak. Ikki zanjirda jami 2400 nukleotid bo‘lsa, 1200 juft mavjud. Qoida manbasi: §6, PDF 30.",
+      "fact_ids": [
+        "laboratory-1-f1"
+      ]
+    },
+    {
+      "title": "Uzunlikka o‘tish",
+      "body": "Darslik masalasida qo‘shni juftlar bo‘yicha uzunlik 0,34 nm qadam bilan hisoblanadi. 1200 juft uchun model uzunligi 1200 × 0,34 = 408 nm. Qoida manbasi: §6, PDF 30.",
+      "fact_ids": [
+        "laboratory-1-f2"
+      ]
+    },
+    {
+      "title": "Asoslarni tekshirish",
+      "body": "Ikki zanjirli DNKda G=C va A=T. Jami 2400 nukleotidning 400 tasi C bo‘lsa, G ham 400, A va T esa 800 tadan bo‘ladi. Qoida manbasi: §6, PDF 31.",
+      "fact_ids": [
+        "laboratory-1-f3"
+      ]
+    },
+    {
+      "title": "Yo‘nalishni yozish",
+      "body": "Komplementar zanjirlar antiparallel. Matritsa 3′-TAC-GGA-5′ bo‘lsa, undan 5′-AUG-CCU-3′ i-RNK yoziladi; RNKda T o‘rniga U ishlatiladi. Qoida manbasi: §10, PDF 49.",
+      "fact_ids": [
+        "laboratory-1-f4"
+      ]
+    },
+    {
+      "title": "Tripletni izohlash",
+      "body": "Kodon uch nukleotiddan iborat. Agar shartda stop kodonsiz 270 nukleotidli kodlovchi qism berilsa, u 270/3=90 aminokislotani ifodalaydi. Qoida manbasi: §10, PDF 48.",
+      "fact_ids": [
+        "laboratory-1-f5"
+      ]
+    },
+    {
+      "title": "Birlikni saqlaymiz",
+      "body": "Darslikning shartli hisobida 1 mol to‘liq parchalanganga 38 mol ATF, faqat kislorodsiz parchalanganga 2 mol ATF olinadi. 3 mol to‘liq va 2 mol kislorodsiz parchalanishda 3×38+2×2=118 mol ATF chiqadi. Qoida manbasi: §8, PDF 40, 41.",
+      "fact_ids": [
+        "laboratory-1-f6"
+      ]
+    },
+    {
+      "title": "Tahlilning yakuni",
+      "body": "Raqamli laboratoriyada shart, hisob, birlik va xulosa izchil tekshiriladi. Masala yechish haqiqiy hujayra tajribasi o‘tkazilganini tasdiqlamaydi.",
+      "fact_ids": [
+        "laboratory-1-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-1-q1",
+      "fact_id": "laboratory-1-f1",
+      "question_text": "Jami ikki zanjirda 2400 nukleotidli DNKda nechta juft bor?",
+      "options": [
+        "600 juft",
+        "1200 juft",
+        "2400 juft",
+        "4800 juft"
+      ],
+      "correct_answer": "1200 juft",
+      "explanation": "DNK uzunligini hisoblashda bir yoki ikki zanjirdagi nukleotidlar soni berilganini ajratish kerak. Ikki zanjirda jami 2400 nukleotid bo‘lsa, 1200 juft mavjud. Qoida manbasi: §6, PDF 30."
+    },
+    {
+      "key": "laboratory-1-q2",
+      "fact_id": "laboratory-1-f2",
+      "question_text": "1200 juft DNK uchun darslikning 0,34 nm modelida uzunlik qancha?",
+      "options": [
+        "408 nm",
+        "1200 nm",
+        "816 nm",
+        "34 nm"
+      ],
+      "correct_answer": "408 nm",
+      "explanation": "Darslik masalasida qo‘shni juftlar bo‘yicha uzunlik 0,34 nm qadam bilan hisoblanadi. 1200 juft uchun model uzunligi 1200 × 0,34 = 408 nm. Qoida manbasi: §6, PDF 30."
+    },
+    {
+      "key": "laboratory-1-q3",
+      "fact_id": "laboratory-1-f3",
+      "question_text": "2400 nukleotidli ikki zanjirda C=400 bo‘lsa, A nechta?",
+      "options": [
+        "400",
+        "1200",
+        "1600",
+        "800"
+      ],
+      "correct_answer": "800",
+      "explanation": "Ikki zanjirli DNKda G=C va A=T. Jami 2400 nukleotidning 400 tasi C bo‘lsa, G ham 400, A va T esa 800 tadan bo‘ladi. Qoida manbasi: §6, PDF 31."
+    },
+    {
+      "key": "laboratory-1-q4",
+      "fact_id": "laboratory-1-f4",
+      "question_text": "3′-TAC-GGA-5′ matritsadan yozilgan i-RNKni 5′→3′ yo‘nalishda tanlang.",
+      "options": [
+        "ATG-CCT",
+        "TAC-GGA",
+        "AUG-CCU",
+        "UAC-GGA"
+      ],
+      "correct_answer": "AUG-CCU",
+      "explanation": "Komplementar zanjirlar antiparallel. Matritsa 3′-TAC-GGA-5′ bo‘lsa, undan 5′-AUG-CCU-3′ i-RNK yoziladi; RNKda T o‘rniga U ishlatiladi. Qoida manbasi: §10, PDF 49."
+    },
+    {
+      "key": "laboratory-1-q5",
+      "fact_id": "laboratory-1-f5",
+      "question_text": "Stop kodonsiz 270 nukleotidli kodlovchi qism nechta aminokislotaga mos?",
+      "options": [
+        "135",
+        "90",
+        "270",
+        "810"
+      ],
+      "correct_answer": "90",
+      "explanation": "Kodon uch nukleotiddan iborat. Agar shartda stop kodonsiz 270 nukleotidli kodlovchi qism berilsa, u 270/3=90 aminokislotani ifodalaydi. Qoida manbasi: §10, PDF 48."
+    },
+    {
+      "key": "laboratory-1-q6",
+      "fact_id": "laboratory-1-f6",
+      "question_text": "Berilgan 38/2 modelida 3 mol to‘liq va 2 mol kislorodsiz parchalanish natijasi nechta mol ATF?",
+      "options": [
+        "118 mol",
+        "190 mol",
+        "10 mol",
+        "114 mol"
+      ],
+      "correct_answer": "118 mol",
+      "explanation": "Darslikning shartli hisobida 1 mol to‘liq parchalanganga 38 mol ATF, faqat kislorodsiz parchalanganga 2 mol ATF olinadi. 3 mol to‘liq va 2 mol kislorodsiz parchalanishda 3×38+2×2=118 mol ATF chiqadi. Qoida manbasi: §8, PDF 40, 41."
+    },
+    {
+      "key": "laboratory-1-q7",
+      "fact_id": "laboratory-1-f7",
+      "question_text": "Ushbu raqamli laboratoriya yakuni nimani tasdiqlaydi?",
+      "options": [
+        "O‘quvchi uyda genetik tajriba o‘tkazganini",
+        "Production ma’lumotlari o‘zgartirilganini",
+        "Real hujayrada ATF miqdori o‘lchanganini",
+        "Masala sharti va hisoblari tahlil qilinganini"
+      ],
+      "correct_answer": "Masala sharti va hisoblari tahlil qilinganini",
+      "explanation": "Raqamli laboratoriyada shart, hisob, birlik va xulosa izchil tekshiriladi. Masala yechish haqiqiy hujayra tajribasi o‘tkazilganini tasdiqlamaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "1-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Masalaning shartini aniqlaymiz",
+        "fact_ids": [
+          "laboratory-1-f1"
+        ]
+      },
+      {
+        "instruction": "Uzunlikka o‘tish",
+        "fact_ids": [
+          "laboratory-1-f2"
+        ]
+      },
+      {
+        "instruction": "Asoslarni tekshirish",
+        "fact_ids": [
+          "laboratory-1-f3"
+        ]
+      },
+      {
+        "instruction": "Yo‘nalishni yozish",
+        "fact_ids": [
+          "laboratory-1-f4"
+        ]
+      },
+      {
+        "instruction": "Tripletni izohlash",
+        "fact_ids": [
+          "laboratory-1-f5"
+        ]
+      },
+      {
+        "instruction": "Birlikni saqlaymiz",
+        "fact_ids": [
+          "laboratory-1-f6"
+        ]
+      },
+      {
+        "instruction": "Tahlilning yakuni",
+        "fact_ids": [
+          "laboratory-1-f7"
+        ]
+      }
+    ]
+  }
+}

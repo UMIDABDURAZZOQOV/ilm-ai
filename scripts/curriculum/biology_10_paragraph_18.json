@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-18-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-23",
+  "title": "Diduragay va poliduragay chatishtirish. G. Mendelning uchinchi qonuni",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-18-f1": {
+      "claim": "Diduragay tahlilda ikki lokus hisobga olinadi. AABB × aabb dan AaBb kelib chiqadi; mustaqil taqsimlanish va to‘liq dominantlik keyingi nisbatlar shartidir.",
+      "answer": "AaBb",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f2": {
+      "claim": "Mustaqil taqsimlanishda AaBb gametalari AB, Ab, aB va ab bo‘lib, shartli modelda teng ehtimolli. Birikkan genlarda bu tenglikni avtomatik qo‘llamaymiz.",
+      "answer": "Lokuslar mustaqil taqsimlanishiga",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f3": {
+      "claim": "AaBb × AaBb mustaqil to‘liq dominant modelida A–bb ehtimoli 3/4 × 1/4 = 3/16. 320 avlodda kutiladigan miqdor 60dir.",
+      "answer": "60",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f4": {
+      "claim": "9:3:3:1 shartli kutilma bo‘lib, har bir kichik guruhda aynan shu sonlar chiqishini kafolatlamaydi. Nisbatni model shartlari bilan birga qo‘llash kerak.",
+      "answer": "Yo‘q, bu kutiladigan ehtimoliy nisbat",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f5": {
+      "claim": "Uch mustaqil geterozigota lokusli AaBbCc individi 2³=8 xil gameta beradi. Ikkita shunday individ uchun gameta juftlari 8×8=64 xil kombinatsiyadir.",
+      "answer": "Gameta juftlashish kombinatsiyalarini",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f6": {
+      "claim": "Mustaqil uch lokusli to‘liq dominant modelda 8 gameta turi, 27 genotip sinfi va 8 fenotip sinfi mavjud. Bu uch hisobni aralashtirmaslik kerak.",
+      "answer": "Genotipik sinflar",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f7": {
+      "claim": "Uch mustaqil lokusda AaBbCc × AaBbCc uchun aabbcc ehtimoli (1/4)³=1/64 bo‘ladi.",
+      "answer": "10",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki belgi, aniq shart",
+      "body": "Diduragay tahlilda ikki lokus hisobga olinadi. AABB × aabb dan AaBb kelib chiqadi; mustaqil taqsimlanish va to‘liq dominantlik keyingi nisbatlar shartidir.",
+      "fact_ids": [
+        "paragraph-18-f1"
+      ]
+    },
+    {
+      "title": "Mustaqillik nimaga kerak?",
+      "body": "Mustaqil taqsimlanishda AaBb gametalari AB, Ab, aB va ab bo‘lib, shartli modelda teng ehtimolli. Birikkan genlarda bu tenglikni avtomatik qo‘llamaymiz.",
+      "fact_ids": [
+        "paragraph-18-f2"
+      ]
+    },
+    {
+      "title": "Ikki ehtimolni ko‘paytirish",
+      "body": "AaBb × AaBb mustaqil to‘liq dominant modelida A–bb ehtimoli 3/4 × 1/4 = 3/16. 320 avlodda kutiladigan miqdor 60dir.",
+      "fact_ids": [
+        "paragraph-18-f3"
+      ]
+    },
+    {
+      "title": "Nisbatni dalil bilan talqin qilish",
+      "body": "9:3:3:1 shartli kutilma bo‘lib, har bir kichik guruhda aynan shu sonlar chiqishini kafolatlamaydi. Nisbatni model shartlari bilan birga qo‘llash kerak.",
+      "fact_ids": [
+        "paragraph-18-f4"
+      ]
+    },
+    {
+      "title": "Uch lokusli hisob",
+      "body": "Uch mustaqil geterozigota lokusli AaBbCc individi 2³=8 xil gameta beradi. Ikkita shunday individ uchun gameta juftlari 8×8=64 xil kombinatsiyadir.",
+      "fact_ids": [
+        "paragraph-18-f5"
+      ]
+    },
+    {
+      "title": "Gameta, genotip, fenotip",
+      "body": "Mustaqil uch lokusli to‘liq dominant modelda 8 gameta turi, 27 genotip sinfi va 8 fenotip sinfi mavjud. Bu uch hisobni aralashtirmaslik kerak.",
+      "fact_ids": [
+        "paragraph-18-f6"
+      ]
+    },
+    {
+      "title": "Barcha retsessivlar ehtimoli",
+      "body": "Uch mustaqil lokusda AaBbCc × AaBbCc uchun aabbcc ehtimoli (1/4)³=1/64 bo‘ladi.",
+      "fact_ids": [
+        "paragraph-18-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-18-q1",
+      "fact_id": "paragraph-18-f1",
+      "question_text": "AABB × aabb chatishtirishning F1 genotipini toping.",
+      "options": [
+        "aabb",
+        "AaBb",
+        "AABb",
+        "Aabb"
+      ],
+      "correct_answer": "AaBb",
+      "explanation": "Diduragay tahlilda ikki lokus hisobga olinadi. AABB × aabb dan AaBb kelib chiqadi; mustaqil taqsimlanish va to‘liq dominantlik keyingi nisbatlar shartidir.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-18-q2",
+      "fact_id": "paragraph-18-f2",
+      "question_text": "AaBb uchun to‘rtta gameta teng ehtimolli deyilishi qaysi shartga tayanadi?",
+      "options": [
+        "Lokuslar mustaqil taqsimlanishiga",
+        "Ikkala lokus mutlaqo birikkaniga",
+        "Har bir gametada ikkita A bo‘lishiga",
+        "Faqat ikkala allel retsessiv bo‘lishiga"
+      ],
+      "correct_answer": "Lokuslar mustaqil taqsimlanishiga",
+      "explanation": "Mustaqil taqsimlanishda AaBb gametalari AB, Ab, aB va ab bo‘lib, shartli modelda teng ehtimolli. Birikkan genlarda bu tenglikni avtomatik qo‘llamaymiz."
+    },
+    {
+      "key": "paragraph-18-q3",
+      "fact_id": "paragraph-18-f3",
+      "question_text": "320 avloddan faqat birinchi dominant, ikkinchi retsessiv fenotip kutiladigan son qancha?",
+      "options": [
+        "20",
+        "180",
+        "240",
+        "60"
+      ],
+      "correct_answer": "60",
+      "explanation": "AaBb × AaBb mustaqil to‘liq dominant modelida A–bb ehtimoli 3/4 × 1/4 = 3/16. 320 avlodda kutiladigan miqdor 60dir."
+    },
+    {
+      "key": "paragraph-18-q4",
+      "fact_id": "paragraph-18-f4",
+      "question_text": "16 avlodda 9:3:3:1 aynan chiqmasa, darhol model noto‘g‘ri deyish mumkinmi?",
+      "options": [
+        "Ha, bitta avlodning o‘zi barcha ehtimolni bekor qiladi",
+        "Yo‘q, chunki nisbat faqat xromosoma uzunligini bildiradi",
+        "Yo‘q, bu kutiladigan ehtimoliy nisbat",
+        "Ha, har 16 avlod majburiy aynan shunday bo‘ladi"
+      ],
+      "correct_answer": "Yo‘q, bu kutiladigan ehtimoliy nisbat",
+      "explanation": "9:3:3:1 shartli kutilma bo‘lib, har bir kichik guruhda aynan shu sonlar chiqishini kafolatlamaydi. Nisbatni model shartlari bilan birga qo‘llash kerak."
+    },
+    {
+      "key": "paragraph-18-q5",
+      "fact_id": "paragraph-18-f5",
+      "question_text": "AaBbCc × AaBbCc uchun 64 soni nimani sanaydi?",
+      "options": [
+        "Har bir gametadagi 64 allelni",
+        "Gameta juftlashish kombinatsiyalarini",
+        "64 xil majburiy fenotipni",
+        "64 xil xromosomani"
+      ],
+      "correct_answer": "Gameta juftlashish kombinatsiyalarini",
+      "explanation": "Uch mustaqil geterozigota lokusli AaBbCc individi 2³=8 xil gameta beradi. Ikkita shunday individ uchun gameta juftlari 8×8=64 xil kombinatsiyadir."
+    },
+    {
+      "key": "paragraph-18-q6",
+      "fact_id": "paragraph-18-f6",
+      "question_text": "AaBbCc × AaBbCc da 27 soni qaysi sinflar soni?",
+      "options": [
+        "Genotipik sinflar",
+        "Gameta turlari",
+        "Fenotipik sinflar",
+        "Juftlashishning 64 kombinatsiyasi"
+      ],
+      "correct_answer": "Genotipik sinflar",
+      "explanation": "Mustaqil uch lokusli to‘liq dominant modelda 8 gameta turi, 27 genotip sinfi va 8 fenotip sinfi mavjud. Bu uch hisobni aralashtirmaslik kerak."
+    },
+    {
+      "key": "paragraph-18-q7",
+      "fact_id": "paragraph-18-f7",
+      "question_text": "Shu modelda 640 avloddan uchala lokus bo‘yicha retsessiv gomozigota kutiladigan soni qancha?",
+      "options": [
+        "40",
+        "80",
+        "160",
+        "10"
+      ],
+      "correct_answer": "10",
+      "explanation": "Uch mustaqil lokusda AaBbCc × AaBbCc uchun aabbcc ehtimoli (1/4)³=1/64 bo‘ladi."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-5-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-7",
+  "title": "Uglevodlar va lipidlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-5-f1": {
+      "claim": "Kraxmal, glikogen va selluloza gomopolimerlarga misol: ularning zanjirlari glyukoza qoldiqlaridan tuzilgan. Oqsillar turli aminokislotalar ketma-ketligi tufayli geteropolimerdir.",
+      "answer": "Gomopolimer",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f2": {
+      "claim": "Disaxaridlar ikki monosaxaridning birikishidan hosil bo‘ladi. Saxaroza glyukoza va fruktoza, laktoza glyukoza va galaktozadan tashkil topadi.",
+      "answer": "Laktoza",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f3": {
+      "claim": "Riboza va dezoksiriboza pentozalardir. Riboza RNKga, dezoksiriboza DNKga kiradi; bu farq molekulalarni ajratish belgilaridan biridir.",
+      "answer": "DNKga",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f4": {
+      "claim": "O‘simliklarda kraxmal, hayvon va zamburug‘larda glikogen zaxira vazifasini bajaradi; selluloza esa o‘simlik hujayra devorining tarkibidir.",
+      "answer": "Kraxmal — zaxira; selluloza — devor materiali",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          22
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f5": {
+      "claim": "Neytral yog‘ glitserin va uchta yog‘ kislotasi qoldig‘i bilan bog‘liq. Fosfolipidlar membranalar tarkibida muhim o‘rin tutadi.",
+      "answer": "Fosfolipidlar",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f6": {
+      "claim": "Glikolipidda uglevod va lipid qismlari, lipoproteinda esa lipid va oqsil qismlari bog‘langan. Nomlar tarkibni tushunishga yordam beradi.",
+      "answer": "Lipid va oqsil",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f7": {
+      "claim": "Zaxira yog‘ energiya manbai, teri ostidagi yog‘ esa issiqlikni saqlash va mexanik himoyada qatnashadi. Bir modda bir nechta vazifani bajarishi mumkin.",
+      "answer": "Issiqlik yo‘qotilishini kamaytirish va mexanik ta’sirni yumshatish",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Polimer tarkibi",
+      "body": "Kraxmal, glikogen va selluloza gomopolimerlarga misol: ularning zanjirlari glyukoza qoldiqlaridan tuzilgan. Oqsillar turli aminokislotalar ketma-ketligi tufayli geteropolimerdir.",
+      "fact_ids": [
+        "paragraph-5-f1"
+      ]
+    },
+    {
+      "title": "Ikki monomerdan shakar",
+      "body": "Disaxaridlar ikki monosaxaridning birikishidan hosil bo‘ladi. Saxaroza glyukoza va fruktoza, laktoza glyukoza va galaktozadan tashkil topadi.",
+      "fact_ids": [
+        "paragraph-5-f2"
+      ]
+    },
+    {
+      "title": "Nuklein kislotadagi shakar",
+      "body": "Riboza va dezoksiriboza pentozalardir. Riboza RNKga, dezoksiriboza DNKga kiradi; bu farq molekulalarni ajratish belgilaridan biridir.",
+      "fact_ids": [
+        "paragraph-5-f3"
+      ]
+    },
+    {
+      "title": "Zaxira bilan tayanch farqi",
+      "body": "O‘simliklarda kraxmal, hayvon va zamburug‘larda glikogen zaxira vazifasini bajaradi; selluloza esa o‘simlik hujayra devorining tarkibidir.",
+      "fact_ids": [
+        "paragraph-5-f4"
+      ]
+    },
+    {
+      "title": "Murakkab lipidlar",
+      "body": "Neytral yog‘ glitserin va uchta yog‘ kislotasi qoldig‘i bilan bog‘liq. Fosfolipidlar membranalar tarkibida muhim o‘rin tutadi.",
+      "fact_ids": [
+        "paragraph-5-f5"
+      ]
+    },
+    {
+      "title": "Birga ishlaydigan qismlar",
+      "body": "Glikolipidda uglevod va lipid qismlari, lipoproteinda esa lipid va oqsil qismlari bog‘langan. Nomlar tarkibni tushunishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-5-f6"
+      ]
+    },
+    {
+      "title": "Yog‘ning bir nechta vazifasi",
+      "body": "Zaxira yog‘ energiya manbai, teri ostidagi yog‘ esa issiqlikni saqlash va mexanik himoyada qatnashadi. Bir modda bir nechta vazifani bajarishi mumkin.",
+      "fact_ids": [
+        "paragraph-5-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-5-q1",
+      "fact_id": "paragraph-5-f1",
+      "question_text": "Bir xil monomer qoldiqlaridan tuzilgan zanjir qanday nomlanadi?",
+      "options": [
+        "Organlar tizimi",
+        "Gomopolimer",
+        "Antikodon",
+        "Xromosoma to‘plami"
+      ],
+      "correct_answer": "Gomopolimer",
+      "explanation": "Kraxmal, glikogen va selluloza gomopolimerlarga misol: ularning zanjirlari glyukoza qoldiqlaridan tuzilgan. Oqsillar turli aminokislotalar ketma-ketligi tufayli geteropolimerdir."
+    },
+    {
+      "key": "paragraph-5-q2",
+      "fact_id": "paragraph-5-f2",
+      "question_text": "Tarkibi glyukoza va galaktozadan iborat disaxaridni tanlang.",
+      "options": [
+        "Laktoza",
+        "Saxaroza",
+        "Selluloza",
+        "Glikogen"
+      ],
+      "correct_answer": "Laktoza",
+      "explanation": "Disaxaridlar ikki monosaxaridning birikishidan hosil bo‘ladi. Saxaroza glyukoza va fruktoza, laktoza glyukoza va galaktozadan tashkil topadi."
+    },
+    {
+      "key": "paragraph-5-q3",
+      "fact_id": "paragraph-5-f3",
+      "question_text": "Nukleotid tarkibida dezoksiriboza aniqlansa, u qaysi molekulaga tegishli?",
+      "options": [
+        "Kraxmalga",
+        "Glikogenga",
+        "Maltazaga",
+        "DNKga"
+      ],
+      "correct_answer": "DNKga",
+      "explanation": "Riboza va dezoksiriboza pentozalardir. Riboza RNKga, dezoksiriboza DNKga kiradi; bu farq molekulalarni ajratish belgilaridan biridir."
+    },
+    {
+      "key": "paragraph-5-q4",
+      "fact_id": "paragraph-5-f4",
+      "question_text": "Glyukozali polimerlarni vazifasi bo‘yicha to‘g‘ri ajrating.",
+      "options": [
+        "Glikogen — faqat DNKdagi shakar",
+        "Kraxmal — faqat hayvonning suyak minerali",
+        "Kraxmal — zaxira; selluloza — devor materiali",
+        "Selluloza — irsiy kod; kraxmal — ferment"
+      ],
+      "correct_answer": "Kraxmal — zaxira; selluloza — devor materiali",
+      "explanation": "O‘simliklarda kraxmal, hayvon va zamburug‘larda glikogen zaxira vazifasini bajaradi; selluloza esa o‘simlik hujayra devorining tarkibidir."
+    },
+    {
+      "key": "paragraph-5-q5",
+      "fact_id": "paragraph-5-f5",
+      "question_text": "Hujayra membranasi uchun ayniqsa muhim lipid guruhini tanlang.",
+      "options": [
+        "Dezoksiribonukleotidlar",
+        "Fosfolipidlar",
+        "Disaxaridlar",
+        "Polipeptidlarning barcha turlari"
+      ],
+      "correct_answer": "Fosfolipidlar",
+      "explanation": "Neytral yog‘ glitserin va uchta yog‘ kislotasi qoldig‘i bilan bog‘liq. Fosfolipidlar membranalar tarkibida muhim o‘rin tutadi."
+    },
+    {
+      "key": "paragraph-5-q6",
+      "fact_id": "paragraph-5-f6",
+      "question_text": "Lipoprotein nomidan qaysi ikkita tarkibiy guruh kelib chiqadi?",
+      "options": [
+        "Lipid va oqsil",
+        "DNK va RNK",
+        "Faqat ikki xil mineral tuz",
+        "Glyukoza va galaktoza"
+      ],
+      "correct_answer": "Lipid va oqsil",
+      "explanation": "Glikolipidda uglevod va lipid qismlari, lipoproteinda esa lipid va oqsil qismlari bog‘langan. Nomlar tarkibni tushunishga yordam beradi."
+    },
+    {
+      "key": "paragraph-5-q7",
+      "fact_id": "paragraph-5-f7",
+      "question_text": "Teri osti yog‘ining himoya vazifasiga mos izohni toping.",
+      "options": [
+        "Genetik kodonlarni bevosita o‘qish",
+        "Ribosomaning RNKsini almashtirish",
+        "DNK zanjirlarini faqat peptid bog‘i bilan ulash",
+        "Issiqlik yo‘qotilishini kamaytirish va mexanik ta’sirni yumshatish"
+      ],
+      "correct_answer": "Issiqlik yo‘qotilishini kamaytirish va mexanik ta’sirni yumshatish",
+      "explanation": "Zaxira yog‘ energiya manbai, teri ostidagi yog‘ esa issiqlikni saqlash va mexanik himoyada qatnashadi. Bir modda bir nechta vazifani bajarishi mumkin."
+    }
+  ]
+}

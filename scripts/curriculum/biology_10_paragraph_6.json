@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-6-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-8",
+  "title": "Oqsillar va nuklein kislotalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-6-f1": {
+      "claim": "Aminokislotalarda amino va karboksil guruhlari bor; yon guruh — radikal — ularning farqlanishida muhim. Oqsilning monomerlari aminokislotalardir.",
+      "answer": "Radikal yoki yon guruh",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f2": {
+      "claim": "Oqsilning birlamchi tuzilmasi aminokislotalarning izchil tartibidir; qo‘shni aminokislotalar peptid bog‘lari bilan birikadi.",
+      "answer": "Birlamchi tuzilmani",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f3": {
+      "claim": "Bir polipeptidning fazoda yig‘ilishi uchlamchi tuzilma bilan, bir nechta subbirlik birikishi to‘rtlamchi tuzilma bilan bog‘liq. Gemoglobin ko‘p subbirlikli misoldir.",
+      "answer": "To‘rtlamchi tuzilmani",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f4": {
+      "claim": "Harorat yoki kimyoviy ta’sir oqsilning tabiiy fazoviy tuzilishini buzishi mumkin; bu denaturatsiya deyiladi va funksiyaga ta’sir qiladi.",
+      "answer": "Tabiiy fazoviy tuzilmaning buzilishiga",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f5": {
+      "claim": "Ferment oqsillari reaksiyalarni tezlashtiradi, gemoglobin transportda, antitanalar esa himoyada qatnashadi. Oqsillar vazifasi xilma-xildir.",
+      "answer": "Katalitik vazifa",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f6": {
+      "claim": "Nukleotid azotli asos, pentoza va fosfat qoldig‘idan tuzilgan. RNK va DNKda shakar hamda ayrim asoslar farq qiladi.",
+      "answer": "Azotli asos, pentoza, fosfat",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f7": {
+      "claim": "DNK zanjiri ichida nukleotidlar fosfodiester bog‘lari bilan, ikki zanjirdagi komplementar asoslar esa vodorod bog‘lari bilan bog‘lanadi.",
+      "answer": "Fosfodiester — skelet; vodorod — asoslar orasida",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f8": {
+      "claim": "Ikki zanjirli DNKda A=T va G=C. Agar shu modelda A 22 foiz bo‘lsa, T ham 22 foiz, qolgan 56 foiz G va C o‘rtasida teng bo‘linadi.",
+      "answer": "28%",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f9": {
+      "claim": "i-RNK oqsil haqidagi axborotni ribosomaga yetkazadi, t-RNK aminokislotani olib keladi, r-RNK ribosoma tarkibiga kiradi. t-RNK antikodoni i-RNK kodoniga moslashadi.",
+      "answer": "t-RNK — antikodon",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f10": {
+      "claim": "ATF adenin, riboza va uchta fosfat qoldig‘idan tuzilgan; ADFdan ATF hosil qilish energiya talab qiladi. ATF sarfi energiya talab qiluvchi hujayra ishlariga bog‘lanadi.",
+      "answer": "ATFda uchta, ADFda ikkita fosfat bor",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Aminokislota tuzilishi",
+      "body": "Aminokislotalarda amino va karboksil guruhlari bor; yon guruh — radikal — ularning farqlanishida muhim. Oqsilning monomerlari aminokislotalardir.",
+      "fact_ids": [
+        "paragraph-6-f1"
+      ]
+    },
+    {
+      "title": "Birlamchi tuzilma",
+      "body": "Oqsilning birlamchi tuzilmasi aminokislotalarning izchil tartibidir; qo‘shni aminokislotalar peptid bog‘lari bilan birikadi.",
+      "fact_ids": [
+        "paragraph-6-f2"
+      ]
+    },
+    {
+      "title": "Tuzilma darajalari",
+      "body": "Bir polipeptidning fazoda yig‘ilishi uchlamchi tuzilma bilan, bir nechta subbirlik birikishi to‘rtlamchi tuzilma bilan bog‘liq. Gemoglobin ko‘p subbirlikli misoldir.",
+      "fact_ids": [
+        "paragraph-6-f3"
+      ]
+    },
+    {
+      "title": "Denaturatsiya va vazifa",
+      "body": "Harorat yoki kimyoviy ta’sir oqsilning tabiiy fazoviy tuzilishini buzishi mumkin; bu denaturatsiya deyiladi va funksiyaga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-6-f4"
+      ]
+    },
+    {
+      "title": "Vazifani dalildan topish",
+      "body": "Ferment oqsillari reaksiyalarni tezlashtiradi, gemoglobin transportda, antitanalar esa himoyada qatnashadi. Oqsillar vazifasi xilma-xildir.",
+      "fact_ids": [
+        "paragraph-6-f5"
+      ]
+    },
+    {
+      "title": "Nukleotidning uch qismi",
+      "body": "Nukleotid azotli asos, pentoza va fosfat qoldig‘idan tuzilgan. RNK va DNKda shakar hamda ayrim asoslar farq qiladi.",
+      "fact_ids": [
+        "paragraph-6-f6"
+      ]
+    },
+    {
+      "title": "Ikki xil bog‘",
+      "body": "DNK zanjiri ichida nukleotidlar fosfodiester bog‘lari bilan, ikki zanjirdagi komplementar asoslar esa vodorod bog‘lari bilan bog‘lanadi.",
+      "fact_ids": [
+        "paragraph-6-f7"
+      ]
+    },
+    {
+      "title": "Komplementarlikdan hisob",
+      "body": "Ikki zanjirli DNKda A=T va G=C. Agar shu modelda A 22 foiz bo‘lsa, T ham 22 foiz, qolgan 56 foiz G va C o‘rtasida teng bo‘linadi.",
+      "fact_ids": [
+        "paragraph-6-f8"
+      ]
+    },
+    {
+      "title": "RNKlar vazifasi",
+      "body": "i-RNK oqsil haqidagi axborotni ribosomaga yetkazadi, t-RNK aminokislotani olib keladi, r-RNK ribosoma tarkibiga kiradi. t-RNK antikodoni i-RNK kodoniga moslashadi.",
+      "fact_ids": [
+        "paragraph-6-f9"
+      ]
+    },
+    {
+      "title": "ATFni tuzilishidan taniymiz",
+      "body": "ATF adenin, riboza va uchta fosfat qoldig‘idan tuzilgan; ADFdan ATF hosil qilish energiya talab qiladi. ATF sarfi energiya talab qiluvchi hujayra ishlariga bog‘lanadi.",
+      "fact_ids": [
+        "paragraph-6-f10"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-6-q1",
+      "fact_id": "paragraph-6-f1",
+      "question_text": "Aminokislotalarning bir-biridan farqlanishiga ayniqsa qaysi qism yordam beradi?",
+      "options": [
+        "Ribosomaning ikkita subbirligi",
+        "Radikal yoki yon guruh",
+        "Barcha molekulada bir xil bo‘lgan suv soni",
+        "Xromosomaning sentromerasi"
+      ],
+      "correct_answer": "Radikal yoki yon guruh",
+      "explanation": "Aminokislotalarda amino va karboksil guruhlari bor; yon guruh — radikal — ularning farqlanishida muhim. Oqsilning monomerlari aminokislotalardir."
+    },
+    {
+      "key": "paragraph-6-q2",
+      "fact_id": "paragraph-6-f2",
+      "question_text": "Tadqiqotchi oqsildagi aminokislotalar tartibini yozdi. U nimani aniqladi?",
+      "options": [
+        "Birlamchi tuzilmani",
+        "Faqat membrana qalinligini",
+        "Faqat xromosomalar sonini",
+        "Hujayraning jinsini"
+      ],
+      "correct_answer": "Birlamchi tuzilmani",
+      "explanation": "Oqsilning birlamchi tuzilmasi aminokislotalarning izchil tartibidir; qo‘shni aminokislotalar peptid bog‘lari bilan birikadi."
+    },
+    {
+      "key": "paragraph-6-q3",
+      "fact_id": "paragraph-6-f3",
+      "question_text": "Bir nechta polipeptid subbirlikning yagona oqsilga birikishi qaysi darajani ko‘rsatadi?",
+      "options": [
+        "Faqat birlamchi ketma-ketlikni",
+        "Nukleotid tripletini",
+        "Hujayralararo bo‘linishni",
+        "To‘rtlamchi tuzilmani"
+      ],
+      "correct_answer": "To‘rtlamchi tuzilmani",
+      "explanation": "Bir polipeptidning fazoda yig‘ilishi uchlamchi tuzilma bilan, bir nechta subbirlik birikishi to‘rtlamchi tuzilma bilan bog‘liq. Gemoglobin ko‘p subbirlikli misoldir."
+    },
+    {
+      "key": "paragraph-6-q4",
+      "fact_id": "paragraph-6-f4",
+      "question_text": "Oqsil ketma-ketligi haqidagi gapdan farqli ravishda denaturatsiya avvalo nimaga tegishli?",
+      "options": [
+        "DNKning albatta ikki baravar ortishiga",
+        "Hujayra devorining mineralga aylanishiga",
+        "Tabiiy fazoviy tuzilmaning buzilishiga",
+        "Har doim barcha atomning yo‘qolishiga"
+      ],
+      "correct_answer": "Tabiiy fazoviy tuzilmaning buzilishiga",
+      "explanation": "Harorat yoki kimyoviy ta’sir oqsilning tabiiy fazoviy tuzilishini buzishi mumkin; bu denaturatsiya deyiladi va funksiyaga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-6-q5",
+      "fact_id": "paragraph-6-f5",
+      "question_text": "Reaksiya tezlashdi, ammo bu modda irsiy kodni saqlamadi. Qaysi oqsil vazifasi tasvirlangan?",
+      "options": [
+        "Faqat suvda tuz eritish",
+        "Katalitik vazifa",
+        "Irsiy matnni DNK kabi saqlash",
+        "Kraxmal zaxirasini hosil qilish"
+      ],
+      "correct_answer": "Katalitik vazifa",
+      "explanation": "Ferment oqsillari reaksiyalarni tezlashtiradi, gemoglobin transportda, antitanalar esa himoyada qatnashadi. Oqsillar vazifasi xilma-xildir."
+    },
+    {
+      "key": "paragraph-6-q6",
+      "fact_id": "paragraph-6-f6",
+      "question_text": "Nukleotid tarkibini to‘liq beruvchi qatorni tanlang.",
+      "options": [
+        "Azotli asos, pentoza, fosfat",
+        "Glitserin va uchta yog‘ kislotasi",
+        "Aminokislota va peptid bog‘i",
+        "Faqat glyukoza zanjiri"
+      ],
+      "correct_answer": "Azotli asos, pentoza, fosfat",
+      "explanation": "Nukleotid azotli asos, pentoza va fosfat qoldig‘idan tuzilgan. RNK va DNKda shakar hamda ayrim asoslar farq qiladi."
+    },
+    {
+      "key": "paragraph-6-q7",
+      "fact_id": "paragraph-6-f7",
+      "question_text": "DNKdagi zanjir ichki skeleti va asos juftlari bog‘ini farqlang.",
+      "options": [
+        "Peptid — skelet; glikozid — barcha juftlar orasida",
+        "Ikkalasi ham faqat disulfid",
+        "Ikkalasi ham sentromera",
+        "Fosfodiester — skelet; vodorod — asoslar orasida"
+      ],
+      "correct_answer": "Fosfodiester — skelet; vodorod — asoslar orasida",
+      "explanation": "DNK zanjiri ichida nukleotidlar fosfodiester bog‘lari bilan, ikki zanjirdagi komplementar asoslar esa vodorod bog‘lari bilan bog‘lanadi."
+    },
+    {
+      "key": "paragraph-6-q8",
+      "fact_id": "paragraph-6-f8",
+      "question_text": "Ikki zanjirli DNKda A=22% bo‘lsa, C qancha?",
+      "options": [
+        "44%",
+        "56%",
+        "28%",
+        "22%"
+      ],
+      "correct_answer": "28%",
+      "explanation": "Ikki zanjirli DNKda A=T va G=C. Agar shu modelda A 22 foiz bo‘lsa, T ham 22 foiz, qolgan 56 foiz G va C o‘rtasida teng bo‘linadi."
+    },
+    {
+      "key": "paragraph-6-q9",
+      "fact_id": "paragraph-6-f9",
+      "question_text": "Aminokislotani ribosomaga olib keladigan RNK bilan kodni o‘qiydigan qismi qanday mos?",
+      "options": [
+        "DNK — glitserin",
+        "t-RNK — antikodon",
+        "i-RNK — xromatida",
+        "r-RNK — sentromera"
+      ],
+      "correct_answer": "t-RNK — antikodon",
+      "explanation": "i-RNK oqsil haqidagi axborotni ribosomaga yetkazadi, t-RNK aminokislotani olib keladi, r-RNK ribosoma tarkibiga kiradi. t-RNK antikodoni i-RNK kodoniga moslashadi."
+    },
+    {
+      "key": "paragraph-6-q10",
+      "fact_id": "paragraph-6-f10",
+      "question_text": "ATF va ADFni nomidagi fosfat soni bo‘yicha qanday ajratasiz?",
+      "options": [
+        "ATFda uchta, ADFda ikkita fosfat bor",
+        "ATFda ikkita, ADFda uchta fosfat bor",
+        "Ikkalasida ham fosfat bo‘lmaydi",
+        "ATF oqsil, ADF esa mineral tuz"
+      ],
+      "correct_answer": "ATFda uchta, ADFda ikkita fosfat bor",
+      "explanation": "ATF adenin, riboza va uchta fosfat qoldig‘idan tuzilgan; ADFdan ATF hosil qilish energiya talab qiladi. ATF sarfi energiya talab qiluvchi hujayra ishlariga bog‘lanadi."
+    }
+  ]
+}

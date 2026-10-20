@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy holat — 2026-10-20, continuation-11:** `feat/biology-curriculum`: **257/355 nazariy dars, 98 qolgan; 42/51 raqamli faoliyat; 1 750 karta / 1 832 savol**. 5–9-sinflar to‘liq. Aniq davom: **10-sinf §3, PDF12**. Eng so‘nggi natija va testlar hujjat oxirida; undan oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
+> **Joriy holat — 2026-10-20, continuation-12:** `feat/biology-curriculum`: **277/355 nazariy dars, 78 qolgan; 43/51 raqamli faoliyat; 1 911 karta / 1 993 savol**. 5–9-sinflar to‘liq. Aniq davom: **10-sinf §23, PDF103**. Eng so‘nggi natija va testlar hujjat oxirida; oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -2517,3 +2517,41 @@ API integration 5–9-sinflarning barcha dars/faoliyatlari va checkpointlarini a
 Veb-sayt **`054f0ce`** kodi o‘zgarmagan. Production import/deploy/main merge/nashr bajarilmagan. Mustaqil fan/klinik ekspertizasi, real Android/iOS/TalkBack va live PostgreSQL tekshiruvi hali kerak. PR API Forbidden va oldingi web practice kontrakti rollout cheklovi saqlanadi; feature push ishlaydi. Bu kontent qamrovi, production release tayyorligi yoki fizik laboratoriya sertifikati emas.
 
 **Aniq keyingi nuqta: 10-sinf §3 “Hayotning molekula darajasi”, PDF/bosma 12-sahifa.** Qolgan **56 nazariy mavzu + 4 laboratoriya**ni, keyin 11-sinfning **42 mavzu + 5 laboratoriya**sini davom ettiring. Keyingi continuation-12 partiyasi: 10-sinf **§3–22 (20 nazariy) + lab1 (PDF58–60)**; so‘ng §23/PDF103. 10-sinf §1–2 va 11-sinf §1–2ni qayta yaratmang. Yangi rasmlar ko‘rilishi tayyor dars degani emas; faqat validator/testdan o‘tgan explicit manifestlar sanaladi.
+
+
+## 2026-10-20 — Biology continuation-12: 10-sinf §3–22 va laboratoriya 1
+
+Continuation-11 **`ecdd6d3`** remote feature branchga saqlandi. Ushbu partiyada **20 nazariy mavzu (§3–22) + 1 raqamli laboratoriya (PDF58–60)**, **161 karta va 161 savol** yaratildi. 10-sinf asl darsligining **PDF/bosma 12–102-sahifalari tasvirlari** ko‘rib chiqildi. Molekulyar/hujayra/organizm darajalari, biomolekulalar, metabolizm, foto/xemosintez, genetik axborot, mitoz/meyoz, oziqlanish, ko‘payish, ontogenez va genlar ta’siri qamrab olindi. Avvalgi manifestlar, katalog hash va progress engine o‘zgarmagan.
+
+Jami: **277/355 nazariy dars, 78 qolgan; 43/51 raqamli faoliyat; 320 manifest; 1 911 karta / 1 993 savol**.
+
+| Sinf | Bob | Jami nazariy | Tayyor | Qolgan | Faoliyat / jami | Savol |
+|---|---:|---:|---:|---:|---:|---:|
+| 5 | 3 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 5 | 59 | 59 | 0 | 7 / 7 | 331 |
+| 7 | 8 | 59 | 59 | 0 | 5 / 5 | 381 |
+| 8 | 13 + kirish | 61 | 61 | 0 | 7 / 7 | 435 |
+| 9 | 8 | 56 | 56 | 0 | 11 / 11 | 474 |
+| 10 | 5 | 58 | 22 | 36 | 1 / 4 | 175 |
+| 11 | 4 | 44 | 2 | 42 | 0 / 5 | 15 |
+
+### Manba, interaktiv tahlil va tahrir chegaralari
+
+Yangi topshiriqlar biomolekula tarkibidan vazifa topish, jarayon/joyni moslash, ikki zanjirli DNK tarkibi, kodon va aniq yo‘nalishli transkripsiya, hujayra sikli holatini ajratish, ko‘payish usullarini kuzatuvdan aniqlash va shartlari ochiq Mendel/rekombinatsiya masalalaridan iborat. Mavjud MCQ/karta/Ilmo feedback/server XP/Skill Path ishlatiladi. Bir xil savol matnlarini global test rad etadi. §17 va boshqa nazariy mavzular yuqoriroq sinfga mos yangi miqdoriy talqinlarni beradi; eski darslar ko‘chirilmaydi. Yangi widget yoki original animatsiya asseti qo‘shilgani da’vo qilinmaydi.
+
+Lab1da ikki zanjir jami 2400 nukleotid → 1200 juft → darslikning 0,34 nm modelida 408 nm; C=400 → A=800; 3′-TAC-GGA-5′ → 5′-AUG-CCU-3′; stop kodonsiz 270 nukleotid → 90 aminokislota; 38/2 shartli modelida 3 mol to‘liq + 2 mol kislorodsiz → 118 mol ATF kabi yangi aniq shartli masalalar bor. Asosiy faoliyat sahifasi saqlanib, qoida manbalari §6/30–31, §10/48–49 va §8/40–41ga alohida supporting citation va ko‘rinadigan reference bilan bog‘langan. Bu **guided_analysis**, fizik tajriba yoki real ATF o‘lchovi sertifikati emas.
+
+Manbadagi quyidagi xatolar/absolutlar takrorlanmadi: Ca elementining kaliy deb yozilishi; Znning insulin polipeptidining tarkibiy atomi deyilishi; piruvat/laktatni monosaxaridga kiritish; ferment/gormonlarning barchasini kichik molekula deyish; ATF/nuklein kislota/glikogenni gidrofob deyish; mumni ko‘p atomli spirt hosilasi deyish; barcha fermentlar faqat oqsil ekani; barcha prokaryotlarda mezosoma nafas organoidi ekani; §8/PDF39 sxemasidagi anabolizm/katabolizm yo‘nalishining almashishi. **38 ATF faqat soddalashtirilgan hisob sharti**, har real hujayraning universal natijasi emas. Glikolizni doim laktatgacha fermentatsiya bilan aynanlashtirish yoki bir molekulaga kJ/mol qiymatini yopishtirish yo‘q. Fotosintezning barcha tiriklik uchun mutlaq yagona energiya manbai ekani yoki qorong‘ilik bosqichi faqat kechasi bo‘lishi aytilmaydi.
+
+S bosqichi DNK miqdorini oshiradi, ploidlikni o‘z-o‘zidan ikki baravar qilmaydi. Bakteriya bo‘linishi mitoz emas; barcha sporalar mitotik/jinssiz yoki hamma ko‘p hujayralilar organlar tizimiga ega degan umumlashtirishlar ishlatilmadi. Meyoz mahsulotlari bilan funksional tuxumlar ajratildi. Melanin oqsil deb berilmadi, embrionda xorda/endoderma chalkashligi va igna bilan hayvon tuxumini tajriba qilish yo‘q. Odam soch/ko‘z rangi va chapaqaylik oddiy monogen belgi sifatida o‘qitilmadi. §18 trigibrid matni/jadvalidagi ayrim kombinatsiya xatolari ko‘chirilmay, model mustaqil hisoblandi. PDF90dagi 41% vs 41,5% rasm nomuvofiqligi takrorlanmadi; 8,5%+8,5%=17% ishlatildi. Qush modeli **ZZ/ZW**; keyingi PDF96dagi X/Y yozuvi ko‘chirilmagan. Barcha sudraluvchilar bir xil jins mexanizmiga ega deyilmadi. Odam terisi rangini aynan ikki gen bilan chegaralash yoki o‘roqsimon hujayrali holat bolalikda muqarrar o‘lim degan jumlalar yo‘q. Qo‘shiluvchi poligen masala inson guruhlariga hukm chiqarish emas, sharti ochiq hisob modeli.
+
+### Amalda bajarilgan tekshiruv
+
+- Global dry-run **320/320 manifest valid**, readiness qayta yozildi; source bounds/mapping/fact-answer/options/activity/release va 209 oldingi dars snapshoti testlari o‘tdi.
+- **To‘liq backend 457 passed, 12 existing lifecycle warnings, 94.28s**. Genetika regressiyalari 17dan **29**ga kengaydi: mustaqil gameta enumeratsiyasi bilan yangi monogibrid/digibrid/trigibrid va 9:7/13:3/12:3:1/15:1 natijalari; poligen 6/16; o‘g‘illar va jami avlod maxrajlari; transkripsiya, DNK uzunligi/tarkibi, mol/ATF birliklari va ikkala rekombinant sinf yig‘indisi tekshirildi. API integration yangi tayyor 10-sinf bo‘limlari checkpointlarini ham o‘tadi, tugallanmaganini bloklaydi; retry/reimport XP/progressni o‘zgartirmaydi.
+- Flutter **`d2c2654`**: to‘liq **104 passed (10s)** va analyze **No issues found (1.3s)** shu partiyada qayta bajarildi. Runtime UI/payload kontrakti o‘zgarmagan. Yangi Android/web build bajarilgani da’vo qilinmaydi.
+- Critical Ruff va `git diff --check` toza. Private dalillar `/tmp/biology-release12-*.log`. Fayllar: 21 yangi grade10 manifesti, explicit release index/readiness, continuation/genetics testlari va ushbu hujjat.
+
+Veb-sayt kodi untouched **`054f0ce`**. PDF/OCR/tasvirlar GitHub’ga qo‘shilmadi; production ma’lumotlariga import/migratsiya, deploy, main merge va nashr yo‘q. Fan/klinik ekspertizasi, real Android/iOS/TalkBack, live PostgreSQL, oldingi web practice kontrakti va PR API Forbidden cheklovlari avvalgidek ochiq.
+
+**Aniq davom: 10-sinf §23 “O‘zgaruvchanlikning umumiy qonuniyatlari”, PDF/bosma 103-sahifa.** Keyingi continuation-13: **§23–42 (20 nazariy) + lab2 (155–156) va lab3 (173–175)**, so‘ng §43/PDF184. §23/PDF103–108 tasvirlari tayyorgarlik uchun ko‘rildi, lekin ushbu release’da §23+ manifestlar hali yo‘q. Oldingi 277 nazariy darsni saqlang.

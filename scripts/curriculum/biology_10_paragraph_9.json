@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-9-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-12",
+  "title": "Plastik almashinuv. Fotosintez, xemosintez",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-9-f1": {
+      "claim": "Avtotrof organik modda sintezi uchun anorganik uglerod manbasidan foydalanadi. Fotoavtotrof energiyani yorug‘likdan, xemoavtotrof esa kimyoviy oksidlanishdan oladi.",
+      "answer": "Energiya manbai",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f2": {
+      "claim": "Yashil o‘simlik fotosintezida xlorofill yorug‘lik energiyasini o‘zlashtirishda qatnashadi. Organik modda sintezi energiyaning kimyoviy shaklga bog‘lanishi bilan kechadi.",
+      "answer": "Yorug‘lik energiyasi kimyoviy energiyaga bog‘lanadi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f3": {
+      "claim": "O‘simlik xloroplastida yorug‘lik reaksiyalari tilakoidlarda, uglerodni organik birikmalarga bog‘lash reaksiyalari esa stromada amalga oshadi.",
+      "answer": "Tilakoid — yorug‘lik reaksiyalari; stroma — uglerod biriktirish",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          44
+        ],
+        "printed_pages": [
+          44
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f4": {
+      "claim": "Yorug‘lik bosqichida ATF va qaytaruvchi birikmalar hosil bo‘lib, keyingi uglerod sintezi reaksiyalariga sarflanadi. Bosqichlar mustaqil, aloqasiz tizimlar emas.",
+      "answer": "Energiya va qaytaruvchi kuch yetkazadi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          44
+        ],
+        "printed_pages": [
+          44
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f5": {
+      "claim": "O‘simlik fotosintezining yorug‘lik bosqichida suv parchalanib, kislorod ajralishi bilan bog‘liq jarayon kechadi.",
+      "answer": "Suv bilan",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          44
+        ],
+        "printed_pages": [
+          44
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f6": {
+      "claim": "Xemoavtotrof bakteriyalar anorganik moddalarning oksidlanishidan energiya olib, anorganik ugleroddan organik modda sintezlaydi.",
+      "answer": "Xemosintez",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          45
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f7": {
+      "claim": "Nitrifikatorlar ammiakni nitritga va nitritni nitratga oksidlash jarayonlarida qatnashadi. Bu atmosfera N2 gazini biriktirishning o‘zi emas.",
+      "answer": "Nitrifikatsiya",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          45
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f8": {
+      "claim": "Xemosintezlovchi organizmlar elementlarning biogen aylanishida qatnashadi; nitrifikatsiya tuproqdagi o‘simliklar foydalana oladigan azot birikmalariga ta’sir qiladi.",
+      "answer": "Azotli birikmalarning aylanishida qatnashishi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          46
+        ],
+        "printed_pages": [
+          46
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Uglerod va energiyani ajratamiz",
+      "body": "Avtotrof organik modda sintezi uchun anorganik uglerod manbasidan foydalanadi. Fotoavtotrof energiyani yorug‘likdan, xemoavtotrof esa kimyoviy oksidlanishdan oladi.",
+      "fact_ids": [
+        "paragraph-9-f1"
+      ]
+    },
+    {
+      "title": "Yorug‘likdan kimyoviy energiyaga",
+      "body": "Yashil o‘simlik fotosintezida xlorofill yorug‘lik energiyasini o‘zlashtirishda qatnashadi. Organik modda sintezi energiyaning kimyoviy shaklga bog‘lanishi bilan kechadi.",
+      "fact_ids": [
+        "paragraph-9-f2"
+      ]
+    },
+    {
+      "title": "Ikki qismning joylashuvi",
+      "body": "O‘simlik xloroplastida yorug‘lik reaksiyalari tilakoidlarda, uglerodni organik birikmalarga bog‘lash reaksiyalari esa stromada amalga oshadi.",
+      "fact_ids": [
+        "paragraph-9-f3"
+      ]
+    },
+    {
+      "title": "Bosqichlar o‘zaro bog‘liq",
+      "body": "Yorug‘lik bosqichida ATF va qaytaruvchi birikmalar hosil bo‘lib, keyingi uglerod sintezi reaksiyalariga sarflanadi. Bosqichlar mustaqil, aloqasiz tizimlar emas.",
+      "fact_ids": [
+        "paragraph-9-f4"
+      ]
+    },
+    {
+      "title": "Kislorod manbai",
+      "body": "O‘simlik fotosintezining yorug‘lik bosqichida suv parchalanib, kislorod ajralishi bilan bog‘liq jarayon kechadi.",
+      "fact_ids": [
+        "paragraph-9-f5"
+      ]
+    },
+    {
+      "title": "Kimyoviy manba",
+      "body": "Xemoavtotrof bakteriyalar anorganik moddalarning oksidlanishidan energiya olib, anorganik ugleroddan organik modda sintezlaydi.",
+      "fact_ids": [
+        "paragraph-9-f6"
+      ]
+    },
+    {
+      "title": "Azot aylanishidagi farq",
+      "body": "Nitrifikatorlar ammiakni nitritga va nitritni nitratga oksidlash jarayonlarida qatnashadi. Bu atmosfera N2 gazini biriktirishning o‘zi emas.",
+      "fact_ids": [
+        "paragraph-9-f7"
+      ]
+    },
+    {
+      "title": "Tabiatdagi natija",
+      "body": "Xemosintezlovchi organizmlar elementlarning biogen aylanishida qatnashadi; nitrifikatsiya tuproqdagi o‘simliklar foydalana oladigan azot birikmalariga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-9-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-9-q1",
+      "fact_id": "paragraph-9-f1",
+      "question_text": "Fotoavtotrof va xemoavtotrofni avvalo qaysi belgi ajratadi?",
+      "options": [
+        "Har ikkisida ham suv bo‘lishi",
+        "Energiya manbai",
+        "Ikkalasida ham uglerod atomining borligi",
+        "Ikkalasida ham kimyoviy modda mavjudligi"
+      ],
+      "correct_answer": "Energiya manbai",
+      "explanation": "Avtotrof organik modda sintezi uchun anorganik uglerod manbasidan foydalanadi. Fotoavtotrof energiyani yorug‘likdan, xemoavtotrof esa kimyoviy oksidlanishdan oladi."
+    },
+    {
+      "key": "paragraph-9-q2",
+      "fact_id": "paragraph-9-f2",
+      "question_text": "Fotosintezdagi asosiy energiya o‘zgarishini toping.",
+      "options": [
+        "Yorug‘lik energiyasi kimyoviy energiyaga bog‘lanadi",
+        "Kimyoviy energiya faqat tovushga aylanadi",
+        "Yadro energiyasi bevosita xromosoma soniga aylanadi",
+        "Energiya hech qanday o‘zgarishga uchramaydi"
+      ],
+      "correct_answer": "Yorug‘lik energiyasi kimyoviy energiyaga bog‘lanadi",
+      "explanation": "Yashil o‘simlik fotosintezida xlorofill yorug‘lik energiyasini o‘zlashtirishda qatnashadi. Organik modda sintezi energiyaning kimyoviy shaklga bog‘lanishi bilan kechadi."
+    },
+    {
+      "key": "paragraph-9-q3",
+      "fact_id": "paragraph-9-f3",
+      "question_text": "Tilakoid va stroma vazifalarini moslang.",
+      "options": [
+        "Tilakoid — odam meyozi; stroma — hazm",
+        "Tilakoid — yadro DNKsi; stroma — qon ivishi",
+        "Ikkalasi faqat glikogen zaxirasi",
+        "Tilakoid — yorug‘lik reaksiyalari; stroma — uglerod biriktirish"
+      ],
+      "correct_answer": "Tilakoid — yorug‘lik reaksiyalari; stroma — uglerod biriktirish",
+      "explanation": "O‘simlik xloroplastida yorug‘lik reaksiyalari tilakoidlarda, uglerodni organik birikmalarga bog‘lash reaksiyalari esa stromada amalga oshadi."
+    },
+    {
+      "key": "paragraph-9-q4",
+      "fact_id": "paragraph-9-f4",
+      "question_text": "Yorug‘lik bosqichi mahsulotlari keyingi bosqichga qanday yordam beradi?",
+      "options": [
+        "Barcha CO2ni kislorod o‘rniga yo‘q qiladi",
+        "Ribosomalarni yadroga aylantiradi",
+        "Energiya va qaytaruvchi kuch yetkazadi",
+        "Faqat xromosomalar sonini kamaytiradi"
+      ],
+      "correct_answer": "Energiya va qaytaruvchi kuch yetkazadi",
+      "explanation": "Yorug‘lik bosqichida ATF va qaytaruvchi birikmalar hosil bo‘lib, keyingi uglerod sintezi reaksiyalariga sarflanadi. Bosqichlar mustaqil, aloqasiz tizimlar emas."
+    },
+    {
+      "key": "paragraph-9-q5",
+      "fact_id": "paragraph-9-f5",
+      "question_text": "Fotosintezda ajraladigan O2ni qaysi boshlang‘ich modda bilan bog‘laysiz?",
+      "options": [
+        "Faqat glikogen bilan",
+        "Suv bilan",
+        "Faqat tayyor oqsil bilan",
+        "Faqat azot gazi bilan"
+      ],
+      "correct_answer": "Suv bilan",
+      "explanation": "O‘simlik fotosintezining yorug‘lik bosqichida suv parchalanib, kislorod ajralishi bilan bog‘liq jarayon kechadi."
+    },
+    {
+      "key": "paragraph-9-q6",
+      "fact_id": "paragraph-9-f6",
+      "question_text": "Yorug‘liksiz anorganik modda oksidlanishidan foydalanadigan avtotrof jarayon qaysi?",
+      "options": [
+        "Xemosintez",
+        "Faqat translyatsiya",
+        "Faqat partenogenez",
+        "Faqat krossingover"
+      ],
+      "correct_answer": "Xemosintez",
+      "explanation": "Xemoavtotrof bakteriyalar anorganik moddalarning oksidlanishidan energiya olib, anorganik ugleroddan organik modda sintezlaydi."
+    },
+    {
+      "key": "paragraph-9-q7",
+      "fact_id": "paragraph-9-f7",
+      "question_text": "Ammiakdan nitrit, so‘ng nitrat hosil bo‘lishi qanday jarayon?",
+      "options": [
+        "DNK replikatsiyasi",
+        "Xromatidlar ajralishi",
+        "Glikogenning bevosita peptidga aylanishi",
+        "Nitrifikatsiya"
+      ],
+      "correct_answer": "Nitrifikatsiya",
+      "explanation": "Nitrifikatorlar ammiakni nitritga va nitritni nitratga oksidlash jarayonlarida qatnashadi. Bu atmosfera N2 gazini biriktirishning o‘zi emas."
+    },
+    {
+      "key": "paragraph-9-q8",
+      "fact_id": "paragraph-9-f8",
+      "question_text": "Nitrifikatorlarning ekologik ahamiyatini qaysi fikr ifodalaydi?",
+      "options": [
+        "Barcha kislorodni faqat o‘zlari yaratishi",
+        "Meyozdagi xromosomalarni bevosita juftlashi",
+        "Azotli birikmalarning aylanishida qatnashishi",
+        "Barcha oziq zanjirlarida o‘simliklarni butunlay yo‘q qilishi"
+      ],
+      "correct_answer": "Azotli birikmalarning aylanishida qatnashishi",
+      "explanation": "Xemosintezlovchi organizmlar elementlarning biogen aylanishida qatnashadi; nitrifikatsiya tuproqdagi o‘simliklar foydalana oladigan azot birikmalariga ta’sir qiladi."
+    }
+  ]
+}

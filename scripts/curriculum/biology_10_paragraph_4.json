@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-4-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-6",
+  "title": "Tirik organizmlarning kimyoviy tarkibi va uning doimiyligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-4-f1": {
+      "claim": "Organizmlarda uchraydigan kimyoviy elementlar tirik bo‘lmagan tabiatda ham mavjud. Biologik xossa elementlarning o‘zaro birikishi va tizimdagi vazifasiga bog‘liq.",
+      "answer": "Tabiatdagi elementlar organizmda muayyan birikmalar hosil qiladi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f2": {
+      "claim": "Uglerod, vodorod, kislorod va azot organik moddalar tarkibida katta ulushga ega; mikroelementlar miqdori kam bo‘lsa ham biologik ahamiyatli.",
+      "answer": "Yo‘q, bu miqdori kamligini bildiradi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f3": {
+      "claim": "Fosfor nuklein kislotalar va ATF tarkibida, azot esa aminokislotalar va nuklein kislotalar tarkibida ishtirok etadi.",
+      "answer": "Fosfor bilan",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f4": {
+      "claim": "Natriy, kaliy va xlor ionlarining hujayra ichida va tashqarisida turlicha taqsimlanishi membrana potensialiga aloqador.",
+      "answer": "Membrananing elektr potensialiga",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f5": {
+      "claim": "Yod qalqonsimon bez gormonlari, kobalt B12 vitamini tarkibi bilan bog‘liq; temir gemoglobin tarkibiga kiradi.",
+      "answer": "Kobalt — B12 vitamini",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f6": {
+      "claim": "Suv molekulasida zaryadlar notekis taqsimlanadi. Suv molekulalari orasida vodorod bog‘lari hosil bo‘lishi uning xossalariga hissa qo‘shadi.",
+      "answer": "Vodorod bog‘i",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f7": {
+      "claim": "Suv ko‘plab reaksiyalar uchun muhit va moddalar tashilishi uchun erituvchidir. Tuz va ayrim shakarlar suv bilan yaxshi ta’sirlashadi, yog‘lar esa yomon eriydi.",
+      "answer": "Tuz suvda yaxshi eriydi, yog‘ esa yomon eriydi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f8": {
+      "claim": "Suv hujayrada kimyoviy jarayonlar, moddalar harakati va fizik xossalarni birlashtiradi; uni faqat bo‘sh joyni to‘ldiruvchi deb bo‘lmaydi.",
+      "answer": "U erituvchi va reaksiyalar muhiti bo‘lib xizmat qiladi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir xil element, turli ulush",
+      "body": "Organizmlarda uchraydigan kimyoviy elementlar tirik bo‘lmagan tabiatda ham mavjud. Biologik xossa elementlarning o‘zaro birikishi va tizimdagi vazifasiga bog‘liq.",
+      "fact_ids": [
+        "paragraph-4-f1"
+      ]
+    },
+    {
+      "title": "Makroelementlar",
+      "body": "Uglerod, vodorod, kislorod va azot organik moddalar tarkibida katta ulushga ega; mikroelementlar miqdori kam bo‘lsa ham biologik ahamiyatli.",
+      "fact_ids": [
+        "paragraph-4-f2"
+      ]
+    },
+    {
+      "title": "Kimyoviy belgini adashtirmaymiz",
+      "body": "Fosfor nuklein kislotalar va ATF tarkibida, azot esa aminokislotalar va nuklein kislotalar tarkibida ishtirok etadi.",
+      "fact_ids": [
+        "paragraph-4-f3"
+      ]
+    },
+    {
+      "title": "Ion va elektr xossa",
+      "body": "Natriy, kaliy va xlor ionlarining hujayra ichida va tashqarisida turlicha taqsimlanishi membrana potensialiga aloqador.",
+      "fact_ids": [
+        "paragraph-4-f4"
+      ]
+    },
+    {
+      "title": "Mineral va biomolekula",
+      "body": "Yod qalqonsimon bez gormonlari, kobalt B12 vitamini tarkibi bilan bog‘liq; temir gemoglobin tarkibiga kiradi.",
+      "fact_ids": [
+        "paragraph-4-f5"
+      ]
+    },
+    {
+      "title": "Suvning qutbliligi",
+      "body": "Suv molekulasida zaryadlar notekis taqsimlanadi. Suv molekulalari orasida vodorod bog‘lari hosil bo‘lishi uning xossalariga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-4-f6"
+      ]
+    },
+    {
+      "title": "Erituvchi va tashuvchi",
+      "body": "Suv ko‘plab reaksiyalar uchun muhit va moddalar tashilishi uchun erituvchidir. Tuz va ayrim shakarlar suv bilan yaxshi ta’sirlashadi, yog‘lar esa yomon eriydi.",
+      "fact_ids": [
+        "paragraph-4-f7"
+      ]
+    },
+    {
+      "title": "Tizimdagi suv",
+      "body": "Suv hujayrada kimyoviy jarayonlar, moddalar harakati va fizik xossalarni birlashtiradi; uni faqat bo‘sh joyni to‘ldiruvchi deb bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-4-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-4-q1",
+      "fact_id": "paragraph-4-f1",
+      "question_text": "Tiriklikning kimyoviy tarkibi haqida qaysi xulosa asosli?",
+      "options": [
+        "Kimyoviy birikish biologik vazifaga ta’sir qilmaydi",
+        "Tabiatdagi elementlar organizmda muayyan birikmalar hosil qiladi",
+        "Organizmdagi barcha elementlar tabiatda boshqa joyda uchramaydi",
+        "Har bir element faqat bitta organizmda bo‘ladi"
+      ],
+      "correct_answer": "Tabiatdagi elementlar organizmda muayyan birikmalar hosil qiladi",
+      "explanation": "Organizmlarda uchraydigan kimyoviy elementlar tirik bo‘lmagan tabiatda ham mavjud. Biologik xossa elementlarning o‘zaro birikishi va tizimdagi vazifasiga bog‘liq."
+    },
+    {
+      "key": "paragraph-4-q2",
+      "fact_id": "paragraph-4-f2",
+      "question_text": "Mikroelement deb atalishi uning ahamiyati yo‘q deganimi?",
+      "options": [
+        "Yo‘q, bu miqdori kamligini bildiradi",
+        "Ha, u hech bir jarayonda qatnashmaydi",
+        "Ha, u faqat zarar yetkazadi",
+        "Yo‘q, bu faqat atom massasi juda katta degani"
+      ],
+      "correct_answer": "Yo‘q, bu miqdori kamligini bildiradi",
+      "explanation": "Uglerod, vodorod, kislorod va azot organik moddalar tarkibida katta ulushga ega; mikroelementlar miqdori kam bo‘lsa ham biologik ahamiyatli."
+    },
+    {
+      "key": "paragraph-4-q3",
+      "fact_id": "paragraph-4-f3",
+      "question_text": "ATF va nuklein kislotalardagi fosfat guruhlarini qaysi element bilan bog‘laysiz?",
+      "options": [
+        "Ftor bilan",
+        "Yod bilan",
+        "Mis bilan",
+        "Fosfor bilan"
+      ],
+      "correct_answer": "Fosfor bilan",
+      "explanation": "Fosfor nuklein kislotalar va ATF tarkibida, azot esa aminokislotalar va nuklein kislotalar tarkibida ishtirok etadi."
+    },
+    {
+      "key": "paragraph-4-q4",
+      "fact_id": "paragraph-4-f4",
+      "question_text": "Ionlarning ikki tomondagi taqsimlanishi o‘zgarsa, nimaga ta’sir qilishi mumkin?",
+      "options": [
+        "Barcha aminokislotalarning birdan yo‘qolishiga",
+        "Faqat xromosomalar nomiga",
+        "Membrananing elektr potensialiga",
+        "DNKdagi asoslarning alfavitiga"
+      ],
+      "correct_answer": "Membrananing elektr potensialiga",
+      "explanation": "Natriy, kaliy va xlor ionlarining hujayra ichida va tashqarisida turlicha taqsimlanishi membrana potensialiga aloqador."
+    },
+    {
+      "key": "paragraph-4-q5",
+      "fact_id": "paragraph-4-f5",
+      "question_text": "Tarkibiy bog‘lanish to‘g‘ri ko‘rsatilgan qatorni tanlang.",
+      "options": [
+        "Temir — RNKdagi uratsilning o‘rniga",
+        "Kobalt — B12 vitamini",
+        "Kobalt — DNKdagi timinning o‘rniga",
+        "Yod — barcha oqsillarning peptid bog‘i"
+      ],
+      "correct_answer": "Kobalt — B12 vitamini",
+      "explanation": "Yod qalqonsimon bez gormonlari, kobalt B12 vitamini tarkibi bilan bog‘liq; temir gemoglobin tarkibiga kiradi."
+    },
+    {
+      "key": "paragraph-4-q6",
+      "fact_id": "paragraph-4-f6",
+      "question_text": "Suv molekulalarini o‘zaro bog‘laydigan ta’sirlardan biri qaysi?",
+      "options": [
+        "Vodorod bog‘i",
+        "Peptid bog‘i",
+        "Fosfodiester zanjiri",
+        "Xromatid sentromerasi"
+      ],
+      "correct_answer": "Vodorod bog‘i",
+      "explanation": "Suv molekulasida zaryadlar notekis taqsimlanadi. Suv molekulalari orasida vodorod bog‘lari hosil bo‘lishi uning xossalariga hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-4-q7",
+      "fact_id": "paragraph-4-f7",
+      "question_text": "NaCl va yog‘ni suvga munosabatiga ko‘ra qanday ajratasiz?",
+      "options": [
+        "Ikkalasi mutlaqo bir xil eriydi",
+        "Yog‘ eriydi, tuz faqat quruq havoda eriydi",
+        "Suv hech qanday moddani tashiy olmaydi",
+        "Tuz suvda yaxshi eriydi, yog‘ esa yomon eriydi"
+      ],
+      "correct_answer": "Tuz suvda yaxshi eriydi, yog‘ esa yomon eriydi",
+      "explanation": "Suv ko‘plab reaksiyalar uchun muhit va moddalar tashilishi uchun erituvchidir. Tuz va ayrim shakarlar suv bilan yaxshi ta’sirlashadi, yog‘lar esa yomon eriydi."
+    },
+    {
+      "key": "paragraph-4-q8",
+      "fact_id": "paragraph-4-f8",
+      "question_text": "Ilmo suvni hujayraning passiv to‘ldirgichi dedi. Qaysi dalil bu fikrni tuzatadi?",
+      "options": [
+        "U genetik koddagi beshinchi harfdir",
+        "U barcha fermentlar faoliyatini butunlay to‘xtatadi",
+        "U erituvchi va reaksiyalar muhiti bo‘lib xizmat qiladi",
+        "U oqsilning barcha aminokislotalari o‘rnini egallaydi"
+      ],
+      "correct_answer": "U erituvchi va reaksiyalar muhiti bo‘lib xizmat qiladi",
+      "explanation": "Suv hujayrada kimyoviy jarayonlar, moddalar harakati va fizik xossalarni birlashtiradi; uni faqat bo‘sh joyni to‘ldiruvchi deb bo‘lmaydi."
+    }
+  ]
+}

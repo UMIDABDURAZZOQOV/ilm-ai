@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-7-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-10",
+  "title": "Hayotning hujayra darajasi va uning o‘ziga xos jihatlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-7-f1": {
+      "claim": "Hujayra biomolekulalar, membrana va ichki tuzilmalarning o‘zaro munosabati tufayli yaxlit biologik tizimdir; qismlarni sanashning o‘zi uning faoliyatini to‘liq ifodalamaydi.",
+      "answer": "Qismlar o‘zaro ta’sirlashib yaxlit faoliyat hosil qiladi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f2": {
+      "claim": "Plazmatik membranada ikki qavat fosfolipid, oqsillar va boshqa tarkibiy qismlar bor. Bu tuzilma hujayra chegarasi va muhit bilan aloqasiga xizmat qiladi.",
+      "answer": "Fosfolipid",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f3": {
+      "claim": "Shleyden va Shvann o‘simlik hamda hayvonlarda hujayraviy tuzilishning umumiyligini asoslab, hujayra nazariyasini yaratishga hissa qo‘shgan.",
+      "answer": "O‘simlik va hayvonlarda hujayraviy tuzilish umumiyligi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          35
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f4": {
+      "claim": "Mavjud hujayraning bo‘linishi yangi hujayralarni hosil qiladi. Bu qoida o‘sish va hujayralar avlodi davomiyligini tushuntiradi.",
+      "answer": "Yangi hujayra mavjud hujayraning bo‘linishidan kelib chiqadi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f5": {
+      "claim": "Bakteriyada membrana bilan o‘ralgan yadro yo‘q; eukaryotlarda yadro xromosomalari mavjud. Bakteriya nukleoidi yadro bilan aynan bir tuzilma emas.",
+      "answer": "Membrana bilan o‘ralgan yadroning mavjudligi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f6": {
+      "claim": "Ko‘p hujayrali organizmda turli ixtisoslashgan hujayralar to‘qimalarni hosil qilib, birgalikda ishlaydi. O‘xshash asosiy tuzilish vazifalarning hammasi bir xil degani emas.",
+      "answer": "Yo‘q, umumiy tuzilish asosida ixtisoslashuv mavjud",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f7": {
+      "claim": "Ribosoma oqsil sintezida, lizosoma hujayra ichki hazmida, Golji majmuasi esa mahsulotlarni qayta ishlash va tarqatishda qatnashadi.",
+      "answer": "Lizosoma bilan",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tizimning xossasi",
+      "body": "Hujayra biomolekulalar, membrana va ichki tuzilmalarning o‘zaro munosabati tufayli yaxlit biologik tizimdir; qismlarni sanashning o‘zi uning faoliyatini to‘liq ifodalamaydi.",
+      "fact_ids": [
+        "paragraph-7-f1"
+      ]
+    },
+    {
+      "title": "Membrananing tarkibi",
+      "body": "Plazmatik membranada ikki qavat fosfolipid, oqsillar va boshqa tarkibiy qismlar bor. Bu tuzilma hujayra chegarasi va muhit bilan aloqasiga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-7-f2"
+      ]
+    },
+    {
+      "title": "Nazariyaning tarixi",
+      "body": "Shleyden va Shvann o‘simlik hamda hayvonlarda hujayraviy tuzilishning umumiyligini asoslab, hujayra nazariyasini yaratishga hissa qo‘shgan.",
+      "fact_ids": [
+        "paragraph-7-f3"
+      ]
+    },
+    {
+      "title": "Hujayralarning davomiyligi",
+      "body": "Mavjud hujayraning bo‘linishi yangi hujayralarni hosil qiladi. Bu qoida o‘sish va hujayralar avlodi davomiyligini tushuntiradi.",
+      "fact_ids": [
+        "paragraph-7-f4"
+      ]
+    },
+    {
+      "title": "Prokaryot–eukaryot taqqoslash",
+      "body": "Bakteriyada membrana bilan o‘ralgan yadro yo‘q; eukaryotlarda yadro xromosomalari mavjud. Bakteriya nukleoidi yadro bilan aynan bir tuzilma emas.",
+      "fact_ids": [
+        "paragraph-7-f5"
+      ]
+    },
+    {
+      "title": "Ixtisoslashish va hamkorlik",
+      "body": "Ko‘p hujayrali organizmda turli ixtisoslashgan hujayralar to‘qimalarni hosil qilib, birgalikda ishlaydi. O‘xshash asosiy tuzilish vazifalarning hammasi bir xil degani emas.",
+      "fact_ids": [
+        "paragraph-7-f6"
+      ]
+    },
+    {
+      "title": "Organoidni vazifadan topish",
+      "body": "Ribosoma oqsil sintezida, lizosoma hujayra ichki hazmida, Golji majmuasi esa mahsulotlarni qayta ishlash va tarqatishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-7-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-7-q1",
+      "fact_id": "paragraph-7-f1",
+      "question_text": "Nega hujayrani shunchaki molekulalar ro‘yxati bilan tenglashtirib bo‘lmaydi?",
+      "options": [
+        "Har bir organoid alohida organizm bo‘lishi shart",
+        "Qismlar o‘zaro ta’sirlashib yaxlit faoliyat hosil qiladi",
+        "Hujayrada molekulalar umuman bo‘lmaydi",
+        "Faqat tashqi shakl tiriklikni belgilaydi"
+      ],
+      "correct_answer": "Qismlar o‘zaro ta’sirlashib yaxlit faoliyat hosil qiladi",
+      "explanation": "Hujayra biomolekulalar, membrana va ichki tuzilmalarning o‘zaro munosabati tufayli yaxlit biologik tizimdir; qismlarni sanashning o‘zi uning faoliyatini to‘liq ifodalamaydi."
+    },
+    {
+      "key": "paragraph-7-q2",
+      "fact_id": "paragraph-7-f2",
+      "question_text": "Membrana modelidagi ikki qavatning asosiy moddasi qaysi?",
+      "options": [
+        "Fosfolipid",
+        "Faqat selluloza tolasi",
+        "Faqat ribosomal RNK",
+        "Faqat gemoglobin"
+      ],
+      "correct_answer": "Fosfolipid",
+      "explanation": "Plazmatik membranada ikki qavat fosfolipid, oqsillar va boshqa tarkibiy qismlar bor. Bu tuzilma hujayra chegarasi va muhit bilan aloqasiga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-7-q3",
+      "fact_id": "paragraph-7-f3",
+      "question_text": "Shleyden–Shvann ishlarining umumlashtiruvchi mazmunini tanlang.",
+      "options": [
+        "Barcha organizmlar faqat ko‘p hujayrali ekanligi",
+        "Barcha hujayralar bir xil vazifa bajarishi",
+        "Organizmlar hujayrasiz organlardan tuzilishi",
+        "O‘simlik va hayvonlarda hujayraviy tuzilish umumiyligi"
+      ],
+      "correct_answer": "O‘simlik va hayvonlarda hujayraviy tuzilish umumiyligi",
+      "explanation": "Shleyden va Shvann o‘simlik hamda hayvonlarda hujayraviy tuzilishning umumiyligini asoslab, hujayra nazariyasini yaratishga hissa qo‘shgan."
+    },
+    {
+      "key": "paragraph-7-q4",
+      "fact_id": "paragraph-7-f4",
+      "question_text": "Yaraning tiklanishida yangi hujayralar paydo bo‘lishi qaysi qoida bilan mos?",
+      "options": [
+        "Har bir yangi hujayra mustaqil yangi turdir",
+        "Hujayra yangilanishi irsiyat bilan bog‘liq emas",
+        "Yangi hujayra mavjud hujayraning bo‘linishidan kelib chiqadi",
+        "Hujayralar faqat tashqi changdan tayyor hosil bo‘ladi"
+      ],
+      "correct_answer": "Yangi hujayra mavjud hujayraning bo‘linishidan kelib chiqadi",
+      "explanation": "Mavjud hujayraning bo‘linishi yangi hujayralarni hosil qiladi. Bu qoida o‘sish va hujayralar avlodi davomiyligini tushuntiradi."
+    },
+    {
+      "key": "paragraph-7-q5",
+      "fact_id": "paragraph-7-f5",
+      "question_text": "Bakteriya va o‘simlik hujayrasini ajratishda ishonchli belgi qaysi?",
+      "options": [
+        "Ikkalasida ham organik modda borligi",
+        "Membrana bilan o‘ralgan yadroning mavjudligi",
+        "Ikkalasida ham suvning bo‘lishi",
+        "Ikkalasida ham ribosomaning bo‘lishi"
+      ],
+      "correct_answer": "Membrana bilan o‘ralgan yadroning mavjudligi",
+      "explanation": "Bakteriyada membrana bilan o‘ralgan yadro yo‘q; eukaryotlarda yadro xromosomalari mavjud. Bakteriya nukleoidi yadro bilan aynan bir tuzilma emas."
+    },
+    {
+      "key": "paragraph-7-q6",
+      "fact_id": "paragraph-7-f6",
+      "question_text": "Neyron va muskul hujayrasi farqli bo‘lsa, hujayra nazariyasiga zidmi?",
+      "options": [
+        "Yo‘q, umumiy tuzilish asosida ixtisoslashuv mavjud",
+        "Ha, barcha hujayralar mutlaqo bir xil bo‘lishi shart",
+        "Ha, faqat neyron tirik hisoblanadi",
+        "Yo‘q, chunki muskulda hech qanday molekula yo‘q"
+      ],
+      "correct_answer": "Yo‘q, umumiy tuzilish asosida ixtisoslashuv mavjud",
+      "explanation": "Ko‘p hujayrali organizmda turli ixtisoslashgan hujayralar to‘qimalarni hosil qilib, birgalikda ishlaydi. O‘xshash asosiy tuzilish vazifalarning hammasi bir xil degani emas."
+    },
+    {
+      "key": "paragraph-7-q7",
+      "fact_id": "paragraph-7-f7",
+      "question_text": "Hujayra ichidagi modda parchalanishini qaysi tuzilma bilan bog‘laysiz?",
+      "options": [
+        "Yadrocha ichidagi xromosoma jufti bilan",
+        "Faqat xromoplast rangi bilan",
+        "Faqat tashqi hujayra devori bilan",
+        "Lizosoma bilan"
+      ],
+      "correct_answer": "Lizosoma bilan",
+      "explanation": "Ribosoma oqsil sintezida, lizosoma hujayra ichki hazmida, Golji majmuasi esa mahsulotlarni qayta ishlash va tarqatishda qatnashadi."
+    }
+  ]
+}

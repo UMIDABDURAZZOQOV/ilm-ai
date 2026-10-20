@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-3-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-5",
+  "title": "Hayotning molekula darajasi va uning o‘ziga xos jihatlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-3-f1": {
+      "claim": "Molekula darajasida oqsil va nuklein kislotalar kabi biomolekulalar o‘rganiladi; ularning o‘zaro ta’siri hujayra jarayonlarining asosidir.",
+      "answer": "Molekula darajasidan",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f2": {
+      "claim": "Biomolekulalarni o‘rganishda biologiya kimyo, fizika, matematika va informatika usullaridan foydalanadi.",
+      "answer": "Fanlararo tadqiqotga",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f3": {
+      "claim": "Oqsil polimerining aminokislota monomerlari peptid bog‘lari orqali birikadi; nuklein kislotalarda esa monomer nukleotiddir.",
+      "answer": "Oqsil — aminokislota",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f4": {
+      "claim": "Nuklein kislotalar irsiy axborot bilan, oqsillar esa kataliz va boshqarish kabi vazifalar bilan bog‘liq. Lipidlar membrana qurilishida qatnashadi.",
+      "answer": "Nuklein kislota — axborot; lipid — membrana",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f5": {
+      "claim": "ATF hujayradagi energiya almashinuvida vositachi bo‘lib, energiyani talab qiladigan jarayonlar bilan bog‘laydi.",
+      "answer": "ATF",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f6": {
+      "claim": "Oqsil biosintezi ribosomalarda, glikoliz sitoplazmada, o‘simlik fotosintezi xloroplastlarda kechadi.",
+      "answer": "Glikoliz — sitoplazma",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f7": {
+      "claim": "Gemoglobin tarkibidagi temir bilan xlorofill tarkibidagi magniy turli biomolekulalar vazifasiga bog‘liq elementlardir.",
+      "answer": "Temir, magniy",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Darajalarni bog‘laymiz",
+      "body": "Molekula darajasida oqsil va nuklein kislotalar kabi biomolekulalar o‘rganiladi; ularning o‘zaro ta’siri hujayra jarayonlarining asosidir.",
+      "fact_ids": [
+        "paragraph-3-f1"
+      ]
+    },
+    {
+      "title": "Fanlar hamkorligi",
+      "body": "Biomolekulalarni o‘rganishda biologiya kimyo, fizika, matematika va informatika usullaridan foydalanadi.",
+      "fact_ids": [
+        "paragraph-3-f2"
+      ]
+    },
+    {
+      "title": "Monomer va polimer",
+      "body": "Oqsil polimerining aminokislota monomerlari peptid bog‘lari orqali birikadi; nuklein kislotalarda esa monomer nukleotiddir.",
+      "fact_ids": [
+        "paragraph-3-f3"
+      ]
+    },
+    {
+      "title": "Axborotning moddiy asosi",
+      "body": "Nuklein kislotalar irsiy axborot bilan, oqsillar esa kataliz va boshqarish kabi vazifalar bilan bog‘liq. Lipidlar membrana qurilishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-3-f4"
+      ]
+    },
+    {
+      "title": "Energiya tashuvchisi",
+      "body": "ATF hujayradagi energiya almashinuvida vositachi bo‘lib, energiyani talab qiladigan jarayonlar bilan bog‘laydi.",
+      "fact_ids": [
+        "paragraph-3-f5"
+      ]
+    },
+    {
+      "title": "Molekula va joy",
+      "body": "Oqsil biosintezi ribosomalarda, glikoliz sitoplazmada, o‘simlik fotosintezi xloroplastlarda kechadi.",
+      "fact_ids": [
+        "paragraph-3-f6"
+      ]
+    },
+    {
+      "title": "Elementdan vazifaga",
+      "body": "Gemoglobin tarkibidagi temir bilan xlorofill tarkibidagi magniy turli biomolekulalar vazifasiga bog‘liq elementlardir.",
+      "fact_ids": [
+        "paragraph-3-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-3-q1",
+      "fact_id": "paragraph-3-f1",
+      "question_text": "Oqsil va DNK o‘zaro ta’sirini tadqiq etish qaysi darajadan boshlanadi?",
+      "options": [
+        "Organlar tizimidan",
+        "Molekula darajasidan",
+        "Populyatsiya zichligidan",
+        "Biogeografik viloyatdan"
+      ],
+      "correct_answer": "Molekula darajasidan",
+      "explanation": "Molekula darajasida oqsil va nuklein kislotalar kabi biomolekulalar o‘rganiladi; ularning o‘zaro ta’siri hujayra jarayonlarining asosidir."
+    },
+    {
+      "key": "paragraph-3-q2",
+      "fact_id": "paragraph-3-f2",
+      "question_text": "Biomolekulaning tuzilishini hisoblash va modellashtirish qanday yondashuvga misol?",
+      "options": [
+        "Fanlararo tadqiqotga",
+        "Faqat tashqi belgi tasviriga",
+        "Faqat tur arealini sanashga",
+        "Molekulalarni e’tiborsiz qoldirishga"
+      ],
+      "correct_answer": "Fanlararo tadqiqotga",
+      "explanation": "Biomolekulalarni o‘rganishda biologiya kimyo, fizika, matematika va informatika usullaridan foydalanadi."
+    },
+    {
+      "key": "paragraph-3-q3",
+      "fact_id": "paragraph-3-f3",
+      "question_text": "Polimer–monomer mosligini tanlang.",
+      "options": [
+        "DNK — yog‘ kislotasi",
+        "Oqsil — nukleotid",
+        "RNK — glitserin",
+        "Oqsil — aminokislota"
+      ],
+      "correct_answer": "Oqsil — aminokislota",
+      "explanation": "Oqsil polimerining aminokislota monomerlari peptid bog‘lari orqali birikadi; nuklein kislotalarda esa monomer nukleotiddir."
+    },
+    {
+      "key": "paragraph-3-q4",
+      "fact_id": "paragraph-3-f4",
+      "question_text": "Genetik axborot va membrana materiali qanday mos keladi?",
+      "options": [
+        "Faqat suv ikkalasini to‘liq almashtiradi",
+        "Faqat mineral tuz genetik matnni saqlaydi",
+        "Nuklein kislota — axborot; lipid — membrana",
+        "Lipid — kod; nuklein kislota — yog‘ zaxirasi"
+      ],
+      "correct_answer": "Nuklein kislota — axborot; lipid — membrana",
+      "explanation": "Nuklein kislotalar irsiy axborot bilan, oqsillar esa kataliz va boshqarish kabi vazifalar bilan bog‘liq. Lipidlar membrana qurilishida qatnashadi."
+    },
+    {
+      "key": "paragraph-3-q5",
+      "fact_id": "paragraph-3-f5",
+      "question_text": "Ilmo oqsil sintezi uchun energiya vositachisini izlamoqda. Qaysi molekula mos?",
+      "options": [
+        "Kraxmal",
+        "ATF",
+        "Selluloza",
+        "Xitin"
+      ],
+      "correct_answer": "ATF",
+      "explanation": "ATF hujayradagi energiya almashinuvida vositachi bo‘lib, energiyani talab qiladigan jarayonlar bilan bog‘laydi."
+    },
+    {
+      "key": "paragraph-3-q6",
+      "fact_id": "paragraph-3-f6",
+      "question_text": "Jarayon va joyning to‘g‘ri juftligini toping.",
+      "options": [
+        "Glikoliz — sitoplazma",
+        "Oqsil yig‘ilishi — hujayra devori",
+        "Fotosintez — hayvon lizosomasi",
+        "Glikoliz — faqat yadrocha"
+      ],
+      "correct_answer": "Glikoliz — sitoplazma",
+      "explanation": "Oqsil biosintezi ribosomalarda, glikoliz sitoplazmada, o‘simlik fotosintezi xloroplastlarda kechadi."
+    },
+    {
+      "key": "paragraph-3-q7",
+      "fact_id": "paragraph-3-f7",
+      "question_text": "Ikki pigment uchun mos elementlar ketma-ketligini tanlang: gemoglobin, xlorofill.",
+      "options": [
+        "Yod, ftor",
+        "Magniy, temir",
+        "Ftor, yod",
+        "Temir, magniy"
+      ],
+      "correct_answer": "Temir, magniy",
+      "explanation": "Gemoglobin tarkibidagi temir bilan xlorofill tarkibidagi magniy turli biomolekulalar vazifasiga bog‘liq elementlardir."
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-22-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-27",
+  "title": "Genlarning o‘zaro ta’siri",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-22-f1": {
+      "claim": "Allellar bir genning mos lokusdagi variantlari, noallel genlar esa boshqa lokuslardir. Bir belgiga bir necha gen ta’sir qilishi mumkin.",
+      "answer": "Noallel genlar",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f2": {
+      "claim": "Komplementar 9:7 modelida rang uchun ikkala lokusda dominant allel zarur: A–B– rangli, qolganlari rangsiz. AaBb × AaBb va mustaqillik shartida rangli ulush 9/16.",
+      "answer": "70",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f3": {
+      "claim": "AAbb va aaBB komplementar modelda rangsiz bo‘lishi mumkin, ammo ular chatishtirilganda AaBb rangli F1 hosil bo‘ladi: har biri yetishmayotgan dominant allelni to‘ldiradi.",
+      "answer": "AaBb, rangli",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f4": {
+      "claim": "Epistazda bir lokus boshqa lokus ta’sirini niqoblaydi. Dominantlik esa bir lokus allellarining o‘zaro munosabatidir.",
+      "answer": "Epistaz",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f5": {
+      "claim": "C pigmentni ta’minlab, I uning namoyon bo‘lishini bostiradigan modelda faqat C–ii rangli. CcIi × CcIi mustaqil modelida rangli ehtimol 3/4 × 1/4 = 3/16.",
+      "answer": "60",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f6": {
+      "claim": "I– barcha A holatlarida oq, A–ii sariq, aaii yashil bo‘lgan modelda AaIi × AaIi uchun oq ulush 12/16dir. Har bir nisbatni genotip–fenotip qoidasi bilan talqin qilamiz.",
+      "answer": "120",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f7": {
+      "claim": "Kumulativ polimeriyaning ikki mustaqil lokusli soddalashtirilgan modelida ta’sir qiluvchi allellar soni yig‘iladi. AaBb × AaBb uchun 0,1,2,3,4 dominant allel soni 1:4:6:4:1 kutilma beradi.",
+      "answer": "6/16",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f8": {
+      "claim": "Nokumulativ modelda A– yoki B–ning bittasi ham belgini yuzaga chiqaradi; faqat aabbda belgi yo‘q. AaBb × AaBb uchun 15:1 kutiladi.",
+      "answer": "10",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f9": {
+      "claim": "Pleyotropiyada bitta gen bir nechta belgiga ta’sir ko‘rsatadi; poligen ta’sirda esa bir belgiga bir nechta gen qatnashadi. Bu ikki yo‘nalish bir xil tushuncha emas.",
+      "answer": "Pleyotropiya",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f10": {
+      "claim": "Modifikator genlar boshqa gen namoyon bo‘lishini kuchaytirishi yoki susaytirishi mumkin. Genotip o‘zaro ta’sirlashuvchi tizim, muhit ham fenotipga hissa qo‘shadi.",
+      "answer": "Modifikator gen ta’siriga",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Allel va noallel",
+      "body": "Allellar bir genning mos lokusdagi variantlari, noallel genlar esa boshqa lokuslardir. Bir belgiga bir necha gen ta’sir qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-22-f1"
+      ]
+    },
+    {
+      "title": "Komplementarlik sharti",
+      "body": "Komplementar 9:7 modelida rang uchun ikkala lokusda dominant allel zarur: A–B– rangli, qolganlari rangsiz. AaBb × AaBb va mustaqillik shartida rangli ulush 9/16.",
+      "fact_ids": [
+        "paragraph-22-f2"
+      ]
+    },
+    {
+      "title": "Bir xil rang, turli genotip",
+      "body": "AAbb va aaBB komplementar modelda rangsiz bo‘lishi mumkin, ammo ular chatishtirilganda AaBb rangli F1 hosil bo‘ladi: har biri yetishmayotgan dominant allelni to‘ldiradi.",
+      "fact_ids": [
+        "paragraph-22-f3"
+      ]
+    },
+    {
+      "title": "Epistaz allellar dominantligi emas",
+      "body": "Epistazda bir lokus boshqa lokus ta’sirini niqoblaydi. Dominantlik esa bir lokus allellarining o‘zaro munosabatidir.",
+      "fact_ids": [
+        "paragraph-22-f4"
+      ]
+    },
+    {
+      "title": "13:3 shartini yozamiz",
+      "body": "C pigmentni ta’minlab, I uning namoyon bo‘lishini bostiradigan modelda faqat C–ii rangli. CcIi × CcIi mustaqil modelida rangli ehtimol 3/4 × 1/4 = 3/16.",
+      "fact_ids": [
+        "paragraph-22-f5"
+      ]
+    },
+    {
+      "title": "12:3:1ning mantiqi",
+      "body": "I– barcha A holatlarida oq, A–ii sariq, aaii yashil bo‘lgan modelda AaIi × AaIi uchun oq ulush 12/16dir. Har bir nisbatni genotip–fenotip qoidasi bilan talqin qilamiz.",
+      "fact_ids": [
+        "paragraph-22-f6"
+      ]
+    },
+    {
+      "title": "Yig‘indi ta’sir modeli",
+      "body": "Kumulativ polimeriyaning ikki mustaqil lokusli soddalashtirilgan modelida ta’sir qiluvchi allellar soni yig‘iladi. AaBb × AaBb uchun 0,1,2,3,4 dominant allel soni 1:4:6:4:1 kutilma beradi.",
+      "fact_ids": [
+        "paragraph-22-f7"
+      ]
+    },
+    {
+      "title": "Bitta dominantning o‘zi yetarli",
+      "body": "Nokumulativ modelda A– yoki B–ning bittasi ham belgini yuzaga chiqaradi; faqat aabbda belgi yo‘q. AaBb × AaBb uchun 15:1 kutiladi.",
+      "fact_ids": [
+        "paragraph-22-f8"
+      ]
+    },
+    {
+      "title": "Pleyotropiyani ajratamiz",
+      "body": "Pleyotropiyada bitta gen bir nechta belgiga ta’sir ko‘rsatadi; poligen ta’sirda esa bir belgiga bir nechta gen qatnashadi. Bu ikki yo‘nalish bir xil tushuncha emas.",
+      "fact_ids": [
+        "paragraph-22-f9"
+      ]
+    },
+    {
+      "title": "Modifikator ta’siri",
+      "body": "Modifikator genlar boshqa gen namoyon bo‘lishini kuchaytirishi yoki susaytirishi mumkin. Genotip o‘zaro ta’sirlashuvchi tizim, muhit ham fenotipga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-22-f10"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-22-q1",
+      "fact_id": "paragraph-22-f1",
+      "question_text": "Ikki turli lokus bir pigment sinteziga birga ta’sir etsa, ular qanday genlar?",
+      "options": [
+        "Bir gametaning ikki ploidlik to‘plami",
+        "Noallel genlar",
+        "Bitta genning ikki alleli",
+        "Ikki bir xil sentromera"
+      ],
+      "correct_answer": "Noallel genlar",
+      "explanation": "Allellar bir genning mos lokusdagi variantlari, noallel genlar esa boshqa lokuslardir. Bir belgiga bir necha gen ta’sir qilishi mumkin."
+    },
+    {
+      "key": "paragraph-22-q2",
+      "fact_id": "paragraph-22-f2",
+      "question_text": "Shu 9:7 modelida 160 o‘simlikdan rangsiz kutiladigan soni qancha?",
+      "options": [
+        "70",
+        "90",
+        "30",
+        "10"
+      ],
+      "correct_answer": "70",
+      "explanation": "Komplementar 9:7 modelida rang uchun ikkala lokusda dominant allel zarur: A–B– rangli, qolganlari rangsiz. AaBb × AaBb va mustaqillik shartida rangli ulush 9/16."
+    },
+    {
+      "key": "paragraph-22-q3",
+      "fact_id": "paragraph-22-f3",
+      "question_text": "AAbb × aaBB da ikkala dominant allel talab qilinsa, F1 qanday?",
+      "options": [
+        "aabb, rangsiz",
+        "AAbb, rangsiz",
+        "aaBB, rangsiz",
+        "AaBb, rangli"
+      ],
+      "correct_answer": "AaBb, rangli",
+      "explanation": "AAbb va aaBB komplementar modelda rangsiz bo‘lishi mumkin, ammo ular chatishtirilganda AaBb rangli F1 hosil bo‘ladi: har biri yetishmayotgan dominant allelni to‘ldiradi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-22-q4",
+      "fact_id": "paragraph-22-f4",
+      "question_text": "Turli lokuslardan birining ikkinchisini niqoblashi nima?",
+      "options": [
+        "Faqat kodominantlik",
+        "Faqat allellar tengligi",
+        "Epistaz",
+        "Faqat bir lokus ichidagi dominantlik"
+      ],
+      "correct_answer": "Epistaz",
+      "explanation": "Epistazda bir lokus boshqa lokus ta’sirini niqoblaydi. Dominantlik esa bir lokus allellarining o‘zaro munosabatidir."
+    },
+    {
+      "key": "paragraph-22-q5",
+      "fact_id": "paragraph-22-f5",
+      "question_text": "Shu 13:3 modelida 320 avloddan rangli kutiladigan soni qancha?",
+      "options": [
+        "20",
+        "60",
+        "260",
+        "180"
+      ],
+      "correct_answer": "60",
+      "explanation": "C pigmentni ta’minlab, I uning namoyon bo‘lishini bostiradigan modelda faqat C–ii rangli. CcIi × CcIi mustaqil modelida rangli ehtimol 3/4 × 1/4 = 3/16."
+    },
+    {
+      "key": "paragraph-22-q6",
+      "fact_id": "paragraph-22-f6",
+      "question_text": "Berilgan qovoq modelida 160 avloddan oq kutiladigan soni qancha?",
+      "options": [
+        "120",
+        "30",
+        "10",
+        "90"
+      ],
+      "correct_answer": "120",
+      "explanation": "I– barcha A holatlarida oq, A–ii sariq, aaii yashil bo‘lgan modelda AaIi × AaIi uchun oq ulush 12/16dir. Har bir nisbatni genotip–fenotip qoidasi bilan talqin qilamiz."
+    },
+    {
+      "key": "paragraph-22-q7",
+      "fact_id": "paragraph-22-f7",
+      "question_text": "Ushbu qo‘shiluvchi modelda aynan ikki dominant allel tutuvchi genotiplar ulushi qancha?",
+      "options": [
+        "4/16",
+        "1/16",
+        "15/16",
+        "6/16"
+      ],
+      "correct_answer": "6/16",
+      "explanation": "Kumulativ polimeriyaning ikki mustaqil lokusli soddalashtirilgan modelida ta’sir qiluvchi allellar soni yig‘iladi. AaBb × AaBb uchun 0,1,2,3,4 dominant allel soni 1:4:6:4:1 kutilma beradi."
+    },
+    {
+      "key": "paragraph-22-q8",
+      "fact_id": "paragraph-22-f8",
+      "question_text": "Shu modelda 160 avloddan belgi namoyon bo‘lmaydiganlar kutiladigan soni qancha?",
+      "options": [
+        "40",
+        "90",
+        "10",
+        "150"
+      ],
+      "correct_answer": "10",
+      "explanation": "Nokumulativ modelda A– yoki B–ning bittasi ham belgini yuzaga chiqaradi; faqat aabbda belgi yo‘q. AaBb × AaBb uchun 15:1 kutiladi."
+    },
+    {
+      "key": "paragraph-22-q9",
+      "fact_id": "paragraph-22-f9",
+      "question_text": "Bir genning bir nechta fenotipik xususiyatga ta’siri qanday nomlanadi?",
+      "options": [
+        "Faqat genlar birikishi",
+        "Pleyotropiya",
+        "Ko‘p allellilikning o‘zi",
+        "Mustaqil gameta taqsimlanishi"
+      ],
+      "correct_answer": "Pleyotropiya",
+      "explanation": "Pleyotropiyada bitta gen bir nechta belgiga ta’sir ko‘rsatadi; poligen ta’sirda esa bir belgiga bir nechta gen qatnashadi. Bu ikki yo‘nalish bir xil tushuncha emas."
+    },
+    {
+      "key": "paragraph-22-q10",
+      "fact_id": "paragraph-22-f10",
+      "question_text": "Asosiy belgi saqlanib, namoyon bo‘lish kuchi boshqa gen sabab o‘zgarsa, bu nimaga mos?",
+      "options": [
+        "Modifikator gen ta’siriga",
+        "Faqat genning to‘liq yo‘qolishiga",
+        "Faqat barcha allellarning bir xil bo‘lishiga",
+        "Faqat gametadagi xromosoma soniga"
+      ],
+      "correct_answer": "Modifikator gen ta’siriga",
+      "explanation": "Modifikator genlar boshqa gen namoyon bo‘lishini kuchaytirishi yoki susaytirishi mumkin. Genotip o‘zaro ta’sirlashuvchi tizim, muhit ham fenotipga hissa qo‘shadi."
+    }
+  ]
+}

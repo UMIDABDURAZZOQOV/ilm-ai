@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-13-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-18",
+  "title": "Tirik organizmlarning oziqlanishga ko‘ra turlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-13-f1": {
+      "claim": "Oziqlanish modda va energiyani o‘zlashtirishdir. Uglerod manbai hamda energiya manbaini ajratish oziqlanish tipini tushunishga yordam beradi.",
+      "answer": "Uglerod qayerdan va energiya qayerdan olinadi?",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f2": {
+      "claim": "Geterotroflar tayyor organik uglerod manbasidan foydalanadi. Hayvonlar va zamburug‘lar shunday oziqlanuvchilarga kiradi.",
+      "answer": "Geterotrof",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f3": {
+      "claim": "Golozoy oziqlanishda oziq yutiladi, hazm qilinadi va mahsulotlari so‘riladi. Bu ketma-ketlikni tashqi muhitga ferment ajratishdan farqlash kerak.",
+      "answer": "Yutish → hazm → so‘rilish",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f4": {
+      "claim": "Saprotrof oziqlanishda fermentlar tashqariga ajratilib, o‘lik organik material parchalanadi va eruvchan mahsulotlar o‘zlashtiriladi.",
+      "answer": "Saprotrof oziqlanishga",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f5": {
+      "claim": "Parazit xo‘jayin organizmning organik moddalaridan foydalanadi; bu saprotrofning o‘lik qoldiqdan oziqlanishidan farq qiladi.",
+      "answer": "Parazit tirik xo‘jayindan, saprotrof o‘lik organik materialdan foydalanadi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f6": {
+      "claim": "Yashil o‘simlikka fotosintezdan tashqari azot, fosfor, oltingugurt kabi elementlar ham zarur; ular suvda erigan mineral birikmalar holida qabul qilinadi.",
+      "answer": "Oqsil va nuklein kislota kabi moddalar uchun qo‘shimcha elementlar kerak",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziqlanishni ikki savol bilan baholaymiz",
+      "body": "Oziqlanish modda va energiyani o‘zlashtirishdir. Uglerod manbai hamda energiya manbaini ajratish oziqlanish tipini tushunishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-13-f1"
+      ]
+    },
+    {
+      "title": "Tayyor organik modda",
+      "body": "Geterotroflar tayyor organik uglerod manbasidan foydalanadi. Hayvonlar va zamburug‘lar shunday oziqlanuvchilarga kiradi.",
+      "fact_ids": [
+        "paragraph-13-f2"
+      ]
+    },
+    {
+      "title": "Yutishdan so‘rilishgacha",
+      "body": "Golozoy oziqlanishda oziq yutiladi, hazm qilinadi va mahsulotlari so‘riladi. Bu ketma-ketlikni tashqi muhitga ferment ajratishdan farqlash kerak.",
+      "fact_ids": [
+        "paragraph-13-f3"
+      ]
+    },
+    {
+      "title": "Tashqi hazm",
+      "body": "Saprotrof oziqlanishda fermentlar tashqariga ajratilib, o‘lik organik material parchalanadi va eruvchan mahsulotlar o‘zlashtiriladi.",
+      "fact_ids": [
+        "paragraph-13-f4"
+      ]
+    },
+    {
+      "title": "Xo‘jayin hisobiga",
+      "body": "Parazit xo‘jayin organizmning organik moddalaridan foydalanadi; bu saprotrofning o‘lik qoldiqdan oziqlanishidan farq qiladi.",
+      "fact_ids": [
+        "paragraph-13-f5"
+      ]
+    },
+    {
+      "title": "Fotosintez mineralni almashtirmaydi",
+      "body": "Yashil o‘simlikka fotosintezdan tashqari azot, fosfor, oltingugurt kabi elementlar ham zarur; ular suvda erigan mineral birikmalar holida qabul qilinadi.",
+      "fact_ids": [
+        "paragraph-13-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-13-q1",
+      "fact_id": "paragraph-13-f1",
+      "question_text": "Oziqlanishni tahlil qilishda qaysi ikkita savol muhim?",
+      "options": [
+        "Faqat yosh va tana uzunligi qanday?",
+        "Uglerod qayerdan va energiya qayerdan olinadi?",
+        "Faqat organizm rangi qanday va nomi nechta harf?",
+        "Faqat xromosoma nechta va barg nechta?"
+      ],
+      "correct_answer": "Uglerod qayerdan va energiya qayerdan olinadi?",
+      "explanation": "Oziqlanish modda va energiyani o‘zlashtirishdir. Uglerod manbai hamda energiya manbaini ajratish oziqlanish tipini tushunishga yordam beradi."
+    },
+    {
+      "key": "paragraph-13-q2",
+      "fact_id": "paragraph-13-f2",
+      "question_text": "Zamburug‘ning tayyor organik moddani o‘zlashtirishi qanday oziqlanish?",
+      "options": [
+        "Geterotrof",
+        "Faqat fotoavtotrof",
+        "Faqat azot fiksatsiyasi",
+        "Faqat DNK nusxalanishi"
+      ],
+      "correct_answer": "Geterotrof",
+      "explanation": "Geterotroflar tayyor organik uglerod manbasidan foydalanadi. Hayvonlar va zamburug‘lar shunday oziqlanuvchilarga kiradi."
+    },
+    {
+      "key": "paragraph-13-q3",
+      "fact_id": "paragraph-13-f3",
+      "question_text": "Golozoy oziqlanishga mos ketma-ketlikni tanlang.",
+      "options": [
+        "Faqat yorug‘lik → DNK nusxasi",
+        "Faqat mineral → xromosoma jufti",
+        "Faqat krossingover → urug‘lanish",
+        "Yutish → hazm → so‘rilish"
+      ],
+      "correct_answer": "Yutish → hazm → so‘rilish",
+      "explanation": "Golozoy oziqlanishda oziq yutiladi, hazm qilinadi va mahsulotlari so‘riladi. Bu ketma-ketlikni tashqi muhitga ferment ajratishdan farqlash kerak."
+    },
+    {
+      "key": "paragraph-13-q4",
+      "fact_id": "paragraph-13-f4",
+      "question_text": "O‘lik bargdagi organik modda tashqarida parchalanib, so‘ng so‘rilsa, bu qaysi usulga mos?",
+      "options": [
+        "Faqat fotoavtotrof sintezga",
+        "Meyozga",
+        "Saprotrof oziqlanishga",
+        "Golozoy yutishga"
+      ],
+      "correct_answer": "Saprotrof oziqlanishga",
+      "explanation": "Saprotrof oziqlanishda fermentlar tashqariga ajratilib, o‘lik organik material parchalanadi va eruvchan mahsulotlar o‘zlashtiriladi."
+    },
+    {
+      "key": "paragraph-13-q5",
+      "fact_id": "paragraph-13-f5",
+      "question_text": "Parazit bilan saprotrofni oziq manbai bo‘yicha farqlang.",
+      "options": [
+        "Ikkalasi uchun ham tayyor organik modda kerak emas",
+        "Parazit tirik xo‘jayindan, saprotrof o‘lik organik materialdan foydalanadi",
+        "Ikkalasi faqat CO2dan yorug‘likda organik modda yasaydi",
+        "Parazit faqat suvni, saprotrof faqat azot gazini oladi"
+      ],
+      "correct_answer": "Parazit tirik xo‘jayindan, saprotrof o‘lik organik materialdan foydalanadi",
+      "explanation": "Parazit xo‘jayin organizmning organik moddalaridan foydalanadi; bu saprotrofning o‘lik qoldiqdan oziqlanishidan farq qiladi."
+    },
+    {
+      "key": "paragraph-13-q6",
+      "fact_id": "paragraph-13-f6",
+      "question_text": "O‘simlik yorug‘lik olayotgan bo‘lsa ham nega mineral oziqlanishi zarur?",
+      "options": [
+        "Oqsil va nuklein kislota kabi moddalar uchun qo‘shimcha elementlar kerak",
+        "Quyosh nuri barcha azot atomlarini tayyor yaratadi",
+        "Mineral modda faqat bargning rangsiz joyini to‘ldiradi",
+        "Fotosintez barcha fosfor va oltingugurtni o‘z-o‘zidan ishlab chiqaradi"
+      ],
+      "correct_answer": "Oqsil va nuklein kislota kabi moddalar uchun qo‘shimcha elementlar kerak",
+      "explanation": "Yashil o‘simlikka fotosintezdan tashqari azot, fosfor, oltingugurt kabi elementlar ham zarur; ular suvda erigan mineral birikmalar holida qabul qilinadi."
+    }
+  ]
+}

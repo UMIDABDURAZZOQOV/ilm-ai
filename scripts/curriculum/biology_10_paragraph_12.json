@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-12-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-17",
+  "title": "Hayotning organizm darajasi va uning o‘ziga xos jihatlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-12-f1": {
+      "claim": "Organizm tuzilmalari tartibli hamkorlik qiladigan, o‘z faoliyatini boshqaradigan va irsiy axborotni avlodga uzatadigan yaxlit biologik tizimdir.",
+      "answer": "Butun o‘simlikning suv, oziqlanish va o‘sish jarayonlari hamkorligini o‘rganish",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f2": {
+      "claim": "Ildizning suv va mineral moddalarni qabul qilishi, bargdagi fotosintez va moddalar harakati bir o‘simlikdagi bog‘liq jarayonlardir.",
+      "answer": "Organlar o‘zaro bog‘lanib ishlaydi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f3": {
+      "claim": "Hayvon va odamda nerv hamda gumoral boshqarish organlar faoliyatini muvofiqlashtirishga va ichki muhit barqarorligiga yordam beradi.",
+      "answer": "Organlar ishini muvofiqlashtirish va gomeostazga hissa qo‘shish",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f4": {
+      "claim": "Auksin, gibberellin va sitokinin fitogormonlar bo‘lib, o‘simlik o‘sishi hamda rivojlanishini boshqarishda qatnashadi.",
+      "answer": "Fitogormonlar",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f5": {
+      "claim": "Bir hujayrali organizmning yagona hujayrasi oziqlanish, almashinuv va ko‘payish kabi jarayonlarni bajaradi; unda ko‘p hujayralilardagi organlar tizimi yo‘q.",
+      "answer": "Hayotiy jarayonlar bitta hujayra doirasida uyg‘unlashadi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f6": {
+      "claim": "Ko‘p hujayrali organizmda hujayra, to‘qima va organlar muayyan vazifalarga ixtisoslashadi. Umumiy hayot ularning o‘zaro aloqasiga bog‘liq.",
+      "answer": "Turli tuzilmalar muayyan vazifalarni bajarib, birgalikda ishlaydi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yaxlit biologik tizim",
+      "body": "Organizm tuzilmalari tartibli hamkorlik qiladigan, o‘z faoliyatini boshqaradigan va irsiy axborotni avlodga uzatadigan yaxlit biologik tizimdir.",
+      "fact_ids": [
+        "paragraph-12-f1"
+      ]
+    },
+    {
+      "title": "O‘simlikdagi aloqalar",
+      "body": "Ildizning suv va mineral moddalarni qabul qilishi, bargdagi fotosintez va moddalar harakati bir o‘simlikdagi bog‘liq jarayonlardir.",
+      "fact_ids": [
+        "paragraph-12-f2"
+      ]
+    },
+    {
+      "title": "Boshqarishning hamkorligi",
+      "body": "Hayvon va odamda nerv hamda gumoral boshqarish organlar faoliyatini muvofiqlashtirishga va ichki muhit barqarorligiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-12-f3"
+      ]
+    },
+    {
+      "title": "O‘simlik regulyatorlari",
+      "body": "Auksin, gibberellin va sitokinin fitogormonlar bo‘lib, o‘simlik o‘sishi hamda rivojlanishini boshqarishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-12-f4"
+      ]
+    },
+    {
+      "title": "Bir hujayra ham organizm",
+      "body": "Bir hujayrali organizmning yagona hujayrasi oziqlanish, almashinuv va ko‘payish kabi jarayonlarni bajaradi; unda ko‘p hujayralilardagi organlar tizimi yo‘q.",
+      "fact_ids": [
+        "paragraph-12-f5"
+      ]
+    },
+    {
+      "title": "Ixtisoslashuv va yaxlitlik",
+      "body": "Ko‘p hujayrali organizmda hujayra, to‘qima va organlar muayyan vazifalarga ixtisoslashadi. Umumiy hayot ularning o‘zaro aloqasiga bog‘liq.",
+      "fact_ids": [
+        "paragraph-12-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-12-q1",
+      "fact_id": "paragraph-12-f1",
+      "question_text": "Organizm darajasidagi tadqiqot qaysi vaziyatga mos?",
+      "options": [
+        "Faqat bir peptid bog‘ini chizish",
+        "Butun o‘simlikning suv, oziqlanish va o‘sish jarayonlari hamkorligini o‘rganish",
+        "Faqat bitta uglerod atomining massasini aniqlash",
+        "Faqat DNKdagi bitta asos nomini yozish"
+      ],
+      "correct_answer": "Butun o‘simlikning suv, oziqlanish va o‘sish jarayonlari hamkorligini o‘rganish",
+      "explanation": "Organizm tuzilmalari tartibli hamkorlik qiladigan, o‘z faoliyatini boshqaradigan va irsiy axborotni avlodga uzatadigan yaxlit biologik tizimdir."
+    },
+    {
+      "key": "paragraph-12-q2",
+      "fact_id": "paragraph-12-f2",
+      "question_text": "Ildiz va barg faoliyatini birga tahlil qilish qanday xulosaga olib keladi?",
+      "options": [
+        "Organlar o‘zaro bog‘lanib ishlaydi",
+        "Barg ildizdan butunlay mustaqil organizmdir",
+        "Mineral moddalar faqat bargda o‘z-o‘zidan yaratiladi",
+        "Fotosintez ildiz orqali suv kelishiga mutlaqo aloqasiz"
+      ],
+      "correct_answer": "Organlar o‘zaro bog‘lanib ishlaydi",
+      "explanation": "Ildizning suv va mineral moddalarni qabul qilishi, bargdagi fotosintez va moddalar harakati bir o‘simlikdagi bog‘liq jarayonlardir."
+    },
+    {
+      "key": "paragraph-12-q3",
+      "fact_id": "paragraph-12-f3",
+      "question_text": "Nerv va gumoral tizimning umumiy natijasini tanlang.",
+      "options": [
+        "Barcha organlarni bir-biridan uzish",
+        "Genlarning hammasini bir yo‘la o‘chirish",
+        "Har doim xromosoma sonini kamaytirish",
+        "Organlar ishini muvofiqlashtirish va gomeostazga hissa qo‘shish"
+      ],
+      "correct_answer": "Organlar ishini muvofiqlashtirish va gomeostazga hissa qo‘shish",
+      "explanation": "Hayvon va odamda nerv hamda gumoral boshqarish organlar faoliyatini muvofiqlashtirishga va ichki muhit barqarorligiga yordam beradi."
+    },
+    {
+      "key": "paragraph-12-q4",
+      "fact_id": "paragraph-12-f4",
+      "question_text": "Auksin va sitokininni qaysi guruhga kiritasiz?",
+      "options": [
+        "Disaxaridlar",
+        "RNK stop kodonlari",
+        "Fitogormonlar",
+        "Xromosoma sentromeralari"
+      ],
+      "correct_answer": "Fitogormonlar",
+      "explanation": "Auksin, gibberellin va sitokinin fitogormonlar bo‘lib, o‘simlik o‘sishi hamda rivojlanishini boshqarishda qatnashadi."
+    },
+    {
+      "key": "paragraph-12-q5",
+      "fact_id": "paragraph-12-f5",
+      "question_text": "Bir hujayrali organizmning mustaqil hayotini qanday tushuntirasiz?",
+      "options": [
+        "U faqat boshqa organizmning tayyor organi bo‘la oladi",
+        "Hayotiy jarayonlar bitta hujayra doirasida uyg‘unlashadi",
+        "Uning hujayrasida yashirin yurak va o‘pka bor",
+        "U modda almashinuviga umuman muhtoj emas"
+      ],
+      "correct_answer": "Hayotiy jarayonlar bitta hujayra doirasida uyg‘unlashadi",
+      "explanation": "Bir hujayrali organizmning yagona hujayrasi oziqlanish, almashinuv va ko‘payish kabi jarayonlarni bajaradi; unda ko‘p hujayralilardagi organlar tizimi yo‘q."
+    },
+    {
+      "key": "paragraph-12-q6",
+      "fact_id": "paragraph-12-f6",
+      "question_text": "Ixtisoslashuvni qaysi fikr to‘g‘ri ifodalaydi?",
+      "options": [
+        "Turli tuzilmalar muayyan vazifalarni bajarib, birgalikda ishlaydi",
+        "Har bir organ barcha vazifani mutlaqo bir xil bajaradi",
+        "Faqat jinsiy hujayralar organizm o‘sishini amalga oshiradi",
+        "To‘qimalar orasida aloqa bo‘lishi mumkin emas"
+      ],
+      "correct_answer": "Turli tuzilmalar muayyan vazifalarni bajarib, birgalikda ishlaydi",
+      "explanation": "Ko‘p hujayrali organizmda hujayra, to‘qima va organlar muayyan vazifalarga ixtisoslashadi. Umumiy hayot ularning o‘zaro aloqasiga bog‘liq."
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-17-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-22",
+  "title": "Irsiyatning umumiy qonuniyatlari. G. Mendelning irsiyat qonunlari va ularning mohiyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-17-f1": {
+      "claim": "Irsiyat belgi va rivojlanish xususiyatlarining avlodga o‘tishi, o‘zgaruvchanlik esa individlar o‘rtasidagi farqlanish bilan bog‘liq; muhit ham belgiga ta’sir ko‘rsatadi.",
+      "answer": "Irsiyat va o‘zgaruvchanlikni",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f2": {
+      "claim": "Mendel ayrim muqobil belgilarni ajratib, sof liniyalarni chatishtirgan va avlod natijalarini miqdoriy tahlil qilgan. Bir nechta avlodni solishtirish xulosani kuchaytiradi.",
+      "answer": "Aniq muqobil belgi, sof liniya va avlodlar bo‘yicha sanash",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f3": {
+      "claim": "AA × aa sof liniyalar chatishtirilganda F1 genotipi Aa bo‘ladi. To‘liq dominantlik shartida F1da dominant fenotip namoyon bo‘ladi.",
+      "answer": "Hammasi Aa",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f4": {
+      "claim": "Aa × Aa monogibrid modelida genotip ehtimollari AA=1/4, Aa=1/2, aa=1/4. To‘liq dominantlikda fenotipik nisbat 3:1dir.",
+      "answer": "120",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f5": {
+      "claim": "To‘liq dominantlikda AA va Aa bir xil dominant fenotip ko‘rsatishi mumkin. Testcrossda tekshiriluvchi individ retsessiv gomozigota bilan chatishtiriladi.",
+      "answer": "aa",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f6": {
+      "claim": "Oddiy diploid Mendel modelida gameta bir lokusdagi allellardan bittasini oladi. Aa individi A yoki a gametasini hosil qiladi.",
+      "answer": "A",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f7": {
+      "claim": "Chala dominantlik modelida geterozigota oraliq fenotip ko‘rsatadi; Aa × Aa avlodida fenotiplar ham 1:2:1 nisbatga ega bo‘ladi.",
+      "answer": "100",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f8": {
+      "claim": "Ko‘p allellilik bir lokus allellari populyatsiyada ikkitadan ko‘pligini bildiradi. Oddiy diploid individ esa o‘sha lokusda ikkita allel tutadi.",
+      "answer": "Yo‘q, individ ikki allel tutadi, uch variant populyatsiyada mavjud",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f9": {
+      "claim": "ABOning asosiy modelida A va B allellari birga namoyon bo‘ladi; AB fenotipini oraliq aralash rang kabi talqin qilmaymiz. Bu kodominantlik misolidir.",
+      "answer": "Kodominantlikka",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Irsiyat va farqlanish",
+      "body": "Irsiyat belgi va rivojlanish xususiyatlarining avlodga o‘tishi, o‘zgaruvchanlik esa individlar o‘rtasidagi farqlanish bilan bog‘liq; muhit ham belgiga ta’sir ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-17-f1"
+      ]
+    },
+    {
+      "title": "Gibridologik tahlil",
+      "body": "Mendel ayrim muqobil belgilarni ajratib, sof liniyalarni chatishtirgan va avlod natijalarini miqdoriy tahlil qilgan. Bir nechta avlodni solishtirish xulosani kuchaytiradi.",
+      "fact_ids": [
+        "paragraph-17-f2"
+      ]
+    },
+    {
+      "title": "Bir xillikning sharti",
+      "body": "AA × aa sof liniyalar chatishtirilganda F1 genotipi Aa bo‘ladi. To‘liq dominantlik shartida F1da dominant fenotip namoyon bo‘ladi.",
+      "fact_ids": [
+        "paragraph-17-f3"
+      ]
+    },
+    {
+      "title": "Ajralishni hisoblaymiz",
+      "body": "Aa × Aa monogibrid modelida genotip ehtimollari AA=1/4, Aa=1/2, aa=1/4. To‘liq dominantlikda fenotipik nisbat 3:1dir.",
+      "fact_ids": [
+        "paragraph-17-f4"
+      ]
+    },
+    {
+      "title": "Fenotip genotipni yashiradi",
+      "body": "To‘liq dominantlikda AA va Aa bir xil dominant fenotip ko‘rsatishi mumkin. Testcrossda tekshiriluvchi individ retsessiv gomozigota bilan chatishtiriladi.",
+      "fact_ids": [
+        "paragraph-17-f5"
+      ]
+    },
+    {
+      "title": "Gameta tarkibi",
+      "body": "Oddiy diploid Mendel modelida gameta bir lokusdagi allellardan bittasini oladi. Aa individi A yoki a gametasini hosil qiladi.",
+      "fact_ids": [
+        "paragraph-17-f6"
+      ]
+    },
+    {
+      "title": "Chala dominantlik",
+      "body": "Chala dominantlik modelida geterozigota oraliq fenotip ko‘rsatadi; Aa × Aa avlodida fenotiplar ham 1:2:1 nisbatga ega bo‘ladi.",
+      "fact_ids": [
+        "paragraph-17-f7"
+      ]
+    },
+    {
+      "title": "Populyatsiya va individ",
+      "body": "Ko‘p allellilik bir lokus allellari populyatsiyada ikkitadan ko‘pligini bildiradi. Oddiy diploid individ esa o‘sha lokusda ikkita allel tutadi.",
+      "fact_ids": [
+        "paragraph-17-f8"
+      ]
+    },
+    {
+      "title": "Kodominantlikning ma’nosi",
+      "body": "ABOning asosiy modelida A va B allellari birga namoyon bo‘ladi; AB fenotipini oraliq aralash rang kabi talqin qilmaymiz. Bu kodominantlik misolidir.",
+      "fact_ids": [
+        "paragraph-17-f9"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-17-q1",
+      "fact_id": "paragraph-17-f1",
+      "question_text": "Bir turdagi o‘simliklar o‘xshash bo‘lsa-da, bir-biridan farq qilishi qaysi ikki xossani birga ko‘rsatadi?",
+      "options": [
+        "Faqat morfologiyani, muhitning aloqasi yo‘q",
+        "Irsiyat va o‘zgaruvchanlikni",
+        "Faqat irsiyatni, o‘zgaruvchanlik yo‘q",
+        "Faqat oziqlanishni, irsiyat yo‘q"
+      ],
+      "correct_answer": "Irsiyat va o‘zgaruvchanlikni",
+      "explanation": "Irsiyat belgi va rivojlanish xususiyatlarining avlodga o‘tishi, o‘zgaruvchanlik esa individlar o‘rtasidagi farqlanish bilan bog‘liq; muhit ham belgiga ta’sir ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-17-q2",
+      "fact_id": "paragraph-17-f2",
+      "question_text": "Tajriba rejasining qaysi varianti Mendel yondashuviga yaqin?",
+      "options": [
+        "Aniq muqobil belgi, sof liniya va avlodlar bo‘yicha sanash",
+        "Har avlodda tekshiriladigan belgini tasodifiy almashtirish",
+        "Faqat bitta individni ko‘rib barcha nisbatni qat’iy deb bilish",
+        "Genotip shartlarini yozmasdan istalgan rangni dominant deyish"
+      ],
+      "correct_answer": "Aniq muqobil belgi, sof liniya va avlodlar bo‘yicha sanash",
+      "explanation": "Mendel ayrim muqobil belgilarni ajratib, sof liniyalarni chatishtirgan va avlod natijalarini miqdoriy tahlil qilgan. Bir nechta avlodni solishtirish xulosani kuchaytiradi."
+    },
+    {
+      "key": "paragraph-17-q3",
+      "fact_id": "paragraph-17-f3",
+      "question_text": "AA × aa modelida F1ning genotipik natijasi qanday?",
+      "options": [
+        "Yarmi AA, yarmi aa",
+        "Hammasi AA",
+        "Hammasi aa",
+        "Hammasi Aa"
+      ],
+      "correct_answer": "Hammasi Aa",
+      "explanation": "AA × aa sof liniyalar chatishtirilganda F1 genotipi Aa bo‘ladi. To‘liq dominantlik shartida F1da dominant fenotip namoyon bo‘ladi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-17-q4",
+      "fact_id": "paragraph-17-f4",
+      "question_text": "Shu modelda 240 avlod uchun kutiladigan geterozigotalar soni qancha?",
+      "options": [
+        "180",
+        "240",
+        "120",
+        "60"
+      ],
+      "correct_answer": "120",
+      "explanation": "Aa × Aa monogibrid modelida genotip ehtimollari AA=1/4, Aa=1/2, aa=1/4. To‘liq dominantlikda fenotipik nisbat 3:1dir."
+    },
+    {
+      "key": "paragraph-17-q5",
+      "fact_id": "paragraph-17-f5",
+      "question_text": "Dominant fenotipli individning genotipini tekshirish uchun qaysi juft tanlanadi?",
+      "options": [
+        "Istalgan dominant individ, farqi yo‘q",
+        "aa",
+        "Faqat AA",
+        "Faqat Aa"
+      ],
+      "correct_answer": "aa",
+      "explanation": "To‘liq dominantlikda AA va Aa bir xil dominant fenotip ko‘rsatishi mumkin. Testcrossda tekshiriluvchi individ retsessiv gomozigota bilan chatishtiriladi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-17-q6",
+      "fact_id": "paragraph-17-f6",
+      "question_text": "Aa individining bitta oddiy gametasi uchun qaysi yozuv mumkin?",
+      "options": [
+        "A",
+        "Aa",
+        "AA",
+        "aa"
+      ],
+      "correct_answer": "A",
+      "explanation": "Oddiy diploid Mendel modelida gameta bir lokusdagi allellardan bittasini oladi. Aa individi A yoki a gametasini hosil qiladi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-17-q7",
+      "fact_id": "paragraph-17-f7",
+      "question_text": "Oraliq fenotipli Aa o‘simliklar o‘zaro chatishtirilsa, 200 avloddan oraliq fenotip kutiladigan soni qancha?",
+      "options": [
+        "50",
+        "150",
+        "200",
+        "100"
+      ],
+      "correct_answer": "100",
+      "explanation": "Chala dominantlik modelida geterozigota oraliq fenotip ko‘rsatadi; Aa × Aa avlodida fenotiplar ham 1:2:1 nisbatga ega bo‘ladi."
+    },
+    {
+      "key": "paragraph-17-q8",
+      "fact_id": "paragraph-17-f8",
+      "question_text": "ABO lokusida uch asosiy allel borligi bitta oddiy diploid odam uchalasini tutishini bildiradimi?",
+      "options": [
+        "Yo‘q, odam bu lokusda umuman allel tutmaydi",
+        "Ha, lekin faqat eritrotsitda uchala DNK nusxasi bo‘ladi",
+        "Yo‘q, individ ikki allel tutadi, uch variant populyatsiyada mavjud",
+        "Ha, barcha odam uchalasini ham tutadi"
+      ],
+      "correct_answer": "Yo‘q, individ ikki allel tutadi, uch variant populyatsiyada mavjud",
+      "explanation": "Ko‘p allellilik bir lokus allellari populyatsiyada ikkitadan ko‘pligini bildiradi. Oddiy diploid individ esa o‘sha lokusda ikkita allel tutadi."
+    },
+    {
+      "key": "paragraph-17-q9",
+      "fact_id": "paragraph-17-f9",
+      "question_text": "AB guruhida A va B belgilari birga namoyon bo‘lishi nimaga misol?",
+      "options": [
+        "Faqat genning butunlay yo‘qolishiga",
+        "Kodominantlikka",
+        "Faqat to‘liq retsessivlikka",
+        "Faqat chala dominantlikdagi oraliq holatga"
+      ],
+      "correct_answer": "Kodominantlikka",
+      "explanation": "ABOning asosiy modelida A va B allellari birga namoyon bo‘ladi; AB fenotipini oraliq aralash rang kabi talqin qilmaymiz. Bu kodominantlik misolidir."
+    }
+  ]
+}

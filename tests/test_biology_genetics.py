@@ -11,8 +11,8 @@ from services.curriculum_validation import load_documents, load_lesson_set, vali
 from services.study import grade
 
 
-def question(slug, number):
-    lesson = next(l for l in load_lesson_set() if l['key'] == f'biology-9-{slug}-v1')
+def question(slug, number, grade=9):
+    lesson = next(l for l in load_lesson_set() if l['key'] == f'biology-{grade}-{slug}-v1')
     return next(q for q in lesson['questions'] if q['key'] == f'{slug}-q{number}')
 
 
@@ -100,3 +100,57 @@ def test_server_does_not_grade_aa_as_heterozygous_Aa():
     correct, _ = grade(snapshot, [{'question_id': 1, 'answer_index': q['options'].index('Aa'), 'is_correct': False}])
     assert wrong[0]['is_correct'] is False
     assert correct[0]['is_correct'] is True
+
+
+@pytest.mark.parametrize('paragraph,number,parents,condition,population', [
+    (17, 4, (('Aa',), ('Aa',)), lambda g: g == ('Aa',), 240),
+    (17, 7, (('Aa',), ('Aa',)), lambda g: g == ('Aa',), 200),
+    (18, 3, (('Aa', 'Bb'), ('Aa', 'Bb')), lambda g: 'A' in g[0] and g[1] == 'bb', 320),
+    (18, 7, (('Aa', 'Bb', 'Cc'), ('Aa', 'Bb', 'Cc')), lambda g: g == ('aa', 'bb', 'cc'), 640),
+    (22, 2, (('Aa', 'Bb'), ('Aa', 'Bb')), lambda g: not ('A' in g[0] and 'B' in g[1]), 160),
+    (22, 5, (('Cc', 'Ii'), ('Cc', 'Ii')), lambda g: 'C' in g[0] and g[1] == 'ii', 320),
+    (22, 6, (('Aa', 'Ii'), ('Aa', 'Ii')), lambda g: 'I' in g[1], 160),
+    (22, 8, (('Aa', 'Bb'), ('Aa', 'Bb')), lambda g: g == ('aa', 'bb'), 160),
+])
+def test_grade10_authored_counts_use_independent_model_not_copied_ratio(paragraph, number, parents, condition, population):
+    result = probability(offspring(*parents), condition) * population
+    assert result.denominator == 1
+    assert question(f'paragraph-{paragraph}', number, grade=10)['correct_answer'] == str(result.numerator)
+
+
+def test_grade10_additive_model_and_genotypic_class_counts():
+    two = offspring(('Aa', 'Bb'), ('Aa', 'Bb'))
+    middle = probability(two, lambda g: sum(c.isupper() for locus in g for c in locus) == 2)
+    assert middle == Fraction(6, 16)
+    assert question('paragraph-22', 7, grade=10)['correct_answer'] == '6/16'
+    three = offspring(('Aa', 'Bb', 'Cc'), ('Aa', 'Bb', 'Cc'))
+    assert question('paragraph-18', 6, grade=10)['correct_answer'] == 'Genotipik sinflar'
+    assert len(three) == 27 and sum(three.values()) == 64
+
+
+def test_grade10_x_linked_examples_keep_sons_and_all_offspring_denominators():
+    pairs = list(product(('XW', 'Xw'), ('XW', 'Y')))
+    sons = [p for p in pairs if p[1] == 'Y']
+    affected = [p for p in sons if p[0] == 'Xw']
+    assert question('paragraph-21', 3, grade=10)['correct_answer'] == str(int(Fraction(len(affected), len(sons)) * 120))
+    assert question('paragraph-21', 4, grade=10)['correct_answer'] == str(int(Fraction(len(affected), len(pairs)) * 240))
+
+
+def test_grade10_digital_lab_units_complement_and_model_math():
+    def lab(n):
+        return question('laboratory-1', n, grade=10)['correct_answer']
+    assert lab(1) == f'{2400 // 2} juft'
+    assert lab(2) == f'{Fraction(1200) * Fraction(34, 100)} nm'
+    assert lab(3) == str((2400 - 400 * 2) // 2)
+    template = 'TACGGA'
+    rna = template.translate(str.maketrans('ATGC', 'UACG'))
+    assert lab(4) == f'{rna[:3]}-{rna[3:]}'
+    assert lab(5) == str(270 // 3)
+    assert lab(6) == f'{3 * 38 + 2 * 2} mol'
+    assert question('paragraph-6', 8, grade=10)['correct_answer'] == f'{(100 - 2 * 22) // 2}%'
+
+
+def test_grade10_recombination_sums_both_classes_and_divides_by_all_offspring():
+    assert question('paragraph-19', 3, grade=10)['correct_answer'] == f'{2 * Fraction(85, 10)}%'
+    result = (Fraction(48) + 56) / 800 * 100
+    assert question('paragraph-19', 6, grade=10)['correct_answer'] == f'{result}%'

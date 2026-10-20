@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-19-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-24",
+  "title": "Irsiyatning xromosoma nazariyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-19-f1": {
+      "claim": "Bitta xromosomada joylashgan genlar birikish guruhiga kiradi. Shuning uchun har qanday ikkita belgi albatta mustaqil irsiylanadi deyish noto‘g‘ri.",
+      "answer": "Ularning genlari bir xromosomada birikkan bo‘lishi mumkin",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f2": {
+      "claim": "AB/ab individida ushbu lokuslar orasida rekombinatsiya yo‘q deb olinsa, AB va ab gametalari hosil bo‘ladi. Testcross natijasida ota-ona tipidagi ikki sinf kutiladi.",
+      "answer": "AB/ab va ab/ab",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f3": {
+      "claim": "Qisman birikishda ota-ona kombinatsiyalari ko‘proq, rekombinantlar kamroq bo‘lishi mumkin. Darslik misolida rekombinant sinflar 8,5 foizdan, jami 17 foizdir.",
+      "answer": "17%",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f4": {
+      "claim": "Genlar xromosoma bo‘ylab muayyan joylarda — lokuslarda joylashadi. Allellar gomolog xromosomalarning mos lokuslarida bo‘ladi.",
+      "answer": "Bir gen allellari gomologlarning mos lokuslarida joylashadi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          90
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f5": {
+      "claim": "Darslikning qisqa oraliq uchun soddalashtirilgan xaritalashida 1 foiz rekombinatsiya bir xarita birligiga mos olinadi. Bu birlikni nanometr yoki xromosomalar soni bilan tenglashtirmaymiz.",
+      "answer": "12 xarita birligi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          90
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f6": {
+      "claim": "Testcrossdagi rekombinatsiya ulushi rekombinant avlodlar sonining jami avlodga nisbatidir. Jami 800 ta ichida ikki rekombinant sinf 48 va 56 bo‘lsa, (48+56)/800=13%.",
+      "answer": "13%",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f7": {
+      "claim": "Genetik xarita birikish guruhidagi genlarning nisbiy joylashuvi va ular orasidagi xarita masofalarini ifodalaydi; bu tayyor organlar xaritasi emas.",
+      "answer": "Genlarning tartibi va nisbiy xarita masofalarini",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mustaqillikning chegarasi",
+      "body": "Bitta xromosomada joylashgan genlar birikish guruhiga kiradi. Shuning uchun har qanday ikkita belgi albatta mustaqil irsiylanadi deyish noto‘g‘ri.",
+      "fact_ids": [
+        "paragraph-19-f1"
+      ]
+    },
+    {
+      "title": "To‘liq birikish modeli",
+      "body": "AB/ab individida ushbu lokuslar orasida rekombinatsiya yo‘q deb olinsa, AB va ab gametalari hosil bo‘ladi. Testcross natijasida ota-ona tipidagi ikki sinf kutiladi.",
+      "fact_ids": [
+        "paragraph-19-f2"
+      ]
+    },
+    {
+      "title": "Qisman birikishning belgisi",
+      "body": "Qisman birikishda ota-ona kombinatsiyalari ko‘proq, rekombinantlar kamroq bo‘lishi mumkin. Darslik misolida rekombinant sinflar 8,5 foizdan, jami 17 foizdir.",
+      "fact_ids": [
+        "paragraph-19-f3"
+      ]
+    },
+    {
+      "title": "Lokus va tartib",
+      "body": "Genlar xromosoma bo‘ylab muayyan joylarda — lokuslarda joylashadi. Allellar gomolog xromosomalarning mos lokuslarida bo‘ladi.",
+      "fact_ids": [
+        "paragraph-19-f4"
+      ]
+    },
+    {
+      "title": "Foizdan xarita birligiga",
+      "body": "Darslikning qisqa oraliq uchun soddalashtirilgan xaritalashida 1 foiz rekombinatsiya bir xarita birligiga mos olinadi. Bu birlikni nanometr yoki xromosomalar soni bilan tenglashtirmaymiz.",
+      "fact_ids": [
+        "paragraph-19-f5"
+      ]
+    },
+    {
+      "title": "O‘z hisobimizni tekshiramiz",
+      "body": "Testcrossdagi rekombinatsiya ulushi rekombinant avlodlar sonining jami avlodga nisbatidir. Jami 800 ta ichida ikki rekombinant sinf 48 va 56 bo‘lsa, (48+56)/800=13%.",
+      "fact_ids": [
+        "paragraph-19-f6"
+      ]
+    },
+    {
+      "title": "Genetik xarita nima?",
+      "body": "Genetik xarita birikish guruhidagi genlarning nisbiy joylashuvi va ular orasidagi xarita masofalarini ifodalaydi; bu tayyor organlar xaritasi emas.",
+      "fact_ids": [
+        "paragraph-19-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-19-q1",
+      "fact_id": "paragraph-19-f1",
+      "question_text": "Ikki belgi doim 9:3:3:1 bermasligining ushbu mavzudagi asosiy sababi nima?",
+      "options": [
+        "Barcha xromosomalarda faqat bitta gen bor",
+        "Ularning genlari bir xromosomada birikkan bo‘lishi mumkin",
+        "Har bir belgi faqat muhitdan kelib chiqadi",
+        "Dominant allellar gametaga hech qachon o‘tmaydi"
+      ],
+      "correct_answer": "Ularning genlari bir xromosomada birikkan bo‘lishi mumkin",
+      "explanation": "Bitta xromosomada joylashgan genlar birikish guruhiga kiradi. Shuning uchun har qanday ikkita belgi albatta mustaqil irsiylanadi deyish noto‘g‘ri."
+    },
+    {
+      "key": "paragraph-19-q2",
+      "fact_id": "paragraph-19-f2",
+      "question_text": "AB/ab × ab/ab, rekombinatsiya yo‘q modelida qaysi avlod sinflari kutiladi?",
+      "options": [
+        "AB/ab va ab/ab",
+        "Ab/ab va aB/ab",
+        "Faqat AB/AB",
+        "To‘rtta sinfning hammasi 1:1:1:1"
+      ],
+      "correct_answer": "AB/ab va ab/ab",
+      "explanation": "AB/ab individida ushbu lokuslar orasida rekombinatsiya yo‘q deb olinsa, AB va ab gametalari hosil bo‘ladi. Testcross natijasida ota-ona tipidagi ikki sinf kutiladi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-19-q3",
+      "fact_id": "paragraph-19-f3",
+      "question_text": "Ikkita rekombinant sinf 8,5% dan bo‘lsa, umumiy rekombinatsiya ulushi qancha?",
+      "options": [
+        "8,5%",
+        "41,5%",
+        "83%",
+        "17%"
+      ],
+      "correct_answer": "17%",
+      "explanation": "Qisman birikishda ota-ona kombinatsiyalari ko‘proq, rekombinantlar kamroq bo‘lishi mumkin. Darslik misolida rekombinant sinflar 8,5 foizdan, jami 17 foizdir."
+    },
+    {
+      "key": "paragraph-19-q4",
+      "fact_id": "paragraph-19-f4",
+      "question_text": "Allel bilan lokus munosabatini qaysi jumla to‘g‘ri beradi?",
+      "options": [
+        "Lokus xromosomaning tashqarisidagi organ",
+        "Bitta lokus doim butun genomga teng",
+        "Bir gen allellari gomologlarning mos lokuslarida joylashadi",
+        "Har bir allel istalgan joyga erkin ko‘chib turishi shart"
+      ],
+      "correct_answer": "Bir gen allellari gomologlarning mos lokuslarida joylashadi",
+      "explanation": "Genlar xromosoma bo‘ylab muayyan joylarda — lokuslarda joylashadi. Allellar gomolog xromosomalarning mos lokuslarida bo‘ladi."
+    },
+    {
+      "key": "paragraph-19-q5",
+      "fact_id": "paragraph-19-f5",
+      "question_text": "Qisqa oraliqda 12% rekombinatsiya kuzatilsa, soddalashtirilgan xarita masofasi qancha?",
+      "options": [
+        "88 xarita birligi",
+        "12 xarita birligi",
+        "12 nanometr",
+        "12 ta xromosoma"
+      ],
+      "correct_answer": "12 xarita birligi",
+      "explanation": "Darslikning qisqa oraliq uchun soddalashtirilgan xaritalashida 1 foiz rekombinatsiya bir xarita birligiga mos olinadi. Bu birlikni nanometr yoki xromosomalar soni bilan tenglashtirmaymiz."
+    },
+    {
+      "key": "paragraph-19-q6",
+      "fact_id": "paragraph-19-f6",
+      "question_text": "800 avlodda rekombinantlar 48 va 56 bo‘lsa, ularning umumiy foizi qancha?",
+      "options": [
+        "13%",
+        "6%",
+        "7%",
+        "87%"
+      ],
+      "correct_answer": "13%",
+      "explanation": "Testcrossdagi rekombinatsiya ulushi rekombinant avlodlar sonining jami avlodga nisbatidir. Jami 800 ta ichida ikki rekombinant sinf 48 va 56 bo‘lsa, (48+56)/800=13%."
+    },
+    {
+      "key": "paragraph-19-q7",
+      "fact_id": "paragraph-19-f7",
+      "question_text": "Genetik xaritadagi belgilar va oraliqlar nimani bildiradi?",
+      "options": [
+        "Faqat hujayraning tashqi shaklini",
+        "Faqat organizmning geografik arealini",
+        "Faqat har bir oqsilning massasini",
+        "Genlarning tartibi va nisbiy xarita masofalarini"
+      ],
+      "correct_answer": "Genlarning tartibi va nisbiy xarita masofalarini",
+      "explanation": "Genetik xarita birikish guruhidagi genlarning nisbiy joylashuvi va ular orasidagi xarita masofalarini ifodalaydi; bu tayyor organlar xaritasi emas."
+    }
+  ]
+}

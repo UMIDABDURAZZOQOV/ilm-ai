@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-20-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-25",
+  "title": "Jins genetikasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-20-f1": {
+      "claim": "Birlamchi jinsiy belgilar reproduktiv organlar bilan, ikkilamchi belgilar esa rivojlanish davomida namoyon bo‘ladigan boshqa xususiyatlar bilan bog‘liq. Jinsiy dimorfizm tashqi farqlarni bildiradi.",
+      "answer": "Jinsiy dimorfizm",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f2": {
+      "claim": "Kariotipda autosomalar bilan jinsiy xromosomalar farqlanadi. Drosofila misolida 6 autosoma va 2 jinsiy xromosoma mavjud.",
+      "answer": "6",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f3": {
+      "claim": "Gomogametali jins jinsiy xromosoma bo‘yicha bir xil, geterogametali jins esa ikki xil gameta hosil qiladi. Bu atamalar barcha genlar bir xil degani emas.",
+      "answer": "Jinsiy xromosoma turiga",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f4": {
+      "claim": "Odamning odatdagi XX/XY modelida tuxum hujayra X, spermatozoid X yoki Y olib keladi. Teng ehtimolli gametalar modeli kutiladigan taxminan 1:1 nisbatni beradi, har oilaga qat’iy tartibni emas.",
+      "answer": "X tuxum + X spermatozoid",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f5": {
+      "claim": "Qushlarning darslik modelida erkak ZZ, urg‘ochi ZW. Erkak Z, urg‘ochi esa Z yoki W gameta hosil qiladi.",
+      "answer": "Urg‘ochi ZW",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f6": {
+      "claim": "Darslik progamiya, singamiya va epigamiya tushunchalarini ajratadi: jinsning aniqlanishi urug‘lanishdan oldin, urug‘lanishda yoki keyingi muhit ta’siri bilan bog‘liq bo‘lishi mumkin.",
+      "answer": "Singam tip",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Jinsiy belgilarni farqlaymiz",
+      "body": "Birlamchi jinsiy belgilar reproduktiv organlar bilan, ikkilamchi belgilar esa rivojlanish davomida namoyon bo‘ladigan boshqa xususiyatlar bilan bog‘liq. Jinsiy dimorfizm tashqi farqlarni bildiradi.",
+      "fact_ids": [
+        "paragraph-20-f1"
+      ]
+    },
+    {
+      "title": "Autosomal va jinsiy xromosomalar",
+      "body": "Kariotipda autosomalar bilan jinsiy xromosomalar farqlanadi. Drosofila misolida 6 autosoma va 2 jinsiy xromosoma mavjud.",
+      "fact_ids": [
+        "paragraph-20-f2"
+      ]
+    },
+    {
+      "title": "Gameta turi mezoni",
+      "body": "Gomogametali jins jinsiy xromosoma bo‘yicha bir xil, geterogametali jins esa ikki xil gameta hosil qiladi. Bu atamalar barcha genlar bir xil degani emas.",
+      "fact_ids": [
+        "paragraph-20-f3"
+      ]
+    },
+    {
+      "title": "XX/XY hisobining chegarasi",
+      "body": "Odamning odatdagi XX/XY modelida tuxum hujayra X, spermatozoid X yoki Y olib keladi. Teng ehtimolli gametalar modeli kutiladigan taxminan 1:1 nisbatni beradi, har oilaga qat’iy tartibni emas.",
+      "fact_ids": [
+        "paragraph-20-f4"
+      ]
+    },
+    {
+      "title": "ZZ/ZWni adashtirmaymiz",
+      "body": "Qushlarning darslik modelida erkak ZZ, urg‘ochi ZW. Erkak Z, urg‘ochi esa Z yoki W gameta hosil qiladi.",
+      "fact_ids": [
+        "paragraph-20-f5"
+      ]
+    },
+    {
+      "title": "Aniqlanish va muhit",
+      "body": "Darslik progamiya, singamiya va epigamiya tushunchalarini ajratadi: jinsning aniqlanishi urug‘lanishdan oldin, urug‘lanishda yoki keyingi muhit ta’siri bilan bog‘liq bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-20-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-20-q1",
+      "fact_id": "paragraph-20-f1",
+      "question_text": "Tashqi ko‘rinishdagi erkak va urg‘ochi farqlari uchun qaysi atama ishlatiladi?",
+      "options": [
+        "Krossingover",
+        "Jinsiy dimorfizm",
+        "Genetik xarita",
+        "Ko‘p allellilik"
+      ],
+      "correct_answer": "Jinsiy dimorfizm",
+      "explanation": "Birlamchi jinsiy belgilar reproduktiv organlar bilan, ikkilamchi belgilar esa rivojlanish davomida namoyon bo‘ladigan boshqa xususiyatlar bilan bog‘liq. Jinsiy dimorfizm tashqi farqlarni bildiradi."
+    },
+    {
+      "key": "paragraph-20-q2",
+      "fact_id": "paragraph-20-f2",
+      "question_text": "Drosofilaning 8 xromosomali odatdagi somatik modelida nechtasi autosoma?",
+      "options": [
+        "6",
+        "2",
+        "4",
+        "8"
+      ],
+      "correct_answer": "6",
+      "explanation": "Kariotipda autosomalar bilan jinsiy xromosomalar farqlanadi. Drosofila misolida 6 autosoma va 2 jinsiy xromosoma mavjud."
+    },
+    {
+      "key": "paragraph-20-q3",
+      "fact_id": "paragraph-20-f3",
+      "question_text": "Gomogametali atamasidagi bir xillik nimaga tegishli?",
+      "options": [
+        "Barcha genlarning mutlaq bir xilligiga",
+        "Har bir hujayraning bir xil o‘lchamiga",
+        "Barcha organizmlarning bir xil jinsga aylanishiga",
+        "Jinsiy xromosoma turiga"
+      ],
+      "correct_answer": "Jinsiy xromosoma turiga",
+      "explanation": "Gomogametali jins jinsiy xromosoma bo‘yicha bir xil, geterogametali jins esa ikki xil gameta hosil qiladi. Bu atamalar barcha genlar bir xil degani emas."
+    },
+    {
+      "key": "paragraph-20-q4",
+      "fact_id": "paragraph-20-f4",
+      "question_text": "XX/XY modelida XX zigota uchun qaysi gameta qo‘shilishi mos?",
+      "options": [
+        "Y tuxum + Y spermatozoid",
+        "XX tuxum + XY spermatozoid",
+        "X tuxum + X spermatozoid",
+        "X tuxum + Y spermatozoid"
+      ],
+      "correct_answer": "X tuxum + X spermatozoid",
+      "explanation": "Odamning odatdagi XX/XY modelida tuxum hujayra X, spermatozoid X yoki Y olib keladi. Teng ehtimolli gametalar modeli kutiladigan taxminan 1:1 nisbatni beradi, har oilaga qat’iy tartibni emas."
+    },
+    {
+      "key": "paragraph-20-q5",
+      "fact_id": "paragraph-20-f5",
+      "question_text": "Qushlardagi ZZ/ZW modelida geterogametali jins qaysi?",
+      "options": [
+        "Har ikkisi faqat W gameta beradi",
+        "Urg‘ochi ZW",
+        "Erkak ZZ",
+        "Har ikkisi ZZ"
+      ],
+      "correct_answer": "Urg‘ochi ZW",
+      "explanation": "Qushlarning darslik modelida erkak ZZ, urg‘ochi ZW. Erkak Z, urg‘ochi esa Z yoki W gameta hosil qiladi."
+    },
+    {
+      "key": "paragraph-20-q6",
+      "fact_id": "paragraph-20-f6",
+      "question_text": "Jins aniqlanishi urug‘lanish vaqtiga bog‘liq model qaysi atama bilan ifodalanadi?",
+      "options": [
+        "Singam tip",
+        "Progam tip",
+        "Epigam tip",
+        "Fragmentatsiya"
+      ],
+      "correct_answer": "Singam tip",
+      "explanation": "Darslik progamiya, singamiya va epigamiya tushunchalarini ajratadi: jinsning aniqlanishi urug‘lanishdan oldin, urug‘lanishda yoki keyingi muhit ta’siri bilan bog‘liq bo‘lishi mumkin."
+    }
+  ]
+}

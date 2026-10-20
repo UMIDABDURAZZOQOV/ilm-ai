@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-15-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-20",
+  "title": "Organizmlarning jinsiy ko‘payishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-15-f1": {
+      "claim": "Gametalar qo‘shilganda zigota hosil bo‘ladi. Ota-onadan kelgan irsiy materialning yangi kombinatsiyasi jinsiy jarayonning muhim natijasidir.",
+      "answer": "Zigota",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f2": {
+      "claim": "Izogamiyada gametalar shakl va o‘lcham jihatidan o‘xshash. Geterogamiyada ular farqlanadi; oogamiyada tuxum hujayra yirik va harakatsiz bo‘ladi.",
+      "answer": "Oogamiya",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f3": {
+      "claim": "Gulli o‘simlikda diploid mikrosporotsit meyozdan so‘ng to‘rtta mikrospora beradi. Keyingi mitozlar chang donasi va spermiylar shakllanishida qatnashadi.",
+      "answer": "Meyoz",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f4": {
+      "claim": "Gulli o‘simlikda bir spermiy tuxum hujayra bilan, boshqasi markaziy hujayra bilan qo‘shiladi. Birinchidan murtak, ikkinchisidan endosperm rivojlanishiga asos yaratiladi.",
+      "answer": "Tuxum hujayra va markaziy hujayra",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f5": {
+      "claim": "Urug‘kurtakdan urug‘, tugunchadan esa meva hosil bo‘lishi bilan bog‘liq rivojlanish davom etadi. Zigota murtakning boshlang‘ichidir.",
+      "answer": "Urug‘ va meva",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f6": {
+      "claim": "Infuzoriyalar konyugatsiyasida genetik axborot almashinadi; bu oddiy ikkiga bo‘linishning o‘zi emas. Konyugatsiya va ko‘payish soni oshishini farqlash zarur.",
+      "answer": "Irsiy axborot almashinuvi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f7": {
+      "claim": "Spermatogenezda meyoz mahsulotlari spermatozoidlar tomon rivojlanadi. Ovogenezda sitoplazma notekis taqsimlanib, odatda bitta yirik tuxum hujayra va mayda yo‘naltiruvchi tanachalar paydo bo‘ladi.",
+      "answer": "Asosiy sitoplazma yirik tuxum hujayrada saqlanadi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f8": {
+      "claim": "Partenogenezda organizm urug‘lanmagan tuxumdan rivojlanadi. Darslikdagi asalari misolida urug‘lanmagan tuxumdan erkak ari rivojlanadi.",
+      "answer": "Partenogenez",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gameta va zigota",
+      "body": "Gametalar qo‘shilganda zigota hosil bo‘ladi. Ota-onadan kelgan irsiy materialning yangi kombinatsiyasi jinsiy jarayonning muhim natijasidir.",
+      "fact_ids": [
+        "paragraph-15-f1"
+      ]
+    },
+    {
+      "title": "Gameta shakllarini taqqoslaymiz",
+      "body": "Izogamiyada gametalar shakl va o‘lcham jihatidan o‘xshash. Geterogamiyada ular farqlanadi; oogamiyada tuxum hujayra yirik va harakatsiz bo‘ladi.",
+      "fact_ids": [
+        "paragraph-15-f2"
+      ]
+    },
+    {
+      "title": "Meyozdan keyin mitoz",
+      "body": "Gulli o‘simlikda diploid mikrosporotsit meyozdan so‘ng to‘rtta mikrospora beradi. Keyingi mitozlar chang donasi va spermiylar shakllanishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-15-f3"
+      ]
+    },
+    {
+      "title": "Ikkita qo‘shilish",
+      "body": "Gulli o‘simlikda bir spermiy tuxum hujayra bilan, boshqasi markaziy hujayra bilan qo‘shiladi. Birinchidan murtak, ikkinchisidan endosperm rivojlanishiga asos yaratiladi.",
+      "fact_ids": [
+        "paragraph-15-f4"
+      ]
+    },
+    {
+      "title": "Urug‘ va meva manbai",
+      "body": "Urug‘kurtakdan urug‘, tugunchadan esa meva hosil bo‘lishi bilan bog‘liq rivojlanish davom etadi. Zigota murtakning boshlang‘ichidir.",
+      "fact_ids": [
+        "paragraph-15-f5"
+      ]
+    },
+    {
+      "title": "Axborot almashinuvi",
+      "body": "Infuzoriyalar konyugatsiyasida genetik axborot almashinadi; bu oddiy ikkiga bo‘linishning o‘zi emas. Konyugatsiya va ko‘payish soni oshishini farqlash zarur.",
+      "fact_ids": [
+        "paragraph-15-f6"
+      ]
+    },
+    {
+      "title": "Gametogenez natijalari",
+      "body": "Spermatogenezda meyoz mahsulotlari spermatozoidlar tomon rivojlanadi. Ovogenezda sitoplazma notekis taqsimlanib, odatda bitta yirik tuxum hujayra va mayda yo‘naltiruvchi tanachalar paydo bo‘ladi.",
+      "fact_ids": [
+        "paragraph-15-f7"
+      ]
+    },
+    {
+      "title": "Urug‘lanmasdan rivojlanish",
+      "body": "Partenogenezda organizm urug‘lanmagan tuxumdan rivojlanadi. Darslikdagi asalari misolida urug‘lanmagan tuxumdan erkak ari rivojlanadi.",
+      "fact_ids": [
+        "paragraph-15-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-15-q1",
+      "fact_id": "paragraph-15-f1",
+      "question_text": "Gametalar qo‘shilishidan bevosita qaysi bosqich hosil bo‘ladi?",
+      "options": [
+        "Voyaga yetgan organizm",
+        "Zigota",
+        "Blastula",
+        "Gastrula"
+      ],
+      "correct_answer": "Zigota",
+      "explanation": "Gametalar qo‘shilganda zigota hosil bo‘ladi. Ota-onadan kelgan irsiy materialning yangi kombinatsiyasi jinsiy jarayonning muhim natijasidir."
+    },
+    {
+      "key": "paragraph-15-q2",
+      "fact_id": "paragraph-15-f2",
+      "question_text": "Yirik harakatsiz tuxum hujayra ishtirok etuvchi shakl qaysi?",
+      "options": [
+        "Oogamiya",
+        "Izogamiya",
+        "Fragmentatsiya",
+        "Kurtaklanish"
+      ],
+      "correct_answer": "Oogamiya",
+      "explanation": "Izogamiyada gametalar shakl va o‘lcham jihatidan o‘xshash. Geterogamiyada ular farqlanadi; oogamiyada tuxum hujayra yirik va harakatsiz bo‘ladi."
+    },
+    {
+      "key": "paragraph-15-q3",
+      "fact_id": "paragraph-15-f3",
+      "question_text": "Mikrosporotsitdan mikrosporalar hosil bo‘lishini qaysi bo‘linish boshlaydi?",
+      "options": [
+        "Faqat sitoplazmasiz kariokinez",
+        "Gastrulyatsiya",
+        "Faqat translyatsiya",
+        "Meyoz"
+      ],
+      "correct_answer": "Meyoz",
+      "explanation": "Gulli o‘simlikda diploid mikrosporotsit meyozdan so‘ng to‘rtta mikrospora beradi. Keyingi mitozlar chang donasi va spermiylar shakllanishida qatnashadi."
+    },
+    {
+      "key": "paragraph-15-q4",
+      "fact_id": "paragraph-15-f4",
+      "question_text": "Qo‘sh urug‘lanishdagi spermiylar qaysi ikkita tuzilma bilan qo‘shiladi?",
+      "options": [
+        "Ikkita barg hujayrasi",
+        "Ikkita endosperm hujayrasi",
+        "Tuxum hujayra va markaziy hujayra",
+        "Ikkita vegetativ chang hujayrasi"
+      ],
+      "correct_answer": "Tuxum hujayra va markaziy hujayra",
+      "explanation": "Gulli o‘simlikda bir spermiy tuxum hujayra bilan, boshqasi markaziy hujayra bilan qo‘shiladi. Birinchidan murtak, ikkinchisidan endosperm rivojlanishiga asos yaratiladi."
+    },
+    {
+      "key": "paragraph-15-q5",
+      "fact_id": "paragraph-15-f5",
+      "question_text": "Urug‘kurtak va tugunchaning odatdagi keyingi mahsulotlarini tanlang.",
+      "options": [
+        "Xloroplast va mitoxondriya",
+        "Urug‘ va meva",
+        "Barg va ildiz",
+        "Spermiy va tuxum"
+      ],
+      "correct_answer": "Urug‘ va meva",
+      "explanation": "Urug‘kurtakdan urug‘, tugunchadan esa meva hosil bo‘lishi bilan bog‘liq rivojlanish davom etadi. Zigota murtakning boshlang‘ichidir."
+    },
+    {
+      "key": "paragraph-15-q6",
+      "fact_id": "paragraph-15-f6",
+      "question_text": "Infuzoriya konyugatsiyasining asosiy genetik natijasi qaysi?",
+      "options": [
+        "Irsiy axborot almashinuvi",
+        "Faqat bir individning darhol to‘rtga bo‘linishi",
+        "Faqat uglevod sintezi",
+        "Faqat oqsil denaturatsiyasi"
+      ],
+      "correct_answer": "Irsiy axborot almashinuvi",
+      "explanation": "Infuzoriyalar konyugatsiyasida genetik axborot almashinadi; bu oddiy ikkiga bo‘linishning o‘zi emas. Konyugatsiya va ko‘payish soni oshishini farqlash zarur."
+    },
+    {
+      "key": "paragraph-15-q7",
+      "fact_id": "paragraph-15-f7",
+      "question_text": "Ovogenezdagi sitoplazma taqsimoti haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "Har doim to‘rtta bir xil yirik tuxumga teng taqsimlanadi",
+        "Barcha sitoplazma faqat yo‘naltiruvchi tanachaga o‘tadi",
+        "Sitoplazma urug‘lanishdan oldin butunlay yo‘qoladi",
+        "Asosiy sitoplazma yirik tuxum hujayrada saqlanadi"
+      ],
+      "correct_answer": "Asosiy sitoplazma yirik tuxum hujayrada saqlanadi",
+      "explanation": "Spermatogenezda meyoz mahsulotlari spermatozoidlar tomon rivojlanadi. Ovogenezda sitoplazma notekis taqsimlanib, odatda bitta yirik tuxum hujayra va mayda yo‘naltiruvchi tanachalar paydo bo‘ladi."
+    },
+    {
+      "key": "paragraph-15-q8",
+      "fact_id": "paragraph-15-f8",
+      "question_text": "Asalarining urug‘lanmagan tuxumidan erkak ari chiqishi qaysi jarayon?",
+      "options": [
+        "Binar bo‘linish",
+        "Fragmentatsiya",
+        "Partenogenez",
+        "Qo‘sh urug‘lanish"
+      ],
+      "correct_answer": "Partenogenez",
+      "explanation": "Partenogenezda organizm urug‘lanmagan tuxumdan rivojlanadi. Darslikdagi asalari misolida urug‘lanmagan tuxumdan erkak ari rivojlanadi."
+    }
+  ]
+}
