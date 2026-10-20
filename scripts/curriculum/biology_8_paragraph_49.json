@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-49-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-61",
+  "title": "Xotira",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-49-f1": {
+      "claim": "Xotira tajribani to‘plash, saqlash va qayta eslash bilan bog‘liq. O‘rganishda ilgari olingan axborotdan foydalaniladi.",
+      "answer": "To‘plash, saqlash va qayta eslash",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f2": {
+      "claim": "Yozish, sport mashqi yoki raqs harakatini o‘rganib bajarish harakat xotirasi bilan bog‘liq.",
+      "answer": "Harakat xotirasi",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f3": {
+      "claim": "Odam qiyofasi, manzara, musiqa ohangi yoki hidni eslab qolish obrazli xotira misollaridir.",
+      "answer": "Obrazli xotira",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f4": {
+      "claim": "Boshdan kechirilgan quvonch yoki qayg‘uni eslash hissiy xotiraga misoldir.",
+      "answer": "Hissiy xotira",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f5": {
+      "claim": "O‘qilgan yoki eshitilgan so‘z va mazmunni eslab qolish og‘zaki xotira bilan bog‘liq.",
+      "answer": "Og‘zaki xotira",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f6": {
+      "claim": "Axborot saqlanish muddatiga ko‘ra qisqa va uzoq muddatli xotira farqlanadi. Uzoq muddatli xotira izlari yillar davomida saqlanishi mumkin.",
+      "answer": "Axborot saqlanish muddati",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-49-f7": {
+      "claim": "Reja, sxema, jadval va mazmunli takrorlash axborotni esda saqlashga yordam beradi.",
+      "answer": "Reja va sxema tuzib, mazmunli takrorlash",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Xotira jarayoni",
+      "body": "Xotira tajribani to‘plash, saqlash va qayta eslash bilan bog‘liq. O‘rganishda ilgari olingan axborotdan foydalaniladi.",
+      "fact_ids": [
+        "paragraph-49-f1"
+      ]
+    },
+    {
+      "title": "Harakat xotirasi",
+      "body": "Yozish, sport mashqi yoki raqs harakatini o‘rganib bajarish harakat xotirasi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-49-f2"
+      ]
+    },
+    {
+      "title": "Obrazli xotira",
+      "body": "Odam qiyofasi, manzara, musiqa ohangi yoki hidni eslab qolish obrazli xotira misollaridir.",
+      "fact_ids": [
+        "paragraph-49-f3"
+      ]
+    },
+    {
+      "title": "Hissiy xotira",
+      "body": "Boshdan kechirilgan quvonch yoki qayg‘uni eslash hissiy xotiraga misoldir.",
+      "fact_ids": [
+        "paragraph-49-f4"
+      ]
+    },
+    {
+      "title": "Og‘zaki xotira",
+      "body": "O‘qilgan yoki eshitilgan so‘z va mazmunni eslab qolish og‘zaki xotira bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-49-f5"
+      ]
+    },
+    {
+      "title": "Saqlanish muddati",
+      "body": "Axborot saqlanish muddatiga ko‘ra qisqa va uzoq muddatli xotira farqlanadi. Uzoq muddatli xotira izlari yillar davomida saqlanishi mumkin.",
+      "fact_ids": [
+        "paragraph-49-f6"
+      ]
+    },
+    {
+      "title": "Esda saqlash usuli",
+      "body": "Reja, sxema, jadval va mazmunli takrorlash axborotni esda saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-49-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-49-q1",
+      "fact_id": "paragraph-49-f1",
+      "question_text": "Xotirani ifodalovchi uchlik qaysi?",
+      "options": [
+        "Faqat hazm, filtratsiya va terlash",
+        "Faqat nafas, puls va bosim",
+        "Faqat suyak, pay va tog‘ay",
+        "To‘plash, saqlash va qayta eslash"
+      ],
+      "correct_answer": "To‘plash, saqlash va qayta eslash",
+      "explanation": "Xotira tajribani to‘plash, saqlash va qayta eslash bilan bog‘liq. O‘rganishda ilgari olingan axborotdan foydalaniladi."
+    },
+    {
+      "key": "paragraph-49-q2",
+      "fact_id": "paragraph-49-f2",
+      "question_text": "Raqs ketma-ketligini eslab bajarish qaysi xotiraga misol?",
+      "options": [
+        "Faqat ko‘rish retseptori",
+        "Faqat eshitish suyagi",
+        "Harakat xotirasi",
+        "Faqat hissiy xotira"
+      ],
+      "correct_answer": "Harakat xotirasi",
+      "explanation": "Yozish, sport mashqi yoki raqs harakatini o‘rganib bajarish harakat xotirasi bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-49-q3",
+      "fact_id": "paragraph-49-f3",
+      "question_text": "Tanish odamning qiyofasini eslab qolish qaysi turga misol?",
+      "options": [
+        "Faqat qon bosimi",
+        "Obrazli xotira",
+        "Faqat harakat xotirasi",
+        "Faqat muskullar tonusi"
+      ],
+      "correct_answer": "Obrazli xotira",
+      "explanation": "Odam qiyofasi, manzara, musiqa ohangi yoki hidni eslab qolish obrazli xotira misollaridir."
+    },
+    {
+      "key": "paragraph-49-q4",
+      "fact_id": "paragraph-49-f4",
+      "question_text": "Oldingi quvonch hissini qayta eslash nima bilan bog‘liq?",
+      "options": [
+        "Hissiy xotira",
+        "Faqat suyak mustahkamligi",
+        "Faqat kapillyar filtratsiyasi",
+        "Faqat tish ildizi"
+      ],
+      "correct_answer": "Hissiy xotira",
+      "explanation": "Boshdan kechirilgan quvonch yoki qayg‘uni eslash hissiy xotiraga misoldir."
+    },
+    {
+      "key": "paragraph-49-q5",
+      "fact_id": "paragraph-49-f5",
+      "question_text": "Eshitilgan hikoya mazmunini eslash qaysi xotiraga misol?",
+      "options": [
+        "Faqat oyoq muskuli refleksi",
+        "Faqat ko‘zning akkomodatsiyasi",
+        "Faqat teri termoregulyatsiyasi",
+        "Og‘zaki xotira"
+      ],
+      "correct_answer": "Og‘zaki xotira",
+      "explanation": "O‘qilgan yoki eshitilgan so‘z va mazmunni eslab qolish og‘zaki xotira bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-49-q6",
+      "fact_id": "paragraph-49-f6",
+      "question_text": "Qisqa va uzoq muddatli xotira qaysi mezon bilan farqlanadi?",
+      "options": [
+        "Faqat tishlar soni",
+        "Faqat teri pigmenti",
+        "Axborot saqlanish muddati",
+        "Faqat qon rangi"
+      ],
+      "correct_answer": "Axborot saqlanish muddati",
+      "explanation": "Axborot saqlanish muddatiga ko‘ra qisqa va uzoq muddatli xotira farqlanadi. Uzoq muddatli xotira izlari yillar davomida saqlanishi mumkin."
+    },
+    {
+      "key": "paragraph-49-q7",
+      "fact_id": "paragraph-49-f7",
+      "question_text": "Murakkab mavzuni eslab qolishga qaysi usul yordam beradi?",
+      "options": [
+        "Barcha bog‘lanishlarni inkor qilish",
+        "Reja va sxema tuzib, mazmunli takrorlash",
+        "Faqat tasodifiy javob tanlash",
+        "Mavzuni hech qachon qayta ko‘rmaslik"
+      ],
+      "correct_answer": "Reja va sxema tuzib, mazmunli takrorlash",
+      "explanation": "Reja, sxema, jadval va mazmunli takrorlash axborotni esda saqlashga yordam beradi."
+    }
+  ]
+}

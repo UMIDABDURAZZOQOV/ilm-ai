@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-48-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-60",
+  "title": "Hissiyot va uning boshqarilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-48-f1": {
+      "claim": "Hissiyot odamning hodisalar, atrof-muhit va o‘ziga munosabatini ifodalaydigan kechinmalardir. Quvonch, qo‘rquv va qayg‘u shular jumlasidan.",
+      "answer": "Voqea va o‘ziga munosabatni ifodalovchi kechinma",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f2": {
+      "claim": "His-tuyg‘u mimika, imo-ishora, ovoz ohangi va tana holati orqali ifodalanishi mumkin.",
+      "answer": "Odamning his-tuyg‘usi haqida",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f3": {
+      "claim": "Hayajon yoki qo‘rquv nafas olish va qon aylanishidagi o‘zgarishlar bilan birga kechishi mumkin.",
+      "answer": "Hissiyot bilan ichki organlar javobi bog‘liqligini",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f4": {
+      "claim": "Boshqaning his-tuyg‘usini ifodali harakatidan anglash uning holatini tushunishga yordam beradi. Hissiyot odamlar o‘rtasidagi muloqotda qatnashadi.",
+      "answer": "Uning holatini tushunish va hamdardlik bildirishga",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f5": {
+      "claim": "Bosh miya katta yarimsharlari va oraliq miya hissiyot shakllanishi hamda boshqarilishida qatnashadi.",
+      "answer": "Katta yarimsharlar va oraliq miya",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f6": {
+      "claim": "Ichki sekretsiya bezlarining biologik faol moddalari, jumladan adrenalin hissiy holatlardagi tana javobida qatnashadi.",
+      "answer": "Adrenalin",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          149
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hissiyot tushunchasi",
+      "body": "Hissiyot odamning hodisalar, atrof-muhit va o‘ziga munosabatini ifodalaydigan kechinmalardir. Quvonch, qo‘rquv va qayg‘u shular jumlasidan.",
+      "fact_ids": [
+        "paragraph-48-f1"
+      ]
+    },
+    {
+      "title": "Hissiyotning ifodasi",
+      "body": "His-tuyg‘u mimika, imo-ishora, ovoz ohangi va tana holati orqali ifodalanishi mumkin.",
+      "fact_ids": [
+        "paragraph-48-f2"
+      ]
+    },
+    {
+      "title": "Ichki javob",
+      "body": "Hayajon yoki qo‘rquv nafas olish va qon aylanishidagi o‘zgarishlar bilan birga kechishi mumkin.",
+      "fact_ids": [
+        "paragraph-48-f3"
+      ]
+    },
+    {
+      "title": "Hamjihatlik",
+      "body": "Boshqaning his-tuyg‘usini ifodali harakatidan anglash uning holatini tushunishga yordam beradi. Hissiyot odamlar o‘rtasidagi muloqotda qatnashadi.",
+      "fact_ids": [
+        "paragraph-48-f4"
+      ]
+    },
+    {
+      "title": "Nerv boshqaruvi",
+      "body": "Bosh miya katta yarimsharlari va oraliq miya hissiyot shakllanishi hamda boshqarilishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-48-f5"
+      ]
+    },
+    {
+      "title": "Gumoral javob",
+      "body": "Ichki sekretsiya bezlarining biologik faol moddalari, jumladan adrenalin hissiy holatlardagi tana javobida qatnashadi.",
+      "fact_ids": [
+        "paragraph-48-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-48-q1",
+      "fact_id": "paragraph-48-f1",
+      "question_text": "Hissiyotga qaysi tavsif mos?",
+      "options": [
+        "Faqat qonning kimyoviy guruhi",
+        "Faqat suyak uzunligi",
+        "Faqat terining qalinligi",
+        "Voqea va o‘ziga munosabatni ifodalovchi kechinma"
+      ],
+      "correct_answer": "Voqea va o‘ziga munosabatni ifodalovchi kechinma",
+      "explanation": "Hissiyot odamning hodisalar, atrof-muhit va o‘ziga munosabatini ifodalaydigan kechinmalardir. Quvonch, qo‘rquv va qayg‘u shular jumlasidan."
+    },
+    {
+      "key": "paragraph-48-q2",
+      "fact_id": "paragraph-48-f2",
+      "question_text": "Yuz ifodasi va ovoz ohangi nima haqida axborot berishi mumkin?",
+      "options": [
+        "Buyrak nefronlarining aniq soni haqida",
+        "Barcha kasalliklarning tayyor tashxisi haqida",
+        "Odamning his-tuyg‘usi haqida",
+        "Qon guruhining aniq turi haqida"
+      ],
+      "correct_answer": "Odamning his-tuyg‘usi haqida",
+      "explanation": "His-tuyg‘u mimika, imo-ishora, ovoz ohangi va tana holati orqali ifodalanishi mumkin."
+    },
+    {
+      "key": "paragraph-48-q3",
+      "fact_id": "paragraph-48-f3",
+      "question_text": "Qo‘rqqanda yurak urishi o‘zgarishi nimani ko‘rsatadi?",
+      "options": [
+        "Qon guruhining o‘zgarishini",
+        "Hissiyot bilan ichki organlar javobi bog‘liqligini",
+        "Hissiyot faqat yuzda bo‘lishini",
+        "Nerv va organlar mutlaqo aloqasizligini"
+      ],
+      "correct_answer": "Hissiyot bilan ichki organlar javobi bog‘liqligini",
+      "explanation": "Hayajon yoki qo‘rquv nafas olish va qon aylanishidagi o‘zgarishlar bilan birga kechishi mumkin."
+    },
+    {
+      "key": "paragraph-48-q4",
+      "fact_id": "paragraph-48-f4",
+      "question_text": "Boshqaning qayg‘usini yuz ifodasidan sezish nimaga yordam beradi?",
+      "options": [
+        "Uning holatini tushunish va hamdardlik bildirishga",
+        "Uning qon guruhini aniq bilishga",
+        "Uning bo‘yini aniq o‘lchashga",
+        "Uning barcha fikrini xatosiz o‘qishga"
+      ],
+      "correct_answer": "Uning holatini tushunish va hamdardlik bildirishga",
+      "explanation": "Boshqaning his-tuyg‘usini ifodali harakatidan anglash uning holatini tushunishga yordam beradi. Hissiyot odamlar o‘rtasidagi muloqotda qatnashadi."
+    },
+    {
+      "key": "paragraph-48-q5",
+      "fact_id": "paragraph-48-f5",
+      "question_text": "Hissiyotning nerv boshqaruvi qaysi tuzilmalar bilan bog‘liq?",
+      "options": [
+        "Faqat o‘t pufagi",
+        "Faqat tish emali",
+        "Faqat oyoq panjasi",
+        "Katta yarimsharlar va oraliq miya"
+      ],
+      "correct_answer": "Katta yarimsharlar va oraliq miya",
+      "explanation": "Bosh miya katta yarimsharlari va oraliq miya hissiyot shakllanishi hamda boshqarilishida qatnashadi."
+    },
+    {
+      "key": "paragraph-48-q6",
+      "fact_id": "paragraph-48-f6",
+      "question_text": "Hayajondagi gumoral javob bilan qaysi modda bog‘liq?",
+      "options": [
+        "Faqat suyak kalsiyi",
+        "Faqat so‘lak kraxmali",
+        "Adrenalin",
+        "Faqat fibrin"
+      ],
+      "correct_answer": "Adrenalin",
+      "explanation": "Ichki sekretsiya bezlarining biologik faol moddalari, jumladan adrenalin hissiy holatlardagi tana javobida qatnashadi."
+    }
+  ]
+}

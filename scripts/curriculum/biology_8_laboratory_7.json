@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-laboratory-7-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-laboratory-7",
+  "title": "7-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-7-f1": {
+      "claim": "Yettinchi laboratoriya ko‘rish o‘tkirligini jadval yordamida aniqlashni o‘rganadi. Ilovada o‘lchov rejasini tushunamiz; ekran testi bilan tibbiy tashxis qo‘yilmaydi.",
+      "answer": "Ko‘rish o‘tkirligi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f2": {
+      "claim": "Darslik Golovin jadvali, metr va ko‘rsatkichni jihoz sifatida keltiradi. Metr tekshiruv masofasini belgilashga xizmat qiladi.",
+      "answer": "Metr",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f3": {
+      "claim": "Ko‘rish jadvali yaxshi yoritilgan devorga osiladi. Yoritilish natijani taqqoslash shartlaridan biridir.",
+      "answer": "Yaxshi yoritilgan joy",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          165
+        ],
+        "printed_pages": [
+          165
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f4": {
+      "claim": "Darslik tartibida tekshiriluvchi jadvaldan 5 metr masofada turadi. Masofani o‘zgartirish kuzatuv shartini ham o‘zgartiradi.",
+      "answer": "5 metr",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          165
+        ],
+        "printed_pages": [
+          165
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f5": {
+      "claim": "Avval bir ko‘z to‘silib, ikkinchisi bilan jadval belgilarini ajratish kuzatiladi; so‘ng boshqa ko‘z tekshiriladi.",
+      "answer": "Har bir ko‘z ko‘rishini alohida baholash uchun",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          165
+        ],
+        "printed_pages": [
+          165
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Laboratoriya maqsadi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nYettinchi laboratoriya ko‘rish o‘tkirligini jadval yordamida aniqlashni o‘rganadi. Ilovada o‘lchov rejasini tushunamiz; ekran testi bilan tibbiy tashxis qo‘yilmaydi.",
+      "fact_ids": [
+        "laboratory-7-f1"
+      ]
+    },
+    {
+      "title": "Asboblarni tanlash",
+      "body": "Darslik Golovin jadvali, metr va ko‘rsatkichni jihoz sifatida keltiradi. Metr tekshiruv masofasini belgilashga xizmat qiladi.",
+      "fact_ids": [
+        "laboratory-7-f2"
+      ]
+    },
+    {
+      "title": "Yoritilish sharti",
+      "body": "Ko‘rish jadvali yaxshi yoritilgan devorga osiladi. Yoritilish natijani taqqoslash shartlaridan biridir.",
+      "fact_ids": [
+        "laboratory-7-f3"
+      ]
+    },
+    {
+      "title": "Masofa sharti",
+      "body": "Darslik tartibida tekshiriluvchi jadvaldan 5 metr masofada turadi. Masofani o‘zgartirish kuzatuv shartini ham o‘zgartiradi.",
+      "fact_ids": [
+        "laboratory-7-f4"
+      ]
+    },
+    {
+      "title": "Ko‘zlarni alohida tekshirish",
+      "body": "Avval bir ko‘z to‘silib, ikkinchisi bilan jadval belgilarini ajratish kuzatiladi; so‘ng boshqa ko‘z tekshiriladi.",
+      "fact_ids": [
+        "laboratory-7-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-7-q1",
+      "fact_id": "laboratory-7-f1",
+      "question_text": "Yettinchi laboratoriyada qaysi ko‘rsatkich o‘rganiladi?",
+      "options": [
+        "Faqat qon bosimi",
+        "Faqat o‘pka hajmi",
+        "Faqat suyak tarkibi",
+        "Ko‘rish o‘tkirligi"
+      ],
+      "correct_answer": "Ko‘rish o‘tkirligi",
+      "explanation": "Yettinchi laboratoriya ko‘rish o‘tkirligini jadval yordamida aniqlashni o‘rganadi. Ilovada o‘lchov rejasini tushunamiz; ekran testi bilan tibbiy tashxis qo‘yilmaydi."
+    },
+    {
+      "key": "laboratory-7-q2",
+      "fact_id": "laboratory-7-f2",
+      "question_text": "Jadvalgacha masofani belgilash uchun nima kerak?",
+      "options": [
+        "Spirometr",
+        "Termometr",
+        "Metr",
+        "Tonometr"
+      ],
+      "correct_answer": "Metr",
+      "explanation": "Darslik Golovin jadvali, metr va ko‘rsatkichni jihoz sifatida keltiradi. Metr tekshiruv masofasini belgilashga xizmat qiladi."
+    },
+    {
+      "key": "laboratory-7-q3",
+      "fact_id": "laboratory-7-f3",
+      "question_text": "Jadval uchun qanday yoritilish ko‘rsatilgan?",
+      "options": [
+        "Faqat ko‘zni qamashtiruvchi chiroq",
+        "Yaxshi yoritilgan joy",
+        "Butunlay qorong‘i xona",
+        "Doimo miltillovchi yorug‘lik"
+      ],
+      "correct_answer": "Yaxshi yoritilgan joy",
+      "explanation": "Ko‘rish jadvali yaxshi yoritilgan devorga osiladi. Yoritilish natijani taqqoslash shartlaridan biridir."
+    },
+    {
+      "key": "laboratory-7-q4",
+      "fact_id": "laboratory-7-f4",
+      "question_text": "Darslikdagi jadval tekshiruvi masofasi qancha?",
+      "options": [
+        "5 metr",
+        "5 santimetr",
+        "50 metr",
+        "50 santimetr"
+      ],
+      "correct_answer": "5 metr",
+      "explanation": "Darslik tartibida tekshiriluvchi jadvaldan 5 metr masofada turadi. Masofani o‘zgartirish kuzatuv shartini ham o‘zgartiradi."
+    },
+    {
+      "key": "laboratory-7-q5",
+      "fact_id": "laboratory-7-f5",
+      "question_text": "Nega ko‘zlar navbat bilan tekshiriladi?",
+      "options": [
+        "Ikkala ko‘zni butunlay ishdan chiqarish uchun",
+        "Faqat qorachiq rangini solishtirish uchun",
+        "Qon guruhini aniqlash uchun",
+        "Har bir ko‘z ko‘rishini alohida baholash uchun"
+      ],
+      "correct_answer": "Har bir ko‘z ko‘rishini alohida baholash uchun",
+      "explanation": "Avval bir ko‘z to‘silib, ikkinchisi bilan jadval belgilarini ajratish kuzatiladi; so‘ng boshqa ko‘z tekshiriladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "7-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Laboratoriya maqsadi",
+        "fact_ids": [
+          "laboratory-7-f1"
+        ]
+      },
+      {
+        "instruction": "Asboblarni tanlash",
+        "fact_ids": [
+          "laboratory-7-f2"
+        ]
+      },
+      {
+        "instruction": "Yoritilish sharti",
+        "fact_ids": [
+          "laboratory-7-f3"
+        ]
+      },
+      {
+        "instruction": "Masofa sharti",
+        "fact_ids": [
+          "laboratory-7-f4"
+        ]
+      },
+      {
+        "instruction": "Ko‘zlarni alohida tekshirish",
+        "fact_ids": [
+          "laboratory-7-f5"
+        ]
+      }
+    ]
+  }
+}

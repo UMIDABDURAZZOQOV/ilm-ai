@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-50-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-62",
+  "title": "Uyqu va uning ahamiyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-50-f1": {
+      "claim": "Uyqu tabiiy fiziologik holat bo‘lib, dam olish va normal faoliyatni davom ettirish uchun muhim.",
+      "answer": "Dam olish va faoliyatni tiklashga yordam beradi",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f2": {
+      "claim": "Uyqu davomida sekin va tez uyqu bosqichlari navbatlashadi. Bitta tun bir necha sikldan iborat bo‘lishi mumkin.",
+      "answer": "Turli uyqu bosqichlarining navbatlashishini",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f3": {
+      "claim": "Tez uyqu fazasida ko‘zlarning tez harakatlari kuzatiladi va yorqin tushlar ko‘rish mumkin.",
+      "answer": "Ko‘zlarning tez harakatlari",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f4": {
+      "claim": "Uyquda ham nafas olish va yurak urishi davom etadi. Uyquni butun nerv sistemasining ishlamay qolishi deb tushunish noto‘g‘ri.",
+      "answer": "Nafas olish va yurak urishi",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f5": {
+      "claim": "Uyqu uchun sutkalik tartibni saqlash va yotishdan oldin ortiqcha zo‘riqmaslik muhim. Darslik kun tartibini buzmaslikni tavsiya qiladi.",
+      "answer": "Muntazam kun va uyqu tartibini saqlash",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f6": {
+      "claim": "Darslik masalasida umrning uchdan biri uyquda o‘tadi deb olinadi. Shu shart bilan 72 yilning uchdan biri 24 yil bo‘ladi.",
+      "answer": "24 yil",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Uyquning ahamiyati",
+      "body": "Uyqu tabiiy fiziologik holat bo‘lib, dam olish va normal faoliyatni davom ettirish uchun muhim.",
+      "fact_ids": [
+        "paragraph-50-f1"
+      ]
+    },
+    {
+      "title": "Siklli uyqu",
+      "body": "Uyqu davomida sekin va tez uyqu bosqichlari navbatlashadi. Bitta tun bir necha sikldan iborat bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-50-f2"
+      ]
+    },
+    {
+      "title": "Tez uyqu belgisi",
+      "body": "Tez uyqu fazasida ko‘zlarning tez harakatlari kuzatiladi va yorqin tushlar ko‘rish mumkin.",
+      "fact_ids": [
+        "paragraph-50-f3"
+      ]
+    },
+    {
+      "title": "Hayotiy faoliyat",
+      "body": "Uyquda ham nafas olish va yurak urishi davom etadi. Uyquni butun nerv sistemasining ishlamay qolishi deb tushunish noto‘g‘ri.",
+      "fact_ids": [
+        "paragraph-50-f4"
+      ]
+    },
+    {
+      "title": "Uyqu tartibi",
+      "body": "Uyqu uchun sutkalik tartibni saqlash va yotishdan oldin ortiqcha zo‘riqmaslik muhim. Darslik kun tartibini buzmaslikni tavsiya qiladi.",
+      "fact_ids": [
+        "paragraph-50-f5"
+      ]
+    },
+    {
+      "title": "Ulushni hisoblash",
+      "body": "Darslik masalasida umrning uchdan biri uyquda o‘tadi deb olinadi. Shu shart bilan 72 yilning uchdan biri 24 yil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-50-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-50-q1",
+      "fact_id": "paragraph-50-f1",
+      "question_text": "Uyqu nima uchun zarur?",
+      "options": [
+        "Organizmni doimiy jonsiz holatga o‘tkazadi",
+        "Barcha hujayralarni yo‘qotadi",
+        "Yurakni har kecha butunlay to‘xtatadi",
+        "Dam olish va faoliyatni tiklashga yordam beradi"
+      ],
+      "correct_answer": "Dam olish va faoliyatni tiklashga yordam beradi",
+      "explanation": "Uyqu tabiiy fiziologik holat bo‘lib, dam olish va normal faoliyatni davom ettirish uchun muhim."
+    },
+    {
+      "key": "paragraph-50-q2",
+      "fact_id": "paragraph-50-f2",
+      "question_text": "Uyquning siklliligi nimani anglatadi?",
+      "options": [
+        "Har nafasda odam to‘liq uyg‘onishini",
+        "Uyquda yurakning doim to‘xtashini",
+        "Turli uyqu bosqichlarining navbatlashishini",
+        "Butun tunda miya faoliyati mutlaqo bir xil bo‘lishini"
+      ],
+      "correct_answer": "Turli uyqu bosqichlarining navbatlashishini",
+      "explanation": "Uyqu davomida sekin va tez uyqu bosqichlari navbatlashadi. Bitta tun bir necha sikldan iborat bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-50-q3",
+      "fact_id": "paragraph-50-f3",
+      "question_text": "Tez uyquning darslikdagi belgisi qaysi?",
+      "options": [
+        "O‘pkaning butunlay berkilishi",
+        "Ko‘zlarning tez harakatlari",
+        "Suyaklarning tez o‘sib ketishi",
+        "Qon guruhining almashishi"
+      ],
+      "correct_answer": "Ko‘zlarning tez harakatlari",
+      "explanation": "Tez uyqu fazasida ko‘zlarning tez harakatlari kuzatiladi va yorqin tushlar ko‘rish mumkin."
+    },
+    {
+      "key": "paragraph-50-q4",
+      "fact_id": "paragraph-50-f4",
+      "question_text": "Uyqu paytida qaysi faoliyat davom etadi?",
+      "options": [
+        "Nafas olish va yurak urishi",
+        "Barcha organlar butunlay to‘xtaydi",
+        "Qon aylanishi umrbod uziladi",
+        "Hujayralardagi barcha jarayon yo‘qoladi"
+      ],
+      "correct_answer": "Nafas olish va yurak urishi",
+      "explanation": "Uyquda ham nafas olish va yurak urishi davom etadi. Uyquni butun nerv sistemasining ishlamay qolishi deb tushunish noto‘g‘ri."
+    },
+    {
+      "key": "paragraph-50-q5",
+      "fact_id": "paragraph-50-f5",
+      "question_text": "Uyqu gigiyenasiga mos odat qaysi?",
+      "options": [
+        "Har kuni uyquni imkon qadar qisqartirish",
+        "Yotish oldidan doimo kuchli zo‘riqish",
+        "Bir necha tun ketma-ket uxlamaslik",
+        "Muntazam kun va uyqu tartibini saqlash"
+      ],
+      "correct_answer": "Muntazam kun va uyqu tartibini saqlash",
+      "explanation": "Uyqu uchun sutkalik tartibni saqlash va yotishdan oldin ortiqcha zo‘riqmaslik muhim. Darslik kun tartibini buzmaslikni tavsiya qiladi."
+    },
+    {
+      "key": "paragraph-50-q6",
+      "fact_id": "paragraph-50-f6",
+      "question_text": "Masala sharti bo‘yicha 72 yilning uchdan biri qancha?",
+      "options": [
+        "12 yil",
+        "48 yil",
+        "24 yil",
+        "36 yil"
+      ],
+      "correct_answer": "24 yil",
+      "explanation": "Darslik masalasida umrning uchdan biri uyquda o‘tadi deb olinadi. Shu shart bilan 72 yilning uchdan biri 24 yil bo‘ladi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-61-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-75",
+  "title": "Odamning biologik o‘zgarishi va ijtimoiy tabiati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-61-f1": {
+      "claim": "Irsiy axborotning moddiy asosi xromosomalardagi DNK bilan bog‘liq. U organizmning biologik rivojlanishida qatnashadi.",
+      "answer": "DNK",
+      "source": {
+        "paragraph": 61,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-61-f2": {
+      "claim": "Bilim, kasb-hunar va jamiyatdagi ko‘nikmalar ta’lim hamda muloqot davomida egallanadi.",
+      "answer": "Kasb-hunar ko‘nikmasi",
+      "source": {
+        "paragraph": 61,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-61-f3": {
+      "claim": "Madaniyat va o‘rganilgan ijtimoiy tajriba odamlar o‘rtasidagi muloqot orqali avlodlarga yetkaziladi. Uni tayyor bilim sifatida DNKdan olish bilan tenglashtirib bo‘lmaydi.",
+      "answer": "Ta’lim va muloqot orqali",
+      "source": {
+        "paragraph": 61,
+        "pdf_pages": [
+          182
+        ],
+        "printed_pages": [
+          182
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-61-f4": {
+      "claim": "Odam organizmi ham boshqa ko‘plab hayvonlar kabi urug‘langan hujayradan rivojlanadi. Bu rivojlanishdagi biologik umumiylikdir.",
+      "answer": "Urug‘langan hujayradan boshlanish",
+      "source": {
+        "paragraph": 61,
+        "pdf_pages": [
+          182
+        ],
+        "printed_pages": [
+          182
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-61-f5": {
+      "claim": "Solishtirma anatomiya, embriologiya va genetika organizmlar o‘rtasidagi o‘xshashlik va farqlarni o‘rganishda qo‘llanadi.",
+      "answer": "Genetika",
+      "source": {
+        "paragraph": 61,
+        "pdf_pages": [
+          182
+        ],
+        "printed_pages": [
+          182
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-61-f6": {
+      "claim": "Darslikda odam sutemizuvchilar sinfi va primatlar turkumi tarkibida berilgan; odamning turi aqlli odam — Homo sapiensdir.",
+      "answer": "Sutemizuvchilar — primatlar",
+      "source": {
+        "paragraph": 61,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Irsiy asos",
+      "body": "Irsiy axborotning moddiy asosi xromosomalardagi DNK bilan bog‘liq. U organizmning biologik rivojlanishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-61-f1"
+      ]
+    },
+    {
+      "title": "Ijtimoiy o‘rganish",
+      "body": "Bilim, kasb-hunar va jamiyatdagi ko‘nikmalar ta’lim hamda muloqot davomida egallanadi.",
+      "fact_ids": [
+        "paragraph-61-f2"
+      ]
+    },
+    {
+      "title": "Madaniyatning o‘tishi",
+      "body": "Madaniyat va o‘rganilgan ijtimoiy tajriba odamlar o‘rtasidagi muloqot orqali avlodlarga yetkaziladi. Uni tayyor bilim sifatida DNKdan olish bilan tenglashtirib bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-61-f3"
+      ]
+    },
+    {
+      "title": "Umumiy rivojlanish belgisi",
+      "body": "Odam organizmi ham boshqa ko‘plab hayvonlar kabi urug‘langan hujayradan rivojlanadi. Bu rivojlanishdagi biologik umumiylikdir.",
+      "fact_ids": [
+        "paragraph-61-f4"
+      ]
+    },
+    {
+      "title": "Taqqoslash fanlari",
+      "body": "Solishtirma anatomiya, embriologiya va genetika organizmlar o‘rtasidagi o‘xshashlik va farqlarni o‘rganishda qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-61-f5"
+      ]
+    },
+    {
+      "title": "Sistematik o‘rin",
+      "body": "Darslikda odam sutemizuvchilar sinfi va primatlar turkumi tarkibida berilgan; odamning turi aqlli odam — Homo sapiensdir.",
+      "fact_ids": [
+        "paragraph-61-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-61-q1",
+      "fact_id": "paragraph-61-f1",
+      "question_text": "Irsiy axborot qaysi modda bilan bog‘liq?",
+      "options": [
+        "Faqat o‘t suyuqligi",
+        "Faqat bo‘g‘im suvi",
+        "Faqat oshqozon kislotasi",
+        "DNK"
+      ],
+      "correct_answer": "DNK",
+      "explanation": "Irsiy axborotning moddiy asosi xromosomalardagi DNK bilan bog‘liq. U organizmning biologik rivojlanishida qatnashadi."
+    },
+    {
+      "key": "paragraph-61-q2",
+      "fact_id": "paragraph-61-f2",
+      "question_text": "Qaysi xususiyat asosan ta’lim va tajriba orqali o‘rganiladi?",
+      "options": [
+        "Xromosomadagi DNK ketma-ketligi",
+        "Odamning biologik turiga mansubligi",
+        "Kasb-hunar ko‘nikmasi",
+        "Tug‘ma qon guruhining antigeni"
+      ],
+      "correct_answer": "Kasb-hunar ko‘nikmasi",
+      "explanation": "Bilim, kasb-hunar va jamiyatdagi ko‘nikmalar ta’lim hamda muloqot davomida egallanadi."
+    },
+    {
+      "key": "paragraph-61-q3",
+      "fact_id": "paragraph-61-f3",
+      "question_text": "O‘rganilgan bilim keyingi avlodga asosan qanday yetkaziladi?",
+      "options": [
+        "Faqat qon quyish orqali",
+        "Ta’lim va muloqot orqali",
+        "Tayyor darslik matni DNKda yozilgani uchun",
+        "Faqat o‘t pufagi orqali"
+      ],
+      "correct_answer": "Ta’lim va muloqot orqali",
+      "explanation": "Madaniyat va o‘rganilgan ijtimoiy tajriba odamlar o‘rtasidagi muloqot orqali avlodlarga yetkaziladi. Uni tayyor bilim sifatida DNKdan olish bilan tenglashtirib bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-61-q4",
+      "fact_id": "paragraph-61-f4",
+      "question_text": "Odam va ko‘plab hayvonlar rivojlanishidagi umumiy boshlanish qaysi?",
+      "options": [
+        "Urug‘langan hujayradan boshlanish",
+        "Darhol tayyor ko‘p hujayrali voyaga yetgan organizmdan boshlanish",
+        "Faqat tashqi suyakdan boshlanish",
+        "Faqat mineral kristalldan boshlanish"
+      ],
+      "correct_answer": "Urug‘langan hujayradan boshlanish",
+      "explanation": "Odam organizmi ham boshqa ko‘plab hayvonlar kabi urug‘langan hujayradan rivojlanadi. Bu rivojlanishdagi biologik umumiylikdir."
+    },
+    {
+      "key": "paragraph-61-q5",
+      "fact_id": "paragraph-61-f5",
+      "question_text": "Organizmlar irsiy belgilarini taqqoslash bilan qaysi fan bog‘liq?",
+      "options": [
+        "Faqat ob-havo o‘lchovi",
+        "Faqat arifmetik kalendar",
+        "Faqat musiqa ijrosi",
+        "Genetika"
+      ],
+      "correct_answer": "Genetika",
+      "explanation": "Solishtirma anatomiya, embriologiya va genetika organizmlar o‘rtasidagi o‘xshashlik va farqlarni o‘rganishda qo‘llanadi."
+    },
+    {
+      "key": "paragraph-61-q6",
+      "fact_id": "paragraph-61-f6",
+      "question_text": "Odam qaysi sinf va turkumga mansub?",
+      "options": [
+        "Baliqlar — losossimonlar",
+        "Hasharotlar — qo‘ng‘izlar",
+        "Sutemizuvchilar — primatlar",
+        "Qushlar — chumchuqsimonlar"
+      ],
+      "correct_answer": "Sutemizuvchilar — primatlar",
+      "explanation": "Darslikda odam sutemizuvchilar sinfi va primatlar turkumi tarkibida berilgan; odamning turi aqlli odam — Homo sapiensdir."
+    }
+  ]
+}

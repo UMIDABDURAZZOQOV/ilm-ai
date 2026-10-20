@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-58-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-72",
+  "title": "Ko‘payish organlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-58-f1": {
+      "claim": "Ko‘payish orqali tur davom etadi va irsiy belgilar keyingi avlodga o‘tadi. Odamning jinsiy hujayralari maxsus organlarda shakllanadi.",
+      "answer": "Turning va avlodlar davomiyligini ta’minlash",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f2": {
+      "claim": "Erkak jinsiy bezlari urug‘donlar bo‘lib, ularda urug‘ hujayralari hosil bo‘ladi. Ular jinsiy gormonlar ham ishlab chiqaradi.",
+      "answer": "Urug‘donlarda",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f3": {
+      "claim": "Tuxumdonlarda tuxum hujayralari yetiladi. Tuxumdonlar bir juft jinsiy bezdir.",
+      "answer": "Tuxumdonlarda",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f4": {
+      "claim": "Tuxumdondagi follikula tuxum hujayrasi yetilishi bilan bog‘liq pufakchasimon tuzilmadir.",
+      "answer": "Tuxumdonga",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f5": {
+      "claim": "Bachadon naylari tuxumdon yaqinidan bachadonga yo‘nalgan juft yo‘llardir. Ularni siydik yo‘llari bilan adashtirmaslik kerak.",
+      "answer": "Ko‘payish sistemasiga",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-58-f6": {
+      "claim": "Bachadon ichki yuzasi shilliq parda bilan qoplangan muskulli organdir. Homila uning ichida rivojlanadi.",
+      "answer": "Bachadonda",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Naslning davom etishi",
+      "body": "Ko‘payish orqali tur davom etadi va irsiy belgilar keyingi avlodga o‘tadi. Odamning jinsiy hujayralari maxsus organlarda shakllanadi.",
+      "fact_ids": [
+        "paragraph-58-f1"
+      ]
+    },
+    {
+      "title": "Urug‘don vazifasi",
+      "body": "Erkak jinsiy bezlari urug‘donlar bo‘lib, ularda urug‘ hujayralari hosil bo‘ladi. Ular jinsiy gormonlar ham ishlab chiqaradi.",
+      "fact_ids": [
+        "paragraph-58-f2"
+      ]
+    },
+    {
+      "title": "Tuxumdon vazifasi",
+      "body": "Tuxumdonlarda tuxum hujayralari yetiladi. Tuxumdonlar bir juft jinsiy bezdir.",
+      "fact_ids": [
+        "paragraph-58-f3"
+      ]
+    },
+    {
+      "title": "Follikula",
+      "body": "Tuxumdondagi follikula tuxum hujayrasi yetilishi bilan bog‘liq pufakchasimon tuzilmadir.",
+      "fact_ids": [
+        "paragraph-58-f4"
+      ]
+    },
+    {
+      "title": "Bachadon nayi",
+      "body": "Bachadon naylari tuxumdon yaqinidan bachadonga yo‘nalgan juft yo‘llardir. Ularni siydik yo‘llari bilan adashtirmaslik kerak.",
+      "fact_ids": [
+        "paragraph-58-f5"
+      ]
+    },
+    {
+      "title": "Bachadon tuzilishi",
+      "body": "Bachadon ichki yuzasi shilliq parda bilan qoplangan muskulli organdir. Homila uning ichida rivojlanadi.",
+      "fact_ids": [
+        "paragraph-58-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-58-q1",
+      "fact_id": "paragraph-58-f1",
+      "question_text": "Ko‘payishning biologik ahamiyati nima?",
+      "options": [
+        "Faqat tana haroratini pasaytirish",
+        "Faqat qon bosimini o‘lchash",
+        "Faqat oziqni maydalash",
+        "Turning va avlodlar davomiyligini ta’minlash"
+      ],
+      "correct_answer": "Turning va avlodlar davomiyligini ta’minlash",
+      "explanation": "Ko‘payish orqali tur davom etadi va irsiy belgilar keyingi avlodga o‘tadi. Odamning jinsiy hujayralari maxsus organlarda shakllanadi."
+    },
+    {
+      "key": "paragraph-58-q2",
+      "fact_id": "paragraph-58-f2",
+      "question_text": "Urug‘ hujayralari qaysi organlarda hosil bo‘ladi?",
+      "options": [
+        "O‘t pufagida",
+        "Qalqonsimon bezda",
+        "Urug‘donlarda",
+        "Buyrak jomida"
+      ],
+      "correct_answer": "Urug‘donlarda",
+      "explanation": "Erkak jinsiy bezlari urug‘donlar bo‘lib, ularda urug‘ hujayralari hosil bo‘ladi. Ular jinsiy gormonlar ham ishlab chiqaradi."
+    },
+    {
+      "key": "paragraph-58-q3",
+      "fact_id": "paragraph-58-f3",
+      "question_text": "Tuxum hujayralari qayerda yetiladi?",
+      "options": [
+        "O‘pkada",
+        "Tuxumdonlarda",
+        "Qovuqda",
+        "Oshqozonda"
+      ],
+      "correct_answer": "Tuxumdonlarda",
+      "explanation": "Tuxumdonlarda tuxum hujayralari yetiladi. Tuxumdonlar bir juft jinsiy bezdir."
+    },
+    {
+      "key": "paragraph-58-q4",
+      "fact_id": "paragraph-58-f4",
+      "question_text": "Follikula qaysi organga tegishli?",
+      "options": [
+        "Tuxumdonga",
+        "O‘pka alveolasiga",
+        "Yurak qorinchasiga",
+        "Siydik qovug‘iga"
+      ],
+      "correct_answer": "Tuxumdonga",
+      "explanation": "Tuxumdondagi follikula tuxum hujayrasi yetilishi bilan bog‘liq pufakchasimon tuzilmadir."
+    },
+    {
+      "key": "paragraph-58-q5",
+      "fact_id": "paragraph-58-f5",
+      "question_text": "Bachadon nayi qaysi sistemaga tegishli?",
+      "options": [
+        "Faqat nafas sistemasiga",
+        "Faqat siydik to‘plash sistemasiga",
+        "Faqat qon aylanish tomirlariga",
+        "Ko‘payish sistemasiga"
+      ],
+      "correct_answer": "Ko‘payish sistemasiga",
+      "explanation": "Bachadon naylari tuxumdon yaqinidan bachadonga yo‘nalgan juft yo‘llardir. Ularni siydik yo‘llari bilan adashtirmaslik kerak."
+    },
+    {
+      "key": "paragraph-58-q6",
+      "fact_id": "paragraph-58-f6",
+      "question_text": "Homila odatda qaysi muskulli organ ichida rivojlanadi?",
+      "options": [
+        "Qovuqda",
+        "Oshqozonda",
+        "Bachadonda",
+        "Tuxumdon ichida"
+      ],
+      "correct_answer": "Bachadonda",
+      "explanation": "Bachadon ichki yuzasi shilliq parda bilan qoplangan muskulli organdir. Homila uning ichida rivojlanadi."
+    }
+  ]
+}

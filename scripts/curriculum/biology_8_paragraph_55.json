@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-55-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-68",
+  "title": "Eshitish organlarining tuzilishi, eshitish gigiyenasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-55-f1": {
+      "claim": "Odam qulog‘i tashqi, o‘rta va ichki bo‘limlarga ajratiladi. Ular tovushni qabul qilish, uzatish va signalga aylantirishda qatnashadi.",
+      "answer": "Tashqi, o‘rta va ichki quloq",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          165
+        ],
+        "printed_pages": [
+          165
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f2": {
+      "claim": "Tashqi eshitish yo‘li nog‘ora pardaga olib keladi. Tovush to‘lqini pardani tebratib, mexanik signalni o‘rta quloqqa o‘tkazadi.",
+      "answer": "Nog‘ora parda",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          166
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f3": {
+      "claim": "O‘rta quloqda bolg‘acha, sandoncha va uzangicha bor. Ular tebranishni ichki quloq tomon uzatadi.",
+      "answer": "Bolg‘acha, sandoncha va uzangicha",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          166
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f4": {
+      "claim": "Ichki quloq chig‘anog‘idagi sezgir tukchali hujayralar tebranishni nerv signaliga aylantirishda qatnashadi.",
+      "answer": "Ichki quloq chig‘anog‘i retseptorlarida",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f5": {
+      "claim": "Eshitish nervlari signallarni bosh miya chakka qismidagi eshitish markazlariga olib boradi.",
+      "answer": "Chakka bo‘limiga",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-55-f6": {
+      "claim": "Quloqni o‘tkir buyum bilan kovlash nog‘ora pardani jarohatlashi mumkin. Kuchli shovqinning uzoq ta’siri ham eshitishga zarar yetkazadi.",
+      "answer": "Quloqni o‘tkir buyum bilan kovlash",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Quloq bo‘limlari",
+      "body": "Odam qulog‘i tashqi, o‘rta va ichki bo‘limlarga ajratiladi. Ular tovushni qabul qilish, uzatish va signalga aylantirishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-55-f1"
+      ]
+    },
+    {
+      "title": "Nog‘ora parda",
+      "body": "Tashqi eshitish yo‘li nog‘ora pardaga olib keladi. Tovush to‘lqini pardani tebratib, mexanik signalni o‘rta quloqqa o‘tkazadi.",
+      "fact_ids": [
+        "paragraph-55-f2"
+      ]
+    },
+    {
+      "title": "Eshitish suyakchalari",
+      "body": "O‘rta quloqda bolg‘acha, sandoncha va uzangicha bor. Ular tebranishni ichki quloq tomon uzatadi.",
+      "fact_ids": [
+        "paragraph-55-f3"
+      ]
+    },
+    {
+      "title": "Chig‘anoq retseptorlari",
+      "body": "Ichki quloq chig‘anog‘idagi sezgir tukchali hujayralar tebranishni nerv signaliga aylantirishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-55-f4"
+      ]
+    },
+    {
+      "title": "Miyadagi tahlil",
+      "body": "Eshitish nervlari signallarni bosh miya chakka qismidagi eshitish markazlariga olib boradi.",
+      "fact_ids": [
+        "paragraph-55-f5"
+      ]
+    },
+    {
+      "title": "Eshitishni asrash",
+      "body": "Quloqni o‘tkir buyum bilan kovlash nog‘ora pardani jarohatlashi mumkin. Kuchli shovqinning uzoq ta’siri ham eshitishga zarar yetkazadi.",
+      "fact_ids": [
+        "paragraph-55-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-55-q1",
+      "fact_id": "paragraph-55-f1",
+      "question_text": "Quloqning uch asosiy bo‘limi qaysi?",
+      "options": [
+        "Po‘stloq, mag‘iz va jom",
+        "Emal, dentin va pulpa",
+        "Bo‘yin, ko‘krak va bel",
+        "Tashqi, o‘rta va ichki quloq"
+      ],
+      "correct_answer": "Tashqi, o‘rta va ichki quloq",
+      "explanation": "Odam qulog‘i tashqi, o‘rta va ichki bo‘limlarga ajratiladi. Ular tovushni qabul qilish, uzatish va signalga aylantirishda qatnashadi."
+    },
+    {
+      "key": "paragraph-55-q2",
+      "fact_id": "paragraph-55-f2",
+      "question_text": "Tashqi yo‘ldan kelgan tovush avval qaysi pardani tebratadi?",
+      "options": [
+        "Shoxsimon parda",
+        "Plevra",
+        "Nog‘ora parda",
+        "To‘r parda"
+      ],
+      "correct_answer": "Nog‘ora parda",
+      "explanation": "Tashqi eshitish yo‘li nog‘ora pardaga olib keladi. Tovush to‘lqini pardani tebratib, mexanik signalni o‘rta quloqqa o‘tkazadi."
+    },
+    {
+      "key": "paragraph-55-q3",
+      "fact_id": "paragraph-55-f3",
+      "question_text": "O‘rta quloq suyakchalari qaysi qatorda?",
+      "options": [
+        "Bilak, tirsak va tovon",
+        "Bolg‘acha, sandoncha va uzangicha",
+        "Kurak, o‘mrov va son",
+        "Tepa, ensa va chanoq"
+      ],
+      "correct_answer": "Bolg‘acha, sandoncha va uzangicha",
+      "explanation": "O‘rta quloqda bolg‘acha, sandoncha va uzangicha bor. Ular tebranishni ichki quloq tomon uzatadi."
+    },
+    {
+      "key": "paragraph-55-q4",
+      "fact_id": "paragraph-55-f4",
+      "question_text": "Tovush tebranishi qayerda nerv signaliga aylantiriladi?",
+      "options": [
+        "Ichki quloq chig‘anog‘i retseptorlarida",
+        "Faqat quloq suprasi tog‘ayida",
+        "Faqat tish emalida",
+        "Faqat qizilo‘ngachda"
+      ],
+      "correct_answer": "Ichki quloq chig‘anog‘i retseptorlarida",
+      "explanation": "Ichki quloq chig‘anog‘idagi sezgir tukchali hujayralar tebranishni nerv signaliga aylantirishda qatnashadi."
+    },
+    {
+      "key": "paragraph-55-q5",
+      "fact_id": "paragraph-55-f5",
+      "question_text": "Eshitish signali po‘stloqning qaysi bo‘limiga yetkaziladi?",
+      "options": [
+        "Faqat ensa suyagining tashqi sirtiga",
+        "Faqat bel umurtqasiga",
+        "Faqat buyrak po‘stlog‘iga",
+        "Chakka bo‘limiga"
+      ],
+      "correct_answer": "Chakka bo‘limiga",
+      "explanation": "Eshitish nervlari signallarni bosh miya chakka qismidagi eshitish markazlariga olib boradi."
+    },
+    {
+      "key": "paragraph-55-q6",
+      "fact_id": "paragraph-55-f6",
+      "question_text": "Qaysi odat eshitish organiga xavf tug‘diradi?",
+      "options": [
+        "Muammo bo‘lsa mutaxassisga murojaat qilish",
+        "Eshitishni ehtiyot qilish",
+        "Quloqni o‘tkir buyum bilan kovlash",
+        "Kuchli shovqindan saqlanish"
+      ],
+      "correct_answer": "Quloqni o‘tkir buyum bilan kovlash",
+      "explanation": "Quloqni o‘tkir buyum bilan kovlash nog‘ora pardani jarohatlashi mumkin. Kuchli shovqinning uzoq ta’siri ham eshitishga zarar yetkazadi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-56-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-69",
+  "title": "Muvozanat saqlash, muskul sezish va tuyg‘u organlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-56-f1": {
+      "claim": "Vestibular apparat ichki quloqda joylashadi. U tananing fazodagi holati va harakatini sezishda qatnashadi.",
+      "answer": "Ichki quloqda",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          168
+        ],
+        "printed_pages": [
+          168
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f2": {
+      "claim": "Yarimdoira kanallari boshning aylanma harakatlariga sezgir. Ulardagi suyuqlik harakati retseptorlar javobiga ta’sir qiladi.",
+      "answer": "Aylanma harakatga",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f3": {
+      "claim": "Vestibular xaltachalarda otolitlar deb ataluvchi mayda tuzilmalar bor. Ularning holati retseptorlar bilan bog‘liq holda tana yo‘nalishini sezishga yordam beradi.",
+      "answer": "Vestibular apparatda",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f4": {
+      "claim": "Muskul, pay va bo‘g‘im retseptorlari harakat hamda tana qismlari holati haqida axborot beradi. Shu tufayli ko‘z yumilganda ham qo‘l holatini sezish mumkin.",
+      "answer": "Muskul-pay-bo‘g‘im retseptorlari",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          170
+        ],
+        "printed_pages": [
+          170
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f5": {
+      "claim": "Teri retseptorlari tegish, bosim, og‘riq va harorat haqida axborot beradi. Barmoq uchlari mayda buyumlarni paypaslashda muhim.",
+      "answer": "Teri orqali tegish-bosim sezgisi",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          170
+        ],
+        "printed_pages": [
+          170
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f6": {
+      "claim": "Og‘riq zarar yetkazishi mumkin bo‘lgan ta’sirga e’tiborni tortadigan signaldir. U himoya harakatlariga sabab bo‘lishi mumkin.",
+      "answer": "Ehtimoliy zarar haqida ogohlantirishda",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          171
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Muvozanat apparati",
+      "body": "Vestibular apparat ichki quloqda joylashadi. U tananing fazodagi holati va harakatini sezishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-56-f1"
+      ]
+    },
+    {
+      "title": "Aylanma harakat",
+      "body": "Yarimdoira kanallari boshning aylanma harakatlariga sezgir. Ulardagi suyuqlik harakati retseptorlar javobiga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-56-f2"
+      ]
+    },
+    {
+      "title": "Otolitlar",
+      "body": "Vestibular xaltachalarda otolitlar deb ataluvchi mayda tuzilmalar bor. Ularning holati retseptorlar bilan bog‘liq holda tana yo‘nalishini sezishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-56-f3"
+      ]
+    },
+    {
+      "title": "Muskul sezgisi",
+      "body": "Muskul, pay va bo‘g‘im retseptorlari harakat hamda tana qismlari holati haqida axborot beradi. Shu tufayli ko‘z yumilganda ham qo‘l holatini sezish mumkin.",
+      "fact_ids": [
+        "paragraph-56-f4"
+      ]
+    },
+    {
+      "title": "Teri orqali sezish",
+      "body": "Teri retseptorlari tegish, bosim, og‘riq va harorat haqida axborot beradi. Barmoq uchlari mayda buyumlarni paypaslashda muhim.",
+      "fact_ids": [
+        "paragraph-56-f5"
+      ]
+    },
+    {
+      "title": "Og‘riqning signali",
+      "body": "Og‘riq zarar yetkazishi mumkin bo‘lgan ta’sirga e’tiborni tortadigan signaldir. U himoya harakatlariga sabab bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-56-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-56-q1",
+      "fact_id": "paragraph-56-f1",
+      "question_text": "Muvozanat sezgisi bilan bog‘liq apparat qayerda?",
+      "options": [
+        "Faqat burun bo‘shlig‘ida",
+        "Faqat oshqozonda",
+        "Faqat qo‘l panjasida",
+        "Ichki quloqda"
+      ],
+      "correct_answer": "Ichki quloqda",
+      "explanation": "Vestibular apparat ichki quloqda joylashadi. U tananing fazodagi holati va harakatini sezishda qatnashadi."
+    },
+    {
+      "key": "paragraph-56-q2",
+      "fact_id": "paragraph-56-f2",
+      "question_text": "Yarimdoira kanallari qaysi harakatga ayniqsa sezgir?",
+      "options": [
+        "Faqat qon ivishiga",
+        "Faqat tish o‘sishiga",
+        "Aylanma harakatga",
+        "Faqat ovqat chaynashga"
+      ],
+      "correct_answer": "Aylanma harakatga",
+      "explanation": "Yarimdoira kanallari boshning aylanma harakatlariga sezgir. Ulardagi suyuqlik harakati retseptorlar javobiga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-56-q3",
+      "fact_id": "paragraph-56-f3",
+      "question_text": "Otolitlar qaysi sistema tarkibida uchraydi?",
+      "options": [
+        "Faqat alveolada",
+        "Vestibular apparatda",
+        "Faqat tish pulpasida",
+        "Faqat o‘t pufagida"
+      ],
+      "correct_answer": "Vestibular apparatda",
+      "explanation": "Vestibular xaltachalarda otolitlar deb ataluvchi mayda tuzilmalar bor. Ularning holati retseptorlar bilan bog‘liq holda tana yo‘nalishini sezishga yordam beradi."
+    },
+    {
+      "key": "paragraph-56-q4",
+      "fact_id": "paragraph-56-f4",
+      "question_text": "Ko‘z yumilganda qo‘l holatini sezishga nima yordam beradi?",
+      "options": [
+        "Muskul-pay-bo‘g‘im retseptorlari",
+        "Faqat ko‘rish retseptorlari",
+        "Faqat so‘lak fermenti",
+        "Faqat teri pigmenti"
+      ],
+      "correct_answer": "Muskul-pay-bo‘g‘im retseptorlari",
+      "explanation": "Muskul, pay va bo‘g‘im retseptorlari harakat hamda tana qismlari holati haqida axborot beradi. Shu tufayli ko‘z yumilganda ham qo‘l holatini sezish mumkin."
+    },
+    {
+      "key": "paragraph-56-q5",
+      "fact_id": "paragraph-56-f5",
+      "question_text": "Buyum yuzasini barmoq bilan paypaslashda qaysi sezgi qatnashadi?",
+      "options": [
+        "Faqat qon guruhini sezish",
+        "Faqat nafas havo hajmi",
+        "Faqat yog‘ emulsiyalanishi",
+        "Teri orqali tegish-bosim sezgisi"
+      ],
+      "correct_answer": "Teri orqali tegish-bosim sezgisi",
+      "explanation": "Teri retseptorlari tegish, bosim, og‘riq va harorat haqida axborot beradi. Barmoq uchlari mayda buyumlarni paypaslashda muhim."
+    },
+    {
+      "key": "paragraph-56-q6",
+      "fact_id": "paragraph-56-f6",
+      "question_text": "Og‘riq sezgisining biologik foydasi nimada?",
+      "options": [
+        "Organlarni kisloroddan uzishda",
+        "Qon guruhini o‘zgartirishda",
+        "Ehtimoliy zarar haqida ogohlantirishda",
+        "Barcha jarohatni avtomatik davolashda"
+      ],
+      "correct_answer": "Ehtimoliy zarar haqida ogohlantirishda",
+      "explanation": "Og‘riq zarar yetkazishi mumkin bo‘lgan ta’sirga e’tiborni tortadigan signaldir. U himoya harakatlariga sabab bo‘lishi mumkin."
+    }
+  ]
+}

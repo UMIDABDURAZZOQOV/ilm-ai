@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-7-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-10",
+  "title": "Hayvonlar dunyosi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-7-f1": {
+      "claim": "Hayvonlar tayyor organik modda bilan oziqlanadigan geterotroflardir. Bu ko‘plab yashil o‘simliklarning avtotrof oziqlanishidan farqlanadi.",
+      "answer": "Geterotrof",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f2": {
+      "claim": "Hayvon hujayrasida o‘simliklarga xos sellulozali hujayra devori bo‘lmaydi. Uni plazmatik membrana o‘rab turadi.",
+      "answer": "Sellulozali devorning yo‘qligi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f3": {
+      "claim": "Hayvonlar ayrim gullarni changlatishda hamda meva va urug‘larni tarqatishda qatnashadi.",
+      "answer": "Changlatish va urug‘ tarqalishida qatnashish",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f4": {
+      "claim": "O‘simlikxo‘r hayvonlar yirtqichlarga oziq bo‘lib, oziq zanjirlaridagi moddalar va energiya o‘tishida qatnashadi.",
+      "answer": "Oziq zanjiridagi bog‘lanishni",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f5": {
+      "claim": "Chuvalchang va ayrim mayda hayvonlar tuproq tuzilishi, suv va havo bilan ta’minlanishiga hissa qo‘shadi.",
+      "answer": "Tuproq tuzilishi va havo-suv almashinuviga yordam berish",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f6": {
+      "claim": "Ko‘p hujayrali hayvonlarda turli hujayralar va organlar ixtisoslashib, yaxlit organizm sifatida ishlaydi.",
+      "answer": "Turli vazifalarning hamkor bajarilishiga",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f7": {
+      "claim": "Darslik bir hujayrali organizmning ta’sirga yo‘nalgan harakat javobini taksis deb ataydi. Bu muhit ta’siriga mos harakatdir.",
+      "answer": "Ta’sirga yo‘nalgan harakatni",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f8": {
+      "claim": "Ayrim bir hujayralilar noqulay sharoitda sista hosil qilib, yashovchanligini saqlaydi. Bu har bir organizmda bo‘ladigan belgi emas.",
+      "answer": "Noqulay sharoitni o‘tkazishga yordam berish",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziqlanish farqi",
+      "body": "Hayvonlar tayyor organik modda bilan oziqlanadigan geterotroflardir. Bu ko‘plab yashil o‘simliklarning avtotrof oziqlanishidan farqlanadi.",
+      "fact_ids": [
+        "paragraph-7-f1"
+      ]
+    },
+    {
+      "title": "Hujayra farqi",
+      "body": "Hayvon hujayrasida o‘simliklarga xos sellulozali hujayra devori bo‘lmaydi. Uni plazmatik membrana o‘rab turadi.",
+      "fact_ids": [
+        "paragraph-7-f2"
+      ]
+    },
+    {
+      "title": "O‘simlik bilan aloqa",
+      "body": "Hayvonlar ayrim gullarni changlatishda hamda meva va urug‘larni tarqatishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-7-f3"
+      ]
+    },
+    {
+      "title": "Oziq zanjiri",
+      "body": "O‘simlikxo‘r hayvonlar yirtqichlarga oziq bo‘lib, oziq zanjirlaridagi moddalar va energiya o‘tishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-7-f4"
+      ]
+    },
+    {
+      "title": "Tuproq hayvonlari",
+      "body": "Chuvalchang va ayrim mayda hayvonlar tuproq tuzilishi, suv va havo bilan ta’minlanishiga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-7-f5"
+      ]
+    },
+    {
+      "title": "Hujayralar hamkorligi",
+      "body": "Ko‘p hujayrali hayvonlarda turli hujayralar va organlar ixtisoslashib, yaxlit organizm sifatida ishlaydi.",
+      "fact_ids": [
+        "paragraph-7-f6"
+      ]
+    },
+    {
+      "title": "Taksis",
+      "body": "Darslik bir hujayrali organizmning ta’sirga yo‘nalgan harakat javobini taksis deb ataydi. Bu muhit ta’siriga mos harakatdir.",
+      "fact_ids": [
+        "paragraph-7-f7"
+      ]
+    },
+    {
+      "title": "Sista",
+      "body": "Ayrim bir hujayralilar noqulay sharoitda sista hosil qilib, yashovchanligini saqlaydi. Bu har bir organizmda bo‘ladigan belgi emas.",
+      "fact_ids": [
+        "paragraph-7-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-7-q1",
+      "fact_id": "paragraph-7-f1",
+      "question_text": "Hayvonlarning odatiy oziqlanish tipi qaysi?",
+      "options": [
+        "Faqat mineral tuzdan mustaqil organik modda sintezi",
+        "Faqat quyosh nuridan bevosita oziqlanish",
+        "Geterotrof",
+        "Majburiy fotosintetik avtotrof"
+      ],
+      "correct_answer": "Geterotrof",
+      "explanation": "Hayvonlar tayyor organik modda bilan oziqlanadigan geterotroflardir. Bu ko‘plab yashil o‘simliklarning avtotrof oziqlanishidan farqlanadi."
+    },
+    {
+      "key": "paragraph-7-q2",
+      "fact_id": "paragraph-7-f2",
+      "question_text": "Hayvon hujayrasini o‘simlik hujayrasidan ajratuvchi belgi qaysi?",
+      "options": [
+        "Har doim yadrosiz bakteriya bo‘lishi",
+        "Sellulozali devorning yo‘qligi",
+        "Hujayra membranasining umuman yo‘qligi",
+        "Har doim xloroplastga egaligi"
+      ],
+      "correct_answer": "Sellulozali devorning yo‘qligi",
+      "explanation": "Hayvon hujayrasida o‘simliklarga xos sellulozali hujayra devori bo‘lmaydi. Uni plazmatik membrana o‘rab turadi."
+    },
+    {
+      "key": "paragraph-7-q3",
+      "fact_id": "paragraph-7-f3",
+      "question_text": "Hayvonlarning o‘simlikka foydali ta’siri qaysi?",
+      "options": [
+        "Changlatish va urug‘ tarqalishida qatnashish",
+        "Barcha o‘simlikda fotosintezni o‘zi bajarish",
+        "Barg o‘rniga xlorofill ishlab chiqarish",
+        "O‘simlik hujayrasini doim qon hujayrasiga aylantirish"
+      ],
+      "correct_answer": "Changlatish va urug‘ tarqalishida qatnashish",
+      "explanation": "Hayvonlar ayrim gullarni changlatishda hamda meva va urug‘larni tarqatishda qatnashadi."
+    },
+    {
+      "key": "paragraph-7-q4",
+      "fact_id": "paragraph-7-f4",
+      "question_text": "O‘simlik → o‘simlikxo‘r → yirtqich ketma-ketligi nimani ko‘rsatadi?",
+      "options": [
+        "Faqat qon aylanishini",
+        "Faqat tizza refleksini",
+        "Faqat siydik hosil bo‘lishini",
+        "Oziq zanjiridagi bog‘lanishni"
+      ],
+      "correct_answer": "Oziq zanjiridagi bog‘lanishni",
+      "explanation": "O‘simlikxo‘r hayvonlar yirtqichlarga oziq bo‘lib, oziq zanjirlaridagi moddalar va energiya o‘tishida qatnashadi."
+    },
+    {
+      "key": "paragraph-7-q5",
+      "fact_id": "paragraph-7-f5",
+      "question_text": "Yomg‘ir chuvalchangining tuproqqa foydasi qaysi?",
+      "options": [
+        "Barcha o‘simlikni to‘g‘ridan to‘g‘ri changlatish",
+        "Faqat gazsimon kislorodni yaratish",
+        "Tuproq tuzilishi va havo-suv almashinuviga yordam berish",
+        "Tuproqdagi barcha bo‘shliqni doimiy yo‘qotish"
+      ],
+      "correct_answer": "Tuproq tuzilishi va havo-suv almashinuviga yordam berish",
+      "explanation": "Chuvalchang va ayrim mayda hayvonlar tuproq tuzilishi, suv va havo bilan ta’minlanishiga hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-7-q6",
+      "fact_id": "paragraph-7-f6",
+      "question_text": "Ko‘p hujayrali hayvonda ixtisoslashuv nimaga xizmat qiladi?",
+      "options": [
+        "Organizmda hujayra bo‘lmasligiga",
+        "Turli vazifalarning hamkor bajarilishiga",
+        "Har bir hujayraning butunlay aloqasiz yashashiga",
+        "Barcha organlarning bir xil bo‘lib qolishiga"
+      ],
+      "correct_answer": "Turli vazifalarning hamkor bajarilishiga",
+      "explanation": "Ko‘p hujayrali hayvonlarda turli hujayralar va organlar ixtisoslashib, yaxlit organizm sifatida ishlaydi."
+    },
+    {
+      "key": "paragraph-7-q7",
+      "fact_id": "paragraph-7-f7",
+      "question_text": "Taksis qanday javobni bildiradi?",
+      "options": [
+        "Ta’sirga yo‘nalgan harakatni",
+        "Faqat oqsilning yod bilan ko‘karishini",
+        "Faqat qonning laxta hosil qilishini",
+        "Faqat suyak qattiqligini"
+      ],
+      "correct_answer": "Ta’sirga yo‘nalgan harakatni",
+      "explanation": "Darslik bir hujayrali organizmning ta’sirga yo‘nalgan harakat javobini taksis deb ataydi. Bu muhit ta’siriga mos harakatdir."
+    },
+    {
+      "key": "paragraph-7-q8",
+      "fact_id": "paragraph-7-f8",
+      "question_text": "Sista hosil bo‘lishining foydasi qaysi?",
+      "options": [
+        "Har doim fotosintezni boshlash",
+        "Har doim qush tuxumiga aylanish",
+        "Qon guruhini almashtirish",
+        "Noqulay sharoitni o‘tkazishga yordam berish"
+      ],
+      "correct_answer": "Noqulay sharoitni o‘tkazishga yordam berish",
+      "explanation": "Ayrim bir hujayralilar noqulay sharoitda sista hosil qilib, yashovchanligini saqlaydi. Bu har bir organizmda bo‘ladigan belgi emas."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-53-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-66",
+  "title": "Ko‘rish analizatorlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-53-f1": {
+      "claim": "Ko‘zning oldingi shaffof shoxsimon pardasi yorug‘likni o‘tkazadi. Tashqi oqsil pardaning qolgan qismi sklera deyiladi.",
+      "answer": "Shoxsimon parda",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f2": {
+      "claim": "Qorachiq kamalak parda o‘rtasidagi teshikdir. Kuchli yorug‘likda torayib, kam yorug‘likda kengayadi.",
+      "answer": "Kengayadi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          160
+        ],
+        "printed_pages": [
+          160
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f3": {
+      "claim": "To‘r pardada yorug‘likka sezgir tayoqchasimon va kolbasimon retseptorlar bor. Ular yorug‘lik haqidagi signallarni hosil qilishda qatnashadi.",
+      "answer": "To‘r pardada",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          160
+        ],
+        "printed_pages": [
+          160
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f4": {
+      "claim": "Tayoqchasimon hujayralar kuchsiz yorug‘likda, kolbasimon hujayralar ranglarni farqlashda muhim.",
+      "answer": "Kolbasimon retseptorlar",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f5": {
+      "claim": "Ko‘rish nervi to‘r pardadan chiqadigan joyda fotoretseptorlar bo‘lmaydi. Shu joy ko‘r dog‘ deyiladi.",
+      "answer": "Fotoretseptorlar yo‘qligi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f6": {
+      "claim": "Ko‘z gavhari shaffof linza bo‘lib, yorug‘likning to‘r pardaga fokuslanishida qatnashadi.",
+      "answer": "Yorug‘likni to‘r pardaga fokuslashda qatnashish",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f7": {
+      "claim": "To‘r pardadan chiqqan signallar ko‘rish nervi orqali bosh miya ko‘rish zonalariga boradi. Tasvirni anglash shu qayta ishlash bilan bog‘liq.",
+      "answer": "Ko‘rish nervi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Shoxsimon parda",
+      "body": "Ko‘zning oldingi shaffof shoxsimon pardasi yorug‘likni o‘tkazadi. Tashqi oqsil pardaning qolgan qismi sklera deyiladi.",
+      "fact_ids": [
+        "paragraph-53-f1"
+      ]
+    },
+    {
+      "title": "Qorachiq boshqaruvi",
+      "body": "Qorachiq kamalak parda o‘rtasidagi teshikdir. Kuchli yorug‘likda torayib, kam yorug‘likda kengayadi.",
+      "fact_ids": [
+        "paragraph-53-f2"
+      ]
+    },
+    {
+      "title": "To‘r parda",
+      "body": "To‘r pardada yorug‘likka sezgir tayoqchasimon va kolbasimon retseptorlar bor. Ular yorug‘lik haqidagi signallarni hosil qilishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-53-f3"
+      ]
+    },
+    {
+      "title": "Retseptorlar farqi",
+      "body": "Tayoqchasimon hujayralar kuchsiz yorug‘likda, kolbasimon hujayralar ranglarni farqlashda muhim.",
+      "fact_ids": [
+        "paragraph-53-f4"
+      ]
+    },
+    {
+      "title": "Ko‘r dog‘",
+      "body": "Ko‘rish nervi to‘r pardadan chiqadigan joyda fotoretseptorlar bo‘lmaydi. Shu joy ko‘r dog‘ deyiladi.",
+      "fact_ids": [
+        "paragraph-53-f5"
+      ]
+    },
+    {
+      "title": "Gavhar va tasvir",
+      "body": "Ko‘z gavhari shaffof linza bo‘lib, yorug‘likning to‘r pardaga fokuslanishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-53-f6"
+      ]
+    },
+    {
+      "title": "Miyaga uzatish",
+      "body": "To‘r pardadan chiqqan signallar ko‘rish nervi orqali bosh miya ko‘rish zonalariga boradi. Tasvirni anglash shu qayta ishlash bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-53-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-53-q1",
+      "fact_id": "paragraph-53-f1",
+      "question_text": "Ko‘zning oldingi shaffof qismi qaysi?",
+      "options": [
+        "Skleraning oq qismi",
+        "Suyakusti pardasi",
+        "Quloq pardasi",
+        "Shoxsimon parda"
+      ],
+      "correct_answer": "Shoxsimon parda",
+      "explanation": "Ko‘zning oldingi shaffof shoxsimon pardasi yorug‘likni o‘tkazadi. Tashqi oqsil pardaning qolgan qismi sklera deyiladi."
+    },
+    {
+      "key": "paragraph-53-q2",
+      "fact_id": "paragraph-53-f2",
+      "question_text": "Qorong‘iroq joyda qorachiq qanday o‘zgaradi?",
+      "options": [
+        "Darhol suyakga aylanadi",
+        "Faqat rangi oq bo‘ladi",
+        "Kengayadi",
+        "Doimo to‘liq yopiladi"
+      ],
+      "correct_answer": "Kengayadi",
+      "explanation": "Qorachiq kamalak parda o‘rtasidagi teshikdir. Kuchli yorug‘likda torayib, kam yorug‘likda kengayadi."
+    },
+    {
+      "key": "paragraph-53-q3",
+      "fact_id": "paragraph-53-f3",
+      "question_text": "Yorug‘lik retseptorlari qaysi pardada joylashgan?",
+      "options": [
+        "Faqat nog‘ora pardada",
+        "To‘r pardada",
+        "Faqat sklerada",
+        "Faqat plevrada"
+      ],
+      "correct_answer": "To‘r pardada",
+      "explanation": "To‘r pardada yorug‘likka sezgir tayoqchasimon va kolbasimon retseptorlar bor. Ular yorug‘lik haqidagi signallarni hosil qilishda qatnashadi."
+    },
+    {
+      "key": "paragraph-53-q4",
+      "fact_id": "paragraph-53-f4",
+      "question_text": "Ranglarni ajratishda ayniqsa qaysi hujayralar qatnashadi?",
+      "options": [
+        "Kolbasimon retseptorlar",
+        "Tayoqchasimon retseptorlarning o‘zigina",
+        "Eritrotsitlar",
+        "Nefron hujayralari"
+      ],
+      "correct_answer": "Kolbasimon retseptorlar",
+      "explanation": "Tayoqchasimon hujayralar kuchsiz yorug‘likda, kolbasimon hujayralar ranglarni farqlashda muhim."
+    },
+    {
+      "key": "paragraph-53-q5",
+      "fact_id": "paragraph-53-f5",
+      "question_text": "Ko‘r dog‘da yorug‘lik sezilmasligining sababi nima?",
+      "options": [
+        "U yerda eng ko‘p kolbachalar bo‘lishi",
+        "Ko‘z gavhari faqat shu yerda joylashishi",
+        "U yerda tashqi quloq ochilishi",
+        "Fotoretseptorlar yo‘qligi"
+      ],
+      "correct_answer": "Fotoretseptorlar yo‘qligi",
+      "explanation": "Ko‘rish nervi to‘r pardadan chiqadigan joyda fotoretseptorlar bo‘lmaydi. Shu joy ko‘r dog‘ deyiladi."
+    },
+    {
+      "key": "paragraph-53-q6",
+      "fact_id": "paragraph-53-f6",
+      "question_text": "Ko‘z gavharining optik vazifasi qaysi?",
+      "options": [
+        "Faqat yosh suyuqligini ishlab chiqarish",
+        "Faqat tovushni kuchaytirish",
+        "Yorug‘likni to‘r pardaga fokuslashda qatnashish",
+        "Faqat qonni ivitish"
+      ],
+      "correct_answer": "Yorug‘likni to‘r pardaga fokuslashda qatnashish",
+      "explanation": "Ko‘z gavhari shaffof linza bo‘lib, yorug‘likning to‘r pardaga fokuslanishida qatnashadi."
+    },
+    {
+      "key": "paragraph-53-q7",
+      "fact_id": "paragraph-53-f7",
+      "question_text": "To‘r parda axboroti miyaga qaysi yo‘l orqali yetadi?",
+      "options": [
+        "Faqat qizilo‘ngach",
+        "Ko‘rish nervi",
+        "Faqat siydik yo‘li",
+        "Faqat o‘t yo‘li"
+      ],
+      "correct_answer": "Ko‘rish nervi",
+      "explanation": "To‘r pardadan chiqqan signallar ko‘rish nervi orqali bosh miya ko‘rish zonalariga boradi. Tasvirni anglash shu qayta ishlash bilan bog‘liq."
+    }
+  ]
+}

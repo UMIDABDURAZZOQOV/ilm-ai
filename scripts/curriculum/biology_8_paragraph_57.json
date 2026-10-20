@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-57-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-70",
+  "title": "Hid bilish va ta’m bilish organlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-57-f1": {
+      "claim": "Hid va ta’m bilish kimyoviy moddalarning retseptor hujayralarga ta’siri bilan bog‘liq.",
+      "answer": "Kimyoviy moddalarni sezishi",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          171
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f2": {
+      "claim": "Hid bilish retseptorlari burun bo‘shlig‘ining yuqori qismidagi maxsus sohada joylashgan.",
+      "answer": "Burun bo‘shlig‘ining yuqori sohasida",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          171
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f3": {
+      "claim": "Hidli modda burundagi shilliq muhitda erib, retseptor bilan ta’sirlashadi. Nerv signali hid bilish yo‘llari orqali uzatiladi.",
+      "answer": "Burun shilliq qavatidagi nam muhit",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f4": {
+      "claim": "Bir xil hid uzoq ta’sir qilsa, unga sezgirlik kamayishi mumkin. Bu moslashish hid manbai albatta yo‘qolganini bildirmaydi.",
+      "answer": "Hidga moslashish",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f5": {
+      "claim": "Ta’m moddalari suv yoki so‘lakda erib, ta’m retseptorlariga ta’sir qiladi. Namlik ta’mni sezishda muhim.",
+      "answer": "Suv yoki so‘lakda erigan holda",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f6": {
+      "claim": "Ichki organlar retseptorlari bosim va boshqa o‘zgarishlar haqida axborot beradi. Qovuq to‘lishini sezish shunday misoldir.",
+      "answer": "Qovuq to‘lishini sezish",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kimyoviy sezgilar",
+      "body": "Hid va ta’m bilish kimyoviy moddalarning retseptor hujayralarga ta’siri bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-57-f1"
+      ]
+    },
+    {
+      "title": "Hid retseptori joyi",
+      "body": "Hid bilish retseptorlari burun bo‘shlig‘ining yuqori qismidagi maxsus sohada joylashgan.",
+      "fact_ids": [
+        "paragraph-57-f2"
+      ]
+    },
+    {
+      "title": "Shilliq muhit",
+      "body": "Hidli modda burundagi shilliq muhitda erib, retseptor bilan ta’sirlashadi. Nerv signali hid bilish yo‘llari orqali uzatiladi.",
+      "fact_ids": [
+        "paragraph-57-f3"
+      ]
+    },
+    {
+      "title": "Hidga moslashish",
+      "body": "Bir xil hid uzoq ta’sir qilsa, unga sezgirlik kamayishi mumkin. Bu moslashish hid manbai albatta yo‘qolganini bildirmaydi.",
+      "fact_ids": [
+        "paragraph-57-f4"
+      ]
+    },
+    {
+      "title": "Ta’m va erish",
+      "body": "Ta’m moddalari suv yoki so‘lakda erib, ta’m retseptorlariga ta’sir qiladi. Namlik ta’mni sezishda muhim.",
+      "fact_ids": [
+        "paragraph-57-f5"
+      ]
+    },
+    {
+      "title": "Ichki sezgi",
+      "body": "Ichki organlar retseptorlari bosim va boshqa o‘zgarishlar haqida axborot beradi. Qovuq to‘lishini sezish shunday misoldir.",
+      "fact_ids": [
+        "paragraph-57-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-57-q1",
+      "fact_id": "paragraph-57-f1",
+      "question_text": "Hid va ta’m bilishning umumiy tomoni qaysi?",
+      "options": [
+        "Faqat yorug‘likni qabul qilishi",
+        "Faqat tovush to‘lqinini kuchaytirishi",
+        "Faqat tana muvozanatini saqlashi",
+        "Kimyoviy moddalarni sezishi"
+      ],
+      "correct_answer": "Kimyoviy moddalarni sezishi",
+      "explanation": "Hid va ta’m bilish kimyoviy moddalarning retseptor hujayralarga ta’siri bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-57-q2",
+      "fact_id": "paragraph-57-f2",
+      "question_text": "Hid bilish retseptorlari qayerda joylashgan?",
+      "options": [
+        "Faqat ko‘z gavharida",
+        "Faqat ichak vorsinkasida",
+        "Burun bo‘shlig‘ining yuqori sohasida",
+        "Faqat tish pulpasida"
+      ],
+      "correct_answer": "Burun bo‘shlig‘ining yuqori sohasida",
+      "explanation": "Hid bilish retseptorlari burun bo‘shlig‘ining yuqori qismidagi maxsus sohada joylashgan."
+    },
+    {
+      "key": "paragraph-57-q3",
+      "fact_id": "paragraph-57-f3",
+      "question_text": "Hidli moddaning retseptorga ta’sirida qaysi muhit muhim?",
+      "options": [
+        "Faqat bo‘g‘im tog‘ayi",
+        "Burun shilliq qavatidagi nam muhit",
+        "Faqat quruq tish emali",
+        "Faqat qovuq suyuqligi"
+      ],
+      "correct_answer": "Burun shilliq qavatidagi nam muhit",
+      "explanation": "Hidli modda burundagi shilliq muhitda erib, retseptor bilan ta’sirlashadi. Nerv signali hid bilish yo‘llari orqali uzatiladi."
+    },
+    {
+      "key": "paragraph-57-q4",
+      "fact_id": "paragraph-57-f4",
+      "question_text": "Bir xonadagi hid birozdan keyin kam sezilishi nimaga misol?",
+      "options": [
+        "Hidga moslashish",
+        "Qon guruhining almashishi",
+        "Suyakning uzayishi",
+        "O‘pkaning hajmi yo‘qolishi"
+      ],
+      "correct_answer": "Hidga moslashish",
+      "explanation": "Bir xil hid uzoq ta’sir qilsa, unga sezgirlik kamayishi mumkin. Bu moslashish hid manbai albatta yo‘qolganini bildirmaydi."
+    },
+    {
+      "key": "paragraph-57-q5",
+      "fact_id": "paragraph-57-f5",
+      "question_text": "Ovqat ta’mi sezilishi uchun modda retseptorga qanday yetadi?",
+      "options": [
+        "Faqat quruq suyak orqali",
+        "Faqat ko‘rish nervidan",
+        "Faqat nog‘ora parda orqali",
+        "Suv yoki so‘lakda erigan holda"
+      ],
+      "correct_answer": "Suv yoki so‘lakda erigan holda",
+      "explanation": "Ta’m moddalari suv yoki so‘lakda erib, ta’m retseptorlariga ta’sir qiladi. Namlik ta’mni sezishda muhim."
+    },
+    {
+      "key": "paragraph-57-q6",
+      "fact_id": "paragraph-57-f6",
+      "question_text": "Ichki organ sezgisiga qaysi holat misol?",
+      "options": [
+        "Faqat qo‘ng‘iroqni eshitish",
+        "Faqat kitob harfini ko‘rish",
+        "Qovuq to‘lishini sezish",
+        "Faqat kamalak rangini ko‘rish"
+      ],
+      "correct_answer": "Qovuq to‘lishini sezish",
+      "explanation": "Ichki organlar retseptorlari bosim va boshqa o‘zgarishlar haqida axborot beradi. Qovuq to‘lishini sezish shunday misoldir."
+    }
+  ]
+}

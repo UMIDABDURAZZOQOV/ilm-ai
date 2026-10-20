@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-59-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-73",
+  "title": "Urug‘lanish va homilaning rivojlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-59-f1": {
+      "claim": "Odamda urug‘lanish odatda bachadon nayida sodir bo‘ladi: urug‘ hujayrasi tuxum hujayrasi bilan qo‘shiladi.",
+      "answer": "Bachadon nayida",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          176
+        ],
+        "printed_pages": [
+          176
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f2": {
+      "claim": "Urug‘langan hujayra bachadon tomon siljish davomida ketma-ket bo‘linib, ko‘p hujayrali murtakni hosil qiladi.",
+      "answer": "Hujayraning ketma-ket bo‘linishi",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          176
+        ],
+        "printed_pages": [
+          176
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f3": {
+      "claim": "Murtak bachadonga yetgach, uning shilliq qavatiga joylashib rivojlanishni davom ettiradi.",
+      "answer": "Bachadonda rivojlanishni davom ettirishi uchun",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          176
+        ],
+        "printed_pages": [
+          176
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f4": {
+      "claim": "Yo‘ldosh ona organizmi bilan homila o‘rtasida gaz va oziq moddalar almashinuvida qatnashadi.",
+      "answer": "Ona va homila o‘rtasidagi modda-gaz almashinuvi",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          177
+        ],
+        "printed_pages": [
+          177
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f5": {
+      "claim": "Murtak suyuqlik bilan to‘lgan qop ichida rivojlanadi. Bu suyuqlik va pardalar uni mexanik shikastdan saqlashga yordam beradi.",
+      "answer": "Mexanik shikastni yumshatib himoyalash",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          177
+        ],
+        "printed_pages": [
+          177
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f6": {
+      "claim": "Darslik homilador ayol shifokor nazoratida bo‘lishini ko‘rsatadi. Homila rivojlanishini kuzatish tibbiy jarayondir.",
+      "answer": "Shifokor nazoratida bo‘lish",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          178
+        ],
+        "printed_pages": [
+          178
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Urug‘lanish joyi",
+      "body": "Odamda urug‘lanish odatda bachadon nayida sodir bo‘ladi: urug‘ hujayrasi tuxum hujayrasi bilan qo‘shiladi.",
+      "fact_ids": [
+        "paragraph-59-f1"
+      ]
+    },
+    {
+      "title": "Dastlabki bo‘linish",
+      "body": "Urug‘langan hujayra bachadon tomon siljish davomida ketma-ket bo‘linib, ko‘p hujayrali murtakni hosil qiladi.",
+      "fact_ids": [
+        "paragraph-59-f2"
+      ]
+    },
+    {
+      "title": "Implantatsiya",
+      "body": "Murtak bachadonga yetgach, uning shilliq qavatiga joylashib rivojlanishni davom ettiradi.",
+      "fact_ids": [
+        "paragraph-59-f3"
+      ]
+    },
+    {
+      "title": "Yo‘ldosh aloqasi",
+      "body": "Yo‘ldosh ona organizmi bilan homila o‘rtasida gaz va oziq moddalar almashinuvida qatnashadi.",
+      "fact_ids": [
+        "paragraph-59-f4"
+      ]
+    },
+    {
+      "title": "Himoya muhiti",
+      "body": "Murtak suyuqlik bilan to‘lgan qop ichida rivojlanadi. Bu suyuqlik va pardalar uni mexanik shikastdan saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-59-f5"
+      ]
+    },
+    {
+      "title": "Tibbiy kuzatuv",
+      "body": "Darslik homilador ayol shifokor nazoratida bo‘lishini ko‘rsatadi. Homila rivojlanishini kuzatish tibbiy jarayondir.",
+      "fact_ids": [
+        "paragraph-59-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-59-q1",
+      "fact_id": "paragraph-59-f1",
+      "question_text": "Urug‘lanish odatda qayerda sodir bo‘ladi?",
+      "options": [
+        "Qovuqda",
+        "Oshqozonda",
+        "Buyrak jomida",
+        "Bachadon nayida"
+      ],
+      "correct_answer": "Bachadon nayida",
+      "explanation": "Odamda urug‘lanish odatda bachadon nayida sodir bo‘ladi: urug‘ hujayrasi tuxum hujayrasi bilan qo‘shiladi."
+    },
+    {
+      "key": "paragraph-59-q2",
+      "fact_id": "paragraph-59-f2",
+      "question_text": "Urug‘lanishdan keyingi dastlabki jarayon qaysi?",
+      "options": [
+        "Hujayraning suyakga to‘liq aylanishi",
+        "Qon guruhining tasodifiy almashishi",
+        "Hujayraning ketma-ket bo‘linishi",
+        "Barcha hujayralarning darhol yo‘qolishi"
+      ],
+      "correct_answer": "Hujayraning ketma-ket bo‘linishi",
+      "explanation": "Urug‘langan hujayra bachadon tomon siljish davomida ketma-ket bo‘linib, ko‘p hujayrali murtakni hosil qiladi."
+    },
+    {
+      "key": "paragraph-59-q3",
+      "fact_id": "paragraph-59-f3",
+      "question_text": "Murtakning bachadon shilliq qavatiga joylashishi nima uchun muhim?",
+      "options": [
+        "Havoni bronxda isitishi uchun",
+        "Bachadonda rivojlanishni davom ettirishi uchun",
+        "Oziqni oshqozonda maydalashi uchun",
+        "Siydikni qovuqda to‘plashi uchun"
+      ],
+      "correct_answer": "Bachadonda rivojlanishni davom ettirishi uchun",
+      "explanation": "Murtak bachadonga yetgach, uning shilliq qavatiga joylashib rivojlanishni davom ettiradi."
+    },
+    {
+      "key": "paragraph-59-q4",
+      "fact_id": "paragraph-59-f4",
+      "question_text": "Yo‘ldoshning asosiy vazifalaridan biri qaysi?",
+      "options": [
+        "Ona va homila o‘rtasidagi modda-gaz almashinuvi",
+        "Faqat homila suyaklarini mexanik ulash",
+        "Faqat onaning ovqatini chaynash",
+        "Faqat tug‘ilgandan keyin ovoz hosil qilish"
+      ],
+      "correct_answer": "Ona va homila o‘rtasidagi modda-gaz almashinuvi",
+      "explanation": "Yo‘ldosh ona organizmi bilan homila o‘rtasida gaz va oziq moddalar almashinuvida qatnashadi."
+    },
+    {
+      "key": "paragraph-59-q5",
+      "fact_id": "paragraph-59-f5",
+      "question_text": "Homila atrofidagi suyuqlikning foydasi nima?",
+      "options": [
+        "Barcha nerv signallarini to‘xtatish",
+        "Qon guruhini almashtirish",
+        "Suyaklarni eritish",
+        "Mexanik shikastni yumshatib himoyalash"
+      ],
+      "correct_answer": "Mexanik shikastni yumshatib himoyalash",
+      "explanation": "Murtak suyuqlik bilan to‘lgan qop ichida rivojlanadi. Bu suyuqlik va pardalar uni mexanik shikastdan saqlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-59-q6",
+      "fact_id": "paragraph-59-f6",
+      "question_text": "Homiladorlik davrida qaysi yondashuv ko‘rsatilgan?",
+      "options": [
+        "Tibbiy kuzatuvdan butunlay voz kechish",
+        "Tasodifiy dori sinash",
+        "Shifokor nazoratida bo‘lish",
+        "Har qanday belgini o‘zi xatosiz tashxislash"
+      ],
+      "correct_answer": "Shifokor nazoratida bo‘lish",
+      "explanation": "Darslik homilador ayol shifokor nazoratida bo‘lishini ko‘rsatadi. Homila rivojlanishini kuzatish tibbiy jarayondir."
+    }
+  ]
+}

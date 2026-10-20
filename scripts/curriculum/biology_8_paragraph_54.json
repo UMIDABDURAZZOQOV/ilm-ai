@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-54-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-67",
+  "title": "Ko‘rish organlarining funksiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-54-f1": {
+      "claim": "Ko‘z gavhari egriligini o‘zgartirib, turli masofadagi buyum tasvirini to‘r pardaga fokuslaydi. Bu akkomodatsiya deyiladi.",
+      "answer": "Turli masofaga fokuslash uchun gavhar egriligining o‘zgarishi",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f2": {
+      "claim": "Ikki ko‘zdan keladigan tasvirlar birgalikda qayta ishlanib, fazoviy ko‘rishga yordam beradi.",
+      "answer": "Masofa va fazoviy tuzilishni anglashga yordam berish",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f3": {
+      "claim": "Yaqinni ko‘ruvchi ko‘zda uzoq buyum tasviri to‘r pardadan oldin fokuslanadi. Rasmda botiq linza bilan tuzatish ko‘rsatilgan.",
+      "answer": "To‘r pardadan oldinda",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f4": {
+      "claim": "Uzoqni ko‘rishda yaqin buyum nurlari to‘r parda ortida fokuslanishga moyil bo‘ladi. Rasmda qavariq linza bilan tuzatish ko‘rsatilgan.",
+      "answer": "Qavariq linza",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f5": {
+      "claim": "Ko‘z gavharining xiralashuvi katarakta deyiladi. Bu yorug‘lik o‘tishi va ko‘rishga ta’sir qiladi.",
+      "answer": "Ko‘z gavhari",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f6": {
+      "claim": "O‘qish va yozishda yoritilishiga e’tibor berish, ko‘zni iflos qo‘l bilan ushlamaslik muhim. Gigiyena ayrim yallig‘lanish xavfini kamaytiradi.",
+      "answer": "Yetarli yoritilish va toza qo‘lga e’tibor berish",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Akkomodatsiya",
+      "body": "Ko‘z gavhari egriligini o‘zgartirib, turli masofadagi buyum tasvirini to‘r pardaga fokuslaydi. Bu akkomodatsiya deyiladi.",
+      "fact_ids": [
+        "paragraph-54-f1"
+      ]
+    },
+    {
+      "title": "Ikki ko‘z bilan ko‘rish",
+      "body": "Ikki ko‘zdan keladigan tasvirlar birgalikda qayta ishlanib, fazoviy ko‘rishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-54-f2"
+      ]
+    },
+    {
+      "title": "Yaqinni ko‘rish",
+      "body": "Yaqinni ko‘ruvchi ko‘zda uzoq buyum tasviri to‘r pardadan oldin fokuslanadi. Rasmda botiq linza bilan tuzatish ko‘rsatilgan.",
+      "fact_ids": [
+        "paragraph-54-f3"
+      ]
+    },
+    {
+      "title": "Uzoqni ko‘rish",
+      "body": "Uzoqni ko‘rishda yaqin buyum nurlari to‘r parda ortida fokuslanishga moyil bo‘ladi. Rasmda qavariq linza bilan tuzatish ko‘rsatilgan.",
+      "fact_ids": [
+        "paragraph-54-f4"
+      ]
+    },
+    {
+      "title": "Katarakta",
+      "body": "Ko‘z gavharining xiralashuvi katarakta deyiladi. Bu yorug‘lik o‘tishi va ko‘rishga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-54-f5"
+      ]
+    },
+    {
+      "title": "Ko‘rish gigiyenasi",
+      "body": "O‘qish va yozishda yoritilishiga e’tibor berish, ko‘zni iflos qo‘l bilan ushlamaslik muhim. Gigiyena ayrim yallig‘lanish xavfini kamaytiradi.",
+      "fact_ids": [
+        "paragraph-54-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-54-q1",
+      "fact_id": "paragraph-54-f1",
+      "question_text": "Akkomodatsiya nimani anglatadi?",
+      "options": [
+        "Faqat qorachiq rangining o‘zgarishi",
+        "Faqat ko‘rish nervining uzilishi",
+        "Faqat ko‘z yoshining qotishi",
+        "Turli masofaga fokuslash uchun gavhar egriligining o‘zgarishi"
+      ],
+      "correct_answer": "Turli masofaga fokuslash uchun gavhar egriligining o‘zgarishi",
+      "explanation": "Ko‘z gavhari egriligini o‘zgartirib, turli masofadagi buyum tasvirini to‘r pardaga fokuslaydi. Bu akkomodatsiya deyiladi."
+    },
+    {
+      "key": "paragraph-54-q2",
+      "fact_id": "paragraph-54-f2",
+      "question_text": "Ikki ko‘z bilan ko‘rishning muhim afzalligi nima?",
+      "options": [
+        "Retseptorlarga ehtiyojni yo‘qotish",
+        "Bosh miyaning tahlilini butunlay bekor qilish",
+        "Masofa va fazoviy tuzilishni anglashga yordam berish",
+        "Har doim ikkita alohida dunyoni ko‘rish"
+      ],
+      "correct_answer": "Masofa va fazoviy tuzilishni anglashga yordam berish",
+      "explanation": "Ikki ko‘zdan keladigan tasvirlar birgalikda qayta ishlanib, fazoviy ko‘rishga yordam beradi."
+    },
+    {
+      "key": "paragraph-54-q3",
+      "fact_id": "paragraph-54-f3",
+      "question_text": "Yaqinni ko‘rish sxemasida uzoq buyum tasviri qayerda fokuslanadi?",
+      "options": [
+        "Faqat quloq pardasida",
+        "To‘r pardadan oldinda",
+        "To‘r pardadan orqada",
+        "Faqat ko‘z yoshida"
+      ],
+      "correct_answer": "To‘r pardadan oldinda",
+      "explanation": "Yaqinni ko‘ruvchi ko‘zda uzoq buyum tasviri to‘r pardadan oldin fokuslanadi. Rasmda botiq linza bilan tuzatish ko‘rsatilgan."
+    },
+    {
+      "key": "paragraph-54-q4",
+      "fact_id": "paragraph-54-f4",
+      "question_text": "Darslikdagi uzoqni ko‘rish tuzatish sxemasida qanday linza bor?",
+      "options": [
+        "Qavariq linza",
+        "Botiq linza",
+        "Yorug‘lik o‘tkazmaydigan metall",
+        "Faqat suv bug‘i"
+      ],
+      "correct_answer": "Qavariq linza",
+      "explanation": "Uzoqni ko‘rishda yaqin buyum nurlari to‘r parda ortida fokuslanishga moyil bo‘ladi. Rasmda qavariq linza bilan tuzatish ko‘rsatilgan."
+    },
+    {
+      "key": "paragraph-54-q5",
+      "fact_id": "paragraph-54-f5",
+      "question_text": "Kataraktada qaysi tuzilma xiralashadi?",
+      "options": [
+        "Nog‘ora parda",
+        "Ovoz payi",
+        "Qalqonsimon bez",
+        "Ko‘z gavhari"
+      ],
+      "correct_answer": "Ko‘z gavhari",
+      "explanation": "Ko‘z gavharining xiralashuvi katarakta deyiladi. Bu yorug‘lik o‘tishi va ko‘rishga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-54-q6",
+      "fact_id": "paragraph-54-f6",
+      "question_text": "Ko‘rish gigiyenasiga qaysi odat mos?",
+      "options": [
+        "Qattiq jarohatda yot jismni o‘zi kovlab olish",
+        "Ko‘zni ataylab o‘tkir buyum bilan tekshirish",
+        "Yetarli yoritilish va toza qo‘lga e’tibor berish",
+        "Ko‘zni doimo iflos qo‘l bilan ishqalash"
+      ],
+      "correct_answer": "Yetarli yoritilish va toza qo‘lga e’tibor berish",
+      "explanation": "O‘qish va yozishda yoritilishiga e’tibor berish, ko‘zni iflos qo‘l bilan ushlamaslik muhim. Gigiyena ayrim yallig‘lanish xavfini kamaytiradi."
+    }
+  ]
+}

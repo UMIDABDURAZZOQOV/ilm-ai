@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-60-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-74",
+  "title": "Bolaning o‘sishi va rivojlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-60-f1": {
+      "claim": "Tug‘ilgandan keyingi bolalik chaqaloqlik, go‘daklik, maktabgacha va maktab davrlari kabi bosqichlarga bo‘linadi.",
+      "answer": "Chaqaloqlik → go‘daklik → maktabgacha → maktab",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          179
+        ],
+        "printed_pages": [
+          179
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-60-f2": {
+      "claim": "Darslik tug‘ilishdan keyingi dastlabki bir oyni chaqaloqlik davri deb ajratadi.",
+      "answer": "Tug‘ilgandan keyingi birinchi oy",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          179
+        ],
+        "printed_pages": [
+          179
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-60-f3": {
+      "claim": "Maktabgacha davrda harakatlar, nutq va tafakkur rivojlanadi. Organizm faqat kattalashib qolmay, yangi ko‘nikmalarni ham egallaydi.",
+      "answer": "Rivojlanishga",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          179
+        ],
+        "printed_pages": [
+          179
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-60-f4": {
+      "claim": "Maktab davrida o‘qish, yozish va turli bilim-ko‘nikmalar o‘rganiladi. Ta’lim bolaning ijtimoiy rivojlanishida qatnashadi.",
+      "answer": "O‘qish va yozish ko‘nikmasi",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          180
+        ],
+        "printed_pages": [
+          180
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-60-f5": {
+      "claim": "O‘smirlikda ichki sekretsiya bezlari faoliyati va jinsiy gormonlar bilan bog‘liq o‘sish hamda ikkilamchi jinsiy belgilar rivojlanadi.",
+      "answer": "Ichki sekretsiya va jinsiy gormonlar",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          180
+        ],
+        "printed_pages": [
+          180
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-60-f6": {
+      "claim": "O‘sishda tana qismlari bir xil tezlikda kattalashmaydi. Chaqaloq boshining tana uzunligiga nisbati kattalarnikidan kattaroq.",
+      "answer": "Chaqaloqda bosh tana uzunligiga nisbatan kattaroq",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Rivojlanish bosqichlari",
+      "body": "Tug‘ilgandan keyingi bolalik chaqaloqlik, go‘daklik, maktabgacha va maktab davrlari kabi bosqichlarga bo‘linadi.",
+      "fact_ids": [
+        "paragraph-60-f1"
+      ]
+    },
+    {
+      "title": "Chaqaloqlik",
+      "body": "Darslik tug‘ilishdan keyingi dastlabki bir oyni chaqaloqlik davri deb ajratadi.",
+      "fact_ids": [
+        "paragraph-60-f2"
+      ]
+    },
+    {
+      "title": "Maktabgacha o‘sish",
+      "body": "Maktabgacha davrda harakatlar, nutq va tafakkur rivojlanadi. Organizm faqat kattalashib qolmay, yangi ko‘nikmalarni ham egallaydi.",
+      "fact_ids": [
+        "paragraph-60-f3"
+      ]
+    },
+    {
+      "title": "Maktab davri",
+      "body": "Maktab davrida o‘qish, yozish va turli bilim-ko‘nikmalar o‘rganiladi. Ta’lim bolaning ijtimoiy rivojlanishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-60-f4"
+      ]
+    },
+    {
+      "title": "O‘smirlik o‘zgarishi",
+      "body": "O‘smirlikda ichki sekretsiya bezlari faoliyati va jinsiy gormonlar bilan bog‘liq o‘sish hamda ikkilamchi jinsiy belgilar rivojlanadi.",
+      "fact_ids": [
+        "paragraph-60-f5"
+      ]
+    },
+    {
+      "title": "Tana nisbatlari",
+      "body": "O‘sishda tana qismlari bir xil tezlikda kattalashmaydi. Chaqaloq boshining tana uzunligiga nisbati kattalarnikidan kattaroq.",
+      "fact_ids": [
+        "paragraph-60-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-60-q1",
+      "fact_id": "paragraph-60-f1",
+      "question_text": "Bolaning dastlabki rivojlanish bosqichlari qanday tartibda?",
+      "options": [
+        "Maktab → chaqaloqlik → go‘daklik",
+        "Yetuklik → chaqaloqlik → maktab",
+        "Faqat o‘zgarmaydigan bitta bosqich",
+        "Chaqaloqlik → go‘daklik → maktabgacha → maktab"
+      ],
+      "correct_answer": "Chaqaloqlik → go‘daklik → maktabgacha → maktab",
+      "explanation": "Tug‘ilgandan keyingi bolalik chaqaloqlik, go‘daklik, maktabgacha va maktab davrlari kabi bosqichlarga bo‘linadi."
+    },
+    {
+      "key": "paragraph-60-q2",
+      "fact_id": "paragraph-60-f2",
+      "question_text": "Darslikda chaqaloqlik qaysi davrni qamraydi?",
+      "options": [
+        "Faqat o‘smirlikni",
+        "Faqat yetuklikni",
+        "Tug‘ilgandan keyingi birinchi oy",
+        "Faqat 6–7 yoshni"
+      ],
+      "correct_answer": "Tug‘ilgandan keyingi birinchi oy",
+      "explanation": "Darslik tug‘ilishdan keyingi dastlabki bir oyni chaqaloqlik davri deb ajratadi."
+    },
+    {
+      "key": "paragraph-60-q3",
+      "fact_id": "paragraph-60-f3",
+      "question_text": "Yangi so‘z va harakatlarni egallash nimaga misol?",
+      "options": [
+        "Faqat moddalarning tashqariga chiqishiga",
+        "Rivojlanishga",
+        "Faqat suvsizlanishga",
+        "Faqat qon ivishiga"
+      ],
+      "correct_answer": "Rivojlanishga",
+      "explanation": "Maktabgacha davrda harakatlar, nutq va tafakkur rivojlanadi. Organizm faqat kattalashib qolmay, yangi ko‘nikmalarni ham egallaydi."
+    },
+    {
+      "key": "paragraph-60-q4",
+      "fact_id": "paragraph-60-f4",
+      "question_text": "Maktab ta’limi orqali qanday xususiyat egallanadi?",
+      "options": [
+        "O‘qish va yozish ko‘nikmasi",
+        "Tug‘ma qon guruhining yangi turi",
+        "Yangi nafas organi",
+        "Odamga xos bo‘lmagan yangi suyak turi"
+      ],
+      "correct_answer": "O‘qish va yozish ko‘nikmasi",
+      "explanation": "Maktab davrida o‘qish, yozish va turli bilim-ko‘nikmalar o‘rganiladi. Ta’lim bolaning ijtimoiy rivojlanishida qatnashadi."
+    },
+    {
+      "key": "paragraph-60-q5",
+      "fact_id": "paragraph-60-f5",
+      "question_text": "O‘smirlikdagi ko‘p o‘zgarishlar qaysi boshqaruv bilan bog‘liq?",
+      "options": [
+        "Faqat tish emalining rangi",
+        "Faqat daftar tanlovi",
+        "Faqat tashqi terining mexanik qalinligi",
+        "Ichki sekretsiya va jinsiy gormonlar"
+      ],
+      "correct_answer": "Ichki sekretsiya va jinsiy gormonlar",
+      "explanation": "O‘smirlikda ichki sekretsiya bezlari faoliyati va jinsiy gormonlar bilan bog‘liq o‘sish hamda ikkilamchi jinsiy belgilar rivojlanadi."
+    },
+    {
+      "key": "paragraph-60-q6",
+      "fact_id": "paragraph-60-f6",
+      "question_text": "Chaqaloq va katta odam tana nisbatlari haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "Katta odamda bosh tana uzunligining hammasini egallaydi",
+        "Chaqaloqda tana qismlari bo‘lmaydi",
+        "Chaqaloqda bosh tana uzunligiga nisbatan kattaroq",
+        "Barcha yoshda barcha qismlar nisbati aynan teng"
+      ],
+      "correct_answer": "Chaqaloqda bosh tana uzunligiga nisbatan kattaroq",
+      "explanation": "O‘sishda tana qismlari bir xil tezlikda kattalashmaydi. Chaqaloq boshining tana uzunligiga nisbati kattalarnikidan kattaroq."
+    }
+  ]
+}

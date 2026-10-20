@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-51-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-63",
+  "title": "Nerv faoliyati tiplari, nerv sistemasi gigiyenasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-51-f1": {
+      "claim": "Darslik temperamentning tarixiy tasnifida xolerik, sangvinik, flegmatik va melanxolik nomlarini keltiradi. Bu nomlar klinik tashxis yoki inson qadrining bahosi emas.",
+      "answer": "Xolerik, sangvinik, flegmatik, melanxolik",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f2": {
+      "claim": "Darslik temperamentni yaxshi yoki yomon deb ajratmaslikni aytadi. Turli tip vakillari bilimli va qobiliyatli bo‘lishi mumkin.",
+      "answer": "Tipni yaxshi-yomon inson tamg‘asi qilib bo‘lmaydi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f3": {
+      "claim": "Nerv faoliyatiga irsiy xususiyatlar bilan birga atrof-muhit va tarbiya ham ta’sir qiladi. Darslik sof tiplar kam uchrashini qayd etadi.",
+      "answer": "Irsiyat hamda muhit va tarbiya",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f4": {
+      "claim": "Aqliy va jismoniy ishni uyg‘unlashtirish, harakat va dam olish tartibini saqlash nerv sistemasi gigiyenasida muhim.",
+      "answer": "Ish, harakat va dam olishni uyg‘unlashtirish",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f5": {
+      "claim": "Alkogol harakat va nutq aniqligini buzishi mumkin; qo‘l-oyoq hamda ko‘z harakatlari muvofiqligi pasayadi.",
+      "answer": "Harakat va nutq aniqligini buzishi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-51-f6": {
+      "claim": "Giyohvand moddalar qaramlikka olib kelishi va xotira, xatti-harakat hamda jismoniy salomatlikka zarar yetkazishi mumkin.",
+      "answer": "Qaramlik va nerv faoliyati zarari xavfi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tarixiy tasnif",
+      "body": "Darslik temperamentning tarixiy tasnifida xolerik, sangvinik, flegmatik va melanxolik nomlarini keltiradi. Bu nomlar klinik tashxis yoki inson qadrining bahosi emas.",
+      "fact_ids": [
+        "paragraph-51-f1"
+      ]
+    },
+    {
+      "title": "Yaxshi-yomon tamg‘asi yo‘q",
+      "body": "Darslik temperamentni yaxshi yoki yomon deb ajratmaslikni aytadi. Turli tip vakillari bilimli va qobiliyatli bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-51-f2"
+      ]
+    },
+    {
+      "title": "Individual o‘zgarish",
+      "body": "Nerv faoliyatiga irsiy xususiyatlar bilan birga atrof-muhit va tarbiya ham ta’sir qiladi. Darslik sof tiplar kam uchrashini qayd etadi.",
+      "fact_ids": [
+        "paragraph-51-f3"
+      ]
+    },
+    {
+      "title": "Mehnat va dam",
+      "body": "Aqliy va jismoniy ishni uyg‘unlashtirish, harakat va dam olish tartibini saqlash nerv sistemasi gigiyenasida muhim.",
+      "fact_ids": [
+        "paragraph-51-f4"
+      ]
+    },
+    {
+      "title": "Alkogol va aniqlik",
+      "body": "Alkogol harakat va nutq aniqligini buzishi mumkin; qo‘l-oyoq hamda ko‘z harakatlari muvofiqligi pasayadi.",
+      "fact_ids": [
+        "paragraph-51-f5"
+      ]
+    },
+    {
+      "title": "Qaramlik xavfi",
+      "body": "Giyohvand moddalar qaramlikka olib kelishi va xotira, xatti-harakat hamda jismoniy salomatlikka zarar yetkazishi mumkin.",
+      "fact_ids": [
+        "paragraph-51-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-51-q1",
+      "fact_id": "paragraph-51-f1",
+      "question_text": "Darslikdagi tarixiy temperament nomlari qaysi?",
+      "options": [
+        "Arterial, venoz, kapillyar, limfatik",
+        "Emal, dentin, pulpa, sement",
+        "Peshana, chakka, tepa, ensa",
+        "Xolerik, sangvinik, flegmatik, melanxolik"
+      ],
+      "correct_answer": "Xolerik, sangvinik, flegmatik, melanxolik",
+      "explanation": "Darslik temperamentning tarixiy tasnifida xolerik, sangvinik, flegmatik va melanxolik nomlarini keltiradi. Bu nomlar klinik tashxis yoki inson qadrining bahosi emas."
+    },
+    {
+      "key": "paragraph-51-q2",
+      "fact_id": "paragraph-51-f2",
+      "question_text": "Temperamentga qarab odamni baholash haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "Bitta tip doimo yomon inson bo‘ladi",
+        "Temperament qon guruhini aniq belgilaydi",
+        "Tipni yaxshi-yomon inson tamg‘asi qilib bo‘lmaydi",
+        "Faqat bitta tip bilim ola oladi"
+      ],
+      "correct_answer": "Tipni yaxshi-yomon inson tamg‘asi qilib bo‘lmaydi",
+      "explanation": "Darslik temperamentni yaxshi yoki yomon deb ajratmaslikni aytadi. Turli tip vakillari bilimli va qobiliyatli bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-51-q3",
+      "fact_id": "paragraph-51-f3",
+      "question_text": "Nerv faoliyatidagi individual xususiyatlarga nima ta’sir qiladi?",
+      "options": [
+        "Faqat tishlar soni",
+        "Irsiyat hamda muhit va tarbiya",
+        "Faqat ismning birinchi harfi",
+        "Faqat daftar rangi"
+      ],
+      "correct_answer": "Irsiyat hamda muhit va tarbiya",
+      "explanation": "Nerv faoliyatiga irsiy xususiyatlar bilan birga atrof-muhit va tarbiya ham ta’sir qiladi. Darslik sof tiplar kam uchrashini qayd etadi."
+    },
+    {
+      "key": "paragraph-51-q4",
+      "fact_id": "paragraph-51-f4",
+      "question_text": "Nerv sistemasini asrashga qaysi odat mos?",
+      "options": [
+        "Ish, harakat va dam olishni uyg‘unlashtirish",
+        "Doimo uyqu va damni bekor qilish",
+        "Zo‘riqishni cheksiz oshirish",
+        "Har qanday harakatni taqiqlash"
+      ],
+      "correct_answer": "Ish, harakat va dam olishni uyg‘unlashtirish",
+      "explanation": "Aqliy va jismoniy ishni uyg‘unlashtirish, harakat va dam olish tartibini saqlash nerv sistemasi gigiyenasida muhim."
+    },
+    {
+      "key": "paragraph-51-q5",
+      "fact_id": "paragraph-51-f5",
+      "question_text": "Alkogolning nerv faoliyatiga salbiy ta’siri qaysi?",
+      "options": [
+        "Muvozanatni doimo yaxshilashi",
+        "Barcha reflekslarni xatosiz qilishi",
+        "Xotirani har doim kuchaytirishi",
+        "Harakat va nutq aniqligini buzishi"
+      ],
+      "correct_answer": "Harakat va nutq aniqligini buzishi",
+      "explanation": "Alkogol harakat va nutq aniqligini buzishi mumkin; qo‘l-oyoq hamda ko‘z harakatlari muvofiqligi pasayadi."
+    },
+    {
+      "key": "paragraph-51-q6",
+      "fact_id": "paragraph-51-f6",
+      "question_text": "Giyohvand moddalardan saqlanishning muhim sababi nima?",
+      "options": [
+        "Ular hamma uchun zarur oziq bo‘lishi",
+        "Ular faqat soch rangiga ta’sir qilishi",
+        "Qaramlik va nerv faoliyati zarari xavfi",
+        "Ular hech qanday zarar yetkazmasligi"
+      ],
+      "correct_answer": "Qaramlik va nerv faoliyati zarari xavfi",
+      "explanation": "Giyohvand moddalar qaramlikka olib kelishi va xotira, xatti-harakat hamda jismoniy salomatlikka zarar yetkazishi mumkin."
+    }
+  ]
+}

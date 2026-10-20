@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-4-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-7",
+  "title": "Prokariot hujayralar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-4-f1": {
+      "claim": "Prokariotlarda membrana bilan o‘ralgan haqiqiy yadro bo‘lmaydi. Bakteriyalar shunday hujayraviy tuzilishga ega.",
+      "answer": "Membranali haqiqiy yadroning yo‘qligi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f2": {
+      "claim": "Prokariot hujayrada mitoxondriya va plastida kabi membranali organellalar bo‘lmaydi. Bu eukariot tuzilishdan farq qiladi.",
+      "answer": "Mitoxondriya",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f3": {
+      "claim": "Bakteriyalar orasida sharsimon kokklar, tayoqchasimon batsillalar va buralgan shakllar uchraydi.",
+      "answer": "Kokklar",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f4": {
+      "claim": "Ayrim bakteriyalar noqulay sharoitda chidamli spora hosil qiladi. Bu har bir bakteriyada mavjud belgi emas.",
+      "answer": "Noqulay sharoitni o‘tkazishga",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f5": {
+      "claim": "Kislorodli muhitdan foydalanadigan aerob va kislorodsiz sharoitda yashaydigan anaerob bakteriyalar bor.",
+      "answer": "Kislorodga munosabati",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f6": {
+      "claim": "Dukkakli o‘simlik ildizidagi tugunak bakteriyalari azotni o‘zlashtirishda qatnashadi. Bu o‘simlik va tuproq oziqlanishida muhim.",
+      "answer": "Azotni o‘zlashtirishda qatnashishi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f7": {
+      "claim": "Bakteriyalar organik qoldiqlar parchalanishi va ayrim oziq fermentatsiyasi jarayonlarida qatnashadi. Ularning hammasi kasallik qo‘zg‘atmaydi.",
+      "answer": "Organik qoldiqlarning parchalanishida qatnashish",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f8": {
+      "claim": "Darslikda ko‘k-yashil suvo‘t deb atalgan sianobakteriyalar prokariotdir. Ularda xlorofill va fikotsianin kabi pigmentlar uchraydi.",
+      "answer": "Membranali haqiqiy yadrosi bo‘lmagani uchun",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Prokariot belgisi",
+      "body": "Prokariotlarda membrana bilan o‘ralgan haqiqiy yadro bo‘lmaydi. Bakteriyalar shunday hujayraviy tuzilishga ega.",
+      "fact_ids": [
+        "paragraph-4-f1"
+      ]
+    },
+    {
+      "title": "Organellalar farqi",
+      "body": "Prokariot hujayrada mitoxondriya va plastida kabi membranali organellalar bo‘lmaydi. Bu eukariot tuzilishdan farq qiladi.",
+      "fact_ids": [
+        "paragraph-4-f2"
+      ]
+    },
+    {
+      "title": "Shakllarni ajratish",
+      "body": "Bakteriyalar orasida sharsimon kokklar, tayoqchasimon batsillalar va buralgan shakllar uchraydi.",
+      "fact_ids": [
+        "paragraph-4-f3"
+      ]
+    },
+    {
+      "title": "Noqulay sharoit",
+      "body": "Ayrim bakteriyalar noqulay sharoitda chidamli spora hosil qiladi. Bu har bir bakteriyada mavjud belgi emas.",
+      "fact_ids": [
+        "paragraph-4-f4"
+      ]
+    },
+    {
+      "title": "Kislorodga munosabat",
+      "body": "Kislorodli muhitdan foydalanadigan aerob va kislorodsiz sharoitda yashaydigan anaerob bakteriyalar bor.",
+      "fact_ids": [
+        "paragraph-4-f5"
+      ]
+    },
+    {
+      "title": "Azot aylanishi",
+      "body": "Dukkakli o‘simlik ildizidagi tugunak bakteriyalari azotni o‘zlashtirishda qatnashadi. Bu o‘simlik va tuproq oziqlanishida muhim.",
+      "fact_ids": [
+        "paragraph-4-f6"
+      ]
+    },
+    {
+      "title": "Foydali faoliyat",
+      "body": "Bakteriyalar organik qoldiqlar parchalanishi va ayrim oziq fermentatsiyasi jarayonlarida qatnashadi. Ularning hammasi kasallik qo‘zg‘atmaydi.",
+      "fact_ids": [
+        "paragraph-4-f7"
+      ]
+    },
+    {
+      "title": "Fotosintezlovchi prokariot",
+      "body": "Darslikda ko‘k-yashil suvo‘t deb atalgan sianobakteriyalar prokariotdir. Ularda xlorofill va fikotsianin kabi pigmentlar uchraydi.",
+      "fact_ids": [
+        "paragraph-4-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-4-q1",
+      "fact_id": "paragraph-4-f1",
+      "question_text": "Prokariotning asosiy belgisi qaysi?",
+      "options": [
+        "Har doim ko‘p yadro mavjudligi",
+        "Faqat hayvonlarda uchrashi",
+        "Membranali haqiqiy yadroning yo‘qligi",
+        "Hujayraning umuman yo‘qligi"
+      ],
+      "correct_answer": "Membranali haqiqiy yadroning yo‘qligi",
+      "explanation": "Prokariotlarda membrana bilan o‘ralgan haqiqiy yadro bo‘lmaydi. Bakteriyalar shunday hujayraviy tuzilishga ega."
+    },
+    {
+      "key": "paragraph-4-q2",
+      "fact_id": "paragraph-4-f2",
+      "question_text": "Bakteriya hujayrasida qaysi organella bo‘lmaydi?",
+      "options": [
+        "Plazmatik membrana",
+        "Mitoxondriya",
+        "Ribosoma",
+        "Sitoplazma"
+      ],
+      "correct_answer": "Mitoxondriya",
+      "explanation": "Prokariot hujayrada mitoxondriya va plastida kabi membranali organellalar bo‘lmaydi. Bu eukariot tuzilishdan farq qiladi."
+    },
+    {
+      "key": "paragraph-4-q3",
+      "fact_id": "paragraph-4-f3",
+      "question_text": "Sharsimon bakteriyalarga mos atama qaysi?",
+      "options": [
+        "Kokklar",
+        "Batsillalar",
+        "Spirillalar",
+        "Faqat gifalar"
+      ],
+      "correct_answer": "Kokklar",
+      "explanation": "Bakteriyalar orasida sharsimon kokklar, tayoqchasimon batsillalar va buralgan shakllar uchraydi."
+    },
+    {
+      "key": "paragraph-4-q4",
+      "fact_id": "paragraph-4-f4",
+      "question_text": "Ayrim bakteriyalarning sporasi asosan nimaga xizmat qiladi?",
+      "options": [
+        "Har doim oziq ishlab chiqarishga",
+        "Har doim jinsiy gameta bo‘lishga",
+        "Barcha bakteriyalarni ko‘p hujayrali o‘simlik qilishga",
+        "Noqulay sharoitni o‘tkazishga"
+      ],
+      "correct_answer": "Noqulay sharoitni o‘tkazishga",
+      "explanation": "Ayrim bakteriyalar noqulay sharoitda chidamli spora hosil qiladi. Bu har bir bakteriyada mavjud belgi emas."
+    },
+    {
+      "key": "paragraph-4-q5",
+      "fact_id": "paragraph-4-f5",
+      "question_text": "Aerob va anaerobni ajratadigan muhim mezon nima?",
+      "options": [
+        "Faqat koloniya nomi",
+        "Faqat kitob sahifasi",
+        "Kislorodga munosabati",
+        "Faqat hujayraning rangi"
+      ],
+      "correct_answer": "Kislorodga munosabati",
+      "explanation": "Kislorodli muhitdan foydalanadigan aerob va kislorodsiz sharoitda yashaydigan anaerob bakteriyalar bor."
+    },
+    {
+      "key": "paragraph-4-q6",
+      "fact_id": "paragraph-4-f6",
+      "question_text": "Tugunak bakteriyalarining foydasi nimada?",
+      "options": [
+        "Faqat fotosintezni doimo to‘xtatishi",
+        "Azotni o‘zlashtirishda qatnashishi",
+        "Faqat o‘simlikning suvini butunlay yo‘qotishi",
+        "Faqat ildizni kislorodsiz qoldirishi"
+      ],
+      "correct_answer": "Azotni o‘zlashtirishda qatnashishi",
+      "explanation": "Dukkakli o‘simlik ildizidagi tugunak bakteriyalari azotni o‘zlashtirishda qatnashadi. Bu o‘simlik va tuproq oziqlanishida muhim."
+    },
+    {
+      "key": "paragraph-4-q7",
+      "fact_id": "paragraph-4-f7",
+      "question_text": "Bakteriyalarning foydali faoliyatiga qaysi misol mos?",
+      "options": [
+        "Organik qoldiqlarning parchalanishida qatnashish",
+        "Barchasining faqat kasallik qo‘zg‘atishi",
+        "Barchasining hujayrasiz virus bo‘lishi",
+        "Barchasining fotosintezsiz o‘simlik ildizi bo‘lishi"
+      ],
+      "correct_answer": "Organik qoldiqlarning parchalanishida qatnashish",
+      "explanation": "Bakteriyalar organik qoldiqlar parchalanishi va ayrim oziq fermentatsiyasi jarayonlarida qatnashadi. Ularning hammasi kasallik qo‘zg‘atmaydi."
+    },
+    {
+      "key": "paragraph-4-q8",
+      "fact_id": "paragraph-4-f8",
+      "question_text": "Sianobakteriya fotosintez qilsa ham nega prokariot?",
+      "options": [
+        "Albatta xloroplasti va yadrosi borligi uchun",
+        "U hujayrasiz virus bo‘lgani uchun",
+        "Faqat yorug‘likni ko‘rmaydigan hayvon bo‘lgani uchun",
+        "Membranali haqiqiy yadrosi bo‘lmagani uchun"
+      ],
+      "correct_answer": "Membranali haqiqiy yadrosi bo‘lmagani uchun",
+      "explanation": "Darslikda ko‘k-yashil suvo‘t deb atalgan sianobakteriyalar prokariotdir. Ularda xlorofill va fikotsianin kabi pigmentlar uchraydi."
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-laboratory-1-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-laboratory-11",
+  "title": "8- §. 1- laboratoriya mashg‘uloti. 1. Pichan tayoqcha bakteriyasini mikroskopda ko‘rish. 2. Ko‘k-yashil suvo‘tini mikroskopda ko‘rish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-1-f1": {
+      "claim": "To‘qqizinchi sinf birinchi laboratoriyasida pichan tayoqcha bakteriyasi va ko‘k-yashil suvo‘t mikroskopik kuzatuvlari berilgan. Ilovada namuna va kuzatuv belgilarini tahlil qilamiz.",
+      "answer": "Pichan bakteriyasi va ko‘k-yashil suvo‘t",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f2": {
+      "claim": "Mayda hujayralarning shakli va joylashishini kuzatishda mikroskop ishlatiladi. Ilova uyda mikrob yetishtirishni talab qilmaydi.",
+      "answer": "Mikroskop",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f3": {
+      "claim": "Darslik pichan namunasida harakatchan bakteriyalar bilan birga yaltiroq oval sporalarni kuzatishni tasvirlaydi.",
+      "answer": "Sporalar",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f4": {
+      "claim": "Ikkinchi ishda namuna avval kichik, so‘ng katta obyektivda ko‘riladi. Shu tartib umumiy tuzilishdan mayda belgiga o‘tishga yordam beradi.",
+      "answer": "Avval kichik, keyin katta obyektiv",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f5": {
+      "claim": "Darslikdagi ko‘k-yashil namuna pardasi ingichka hujayraviy iplardan tashkil topgan. Iplarning umumiy joylashishi kuzatuv belgisidir.",
+      "answer": "Ingichka hujayraviy iplar",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f6": {
+      "claim": "Ko‘k-yashil organizm xloroplastsiz fotosintezlovchi prokariot sifatida o‘rganiladi. Faqat rangning o‘zi uni eukariot o‘simlik deb belgilash uchun yetarli emas.",
+      "answer": "Hujayrada albatta xloroplast borligini",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki kuzatuv",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nTo‘qqizinchi sinf birinchi laboratoriyasida pichan tayoqcha bakteriyasi va ko‘k-yashil suvo‘t mikroskopik kuzatuvlari berilgan. Ilovada namuna va kuzatuv belgilarini tahlil qilamiz.",
+      "fact_ids": [
+        "laboratory-1-f1"
+      ]
+    },
+    {
+      "title": "Mikroskop zarurati",
+      "body": "Mayda hujayralarning shakli va joylashishini kuzatishda mikroskop ishlatiladi. Ilova uyda mikrob yetishtirishni talab qilmaydi.",
+      "fact_ids": [
+        "laboratory-1-f2"
+      ]
+    },
+    {
+      "title": "Bakteriya kuzatuvi",
+      "body": "Darslik pichan namunasida harakatchan bakteriyalar bilan birga yaltiroq oval sporalarni kuzatishni tasvirlaydi.",
+      "fact_ids": [
+        "laboratory-1-f3"
+      ]
+    },
+    {
+      "title": "Kattalashtirish tartibi",
+      "body": "Ikkinchi ishda namuna avval kichik, so‘ng katta obyektivda ko‘riladi. Shu tartib umumiy tuzilishdan mayda belgiga o‘tishga yordam beradi.",
+      "fact_ids": [
+        "laboratory-1-f4"
+      ]
+    },
+    {
+      "title": "Ipsimon tuzilish",
+      "body": "Darslikdagi ko‘k-yashil namuna pardasi ingichka hujayraviy iplardan tashkil topgan. Iplarning umumiy joylashishi kuzatuv belgisidir.",
+      "fact_ids": [
+        "laboratory-1-f5"
+      ]
+    },
+    {
+      "title": "Kuzatuv va bilim",
+      "body": "Ko‘k-yashil organizm xloroplastsiz fotosintezlovchi prokariot sifatida o‘rganiladi. Faqat rangning o‘zi uni eukariot o‘simlik deb belgilash uchun yetarli emas.",
+      "fact_ids": [
+        "laboratory-1-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-1-q1",
+      "fact_id": "laboratory-1-f1",
+      "question_text": "Bu laboratoriyada qaysi ikkita obyekt taqqoslanadi?",
+      "options": [
+        "Faqat urug‘ va meva",
+        "Faqat qush pati va suyak",
+        "Pichan bakteriyasi va ko‘k-yashil suvo‘t",
+        "Faqat odam yuragi va buyragi"
+      ],
+      "correct_answer": "Pichan bakteriyasi va ko‘k-yashil suvo‘t",
+      "explanation": "To‘qqizinchi sinf birinchi laboratoriyasida pichan tayoqcha bakteriyasi va ko‘k-yashil suvo‘t mikroskopik kuzatuvlari berilgan. Ilovada namuna va kuzatuv belgilarini tahlil qilamiz."
+    },
+    {
+      "key": "laboratory-1-q2",
+      "fact_id": "laboratory-1-f2",
+      "question_text": "Kichik hujayralar shaklini kuzatish asbobi qaysi?",
+      "options": [
+        "Sekundomerning o‘zi",
+        "Mikroskop",
+        "Tonometr",
+        "Spirometr"
+      ],
+      "correct_answer": "Mikroskop",
+      "explanation": "Mayda hujayralarning shakli va joylashishini kuzatishda mikroskop ishlatiladi. Ilova uyda mikrob yetishtirishni talab qilmaydi."
+    },
+    {
+      "key": "laboratory-1-q3",
+      "fact_id": "laboratory-1-f3",
+      "question_text": "Pichan bakteriyasi kuzatuvida yaltiroq oval tuzilmalar nima deb ko‘rsatilgan?",
+      "options": [
+        "Sporalar",
+        "Gul urug‘chilari",
+        "Baliq tangachalari",
+        "Ko‘z gavharlari"
+      ],
+      "correct_answer": "Sporalar",
+      "explanation": "Darslik pichan namunasida harakatchan bakteriyalar bilan birga yaltiroq oval sporalarni kuzatishni tasvirlaydi."
+    },
+    {
+      "key": "laboratory-1-q4",
+      "fact_id": "laboratory-1-f4",
+      "question_text": "Obyektivlardan foydalanish tartibi qaysi?",
+      "options": [
+        "Avval faqat eng kattasi, namunani topmasdan",
+        "Obyektivsiz qarash",
+        "Faqat ko‘zni yumib tekshirish",
+        "Avval kichik, keyin katta obyektiv"
+      ],
+      "correct_answer": "Avval kichik, keyin katta obyektiv",
+      "explanation": "Ikkinchi ishda namuna avval kichik, so‘ng katta obyektivda ko‘riladi. Shu tartib umumiy tuzilishdan mayda belgiga o‘tishga yordam beradi."
+    },
+    {
+      "key": "laboratory-1-q5",
+      "fact_id": "laboratory-1-f5",
+      "question_text": "Ko‘k-yashil namuna pardasining darslikdagi tuzilishi qaysi?",
+      "options": [
+        "Faqat oyoq suyaklari",
+        "Faqat qon laxtasi",
+        "Ingichka hujayraviy iplar",
+        "Faqat yirik gullar"
+      ],
+      "correct_answer": "Ingichka hujayraviy iplar",
+      "explanation": "Darslikdagi ko‘k-yashil namuna pardasi ingichka hujayraviy iplardan tashkil topgan. Iplarning umumiy joylashishi kuzatuv belgisidir."
+    },
+    {
+      "key": "laboratory-1-q6",
+      "fact_id": "laboratory-1-f6",
+      "question_text": "Ko‘k-yashil rang nimani o‘zi isbotlamaydi?",
+      "options": [
+        "Preparatni mikroskopda ko‘rish mumkinligini",
+        "Hujayrada albatta xloroplast borligini",
+        "Rangli pigmentlar bo‘lishi mumkinligini",
+        "Namuna kuzatishga arziydiganligini"
+      ],
+      "correct_answer": "Hujayrada albatta xloroplast borligini",
+      "explanation": "Ko‘k-yashil organizm xloroplastsiz fotosintezlovchi prokariot sifatida o‘rganiladi. Faqat rangning o‘zi uni eukariot o‘simlik deb belgilash uchun yetarli emas."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "8- §. 1- laboratoriya mashg‘uloti. 1. Pichan tayoqcha bakteriyasini mikroskopda ko‘rish. 2. Ko‘k-yashil suvo‘tini mikroskopda ko‘rish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Ikki kuzatuv",
+        "fact_ids": [
+          "laboratory-1-f1"
+        ]
+      },
+      {
+        "instruction": "Mikroskop zarurati",
+        "fact_ids": [
+          "laboratory-1-f2"
+        ]
+      },
+      {
+        "instruction": "Bakteriya kuzatuvi",
+        "fact_ids": [
+          "laboratory-1-f3"
+        ]
+      },
+      {
+        "instruction": "Kattalashtirish tartibi",
+        "fact_ids": [
+          "laboratory-1-f4"
+        ]
+      },
+      {
+        "instruction": "Ipsimon tuzilish",
+        "fact_ids": [
+          "laboratory-1-f5"
+        ]
+      },
+      {
+        "instruction": "Kuzatuv va bilim",
+        "fact_ids": [
+          "laboratory-1-f6"
+        ]
+      }
+    ]
+  }
+}

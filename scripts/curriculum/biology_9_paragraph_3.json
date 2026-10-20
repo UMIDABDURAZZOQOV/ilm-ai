@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-3-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-6",
+  "title": "Hayotning hujayrasiz shakllari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-3-f1": {
+      "claim": "Viruslar hujayraviy tuzilishga ega emas. Ular mustaqil oqsil sintezi va ko‘payish uchun xo‘jayin hujayra imkoniyatlariga bog‘liq.",
+      "answer": "Hujayraviy tuzilish va mustaqil oqsil sintezining yo‘qligi",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f2": {
+      "claim": "Viruslarni o‘rganuvchi fan virologiya deyiladi. Viruslar o‘simlik, hayvon va mikroorganizmlarni zararlashi mumkin.",
+      "answer": "Virologiya",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          10
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f3": {
+      "claim": "Virus genomi DNK yoki RNKdan tashkil topadi. Uni o‘rab turadigan oqsilli qobiq kapsid deb ataladi.",
+      "answer": "Kapsid",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f4": {
+      "claim": "Viruslar genomidagi nuklein kislota turiga qarab DNKli va RNKli guruhlarga ajratiladi. Bu guruhlash irsiy axborot tashuvchisiga asoslangan.",
+      "answer": "Genom nuklein kislotasining turi",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f5": {
+      "claim": "Virus yuzasidagi oqsillar xo‘jayin hujayra retseptorlari bilan bog‘lanishda qatnashadi. Bu bog‘lanish ayrim hujayralarga moyillikni tushuntirishga yordam beradi.",
+      "answer": "Virus oqsili va hujayra retseptori",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f6": {
+      "claim": "Bakteriofag bakteriyani zararlovchi virusdir. Darslikdagi dumli fag misolida genom bakteriyaga kiritilib, oqsilli qobiq tashqarida qoladi.",
+      "answer": "Bakteriya",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f7": {
+      "claim": "Ayrim viruslar hujayra parchalanishi bilan, boshqalari kurtaklanishga o‘xshash yo‘l bilan chiqadi. Hamma virus bir xil chiqish mexanizmiga ega emas.",
+      "answer": "Turli viruslarda chiqish yo‘li farqlanishi mumkin",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hujayrasiz tuzilish",
+      "body": "Viruslar hujayraviy tuzilishga ega emas. Ular mustaqil oqsil sintezi va ko‘payish uchun xo‘jayin hujayra imkoniyatlariga bog‘liq.",
+      "fact_ids": [
+        "paragraph-3-f1"
+      ]
+    },
+    {
+      "title": "Virologiya",
+      "body": "Viruslarni o‘rganuvchi fan virologiya deyiladi. Viruslar o‘simlik, hayvon va mikroorganizmlarni zararlashi mumkin.",
+      "fact_ids": [
+        "paragraph-3-f2"
+      ]
+    },
+    {
+      "title": "Genom va qobiq",
+      "body": "Virus genomi DNK yoki RNKdan tashkil topadi. Uni o‘rab turadigan oqsilli qobiq kapsid deb ataladi.",
+      "fact_ids": [
+        "paragraph-3-f3"
+      ]
+    },
+    {
+      "title": "Genom turlari",
+      "body": "Viruslar genomidagi nuklein kislota turiga qarab DNKli va RNKli guruhlarga ajratiladi. Bu guruhlash irsiy axborot tashuvchisiga asoslangan.",
+      "fact_ids": [
+        "paragraph-3-f4"
+      ]
+    },
+    {
+      "title": "Hujayrani tanish",
+      "body": "Virus yuzasidagi oqsillar xo‘jayin hujayra retseptorlari bilan bog‘lanishda qatnashadi. Bu bog‘lanish ayrim hujayralarga moyillikni tushuntirishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-3-f5"
+      ]
+    },
+    {
+      "title": "Bakteriofag",
+      "body": "Bakteriofag bakteriyani zararlovchi virusdir. Darslikdagi dumli fag misolida genom bakteriyaga kiritilib, oqsilli qobiq tashqarida qoladi.",
+      "fact_ids": [
+        "paragraph-3-f6"
+      ]
+    },
+    {
+      "title": "Virusning chiqishi",
+      "body": "Ayrim viruslar hujayra parchalanishi bilan, boshqalari kurtaklanishga o‘xshash yo‘l bilan chiqadi. Hamma virus bir xil chiqish mexanizmiga ega emas.",
+      "fact_ids": [
+        "paragraph-3-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-3-q1",
+      "fact_id": "paragraph-3-f1",
+      "question_text": "Virusni hujayraviy organizmdan ajratadigan xususiyat qaysi?",
+      "options": [
+        "Har doim to‘liq yadro va mitoxondriyaga egaligi",
+        "Oziqsiz muhitda mustaqil cheksiz ko‘payishi",
+        "Hujayraviy tuzilish va mustaqil oqsil sintezining yo‘qligi",
+        "Faqat o‘simlik hujayrasida uchrashi"
+      ],
+      "correct_answer": "Hujayraviy tuzilish va mustaqil oqsil sintezining yo‘qligi",
+      "explanation": "Viruslar hujayraviy tuzilishga ega emas. Ular mustaqil oqsil sintezi va ko‘payish uchun xo‘jayin hujayra imkoniyatlariga bog‘liq."
+    },
+    {
+      "key": "paragraph-3-q2",
+      "fact_id": "paragraph-3-f2",
+      "question_text": "Viruslarni o‘rganuvchi fan qanday ataladi?",
+      "options": [
+        "Faqat paleontologiya",
+        "Virologiya",
+        "Faqat mikologiya",
+        "Faqat anatomiya"
+      ],
+      "correct_answer": "Virologiya",
+      "explanation": "Viruslarni o‘rganuvchi fan virologiya deyiladi. Viruslar o‘simlik, hayvon va mikroorganizmlarni zararlashi mumkin."
+    },
+    {
+      "key": "paragraph-3-q3",
+      "fact_id": "paragraph-3-f3",
+      "question_text": "Virusning oqsilli qobig‘i qanday ataladi?",
+      "options": [
+        "Kapsid",
+        "Nefron",
+        "Vorsinka",
+        "Dendrit"
+      ],
+      "correct_answer": "Kapsid",
+      "explanation": "Virus genomi DNK yoki RNKdan tashkil topadi. Uni o‘rab turadigan oqsilli qobiq kapsid deb ataladi."
+    },
+    {
+      "key": "paragraph-3-q4",
+      "fact_id": "paragraph-3-f4",
+      "question_text": "DNKli va RNKli viruslarni ajratish mezoni nima?",
+      "options": [
+        "Faqat xo‘jayin hujayrasining tashqi rangi",
+        "Faqat kasallik nomining uzunligi",
+        "Faqat virus tasvirining kattalashtirilishi",
+        "Genom nuklein kislotasining turi"
+      ],
+      "correct_answer": "Genom nuklein kislotasining turi",
+      "explanation": "Viruslar genomidagi nuklein kislota turiga qarab DNKli va RNKli guruhlarga ajratiladi. Bu guruhlash irsiy axborot tashuvchisiga asoslangan."
+    },
+    {
+      "key": "paragraph-3-q5",
+      "fact_id": "paragraph-3-f5",
+      "question_text": "Virusning hujayraga birikishida qaysi aloqa muhim?",
+      "options": [
+        "Faqat o‘t va ichak aloqasi",
+        "Faqat havo va plevra aloqasi",
+        "Virus oqsili va hujayra retseptori",
+        "Faqat suyak va tog‘ay aloqasi"
+      ],
+      "correct_answer": "Virus oqsili va hujayra retseptori",
+      "explanation": "Virus yuzasidagi oqsillar xo‘jayin hujayra retseptorlari bilan bog‘lanishda qatnashadi. Bu bog‘lanish ayrim hujayralarga moyillikni tushuntirishga yordam beradi."
+    },
+    {
+      "key": "paragraph-3-q6",
+      "fact_id": "paragraph-3-f6",
+      "question_text": "Bakteriofagning xo‘jayin hujayrasi qaysi?",
+      "options": [
+        "Faqat o‘simlikning o‘lik yog‘och hujayrasi",
+        "Bakteriya",
+        "Faqat odam eritrotsiti",
+        "Faqat zamburug‘ gifasi"
+      ],
+      "correct_answer": "Bakteriya",
+      "explanation": "Bakteriofag bakteriyani zararlovchi virusdir. Darslikdagi dumli fag misolida genom bakteriyaga kiritilib, oqsilli qobiq tashqarida qoladi."
+    },
+    {
+      "key": "paragraph-3-q7",
+      "fact_id": "paragraph-3-f7",
+      "question_text": "Virusning hujayradan chiqishi haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "Turli viruslarda chiqish yo‘li farqlanishi mumkin",
+        "Barcha virus faqat mustaqil hujayra bo‘lib bo‘linadi",
+        "Hech bir virus hujayradan chiqa olmaydi",
+        "Har bir virus doimo bakteriya sporasiga aylanadi"
+      ],
+      "correct_answer": "Turli viruslarda chiqish yo‘li farqlanishi mumkin",
+      "explanation": "Ayrim viruslar hujayra parchalanishi bilan, boshqalari kurtaklanishga o‘xshash yo‘l bilan chiqadi. Hamma virus bir xil chiqish mexanizmiga ega emas."
+    }
+  ]
+}

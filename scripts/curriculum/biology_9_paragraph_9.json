@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-9-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-14",
+  "title": "Hujayrani o‘rganish tarixi va hujayra nazariyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-9-f1": {
+      "claim": "Robert Guk 1665-yilda po‘kak kesmasini mikroskopda ko‘rib, mayda katakchalarni tasvirlagan va hujayra atamasini qo‘llagan.",
+      "answer": "Robert Guk",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f2": {
+      "claim": "Robert Braun 1831-yilda o‘simlik hujayralaridagi yadroni tavsiflagan. Bu hujayraning faqat tashqi devordan iborat emasligini o‘rganishda muhim bo‘lgan.",
+      "answer": "Robert Braun",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f3": {
+      "claim": "M. Shleyden va T. Shvann 1838–1839-yillarda yig‘ilgan ma’lumotlarni umumlashtirib hujayra nazariyasini shakllantirgan.",
+      "answer": "Shleyden va Shvann",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f4": {
+      "claim": "Hujayra nazariyasining qoidalaridan biri yangi hujayralar avval mavjud hujayralarning bo‘linishidan hosil bo‘lishidir.",
+      "answer": "Avvalgi hujayraning bo‘linishi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f5": {
+      "claim": "Hujayra organizmlarning asosiy tuzilish va funksional birligi hisoblanadi. Hujayraviy tuzilish biologik umumiylikdir.",
+      "answer": "Tuzilish va funksional birlik",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f6": {
+      "claim": "Elektron mikroskopiya va molekular usullar hujayraning murakkab tuzilishi hamda jarayonlarini chuqurroq o‘rganishga imkon bergan.",
+      "answer": "Mayda tuzilmalar va jarayonlarni chuqurroq o‘rganishga yordam beradi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Dastlabki kuzatuv",
+      "body": "Robert Guk 1665-yilda po‘kak kesmasini mikroskopda ko‘rib, mayda katakchalarni tasvirlagan va hujayra atamasini qo‘llagan.",
+      "fact_ids": [
+        "paragraph-9-f1"
+      ]
+    },
+    {
+      "title": "Yadro kuzatuvi",
+      "body": "Robert Braun 1831-yilda o‘simlik hujayralaridagi yadroni tavsiflagan. Bu hujayraning faqat tashqi devordan iborat emasligini o‘rganishda muhim bo‘lgan.",
+      "fact_ids": [
+        "paragraph-9-f2"
+      ]
+    },
+    {
+      "title": "Nazariyaning shakllanishi",
+      "body": "M. Shleyden va T. Shvann 1838–1839-yillarda yig‘ilgan ma’lumotlarni umumlashtirib hujayra nazariyasini shakllantirgan.",
+      "fact_ids": [
+        "paragraph-9-f3"
+      ]
+    },
+    {
+      "title": "Avvalgi hujayradan",
+      "body": "Hujayra nazariyasining qoidalaridan biri yangi hujayralar avval mavjud hujayralarning bo‘linishidan hosil bo‘lishidir.",
+      "fact_ids": [
+        "paragraph-9-f4"
+      ]
+    },
+    {
+      "title": "Tuzilish va funksiya",
+      "body": "Hujayra organizmlarning asosiy tuzilish va funksional birligi hisoblanadi. Hujayraviy tuzilish biologik umumiylikdir.",
+      "fact_ids": [
+        "paragraph-9-f5"
+      ]
+    },
+    {
+      "title": "Takomillashgan tadqiqot",
+      "body": "Elektron mikroskopiya va molekular usullar hujayraning murakkab tuzilishi hamda jarayonlarini chuqurroq o‘rganishga imkon bergan.",
+      "fact_ids": [
+        "paragraph-9-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-9-q1",
+      "fact_id": "paragraph-9-f1",
+      "question_text": "1665-yildagi po‘kak kuzatuvi qaysi olim bilan bog‘liq?",
+      "options": [
+        "Teodor Shvann",
+        "Rudolf Virxov",
+        "Robert Guk",
+        "Robert Braun"
+      ],
+      "correct_answer": "Robert Guk",
+      "explanation": "Robert Guk 1665-yilda po‘kak kesmasini mikroskopda ko‘rib, mayda katakchalarni tasvirlagan va hujayra atamasini qo‘llagan."
+    },
+    {
+      "key": "paragraph-9-q2",
+      "fact_id": "paragraph-9-f2",
+      "question_text": "Darslikda yadro tavsifi qaysi olim bilan bog‘langan?",
+      "options": [
+        "Karl Ber",
+        "Robert Braun",
+        "Robert Guk",
+        "Matias Shleyden"
+      ],
+      "correct_answer": "Robert Braun",
+      "explanation": "Robert Braun 1831-yilda o‘simlik hujayralaridagi yadroni tavsiflagan. Bu hujayraning faqat tashqi devordan iborat emasligini o‘rganishda muhim bo‘lgan."
+    },
+    {
+      "key": "paragraph-9-q3",
+      "fact_id": "paragraph-9-f3",
+      "question_text": "Hujayra nazariyasining shakllanishi qaysi olimlar juftligi bilan bog‘liq?",
+      "options": [
+        "Shleyden va Shvann",
+        "Guk va Pavlov",
+        "Braun va Sechenov",
+        "Darvin va Mendel"
+      ],
+      "correct_answer": "Shleyden va Shvann",
+      "explanation": "M. Shleyden va T. Shvann 1838–1839-yillarda yig‘ilgan ma’lumotlarni umumlashtirib hujayra nazariyasini shakllantirgan."
+    },
+    {
+      "key": "paragraph-9-q4",
+      "fact_id": "paragraph-9-f4",
+      "question_text": "Yangi hujayra hosil bo‘lishiga qaysi qoida mos?",
+      "options": [
+        "Tayyor hujayraning jonsiz toshdan birdan paydo bo‘lishi",
+        "Faqat havoning suyakga aylanishi",
+        "Faqat qon guruhining o‘zgarishi",
+        "Avvalgi hujayraning bo‘linishi"
+      ],
+      "correct_answer": "Avvalgi hujayraning bo‘linishi",
+      "explanation": "Hujayra nazariyasining qoidalaridan biri yangi hujayralar avval mavjud hujayralarning bo‘linishidan hosil bo‘lishidir."
+    },
+    {
+      "key": "paragraph-9-q5",
+      "fact_id": "paragraph-9-f5",
+      "question_text": "Hujayra nazariyasida hujayra qanday birlik?",
+      "options": [
+        "Faqat odamdagi maxsus organ",
+        "Faqat o‘simlikning tashqi po‘sti",
+        "Tuzilish va funksional birlik",
+        "Faqat jonsiz mineral"
+      ],
+      "correct_answer": "Tuzilish va funksional birlik",
+      "explanation": "Hujayra organizmlarning asosiy tuzilish va funksional birligi hisoblanadi. Hujayraviy tuzilish biologik umumiylikdir."
+    },
+    {
+      "key": "paragraph-9-q6",
+      "fact_id": "paragraph-9-f6",
+      "question_text": "Yangi tadqiqot usullari hujayra haqidagi bilimga qanday ta’sir qiladi?",
+      "options": [
+        "Faqat biologiyani astronomiyaga almashtiradi",
+        "Mayda tuzilmalar va jarayonlarni chuqurroq o‘rganishga yordam beradi",
+        "Hujayra haqidagi barcha kuzatuvni keraksiz qiladi",
+        "Mikroskopik tuzilishning yo‘qligini isbotlaydi"
+      ],
+      "correct_answer": "Mayda tuzilmalar va jarayonlarni chuqurroq o‘rganishga yordam beradi",
+      "explanation": "Elektron mikroskopiya va molekular usullar hujayraning murakkab tuzilishi hamda jarayonlarini chuqurroq o‘rganishga imkon bergan."
+    }
+  ]
+}

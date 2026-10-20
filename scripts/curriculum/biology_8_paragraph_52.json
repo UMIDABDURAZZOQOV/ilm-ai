@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-8-paragraph-52-v1",
+  "language": "uz",
+  "book_id": "biology-8-2019",
+  "topic_id": "bio-8-topic-65",
+  "title": "Sezgi organlarining ahamiyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-52-f1": {
+      "claim": "Sezgi organlari muayyan ta’sirlarga moslashgan: ko‘z yorug‘likni, quloq tovushni qabul qiladi.",
+      "answer": "Ko‘z — yorug‘lik; quloq — tovush",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f2": {
+      "claim": "Retseptorlar tashqi yoki ichki muhit ta’sirini nerv signaliga aylantiradi. Signallar markaziy nerv sistemasiga uzatiladi.",
+      "answer": "Ta’sirni nerv signaliga aylantirish",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f3": {
+      "claim": "Sensor sistema retseptorlar, o‘tkazuvchi nerv yo‘li va markaziy qismdan iborat. Bu uchlik ta’sirni qabul qilish, uzatish va tahlil qilishni ta’minlaydi.",
+      "answer": "Retseptor, nerv yo‘li va markaz",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          158
+        ],
+        "printed_pages": [
+          158
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f4": {
+      "claim": "Sezgi nervlari olib kelgan axborot bosh miyada qayta ishlanadi. Masalan, ko‘rish markazi ensa sohasida joylashadi.",
+      "answer": "Ensa sohasida",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          158
+        ],
+        "printed_pages": [
+          158
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f5": {
+      "claim": "Bulutni ko‘rish, sovuqni sezish va momaqaldiroqni eshitish kabi turli signallar birgalikda vaziyatni tushunishga yordam beradi.",
+      "answer": "Sensor sistemalar axboroti birlashtirilishini",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          158
+        ],
+        "printed_pages": [
+          158
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-52-f6": {
+      "claim": "Sezuvchi neyronlar analizatorning o‘tkazuvchi qismida retseptordan markazga signallarni yetkazadi.",
+      "answer": "Signalni retseptordan markazga uzatadi",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Sezgi va ta’sir",
+      "body": "Sezgi organlari muayyan ta’sirlarga moslashgan: ko‘z yorug‘likni, quloq tovushni qabul qiladi.",
+      "fact_ids": [
+        "paragraph-52-f1"
+      ]
+    },
+    {
+      "title": "Signalga aylantirish",
+      "body": "Retseptorlar tashqi yoki ichki muhit ta’sirini nerv signaliga aylantiradi. Signallar markaziy nerv sistemasiga uzatiladi.",
+      "fact_ids": [
+        "paragraph-52-f2"
+      ]
+    },
+    {
+      "title": "Sensor sistema qismlari",
+      "body": "Sensor sistema retseptorlar, o‘tkazuvchi nerv yo‘li va markaziy qismdan iborat. Bu uchlik ta’sirni qabul qilish, uzatish va tahlil qilishni ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-52-f3"
+      ]
+    },
+    {
+      "title": "Markaziy tahlil",
+      "body": "Sezgi nervlari olib kelgan axborot bosh miyada qayta ishlanadi. Masalan, ko‘rish markazi ensa sohasida joylashadi.",
+      "fact_ids": [
+        "paragraph-52-f4"
+      ]
+    },
+    {
+      "title": "Birgalikdagi axborot",
+      "body": "Bulutni ko‘rish, sovuqni sezish va momaqaldiroqni eshitish kabi turli signallar birgalikda vaziyatni tushunishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-52-f5"
+      ]
+    },
+    {
+      "title": "O‘tkazuvchi qism",
+      "body": "Sezuvchi neyronlar analizatorning o‘tkazuvchi qismida retseptordan markazga signallarni yetkazadi.",
+      "fact_ids": [
+        "paragraph-52-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-52-q1",
+      "fact_id": "paragraph-52-f1",
+      "question_text": "Ko‘z va quloqqa mos ta’sirlar qaysi?",
+      "options": [
+        "Ko‘z — faqat ovoz; quloq — faqat rang",
+        "Ikkalasi — faqat qon bosimi",
+        "Ikkalasi — faqat oziqning kaloriyasi",
+        "Ko‘z — yorug‘lik; quloq — tovush"
+      ],
+      "correct_answer": "Ko‘z — yorug‘lik; quloq — tovush",
+      "explanation": "Sezgi organlari muayyan ta’sirlarga moslashgan: ko‘z yorug‘likni, quloq tovushni qabul qiladi."
+    },
+    {
+      "key": "paragraph-52-q2",
+      "fact_id": "paragraph-52-f2",
+      "question_text": "Retseptorning asosiy vazifasi nima?",
+      "options": [
+        "Faqat o‘t chiqarish",
+        "Faqat suyakni uzunlashtirish",
+        "Ta’sirni nerv signaliga aylantirish",
+        "Faqat qonni ivitish"
+      ],
+      "correct_answer": "Ta’sirni nerv signaliga aylantirish",
+      "explanation": "Retseptorlar tashqi yoki ichki muhit ta’sirini nerv signaliga aylantiradi. Signallar markaziy nerv sistemasiga uzatiladi."
+    },
+    {
+      "key": "paragraph-52-q3",
+      "fact_id": "paragraph-52-f3",
+      "question_text": "Analizatorning uch qismi qaysi?",
+      "options": [
+        "Faqat jigar, o‘t pufagi va ichak",
+        "Retseptor, nerv yo‘li va markaz",
+        "Faqat suyak, tog‘ay va pay",
+        "Faqat plazma, suv va tuz"
+      ],
+      "correct_answer": "Retseptor, nerv yo‘li va markaz",
+      "explanation": "Sensor sistema retseptorlar, o‘tkazuvchi nerv yo‘li va markaziy qismdan iborat. Bu uchlik ta’sirni qabul qilish, uzatish va tahlil qilishni ta’minlaydi."
+    },
+    {
+      "key": "paragraph-52-q4",
+      "fact_id": "paragraph-52-f4",
+      "question_text": "Ko‘rish axborotini qayta ishlashning muhim markazi qayerda?",
+      "options": [
+        "Ensa sohasida",
+        "Faqat buyrak jomida",
+        "Faqat tish emalida",
+        "Faqat o‘t pufagida"
+      ],
+      "correct_answer": "Ensa sohasida",
+      "explanation": "Sezgi nervlari olib kelgan axborot bosh miyada qayta ishlanadi. Masalan, ko‘rish markazi ensa sohasida joylashadi."
+    },
+    {
+      "key": "paragraph-52-q5",
+      "fact_id": "paragraph-52-f5",
+      "question_text": "Ob-havo haqida bir nechta sezgidan xulosa chiqarish nimani ko‘rsatadi?",
+      "options": [
+        "Faqat bitta sezgi har doim yetarli ekanini",
+        "Barcha sezgi organlari bir xil ta’sirni qabul qilishini",
+        "Miyada axborot umuman tahlil qilinmasligini",
+        "Sensor sistemalar axboroti birlashtirilishini"
+      ],
+      "correct_answer": "Sensor sistemalar axboroti birlashtirilishini",
+      "explanation": "Bulutni ko‘rish, sovuqni sezish va momaqaldiroqni eshitish kabi turli signallar birgalikda vaziyatni tushunishga yordam beradi."
+    },
+    {
+      "key": "paragraph-52-q6",
+      "fact_id": "paragraph-52-f6",
+      "question_text": "Analizatorning o‘tkazuvchi qismi nimani bajaradi?",
+      "options": [
+        "Faqat ovqatni maydalaydi",
+        "Faqat siydikni to‘playdi",
+        "Signalni retseptordan markazga uzatadi",
+        "Faqat teri pigmentini ishlab chiqaradi"
+      ],
+      "correct_answer": "Signalni retseptordan markazga uzatadi",
+      "explanation": "Sezuvchi neyronlar analizatorning o‘tkazuvchi qismida retseptordan markazga signallarni yetkazadi."
+    }
+  ]
+}
