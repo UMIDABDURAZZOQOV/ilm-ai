@@ -1,5 +1,7 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Joriy davom ettirish nuqtasi — 2026-10-20:** mobil ilova va unga zarur backend tuzatishlari uchun quyidagi [release hardening hisobotini](#mobil-release-hardening--2026-10-20) o‘qing. Avvalgi yozuvlar tarix sifatida saqlangan. Ushbu ishda `main` emas, `feat/mobile-release-hardening` ishlatiladi. Veb-sayt kodi o‘zgartirilmaydi. Production release hali tasdiqlanmagan.
+
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
 - 2026-10-19: BOSQICH 0A (Duolingo 100% onboarding 6 ekrani) to'liq yakunlandi: 1-Ochilish (markazlashgan Ilmo 140, "Ilm AI", shior, "BOSHLASH" va "MENDA AKKAUNT BOR", haptic feedback), 2-Salom ("Salom! Men Ilmoman" pastga qaragan speech bubble, easeOutBack sakrash animatsiyasi), 3-Savollar kirish ("6 ta qisqa savolga" bold matn, Ilmo explaining), 4-Fan/sinf tanlash (ixcham Ilmo, gorizontal 5-11 sinf chiplari, 3D fan kartalari turkuaz tana/chegara/checkmark, faolsiz Davom etish), 5-Manba (8 ta tanlov: Do'stlar, Instagram/FB, TikTok, Telegram, YouTube, Do'kon, Maktab, Boshqa; SharedPreferences ga saqlash), 6-Yuklanish (nafas oluvchi Ilmo, "REJA TAYYORLANMOQDA...", motivatsion maslahat, 1.2s kechikish va fade-out).
@@ -33,6 +35,135 @@ Flutter: UI matnlari `str3`/`t()`; kontent tarjima qilinmagan bo‘lsa `ContentL
 - 2026-10-12 (Google Auth fix): login_screen.dart da navigatsiya aniqlandi (/setup yoki /learn), Render sovuq ishga tushishi va timeout uchun 3 tilli (uz/ru/en) xato xabarlari ulandi.
 - ILMO-REJA: 0-bosqich TUGADI. Google login tekshiruvi (taskAffinity, 30s timeout, needsProfileSetupProvider, /setup yo'naltirish) tasdiqlandi; 28/28 test va flutter analyze toza o'tdi.
 - 2026-10-12 (Palitra auditi): Boshlang'ich flutter analyze (No issues found!) va flutter test (34/34 o'tdi) tekshirildi.
+
+## Mobil release hardening — 2026-10-20
+
+### Ish doirasi, branchlar va saqlangan cheklovlar
+
+Bu bosqich auditdan keyingi **amalga oshirilgan kod o‘zgarishlari** hisoboti. Sana Asia/Tashkent bo‘yicha 2026-10-20. Markaziy hujjatning eski tarixi saqlandi; eski test sonlari va release da’volari ushbu bosqich natijalari o‘rnida ishlatilmaydi.
+
+| Repozitoriya | Tekshirilgan boshlang‘ich branch / commit | Ushbu bosqich |
+|---|---|---|
+| `ilm-ai` | `docs/codex-project-context` / `3a304aa90f1adab345d6473e1acbd94ecf4137a1` | `feat/mobile-release-hardening`; backend kod commit `b9ca0bd` va alohida ushbu hujjat commit |
+| `ilm-ai-flutter` | `subjects-only-duolingo` / `4f70cb20c94f0c4149a353617d26f61e07de849c` | `feat/mobile-release-hardening`; mobil kod commit `de52ca2` |
+| `ilm-ai-frontend` | `main` / `054f0cea9b78a9c791cba5aa478fc3769cbd85b8` | **Kod o‘zgartirilmagan; working tree toza; commit/push qilinmaydi.** |
+
+Backend va Flutter boshlang‘ich remote branchlari 2026-10-20 kuni qayta tekshirildi: yuqoridagi referenslardan yangi commit yo‘q edi. Production `main` branchlari o‘zgartirilmadi. Merge, deploy, Play Market nashri, production migratsiya yoki kalit almashtirish bajarilmadi.
+
+ILM AI nomi, logotipi, original Ilmo assetlari va `#2A1F6B`, `#F9A825`, `#2DD4BF` saqlandi. `SUBJECTS_ONLY=true` saqlandi. SAT, IELTS va boshqa yashirin modullar o‘chirilmadi; ulardagi kichik o‘zgarishlar umumiy motion/error yordamchilariga tegishli. Hearts/energy, gems, do‘kon, social feed va soxta reytinglar qo‘shilmadi. Faol mobil headerdagi chalg‘ituvchi `∞` hearts belgisi yashirildi; eski widget imkoniyati saqlandi.
+
+Fan nazariyasi, savollar, darsliklar, seed banklar va o‘quv dasturi tahrir qilinmadi. Testdagi kichik sintetik savollar faqat izolyatsiyalangan QA bazasiga tegishli. Haqiqiy `users.json` va foydalanuvchi yozuvlari o‘zgartirilmadi.
+
+Foydalanuvchining vebga tegmaslik ko‘rsatmasidan oldin tayyorlangan veb takliflari yo‘qotilmadi: workspace ichidagi `.setup/preserved-web-2026-10-20/` da to‘liq patch, asl fayllar va SHA-256 manifesti saqlandi. Ular ushbu commitlarga kiritilmagan va qayta qo‘llanmagan. Bu zaxira product/release asseti emas.
+
+### Oldingi auditdagi 20 muammo holati
+
+Quyidagi `B:` yo‘llari `ilm-ai/`, `M:` yo‘llari `ilm-ai-flutter/` ildiziga nisbatan berilgan. `Kod + test` avtomatik tekshiruv borligini bildiradi; bu real Android, Google yoki Firebase bilan release tekshiruvi o‘tdi degani emas.
+
+| # | Jiddiylik va foydalanuvchiga ta’sir | Amalda bajarilgan tuzatish va kod joyi | Tekshiruv / qolgan chegara |
+|---|---|---|---|
+| 1 | **High** — mijoz noto‘g‘ri javobni to‘g‘ri deb XP olishi mumkin edi | `B:services/study.py:grade/complete`, `B:routers/skills.py`: server berilgan savollar nusxasi va haqiqiy `answer_index`/`user_answer`dan o‘zi baholaydi. `is_correct`, `score`, `total` baholash manbai emas. | To‘g‘ri/noto‘g‘ri, begona/takror savol, bool/string index, yetishmayotgan javob testlari o‘tdi. Eski veb practice kontrakti bilan release bloklanadi; quyida batafsil. |
+| 2 | **High** — yo‘lda ochiq ko‘ringan dars API’da yopiq bo‘lishi yoki checkpointni chetlash mumkin edi | `B:services/skill_tree.py:lesson_status` bir xil `build_tree` qoidasidan foydalanadi; `B:services/study.py:checkpoint_ready` barcha darslarni talab qiladi. GET va POST checkpoint tekshiruvi bor. | Tree/start/complete prerequisite testlari o‘tdi. Eski prerequisite jadvali o‘chirilmagan. |
+| 3 | **High** — refreshdan keyin eski token qayta yozilib, sessiya buzilar edi | `M:lib/core/storage/secure_token_storage.dart:SecureTokenStorage`, `M:lib/features/auth/application/auth_controller.dart:build`, `M:lib/core/network/dio_client.dart:AuthInterceptor`: navbatlangan yozuvlar, o‘zgarish streami, conditional refresh va metadata merge. | Refreshdan keyingi controller tokeni, ism yangilash bilan poyga, refresh davomida logout testlari o‘tdi. |
+| 4 | **High** — internet yoki 500 sabab akkauntdan chiqarish | `M:lib/core/network/dio_client.dart:AuthInterceptor` va auth restore: faqat tasdiqlangan refresh 401 sessiyani bekor qiladi; offline/500/storage/format muammolari sessiyani asraydi, ko‘rinadigan retry beradi. | Refresh 401/500, timeout/offline, buzilgan response/storage, offline cold start testlari o‘tdi. Telefonning haqiqiy tarmoq almashishi kutiladi. |
+| 5 | **High** — cheksiz request/spinner va saqlashda chiqishning bloklanishi | Dio connect 20s/send 30s/receive 60s; refresh 20s. `M:.../auth_controller.dart:logout` lokal chiqishni serverdan ajratadi; revoke/unregister chegaralangan background so‘rovlari. Dars/practice qayta urinish UI saqlangan. | Finite deadline va offline logout testlari o‘tdi; saqlash xatosida retry testlari ham o‘tdi. |
+| 6 | **High** — retry bir necha marta XP/SRS yozishi | `B:services/study.py:complete`, `StudySession`, `StudyEvent`: atomic claim, foydalanuvchi locki, fingerprint va saqlangan response; hammasi bitta tranzaksiyada. Legacy mock/AI mukofoti ham replaydan himoyalandi. | Bir xil/parallel retry XPni bir marta beradi; o‘zgargan replay 409; rollbackdan keyin retry; SRS/daily/checkpoint testlari o‘tdi. Haqiqiy PostgreSQL concurrency hali tekshirilmagan. |
+| 7 | **High** — custom URI ichida access/refresh tokenlari chiqishi | `B:services/mobile_oauth.py`, `B:services/google_oauth.py`, `B:routers/auth.py:/mobile/exchange`, `M:.../google_auth.dart`: bir martalik state, S256 PKCE, qisqa muddatli kod va HTTPS exchange. URI faqat `code/state` olib keladi. | State replay/expiry/redirect, verifier, code bir martaligi va callbackda JWT yo‘qligi testlari o‘tdi. Real Google/Android redirect tekshiruvi qolgan. |
+| 8 | **High** — login oldidagi tanlovlar yo‘qolishi | `M:lib/features/onboarding/data/onboarding_draft.dart`, `M:.../auth_controller.dart`, `M:lib/features/skills/application/learning_preferences.dart`: guest draft bir marta akkauntga olinadi; completed name/age profilga yuboriladi; qolgan preference account bo‘yicha saqlanib serverga sinxronlanadi. | Draft transfer, account isolation, preference queue va profile resume testlari o‘tdi. Google orqali to‘liq cold/warm flow telefon QA’sida tekshiriladi. |
+| 9 | **Medium** — tugallanmagan profil qayta ochilganda noto‘g‘ri sahifa | `M:.../secure_token_storage.dart:StoredTokens.needsOnboarding`, auth restore/profile API, `M:.../duo_onboarding_screen.dart`: step, name/age va profil flagi tiklanadi; noma’lum offline holat retry bilan ochiq qoladi. | Cold start incomplete profile, guest resume va completed-account routing testlari o‘tdi. Force-kill/native storage tekshiruvi qolgan. |
+| 10 | **Medium** — natijadan keyin tablarda eski progress | `M:lib/core/providers/app_providers.dart:studyRevisionProvider`; lesson/practice/mock completion, path/profile/quests/league providerlari account va revisionni kuzatadi. Resume va UTC kun o‘zgarishi ham yangilaydi. | Testlar o‘tdi; izolyatsiyalangan browser/API flow’da 20 XP path/profil/ligada yangilandi, quests ekrani ham ochildi. |
+| 11 | **Medium** — XP/streak/goal/kalendar/liga turli hisob | `B:services/study.py:record_activity/activity_rows/xp_since/weekly_totals`, `B:routers/skills.py:summary/profile/leaderboard`; UTC activity, bir xil rolling 7 kun va account goal. Eski lesson/daily tarixi yangi ledger bilan ikki marta sanalmaydi. | Historical balance/history, streak, preference summary va bir martalik mukofot testlari o‘tdi. UTC yarim tun, freeze va uzoq vaqt ishlamagan account telefon/staging QA’sida. |
+| 12 | **Medium** — lokal Auth JSON, Skills SQL bo‘lib userlar ajralishi | `B:services/users.py`, `B:services/tokens.py`, `B:services/db.py`: odatiy auth/skills bir SQL omborida; explicit SQLite URL hurmat qilinadi. | Izolyatsiyalangan SQLite auth+skills API suite o‘tdi. `AUTH_STORAGE=legacy_json` faqat aniq tanlangan archival rejim; JSONdan ko‘chirish bajarilmadi. |
+| 13 | **Medium** — interfeys tillari aralashishi | `M:lib/app.dart` lokalizatsiya delegatlari, `M:lib/core/network/error_message.dart`, onboarding va skills feedback; checkpoint til parametri va translation fallback badge. Runtime tarjimaning variantlari baholash snapshotida saqlanadi. | uz/ru/en widget va feedback testlari o‘tdi. Kontentning pedagogik/tarjima sifati sertifikatlanmadi; tarjima ishlamasa asl kontent belgisi ko‘rsatiladi. |
+| 14 | **Medium** — kichik/landscape welcome kesilishi | `M:lib/features/onboarding/presentation/duo_onboarding_screen.dart`: welcome va oraliq ekranlar scroll, mavjud scroll ekranlarda ortiqcha nested scroll yo‘q; til/goal tanlovlari ham scroll. | 320px/landscape/kattalashtirilgan shrift widget testlari o‘tdi. Android klaviatura va display scaling QA’si qolgan. |
+| 15 | **Medium** — uzun feedback/AI izohi overflow | `M:.../skill_lesson_screen.dart`, `M:.../skill_practice_screen.dart`: feedback scroll bilan cheklangan, Continue tashqarida; theory/result scroll/Wrap; profile uzun matni Flexible. | Uzun feedback va kichik ekran widget testlari o‘tdi; browserdagi uzun feedback ko‘rib chiqildi. Real TalkBack scroll/focus qolgan. |
+| 16 | **Medium** — dispose bo‘lgan ekran callbacki yoki ushlanmagan Future | `M:.../ai_tutor_widget.dart`, onboarding callbacklari, auth storage dispose, bounded network va push callback guardlari; kuzatilmagan keraksiz tree-prefetch olib tashlandi. | Async lifecycle/auth va widget suite o‘tdi; browser runtime exception qayd etilmadi. Barcha qurilma lifecycle holatlari profil qilingan deb da’vo qilinmaydi. |
+| 17 | **Medium** — o‘qilmaydigan rang/semantika/fokus | `M:lib/core/widgets/duo_chrome.dart:61/133/229/304`, `M:.../skill_path_screen.dart:1309`, feedback live region: button/selected/status/percentage, keyboard InkWell, oltin/firuza yuzada to‘q matn; profile kontrasti. Flutter preview zoomi ochildi. | Semantika/kontrast/large-text widget testlari o‘tdi. **TalkBack va real Android focus order hali qo‘lda tekshirilishi shart.** |
+| 18 | **Medium** — Reduce Motion hamma joyda ishlamasligi | `M:lib/core/widgets/motion.dart`, Ilmo/mascot, confetti, path indicator, router, onboarding va ekran kirish animatsiyalari OS disableAnimations’ni hurmat qiladi; ko‘rilmayotgan tablarda ticker o‘chiriladi. | Static Ilmo va reduced-motion/widget testlari o‘tdi. OS accessibility tugmasi va low-end FPS tekshiruvi qolgan. |
+| 19 | **Medium** — FCM tokeni eski akkauntda qolishi | `M:lib/core/notifications/push_service.dart:registerWithBackend/stop/unregister`, auth/resume; `B:routers/notifications.py`, `B:services/users.py`: token yagona egasi, conditional unregister, refresh subscription va eski callback generation guard. | Backend account transfer/unregister testlari o‘tdi. Haqiqiy Firebase konfiguratsiya/ruxsat/token rotation/push delivery tekshirilmagan. |
+| 20 | **Low** — system tema OS o‘zgarsa eskicha qolishi | `M:lib/core/providers/app_providers.dart:platformBrightnessProvider`, `M:lib/app.dart` WidgetsBindingObserver: OS brightness o‘zgarishi providerga uzatiladi. | OS brightness widget testi o‘tdi; native dark/light almashishi telefon QA’sida. |
+
+### Qo‘shimcha tasdiqlangan tuzatishlar
+
+- `B:services/users.py:hash_password/verify_password`: yangi parollar uchun tasodifiy saltli PBKDF2-SHA256 (600 000 iteratsiya). Legacy SHA-256 hashlar compatibility uchun tekshiriladi; ularni productionda ommaviy qayta yozish bajarilmadi. Eski hashlar bo‘yicha alohida xavfsizlik bosqichi kerak.
+- Google account linking oldidan `verified_email` va Google subject tekshiriladi; mos kelmaydigan identity rad etiladi. Google’ga bloklovchi HTTP almashuv threadpoolga o‘tkazildi, request timeout bor. Google provayderini jonli login bilan sinash bajarilmadi.
+- `B:services/security_config.py` bo‘sh/whitespace/default `JWT_SECRET` va `SECRET_KEY` bilan production startni rad etadi. Haqiqiy kalitlar o‘zgartirilmadi, commitga kiritilmadi.
+- Legacy mock completion, pronunciation va written practice XP mukofotlari ham transactional/replay-safe ledgerga bog‘landi. Hidden subject exam mijoz `score`/`per_unit` qiymatlariga ishonmaydi, haqiqiy javoblardan hisoblaydi.
+- `B:routers/skills.py:profile` subject boshiga alohida query o‘rniga grouped query ishlatadi; fanlar ko‘payganda query soni oshmasligi test qilindi. Real production latency/FPS benchmark o‘lchanmadi.
+- `B:.dockerignore` credential, lokal data, `users.json`, DB va cache fayllarini Docker contextdan chiqaradi. Asl fayllar o‘chirilmagan.
+- `B:.github/workflows/ci.yml` dependency/test xatolarini `|| true` bilan yashirmaydi. Maintained suite `tests/` ichida; rootdagi eski jonli AI diagnostika skriptlari unit suite sifatida ishga tushirilmaydi. Docker build’ning oldingi `continue-on-error` holati saqlandi; bu release gate hali kuchaytirilishi mumkin.
+- `M:android/app/build.gradle.kts`: release debug keyga jim o‘tmaydi, upload key bo‘lmasa release task xato bilan to‘xtaydi. Android manifest backupni o‘chiradi. Gradle o‘zgarishi Android SDK yo‘qligi sabab build bilan tasdiqlanmagan.
+- `M:.gitignore` signing/env fayllarini chetlatadi; yangi Flutter CI analyzer, test va web build ishlatadi. Remote CI natijasi kuzatilmagan; lokal natijalar quyida.
+
+### UI/UX va motion qarorlari
+
+Original Ilmo’ning mavjud hello/thinking/explaining/happy/sad holatlari saqlandi. Onboardingdagi restart/resume, Continue/Back/optional Skip izchil qilindi; 1–11 sinf tanlovi profil preference sifatida saqlanadi. **Mavjud curriculum schema darslarni sinfga bog‘lamaydi**: sinf tanlovi kontentni filtrlash yoki to‘liq 1–11-sinf qamrovi tayyorligini anglatmaydi. UI shu cheklovni ochiq bildiradi; sinfga mos o‘quv kontenti keyingi alohida bosqich.
+
+Soxta 85% reja tayyorlash progressi o‘rniga haqiqiy form saqlangandan keyingi qisqa “TAYYOR / ГОТОВО / READY” holati qo‘yildi. Kundalik maqsad accountga bog‘langan, internet uzilsa lokal navbatdan qayta sinxronlanadi. Login tugagach allaqachon kiritilgan ism/yosh qayta so‘ralmaydi; yuborish muvaffaqiyatsiz bo‘lsa draft va ko‘rinadigan retry qoladi.
+
+Umumiy 3D tugma 90ms bosilish feedbacki, progress 320ms o‘tishi, choice/nav selected holatlari va path node semantikasi yaxshilandi. Reduce Motion bu harakatlarni to‘xtatadi/qisqartiradi; confetti va Ilmo ham moslashadi. Ko‘rilmayotgan tablar animatsiyasi ticker sarflamaydi. Practice timer backgrounddan kelganda qolgan vaqtni wall-clock deadline orqali hisoblaydi. “Duolingo’dan yaxshiroq” yoki “past quvvatli telefonda 60 FPS” natijasi o‘lchangan deb e’lon qilinmaydi.
+
+Loading/error/retry holatlari saqlanib, tarmoq/saqlash xatosi uch tilda tushunarli ko‘rsatiladi. Haqiqiy userlar bo‘lmasa soxta league raqiblari yaratilmaydi. Uzun feedback va izohlar scroll qiladi, keyingi amal ko‘rinadigan joyda qoladi. Brend ranglarini almashtirmasdan ulardagi matn kontrasti kuchaytirildi.
+
+### Backend–Flutter API kontraktlari va ma’lumot xavfsizligi
+
+1. Question GET/start response’da `attempt_id` bor. Server savollar/variantlarning aynan berilgan nusxasini saqlaydi; mavjud raqamli lesson attempt ID saqlandi. Completion `results` ichida `question_id` va haqiqiy `answer_index` yoki `user_answer` yuboradi. `is_correct` advisory sifatida qabul qilinadi, ammo hisoblashda ishlatilmaydi. Lightning/marathon/examning eski `score/total` maydonlari ham faqat advisory. Mobil repository barcha tegishli oqimlarda haqiqiy javob va attemptni yuboradi.
+2. Attempt user/kind/scope bilan tekshiriladi. Bir xil retry saqlangan response qaytaradi, o‘zgargan retry 409. Tugallanmagan attempt 24 soatda eskiradi; daily UTC kun bilan chegaralangan. Eski app sessiyasi yangi snapshot bo‘lmasa 409 olishi mumkin va darsni qayta boshlashi kerak. Attempt/event retention uchun production o‘chirish siyosati bu bosqichda ishga tushirilmadi.
+3. Yangi `StudySession`, `StudyEvent`, `OAuthState`, `MobileLoginGrant`, `UserStudyPreferences` jadvallari **additive**. Eski user/progress jadvallari, balanslar va lesson/daily tarixi o‘chirilmagan. Mavjud startup `create_all` mexanizmi saqlangan; productionda bu DDL bajarilmadi. Avval PostgreSQL staging backup/rehearsal va egasining migratsiya ruxsati kerak.
+4. OAuth mobil start `code_challenge` va `code_challenge_method=S256` yuboradi. State redirectga bog‘langan, bir martalik, 10 daqiqa; mobil kod hash bilan saqlanadi, 90 soniya, bir martalik. `POST /auth/mobile/exchange` `code`/`code_verifier` orqali HTTPS’da token beradi. Mobil callback URI token tashimaydi, client state/scheme/host/pathni tekshiradi. Eski PKCEsiz mobil client upgrade talab qiladi. Web callback JSON shakli saqlangan.
+5. Refresh token rotation serverda bir tranzaksiyada consume+replace qiladi; mobil yozuvlar conditional bo‘lib, kechikkan refresh logout yoki yangi accountni qayta tiriltirmaydi. Profil response’da eski `id` saqlanib, `user_id` alias qo‘shildi; password qaytmaydi.
+6. `GET/POST /skills/{user_id}/preferences` account access bilan tekshiriladi: daily goal, subject, grade, discovery source, self-reported level, reason. Ular learning contentni tahrirlamaydi. Mobil queue account/version bo‘yicha ajratilgan; eskirgan yozuv yangisini bosmaydi.
+7. XP/activity va streak UTC asosida; liga/summary rolling 7 kunni bir xil hisoblaydi. Yangi eventlar eski lesson/daily bilan ikki marta qo‘shilmaydi. Tarixda event yozilmagan boshqa legacy mukofotlar uchun bulk backfill yoki umumiy balansni qayta hisoblash bajarilmadi. Referral kabi o‘qishdan tashqari XP qoidalari o‘zgartirilmadi.
+8. FCM token accountlar orasida yagona egaga ko‘chadi; `POST /notifications/unregister-token` faqat o‘sha account va token mos bo‘lsa yechadi. Logout captured credential bilan eski bindingni yechadi; keyingi accountga tegishli tokenni o‘chirmaydi.
+9. Explicit legacy JSON auth rejimi saqlandi, ammo to‘liq SQL Skills bilan umumiy user identifikatsiyasi uchun oddiy ishlash rejimi database bo‘lishi kerak. JSON-only installni productionga ko‘chirish alohida ruxsat va migration rejasi talab qiladi; bu ishda bajarilmadi.
+
+**Veb moslik bo‘yicha release bloklovchi dalil:** o‘zgartirilmagan `ilm-ai-frontend` ayrim practice completionlarda faqat `is_correct`, lightning/marathonda esa faqat `score/total` yuboradi. Server bunday payload’dan o‘quvchining tanlagan javobini aniqlay olmaydi. Xavfsizlikni chetlash o‘rniga ular 422 bilan rad etiladi; yetti eski payload shakli uchun regression test shu natijani tasdiqlaydi. Bu veb integratsiyasi o‘tdi degani emas. Mavjud web lesson `user_answer` kontrakti alohida testda ishladi; read/profile va web auth callback shakllari saqlandi. Foydalanuvchi veb kodini o‘zgartirmaslikni buyurgan: vebga patch qo‘llanmagan. **Kelgusida alohida ruxsat etilgan client rollout/versiyalash yechimi tayyor bo‘lmaguncha ushbu backendni umumiy productionga deploy qilish mumkin emas.**
+
+### Amalda bajarilgan tekshiruvlar
+
+Cloud setup qayta ishlatish skriptlari workspace `.setup/install.sh` va `.setup/flutter-env.sh` ichida. Rasmiy Flutter arxivi SHA-256 bilan tekshirilgan, TLS tekshiruvi o‘chirilmagan. `storage.googleapis.com`, `fonts.googleapis.com`, `fonts.gstatic.com` so‘rovlari 200 qaytardi. Credentiallar/fayl bazalarini repo yoki buildga kiritish tekshirildi.
+
+| Tekshiruv | Haqiqiy natija va chegara |
+|---|---|
+| Backend `DATABASE_URL=sqlite:////tmp/ilm-release-final-tests.db .../python -m pytest -q` | **47 passed, 12 warnings, 9.81s**. FastAPI `on_event`/Pydantic Config deprecation warninglari qolgan. SQLite izolyatsiyalangan suite, productionga ulanmagan. |
+| Backend `ruff check main.py routers services tests --select F821,F822,E9` | **All checks passed**. Bu to‘liq security audit yoki barcha style qoidalari o‘tdi degani emas. |
+| PostgreSQL additive schema | DDL PostgreSQL dialect bilan compile qilindi; eski jadvallar o‘chirilmasligi test qilindi. **Haqiqiy PostgreSQL server/concurrency/rehearsal ishlatilmagan.** |
+| Flutter 3.44.6 / Dart 3.12.2 `flutter analyze` | **No issues found**. |
+| `flutter test` | **79 tests passed**, auth/refresh/draft/preference, responsive, motion, semantika va mavjud subject suite bilan. |
+| `flutter build web --no-pub --no-web-resources-cdn --no-wasm-dry-run` | **Built build/web**, yakuniy kod uchun 47.5s. Bu Flutter targeti, Next.js veb-sayt kodi emas. |
+| Real browser + local API smoke | Izolyatsiyalangan sintetik user va ikki QA savol: dars 2/2 → 20 XP → 1 streak; checkpoint ochildi; path/profil/liga haqiqiy bazadagi natijani ko‘rsatdi; quests/navigatsiya ochildi, uzun feedback ko‘rib chiqildi; qayd etilgan runtime exceptionlar `[]`. Bu Play release yoki haqiqiy Google login emas. |
+| Veb compatibility | O‘zgartirilmagan veb baseline’da `npx tsc --noEmit` exit 0. Backendda eski practice payloadlari uchun 422 va lesson `user_answer` uchun success test qilindi. Avvalgi veb patch buildi yakuniy o‘zgartirilmagan saytning test natijasi sifatida ko‘rsatilmaydi. |
+| `flutter build apk --debug --no-pub` | **Bajarilmadi: No Android SDK found.** `flutter doctor` Android SDK yo‘qligini tasdiqladi; Maven/CocoaPods domainlari ham proxy 403 berdi. SDK o‘rnatilgan deb taxmin qilinmaydi. |
+| iOS/native release signing, Google, Firebase | Ushbu cloud muhitida real qurilma, macOS/Xcode va production integratsiya tekshiruvi yo‘q; **o‘tdi deb e’lon qilinmaydi**. |
+| Git/staged hygiene | `git diff --check` toza; o‘zgargan fayllarda private-key/token signature tekshiruvi topilmadi; env, signing key, users.json va DB fayllari commitga qo‘shilmagan. Bu barcha eski repo tarixini credential scan qildik degani emas. |
+
+Browser QA screenshotlari workspace `.setup/release-learn.png`, `release-feedback-long.png`, `release-result.png`, `release-progress.png`, `release-profile.png`, `release-quests.png`, `release-league.png` da. Ular sintetik fixture bilan olingan dalil, mahsulotga qo‘shilgan soxta user yoki asset emas. Browser fixture, token, `.dart_tool` smoke entrypoint va build artefaktlari commit qilinmagan. Web/TalkBack semantika testini native TalkBack tekshiruvi bilan tenglashtirmang.
+
+### Real Android va staging uchun qolgan QA
+
+- Native splash → Flutter splash, cold/warm start, force-killdan keyin guest draft va incomplete profile. 1–11 sinf faqat preference ekanini, language/goal account bo‘yicha to‘g‘ri tiklanishini tekshirish.
+- Google tanlash, cancel, 2FA, brauzerdan qaytish, process death va custom URI interception: noto‘g‘ri state/verifier, ishlatilgan/eskirgan kod, token URI/loglarda chiqmasligi. Production Google redirect konfiguratsiyasi bilan tekshirish.
+- Refresh paytida logout/account A→B, airplane mode, 500, javob yo‘lda yo‘qolishi, double-tap/retry; XP/SRS/checkpoint faqat bir marta o‘zgarishi. Darsdan keyin barcha besh tabda natija yangilanishi.
+- FCM ruxsatini rad etish/berish, token rotation, app restart, account almashishi va eski account logouti yangi tokenni yechmasligi; haqiqiy push delivery.
+- 320px, landscape, shrift 200%, display scaling, klaviatura ochiq holat, uzun nazariya/feedback/AI izohi. TalkBack focus tartibi, tugun holatlari, feedback announcement va Continue ga yetish; OS dark/light va Reduce Motion.
+- Past quvvatli haqiqiy Androidda profile mode frame timing, xotira va lifecycle kuzatuvi. Bu bosqichda frame-drop/memory-leak benchmark raqamlari o‘lchanmagan.
+- UTC kun almashishi, streak freeze, eski tarixli account, daily goal va liga chegaralari; PostgreSQLda parallel submit/refresh, additive DDL, backup va staging rollout. Production migratsiyasidan oldin alohida ruxsat.
+- Release upload key, Gradle/Android build, secure-storage qayta o‘rnatish/backup, Android API darajalari; iOS kerak bo‘lsa alohida macOS/native tekshiruv.
+
+### Xavfsiz birga chiqariladigan ishlar va release gate
+
+Mobil auth/storage/OAuth tuzatishlari backend PKCE/rotation bilan, mobil attempt payloadlari esa backend authoritative grading/idempotency bilan **birgalikda review va staging** qilinishi kerak. Ularni o‘zaro mos bo‘lmagan eski client/serverga alohida chiqarish xavfsiz deb hisoblanmaydi. Umumiy motion, semantika, scroll va kontrast o‘zgarishlarini bitta mobil regression siklida tekshirish mumkin. Content yaratish, grade curriculum mapping va legacy data migration boshqa bosqichlar.
+
+Release-ready holati **tasdiqlanmagan**. Bloklovchilar: o‘zgartirilmagan veb practice kontrakti; Android/iOS/native Google/FCM tekshiruvi; haqiqiy PostgreSQL rehearsal; release signing/build va qurilma accessibility/performance QA. Production deploy, migratsiya, merge yoki nashr uchun bu hujjat avtomatik ruxsat bermaydi.
+
+GitHub review uchun backend base `docs/codex-project-context`, Flutter base `subjects-only-duolingo`; ikkalasida head `feat/mobile-release-hardening`. Git HTTPS proxy orqali repository read va push dry-run ishladi; GitHub API chaqiruvi Forbidden qaytargani sabab PR yaratish imkoniyati alohida tekshiriladi. PR yaratilmagan bo‘lsa compare havolasini PR deb ko‘rsatmang:
+
+- Backend compare: https://github.com/UMIDABDURAZZOQOV/ilm-ai/compare/docs/codex-project-context...feat/mobile-release-hardening
+- Flutter compare: https://github.com/UMIDABDURAZZOQOV/ilm-ai-flutter/compare/subjects-only-duolingo...feat/mobile-release-hardening
+
+### O‘zgartirilgan fayllar inventari
+
+Quyidagi ro‘yxat backend `b9ca0bd` va Flutter `de52ca2` commitlarining aniq fayllaridan olinadi; markaziy `CLAUDE.md` alohida hujjat commitida. Veb-sayt repozitoriyasida o‘zgargan fayl yo‘q.
 - 2026-10-12 (Palitra auditi): lib/ dagi qoldiq ranglar to'g'rilandi (skill_path banner Continue tugmasi fg subjectColor, skill_quests freeze ikonkasi turkuaz #2DD4BF, skill_achievements da yutilgan nishonlarga RombBadge ulandi).
 - 2026-10-12 (Ilova ikonkasi): flutter_launcher_icons orqali indigo #2A1F6B adaptive icon va iOS AppIcon generatsiya qilindi; AndroidManifest da icon/roundIcon (@mipmap/ic_launcher) va 'Ilm AI' nomi tasdiqlandi.
 
@@ -1720,3 +1851,116 @@ Got the Flutter app store-ready, then hit a hard blocker documented below.
 - 🚫 **BLOCKER — owner is 17.** Owner was born **2008-09-11**, so on 2026-08-06 they are 17; Google requires **18+** and now demands **identity verification (photo ID: passport / national ID — NOT birth certificate or military registration)** before you can even create an app. **Do NOT upload the owner's ID before their 18th birthday (2026-09-11)** — it shows age 17, would fail, and could suspend the account (the $25 is non-refundable). **Resume publishing after 2026-09-11** (verify with the owner's passport then), OR put the whole account in an adult's (father's) name. Everything else (AAB, keystore, privacy, listing, Data Safety) is ready to go the moment identity is verifiable.
 - **OUTSTANDING for launch (post-verification):** publish Google OAuth consent screen to **Production** (else non-test users can't sign in); complete the Data Safety + content rating; run the 14-day closed test; optionally move Render to the $7 Starter plan (cold start).
 
+
+**ilm-ai**
+
+```text
+.dockerignore
+.github/workflows/ci.yml
+main.py
+pytest.ini
+routers/auth.py
+routers/mock_exam.py
+routers/notifications.py
+routers/skills.py
+services/db.py
+services/google_oauth.py
+services/mobile_oauth.py
+services/models.py
+services/security_config.py
+services/skill_tree.py
+services/study.py
+services/tokens.py
+services/users.py
+tests/test_release_hardening.py
+```
+
+**ilm-ai-flutter**
+
+```text
+.github/workflows/ci.yml
+.gitignore
+android/app/build.gradle.kts
+android/app/src/main/AndroidManifest.xml
+lib/app.dart
+lib/core/network/dio_client.dart
+lib/core/network/error_message.dart
+lib/core/notifications/push_service.dart
+lib/core/providers/app_providers.dart
+lib/core/router/app_router.dart
+lib/core/splash/splash_screen.dart
+lib/core/storage/secure_token_storage.dart
+lib/core/widgets/animated_pressable.dart
+lib/core/widgets/app_text_field.dart
+lib/core/widgets/celebration_confetti.dart
+lib/core/widgets/chat_bubble.dart
+lib/core/widgets/duo_chrome.dart
+lib/core/widgets/error_banner.dart
+lib/core/widgets/gradient_button.dart
+lib/core/widgets/main_shell.dart
+lib/core/widgets/mascot_image.dart
+lib/core/widgets/motion.dart
+lib/core/widgets/premium_button.dart
+lib/features/assistant/presentation/assistant_screen.dart
+lib/features/auth/application/auth_controller.dart
+lib/features/auth/application/google_auth.dart
+lib/features/auth/data/auth_repository.dart
+lib/features/auth/presentation/forgot_password_screen.dart
+lib/features/auth/presentation/login_screen.dart
+lib/features/auth/presentation/signup_screen.dart
+lib/features/auth/presentation/verify_email_screen.dart
+lib/features/chat/presentation/chat_screen.dart
+lib/features/college/presentation/college_list_screen.dart
+lib/features/course/presentation/course_screen.dart
+lib/features/dashboard/presentation/dashboard_screen.dart
+lib/features/decks/presentation/decks_screen.dart
+lib/features/files/presentation/knowledge_base_screen.dart
+lib/features/focus/presentation/focus_screen.dart
+lib/features/gaps/presentation/gaps_report_screen.dart
+lib/features/ielts/presentation/ielts_hub_screen.dart
+lib/features/insights/presentation/insights_screen.dart
+lib/features/learning_plan/presentation/learning_plan_screen.dart
+lib/features/math_solver/presentation/math_solver_screen.dart
+lib/features/onboarding/data/onboarding_draft.dart
+lib/features/onboarding/presentation/duo_onboarding_screen.dart
+lib/features/onboarding/presentation/language_select_screen.dart
+lib/features/onboarding/presentation/onboarding_screen.dart
+lib/features/profile/presentation/profile_screen.dart
+lib/features/quiz/presentation/flashcard_screen.dart
+lib/features/quiz/presentation/quiz_home_screen.dart
+lib/features/quiz/presentation/quiz_session_screen.dart
+lib/features/quiz/presentation/quiz_stats_screen.dart
+lib/features/quiz/presentation/review_screen.dart
+lib/features/sat/presentation/sat_hub_screen.dart
+lib/features/settings/presentation/settings_screen.dart
+lib/features/skills/application/learning_preferences.dart
+lib/features/skills/data/skill_extras_models.dart
+lib/features/skills/data/skill_extras_repository.dart
+lib/features/skills/presentation/ai_tutor_widget.dart
+lib/features/skills/presentation/daily_goal_bottom_sheet.dart
+lib/features/skills/presentation/hearts_xp_widgets.dart
+lib/features/skills/presentation/mascot.dart
+lib/features/skills/presentation/mock_exam_screen.dart
+lib/features/skills/presentation/skill_achievements_screen.dart
+lib/features/skills/presentation/skill_leaderboard_screen.dart
+lib/features/skills/presentation/skill_lesson_screen.dart
+lib/features/skills/presentation/skill_path_screen.dart
+lib/features/skills/presentation/skill_practice_screen.dart
+lib/features/skills/presentation/skill_profile_screen.dart
+lib/features/skills/presentation/skill_quests_screen.dart
+lib/features/skills/presentation/skills_hub_screen.dart
+lib/features/skills/presentation/streak_calendar_widget.dart
+lib/features/skills/presentation/subject_home_screen.dart
+lib/features/studio/presentation/studio_hub_screen.dart
+lib/features/subscription/presentation/subscription_screen.dart
+lib/features/telegram/presentation/telegram_screen.dart
+lib/features/vocab/presentation/vocab_screen.dart
+pubspec.lock
+pubspec.yaml
+test/brand_theme_test.dart
+test/duo_onboarding_test.dart
+test/release_hardening_test.dart
+test/subject_experience_test.dart
+test/support/offline_preferences.dart
+web/index.html
+```
