@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-35-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-52",
+  "title": "Ko‘l baqasining tashqi tuzilishi, skeleti va muskullari .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-35-f1": {
+      "claim": "Ko‘l baqasi uzun yopishqoq tilini chiqarib mayda o‘ljani tutadi; quruqlikdagi ovda bu tuzilma muhim.",
+      "answer": "Uzun yopishqoq tili",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f2": {
+      "claim": "Baqaning ko‘zini harakatchan qovoqlar himoya qiladi va namlaydi. Baliqning qovoqsiz ko‘zidan shu jihatdan farq qiladi.",
+      "answer": "Ko‘zni himoyalash va namlash",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f3": {
+      "claim": "Baqa burni og‘iz bo‘shlig‘i bilan tutashgan; burun teshiklari hid bilish va havo o‘tkazishda qatnashadi.",
+      "answer": "Hid bilish va havo o‘tkazish",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f4": {
+      "claim": "Ko‘l baqasining uzun va kuchli orqa oyoqlari sakrashga, barmoqlari orasidagi suzgich parda esa suvda suzishga yordam beradi.",
+      "answer": "Suvda suzishga",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f5": {
+      "claim": "Baqaning bosh skeleti bo‘yin umurtqasi orqali tana skeletiga harakatchan tutashgan; bu boshni burish va egishga imkon beradi.",
+      "answer": "Bo‘yin umurtqasi orqali tutashganiga",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-35-f6": {
+      "claim": "Baqa terisidagi bezlar ajratgan shilimshiq terini nam saqlaydi va qurib qolishdan himoya qiladi.",
+      "answer": "Terini nam saqlash",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "O‘ljani tutuvchi til",
+      "body": "Ko‘l baqasi uzun yopishqoq tilini chiqarib mayda o‘ljani tutadi; quruqlikdagi ovda bu tuzilma muhim.",
+      "fact_ids": [
+        "paragraph-35-f1"
+      ]
+    },
+    {
+      "title": "Ko‘zning quruqlikka moslashishi",
+      "body": "Baqaning ko‘zini harakatchan qovoqlar himoya qiladi va namlaydi. Baliqning qovoqsiz ko‘zidan shu jihatdan farq qiladi.",
+      "fact_ids": [
+        "paragraph-35-f2"
+      ]
+    },
+    {
+      "title": "Havo yo‘lining kirish qismi",
+      "body": "Baqa burni og‘iz bo‘shlig‘i bilan tutashgan; burun teshiklari hid bilish va havo o‘tkazishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-35-f3"
+      ]
+    },
+    {
+      "title": "Sakrash va suzish",
+      "body": "Ko‘l baqasining uzun va kuchli orqa oyoqlari sakrashga, barmoqlari orasidagi suzgich parda esa suvda suzishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-35-f4"
+      ]
+    },
+    {
+      "title": "Boshning harakatlanishi",
+      "body": "Baqaning bosh skeleti bo‘yin umurtqasi orqali tana skeletiga harakatchan tutashgan; bu boshni burish va egishga imkon beradi.",
+      "fact_ids": [
+        "paragraph-35-f5"
+      ]
+    },
+    {
+      "title": "Nam terini saqlash",
+      "body": "Baqa terisidagi bezlar ajratgan shilimshiq terini nam saqlaydi va qurib qolishdan himoya qiladi.",
+      "fact_ids": [
+        "paragraph-35-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-35-q1",
+      "fact_id": "paragraph-35-f1",
+      "question_text": "Baqa mayda hasharotni qaysi tuzilma yordamida yopishtirib oladi?",
+      "options": [
+        "Uzun yopishqoq tili",
+        "Faqat dum suzgichi",
+        "Faqat yon chizig‘i",
+        "Faqat qattiq ustqanoti"
+      ],
+      "correct_answer": "Uzun yopishqoq tili",
+      "explanation": "Ko‘l baqasi uzun yopishqoq tilini chiqarib mayda o‘ljani tutadi; quruqlikdagi ovda bu tuzilma muhim."
+    },
+    {
+      "key": "paragraph-35-q2",
+      "fact_id": "paragraph-35-f2",
+      "question_text": "Baqa ko‘zidagi qovoqlarning asosiy foydasi nima?",
+      "options": [
+        "Tuxumni urug‘lantirish",
+        "Oziqni oshqozonga haydash",
+        "Qonni jabralarga filtrlash",
+        "Ko‘zni himoyalash va namlash"
+      ],
+      "correct_answer": "Ko‘zni himoyalash va namlash",
+      "explanation": "Baqaning ko‘zini harakatchan qovoqlar himoya qiladi va namlaydi. Baliqning qovoqsiz ko‘zidan shu jihatdan farq qiladi."
+    },
+    {
+      "key": "paragraph-35-q3",
+      "fact_id": "paragraph-35-f3",
+      "question_text": "Baqaning burun teshiklari qaysi vazifalarni bajaradi?",
+      "options": [
+        "Faqat oziqni maydalash",
+        "Faqat suzgich pufagini shishirish",
+        "Hid bilish va havo o‘tkazish",
+        "Faqat qon ishlab chiqarish"
+      ],
+      "correct_answer": "Hid bilish va havo o‘tkazish",
+      "explanation": "Baqa burni og‘iz bo‘shlig‘i bilan tutashgan; burun teshiklari hid bilish va havo o‘tkazishda qatnashadi."
+    },
+    {
+      "key": "paragraph-35-q4",
+      "fact_id": "paragraph-35-f4",
+      "question_text": "Barmoqlar orasidagi suzgich parda baqaga qanday yordam beradi?",
+      "options": [
+        "Faqat yorug‘likni ko‘rishga",
+        "Suvda suzishga",
+        "Faqat havoda uchishga",
+        "Faqat qumda tuxum ko‘mishga"
+      ],
+      "correct_answer": "Suvda suzishga",
+      "explanation": "Ko‘l baqasining uzun va kuchli orqa oyoqlari sakrashga, barmoqlari orasidagi suzgich parda esa suvda suzishga yordam beradi."
+    },
+    {
+      "key": "paragraph-35-q5",
+      "fact_id": "paragraph-35-f5",
+      "question_text": "Baqa boshining baliqnikiga nisbatan harakatchanligi nimaga bog‘liq?",
+      "options": [
+        "Bo‘yin umurtqasi orqali tutashganiga",
+        "Faqat boshning teri bilan qoplanishiga",
+        "Faqat ko‘zning yirikligiga",
+        "Faqat yon chiziqning ochiqligiga"
+      ],
+      "correct_answer": "Bo‘yin umurtqasi orqali tutashganiga",
+      "explanation": "Baqaning bosh skeleti bo‘yin umurtqasi orqali tana skeletiga harakatchan tutashgan; bu boshni burish va egishga imkon beradi."
+    },
+    {
+      "key": "paragraph-35-q6",
+      "fact_id": "paragraph-35-f6",
+      "question_text": "Baqa terisidagi shilimshiq bezlarning vazifasi nima?",
+      "options": [
+        "Tashqi qattiq suyak plastinka hosil qilish",
+        "Faqat ipak ip yigirish",
+        "Quruq muguz tangacha ishlab chiqarish",
+        "Terini nam saqlash"
+      ],
+      "correct_answer": "Terini nam saqlash",
+      "explanation": "Baqa terisidagi bezlar ajratgan shilimshiq terini nam saqlaydi va qurib qolishdan himoya qiladi."
+    }
+  ]
+}

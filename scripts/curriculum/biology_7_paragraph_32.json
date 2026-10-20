@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-32-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-48",
+  "title": "Baliqlarning ko‘payishi va rivojlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-32-f1": {
+      "claim": "Zog‘ora baliq urg‘ochisida tuxum hujayralar tuxumdonda, erkagida spermatozoidlar urug‘donlarda yetiladi.",
+      "answer": "Tuxumdonda",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f2": {
+      "claim": "Urg‘ochi zog‘ora suv o‘simliklariga uvildiriq tashlaydi; erkak suvdagi tuxumlar ustiga spermatozoidli suyuqlik chiqaradi.",
+      "answer": "Tashqi muhit — suvda",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f3": {
+      "claim": "Ayrim losossimonlar dengizdan chuchuk suvga ko‘payish uchun o‘tadi; Yevropa ug‘ori esa daryolardan dengizga boradi.",
+      "answer": "Turiga qarab yo‘nalishi har xil bo‘lishi mumkin",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f4": {
+      "claim": "Naslni qo‘riqlamaydigan ko‘p baliqlar ko‘plab tuxum tashlaydi, chunki tuxum va lichinkalarning katta qismi boshqa hayvonlarga yem bo‘ladi.",
+      "answer": "Tuxum va lichinkalarning ko‘pi nobud bo‘lishi bilan",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f5": {
+      "claim": "Erkak tikanbaliq uya yasaydi, urug‘langan tuxum va yoshlarni mustaqil oziqlanishigacha himoya qiladi.",
+      "answer": "Erkagining uya qurib naslni qo‘riqlashi",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f6": {
+      "claim": "Dengiz otchasi erkagi tuxumlarni qornidagi maxsus xaltachada olib yuradi. Naslga g‘amxo‘rlik turlarda turlicha bo‘ladi.",
+      "answer": "Dengiz otchasi erkagi",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Jinsiy hujayralar va organlar",
+      "body": "Zog‘ora baliq urg‘ochisida tuxum hujayralar tuxumdonda, erkagida spermatozoidlar urug‘donlarda yetiladi.",
+      "fact_ids": [
+        "paragraph-32-f1"
+      ]
+    },
+    {
+      "title": "Tashqi urug‘lanish",
+      "body": "Urg‘ochi zog‘ora suv o‘simliklariga uvildiriq tashlaydi; erkak suvdagi tuxumlar ustiga spermatozoidli suyuqlik chiqaradi.",
+      "fact_ids": [
+        "paragraph-32-f2"
+      ]
+    },
+    {
+      "title": "Ko‘payish uchun ko‘chish",
+      "body": "Ayrim losossimonlar dengizdan chuchuk suvga ko‘payish uchun o‘tadi; Yevropa ug‘ori esa daryolardan dengizga boradi.",
+      "fact_ids": [
+        "paragraph-32-f3"
+      ]
+    },
+    {
+      "title": "Ko‘p tuxum va naslning saqlanishi",
+      "body": "Naslni qo‘riqlamaydigan ko‘p baliqlar ko‘plab tuxum tashlaydi, chunki tuxum va lichinkalarning katta qismi boshqa hayvonlarga yem bo‘ladi.",
+      "fact_ids": [
+        "paragraph-32-f4"
+      ]
+    },
+    {
+      "title": "Tikanbaliqda parvarish",
+      "body": "Erkak tikanbaliq uya yasaydi, urug‘langan tuxum va yoshlarni mustaqil oziqlanishigacha himoya qiladi.",
+      "fact_ids": [
+        "paragraph-32-f5"
+      ]
+    },
+    {
+      "title": "Dengiz otchasida parvarish",
+      "body": "Dengiz otchasi erkagi tuxumlarni qornidagi maxsus xaltachada olib yuradi. Naslga g‘amxo‘rlik turlarda turlicha bo‘ladi.",
+      "fact_ids": [
+        "paragraph-32-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-32-q1",
+      "fact_id": "paragraph-32-f1",
+      "question_text": "Baliqning tuxum hujayralari qaysi organda yetiladi?",
+      "options": [
+        "Tuxumdonda",
+        "Urug‘donda",
+        "Suzgich pufagida",
+        "Jabra ravog‘ida"
+      ],
+      "correct_answer": "Tuxumdonda",
+      "explanation": "Zog‘ora baliq urg‘ochisida tuxum hujayralar tuxumdonda, erkagida spermatozoidlar urug‘donlarda yetiladi."
+    },
+    {
+      "key": "paragraph-32-q2",
+      "fact_id": "paragraph-32-f2",
+      "question_text": "Zog‘ora baliqda tuxum va spermatozoid qayerda uchrashadi?",
+      "options": [
+        "Faqat quruq tuxum po‘stida",
+        "Faqat erkakning suzgichida",
+        "Faqat urg‘ochining og‘iz bo‘shlig‘ida",
+        "Tashqi muhit — suvda"
+      ],
+      "correct_answer": "Tashqi muhit — suvda",
+      "explanation": "Urg‘ochi zog‘ora suv o‘simliklariga uvildiriq tashlaydi; erkak suvdagi tuxumlar ustiga spermatozoidli suyuqlik chiqaradi."
+    },
+    {
+      "key": "paragraph-32-q3",
+      "fact_id": "paragraph-32-f3",
+      "question_text": "Ko‘payish migratsiyasi haqida qaysi xulosa to‘g‘ri?",
+      "options": [
+        "Barcha turlar bir xil daryoga boradi",
+        "Migratsiya faqat g‘umbak davrida bo‘ladi",
+        "Turiga qarab yo‘nalishi har xil bo‘lishi mumkin",
+        "Barcha baliqlar faqat quruqlikka chiqadi"
+      ],
+      "correct_answer": "Turiga qarab yo‘nalishi har xil bo‘lishi mumkin",
+      "explanation": "Ayrim losossimonlar dengizdan chuchuk suvga ko‘payish uchun o‘tadi; Yevropa ug‘ori esa daryolardan dengizga boradi."
+    },
+    {
+      "key": "paragraph-32-q4",
+      "fact_id": "paragraph-32-f4",
+      "question_text": "Ayrim baliqlarning juda ko‘p tuxum tashlashi nima bilan bog‘liq?",
+      "options": [
+        "Baliqlarning fotosintezga o‘tishi bilan",
+        "Tuxum va lichinkalarning ko‘pi nobud bo‘lishi bilan",
+        "Har bir tuxumning albatta voyaga yetishi bilan",
+        "Hech bir yirtqich tuxumni yemay qo‘yishi bilan"
+      ],
+      "correct_answer": "Tuxum va lichinkalarning ko‘pi nobud bo‘lishi bilan",
+      "explanation": "Naslni qo‘riqlamaydigan ko‘p baliqlar ko‘plab tuxum tashlaydi, chunki tuxum va lichinkalarning katta qismi boshqa hayvonlarga yem bo‘ladi."
+    },
+    {
+      "key": "paragraph-32-q5",
+      "fact_id": "paragraph-32-f5",
+      "question_text": "Tikanbaliqda naslga g‘amxo‘rlikning qaysi ko‘rinishi bor?",
+      "options": [
+        "Erkagining uya qurib naslni qo‘riqlashi",
+        "Tuxumlarni quruq bargga tashlab ketish",
+        "Tuxumlarni hasharotlarga berib yuborish",
+        "Yoshlarni albatta dengizdan cho‘lga chiqarish"
+      ],
+      "correct_answer": "Erkagining uya qurib naslni qo‘riqlashi",
+      "explanation": "Erkak tikanbaliq uya yasaydi, urug‘langan tuxum va yoshlarni mustaqil oziqlanishigacha himoya qiladi."
+    },
+    {
+      "key": "paragraph-32-q6",
+      "fact_id": "paragraph-32-f6",
+      "question_text": "Tuxumlarini qorin xaltachasida olib yuradigan baliq qaysi?",
+      "options": [
+        "Zog‘ora baliq erkagi",
+        "Oddiy ug‘or lichinkasi",
+        "Barcha akulalar",
+        "Dengiz otchasi erkagi"
+      ],
+      "correct_answer": "Dengiz otchasi erkagi",
+      "explanation": "Dengiz otchasi erkagi tuxumlarni qornidagi maxsus xaltachada olib yuradi. Naslga g‘amxo‘rlik turlarda turlicha bo‘ladi."
+    }
+  ]
+}

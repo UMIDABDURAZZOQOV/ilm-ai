@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-27-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-40",
+  "title": "Hasharotlarning kelib chiqishi va ahamiyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-27-f1": {
+      "claim": "Hasharotlar qaldirg‘och, kaltakesak, baqa va boshqa ko‘plab hayvonlar uchun oziqdir. Hasharotlar sonining o‘zgarishi boshqa guruhlarga ham ta’sir qiladi.",
+      "answer": "Qushlarning oziq manbai o‘zgaradi",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f2": {
+      "claim": "Go‘ngxo‘r, o‘laksaxo‘r va o‘simlik qoldiqlarini yeydigan hasharotlar organik qoldiqlar parchalanishida qatnashadi.",
+      "answer": "Organik qoldiqlar bilan oziqlanishiga",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f3": {
+      "claim": "Kolorado qo‘ng‘izi kartoshkaga, olma mevaxo‘ri olma mevasiga, g‘o‘za tunlami g‘o‘zaga zarar keltiradigan misollar sifatida berilgan.",
+      "answer": "Kartoshka",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f4": {
+      "claim": "Zararkunandalarga qarshi ularning tabiiy kushandalaridan foydalanish biologik kurash deyiladi; masalan, xonqizi, tillako‘z va parazit yaydoqchilar qo‘llanadi.",
+      "answer": "Biologik kurash",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f5": {
+      "claim": "Foydali hayvonlar uchun sharoit yaratish, ularni himoyalash va zaharli kimyoviy moddalar qo‘llanishini cheklash biologik kurashga yordam beradi.",
+      "answer": "Yashash sharoitini yaxshilab, keraksiz zahar qo‘llashni cheklash",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f6": {
+      "claim": "Darslik masalasida 3 mm burga 50 sm sakrashi berilgan. 50 sm 500 mm bo‘lib, bu tana uzunligidan taxminan 167 baravar katta masofadir.",
+      "answer": "167 baravar",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziq zanjiridagi o‘rin",
+      "body": "Hasharotlar qaldirg‘och, kaltakesak, baqa va boshqa ko‘plab hayvonlar uchun oziqdir. Hasharotlar sonining o‘zgarishi boshqa guruhlarga ham ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-27-f1"
+      ]
+    },
+    {
+      "title": "Tabiiy sanitarlar",
+      "body": "Go‘ngxo‘r, o‘laksaxo‘r va o‘simlik qoldiqlarini yeydigan hasharotlar organik qoldiqlar parchalanishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-27-f2"
+      ]
+    },
+    {
+      "title": "Zararkunanda va ekin mosligi",
+      "body": "Kolorado qo‘ng‘izi kartoshkaga, olma mevaxo‘ri olma mevasiga, g‘o‘za tunlami g‘o‘zaga zarar keltiradigan misollar sifatida berilgan.",
+      "fact_ids": [
+        "paragraph-27-f3"
+      ]
+    },
+    {
+      "title": "Biologik kurash usuli",
+      "body": "Zararkunandalarga qarshi ularning tabiiy kushandalaridan foydalanish biologik kurash deyiladi; masalan, xonqizi, tillako‘z va parazit yaydoqchilar qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-27-f4"
+      ]
+    },
+    {
+      "title": "Foydali turlarni saqlash",
+      "body": "Foydali hayvonlar uchun sharoit yaratish, ularni himoyalash va zaharli kimyoviy moddalar qo‘llanishini cheklash biologik kurashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-27-f5"
+      ]
+    },
+    {
+      "title": "Nisbat bilan fikrlash",
+      "body": "Darslik masalasida 3 mm burga 50 sm sakrashi berilgan. 50 sm 500 mm bo‘lib, bu tana uzunligidan taxminan 167 baravar katta masofadir.",
+      "fact_ids": [
+        "paragraph-27-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-27-q1",
+      "fact_id": "paragraph-27-f1",
+      "question_text": "Hasharotlarni kamaytirish nega ularni yeydigan qushlarga ta’sir qilishi mumkin?",
+      "options": [
+        "Qushlarning oziq manbai o‘zgaradi",
+        "Qushlarning barcha suyaklari yo‘qoladi",
+        "Qushlarda darhol fotosintez boshlanadi",
+        "Qushlarning barchasi hasharotga aylanadi"
+      ],
+      "correct_answer": "Qushlarning oziq manbai o‘zgaradi",
+      "explanation": "Hasharotlar qaldirg‘och, kaltakesak, baqa va boshqa ko‘plab hayvonlar uchun oziqdir. Hasharotlar sonining o‘zgarishi boshqa guruhlarga ham ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-27-q2",
+      "fact_id": "paragraph-27-f2",
+      "question_text": "Go‘ngxo‘r qo‘ng‘izlarning tabiiy sanitar deyilishi nimaga asoslanadi?",
+      "options": [
+        "Faqat yangi barglarni changlatishiga",
+        "Faqat qoramol qonini so‘rishiga",
+        "Faqat qattiq toshlarni eritishiga",
+        "Organik qoldiqlar bilan oziqlanishiga"
+      ],
+      "correct_answer": "Organik qoldiqlar bilan oziqlanishiga",
+      "explanation": "Go‘ngxo‘r, o‘laksaxo‘r va o‘simlik qoldiqlarini yeydigan hasharotlar organik qoldiqlar parchalanishida qatnashadi."
+    },
+    {
+      "key": "paragraph-27-q3",
+      "fact_id": "paragraph-27-f3",
+      "question_text": "Kolorado qo‘ng‘izi darslikdagi qaysi ekinning zararkunandasi?",
+      "options": [
+        "Faqat tok",
+        "Faqat archa",
+        "Kartoshka",
+        "Faqat sholi"
+      ],
+      "correct_answer": "Kartoshka",
+      "explanation": "Kolorado qo‘ng‘izi kartoshkaga, olma mevaxo‘ri olma mevasiga, g‘o‘za tunlami g‘o‘zaga zarar keltiradigan misollar sifatida berilgan."
+    },
+    {
+      "key": "paragraph-27-q4",
+      "fact_id": "paragraph-27-f4",
+      "question_text": "Daladagi zararkunandaga qarshi xonqizi qo‘ng‘izidan foydalanish qanday usul?",
+      "options": [
+        "Faqat sun’iy urug‘lantirish",
+        "Biologik kurash",
+        "Faqat qo‘lda mineral qazish",
+        "Faqat shamol bilan changlatish"
+      ],
+      "correct_answer": "Biologik kurash",
+      "explanation": "Zararkunandalarga qarshi ularning tabiiy kushandalaridan foydalanish biologik kurash deyiladi; masalan, xonqizi, tillako‘z va parazit yaydoqchilar qo‘llanadi."
+    },
+    {
+      "key": "paragraph-27-q5",
+      "fact_id": "paragraph-27-f5",
+      "question_text": "Biologik kurashdagi foydali hayvonlarni saqlash uchun qaysi yo‘l mos?",
+      "options": [
+        "Yashash sharoitini yaxshilab, keraksiz zahar qo‘llashni cheklash",
+        "Barcha hasharotlarni farqlamasdan yo‘qotish",
+        "Foydali yirtqichlarning hammasini daladan chiqarish",
+        "Har bir o‘simlikni tuproqdan uzib tashlash"
+      ],
+      "correct_answer": "Yashash sharoitini yaxshilab, keraksiz zahar qo‘llashni cheklash",
+      "explanation": "Foydali hayvonlar uchun sharoit yaratish, ularni himoyalash va zaharli kimyoviy moddalar qo‘llanishini cheklash biologik kurashga yordam beradi."
+    },
+    {
+      "key": "paragraph-27-q6",
+      "fact_id": "paragraph-27-f6",
+      "question_text": "3 mm burga 50 sm sakrasa, masofa tana uzunligidan taxminan necha baravar katta?",
+      "options": [
+        "17 baravar",
+        "1,7 baravar",
+        "1500 baravar",
+        "167 baravar"
+      ],
+      "correct_answer": "167 baravar",
+      "explanation": "Darslik masalasida 3 mm burga 50 sm sakrashi berilgan. 50 sm 500 mm bo‘lib, bu tana uzunligidan taxminan 167 baravar katta masofadir."
+    }
+  ]
+}

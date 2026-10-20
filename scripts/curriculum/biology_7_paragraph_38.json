@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-38-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-56",
+  "title": "Ildam kaltakesakning tuzilishi, ko‘payishi va rivojlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-38-f1": {
+      "claim": "Ildam kaltakesakning terisi quruq va muguz tangachalar bilan qoplangan; barmoqlarining uchida muguz tirnoqlar bor.",
+      "answer": "Quruq muguz tangachalar",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f2": {
+      "claim": "Kaltakesakning ko‘krak umurtqalari, qovurg‘alari va to‘sh suyagi ko‘krak qafasini hosil qiladi; unda o‘pka va yurak joylashadi.",
+      "answer": "O‘pka va yurak",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f3": {
+      "claim": "Kaltakesak o‘pkasi devori ko‘p katakchalarga bo‘lingan; baqadan farqli ravishda terisi nafas olish organi sifatida qatnashmaydi.",
+      "answer": "O‘pka",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f4": {
+      "claim": "Kaltakesakda tuxum urg‘ochining jinsiy yo‘lida urug‘lanadi. Bu suvda tuxum tashlaydigan ko‘l baqasidan farqlanadi.",
+      "answer": "Ichki urug‘lanish",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f5": {
+      "claim": "Kaltakesak tuxumining qobig‘i qurib qolishdan saqlaydi, sariqligi esa rivojlanayotgan murtakka oziq bo‘ladi.",
+      "answer": "Murtakni oziq bilan ta’minlash",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f6": {
+      "claim": "Yirtqich tutganda kaltakesak dumining bir qismini tashlab qochishi mumkin; keyinchalik dum qismi yana o‘sadi. Bu regeneratsiya misolidir.",
+      "answer": "Regeneratsiya",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Quruq, tangachali teri",
+      "body": "Ildam kaltakesakning terisi quruq va muguz tangachalar bilan qoplangan; barmoqlarining uchida muguz tirnoqlar bor.",
+      "fact_ids": [
+        "paragraph-38-f1"
+      ]
+    },
+    {
+      "title": "Ko‘krak qafasi",
+      "body": "Kaltakesakning ko‘krak umurtqalari, qovurg‘alari va to‘sh suyagi ko‘krak qafasini hosil qiladi; unda o‘pka va yurak joylashadi.",
+      "fact_ids": [
+        "paragraph-38-f2"
+      ]
+    },
+    {
+      "title": "O‘pkadan nafas olish",
+      "body": "Kaltakesak o‘pkasi devori ko‘p katakchalarga bo‘lingan; baqadan farqli ravishda terisi nafas olish organi sifatida qatnashmaydi.",
+      "fact_ids": [
+        "paragraph-38-f3"
+      ]
+    },
+    {
+      "title": "Ichki urug‘lanish",
+      "body": "Kaltakesakda tuxum urg‘ochining jinsiy yo‘lida urug‘lanadi. Bu suvda tuxum tashlaydigan ko‘l baqasidan farqlanadi.",
+      "fact_ids": [
+        "paragraph-38-f4"
+      ]
+    },
+    {
+      "title": "Tuxumning himoyasi va oziq",
+      "body": "Kaltakesak tuxumining qobig‘i qurib qolishdan saqlaydi, sariqligi esa rivojlanayotgan murtakka oziq bo‘ladi.",
+      "fact_ids": [
+        "paragraph-38-f5"
+      ]
+    },
+    {
+      "title": "Dumning qayta tiklanishi",
+      "body": "Yirtqich tutganda kaltakesak dumining bir qismini tashlab qochishi mumkin; keyinchalik dum qismi yana o‘sadi. Bu regeneratsiya misolidir.",
+      "fact_ids": [
+        "paragraph-38-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-38-q1",
+      "fact_id": "paragraph-38-f1",
+      "question_text": "Kaltakesak terisini baqaning nam terisidan nima farqlaydi?",
+      "options": [
+        "Quruq muguz tangachalar",
+        "Faqat yalang‘och nam teri",
+        "Faqat suvdagi yumshoq jabralar",
+        "Faqat shilimshiq bir hujayra"
+      ],
+      "correct_answer": "Quruq muguz tangachalar",
+      "explanation": "Ildam kaltakesakning terisi quruq va muguz tangachalar bilan qoplangan; barmoqlarining uchida muguz tirnoqlar bor."
+    },
+    {
+      "key": "paragraph-38-q2",
+      "fact_id": "paragraph-38-f2",
+      "question_text": "Kaltakesak ko‘krak qafasida qaysi organlar joylashgan?",
+      "options": [
+        "Faqat bosh miya",
+        "Faqat tuxum va pilla",
+        "Faqat quloq suyakchalari",
+        "O‘pka va yurak"
+      ],
+      "correct_answer": "O‘pka va yurak",
+      "explanation": "Kaltakesakning ko‘krak umurtqalari, qovurg‘alari va to‘sh suyagi ko‘krak qafasini hosil qiladi; unda o‘pka va yurak joylashadi."
+    },
+    {
+      "key": "paragraph-38-q3",
+      "fact_id": "paragraph-38-f3",
+      "question_text": "Kaltakesakning asosiy nafas olish organi qaysi?",
+      "options": [
+        "Faqat tashqi jabra",
+        "Faqat traxeya",
+        "O‘pka",
+        "Nam teri va jabra birgalikda"
+      ],
+      "correct_answer": "O‘pka",
+      "explanation": "Kaltakesak o‘pkasi devori ko‘p katakchalarga bo‘lingan; baqadan farqli ravishda terisi nafas olish organi sifatida qatnashmaydi."
+    },
+    {
+      "key": "paragraph-38-q4",
+      "fact_id": "paragraph-38-f4",
+      "question_text": "Kaltakesakdagi urug‘lanish qaysi turga kiradi?",
+      "options": [
+        "Bo‘linib ko‘payish",
+        "Ichki urug‘lanish",
+        "Suvdagi tashqi urug‘lanish",
+        "Changlanish"
+      ],
+      "correct_answer": "Ichki urug‘lanish",
+      "explanation": "Kaltakesakda tuxum urg‘ochining jinsiy yo‘lida urug‘lanadi. Bu suvda tuxum tashlaydigan ko‘l baqasidan farqlanadi."
+    },
+    {
+      "key": "paragraph-38-q5",
+      "fact_id": "paragraph-38-f5",
+      "question_text": "Kaltakesak tuxumi sariqligining vazifasi nima?",
+      "options": [
+        "Murtakni oziq bilan ta’minlash",
+        "Faqat tovushni kuchaytirish",
+        "Faqat skeletni tashqi tomondan yopish",
+        "Faqat havodagi hidni ajratish"
+      ],
+      "correct_answer": "Murtakni oziq bilan ta’minlash",
+      "explanation": "Kaltakesak tuxumining qobig‘i qurib qolishdan saqlaydi, sariqligi esa rivojlanayotgan murtakka oziq bo‘ladi."
+    },
+    {
+      "key": "paragraph-38-q6",
+      "fact_id": "paragraph-38-f6",
+      "question_text": "Yo‘qotilgan dum qismining qayta o‘sishi qanday jarayon?",
+      "options": [
+        "G‘umbaklanish",
+        "Urug‘lanish",
+        "Filtrlash",
+        "Regeneratsiya"
+      ],
+      "correct_answer": "Regeneratsiya",
+      "explanation": "Yirtqich tutganda kaltakesak dumining bir qismini tashlab qochishi mumkin; keyinchalik dum qismi yana o‘sadi. Bu regeneratsiya misolidir."
+    }
+  ]
+}

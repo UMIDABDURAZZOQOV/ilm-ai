@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-26-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-39",
+  "title": "Ikki qanotlilar turkumi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-26-f1": {
+      "claim": "Uy pashshasining pastki labi uchida yostiqchasimon yalovchi xartumcha bor. U oziq yuzasini yalab oziqlanadi.",
+      "answer": "Yalovchi xartumcha",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f2": {
+      "claim": "Uy pashshasining qurti organik chiqindi va go‘ngda rivojlanadi; tashqi oyoqlari yo‘q, keyin g‘umbakka aylanadi.",
+      "answer": "Oyoqsiz, chiqindi yoki go‘ngda rivojlanadi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f3": {
+      "claim": "Uy pashshasi iflos joylardan oyoq va tanasiga ilashgan mikroblarni oziq-ovqat yuzasiga olib o‘tishi mumkin.",
+      "answer": "Mikroblarni ovqatga olib o‘tishi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f4": {
+      "claim": "Darslikda urg‘ochi chivinlarning qon so‘rishi, erkak chivinlarning esa o‘simlik shirasi bilan oziqlanishi farqlangan.",
+      "answer": "Urg‘ochisiga",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f5": {
+      "claim": "Chivin lichinkalari hovuz va ko‘lmak suvlarida rivojlanadi; voyaga yetgan bosqichdan yashash muhiti bilan farqlanadi.",
+      "answer": "Hovuz va ko‘lmak suvi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f6": {
+      "claim": "So‘nalar hayvon qonini so‘radi; bo‘ka lichinkalari esa hayvonlarning teri osti, oshqozoni yoki burun bo‘shlig‘ida parazitlik qilishi mumkin.",
+      "answer": "Tana ichidagi parazitlik bilan",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yalovchi og‘iz apparati",
+      "body": "Uy pashshasining pastki labi uchida yostiqchasimon yalovchi xartumcha bor. U oziq yuzasini yalab oziqlanadi.",
+      "fact_ids": [
+        "paragraph-26-f1"
+      ]
+    },
+    {
+      "title": "Lichinka va rivojlanish muhiti",
+      "body": "Uy pashshasining qurti organik chiqindi va go‘ngda rivojlanadi; tashqi oyoqlari yo‘q, keyin g‘umbakka aylanadi.",
+      "fact_ids": [
+        "paragraph-26-f2"
+      ]
+    },
+    {
+      "title": "Mikrobning ko‘chishi",
+      "body": "Uy pashshasi iflos joylardan oyoq va tanasiga ilashgan mikroblarni oziq-ovqat yuzasiga olib o‘tishi mumkin.",
+      "fact_ids": [
+        "paragraph-26-f3"
+      ]
+    },
+    {
+      "title": "Chivinlarning oziqlanishidagi farq",
+      "body": "Darslikda urg‘ochi chivinlarning qon so‘rishi, erkak chivinlarning esa o‘simlik shirasi bilan oziqlanishi farqlangan.",
+      "fact_ids": [
+        "paragraph-26-f4"
+      ]
+    },
+    {
+      "title": "Chivin lichinkasining muhiti",
+      "body": "Chivin lichinkalari hovuz va ko‘lmak suvlarida rivojlanadi; voyaga yetgan bosqichdan yashash muhiti bilan farqlanadi.",
+      "fact_ids": [
+        "paragraph-26-f5"
+      ]
+    },
+    {
+      "title": "So‘na va bo‘ka zarari",
+      "body": "So‘nalar hayvon qonini so‘radi; bo‘ka lichinkalari esa hayvonlarning teri osti, oshqozoni yoki burun bo‘shlig‘ida parazitlik qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-26-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-26-q1",
+      "fact_id": "paragraph-26-f1",
+      "question_text": "Uy pashshasining oziqlanish apparati qaysi tipda?",
+      "options": [
+        "Yalovchi xartumcha",
+        "Bargni kemiradigan yirik jag‘",
+        "Faqat qonni sanchib so‘ruvchi igna",
+        "Suvni chiqaradigan voronka"
+      ],
+      "correct_answer": "Yalovchi xartumcha",
+      "explanation": "Uy pashshasining pastki labi uchida yostiqchasimon yalovchi xartumcha bor. U oziq yuzasini yalab oziqlanadi."
+    },
+    {
+      "key": "paragraph-26-q2",
+      "fact_id": "paragraph-26-f2",
+      "question_text": "Uy pashshasi qurtiga mos tavsifni toping.",
+      "options": [
+        "Uch juft uzun oyoqli, faqat nektar so‘radi",
+        "Suvda jabra bilan nafas oladigan baliqcha",
+        "Faqat gul changida yashaydigan voyaga yetgan ari",
+        "Oyoqsiz, chiqindi yoki go‘ngda rivojlanadi"
+      ],
+      "correct_answer": "Oyoqsiz, chiqindi yoki go‘ngda rivojlanadi",
+      "explanation": "Uy pashshasining qurti organik chiqindi va go‘ngda rivojlanadi; tashqi oyoqlari yo‘q, keyin g‘umbakka aylanadi."
+    },
+    {
+      "key": "paragraph-26-q3",
+      "fact_id": "paragraph-26-f3",
+      "question_text": "Pashshaning iflos joydan ovqatga qo‘nishi qanday xavf tug‘diradi?",
+      "options": [
+        "Ovqat tarkibida kislorod ishlab chiqarishi",
+        "Oziqni barcha parazitlardan doimiy himoyalashi",
+        "Mikroblarni ovqatga olib o‘tishi",
+        "Ovqatni har doim zararsizlantirishi"
+      ],
+      "correct_answer": "Mikroblarni ovqatga olib o‘tishi",
+      "explanation": "Uy pashshasi iflos joylardan oyoq va tanasiga ilashgan mikroblarni oziq-ovqat yuzasiga olib o‘tishi mumkin."
+    },
+    {
+      "key": "paragraph-26-q4",
+      "fact_id": "paragraph-26-f4",
+      "question_text": "Qon so‘rish chivinlarning qaysi jinsiga xos sifatida berilgan?",
+      "options": [
+        "Faqat tuxumiga",
+        "Urg‘ochisiga",
+        "Faqat erkagiga",
+        "Faqat g‘umbagiga"
+      ],
+      "correct_answer": "Urg‘ochisiga",
+      "explanation": "Darslikda urg‘ochi chivinlarning qon so‘rishi, erkak chivinlarning esa o‘simlik shirasi bilan oziqlanishi farqlangan."
+    },
+    {
+      "key": "paragraph-26-q5",
+      "fact_id": "paragraph-26-f5",
+      "question_text": "Chivin lichinkalari rivojlanadigan muhit qaysi?",
+      "options": [
+        "Hovuz va ko‘lmak suvi",
+        "Faqat quruq jun kiyim",
+        "Faqat daraxtning qattiq po‘stlog‘i ichki yog‘ochi",
+        "Faqat qushning quruq pati"
+      ],
+      "correct_answer": "Hovuz va ko‘lmak suvi",
+      "explanation": "Chivin lichinkalari hovuz va ko‘lmak suvlarida rivojlanadi; voyaga yetgan bosqichdan yashash muhiti bilan farqlanadi."
+    },
+    {
+      "key": "paragraph-26-q6",
+      "fact_id": "paragraph-26-f6",
+      "question_text": "Bo‘ka lichinkalarining chorvaga zarari qaysi holat bilan bog‘liq?",
+      "options": [
+        "Faqat gulni changlatish bilan",
+        "Faqat o‘simlik urug‘ini shamolda tarqatish bilan",
+        "Faqat suvda oziqsiz suzish bilan",
+        "Tana ichidagi parazitlik bilan"
+      ],
+      "correct_answer": "Tana ichidagi parazitlik bilan",
+      "explanation": "So‘nalar hayvon qonini so‘radi; bo‘ka lichinkalari esa hayvonlarning teri osti, oshqozoni yoki burun bo‘shlig‘ida parazitlik qilishi mumkin."
+    }
+  ]
+}

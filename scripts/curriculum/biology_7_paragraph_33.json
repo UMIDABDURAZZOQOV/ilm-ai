@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-33-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-49",
+  "title": "Baliqlarning xilma-xilligi: tog‘ayli baliqlar sinfi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-33-f1": {
+      "claim": "Akula va skat tog‘ayli baliqlarga kiradi; ularning skeleti suyakdan emas, tog‘aydan tuzilgan.",
+      "answer": "Tog‘aydan tuzilgan skelet",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f2": {
+      "claim": "Darslikdagi akula va skatlarda suzgich pufagi hamda suyakli baliqdagidek jabra qopqog‘i bo‘lmaydi.",
+      "answer": "Suzgich pufagi va jabra qopqog‘i",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f3": {
+      "claim": "Akula terisidagi tangachalar sirtida qattiq tishsimon o‘simtalar bor; ular suyakli baliqning yupqa tangachalaridan farq qiladi.",
+      "answer": "Tishsimon qattiq o‘simtalar",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f4": {
+      "claim": "Kit akulasi juda yirik bo‘lsa ham mayda qisqichbaqasimonlar va baliqlar bilan oziqlanadi. Katta o‘lcham har doim yirik o‘lja degani emas.",
+      "answer": "Juda yirik hayvon ham mayda oziq yeyishi mumkin",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f5": {
+      "claim": "Skatlarning yassi, disk yoki rombsimon tanasi va keng ko‘krak suzgichlari suv tubida yashashga moslashgan.",
+      "answer": "Suv tubidagi hayotga",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f6": {
+      "claim": "Ayrim skatlarda tikanli himoya, boshqalarida elektr organi bor. Bu belgilarni barcha skatlarda bir xil deb bo‘lmaydi.",
+      "answer": "Elektr zaryad hosil qiluvchi organ",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tog‘ayli skelet",
+      "body": "Akula va skat tog‘ayli baliqlarga kiradi; ularning skeleti suyakdan emas, tog‘aydan tuzilgan.",
+      "fact_ids": [
+        "paragraph-33-f1"
+      ]
+    },
+    {
+      "title": "Jabra qopqog‘i va pufak",
+      "body": "Darslikdagi akula va skatlarda suzgich pufagi hamda suyakli baliqdagidek jabra qopqog‘i bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-33-f2"
+      ]
+    },
+    {
+      "title": "Tishsimon tangacha",
+      "body": "Akula terisidagi tangachalar sirtida qattiq tishsimon o‘simtalar bor; ular suyakli baliqning yupqa tangachalaridan farq qiladi.",
+      "fact_ids": [
+        "paragraph-33-f3"
+      ]
+    },
+    {
+      "title": "Yiriklik va oziq turi",
+      "body": "Kit akulasi juda yirik bo‘lsa ham mayda qisqichbaqasimonlar va baliqlar bilan oziqlanadi. Katta o‘lcham har doim yirik o‘lja degani emas.",
+      "fact_ids": [
+        "paragraph-33-f4"
+      ]
+    },
+    {
+      "title": "Yassi tana va tub hayoti",
+      "body": "Skatlarning yassi, disk yoki rombsimon tanasi va keng ko‘krak suzgichlari suv tubida yashashga moslashgan.",
+      "fact_ids": [
+        "paragraph-33-f5"
+      ]
+    },
+    {
+      "title": "Himoya vositalarining xilma-xilligi",
+      "body": "Ayrim skatlarda tikanli himoya, boshqalarida elektr organi bor. Bu belgilarni barcha skatlarda bir xil deb bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-33-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-33-q1",
+      "fact_id": "paragraph-33-f1",
+      "question_text": "Akula va skatni bir guruhga birlashtiradigan asosiy skelet belgisi nima?",
+      "options": [
+        "Tog‘aydan tuzilgan skelet",
+        "Faqat xitinli tashqi skelet",
+        "Faqat ikki pallali chig‘anoq",
+        "Faqat o‘simlik tolali poya"
+      ],
+      "correct_answer": "Tog‘aydan tuzilgan skelet",
+      "explanation": "Akula va skat tog‘ayli baliqlarga kiradi; ularning skeleti suyakdan emas, tog‘aydan tuzilgan."
+    },
+    {
+      "key": "paragraph-33-q2",
+      "fact_id": "paragraph-33-f2",
+      "question_text": "Zog‘ora bilan taqqoslanganda akulada qaysi tuzilmalar yo‘q?",
+      "options": [
+        "Barcha jabralar va yurak",
+        "Barcha muskullar va og‘iz",
+        "Barcha suzgichlar va ko‘z",
+        "Suzgich pufagi va jabra qopqog‘i"
+      ],
+      "correct_answer": "Suzgich pufagi va jabra qopqog‘i",
+      "explanation": "Darslikdagi akula va skatlarda suzgich pufagi hamda suyakli baliqdagidek jabra qopqog‘i bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-33-q3",
+      "fact_id": "paragraph-33-f3",
+      "question_text": "Akula teri tangachalarini qaysi belgi ajratadi?",
+      "options": [
+        "Faqat gul changi donalari",
+        "Faqat shilimshiq ildiz tuklari",
+        "Tishsimon qattiq o‘simtalar",
+        "Faqat yumshoq kipriklar"
+      ],
+      "correct_answer": "Tishsimon qattiq o‘simtalar",
+      "explanation": "Akula terisidagi tangachalar sirtida qattiq tishsimon o‘simtalar bor; ular suyakli baliqning yupqa tangachalaridan farq qiladi."
+    },
+    {
+      "key": "paragraph-33-q4",
+      "fact_id": "paragraph-33-f4",
+      "question_text": "Kit akulasi misoli qaysi xulosani ko‘rsatadi?",
+      "options": [
+        "Hayvon kattaligi bilan oziqlanish o‘rtasida hech qanday kuzatuv yo‘q",
+        "Juda yirik hayvon ham mayda oziq yeyishi mumkin",
+        "Barcha yirik hayvonlar faqat odamni ovlaydi",
+        "Barcha akulalar o‘simlik urug‘ini chaynaydi"
+      ],
+      "correct_answer": "Juda yirik hayvon ham mayda oziq yeyishi mumkin",
+      "explanation": "Kit akulasi juda yirik bo‘lsa ham mayda qisqichbaqasimonlar va baliqlar bilan oziqlanadi. Katta o‘lcham har doim yirik o‘lja degani emas."
+    },
+    {
+      "key": "paragraph-33-q5",
+      "fact_id": "paragraph-33-f5",
+      "question_text": "Skatning yassi tanasi qaysi yashash tarziga mos?",
+      "options": [
+        "Suv tubidagi hayotga",
+        "Havoda doimiy parvozga",
+        "Faqat daraxt shoxida yurishga",
+        "Faqat tuproq ichida ildiz chiqarishga"
+      ],
+      "correct_answer": "Suv tubidagi hayotga",
+      "explanation": "Skatlarning yassi, disk yoki rombsimon tanasi va keng ko‘krak suzgichlari suv tubida yashashga moslashgan."
+    },
+    {
+      "key": "paragraph-33-q6",
+      "fact_id": "paragraph-33-f6",
+      "question_text": "Elektr skatning o‘ziga xos himoya organi qaysi?",
+      "options": [
+        "Faqat ipak bezlari",
+        "Faqat gulqo‘rg‘on barglari",
+        "Faqat qisqaruvchi vakuola",
+        "Elektr zaryad hosil qiluvchi organ"
+      ],
+      "correct_answer": "Elektr zaryad hosil qiluvchi organ",
+      "explanation": "Ayrim skatlarda tikanli himoya, boshqalarida elektr organi bor. Bu belgilarni barcha skatlarda bir xil deb bo‘lmaydi."
+    }
+  ]
+}

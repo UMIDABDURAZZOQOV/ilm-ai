@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-41-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-60",
+  "title": "Ko‘k kaptarning tashqi tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-41-f1": {
+      "claim": "Qushning oldingi oyoqlari qanotga aylangan; yoyilgan qanotlar havoda ko‘tarish yuzasini hosil qiladi.",
+      "answer": "Oldingi oyoqning",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f2": {
+      "claim": "Kontur patining qattiq o‘zagi va uning ikki tomonida yelpig‘ichi bo‘ladi; pastki yelpig‘ichsiz qismi teridagi pat xaltasiga kiradi.",
+      "answer": "Yelpig‘ich",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f3": {
+      "claim": "Patning yelpig‘ichidagi mayda o‘siqchalar ilgakchalar yordamida tutashadi; bu uzluksiz yuzani hosil qilishga yordam beradi.",
+      "answer": "Mayda ilgakchalar bilan",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f4": {
+      "claim": "Qanotdagi qoqish patlari ko‘tarish yuzasini, dumdagi boshqarish patlari esa parvoz yo‘nalishini boshqarishda qatnashadi.",
+      "answer": "Parvoz yo‘nalishini boshqarishga yordam berish",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f5": {
+      "claim": "Qoplag‘ich patlar ostidagi momiq va parlar tanadagi issiqlikni saqlashga yordam beradi.",
+      "answer": "Tana issiqligini saqlaydi",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-41-f6": {
+      "claim": "Qush tullaganda eski patlari to‘kilib, o‘rniga yangilari chiqadi. Bu qoplamaning yangilanishidir.",
+      "answer": "Eski pat o‘rniga yangi pat chiqishi",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qanotning kelib chiqishi",
+      "body": "Qushning oldingi oyoqlari qanotga aylangan; yoyilgan qanotlar havoda ko‘tarish yuzasini hosil qiladi.",
+      "fact_ids": [
+        "paragraph-41-f1"
+      ]
+    },
+    {
+      "title": "Patning asosiy qismlari",
+      "body": "Kontur patining qattiq o‘zagi va uning ikki tomonida yelpig‘ichi bo‘ladi; pastki yelpig‘ichsiz qismi teridagi pat xaltasiga kiradi.",
+      "fact_ids": [
+        "paragraph-41-f2"
+      ]
+    },
+    {
+      "title": "Ilgakchalar bilan tutashish",
+      "body": "Patning yelpig‘ichidagi mayda o‘siqchalar ilgakchalar yordamida tutashadi; bu uzluksiz yuzani hosil qilishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-41-f3"
+      ]
+    },
+    {
+      "title": "Qanot va dum patlari",
+      "body": "Qanotdagi qoqish patlari ko‘tarish yuzasini, dumdagi boshqarish patlari esa parvoz yo‘nalishini boshqarishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-41-f4"
+      ]
+    },
+    {
+      "title": "Issiqlikni saqlaydigan qoplama",
+      "body": "Qoplag‘ich patlar ostidagi momiq va parlar tanadagi issiqlikni saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-41-f5"
+      ]
+    },
+    {
+      "title": "Tullashni tushunish",
+      "body": "Qush tullaganda eski patlari to‘kilib, o‘rniga yangilari chiqadi. Bu qoplamaning yangilanishidir.",
+      "fact_ids": [
+        "paragraph-41-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-41-q1",
+      "fact_id": "paragraph-41-f1",
+      "question_text": "Qushning qanoti qaysi a’zoning o‘zgargan shakli?",
+      "options": [
+        "Oldingi oyoqning",
+        "Faqat dum umurtqasining",
+        "Faqat tilning",
+        "Faqat burun teshigining"
+      ],
+      "correct_answer": "Oldingi oyoqning",
+      "explanation": "Qushning oldingi oyoqlari qanotga aylangan; yoyilgan qanotlar havoda ko‘tarish yuzasini hosil qiladi."
+    },
+    {
+      "key": "paragraph-41-q2",
+      "fact_id": "paragraph-41-f2",
+      "question_text": "Kontur patining ikki tomonidagi keng qismi nima deyiladi?",
+      "options": [
+        "Jabra qopqog‘i",
+        "Qorin soyaboni",
+        "Suzgich pufagi",
+        "Yelpig‘ich"
+      ],
+      "correct_answer": "Yelpig‘ich",
+      "explanation": "Kontur patining qattiq o‘zagi va uning ikki tomonida yelpig‘ichi bo‘ladi; pastki yelpig‘ichsiz qismi teridagi pat xaltasiga kiradi."
+    },
+    {
+      "key": "paragraph-41-q3",
+      "fact_id": "paragraph-41-f3",
+      "question_text": "Pat yelpig‘ichining yonma-yon o‘siqchalari qanday tutashadi?",
+      "options": [
+        "Faqat suvdagi yopishqoq tuxum bilan",
+        "Faqat qon tomirlari bilan",
+        "Mayda ilgakchalar bilan",
+        "Qattiq suyak choklari bilan"
+      ],
+      "correct_answer": "Mayda ilgakchalar bilan",
+      "explanation": "Patning yelpig‘ichidagi mayda o‘siqchalar ilgakchalar yordamida tutashadi; bu uzluksiz yuzani hosil qilishga yordam beradi."
+    },
+    {
+      "key": "paragraph-41-q4",
+      "fact_id": "paragraph-41-f4",
+      "question_text": "Qush dumidagi boshqarish patlarining vazifasi qaysi?",
+      "options": [
+        "Faqat hid sezuvchi hujayra bo‘lish",
+        "Parvoz yo‘nalishini boshqarishga yordam berish",
+        "Faqat oziqni hazm qilish",
+        "Faqat tuxum sariqligini hosil qilish"
+      ],
+      "correct_answer": "Parvoz yo‘nalishini boshqarishga yordam berish",
+      "explanation": "Qanotdagi qoqish patlari ko‘tarish yuzasini, dumdagi boshqarish patlari esa parvoz yo‘nalishini boshqarishda qatnashadi."
+    },
+    {
+      "key": "paragraph-41-q5",
+      "fact_id": "paragraph-41-f5",
+      "question_text": "Momiq va parlar qush uchun nima sababli muhim?",
+      "options": [
+        "Tana issiqligini saqlaydi",
+        "Qon o‘rniga kislorod tashiydi",
+        "Har safar katta skeletga aylanadi",
+        "Faqat tuxumni urug‘lantiradi"
+      ],
+      "correct_answer": "Tana issiqligini saqlaydi",
+      "explanation": "Qoplag‘ich patlar ostidagi momiq va parlar tanadagi issiqlikni saqlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-41-q6",
+      "fact_id": "paragraph-41-f6",
+      "question_text": "Qushdagi tullashni qaysi ta’rif ifodalaydi?",
+      "options": [
+        "Barcha suyaklarning qattiq qobiqqa aylanishi",
+        "Tana ikkiga bo‘linib ko‘payishi",
+        "Faqat gul changining ajralishi",
+        "Eski pat o‘rniga yangi pat chiqishi"
+      ],
+      "correct_answer": "Eski pat o‘rniga yangi pat chiqishi",
+      "explanation": "Qush tullaganda eski patlari to‘kilib, o‘rniga yangilari chiqadi. Bu qoplamaning yangilanishidir."
+    }
+  ]
+}

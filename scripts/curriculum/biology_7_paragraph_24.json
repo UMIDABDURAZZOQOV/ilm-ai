@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-24-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-37",
+  "title": "To‘liq o‘zgarish bilan rivojlanadigan hasharotlar: tangachaqanotlilar turkumi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-24-f1": {
+      "claim": "Kapalak qanotlari mayda tangachalar bilan qoplangan; tangachaqanotlilar nomi shu tuzilishdan kelib chiqqan.",
+      "answer": "Qanotdagi mayda tangachalar",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f2": {
+      "claim": "Darslik tasviridagi kapalak qurtida ko‘krakning uch juft haqiqiy oyoqlari va qorinning soxta oyoqlari farqlanadi; soxta oyoqlar bo‘g‘imlarga bo‘linmagan.",
+      "answer": "Bo‘g‘imlarga bo‘linmaganligi",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f3": {
+      "claim": "Karam kapalagi qurti karam, sholg‘om va turp singari karamdoshlarning barglari bilan oziqlanadi.",
+      "answer": "Karam, sholg‘om, turpga",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f4": {
+      "claim": "Tut ipak qurti bezlaridan chiqqan suyuqlik havoda qotib ip hosil qiladi; qurt shu ipdan pilla o‘raydi va ichida g‘umbakka aylanadi.",
+      "answer": "Bez suyuqligidan hosil bo‘lgan ipak ipdan",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f5": {
+      "claim": "Tut ipak qurti tut bargi bilan boqiladi. Ipakchilik qurtni boqish va pillani qayta ishlash bilan bog‘liq xo‘jalik tarmog‘idir.",
+      "answer": "Tut",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f6": {
+      "claim": "Xonakilashtirilgan tut ipak qurti kapalagi uchish qobiliyatini yo‘qotgan va oziqlanmaydi; oziqni asosan qurtlik davrida to‘playdi.",
+      "answer": "Uchmaydi va oziqlanmaydi",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qanot rangining manbai",
+      "body": "Kapalak qanotlari mayda tangachalar bilan qoplangan; tangachaqanotlilar nomi shu tuzilishdan kelib chiqqan.",
+      "fact_ids": [
+        "paragraph-24-f1"
+      ]
+    },
+    {
+      "title": "Qurtning ikki xil oyoqlari",
+      "body": "Darslik tasviridagi kapalak qurtida ko‘krakning uch juft haqiqiy oyoqlari va qorinning soxta oyoqlari farqlanadi; soxta oyoqlar bo‘g‘imlarga bo‘linmagan.",
+      "fact_ids": [
+        "paragraph-24-f2"
+      ]
+    },
+    {
+      "title": "Karam kapalagi ozig‘i",
+      "body": "Karam kapalagi qurti karam, sholg‘om va turp singari karamdoshlarning barglari bilan oziqlanadi.",
+      "fact_ids": [
+        "paragraph-24-f3"
+      ]
+    },
+    {
+      "title": "Ipakning hosil bo‘lishi",
+      "body": "Tut ipak qurti bezlaridan chiqqan suyuqlik havoda qotib ip hosil qiladi; qurt shu ipdan pilla o‘raydi va ichida g‘umbakka aylanadi.",
+      "fact_ids": [
+        "paragraph-24-f4"
+      ]
+    },
+    {
+      "title": "Tut bargi va ipakchilik",
+      "body": "Tut ipak qurti tut bargi bilan boqiladi. Ipakchilik qurtni boqish va pillani qayta ishlash bilan bog‘liq xo‘jalik tarmog‘idir.",
+      "fact_ids": [
+        "paragraph-24-f5"
+      ]
+    },
+    {
+      "title": "Voyaga yetgan ipak kapalagi",
+      "body": "Xonakilashtirilgan tut ipak qurti kapalagi uchish qobiliyatini yo‘qotgan va oziqlanmaydi; oziqni asosan qurtlik davrida to‘playdi.",
+      "fact_ids": [
+        "paragraph-24-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-24-q1",
+      "fact_id": "paragraph-24-f1",
+      "question_text": "Kapalakni tangachaqanotli deb atashga qaysi belgi asos bo‘lgan?",
+      "options": [
+        "Qanotdagi mayda tangachalar",
+        "Qorin ustidagi qattiq ustqanot",
+        "Faqat bitta juft qanot",
+        "Faqat oyoqlardagi suzgichlar"
+      ],
+      "correct_answer": "Qanotdagi mayda tangachalar",
+      "explanation": "Kapalak qanotlari mayda tangachalar bilan qoplangan; tangachaqanotlilar nomi shu tuzilishdan kelib chiqqan."
+    },
+    {
+      "key": "paragraph-24-q2",
+      "fact_id": "paragraph-24-f2",
+      "question_text": "Kapalak qurtining soxta oyoqlarini haqiqiylaridan nima ajratadi?",
+      "options": [
+        "Har doim qattiq qanotga aylanganligi",
+        "Faqat boshda joylashganligi",
+        "Faqat murakkab ko‘zga aylanganligi",
+        "Bo‘g‘imlarga bo‘linmaganligi"
+      ],
+      "correct_answer": "Bo‘g‘imlarga bo‘linmaganligi",
+      "explanation": "Darslik tasviridagi kapalak qurtida ko‘krakning uch juft haqiqiy oyoqlari va qorinning soxta oyoqlari farqlanadi; soxta oyoqlar bo‘g‘imlarga bo‘linmagan."
+    },
+    {
+      "key": "paragraph-24-q3",
+      "fact_id": "paragraph-24-f3",
+      "question_text": "Karam kapalagi qurtining oziqlanishi qaysi ekinlarga zarar yetkazishi mumkin?",
+      "options": [
+        "Faqat tok va anjirga",
+        "Faqat qarag‘ay qubbasiga",
+        "Karam, sholg‘om, turpga",
+        "Faqat bug‘doy, arpa, sholiga"
+      ],
+      "correct_answer": "Karam, sholg‘om, turpga",
+      "explanation": "Karam kapalagi qurti karam, sholg‘om va turp singari karamdoshlarning barglari bilan oziqlanadi."
+    },
+    {
+      "key": "paragraph-24-q4",
+      "fact_id": "paragraph-24-f4",
+      "question_text": "Tut ipak qurtining pillasi nimadan hosil bo‘ladi?",
+      "options": [
+        "Faqat g‘umbakning qon tomiridan",
+        "Bez suyuqligidan hosil bo‘lgan ipak ipdan",
+        "Tuproqdagi qum donalaridan",
+        "Faqat bargning butun yaprog‘idan"
+      ],
+      "correct_answer": "Bez suyuqligidan hosil bo‘lgan ipak ipdan",
+      "explanation": "Tut ipak qurti bezlaridan chiqqan suyuqlik havoda qotib ip hosil qiladi; qurt shu ipdan pilla o‘raydi va ichida g‘umbakka aylanadi."
+    },
+    {
+      "key": "paragraph-24-q5",
+      "fact_id": "paragraph-24-f5",
+      "question_text": "Ipak qurtini boqish bilan bog‘liq asosiy o‘simlik qaysi?",
+      "options": [
+        "Tut",
+        "Karam",
+        "Bug‘doy",
+        "Qarag‘ay"
+      ],
+      "correct_answer": "Tut",
+      "explanation": "Tut ipak qurti tut bargi bilan boqiladi. Ipakchilik qurtni boqish va pillani qayta ishlash bilan bog‘liq xo‘jalik tarmog‘idir."
+    },
+    {
+      "key": "paragraph-24-q6",
+      "fact_id": "paragraph-24-f6",
+      "question_text": "Xonaki tut ipak qurti kapalagi haqidagi qaysi fikr to‘g‘ri?",
+      "options": [
+        "Faol uchib faqat qon so‘radi",
+        "G‘umbakdan chiqmasdan tuxum qo‘yadi",
+        "Faqat tuproqdagi ildiz bilan oziqlanadi",
+        "Uchmaydi va oziqlanmaydi"
+      ],
+      "correct_answer": "Uchmaydi va oziqlanmaydi",
+      "explanation": "Xonakilashtirilgan tut ipak qurti kapalagi uchish qobiliyatini yo‘qotgan va oziqlanmaydi; oziqni asosan qurtlik davrida to‘playdi."
+    }
+  ]
+}

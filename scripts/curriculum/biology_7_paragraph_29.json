@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-29-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-44",
+  "title": "Tashqi tuzilishi, skeleti, suzgich pufagi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-29-f1": {
+      "claim": "Zog‘ora baliqning suyri tanasi suv qarshiligini kamaytirib suzishni osonlashtiradi. Shilimshiq qoplama ham ishqalanishni kamaytiradi.",
+      "answer": "Suvda harakatni yengillashtiradi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f2": {
+      "claim": "Zog‘ora baliqda ko‘krak va qorin suzgichlari juft, orqa, dum va anal suzgichlari toqdir.",
+      "answer": "Ko‘krak va qorin",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f3": {
+      "claim": "Dum suzgichi oldinga suzishda, juft suzgichlar esa muvozanat, burilish va to‘xtashda muhim.",
+      "answer": "Juft ko‘krak va qorin suzgichlari",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f4": {
+      "claim": "Zog‘ora baliq skeletining asosini umurtqa pog‘onasi tashkil qiladi; uning nayida orqa miya joylashadi.",
+      "answer": "Umurtqa pog‘onasi nayida",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f5": {
+      "claim": "Zog‘ora baliqning suzgich pufagi ichak ustidagi gazli xaltacha bo‘lib, suvda muayyan chuqurlikda turishga yordam beradi.",
+      "answer": "Suvdagi muallaqlikni boshqarishga yordam berish",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f6": {
+      "claim": "Tananing atrof-muhit rangiga mosligi baliqni yirtqichlardan yashiradi; bunday rang himoya rangi deyiladi.",
+      "answer": "Himoya rangining",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suv qarshiligiga moslashish",
+      "body": "Zog‘ora baliqning suyri tanasi suv qarshiligini kamaytirib suzishni osonlashtiradi. Shilimshiq qoplama ham ishqalanishni kamaytiradi.",
+      "fact_ids": [
+        "paragraph-29-f1"
+      ]
+    },
+    {
+      "title": "Juft va toq suzgichlar",
+      "body": "Zog‘ora baliqda ko‘krak va qorin suzgichlari juft, orqa, dum va anal suzgichlari toqdir.",
+      "fact_ids": [
+        "paragraph-29-f2"
+      ]
+    },
+    {
+      "title": "Harakatni boshqarish",
+      "body": "Dum suzgichi oldinga suzishda, juft suzgichlar esa muvozanat, burilish va to‘xtashda muhim.",
+      "fact_ids": [
+        "paragraph-29-f3"
+      ]
+    },
+    {
+      "title": "Skelet va himoya",
+      "body": "Zog‘ora baliq skeletining asosini umurtqa pog‘onasi tashkil qiladi; uning nayida orqa miya joylashadi.",
+      "fact_ids": [
+        "paragraph-29-f4"
+      ]
+    },
+    {
+      "title": "Gazli pufakning vazifasi",
+      "body": "Zog‘ora baliqning suzgich pufagi ichak ustidagi gazli xaltacha bo‘lib, suvda muayyan chuqurlikda turishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-29-f5"
+      ]
+    },
+    {
+      "title": "Himoya rangi",
+      "body": "Tananing atrof-muhit rangiga mosligi baliqni yirtqichlardan yashiradi; bunday rang himoya rangi deyiladi.",
+      "fact_ids": [
+        "paragraph-29-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-29-q1",
+      "fact_id": "paragraph-29-f1",
+      "question_text": "Suyri tana va shilimshiq qoplamaning umumiy foydasi qaysi?",
+      "options": [
+        "Suvda harakatni yengillashtiradi",
+        "Baliqni havoda doimiy uchiradi",
+        "Faqat urug‘ hujayra ishlab chiqaradi",
+        "Barcha suyaklarni yumshoq o‘simlikka aylantiradi"
+      ],
+      "correct_answer": "Suvda harakatni yengillashtiradi",
+      "explanation": "Zog‘ora baliqning suyri tanasi suv qarshiligini kamaytirib suzishni osonlashtiradi. Shilimshiq qoplama ham ishqalanishni kamaytiradi."
+    },
+    {
+      "key": "paragraph-29-q2",
+      "fact_id": "paragraph-29-f2",
+      "question_text": "Qaysi qatorda zog‘ora baliqning juft suzgichlari berilgan?",
+      "options": [
+        "Orqa va dum",
+        "Dum va anal",
+        "Orqa va anal",
+        "Ko‘krak va qorin"
+      ],
+      "correct_answer": "Ko‘krak va qorin",
+      "explanation": "Zog‘ora baliqda ko‘krak va qorin suzgichlari juft, orqa, dum va anal suzgichlari toqdir."
+    },
+    {
+      "key": "paragraph-29-q3",
+      "fact_id": "paragraph-29-f3",
+      "question_text": "Baliq burilib yoki to‘xtayotganda qaysi suzgichlar yordam beradi?",
+      "options": [
+        "Faqat ko‘z usti qovoqlari",
+        "Faqat jabra ravog‘idagi tishlar",
+        "Juft ko‘krak va qorin suzgichlari",
+        "Faqat tangachalarning qattiq cheti"
+      ],
+      "correct_answer": "Juft ko‘krak va qorin suzgichlari",
+      "explanation": "Dum suzgichi oldinga suzishda, juft suzgichlar esa muvozanat, burilish va to‘xtashda muhim."
+    },
+    {
+      "key": "paragraph-29-q4",
+      "fact_id": "paragraph-29-f4",
+      "question_text": "Zog‘ora baliqning orqa miyasi qayerda himoyalangan?",
+      "options": [
+        "Faqat tangacha ustidagi shilimshiqda",
+        "Umurtqa pog‘onasi nayida",
+        "Faqat suzgich pufagi gazida",
+        "Faqat ichak bo‘shlig‘ida"
+      ],
+      "correct_answer": "Umurtqa pog‘onasi nayida",
+      "explanation": "Zog‘ora baliq skeletining asosini umurtqa pog‘onasi tashkil qiladi; uning nayida orqa miya joylashadi."
+    },
+    {
+      "key": "paragraph-29-q5",
+      "fact_id": "paragraph-29-f5",
+      "question_text": "Suzgich pufagining asosiy vazifalaridan biri nima?",
+      "options": [
+        "Suvdagi muallaqlikni boshqarishga yordam berish",
+        "Ovqatni jag‘ bilan maydalash",
+        "Qonni yurak o‘rnida haydash",
+        "Faqat tuxumlarni urug‘lantirish"
+      ],
+      "correct_answer": "Suvdagi muallaqlikni boshqarishga yordam berish",
+      "explanation": "Zog‘ora baliqning suzgich pufagi ichak ustidagi gazli xaltacha bo‘lib, suvda muayyan chuqurlikda turishga yordam beradi."
+    },
+    {
+      "key": "paragraph-29-q6",
+      "fact_id": "paragraph-29-f6",
+      "question_text": "Baliq orqasining suv tubi rangiga mosligi nimaning misoli?",
+      "options": [
+        "Ogohlantiruvchi yorug‘lik ishlab chiqarishning",
+        "Jinsiy hujayralar qo‘shilishining",
+        "Tana bo‘ylama bo‘linishining",
+        "Himoya rangining"
+      ],
+      "correct_answer": "Himoya rangining",
+      "explanation": "Tananing atrof-muhit rangiga mosligi baliqni yirtqichlardan yashiradi; bunday rang himoya rangi deyiladi."
+    }
+  ]
+}

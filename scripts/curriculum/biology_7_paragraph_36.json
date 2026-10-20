@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-36-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-53",
+  "title": "Ko‘l baqasining ichki tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-36-f1": {
+      "claim": "Ko‘l baqasining orqa ichagi kengayib kloakaga ochiladi; kloaka hazm yo‘lining oxirgi umumiy bo‘limidir.",
+      "answer": "Kloakaga",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f2": {
+      "claim": "Voyaga yetgan ko‘l baqasi o‘pka va terisi orqali gaz almashadi; ikkala yuzada ham ko‘p kapillyarlar bor.",
+      "answer": "O‘pka va teri",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f3": {
+      "claim": "Baqaning yuragi ikkita bo‘lma va bitta qorinchadan iborat; qon aylanishida katta va kichik doira bor.",
+      "answer": "Ikki bo‘lma va bir qorincha",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f4": {
+      "claim": "Baqaning ikki bo‘lmasidan kelgan qon bitta qorinchaga o‘tib qisman aralashadi. Bu baliqning bir doirali sistemasidan farqlanadi.",
+      "answer": "Bitta umumiy qorinchaga",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f5": {
+      "claim": "Baqada buyraklar siydik hosil qiladi; siydik yo‘llari kloakaga ochiladi.",
+      "answer": "Kloakaga",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-36-f6": {
+      "claim": "Tovush nog‘ora pardani tebratadi; tebranish o‘rta quloqdagi suyakcha orqali ichki quloqqa uzatiladi.",
+      "answer": "Nog‘ora parda → o‘rta quloq → ichki quloq",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hazm yo‘lining oxiri",
+      "body": "Ko‘l baqasining orqa ichagi kengayib kloakaga ochiladi; kloaka hazm yo‘lining oxirgi umumiy bo‘limidir.",
+      "fact_ids": [
+        "paragraph-36-f1"
+      ]
+    },
+    {
+      "title": "Ikki nafas olish yuzasi",
+      "body": "Voyaga yetgan ko‘l baqasi o‘pka va terisi orqali gaz almashadi; ikkala yuzada ham ko‘p kapillyarlar bor.",
+      "fact_ids": [
+        "paragraph-36-f2"
+      ]
+    },
+    {
+      "title": "Uch kamerali yurak",
+      "body": "Baqaning yuragi ikkita bo‘lma va bitta qorinchadan iborat; qon aylanishida katta va kichik doira bor.",
+      "fact_ids": [
+        "paragraph-36-f3"
+      ]
+    },
+    {
+      "title": "Qonning qisman aralashishi",
+      "body": "Baqaning ikki bo‘lmasidan kelgan qon bitta qorinchaga o‘tib qisman aralashadi. Bu baliqning bir doirali sistemasidan farqlanadi.",
+      "fact_ids": [
+        "paragraph-36-f4"
+      ]
+    },
+    {
+      "title": "Buyrak va chiqindilar",
+      "body": "Baqada buyraklar siydik hosil qiladi; siydik yo‘llari kloakaga ochiladi.",
+      "fact_ids": [
+        "paragraph-36-f5"
+      ]
+    },
+    {
+      "title": "Tovushning quloqqa yetishi",
+      "body": "Tovush nog‘ora pardani tebratadi; tebranish o‘rta quloqdagi suyakcha orqali ichki quloqqa uzatiladi.",
+      "fact_ids": [
+        "paragraph-36-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-36-q1",
+      "fact_id": "paragraph-36-f1",
+      "question_text": "Baqaning orqa ichagi qaysi bo‘limga ochiladi?",
+      "options": [
+        "Kloakaga",
+        "Suzgich pufagiga",
+        "Jabra qopqog‘iga",
+        "Yurak bo‘lmasiga"
+      ],
+      "correct_answer": "Kloakaga",
+      "explanation": "Ko‘l baqasining orqa ichagi kengayib kloakaga ochiladi; kloaka hazm yo‘lining oxirgi umumiy bo‘limidir."
+    },
+    {
+      "key": "paragraph-36-q2",
+      "fact_id": "paragraph-36-f2",
+      "question_text": "Voyaga yetgan ko‘l baqasining nafas olishida qaysi organlar qatnashadi?",
+      "options": [
+        "Faqat traxeya",
+        "Faqat tashqi jabra",
+        "Faqat suzgich pufagi",
+        "O‘pka va teri"
+      ],
+      "correct_answer": "O‘pka va teri",
+      "explanation": "Voyaga yetgan ko‘l baqasi o‘pka va terisi orqali gaz almashadi; ikkala yuzada ham ko‘p kapillyarlar bor."
+    },
+    {
+      "key": "paragraph-36-q3",
+      "fact_id": "paragraph-36-f3",
+      "question_text": "Baqa yuragining tuzilishi qaysi javobda to‘g‘ri?",
+      "options": [
+        "Ikki bo‘lma va ikki qorincha",
+        "Faqat ikkita qorincha",
+        "Ikki bo‘lma va bir qorincha",
+        "Bir bo‘lma va bir qorincha"
+      ],
+      "correct_answer": "Ikki bo‘lma va bir qorincha",
+      "explanation": "Baqaning yuragi ikkita bo‘lma va bitta qorinchadan iborat; qon aylanishida katta va kichik doira bor."
+    },
+    {
+      "key": "paragraph-36-q4",
+      "fact_id": "paragraph-36-f4",
+      "question_text": "Baqa yuragida ikki bo‘lma qoni qaysi kameraga o‘tadi?",
+      "options": [
+        "Ikki butunlay ajralgan qorinchaga",
+        "Bitta umumiy qorinchaga",
+        "Faqat chap bo‘lmaga qaytadi",
+        "Faqat ichak bo‘shlig‘iga"
+      ],
+      "correct_answer": "Bitta umumiy qorinchaga",
+      "explanation": "Baqaning ikki bo‘lmasidan kelgan qon bitta qorinchaga o‘tib qisman aralashadi. Bu baliqning bir doirali sistemasidan farqlanadi."
+    },
+    {
+      "key": "paragraph-36-q5",
+      "fact_id": "paragraph-36-f5",
+      "question_text": "Baqada siydik yo‘llari qayerga ochiladi?",
+      "options": [
+        "Kloakaga",
+        "Faqat og‘izga",
+        "Faqat yurak bo‘lmasiga",
+        "Faqat burun teshigiga"
+      ],
+      "correct_answer": "Kloakaga",
+      "explanation": "Baqada buyraklar siydik hosil qiladi; siydik yo‘llari kloakaga ochiladi."
+    },
+    {
+      "key": "paragraph-36-q6",
+      "fact_id": "paragraph-36-f6",
+      "question_text": "Baqada tovush tebranishi qanday yo‘l bilan uzatiladi?",
+      "options": [
+        "Ko‘z → suzgich pufagi → dum",
+        "Burun → oshqozon → ichak",
+        "Teri → tuxumdon → buyrak",
+        "Nog‘ora parda → o‘rta quloq → ichki quloq"
+      ],
+      "correct_answer": "Nog‘ora parda → o‘rta quloq → ichki quloq",
+      "explanation": "Tovush nog‘ora pardani tebratadi; tebranish o‘rta quloqdagi suyakcha orqali ichki quloqqa uzatiladi."
+    }
+  ]
+}

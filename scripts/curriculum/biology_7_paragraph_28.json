@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-28-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-42",
+  "title": "Lansetnik – tuban tuzilgan xordali hayvon",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-28-f1": {
+      "claim": "Lansetnik dengiz tubidagi qumga ko‘milib, oldingi og‘iz tomonini tashqarida qoldirib yashaydi.",
+      "answer": "Dengiz tubi qumiga ko‘milib yashash",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f2": {
+      "claim": "Lansetnikning xordasi tanasi bo‘ylab cho‘zilib, ichki organlarga tayanch bo‘ladi va butun hayoti davomida saqlanadi.",
+      "answer": "Xorda",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f3": {
+      "claim": "Suvdagi juda mayda plankton og‘iz orqali halqumga kiradi, oziq ichakka o‘tadi; suv halqumdagi jabra teshiklari orqali chiqadi.",
+      "answer": "Suv oqimidagi mayda plankton bilan",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f4": {
+      "claim": "Lansetnikning alohida yuragi yo‘q; yirik qon tomirlarining qisqarishi qon harakatini ta’minlaydi.",
+      "answer": "Yirik tomirlar devorining qisqarishi",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f5": {
+      "claim": "Lansetnikning nerv nayi xorda ustida, tana bo‘ylab joylashgan; undan ichki organlar va tana yuzasiga nervlar ketadi.",
+      "answer": "Ustida",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f6": {
+      "claim": "Lansetnik ayrim jinsli hayvon; yetilgan tuxumlar suvga tushib urug‘lanadi.",
+      "answer": "Suvda",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qumga ko‘milgan dengiz hayvoni",
+      "body": "Lansetnik dengiz tubidagi qumga ko‘milib, oldingi og‘iz tomonini tashqarida qoldirib yashaydi.",
+      "fact_ids": [
+        "paragraph-28-f1"
+      ]
+    },
+    {
+      "title": "Umrbod saqlanadigan tayanch",
+      "body": "Lansetnikning xordasi tanasi bo‘ylab cho‘zilib, ichki organlarga tayanch bo‘ladi va butun hayoti davomida saqlanadi.",
+      "fact_ids": [
+        "paragraph-28-f2"
+      ]
+    },
+    {
+      "title": "Filtrlab oziqlanish",
+      "body": "Suvdagi juda mayda plankton og‘iz orqali halqumga kiradi, oziq ichakka o‘tadi; suv halqumdagi jabra teshiklari orqali chiqadi.",
+      "fact_ids": [
+        "paragraph-28-f3"
+      ]
+    },
+    {
+      "title": "Yuraksiz qon harakati",
+      "body": "Lansetnikning alohida yuragi yo‘q; yirik qon tomirlarining qisqarishi qon harakatini ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-28-f4"
+      ]
+    },
+    {
+      "title": "Nerv nayi joylashuvi",
+      "body": "Lansetnikning nerv nayi xorda ustida, tana bo‘ylab joylashgan; undan ichki organlar va tana yuzasiga nervlar ketadi.",
+      "fact_ids": [
+        "paragraph-28-f5"
+      ]
+    },
+    {
+      "title": "Suvda urug‘lanish",
+      "body": "Lansetnik ayrim jinsli hayvon; yetilgan tuxumlar suvga tushib urug‘lanadi.",
+      "fact_ids": [
+        "paragraph-28-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-28-q1",
+      "fact_id": "paragraph-28-f1",
+      "question_text": "Lansetnikning odatiy yashash tarzi qaysi?",
+      "options": [
+        "Dengiz tubi qumiga ko‘milib yashash",
+        "Faqat quruq daraxtda uchish",
+        "Faqat odam ichagida yashash",
+        "Faqat chuchuk suv yuzasida gul chiqarish"
+      ],
+      "correct_answer": "Dengiz tubi qumiga ko‘milib yashash",
+      "explanation": "Lansetnik dengiz tubidagi qumga ko‘milib, oldingi og‘iz tomonini tashqarida qoldirib yashaydi."
+    },
+    {
+      "key": "paragraph-28-q2",
+      "fact_id": "paragraph-28-f2",
+      "question_text": "Lansetnikning ichki o‘q tayanchi nima?",
+      "options": [
+        "Tashqi xitin qoplama",
+        "Faqat ikki pallali chig‘anoq",
+        "Faqat ponasimon oyoq",
+        "Xorda"
+      ],
+      "correct_answer": "Xorda",
+      "explanation": "Lansetnikning xordasi tanasi bo‘ylab cho‘zilib, ichki organlarga tayanch bo‘ladi va butun hayoti davomida saqlanadi."
+    },
+    {
+      "key": "paragraph-28-q3",
+      "fact_id": "paragraph-28-f3",
+      "question_text": "Lansetnik halqumiga oziq qanday kiradi?",
+      "options": [
+        "Faqat sut emish orqali",
+        "Faqat ildiz tukchasidan shimilish orqali",
+        "Suv oqimidagi mayda plankton bilan",
+        "Faqat yirik jag‘larda go‘shtni chaynash orqali"
+      ],
+      "correct_answer": "Suv oqimidagi mayda plankton bilan",
+      "explanation": "Suvdagi juda mayda plankton og‘iz orqali halqumga kiradi, oziq ichakka o‘tadi; suv halqumdagi jabra teshiklari orqali chiqadi."
+    },
+    {
+      "key": "paragraph-28-q4",
+      "fact_id": "paragraph-28-f4",
+      "question_text": "Lansetnikda qonning harakatlanishiga nima yordam beradi?",
+      "options": [
+        "Faqat qisqaruvchi vakuola",
+        "Yirik tomirlar devorining qisqarishi",
+        "To‘rt kamerali yurak",
+        "Ikki kamerali yurak"
+      ],
+      "correct_answer": "Yirik tomirlar devorining qisqarishi",
+      "explanation": "Lansetnikning alohida yuragi yo‘q; yirik qon tomirlarining qisqarishi qon harakatini ta’minlaydi."
+    },
+    {
+      "key": "paragraph-28-q5",
+      "fact_id": "paragraph-28-f5",
+      "question_text": "Lansetnikda nerv nayi xordaga nisbatan qayerda joylashgan?",
+      "options": [
+        "Ustida",
+        "Faqat ostida",
+        "Faqat ichak bo‘shlig‘ida",
+        "Faqat og‘iz paypaslagichining uchida"
+      ],
+      "correct_answer": "Ustida",
+      "explanation": "Lansetnikning nerv nayi xorda ustida, tana bo‘ylab joylashgan; undan ichki organlar va tana yuzasiga nervlar ketadi."
+    },
+    {
+      "key": "paragraph-28-q6",
+      "fact_id": "paragraph-28-f6",
+      "question_text": "Lansetnik tuxumlari qayerda urug‘lanadi?",
+      "options": [
+        "Faqat quruq pillada",
+        "Faqat tuxumdon ichidagi chig‘anoqda",
+        "Faqat tuproqdagi ko‘zachada",
+        "Suvda"
+      ],
+      "correct_answer": "Suvda",
+      "explanation": "Lansetnik ayrim jinsli hayvon; yetilgan tuxumlar suvga tushib urug‘lanadi."
+    }
+  ]
+}

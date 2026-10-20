@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-40-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-58",
+  "title": "Toshbaqalar va timsohlar turkumlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-40-f1": {
+      "claim": "Toshbaqaning orqa va qorin tomoni mustahkam kosa bilan himoyalangan; boshi va oyoqlari uning chetidan chiqadi.",
+      "answer": "Tanasini himoya qilish",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f2": {
+      "claim": "Toshbaqalarda tishlar yo‘q; jag‘lari shoxsimon plastinkalar bilan qoplangan.",
+      "answer": "Shoxsimon plastinkalar",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f3": {
+      "claim": "Dengiz toshbaqasi eshkaksimon oyoqlari yordamida suzadi, tuxum qo‘yish uchun qirg‘oqqa chiqadi.",
+      "answer": "Tuxum qo‘yish uchun",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f4": {
+      "claim": "Timsohning ko‘zlari va burun teshiklari boshining yuqori qismida bo‘lib, tanasi suvda turganida tashqaridan kuzatish va nafas olishga yordam beradi.",
+      "answer": "Ko‘zlarning bosh ustida joylashishi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f5": {
+      "claim": "Timsoh yuragi to‘rt kamerali bo‘lib, bu uni darslikda o‘rganilgan kaltakesakdan farqlovchi belgidir.",
+      "answer": "To‘rt",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f6": {
+      "claim": "Urg‘ochi timsoh qirg‘oqda chuqurga tuxum qo‘yadi, ko‘pincha ularni qo‘riqlaydi va chiqqan bolalarini suvga olib boradi.",
+      "answer": "Tuxumlarni qo‘riqlab yoshlarni suvga olib borish",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Toshbaqaning qalqoni",
+      "body": "Toshbaqaning orqa va qorin tomoni mustahkam kosa bilan himoyalangan; boshi va oyoqlari uning chetidan chiqadi.",
+      "fact_ids": [
+        "paragraph-40-f1"
+      ]
+    },
+    {
+      "title": "Tish o‘rnidagi qoplama",
+      "body": "Toshbaqalarda tishlar yo‘q; jag‘lari shoxsimon plastinkalar bilan qoplangan.",
+      "fact_ids": [
+        "paragraph-40-f2"
+      ]
+    },
+    {
+      "title": "Dengiz va quruqlik",
+      "body": "Dengiz toshbaqasi eshkaksimon oyoqlari yordamida suzadi, tuxum qo‘yish uchun qirg‘oqqa chiqadi.",
+      "fact_ids": [
+        "paragraph-40-f3"
+      ]
+    },
+    {
+      "title": "Timsohning suvga moslashishi",
+      "body": "Timsohning ko‘zlari va burun teshiklari boshining yuqori qismida bo‘lib, tanasi suvda turganida tashqaridan kuzatish va nafas olishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-40-f4"
+      ]
+    },
+    {
+      "title": "Timsoh yuragining farqi",
+      "body": "Timsoh yuragi to‘rt kamerali bo‘lib, bu uni darslikda o‘rganilgan kaltakesakdan farqlovchi belgidir.",
+      "fact_ids": [
+        "paragraph-40-f5"
+      ]
+    },
+    {
+      "title": "Naslga g‘amxo‘rlik",
+      "body": "Urg‘ochi timsoh qirg‘oqda chuqurga tuxum qo‘yadi, ko‘pincha ularni qo‘riqlaydi va chiqqan bolalarini suvga olib boradi.",
+      "fact_ids": [
+        "paragraph-40-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-40-q1",
+      "fact_id": "paragraph-40-f1",
+      "question_text": "Toshbaqadagi mustahkam kosaning asosiy vazifasi qaysi?",
+      "options": [
+        "Tanasini himoya qilish",
+        "Faqat kislorodni qondan olish",
+        "Faqat ipak ishlab chiqarish",
+        "Faqat oziqni ichakda maydalash"
+      ],
+      "correct_answer": "Tanasini himoya qilish",
+      "explanation": "Toshbaqaning orqa va qorin tomoni mustahkam kosa bilan himoyalangan; boshi va oyoqlari uning chetidan chiqadi."
+    },
+    {
+      "key": "paragraph-40-q2",
+      "fact_id": "paragraph-40-f2",
+      "question_text": "Toshbaqa jag‘ini nima qoplab turadi?",
+      "options": [
+        "Ko‘p qator o‘tkir tishlar",
+        "Faqat ipak tolalari",
+        "Faqat jabra varaqlari",
+        "Shoxsimon plastinkalar"
+      ],
+      "correct_answer": "Shoxsimon plastinkalar",
+      "explanation": "Toshbaqalarda tishlar yo‘q; jag‘lari shoxsimon plastinkalar bilan qoplangan."
+    },
+    {
+      "key": "paragraph-40-q3",
+      "fact_id": "paragraph-40-f3",
+      "question_text": "Dengiz toshbaqasi ko‘payishda nima uchun qirg‘oqqa chiqadi?",
+      "options": [
+        "Faqat tashqi urug‘lanish uchun suv qidirib",
+        "Faqat g‘umbakka aylanish uchun",
+        "Tuxum qo‘yish uchun",
+        "Faqat o‘pkasini bargga aylantirish uchun"
+      ],
+      "correct_answer": "Tuxum qo‘yish uchun",
+      "explanation": "Dengiz toshbaqasi eshkaksimon oyoqlari yordamida suzadi, tuxum qo‘yish uchun qirg‘oqqa chiqadi."
+    },
+    {
+      "key": "paragraph-40-q4",
+      "fact_id": "paragraph-40-f4",
+      "question_text": "Timsoh suvda turib atrofni ko‘rishiga qaysi joylashuv yordam beradi?",
+      "options": [
+        "Barcha ko‘zlarning yo‘qolishi",
+        "Ko‘zlarning bosh ustida joylashishi",
+        "Ko‘zlarning faqat qorin ostida bo‘lishi",
+        "Ko‘zlarning dum ichida yashirinishi"
+      ],
+      "correct_answer": "Ko‘zlarning bosh ustida joylashishi",
+      "explanation": "Timsohning ko‘zlari va burun teshiklari boshining yuqori qismida bo‘lib, tanasi suvda turganida tashqaridan kuzatish va nafas olishga yordam beradi."
+    },
+    {
+      "key": "paragraph-40-q5",
+      "fact_id": "paragraph-40-f5",
+      "question_text": "Timsohning yuragi nechta kamerali?",
+      "options": [
+        "To‘rt",
+        "Ikki",
+        "Uch",
+        "Bitta"
+      ],
+      "correct_answer": "To‘rt",
+      "explanation": "Timsoh yuragi to‘rt kamerali bo‘lib, bu uni darslikda o‘rganilgan kaltakesakdan farqlovchi belgidir."
+    },
+    {
+      "key": "paragraph-40-q6",
+      "fact_id": "paragraph-40-f6",
+      "question_text": "Timsohdagi naslga g‘amxo‘rlikka qaysi misol mos?",
+      "options": [
+        "Tuxumlarni har safar o‘zi yeb tugatish",
+        "Barcha yoshlarni quruq cho‘lga tashlash",
+        "Yoshlarni g‘umbak ichiga yashirish",
+        "Tuxumlarni qo‘riqlab yoshlarni suvga olib borish"
+      ],
+      "correct_answer": "Tuxumlarni qo‘riqlab yoshlarni suvga olib borish",
+      "explanation": "Urg‘ochi timsoh qirg‘oqda chuqurga tuxum qo‘yadi, ko‘pincha ularni qo‘riqlaydi va chiqqan bolalarini suvga olib boradi."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-laboratory-4-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-laboratory-45",
+  "title": "4-laboratoriya mashg‘uloti. Baliqlarning tashqi tuzilishi va harakatlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-4-f1": {
+      "claim": "Baliq tashqi tuzilishini o‘rganishda tana shakli, rangi, bosh, tana va dum qismlarining tutashuvi kuzatiladi.",
+      "answer": "Tana shakli, rangi va bo‘limlari",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f2": {
+      "claim": "Mashg‘ulot baliq tangachalarining oldingi qirrasi teriga botgan, keyingi qirrasi ustma-ust yotganini kuzatishni taklif qiladi.",
+      "answer": "Oldingi qirrasi botgan, keyingi qirrasi ustma-ust",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f3": {
+      "claim": "Darslik ko‘krak, qorin, orqa, dum va anal suzgichlar joylashuvini topib, ularning vazifasini tushuntirishni topshiradi.",
+      "answer": "Joylashuvi va harakatdagi vazifasi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f4": {
+      "claim": "Akvariumdagi baliqning suzgichlari va tanasi harakati, og‘iz hamda jabra qopqoqlarining ochilib-yopilishi alohida kuzatiladi.",
+      "answer": "Nafas olishdagi suv harakatini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv rejasini tuzish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nBaliq tashqi tuzilishini o‘rganishda tana shakli, rangi, bosh, tana va dum qismlarining tutashuvi kuzatiladi.",
+      "fact_ids": [
+        "laboratory-4-f1"
+      ]
+    },
+    {
+      "title": "Qoplamani tahlil qilish",
+      "body": "Mashg‘ulot baliq tangachalarining oldingi qirrasi teriga botgan, keyingi qirrasi ustma-ust yotganini kuzatishni taklif qiladi.",
+      "fact_ids": [
+        "laboratory-4-f2"
+      ]
+    },
+    {
+      "title": "Suzgich xaritasi",
+      "body": "Darslik ko‘krak, qorin, orqa, dum va anal suzgichlar joylashuvini topib, ularning vazifasini tushuntirishni topshiradi.",
+      "fact_ids": [
+        "laboratory-4-f3"
+      ]
+    },
+    {
+      "title": "Harakat va nafasni kuzatish",
+      "body": "Akvariumdagi baliqning suzgichlari va tanasi harakati, og‘iz hamda jabra qopqoqlarining ochilib-yopilishi alohida kuzatiladi.",
+      "fact_ids": [
+        "laboratory-4-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-4-q1",
+      "fact_id": "laboratory-4-f1",
+      "question_text": "Baliqning suvga moslashishini o‘rganish uchun birinchi qaysi belgilar mos?",
+      "options": [
+        "Tana shakli, rangi va bo‘limlari",
+        "Faqat akvarium romining eni",
+        "Faqat oziq qutisi yorlig‘i",
+        "Faqat xonaning eshik soni"
+      ],
+      "correct_answer": "Tana shakli, rangi va bo‘limlari",
+      "explanation": "Baliq tashqi tuzilishini o‘rganishda tana shakli, rangi, bosh, tana va dum qismlarining tutashuvi kuzatiladi."
+    },
+    {
+      "key": "laboratory-4-q2",
+      "fact_id": "laboratory-4-f2",
+      "question_text": "Baliq tangachalarining joylashuvi qaysi ta’rifga mos?",
+      "options": [
+        "Har biri butunlay tanadan ajralgan",
+        "Faqat boshning ichida yashiringan",
+        "Faqat suzgich pufagi ichiga terilgan",
+        "Oldingi qirrasi botgan, keyingi qirrasi ustma-ust"
+      ],
+      "correct_answer": "Oldingi qirrasi botgan, keyingi qirrasi ustma-ust",
+      "explanation": "Mashg‘ulot baliq tangachalarining oldingi qirrasi teriga botgan, keyingi qirrasi ustma-ust yotganini kuzatishni taklif qiladi."
+    },
+    {
+      "key": "laboratory-4-q3",
+      "fact_id": "laboratory-4-f3",
+      "question_text": "Suzgichlarni o‘rganishda shakl bilan birga yana nima qayd etiladi?",
+      "options": [
+        "Faqat akvariumning qopqoq rangi",
+        "Faqat suv idishining ishlab chiqaruvchisi",
+        "Joylashuvi va harakatdagi vazifasi",
+        "Faqat baliqning sotuv narxi"
+      ],
+      "correct_answer": "Joylashuvi va harakatdagi vazifasi",
+      "explanation": "Darslik ko‘krak, qorin, orqa, dum va anal suzgichlar joylashuvini topib, ularning vazifasini tushuntirishni topshiradi."
+    },
+    {
+      "key": "laboratory-4-q4",
+      "fact_id": "laboratory-4-f4",
+      "question_text": "Og‘iz va jabra qopqog‘i ochilib-yopilishi qaysi faoliyatni tahlil qilishga yordam beradi?",
+      "options": [
+        "Faqat barg chiqarishni",
+        "Nafas olishdagi suv harakatini",
+        "Faqat g‘umbakka aylanishni",
+        "Faqat qorinoyoqqa tuxum yopishtirishni"
+      ],
+      "correct_answer": "Nafas olishdagi suv harakatini",
+      "explanation": "Akvariumdagi baliqning suzgichlari va tanasi harakati, og‘iz hamda jabra qopqoqlarining ochilib-yopilishi alohida kuzatiladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "4-laboratoriya mashg‘uloti. Baliqlarning tashqi tuzilishi va harakatlanishi: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv rejasini tuzish",
+        "fact_ids": [
+          "laboratory-4-f1"
+        ]
+      },
+      {
+        "instruction": "Qoplamani tahlil qilish",
+        "fact_ids": [
+          "laboratory-4-f2"
+        ]
+      },
+      {
+        "instruction": "Suzgich xaritasi",
+        "fact_ids": [
+          "laboratory-4-f3"
+        ]
+      },
+      {
+        "instruction": "Harakat va nafasni kuzatish",
+        "fact_ids": [
+          "laboratory-4-f4"
+        ]
+      }
+    ]
+  }
+}

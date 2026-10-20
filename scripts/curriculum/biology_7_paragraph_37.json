@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-37-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-54",
+  "title": "Suvda hamda quruqlikda yashovchilarning ko‘payishi, rivojlanishi va xilma-xilligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-37-f1": {
+      "claim": "Ko‘l baqasi suvga tuxum tashlaydi, erkagi urug‘ suyuqligini tuxumlarga chiqaradi. Urug‘lanish tashqi muhitda sodir bo‘ladi.",
+      "answer": "Suvdagi tashqi muhitda",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f2": {
+      "claim": "Baqa tuxumidan itbaliq chiqadi. Uning dumi va jabralari bor, yashash muhiti suvdir.",
+      "answer": "Itbaliq",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f3": {
+      "claim": "Itbaliqda avval orqa, keyin oldingi oyoqlar paydo bo‘ladi; dum asta kamayib yosh baqa shakllanadi.",
+      "answer": "Avval orqa, keyin oldingi oyoqlar",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f4": {
+      "claim": "Rivojlanish davomida itbaliqning jabralari o‘rniga o‘pka rivojlanadi; yosh baqa suv yuzasidan havo ola boshlaydi.",
+      "answer": "O‘pka",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f5": {
+      "claim": "Baqa va qurbaqa dumsiz, triton va salamandra dumli suvda hamda quruqlikda yashovchilarga misoldir.",
+      "answer": "Triton va salamandra",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-37-f6": {
+      "claim": "Baqa va qurbaqalar ko‘p hasharotlarni yeydi, o‘zlari ham boshqa hayvonlar uchun oziq bo‘ladi; ular oziq zanjirida qatnashadi.",
+      "answer": "Zararkunanda hasharotlarni yeyishi",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suvdagi urug‘lanish",
+      "body": "Ko‘l baqasi suvga tuxum tashlaydi, erkagi urug‘ suyuqligini tuxumlarga chiqaradi. Urug‘lanish tashqi muhitda sodir bo‘ladi.",
+      "fact_ids": [
+        "paragraph-37-f1"
+      ]
+    },
+    {
+      "title": "Itbaliq — lichinka",
+      "body": "Baqa tuxumidan itbaliq chiqadi. Uning dumi va jabralari bor, yashash muhiti suvdir.",
+      "fact_ids": [
+        "paragraph-37-f2"
+      ]
+    },
+    {
+      "title": "Bosqichma-bosqich oyoq chiqishi",
+      "body": "Itbaliqda avval orqa, keyin oldingi oyoqlar paydo bo‘ladi; dum asta kamayib yosh baqa shakllanadi.",
+      "fact_ids": [
+        "paragraph-37-f3"
+      ]
+    },
+    {
+      "title": "Nafas organi almashishi",
+      "body": "Rivojlanish davomida itbaliqning jabralari o‘rniga o‘pka rivojlanadi; yosh baqa suv yuzasidan havo ola boshlaydi.",
+      "fact_ids": [
+        "paragraph-37-f4"
+      ]
+    },
+    {
+      "title": "Dumli va dumsiz vakillar",
+      "body": "Baqa va qurbaqa dumsiz, triton va salamandra dumli suvda hamda quruqlikda yashovchilarga misoldir.",
+      "fact_ids": [
+        "paragraph-37-f5"
+      ]
+    },
+    {
+      "title": "Hasharotlar bilan oziq aloqasi",
+      "body": "Baqa va qurbaqalar ko‘p hasharotlarni yeydi, o‘zlari ham boshqa hayvonlar uchun oziq bo‘ladi; ular oziq zanjirida qatnashadi.",
+      "fact_ids": [
+        "paragraph-37-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-37-q1",
+      "fact_id": "paragraph-37-f1",
+      "question_text": "Ko‘l baqasining tuxumlari qayerda urug‘lanadi?",
+      "options": [
+        "Suvdagi tashqi muhitda",
+        "Faqat quruq tuxum po‘sti ichida",
+        "Faqat ona tanasi ichida",
+        "Faqat daraxtdagi ipak pillada"
+      ],
+      "correct_answer": "Suvdagi tashqi muhitda",
+      "explanation": "Ko‘l baqasi suvga tuxum tashlaydi, erkagi urug‘ suyuqligini tuxumlarga chiqaradi. Urug‘lanish tashqi muhitda sodir bo‘ladi."
+    },
+    {
+      "key": "paragraph-37-q2",
+      "fact_id": "paragraph-37-f2",
+      "question_text": "Baqaning suvda yashovchi dumli lichinkasi qanday ataladi?",
+      "options": [
+        "G‘umbak",
+        "Finna",
+        "Polip",
+        "Itbaliq"
+      ],
+      "correct_answer": "Itbaliq",
+      "explanation": "Baqa tuxumidan itbaliq chiqadi. Uning dumi va jabralari bor, yashash muhiti suvdir."
+    },
+    {
+      "key": "paragraph-37-q3",
+      "fact_id": "paragraph-37-f3",
+      "question_text": "Itbaliqning baqaga aylanishida oyoqlar qanday tartibda rivojlanadi?",
+      "options": [
+        "Bir vaqtning o‘zida sakkizta oyoq",
+        "Faqat oldingi oyoqlar, orqasi hech qachon yo‘q",
+        "Avval orqa, keyin oldingi oyoqlar",
+        "Avval oldingi, keyin orqa oyoqlar"
+      ],
+      "correct_answer": "Avval orqa, keyin oldingi oyoqlar",
+      "explanation": "Itbaliqda avval orqa, keyin oldingi oyoqlar paydo bo‘ladi; dum asta kamayib yosh baqa shakllanadi."
+    },
+    {
+      "key": "paragraph-37-q4",
+      "fact_id": "paragraph-37-f4",
+      "question_text": "Itbaliq yosh baqaga aylanganda qaysi nafas organi rivojlanadi?",
+      "options": [
+        "Asalari havo xaltasi",
+        "O‘pka",
+        "Qisqichbaqa jabrasi",
+        "Hasharot traxeyasi"
+      ],
+      "correct_answer": "O‘pka",
+      "explanation": "Rivojlanish davomida itbaliqning jabralari o‘rniga o‘pka rivojlanadi; yosh baqa suv yuzasidan havo ola boshlaydi."
+    },
+    {
+      "key": "paragraph-37-q5",
+      "fact_id": "paragraph-37-f5",
+      "question_text": "Qaysi juftlik dumli amfibiyalardan iborat?",
+      "options": [
+        "Triton va salamandra",
+        "Baqa va qurbaqa",
+        "Kaltakesak va ilon",
+        "Lansetnik va zog‘ora"
+      ],
+      "correct_answer": "Triton va salamandra",
+      "explanation": "Baqa va qurbaqa dumsiz, triton va salamandra dumli suvda hamda quruqlikda yashovchilarga misoldir."
+    },
+    {
+      "key": "paragraph-37-q6",
+      "fact_id": "paragraph-37-f6",
+      "question_text": "Baqa va qurbaqalarning ekinlarga foydasi qaysi faoliyat bilan bog‘liq?",
+      "options": [
+        "Barcha gul changini yo‘qotishi",
+        "Tuproqda ildizsiz o‘sishi",
+        "Faqat sut ishlab chiqarishi",
+        "Zararkunanda hasharotlarni yeyishi"
+      ],
+      "correct_answer": "Zararkunanda hasharotlarni yeyishi",
+      "explanation": "Baqa va qurbaqalar ko‘p hasharotlarni yeydi, o‘zlari ham boshqa hayvonlar uchun oziq bo‘ladi; ular oziq zanjirida qatnashadi."
+    }
+  ]
+}

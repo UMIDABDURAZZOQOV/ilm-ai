@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-laboratory-5-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-laboratory-62",
+  "title": "5-laboratoriya mashg‘uloti. Qushlarning tashqi tuzilishi va pat qoplami",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-5-f1": {
+      "claim": "Mashg‘ulotda qushning boshi, bo‘yni, qanotlari, dumi va oyoqlari kuzatiladi; har bir qismning joylashuvi qayd etiladi.",
+      "answer": "Bosh, bo‘yin, qanot, dum va oyoqlar",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f2": {
+      "claim": "Qoplovchi kontur patda pastki uch, qattiq o‘zak va yelpig‘ich topiladi; yelpig‘ich o‘siqchalari lupa yoki mikroskopda o‘rganiladi.",
+      "answer": "Lupa yoki mikroskop",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f3": {
+      "claim": "Darslik pat bilan parning tuzilishini yonma-yon solishtirishni, farqlarini qayd etib rasmini chizishni topshiradi.",
+      "answer": "Farqlarini yozib, tuzilishini chizib",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f4": {
+      "claim": "Qush oyog‘ining pastidagi tangachalar kuzatilib, qush va sudralib yuruvchilarning tashqi qoplami o‘rtasidagi o‘xshashliklar muhokama qilinadi.",
+      "answer": "Oyoqning pastidagi tangachalarga",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tashqi qismlarni qayd etish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nMashg‘ulotda qushning boshi, bo‘yni, qanotlari, dumi va oyoqlari kuzatiladi; har bir qismning joylashuvi qayd etiladi.",
+      "fact_ids": [
+        "laboratory-5-f1"
+      ]
+    },
+    {
+      "title": "Patni qismlarga ajratib kuzatish",
+      "body": "Qoplovchi kontur patda pastki uch, qattiq o‘zak va yelpig‘ich topiladi; yelpig‘ich o‘siqchalari lupa yoki mikroskopda o‘rganiladi.",
+      "fact_ids": [
+        "laboratory-5-f2"
+      ]
+    },
+    {
+      "title": "Pat va parni taqqoslash",
+      "body": "Darslik pat bilan parning tuzilishini yonma-yon solishtirishni, farqlarini qayd etib rasmini chizishni topshiradi.",
+      "fact_ids": [
+        "laboratory-5-f3"
+      ]
+    },
+    {
+      "title": "Teri qoplamalarini solishtirish",
+      "body": "Qush oyog‘ining pastidagi tangachalar kuzatilib, qush va sudralib yuruvchilarning tashqi qoplami o‘rtasidagi o‘xshashliklar muhokama qilinadi.",
+      "fact_ids": [
+        "laboratory-5-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-5-q1",
+      "fact_id": "laboratory-5-f1",
+      "question_text": "Qush tanasi xaritasida qaysi asosiy qismlar ko‘rsatiladi?",
+      "options": [
+        "Bosh, bo‘yin, qanot, dum va oyoqlar",
+        "Faqat boshko‘krak va sakkizta oyoq",
+        "Faqat mantiya va ikki palla",
+        "Faqat ildiz, poya va barg"
+      ],
+      "correct_answer": "Bosh, bo‘yin, qanot, dum va oyoqlar",
+      "explanation": "Mashg‘ulotda qushning boshi, bo‘yni, qanotlari, dumi va oyoqlari kuzatiladi; har bir qismning joylashuvi qayd etiladi."
+    },
+    {
+      "key": "laboratory-5-q2",
+      "fact_id": "laboratory-5-f2",
+      "question_text": "Pat yelpig‘ichidagi mayda o‘siqchalarni tekshirish uchun nima yordam beradi?",
+      "options": [
+        "Faqat termometr",
+        "Faqat tarozi",
+        "Faqat suv quygich",
+        "Lupa yoki mikroskop"
+      ],
+      "correct_answer": "Lupa yoki mikroskop",
+      "explanation": "Qoplovchi kontur patda pastki uch, qattiq o‘zak va yelpig‘ich topiladi; yelpig‘ich o‘siqchalari lupa yoki mikroskopda o‘rganiladi."
+    },
+    {
+      "key": "laboratory-5-q3",
+      "fact_id": "laboratory-5-f3",
+      "question_text": "Pat va parni solishtirish natijasi qanday hujjatlashtiriladi?",
+      "options": [
+        "Faqat ko‘rilmagan natijani taxmin qilib",
+        "Faqat namuna qutisi narxini yozib",
+        "Farqlarini yozib, tuzilishini chizib",
+        "Faqat ularni bir xil deb nomlab"
+      ],
+      "correct_answer": "Farqlarini yozib, tuzilishini chizib",
+      "explanation": "Darslik pat bilan parning tuzilishini yonma-yon solishtirishni, farqlarini qayd etib rasmini chizishni topshiradi."
+    },
+    {
+      "key": "laboratory-5-q4",
+      "fact_id": "laboratory-5-f4",
+      "question_text": "Qush va kaltakesak qoplamasini taqqoslashda qushning qaysi qismiga e’tibor beriladi?",
+      "options": [
+        "Faqat bosh miya ichiga",
+        "Oyoqning pastidagi tangachalarga",
+        "Faqat oshqozon ichiga",
+        "Faqat yurak bo‘lmasiga"
+      ],
+      "correct_answer": "Oyoqning pastidagi tangachalarga",
+      "explanation": "Qush oyog‘ining pastidagi tangachalar kuzatilib, qush va sudralib yuruvchilarning tashqi qoplami o‘rtasidagi o‘xshashliklar muhokama qilinadi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "5-laboratoriya mashg‘uloti. Qushlarning tashqi tuzilishi va pat qoplami: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Tashqi qismlarni qayd etish",
+        "fact_ids": [
+          "laboratory-5-f1"
+        ]
+      },
+      {
+        "instruction": "Patni qismlarga ajratib kuzatish",
+        "fact_ids": [
+          "laboratory-5-f2"
+        ]
+      },
+      {
+        "instruction": "Pat va parni taqqoslash",
+        "fact_ids": [
+          "laboratory-5-f3"
+        ]
+      },
+      {
+        "instruction": "Teri qoplamalarini solishtirish",
+        "fact_ids": [
+          "laboratory-5-f4"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-31-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-47",
+  "title": "Nerv sistemasi va sezgi organlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-31-f1": {
+      "claim": "Baliqning markaziy nerv sistemasi bosh miya va orqa miyadan tuzilgan; ulardan organlarga nervlar boradi.",
+      "answer": "Bosh miya va orqa miya",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f2": {
+      "claim": "Baliqda miyacha harakatni boshqarishda, uzunchoq miya esa nafas olish, qon aylanish va hazm organlari ishini boshqarishda qatnashadi.",
+      "answer": "Miyacha",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f3": {
+      "claim": "Tana yonlaridagi yon chiziq suv harakati va tebranishlarini sezishda yordam beradi, shu orqali baliq to‘siqlarni payqaydi.",
+      "answer": "Yon chiziq",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f4": {
+      "claim": "Baliqning burun teshiklari hid sezuvchi hujayrali xaltachalarga ochiladi; ko‘zlari esa shakl va rangni farqlashga yordam beradi.",
+      "answer": "Hid bilish",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f5": {
+      "claim": "Sezgi hujayralaridan kelgan ta’sir markaziy nerv sistemasiga, undan javob tegishli muskullarga uzatiladi.",
+      "answer": "Sezgi hujayrasi → markaziy nerv sistemasi → muskul",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f6": {
+      "claim": "Agar chiroq yoqilishi oziq berish bilan qayta-qayta bog‘lansa, keyin chiroqning o‘zi ham baliqni jalb qilishi mumkin. Bu shartli refleksdir.",
+      "answer": "Shartli refleks",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Markaziy nerv sistemasi",
+      "body": "Baliqning markaziy nerv sistemasi bosh miya va orqa miyadan tuzilgan; ulardan organlarga nervlar boradi.",
+      "fact_ids": [
+        "paragraph-31-f1"
+      ]
+    },
+    {
+      "title": "Miyacha va harakat",
+      "body": "Baliqda miyacha harakatni boshqarishda, uzunchoq miya esa nafas olish, qon aylanish va hazm organlari ishini boshqarishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-31-f2"
+      ]
+    },
+    {
+      "title": "Yon chiziq sezgisi",
+      "body": "Tana yonlaridagi yon chiziq suv harakati va tebranishlarini sezishda yordam beradi, shu orqali baliq to‘siqlarni payqaydi.",
+      "fact_ids": [
+        "paragraph-31-f3"
+      ]
+    },
+    {
+      "title": "Burun teshigi — hid bilish",
+      "body": "Baliqning burun teshiklari hid sezuvchi hujayrali xaltachalarga ochiladi; ko‘zlari esa shakl va rangni farqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-31-f4"
+      ]
+    },
+    {
+      "title": "Refleks yo‘lini tushunish",
+      "body": "Sezgi hujayralaridan kelgan ta’sir markaziy nerv sistemasiga, undan javob tegishli muskullarga uzatiladi.",
+      "fact_ids": [
+        "paragraph-31-f5"
+      ]
+    },
+    {
+      "title": "O‘rganilgan signal",
+      "body": "Agar chiroq yoqilishi oziq berish bilan qayta-qayta bog‘lansa, keyin chiroqning o‘zi ham baliqni jalb qilishi mumkin. Bu shartli refleksdir.",
+      "fact_ids": [
+        "paragraph-31-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-31-q1",
+      "fact_id": "paragraph-31-f1",
+      "question_text": "Baliq markaziy nerv sistemasining ikkita asosiy qismi qaysi?",
+      "options": [
+        "Bosh miya va orqa miya",
+        "Faqat ichak va buyrak",
+        "Faqat tangacha va shilimshiq",
+        "Faqat yurak va jabra"
+      ],
+      "correct_answer": "Bosh miya va orqa miya",
+      "explanation": "Baliqning markaziy nerv sistemasi bosh miya va orqa miyadan tuzilgan; ulardan organlarga nervlar boradi."
+    },
+    {
+      "key": "paragraph-31-q2",
+      "fact_id": "paragraph-31-f2",
+      "question_text": "Baliq harakatini boshqarishda qaysi miya bo‘limi muhim?",
+      "options": [
+        "Faqat hid bilish xaltachasi",
+        "Faqat suzgich pufagi",
+        "Faqat jinsiy bez",
+        "Miyacha"
+      ],
+      "correct_answer": "Miyacha",
+      "explanation": "Baliqda miyacha harakatni boshqarishda, uzunchoq miya esa nafas olish, qon aylanish va hazm organlari ishini boshqarishda qatnashadi."
+    },
+    {
+      "key": "paragraph-31-q3",
+      "fact_id": "paragraph-31-f3",
+      "question_text": "Loyqa suvda to‘siqni sezishda qaysi organ ayniqsa yordam beradi?",
+      "options": [
+        "Faqat anal suzgich nuri",
+        "Faqat oshqozon shirasi",
+        "Yon chiziq",
+        "Faqat tuxumdon"
+      ],
+      "correct_answer": "Yon chiziq",
+      "explanation": "Tana yonlaridagi yon chiziq suv harakati va tebranishlarini sezishda yordam beradi, shu orqali baliq to‘siqlarni payqaydi."
+    },
+    {
+      "key": "paragraph-31-q4",
+      "fact_id": "paragraph-31-f4",
+      "question_text": "Baliq burun teshiklari bilan bog‘liq asosiy sezgi qaysi?",
+      "options": [
+        "Faqat qon haydash",
+        "Hid bilish",
+        "Faqat teri orqali nafas olish",
+        "Faqat oziqni chaynash"
+      ],
+      "correct_answer": "Hid bilish",
+      "explanation": "Baliqning burun teshiklari hid sezuvchi hujayrali xaltachalarga ochiladi; ko‘zlari esa shakl va rangni farqlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-31-q5",
+      "fact_id": "paragraph-31-f5",
+      "question_text": "Baliqning ta’sirga harakat bilan javob berishida qaysi yo‘l to‘g‘ri?",
+      "options": [
+        "Sezgi hujayrasi → markaziy nerv sistemasi → muskul",
+        "Ichak → tangacha → suzgich pufagi",
+        "Tuxumdon → jabra → ko‘z",
+        "Buyrak → yurak → tuxum"
+      ],
+      "correct_answer": "Sezgi hujayrasi → markaziy nerv sistemasi → muskul",
+      "explanation": "Sezgi hujayralaridan kelgan ta’sir markaziy nerv sistemasiga, undan javob tegishli muskullarga uzatiladi."
+    },
+    {
+      "key": "paragraph-31-q6",
+      "fact_id": "paragraph-31-f6",
+      "question_text": "Oziq bilan bog‘langan chiroq signaliga baliqning kelishi qanday refleks?",
+      "options": [
+        "Faqat tug‘ma shartsiz refleks",
+        "Fotosintez",
+        "Faqat tana regeneratsiyasi",
+        "Shartli refleks"
+      ],
+      "correct_answer": "Shartli refleks",
+      "explanation": "Agar chiroq yoqilishi oziq berish bilan qayta-qayta bog‘lansa, keyin chiroqning o‘zi ham baliqni jalb qilishi mumkin. Bu shartli refleksdir."
+    }
+  ]
+}

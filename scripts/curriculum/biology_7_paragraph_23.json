@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-23-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-36",
+  "title": "Chala o‘zgarish bilan rivojlanadigan hasharotlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-23-f1": {
+      "claim": "Ninachining lichinkasi suvda, voyaga yetgani esa havoda ov qiladi; ikkala bosqich ham yirtqichdir.",
+      "answer": "Suvda",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f2": {
+      "claim": "Chigirtka, temirchak va chirildoq to‘g‘riqanotlilar guruhiga kiradi. Ularning kemiruvchi og‘zi va sakrashga moslashgan orqa oyoqlari bor.",
+      "answer": "Kemiruvchi og‘iz va sakrovchi orqa oyoqlar",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f3": {
+      "claim": "Qandalalarning oldingi qanoti asosida qalinroq, uchki qismida yupqa va shaffof bo‘ladi; shu bois darslikda yarim qattiqqanotlilar deyiladi.",
+      "answer": "Asosi qalin, uchki qismi yupqa",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f4": {
+      "claim": "Ko‘pchilik qandalalar o‘simlik shirasini so‘radi; to‘shak qandalasi esa odam va hayvon qonidan oziqlanadi.",
+      "answer": "Qon so‘rib oziqlanishi",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f5": {
+      "claim": "Ishchi termitlar in qurish va oziq bilan ta’minlashda, boshi yirik va jag‘lari kuchli qo‘riqchilar esa oilani himoya qilishda qatnashadi.",
+      "answer": "Oilani himoya qilishga",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f6": {
+      "claim": "Termitlar yog‘ochlik qism bilan oziqlanishi sababli binolarning yog‘och qismlariga zarar yetkazishi mumkin.",
+      "answer": "Yog‘och bilan oziqlanishiga",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ninachining ikki muhiti",
+      "body": "Ninachining lichinkasi suvda, voyaga yetgani esa havoda ov qiladi; ikkala bosqich ham yirtqichdir.",
+      "fact_ids": [
+        "paragraph-23-f1"
+      ]
+    },
+    {
+      "title": "To‘g‘riqanotlilarni ajratish",
+      "body": "Chigirtka, temirchak va chirildoq to‘g‘riqanotlilar guruhiga kiradi. Ularning kemiruvchi og‘zi va sakrashga moslashgan orqa oyoqlari bor.",
+      "fact_ids": [
+        "paragraph-23-f2"
+      ]
+    },
+    {
+      "title": "Qanot tuzilishidagi farq",
+      "body": "Qandalalarning oldingi qanoti asosida qalinroq, uchki qismida yupqa va shaffof bo‘ladi; shu bois darslikda yarim qattiqqanotlilar deyiladi.",
+      "fact_ids": [
+        "paragraph-23-f3"
+      ]
+    },
+    {
+      "title": "Barcha qandalalar bir xil oziqlanmaydi",
+      "body": "Ko‘pchilik qandalalar o‘simlik shirasini so‘radi; to‘shak qandalasi esa odam va hayvon qonidan oziqlanadi.",
+      "fact_ids": [
+        "paragraph-23-f4"
+      ]
+    },
+    {
+      "title": "Termit oilasidagi vazifalar",
+      "body": "Ishchi termitlar in qurish va oziq bilan ta’minlashda, boshi yirik va jag‘lari kuchli qo‘riqchilar esa oilani himoya qilishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-23-f5"
+      ]
+    },
+    {
+      "title": "Yog‘och bilan oziqlanish",
+      "body": "Termitlar yog‘ochlik qism bilan oziqlanishi sababli binolarning yog‘och qismlariga zarar yetkazishi mumkin.",
+      "fact_ids": [
+        "paragraph-23-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-23-q1",
+      "fact_id": "paragraph-23-f1",
+      "question_text": "Ninachi lichinkasi qaysi muhitda rivojlanadi?",
+      "options": [
+        "Suvda",
+        "Faqat quruq ipak pillada",
+        "Faqat hayvon ichagida",
+        "Faqat daraxt urug‘i ichida"
+      ],
+      "correct_answer": "Suvda",
+      "explanation": "Ninachining lichinkasi suvda, voyaga yetgani esa havoda ov qiladi; ikkala bosqich ham yirtqichdir."
+    },
+    {
+      "key": "paragraph-23-q2",
+      "fact_id": "paragraph-23-f2",
+      "question_text": "Chigirtkani tanishda qaysi belgilar birga muhim?",
+      "options": [
+        "So‘ruvchi xartum va ikkita qisqich",
+        "Qisqaruvchi vakuola va xivchin",
+        "Jabralar va ponasimon oyoq",
+        "Kemiruvchi og‘iz va sakrovchi orqa oyoqlar"
+      ],
+      "correct_answer": "Kemiruvchi og‘iz va sakrovchi orqa oyoqlar",
+      "explanation": "Chigirtka, temirchak va chirildoq to‘g‘riqanotlilar guruhiga kiradi. Ularning kemiruvchi og‘zi va sakrashga moslashgan orqa oyoqlari bor."
+    },
+    {
+      "key": "paragraph-23-q3",
+      "fact_id": "paragraph-23-f3",
+      "question_text": "Qandala oldingi qanotining o‘ziga xosligi nima?",
+      "options": [
+        "Faqat bitta dum suzgichga aylangan",
+        "Butunlay ohakdan tuzilgan",
+        "Asosi qalin, uchki qismi yupqa",
+        "Barcha qismi faqat mayda tangachalardan iborat"
+      ],
+      "correct_answer": "Asosi qalin, uchki qismi yupqa",
+      "explanation": "Qandalalarning oldingi qanoti asosida qalinroq, uchki qismida yupqa va shaffof bo‘ladi; shu bois darslikda yarim qattiqqanotlilar deyiladi."
+    },
+    {
+      "key": "paragraph-23-q4",
+      "fact_id": "paragraph-23-f4",
+      "question_text": "To‘shak qandalasining ko‘p o‘simlik qandalalaridan farqi qaysi?",
+      "options": [
+        "Faqat havodagi changni filtrlashi",
+        "Qon so‘rib oziqlanishi",
+        "Bargda fotosintez qilishi",
+        "Faqat chirigan yog‘ochni yeyishi"
+      ],
+      "correct_answer": "Qon so‘rib oziqlanishi",
+      "explanation": "Ko‘pchilik qandalalar o‘simlik shirasini so‘radi; to‘shak qandalasi esa odam va hayvon qonidan oziqlanadi."
+    },
+    {
+      "key": "paragraph-23-q5",
+      "fact_id": "paragraph-23-f5",
+      "question_text": "Termit qo‘riqchisining kuchli jag‘lari qaysi vazifaga moslashgan?",
+      "options": [
+        "Oilani himoya qilishga",
+        "Gul nektarini uzun xartum bilan so‘rishga",
+        "Faqat ipak pilla o‘rashga",
+        "Faqat ko‘z bilan rang ajratishga"
+      ],
+      "correct_answer": "Oilani himoya qilishga",
+      "explanation": "Ishchi termitlar in qurish va oziq bilan ta’minlashda, boshi yirik va jag‘lari kuchli qo‘riqchilar esa oilani himoya qilishda qatnashadi."
+    },
+    {
+      "key": "paragraph-23-q6",
+      "fact_id": "paragraph-23-f6",
+      "question_text": "Binoning yog‘och qismiga termit zarari nimaga bog‘liq?",
+      "options": [
+        "Faqat odam qoni bilan oziqlanishiga",
+        "Dengiz suvidan tuz olishiga",
+        "Gul nektarini asalga aylantirishiga",
+        "Yog‘och bilan oziqlanishiga"
+      ],
+      "correct_answer": "Yog‘och bilan oziqlanishiga",
+      "explanation": "Termitlar yog‘ochlik qism bilan oziqlanishi sababli binolarning yog‘och qismlariga zarar yetkazishi mumkin."
+    }
+  ]
+}

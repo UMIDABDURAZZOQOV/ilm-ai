@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-39-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-57",
+  "title": "Sudralib yuruvchilar xilma-xilligi: tangachalilar turkumi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-39-f1": {
+      "claim": "Ilon ko‘zi shaffof qoplama bilan qoplangan, odatdagi harakatchan qovoq yo‘q. Kaltakesakning ochilib-yumiladigan ko‘zidan farqlanadi.",
+      "answer": "Harakatchan qovoq o‘rnida shaffof qoplama bor",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f2": {
+      "claim": "Ilon tullaganda eski terisi paypoq singari yaxlit ko‘chadi. Kaltakesakda esa teri bo‘lak-bo‘lak ko‘chishi mumkin.",
+      "answer": "Yaxlit, paypoqsimon",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f3": {
+      "claim": "Ilon jag‘larining harakatchan bog‘lanishi og‘izni katta ochib, o‘ljani butunicha yutishga yordam beradi.",
+      "answer": "Jag‘larning harakatchan bog‘lanishi",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f4": {
+      "claim": "Kapcha ilon xavf sezganda tanasining oldingi qismini ko‘tarib, bo‘ynini kengaytiradi. U zaharli ilondir va uni bezovta qilish xavfli.",
+      "answer": "Kapcha ilon",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f5": {
+      "claim": "Darslikdagi sariq ilon aslida oyoqsiz kaltakesakdir. Hayvonning oddiy nomi uning qaysi guruhga kirishini har doim bildirmaydi.",
+      "answer": "Oyoqsiz kaltakesak",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f6": {
+      "claim": "Darslik ilon chaqishidan keyin tezda shifoxonaga murojaat qilish zarurligini aytadi. Ushbu dars zaharni so‘rish yoki jarohatga moddalar surtish kabi eskirgan usullarni tavsiya qilmaydi.",
+      "answer": "Tez tibbiy yordamga murojaat qilish",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ilon ko‘zining qoplamasi",
+      "body": "Ilon ko‘zi shaffof qoplama bilan qoplangan, odatdagi harakatchan qovoq yo‘q. Kaltakesakning ochilib-yumiladigan ko‘zidan farqlanadi.",
+      "fact_ids": [
+        "paragraph-39-f1"
+      ]
+    },
+    {
+      "title": "Tullashdagi farq",
+      "body": "Ilon tullaganda eski terisi paypoq singari yaxlit ko‘chadi. Kaltakesakda esa teri bo‘lak-bo‘lak ko‘chishi mumkin.",
+      "fact_ids": [
+        "paragraph-39-f2"
+      ]
+    },
+    {
+      "title": "O‘ljani butun yutish",
+      "body": "Ilon jag‘larining harakatchan bog‘lanishi og‘izni katta ochib, o‘ljani butunicha yutishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-39-f3"
+      ]
+    },
+    {
+      "title": "Ogohlantiruvchi holat",
+      "body": "Kapcha ilon xavf sezganda tanasining oldingi qismini ko‘tarib, bo‘ynini kengaytiradi. U zaharli ilondir va uni bezovta qilish xavfli.",
+      "fact_ids": [
+        "paragraph-39-f4"
+      ]
+    },
+    {
+      "title": "Nomiga aldanmang",
+      "body": "Darslikdagi sariq ilon aslida oyoqsiz kaltakesakdir. Hayvonning oddiy nomi uning qaysi guruhga kirishini har doim bildirmaydi.",
+      "fact_ids": [
+        "paragraph-39-f5"
+      ]
+    },
+    {
+      "title": "Xavfda tibbiy yordam",
+      "body": "Darslik ilon chaqishidan keyin tezda shifoxonaga murojaat qilish zarurligini aytadi. Ushbu dars zaharni so‘rish yoki jarohatga moddalar surtish kabi eskirgan usullarni tavsiya qilmaydi.",
+      "fact_ids": [
+        "paragraph-39-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-39-q1",
+      "fact_id": "paragraph-39-f1",
+      "question_text": "Ilonning ko‘zi kaltakesaknikidan qanday farq qiladi?",
+      "options": [
+        "Harakatchan qovoq o‘rnida shaffof qoplama bor",
+        "Har doim uchta katta qovoq ochilib-yopiladi",
+        "Barcha ilonlar ko‘zsiz",
+        "Ko‘zi faqat oyoq panjasida"
+      ],
+      "correct_answer": "Harakatchan qovoq o‘rnida shaffof qoplama bor",
+      "explanation": "Ilon ko‘zi shaffof qoplama bilan qoplangan, odatdagi harakatchan qovoq yo‘q. Kaltakesakning ochilib-yumiladigan ko‘zidan farqlanadi."
+    },
+    {
+      "key": "paragraph-39-q2",
+      "fact_id": "paragraph-39-f2",
+      "question_text": "Ilonning eski terisi tullashda odatda qanday ajraladi?",
+      "options": [
+        "Faqat alohida qush pati kabi",
+        "Faqat gul changi holida",
+        "Faqat ikki palla ko‘rinishida",
+        "Yaxlit, paypoqsimon"
+      ],
+      "correct_answer": "Yaxlit, paypoqsimon",
+      "explanation": "Ilon tullaganda eski terisi paypoq singari yaxlit ko‘chadi. Kaltakesakda esa teri bo‘lak-bo‘lak ko‘chishi mumkin."
+    },
+    {
+      "key": "paragraph-39-q3",
+      "fact_id": "paragraph-39-f3",
+      "question_text": "Ilonning nisbatan yirik o‘ljani butun yutishiga nima yordam beradi?",
+      "options": [
+        "Oyoqlari bilan mayda chaynashi",
+        "Qattiq chig‘anoqni yopishi",
+        "Jag‘larning harakatchan bog‘lanishi",
+        "O‘ljani gul nektariga aylantirishi"
+      ],
+      "correct_answer": "Jag‘larning harakatchan bog‘lanishi",
+      "explanation": "Ilon jag‘larining harakatchan bog‘lanishi og‘izni katta ochib, o‘ljani butunicha yutishga yordam beradi."
+    },
+    {
+      "key": "paragraph-39-q4",
+      "fact_id": "paragraph-39-f4",
+      "question_text": "Bo‘ynini kengaytirib ogohlantiruvchi holatga kiradigan ilon qaysi?",
+      "options": [
+        "Faqat suv shillig‘i",
+        "Kapcha ilon",
+        "Faqat sariq ilon kaltakesagi",
+        "Faqat yomg‘ir chuvalchangi"
+      ],
+      "correct_answer": "Kapcha ilon",
+      "explanation": "Kapcha ilon xavf sezganda tanasining oldingi qismini ko‘tarib, bo‘ynini kengaytiradi. U zaharli ilondir va uni bezovta qilish xavfli."
+    },
+    {
+      "key": "paragraph-39-q5",
+      "fact_id": "paragraph-39-f5",
+      "question_text": "Sariq ilon darslikda qaysi guruh vakili sifatida berilgan?",
+      "options": [
+        "Oyoqsiz kaltakesak",
+        "Zaharli ilon",
+        "Halqali chuvalchang",
+        "Dumli amfibiya"
+      ],
+      "correct_answer": "Oyoqsiz kaltakesak",
+      "explanation": "Darslikdagi sariq ilon aslida oyoqsiz kaltakesakdir. Hayvonning oddiy nomi uning qaysi guruhga kirishini har doim bildirmaydi."
+    },
+    {
+      "key": "paragraph-39-q6",
+      "fact_id": "paragraph-39-f6",
+      "question_text": "Ilon chaqishi bilan bog‘liq holatda qaysi yordam zarur?",
+      "options": [
+        "Faqat alomatlar bir necha kunda yo‘qolishini kutish",
+        "Ilonni qo‘lga olish uchun ortidan quvish",
+        "Jarohatni tajriba obyekti sifatida sinash",
+        "Tez tibbiy yordamga murojaat qilish"
+      ],
+      "correct_answer": "Tez tibbiy yordamga murojaat qilish",
+      "explanation": "Darslik ilon chaqishidan keyin tezda shifoxonaga murojaat qilish zarurligini aytadi. Ushbu dars zaharni so‘rish yoki jarohatga moddalar surtish kabi eskirgan usullarni tavsiya qilmaydi."
+    }
+  ]
+}

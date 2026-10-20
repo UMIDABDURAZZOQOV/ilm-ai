@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-30-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-46",
+  "title": "Baliqlarning ichki tuzilshi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-30-f1": {
+      "claim": "Baliq ichagida hazm bo‘lgan oziq ichak devori orqali qonga so‘riladi va to‘qimalarga yetkaziladi.",
+      "answer": "Ichak devoridan",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          106
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f2": {
+      "claim": "Jabra varaqlaridagi ko‘p kapillyarlar orqali kislorod suvdan qonga, karbonat angidrid qondan suvga o‘tadi.",
+      "answer": "Suv va qon o‘rtasida gaz almashinuvini",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f3": {
+      "claim": "Zog‘ora baliqning yuragi bir bo‘lma va bir qorinchadan iborat. Yurak qonni jabralar tomonga haydaydi.",
+      "answer": "Bitta bo‘lma va bitta qorincha",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f4": {
+      "claim": "Qon yurakdan jabralarga, keyin tana organlariga borib, yana yurakka qaytadi. Baliqlarda bitta qon aylanish doirasi bor.",
+      "answer": "Yurak → jabralar → tana organlari → yurak",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f5": {
+      "claim": "Baliq buyraklari moddalar almashinuvi chiqindilarini qondan filtrlab siydik hosil qilishda qatnashadi.",
+      "answer": "Qondagi chiqindilarni filtrlash",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f6": {
+      "claim": "Baliq tanasining harorati doimiy emas, atrof-muhit harorati bilan o‘zgaradi. Darslik buni sovuqqonlilik deb ataydi.",
+      "answer": "Tana haroratining muhitga bog‘liqligini",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziqning so‘rilishi",
+      "body": "Baliq ichagida hazm bo‘lgan oziq ichak devori orqali qonga so‘riladi va to‘qimalarga yetkaziladi.",
+      "fact_ids": [
+        "paragraph-30-f1"
+      ]
+    },
+    {
+      "title": "Gaz almashinuvi yuzasi",
+      "body": "Jabra varaqlaridagi ko‘p kapillyarlar orqali kislorod suvdan qonga, karbonat angidrid qondan suvga o‘tadi.",
+      "fact_ids": [
+        "paragraph-30-f2"
+      ]
+    },
+    {
+      "title": "Ikki kamerali yurak",
+      "body": "Zog‘ora baliqning yuragi bir bo‘lma va bir qorinchadan iborat. Yurak qonni jabralar tomonga haydaydi.",
+      "fact_ids": [
+        "paragraph-30-f3"
+      ]
+    },
+    {
+      "title": "Qon aylanishining yo‘li",
+      "body": "Qon yurakdan jabralarga, keyin tana organlariga borib, yana yurakka qaytadi. Baliqlarda bitta qon aylanish doirasi bor.",
+      "fact_ids": [
+        "paragraph-30-f4"
+      ]
+    },
+    {
+      "title": "Buyrak va siydik",
+      "body": "Baliq buyraklari moddalar almashinuvi chiqindilarini qondan filtrlab siydik hosil qilishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-30-f5"
+      ]
+    },
+    {
+      "title": "Haroratning muhitga bog‘liqligi",
+      "body": "Baliq tanasining harorati doimiy emas, atrof-muhit harorati bilan o‘zgaradi. Darslik buni sovuqqonlilik deb ataydi.",
+      "fact_ids": [
+        "paragraph-30-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-30-q1",
+      "fact_id": "paragraph-30-f1",
+      "question_text": "Baliqdagi hazm bo‘lgan oziq qayerdan qonga o‘tadi?",
+      "options": [
+        "Ichak devoridan",
+        "Faqat tangacha yuzasidan",
+        "Faqat suzgich pufagining gazidan",
+        "Faqat yon chiziq teshiklaridan"
+      ],
+      "correct_answer": "Ichak devoridan",
+      "explanation": "Baliq ichagida hazm bo‘lgan oziq ichak devori orqali qonga so‘riladi va to‘qimalarga yetkaziladi."
+    },
+    {
+      "key": "paragraph-30-q2",
+      "fact_id": "paragraph-30-f2",
+      "question_text": "Jabra varaqlarining kapillyarlari qanday vazifani bajaradi?",
+      "options": [
+        "Faqat suzgichni toshga aylantirishni",
+        "Faqat tuxum hosil qilishni",
+        "Faqat bargdagi kraxmalni tekshirishni",
+        "Suv va qon o‘rtasida gaz almashinuvini"
+      ],
+      "correct_answer": "Suv va qon o‘rtasida gaz almashinuvini",
+      "explanation": "Jabra varaqlaridagi ko‘p kapillyarlar orqali kislorod suvdan qonga, karbonat angidrid qondan suvga o‘tadi."
+    },
+    {
+      "key": "paragraph-30-q3",
+      "fact_id": "paragraph-30-f3",
+      "question_text": "Zog‘ora baliq yuragining asosiy kameralarini toping.",
+      "options": [
+        "Ikkita bo‘lma va ikkita qorincha",
+        "Faqat to‘rtta bir xil qorincha",
+        "Bitta bo‘lma va bitta qorincha",
+        "Ikkita bo‘lma va bitta qorincha"
+      ],
+      "correct_answer": "Bitta bo‘lma va bitta qorincha",
+      "explanation": "Zog‘ora baliqning yuragi bir bo‘lma va bir qorinchadan iborat. Yurak qonni jabralar tomonga haydaydi."
+    },
+    {
+      "key": "paragraph-30-q4",
+      "fact_id": "paragraph-30-f4",
+      "question_text": "Baliq qon aylanishining asosiy ketma-ketligi qaysi?",
+      "options": [
+        "Ichak → suzgich pufagi → tuxum",
+        "Yurak → jabralar → tana organlari → yurak",
+        "Yurak → o‘pka → yurak → o‘pka",
+        "Tana → tashqi muhit → yadro"
+      ],
+      "correct_answer": "Yurak → jabralar → tana organlari → yurak",
+      "explanation": "Qon yurakdan jabralarga, keyin tana organlariga borib, yana yurakka qaytadi. Baliqlarda bitta qon aylanish doirasi bor."
+    },
+    {
+      "key": "paragraph-30-q5",
+      "fact_id": "paragraph-30-f5",
+      "question_text": "Baliq buyragining asosiy vazifasi qaysi?",
+      "options": [
+        "Qondagi chiqindilarni filtrlash",
+        "Faqat tovushni sezish",
+        "Faqat suzgichni harakatlantirish",
+        "Faqat tuxumni changlatish"
+      ],
+      "correct_answer": "Qondagi chiqindilarni filtrlash",
+      "explanation": "Baliq buyraklari moddalar almashinuvi chiqindilarini qondan filtrlab siydik hosil qilishda qatnashadi."
+    },
+    {
+      "key": "paragraph-30-q6",
+      "fact_id": "paragraph-30-f6",
+      "question_text": "Sovuqqonlilik atamasi baliq haqida nimani bildiradi?",
+      "options": [
+        "Tananing har doim muzdan iboratligini",
+        "Barcha baliqlarning faqat qutbda yashashini",
+        "Haroratning har doim bir xil saqlanishini",
+        "Tana haroratining muhitga bog‘liqligini"
+      ],
+      "correct_answer": "Tana haroratining muhitga bog‘liqligini",
+      "explanation": "Baliq tanasining harorati doimiy emas, atrof-muhit harorati bilan o‘zgaradi. Darslik buni sovuqqonlilik deb ataydi."
+    }
+  ]
+}

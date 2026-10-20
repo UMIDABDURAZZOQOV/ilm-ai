@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-25-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-38",
+  "title": "Pardaqanotlilar turkumi: asalarilar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-25-f1": {
+      "claim": "Asalari oilasida ona ari, ko‘plab ishchi arilar va erkak arilar bo‘ladi; ularning tuzilishi va vazifalari farqlanadi.",
+      "answer": "Ona ari, ishchi arilar, erkak arilar",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f2": {
+      "claim": "Ishchi ari orqa oyoqlaridagi maxsus savatcha va tukchalar yordamida gul changini yig‘adi.",
+      "answer": "Orqa oyoq savatchasi va tukchalari",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f3": {
+      "claim": "Ishchi arilar uyani tozalaydi va qo‘riqlaydi, qurtlarni oziqlantiradi, gul changi va nektar yig‘adi.",
+      "answer": "Ishchi arilar",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f4": {
+      "claim": "Eski ona arining bir guruh ishchi ari bilan uyadan chiqib yangi oila tashkil etishi g‘ujlanish, ya’ni ko‘chib chiqish deyiladi.",
+      "answer": "G‘ujlanish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f5": {
+      "claim": "Oziq topgan ishchi arining raqsga o‘xshash harakatlari boshqa arilarga oziq joyi haqida axborot beradi.",
+      "answer": "Oziq manbai haqida axborotni",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f6": {
+      "claim": "Asalarilar gulga qo‘nib nektar va chang yig‘ish jarayonida o‘simliklarni changlatishda qatnashadi.",
+      "answer": "Changlatish bilan",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          89
+        ],
+        "printed_pages": [
+          89
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f7": {
+      "claim": "Chumolilar ham oilalarda yashaydigan pardaqanotlilardir; ishchilar in qurish va oila individlarini oziqlantirishda qatnashadi.",
+      "answer": "In qurish va boshqalarni oziqlantirish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          90
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Asalari oilasining tarkibi",
+      "body": "Asalari oilasida ona ari, ko‘plab ishchi arilar va erkak arilar bo‘ladi; ularning tuzilishi va vazifalari farqlanadi.",
+      "fact_ids": [
+        "paragraph-25-f1"
+      ]
+    },
+    {
+      "title": "Chang yig‘ishga mos oyoq",
+      "body": "Ishchi ari orqa oyoqlaridagi maxsus savatcha va tukchalar yordamida gul changini yig‘adi.",
+      "fact_ids": [
+        "paragraph-25-f2"
+      ]
+    },
+    {
+      "title": "Mehnatning bo‘linishi",
+      "body": "Ishchi arilar uyani tozalaydi va qo‘riqlaydi, qurtlarni oziqlantiradi, gul changi va nektar yig‘adi.",
+      "fact_ids": [
+        "paragraph-25-f3"
+      ]
+    },
+    {
+      "title": "Ko‘chib chiqish",
+      "body": "Eski ona arining bir guruh ishchi ari bilan uyadan chiqib yangi oila tashkil etishi g‘ujlanish, ya’ni ko‘chib chiqish deyiladi.",
+      "fact_ids": [
+        "paragraph-25-f4"
+      ]
+    },
+    {
+      "title": "Harakat bilan axborot uzatish",
+      "body": "Oziq topgan ishchi arining raqsga o‘xshash harakatlari boshqa arilarga oziq joyi haqida axborot beradi.",
+      "fact_ids": [
+        "paragraph-25-f5"
+      ]
+    },
+    {
+      "title": "Gullar bilan bog‘lanish",
+      "body": "Asalarilar gulga qo‘nib nektar va chang yig‘ish jarayonida o‘simliklarni changlatishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-25-f6"
+      ]
+    },
+    {
+      "title": "Chumolilarda jamoa",
+      "body": "Chumolilar ham oilalarda yashaydigan pardaqanotlilardir; ishchilar in qurish va oila individlarini oziqlantirishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-25-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-25-q1",
+      "fact_id": "paragraph-25-f1",
+      "question_text": "Asalari oilasining asosiy individ guruhlari qaysi?",
+      "options": [
+        "Ona ari, ishchi arilar, erkak arilar",
+        "Faqat ona ari va termit qo‘riqchilari",
+        "Faqat erkak arilar va qandalalar",
+        "Faqat qurtlar va begona kapalaklar"
+      ],
+      "correct_answer": "Ona ari, ishchi arilar, erkak arilar",
+      "explanation": "Asalari oilasida ona ari, ko‘plab ishchi arilar va erkak arilar bo‘ladi; ularning tuzilishi va vazifalari farqlanadi."
+    },
+    {
+      "key": "paragraph-25-q2",
+      "fact_id": "paragraph-25-f2",
+      "question_text": "Ishchi arining gul changini tashishiga qaysi tuzilma yordam beradi?",
+      "options": [
+        "Faqat nishining uchki qismi",
+        "Faqat qorin nerv tuguni",
+        "Faqat oldingi qanot ichki tomiri",
+        "Orqa oyoq savatchasi va tukchalari"
+      ],
+      "correct_answer": "Orqa oyoq savatchasi va tukchalari",
+      "explanation": "Ishchi ari orqa oyoqlaridagi maxsus savatcha va tukchalar yordamida gul changini yig‘adi."
+    },
+    {
+      "key": "paragraph-25-q3",
+      "fact_id": "paragraph-25-f3",
+      "question_text": "Uyani tozalash, qurt boqish va nektar yig‘ishni asosan kim bajaradi?",
+      "options": [
+        "Faqat ona ari",
+        "Faqat tashqaridagi termitlar",
+        "Ishchi arilar",
+        "Faqat erkak arilar"
+      ],
+      "correct_answer": "Ishchi arilar",
+      "explanation": "Ishchi arilar uyani tozalaydi va qo‘riqlaydi, qurtlarni oziqlantiradi, gul changi va nektar yig‘adi."
+    },
+    {
+      "key": "paragraph-25-q4",
+      "fact_id": "paragraph-25-f4",
+      "question_text": "Bir ona ari ishchilar bilan eski uyadan chiqib yangi oila tuzmoqda. Bu qanday jarayon?",
+      "options": [
+        "Sista hosil qilish",
+        "G‘ujlanish",
+        "G‘umbaklanish",
+        "Ko‘ndalang bo‘linish"
+      ],
+      "correct_answer": "G‘ujlanish",
+      "explanation": "Eski ona arining bir guruh ishchi ari bilan uyadan chiqib yangi oila tashkil etishi g‘ujlanish, ya’ni ko‘chib chiqish deyiladi."
+    },
+    {
+      "key": "paragraph-25-q5",
+      "fact_id": "paragraph-25-f5",
+      "question_text": "Uyaga qaytgan arining harakatlari boshqa arilar uchun nimani bildiradi?",
+      "options": [
+        "Oziq manbai haqida axborotni",
+        "Faqat qanotning tasodifiy sinishini",
+        "Faqat tuproqning qattiqlashishini",
+        "Barcha arilar qishlashini to‘xtatishini"
+      ],
+      "correct_answer": "Oziq manbai haqida axborotni",
+      "explanation": "Oziq topgan ishchi arining raqsga o‘xshash harakatlari boshqa arilarga oziq joyi haqida axborot beradi."
+    },
+    {
+      "key": "paragraph-25-q6",
+      "fact_id": "paragraph-25-f6",
+      "question_text": "Asalarilarning o‘simlik hosiliga ta’siri qaysi jarayon bilan bog‘liq?",
+      "options": [
+        "Faqat ildizni kemirish bilan",
+        "Faqat bargni quritish bilan",
+        "Faqat urug‘ni ohakka aylantirish bilan",
+        "Changlatish bilan"
+      ],
+      "correct_answer": "Changlatish bilan",
+      "explanation": "Asalarilar gulga qo‘nib nektar va chang yig‘ish jarayonida o‘simliklarni changlatishda qatnashadi."
+    },
+    {
+      "key": "paragraph-25-q7",
+      "fact_id": "paragraph-25-f7",
+      "question_text": "Chumoli oilasidagi ishchilarning vazifasiga qaysi faoliyat kiradi?",
+      "options": [
+        "Faqat asalari nishini yasash",
+        "Faqat jabralar bilan suvni so‘rish",
+        "In qurish va boshqalarni oziqlantirish",
+        "Faqat o‘simlikka ildiz chiqarish"
+      ],
+      "correct_answer": "In qurish va boshqalarni oziqlantirish",
+      "explanation": "Chumolilar ham oilalarda yashaydigan pardaqanotlilardir; ishchilar in qurish va oila individlarini oziqlantirishda qatnashadi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-34-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-50",
+  "title": "Suyakli baliqlar sinfi: asosiy sistematik guruhlari va ahamiyati .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-34-f1": {
+      "claim": "Bakra baliqlari tanasi bo‘ylab besh qator suyak plastinkalar joylashgan. Skeletining katta qismi tog‘ayli bo‘lsa-da, ular suyakli baliqlar guruhida o‘rganiladi.",
+      "answer": "Besh qator suyak plastinkalar",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f2": {
+      "claim": "Losossimonlarning orqa suzgichidan keyin yana kichik suzgich joylashadi; ko‘p vakillari ko‘payish uchun dengizdan chuchuk suvga o‘tadi.",
+      "answer": "Orqa suzgich ortidagi yana bir kichik suzgich",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f3": {
+      "claim": "Zog‘ora baliq darslikda karpsimonlar vakili sifatida o‘rganiladi; uning tana skeleti suyakdan tashkil topgan.",
+      "answer": "Zog‘ora baliq",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f4": {
+      "claim": "Latimeriya panjaqanotli baliq vakilidir. Uning juft suzgichlari va skeleti quruqlik umurtqalilari oyoq tuzilishi bilan taqqoslab o‘rganiladi.",
+      "answer": "Juft suzgichlari va ularning skeleti",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f5": {
+      "claim": "Baliqchilik chiqindilaridan chorva uchun baliq uni va qishloq xo‘jaligi uchun o‘g‘it ishlab chiqariladi.",
+      "answer": "Baliq uni",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f6": {
+      "claim": "Baliqlar maxsus xo‘jaliklarda urchitilib, o‘stirilgan yosh baliqlar suv havzalariga qo‘yib yuboriladi. Bu naslning dastlabki bosqichlarini saqlashga yordam beradi.",
+      "answer": "Maxsus xo‘jalikda chavoq yetishtirish",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bakra baliqlarining belgisi",
+      "body": "Bakra baliqlari tanasi bo‘ylab besh qator suyak plastinkalar joylashgan. Skeletining katta qismi tog‘ayli bo‘lsa-da, ular suyakli baliqlar guruhida o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-34-f1"
+      ]
+    },
+    {
+      "title": "Losossimonlarda suzgich belgisi",
+      "body": "Losossimonlarning orqa suzgichidan keyin yana kichik suzgich joylashadi; ko‘p vakillari ko‘payish uchun dengizdan chuchuk suvga o‘tadi.",
+      "fact_ids": [
+        "paragraph-34-f2"
+      ]
+    },
+    {
+      "title": "Tanish karpsimon",
+      "body": "Zog‘ora baliq darslikda karpsimonlar vakili sifatida o‘rganiladi; uning tana skeleti suyakdan tashkil topgan.",
+      "fact_ids": [
+        "paragraph-34-f3"
+      ]
+    },
+    {
+      "title": "Panjaqanotli vakil",
+      "body": "Latimeriya panjaqanotli baliq vakilidir. Uning juft suzgichlari va skeleti quruqlik umurtqalilari oyoq tuzilishi bilan taqqoslab o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-34-f4"
+      ]
+    },
+    {
+      "title": "Xo‘jalikda qayta ishlash",
+      "body": "Baliqchilik chiqindilaridan chorva uchun baliq uni va qishloq xo‘jaligi uchun o‘g‘it ishlab chiqariladi.",
+      "fact_ids": [
+        "paragraph-34-f5"
+      ]
+    },
+    {
+      "title": "Chavoq yetishtirish",
+      "body": "Baliqlar maxsus xo‘jaliklarda urchitilib, o‘stirilgan yosh baliqlar suv havzalariga qo‘yib yuboriladi. Bu naslning dastlabki bosqichlarini saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-34-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-34-q1",
+      "fact_id": "paragraph-34-f1",
+      "question_text": "Bakra baliqlarining tashqi qoplamasiga qaysi belgi xos?",
+      "options": [
+        "Besh qator suyak plastinkalar",
+        "Faqat mayda ipak tolalar",
+        "Faqat bitta ohakli chig‘anoq",
+        "Faqat gulli o‘simlik qobig‘i"
+      ],
+      "correct_answer": "Besh qator suyak plastinkalar",
+      "explanation": "Bakra baliqlari tanasi bo‘ylab besh qator suyak plastinkalar joylashgan. Skeletining katta qismi tog‘ayli bo‘lsa-da, ular suyakli baliqlar guruhida o‘rganiladi."
+    },
+    {
+      "key": "paragraph-34-q2",
+      "fact_id": "paragraph-34-f2",
+      "question_text": "Losossimonni tashqi tuzilishidan tanishga qaysi belgi yordam beradi?",
+      "options": [
+        "Boshdagi ikkita qisqich",
+        "Qorin o‘rnidagi xitin savatcha",
+        "Barcha suzgichlarning yo‘qligi",
+        "Orqa suzgich ortidagi yana bir kichik suzgich"
+      ],
+      "correct_answer": "Orqa suzgich ortidagi yana bir kichik suzgich",
+      "explanation": "Losossimonlarning orqa suzgichidan keyin yana kichik suzgich joylashadi; ko‘p vakillari ko‘payish uchun dengizdan chuchuk suvga o‘tadi."
+    },
+    {
+      "key": "paragraph-34-q3",
+      "fact_id": "paragraph-34-f3",
+      "question_text": "Avvalgi darslarda o‘rganilgan qaysi baliq karpsimonlarga kiradi?",
+      "options": [
+        "Elektr skat",
+        "Lansetnik",
+        "Zog‘ora baliq",
+        "Kit akulasi"
+      ],
+      "correct_answer": "Zog‘ora baliq",
+      "explanation": "Zog‘ora baliq darslikda karpsimonlar vakili sifatida o‘rganiladi; uning tana skeleti suyakdan tashkil topgan."
+    },
+    {
+      "key": "paragraph-34-q4",
+      "fact_id": "paragraph-34-f4",
+      "question_text": "Latimeriyaning qaysi tuzilishi quruqlik umurtqalilari oyoqlari bilan taqqoslanadi?",
+      "options": [
+        "Faqat ichakdagi oziq qoldig‘i",
+        "Juft suzgichlari va ularning skeleti",
+        "Faqat og‘izdagi shilimshiq",
+        "Faqat jabra qopqog‘ining rangi"
+      ],
+      "correct_answer": "Juft suzgichlari va ularning skeleti",
+      "explanation": "Latimeriya panjaqanotli baliq vakilidir. Uning juft suzgichlari va skeleti quruqlik umurtqalilari oyoq tuzilishi bilan taqqoslab o‘rganiladi."
+    },
+    {
+      "key": "paragraph-34-q5",
+      "fact_id": "paragraph-34-f5",
+      "question_text": "Baliqchilik chiqindisidan qayta ishlash orqali qaysi mahsulot olinadi?",
+      "options": [
+        "Baliq uni",
+        "Tut ipagi",
+        "Asalari mumi",
+        "Paxta tolasi"
+      ],
+      "correct_answer": "Baliq uni",
+      "explanation": "Baliqchilik chiqindilaridan chorva uchun baliq uni va qishloq xo‘jaligi uchun o‘g‘it ishlab chiqariladi."
+    },
+    {
+      "key": "paragraph-34-q6",
+      "fact_id": "paragraph-34-f6",
+      "question_text": "Baliqchilikda yosh naslni saqlash usullaridan biri qaysi?",
+      "options": [
+        "Barcha uvildiriqni quruq qumga tashlash",
+        "Jabralarni suvdan butunlay ajratish",
+        "Suvga barcha organik chiqindini cheksiz tashlash",
+        "Maxsus xo‘jalikda chavoq yetishtirish"
+      ],
+      "correct_answer": "Maxsus xo‘jalikda chavoq yetishtirish",
+      "explanation": "Baliqlar maxsus xo‘jaliklarda urchitilib, o‘stirilgan yosh baliqlar suv havzalariga qo‘yib yuboriladi. Bu naslning dastlabki bosqichlarini saqlashga yordam beradi."
+    }
+  ]
+}

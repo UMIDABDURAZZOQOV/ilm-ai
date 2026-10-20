@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-42-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-61",
+  "title": "Ko‘k kaptarning skeleti va muskullari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-42-f1": {
+      "claim": "Kaptarda ayrim naysimon suyaklarning ichi havo bilan to‘lgan; bir qancha suyaklarning qo‘shilib o‘sishi skeletni mustahkamlaydi.",
+      "answer": "Ayrim suyaklardagi havo bo‘shlig‘i va suyaklarning qo‘shilishi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f2": {
+      "claim": "To‘sh suyagidagi ko‘krak toji qanotni harakatlantiradigan yirik muskullar birikadigan yuzani beradi.",
+      "answer": "Uchish muskullari birikishi uchun",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f3": {
+      "claim": "Qanot skeletida yelka, bilak va panja suyaklari ajraladi; panjadagi ko‘p mayda suyaklar birikib mustahkam tuzilma hosil qiladi.",
+      "answer": "Yelka, bilak, panja",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f4": {
+      "claim": "Katta ko‘krak muskullari qisqarganda qanot pastga tushadi; o‘mrovosti muskullari qanotni ko‘tarishda qatnashadi.",
+      "answer": "Pastga tushadi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f5": {
+      "claim": "Kaptarning ilik suyagi bir necha suyaklarning birikishidan hosil bo‘lgan; pastki uchiga barmoq suyaklari tutashadi.",
+      "answer": "Barmoq suyaklari",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f6": {
+      "claim": "Qush shoxga qo‘nganda oyoq paylari tortilib, barmoqlarni qisadi; bu shoxni mahkam ushlashga yordam beradi.",
+      "answer": "Oyoq paylarining tortilishi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yengil va mustahkam skelet",
+      "body": "Kaptarda ayrim naysimon suyaklarning ichi havo bilan to‘lgan; bir qancha suyaklarning qo‘shilib o‘sishi skeletni mustahkamlaydi.",
+      "fact_ids": [
+        "paragraph-42-f1"
+      ]
+    },
+    {
+      "title": "Toj suyagi — muskul tayanchi",
+      "body": "To‘sh suyagidagi ko‘krak toji qanotni harakatlantiradigan yirik muskullar birikadigan yuzani beradi.",
+      "fact_ids": [
+        "paragraph-42-f2"
+      ]
+    },
+    {
+      "title": "Qanot suyaklarini taqqoslash",
+      "body": "Qanot skeletida yelka, bilak va panja suyaklari ajraladi; panjadagi ko‘p mayda suyaklar birikib mustahkam tuzilma hosil qiladi.",
+      "fact_ids": [
+        "paragraph-42-f3"
+      ]
+    },
+    {
+      "title": "Katta ko‘krak muskuli",
+      "body": "Katta ko‘krak muskullari qisqarganda qanot pastga tushadi; o‘mrovosti muskullari qanotni ko‘tarishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-42-f4"
+      ]
+    },
+    {
+      "title": "Oyoqdagi ilik suyagi",
+      "body": "Kaptarning ilik suyagi bir necha suyaklarning birikishidan hosil bo‘lgan; pastki uchiga barmoq suyaklari tutashadi.",
+      "fact_ids": [
+        "paragraph-42-f5"
+      ]
+    },
+    {
+      "title": "Shoxni ushlab turish",
+      "body": "Qush shoxga qo‘nganda oyoq paylari tortilib, barmoqlarni qisadi; bu shoxni mahkam ushlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-42-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-42-q1",
+      "fact_id": "paragraph-42-f1",
+      "question_text": "Qush skeletida yengillik va mustahkamlikni qaysi belgilar birlashtiradi?",
+      "options": [
+        "Ayrim suyaklardagi havo bo‘shlig‘i va suyaklarning qo‘shilishi",
+        "Barcha suyaklarning butunlay yo‘qligi",
+        "Faqat tashqi ikki pallali chig‘anoq",
+        "Faqat yumshoq bir hujayrali tana"
+      ],
+      "correct_answer": "Ayrim suyaklardagi havo bo‘shlig‘i va suyaklarning qo‘shilishi",
+      "explanation": "Kaptarda ayrim naysimon suyaklarning ichi havo bilan to‘lgan; bir qancha suyaklarning qo‘shilib o‘sishi skeletni mustahkamlaydi."
+    },
+    {
+      "key": "paragraph-42-q2",
+      "fact_id": "paragraph-42-f2",
+      "question_text": "Kaptar to‘shidagi toj suyagi nima uchun muhim?",
+      "options": [
+        "Faqat ko‘zlarni suvdan chiqarish uchun",
+        "Faqat oziqni ichakda filtrlash uchun",
+        "Faqat tuxumni rangga bo‘yash uchun",
+        "Uchish muskullari birikishi uchun"
+      ],
+      "correct_answer": "Uchish muskullari birikishi uchun",
+      "explanation": "To‘sh suyagidagi ko‘krak toji qanotni harakatlantiradigan yirik muskullar birikadigan yuzani beradi."
+    },
+    {
+      "key": "paragraph-42-q3",
+      "fact_id": "paragraph-42-f3",
+      "question_text": "Kaptar qanoti skeleti qaysi asosiy qismlardan tuzilgan?",
+      "options": [
+        "Faqat qovurg‘a va dum",
+        "Faqat jag‘ va burun",
+        "Yelka, bilak, panja",
+        "Son, boldir, tovon"
+      ],
+      "correct_answer": "Yelka, bilak, panja",
+      "explanation": "Qanot skeletida yelka, bilak va panja suyaklari ajraladi; panjadagi ko‘p mayda suyaklar birikib mustahkam tuzilma hosil qiladi."
+    },
+    {
+      "key": "paragraph-42-q4",
+      "fact_id": "paragraph-42-f4",
+      "question_text": "Katta ko‘krak muskullari qisqarsa qanot qanday harakat qiladi?",
+      "options": [
+        "Faqat yuqoriga ko‘tariladi",
+        "Pastga tushadi",
+        "Faqat oldinga cho‘zilib qotadi",
+        "Har doim tana ichiga kiradi"
+      ],
+      "correct_answer": "Pastga tushadi",
+      "explanation": "Katta ko‘krak muskullari qisqarganda qanot pastga tushadi; o‘mrovosti muskullari qanotni ko‘tarishda qatnashadi."
+    },
+    {
+      "key": "paragraph-42-q5",
+      "fact_id": "paragraph-42-f5",
+      "question_text": "Kaptar ilik suyagining pastki uchiga nima tutashadi?",
+      "options": [
+        "Barmoq suyaklari",
+        "Faqat jag‘ suyaklari",
+        "Faqat qanot panjasi",
+        "Faqat to‘sh toji"
+      ],
+      "correct_answer": "Barmoq suyaklari",
+      "explanation": "Kaptarning ilik suyagi bir necha suyaklarning birikishidan hosil bo‘lgan; pastki uchiga barmoq suyaklari tutashadi."
+    },
+    {
+      "key": "paragraph-42-q6",
+      "fact_id": "paragraph-42-f6",
+      "question_text": "Shoxdagi qush barmoqlarining mahkam qisilishida nima qatnashadi?",
+      "options": [
+        "Faqat pat ilgakchalarining uzilishi",
+        "Faqat tuxumdonning kattalashishi",
+        "Faqat suzgich pufagining shishishi",
+        "Oyoq paylarining tortilishi"
+      ],
+      "correct_answer": "Oyoq paylarining tortilishi",
+      "explanation": "Qush shoxga qo‘nganda oyoq paylari tortilib, barmoqlarni qisadi; bu shoxni mahkam ushlashga yordam beradi."
+    }
+  ]
+}
