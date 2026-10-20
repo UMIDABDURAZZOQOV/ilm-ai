@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-44-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-55",
+  "title": "Postembrional rivojlanish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-44-f1": {
+      "claim": "Hayvonlarda tuxumdan chiqish yoki tug‘ilish postembrional davr boshlanishini bildiradi. Keyin o‘sish va voyaga yetish davom etadi.",
+      "answer": "Tuxumdan chiqish yoki tug‘ilishdan",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f2": {
+      "claim": "Bevosita rivojlanishda yosh individ kattasiga asosiy tuzilishi bilan o‘xshaydi, lekin kichik va voyaga yetmagan bo‘ladi.",
+      "answer": "Bevosita rivojlanish",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f3": {
+      "claim": "Bilvosita rivojlanishda lichinka tuzilishi kattasidan farq qiladi va metamorfoz orqali o‘zgaradi.",
+      "answer": "Metamorfoz",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f4": {
+      "claim": "Assidiya lichinkasi erkin suzadi, keyin birikib o‘troq hayotga o‘tadi. Metamorfoz yashash tarzi o‘zgarishi bilan birga boradi.",
+      "answer": "Lichinka suzadi, kattasi o‘troq yashaydi",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f5": {
+      "claim": "Itbaliqdan baqaga o‘tishda oyoqlar va o‘pka rivojlanib, dum qisqaradi. Bu organizm tuzilishi va hayot tarzining o‘zgarishidir.",
+      "answer": "Oyoqlar rivojlanib dum qisqarishi",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f6": {
+      "claim": "Lichinka va voyaga yetgan individ turli oziq yoki muhitdan foydalansa, ular o‘rtasidagi raqobat kamayishi mumkin. Bu barcha sharoitda raqobat mutlaqo yo‘q degani emas.",
+      "answer": "Ular orasidagi oziq raqobatini kamaytirishga",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-44-f7": {
+      "claim": "Kapalakning to‘liq o‘zgarishli rivojlanishida tuxumdan qurt, so‘ng g‘umbak va voyaga yetgan kapalak hosil bo‘ladi.",
+      "answer": "Tuxum → qurt → g‘umbak → kapalak",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Postembrional boshlanish",
+      "body": "Hayvonlarda tuxumdan chiqish yoki tug‘ilish postembrional davr boshlanishini bildiradi. Keyin o‘sish va voyaga yetish davom etadi.",
+      "fact_ids": [
+        "paragraph-44-f1"
+      ]
+    },
+    {
+      "title": "Bevosita rivojlanish",
+      "body": "Bevosita rivojlanishda yosh individ kattasiga asosiy tuzilishi bilan o‘xshaydi, lekin kichik va voyaga yetmagan bo‘ladi.",
+      "fact_ids": [
+        "paragraph-44-f2"
+      ]
+    },
+    {
+      "title": "Bilvosita rivojlanish",
+      "body": "Bilvosita rivojlanishda lichinka tuzilishi kattasidan farq qiladi va metamorfoz orqali o‘zgaradi.",
+      "fact_ids": [
+        "paragraph-44-f3"
+      ]
+    },
+    {
+      "title": "Assidiya misoli",
+      "body": "Assidiya lichinkasi erkin suzadi, keyin birikib o‘troq hayotga o‘tadi. Metamorfoz yashash tarzi o‘zgarishi bilan birga boradi.",
+      "fact_ids": [
+        "paragraph-44-f4"
+      ]
+    },
+    {
+      "title": "Baqa metamorfozi",
+      "body": "Itbaliqdan baqaga o‘tishda oyoqlar va o‘pka rivojlanib, dum qisqaradi. Bu organizm tuzilishi va hayot tarzining o‘zgarishidir.",
+      "fact_ids": [
+        "paragraph-44-f5"
+      ]
+    },
+    {
+      "title": "Ekologik ahamiyat",
+      "body": "Lichinka va voyaga yetgan individ turli oziq yoki muhitdan foydalansa, ular o‘rtasidagi raqobat kamayishi mumkin. Bu barcha sharoitda raqobat mutlaqo yo‘q degani emas.",
+      "fact_ids": [
+        "paragraph-44-f6"
+      ]
+    },
+    {
+      "title": "Kapalak hayot tartibi",
+      "body": "Kapalakning to‘liq o‘zgarishli rivojlanishida tuxumdan qurt, so‘ng g‘umbak va voyaga yetgan kapalak hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-44-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-44-q1",
+      "fact_id": "paragraph-44-f1",
+      "question_text": "Postembrional davr odatda qachon boshlanadi?",
+      "options": [
+        "Faqat urug‘lanishdan oldin",
+        "Faqat gameta hosil bo‘lmasidan",
+        "Tuxumdan chiqish yoki tug‘ilishdan",
+        "DNKning birinchi ajralishidan oldin"
+      ],
+      "correct_answer": "Tuxumdan chiqish yoki tug‘ilishdan",
+      "explanation": "Hayvonlarda tuxumdan chiqish yoki tug‘ilish postembrional davr boshlanishini bildiradi. Keyin o‘sish va voyaga yetish davom etadi."
+    },
+    {
+      "key": "paragraph-44-q2",
+      "fact_id": "paragraph-44-f2",
+      "question_text": "Yosh jo‘ja kattasiga o‘xshab, asosan o‘sib voyaga yetmoqda. Bu qaysi yo‘l?",
+      "options": [
+        "Faqat maydalanish",
+        "Bevosita rivojlanish",
+        "Bilvosita rivojlanish",
+        "Faqat partenogenez"
+      ],
+      "correct_answer": "Bevosita rivojlanish",
+      "explanation": "Bevosita rivojlanishda yosh individ kattasiga asosiy tuzilishi bilan o‘xshaydi, lekin kichik va voyaga yetmagan bo‘ladi."
+    },
+    {
+      "key": "paragraph-44-q3",
+      "fact_id": "paragraph-44-f3",
+      "question_text": "Lichinka bosqichidan keskin o‘zgarib kattaga o‘tish qaysi jarayon?",
+      "options": [
+        "Metamorfoz",
+        "Faqat replikatsiya",
+        "Faqat transkripsiya",
+        "Faqat glikoliz"
+      ],
+      "correct_answer": "Metamorfoz",
+      "explanation": "Bilvosita rivojlanishda lichinka tuzilishi kattasidan farq qiladi va metamorfoz orqali o‘zgaradi."
+    },
+    {
+      "key": "paragraph-44-q4",
+      "fact_id": "paragraph-44-f4",
+      "question_text": "Assidiya lichinkasi va kattasi orasidagi hayot tarzi farqi qaysi?",
+      "options": [
+        "Lichinka faqat quruqlikda, kattasi havoda yashaydi",
+        "Ikkalasi ham faqat qush kabi uchadi",
+        "Kattasi spermatozoidga aylanadi",
+        "Lichinka suzadi, kattasi o‘troq yashaydi"
+      ],
+      "correct_answer": "Lichinka suzadi, kattasi o‘troq yashaydi",
+      "explanation": "Assidiya lichinkasi erkin suzadi, keyin birikib o‘troq hayotga o‘tadi. Metamorfoz yashash tarzi o‘zgarishi bilan birga boradi."
+    },
+    {
+      "key": "paragraph-44-q5",
+      "fact_id": "paragraph-44-f5",
+      "question_text": "Itbaliqdan baqaga o‘tishga mos o‘zgarish qaysi?",
+      "options": [
+        "Yadro butunlay yo‘qolishi",
+        "Barcha organlar tuxumga aylanishi",
+        "Oyoqlar rivojlanib dum qisqarishi",
+        "Oyoqlar yo‘qolib faqat spora qolishi"
+      ],
+      "correct_answer": "Oyoqlar rivojlanib dum qisqarishi",
+      "explanation": "Itbaliqdan baqaga o‘tishda oyoqlar va o‘pka rivojlanib, dum qisqaradi. Bu organizm tuzilishi va hayot tarzining o‘zgarishidir."
+    },
+    {
+      "key": "paragraph-44-q6",
+      "fact_id": "paragraph-44-f6",
+      "question_text": "Lichinka va kattasining turli oziqdan foydalanishi nimaga yordam beradi?",
+      "options": [
+        "Barcha individlarni bir xil yoshda qilishga",
+        "Ular orasidagi oziq raqobatini kamaytirishga",
+        "Genetik axborotni butunlay yo‘qotishga",
+        "Har qanday ekologik aloqani to‘xtatishga"
+      ],
+      "correct_answer": "Ular orasidagi oziq raqobatini kamaytirishga",
+      "explanation": "Lichinka va voyaga yetgan individ turli oziq yoki muhitdan foydalansa, ular o‘rtasidagi raqobat kamayishi mumkin. Bu barcha sharoitda raqobat mutlaqo yo‘q degani emas."
+    },
+    {
+      "key": "paragraph-44-q7",
+      "fact_id": "paragraph-44-f7",
+      "question_text": "Kapalakning to‘liq o‘zgarishli bosqichlarini tartiblang.",
+      "options": [
+        "Tuxum → qurt → g‘umbak → kapalak",
+        "Tuxum → g‘umbak → qurt → kapalak",
+        "Qurt → tuxum → kapalak → g‘umbak",
+        "Kapalak → qurt → tuxum → g‘umbak"
+      ],
+      "correct_answer": "Tuxum → qurt → g‘umbak → kapalak",
+      "explanation": "Kapalakning to‘liq o‘zgarishli rivojlanishida tuxumdan qurt, so‘ng g‘umbak va voyaga yetgan kapalak hosil bo‘ladi."
+    }
+  ]
+}

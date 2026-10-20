@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-39-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-50",
+  "title": "Meyoz",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-39-f1": {
+      "claim": "Meyoz diploid boshlang‘ich hujayradan gaploid to‘plamli hujayralar hosil bo‘lishiga olib keladigan ketma-ket ikki bo‘linishdir.",
+      "answer": "Diploid to‘plamni gaploidgacha kamaytirish",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f2": {
+      "claim": "Profaza Ida gomolog xromosomalar yaqinlashib juftlashadi. Bu konyugatsiya deb ataladi va singil xromatidalar ajralishi bilan bir xil emas.",
+      "answer": "Konyugatsiya",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f3": {
+      "claim": "Krossingoverda gomolog xromosomalarning mos qismlari o‘rtasida almashinuv bo‘ladi. Bu irsiy axborot kombinatsiyalarini o‘zgartiradi.",
+      "answer": "Genlarning yangi kombinatsiyalari hosil bo‘lishi",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f4": {
+      "claim": "Anafaza Ida gomolog xromosomalar qutblarga ajraladi, singil xromatidalar esa hali birikkan qoladi.",
+      "answer": "Gomolog xromosomalar",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f5": {
+      "claim": "Meyoz I va II oralig‘idagi interkinezda DNK qayta ikki hissa oshmaydi. Ikki bo‘linish orasida yangi S davri takrorlanmaydi.",
+      "answer": "DNK replikatsiyasi takrorlanmaydi",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f6": {
+      "claim": "Anafaza IIda singil xromatidalar ajraladi. Bu jihati mitoz anafazasiga o‘xshaydi, lekin boshlang‘ich hujayra to‘plami farq qiladi.",
+      "answer": "Singil xromatidalar ajralishi",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f7": {
+      "claim": "Meyozdagi to‘plam kamayishi va urug‘lanishdagi qayta birlashish avlodlar davomida xromosoma soni saqlanishiga yordam beradi. Krossingover esa xilma-xillikka hissa qo‘shadi.",
+      "answer": "Avlodlarda xromosoma sonini saqlashga yordam berish",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-39-f8": {
+      "claim": "Diploid to‘plam 2n bo‘lsa, meyoz yakunidagi gaploid mahsulotda n xromosoma bo‘ladi. Masalan, 2n = 20 uchun n = 10.",
+      "answer": "10 ta",
+      "source": {
+        "paragraph": 39,
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Reduksion bo‘linish",
+      "body": "Meyoz diploid boshlang‘ich hujayradan gaploid to‘plamli hujayralar hosil bo‘lishiga olib keladigan ketma-ket ikki bo‘linishdir.",
+      "fact_ids": [
+        "paragraph-39-f1"
+      ]
+    },
+    {
+      "title": "Gomologlarning juftlashishi",
+      "body": "Profaza Ida gomolog xromosomalar yaqinlashib juftlashadi. Bu konyugatsiya deb ataladi va singil xromatidalar ajralishi bilan bir xil emas.",
+      "fact_ids": [
+        "paragraph-39-f2"
+      ]
+    },
+    {
+      "title": "Krossingover",
+      "body": "Krossingoverda gomolog xromosomalarning mos qismlari o‘rtasida almashinuv bo‘ladi. Bu irsiy axborot kombinatsiyalarini o‘zgartiradi.",
+      "fact_ids": [
+        "paragraph-39-f3"
+      ]
+    },
+    {
+      "title": "Birinchi anafaza",
+      "body": "Anafaza Ida gomolog xromosomalar qutblarga ajraladi, singil xromatidalar esa hali birikkan qoladi.",
+      "fact_ids": [
+        "paragraph-39-f4"
+      ]
+    },
+    {
+      "title": "Oraliqda DNK nusxalanmaydi",
+      "body": "Meyoz I va II oralig‘idagi interkinezda DNK qayta ikki hissa oshmaydi. Ikki bo‘linish orasida yangi S davri takrorlanmaydi.",
+      "fact_ids": [
+        "paragraph-39-f5"
+      ]
+    },
+    {
+      "title": "Ikkinchi anafaza",
+      "body": "Anafaza IIda singil xromatidalar ajraladi. Bu jihati mitoz anafazasiga o‘xshaydi, lekin boshlang‘ich hujayra to‘plami farq qiladi.",
+      "fact_ids": [
+        "paragraph-39-f6"
+      ]
+    },
+    {
+      "title": "Biologik ahamiyat",
+      "body": "Meyozdagi to‘plam kamayishi va urug‘lanishdagi qayta birlashish avlodlar davomida xromosoma soni saqlanishiga yordam beradi. Krossingover esa xilma-xillikka hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-39-f7"
+      ]
+    },
+    {
+      "title": "To‘plam hisobi",
+      "body": "Diploid to‘plam 2n bo‘lsa, meyoz yakunidagi gaploid mahsulotda n xromosoma bo‘ladi. Masalan, 2n = 20 uchun n = 10.",
+      "fact_ids": [
+        "paragraph-39-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-39-q1",
+      "fact_id": "paragraph-39-f1",
+      "question_text": "Meyozning xromosoma to‘plamiga asosiy ta’siri qaysi?",
+      "options": [
+        "DNKni butunlay yo‘qotish",
+        "Har safar 2nni 3nga aylantirish",
+        "Diploid to‘plamni gaploidgacha kamaytirish",
+        "Har safar to‘plamni to‘rt baravar oshirish"
+      ],
+      "correct_answer": "Diploid to‘plamni gaploidgacha kamaytirish",
+      "explanation": "Meyoz diploid boshlang‘ich hujayradan gaploid to‘plamli hujayralar hosil bo‘lishiga olib keladigan ketma-ket ikki bo‘linishdir."
+    },
+    {
+      "key": "paragraph-39-q2",
+      "fact_id": "paragraph-39-f2",
+      "question_text": "Gomolog xromosomalarning profaza Ida juftlashishi nima deyiladi?",
+      "options": [
+        "Denaturatsiya",
+        "Konyugatsiya",
+        "Sitokinez",
+        "Replikatsiya"
+      ],
+      "correct_answer": "Konyugatsiya",
+      "explanation": "Profaza Ida gomolog xromosomalar yaqinlashib juftlashadi. Bu konyugatsiya deb ataladi va singil xromatidalar ajralishi bilan bir xil emas."
+    },
+    {
+      "key": "paragraph-39-q3",
+      "fact_id": "paragraph-39-f3",
+      "question_text": "Krossingover natijasida nima yuz berishi mumkin?",
+      "options": [
+        "Genlarning yangi kombinatsiyalari hosil bo‘lishi",
+        "Barcha genlar butunlay yo‘qolishi",
+        "Faqat ribosomalar ko‘payishi",
+        "Faqat hujayra devori qalinlashishi"
+      ],
+      "correct_answer": "Genlarning yangi kombinatsiyalari hosil bo‘lishi",
+      "explanation": "Krossingoverda gomolog xromosomalarning mos qismlari o‘rtasida almashinuv bo‘ladi. Bu irsiy axborot kombinatsiyalarini o‘zgartiradi."
+    },
+    {
+      "key": "paragraph-39-q4",
+      "fact_id": "paragraph-39-f4",
+      "question_text": "Meyoz I anafazasida bir-biridan ajraladigan tuzilmalar qaysilar?",
+      "options": [
+        "Faqat singil xromatidalar",
+        "Faqat ribosoma subbirliklari",
+        "Faqat yadro teshikchalari",
+        "Gomolog xromosomalar"
+      ],
+      "correct_answer": "Gomolog xromosomalar",
+      "explanation": "Anafaza Ida gomolog xromosomalar qutblarga ajraladi, singil xromatidalar esa hali birikkan qoladi."
+    },
+    {
+      "key": "paragraph-39-q5",
+      "fact_id": "paragraph-39-f5",
+      "question_text": "Interkinez haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "Xromosomalar albatta 3n bo‘ladi",
+        "Barcha hujayralar qayta diploid bo‘ladi",
+        "DNK replikatsiyasi takrorlanmaydi",
+        "DNK albatta yana ikki hissa ortadi"
+      ],
+      "correct_answer": "DNK replikatsiyasi takrorlanmaydi",
+      "explanation": "Meyoz I va II oralig‘idagi interkinezda DNK qayta ikki hissa oshmaydi. Ikki bo‘linish orasida yangi S davri takrorlanmaydi."
+    },
+    {
+      "key": "paragraph-39-q6",
+      "fact_id": "paragraph-39-f6",
+      "question_text": "Meyoz II anafazasida qaysi ajralish sodir bo‘ladi?",
+      "options": [
+        "Faqat xloroplastlarning juftlashishi",
+        "Singil xromatidalar ajralishi",
+        "Faqat gomolog juftlarning birinchi ajralishi",
+        "Faqat ribosomalar parchalanishi"
+      ],
+      "correct_answer": "Singil xromatidalar ajralishi",
+      "explanation": "Anafaza IIda singil xromatidalar ajraladi. Bu jihati mitoz anafazasiga o‘xshaydi, lekin boshlang‘ich hujayra to‘plami farq qiladi."
+    },
+    {
+      "key": "paragraph-39-q7",
+      "fact_id": "paragraph-39-f7",
+      "question_text": "Meyoz va urug‘lanishning birgalikdagi natijasi qaysi?",
+      "options": [
+        "Avlodlarda xromosoma sonini saqlashga yordam berish",
+        "Har avlodda sonni ikki marta cheksiz oshirish",
+        "Har avlodda barcha genlarni yo‘qotish",
+        "Jinsiy hujayralarda yadroni butunlay bekor qilish"
+      ],
+      "correct_answer": "Avlodlarda xromosoma sonini saqlashga yordam berish",
+      "explanation": "Meyozdagi to‘plam kamayishi va urug‘lanishdagi qayta birlashish avlodlar davomida xromosoma soni saqlanishiga yordam beradi. Krossingover esa xilma-xillikka hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-39-q8",
+      "fact_id": "paragraph-39-f8",
+      "question_text": "Boshlang‘ich hujayrada 2n = 20 bo‘lsa, odatdagi meyoz yakuni mahsulotida nechta xromosoma bo‘ladi?",
+      "options": [
+        "20 ta",
+        "40 ta",
+        "5 ta",
+        "10 ta"
+      ],
+      "correct_answer": "10 ta",
+      "explanation": "Diploid to‘plam 2n bo‘lsa, meyoz yakunidagi gaploid mahsulotda n xromosoma bo‘ladi. Masalan, 2n = 20 uchun n = 10."
+    }
+  ]
+}

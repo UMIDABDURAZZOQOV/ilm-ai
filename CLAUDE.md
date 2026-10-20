@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy holat — 2026-10-20, continuation-10:** `feat/biology-curriculum`: **233/355 nazariy dars, 122 qolgan; 36/51 raqamli faoliyat; 1 534 karta / 1 616 savol**. Aniq davom: **9-sinf §38, PDF95**. Eng so‘nggi natija va testlar hujjat oxirida; undan oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
+> **Joriy holat — 2026-10-20, continuation-11:** `feat/biology-curriculum`: **257/355 nazariy dars, 98 qolgan; 42/51 raqamli faoliyat; 1 750 karta / 1 832 savol**. 5–9-sinflar to‘liq. Aniq davom: **10-sinf §3, PDF12**. Eng so‘nggi natija va testlar hujjat oxirida; undan oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -2473,3 +2473,47 @@ Joriy jami: **233/355 nazariy mavzu, 122 qolgan; 36/51 raqamli faoliyat; 269 man
 O‘zgargan fayllar: 28 yangi 9-sinf lesson/activity manifesti, `biology_lessons.json`, `biology_readiness.json`, `biology_preserved_release09.json`, `services/curriculum_validation.py`, `tests/test_biology_continuation.py` va shu `CLAUDE.md`. Veb **`054f0ce`** holatida o‘zgarmagan. Production import/migratsiya/deploy, main merge va ilova nashri bajarilmagan. Mustaqil fan eksperti, real Android/iOS/TalkBack va live PostgreSQL QA hali bajarilmagan; oldingi web practice rollout bloklovchisi va PR API Forbidden cheklovi saqlanadi.
 
 **Aniq keyingi nuqta:** 9-sinf **§38 “Hujayra sikli”, PDF/bosma 95-sahifa**. 9-sinfda qolgan **24 nazariy mavzu va 6 faoliyat**ni keyingi continuation-11 partiyasida tugatish, so‘ng 10-sinf §3ga o‘tish. Keyingi sahifalarni ko‘rish boshlandi, lekin ushbu commitda §38+ darslari hali yo‘q. Oldingi 233 darsni qayta yaratmang; explicit index va readinessdan foydalaning.
+
+
+## 2026-10-20 — Biology continuation-11: 9-sinf to‘liq, genetika regressiyalari
+
+Continuation-10 backend **`8eb564a`** sifatida feature branchga push qilindi. Ushbu partiya 9-sinfning qolgan **24 nazariy mavzusi** (§38–48, §50, §53–54, §56–57, §59, §61–67) va **6 raqamli faoliyati**ni (§49/lab6, §51/amaliy1, §52/lab7, §55/amaliy2, §58/amaliy3, §60/lab8) qo‘shdi. Asl darslikning **PDF/bosma 95–187-sahifalari tasvirlari** ko‘rib chiqildi. Yangi **216 karta va 216 savol**, jami **257/355 nazariy dars; 98 qolgan; 42/51 faoliyat; 299 manifest; 1 750 karta; 1 832 savol**. Oldingi 241 manifest/release09 hash snapshoti, original 19 dars va 7 manba katalogi o‘zgarmagan.
+
+| Sinf | Bob | Nazariy mavzu | Tayyor | Qolgan | Tayyor faoliyat / jami | Savol |
+|---|---:|---:|---:|---:|---:|---:|
+| 5 | 3 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 5 | 59 | 59 | 0 | 7 / 7 | 331 |
+| 7 | 8 | 59 | 59 | 0 | 5 / 5 | 381 |
+| 8 | 13 + kirish | 61 | 61 | 0 | 7 / 7 | 435 |
+| 9 | 8 | 56 | 56 | 0 | 11 / 11 | 474 |
+| 10 | 5 | 58 | 2 | 56 | 0 / 4 | 14 |
+| 11 | 4 | 44 | 2 | 42 | 0 / 5 | 15 |
+
+### Mazmun, manbalar va xavfsiz tahrir
+
+Hujayra sikli, mitoz/meyoz, individual rivojlanish, Mendel modellari, genlar ta’siri, birikish/krossingover, jinsga bog‘liq irsiyat, o‘zgaruvchanlik, odam genetikasi va seleksiya/biotexnologiya qamrab olindi. Savollar model talqini, gameta/genotip ehtimoli, ma’lumot taqqoslash, usul va kuzatuvdan xulosa chiqarishni o‘rgatadi. Barchasi mavjud karta/MCQ/Ilmo feedback/XP/Skill Path engine’iga ulanadi; yangi savol widgetlari yoki yangi mascot assetlari qo‘shilgani da’vo qilinmaydi.
+
+- Meyozning to‘rtta mahsuloti doim to‘rtta funksional tuxum hujayra emas; mitoz doim boshlang‘ich diploidlikni talab qilmaydi. Gastrulyatsiyada bo‘linish umuman bo‘lmaydi, xorda endodermadan hosil bo‘ladi, har bir embrion katta hayvon sinflarini takrorlaydi kabi noto‘g‘ri jumlalar chiqarildi. §46 biogenetik qonuni tarixiy Myuller/Gekkel qarashi sifatida, literal zamonaviy qonun emas, tushuntiriladi. Neyronlar mutlaqo bo‘linmaydi, spermatozoidda Golji apparati bo‘ladi yoki tug‘ilish/o‘sishga qat’iy universal yosh qo‘yish kabi da’volar ishlatilmadi.
+- Mendel nisbatlari shartlari aniq nazariy ehtimollik bo‘lib, kichik oiladagi qat’iy natija emas. §50/PDF140dagi **AaBB** testcross xatosi takrorlanmadi: yangi masala aniq **AaBb × aabb** uchun 1:1:1:1. Drosofila urg‘ochisidagi mutlaq birikish misolidan universal xulosa chiqarilmaydi; odatdagi krossingover yo‘qligi shu tur erkagiga xos deb berildi. Qush va sudraluvchilarning barchasiga XY/ZW birday qo‘llanmadi. X-bog‘liq shartli modelda o‘g‘illar orasidagi 1/2 bilan barcha bolalar orasidagi 1/4 farqlanadi.
+- Odam belgilarini ko‘z/soch rangi yoki intellektni bitta Mendel lokusiga keltirish, diabet/shizofreniyani oddiy monogen kasallik deyish, egizaklarda barcha farqni faqat muhitga bog‘lash, barcha genetik holatlar retsessiv deyish o‘qitilmadi. Hurmatli terminlar ishlatildi; sindromlarda qat’iy IQ/bepushtlik hukmlari, oilani ayblash, poliomiyelit/raxitni irsiy deyish va tashxis/davolash tavsiyalari yo‘q. Test modeli klinik tashxis o‘rnini bosmaydi.
+- Vavilovning yetti markazi darslikdagi **tarixiy sxema** deb nomlangan; zamonaviy yagona kelib chiqish isboti deyilmaydi. Barcha poliploidlar serhosil, barcha duragaylar albatta bepusht, o‘simlik oqsillari barcha zarur aminokislotalardan mahrum yoki mum ko‘p atomli spirt hosilasi kabi xatolar takrorlanmadi. 2019 darslikdagi olim/nav ma’lumotlari tarixiy manbaga bog‘langan, bugungi statistika sifatida berilmagan.
+- Lab6/amaliy1–3dagi hisob qoidalari oldingi paragrafga qo‘shimcha `supporting_sources` va o‘quvchiga ko‘rinadigan PDF reference bilan bog‘langan; asosiy faoliyat manbasi ham saqlanadi. Barcha laboratoriyalar **guided_analysis**, fizik bajarish talab qilinmaydi. Hayvon sovitish/jarohatlash, transplantatsiya, kimyoviy yoki tibbiy tajriba talab qilinmaydi. Raqamli yakun haqiqiy tajriba bajarildi degani emas.
+
+### Genotip harflarining ma’nosi: validator va mobil regressiya
+
+Validatorning oddiy matn uchun casefold duplicate tekshiruvi **AA, Aa, aa**ni xato ravishda bir xil deb hisoblar edi. Endi faqat explicit `answer_format: genotype` savollarida variantlar case-sensitive solishtiriladi; aynan takror variant baribir rad etiladi, noma’lum format rad etiladi, oddiy matnning duplicate himoyasi saqlanadi. Bu faqat authoring metama’lumoti, public API/DB kontraktini buzmaydi. Server grading va Flutter javob tanlovi allaqachon harf registrini farqlardi; bunga regressiya qo‘shildi.
+
+`tests/test_biology_genetics.py`dagi **17 test** mustaqil gameta kombinatsiyasi/Fraction hisobida mono/di/trigibrid ehtimollarni, 9:7 komplementarlik, 13:3 ingibitor, 3:1 testcross, letal AA chiqarilgach Aa=2/3, X-bog‘liq 1/2 va 1/4ni tekshiradi. Invalid genotype format/variant va mijozning `is_correct=true` da’vosiga qaramay serverning **AA ≠ Aa** baholashi tekshirilgan.
+
+API integration 5–9-sinflarning barcha dars/faoliyatlari va checkpointlarini asl tartibda yakunlaydi, **10-sinf**ga o‘tadi; uning tugallanmagan checkpointi 409 bilan bloklanadi. §48dagi 10 savoldan birini AA deb xato yuborganda natija **9/10, 20 XP**; qayta submit XPni oshirmaydi, progressli qayta import bir martalik holatni saqlaydi. Haqiqiy TestClient payloadlaridan uchta **biology_mendel_lesson/row/result.json** Flutter fixture yaratildi; mobil test AA xatosi → feedback → qayta savol → Aa javobi → natija oqimini va bitta completionni tekshiradi.
+
+### Haqiqiy tekshiruv va Git holati
+
+- Global validator/dry-run: **299/299 manifest valid**, readiness yangilangan; faqat disposable SQLite, production ulanish/import/migratsiya yo‘q.
+- To‘liq backend: **424 passed**, 12 oldingi FastAPI lifecycle warning, **92.33s**. Alohida genetika testi **17 passed, 1.17s**. Unique-question/fact/answer/page/release va immutable-snapshot regressionlari o‘tdi.
+- Flutter: targeted Biology **25 passed (5s)**; to‘liq **104 passed (10s)**; analyze **No issues found (1.5s)**. Faqat test va uch fixture o‘zgardi; runtime UI, brend va UX saqlandi. Feature commit **`d2c2654`**, GitHub’ga push qilindi. Bu partiya uchun yangi Android/web build deb da’vo qilinmaydi.
+- Critical Ruff (`E9,F63,F7,F82`) va `git diff --check` toza. Private loglar `/tmp/biology-release11-*.log`. O‘zgargan backend fayllar: 30 yangi grade9 manifesti, lesson/readiness index, `services/curriculum_validation.py`, continuation/genetics testlari va shu hujjat.
+
+Veb-sayt **`054f0ce`** kodi o‘zgarmagan. Production import/deploy/main merge/nashr bajarilmagan. Mustaqil fan/klinik ekspertizasi, real Android/iOS/TalkBack va live PostgreSQL tekshiruvi hali kerak. PR API Forbidden va oldingi web practice kontrakti rollout cheklovi saqlanadi; feature push ishlaydi. Bu kontent qamrovi, production release tayyorligi yoki fizik laboratoriya sertifikati emas.
+
+**Aniq keyingi nuqta: 10-sinf §3 “Hayotning molekula darajasi”, PDF/bosma 12-sahifa.** Qolgan **56 nazariy mavzu + 4 laboratoriya**ni, keyin 11-sinfning **42 mavzu + 5 laboratoriya**sini davom ettiring. Keyingi continuation-12 partiyasi: 10-sinf **§3–22 (20 nazariy) + lab1 (PDF58–60)**; so‘ng §23/PDF103. 10-sinf §1–2 va 11-sinf §1–2ni qayta yaratmang. Yangi rasmlar ko‘rilishi tayyor dars degani emas; faqat validator/testdan o‘tgan explicit manifestlar sanaladi.

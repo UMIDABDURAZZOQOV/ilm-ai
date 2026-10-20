@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-66-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-81",
+  "title": "Seleksiya va biotexnologiya",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-66-f1": {
+      "claim": "Mikroorganizmlarning fermentativ faoliyati non, sut mahsulotlari va boshqa ishlab chiqarishlarda qo‘llanadi. Har qanday mikroorganizmni uyda ko‘paytirish talab qilinmaydi.",
+      "answer": "Sanoat mikrobiologiyasiga",
+      "source": {
+        "paragraph": 66,
+        "pdf_pages": [
+          182
+        ],
+        "printed_pages": [
+          182
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-66-f2": {
+      "claim": "Mikroorganizmlar seleksiyasi kerakli ferment, vitamin yoki boshqa mahsulotni ko‘proq hosil qiluvchi shtammlarni tanlashga xizmat qiladi.",
+      "answer": "Mahsuldor shtamm olish",
+      "source": {
+        "paragraph": 66,
+        "pdf_pages": [
+          182
+        ],
+        "printed_pages": [
+          182
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-66-f3": {
+      "claim": "Darslik mikroorganizmlardan vitaminlar, fermentlar, oziqabop oqsil va aminokislotalar olishni misol qiladi. Oziqabop mahsulot xavfsiz sanoat nazoratini talab qiladi.",
+      "answer": "Fermentlar, vitaminlar va aminokislotalar",
+      "source": {
+        "paragraph": 66,
+        "pdf_pages": [
+          182
+        ],
+        "printed_pages": [
+          182
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-66-f4": {
+      "claim": "Biotexnologiya tirik hujayralar yoki ularning faoliyatidan kerakli mahsulot va texnologik natija olishda foydalanadi.",
+      "answer": "Tirik hujayra yoki biologik faoliyatdan foydalanish",
+      "source": {
+        "paragraph": 66,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-66-f5": {
+      "claim": "Ayrim bakteriyalar mineral oksidlanishi orqali metallarning eritmaga o‘tishiga yordam beradi. Bu mikroorganizmlarning texnologik qo‘llanish misolidir.",
+      "answer": "Biotexnologik metall olishga",
+      "source": {
+        "paragraph": 66,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-66-f6": {
+      "claim": "Gen muhandisligi bilan mos gen kiritilgan hujayralardan ayrim oqsil mahsulotlarini olish mumkin. Darslik insulin va interferonni misol qiladi; bu davolash ko‘rsatmasi emas.",
+      "answer": "Gen muhandisligiga",
+      "source": {
+        "paragraph": 66,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-66-f7": {
+      "claim": "Darslik A. M. Muzaffarov ishlarini xlorella va suv havzalarini biologik tozalash yo‘nalishlari bilan, M. Mavloniy ishlarini achitqi texnologiyalari bilan bog‘laydi.",
+      "answer": "Biologik organizmlar faoliyatidan amaliy foydalanish",
+      "source": {
+        "paragraph": 66,
+        "pdf_pages": [
+          184
+        ],
+        "printed_pages": [
+          184
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Sanoat mikrobiologiyasi",
+      "body": "Mikroorganizmlarning fermentativ faoliyati non, sut mahsulotlari va boshqa ishlab chiqarishlarda qo‘llanadi. Har qanday mikroorganizmni uyda ko‘paytirish talab qilinmaydi.",
+      "fact_ids": [
+        "paragraph-66-f1"
+      ]
+    },
+    {
+      "title": "Mahsuldor shtamm",
+      "body": "Mikroorganizmlar seleksiyasi kerakli ferment, vitamin yoki boshqa mahsulotni ko‘proq hosil qiluvchi shtammlarni tanlashga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-66-f2"
+      ]
+    },
+    {
+      "title": "Biologik mahsulotlar",
+      "body": "Darslik mikroorganizmlardan vitaminlar, fermentlar, oziqabop oqsil va aminokislotalar olishni misol qiladi. Oziqabop mahsulot xavfsiz sanoat nazoratini talab qiladi.",
+      "fact_ids": [
+        "paragraph-66-f3"
+      ]
+    },
+    {
+      "title": "Biotexnologiya",
+      "body": "Biotexnologiya tirik hujayralar yoki ularning faoliyatidan kerakli mahsulot va texnologik natija olishda foydalanadi.",
+      "fact_ids": [
+        "paragraph-66-f4"
+      ]
+    },
+    {
+      "title": "Metallar sohasidagi misol",
+      "body": "Ayrim bakteriyalar mineral oksidlanishi orqali metallarning eritmaga o‘tishiga yordam beradi. Bu mikroorganizmlarning texnologik qo‘llanish misolidir.",
+      "fact_ids": [
+        "paragraph-66-f5"
+      ]
+    },
+    {
+      "title": "Gen muhandisligi mahsuli",
+      "body": "Gen muhandisligi bilan mos gen kiritilgan hujayralardan ayrim oqsil mahsulotlarini olish mumkin. Darslik insulin va interferonni misol qiladi; bu davolash ko‘rsatmasi emas.",
+      "fact_ids": [
+        "paragraph-66-f6"
+      ]
+    },
+    {
+      "title": "Suv va oziq sohasi",
+      "body": "Darslik A. M. Muzaffarov ishlarini xlorella va suv havzalarini biologik tozalash yo‘nalishlari bilan, M. Mavloniy ishlarini achitqi texnologiyalari bilan bog‘laydi.",
+      "fact_ids": [
+        "paragraph-66-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-66-q1",
+      "fact_id": "paragraph-66-f1",
+      "question_text": "Achitqi fermentatsiyasidan non ishlab chiqarishda foydalanish qaysi yo‘nalishga misol?",
+      "options": [
+        "Faqat embrional induksiyaga",
+        "Faqat xromosoma sanashga",
+        "Sanoat mikrobiologiyasiga",
+        "Faqat geologik yemirilishga"
+      ],
+      "correct_answer": "Sanoat mikrobiologiyasiga",
+      "explanation": "Mikroorganizmlarning fermentativ faoliyati non, sut mahsulotlari va boshqa ishlab chiqarishlarda qo‘llanadi. Har qanday mikroorganizmni uyda ko‘paytirish talab qilinmaydi."
+    },
+    {
+      "key": "paragraph-66-q2",
+      "fact_id": "paragraph-66-f2",
+      "question_text": "Kerakli vitaminni ko‘p ishlab chiqaruvchi mikroorganizm variantini tanlashdan maqsad nima?",
+      "options": [
+        "Hamma mikroorganizmni bir xil deb olish",
+        "Mahsuldor shtamm olish",
+        "Faqat nomini o‘zgartirish",
+        "Barcha hujayralarni harakatsiz qilish"
+      ],
+      "correct_answer": "Mahsuldor shtamm olish",
+      "explanation": "Mikroorganizmlar seleksiyasi kerakli ferment, vitamin yoki boshqa mahsulotni ko‘proq hosil qiluvchi shtammlarni tanlashga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-66-q3",
+      "fact_id": "paragraph-66-f3",
+      "question_text": "Mikroorganizmlar yordamida olinadigan mahsulotlar qatori qaysi?",
+      "options": [
+        "Fermentlar, vitaminlar va aminokislotalar",
+        "Faqat granit va qum",
+        "Faqat xromosoma o‘rniga metall",
+        "Faqat tayyor avtomobil qismlari"
+      ],
+      "correct_answer": "Fermentlar, vitaminlar va aminokislotalar",
+      "explanation": "Darslik mikroorganizmlardan vitaminlar, fermentlar, oziqabop oqsil va aminokislotalar olishni misol qiladi. Oziqabop mahsulot xavfsiz sanoat nazoratini talab qiladi."
+    },
+    {
+      "key": "paragraph-66-q4",
+      "fact_id": "paragraph-66-f4",
+      "question_text": "Biotexnologiyaning umumiy belgisi qaysi?",
+      "options": [
+        "Faqat moddalarga yangi nom qo‘yish",
+        "Faqat har qanday modda yoqish",
+        "Faqat organizmni tashqi ko‘rinishdan sanash",
+        "Tirik hujayra yoki biologik faoliyatdan foydalanish"
+      ],
+      "correct_answer": "Tirik hujayra yoki biologik faoliyatdan foydalanish",
+      "explanation": "Biotexnologiya tirik hujayralar yoki ularning faoliyatidan kerakli mahsulot va texnologik natija olishda foydalanadi."
+    },
+    {
+      "key": "paragraph-66-q5",
+      "fact_id": "paragraph-66-f5",
+      "question_text": "Bakteriya faoliyati yordamida mineraldan metallni ajratish qaysi qo‘llanishga kiradi?",
+      "options": [
+        "Faqat vegetativ ko‘payishga",
+        "Faqat blastula hosil bo‘lishiga",
+        "Biotexnologik metall olishga",
+        "Faqat monoduragay chatishtirishga"
+      ],
+      "correct_answer": "Biotexnologik metall olishga",
+      "explanation": "Ayrim bakteriyalar mineral oksidlanishi orqali metallarning eritmaga o‘tishiga yordam beradi. Bu mikroorganizmlarning texnologik qo‘llanish misolidir."
+    },
+    {
+      "key": "paragraph-66-q6",
+      "fact_id": "paragraph-66-f6",
+      "question_text": "Mos genni hujayraga kiritib oqsil ishlab chiqarish nimaga misol?",
+      "options": [
+        "Faqat tabiiy barg to‘kilishiga",
+        "Gen muhandisligiga",
+        "Faqat yalpi tanlashning tashqi bahosiga",
+        "Faqat osmosga"
+      ],
+      "correct_answer": "Gen muhandisligiga",
+      "explanation": "Gen muhandisligi bilan mos gen kiritilgan hujayralardan ayrim oqsil mahsulotlarini olish mumkin. Darslik insulin va interferonni misol qiladi; bu davolash ko‘rsatmasi emas."
+    },
+    {
+      "key": "paragraph-66-q7",
+      "fact_id": "paragraph-66-f7",
+      "question_text": "Achitqi texnologiyasi va suvni biologik tozalashni nima birlashtiradi?",
+      "options": [
+        "Biologik organizmlar faoliyatidan amaliy foydalanish",
+        "Faqat odamlarni chatishtirish",
+        "Faqat metallni bo‘yash",
+        "Faqat barcha mikroblarni zararli deb baholash"
+      ],
+      "correct_answer": "Biologik organizmlar faoliyatidan amaliy foydalanish",
+      "explanation": "Darslik A. M. Muzaffarov ishlarini xlorella va suv havzalarini biologik tozalash yo‘nalishlari bilan, M. Mavloniy ishlarini achitqi texnologiyalari bilan bog‘laydi."
+    }
+  ]
+}

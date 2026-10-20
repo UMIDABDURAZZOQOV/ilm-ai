@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-50-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-63",
+  "title": "Di-poliduragay chatishtirish. Mendelning uchinchi qonuni",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-50-f1": {
+      "claim": "Diduragay modelda ikki juft belgi birga kuzatiladi. AaBb genotipida ikkala lokus ham geterozigotdir.",
+      "answer": "2 ta",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f2": {
+      "claim": "A va B lokuslari mustaqil ajralsa, AaBb individ AB, Ab, aB va ab gametalarni teng ehtimolda beradi.",
+      "answer": "AB, Ab, aB, ab",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f3": {
+      "claim": "Ikkala AaBb ota-ona to‘rt xil gameta berganda 4 × 4 = 16 teng ehtimolli birikma tekshiriladi. Kataklar soni genotip sinflari soni bilan bir xil emas.",
+      "answer": "16 ta",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f4": {
+      "claim": "Mustaqil ajralish va to‘liq dominantlikda AaBb × AaBb avlodining fenotip nisbati 9:3:3:1 bo‘ladi.",
+      "answer": "9:3:3:1",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f5": {
+      "claim": "AaBb × AaBb mustaqil modelida aa ehtimoli 1/4 va bb ehtimoli 1/4; aabb ehtimoli 1/16 bo‘ladi.",
+      "answer": "1/16",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f6": {
+      "claim": "Mendelning mustaqil irsiylanish modeli turli xromosoma juftlaridagi lokuslarga mos keladi. Bir xromosomada birikkan genlarga uni shartsiz qo‘llab bo‘lmaydi.",
+      "answer": "Lokuslar turli xromosoma juftlarida bo‘lsa",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f7": {
+      "claim": "Mustaqil n ta geterozigot lokus uchun gameta tiplari soni 2^n. AaBbCc uchun 2^3 = 8 tip bo‘ladi.",
+      "answer": "8 ta",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-50-f8": {
+      "claim": "Mustaqil AaBb × aabb testkrossida to‘rtta fenotip teng ehtimolli bo‘ladi. Har biri AaBb individning gameta turini aks ettiradi.",
+      "answer": "1:1:1:1",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki lokus",
+      "body": "Diduragay modelda ikki juft belgi birga kuzatiladi. AaBb genotipida ikkala lokus ham geterozigotdir.",
+      "fact_ids": [
+        "paragraph-50-f1"
+      ]
+    },
+    {
+      "title": "Mustaqil gametalar",
+      "body": "A va B lokuslari mustaqil ajralsa, AaBb individ AB, Ab, aB va ab gametalarni teng ehtimolda beradi.",
+      "fact_ids": [
+        "paragraph-50-f2"
+      ]
+    },
+    {
+      "title": "Punnett katakchasi",
+      "body": "Ikkala AaBb ota-ona to‘rt xil gameta berganda 4 × 4 = 16 teng ehtimolli birikma tekshiriladi. Kataklar soni genotip sinflari soni bilan bir xil emas.",
+      "fact_ids": [
+        "paragraph-50-f3"
+      ]
+    },
+    {
+      "title": "Ikki belgi fenotipi",
+      "body": "Mustaqil ajralish va to‘liq dominantlikda AaBb × AaBb avlodining fenotip nisbati 9:3:3:1 bo‘ladi.",
+      "fact_ids": [
+        "paragraph-50-f4"
+      ]
+    },
+    {
+      "title": "Ikki retsessiv ehtimoli",
+      "body": "AaBb × AaBb mustaqil modelida aa ehtimoli 1/4 va bb ehtimoli 1/4; aabb ehtimoli 1/16 bo‘ladi.",
+      "fact_ids": [
+        "paragraph-50-f5"
+      ]
+    },
+    {
+      "title": "Qonun sharti",
+      "body": "Mendelning mustaqil irsiylanish modeli turli xromosoma juftlaridagi lokuslarga mos keladi. Bir xromosomada birikkan genlarga uni shartsiz qo‘llab bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-50-f6"
+      ]
+    },
+    {
+      "title": "Gametalar soni",
+      "body": "Mustaqil n ta geterozigot lokus uchun gameta tiplari soni 2^n. AaBbCc uchun 2^3 = 8 tip bo‘ladi.",
+      "fact_ids": [
+        "paragraph-50-f7"
+      ]
+    },
+    {
+      "title": "Ikki lokusli testkross",
+      "body": "Mustaqil AaBb × aabb testkrossida to‘rtta fenotip teng ehtimolli bo‘ladi. Har biri AaBb individning gameta turini aks ettiradi.",
+      "fact_ids": [
+        "paragraph-50-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-50-q1",
+      "fact_id": "paragraph-50-f1",
+      "question_text": "AaBb genotipida nechta geterozigot lokus bor?",
+      "options": [
+        "3 ta",
+        "4 ta",
+        "2 ta",
+        "1 ta"
+      ],
+      "correct_answer": "2 ta",
+      "explanation": "Diduragay modelda ikki juft belgi birga kuzatiladi. AaBb genotipida ikkala lokus ham geterozigotdir."
+    },
+    {
+      "key": "paragraph-50-q2",
+      "fact_id": "paragraph-50-f2",
+      "question_text": "Mustaqil ajralish shartida AaBb uchun gametalar qaysilar?",
+      "options": [
+        "Faqat Aa va Bb",
+        "AB, Ab, aB, ab",
+        "Faqat AB va ab",
+        "AA, Aa, BB, Bb"
+      ],
+      "correct_answer": "AB, Ab, aB, ab",
+      "explanation": "A va B lokuslari mustaqil ajralsa, AaBb individ AB, Ab, aB va ab gametalarni teng ehtimolda beradi."
+    },
+    {
+      "key": "paragraph-50-q3",
+      "fact_id": "paragraph-50-f3",
+      "question_text": "AaBb × AaBb mustaqil modelining Punnett jadvalida nechta katak bo‘ladi?",
+      "options": [
+        "16 ta",
+        "4 ta",
+        "8 ta",
+        "9 ta"
+      ],
+      "correct_answer": "16 ta",
+      "explanation": "Ikkala AaBb ota-ona to‘rt xil gameta berganda 4 × 4 = 16 teng ehtimolli birikma tekshiriladi. Kataklar soni genotip sinflari soni bilan bir xil emas."
+    },
+    {
+      "key": "paragraph-50-q4",
+      "fact_id": "paragraph-50-f4",
+      "question_text": "Mustaqil to‘liq dominant diduragay F2 modeli uchun nisbat qaysi?",
+      "options": [
+        "1:2:1",
+        "3:1",
+        "15:1",
+        "9:3:3:1"
+      ],
+      "correct_answer": "9:3:3:1",
+      "explanation": "Mustaqil ajralish va to‘liq dominantlikda AaBb × AaBb avlodining fenotip nisbati 9:3:3:1 bo‘ladi."
+    },
+    {
+      "key": "paragraph-50-q5",
+      "fact_id": "paragraph-50-f5",
+      "question_text": "Mustaqil AaBb × AaBb modelida aabb ehtimoli qancha?",
+      "options": [
+        "3/16",
+        "9/16",
+        "1/16",
+        "1/4"
+      ],
+      "correct_answer": "1/16",
+      "explanation": "AaBb × AaBb mustaqil modelida aa ehtimoli 1/4 va bb ehtimoli 1/4; aabb ehtimoli 1/16 bo‘ladi."
+    },
+    {
+      "key": "paragraph-50-q6",
+      "fact_id": "paragraph-50-f6",
+      "question_text": "Mustaqil irsiylanish modelini qaysi holatda to‘g‘ridan qo‘llash mos?",
+      "options": [
+        "Faqat DNK nusxalanmasa",
+        "Lokuslar turli xromosoma juftlarida bo‘lsa",
+        "Har qanday birikkan gen uchun shartsiz",
+        "Faqat genlar yo‘q bo‘lsa"
+      ],
+      "correct_answer": "Lokuslar turli xromosoma juftlarida bo‘lsa",
+      "explanation": "Mendelning mustaqil irsiylanish modeli turli xromosoma juftlaridagi lokuslarga mos keladi. Bir xromosomada birikkan genlarga uni shartsiz qo‘llab bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-50-q7",
+      "fact_id": "paragraph-50-f7",
+      "question_text": "Uch lokus mustaqil bo‘lsa, AaBbCc nechta gameta tipi beradi?",
+      "options": [
+        "8 ta",
+        "3 ta",
+        "6 ta",
+        "16 ta"
+      ],
+      "correct_answer": "8 ta",
+      "explanation": "Mustaqil n ta geterozigot lokus uchun gameta tiplari soni 2^n. AaBbCc uchun 2^3 = 8 tip bo‘ladi."
+    },
+    {
+      "key": "paragraph-50-q8",
+      "fact_id": "paragraph-50-f8",
+      "question_text": "Mustaqil AaBb × aabb modelida fenotiplar qanday nisbatda kutiladi?",
+      "options": [
+        "9:3:3:1",
+        "3:1",
+        "1:2:1",
+        "1:1:1:1"
+      ],
+      "correct_answer": "1:1:1:1",
+      "explanation": "Mustaqil AaBb × aabb testkrossida to‘rtta fenotip teng ehtimolli bo‘ladi. Har biri AaBb individning gameta turini aks ettiradi."
+    }
+  ]
+}

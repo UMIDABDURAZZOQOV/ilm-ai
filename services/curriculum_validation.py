@@ -180,7 +180,15 @@ def validate_lesson(catalog, lesson):
             raise ValueError("unique_question_key_required")
         keys.add(q["key"])
         options = q.get("options", [])
-        normalized = [s.strip().casefold() for s in options if isinstance(s, str)]
+        answer_format = q.get("answer_format")
+        if answer_format not in {None, "genotype"}:
+            raise ValueError("unsupported_answer_format")
+        # AA, Aa and aa are different genotypes. Ordinary text still rejects
+        # duplicates that differ only by case; authors must opt in explicitly.
+        normalized = [
+            s.strip() if answer_format == "genotype" else s.strip().casefold()
+            for s in options if isinstance(s, str)
+        ]
         if (
             len(options) != 4
             or len(normalized) != 4

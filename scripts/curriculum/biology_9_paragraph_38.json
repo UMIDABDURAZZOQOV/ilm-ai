@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-38-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-49",
+  "title": "Hujayra sikli",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-38-f1": {
+      "claim": "Interfaza G1, S va G2 davrlaridan iborat. G1da o‘sish va biosintez, Sda DNK nusxalanishi, G2da mitozga tayyorgarlik davom etadi.",
+      "answer": "G1 → S → G2",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f2": {
+      "claim": "S davrida DNK miqdori ikki hissa ortadi. Har bir nusxalangan xromosomada ikkita singil xromatida bo‘ladi; bu xromosoma to‘plami darhol ikki hissa oshdi degani emas.",
+      "answer": "DNK nusxalanib singil xromatidalar hosil bo‘ladi",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f3": {
+      "claim": "Mitozning asosiy fazalari profaza, metafaza, anafaza va telofazadir. Interfaza esa bu fazalardan oldingi tayyorgarlik davridir.",
+      "answer": "Profaza → metafaza → anafaza → telofaza",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f4": {
+      "claim": "Profazada xromosomalar zichlashib ko‘rinadi va bo‘linish apparati shakllana boshlaydi. Yadrocha va yadro qobig‘i mitoz davomida yo‘qoladi.",
+      "answer": "Profaza",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f5": {
+      "claim": "Metafazada xromosomalar hujayraning ekvator tekisligi bo‘ylab joylashadi. Bu qutblarga ajralishdan oldingi holatdir.",
+      "answer": "Metafaza",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f6": {
+      "claim": "Anafazada singil xromatidalar ajralib, mustaqil xromosomalar sifatida qarama-qarshi qutblarga tortiladi.",
+      "answer": "Anafaza",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f7": {
+      "claim": "Telofazada yangi yadrolar shakllanadi; sitokinezda sitoplazma ajraladi. Yadro bo‘linishi bilan sitoplazma bo‘linishi bir xil tushuncha emas.",
+      "answer": "Sitoplazma",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-38-f8": {
+      "claim": "Mitoz o‘sish va to‘qimalar tiklanishiga xizmat qiladi. Odatdagi mitozda yangi hujayralar boshlang‘ich hujayraning xromosoma to‘plamini saqlaydi.",
+      "answer": "Diploid",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Interfaza tartibi",
+      "body": "Interfaza G1, S va G2 davrlaridan iborat. G1da o‘sish va biosintez, Sda DNK nusxalanishi, G2da mitozga tayyorgarlik davom etadi.",
+      "fact_ids": [
+        "paragraph-38-f1"
+      ]
+    },
+    {
+      "title": "DNK nusxalanishi",
+      "body": "S davrida DNK miqdori ikki hissa ortadi. Har bir nusxalangan xromosomada ikkita singil xromatida bo‘ladi; bu xromosoma to‘plami darhol ikki hissa oshdi degani emas.",
+      "fact_ids": [
+        "paragraph-38-f2"
+      ]
+    },
+    {
+      "title": "Mitoz ketma-ketligi",
+      "body": "Mitozning asosiy fazalari profaza, metafaza, anafaza va telofazadir. Interfaza esa bu fazalardan oldingi tayyorgarlik davridir.",
+      "fact_ids": [
+        "paragraph-38-f3"
+      ]
+    },
+    {
+      "title": "Profaza belgisi",
+      "body": "Profazada xromosomalar zichlashib ko‘rinadi va bo‘linish apparati shakllana boshlaydi. Yadrocha va yadro qobig‘i mitoz davomida yo‘qoladi.",
+      "fact_ids": [
+        "paragraph-38-f4"
+      ]
+    },
+    {
+      "title": "Metafaza belgisi",
+      "body": "Metafazada xromosomalar hujayraning ekvator tekisligi bo‘ylab joylashadi. Bu qutblarga ajralishdan oldingi holatdir.",
+      "fact_ids": [
+        "paragraph-38-f5"
+      ]
+    },
+    {
+      "title": "Anafaza belgisi",
+      "body": "Anafazada singil xromatidalar ajralib, mustaqil xromosomalar sifatida qarama-qarshi qutblarga tortiladi.",
+      "fact_ids": [
+        "paragraph-38-f6"
+      ]
+    },
+    {
+      "title": "Telofaza va sitokinez",
+      "body": "Telofazada yangi yadrolar shakllanadi; sitokinezda sitoplazma ajraladi. Yadro bo‘linishi bilan sitoplazma bo‘linishi bir xil tushuncha emas.",
+      "fact_ids": [
+        "paragraph-38-f7"
+      ]
+    },
+    {
+      "title": "Mitoz ahamiyati",
+      "body": "Mitoz o‘sish va to‘qimalar tiklanishiga xizmat qiladi. Odatdagi mitozda yangi hujayralar boshlang‘ich hujayraning xromosoma to‘plamini saqlaydi.",
+      "fact_ids": [
+        "paragraph-38-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-38-q1",
+      "fact_id": "paragraph-38-f1",
+      "question_text": "Interfaza davrlarini to‘g‘ri ketma-ketlikda tanlang.",
+      "options": [
+        "G2 → G1 → S",
+        "G1 → mitoz → S",
+        "G1 → S → G2",
+        "S → G2 → G1"
+      ],
+      "correct_answer": "G1 → S → G2",
+      "explanation": "Interfaza G1, S va G2 davrlaridan iborat. G1da o‘sish va biosintez, Sda DNK nusxalanishi, G2da mitozga tayyorgarlik davom etadi."
+    },
+    {
+      "key": "paragraph-38-q2",
+      "fact_id": "paragraph-38-f2",
+      "question_text": "S davrida bevosita qaysi o‘zgarish yuz beradi?",
+      "options": [
+        "Sitoplazma albatta to‘rtga bo‘linadi",
+        "DNK nusxalanib singil xromatidalar hosil bo‘ladi",
+        "Barcha xromosomalar hujayradan chiqadi",
+        "Har bir xromosoma yo‘qoladi"
+      ],
+      "correct_answer": "DNK nusxalanib singil xromatidalar hosil bo‘ladi",
+      "explanation": "S davrida DNK miqdori ikki hissa ortadi. Har bir nusxalangan xromosomada ikkita singil xromatida bo‘ladi; bu xromosoma to‘plami darhol ikki hissa oshdi degani emas."
+    },
+    {
+      "key": "paragraph-38-q3",
+      "fact_id": "paragraph-38-f3",
+      "question_text": "Mitoz fazalarining to‘g‘ri tartibini toping.",
+      "options": [
+        "Profaza → metafaza → anafaza → telofaza",
+        "Metafaza → profaza → telofaza → anafaza",
+        "Anafaza → telofaza → metafaza → profaza",
+        "Telofaza → metafaza → profaza → anafaza"
+      ],
+      "correct_answer": "Profaza → metafaza → anafaza → telofaza",
+      "explanation": "Mitozning asosiy fazalari profaza, metafaza, anafaza va telofazadir. Interfaza esa bu fazalardan oldingi tayyorgarlik davridir."
+    },
+    {
+      "key": "paragraph-38-q4",
+      "fact_id": "paragraph-38-f4",
+      "question_text": "Xromosomalar zichlashib, bo‘linish urchug‘i shakllanmoqda. Qaysi fazaga mos?",
+      "options": [
+        "Faqat G1 davri",
+        "Telofaza oxiri",
+        "Sitokinez yakuni",
+        "Profaza"
+      ],
+      "correct_answer": "Profaza",
+      "explanation": "Profazada xromosomalar zichlashib ko‘rinadi va bo‘linish apparati shakllana boshlaydi. Yadrocha va yadro qobig‘i mitoz davomida yo‘qoladi."
+    },
+    {
+      "key": "paragraph-38-q5",
+      "fact_id": "paragraph-38-f5",
+      "question_text": "Xromosomalar ekvator tekisligida saf tortdi. Bu qaysi faza?",
+      "options": [
+        "Anafaza",
+        "Telofaza",
+        "Metafaza",
+        "Profaza"
+      ],
+      "correct_answer": "Metafaza",
+      "explanation": "Metafazada xromosomalar hujayraning ekvator tekisligi bo‘ylab joylashadi. Bu qutblarga ajralishdan oldingi holatdir."
+    },
+    {
+      "key": "paragraph-38-q6",
+      "fact_id": "paragraph-38-f6",
+      "question_text": "Singil xromatidalar qutblarga ajralayotgan bosqichni aniqlang.",
+      "options": [
+        "S davri",
+        "Anafaza",
+        "Metafaza",
+        "G1"
+      ],
+      "correct_answer": "Anafaza",
+      "explanation": "Anafazada singil xromatidalar ajralib, mustaqil xromosomalar sifatida qarama-qarshi qutblarga tortiladi."
+    },
+    {
+      "key": "paragraph-38-q7",
+      "fact_id": "paragraph-38-f7",
+      "question_text": "Sitokinezda bevosita nima ajraladi?",
+      "options": [
+        "Sitoplazma",
+        "Faqat DNKdagi asoslar",
+        "Faqat ribosoma RNKsi",
+        "Faqat xromosoma sentromerasi"
+      ],
+      "correct_answer": "Sitoplazma",
+      "explanation": "Telofazada yangi yadrolar shakllanadi; sitokinezda sitoplazma ajraladi. Yadro bo‘linishi bilan sitoplazma bo‘linishi bir xil tushuncha emas."
+    },
+    {
+      "key": "paragraph-38-q8",
+      "fact_id": "paragraph-38-f8",
+      "question_text": "Diploid hujayraning odatdagi mitozidan hosil bo‘lgan hujayralar to‘plami qaysi?",
+      "options": [
+        "Faqat gaploid",
+        "Har doim triploid",
+        "Har doim tetraploid",
+        "Diploid"
+      ],
+      "correct_answer": "Diploid",
+      "explanation": "Mitoz o‘sish va to‘qimalar tiklanishiga xizmat qiladi. Odatdagi mitozda yangi hujayralar boshlang‘ich hujayraning xromosoma to‘plamini saqlaydi."
+    }
+  ]
+}

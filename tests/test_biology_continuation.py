@@ -102,11 +102,11 @@ def test_distinct_continuation_questions_and_honest_theory_activity_counts():
     assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
     report = readiness_report(catalog, lessons)
     assert sum(r["topics"] for r in report) == 355
-    assert sum(r["ready_theory_lessons"] for r in report) == 233
-    assert sum(r["ready_activities"] for r in report) == 36
-    assert all(r["course_ready"] for r in report[:4])
-    assert not any(r["course_ready"] for r in report[4:])
-    for row in report[:4]:
+    assert sum(r["ready_theory_lessons"] for r in report) == 257
+    assert sum(r["ready_activities"] for r in report) == 42
+    assert all(r["course_ready"] for r in report[:5])
+    assert not any(r["course_ready"] for r in report[5:])
+    for row in report[:5]:
         assert row["remaining_topics"] == 0
         assert row["remaining_activity_ids"] == []
 
@@ -174,7 +174,7 @@ def test_citation_uses_printed_activity_number_and_preserves_catalogue_id(
     assert result["paragraph"] == paragraph
 
 
-def test_complete_grades5_to8_and_grade9_continuation_api_once_only_xp(setup, tmp_path):
+def test_complete_grades5_to9_and_grade10_continuation_api_once_only_xp(setup, tmp_path):
     client, factory = setup
     catalog, _ = load_documents()
     lessons = load_lesson_set()
@@ -183,11 +183,11 @@ def test_complete_grades5_to8_and_grade9_continuation_api_once_only_xp(setup, tm
         for lesson in lessons:
             import_curriculum(db, catalog, lesson)
     xp = events = checkpoints = 0
-    for grade in (5, 6, 7, 8, 9):
+    for grade in (5, 6, 7, 8, 9, 10):
         tree = client.get(f"/skills/1/tree?subject=biologiya&grade={grade}").json()
         units = tree["units"]
         for unit in units:
-            if grade in (5, 6, 7, 8):
+            if grade in (5, 6, 7, 8, 9):
                 assert unit["coverage_complete"]
             for row in unit["lessons"]:
                 lid = row["id"]
@@ -210,9 +210,21 @@ def test_complete_grades5_to8_and_grade9_continuation_api_once_only_xp(setup, tm
                     "attempt_id": data["attempt_id"],
                     "results": answers(data),
                 }
+                is_mendel_case = row["slug"] == "biology-9-paragraph-48-v1"
+                if is_mendel_case:
+                    body["results"][1]["answer_index"] = data["questions"][1]["options"].index("AA")
+                    body["results"][1]["is_correct"] = True
                 result = client.post(f"/skills/lessons/{lid}/complete", json=body)
                 assert result.status_code == 200, result.text
                 assert result.json()["xp_awarded"] == reward
+                if is_mendel_case:
+                    assert result.json()["score"] == len(data["questions"]) - 1
+                    for suffix, payload in [
+                        ("lesson", data), ("row", row), ("result", result.json())
+                    ]:
+                        (tmp_path / f"biology_mendel_{suffix}.json").write_text(
+                            json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+                        )
                 assert (
                     client.post(f"/skills/lessons/{lid}/complete", json=body).json()
                     == result.json()
@@ -256,8 +268,8 @@ def test_complete_grades5_to8_and_grade9_continuation_api_once_only_xp(setup, tm
         outline = client.get(
             f"/skills/1/curriculum?subject=biologiya&grade={grade}"
         ).json()
-        assert outline["completed"] is (grade < 9)
-        assert outline["next_grade"] == (grade + 1 if grade < 9 else None)
+        assert outline["completed"] is (grade < 10)
+        assert outline["next_grade"] == (grade + 1 if grade < 10 else None)
     with factory.begin() as db:
         assert db.get(User, 1).xp_total == xp
         assert db.query(StudyEvent).count() == events

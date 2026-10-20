@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-42-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-53",
+  "title": "Urug‘lanish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-42-f1": {
+      "claim": "Urug‘lanishda erkak va urg‘ochi gametalar qo‘shilib zigota hosil qiladi. Zigotadagi irsiy axborot ikkala gametadan keladi.",
+      "answer": "Zigota",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f2": {
+      "claim": "Tashqi urug‘lanishda gametalar tanadan tashqaridagi muhitda uchrashadi. Darslik ko‘plab baliq va amfibiyalarning suvdagi urug‘lanishini misol qiladi.",
+      "answer": "Tashqi urug‘lanish",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f3": {
+      "claim": "Gulli o‘simlikda chang naychasi erkak gametalarni urug‘kurtakdagi murtak xaltasiga yetkazadi. Generativ hujayradan ikkita spermiy hosil bo‘ladi.",
+      "answer": "Chang naychasi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f4": {
+      "claim": "Qo‘sh urug‘lanishda spermiylardan biri tuxum hujayra bilan qo‘shilib diploid zigota hosil qiladi. Zigotadan murtak rivojlanadi.",
+      "answer": "Diploid zigota",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f5": {
+      "claim": "Odatdagi gulli o‘simlik modelida ikkinchi spermiy diploid markaziy hujayra bilan qo‘shilib triploid endospermga boshlang‘ich beradi.",
+      "answer": "Triploid endosperm",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f6": {
+      "claim": "Endosperm rivojlanayotgan murtak uchun oziq ta’minotida qatnashadi. Murtak va endosperm qo‘sh urug‘lanishning turli mahsulotlaridir.",
+      "answer": "Oziq bilan ta’minlashga xizmat qilish",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f7": {
+      "claim": "Urug‘lanmagan tuxum hujayradan yangi organizm rivojlanishi partenogenezdir. Uni ikkita gametaning qo‘shilishi deb tushunmang.",
+      "answer": "Partenogenez",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-42-f8": {
+      "claim": "Darslik erkak asalarining urug‘lanmagan tuxumdan rivojlanishini tabiiy partenogenezga misol keltiradi. Bu barcha hayvonlarga umumiy qoida emas.",
+      "answer": "Erkak asalarining urug‘lanmagan tuxumdan rivojlanishi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Urug‘lanish natijasi",
+      "body": "Urug‘lanishda erkak va urg‘ochi gametalar qo‘shilib zigota hosil qiladi. Zigotadagi irsiy axborot ikkala gametadan keladi.",
+      "fact_ids": [
+        "paragraph-42-f1"
+      ]
+    },
+    {
+      "title": "Tashqi va ichki",
+      "body": "Tashqi urug‘lanishda gametalar tanadan tashqaridagi muhitda uchrashadi. Darslik ko‘plab baliq va amfibiyalarning suvdagi urug‘lanishini misol qiladi.",
+      "fact_ids": [
+        "paragraph-42-f2"
+      ]
+    },
+    {
+      "title": "Chang naychasining roli",
+      "body": "Gulli o‘simlikda chang naychasi erkak gametalarni urug‘kurtakdagi murtak xaltasiga yetkazadi. Generativ hujayradan ikkita spermiy hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-42-f3"
+      ]
+    },
+    {
+      "title": "Birinchi qo‘shilish",
+      "body": "Qo‘sh urug‘lanishda spermiylardan biri tuxum hujayra bilan qo‘shilib diploid zigota hosil qiladi. Zigotadan murtak rivojlanadi.",
+      "fact_ids": [
+        "paragraph-42-f4"
+      ]
+    },
+    {
+      "title": "Ikkinchi qo‘shilish",
+      "body": "Odatdagi gulli o‘simlik modelida ikkinchi spermiy diploid markaziy hujayra bilan qo‘shilib triploid endospermga boshlang‘ich beradi.",
+      "fact_ids": [
+        "paragraph-42-f5"
+      ]
+    },
+    {
+      "title": "Endosperm vazifasi",
+      "body": "Endosperm rivojlanayotgan murtak uchun oziq ta’minotida qatnashadi. Murtak va endosperm qo‘sh urug‘lanishning turli mahsulotlaridir.",
+      "fact_ids": [
+        "paragraph-42-f6"
+      ]
+    },
+    {
+      "title": "Partenogenez",
+      "body": "Urug‘lanmagan tuxum hujayradan yangi organizm rivojlanishi partenogenezdir. Uni ikkita gametaning qo‘shilishi deb tushunmang.",
+      "fact_ids": [
+        "paragraph-42-f7"
+      ]
+    },
+    {
+      "title": "Tabiiy misol",
+      "body": "Darslik erkak asalarining urug‘lanmagan tuxumdan rivojlanishini tabiiy partenogenezga misol keltiradi. Bu barcha hayvonlarga umumiy qoida emas.",
+      "fact_ids": [
+        "paragraph-42-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-42-q1",
+      "fact_id": "paragraph-42-f1",
+      "question_text": "Urug‘langan tuxum hujayraning nomi qaysi?",
+      "options": [
+        "Faqat spora",
+        "Faqat yo‘naltiruvchi tanacha",
+        "Zigota",
+        "Faqat spermatozoid"
+      ],
+      "correct_answer": "Zigota",
+      "explanation": "Urug‘lanishda erkak va urg‘ochi gametalar qo‘shilib zigota hosil qiladi. Zigotadagi irsiy axborot ikkala gametadan keladi."
+    },
+    {
+      "key": "paragraph-42-q2",
+      "fact_id": "paragraph-42-f2",
+      "question_text": "Baliq gametalari suvga chiqarilib shu yerda qo‘shildi. Bu qaysi tur?",
+      "options": [
+        "Kurtaklanish",
+        "Tashqi urug‘lanish",
+        "Ichki urug‘lanish",
+        "Vegetativ ko‘payish"
+      ],
+      "correct_answer": "Tashqi urug‘lanish",
+      "explanation": "Tashqi urug‘lanishda gametalar tanadan tashqaridagi muhitda uchrashadi. Darslik ko‘plab baliq va amfibiyalarning suvdagi urug‘lanishini misol qiladi."
+    },
+    {
+      "key": "paragraph-42-q3",
+      "fact_id": "paragraph-42-f3",
+      "question_text": "Gulli o‘simlikda spermiylarni urug‘kurtakka olib boruvchi tuzilma qaysi?",
+      "options": [
+        "Chang naychasi",
+        "Faqat ildiz tukchasi",
+        "Faqat barg og‘izchasi",
+        "Faqat tugunak"
+      ],
+      "correct_answer": "Chang naychasi",
+      "explanation": "Gulli o‘simlikda chang naychasi erkak gametalarni urug‘kurtakdagi murtak xaltasiga yetkazadi. Generativ hujayradan ikkita spermiy hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-42-q4",
+      "fact_id": "paragraph-42-f4",
+      "question_text": "Birinchi spermiy tuxum hujayra bilan qo‘shilganda nima hosil bo‘ladi?",
+      "options": [
+        "Faqat triploid endosperm",
+        "Faqat chang donasi",
+        "Faqat urug‘chi tumshuqchasi",
+        "Diploid zigota"
+      ],
+      "correct_answer": "Diploid zigota",
+      "explanation": "Qo‘sh urug‘lanishda spermiylardan biri tuxum hujayra bilan qo‘shilib diploid zigota hosil qiladi. Zigotadan murtak rivojlanadi."
+    },
+    {
+      "key": "paragraph-42-q5",
+      "fact_id": "paragraph-42-f5",
+      "question_text": "Ikkinchi spermiy markaziy hujayra bilan qo‘shilganda qaysi to‘plamli oziqlantiruvchi to‘qima boshlanadi?",
+      "options": [
+        "Diploid chang naychasi",
+        "Tetraploid tuxum hujayra",
+        "Triploid endosperm",
+        "Gaploid zigota"
+      ],
+      "correct_answer": "Triploid endosperm",
+      "explanation": "Odatdagi gulli o‘simlik modelida ikkinchi spermiy diploid markaziy hujayra bilan qo‘shilib triploid endospermga boshlang‘ich beradi."
+    },
+    {
+      "key": "paragraph-42-q6",
+      "fact_id": "paragraph-42-f6",
+      "question_text": "Endospermning murtakka nisbatan asosiy vazifasi qaysi?",
+      "options": [
+        "Faqat gul rangini belgilash",
+        "Oziq bilan ta’minlashga xizmat qilish",
+        "Spermiylarni tashqariga chiqarish",
+        "Faqat chang donasini tarqatish"
+      ],
+      "correct_answer": "Oziq bilan ta’minlashga xizmat qilish",
+      "explanation": "Endosperm rivojlanayotgan murtak uchun oziq ta’minotida qatnashadi. Murtak va endosperm qo‘sh urug‘lanishning turli mahsulotlaridir."
+    },
+    {
+      "key": "paragraph-42-q7",
+      "fact_id": "paragraph-42-f7",
+      "question_text": "Urug‘lanmagan tuxum hujayradan rivojlanish qanday ataladi?",
+      "options": [
+        "Partenogenez",
+        "Qo‘sh urug‘lanish",
+        "Faqat mitozning anafazasi",
+        "Faqat vegetativ qalamchalash"
+      ],
+      "correct_answer": "Partenogenez",
+      "explanation": "Urug‘lanmagan tuxum hujayradan yangi organizm rivojlanishi partenogenezdir. Uni ikkita gametaning qo‘shilishi deb tushunmang."
+    },
+    {
+      "key": "paragraph-42-q8",
+      "fact_id": "paragraph-42-f8",
+      "question_text": "Tabiiy partenogenezga mos darslik misoli qaysi?",
+      "options": [
+        "Tok qalamchasining ildiz otishi",
+        "Gidraning kurtak chiqarishi",
+        "Piyozboshdan yangi piyoz chiqishi",
+        "Erkak asalarining urug‘lanmagan tuxumdan rivojlanishi"
+      ],
+      "correct_answer": "Erkak asalarining urug‘lanmagan tuxumdan rivojlanishi",
+      "explanation": "Darslik erkak asalarining urug‘lanmagan tuxumdan rivojlanishini tabiiy partenogenezga misol keltiradi. Bu barcha hayvonlarga umumiy qoida emas."
+    }
+  ]
+}

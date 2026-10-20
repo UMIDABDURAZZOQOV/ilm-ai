@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-53-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-66",
+  "title": "Noallel genlarning o‘zaro ta’siri",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-53-f1": {
+      "claim": "Bir belgi rivojlanishiga bir nechta allel bo‘lmagan gen ta’sir qilishi mumkin. Bunda genlarning o‘zaro ta’siri fenotipni shakllantiradi.",
+      "answer": "Noallel genlarning o‘zaro ta’siriga",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f2": {
+      "claim": "Komplementar ta’sirda turli genlar bir-birini to‘ldirib, birgalikda fenotipni yuzaga chiqaradi. Xushbo‘y no‘xat modelida A va Bning birga bo‘lishi rangga olib keladi.",
+      "answer": "Komplementar",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f3": {
+      "claim": "AAbb va aaBB shakllarining har birida rang uchun kerakli ikkinchi dominant allel yo‘q. Ular chatishtirilganda AaBb birinchi avlod ikkala zarur allelni oladi.",
+      "answer": "AaBb",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f4": {
+      "claim": "A va Bning ikkalasi kerak bo‘lgan modelda AaBb × AaBb avlodining A_B_ qismi 9/16, qolganlari 7/16 bo‘ladi.",
+      "answer": "9:7",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f5": {
+      "claim": "Epistazda bir lokusdagi allel boshqa lokus genining fenotipik ta’sirini to‘sishi yoki o‘zgartirishi mumkin. Bu bir lokusdagi dominantlik bilan aynan bir xil emas.",
+      "answer": "Epistaz",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f6": {
+      "claim": "Tovuq rangi modelida I alleli C rang genining namoyon bo‘lishini to‘sadi. I_ bo‘lganida C mavjudligi o‘zi rang uchun yetmaydi.",
+      "answer": "Oq",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f7": {
+      "claim": "Xuddi shu inhibitor modelida rang uchun ii va kamida bitta C kerak. iiCC ham iiCc ham rangli, iicc esa rangsizdir.",
+      "answer": "iiCc",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-53-f8": {
+      "claim": "IiCc × IiCc inhibitor modelida rangli iiC_ ulushi 3/16 bo‘lib, oq ulush 13/16dir. Har qanday epistaz bir xil nisbat bermaydi.",
+      "answer": "13:3",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir belgi — bir nechta lokus",
+      "body": "Bir belgi rivojlanishiga bir nechta allel bo‘lmagan gen ta’sir qilishi mumkin. Bunda genlarning o‘zaro ta’siri fenotipni shakllantiradi.",
+      "fact_ids": [
+        "paragraph-53-f1"
+      ]
+    },
+    {
+      "title": "Komplementarlik",
+      "body": "Komplementar ta’sirda turli genlar bir-birini to‘ldirib, birgalikda fenotipni yuzaga chiqaradi. Xushbo‘y no‘xat modelida A va Bning birga bo‘lishi rangga olib keladi.",
+      "fact_ids": [
+        "paragraph-53-f2"
+      ]
+    },
+    {
+      "title": "Komplementar ota-onalar",
+      "body": "AAbb va aaBB shakllarining har birida rang uchun kerakli ikkinchi dominant allel yo‘q. Ular chatishtirilganda AaBb birinchi avlod ikkala zarur allelni oladi.",
+      "fact_ids": [
+        "paragraph-53-f3"
+      ]
+    },
+    {
+      "title": "Komplementar ajralish",
+      "body": "A va Bning ikkalasi kerak bo‘lgan modelda AaBb × AaBb avlodining A_B_ qismi 9/16, qolganlari 7/16 bo‘ladi.",
+      "fact_ids": [
+        "paragraph-53-f4"
+      ]
+    },
+    {
+      "title": "Epistaz ma’nosi",
+      "body": "Epistazda bir lokusdagi allel boshqa lokus genining fenotipik ta’sirini to‘sishi yoki o‘zgartirishi mumkin. Bu bir lokusdagi dominantlik bilan aynan bir xil emas.",
+      "fact_ids": [
+        "paragraph-53-f5"
+      ]
+    },
+    {
+      "title": "Inhibitor sharti",
+      "body": "Tovuq rangi modelida I alleli C rang genining namoyon bo‘lishini to‘sadi. I_ bo‘lganida C mavjudligi o‘zi rang uchun yetmaydi.",
+      "fact_ids": [
+        "paragraph-53-f6"
+      ]
+    },
+    {
+      "title": "Rangli sinf",
+      "body": "Xuddi shu inhibitor modelida rang uchun ii va kamida bitta C kerak. iiCC ham iiCc ham rangli, iicc esa rangsizdir.",
+      "fact_ids": [
+        "paragraph-53-f7"
+      ]
+    },
+    {
+      "title": "Nisbat modelga bog‘liq",
+      "body": "IiCc × IiCc inhibitor modelida rangli iiC_ ulushi 3/16 bo‘lib, oq ulush 13/16dir. Har qanday epistaz bir xil nisbat bermaydi.",
+      "fact_ids": [
+        "paragraph-53-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-53-q1",
+      "fact_id": "paragraph-53-f1",
+      "question_text": "Turli lokuslardagi genlar bitta belgi shakllanishiga ta’sir qildi. Bu qaysi mavzuga misol?",
+      "options": [
+        "Faqat suvning diffuziyasiga",
+        "Faqat ribosoma bo‘linishiga",
+        "Noallel genlarning o‘zaro ta’siriga",
+        "Faqat bir lokusning ikki alleliga"
+      ],
+      "correct_answer": "Noallel genlarning o‘zaro ta’siriga",
+      "explanation": "Bir belgi rivojlanishiga bir nechta allel bo‘lmagan gen ta’sir qilishi mumkin. Bunda genlarning o‘zaro ta’siri fenotipni shakllantiradi."
+    },
+    {
+      "key": "paragraph-53-q2",
+      "fact_id": "paragraph-53-f2",
+      "question_text": "Rang faqat A_B_ holatida hosil bo‘lsa, genlar qanday ta’sir ko‘rsatmoqda?",
+      "options": [
+        "Faqat genlarning yo‘qolishi",
+        "Komplementar",
+        "Faqat kodominant allel jufti",
+        "Faqat mutlaqo mustaqil rangsiz ta’sir"
+      ],
+      "correct_answer": "Komplementar",
+      "explanation": "Komplementar ta’sirda turli genlar bir-birini to‘ldirib, birgalikda fenotipni yuzaga chiqaradi. Xushbo‘y no‘xat modelida A va Bning birga bo‘lishi rangga olib keladi."
+    },
+    {
+      "key": "paragraph-53-q3",
+      "fact_id": "paragraph-53-f3",
+      "question_text": "AAbb × aaBB komplementar modelida F1 genotipi qaysi?",
+      "options": [
+        "AaBb",
+        "AABB",
+        "aabb",
+        "AAbb"
+      ],
+      "correct_answer": "AaBb",
+      "explanation": "AAbb va aaBB shakllarining har birida rang uchun kerakli ikkinchi dominant allel yo‘q. Ular chatishtirilganda AaBb birinchi avlod ikkala zarur allelni oladi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-53-q4",
+      "fact_id": "paragraph-53-f4",
+      "question_text": "Ikkala dominant gen zarur bo‘lgan komplementar F2ning rangli:rangsiz nisbati qaysi?",
+      "options": [
+        "3:1",
+        "1:2:1",
+        "13:3",
+        "9:7"
+      ],
+      "correct_answer": "9:7",
+      "explanation": "A va Bning ikkalasi kerak bo‘lgan modelda AaBb × AaBb avlodining A_B_ qismi 9/16, qolganlari 7/16 bo‘ladi."
+    },
+    {
+      "key": "paragraph-53-q5",
+      "fact_id": "paragraph-53-f5",
+      "question_text": "Bir gen boshqa lokusdagi rang genining namoyon bo‘lishini to‘sdi. Bu qanday o‘zaro ta’sir?",
+      "options": [
+        "Faqat komplementar to‘ldirish",
+        "Faqat DNKning ikki hissa ortishi",
+        "Epistaz",
+        "Faqat bitta lokus dominantligi"
+      ],
+      "correct_answer": "Epistaz",
+      "explanation": "Epistazda bir lokusdagi allel boshqa lokus genining fenotipik ta’sirini to‘sishi yoki o‘zgartirishi mumkin. Bu bir lokusdagi dominantlik bilan aynan bir xil emas."
+    },
+    {
+      "key": "paragraph-53-q6",
+      "fact_id": "paragraph-53-f6",
+      "question_text": "I inhibitor, C rang alleli bo‘lsa, IiCc modelida pat qanday?",
+      "options": [
+        "Faqat oraliq pushti",
+        "Oq",
+        "Albatta rangli",
+        "Albatta yashil"
+      ],
+      "correct_answer": "Oq",
+      "explanation": "Tovuq rangi modelida I alleli C rang genining namoyon bo‘lishini to‘sadi. I_ bo‘lganida C mavjudligi o‘zi rang uchun yetmaydi."
+    },
+    {
+      "key": "paragraph-53-q7",
+      "fact_id": "paragraph-53-f7",
+      "question_text": "Inhibitor modelida qaysi genotip rangli pat beradi?",
+      "options": [
+        "iiCc",
+        "IiCc",
+        "IICC",
+        "iicc"
+      ],
+      "correct_answer": "iiCc",
+      "explanation": "Xuddi shu inhibitor modelida rang uchun ii va kamida bitta C kerak. iiCC ham iiCc ham rangli, iicc esa rangsizdir.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-53-q8",
+      "fact_id": "paragraph-53-f8",
+      "question_text": "Ushbu inhibitor modelidagi F2 oq:rangli nisbati qaysi?",
+      "options": [
+        "9:7",
+        "9:3:3:1",
+        "1:2:1",
+        "13:3"
+      ],
+      "correct_answer": "13:3",
+      "explanation": "IiCc × IiCc inhibitor modelida rangli iiC_ ulushi 3/16 bo‘lib, oq ulush 13/16dir. Har qanday epistaz bir xil nisbat bermaydi."
+    }
+  ]
+}

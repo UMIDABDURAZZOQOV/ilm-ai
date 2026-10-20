@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-45-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-56",
+  "title": "Embrion rivojlanishiga tashqi muhitning ta’siri",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-45-f1": {
+      "claim": "Embrion tashqi muhit omillari o‘zgarishiga sezgir bo‘lishi mumkin. Ta’sir rivojlanish bosqichi va sharoit bilan bog‘liq.",
+      "answer": "Rivojlanish bosqichi va ta’sir sharoitini",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f2": {
+      "claim": "Alkogol, tamaki tutuni va giyohvand moddalar homila rivojlanishiga zarar yetkazishi mumkin. Bu xavfni tushuntirish insonni ayblash yoki tashxis qo‘yish degani emas.",
+      "answer": "Alkogol va tamaki ta’siridan saqlanish muhim",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f3": {
+      "claim": "Harorat, yorug‘lik, namlik va kislorod ta’minoti rivojlanish sur’atiga ta’sir qiladigan abiotik omillardir.",
+      "answer": "Harorat, namlik va kislorod",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f4": {
+      "claim": "Gomeostaz tashqi o‘zgarishlar fonida ichki muhitni nisbatan barqaror saqlashdir. Bu barcha ko‘rsatkichlar hech qachon o‘zgarmaydi degani emas.",
+      "answer": "Ichki muhitning nisbiy barqarorligini boshqarish",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f5": {
+      "claim": "Regeneratsiya shikastlangan yoki eskirgan hujayra va to‘qimalarning qayta tiklanishidir. Uning imkoniyatlari turli to‘qimalarda bir xil emas.",
+      "answer": "Regeneratsiya",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-45-f6": {
+      "claim": "Anabiozda noqulay sharoitga javoban hayotiy jarayonlar va moddalar almashinuvi keskin sekinlashadi. Bu organizmning odatiy faol holati bilan bir xil emas.",
+      "answer": "Anabioz",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Muhitga sezgir rivojlanish",
+      "body": "Embrion tashqi muhit omillari o‘zgarishiga sezgir bo‘lishi mumkin. Ta’sir rivojlanish bosqichi va sharoit bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-45-f1"
+      ]
+    },
+    {
+      "title": "Zararli ta’sirlardan saqlanish",
+      "body": "Alkogol, tamaki tutuni va giyohvand moddalar homila rivojlanishiga zarar yetkazishi mumkin. Bu xavfni tushuntirish insonni ayblash yoki tashxis qo‘yish degani emas.",
+      "fact_ids": [
+        "paragraph-45-f2"
+      ]
+    },
+    {
+      "title": "Abiotik omillar",
+      "body": "Harorat, yorug‘lik, namlik va kislorod ta’minoti rivojlanish sur’atiga ta’sir qiladigan abiotik omillardir.",
+      "fact_ids": [
+        "paragraph-45-f3"
+      ]
+    },
+    {
+      "title": "Gomeostaz",
+      "body": "Gomeostaz tashqi o‘zgarishlar fonida ichki muhitni nisbatan barqaror saqlashdir. Bu barcha ko‘rsatkichlar hech qachon o‘zgarmaydi degani emas.",
+      "fact_ids": [
+        "paragraph-45-f4"
+      ]
+    },
+    {
+      "title": "Tiklanish",
+      "body": "Regeneratsiya shikastlangan yoki eskirgan hujayra va to‘qimalarning qayta tiklanishidir. Uning imkoniyatlari turli to‘qimalarda bir xil emas.",
+      "fact_ids": [
+        "paragraph-45-f5"
+      ]
+    },
+    {
+      "title": "Anabioz",
+      "body": "Anabiozda noqulay sharoitga javoban hayotiy jarayonlar va moddalar almashinuvi keskin sekinlashadi. Bu organizmning odatiy faol holati bilan bir xil emas.",
+      "fact_ids": [
+        "paragraph-45-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-45-q1",
+      "fact_id": "paragraph-45-f1",
+      "question_text": "Embrion rivojlanishiga muhit ta’sirini baholashda nimani hisobga olish kerak?",
+      "options": [
+        "Faqat organizm nomining uzunligini",
+        "Faqat ota-onaning familiyasini",
+        "Rivojlanish bosqichi va ta’sir sharoitini",
+        "Faqat kitob muqovasining rangini"
+      ],
+      "correct_answer": "Rivojlanish bosqichi va ta’sir sharoitini",
+      "explanation": "Embrion tashqi muhit omillari o‘zgarishiga sezgir bo‘lishi mumkin. Ta’sir rivojlanish bosqichi va sharoit bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-45-q2",
+      "fact_id": "paragraph-45-f2",
+      "question_text": "Homila rivojlanishi haqidagi asosli sog‘liq xabari qaysi?",
+      "options": [
+        "Zararli ta’sir hech qachon ahamiyatli emas",
+        "Alkogol va tamaki ta’siridan saqlanish muhim",
+        "Tamaki embrion uchun foydali oziq",
+        "Alkogol har qanday rivojlanishni yaxshilaydi"
+      ],
+      "correct_answer": "Alkogol va tamaki ta’siridan saqlanish muhim",
+      "explanation": "Alkogol, tamaki tutuni va giyohvand moddalar homila rivojlanishiga zarar yetkazishi mumkin. Bu xavfni tushuntirish insonni ayblash yoki tashxis qo‘yish degani emas."
+    },
+    {
+      "key": "paragraph-45-q3",
+      "fact_id": "paragraph-45-f3",
+      "question_text": "Qaysi qatorda rivojlanishga ta’sir qiluvchi abiotik omillar bor?",
+      "options": [
+        "Harorat, namlik va kislorod",
+        "Faqat yirtqich va o‘lja",
+        "Faqat gen va allel",
+        "Faqat oqsil va ribosoma"
+      ],
+      "correct_answer": "Harorat, namlik va kislorod",
+      "explanation": "Harorat, yorug‘lik, namlik va kislorod ta’minoti rivojlanish sur’atiga ta’sir qiladigan abiotik omillardir."
+    },
+    {
+      "key": "paragraph-45-q4",
+      "fact_id": "paragraph-45-f4",
+      "question_text": "Gomeostazni to‘g‘ri ifodalagan javob qaysi?",
+      "options": [
+        "Tashqi muhitning hech o‘zgarmasligi",
+        "Organizmda modda almashmasligi",
+        "Haroratning har qanday qiymatini o‘zgarmay qabul qilish",
+        "Ichki muhitning nisbiy barqarorligini boshqarish"
+      ],
+      "correct_answer": "Ichki muhitning nisbiy barqarorligini boshqarish",
+      "explanation": "Gomeostaz tashqi o‘zgarishlar fonida ichki muhitni nisbatan barqaror saqlashdir. Bu barcha ko‘rsatkichlar hech qachon o‘zgarmaydi degani emas."
+    },
+    {
+      "key": "paragraph-45-q5",
+      "fact_id": "paragraph-45-f5",
+      "question_text": "Shikastlangan to‘qimaning qayta tiklanishi qaysi atamaga mos?",
+      "options": [
+        "Faqat krossingover",
+        "Faqat nitrifikatsiya",
+        "Regeneratsiya",
+        "Faqat gametogenez"
+      ],
+      "correct_answer": "Regeneratsiya",
+      "explanation": "Regeneratsiya shikastlangan yoki eskirgan hujayra va to‘qimalarning qayta tiklanishidir. Uning imkoniyatlari turli to‘qimalarda bir xil emas."
+    },
+    {
+      "key": "paragraph-45-q6",
+      "fact_id": "paragraph-45-f6",
+      "question_text": "Noqulay muhitda moddalar almashinuvining juda sekinlashgan holati qanday ataladi?",
+      "options": [
+        "Tezkor translyatsiya",
+        "Anabioz",
+        "Faol organogenez",
+        "Jadal fotosintez"
+      ],
+      "correct_answer": "Anabioz",
+      "explanation": "Anabiozda noqulay sharoitga javoban hayotiy jarayonlar va moddalar almashinuvi keskin sekinlashadi. Bu organizmning odatiy faol holati bilan bir xil emas."
+    }
+  ]
+}

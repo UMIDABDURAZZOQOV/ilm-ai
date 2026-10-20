@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-40-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-51",
+  "title": "Tirik organizmlarning ko‘payish xillari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-40-f1": {
+      "claim": "Jinssiz ko‘payishda yangi organizm odatda bitta ota-ona hujayrasi yoki uning qismidan rivojlanadi. Gametalar qo‘shilishi talab qilinmaydi.",
+      "answer": "Gametalar qo‘shilmasdan yangi organizm hosil bo‘lishi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f2": {
+      "claim": "Amyoba, yashil evglena va tufelka kabi bir hujayralilar ikkiga bo‘linib ko‘payishi mumkin.",
+      "answer": "Ikkiga bo‘linish",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f3": {
+      "claim": "Shizogoniyada yadro bir necha marta bo‘linadi, keyin sitoplazma ajralib ko‘plab yangi hujayralar hosil bo‘ladi.",
+      "answer": "Shizogoniya",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f4": {
+      "claim": "Achitqi zamburug‘ida ona hujayrada kichik kurtak paydo bo‘lib, o‘sadi va ajralishi mumkin. Bu ikkiga teng bo‘linishdan farq qiladi.",
+      "answer": "Kurtaklanish",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f5": {
+      "claim": "Qalamcha, tugunak, piyozbosh va ildizpoya orqali ko‘payish vegetativ usullardir. Bunda gul urug‘lanishi shart emas.",
+      "answer": "Vegetativ jinssiz ko‘payishga",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f6": {
+      "claim": "Gidra tanasidagi kurtak o‘sib, paypaslagich va og‘iz hosil qiladi; keyin alohida organizmga aylanishi mumkin.",
+      "answer": "Ko‘p hujayralilarda kurtaklanishga",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f7": {
+      "claim": "Ayrim organizmlarda tana bo‘lagi yangi individga rivojlanishi mumkin. Darslik planariya va ipsimon suvo‘tlarni misol qiladi; bu har bir hayvonga tegishli qoida emas.",
+      "answer": "Bo‘laklanib ko‘payish",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          106
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-40-f8": {
+      "claim": "Jinssiz ko‘payish odatda ota-onaga juda o‘xshash avlod beradi va tanlangan belgilarni ko‘paytirishda qo‘llanadi. Mutatsiya bo‘lishi mumkinligi sabab mutlaq o‘zgarmaslikni da’vo qilmaymiz.",
+      "answer": "Ota-onaning belgilariga juda o‘xshash avlod olish mumkin",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          106
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Jinssiz ko‘payish",
+      "body": "Jinssiz ko‘payishda yangi organizm odatda bitta ota-ona hujayrasi yoki uning qismidan rivojlanadi. Gametalar qo‘shilishi talab qilinmaydi.",
+      "fact_ids": [
+        "paragraph-40-f1"
+      ]
+    },
+    {
+      "title": "Ikkiga bo‘linish",
+      "body": "Amyoba, yashil evglena va tufelka kabi bir hujayralilar ikkiga bo‘linib ko‘payishi mumkin.",
+      "fact_ids": [
+        "paragraph-40-f2"
+      ]
+    },
+    {
+      "title": "Ko‘p bo‘linish",
+      "body": "Shizogoniyada yadro bir necha marta bo‘linadi, keyin sitoplazma ajralib ko‘plab yangi hujayralar hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-40-f3"
+      ]
+    },
+    {
+      "title": "Kurtaklanish",
+      "body": "Achitqi zamburug‘ida ona hujayrada kichik kurtak paydo bo‘lib, o‘sadi va ajralishi mumkin. Bu ikkiga teng bo‘linishdan farq qiladi.",
+      "fact_ids": [
+        "paragraph-40-f4"
+      ]
+    },
+    {
+      "title": "Vegetativ organlar",
+      "body": "Qalamcha, tugunak, piyozbosh va ildizpoya orqali ko‘payish vegetativ usullardir. Bunda gul urug‘lanishi shart emas.",
+      "fact_ids": [
+        "paragraph-40-f5"
+      ]
+    },
+    {
+      "title": "Gidra kurtagi",
+      "body": "Gidra tanasidagi kurtak o‘sib, paypaslagich va og‘iz hosil qiladi; keyin alohida organizmga aylanishi mumkin.",
+      "fact_ids": [
+        "paragraph-40-f6"
+      ]
+    },
+    {
+      "title": "Parchadan yangi organizm",
+      "body": "Ayrim organizmlarda tana bo‘lagi yangi individga rivojlanishi mumkin. Darslik planariya va ipsimon suvo‘tlarni misol qiladi; bu har bir hayvonga tegishli qoida emas.",
+      "fact_ids": [
+        "paragraph-40-f7"
+      ]
+    },
+    {
+      "title": "Irsiy o‘xshashlik",
+      "body": "Jinssiz ko‘payish odatda ota-onaga juda o‘xshash avlod beradi va tanlangan belgilarni ko‘paytirishda qo‘llanadi. Mutatsiya bo‘lishi mumkinligi sabab mutlaq o‘zgarmaslikni da’vo qilmaymiz.",
+      "fact_ids": [
+        "paragraph-40-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-40-q1",
+      "fact_id": "paragraph-40-f1",
+      "question_text": "Jinssiz ko‘payishni ajratadigan belgi qaysi?",
+      "options": [
+        "Har doim zigota hosil bo‘lishi",
+        "Faqat meyozning ikkinchi bo‘linishi",
+        "Gametalar qo‘shilmasdan yangi organizm hosil bo‘lishi",
+        "Har doim ikkita gameta birlashishi"
+      ],
+      "correct_answer": "Gametalar qo‘shilmasdan yangi organizm hosil bo‘lishi",
+      "explanation": "Jinssiz ko‘payishda yangi organizm odatda bitta ota-ona hujayrasi yoki uning qismidan rivojlanadi. Gametalar qo‘shilishi talab qilinmaydi."
+    },
+    {
+      "key": "paragraph-40-q2",
+      "fact_id": "paragraph-40-f2",
+      "question_text": "Bir hujayrali organizmning ikki yangi organizmga ajralishi qaysi usul?",
+      "options": [
+        "Faqat changlanish",
+        "Ikkiga bo‘linish",
+        "Qo‘sh urug‘lanish",
+        "Faqat kurtaklanish"
+      ],
+      "correct_answer": "Ikkiga bo‘linish",
+      "explanation": "Amyoba, yashil evglena va tufelka kabi bir hujayralilar ikkiga bo‘linib ko‘payishi mumkin."
+    },
+    {
+      "key": "paragraph-40-q3",
+      "fact_id": "paragraph-40-f3",
+      "question_text": "Avval yadro ko‘p marta, keyin sitoplazma bo‘linadigan usul qaysi?",
+      "options": [
+        "Shizogoniya",
+        "Faqat ikki gametaning qo‘shilishi",
+        "Faqat piyozboshdan ko‘payish",
+        "Faqat oddiy kurtaklanish"
+      ],
+      "correct_answer": "Shizogoniya",
+      "explanation": "Shizogoniyada yadro bir necha marta bo‘linadi, keyin sitoplazma ajralib ko‘plab yangi hujayralar hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-40-q4",
+      "fact_id": "paragraph-40-f4",
+      "question_text": "Achitqi hujayrasidagi kichik bo‘rtma o‘sib yangi hujayraga aylandi. Usulni toping.",
+      "options": [
+        "Meyoz",
+        "Urug‘lanish",
+        "Changlanish",
+        "Kurtaklanish"
+      ],
+      "correct_answer": "Kurtaklanish",
+      "explanation": "Achitqi zamburug‘ida ona hujayrada kichik kurtak paydo bo‘lib, o‘sadi va ajralishi mumkin. Bu ikkiga teng bo‘linishdan farq qiladi."
+    },
+    {
+      "key": "paragraph-40-q5",
+      "fact_id": "paragraph-40-f5",
+      "question_text": "Tokni qalamchadan ko‘paytirish qaysi turga kiradi?",
+      "options": [
+        "Faqat qo‘sh urug‘lanishga",
+        "Faqat spora bilan ko‘payishga",
+        "Vegetativ jinssiz ko‘payishga",
+        "Faqat jinsiy ko‘payishga"
+      ],
+      "correct_answer": "Vegetativ jinssiz ko‘payishga",
+      "explanation": "Qalamcha, tugunak, piyozbosh va ildizpoya orqali ko‘payish vegetativ usullardir. Bunda gul urug‘lanishi shart emas."
+    },
+    {
+      "key": "paragraph-40-q6",
+      "fact_id": "paragraph-40-f6",
+      "question_text": "Gidra tanasidan o‘sib chiqqan yosh individning hosil bo‘lishi nimaga misol?",
+      "options": [
+        "Faqat DNKning erkin tarqalishiga",
+        "Ko‘p hujayralilarda kurtaklanishga",
+        "Faqat ikkita gameta qo‘shilishiga",
+        "Faqat chang naychasiga"
+      ],
+      "correct_answer": "Ko‘p hujayralilarda kurtaklanishga",
+      "explanation": "Gidra tanasidagi kurtak o‘sib, paypaslagich va og‘iz hosil qiladi; keyin alohida organizmga aylanishi mumkin."
+    },
+    {
+      "key": "paragraph-40-q7",
+      "fact_id": "paragraph-40-f7",
+      "question_text": "Mos organizmning tana bo‘lagidan yangi individ rivojlanishi qaysi hodisa?",
+      "options": [
+        "Bo‘laklanib ko‘payish",
+        "Faqat gametogenez",
+        "Faqat urug‘lanish",
+        "Faqat meyoz"
+      ],
+      "correct_answer": "Bo‘laklanib ko‘payish",
+      "explanation": "Ayrim organizmlarda tana bo‘lagi yangi individga rivojlanishi mumkin. Darslik planariya va ipsimon suvo‘tlarni misol qiladi; bu har bir hayvonga tegishli qoida emas."
+    },
+    {
+      "key": "paragraph-40-q8",
+      "fact_id": "paragraph-40-f8",
+      "question_text": "Vegetativ ko‘paytirish tanlangan navni saqlashda nega foydali?",
+      "options": [
+        "Har avlodda belgilar albatta butunlay almashadi",
+        "Har safar ikki yangi ota-ona kerak",
+        "Har safar xromosomalar yo‘qoladi",
+        "Ota-onaning belgilariga juda o‘xshash avlod olish mumkin"
+      ],
+      "correct_answer": "Ota-onaning belgilariga juda o‘xshash avlod olish mumkin",
+      "explanation": "Jinssiz ko‘payish odatda ota-onaga juda o‘xshash avlod beradi va tanlangan belgilarni ko‘paytirishda qo‘llanadi. Mutatsiya bo‘lishi mumkinligi sabab mutlaq o‘zgarmaslikni da’vo qilmaymiz."
+    }
+  ]
+}

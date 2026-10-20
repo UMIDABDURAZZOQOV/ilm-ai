@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-48-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-61",
+  "title": "G.Mendel qonunlari. Monoduragay chatishtirish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-48-f1": {
+      "claim": "Monoduragay chatishtirishda bitta juft qarama-qarshi belgi irsiylanishi kuzatiladi. Boshqa belgilar bir paytda ko‘rilayotgan bo‘lsa, model shartini aniqlash kerak.",
+      "answer": "Monoduragay",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f2": {
+      "claim": "AA va aa bitta lokus bo‘yicha gomozigot, Aa esa geterozigotdir. Katta-kichik harf allellarning modeldagi variantlarini bildiradi.",
+      "answer": "Aa",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f3": {
+      "claim": "To‘liq dominantlik modelida AA × aa chatishtirishidan F1ning barchasi Aa bo‘lib, dominant fenotipni namoyon qiladi.",
+      "answer": "Barchasi Aa",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f4": {
+      "claim": "Aa × Aa chatishtirishida kutiladigan genotip nisbati AA:Aa:aa = 1:2:1. Bu katta tanlamadagi ehtimoliy nisbatdir.",
+      "answer": "1 AA : 2 Aa : 1 aa",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f5": {
+      "claim": "To‘liq dominantlik va Aa × Aa shartida dominant fenotip 3/4, retsessiv fenotip 1/4 ehtimolga ega. Buni har bir kichik oiladagi majburiy son deb tushunmang.",
+      "answer": "1/4",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f6": {
+      "claim": "Nomozshomgul modelida qizil AA va oq aa chatishtirilganda pushti Aa avlod olinadi. Geterozigot oraliq fenotip ko‘rsatadi.",
+      "answer": "Pushti",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f7": {
+      "claim": "Chala dominantlikda Aa × Aa avlodining fenotipi ham genotipi kabi 1:2:1 nisbatda ajraladi. To‘liq dominantlikdagi 3:1 bunda qo‘llanmaydi.",
+      "answer": "1 qizil : 2 pushti : 1 oq",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f8": {
+      "claim": "Dominant fenotipli noaniq genotip retsessiv aa bilan chatishtiriladi. Aa × aa uchun avlodning yarmi Aa, yarmi aa bo‘lishi kutiladi.",
+      "answer": "1 Aa : 1 aa",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f9": {
+      "claim": "Odatdagi diploid modelda gameta bitta lokusning allel juftidan bittasini oladi. Aa individ A yoki a gameta hosil qiladi, Aa gameta emas.",
+      "answer": "A yoki a, har bir gametada bittadan",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-48-f10": {
+      "claim": "Bir genning allellari gomolog xromosomalarning mos joylarida bo‘ladi. Meyozda ularning ajralishi Mendelcha ajralishning sitologik asosidir.",
+      "answer": "Meyozda gomologlarning ajralishi",
+      "source": {
+        "paragraph": 48,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Monoduragay sharti",
+      "body": "Monoduragay chatishtirishda bitta juft qarama-qarshi belgi irsiylanishi kuzatiladi. Boshqa belgilar bir paytda ko‘rilayotgan bo‘lsa, model shartini aniqlash kerak.",
+      "fact_ids": [
+        "paragraph-48-f1"
+      ]
+    },
+    {
+      "title": "Genotiplarni ajrating",
+      "body": "AA va aa bitta lokus bo‘yicha gomozigot, Aa esa geterozigotdir. Katta-kichik harf allellarning modeldagi variantlarini bildiradi.",
+      "fact_ids": [
+        "paragraph-48-f2"
+      ]
+    },
+    {
+      "title": "Birinchi avlod bir xilligi",
+      "body": "To‘liq dominantlik modelida AA × aa chatishtirishidan F1ning barchasi Aa bo‘lib, dominant fenotipni namoyon qiladi.",
+      "fact_ids": [
+        "paragraph-48-f3"
+      ]
+    },
+    {
+      "title": "Ajralish — genotip",
+      "body": "Aa × Aa chatishtirishida kutiladigan genotip nisbati AA:Aa:aa = 1:2:1. Bu katta tanlamadagi ehtimoliy nisbatdir.",
+      "fact_ids": [
+        "paragraph-48-f4"
+      ]
+    },
+    {
+      "title": "Ajralish — fenotip",
+      "body": "To‘liq dominantlik va Aa × Aa shartida dominant fenotip 3/4, retsessiv fenotip 1/4 ehtimolga ega. Buni har bir kichik oiladagi majburiy son deb tushunmang.",
+      "fact_ids": [
+        "paragraph-48-f5"
+      ]
+    },
+    {
+      "title": "Chala dominantlik",
+      "body": "Nomozshomgul modelida qizil AA va oq aa chatishtirilganda pushti Aa avlod olinadi. Geterozigot oraliq fenotip ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-48-f6"
+      ]
+    },
+    {
+      "title": "Fenotip nisbati o‘zgaradi",
+      "body": "Chala dominantlikda Aa × Aa avlodining fenotipi ham genotipi kabi 1:2:1 nisbatda ajraladi. To‘liq dominantlikdagi 3:1 bunda qo‘llanmaydi.",
+      "fact_ids": [
+        "paragraph-48-f7"
+      ]
+    },
+    {
+      "title": "Tahliliy chatishtirish",
+      "body": "Dominant fenotipli noaniq genotip retsessiv aa bilan chatishtiriladi. Aa × aa uchun avlodning yarmi Aa, yarmi aa bo‘lishi kutiladi.",
+      "fact_ids": [
+        "paragraph-48-f8"
+      ]
+    },
+    {
+      "title": "Gametalar sofligi",
+      "body": "Odatdagi diploid modelda gameta bitta lokusning allel juftidan bittasini oladi. Aa individ A yoki a gameta hosil qiladi, Aa gameta emas.",
+      "fact_ids": [
+        "paragraph-48-f9"
+      ]
+    },
+    {
+      "title": "Allel joylashuvi",
+      "body": "Bir genning allellari gomolog xromosomalarning mos joylarida bo‘ladi. Meyozda ularning ajralishi Mendelcha ajralishning sitologik asosidir.",
+      "fact_ids": [
+        "paragraph-48-f10"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-48-q1",
+      "fact_id": "paragraph-48-f1",
+      "question_text": "Faqat urug‘ning sariq-yashil rang jufti kuzatilsa, qaysi chatishtirish modeli qo‘llanadi?",
+      "options": [
+        "Triduragay",
+        "Faqat polimer",
+        "Monoduragay",
+        "Diduragay"
+      ],
+      "correct_answer": "Monoduragay",
+      "explanation": "Monoduragay chatishtirishda bitta juft qarama-qarshi belgi irsiylanishi kuzatiladi. Boshqa belgilar bir paytda ko‘rilayotgan bo‘lsa, model shartini aniqlash kerak."
+    },
+    {
+      "key": "paragraph-48-q2",
+      "fact_id": "paragraph-48-f2",
+      "question_text": "Bitta lokus bo‘yicha geterozigot genotipni toping.",
+      "options": [
+        "BB",
+        "Aa",
+        "AA",
+        "aa"
+      ],
+      "correct_answer": "Aa",
+      "explanation": "AA va aa bitta lokus bo‘yicha gomozigot, Aa esa geterozigotdir. Katta-kichik harf allellarning modeldagi variantlarini bildiradi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-48-q3",
+      "fact_id": "paragraph-48-f3",
+      "question_text": "AA × aa to‘liq dominantlik modelida F1 genotipi qaysi?",
+      "options": [
+        "Barchasi Aa",
+        "Barchasi AA",
+        "Barchasi aa",
+        "Yarmi AA, yarmi aa"
+      ],
+      "correct_answer": "Barchasi Aa",
+      "explanation": "To‘liq dominantlik modelida AA × aa chatishtirishidan F1ning barchasi Aa bo‘lib, dominant fenotipni namoyon qiladi.",
+      "answer_format": "genotype"
+    },
+    {
+      "key": "paragraph-48-q4",
+      "fact_id": "paragraph-48-f4",
+      "question_text": "Aa × Aa uchun genotiplar nisbati qanday?",
+      "options": [
+        "3 AA : 1 aa",
+        "Faqat Aa",
+        "1 AA : 1 Aa",
+        "1 AA : 2 Aa : 1 aa"
+      ],
+      "correct_answer": "1 AA : 2 Aa : 1 aa",
+      "explanation": "Aa × Aa chatishtirishida kutiladigan genotip nisbati AA:Aa:aa = 1:2:1. Bu katta tanlamadagi ehtimoliy nisbatdir."
+    },
+    {
+      "key": "paragraph-48-q5",
+      "fact_id": "paragraph-48-f5",
+      "question_text": "Aa × Aa to‘liq dominantlik modelida retsessiv fenotip ehtimoli qancha?",
+      "options": [
+        "3/4",
+        "1",
+        "1/4",
+        "1/2"
+      ],
+      "correct_answer": "1/4",
+      "explanation": "To‘liq dominantlik va Aa × Aa shartida dominant fenotip 3/4, retsessiv fenotip 1/4 ehtimolga ega. Buni har bir kichik oiladagi majburiy son deb tushunmang."
+    },
+    {
+      "key": "paragraph-48-q6",
+      "fact_id": "paragraph-48-f6",
+      "question_text": "Nomozshomgulning AA qizil × aa oq modelida F1 qanday rangli?",
+      "options": [
+        "Sariq",
+        "Pushti",
+        "Faqat qizil",
+        "Faqat oq"
+      ],
+      "correct_answer": "Pushti",
+      "explanation": "Nomozshomgul modelida qizil AA va oq aa chatishtirilganda pushti Aa avlod olinadi. Geterozigot oraliq fenotip ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-48-q7",
+      "fact_id": "paragraph-48-f7",
+      "question_text": "Pushti Aa × pushti Aa nomozshomgul modelida ranglar nisbati qaysi?",
+      "options": [
+        "1 qizil : 2 pushti : 1 oq",
+        "3 qizil : 1 oq",
+        "Faqat pushti",
+        "1 qizil : 1 oq"
+      ],
+      "correct_answer": "1 qizil : 2 pushti : 1 oq",
+      "explanation": "Chala dominantlikda Aa × Aa avlodining fenotipi ham genotipi kabi 1:2:1 nisbatda ajraladi. To‘liq dominantlikdagi 3:1 bunda qo‘llanmaydi."
+    },
+    {
+      "key": "paragraph-48-q8",
+      "fact_id": "paragraph-48-f8",
+      "question_text": "Aa × aa tahliliy chatishtirishida genotiplar qanday ajraladi?",
+      "options": [
+        "1 AA : 2 Aa : 1 aa",
+        "Barchasi AA",
+        "3 Aa : 1 aa",
+        "1 Aa : 1 aa"
+      ],
+      "correct_answer": "1 Aa : 1 aa",
+      "explanation": "Dominant fenotipli noaniq genotip retsessiv aa bilan chatishtiriladi. Aa × aa uchun avlodning yarmi Aa, yarmi aa bo‘lishi kutiladi."
+    },
+    {
+      "key": "paragraph-48-q9",
+      "fact_id": "paragraph-48-f9",
+      "question_text": "Aa individning odatdagi gametalarida qaysi allellar bo‘ladi?",
+      "options": [
+        "Faqat AA",
+        "Faqat aa jufti",
+        "A yoki a, har bir gametada bittadan",
+        "Har birida Aa birga"
+      ],
+      "correct_answer": "A yoki a, har bir gametada bittadan",
+      "explanation": "Odatdagi diploid modelda gameta bitta lokusning allel juftidan bittasini oladi. Aa individ A yoki a gameta hosil qiladi, Aa gameta emas."
+    },
+    {
+      "key": "paragraph-48-q10",
+      "fact_id": "paragraph-48-f10",
+      "question_text": "Allel juftining gametalarga ajralishini qaysi jarayon tushuntiradi?",
+      "options": [
+        "Faqat kraxmal yig‘ilishi",
+        "Meyozda gomologlarning ajralishi",
+        "Faqat vakuolaning kattalashishi",
+        "Faqat Golji pufakchalari"
+      ],
+      "correct_answer": "Meyozda gomologlarning ajralishi",
+      "explanation": "Bir genning allellari gomolog xromosomalarning mos joylarida bo‘ladi. Meyozda ularning ajralishi Mendelcha ajralishning sitologik asosidir."
+    }
+  ]
+}

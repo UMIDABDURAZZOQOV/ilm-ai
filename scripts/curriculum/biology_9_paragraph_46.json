@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-46-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-57",
+  "title": "Rivojlanishning umumiy qonuniyatlari. Biogenetik qonun. Embrionlarning o‘xshashlik qonuni",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-46-f1": {
+      "claim": "Qarindosh umurtqalilar embrionlarida umumiy tuzilish belgilari kuzatiladi. Bu o‘xshashliklarni kattalardagi organlar bilan aynan bir xil deb qabul qilmaslik kerak.",
+      "answer": "Rivojlanish va qarindoshlik aloqalarini",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f2": {
+      "claim": "K. Ber embrionlarda umumiy guruh belgilarining keyinchalik xususiy belgilar bilan farqlanishini ta’kidlagan. Bu barcha bosqichlar teng yoki bir xil degani emas.",
+      "answer": "Embrionlarning umumiy belgilaridagi o‘xshashlik",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f3": {
+      "claim": "Rivojlanish davomida guruh, tur va individga xos farqlar namoyon bo‘ladi. Belgilarning shunday ajralib borishi embrional divergensiya deb ataladi.",
+      "answer": "Embrional divergensiya",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f4": {
+      "claim": "Ontogenez individ rivojlanishini, filogenez esa guruhning tarixiy-evolutsion rivojlanishini anglatadi. Ularning vaqt ko‘lami va o‘rganish obyekti boshqa-boshqadir.",
+      "answer": "Individ rivojlanishi va guruhning evolutsion tarixi",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-46-f5": {
+      "claim": "Darslik Myuller va Gekkel nomini ontogenez-filogenez aloqasi haqidagi tarixiy biogenetik qarash bilan bog‘laydi. Embrion ketma-ket voyaga yetgan ajdod turlariga aylanadi degan literal talqin qo‘llanmaydi.",
+      "answer": "Tarixiy evolutsion g‘oya sifatida, embrionni kattalarning ketma-ket nusxasi demasdan",
+      "source": {
+        "paragraph": 46,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Embrionlarni taqqoslash",
+      "body": "Qarindosh umurtqalilar embrionlarida umumiy tuzilish belgilari kuzatiladi. Bu o‘xshashliklarni kattalardagi organlar bilan aynan bir xil deb qabul qilmaslik kerak.",
+      "fact_ids": [
+        "paragraph-46-f1"
+      ]
+    },
+    {
+      "title": "Ber qonuniyati",
+      "body": "K. Ber embrionlarda umumiy guruh belgilarining keyinchalik xususiy belgilar bilan farqlanishini ta’kidlagan. Bu barcha bosqichlar teng yoki bir xil degani emas.",
+      "fact_ids": [
+        "paragraph-46-f2"
+      ]
+    },
+    {
+      "title": "Embrional divergensiya",
+      "body": "Rivojlanish davomida guruh, tur va individga xos farqlar namoyon bo‘ladi. Belgilarning shunday ajralib borishi embrional divergensiya deb ataladi.",
+      "fact_ids": [
+        "paragraph-46-f3"
+      ]
+    },
+    {
+      "title": "Ikki rivojlanish tushunchasi",
+      "body": "Ontogenez individ rivojlanishini, filogenez esa guruhning tarixiy-evolutsion rivojlanishini anglatadi. Ularning vaqt ko‘lami va o‘rganish obyekti boshqa-boshqadir.",
+      "fact_ids": [
+        "paragraph-46-f4"
+      ]
+    },
+    {
+      "title": "Biogenetik qarash tarixi",
+      "body": "Darslik Myuller va Gekkel nomini ontogenez-filogenez aloqasi haqidagi tarixiy biogenetik qarash bilan bog‘laydi. Embrion ketma-ket voyaga yetgan ajdod turlariga aylanadi degan literal talqin qo‘llanmaydi.",
+      "fact_ids": [
+        "paragraph-46-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-46-q1",
+      "fact_id": "paragraph-46-f1",
+      "question_text": "Umurtqali embrionlarining umumiy belgilarini taqqoslash nimani o‘rganishga yordam beradi?",
+      "options": [
+        "Bir tur har safar boshqa turga aylanishini",
+        "Har bir embrion kattasiga boshidan aynan o‘xshashligini",
+        "Rivojlanish va qarindoshlik aloqalarini",
+        "Barcha embrionlar mutlaqo bir xil ekanini"
+      ],
+      "correct_answer": "Rivojlanish va qarindoshlik aloqalarini",
+      "explanation": "Qarindosh umurtqalilar embrionlarida umumiy tuzilish belgilari kuzatiladi. Bu o‘xshashliklarni kattalardagi organlar bilan aynan bir xil deb qabul qilmaslik kerak."
+    },
+    {
+      "key": "paragraph-46-q2",
+      "fact_id": "paragraph-46-f2",
+      "question_text": "Darslik K. Ber nomini qaysi kuzatuv bilan bog‘laydi?",
+      "options": [
+        "Faqat nitrifikatsiya bosqichlari",
+        "Embrionlarning umumiy belgilaridagi o‘xshashlik",
+        "Faqat Mendelning ajralish nisbati",
+        "Faqat hujayra devorining tarkibi"
+      ],
+      "correct_answer": "Embrionlarning umumiy belgilaridagi o‘xshashlik",
+      "explanation": "K. Ber embrionlarda umumiy guruh belgilarining keyinchalik xususiy belgilar bilan farqlanishini ta’kidlagan. Bu barcha bosqichlar teng yoki bir xil degani emas."
+    },
+    {
+      "key": "paragraph-46-q3",
+      "fact_id": "paragraph-46-f3",
+      "question_text": "Rivojlanishda embrionlar belgilarining farqlanib borishi qanday ataladi?",
+      "options": [
+        "Embrional divergensiya",
+        "Faqat replikatsiya",
+        "Faqat plazmoliz",
+        "Faqat sentrifugalash"
+      ],
+      "correct_answer": "Embrional divergensiya",
+      "explanation": "Rivojlanish davomida guruh, tur va individga xos farqlar namoyon bo‘ladi. Belgilarning shunday ajralib borishi embrional divergensiya deb ataladi."
+    },
+    {
+      "key": "paragraph-46-q4",
+      "fact_id": "paragraph-46-f4",
+      "question_text": "Ontogenez va filogenez to‘g‘ri ajratilgan javob qaysi?",
+      "options": [
+        "Ikkalasi ham faqat bir hujayraning mitozi",
+        "Ikkalasi ham faqat oziq hazmi",
+        "Biri suv, ikkinchisi mineral almashinuv",
+        "Individ rivojlanishi va guruhning evolutsion tarixi"
+      ],
+      "correct_answer": "Individ rivojlanishi va guruhning evolutsion tarixi",
+      "explanation": "Ontogenez individ rivojlanishini, filogenez esa guruhning tarixiy-evolutsion rivojlanishini anglatadi. Ularning vaqt ko‘lami va o‘rganish obyekti boshqa-boshqadir."
+    },
+    {
+      "key": "paragraph-46-q5",
+      "fact_id": "paragraph-46-f5",
+      "question_text": "Biogenetik qarashni qanday o‘rganish to‘g‘ri?",
+      "options": [
+        "Har bir zigota mustaqil amyoba turi bo‘ladi deb",
+        "Embrion o‘z DNKsini umuman ishlatmaydi deb",
+        "Tarixiy evolutsion g‘oya sifatida, embrionni kattalarning ketma-ket nusxasi demasdan",
+        "Har bir odam embrioni haqiqiy voyaga yetgan baliq bo‘ladi deb"
+      ],
+      "correct_answer": "Tarixiy evolutsion g‘oya sifatida, embrionni kattalarning ketma-ket nusxasi demasdan",
+      "explanation": "Darslik Myuller va Gekkel nomini ontogenez-filogenez aloqasi haqidagi tarixiy biogenetik qarash bilan bog‘laydi. Embrion ketma-ket voyaga yetgan ajdod turlariga aylanadi degan literal talqin qo‘llanmaydi."
+    }
+  ]
+}

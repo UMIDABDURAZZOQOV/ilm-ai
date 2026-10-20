@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-54-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-67",
+  "title": "Genlarning polimer ва ko‘p tomonlama ta’siri",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-54-f1": {
+      "claim": "Bir nechta noallel gen bitta belgiga o‘xshash yo‘nalishda ta’sir qilishi polimer ta’sir deyiladi. Bu miqdoriy belgilarni tushuntirishda qo‘llanadi.",
+      "answer": "Polimer ta’sir",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f2": {
+      "claim": "Kumulyativ polimeriyada allellarning hissalari yig‘iladi. Darslikning ikki lokusli don rangi modelida F2 besh darajaga ajraladi.",
+      "answer": "5 ta",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f3": {
+      "claim": "Ikki lokusli teng qo‘shiluvchi ta’sir modelida F2 fenotip nisbati 1:4:6:4:1. Bu har qanday miqdoriy belgi uchun shartsiz nisbat emas.",
+      "answer": "1:4:6:4:1",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f4": {
+      "claim": "Nokumulyativ polimeriyaning darslik modelida kamida bitta dominant allel fenotipni yuzaga chiqaradi. Ikki lokusli F2da 15:1 nisbat kuzatiladi.",
+      "answer": "15:1",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f5": {
+      "claim": "Pleyotropiyada bitta gen bir nechta belgining rivojlanishiga ta’sir qiladi. Polimeriyada esa bir belgiga bir nechta gen hissa qo‘shadi.",
+      "answer": "Pleyotropiya: bir gen — ko‘p belgi; polimeriya: ko‘p gen — bir belgi",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f6": {
+      "claim": "Darslikdagi sariq sichqon modelida Aa sariq, aa qora, AA esa embrional davrda yashovchan emas. Shuning uchun tirik avlodda nisbat 2 sariq:1 qora bo‘ladi.",
+      "answer": "2:1",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-54-f7": {
+      "claim": "AA yashovchan bo‘lmagan Aa × Aa modelida qoladigan genotiplar 2 Aa va 1 aa. Shuning uchun tirik avlod orasida Aa ulushi 2/3dir.",
+      "answer": "2/3",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Polimer ta’sir",
+      "body": "Bir nechta noallel gen bitta belgiga o‘xshash yo‘nalishda ta’sir qilishi polimer ta’sir deyiladi. Bu miqdoriy belgilarni tushuntirishda qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-54-f1"
+      ]
+    },
+    {
+      "title": "Kumulyativ model",
+      "body": "Kumulyativ polimeriyada allellarning hissalari yig‘iladi. Darslikning ikki lokusli don rangi modelida F2 besh darajaga ajraladi.",
+      "fact_ids": [
+        "paragraph-54-f2"
+      ]
+    },
+    {
+      "title": "Besh sinf nisbati",
+      "body": "Ikki lokusli teng qo‘shiluvchi ta’sir modelida F2 fenotip nisbati 1:4:6:4:1. Bu har qanday miqdoriy belgi uchun shartsiz nisbat emas.",
+      "fact_ids": [
+        "paragraph-54-f3"
+      ]
+    },
+    {
+      "title": "Nokumulyativ model",
+      "body": "Nokumulyativ polimeriyaning darslik modelida kamida bitta dominant allel fenotipni yuzaga chiqaradi. Ikki lokusli F2da 15:1 nisbat kuzatiladi.",
+      "fact_ids": [
+        "paragraph-54-f4"
+      ]
+    },
+    {
+      "title": "Bir gen — ko‘p belgi",
+      "body": "Pleyotropiyada bitta gen bir nechta belgining rivojlanishiga ta’sir qiladi. Polimeriyada esa bir belgiga bir nechta gen hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-54-f5"
+      ]
+    },
+    {
+      "title": "Letal genotip",
+      "body": "Darslikdagi sariq sichqon modelida Aa sariq, aa qora, AA esa embrional davrda yashovchan emas. Shuning uchun tirik avlodda nisbat 2 sariq:1 qora bo‘ladi.",
+      "fact_ids": [
+        "paragraph-54-f6"
+      ]
+    },
+    {
+      "title": "Tiriklar orasidagi ehtimol",
+      "body": "AA yashovchan bo‘lmagan Aa × Aa modelida qoladigan genotiplar 2 Aa va 1 aa. Shuning uchun tirik avlod orasida Aa ulushi 2/3dir.",
+      "fact_ids": [
+        "paragraph-54-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-54-q1",
+      "fact_id": "paragraph-54-f1",
+      "question_text": "Bir nechta lokus o‘simlik bo‘yiga bir yo‘nalishda hissa qo‘shsa, qaysi tushuncha mos?",
+      "options": [
+        "Faqat yadro qobig‘i erishi",
+        "Faqat alohida gameta qo‘shilishi",
+        "Polimer ta’sir",
+        "Faqat bitta lokus retsessivligi"
+      ],
+      "correct_answer": "Polimer ta’sir",
+      "explanation": "Bir nechta noallel gen bitta belgiga o‘xshash yo‘nalishda ta’sir qilishi polimer ta’sir deyiladi. Bu miqdoriy belgilarni tushuntirishda qo‘llanadi."
+    },
+    {
+      "key": "paragraph-54-q2",
+      "fact_id": "paragraph-54-f2",
+      "question_text": "Ikki lokusli kumulyativ polimeriya modelida nechta rang darajasi ajratilgan?",
+      "options": [
+        "16 ta",
+        "5 ta",
+        "2 ta",
+        "3 ta"
+      ],
+      "correct_answer": "5 ta",
+      "explanation": "Kumulyativ polimeriyada allellarning hissalari yig‘iladi. Darslikning ikki lokusli don rangi modelida F2 besh darajaga ajraladi."
+    },
+    {
+      "key": "paragraph-54-q3",
+      "fact_id": "paragraph-54-f3",
+      "question_text": "Darslikdagi ikki lokusli kumulyativ rang modeli F2 nisbati qaysi?",
+      "options": [
+        "1:4:6:4:1",
+        "9:3:3:1",
+        "3:1",
+        "13:3"
+      ],
+      "correct_answer": "1:4:6:4:1",
+      "explanation": "Ikki lokusli teng qo‘shiluvchi ta’sir modelida F2 fenotip nisbati 1:4:6:4:1. Bu har qanday miqdoriy belgi uchun shartsiz nisbat emas."
+    },
+    {
+      "key": "paragraph-54-q4",
+      "fact_id": "paragraph-54-f4",
+      "question_text": "Ikki lokusdan kamida bittasida dominant allel yetarli bo‘lgan F2 modeli nisbati qaysi?",
+      "options": [
+        "9:7",
+        "1:4:6:4:1",
+        "2:1",
+        "15:1"
+      ],
+      "correct_answer": "15:1",
+      "explanation": "Nokumulyativ polimeriyaning darslik modelida kamida bitta dominant allel fenotipni yuzaga chiqaradi. Ikki lokusli F2da 15:1 nisbat kuzatiladi."
+    },
+    {
+      "key": "paragraph-54-q5",
+      "fact_id": "paragraph-54-f5",
+      "question_text": "Pleyotropiya va polimeriya to‘g‘ri farqlangan javob qaysi?",
+      "options": [
+        "Pleyotropiya: ko‘p gen — bir belgi; polimeriya: bir gen — ko‘p belgi",
+        "Ikkalasi ham faqat tashqi muhit ta’siri",
+        "Pleyotropiya: bir gen — ko‘p belgi; polimeriya: ko‘p gen — bir belgi",
+        "Ikkalasi ham faqat bir gen — bir belgi"
+      ],
+      "correct_answer": "Pleyotropiya: bir gen — ko‘p belgi; polimeriya: ko‘p gen — bir belgi",
+      "explanation": "Pleyotropiyada bitta gen bir nechta belgining rivojlanishiga ta’sir qiladi. Polimeriyada esa bir belgiga bir nechta gen hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-54-q6",
+      "fact_id": "paragraph-54-f6",
+      "question_text": "Aa × Aa sariq sichqon modelida faqat tirik avlodning sariq:qora nisbati qaysi?",
+      "options": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "1:2:1"
+      ],
+      "correct_answer": "2:1",
+      "explanation": "Darslikdagi sariq sichqon modelida Aa sariq, aa qora, AA esa embrional davrda yashovchan emas. Shuning uchun tirik avlodda nisbat 2 sariq:1 qora bo‘ladi."
+    },
+    {
+      "key": "paragraph-54-q7",
+      "fact_id": "paragraph-54-f7",
+      "question_text": "AA letal bo‘lgan Aa × Aa modelida tirik avlodning Aa ulushi qancha?",
+      "options": [
+        "2/3",
+        "1/2",
+        "1/4",
+        "3/4"
+      ],
+      "correct_answer": "2/3",
+      "explanation": "AA yashovchan bo‘lmagan Aa × Aa modelida qoladigan genotiplar 2 Aa va 1 aa. Shuning uchun tirik avlod orasida Aa ulushi 2/3dir."
+    }
+  ]
+}

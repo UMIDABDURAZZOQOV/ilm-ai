@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-56-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-69",
+  "title": "Belgilarning birikkan holda irsiylanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-56-f1": {
+      "claim": "Bitta xromosomada joylashgan genlar birikish guruhiga kiradi va ko‘pincha birga irsiylanadi. Ularni doimo mustaqil ajraladi deb olish noto‘g‘ri.",
+      "answer": "Bitta xromosomada joylashishi",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f2": {
+      "claim": "Morgan va shogirdlari birikkan irsiylanishni asosan drozofila meva pashshasida o‘rgangan. Tez ko‘payish va qulay belgilar uni tadqiqot obyekti qilgan.",
+      "answer": "Drozofila meva pashshasida",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f3": {
+      "claim": "Krossingover bo‘lmagan AB/ab modelida ota-onaga xos AB va ab gametalar hosil bo‘ladi. Testkrossda ikki sinf kutiladi.",
+      "answer": "2 ta",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f4": {
+      "claim": "Gomolog xromosomalar orasidagi krossingover birikkan allellarning yangi kombinatsiyalarini hosil qilishi mumkin.",
+      "answer": "Krossingover orqali",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f5": {
+      "claim": "Darslikdagi misolda ikkita rekombinant sinf 8,5%dan bo‘lib, jami 17%ni tashkil etadi. Ikkala rekombinant sinfni qo‘shish kerak.",
+      "answer": "17%",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f6": {
+      "claim": "Yaqin joylashgan lokuslar orasida kuzatiladigan rekombinatsiya odatda kamroq bo‘ladi. Genetik xarita genlarning tartibi va ular orasidagi nisbiy masofani ifodalaydi.",
+      "answer": "Birikish kuchliroq ekaniga",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-56-f7": {
+      "claim": "Darslik drozofilaning odatdagi erkak meyozida krossingover kuzatilmasligini qayd etadi. Bu holatni barcha tur erkaklariga umumlashtirish mumkin emas.",
+      "answer": "Bu model organizmga xos xususiyatni hisobga olish kerak",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Birikkan genlar",
+      "body": "Bitta xromosomada joylashgan genlar birikish guruhiga kiradi va ko‘pincha birga irsiylanadi. Ularni doimo mustaqil ajraladi deb olish noto‘g‘ri.",
+      "fact_ids": [
+        "paragraph-56-f1"
+      ]
+    },
+    {
+      "title": "Drozofila tadqiqoti",
+      "body": "Morgan va shogirdlari birikkan irsiylanishni asosan drozofila meva pashshasida o‘rgangan. Tez ko‘payish va qulay belgilar uni tadqiqot obyekti qilgan.",
+      "fact_ids": [
+        "paragraph-56-f2"
+      ]
+    },
+    {
+      "title": "To‘liq birikish modeli",
+      "body": "Krossingover bo‘lmagan AB/ab modelida ota-onaga xos AB va ab gametalar hosil bo‘ladi. Testkrossda ikki sinf kutiladi.",
+      "fact_ids": [
+        "paragraph-56-f3"
+      ]
+    },
+    {
+      "title": "Rekombinatsiya manbai",
+      "body": "Gomolog xromosomalar orasidagi krossingover birikkan allellarning yangi kombinatsiyalarini hosil qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-56-f4"
+      ]
+    },
+    {
+      "title": "Rekombinant ulushi",
+      "body": "Darslikdagi misolda ikkita rekombinant sinf 8,5%dan bo‘lib, jami 17%ni tashkil etadi. Ikkala rekombinant sinfni qo‘shish kerak.",
+      "fact_ids": [
+        "paragraph-56-f5"
+      ]
+    },
+    {
+      "title": "Masofa bilan aloqa",
+      "body": "Yaqin joylashgan lokuslar orasida kuzatiladigan rekombinatsiya odatda kamroq bo‘ladi. Genetik xarita genlarning tartibi va ular orasidagi nisbiy masofani ifodalaydi.",
+      "fact_ids": [
+        "paragraph-56-f6"
+      ]
+    },
+    {
+      "title": "Organizmga xos istisno",
+      "body": "Darslik drozofilaning odatdagi erkak meyozida krossingover kuzatilmasligini qayd etadi. Bu holatni barcha tur erkaklariga umumlashtirish mumkin emas.",
+      "fact_ids": [
+        "paragraph-56-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-56-q1",
+      "fact_id": "paragraph-56-f1",
+      "question_text": "Genlarning birikkan bo‘lishining asosiy sababi qaysi?",
+      "options": [
+        "Faqat katta harf bilan yozilishi",
+        "Har doim turli xromosomalarda bo‘lishi",
+        "Bitta xromosomada joylashishi",
+        "Har doim bir xil oqsilni kodlashi"
+      ],
+      "correct_answer": "Bitta xromosomada joylashishi",
+      "explanation": "Bitta xromosomada joylashgan genlar birikish guruhiga kiradi va ko‘pincha birga irsiylanadi. Ularni doimo mustaqil ajraladi deb olish noto‘g‘ri."
+    },
+    {
+      "key": "paragraph-56-q2",
+      "fact_id": "paragraph-56-f2",
+      "question_text": "Morgan guruhi birikkan irsiylanishni qaysi model organizmda o‘rgangan?",
+      "options": [
+        "Faqat sil bakteriyasida",
+        "Drozofila meva pashshasida",
+        "Faqat piyozboshda",
+        "Faqat gerbariy bargida"
+      ],
+      "correct_answer": "Drozofila meva pashshasida",
+      "explanation": "Morgan va shogirdlari birikkan irsiylanishni asosan drozofila meva pashshasida o‘rgangan. Tez ko‘payish va qulay belgilar uni tadqiqot obyekti qilgan."
+    },
+    {
+      "key": "paragraph-56-q3",
+      "fact_id": "paragraph-56-f3",
+      "question_text": "Krossingoversiz AB/ab individ ab/ab bilan chatishtirilsa nechta asosiy avlod sinfi kutiladi?",
+      "options": [
+        "2 ta",
+        "4 ta teng sinf",
+        "9 ta",
+        "16 ta genotip sinfi"
+      ],
+      "correct_answer": "2 ta",
+      "explanation": "Krossingover bo‘lmagan AB/ab modelida ota-onaga xos AB va ab gametalar hosil bo‘ladi. Testkrossda ikki sinf kutiladi."
+    },
+    {
+      "key": "paragraph-56-q4",
+      "fact_id": "paragraph-56-f4",
+      "question_text": "AB va ab ota-ona kombinatsiyalaridan Ab va aB qanday yuzaga kelishi mumkin?",
+      "options": [
+        "Faqat xromosomalar butunlay yo‘qolishi bilan",
+        "Faqat ribosoma ikkiga bo‘linishi bilan",
+        "Faqat membrananing qalinlashishi bilan",
+        "Krossingover orqali"
+      ],
+      "correct_answer": "Krossingover orqali",
+      "explanation": "Gomolog xromosomalar orasidagi krossingover birikkan allellarning yangi kombinatsiyalarini hosil qilishi mumkin."
+    },
+    {
+      "key": "paragraph-56-q5",
+      "fact_id": "paragraph-56-f5",
+      "question_text": "Ikki rekombinant sinf 8,5% va 8,5% bo‘lsa, umumiy rekombinatsiya ulushi qancha?",
+      "options": [
+        "41,5%",
+        "83%",
+        "17%",
+        "8,5%"
+      ],
+      "correct_answer": "17%",
+      "explanation": "Darslikdagi misolda ikkita rekombinant sinf 8,5%dan bo‘lib, jami 17%ni tashkil etadi. Ikkala rekombinant sinfni qo‘shish kerak."
+    },
+    {
+      "key": "paragraph-56-q6",
+      "fact_id": "paragraph-56-f6",
+      "question_text": "Yaqin lokuslar orasida kam rekombinant topilishi nimaga mos?",
+      "options": [
+        "Bu lokuslarda DNK umuman yo‘qligiga",
+        "Birikish kuchliroq ekaniga",
+        "Ularning albatta boshqa xromosomada ekaniga",
+        "Ular orasida har doim 100% almashinuv borligiga"
+      ],
+      "correct_answer": "Birikish kuchliroq ekaniga",
+      "explanation": "Yaqin joylashgan lokuslar orasida kuzatiladigan rekombinatsiya odatda kamroq bo‘ladi. Genetik xarita genlarning tartibi va ular orasidagi nisbiy masofani ifodalaydi."
+    },
+    {
+      "key": "paragraph-56-q7",
+      "fact_id": "paragraph-56-f7",
+      "question_text": "Drozofila erkagida krossingover yo‘qligidan qanday xulosa qilish to‘g‘ri?",
+      "options": [
+        "Bu model organizmga xos xususiyatni hisobga olish kerak",
+        "Barcha hayvon erkaklarida krossingover yo‘q",
+        "Odam erkagida ham meyoz bo‘lmaydi",
+        "Barcha urg‘ochilarda faqat to‘liq birikish bo‘ladi"
+      ],
+      "correct_answer": "Bu model organizmga xos xususiyatni hisobga olish kerak",
+      "explanation": "Darslik drozofilaning odatdagi erkak meyozida krossingover kuzatilmasligini qayd etadi. Bu holatni barcha tur erkaklariga umumlashtirish mumkin emas."
+    }
+  ]
+}

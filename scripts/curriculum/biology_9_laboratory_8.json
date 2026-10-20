@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-laboratory-8-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-laboratory-73",
+  "title": "60- §. 8- laboratoriya mashg‘uloti. Modifikatsion o‘zgaruvchanlikning statistik qonuniyatlarini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-8-f1": {
+      "claim": "Sakkizinchi laboratoriya modifikatsion belgilar tarqalishini statistik tasvirlashga qaratilgan. Barg yoki urug‘ o‘lchovlarini umumlashtirish taklif qilinadi.",
+      "answer": "Belgi o‘zgaruvchanligini o‘lchab umumlashtirish",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-8-f2": {
+      "claim": "Darslik real mashg‘ulot uchun ko‘p, kamida 100 obyektdan iborat namuna taklif qiladi. Ilovadagi hisoblash namunalari haqiqiy o‘lchov deb ko‘rsatilmaydi.",
+      "answer": "Kamida 100 obyekt olish",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-8-f3": {
+      "claim": "O‘lchangan barg, urug‘ yoki dukkaklarni belgi kattaligi bo‘yicha tartiblash variatsion qator tuzishga yordam beradi.",
+      "answer": "Qiymatlar kattaligi bo‘yicha tartiblanadi",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-8-f4": {
+      "claim": "Barg uzunligi o‘lchanib natija yoziladi. Solishtirish uchun o‘lchov birligi va bir xil belgi saqlanishi kerak.",
+      "answer": "Bir xil birlikda o‘lchab, barcha natijani yozish",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-8-f5": {
+      "claim": "Variatsion egri chiziq belgi qiymatlari qanday tarqalganini ko‘rsatadi. Grafikdan har bir namunaning genotipi avtomatik aniqlanmaydi.",
+      "answer": "O‘lchangan belgi qiymatlarining taqsimlanishini",
+      "source": {
+        "paragraph": 60,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv maqsadi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nSakkizinchi laboratoriya modifikatsion belgilar tarqalishini statistik tasvirlashga qaratilgan. Barg yoki urug‘ o‘lchovlarini umumlashtirish taklif qilinadi.",
+      "fact_ids": [
+        "laboratory-8-f1"
+      ]
+    },
+    {
+      "title": "Yetarli namuna",
+      "body": "Darslik real mashg‘ulot uchun ko‘p, kamida 100 obyektdan iborat namuna taklif qiladi. Ilovadagi hisoblash namunalari haqiqiy o‘lchov deb ko‘rsatilmaydi.",
+      "fact_ids": [
+        "laboratory-8-f2"
+      ]
+    },
+    {
+      "title": "Variatsion qator",
+      "body": "O‘lchangan barg, urug‘ yoki dukkaklarni belgi kattaligi bo‘yicha tartiblash variatsion qator tuzishga yordam beradi.",
+      "fact_ids": [
+        "laboratory-8-f3"
+      ]
+    },
+    {
+      "title": "Qayd va birlik",
+      "body": "Barg uzunligi o‘lchanib natija yoziladi. Solishtirish uchun o‘lchov birligi va bir xil belgi saqlanishi kerak.",
+      "fact_ids": [
+        "laboratory-8-f4"
+      ]
+    },
+    {
+      "title": "Variatsion egri chiziq",
+      "body": "Variatsion egri chiziq belgi qiymatlari qanday tarqalganini ko‘rsatadi. Grafikdan har bir namunaning genotipi avtomatik aniqlanmaydi.",
+      "fact_ids": [
+        "laboratory-8-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-8-q1",
+      "fact_id": "laboratory-8-f1",
+      "question_text": "Bu statistik laboratoriyaning asosiy maqsadi qaysi?",
+      "options": [
+        "Faqat DNKni uyda ajratish",
+        "Faqat o‘simlik turini almashtirish",
+        "Belgi o‘zgaruvchanligini o‘lchab umumlashtirish",
+        "Faqat odamni genetik baholash"
+      ],
+      "correct_answer": "Belgi o‘zgaruvchanligini o‘lchab umumlashtirish",
+      "explanation": "Sakkizinchi laboratoriya modifikatsion belgilar tarqalishini statistik tasvirlashga qaratilgan. Barg yoki urug‘ o‘lchovlarini umumlashtirish taklif qilinadi."
+    },
+    {
+      "key": "laboratory-8-q2",
+      "fact_id": "laboratory-8-f2",
+      "question_text": "Darslikdagi real kuzatuvda namuna soni bo‘yicha qanday tavsiya bor?",
+      "options": [
+        "Hech qanday obyektni o‘lchamaslik",
+        "Kamida 100 obyekt olish",
+        "Faqat bitta obyektni yetarli deyish",
+        "Faqat ikkita eng kattasini olish"
+      ],
+      "correct_answer": "Kamida 100 obyekt olish",
+      "explanation": "Darslik real mashg‘ulot uchun ko‘p, kamida 100 obyektdan iborat namuna taklif qiladi. Ilovadagi hisoblash namunalari haqiqiy o‘lchov deb ko‘rsatilmaydi."
+    },
+    {
+      "key": "laboratory-8-q3",
+      "fact_id": "laboratory-8-f3",
+      "question_text": "O‘lchovlardan variatsion qator tuzish uchun nima qilinadi?",
+      "options": [
+        "Qiymatlar kattaligi bo‘yicha tartiblanadi",
+        "Qiymatlar sababsiz o‘chirib tashlanadi",
+        "Faqat eng yoqqan qiymat olinadi",
+        "Hammasi bir xil deb yoziladi"
+      ],
+      "correct_answer": "Qiymatlar kattaligi bo‘yicha tartiblanadi",
+      "explanation": "O‘lchangan barg, urug‘ yoki dukkaklarni belgi kattaligi bo‘yicha tartiblash variatsion qator tuzishga yordam beradi."
+    },
+    {
+      "key": "laboratory-8-q4",
+      "fact_id": "laboratory-8-f4",
+      "question_text": "Barg uzunliklarini solishtirishda qaysi tartib mos?",
+      "options": [
+        "Ba’zisini mm, ba’zisini belgilanmagan son deb olish",
+        "O‘lchovsiz taxminiy sonlarni real natija deyish",
+        "Faqat eng qisqa bargni yashirish",
+        "Bir xil birlikda o‘lchab, barcha natijani yozish"
+      ],
+      "correct_answer": "Bir xil birlikda o‘lchab, barcha natijani yozish",
+      "explanation": "Barg uzunligi o‘lchanib natija yoziladi. Solishtirish uchun o‘lchov birligi va bir xil belgi saqlanishi kerak."
+    },
+    {
+      "key": "laboratory-8-q5",
+      "fact_id": "laboratory-8-f5",
+      "question_text": "Variatsion grafikdan bevosita qaysi xulosani olish mumkin?",
+      "options": [
+        "Har bir o‘simlikning aniq allellarini",
+        "Tajriba bajarilmagan bo‘lsa ham real hosildorlikni",
+        "O‘lchangan belgi qiymatlarining taqsimlanishini",
+        "Har bir bargning to‘liq DNK ketma-ketligini"
+      ],
+      "correct_answer": "O‘lchangan belgi qiymatlarining taqsimlanishini",
+      "explanation": "Variatsion egri chiziq belgi qiymatlari qanday tarqalganini ko‘rsatadi. Grafikdan har bir namunaning genotipi avtomatik aniqlanmaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "60- §. 8- laboratoriya mashg‘uloti. Modifikatsion o‘zgaruvchanlikning statistik qonuniyatlarini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv maqsadi",
+        "fact_ids": [
+          "laboratory-8-f1"
+        ]
+      },
+      {
+        "instruction": "Yetarli namuna",
+        "fact_ids": [
+          "laboratory-8-f2"
+        ]
+      },
+      {
+        "instruction": "Variatsion qator",
+        "fact_ids": [
+          "laboratory-8-f3"
+        ]
+      },
+      {
+        "instruction": "Qayd va birlik",
+        "fact_ids": [
+          "laboratory-8-f4"
+        ]
+      },
+      {
+        "instruction": "Variatsion egri chiziq",
+        "fact_ids": [
+          "laboratory-8-f5"
+        ]
+      }
+    ]
+  }
+}

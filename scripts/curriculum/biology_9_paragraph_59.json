@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-59-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-72",
+  "title": "O‘zgaruvchanlik",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-59-f1": {
+      "claim": "O‘zgaruvchanlik bir tur individlarining belgi va xususiyatlari bilan farqlanishidir. Farqning sababi genetik yoki muhitga bog‘liq bo‘lishi mumkin.",
+      "answer": "Irsiy va muhit omillari",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          158
+        ],
+        "printed_pages": [
+          158
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f2": {
+      "claim": "Ota-ona genlarining yangi birikmalari kombinativ o‘zgaruvchanlikka olib keladi. Krossingover ham yangi allel kombinatsiyalarini hosil qilishga hissa qo‘shadi.",
+      "answer": "Kombinativ",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f3": {
+      "claim": "Modifikatsion o‘zgaruvchanlikda muhit ta’sirida fenotip o‘zgaradi, genotipning o‘zi esa shu sababdan o‘zgargan deb olinmaydi.",
+      "answer": "Modifikatsion o‘zgaruvchanlik",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f4": {
+      "claim": "Darslik Himolay quyonidagi pigment hosil bo‘lishi haroratga bog‘liq ekanini misol qiladi. Bu yerda kuzatuv talqin qilinadi, hayvonga sovuq yoki shikast yetkazish talab qilinmaydi.",
+      "answer": "Genotip fonida fenotipning muhitga javobini",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f5": {
+      "claim": "Reaksiya normasi muayyan genotip fenotipining turli muhitda namoyon bo‘lish doirasidir. Muhit ta’siri ham cheksiz emas.",
+      "answer": "Reaksiya normasi",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          160
+        ],
+        "printed_pages": [
+          160
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-59-f6": {
+      "claim": "Muhit sabab yuzaga kelgan modifikatsion fenotip o‘zgarishi genotip o‘zgarmagan modelda allel almashishi kabi irsiylanmaydi. Reaksiya normasining genetik asosi esa saqlanadi.",
+      "answer": "Kuzatilgan modifikatsiya bilan irsiy reaksiya normasini farqlash kerak",
+      "source": {
+        "paragraph": 59,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Farqlar manbai",
+      "body": "O‘zgaruvchanlik bir tur individlarining belgi va xususiyatlari bilan farqlanishidir. Farqning sababi genetik yoki muhitga bog‘liq bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-59-f1"
+      ]
+    },
+    {
+      "title": "Yangi kombinatsiyalar",
+      "body": "Ota-ona genlarining yangi birikmalari kombinativ o‘zgaruvchanlikka olib keladi. Krossingover ham yangi allel kombinatsiyalarini hosil qilishga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-59-f2"
+      ]
+    },
+    {
+      "title": "Modifikatsiya",
+      "body": "Modifikatsion o‘zgaruvchanlikda muhit ta’sirida fenotip o‘zgaradi, genotipning o‘zi esa shu sababdan o‘zgargan deb olinmaydi.",
+      "fact_ids": [
+        "paragraph-59-f3"
+      ]
+    },
+    {
+      "title": "Harorat va pigment",
+      "body": "Darslik Himolay quyonidagi pigment hosil bo‘lishi haroratga bog‘liq ekanini misol qiladi. Bu yerda kuzatuv talqin qilinadi, hayvonga sovuq yoki shikast yetkazish talab qilinmaydi.",
+      "fact_ids": [
+        "paragraph-59-f4"
+      ]
+    },
+    {
+      "title": "Reaksiya normasi",
+      "body": "Reaksiya normasi muayyan genotip fenotipining turli muhitda namoyon bo‘lish doirasidir. Muhit ta’siri ham cheksiz emas.",
+      "fact_ids": [
+        "paragraph-59-f5"
+      ]
+    },
+    {
+      "title": "Naslga o‘tishni farqlang",
+      "body": "Muhit sabab yuzaga kelgan modifikatsion fenotip o‘zgarishi genotip o‘zgarmagan modelda allel almashishi kabi irsiylanmaydi. Reaksiya normasining genetik asosi esa saqlanadi.",
+      "fact_ids": [
+        "paragraph-59-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-59-q1",
+      "fact_id": "paragraph-59-f1",
+      "question_text": "Bir tur individlari farqlanishining sabablari qaysilar bo‘lishi mumkin?",
+      "options": [
+        "Faqat hammasida DNK yo‘qligi",
+        "Faqat bitta umumiy mineral",
+        "Irsiy va muhit omillari",
+        "Faqat organizm nomi"
+      ],
+      "correct_answer": "Irsiy va muhit omillari",
+      "explanation": "O‘zgaruvchanlik bir tur individlarining belgi va xususiyatlari bilan farqlanishidir. Farqning sababi genetik yoki muhitga bog‘liq bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-59-q2",
+      "fact_id": "paragraph-59-f2",
+      "question_text": "Ota-ona allellarining yangi kombinatsiyasi qaysi o‘zgaruvchanlikka misol?",
+      "options": [
+        "Faqat reagent bilan bo‘yalish",
+        "Kombinativ",
+        "Faqat modifikatsion",
+        "Faqat issiqlik kengayishi"
+      ],
+      "correct_answer": "Kombinativ",
+      "explanation": "Ota-ona genlarining yangi birikmalari kombinativ o‘zgaruvchanlikka olib keladi. Krossingover ham yangi allel kombinatsiyalarini hosil qilishga hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-59-q3",
+      "fact_id": "paragraph-59-f3",
+      "question_text": "Oziqlanish sharoiti o‘zgargach bo‘y farqlandi, genotip o‘zgarmadi. Bu qanday model?",
+      "options": [
+        "Modifikatsion o‘zgaruvchanlik",
+        "Faqat gen mutatsiyasi",
+        "Faqat xromosoma sonining ortishi",
+        "Faqat genning butunlay yo‘qolishi"
+      ],
+      "correct_answer": "Modifikatsion o‘zgaruvchanlik",
+      "explanation": "Modifikatsion o‘zgaruvchanlikda muhit ta’sirida fenotip o‘zgaradi, genotipning o‘zi esa shu sababdan o‘zgargan deb olinmaydi."
+    },
+    {
+      "key": "paragraph-59-q4",
+      "fact_id": "paragraph-59-f4",
+      "question_text": "Himolay quyonida muhit harorati bilan jun rangi farqlanishi nimani ko‘rsatadi?",
+      "options": [
+        "Quyonning doim boshqa turga aylanishini",
+        "Har safar barcha genlar yo‘qolishini",
+        "Harorat irsiy axborot o‘rnini bosishini",
+        "Genotip fonida fenotipning muhitga javobini"
+      ],
+      "correct_answer": "Genotip fonida fenotipning muhitga javobini",
+      "explanation": "Darslik Himolay quyonidagi pigment hosil bo‘lishi haroratga bog‘liq ekanini misol qiladi. Bu yerda kuzatuv talqin qilinadi, hayvonga sovuq yoki shikast yetkazish talab qilinmaydi."
+    },
+    {
+      "key": "paragraph-59-q5",
+      "fact_id": "paragraph-59-f5",
+      "question_text": "Muayyan genotipning turli sharoitdagi fenotip doirasi qanday ataladi?",
+      "options": [
+        "Faqat kariotip",
+        "Faqat sentromera",
+        "Reaksiya normasi",
+        "Faqat genetik kod"
+      ],
+      "correct_answer": "Reaksiya normasi",
+      "explanation": "Reaksiya normasi muayyan genotip fenotipining turli muhitda namoyon bo‘lish doirasidir. Muhit ta’siri ham cheksiz emas."
+    },
+    {
+      "key": "paragraph-59-q6",
+      "fact_id": "paragraph-59-f6",
+      "question_text": "Modifikatsion fenotip va reaksiya normasi haqida mos xulosa qaysi?",
+      "options": [
+        "Fenotipga muhit umuman ta’sir qilmaydi",
+        "Kuzatilgan modifikatsiya bilan irsiy reaksiya normasini farqlash kerak",
+        "Har qanday modifikatsiya yangi allelga teng",
+        "Har bir muhit ta’siri doim xromosoma qo‘shadi"
+      ],
+      "correct_answer": "Kuzatilgan modifikatsiya bilan irsiy reaksiya normasini farqlash kerak",
+      "explanation": "Muhit sabab yuzaga kelgan modifikatsion fenotip o‘zgarishi genotip o‘zgarmagan modelda allel almashishi kabi irsiylanmaydi. Reaksiya normasining genetik asosi esa saqlanadi."
+    }
+  ]
+}

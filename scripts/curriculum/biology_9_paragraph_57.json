@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-57-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-70",
+  "title": "Jins genetikasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-57-f1": {
+      "claim": "Autosomalar jinsiy xromosoma juftidan ajratiladi. Odamning odatdagi 46 xromosomali modelida 22 juft autosoma mavjud.",
+      "answer": "22 juft",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f2": {
+      "claim": "Odamning odatdagi xromosomaviy modelida XX va XY to‘plamlari farqlanadi. XY individ X yoki Y olib yuruvchi gametalar berishi mumkin.",
+      "answer": "X yoki Y",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f3": {
+      "claim": "Jinsiy xromosomalari bo‘yicha ikki xil gameta hosil qiluvchi jins geterogametali, bir xil gameta beruvchisi gomogametali deyiladi.",
+      "answer": "Geterogametalilik",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f4": {
+      "claim": "Ayrim hasharotlarda XX/X0 tizimi mavjud: erkakda bitta X bo‘lib, gametalarning bir qismi Xsiz bo‘lishi mumkin. Bu tizimni odamning odatdagi XX/XY modeli bilan aralashtirmang.",
+      "answer": "Bitta X va ikkinchi jinsiy xromosomaning yo‘qligini",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f5": {
+      "claim": "Jinsiy xromosomada joylashgan genning irsiylanishi jinsga birikkan irsiylanishdir. Darslik drozofila ko‘z rangining Xga bog‘liq modelini keltiradi.",
+      "answer": "Jinsga birikkan holda",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f6": {
+      "claim": "XH Xh tashuvchi ona va XH Y ota modelida o‘g‘illar Xni onadan oladi. O‘g‘illar orasida Xh Y ehtimoli 1/2, barcha farzandlar orasida esa 1/4dir.",
+      "answer": "1/2",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-57-f7": {
+      "claim": "Odatdagi XY modelida Yga birikkan genlar otadan o‘g‘ilga o‘tadi; qiz farzand otadan X oladi. Bu Xga birikkan irsiylanishdan farqlanadi.",
+      "answer": "Otadan o‘g‘ilga",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Autosoma va jinsiy xromosoma",
+      "body": "Autosomalar jinsiy xromosoma juftidan ajratiladi. Odamning odatdagi 46 xromosomali modelida 22 juft autosoma mavjud.",
+      "fact_ids": [
+        "paragraph-57-f1"
+      ]
+    },
+    {
+      "title": "XX va XY modeli",
+      "body": "Odamning odatdagi xromosomaviy modelida XX va XY to‘plamlari farqlanadi. XY individ X yoki Y olib yuruvchi gametalar berishi mumkin.",
+      "fact_ids": [
+        "paragraph-57-f2"
+      ]
+    },
+    {
+      "title": "Geterogametalilik",
+      "body": "Jinsiy xromosomalari bo‘yicha ikki xil gameta hosil qiluvchi jins geterogametali, bir xil gameta beruvchisi gomogametali deyiladi.",
+      "fact_ids": [
+        "paragraph-57-f3"
+      ]
+    },
+    {
+      "title": "Turga bog‘liq tizimlar",
+      "body": "Ayrim hasharotlarda XX/X0 tizimi mavjud: erkakda bitta X bo‘lib, gametalarning bir qismi Xsiz bo‘lishi mumkin. Bu tizimni odamning odatdagi XX/XY modeli bilan aralashtirmang.",
+      "fact_ids": [
+        "paragraph-57-f4"
+      ]
+    },
+    {
+      "title": "Jinsga birikkan belgi",
+      "body": "Jinsiy xromosomada joylashgan genning irsiylanishi jinsga birikkan irsiylanishdir. Darslik drozofila ko‘z rangining Xga bog‘liq modelini keltiradi.",
+      "fact_ids": [
+        "paragraph-57-f5"
+      ]
+    },
+    {
+      "title": "Xga bog‘liq retsessiv model",
+      "body": "XH Xh tashuvchi ona va XH Y ota modelida o‘g‘illar Xni onadan oladi. O‘g‘illar orasida Xh Y ehtimoli 1/2, barcha farzandlar orasida esa 1/4dir.",
+      "fact_ids": [
+        "paragraph-57-f6"
+      ]
+    },
+    {
+      "title": "Yga bog‘liq yo‘nalish",
+      "body": "Odatdagi XY modelida Yga birikkan genlar otadan o‘g‘ilga o‘tadi; qiz farzand otadan X oladi. Bu Xga birikkan irsiylanishdan farqlanadi.",
+      "fact_ids": [
+        "paragraph-57-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-57-q1",
+      "fact_id": "paragraph-57-f1",
+      "question_text": "Odamning odatdagi 46 xromosomali to‘plamida nechta autosoma jufti bor?",
+      "options": [
+        "1 juft",
+        "44 juft",
+        "22 juft",
+        "23 juft"
+      ],
+      "correct_answer": "22 juft",
+      "explanation": "Autosomalar jinsiy xromosoma juftidan ajratiladi. Odamning odatdagi 46 xromosomali modelida 22 juft autosoma mavjud."
+    },
+    {
+      "key": "paragraph-57-q2",
+      "fact_id": "paragraph-57-f2",
+      "question_text": "Odatdagi XY modelida jinsiy xromosoma bo‘yicha gameta turlari qaysilar?",
+      "options": [
+        "Faqat YY",
+        "X yoki Y",
+        "Faqat XX",
+        "Faqat XY"
+      ],
+      "correct_answer": "X yoki Y",
+      "explanation": "Odamning odatdagi xromosomaviy modelida XX va XY to‘plamlari farqlanadi. XY individ X yoki Y olib yuruvchi gametalar berishi mumkin."
+    },
+    {
+      "key": "paragraph-57-q3",
+      "fact_id": "paragraph-57-f3",
+      "question_text": "Jinsiy xromosoma bo‘yicha ikki xil gameta hosil qilish qanday ataladi?",
+      "options": [
+        "Geterogametalilik",
+        "Gomogametalilik",
+        "Faqat poliploidiya",
+        "Faqat vegetativlik"
+      ],
+      "correct_answer": "Geterogametalilik",
+      "explanation": "Jinsiy xromosomalari bo‘yicha ikki xil gameta hosil qiluvchi jins geterogametali, bir xil gameta beruvchisi gomogametali deyiladi."
+    },
+    {
+      "key": "paragraph-57-q4",
+      "fact_id": "paragraph-57-f4",
+      "question_text": "XX/X0 tizimida X0 nimani bildiradi?",
+      "options": [
+        "Ikkita Xni",
+        "Faqat ikkita Yni",
+        "Jami xromosomalar mutlaqo yo‘qligini",
+        "Bitta X va ikkinchi jinsiy xromosomaning yo‘qligini"
+      ],
+      "correct_answer": "Bitta X va ikkinchi jinsiy xromosomaning yo‘qligini",
+      "explanation": "Ayrim hasharotlarda XX/X0 tizimi mavjud: erkakda bitta X bo‘lib, gametalarning bir qismi Xsiz bo‘lishi mumkin. Bu tizimni odamning odatdagi XX/XY modeli bilan aralashtirmang."
+    },
+    {
+      "key": "paragraph-57-q5",
+      "fact_id": "paragraph-57-f5",
+      "question_text": "X xromosomadagi allelga bog‘liq belgi qanday irsiylanadi?",
+      "options": [
+        "Faqat muhit bilan, gensiz",
+        "Faqat vegetativ tarzda",
+        "Jinsga birikkan holda",
+        "Faqat autosomaga birikkan holda"
+      ],
+      "correct_answer": "Jinsga birikkan holda",
+      "explanation": "Jinsiy xromosomada joylashgan genning irsiylanishi jinsga birikkan irsiylanishdir. Darslik drozofila ko‘z rangining Xga bog‘liq modelini keltiradi."
+    },
+    {
+      "key": "paragraph-57-q6",
+      "fact_id": "paragraph-57-f6",
+      "question_text": "XH Xh × XH Y modelida faqat o‘g‘illar orasida Xh Y ehtimoli qancha?",
+      "options": [
+        "1",
+        "1/2",
+        "1/4",
+        "3/4"
+      ],
+      "correct_answer": "1/2",
+      "explanation": "XH Xh tashuvchi ona va XH Y ota modelida o‘g‘illar Xni onadan oladi. O‘g‘illar orasida Xh Y ehtimoli 1/2, barcha farzandlar orasida esa 1/4dir."
+    },
+    {
+      "key": "paragraph-57-q7",
+      "fact_id": "paragraph-57-f7",
+      "question_text": "Odatdagi XY modelida Yga birikkan gen qaysi yo‘nalishda uzatiladi?",
+      "options": [
+        "Otadan o‘g‘ilga",
+        "Otadan barcha qizlarga",
+        "Onadan barcha o‘g‘illarga Y bilan",
+        "Faqat onadan qizga Y bilan"
+      ],
+      "correct_answer": "Otadan o‘g‘ilga",
+      "explanation": "Odatdagi XY modelida Yga birikkan genlar otadan o‘g‘ilga o‘tadi; qiz farzand otadan X oladi. Bu Xga birikkan irsiylanishdan farqlanadi."
+    }
+  ]
+}

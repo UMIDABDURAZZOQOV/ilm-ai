@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-62-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-75",
+  "title": "Odam genetikasini o‘rganish usullari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-62-f1": {
+      "claim": "Odam irsiyatini o‘rganishda odamlarga tajriba uchun rejalashtirilgan chatishtirish usulini qo‘llab bo‘lmaydi. Kuzatuv va maxsus tahlil usullari kerak.",
+      "answer": "Odamlarga eksperimental chatishtirish qo‘llanmagani uchun",
+      "source": {
+        "paragraph": 62,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-62-f2": {
+      "claim": "Genealogik usul bir necha avloddagi qarindoshlik va belgi ma’lumotlarini kuzatadi. Shajara tahlili taxminni tekshirishga yordam beradi, yolg‘iz o‘zi barcha genlarni aniqlamaydi.",
+      "answer": "Genealogik usul",
+      "source": {
+        "paragraph": 62,
+        "pdf_pages": [
+          168
+        ],
+        "printed_pages": [
+          168
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-62-f3": {
+      "claim": "Egizaklar usuli irsiy va muhit omillarining belgilar rivojlanishiga hissasini solishtirishda ishlatiladi. Ta’lim va muhit ta’sirini inkor etmaydi.",
+      "answer": "Irsiyat va muhitning belgilarga hissasi",
+      "source": {
+        "paragraph": 62,
+        "pdf_pages": [
+          168
+        ],
+        "printed_pages": [
+          168
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-62-f4": {
+      "claim": "Sitogenetik usul xromosomalar soni va ko‘rinadigan tuzilishini o‘rganadi. Bitta nukleotidni oddiy kariotipdan ko‘rib bo‘lmaydi.",
+      "answer": "Sitogenetik",
+      "source": {
+        "paragraph": 62,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-62-f5": {
+      "claim": "Molekular-genetik usullar DNKdagi genlar tuzilishi va faoliyatiga oid axborotni tekshiradi. Bu xromosoma sonini sanashdan boshqa darajadir.",
+      "answer": "Molekular-genetik",
+      "source": {
+        "paragraph": 62,
+        "pdf_pages": [
+          170
+        ],
+        "printed_pages": [
+          170
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-62-f6": {
+      "claim": "Biokimyoviy usullar moddalar almashinuvi va undagi mahsulotlar o‘zgarishini tekshiradi. Bunday tahlillarni mutaxassis talqin qiladi.",
+      "answer": "Biokimyoviy",
+      "source": {
+        "paragraph": 62,
+        "pdf_pages": [
+          170
+        ],
+        "printed_pages": [
+          170
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Inson tadqiqoti chegarasi",
+      "body": "Odam irsiyatini o‘rganishda odamlarga tajriba uchun rejalashtirilgan chatishtirish usulini qo‘llab bo‘lmaydi. Kuzatuv va maxsus tahlil usullari kerak.",
+      "fact_ids": [
+        "paragraph-62-f1"
+      ]
+    },
+    {
+      "title": "Shajara usuli",
+      "body": "Genealogik usul bir necha avloddagi qarindoshlik va belgi ma’lumotlarini kuzatadi. Shajara tahlili taxminni tekshirishga yordam beradi, yolg‘iz o‘zi barcha genlarni aniqlamaydi.",
+      "fact_ids": [
+        "paragraph-62-f2"
+      ]
+    },
+    {
+      "title": "Egizaklarni solishtirish",
+      "body": "Egizaklar usuli irsiy va muhit omillarining belgilar rivojlanishiga hissasini solishtirishda ishlatiladi. Ta’lim va muhit ta’sirini inkor etmaydi.",
+      "fact_ids": [
+        "paragraph-62-f3"
+      ]
+    },
+    {
+      "title": "Sitogenetik ko‘rish",
+      "body": "Sitogenetik usul xromosomalar soni va ko‘rinadigan tuzilishini o‘rganadi. Bitta nukleotidni oddiy kariotipdan ko‘rib bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-62-f4"
+      ]
+    },
+    {
+      "title": "Molekular daraja",
+      "body": "Molekular-genetik usullar DNKdagi genlar tuzilishi va faoliyatiga oid axborotni tekshiradi. Bu xromosoma sonini sanashdan boshqa darajadir.",
+      "fact_ids": [
+        "paragraph-62-f5"
+      ]
+    },
+    {
+      "title": "Biokimyoviy daraja",
+      "body": "Biokimyoviy usullar moddalar almashinuvi va undagi mahsulotlar o‘zgarishini tekshiradi. Bunday tahlillarni mutaxassis talqin qiladi.",
+      "fact_ids": [
+        "paragraph-62-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-62-q1",
+      "fact_id": "paragraph-62-f1",
+      "question_text": "Nega odam genetikasida oddiy tajriba chatishtirish o‘rniga kuzatuv usullari muhim?",
+      "options": [
+        "Odamda xromosoma soni hech qachon o‘lchanmagani uchun",
+        "Odamda barcha belgilar faqat muhitdan kelgani uchun",
+        "Odamlarga eksperimental chatishtirish qo‘llanmagani uchun",
+        "Odamda DNK bo‘lmagani uchun"
+      ],
+      "correct_answer": "Odamlarga eksperimental chatishtirish qo‘llanmagani uchun",
+      "explanation": "Odam irsiyatini o‘rganishda odamlarga tajriba uchun rejalashtirilgan chatishtirish usulini qo‘llab bo‘lmaydi. Kuzatuv va maxsus tahlil usullari kerak."
+    },
+    {
+      "key": "paragraph-62-q2",
+      "fact_id": "paragraph-62-f2",
+      "question_text": "Oilada belgining avlodlar bo‘yicha taqsimlanishini qaysi usul tekshiradi?",
+      "options": [
+        "Faqat oziqni tortish",
+        "Genealogik usul",
+        "Faqat sentrifugalash",
+        "Faqat barg gerbariysi"
+      ],
+      "correct_answer": "Genealogik usul",
+      "explanation": "Genealogik usul bir necha avloddagi qarindoshlik va belgi ma’lumotlarini kuzatadi. Shajara tahlili taxminni tekshirishga yordam beradi, yolg‘iz o‘zi barcha genlarni aniqlamaydi."
+    },
+    {
+      "key": "paragraph-62-q3",
+      "fact_id": "paragraph-62-f3",
+      "question_text": "Egizaklarni solishtirish orqali nima o‘rganiladi?",
+      "options": [
+        "Irsiyat va muhitning belgilarga hissasi",
+        "Faqat barcha insonlarning mutlaq teng DNKsi",
+        "Faqat o‘simlik xromosomalari",
+        "Faqat bakteriyalar oziqlanishi"
+      ],
+      "correct_answer": "Irsiyat va muhitning belgilarga hissasi",
+      "explanation": "Egizaklar usuli irsiy va muhit omillarining belgilar rivojlanishiga hissasini solishtirishda ishlatiladi. Ta’lim va muhit ta’sirini inkor etmaydi."
+    },
+    {
+      "key": "paragraph-62-q4",
+      "fact_id": "paragraph-62-f4",
+      "question_text": "Xromosoma soni va yirik tuzilish o‘zgarishini qaysi usul tekshiradi?",
+      "options": [
+        "Faqat shajara hikoyasi",
+        "Faqat o‘sish tezligini kuzatish",
+        "Faqat teri rangini solishtirish",
+        "Sitogenetik"
+      ],
+      "correct_answer": "Sitogenetik",
+      "explanation": "Sitogenetik usul xromosomalar soni va ko‘rinadigan tuzilishini o‘rganadi. Bitta nukleotidni oddiy kariotipdan ko‘rib bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-62-q5",
+      "fact_id": "paragraph-62-f5",
+      "question_text": "DNKdagi gen tuzilishini tekshirish qaysi usulga mos?",
+      "options": [
+        "Faqat gerbariy tuzish",
+        "Faqat hasharotlarni sanash",
+        "Molekular-genetik",
+        "Faqat eksterer bahosi"
+      ],
+      "correct_answer": "Molekular-genetik",
+      "explanation": "Molekular-genetik usullar DNKdagi genlar tuzilishi va faoliyatiga oid axborotni tekshiradi. Bu xromosoma sonini sanashdan boshqa darajadir."
+    },
+    {
+      "key": "paragraph-62-q6",
+      "fact_id": "paragraph-62-f6",
+      "question_text": "Ferment faoliyati va almashinuv mahsulotlarini tekshirish qaysi usulga mos?",
+      "options": [
+        "Faqat tashqi bo‘y o‘lchovi",
+        "Biokimyoviy",
+        "Faqat geobotanik xarita",
+        "Faqat xromosoma rasmi"
+      ],
+      "correct_answer": "Biokimyoviy",
+      "explanation": "Biokimyoviy usullar moddalar almashinuvi va undagi mahsulotlar o‘zgarishini tekshiradi. Bunday tahlillarni mutaxassis talqin qiladi."
+    }
+  ]
+}

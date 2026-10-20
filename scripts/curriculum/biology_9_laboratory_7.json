@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-laboratory-7-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-laboratory-65",
+  "title": "52- §. 7- laboratoriya mashg‘uloti. G‘o‘za, pomidor, nomozshomgulning chatishtirish natijasini gerbariy asosida o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-7-f1": {
+      "claim": "Yettinchi laboratoriya faoliyati g‘o‘za, pomidor va nomozshomgul belgilarini gerbariy asosida taqqoslashga qaratilgan. Ilovada tahlil va xulosa rejalashtiriladi.",
+      "answer": "G‘o‘za, pomidor va nomozshomgul",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f2": {
+      "claim": "Gerbariy tahlilida poya, barg, meva shakli va gul rangiga e’tibor beriladi. Avval kuzatilgan fenotip qayd etiladi.",
+      "answer": "Kuzatiladigan fenotip belgilar",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f3": {
+      "claim": "Darslik uch guruhning alohida o‘simlikni o‘rganib, natijasini taqdim etishini taklif qiladi. Solishtirishda bir xil mezonlardan foydalanish kerak.",
+      "answer": "Bir xil belgi mezonlari bo‘yicha yozish",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-7-f4": {
+      "claim": "Natija jadvalida dominant, retsessiv va oraliq belgilar alohida qayd etiladi. Belgini shart yoki dalilsiz ustun deb belgilash to‘g‘ri emas.",
+      "answer": "Kuzatuv va irsiylanish daliliga tayangan holda guruhlash",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gerbariy tahlili",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nYettinchi laboratoriya faoliyati g‘o‘za, pomidor va nomozshomgul belgilarini gerbariy asosida taqqoslashga qaratilgan. Ilovada tahlil va xulosa rejalashtiriladi.",
+      "fact_ids": [
+        "laboratory-7-f1"
+      ]
+    },
+    {
+      "title": "Kuzatiladigan belgilar",
+      "body": "Gerbariy tahlilida poya, barg, meva shakli va gul rangiga e’tibor beriladi. Avval kuzatilgan fenotip qayd etiladi.",
+      "fact_ids": [
+        "laboratory-7-f2"
+      ]
+    },
+    {
+      "title": "Taqqoslash tartibi",
+      "body": "Darslik uch guruhning alohida o‘simlikni o‘rganib, natijasini taqdim etishini taklif qiladi. Solishtirishda bir xil mezonlardan foydalanish kerak.",
+      "fact_ids": [
+        "laboratory-7-f3"
+      ]
+    },
+    {
+      "title": "Jadval va dalil",
+      "body": "Natija jadvalida dominant, retsessiv va oraliq belgilar alohida qayd etiladi. Belgini shart yoki dalilsiz ustun deb belgilash to‘g‘ri emas.",
+      "fact_ids": [
+        "laboratory-7-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-7-q1",
+      "fact_id": "laboratory-7-f1",
+      "question_text": "Bu gerbariy faoliyatida qaysi o‘simliklar taqqoslanadi?",
+      "options": [
+        "Faqat bug‘doy, sholi va suli",
+        "Faqat xlorella va xlamidomonada",
+        "G‘o‘za, pomidor va nomozshomgul",
+        "Faqat archa, qarag‘ay va kedr"
+      ],
+      "correct_answer": "G‘o‘za, pomidor va nomozshomgul",
+      "explanation": "Yettinchi laboratoriya faoliyati g‘o‘za, pomidor va nomozshomgul belgilarini gerbariy asosida taqqoslashga qaratilgan. Ilovada tahlil va xulosa rejalashtiriladi."
+    },
+    {
+      "key": "laboratory-7-q2",
+      "fact_id": "laboratory-7-f2",
+      "question_text": "Gerbariydan avval qaysi turdagi ma’lumot yozib olinadi?",
+      "options": [
+        "Namunasiz aniq xromosoma mutatsiyasi",
+        "Kuzatiladigan fenotip belgilar",
+        "Kuzatuvsiz barcha nukleotidlar ketma-ketligi",
+        "Har bir hujayraning barcha oqsillari"
+      ],
+      "correct_answer": "Kuzatiladigan fenotip belgilar",
+      "explanation": "Gerbariy tahlilida poya, barg, meva shakli va gul rangiga e’tibor beriladi. Avval kuzatilgan fenotip qayd etiladi."
+    },
+    {
+      "key": "laboratory-7-q3",
+      "fact_id": "laboratory-7-f3",
+      "question_text": "Guruhlar xulosalarini solishtirishni nima osonlashtiradi?",
+      "options": [
+        "Bir xil belgi mezonlari bo‘yicha yozish",
+        "Har guruhning mezonini yashirish",
+        "Kuzatuv o‘rniga taxminiy rang yozish",
+        "Barcha natijalarni oldindan teng deb olish"
+      ],
+      "correct_answer": "Bir xil belgi mezonlari bo‘yicha yozish",
+      "explanation": "Darslik uch guruhning alohida o‘simlikni o‘rganib, natijasini taqdim etishini taklif qiladi. Solishtirishda bir xil mezonlardan foydalanish kerak."
+    },
+    {
+      "key": "laboratory-7-q4",
+      "fact_id": "laboratory-7-f4",
+      "question_text": "Gerbariy natijasi jadvalini to‘ldirishda qaysi yondashuv to‘g‘ri?",
+      "options": [
+        "Har bir chiroyli belgini dominant deyish",
+        "Faqat eng yirik namunani gomozigot deyish",
+        "Ilovadagi testni haqiqiy gerbariy tayyorlandi deyish",
+        "Kuzatuv va irsiylanish daliliga tayangan holda guruhlash"
+      ],
+      "correct_answer": "Kuzatuv va irsiylanish daliliga tayangan holda guruhlash",
+      "explanation": "Natija jadvalida dominant, retsessiv va oraliq belgilar alohida qayd etiladi. Belgini shart yoki dalilsiz ustun deb belgilash to‘g‘ri emas."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "52- §. 7- laboratoriya mashg‘uloti. G‘o‘za, pomidor, nomozshomgulning chatishtirish natijasini gerbariy asosida o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Gerbariy tahlili",
+        "fact_ids": [
+          "laboratory-7-f1"
+        ]
+      },
+      {
+        "instruction": "Kuzatiladigan belgilar",
+        "fact_ids": [
+          "laboratory-7-f2"
+        ]
+      },
+      {
+        "instruction": "Taqqoslash tartibi",
+        "fact_ids": [
+          "laboratory-7-f3"
+        ]
+      },
+      {
+        "instruction": "Jadval va dalil",
+        "fact_ids": [
+          "laboratory-7-f4"
+        ]
+      }
+    ]
+  }
+}
