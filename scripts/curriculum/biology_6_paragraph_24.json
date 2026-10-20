@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-24-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-27",
+  "title": "Urug‘",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-24-f1": {
+      "claim": "Ikki urug‘pallali o‘simlik murtagi ildizcha, poyacha, kurtakcha va ikkita urug‘palladan iborat.",
+      "answer": "Ikkita",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f2": {
+      "claim": "Bug‘doy, arpa, suli va makkajo‘xori bir urug‘pallali o‘simliklardir; ularning murtagida bitta urug‘palla bo‘ladi.",
+      "answer": "Bug‘doy, arpa, makkajo‘xori",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f3": {
+      "claim": "Bug‘doy donida meva qobig‘i urug‘ po‘sti bilan qo‘shilgan; endosperm donning oziq zaxirasi saqlanadigan katta qismini egallaydi.",
+      "answer": "Oziq moddalarni saqlash",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f4": {
+      "claim": "Bug‘doy donida kraxmal, loviya va no‘xatda oqsil, kungaboqar va yong‘oq urug‘larida moy ko‘p bo‘ladi.",
+      "answer": "Oqsilga",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f5": {
+      "claim": "Urug‘dagi zaxira oziq moddalar urug‘palla va endospermda saqlanadi; bu zaxiralar turli urug‘larda turlicha taqsimlanadi.",
+      "answer": "Urug‘palla va endospermda",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Murtak qismlari",
+      "body": "Ikki urug‘pallali o‘simlik murtagi ildizcha, poyacha, kurtakcha va ikkita urug‘palladan iborat.",
+      "fact_ids": [
+        "paragraph-24-f1"
+      ]
+    },
+    {
+      "title": "Bir urug‘pallali urug‘",
+      "body": "Bug‘doy, arpa, suli va makkajo‘xori bir urug‘pallali o‘simliklardir; ularning murtagida bitta urug‘palla bo‘ladi.",
+      "fact_ids": [
+        "paragraph-24-f2"
+      ]
+    },
+    {
+      "title": "Zaxira va himoya",
+      "body": "Bug‘doy donida meva qobig‘i urug‘ po‘sti bilan qo‘shilgan; endosperm donning oziq zaxirasi saqlanadigan katta qismini egallaydi.",
+      "fact_ids": [
+        "paragraph-24-f3"
+      ]
+    },
+    {
+      "title": "Oziq modda turlari",
+      "body": "Bug‘doy donida kraxmal, loviya va no‘xatda oqsil, kungaboqar va yong‘oq urug‘larida moy ko‘p bo‘ladi.",
+      "fact_ids": [
+        "paragraph-24-f4"
+      ]
+    },
+    {
+      "title": "Zaxiraning joyi",
+      "body": "Urug‘dagi zaxira oziq moddalar urug‘palla va endospermda saqlanadi; bu zaxiralar turli urug‘larda turlicha taqsimlanadi.",
+      "fact_ids": [
+        "paragraph-24-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-24-q1",
+      "fact_id": "paragraph-24-f1",
+      "question_text": "Ikki urug‘pallali murtakda nechta urug‘palla bor?",
+      "options": [
+        "Urug‘palla bo‘lmaydi",
+        "Ikkita",
+        "Bitta",
+        "Uchta"
+      ],
+      "correct_answer": "Ikkita",
+      "explanation": "Ikki urug‘pallali o‘simlik murtagi ildizcha, poyacha, kurtakcha va ikkita urug‘palladan iborat."
+    },
+    {
+      "key": "paragraph-24-q2",
+      "fact_id": "paragraph-24-f2",
+      "question_text": "Qaysi qatorda bir urug‘pallali o‘simliklar bor?",
+      "options": [
+        "Bug‘doy, arpa, makkajo‘xori",
+        "Loviya, no‘xat, g‘o‘za",
+        "Olma, o‘rik, nok",
+        "Yong‘oq, bodom, shaftoli"
+      ],
+      "correct_answer": "Bug‘doy, arpa, makkajo‘xori",
+      "explanation": "Bug‘doy, arpa, suli va makkajo‘xori bir urug‘pallali o‘simliklardir; ularning murtagida bitta urug‘palla bo‘ladi."
+    },
+    {
+      "key": "paragraph-24-q3",
+      "fact_id": "paragraph-24-f3",
+      "question_text": "Bug‘doy donidagi endospermning asosiy vazifasi nima?",
+      "options": [
+        "Gul changini shamolga chiqarish",
+        "Tuproqdan suv shimish",
+        "Novda uchini himoya qilish",
+        "Oziq moddalarni saqlash"
+      ],
+      "correct_answer": "Oziq moddalarni saqlash",
+      "explanation": "Bug‘doy donida meva qobig‘i urug‘ po‘sti bilan qo‘shilgan; endosperm donning oziq zaxirasi saqlanadigan katta qismini egallaydi."
+    },
+    {
+      "key": "paragraph-24-q4",
+      "fact_id": "paragraph-24-f4",
+      "question_text": "Loviya va no‘xat urug‘lari qaysi organik moddaga boy?",
+      "options": [
+        "Faqat qumga",
+        "Faqat suv bug‘iga",
+        "Oqsilga",
+        "Faqat osh tuziga"
+      ],
+      "correct_answer": "Oqsilga",
+      "explanation": "Bug‘doy donida kraxmal, loviya va no‘xatda oqsil, kungaboqar va yong‘oq urug‘larida moy ko‘p bo‘ladi."
+    },
+    {
+      "key": "paragraph-24-q5",
+      "fact_id": "paragraph-24-f5",
+      "question_text": "Urug‘ning qaysi qismlarida zaxira oziq saqlanadi?",
+      "options": [
+        "Faqat ildiz tukchasi va qinchada",
+        "Urug‘palla va endospermda",
+        "Faqat gulband va gultojda",
+        "Faqat barg bandi va og‘izchada"
+      ],
+      "correct_answer": "Urug‘palla va endospermda",
+      "explanation": "Urug‘dagi zaxira oziq moddalar urug‘palla va endospermda saqlanadi; bu zaxiralar turli urug‘larda turlicha taqsimlanadi."
+    }
+  ]
+}

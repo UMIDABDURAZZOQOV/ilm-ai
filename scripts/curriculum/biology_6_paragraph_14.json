@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-14-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-17",
+  "title": "Novda tizimining shakllanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-14-f1": {
+      "claim": "Novda uchki kurtakdagi o‘sish konusi hujayralarining bo‘linishi hisobiga uzayadi; yon novdalar uchida ham shunday o‘sish nuqtasi bor.",
+      "answer": "Uchki kurtakning o‘sish konusi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f2": {
+      "claim": "Uchki kurtak chilpilsa shu novdaning bo‘yiga o‘sishi to‘xtab, yon novdalarning rivojlanishi kuchayadi.",
+      "answer": "Yon novdalar ko‘proq rivojlanadi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f3": {
+      "claim": "O‘simliklar turiga va sharoitiga ko‘ra turlicha tezlikda o‘sadi; darslikda tol va terak tez, nok va pista sekin o‘suvchi daraxtlarga misol qilingan.",
+      "answer": "Nok va pista",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          35
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f4": {
+      "claim": "Kambiydan ichkariga hosil bo‘lgan hujayralar yog‘ochlikka, tashqariga hosil bo‘lganlari lubga aylanadi.",
+      "answer": "Yog‘ochlik",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          35
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f5": {
+      "claim": "Har yili yangi yog‘ochlik halqasi hosil bo‘lib, avvalgi yillardagi yog‘ochlikni tashqaridan o‘raydi.",
+      "answer": "Tashqi tomonida",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "O‘sish nuqtasi",
+      "body": "Novda uchki kurtakdagi o‘sish konusi hujayralarining bo‘linishi hisobiga uzayadi; yon novdalar uchida ham shunday o‘sish nuqtasi bor.",
+      "fact_ids": [
+        "paragraph-14-f1"
+      ]
+    },
+    {
+      "title": "Shoxlanishni boshqarish",
+      "body": "Uchki kurtak chilpilsa shu novdaning bo‘yiga o‘sishi to‘xtab, yon novdalarning rivojlanishi kuchayadi.",
+      "fact_ids": [
+        "paragraph-14-f2"
+      ]
+    },
+    {
+      "title": "O‘sish sur’atlari",
+      "body": "O‘simliklar turiga va sharoitiga ko‘ra turlicha tezlikda o‘sadi; darslikda tol va terak tez, nok va pista sekin o‘suvchi daraxtlarga misol qilingan.",
+      "fact_ids": [
+        "paragraph-14-f3"
+      ]
+    },
+    {
+      "title": "Kambiyning ikki tomoni",
+      "body": "Kambiydan ichkariga hosil bo‘lgan hujayralar yog‘ochlikka, tashqariga hosil bo‘lganlari lubga aylanadi.",
+      "fact_ids": [
+        "paragraph-14-f4"
+      ]
+    },
+    {
+      "title": "Yillik halqa",
+      "body": "Har yili yangi yog‘ochlik halqasi hosil bo‘lib, avvalgi yillardagi yog‘ochlikni tashqaridan o‘raydi.",
+      "fact_ids": [
+        "paragraph-14-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-14-q1",
+      "fact_id": "paragraph-14-f1",
+      "question_text": "Novda bo‘yiga uzayishida qaysi qism muhim?",
+      "options": [
+        "Faqat barg bandi",
+        "Uchki kurtakning o‘sish konusi",
+        "Faqat o‘zakdagi zaxira",
+        "Faqat po‘kak qatlami"
+      ],
+      "correct_answer": "Uchki kurtakning o‘sish konusi",
+      "explanation": "Novda uchki kurtakdagi o‘sish konusi hujayralarining bo‘linishi hisobiga uzayadi; yon novdalar uchida ham shunday o‘sish nuqtasi bor."
+    },
+    {
+      "key": "paragraph-14-q2",
+      "fact_id": "paragraph-14-f2",
+      "question_text": "Bog‘bon novda uchini chilpisa, qanday natija kutiladi?",
+      "options": [
+        "Yon novdalar ko‘proq rivojlanadi",
+        "Faqat asosiy novda yanada uzayadi",
+        "Barcha ildizlar yo‘qoladi",
+        "Barglar darhol meva bo‘ladi"
+      ],
+      "correct_answer": "Yon novdalar ko‘proq rivojlanadi",
+      "explanation": "Uchki kurtak chilpilsa shu novdaning bo‘yiga o‘sishi to‘xtab, yon novdalarning rivojlanishi kuchayadi."
+    },
+    {
+      "key": "paragraph-14-q3",
+      "fact_id": "paragraph-14-f3",
+      "question_text": "Qaysi juftlik sekin o‘suvchi daraxtlarga misol?",
+      "options": [
+        "Tol va terak",
+        "Terak va chinor",
+        "Tol va gilos",
+        "Nok va pista"
+      ],
+      "correct_answer": "Nok va pista",
+      "explanation": "O‘simliklar turiga va sharoitiga ko‘ra turlicha tezlikda o‘sadi; darslikda tol va terak tez, nok va pista sekin o‘suvchi daraxtlarga misol qilingan."
+    },
+    {
+      "key": "paragraph-14-q4",
+      "fact_id": "paragraph-14-f4",
+      "question_text": "Kambiyning ichki tomonida qaysi qism hosil bo‘ladi?",
+      "options": [
+        "Faqat kurtak tangachasi",
+        "Gulqo‘rg‘on",
+        "Yog‘ochlik",
+        "Faqat epiderma"
+      ],
+      "correct_answer": "Yog‘ochlik",
+      "explanation": "Kambiydan ichkariga hosil bo‘lgan hujayralar yog‘ochlikka, tashqariga hosil bo‘lganlari lubga aylanadi."
+    },
+    {
+      "key": "paragraph-14-q5",
+      "fact_id": "paragraph-14-f5",
+      "question_text": "Yangi yillik halqa oldingi yog‘ochlikka nisbatan qayerda hosil bo‘ladi?",
+      "options": [
+        "Faqat ildiz tukchasida",
+        "Tashqi tomonida",
+        "Faqat o‘zak markazida",
+        "Faqat barg uchida"
+      ],
+      "correct_answer": "Tashqi tomonida",
+      "explanation": "Har yili yangi yog‘ochlik halqasi hosil bo‘lib, avvalgi yillardagi yog‘ochlikni tashqaridan o‘raydi."
+    }
+  ]
+}

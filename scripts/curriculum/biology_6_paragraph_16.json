@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-16-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-19",
+  "title": "Oddiy va murakkab barglar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-16-f1": {
+      "claim": "Bitta barg bandida bitta yaproq bo‘lsa, barg oddiy deyiladi; olma va o‘rik barglari misol bo‘ladi.",
+      "answer": "Oddiy barg",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f2": {
+      "claim": "Bitta umumiy bandda bir nechta bargcha joylashsa, murakkab barg hosil bo‘ladi; yong‘oq va na’matakda shunday.",
+      "answer": "Umumiy banddagi bir nechta bargcha",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f3": {
+      "claim": "Sebarga, beda, loviya va qulupnayda uch bargchali murakkab barg uchraydi.",
+      "answer": "Beda",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f4": {
+      "claim": "Murakkab bargning uchi bitta bargcha bilan tugasa toq patsimon, bunday uchki bargcha bo‘lmasa juft patsimon barg deyiladi.",
+      "answer": "Toq patsimon",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f5": {
+      "claim": "Oddiy barg yaprog‘i panjasimon yoki uch bo‘lakli qirqilgan bo‘lishi ham mumkin; bo‘laklilik bargni avtomatik murakkab qilmaydi.",
+      "answer": "Alohida bargchalar yoki yagona yaproq borligiga qarab",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oddiy barg mezoni",
+      "body": "Bitta barg bandida bitta yaproq bo‘lsa, barg oddiy deyiladi; olma va o‘rik barglari misol bo‘ladi.",
+      "fact_ids": [
+        "paragraph-16-f1"
+      ]
+    },
+    {
+      "title": "Murakkab barg mezoni",
+      "body": "Bitta umumiy bandda bir nechta bargcha joylashsa, murakkab barg hosil bo‘ladi; yong‘oq va na’matakda shunday.",
+      "fact_ids": [
+        "paragraph-16-f2"
+      ]
+    },
+    {
+      "title": "Uch bargchali misol",
+      "body": "Sebarga, beda, loviya va qulupnayda uch bargchali murakkab barg uchraydi.",
+      "fact_ids": [
+        "paragraph-16-f3"
+      ]
+    },
+    {
+      "title": "Juft va toq patsimon",
+      "body": "Murakkab bargning uchi bitta bargcha bilan tugasa toq patsimon, bunday uchki bargcha bo‘lmasa juft patsimon barg deyiladi.",
+      "fact_ids": [
+        "paragraph-16-f4"
+      ]
+    },
+    {
+      "title": "Bo‘lak va bargcha farqi",
+      "body": "Oddiy barg yaprog‘i panjasimon yoki uch bo‘lakli qirqilgan bo‘lishi ham mumkin; bo‘laklilik bargni avtomatik murakkab qilmaydi.",
+      "fact_ids": [
+        "paragraph-16-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-16-q1",
+      "fact_id": "paragraph-16-f1",
+      "question_text": "Barg bandida bitta yaproq bo‘lsa qanday barg deyiladi?",
+      "options": [
+        "Qo‘shimcha ildiz",
+        "Oddiy barg",
+        "Murakkab barg",
+        "To‘pgul"
+      ],
+      "correct_answer": "Oddiy barg",
+      "explanation": "Bitta barg bandida bitta yaproq bo‘lsa, barg oddiy deyiladi; olma va o‘rik barglari misol bo‘ladi."
+    },
+    {
+      "key": "paragraph-16-q2",
+      "fact_id": "paragraph-16-f2",
+      "question_text": "Yong‘oq bargini murakkab deb ajratishda qaysi belgi asosiy?",
+      "options": [
+        "Umumiy banddagi bir nechta bargcha",
+        "Faqat bargning yashil rangi",
+        "Faqat yaproq chetidagi tishlar",
+        "Faqat bargning kattaligi"
+      ],
+      "correct_answer": "Umumiy banddagi bir nechta bargcha",
+      "explanation": "Bitta umumiy bandda bir nechta bargcha joylashsa, murakkab barg hosil bo‘ladi; yong‘oq va na’matakda shunday."
+    },
+    {
+      "key": "paragraph-16-q3",
+      "fact_id": "paragraph-16-f3",
+      "question_text": "Uch bargchali murakkab bargga qaysi misol mos?",
+      "options": [
+        "Olma",
+        "O‘rik",
+        "Terak",
+        "Beda"
+      ],
+      "correct_answer": "Beda",
+      "explanation": "Sebarga, beda, loviya va qulupnayda uch bargchali murakkab barg uchraydi."
+    },
+    {
+      "key": "paragraph-16-q4",
+      "fact_id": "paragraph-16-f4",
+      "question_text": "Umumiy bandning uchida bitta bargcha bor. Bu qaysi tur?",
+      "options": [
+        "Faqat oddiy panjasimon",
+        "Faqat bandsiz",
+        "Toq patsimon",
+        "Juft patsimon"
+      ],
+      "correct_answer": "Toq patsimon",
+      "explanation": "Murakkab bargning uchi bitta bargcha bilan tugasa toq patsimon, bunday uchki bargcha bo‘lmasa juft patsimon barg deyiladi."
+    },
+    {
+      "key": "paragraph-16-q5",
+      "fact_id": "paragraph-16-f5",
+      "question_text": "Yagona yaproq chuqur bo‘laklangan bo‘lsa, nima asosida oddiy yoki murakkabligi aniqlanadi?",
+      "options": [
+        "Faqat band uzunligiga qarab",
+        "Alohida bargchalar yoki yagona yaproq borligiga qarab",
+        "Faqat qirralar soniga qarab",
+        "Faqat rangining to‘qligiga qarab"
+      ],
+      "correct_answer": "Alohida bargchalar yoki yagona yaproq borligiga qarab",
+      "explanation": "Oddiy barg yaprog‘i panjasimon yoki uch bo‘lakli qirqilgan bo‘lishi ham mumkin; bo‘laklilik bargni avtomatik murakkab qilmaydi."
+    }
+  ]
+}

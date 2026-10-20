@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-10-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-13",
+  "title": "Novda",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-10-f1": {
+      "claim": "Novda poya hamda undagi barg va kurtaklardan iborat vegetativ organdir.",
+      "answer": "Poya, barg va kurtaklardan",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f2": {
+      "claim": "Poyada barg va yon kurtak joylashgan qism bo‘g‘im, qo‘shni bo‘g‘imlar orasidagi masofa bo‘g‘im oralig‘i deyiladi.",
+      "answer": "Bo‘g‘im",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f3": {
+      "claim": "Barg va kurtakli novda vegetativ, gul paydo bo‘lgan novda esa generativ yoki gulli novda deyiladi.",
+      "answer": "Generativ novda",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f4": {
+      "claim": "Darslikdagi novda rasmida kurtaklar novda uchida va barglar yonida, bo‘g‘im oralig‘i esa ikki bo‘g‘im orasida ko‘rsatilgan.",
+      "answer": "Bo‘g‘im oralig‘ini",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Novdaning qismlari",
+      "body": "Novda poya hamda undagi barg va kurtaklardan iborat vegetativ organdir.",
+      "fact_ids": [
+        "paragraph-10-f1"
+      ]
+    },
+    {
+      "title": "Bo‘g‘im va oraliq",
+      "body": "Poyada barg va yon kurtak joylashgan qism bo‘g‘im, qo‘shni bo‘g‘imlar orasidagi masofa bo‘g‘im oralig‘i deyiladi.",
+      "fact_ids": [
+        "paragraph-10-f2"
+      ]
+    },
+    {
+      "title": "Ikki turdagi novda",
+      "body": "Barg va kurtakli novda vegetativ, gul paydo bo‘lgan novda esa generativ yoki gulli novda deyiladi.",
+      "fact_ids": [
+        "paragraph-10-f3"
+      ]
+    },
+    {
+      "title": "Rasmdan qismlarni tanish",
+      "body": "Darslikdagi novda rasmida kurtaklar novda uchida va barglar yonida, bo‘g‘im oralig‘i esa ikki bo‘g‘im orasida ko‘rsatilgan.",
+      "fact_ids": [
+        "paragraph-10-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-10-q1",
+      "fact_id": "paragraph-10-f1",
+      "question_text": "Novda qaysi qismlardan tashkil topadi?",
+      "options": [
+        "Faqat urug‘palla va qobiqdan",
+        "Poya, barg va kurtaklardan",
+        "Faqat asosiy va yon ildizlardan",
+        "Faqat gulqo‘rg‘on va changchidan"
+      ],
+      "correct_answer": "Poya, barg va kurtaklardan",
+      "explanation": "Novda poya hamda undagi barg va kurtaklardan iborat vegetativ organdir."
+    },
+    {
+      "key": "paragraph-10-q2",
+      "fact_id": "paragraph-10-f2",
+      "question_text": "Barg va yon kurtak joylashgan poya qismi nima?",
+      "options": [
+        "Bo‘g‘im",
+        "Bo‘g‘im oralig‘i",
+        "Ildiz qinchasi",
+        "O‘zak"
+      ],
+      "correct_answer": "Bo‘g‘im",
+      "explanation": "Poyada barg va yon kurtak joylashgan qism bo‘g‘im, qo‘shni bo‘g‘imlar orasidagi masofa bo‘g‘im oralig‘i deyiladi."
+    },
+    {
+      "key": "paragraph-10-q3",
+      "fact_id": "paragraph-10-f3",
+      "question_text": "Gul hosil qilgan novda qanday ataladi?",
+      "options": [
+        "Faqat vegetativ novda",
+        "Popuk ildiz",
+        "Ildizmeva",
+        "Generativ novda"
+      ],
+      "correct_answer": "Generativ novda",
+      "explanation": "Barg va kurtakli novda vegetativ, gul paydo bo‘lgan novda esa generativ yoki gulli novda deyiladi."
+    },
+    {
+      "key": "paragraph-10-q4",
+      "fact_id": "paragraph-10-f4",
+      "question_text": "Ikki qo‘shni bo‘g‘im orasini o‘lchasak nimani aniqlaymiz?",
+      "options": [
+        "Ildiz tukchasi uzunligini",
+        "Meva diametrini",
+        "Bo‘g‘im oralig‘ini",
+        "Barg enini"
+      ],
+      "correct_answer": "Bo‘g‘im oralig‘ini",
+      "explanation": "Darslikdagi novda rasmida kurtaklar novda uchida va barglar yonida, bo‘g‘im oralig‘i esa ikki bo‘g‘im orasida ko‘rsatilgan."
+    }
+  ]
+}

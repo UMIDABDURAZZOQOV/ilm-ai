@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-12-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-15",
+  "title": "Kurtak",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-12-f1": {
+      "claim": "Vegetativ kurtak boshlang‘ich bargli novda, generativ kurtak esa boshlang‘ich gul yoki to‘pguldir.",
+      "answer": "Gul yoki to‘pgul",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f2": {
+      "claim": "Novda uchidagi kurtak uchki, barg qo‘ltig‘idagisi yon kurtak deyiladi; qo‘shimcha kurtaklar ildiz yoki bargda ham bo‘lishi mumkin.",
+      "answer": "Yon kurtak",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f3": {
+      "claim": "Terak kurtagi tashqaridan tangacha barglar bilan o‘ralib, sovuq va kasallik qo‘zg‘atuvchilardan himoyalanadi.",
+      "answer": "Ichki qismlarni himoya qilish",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f4": {
+      "claim": "Kurtak uzunasiga kesilganda qobiq ostida boshlang‘ich poya va zich joylashgan boshlang‘ich barglar ko‘rinadi.",
+      "answer": "Boshlang‘ich poya va barglar",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f5": {
+      "claim": "O‘rik, shaftoli va bodomda erta bahorda avval generativ, keyin vegetativ kurtaklar ochiladi.",
+      "answer": "Generativ kurtak",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Boshlang‘ich novda",
+      "body": "Vegetativ kurtak boshlang‘ich bargli novda, generativ kurtak esa boshlang‘ich gul yoki to‘pguldir.",
+      "fact_ids": [
+        "paragraph-12-f1"
+      ]
+    },
+    {
+      "title": "Kurtakning joyi",
+      "body": "Novda uchidagi kurtak uchki, barg qo‘ltig‘idagisi yon kurtak deyiladi; qo‘shimcha kurtaklar ildiz yoki bargda ham bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-12-f2"
+      ]
+    },
+    {
+      "title": "Himoya tangachalari",
+      "body": "Terak kurtagi tashqaridan tangacha barglar bilan o‘ralib, sovuq va kasallik qo‘zg‘atuvchilardan himoyalanadi.",
+      "fact_ids": [
+        "paragraph-12-f3"
+      ]
+    },
+    {
+      "title": "Ichkariga nazar",
+      "body": "Kurtak uzunasiga kesilganda qobiq ostida boshlang‘ich poya va zich joylashgan boshlang‘ich barglar ko‘rinadi.",
+      "fact_ids": [
+        "paragraph-12-f4"
+      ]
+    },
+    {
+      "title": "Bahorgi ketma-ketlik",
+      "body": "O‘rik, shaftoli va bodomda erta bahorda avval generativ, keyin vegetativ kurtaklar ochiladi.",
+      "fact_ids": [
+        "paragraph-12-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-12-q1",
+      "fact_id": "paragraph-12-f1",
+      "question_text": "Generativ kurtakdan nima rivojlanadi?",
+      "options": [
+        "Faqat po‘kak qatlami",
+        "Gul yoki to‘pgul",
+        "Faqat asosiy ildiz",
+        "Faqat ildiz tukchasi"
+      ],
+      "correct_answer": "Gul yoki to‘pgul",
+      "explanation": "Vegetativ kurtak boshlang‘ich bargli novda, generativ kurtak esa boshlang‘ich gul yoki to‘pguldir."
+    },
+    {
+      "key": "paragraph-12-q2",
+      "fact_id": "paragraph-12-f2",
+      "question_text": "Barg qo‘ltig‘idagi kurtak qanday ataladi?",
+      "options": [
+        "Yon kurtak",
+        "Uchki kurtak",
+        "Ildiz qinchasi",
+        "Bo‘g‘im oralig‘i"
+      ],
+      "correct_answer": "Yon kurtak",
+      "explanation": "Novda uchidagi kurtak uchki, barg qo‘ltig‘idagisi yon kurtak deyiladi; qo‘shimcha kurtaklar ildiz yoki bargda ham bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-12-q3",
+      "fact_id": "paragraph-12-f3",
+      "question_text": "Kurtak tangachalarining asosiy vazifasi qaysi?",
+      "options": [
+        "Organik moddalarni ildizdan bargga haydash",
+        "Urug‘ni meva ichida saqlash",
+        "Gul changi chiqarish",
+        "Ichki qismlarni himoya qilish"
+      ],
+      "correct_answer": "Ichki qismlarni himoya qilish",
+      "explanation": "Terak kurtagi tashqaridan tangacha barglar bilan o‘ralib, sovuq va kasallik qo‘zg‘atuvchilardan himoyalanadi."
+    },
+    {
+      "key": "paragraph-12-q4",
+      "fact_id": "paragraph-12-f4",
+      "question_text": "Vegetativ kurtak ichida qaysi qismlar ko‘rinadi?",
+      "options": [
+        "Faqat popuk ildizlar",
+        "Faqat chang donalari",
+        "Boshlang‘ich poya va barglar",
+        "Faqat pishgan meva va urug‘"
+      ],
+      "correct_answer": "Boshlang‘ich poya va barglar",
+      "explanation": "Kurtak uzunasiga kesilganda qobiq ostida boshlang‘ich poya va zich joylashgan boshlang‘ich barglar ko‘rinadi."
+    },
+    {
+      "key": "paragraph-12-q5",
+      "fact_id": "paragraph-12-f5",
+      "question_text": "Bodomda gullar barglardan oldin ko‘rinsa, qaysi kurtak avval ochilgan?",
+      "options": [
+        "Ildiz qinchasi",
+        "Generativ kurtak",
+        "Vegetativ kurtak",
+        "Faqat qo‘shimcha ildiz"
+      ],
+      "correct_answer": "Generativ kurtak",
+      "explanation": "O‘rik, shaftoli va bodomda erta bahorda avval generativ, keyin vegetativ kurtaklar ochiladi."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-laboratory-5-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-laboratory-5",
+  "title": "5-laboratoriya. Mevalarning tuzilishi va xilma-xilligini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-5-f1": {
+      "claim": "Laboratoriya ishida to‘plamdagi namunalarning qaysi meva turiga va qaysi o‘simlikka tegishli ekanligi aniqlanadi.",
+      "answer": "O‘simlik nomi va meva turi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f2": {
+      "claim": "Quruq mevalar orasida chatnaydigan va chatnamaydigan namunalarning farqlari tekshiriladi.",
+      "answer": "Pishganda ochilishi yoki ochilmasligiga",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f3": {
+      "claim": "Ho‘l mevalar ham o‘rganiladi; mevalar rasmi chizilib, asosiy belgilari ko‘rsatiladi.",
+      "answer": "Rasmda mevaning asosiy belgilarini ko‘rsatish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Namuna va tur",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya ishida to‘plamdagi namunalarning qaysi meva turiga va qaysi o‘simlikka tegishli ekanligi aniqlanadi.",
+      "fact_ids": [
+        "laboratory-5-f1"
+      ]
+    },
+    {
+      "title": "Quruq mevalarni guruhlash",
+      "body": "Quruq mevalar orasida chatnaydigan va chatnamaydigan namunalarning farqlari tekshiriladi.",
+      "fact_ids": [
+        "laboratory-5-f2"
+      ]
+    },
+    {
+      "title": "Tasvirli xulosa",
+      "body": "Ho‘l mevalar ham o‘rganiladi; mevalar rasmi chizilib, asosiy belgilari ko‘rsatiladi.",
+      "fact_ids": [
+        "laboratory-5-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-5-q1",
+      "fact_id": "laboratory-5-f1",
+      "question_text": "Namuna kartasiga qaysi ikki ma’lumot yoziladi?",
+      "options": [
+        "Faqat lupa kattaligi",
+        "O‘simlik nomi va meva turi",
+        "Faqat idish rangi va narxi",
+        "Faqat xona harorati va vaqt"
+      ],
+      "correct_answer": "O‘simlik nomi va meva turi",
+      "explanation": "Laboratoriya ishida to‘plamdagi namunalarning qaysi meva turiga va qaysi o‘simlikka tegishli ekanligi aniqlanadi."
+    },
+    {
+      "key": "laboratory-5-q2",
+      "fact_id": "laboratory-5-f2",
+      "question_text": "Quruq mevalar qanday belgiga ko‘ra yana ajratiladi?",
+      "options": [
+        "Pishganda ochilishi yoki ochilmasligiga",
+        "Faqat gulining hidiga",
+        "Faqat barg bandi uzunligiga",
+        "Faqat ildiz chuqurligiga"
+      ],
+      "correct_answer": "Pishganda ochilishi yoki ochilmasligiga",
+      "explanation": "Quruq mevalar orasida chatnaydigan va chatnamaydigan namunalarning farqlari tekshiriladi."
+    },
+    {
+      "key": "laboratory-5-q3",
+      "fact_id": "laboratory-5-f3",
+      "question_text": "Laboratoriya hisobotining mazmunli yakuni qaysi?",
+      "options": [
+        "Barcha namunani bir tur deb yozish",
+        "Manbasiz nomlarni taxmin qilish",
+        "Faqat asboblar narxini yozish",
+        "Rasmda mevaning asosiy belgilarini ko‘rsatish"
+      ],
+      "correct_answer": "Rasmda mevaning asosiy belgilarini ko‘rsatish",
+      "explanation": "Ho‘l mevalar ham o‘rganiladi; mevalar rasmi chizilib, asosiy belgilari ko‘rsatiladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Mevalarning tuzilishi va xilma-xilligini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Namuna va tur",
+        "fact_ids": [
+          "laboratory-5-f1"
+        ]
+      },
+      {
+        "instruction": "Quruq mevalarni guruhlash",
+        "fact_ids": [
+          "laboratory-5-f2"
+        ]
+      },
+      {
+        "instruction": "Tasvirli xulosa",
+        "fact_ids": [
+          "laboratory-5-f3"
+        ]
+      }
+    ]
+  }
+}

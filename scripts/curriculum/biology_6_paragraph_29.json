@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-29-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-33",
+  "title": "O‘simliklarning suv bug‘latishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-29-f1": {
+      "claim": "Suv bug‘lanishi suv va mineral tuzlarning ildizdan so‘rilishiga yordam beradi hamda o‘simlik organlarini qizib ketishdan saqlaydi.",
+      "answer": "Suv harakatiga yordam berish va sovitish",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f2": {
+      "claim": "Bargli novda solingan kolba devoridagi suv tomchilari bargdan ajralgan suv bug‘ining yig‘ilganini ko‘rsatadi.",
+      "answer": "Bargning suv bug‘latishiga",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f3": {
+      "claim": "Suvli idish yuzasiga yupqa moy qatlami qo‘yish suvning idish yuzasidan bevosita bug‘lanishini kamaytiradi; bu barg bug‘latishini ajratib tekshirishga yordam beradi.",
+      "answer": "Idish yuzasidan bug‘lanishni kamaytirish uchun",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f4": {
+      "claim": "Saksovul barglarining maydalanishi va kaktus barglarining tikanga aylanishi suv yo‘qotishni kamaytirishga moslashuvdir.",
+      "answer": "Suv yo‘qotishni kamaytiradi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-29-f5": {
+      "claim": "Elodeya va suv nilufari suvda yashaydi; qamish namsevar, saksovul esa suv tanqisligiga chidamli o‘simliklarga misoldir.",
+      "answer": "Saksovul",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Transpiratsiyaning foydasi",
+      "body": "Suv bug‘lanishi suv va mineral tuzlarning ildizdan so‘rilishiga yordam beradi hamda o‘simlik organlarini qizib ketishdan saqlaydi.",
+      "fact_ids": [
+        "paragraph-29-f1"
+      ]
+    },
+    {
+      "title": "Tajriba dalili",
+      "body": "Bargli novda solingan kolba devoridagi suv tomchilari bargdan ajralgan suv bug‘ining yig‘ilganini ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-29-f2"
+      ]
+    },
+    {
+      "title": "Nazorat sharti",
+      "body": "Suvli idish yuzasiga yupqa moy qatlami qo‘yish suvning idish yuzasidan bevosita bug‘lanishini kamaytiradi; bu barg bug‘latishini ajratib tekshirishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-29-f3"
+      ]
+    },
+    {
+      "title": "Suvni tejovchi moslashuv",
+      "body": "Saksovul barglarining maydalanishi va kaktus barglarining tikanga aylanishi suv yo‘qotishni kamaytirishga moslashuvdir.",
+      "fact_ids": [
+        "paragraph-29-f4"
+      ]
+    },
+    {
+      "title": "Ekologik guruhlar",
+      "body": "Elodeya va suv nilufari suvda yashaydi; qamish namsevar, saksovul esa suv tanqisligiga chidamli o‘simliklarga misoldir.",
+      "fact_ids": [
+        "paragraph-29-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-29-q1",
+      "fact_id": "paragraph-29-f1",
+      "question_text": "Transpiratsiyaning ikki foydasi qaysi?",
+      "options": [
+        "Faqat gultoj rangini almashtirish",
+        "Suv harakatiga yordam berish va sovitish",
+        "Faqat urug‘ni changlantirish va meva hosil qilish",
+        "Faqat tuproqni zichlash va ildizni to‘xtatish"
+      ],
+      "correct_answer": "Suv harakatiga yordam berish va sovitish",
+      "explanation": "Suv bug‘lanishi suv va mineral tuzlarning ildizdan so‘rilishiga yordam beradi hamda o‘simlik organlarini qizib ketishdan saqlaydi."
+    },
+    {
+      "key": "paragraph-29-q2",
+      "fact_id": "paragraph-29-f2",
+      "question_text": "Kolba ichida bargli novda atrofida tomchilar paydo bo‘lishi nimaga dalil?",
+      "options": [
+        "Bargning suv bug‘latishiga",
+        "Gul changining yog‘ga aylanishiga",
+        "Urug‘palla hosil bo‘lishiga",
+        "Toshning erishiga"
+      ],
+      "correct_answer": "Bargning suv bug‘latishiga",
+      "explanation": "Bargli novda solingan kolba devoridagi suv tomchilari bargdan ajralgan suv bug‘ining yig‘ilganini ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-29-q3",
+      "fact_id": "paragraph-29-f3",
+      "question_text": "Tajriba idishidagi moy qatlami nima uchun kerak?",
+      "options": [
+        "Bargni bo‘yash uchun",
+        "Urug‘pallani yoritish uchun",
+        "Faqat mineral tuz hosil qilish uchun",
+        "Idish yuzasidan bug‘lanishni kamaytirish uchun"
+      ],
+      "correct_answer": "Idish yuzasidan bug‘lanishni kamaytirish uchun",
+      "explanation": "Suvli idish yuzasiga yupqa moy qatlami qo‘yish suvning idish yuzasidan bevosita bug‘lanishini kamaytiradi; bu barg bug‘latishini ajratib tekshirishga yordam beradi."
+    },
+    {
+      "key": "paragraph-29-q4",
+      "fact_id": "paragraph-29-f4",
+      "question_text": "Kaktus barglarining tikanga aylanishi qanday yordam beradi?",
+      "options": [
+        "Faqat changchining sonini ko‘paytiradi",
+        "Ildiz bosimini butunlay yo‘qotadi",
+        "Suv yo‘qotishni kamaytiradi",
+        "Bug‘lanishni doimo cheksiz oshiradi"
+      ],
+      "correct_answer": "Suv yo‘qotishni kamaytiradi",
+      "explanation": "Saksovul barglarining maydalanishi va kaktus barglarining tikanga aylanishi suv yo‘qotishni kamaytirishga moslashuvdir."
+    },
+    {
+      "key": "paragraph-29-q5",
+      "fact_id": "paragraph-29-f5",
+      "question_text": "Suv tanqisligiga chidamli o‘simlikka qaysi misol mos?",
+      "options": [
+        "Qamish",
+        "Saksovul",
+        "Elodeya",
+        "Suv nilufari"
+      ],
+      "correct_answer": "Saksovul",
+      "explanation": "Elodeya va suv nilufari suvda yashaydi; qamish namsevar, saksovul esa suv tanqisligiga chidamli o‘simliklarga misoldir."
+    }
+  ]
+}

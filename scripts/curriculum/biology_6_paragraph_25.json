@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-25-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-29",
+  "title": "O‘simliklarning mineral oziqlanishi. Ildiz bosimi. O‘g‘itlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-25-f1": {
+      "claim": "Suv va erigan mineral moddalar avval ildiz tukchalariga, keyin po‘stloq hujayralariga va o‘tkazuvchi qismga o‘tib, yerusti organlariga ko‘tariladi.",
+      "answer": "Ildiz tukchasi → po‘stloq hujayralari → o‘tkazuvchi qism",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f2": {
+      "claim": "Suv yetarli bo‘lganda hujayralar tarangligini saqlaydi; suv yetishmaganda o‘simlik so‘lishi mumkin.",
+      "answer": "So‘lish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f3": {
+      "claim": "Ildiz bosimi suv va unda erigan moddalarning yuqoriga ko‘tarilishiga yordam beradi; bahorda kesilgan novdadan shira sizishi bilan kuzatiladi.",
+      "answer": "Ildiz bosimi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f4": {
+      "claim": "Organik o‘g‘itga go‘ng misol bo‘ladi; mineral o‘g‘itlar azotli, fosforli va kaliyli guruhlarga ajratiladi.",
+      "answer": "Go‘ng",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f5": {
+      "claim": "Sug‘orish o‘simlikning suvga ehtiyojini qondiradi, ammo ortiqcha suv isrof bo‘lishiga yo‘l qo‘ymaslik kerak.",
+      "answer": "Ehtiyojni qondirib, suv isrofini kamaytirish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suvning yo‘li",
+      "body": "Suv va erigan mineral moddalar avval ildiz tukchalariga, keyin po‘stloq hujayralariga va o‘tkazuvchi qismga o‘tib, yerusti organlariga ko‘tariladi.",
+      "fact_ids": [
+        "paragraph-25-f1"
+      ]
+    },
+    {
+      "title": "Suv va taranglik",
+      "body": "Suv yetarli bo‘lganda hujayralar tarangligini saqlaydi; suv yetishmaganda o‘simlik so‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-25-f2"
+      ]
+    },
+    {
+      "title": "Ildiz bosimi",
+      "body": "Ildiz bosimi suv va unda erigan moddalarning yuqoriga ko‘tarilishiga yordam beradi; bahorda kesilgan novdadan shira sizishi bilan kuzatiladi.",
+      "fact_ids": [
+        "paragraph-25-f3"
+      ]
+    },
+    {
+      "title": "O‘g‘itlarni guruhlash",
+      "body": "Organik o‘g‘itga go‘ng misol bo‘ladi; mineral o‘g‘itlar azotli, fosforli va kaliyli guruhlarga ajratiladi.",
+      "fact_ids": [
+        "paragraph-25-f4"
+      ]
+    },
+    {
+      "title": "Suvni tejash",
+      "body": "Sug‘orish o‘simlikning suvga ehtiyojini qondiradi, ammo ortiqcha suv isrof bo‘lishiga yo‘l qo‘ymaslik kerak.",
+      "fact_ids": [
+        "paragraph-25-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-25-q1",
+      "fact_id": "paragraph-25-f1",
+      "question_text": "Tuproqdan o‘tkazuvchi qismgacha qaysi tartib mos?",
+      "options": [
+        "O‘zak → gulkosa → urug‘palla",
+        "Ildiz tukchasi → po‘stloq hujayralari → o‘tkazuvchi qism",
+        "Gultoj → changdon → ildiz qinchasi",
+        "Urug‘ → meva → gul"
+      ],
+      "correct_answer": "Ildiz tukchasi → po‘stloq hujayralari → o‘tkazuvchi qism",
+      "explanation": "Suv va erigan mineral moddalar avval ildiz tukchalariga, keyin po‘stloq hujayralariga va o‘tkazuvchi qismga o‘tib, yerusti organlariga ko‘tariladi."
+    },
+    {
+      "key": "paragraph-25-q2",
+      "fact_id": "paragraph-25-f2",
+      "question_text": "Suv yetishmaganda o‘simlikda qanday holat yuz berishi mumkin?",
+      "options": [
+        "So‘lish",
+        "Darhol gullarning ko‘payishi",
+        "Hujayralar tarangligining cheksiz oshishi",
+        "Urug‘pallalar sonining ortishi"
+      ],
+      "correct_answer": "So‘lish",
+      "explanation": "Suv yetarli bo‘lganda hujayralar tarangligini saqlaydi; suv yetishmaganda o‘simlik so‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-25-q3",
+      "fact_id": "paragraph-25-f3",
+      "question_text": "Bahorda kesilgan novdadan shira sizishiga qaysi hodisa yordam beradi?",
+      "options": [
+        "Gul changining uchishi",
+        "Meva po‘stining chatnashi",
+        "Urug‘palla ochilishi",
+        "Ildiz bosimi"
+      ],
+      "correct_answer": "Ildiz bosimi",
+      "explanation": "Ildiz bosimi suv va unda erigan moddalarning yuqoriga ko‘tarilishiga yordam beradi; bahorda kesilgan novdadan shira sizishi bilan kuzatiladi."
+    },
+    {
+      "key": "paragraph-25-q4",
+      "fact_id": "paragraph-25-f4",
+      "question_text": "Qaysi namuna organik o‘g‘itga kiradi?",
+      "options": [
+        "Fosforli mineral o‘g‘it",
+        "Kaliyli mineral o‘g‘it",
+        "Go‘ng",
+        "Azotli mineral o‘g‘it"
+      ],
+      "correct_answer": "Go‘ng",
+      "explanation": "Organik o‘g‘itga go‘ng misol bo‘ladi; mineral o‘g‘itlar azotli, fosforli va kaliyli guruhlarga ajratiladi."
+    },
+    {
+      "key": "paragraph-25-q5",
+      "fact_id": "paragraph-25-f5",
+      "question_text": "Sug‘orishda qaysi tamoyil darslik tavsiyasiga mos?",
+      "options": [
+        "Tuproqdagi havoni ataylab yo‘qotish",
+        "Ehtiyojni qondirib, suv isrofini kamaytirish",
+        "Doimo imkon qadar ko‘p suv quyish",
+        "Barcha o‘simliklarni suvsiz saqlash"
+      ],
+      "correct_answer": "Ehtiyojni qondirib, suv isrofini kamaytirish",
+      "explanation": "Sug‘orish o‘simlikning suvga ehtiyojini qondiradi, ammo ortiqcha suv isrof bo‘lishiga yo‘l qo‘ymaslik kerak."
+    }
+  ]
+}

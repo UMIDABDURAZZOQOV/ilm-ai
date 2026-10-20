@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-28-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-32",
+  "title": "O‘simliklarning nafas olishi, oziqlanishi. O‘simliklarda moddalar almashinuvi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-28-f1": {
+      "claim": "Nafas olishda o‘simlik kislorod olib, karbonat angidrid chiqaradi; fotosintezda gazlarning bu yo‘nalishi aksincha.",
+      "answer": "Kislorod",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f2": {
+      "claim": "Nafas olish yorug‘likni talab qilmaydi va kecha-kunduz davom etadi; yorug‘likda nafas olish va fotosintez bir vaqtda borishi mumkin.",
+      "answer": "Fotosintez ham, nafas olish ham boradi",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f3": {
+      "claim": "O‘simlikning barcha tirik hujayralari nafas oladi; bu faqat yashil barglargagina xos jarayon emas.",
+      "answer": "Barcha tirik hujayralari",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f4": {
+      "claim": "Nafas olishda organik moddalar suv va karbonat angidridgacha parchalanib, hayotiy faoliyatga zarur energiya ajraladi.",
+      "answer": "Parchalanib, energiya ajraladi",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-28-f5": {
+      "claim": "O‘simlikda modda va energiyaning o‘zgarishlari moddalar almashinuvini tashkil etadi; fotosintez va nafas olish o‘zaro bog‘liqdir.",
+      "answer": "O‘zaro bog‘liq moddalar almashinuvi jarayonlari",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gaz almashinuvidagi farq",
+      "body": "Nafas olishda o‘simlik kislorod olib, karbonat angidrid chiqaradi; fotosintezda gazlarning bu yo‘nalishi aksincha.",
+      "fact_ids": [
+        "paragraph-28-f1"
+      ]
+    },
+    {
+      "title": "Kun va tun",
+      "body": "Nafas olish yorug‘likni talab qilmaydi va kecha-kunduz davom etadi; yorug‘likda nafas olish va fotosintez bir vaqtda borishi mumkin.",
+      "fact_ids": [
+        "paragraph-28-f2"
+      ]
+    },
+    {
+      "title": "Hamma tirik qismlar",
+      "body": "O‘simlikning barcha tirik hujayralari nafas oladi; bu faqat yashil barglargagina xos jarayon emas.",
+      "fact_ids": [
+        "paragraph-28-f3"
+      ]
+    },
+    {
+      "title": "Energiya va moddalar",
+      "body": "Nafas olishda organik moddalar suv va karbonat angidridgacha parchalanib, hayotiy faoliyatga zarur energiya ajraladi.",
+      "fact_ids": [
+        "paragraph-28-f4"
+      ]
+    },
+    {
+      "title": "Moddalar almashinuvi",
+      "body": "O‘simlikda modda va energiyaning o‘zgarishlari moddalar almashinuvini tashkil etadi; fotosintez va nafas olish o‘zaro bog‘liqdir.",
+      "fact_ids": [
+        "paragraph-28-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-28-q1",
+      "fact_id": "paragraph-28-f1",
+      "question_text": "O‘simlikning nafas olishida qaysi gaz olinadi?",
+      "options": [
+        "Faqat vodorod",
+        "Kislorod",
+        "Faqat karbonat angidrid",
+        "Faqat geliy"
+      ],
+      "correct_answer": "Kislorod",
+      "explanation": "Nafas olishda o‘simlik kislorod olib, karbonat angidrid chiqaradi; fotosintezda gazlarning bu yo‘nalishi aksincha."
+    },
+    {
+      "key": "paragraph-28-q2",
+      "fact_id": "paragraph-28-f2",
+      "question_text": "Kunduzi yashil bargda qaysi holat mumkin?",
+      "options": [
+        "Fotosintez ham, nafas olish ham boradi",
+        "Faqat nafas olish bo‘lib, fotosintez mutlaqo bo‘lmaydi",
+        "Faqat fotosintez bo‘lib, nafas olish to‘xtaydi",
+        "Ikkala jarayon ham to‘xtaydi"
+      ],
+      "correct_answer": "Fotosintez ham, nafas olish ham boradi",
+      "explanation": "Nafas olish yorug‘likni talab qilmaydi va kecha-kunduz davom etadi; yorug‘likda nafas olish va fotosintez bir vaqtda borishi mumkin."
+    },
+    {
+      "key": "paragraph-28-q3",
+      "fact_id": "paragraph-28-f3",
+      "question_text": "O‘simlikning qaysi hujayralari nafas oladi?",
+      "options": [
+        "Faqat bargning yashil hujayralari",
+        "Faqat o‘lik yog‘och naylari",
+        "Faqat quruq po‘kak hujayralari",
+        "Barcha tirik hujayralari"
+      ],
+      "correct_answer": "Barcha tirik hujayralari",
+      "explanation": "O‘simlikning barcha tirik hujayralari nafas oladi; bu faqat yashil barglargagina xos jarayon emas."
+    },
+    {
+      "key": "paragraph-28-q4",
+      "fact_id": "paragraph-28-f4",
+      "question_text": "Nafas olishda organik moddalarga nima bo‘ladi?",
+      "options": [
+        "O‘zgarmasdan cheksiz to‘planadi",
+        "Faqat mineral tuzga aylanib energiya yutiladi",
+        "Parchalanib, energiya ajraladi",
+        "Faqat yorug‘likdan yangidan hosil bo‘ladi"
+      ],
+      "correct_answer": "Parchalanib, energiya ajraladi",
+      "explanation": "Nafas olishda organik moddalar suv va karbonat angidridgacha parchalanib, hayotiy faoliyatga zarur energiya ajraladi."
+    },
+    {
+      "key": "paragraph-28-q5",
+      "fact_id": "paragraph-28-f5",
+      "question_text": "Fotosintez va nafas olishning o‘simlikdagi munosabati qanday?",
+      "options": [
+        "Faqat o‘lik hujayralardagi jarayonlar",
+        "O‘zaro bog‘liq moddalar almashinuvi jarayonlari",
+        "Bir-biriga umuman aloqasiz",
+        "Bir xil gaz yo‘nalishidagi aynan bir jarayon"
+      ],
+      "correct_answer": "O‘zaro bog‘liq moddalar almashinuvi jarayonlari",
+      "explanation": "O‘simlikda modda va energiyaning o‘zgarishlari moddalar almashinuvini tashkil etadi; fotosintez va nafas olish o‘zaro bog‘liqdir."
+    }
+  ]
+}

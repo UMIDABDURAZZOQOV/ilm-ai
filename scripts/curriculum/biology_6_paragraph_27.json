@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-27-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-31",
+  "title": "Barglarda organik moddalarning hosil bo‘lishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-27-f1": {
+      "claim": "Fotosintezda yashil organlar yorug‘lik va xlorofill ishtirokida anorganik moddalardan organik moddalar hosil qilib, kislorod ajratadi.",
+      "answer": "Yorug‘lik va xlorofill",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f2": {
+      "claim": "Fotosintezda karbonat angidrid va suv qatnashadi; organik moddalar hosil bo‘lib, kislorod ajraladi.",
+      "answer": "Karbonat angidrid",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f3": {
+      "claim": "Fotosintez natijasida avval shakar, undan keyin zaxira kraxmal hosil bo‘lishi mumkin.",
+      "answer": "Avval shakar, keyin kraxmal",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f4": {
+      "claim": "Bargda hosil bo‘lgan eruvchan organik moddalar elaksimon naylarga o‘tib, gul, urug‘, meva va ildiz kabi organlarga yetkaziladi.",
+      "answer": "Urug‘, meva va ildizning jamg‘aruvchi to‘qimalarida",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-27-f5": {
+      "claim": "Darslik fotosintez tajribasida yorug‘lik tushgan va qora qog‘oz bilan berkitilgan barg qismlarini yod yordamida taqqoslashni tavsiya qiladi.",
+      "answer": "Yorug‘lik ta’sirini taqqoslash",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Fotosintez tushunchasi",
+      "body": "Fotosintezda yashil organlar yorug‘lik va xlorofill ishtirokida anorganik moddalardan organik moddalar hosil qilib, kislorod ajratadi.",
+      "fact_ids": [
+        "paragraph-27-f1"
+      ]
+    },
+    {
+      "title": "Kirish va chiqish",
+      "body": "Fotosintezda karbonat angidrid va suv qatnashadi; organik moddalar hosil bo‘lib, kislorod ajraladi.",
+      "fact_ids": [
+        "paragraph-27-f2"
+      ]
+    },
+    {
+      "title": "Dastlabki mahsulot",
+      "body": "Fotosintez natijasida avval shakar, undan keyin zaxira kraxmal hosil bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-27-f3"
+      ]
+    },
+    {
+      "title": "Zaxirani tarqatish",
+      "body": "Bargda hosil bo‘lgan eruvchan organik moddalar elaksimon naylarga o‘tib, gul, urug‘, meva va ildiz kabi organlarga yetkaziladi.",
+      "fact_ids": [
+        "paragraph-27-f4"
+      ]
+    },
+    {
+      "title": "Tajriba natijasini tahlil qilish",
+      "body": "Darslik fotosintez tajribasida yorug‘lik tushgan va qora qog‘oz bilan berkitilgan barg qismlarini yod yordamida taqqoslashni tavsiya qiladi.",
+      "fact_ids": [
+        "paragraph-27-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-27-q1",
+      "fact_id": "paragraph-27-f1",
+      "question_text": "Fotosintez uchun qaysi shartlar muhim?",
+      "options": [
+        "Faqat meva rangi va shamol",
+        "Yorug‘lik va xlorofill",
+        "Faqat qorong‘ilik va po‘kak",
+        "Faqat tuproq va gulband"
+      ],
+      "correct_answer": "Yorug‘lik va xlorofill",
+      "explanation": "Fotosintezda yashil organlar yorug‘lik va xlorofill ishtirokida anorganik moddalardan organik moddalar hosil qilib, kislorod ajratadi."
+    },
+    {
+      "key": "paragraph-27-q2",
+      "fact_id": "paragraph-27-f2",
+      "question_text": "Fotosintezda havodan olinadigan gaz qaysi?",
+      "options": [
+        "Karbonat angidrid",
+        "Kislorod",
+        "Azotning o‘zi",
+        "Geliy"
+      ],
+      "correct_answer": "Karbonat angidrid",
+      "explanation": "Fotosintezda karbonat angidrid va suv qatnashadi; organik moddalar hosil bo‘lib, kislorod ajraladi."
+    },
+    {
+      "key": "paragraph-27-q3",
+      "fact_id": "paragraph-27-f3",
+      "question_text": "Shakar va kraxmal hosil bo‘lishining darslikdagi tartibi qaysi?",
+      "options": [
+        "Avval kraxmal, keyin suv yo‘qoladi",
+        "Faqat mineral tuz, keyin chang",
+        "Avval meva, keyin xlorofill yo‘qoladi",
+        "Avval shakar, keyin kraxmal"
+      ],
+      "correct_answer": "Avval shakar, keyin kraxmal",
+      "explanation": "Fotosintez natijasida avval shakar, undan keyin zaxira kraxmal hosil bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-27-q4",
+      "fact_id": "paragraph-27-f4",
+      "question_text": "Bargdagi ortiqcha organik oziq qayerda to‘planishi mumkin?",
+      "options": [
+        "Faqat tuvak chetida",
+        "Faqat tuproqdagi toshda",
+        "Urug‘, meva va ildizning jamg‘aruvchi to‘qimalarida",
+        "Faqat havodagi changda"
+      ],
+      "correct_answer": "Urug‘, meva va ildizning jamg‘aruvchi to‘qimalarida",
+      "explanation": "Bargda hosil bo‘lgan eruvchan organik moddalar elaksimon naylarga o‘tib, gul, urug‘, meva va ildiz kabi organlarga yetkaziladi."
+    },
+    {
+      "key": "paragraph-27-q5",
+      "fact_id": "paragraph-27-f5",
+      "question_text": "Bargning bir qismini qora qog‘oz bilan berkitishdan maqsad nima?",
+      "options": [
+        "Ildizni yo‘qotish",
+        "Yorug‘lik ta’sirini taqqoslash",
+        "Bargni boshqa turga aylantirish",
+        "Gul changini ko‘paytirish"
+      ],
+      "correct_answer": "Yorug‘lik ta’sirini taqqoslash",
+      "explanation": "Darslik fotosintez tajribasida yorug‘lik tushgan va qora qog‘oz bilan berkitilgan barg qismlarini yod yordamida taqqoslashni tavsiya qiladi."
+    }
+  ]
+}

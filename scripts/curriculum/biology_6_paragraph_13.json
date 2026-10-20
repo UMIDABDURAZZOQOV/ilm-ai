@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-13-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-16",
+  "title": "Poyaning ichki tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-13-f1": {
+      "claim": "Poya tayanch, moddalarni tashish, zaxira oziq to‘plash va vegetativ ko‘payish vazifalarida qatnashadi.",
+      "answer": "Tayanch, transport va zaxira oziq to‘plash",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f2": {
+      "claim": "Yosh tut poyasida po‘st ostidan ichkariga floema, kambiy, ksilema va markazdagi o‘zak joylashadi.",
+      "answer": "Kambiy",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f3": {
+      "claim": "Poya po‘stidagi yasmiqchalar orqali ichki tirik hujayralarning gaz almashinuvi amalga oshadi.",
+      "answer": "Gaz almashinuviga",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f4": {
+      "claim": "Kanop va zig‘ir poyalarida rivojlangan lub tolalaridan ip, arqon va gazlama tayyorlanadi.",
+      "answer": "Lub tolalari",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f5": {
+      "claim": "Ksilema suv va mineral tuzlarni o‘tkazadi; yosh novda o‘zagining tirik parenxima hujayralarida organik moddalar to‘planadi.",
+      "answer": "O‘zak",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Poyaning vazifalari",
+      "body": "Poya tayanch, moddalarni tashish, zaxira oziq to‘plash va vegetativ ko‘payish vazifalarida qatnashadi.",
+      "fact_ids": [
+        "paragraph-13-f1"
+      ]
+    },
+    {
+      "title": "Qavatlar tartibi",
+      "body": "Yosh tut poyasida po‘st ostidan ichkariga floema, kambiy, ksilema va markazdagi o‘zak joylashadi.",
+      "fact_ids": [
+        "paragraph-13-f2"
+      ]
+    },
+    {
+      "title": "Yasmiqcha va gaz almashinuvi",
+      "body": "Poya po‘stidagi yasmiqchalar orqali ichki tirik hujayralarning gaz almashinuvi amalga oshadi.",
+      "fact_ids": [
+        "paragraph-13-f3"
+      ]
+    },
+    {
+      "title": "Lub tolalari va foydalanish",
+      "body": "Kanop va zig‘ir poyalarida rivojlangan lub tolalaridan ip, arqon va gazlama tayyorlanadi.",
+      "fact_ids": [
+        "paragraph-13-f4"
+      ]
+    },
+    {
+      "title": "Ksilema va o‘zak",
+      "body": "Ksilema suv va mineral tuzlarni o‘tkazadi; yosh novda o‘zagining tirik parenxima hujayralarida organik moddalar to‘planadi.",
+      "fact_ids": [
+        "paragraph-13-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-13-q1",
+      "fact_id": "paragraph-13-f1",
+      "question_text": "Qaysi qatorda poyaning vazifalari berilgan?",
+      "options": [
+        "Faqat meva po‘stini yorish",
+        "Tayanch, transport va zaxira oziq to‘plash",
+        "Faqat changlanish va urug‘lanish",
+        "Faqat tuproqdan mineral shimish"
+      ],
+      "correct_answer": "Tayanch, transport va zaxira oziq to‘plash",
+      "explanation": "Poya tayanch, moddalarni tashish, zaxira oziq to‘plash va vegetativ ko‘payish vazifalarida qatnashadi."
+    },
+    {
+      "key": "paragraph-13-q2",
+      "fact_id": "paragraph-13-f2",
+      "question_text": "Floema bilan ksilema orasida qaysi qavat bor?",
+      "options": [
+        "Kambiy",
+        "O‘zak",
+        "Epiderma",
+        "Gultoj"
+      ],
+      "correct_answer": "Kambiy",
+      "explanation": "Yosh tut poyasida po‘st ostidan ichkariga floema, kambiy, ksilema va markazdagi o‘zak joylashadi."
+    },
+    {
+      "key": "paragraph-13-q3",
+      "fact_id": "paragraph-13-f3",
+      "question_text": "Yasmiqchalar poyada qaysi jarayonga yordam beradi?",
+      "options": [
+        "Gul changining hosil bo‘lishiga",
+        "Mevaning danaklanishiga",
+        "Urug‘palla ajralishiga",
+        "Gaz almashinuviga"
+      ],
+      "correct_answer": "Gaz almashinuviga",
+      "explanation": "Poya po‘stidagi yasmiqchalar orqali ichki tirik hujayralarning gaz almashinuvi amalga oshadi."
+    },
+    {
+      "key": "paragraph-13-q4",
+      "fact_id": "paragraph-13-f4",
+      "question_text": "Zig‘ir poyasining qaysi qismi tola mahsulotlari uchun ishlatiladi?",
+      "options": [
+        "Faqat ildiz qinchasi",
+        "Faqat gulqo‘rg‘on",
+        "Lub tolalari",
+        "Faqat o‘zak shirasi"
+      ],
+      "correct_answer": "Lub tolalari",
+      "explanation": "Kanop va zig‘ir poyalarida rivojlangan lub tolalaridan ip, arqon va gazlama tayyorlanadi."
+    },
+    {
+      "key": "paragraph-13-q5",
+      "fact_id": "paragraph-13-f5",
+      "question_text": "Yosh novda markazida zaxira modda to‘plovchi qism qaysi?",
+      "options": [
+        "Kurtak tangachasi",
+        "O‘zak",
+        "Epiderma",
+        "Kutikula"
+      ],
+      "correct_answer": "O‘zak",
+      "explanation": "Ksilema suv va mineral tuzlarni o‘tkazadi; yosh novda o‘zagining tirik parenxima hujayralarida organik moddalar to‘planadi."
+    }
+  ]
+}

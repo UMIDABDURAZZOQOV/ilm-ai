@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-laboratory-3-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-laboratory-3",
+  "title": "3-laboratoriya. Bargning tashqi tuzilishini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-3-f1": {
+      "claim": "Laboratoriya ishida tarqatilgan barglar, gerbariy va xona o‘simliklari orqali bandli-bandsiz hamda oddiy-murakkab barglar taqqoslanadi.",
+      "answer": "Bandining mavjudligi va yaproq tuzilishi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f2": {
+      "claim": "Barg tomirlanish turlari lupa yordamida kuzatiladi.",
+      "answer": "Lupa",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f3": {
+      "claim": "Bir nechta barg yaprog‘i daftarga chizilib, bargning asosiy qismlari belgilanadi.",
+      "answer": "Barglarni chizib asosiy qismlarini belgilash",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tashqi tuzilishni rejalash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya ishida tarqatilgan barglar, gerbariy va xona o‘simliklari orqali bandli-bandsiz hamda oddiy-murakkab barglar taqqoslanadi.",
+      "fact_ids": [
+        "laboratory-3-f1"
+      ]
+    },
+    {
+      "title": "Kattalashtirib tekshirish",
+      "body": "Barg tomirlanish turlari lupa yordamida kuzatiladi.",
+      "fact_ids": [
+        "laboratory-3-f2"
+      ]
+    },
+    {
+      "title": "Natijani rasmda ko‘rsatish",
+      "body": "Bir nechta barg yaprog‘i daftarga chizilib, bargning asosiy qismlari belgilanadi.",
+      "fact_ids": [
+        "laboratory-3-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-3-q1",
+      "fact_id": "laboratory-3-f1",
+      "question_text": "Qaysi belgilar ushbu laboratoriyada taqqoslanadi?",
+      "options": [
+        "Faqat gulning hidi",
+        "Bandining mavjudligi va yaproq tuzilishi",
+        "Faqat hayvonning yurak kameralari",
+        "Faqat urug‘ unish muddati"
+      ],
+      "correct_answer": "Bandining mavjudligi va yaproq tuzilishi",
+      "explanation": "Laboratoriya ishida tarqatilgan barglar, gerbariy va xona o‘simliklari orqali bandli-bandsiz hamda oddiy-murakkab barglar taqqoslanadi."
+    },
+    {
+      "key": "laboratory-3-q2",
+      "fact_id": "laboratory-3-f2",
+      "question_text": "Tomirlanishni diqqat bilan ko‘rish uchun qaysi asbob tavsiya qilingan?",
+      "options": [
+        "Lupa",
+        "Termometr",
+        "Tarozi",
+        "Sekundomer"
+      ],
+      "correct_answer": "Lupa",
+      "explanation": "Barg tomirlanish turlari lupa yordamida kuzatiladi."
+    },
+    {
+      "key": "laboratory-3-q3",
+      "fact_id": "laboratory-3-f3",
+      "question_text": "Kuzatuv yakunida qaysi ish bajariladi?",
+      "options": [
+        "Faqat umumiy rang yozib qo‘yish",
+        "Kuzatmasdan barcha bargni bir xil deyish",
+        "Asboblarni natija o‘rnida sanash",
+        "Barglarni chizib asosiy qismlarini belgilash"
+      ],
+      "correct_answer": "Barglarni chizib asosiy qismlarini belgilash",
+      "explanation": "Bir nechta barg yaprog‘i daftarga chizilib, bargning asosiy qismlari belgilanadi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Bargning tashqi tuzilishini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Tashqi tuzilishni rejalash",
+        "fact_ids": [
+          "laboratory-3-f1"
+        ]
+      },
+      {
+        "instruction": "Kattalashtirib tekshirish",
+        "fact_ids": [
+          "laboratory-3-f2"
+        ]
+      },
+      {
+        "instruction": "Natijani rasmda ko‘rsatish",
+        "fact_ids": [
+          "laboratory-3-f3"
+        ]
+      }
+    ]
+  }
+}

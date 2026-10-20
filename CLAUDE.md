@@ -2291,3 +2291,25 @@ Source editorial decisions: grade-5 printed p.32 (PDF 33) contains an unsafe gen
 Next content starts at **grade 6 §10 “Novda”, original PDF/printed p.27**, then §11 onwards in source order, including laboratories 2–7 as their positions are reached. Do not recreate grade-5 §1–18, grade-6 §1–9/lab1 or the preserved other-grade foundation lessons. For the next 20-topic batch target grade-6 §10–29, verify the actual source pages, add only reviewed manifests, extend the release batch, regenerate the report, run tests and push this feature branch. Remaining theoretical topic IDs and activity IDs are in `biology_readiness.json`.
 
 Draft-PR creation was previously blocked by the environment GitHub GraphQL `Forbidden` response. Feature-branch pushes are authorised; no main merge/deploy is authorised. See the subsequent Git handoff entry for the actual pushed commit IDs.
+
+## 2026-10-20 — Biology continuation-02: grade 6 paragraphs 10–29
+
+The preceding release was actually pushed: backend **`c6f8eba`**, Flutter **`68e77c3`**, both on `feat/biology-curriculum`. This second batch adds **20 more theoretical lessons + laboratories 2–5**, with **118 explanation cards and 118 new source-linked questions**, after reviewing grade-6 original PDF images **27–72**. No previously published manifest was edited. The explicit batch name is `continuation-02`, comprising authoring groups `grade6-b` through `grade6-f`.
+
+The course now contains **59/355 theoretical topics**, **17 digital activities**, **76 total manifests**, **363 explanation cards**, **445 verified questions**; **296 theoretical topics remain**. Grade 6 has all three first chapters covered, including their five laboratories; its fourth chapter is only partially authored and its checkpoint remains unavailable. Added exercises include bud/stem/leaf comparisons, inflorescence classification, flower-formula interpretation, fruit and seed types, transport-experiment conclusions, photosynthesis versus respiration and transpiration controls. All use the existing MCQ/card engine, source citations, original Ilmo feedback, server XP and progress.
+
+| Grade | Total theory | Ready theory | Remaining | Ready activities / total | Questions |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 5 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 59 | 29 | 30 | 5 / 7 | 178 |
+| 7 | 59 | 2 | 57 | 0 / 5 | 16 |
+| 8 | 61 | 4 | 57 | 0 / 7 | 28 |
+| 9 | 56 | 2 | 54 | 0 / 11 | 12 |
+| 10 | 58 | 2 | 56 | 0 / 4 | 14 |
+| 11 | 44 | 2 | 42 | 0 / 5 | 15 |
+
+Validation: `python scripts/import_biology_curriculum.py --all --report scripts/curriculum/biology_readiness.json` validated all 76 manifests and refreshed the report. **Full backend pytest: 167 passed**, 12 existing lifecycle deprecation warnings, **53.85 s**. The API integration test now also completes all grade-6 chapter-III theory/activities and its checkpoint, with identical retries and once-only XP, while confirming grade 6 remains incomplete. All 19 original manifests/72 cards/140 questions and source-catalogue hashes remain identical. Flutter code is unchanged in this second batch; its preceding **103 passing tests, clean analyze and successful web build** apply to the same mobile commit `68e77c3`. Android/iOS/real-device and production PostgreSQL remain unverified.
+
+Changed files: new `scripts/curriculum/biology_6_paragraph_10.json` through `_29.json`, `biology_6_laboratory_2.json` through `_5.json`, explicit batch index, readiness report, `tests/test_biology_continuation.py`, and this central document. PDFs/OCR/images/private paths remain excluded. The Next.js checkout remains unchanged. No production import/deploy/main merge.
+
+**Next source position:** grade 6 **§30**, “Kuz faslida o‘simliklar hayotida ro‘y beradigan o‘zgarishlar”, original PDF/printed **p.73**. The next 30-topic batch can cover **§30–59** and laboratories **6 (p.87) and 7 (p.139)** to finish grade 6. Historical continuation pointers above refer to their recorded batch state; use this newest pointer and `biology_readiness.json`.

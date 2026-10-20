@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-23-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-26",
+  "title": "Mevalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-23-f1": {
+      "claim": "Meva asosan urug‘chi tugunchasidan rivojlanadi, urug‘ni himoya qiladi va tarqalishiga yordam beradi.",
+      "answer": "Himoya qilish va tarqalishga yordam berish",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f2": {
+      "claim": "Chin meva tugunchaning o‘zidan, soxta meva esa tuguncha bilan birga gulning boshqa qismlari ishtirokida hosil bo‘ladi; olma soxta mevaga misoldir.",
+      "answer": "Hosil bo‘lishida gulning boshqa qismlari ham qatnashadi",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f3": {
+      "claim": "Olcha va o‘rik danakli, pomidor rezavor, tarvuz va bodring qovoq meva guruhlariga kiradi.",
+      "answer": "Danakli",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f4": {
+      "claim": "No‘xat, loviya va bug‘doy mevalari quruq mevalarga kiradi; quruq mevalar chatnaydigan va chatnamaydigan bo‘ladi.",
+      "answer": "No‘xat, loviya, bug‘doy",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f5": {
+      "claim": "G‘o‘zaning ko‘sagi ko‘p urug‘li, loviyaning dukkagi esa pishganda chokidan ochiladigan mevadir.",
+      "answer": "Ko‘sak — dukkak",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f6": {
+      "claim": "Qo‘zoq meva ikki pallaga ochiladi; pallalar orasidagi yupqa to‘siqqa urug‘lar birikadi. Qo‘zoqcha shunga o‘xshash, ammo qisqaroq.",
+      "answer": "Pallalar orasidagi yupqa to‘siqqa",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f7": {
+      "claim": "Zarang, qayrag‘och va shumtol mevalaridagi qanotchalar ularning tarqalishiga yordam beradi.",
+      "answer": "Qayrag‘och",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          57
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f8": {
+      "claim": "Mevalar hayvonlarga oziq bo‘ladi, chirigan qoldiqlari esa yerni organik moddalar bilan boyitadi; odamlar ulardan oziq-ovqat mahsulotlari oladi.",
+      "answer": "Tuproqni organik moddalar bilan boyitadi",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          57
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hosil bo‘lishi va vazifasi",
+      "body": "Meva asosan urug‘chi tugunchasidan rivojlanadi, urug‘ni himoya qiladi va tarqalishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-23-f1"
+      ]
+    },
+    {
+      "title": "Chin va soxta meva",
+      "body": "Chin meva tugunchaning o‘zidan, soxta meva esa tuguncha bilan birga gulning boshqa qismlari ishtirokida hosil bo‘ladi; olma soxta mevaga misoldir.",
+      "fact_ids": [
+        "paragraph-23-f2"
+      ]
+    },
+    {
+      "title": "Ho‘l mevalar",
+      "body": "Olcha va o‘rik danakli, pomidor rezavor, tarvuz va bodring qovoq meva guruhlariga kiradi.",
+      "fact_ids": [
+        "paragraph-23-f3"
+      ]
+    },
+    {
+      "title": "Quruq meva",
+      "body": "No‘xat, loviya va bug‘doy mevalari quruq mevalarga kiradi; quruq mevalar chatnaydigan va chatnamaydigan bo‘ladi.",
+      "fact_ids": [
+        "paragraph-23-f4"
+      ]
+    },
+    {
+      "title": "Ochilib urug‘ tarqatish",
+      "body": "G‘o‘zaning ko‘sagi ko‘p urug‘li, loviyaning dukkagi esa pishganda chokidan ochiladigan mevadir.",
+      "fact_ids": [
+        "paragraph-23-f5"
+      ]
+    },
+    {
+      "title": "Qo‘zoqning belgisi",
+      "body": "Qo‘zoq meva ikki pallaga ochiladi; pallalar orasidagi yupqa to‘siqqa urug‘lar birikadi. Qo‘zoqcha shunga o‘xshash, ammo qisqaroq.",
+      "fact_ids": [
+        "paragraph-23-f6"
+      ]
+    },
+    {
+      "title": "Qanotcha va tarqalish",
+      "body": "Zarang, qayrag‘och va shumtol mevalaridagi qanotchalar ularning tarqalishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-23-f7"
+      ]
+    },
+    {
+      "title": "Tabiatdagi ahamiyati",
+      "body": "Mevalar hayvonlarga oziq bo‘ladi, chirigan qoldiqlari esa yerni organik moddalar bilan boyitadi; odamlar ulardan oziq-ovqat mahsulotlari oladi.",
+      "fact_ids": [
+        "paragraph-23-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-23-q1",
+      "fact_id": "paragraph-23-f1",
+      "question_text": "Mevaning urug‘ uchun ikki muhim vazifasi qaysi?",
+      "options": [
+        "Faqat poyani yo‘g‘onlashtirish",
+        "Himoya qilish va tarqalishga yordam berish",
+        "Faqat suv shimish va ildiz hosil qilish",
+        "Faqat fotosintez va nafasni to‘xtatish"
+      ],
+      "correct_answer": "Himoya qilish va tarqalishga yordam berish",
+      "explanation": "Meva asosan urug‘chi tugunchasidan rivojlanadi, urug‘ni himoya qiladi va tarqalishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-23-q2",
+      "fact_id": "paragraph-23-f2",
+      "question_text": "Olma nima uchun soxta meva deb ataladi?",
+      "options": [
+        "Hosil bo‘lishida gulning boshqa qismlari ham qatnashadi",
+        "Unda urug‘ bo‘lmagani uchun",
+        "Unda tirik hujayra bo‘lmagani uchun",
+        "Faqat rangi o‘zgargani uchun"
+      ],
+      "correct_answer": "Hosil bo‘lishida gulning boshqa qismlari ham qatnashadi",
+      "explanation": "Chin meva tugunchaning o‘zidan, soxta meva esa tuguncha bilan birga gulning boshqa qismlari ishtirokida hosil bo‘ladi; olma soxta mevaga misoldir."
+    },
+    {
+      "key": "paragraph-23-q3",
+      "fact_id": "paragraph-23-f3",
+      "question_text": "O‘rikning mevasi qaysi turga mansub?",
+      "options": [
+        "Dukkak",
+        "Don",
+        "Qo‘zoq",
+        "Danakli"
+      ],
+      "correct_answer": "Danakli",
+      "explanation": "Olcha va o‘rik danakli, pomidor rezavor, tarvuz va bodring qovoq meva guruhlariga kiradi."
+    },
+    {
+      "key": "paragraph-23-q4",
+      "fact_id": "paragraph-23-f4",
+      "question_text": "Qaysi qatorda quruq mevali o‘simliklar bor?",
+      "options": [
+        "Uzum, pomidor, qorag‘at",
+        "Tarvuz, qovun, bodring",
+        "No‘xat, loviya, bug‘doy",
+        "O‘rik, olcha, shaftoli"
+      ],
+      "correct_answer": "No‘xat, loviya, bug‘doy",
+      "explanation": "No‘xat, loviya va bug‘doy mevalari quruq mevalarga kiradi; quruq mevalar chatnaydigan va chatnamaydigan bo‘ladi."
+    },
+    {
+      "key": "paragraph-23-q5",
+      "fact_id": "paragraph-23-f5",
+      "question_text": "G‘o‘za va loviyaning mevalari qaysi tartibda to‘g‘ri berilgan?",
+      "options": [
+        "Rezavor — olma meva",
+        "Ko‘sak — dukkak",
+        "Don — rezavor",
+        "Qovoq — danakli"
+      ],
+      "correct_answer": "Ko‘sak — dukkak",
+      "explanation": "G‘o‘zaning ko‘sagi ko‘p urug‘li, loviyaning dukkagi esa pishganda chokidan ochiladigan mevadir."
+    },
+    {
+      "key": "paragraph-23-q6",
+      "fact_id": "paragraph-23-f6",
+      "question_text": "Qo‘zoq mevada urug‘lar qayerga birikadi?",
+      "options": [
+        "Pallalar orasidagi yupqa to‘siqqa",
+        "Faqat tashqi tuklarga",
+        "Faqat gulband uchiga",
+        "Faqat ildiz qinchasi ichiga"
+      ],
+      "correct_answer": "Pallalar orasidagi yupqa to‘siqqa",
+      "explanation": "Qo‘zoq meva ikki pallaga ochiladi; pallalar orasidagi yupqa to‘siqqa urug‘lar birikadi. Qo‘zoqcha shunga o‘xshash, ammo qisqaroq."
+    },
+    {
+      "key": "paragraph-23-q7",
+      "fact_id": "paragraph-23-f7",
+      "question_text": "Qanotchali mevaga qaysi o‘simlik misol?",
+      "options": [
+        "Loviya",
+        "Pomidor",
+        "O‘rik",
+        "Qayrag‘och"
+      ],
+      "correct_answer": "Qayrag‘och",
+      "explanation": "Zarang, qayrag‘och va shumtol mevalaridagi qanotchalar ularning tarqalishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-23-q8",
+      "fact_id": "paragraph-23-f8",
+      "question_text": "Yerga tushgan meva chiriganda qanday ahamiyatga ega bo‘lishi mumkin?",
+      "options": [
+        "Barcha mikroorganizmlarni yo‘q qiladi",
+        "Minerallarni butunlay yo‘qotadi",
+        "Tuproqni organik moddalar bilan boyitadi",
+        "Tuproqni hujayrasiz qiladi"
+      ],
+      "correct_answer": "Tuproqni organik moddalar bilan boyitadi",
+      "explanation": "Mevalar hayvonlarga oziq bo‘ladi, chirigan qoldiqlari esa yerni organik moddalar bilan boyitadi; odamlar ulardan oziq-ovqat mahsulotlari oladi."
+    }
+  ]
+}

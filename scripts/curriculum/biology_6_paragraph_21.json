@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-21-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-24",
+  "title": "Gullarning xilma-xilligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-21-f1": {
+      "claim": "Bir gulda changchi ham, urug‘chi ham bo‘lsa ikki jinsli gul deyiladi; faqat bittasi bo‘lsa bir jinsli gul deyiladi.",
+      "answer": "Ikki jinsli",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f2": {
+      "claim": "Makkajo‘xori va qovoqda changchili hamda urug‘chili gullar bitta tupda alohida joylashadi; ular bir uyli o‘simliklardir.",
+      "answer": "Bir uyli o‘simlik",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f3": {
+      "claim": "Tol va terakda changchili gullar bir tupda, urug‘chili gullar boshqa tupda bo‘ladi; bu ikki uylilikdir.",
+      "answer": "Ikki uylilik",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f4": {
+      "claim": "To‘g‘ri gulni bir nechta teng bo‘lakka ajratish mumkin; binafsha va loviya kabi qiyshiq gullar bundan farqlanadi.",
+      "answer": "Qiyshiq gul",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          51
+        ],
+        "printed_pages": [
+          51
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir guldagi jinslar",
+      "body": "Bir gulda changchi ham, urug‘chi ham bo‘lsa ikki jinsli gul deyiladi; faqat bittasi bo‘lsa bir jinsli gul deyiladi.",
+      "fact_ids": [
+        "paragraph-21-f1"
+      ]
+    },
+    {
+      "title": "Bir uyli o‘simlik",
+      "body": "Makkajo‘xori va qovoqda changchili hamda urug‘chili gullar bitta tupda alohida joylashadi; ular bir uyli o‘simliklardir.",
+      "fact_ids": [
+        "paragraph-21-f2"
+      ]
+    },
+    {
+      "title": "Ikki uyli o‘simlik",
+      "body": "Tol va terakda changchili gullar bir tupda, urug‘chili gullar boshqa tupda bo‘ladi; bu ikki uylilikdir.",
+      "fact_ids": [
+        "paragraph-21-f3"
+      ]
+    },
+    {
+      "title": "Gul simmetriyasi",
+      "body": "To‘g‘ri gulni bir nechta teng bo‘lakka ajratish mumkin; binafsha va loviya kabi qiyshiq gullar bundan farqlanadi.",
+      "fact_ids": [
+        "paragraph-21-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-21-q1",
+      "fact_id": "paragraph-21-f1",
+      "question_text": "Bir gulda ham changchi, ham urug‘chi topildi. Bu qanday gul?",
+      "options": [
+        "Gulqo‘rg‘onsiz bo‘lishi shart",
+        "Ikki jinsli",
+        "Faqat changchili",
+        "Faqat urug‘chili"
+      ],
+      "correct_answer": "Ikki jinsli",
+      "explanation": "Bir gulda changchi ham, urug‘chi ham bo‘lsa ikki jinsli gul deyiladi; faqat bittasi bo‘lsa bir jinsli gul deyiladi."
+    },
+    {
+      "key": "paragraph-21-q2",
+      "fact_id": "paragraph-21-f2",
+      "question_text": "Bir tupda alohida changchili va urug‘chili gullar bo‘lsa nima deyiladi?",
+      "options": [
+        "Bir uyli o‘simlik",
+        "Ikki uyli o‘simlik",
+        "Har bir guli ikki jinsli o‘simlik",
+        "Faqat urug‘siz o‘simlik"
+      ],
+      "correct_answer": "Bir uyli o‘simlik",
+      "explanation": "Makkajo‘xori va qovoqda changchili hamda urug‘chili gullar bitta tupda alohida joylashadi; ular bir uyli o‘simliklardir."
+    },
+    {
+      "key": "paragraph-21-q3",
+      "fact_id": "paragraph-21-f3",
+      "question_text": "Tolning changchili va urug‘chili gullari alohida tuplarda. Bu qaysi holat?",
+      "options": [
+        "Bir uylilik",
+        "Bitta gulning ikki jinsliligi",
+        "Faqat to‘pgulning murakkabligi",
+        "Ikki uylilik"
+      ],
+      "correct_answer": "Ikki uylilik",
+      "explanation": "Tol va terakda changchili gullar bir tupda, urug‘chili gullar boshqa tupda bo‘ladi; bu ikki uylilikdir."
+    },
+    {
+      "key": "paragraph-21-q4",
+      "fact_id": "paragraph-21-f4",
+      "question_text": "Binafsha gulining darslikdagi simmetriya turi qaysi?",
+      "options": [
+        "Faqat changchili gul",
+        "Faqat urug‘chili gul",
+        "Qiyshiq gul",
+        "To‘g‘ri gul"
+      ],
+      "correct_answer": "Qiyshiq gul",
+      "explanation": "To‘g‘ri gulni bir nechta teng bo‘lakka ajratish mumkin; binafsha va loviya kabi qiyshiq gullar bundan farqlanadi."
+    }
+  ]
+}

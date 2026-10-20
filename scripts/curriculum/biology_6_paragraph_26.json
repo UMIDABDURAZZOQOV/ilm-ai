@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-26-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-30",
+  "title": "Poyada oziq moddalarning harakatlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-26-f1": {
+      "claim": "Rangli suvdagi bargli novda kesmasida yog‘ochlikning bo‘yalishi suv shu qism orqali ko‘tarilganini ko‘rsatadi.",
+      "answer": "Suvning yog‘ochlik orqali ko‘tarilishini",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f2": {
+      "claim": "Organik moddalar lubning elaksimon naylari bo‘ylab tashiladi; suvda erigan shakar turli organlarda to‘planadi.",
+      "answer": "Lubning elaksimon naylari",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f3": {
+      "claim": "Po‘stlog‘i halqa shaklida olib tashlangan novdada organik moddalar pastga o‘ta olmay, halqaning yuqori tomonida to‘planadi.",
+      "answer": "Lub orqali organik moddalarning pastga o‘tishi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f4": {
+      "claim": "Ildiz suv va mineral moddalar yetkazadi, barg organik moddalar hosil qiladi; organlar o‘zaro bog‘liq holda oziqlanishni ta’minlaydi.",
+      "answer": "Kamayishi mumkin",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bo‘yalgan suv tajribasi",
+      "body": "Rangli suvdagi bargli novda kesmasida yog‘ochlikning bo‘yalishi suv shu qism orqali ko‘tarilganini ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-26-f1"
+      ]
+    },
+    {
+      "title": "Shakar va tashilish",
+      "body": "Organik moddalar lubning elaksimon naylari bo‘ylab tashiladi; suvda erigan shakar turli organlarda to‘planadi.",
+      "fact_ids": [
+        "paragraph-26-f2"
+      ]
+    },
+    {
+      "title": "Halqalash tajribasi",
+      "body": "Po‘stlog‘i halqa shaklida olib tashlangan novdada organik moddalar pastga o‘ta olmay, halqaning yuqori tomonida to‘planadi.",
+      "fact_ids": [
+        "paragraph-26-f3"
+      ]
+    },
+    {
+      "title": "Organlar hamkorligi",
+      "body": "Ildiz suv va mineral moddalar yetkazadi, barg organik moddalar hosil qiladi; organlar o‘zaro bog‘liq holda oziqlanishni ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-26-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-26-q1",
+      "fact_id": "paragraph-26-f1",
+      "question_text": "Novda yog‘ochligining ranglanishi tajribada nimani ko‘rsatadi?",
+      "options": [
+        "Ildiz tukchalari bo‘lmaganini",
+        "Suvning yog‘ochlik orqali ko‘tarilishini",
+        "Organik oziqning faqat gultojda qolishini",
+        "Gul changining poyaga kirishini"
+      ],
+      "correct_answer": "Suvning yog‘ochlik orqali ko‘tarilishini",
+      "explanation": "Rangli suvdagi bargli novda kesmasida yog‘ochlikning bo‘yalishi suv shu qism orqali ko‘tarilganini ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-26-q2",
+      "fact_id": "paragraph-26-f2",
+      "question_text": "Bargda hosil bo‘lgan shakar poyaning qaysi qismi bo‘ylab tashiladi?",
+      "options": [
+        "Lubning elaksimon naylari",
+        "Faqat yog‘ochlikning o‘lik tolalari",
+        "Faqat po‘kakning tashqi qavati",
+        "Faqat kurtak tangachalari"
+      ],
+      "correct_answer": "Lubning elaksimon naylari",
+      "explanation": "Organik moddalar lubning elaksimon naylari bo‘ylab tashiladi; suvda erigan shakar turli organlarda to‘planadi."
+    },
+    {
+      "key": "paragraph-26-q3",
+      "fact_id": "paragraph-26-f3",
+      "question_text": "Po‘stloq halqasi olib tashlansa, oziq oqimining qaysi qismi buziladi?",
+      "options": [
+        "Faqat gul changining havoga chiqishi",
+        "Faqat urug‘pallaning yorug‘likka burilishi",
+        "Faqat meva po‘stining rangi",
+        "Lub orqali organik moddalarning pastga o‘tishi"
+      ],
+      "correct_answer": "Lub orqali organik moddalarning pastga o‘tishi",
+      "explanation": "Po‘stlog‘i halqa shaklida olib tashlangan novdada organik moddalar pastga o‘ta olmay, halqaning yuqori tomonida to‘planadi."
+    },
+    {
+      "key": "paragraph-26-q4",
+      "fact_id": "paragraph-26-f4",
+      "question_text": "Ildizdan suv kam kelsa, bargdagi organik modda hosil bo‘lishiga nima bo‘lishi mumkin?",
+      "options": [
+        "Suvga umuman bog‘liq emas",
+        "Barglar darhol ildizga aylanadi",
+        "Kamayishi mumkin",
+        "Doimo cheksiz ortadi"
+      ],
+      "correct_answer": "Kamayishi mumkin",
+      "explanation": "Ildiz suv va mineral moddalar yetkazadi, barg organik moddalar hosil qiladi; organlar o‘zaro bog‘liq holda oziqlanishni ta’minlaydi."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-17-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-20",
+  "title": "Novdada barglarning joylashishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-17-f1": {
+      "claim": "Barglar novdada navbat bilan, qarama-qarshi yoki halqa hosil qilib joylashadi; olma barglari navbat bilan joylashadi.",
+      "answer": "Navbat bilan",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f2": {
+      "claim": "Bir bo‘g‘imning ikki tomonida ikkita barg bir-biriga ro‘para bo‘lsa, qarama-qarshi joylashish deyiladi; yalpiz va rayhon bunga misoldir.",
+      "answer": "Qarama-qarshi",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f3": {
+      "claim": "Bir bo‘g‘imdan bir nechta barg chiqib halqa hosil qilsa, halqasimon joylashish deyiladi; sambitgul bunga misol.",
+      "answer": "Halqasimon",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f4": {
+      "claim": "Barglarning joylashishi yorug‘likdan foydalanishga yordam beradi; darslikda deraza yonidagi o‘simliklarni aylantirib va aylantirmay taqqoslash tavsiya qilingan.",
+      "answer": "Bittasini yorug‘lik tomonga aylantirish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Uch joylashish usuli",
+      "body": "Barglar novdada navbat bilan, qarama-qarshi yoki halqa hosil qilib joylashadi; olma barglari navbat bilan joylashadi.",
+      "fact_ids": [
+        "paragraph-17-f1"
+      ]
+    },
+    {
+      "title": "Bir bo‘g‘imdagi juftlik",
+      "body": "Bir bo‘g‘imning ikki tomonida ikkita barg bir-biriga ro‘para bo‘lsa, qarama-qarshi joylashish deyiladi; yalpiz va rayhon bunga misoldir.",
+      "fact_ids": [
+        "paragraph-17-f2"
+      ]
+    },
+    {
+      "title": "Halqani tanish",
+      "body": "Bir bo‘g‘imdan bir nechta barg chiqib halqa hosil qilsa, halqasimon joylashish deyiladi; sambitgul bunga misol.",
+      "fact_ids": [
+        "paragraph-17-f3"
+      ]
+    },
+    {
+      "title": "Yorug‘likka yo‘nalish",
+      "body": "Barglarning joylashishi yorug‘likdan foydalanishga yordam beradi; darslikda deraza yonidagi o‘simliklarni aylantirib va aylantirmay taqqoslash tavsiya qilingan.",
+      "fact_ids": [
+        "paragraph-17-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-17-q1",
+      "fact_id": "paragraph-17-f1",
+      "question_text": "Olma novdasidagi barglar uchun qaysi tartib xos?",
+      "options": [
+        "Faqat ildiz ichida",
+        "Navbat bilan",
+        "Qarama-qarshi",
+        "Halqasimon"
+      ],
+      "correct_answer": "Navbat bilan",
+      "explanation": "Barglar novdada navbat bilan, qarama-qarshi yoki halqa hosil qilib joylashadi; olma barglari navbat bilan joylashadi."
+    },
+    {
+      "key": "paragraph-17-q2",
+      "fact_id": "paragraph-17-f2",
+      "question_text": "Bir bo‘g‘imda ro‘para turgan ikki barg qanday joylashgan?",
+      "options": [
+        "Qarama-qarshi",
+        "Navbat bilan",
+        "Halqasimon",
+        "Faqat patsimon"
+      ],
+      "correct_answer": "Qarama-qarshi",
+      "explanation": "Bir bo‘g‘imning ikki tomonida ikkita barg bir-biriga ro‘para bo‘lsa, qarama-qarshi joylashish deyiladi; yalpiz va rayhon bunga misoldir."
+    },
+    {
+      "key": "paragraph-17-q3",
+      "fact_id": "paragraph-17-f3",
+      "question_text": "Bir bo‘g‘imda bir nechta bargdan halqa ko‘rindi. Qaysi tartib mos?",
+      "options": [
+        "Navbat bilan",
+        "Faqat qarama-qarshi juft",
+        "Faqat to‘rsimon tomirlanish",
+        "Halqasimon"
+      ],
+      "correct_answer": "Halqasimon",
+      "explanation": "Bir bo‘g‘imdan bir nechta barg chiqib halqa hosil qilsa, halqasimon joylashish deyiladi; sambitgul bunga misol."
+    },
+    {
+      "key": "paragraph-17-q4",
+      "fact_id": "paragraph-17-f4",
+      "question_text": "Ikki tuvak tajribasida qaysi shart farqlanadi?",
+      "options": [
+        "Har ikkisiga bir xil kuzatuvsiz baho qo‘yish",
+        "Faqat idish nomini almashtirish",
+        "Bittasini yorug‘lik tomonga aylantirish",
+        "Bittasini daraxtga aylantirish"
+      ],
+      "correct_answer": "Bittasini yorug‘lik tomonga aylantirish",
+      "explanation": "Barglarning joylashishi yorug‘likdan foydalanishga yordam beradi; darslikda deraza yonidagi o‘simliklarni aylantirib va aylantirmay taqqoslash tavsiya qilingan."
+    }
+  ]
+}

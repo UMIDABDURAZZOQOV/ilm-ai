@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-22-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-25",
+  "title": "To‘pgullar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-22-f1": {
+      "claim": "Yaqin joylashgan bir nechta gullar yig‘indisi to‘pgul deyiladi; oddiy to‘pgul gullari asosiy gulpoyada, murakkab to‘pgulda esa oddiy to‘pgullar yig‘ilgan bo‘ladi.",
+      "answer": "Oddiy to‘pgullardan tashkil topgan",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f2": {
+      "claim": "Shingilda gullar bandli, oddiy boshoqda esa bandsiz holda uzun gulpoyada joylashadi.",
+      "answer": "Gulbandlarning mavjudligi",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f3": {
+      "claim": "Qalqonchada pastki gulbandlar uzunroq bo‘lib, gullar bir tekislikda joylashadi; olma bunga misol.",
+      "answer": "Gullarni bir xil balandlikka olib chiqadi",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f4": {
+      "claim": "Makkajo‘xorining urug‘chili gullari yo‘g‘on gulpoyali so‘taga, sebarga gullari qisqa gulpoyali sharsimon boshchaga yig‘ilgan.",
+      "answer": "So‘tada",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f5": {
+      "claim": "Piyozning oddiy soyabonida deyarli bir xil uzunlikdagi gulbandlar gulpoyaning uchidan chiqadi.",
+      "answer": "Gulpoyaning uchki qismidan",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f6": {
+      "claim": "Kungaboqar va qoqio‘t savatchasida ko‘p mayda gullar kengaygan gulpoya uchiga joylashadi; tashqarisini o‘rama barglar o‘raydi.",
+      "answer": "Savatcha to‘pgul",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f7": {
+      "claim": "Tolning changchili gullari kuchala to‘pgulga yig‘iladi; uning asosiy gulpoyasi osilib turadi.",
+      "answer": "Asosiy gulpoyasining osilib turishi",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f8": {
+      "claim": "Bug‘doy murakkab boshoq, sabzi murakkab soyabon, nastarin murakkab shingil hosil qiladi.",
+      "answer": "Murakkab soyabon",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "To‘pgul tushunchasi",
+      "body": "Yaqin joylashgan bir nechta gullar yig‘indisi to‘pgul deyiladi; oddiy to‘pgul gullari asosiy gulpoyada, murakkab to‘pgulda esa oddiy to‘pgullar yig‘ilgan bo‘ladi.",
+      "fact_ids": [
+        "paragraph-22-f1"
+      ]
+    },
+    {
+      "title": "Shingil va boshoq",
+      "body": "Shingilda gullar bandli, oddiy boshoqda esa bandsiz holda uzun gulpoyada joylashadi.",
+      "fact_ids": [
+        "paragraph-22-f2"
+      ]
+    },
+    {
+      "title": "Qalqoncha",
+      "body": "Qalqonchada pastki gulbandlar uzunroq bo‘lib, gullar bir tekislikda joylashadi; olma bunga misol.",
+      "fact_ids": [
+        "paragraph-22-f3"
+      ]
+    },
+    {
+      "title": "So‘ta va boshcha",
+      "body": "Makkajo‘xorining urug‘chili gullari yo‘g‘on gulpoyali so‘taga, sebarga gullari qisqa gulpoyali sharsimon boshchaga yig‘ilgan.",
+      "fact_ids": [
+        "paragraph-22-f4"
+      ]
+    },
+    {
+      "title": "Soyabon",
+      "body": "Piyozning oddiy soyabonida deyarli bir xil uzunlikdagi gulbandlar gulpoyaning uchidan chiqadi.",
+      "fact_ids": [
+        "paragraph-22-f5"
+      ]
+    },
+    {
+      "title": "Savatcha",
+      "body": "Kungaboqar va qoqio‘t savatchasida ko‘p mayda gullar kengaygan gulpoya uchiga joylashadi; tashqarisini o‘rama barglar o‘raydi.",
+      "fact_ids": [
+        "paragraph-22-f6"
+      ]
+    },
+    {
+      "title": "Kuchala",
+      "body": "Tolning changchili gullari kuchala to‘pgulga yig‘iladi; uning asosiy gulpoyasi osilib turadi.",
+      "fact_ids": [
+        "paragraph-22-f7"
+      ]
+    },
+    {
+      "title": "Murakkab to‘pgul misollari",
+      "body": "Bug‘doy murakkab boshoq, sabzi murakkab soyabon, nastarin murakkab shingil hosil qiladi.",
+      "fact_ids": [
+        "paragraph-22-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-22-q1",
+      "fact_id": "paragraph-22-f1",
+      "question_text": "Murakkab to‘pgulning tuzilishi qaysi tavsifga mos?",
+      "options": [
+        "Faqat ildizlardan tashkil topgan",
+        "Oddiy to‘pgullardan tashkil topgan",
+        "Faqat bitta yirik guldan iborat",
+        "Faqat bitta urug‘dan iborat"
+      ],
+      "correct_answer": "Oddiy to‘pgullardan tashkil topgan",
+      "explanation": "Yaqin joylashgan bir nechta gullar yig‘indisi to‘pgul deyiladi; oddiy to‘pgul gullari asosiy gulpoyada, murakkab to‘pgulda esa oddiy to‘pgullar yig‘ilgan bo‘ladi."
+    },
+    {
+      "key": "paragraph-22-q2",
+      "fact_id": "paragraph-22-f2",
+      "question_text": "Shingilni oddiy boshoqdan ajratishda qaysi belgi muhim?",
+      "options": [
+        "Gulbandlarning mavjudligi",
+        "Faqat barg rangi",
+        "Faqat ildiz soni",
+        "Faqat urug‘ning ta’mi"
+      ],
+      "correct_answer": "Gulbandlarning mavjudligi",
+      "explanation": "Shingilda gullar bandli, oddiy boshoqda esa bandsiz holda uzun gulpoyada joylashadi."
+    },
+    {
+      "key": "paragraph-22-q3",
+      "fact_id": "paragraph-22-f3",
+      "question_text": "Olma qalqonchasida pastki gulbandlar nima uchun uzunroq?",
+      "options": [
+        "Gullarni tuproq ostiga tushiradi",
+        "Urug‘larni alohida qubbaga joylaydi",
+        "Gulni bandsiz qiladi",
+        "Gullarni bir xil balandlikka olib chiqadi"
+      ],
+      "correct_answer": "Gullarni bir xil balandlikka olib chiqadi",
+      "explanation": "Qalqonchada pastki gulbandlar uzunroq bo‘lib, gullar bir tekislikda joylashadi; olma bunga misol."
+    },
+    {
+      "key": "paragraph-22-q4",
+      "fact_id": "paragraph-22-f4",
+      "question_text": "Makkajo‘xorining urug‘chili gullari qaysi to‘pgulda?",
+      "options": [
+        "Oddiy soyabonda",
+        "Qalqonchada",
+        "So‘tada",
+        "Savatchada"
+      ],
+      "correct_answer": "So‘tada",
+      "explanation": "Makkajo‘xorining urug‘chili gullari yo‘g‘on gulpoyali so‘taga, sebarga gullari qisqa gulpoyali sharsimon boshchaga yig‘ilgan."
+    },
+    {
+      "key": "paragraph-22-q5",
+      "fact_id": "paragraph-22-f5",
+      "question_text": "Piyozning oddiy soyabonida gulbandlar qayerdan boshlanadi?",
+      "options": [
+        "Faqat meva po‘stidan",
+        "Gulpoyaning uchki qismidan",
+        "Har bir ildiz tukchasidan",
+        "Faqat bargning tomiridan"
+      ],
+      "correct_answer": "Gulpoyaning uchki qismidan",
+      "explanation": "Piyozning oddiy soyabonida deyarli bir xil uzunlikdagi gulbandlar gulpoyaning uchidan chiqadi."
+    },
+    {
+      "key": "paragraph-22-q6",
+      "fact_id": "paragraph-22-f6",
+      "question_text": "Qoqio‘tning bitta gulga o‘xshab ko‘rinadigan to‘plami nima?",
+      "options": [
+        "Savatcha to‘pgul",
+        "Faqat bitta gultojbarg",
+        "So‘ta",
+        "Oddiy boshoq"
+      ],
+      "correct_answer": "Savatcha to‘pgul",
+      "explanation": "Kungaboqar va qoqio‘t savatchasida ko‘p mayda gullar kengaygan gulpoya uchiga joylashadi; tashqarisini o‘rama barglar o‘raydi."
+    },
+    {
+      "key": "paragraph-22-q7",
+      "fact_id": "paragraph-22-f7",
+      "question_text": "Tol kuchalasining ajratuvchi belgisi qaysi?",
+      "options": [
+        "Har bir gulning tuproqda joylashishi",
+        "Faqat bitta urug‘dan iboratligi",
+        "Gullar o‘rnida ildizlar bo‘lishi",
+        "Asosiy gulpoyasining osilib turishi"
+      ],
+      "correct_answer": "Asosiy gulpoyasining osilib turishi",
+      "explanation": "Tolning changchili gullari kuchala to‘pgulga yig‘iladi; uning asosiy gulpoyasi osilib turadi."
+    },
+    {
+      "key": "paragraph-22-q8",
+      "fact_id": "paragraph-22-f8",
+      "question_text": "Sabzi to‘pguli qaysi turga kiradi?",
+      "options": [
+        "So‘ta",
+        "Boshcha",
+        "Murakkab soyabon",
+        "Oddiy boshoq"
+      ],
+      "correct_answer": "Murakkab soyabon",
+      "explanation": "Bug‘doy murakkab boshoq, sabzi murakkab soyabon, nastarin murakkab shingil hosil qiladi."
+    }
+  ]
+}

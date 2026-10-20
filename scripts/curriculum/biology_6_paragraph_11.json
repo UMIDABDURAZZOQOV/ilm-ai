@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-11-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-14",
+  "title": "Poyalarning xilma-xilligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-11-f1": {
+      "claim": "Terak va qayrag‘och yog‘och poyali, arpa va ituzum o‘t poyali o‘simliklarga misoldir.",
+      "answer": "Terak va qayrag‘och",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f2": {
+      "claim": "Tik o‘suvchi poyalarga terak va bug‘doy, o‘raluvchi poyalarga qo‘ypechak va karnaygul misol bo‘ladi.",
+      "answer": "O‘raluvchi",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f3": {
+      "claim": "Tok, qovoq va no‘xat gajaklari bilan ilashib o‘sadi; qovun va tarvuz poyalari yerga yoyilib o‘sishi mumkin.",
+      "answer": "Tok",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f4": {
+      "claim": "Qulupnayning o‘rmalovchi poyasi yer yuzasi bo‘ylab o‘sib, qo‘shimcha ildizlar chiqaradi.",
+      "answer": "Qo‘shimcha ildizlar hosil bo‘lishi",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f5": {
+      "claim": "Olma va yong‘oq poyalari shoxlangan, palma poyasi esa shoxlanmagan misol sifatida berilgan.",
+      "answer": "Palma",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Poya tuzilishiga ko‘ra",
+      "body": "Terak va qayrag‘och yog‘och poyali, arpa va ituzum o‘t poyali o‘simliklarga misoldir.",
+      "fact_ids": [
+        "paragraph-11-f1"
+      ]
+    },
+    {
+      "title": "O‘sish usullari",
+      "body": "Tik o‘suvchi poyalarga terak va bug‘doy, o‘raluvchi poyalarga qo‘ypechak va karnaygul misol bo‘ladi.",
+      "fact_ids": [
+        "paragraph-11-f2"
+      ]
+    },
+    {
+      "title": "Ilashish va yoyilish",
+      "body": "Tok, qovoq va no‘xat gajaklari bilan ilashib o‘sadi; qovun va tarvuz poyalari yerga yoyilib o‘sishi mumkin.",
+      "fact_ids": [
+        "paragraph-11-f3"
+      ]
+    },
+    {
+      "title": "O‘rmalovchi poya",
+      "body": "Qulupnayning o‘rmalovchi poyasi yer yuzasi bo‘ylab o‘sib, qo‘shimcha ildizlar chiqaradi.",
+      "fact_ids": [
+        "paragraph-11-f4"
+      ]
+    },
+    {
+      "title": "Shoxlanishni taqqoslash",
+      "body": "Olma va yong‘oq poyalari shoxlangan, palma poyasi esa shoxlanmagan misol sifatida berilgan.",
+      "fact_ids": [
+        "paragraph-11-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-11-q1",
+      "fact_id": "paragraph-11-f1",
+      "question_text": "Qaysi juftlik yog‘och poyali o‘simliklardan iborat?",
+      "options": [
+        "Qovun va tarvuz",
+        "Terak va qayrag‘och",
+        "Arpa va ituzum",
+        "Bug‘doy va arpa"
+      ],
+      "correct_answer": "Terak va qayrag‘och",
+      "explanation": "Terak va qayrag‘och yog‘och poyali, arpa va ituzum o‘t poyali o‘simliklarga misoldir."
+    },
+    {
+      "key": "paragraph-11-q2",
+      "fact_id": "paragraph-11-f2",
+      "question_text": "Karnaygulning tayanchga o‘ralishi qaysi poya turini ko‘rsatadi?",
+      "options": [
+        "O‘raluvchi",
+        "Tik o‘suvchi",
+        "Ildizmevali",
+        "Piyozboshli"
+      ],
+      "correct_answer": "O‘raluvchi",
+      "explanation": "Tik o‘suvchi poyalarga terak va bug‘doy, o‘raluvchi poyalarga qo‘ypechak va karnaygul misol bo‘ladi."
+    },
+    {
+      "key": "paragraph-11-q3",
+      "fact_id": "paragraph-11-f3",
+      "question_text": "Tayanchga gajak bilan ilashishga qaysi misol mos?",
+      "options": [
+        "Terak",
+        "Arpa",
+        "Qayrag‘och",
+        "Tok"
+      ],
+      "correct_answer": "Tok",
+      "explanation": "Tok, qovoq va no‘xat gajaklari bilan ilashib o‘sadi; qovun va tarvuz poyalari yerga yoyilib o‘sishi mumkin."
+    },
+    {
+      "key": "paragraph-11-q4",
+      "fact_id": "paragraph-11-f4",
+      "question_text": "Qulupnayning yer yuzasidagi poyasida qaysi belgi kuzatiladi?",
+      "options": [
+        "Faqat barglarning qubbaga aylanishi",
+        "Barcha kurtaklarning yo‘qolishi",
+        "Qo‘shimcha ildizlar hosil bo‘lishi",
+        "Faqat poyaning tik yog‘ochlanishi"
+      ],
+      "correct_answer": "Qo‘shimcha ildizlar hosil bo‘lishi",
+      "explanation": "Qulupnayning o‘rmalovchi poyasi yer yuzasi bo‘ylab o‘sib, qo‘shimcha ildizlar chiqaradi."
+    },
+    {
+      "key": "paragraph-11-q5",
+      "fact_id": "paragraph-11-f5",
+      "question_text": "Shoxlanmagan poyaga darslikdagi qaysi misol mos?",
+      "options": [
+        "Qayrag‘och",
+        "Palma",
+        "Olma",
+        "Yong‘oq"
+      ],
+      "correct_answer": "Palma",
+      "explanation": "Olma va yong‘oq poyalari shoxlangan, palma poyasi esa shoxlanmagan misol sifatida berilgan."
+    }
+  ]
+}

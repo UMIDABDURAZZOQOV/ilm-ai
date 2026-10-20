@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-laboratory-4-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-laboratory-4",
+  "title": "4-laboratoriya. Gul va to‘pgullarning tuzilishi bilan tanishish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-4-f1": {
+      "claim": "Laboratoriya rejasida gul qismlari pinset bilan ajratilib, lupa orqali ularning gulo‘rindagi joylashishi o‘rganiladi.",
+      "answer": "Pinset va lupa",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f2": {
+      "claim": "Ishda oddiy va murakkab gulqo‘rg‘onlar, to‘g‘ri va qiyshiq gullar solishtiriladi.",
+      "answer": "To‘g‘ri va qiyshiq gullar",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f3": {
+      "claim": "Gul tuzilishi va to‘pgul turlari daftarga chizilib, changchi va urug‘chining tuzilishi ham o‘rganiladi.",
+      "answer": "Gul qismlari va to‘pgul turlarining rasmi chiziladi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Asbob va kuzatuv",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya rejasida gul qismlari pinset bilan ajratilib, lupa orqali ularning gulo‘rindagi joylashishi o‘rganiladi.",
+      "fact_ids": [
+        "laboratory-4-f1"
+      ]
+    },
+    {
+      "title": "Taqqoslash yo‘nalishlari",
+      "body": "Ishda oddiy va murakkab gulqo‘rg‘onlar, to‘g‘ri va qiyshiq gullar solishtiriladi.",
+      "fact_ids": [
+        "laboratory-4-f2"
+      ]
+    },
+    {
+      "title": "Hisobot",
+      "body": "Gul tuzilishi va to‘pgul turlari daftarga chizilib, changchi va urug‘chining tuzilishi ham o‘rganiladi.",
+      "fact_ids": [
+        "laboratory-4-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-4-q1",
+      "fact_id": "laboratory-4-f1",
+      "question_text": "Mayda gul qismlarini ko‘rishda qaysi asbob jufti berilgan?",
+      "options": [
+        "Kompas va barometr",
+        "Pinset va lupa",
+        "Tarozi va termometr",
+        "Chizg‘ich va soat"
+      ],
+      "correct_answer": "Pinset va lupa",
+      "explanation": "Laboratoriya rejasida gul qismlari pinset bilan ajratilib, lupa orqali ularning gulo‘rindagi joylashishi o‘rganiladi."
+    },
+    {
+      "key": "laboratory-4-q2",
+      "fact_id": "laboratory-4-f2",
+      "question_text": "Qaysi juftlik ushbu laboratoriyada taqqoslanadi?",
+      "options": [
+        "To‘g‘ri va qiyshiq gullar",
+        "Faqat o‘q va popuk ildizlar",
+        "Faqat yosh va qari urug‘lar",
+        "Faqat suv va quruq tuproq"
+      ],
+      "correct_answer": "To‘g‘ri va qiyshiq gullar",
+      "explanation": "Ishda oddiy va murakkab gulqo‘rg‘onlar, to‘g‘ri va qiyshiq gullar solishtiriladi."
+    },
+    {
+      "key": "laboratory-4-q3",
+      "fact_id": "laboratory-4-f3",
+      "question_text": "Kuzatuvni hujjatlashtirish uchun nima qilinadi?",
+      "options": [
+        "Faqat namunaning hidi yoziladi",
+        "Faqat asbob narxi yoziladi",
+        "Tekshirilmagan natija tayyor deb belgilanadi",
+        "Gul qismlari va to‘pgul turlarining rasmi chiziladi"
+      ],
+      "correct_answer": "Gul qismlari va to‘pgul turlarining rasmi chiziladi",
+      "explanation": "Gul tuzilishi va to‘pgul turlari daftarga chizilib, changchi va urug‘chining tuzilishi ham o‘rganiladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Gul va to‘pgullarning tuzilishi bilan tanishish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Asbob va kuzatuv",
+        "fact_ids": [
+          "laboratory-4-f1"
+        ]
+      },
+      {
+        "instruction": "Taqqoslash yo‘nalishlari",
+        "fact_ids": [
+          "laboratory-4-f2"
+        ]
+      },
+      {
+        "instruction": "Hisobot",
+        "fact_ids": [
+          "laboratory-4-f3"
+        ]
+      }
+    ]
+  }
+}

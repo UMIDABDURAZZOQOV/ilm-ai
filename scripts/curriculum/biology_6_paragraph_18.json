@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-18-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-21",
+  "title": "Barglarning ichki tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-18-f1": {
+      "claim": "Barg epidermasining ko‘pchilik hujayralari shaffof va zich joylashgan; qoplama ichki qismlarni qurish va shikastdan asraydi.",
+      "answer": "Ichki qismlarni himoya qiladi va yorug‘likni o‘tkazadi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f2": {
+      "claim": "Barg og‘izchasini plastidali, loviyasimon juft hujayralar o‘rab turadi.",
+      "answer": "Loviyasimon juft hujayralar",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f3": {
+      "claim": "Barg eti epidermalar orasida joylashadi; unda ustunsimon va yumaloqroq hujayralar qatlamlari bor.",
+      "answer": "Ustki va ostki epiderma orasida",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f4": {
+      "claim": "Barg tomirida o‘tkazuvchi naylar, elaksimon naylar va mustahkamlik beruvchi tolalar birgalikda nay-tolali boylam hosil qiladi.",
+      "answer": "O‘tkazuvchi naylar, elaksimon naylar va tolalar",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Shaffof qoplama",
+      "body": "Barg epidermasining ko‘pchilik hujayralari shaffof va zich joylashgan; qoplama ichki qismlarni qurish va shikastdan asraydi.",
+      "fact_ids": [
+        "paragraph-18-f1"
+      ]
+    },
+    {
+      "title": "Og‘izcha juftligi",
+      "body": "Barg og‘izchasini plastidali, loviyasimon juft hujayralar o‘rab turadi.",
+      "fact_ids": [
+        "paragraph-18-f2"
+      ]
+    },
+    {
+      "title": "Barg eti",
+      "body": "Barg eti epidermalar orasida joylashadi; unda ustunsimon va yumaloqroq hujayralar qatlamlari bor.",
+      "fact_ids": [
+        "paragraph-18-f3"
+      ]
+    },
+    {
+      "title": "Tomirning tarkibi",
+      "body": "Barg tomirida o‘tkazuvchi naylar, elaksimon naylar va mustahkamlik beruvchi tolalar birgalikda nay-tolali boylam hosil qiladi.",
+      "fact_ids": [
+        "paragraph-18-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-18-q1",
+      "fact_id": "paragraph-18-f1",
+      "question_text": "Bargning tashqi qoplamasi nima uchun muhim?",
+      "options": [
+        "Faqat ildizni yo‘g‘onlashtiradi",
+        "Ichki qismlarni himoya qiladi va yorug‘likni o‘tkazadi",
+        "Faqat urug‘ni shamolda uchiradi",
+        "Faqat organik moddalarni parchalaydi"
+      ],
+      "correct_answer": "Ichki qismlarni himoya qiladi va yorug‘likni o‘tkazadi",
+      "explanation": "Barg epidermasining ko‘pchilik hujayralari shaffof va zich joylashgan; qoplama ichki qismlarni qurish va shikastdan asraydi."
+    },
+    {
+      "key": "paragraph-18-q2",
+      "fact_id": "paragraph-18-f2",
+      "question_text": "Barg og‘izchasini o‘rab turuvchi hujayralar qanday?",
+      "options": [
+        "Loviyasimon juft hujayralar",
+        "Faqat bitta uzun ildiz hujayrasi",
+        "Faqat o‘lik yog‘och naylari",
+        "Faqat po‘kak bo‘laklari"
+      ],
+      "correct_answer": "Loviyasimon juft hujayralar",
+      "explanation": "Barg og‘izchasini plastidali, loviyasimon juft hujayralar o‘rab turadi."
+    },
+    {
+      "key": "paragraph-18-q3",
+      "fact_id": "paragraph-18-f3",
+      "question_text": "Barg eti qayerda joylashgan?",
+      "options": [
+        "Faqat barg bandining tashqarisida",
+        "Faqat tuproq ichida",
+        "Faqat changdon ichida",
+        "Ustki va ostki epiderma orasida"
+      ],
+      "correct_answer": "Ustki va ostki epiderma orasida",
+      "explanation": "Barg eti epidermalar orasida joylashadi; unda ustunsimon va yumaloqroq hujayralar qatlamlari bor."
+    },
+    {
+      "key": "paragraph-18-q4",
+      "fact_id": "paragraph-18-f4",
+      "question_text": "Barg tomirining nay-tolali boylamiga nimalar kiradi?",
+      "options": [
+        "Faqat urug‘palla va murtak",
+        "Faqat ildiz qinchasi va tukchalar",
+        "O‘tkazuvchi naylar, elaksimon naylar va tolalar",
+        "Faqat gulbarglar va changchilar"
+      ],
+      "correct_answer": "O‘tkazuvchi naylar, elaksimon naylar va tolalar",
+      "explanation": "Barg tomirida o‘tkazuvchi naylar, elaksimon naylar va mustahkamlik beruvchi tolalar birgalikda nay-tolali boylam hosil qiladi."
+    }
+  ]
+}

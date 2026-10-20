@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-15-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-18",
+  "title": "Barglarning tashqi tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-15-f1": {
+      "claim": "Barg fotosintez, suv bug‘latish — transpiratsiya, gaz almashinuvi va vegetativ ko‘payishda qatnashadi.",
+      "answer": "Transpiratsiya",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f2": {
+      "claim": "Bargning asosiy qismlari barg yaprog‘i va barg bandidir; ayrimlarida band tagida yon bargchalar ham bo‘ladi.",
+      "answer": "Barg bandi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f3": {
+      "claim": "Bandsiz barg poyaga yaprog‘ining pastki qismi bilan birikadi. Bug‘doy va makkajo‘xori bunga misoldir.",
+      "answer": "Yaprog‘ining pastki qismi bilan",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f4": {
+      "claim": "Ikki urug‘pallalilarda odatda patsimon yoki panjasimon to‘rsimon tomirlanish uchraydi.",
+      "answer": "To‘rsimon",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f5": {
+      "claim": "Bir urug‘pallali bug‘doy, arpa va makkajo‘xori barglarida parallel yoki yoysimon tomirlanish uchraydi.",
+      "answer": "Bug‘doy, arpa va makkajo‘xori",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bargning vazifalari",
+      "body": "Barg fotosintez, suv bug‘latish — transpiratsiya, gaz almashinuvi va vegetativ ko‘payishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-15-f1"
+      ]
+    },
+    {
+      "title": "Yaproq va band",
+      "body": "Bargning asosiy qismlari barg yaprog‘i va barg bandidir; ayrimlarida band tagida yon bargchalar ham bo‘ladi.",
+      "fact_ids": [
+        "paragraph-15-f2"
+      ]
+    },
+    {
+      "title": "Bandsiz barg",
+      "body": "Bandsiz barg poyaga yaprog‘ining pastki qismi bilan birikadi. Bug‘doy va makkajo‘xori bunga misoldir.",
+      "fact_ids": [
+        "paragraph-15-f3"
+      ]
+    },
+    {
+      "title": "To‘rsimon tomirlanish",
+      "body": "Ikki urug‘pallalilarda odatda patsimon yoki panjasimon to‘rsimon tomirlanish uchraydi.",
+      "fact_ids": [
+        "paragraph-15-f4"
+      ]
+    },
+    {
+      "title": "Bir urug‘pallali barglar",
+      "body": "Bir urug‘pallali bug‘doy, arpa va makkajo‘xori barglarida parallel yoki yoysimon tomirlanish uchraydi.",
+      "fact_ids": [
+        "paragraph-15-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-15-q1",
+      "fact_id": "paragraph-15-f1",
+      "question_text": "Barg orqali suv bug‘lanishining ilmiy nomi nima?",
+      "options": [
+        "Guttatsiya",
+        "Transpiratsiya",
+        "Changlanish",
+        "Urug‘lanish"
+      ],
+      "correct_answer": "Transpiratsiya",
+      "explanation": "Barg fotosintez, suv bug‘latish — transpiratsiya, gaz almashinuvi va vegetativ ko‘payishda qatnashadi."
+    },
+    {
+      "key": "paragraph-15-q2",
+      "fact_id": "paragraph-15-f2",
+      "question_text": "Bargni poyaga biriktiradigan qism qaysi?",
+      "options": [
+        "Barg bandi",
+        "Ildiz qinchasi",
+        "O‘zak",
+        "Changdon"
+      ],
+      "correct_answer": "Barg bandi",
+      "explanation": "Bargning asosiy qismlari barg yaprog‘i va barg bandidir; ayrimlarida band tagida yon bargchalar ham bo‘ladi."
+    },
+    {
+      "key": "paragraph-15-q3",
+      "fact_id": "paragraph-15-f3",
+      "question_text": "Bug‘doyning bandsiz bargi poyaga qanday birikadi?",
+      "options": [
+        "Alohida barg bandi orqali",
+        "Faqat ildiz bilan",
+        "Faqat gul bandi orqali",
+        "Yaprog‘ining pastki qismi bilan"
+      ],
+      "correct_answer": "Yaprog‘ining pastki qismi bilan",
+      "explanation": "Bandsiz barg poyaga yaprog‘ining pastki qismi bilan birikadi. Bug‘doy va makkajo‘xori bunga misoldir."
+    },
+    {
+      "key": "paragraph-15-q4",
+      "fact_id": "paragraph-15-f4",
+      "question_text": "Olma va g‘o‘za kabi ikki urug‘pallalilar uchun odatiy tomirlanish qaysi?",
+      "options": [
+        "Faqat yoysimon",
+        "Tomirsiz",
+        "To‘rsimon",
+        "Faqat parallel"
+      ],
+      "correct_answer": "To‘rsimon",
+      "explanation": "Ikki urug‘pallalilarda odatda patsimon yoki panjasimon to‘rsimon tomirlanish uchraydi."
+    },
+    {
+      "key": "paragraph-15-q5",
+      "fact_id": "paragraph-15-f5",
+      "question_text": "Qaysi qatorda odatda parallel yoki yoysimon tomirlangan o‘simliklar bor?",
+      "options": [
+        "Chinor, o‘rik va nok",
+        "Bug‘doy, arpa va makkajo‘xori",
+        "Olma, nok va terak",
+        "Tut, tok va g‘o‘za"
+      ],
+      "correct_answer": "Bug‘doy, arpa va makkajo‘xori",
+      "explanation": "Bir urug‘pallali bug‘doy, arpa va makkajo‘xori barglarida parallel yoki yoysimon tomirlanish uchraydi."
+    }
+  ]
+}

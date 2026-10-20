@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-laboratory-2-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-laboratory-2",
+  "title": "2-laboratoriya. Kurtaklarning tuzilishi va novdada joylashishini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-2-f1": {
+      "claim": "Laboratoriya ishida kurtaklarning yirik-maydaligi, uchki yoki yon joylashishi va novdadagi ketma-ket, qarama-qarshi yoki halqasimon tartibi taqqoslanadi.",
+      "answer": "O‘lchami va novdadagi joylashishi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f2": {
+      "claim": "Yirik kurtak uzunasiga kesilib, ichki tuzilishi lupa bilan ko‘riladi va qismlarining rasmi chiziladi.",
+      "answer": "Uzunasiga kesilgan kurtakni lupada ko‘rish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f3": {
+      "claim": "Ishda generativ va vegetativ kurtaklar farqlanadi, kuzatilgan tashqi va ichki tuzilma rasmda aks ettiriladi.",
+      "answer": "Tashqi va ichki tuzilmaning rasmini chizish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv mezonlari",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya ishida kurtaklarning yirik-maydaligi, uchki yoki yon joylashishi va novdadagi ketma-ket, qarama-qarshi yoki halqasimon tartibi taqqoslanadi.",
+      "fact_ids": [
+        "laboratory-2-f1"
+      ]
+    },
+    {
+      "title": "Ichki tuzilishni ko‘rish",
+      "body": "Yirik kurtak uzunasiga kesilib, ichki tuzilishi lupa bilan ko‘riladi va qismlarining rasmi chiziladi.",
+      "fact_ids": [
+        "laboratory-2-f2"
+      ]
+    },
+    {
+      "title": "Taqqoslash natijasi",
+      "body": "Ishda generativ va vegetativ kurtaklar farqlanadi, kuzatilgan tashqi va ichki tuzilma rasmda aks ettiriladi.",
+      "fact_ids": [
+        "laboratory-2-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-2-q1",
+      "fact_id": "laboratory-2-f1",
+      "question_text": "Kurtaklarni solishtirish uchun qaysi belgi yozib olinadi?",
+      "options": [
+        "Faqat urug‘ massasi",
+        "O‘lchami va novdadagi joylashishi",
+        "Faqat tuvak narxi",
+        "Faqat bargning hidi"
+      ],
+      "correct_answer": "O‘lchami va novdadagi joylashishi",
+      "explanation": "Laboratoriya ishida kurtaklarning yirik-maydaligi, uchki yoki yon joylashishi va novdadagi ketma-ket, qarama-qarshi yoki halqasimon tartibi taqqoslanadi."
+    },
+    {
+      "key": "laboratory-2-q2",
+      "fact_id": "laboratory-2-f2",
+      "question_text": "Kurtakning ichki tuzilishini kuzatishda qaysi usul berilgan?",
+      "options": [
+        "Uzunasiga kesilgan kurtakni lupada ko‘rish",
+        "Faqat tashqi rangini uzoqdan taxmin qilish",
+        "Kurtakni quritib maydalash",
+        "Faqat barg uzunligini o‘lchash"
+      ],
+      "correct_answer": "Uzunasiga kesilgan kurtakni lupada ko‘rish",
+      "explanation": "Yirik kurtak uzunasiga kesilib, ichki tuzilishi lupa bilan ko‘riladi va qismlarining rasmi chiziladi."
+    },
+    {
+      "key": "laboratory-2-q3",
+      "fact_id": "laboratory-2-f3",
+      "question_text": "Kuzatuv natijasini qanday qayd etish tavsiya qilingan?",
+      "options": [
+        "Kuzatmasdan tayyor javob yozish",
+        "Namunalarning hammasini aralashtirib tashlash",
+        "Faqat asbob nomini yozish",
+        "Tashqi va ichki tuzilmaning rasmini chizish"
+      ],
+      "correct_answer": "Tashqi va ichki tuzilmaning rasmini chizish",
+      "explanation": "Ishda generativ va vegetativ kurtaklar farqlanadi, kuzatilgan tashqi va ichki tuzilma rasmda aks ettiriladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Kurtaklarning tuzilishi va novdada joylashishini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv mezonlari",
+        "fact_ids": [
+          "laboratory-2-f1"
+        ]
+      },
+      {
+        "instruction": "Ichki tuzilishni ko‘rish",
+        "fact_ids": [
+          "laboratory-2-f2"
+        ]
+      },
+      {
+        "instruction": "Taqqoslash natijasi",
+        "fact_ids": [
+          "laboratory-2-f3"
+        ]
+      }
+    ]
+  }
+}
