@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-16-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-19",
+  "title": "Ekologik omillar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-16-f1": {
+      "claim": "Yorug‘lik, namlik va harorat jonsiz tabiatning abiotik omillari; organizmlarning bir-biriga ta’siri biotik omillardir.",
+      "answer": "Abiotik",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f2": {
+      "claim": "Antropogen omillar inson faoliyatining tabiatga ta’siridan yuzaga keladi; yangi nav va zot yaratish bunga misoldir.",
+      "answer": "Antropogen",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f3": {
+      "claim": "Baliqning suyri tanasi suv qarshiligini yengishga yordam beradi; sudralib yuruvchilarning muguz tangachalari suv bug‘lanishidan saqlaydi.",
+      "answer": "Suv bug‘lanishini kamaytiradi",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f4": {
+      "claim": "Biotsenozning jonli tarkibiga o‘simlik, hayvon va mikroorganizmlar kiradi. Produtsentlar organik modda hosil qiladi, konsumentlar uni iste’mol qiladi, redutsentlar parchalaydi.",
+      "answer": "Redutsentlar",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f5": {
+      "claim": "Darslik misolida bug‘doy → chigirtka → baqa → ilon → burgut oziq zanjiri berilgan.",
+      "answer": "Baqa",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f6": {
+      "claim": "Yog‘in kamayib o‘simliklar kam rivojlansa, ularga bog‘liq o‘txo‘rlar va keyingi iste’molchilar ham kamayishi mumkin.",
+      "answer": "Oziq zanjiri bo‘g‘inlari bir-biriga bog‘liq",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f7": {
+      "claim": "Quyon va tulkilar diagrammasida quyonlar sariq, tulkilar qizil ustun bilan ko‘rsatilgan; quyonlarning eng baland ustuni 1950-yilga to‘g‘ri keladi.",
+      "answer": "1950-yilda",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f8": {
+      "claim": "Darslikdagi yana bir oziq zanjiri: bug‘doy → sichqon → ilon. Unda bug‘doy produtsent, sichqon va ilon konsumentlardir.",
+      "answer": "Bug‘doy",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Muhit omillarini ajratish",
+      "body": "Yorug‘lik, namlik va harorat jonsiz tabiatning abiotik omillari; organizmlarning bir-biriga ta’siri biotik omillardir.",
+      "fact_ids": [
+        "paragraph-16-f1"
+      ]
+    },
+    {
+      "title": "Inson faoliyati",
+      "body": "Antropogen omillar inson faoliyatining tabiatga ta’siridan yuzaga keladi; yangi nav va zot yaratish bunga misoldir.",
+      "fact_ids": [
+        "paragraph-16-f2"
+      ]
+    },
+    {
+      "title": "Moslashuvni tushuntirish",
+      "body": "Baliqning suyri tanasi suv qarshiligini yengishga yordam beradi; sudralib yuruvchilarning muguz tangachalari suv bug‘lanishidan saqlaydi.",
+      "fact_ids": [
+        "paragraph-16-f3"
+      ]
+    },
+    {
+      "title": "Biotsenozdagi vazifalar",
+      "body": "Biotsenozning jonli tarkibiga o‘simlik, hayvon va mikroorganizmlar kiradi. Produtsentlar organik modda hosil qiladi, konsumentlar uni iste’mol qiladi, redutsentlar parchalaydi.",
+      "fact_ids": [
+        "paragraph-16-f4"
+      ]
+    },
+    {
+      "title": "Oziq yo‘lini tartiblash",
+      "body": "Darslik misolida bug‘doy → chigirtka → baqa → ilon → burgut oziq zanjiri berilgan.",
+      "fact_ids": [
+        "paragraph-16-f5"
+      ]
+    },
+    {
+      "title": "Bog‘liqlikdan xulosa",
+      "body": "Yog‘in kamayib o‘simliklar kam rivojlansa, ularga bog‘liq o‘txo‘rlar va keyingi iste’molchilar ham kamayishi mumkin.",
+      "fact_ids": [
+        "paragraph-16-f6"
+      ]
+    },
+    {
+      "title": "Diagrammani o‘qish",
+      "body": "Quyon va tulkilar diagrammasida quyonlar sariq, tulkilar qizil ustun bilan ko‘rsatilgan; quyonlarning eng baland ustuni 1950-yilga to‘g‘ri keladi.",
+      "fact_ids": [
+        "paragraph-16-f7"
+      ]
+    },
+    {
+      "title": "Oziq zanjirini qo‘llash",
+      "body": "Darslikdagi yana bir oziq zanjiri: bug‘doy → sichqon → ilon. Unda bug‘doy produtsent, sichqon va ilon konsumentlardir.",
+      "fact_ids": [
+        "paragraph-16-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-16-q1",
+      "fact_id": "paragraph-16-f1",
+      "question_text": "Havo haroratining niholga ta’siri qaysi omilga kiradi?",
+      "options": [
+        "Faqat antropogen",
+        "Sistematik birlik",
+        "Abiotik",
+        "Biotik"
+      ],
+      "correct_answer": "Abiotik",
+      "explanation": "Yorug‘lik, namlik va harorat jonsiz tabiatning abiotik omillari; organizmlarning bir-biriga ta’siri biotik omillardir."
+    },
+    {
+      "key": "paragraph-16-q2",
+      "fact_id": "paragraph-16-f2",
+      "question_text": "Inson yangi o‘simlik navi yaratsa bu qanday omil misoli?",
+      "options": [
+        "Faqat tabiiy yorug‘lik",
+        "Antropogen",
+        "Faqat namlik",
+        "Faqat harorat"
+      ],
+      "correct_answer": "Antropogen",
+      "explanation": "Antropogen omillar inson faoliyatining tabiatga ta’siridan yuzaga keladi; yangi nav va zot yaratish bunga misoldir."
+    },
+    {
+      "key": "paragraph-16-q3",
+      "fact_id": "paragraph-16-f3",
+      "question_text": "Muguz tangachalar cho‘lda yashovchi hayvonga qanday yordam beradi?",
+      "options": [
+        "Suv bug‘lanishini kamaytiradi",
+        "Jabra hosil qiladi",
+        "Meva yetiltiradi",
+        "Pat chiqaradi"
+      ],
+      "correct_answer": "Suv bug‘lanishini kamaytiradi",
+      "explanation": "Baliqning suyri tanasi suv qarshiligini yengishga yordam beradi; sudralib yuruvchilarning muguz tangachalari suv bug‘lanishidan saqlaydi."
+    },
+    {
+      "key": "paragraph-16-q4",
+      "fact_id": "paragraph-16-f4",
+      "question_text": "Organik qoldiqlarni parchalovchilar qanday nomlanadi?",
+      "options": [
+        "Faqat konsumentlar",
+        "Faqat produtsentlar",
+        "Faqat urug‘pallalar",
+        "Redutsentlar"
+      ],
+      "correct_answer": "Redutsentlar",
+      "explanation": "Biotsenozning jonli tarkibiga o‘simlik, hayvon va mikroorganizmlar kiradi. Produtsentlar organik modda hosil qiladi, konsumentlar uni iste’mol qiladi, redutsentlar parchalaydi."
+    },
+    {
+      "key": "paragraph-16-q5",
+      "fact_id": "paragraph-16-f5",
+      "question_text": "Bug‘doy → chigirtka → ? → ilon zanjiridagi bo‘sh o‘rin qaysi?",
+      "options": [
+        "Qum",
+        "Bulut",
+        "Baqa",
+        "Qarag‘ay qubbasi"
+      ],
+      "correct_answer": "Baqa",
+      "explanation": "Darslik misolida bug‘doy → chigirtka → baqa → ilon → burgut oziq zanjiri berilgan."
+    },
+    {
+      "key": "paragraph-16-q6",
+      "fact_id": "paragraph-16-f6",
+      "question_text": "O‘simliklar kamayishi nima uchun yirtqichlarga ham ta’sir qiladi?",
+      "options": [
+        "Barcha organizmlar bir xil oziqlangani uchun",
+        "Oziq zanjiri bo‘g‘inlari bir-biriga bog‘liq",
+        "Yirtqichlar fotosintez qilgani uchun",
+        "Barcha hayvonlar o‘simlikka aylangani uchun"
+      ],
+      "correct_answer": "Oziq zanjiri bo‘g‘inlari bir-biriga bog‘liq",
+      "explanation": "Yog‘in kamayib o‘simliklar kam rivojlansa, ularga bog‘liq o‘txo‘rlar va keyingi iste’molchilar ham kamayishi mumkin."
+    },
+    {
+      "key": "paragraph-16-q7",
+      "fact_id": "paragraph-16-f7",
+      "question_text": "Darslik diagrammasida quyonlar eng ko‘p qaysi yilda ko‘rsatilgan?",
+      "options": [
+        "1950-yilda",
+        "1930-yilda",
+        "1970-yilda",
+        "2000-yilda"
+      ],
+      "correct_answer": "1950-yilda",
+      "explanation": "Quyon va tulkilar diagrammasida quyonlar sariq, tulkilar qizil ustun bilan ko‘rsatilgan; quyonlarning eng baland ustuni 1950-yilga to‘g‘ri keladi."
+    },
+    {
+      "key": "paragraph-16-q8",
+      "fact_id": "paragraph-16-f8",
+      "question_text": "Bug‘doy → sichqon → ilon zanjirida produtsent qaysi?",
+      "options": [
+        "Sichqon",
+        "Ilon",
+        "Uchovi ham faqat redutsent",
+        "Bug‘doy"
+      ],
+      "correct_answer": "Bug‘doy",
+      "explanation": "Darslikdagi yana bir oziq zanjiri: bug‘doy → sichqon → ilon. Unda bug‘doy produtsent, sichqon va ilon konsumentlardir."
+    }
+  ]
+}

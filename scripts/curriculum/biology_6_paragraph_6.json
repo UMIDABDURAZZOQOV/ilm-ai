@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-6-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-8",
+  "title": "O‘simlik to‘qimalari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-6-f1": {
+      "claim": "Tuzilishi va vazifasi o‘xshash hujayralar yig‘indisi to‘qima deyiladi; organ bir necha xil to‘qimadan tuziladi.",
+      "answer": "Tuzilishi va vazifasi o‘xshash hujayralar yig‘indisi",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f2": {
+      "claim": "Hosil qiluvchi to‘qima — meristema — hujayralari tez-tez bo‘linadi; uchki meristema ildiz va novdaning bo‘yiga o‘sishini ta’minlaydi.",
+      "answer": "Uchki hosil qiluvchi to‘qima",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f3": {
+      "claim": "Floema va ksilema orasidagi yon hosil qiluvchi to‘qima kambiy deb ataladi; u poya va ildizning eniga o‘sishida qatnashadi.",
+      "answer": "Kambiy",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f4": {
+      "claim": "Asosiy to‘qimaning assimilatsion turi fotosintezda, jamg‘aruvchi turi esa oziq va boshqa moddalarni to‘plashda qatnashadi.",
+      "answer": "Jamg‘aruvchi",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f5": {
+      "claim": "Epiderma yosh novda va bargni qoplaydi; uning kutikulasi suv bug‘lanishini kamaytiradi, og‘izchalari gaz almashinuvida qatnashadi.",
+      "answer": "Gaz almashinuvi va suv bug‘latishda qatnashish",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f6": {
+      "claim": "Ksilema naylari orqali suv va unda erigan mineral tuzlar ildizdan boshqa organlarga ko‘tariladi.",
+      "answer": "Ksilema",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f7": {
+      "claim": "Floemaning elaksimon naylari fotosintezda hosil bo‘lgan organik moddalarni boshqa organlarga yetkazadi.",
+      "answer": "Floema",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f8": {
+      "claim": "Mexanik to‘qima organlarga mustahkamlik beradi; ajratuvchi to‘qima esa nektar, efir moyi va smola kabi moddalarni chiqaradi.",
+      "answer": "Ajratuvchi to‘qima",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "To‘qima tushunchasi",
+      "body": "Tuzilishi va vazifasi o‘xshash hujayralar yig‘indisi to‘qima deyiladi; organ bir necha xil to‘qimadan tuziladi.",
+      "fact_ids": [
+        "paragraph-6-f1"
+      ]
+    },
+    {
+      "title": "Hosil qiluvchi to‘qima",
+      "body": "Hosil qiluvchi to‘qima — meristema — hujayralari tez-tez bo‘linadi; uchki meristema ildiz va novdaning bo‘yiga o‘sishini ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-6-f2"
+      ]
+    },
+    {
+      "title": "Eniga o‘sish",
+      "body": "Floema va ksilema orasidagi yon hosil qiluvchi to‘qima kambiy deb ataladi; u poya va ildizning eniga o‘sishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-6-f3"
+      ]
+    },
+    {
+      "title": "Asosiy to‘qima",
+      "body": "Asosiy to‘qimaning assimilatsion turi fotosintezda, jamg‘aruvchi turi esa oziq va boshqa moddalarni to‘plashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-6-f4"
+      ]
+    },
+    {
+      "title": "Qoplovchi to‘qima",
+      "body": "Epiderma yosh novda va bargni qoplaydi; uning kutikulasi suv bug‘lanishini kamaytiradi, og‘izchalari gaz almashinuvida qatnashadi.",
+      "fact_ids": [
+        "paragraph-6-f5"
+      ]
+    },
+    {
+      "title": "Suvni o‘tkazish",
+      "body": "Ksilema naylari orqali suv va unda erigan mineral tuzlar ildizdan boshqa organlarga ko‘tariladi.",
+      "fact_ids": [
+        "paragraph-6-f6"
+      ]
+    },
+    {
+      "title": "Organik moddalarni o‘tkazish",
+      "body": "Floemaning elaksimon naylari fotosintezda hosil bo‘lgan organik moddalarni boshqa organlarga yetkazadi.",
+      "fact_ids": [
+        "paragraph-6-f7"
+      ]
+    },
+    {
+      "title": "Tayanch va ajratish",
+      "body": "Mexanik to‘qima organlarga mustahkamlik beradi; ajratuvchi to‘qima esa nektar, efir moyi va smola kabi moddalarni chiqaradi.",
+      "fact_ids": [
+        "paragraph-6-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-6-q1",
+      "fact_id": "paragraph-6-f1",
+      "question_text": "To‘qima nima?",
+      "options": [
+        "Har xil o‘simlik turlarining yig‘indisi",
+        "Tuzilishi va vazifasi o‘xshash hujayralar yig‘indisi",
+        "Bir nechta organlardan tuzilgan sistema",
+        "Faqat bitta hujayraning yadrosi"
+      ],
+      "correct_answer": "Tuzilishi va vazifasi o‘xshash hujayralar yig‘indisi",
+      "explanation": "Tuzilishi va vazifasi o‘xshash hujayralar yig‘indisi to‘qima deyiladi; organ bir necha xil to‘qimadan tuziladi."
+    },
+    {
+      "key": "paragraph-6-q2",
+      "fact_id": "paragraph-6-f2",
+      "question_text": "Novdaning bo‘yiga o‘sishida qaysi to‘qima muhim?",
+      "options": [
+        "Uchki hosil qiluvchi to‘qima",
+        "Po‘kak to‘qimasi",
+        "Mexanik to‘qima",
+        "Ajratuvchi to‘qima"
+      ],
+      "correct_answer": "Uchki hosil qiluvchi to‘qima",
+      "explanation": "Hosil qiluvchi to‘qima — meristema — hujayralari tez-tez bo‘linadi; uchki meristema ildiz va novdaning bo‘yiga o‘sishini ta’minlaydi."
+    },
+    {
+      "key": "paragraph-6-q3",
+      "fact_id": "paragraph-6-f3",
+      "question_text": "Poyaning yo‘g‘onlashishida qaysi to‘qima qatnashadi?",
+      "options": [
+        "Epiderma",
+        "Jamg‘aruvchi to‘qima",
+        "Og‘izcha",
+        "Kambiy"
+      ],
+      "correct_answer": "Kambiy",
+      "explanation": "Floema va ksilema orasidagi yon hosil qiluvchi to‘qima kambiy deb ataladi; u poya va ildizning eniga o‘sishida qatnashadi."
+    },
+    {
+      "key": "paragraph-6-q4",
+      "fact_id": "paragraph-6-f4",
+      "question_text": "Zaxira oziq to‘plash qaysi asosiy to‘qima turiga xos?",
+      "options": [
+        "Qoplovchi",
+        "Mexanik",
+        "Jamg‘aruvchi",
+        "Assimilatsion"
+      ],
+      "correct_answer": "Jamg‘aruvchi",
+      "explanation": "Asosiy to‘qimaning assimilatsion turi fotosintezda, jamg‘aruvchi turi esa oziq va boshqa moddalarni to‘plashda qatnashadi."
+    },
+    {
+      "key": "paragraph-6-q5",
+      "fact_id": "paragraph-6-f5",
+      "question_text": "Barg epidermasidagi og‘izchalarning vazifasi qaysi?",
+      "options": [
+        "Urug‘ni changlantirish",
+        "Gaz almashinuvi va suv bug‘latishda qatnashish",
+        "Organik moddalarni zaxiralash",
+        "Novdani bo‘yiga o‘stirish"
+      ],
+      "correct_answer": "Gaz almashinuvi va suv bug‘latishda qatnashish",
+      "explanation": "Epiderma yosh novda va bargni qoplaydi; uning kutikulasi suv bug‘lanishini kamaytiradi, og‘izchalari gaz almashinuvida qatnashadi."
+    },
+    {
+      "key": "paragraph-6-q6",
+      "fact_id": "paragraph-6-f6",
+      "question_text": "Ildizdan yuqoriga suv va mineral tuzlarni qaysi to‘qima o‘tkazadi?",
+      "options": [
+        "Ksilema",
+        "Floema",
+        "Epiderma",
+        "Po‘kak"
+      ],
+      "correct_answer": "Ksilema",
+      "explanation": "Ksilema naylari orqali suv va unda erigan mineral tuzlar ildizdan boshqa organlarga ko‘tariladi."
+    },
+    {
+      "key": "paragraph-6-q7",
+      "fact_id": "paragraph-6-f7",
+      "question_text": "Bargda hosil bo‘lgan organik moddalarni qaysi to‘qima tashiydi?",
+      "options": [
+        "Ksilema",
+        "Epiderma",
+        "Kutikula",
+        "Floema"
+      ],
+      "correct_answer": "Floema",
+      "explanation": "Floemaning elaksimon naylari fotosintezda hosil bo‘lgan organik moddalarni boshqa organlarga yetkazadi."
+    },
+    {
+      "key": "paragraph-6-q8",
+      "fact_id": "paragraph-6-f8",
+      "question_text": "Nektar va efir moyini qaysi to‘qima ajratadi?",
+      "options": [
+        "Qoplovchi to‘qima",
+        "Hosil qiluvchi to‘qima",
+        "Ajratuvchi to‘qima",
+        "Mexanik to‘qima"
+      ],
+      "correct_answer": "Ajratuvchi to‘qima",
+      "explanation": "Mexanik to‘qima organlarga mustahkamlik beradi; ajratuvchi to‘qima esa nektar, efir moyi va smola kabi moddalarni chiqaradi."
+    }
+  ]
+}

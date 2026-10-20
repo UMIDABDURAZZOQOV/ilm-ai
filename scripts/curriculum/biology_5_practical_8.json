@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-8-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-8",
+  "title": "8-amaliy mashg‘ulot. Bakteriya, zamburug‘, o‘simlik va hayvonot dunyosi haqida ma’lumot to‘plash",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-8-f1": {
+      "claim": "Bakteriya, zamburug‘, o‘simlik va hayvonot haqidagi jurnal loyihasida sinf to‘rt guruhga bo‘linib, vazifalar taqsimlanadi.",
+      "answer": "Guruhlarga bo‘linib vazifalar taqsimlanadi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-8-f2": {
+      "claim": "To‘plangan ma’lumotlardan tayyorlangan jurnal elektron taqdimot yoki qog‘oz nashr shaklida bo‘lishi mumkin.",
+      "answer": "Elektron va qog‘oz shaklda",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          90
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-8-f3": {
+      "claim": "Jurnalist mavzuga oid ma’lumot to‘playdi, dizayner bezashni bajaradi, muharrir jarayon va nashrning xatosizligini nazorat qiladi.",
+      "answer": "Muharrir",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-8-f4": {
+      "claim": "Tayyor materiallar taqdim etiladi; o‘qituvchi ularning xatosizligi va ishni tushuntirib bera olishni baholaydi.",
+      "answer": "Material xatosizligi va uni tushuntirib bera olishga",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          91
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Jamoaviy loyiha",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nBakteriya, zamburug‘, o‘simlik va hayvonot haqidagi jurnal loyihasida sinf to‘rt guruhga bo‘linib, vazifalar taqsimlanadi.",
+      "fact_ids": [
+        "practical-8-f1"
+      ]
+    },
+    {
+      "title": "Loyiha ko‘rinishi",
+      "body": "To‘plangan ma’lumotlardan tayyorlangan jurnal elektron taqdimot yoki qog‘oz nashr shaklida bo‘lishi mumkin.",
+      "fact_ids": [
+        "practical-8-f2"
+      ]
+    },
+    {
+      "title": "Vazifalarni farqlash",
+      "body": "Jurnalist mavzuga oid ma’lumot to‘playdi, dizayner bezashni bajaradi, muharrir jarayon va nashrning xatosizligini nazorat qiladi.",
+      "fact_ids": [
+        "practical-8-f3"
+      ]
+    },
+    {
+      "title": "Dalil va taqdimot",
+      "body": "Tayyor materiallar taqdim etiladi; o‘qituvchi ularning xatosizligi va ishni tushuntirib bera olishni baholaydi.",
+      "fact_ids": [
+        "practical-8-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-8-q1",
+      "fact_id": "practical-8-f1",
+      "question_text": "Loyihani boshlashda qaysi ish bajariladi?",
+      "options": [
+        "Barcha ish bitta surat bilan almashtiriladi",
+        "Avval barcha qaydlar yo‘qotiladi",
+        "Guruhlarga bo‘linib vazifalar taqsimlanadi",
+        "Manbalar o‘qilmasdan natija to‘qiladi"
+      ],
+      "correct_answer": "Guruhlarga bo‘linib vazifalar taqsimlanadi",
+      "explanation": "Bakteriya, zamburug‘, o‘simlik va hayvonot haqidagi jurnal loyihasida sinf to‘rt guruhga bo‘linib, vazifalar taqsimlanadi."
+    },
+    {
+      "key": "practical-8-q2",
+      "fact_id": "practical-8-f2",
+      "question_text": "Jurnalni qaysi shakllarda taqdim etish mumkin?",
+      "options": [
+        "Faqat nom yozilgan quti shaklida",
+        "Elektron va qog‘oz shaklda",
+        "Faqat og‘zaki taxmin shaklida",
+        "Faqat bo‘sh fayl shaklida"
+      ],
+      "correct_answer": "Elektron va qog‘oz shaklda",
+      "explanation": "To‘plangan ma’lumotlardan tayyorlangan jurnal elektron taqdimot yoki qog‘oz nashr shaklida bo‘lishi mumkin."
+    },
+    {
+      "key": "practical-8-q3",
+      "fact_id": "practical-8-f3",
+      "question_text": "Nashrning xatosizligi va jarayonni nazorat qiluvchi kim?",
+      "options": [
+        "Muharrir",
+        "Faqat suratdagi qahramon",
+        "Faqat tasodifiy tomoshabin",
+        "Faqat printer"
+      ],
+      "correct_answer": "Muharrir",
+      "explanation": "Jurnalist mavzuga oid ma’lumot to‘playdi, dizayner bezashni bajaradi, muharrir jarayon va nashrning xatosizligini nazorat qiladi."
+    },
+    {
+      "key": "practical-8-q4",
+      "fact_id": "practical-8-f4",
+      "question_text": "Yakuniy baholashda nimalarga e’tibor beriladi?",
+      "options": [
+        "Faqat ranglarning soniga",
+        "Faqat qog‘oz narxiga",
+        "Tekshirilmagan ma’lumotning ko‘pligiga",
+        "Material xatosizligi va uni tushuntirib bera olishga"
+      ],
+      "correct_answer": "Material xatosizligi va uni tushuntirib bera olishga",
+      "explanation": "Tayyor materiallar taqdim etiladi; o‘qituvchi ularning xatosizligi va ishni tushuntirib bera olishni baholaydi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Bakteriya, zamburug‘, o‘simlik va hayvonot dunyosi haqida ma’lumot to‘plash: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Jamoaviy loyiha",
+        "fact_ids": [
+          "practical-8-f1"
+        ]
+      },
+      {
+        "instruction": "Loyiha ko‘rinishi",
+        "fact_ids": [
+          "practical-8-f2"
+        ]
+      },
+      {
+        "instruction": "Vazifalarni farqlash",
+        "fact_ids": [
+          "practical-8-f3"
+        ]
+      },
+      {
+        "instruction": "Dalil va taqdimot",
+        "fact_ids": [
+          "practical-8-f4"
+        ]
+      }
+    ]
+  }
+}

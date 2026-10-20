@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-laboratory-3-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-laboratory-3",
+  "title": "3-laboratoriya. Piyoz po‘sti hujayrasining tuzilishini mikroskopda o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-3-f1": {
+      "claim": "Piyozning yupqa po‘sti suv tomchisi ustiga tekis joylashtirilib, qoplag‘ich oyna bilan yopiladigan preparat sifatida ko‘rsatilgan.",
+      "answer": "Buyum oynasidagi suv tomchisi ustiga",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          22
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f2": {
+      "claim": "Piyoz preparati dastlab kichik, so‘ng katta obyektivda kuzatiladi; ko‘ringan tuzilma chizma bilan qayd etiladi.",
+      "answer": "Ko‘rgan tuzilmaning chizmasini chizish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          22
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f3": {
+      "claim": "Piyoz hujayralarida sitoplazma, vakuola va yadro kuzatilishi, tashqarida esa sellyuloza qobiq bo‘lishi bayon qilingan.",
+      "answer": "Sellyuloza",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f4": {
+      "claim": "Mikroskop ostida piyoz hujayralari zich joylashgan silindrsimon hujayralar sifatida tasvirlangan.",
+      "answer": "Zich joylashgan hujayralar",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Preparat rejasini o‘qish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nPiyozning yupqa po‘sti suv tomchisi ustiga tekis joylashtirilib, qoplag‘ich oyna bilan yopiladigan preparat sifatida ko‘rsatilgan.",
+      "fact_ids": [
+        "laboratory-3-f1"
+      ]
+    },
+    {
+      "title": "Kuzatishni tartiblash",
+      "body": "Piyoz preparati dastlab kichik, so‘ng katta obyektivda kuzatiladi; ko‘ringan tuzilma chizma bilan qayd etiladi.",
+      "fact_ids": [
+        "laboratory-3-f2"
+      ]
+    },
+    {
+      "title": "Tuzilmadan xulosa qilish",
+      "body": "Piyoz hujayralarida sitoplazma, vakuola va yadro kuzatilishi, tashqarida esa sellyuloza qobiq bo‘lishi bayon qilingan.\n\nMikroskop ostida piyoz hujayralari zich joylashgan silindrsimon hujayralar sifatida tasvirlangan.",
+      "fact_ids": [
+        "laboratory-3-f3",
+        "laboratory-3-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-3-q1",
+      "fact_id": "laboratory-3-f1",
+      "question_text": "Ilmo preparat rejasida yupqa po‘st qayerga joylashishini belgilaydi. Qaysi javob mos?",
+      "options": [
+        "Quruq stol chetiga",
+        "Mikroskop ko‘zgusi ostiga",
+        "Buyum oynasidagi suv tomchisi ustiga",
+        "Okulyarning ichiga"
+      ],
+      "correct_answer": "Buyum oynasidagi suv tomchisi ustiga",
+      "explanation": "Piyozning yupqa po‘sti suv tomchisi ustiga tekis joylashtirilib, qoplag‘ich oyna bilan yopiladigan preparat sifatida ko‘rsatilgan."
+    },
+    {
+      "key": "laboratory-3-q2",
+      "fact_id": "laboratory-3-f2",
+      "question_text": "Ilmo kuzatuv natijasini qanday qayd qilishi mumkin?",
+      "options": [
+        "Natijani yozmasdan tashlab ketish",
+        "Ko‘rgan tuzilmaning chizmasini chizish",
+        "Ko‘rmagan yadroni taxmin qilish",
+        "Hamma hujayrani hayvon hujayrasi deb yozish"
+      ],
+      "correct_answer": "Ko‘rgan tuzilmaning chizmasini chizish",
+      "explanation": "Piyoz preparati dastlab kichik, so‘ng katta obyektivda kuzatiladi; ko‘ringan tuzilma chizma bilan qayd etiladi."
+    },
+    {
+      "key": "laboratory-3-q3",
+      "fact_id": "laboratory-3-f3",
+      "question_text": "Piyoz hujayrasining tashqi qobig‘i bilan qaysi modda bog‘langan?",
+      "options": [
+        "Sellyuloza",
+        "Gemoglobin",
+        "Faqat osh tuzi",
+        "Faqat yog‘"
+      ],
+      "correct_answer": "Sellyuloza",
+      "explanation": "Piyoz hujayralarida sitoplazma, vakuola va yadro kuzatilishi, tashqarida esa sellyuloza qobiq bo‘lishi bayon qilingan."
+    },
+    {
+      "key": "laboratory-3-q4",
+      "fact_id": "laboratory-3-f4",
+      "question_text": "Kitobdagi piyoz po‘sti kuzatuviga qaysi tavsif mos?",
+      "options": [
+        "Hujayrasiz quruq donalar",
+        "Faqat erkin suzuvchi baliqlar",
+        "Faqat gul changlari",
+        "Zich joylashgan hujayralar"
+      ],
+      "correct_answer": "Zich joylashgan hujayralar",
+      "explanation": "Mikroskop ostida piyoz hujayralari zich joylashgan silindrsimon hujayralar sifatida tasvirlangan."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Piyoz po‘sti hujayrasining tuzilishini mikroskopda o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Preparat rejasini o‘qish",
+        "fact_ids": [
+          "laboratory-3-f1"
+        ]
+      },
+      {
+        "instruction": "Kuzatishni tartiblash",
+        "fact_ids": [
+          "laboratory-3-f2"
+        ]
+      },
+      {
+        "instruction": "Tuzilmadan xulosa qilish",
+        "fact_ids": [
+          "laboratory-3-f3",
+          "laboratory-3-f4"
+        ]
+      }
+    ]
+  }
+}

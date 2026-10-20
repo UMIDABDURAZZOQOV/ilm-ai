@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-6-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-6",
+  "title": "6-amaliy mashg‘ulot. Baqaning hayot siklini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-6-f1": {
+      "claim": "Baqa hayot sikli rasmida tuxumdan keyin lichinka va itbaliq, keyin oyoqlari rivojlangan yosh baqa tasvirlangan.",
+      "answer": "Tuxum → itbaliq → yosh baqa → voyaga yetgan baqa",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-6-f2": {
+      "claim": "Voyaga yetgan baqa pashsha, chivin va qo‘ng‘iz kabi hayvonlarni uzun yopishqoq tili yordamida tutadi.",
+      "answer": "Uzun yopishqoq tili bilan",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-6-f3": {
+      "claim": "Baqa embrioni tuxumdagi sariqlik hisobiga oziqlanadi.",
+      "answer": "Tuxum sariqligi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-6-f4": {
+      "claim": "Itbaliqda avval orqa, keyin oldingi oyoqlar rivojlanadi; dumi yo‘qolib, yosh baqa hosil bo‘ladi.",
+      "answer": "Avval orqa, keyin oldingi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          75
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Rasm bo‘yicha hayot sikli",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nBaqa hayot sikli rasmida tuxumdan keyin lichinka va itbaliq, keyin oyoqlari rivojlangan yosh baqa tasvirlangan.",
+      "fact_ids": [
+        "practical-6-f1"
+      ]
+    },
+    {
+      "title": "Oziqni tutish",
+      "body": "Voyaga yetgan baqa pashsha, chivin va qo‘ng‘iz kabi hayvonlarni uzun yopishqoq tili yordamida tutadi.",
+      "fact_ids": [
+        "practical-6-f2"
+      ]
+    },
+    {
+      "title": "Embrionning oziqi",
+      "body": "Baqa embrioni tuxumdagi sariqlik hisobiga oziqlanadi.",
+      "fact_ids": [
+        "practical-6-f3"
+      ]
+    },
+    {
+      "title": "O‘zgarish tartibi",
+      "body": "Itbaliqda avval orqa, keyin oldingi oyoqlar rivojlanadi; dumi yo‘qolib, yosh baqa hosil bo‘ladi.",
+      "fact_ids": [
+        "practical-6-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-6-q1",
+      "fact_id": "practical-6-f1",
+      "question_text": "Tuxumdan voyaga yetgan baqagacha qaysi tartib to‘g‘ri?",
+      "options": [
+        "Yosh baqa → tuxum ichidagi daraxt → baliq",
+        "Gul → meva → urug‘",
+        "Tuxum → itbaliq → yosh baqa → voyaga yetgan baqa",
+        "Tuxum → g‘umbak → asalari"
+      ],
+      "correct_answer": "Tuxum → itbaliq → yosh baqa → voyaga yetgan baqa",
+      "explanation": "Baqa hayot sikli rasmida tuxumdan keyin lichinka va itbaliq, keyin oyoqlari rivojlangan yosh baqa tasvirlangan."
+    },
+    {
+      "key": "practical-6-q2",
+      "fact_id": "practical-6-f2",
+      "question_text": "Voyaga yetgan baqa o‘ljasini nima bilan tutadi?",
+      "options": [
+        "Ildiz tukchasi bilan",
+        "Uzun yopishqoq tili bilan",
+        "Gul changi bilan",
+        "Qubbasi bilan"
+      ],
+      "correct_answer": "Uzun yopishqoq tili bilan",
+      "explanation": "Voyaga yetgan baqa pashsha, chivin va qo‘ng‘iz kabi hayvonlarni uzun yopishqoq tili yordamida tutadi."
+    },
+    {
+      "key": "practical-6-q3",
+      "fact_id": "practical-6-f3",
+      "question_text": "Tuxum ichidagi baqa embrionining oziq manbai nima?",
+      "options": [
+        "Tuxum sariqligi",
+        "Faqat hasharot qanoti",
+        "Faqat tashqi tuproq",
+        "Faqat havo pufagi"
+      ],
+      "correct_answer": "Tuxum sariqligi",
+      "explanation": "Baqa embrioni tuxumdagi sariqlik hisobiga oziqlanadi."
+    },
+    {
+      "key": "practical-6-q4",
+      "fact_id": "practical-6-f4",
+      "question_text": "Itbaliqda oyoqlar qaysi tartibda rivojlanadi?",
+      "options": [
+        "Avval oldingi, keyin orqa",
+        "Avval qanot, keyin pat",
+        "Oyoq umuman rivojlanmaydi",
+        "Avval orqa, keyin oldingi"
+      ],
+      "correct_answer": "Avval orqa, keyin oldingi",
+      "explanation": "Itbaliqda avval orqa, keyin oldingi oyoqlar rivojlanadi; dumi yo‘qolib, yosh baqa hosil bo‘ladi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Baqaning hayot siklini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Rasm bo‘yicha hayot sikli",
+        "fact_ids": [
+          "practical-6-f1"
+        ]
+      },
+      {
+        "instruction": "Oziqni tutish",
+        "fact_ids": [
+          "practical-6-f2"
+        ]
+      },
+      {
+        "instruction": "Embrionning oziqi",
+        "fact_ids": [
+          "practical-6-f3"
+        ]
+      },
+      {
+        "instruction": "O‘zgarish tartibi",
+        "fact_ids": [
+          "practical-6-f4"
+        ]
+      }
+    ]
+  }
+}

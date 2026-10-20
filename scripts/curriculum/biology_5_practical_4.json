@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-4-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-4",
+  "title": "4-amaliy mashg‘ulot. Xona o‘simliklarini ekish va ko‘chirib o‘tkazish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-4-f1": {
+      "claim": "Darslikdagi xona o‘simligi qalamchasi suvda ildiz chiqarishi uchun iliq, yorug‘, ammo quyosh nuri tik tushmaydigan joyga qo‘yiladi.",
+      "answer": "Iliq va yorug‘, tik quyosh tushmaydigan joy",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-4-f2": {
+      "claim": "Tuvak tagiga keramzit, uning ustiga tuproq aralashmasi solinadi; ildiz otgan o‘simlik joylashtirilgach tuproq bilan to‘ldiriladi.",
+      "answer": "Keramzit → tuproq → ildizli o‘simlikni joylash",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-4-f3": {
+      "claim": "Tuproq ildiz bo‘g‘zigacha yetishi kerak; ildizni ochiq qoldirish ham, poyani ortiqcha ko‘mish ham o‘simlikka zarar yetkazadi.",
+      "answer": "Ildiz bo‘g‘zigacha tuproq bilan yopish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-4-f4": {
+      "claim": "Tuvak tagidagi keramzit ortiqcha suv to‘planishining oldini olishga yordam beradi; tuproq yuzasi tuvak chetidan 1–2 sm past bo‘ladi.",
+      "answer": "Suv to‘planib qolishini kamaytirish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-4-f5": {
+      "claim": "Yangi ekilgan yoki ko‘chirilgan o‘simlik 3–4 kun salqin joyda saqlanib, keyin yorug‘ joyga qo‘yiladi.",
+      "answer": "Avval 3–4 kun salqin joyda saqlanadi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qalamchani tayyorlash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nDarslikdagi xona o‘simligi qalamchasi suvda ildiz chiqarishi uchun iliq, yorug‘, ammo quyosh nuri tik tushmaydigan joyga qo‘yiladi.",
+      "fact_ids": [
+        "practical-4-f1"
+      ]
+    },
+    {
+      "title": "Ekish ketma-ketligi",
+      "body": "Tuvak tagiga keramzit, uning ustiga tuproq aralashmasi solinadi; ildiz otgan o‘simlik joylashtirilgach tuproq bilan to‘ldiriladi.",
+      "fact_ids": [
+        "practical-4-f2"
+      ]
+    },
+    {
+      "title": "Ekish chuqurligi",
+      "body": "Tuproq ildiz bo‘g‘zigacha yetishi kerak; ildizni ochiq qoldirish ham, poyani ortiqcha ko‘mish ham o‘simlikka zarar yetkazadi.",
+      "fact_ids": [
+        "practical-4-f3"
+      ]
+    },
+    {
+      "title": "Suv va joy",
+      "body": "Tuvak tagidagi keramzit ortiqcha suv to‘planishining oldini olishga yordam beradi; tuproq yuzasi tuvak chetidan 1–2 sm past bo‘ladi.",
+      "fact_ids": [
+        "practical-4-f4"
+      ]
+    },
+    {
+      "title": "Ko‘chirishdan keyin",
+      "body": "Yangi ekilgan yoki ko‘chirilgan o‘simlik 3–4 kun salqin joyda saqlanib, keyin yorug‘ joyga qo‘yiladi.",
+      "fact_ids": [
+        "practical-4-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-4-q1",
+      "fact_id": "practical-4-f1",
+      "question_text": "Qalamcha ildiz chiqarishi uchun qaysi joy tanlanadi?",
+      "options": [
+        "Quruq yopiq quti",
+        "Tik quyoshdagi suvsiz idish",
+        "Iliq va yorug‘, tik quyosh tushmaydigan joy",
+        "Qorong‘i muzlatkich"
+      ],
+      "correct_answer": "Iliq va yorug‘, tik quyosh tushmaydigan joy",
+      "explanation": "Darslikdagi xona o‘simligi qalamchasi suvda ildiz chiqarishi uchun iliq, yorug‘, ammo quyosh nuri tik tushmaydigan joyga qo‘yiladi."
+    },
+    {
+      "key": "practical-4-q2",
+      "fact_id": "practical-4-f2",
+      "question_text": "Tuvak tayyorlashda qaysi tartib to‘g‘ri?",
+      "options": [
+        "Barglarni uzish → ildizni ochiq qoldirish",
+        "Keramzit → tuproq → ildizli o‘simlikni joylash",
+        "O‘simlikni suvsiz saqlash → qog‘oz bilan berkitish",
+        "Faqat tosh → qopqoq → muz"
+      ],
+      "correct_answer": "Keramzit → tuproq → ildizli o‘simlikni joylash",
+      "explanation": "Tuvak tagiga keramzit, uning ustiga tuproq aralashmasi solinadi; ildiz otgan o‘simlik joylashtirilgach tuproq bilan to‘ldiriladi."
+    },
+    {
+      "key": "practical-4-q3",
+      "fact_id": "practical-4-f3",
+      "question_text": "Qaysi ekish usuli darslik tavsiyasiga mos?",
+      "options": [
+        "Ildiz bo‘g‘zigacha tuproq bilan yopish",
+        "Barcha barglarni tuproqqa ko‘mish",
+        "Ildizlarni ochiq qoldirish",
+        "Faqat gulni tuproq ostiga qo‘yish"
+      ],
+      "correct_answer": "Ildiz bo‘g‘zigacha tuproq bilan yopish",
+      "explanation": "Tuproq ildiz bo‘g‘zigacha yetishi kerak; ildizni ochiq qoldirish ham, poyani ortiqcha ko‘mish ham o‘simlikka zarar yetkazadi."
+    },
+    {
+      "key": "practical-4-q4",
+      "fact_id": "practical-4-f4",
+      "question_text": "Keramzit qatlamining vazifasi qaysi?",
+      "options": [
+        "Barglarni bo‘yash",
+        "Urug‘ni changlantirish",
+        "Ildizni gulga aylantirish",
+        "Suv to‘planib qolishini kamaytirish"
+      ],
+      "correct_answer": "Suv to‘planib qolishini kamaytirish",
+      "explanation": "Tuvak tagidagi keramzit ortiqcha suv to‘planishining oldini olishga yordam beradi; tuproq yuzasi tuvak chetidan 1–2 sm past bo‘ladi."
+    },
+    {
+      "key": "practical-4-q5",
+      "fact_id": "practical-4-f5",
+      "question_text": "O‘simlik ko‘chirilgach darhol qanday parvarish qilinadi?",
+      "options": [
+        "Butunlay suvsiz qoldiriladi",
+        "Qorong‘i qutida bir yil saqlanadi",
+        "Avval 3–4 kun salqin joyda saqlanadi",
+        "Darhol ildizi kesib tashlanadi"
+      ],
+      "correct_answer": "Avval 3–4 kun salqin joyda saqlanadi",
+      "explanation": "Yangi ekilgan yoki ko‘chirilgan o‘simlik 3–4 kun salqin joyda saqlanib, keyin yorug‘ joyga qo‘yiladi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Xona o‘simliklarini ekish va ko‘chirib o‘tkazish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Qalamchani tayyorlash",
+        "fact_ids": [
+          "practical-4-f1"
+        ]
+      },
+      {
+        "instruction": "Ekish ketma-ketligi",
+        "fact_ids": [
+          "practical-4-f2"
+        ]
+      },
+      {
+        "instruction": "Ekish chuqurligi",
+        "fact_ids": [
+          "practical-4-f3"
+        ]
+      },
+      {
+        "instruction": "Suv va joy",
+        "fact_ids": [
+          "practical-4-f4"
+        ]
+      },
+      {
+        "instruction": "Ko‘chirishdan keyin",
+        "fact_ids": [
+          "practical-4-f5"
+        ]
+      }
+    ]
+  }
+}

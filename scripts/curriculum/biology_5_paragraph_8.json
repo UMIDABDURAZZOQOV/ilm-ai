@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-8-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-10",
+  "title": "O‘simliklar dunyosi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-8-f1": {
+      "claim": "Yashil o‘simliklar fotosintezda karbonat angidridni o‘zlashtirib kislorod ajratadi; nafas olayotganda esa kisloroddan foydalanadi.",
+      "answer": "Gaz almashinuvi yo‘nalishi farq qiladi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f2": {
+      "claim": "Ildiz, poya va barg vegetativ organlar; gul, meva va urug‘ generativ organlar sifatida berilgan.",
+      "answer": "Ildiz, poya va barg",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f3": {
+      "claim": "O‘simliklar organik modda hosil qilib oziq zanjirining asosida turadi; fotosintezda kislorod ajratadi.",
+      "answer": "Organik modda hosil qilish",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f4": {
+      "claim": "O‘simliklar oziq-ovqat, dorivor mahsulot va sanoat xomashyosi sifatida ahamiyatli.",
+      "answer": "O‘simliklarning turli amaliy ahamiyatini",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f5": {
+      "claim": "Darslikda o‘simliklar uchun kichikdan kattaga tur, turkum, oila, sinf, bo‘lim va dunyo ketma-ketligi berilgan.",
+      "answer": "Oila",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f6": {
+      "claim": "Tuban o‘simlik tanasi ildiz, poya va bargga bo‘linmagan; bunday tana qattana yoki tallom deyiladi.",
+      "answer": "Qattana",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Fotosintez va organlar",
+      "body": "Yashil o‘simliklar fotosintezda karbonat angidridni o‘zlashtirib kislorod ajratadi; nafas olayotganda esa kisloroddan foydalanadi.\n\nIldiz, poya va barg vegetativ organlar; gul, meva va urug‘ generativ organlar sifatida berilgan.\n\nO‘simliklar organik modda hosil qilib oziq zanjirining asosida turadi; fotosintezda kislorod ajratadi.",
+      "fact_ids": [
+        "paragraph-8-f1",
+        "paragraph-8-f2",
+        "paragraph-8-f3"
+      ]
+    },
+    {
+      "title": "Ahamiyat va sistematika",
+      "body": "O‘simliklar oziq-ovqat, dorivor mahsulot va sanoat xomashyosi sifatida ahamiyatli.\n\nDarslikda o‘simliklar uchun kichikdan kattaga tur, turkum, oila, sinf, bo‘lim va dunyo ketma-ketligi berilgan.",
+      "fact_ids": [
+        "paragraph-8-f4",
+        "paragraph-8-f5"
+      ]
+    },
+    {
+      "title": "Tuban va yuksak o‘simliklar",
+      "body": "Tuban o‘simlik tanasi ildiz, poya va bargga bo‘linmagan; bunday tana qattana yoki tallom deyiladi.",
+      "fact_ids": [
+        "paragraph-8-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-8-q1",
+      "fact_id": "paragraph-8-f1",
+      "question_text": "Fotosintez bilan nafas olishni qaysi javob to‘g‘ri farqlaydi?",
+      "options": [
+        "Ikkalasi faqat hayvonlarda bor",
+        "Fotosintez faqat zamburug‘larda bo‘ladi",
+        "Gaz almashinuvi yo‘nalishi farq qiladi",
+        "O‘simlik umuman nafas olmaydi"
+      ],
+      "correct_answer": "Gaz almashinuvi yo‘nalishi farq qiladi",
+      "explanation": "Yashil o‘simliklar fotosintezda karbonat angidridni o‘zlashtirib kislorod ajratadi; nafas olayotganda esa kisloroddan foydalanadi."
+    },
+    {
+      "key": "paragraph-8-q2",
+      "fact_id": "paragraph-8-f2",
+      "question_text": "O‘sish va oziqlanishga xizmat qiluvchi organlar guruhini toping.",
+      "options": [
+        "Faqat gul va meva",
+        "Ildiz, poya va barg",
+        "Gul, meva va urug‘",
+        "Faqat meva va urug‘"
+      ],
+      "correct_answer": "Ildiz, poya va barg",
+      "explanation": "Ildiz, poya va barg vegetativ organlar; gul, meva va urug‘ generativ organlar sifatida berilgan."
+    },
+    {
+      "key": "paragraph-8-q3",
+      "fact_id": "paragraph-8-f3",
+      "question_text": "O‘simlikning produtsent deyilishiga qaysi belgi asos?",
+      "options": [
+        "Organik modda hosil qilish",
+        "Faqat tayyor oziqni yutish",
+        "Barcha barglarini yo‘qotish",
+        "Hujayrasiz bo‘lish"
+      ],
+      "correct_answer": "Organik modda hosil qilish",
+      "explanation": "O‘simliklar organik modda hosil qilib oziq zanjirining asosida turadi; fotosintezda kislorod ajratadi."
+    },
+    {
+      "key": "paragraph-8-q4",
+      "fact_id": "paragraph-8-f4",
+      "question_text": "Paxta, oziq o‘simliklari va dorivor o‘simliklar nimani ko‘rsatadi?",
+      "options": [
+        "O‘simliklar faqat bezak ekanini",
+        "Barcha o‘simliklar zaharli ekanini",
+        "O‘simliklar hech kimga kerak emasligini",
+        "O‘simliklarning turli amaliy ahamiyatini"
+      ],
+      "correct_answer": "O‘simliklarning turli amaliy ahamiyatini",
+      "explanation": "O‘simliklar oziq-ovqat, dorivor mahsulot va sanoat xomashyosi sifatida ahamiyatli."
+    },
+    {
+      "key": "paragraph-8-q5",
+      "fact_id": "paragraph-8-f5",
+      "question_text": "O‘simlik sistematikasida turkumdan keyingi yirikroq birlik qaysi?",
+      "options": [
+        "Tur",
+        "Oila",
+        "Hujayra",
+        "Organoid"
+      ],
+      "correct_answer": "Oila",
+      "explanation": "Darslikda o‘simliklar uchun kichikdan kattaga tur, turkum, oila, sinf, bo‘lim va dunyo ketma-ketligi berilgan."
+    },
+    {
+      "key": "paragraph-8-q6",
+      "fact_id": "paragraph-8-f6",
+      "question_text": "Ildiz, poya va bargga bo‘linmagan tana qanday ataladi?",
+      "options": [
+        "Skelet",
+        "Qattana",
+        "Nerv sistemasi",
+        "Oshqozon"
+      ],
+      "correct_answer": "Qattana",
+      "explanation": "Tuban o‘simlik tanasi ildiz, poya va bargga bo‘linmagan; bunday tana qattana yoki tallom deyiladi."
+    }
+  ]
+}

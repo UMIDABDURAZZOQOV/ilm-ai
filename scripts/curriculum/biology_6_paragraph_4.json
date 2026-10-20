@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-4-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-6",
+  "title": "O‘simlik hujayrasining tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-4-f1": {
+      "claim": "Hujayra tirik organizmning eng mayda tarkibiy qismi; hujayra tuzilishini o‘rganuvchi fan sitologiya deyiladi.",
+      "answer": "Sitologiya",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f2": {
+      "claim": "O‘simlik hujayrasining kletchatkali qobig‘i uning shaklini saqlaydi va tashqi ta’sirdan himoya qiladi.",
+      "answer": "Hujayra qobig‘i",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f3": {
+      "claim": "Sitoplazma hujayra ichidagi harakatlanuvchi muhit; yadro esa bo‘linish va irsiy belgilarning avlodga o‘tishida muhim.",
+      "answer": "Yadro",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f4": {
+      "claim": "Xloroplast yashil bo‘lib fotosintezda, xromoplast gul va mevalarga rang berishda, rangsiz leykoplast esa zaxira moddalarni saqlashda qatnashadi.",
+      "answer": "Leykoplast",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f5": {
+      "claim": "Vakuol hujayra shirasi bilan to‘lgan bo‘shliq; shirada suv va unda erigan mineral hamda organik moddalar bor.",
+      "answer": "Vakuol",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f6": {
+      "claim": "Piyozning yupqa shaffof pardasi hujayralari cho‘ziq va zich joylashgan bo‘lib, plastidalari rangsizdir.",
+      "answer": "Cho‘ziq, zich joylashgan hujayralar",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f7": {
+      "claim": "Hujayradagi suv va mineral tuzlar anorganik, oqsil, uglevod va yog‘lar esa organik moddalardir.",
+      "answer": "Suv va mineral tuzlar",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hujayra va fan",
+      "body": "Hujayra tirik organizmning eng mayda tarkibiy qismi; hujayra tuzilishini o‘rganuvchi fan sitologiya deyiladi.",
+      "fact_ids": [
+        "paragraph-4-f1"
+      ]
+    },
+    {
+      "title": "Qobiqning vazifasi",
+      "body": "O‘simlik hujayrasining kletchatkali qobig‘i uning shaklini saqlaydi va tashqi ta’sirdan himoya qiladi.",
+      "fact_ids": [
+        "paragraph-4-f2"
+      ]
+    },
+    {
+      "title": "Ichki tuzilmalar",
+      "body": "Sitoplazma hujayra ichidagi harakatlanuvchi muhit; yadro esa bo‘linish va irsiy belgilarning avlodga o‘tishida muhim.",
+      "fact_ids": [
+        "paragraph-4-f3"
+      ]
+    },
+    {
+      "title": "Plastidalarni taqqoslash",
+      "body": "Xloroplast yashil bo‘lib fotosintezda, xromoplast gul va mevalarga rang berishda, rangsiz leykoplast esa zaxira moddalarni saqlashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-4-f4"
+      ]
+    },
+    {
+      "title": "Vakuolni tanish",
+      "body": "Vakuol hujayra shirasi bilan to‘lgan bo‘shliq; shirada suv va unda erigan mineral hamda organik moddalar bor.",
+      "fact_ids": [
+        "paragraph-4-f5"
+      ]
+    },
+    {
+      "title": "Preparatdan xulosa",
+      "body": "Piyozning yupqa shaffof pardasi hujayralari cho‘ziq va zich joylashgan bo‘lib, plastidalari rangsizdir.",
+      "fact_ids": [
+        "paragraph-4-f6"
+      ]
+    },
+    {
+      "title": "Kimyoviy tarkib",
+      "body": "Hujayradagi suv va mineral tuzlar anorganik, oqsil, uglevod va yog‘lar esa organik moddalardir.",
+      "fact_ids": [
+        "paragraph-4-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-4-q1",
+      "fact_id": "paragraph-4-f1",
+      "question_text": "O‘simlik hujayrasining tuzilishini qaysi fan o‘rganadi?",
+      "options": [
+        "Ekologiya",
+        "Sitologiya",
+        "Zoologiya",
+        "Mikologiya"
+      ],
+      "correct_answer": "Sitologiya",
+      "explanation": "Hujayra tirik organizmning eng mayda tarkibiy qismi; hujayra tuzilishini o‘rganuvchi fan sitologiya deyiladi."
+    },
+    {
+      "key": "paragraph-4-q2",
+      "fact_id": "paragraph-4-f2",
+      "question_text": "O‘simlik hujayrasiga shakl va himoya beruvchi tuzilma qaysi?",
+      "options": [
+        "Hujayra qobig‘i",
+        "Vakuol",
+        "Xloroplast",
+        "Sitoplazma"
+      ],
+      "correct_answer": "Hujayra qobig‘i",
+      "explanation": "O‘simlik hujayrasining kletchatkali qobig‘i uning shaklini saqlaydi va tashqi ta’sirdan himoya qiladi."
+    },
+    {
+      "key": "paragraph-4-q3",
+      "fact_id": "paragraph-4-f3",
+      "question_text": "Irsiy belgilarning avlodga o‘tishida muhim bo‘lgan qism qaysi?",
+      "options": [
+        "Vakuol",
+        "Hujayra qobig‘i",
+        "Leykoplast",
+        "Yadro"
+      ],
+      "correct_answer": "Yadro",
+      "explanation": "Sitoplazma hujayra ichidagi harakatlanuvchi muhit; yadro esa bo‘linish va irsiy belgilarning avlodga o‘tishida muhim."
+    },
+    {
+      "key": "paragraph-4-q4",
+      "fact_id": "paragraph-4-f4",
+      "question_text": "Zaxira moddalarni saqlovchi rangsiz plastida qaysi?",
+      "options": [
+        "Xromoplast",
+        "Yadro",
+        "Leykoplast",
+        "Xloroplast"
+      ],
+      "correct_answer": "Leykoplast",
+      "explanation": "Xloroplast yashil bo‘lib fotosintezda, xromoplast gul va mevalarga rang berishda, rangsiz leykoplast esa zaxira moddalarni saqlashda qatnashadi."
+    },
+    {
+      "key": "paragraph-4-q5",
+      "fact_id": "paragraph-4-f5",
+      "question_text": "Hujayra shirasi bilan to‘lgan bo‘shliq nima?",
+      "options": [
+        "Hujayra qobig‘i",
+        "Vakuol",
+        "Xloroplast",
+        "Yadro"
+      ],
+      "correct_answer": "Vakuol",
+      "explanation": "Vakuol hujayra shirasi bilan to‘lgan bo‘shliq; shirada suv va unda erigan mineral hamda organik moddalar bor."
+    },
+    {
+      "key": "paragraph-4-q6",
+      "fact_id": "paragraph-4-f6",
+      "question_text": "Piyoz pardasi preparati uchun qaysi tavsif mos?",
+      "options": [
+        "Cho‘ziq, zich joylashgan hujayralar",
+        "Yirik, bir-biridan uzoq hujayralar",
+        "Yashil xloroplastli hujayralar",
+        "Hujayra qobig‘i bo‘lmagan hujayralar"
+      ],
+      "correct_answer": "Cho‘ziq, zich joylashgan hujayralar",
+      "explanation": "Piyozning yupqa shaffof pardasi hujayralari cho‘ziq va zich joylashgan bo‘lib, plastidalari rangsizdir."
+    },
+    {
+      "key": "paragraph-4-q7",
+      "fact_id": "paragraph-4-f7",
+      "question_text": "Qaysi juftlik anorganik moddalarga kiradi?",
+      "options": [
+        "Oqsil va yog‘",
+        "Uglevod va oqsil",
+        "Yog‘ va uglevod",
+        "Suv va mineral tuzlar"
+      ],
+      "correct_answer": "Suv va mineral tuzlar",
+      "explanation": "Hujayradagi suv va mineral tuzlar anorganik, oqsil, uglevod va yog‘lar esa organik moddalardir."
+    }
+  ]
+}

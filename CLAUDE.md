@@ -2246,3 +2246,48 @@ test/subject_experience_test.dart
 test/support/offline_preferences.dart
 web/index.html
 ```
+
+## 2026-10-20 — Biology continuation-01: 20 theory topics + 13 digital activities
+
+Continued `feat/biology-curriculum` from backend `6e1e9bd` and Flutter `4cec585` without recreating the existing lessons. `biology_preserved_baseline.json` pins the original 19 lesson files (72 cards/140 questions) and seven-grade source catalogue by SHA-256; regression tests prove they are byte-identical. The website checkout remains unchanged at `054f0ce`. No production database, deploy, merge, or publication was performed.
+
+### Authored and reviewed content
+
+- Added grade 5 paragraphs **5–18** (14 theoretical lessons), all **4 laboratories + 8 practical activities**, then grade 6 paragraphs **4–9** (6 theoretical lessons) and laboratory 1. The release batch is `continuation-01`; smaller authoring groups are `grade5-a` through `grade5-e` and `grade6-a`. `foundation-19` explicitly preserves the old regression fixture set.
+- Total: **39/355 theoretical topics**, **13 digital activities**, **52 lesson manifests**, **245 original explanation cards**, **327 source-linked questions**. **316 theoretical topics remain**. These numbers do not count activities as theoretical topics.
+- Every new fact/answer was authored after viewing the cited original PDF page image. Grade 5 uses the first, canonical copy only (PDF page = printed page + 1); grade 6 uses original PDF = printed numbering and preserves split-file provenance. Facts include `reviewed_on: 2026-10-20`, source paragraph, printed page and PDF page. Copyrighted PDFs, OCR, page images and private local source paths remain outside Git.
+- Exercises cover identification, classification, comparison, life-cycle ordering, a textbook graph, observation planning and conclusions. Their current input format is the existing **four-option MCQ** engine; no drag-and-drop or new question-type engine is claimed. Existing Ilmo reactions, explanation feedback, XP and progress are reused.
+- Activities are explicitly `guided_analysis`, with an evidence-linked goal and steps. Their first card explains that the app is analysing/planning a textbook activity; actual laboratory work requires teacher supervision. Digital completion is **not certification that a physical experiment was performed**. Theoretical lessons keep 20 XP; new digital activities use 10 XP, awarded by the existing server ledger.
+
+| Grade | Chapters | Theory topics | Ready theory | Remaining theory | Ready digital activities / catalogued | Verified questions |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 5 | 3 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 5 | 59 | 9 | 50 | 1 / 7 | 60 |
+| 7 | 8 | 59 | 2 | 57 | 0 / 5 | 16 |
+| 8 | 13 + introduction | 61 | 4 | 57 | 0 / 7 | 28 |
+| 9 | 8 | 56 | 2 | 54 | 0 / 11 | 12 |
+| 10 | 5 | 58 | 2 | 56 | 0 / 4 | 14 |
+| 11 | 4 | 44 | 2 | 42 | 0 / 5 | 15 |
+
+Source editorial decisions: grade-5 printed p.32 (PDF 33) contains an unsafe generalisation about boiling mushrooms removing poisons; this is **excluded**, not taught as fact. Printed pp.55–58 (PDF 56–59) contain broad folk-remedy claims and an induced-vomiting recommendation; these are excluded. The corresponding lesson teaches botanical identification, poisonous-plant risks, the book's instruction to seek medical help and specialist advice. Also excluded are inconsistent horsetail-spore wording (PDF 45), incorrect red-algae pigment wording (PDF 43), and the grade-6 PDF 16 wording that conflates sunlight with respiration. No source catalogue or textbook was rewritten. External subject-specialist/pedagogical review remains useful before production release; automated validation establishes traceability/consistency, not independent scientific certification.
+
+### Engine and mobile integration
+
+- `services/curriculum_validation.py`: accept explicitly reviewed laboratory/practical manifests, validate evidence-linked activity steps, distinguish theoretical readiness from digital activities and list remaining topics/activities. `load_lesson_set(batch=...)` loads explicit lists, never arbitrary draft files.
+- `services/curriculum.py`: insert activities in textbook teaching order; once a grade contains an authored activity, all its catalogued activities participate in missing-content and checkpoint coverage checks. Grades without authored activities keep the earlier theoretical foundation behaviour. Existing completed lessons, XP and passed checkpoints are retained. SQL joins use an explicit chapter origin and an uncorrelated activity subquery.
+- Source citations add `topic_title`, `chapter_title`, and activity kind/number. Existing API routes and answer/attempt contracts remain compatible; no database-schema migration was added.
+- Flutter `content_source_button.dart`: localised laboratory/practical references replace `§null`; chapter titles are shown in the scrollable source sheet. Native UI/brand colours, Ilmo assets, hidden modules and SUBJECTS_ONLY remain unchanged.
+- `scripts/import_biology_curriculum.py --batch continuation-01` validates this release subset; `--all --report scripts/curriculum/biology_readiness.json` refreshes the global counts. Applying remains restricted to an explicit local SQLite staging database and is never run at application startup. Production import still requires separate authorisation/review.
+
+### Actual verification
+
+- Full backend suite: **143 passed**, 12 existing FastAPI lifecycle deprecation warnings, 52.08 s. After refining the new grade-6 distractors, the entire continuation suite passed again: **60 passed**, 12.08 s. Python critical-error lint passed (`ruff --select E9,F63,F7,F82`); the broad optional style check still reports existing fixture-import/re-export/style conventions and is not represented as clean.
+- The continuation API test imports all 52 manifests into a disposable SQLite database, completes all 30 grade-5 lessons/activities and all 3 checkpoints, then completes grade-6's first two chapters. It verifies grade-5 completion/grade-6 continuation, source references, server rewards and identical retry responses; repeated import preserves XP/progress. Missing activities block later lessons/new checkpoint attempts while existing completed progress and passed checkpoints remain stored.
+- Flutter: **103 tests passed** (including real backend-generated digital-lab payload → teaching cards → questions → Ilmo feedback → 10 XP result; six small-screen/200% text citation cases across uz/ru/en and both activity kinds). `flutter analyze`: no issues. `flutter build web --release --dart-define=SUBJECTS_ONLY=true`: succeeded, 70.2 s; dependency `flutter_tts` still emits wasm compatibility warnings. This builds Flutter's validation target; the separate Next.js website is untouched.
+- Android SDK/iOS tooling, real-device TalkBack/touch/performance, live production PostgreSQL and production OAuth/push are not validated here. Local tests do not certify store release readiness.
+
+### Resume / publication
+
+Next content starts at **grade 6 §10 “Novda”, original PDF/printed p.27**, then §11 onwards in source order, including laboratories 2–7 as their positions are reached. Do not recreate grade-5 §1–18, grade-6 §1–9/lab1 or the preserved other-grade foundation lessons. For the next 20-topic batch target grade-6 §10–29, verify the actual source pages, add only reviewed manifests, extend the release batch, regenerate the report, run tests and push this feature branch. Remaining theoretical topic IDs and activity IDs are in `biology_readiness.json`.
+
+Draft-PR creation was previously blocked by the environment GitHub GraphQL `Forbidden` response. Feature-branch pushes are authorised; no main merge/deploy is authorised. See the subsequent Git handoff entry for the actual pushed commit IDs.

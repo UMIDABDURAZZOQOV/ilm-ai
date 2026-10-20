@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-12-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-14",
+  "title": "Hayvonot dunyosi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-12-f1": {
+      "claim": "Hayvon organizmida hujayralardan to‘qimalar, to‘qimalardan organlar, organlardan organlar sistemalari tashkil topadi.",
+      "answer": "Hujayra → to‘qima → organ → organlar sistemasi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f2": {
+      "claim": "Hayvonlarda qoplovchi, biriktiruvchi, nerv va muskul to‘qimalari ajratiladi.",
+      "answer": "Qoplovchi, biriktiruvchi, nerv, muskul",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f3": {
+      "claim": "Ikki pallali mollyuskalar suvdagi organik qoldiqlarni filtrlashda qatnashadi; hayvonlar urug‘ va mevalarni tarqatishga ham yordam beradi.",
+      "answer": "Ikki pallali mollyuskalar",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f4": {
+      "claim": "Asalari va kapalaklar o‘simliklarni changlatishda qatnashadi. Hayvonlardan oziq-ovqat va sanoat xomashyosi ham olinadi.",
+      "answer": "Changlatishda ishtirok etishi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f5": {
+      "claim": "Hayvonlar umurtqasining mavjudligiga ko‘ra umurtqali va umurtqasiz guruhlarga ajratiladi.",
+      "answer": "Umurtqaning mavjudligi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f6": {
+      "claim": "Hayvonlar sistematikasi ketma-ketligi: tur → urug‘ → oila → turkum → sinf → tip → dunyo.",
+      "answer": "Tip",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f7": {
+      "claim": "Qo‘ng‘ir ayiq va ilvirs sutemizuvchilar sinfi hamda yirtqichlar turkumiga kiradi; ularning oilalari esa farq qiladi.",
+      "answer": "Yirtqichlar turkumi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hayvon organizmi",
+      "body": "Hayvon organizmida hujayralardan to‘qimalar, to‘qimalardan organlar, organlardan organlar sistemalari tashkil topadi.",
+      "fact_ids": [
+        "paragraph-12-f1"
+      ]
+    },
+    {
+      "title": "To‘qimalar xilma-xilligi",
+      "body": "Hayvonlarda qoplovchi, biriktiruvchi, nerv va muskul to‘qimalari ajratiladi.",
+      "fact_ids": [
+        "paragraph-12-f2"
+      ]
+    },
+    {
+      "title": "Suvni tozalovchi hayvonlar",
+      "body": "Ikki pallali mollyuskalar suvdagi organik qoldiqlarni filtrlashda qatnashadi; hayvonlar urug‘ va mevalarni tarqatishga ham yordam beradi.",
+      "fact_ids": [
+        "paragraph-12-f3"
+      ]
+    },
+    {
+      "title": "Changlatuvchilar",
+      "body": "Asalari va kapalaklar o‘simliklarni changlatishda qatnashadi. Hayvonlardan oziq-ovqat va sanoat xomashyosi ham olinadi.",
+      "fact_ids": [
+        "paragraph-12-f4"
+      ]
+    },
+    {
+      "title": "Umurtqaning mavjudligi",
+      "body": "Hayvonlar umurtqasining mavjudligiga ko‘ra umurtqali va umurtqasiz guruhlarga ajratiladi.",
+      "fact_ids": [
+        "paragraph-12-f5"
+      ]
+    },
+    {
+      "title": "Sistematik birliklar",
+      "body": "Hayvonlar sistematikasi ketma-ketligi: tur → urug‘ → oila → turkum → sinf → tip → dunyo.",
+      "fact_ids": [
+        "paragraph-12-f6"
+      ]
+    },
+    {
+      "title": "Ikki yirtqichni taqqoslash",
+      "body": "Qo‘ng‘ir ayiq va ilvirs sutemizuvchilar sinfi hamda yirtqichlar turkumiga kiradi; ularning oilalari esa farq qiladi.",
+      "fact_ids": [
+        "paragraph-12-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-12-q1",
+      "fact_id": "paragraph-12-f1",
+      "question_text": "Kichikdan kattaga qaysi tartib to‘g‘ri?",
+      "options": [
+        "Sistema → organ → to‘qima → hujayra",
+        "To‘qima → sistema → hujayra → organ",
+        "Hujayra → to‘qima → organ → organlar sistemasi",
+        "Organ → hujayra → sistema → to‘qima"
+      ],
+      "correct_answer": "Hujayra → to‘qima → organ → organlar sistemasi",
+      "explanation": "Hayvon organizmida hujayralardan to‘qimalar, to‘qimalardan organlar, organlardan organlar sistemalari tashkil topadi."
+    },
+    {
+      "key": "paragraph-12-q2",
+      "fact_id": "paragraph-12-f2",
+      "question_text": "Qaysi qatorda hayvon to‘qimalari to‘g‘ri berilgan?",
+      "options": [
+        "Tur, urug‘, oila, tip",
+        "Qoplovchi, biriktiruvchi, nerv, muskul",
+        "Gul, meva, urug‘, qubba",
+        "Ildiz, poya, barg, qattana"
+      ],
+      "correct_answer": "Qoplovchi, biriktiruvchi, nerv, muskul",
+      "explanation": "Hayvonlarda qoplovchi, biriktiruvchi, nerv va muskul to‘qimalari ajratiladi."
+    },
+    {
+      "key": "paragraph-12-q3",
+      "fact_id": "paragraph-12-f3",
+      "question_text": "Suvdagi organik qoldiqlarni filtrlovchi hayvonlar qaysilar?",
+      "options": [
+        "Ikki pallali mollyuskalar",
+        "Faqat quruqlikdagi otlar",
+        "Faqat yo‘lbarslar",
+        "Faqat uy itlari"
+      ],
+      "correct_answer": "Ikki pallali mollyuskalar",
+      "explanation": "Ikki pallali mollyuskalar suvdagi organik qoldiqlarni filtrlashda qatnashadi; hayvonlar urug‘ va mevalarni tarqatishga ham yordam beradi."
+    },
+    {
+      "key": "paragraph-12-q4",
+      "fact_id": "paragraph-12-f4",
+      "question_text": "Asalari va kapalakning o‘simliklarga foydasi qaysi?",
+      "options": [
+        "Barcha ildizlarni uzishi",
+        "Toshdan urug‘ yasashi",
+        "Fotosintezni butunlay to‘xtatishi",
+        "Changlatishda ishtirok etishi"
+      ],
+      "correct_answer": "Changlatishda ishtirok etishi",
+      "explanation": "Asalari va kapalaklar o‘simliklarni changlatishda qatnashadi. Hayvonlardan oziq-ovqat va sanoat xomashyosi ham olinadi."
+    },
+    {
+      "key": "paragraph-12-q5",
+      "fact_id": "paragraph-12-f5",
+      "question_text": "Bu ikki guruhni ajratish uchun qaysi belgi tekshiriladi?",
+      "options": [
+        "Faqat yashash manzili",
+        "Faqat oziqning narxi",
+        "Umurtqaning mavjudligi",
+        "Faqat tananing rangi"
+      ],
+      "correct_answer": "Umurtqaning mavjudligi",
+      "explanation": "Hayvonlar umurtqasining mavjudligiga ko‘ra umurtqali va umurtqasiz guruhlarga ajratiladi."
+    },
+    {
+      "key": "paragraph-12-q6",
+      "fact_id": "paragraph-12-f6",
+      "question_text": "Hayvonlar sistemasida sinfdan keyingi yirik birlik qaysi?",
+      "options": [
+        "Oila",
+        "Tip",
+        "Urug‘",
+        "Tur"
+      ],
+      "correct_answer": "Tip",
+      "explanation": "Hayvonlar sistematikasi ketma-ketligi: tur → urug‘ → oila → turkum → sinf → tip → dunyo."
+    },
+    {
+      "key": "paragraph-12-q7",
+      "fact_id": "paragraph-12-f7",
+      "question_text": "Qo‘ng‘ir ayiq va ilvirsni qaysi birlik birlashtiradi?",
+      "options": [
+        "Yirtqichlar turkumi",
+        "Bitta tur",
+        "Bitta urug‘",
+        "Bitta oila"
+      ],
+      "correct_answer": "Yirtqichlar turkumi",
+      "explanation": "Qo‘ng‘ir ayiq va ilvirs sutemizuvchilar sinfi hamda yirtqichlar turkumiga kiradi; ularning oilalari esa farq qiladi."
+    }
+  ]
+}

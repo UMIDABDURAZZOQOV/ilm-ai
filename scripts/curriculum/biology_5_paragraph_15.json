@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-15-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-17",
+  "title": "Odam organlari sistemasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-15-f1": {
+      "claim": "Tayanch-harakatlanish sistemasini skelet va muskullar tashkil etadi. Miya qutisi bosh miyani, ko‘krak qafasi yurak va o‘pkani himoya qiladi.",
+      "answer": "Yurak va o‘pkani",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          75
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f2": {
+      "claim": "Bilak bukilganda yelkaning ikki boshli muskuli qisqarib, uch boshli muskuli bo‘shashadi; bilak yozilganda buning aksi kuzatiladi.",
+      "answer": "Qisqarish",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f3": {
+      "claim": "Arteriyalar qonni yurakdan olib chiqadi, venalar yurakka olib keladi; kapillyarlar to‘qimalar orasidagi mayda tomirlardir.",
+      "answer": "Vena",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f4": {
+      "claim": "Hazm yo‘li og‘iz bo‘shlig‘i, halqum, qizilo‘ngach, oshqozon va ichakdan iborat; hazm qilish og‘izda boshlanadi.",
+      "answer": "Og‘iz bo‘shlig‘ida",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f5": {
+      "claim": "Markaziy nerv sistemasiga bosh miya va orqa miya kiradi; ulardan chiquvchi nervlar periferik qismga tegishlidir.",
+      "answer": "Bosh miya va orqa miya",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f6": {
+      "claim": "O‘pka alveolalari bilan kapillyarlar orasida gazlar almashinuvi sodir bo‘ladi; nafasda kislorod olinib, karbonat angidrid chiqariladi.",
+      "answer": "Alveolalar va kapillyarlar",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f7": {
+      "claim": "Limfa tugunlari orqali o‘tgan limfa filtrlanadi; limfa sistemasi organizm himoyasida qatnashadi.",
+      "answer": "Limfani filtrlash va himoyada qatnashish",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f8": {
+      "claim": "Endokrin sistemani ichki sekretsiya bezlari tashkil etadi. Ular qonga gormonlar chiqarib, organizm jarayonlarini boshqarishda qatnashadi.",
+      "answer": "Endokrin sistemaga",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f9": {
+      "claim": "Bir organ yoki organlar sistemasining faoliyati buzilsa, bu qolgan organlarga ham ta’sir etadi.",
+      "answer": "Ularning faoliyati o‘zaro bog‘liq bo‘lgani uchun",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tayanch va himoya",
+      "body": "Tayanch-harakatlanish sistemasini skelet va muskullar tashkil etadi. Miya qutisi bosh miyani, ko‘krak qafasi yurak va o‘pkani himoya qiladi.",
+      "fact_ids": [
+        "paragraph-15-f1"
+      ]
+    },
+    {
+      "title": "Muskullar hamkorligi",
+      "body": "Bilak bukilganda yelkaning ikki boshli muskuli qisqarib, uch boshli muskuli bo‘shashadi; bilak yozilganda buning aksi kuzatiladi.",
+      "fact_ids": [
+        "paragraph-15-f2"
+      ]
+    },
+    {
+      "title": "Qonning yo‘nalishi",
+      "body": "Arteriyalar qonni yurakdan olib chiqadi, venalar yurakka olib keladi; kapillyarlar to‘qimalar orasidagi mayda tomirlardir.",
+      "fact_ids": [
+        "paragraph-15-f3"
+      ]
+    },
+    {
+      "title": "Ovqatning yo‘li",
+      "body": "Hazm yo‘li og‘iz bo‘shlig‘i, halqum, qizilo‘ngach, oshqozon va ichakdan iborat; hazm qilish og‘izda boshlanadi.",
+      "fact_ids": [
+        "paragraph-15-f4"
+      ]
+    },
+    {
+      "title": "Nerv sistemasining markazi",
+      "body": "Markaziy nerv sistemasiga bosh miya va orqa miya kiradi; ulardan chiquvchi nervlar periferik qismga tegishlidir.",
+      "fact_ids": [
+        "paragraph-15-f5"
+      ]
+    },
+    {
+      "title": "Gazlar almashinuvi",
+      "body": "O‘pka alveolalari bilan kapillyarlar orasida gazlar almashinuvi sodir bo‘ladi; nafasda kislorod olinib, karbonat angidrid chiqariladi.",
+      "fact_ids": [
+        "paragraph-15-f6"
+      ]
+    },
+    {
+      "title": "Limfa va himoya",
+      "body": "Limfa tugunlari orqali o‘tgan limfa filtrlanadi; limfa sistemasi organizm himoyasida qatnashadi.",
+      "fact_ids": [
+        "paragraph-15-f7"
+      ]
+    },
+    {
+      "title": "Gormon orqali boshqarish",
+      "body": "Endokrin sistemani ichki sekretsiya bezlari tashkil etadi. Ular qonga gormonlar chiqarib, organizm jarayonlarini boshqarishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-15-f8"
+      ]
+    },
+    {
+      "title": "Bir butun organizm",
+      "body": "Bir organ yoki organlar sistemasining faoliyati buzilsa, bu qolgan organlarga ham ta’sir etadi.",
+      "fact_ids": [
+        "paragraph-15-f9"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-15-q1",
+      "fact_id": "paragraph-15-f1",
+      "question_text": "Ko‘krak qafasi qaysi organlarni himoya qiladi?",
+      "options": [
+        "Faqat bosh miyani",
+        "Faqat barmoqlarni",
+        "Yurak va o‘pkani",
+        "Faqat tishlarni"
+      ],
+      "correct_answer": "Yurak va o‘pkani",
+      "explanation": "Tayanch-harakatlanish sistemasini skelet va muskullar tashkil etadi. Miya qutisi bosh miyani, ko‘krak qafasi yurak va o‘pkani himoya qiladi."
+    },
+    {
+      "key": "paragraph-15-q2",
+      "fact_id": "paragraph-15-f2",
+      "question_text": "Bilak bukilganda ikki boshli muskulda nima kuzatiladi?",
+      "options": [
+        "Pat hosil qilish",
+        "Qisqarish",
+        "Butunlay yo‘qolish",
+        "Suyakka aylanish"
+      ],
+      "correct_answer": "Qisqarish",
+      "explanation": "Bilak bukilganda yelkaning ikki boshli muskuli qisqarib, uch boshli muskuli bo‘shashadi; bilak yozilganda buning aksi kuzatiladi."
+    },
+    {
+      "key": "paragraph-15-q3",
+      "fact_id": "paragraph-15-f3",
+      "question_text": "Qonni yurakka olib keluvchi tomir qanday nomlanadi?",
+      "options": [
+        "Vena",
+        "Arteriya",
+        "Qizilo‘ngach",
+        "Bronx"
+      ],
+      "correct_answer": "Vena",
+      "explanation": "Arteriyalar qonni yurakdan olib chiqadi, venalar yurakka olib keladi; kapillyarlar to‘qimalar orasidagi mayda tomirlardir."
+    },
+    {
+      "key": "paragraph-15-q4",
+      "fact_id": "paragraph-15-f4",
+      "question_text": "Ovqat hazm qilish qayerda boshlanadi?",
+      "options": [
+        "O‘pka alveolasida",
+        "Yurakda",
+        "Bosh miya qutisida",
+        "Og‘iz bo‘shlig‘ida"
+      ],
+      "correct_answer": "Og‘iz bo‘shlig‘ida",
+      "explanation": "Hazm yo‘li og‘iz bo‘shlig‘i, halqum, qizilo‘ngach, oshqozon va ichakdan iborat; hazm qilish og‘izda boshlanadi."
+    },
+    {
+      "key": "paragraph-15-q5",
+      "fact_id": "paragraph-15-f5",
+      "question_text": "Qaysi juftlik markaziy nerv sistemasiga kiradi?",
+      "options": [
+        "Jigar va buyrak",
+        "Tish va til",
+        "Bosh miya va orqa miya",
+        "Yurak va oshqozon"
+      ],
+      "correct_answer": "Bosh miya va orqa miya",
+      "explanation": "Markaziy nerv sistemasiga bosh miya va orqa miya kiradi; ulardan chiquvchi nervlar periferik qismga tegishlidir."
+    },
+    {
+      "key": "paragraph-15-q6",
+      "fact_id": "paragraph-15-f6",
+      "question_text": "O‘pkada gazlar almashinuvi qaysi tuzilmalar orasida bo‘ladi?",
+      "options": [
+        "Oshqozon va quloq",
+        "Alveolalar va kapillyarlar",
+        "Tishlar va til",
+        "Suyaklar va patlar"
+      ],
+      "correct_answer": "Alveolalar va kapillyarlar",
+      "explanation": "O‘pka alveolalari bilan kapillyarlar orasida gazlar almashinuvi sodir bo‘ladi; nafasda kislorod olinib, karbonat angidrid chiqariladi."
+    },
+    {
+      "key": "paragraph-15-q7",
+      "fact_id": "paragraph-15-f7",
+      "question_text": "Limfa tugunlarining vazifasiga nima kiradi?",
+      "options": [
+        "Limfani filtrlash va himoyada qatnashish",
+        "Ovqatni chaynash",
+        "Qo‘lni bukish",
+        "Havoni ovozga aylantirish"
+      ],
+      "correct_answer": "Limfani filtrlash va himoyada qatnashish",
+      "explanation": "Limfa tugunlari orqali o‘tgan limfa filtrlanadi; limfa sistemasi organizm himoyasida qatnashadi."
+    },
+    {
+      "key": "paragraph-15-q8",
+      "fact_id": "paragraph-15-f8",
+      "question_text": "Qonga gormon chiqaradigan bezlar qaysi sistemaga kiradi?",
+      "options": [
+        "Tayanch-harakatlanish sistemasiga",
+        "Faqat hazm yo‘lining bo‘shlig‘iga",
+        "Faqat tashqi teri qoplamiga",
+        "Endokrin sistemaga"
+      ],
+      "correct_answer": "Endokrin sistemaga",
+      "explanation": "Endokrin sistemani ichki sekretsiya bezlari tashkil etadi. Ular qonga gormonlar chiqarib, organizm jarayonlarini boshqarishda qatnashadi."
+    },
+    {
+      "key": "paragraph-15-q9",
+      "fact_id": "paragraph-15-f9",
+      "question_text": "Nima uchun organlar sistemalarini birgalikda o‘rganamiz?",
+      "options": [
+        "Faqat nomlari bir xil bo‘lgani uchun",
+        "Barchasi bir xil vazifa bajargani uchun",
+        "Ularning faoliyati o‘zaro bog‘liq bo‘lgani uchun",
+        "Har biri alohida organizm bo‘lgani uchun"
+      ],
+      "correct_answer": "Ularning faoliyati o‘zaro bog‘liq bo‘lgani uchun",
+      "explanation": "Bir organ yoki organlar sistemasining faoliyati buzilsa, bu qolgan organlarga ham ta’sir etadi."
+    }
+  ]
+}

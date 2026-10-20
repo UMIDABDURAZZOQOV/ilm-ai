@@ -36,9 +36,10 @@ def main():
         type=Path,
         help="Write honest source/lesson readiness counts as JSON",
     )
+    parser.add_argument("--batch", help="One explicit reviewed batch name")
     args = parser.parse_args()
-    if args.all and args.lesson:
-        parser.error("Choose --all or --lesson, not both")
+    if (args.all and args.lesson) or (args.batch and (args.all or args.lesson)):
+        parser.error("Choose only one of --all, --batch, or --lesson")
     if args.apply and (
         os.getenv("ENVIRONMENT") == "production"
         or not (args.database_url or "").startswith("sqlite:///")
@@ -56,14 +57,17 @@ def main():
     catalog, lesson = load_documents()
     if args.lesson:
         lesson = json.loads(args.lesson.read_text())
-    lessons = load_lesson_set() if args.all else [lesson]
+    lessons = load_lesson_set(batch=args.batch) if args.all or args.batch else [lesson]
     for document in lessons:
         validate_lesson(catalog, document)
     print(f"Sources and original lesson validated: {len(lessons)} reviewed lesson(s).")
     report = readiness_report(catalog, lessons)
     for item in report:
         print(
-            f"Grade {item['grade']}: {item['chapters']} chapters, {item['topics']} topics, {item['ready_lessons']} ready lessons, {item['questions']} questions; course_ready={item['course_ready']}"
+            f"Grade {item['grade']}: {item['chapters']} chapters, "
+            f"{item['ready_theory_lessons']}/{item['topics']} theory lessons, "
+            f"{item['ready_activities']} digital activities, "
+            f"{item['questions']} questions; course_ready={item['course_ready']}"
         )
     if args.report:
         args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")

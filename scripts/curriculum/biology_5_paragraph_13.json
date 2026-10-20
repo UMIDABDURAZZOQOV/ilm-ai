@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-13-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-15",
+  "title": "Umurtqasiz hayvonlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-13-f1": {
+      "claim": "Amyoba tanasi o‘zgaruvchan; evglena xivchin bilan harakatlanadi va fotosintez qila oladi; tufelka ko‘rinishi tufli tagcharmiga o‘xshaydi.",
+      "answer": "Evglena",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f2": {
+      "claim": "Gidra, aktiniya va meduza bo‘shliqichlilarga kiradi. Ularning otiluvchi hujayralari o‘lja tutish va himoyada qatnashadi.",
+      "answer": "Otiluvchi hujayralar",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f3": {
+      "claim": "Oq planariya yassi chuvalchang, askarida esa to‘garak chuvalchangdir; askarida odam organizmida parazitlik qiladi.",
+      "answer": "Askarida — to‘garak chuvalchang",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f4": {
+      "claim": "Yomg‘ir chuvalchangi tanasi bo‘g‘imlarga bo‘lingan. U chirindi bilan oziqlanadi va qazigan yo‘llari tuproqqa havo kirishiga yordam beradi.",
+      "answer": "Yo‘llari orqali havo kirishiga yordam beradi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f5": {
+      "claim": "Shilliqqurt, baqachanoq va sakkizoyoq mollyuskalarga kiradi; ko‘pchilik mollyuskalarning chig‘anog‘i bo‘ladi.",
+      "answer": "Shilliqqurt, baqachanoq, sakkizoyoq",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f6": {
+      "claim": "Sakkizoyoq so‘rg‘ichlari bilan o‘ljani ushlab qoladi; siyoh chiqarib dushmanini chalg‘itadi.",
+      "answer": "Dushmanini chalg‘itish",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f7": {
+      "claim": "Bo‘g‘imoyoqlilarning tana va oyoqlari bo‘g‘imlardan iborat; tashqi skeleti xitindan tuzilgan.",
+      "answer": "Bo‘g‘imoyoqlilarga",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f8": {
+      "claim": "Xonqizi o‘simlik zararkunandasi bo‘lgan shira bitlarini yeydi; butli o‘rgimchak esa o‘ljasini tutqich to‘rda tutadi.",
+      "answer": "Xonqizi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir hujayrali hayot",
+      "body": "Amyoba tanasi o‘zgaruvchan; evglena xivchin bilan harakatlanadi va fotosintez qila oladi; tufelka ko‘rinishi tufli tagcharmiga o‘xshaydi.",
+      "fact_ids": [
+        "paragraph-13-f1"
+      ]
+    },
+    {
+      "title": "Bo‘shliqichlilar",
+      "body": "Gidra, aktiniya va meduza bo‘shliqichlilarga kiradi. Ularning otiluvchi hujayralari o‘lja tutish va himoyada qatnashadi.",
+      "fact_ids": [
+        "paragraph-13-f2"
+      ]
+    },
+    {
+      "title": "Chuvalchanglarni farqlash",
+      "body": "Oq planariya yassi chuvalchang, askarida esa to‘garak chuvalchangdir; askarida odam organizmida parazitlik qiladi.",
+      "fact_ids": [
+        "paragraph-13-f3"
+      ]
+    },
+    {
+      "title": "Tuproqdagi yordamchi",
+      "body": "Yomg‘ir chuvalchangi tanasi bo‘g‘imlarga bo‘lingan. U chirindi bilan oziqlanadi va qazigan yo‘llari tuproqqa havo kirishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-13-f4"
+      ]
+    },
+    {
+      "title": "Mollyuskalarni tanish",
+      "body": "Shilliqqurt, baqachanoq va sakkizoyoq mollyuskalarga kiradi; ko‘pchilik mollyuskalarning chig‘anog‘i bo‘ladi.",
+      "fact_ids": [
+        "paragraph-13-f5"
+      ]
+    },
+    {
+      "title": "Sakkizoyoqning himoyasi",
+      "body": "Sakkizoyoq so‘rg‘ichlari bilan o‘ljani ushlab qoladi; siyoh chiqarib dushmanini chalg‘itadi.",
+      "fact_ids": [
+        "paragraph-13-f6"
+      ]
+    },
+    {
+      "title": "Bo‘g‘imoyoqlilar belgisi",
+      "body": "Bo‘g‘imoyoqlilarning tana va oyoqlari bo‘g‘imlardan iborat; tashqi skeleti xitindan tuzilgan.",
+      "fact_ids": [
+        "paragraph-13-f7"
+      ]
+    },
+    {
+      "title": "Foydali ovchi",
+      "body": "Xonqizi o‘simlik zararkunandasi bo‘lgan shira bitlarini yeydi; butli o‘rgimchak esa o‘ljasini tutqich to‘rda tutadi.",
+      "fact_ids": [
+        "paragraph-13-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-13-q1",
+      "fact_id": "paragraph-13-f1",
+      "question_text": "Fotosintez ham qilib, xivchin bilan ham harakatlanadigan organizm qaysi?",
+      "options": [
+        "Gidra",
+        "Daryo qisqichbaqasi",
+        "Evglena",
+        "Yomg‘ir chuvalchangi"
+      ],
+      "correct_answer": "Evglena",
+      "explanation": "Amyoba tanasi o‘zgaruvchan; evglena xivchin bilan harakatlanadi va fotosintez qila oladi; tufelka ko‘rinishi tufli tagcharmiga o‘xshaydi."
+    },
+    {
+      "key": "paragraph-13-q2",
+      "fact_id": "paragraph-13-f2",
+      "question_text": "Gidrada o‘lja tutishga yordam beradigan maxsus hujayralar qaysilar?",
+      "options": [
+        "Meva po‘sti hujayralari",
+        "Otiluvchi hujayralar",
+        "Urug‘palla hujayralari",
+        "Yog‘och naylari"
+      ],
+      "correct_answer": "Otiluvchi hujayralar",
+      "explanation": "Gidra, aktiniya va meduza bo‘shliqichlilarga kiradi. Ularning otiluvchi hujayralari o‘lja tutish va himoyada qatnashadi."
+    },
+    {
+      "key": "paragraph-13-q3",
+      "fact_id": "paragraph-13-f3",
+      "question_text": "Qaysi juftlik organizm va guruhni to‘g‘ri bog‘laydi?",
+      "options": [
+        "Askarida — to‘garak chuvalchang",
+        "Oq planariya — hasharot",
+        "Askarida — mollyuska",
+        "Oq planariya — qisqichbaqasimon"
+      ],
+      "correct_answer": "Askarida — to‘garak chuvalchang",
+      "explanation": "Oq planariya yassi chuvalchang, askarida esa to‘garak chuvalchangdir; askarida odam organizmida parazitlik qiladi."
+    },
+    {
+      "key": "paragraph-13-q4",
+      "fact_id": "paragraph-13-f4",
+      "question_text": "Yomg‘ir chuvalchangi tuproqqa qanday foyda keltiradi?",
+      "options": [
+        "Tuproqni butunlay yo‘q qiladi",
+        "Barcha suvni zaharga aylantiradi",
+        "Tuproqni shishaga aylantiradi",
+        "Yo‘llari orqali havo kirishiga yordam beradi"
+      ],
+      "correct_answer": "Yo‘llari orqali havo kirishiga yordam beradi",
+      "explanation": "Yomg‘ir chuvalchangi tanasi bo‘g‘imlarga bo‘lingan. U chirindi bilan oziqlanadi va qazigan yo‘llari tuproqqa havo kirishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-13-q5",
+      "fact_id": "paragraph-13-f5",
+      "question_text": "Qaysi qatorda faqat mollyuskalar berilgan?",
+      "options": [
+        "Gidra, meduza, kapalak",
+        "Qisqichbaqa, o‘rgimchak, xonqizi",
+        "Shilliqqurt, baqachanoq, sakkizoyoq",
+        "Askarida, chuvalchang, suvarak"
+      ],
+      "correct_answer": "Shilliqqurt, baqachanoq, sakkizoyoq",
+      "explanation": "Shilliqqurt, baqachanoq va sakkizoyoq mollyuskalarga kiradi; ko‘pchilik mollyuskalarning chig‘anog‘i bo‘ladi."
+    },
+    {
+      "key": "paragraph-13-q6",
+      "fact_id": "paragraph-13-f6",
+      "question_text": "Sakkizoyoqning siyoh chiqarishi qanday vazifa bajaradi?",
+      "options": [
+        "Gul changlatish",
+        "Dushmanini chalg‘itish",
+        "Urug‘ tarqatish",
+        "Tuproq hosil qilish"
+      ],
+      "correct_answer": "Dushmanini chalg‘itish",
+      "explanation": "Sakkizoyoq so‘rg‘ichlari bilan o‘ljani ushlab qoladi; siyoh chiqarib dushmanini chalg‘itadi."
+    },
+    {
+      "key": "paragraph-13-q7",
+      "fact_id": "paragraph-13-f7",
+      "question_text": "Xitin tashqi skelet va bo‘g‘imli oyoqlar qaysi guruhga xos?",
+      "options": [
+        "Bo‘g‘imoyoqlilarga",
+        "Yopiq urug‘lilarga",
+        "Yo‘sinlarga",
+        "Suvo‘tlarga"
+      ],
+      "correct_answer": "Bo‘g‘imoyoqlilarga",
+      "explanation": "Bo‘g‘imoyoqlilarning tana va oyoqlari bo‘g‘imlardan iborat; tashqi skeleti xitindan tuzilgan."
+    },
+    {
+      "key": "paragraph-13-q8",
+      "fact_id": "paragraph-13-f8",
+      "question_text": "Bog‘dagi shira bitlari bilan oziqlanib foyda keltiradigan hasharot qaysi?",
+      "options": [
+        "Shilliqqurt",
+        "Askarida",
+        "Oq planariya",
+        "Xonqizi"
+      ],
+      "correct_answer": "Xonqizi",
+      "explanation": "Xonqizi o‘simlik zararkunandasi bo‘lgan shira bitlarini yeydi; butli o‘rgimchak esa o‘ljasini tutqich to‘rda tutadi."
+    }
+  ]
+}

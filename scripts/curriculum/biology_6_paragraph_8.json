@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-8-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-11",
+  "title": "Ildizning ichki tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-8-f1": {
+      "claim": "Har bir ildiz tukchasi bitta uzun hujayradan iborat; tukchalar suv va unda erigan moddalarni shimishga yordam beradi.",
+      "answer": "Bitta uzun hujayradan",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f2": {
+      "claim": "Ildizning bo‘linuvchi qismini tashqaridan ildiz qinchasi himoya qiladi.",
+      "answer": "Ildiz qinchasi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f3": {
+      "claim": "Ildiz uchidan yuqoriga bo‘linuvchi, o‘suvchi, so‘ruvchi va o‘tkazuvchi zonalar ketma-ket joylashadi.",
+      "answer": "Bo‘linuvchi → o‘suvchi → so‘ruvchi → o‘tkazuvchi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f4": {
+      "claim": "Ildizning o‘tkazuvchi qismidan suv va mineral moddalar poyaga ko‘tariladi; yerusti organlarida hosil bo‘lgan organik moddalar ildizga keladi.",
+      "answer": "Suv va mineral moddalar",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f5": {
+      "claim": "Ildiz ham nafas oladi. Tuproq yumshatilsa ildiz hujayralariga havo yetib borishi yaxshilanadi.",
+      "answer": "Havo yetib borishini yaxshilaydi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f6": {
+      "claim": "Asosiy ildizning uchi chilpilganda bo‘yiga o‘sish to‘xtab, yon ildizlar hosil bo‘lishi kuchayadi.",
+      "answer": "Yon ildizlar hosil bo‘lishi kuchayadi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ildiz tukchasi",
+      "body": "Har bir ildiz tukchasi bitta uzun hujayradan iborat; tukchalar suv va unda erigan moddalarni shimishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-8-f1"
+      ]
+    },
+    {
+      "title": "Uchni himoya qilish",
+      "body": "Ildizning bo‘linuvchi qismini tashqaridan ildiz qinchasi himoya qiladi.",
+      "fact_ids": [
+        "paragraph-8-f2"
+      ]
+    },
+    {
+      "title": "Zonalar tartibi",
+      "body": "Ildiz uchidan yuqoriga bo‘linuvchi, o‘suvchi, so‘ruvchi va o‘tkazuvchi zonalar ketma-ket joylashadi.",
+      "fact_ids": [
+        "paragraph-8-f3"
+      ]
+    },
+    {
+      "title": "Moddalarni yetkazish",
+      "body": "Ildizning o‘tkazuvchi qismidan suv va mineral moddalar poyaga ko‘tariladi; yerusti organlarida hosil bo‘lgan organik moddalar ildizga keladi.",
+      "fact_ids": [
+        "paragraph-8-f4"
+      ]
+    },
+    {
+      "title": "Nafas olish uchun havo",
+      "body": "Ildiz ham nafas oladi. Tuproq yumshatilsa ildiz hujayralariga havo yetib borishi yaxshilanadi.",
+      "fact_ids": [
+        "paragraph-8-f5"
+      ]
+    },
+    {
+      "title": "Shoxlanishdan foydalanish",
+      "body": "Asosiy ildizning uchi chilpilganda bo‘yiga o‘sish to‘xtab, yon ildizlar hosil bo‘lishi kuchayadi.",
+      "fact_ids": [
+        "paragraph-8-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-8-q1",
+      "fact_id": "paragraph-8-f1",
+      "question_text": "Ildiz tukchasi nechta hujayradan tuzilgan?",
+      "options": [
+        "Yuzlab alohida ildizlardan",
+        "Bitta uzun hujayradan",
+        "Bir nechta to‘qimadan",
+        "Ko‘plab naychalar to‘plamidan"
+      ],
+      "correct_answer": "Bitta uzun hujayradan",
+      "explanation": "Har bir ildiz tukchasi bitta uzun hujayradan iborat; tukchalar suv va unda erigan moddalarni shimishga yordam beradi."
+    },
+    {
+      "key": "paragraph-8-q2",
+      "fact_id": "paragraph-8-f2",
+      "question_text": "Ildizning nozik uchki qismini nima himoya qiladi?",
+      "options": [
+        "Ildiz qinchasi",
+        "So‘ruvchi zona",
+        "O‘tkazuvchi zona",
+        "Yon ildiz"
+      ],
+      "correct_answer": "Ildiz qinchasi",
+      "explanation": "Ildizning bo‘linuvchi qismini tashqaridan ildiz qinchasi himoya qiladi."
+    },
+    {
+      "key": "paragraph-8-q3",
+      "fact_id": "paragraph-8-f3",
+      "question_text": "Uchdan yuqoriga to‘g‘ri tartib qaysi?",
+      "options": [
+        "O‘tkazuvchi → so‘ruvchi → bo‘linuvchi → o‘suvchi",
+        "So‘ruvchi → o‘tkazuvchi → o‘suvchi → bo‘linuvchi",
+        "O‘suvchi → o‘tkazuvchi → bo‘linuvchi → so‘ruvchi",
+        "Bo‘linuvchi → o‘suvchi → so‘ruvchi → o‘tkazuvchi"
+      ],
+      "correct_answer": "Bo‘linuvchi → o‘suvchi → so‘ruvchi → o‘tkazuvchi",
+      "explanation": "Ildiz uchidan yuqoriga bo‘linuvchi, o‘suvchi, so‘ruvchi va o‘tkazuvchi zonalar ketma-ket joylashadi."
+    },
+    {
+      "key": "paragraph-8-q4",
+      "fact_id": "paragraph-8-f4",
+      "question_text": "Ildizdan poyaga asosan qaysi moddalar ko‘tariladi?",
+      "options": [
+        "Faqat kraxmal donalari",
+        "Faqat gul changi",
+        "Suv va mineral moddalar",
+        "Bargda hosil bo‘lgan organik moddalar"
+      ],
+      "correct_answer": "Suv va mineral moddalar",
+      "explanation": "Ildizning o‘tkazuvchi qismidan suv va mineral moddalar poyaga ko‘tariladi; yerusti organlarida hosil bo‘lgan organik moddalar ildizga keladi."
+    },
+    {
+      "key": "paragraph-8-q5",
+      "fact_id": "paragraph-8-f5",
+      "question_text": "Tuproqni yumshatish ildizga qanday yordam beradi?",
+      "options": [
+        "Ildiz tukchalarini yo‘q qiladi",
+        "Havo yetib borishini yaxshilaydi",
+        "Tuproqdagi havoni butunlay yo‘qotadi",
+        "Ildizning nafas olishini to‘xtatadi"
+      ],
+      "correct_answer": "Havo yetib borishini yaxshilaydi",
+      "explanation": "Ildiz ham nafas oladi. Tuproq yumshatilsa ildiz hujayralariga havo yetib borishi yaxshilanadi."
+    },
+    {
+      "key": "paragraph-8-q6",
+      "fact_id": "paragraph-8-f6",
+      "question_text": "Asosiy ildiz uchini chilpish qanday natija berishi mumkin?",
+      "options": [
+        "Yon ildizlar hosil bo‘lishi kuchayadi",
+        "Asosiy ildiz bo‘yiga tezroq o‘sadi",
+        "Barcha yon ildizlar yo‘qoladi",
+        "Ildiz tizimi o‘sishdan butunlay to‘xtaydi"
+      ],
+      "correct_answer": "Yon ildizlar hosil bo‘lishi kuchayadi",
+      "explanation": "Asosiy ildizning uchi chilpilganda bo‘yiga o‘sish to‘xtab, yon ildizlar hosil bo‘lishi kuchayadi."
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import hashlib
 import json
 
 from fastapi import HTTPException
-from sqlalchemy import func
+from sqlalchemy import func, or_
 
 from services.models import (
     CurriculumChapter,
@@ -59,8 +59,56 @@ def citation(book, topic, source):
         ),
         "chapter_id": topic["chapter_id"],
         "topic_id": topic["id"],
+        "topic_title": topic["title"],
+        "chapter_title": next(
+            r["title"] for r in book["records"] if r["id"] == topic["chapter_id"]
+        ),
+        **(
+            {
+                "activity_kind": topic["kind"],
+                "activity_number": int(topic["id"].rsplit("-", 1)[-1]),
+            }
+            if topic["kind"] != "topic"
+            else {}
+        ),
         **source,
     }
+
+
+def source_order(record):
+    return record["pdf_start"], record.get("verification", {}).get("heading_offset", 0)
+
+
+def teaching_order(book, topic):
+    if topic["paragraph"]:
+        return topic["paragraph"] * 1000
+    preceding = [
+        r
+        for r in book["records"]
+        if r["kind"] == "topic" and source_order(r) < source_order(topic)
+    ]
+    number = max((r["paragraph"] for r in preceding), default=0)
+    activities = sorted(
+        [r for r in book["records"] if r["kind"] in {"laboratory", "practical"}],
+        key=source_order,
+    )
+    return number * 1000 + 500 + activities.index(topic) * 20
+
+
+def activity_courses(db):
+    # An upgraded grade requires all its source activities; other grade paths
+    # keep their earlier theoretical-only foundation until authored activities exist.
+    return (
+        db.query(CurriculumChapter.course_id)
+        .select_from(CurriculumChapter)
+        .join(CurriculumTopic, CurriculumTopic.chapter_id == CurriculumChapter.id)
+        .join(
+            CurriculumLessonSource,
+            CurriculumLessonSource.topic_id == CurriculumTopic.id,
+        )
+        .filter(CurriculumTopic.kind.in_(["laboratory", "practical"]))
+        .correlate(None)
+    )
 
 
 def import_curriculum(db, catalog, lesson, *, allow_source_upgrade=False):
@@ -193,7 +241,7 @@ def import_curriculum(db, catalog, lesson, *, allow_source_upgrade=False):
         title_ru=lesson["title"],
         title_en=lesson["title"],
         order_index=(
-            source_topic["paragraph"] * 1000
+            teaching_order(book, source_topic)
             + (
                 db.query(func.count(CurriculumLessonSource.lesson_id))
                 .filter_by(topic_id=source_topic["id"])
@@ -272,13 +320,18 @@ def lessons_after_source_gaps(db, unit_ids):
             CurriculumTopic.source,
             CurriculumLessonSource.lesson_id,
         )
+        .select_from(CurriculumChapter)
         .join(CurriculumTopic, CurriculumTopic.chapter_id == CurriculumChapter.id)
         .outerjoin(
             CurriculumLessonSource,
             CurriculumLessonSource.topic_id == CurriculumTopic.id,
         )
         .filter(
-            CurriculumChapter.unit_id.in_(unit_ids), CurriculumTopic.kind == "topic"
+            CurriculumChapter.unit_id.in_(unit_ids),
+            or_(
+                CurriculumTopic.kind == "topic",
+                CurriculumChapter.course_id.in_(activity_courses(db)),
+            ),
         )
         .all()
     )
@@ -293,7 +346,7 @@ def lessons_after_source_gaps(db, unit_ids):
     for topics in units.values():
         gap = False
         for item in sorted(
-            topics.values(), key=lambda item: item["source"]["paragraph"]
+            topics.values(), key=lambda item: source_order(item["source"])
         ):
             if gap:
                 blocked.update(item["lessons"])
@@ -309,10 +362,14 @@ def chapter_coverage_map(db, unit_ids):
             CurriculumTopic.id,
             CurriculumLessonSource.topic_id,
         )
+        .select_from(CurriculumChapter)
         .outerjoin(
             CurriculumTopic,
             (CurriculumTopic.chapter_id == CurriculumChapter.id)
-            & (CurriculumTopic.kind == "topic"),
+            & or_(
+                CurriculumTopic.kind == "topic",
+                CurriculumChapter.course_id.in_(activity_courses(db)),
+            ),
         )
         .outerjoin(
             CurriculumLessonSource,
@@ -418,6 +475,9 @@ def course_outline(db, user_id, subject_slug, grade):
             UserUnitExam.user_id == user_id, UserUnitExam.unit_id.in_(unit_ids)
         )
     }
+    activities_required = any(
+        t.kind in {"laboratory", "practical"} and by_topic.get(t.id) for t in topic_rows
+    )
     chapters = []
     all_complete = bool(chapter_rows)
     for chapter in chapter_rows:
@@ -439,12 +499,12 @@ def course_outline(db, user_id, subject_slug, grade):
                     "completed": bool(completed),
                 }
             )
-            if topic.kind == "topic" and not completed:
+            if (topic.kind == "topic" or activities_required) and not completed:
                 all_complete = False
         exam = exams.get(unit.id)
         if not exam or not exam.passed:
             all_complete = False
-        required = [t for t in topics if t["kind"] == "topic"]
+        required = [t for t in topics if t["kind"] == "topic" or activities_required]
         chapters.append(
             {
                 "unit_id": unit.id,

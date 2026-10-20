@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-7-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-7",
+  "title": "7-amaliy mashg‘ulot. Maktab hududidagi o‘simlik va hayvonot dunyosining mavsumiy o‘zgarishlarini kuzatish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-7-f1": {
+      "claim": "Amaliy mashg‘ulotda avval maktab hududidagi daraxt, buta va o‘t o‘simliklari aniqlanadi.",
+      "answer": "Daraxt, buta va o‘tlarni aniqlashdan",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-7-f2": {
+      "claim": "O‘qituvchi yordamida mevali daraxtlarning nomi va soni, shuningdek archa va qarag‘aylar soni daftarga yoziladi.",
+      "answer": "Nomi va sonini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-7-f3": {
+      "claim": "Amaliy ishda ishchi chumolilar harakati, daraxt shoxlaridagi qushlar va ularning sayrashi kuzatiladi.",
+      "answer": "Nomini qayd etib, sayrashini tinglash",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-7-f4": {
+      "claim": "Kuzatuvda ariq yoki hovuzdagi suvo‘tlar, nam joylardagi yo‘sinlar va baqa tuxumi yoki itbaliqlar bor-yo‘qligi tekshirilib, xulosa yoziladi.",
+      "answer": "Kuzatuvlarga asoslangan yozma xulosa tayyorlanadi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hududni kuzatish rejasi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nAmaliy mashg‘ulotda avval maktab hududidagi daraxt, buta va o‘t o‘simliklari aniqlanadi.",
+      "fact_ids": [
+        "practical-7-f1"
+      ]
+    },
+    {
+      "title": "Ma’lumotni yozish",
+      "body": "O‘qituvchi yordamida mevali daraxtlarning nomi va soni, shuningdek archa va qarag‘aylar soni daftarga yoziladi.",
+      "fact_ids": [
+        "practical-7-f2"
+      ]
+    },
+    {
+      "title": "Hayvonlarni kuzatish",
+      "body": "Amaliy ishda ishchi chumolilar harakati, daraxt shoxlaridagi qushlar va ularning sayrashi kuzatiladi.",
+      "fact_ids": [
+        "practical-7-f3"
+      ]
+    },
+    {
+      "title": "Kuzatuvdan xulosa",
+      "body": "Kuzatuvda ariq yoki hovuzdagi suvo‘tlar, nam joylardagi yo‘sinlar va baqa tuxumi yoki itbaliqlar bor-yo‘qligi tekshirilib, xulosa yoziladi.",
+      "fact_ids": [
+        "practical-7-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-7-q1",
+      "fact_id": "practical-7-f1",
+      "question_text": "Maktab hududini o‘rganishni qaysi ishdan boshlash tavsiya qilingan?",
+      "options": [
+        "Barcha qushlarni tutishdan",
+        "Kuzatuvni yozmasdan taxmin qilishdan",
+        "Daraxt, buta va o‘tlarni aniqlashdan",
+        "Barcha o‘simliklarni uzishdan"
+      ],
+      "correct_answer": "Daraxt, buta va o‘tlarni aniqlashdan",
+      "explanation": "Amaliy mashg‘ulotda avval maktab hududidagi daraxt, buta va o‘t o‘simliklari aniqlanadi."
+    },
+    {
+      "key": "practical-7-q2",
+      "fact_id": "practical-7-f2",
+      "question_text": "Daraxtlar haqidagi qayd qaysi ma’lumotni o‘z ichiga oladi?",
+      "options": [
+        "Faqat poyabzal narxini",
+        "Nomi va sonini",
+        "Faqat telefon modelini",
+        "Faqat daftar rangini"
+      ],
+      "correct_answer": "Nomi va sonini",
+      "explanation": "O‘qituvchi yordamida mevali daraxtlarning nomi va soni, shuningdek archa va qarag‘aylar soni daftarga yoziladi."
+    },
+    {
+      "key": "practical-7-q3",
+      "fact_id": "practical-7-f3",
+      "question_text": "Qushni kuzatishda qaysi ish darslik rejasiga mos?",
+      "options": [
+        "Nomini qayd etib, sayrashini tinglash",
+        "Qanotini kesib o‘lchash",
+        "Uyalarini buzish",
+        "Barcha tuxumlarni yig‘ish"
+      ],
+      "correct_answer": "Nomini qayd etib, sayrashini tinglash",
+      "explanation": "Amaliy ishda ishchi chumolilar harakati, daraxt shoxlaridagi qushlar va ularning sayrashi kuzatiladi."
+    },
+    {
+      "key": "practical-7-q4",
+      "fact_id": "practical-7-f4",
+      "question_text": "Ishni yakunlashda nima qilinadi?",
+      "options": [
+        "Natijalar o‘rniga taxminiy son yoziladi",
+        "Barcha qaydlar o‘chiriladi",
+        "Faqat daftar muqovasi bezatiladi",
+        "Kuzatuvlarga asoslangan yozma xulosa tayyorlanadi"
+      ],
+      "correct_answer": "Kuzatuvlarga asoslangan yozma xulosa tayyorlanadi",
+      "explanation": "Kuzatuvda ariq yoki hovuzdagi suvo‘tlar, nam joylardagi yo‘sinlar va baqa tuxumi yoki itbaliqlar bor-yo‘qligi tekshirilib, xulosa yoziladi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Maktab hududidagi o‘simlik va hayvonot dunyosining mavsumiy o‘zgarishlarini kuzatish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Hududni kuzatish rejasi",
+        "fact_ids": [
+          "practical-7-f1"
+        ]
+      },
+      {
+        "instruction": "Ma’lumotni yozish",
+        "fact_ids": [
+          "practical-7-f2"
+        ]
+      },
+      {
+        "instruction": "Hayvonlarni kuzatish",
+        "fact_ids": [
+          "practical-7-f3"
+        ]
+      },
+      {
+        "instruction": "Kuzatuvdan xulosa",
+        "fact_ids": [
+          "practical-7-f4"
+        ]
+      }
+    ]
+  }
+}

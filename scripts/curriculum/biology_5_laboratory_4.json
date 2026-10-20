@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-laboratory-4-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-laboratory-4",
+  "title": "4-laboratoriya. Achitqi zamburug‘idan foydalanib non tayyorlash jarayoni bilan tanishish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-4-f1": {
+      "claim": "Achitqili suyuqlik buyum oynasiga tomizilib, qoplag‘ich oyna bilan yopilishi; ortiqcha suyuqlik filtr qog‘oz bilan olinishi ko‘rsatiladi.",
+      "answer": "Filtr qog‘oz",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          35
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f2": {
+      "claim": "Achitqi mikroskopda kuzatilib, ko‘ringan tuzilmaning chizmasi daftarda qayd etiladi.",
+      "answer": "Ko‘rgan tuzilmasining chizmasini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f3": {
+      "claim": "Xamir qorish va non pishirish darslikda kattalar yordami bilan bajariladigan bosqichlar sifatida ko‘rsatilgan.",
+      "answer": "Kattalar yordami",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f4": {
+      "claim": "Xamir oshishi kuzatilgach, tayyorlash jarayoni haqida xulosa yoziladi.",
+      "answer": "Kuzatilgan jarayondan xulosa yozish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv rejasini o‘qish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nAchitqili suyuqlik buyum oynasiga tomizilib, qoplag‘ich oyna bilan yopilishi; ortiqcha suyuqlik filtr qog‘oz bilan olinishi ko‘rsatiladi.",
+      "fact_ids": [
+        "laboratory-4-f1"
+      ]
+    },
+    {
+      "title": "Natijani qayd qilish",
+      "body": "Achitqi mikroskopda kuzatilib, ko‘ringan tuzilmaning chizmasi daftarda qayd etiladi.",
+      "fact_ids": [
+        "laboratory-4-f2"
+      ]
+    },
+    {
+      "title": "Bosqichlarni ajratish",
+      "body": "Xamir qorish va non pishirish darslikda kattalar yordami bilan bajariladigan bosqichlar sifatida ko‘rsatilgan.",
+      "fact_ids": [
+        "laboratory-4-f3"
+      ]
+    },
+    {
+      "title": "Xulosa tuzish",
+      "body": "Xamir oshishi kuzatilgach, tayyorlash jarayoni haqida xulosa yoziladi.",
+      "fact_ids": [
+        "laboratory-4-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-4-q1",
+      "fact_id": "laboratory-4-f1",
+      "question_text": "Ortiqcha suyuqlikni olish uchun reja qaysi materialni ko‘rsatadi?",
+      "options": [
+        "Temir mix",
+        "Plastmassa gul",
+        "Filtr qog‘oz",
+        "Qum"
+      ],
+      "correct_answer": "Filtr qog‘oz",
+      "explanation": "Achitqili suyuqlik buyum oynasiga tomizilib, qoplag‘ich oyna bilan yopilishi; ortiqcha suyuqlik filtr qog‘oz bilan olinishi ko‘rsatiladi."
+    },
+    {
+      "key": "laboratory-4-q2",
+      "fact_id": "laboratory-4-f2",
+      "question_text": "Ilmo mikroskopdagi kuzatuvdan keyin nimani qayd etadi?",
+      "options": [
+        "Faqat xonaning rangini",
+        "Ko‘rgan tuzilmasining chizmasini",
+        "Taxminiy, ko‘rilmagan natijani",
+        "Faqat asbob narxini"
+      ],
+      "correct_answer": "Ko‘rgan tuzilmasining chizmasini",
+      "explanation": "Achitqi mikroskopda kuzatilib, ko‘ringan tuzilmaning chizmasi daftarda qayd etiladi."
+    },
+    {
+      "key": "laboratory-4-q3",
+      "fact_id": "laboratory-4-f3",
+      "question_text": "Non pishirish bosqichi uchun darslikdagi to‘g‘ri shart qaysi?",
+      "options": [
+        "Kattalar yordami",
+        "Bolani olov bilan yolg‘iz qoldirish",
+        "O‘qituvchidan yashirin bajarish",
+        "Issiq idishni qo‘l bilan tekshirish"
+      ],
+      "correct_answer": "Kattalar yordami",
+      "explanation": "Xamir qorish va non pishirish darslikda kattalar yordami bilan bajariladigan bosqichlar sifatida ko‘rsatilgan."
+    },
+    {
+      "key": "laboratory-4-q4",
+      "fact_id": "laboratory-4-f4",
+      "question_text": "Ilmo faoliyat yakunida qaysi ishni bajaradi?",
+      "options": [
+        "Kuzatilmagan raqamni o‘ylab topish",
+        "Barcha qaydlarni o‘chirish",
+        "Xamirni organizm emas deb taxmin qilish",
+        "Kuzatilgan jarayondan xulosa yozish"
+      ],
+      "correct_answer": "Kuzatilgan jarayondan xulosa yozish",
+      "explanation": "Xamir oshishi kuzatilgach, tayyorlash jarayoni haqida xulosa yoziladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Achitqi zamburug‘idan foydalanib non tayyorlash jarayoni bilan tanishish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv rejasini o‘qish",
+        "fact_ids": [
+          "laboratory-4-f1"
+        ]
+      },
+      {
+        "instruction": "Natijani qayd qilish",
+        "fact_ids": [
+          "laboratory-4-f2"
+        ]
+      },
+      {
+        "instruction": "Bosqichlarni ajratish",
+        "fact_ids": [
+          "laboratory-4-f3"
+        ]
+      },
+      {
+        "instruction": "Xulosa tuzish",
+        "fact_ids": [
+          "laboratory-4-f4"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-3-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-3",
+  "title": "3-amaliy mashg‘ulot. Olma o‘simligining hayot sikli bilan tanishish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-3-f1": {
+      "claim": "Olma hayot sikli rasmida guldan keyin mevali daraxt va olma mevasi, undan so‘ng urug‘ni ekish bosqichi ko‘rsatilgan.",
+      "answer": "Urug‘ni ekish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          51
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-3-f2": {
+      "claim": "Ekilgan olma urug‘i unadi, undan yosh nihol, so‘ng ko‘chat rivojlanadi.",
+      "answer": "Unish → yosh nihol → ko‘chat",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          51
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-3-f3": {
+      "claim": "Urug‘ ekilganda urug‘ turi, soni va ekilgan sana yoziladi; unib chiqqan sana va nihollar soni ham qayd etiladi.",
+      "answer": "Ekilgan va ungan sanalar hamda urug‘ va nihol sonlari",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          51
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-3-f4": {
+      "claim": "Nihol uzunligi har kuni chizg‘ich bilan o‘lchanadi; jadvalga uzunlik va barglar soni kiritiladi.",
+      "answer": "Har kuni chizg‘ich bilan o‘lchab jadvalga yozadi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          51
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Olmaning hayot sikli",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nOlma hayot sikli rasmida guldan keyin mevali daraxt va olma mevasi, undan so‘ng urug‘ni ekish bosqichi ko‘rsatilgan.",
+      "fact_ids": [
+        "practical-3-f1"
+      ]
+    },
+    {
+      "title": "Siklni tartiblash",
+      "body": "Ekilgan olma urug‘i unadi, undan yosh nihol, so‘ng ko‘chat rivojlanadi.",
+      "fact_ids": [
+        "practical-3-f2"
+      ]
+    },
+    {
+      "title": "Kuzatuvni qayd etish",
+      "body": "Urug‘ ekilganda urug‘ turi, soni va ekilgan sana yoziladi; unib chiqqan sana va nihollar soni ham qayd etiladi.",
+      "fact_ids": [
+        "practical-3-f3"
+      ]
+    },
+    {
+      "title": "O‘lchovli kuzatuv",
+      "body": "Nihol uzunligi har kuni chizg‘ich bilan o‘lchanadi; jadvalga uzunlik va barglar soni kiritiladi.",
+      "fact_ids": [
+        "practical-3-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-3-q1",
+      "fact_id": "practical-3-f1",
+      "question_text": "Olma mevasidan keyingi yangi avlodga tegishli ish qaysi?",
+      "options": [
+        "Ko‘chatni kattaligicha urug‘ga joylash",
+        "Bargni toshga aylantirish",
+        "Urug‘ni ekish",
+        "Mevani yana gulga aylantirish"
+      ],
+      "correct_answer": "Urug‘ni ekish",
+      "explanation": "Olma hayot sikli rasmida guldan keyin mevali daraxt va olma mevasi, undan so‘ng urug‘ni ekish bosqichi ko‘rsatilgan."
+    },
+    {
+      "key": "practical-3-q2",
+      "fact_id": "practical-3-f2",
+      "question_text": "Urug‘ ekilganidan keyingi to‘g‘ri tartib qaysi?",
+      "options": [
+        "Nihol → urug‘ ekish → unish",
+        "Unish → yosh nihol → ko‘chat",
+        "Ko‘chat → meva → unmagan urug‘",
+        "Gul → quruq meva → tosh"
+      ],
+      "correct_answer": "Unish → yosh nihol → ko‘chat",
+      "explanation": "Ekilgan olma urug‘i unadi, undan yosh nihol, so‘ng ko‘chat rivojlanadi."
+    },
+    {
+      "key": "practical-3-q3",
+      "fact_id": "practical-3-f3",
+      "question_text": "Ikki kuzatuvni solishtirish uchun qaysi yozuv kerak?",
+      "options": [
+        "Ekilgan va ungan sanalar hamda urug‘ va nihol sonlari",
+        "Faqat tuvakning narxi",
+        "Faqat qalamning rangi",
+        "Faqat deraza balandligi"
+      ],
+      "correct_answer": "Ekilgan va ungan sanalar hamda urug‘ va nihol sonlari",
+      "explanation": "Urug‘ ekilganda urug‘ turi, soni va ekilgan sana yoziladi; unib chiqqan sana va nihollar soni ham qayd etiladi."
+    },
+    {
+      "key": "practical-3-q4",
+      "fact_id": "practical-3-f4",
+      "question_text": "Ilmo o‘sishni taxmin qilmasdan qanday qayd etadi?",
+      "options": [
+        "Faqat bir marta suratga qaramay baholaydi",
+        "Barglarni uzib sanamay tashlaydi",
+        "Urug‘ning rangidan bo‘yini topadi",
+        "Har kuni chizg‘ich bilan o‘lchab jadvalga yozadi"
+      ],
+      "correct_answer": "Har kuni chizg‘ich bilan o‘lchab jadvalga yozadi",
+      "explanation": "Nihol uzunligi har kuni chizg‘ich bilan o‘lchanadi; jadvalga uzunlik va barglar soni kiritiladi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Olma o‘simligining hayot sikli bilan tanishish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Olmaning hayot sikli",
+        "fact_ids": [
+          "practical-3-f1"
+        ]
+      },
+      {
+        "instruction": "Siklni tartiblash",
+        "fact_ids": [
+          "practical-3-f2"
+        ]
+      },
+      {
+        "instruction": "Kuzatuvni qayd etish",
+        "fact_ids": [
+          "practical-3-f3"
+        ]
+      },
+      {
+        "instruction": "O‘lchovli kuzatuv",
+        "fact_ids": [
+          "practical-3-f4"
+        ]
+      }
+    ]
+  }
+}

@@ -99,8 +99,25 @@ def validate_lesson(catalog, lesson):
         raise ValueError("verified_source_required")
     topics = {r["id"]: r for r in book["records"]}
     topic = topics.get(lesson["topic_id"])
-    if not topic or topic["kind"] != "topic":
+    if not topic or topic["kind"] not in {"topic", "laboratory", "practical"}:
         raise ValueError("source_topic_required")
+    if topic["kind"] != "topic":
+        activity = lesson.get("activity", {})
+        if (
+            activity.get("kind") != topic["kind"]
+            or activity.get("mode") != "guided_analysis"
+            or activity.get("physical_execution_required") is not False
+            or not activity.get("goal")
+            or not activity.get("steps")
+        ):
+            raise ValueError("reviewed_guided_activity_required")
+        for step in activity["steps"]:
+            if (
+                not step.get("instruction")
+                or not step.get("fact_ids")
+                or any(f not in lesson["facts"] for f in step["fact_ids"])
+            ):
+                raise ValueError("activity_step_evidence_required")
     if not lesson.get("theory") or not lesson.get("questions"):
         raise ValueError("theory_and_questions_required")
     facts = lesson["facts"]
@@ -161,13 +178,15 @@ def validate_lesson(catalog, lesson):
     return book, topic
 
 
-def load_lesson_set():
+def load_lesson_set(batch=None):
     """Explicit reviewed manifest list: no draft file is published by globbing."""
     index = json.loads(CATALOG_PATH.with_name("biology_lessons.json").read_text())
-    lessons = [
-        json.loads(CATALOG_PATH.with_name(name).read_text())
-        for name in index["lessons"]
-    ]
+    names = index["lessons"] if batch is None else index["batches"][batch]
+    if len(names) != len(set(names)) or any(
+        name not in index["lessons"] for name in names
+    ):
+        raise ValueError("invalid_reviewed_batch")
+    lessons = [json.loads(CATALOG_PATH.with_name(name).read_text()) for name in names]
     if len({lesson["key"] for lesson in lessons}) != len(lessons):
         raise ValueError("duplicate_content_key")
     return lessons
@@ -181,7 +200,20 @@ def readiness_report(catalog, lessons):
     for book in catalog["books"]:
         ready = [lesson for lesson in lessons if lesson["book_id"] == book["id"]]
         topics = [r for r in book["records"] if r["kind"] == "topic"]
-        ids = {lesson["topic_id"] for lesson in ready}
+        kinds = {r["id"]: r["kind"] for r in book["records"]}
+        ids = {
+            lesson["topic_id"]
+            for lesson in ready
+            if kinds[lesson["topic_id"]] == "topic"
+        }
+        activities = [
+            r for r in book["records"] if r["kind"] in {"laboratory", "practical"}
+        ]
+        activity_ids = {
+            lesson["topic_id"]
+            for lesson in ready
+            if kinds[lesson["topic_id"]] != "topic"
+        }
         result.append(
             {
                 "grade": book["grade"],
@@ -193,9 +225,19 @@ def readiness_report(catalog, lessons):
                 "practicals": sum(r["kind"] == "practical" for r in book["records"]),
                 "ready_topics": len(ids),
                 "ready_lessons": len(ready),
+                "ready_theory_lessons": sum(
+                    kinds[l["topic_id"]] == "topic" for l in ready
+                ),
+                "ready_activities": len(activity_ids),
+                "remaining_topics": len(topics) - len(ids),
+                "remaining_activity_ids": [
+                    r["id"] for r in activities if r["id"] not in activity_ids
+                ],
                 "questions": sum(len(lesson["questions"]) for lesson in ready),
                 "remaining_topic_ids": [r["id"] for r in topics if r["id"] not in ids],
-                "course_ready": len(ids) == len(topics) and bool(topics),
+                "course_ready": len(ids) == len(topics)
+                and len(activity_ids) == len(activities)
+                and bool(topics),
             }
         )
     return result

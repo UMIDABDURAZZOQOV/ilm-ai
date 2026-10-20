@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-10-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-12",
+  "title": "Yuksak o‘simliklar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-10-f1": {
+      "claim": "Yuksak o‘simliklar sporali va urug‘li guruhlarga ajratiladi. Yo‘sin, qirqbo‘g‘im va qirqquloq sporali o‘simliklardir.",
+      "answer": "Yo‘sin, qirqbo‘g‘im, qirqquloq",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          44
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f2": {
+      "claim": "Yo‘sinda haqiqiy ildiz bo‘lmaydi, uning o‘rnida rizoidlar bor; sporalar ko‘sakchalarda yetiladi.",
+      "answer": "Rizoid",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          44
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f3": {
+      "claim": "Qirqbo‘g‘imning poyasi bo‘g‘imlarga bo‘lingan; uning ildizi va yerosti ildizpoyasi mavjud.",
+      "answer": "Qirqbo‘g‘im",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          44
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f4": {
+      "claim": "Qirqquloq barglarining pastki tomonida soruslar bo‘ladi; ulardagi sporalardan ko‘payishda foydalaniladi.",
+      "answer": "Pastki tomonida",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          44
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f5": {
+      "claim": "Ochiq urug‘li o‘simliklarning urug‘lari qubbalarda ochiq joylashadi. Qarag‘ay va archa bu guruhga kiradi.",
+      "answer": "Urug‘i meva ichida berkilmaganligi uchun",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          46
+        ],
+        "printed_pages": [
+          45
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f6": {
+      "claim": "Ochiq urug‘lilarda chang donachalari shamol orqali urg‘ochi qubbaga yetib boradi; urug‘lanish uchun tashqi suv shart emas.",
+      "answer": "Shamol orqali",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          46
+        ],
+        "printed_pages": [
+          45
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f7": {
+      "claim": "Archaning kuchli ildizlari tog‘ tuprog‘ini mustahkamlab, uni yuvilishdan saqlashga yordam beradi.",
+      "answer": "Tuproqni mustahkamlaydi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          46
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f8": {
+      "claim": "Yopiq urug‘lilarda urug‘ meva ichida yetiladi. Ular gul hosil qilgani uchun gulli o‘simliklar ham deyiladi.",
+      "answer": "Yopiq urug‘lilarga",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          46
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f9": {
+      "claim": "Gulli o‘simliklar daraxt, buta va o‘t shaklida bo‘ladi: o‘rik daraxtga, anor butaga, bug‘doy o‘tga misol.",
+      "answer": "O‘rik — anor — bug‘doy",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yuksak o‘simliklarni guruhlash",
+      "body": "Yuksak o‘simliklar sporali va urug‘li guruhlarga ajratiladi. Yo‘sin, qirqbo‘g‘im va qirqquloq sporali o‘simliklardir.",
+      "fact_ids": [
+        "paragraph-10-f1"
+      ]
+    },
+    {
+      "title": "Yo‘sinning tuzilishi",
+      "body": "Yo‘sinda haqiqiy ildiz bo‘lmaydi, uning o‘rnida rizoidlar bor; sporalar ko‘sakchalarda yetiladi.",
+      "fact_ids": [
+        "paragraph-10-f2"
+      ]
+    },
+    {
+      "title": "Qirqbo‘g‘im belgisi",
+      "body": "Qirqbo‘g‘imning poyasi bo‘g‘imlarga bo‘lingan; uning ildizi va yerosti ildizpoyasi mavjud.",
+      "fact_ids": [
+        "paragraph-10-f3"
+      ]
+    },
+    {
+      "title": "Qirqquloq sporasi",
+      "body": "Qirqquloq barglarining pastki tomonida soruslar bo‘ladi; ulardagi sporalardan ko‘payishda foydalaniladi.",
+      "fact_ids": [
+        "paragraph-10-f4"
+      ]
+    },
+    {
+      "title": "Ochiq urug‘ning ma’nosi",
+      "body": "Ochiq urug‘li o‘simliklarning urug‘lari qubbalarda ochiq joylashadi. Qarag‘ay va archa bu guruhga kiradi.",
+      "fact_ids": [
+        "paragraph-10-f5"
+      ]
+    },
+    {
+      "title": "Changning ko‘chishi",
+      "body": "Ochiq urug‘lilarda chang donachalari shamol orqali urg‘ochi qubbaga yetib boradi; urug‘lanish uchun tashqi suv shart emas.",
+      "fact_ids": [
+        "paragraph-10-f6"
+      ]
+    },
+    {
+      "title": "Archaning tabiatdagi xizmati",
+      "body": "Archaning kuchli ildizlari tog‘ tuprog‘ini mustahkamlab, uni yuvilishdan saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-10-f7"
+      ]
+    },
+    {
+      "title": "Yopiq urug‘ning ma’nosi",
+      "body": "Yopiq urug‘lilarda urug‘ meva ichida yetiladi. Ular gul hosil qilgani uchun gulli o‘simliklar ham deyiladi.",
+      "fact_ids": [
+        "paragraph-10-f8"
+      ]
+    },
+    {
+      "title": "Hayotiy shakllar",
+      "body": "Gulli o‘simliklar daraxt, buta va o‘t shaklida bo‘ladi: o‘rik daraxtga, anor butaga, bug‘doy o‘tga misol.",
+      "fact_ids": [
+        "paragraph-10-f9"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-10-q1",
+      "fact_id": "paragraph-10-f1",
+      "question_text": "Qaysi qatorda faqat sporali yuksak o‘simliklar berilgan?",
+      "options": [
+        "Xlorella, porfira, laminariya",
+        "Olma, limon, archa",
+        "Yo‘sin, qirqbo‘g‘im, qirqquloq",
+        "Qarag‘ay, o‘rik, bug‘doy"
+      ],
+      "correct_answer": "Yo‘sin, qirqbo‘g‘im, qirqquloq",
+      "explanation": "Yuksak o‘simliklar sporali va urug‘li guruhlarga ajratiladi. Yo‘sin, qirqbo‘g‘im va qirqquloq sporali o‘simliklardir."
+    },
+    {
+      "key": "paragraph-10-q2",
+      "fact_id": "paragraph-10-f2",
+      "question_text": "Yo‘sinning ildiz o‘rnidagi tuzilmasi qaysi?",
+      "options": [
+        "Meva bandi",
+        "Rizoid",
+        "Urug‘palla",
+        "Gultoj"
+      ],
+      "correct_answer": "Rizoid",
+      "explanation": "Yo‘sinda haqiqiy ildiz bo‘lmaydi, uning o‘rnida rizoidlar bor; sporalar ko‘sakchalarda yetiladi."
+    },
+    {
+      "key": "paragraph-10-q3",
+      "fact_id": "paragraph-10-f3",
+      "question_text": "Ilmo bo‘g‘imli poya va ildizpoyani ko‘rdi. Qaysi o‘simlik mos keladi?",
+      "options": [
+        "Qirqbo‘g‘im",
+        "Xlorella",
+        "Porfira",
+        "Xamirturush"
+      ],
+      "correct_answer": "Qirqbo‘g‘im",
+      "explanation": "Qirqbo‘g‘imning poyasi bo‘g‘imlarga bo‘lingan; uning ildizi va yerosti ildizpoyasi mavjud."
+    },
+    {
+      "key": "paragraph-10-q4",
+      "fact_id": "paragraph-10-f4",
+      "question_text": "Qirqquloqning spora to‘plamlari bargning qaysi tomonida joylashadi?",
+      "options": [
+        "Faqat gul ichida",
+        "Faqat meva po‘stida",
+        "Urug‘palla orasida",
+        "Pastki tomonida"
+      ],
+      "correct_answer": "Pastki tomonida",
+      "explanation": "Qirqquloq barglarining pastki tomonida soruslar bo‘ladi; ulardagi sporalardan ko‘payishda foydalaniladi."
+    },
+    {
+      "key": "paragraph-10-q5",
+      "fact_id": "paragraph-10-f5",
+      "question_text": "Qarag‘ay nima sababdan ochiq urug‘li deyiladi?",
+      "options": [
+        "Faqat spora bilan ko‘paygani uchun",
+        "Qattanasida gul bo‘lgani uchun",
+        "Urug‘i meva ichida berkilmaganligi uchun",
+        "Umuman urug‘i bo‘lmaganligi uchun"
+      ],
+      "correct_answer": "Urug‘i meva ichida berkilmaganligi uchun",
+      "explanation": "Ochiq urug‘li o‘simliklarning urug‘lari qubbalarda ochiq joylashadi. Qarag‘ay va archa bu guruhga kiradi."
+    },
+    {
+      "key": "paragraph-10-q6",
+      "fact_id": "paragraph-10-f6",
+      "question_text": "Ochiq urug‘lilar changi asosan nima orqali ko‘chadi?",
+      "options": [
+        "Faqat meva shirasi orqali",
+        "Shamol orqali",
+        "Faqat baliqlar orqali",
+        "Faqat ildiz orqali"
+      ],
+      "correct_answer": "Shamol orqali",
+      "explanation": "Ochiq urug‘lilarda chang donachalari shamol orqali urg‘ochi qubbaga yetib boradi; urug‘lanish uchun tashqi suv shart emas."
+    },
+    {
+      "key": "paragraph-10-q7",
+      "fact_id": "paragraph-10-f7",
+      "question_text": "Tog‘ yonbag‘rida archaning ildizlari qanday foyda beradi?",
+      "options": [
+        "Tuproqni mustahkamlaydi",
+        "Tuproqni shishaga aylantiradi",
+        "Suvni butunlay yo‘qotadi",
+        "Faqat gullarning rangini o‘zgartiradi"
+      ],
+      "correct_answer": "Tuproqni mustahkamlaydi",
+      "explanation": "Archaning kuchli ildizlari tog‘ tuprog‘ini mustahkamlab, uni yuvilishdan saqlashga yordam beradi."
+    },
+    {
+      "key": "paragraph-10-q8",
+      "fact_id": "paragraph-10-f8",
+      "question_text": "Urug‘i meva ichida yetiladigan o‘simliklar qaysi guruhga kiradi?",
+      "options": [
+        "Yo‘sinlarga",
+        "Suvo‘tlarga",
+        "Bakteriyalarga",
+        "Yopiq urug‘lilarga"
+      ],
+      "correct_answer": "Yopiq urug‘lilarga",
+      "explanation": "Yopiq urug‘lilarda urug‘ meva ichida yetiladi. Ular gul hosil qilgani uchun gulli o‘simliklar ham deyiladi."
+    },
+    {
+      "key": "paragraph-10-q9",
+      "fact_id": "paragraph-10-f9",
+      "question_text": "Daraxt — buta — o‘t tartibiga qaysi qator mos?",
+      "options": [
+        "Anor — bug‘doy — o‘rik",
+        "Xlorella — ulotriks — porfira",
+        "O‘rik — anor — bug‘doy",
+        "Bug‘doy — o‘rik — anor"
+      ],
+      "correct_answer": "O‘rik — anor — bug‘doy",
+      "explanation": "Gulli o‘simliklar daraxt, buta va o‘t shaklida bo‘ladi: o‘rik daraxtga, anor butaga, bug‘doy o‘tga misol."
+    }
+  ]
+}

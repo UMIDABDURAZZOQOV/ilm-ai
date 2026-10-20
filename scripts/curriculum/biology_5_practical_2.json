@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-2-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-2",
+  "title": "2-amaliy mashg‘ulot. O‘simliklar bargidan gerbariy tayyorlash",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-2-f1": {
+      "claim": "Gerbariy uchun yig‘ilgan bargning changi quruq latta bilan artiladi va barg qog‘oz orasiga tekis joylanadi.",
+      "answer": "Changini quruq latta bilan artish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-2-f2": {
+      "claim": "Qog‘oz orasidagi barglar faner bo‘laklari orasida presslanadi. Mog‘or paydo bo‘lmasligi uchun gazeta har kuni almashtiriladi.",
+      "answer": "Mog‘or bosishining oldini olish uchun",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-2-f3": {
+      "claim": "Quritilgan barg oq qog‘ozga skotch bilan mahkamlanadi; uning ostiga o‘simlik nomi va yig‘ilgan sana yoziladi.",
+      "answer": "O‘simlik nomi va yig‘ilgan sana",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gerbariyni rejalashtirish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nGerbariy uchun yig‘ilgan bargning changi quruq latta bilan artiladi va barg qog‘oz orasiga tekis joylanadi.",
+      "fact_ids": [
+        "practical-2-f1"
+      ]
+    },
+    {
+      "title": "Quritish va saqlash",
+      "body": "Qog‘oz orasidagi barglar faner bo‘laklari orasida presslanadi. Mog‘or paydo bo‘lmasligi uchun gazeta har kuni almashtiriladi.",
+      "fact_ids": [
+        "practical-2-f2"
+      ]
+    },
+    {
+      "title": "Namuna yorlig‘i",
+      "body": "Quritilgan barg oq qog‘ozga skotch bilan mahkamlanadi; uning ostiga o‘simlik nomi va yig‘ilgan sana yoziladi.",
+      "fact_ids": [
+        "practical-2-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-2-q1",
+      "fact_id": "practical-2-f1",
+      "question_text": "Ilmo changli bargni darhol yopishtirmoqchi. Qaysi ishni oldin bajarishi kerak?",
+      "options": [
+        "Bargni maydalash",
+        "Bargni qaynatish",
+        "Changini quruq latta bilan artish",
+        "Bargni bo‘yoqqa botirish"
+      ],
+      "correct_answer": "Changini quruq latta bilan artish",
+      "explanation": "Gerbariy uchun yig‘ilgan bargning changi quruq latta bilan artiladi va barg qog‘oz orasiga tekis joylanadi."
+    },
+    {
+      "key": "practical-2-q2",
+      "fact_id": "practical-2-f2",
+      "question_text": "Pressdagi gazeta nima uchun har kuni almashtiriladi?",
+      "options": [
+        "Barg rangini bo‘yash uchun",
+        "Mog‘or bosishining oldini olish uchun",
+        "Bargni urug‘ga aylantirish uchun",
+        "Bargni o‘stirish uchun"
+      ],
+      "correct_answer": "Mog‘or bosishining oldini olish uchun",
+      "explanation": "Qog‘oz orasidagi barglar faner bo‘laklari orasida presslanadi. Mog‘or paydo bo‘lmasligi uchun gazeta har kuni almashtiriladi."
+    },
+    {
+      "key": "practical-2-q3",
+      "fact_id": "practical-2-f3",
+      "question_text": "Gerbariy yorlig‘iga qaysi juft ma’lumot yoziladi?",
+      "options": [
+        "O‘simlik nomi va yig‘ilgan sana",
+        "Faqat daftar narxi va rangi",
+        "Faqat bargning rasmi",
+        "O‘quvchining oyoq kiyim o‘lchami"
+      ],
+      "correct_answer": "O‘simlik nomi va yig‘ilgan sana",
+      "explanation": "Quritilgan barg oq qog‘ozga skotch bilan mahkamlanadi; uning ostiga o‘simlik nomi va yig‘ilgan sana yoziladi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "O‘simliklar bargidan gerbariy tayyorlash: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Gerbariyni rejalashtirish",
+        "fact_ids": [
+          "practical-2-f1"
+        ]
+      },
+      {
+        "instruction": "Quritish va saqlash",
+        "fact_ids": [
+          "practical-2-f2"
+        ]
+      },
+      {
+        "instruction": "Namuna yorlig‘i",
+        "fact_ids": [
+          "practical-2-f3"
+        ]
+      }
+    ]
+  }
+}

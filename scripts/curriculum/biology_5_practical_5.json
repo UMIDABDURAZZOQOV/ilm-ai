@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-5-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-5",
+  "title": "5-amaliy mashg‘ulot. Suvarak va asalarining hayot siklini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-5-f1": {
+      "claim": "Suvarak chala o‘zgarish bilan rivojlanadi: tuxum → lichinka → voyaga yetgan hasharot. Bu siklda g‘umbak bosqichi yo‘q.",
+      "answer": "G‘umbak",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-5-f2": {
+      "claim": "Suvarak lichinkasi tullaganda xitinli po‘stini tashlab o‘sadi.",
+      "answer": "Xitinli po‘stini tashlab o‘sadi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-5-f3": {
+      "claim": "Asalari to‘liq o‘zgarish bilan rivojlanadi: tuxum → lichinka → g‘umbak → voyaga yetgan hasharot.",
+      "answer": "G‘umbak",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-5-f4": {
+      "claim": "Ishchi asalarilar lichinkani avval asalari suti, keyin gul changi va asal bilan oziqlantiradi.",
+      "answer": "Asalari suti",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Chala o‘zgarish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nSuvarak chala o‘zgarish bilan rivojlanadi: tuxum → lichinka → voyaga yetgan hasharot. Bu siklda g‘umbak bosqichi yo‘q.",
+      "fact_ids": [
+        "practical-5-f1"
+      ]
+    },
+    {
+      "title": "O‘sish uchun tullash",
+      "body": "Suvarak lichinkasi tullaganda xitinli po‘stini tashlab o‘sadi.",
+      "fact_ids": [
+        "practical-5-f2"
+      ]
+    },
+    {
+      "title": "To‘liq o‘zgarish",
+      "body": "Asalari to‘liq o‘zgarish bilan rivojlanadi: tuxum → lichinka → g‘umbak → voyaga yetgan hasharot.",
+      "fact_ids": [
+        "practical-5-f3"
+      ]
+    },
+    {
+      "title": "Lichinkani parvarishlash",
+      "body": "Ishchi asalarilar lichinkani avval asalari suti, keyin gul changi va asal bilan oziqlantiradi.",
+      "fact_ids": [
+        "practical-5-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-5-q1",
+      "fact_id": "practical-5-f1",
+      "question_text": "Suvarak hayot siklida qaysi bosqich bo‘lmaydi?",
+      "options": [
+        "Lichinka",
+        "Voyaga yetgan hasharot",
+        "G‘umbak",
+        "Tuxum"
+      ],
+      "correct_answer": "G‘umbak",
+      "explanation": "Suvarak chala o‘zgarish bilan rivojlanadi: tuxum → lichinka → voyaga yetgan hasharot. Bu siklda g‘umbak bosqichi yo‘q."
+    },
+    {
+      "key": "practical-5-q2",
+      "fact_id": "practical-5-f2",
+      "question_text": "Suvarak lichinkasi tullaganda nima sodir bo‘ladi?",
+      "options": [
+        "Sporaga aylanadi",
+        "Xitinli po‘stini tashlab o‘sadi",
+        "Meva hosil qiladi",
+        "Qubba chiqaradi"
+      ],
+      "correct_answer": "Xitinli po‘stini tashlab o‘sadi",
+      "explanation": "Suvarak lichinkasi tullaganda xitinli po‘stini tashlab o‘sadi."
+    },
+    {
+      "key": "practical-5-q3",
+      "fact_id": "practical-5-f3",
+      "question_text": "Asalarida lichinkadan keyin qaysi bosqich keladi?",
+      "options": [
+        "G‘umbak",
+        "Urug‘",
+        "Meva",
+        "Qubba"
+      ],
+      "correct_answer": "G‘umbak",
+      "explanation": "Asalari to‘liq o‘zgarish bilan rivojlanadi: tuxum → lichinka → g‘umbak → voyaga yetgan hasharot."
+    },
+    {
+      "key": "practical-5-q4",
+      "fact_id": "practical-5-f4",
+      "question_text": "Asalari lichinkasining dastlabki oziqi nima?",
+      "options": [
+        "Faqat yog‘och",
+        "Faqat tuproq",
+        "Faqat tosh",
+        "Asalari suti"
+      ],
+      "correct_answer": "Asalari suti",
+      "explanation": "Ishchi asalarilar lichinkani avval asalari suti, keyin gul changi va asal bilan oziqlantiradi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Suvarak va asalarining hayot siklini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Chala o‘zgarish",
+        "fact_ids": [
+          "practical-5-f1"
+        ]
+      },
+      {
+        "instruction": "O‘sish uchun tullash",
+        "fact_ids": [
+          "practical-5-f2"
+        ]
+      },
+      {
+        "instruction": "To‘liq o‘zgarish",
+        "fact_ids": [
+          "practical-5-f3"
+        ]
+      },
+      {
+        "instruction": "Lichinkani parvarishlash",
+        "fact_ids": [
+          "practical-5-f4"
+        ]
+      }
+    ]
+  }
+}

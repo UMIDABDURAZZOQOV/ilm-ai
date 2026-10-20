@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-7-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-9",
+  "title": "Zamburug‘lar dunyosi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-7-f1": {
+      "claim": "Zamburug‘larni mikologiya o‘rganadi. Ular eukariot bo‘lib, tayyor organik modda bilan oziqlanadi.",
+      "answer": "Mikologiya",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f2": {
+      "claim": "Achitqi bir hujayrali zamburug‘; u kurtaklanib ko‘payishi va xamirni oshirishda ishlatilishi bilan tanishtiriladi.",
+      "answer": "Achitqi zamburug‘i",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f3": {
+      "claim": "Mog‘or sporalardan rivojlanadi; ayrim mog‘orlar oziqni buzadi, ayrim turlaridan antibiotik olinadi.",
+      "answer": "Zamburug‘ning zararli ta’siriga",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f4": {
+      "claim": "Qalpoqchali zamburug‘lar orasida iste’mol qilinadigan va zaharli turlar bor. Har bir zamburug‘ni oziq deb bo‘lmaydi.",
+      "answer": "Hamma zamburug‘ ham iste’mol qilinmaydi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f5": {
+      "claim": "Qorakuya boshoqda qora kukun, zang zamburug‘i esa zangga o‘xshash dog‘ hosil qilishi bilan berilgan.",
+      "answer": "Zang zamburug‘i",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f6": {
+      "claim": "Vertitsillium o‘simlikning o‘tkazuvchi qismlarida parazitlik qilib, vilt va so‘lish bilan bog‘liq.",
+      "answer": "Vertitsillium",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Zamburug‘lar alohida dunyo",
+      "body": "Zamburug‘larni mikologiya o‘rganadi. Ular eukariot bo‘lib, tayyor organik modda bilan oziqlanadi.",
+      "fact_ids": [
+        "paragraph-7-f1"
+      ]
+    },
+    {
+      "title": "Achitqi va mog‘or",
+      "body": "Achitqi bir hujayrali zamburug‘; u kurtaklanib ko‘payishi va xamirni oshirishda ishlatilishi bilan tanishtiriladi.\n\nMog‘or sporalardan rivojlanadi; ayrim mog‘orlar oziqni buzadi, ayrim turlaridan antibiotik olinadi.",
+      "fact_ids": [
+        "paragraph-7-f2",
+        "paragraph-7-f3"
+      ]
+    },
+    {
+      "title": "Qalpoqchali turlar",
+      "body": "Qalpoqchali zamburug‘lar orasida iste’mol qilinadigan va zaharli turlar bor. Har bir zamburug‘ni oziq deb bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-7-f4"
+      ]
+    },
+    {
+      "title": "O‘simlikdagi parazitlar",
+      "body": "Qorakuya boshoqda qora kukun, zang zamburug‘i esa zangga o‘xshash dog‘ hosil qilishi bilan berilgan.\n\nVertitsillium o‘simlikning o‘tkazuvchi qismlarida parazitlik qilib, vilt va so‘lish bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-7-f5",
+        "paragraph-7-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-7-q1",
+      "fact_id": "paragraph-7-f1",
+      "question_text": "Zamburug‘larni o‘rganadigan fanni tanlang.",
+      "options": [
+        "Anatomiya",
+        "Astronomiya",
+        "Mikologiya",
+        "Zoologiya"
+      ],
+      "correct_answer": "Mikologiya",
+      "explanation": "Zamburug‘larni mikologiya o‘rganadi. Ular eukariot bo‘lib, tayyor organik modda bilan oziqlanadi."
+    },
+    {
+      "key": "paragraph-7-q2",
+      "fact_id": "paragraph-7-f2",
+      "question_text": "Xamirni oshirishda qaysi organizmdan foydalaniladi?",
+      "options": [
+        "Qizil muxomor",
+        "Achitqi zamburug‘i",
+        "Sil tayoqchasi",
+        "Bakteriofag"
+      ],
+      "correct_answer": "Achitqi zamburug‘i",
+      "explanation": "Achitqi bir hujayrali zamburug‘; u kurtaklanib ko‘payishi va xamirni oshirishda ishlatilishi bilan tanishtiriladi."
+    },
+    {
+      "key": "paragraph-7-q3",
+      "fact_id": "paragraph-7-f3",
+      "question_text": "Mog‘orlangan nonning buzilishi nimaga misol?",
+      "options": [
+        "Zamburug‘ning zararli ta’siriga",
+        "O‘simlikning changlanishiga",
+        "Qushning ko‘payishiga",
+        "Baliqning nafas olishiga"
+      ],
+      "correct_answer": "Zamburug‘ning zararli ta’siriga",
+      "explanation": "Mog‘or sporalardan rivojlanadi; ayrim mog‘orlar oziqni buzadi, ayrim turlaridan antibiotik olinadi."
+    },
+    {
+      "key": "paragraph-7-q4",
+      "fact_id": "paragraph-7-f4",
+      "question_text": "Ilmo noma’lum qo‘ziqorinni ko‘rdi. Qaysi xulosa asosli?",
+      "options": [
+        "Barcha zamburug‘ xavfsiz",
+        "Rangi chiroyli bo‘lsa doim yeyiladi",
+        "Har qanday zamburug‘ shirin meva",
+        "Hamma zamburug‘ ham iste’mol qilinmaydi"
+      ],
+      "correct_answer": "Hamma zamburug‘ ham iste’mol qilinmaydi",
+      "explanation": "Qalpoqchali zamburug‘lar orasida iste’mol qilinadigan va zaharli turlar bor. Har bir zamburug‘ni oziq deb bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-7-q5",
+      "fact_id": "paragraph-7-f5",
+      "question_text": "O‘simlikda zangga o‘xshash dog‘ bilan qaysi zamburug‘ bog‘langan?",
+      "options": [
+        "Oq qo‘ziqorin",
+        "Bakteriofag",
+        "Zang zamburug‘i",
+        "Achitqi"
+      ],
+      "correct_answer": "Zang zamburug‘i",
+      "explanation": "Qorakuya boshoqda qora kukun, zang zamburug‘i esa zangga o‘xshash dog‘ hosil qilishi bilan berilgan."
+    },
+    {
+      "key": "paragraph-7-q6",
+      "fact_id": "paragraph-7-f6",
+      "question_text": "Darslikda vilt bilan qaysi parazit bog‘langan?",
+      "options": [
+        "Bakteriofag",
+        "Vertitsillium",
+        "Achitqi",
+        "Xlorella"
+      ],
+      "correct_answer": "Vertitsillium",
+      "explanation": "Vertitsillium o‘simlikning o‘tkazuvchi qismlarida parazitlik qilib, vilt va so‘lish bilan bog‘liq."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-14-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-16",
+  "title": "Umurtqali hayvonlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-14-f1": {
+      "claim": "Baliqning tanasi suyri va shilimshiq bilan qoplangan; u jabralari yordamida nafas oladi.",
+      "answer": "Jabradan",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f2": {
+      "claim": "Baliqlarda yurak ikki kamerali, qon aylanishi bitta doiradan iborat.",
+      "answer": "Ikki",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f3": {
+      "claim": "Suvda hamda quruqlikda yashovchilar teri va o‘pka yordamida nafas oladi, tuxumlarini suvga qo‘yadi.",
+      "answer": "Tuxumini suvga qo‘yishiga",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f4": {
+      "claim": "Sudralib yuruvchilarning tanasi muguz tangachalar bilan qoplangan; ular o‘pka bilan nafas oladi.",
+      "answer": "Muguz tangachalar",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f5": {
+      "claim": "Qushlar tanasi pat bilan qoplangan, oldingi oyoqlari qanotga aylangan; ular issiqqonli hayvonlardir.",
+      "answer": "Qushlar",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f6": {
+      "claim": "Sutemizuvchilar bolalarini sut bilan boqadi, o‘pka bilan nafas oladi va yuragi to‘rt kamerali bo‘ladi.",
+      "answer": "Bolalarini sut bilan boqishi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f7": {
+      "claim": "Qush oyog‘i rasmlarida barmoqlar orasidagi parda suzishga, kuchli qayrilgan tirnoqlar esa o‘lja tutishga moslashuvni ko‘rsatadi.",
+      "answer": "Suvda suzishga",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Baliqning suvga moslashuvi",
+      "body": "Baliqning tanasi suyri va shilimshiq bilan qoplangan; u jabralari yordamida nafas oladi.",
+      "fact_ids": [
+        "paragraph-14-f1"
+      ]
+    },
+    {
+      "title": "Baliq yuragi",
+      "body": "Baliqlarda yurak ikki kamerali, qon aylanishi bitta doiradan iborat.",
+      "fact_ids": [
+        "paragraph-14-f2"
+      ]
+    },
+    {
+      "title": "Suv va quruqlik orasida",
+      "body": "Suvda hamda quruqlikda yashovchilar teri va o‘pka yordamida nafas oladi, tuxumlarini suvga qo‘yadi.",
+      "fact_ids": [
+        "paragraph-14-f3"
+      ]
+    },
+    {
+      "title": "Sudralib yuruvchilarning qoplami",
+      "body": "Sudralib yuruvchilarning tanasi muguz tangachalar bilan qoplangan; ular o‘pka bilan nafas oladi.",
+      "fact_ids": [
+        "paragraph-14-f4"
+      ]
+    },
+    {
+      "title": "Qushning belgisi",
+      "body": "Qushlar tanasi pat bilan qoplangan, oldingi oyoqlari qanotga aylangan; ular issiqqonli hayvonlardir.",
+      "fact_ids": [
+        "paragraph-14-f5"
+      ]
+    },
+    {
+      "title": "Sutemizuvchilarni ajratish",
+      "body": "Sutemizuvchilar bolalarini sut bilan boqadi, o‘pka bilan nafas oladi va yuragi to‘rt kamerali bo‘ladi.",
+      "fact_ids": [
+        "paragraph-14-f6"
+      ]
+    },
+    {
+      "title": "Moslashuvdan xulosa",
+      "body": "Qush oyog‘i rasmlarida barmoqlar orasidagi parda suzishga, kuchli qayrilgan tirnoqlar esa o‘lja tutishga moslashuvni ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-14-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-14-q1",
+      "fact_id": "paragraph-14-f1",
+      "question_text": "Suvdagi baliq nafas olishda qaysi organdan foydalanadi?",
+      "options": [
+        "Guldan",
+        "Qanotdan",
+        "Jabradan",
+        "Faqat o‘pkadan"
+      ],
+      "correct_answer": "Jabradan",
+      "explanation": "Baliqning tanasi suyri va shilimshiq bilan qoplangan; u jabralari yordamida nafas oladi."
+    },
+    {
+      "key": "paragraph-14-q2",
+      "fact_id": "paragraph-14-f2",
+      "question_text": "Baliq yuragi nechta kameradan iborat?",
+      "options": [
+        "Sakkiz",
+        "Ikki",
+        "Uch",
+        "To‘rt"
+      ],
+      "correct_answer": "Ikki",
+      "explanation": "Baliqlarda yurak ikki kamerali, qon aylanishi bitta doiradan iborat."
+    },
+    {
+      "key": "paragraph-14-q3",
+      "fact_id": "paragraph-14-f3",
+      "question_text": "Qurbaqaning ko‘payishda suv yaqiniga bog‘liqligi nimaga aloqador?",
+      "options": [
+        "Tuxumini suvga qo‘yishiga",
+        "Urug‘ini qubbada yetiltirishiga",
+        "Faqat havoda uchishiga",
+        "Meva hosil qilishiga"
+      ],
+      "correct_answer": "Tuxumini suvga qo‘yishiga",
+      "explanation": "Suvda hamda quruqlikda yashovchilar teri va o‘pka yordamida nafas oladi, tuxumlarini suvga qo‘yadi."
+    },
+    {
+      "key": "paragraph-14-q4",
+      "fact_id": "paragraph-14-f4",
+      "question_text": "Kaltakesak tanasining qoplami qaysi?",
+      "options": [
+        "Patlar",
+        "Qalin yashil tallom",
+        "Qo‘ziqorin mitseliysi",
+        "Muguz tangachalar"
+      ],
+      "correct_answer": "Muguz tangachalar",
+      "explanation": "Sudralib yuruvchilarning tanasi muguz tangachalar bilan qoplangan; ular o‘pka bilan nafas oladi."
+    },
+    {
+      "key": "paragraph-14-q5",
+      "fact_id": "paragraph-14-f5",
+      "question_text": "Pat qoplami va qanotga aylangan oldingi oyoqlar qaysi guruh belgisi?",
+      "options": [
+        "Yo‘sinlar",
+        "Mollyuskalar",
+        "Qushlar",
+        "Baliqlar"
+      ],
+      "correct_answer": "Qushlar",
+      "explanation": "Qushlar tanasi pat bilan qoplangan, oldingi oyoqlari qanotga aylangan; ular issiqqonli hayvonlardir."
+    },
+    {
+      "key": "paragraph-14-q6",
+      "fact_id": "paragraph-14-f6",
+      "question_text": "Yo‘lbars, kiyik va otni bir sinfga birlashtiruvchi belgi qaysi?",
+      "options": [
+        "Barchasining tanasi pat bilan qoplanishi",
+        "Bolalarini sut bilan boqishi",
+        "Barchasi jabra bilan nafas olishi",
+        "Barchasi tuxumini suvga qo‘yishi"
+      ],
+      "correct_answer": "Bolalarini sut bilan boqishi",
+      "explanation": "Sutemizuvchilar bolalarini sut bilan boqadi, o‘pka bilan nafas oladi va yuragi to‘rt kamerali bo‘ladi."
+    },
+    {
+      "key": "paragraph-14-q7",
+      "fact_id": "paragraph-14-f7",
+      "question_text": "Ilmo barmoqlar orasida suzgich parda ko‘rdi. Oyoq qaysi faoliyatga moslashgan?",
+      "options": [
+        "Suvda suzishga",
+        "Gul ochishga",
+        "Sporalarni hosil qilishga",
+        "Mevani tuproqqa ko‘mishga"
+      ],
+      "correct_answer": "Suvda suzishga",
+      "explanation": "Qush oyog‘i rasmlarida barmoqlar orasidagi parda suzishga, kuchli qayrilgan tirnoqlar esa o‘lja tutishga moslashuvni ko‘rsatadi."
+    }
+  ]
+}

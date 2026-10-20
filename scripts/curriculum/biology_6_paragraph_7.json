@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-7-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-10",
+  "title": "Ildiz turlari va tizimlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-7-f1": {
+      "claim": "Ildiz o‘simlikni tuproqqa biriktiradi, suv va erigan mineral tuzlarni shimib, yerusti qismlariga yetkazadi.",
+      "answer": "Biriktirish va suv hamda mineral tuzlarni shimish",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f2": {
+      "claim": "Asosiy ildiz murtakning boshlang‘ich ildizidan, qo‘shimcha ildiz poya yoki bargdan, yon ildiz esa asosiy yoki qo‘shimcha ildizdan hosil bo‘ladi.",
+      "answer": "Qo‘shimcha ildiz",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          22
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f3": {
+      "claim": "O‘q ildiz tizimida asosiy ildiz yaxshi rivojlanib, undan yon ildizlar chiqadi; loviya va no‘xat bunga misoldir.",
+      "answer": "O‘q ildiz tizimiga",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          22
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f4": {
+      "claim": "Popuk ildiz tizimi ko‘plab mayda qo‘shimcha va yon ildizlardan iborat; bug‘doy, makkajo‘xori va arpada uchraydi.",
+      "answer": "Popuk ildiz tizimi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f5": {
+      "claim": "Asosiy, yon va qo‘shimcha — ildiz turlari; o‘q va popuk esa ildiz tizimlarining nomlaridir.",
+      "answer": "O‘q va popuk",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ildizning vazifalari",
+      "body": "Ildiz o‘simlikni tuproqqa biriktiradi, suv va erigan mineral tuzlarni shimib, yerusti qismlariga yetkazadi.",
+      "fact_ids": [
+        "paragraph-7-f1"
+      ]
+    },
+    {
+      "title": "Kelib chiqishiga ko‘ra",
+      "body": "Asosiy ildiz murtakning boshlang‘ich ildizidan, qo‘shimcha ildiz poya yoki bargdan, yon ildiz esa asosiy yoki qo‘shimcha ildizdan hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-7-f2"
+      ]
+    },
+    {
+      "title": "O‘q ildiz tizimi",
+      "body": "O‘q ildiz tizimida asosiy ildiz yaxshi rivojlanib, undan yon ildizlar chiqadi; loviya va no‘xat bunga misoldir.",
+      "fact_ids": [
+        "paragraph-7-f3"
+      ]
+    },
+    {
+      "title": "Popuk ildiz tizimi",
+      "body": "Popuk ildiz tizimi ko‘plab mayda qo‘shimcha va yon ildizlardan iborat; bug‘doy, makkajo‘xori va arpada uchraydi.",
+      "fact_ids": [
+        "paragraph-7-f4"
+      ]
+    },
+    {
+      "title": "Tur va tizimni farqlash",
+      "body": "Asosiy, yon va qo‘shimcha — ildiz turlari; o‘q va popuk esa ildiz tizimlarining nomlaridir.",
+      "fact_ids": [
+        "paragraph-7-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-7-q1",
+      "fact_id": "paragraph-7-f1",
+      "question_text": "Ildizning asosiy vazifalari qaysi?",
+      "options": [
+        "Urug‘ni pishirish va rang berish",
+        "Biriktirish va suv hamda mineral tuzlarni shimish",
+        "Gul hosil qilish va changlantirish",
+        "Barg hosil qilish va meva yetiltirish"
+      ],
+      "correct_answer": "Biriktirish va suv hamda mineral tuzlarni shimish",
+      "explanation": "Ildiz o‘simlikni tuproqqa biriktiradi, suv va erigan mineral tuzlarni shimib, yerusti qismlariga yetkazadi."
+    },
+    {
+      "key": "paragraph-7-q2",
+      "fact_id": "paragraph-7-f2",
+      "question_text": "Poyadan hosil bo‘lgan ildiz qanday ataladi?",
+      "options": [
+        "Qo‘shimcha ildiz",
+        "Asosiy ildiz",
+        "Yon ildiz",
+        "Ildiz tukchasi"
+      ],
+      "correct_answer": "Qo‘shimcha ildiz",
+      "explanation": "Asosiy ildiz murtakning boshlang‘ich ildizidan, qo‘shimcha ildiz poya yoki bargdan, yon ildiz esa asosiy yoki qo‘shimcha ildizdan hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-7-q3",
+      "fact_id": "paragraph-7-f3",
+      "question_text": "Asosiy ildizi yaxshi rivojlangan loviya qaysi ildiz tizimiga ega?",
+      "options": [
+        "Popuk ildiz tizimiga",
+        "Faqat qo‘shimcha ildizga",
+        "Ildizsiz tizimga",
+        "O‘q ildiz tizimiga"
+      ],
+      "correct_answer": "O‘q ildiz tizimiga",
+      "explanation": "O‘q ildiz tizimida asosiy ildiz yaxshi rivojlanib, undan yon ildizlar chiqadi; loviya va no‘xat bunga misoldir."
+    },
+    {
+      "key": "paragraph-7-q4",
+      "fact_id": "paragraph-7-f4",
+      "question_text": "Bug‘doyning ko‘plab mayda ildizlari qaysi tizimni hosil qiladi?",
+      "options": [
+        "Faqat asosiy ildiz",
+        "Ildizmeva",
+        "Popuk ildiz tizimi",
+        "O‘q ildiz tizimi"
+      ],
+      "correct_answer": "Popuk ildiz tizimi",
+      "explanation": "Popuk ildiz tizimi ko‘plab mayda qo‘shimcha va yon ildizlardan iborat; bug‘doy, makkajo‘xori va arpada uchraydi."
+    },
+    {
+      "key": "paragraph-7-q5",
+      "fact_id": "paragraph-7-f5",
+      "question_text": "Qaysi qatorda aynan ildiz tizimlari berilgan?",
+      "options": [
+        "Gul va meva",
+        "O‘q va popuk",
+        "Asosiy va qo‘shimcha",
+        "Poya va barg"
+      ],
+      "correct_answer": "O‘q va popuk",
+      "explanation": "Asosiy, yon va qo‘shimcha — ildiz turlari; o‘q va popuk esa ildiz tizimlarining nomlaridir."
+    }
+  ]
+}

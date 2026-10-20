@@ -1,0 +1,209 @@
+"""Reviewed continuation, immutable foundation and real digital-activity flows."""
+
+from copy import deepcopy
+import hashlib
+import json
+
+import pytest
+
+from test_release_hardening import setup
+from test_biology_segments import answers
+from services.curriculum import import_curriculum, load_documents
+from services.curriculum_validation import (
+    CATALOG_PATH,
+    load_lesson_set,
+    readiness_report,
+    validate_lesson,
+)
+from services.models import (
+    SkillLesson,
+    StudyEvent,
+    User,
+    UserLessonProgress,
+    UserUnitExam,
+)
+from services.study import utcnow
+
+
+def test_preserved_foundation_and_seven_source_catalogues_are_byte_identical():
+    baseline = json.loads(
+        CATALOG_PATH.with_name("biology_preserved_baseline.json").read_text()
+    )
+    assert (
+        hashlib.sha256(CATALOG_PATH.read_bytes()).hexdigest()
+        == baseline["catalog_sha256"]
+    )
+    for name, digest in baseline["files"].items():
+        assert (
+            hashlib.sha256(CATALOG_PATH.with_name(name).read_bytes()).hexdigest()
+            == digest
+        )
+    old = load_lesson_set(batch="foundation-19")
+    assert len(old) == 19
+    assert sum(len(l["theory"]) for l in old) == baseline["cards"] == 72
+    assert sum(len(l["questions"]) for l in old) == baseline["questions"] == 140
+
+
+@pytest.mark.parametrize("lesson", load_lesson_set(), ids=lambda l: l["key"])
+def test_every_published_lesson_has_taught_answers_and_matching_source_pages(lesson):
+    catalog, _ = load_documents()
+    book, topic = validate_lesson(catalog, lesson)
+    assert book["grade"] in range(5, 12)
+    assert topic["id"] == lesson["topic_id"]
+    for fact in lesson["facts"].values():
+        assert fact["source"]["reviewed_on"]
+        assert fact["claim"].strip()
+
+
+def test_distinct_continuation_questions_and_honest_theory_activity_counts():
+    catalog, _ = load_documents()
+    lessons = load_lesson_set()
+    texts = [
+        q["question_text"].strip().casefold() for l in lessons for q in l["questions"]
+    ]
+    assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
+    report = readiness_report(catalog, lessons)
+    assert sum(r["topics"] for r in report) == 355
+    assert sum(r["ready_theory_lessons"] for r in report) == 39
+    assert sum(r["ready_activities"] for r in report) == 13
+    assert report[0]["course_ready"] and not any(r["course_ready"] for r in report[1:])
+    assert report[0]["remaining_topics"] == 0
+    assert report[0]["remaining_activity_ids"] == []
+
+
+@pytest.mark.parametrize("damage", ["physical", "step", "source", "answer"])
+def test_activity_cannot_claim_physical_execution_or_lose_evidence(damage):
+    lesson = deepcopy(next(l for l in load_lesson_set() if "activity" in l))
+    if damage == "physical":
+        lesson["activity"]["physical_execution_required"] = True
+    elif damage == "step":
+        lesson["activity"]["steps"][0]["fact_ids"] = ["unverified"]
+    elif damage == "source":
+        next(iter(lesson["facts"].values()))["source"]["verification"] = "ocr_only"
+    else:
+        lesson["questions"][0]["correct_answer"] = "unverified"
+    with pytest.raises(ValueError):
+        validate_lesson(load_documents()[0], lesson)
+
+
+def test_full_grade5_and_grade6_foundation_real_api_flow_once_only_xp(setup, tmp_path):
+    client, factory = setup
+    catalog, _ = load_documents()
+    lessons = load_lesson_set()
+    bykey = {l["key"]: l for l in lessons}
+    with factory.begin() as db:
+        for lesson in lessons:
+            import_curriculum(db, catalog, lesson)
+    xp = events = 0
+    for grade in (5, 6):
+        tree = client.get(f"/skills/1/tree?subject=biologiya&grade={grade}").json()
+        units = tree["units"] if grade == 5 else tree["units"][:2]
+        for unit in units:
+            assert unit["coverage_complete"]
+            for row in unit["lessons"]:
+                lid = row["id"]
+                issued = client.post(
+                    f"/skills/lessons/{lid}/start", json={"user_id": 1}
+                )
+                assert issued.status_code == 200, issued.text
+                data = issued.json()
+                for q in data["questions"]:
+                    assert q["source"]["chapter_title"]
+                    assert q["source"]["topic_title"]
+                reward = bykey[row["slug"]]["xp_reward"]
+                body = {
+                    "user_id": 1,
+                    "attempt_id": data["attempt_id"],
+                    "results": answers(data),
+                }
+                result = client.post(f"/skills/lessons/{lid}/complete", json=body)
+                assert result.status_code == 200, result.text
+                assert result.json()["xp_awarded"] == reward
+                assert (
+                    client.post(f"/skills/lessons/{lid}/complete", json=body).json()
+                    == result.json()
+                )
+                xp += reward
+                events += 1
+                if "laboratory-1" in row["slug"] and grade == 5:
+                    assert all(
+                        q["source"]["paragraph"] is None for q in data["questions"]
+                    )
+                    (tmp_path / "biology_activity_lesson.json").write_text(
+                        json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+                    )
+                    (tmp_path / "biology_activity_row.json").write_text(
+                        json.dumps(row, ensure_ascii=False, indent=2) + "\n"
+                    )
+                    (tmp_path / "biology_activity_result.json").write_text(
+                        json.dumps(result.json(), ensure_ascii=False, indent=2) + "\n"
+                    )
+            exam = client.get(f"/skills/1/unit-exam?unit_id={unit['id']}")
+            assert exam.status_code == 200, exam.text
+            data = exam.json()
+            body = {
+                "user_id": 1,
+                "unit_id": unit["id"],
+                "attempt_id": data["attempt_id"],
+                "results": answers(data),
+            }
+            result = client.post("/skills/unit-exam/complete", json=body)
+            assert result.status_code == 200, result.text
+            assert (
+                client.post("/skills/unit-exam/complete", json=body).json()
+                == result.json()
+            )
+            xp += result.json()["xp_awarded"]
+            events += 1
+        outline = client.get(
+            f"/skills/1/curriculum?subject=biologiya&grade={grade}"
+        ).json()
+        assert outline["completed"] is (grade == 5)
+        assert outline["next_grade"] == (6 if grade == 5 else None)
+    with factory.begin() as db:
+        assert db.get(User, 1).xp_total == xp
+        assert db.query(StudyEvent).count() == events
+        assert db.query(UserLessonProgress).count() == events - 5
+        for lesson in lessons:
+            assert not import_curriculum(db, catalog, lesson)["created"]
+        assert db.get(User, 1).xp_total == xp
+
+
+def test_missing_activity_blocks_checkpoint_and_later_lesson_without_erasing_progress(
+    setup,
+):
+    client, factory = setup
+    catalog, _ = load_documents()
+    lessons = {l["key"]: l for l in load_lesson_set()}
+    with factory.begin() as db:
+        ids = [
+            import_curriculum(db, catalog, l)["lesson_id"]
+            for l in load_lesson_set(batch="foundation-19")[:4]
+        ]
+        unit_id = db.get(SkillLesson, ids[0]).unit_id
+        db.add(
+            UserLessonProgress(
+                user_id=1,
+                lesson_id=ids[2],
+                stars=2,
+                attempts=1,
+                xp_earned=20,
+                completed_at=utcnow(),
+            )
+        )
+        db.add(UserUnitExam(user_id=1, unit_id=unit_id, passed=True))
+        db.get(User, 1).xp_total = 73
+        import_curriculum(db, catalog, lessons["biology-5-laboratory-1-v1"])
+    tree = client.get("/skills/1/tree?subject=biologiya&grade=5").json()
+    assert not tree["units"][0]["coverage_complete"]
+    last = next(l for l in tree["units"][0]["lessons"] if l["id"] == ids[3])
+    assert last["status"] == "locked"
+    assert (
+        client.post(f"/skills/lessons/{ids[3]}/start", json={"user_id": 1}).status_code
+        == 403
+    )
+    assert client.get(f"/skills/1/unit-exam?unit_id={unit_id}").status_code == 409
+    with factory.begin() as db:
+        assert db.get(User, 1).xp_total == 73
+        assert db.query(UserLessonProgress).one().stars == 2
+        assert db.query(UserUnitExam).one().passed

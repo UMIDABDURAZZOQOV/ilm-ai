@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-laboratory-1-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-laboratory-1",
+  "title": "1-laboratoriya. Xavfsizlik texnikasi qoidalari va laboratoriya jihozlari bilan tanishish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-1-f1": {
+      "claim": "Laboratoriya va amaliy ishlar o‘qituvchi nazoratida, ish tartibi oldindan o‘qilgach bajariladi.",
+      "answer": "Ish tartibini o‘qib, o‘qituvchi nazoratida ishlash",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f2": {
+      "claim": "Asbobning sozligi va shisha idishning butunligi tekshiriladi. Darz ketgan idish ishlatilmaydi.",
+      "answer": "Undan foydalanmaslik",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          9
+        ],
+        "printed_pages": [
+          8
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f3": {
+      "claim": "Pipetka suyuqlikni tomizish, pinset esa kichik obyektni qisib ko‘chirish uchun qo‘llanadi.",
+      "answer": "Pipetka",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f4": {
+      "claim": "Mikropreparat buyum oynasiga joylanib, qoplag‘ich oyna bilan yopiladi.",
+      "answer": "Buyum oynasi va qoplag‘ich oyna",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          10
+        ],
+        "printed_pages": [
+          9
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ishni xavfsiz rejalashtirish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya va amaliy ishlar o‘qituvchi nazoratida, ish tartibi oldindan o‘qilgach bajariladi.\n\nAsbobning sozligi va shisha idishning butunligi tekshiriladi. Darz ketgan idish ishlatilmaydi.",
+      "fact_ids": [
+        "laboratory-1-f1",
+        "laboratory-1-f2"
+      ]
+    },
+    {
+      "title": "Jihozni vazifaga moslash",
+      "body": "Pipetka suyuqlikni tomizish, pinset esa kichik obyektni qisib ko‘chirish uchun qo‘llanadi.\n\nMikropreparat buyum oynasiga joylanib, qoplag‘ich oyna bilan yopiladi.",
+      "fact_ids": [
+        "laboratory-1-f3",
+        "laboratory-1-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-1-q1",
+      "fact_id": "laboratory-1-f1",
+      "question_text": "Ilmo laboratoriya ishiga tayyorlanmoqda. Birinchi qaror qaysi?",
+      "options": [
+        "Nazorat bo‘lmasa ham isitishni boshlash",
+        "Singan idishlarni ishlatish",
+        "Ish tartibini o‘qib, o‘qituvchi nazoratida ishlash",
+        "Noma’lum moddalarni tatib ko‘rish"
+      ],
+      "correct_answer": "Ish tartibini o‘qib, o‘qituvchi nazoratida ishlash",
+      "explanation": "Laboratoriya va amaliy ishlar o‘qituvchi nazoratida, ish tartibi oldindan o‘qilgach bajariladi."
+    },
+    {
+      "key": "laboratory-1-q2",
+      "fact_id": "laboratory-1-f2",
+      "question_text": "Ilmo darz ketgan probirkani ko‘rdi. Qaysi qaror to‘g‘ri?",
+      "options": [
+        "Uni ovqat idishi qilish",
+        "Undan foydalanmaslik",
+        "Uni qizdirib tekshirish",
+        "Uni yashirish"
+      ],
+      "correct_answer": "Undan foydalanmaslik",
+      "explanation": "Asbobning sozligi va shisha idishning butunligi tekshiriladi. Darz ketgan idish ishlatilmaydi."
+    },
+    {
+      "key": "laboratory-1-q3",
+      "fact_id": "laboratory-1-f3",
+      "question_text": "Bir tomchi suyuqlikni buyum oynasiga tushirish uchun qaysi jihoz mos?",
+      "options": [
+        "Pipetka",
+        "Pinset",
+        "Skalpel",
+        "Qoplag‘ich oyna"
+      ],
+      "correct_answer": "Pipetka",
+      "explanation": "Pipetka suyuqlikni tomizish, pinset esa kichik obyektni qisib ko‘chirish uchun qo‘llanadi."
+    },
+    {
+      "key": "laboratory-1-q4",
+      "fact_id": "laboratory-1-f4",
+      "question_text": "Ilmo mikroskopga preparat tayyorlash jihozlarini tanlamoqda. Qaysi juftlik mos?",
+      "options": [
+        "Sochiq va piyola",
+        "Guldon va tuproq",
+        "Faqat daftar va qalam",
+        "Buyum oynasi va qoplag‘ich oyna"
+      ],
+      "correct_answer": "Buyum oynasi va qoplag‘ich oyna",
+      "explanation": "Mikropreparat buyum oynasiga joylanib, qoplag‘ich oyna bilan yopiladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Xavfsizlik texnikasi qoidalari va laboratoriya jihozlari bilan tanishish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Ishni xavfsiz rejalashtirish",
+        "fact_ids": [
+          "laboratory-1-f1",
+          "laboratory-1-f2"
+        ]
+      },
+      {
+        "instruction": "Jihozni vazifaga moslash",
+        "fact_ids": [
+          "laboratory-1-f3",
+          "laboratory-1-f4"
+        ]
+      }
+    ]
+  }
+}

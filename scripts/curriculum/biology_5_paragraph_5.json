@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-5-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-7",
+  "title": "Tirik organizmlar haqida umumiy ma’lumot",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-5-f1": {
+      "claim": "Tirik organizmlar hujayra tuzilishi va oziqlanishi kabi belgilari bilan farqlanadi. Darslik bakteriya, zamburug‘, o‘simlik va hayvonot dunyolarini ajratadi.",
+      "answer": "Hujayra tuzilishi va oziqlanishi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f2": {
+      "claim": "Bakteriyalar prokariot, zamburug‘lar esa eukariot organizmlarga kiradi.",
+      "answer": "Eukariot",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f3": {
+      "claim": "Flora o‘simliklar dunyosining nomidir. Darslik o‘simliklarni eukariot organizmlar sifatida guruhlaydi.",
+      "answer": "Flora",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f4": {
+      "claim": "Yashil o‘simliklar fotosintezda karbonat angidridni o‘zlashtirib, organik modda hosil qiladi va kislorod ajratadi.",
+      "answer": "Organik modda va kislorod",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f5": {
+      "claim": "Virus hujayrasiz hayot shakli bo‘lib, faqat tirik hujayra ichida ko‘paya oladi.",
+      "answer": "Tirik hujayra ichida bo‘lish",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f6": {
+      "claim": "Bakteriyalarda parazitlik qiladigan virus bakteriofag deyiladi; darslik o‘simlik virusi sifatida tamaki mozaikasini keltiradi.",
+      "answer": "Bakteriofag",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tirik organizmlarni guruhlash",
+      "body": "Tirik organizmlar hujayra tuzilishi va oziqlanishi kabi belgilari bilan farqlanadi. Darslik bakteriya, zamburug‘, o‘simlik va hayvonot dunyolarini ajratadi.\n\nBakteriyalar prokariot, zamburug‘lar esa eukariot organizmlarga kiradi.",
+      "fact_ids": [
+        "paragraph-5-f1",
+        "paragraph-5-f2"
+      ]
+    },
+    {
+      "title": "O‘simlik va hayvonot",
+      "body": "Flora o‘simliklar dunyosining nomidir. Darslik o‘simliklarni eukariot organizmlar sifatida guruhlaydi.",
+      "fact_ids": [
+        "paragraph-5-f3",
+        "paragraph-5-f4"
+      ]
+    },
+    {
+      "title": "Viruslarni farqlash",
+      "body": "Virus hujayrasiz hayot shakli bo‘lib, faqat tirik hujayra ichida ko‘paya oladi.\n\nBakteriyalarda parazitlik qiladigan virus bakteriofag deyiladi; darslik o‘simlik virusi sifatida tamaki mozaikasini keltiradi.",
+      "fact_ids": [
+        "paragraph-5-f5",
+        "paragraph-5-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-5-q1",
+      "fact_id": "paragraph-5-f1",
+      "question_text": "Ilmo organizmlarni taqqoslamoqda. Qaysi belgi ilmiy guruhlashga mos?",
+      "options": [
+        "Faqat daftar rangi",
+        "Faqat surat kattaligi",
+        "Hujayra tuzilishi va oziqlanishi",
+        "Faqat nomining uzunligi"
+      ],
+      "correct_answer": "Hujayra tuzilishi va oziqlanishi",
+      "explanation": "Tirik organizmlar hujayra tuzilishi va oziqlanishi kabi belgilari bilan farqlanadi. Darslik bakteriya, zamburug‘, o‘simlik va hayvonot dunyolarini ajratadi."
+    },
+    {
+      "key": "paragraph-5-q2",
+      "fact_id": "paragraph-5-f2",
+      "question_text": "Achitqi zamburug‘ining hujayraviy guruhini tanlang.",
+      "options": [
+        "Jonsiz mineral",
+        "Eukariot",
+        "Prokariot",
+        "Hujayrasiz virus"
+      ],
+      "correct_answer": "Eukariot",
+      "explanation": "Bakteriyalar prokariot, zamburug‘lar esa eukariot organizmlarga kiradi."
+    },
+    {
+      "key": "paragraph-5-q3",
+      "fact_id": "paragraph-5-f3",
+      "question_text": "Ilmo hududdagi o‘simliklar ro‘yxatiga qanday nom qo‘yadi?",
+      "options": [
+        "Flora",
+        "Fauna",
+        "Bakteriofag",
+        "Vakuola"
+      ],
+      "correct_answer": "Flora",
+      "explanation": "Flora o‘simliklar dunyosining nomidir. Darslik o‘simliklarni eukariot organizmlar sifatida guruhlaydi."
+    },
+    {
+      "key": "paragraph-5-q4",
+      "fact_id": "paragraph-5-f4",
+      "question_text": "Fotosintezda hosil bo‘ladigan mahsulotlar juftligini tanlang.",
+      "options": [
+        "Faqat mineral tosh va qum",
+        "Faqat azot va tuz",
+        "Faqat suv va temir",
+        "Organik modda va kislorod"
+      ],
+      "correct_answer": "Organik modda va kislorod",
+      "explanation": "Yashil o‘simliklar fotosintezda karbonat angidridni o‘zlashtirib, organik modda hosil qiladi va kislorod ajratadi."
+    },
+    {
+      "key": "paragraph-5-q5",
+      "fact_id": "paragraph-5-f5",
+      "question_text": "Virus ko‘payishi uchun qaysi sharoit zarur?",
+      "options": [
+        "Faqat yorug‘ xonada turish",
+        "Faqat muzlatilgan shisha bo‘lish",
+        "Tirik hujayra ichida bo‘lish",
+        "Faqat quruq toshda yotish"
+      ],
+      "correct_answer": "Tirik hujayra ichida bo‘lish",
+      "explanation": "Virus hujayrasiz hayot shakli bo‘lib, faqat tirik hujayra ichida ko‘paya oladi."
+    },
+    {
+      "key": "paragraph-5-q6",
+      "fact_id": "paragraph-5-f6",
+      "question_text": "Bakteriya hujayrasida parazitlik qiluvchi virusni toping.",
+      "options": [
+        "Xloroplast",
+        "Bakteriofag",
+        "Achitqi",
+        "Kokk"
+      ],
+      "correct_answer": "Bakteriofag",
+      "explanation": "Bakteriyalarda parazitlik qiladigan virus bakteriofag deyiladi; darslik o‘simlik virusi sifatida tamaki mozaikasini keltiradi."
+    }
+  ]
+}

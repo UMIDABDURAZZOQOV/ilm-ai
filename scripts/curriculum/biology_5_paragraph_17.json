@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-17-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-20",
+  "title": "Inson va tabiat",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-17-f1": {
+      "claim": "Insonning yangi o‘simlik navlari va hayvon zotlarini yaratishi tabiatga ijobiy ta’sir misollari sifatida keltirilgan.",
+      "answer": "Yangi o‘simlik navlarini yaratish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f2": {
+      "claim": "Hayvonlarni ortiqcha ovlash, o‘rmonlarni haddan ziyod kesish va havoni chiqindilar bilan ifloslash tabiatga salbiy ta’sir qiladi.",
+      "answer": "Ortiqcha ovlash va o‘rmonni haddan ziyod kesish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f3": {
+      "claim": "Darslik Orol dengizining qurishini dehqonchilik va sug‘orish uchun suvdan ko‘p foydalanish bilan bog‘laydi.",
+      "answer": "Sug‘orish uchun suvdan ko‘p foydalanish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f4": {
+      "claim": "Yoqilg‘idan ko‘p foydalanish atmosferadagi karbonat angidridni oshirib, isish jarayoniga hissa qo‘shadi.",
+      "answer": "Karbonat angidrid",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f5": {
+      "claim": "Ozon qatlamining yemirilishi zararli nurlarning Yer yuzasiga ko‘proq yetib kelishiga sabab bo‘ladi.",
+      "answer": "Zararli nurlarning ko‘proq yetib kelishiga",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f6": {
+      "claim": "Tabiatdan noto‘g‘ri foydalanish ekologik muvozanatni buzadi; biologik bilimlar insonning salbiy ta’sirini kamaytirishga yordam beradi.",
+      "answer": "Biologik bilimga tayangan holda tabiatdan oqilona foydalanish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Insonning ijobiy ta’siri",
+      "body": "Insonning yangi o‘simlik navlari va hayvon zotlarini yaratishi tabiatga ijobiy ta’sir misollari sifatida keltirilgan.",
+      "fact_ids": [
+        "paragraph-17-f1"
+      ]
+    },
+    {
+      "title": "Salbiy ta’sirni tanish",
+      "body": "Hayvonlarni ortiqcha ovlash, o‘rmonlarni haddan ziyod kesish va havoni chiqindilar bilan ifloslash tabiatga salbiy ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-17-f2"
+      ]
+    },
+    {
+      "title": "Orol muammosi",
+      "body": "Darslik Orol dengizining qurishini dehqonchilik va sug‘orish uchun suvdan ko‘p foydalanish bilan bog‘laydi.",
+      "fact_ids": [
+        "paragraph-17-f3"
+      ]
+    },
+    {
+      "title": "Atmosferadagi o‘zgarishlar",
+      "body": "Yoqilg‘idan ko‘p foydalanish atmosferadagi karbonat angidridni oshirib, isish jarayoniga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-17-f4"
+      ]
+    },
+    {
+      "title": "Ozonning himoyasi",
+      "body": "Ozon qatlamining yemirilishi zararli nurlarning Yer yuzasiga ko‘proq yetib kelishiga sabab bo‘ladi.",
+      "fact_ids": [
+        "paragraph-17-f5"
+      ]
+    },
+    {
+      "title": "Bilim va muvozanat",
+      "body": "Tabiatdan noto‘g‘ri foydalanish ekologik muvozanatni buzadi; biologik bilimlar insonning salbiy ta’sirini kamaytirishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-17-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-17-q1",
+      "fact_id": "paragraph-17-f1",
+      "question_text": "Qaysi faoliyat darslikda ijobiy ta’sir deb ko‘rsatilgan?",
+      "options": [
+        "Yovvoyi hayvonlarni qirib yuborish",
+        "Havoni chiqindi bilan ifloslash",
+        "Yangi o‘simlik navlarini yaratish",
+        "Me’yoridan ortiq daraxt kesish"
+      ],
+      "correct_answer": "Yangi o‘simlik navlarini yaratish",
+      "explanation": "Insonning yangi o‘simlik navlari va hayvon zotlarini yaratishi tabiatga ijobiy ta’sir misollari sifatida keltirilgan."
+    },
+    {
+      "key": "paragraph-17-q2",
+      "fact_id": "paragraph-17-f2",
+      "question_text": "Qaysi juftlik tabiatga salbiy ta’sir ko‘rsatadi?",
+      "options": [
+        "Hududni tozalash va daraxtni saqlash",
+        "Ortiqcha ovlash va o‘rmonni haddan ziyod kesish",
+        "Ko‘chat parvarishi va tabiatni o‘rganish",
+        "Yangi nav yaratish va kuzatuv yuritish"
+      ],
+      "correct_answer": "Ortiqcha ovlash va o‘rmonni haddan ziyod kesish",
+      "explanation": "Hayvonlarni ortiqcha ovlash, o‘rmonlarni haddan ziyod kesish va havoni chiqindilar bilan ifloslash tabiatga salbiy ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-17-q3",
+      "fact_id": "paragraph-17-f3",
+      "question_text": "Darslikda Orol dengizi qurishi qaysi faoliyat bilan bog‘langan?",
+      "options": [
+        "Sug‘orish uchun suvdan ko‘p foydalanish",
+        "Qushlar patining almashishi",
+        "Yo‘sin sporalarining tarqalishi",
+        "Asalarilarning gul changlatishi"
+      ],
+      "correct_answer": "Sug‘orish uchun suvdan ko‘p foydalanish",
+      "explanation": "Darslik Orol dengizining qurishini dehqonchilik va sug‘orish uchun suvdan ko‘p foydalanish bilan bog‘laydi."
+    },
+    {
+      "key": "paragraph-17-q4",
+      "fact_id": "paragraph-17-f4",
+      "question_text": "Yoqilg‘idan ko‘p foydalanish qaysi gazning ko‘payishi bilan bog‘langan?",
+      "options": [
+        "Faqat kislorod",
+        "Faqat geliy",
+        "Faqat vodorod",
+        "Karbonat angidrid"
+      ],
+      "correct_answer": "Karbonat angidrid",
+      "explanation": "Yoqilg‘idan ko‘p foydalanish atmosferadagi karbonat angidridni oshirib, isish jarayoniga hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-17-q5",
+      "fact_id": "paragraph-17-f5",
+      "question_text": "Ozon qatlamining zararlanishi qanday oqibatga olib keladi?",
+      "options": [
+        "Suvning butunlay tosh bo‘lishiga",
+        "Fotosintezning hech qachon bo‘lmaganiga",
+        "Zararli nurlarning ko‘proq yetib kelishiga",
+        "Barcha hayvonlarning o‘simlikka aylanishiga"
+      ],
+      "correct_answer": "Zararli nurlarning ko‘proq yetib kelishiga",
+      "explanation": "Ozon qatlamining yemirilishi zararli nurlarning Yer yuzasiga ko‘proq yetib kelishiga sabab bo‘ladi."
+    },
+    {
+      "key": "paragraph-17-q6",
+      "fact_id": "paragraph-17-f6",
+      "question_text": "Ekologik muvozanatni asrash uchun qaysi yondashuv mos?",
+      "options": [
+        "Chiqindini suvga tashlash",
+        "Biologik bilimga tayangan holda tabiatdan oqilona foydalanish",
+        "Har qanday hayvonni cheksiz ovlash",
+        "O‘rmonlarni to‘liq kesish"
+      ],
+      "correct_answer": "Biologik bilimga tayangan holda tabiatdan oqilona foydalanish",
+      "explanation": "Tabiatdan noto‘g‘ri foydalanish ekologik muvozanatni buzadi; biologik bilimlar insonning salbiy ta’sirini kamaytirishga yordam beradi."
+    }
+  ]
+}

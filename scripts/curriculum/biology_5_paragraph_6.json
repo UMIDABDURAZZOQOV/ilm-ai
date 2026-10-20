@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-6-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-8",
+  "title": "Bakteriyalar dunyosi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-6-f1": {
+      "claim": "Bakteriyalar shakliga ko‘ra sharsimon kokk, tayoqchasimon batsilla va buralgan shakllarga ajratiladi; ularda shakllangan yadro yo‘q.",
+      "answer": "Kokk",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f2": {
+      "claim": "Qulay sharoitda bakteriyalar bo‘linib ko‘payadi; noqulay sharoitda spora holati saqlanishga yordam beradi.",
+      "answer": "Saqlanib qolishga yordam berish",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f3": {
+      "claim": "Tugunak bakteriyalar dukkakdoshlar ildizida yashab azotni o‘zlashtiradi, o‘simlik esa ularni oziq bilan ta’minlaydi.",
+      "answer": "Har ikki organizmga",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f4": {
+      "claim": "Chirituvchi bakteriyalar organik qoldiqlarni parchalashda qatnashadi, lekin oziq-ovqatning buzilishiga ham sabab bo‘lishi mumkin.",
+      "answer": "O‘lik qoldiqlarni parchalash",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f5": {
+      "claim": "Ba’zi parazit bakteriyalar kasallik keltirib chiqaradi. Gigiyena, jumladan ovqatdan oldin qo‘lni sovunlab yuvish muhim.",
+      "answer": "Qo‘lni sovunlab yuvish",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f6": {
+      "claim": "Yuqumli kasallikning yoppasiga tarqalishi epidemiya deyiladi; darslik uning oldini olish choralarini tushuntiradi.",
+      "answer": "Epidemiya",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Shakl va hujayra",
+      "body": "Bakteriyalar shakliga ko‘ra sharsimon kokk, tayoqchasimon batsilla va buralgan shakllarga ajratiladi; ularda shakllangan yadro yo‘q.\n\nQulay sharoitda bakteriyalar bo‘linib ko‘payadi; noqulay sharoitda spora holati saqlanishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-6-f1",
+        "paragraph-6-f2"
+      ]
+    },
+    {
+      "title": "Hamkorlik va parchalanish",
+      "body": "Tugunak bakteriyalar dukkakdoshlar ildizida yashab azotni o‘zlashtiradi, o‘simlik esa ularni oziq bilan ta’minlaydi.\n\nChirituvchi bakteriyalar organik qoldiqlarni parchalashda qatnashadi, lekin oziq-ovqatning buzilishiga ham sabab bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-6-f3",
+        "paragraph-6-f4"
+      ]
+    },
+    {
+      "title": "Salomatlik bilan bog‘lash",
+      "body": "Ba’zi parazit bakteriyalar kasallik keltirib chiqaradi. Gigiyena, jumladan ovqatdan oldin qo‘lni sovunlab yuvish muhim.\n\nYuqumli kasallikning yoppasiga tarqalishi epidemiya deyiladi; darslik uning oldini olish choralarini tushuntiradi.",
+      "fact_ids": [
+        "paragraph-6-f5",
+        "paragraph-6-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-6-q1",
+      "fact_id": "paragraph-6-f1",
+      "question_text": "Ilmo sharsimon bakteriyani qaysi nom bilan belgilaydi?",
+      "options": [
+        "Spirilla",
+        "Xloroplast",
+        "Kokk",
+        "Batsilla"
+      ],
+      "correct_answer": "Kokk",
+      "explanation": "Bakteriyalar shakliga ko‘ra sharsimon kokk, tayoqchasimon batsilla va buralgan shakllarga ajratiladi; ularda shakllangan yadro yo‘q."
+    },
+    {
+      "key": "paragraph-6-q2",
+      "fact_id": "paragraph-6-f2",
+      "question_text": "Noqulay sharoitda sporaning ahamiyatiga qaysi javob mos?",
+      "options": [
+        "Yashil barg chiqarish",
+        "Saqlanib qolishga yordam berish",
+        "Har doim gul hosil qilish",
+        "Hayvonga aylantirish"
+      ],
+      "correct_answer": "Saqlanib qolishga yordam berish",
+      "explanation": "Qulay sharoitda bakteriyalar bo‘linib ko‘payadi; noqulay sharoitda spora holati saqlanishga yordam beradi."
+    },
+    {
+      "key": "paragraph-6-q3",
+      "fact_id": "paragraph-6-f3",
+      "question_text": "Dukkakdosh va tugunak bakteriyasi hamkorligi kimga foydali?",
+      "options": [
+        "Har ikki organizmga",
+        "Faqat bakteriyaga zararli",
+        "Faqat o‘simlikka zararli",
+        "Ikkalasiga ham doim zararli"
+      ],
+      "correct_answer": "Har ikki organizmga",
+      "explanation": "Tugunak bakteriyalar dukkakdoshlar ildizida yashab azotni o‘zlashtiradi, o‘simlik esa ularni oziq bilan ta’minlaydi."
+    },
+    {
+      "key": "paragraph-6-q4",
+      "fact_id": "paragraph-6-f4",
+      "question_text": "Chirituvchi bakteriyalarning tabiatdagi foydasi qaysi?",
+      "options": [
+        "Barcha o‘simliklarni changlatish",
+        "Har doim fotosintez qilish",
+        "Barcha viruslarni gulga aylantirish",
+        "O‘lik qoldiqlarni parchalash"
+      ],
+      "correct_answer": "O‘lik qoldiqlarni parchalash",
+      "explanation": "Chirituvchi bakteriyalar organik qoldiqlarni parchalashda qatnashadi, lekin oziq-ovqatning buzilishiga ham sabab bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-6-q5",
+      "fact_id": "paragraph-6-f5",
+      "question_text": "Ilmo ovqatlanishdan oldin qaysi odatni tanlaydi?",
+      "options": [
+        "Boshqaning sochig‘ini doim ishlatish",
+        "Buzilgan ovqatni tatib ko‘rish",
+        "Qo‘lni sovunlab yuvish",
+        "Kir qo‘l bilan ovqatlanish"
+      ],
+      "correct_answer": "Qo‘lni sovunlab yuvish",
+      "explanation": "Ba’zi parazit bakteriyalar kasallik keltirib chiqaradi. Gigiyena, jumladan ovqatdan oldin qo‘lni sovunlab yuvish muhim."
+    },
+    {
+      "key": "paragraph-6-q6",
+      "fact_id": "paragraph-6-f6",
+      "question_text": "Kasallikning yoppasiga tarqalishi qaysi atama bilan ifodalanadi?",
+      "options": [
+        "Gullash",
+        "Epidemiya",
+        "Fotosintez",
+        "Kurtaklanish"
+      ],
+      "correct_answer": "Epidemiya",
+      "explanation": "Yuqumli kasallikning yoppasiga tarqalishi epidemiya deyiladi; darslik uning oldini olish choralarini tushuntiradi."
+    }
+  ]
+}

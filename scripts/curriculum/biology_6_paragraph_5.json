@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-5-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-7",
+  "title": "Hujayralarning hayotiy faoliyati",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-5-f1": {
+      "claim": "Elodeya barglari shaffof bo‘lgani uchun ularning tirik hujayralarini suv tomchisida mikroskop bilan kuzatish mumkin.",
+      "answer": "Bargi shaffof va suv tomchisida tirik saqlanadi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f2": {
+      "claim": "Elodeya hujayralarida sitoplazmaning uzluksiz harakati kuzatiladi; hujayraga tashqaridan suv va unda erigan moddalar kiradi.",
+      "answer": "Sitoplazma harakati",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f3": {
+      "claim": "Yosh hujayralar dastlab kichik bo‘lib, o‘sish davomida kattalashadi.",
+      "answer": "Hajmi kattalashadi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f4": {
+      "claim": "Darslikdagi bo‘linish tavsifida avval yadro bo‘linadi, keyin sitoplazmada to‘siq hosil bo‘lib, ona hujayradan ikkita yosh hujayra ajraladi.",
+      "answer": "Yadro bo‘linishi → sitoplazmada to‘siq → ikki hujayra",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f5": {
+      "claim": "O‘simlikning o‘sishi hujayralarning bo‘linib ko‘payishi va kattalashishi hisobiga yuz beradi.",
+      "answer": "Hujayralarning bo‘linishi va o‘sishi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tirik hujayrani kuzatish",
+      "body": "Elodeya barglari shaffof bo‘lgani uchun ularning tirik hujayralarini suv tomchisida mikroskop bilan kuzatish mumkin.",
+      "fact_ids": [
+        "paragraph-5-f1"
+      ]
+    },
+    {
+      "title": "Hujayradagi harakat",
+      "body": "Elodeya hujayralarida sitoplazmaning uzluksiz harakati kuzatiladi; hujayraga tashqaridan suv va unda erigan moddalar kiradi.",
+      "fact_ids": [
+        "paragraph-5-f2"
+      ]
+    },
+    {
+      "title": "O‘sish belgisi",
+      "body": "Yosh hujayralar dastlab kichik bo‘lib, o‘sish davomida kattalashadi.",
+      "fact_ids": [
+        "paragraph-5-f3"
+      ]
+    },
+    {
+      "title": "Bo‘linish ketma-ketligi",
+      "body": "Darslikdagi bo‘linish tavsifida avval yadro bo‘linadi, keyin sitoplazmada to‘siq hosil bo‘lib, ona hujayradan ikkita yosh hujayra ajraladi.",
+      "fact_ids": [
+        "paragraph-5-f4"
+      ]
+    },
+    {
+      "title": "Organizmning o‘sishi",
+      "body": "O‘simlikning o‘sishi hujayralarning bo‘linib ko‘payishi va kattalashishi hisobiga yuz beradi.",
+      "fact_ids": [
+        "paragraph-5-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-5-q1",
+      "fact_id": "paragraph-5-f1",
+      "question_text": "Sitoplazma harakatini kuzatishga nima uchun elodeya bargi qulay?",
+      "options": [
+        "Hujayralari faqat quruq holatda yashaydi",
+        "Bargi shaffof va suv tomchisida tirik saqlanadi",
+        "Bargi qalin yog‘och bilan qoplangan",
+        "Bargi tirik hujayralardan tuzilmagan"
+      ],
+      "correct_answer": "Bargi shaffof va suv tomchisida tirik saqlanadi",
+      "explanation": "Elodeya barglari shaffof bo‘lgani uchun ularning tirik hujayralarini suv tomchisida mikroskop bilan kuzatish mumkin."
+    },
+    {
+      "key": "paragraph-5-q2",
+      "fact_id": "paragraph-5-f2",
+      "question_text": "Mikroskopda elodeya hujayrasidagi qaysi harakat kuzatiladi?",
+      "options": [
+        "Sitoplazma harakati",
+        "Ildiz tukchasining o‘sishi",
+        "Yadrodan tashqaridagi gul changi harakati",
+        "Poyaning yo‘g‘onlashishi"
+      ],
+      "correct_answer": "Sitoplazma harakati",
+      "explanation": "Elodeya hujayralarida sitoplazmaning uzluksiz harakati kuzatiladi; hujayraga tashqaridan suv va unda erigan moddalar kiradi."
+    },
+    {
+      "key": "paragraph-5-q3",
+      "fact_id": "paragraph-5-f3",
+      "question_text": "Yosh hujayra o‘sayotganda qaysi o‘zgarish kuzatiladi?",
+      "options": [
+        "Hajmi o‘zgarmay qoladi",
+        "Yadrosi darhol yo‘qoladi",
+        "Qobig‘i butunlay eriydi",
+        "Hajmi kattalashadi"
+      ],
+      "correct_answer": "Hajmi kattalashadi",
+      "explanation": "Yosh hujayralar dastlab kichik bo‘lib, o‘sish davomida kattalashadi."
+    },
+    {
+      "key": "paragraph-5-q4",
+      "fact_id": "paragraph-5-f4",
+      "question_text": "Ona hujayradan ikki yosh hujayra hosil bo‘lishida qaysi tartib berilgan?",
+      "options": [
+        "Yadro yo‘qolishi → qobiq erishi → bitta hujayra",
+        "Faqat qobiqning qalinlashishi → o‘zgarmagan bitta hujayra",
+        "Yadro bo‘linishi → sitoplazmada to‘siq → ikki hujayra",
+        "Ikki hujayra qo‘shilishi → bitta yadro → to‘siq yo‘qolishi"
+      ],
+      "correct_answer": "Yadro bo‘linishi → sitoplazmada to‘siq → ikki hujayra",
+      "explanation": "Darslikdagi bo‘linish tavsifida avval yadro bo‘linadi, keyin sitoplazmada to‘siq hosil bo‘lib, ona hujayradan ikkita yosh hujayra ajraladi."
+    },
+    {
+      "key": "paragraph-5-q5",
+      "fact_id": "paragraph-5-f5",
+      "question_text": "Niholning o‘sishiga qaysi ikki jarayon asos bo‘ladi?",
+      "options": [
+        "Faqat vakuolning yo‘qolishi",
+        "Hujayralarning bo‘linishi va o‘sishi",
+        "Faqat hujayra qobig‘ining rang o‘zgartirishi",
+        "Hujayralar sonining o‘zgarmay qolishi"
+      ],
+      "correct_answer": "Hujayralarning bo‘linishi va o‘sishi",
+      "explanation": "O‘simlikning o‘sishi hujayralarning bo‘linib ko‘payishi va kattalashishi hisobiga yuz beradi."
+    }
+  ]
+}

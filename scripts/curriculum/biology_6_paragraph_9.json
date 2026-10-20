@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-paragraph-9-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-topic-12",
+  "title": "Shakli o‘zgargan ildizlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-9-f1": {
+      "claim": "Ildizlar bajaradigan vazifasiga qarab shaklan o‘zgaradi; bunday ildizlar metamorfozlashgan ildizlar deyiladi.",
+      "answer": "Vazifaga mos shakl o‘zgarishini",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f2": {
+      "claim": "Ildizmevada asosiy ildiz yo‘g‘onlashib zaxira oziq modda to‘playdi. Sabzi, lavlagi va turp misol bo‘ladi.",
+      "answer": "Zaxira oziq modda to‘playdi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f3": {
+      "claim": "Makkajo‘xori va oqjo‘xorida poyadan chiqadigan qo‘shimcha ildizlar o‘simlikni tik tutishga yordam beradi.",
+      "answer": "O‘simlikni tik tutishga yordam berish uchun",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f4": {
+      "claim": "Tropiklarda o‘sadigan ayrim o‘simliklarda havo ildizlari bo‘ladi; ildiz shakllari vazifaga mos xilma-xildir.",
+      "answer": "Tropiklarda",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Vazifa va shakl",
+      "body": "Ildizlar bajaradigan vazifasiga qarab shaklan o‘zgaradi; bunday ildizlar metamorfozlashgan ildizlar deyiladi.",
+      "fact_ids": [
+        "paragraph-9-f1"
+      ]
+    },
+    {
+      "title": "Zaxira ombori",
+      "body": "Ildizmevada asosiy ildiz yo‘g‘onlashib zaxira oziq modda to‘playdi. Sabzi, lavlagi va turp misol bo‘ladi.",
+      "fact_ids": [
+        "paragraph-9-f2"
+      ]
+    },
+    {
+      "title": "Tayanch ildiz",
+      "body": "Makkajo‘xori va oqjo‘xorida poyadan chiqadigan qo‘shimcha ildizlar o‘simlikni tik tutishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-9-f3"
+      ]
+    },
+    {
+      "title": "Havo ildizlari",
+      "body": "Tropiklarda o‘sadigan ayrim o‘simliklarda havo ildizlari bo‘ladi; ildiz shakllari vazifaga mos xilma-xildir.",
+      "fact_ids": [
+        "paragraph-9-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-9-q1",
+      "fact_id": "paragraph-9-f1",
+      "question_text": "Ildiz metamorfozi nimani bildiradi?",
+      "options": [
+        "Faqat ildizning rangi o‘zgarishini",
+        "Vazifaga mos shakl o‘zgarishini",
+        "Faqat ildizning qurishini",
+        "Faqat ildiz uchining bo‘linishini"
+      ],
+      "correct_answer": "Vazifaga mos shakl o‘zgarishini",
+      "explanation": "Ildizlar bajaradigan vazifasiga qarab shaklan o‘zgaradi; bunday ildizlar metamorfozlashgan ildizlar deyiladi."
+    },
+    {
+      "key": "paragraph-9-q2",
+      "fact_id": "paragraph-9-f2",
+      "question_text": "Sabzining yo‘g‘onlashgan ildizi qaysi vazifani bajaradi?",
+      "options": [
+        "Zaxira oziq modda to‘playdi",
+        "Asosan tayanch vazifasini bajaradi",
+        "Faqat suv bug‘latadi",
+        "Gul changi hosil qiladi"
+      ],
+      "correct_answer": "Zaxira oziq modda to‘playdi",
+      "explanation": "Ildizmevada asosiy ildiz yo‘g‘onlashib zaxira oziq modda to‘playdi. Sabzi, lavlagi va turp misol bo‘ladi."
+    },
+    {
+      "key": "paragraph-9-q3",
+      "fact_id": "paragraph-9-f3",
+      "question_text": "Makkajo‘xorining poyadan chiqqan tayanch ildizlari nima uchun kerak?",
+      "options": [
+        "Zaxira oziqni mevada to‘plash uchun",
+        "Gulga rang berish uchun",
+        "Urug‘ni meva ichida saqlash uchun",
+        "O‘simlikni tik tutishga yordam berish uchun"
+      ],
+      "correct_answer": "O‘simlikni tik tutishga yordam berish uchun",
+      "explanation": "Makkajo‘xori va oqjo‘xorida poyadan chiqadigan qo‘shimcha ildizlar o‘simlikni tik tutishga yordam beradi."
+    },
+    {
+      "key": "paragraph-9-q4",
+      "fact_id": "paragraph-9-f4",
+      "question_text": "Darslik havo ildizlarini qayerdagi ayrim o‘simliklarda qayd etadi?",
+      "options": [
+        "Faqat sovuq muzliklarda",
+        "Faqat suv tubidagi suvo‘tlarda",
+        "Tropiklarda",
+        "Faqat cho‘l qumida"
+      ],
+      "correct_answer": "Tropiklarda",
+      "explanation": "Tropiklarda o‘sadigan ayrim o‘simliklarda havo ildizlari bo‘ladi; ildiz shakllari vazifaga mos xilma-xildir."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-11-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-13",
+  "title": "O‘zbekistonda keng tarqalgan dorivor va zaharli o‘simliklar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-11-f1": {
+      "claim": "Yalpiz ildizpoyali ko‘p yillik o‘simlik bo‘lib, barg va poyasining xushbo‘y hidi undagi mentol hamda efir moylari bilan bog‘liq.",
+      "answer": "Mentol va efir moylari",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f2": {
+      "claim": "Na’matak atirgulning yovvoyi turi; isiriq esa dasht va vodiylarda o‘sadigan ko‘p yillik o‘simlikdir.",
+      "answer": "Na’matak",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f3": {
+      "claim": "Shirinmiya ildizpoyali ko‘p yillik o‘t; aloe esa seret, sersuv bargli xona o‘simligi sifatida o‘stiriladi.",
+      "answer": "Aloega",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f4": {
+      "claim": "Kanakunjut urug‘ida zaharli moddalar bor. Uning manzarali o‘simlik ekanligi urug‘ini yeyish mumkinligini anglatmaydi.",
+      "answer": "Urug‘ida zaharli moddalar bor",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          57
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f5": {
+      "claim": "Bangidevonaning guli yirik, oq va voronkasimon, mevasi tikanli ko‘sakdir; o‘simlikning barcha qismlari zaharli.",
+      "answer": "Bangidevonani",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          57
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f6": {
+      "claim": "Notanish o‘simlikni ushlash yoki tatib ko‘rish mumkin emas. Dorivor o‘simliklardan foydalanishda mutaxassis tavsiyasi va me’yor zarur.",
+      "answer": "Tatib ko‘rmasdan, kattalar yordamida tanish",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f7": {
+      "claim": "Zaharli ayiqtovon bilan zaharlanish holatida darslik darhol shifokorga murojaat qilish kerakligini ta’kidlaydi.",
+      "answer": "Darhol shifokorga murojaat qilinadi",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yalpizni tanish",
+      "body": "Yalpiz ildizpoyali ko‘p yillik o‘simlik bo‘lib, barg va poyasining xushbo‘y hidi undagi mentol hamda efir moylari bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-11-f1"
+      ]
+    },
+    {
+      "title": "Na’matak va isiriq",
+      "body": "Na’matak atirgulning yovvoyi turi; isiriq esa dasht va vodiylarda o‘sadigan ko‘p yillik o‘simlikdir.",
+      "fact_ids": [
+        "paragraph-11-f2"
+      ]
+    },
+    {
+      "title": "Shirinmiya va aloe",
+      "body": "Shirinmiya ildizpoyali ko‘p yillik o‘t; aloe esa seret, sersuv bargli xona o‘simligi sifatida o‘stiriladi.",
+      "fact_ids": [
+        "paragraph-11-f3"
+      ]
+    },
+    {
+      "title": "Chiroyli ko‘rinish xavfsizlik belgisi emas",
+      "body": "Kanakunjut urug‘ida zaharli moddalar bor. Uning manzarali o‘simlik ekanligi urug‘ini yeyish mumkinligini anglatmaydi.",
+      "fact_ids": [
+        "paragraph-11-f4"
+      ]
+    },
+    {
+      "title": "Zaharli o‘simlikni tanish",
+      "body": "Bangidevonaning guli yirik, oq va voronkasimon, mevasi tikanli ko‘sakdir; o‘simlikning barcha qismlari zaharli.",
+      "fact_ids": [
+        "paragraph-11-f5"
+      ]
+    },
+    {
+      "title": "Tabiatda ehtiyotkorlik",
+      "body": "Notanish o‘simlikni ushlash yoki tatib ko‘rish mumkin emas. Dorivor o‘simliklardan foydalanishda mutaxassis tavsiyasi va me’yor zarur.",
+      "fact_ids": [
+        "paragraph-11-f6"
+      ]
+    },
+    {
+      "title": "Zaharlanishda yordam",
+      "body": "Zaharli ayiqtovon bilan zaharlanish holatida darslik darhol shifokorga murojaat qilish kerakligini ta’kidlaydi.",
+      "fact_ids": [
+        "paragraph-11-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-11-q1",
+      "fact_id": "paragraph-11-f1",
+      "question_text": "Yalpizning xushbo‘y hidiga qaysi moddalar sabab bo‘ladi?",
+      "options": [
+        "Faqat qum",
+        "Faqat kraxmalli tosh",
+        "Mentol va efir moylari",
+        "Faqat osh tuzi"
+      ],
+      "correct_answer": "Mentol va efir moylari",
+      "explanation": "Yalpiz ildizpoyali ko‘p yillik o‘simlik bo‘lib, barg va poyasining xushbo‘y hidi undagi mentol hamda efir moylari bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-11-q2",
+      "fact_id": "paragraph-11-f2",
+      "question_text": "Atirgulning yovvoyi turi qaysi o‘simlik?",
+      "options": [
+        "Laminariya",
+        "Na’matak",
+        "Qarag‘ay",
+        "Bug‘doy"
+      ],
+      "correct_answer": "Na’matak",
+      "explanation": "Na’matak atirgulning yovvoyi turi; isiriq esa dasht va vodiylarda o‘sadigan ko‘p yillik o‘simlikdir."
+    },
+    {
+      "key": "paragraph-11-q3",
+      "fact_id": "paragraph-11-f3",
+      "question_text": "Seret va sersuv barglar qaysi o‘simlikka mos keladi?",
+      "options": [
+        "Aloega",
+        "Qirqbo‘g‘imga",
+        "Qarag‘ayga",
+        "Xlorellaga"
+      ],
+      "correct_answer": "Aloega",
+      "explanation": "Shirinmiya ildizpoyali ko‘p yillik o‘t; aloe esa seret, sersuv bargli xona o‘simligi sifatida o‘stiriladi."
+    },
+    {
+      "key": "paragraph-11-q4",
+      "fact_id": "paragraph-11-f4",
+      "question_text": "Ilmo kanakunjut urug‘ini manzarali o‘simlikniki deb tatib ko‘rmoqchi. Nima uchun bu noto‘g‘ri?",
+      "options": [
+        "Har qanday manzarali o‘simlik ovqat bo‘ladi",
+        "Urug‘lar tirik emas",
+        "Faqat barglar rangli bo‘lgani uchun",
+        "Urug‘ida zaharli moddalar bor"
+      ],
+      "correct_answer": "Urug‘ida zaharli moddalar bor",
+      "explanation": "Kanakunjut urug‘ida zaharli moddalar bor. Uning manzarali o‘simlik ekanligi urug‘ini yeyish mumkinligini anglatmaydi."
+    },
+    {
+      "key": "paragraph-11-q5",
+      "fact_id": "paragraph-11-f5",
+      "question_text": "Oq voronkasimon gul va tikanli ko‘sak qaysi zaharli o‘simlikni tasvirlaydi?",
+      "options": [
+        "Bug‘doyni",
+        "Xlorellani",
+        "Bangidevonani",
+        "Olmani"
+      ],
+      "correct_answer": "Bangidevonani",
+      "explanation": "Bangidevonaning guli yirik, oq va voronkasimon, mevasi tikanli ko‘sakdir; o‘simlikning barcha qismlari zaharli."
+    },
+    {
+      "key": "paragraph-11-q6",
+      "fact_id": "paragraph-11-f6",
+      "question_text": "Tabiat sayrida notanish o‘simlik uchrasa qaysi yo‘l to‘g‘ri?",
+      "options": [
+        "O‘zboshimchalik bilan dori tayyorlash",
+        "Tatib ko‘rmasdan, kattalar yordamida tanish",
+        "Barchasini ovqatga qo‘shish",
+        "Har birini qo‘lda ezib tekshirish"
+      ],
+      "correct_answer": "Tatib ko‘rmasdan, kattalar yordamida tanish",
+      "explanation": "Notanish o‘simlikni ushlash yoki tatib ko‘rish mumkin emas. Dorivor o‘simliklardan foydalanishda mutaxassis tavsiyasi va me’yor zarur."
+    },
+    {
+      "key": "paragraph-11-q7",
+      "fact_id": "paragraph-11-f7",
+      "question_text": "Zaharli o‘simlikdan zaharlanish gumoni bo‘lsa nima qilinadi?",
+      "options": [
+        "Darhol shifokorga murojaat qilinadi",
+        "Yana shu o‘simlik tatib ko‘riladi",
+        "Alomatlar ataylab yashiriladi",
+        "O‘zboshimchalik bilan yangi o‘simlik aralashmasi ichiladi"
+      ],
+      "correct_answer": "Darhol shifokorga murojaat qilinadi",
+      "explanation": "Zaharli ayiqtovon bilan zaharlanish holatida darslik darhol shifokorga murojaat qilish kerakligini ta’kidlaydi."
+    }
+  ]
+}

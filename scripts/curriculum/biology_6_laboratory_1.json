@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-6-laboratory-1-v1",
+  "language": "uz",
+  "book_id": "biology-6-2017",
+  "topic_id": "bio-6-laboratory-1",
+  "title": "1-laboratoriya. Ildiz turlari va ildizning tuzilishini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-1-f1": {
+      "claim": "Laboratoriya ishida gerbariy va tirik o‘simlik ildizlari o‘rganilib, o‘q va popuk ildiz tizimlari taqqoslanadi hamda rasmi chiziladi.",
+      "answer": "O‘q va popuk ildiz tizimlari",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f2": {
+      "claim": "Laboratoriya rejasida makkajo‘xori, qulupnay va ajriqning qo‘shimcha ildizlarini ko‘rib chiqish ko‘rsatilgan.",
+      "answer": "Makkajo‘xori, qulupnay va ajriq",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f3": {
+      "claim": "Sabzi, lavlagi, rediska, sholg‘om va turp zaxira oziq to‘plovchi ildizmevalar sifatida ko‘rib chiqiladi va chiziladi.",
+      "answer": "Sabzi va lavlagi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Taqqoslash rejasi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya ishida gerbariy va tirik o‘simlik ildizlari o‘rganilib, o‘q va popuk ildiz tizimlari taqqoslanadi hamda rasmi chiziladi.",
+      "fact_ids": [
+        "laboratory-1-f1"
+      ]
+    },
+    {
+      "title": "Qo‘shimcha ildiz namunalari",
+      "body": "Laboratoriya rejasida makkajo‘xori, qulupnay va ajriqning qo‘shimcha ildizlarini ko‘rib chiqish ko‘rsatilgan.",
+      "fact_ids": [
+        "laboratory-1-f2"
+      ]
+    },
+    {
+      "title": "Ildizmeva namunalari",
+      "body": "Sabzi, lavlagi, rediska, sholg‘om va turp zaxira oziq to‘plovchi ildizmevalar sifatida ko‘rib chiqiladi va chiziladi.",
+      "fact_ids": [
+        "laboratory-1-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-1-q1",
+      "fact_id": "laboratory-1-f1",
+      "question_text": "Birinchi kuzatuvda nimalar taqqoslanadi?",
+      "options": [
+        "Faqat meva ta’mi",
+        "O‘q va popuk ildiz tizimlari",
+        "Faqat gul ranglari",
+        "Faqat qush patlari"
+      ],
+      "correct_answer": "O‘q va popuk ildiz tizimlari",
+      "explanation": "Laboratoriya ishida gerbariy va tirik o‘simlik ildizlari o‘rganilib, o‘q va popuk ildiz tizimlari taqqoslanadi hamda rasmi chiziladi."
+    },
+    {
+      "key": "laboratory-1-q2",
+      "fact_id": "laboratory-1-f2",
+      "question_text": "Qo‘shimcha ildizlarni o‘rganish uchun qaysi namunalar berilgan?",
+      "options": [
+        "Makkajo‘xori, qulupnay va ajriq",
+        "Faqat olma mevasi va yong‘oq danagi",
+        "Faqat qush va baliq",
+        "Faqat porfira va xlorella"
+      ],
+      "correct_answer": "Makkajo‘xori, qulupnay va ajriq",
+      "explanation": "Laboratoriya rejasida makkajo‘xori, qulupnay va ajriqning qo‘shimcha ildizlarini ko‘rib chiqish ko‘rsatilgan."
+    },
+    {
+      "key": "laboratory-1-q3",
+      "fact_id": "laboratory-1-f3",
+      "question_text": "Ildizmevalarni tekshirishga qaysi juft namuna mos?",
+      "options": [
+        "Qarag‘ay qubbasi va olma guli",
+        "Qush pati va baliq tangachasi",
+        "Faqat quruq tosh va qum",
+        "Sabzi va lavlagi"
+      ],
+      "correct_answer": "Sabzi va lavlagi",
+      "explanation": "Sabzi, lavlagi, rediska, sholg‘om va turp zaxira oziq to‘plovchi ildizmevalar sifatida ko‘rib chiqiladi va chiziladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Ildiz turlari va ildizning tuzilishini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Taqqoslash rejasi",
+        "fact_ids": [
+          "laboratory-1-f1"
+        ]
+      },
+      {
+        "instruction": "Qo‘shimcha ildiz namunalari",
+        "fact_ids": [
+          "laboratory-1-f2"
+        ]
+      },
+      {
+        "instruction": "Ildizmeva namunalari",
+        "fact_ids": [
+          "laboratory-1-f3"
+        ]
+      }
+    ]
+  }
+}

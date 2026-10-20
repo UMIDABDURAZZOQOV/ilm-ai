@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-laboratory-2-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-laboratory-2",
+  "title": "2-laboratoriya. Lupa va mikroskop tuzilishi bilan tanishish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-2-f1": {
+      "claim": "Lupa sodda kattalashtiruvchi asbob; mikroskop kichik obyektlarni kattalashtirib kuzatishga xizmat qiladi.",
+      "answer": "Lupa",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f2": {
+      "claim": "Mikroskopning umumiy kattalashtirishi okulyar va obyektiv kattalashtirishlari ko‘paytmasidir. Kitobdagi 10×20 misoli 200 martani beradi.",
+      "answer": "200 marta",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f3": {
+      "claim": "Okulyar mikroskopning yuqori qismida; preparat buyum stolchasiga joylashtiriladi.",
+      "answer": "Buyum stolchasiga",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f4": {
+      "claim": "Preparat avval kichik obyektivda, keyin katta obyektivda kuzatiladi. Tasvir tiniqligi mikrovint bilan sozlanadi.",
+      "answer": "Avval kichik, keyin katta",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kattalashtiruvchi asbobni tanish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLupa sodda kattalashtiruvchi asbob; mikroskop kichik obyektlarni kattalashtirib kuzatishga xizmat qiladi.",
+      "fact_ids": [
+        "laboratory-2-f1"
+      ]
+    },
+    {
+      "title": "Kattalashtirishni hisoblash",
+      "body": "Mikroskopning umumiy kattalashtirishi okulyar va obyektiv kattalashtirishlari ko‘paytmasidir. Kitobdagi 10×20 misoli 200 martani beradi.",
+      "fact_ids": [
+        "laboratory-2-f2"
+      ]
+    },
+    {
+      "title": "Asbob qismlarini topish",
+      "body": "Okulyar mikroskopning yuqori qismida; preparat buyum stolchasiga joylashtiriladi.",
+      "fact_ids": [
+        "laboratory-2-f3"
+      ]
+    },
+    {
+      "title": "Kuzatish tartibini tanlash",
+      "body": "Preparat avval kichik obyektivda, keyin katta obyektivda kuzatiladi. Tasvir tiniqligi mikrovint bilan sozlanadi.",
+      "fact_ids": [
+        "laboratory-2-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-2-q1",
+      "fact_id": "laboratory-2-f1",
+      "question_text": "Oddiy kattalashtiruvchi asbobni toping.",
+      "options": [
+        "Pipetka",
+        "Probirka",
+        "Lupa",
+        "Pinset"
+      ],
+      "correct_answer": "Lupa",
+      "explanation": "Lupa sodda kattalashtiruvchi asbob; mikroskop kichik obyektlarni kattalashtirib kuzatishga xizmat qiladi."
+    },
+    {
+      "key": "laboratory-2-q2",
+      "fact_id": "laboratory-2-f2",
+      "question_text": "Okulyar 10, obyektiv 20 bo‘lsa, umumiy kattalashtirish qancha?",
+      "options": [
+        "20 marta",
+        "200 marta",
+        "30 marta",
+        "10 marta"
+      ],
+      "correct_answer": "200 marta",
+      "explanation": "Mikroskopning umumiy kattalashtirishi okulyar va obyektiv kattalashtirishlari ko‘paytmasidir. Kitobdagi 10×20 misoli 200 martani beradi."
+    },
+    {
+      "key": "laboratory-2-q3",
+      "fact_id": "laboratory-2-f3",
+      "question_text": "Kuzatiladigan tayyor preparat qayerga qo‘yiladi?",
+      "options": [
+        "Buyum stolchasiga",
+        "Okulyar ichiga",
+        "Ko‘zgu ostiga",
+        "Shtativ tagiga"
+      ],
+      "correct_answer": "Buyum stolchasiga",
+      "explanation": "Okulyar mikroskopning yuqori qismida; preparat buyum stolchasiga joylashtiriladi."
+    },
+    {
+      "key": "laboratory-2-q4",
+      "fact_id": "laboratory-2-f4",
+      "question_text": "Ikki obyektivdan qaysi tartibda foydalaniladi?",
+      "options": [
+        "Avval katta, keyin kichik",
+        "Ikkalasini ham olib tashlab",
+        "Faqat ko‘zgu bilan",
+        "Avval kichik, keyin katta"
+      ],
+      "correct_answer": "Avval kichik, keyin katta",
+      "explanation": "Preparat avval kichik obyektivda, keyin katta obyektivda kuzatiladi. Tasvir tiniqligi mikrovint bilan sozlanadi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Lupa va mikroskop tuzilishi bilan tanishish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kattalashtiruvchi asbobni tanish",
+        "fact_ids": [
+          "laboratory-2-f1"
+        ]
+      },
+      {
+        "instruction": "Kattalashtirishni hisoblash",
+        "fact_ids": [
+          "laboratory-2-f2"
+        ]
+      },
+      {
+        "instruction": "Asbob qismlarini topish",
+        "fact_ids": [
+          "laboratory-2-f3"
+        ]
+      },
+      {
+        "instruction": "Kuzatish tartibini tanlash",
+        "fact_ids": [
+          "laboratory-2-f4"
+        ]
+      }
+    ]
+  }
+}

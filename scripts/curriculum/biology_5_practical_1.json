@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-practical-1-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-practical-1",
+  "title": "1-amaliy mashg‘ulot. Sutdan qatiq tayyorlash",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "practical-1-f1": {
+      "claim": "Darslikdagi qatiq tayyorlash rejasida iliq sutga qatiq qo‘shish va idishni o‘rash ko‘rsatiladi.",
+      "answer": "Iliq sutga qatiq qo‘shish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-1-f2": {
+      "claim": "Darslikda qatiq ivigach, uni muzlatkichga qo‘yish bosqichi berilgan.",
+      "answer": "Muzlatkichga qo‘yish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "practical-1-f3": {
+      "claim": "Mashg‘ulot oxirida qaysi bakteriyalardan foydalanilgani va iliq sutning ahamiyati haqida xulosa qilish so‘raladi.",
+      "answer": "Jarayonda qaysi bakteriyalar qatnashgan?",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          30
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ish tartibini tahlil qilish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nDarslikdagi qatiq tayyorlash rejasida iliq sutga qatiq qo‘shish va idishni o‘rash ko‘rsatiladi.",
+      "fact_ids": [
+        "practical-1-f1"
+      ]
+    },
+    {
+      "title": "Saqlash bosqichini tanlash",
+      "body": "Darslikda qatiq ivigach, uni muzlatkichga qo‘yish bosqichi berilgan.",
+      "fact_ids": [
+        "practical-1-f2"
+      ]
+    },
+    {
+      "title": "Reja va xulosani bog‘lash",
+      "body": "Mashg‘ulot oxirida qaysi bakteriyalardan foydalanilgani va iliq sutning ahamiyati haqida xulosa qilish so‘raladi.",
+      "fact_ids": [
+        "practical-1-f3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "practical-1-q1",
+      "fact_id": "practical-1-f1",
+      "question_text": "Ilmo reja kartalarini tartiblayapti. Idishni o‘rashdan oldin nima ko‘rsatilgan?",
+      "options": [
+        "Idishni bo‘sh qoldirish",
+        "Mog‘or qo‘shish",
+        "Iliq sutga qatiq qo‘shish",
+        "Tayyor qatiqni muzlatkichdan olish"
+      ],
+      "correct_answer": "Iliq sutga qatiq qo‘shish",
+      "explanation": "Darslikdagi qatiq tayyorlash rejasida iliq sutga qatiq qo‘shish va idishni o‘rash ko‘rsatiladi."
+    },
+    {
+      "key": "practical-1-q2",
+      "fact_id": "practical-1-f2",
+      "question_text": "Qatiq ivigandan keyingi saqlash bosqichini tanlang.",
+      "options": [
+        "Hamma idishni tashlab yuborish",
+        "Muzlatkichga qo‘yish",
+        "Issiqda cheksiz qoldirish",
+        "Ichiga tuproq solish"
+      ],
+      "correct_answer": "Muzlatkichga qo‘yish",
+      "explanation": "Darslikda qatiq ivigach, uni muzlatkichga qo‘yish bosqichi berilgan."
+    },
+    {
+      "key": "practical-1-q3",
+      "fact_id": "practical-1-f3",
+      "question_text": "Natijani tushuntirishga qaysi savol yordam beradi?",
+      "options": [
+        "Jarayonda qaysi bakteriyalar qatnashgan?",
+        "Idishning nomi nechta harfdan iborat?",
+        "Sochiqning rangi hamma narsani hal qiladimi?",
+        "Daftarning muqovasi qanday?"
+      ],
+      "correct_answer": "Jarayonda qaysi bakteriyalar qatnashgan?",
+      "explanation": "Mashg‘ulot oxirida qaysi bakteriyalardan foydalanilgani va iliq sutning ahamiyati haqida xulosa qilish so‘raladi."
+    }
+  ],
+  "activity": {
+    "kind": "practical",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "Sutdan qatiq tayyorlash: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Ish tartibini tahlil qilish",
+        "fact_ids": [
+          "practical-1-f1"
+        ]
+      },
+      {
+        "instruction": "Saqlash bosqichini tanlash",
+        "fact_ids": [
+          "practical-1-f2"
+        ]
+      },
+      {
+        "instruction": "Reja va xulosani bog‘lash",
+        "fact_ids": [
+          "practical-1-f3"
+        ]
+      }
+    ]
+  }
+}

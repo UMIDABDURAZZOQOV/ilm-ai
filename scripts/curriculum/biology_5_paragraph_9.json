@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "key": "biology-5-paragraph-9-v1",
+  "language": "uz",
+  "book_id": "biology-5-2020",
+  "topic_id": "bio-5-topic-11",
+  "title": "Tuban o‘simliklar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-9-f1": {
+      "claim": "Suvo‘tlarning tanasi ildiz, poya va bargga ajralmagan qattana, ya’ni tallomdir.",
+      "answer": "Qattana yoki tallom",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f2": {
+      "claim": "Xlorella bir hujayrali yashil suvo‘t bo‘lib, kosachasimon xromatoforidagi xlorofill yordamida fotosintez qiladi.",
+      "answer": "Fotosintez",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f3": {
+      "claim": "Xlamidomonadaning qizil ko‘zchasi yorug‘likni sezadi; u xivchinlari yordamida yorug‘lik tomonga harakatlanadi.",
+      "answer": "Xivchinlar",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f4": {
+      "claim": "Ulotriks shoxlanmagan ip shaklidagi ko‘p hujayrali suvo‘t. Uning xromatofori belbog‘simon.",
+      "answer": "Ulotriksga",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f5": {
+      "claim": "Ulotriks jinsiy ko‘payganda gametalar qo‘shilib zigota hosil qiladi; zigota qalin qobiq bilan o‘ralib tinim davrini o‘taydi.",
+      "answer": "Zigota hosil bo‘lishi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f6": {
+      "claim": "Spirogiraning xromatofori spiral shaklida bo‘lib, u chuchuk suvlarda yashaydigan ko‘p hujayrali suvo‘tdir.",
+      "answer": "Spirogirani",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f7": {
+      "claim": "Spirogira ipi bo‘laklarga ajralib, bu bo‘laklardan yangi suvo‘tlar rivojlanishi mumkin.",
+      "answer": "Bo‘laklanib ko‘payishga",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f8": {
+      "claim": "Porfira qizil suvo‘t, laminariya esa qo‘ng‘ir suvo‘tdir. Laminariya dengiz karami nomi bilan ham tanilgan.",
+      "answer": "Laminariyaga",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f9": {
+      "claim": "Suvo‘tlar fotosintezda suvni kislorod bilan boyitadi va suv hayvonlari uchun oziq bo‘ladi.",
+      "answer": "Kislorod va oziq bilan ta’minlash",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suvdagi sodda tuzilish",
+      "body": "Suvo‘tlarning tanasi ildiz, poya va bargga ajralmagan qattana, ya’ni tallomdir.",
+      "fact_ids": [
+        "paragraph-9-f1"
+      ]
+    },
+    {
+      "title": "Bir hujayra — butun organizm",
+      "body": "Xlorella bir hujayrali yashil suvo‘t bo‘lib, kosachasimon xromatoforidagi xlorofill yordamida fotosintez qiladi.",
+      "fact_ids": [
+        "paragraph-9-f2"
+      ]
+    },
+    {
+      "title": "Yorug‘lik tomon",
+      "body": "Xlamidomonadaning qizil ko‘zchasi yorug‘likni sezadi; u xivchinlari yordamida yorug‘lik tomonga harakatlanadi.",
+      "fact_ids": [
+        "paragraph-9-f3"
+      ]
+    },
+    {
+      "title": "Yashil iplarni taqqoslash",
+      "body": "Ulotriks shoxlanmagan ip shaklidagi ko‘p hujayrali suvo‘t. Uning xromatofori belbog‘simon.",
+      "fact_ids": [
+        "paragraph-9-f4"
+      ]
+    },
+    {
+      "title": "Ko‘payish bosqichlari",
+      "body": "Ulotriks jinsiy ko‘payganda gametalar qo‘shilib zigota hosil qiladi; zigota qalin qobiq bilan o‘ralib tinim davrini o‘taydi.",
+      "fact_ids": [
+        "paragraph-9-f5"
+      ]
+    },
+    {
+      "title": "Spiral belgisi",
+      "body": "Spirogiraning xromatofori spiral shaklida bo‘lib, u chuchuk suvlarda yashaydigan ko‘p hujayrali suvo‘tdir.",
+      "fact_ids": [
+        "paragraph-9-f6"
+      ]
+    },
+    {
+      "title": "Bo‘lakdan yangi ip",
+      "body": "Spirogira ipi bo‘laklarga ajralib, bu bo‘laklardan yangi suvo‘tlar rivojlanishi mumkin.",
+      "fact_ids": [
+        "paragraph-9-f7"
+      ]
+    },
+    {
+      "title": "Dengiz suvo‘tlari",
+      "body": "Porfira qizil suvo‘t, laminariya esa qo‘ng‘ir suvo‘tdir. Laminariya dengiz karami nomi bilan ham tanilgan.",
+      "fact_ids": [
+        "paragraph-9-f8"
+      ]
+    },
+    {
+      "title": "Suv hayotidagi o‘rni",
+      "body": "Suvo‘tlar fotosintezda suvni kislorod bilan boyitadi va suv hayvonlari uchun oziq bo‘ladi.",
+      "fact_ids": [
+        "paragraph-9-f9"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-9-q1",
+      "fact_id": "paragraph-9-f1",
+      "question_text": "Suvo‘t tanasi qanday nomlanadi?",
+      "options": [
+        "Gulqo‘rg‘on",
+        "Meva",
+        "Qattana yoki tallom",
+        "Faqat ildiz"
+      ],
+      "correct_answer": "Qattana yoki tallom",
+      "explanation": "Suvo‘tlarning tanasi ildiz, poya va bargga ajralmagan qattana, ya’ni tallomdir."
+    },
+    {
+      "key": "paragraph-9-q2",
+      "fact_id": "paragraph-9-f2",
+      "question_text": "Bir hujayrali yashil xlorellaning oziqlanishini qaysi jarayon ta’minlaydi?",
+      "options": [
+        "Meva hosil qilish",
+        "Fotosintez",
+        "Faqat tayyor go‘sht yeyish",
+        "Ildiz bilan ov qilish"
+      ],
+      "correct_answer": "Fotosintez",
+      "explanation": "Xlorella bir hujayrali yashil suvo‘t bo‘lib, kosachasimon xromatoforidagi xlorofill yordamida fotosintez qiladi."
+    },
+    {
+      "key": "paragraph-9-q3",
+      "fact_id": "paragraph-9-f3",
+      "question_text": "Xlamidomonadada harakatni qaysi tuzilma bajaradi?",
+      "options": [
+        "Xivchinlar",
+        "Haqiqiy ildizlar",
+        "Qanotlar",
+        "Gullar"
+      ],
+      "correct_answer": "Xivchinlar",
+      "explanation": "Xlamidomonadaning qizil ko‘zchasi yorug‘likni sezadi; u xivchinlari yordamida yorug‘lik tomonga harakatlanadi."
+    },
+    {
+      "key": "paragraph-9-q4",
+      "fact_id": "paragraph-9-f4",
+      "question_text": "Belbog‘simon xromatoforli, shoxlanmagan yashil ip qaysi suvo‘tga xos?",
+      "options": [
+        "Xlorellaga",
+        "Qarag‘ayga",
+        "Laminariyaning urug‘iga",
+        "Ulotriksga"
+      ],
+      "correct_answer": "Ulotriksga",
+      "explanation": "Ulotriks shoxlanmagan ip shaklidagi ko‘p hujayrali suvo‘t. Uning xromatofori belbog‘simon."
+    },
+    {
+      "key": "paragraph-9-q5",
+      "fact_id": "paragraph-9-f5",
+      "question_text": "Ulotriks gametalari qo‘shilishidan keyin qaysi bosqich keladi?",
+      "options": [
+        "Urug‘palla chiqishi",
+        "Meva pishishi",
+        "Zigota hosil bo‘lishi",
+        "Gul ochilishi"
+      ],
+      "correct_answer": "Zigota hosil bo‘lishi",
+      "explanation": "Ulotriks jinsiy ko‘payganda gametalar qo‘shilib zigota hosil qiladi; zigota qalin qobiq bilan o‘ralib tinim davrini o‘taydi."
+    },
+    {
+      "key": "paragraph-9-q6",
+      "fact_id": "paragraph-9-f6",
+      "question_text": "Mikroskopda spiral xromatofor ko‘rindi. Bu qaysi suvo‘tni tanishga yordam beradi?",
+      "options": [
+        "Qarag‘ayni",
+        "Spirogirani",
+        "Funariyani",
+        "Qirqquloqni"
+      ],
+      "correct_answer": "Spirogirani",
+      "explanation": "Spirogiraning xromatofori spiral shaklida bo‘lib, u chuchuk suvlarda yashaydigan ko‘p hujayrali suvo‘tdir."
+    },
+    {
+      "key": "paragraph-9-q7",
+      "fact_id": "paragraph-9-f7",
+      "question_text": "Spirogira ipining bo‘lagidan yangi ip rivojlanishi nimaga misol?",
+      "options": [
+        "Bo‘laklanib ko‘payishga",
+        "Mevadan urug‘ tarqalishiga",
+        "Gul changlanishiga",
+        "Qushlarning tuxum qo‘yishiga"
+      ],
+      "correct_answer": "Bo‘laklanib ko‘payishga",
+      "explanation": "Spirogira ipi bo‘laklarga ajralib, bu bo‘laklardan yangi suvo‘tlar rivojlanishi mumkin."
+    },
+    {
+      "key": "paragraph-9-q8",
+      "fact_id": "paragraph-9-f8",
+      "question_text": "Dengiz karami deb qaysi suvo‘tga aytiladi?",
+      "options": [
+        "Ulotriksga",
+        "Xlamidomonadaga",
+        "Spirogiraga",
+        "Laminariyaga"
+      ],
+      "correct_answer": "Laminariyaga",
+      "explanation": "Porfira qizil suvo‘t, laminariya esa qo‘ng‘ir suvo‘tdir. Laminariya dengiz karami nomi bilan ham tanilgan."
+    },
+    {
+      "key": "paragraph-9-q9",
+      "fact_id": "paragraph-9-f9",
+      "question_text": "Suvo‘tlarning suv ekotizimidagi ikki vazifasi qaysi?",
+      "options": [
+        "Faqat gullash va mevalash",
+        "Faqat tuproqni qazish",
+        "Kislorod va oziq bilan ta’minlash",
+        "Faqat suvni muzlatish va tosh yaratish"
+      ],
+      "correct_answer": "Kislorod va oziq bilan ta’minlash",
+      "explanation": "Suvo‘tlar fotosintezda suvni kislorod bilan boyitadi va suv hayvonlari uchun oziq bo‘ladi."
+    }
+  ]
+}

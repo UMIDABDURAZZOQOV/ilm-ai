@@ -8,7 +8,7 @@ from test_release_hardening import setup
 from services.curriculum import citation, import_curriculum, load_documents
 from services.curriculum_validation import (
     CATALOG_PATH,
-    load_lesson_set,
+    load_lesson_set as load_all_lessons,
     readiness_report,
     validate_catalog,
 )
@@ -20,6 +20,10 @@ from services.models import (
     User,
     UserLessonProgress,
 )
+
+
+def load_lesson_set():
+    return load_all_lessons(batch="foundation-19")
 
 
 @pytest.fixture
@@ -231,10 +235,9 @@ def test_readiness_snapshot_counts_only_explicit_reviewed_lessons():
     catalog, _ = load_documents()
     lessons = load_lesson_set()
     report = readiness_report(catalog, lessons)
-    assert (
-        json.loads(CATALOG_PATH.with_name("biology_readiness.json").read_text())
-        == report
-    )
+    assert json.loads(
+        CATALOG_PATH.with_name("biology_readiness.json").read_text()
+    ) == readiness_report(catalog, load_all_lessons())
     assert [(r["grade"], r["ready_lessons"]) for r in report] == [
         (5, 4),
         (6, 3),
@@ -271,7 +274,8 @@ def test_full_batch_dry_run_is_safe_with_a_production_database_url():
         [
             sys.executable,
             str(CATALOG_PATH.parents[1] / "import_biology_curriculum.py"),
-            "--all",
+            "--batch",
+            "foundation-19",
         ],
         env={
             **os.environ,
@@ -284,5 +288,5 @@ def test_full_batch_dry_run_is_safe_with_a_production_database_url():
     )
     assert result.returncode == 0, result.stderr
     assert "19 reviewed lesson(s)" in result.stdout
-    assert "Grade 8: 13 chapters, 61 topics, 4 ready lessons" in result.stdout
+    assert "Grade 8: 13 chapters, 4/61 theory lessons, 0 digital activities" in result.stdout
     assert "Migration" not in result.stdout
