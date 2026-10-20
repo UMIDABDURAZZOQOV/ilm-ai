@@ -8,6 +8,7 @@ jobs:
     env:
       GEMINI_API_KEY: dummy
       TELEGRAM_BOT_TOKEN: dummy
+      DATABASE_URL: sqlite:////tmp/ilm-ci.db
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -17,13 +18,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt || true
+          pip install -r requirements.txt pytest httpx
       - name: Import check
-        run: python -c "import main; print('imports OK')" || true
-      - name: Lint (ruff)
-        run: ruff check . || true
+        run: python -m compileall -q routers services
       - name: Run tests
-        run: pytest -q || true
+        run: python -m pytest -q
       - name: Build Docker image
         uses: docker/build-push-action@v5
         with:

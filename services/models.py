@@ -603,6 +603,49 @@ class SkillLessonAttempt(Base):
 
 # ─── Mock exam + score prediction (Sinov imtihoni) ─────────────────────────────
 
+class StudySession(Base):
+    """Issued question snapshot; completion and its response commit atomically."""
+    __tablename__ = "study_sessions"
+    id = Column(String(96), primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    kind = Column(String(24), nullable=False, index=True)
+    scope = Column(String(100), nullable=False)
+    questions = Column(JSON, nullable=False)
+    started_at = Column(DateTime(timezone=True), nullable=False)
+    completed_at = Column(DateTime(timezone=True), nullable=True)
+    response = Column(JSON, nullable=True)
+    fingerprint = Column(String(64), nullable=True)
+
+
+class StudyEvent(Base):
+    """Append-only XP/activity ledger. Historical balances are never rewritten."""
+    __tablename__ = "study_events"
+    id = Column(Integer, primary_key=True)
+    source_key = Column(String(140), nullable=False, unique=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
+    kind = Column(String(24), nullable=False)
+    xp = Column(Integer, nullable=False, default=0)
+    created_at = Column(DateTime(timezone=True), nullable=False, index=True)
+
+
+class OAuthState(Base):
+    __tablename__ = "oauth_states"
+    state_hash = Column(String(64), primary_key=True)
+    challenge = Column(String(128), nullable=True)
+    redirect_uri = Column(String(1000), nullable=False)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    consumed = Column(Boolean, nullable=False, default=False)
+
+
+class MobileLoginGrant(Base):
+    __tablename__ = "mobile_login_grants"
+    code_hash = Column(String(64), primary_key=True)
+    challenge = Column(String(128), nullable=False)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    consumed = Column(Boolean, nullable=False, default=False)
+
+
 class SkillMockExam(Base):
     """A full Milliy Sertifikat-style mock exam for one subject: a timed block
     of questions pulled from that subject's committed bank. On completion we
@@ -684,3 +727,15 @@ class ParentChildLink(Base):
     child_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     __table_args__ = (UniqueConstraint("parent_id", "child_id", name="uq_parent_child"),)
+
+
+class UserStudyPreferences(Base):
+    """Account preferences; separate additive table avoids altering user rows."""
+    __tablename__ = "user_study_preferences"
+    user_id = Column(Integer, ForeignKey("users.id"), primary_key=True)
+    daily_goal_xp = Column(Integer, nullable=False, default=20)
+    subject = Column(String(100), nullable=True)
+    grade = Column(String(8), nullable=False, default="all")
+    source = Column(String(100), nullable=True)
+    level = Column(Integer, nullable=True)
+    reason = Column(String(500), nullable=True)

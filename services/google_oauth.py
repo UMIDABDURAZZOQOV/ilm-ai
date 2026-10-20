@@ -1,6 +1,7 @@
 import os
 import secrets
 import requests
+from starlette.concurrency import run_in_threadpool
 from typing import Tuple
 from authlib.integrations.starlette_client import OAuth
 from fastapi import Request, HTTPException
@@ -39,7 +40,7 @@ def generate_state_token() -> str:
     return secrets.token_urlsafe(32)
 
 
-async def get_google_auth_url(request: Request, redirect_uri: str) -> Tuple[str, str]:
+async def get_google_auth_url(request: Request, redirect_uri: str, challenge: str | None = None) -> Tuple[str, str]:
     """
     Generate Google OAuth authorization URL with state token.
     
@@ -53,11 +54,9 @@ async def get_google_auth_url(request: Request, redirect_uri: str) -> Tuple[str,
         )
     
     state = generate_state_token()
-    # Use a simple dict for state management instead of sessions
-    state_store = getattr(request.app.state, 'oauth_state_store', {})
-    state_store[state] = {'valid': True}
-    request.app.state.oauth_state_store = state_store
-    
+    from services.mobile_oauth import save_state
+    save_state(state, redirect_uri, challenge)
+
     client = oauth.create_client('google')
     if not client:
         raise HTTPException(status_code=503, detail="Failed to create OAuth client")
@@ -79,24 +78,16 @@ async def get_google_auth_url(request: Request, redirect_uri: str) -> Tuple[str,
     return (auth_url, state)
 
 
-async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
+async def handle_google_callback(request: Request, redirect_uri: str, mobile: bool = False) -> dict:
     """
     Handle Google OAuth callback and exchange code for user tokens.
 
     Returns:
         Dict with user info and JWT tokens
 
-    Note: the code-for-token exchange is done via a direct HTTPS call to
-    Google's token endpoint, NOT via authlib's client.authorize_access_token().
-    That method does its own session-cookie-based CSRF check (separate from
-    our own oauth_state_store check below), which requires the browser to
-    carry the same session cookie across the /google-login and
-    /google-callback calls. Our auth URL is built manually (not via authlib's
-    authorize_redirect), so that session state is never seeded — the check
-    always fails with "mismatching_state", regardless of our own valid state.
-    Since our own state_store already provides CSRF protection, and it's the
-    only mechanism that works for a decoupled frontend/backend + mobile
-    client, we skip authlib's redundant check entirely here.
+    State is persisted, bound to this redirect URI, expires after ten minutes,
+    and is consumed once across workers. Mobile callbacks issue a short-lived
+    PKCE grant; only its HTTPS exchange returns access/refresh credentials.
     """
     if not is_google_oauth_enabled():
         raise HTTPException(
@@ -107,15 +98,15 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
     # Verify state token
     state = request.query_params.get('state')
     code = request.query_params.get('code')
-    state_store = getattr(request.app.state, 'oauth_state_store', {})
-
-    if not state or state not in state_store or not state_store[state].get('valid'):
-        raise HTTPException(status_code=400, detail="Invalid state token. CSRF protection failed.")
+    from services.mobile_oauth import consume_state
+    challenge = consume_state(state, redirect_uri)
     if not code:
         raise HTTPException(status_code=400, detail="Missing authorization code from Google")
+    if mobile and not challenge:
+        raise HTTPException(status_code=400, detail="mobile_client_upgrade_required")
 
     try:
-        token_resp = requests.post(
+        token_resp = await run_in_threadpool(requests.post,
             GOOGLE_TOKEN_URL,
             data={
                 "code": code,
@@ -129,11 +120,11 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
         if token_resp.status_code != 200:
             raise HTTPException(
                 status_code=400,
-                detail=f"Google token exchange failed: {token_resp.text}",
+                detail="Google token exchange failed",
             )
         google_access_token = token_resp.json().get("access_token")
 
-        userinfo_resp = requests.get(
+        userinfo_resp = await run_in_threadpool(requests.get,
             GOOGLE_USERINFO_URL,
             headers={"Authorization": f"Bearer {google_access_token}"},
             timeout=15,
@@ -142,7 +133,8 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
             raise HTTPException(status_code=400, detail="Failed to retrieve user information from Google")
         user_info = userinfo_resp.json()
 
-        if not user_info or 'email' not in user_info:
+        if (not user_info or not user_info.get('email') or
+                user_info.get('email_verified') is not True or not user_info.get('sub')):
             raise HTTPException(status_code=400, detail="Failed to retrieve user information from Google")
 
         email = user_info['email'].lower()
@@ -154,6 +146,10 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
         existing_user = find_user_by_email(email)
 
         if existing_user:
+            if (existing_user.get('oauth_provider') == 'google' and
+                    existing_user.get('oauth_provider_id') and
+                    existing_user['oauth_provider_id'] != google_id):
+                raise HTTPException(400, "Google identity does not match this account")
             # User exists, generate tokens for existing user
             user_id = existing_user['id']
             # Update OAuth provider info if not set
@@ -174,12 +170,11 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
             user_id = user['id']
             needs_onboarding = True  # brand-new user: must pick a name + age
 
-        # Generate JWT tokens
+        if mobile:
+            from services.mobile_oauth import issue_grant
+            return {"user_id": user_id, "email": email, "code": issue_grant(user_id, challenge)}
         access_token = create_access_token(user_id)
         refresh_token = create_refresh_token(user_id)
-
-        # Clean up state
-        state_store[state] = {'valid': False}
 
         return {
             "message": "Google login successful",
@@ -198,4 +193,4 @@ async def handle_google_callback(request: Request, redirect_uri: str) -> dict:
     except Exception as e:
         from services.monitoring import track_error
         track_error(e, context={"operation": "google_oauth_callback", "error_type": "GeneralError"})
-        raise HTTPException(status_code=500, detail=f"Authentication failed: {str(e)}")
+        raise HTTPException(status_code=500, detail="Authentication failed")

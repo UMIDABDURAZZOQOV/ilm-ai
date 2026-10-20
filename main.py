@@ -43,11 +43,8 @@ start_scheduler()
 
 IS_PRODUCTION = os.environ.get("ENVIRONMENT") == "production"
 SECRET_KEY = os.environ.get("SECRET_KEY", "your-secret-key-change-in-production")
-if IS_PRODUCTION and SECRET_KEY == "your-secret-key-change-in-production":
-    raise RuntimeError(
-        "SECRET_KEY is not set. Refusing to start in production with the default "
-        "value — this signs OAuth session cookies. Set SECRET_KEY in the environment."
-    )
+from services.security_config import require_production_secret
+require_production_secret("SECRET_KEY", SECRET_KEY, "your-secret-key-change-in-production")
 
 app = FastAPI(title="Ilm AI Backend", version="0.3.0")
 

@@ -9,12 +9,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 JWT_SECRET = os.environ.get("JWT_SECRET", "dev_secret")
-if os.environ.get("ENVIRONMENT") == "production" and JWT_SECRET == "dev_secret":
-    raise RuntimeError(
-        "JWT_SECRET is not set. Refusing to start in production with the default "
-        "dev_secret — anyone could forge valid auth tokens. Set JWT_SECRET in the "
-        "environment."
-    )
+from services.security_config import require_production_secret
+require_production_secret("JWT_SECRET", JWT_SECRET, "dev_secret")
 ACCESS_EXPIRE = int(os.environ.get("ACCESS_TOKEN_EXPIRE_MINUTES", "15"))
 REFRESH_EXPIRE_DAYS = int(os.environ.get("REFRESH_TOKEN_EXPIRE_DAYS", "30"))
 DATA_DIR = "data"
@@ -24,8 +20,8 @@ REFRESH_FILE = f"{DATA_DIR}/refresh_tokens.json"
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
-# Prefer DB-backed refresh tokens when DATABASE_URL is set
-USE_DB = bool(os.environ.get("DATABASE_URL"))
+# Use the same storage mode as auth/users and skills.
+USE_DB = os.environ.get("AUTH_STORAGE", "database") != "legacy_json"
 if USE_DB:
     from services.db import SessionLocal
     from services.models import RefreshToken as RefreshTokenModel
@@ -81,6 +77,29 @@ def verify_access_token(token: str) -> Optional[int]:
         return int(p.get("sub"))
     except Exception:
         return None
+
+
+def rotate_refresh_token(token: str):
+    """Consume and replace a refresh token in one database transaction."""
+    if not USE_DB:
+        user_id = verify_refresh_token(token)
+        if not user_id:
+            return None
+        revoke_refresh_token(token)
+        return {"access_token": create_access_token(user_id), "refresh_token": create_refresh_token(user_id)}
+    from sqlalchemy import delete
+    with SessionLocal() as db:
+        user_id = db.execute(delete(RefreshTokenModel).where(
+            RefreshTokenModel.token == token, RefreshTokenModel.exp >= int(time.time())
+        ).returning(RefreshTokenModel.user_id)).scalar_one_or_none()
+        if user_id is None:
+            return None
+        replacement = secrets.token_urlsafe(32)
+        db.add(RefreshTokenModel(token=replacement, user_id=user_id,
+                                exp=int(time.time()) + REFRESH_EXPIRE_DAYS * 86400))
+        result = {"access_token": create_access_token(user_id), "refresh_token": replacement}
+        db.commit()
+        return result
 
 
 def verify_refresh_token(token: str) -> Optional[int]:

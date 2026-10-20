@@ -50,10 +50,10 @@ if not postgres_ok and IS_PRODUCTION:
 if not postgres_ok:
     print("PostgreSQL is not available. Falling back to SQLite database...")
     os.makedirs("data", exist_ok=True)
-    DATABASE_URL = "sqlite:///data/ilm_ai.db"
+    DATABASE_URL = DATABASE_URL if DATABASE_URL.startswith("sqlite:") else "sqlite:///data/ilm_ai.db"
     engine = create_engine(
         DATABASE_URL,
-        connect_args={"check_same_thread": False},
+        connect_args={"check_same_thread": False, "timeout": 30},
         echo=False,
         future=True
     )

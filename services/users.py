@@ -1,4 +1,6 @@
 import hashlib
+import hmac
+import secrets
 import json
 import os
 from datetime import date
@@ -12,11 +14,31 @@ USERS_FILE = "users.json"
 
 
 def hash_password(password: str) -> str:
-    return hashlib.sha256(password.encode()).hexdigest()
+    salt = secrets.token_hex(16)
+    iterations = 600_000
+    derived = hashlib.pbkdf2_hmac("sha256", password.encode(), salt.encode(), iterations).hex()
+    return f"pbkdf2_sha256${iterations}${salt}${derived}"
 
 
-# Use DB when DATABASE_URL is set; otherwise fall back to JSON file storage.
-USE_DB = bool(os.environ.get("DATABASE_URL"))
+def password_matches(password: str, stored: str | None) -> bool:
+    if not stored:
+        return False
+    if stored.startswith("pbkdf2_sha256$"):
+        try:
+            _, rounds, salt, expected = stored.split("$")
+            iterations = int(rounds)
+            if not 100_000 <= iterations <= 2_000_000:
+                return False
+            actual = hashlib.pbkdf2_hmac("sha256", password.encode(), salt.encode(), iterations).hex()
+            return hmac.compare_digest(actual, expected)
+        except (ValueError, TypeError):
+            return False
+    # Existing accounts remain compatible; no production/bulk migration runs.
+    return hmac.compare_digest(hashlib.sha256(password.encode()).hexdigest(), stored)
+
+
+# Auth and skills share SQL storage by default. JSON is an explicit legacy opt-in.
+USE_DB = os.environ.get("AUTH_STORAGE", "database") != "legacy_json"
 if USE_DB:
     from services.db import SessionLocal
     from services.models import User as UserModel
@@ -109,7 +131,7 @@ def verify_login(email: str, password: str) -> Optional[Dict[str, Any]]:
     user = find_user_by_email(email)
     if not user:
         return None
-    if user.get("password") != hash_password(password):
+    if not password_matches(password, user.get("password")):
         return None
     return user
 
@@ -434,56 +456,14 @@ def set_reminder_time(user_id: int, reminder_time: str) -> bool:
 
 def record_study_activity(user_id: int) -> Dict[str, Any]:
     if USE_DB:
-        db = SessionLocal()
-        try:
-            u = db.query(UserModel).filter(UserModel.id == user_id).first()
+        from services.study import record_activity, utcnow
+        with SessionLocal() as db:
+            u = db.query(UserModel).filter_by(id=user_id).with_for_update().first()
             if not u:
                 return {"streak_days": 0}
-
-            today = date.today().isoformat()
-            last = u.last_study_date
-            streak = int(u.streak_days or 0)
-            prev_streak = streak
-            froze = 0
-            if last == today:
-                pass
-            elif last is None:
-                streak = 1
-            else:
-                try:
-                    last_date = date.fromisoformat(last)
-                    delta = (date.today() - last_date).days
-                    if delta == 1:
-                        streak += 1
-                    elif delta > 1:
-                        # Try to bridge the missed day(s) with streak freezes; only a
-                        # fully-covered gap keeps the streak, otherwise it resets.
-                        missed = delta - 1
-                        try:
-                            from services import streak_freeze
-                            froze = streak_freeze.consume(user_id, missed)
-                        except Exception:
-                            froze = 0
-                        streak = streak + 1 if froze >= missed else 1
-                except Exception:
-                    streak = 1
-
-            u.streak_days = streak
-            u.last_study_date = today
-            db.add(u)
+            record_activity(db, u, utcnow())
             db.commit()
-
-            # Earn a freeze each time the streak crosses a GRANT_EVERY-day mark.
-            try:
-                from services import streak_freeze
-                if streak > prev_streak and streak % streak_freeze.GRANT_EVERY == 0:
-                    streak_freeze.grant(user_id, 1)
-            except Exception:
-                pass
-
-            return {"streak_days": streak, "last_study_date": today, "froze": froze}
-        finally:
-            db.close()
+            return {"streak_days": u.streak_days or 0, "last_study_date": u.last_study_date}
 
     users = _load_users_from_file()
     u = next((x for x in users if x.get("id") == user_id), None)
@@ -534,7 +514,10 @@ def set_push_token(user_id: int, token: str) -> bool:
             u = db.query(UserModel).filter(UserModel.id == user_id).first()
             if not u:
                 return False
-            u.push_token = token
+            # A device token belongs to one account at a time.
+            if token:
+                db.query(UserModel).filter(UserModel.push_token == token, UserModel.id != user_id).update({"push_token": None})
+            u.push_token = token or None
             db.add(u)
             db.commit()
             return True

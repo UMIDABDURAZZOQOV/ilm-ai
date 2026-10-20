@@ -9,8 +9,8 @@ import random
 from datetime import date, datetime, timedelta, timezone
 
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel
-from sqlalchemy import func as sa_func
+from pydantic import BaseModel, StrictInt
+from sqlalchemy import func as sa_func, and_, case
 from sqlalchemy.orm import Session
 
 from services.auth_deps import ensure_own_user, get_authenticated_user_id, verify_user_access
@@ -38,6 +38,7 @@ from services.placement import (
 )
 from services.skill_tree import build_tree, lesson_status, newly_unlocked_lesson_ids
 from services.users import record_study_activity
+from services.study import issued_payload, issue, complete as complete_study, xp_since, activity_rows, effective_streak, weekly_totals
 
 router = APIRouter(prefix="/skills", tags=["skills"])
 
@@ -46,24 +47,12 @@ DAILY_GOAL_XP = 20
 
 
 def _gamification_block(user: User, db: Session | None = None) -> dict:
-    block = {
-        "xp_total": user.xp_total,
-        "streak_days": user.streak_days or 0,
-    }
+    block = {"xp_total": user.xp_total, "streak_days": effective_streak(db, user) if db else user.streak_days or 0}
     if db is not None:
-        today_start = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-        lesson_xp = (
-            db.query(sa_func.coalesce(sa_func.sum(SkillLessonAttempt.xp_awarded), 0))
-            .filter(SkillLessonAttempt.user_id == user.id, SkillLessonAttempt.completed_at >= today_start)
-            .scalar()
-        ) or 0
-        daily = (
-            db.query(SkillDailyChallenge)
-            .filter(SkillDailyChallenge.user_id == user.id, SkillDailyChallenge.date == date.today().isoformat())
-            .first()
-        )
-        block["today_xp"] = int(lesson_xp) + (daily.xp_awarded or 0 if daily else 0)
-        block["daily_goal_xp"] = DAILY_GOAL_XP
+        today = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+        from services.models import UserStudyPreferences
+        preferences = db.get(UserStudyPreferences, user.id)
+        block.update(today_xp=xp_since(db, user.id, today), daily_goal_xp=preferences.daily_goal_xp if preferences else DAILY_GOAL_XP)
     return block
 
 
@@ -250,6 +239,16 @@ def _translate_questions(questions: list, language: str) -> list:
                 t = tmap.get(q["id"])
                 if not t:
                     continue
+                original = q.get("options") or []
+                translated = t.get("options")
+                correct = q.get("correct_answer")
+                # A malformed translation must never change the grading contract.
+                if (not isinstance(translated, list) or len(translated) != len(original)
+                    or not all(isinstance(v, str) and v for v in translated)
+                    or len(set(translated)) != len(translated) or correct not in original
+                    or t.get("correct_answer") != translated[original.index(correct)]
+                    or not isinstance(t.get("question_text"), str)):
+                    continue
                 merged = dict(q)
                 for f in ("question_text", "options", "correct_answer", "explanation"):
                     if t.get(f) is not None:
@@ -331,6 +330,7 @@ def start_lesson(
     ]
     # Serve the lesson in the learner's language (translated + cached for ru/en).
     theory, q_list = _translate_lesson_content(lesson_id, data.language, theory, q_list)
+    issue(db, data.user_id, "lesson", str(lesson_id), q_list, f"lesson:{attempt.id}")
     return {
         "attempt_id": attempt.id,
         # Duolingo-style: the client shows these teaching cards first, THEN the questions.
@@ -341,8 +341,9 @@ def start_lesson(
 
 class LessonResultItem(BaseModel):
     question_id: int
-    user_answer: str
-    is_correct: bool
+    is_correct: bool | None = None
+    user_answer: str | None = None
+    answer_index: StrictInt | None = None
 
 
 class CompleteLessonRequest(BaseModel):
@@ -369,134 +370,7 @@ def complete_lesson(
     db: Session = Depends(get_db),
 ):
     ensure_own_user(data.user_id, auth_user_id)
-    user = db.query(User).filter(User.id == data.user_id).first()
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-    lesson = db.query(SkillLesson).filter(SkillLesson.id == lesson_id).first()
-    if not lesson:
-        raise HTTPException(status_code=404, detail="Lesson not found")
-    attempt = (
-        db.query(SkillLessonAttempt)
-        .filter(
-            SkillLessonAttempt.id == data.attempt_id,
-            SkillLessonAttempt.user_id == data.user_id,
-            SkillLessonAttempt.lesson_id == lesson_id,
-        )
-        .first()
-    )
-    if not attempt:
-        raise HTTPException(status_code=404, detail="Attempt not found")
-    if attempt.completed_at is not None:
-        # Already submitted -- return the original result idempotently rather
-        # than re-awarding XP on a replayed request.
-        prev_pct = (attempt.score / attempt.total * 100) if attempt.total else 0.0
-        return {
-            "passed": prev_pct >= PASS_THRESHOLD_PCT,
-            "pass_threshold_pct": PASS_THRESHOLD_PCT,
-            "stars": (
-                db.query(UserLessonProgress)
-                .filter(UserLessonProgress.user_id == data.user_id, UserLessonProgress.lesson_id == lesson_id)
-                .first()
-                .stars
-            ),
-            "score": attempt.score,
-            "total": attempt.total,
-            "xp_awarded": attempt.xp_awarded,
-            "xp_total": user.xp_total,
-            "streak_days": user.streak_days or 0,
-            "newly_unlocked_lesson_ids": [],
-        }
-
-    # Server recomputes score from submitted results -- never trusts a client score.
-    total = len(data.results)
-    score = sum(1 for r in data.results if r.is_correct)
-    score_pct = (score / total * 100) if total > 0 else 0.0
-
-    if score_pct >= STAR3_PCT:
-        stars = 3
-    elif score_pct >= STAR2_PCT:
-        stars = 2
-    elif score_pct >= STAR1_PCT:
-        stars = 1
-    else:
-        stars = 0
-
-    progress = (
-        db.query(UserLessonProgress)
-        .filter(UserLessonProgress.user_id == data.user_id, UserLessonProgress.lesson_id == lesson_id)
-        .first()
-    )
-    # Failing the threshold never completes the lesson (and so never unlocks the
-    # next one). An already-completed lesson stays completed if a later replay
-    # falls short -- we only ever move progress forward.
-    passed = stars >= 1  # i.e. score_pct >= STAR1_PCT
-    already_completed = bool(progress and progress.completed_at is not None)
-    is_first_completion = passed and not already_completed
-    xp_awarded = lesson.xp_reward if is_first_completion else 5
-
-    now = datetime.now(timezone.utc)
-    if not progress:
-        progress = UserLessonProgress(user_id=data.user_id, lesson_id=lesson_id, stars=0, attempts=0)
-        db.add(progress)
-
-    progress.attempts = (progress.attempts or 0) + 1
-    progress.stars = max(progress.stars or 0, stars)
-    progress.best_score_pct = max(progress.best_score_pct or 0, score_pct)
-    progress.xp_earned = (progress.xp_earned or 0) + xp_awarded
-    progress.last_attempt_at = now
-    if is_first_completion:
-        progress.completed_at = now
-
-    user.xp_total = (user.xp_total or 0) + xp_awarded
-    db.add(user)
-
-    attempt.completed_at = now
-    attempt.score = score
-    attempt.total = total
-    attempt.xp_awarded = xp_awarded
-    attempt.results = [r.model_dump() for r in data.results]
-    db.add(attempt)
-    db.commit()
-    db.refresh(user)
-
-    # Mistakes notebook: a wrong answer becomes (or refreshes) an unresolved
-    # mistake, scheduled for spaced-repetition review; a correct answer resolves any
-    # previously recorded one.
-    for r in data.results:
-        m = db.query(SkillMistake).filter(SkillMistake.user_id == data.user_id, SkillMistake.question_id == r.question_id).first()
-        if r.is_correct:
-            if m and m.resolved_at is None:
-                m.resolved_at = now
-                db.add(m)
-        else:
-            due = now + timedelta(days=SRS_INTERVALS[0])
-            if m:
-                m.wrong_count = (m.wrong_count or 0) + 1
-                m.last_wrong_at = now
-                m.resolved_at = None
-                m.review_stage = 0
-                m.due_at = due
-            else:
-                m = SkillMistake(user_id=data.user_id, question_id=r.question_id,
-                                 wrong_count=1, last_wrong_at=now, review_stage=0, due_at=due)
-            db.add(m)
-    db.commit()
-
-    unlocked_ids = newly_unlocked_lesson_ids(db, data.user_id, lesson) if is_first_completion else []
-
-    streak = record_study_activity(data.user_id)
-
-    return {
-        "passed": passed,
-        "pass_threshold_pct": PASS_THRESHOLD_PCT,
-        "stars": stars,
-        "score": score,
-        "total": total,
-        "xp_awarded": xp_awarded,
-        "xp_total": user.xp_total,
-        "streak_days": streak.get("streak_days", user.streak_days or 0),
-        "newly_unlocked_lesson_ids": unlocked_ids,
-    }
+    return complete_study(db, data.user_id, "lesson", data.results, scope=str(lesson_id), attempt_id=f"lesson:{data.attempt_id}")
 
 
 # ─── Leaderboard ───────────────────────────────────────────────────────────────
@@ -506,39 +380,19 @@ def weekly_leaderboard(
     auth_user_id: int = Depends(get_authenticated_user_id),
     db: Session = Depends(get_db),
 ):
-    """Top-20 users by XP earned in the last 7 days (skill-tree activity),
-    plus the requesting user's own rank -- Duolingo-style weekly league."""
-    week_ago = datetime.now(timezone.utc) - timedelta(days=7)
-    rows = (
-        db.query(
-            SkillLessonAttempt.user_id,
-            sa_func.sum(SkillLessonAttempt.xp_awarded).label("xp"),
-        )
-        .filter(SkillLessonAttempt.completed_at >= week_ago)
-        .group_by(SkillLessonAttempt.user_id)
-        .order_by(sa_func.sum(SkillLessonAttempt.xp_awarded).desc())
-        .all()
-    )
-    user_ids = [r.user_id for r in rows]
-    users = {u.id: u for u in db.query(User).filter(User.id.in_(user_ids)).all()} if user_ids else {}
-
-    entries = []
-    own_rank = None
-    for rank, r in enumerate(rows, start=1):
-        u = users.get(r.user_id)
-        if r.user_id == auth_user_id:
+    totals = weekly_totals(db)
+    ids = [uid for uid, _ in totals]
+    users = {u.id: u for u in db.query(User).filter(User.id.in_(ids))}
+    ranked = [(users[uid], int(xp)) for uid, xp in totals if uid in users]
+    entries, own_rank = [], None
+    for rank, (user, xp) in enumerate(ranked, 1):
+        if user.id == auth_user_id:
             own_rank = rank
         if rank <= 20:
-            entries.append({
-                "rank": rank,
-                "user_id": r.user_id,
-                "name": (u.name if u else "..."),
-                "profile_picture": (u.profile_picture if u else None),
-                "weekly_xp": int(r.xp or 0),
-                "league": _league_for(int(r.xp or 0))["id"],
-                "is_me": r.user_id == auth_user_id,
-            })
-    return {"entries": entries, "own_rank": own_rank, "total_participants": len(rows)}
+            entries.append({"rank": rank, "user_id": user.id, "name": user.name,
+                            "profile_picture": user.profile_picture, "weekly_xp": xp,
+                            "league": _league_for(xp)["id"], "is_me": user.id == auth_user_id})
+    return {"entries": entries, "own_rank": own_rank, "total_participants": len(ranked)}
 
 
 # ─── Mistakes notebook (Xatolar daftari) ──────────────────────────────────────
@@ -580,17 +434,20 @@ def list_mistakes(language: str = "uz", user_id: int = Depends(verify_user_acces
             "explanation": q.explanation,
             "wrong_count": m.wrong_count,
         })
-    return {"questions": _translate_questions(out, language), "count": len(out)}
+    return issued_payload(db, user_id, "mistakes", "all", {"questions": _translate_questions(out, language), "count": len(out)}, session_id=None)
 
 
 class PracticeResultItem(BaseModel):
     question_id: int
-    is_correct: bool
+    is_correct: bool | None = None
+    user_answer: str | None = None
+    answer_index: StrictInt | None = None
 
 
 class PracticeCompleteRequest(BaseModel):
     user_id: int
     results: list[PracticeResultItem]
+    attempt_id: str | None = None
 
 
 @router.post("/mistakes/complete")
@@ -600,55 +457,7 @@ def complete_mistakes_practice(
     db: Session = Depends(get_db),
 ):
     ensure_own_user(data.user_id, auth_user_id)
-    user = db.query(User).filter(User.id == data.user_id).first()
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-
-    now = datetime.now(timezone.utc)
-    correct = 0
-    graduated = 0
-    for r in data.results:
-        m = db.query(SkillMistake).filter(SkillMistake.user_id == data.user_id, SkillMistake.question_id == r.question_id).first()
-        if not m:
-            continue
-        if r.is_correct:
-            correct += 1
-            stage = (m.review_stage or 0) + 1
-            if stage >= len(SRS_INTERVALS):
-                # Answered right at the longest interval — it has stuck; retire it.
-                m.resolved_at = now
-                graduated += 1
-            else:
-                m.review_stage = stage
-                m.due_at = now + timedelta(days=SRS_INTERVALS[stage])
-        else:
-            # Back to the start of the schedule.
-            m.wrong_count = (m.wrong_count or 0) + 1
-            m.last_wrong_at = now
-            m.review_stage = 0
-            m.due_at = now + timedelta(days=SRS_INTERVALS[0])
-        db.add(m)
-
-    xp_awarded = min(correct, 10)
-    user.xp_total = (user.xp_total or 0) + xp_awarded
-    db.add(user)
-    db.commit()
-    db.refresh(user)
-    streak = record_study_activity(data.user_id)
-    now2 = datetime.now(timezone.utc)
-    due_remaining = db.query(SkillMistake).filter(
-        SkillMistake.user_id == data.user_id,
-        SkillMistake.resolved_at.is_(None),
-        (SkillMistake.due_at.is_(None)) | (SkillMistake.due_at <= now2),
-    ).count()
-    return {
-        "resolved": correct,          # answered right this round
-        "graduated": graduated,       # retired from the notebook for good
-        "remaining": due_remaining,   # still due right now
-        "xp_awarded": xp_awarded,
-        "xp_total": user.xp_total,
-        "streak_days": streak.get("streak_days", user.streak_days or 0),
-    }
+    return complete_study(db, data.user_id, "mistakes", data.results, scope=None, attempt_id=data.attempt_id)
 
 
 # ─── Daily challenge (Kunlik sinov) ───────────────────────────────────────────
@@ -662,7 +471,7 @@ def _daily_questions(db: Session, user_id: int) -> list[SkillQuestion]:
     ids = [row[0] for row in db.query(SkillQuestion.id).order_by(SkillQuestion.id).all()]
     if not ids:
         return []
-    rng = random.Random(f"{user_id}-{date.today().isoformat()}")
+    rng = random.Random(f"{user_id}-{datetime.now(timezone.utc).date().isoformat()}")
     chosen = rng.sample(ids, min(DAILY_CHALLENGE_SIZE, len(ids)))
     q_map = {q.id: q for q in db.query(SkillQuestion).filter(SkillQuestion.id.in_(chosen)).all()}
     return [q_map[i] for i in chosen if i in q_map]
@@ -672,7 +481,7 @@ def _daily_questions(db: Session, user_id: int) -> list[SkillQuestion]:
 def get_daily_challenge(language: str = "uz", user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
     existing = (
         db.query(SkillDailyChallenge)
-        .filter(SkillDailyChallenge.user_id == user_id, SkillDailyChallenge.date == date.today().isoformat())
+        .filter(SkillDailyChallenge.user_id == user_id, SkillDailyChallenge.date == datetime.now(timezone.utc).date().isoformat())
         .first()
     )
     if existing and existing.completed_at is not None:
@@ -694,15 +503,16 @@ def get_daily_challenge(language: str = "uz", user_id: int = Depends(verify_user
         }
         for q in questions
     ]
-    return {
+    return issued_payload(db, user_id, "daily", datetime.now(timezone.utc).date().isoformat(), {
         "completed": False,
         "questions": _translate_questions(q_list, language),
-    }
+    }, session_id=f"daily:{user_id}:{datetime.now(timezone.utc).date().isoformat()}")
 
 
 class DailyCompleteRequest(BaseModel):
     user_id: int
     results: list[PracticeResultItem]
+    attempt_id: str | None = None
 
 
 @router.post("/daily-challenge/complete")
@@ -712,52 +522,7 @@ def complete_daily_challenge(
     db: Session = Depends(get_db),
 ):
     ensure_own_user(data.user_id, auth_user_id)
-    user = db.query(User).filter(User.id == data.user_id).first()
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-
-    today = date.today().isoformat()
-    existing = (
-        db.query(SkillDailyChallenge)
-        .filter(SkillDailyChallenge.user_id == data.user_id, SkillDailyChallenge.date == today)
-        .first()
-    )
-    if existing and existing.completed_at is not None:
-        return {
-            "score": existing.score,
-            "total": existing.total,
-            "xp_awarded": existing.xp_awarded,
-            "xp_total": user.xp_total,
-            "already_completed": True,
-        }
-
-    # Server-side check: only questions actually in today's deterministic set count.
-    valid_ids = {q.id for q in _daily_questions(db, data.user_id)}
-    total = len(valid_ids)
-    score = sum(1 for r in data.results if r.is_correct and r.question_id in valid_ids)
-    xp_awarded = 10 + score  # base bonus + 1 XP per correct
-
-    if not existing:
-        existing = SkillDailyChallenge(user_id=data.user_id, date=today)
-    existing.score = score
-    existing.total = total
-    existing.xp_awarded = xp_awarded
-    existing.completed_at = datetime.now(timezone.utc)
-    db.add(existing)
-
-    user.xp_total = (user.xp_total or 0) + xp_awarded
-    db.add(user)
-    db.commit()
-    db.refresh(user)
-    streak = record_study_activity(data.user_id)
-    return {
-        "score": score,
-        "total": total,
-        "xp_awarded": xp_awarded,
-        "xp_total": user.xp_total,
-        "streak_days": streak.get("streak_days", user.streak_days or 0),
-        "already_completed": False,
-    }
+    return complete_study(db, data.user_id, "daily", data.results, scope=None, attempt_id=data.attempt_id)
 
 
 # ─── Achievements (Yutuqlar) ──────────────────────────────────────────────────
@@ -784,7 +549,7 @@ def get_achievements(user_id: int = Depends(verify_user_access), db: Session = D
         .filter(SkillLessonAttempt.user_id == user_id, SkillLessonAttempt.completed_at.isnot(None))
         .scalar()
     ) or 0
-    streak = user.streak_days or 0
+    streak = effective_streak(db, user)
     xp = user.xp_total or 0
 
     def tiers(aid: str, value: int, targets: list[int]) -> list[dict]:
@@ -824,13 +589,12 @@ def get_lightning_round(language: str = "uz", user_id: int = Depends(verify_user
             "options": q.options,
             "correct_answer": q.correct_answer,
         })
-    return {"questions": _translate_questions(out, language)}
+    return issued_payload(db, user_id, "lightning", "all", {"questions": _translate_questions(out, language)}, session_id=None)
 
 
-class LightningCompleteRequest(BaseModel):
-    user_id: int
-    score: int
-    total: int
+class LightningCompleteRequest(PracticeCompleteRequest):
+    score: int | None = None
+    total: int | None = None
 
 
 @router.post("/lightning/complete")
@@ -840,20 +604,7 @@ def complete_lightning(
     db: Session = Depends(get_db),
 ):
     ensure_own_user(data.user_id, auth_user_id)
-    user = db.query(User).filter(User.id == data.user_id).first()
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-    xp_awarded = max(0, min(data.score, 15))  # capped -- lightning is for fun, not farming
-    user.xp_total = (user.xp_total or 0) + xp_awarded
-    db.add(user)
-    db.commit()
-    db.refresh(user)
-    streak = record_study_activity(data.user_id)
-    return {
-        "xp_awarded": xp_awarded,
-        "xp_total": user.xp_total,
-        "streak_days": streak.get("streak_days", user.streak_days or 0),
-    }
+    return complete_study(db, data.user_id, "lightning", data.results, scope=None, attempt_id=data.attempt_id)
 
 
 # ─── League tiers (derived from weekly XP — no cohort batching needed) ─────────
@@ -874,13 +625,7 @@ def _league_for(weekly_xp: int) -> dict:
 
 
 def _weekly_xp(db: Session, user_id: int) -> int:
-    week_ago = datetime.now(timezone.utc) - timedelta(days=7)
-    return int(
-        db.query(sa_func.coalesce(sa_func.sum(SkillLessonAttempt.xp_awarded), 0))
-        .filter(SkillLessonAttempt.user_id == user_id, SkillLessonAttempt.completed_at >= week_ago)
-        .scalar()
-        or 0
-    )
+    return xp_since(db, user_id, datetime.now(timezone.utc) - timedelta(days=7))
 
 
 @router.get("/{user_id}/league")
@@ -934,7 +679,7 @@ def get_exam_countdown(user_id: int = Depends(verify_user_access), db: Session =
     except ValueError:
         return {"has_date": False}
 
-    today = date.today()
+    today = datetime.now(timezone.utc).date()
     days_left = (target - today).days
     weekly = _weekly_xp(db, user_id)
     studied_today = (user.last_study_date == today.isoformat())
@@ -958,7 +703,7 @@ def get_exam_countdown(user_id: int = Depends(verify_user_access), db: Session =
         "weekly_xp": weekly,
         "suggested_daily_xp": suggested_daily_xp,
         "studied_today": studied_today,
-        "streak_days": user.streak_days or 0,
+        "streak_days": effective_streak(db, user),
     }
 
 
@@ -1061,38 +806,24 @@ def get_profile(user_id: int = Depends(verify_user_access), db: Session = Depend
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
 
-    subjects = db.query(SkillSubject).filter(SkillSubject.is_active.is_(True)).order_by(SkillSubject.order_index).all()
-    per_subject = []
-    for s in subjects:
-        unit_ids = [u.id for u in db.query(SkillUnit).filter(SkillUnit.subject_id == s.id).all()]
-        lessons = db.query(SkillLesson).filter(SkillLesson.unit_id.in_(unit_ids)).all() if unit_ids else []
-        lesson_ids = [l.id for l in lessons]
-        completed = (
-            db.query(UserLessonProgress)
-            .filter(
-                UserLessonProgress.user_id == user_id,
-                UserLessonProgress.lesson_id.in_(lesson_ids),
-                UserLessonProgress.completed_at.isnot(None),
-            )
-            .count()
-        ) if lesson_ids else 0
-        stars = (
-            db.query(sa_func.coalesce(sa_func.sum(UserLessonProgress.stars), 0))
-            .filter(UserLessonProgress.user_id == user_id, UserLessonProgress.lesson_id.in_(lesson_ids))
-            .scalar()
-        ) if lesson_ids else 0
-        total = len(lessons)
-        per_subject.append({
-            "slug": s.slug,
-            "name_uz": s.name_uz,
-            "name_ru": s.name_ru,
-            "name_en": s.name_en,
-            "color": s.color,
-            "completed": completed,
-            "total": total,
-            "stars": int(stars or 0),
-            "pct": round(completed / total * 100) if total else 0,
-        })
+    # One grouped query, including empty subjects; no query-per-subject loop.
+    rows = (db.query(
+        SkillSubject,
+        sa_func.count(SkillLesson.id),
+        sa_func.coalesce(sa_func.sum(case((UserLessonProgress.completed_at.isnot(None), 1), else_=0)), 0),
+        sa_func.coalesce(sa_func.sum(UserLessonProgress.stars), 0),
+    ).outerjoin(SkillUnit, SkillUnit.subject_id == SkillSubject.id)
+     .outerjoin(SkillLesson, SkillLesson.unit_id == SkillUnit.id)
+     .outerjoin(UserLessonProgress, and_(UserLessonProgress.lesson_id == SkillLesson.id,
+                                       UserLessonProgress.user_id == user_id))
+     .filter(SkillSubject.is_active.is_(True)).group_by(SkillSubject.id)
+     .order_by(SkillSubject.order_index).all())
+    per_subject = [{
+        "slug": s.slug, "name_uz": s.name_uz, "name_ru": s.name_ru,
+        "name_en": s.name_en, "color": s.color,
+        "completed": int(completed), "total": int(total), "stars": int(stars),
+        "pct": round(completed / total * 100) if total else 0,
+    } for s, total, completed, stars in rows]
 
     done_subjects = [p for p in per_subject if p["completed"] > 0]
     strongest = max(done_subjects, key=lambda p: p["pct"], default=None)
@@ -1100,16 +831,10 @@ def get_profile(user_id: int = Depends(verify_user_access), db: Session = Depend
 
     # Activity calendar: attempts-per-day for the last 84 days.
     since = datetime.now(timezone.utc) - timedelta(days=84)
-    rows = (
-        db.query(SkillLessonAttempt.completed_at)
-        .filter(SkillLessonAttempt.user_id == user_id, SkillLessonAttempt.completed_at >= since)
-        .all()
-    )
     activity: dict[str, int] = {}
-    for (ts,) in rows:
-        if ts:
-            key = ts.date().isoformat()
-            activity[key] = activity.get(key, 0) + 1
+    for ts, _ in activity_rows(db, user_id, since):
+        key = (ts.replace(tzinfo=timezone.utc) if ts.tzinfo is None else ts.astimezone(timezone.utc)).date().isoformat()
+        activity[key] = activity.get(key, 0) + 1
 
     total_lessons_completed = sum(p["completed"] for p in per_subject)
 
@@ -1117,7 +842,7 @@ def get_profile(user_id: int = Depends(verify_user_access), db: Session = Depend
         "name": user.name,
         "profile_picture": user.profile_picture,
         "xp_total": user.xp_total,
-        "streak_days": user.streak_days or 0,
+        "streak_days": effective_streak(db, user),
         "lessons_completed": total_lessons_completed,
         "subjects": per_subject,
         "strongest": strongest,
@@ -1193,7 +918,7 @@ def get_mixed_review(language: str = "uz", user_id: int = Depends(verify_user_ac
                     break
 
     random.shuffle(out)
-    return {"questions": _translate_questions(out[:MIXED_REVIEW_SIZE], language), "due_count": len(due)}
+    return issued_payload(db, user_id, "mistakes", "all", {"questions": _translate_questions(out[:MIXED_REVIEW_SIZE], language), "due_count": len(due)})
 
 
 MARATHON_SIZE = 30
@@ -1224,7 +949,7 @@ def get_marathon(subject: str, language: str = "uz", user_id: int = Depends(veri
             "explanation": q.explanation,
         })
     subject_name = {"ru": s.name_ru, "en": s.name_en}.get(language) or s.name_uz
-    return {"questions": _translate_questions(out, language), "subject_name": subject_name}
+    return issued_payload(db, user_id, "marathon", subject, {"questions": _translate_questions(out, language), "subject_name": subject_name}, session_id=None)
 
 
 SUBJECT_EXAM_SIZE = 30          # a full sitting; ~1 minute a question
@@ -1247,7 +972,7 @@ def cron_streak_reminders(key: str = "", db: Session = Depends(get_db)):
     from datetime import date
     from services.push import send_push
 
-    today = date.today().isoformat()
+    today = datetime.now(timezone.utc).date().isoformat()
     users = (
         db.query(User)
         .filter(
@@ -1356,19 +1081,15 @@ Return ONLY JSON:
         )
         result = json.loads(resp.text)
         score = int(result.get("score") or 0)
-        # A good attempt earns a little XP, so pronunciation practice counts too.
-        if score >= 60:
-            user = db.query(User).filter(User.id == data.user_id).first()
-            if user:
-                user.xp_total = (user.xp_total or 0) + 2
-                db.add(user)
-                db.commit()
-        record_study_activity(data.user_id)
+        from services.study import award_verified_activity
+        import hashlib
+        key = hashlib.sha256(f"{data.user_id}:{data.subject}:{data.target_text}:{data.audio_base64}".encode()).hexdigest()
+        award_verified_activity(db, data.user_id, "pronunciation", f"pronunciation:{key}", 2 if score >= 60 else 0)
         return {"heard": result.get("heard", ""), "score": score, "tip": result.get("tip", "")}
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=502, detail=f"Scoring failed: {e}")
+        raise HTTPException(status_code=502, detail="Scoring unavailable. Please try again.")
 
 
 @router.get("/{user_id}/adaptive")
@@ -1473,12 +1194,10 @@ Faqat JSON qaytaring:
                                 config={"response_mime_type": "application/json"})
         result = json.loads(resp.text)
         score = int(result.get("score") or 0)
-        if score >= 60:
-            user = db.query(User).filter(User.id == data.user_id).first()
-            if user:
-                user.xp_total = (user.xp_total or 0) + 10
-                db.add(user); db.commit()
-        record_study_activity(data.user_id)
+        from services.study import award_verified_activity
+        import hashlib
+        key = hashlib.sha256(f"{data.user_id}:{data.subject}:{data.prompt}:{data.essay_text}".encode()).hexdigest()
+        award_verified_activity(db, data.user_id, "written", f"written:{key}", 10 if score >= 60 else 0)
         return {
             "score": score,
             "content": result.get("content", ""),
@@ -1489,7 +1208,7 @@ Faqat JSON qaytaring:
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=502, detail=f"Grading failed: {e}")
+        raise HTTPException(status_code=502, detail="Grading unavailable. Please try again.")
 
 
 @router.get("/{user_id}/flashcards")
@@ -1581,19 +1300,17 @@ def get_subject_exam(subject: str, user_id: int = Depends(verify_user_access), d
             "correct_answer": q.correct_answer,
             "explanation": q.explanation,
         })
-    return {
+    return issued_payload(db, user_id, "subject_exam", subject, {
         "questions": out,
         "subject_name": s.name_uz,
         "duration_seconds": len(out) * SUBJECT_EXAM_SECONDS_PER_Q,
-    }
+    })
 
 
-class SubjectExamCompleteRequest(BaseModel):
-    user_id: int
+class SubjectExamCompleteRequest(PracticeCompleteRequest):
     subject: str
-    score: int
-    total: int
-    # Per-unit tally so the result can name the weakest bob: {unit_title: [correct, total]}
+    score: int | None = None
+    total: int | None = None
     per_unit: dict[str, list[int]] = {}
 
 
@@ -1604,35 +1321,13 @@ def complete_subject_exam(
     db: Session = Depends(get_db),
 ):
     ensure_own_user(data.user_id, auth_user_id)
-    user = db.query(User).filter(User.id == data.user_id).first()
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-
-    pct = round(100 * data.score / data.total, 1) if data.total else 0.0
-    xp_awarded = min(data.score, SUBJECT_EXAM_SIZE)
-    user.xp_total = (user.xp_total or 0) + xp_awarded
-    db.add(user)
-    db.commit()
-    db.refresh(user)
-    streak = record_study_activity(data.user_id)
-
-    weak = sorted(
-        ({"title_uz": title, "pct": round(100 * c / t, 1)}
-         for title, (c, t) in data.per_unit.items() if t),
-        key=lambda x: x["pct"],
-    )[:3]
-    return {
-        "score": data.score, "total": data.total, "score_pct": pct,
-        "passed": pct >= 70, "xp_awarded": xp_awarded, "xp_total": user.xp_total,
-        "streak_days": streak.get("streak_days", user.streak_days or 0),
-        "weak_units": weak,
-    }
+    return complete_study(db, data.user_id, "subject_exam", data.results,
+                          scope=data.subject, attempt_id=data.attempt_id)
 
 
-class MarathonCompleteRequest(BaseModel):
-    user_id: int
-    score: int
-    total: int
+class MarathonCompleteRequest(PracticeCompleteRequest):
+    score: int | None = None
+    total: int | None = None
 
 
 @router.post("/marathon/complete")
@@ -1642,22 +1337,7 @@ def complete_marathon(
     db: Session = Depends(get_db),
 ):
     ensure_own_user(data.user_id, auth_user_id)
-    user = db.query(User).filter(User.id == data.user_id).first()
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-    xp_awarded = min(data.score, 30)  # 1 XP per correct, capped at the marathon size
-    user.xp_total = (user.xp_total or 0) + xp_awarded
-    db.add(user)
-    db.commit()
-    db.refresh(user)
-    streak = record_study_activity(data.user_id)
-    return {
-        "score": data.score,
-        "total": data.total,
-        "xp_awarded": xp_awarded,
-        "xp_total": user.xp_total,
-        "streak_days": streak.get("streak_days", user.streak_days or 0),
-    }
+    return complete_study(db, data.user_id, "marathon", data.results, scope=None, attempt_id=data.attempt_id)
 
 
 # ─── Placement test ──────────────────────────────────────────────────────────
@@ -1734,7 +1414,7 @@ def get_level_test(
     if not picked:
         raise HTTPException(status_code=404, detail="No placement questions available for this subject")
 
-    return {
+    return issued_payload(db, user_id, "placement", subject, {
         "subject": {"slug": subject_row.slug, "name_uz": subject_row.name_uz, "color": subject_row.color},
         "scale": "cefr" if subject in LANGUAGE_SUBJECT_SLUGS else "milliy",
         "levels": [{"level": l, "label": level_label(subject, l)} for l in levels_for(subject)],
@@ -1751,18 +1431,21 @@ def get_level_test(
             }
             for p in picked
         ],
-    }
+    }, session_id=None)
 
 
 class LevelTestResultItem(BaseModel):
     question_id: int
-    is_correct: bool
+    is_correct: bool | None = None
+    user_answer: str | None = None
+    answer_index: StrictInt | None = None
 
 
 class CompleteLevelTestRequest(BaseModel):
     user_id: int
     subject_slug: str
     results: list[LevelTestResultItem]
+    attempt_id: str | None = None
 
 
 @router.post("/level-test/complete")
@@ -1771,54 +1454,8 @@ def complete_level_test(
     auth_user_id: int = Depends(get_authenticated_user_id),
     db: Session = Depends(get_db),
 ):
-    """Score the placement test server-side and store the resulting level.
-
-    The client sends which questions it got right, not a level -- the level comes from
-    each question's own `level` column, looked up here, so a tampered client cannot
-    award itself C1.
-    """
     ensure_own_user(data.user_id, auth_user_id)
-    if not data.results:
-        raise HTTPException(status_code=400, detail="No results submitted")
-
-    rows = (
-        db.query(PlacementQuestion)
-        .filter(PlacementQuestion.id.in_([r.question_id for r in data.results]))
-        .all()
-    )
-    level_of = {r.id: r.level for r in rows}
-    if not level_of:
-        raise HTTPException(status_code=400, detail="Unknown placement questions")
-
-    per_level: dict[str, tuple[int, int]] = {}
-    for r in data.results:
-        lvl = level_of.get(r.question_id)
-        if not lvl:
-            continue
-        correct, asked = per_level.get(lvl, (0, 0))
-        per_level[lvl] = (correct + (1 if r.is_correct else 0), asked + 1)
-
-    result = score_placement(data.subject_slug, per_level)
-    now = datetime.now(timezone.utc)
-
-    row = (
-        db.query(UserLanguageLevel)
-        .filter(UserLanguageLevel.user_id == data.user_id, UserLanguageLevel.subject_slug == data.subject_slug)
-        .first()
-    )
-    if not row:
-        row = UserLanguageLevel(user_id=data.user_id, subject_slug=data.subject_slug)
-        db.add(row)
-    row.level = result["level"]
-    row.score = result["score"]
-    row.total = result["total"]
-    row.score_pct = result["score_pct"]
-    row.taken_at = now
-    db.commit()
-
-    record_study_activity(data.user_id)
-
-    return result
+    return complete_study(db, data.user_id, "placement", data.results, scope=data.subject_slug, attempt_id=data.attempt_id)
 
 
 # ─── Unit checkpoint exam ────────────────────────────────────────────────────
@@ -1837,6 +1474,7 @@ def _unit_lesson_ids(db: Session, unit_id: int) -> list[int]:
 @router.get("/{user_id}/unit-exam")
 def get_unit_exam(
     unit_id: int,
+    language: str = "uz",
     user_id: int = Depends(verify_user_access),
     db: Session = Depends(get_db),
 ):
@@ -1869,7 +1507,7 @@ def get_unit_exam(
     picked = questions[:UNIT_EXAM_QUESTION_COUNT]
 
     prev = db.query(UserUnitExam).filter(UserUnitExam.user_id == user_id, UserUnitExam.unit_id == unit_id).first()
-    return {
+    return issued_payload(db, user_id, "checkpoint", str(unit_id), {
         "unit": {
             "id": unit.id,
             "title_uz": unit.title_uz,
@@ -1882,7 +1520,7 @@ def get_unit_exam(
             if prev
             else None
         ),
-        "questions": [
+        "questions": _translate_questions([
             {
                 "id": q.id,
                 "question_text": q.question_text,
@@ -1891,14 +1529,15 @@ def get_unit_exam(
                 "explanation": q.explanation,
             }
             for q in picked
-        ],
-    }
+        ], language),
+    }, session_id=None)
 
 
 class CompleteUnitExamRequest(BaseModel):
     user_id: int
     unit_id: int
     results: list[LevelTestResultItem]
+    attempt_id: str | None = None
 
 
 @router.post("/unit-exam/complete")
@@ -1907,56 +1546,54 @@ def complete_unit_exam(
     auth_user_id: int = Depends(get_authenticated_user_id),
     db: Session = Depends(get_db),
 ):
-    """Score the checkpoint server-side. Passing unlocks the next unit; failing
-    leaves it locked and the learner retries."""
     ensure_own_user(data.user_id, auth_user_id)
-    user = db.query(User).filter(User.id == data.user_id).first()
+    return complete_study(db, data.user_id, "checkpoint", data.results, scope=str(data.unit_id), attempt_id=data.attempt_id)
+
+
+class StudyPreferencesRequest(BaseModel):
+    daily_goal_xp: StrictInt | None = None
+    subject: str | None = None
+    grade: str | None = None
+    source: str | None = None
+    level: StrictInt | None = None
+    reason: str | None = None
+
+
+def _preference_payload(row):
+    fields = ("daily_goal_xp", "subject", "grade", "source", "level", "reason")
+    return {field: getattr(row, field) for field in fields} if row else None
+
+
+@router.get("/{user_id}/preferences")
+def get_study_preferences(user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    from services.models import UserStudyPreferences
+    return {"preferences": _preference_payload(db.get(UserStudyPreferences, user_id))}
+
+
+@router.post("/{user_id}/preferences")
+def save_study_preferences(data: StudyPreferencesRequest,
+                           user_id: int = Depends(verify_user_access), db: Session = Depends(get_db)):
+    from services.models import UserStudyPreferences
+    values = data.model_dump(exclude_unset=True, exclude_none=True)
+    if "daily_goal_xp" in values and values["daily_goal_xp"] not in (10, 20, 30, 50):
+        raise HTTPException(422, "invalid_daily_goal")
+    if "grade" in values and values["grade"] not in ["all", *map(str, range(1, 12))]:
+        raise HTTPException(422, "invalid_grade")
+    if "level" in values and values["level"] not in range(1, 6):
+        raise HTTPException(422, "invalid_level")
+    if any(isinstance(v, str) and len(v) > (500 if k == "reason" else 100) for k, v in values.items()):
+        raise HTTPException(422, "preference_too_long")
+    if "subject" in values and not db.query(SkillSubject).filter_by(slug=values["subject"]).first():
+        raise HTTPException(422, "invalid_subject")
+    # Serialize preference creation/updates with the same user row as study writes.
+    user = db.query(User).filter_by(id=user_id).with_for_update().first()
     if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-    if not data.results:
-        raise HTTPException(status_code=400, detail="No results submitted")
-
-    total = len(data.results)
-    score = sum(1 for r in data.results if r.is_correct)
-    score_pct = score / total * 100
-    passed = score_pct >= PASS_THRESHOLD_PCT
-    now = datetime.now(timezone.utc)
-
-    row = (
-        db.query(UserUnitExam)
-        .filter(UserUnitExam.user_id == data.user_id, UserUnitExam.unit_id == data.unit_id)
-        .first()
-    )
-    if not row:
-        row = UserUnitExam(user_id=data.user_id, unit_id=data.unit_id, attempts=0)
+        raise HTTPException(404, "user_not_found")
+    row = db.get(UserStudyPreferences, user_id)
+    if row is None:
+        row = UserStudyPreferences(user_id=user_id)
         db.add(row)
-
-    newly_passed = passed and not row.passed
-    row.attempts = (row.attempts or 0) + 1
-    row.score = score
-    row.total = total
-    row.best_score_pct = max(row.best_score_pct or 0.0, score_pct)
-    row.last_attempt_at = now
-    if newly_passed:
-        row.passed = True            # never downgraded by a weaker retake
-        row.passed_at = now
-
-    xp_awarded = UNIT_EXAM_XP if newly_passed else 0
-    if xp_awarded:
-        user.xp_total = (user.xp_total or 0) + xp_awarded
-        db.add(user)
+    for field, value in values.items():
+        setattr(row, field, value)
     db.commit()
-    db.refresh(user)
-
-    streak = record_study_activity(data.user_id)
-
-    return {
-        "passed": passed,
-        "pass_threshold_pct": PASS_THRESHOLD_PCT,
-        "score": score,
-        "total": total,
-        "score_pct": score_pct,
-        "xp_awarded": xp_awarded,
-        "xp_total": user.xp_total,
-        "streak_days": streak.get("streak_days", user.streak_days or 0),
-    }
+    return {"preferences": _preference_payload(row)}

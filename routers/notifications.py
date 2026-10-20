@@ -22,3 +22,15 @@ def register_token(
     if not ok:
         return {"error": "User not found"}
     return {"message": "Push token registered"}
+
+
+@router.post("/unregister-token")
+def unregister_token(data: RegisterTokenRequest, auth_user_id: int = Depends(get_authenticated_user_id)):
+    """Conditional unbind: a stale device must not remove another device's token."""
+    ensure_own_user(data.user_id, auth_user_id)
+    from services.db import SessionLocal
+    from services.models import User
+    with SessionLocal() as db:
+        db.query(User).filter(User.id == auth_user_id, User.push_token == data.token).update({"push_token": None})
+        db.commit()
+    return {"message": "Push token unregistered"}

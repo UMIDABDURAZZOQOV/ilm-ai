@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
-from sqlalchemy import func as sa_func
+from sqlalchemy import func as sa_func, update
 from sqlalchemy.orm import Session
 
 from services.auth_deps import ensure_own_user, get_authenticated_user_id, verify_user_access
@@ -27,7 +27,8 @@ from services.models import (
     User,
     UserLessonProgress,
 )
-from services.users import record_study_activity
+from services.study import record_activity
+from services.models import StudyEvent
 
 router = APIRouter(prefix="/skills", tags=["mock-exam"])
 
@@ -262,8 +263,15 @@ def complete_mock_exam(
     answers = {a.question_id: (a.user_answer or "") for a in data.answers}
 
     # Already-graded exam -> return idempotently (re-open the review, no re-award).
-    if exam.status == "completed":
-        return _exam_result_payload(db, user, exam, q_map)
+    claimed = db.execute(update(SkillMockExam).where(
+        SkillMockExam.id == exam.id, SkillMockExam.status != "completed"
+    ).values(status="completed").execution_options(synchronize_session=False)).rowcount
+    if not claimed:
+        db.rollback()
+        db.refresh(exam)
+        db.refresh(user)
+        return _exam_result_payload(db, user, exam, q_map, xp_awarded=min(exam.score or 0, 20))
+    user = db.query(User).filter_by(id=data.user_id).with_for_update().populate_existing().first()
 
     review = []
     score = 0
@@ -300,10 +308,12 @@ def complete_mock_exam(
     # becoming an XP farm (the per-question bank is finite).
     xp_awarded = min(score, 20)
     user.xp_total = (user.xp_total or 0) + xp_awarded
+    record_activity(db, user, now)
+    db.add(StudyEvent(user_id=user.id, source_key=f"mock:{exam.id}", kind="mock",
+                      xp=xp_awarded, created_at=now))
     db.add(user)
     db.commit()
     db.refresh(user)
-    record_study_activity(data.user_id)
 
     return _exam_result_payload(db, user, exam, q_map, xp_awarded=xp_awarded)
 

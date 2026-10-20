@@ -44,15 +44,6 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
     ) if unit_ids else []
     lesson_ids = [l.id for l in lessons]
 
-    prereqs = (
-        db.query(SkillLessonPrerequisite)
-        .filter(SkillLessonPrerequisite.lesson_id.in_(lesson_ids))
-        .all()
-    ) if lesson_ids else []
-    prereq_map: dict[int, list[int]] = {}
-    for p in prereqs:
-        prereq_map.setdefault(p.lesson_id, []).append(p.requires_lesson_id)
-
     progress_rows = (
         db.query(UserLessonProgress)
         .filter(
@@ -162,48 +153,16 @@ def build_tree(db: Session, user_id: int, subject_slug: str) -> dict | None:
 
 
 def lesson_status(db: Session, user_id: int, lesson: SkillLesson) -> str:
-    """Status for a single lesson (used by the start/complete endpoints to
-    reject starting a locked lesson without pulling the whole tree)."""
-    progress = (
-        db.query(UserLessonProgress)
-        .filter(UserLessonProgress.user_id == user_id, UserLessonProgress.lesson_id == lesson.id)
-        .first()
-    )
-    if progress and progress.completed_at is not None:
-        return "completed"
-
-    # Order-based (matches build_tree): the first not-yet-completed lesson in the
-    # subject's teaching order is unlocked; later ones are locked. Robust to stale
-    # prerequisite edges that were locking even the very first lesson.
     unit = db.query(SkillUnit).filter(SkillUnit.id == lesson.unit_id).first()
     if not unit:
-        return "unlocked"
-    units = (
-        db.query(SkillUnit)
-        .filter(SkillUnit.subject_id == unit.subject_id)
-        .order_by(SkillUnit.order_index)
-        .all()
-    )
-    unit_order = {u.id: u.order_index for u in units}
-    lessons = (
-        db.query(SkillLesson)
-        .filter(SkillLesson.unit_id.in_([u.id for u in units]))
-        .all()
-    )
-    lessons.sort(key=lambda l: (unit_order.get(l.unit_id, 0), l.order_index))
-    completed_ids = {
-        row[0]
-        for row in db.query(UserLessonProgress.lesson_id)
-        .filter(
-            UserLessonProgress.user_id == user_id,
-            UserLessonProgress.completed_at.isnot(None),
-        )
-        .all()
-    }
-    for l in lessons:
-        if l.id not in completed_ids:
-            return "unlocked" if l.id == lesson.id else "locked"
-    return "unlocked"
+        return "locked"
+    subject = db.query(SkillSubject).filter(SkillSubject.id == unit.subject_id).first()
+    tree = build_tree(db, user_id, subject.slug) if subject else None
+    for u in (tree or {}).get("units", []):
+        for item in u["lessons"]:
+            if item["id"] == lesson.id:
+                return item["status"]
+    return "locked"
 
 
 def newly_unlocked_lesson_ids(db: Session, user_id: int, completed_lesson: SkillLesson) -> list[int]:

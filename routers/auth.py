@@ -296,15 +296,11 @@ class RefreshRequest(BaseModel):
 
 @router.post("/refresh")
 def refresh_token(data: RefreshRequest):
-    user_id = verify_refresh_token(data.refresh_token)
-    if not user_id:
+    from services.tokens import rotate_refresh_token
+    result = rotate_refresh_token(data.refresh_token)
+    if result is None:
         raise HTTPException(status_code=401, detail="Invalid or expired refresh token")
-    # issue new tokens
-    access = create_access_token(user_id)
-    refresh = create_refresh_token(user_id)
-    # revoke old
-    revoke_refresh_token(data.refresh_token)
-    return {"access_token": access, "refresh_token": refresh}
+    return result
 
 
 @router.post("/logout")
@@ -338,6 +334,7 @@ def get_profile(user_id: int = Depends(verify_user_access)):
     
     # Remove password from response
     user.pop("password", None)
+    user["user_id"] = user["id"]  # Additive alias used by the mobile DTO.
     # A user must pick a name + age right after Google sign-in; until then age is null.
     user["needs_onboarding"] = user.get("age") is None
     return user
@@ -391,7 +388,7 @@ def update_profile(
 
 
 @router.get("/google-login")
-async def google_login(request: Request, redirect_uri: str = None):
+async def google_login(request: Request, redirect_uri: str = None, code_challenge: str | None = None, code_challenge_method: str | None = None):
     """Generate Google OAuth 2.0 authorization URL."""
     if not is_google_oauth_enabled():
         raise HTTPException(
@@ -402,7 +399,9 @@ async def google_login(request: Request, redirect_uri: str = None):
     if not redirect_uri:
         redirect_uri = f"{request.base_url}auth/google-callback"
     
-    auth_url, state = await get_google_auth_url(request, redirect_uri)
+    if code_challenge and code_challenge_method != "S256":
+        raise HTTPException(400, "pkce_s256_required")
+    auth_url, state = await get_google_auth_url(request, redirect_uri, code_challenge)
     return {"auth_url": auth_url, "state": state}
 
 
@@ -437,7 +436,8 @@ async def google_callback(code: str, state: str, request: Request, redirect_uri:
 
 
 @router.get("/google-callback-mobile")
-async def google_callback_mobile(code: str, state: str, request: Request):
+async def google_callback_mobile(request: Request, code: str | None = None,
+                                 state: str | None = None, error: str | None = None):
     """
     Handle Google OAuth callback for the mobile app.
 
@@ -456,22 +456,26 @@ async def google_callback_mobile(code: str, state: str, request: Request):
     redirect_uri = f"{request.base_url}auth/google-callback-mobile"
 
     try:
-        result = await handle_google_callback(request, redirect_uri)
-    except HTTPException as e:
+        if error or not code:
+            from services.mobile_oauth import consume_state
+            consume_state(state, redirect_uri)
+            raise HTTPException(400, "oauth_cancelled")
+        result = await handle_google_callback(request, redirect_uri, mobile=True)
+    except HTTPException:
         from urllib.parse import urlencode
-        query = urlencode({"error": e.detail})
-        return RedirectResponse(url=f"ilmai://auth/callback?{query}")
-
-    if result.get("user_id"):
-        track_user_login(result["user_id"], result["email"], method="google")
-
-    from urllib.parse import urlencode
-    query = urlencode({
-        "access_token": result["access_token"],
-        "refresh_token": result["refresh_token"],
-        "user_id": result["user_id"],
-        "name": result["name"],
-        "email": result["email"],
-        "needs_onboarding": "1" if result.get("needs_onboarding") else "0",
-    })
+        query = urlencode({"error": "oauth_failed", "state": state})
+    else:
+        from urllib.parse import urlencode
+        query = urlencode({"code": result["code"], "state": state})
     return RedirectResponse(url=f"ilmai://auth/callback?{query}")
+
+
+class MobileExchangeRequest(BaseModel):
+    code: str
+    code_verifier: str
+
+
+@router.post("/mobile/exchange")
+def mobile_exchange(data: MobileExchangeRequest):
+    from services.mobile_oauth import exchange_grant
+    return exchange_grant(data.code, data.code_verifier)
