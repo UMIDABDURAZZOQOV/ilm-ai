@@ -157,6 +157,58 @@ Kod commitlari: backend **`d69918d`** (14 fayl), Flutter **`454178d`** (22 fayl)
 
 O‘zgargan modullar: backend `routers/{auth,skills,mock_exam}.py`, `services/{models,skill_tree,study,curriculum,curriculum_validation}.py`, uchta source/import/diagnostic skript, ikki JSON manifest va yangi backend test fayli; Flutter network/auth/onboarding, grade DTO/repository/provider/screen, theory/question/practice source button, path layout/motion va test/fixturelar. Aniq fayl inventari commit diff’larida; eski kontent seederlari, banklar, `users.json`, theme/brand assetlari va veb kodiga tegilmagan.
 
+**GitHub handoff (2026-10-20):** backend `d69918d` + hujjat `73fe6c9` va Flutter `454178d` haqiqatan `feat/biology-curriculum` remote branchlariga push qilindi. Har ikki repo uchun base `feat/mobile-release-hardening` bilan `gh pr create --draft` sinab ko‘rildi; ikkisi ham `Post https://api.github.com/graphql: Forbidden` qaytardi. **PR yaratilmagan.** Git push muvaffaqiyatli; tayyor PR matnlari workspace `.setup/biology-pr-backend.md` va `.setup/biology-pr-flutter.md` da. Yuqoridagi compare havolalari orqali review/draft ochish mumkin. Remote CI holati kuzatilmagan. Ushbu handoff yozuvi alohida docs commitida shu backend feature branchga yuboriladi.
+
+**Ushbu bosqichning aniq fayllari** (markaziy `CLAUDE.md` alohida docs commitlarida):
+
+
+ilm-ai:
+
+```text
+routers/auth.py
+routers/mock_exam.py
+routers/skills.py
+scripts/catalog_biology_sources.py
+scripts/check_mobile_backend.py
+scripts/curriculum/biology_5_first_lesson.json
+scripts/curriculum/biology_sources.json
+scripts/import_biology_curriculum.py
+services/curriculum.py
+services/curriculum_validation.py
+services/models.py
+services/skill_tree.py
+services/study.py
+tests/test_biology_curriculum.py
+```
+
+
+ilm-ai-flutter:
+
+```text
+lib/core/network/api_contract.dart
+lib/core/network/error_message.dart
+lib/core/widgets/motion.dart
+lib/features/auth/data/auth_repository.dart
+lib/features/onboarding/presentation/duo_onboarding_screen.dart
+lib/features/skills/data/curriculum_models.dart
+lib/features/skills/data/skill_extras_models.dart
+lib/features/skills/data/skill_tree_models.dart
+lib/features/skills/data/skill_tree_repository.dart
+lib/features/skills/presentation/content_source_button.dart
+lib/features/skills/presentation/curriculum_learning_screen.dart
+lib/features/skills/presentation/skill_lesson_screen.dart
+lib/features/skills/presentation/skill_path_screen.dart
+lib/features/skills/presentation/skill_practice_screen.dart
+lib/features/skills/presentation/subject_home_screen.dart
+test/biology_curriculum_test.dart
+test/fixtures/biology_first_lesson.json
+test/fixtures/biology_first_result.json
+test/fixtures/biology_grade5_outline.json
+test/fixtures/biology_grade5_tree.json
+test/fixtures/biology_grades.json
+test/subject_experience_test.dart
+```
+
 Qolgan ishlar:
 
 1. **6 va 8-sinf manbasi bloklangan:** ularni har biri 32 MiB’dan kichik siqilgan yoki sahifalarga bo‘lingan PDF holida olish kerak. Manba o‘qilmaguncha yil/muallif/mundarija/savol yaratilmadi. Yangi fayl/segment SHA va original bosma/PDF mappingni aniq qayd etib, `BOOKS`/parser katalogiga manbadan qo‘shish kerak. Hozirgi metadata bilan boshqa nashrni almashtirmang.
