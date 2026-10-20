@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-17-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-27",
+  "title": "Daryo qisqichbaqasining ichki tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-17-f1": {
+      "claim": "Qisqichbaqada oziq katta oshqozonda maydalanadi, kichik oshqozonda suziladi; keyin ichak va hazm bezi bilan bog‘liq hazm davom etadi.",
+      "answer": "Kattasida maydalash, kichigida suzish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f2": {
+      "claim": "Qisqichbaqa yuragidan chiqqan qon tomirlar orqali tana bo‘shlig‘iga o‘tib to‘qimalarga moddalar yetkazadi; qon aylanishi ochiqdir.",
+      "answer": "Ochiq qon aylanishini",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f3": {
+      "claim": "Qisqichbaqa jabralarida suvdagi kislorod qonga o‘tadi, karbonat angidrid esa suvga chiqariladi.",
+      "answer": "Suvdan qonga",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f4": {
+      "claim": "Bosh tomonda joylashgan bir juft yashil bez va naychalari moddalar almashinuvi chiqindilarini chiqaradi.",
+      "answer": "Bir juft yashil bez",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f5": {
+      "claim": "Qisqichbaqaning murakkab ko‘zi ko‘p mayda ko‘zchalardan tuzilgan; ularning birgalikdagi tasviri mozaik ko‘rish deyiladi.",
+      "answer": "Mozaik ko‘rish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-17-f6": {
+      "claim": "Dafniya va siklop chuchuk suvda muallaq yashaydigan mayda qisqichbaqasimonlardir; baliqlar uchun oziq bo‘la oladi.",
+      "answer": "Dafniya va siklop",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki bo‘limli oshqozon",
+      "body": "Qisqichbaqada oziq katta oshqozonda maydalanadi, kichik oshqozonda suziladi; keyin ichak va hazm bezi bilan bog‘liq hazm davom etadi.",
+      "fact_ids": [
+        "paragraph-17-f1"
+      ]
+    },
+    {
+      "title": "Ochiq qon aylanish yo‘li",
+      "body": "Qisqichbaqa yuragidan chiqqan qon tomirlar orqali tana bo‘shlig‘iga o‘tib to‘qimalarga moddalar yetkazadi; qon aylanishi ochiqdir.",
+      "fact_ids": [
+        "paragraph-17-f2"
+      ]
+    },
+    {
+      "title": "Jabralarda gaz almashinuvi",
+      "body": "Qisqichbaqa jabralarida suvdagi kislorod qonga o‘tadi, karbonat angidrid esa suvga chiqariladi.",
+      "fact_ids": [
+        "paragraph-17-f3"
+      ]
+    },
+    {
+      "title": "Yashil bezlar — ayirish organi",
+      "body": "Bosh tomonda joylashgan bir juft yashil bez va naychalari moddalar almashinuvi chiqindilarini chiqaradi.",
+      "fact_ids": [
+        "paragraph-17-f4"
+      ]
+    },
+    {
+      "title": "Ko‘p ko‘zchadan yaxlit tasvir",
+      "body": "Qisqichbaqaning murakkab ko‘zi ko‘p mayda ko‘zchalardan tuzilgan; ularning birgalikdagi tasviri mozaik ko‘rish deyiladi.",
+      "fact_ids": [
+        "paragraph-17-f5"
+      ]
+    },
+    {
+      "title": "Mayda qisqichbaqasimonlar",
+      "body": "Dafniya va siklop chuchuk suvda muallaq yashaydigan mayda qisqichbaqasimonlardir; baliqlar uchun oziq bo‘la oladi.",
+      "fact_ids": [
+        "paragraph-17-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-17-q1",
+      "fact_id": "paragraph-17-f1",
+      "question_text": "Qisqichbaqaning katta va kichik oshqozoni vazifalari qanday farqlanadi?",
+      "options": [
+        "Kattasida maydalash, kichigida suzish",
+        "Kattasida kislorod olish, kichigida qon haydash",
+        "Ikkalasida faqat tuxum rivojlanishi",
+        "Kattasida yorug‘lik sezish, kichigida tovush sezish"
+      ],
+      "correct_answer": "Kattasida maydalash, kichigida suzish",
+      "explanation": "Qisqichbaqada oziq katta oshqozonda maydalanadi, kichik oshqozonda suziladi; keyin ichak va hazm bezi bilan bog‘liq hazm davom etadi."
+    },
+    {
+      "key": "paragraph-17-q2",
+      "fact_id": "paragraph-17-f2",
+      "question_text": "Qisqichbaqaning qoni tomirdan tana bo‘shlig‘iga o‘tishi nimani bildiradi?",
+      "options": [
+        "Faqat yopiq kapillyarlar doirasini",
+        "Qon aylanish yo‘qligini",
+        "Qon o‘rniga dengiz tuzi oqishini",
+        "Ochiq qon aylanishini"
+      ],
+      "correct_answer": "Ochiq qon aylanishini",
+      "explanation": "Qisqichbaqa yuragidan chiqqan qon tomirlar orqali tana bo‘shlig‘iga o‘tib to‘qimalarga moddalar yetkazadi; qon aylanishi ochiqdir."
+    },
+    {
+      "key": "paragraph-17-q3",
+      "fact_id": "paragraph-17-f3",
+      "question_text": "Qisqichbaqa jabrasida kislorod qaysi tomonga o‘tadi?",
+      "options": [
+        "Faqat tuxumdan suvga",
+        "Faqat chig‘anoqdan havoga",
+        "Suvdan qonga",
+        "Qondan doim tuproqqa"
+      ],
+      "correct_answer": "Suvdan qonga",
+      "explanation": "Qisqichbaqa jabralarida suvdagi kislorod qonga o‘tadi, karbonat angidrid esa suvga chiqariladi."
+    },
+    {
+      "key": "paragraph-17-q4",
+      "fact_id": "paragraph-17-f4",
+      "question_text": "Daryo qisqichbaqasining ayirish organini toping.",
+      "options": [
+        "Faqat qisqich muskuli",
+        "Bir juft yashil bez",
+        "Faqat qorin nerv zanjiri",
+        "Faqat katta oshqozon"
+      ],
+      "correct_answer": "Bir juft yashil bez",
+      "explanation": "Bosh tomonda joylashgan bir juft yashil bez va naychalari moddalar almashinuvi chiqindilarini chiqaradi."
+    },
+    {
+      "key": "paragraph-17-q5",
+      "fact_id": "paragraph-17-f5",
+      "question_text": "Ko‘plab mayda ko‘zchalarning birgalikdagi ko‘rishi qanday ataladi?",
+      "options": [
+        "Mozaik ko‘rish",
+        "Nurli simmetriya",
+        "Reaktiv harakat",
+        "Ko‘ndalang bo‘linish"
+      ],
+      "correct_answer": "Mozaik ko‘rish",
+      "explanation": "Qisqichbaqaning murakkab ko‘zi ko‘p mayda ko‘zchalardan tuzilgan; ularning birgalikdagi tasviri mozaik ko‘rish deyiladi."
+    },
+    {
+      "key": "paragraph-17-q6",
+      "fact_id": "paragraph-17-f6",
+      "question_text": "Qaysi juftlik baliqlar oziqlanadigan mayda chuchuk suv qisqichbaqasimonlaridan iborat?",
+      "options": [
+        "Gidra va aktiniya",
+        "Planariya va askarida",
+        "Lola va piyoz",
+        "Dafniya va siklop"
+      ],
+      "correct_answer": "Dafniya va siklop",
+      "explanation": "Dafniya va siklop chuchuk suvda muallaq yashaydigan mayda qisqichbaqasimonlardir; baliqlar uchun oziq bo‘la oladi."
+    }
+  ]
+}

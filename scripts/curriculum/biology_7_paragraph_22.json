@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-22-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-35",
+  "title": "Hasharotlarning ko‘payishi va rivojlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-22-f1": {
+      "claim": "Bronza qo‘ng‘izi tuxumini chirigan yog‘ochga qo‘yadi; undan chiqqan qurt yog‘och qoldiqlari bilan oziqlanadi va voyaga yetgan qo‘ng‘izga o‘xshamaydi.",
+      "answer": "Chirigan yog‘och qoldiqlaridan",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f2": {
+      "claim": "Bronza qo‘ng‘izi g‘umbagi oziqlanmaydi; qurtlikda to‘plangan zaxira hisobiga yashab, ichida voyaga yetgan hasharot organlari shakllanadi.",
+      "answer": "Qurtlikda to‘plangan zaxira hisobiga",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f3": {
+      "claim": "To‘liq o‘zgarishda tuxumdan qurt chiqadi, u g‘umbakka aylanadi va undan voyaga yetgan hasharot rivojlanadi.",
+      "answer": "Tuxum → qurt → g‘umbak → voyaga yetgan hasharot",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f4": {
+      "claim": "Chigirtka va suvarakning tuxumidan chiqqan yosh bosqichi voyaga yetgan hasharotga o‘xshaydi, ammo kichik va qanotlari rivojlanmagan bo‘ladi.",
+      "answer": "Kattasiga o‘xshaydi, kichik va qanotlari rivojlanmagan",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f5": {
+      "claim": "Qo‘ng‘iz, kapalak, pashsha, burga, chumoli va arilar to‘liq o‘zgarish bilan rivojlanadi; ularda g‘umbak bosqichi mavjud.",
+      "answer": "Qo‘ng‘iz, kapalak, pashsha",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f6": {
+      "claim": "Kapalak xartumi bilan gul nektarini so‘radi, uning qurti esa kemiruvchi og‘zi bilan o‘simlik to‘qimasini yeydi. Rivojlanish bosqichlarining oziqlanishi farq qiladi.",
+      "answer": "Kapalak nektar so‘radi, qurti to‘qimani kemiradi",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qurtning oziqlanish joyi",
+      "body": "Bronza qo‘ng‘izi tuxumini chirigan yog‘ochga qo‘yadi; undan chiqqan qurt yog‘och qoldiqlari bilan oziqlanadi va voyaga yetgan qo‘ng‘izga o‘xshamaydi.",
+      "fact_ids": [
+        "paragraph-22-f1"
+      ]
+    },
+    {
+      "title": "G‘umbak davrining mazmuni",
+      "body": "Bronza qo‘ng‘izi g‘umbagi oziqlanmaydi; qurtlikda to‘plangan zaxira hisobiga yashab, ichida voyaga yetgan hasharot organlari shakllanadi.",
+      "fact_ids": [
+        "paragraph-22-f2"
+      ]
+    },
+    {
+      "title": "To‘liq o‘zgarish bosqichlari",
+      "body": "To‘liq o‘zgarishda tuxumdan qurt chiqadi, u g‘umbakka aylanadi va undan voyaga yetgan hasharot rivojlanadi.",
+      "fact_ids": [
+        "paragraph-22-f3"
+      ]
+    },
+    {
+      "title": "Chala o‘zgarishda o‘xshashlik",
+      "body": "Chigirtka va suvarakning tuxumidan chiqqan yosh bosqichi voyaga yetgan hasharotga o‘xshaydi, ammo kichik va qanotlari rivojlanmagan bo‘ladi.",
+      "fact_ids": [
+        "paragraph-22-f4"
+      ]
+    },
+    {
+      "title": "Rivojlanish turini ajratish",
+      "body": "Qo‘ng‘iz, kapalak, pashsha, burga, chumoli va arilar to‘liq o‘zgarish bilan rivojlanadi; ularda g‘umbak bosqichi mavjud.",
+      "fact_ids": [
+        "paragraph-22-f5"
+      ]
+    },
+    {
+      "title": "Bir turda turli oziq",
+      "body": "Kapalak xartumi bilan gul nektarini so‘radi, uning qurti esa kemiruvchi og‘zi bilan o‘simlik to‘qimasini yeydi. Rivojlanish bosqichlarining oziqlanishi farq qiladi.",
+      "fact_ids": [
+        "paragraph-22-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-22-q1",
+      "fact_id": "paragraph-22-f1",
+      "question_text": "Bronza qo‘ng‘izining qurti qaysi oziqdan foydalanadi?",
+      "options": [
+        "Chirigan yog‘och qoldiqlaridan",
+        "Faqat hayvon qonidan",
+        "Faqat gul nektaridan",
+        "Faqat dengiz planktonidan"
+      ],
+      "correct_answer": "Chirigan yog‘och qoldiqlaridan",
+      "explanation": "Bronza qo‘ng‘izi tuxumini chirigan yog‘ochga qo‘yadi; undan chiqqan qurt yog‘och qoldiqlari bilan oziqlanadi va voyaga yetgan qo‘ng‘izga o‘xshamaydi."
+    },
+    {
+      "key": "paragraph-22-q2",
+      "fact_id": "paragraph-22-f2",
+      "question_text": "Bronza qo‘ng‘izi g‘umbagi oziqlanmay qanday yashaydi?",
+      "options": [
+        "Har kuni bargni jag‘i bilan kemirib",
+        "Suvdan nektar filtrlab",
+        "Faqat tuproqda fotosintez qilib",
+        "Qurtlikda to‘plangan zaxira hisobiga"
+      ],
+      "correct_answer": "Qurtlikda to‘plangan zaxira hisobiga",
+      "explanation": "Bronza qo‘ng‘izi g‘umbagi oziqlanmaydi; qurtlikda to‘plangan zaxira hisobiga yashab, ichida voyaga yetgan hasharot organlari shakllanadi."
+    },
+    {
+      "key": "paragraph-22-q3",
+      "fact_id": "paragraph-22-f3",
+      "question_text": "To‘liq o‘zgarish bosqichlarini to‘g‘ri tartiblang.",
+      "options": [
+        "Qurt → tuxum → voyaga yetgan hasharot → g‘umbak",
+        "G‘umbak → tuxum → qurt → urug‘",
+        "Tuxum → qurt → g‘umbak → voyaga yetgan hasharot",
+        "Tuxum → g‘umbak → qurt → voyaga yetgan hasharot"
+      ],
+      "correct_answer": "Tuxum → qurt → g‘umbak → voyaga yetgan hasharot",
+      "explanation": "To‘liq o‘zgarishda tuxumdan qurt chiqadi, u g‘umbakka aylanadi va undan voyaga yetgan hasharot rivojlanadi."
+    },
+    {
+      "key": "paragraph-22-q4",
+      "fact_id": "paragraph-22-f4",
+      "question_text": "Chigirtkaning yosh bosqichi uchun qaysi tavsif to‘g‘ri?",
+      "options": [
+        "Hech qanday oyoqlari rivojlanmaydi",
+        "Kattasiga o‘xshaydi, kichik va qanotlari rivojlanmagan",
+        "Dastlab albatta g‘umbakdan chiqadi",
+        "Voyaga yetguncha faqat o‘simlik urug‘i bo‘ladi"
+      ],
+      "correct_answer": "Kattasiga o‘xshaydi, kichik va qanotlari rivojlanmagan",
+      "explanation": "Chigirtka va suvarakning tuxumidan chiqqan yosh bosqichi voyaga yetgan hasharotga o‘xshaydi, ammo kichik va qanotlari rivojlanmagan bo‘ladi."
+    },
+    {
+      "key": "paragraph-22-q5",
+      "fact_id": "paragraph-22-f5",
+      "question_text": "Qaysi qatorda to‘liq o‘zgarish bilan rivojlanadigan hasharotlar bor?",
+      "options": [
+        "Qo‘ng‘iz, kapalak, pashsha",
+        "Chigirtka, suvarak, ninachi",
+        "Kana, chayon, o‘rgimchak",
+        "Gidra, aktiniya, meduza"
+      ],
+      "correct_answer": "Qo‘ng‘iz, kapalak, pashsha",
+      "explanation": "Qo‘ng‘iz, kapalak, pashsha, burga, chumoli va arilar to‘liq o‘zgarish bilan rivojlanadi; ularda g‘umbak bosqichi mavjud."
+    },
+    {
+      "key": "paragraph-22-q6",
+      "fact_id": "paragraph-22-f6",
+      "question_text": "Kapalak va uning qurti oziqlanishidagi farq qaysi?",
+      "options": [
+        "Ikkalasi faqat qon so‘radi",
+        "Qurti nektar so‘radi, kapalak barg kemiradi",
+        "Ikkalasi faqat yog‘ochdan ohak hosil qiladi",
+        "Kapalak nektar so‘radi, qurti to‘qimani kemiradi"
+      ],
+      "correct_answer": "Kapalak nektar so‘radi, qurti to‘qimani kemiradi",
+      "explanation": "Kapalak xartumi bilan gul nektarini so‘radi, uning qurti esa kemiruvchi og‘zi bilan o‘simlik to‘qimasini yeydi. Rivojlanish bosqichlarining oziqlanishi farq qiladi."
+    }
+  ]
+}

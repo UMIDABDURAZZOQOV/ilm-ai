@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-20-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-32",
+  "title": "Yashil bronza qo‘ng‘izining tashqi tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-20-f1": {
+      "claim": "Yashil bronza qo‘ng‘izi tanasi bosh, ko‘krak va qorin bo‘limlaridan iborat. Bu uch bo‘limli tuzilish o‘rgimchakning ikki bo‘limidan farqlanadi.",
+      "answer": "Bosh, ko‘krak, qorin",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f2": {
+      "claim": "Hasharot ko‘kragining uchta bo‘g‘imiga bittadan juft oyoq birikadi; jami olti oyoq bo‘ladi.",
+      "answer": "Ko‘krakka",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f3": {
+      "claim": "Qo‘ng‘izning qattiq ustqanotlari nozik pardasimon ostqanotlari va yumshoq qorin qismini himoya qiladi.",
+      "answer": "Ostqanot va qorinni himoya qiladi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f4": {
+      "claim": "Bronza qo‘ng‘izi ko‘zlari oldida yelpig‘ichsimon mo‘ylovlar joylashgan; ular hid bilishda qatnashadi.",
+      "answer": "Hid bilish",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f5": {
+      "claim": "Chigirtkaning orqa oyoqlari sakrash uchun yo‘g‘on va uzun; suv hasharotlarida oyoq eshkaksimon, buzoqboshining oldingi oyog‘i kovlashga moslashgan.",
+      "answer": "Tuproq kovlashga",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          75
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f6": {
+      "claim": "Qo‘ng‘izning ikki yonidagi murakkab ko‘zlar ko‘p mayda ko‘zchalardan tuzilgan; ularda mozaik ko‘rish mavjud.",
+      "answer": "Daryo qisqichbaqasinikiga",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hasharotning uch bo‘limi",
+      "body": "Yashil bronza qo‘ng‘izi tanasi bosh, ko‘krak va qorin bo‘limlaridan iborat. Bu uch bo‘limli tuzilish o‘rgimchakning ikki bo‘limidan farqlanadi.",
+      "fact_ids": [
+        "paragraph-20-f1"
+      ]
+    },
+    {
+      "title": "Uch juft oyoqning joyi",
+      "body": "Hasharot ko‘kragining uchta bo‘g‘imiga bittadan juft oyoq birikadi; jami olti oyoq bo‘ladi.",
+      "fact_ids": [
+        "paragraph-20-f2"
+      ]
+    },
+    {
+      "title": "Ustqanot va ostqanot",
+      "body": "Qo‘ng‘izning qattiq ustqanotlari nozik pardasimon ostqanotlari va yumshoq qorin qismini himoya qiladi.",
+      "fact_ids": [
+        "paragraph-20-f3"
+      ]
+    },
+    {
+      "title": "Mo‘ylov va sezish",
+      "body": "Bronza qo‘ng‘izi ko‘zlari oldida yelpig‘ichsimon mo‘ylovlar joylashgan; ular hid bilishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-20-f4"
+      ]
+    },
+    {
+      "title": "Oyoq shakli va vazifa",
+      "body": "Chigirtkaning orqa oyoqlari sakrash uchun yo‘g‘on va uzun; suv hasharotlarida oyoq eshkaksimon, buzoqboshining oldingi oyog‘i kovlashga moslashgan.",
+      "fact_ids": [
+        "paragraph-20-f5"
+      ]
+    },
+    {
+      "title": "Ko‘rishni taqqoslash",
+      "body": "Qo‘ng‘izning ikki yonidagi murakkab ko‘zlar ko‘p mayda ko‘zchalardan tuzilgan; ularda mozaik ko‘rish mavjud.",
+      "fact_ids": [
+        "paragraph-20-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-20-q1",
+      "fact_id": "paragraph-20-f1",
+      "question_text": "Bronza qo‘ng‘izi tanasining uch bo‘limini toping.",
+      "options": [
+        "Bosh, ko‘krak, qorin",
+        "Boshko‘krak va qorin",
+        "Bosh, bo‘yin, dum suzgich",
+        "Mantiya, oyoq, chig‘anoq"
+      ],
+      "correct_answer": "Bosh, ko‘krak, qorin",
+      "explanation": "Yashil bronza qo‘ng‘izi tanasi bosh, ko‘krak va qorin bo‘limlaridan iborat. Bu uch bo‘limli tuzilish o‘rgimchakning ikki bo‘limidan farqlanadi."
+    },
+    {
+      "key": "paragraph-20-q2",
+      "fact_id": "paragraph-20-f2",
+      "question_text": "Bronza qo‘ng‘izining uch juft oyoqlari qaysi bo‘limga birikkan?",
+      "options": [
+        "Faqat qoringa",
+        "Faqat boshga",
+        "Faqat mo‘ylovlarga",
+        "Ko‘krakka"
+      ],
+      "correct_answer": "Ko‘krakka",
+      "explanation": "Hasharot ko‘kragining uchta bo‘g‘imiga bittadan juft oyoq birikadi; jami olti oyoq bo‘ladi."
+    },
+    {
+      "key": "paragraph-20-q3",
+      "fact_id": "paragraph-20-f3",
+      "question_text": "Bronza qo‘ng‘izining qattiq ustqanoti asosan nima qiladi?",
+      "options": [
+        "Faqat tuxum yetishtiradi",
+        "Faqat qonning kislorodini tashiydi",
+        "Ostqanot va qorinni himoya qiladi",
+        "Faqat oziqni ichakda hazm qiladi"
+      ],
+      "correct_answer": "Ostqanot va qorinni himoya qiladi",
+      "explanation": "Qo‘ng‘izning qattiq ustqanotlari nozik pardasimon ostqanotlari va yumshoq qorin qismini himoya qiladi."
+    },
+    {
+      "key": "paragraph-20-q4",
+      "fact_id": "paragraph-20-f4",
+      "question_text": "Yelpig‘ichsimon mo‘ylovning asosiy sezgi vazifasi nima?",
+      "options": [
+        "Oziqni oshqozonda ezish",
+        "Hid bilish",
+        "Qon haydash",
+        "Tuxumni urug‘lantirish"
+      ],
+      "correct_answer": "Hid bilish",
+      "explanation": "Bronza qo‘ng‘izi ko‘zlari oldida yelpig‘ichsimon mo‘ylovlar joylashgan; ular hid bilishda qatnashadi."
+    },
+    {
+      "key": "paragraph-20-q5",
+      "fact_id": "paragraph-20-f5",
+      "question_text": "Belkuraksimon oldingi oyoq qaysi faoliyatga moslashgan?",
+      "options": [
+        "Tuproq kovlashga",
+        "Nektar so‘rishga",
+        "Hid sezishga",
+        "Qon haydashga"
+      ],
+      "correct_answer": "Tuproq kovlashga",
+      "explanation": "Chigirtkaning orqa oyoqlari sakrash uchun yo‘g‘on va uzun; suv hasharotlarida oyoq eshkaksimon, buzoqboshining oldingi oyog‘i kovlashga moslashgan."
+    },
+    {
+      "key": "paragraph-20-q6",
+      "fact_id": "paragraph-20-f6",
+      "question_text": "Bronza qo‘ng‘izi murakkab ko‘zi qaysi hayvondagi ko‘rish turiga o‘xshaydi?",
+      "options": [
+        "Faqat planariya ko‘zchasiga",
+        "Faqat evglena qizil dog‘iga",
+        "Faqat gidra nerv to‘riga",
+        "Daryo qisqichbaqasinikiga"
+      ],
+      "correct_answer": "Daryo qisqichbaqasinikiga",
+      "explanation": "Qo‘ng‘izning ikki yonidagi murakkab ko‘zlar ko‘p mayda ko‘zchalardan tuzilgan; ularda mozaik ko‘rish mavjud."
+    }
+  ]
+}

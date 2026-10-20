@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-15-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-23",
+  "title": "Ikki pallali va boshoyoqli mollyuskalar sinfi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-15-f1": {
+      "claim": "Baqachanoqning boshi yo‘q; tanasi ikki pallali chig‘anoq ichida, muskulli ponasimon oyog‘i esa sekin harakatlanishga yordam beradi.",
+      "answer": "Boshi yo‘q, chig‘anog‘i ikki pallali",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f2": {
+      "claim": "Suv pastki kirish sifonidan mantiya bo‘shlig‘iga kirib, yuqorigi chiqish sifonidan chiqadi. Suv bilan oziq zarralari ham kiradi.",
+      "answer": "Kirish sifoni → mantiya bo‘shlig‘i → chiqish sifoni",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          57
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f3": {
+      "claim": "Baqachanoq jabralari mantiya bo‘shlig‘ida joylashgan. Suvda erigan kislorod jabralar orqali qonga o‘tadi.",
+      "answer": "Jabralar",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          57
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f4": {
+      "claim": "Ikki pallali mollyuskalar suvdagi mikroorganizmlar va mayda organik zarralarni filtrlab oziqlanadi; bu suv havzasining tozalanishiga yordam beradi.",
+      "answer": "Oziqlanishda mayda zarralarni filtrlashi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f5": {
+      "claim": "Kalmar va boshqa boshoyoqlilar suvni mantiya bo‘shlig‘idan voronka orqali kuch bilan chiqarib reaktiv harakatlanadi.",
+      "answer": "Voronka",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f6": {
+      "claim": "Kalmar, sakkizoyoq va karakatitsa boshoyoqli mollyuskalardir. Ular dengizlarda yashaydigan yirtqichlar bo‘lib, paypaslagichlaridan o‘lja tutishda foydalanadi.",
+      "answer": "Kalmar, sakkizoyoq, karakatitsa",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki palla va ponasimon oyoq",
+      "body": "Baqachanoqning boshi yo‘q; tanasi ikki pallali chig‘anoq ichida, muskulli ponasimon oyog‘i esa sekin harakatlanishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-15-f1"
+      ]
+    },
+    {
+      "title": "Suv oqimini kuzatish",
+      "body": "Suv pastki kirish sifonidan mantiya bo‘shlig‘iga kirib, yuqorigi chiqish sifonidan chiqadi. Suv bilan oziq zarralari ham kiradi.",
+      "fact_ids": [
+        "paragraph-15-f2"
+      ]
+    },
+    {
+      "title": "Jabralar vazifasi",
+      "body": "Baqachanoq jabralari mantiya bo‘shlig‘ida joylashgan. Suvda erigan kislorod jabralar orqali qonga o‘tadi.",
+      "fact_ids": [
+        "paragraph-15-f3"
+      ]
+    },
+    {
+      "title": "Filtrlab oziqlanish",
+      "body": "Ikki pallali mollyuskalar suvdagi mikroorganizmlar va mayda organik zarralarni filtrlab oziqlanadi; bu suv havzasining tozalanishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-15-f4"
+      ]
+    },
+    {
+      "title": "Boshoyoqlining reaktiv harakati",
+      "body": "Kalmar va boshqa boshoyoqlilar suvni mantiya bo‘shlig‘idan voronka orqali kuch bilan chiqarib reaktiv harakatlanadi.",
+      "fact_ids": [
+        "paragraph-15-f5"
+      ]
+    },
+    {
+      "title": "Boshoyoqli vakillar",
+      "body": "Kalmar, sakkizoyoq va karakatitsa boshoyoqli mollyuskalardir. Ular dengizlarda yashaydigan yirtqichlar bo‘lib, paypaslagichlaridan o‘lja tutishda foydalanadi.",
+      "fact_ids": [
+        "paragraph-15-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-15-q1",
+      "fact_id": "paragraph-15-f1",
+      "question_text": "Baqachanoqni suv shillig‘idan farqlovchi belgi qaysi?",
+      "options": [
+        "Boshi yo‘q, chig‘anog‘i ikki pallali",
+        "Boshi va bitta spiral chig‘anog‘i bor",
+        "Uch juft oyoq va ikki qanot bor",
+        "Faqat bitta hujayradan iborat"
+      ],
+      "correct_answer": "Boshi yo‘q, chig‘anog‘i ikki pallali",
+      "explanation": "Baqachanoqning boshi yo‘q; tanasi ikki pallali chig‘anoq ichida, muskulli ponasimon oyog‘i esa sekin harakatlanishga yordam beradi."
+    },
+    {
+      "key": "paragraph-15-q2",
+      "fact_id": "paragraph-15-f2",
+      "question_text": "Baqachanoqda suv oqimining yo‘li qaysi?",
+      "options": [
+        "Chiqish sifoni → qattiq chig‘anoq ichki moddasi",
+        "Og‘iz → yadro → kirish sifoni",
+        "Oyoq → qon tomiri → gul",
+        "Kirish sifoni → mantiya bo‘shlig‘i → chiqish sifoni"
+      ],
+      "correct_answer": "Kirish sifoni → mantiya bo‘shlig‘i → chiqish sifoni",
+      "explanation": "Suv pastki kirish sifonidan mantiya bo‘shlig‘iga kirib, yuqorigi chiqish sifonidan chiqadi. Suv bilan oziq zarralari ham kiradi."
+    },
+    {
+      "key": "paragraph-15-q3",
+      "fact_id": "paragraph-15-f3",
+      "question_text": "Baqachanoqning asosiy nafas olish organi nima?",
+      "options": [
+        "Traxeya",
+        "Faqat quruq teri",
+        "Jabralar",
+        "O‘pka"
+      ],
+      "correct_answer": "Jabralar",
+      "explanation": "Baqachanoq jabralari mantiya bo‘shlig‘ida joylashgan. Suvda erigan kislorod jabralar orqali qonga o‘tadi."
+    },
+    {
+      "key": "paragraph-15-q4",
+      "fact_id": "paragraph-15-f4",
+      "question_text": "Ikki pallali mollyuskalarning suvga foydasi qaysi jarayon bilan bog‘liq?",
+      "options": [
+        "Faqat atmosferadan oziq olishi",
+        "Oziqlanishda mayda zarralarni filtrlashi",
+        "Barcha suvni tuproqqa aylantirishi",
+        "Faqat yirik baliqlarni tutishi"
+      ],
+      "correct_answer": "Oziqlanishda mayda zarralarni filtrlashi",
+      "explanation": "Ikki pallali mollyuskalar suvdagi mikroorganizmlar va mayda organik zarralarni filtrlab oziqlanadi; bu suv havzasining tozalanishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-15-q5",
+      "fact_id": "paragraph-15-f5",
+      "question_text": "Boshoyoqlida suvni chiqarib siljishga xizmat qiladigan tuzilma qaysi?",
+      "options": [
+        "Voronka",
+        "Ponasimon oyoq uchi",
+        "Kirish sifonidagi ildiz",
+        "Qisqaruvchi vakuola"
+      ],
+      "correct_answer": "Voronka",
+      "explanation": "Kalmar va boshqa boshoyoqlilar suvni mantiya bo‘shlig‘idan voronka orqali kuch bilan chiqarib reaktiv harakatlanadi."
+    },
+    {
+      "key": "paragraph-15-q6",
+      "fact_id": "paragraph-15-f6",
+      "question_text": "Qaysi qatorda boshoyoqli mollyuskalar berilgan?",
+      "options": [
+        "Midiya, ustritsa, baqachanoq",
+        "Tok shillig‘i, yalang‘och shilliq, bitiniya",
+        "Daryo qisqichbaqasi, o‘rgimchak, qo‘ng‘iz",
+        "Kalmar, sakkizoyoq, karakatitsa"
+      ],
+      "correct_answer": "Kalmar, sakkizoyoq, karakatitsa",
+      "explanation": "Kalmar, sakkizoyoq va karakatitsa boshoyoqli mollyuskalardir. Ular dengizlarda yashaydigan yirtqichlar bo‘lib, paypaslagichlaridan o‘lja tutishda foydalanadi."
+    }
+  ]
+}

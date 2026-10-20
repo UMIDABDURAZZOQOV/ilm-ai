@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-16-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-26",
+  "title": "Daryo qisqichbaqasining tashqi tuzilishi va ko‘payishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-16-f1": {
+      "claim": "Daryo qisqichbaqasining qattiq xitin qoplami tanani himoya qiladi va muskullar birikadigan tashqi tayanch bo‘ladi.",
+      "answer": "Himoya va tashqi tayanch",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f2": {
+      "claim": "Qisqichbaqa tanasi boshko‘krak va qorin bo‘limlariga ajraladi; boshko‘krak bosh bilan ko‘krakning birikishidan hosil bo‘lgan.",
+      "answer": "Boshko‘krak va qorin",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f3": {
+      "claim": "Qisqichbaqada bir juft uzun va bir juft kalta mo‘ylov bor. Ular sezishda qatnashadigan organlardir.",
+      "answer": "Bir juft uzun va bir juft kalta",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f4": {
+      "claim": "Besh juft oyoqdan birinchi jufti oziq tutadigan qisqichga aylangan, keyingi to‘rt jufti suv tubida yurishga xizmat qiladi.",
+      "answer": "To‘rt juft",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f5": {
+      "claim": "Urg‘ochi qisqichbaqa tuxumlarini qorinoyoqlariga yopishtirib olib yuradi; yangi chiqqan yoshlar ham dastlab shu yerga yopishadi.",
+      "answer": "Qorinoyoqlariga",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f6": {
+      "claim": "Qattiq qoplag‘ich tananing uzluksiz kattalashishiga yo‘l qo‘ymaydi. Qisqichbaqa eski po‘stini tashlab, yangi qoplami qotguncha o‘sadi.",
+      "answer": "Tana kattalashishiga imkon beradi",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Xitin qoplag‘ich — tashqi skelet",
+      "body": "Daryo qisqichbaqasining qattiq xitin qoplami tanani himoya qiladi va muskullar birikadigan tashqi tayanch bo‘ladi.",
+      "fact_ids": [
+        "paragraph-16-f1"
+      ]
+    },
+    {
+      "title": "Tana bo‘limlarini ajratish",
+      "body": "Qisqichbaqa tanasi boshko‘krak va qorin bo‘limlariga ajraladi; boshko‘krak bosh bilan ko‘krakning birikishidan hosil bo‘lgan.",
+      "fact_ids": [
+        "paragraph-16-f2"
+      ]
+    },
+    {
+      "title": "Ikki juft mo‘ylov",
+      "body": "Qisqichbaqada bir juft uzun va bir juft kalta mo‘ylov bor. Ular sezishda qatnashadigan organlardir.",
+      "fact_ids": [
+        "paragraph-16-f3"
+      ]
+    },
+    {
+      "title": "Qisqich va yurish oyoqlari",
+      "body": "Besh juft oyoqdan birinchi jufti oziq tutadigan qisqichga aylangan, keyingi to‘rt jufti suv tubida yurishga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-16-f4"
+      ]
+    },
+    {
+      "title": "Tuxumlarni olib yurish",
+      "body": "Urg‘ochi qisqichbaqa tuxumlarini qorinoyoqlariga yopishtirib olib yuradi; yangi chiqqan yoshlar ham dastlab shu yerga yopishadi.",
+      "fact_ids": [
+        "paragraph-16-f5"
+      ]
+    },
+    {
+      "title": "O‘sish uchun tullash",
+      "body": "Qattiq qoplag‘ich tananing uzluksiz kattalashishiga yo‘l qo‘ymaydi. Qisqichbaqa eski po‘stini tashlab, yangi qoplami qotguncha o‘sadi.",
+      "fact_ids": [
+        "paragraph-16-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-16-q1",
+      "fact_id": "paragraph-16-f1",
+      "question_text": "Xitin qoplag‘ichning ikki asosiy vazifasi qaysi?",
+      "options": [
+        "Himoya va tashqi tayanch",
+        "Fotosintez va changlanish",
+        "Faqat suvni filtrlash va hazm qilish",
+        "Faqat tuxum va spermatozoid ishlab chiqarish"
+      ],
+      "correct_answer": "Himoya va tashqi tayanch",
+      "explanation": "Daryo qisqichbaqasining qattiq xitin qoplami tanani himoya qiladi va muskullar birikadigan tashqi tayanch bo‘ladi."
+    },
+    {
+      "key": "paragraph-16-q2",
+      "fact_id": "paragraph-16-f2",
+      "question_text": "Daryo qisqichbaqasi tanasining yirik bo‘limlari qaysi?",
+      "options": [
+        "Alohida bosh, ko‘krak va qorin",
+        "Faqat bosh va bo‘yin",
+        "Faqat oyoq va mantiya",
+        "Boshko‘krak va qorin"
+      ],
+      "correct_answer": "Boshko‘krak va qorin",
+      "explanation": "Qisqichbaqa tanasi boshko‘krak va qorin bo‘limlariga ajraladi; boshko‘krak bosh bilan ko‘krakning birikishidan hosil bo‘lgan."
+    },
+    {
+      "key": "paragraph-16-q3",
+      "fact_id": "paragraph-16-f3",
+      "question_text": "Qisqichbaqa mo‘ylovlarining to‘g‘ri tavsifi qaysi?",
+      "options": [
+        "Mo‘ylov bo‘lmaydi",
+        "To‘rt juft yurish mo‘ylovi",
+        "Bir juft uzun va bir juft kalta",
+        "Faqat bitta kalta mo‘ylov"
+      ],
+      "correct_answer": "Bir juft uzun va bir juft kalta",
+      "explanation": "Qisqichbaqada bir juft uzun va bir juft kalta mo‘ylov bor. Ular sezishda qatnashadigan organlardir."
+    },
+    {
+      "key": "paragraph-16-q4",
+      "fact_id": "paragraph-16-f4",
+      "question_text": "Qisqichga aylangan birinchi juftdan keyin nechta juft haqiqiy yurish oyog‘i qoladi?",
+      "options": [
+        "Olti juft",
+        "To‘rt juft",
+        "Bir juft",
+        "Uch juft"
+      ],
+      "correct_answer": "To‘rt juft",
+      "explanation": "Besh juft oyoqdan birinchi jufti oziq tutadigan qisqichga aylangan, keyingi to‘rt jufti suv tubida yurishga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-16-q5",
+      "fact_id": "paragraph-16-f5",
+      "question_text": "Urg‘ochi qisqichbaqa tuxumlarini qayerga yopishtiradi?",
+      "options": [
+        "Qorinoyoqlariga",
+        "Ko‘z poyachalariga",
+        "Faqat mo‘ylov uchiga",
+        "Faqat qisqichning ichki tishlariga"
+      ],
+      "correct_answer": "Qorinoyoqlariga",
+      "explanation": "Urg‘ochi qisqichbaqa tuxumlarini qorinoyoqlariga yopishtirib olib yuradi; yangi chiqqan yoshlar ham dastlab shu yerga yopishadi."
+    },
+    {
+      "key": "paragraph-16-q6",
+      "fact_id": "paragraph-16-f6",
+      "question_text": "Tullash qisqichbaqa hayotida qaysi imkoniyatni yaratadi?",
+      "options": [
+        "Jabralarni gulga aylantiradi",
+        "Tuxumlarni yaproqqa aylantiradi",
+        "Qon aylanishni butunlay to‘xtatadi",
+        "Tana kattalashishiga imkon beradi"
+      ],
+      "correct_answer": "Tana kattalashishiga imkon beradi",
+      "explanation": "Qattiq qoplag‘ich tananing uzluksiz kattalashishiga yo‘l qo‘ymaydi. Qisqichbaqa eski po‘stini tashlab, yangi qoplami qotguncha o‘sadi."
+    }
+  ]
+}

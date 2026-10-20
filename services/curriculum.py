@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 
 from fastapi import HTTPException
 from sqlalchemy import func, or_
@@ -66,7 +67,7 @@ def citation(book, topic, source):
         **(
             {
                 "activity_kind": topic["kind"],
-                "activity_number": int(topic["id"].rsplit("-", 1)[-1]),
+                "activity_number": activity_number(book, topic),
             }
             if topic["kind"] != "topic"
             else {}
@@ -77,6 +78,20 @@ def citation(book, topic, source):
 
 def source_order(record):
     return record["pdf_start"], record.get("verification", {}).get("heading_offset", 0)
+
+
+def activity_number(book, topic):
+    """Catalogue row IDs are stable keys, not printed laboratory numbers."""
+    heading = re.search(
+        r"(\d+)\s*-\s*(?:laboratoriya|amaliy)", topic["title"], re.IGNORECASE
+    )
+    if heading:
+        return int(heading.group(1))
+    activities = sorted(
+        (r for r in book["records"] if r["kind"] == topic["kind"]),
+        key=source_order,
+    )
+    return activities.index(topic) + 1
 
 
 def teaching_order(book, topic):

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-10-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-15",
+  "title": "To‘garak chuvalchanglar tipi: odam askaridasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-10-f1": {
+      "claim": "Odam askaridasi ingichka ichakda yashaydi. Uning ikki uchi ingichkalashgan tanasi kutikula bilan qoplangan, ko‘ndalang kesimi to‘garakdir.",
+      "answer": "To‘garak",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f2": {
+      "claim": "Askaridaning hazm qilish nayi og‘izdan boshlanib anal teshik bilan tugaydi. Bu uni anal teshigi bo‘lmagan oq planariyadan farqlaydi.",
+      "answer": "Anal teshigi borligi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f3": {
+      "claim": "Askaridada erkak va urg‘ochi alohida organizmlardir. Erkagining keyingi uchi ilmoqsimon egilgan, urg‘ochisi kattaroq.",
+      "answer": "Keyingi uchining ilmoqsimon egilishi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f4": {
+      "claim": "Askarida tuxumlari iflos qo‘l, yuvilmagan sabzavot va mevalar orqali ichakka tushishi mumkin.",
+      "answer": "Yuvilmagan mevadagi tuxumning yutilishi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f5": {
+      "claim": "Ichakda tuxumdan chiqqan askarida lichinkasi qon orqali o‘pkaga boradi, keyin og‘izga kelib yana ichakka tushadi va voyaga yetadi.",
+      "answer": "Ichak → qon → o‘pka → og‘iz → ichak",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f6": {
+      "claim": "Askarida yuqishini kamaytirish uchun meva-sabzavotlarni yaxshilab yuvish va shaxsiy gigiyenaga rioya qilish zarur.",
+      "answer": "Yaxshilab yuvib keyin iste’mol qilish",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Parazitning tashqi ko‘rinishi",
+      "body": "Odam askaridasi ingichka ichakda yashaydi. Uning ikki uchi ingichkalashgan tanasi kutikula bilan qoplangan, ko‘ndalang kesimi to‘garakdir.",
+      "fact_ids": [
+        "paragraph-10-f1"
+      ]
+    },
+    {
+      "title": "Hazm yo‘lining ikki uchi",
+      "body": "Askaridaning hazm qilish nayi og‘izdan boshlanib anal teshik bilan tugaydi. Bu uni anal teshigi bo‘lmagan oq planariyadan farqlaydi.",
+      "fact_ids": [
+        "paragraph-10-f2"
+      ]
+    },
+    {
+      "title": "Jinslarni farqlash",
+      "body": "Askaridada erkak va urg‘ochi alohida organizmlardir. Erkagining keyingi uchi ilmoqsimon egilgan, urg‘ochisi kattaroq.",
+      "fact_ids": [
+        "paragraph-10-f3"
+      ]
+    },
+    {
+      "title": "Tuxumning odamga yuqishi",
+      "body": "Askarida tuxumlari iflos qo‘l, yuvilmagan sabzavot va mevalar orqali ichakka tushishi mumkin.",
+      "fact_ids": [
+        "paragraph-10-f4"
+      ]
+    },
+    {
+      "title": "Lichinkaning organizmdagi yo‘li",
+      "body": "Ichakda tuxumdan chiqqan askarida lichinkasi qon orqali o‘pkaga boradi, keyin og‘izga kelib yana ichakka tushadi va voyaga yetadi.",
+      "fact_ids": [
+        "paragraph-10-f5"
+      ]
+    },
+    {
+      "title": "Oldini olish qarori",
+      "body": "Askarida yuqishini kamaytirish uchun meva-sabzavotlarni yaxshilab yuvish va shaxsiy gigiyenaga rioya qilish zarur.",
+      "fact_ids": [
+        "paragraph-10-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-10-q1",
+      "fact_id": "paragraph-10-f1",
+      "question_text": "Askarida tanasining ko‘ndalang kesimi qanday?",
+      "options": [
+        "To‘garak",
+        "Yaproqsimon yassi",
+        "Yulduzsimon",
+        "To‘rtburchak plastinka"
+      ],
+      "correct_answer": "To‘garak",
+      "explanation": "Odam askaridasi ingichka ichakda yashaydi. Uning ikki uchi ingichkalashgan tanasi kutikula bilan qoplangan, ko‘ndalang kesimi to‘garakdir."
+    },
+    {
+      "key": "paragraph-10-q2",
+      "fact_id": "paragraph-10-f2",
+      "question_text": "Askarida hazm sistemasining planariyadan muhim farqi qaysi?",
+      "options": [
+        "Ichagining umuman yo‘qligi",
+        "Faqat og‘izdan oziq chiqarishi",
+        "Fotosintez qilishi",
+        "Anal teshigi borligi"
+      ],
+      "correct_answer": "Anal teshigi borligi",
+      "explanation": "Askaridaning hazm qilish nayi og‘izdan boshlanib anal teshik bilan tugaydi. Bu uni anal teshigi bo‘lmagan oq planariyadan farqlaydi."
+    },
+    {
+      "key": "paragraph-10-q3",
+      "fact_id": "paragraph-10-f3",
+      "question_text": "Askaridaning erkagini tanishda qaysi belgi yordam beradi?",
+      "options": [
+        "To‘rtta bosh so‘rg‘ichi",
+        "Uch juft bo‘g‘imli oyoq",
+        "Keyingi uchining ilmoqsimon egilishi",
+        "Barcha tanasining yassi barg bo‘lishi"
+      ],
+      "correct_answer": "Keyingi uchining ilmoqsimon egilishi",
+      "explanation": "Askaridada erkak va urg‘ochi alohida organizmlardir. Erkagining keyingi uchi ilmoqsimon egilgan, urg‘ochisi kattaroq."
+    },
+    {
+      "key": "paragraph-10-q4",
+      "fact_id": "paragraph-10-f4",
+      "question_text": "Askarida tuxumining odamga kirish yo‘li qaysi misolda ko‘rsatilgan?",
+      "options": [
+        "Faqat tuproqni uzoqdan tomosha qilish",
+        "Yuvilmagan mevadagi tuxumning yutilishi",
+        "Yaxshi pishgan go‘shtdan finna chiqishi",
+        "Meduza paypaslagichining tegishi"
+      ],
+      "correct_answer": "Yuvilmagan mevadagi tuxumning yutilishi",
+      "explanation": "Askarida tuxumlari iflos qo‘l, yuvilmagan sabzavot va mevalar orqali ichakka tushishi mumkin."
+    },
+    {
+      "key": "paragraph-10-q5",
+      "fact_id": "paragraph-10-f5",
+      "question_text": "Askarida lichinkasi rivojlanish yo‘lining qaysi ketma-ketligi to‘g‘ri?",
+      "options": [
+        "Ichak → qon → o‘pka → og‘iz → ichak",
+        "Ichak → jigar sistasi → suv shillig‘i",
+        "Mushak finnasi → gul → tuxum",
+        "Teri → piyozbosh → ichak"
+      ],
+      "correct_answer": "Ichak → qon → o‘pka → og‘iz → ichak",
+      "explanation": "Ichakda tuxumdan chiqqan askarida lichinkasi qon orqali o‘pkaga boradi, keyin og‘izga kelib yana ichakka tushadi va voyaga yetadi."
+    },
+    {
+      "key": "paragraph-10-q6",
+      "fact_id": "paragraph-10-f6",
+      "question_text": "Bog‘dan olingan meva bilan qanday yo‘l tutish askarida yuqish xavfini kamaytiradi?",
+      "options": [
+        "Faqat qo‘l bilan changini surish",
+        "Tuproqli holda darhol yeyish",
+        "Faqat mevaning kattaligini tekshirish",
+        "Yaxshilab yuvib keyin iste’mol qilish"
+      ],
+      "correct_answer": "Yaxshilab yuvib keyin iste’mol qilish",
+      "explanation": "Askarida yuqishini kamaytirish uchun meva-sabzavotlarni yaxshilab yuvish va shaxsiy gigiyenaga rioya qilish zarur."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-13-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-19",
+  "title": "Yomg‘ir chuvalchangining ichki tuzilishi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-13-f1": {
+      "claim": "Yomg‘ir chuvalchangida oziq og‘izdan halqum, qizilo‘ngach, jig‘ildon, oshqozon va ichakka o‘tadi.",
+      "answer": "Oshqozon",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f2": {
+      "claim": "Yomg‘ir chuvalchangining qoni faqat o‘zaro tutashgan tomirlar ichida oqadi. Shu sababli qon aylanish sistemasi yopiq deyiladi.",
+      "answer": "Qon faqat qon tomirlari ichida oqadi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f3": {
+      "claim": "Kislorod nam teridan kapillyarlardagi qonga o‘tadi, karbonat angidrid esa teri orqali chiqadi. Namlik gaz almashinuvi uchun muhim.",
+      "answer": "Gaz almashinuvi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f4": {
+      "claim": "Ayirish sistemasi tana bo‘g‘imlarida juft joylashgan sirtmoqsimon naychalardan tuzilgan; ular ichki suyuqlikdagi chiqindilarni tashqariga yo‘naltiradi.",
+      "answer": "Juft sirtmoqsimon naychalar",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f5": {
+      "claim": "Yomg‘ir chuvalchanglari tuproqni yumshatib, suv va havo o‘tishini yaxshilaydi hamda chirindiga boyitadi.",
+      "answer": "Suv va havo o‘tishining yaxshilanishi",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-13-f6": {
+      "claim": "Ayrim yomg‘ir chuvalchanglaridan organik chiqindilarni qayta ishlab, o‘simliklar uchun o‘g‘it — biogumus olishda foydalaniladi.",
+      "answer": "Biogumus",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziqning harakat yo‘li",
+      "body": "Yomg‘ir chuvalchangida oziq og‘izdan halqum, qizilo‘ngach, jig‘ildon, oshqozon va ichakka o‘tadi.",
+      "fact_ids": [
+        "paragraph-13-f1"
+      ]
+    },
+    {
+      "title": "Yopiq qon aylanish",
+      "body": "Yomg‘ir chuvalchangining qoni faqat o‘zaro tutashgan tomirlar ichida oqadi. Shu sababli qon aylanish sistemasi yopiq deyiladi.",
+      "fact_ids": [
+        "paragraph-13-f2"
+      ]
+    },
+    {
+      "title": "Teri orqali nafas",
+      "body": "Kislorod nam teridan kapillyarlardagi qonga o‘tadi, karbonat angidrid esa teri orqali chiqadi. Namlik gaz almashinuvi uchun muhim.",
+      "fact_ids": [
+        "paragraph-13-f3"
+      ]
+    },
+    {
+      "title": "Ayirish naychalari",
+      "body": "Ayirish sistemasi tana bo‘g‘imlarida juft joylashgan sirtmoqsimon naychalardan tuzilgan; ular ichki suyuqlikdagi chiqindilarni tashqariga yo‘naltiradi.",
+      "fact_ids": [
+        "paragraph-13-f4"
+      ]
+    },
+    {
+      "title": "Tuproqdagi xizmat",
+      "body": "Yomg‘ir chuvalchanglari tuproqni yumshatib, suv va havo o‘tishini yaxshilaydi hamda chirindiga boyitadi.",
+      "fact_ids": [
+        "paragraph-13-f5"
+      ]
+    },
+    {
+      "title": "Biogumus bilan bog‘lanish",
+      "body": "Ayrim yomg‘ir chuvalchanglaridan organik chiqindilarni qayta ishlab, o‘simliklar uchun o‘g‘it — biogumus olishda foydalaniladi.",
+      "fact_ids": [
+        "paragraph-13-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-13-q1",
+      "fact_id": "paragraph-13-f1",
+      "question_text": "Yomg‘ir chuvalchangi hazm yo‘lida jig‘ildondan keyin qaysi organ keladi?",
+      "options": [
+        "Oshqozon",
+        "Og‘iz",
+        "Halqum",
+        "Anal teshik"
+      ],
+      "correct_answer": "Oshqozon",
+      "explanation": "Yomg‘ir chuvalchangida oziq og‘izdan halqum, qizilo‘ngach, jig‘ildon, oshqozon va ichakka o‘tadi."
+    },
+    {
+      "key": "paragraph-13-q2",
+      "fact_id": "paragraph-13-f2",
+      "question_text": "Chuvalchangda qon aylanishi nega yopiq hisoblanadi?",
+      "options": [
+        "Qon doim tana bo‘shlig‘iga quyiladi",
+        "Qon umuman harakatlanmaydi",
+        "Qon faqat ichak ichida yuradi",
+        "Qon faqat qon tomirlari ichida oqadi"
+      ],
+      "correct_answer": "Qon faqat qon tomirlari ichida oqadi",
+      "explanation": "Yomg‘ir chuvalchangining qoni faqat o‘zaro tutashgan tomirlar ichida oqadi. Shu sababli qon aylanish sistemasi yopiq deyiladi."
+    },
+    {
+      "key": "paragraph-13-q3",
+      "fact_id": "paragraph-13-f3",
+      "question_text": "Yomg‘ir chuvalchangi terisining nam bo‘lishi qaysi jarayon uchun zarur?",
+      "options": [
+        "Don yetilishi",
+        "Qattiq chig‘anoq hosil bo‘lishi",
+        "Gaz almashinuvi",
+        "Gul changlanishi"
+      ],
+      "correct_answer": "Gaz almashinuvi",
+      "explanation": "Kislorod nam teridan kapillyarlardagi qonga o‘tadi, karbonat angidrid esa teri orqali chiqadi. Namlik gaz almashinuvi uchun muhim."
+    },
+    {
+      "key": "paragraph-13-q4",
+      "fact_id": "paragraph-13-f4",
+      "question_text": "Yomg‘ir chuvalchangida ayirish organlari qaysi tuzilmalardir?",
+      "options": [
+        "Faqat og‘izdagi so‘rg‘ichlar",
+        "Juft sirtmoqsimon naychalar",
+        "Faqat otuvchi kapsulalar",
+        "Faqat savatchadagi changchilar"
+      ],
+      "correct_answer": "Juft sirtmoqsimon naychalar",
+      "explanation": "Ayirish sistemasi tana bo‘g‘imlarida juft joylashgan sirtmoqsimon naychalardan tuzilgan; ular ichki suyuqlikdagi chiqindilarni tashqariga yo‘naltiradi."
+    },
+    {
+      "key": "paragraph-13-q5",
+      "fact_id": "paragraph-13-f5",
+      "question_text": "Yomg‘ir chuvalchanglari ko‘p bo‘lgan tuproqda qaysi foydali natija kutiladi?",
+      "options": [
+        "Suv va havo o‘tishining yaxshilanishi",
+        "Barcha chirindining yo‘qolishi",
+        "Tuproqning qattiq shishaga aylanishi",
+        "Barcha o‘simlik ildizlarining parazitga aylanishi"
+      ],
+      "correct_answer": "Suv va havo o‘tishining yaxshilanishi",
+      "explanation": "Yomg‘ir chuvalchanglari tuproqni yumshatib, suv va havo o‘tishini yaxshilaydi hamda chirindiga boyitadi."
+    },
+    {
+      "key": "paragraph-13-q6",
+      "fact_id": "paragraph-13-f6",
+      "question_text": "Organik chiqindilarni chuvalchang yordamida qayta ishlashdan nima olinadi?",
+      "options": [
+        "Gul changi",
+        "Ohakli chig‘anoq",
+        "Nikotin",
+        "Biogumus"
+      ],
+      "correct_answer": "Biogumus",
+      "explanation": "Ayrim yomg‘ir chuvalchanglaridan organik chiqindilarni qayta ishlab, o‘simliklar uchun o‘g‘it — biogumus olishda foydalaniladi."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-11-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-16",
+  "title": "Parazit chuvalchanglarning xilma-xilligi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-11-f1": {
+      "claim": "Voyaga yetgan exinokokk it va boshqa yirtqichlar ichagida yashaydi. Odam va o‘txo‘r hayvonlarda lichinkalik bosqichi uchraydi.",
+      "answer": "Oraliq xo‘jayin",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          41
+        ],
+        "printed_pages": [
+          41
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f2": {
+      "claim": "Bolalar gijjasining tuxumlari iflos qo‘l, kasal odam kiyimi, to‘shagi va boshqa buyumlar orqali yuqishi mumkin.",
+      "answer": "Qo‘l va kundalik buyumlar gigiyenasi",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f3": {
+      "claim": "Darslikdagi rishta siklida lichinkalarni suvdagi mayda qisqichbaqasimon sikloplar yutadi. Zararlangan siklopli suv ichilsa parazit yuqishi mumkin.",
+      "answer": "Siklop",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f4": {
+      "claim": "Bo‘rtma nematoda o‘simlik ildizida parazitlik qiladi; ildizda bo‘rtmalar paydo bo‘lib, o‘simlikning o‘sishi va hosildorligi pasayadi.",
+      "answer": "Bo‘rtma nematoda",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f5": {
+      "claim": "Ko‘plab parazit chuvalchanglar ko‘p nasl qoldiradi: tashqi muhitga chiqqan tuxum va lichinkalarning ko‘pi xo‘jayin topmay nobud bo‘ladi.",
+      "answer": "Naslning bir qismi xo‘jayinga yetib borish imkonini oshiradi",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f6": {
+      "claim": "Zararlangan ichki organlarni itlarga bermaslik exinokokk aylanishini cheklashga yordam beradi; go‘shtni yaxshi pishirish tasmasimonlar yuqishidan saqlanish choralaridan biridir.",
+      "answer": "Zararlangan ichki organlarni itga bermaslik",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-11-f7": {
+      "claim": "Parazit chuvalchanglarni gelmintologiya o‘rganadi; tadqiqotlar ularga qarshi kurash choralarini ishlab chiqishga yordam beradi.",
+      "answer": "Gelmintologiya",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          43
+        ],
+        "printed_pages": [
+          43
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Exinokokkning xo‘jayinlari",
+      "body": "Voyaga yetgan exinokokk it va boshqa yirtqichlar ichagida yashaydi. Odam va o‘txo‘r hayvonlarda lichinkalik bosqichi uchraydi.",
+      "fact_ids": [
+        "paragraph-11-f1"
+      ]
+    },
+    {
+      "title": "Bolalar gijjasi yuqishi",
+      "body": "Bolalar gijjasining tuxumlari iflos qo‘l, kasal odam kiyimi, to‘shagi va boshqa buyumlar orqali yuqishi mumkin.",
+      "fact_ids": [
+        "paragraph-11-f2"
+      ]
+    },
+    {
+      "title": "Rishta siklidagi suv",
+      "body": "Darslikdagi rishta siklida lichinkalarni suvdagi mayda qisqichbaqasimon sikloplar yutadi. Zararlangan siklopli suv ichilsa parazit yuqishi mumkin.",
+      "fact_ids": [
+        "paragraph-11-f3"
+      ]
+    },
+    {
+      "title": "O‘simlik paraziti",
+      "body": "Bo‘rtma nematoda o‘simlik ildizida parazitlik qiladi; ildizda bo‘rtmalar paydo bo‘lib, o‘simlikning o‘sishi va hosildorligi pasayadi.",
+      "fact_ids": [
+        "paragraph-11-f4"
+      ]
+    },
+    {
+      "title": "Parazitlikka moslashish",
+      "body": "Ko‘plab parazit chuvalchanglar ko‘p nasl qoldiradi: tashqi muhitga chiqqan tuxum va lichinkalarning ko‘pi xo‘jayin topmay nobud bo‘ladi.",
+      "fact_ids": [
+        "paragraph-11-f5"
+      ]
+    },
+    {
+      "title": "Infeksiya zanjirini uzish",
+      "body": "Zararlangan ichki organlarni itlarga bermaslik exinokokk aylanishini cheklashga yordam beradi; go‘shtni yaxshi pishirish tasmasimonlar yuqishidan saqlanish choralaridan biridir.",
+      "fact_ids": [
+        "paragraph-11-f6"
+      ]
+    },
+    {
+      "title": "Fan va vazifa",
+      "body": "Parazit chuvalchanglarni gelmintologiya o‘rganadi; tadqiqotlar ularga qarshi kurash choralarini ishlab chiqishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-11-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-11-q1",
+      "fact_id": "paragraph-11-f1",
+      "question_text": "Exinokokkda odamning roli qaysi?",
+      "options": [
+        "Oraliq xo‘jayin",
+        "Voyaga yetgan qurtning yagona asosiy xo‘jayini",
+        "Parazitni changlatuvchi",
+        "Parazitning oziqsiz tuxumi"
+      ],
+      "correct_answer": "Oraliq xo‘jayin",
+      "explanation": "Voyaga yetgan exinokokk it va boshqa yirtqichlar ichagida yashaydi. Odam va o‘txo‘r hayvonlarda lichinkalik bosqichi uchraydi."
+    },
+    {
+      "key": "paragraph-11-q2",
+      "fact_id": "paragraph-11-f2",
+      "question_text": "Bolalar gijjasi nomiga qaramay, yuqishni cheklashda qaysi odat muhim?",
+      "options": [
+        "Faqat oyoq kiyim rangini almashtirish",
+        "Faqat pishgan go‘shtni muzlatish",
+        "Faqat gul changini tozalash",
+        "Qo‘l va kundalik buyumlar gigiyenasi"
+      ],
+      "correct_answer": "Qo‘l va kundalik buyumlar gigiyenasi",
+      "explanation": "Bolalar gijjasining tuxumlari iflos qo‘l, kasal odam kiyimi, to‘shagi va boshqa buyumlar orqali yuqishi mumkin."
+    },
+    {
+      "key": "paragraph-11-q3",
+      "fact_id": "paragraph-11-f3",
+      "question_text": "Rishta lichinkasini odamga olib o‘tadigan oraliq xo‘jayin qaysi?",
+      "options": [
+        "Qoramol",
+        "Tufelka",
+        "Siklop",
+        "Suv shillig‘i"
+      ],
+      "correct_answer": "Siklop",
+      "explanation": "Darslikdagi rishta siklida lichinkalarni suvdagi mayda qisqichbaqasimon sikloplar yutadi. Zararlangan siklopli suv ichilsa parazit yuqishi mumkin."
+    },
+    {
+      "key": "paragraph-11-q4",
+      "fact_id": "paragraph-11-f4",
+      "question_text": "Ildizdagi bo‘rtma va o‘sishdan qolish qaysi parazitga mos belgilar?",
+      "options": [
+        "Oq planariya",
+        "Bo‘rtma nematoda",
+        "Qoramol tasmasimoni",
+        "Chuchuk suv gidrasi"
+      ],
+      "correct_answer": "Bo‘rtma nematoda",
+      "explanation": "Bo‘rtma nematoda o‘simlik ildizida parazitlik qiladi; ildizda bo‘rtmalar paydo bo‘lib, o‘simlikning o‘sishi va hosildorligi pasayadi."
+    },
+    {
+      "key": "paragraph-11-q5",
+      "fact_id": "paragraph-11-f5",
+      "question_text": "Parazitlarda ko‘p tuxum hosil bo‘lishining ahamiyati qaysi?",
+      "options": [
+        "Naslning bir qismi xo‘jayinga yetib borish imkonini oshiradi",
+        "Har bir tuxumning darhol daraxtga aylanishi",
+        "Hazm qilish organini changchiga aylantirish",
+        "Barcha tuxumlarning albatta bitta xo‘jayinga tushishi"
+      ],
+      "correct_answer": "Naslning bir qismi xo‘jayinga yetib borish imkonini oshiradi",
+      "explanation": "Ko‘plab parazit chuvalchanglar ko‘p nasl qoldiradi: tashqi muhitga chiqqan tuxum va lichinkalarning ko‘pi xo‘jayin topmay nobud bo‘ladi."
+    },
+    {
+      "key": "paragraph-11-q6",
+      "fact_id": "paragraph-11-f6",
+      "question_text": "Exinokokk tarqalish zanjirini cheklovchi chorani toping.",
+      "options": [
+        "Itga barcha xom ichki organlarni berish",
+        "Mevalarni tuproq bilan birga yeyish",
+        "Bolalar qo‘l yuvishini to‘xtatish",
+        "Zararlangan ichki organlarni itga bermaslik"
+      ],
+      "correct_answer": "Zararlangan ichki organlarni itga bermaslik",
+      "explanation": "Zararlangan ichki organlarni itlarga bermaslik exinokokk aylanishini cheklashga yordam beradi; go‘shtni yaxshi pishirish tasmasimonlar yuqishidan saqlanish choralaridan biridir."
+    },
+    {
+      "key": "paragraph-11-q7",
+      "fact_id": "paragraph-11-f7",
+      "question_text": "Parazit chuvalchanglarni o‘rganuvchi fan qanday ataladi?",
+      "options": [
+        "Ornitologiya",
+        "Entomologiya",
+        "Gelmintologiya",
+        "Botanika"
+      ],
+      "correct_answer": "Gelmintologiya",
+      "explanation": "Parazit chuvalchanglarni gelmintologiya o‘rganadi; tadqiqotlar ularga qarshi kurash choralarini ishlab chiqishga yordam beradi."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-6-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-10",
+  "title": "Gidroid poliplar sinfi: chuchuk suv gidrasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-6-f1": {
+      "claim": "Chuchuk suv gidrasi tovoni bilan suvdagi narsalarga yopishadi; qarama-qarshi uchidagi og‘zi paypaslagichlar bilan o‘ralgan.",
+      "answer": "Tovon",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f2": {
+      "claim": "Gidra tanasi markaziy o‘qdan chiquvchi nurlar bo‘yicha o‘xshash qismlarga ajratiladi; bu radial yoki nurli simmetriyadir.",
+      "answer": "Radial simmetriya",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f3": {
+      "claim": "Gidraning tashqi qavati ektoderma, ichki qavati endoderma deyiladi; ular ichki tana bo‘shlig‘ini o‘rab turadi.",
+      "answer": "Ektoderma va endoderma",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f4": {
+      "claim": "Paypaslagichlardagi otuvchi hujayralarning tolasi otilib chiqib, o‘ljani falajlaydi. Shu hujayralar himoyada ham qatnashadi.",
+      "answer": "Otuvchi hujayra",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f5": {
+      "claim": "Gidraning nerv hujayralari o‘simtalari tutashib nerv to‘rini hosil qiladi. Ta’sirga javoban tanasini yig‘ib olishi refleksdir.",
+      "answer": "Refleksning",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f6": {
+      "claim": "Shikastlangan tana qismining tiklanishi regeneratsiya deyiladi. Yangi gidraning tashqi kurtakdan rivojlanishi esa jinssiz ko‘payishdir.",
+      "answer": "Regeneratsiya",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-6-f7": {
+      "claim": "Oziq yetarli bo‘lgan iliq davrda gidra tanasida kurtak o‘sadi, unda og‘iz va paypaslagichlar paydo bo‘ladi; yosh gidra keyin ajraladi.",
+      "answer": "Kurtak → og‘iz va paypaslagichlar → yosh gidraning ajralishi",
+      "source": {
+        "paragraph": 6,
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Polipning yashash tarzi",
+      "body": "Chuchuk suv gidrasi tovoni bilan suvdagi narsalarga yopishadi; qarama-qarshi uchidagi og‘zi paypaslagichlar bilan o‘ralgan.",
+      "fact_ids": [
+        "paragraph-6-f1"
+      ]
+    },
+    {
+      "title": "Nurli simmetriya",
+      "body": "Gidra tanasi markaziy o‘qdan chiquvchi nurlar bo‘yicha o‘xshash qismlarga ajratiladi; bu radial yoki nurli simmetriyadir.",
+      "fact_ids": [
+        "paragraph-6-f2"
+      ]
+    },
+    {
+      "title": "Ikki qavatli tana devori",
+      "body": "Gidraning tashqi qavati ektoderma, ichki qavati endoderma deyiladi; ular ichki tana bo‘shlig‘ini o‘rab turadi.",
+      "fact_ids": [
+        "paragraph-6-f3"
+      ]
+    },
+    {
+      "title": "O‘ljani tutish",
+      "body": "Paypaslagichlardagi otuvchi hujayralarning tolasi otilib chiqib, o‘ljani falajlaydi. Shu hujayralar himoyada ham qatnashadi.",
+      "fact_ids": [
+        "paragraph-6-f4"
+      ]
+    },
+    {
+      "title": "Nerv to‘ri va javob",
+      "body": "Gidraning nerv hujayralari o‘simtalari tutashib nerv to‘rini hosil qiladi. Ta’sirga javoban tanasini yig‘ib olishi refleksdir.",
+      "fact_ids": [
+        "paragraph-6-f5"
+      ]
+    },
+    {
+      "title": "Tiklanish va ko‘payish farqi",
+      "body": "Shikastlangan tana qismining tiklanishi regeneratsiya deyiladi. Yangi gidraning tashqi kurtakdan rivojlanishi esa jinssiz ko‘payishdir.",
+      "fact_ids": [
+        "paragraph-6-f6"
+      ]
+    },
+    {
+      "title": "Kurtakdan yosh gidra",
+      "body": "Oziq yetarli bo‘lgan iliq davrda gidra tanasida kurtak o‘sadi, unda og‘iz va paypaslagichlar paydo bo‘ladi; yosh gidra keyin ajraladi.",
+      "fact_ids": [
+        "paragraph-6-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-6-q1",
+      "fact_id": "paragraph-6-f1",
+      "question_text": "Gidraning suvdagi tayanchga yopishadigan qismi qaysi?",
+      "options": [
+        "Tovon",
+        "Og‘iz",
+        "Hazm qilish vakuolasi",
+        "Otuvchi tola"
+      ],
+      "correct_answer": "Tovon",
+      "explanation": "Chuchuk suv gidrasi tovoni bilan suvdagi narsalarga yopishadi; qarama-qarshi uchidagi og‘zi paypaslagichlar bilan o‘ralgan."
+    },
+    {
+      "key": "paragraph-6-q2",
+      "fact_id": "paragraph-6-f2",
+      "question_text": "Gidraning tana qismlari o‘q atrofida nurlar bo‘yicha joylashishi nima deyiladi?",
+      "options": [
+        "Ikki tomonlama simmetriya",
+        "Ko‘ndalang bo‘linish",
+        "Koloniya hosil qilish",
+        "Radial simmetriya"
+      ],
+      "correct_answer": "Radial simmetriya",
+      "explanation": "Gidra tanasi markaziy o‘qdan chiquvchi nurlar bo‘yicha o‘xshash qismlarga ajratiladi; bu radial yoki nurli simmetriyadir."
+    },
+    {
+      "key": "paragraph-6-q3",
+      "fact_id": "paragraph-6-f3",
+      "question_text": "Gidraning tana devori qavatlari to‘g‘ri ko‘rsatilgan juftlik qaysi?",
+      "options": [
+        "Xromatofor va xivchin",
+        "Ildiz va barg",
+        "Ektoderma va endoderma",
+        "Qobiq va yadro"
+      ],
+      "correct_answer": "Ektoderma va endoderma",
+      "explanation": "Gidraning tashqi qavati ektoderma, ichki qavati endoderma deyiladi; ular ichki tana bo‘shlig‘ini o‘rab turadi."
+    },
+    {
+      "key": "paragraph-6-q4",
+      "fact_id": "paragraph-6-f4",
+      "question_text": "Gidrada o‘ljani falajlashga ixtisoslashgan hujayra qaysi?",
+      "options": [
+        "Faqat teri-muskul hujayrasi",
+        "Otuvchi hujayra",
+        "Oraliq hujayra",
+        "Tuxum hujayra"
+      ],
+      "correct_answer": "Otuvchi hujayra",
+      "explanation": "Paypaslagichlardagi otuvchi hujayralarning tolasi otilib chiqib, o‘ljani falajlaydi. Shu hujayralar himoyada ham qatnashadi."
+    },
+    {
+      "key": "paragraph-6-q5",
+      "fact_id": "paragraph-6-f5",
+      "question_text": "Tegilganda gidra tanasini yig‘ib oldi. Bu nimaning namunasi?",
+      "options": [
+        "Refleksning",
+        "Fotosintezning",
+        "Urug‘lanishning",
+        "Sista hosil bo‘lishining"
+      ],
+      "correct_answer": "Refleksning",
+      "explanation": "Gidraning nerv hujayralari o‘simtalari tutashib nerv to‘rini hosil qiladi. Ta’sirga javoban tanasini yig‘ib olishi refleksdir."
+    },
+    {
+      "key": "paragraph-6-q6",
+      "fact_id": "paragraph-6-f6",
+      "question_text": "Yo‘qolgan tana qismi qayta tiklandi. Bu jarayonni qaysi atama bildiradi?",
+      "options": [
+        "Changlanish",
+        "Kurtakdan yangi organizm ajralishi",
+        "Tuxum hujayraning urug‘lanishi",
+        "Regeneratsiya"
+      ],
+      "correct_answer": "Regeneratsiya",
+      "explanation": "Shikastlangan tana qismining tiklanishi regeneratsiya deyiladi. Yangi gidraning tashqi kurtakdan rivojlanishi esa jinssiz ko‘payishdir."
+    },
+    {
+      "key": "paragraph-6-q7",
+      "fact_id": "paragraph-6-f7",
+      "question_text": "Gidraning kurtaklanishida to‘g‘ri ketma-ketlikni toping.",
+      "options": [
+        "Gul → chang doni → piyozbosh",
+        "Tuxum → barg → poya",
+        "Kurtak → og‘iz va paypaslagichlar → yosh gidraning ajralishi",
+        "Sista → urug‘ → meva"
+      ],
+      "correct_answer": "Kurtak → og‘iz va paypaslagichlar → yosh gidraning ajralishi",
+      "explanation": "Oziq yetarli bo‘lgan iliq davrda gidra tanasida kurtak o‘sadi, unda og‘iz va paypaslagichlar paydo bo‘ladi; yosh gidra keyin ajraladi."
+    }
+  ]
+}

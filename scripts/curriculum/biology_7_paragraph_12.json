@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-12-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-18",
+  "title": "Yomg‘ir chuvalchangining tashqi tuzilishi, nerv sistemasi va rivojlanishi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-12-f1": {
+      "claim": "Yomg‘ir chuvalchangi chirindiga boy nam tuproqda yashaydi. Tanasi ko‘p halqasimon bo‘g‘imlarga bo‘lingan.",
+      "answer": "Chirindili nam tuproq",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          45
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f2": {
+      "claim": "Yomg‘ir chuvalchangi tanasidagi kalta tuklar harakat vaqtida tuproqqa tayanch bo‘ladi.",
+      "answer": "Tuproqqa tayanch bo‘lish",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          45
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f3": {
+      "claim": "Halqasimon muskullar qisqarganda tana cho‘zilib ingichkalashadi; bo‘ylama muskullar qisqarganda qisqarib yo‘g‘onlashadi.",
+      "answer": "Cho‘zilish va ingichkalashish",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          46
+        ],
+        "printed_pages": [
+          46
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f4": {
+      "claim": "Yomg‘ir chuvalchangida halqum atrofidagi nerv tugunlari qorin bo‘ylab ketadigan nerv zanjiri bilan bog‘langan.",
+      "answer": "Qorin nerv zanjiri",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f5": {
+      "claim": "Yomg‘ir chuvalchangi terisidagi nerv tolalari yorug‘lik, harorat, kimyoviy va mexanik ta’sirlarni sezadi.",
+      "answer": "Terisidagi nerv tolalari ta’sirni sezadi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f6": {
+      "claim": "Ko‘payish davrida belbog‘cha ajratgan shilimshiq moddadan pilla hosil bo‘ladi; tuxumlardan yosh chuvalchanglar chiqadi.",
+      "answer": "Pillada",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Halqali tanani kuzatish",
+      "body": "Yomg‘ir chuvalchangi chirindiga boy nam tuproqda yashaydi. Tanasi ko‘p halqasimon bo‘g‘imlarga bo‘lingan.",
+      "fact_ids": [
+        "paragraph-12-f1"
+      ]
+    },
+    {
+      "title": "Tuklar — tayanch",
+      "body": "Yomg‘ir chuvalchangi tanasidagi kalta tuklar harakat vaqtida tuproqqa tayanch bo‘ladi.",
+      "fact_ids": [
+        "paragraph-12-f2"
+      ]
+    },
+    {
+      "title": "Ikki xil muskulning almashishi",
+      "body": "Halqasimon muskullar qisqarganda tana cho‘zilib ingichkalashadi; bo‘ylama muskullar qisqarganda qisqarib yo‘g‘onlashadi.",
+      "fact_ids": [
+        "paragraph-12-f3"
+      ]
+    },
+    {
+      "title": "Qorin nerv zanjiri",
+      "body": "Yomg‘ir chuvalchangida halqum atrofidagi nerv tugunlari qorin bo‘ylab ketadigan nerv zanjiri bilan bog‘langan.",
+      "fact_ids": [
+        "paragraph-12-f4"
+      ]
+    },
+    {
+      "title": "Ko‘zsiz sezish",
+      "body": "Yomg‘ir chuvalchangi terisidagi nerv tolalari yorug‘lik, harorat, kimyoviy va mexanik ta’sirlarni sezadi.",
+      "fact_ids": [
+        "paragraph-12-f5"
+      ]
+    },
+    {
+      "title": "Pilla va yosh chuvalchang",
+      "body": "Ko‘payish davrida belbog‘cha ajratgan shilimshiq moddadan pilla hosil bo‘ladi; tuxumlardan yosh chuvalchanglar chiqadi.",
+      "fact_ids": [
+        "paragraph-12-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-12-q1",
+      "fact_id": "paragraph-12-f1",
+      "question_text": "Yomg‘ir chuvalchangi uchun mos yashash joyi qaysi?",
+      "options": [
+        "Chirindili nam tuproq",
+        "Faqat quruq sho‘r kristallari",
+        "Faqat dengizning ochiq suvi",
+        "Faqat hayvon ichagi"
+      ],
+      "correct_answer": "Chirindili nam tuproq",
+      "explanation": "Yomg‘ir chuvalchangi chirindiga boy nam tuproqda yashaydi. Tanasi ko‘p halqasimon bo‘g‘imlarga bo‘lingan."
+    },
+    {
+      "key": "paragraph-12-q2",
+      "fact_id": "paragraph-12-f2",
+      "question_text": "Yomg‘ir chuvalchangi tuklarining harakatdagi vazifasi nima?",
+      "options": [
+        "Oziqni fotosintez qilish",
+        "Qon ishlab chiqaradigan yurak bo‘lish",
+        "Faqat tuxum hosil qilish",
+        "Tuproqqa tayanch bo‘lish"
+      ],
+      "correct_answer": "Tuproqqa tayanch bo‘lish",
+      "explanation": "Yomg‘ir chuvalchangi tanasidagi kalta tuklar harakat vaqtida tuproqqa tayanch bo‘ladi."
+    },
+    {
+      "key": "paragraph-12-q3",
+      "fact_id": "paragraph-12-f3",
+      "question_text": "Halqasimon muskullar qisqarganda qanday tana o‘zgarishi kutiladi?",
+      "options": [
+        "Tananing qattiq chig‘anoqqa aylanishi",
+        "Barcha bo‘g‘imlarning yo‘qolishi",
+        "Cho‘zilish va ingichkalashish",
+        "Qisqarish va yo‘g‘onlashish"
+      ],
+      "correct_answer": "Cho‘zilish va ingichkalashish",
+      "explanation": "Halqasimon muskullar qisqarganda tana cho‘zilib ingichkalashadi; bo‘ylama muskullar qisqarganda qisqarib yo‘g‘onlashadi."
+    },
+    {
+      "key": "paragraph-12-q4",
+      "fact_id": "paragraph-12-f4",
+      "question_text": "Yomg‘ir chuvalchangining tana bo‘ylab joylashgan nerv tuzilmasi qaysi?",
+      "options": [
+        "Faqat qisqaruvchi vakuola",
+        "Qorin nerv zanjiri",
+        "Faqat tarqoq otuvchi hujayralar",
+        "Faqat ikkita hujayra yadrosi"
+      ],
+      "correct_answer": "Qorin nerv zanjiri",
+      "explanation": "Yomg‘ir chuvalchangida halqum atrofidagi nerv tugunlari qorin bo‘ylab ketadigan nerv zanjiri bilan bog‘langan."
+    },
+    {
+      "key": "paragraph-12-q5",
+      "fact_id": "paragraph-12-f5",
+      "question_text": "Maxsus ko‘zi bo‘lmasa ham chuvalchang yorug‘likka qanday javob bera oladi?",
+      "options": [
+        "Terisidagi nerv tolalari ta’sirni sezadi",
+        "Har bir halqasi fotosintez qiladi",
+        "Ichagi yorug‘likni changga aylantiradi",
+        "Qattiq chig‘anoq yorug‘likni yutadi"
+      ],
+      "correct_answer": "Terisidagi nerv tolalari ta’sirni sezadi",
+      "explanation": "Yomg‘ir chuvalchangi terisidagi nerv tolalari yorug‘lik, harorat, kimyoviy va mexanik ta’sirlarni sezadi."
+    },
+    {
+      "key": "paragraph-12-q6",
+      "fact_id": "paragraph-12-f6",
+      "question_text": "Yomg‘ir chuvalchangi tuxumlari qaysi tuzilmada rivojlanadi?",
+      "options": [
+        "Qubbada",
+        "Savatchada",
+        "Jabra bo‘shlig‘ida",
+        "Pillada"
+      ],
+      "correct_answer": "Pillada",
+      "explanation": "Ko‘payish davrida belbog‘cha ajratgan shilimshiq moddadan pilla hosil bo‘ladi; tuxumlardan yosh chuvalchanglar chiqadi."
+    }
+  ]
+}

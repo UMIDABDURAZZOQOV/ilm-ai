@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-laboratory-3-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-laboratory-34",
+  "title": "3-laboratoriya mashg‘uloti. Hasharotlarning tashqi tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-3-f1": {
+      "claim": "Mashg‘ulotda oldindan tayyorlangan hasharot kolleksiyasi yoki uning tashqi tuzilishi tasvirlaridan foydalaniladi. Ilovada belgilar va kuzatuv tartibi tahlil qilinadi.",
+      "answer": "Tashqi tuzilish tasviri yoki tayyor kolleksiya",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f2": {
+      "claim": "Avval hasharotning bosh, ko‘krak va qorin qismlari topiladi; boshda ko‘z, mo‘ylov va og‘iz organlari kuzatiladi.",
+      "answer": "Boshdan",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f3": {
+      "claim": "Darslik oldingi va keyingi oyoq tuzilishini, bo‘g‘imlari va tirnoqlarini taqqoslashni topshiradi.",
+      "answer": "Oldingi va keyingi oyoqlarning tuzilishini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f4": {
+      "claim": "Mashg‘ulotda qo‘ng‘izning ustqanoti va ostqanoti o‘rtasidagi farqlar kuzatiladi; ko‘krakda ikki juft qanot borligi aniqlanadi.",
+      "answer": "Ustqanot va ostqanot",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Namuna va rasmni tanlash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nMashg‘ulotda oldindan tayyorlangan hasharot kolleksiyasi yoki uning tashqi tuzilishi tasvirlaridan foydalaniladi. Ilovada belgilar va kuzatuv tartibi tahlil qilinadi.",
+      "fact_ids": [
+        "laboratory-3-f1"
+      ]
+    },
+    {
+      "title": "Tana xaritasini tuzish",
+      "body": "Avval hasharotning bosh, ko‘krak va qorin qismlari topiladi; boshda ko‘z, mo‘ylov va og‘iz organlari kuzatiladi.",
+      "fact_ids": [
+        "laboratory-3-f2"
+      ]
+    },
+    {
+      "title": "Oyoqlarni taqqoslash",
+      "body": "Darslik oldingi va keyingi oyoq tuzilishini, bo‘g‘imlari va tirnoqlarini taqqoslashni topshiradi.",
+      "fact_ids": [
+        "laboratory-3-f3"
+      ]
+    },
+    {
+      "title": "Ikki xil qanot",
+      "body": "Mashg‘ulotda qo‘ng‘izning ustqanoti va ostqanoti o‘rtasidagi farqlar kuzatiladi; ko‘krakda ikki juft qanot borligi aniqlanadi.",
+      "fact_ids": [
+        "laboratory-3-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-3-q1",
+      "fact_id": "laboratory-3-f1",
+      "question_text": "Hasharot tashqi tuzilishini rasmlar bilan o‘rganish uchun qanday material mos?",
+      "options": [
+        "Tashqi tuzilish tasviri yoki tayyor kolleksiya",
+        "Faqat mevaning ta’mi",
+        "Faqat tuproqning hidi",
+        "Faqat laboratoriya xonasining balandligi"
+      ],
+      "correct_answer": "Tashqi tuzilish tasviri yoki tayyor kolleksiya",
+      "explanation": "Mashg‘ulotda oldindan tayyorlangan hasharot kolleksiyasi yoki uning tashqi tuzilishi tasvirlaridan foydalaniladi. Ilovada belgilar va kuzatuv tartibi tahlil qilinadi."
+    },
+    {
+      "key": "laboratory-3-q2",
+      "fact_id": "laboratory-3-f2",
+      "question_text": "Mashg‘ulotda ko‘z, mo‘ylov va og‘iz organlarini qaysi qismdan izlash kerak?",
+      "options": [
+        "Faqat qorin uchidan",
+        "Faqat oyoq tirnog‘idan",
+        "Faqat ustqanot chetidan",
+        "Boshdan"
+      ],
+      "correct_answer": "Boshdan",
+      "explanation": "Avval hasharotning bosh, ko‘krak va qorin qismlari topiladi; boshda ko‘z, mo‘ylov va og‘iz organlari kuzatiladi."
+    },
+    {
+      "key": "laboratory-3-q3",
+      "fact_id": "laboratory-3-f3",
+      "question_text": "Sakrash yoki yurishga moslashishni tahlil qilishda nimani taqqoslash kerak?",
+      "options": [
+        "Faqat kolleksiya qutisi rangini",
+        "Faqat bir kunlik ob-havoni",
+        "Oldingi va keyingi oyoqlarning tuzilishini",
+        "Faqat barcha namunalarning nom uzunligini"
+      ],
+      "correct_answer": "Oldingi va keyingi oyoqlarning tuzilishini",
+      "explanation": "Darslik oldingi va keyingi oyoq tuzilishini, bo‘g‘imlari va tirnoqlarini taqqoslashni topshiradi."
+    },
+    {
+      "key": "laboratory-3-q4",
+      "fact_id": "laboratory-3-f4",
+      "question_text": "Qo‘ng‘iz qanotlarini tahlil qilishda qaysi juftlikni farqlaymiz?",
+      "options": [
+        "Faqat ikkita mo‘ylov ildizini",
+        "Ustqanot va ostqanot",
+        "Faqat ikkita oyoq panjasini",
+        "Faqat yadro va vakuolani"
+      ],
+      "correct_answer": "Ustqanot va ostqanot",
+      "explanation": "Mashg‘ulotda qo‘ng‘izning ustqanoti va ostqanoti o‘rtasidagi farqlar kuzatiladi; ko‘krakda ikki juft qanot borligi aniqlanadi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "3-laboratoriya mashg‘uloti. Hasharotlarning tashqi tuzilishi: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Namuna va rasmni tanlash",
+        "fact_ids": [
+          "laboratory-3-f1"
+        ]
+      },
+      {
+        "instruction": "Tana xaritasini tuzish",
+        "fact_ids": [
+          "laboratory-3-f2"
+        ]
+      },
+      {
+        "instruction": "Oyoqlarni taqqoslash",
+        "fact_ids": [
+          "laboratory-3-f3"
+        ]
+      },
+      {
+        "instruction": "Ikki xil qanot",
+        "fact_ids": [
+          "laboratory-3-f4"
+        ]
+      }
+    ]
+  }
+}

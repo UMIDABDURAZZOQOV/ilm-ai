@@ -8,7 +8,7 @@ import pytest
 
 from test_release_hardening import setup
 from test_biology_segments import answers
-from services.curriculum import import_curriculum, load_documents
+from services.curriculum import citation, import_curriculum, load_documents
 from services.curriculum_validation import (
     CATALOG_PATH,
     load_lesson_set,
@@ -64,8 +64,8 @@ def test_distinct_continuation_questions_and_honest_theory_activity_counts():
     assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
     report = readiness_report(catalog, lessons)
     assert sum(r["topics"] for r in report) == 355
-    assert sum(r["ready_theory_lessons"] for r in report) == 89
-    assert sum(r["ready_activities"] for r in report) == 19
+    assert sum(r["ready_theory_lessons"] for r in report) == 109
+    assert sum(r["ready_activities"] for r in report) == 22
     assert all(r["course_ready"] for r in report[:2])
     assert not any(r["course_ready"] for r in report[2:])
     for row in report[:2]:
@@ -88,7 +88,40 @@ def test_activity_cannot_claim_physical_execution_or_lose_evidence(damage):
         validate_lesson(load_documents()[0], lesson)
 
 
-def test_full_grade5_and_grade6_real_api_flow_once_only_xp(setup, tmp_path):
+@pytest.mark.parametrize(
+    "grade,topic_id,number,paragraph",
+    [
+        (7, "bio-7-laboratory-8", 1, None),
+        (7, "bio-7-laboratory-20", 2, None),
+        (7, "bio-7-laboratory-34", 3, None),
+        (7, "bio-7-laboratory-45", 4, None),
+        (7, "bio-7-laboratory-62", 5, None),
+        (9, "bio-9-laboratory-36", 4, 29),
+        (9, "bio-9-practical-64", 1, 51),
+        (10, "bio-10-laboratory-52", 4, None),
+        (11, "bio-11-laboratory-53", 5, None),
+    ],
+)
+def test_citation_uses_printed_activity_number_and_preserves_catalogue_id(
+    grade, topic_id, number, paragraph
+):
+    book = next(b for b in load_documents()[0]["books"] if b["grade"] == grade)
+    topic = next(r for r in book["records"] if r["id"] == topic_id)
+    result = citation(
+        book,
+        topic,
+        {
+            "paragraph": topic["paragraph"],
+            "pdf_pages": [topic["pdf_start"]],
+            "printed_pages": [topic["printed_start"]],
+        },
+    )
+    assert result["activity_number"] == number
+    assert result["topic_id"] == topic_id
+    assert result["paragraph"] == paragraph
+
+
+def test_complete_grades5_6_and_grade7_continuation_api_once_only_xp(setup, tmp_path):
     client, factory = setup
     catalog, _ = load_documents()
     lessons = load_lesson_set()
@@ -96,12 +129,13 @@ def test_full_grade5_and_grade6_real_api_flow_once_only_xp(setup, tmp_path):
     with factory.begin() as db:
         for lesson in lessons:
             import_curriculum(db, catalog, lesson)
-    xp = events = 0
-    for grade in (5, 6):
+    xp = events = checkpoints = 0
+    for grade in (5, 6, 7):
         tree = client.get(f"/skills/1/tree?subject=biologiya&grade={grade}").json()
         units = tree["units"]
         for unit in units:
-            assert unit["coverage_complete"]
+            if grade in (5, 6):
+                assert unit["coverage_complete"]
             for row in unit["lessons"]:
                 lid = row["id"]
                 issued = client.post(
@@ -112,6 +146,9 @@ def test_full_grade5_and_grade6_real_api_flow_once_only_xp(setup, tmp_path):
                 for q in data["questions"]:
                     assert q["source"]["chapter_title"]
                     assert q["source"]["topic_title"]
+                    if "activity" in bykey[row["slug"]]:
+                        number = int(row["slug"].rsplit("-", 2)[1])
+                        assert q["source"]["activity_number"] == number
                 reward = bykey[row["slug"]]["xp_reward"]
                 body = {
                     "user_id": 1,
@@ -141,6 +178,9 @@ def test_full_grade5_and_grade6_real_api_flow_once_only_xp(setup, tmp_path):
                         json.dumps(result.json(), ensure_ascii=False, indent=2) + "\n"
                     )
             exam = client.get(f"/skills/1/unit-exam?unit_id={unit['id']}")
+            if not unit["coverage_complete"]:
+                assert exam.status_code == 409
+                break
             assert exam.status_code == 200, exam.text
             data = exam.json()
             body = {
@@ -157,15 +197,16 @@ def test_full_grade5_and_grade6_real_api_flow_once_only_xp(setup, tmp_path):
             )
             xp += result.json()["xp_awarded"]
             events += 1
+            checkpoints += 1
         outline = client.get(
             f"/skills/1/curriculum?subject=biologiya&grade={grade}"
         ).json()
-        assert outline["completed"]
-        assert outline["next_grade"] == grade + 1
+        assert outline["completed"] is (grade < 7)
+        assert outline["next_grade"] == (grade + 1 if grade < 7 else None)
     with factory.begin() as db:
         assert db.get(User, 1).xp_total == xp
         assert db.query(StudyEvent).count() == events
-        assert db.query(UserLessonProgress).count() == events - 8
+        assert db.query(UserLessonProgress).count() == events - checkpoints
         for lesson in lessons:
             assert not import_curriculum(db, catalog, lesson)["created"]
         assert db.get(User, 1).xp_total == xp

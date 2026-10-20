@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-5-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-7",
+  "title": "Infuzoriyalar va sporalilar sinflari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-5-f1": {
+      "claim": "Tufelkaning sirtida ko‘plab kipriklar, sitoplazmasida esa katta va kichik yadro bor. Kipriklar uning suzishiga yordam beradi.",
+      "answer": "Ko‘p kiprik va katta-kichik yadrolar",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f2": {
+      "claim": "Tufelkada kipriklar oziqni og‘iz va halqumga yo‘naltiradi; keyin hazm qilish vakuolasi hosil bo‘ladi.",
+      "answer": "Og‘iz → halqum → hazm qilish vakuolasi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f3": {
+      "claim": "Tufelkaning oldingi va keyingi tomonida joylashgan ikkita qisqaruvchi vakuola navbat bilan ortiqcha suvni chiqaradi.",
+      "answer": "Oldinda va orqada bittadan",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f4": {
+      "claim": "Tufelka jinssiz ko‘payishda tanasining o‘rtasidan ko‘ndalang ikkiga bo‘linib, ikkita yangi hujayra hosil qiladi.",
+      "answer": "Tana ko‘ndalang ikkiga ajraladi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f5": {
+      "claim": "Bezgak paraziti qizil qon hujayralariga kirib, ularda o‘sadi va ko‘payadi; darslik bu bosqichni rasmda ko‘rsatadi.",
+      "answer": "Qizil qon hujayralari",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-5-f6": {
+      "claim": "Bezgak parazitini odamga bezgak chivini yuqtiradi. Bu parazitning suvdagi erkin yashovchi tufelkadan farqli hayot tarzidir.",
+      "answer": "Bezgak chivini",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kiprikli harakat va yadrolar",
+      "body": "Tufelkaning sirtida ko‘plab kipriklar, sitoplazmasida esa katta va kichik yadro bor. Kipriklar uning suzishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-5-f1"
+      ]
+    },
+    {
+      "title": "Oziqning hujayradagi yo‘li",
+      "body": "Tufelkada kipriklar oziqni og‘iz va halqumga yo‘naltiradi; keyin hazm qilish vakuolasi hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-5-f2"
+      ]
+    },
+    {
+      "title": "Ikkita suv chiqaruvchi vakuola",
+      "body": "Tufelkaning oldingi va keyingi tomonida joylashgan ikkita qisqaruvchi vakuola navbat bilan ortiqcha suvni chiqaradi.",
+      "fact_ids": [
+        "paragraph-5-f3"
+      ]
+    },
+    {
+      "title": "Ko‘ndalang bo‘linish",
+      "body": "Tufelka jinssiz ko‘payishda tanasining o‘rtasidan ko‘ndalang ikkiga bo‘linib, ikkita yangi hujayra hosil qiladi.",
+      "fact_ids": [
+        "paragraph-5-f4"
+      ]
+    },
+    {
+      "title": "Parazit hujayra yashaydigan joy",
+      "body": "Bezgak paraziti qizil qon hujayralariga kirib, ularda o‘sadi va ko‘payadi; darslik bu bosqichni rasmda ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-5-f5"
+      ]
+    },
+    {
+      "title": "Parazitni tashuvchi",
+      "body": "Bezgak parazitini odamga bezgak chivini yuqtiradi. Bu parazitning suvdagi erkin yashovchi tufelkadan farqli hayot tarzidir.",
+      "fact_ids": [
+        "paragraph-5-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-5-q1",
+      "fact_id": "paragraph-5-f1",
+      "question_text": "Tufelkani amyobadan ajratadigan belgilar qaysi?",
+      "options": [
+        "Ko‘p kiprik va katta-kichik yadrolar",
+        "Soxta oyoqlar va bitta yadro",
+        "Xivchin va xlorofilli xromatoforlar",
+        "Tovon va paypaslagichlar"
+      ],
+      "correct_answer": "Ko‘p kiprik va katta-kichik yadrolar",
+      "explanation": "Tufelkaning sirtida ko‘plab kipriklar, sitoplazmasida esa katta va kichik yadro bor. Kipriklar uning suzishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-5-q2",
+      "fact_id": "paragraph-5-f2",
+      "question_text": "Tufelkada oziqning dastlabki yo‘li qaysi ketma-ketlikka mos?",
+      "options": [
+        "Yadro → qisqaruvchi vakuola → og‘iz",
+        "Kiprik → yadro → sista",
+        "Qisqaruvchi vakuola → xromatofor → halqum",
+        "Og‘iz → halqum → hazm qilish vakuolasi"
+      ],
+      "correct_answer": "Og‘iz → halqum → hazm qilish vakuolasi",
+      "explanation": "Tufelkada kipriklar oziqni og‘iz va halqumga yo‘naltiradi; keyin hazm qilish vakuolasi hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-5-q3",
+      "fact_id": "paragraph-5-f3",
+      "question_text": "Tufelkada ortiqcha suvni chiqaruvchi vakuolalar qanday joylashgan?",
+      "options": [
+        "Faqat kipriklarning uchida",
+        "Faqat og‘izning ichki devorida",
+        "Oldinda va orqada bittadan",
+        "Faqat katta yadro ichida"
+      ],
+      "correct_answer": "Oldinda va orqada bittadan",
+      "explanation": "Tufelkaning oldingi va keyingi tomonida joylashgan ikkita qisqaruvchi vakuola navbat bilan ortiqcha suvni chiqaradi."
+    },
+    {
+      "key": "paragraph-5-q4",
+      "fact_id": "paragraph-5-f4",
+      "question_text": "Tufelka bo‘linishining evglenanikidan farqi qaysi?",
+      "options": [
+        "Faqat tashqi kurtak ajraladi",
+        "Tana ko‘ndalang ikkiga ajraladi",
+        "Tana faqat bo‘ylama ajraladi",
+        "Barcha ko‘payish meva orqali kechadi"
+      ],
+      "correct_answer": "Tana ko‘ndalang ikkiga ajraladi",
+      "explanation": "Tufelka jinssiz ko‘payishda tanasining o‘rtasidan ko‘ndalang ikkiga bo‘linib, ikkita yangi hujayra hosil qiladi."
+    },
+    {
+      "key": "paragraph-5-q5",
+      "fact_id": "paragraph-5-f5",
+      "question_text": "Bezgak parazitining rasmda ko‘rsatilgan ko‘payish joyi qaysi?",
+      "options": [
+        "Qizil qon hujayralari",
+        "Odamning tirnoq plastinkasi",
+        "Tufelkaning kipriklari",
+        "Gidraning tovon hujayralari"
+      ],
+      "correct_answer": "Qizil qon hujayralari",
+      "explanation": "Bezgak paraziti qizil qon hujayralariga kirib, ularda o‘sadi va ko‘payadi; darslik bu bosqichni rasmda ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-5-q6",
+      "fact_id": "paragraph-5-f6",
+      "question_text": "Bezgak parazitining odamga yuqishida qaysi hayvon tashuvchi bo‘ladi?",
+      "options": [
+        "Yomg‘ir chuvalchangi",
+        "Oddiy amyoba",
+        "Chuchuk suv gidrasi",
+        "Bezgak chivini"
+      ],
+      "correct_answer": "Bezgak chivini",
+      "explanation": "Bezgak parazitini odamga bezgak chivini yuqtiradi. Bu parazitning suvdagi erkin yashovchi tufelkadan farqli hayot tarzidir."
+    }
+  ]
+}

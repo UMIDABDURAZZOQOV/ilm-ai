@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-4-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-6",
+  "title": "Xivchinlilar sinfi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-4-f1": {
+      "claim": "Yashil evglena duksimon hujayrali organizm bo‘lib, xivchini yordamida oldinga siljiydi.",
+      "answer": "Xivchin",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f2": {
+      "claim": "Evglena sitoplazmasidagi xlorofilli xromatoforlar yorug‘likda fotosintez qilib organik moddalar hosil qiladi.",
+      "answer": "Xlorofilli xromatoforlar",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f3": {
+      "claim": "Darslikka ko‘ra evglena qorong‘ida tayyor organik moddalar bilan oziqlana oladi. Yorug‘likdagi fotosintez bilan bu usul bir xil emas.",
+      "answer": "Tayyor organik moddalardan foydalanishi mumkin",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f4": {
+      "claim": "Evglenaning qizil ko‘zchasi yorug‘likni sezishda qatnashadi; u suvning yorug‘ tomoniga harakatlanadi.",
+      "answer": "Qizil ko‘zcha",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f5": {
+      "claim": "Evglena jinssiz ko‘payganda tanasi bo‘ylab ikkiga bo‘linadi; bo‘linish vaqtida yadrosi ham taqsimlanadi.",
+      "answer": "Tana bo‘ylab",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-4-f6": {
+      "claim": "Volvoks sharsimon koloniyasining sirtida ko‘p ikki xivchinli hujayralar joylashadi, hujayralar sitoplazmatik iplar orqali bog‘langan.",
+      "answer": "Volvoks",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Xivchinli harakat",
+      "body": "Yashil evglena duksimon hujayrali organizm bo‘lib, xivchini yordamida oldinga siljiydi.",
+      "fact_ids": [
+        "paragraph-4-f1"
+      ]
+    },
+    {
+      "title": "Yorug‘likdagi oziqlanish",
+      "body": "Evglena sitoplazmasidagi xlorofilli xromatoforlar yorug‘likda fotosintez qilib organik moddalar hosil qiladi.",
+      "fact_ids": [
+        "paragraph-4-f2"
+      ]
+    },
+    {
+      "title": "Oziqlanish sharoiti o‘zgarsa",
+      "body": "Darslikka ko‘ra evglena qorong‘ida tayyor organik moddalar bilan oziqlana oladi. Yorug‘likdagi fotosintez bilan bu usul bir xil emas.",
+      "fact_ids": [
+        "paragraph-4-f3"
+      ]
+    },
+    {
+      "title": "Yorug‘likni sezish",
+      "body": "Evglenaning qizil ko‘zchasi yorug‘likni sezishda qatnashadi; u suvning yorug‘ tomoniga harakatlanadi.",
+      "fact_ids": [
+        "paragraph-4-f4"
+      ]
+    },
+    {
+      "title": "Bo‘linish yo‘nalishi",
+      "body": "Evglena jinssiz ko‘payganda tanasi bo‘ylab ikkiga bo‘linadi; bo‘linish vaqtida yadrosi ham taqsimlanadi.",
+      "fact_ids": [
+        "paragraph-4-f5"
+      ]
+    },
+    {
+      "title": "Koloniyani tanish",
+      "body": "Volvoks sharsimon koloniyasining sirtida ko‘p ikki xivchinli hujayralar joylashadi, hujayralar sitoplazmatik iplar orqali bog‘langan.",
+      "fact_ids": [
+        "paragraph-4-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-4-q1",
+      "fact_id": "paragraph-4-f1",
+      "question_text": "Evglena harakatining asosiy organoidi qaysi?",
+      "options": [
+        "Xivchin",
+        "Soxta oyoqlar",
+        "Suzgich qanot",
+        "Teri-muskul xaltasi"
+      ],
+      "correct_answer": "Xivchin",
+      "explanation": "Yashil evglena duksimon hujayrali organizm bo‘lib, xivchini yordamida oldinga siljiydi."
+    },
+    {
+      "key": "paragraph-4-q2",
+      "fact_id": "paragraph-4-f2",
+      "question_text": "Yorug‘likda evglenaning organik modda hosil qilishi qaysi tuzilma bilan bog‘liq?",
+      "options": [
+        "Faqat qisqaruvchi vakuola",
+        "Faqat yadro qobig‘i",
+        "Faqat hujayra og‘zi",
+        "Xlorofilli xromatoforlar"
+      ],
+      "correct_answer": "Xlorofilli xromatoforlar",
+      "explanation": "Evglena sitoplazmasidagi xlorofilli xromatoforlar yorug‘likda fotosintez qilib organik moddalar hosil qiladi."
+    },
+    {
+      "key": "paragraph-4-q3",
+      "fact_id": "paragraph-4-f3",
+      "question_text": "Qorong‘ida evglenaning oziqlanishi haqida qaysi xulosa to‘g‘ri?",
+      "options": [
+        "Faqat qum donalarini yutadi",
+        "Oziqlanish har doim butunlay to‘xtaydi",
+        "Tayyor organik moddalardan foydalanishi mumkin",
+        "Yorug‘liksiz ham fotosintez majburiy davom etadi"
+      ],
+      "correct_answer": "Tayyor organik moddalardan foydalanishi mumkin",
+      "explanation": "Darslikka ko‘ra evglena qorong‘ida tayyor organik moddalar bilan oziqlana oladi. Yorug‘likdagi fotosintez bilan bu usul bir xil emas."
+    },
+    {
+      "key": "paragraph-4-q4",
+      "fact_id": "paragraph-4-f4",
+      "question_text": "Evglena yorug‘ tomon yo‘nalishida qaysi tuzilma yordam beradi?",
+      "options": [
+        "Teri tangachasi",
+        "Qizil ko‘zcha",
+        "Hazm qilish og‘zi",
+        "Soxta oyoq uchi"
+      ],
+      "correct_answer": "Qizil ko‘zcha",
+      "explanation": "Evglenaning qizil ko‘zchasi yorug‘likni sezishda qatnashadi; u suvning yorug‘ tomoniga harakatlanadi."
+    },
+    {
+      "key": "paragraph-4-q5",
+      "fact_id": "paragraph-4-f5",
+      "question_text": "Evglena hujayrasining bo‘linishi qaysi yo‘nalishda boradi?",
+      "options": [
+        "Tana bo‘ylab",
+        "Faqat tanaga ko‘ndalang",
+        "Faqat dum uchidan",
+        "Faqat qobiqning tashqarisida"
+      ],
+      "correct_answer": "Tana bo‘ylab",
+      "explanation": "Evglena jinssiz ko‘payganda tanasi bo‘ylab ikkiga bo‘linadi; bo‘linish vaqtida yadrosi ham taqsimlanadi."
+    },
+    {
+      "key": "paragraph-4-q6",
+      "fact_id": "paragraph-4-f6",
+      "question_text": "Sharsimon koloniyada o‘zaro bog‘langan ko‘p xivchinli hujayralar kuzatildi. Bu qaysi organizm?",
+      "options": [
+        "Oddiy amyoba",
+        "Tufelka",
+        "Chuchuk suv gidrasi",
+        "Volvoks"
+      ],
+      "correct_answer": "Volvoks",
+      "explanation": "Volvoks sharsimon koloniyasining sirtida ko‘p ikki xivchinli hujayralar joylashadi, hujayralar sitoplazmatik iplar orqali bog‘langan."
+    }
+  ]
+}

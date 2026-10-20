@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-7-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-11",
+  "title": "Dengiz bo‘shliqichlilari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-7-f1": {
+      "claim": "Aktiniyalar yakka o‘troq, korall poliplar koloniya bo‘lib o‘troq, meduzalar esa suvda erkin suzib yashaydi.",
+      "answer": "Aktiniya — yakka, korall — koloniya, meduza — suzuvchi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f2": {
+      "claim": "Darslik misolida aktiniya zohid qisqichbaqa chig‘anog‘iga o‘rnashib, uni himoya qiladi; qisqichbaqa esa topgan oziqqa sherik qiladi.",
+      "answer": "Ikkala hayvon ham foyda ko‘radi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f3": {
+      "claim": "Korall poliplar kurtaklanadi, ammo hosil bo‘lgan yosh poliplar ona tanadan ajralmaydi. Shu yo‘l bilan koloniya kattalashadi.",
+      "answer": "Yosh polip ona tanadan ajralmay qoladi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f4": {
+      "claim": "Tropik dengizlarning sayoz joylarida korall koloniyalari riflar hosil qiladi. Riflar turli baliqlar va boshqa dengiz hayvonlari uchun makondir.",
+      "answer": "Ular ko‘plab hayvonlar yashaydigan makondir",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f5": {
+      "claim": "Meduza soyaboni qisqarganda uning ostidagi suv tashqariga otiladi; shu kuch bilan meduza siljiydi.",
+      "answer": "Soyabon qisqarib suvni tashqariga otishi",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-7-f6": {
+      "claim": "Meduzalar otuvchi hujayralari yordamida mayda suv hayvonlarini tutadigan yirtqichlardir. Ayrim turlari odam uchun ham xavfli.",
+      "answer": "Otuvchi hujayralar",
+      "source": {
+        "paragraph": 7,
+        "pdf_pages": [
+          29
+        ],
+        "printed_pages": [
+          29
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Uch xil yashash tarzi",
+      "body": "Aktiniyalar yakka o‘troq, korall poliplar koloniya bo‘lib o‘troq, meduzalar esa suvda erkin suzib yashaydi.",
+      "fact_ids": [
+        "paragraph-7-f1"
+      ]
+    },
+    {
+      "title": "O‘zaro foydali birga yashash",
+      "body": "Darslik misolida aktiniya zohid qisqichbaqa chig‘anog‘iga o‘rnashib, uni himoya qiladi; qisqichbaqa esa topgan oziqqa sherik qiladi.",
+      "fact_ids": [
+        "paragraph-7-f2"
+      ]
+    },
+    {
+      "title": "Koloniya qanday kattalashadi?",
+      "body": "Korall poliplar kurtaklanadi, ammo hosil bo‘lgan yosh poliplar ona tanadan ajralmaydi. Shu yo‘l bilan koloniya kattalashadi.",
+      "fact_ids": [
+        "paragraph-7-f3"
+      ]
+    },
+    {
+      "title": "Rifning ekologik ahamiyati",
+      "body": "Tropik dengizlarning sayoz joylarida korall koloniyalari riflar hosil qiladi. Riflar turli baliqlar va boshqa dengiz hayvonlari uchun makondir.",
+      "fact_ids": [
+        "paragraph-7-f4"
+      ]
+    },
+    {
+      "title": "Meduzaning reaktiv harakati",
+      "body": "Meduza soyaboni qisqarganda uning ostidagi suv tashqariga otiladi; shu kuch bilan meduza siljiydi.",
+      "fact_ids": [
+        "paragraph-7-f5"
+      ]
+    },
+    {
+      "title": "O‘lja tutish va xavfsizlik",
+      "body": "Meduzalar otuvchi hujayralari yordamida mayda suv hayvonlarini tutadigan yirtqichlardir. Ayrim turlari odam uchun ham xavfli.",
+      "fact_ids": [
+        "paragraph-7-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-7-q1",
+      "fact_id": "paragraph-7-f1",
+      "question_text": "Qaysi moslik dengiz bo‘shliqichlilarining yashash tarzini to‘g‘ri beradi?",
+      "options": [
+        "Aktiniya — yakka, korall — koloniya, meduza — suzuvchi",
+        "Aktiniya — suzuvchi, korall — yakka, meduza — koloniya",
+        "Uchala guruh — faqat tuproq parazitlari",
+        "Uchala guruh — faqat bir hujayrali koloniyalar"
+      ],
+      "correct_answer": "Aktiniya — yakka, korall — koloniya, meduza — suzuvchi",
+      "explanation": "Aktiniyalar yakka o‘troq, korall poliplar koloniya bo‘lib o‘troq, meduzalar esa suvda erkin suzib yashaydi."
+    },
+    {
+      "key": "paragraph-7-q2",
+      "fact_id": "paragraph-7-f2",
+      "question_text": "Aktiniya va zohid qisqichbaqaning bu aloqasida qanday natija bor?",
+      "options": [
+        "Faqat aktiniya oziqlanib qisqichbaqani albatta o‘ldiradi",
+        "Ikkalasi ham oziqlana olmaydi",
+        "Qisqichbaqa fotosintez qila boshlaydi",
+        "Ikkala hayvon ham foyda ko‘radi"
+      ],
+      "correct_answer": "Ikkala hayvon ham foyda ko‘radi",
+      "explanation": "Darslik misolida aktiniya zohid qisqichbaqa chig‘anog‘iga o‘rnashib, uni himoya qiladi; qisqichbaqa esa topgan oziqqa sherik qiladi."
+    },
+    {
+      "key": "paragraph-7-q3",
+      "fact_id": "paragraph-7-f3",
+      "question_text": "Korall kurtagi gidraning ajralib ketadigan kurtagidan qanday farq qiladi?",
+      "options": [
+        "Faqat urug‘ ichida rivojlanadi",
+        "Hech qanday yangi polip hosil bo‘lmaydi",
+        "Yosh polip ona tanadan ajralmay qoladi",
+        "Har safar mustaqil baliqqa aylanadi"
+      ],
+      "correct_answer": "Yosh polip ona tanadan ajralmay qoladi",
+      "explanation": "Korall poliplar kurtaklanadi, ammo hosil bo‘lgan yosh poliplar ona tanadan ajralmaydi. Shu yo‘l bilan koloniya kattalashadi."
+    },
+    {
+      "key": "paragraph-7-q4",
+      "fact_id": "paragraph-7-f4",
+      "question_text": "Korall riflarini asrash nega dengiz hayvonlari uchun ahamiyatli?",
+      "options": [
+        "Ular faqat bitta parazit hujayradan iborat",
+        "Ular ko‘plab hayvonlar yashaydigan makondir",
+        "Ular barcha baliqlar uchun quruqlik yaratadi",
+        "Ular dengizdagi barcha kislorodni yutib tugatadi"
+      ],
+      "correct_answer": "Ular ko‘plab hayvonlar yashaydigan makondir",
+      "explanation": "Tropik dengizlarning sayoz joylarida korall koloniyalari riflar hosil qiladi. Riflar turli baliqlar va boshqa dengiz hayvonlari uchun makondir."
+    },
+    {
+      "key": "paragraph-7-q5",
+      "fact_id": "paragraph-7-f5",
+      "question_text": "Meduza harakatini qaysi hodisa ta’minlaydi?",
+      "options": [
+        "Soyabon qisqarib suvni tashqariga otishi",
+        "Qattiq oyoqlarning yerga tiralishi",
+        "Bo‘g‘imlarning tuproqni surishi",
+        "Piyozboshning suvga botishi"
+      ],
+      "correct_answer": "Soyabon qisqarib suvni tashqariga otishi",
+      "explanation": "Meduza soyaboni qisqarganda uning ostidagi suv tashqariga otiladi; shu kuch bilan meduza siljiydi."
+    },
+    {
+      "key": "paragraph-7-q6",
+      "fact_id": "paragraph-7-f6",
+      "question_text": "Meduzaning o‘ljani falajlashi qaysi tuzilma bilan bog‘liq?",
+      "options": [
+        "Faqat qisqaruvchi vakuola",
+        "Faqat ohakli chig‘anoq",
+        "Faqat halqali oyoqlar",
+        "Otuvchi hujayralar"
+      ],
+      "correct_answer": "Otuvchi hujayralar",
+      "explanation": "Meduzalar otuvchi hujayralari yordamida mayda suv hayvonlarini tutadigan yirtqichlardir. Ayrim turlari odam uchun ham xavfli."
+    }
+  ]
+}

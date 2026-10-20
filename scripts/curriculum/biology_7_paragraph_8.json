@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-8-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-13",
+  "title": "Yassi chuvalchanglar tipi: kiprikli chuvalchanglar sinfi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-8-f1": {
+      "claim": "Oq planariya chuchuk suvda, ko‘pincha tosh va barglar ostida yashaydi. Tana sirti kiprikli epiteliy bilan qoplangan va u sirpanib harakatlanadi.",
+      "answer": "Tana sirtidagi kipriklar",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f2": {
+      "claim": "Planariya tanasi bo‘ylab o‘tkazilgan bitta chiziq uning chap va o‘ng qismlarini ajratadi. Bu ikki tomonlama simmetriyadir.",
+      "answer": "Ikki tomonlama simmetriya",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f3": {
+      "claim": "Planariyaning shoxlangan ichagi berk tugaydi, anal teshigi yo‘q. Hazm bo‘lmagan oziq og‘iz orqali tashqariga chiqariladi.",
+      "answer": "Og‘iz teshigidan",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f4": {
+      "claim": "Planariyaning oldingi qismida ikkita nerv tuguni, ulardan keyinga ketuvchi ikkita yirik nerv stvoli bor.",
+      "answer": "Oldingi ikki nerv tugunidan",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f5": {
+      "claim": "Planariyada tuxum hujayralar ham, spermatozoidlar ham hosil bo‘ladi. Bitta organizmda ikki jinsiy sistema mavjudligi germafroditlik deyiladi.",
+      "answer": "Bir organizmda tuxum va urug‘ hujayralar hosil bo‘lishini",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-8-f6": {
+      "claim": "Planariyaning terisi, paypaslagichlari va ko‘zchalari tashqi ta’sirlarni sezadi; tegilganda tana qisqaradi.",
+      "answer": "Tashqi ta’sirni sezishi",
+      "source": {
+        "paragraph": 8,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Erkin yashovchi yassi chuvalchang",
+      "body": "Oq planariya chuchuk suvda, ko‘pincha tosh va barglar ostida yashaydi. Tana sirti kiprikli epiteliy bilan qoplangan va u sirpanib harakatlanadi.",
+      "fact_ids": [
+        "paragraph-8-f1"
+      ]
+    },
+    {
+      "title": "Ikki tomonlama simmetriya",
+      "body": "Planariya tanasi bo‘ylab o‘tkazilgan bitta chiziq uning chap va o‘ng qismlarini ajratadi. Bu ikki tomonlama simmetriyadir.",
+      "fact_ids": [
+        "paragraph-8-f2"
+      ]
+    },
+    {
+      "title": "Hazm yo‘lining xususiyati",
+      "body": "Planariyaning shoxlangan ichagi berk tugaydi, anal teshigi yo‘q. Hazm bo‘lmagan oziq og‘iz orqali tashqariga chiqariladi.",
+      "fact_ids": [
+        "paragraph-8-f3"
+      ]
+    },
+    {
+      "title": "Nerv sistemasi",
+      "body": "Planariyaning oldingi qismida ikkita nerv tuguni, ulardan keyinga ketuvchi ikkita yirik nerv stvoli bor.",
+      "fact_ids": [
+        "paragraph-8-f4"
+      ]
+    },
+    {
+      "title": "Jinsiy organlarni tushunish",
+      "body": "Planariyada tuxum hujayralar ham, spermatozoidlar ham hosil bo‘ladi. Bitta organizmda ikki jinsiy sistema mavjudligi germafroditlik deyiladi.",
+      "fact_ids": [
+        "paragraph-8-f5"
+      ]
+    },
+    {
+      "title": "Sezgi organlari",
+      "body": "Planariyaning terisi, paypaslagichlari va ko‘zchalari tashqi ta’sirlarni sezadi; tegilganda tana qisqaradi.",
+      "fact_ids": [
+        "paragraph-8-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-8-q1",
+      "fact_id": "paragraph-8-f1",
+      "question_text": "Oq planariyaning sirpanishida qaysi tuzilma qatnashadi?",
+      "options": [
+        "Tana sirtidagi kipriklar",
+        "Bo‘g‘imli oyoqlar",
+        "Jabra qopqog‘i",
+        "Suzgich qanotlar"
+      ],
+      "correct_answer": "Tana sirtidagi kipriklar",
+      "explanation": "Oq planariya chuchuk suvda, ko‘pincha tosh va barglar ostida yashaydi. Tana sirti kiprikli epiteliy bilan qoplangan va u sirpanib harakatlanadi."
+    },
+    {
+      "key": "paragraph-8-q2",
+      "fact_id": "paragraph-8-f2",
+      "question_text": "Planariyaning chap va o‘ng yarmiga bo‘linishi qaysi simmetriya turi?",
+      "options": [
+        "Nurli simmetriya",
+        "Spiral simmetriya",
+        "Koloniyali simmetriya",
+        "Ikki tomonlama simmetriya"
+      ],
+      "correct_answer": "Ikki tomonlama simmetriya",
+      "explanation": "Planariya tanasi bo‘ylab o‘tkazilgan bitta chiziq uning chap va o‘ng qismlarini ajratadi. Bu ikki tomonlama simmetriyadir."
+    },
+    {
+      "key": "paragraph-8-q3",
+      "fact_id": "paragraph-8-f3",
+      "question_text": "Planariyada hazm bo‘lmagan oziq qayerdan chiqadi?",
+      "options": [
+        "Ko‘zchasidan",
+        "Qisqaruvchi vakuoladan",
+        "Og‘iz teshigidan",
+        "Anal teshigidan"
+      ],
+      "correct_answer": "Og‘iz teshigidan",
+      "explanation": "Planariyaning shoxlangan ichagi berk tugaydi, anal teshigi yo‘q. Hazm bo‘lmagan oziq og‘iz orqali tashqariga chiqariladi."
+    },
+    {
+      "key": "paragraph-8-q4",
+      "fact_id": "paragraph-8-f4",
+      "question_text": "Planariyaning nerv sistemasi qaysi tuzilmalardan boshlanadi?",
+      "options": [
+        "Faqat ichakning berk uchidan",
+        "Oldingi ikki nerv tugunidan",
+        "Faqat bitta qisqaruvchi vakuoladan",
+        "Faqat otuvchi hujayralardan"
+      ],
+      "correct_answer": "Oldingi ikki nerv tugunidan",
+      "explanation": "Planariyaning oldingi qismida ikkita nerv tuguni, ulardan keyinga ketuvchi ikkita yirik nerv stvoli bor."
+    },
+    {
+      "key": "paragraph-8-q5",
+      "fact_id": "paragraph-8-f5",
+      "question_text": "Planariyaning germafroditligi nimani anglatadi?",
+      "options": [
+        "Bir organizmda tuxum va urug‘ hujayralar hosil bo‘lishini",
+        "Bir hujayraning ikkita barg hosil qilishini",
+        "Faqat erkak hayvonlar bo‘lishini",
+        "Faqat jinssiz kurtaklanishni"
+      ],
+      "correct_answer": "Bir organizmda tuxum va urug‘ hujayralar hosil bo‘lishini",
+      "explanation": "Planariyada tuxum hujayralar ham, spermatozoidlar ham hosil bo‘ladi. Bitta organizmda ikki jinsiy sistema mavjudligi germafroditlik deyiladi."
+    },
+    {
+      "key": "paragraph-8-q6",
+      "fact_id": "paragraph-8-f6",
+      "question_text": "Planariyaga tegilganda qisqarishiga qaysi xususiyat asos bo‘ladi?",
+      "options": [
+        "Organik modda fotosintezi",
+        "Ohakli skelet hosil qilishi",
+        "Urug‘dan unib chiqishi",
+        "Tashqi ta’sirni sezishi"
+      ],
+      "correct_answer": "Tashqi ta’sirni sezishi",
+      "explanation": "Planariyaning terisi, paypaslagichlari va ko‘zchalari tashqi ta’sirlarni sezadi; tegilganda tana qisqaradi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-18-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-29",
+  "title": "Butli o‘rgimchakning tuzilishi va hayot kechirishi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-18-f1": {
+      "claim": "Butli o‘rgimchakning tanasi boshko‘krak va qorindan iborat. Boshko‘kragida to‘rt juft yurish oyoqlari bor.",
+      "answer": "Sakkizta",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f2": {
+      "claim": "Butli o‘rgimchak boshko‘kragining ustida to‘rt juft oddiy ko‘zcha joylashgan. Ular qisqichbaqaning murakkab ko‘zidan farq qiladi.",
+      "answer": "To‘rt juft oddiy ko‘zcha",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f3": {
+      "claim": "O‘rgimchak bezlarining suyuq mahsuloti havoda qotib ipga aylanadi; bez yo‘llari qorin orqasidagi so‘gallarga ochiladi.",
+      "answer": "Bez suyuqligi havoda qotadi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f4": {
+      "claim": "Tutqich to‘rdagi o‘lja tipirchilaganda signal ipi tebranadi; inidagi o‘rgimchak shu tebranishdan o‘lja borligini sezadi.",
+      "answer": "Signal ipining tebranishi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f5": {
+      "claim": "Butli o‘rgimchak o‘ljasining ichki to‘qimalari suyuqlangach ularni so‘rib oladi; tashqi xitin qoplama qoladi.",
+      "answer": "Xitin qoplama",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-18-f6": {
+      "claim": "Urg‘ochi butli o‘rgimchak ipdan to‘qilgan pillaga tuxum qo‘yadi; tuxumlar pillada qishlab, bahorda yosh o‘rgimchaklar chiqadi.",
+      "answer": "Ipdan to‘qilgan pillada",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tana va oyoqlar",
+      "body": "Butli o‘rgimchakning tanasi boshko‘krak va qorindan iborat. Boshko‘kragida to‘rt juft yurish oyoqlari bor.",
+      "fact_ids": [
+        "paragraph-18-f1"
+      ]
+    },
+    {
+      "title": "Oddiy ko‘zchalar",
+      "body": "Butli o‘rgimchak boshko‘kragining ustida to‘rt juft oddiy ko‘zcha joylashgan. Ular qisqichbaqaning murakkab ko‘zidan farq qiladi.",
+      "fact_ids": [
+        "paragraph-18-f2"
+      ]
+    },
+    {
+      "title": "Ip qayerdan hosil bo‘ladi?",
+      "body": "O‘rgimchak bezlarining suyuq mahsuloti havoda qotib ipga aylanadi; bez yo‘llari qorin orqasidagi so‘gallarga ochiladi.",
+      "fact_ids": [
+        "paragraph-18-f3"
+      ]
+    },
+    {
+      "title": "Signal ipining vazifasi",
+      "body": "Tutqich to‘rdagi o‘lja tipirchilaganda signal ipi tebranadi; inidagi o‘rgimchak shu tebranishdan o‘lja borligini sezadi.",
+      "fact_ids": [
+        "paragraph-18-f4"
+      ]
+    },
+    {
+      "title": "Oziqlanish usuli",
+      "body": "Butli o‘rgimchak o‘ljasining ichki to‘qimalari suyuqlangach ularni so‘rib oladi; tashqi xitin qoplama qoladi.",
+      "fact_ids": [
+        "paragraph-18-f5"
+      ]
+    },
+    {
+      "title": "Tuxumli pillaning vazifasi",
+      "body": "Urg‘ochi butli o‘rgimchak ipdan to‘qilgan pillaga tuxum qo‘yadi; tuxumlar pillada qishlab, bahorda yosh o‘rgimchaklar chiqadi.",
+      "fact_ids": [
+        "paragraph-18-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-18-q1",
+      "fact_id": "paragraph-18-f1",
+      "question_text": "Butli o‘rgimchakning yurish oyoqlari jami nechta?",
+      "options": [
+        "Sakkizta",
+        "Oltita",
+        "O‘nta",
+        "To‘rtta"
+      ],
+      "correct_answer": "Sakkizta",
+      "explanation": "Butli o‘rgimchakning tanasi boshko‘krak va qorindan iborat. Boshko‘kragida to‘rt juft yurish oyoqlari bor."
+    },
+    {
+      "key": "paragraph-18-q2",
+      "fact_id": "paragraph-18-f2",
+      "question_text": "Butli o‘rgimchakning ko‘zlari qanday tavsiflanadi?",
+      "options": [
+        "Bitta katta murakkab ko‘z",
+        "Mo‘ylov uchidagi ikkita ko‘z",
+        "Ko‘z o‘rnida faqat xromatofor",
+        "To‘rt juft oddiy ko‘zcha"
+      ],
+      "correct_answer": "To‘rt juft oddiy ko‘zcha",
+      "explanation": "Butli o‘rgimchak boshko‘kragining ustida to‘rt juft oddiy ko‘zcha joylashgan. Ular qisqichbaqaning murakkab ko‘zidan farq qiladi."
+    },
+    {
+      "key": "paragraph-18-q3",
+      "fact_id": "paragraph-18-f3",
+      "question_text": "O‘rgimchak ipi qanday hosil bo‘ladi?",
+      "options": [
+        "Qonning barcha tomirlari uziladi",
+        "Ko‘zchalari erib ipga aylanadi",
+        "Bez suyuqligi havoda qotadi",
+        "Faqat tayyor o‘simlik tolasi yutiladi"
+      ],
+      "correct_answer": "Bez suyuqligi havoda qotadi",
+      "explanation": "O‘rgimchak bezlarining suyuq mahsuloti havoda qotib ipga aylanadi; bez yo‘llari qorin orqasidagi so‘gallarga ochiladi."
+    },
+    {
+      "key": "paragraph-18-q4",
+      "fact_id": "paragraph-18-f4",
+      "question_text": "To‘rdagi hasharot haqida o‘rgimchakka qaysi belgi xabar beradi?",
+      "options": [
+        "Faqat oyog‘ining o‘sishi",
+        "Signal ipining tebranishi",
+        "Gul changining rangi",
+        "Suvdagi qisqaruvchi vakuola"
+      ],
+      "correct_answer": "Signal ipining tebranishi",
+      "explanation": "Tutqich to‘rdagi o‘lja tipirchilaganda signal ipi tebranadi; inidagi o‘rgimchak shu tebranishdan o‘lja borligini sezadi."
+    },
+    {
+      "key": "paragraph-18-q5",
+      "fact_id": "paragraph-18-f5",
+      "question_text": "O‘rgimchak oziqlangach o‘ljadan asosan nima qoladi?",
+      "options": [
+        "Xitin qoplama",
+        "Yangi gul kurtagi",
+        "Tirik poya",
+        "Ohakli marvarid"
+      ],
+      "correct_answer": "Xitin qoplama",
+      "explanation": "Butli o‘rgimchak o‘ljasining ichki to‘qimalari suyuqlangach ularni so‘rib oladi; tashqi xitin qoplama qoladi."
+    },
+    {
+      "key": "paragraph-18-q6",
+      "fact_id": "paragraph-18-f6",
+      "question_text": "Butli o‘rgimchakning tuxumlari qayerda qishlaydi?",
+      "options": [
+        "Faqat jabra bo‘shlig‘ida",
+        "Quruq don meva ichida",
+        "Qarag‘ay qubbasida",
+        "Ipdan to‘qilgan pillada"
+      ],
+      "correct_answer": "Ipdan to‘qilgan pillada",
+      "explanation": "Urg‘ochi butli o‘rgimchak ipdan to‘qilgan pillaga tuxum qo‘yadi; tuxumlar pillada qishlab, bahorda yosh o‘rgimchaklar chiqadi."
+    }
+  ]
+}

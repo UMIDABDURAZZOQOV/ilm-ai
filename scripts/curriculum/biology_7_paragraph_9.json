@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-9-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-14",
+  "title": "Yassi chuvalchanglar tipi: so‘rg‘ichlilar va tasmasimon chuvalchanglar sinflari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-9-f1": {
+      "claim": "Jigar qurtida og‘iz va qorin so‘rg‘ichlari bor. U ular yordamida xo‘jayinining o‘t yo‘llariga yopishadi.",
+      "answer": "Og‘iz va qorin so‘rg‘ichlari",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f2": {
+      "claim": "Jigar qurtining lichinkasi chuchuk suv shillig‘ida, voyaga yetgani esa odam yoki sutemizuvchi hayvonda yashaydi; shilliq oraliq xo‘jayindir.",
+      "answer": "Oraliq xo‘jayin",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          35
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f3": {
+      "claim": "Jigar qurti tuxumlari suvga tushgach kiprikli lichinka chiqadi; u suv shillig‘iga kiradi. Keyingi bosqichlar yana suvga chiqadi va o‘simlikka yopishgan sista hosil qiladi.",
+      "answer": "Suvdagi tuxum → kiprikli lichinka → suv shillig‘i",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          35
+        ],
+        "printed_pages": [
+          35
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f4": {
+      "claim": "Qoramol tasmasimon chuvalchangining hazm qilish organlari yo‘q. U odam ichagida hazm bo‘layotgan oziqni tanasi yuzasi orqali shimadi.",
+      "answer": "Oziqni tana yuzasi orqali shimadi",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f5": {
+      "claim": "Qoramol tasmasimon chuvalchangining finna bosqichi go‘shtda bo‘lishi mumkin. Bunday go‘sht yaxshi pishirilmasa odamga yuqadi.",
+      "answer": "Finnali go‘shtni yaxshi pishirmay iste’mol qilish",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-9-f6": {
+      "claim": "Qoramol tasmasimonida odam asosiy xo‘jayin, qoramol esa oraliq xo‘jayin: voyaga yetgan qurt odamda, lichinkasi qoramolda yashaydi.",
+      "answer": "Odam — asosiy, qoramol — oraliq",
+      "source": {
+        "paragraph": 9,
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Jigar qurtining yopishishi",
+      "body": "Jigar qurtida og‘iz va qorin so‘rg‘ichlari bor. U ular yordamida xo‘jayinining o‘t yo‘llariga yopishadi.",
+      "fact_ids": [
+        "paragraph-9-f1"
+      ]
+    },
+    {
+      "title": "Asosiy va oraliq xo‘jayin",
+      "body": "Jigar qurtining lichinkasi chuchuk suv shillig‘ida, voyaga yetgani esa odam yoki sutemizuvchi hayvonda yashaydi; shilliq oraliq xo‘jayindir.",
+      "fact_ids": [
+        "paragraph-9-f2"
+      ]
+    },
+    {
+      "title": "Tuxumdan lichinkaga",
+      "body": "Jigar qurti tuxumlari suvga tushgach kiprikli lichinka chiqadi; u suv shillig‘iga kiradi. Keyingi bosqichlar yana suvga chiqadi va o‘simlikka yopishgan sista hosil qiladi.",
+      "fact_ids": [
+        "paragraph-9-f3"
+      ]
+    },
+    {
+      "title": "Ichaksiz oziqlanishga moslashish",
+      "body": "Qoramol tasmasimon chuvalchangining hazm qilish organlari yo‘q. U odam ichagida hazm bo‘layotgan oziqni tanasi yuzasi orqali shimadi.",
+      "fact_ids": [
+        "paragraph-9-f4"
+      ]
+    },
+    {
+      "title": "Qoramoldan odamga yuqish",
+      "body": "Qoramol tasmasimon chuvalchangining finna bosqichi go‘shtda bo‘lishi mumkin. Bunday go‘sht yaxshi pishirilmasa odamga yuqadi.",
+      "fact_ids": [
+        "paragraph-9-f5"
+      ]
+    },
+    {
+      "title": "Xo‘jayinlarni almashtirmang",
+      "body": "Qoramol tasmasimonida odam asosiy xo‘jayin, qoramol esa oraliq xo‘jayin: voyaga yetgan qurt odamda, lichinkasi qoramolda yashaydi.",
+      "fact_ids": [
+        "paragraph-9-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-9-q1",
+      "fact_id": "paragraph-9-f1",
+      "question_text": "Jigar qurtining xo‘jayin tanasiga yopishish organlari qaysi?",
+      "options": [
+        "Og‘iz va qorin so‘rg‘ichlari",
+        "Faqat uch juft oyoq",
+        "Faqat kiprikli qopqoq",
+        "Faqat soxta oyoqlar"
+      ],
+      "correct_answer": "Og‘iz va qorin so‘rg‘ichlari",
+      "explanation": "Jigar qurtida og‘iz va qorin so‘rg‘ichlari bor. U ular yordamida xo‘jayinining o‘t yo‘llariga yopishadi."
+    },
+    {
+      "key": "paragraph-9-q2",
+      "fact_id": "paragraph-9-f2",
+      "question_text": "Jigar qurti rivojlanishida chuchuk suv shillig‘i qanday xo‘jayin?",
+      "options": [
+        "Faqat asosiy xo‘jayin",
+        "Faqat parazitni yutuvchi yirtqich",
+        "Faqat tuxumni hosil qiluvchi o‘simlik",
+        "Oraliq xo‘jayin"
+      ],
+      "correct_answer": "Oraliq xo‘jayin",
+      "explanation": "Jigar qurtining lichinkasi chuchuk suv shillig‘ida, voyaga yetgani esa odam yoki sutemizuvchi hayvonda yashaydi; shilliq oraliq xo‘jayindir."
+    },
+    {
+      "key": "paragraph-9-q3",
+      "fact_id": "paragraph-9-f3",
+      "question_text": "Jigar qurti siklining dastlabki ketma-ketligi qaysi?",
+      "options": [
+        "Sista → makkajo‘xori doni → tuxum",
+        "Suv shillig‘i → baliq tangachasi → polip",
+        "Suvdagi tuxum → kiprikli lichinka → suv shillig‘i",
+        "Voyaga yetgan qurt → gul changi → urug‘"
+      ],
+      "correct_answer": "Suvdagi tuxum → kiprikli lichinka → suv shillig‘i",
+      "explanation": "Jigar qurti tuxumlari suvga tushgach kiprikli lichinka chiqadi; u suv shillig‘iga kiradi. Keyingi bosqichlar yana suvga chiqadi va o‘simlikka yopishgan sista hosil qiladi."
+    },
+    {
+      "key": "paragraph-9-q4",
+      "fact_id": "paragraph-9-f4",
+      "question_text": "Qoramol tasmasimon chuvalchangi ichaksiz qanday oziqlanadi?",
+      "options": [
+        "Jabralari bilan oziqni maydalaydi",
+        "Oziqni tana yuzasi orqali shimadi",
+        "Faqat og‘iz bilan chaynaydi",
+        "Xlorofill orqali fotosintez qiladi"
+      ],
+      "correct_answer": "Oziqni tana yuzasi orqali shimadi",
+      "explanation": "Qoramol tasmasimon chuvalchangining hazm qilish organlari yo‘q. U odam ichagida hazm bo‘layotgan oziqni tanasi yuzasi orqali shimadi."
+    },
+    {
+      "key": "paragraph-9-q5",
+      "fact_id": "paragraph-9-f5",
+      "question_text": "Darslikka ko‘ra odamga qoramol tasmasimoni yuqishi qaysi holat bilan bog‘liq?",
+      "options": [
+        "Finnali go‘shtni yaxshi pishirmay iste’mol qilish",
+        "Faqat toza suvda suzish",
+        "Faqat oddiy amyobani mikroskopda ko‘rish",
+        "Faqat pishgan olmaning po‘stiga tegish"
+      ],
+      "correct_answer": "Finnali go‘shtni yaxshi pishirmay iste’mol qilish",
+      "explanation": "Qoramol tasmasimon chuvalchangining finna bosqichi go‘shtda bo‘lishi mumkin. Bunday go‘sht yaxshi pishirilmasa odamga yuqadi."
+    },
+    {
+      "key": "paragraph-9-q6",
+      "fact_id": "paragraph-9-f6",
+      "question_text": "Qoramol tasmasimonining xo‘jayinlari qaysi javobda to‘g‘ri?",
+      "options": [
+        "Qoramol — asosiy, odam — oraliq",
+        "Shilliq — asosiy, meduza — oraliq",
+        "Odam — oraliq, tok — asosiy",
+        "Odam — asosiy, qoramol — oraliq"
+      ],
+      "correct_answer": "Odam — asosiy, qoramol — oraliq",
+      "explanation": "Qoramol tasmasimonida odam asosiy xo‘jayin, qoramol esa oraliq xo‘jayin: voyaga yetgan qurt odamda, lichinkasi qoramolda yashaydi."
+    }
+  ]
+}

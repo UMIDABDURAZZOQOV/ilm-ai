@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-21-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-33",
+  "title": "Yashil bronza qo‘ng‘izining ichki tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-21-f1": {
+      "claim": "Bronza qo‘ng‘izi jag‘lari yordamida o‘simlik to‘qimasini uzib, chaynab maydalaydi. Bunday og‘iz apparati kemiruvchi tipga kiradi.",
+      "answer": "Kemiruvchi",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f2": {
+      "claim": "Hasharotlarda ochiq qon aylanish sistemasi bor; bronza qo‘ng‘izining qoni oziq moddalarni tashiydi, ammo nafas kislorodini tashimaydi.",
+      "answer": "Nafas kislorodini qon tashimaydi",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f3": {
+      "claim": "Havo nafas teshiklaridan shoxlangan traxeya naychalariga kirib, organlarga yetadi. Qorin muskullari qisqarishi havo almashinishiga yordam beradi.",
+      "answer": "Traxeyalar",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f4": {
+      "claim": "Hasharotlarning ayirish organlari — malpigi naychalari; ularning bir uchi berk, ikkinchi uchi ichakka ochiladi.",
+      "answer": "Ichakka",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f5": {
+      "claim": "Hasharot nerv sistemasi halqum atrofidagi nerv halqasi va qorin nerv zanjirini o‘z ichiga oladi; boshdagi nerv hujayralari bosh miyani hosil qiladi.",
+      "answer": "Halqum atrofi nerv halqasi va qorin nerv zanjiri",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f6": {
+      "claim": "Arilar va chumolilarning murakkab xulq-atvori rivojlangan nerv sistemasi hamda sezgi organlari bilan bog‘liq.",
+      "answer": "Nerv sistemasi va sezgi organlari rivoji bilan",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kemiruvchi og‘iz",
+      "body": "Bronza qo‘ng‘izi jag‘lari yordamida o‘simlik to‘qimasini uzib, chaynab maydalaydi. Bunday og‘iz apparati kemiruvchi tipga kiradi.",
+      "fact_ids": [
+        "paragraph-21-f1"
+      ]
+    },
+    {
+      "title": "Qon va kislorod vazifasi",
+      "body": "Hasharotlarda ochiq qon aylanish sistemasi bor; bronza qo‘ng‘izining qoni oziq moddalarni tashiydi, ammo nafas kislorodini tashimaydi.",
+      "fact_ids": [
+        "paragraph-21-f2"
+      ]
+    },
+    {
+      "title": "Traxeyalar tarmog‘i",
+      "body": "Havo nafas teshiklaridan shoxlangan traxeya naychalariga kirib, organlarga yetadi. Qorin muskullari qisqarishi havo almashinishiga yordam beradi.",
+      "fact_ids": [
+        "paragraph-21-f3"
+      ]
+    },
+    {
+      "title": "Malpigi naychalari",
+      "body": "Hasharotlarning ayirish organlari — malpigi naychalari; ularning bir uchi berk, ikkinchi uchi ichakka ochiladi.",
+      "fact_ids": [
+        "paragraph-21-f4"
+      ]
+    },
+    {
+      "title": "Nerv halqasi va zanjiri",
+      "body": "Hasharot nerv sistemasi halqum atrofidagi nerv halqasi va qorin nerv zanjirini o‘z ichiga oladi; boshdagi nerv hujayralari bosh miyani hosil qiladi.",
+      "fact_ids": [
+        "paragraph-21-f5"
+      ]
+    },
+    {
+      "title": "Xulq-atvor va nervlar",
+      "body": "Arilar va chumolilarning murakkab xulq-atvori rivojlangan nerv sistemasi hamda sezgi organlari bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-21-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-21-q1",
+      "fact_id": "paragraph-21-f1",
+      "question_text": "Qattiq oziqni uzib chaynaydigan qo‘ng‘iz og‘zi qaysi tipda?",
+      "options": [
+        "Kemiruvchi",
+        "Faqat sanchib-so‘ruvchi",
+        "Faqat yalovchi",
+        "Faqat nektar so‘ruvchi"
+      ],
+      "correct_answer": "Kemiruvchi",
+      "explanation": "Bronza qo‘ng‘izi jag‘lari yordamida o‘simlik to‘qimasini uzib, chaynab maydalaydi. Bunday og‘iz apparati kemiruvchi tipga kiradi."
+    },
+    {
+      "key": "paragraph-21-q2",
+      "fact_id": "paragraph-21-f2",
+      "question_text": "Bronza qo‘ng‘izi qonining kislorod tashishi haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "Barcha kislorod faqat qonda tashiladi",
+        "Qon faqat o‘pkada kislorod ishlab chiqaradi",
+        "Qon jabralarda fotosintez qiladi",
+        "Nafas kislorodini qon tashimaydi"
+      ],
+      "correct_answer": "Nafas kislorodini qon tashimaydi",
+      "explanation": "Hasharotlarda ochiq qon aylanish sistemasi bor; bronza qo‘ng‘izining qoni oziq moddalarni tashiydi, ammo nafas kislorodini tashimaydi."
+    },
+    {
+      "key": "paragraph-21-q3",
+      "fact_id": "paragraph-21-f3",
+      "question_text": "Hasharotda havoni organlarga yetkazadigan sistema qaysi?",
+      "options": [
+        "Faqat ochiq qon bo‘shlig‘i",
+        "Faqat qizilo‘ngach",
+        "Traxeyalar",
+        "Faqat yashil bezlar"
+      ],
+      "correct_answer": "Traxeyalar",
+      "explanation": "Havo nafas teshiklaridan shoxlangan traxeya naychalariga kirib, organlarga yetadi. Qorin muskullari qisqarishi havo almashinishiga yordam beradi."
+    },
+    {
+      "key": "paragraph-21-q4",
+      "fact_id": "paragraph-21-f4",
+      "question_text": "Malpigi naychalaridagi chiqindilar keyin qayerga o‘tadi?",
+      "options": [
+        "Faqat mo‘ylov ichiga",
+        "Ichakka",
+        "Faqat ko‘zchalarga",
+        "Faqat qanot tomiriga"
+      ],
+      "correct_answer": "Ichakka",
+      "explanation": "Hasharotlarning ayirish organlari — malpigi naychalari; ularning bir uchi berk, ikkinchi uchi ichakka ochiladi."
+    },
+    {
+      "key": "paragraph-21-q5",
+      "fact_id": "paragraph-21-f5",
+      "question_text": "Hasharot nerv sistemasiga mos juftlik qaysi?",
+      "options": [
+        "Halqum atrofi nerv halqasi va qorin nerv zanjiri",
+        "Faqat hazm qilish vakuolasi va yadro",
+        "Faqat yashil bez va jabra",
+        "Faqat ichak va malpigi naychasi"
+      ],
+      "correct_answer": "Halqum atrofi nerv halqasi va qorin nerv zanjiri",
+      "explanation": "Hasharot nerv sistemasi halqum atrofidagi nerv halqasi va qorin nerv zanjirini o‘z ichiga oladi; boshdagi nerv hujayralari bosh miyani hosil qiladi."
+    },
+    {
+      "key": "paragraph-21-q6",
+      "fact_id": "paragraph-21-f6",
+      "question_text": "Darslik arilar murakkab xulq-atvorini nima bilan bog‘laydi?",
+      "options": [
+        "Faqat qanot rangining yashilligi bilan",
+        "Qonning fotosintezi bilan",
+        "Barcha organlarning yo‘qligi bilan",
+        "Nerv sistemasi va sezgi organlari rivoji bilan"
+      ],
+      "correct_answer": "Nerv sistemasi va sezgi organlari rivoji bilan",
+      "explanation": "Arilar va chumolilarning murakkab xulq-atvori rivojlangan nerv sistemasi hamda sezgi organlari bilan bog‘liq."
+    }
+  ]
+}

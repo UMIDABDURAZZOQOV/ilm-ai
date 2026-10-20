@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-laboratory-1-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-laboratory-8",
+  "title": "1-laboratoriya mashg‘uloti. Tufelkaning tuzilishi, harakatlanishi va ta’sirlanishi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-1-f1": {
+      "claim": "Tufelka preparati dastlab kichik obyektivda, keyin katta obyektivda kuzatiladi; preparatni ezmaslik uchun ehtiyot bo‘lish kerak.",
+      "answer": "Kichik obyektiv → katta obyektiv",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f2": {
+      "claim": "Darslikda preparat tomchisiga paxta tolasi qo‘shish tufelka harakatini sekinlatib, uni kuzatishga yordam berishi aytilgan.",
+      "answer": "Harakatni sekinlatib kuzatishni osonlashtirish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f3": {
+      "claim": "Oldingi va keyingi qisqaruvchi vakuolalar navbat bilan to‘lib-bo‘shaydi. Bu kuzatuv suv chiqarish vazifasini tushunishga yordam beradi.",
+      "answer": "Ortiqcha suvni chiqarish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          22
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-1-f4": {
+      "claim": "Darslikdagi tutashtirilgan ikki tomchi tajribasida tufelkalar tuz qo‘shilgan tomchidan toza suv tomchisiga o‘tadi.",
+      "answer": "Tashqi ta’sirga javob berishini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          22
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mikroskop bilan ish tartibi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nTufelka preparati dastlab kichik obyektivda, keyin katta obyektivda kuzatiladi; preparatni ezmaslik uchun ehtiyot bo‘lish kerak.",
+      "fact_ids": [
+        "laboratory-1-f1"
+      ]
+    },
+    {
+      "title": "Harakatni sekinlatish",
+      "body": "Darslikda preparat tomchisiga paxta tolasi qo‘shish tufelka harakatini sekinlatib, uni kuzatishga yordam berishi aytilgan.",
+      "fact_ids": [
+        "laboratory-1-f2"
+      ]
+    },
+    {
+      "title": "Kuzatuvdagi almashinish",
+      "body": "Oldingi va keyingi qisqaruvchi vakuolalar navbat bilan to‘lib-bo‘shaydi. Bu kuzatuv suv chiqarish vazifasini tushunishga yordam beradi.",
+      "fact_ids": [
+        "laboratory-1-f3"
+      ]
+    },
+    {
+      "title": "Ta’sirlanish tajribasini tahlil qilish",
+      "body": "Darslikdagi tutashtirilgan ikki tomchi tajribasida tufelkalar tuz qo‘shilgan tomchidan toza suv tomchisiga o‘tadi.",
+      "fact_ids": [
+        "laboratory-1-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-1-q1",
+      "fact_id": "laboratory-1-f1",
+      "question_text": "Tufelka preparatini kuzatishda obyektivlar qanday tartibda tanlanadi?",
+      "options": [
+        "Kichik obyektiv → katta obyektiv",
+        "Katta obyektiv → preparatni siqish",
+        "Faqat eng katta obyektiv → oynani bosish",
+        "Obyektivsiz → tomchini quritish"
+      ],
+      "correct_answer": "Kichik obyektiv → katta obyektiv",
+      "explanation": "Tufelka preparati dastlab kichik obyektivda, keyin katta obyektivda kuzatiladi; preparatni ezmaslik uchun ehtiyot bo‘lish kerak."
+    },
+    {
+      "key": "laboratory-1-q2",
+      "fact_id": "laboratory-1-f2",
+      "question_text": "Tufelka preparatidagi paxta tolasining vazifasi nima?",
+      "options": [
+        "Tufelkada fotosintez boshlash",
+        "Suvni birdan butunlay bug‘latish",
+        "Yadroni yashil rangga bo‘yash",
+        "Harakatni sekinlatib kuzatishni osonlashtirish"
+      ],
+      "correct_answer": "Harakatni sekinlatib kuzatishni osonlashtirish",
+      "explanation": "Darslikda preparat tomchisiga paxta tolasi qo‘shish tufelka harakatini sekinlatib, uni kuzatishga yordam berishi aytilgan."
+    },
+    {
+      "key": "laboratory-1-q3",
+      "fact_id": "laboratory-1-f3",
+      "question_text": "Vakuolalarning navbat bilan to‘lib-bo‘shashi qaysi jarayonni ko‘rsatadi?",
+      "options": [
+        "Yadrolarning qo‘shilishi",
+        "Kipriklarning o‘rniga xivchin o‘sishi",
+        "Ortiqcha suvni chiqarish",
+        "Faqat oziqni maydalash"
+      ],
+      "correct_answer": "Ortiqcha suvni chiqarish",
+      "explanation": "Oldingi va keyingi qisqaruvchi vakuolalar navbat bilan to‘lib-bo‘shaydi. Bu kuzatuv suv chiqarish vazifasini tushunishga yordam beradi."
+    },
+    {
+      "key": "laboratory-1-q4",
+      "fact_id": "laboratory-1-f4",
+      "question_text": "Tufelkaning tuzli tomchidan toza suv tomchisiga o‘tishi nimani ko‘rsatadi?",
+      "options": [
+        "Fotosintez uchun xlorofill hosil bo‘lishini",
+        "Tashqi ta’sirga javob berishini",
+        "Meva hosil qilishini",
+        "Ikki hujayraning bir organizmga aylanishini"
+      ],
+      "correct_answer": "Tashqi ta’sirga javob berishini",
+      "explanation": "Darslikdagi tutashtirilgan ikki tomchi tajribasida tufelkalar tuz qo‘shilgan tomchidan toza suv tomchisiga o‘tadi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "1-laboratoriya mashg‘uloti. Tufelkaning tuzilishi, harakatlanishi va ta’sirlanishi .: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Mikroskop bilan ish tartibi",
+        "fact_ids": [
+          "laboratory-1-f1"
+        ]
+      },
+      {
+        "instruction": "Harakatni sekinlatish",
+        "fact_ids": [
+          "laboratory-1-f2"
+        ]
+      },
+      {
+        "instruction": "Kuzatuvdagi almashinish",
+        "fact_ids": [
+          "laboratory-1-f3"
+        ]
+      },
+      {
+        "instruction": "Ta’sirlanish tajribasini tahlil qilish",
+        "fact_ids": [
+          "laboratory-1-f4"
+        ]
+      }
+    ]
+  }
+}

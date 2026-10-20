@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-laboratory-2-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-laboratory-20",
+  "title": "2-laboratoriya mashg‘uloti. Yomg‘ir chuvalchangining tashqi tuzilishi, harakatlanishi va refleks hosil qilishi .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-2-f1": {
+      "claim": "Mashg‘ulotda chuvalchangning oldingi uchi konussimon ingichkalashgan, keyingi uchi nisbatan to‘mtoq ekanini kuzatish taklif etiladi.",
+      "answer": "Konussimon ingichkalashganligi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f2": {
+      "claim": "Darslik silliq oyna va silliq bo‘lmagan qog‘oz ustidagi harakatni taqqoslaydi: tuklarning tayanchga ilashishi harakatga yordam beradi.",
+      "answer": "Tuklarning tayanchga ilashishi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f3": {
+      "claim": "Tana qismiga ehtiyotkor tegilgandagi harakat tashqi ta’sirga javobni ko‘rsatadi. Ilovada bu holat tahlil qilinadi, tajriba bajarilgani da’vo qilinmaydi.",
+      "answer": "Refleks",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f4": {
+      "claim": "Darslik chuvalchang uzunligini turli holatda o‘lchashni, rasmini chizib organlarini belgilashni taklif qiladi.",
+      "answer": "Turli tana holatlaridagi uzunliklar",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oldingi va keyingi uchni farqlash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nMashg‘ulotda chuvalchangning oldingi uchi konussimon ingichkalashgan, keyingi uchi nisbatan to‘mtoq ekanini kuzatish taklif etiladi.",
+      "fact_ids": [
+        "laboratory-2-f1"
+      ]
+    },
+    {
+      "title": "Sirt va harakatni taqqoslash",
+      "body": "Darslik silliq oyna va silliq bo‘lmagan qog‘oz ustidagi harakatni taqqoslaydi: tuklarning tayanchga ilashishi harakatga yordam beradi.",
+      "fact_ids": [
+        "laboratory-2-f2"
+      ]
+    },
+    {
+      "title": "Refleksni kuzatish",
+      "body": "Tana qismiga ehtiyotkor tegilgandagi harakat tashqi ta’sirga javobni ko‘rsatadi. Ilovada bu holat tahlil qilinadi, tajriba bajarilgani da’vo qilinmaydi.",
+      "fact_ids": [
+        "laboratory-2-f3"
+      ]
+    },
+    {
+      "title": "O‘lchash va qayd qilish",
+      "body": "Darslik chuvalchang uzunligini turli holatda o‘lchashni, rasmini chizib organlarini belgilashni taklif qiladi.",
+      "fact_ids": [
+        "laboratory-2-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-2-q1",
+      "fact_id": "laboratory-2-f1",
+      "question_text": "Kuzatuvda chuvalchangning oldingi uchini qaysi belgi orqali topish mumkin?",
+      "options": [
+        "Konussimon ingichkalashganligi",
+        "Har doim eng to‘mtoq va kengligi",
+        "Faqat ikki pallali chig‘anoq borligi",
+        "Faqat sakkizta ko‘zi borligi"
+      ],
+      "correct_answer": "Konussimon ingichkalashganligi",
+      "explanation": "Mashg‘ulotda chuvalchangning oldingi uchi konussimon ingichkalashgan, keyingi uchi nisbatan to‘mtoq ekanini kuzatish taklif etiladi."
+    },
+    {
+      "key": "laboratory-2-q2",
+      "fact_id": "laboratory-2-f2",
+      "question_text": "Silliq oynada harakat qiyinlashishini izohlashda qaysi omil muhim?",
+      "options": [
+        "Jabraning suv filtrlashi",
+        "Soyabonning suvni otishi",
+        "Gulning o‘zidan changlanishi",
+        "Tuklarning tayanchga ilashishi"
+      ],
+      "correct_answer": "Tuklarning tayanchga ilashishi",
+      "explanation": "Darslik silliq oyna va silliq bo‘lmagan qog‘oz ustidagi harakatni taqqoslaydi: tuklarning tayanchga ilashishi harakatga yordam beradi."
+    },
+    {
+      "key": "laboratory-2-q3",
+      "fact_id": "laboratory-2-f3",
+      "question_text": "Ehtiyotkor tegishdan keyingi tana harakati qaysi tushunchaga misol?",
+      "options": [
+        "Ko‘sakning ochilishi",
+        "Sista hosil bo‘lishi",
+        "Refleks",
+        "Urug‘lanish"
+      ],
+      "correct_answer": "Refleks",
+      "explanation": "Tana qismiga ehtiyotkor tegilgandagi harakat tashqi ta’sirga javobni ko‘rsatadi. Ilovada bu holat tahlil qilinadi, tajriba bajarilgani da’vo qilinmaydi."
+    },
+    {
+      "key": "laboratory-2-q4",
+      "fact_id": "laboratory-2-f4",
+      "question_text": "Harakatdagi uzunlik o‘zgarishini qayd etish uchun qaysi ma’lumot foydali?",
+      "options": [
+        "Faqat xona devorining uzunligi",
+        "Turli tana holatlaridagi uzunliklar",
+        "Faqat bitta gulning rangi",
+        "Faqat mevaning mazasi"
+      ],
+      "correct_answer": "Turli tana holatlaridagi uzunliklar",
+      "explanation": "Darslik chuvalchang uzunligini turli holatda o‘lchashni, rasmini chizib organlarini belgilashni taklif qiladi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "2-laboratoriya mashg‘uloti. Yomg‘ir chuvalchangining tashqi tuzilishi, harakatlanishi va refleks hosil qilishi .: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Oldingi va keyingi uchni farqlash",
+        "fact_ids": [
+          "laboratory-2-f1"
+        ]
+      },
+      {
+        "instruction": "Sirt va harakatni taqqoslash",
+        "fact_ids": [
+          "laboratory-2-f2"
+        ]
+      },
+      {
+        "instruction": "Refleksni kuzatish",
+        "fact_ids": [
+          "laboratory-2-f3"
+        ]
+      },
+      {
+        "instruction": "O‘lchash va qayd qilish",
+        "fact_ids": [
+          "laboratory-2-f4"
+        ]
+      }
+    ]
+  }
+}

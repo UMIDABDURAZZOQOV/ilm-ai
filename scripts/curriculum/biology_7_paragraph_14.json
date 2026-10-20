@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-14-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-22",
+  "title": "Qorinoyoqli mollyuskalar sinfi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-14-f1": {
+      "claim": "Chuchuk suv shillig‘ining tanasini mantiya o‘rab turadi; chig‘anoq mantiyadan hosil bo‘ladi va spiral o‘ralgan.",
+      "answer": "Mantiya",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f2": {
+      "claim": "Suv shillig‘i muskulli oyog‘ining to‘lqinsimon qisqarishi yordamida sirpanadi; ko‘zlari paypaslagichlarining asosida joylashgan.",
+      "answer": "Muskulli oyoqning to‘lqinsimon qisqarishi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f3": {
+      "claim": "Suv shillig‘i mayda tishchali muskulli tilchasi bilan suvdagi buyumlar va o‘simliklar yuzasidan oziqni qirib oladi.",
+      "answer": "Mayda tishchali tilcha",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f4": {
+      "claim": "Chuchuk suv shillig‘i atmosfera kislorodidan foydalanadi; suv yuzasiga ko‘tarilib o‘pkasini havo bilan to‘ldiradi.",
+      "answer": "O‘pkasini atmosfera havosi bilan to‘ldirish uchun",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f5": {
+      "claim": "Suv shillig‘ida qon tomirlardan organlar oralig‘iga chiqadi, keyin yana yurakka qaytadi. Bu ochiq qon aylanish sistemasidir.",
+      "answer": "Ochiq qon aylanish",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-14-f6": {
+      "claim": "Suv shillig‘i tuxumlarini uzun shilimshiq tizimcha ichiga qo‘yadi; tuxumlardan nozik chig‘anoqli yosh mollyuskalar chiqadi.",
+      "answer": "Shilimshiq tizimcha ichida",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mantiya va chig‘anoq",
+      "body": "Chuchuk suv shillig‘ining tanasini mantiya o‘rab turadi; chig‘anoq mantiyadan hosil bo‘ladi va spiral o‘ralgan.",
+      "fact_ids": [
+        "paragraph-14-f1"
+      ]
+    },
+    {
+      "title": "Sirpanish mexanizmi",
+      "body": "Suv shillig‘i muskulli oyog‘ining to‘lqinsimon qisqarishi yordamida sirpanadi; ko‘zlari paypaslagichlarining asosida joylashgan.",
+      "fact_ids": [
+        "paragraph-14-f2"
+      ]
+    },
+    {
+      "title": "Qirib olinadigan oziq",
+      "body": "Suv shillig‘i mayda tishchali muskulli tilchasi bilan suvdagi buyumlar va o‘simliklar yuzasidan oziqni qirib oladi.",
+      "fact_ids": [
+        "paragraph-14-f3"
+      ]
+    },
+    {
+      "title": "Nafas olish uchun suv yuzasiga",
+      "body": "Chuchuk suv shillig‘i atmosfera kislorodidan foydalanadi; suv yuzasiga ko‘tarilib o‘pkasini havo bilan to‘ldiradi.",
+      "fact_ids": [
+        "paragraph-14-f4"
+      ]
+    },
+    {
+      "title": "Ochiq qon aylanish",
+      "body": "Suv shillig‘ida qon tomirlardan organlar oralig‘iga chiqadi, keyin yana yurakka qaytadi. Bu ochiq qon aylanish sistemasidir.",
+      "fact_ids": [
+        "paragraph-14-f5"
+      ]
+    },
+    {
+      "title": "Ko‘payish va xilma-xillik",
+      "body": "Suv shillig‘i tuxumlarini uzun shilimshiq tizimcha ichiga qo‘yadi; tuxumlardan nozik chig‘anoqli yosh mollyuskalar chiqadi.",
+      "fact_ids": [
+        "paragraph-14-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-14-q1",
+      "fact_id": "paragraph-14-f1",
+      "question_text": "Suv shillig‘ining chig‘anog‘ini qaysi tuzilma hosil qiladi?",
+      "options": [
+        "Mantiya",
+        "Faqat oyoq uchidagi so‘rg‘ich",
+        "Qisqaruvchi vakuola",
+        "Yadro qobig‘i"
+      ],
+      "correct_answer": "Mantiya",
+      "explanation": "Chuchuk suv shillig‘ining tanasini mantiya o‘rab turadi; chig‘anoq mantiyadan hosil bo‘ladi va spiral o‘ralgan."
+    },
+    {
+      "key": "paragraph-14-q2",
+      "fact_id": "paragraph-14-f2",
+      "question_text": "Suv shillig‘i sirpanib yurishini nima ta’minlaydi?",
+      "options": [
+        "Uch juft oyoqning navbat bilan yurishi",
+        "To‘rtta qanotning qoqilishi",
+        "Faqat xivchinning aylanishi",
+        "Muskulli oyoqning to‘lqinsimon qisqarishi"
+      ],
+      "correct_answer": "Muskulli oyoqning to‘lqinsimon qisqarishi",
+      "explanation": "Suv shillig‘i muskulli oyog‘ining to‘lqinsimon qisqarishi yordamida sirpanadi; ko‘zlari paypaslagichlarining asosida joylashgan."
+    },
+    {
+      "key": "paragraph-14-q3",
+      "fact_id": "paragraph-14-f3",
+      "question_text": "Shilliqning oziqni qirib olishiga qaysi tuzilma moslashgan?",
+      "options": [
+        "Faqat nafas teshigi",
+        "Faqat oyoq ostidagi qon tomiri",
+        "Mayda tishchali tilcha",
+        "Faqat yopuvchi chig‘anoq muskuli"
+      ],
+      "correct_answer": "Mayda tishchali tilcha",
+      "explanation": "Suv shillig‘i mayda tishchali muskulli tilchasi bilan suvdagi buyumlar va o‘simliklar yuzasidan oziqni qirib oladi."
+    },
+    {
+      "key": "paragraph-14-q4",
+      "fact_id": "paragraph-14-f4",
+      "question_text": "Suv shillig‘i nafas olish uchun nega yuzaga ko‘tariladi?",
+      "options": [
+        "Qanotlariga chang yig‘ish uchun",
+        "O‘pkasini atmosfera havosi bilan to‘ldirish uchun",
+        "Jabralarini quruq tuproqqa yashirish uchun",
+        "Suvni faqat tanasi orqali muzlatish uchun"
+      ],
+      "correct_answer": "O‘pkasini atmosfera havosi bilan to‘ldirish uchun",
+      "explanation": "Chuchuk suv shillig‘i atmosfera kislorodidan foydalanadi; suv yuzasiga ko‘tarilib o‘pkasini havo bilan to‘ldiradi."
+    },
+    {
+      "key": "paragraph-14-q5",
+      "fact_id": "paragraph-14-f5",
+      "question_text": "Qonning tomirdan organlar oralig‘iga chiqishi qanday sistema belgisi?",
+      "options": [
+        "Ochiq qon aylanish",
+        "Yopiq qon aylanish",
+        "Qon aylanishning butunlay yo‘qligi",
+        "Faqat kapillyardan iborat yopiq doira"
+      ],
+      "correct_answer": "Ochiq qon aylanish",
+      "explanation": "Suv shillig‘ida qon tomirlardan organlar oralig‘iga chiqadi, keyin yana yurakka qaytadi. Bu ochiq qon aylanish sistemasidir."
+    },
+    {
+      "key": "paragraph-14-q6",
+      "fact_id": "paragraph-14-f6",
+      "question_text": "Suv shillig‘i tuxumlari qanday joylashadi?",
+      "options": [
+        "Quruq qanotli mevada",
+        "Teri osti finnasi ichida",
+        "Daraxt qubbasida",
+        "Shilimshiq tizimcha ichida"
+      ],
+      "correct_answer": "Shilimshiq tizimcha ichida",
+      "explanation": "Suv shillig‘i tuxumlarini uzun shilimshiq tizimcha ichiga qo‘yadi; tuxumlardan nozik chig‘anoqli yosh mollyuskalar chiqadi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-19-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-30",
+  "title": "O‘rgimchaksimonlarning xilma-xilligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-19-f1": {
+      "claim": "Ko‘pchilik o‘rgimchaklar pashsha, chivin va boshqa hasharotlarni tutadigan yirtqichlardir; ular hasharotlar sonini cheklashda qatnashadi.",
+      "answer": "Hasharotlar sonini cheklashda qatnashadi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f2": {
+      "claim": "Qoraqurt zahari odam uchun xavfli. Yosh urg‘ochisining qorin ustida qizg‘ish dog‘lar bo‘lishi darslikda ko‘rsatilgan; uni qo‘lga olib tekshirish kerak emas.",
+      "answer": "Zahari odam uchun xavfli",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f3": {
+      "claim": "Sariq falanga kuchli jag‘li, kechasi ov qiladigan yirtqichdir. Darslik uning zahar bezi yo‘qligini ta’kidlaydi; bu uni ushlash topshirig‘i emas.",
+      "answer": "Zahar bezi yo‘q",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f4": {
+      "claim": "Chayonning oyoq paypaslagichlari qisqichga aylangan; qorin bo‘limining oxirida zahar bezi va nayza joylashgan.",
+      "answer": "Qorin bo‘limining oxirida",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f5": {
+      "claim": "Voyaga yetgan mol kanasi hayvon va odam qonini so‘rishi mumkin; uning sanchib-so‘ruvchi xartumi oziqlanishga moslashgan.",
+      "answer": "Sanchib-so‘ruvchi xartum",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f6": {
+      "claim": "Parazit kanalar qon so‘rish bilan birga kasallik qo‘zg‘atuvchilarini ham tashishi mumkin; hayvonlarning ozishi va mahsuldorligi pasayishiga sabab bo‘ladi.",
+      "answer": "Qon so‘rishi va kasallik tashishi mumkin",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yirtqichning ekologik vazifasi",
+      "body": "Ko‘pchilik o‘rgimchaklar pashsha, chivin va boshqa hasharotlarni tutadigan yirtqichlardir; ular hasharotlar sonini cheklashda qatnashadi.",
+      "fact_ids": [
+        "paragraph-19-f1"
+      ]
+    },
+    {
+      "title": "Qoraqurtni ehtiyotkor tanish",
+      "body": "Qoraqurt zahari odam uchun xavfli. Yosh urg‘ochisining qorin ustida qizg‘ish dog‘lar bo‘lishi darslikda ko‘rsatilgan; uni qo‘lga olib tekshirish kerak emas.",
+      "fact_ids": [
+        "paragraph-19-f2"
+      ]
+    },
+    {
+      "title": "Falanga va zahar bezi",
+      "body": "Sariq falanga kuchli jag‘li, kechasi ov qiladigan yirtqichdir. Darslik uning zahar bezi yo‘qligini ta’kidlaydi; bu uni ushlash topshirig‘i emas.",
+      "fact_ids": [
+        "paragraph-19-f3"
+      ]
+    },
+    {
+      "title": "Chayonning o‘lja tutishi",
+      "body": "Chayonning oyoq paypaslagichlari qisqichga aylangan; qorin bo‘limining oxirida zahar bezi va nayza joylashgan.",
+      "fact_ids": [
+        "paragraph-19-f4"
+      ]
+    },
+    {
+      "title": "Parazit kanalar",
+      "body": "Voyaga yetgan mol kanasi hayvon va odam qonini so‘rishi mumkin; uning sanchib-so‘ruvchi xartumi oziqlanishga moslashgan.",
+      "fact_ids": [
+        "paragraph-19-f5"
+      ]
+    },
+    {
+      "title": "Salomatlik va chorvaga ta’sir",
+      "body": "Parazit kanalar qon so‘rish bilan birga kasallik qo‘zg‘atuvchilarini ham tashishi mumkin; hayvonlarning ozishi va mahsuldorligi pasayishiga sabab bo‘ladi.",
+      "fact_ids": [
+        "paragraph-19-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-19-q1",
+      "fact_id": "paragraph-19-f1",
+      "question_text": "O‘rgimchakning pashsha va chivinni tutishi tabiatda qanday vazifaga ega?",
+      "options": [
+        "Hasharotlar sonini cheklashda qatnashadi",
+        "Barcha o‘simliklarda fotosintezni to‘xtatadi",
+        "Suvdagi barcha kislorodni yo‘qotadi",
+        "Faqat meva urug‘ini hosil qiladi"
+      ],
+      "correct_answer": "Hasharotlar sonini cheklashda qatnashadi",
+      "explanation": "Ko‘pchilik o‘rgimchaklar pashsha, chivin va boshqa hasharotlarni tutadigan yirtqichlardir; ular hasharotlar sonini cheklashda qatnashadi."
+    },
+    {
+      "key": "paragraph-19-q2",
+      "fact_id": "paragraph-19-f2",
+      "question_text": "Qoraqurt haqida qaysi xulosa to‘g‘ri?",
+      "options": [
+        "U barcha sharoitda zararsiz",
+        "U faqat o‘simlik shirasi bilan oziqlanadi",
+        "U hasharotlar sinfiga kiradi",
+        "Zahari odam uchun xavfli"
+      ],
+      "correct_answer": "Zahari odam uchun xavfli",
+      "explanation": "Qoraqurt zahari odam uchun xavfli. Yosh urg‘ochisining qorin ustida qizg‘ish dog‘lar bo‘lishi darslikda ko‘rsatilgan; uni qo‘lga olib tekshirish kerak emas."
+    },
+    {
+      "key": "paragraph-19-q3",
+      "fact_id": "paragraph-19-f3",
+      "question_text": "Sariq falanganing chayondan farqlanadigan belgisi qaysi?",
+      "options": [
+        "Faqat qon so‘ruvchi xartumi bor",
+        "Uch juft yurish oyog‘i bor",
+        "Zahar bezi yo‘q",
+        "Qorin uchida zaharli nayzasi bor"
+      ],
+      "correct_answer": "Zahar bezi yo‘q",
+      "explanation": "Sariq falanga kuchli jag‘li, kechasi ov qiladigan yirtqichdir. Darslik uning zahar bezi yo‘qligini ta’kidlaydi; bu uni ushlash topshirig‘i emas."
+    },
+    {
+      "key": "paragraph-19-q4",
+      "fact_id": "paragraph-19-f4",
+      "question_text": "Chayonda zaharli nayza qayerda joylashgan?",
+      "options": [
+        "Faqat mo‘ylov uchida",
+        "Qorin bo‘limining oxirida",
+        "Faqat boshdagi ko‘z ichida",
+        "Faqat qisqichning o‘rtasida"
+      ],
+      "correct_answer": "Qorin bo‘limining oxirida",
+      "explanation": "Chayonning oyoq paypaslagichlari qisqichga aylangan; qorin bo‘limining oxirida zahar bezi va nayza joylashgan."
+    },
+    {
+      "key": "paragraph-19-q5",
+      "fact_id": "paragraph-19-f5",
+      "question_text": "Mol kanasining qon so‘rishga moslashgan og‘iz tuzilmasi qaysi?",
+      "options": [
+        "Sanchib-so‘ruvchi xartum",
+        "Qirib oluvchi tilcha",
+        "Fotosintez qiluvchi xromatofor",
+        "Savatchasimon gul"
+      ],
+      "correct_answer": "Sanchib-so‘ruvchi xartum",
+      "explanation": "Voyaga yetgan mol kanasi hayvon va odam qonini so‘rishi mumkin; uning sanchib-so‘ruvchi xartumi oziqlanishga moslashgan."
+    },
+    {
+      "key": "paragraph-19-q6",
+      "fact_id": "paragraph-19-f6",
+      "question_text": "Parazit kanalarni nazorat qilish nega muhim?",
+      "options": [
+        "Ular barcha turlarda o‘simlikni changlatadi",
+        "Ular faqat zararsiz tuproq zarralaridir",
+        "Ular odamga hech qanday ta’sir ko‘rsatmaydi",
+        "Qon so‘rishi va kasallik tashishi mumkin"
+      ],
+      "correct_answer": "Qon so‘rishi va kasallik tashishi mumkin",
+      "explanation": "Parazit kanalar qon so‘rish bilan birga kasallik qo‘zg‘atuvchilarini ham tashishi mumkin; hayvonlarning ozishi va mahsuldorligi pasayishiga sabab bo‘ladi."
+    }
+  ]
+}

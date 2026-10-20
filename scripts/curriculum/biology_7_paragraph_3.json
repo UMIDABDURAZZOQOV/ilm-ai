@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-7-paragraph-3-v1",
+  "language": "uz",
+  "book_id": "biology-7-2017",
+  "topic_id": "bio-7-topic-5",
+  "title": "Soxta oyoqlilar sinfi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-3-f1": {
+      "claim": "Oddiy amyoba bitta hujayradan iborat. Uning sitoplazmasida yadro va organoidlar bor; hujayra membranasi ichki muhitni tashqaridan ajratadi.",
+      "answer": "Bitta hujayra",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          11
+        ],
+        "printed_pages": [
+          11
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f2": {
+      "claim": "Sitoplazma oqib vaqtinchalik soxta oyoqlar hosil qiladi. Ular paydo bo‘lib yo‘qolgani uchun amyobaning shakli o‘zgarib turadi.",
+      "answer": "Vaqtinchalik soxta oyoqlar hosil bo‘lishiga",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f3": {
+      "claim": "Amyoba soxta oyoqlari bilan oziqni qamrab oladi; oziq hujayra ichida hazm qilish vakuolasida parchalanadi.",
+      "answer": "Hazm qilish vakuolasida",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f4": {
+      "claim": "Qisqaruvchi vakuolada to‘plangan ortiqcha suv hujayra tashqarisiga chiqariladi. Bu vazifani hazm qilish vakuolasi bilan aralashtirmang.",
+      "answer": "Qisqaruvchi vakuola",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          12
+        ],
+        "printed_pages": [
+          12
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f5": {
+      "claim": "Amyoba ikkiga bo‘linadi: yadro moddasi taqsimlanadi va hujayra ikki yangi amyobaga ajraladi. Jinsiy hujayralar qatnashmaydi.",
+      "answer": "Jinsiy hujayralar qatnashmaydi",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-3-f6": {
+      "claim": "Suv qurishi yoki sovuqda amyoba yumaloqlanib, qalin himoya qobig‘i — sista bilan o‘raladi. Qulay sharoitda undan chiqadi.",
+      "answer": "Sista hosil qilish",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          13
+        ],
+        "printed_pages": [
+          13
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir hujayra — bir organizm",
+      "body": "Oddiy amyoba bitta hujayradan iborat. Uning sitoplazmasida yadro va organoidlar bor; hujayra membranasi ichki muhitni tashqaridan ajratadi.",
+      "fact_ids": [
+        "paragraph-3-f1"
+      ]
+    },
+    {
+      "title": "Shakl va harakat",
+      "body": "Sitoplazma oqib vaqtinchalik soxta oyoqlar hosil qiladi. Ular paydo bo‘lib yo‘qolgani uchun amyobaning shakli o‘zgarib turadi.",
+      "fact_ids": [
+        "paragraph-3-f2"
+      ]
+    },
+    {
+      "title": "Oziqni qamrash va hazm qilish",
+      "body": "Amyoba soxta oyoqlari bilan oziqni qamrab oladi; oziq hujayra ichida hazm qilish vakuolasida parchalanadi.",
+      "fact_ids": [
+        "paragraph-3-f3"
+      ]
+    },
+    {
+      "title": "Ortiqcha suvni chiqarish",
+      "body": "Qisqaruvchi vakuolada to‘plangan ortiqcha suv hujayra tashqarisiga chiqariladi. Bu vazifani hazm qilish vakuolasi bilan aralashtirmang.",
+      "fact_ids": [
+        "paragraph-3-f4"
+      ]
+    },
+    {
+      "title": "Jinssiz ko‘payish",
+      "body": "Amyoba ikkiga bo‘linadi: yadro moddasi taqsimlanadi va hujayra ikki yangi amyobaga ajraladi. Jinsiy hujayralar qatnashmaydi.",
+      "fact_ids": [
+        "paragraph-3-f5"
+      ]
+    },
+    {
+      "title": "Noqulay sharoitga javob",
+      "body": "Suv qurishi yoki sovuqda amyoba yumaloqlanib, qalin himoya qobig‘i — sista bilan o‘raladi. Qulay sharoitda undan chiqadi.",
+      "fact_ids": [
+        "paragraph-3-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-3-q1",
+      "fact_id": "paragraph-3-f1",
+      "question_text": "Amyobada mustaqil hayot faoliyatini nima bajaradi?",
+      "options": [
+        "Bitta hujayra",
+        "Bir nechta organlardan iborat tana",
+        "Faqat alohida nerv to‘ri",
+        "Faqat hujayrasiz qobiq"
+      ],
+      "correct_answer": "Bitta hujayra",
+      "explanation": "Oddiy amyoba bitta hujayradan iborat. Uning sitoplazmasida yadro va organoidlar bor; hujayra membranasi ichki muhitni tashqaridan ajratadi."
+    },
+    {
+      "key": "paragraph-3-q2",
+      "fact_id": "paragraph-3-f2",
+      "question_text": "Amyobaning o‘zgaruvchan shakli nimaga bog‘liq?",
+      "options": [
+        "Doimiy qattiq skelet o‘sishiga",
+        "Kipriklarning to‘kilishiga",
+        "Poyaning yog‘ochlashishiga",
+        "Vaqtinchalik soxta oyoqlar hosil bo‘lishiga"
+      ],
+      "correct_answer": "Vaqtinchalik soxta oyoqlar hosil bo‘lishiga",
+      "explanation": "Sitoplazma oqib vaqtinchalik soxta oyoqlar hosil qiladi. Ular paydo bo‘lib yo‘qolgani uchun amyobaning shakli o‘zgarib turadi."
+    },
+    {
+      "key": "paragraph-3-q3",
+      "fact_id": "paragraph-3-f3",
+      "question_text": "Oziq qamrab olingach amyobada qaysi tuzilmada hazm bo‘ladi?",
+      "options": [
+        "Yadro qobig‘ining tashqarisida",
+        "Soxta oyoqdan ajralgan sistada",
+        "Hazm qilish vakuolasida",
+        "Qisqaruvchi vakuolada"
+      ],
+      "correct_answer": "Hazm qilish vakuolasida",
+      "explanation": "Amyoba soxta oyoqlari bilan oziqni qamrab oladi; oziq hujayra ichida hazm qilish vakuolasida parchalanadi."
+    },
+    {
+      "key": "paragraph-3-q4",
+      "fact_id": "paragraph-3-f4",
+      "question_text": "Vakuola to‘lib, qisqarib ortiqcha suvni chiqaryapti. Qaysi organoid kuzatilmoqda?",
+      "options": [
+        "Soxta oyoq",
+        "Qisqaruvchi vakuola",
+        "Hazm qilish vakuolasi",
+        "Yadro"
+      ],
+      "correct_answer": "Qisqaruvchi vakuola",
+      "explanation": "Qisqaruvchi vakuolada to‘plangan ortiqcha suv hujayra tashqarisiga chiqariladi. Bu vazifani hazm qilish vakuolasi bilan aralashtirmang."
+    },
+    {
+      "key": "paragraph-3-q5",
+      "fact_id": "paragraph-3-f5",
+      "question_text": "Amyobaning ikkiga bo‘linishi nima sababli jinssiz ko‘payish hisoblanadi?",
+      "options": [
+        "Jinsiy hujayralar qatnashmaydi",
+        "Ikki xil jinsiy hujayra qo‘shiladi",
+        "Urug‘langan tuxum paydo bo‘ladi",
+        "Meva ichida urug‘ hosil bo‘ladi"
+      ],
+      "correct_answer": "Jinsiy hujayralar qatnashmaydi",
+      "explanation": "Amyoba ikkiga bo‘linadi: yadro moddasi taqsimlanadi va hujayra ikki yangi amyobaga ajraladi. Jinsiy hujayralar qatnashmaydi."
+    },
+    {
+      "key": "paragraph-3-q6",
+      "fact_id": "paragraph-3-f6",
+      "question_text": "Ko‘lmak quriganda amyoba hayotini saqlashga qaysi holat yordam beradi?",
+      "options": [
+        "Doimiy barg chiqarish",
+        "To‘pgul hosil qilish",
+        "Faqat tanani kattalashtirish",
+        "Sista hosil qilish"
+      ],
+      "correct_answer": "Sista hosil qilish",
+      "explanation": "Suv qurishi yoki sovuqda amyoba yumaloqlanib, qalin himoya qobig‘i — sista bilan o‘raladi. Qulay sharoitda undan chiqadi."
+    }
+  ]
+}
