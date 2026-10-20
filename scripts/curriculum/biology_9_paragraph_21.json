@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-21-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-28",
+  "title": "Biomolekulalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-21-f1": {
+      "claim": "Hujayradagi organik moddalarga uglevodlar, oqsillar, nuklein kislotalar va lipidlar kiradi. Ularning tuzilishi va vazifalari turlicha.",
+      "answer": "Uglevod, oqsil, nuklein kislota va lipid",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f2": {
+      "claim": "Monomerlar o‘zaro birikib polimer hosil qiladi. Polimer ko‘plab kichik tarkibiy birliklardan tashkil topgan katta molekuladir.",
+      "answer": "Ko‘p monomer → yirik zanjir",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f3": {
+      "claim": "Oqsilning tarkibiy birliklari aminokislotalar, nuklein kislotalarniki nukleotidlar, polisaxaridlarniki esa monosaxaridlardir.",
+      "answer": "Oqsil — aminokislota; nuklein kislota — nukleotid",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f4": {
+      "claim": "Oqsil va nuklein kislotalar takrorlanuvchi monomerlardan tuzilgan biopolimerlardir. Lipidlar aynan shu turdagi takrorlanuvchi monomerli zanjirlar guruhiga kirmaydi.",
+      "answer": "Lipidlarni",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f5": {
+      "claim": "Ayrim biopolimerlar tuzilma hosil qiladi, ayrim oqsillar kataliz va tashishda qatnashadi, nuklein kislotalar esa axborot bilan bog‘liq.",
+      "answer": "Nuklein kislotalar",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-21-f6": {
+      "claim": "Uglevod va lipidlar hujayraga energiya manbai bo‘lishi mumkin. Moddaning energetik vazifasi uning boshqa vazifalarini inkor qilmaydi.",
+      "answer": "Uglevodlar va lipidlar",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Organik molekulalar",
+      "body": "Hujayradagi organik moddalarga uglevodlar, oqsillar, nuklein kislotalar va lipidlar kiradi. Ularning tuzilishi va vazifalari turlicha.",
+      "fact_ids": [
+        "paragraph-21-f1"
+      ]
+    },
+    {
+      "title": "Kichik birlikdan katta zanjirga",
+      "body": "Monomerlar o‘zaro birikib polimer hosil qiladi. Polimer ko‘plab kichik tarkibiy birliklardan tashkil topgan katta molekuladir.",
+      "fact_ids": [
+        "paragraph-21-f2"
+      ]
+    },
+    {
+      "title": "Monomerlarni moslang",
+      "body": "Oqsilning tarkibiy birliklari aminokislotalar, nuklein kislotalarniki nukleotidlar, polisaxaridlarniki esa monosaxaridlardir.",
+      "fact_ids": [
+        "paragraph-21-f3"
+      ]
+    },
+    {
+      "title": "Lipidlar istisnosi",
+      "body": "Oqsil va nuklein kislotalar takrorlanuvchi monomerlardan tuzilgan biopolimerlardir. Lipidlar aynan shu turdagi takrorlanuvchi monomerli zanjirlar guruhiga kirmaydi.",
+      "fact_ids": [
+        "paragraph-21-f4"
+      ]
+    },
+    {
+      "title": "Vazifalarni ajrating",
+      "body": "Ayrim biopolimerlar tuzilma hosil qiladi, ayrim oqsillar kataliz va tashishda qatnashadi, nuklein kislotalar esa axborot bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-21-f5"
+      ]
+    },
+    {
+      "title": "Energiya zaxiralari",
+      "body": "Uglevod va lipidlar hujayraga energiya manbai bo‘lishi mumkin. Moddaning energetik vazifasi uning boshqa vazifalarini inkor qilmaydi.",
+      "fact_ids": [
+        "paragraph-21-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-21-q1",
+      "fact_id": "paragraph-21-f1",
+      "question_text": "Qaysi qatorda hujayraning asosiy organik moddalar guruhlari berilgan?",
+      "options": [
+        "Faqat natriy va kaliy ionlari",
+        "Faqat suv va karbonat angidrid",
+        "Uglevod, oqsil, nuklein kislota va lipid",
+        "Suv, osh tuzi, kalsiy fosfat va kislorod"
+      ],
+      "correct_answer": "Uglevod, oqsil, nuklein kislota va lipid",
+      "explanation": "Hujayradagi organik moddalarga uglevodlar, oqsillar, nuklein kislotalar va lipidlar kiradi. Ularning tuzilishi va vazifalari turlicha."
+    },
+    {
+      "key": "paragraph-21-q2",
+      "fact_id": "paragraph-21-f2",
+      "question_text": "Polimer hosil bo‘lishini ifodalovchi yo‘nalishni tanlang.",
+      "options": [
+        "Ion → albatta butun hujayra",
+        "Ko‘p monomer → yirik zanjir",
+        "Yirik zanjir → faqat bitta atom",
+        "Suv → yangi kimyoviy element"
+      ],
+      "correct_answer": "Ko‘p monomer → yirik zanjir",
+      "explanation": "Monomerlar o‘zaro birikib polimer hosil qiladi. Polimer ko‘plab kichik tarkibiy birliklardan tashkil topgan katta molekuladir."
+    },
+    {
+      "key": "paragraph-21-q3",
+      "fact_id": "paragraph-21-f3",
+      "question_text": "Polimer va monomer to‘g‘ri moslangan javob qaysi?",
+      "options": [
+        "Oqsil — aminokislota; nuklein kislota — nukleotid",
+        "Oqsil — nukleotid; nuklein kislota — glitserin",
+        "Polisaxarid — aminokislota; oqsil — glyukoza",
+        "Nuklein kislota — yog‘ kislotasi; oqsil — suv"
+      ],
+      "correct_answer": "Oqsil — aminokislota; nuklein kislota — nukleotid",
+      "explanation": "Oqsilning tarkibiy birliklari aminokislotalar, nuklein kislotalarniki nukleotidlar, polisaxaridlarniki esa monosaxaridlardir."
+    },
+    {
+      "key": "paragraph-21-q4",
+      "fact_id": "paragraph-21-f4",
+      "question_text": "Qaysi organik modda guruhini oqsil kabi takrorlanuvchi monomerli polimer deb hisoblamaymiz?",
+      "options": [
+        "Oqsillarni",
+        "Nuklein kislotalarni",
+        "Polisaxaridlarni",
+        "Lipidlarni"
+      ],
+      "correct_answer": "Lipidlarni",
+      "explanation": "Oqsil va nuklein kislotalar takrorlanuvchi monomerlardan tuzilgan biopolimerlardir. Lipidlar aynan shu turdagi takrorlanuvchi monomerli zanjirlar guruhiga kirmaydi."
+    },
+    {
+      "key": "paragraph-21-q5",
+      "fact_id": "paragraph-21-f5",
+      "question_text": "Irsiy axborotni saqlash bilan eng bevosita bog‘liq guruh qaysi?",
+      "options": [
+        "Faqat selluloza",
+        "Faqat kraxmal",
+        "Nuklein kislotalar",
+        "Faqat zaxira yog‘lar"
+      ],
+      "correct_answer": "Nuklein kislotalar",
+      "explanation": "Ayrim biopolimerlar tuzilma hosil qiladi, ayrim oqsillar kataliz va tashishda qatnashadi, nuklein kislotalar esa axborot bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-21-q6",
+      "fact_id": "paragraph-21-f6",
+      "question_text": "Hujayrani energiya bilan ta’minlashda qatnashuvchi ikki guruhni toping.",
+      "options": [
+        "Faqat xitin va mineral devor",
+        "Uglevodlar va lipidlar",
+        "Faqat suv va xlorid ionlari",
+        "Faqat DNK va yadro qobig‘i"
+      ],
+      "correct_answer": "Uglevodlar va lipidlar",
+      "explanation": "Uglevod va lipidlar hujayraga energiya manbai bo‘lishi mumkin. Moddaning energetik vazifasi uning boshqa vazifalarini inkor qilmaydi."
+    }
+  ]
+}

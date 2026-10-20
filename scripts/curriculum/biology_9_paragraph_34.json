@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-34-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-43",
+  "title": "Xemosintez",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-34-f1": {
+      "claim": "Xemosintezda ayrim bakteriyalar anorganik moddalar oksidlanishidan energiya olib, organik modda sintezida foydalanadi. Yorug‘lik bu jarayonning bevosita energiya manbai emas.",
+      "answer": "Anorganik modda oksidlanishi energiyasidan foydalanishi",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f2": {
+      "claim": "Darslik temirning ikki valentli holatdan uch valentli holatga oksidlanishidan foydalanuvchi bakteriyalarni misol keltiradi.",
+      "answer": "Fe2+ning Fe3+ga oksidlanishi",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f3": {
+      "claim": "Ayrim oltingugurt bakteriyalari vodorod sulfid kabi oltingugurtli anorganik moddalarni oksidlaydi. Bu ularning kimyoviy energiya olishiga xizmat qiladi.",
+      "answer": "Oltingugurt bakteriyalari",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f4": {
+      "claim": "Nitrifikatsiyada ammiakdan nitrit, keyin nitrat hosil bo‘lishi bilan bog‘liq oksidlanishlar mavjud. Bu atmosferadagi N2ni bog‘lash bilan bir xil jarayon emas.",
+      "answer": "Ammiak → nitrit → nitrat",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-34-f5": {
+      "claim": "Xemosintetik mikroorganizmlar anorganik birikmalarni o‘zgartirib, tabiatdagi moddalar aylanishida qatnashadi. Barcha bakteriyalarni bir xil oziqlanadi deb bo‘lmaydi.",
+      "answer": "Anorganik moddalar o‘zgarishi va aylanishida qatnashishida",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kimyoviy energiya manbai",
+      "body": "Xemosintezda ayrim bakteriyalar anorganik moddalar oksidlanishidan energiya olib, organik modda sintezida foydalanadi. Yorug‘lik bu jarayonning bevosita energiya manbai emas.",
+      "fact_ids": [
+        "paragraph-34-f1"
+      ]
+    },
+    {
+      "title": "Temir bakteriyalari",
+      "body": "Darslik temirning ikki valentli holatdan uch valentli holatga oksidlanishidan foydalanuvchi bakteriyalarni misol keltiradi.",
+      "fact_ids": [
+        "paragraph-34-f2"
+      ]
+    },
+    {
+      "title": "Oltingugurt bakteriyalari",
+      "body": "Ayrim oltingugurt bakteriyalari vodorod sulfid kabi oltingugurtli anorganik moddalarni oksidlaydi. Bu ularning kimyoviy energiya olishiga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-34-f3"
+      ]
+    },
+    {
+      "title": "Nitrifikatsiya bosqichlari",
+      "body": "Nitrifikatsiyada ammiakdan nitrit, keyin nitrat hosil bo‘lishi bilan bog‘liq oksidlanishlar mavjud. Bu atmosferadagi N2ni bog‘lash bilan bir xil jarayon emas.",
+      "fact_ids": [
+        "paragraph-34-f4"
+      ]
+    },
+    {
+      "title": "Moddalar aylanishidagi o‘rin",
+      "body": "Xemosintetik mikroorganizmlar anorganik birikmalarni o‘zgartirib, tabiatdagi moddalar aylanishida qatnashadi. Barcha bakteriyalarni bir xil oziqlanadi deb bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-34-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-34-q1",
+      "fact_id": "paragraph-34-f1",
+      "question_text": "Xemosintezning fotosintezdan asosiy energetik farqi qaysi?",
+      "options": [
+        "Energiyaga umuman ehtiyoj sezmasligi",
+        "Faqat tayyor oqsilni yutishi",
+        "Anorganik modda oksidlanishi energiyasidan foydalanishi",
+        "Faqat quyosh fotonlaridan foydalanishi"
+      ],
+      "correct_answer": "Anorganik modda oksidlanishi energiyasidan foydalanishi",
+      "explanation": "Xemosintezda ayrim bakteriyalar anorganik moddalar oksidlanishidan energiya olib, organik modda sintezida foydalanadi. Yorug‘lik bu jarayonning bevosita energiya manbai emas."
+    },
+    {
+      "key": "paragraph-34-q2",
+      "fact_id": "paragraph-34-f2",
+      "question_text": "Temir bakteriyalariga mos energiya beruvchi o‘zgarish qaysi?",
+      "options": [
+        "Faqat yodning kraxmalni bo‘yashi",
+        "Fe2+ning Fe3+ga oksidlanishi",
+        "Faqat glyukozaning kraxmalga yig‘ilishi",
+        "Faqat suvning muzlashi"
+      ],
+      "correct_answer": "Fe2+ning Fe3+ga oksidlanishi",
+      "explanation": "Darslik temirning ikki valentli holatdan uch valentli holatga oksidlanishidan foydalanuvchi bakteriyalarni misol keltiradi."
+    },
+    {
+      "key": "paragraph-34-q3",
+      "fact_id": "paragraph-34-f3",
+      "question_text": "Vodorod sulfidni oksidlash bilan bog‘liq bakteriya guruhi qaysi?",
+      "options": [
+        "Oltingugurt bakteriyalari",
+        "Faqat sut kislotasi bakteriyalari",
+        "Faqat chirindi iste’molchi zamburug‘lar",
+        "Faqat yashil o‘simlik hujayralari"
+      ],
+      "correct_answer": "Oltingugurt bakteriyalari",
+      "explanation": "Ayrim oltingugurt bakteriyalari vodorod sulfid kabi oltingugurtli anorganik moddalarni oksidlaydi. Bu ularning kimyoviy energiya olishiga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-34-q4",
+      "fact_id": "paragraph-34-f4",
+      "question_text": "Nitrifikatsiyaga mos yo‘nalishni toping.",
+      "options": [
+        "Nitrat → N2 → glyukoza",
+        "Glyukoza → kraxmal → xitin",
+        "DNK → RNK → yog‘",
+        "Ammiak → nitrit → nitrat"
+      ],
+      "correct_answer": "Ammiak → nitrit → nitrat",
+      "explanation": "Nitrifikatsiyada ammiakdan nitrit, keyin nitrat hosil bo‘lishi bilan bog‘liq oksidlanishlar mavjud. Bu atmosferadagi N2ni bog‘lash bilan bir xil jarayon emas."
+    },
+    {
+      "key": "paragraph-34-q5",
+      "fact_id": "paragraph-34-f5",
+      "question_text": "Xemosintetik mikroorganizmlarning ekologik ahamiyati nimada?",
+      "options": [
+        "Hamma bakteriyani o‘simlikka aylantirishida",
+        "Atmosferadagi barcha gazni yo‘qotishida",
+        "Anorganik moddalar o‘zgarishi va aylanishida qatnashishida",
+        "Faqat tayyor oziqni fizik maydalashida"
+      ],
+      "correct_answer": "Anorganik moddalar o‘zgarishi va aylanishida qatnashishida",
+      "explanation": "Xemosintetik mikroorganizmlar anorganik birikmalarni o‘zgartirib, tabiatdagi moddalar aylanishida qatnashadi. Barcha bakteriyalarni bir xil oziqlanadi deb bo‘lmaydi."
+    }
+  ]
+}

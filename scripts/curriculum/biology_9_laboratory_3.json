@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-laboratory-3-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-laboratory-23",
+  "title": "18- §. 3- laboratoriya mashg‘uloti. O‘simlik hujayrasida plazmoliz va deplazmolizni kuzatish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-3-f1": {
+      "claim": "Tashqi eritma hujayra shirasidan quyuqroq bo‘lsa, hujayra suv yo‘qotadi. Taranglik kamayib, protoplast devordan ajrala boshlashi plazmolizdir.",
+      "answer": "Plazmoliz",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f2": {
+      "claim": "Plazmolizlangan tirik hujayra toza suvga qaytarilganda suvni qayta qabul qilib, avvalgi holatiga yaqinlashishi mumkin. Bu deplazmoliz deyiladi.",
+      "answer": "Deplazmoliz",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f3": {
+      "claim": "Darslikda dastlab suvdagi holat, keyin tuzli eritmadagi o‘zgarish va oxirida yana toza suvdagi holat solishtiriladi.",
+      "answer": "Suv → tuzli eritma → toza suv",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f4": {
+      "claim": "Faoliyatda almashtiriladigan omil hujayra atrofidagi eritmadir. Kuzatiladigan belgi esa hujayra tarangligi va ichki qismining devorga nisbatan holatidir.",
+      "answer": "Tashqi eritmaning tarkibi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-3-f5": {
+      "claim": "Har bosqichdagi hujayra holatini tasvirlab solishtirish suv almashinuvini tushunishga yordam beradi. Ilovada chizma va holatlarni tahlil qilish fizik tajriba o‘rnini bosmaydi.",
+      "answer": "Bosqichlarni tahlil qildim; haqiqiy tajriba alohida bajariladi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suv chiqishining oqibati",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nTashqi eritma hujayra shirasidan quyuqroq bo‘lsa, hujayra suv yo‘qotadi. Taranglik kamayib, protoplast devordan ajrala boshlashi plazmolizdir.",
+      "fact_ids": [
+        "laboratory-3-f1"
+      ]
+    },
+    {
+      "title": "Suv qayta kirganda",
+      "body": "Plazmolizlangan tirik hujayra toza suvga qaytarilganda suvni qayta qabul qilib, avvalgi holatiga yaqinlashishi mumkin. Bu deplazmoliz deyiladi.",
+      "fact_ids": [
+        "laboratory-3-f2"
+      ]
+    },
+    {
+      "title": "Tartibni tahlil qiling",
+      "body": "Darslikda dastlab suvdagi holat, keyin tuzli eritmadagi o‘zgarish va oxirida yana toza suvdagi holat solishtiriladi.",
+      "fact_ids": [
+        "laboratory-3-f3"
+      ]
+    },
+    {
+      "title": "Tajriba omili",
+      "body": "Faoliyatda almashtiriladigan omil hujayra atrofidagi eritmadir. Kuzatiladigan belgi esa hujayra tarangligi va ichki qismining devorga nisbatan holatidir.",
+      "fact_ids": [
+        "laboratory-3-f4"
+      ]
+    },
+    {
+      "title": "Rasm va xulosa",
+      "body": "Har bosqichdagi hujayra holatini tasvirlab solishtirish suv almashinuvini tushunishga yordam beradi. Ilovada chizma va holatlarni tahlil qilish fizik tajriba o‘rnini bosmaydi.",
+      "fact_ids": [
+        "laboratory-3-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-3-q1",
+      "fact_id": "laboratory-3-f1",
+      "question_text": "Quyuq tuzli eritmada o‘simlik hujayrasi suv yo‘qotib, protoplasti tortildi. Bu nima?",
+      "options": [
+        "Mitoz",
+        "Fotosintez",
+        "Plazmoliz",
+        "Deplazmoliz"
+      ],
+      "correct_answer": "Plazmoliz",
+      "explanation": "Tashqi eritma hujayra shirasidan quyuqroq bo‘lsa, hujayra suv yo‘qotadi. Taranglik kamayib, protoplast devordan ajrala boshlashi plazmolizdir."
+    },
+    {
+      "key": "laboratory-3-q2",
+      "fact_id": "laboratory-3-f2",
+      "question_text": "Plazmolizdan keyin toza suvda taranglikning tiklanishi qanday ataladi?",
+      "options": [
+        "Replikatsiya",
+        "Deplazmoliz",
+        "Fagositoz",
+        "Xemosintez"
+      ],
+      "correct_answer": "Deplazmoliz",
+      "explanation": "Plazmolizlangan tirik hujayra toza suvga qaytarilganda suvni qayta qabul qilib, avvalgi holatiga yaqinlashishi mumkin. Bu deplazmoliz deyiladi."
+    },
+    {
+      "key": "laboratory-3-q3",
+      "fact_id": "laboratory-3-f3",
+      "question_text": "Plazmoliz va qaytishini solishtirish uchun mos ketma-ketlik qaysi?",
+      "options": [
+        "Suv → tuzli eritma → toza suv",
+        "Toza suv → toza suv → toza suv",
+        "Tuzli eritma → quruq oyna → olov",
+        "Avval xulosa → keyin namunasiz baholash"
+      ],
+      "correct_answer": "Suv → tuzli eritma → toza suv",
+      "explanation": "Darslikda dastlab suvdagi holat, keyin tuzli eritmadagi o‘zgarish va oxirida yana toza suvdagi holat solishtiriladi."
+    },
+    {
+      "key": "laboratory-3-q4",
+      "fact_id": "laboratory-3-f4",
+      "question_text": "Uchinchi laboratoriya tahlilida o‘zgartiriladigan asosiy omil qaysi?",
+      "options": [
+        "Xromosomalar soni",
+        "Ribosomalar kodi",
+        "Piyozning tur nomi",
+        "Tashqi eritmaning tarkibi"
+      ],
+      "correct_answer": "Tashqi eritmaning tarkibi",
+      "explanation": "Faoliyatda almashtiriladigan omil hujayra atrofidagi eritmadir. Kuzatiladigan belgi esa hujayra tarangligi va ichki qismining devorga nisbatan holatidir."
+    },
+    {
+      "key": "laboratory-3-q5",
+      "fact_id": "laboratory-3-f5",
+      "question_text": "Bu raqamli faoliyatni to‘g‘ri ifodalagan xulosa qaysi?",
+      "options": [
+        "Testdan o‘tdim, demak barcha hujayralar nobud bo‘ldi",
+        "Savolga javob berdim, demak osmosni o‘lchadim",
+        "Bosqichlarni tahlil qildim; haqiqiy tajriba alohida bajariladi",
+        "Testdan o‘tdim, demak preparatni amalda tayyorladim"
+      ],
+      "correct_answer": "Bosqichlarni tahlil qildim; haqiqiy tajriba alohida bajariladi",
+      "explanation": "Har bosqichdagi hujayra holatini tasvirlab solishtirish suv almashinuvini tushunishga yordam beradi. Ilovada chizma va holatlarni tahlil qilish fizik tajriba o‘rnini bosmaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "18- §. 3- laboratoriya mashg‘uloti. O‘simlik hujayrasida plazmoliz va deplazmolizni kuzatish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Suv chiqishining oqibati",
+        "fact_ids": [
+          "laboratory-3-f1"
+        ]
+      },
+      {
+        "instruction": "Suv qayta kirganda",
+        "fact_ids": [
+          "laboratory-3-f2"
+        ]
+      },
+      {
+        "instruction": "Tartibni tahlil qiling",
+        "fact_ids": [
+          "laboratory-3-f3"
+        ]
+      },
+      {
+        "instruction": "Tajriba omili",
+        "fact_ids": [
+          "laboratory-3-f4"
+        ]
+      },
+      {
+        "instruction": "Rasm va xulosa",
+        "fact_ids": [
+          "laboratory-3-f5"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-31-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-40",
+  "title": "Energiya almashinuvi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-31-f1": {
+      "claim": "Dissimilyatsiyada organik birikmalar parchalanadi va energiya ajraladi. Bu plastik almashinuvdagi yirik molekula yig‘ilishiga qarama-qarshi yo‘nalishdir.",
+      "answer": "Organik moddalar parchalanib energiya ajralishi",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f2": {
+      "claim": "Aerob nafas olish kislorod ishtirokidagi oksidlanish bilan bog‘liq. O‘simlik hujayralarida ham nafas olish jarayonlari mavjud.",
+      "answer": "Kislorod",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f3": {
+      "claim": "Darslikdagi glyukozaning to‘liq oksidlanish tenglamasida kislorod sarflanib, karbonat angidrid va suv hosil bo‘ladi.",
+      "answer": "Karbonat angidrid va suv",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f4": {
+      "claim": "Oziq moddadan ajralgan energiyaning bir qismi issiqlik bo‘lib tarqaladi, bir qismi esa ATF orqali foydalanishga saqlanadi.",
+      "answer": "Bir qismi issiqlikka, bir qismi ATFga o‘tadi",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f5": {
+      "claim": "Faol membrana transporti, mushak qisqarishi va biosintez energiya talab qiladi. ATF bu jarayonlar uchun bevosita energiya tashuvchidir.",
+      "answer": "Mushak qisqarishi va faol transport",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-31-f6": {
+      "claim": "Hujayrada ATF sarflanib turishi bilan birga qayta sintezlanadi. Faoliyatning davom etishi uchun bu aylanish muhim.",
+      "answer": "Sarflangan ATF qayta sintezlanib turadi",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Energetik almashinuv",
+      "body": "Dissimilyatsiyada organik birikmalar parchalanadi va energiya ajraladi. Bu plastik almashinuvdagi yirik molekula yig‘ilishiga qarama-qarshi yo‘nalishdir.",
+      "fact_ids": [
+        "paragraph-31-f1"
+      ]
+    },
+    {
+      "title": "Aerob jarayon",
+      "body": "Aerob nafas olish kislorod ishtirokidagi oksidlanish bilan bog‘liq. O‘simlik hujayralarida ham nafas olish jarayonlari mavjud.",
+      "fact_ids": [
+        "paragraph-31-f2"
+      ]
+    },
+    {
+      "title": "To‘liq oksidlanish mahsulotlari",
+      "body": "Darslikdagi glyukozaning to‘liq oksidlanish tenglamasida kislorod sarflanib, karbonat angidrid va suv hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-31-f3"
+      ]
+    },
+    {
+      "title": "Energiya taqsimoti",
+      "body": "Oziq moddadan ajralgan energiyaning bir qismi issiqlik bo‘lib tarqaladi, bir qismi esa ATF orqali foydalanishga saqlanadi.",
+      "fact_ids": [
+        "paragraph-31-f4"
+      ]
+    },
+    {
+      "title": "ATF ishlatiladigan jarayon",
+      "body": "Faol membrana transporti, mushak qisqarishi va biosintez energiya talab qiladi. ATF bu jarayonlar uchun bevosita energiya tashuvchidir.",
+      "fact_ids": [
+        "paragraph-31-f5"
+      ]
+    },
+    {
+      "title": "Zaxira qayta tiklanadi",
+      "body": "Hujayrada ATF sarflanib turishi bilan birga qayta sintezlanadi. Faoliyatning davom etishi uchun bu aylanish muhim.",
+      "fact_ids": [
+        "paragraph-31-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-31-q1",
+      "fact_id": "paragraph-31-f1",
+      "question_text": "Energetik almashinuvga mos hodisani toping.",
+      "options": [
+        "DNK zanjirining ko‘payishi",
+        "Yangi kraxmalning sintezlanishi",
+        "Organik moddalar parchalanib energiya ajralishi",
+        "Aminokislotalardan oqsil yig‘ilishi"
+      ],
+      "correct_answer": "Organik moddalar parchalanib energiya ajralishi",
+      "explanation": "Dissimilyatsiyada organik birikmalar parchalanadi va energiya ajraladi. Bu plastik almashinuvdagi yirik molekula yig‘ilishiga qarama-qarshi yo‘nalishdir."
+    },
+    {
+      "key": "paragraph-31-q2",
+      "fact_id": "paragraph-31-f2",
+      "question_text": "Aerob oksidlanish uchun zarur bo‘lgan modda qaysi?",
+      "options": [
+        "Faqat selluloza",
+        "Kislorod",
+        "Faqat xlorofill",
+        "Faqat yod"
+      ],
+      "correct_answer": "Kislorod",
+      "explanation": "Aerob nafas olish kislorod ishtirokidagi oksidlanish bilan bog‘liq. O‘simlik hujayralarida ham nafas olish jarayonlari mavjud."
+    },
+    {
+      "key": "paragraph-31-q3",
+      "fact_id": "paragraph-31-f3",
+      "question_text": "Glyukozaning to‘liq oksidlanishida asosiy oxirgi mahsulotlar qaysilar?",
+      "options": [
+        "Karbonat angidrid va suv",
+        "Faqat glyukoza va kislorod",
+        "Faqat kraxmal va oqsil",
+        "Faqat yod va amilaza"
+      ],
+      "correct_answer": "Karbonat angidrid va suv",
+      "explanation": "Darslikdagi glyukozaning to‘liq oksidlanish tenglamasida kislorod sarflanib, karbonat angidrid va suv hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-31-q4",
+      "fact_id": "paragraph-31-f4",
+      "question_text": "Oziq moddalar parchalanishidagi energiya taqdiri qaysi javobda to‘g‘ri?",
+      "options": [
+        "Hammasi faqat irsiy kodga aylanadi",
+        "Hammasi yo‘qdan qayta paydo bo‘ladi",
+        "Issiqlik mutlaqo ajralmaydi",
+        "Bir qismi issiqlikka, bir qismi ATFga o‘tadi"
+      ],
+      "correct_answer": "Bir qismi issiqlikka, bir qismi ATFga o‘tadi",
+      "explanation": "Oziq moddadan ajralgan energiyaning bir qismi issiqlik bo‘lib tarqaladi, bir qismi esa ATF orqali foydalanishga saqlanadi."
+    },
+    {
+      "key": "paragraph-31-q5",
+      "fact_id": "paragraph-31-f5",
+      "question_text": "Qaysi faoliyat ATF energiyasidan foydalanadi?",
+      "options": [
+        "Faqat yorug‘likning qaytishi",
+        "Faqat moddaning tortishish bilan cho‘kishi",
+        "Mushak qisqarishi va faol transport",
+        "Faqat tashqi suvning muzlashi"
+      ],
+      "correct_answer": "Mushak qisqarishi va faol transport",
+      "explanation": "Faol membrana transporti, mushak qisqarishi va biosintez energiya talab qiladi. ATF bu jarayonlar uchun bevosita energiya tashuvchidir."
+    },
+    {
+      "key": "paragraph-31-q6",
+      "fact_id": "paragraph-31-f6",
+      "question_text": "Mushak uzoq ishlaganda ATF ta’minoti qanday saqlanadi?",
+      "options": [
+        "ATF faqat tug‘ilishda bir marta hosil bo‘ladi",
+        "Sarflangan ATF qayta sintezlanib turadi",
+        "Dastlabki ATF hech sarflanmaydi",
+        "ATF o‘rnini hujayra devori bosadi"
+      ],
+      "correct_answer": "Sarflangan ATF qayta sintezlanib turadi",
+      "explanation": "Hujayrada ATF sarflanib turishi bilan birga qayta sintezlanadi. Faoliyatning davom etishi uchun bu aylanish muhim."
+    }
+  ]
+}

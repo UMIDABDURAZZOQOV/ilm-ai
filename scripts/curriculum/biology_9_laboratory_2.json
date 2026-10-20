@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-laboratory-2-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-laboratory-22",
+  "title": "17- §. 2- laboratoriya mashg‘uloti. O‘simlik va hayvon hujayralarining tuzilishini mikroskop yordamida o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-2-f1": {
+      "claim": "Darslikdagi ikkinchi laboratoriya ishi piyoz epidermisi va og‘iz shilliq qavati hujayralarini taqqoslashga qaratilgan. Ilovada maqsad va tayyor kuzatuv belgilarini tahlil qilamiz; namuna olish talab qilinmaydi.",
+      "answer": "Piyoz epidermisi va og‘iz shilliq qavati hujayralari",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          51
+        ],
+        "printed_pages": [
+          51
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f2": {
+      "claim": "Buyum oynasi namunani joylashtirish, qoplag‘ich oyna esa uni yopish uchun ishlatiladi. Bu oynalar mikroskopning kattalashtiruvchi linzalari emas.",
+      "answer": "Buyum va qoplag‘ich oynalar",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          51
+        ],
+        "printed_pages": [
+          51
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f3": {
+      "claim": "Kuzatuvda hujayraning shakli, sitoplazmasi va yadrosiga e’tibor berish taklif etiladi. Xulosani aynan kuzatilgan tuzilmalarga tayash lozim.",
+      "answer": "Shakl, sitoplazma va yadro",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-2-f4": {
+      "claim": "Ish yakunida o‘simlik va hayvon hujayralarining kuzatilgan farqlari taqqoslanadi. Raqamli tahlil bajarilishi haqiqiy namuna olinganini isbotlamaydi.",
+      "answer": "Kuzatilgan hujayra belgilarini taqqoslab xulosa yozish",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          52
+        ],
+        "printed_pages": [
+          52
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuvni rejalashtirish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nDarslikdagi ikkinchi laboratoriya ishi piyoz epidermisi va og‘iz shilliq qavati hujayralarini taqqoslashga qaratilgan. Ilovada maqsad va tayyor kuzatuv belgilarini tahlil qilamiz; namuna olish talab qilinmaydi.",
+      "fact_ids": [
+        "laboratory-2-f1"
+      ]
+    },
+    {
+      "title": "Preparat uchun jihoz",
+      "body": "Buyum oynasi namunani joylashtirish, qoplag‘ich oyna esa uni yopish uchun ishlatiladi. Bu oynalar mikroskopning kattalashtiruvchi linzalari emas.",
+      "fact_ids": [
+        "laboratory-2-f2"
+      ]
+    },
+    {
+      "title": "Belgilarni yozib oling",
+      "body": "Kuzatuvda hujayraning shakli, sitoplazmasi va yadrosiga e’tibor berish taklif etiladi. Xulosani aynan kuzatilgan tuzilmalarga tayash lozim.",
+      "fact_ids": [
+        "laboratory-2-f3"
+      ]
+    },
+    {
+      "title": "Taqqoslash xulosasi",
+      "body": "Ish yakunida o‘simlik va hayvon hujayralarining kuzatilgan farqlari taqqoslanadi. Raqamli tahlil bajarilishi haqiqiy namuna olinganini isbotlamaydi.",
+      "fact_ids": [
+        "laboratory-2-f4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-2-q1",
+      "fact_id": "laboratory-2-f1",
+      "question_text": "Ikkinchi laboratoriya ishida qaysi hujayralar taqqoslanadi?",
+      "options": [
+        "Faqat eritrotsit va trombotsitlar",
+        "Faqat ildiz va mitoxondriyalar",
+        "Piyoz epidermisi va og‘iz shilliq qavati hujayralari",
+        "Bakteriya va viruslar"
+      ],
+      "correct_answer": "Piyoz epidermisi va og‘iz shilliq qavati hujayralari",
+      "explanation": "Darslikdagi ikkinchi laboratoriya ishi piyoz epidermisi va og‘iz shilliq qavati hujayralarini taqqoslashga qaratilgan. Ilovada maqsad va tayyor kuzatuv belgilarini tahlil qilamiz; namuna olish talab qilinmaydi."
+    },
+    {
+      "key": "laboratory-2-q2",
+      "fact_id": "laboratory-2-f2",
+      "question_text": "Namunani qo‘yish va ustini yopish uchun qaysi jihozlar mos?",
+      "options": [
+        "Faqat sentrifuga rotori",
+        "Buyum va qoplag‘ich oynalar",
+        "Faqat obyektiv va okulyar",
+        "Faqat shtativ va ko‘zgu"
+      ],
+      "correct_answer": "Buyum va qoplag‘ich oynalar",
+      "explanation": "Buyum oynasi namunani joylashtirish, qoplag‘ich oyna esa uni yopish uchun ishlatiladi. Bu oynalar mikroskopning kattalashtiruvchi linzalari emas."
+    },
+    {
+      "key": "laboratory-2-q3",
+      "fact_id": "laboratory-2-f3",
+      "question_text": "Tayyor mikroskopik kuzatuvni tahlil qilishda qaysi belgilarni qayd etish kerak?",
+      "options": [
+        "Shakl, sitoplazma va yadro",
+        "Faqat dars qancha davom etganini",
+        "Faqat o‘quvchining yoshini",
+        "Faqat telefon modelini"
+      ],
+      "correct_answer": "Shakl, sitoplazma va yadro",
+      "explanation": "Kuzatuvda hujayraning shakli, sitoplazmasi va yadrosiga e’tibor berish taklif etiladi. Xulosani aynan kuzatilgan tuzilmalarga tayash lozim."
+    },
+    {
+      "key": "laboratory-2-q4",
+      "fact_id": "laboratory-2-f4",
+      "question_text": "Mikroskopik ish bo‘yicha asosli yakun qaysi?",
+      "options": [
+        "Kuzatmasdan barcha organoidlar ko‘rindi deyish",
+        "Ilovadagi testni namuna olinganining isboti deyish",
+        "Natijani oldindan taxmin qilib kuzatuvni o‘tkazib yuborish",
+        "Kuzatilgan hujayra belgilarini taqqoslab xulosa yozish"
+      ],
+      "correct_answer": "Kuzatilgan hujayra belgilarini taqqoslab xulosa yozish",
+      "explanation": "Ish yakunida o‘simlik va hayvon hujayralarining kuzatilgan farqlari taqqoslanadi. Raqamli tahlil bajarilishi haqiqiy namuna olinganini isbotlamaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "17- §. 2- laboratoriya mashg‘uloti. O‘simlik va hayvon hujayralarining tuzilishini mikroskop yordamida o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuvni rejalashtirish",
+        "fact_ids": [
+          "laboratory-2-f1"
+        ]
+      },
+      {
+        "instruction": "Preparat uchun jihoz",
+        "fact_ids": [
+          "laboratory-2-f2"
+        ]
+      },
+      {
+        "instruction": "Belgilarni yozib oling",
+        "fact_ids": [
+          "laboratory-2-f3"
+        ]
+      },
+      {
+        "instruction": "Taqqoslash xulosasi",
+        "fact_ids": [
+          "laboratory-2-f4"
+        ]
+      }
+    ]
+  }
+}

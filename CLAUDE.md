@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy davom ettirish nuqtasi — 2026-10-20:** `feat/biology-curriculum` branchlarida yangi 6/8-sinfning sakkiz segmenti (336 PDF sahifa) ochildi. Endi yetti kitob xaritasi bor: **46 bob + Kirish, 366 paragraf; 19 original UZ interaktiv dars / 140 savol**. Har sinfning to‘liq kursi hali tayyor emas. Quyidagi yangi davom ettirish hisoboti joriy holatdir; undan keyingi dastlabki Biologiya va mobile hardening bo‘limlari tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
+> **Joriy holat — 2026-10-20, continuation-10:** `feat/biology-curriculum`: **233/355 nazariy dars, 122 qolgan; 36/51 raqamli faoliyat; 1 534 karta / 1 616 savol**. Aniq davom: **9-sinf §38, PDF95**. Eng so‘nggi natija va testlar hujjat oxirida; undan oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -2435,3 +2435,41 @@ Changed files: grade-8 paragraph manifests 48–61 and laboratory 7; grade-9 par
 Continue at **grade 9 §10 “Hujayrani o‘rganish usullari”, original PDF/printed p.31**. Grade-9 §1–7, §9 and §8/laboratory 1 are already authored; do not recreate them. Later source activity paragraphs must still be counted separately from theory. All unready topic/activity IDs are in `scripts/curriculum/biology_readiness.json`. Importing remains dry-run by default; `--apply` is restricted to an explicit local SQLite staging database, never production or app startup. Continue batches of 20–30 new theory topics, include activities at their source positions, validate image evidence, update report/tests/this document, and push the feature branch after each successful release.
 
 Private setup notes contain prepared PR bodies at `/workspace/.setup/biology-pr-backend.md` and `biology-pr-flutter.md`. Use current counts and this entry rather than old historical continuation pointers. Branch compare pages can be used for manual review if PR API access is not restored. Remaining scope is **146 theory topics and 19 activities** across grades 9–11, plus specialist and production-device validation. Do not claim the entire 355-topic course or store release is finished.
+
+## 2026-10-20 — Biology continuation-10: 9-sinf §10–36 va laboratoriyalar 2–5
+
+Ish backend **`519d0f4`** va Flutter **`68e77c3`** remote HEADlari bilan solishtirib davom ettirildi; yangi remote commit yoki saqlanmagan o‘zgarish yo‘q edi. Ushbu hujjat to‘liq o‘qildi. Oldingi **209 nazariy dars + 32 faoliyat / 1 340 karta / 1 422 savol** qayta yaratilmagan yoki tahrirlanmagan. Ularning barcha 241 manifesti `biology_preserved_release09.json`da boshlang‘ich commit va SHA-256 bilan mustahkamlandi; yangi regression ularning baytlarini ham tekshiradi. Original 19 dars va yetti manba katalogining eski hash testi ham saqlangan.
+
+Yangi partiya: **24 nazariy mavzu** — §10–16, §19–28, §30–36; **4 raqamli laboratoriya** — §17/lab 2, §18/lab 3, §29/lab 4, §37/lab 5. Manba: 9-sinf darsligining asl PDF/bosma **31–94-sahifalari**, tasvirlari ko‘rib chiqildi. **194 yangi tushuntirish kartasi va 194 original savol** yaratildi. Ular mavjud karta → MCQ → Ilmo feedback → server XP/progress engine’iga ulanadi. Turli topshiriqlar: usul tanlash, organoid/vazifa taqqoslash, membrana transporti, makromolekulalar, komplementar DNK, transkripsiya/translyatsiya, nazorat namunasini talqin qilish va sharti ochiq hisoblar. Yangi savol widget turi yaratilgani da’vo qilinmaydi.
+
+Joriy jami: **233/355 nazariy mavzu, 122 qolgan; 36/51 raqamli faoliyat; 269 manifest; 1 534 karta; 1 616 savol**.
+
+| Sinf | Bob | Nazariy mavzu | Tayyor | Qolgan | Tayyor faoliyat / jami | Savol |
+|---|---:|---:|---:|---:|---:|---:|
+| 5 | 3 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 5 | 59 | 59 | 0 | 7 / 7 | 331 |
+| 7 | 8 | 59 | 59 | 0 | 5 / 5 | 381 |
+| 8 | 13 + kirish | 61 | 61 | 0 | 7 / 7 | 435 |
+| 9 | 8 | 56 | 32 | 24 | 5 / 11 | 258 |
+| 10 | 5 | 58 | 2 | 56 | 0 / 4 | 14 |
+| 11 | 4 | 44 | 2 | 42 | 0 / 5 | 15 |
+
+### Manba va ilmiy tahrir qarorlari
+
+- Bakteriyalarda pinositoz, barcha hayvon hujayralarida vakuola yo‘qligi, membrana mexanik tayanch bermasligi, mitoxondriya/plastida DNKsi membranalararo bo‘shliqda joylashishi kabi noto‘g‘ri umumlashtirishlar o‘qitilmaydi. Eski kelib chiqish modellari tarixiy gipoteza deb nomlangan; ko‘p genomli model isbotlangan yagona izoh sifatida berilmaydi.
+- Barcha hujayralar doim kuchsiz ishqoriy ekanligi, hamma ferment faqat oqsil ekanligi, aminokislota jadvalidagi nom/tasnif xatolari, barcha odamlar uchun 10 ta almashtirib bo‘lmaydigan aminokislota yoki qat’iy ovqat me’yori kabi da’volar chiqarib tashlandi. Tuyadagi yog‘ faqat suv manbai, energiya emas degan noto‘g‘ri jumla ishlatilmadi.
+- Glikolizning o‘zini sut kislotasigacha parchalanish bilan aynanlashtirish, har bir hujayrada aniq 38 ATF chiqishi, bitta molekulaga kJ yoki 180 g berish kabi birlik chalkashliklari takrorlanmaydi. **2 + 36 = 38 faqat darslikning soddalashtirilgan masala sharti** deb belgilanadi; real hujayrada universal chiqish deyilmaydi. §36 masalalarida original yangi sonlar va tekshiriladigan tenglamalar bor; §31 PDF80 va §32 PDF82–83dagi qoida manbalari karta/izohda ochiq ko‘rsatilgan.
+- Shu hisoblar uchun `source.supporting_sources` qo‘shildi: asosiy manba §36/PDF93–94 bo‘lib qoladi, oldingi paragrafdagi qoida esa alohida topic/paragraph/bosma/PDF/rasm-review yozuviga ega. Pure validator har supporting manbaning katalogdagi haqiqiy mavzu, paragraf va sahifasini tekshiradi; noto‘g‘ri ID, paragraf, OCR-only, diapazon va mappingni rad etadigan testlar bor. Qo‘shimcha reference matni existing mobil karta/feedbackda ko‘rinadi; yangi source-sheet UI qo‘shilgani da’vo qilinmaydi. Eski manifest/API formatlari va DB/import xavfsizlik cheklovlari o‘zgarmadi.
+- Fotosintezning yagona organik modda manbai ekani, barcha xloroplastlar aniq 30 baravar ko‘p ATF berishi, nitrifikatsiya atmosferadagi N2ni fiksatsiya qilish bilan bir xil ekani o‘qitilmaydi. UAA/UAG/UGA boshlash emas, standart koddagi stop signal deb berilgan; har qanday aminokislota almashishi doimo oqsilni yaroqsiz qiladi degan absolut hukm chiqarilgan.
+- Laboratoriyalar tayyor kuzatuv va nazoratni **guided_analysis** sifatida tahlil qiladi. Ilovada so‘lak yig‘ish, og‘izdan namuna olish, o‘tkir asbob, yod/spirt yoki qaynoq suv bilan ishlash talab qilinmaydi. Raqamli yakun fizik tajriba bajarilganini anglatmaydi. PDF/OCR/rasmlar GitHub’ga kiritilmadi.
+
+### Amalda o‘tgan testlar
+
+- Global importer dry-run: **269/269 manifest valid**; readiness JSON qayta hisoblandi, production DBga ulanilmadi.
+- To‘liq backend: **377 passed, 12 existing FastAPI lifecycle warnings, 86.23s**. Mavjud API oqimi yangi darslar va beshta tayyor 9-sinf bob checkpointini yakunlaydi, keyingi tayyor bo‘lmagan bobni bloklaydi; server baholashi, takror submitda bir martalik XP va progressni saqlovchi qayta import tekshirildi.
+- Flutter **103 tests passed** (11s), `flutter analyze`: **No issues found** (1.9s), joriy unchanged **`68e77c3`** uchun ushbu partiyada qayta bajarildi. Ushbu partiyada mobil kod/payload kontrakti o‘zgartirilmagan; oldingi muvaffaqiyatli web validation build natijasi tarix sifatida qoladi, yangi build yoki Android testi deb ko‘rsatilmaydi.
+- O‘zgargan Python modullarda critical-error Ruff (`E9,F63,F7,F82`) va `git diff --check`: toza. Dalillar private `/tmp/biology-release10-*.log`.
+
+O‘zgargan fayllar: 28 yangi 9-sinf lesson/activity manifesti, `biology_lessons.json`, `biology_readiness.json`, `biology_preserved_release09.json`, `services/curriculum_validation.py`, `tests/test_biology_continuation.py` va shu `CLAUDE.md`. Veb **`054f0ce`** holatida o‘zgarmagan. Production import/migratsiya/deploy, main merge va ilova nashri bajarilmagan. Mustaqil fan eksperti, real Android/iOS/TalkBack va live PostgreSQL QA hali bajarilmagan; oldingi web practice rollout bloklovchisi va PR API Forbidden cheklovi saqlanadi.
+
+**Aniq keyingi nuqta:** 9-sinf **§38 “Hujayra sikli”, PDF/bosma 95-sahifa**. 9-sinfda qolgan **24 nazariy mavzu va 6 faoliyat**ni keyingi continuation-11 partiyasida tugatish, so‘ng 10-sinf §3ga o‘tish. Keyingi sahifalarni ko‘rish boshlandi, lekin ushbu commitda §38+ darslari hali yo‘q. Oldingi 233 darsni qayta yaratmang; explicit index va readinessdan foydalaning.

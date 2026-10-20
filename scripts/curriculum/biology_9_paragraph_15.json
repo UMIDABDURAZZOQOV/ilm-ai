@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-15-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-20",
+  "title": "Prokariot va eukariot hujayralar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-15-f1": {
+      "claim": "Bakteriyalar va sianobakteriyalar prokariot tuzilishga ega. Zamburug‘, o‘simlik va hayvonlar esa eukariotdir.",
+      "answer": "Prokariot",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          47
+        ],
+        "printed_pages": [
+          47
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f2": {
+      "claim": "Prokariot va eukariot hujayralarda sitoplazma, ribosoma va nuklein kislotalar mavjud. Shakllangan yadroning yo‘qligi DNK yo‘qligi degani emas.",
+      "answer": "Ribosoma va irsiy material",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f3": {
+      "claim": "Prokariotlarda membrana bilan chegaralangan yadro, mitoxondriya va endoplazmatik to‘r bo‘lmaydi. Ribosoma esa ularda ham bor.",
+      "answer": "Haqiqiy yadro va membranali organoidlarning yo‘qligi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f4": {
+      "claim": "Bakteriyalar hujayrasi ikkiga bo‘linib ko‘payadi; ularda eukariotlarga xos mitoz kuzatilmaydi.",
+      "answer": "Yo‘q, bakteriyada mitoz kuzatilmaydi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f5": {
+      "claim": "Zamburug‘larda plastidalar yo‘q; o‘simliklarda plastidalar mavjud. Ikkalasida ham eukariot hujayra tuzilishi saqlanadi.",
+      "answer": "Zamburug‘da plastidalar bo‘lmaydi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-15-f6": {
+      "claim": "Hayvon hujayrasida bo‘linishda membrana ichkariga tortilib egatcha hosil qiladi. O‘simlik hujayrasida esa o‘rtada to‘siq shakllanadi.",
+      "answer": "O‘simlikda o‘rta to‘siq; hayvonda bo‘linish egatchasi",
+      "source": {
+        "paragraph": 15,
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hujayralarning ikki tipi",
+      "body": "Bakteriyalar va sianobakteriyalar prokariot tuzilishga ega. Zamburug‘, o‘simlik va hayvonlar esa eukariotdir.",
+      "fact_ids": [
+        "paragraph-15-f1"
+      ]
+    },
+    {
+      "title": "Umumiy tuzilmalar",
+      "body": "Prokariot va eukariot hujayralarda sitoplazma, ribosoma va nuklein kislotalar mavjud. Shakllangan yadroning yo‘qligi DNK yo‘qligi degani emas.",
+      "fact_ids": [
+        "paragraph-15-f2"
+      ]
+    },
+    {
+      "title": "Asosiy farq",
+      "body": "Prokariotlarda membrana bilan chegaralangan yadro, mitoxondriya va endoplazmatik to‘r bo‘lmaydi. Ribosoma esa ularda ham bor.",
+      "fact_ids": [
+        "paragraph-15-f3"
+      ]
+    },
+    {
+      "title": "Bo‘linishni farqlang",
+      "body": "Bakteriyalar hujayrasi ikkiga bo‘linib ko‘payadi; ularda eukariotlarga xos mitoz kuzatilmaydi.",
+      "fact_ids": [
+        "paragraph-15-f4"
+      ]
+    },
+    {
+      "title": "Eukariotlar orasidagi farq",
+      "body": "Zamburug‘larda plastidalar yo‘q; o‘simliklarda plastidalar mavjud. Ikkalasida ham eukariot hujayra tuzilishi saqlanadi.",
+      "fact_ids": [
+        "paragraph-15-f5"
+      ]
+    },
+    {
+      "title": "Sitokinez usullari",
+      "body": "Hayvon hujayrasida bo‘linishda membrana ichkariga tortilib egatcha hosil qiladi. O‘simlik hujayrasida esa o‘rtada to‘siq shakllanadi.",
+      "fact_ids": [
+        "paragraph-15-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-15-q1",
+      "fact_id": "paragraph-15-f1",
+      "question_text": "Sianobakteriya hujayrasini qaysi tuzilish tipiga kiritamiz?",
+      "options": [
+        "Zamburug‘ eukarioti",
+        "O‘simlik eukarioti",
+        "Prokariot",
+        "Hayvon eukarioti"
+      ],
+      "correct_answer": "Prokariot",
+      "explanation": "Bakteriyalar va sianobakteriyalar prokariot tuzilishga ega. Zamburug‘, o‘simlik va hayvonlar esa eukariotdir."
+    },
+    {
+      "key": "paragraph-15-q2",
+      "fact_id": "paragraph-15-f2",
+      "question_text": "Yadrosi bo‘lmagan bakteriyada ham qaysi tuzilmalar mavjud?",
+      "options": [
+        "Mitoxondriya va endoplazmatik to‘r",
+        "Ribosoma va irsiy material",
+        "Yadrocha va Golji majmuasi",
+        "Xloroplast va yadro qobig‘i"
+      ],
+      "correct_answer": "Ribosoma va irsiy material",
+      "explanation": "Prokariot va eukariot hujayralarda sitoplazma, ribosoma va nuklein kislotalar mavjud. Shakllangan yadroning yo‘qligi DNK yo‘qligi degani emas."
+    },
+    {
+      "key": "paragraph-15-q3",
+      "fact_id": "paragraph-15-f3",
+      "question_text": "Prokariotni eukariotdan ajratish uchun qaysi kuzatuv eng mos?",
+      "options": [
+        "Haqiqiy yadro va membranali organoidlarning yo‘qligi",
+        "Sitoplazma borligi",
+        "Ribosoma borligi",
+        "Irsiy material borligi"
+      ],
+      "correct_answer": "Haqiqiy yadro va membranali organoidlarning yo‘qligi",
+      "explanation": "Prokariotlarda membrana bilan chegaralangan yadro, mitoxondriya va endoplazmatik to‘r bo‘lmaydi. Ribosoma esa ularda ham bor."
+    },
+    {
+      "key": "paragraph-15-q4",
+      "fact_id": "paragraph-15-f4",
+      "question_text": "Bakteriyaning ikkiga bo‘linishini mitoz bilan tenglashtirish to‘g‘rimi?",
+      "options": [
+        "Ha, har qanday ikkiga bo‘linish mitozdir",
+        "Ha, bakteriyada yadro qobig‘i eriydi",
+        "Yo‘q, bakteriyalar umuman ko‘paymaydi",
+        "Yo‘q, bakteriyada mitoz kuzatilmaydi"
+      ],
+      "correct_answer": "Yo‘q, bakteriyada mitoz kuzatilmaydi",
+      "explanation": "Bakteriyalar hujayrasi ikkiga bo‘linib ko‘payadi; ularda eukariotlarga xos mitoz kuzatilmaydi."
+    },
+    {
+      "key": "paragraph-15-q5",
+      "fact_id": "paragraph-15-f5",
+      "question_text": "Zamburug‘ va yashil o‘simlik hujayrasini solishtirganda qaysi farq mos?",
+      "options": [
+        "O‘simlikda haqiqiy yadro bo‘lmaydi",
+        "Zamburug‘da DNK bo‘lmaydi",
+        "Zamburug‘da plastidalar bo‘lmaydi",
+        "Zamburug‘da ribosoma bo‘lmaydi"
+      ],
+      "correct_answer": "Zamburug‘da plastidalar bo‘lmaydi",
+      "explanation": "Zamburug‘larda plastidalar yo‘q; o‘simliklarda plastidalar mavjud. Ikkalasida ham eukariot hujayra tuzilishi saqlanadi."
+    },
+    {
+      "key": "paragraph-15-q6",
+      "fact_id": "paragraph-15-f6",
+      "question_text": "O‘simlik va hayvon sitokinezi to‘g‘ri taqqoslangan javob qaysi?",
+      "options": [
+        "O‘simlikda yadro umuman bo‘linmaydi",
+        "O‘simlikda o‘rta to‘siq; hayvonda bo‘linish egatchasi",
+        "Ikkalasida ham faqat selluloza eriydi",
+        "Hayvonda o‘rta sellulozali devor hosil bo‘ladi"
+      ],
+      "correct_answer": "O‘simlikda o‘rta to‘siq; hayvonda bo‘linish egatchasi",
+      "explanation": "Hayvon hujayrasida bo‘linishda membrana ichkariga tortilib egatcha hosil qiladi. O‘simlik hujayrasida esa o‘rtada to‘siq shakllanadi."
+    }
+  ]
+}

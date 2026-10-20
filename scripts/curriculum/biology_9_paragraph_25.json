@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-25-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-32",
+  "title": "Oqsil tarkibi. Oqsil tuzilishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-25-f1": {
+      "claim": "Oqsillar aminokislotalarning turi, soni va zanjirdagi tartibi bilan farqlanadi. Shu farqlar oqsillarning turli tuzilishi va xossalariga asos bo‘ladi.",
+      "answer": "Ha, aminokislota turi va tartibi farq qilishi mumkin",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f2": {
+      "claim": "Oqsilning birlamchi tuzilishi peptid bog‘lari bilan birikkan aminokislotalar ketma-ketligidir. Bu hali zanjirning fazoda bukilishi emas.",
+      "answer": "Aminokislotalar ketma-ketligi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f3": {
+      "claim": "Polipeptidning spiral shaklda o‘ralishi ikkilamchi tuzilishning bir ko‘rinishidir. Uni zanjir qismlari orasidagi vodorod bog‘lari barqarorlashtiradi.",
+      "answer": "Vodorod bog‘i",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f4": {
+      "claim": "Bitta polipeptid zanjirining o‘ziga xos fazoviy bukilishi uchlamchi tuzilish deyiladi. Uni faqat aminokislotalar ro‘yxati bilan tenglashtirib bo‘lmaydi.",
+      "answer": "Uchlamchi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f5": {
+      "claim": "Bir nechta polipeptid subbirliklarining birlashishi oqsilning to‘rtlamchi tuzilishidir. Gemoglobin bunga misol bo‘ladi.",
+      "answer": "To‘rtlamchi tuzilish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-25-f6": {
+      "claim": "Darslik mioglobinni bitta zanjirning fazoviy tuzilishiga, gemoglobinni esa bir nechta polipeptid birikmasiga misol qiladi.",
+      "answer": "Gemoglobin subbirliklari birikmasi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Xilma-xillik asosi",
+      "body": "Oqsillar aminokislotalarning turi, soni va zanjirdagi tartibi bilan farqlanadi. Shu farqlar oqsillarning turli tuzilishi va xossalariga asos bo‘ladi.",
+      "fact_ids": [
+        "paragraph-25-f1"
+      ]
+    },
+    {
+      "title": "Birlamchi daraja",
+      "body": "Oqsilning birlamchi tuzilishi peptid bog‘lari bilan birikkan aminokislotalar ketma-ketligidir. Bu hali zanjirning fazoda bukilishi emas.",
+      "fact_ids": [
+        "paragraph-25-f2"
+      ]
+    },
+    {
+      "title": "Ikkilamchi daraja",
+      "body": "Polipeptidning spiral shaklda o‘ralishi ikkilamchi tuzilishning bir ko‘rinishidir. Uni zanjir qismlari orasidagi vodorod bog‘lari barqarorlashtiradi.",
+      "fact_ids": [
+        "paragraph-25-f3"
+      ]
+    },
+    {
+      "title": "Uchlamchi daraja",
+      "body": "Bitta polipeptid zanjirining o‘ziga xos fazoviy bukilishi uchlamchi tuzilish deyiladi. Uni faqat aminokislotalar ro‘yxati bilan tenglashtirib bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-25-f4"
+      ]
+    },
+    {
+      "title": "To‘rtlamchi daraja",
+      "body": "Bir nechta polipeptid subbirliklarining birlashishi oqsilning to‘rtlamchi tuzilishidir. Gemoglobin bunga misol bo‘ladi.",
+      "fact_ids": [
+        "paragraph-25-f5"
+      ]
+    },
+    {
+      "title": "Misolni moslang",
+      "body": "Darslik mioglobinni bitta zanjirning fazoviy tuzilishiga, gemoglobinni esa bir nechta polipeptid birikmasiga misol qiladi.",
+      "fact_ids": [
+        "paragraph-25-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-25-q1",
+      "fact_id": "paragraph-25-f1",
+      "question_text": "Ikki oqsilda aminokislotalar soni bir xil. Ular baribir farqlanishi mumkinmi?",
+      "options": [
+        "Faqat suv miqdori farq qilishi mumkin",
+        "Faqat hujayra tashqi rangi farq qiladi",
+        "Ha, aminokislota turi va tartibi farq qilishi mumkin",
+        "Yo‘q, soni teng bo‘lsa mutlaqo bir xil"
+      ],
+      "correct_answer": "Ha, aminokislota turi va tartibi farq qilishi mumkin",
+      "explanation": "Oqsillar aminokislotalarning turi, soni va zanjirdagi tartibi bilan farqlanadi. Shu farqlar oqsillarning turli tuzilishi va xossalariga asos bo‘ladi."
+    },
+    {
+      "key": "paragraph-25-q2",
+      "fact_id": "paragraph-25-f2",
+      "question_text": "Oqsilning birlamchi tuzilishini qaysi ma’lumot tavsiflaydi?",
+      "options": [
+        "Faqat eritmaning rangi",
+        "Aminokislotalar ketma-ketligi",
+        "Faqat zanjirlarning fazoda yig‘ilishi",
+        "Faqat spiralning diametri"
+      ],
+      "correct_answer": "Aminokislotalar ketma-ketligi",
+      "explanation": "Oqsilning birlamchi tuzilishi peptid bog‘lari bilan birikkan aminokislotalar ketma-ketligidir. Bu hali zanjirning fazoda bukilishi emas."
+    },
+    {
+      "key": "paragraph-25-q3",
+      "fact_id": "paragraph-25-f3",
+      "question_text": "Polipeptid spiralining barqarorligida muhim bo‘lgan bog‘ qaysi?",
+      "options": [
+        "Vodorod bog‘i",
+        "Faqat yangi peptid bog‘lari",
+        "Faqat selluloza tolalari",
+        "Faqat yog‘ kislotalari bog‘i"
+      ],
+      "correct_answer": "Vodorod bog‘i",
+      "explanation": "Polipeptidning spiral shaklda o‘ralishi ikkilamchi tuzilishning bir ko‘rinishidir. Uni zanjir qismlari orasidagi vodorod bog‘lari barqarorlashtiradi."
+    },
+    {
+      "key": "paragraph-25-q4",
+      "fact_id": "paragraph-25-f4",
+      "question_text": "Bitta polipeptidning yaxlit fazoviy bukilishi qaysi daraja?",
+      "options": [
+        "Birlamchi",
+        "Faqat monomer",
+        "To‘rtlamchi",
+        "Uchlamchi"
+      ],
+      "correct_answer": "Uchlamchi",
+      "explanation": "Bitta polipeptid zanjirining o‘ziga xos fazoviy bukilishi uchlamchi tuzilish deyiladi. Uni faqat aminokislotalar ro‘yxati bilan tenglashtirib bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-25-q5",
+      "fact_id": "paragraph-25-f5",
+      "question_text": "Bir nechta polipeptid subbirliklari yig‘ilib faol oqsil hosil qildi. Qaysi daraja hosil bo‘ldi?",
+      "options": [
+        "Faqat aminokislota monomeri",
+        "Faqat ikkilamchi spiral",
+        "To‘rtlamchi tuzilish",
+        "Faqat birlamchi tuzilish"
+      ],
+      "correct_answer": "To‘rtlamchi tuzilish",
+      "explanation": "Bir nechta polipeptid subbirliklarining birlashishi oqsilning to‘rtlamchi tuzilishidir. Gemoglobin bunga misol bo‘ladi."
+    },
+    {
+      "key": "paragraph-25-q6",
+      "fact_id": "paragraph-25-f6",
+      "question_text": "To‘rtlamchi tuzilishga mos misolni tanlang.",
+      "options": [
+        "Bitta fosfat ioni",
+        "Gemoglobin subbirliklari birikmasi",
+        "Erkin bitta aminokislota",
+        "Bitta glyukoza molekulasi"
+      ],
+      "correct_answer": "Gemoglobin subbirliklari birikmasi",
+      "explanation": "Darslik mioglobinni bitta zanjirning fazoviy tuzilishiga, gemoglobinni esa bir nechta polipeptid birikmasiga misol qiladi."
+    }
+  ]
+}

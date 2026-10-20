@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-10-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-15",
+  "title": "Hujayrani o‘rganish usullari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-10-f1": {
+      "claim": "Yorug‘lik mikroskopida obyektiv va okulyar linzalari tasvirni kattalashtirishda qatnashadi. Ularning vazifasini preparatni yoritish bilan aralashtirmang.",
+      "answer": "Obyektiv va okulyar",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f2": {
+      "claim": "Mikroskopning ajrata olish qobiliyati yaqin joylashgan ikki nuqtani alohida ko‘rsatishi bilan baholanadi. Katta tasvir har doim ham mayda tuzilmani aniq ko‘rsatmaydi.",
+      "answer": "Ajrata olish qobiliyatining yuqoriligi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f3": {
+      "claim": "Elektron mikroskopda tasvir yorug‘lik nuri o‘rniga elektronlar oqimi yordamida olinadi. Bu hujayraning juda mayda tuzilmalarini tekshirishga imkon beradi.",
+      "answer": "Elektronlar oqimidan",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f4": {
+      "claim": "Sitokimyoviy tekshiruvda maxsus bo‘yoqlar yordamida hujayradagi ayrim moddalarning joylashuvi va miqdori aniqlanadi.",
+      "answer": "Sitokimyoviy usul",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f5": {
+      "claim": "Sentrifugalashda maydalangan to‘qimadan hujayra tarkibiy qismlari ajratiladi. Bu organoidlarni alohida tekshirishga xizmat qiladi.",
+      "answer": "Sentrifugalash",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-10-f6": {
+      "claim": "Sentrifugalash bilan ajratilgan yadro, mitoxondriya yoki ribosomani alohida o‘rganish mumkin. Bitta usul hujayraning barcha xususiyatini birdan ochib bermaydi.",
+      "answer": "Organoid xususiyatlarini boshqa qismlardan ajratib tekshirishga",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tasvirni kattalashtirish",
+      "body": "Yorug‘lik mikroskopida obyektiv va okulyar linzalari tasvirni kattalashtirishda qatnashadi. Ularning vazifasini preparatni yoritish bilan aralashtirmang.",
+      "fact_ids": [
+        "paragraph-10-f1"
+      ]
+    },
+    {
+      "title": "Ajrata olish qobiliyati",
+      "body": "Mikroskopning ajrata olish qobiliyati yaqin joylashgan ikki nuqtani alohida ko‘rsatishi bilan baholanadi. Katta tasvir har doim ham mayda tuzilmani aniq ko‘rsatmaydi.",
+      "fact_ids": [
+        "paragraph-10-f2"
+      ]
+    },
+    {
+      "title": "Elektronlar yordamidagi tasvir",
+      "body": "Elektron mikroskopda tasvir yorug‘lik nuri o‘rniga elektronlar oqimi yordamida olinadi. Bu hujayraning juda mayda tuzilmalarini tekshirishga imkon beradi.",
+      "fact_ids": [
+        "paragraph-10-f3"
+      ]
+    },
+    {
+      "title": "Usulni vazifaga moslang",
+      "body": "Sitokimyoviy tekshiruvda maxsus bo‘yoqlar yordamida hujayradagi ayrim moddalarning joylashuvi va miqdori aniqlanadi.",
+      "fact_ids": [
+        "paragraph-10-f4"
+      ]
+    },
+    {
+      "title": "Organoidlarni ajratish",
+      "body": "Sentrifugalashda maydalangan to‘qimadan hujayra tarkibiy qismlari ajratiladi. Bu organoidlarni alohida tekshirishga xizmat qiladi.",
+      "fact_ids": [
+        "paragraph-10-f5"
+      ]
+    },
+    {
+      "title": "Usullar bir-birini to‘ldiradi",
+      "body": "Sentrifugalash bilan ajratilgan yadro, mitoxondriya yoki ribosomani alohida o‘rganish mumkin. Bitta usul hujayraning barcha xususiyatini birdan ochib bermaydi.",
+      "fact_ids": [
+        "paragraph-10-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-10-q1",
+      "fact_id": "paragraph-10-f1",
+      "question_text": "Mikroskopda tasvirni kattalashtiradigan juftlikni toping.",
+      "options": [
+        "Ko‘zgu va buyum stolchasi",
+        "Shtativ va qisqich",
+        "Obyektiv va okulyar",
+        "Buyum stolchasi va shtativ"
+      ],
+      "correct_answer": "Obyektiv va okulyar",
+      "explanation": "Yorug‘lik mikroskopida obyektiv va okulyar linzalari tasvirni kattalashtirishda qatnashadi. Ularning vazifasini preparatni yoritish bilan aralashtirmang."
+    },
+    {
+      "key": "paragraph-10-q2",
+      "fact_id": "paragraph-10-f2",
+      "question_text": "Ikki mikroskop bir xil kattalashtiradi. Mayda qismlarni yaxshiroq farqlash uchun qaysi xususiyat muhim?",
+      "options": [
+        "Tasvirning faqat kattaroq ko‘rinishi",
+        "Ajrata olish qobiliyatining yuqoriligi",
+        "Faqat korpusning kattaligi",
+        "Faqat okulyarlar sonining ko‘pligi"
+      ],
+      "correct_answer": "Ajrata olish qobiliyatining yuqoriligi",
+      "explanation": "Mikroskopning ajrata olish qobiliyati yaqin joylashgan ikki nuqtani alohida ko‘rsatishi bilan baholanadi. Katta tasvir har doim ham mayda tuzilmani aniq ko‘rsatmaydi."
+    },
+    {
+      "key": "paragraph-10-q3",
+      "fact_id": "paragraph-10-f3",
+      "question_text": "Elektron mikroskop tasvir hosil qilishda nimadan foydalanadi?",
+      "options": [
+        "Elektronlar oqimidan",
+        "Faqat oddiy ko‘zgudan",
+        "Tovush to‘lqinlaridan",
+        "Suv oqimidan"
+      ],
+      "correct_answer": "Elektronlar oqimidan",
+      "explanation": "Elektron mikroskopda tasvir yorug‘lik nuri o‘rniga elektronlar oqimi yordamida olinadi. Bu hujayraning juda mayda tuzilmalarini tekshirishga imkon beradi."
+    },
+    {
+      "key": "paragraph-10-q4",
+      "fact_id": "paragraph-10-f4",
+      "question_text": "Hujayrada ma’lum kimyoviy modda qayerda joylashganini aniqlash uchun mos usul qaysi?",
+      "options": [
+        "Faqat tashqi shaklni o‘lchash",
+        "Organizm yoshini sanash",
+        "Faqat kattalashtirish sonini yozish",
+        "Sitokimyoviy usul"
+      ],
+      "correct_answer": "Sitokimyoviy usul",
+      "explanation": "Sitokimyoviy tekshiruvda maxsus bo‘yoqlar yordamida hujayradagi ayrim moddalarning joylashuvi va miqdori aniqlanadi."
+    },
+    {
+      "key": "paragraph-10-q5",
+      "fact_id": "paragraph-10-f5",
+      "question_text": "Tadqiqotchi to‘qimani bir xil massaga aylantirib, organoidlarni ajratmoqchi. Qaysi usul mos?",
+      "options": [
+        "Faqat preparatni bo‘yash",
+        "Faqat okulyarni almashtirish",
+        "Sentrifugalash",
+        "Faqat ko‘z bilan kuzatish"
+      ],
+      "correct_answer": "Sentrifugalash",
+      "explanation": "Sentrifugalashda maydalangan to‘qimadan hujayra tarkibiy qismlari ajratiladi. Bu organoidlarni alohida tekshirishga xizmat qiladi."
+    },
+    {
+      "key": "paragraph-10-q6",
+      "fact_id": "paragraph-10-f6",
+      "question_text": "Alohida ribosoma fraksiyasini o‘rganish nimaga yordam beradi?",
+      "options": [
+        "Faqat organizmning tashqi rangini topishga",
+        "Organoid xususiyatlarini boshqa qismlardan ajratib tekshirishga",
+        "Hujayra tarixini kuzatuvsiz bilishga",
+        "Barcha biologik usullarni bekor qilishga"
+      ],
+      "correct_answer": "Organoid xususiyatlarini boshqa qismlardan ajratib tekshirishga",
+      "explanation": "Sentrifugalash bilan ajratilgan yadro, mitoxondriya yoki ribosomani alohida o‘rganish mumkin. Bitta usul hujayraning barcha xususiyatini birdan ochib bermaydi."
+    }
+  ]
+}

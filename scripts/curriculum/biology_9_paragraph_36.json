@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-36-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-45",
+  "title": "Hujayrada modda va energiyalar almashinuviga doir masalalar yechish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-36-f1": {
+      "claim": "§36 hisoblari oldingi §32dagi soddalashtirilgan 2 ATF va keyingi 36 ATF modeliga tayangan. Qoida manbasi: §32, PDF 82–83; bu real hujayra chiqishining universal qiymati emas.",
+      "answer": "Darslikning soddalashtirilgan hisob sharti",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-9-topic-41",
+            "paragraph": 32,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "printed_pages": [
+              82,
+              83
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "paragraph-36-f2": {
+      "claim": "§32 (PDF 82–83) modelini qo‘llasak, 3 shartli birlik glyukozaning hammasi glikolizga, faqat 1 birligi keyingi aerob bosqichga o‘tsa: 3 × 2 + 1 × 36 = 42 ATF birligi olinadi.",
+      "answer": "42",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-9-topic-41",
+            "paragraph": 32,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "printed_pages": [
+              82,
+              83
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "paragraph-36-f3": {
+      "claim": "§32 (PDF 82–83)dagi umumiy tenglamaga ko‘ra, bir glyukoza ekvivalenti to‘liq oksidlanganda 6 CO2 ekvivalenti hosil bo‘ladi. Shuning uchun 18 CO2 ekvivalenti 3 to‘liq oksidlangan glyukoza ekvivalentiga mos.",
+      "answer": "3 ta",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-9-topic-41",
+            "paragraph": 32,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "printed_pages": [
+              82,
+              83
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "paragraph-36-f4": {
+      "claim": "Darslikdagi to‘liq oksidlanish modelida bir glyukoza ekvivalentiga 6 O2 ekvivalenti sarflanadi (§31, PDF 80). Shu nisbatda 3 glyukozaga 18 O2 kerak.",
+      "answer": "18",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-9-topic-40",
+            "paragraph": 31,
+            "pdf_pages": [
+              80
+            ],
+            "printed_pages": [
+              80
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "paragraph-36-f5": {
+      "claim": "§32 (PDF 82–83) modelida ATF = 2x + 36y, CO2 = 6y: x — glikolizga kirgan, y — aerob bosqichga o‘tgan glyukoza ekvivalenti. Masalan, 80 ATF va 12 CO2 uchun y = 2, x = 4 bo‘ladi.",
+      "answer": "x = 4; y = 2",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-9-topic-41",
+            "paragraph": 32,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "printed_pages": [
+              82,
+              83
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    },
+    "paragraph-36-f6": {
+      "claim": "Hisoblangan sonlar ikkala shartga qayta qo‘yib tekshiriladi. Masalan, x = 4 va y = 2 bo‘lsa, 2 × 4 + 36 × 2 = 80 va 6 × 2 = 12; aerobga o‘tgan qism umumiy glikoliz qismidan oshmaydi.",
+      "answer": "Ikkala tenglamaga qo‘yib, y ≤ x ekanini ham tekshirish",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-9-topic-41",
+            "paragraph": 32,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "printed_pages": [
+              82,
+              83
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-20"
+          }
+        ]
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hisoblash shartini belgilang",
+      "body": "§36 hisoblari oldingi §32dagi soddalashtirilgan 2 ATF va keyingi 36 ATF modeliga tayangan. Qoida manbasi: §32, PDF 82–83; bu real hujayra chiqishining universal qiymati emas.",
+      "fact_ids": [
+        "paragraph-36-f1"
+      ]
+    },
+    {
+      "title": "Qisman to‘liq oksidlanish",
+      "body": "§32 (PDF 82–83) modelini qo‘llasak, 3 shartli birlik glyukozaning hammasi glikolizga, faqat 1 birligi keyingi aerob bosqichga o‘tsa: 3 × 2 + 1 × 36 = 42 ATF birligi olinadi.",
+      "fact_ids": [
+        "paragraph-36-f2"
+      ]
+    },
+    {
+      "title": "Teskari hisob",
+      "body": "§32 (PDF 82–83)dagi umumiy tenglamaga ko‘ra, bir glyukoza ekvivalenti to‘liq oksidlanganda 6 CO2 ekvivalenti hosil bo‘ladi. Shuning uchun 18 CO2 ekvivalenti 3 to‘liq oksidlangan glyukoza ekvivalentiga mos.",
+      "fact_ids": [
+        "paragraph-36-f3"
+      ]
+    },
+    {
+      "title": "Kislorod nisbatini ishlating",
+      "body": "Darslikdagi to‘liq oksidlanish modelida bir glyukoza ekvivalentiga 6 O2 ekvivalenti sarflanadi (§31, PDF 80). Shu nisbatda 3 glyukozaga 18 O2 kerak.",
+      "fact_ids": [
+        "paragraph-36-f4"
+      ]
+    },
+    {
+      "title": "Ikki noma’lum",
+      "body": "§32 (PDF 82–83) modelida ATF = 2x + 36y, CO2 = 6y: x — glikolizga kirgan, y — aerob bosqichga o‘tgan glyukoza ekvivalenti. Masalan, 80 ATF va 12 CO2 uchun y = 2, x = 4 bo‘ladi.",
+      "fact_ids": [
+        "paragraph-36-f5"
+      ]
+    },
+    {
+      "title": "Javobni qayta tekshiring",
+      "body": "Hisoblangan sonlar ikkala shartga qayta qo‘yib tekshiriladi. Masalan, x = 4 va y = 2 bo‘lsa, 2 × 4 + 36 × 2 = 80 va 6 × 2 = 12; aerobga o‘tgan qism umumiy glikoliz qismidan oshmaydi.",
+      "fact_ids": [
+        "paragraph-36-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-36-q1",
+      "fact_id": "paragraph-36-f1",
+      "question_text": "Ushbu mavzudagi ATF masalalarida 2 va 36 sonlari qanday maqomga ega?",
+      "options": [
+        "ATFning atom raqamlari",
+        "Glyukozaning rang ko‘rsatkichlari",
+        "Darslikning soddalashtirilgan hisob sharti",
+        "Har bir hujayradagi o‘zgarmas o‘lchov"
+      ],
+      "correct_answer": "Darslikning soddalashtirilgan hisob sharti",
+      "explanation": "§36 hisoblari oldingi §32dagi soddalashtirilgan 2 ATF va keyingi 36 ATF modeliga tayangan. Qoida manbasi: §32, PDF 82–83; bu real hujayra chiqishining universal qiymati emas."
+    },
+    {
+      "key": "paragraph-36-q2",
+      "fact_id": "paragraph-36-f2",
+      "question_text": "Modelda 3 birlik glikolizga, shundan 1 birlik aerob bosqichga o‘tdi. Jami ATF nechta birlik?",
+      "options": [
+        "108",
+        "42",
+        "38",
+        "6"
+      ],
+      "correct_answer": "42",
+      "explanation": "§32 (PDF 82–83) modelini qo‘llasak, 3 shartli birlik glyukozaning hammasi glikolizga, faqat 1 birligi keyingi aerob bosqichga o‘tsa: 3 × 2 + 1 × 36 = 42 ATF birligi olinadi."
+    },
+    {
+      "key": "paragraph-36-q3",
+      "fact_id": "paragraph-36-f3",
+      "question_text": "Hisob shartida 1 glyukoza → 6 CO2. 18 CO2 uchun nechta glyukoza to‘liq oksidlangan?",
+      "options": [
+        "3 ta",
+        "2 ta",
+        "6 ta",
+        "18 ta"
+      ],
+      "correct_answer": "3 ta",
+      "explanation": "§32 (PDF 82–83)dagi umumiy tenglamaga ko‘ra, bir glyukoza ekvivalenti to‘liq oksidlanganda 6 CO2 ekvivalenti hosil bo‘ladi. Shuning uchun 18 CO2 ekvivalenti 3 to‘liq oksidlangan glyukoza ekvivalentiga mos."
+    },
+    {
+      "key": "paragraph-36-q4",
+      "fact_id": "paragraph-36-f4",
+      "question_text": "1 glyukoza uchun 6 O2 shartida, 3 glyukoza uchun nechta O2 ekvivalenti kerak?",
+      "options": [
+        "6",
+        "9",
+        "36",
+        "18"
+      ],
+      "correct_answer": "18",
+      "explanation": "Darslikdagi to‘liq oksidlanish modelida bir glyukoza ekvivalentiga 6 O2 ekvivalenti sarflanadi (§31, PDF 80). Shu nisbatda 3 glyukozaga 18 O2 kerak."
+    },
+    {
+      "key": "paragraph-36-q5",
+      "fact_id": "paragraph-36-f5",
+      "question_text": "2x + 36y = 80 va 6y = 12 shartida x va y nechaga teng?",
+      "options": [
+        "x = 40; y = 0",
+        "x = 1; y = 2",
+        "x = 4; y = 2",
+        "x = 2; y = 4"
+      ],
+      "correct_answer": "x = 4; y = 2",
+      "explanation": "§32 (PDF 82–83) modelida ATF = 2x + 36y, CO2 = 6y: x — glikolizga kirgan, y — aerob bosqichga o‘tgan glyukoza ekvivalenti. Masalan, 80 ATF va 12 CO2 uchun y = 2, x = 4 bo‘ladi."
+    },
+    {
+      "key": "paragraph-36-q6",
+      "fact_id": "paragraph-36-f6",
+      "question_text": "80 ATF va 12 CO2 modelidagi x = 4, y = 2 javobini qanday tekshirish to‘g‘ri?",
+      "options": [
+        "Aerobga o‘tgan qismni har doim ko‘proq olish",
+        "Ikkala tenglamaga qo‘yib, y ≤ x ekanini ham tekshirish",
+        "Faqat eng katta sonni tanlash",
+        "CO2 shartini e’tiborsiz qoldirish"
+      ],
+      "correct_answer": "Ikkala tenglamaga qo‘yib, y ≤ x ekanini ham tekshirish",
+      "explanation": "Hisoblangan sonlar ikkala shartga qayta qo‘yib tekshiriladi. Masalan, x = 4 va y = 2 bo‘lsa, 2 × 4 + 36 × 2 = 80 va 6 × 2 = 12; aerobga o‘tgan qism umumiy glikoliz qismidan oshmaydi."
+    }
+  ]
+}

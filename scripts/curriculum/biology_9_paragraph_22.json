@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-22-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-29",
+  "title": "Uglevodlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-22-f1": {
+      "claim": "Glyukoza va fruktoza monosaxaridlardir. Ikki monosaxariddan tashkil topgan shakar esa disaxarid deyiladi.",
+      "answer": "Glyukoza va fruktoza",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f2": {
+      "claim": "Pentozada beshta, geksozada oltita uglerod atomi bor. Riboza va dezoksiriboza pentozalar guruhiga kiradi.",
+      "answer": "Pentoza",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f3": {
+      "claim": "Saxaroza glyukoza va fruktozadan tashkil topgan disaxariddir. Uning ikki tarkibiy birligini aniqlash tasniflashga yordam beradi.",
+      "answer": "Glyukoza va fruktoza",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f4": {
+      "claim": "Laktoza glyukoza va galaktozadan tuzilgan disaxariddir. Uni saxaroza bilan tarkibi bo‘yicha farqlash mumkin.",
+      "answer": "Galaktoza",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f5": {
+      "claim": "O‘simliklarda kraxmal, hayvonlarda esa glikogen muhim zaxira polisaxaridlaridir. Ikkalasi ham glyukoza birliklaridan tuzilgan.",
+      "answer": "O‘simlik — kraxmal; hayvon — glikogen",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f6": {
+      "claim": "Selluloza o‘simlik hujayra devorining muhim tarkibidir. Paxta tolasi ham sellulozaga boy.",
+      "answer": "Selluloza",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f7": {
+      "claim": "Kraxmal, glikogen va selluloza tuzilishi farqlansa ham, ularning tarkibiy monomeri glyukozadir.",
+      "answer": "Glyukoza",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-22-f8": {
+      "claim": "Darslikda 1 g uglevod parchalanganda 17,6 kJ energiya ajralishi berilgan. Shu shart bo‘yicha 5 g uchun 5 × 17,6 = 88 kJ hisoblanadi; bu shaxsiy ovqatlanish tavsiyasi emas.",
+      "answer": "88 kJ",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Shakarlarni guruhlang",
+      "body": "Glyukoza va fruktoza monosaxaridlardir. Ikki monosaxariddan tashkil topgan shakar esa disaxarid deyiladi.",
+      "fact_ids": [
+        "paragraph-22-f1"
+      ]
+    },
+    {
+      "title": "Uglerodlar soni",
+      "body": "Pentozada beshta, geksozada oltita uglerod atomi bor. Riboza va dezoksiriboza pentozalar guruhiga kiradi.",
+      "fact_ids": [
+        "paragraph-22-f2"
+      ]
+    },
+    {
+      "title": "Disaxarid tarkibi",
+      "body": "Saxaroza glyukoza va fruktozadan tashkil topgan disaxariddir. Uning ikki tarkibiy birligini aniqlash tasniflashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-22-f3"
+      ]
+    },
+    {
+      "title": "Sut shakari",
+      "body": "Laktoza glyukoza va galaktozadan tuzilgan disaxariddir. Uni saxaroza bilan tarkibi bo‘yicha farqlash mumkin.",
+      "fact_ids": [
+        "paragraph-22-f4"
+      ]
+    },
+    {
+      "title": "Zaxira polisaxaridlar",
+      "body": "O‘simliklarda kraxmal, hayvonlarda esa glikogen muhim zaxira polisaxaridlaridir. Ikkalasi ham glyukoza birliklaridan tuzilgan.",
+      "fact_ids": [
+        "paragraph-22-f5"
+      ]
+    },
+    {
+      "title": "Qurilish vazifasi",
+      "body": "Selluloza o‘simlik hujayra devorining muhim tarkibidir. Paxta tolasi ham sellulozaga boy.",
+      "fact_ids": [
+        "paragraph-22-f6"
+      ]
+    },
+    {
+      "title": "Birlik va polimer",
+      "body": "Kraxmal, glikogen va selluloza tuzilishi farqlansa ham, ularning tarkibiy monomeri glyukozadir.",
+      "fact_ids": [
+        "paragraph-22-f7"
+      ]
+    },
+    {
+      "title": "Energiya hisoblash",
+      "body": "Darslikda 1 g uglevod parchalanganda 17,6 kJ energiya ajralishi berilgan. Shu shart bo‘yicha 5 g uchun 5 × 17,6 = 88 kJ hisoblanadi; bu shaxsiy ovqatlanish tavsiyasi emas.",
+      "fact_ids": [
+        "paragraph-22-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-22-q1",
+      "fact_id": "paragraph-22-f1",
+      "question_text": "Qaysi juftlik oddiy monosaxaridlardan iborat?",
+      "options": [
+        "Kraxmal va selluloza",
+        "Glikogen va xitin",
+        "Glyukoza va fruktoza",
+        "Saxaroza va laktoza"
+      ],
+      "correct_answer": "Glyukoza va fruktoza",
+      "explanation": "Glyukoza va fruktoza monosaxaridlardir. Ikki monosaxariddan tashkil topgan shakar esa disaxarid deyiladi."
+    },
+    {
+      "key": "paragraph-22-q2",
+      "fact_id": "paragraph-22-f2",
+      "question_text": "Besh uglerodli riboza qaysi guruhga kiradi?",
+      "options": [
+        "Geksoza",
+        "Pentoza",
+        "Trioza",
+        "Tetroza"
+      ],
+      "correct_answer": "Pentoza",
+      "explanation": "Pentozada beshta, geksozada oltita uglerod atomi bor. Riboza va dezoksiriboza pentozalar guruhiga kiradi."
+    },
+    {
+      "key": "paragraph-22-q3",
+      "fact_id": "paragraph-22-f3",
+      "question_text": "Saxarozaning ikki tarkibiy monosaxaridini tanlang.",
+      "options": [
+        "Glyukoza va fruktoza",
+        "Glyukoza va galaktoza",
+        "Ikki riboza",
+        "Ikki dezoksiriboza"
+      ],
+      "correct_answer": "Glyukoza va fruktoza",
+      "explanation": "Saxaroza glyukoza va fruktozadan tashkil topgan disaxariddir. Uning ikki tarkibiy birligini aniqlash tasniflashga yordam beradi."
+    },
+    {
+      "key": "paragraph-22-q4",
+      "fact_id": "paragraph-22-f4",
+      "question_text": "Laktozani saxarozadan farqlovchi ikkinchi monosaxarid qaysi?",
+      "options": [
+        "Fruktoza",
+        "Dezoksiriboza",
+        "Glitserin",
+        "Galaktoza"
+      ],
+      "correct_answer": "Galaktoza",
+      "explanation": "Laktoza glyukoza va galaktozadan tuzilgan disaxariddir. Uni saxaroza bilan tarkibi bo‘yicha farqlash mumkin."
+    },
+    {
+      "key": "paragraph-22-q5",
+      "fact_id": "paragraph-22-f5",
+      "question_text": "Zaxira uglevodlar to‘g‘ri moslangan javob qaysi?",
+      "options": [
+        "O‘simlik — xitin; hayvon — riboza",
+        "O‘simlik — laktoza; hayvon — xlorofill",
+        "O‘simlik — kraxmal; hayvon — glikogen",
+        "O‘simlik — glikogen; hayvon — selluloza"
+      ],
+      "correct_answer": "O‘simlik — kraxmal; hayvon — glikogen",
+      "explanation": "O‘simliklarda kraxmal, hayvonlarda esa glikogen muhim zaxira polisaxaridlaridir. Ikkalasi ham glyukoza birliklaridan tuzilgan."
+    },
+    {
+      "key": "paragraph-22-q6",
+      "fact_id": "paragraph-22-f6",
+      "question_text": "O‘simlik hujayra devoriga tayanch beruvchi polisaxarid qaysi?",
+      "options": [
+        "Laktoza",
+        "Selluloza",
+        "Glikogen",
+        "Saxaroza"
+      ],
+      "correct_answer": "Selluloza",
+      "explanation": "Selluloza o‘simlik hujayra devorining muhim tarkibidir. Paxta tolasi ham sellulozaga boy."
+    },
+    {
+      "key": "paragraph-22-q7",
+      "fact_id": "paragraph-22-f7",
+      "question_text": "Kraxmal va sellulozaning umumiy tarkibiy birligi qaysi?",
+      "options": [
+        "Glyukoza",
+        "Aminokislota",
+        "Nukleotid",
+        "Yog‘ kislotasi"
+      ],
+      "correct_answer": "Glyukoza",
+      "explanation": "Kraxmal, glikogen va selluloza tuzilishi farqlansa ham, ularning tarkibiy monomeri glyukozadir."
+    },
+    {
+      "key": "paragraph-22-q8",
+      "fact_id": "paragraph-22-f8",
+      "question_text": "Darslikdagi 17,6 kJ/g shartida 5 g uglevod qancha energiya beradi?",
+      "options": [
+        "17,6 kJ",
+        "35,2 kJ",
+        "176 kJ",
+        "88 kJ"
+      ],
+      "correct_answer": "88 kJ",
+      "explanation": "Darslikda 1 g uglevod parchalanganda 17,6 kJ energiya ajralishi berilgan. Shu shart bo‘yicha 5 g uchun 5 × 17,6 = 88 kJ hisoblanadi; bu shaxsiy ovqatlanish tavsiyasi emas."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-19-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-26",
+  "title": "Hujayraning kimyoviy tarkibi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-19-f1": {
+      "claim": "Hujayralardagi kimyoviy elementlar jonsiz tabiatda ham uchraydi. Tirik va jonsiz tizimlarda ularning nisbati hamda birikish shakllari farq qiladi.",
+      "answer": "Ular jonsiz tabiatda ham uchraydi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f2": {
+      "claim": "Kislorod, uglerod, vodorod va azot hujayra kimyoviy tarkibining asosiy elementlari qatoriga kiradi. Ular organik moddalar tarkibida keng uchraydi.",
+      "answer": "O, C, H, N",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f3": {
+      "claim": "Natriy, kaliy va xlor ionlari membrana orqali tashish hamda nerv qo‘zg‘alishi kabi jarayonlarda qatnashadi.",
+      "answer": "Na, K va Cl",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f4": {
+      "claim": "Kalsiy va fosfor suyak mustahkamligida muhim; kalsiy qonning ivishida ham qatnashadi.",
+      "answer": "Suyak mustahkamligi va qon ivishida qatnashish",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f5": {
+      "claim": "Temir gemoglobin tarkibida, magniy esa xlorofill tarkibida uchraydi. Bir xil biologik vazifani ikkala elementga teng qo‘yish to‘g‘ri emas.",
+      "answer": "Temir — gemoglobin; magniy — xlorofill",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-19-f6": {
+      "claim": "Mikroelementlar oz miqdorda bo‘lsa ham biologik ahamiyatga ega. Yod tiroksin, kobalt esa B12 vitamini tarkibiga kiradi.",
+      "answer": "Yod — tiroksin; kobalt — B12 vitamini",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          54
+        ],
+        "printed_pages": [
+          54
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kimyoviy birlik",
+      "body": "Hujayralardagi kimyoviy elementlar jonsiz tabiatda ham uchraydi. Tirik va jonsiz tizimlarda ularning nisbati hamda birikish shakllari farq qiladi.",
+      "fact_ids": [
+        "paragraph-19-f1"
+      ]
+    },
+    {
+      "title": "Asosiy to‘rtlik",
+      "body": "Kislorod, uglerod, vodorod va azot hujayra kimyoviy tarkibining asosiy elementlari qatoriga kiradi. Ular organik moddalar tarkibida keng uchraydi.",
+      "fact_ids": [
+        "paragraph-19-f2"
+      ]
+    },
+    {
+      "title": "Ionlar vazifasi",
+      "body": "Natriy, kaliy va xlor ionlari membrana orqali tashish hamda nerv qo‘zg‘alishi kabi jarayonlarda qatnashadi.",
+      "fact_ids": [
+        "paragraph-19-f3"
+      ]
+    },
+    {
+      "title": "Suyak va qon",
+      "body": "Kalsiy va fosfor suyak mustahkamligida muhim; kalsiy qonning ivishida ham qatnashadi.",
+      "fact_ids": [
+        "paragraph-19-f4"
+      ]
+    },
+    {
+      "title": "Pigment va element",
+      "body": "Temir gemoglobin tarkibida, magniy esa xlorofill tarkibida uchraydi. Bir xil biologik vazifani ikkala elementga teng qo‘yish to‘g‘ri emas.",
+      "fact_ids": [
+        "paragraph-19-f5"
+      ]
+    },
+    {
+      "title": "Kam miqdor — muhim vazifa",
+      "body": "Mikroelementlar oz miqdorda bo‘lsa ham biologik ahamiyatga ega. Yod tiroksin, kobalt esa B12 vitamini tarkibiga kiradi.",
+      "fact_ids": [
+        "paragraph-19-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-19-q1",
+      "fact_id": "paragraph-19-f1",
+      "question_text": "Hujayrada uchraydigan elementlar haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "Ular kimyo qonunlariga bo‘ysunmaydi",
+        "Ular hech qanday birikma hosil qilmaydi",
+        "Ular jonsiz tabiatda ham uchraydi",
+        "Ular faqat tirik tanada paydo bo‘ladi"
+      ],
+      "correct_answer": "Ular jonsiz tabiatda ham uchraydi",
+      "explanation": "Hujayralardagi kimyoviy elementlar jonsiz tabiatda ham uchraydi. Tirik va jonsiz tizimlarda ularning nisbati hamda birikish shakllari farq qiladi."
+    },
+    {
+      "key": "paragraph-19-q2",
+      "fact_id": "paragraph-19-f2",
+      "question_text": "Organik moddalarda keng uchraydigan asosiy to‘rt elementni toping.",
+      "options": [
+        "Au, Ag, Hg, Pb",
+        "O, C, H, N",
+        "Na, Cl, Ca, Fe",
+        "Cu, Zn, Co, I"
+      ],
+      "correct_answer": "O, C, H, N",
+      "explanation": "Kislorod, uglerod, vodorod va azot hujayra kimyoviy tarkibining asosiy elementlari qatoriga kiradi. Ular organik moddalar tarkibida keng uchraydi."
+    },
+    {
+      "key": "paragraph-19-q3",
+      "fact_id": "paragraph-19-f3",
+      "question_text": "Membrana va nerv qo‘zg‘alishi bilan bog‘liq elementlar qatori qaysi?",
+      "options": [
+        "Na, K va Cl",
+        "Faqat Au va Ag",
+        "Faqat C va H",
+        "Faqat I va Co"
+      ],
+      "correct_answer": "Na, K va Cl",
+      "explanation": "Natriy, kaliy va xlor ionlari membrana orqali tashish hamda nerv qo‘zg‘alishi kabi jarayonlarda qatnashadi."
+    },
+    {
+      "key": "paragraph-19-q4",
+      "fact_id": "paragraph-19-f4",
+      "question_text": "Kalsiy uchun darslikka mos ikkita vazifani tanlang.",
+      "options": [
+        "Faqat DNK kodini o‘qish va fotosintez",
+        "Faqat yog‘ni parchalash va yorug‘likni tutish",
+        "Faqat kislorod molekulasini hosil qilish",
+        "Suyak mustahkamligi va qon ivishida qatnashish"
+      ],
+      "correct_answer": "Suyak mustahkamligi va qon ivishida qatnashish",
+      "explanation": "Kalsiy va fosfor suyak mustahkamligida muhim; kalsiy qonning ivishida ham qatnashadi."
+    },
+    {
+      "key": "paragraph-19-q5",
+      "fact_id": "paragraph-19-f5",
+      "question_text": "Element va pigment to‘g‘ri moslangan javob qaysi?",
+      "options": [
+        "Yod — gemoglobin; kobalt — xlorofill",
+        "Xlor — gemoglobin; natriy — xlorofill",
+        "Temir — gemoglobin; magniy — xlorofill",
+        "Temir — xlorofill; magniy — gemoglobin"
+      ],
+      "correct_answer": "Temir — gemoglobin; magniy — xlorofill",
+      "explanation": "Temir gemoglobin tarkibida, magniy esa xlorofill tarkibida uchraydi. Bir xil biologik vazifani ikkala elementga teng qo‘yish to‘g‘ri emas."
+    },
+    {
+      "key": "paragraph-19-q6",
+      "fact_id": "paragraph-19-f6",
+      "question_text": "Mikroelementlar va birikmalar mosligini toping.",
+      "options": [
+        "Yod — xitin; kobalt — oddiy yog‘",
+        "Yod — tiroksin; kobalt — B12 vitamini",
+        "Yod — kraxmal; kobalt — selluloza",
+        "Yod — xlorofill; kobalt — glikogen"
+      ],
+      "correct_answer": "Yod — tiroksin; kobalt — B12 vitamini",
+      "explanation": "Mikroelementlar oz miqdorda bo‘lsa ham biologik ahamiyatga ega. Yod tiroksin, kobalt esa B12 vitamini tarkibiga kiradi."
+    }
+  ]
+}

@@ -44,6 +44,44 @@ def test_preserved_foundation_and_seven_source_catalogues_are_byte_identical():
     assert sum(len(l["questions"]) for l in old) == baseline["questions"] == 140
 
 
+def test_all_209_previously_published_theory_lessons_and_activities_are_preserved():
+    baseline = json.loads(
+        CATALOG_PATH.with_name("biology_preserved_release09.json").read_text()
+    )
+    documents = []
+    for name, digest in baseline["files"].items():
+        path = CATALOG_PATH.with_name(name)
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == digest
+        documents.append(json.loads(path.read_text()))
+    assert len(documents) == 241
+    assert sum("activity" not in d for d in documents) == 209
+    assert sum(len(d["theory"]) for d in documents) == 1340
+    assert sum(len(d["questions"]) for d in documents) == 1422
+
+
+@pytest.mark.parametrize("damage", [None, "topic", "paragraph", "ocr", "pages", "mapping"])
+def test_calculation_rules_have_separately_verified_supporting_paragraphs(damage):
+    lesson = deepcopy(next(l for l in load_lesson_set() if l["key"] == "biology-9-paragraph-36-v1"))
+    source = next(iter(lesson["facts"].values()))["source"]["supporting_sources"][0]
+    if damage == "topic":
+        source["topic_id"] = "missing-topic"
+    elif damage == "paragraph":
+        source["paragraph"] = 36
+    elif damage == "ocr":
+        source["verification"] = "ocr_only"
+    elif damage == "pages":
+        source["pdf_pages"] = source["printed_pages"] = [93]
+    elif damage == "mapping":
+        source["printed_pages"] = [81, 82]
+    if damage:
+        with pytest.raises(ValueError, match="supporting_source"):
+            validate_lesson(load_documents()[0], lesson)
+    else:
+        validate_lesson(load_documents()[0], lesson)
+        assert source["paragraph"] == 32
+        assert source["pdf_pages"] == [82, 83]
+
+
 @pytest.mark.parametrize("lesson", load_lesson_set(), ids=lambda l: l["key"])
 def test_every_published_lesson_has_taught_answers_and_matching_source_pages(lesson):
     catalog, _ = load_documents()
@@ -64,8 +102,8 @@ def test_distinct_continuation_questions_and_honest_theory_activity_counts():
     assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
     report = readiness_report(catalog, lessons)
     assert sum(r["topics"] for r in report) == 355
-    assert sum(r["ready_theory_lessons"] for r in report) == 209
-    assert sum(r["ready_activities"] for r in report) == 32
+    assert sum(r["ready_theory_lessons"] for r in report) == 233
+    assert sum(r["ready_activities"] for r in report) == 36
     assert all(r["course_ready"] for r in report[:4])
     assert not any(r["course_ready"] for r in report[4:])
     for row in report[:4]:

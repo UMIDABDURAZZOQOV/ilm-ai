@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-33-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-42",
+  "title": "Hujayraning oziqlanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-33-f1": {
+      "claim": "Avtotroflar organik birikmalarni karbonat angidrid kabi anorganik manbalardan sintezlaydi. Buning uchun albatta energiya manbai kerak.",
+      "answer": "Avtotrof",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f2": {
+      "claim": "Geterotroflar uglerod manbai sifatida tayyor organik moddalardan foydalanadi. Bu ularning organik moddalarga ehtiyojini bildiradi.",
+      "answer": "Geterotrof",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f3": {
+      "claim": "Fotosintezda yorug‘lik energiyasi organik birikmalarning kimyoviy energiyasiga aylantiriladi. Yashil o‘simliklarda xlorofill bu jarayonda qatnashadi.",
+      "answer": "Yorug‘lik energiyasi → kimyoviy energiya",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f4": {
+      "claim": "Darslikdagi umumiy fotosintez tenglamasida karbonat angidrid va suvdan organik modda hosil bo‘ladi. Kislorod ajralishi ham ko‘rsatiladi.",
+      "answer": "Karbonat angidrid va suv",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f5": {
+      "claim": "Fotosintezda ajraladigan molekulyar kislorod suvning yorug‘lik bilan bog‘liq parchalanishidan keladi. Uni karbonat angidridning kislorodi bilan tenglashtirmang.",
+      "answer": "Suv",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f6": {
+      "claim": "Yorug‘lik bosqichida suv parchalanishi va ATF sintezi kabi jarayonlar amalga oshadi. ATF keyingi uglevod sinteziga energiya beradi.",
+      "answer": "Suv fotolizi va ATF sintezi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f7": {
+      "claim": "Qorong‘ilik bosqichi deb ataladigan reaksiyalar uglevod hosil bo‘lishi bilan bog‘liq va faqat tun bilan cheklanmaydi. Ular yorug‘lik bosqichidan keladigan ta’minotga bog‘langan.",
+      "answer": "Faqat tun degani emas; uglevod hosil bo‘lish reaksiyalarini anglatadi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f8": {
+      "claim": "Yorug‘likda hosil bo‘lgan ATF uglevod sintezi reaksiyalariga energiya beradi. Fotosintez bosqichlarini bir-biridan uzib tushuntirib bo‘lmaydi.",
+      "answer": "Uglevod sintezini energiya bilan ta’minlash",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          86
+        ],
+        "printed_pages": [
+          86
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-33-f9": {
+      "claim": "O‘simlik hujayralarida nafas olish kecha-kunduz davom etadi. Fotosintez borligi nafas olishni bekor qilmaydi.",
+      "answer": "Nafas olish ham davom etadi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Avtotrof ta’rif",
+      "body": "Avtotroflar organik birikmalarni karbonat angidrid kabi anorganik manbalardan sintezlaydi. Buning uchun albatta energiya manbai kerak.",
+      "fact_ids": [
+        "paragraph-33-f1"
+      ]
+    },
+    {
+      "title": "Geterotrof ta’rif",
+      "body": "Geterotroflar uglerod manbai sifatida tayyor organik moddalardan foydalanadi. Bu ularning organik moddalarga ehtiyojini bildiradi.",
+      "fact_ids": [
+        "paragraph-33-f2"
+      ]
+    },
+    {
+      "title": "Fotosintezdagi o‘zgarish",
+      "body": "Fotosintezda yorug‘lik energiyasi organik birikmalarning kimyoviy energiyasiga aylantiriladi. Yashil o‘simliklarda xlorofill bu jarayonda qatnashadi.",
+      "fact_ids": [
+        "paragraph-33-f3"
+      ]
+    },
+    {
+      "title": "Boshlang‘ich moddalar",
+      "body": "Darslikdagi umumiy fotosintez tenglamasida karbonat angidrid va suvdan organik modda hosil bo‘ladi. Kislorod ajralishi ham ko‘rsatiladi.",
+      "fact_ids": [
+        "paragraph-33-f4"
+      ]
+    },
+    {
+      "title": "Ajraladigan kislorod manbai",
+      "body": "Fotosintezda ajraladigan molekulyar kislorod suvning yorug‘lik bilan bog‘liq parchalanishidan keladi. Uni karbonat angidridning kislorodi bilan tenglashtirmang.",
+      "fact_ids": [
+        "paragraph-33-f5"
+      ]
+    },
+    {
+      "title": "Yorug‘lik bosqichi",
+      "body": "Yorug‘lik bosqichida suv parchalanishi va ATF sintezi kabi jarayonlar amalga oshadi. ATF keyingi uglevod sinteziga energiya beradi.",
+      "fact_ids": [
+        "paragraph-33-f6"
+      ]
+    },
+    {
+      "title": "Nomga aldanmang",
+      "body": "Qorong‘ilik bosqichi deb ataladigan reaksiyalar uglevod hosil bo‘lishi bilan bog‘liq va faqat tun bilan cheklanmaydi. Ular yorug‘lik bosqichidan keladigan ta’minotga bog‘langan.",
+      "fact_ids": [
+        "paragraph-33-f7"
+      ]
+    },
+    {
+      "title": "Bosqichlar hamkorligi",
+      "body": "Yorug‘likda hosil bo‘lgan ATF uglevod sintezi reaksiyalariga energiya beradi. Fotosintez bosqichlarini bir-biridan uzib tushuntirib bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-33-f8"
+      ]
+    },
+    {
+      "title": "O‘simlik ham nafas oladi",
+      "body": "O‘simlik hujayralarida nafas olish kecha-kunduz davom etadi. Fotosintez borligi nafas olishni bekor qilmaydi.",
+      "fact_ids": [
+        "paragraph-33-f9"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-33-q1",
+      "fact_id": "paragraph-33-f1",
+      "question_text": "Anorganik ugleroddan organik modda hosil qiluvchi oziqlanish tipi qaysi?",
+      "options": [
+        "Faqat parazit",
+        "Faqat saprofit",
+        "Avtotrof",
+        "Geterotrof"
+      ],
+      "correct_answer": "Avtotrof",
+      "explanation": "Avtotroflar organik birikmalarni karbonat angidrid kabi anorganik manbalardan sintezlaydi. Buning uchun albatta energiya manbai kerak."
+    },
+    {
+      "key": "paragraph-33-q2",
+      "fact_id": "paragraph-33-f2",
+      "question_text": "Tayyor organik moddalardan uglerod oladigan hujayra qanday oziqlanadi?",
+      "options": [
+        "Faqat anorganik uglerodli",
+        "Geterotrof",
+        "Fotoavtotrof",
+        "Xemoavtotrof"
+      ],
+      "correct_answer": "Geterotrof",
+      "explanation": "Geterotroflar uglerod manbai sifatida tayyor organik moddalardan foydalanadi. Bu ularning organik moddalarga ehtiyojini bildiradi."
+    },
+    {
+      "key": "paragraph-33-q3",
+      "fact_id": "paragraph-33-f3",
+      "question_text": "Fotosintezdagi asosiy energiya o‘zgarishi qaysi?",
+      "options": [
+        "Yorug‘lik energiyasi → kimyoviy energiya",
+        "Kimyoviy energiya → faqat tovush",
+        "Issiqlik → yangi kimyoviy element",
+        "Yadro energiyasi → suv bosimi"
+      ],
+      "correct_answer": "Yorug‘lik energiyasi → kimyoviy energiya",
+      "explanation": "Fotosintezda yorug‘lik energiyasi organik birikmalarning kimyoviy energiyasiga aylantiriladi. Yashil o‘simliklarda xlorofill bu jarayonda qatnashadi."
+    },
+    {
+      "key": "paragraph-33-q4",
+      "fact_id": "paragraph-33-f4",
+      "question_text": "Fotosintezning umumiy tenglamasidagi boshlang‘ich moddalar qaysilar?",
+      "options": [
+        "Faqat kraxmal va yog‘",
+        "Faqat kislorod va glyukoza",
+        "Faqat azot va gemoglobin",
+        "Karbonat angidrid va suv"
+      ],
+      "correct_answer": "Karbonat angidrid va suv",
+      "explanation": "Darslikdagi umumiy fotosintez tenglamasida karbonat angidrid va suvdan organik modda hosil bo‘ladi. Kislorod ajralishi ham ko‘rsatiladi."
+    },
+    {
+      "key": "paragraph-33-q5",
+      "fact_id": "paragraph-33-f5",
+      "question_text": "Fotosintezda ajraladigan O2ning manbai qaysi?",
+      "options": [
+        "Faqat glyukoza",
+        "Faqat xlorofillning parchalanishi",
+        "Suv",
+        "Faqat karbonat angidrid"
+      ],
+      "correct_answer": "Suv",
+      "explanation": "Fotosintezda ajraladigan molekulyar kislorod suvning yorug‘lik bilan bog‘liq parchalanishidan keladi. Uni karbonat angidridning kislorodi bilan tenglashtirmang."
+    },
+    {
+      "key": "paragraph-33-q6",
+      "fact_id": "paragraph-33-f6",
+      "question_text": "Yorug‘lik bosqichiga mos jarayonni tanlang.",
+      "options": [
+        "Faqat xromosomalar ajralishi",
+        "Suv fotolizi va ATF sintezi",
+        "Faqat oqsilning ribosomada yig‘ilishi",
+        "Faqat DNKning ikki hissa ortishi"
+      ],
+      "correct_answer": "Suv fotolizi va ATF sintezi",
+      "explanation": "Yorug‘lik bosqichida suv parchalanishi va ATF sintezi kabi jarayonlar amalga oshadi. ATF keyingi uglevod sinteziga energiya beradi."
+    },
+    {
+      "key": "paragraph-33-q7",
+      "fact_id": "paragraph-33-f7",
+      "question_text": "Fotosintezning qorong‘ilik bosqichi nomi qanday talqin qilinadi?",
+      "options": [
+        "Faqat tun degani emas; uglevod hosil bo‘lish reaksiyalarini anglatadi",
+        "U faqat yarim tunda boradi",
+        "U yorug‘lik bosqichidan butunlay mustaqil",
+        "U faqat suvni kislorodga ajratadi"
+      ],
+      "correct_answer": "Faqat tun degani emas; uglevod hosil bo‘lish reaksiyalarini anglatadi",
+      "explanation": "Qorong‘ilik bosqichi deb ataladigan reaksiyalar uglevod hosil bo‘lishi bilan bog‘liq va faqat tun bilan cheklanmaydi. Ular yorug‘lik bosqichidan keladigan ta’minotga bog‘langan."
+    },
+    {
+      "key": "paragraph-33-q8",
+      "fact_id": "paragraph-33-f8",
+      "question_text": "Yorug‘lik bosqichidagi ATFning keyingi roli qaysi?",
+      "options": [
+        "Faqat hujayra devorini yemirish",
+        "Faqat irsiy kodni o‘chirish",
+        "Faqat suvni tashqi muhitdan to‘sish",
+        "Uglevod sintezini energiya bilan ta’minlash"
+      ],
+      "correct_answer": "Uglevod sintezini energiya bilan ta’minlash",
+      "explanation": "Yorug‘likda hosil bo‘lgan ATF uglevod sintezi reaksiyalariga energiya beradi. Fotosintez bosqichlarini bir-biridan uzib tushuntirib bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-33-q9",
+      "fact_id": "paragraph-33-f9",
+      "question_text": "Yashil o‘simlikda fotosintez kechayotganda nafas olish haqida qaysi fikr to‘g‘ri?",
+      "options": [
+        "O‘simlik umuman nafas olmaydi",
+        "Faqat ildiz DNKsi nafas oladi",
+        "Nafas olish ham davom etadi",
+        "Nafas olish butunlay to‘xtaydi"
+      ],
+      "correct_answer": "Nafas olish ham davom etadi",
+      "explanation": "O‘simlik hujayralarida nafas olish kecha-kunduz davom etadi. Fotosintez borligi nafas olishni bekor qilmaydi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-30-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-39",
+  "title": "Moddalar almashinuvi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-30-f1": {
+      "claim": "Metabolizm tirik hujayradagi moddalar almashinuvi jarayonlaridir. U yashash, o‘sish, yangilanish va tashqi muhit bilan aloqani ta’minlaydi.",
+      "answer": "Hujayradagi moddalar almashinuvi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f2": {
+      "claim": "Assimilyatsiya anabolizm yoki plastik almashinuv, dissimilyatsiya esa katabolizm yoki energetik almashinuv deyiladi.",
+      "answer": "Assimilyatsiya — anabolizm; dissimilyatsiya — katabolizm",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f3": {
+      "claim": "Aminokislotalardan oqsil yoki monosaxaridlardan murakkab uglevod yig‘ilishi plastik almashinuvga misoldir. Bu jarayonlar energiya talab qiladi.",
+      "answer": "Plastik almashinuvga",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f4": {
+      "claim": "Yetuk hujayralarda ham sarflangan va parchalangan molekulalar o‘rniga yangilari sintezlanadi. Biosintez faqat o‘sayotgan hujayraga xos emas.",
+      "answer": "Molekulalarning yangilanishi davom etishini",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f5": {
+      "claim": "Parchalanishdan olinadigan energiya sintez va boshqa faoliyatlarga sarflanadi. Anabolizm va katabolizm qarama-qarshi yo‘nalishli, lekin o‘zaro bog‘liqdir.",
+      "answer": "Parchalanish energiyasi sintezga xizmat qiladi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-30-f6": {
+      "claim": "Tirik hujayra atrof-muhit bilan modda va energiya almashadi. Shu sabab u ochiq tizim hisoblanadi.",
+      "answer": "Atrof-muhit bilan modda va energiya almashishi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Metabolizm",
+      "body": "Metabolizm tirik hujayradagi moddalar almashinuvi jarayonlaridir. U yashash, o‘sish, yangilanish va tashqi muhit bilan aloqani ta’minlaydi.",
+      "fact_ids": [
+        "paragraph-30-f1"
+      ]
+    },
+    {
+      "title": "Ikki bog‘liq yo‘nalish",
+      "body": "Assimilyatsiya anabolizm yoki plastik almashinuv, dissimilyatsiya esa katabolizm yoki energetik almashinuv deyiladi.",
+      "fact_ids": [
+        "paragraph-30-f2"
+      ]
+    },
+    {
+      "title": "Sintez yo‘nalishi",
+      "body": "Aminokislotalardan oqsil yoki monosaxaridlardan murakkab uglevod yig‘ilishi plastik almashinuvga misoldir. Bu jarayonlar energiya talab qiladi.",
+      "fact_ids": [
+        "paragraph-30-f3"
+      ]
+    },
+    {
+      "title": "Yangilanish davom etadi",
+      "body": "Yetuk hujayralarda ham sarflangan va parchalangan molekulalar o‘rniga yangilari sintezlanadi. Biosintez faqat o‘sayotgan hujayraga xos emas.",
+      "fact_ids": [
+        "paragraph-30-f4"
+      ]
+    },
+    {
+      "title": "Energiya va sintez aloqasi",
+      "body": "Parchalanishdan olinadigan energiya sintez va boshqa faoliyatlarga sarflanadi. Anabolizm va katabolizm qarama-qarshi yo‘nalishli, lekin o‘zaro bog‘liqdir.",
+      "fact_ids": [
+        "paragraph-30-f5"
+      ]
+    },
+    {
+      "title": "Ochiq tizim",
+      "body": "Tirik hujayra atrof-muhit bilan modda va energiya almashadi. Shu sabab u ochiq tizim hisoblanadi.",
+      "fact_ids": [
+        "paragraph-30-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-30-q1",
+      "fact_id": "paragraph-30-f1",
+      "question_text": "Metabolizmning umumiy ma’nosi qaysi?",
+      "options": [
+        "Faqat yadro shaklining o‘zgarishi",
+        "Faqat suvning muzlashi",
+        "Hujayradagi moddalar almashinuvi",
+        "Faqat hujayraning joy almashishi"
+      ],
+      "correct_answer": "Hujayradagi moddalar almashinuvi",
+      "explanation": "Metabolizm tirik hujayradagi moddalar almashinuvi jarayonlaridir. U yashash, o‘sish, yangilanish va tashqi muhit bilan aloqani ta’minlaydi."
+    },
+    {
+      "key": "paragraph-30-q2",
+      "fact_id": "paragraph-30-f2",
+      "question_text": "Atamalar to‘g‘ri juftlangan javobni tanlang.",
+      "options": [
+        "Ikkalasi ham faqat diffuziya",
+        "Assimilyatsiya — anabolizm; dissimilyatsiya — katabolizm",
+        "Assimilyatsiya — katabolizm; dissimilyatsiya — anabolizm",
+        "Ikkalasi ham faqat fotosintez"
+      ],
+      "correct_answer": "Assimilyatsiya — anabolizm; dissimilyatsiya — katabolizm",
+      "explanation": "Assimilyatsiya anabolizm yoki plastik almashinuv, dissimilyatsiya esa katabolizm yoki energetik almashinuv deyiladi."
+    },
+    {
+      "key": "paragraph-30-q3",
+      "fact_id": "paragraph-30-f3",
+      "question_text": "Aminokislotalardan oqsil yig‘ilishi qaysi jarayonga kiradi?",
+      "options": [
+        "Plastik almashinuvga",
+        "Faqat energetik parchalanishga",
+        "Faqat suvning bug‘lanishiga",
+        "Faqat passiv diffuziyaga"
+      ],
+      "correct_answer": "Plastik almashinuvga",
+      "explanation": "Aminokislotalardan oqsil yoki monosaxaridlardan murakkab uglevod yig‘ilishi plastik almashinuvga misoldir. Bu jarayonlar energiya talab qiladi."
+    },
+    {
+      "key": "paragraph-30-q4",
+      "fact_id": "paragraph-30-f4",
+      "question_text": "Yetuk hujayrada yangi oqsil sintezlanishi nimani ko‘rsatadi?",
+      "options": [
+        "Bu hujayra albatta yangi tug‘ilganini",
+        "Moddalar almashinuvi to‘xtaganini",
+        "Barcha organoidlar yo‘qolganini",
+        "Molekulalarning yangilanishi davom etishini"
+      ],
+      "correct_answer": "Molekulalarning yangilanishi davom etishini",
+      "explanation": "Yetuk hujayralarda ham sarflangan va parchalangan molekulalar o‘rniga yangilari sintezlanadi. Biosintez faqat o‘sayotgan hujayraga xos emas."
+    },
+    {
+      "key": "paragraph-30-q5",
+      "fact_id": "paragraph-30-f5",
+      "question_text": "Anabolizm va katabolizmning o‘zaro aloqasi qaysi?",
+      "options": [
+        "Sintezga energiya mutlaqo kerak emas",
+        "Parchalanish faqat hujayra tashqarisida bo‘ladi",
+        "Parchalanish energiyasi sintezga xizmat qiladi",
+        "Ular hech qachon bir hujayrada bo‘lmaydi"
+      ],
+      "correct_answer": "Parchalanish energiyasi sintezga xizmat qiladi",
+      "explanation": "Parchalanishdan olinadigan energiya sintez va boshqa faoliyatlarga sarflanadi. Anabolizm va katabolizm qarama-qarshi yo‘nalishli, lekin o‘zaro bog‘liqdir."
+    },
+    {
+      "key": "paragraph-30-q6",
+      "fact_id": "paragraph-30-f6",
+      "question_text": "Hujayrani ochiq tizim deyishning sababi nima?",
+      "options": [
+        "Yadrosi doim ochiq turishi",
+        "Atrof-muhit bilan modda va energiya almashishi",
+        "Membranasi mutlaqo yo‘qligi",
+        "Har bir modda to‘siqsiz kirishi"
+      ],
+      "correct_answer": "Atrof-muhit bilan modda va energiya almashishi",
+      "explanation": "Tirik hujayra atrof-muhit bilan modda va energiya almashadi. Shu sabab u ochiq tizim hisoblanadi."
+    }
+  ]
+}

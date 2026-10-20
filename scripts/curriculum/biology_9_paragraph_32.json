@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-32-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-41",
+  "title": "Energiya almashinuvi bosqichlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-32-f1": {
+      "claim": "Tayyorgarlik bosqichida yirik oziq molekulalari oddiyroq tarkibiy qismlarga parchalanadi. Masalan, oqsillardan aminokislotalar olinadi.",
+      "answer": "Tayyorgarlik bosqichiga",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f2": {
+      "claim": "Glikoliz fermentativ reaksiyalar ketma-ketligi bo‘lib, bevosita kislorod talab qilmaydi. Uning sof ATF chiqishi bir glyukozaga ikki ATFdir.",
+      "answer": "Bevosita kislorod talab qilmaydi; 2 ATF",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f3": {
+      "claim": "Spirtli achishda etil spirti va karbonat angidrid hosil bo‘ladi. Bu glikoliz bilan bog‘liq kislorodsiz energiya olish misolidir.",
+      "answer": "Etil spirti va karbonat angidrid",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f4": {
+      "claim": "Eukariot hujayrada kislorodli oksidlanishning asosiy jarayonlari mitoxondriya bilan bog‘liq. Kislorodsiz bosqich bilan uni bir xil deb bo‘lmaydi.",
+      "answer": "Mitoxondriya",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f5": {
+      "claim": "Darslikning soddalashtirilgan modelida kislorodsiz bosqich 2 ATF, keyingi kislorodli bosqich 36 ATF deb olinib, jami 38 hisoblanadi. Bu barcha hujayralar uchun o‘zgarmas biologik chiqish emas.",
+      "answer": "38 ATF",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f6": {
+      "claim": "Hisob modelidagi son bilan real hujayradagi sharoitga bog‘liq energiya samaradorligini farqlash kerak. Darslikdagi 38 ATF bu yerda hisoblash sharti sifatida qo‘llanadi.",
+      "answer": "Ushbu darslik hisob modelining sharti sifatida",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-32-f7": {
+      "claim": "Kislorod yetishmasligi yoki mitoxondriya shikastlanishi aerob ATF olishni cheklaydi. Bunday vaziyatda kislorodsiz yo‘lning ahamiyati ortadi.",
+      "answer": "Aerob ATF hosil bo‘lishi cheklanadi",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tayyorgarlik",
+      "body": "Tayyorgarlik bosqichida yirik oziq molekulalari oddiyroq tarkibiy qismlarga parchalanadi. Masalan, oqsillardan aminokislotalar olinadi.",
+      "fact_ids": [
+        "paragraph-32-f1"
+      ]
+    },
+    {
+      "title": "Kislorodsiz bosqich",
+      "body": "Glikoliz fermentativ reaksiyalar ketma-ketligi bo‘lib, bevosita kislorod talab qilmaydi. Uning sof ATF chiqishi bir glyukozaga ikki ATFdir.",
+      "fact_ids": [
+        "paragraph-32-f2"
+      ]
+    },
+    {
+      "title": "Achish misoli",
+      "body": "Spirtli achishda etil spirti va karbonat angidrid hosil bo‘ladi. Bu glikoliz bilan bog‘liq kislorodsiz energiya olish misolidir.",
+      "fact_ids": [
+        "paragraph-32-f3"
+      ]
+    },
+    {
+      "title": "Aerob oksidlanish joyi",
+      "body": "Eukariot hujayrada kislorodli oksidlanishning asosiy jarayonlari mitoxondriya bilan bog‘liq. Kislorodsiz bosqich bilan uni bir xil deb bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-32-f4"
+      ]
+    },
+    {
+      "title": "Darslikdagi hisob modeli",
+      "body": "Darslikning soddalashtirilgan modelida kislorodsiz bosqich 2 ATF, keyingi kislorodli bosqich 36 ATF deb olinib, jami 38 hisoblanadi. Bu barcha hujayralar uchun o‘zgarmas biologik chiqish emas.",
+      "fact_ids": [
+        "paragraph-32-f5"
+      ]
+    },
+    {
+      "title": "Shartni ochiq ayting",
+      "body": "Hisob modelidagi son bilan real hujayradagi sharoitga bog‘liq energiya samaradorligini farqlash kerak. Darslikdagi 38 ATF bu yerda hisoblash sharti sifatida qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-32-f6"
+      ]
+    },
+    {
+      "title": "Kislorod cheklanganda",
+      "body": "Kislorod yetishmasligi yoki mitoxondriya shikastlanishi aerob ATF olishni cheklaydi. Bunday vaziyatda kislorodsiz yo‘lning ahamiyati ortadi.",
+      "fact_ids": [
+        "paragraph-32-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-32-q1",
+      "fact_id": "paragraph-32-f1",
+      "question_text": "Oqsilning aminokislotalargacha parchalanishi qaysi bosqichga misol?",
+      "options": [
+        "Faqat transkripsiyaga",
+        "Faqat xromosoma zichlashishiga",
+        "Tayyorgarlik bosqichiga",
+        "Faqat fotosintez yorug‘lik bosqichiga"
+      ],
+      "correct_answer": "Tayyorgarlik bosqichiga",
+      "explanation": "Tayyorgarlik bosqichida yirik oziq molekulalari oddiyroq tarkibiy qismlarga parchalanadi. Masalan, oqsillardan aminokislotalar olinadi."
+    },
+    {
+      "key": "paragraph-32-q2",
+      "fact_id": "paragraph-32-f2",
+      "question_text": "Glikolizning kislorodga ehtiyoji va sof ATF chiqishi qaysi javobda mos?",
+      "options": [
+        "Faqat yorug‘likda kechadi; 38 ATF",
+        "Bevosita kislorod talab qilmaydi; 2 ATF",
+        "Faqat kislorodda kechadi; 36 ATF",
+        "Kislorod talab qilmaydi; 0 ATF"
+      ],
+      "correct_answer": "Bevosita kislorod talab qilmaydi; 2 ATF",
+      "explanation": "Glikoliz fermentativ reaksiyalar ketma-ketligi bo‘lib, bevosita kislorod talab qilmaydi. Uning sof ATF chiqishi bir glyukozaga ikki ATFdir."
+    },
+    {
+      "key": "paragraph-32-q3",
+      "fact_id": "paragraph-32-f3",
+      "question_text": "Spirtli achish mahsulotlari juftligini toping.",
+      "options": [
+        "Etil spirti va karbonat angidrid",
+        "Faqat glyukoza va kislorod",
+        "Faqat selluloza va xitin",
+        "Faqat aminokislota va DNK"
+      ],
+      "correct_answer": "Etil spirti va karbonat angidrid",
+      "explanation": "Spirtli achishda etil spirti va karbonat angidrid hosil bo‘ladi. Bu glikoliz bilan bog‘liq kislorodsiz energiya olish misolidir."
+    },
+    {
+      "key": "paragraph-32-q4",
+      "fact_id": "paragraph-32-f4",
+      "question_text": "Eukariotdagi aerob energiya olishning asosiy organoidi qaysi?",
+      "options": [
+        "Faqat vakuola",
+        "Faqat yadrocha",
+        "Faqat Golji pufakchasi",
+        "Mitoxondriya"
+      ],
+      "correct_answer": "Mitoxondriya",
+      "explanation": "Eukariot hujayrada kislorodli oksidlanishning asosiy jarayonlari mitoxondriya bilan bog‘liq. Kislorodsiz bosqich bilan uni bir xil deb bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-32-q5",
+      "fact_id": "paragraph-32-f5",
+      "question_text": "Faqat darslikdagi 2 + 36 hisob modeli bo‘yicha jami nechta ATF olinadi?",
+      "options": [
+        "2 ATF",
+        "34 ATF",
+        "38 ATF",
+        "36 ATF"
+      ],
+      "correct_answer": "38 ATF",
+      "explanation": "Darslikning soddalashtirilgan modelida kislorodsiz bosqich 2 ATF, keyingi kislorodli bosqich 36 ATF deb olinib, jami 38 hisoblanadi. Bu barcha hujayralar uchun o‘zgarmas biologik chiqish emas."
+    },
+    {
+      "key": "paragraph-32-q6",
+      "fact_id": "paragraph-32-f6",
+      "question_text": "38 ATF qiymatini qanday ishlatish to‘g‘ri?",
+      "options": [
+        "Faqat hujayradagi yadro soni sifatida",
+        "Ushbu darslik hisob modelining sharti sifatida",
+        "Har bir tirik hujayraning mutlaq o‘zgarmas natijasi sifatida",
+        "Hech qachon energiya bilan bog‘lanmaydigan son sifatida"
+      ],
+      "correct_answer": "Ushbu darslik hisob modelining sharti sifatida",
+      "explanation": "Hisob modelidagi son bilan real hujayradagi sharoitga bog‘liq energiya samaradorligini farqlash kerak. Darslikdagi 38 ATF bu yerda hisoblash sharti sifatida qo‘llanadi."
+    },
+    {
+      "key": "paragraph-32-q7",
+      "fact_id": "paragraph-32-f7",
+      "question_text": "Kislorod yetishmaganda energiya olishda qaysi muammo yuzaga keladi?",
+      "options": [
+        "Aerob ATF hosil bo‘lishi cheklanadi",
+        "Barcha hujayralar fotosintezga o‘tadi",
+        "DNK birdan ribosomaga aylanadi",
+        "Glyukoza sarfi albatta nolga tushadi"
+      ],
+      "correct_answer": "Aerob ATF hosil bo‘lishi cheklanadi",
+      "explanation": "Kislorod yetishmasligi yoki mitoxondriya shikastlanishi aerob ATF olishni cheklaydi. Bunday vaziyatda kislorodsiz yo‘lning ahamiyati ortadi."
+    }
+  ]
+}

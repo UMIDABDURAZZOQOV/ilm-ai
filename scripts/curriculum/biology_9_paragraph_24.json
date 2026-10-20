@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-24-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-31",
+  "title": "Oqsillar. Aminokislotalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-24-f1": {
+      "claim": "Oqsillar aminokislotalardan tashkil topgan yirik molekulalardir. Gidrolizda oqsil zanjiri kichikroq qismlar va aminokislotalarga parchalanadi.",
+      "answer": "Aminokislotalar",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f2": {
+      "claim": "Aminokislotalar peptid bog‘lari orqali birikib polipeptid hosil qiladi. Oqsilning xossalariga zanjirdagi aminokislotalar ketma-ketligi ta’sir qiladi.",
+      "answer": "Peptid bog‘i",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f3": {
+      "claim": "Oqsil tarkibidagi aminokislotalarda aminoguruh va karboksil guruh mavjud. Ularning yon guruhi R bilan belgilanadi.",
+      "answer": "Aminoguruh va karboksil guruh",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f4": {
+      "claim": "Aminokislotalar yon zanjiri, ya’ni R radikali tuzilishi bilan bir-biridan farq qiladi. Umumiy skeletning o‘zi ularni bir xil qilmaydi.",
+      "answer": "R yon guruhi",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f5": {
+      "claim": "Bir aminokislotaning karboksil guruhi boshqasining aminoguruhi bilan birikkanida suv ajralib, peptid bog‘i hosil bo‘ladi.",
+      "answer": "Ikki aminokislota birikib suv ajratadi",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f6": {
+      "claim": "Ikki aminokislota qoldig‘idan dipeptid, uchtasidan tripeptid hosil bo‘ladi. Bitta ochiq zanjirdagi bog‘lar soni qoldiqlar sonidan bitta kam.",
+      "answer": "2 ta",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f7": {
+      "claim": "Almashtirib bo‘lmaydigan aminokislotalar organizm ehtiyojiga yetarli darajada sintezlanmagani uchun oziq bilan olinadi. Ularni keraksiz aminokislotalar deb tushunmang.",
+      "answer": "Ularning oziq bilan yetarli kelishiga",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-24-f8": {
+      "claim": "Ochiq polipeptidda har bir qo‘shni aminokislota jufti orasida bitta peptid bog‘i bo‘ladi. Masalan, 10 qoldiqli bitta ochiq zanjirda 9 bog‘ mavjud.",
+      "answer": "9 ta",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oqsilning birliklari",
+      "body": "Oqsillar aminokislotalardan tashkil topgan yirik molekulalardir. Gidrolizda oqsil zanjiri kichikroq qismlar va aminokislotalarga parchalanadi.",
+      "fact_ids": [
+        "paragraph-24-f1"
+      ]
+    },
+    {
+      "title": "Peptid zanjiri",
+      "body": "Aminokislotalar peptid bog‘lari orqali birikib polipeptid hosil qiladi. Oqsilning xossalariga zanjirdagi aminokislotalar ketma-ketligi ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-24-f2"
+      ]
+    },
+    {
+      "title": "Umumiy qismlar",
+      "body": "Oqsil tarkibidagi aminokislotalarda aminoguruh va karboksil guruh mavjud. Ularning yon guruhi R bilan belgilanadi.",
+      "fact_ids": [
+        "paragraph-24-f3"
+      ]
+    },
+    {
+      "title": "Farqni toping",
+      "body": "Aminokislotalar yon zanjiri, ya’ni R radikali tuzilishi bilan bir-biridan farq qiladi. Umumiy skeletning o‘zi ularni bir xil qilmaydi.",
+      "fact_ids": [
+        "paragraph-24-f4"
+      ]
+    },
+    {
+      "title": "Bog‘ hosil bo‘lishi",
+      "body": "Bir aminokislotaning karboksil guruhi boshqasining aminoguruhi bilan birikkanida suv ajralib, peptid bog‘i hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-24-f5"
+      ]
+    },
+    {
+      "title": "Qisqa peptidlar",
+      "body": "Ikki aminokislota qoldig‘idan dipeptid, uchtasidan tripeptid hosil bo‘ladi. Bitta ochiq zanjirdagi bog‘lar soni qoldiqlar sonidan bitta kam.",
+      "fact_ids": [
+        "paragraph-24-f6"
+      ]
+    },
+    {
+      "title": "Oziq bilan olinadigan birliklar",
+      "body": "Almashtirib bo‘lmaydigan aminokislotalar organizm ehtiyojiga yetarli darajada sintezlanmagani uchun oziq bilan olinadi. Ularni keraksiz aminokislotalar deb tushunmang.",
+      "fact_ids": [
+        "paragraph-24-f7"
+      ]
+    },
+    {
+      "title": "Zanjir uchun hisob",
+      "body": "Ochiq polipeptidda har bir qo‘shni aminokislota jufti orasida bitta peptid bog‘i bo‘ladi. Masalan, 10 qoldiqli bitta ochiq zanjirda 9 bog‘ mavjud.",
+      "fact_ids": [
+        "paragraph-24-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-24-q1",
+      "fact_id": "paragraph-24-f1",
+      "question_text": "Oqsil to‘liq gidrolizlanganda uning qaysi tarkibiy birliklari olinadi?",
+      "options": [
+        "Faqat yog‘ kislotalari",
+        "Faqat nukleotidlar",
+        "Aminokislotalar",
+        "Faqat glyukoza"
+      ],
+      "correct_answer": "Aminokislotalar",
+      "explanation": "Oqsillar aminokislotalardan tashkil topgan yirik molekulalardir. Gidrolizda oqsil zanjiri kichikroq qismlar va aminokislotalarga parchalanadi."
+    },
+    {
+      "key": "paragraph-24-q2",
+      "fact_id": "paragraph-24-f2",
+      "question_text": "Aminokislotalarni polipeptidga bog‘lovchi bog‘ qaysi?",
+      "options": [
+        "Sellulozali bog‘",
+        "Peptid bog‘i",
+        "Vodorod bog‘ining o‘zigina",
+        "Faqat ionlar almashinuvi"
+      ],
+      "correct_answer": "Peptid bog‘i",
+      "explanation": "Aminokislotalar peptid bog‘lari orqali birikib polipeptid hosil qiladi. Oqsilning xossalariga zanjirdagi aminokislotalar ketma-ketligi ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-24-q3",
+      "fact_id": "paragraph-24-f3",
+      "question_text": "Aminokislota sxemasida NH2 va COOH qanday guruhlardir?",
+      "options": [
+        "Aminoguruh va karboksil guruh",
+        "Fosfat va riboza",
+        "Faqat ikki yog‘ kislotasi",
+        "Faqat glyukoza halqalari"
+      ],
+      "correct_answer": "Aminoguruh va karboksil guruh",
+      "explanation": "Oqsil tarkibidagi aminokislotalarda aminoguruh va karboksil guruh mavjud. Ularning yon guruhi R bilan belgilanadi."
+    },
+    {
+      "key": "paragraph-24-q4",
+      "fact_id": "paragraph-24-f4",
+      "question_text": "Turli aminokislotalarni bir-biridan ajratuvchi qism qaysi?",
+      "options": [
+        "Har doim yo‘q bo‘ladigan aminoguruh",
+        "Har doim yo‘q bo‘ladigan karboksil guruh",
+        "Faqat suv molekulasi",
+        "R yon guruhi"
+      ],
+      "correct_answer": "R yon guruhi",
+      "explanation": "Aminokislotalar yon zanjiri, ya’ni R radikali tuzilishi bilan bir-biridan farq qiladi. Umumiy skeletning o‘zi ularni bir xil qilmaydi."
+    },
+    {
+      "key": "paragraph-24-q5",
+      "fact_id": "paragraph-24-f5",
+      "question_text": "Peptid bog‘i hosil bo‘lishini to‘g‘ri ifodalang.",
+      "options": [
+        "Glyukoza bo‘linib xitin hosil qiladi",
+        "Suv aminokislotani elementga aylantiradi",
+        "Ikki aminokislota birikib suv ajratadi",
+        "Ikki nukleotid birikib yog‘ hosil qiladi"
+      ],
+      "correct_answer": "Ikki aminokislota birikib suv ajratadi",
+      "explanation": "Bir aminokislotaning karboksil guruhi boshqasining aminoguruhi bilan birikkanida suv ajralib, peptid bog‘i hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-24-q6",
+      "fact_id": "paragraph-24-f6",
+      "question_text": "Uch aminokislotali ochiq tripeptidda nechta peptid bog‘i bor?",
+      "options": [
+        "4 ta",
+        "2 ta",
+        "1 ta",
+        "3 ta"
+      ],
+      "correct_answer": "2 ta",
+      "explanation": "Ikki aminokislota qoldig‘idan dipeptid, uchtasidan tripeptid hosil bo‘ladi. Bitta ochiq zanjirdagi bog‘lar soni qoldiqlar sonidan bitta kam."
+    },
+    {
+      "key": "paragraph-24-q7",
+      "fact_id": "paragraph-24-f7",
+      "question_text": "Almashtirib bo‘lmaydigan aminokislotalarning ta’minoti nimaga bog‘liq?",
+      "options": [
+        "Ularning oziq bilan yetarli kelishiga",
+        "Faqat suvda erishiga",
+        "Ularning umuman oqsilga kirmasligiga",
+        "Ularni hujayra hech qachon ishlatmasligiga"
+      ],
+      "correct_answer": "Ularning oziq bilan yetarli kelishiga",
+      "explanation": "Almashtirib bo‘lmaydigan aminokislotalar organizm ehtiyojiga yetarli darajada sintezlanmagani uchun oziq bilan olinadi. Ularni keraksiz aminokislotalar deb tushunmang."
+    },
+    {
+      "key": "paragraph-24-q8",
+      "fact_id": "paragraph-24-f8",
+      "question_text": "10 aminokislota qoldig‘idan iborat bitta ochiq zanjirda nechta peptid bog‘i bo‘ladi?",
+      "options": [
+        "10 ta",
+        "11 ta",
+        "20 ta",
+        "9 ta"
+      ],
+      "correct_answer": "9 ta",
+      "explanation": "Ochiq polipeptidda har bir qo‘shni aminokislota jufti orasida bitta peptid bog‘i bo‘ladi. Masalan, 10 qoldiqli bitta ochiq zanjirda 9 bog‘ mavjud."
+    }
+  ]
+}

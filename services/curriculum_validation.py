@@ -141,6 +141,30 @@ def validate_lesson(catalog, lesson):
                 or not topic["printed_start"] <= page <= topic["printed_end"]
             ):
                 raise ValueError("fact_outside_source_topic")
+        # Calculation activities may rely on a rule taught in an earlier
+        # paragraph. Keep the exercise citation and validate the additional
+        # evidence separately instead of mislabelling its source paragraph.
+        for supporting in source.get("supporting_sources", []):
+            supporting_topic = topics.get(supporting.get("topic_id"))
+            if (
+                not supporting_topic
+                or supporting_topic["kind"] not in {"topic", "laboratory", "practical"}
+                or supporting.get("paragraph") != supporting_topic["paragraph"]
+                or supporting.get("verification") != "page_image_reviewed"
+                or not supporting.get("reviewed_on")
+            ):
+                raise ValueError("supporting_source_must_be_page_verified")
+            supporting_pdf = supporting.get("pdf_pages", [])
+            supporting_printed = supporting.get("printed_pages", [])
+            if not supporting_pdf or len(supporting_pdf) != len(supporting_printed):
+                raise ValueError("supporting_source_pages_required")
+            for pdf, page in zip(supporting_pdf, supporting_printed):
+                if (
+                    not supporting_topic["pdf_start"] <= pdf <= supporting_topic["pdf_end"]
+                    or not supporting_topic["printed_start"] <= page <= supporting_topic["printed_end"]
+                    or pdf - page != supporting_topic["pdf_start"] - supporting_topic["printed_start"]
+                ):
+                    raise ValueError("supporting_source_outside_topic")
     for card in lesson["theory"]:
         if (
             not card.get("title")

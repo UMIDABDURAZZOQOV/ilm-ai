@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-laboratory-5-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-laboratory-46",
+  "title": "37- §. 5- laboratoriya mashg‘uloti. O‘simlik bargida organik moddalarning hosil bo‘lishini o‘rganish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-5-f1": {
+      "claim": "Beshinchi laboratoriya ishida bargning yoritilgan va to‘silgan qismlarida kraxmal hosil bo‘lishi solishtiriladi. Ilovada bu kuzatuvning mantig‘i tahlil qilinadi.",
+      "answer": "Barg qismiga yorug‘lik tushishi",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f2": {
+      "claim": "Darslik kuzatuvida yod bilan ko‘k rangga kirgan qismda kraxmal aniqlanadi. Rangning o‘zi butun fotosintez tezligini to‘liq o‘lchamaydi.",
+      "answer": "Kraxmal mavjudligini",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f3": {
+      "claim": "Darslik sharoitida bargning yoritilgan qismi ko‘k rang beradi, yopilgan qismida esa bu rang kuzatilmaydi. Xulosa aynan tekshirilgan sharoitga bog‘lanadi.",
+      "answer": "Yoritilgan qismda kraxmal aniqlangan",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f4": {
+      "claim": "Darslikda barg pigmentini ajratish yod bilan hosil bo‘ladigan rangni ko‘rishga yordam beradi. Ilovadagi tahlil uchun spirt yoki qaynoq suv bilan ishlash talab qilinmaydi.",
+      "answer": "Yod rangini aniqroq ko‘rish",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-5-f5": {
+      "claim": "Bu topshiriq bargning qismlaridagi kraxmalni taqqoslashga o‘rgatadi. Raqamli javoblar fizik namuna tayyorlanganini yoki reagent ishlatilganini tasdiqlamaydi.",
+      "answer": "Kuzatuv va indikator natijasini tahlil qildim",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yorug‘likni solishtirish",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nBeshinchi laboratoriya ishida bargning yoritilgan va to‘silgan qismlarida kraxmal hosil bo‘lishi solishtiriladi. Ilovada bu kuzatuvning mantig‘i tahlil qilinadi.",
+      "fact_ids": [
+        "laboratory-5-f1"
+      ]
+    },
+    {
+      "title": "Indikatorni talqin qiling",
+      "body": "Darslik kuzatuvida yod bilan ko‘k rangga kirgan qismda kraxmal aniqlanadi. Rangning o‘zi butun fotosintez tezligini to‘liq o‘lchamaydi.",
+      "fact_ids": [
+        "laboratory-5-f2"
+      ]
+    },
+    {
+      "title": "Kutiladigan farq",
+      "body": "Darslik sharoitida bargning yoritilgan qismi ko‘k rang beradi, yopilgan qismida esa bu rang kuzatilmaydi. Xulosa aynan tekshirilgan sharoitga bog‘lanadi.",
+      "fact_ids": [
+        "laboratory-5-f3"
+      ]
+    },
+    {
+      "title": "Pigmentni ajratish sababi",
+      "body": "Darslikda barg pigmentini ajratish yod bilan hosil bo‘ladigan rangni ko‘rishga yordam beradi. Ilovadagi tahlil uchun spirt yoki qaynoq suv bilan ishlash talab qilinmaydi.",
+      "fact_ids": [
+        "laboratory-5-f4"
+      ]
+    },
+    {
+      "title": "Dalil chegarasi",
+      "body": "Bu topshiriq bargning qismlaridagi kraxmalni taqqoslashga o‘rgatadi. Raqamli javoblar fizik namuna tayyorlanganini yoki reagent ishlatilganini tasdiqlamaydi.",
+      "fact_ids": [
+        "laboratory-5-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-5-q1",
+      "fact_id": "laboratory-5-f1",
+      "question_text": "Bargdagi bu faoliyatda solishtiriladigan omil qaysi?",
+      "options": [
+        "Faqat urug‘ning rangi",
+        "Faqat ildizning uzunligi",
+        "Barg qismiga yorug‘lik tushishi",
+        "Faqat xromosoma soni"
+      ],
+      "correct_answer": "Barg qismiga yorug‘lik tushishi",
+      "explanation": "Beshinchi laboratoriya ishida bargning yoritilgan va to‘silgan qismlarida kraxmal hosil bo‘lishi solishtiriladi. Ilovada bu kuzatuvning mantig‘i tahlil qilinadi."
+    },
+    {
+      "key": "laboratory-5-q2",
+      "fact_id": "laboratory-5-f2",
+      "question_text": "Yod bilan ko‘k bo‘lgan barg qismi nimani ko‘rsatadi?",
+      "options": [
+        "Fotosintezning aniq sonli tezligini",
+        "Kraxmal mavjudligini",
+        "Faqat erkin kislorod borligini",
+        "Faqat mineral tuz borligini"
+      ],
+      "correct_answer": "Kraxmal mavjudligini",
+      "explanation": "Darslik kuzatuvida yod bilan ko‘k rangga kirgan qismda kraxmal aniqlanadi. Rangning o‘zi butun fotosintez tezligini to‘liq o‘lchamaydi."
+    },
+    {
+      "key": "laboratory-5-q3",
+      "fact_id": "laboratory-5-f3",
+      "question_text": "Shartdagi yoritilgan qism ko‘k, yopilgan qism ko‘k emas. Mos xulosa qaysi?",
+      "options": [
+        "Yoritilgan qismda kraxmal aniqlangan",
+        "Yopilgan qismda ko‘proq kraxmal bor",
+        "Yod faqat kislorodni aniqlagan",
+        "Barcha barg hujayralari nobud bo‘lgan"
+      ],
+      "correct_answer": "Yoritilgan qismda kraxmal aniqlangan",
+      "explanation": "Darslik sharoitida bargning yoritilgan qismi ko‘k rang beradi, yopilgan qismida esa bu rang kuzatilmaydi. Xulosa aynan tekshirilgan sharoitga bog‘lanadi."
+    },
+    {
+      "key": "laboratory-5-q4",
+      "fact_id": "laboratory-5-f4",
+      "question_text": "Kuzatuvda pigmentni ajratishning mantiqiy sababi qaysi?",
+      "options": [
+        "Yangi xromosoma hosil qilish",
+        "Kraxmalni DNKga aylantirish",
+        "Fotosintezni faqat tovush bilan boshlash",
+        "Yod rangini aniqroq ko‘rish"
+      ],
+      "correct_answer": "Yod rangini aniqroq ko‘rish",
+      "explanation": "Darslikda barg pigmentini ajratish yod bilan hosil bo‘ladigan rangni ko‘rishga yordam beradi. Ilovadagi tahlil uchun spirt yoki qaynoq suv bilan ishlash talab qilinmaydi."
+    },
+    {
+      "key": "laboratory-5-q5",
+      "fact_id": "laboratory-5-f5",
+      "question_text": "Raqamli barg faoliyati tugagach qaysi da’vo asosli?",
+      "options": [
+        "Fotosintez tezligini aniq o‘lchadim",
+        "Barcha o‘simliklarda bir xil natijani isbotladim",
+        "Kuzatuv va indikator natijasini tahlil qildim",
+        "Haqiqiy spirtli tajribani bajarganim tasdiqlandi"
+      ],
+      "correct_answer": "Kuzatuv va indikator natijasini tahlil qildim",
+      "explanation": "Bu topshiriq bargning qismlaridagi kraxmalni taqqoslashga o‘rgatadi. Raqamli javoblar fizik namuna tayyorlanganini yoki reagent ishlatilganini tasdiqlamaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "37- §. 5- laboratoriya mashg‘uloti. O‘simlik bargida organik moddalarning hosil bo‘lishini o‘rganish: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Yorug‘likni solishtirish",
+        "fact_ids": [
+          "laboratory-5-f1"
+        ]
+      },
+      {
+        "instruction": "Indikatorni talqin qiling",
+        "fact_ids": [
+          "laboratory-5-f2"
+        ]
+      },
+      {
+        "instruction": "Kutiladigan farq",
+        "fact_ids": [
+          "laboratory-5-f3"
+        ]
+      },
+      {
+        "instruction": "Pigmentni ajratish sababi",
+        "fact_ids": [
+          "laboratory-5-f4"
+        ]
+      },
+      {
+        "instruction": "Dalil chegarasi",
+        "fact_ids": [
+          "laboratory-5-f5"
+        ]
+      }
+    ]
+  }
+}

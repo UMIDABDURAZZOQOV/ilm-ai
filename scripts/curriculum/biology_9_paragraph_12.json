@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-12-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-17",
+  "title": "Sitoplazma. Hujayraning membranasiz va membranali organoidlari: endoplazmatik to‘r, ribosomalar, golji majmuasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-12-f1": {
+      "claim": "Sitoplazma hujayraning yarim suyuq ichki muhiti bo‘lib, unda organoidlar va kiritmalar joylashadi. Ko‘plab moddalar almashinuvi jarayonlari shu yerda kechadi.",
+      "answer": "Sitoplazma",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          38
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f2": {
+      "claim": "Endoplazmatik to‘r bir membrana bilan chegaralangan kanal va bo‘shliqlar tizimidir. U hujayra ichida moddalarni tashishda qatnashadi.",
+      "answer": "Endoplazmatik to‘r",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f3": {
+      "claim": "Donador endoplazmatik to‘rning tashqi yuzasida ribosomalar bor. U oqsil sintezi va tashilishi bilan bog‘liq.",
+      "answer": "Birikkan ribosomalar",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f4": {
+      "claim": "Silliq endoplazmatik to‘rda lipid almashinuvida qatnashuvchi fermentlar mavjud. Uni ribosomali donador to‘rdan farqlash kerak.",
+      "answer": "Silliq endoplazmatik to‘r",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f5": {
+      "claim": "Ribosoma membranasiz organoid bo‘lib, katta va kichik subbirlikdan tuzilgan. Uning asosiy vazifasi oqsil sintezidir.",
+      "answer": "Oqsil sintezi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f6": {
+      "claim": "Golji majmuasi yassi membranali bo‘shliqlar va pufakchalardan tuzilgan. Unda kelgan moddalar o‘zgartirilib, kerakli joyga yuborishga tayyorlanadi.",
+      "answer": "Golji majmuasi",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-12-f7": {
+      "claim": "Endoplazmatik to‘rdan kelgan oqsillar Golji majmuasida qayta ishlanib, keyingi manziliga yo‘naltiriladi. Sintez va qadoqlash bir xil vazifa emas.",
+      "answer": "Donador to‘r → Golji majmuasi → chiqarishga tayyor pufakcha",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ichki muhit",
+      "body": "Sitoplazma hujayraning yarim suyuq ichki muhiti bo‘lib, unda organoidlar va kiritmalar joylashadi. Ko‘plab moddalar almashinuvi jarayonlari shu yerda kechadi.",
+      "fact_ids": [
+        "paragraph-12-f1"
+      ]
+    },
+    {
+      "title": "Ichki membranalar tarmog‘i",
+      "body": "Endoplazmatik to‘r bir membrana bilan chegaralangan kanal va bo‘shliqlar tizimidir. U hujayra ichida moddalarni tashishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-12-f2"
+      ]
+    },
+    {
+      "title": "Donadorlik sababi",
+      "body": "Donador endoplazmatik to‘rning tashqi yuzasida ribosomalar bor. U oqsil sintezi va tashilishi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-12-f3"
+      ]
+    },
+    {
+      "title": "Silliq to‘rni ajrating",
+      "body": "Silliq endoplazmatik to‘rda lipid almashinuvida qatnashuvchi fermentlar mavjud. Uni ribosomali donador to‘rdan farqlash kerak.",
+      "fact_ids": [
+        "paragraph-12-f4"
+      ]
+    },
+    {
+      "title": "Oqsil yig‘iladigan joy",
+      "body": "Ribosoma membranasiz organoid bo‘lib, katta va kichik subbirlikdan tuzilgan. Uning asosiy vazifasi oqsil sintezidir.",
+      "fact_ids": [
+        "paragraph-12-f5"
+      ]
+    },
+    {
+      "title": "Sekretsiya yo‘li",
+      "body": "Golji majmuasi yassi membranali bo‘shliqlar va pufakchalardan tuzilgan. Unda kelgan moddalar o‘zgartirilib, kerakli joyga yuborishga tayyorlanadi.",
+      "fact_ids": [
+        "paragraph-12-f6"
+      ]
+    },
+    {
+      "title": "Organoidlarni hamkorlikda ko‘ring",
+      "body": "Endoplazmatik to‘rdan kelgan oqsillar Golji majmuasida qayta ishlanib, keyingi manziliga yo‘naltiriladi. Sintez va qadoqlash bir xil vazifa emas.",
+      "fact_ids": [
+        "paragraph-12-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-12-q1",
+      "fact_id": "paragraph-12-f1",
+      "question_text": "Organoidlar joylashgan yarim suyuq ichki muhitni toping.",
+      "options": [
+        "Yadro qobig‘i",
+        "Xromosoma sentromerasi",
+        "Sitoplazma",
+        "Hujayra devori"
+      ],
+      "correct_answer": "Sitoplazma",
+      "explanation": "Sitoplazma hujayraning yarim suyuq ichki muhiti bo‘lib, unda organoidlar va kiritmalar joylashadi. Ko‘plab moddalar almashinuvi jarayonlari shu yerda kechadi."
+    },
+    {
+      "key": "paragraph-12-q2",
+      "fact_id": "paragraph-12-f2",
+      "question_text": "Kanal va bo‘shliqlar orqali hujayra ichida moddalar tashuvchi tizim qaysi?",
+      "options": [
+        "Sellulozali devor",
+        "Endoplazmatik to‘r",
+        "Faqat sentriola",
+        "Faqat yadrocha"
+      ],
+      "correct_answer": "Endoplazmatik to‘r",
+      "explanation": "Endoplazmatik to‘r bir membrana bilan chegaralangan kanal va bo‘shliqlar tizimidir. U hujayra ichida moddalarni tashishda qatnashadi."
+    },
+    {
+      "key": "paragraph-12-q3",
+      "fact_id": "paragraph-12-f3",
+      "question_text": "Endoplazmatik to‘rga donador ko‘rinish beradigan tuzilma qaysi?",
+      "options": [
+        "Birikkan ribosomalar",
+        "Ichidagi kraxmal donachalari",
+        "Faqat DNK halqalari",
+        "Membranadagi selluloza tolalari"
+      ],
+      "correct_answer": "Birikkan ribosomalar",
+      "explanation": "Donador endoplazmatik to‘rning tashqi yuzasida ribosomalar bor. U oqsil sintezi va tashilishi bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-12-q4",
+      "fact_id": "paragraph-12-f4",
+      "question_text": "Lipid sintezida faol qatnashadigan endoplazmatik to‘r turi qaysi?",
+      "options": [
+        "Faqat donador endoplazmatik to‘r",
+        "Faqat yadrocha",
+        "Faqat ribosomaning kichik bo‘lagi",
+        "Silliq endoplazmatik to‘r"
+      ],
+      "correct_answer": "Silliq endoplazmatik to‘r",
+      "explanation": "Silliq endoplazmatik to‘rda lipid almashinuvida qatnashuvchi fermentlar mavjud. Uni ribosomali donador to‘rdan farqlash kerak."
+    },
+    {
+      "key": "paragraph-12-q5",
+      "fact_id": "paragraph-12-f5",
+      "question_text": "Katta-kichik subbirlikli membranasiz organoidning vazifasini toping.",
+      "options": [
+        "Lipidlarni pufakchaga qadoqlash",
+        "Hujayra devorini mexanik ushlab turish",
+        "Oqsil sintezi",
+        "Fotosintez"
+      ],
+      "correct_answer": "Oqsil sintezi",
+      "explanation": "Ribosoma membranasiz organoid bo‘lib, katta va kichik subbirlikdan tuzilgan. Uning asosiy vazifasi oqsil sintezidir."
+    },
+    {
+      "key": "paragraph-12-q6",
+      "fact_id": "paragraph-12-f6",
+      "question_text": "Sintezlangan moddalarga ishlov berish va ularni yuborishga tayyorlash qaysi organoidga mos?",
+      "options": [
+        "Faqat sentromera",
+        "Golji majmuasi",
+        "Faqat ribosoma",
+        "Faqat xromosoma"
+      ],
+      "correct_answer": "Golji majmuasi",
+      "explanation": "Golji majmuasi yassi membranali bo‘shliqlar va pufakchalardan tuzilgan. Unda kelgan moddalar o‘zgartirilib, kerakli joyga yuborishga tayyorlanadi."
+    },
+    {
+      "key": "paragraph-12-q7",
+      "fact_id": "paragraph-12-f7",
+      "question_text": "Sekretsiya oqsilining qayta ishlanish yo‘li uchun mos ketma-ketlik qaysi?",
+      "options": [
+        "Donador to‘r → Golji majmuasi → chiqarishga tayyor pufakcha",
+        "Golji majmuasi → sellulozali devor → ribosoma",
+        "Sentriola → xromosoma → xloroplast",
+        "Yadrocha → sentromera → vakuola"
+      ],
+      "correct_answer": "Donador to‘r → Golji majmuasi → chiqarishga tayyor pufakcha",
+      "explanation": "Endoplazmatik to‘rdan kelgan oqsillar Golji majmuasida qayta ishlanib, keyingi manziliga yo‘naltiriladi. Sintez va qadoqlash bir xil vazifa emas."
+    }
+  ]
+}

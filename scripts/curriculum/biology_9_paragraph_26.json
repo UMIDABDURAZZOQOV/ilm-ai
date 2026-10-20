@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-26-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-33",
+  "title": "Oqsillarning xossalari. Oddiy va murakkab oqsillar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-26-f1": {
+      "claim": "Oqsillar eruvchanligi va tashqi ta’sirlarga chidamliligi bilan farqlanadi. Barcha oqsillar suvda bir xil eriydi degan qoida yo‘q.",
+      "answer": "Oqsillarning fizik-kimyoviy xossalari turlicha",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f2": {
+      "claim": "Tolasimon oqsillar tayanch yoki harakat bilan bog‘liq tuzilmalarda, yumaloq oqsillar esa ko‘plab eruvchan va katalitik tizimlarda uchraydi.",
+      "answer": "Tolasimon",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f3": {
+      "claim": "Yuqori harorat va ayrim kimyoviy ta’sirlar oqsilning tabiiy fazoviy tuzilishini buzib, biologik faoliyatini o‘zgartirishi mumkin. Bu denaturatsiyadir.",
+      "answer": "Denaturatsiya",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f4": {
+      "claim": "Ayrim oqsillar sharoit tiklanganda tabiiy tuzilishiga qaytishi mumkin; bu renaturatsiyadir. Pishgan tuxum oqsili esa odatdagi sharoitda avvalgi holatiga qaytmaydi.",
+      "answer": "Ayrimlarida renaturatsiya bo‘ladi, hammasida emas",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f5": {
+      "claim": "Oddiy oqsil faqat aminokislota qoldiqlaridan tuzilgan. Murakkab oqsilda oqsil bo‘lmagan qo‘shimcha tarkibiy qism ham bo‘ladi.",
+      "answer": "Oqsil bo‘lmagan qo‘shimcha qism mavjudligi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f6": {
+      "claim": "Nukleoproteinlar oqsil va nuklein kislotalar birikmasidir. Nomdagi nukleo qismi nuklein kislotaga ishora qiladi.",
+      "answer": "Nuklein kislota",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-26-f7": {
+      "claim": "Gemoglobin rangli murakkab oqsilga misol; uning tarkibida temir mavjud. Rangli qo‘shimcha qismni oqsilning aminokislota zanjiridan farqlash kerak.",
+      "answer": "Gemoglobin",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Xossalar xilma-xilligi",
+      "body": "Oqsillar eruvchanligi va tashqi ta’sirlarga chidamliligi bilan farqlanadi. Barcha oqsillar suvda bir xil eriydi degan qoida yo‘q.",
+      "fact_ids": [
+        "paragraph-26-f1"
+      ]
+    },
+    {
+      "title": "Shakl va vazifa",
+      "body": "Tolasimon oqsillar tayanch yoki harakat bilan bog‘liq tuzilmalarda, yumaloq oqsillar esa ko‘plab eruvchan va katalitik tizimlarda uchraydi.",
+      "fact_ids": [
+        "paragraph-26-f2"
+      ]
+    },
+    {
+      "title": "Denaturatsiya",
+      "body": "Yuqori harorat va ayrim kimyoviy ta’sirlar oqsilning tabiiy fazoviy tuzilishini buzib, biologik faoliyatini o‘zgartirishi mumkin. Bu denaturatsiyadir.",
+      "fact_ids": [
+        "paragraph-26-f3"
+      ]
+    },
+    {
+      "title": "Qaytish har doim emas",
+      "body": "Ayrim oqsillar sharoit tiklanganda tabiiy tuzilishiga qaytishi mumkin; bu renaturatsiyadir. Pishgan tuxum oqsili esa odatdagi sharoitda avvalgi holatiga qaytmaydi.",
+      "fact_ids": [
+        "paragraph-26-f4"
+      ]
+    },
+    {
+      "title": "Oddiy va murakkab",
+      "body": "Oddiy oqsil faqat aminokislota qoldiqlaridan tuzilgan. Murakkab oqsilda oqsil bo‘lmagan qo‘shimcha tarkibiy qism ham bo‘ladi.",
+      "fact_ids": [
+        "paragraph-26-f5"
+      ]
+    },
+    {
+      "title": "Nukleoprotein tarkibi",
+      "body": "Nukleoproteinlar oqsil va nuklein kislotalar birikmasidir. Nomdagi nukleo qismi nuklein kislotaga ishora qiladi.",
+      "fact_ids": [
+        "paragraph-26-f6"
+      ]
+    },
+    {
+      "title": "Rangli murakkab oqsil",
+      "body": "Gemoglobin rangli murakkab oqsilga misol; uning tarkibida temir mavjud. Rangli qo‘shimcha qismni oqsilning aminokislota zanjiridan farqlash kerak.",
+      "fact_ids": [
+        "paragraph-26-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-26-q1",
+      "fact_id": "paragraph-26-f1",
+      "question_text": "Bir oqsil suvda erib, boshqasi erimadi. Bu qanday xulosaga mos?",
+      "options": [
+        "Erigan modda hech qachon oqsil bo‘la olmaydi",
+        "Erimagan oqsil aminokislotadan tuzilmaydi",
+        "Oqsillarning fizik-kimyoviy xossalari turlicha",
+        "Barcha oqsillar mutlaqo bir xil"
+      ],
+      "correct_answer": "Oqsillarning fizik-kimyoviy xossalari turlicha",
+      "explanation": "Oqsillar eruvchanligi va tashqi ta’sirlarga chidamliligi bilan farqlanadi. Barcha oqsillar suvda bir xil eriydi degan qoida yo‘q."
+    },
+    {
+      "key": "paragraph-26-q2",
+      "fact_id": "paragraph-26-f2",
+      "question_text": "Soch va ipakdagi oqsillarga mos umumiy shakl qaysi?",
+      "options": [
+        "Faqat mineral kristalli",
+        "Tolasimon",
+        "Faqat bitta nukleotidli",
+        "Faqat suyuq tomchili"
+      ],
+      "correct_answer": "Tolasimon",
+      "explanation": "Tolasimon oqsillar tayanch yoki harakat bilan bog‘liq tuzilmalarda, yumaloq oqsillar esa ko‘plab eruvchan va katalitik tizimlarda uchraydi."
+    },
+    {
+      "key": "paragraph-26-q3",
+      "fact_id": "paragraph-26-f3",
+      "question_text": "Qizdirilganda oqsilning tabiiy shakli va faoliyati buzildi. Qaysi hodisa yuz berdi?",
+      "options": [
+        "Denaturatsiya",
+        "Replikatsiya",
+        "Transkripsiya",
+        "Polimerning o‘sishi"
+      ],
+      "correct_answer": "Denaturatsiya",
+      "explanation": "Yuqori harorat va ayrim kimyoviy ta’sirlar oqsilning tabiiy fazoviy tuzilishini buzib, biologik faoliyatini o‘zgartirishi mumkin. Bu denaturatsiyadir."
+    },
+    {
+      "key": "paragraph-26-q4",
+      "fact_id": "paragraph-26-f4",
+      "question_text": "Denaturatsiyalangan oqsil haqida qaysi hukm to‘g‘ri?",
+      "options": [
+        "Har qanday oqsil darhol avvalgi holatiga qaytadi",
+        "Hech bir oqsilning tuzilishi o‘zgarmaydi",
+        "Tuxum oqi soviganda doim xom holatga qaytadi",
+        "Ayrimlarida renaturatsiya bo‘ladi, hammasida emas"
+      ],
+      "correct_answer": "Ayrimlarida renaturatsiya bo‘ladi, hammasida emas",
+      "explanation": "Ayrim oqsillar sharoit tiklanganda tabiiy tuzilishiga qaytishi mumkin; bu renaturatsiyadir. Pishgan tuxum oqsili esa odatdagi sharoitda avvalgi holatiga qaytmaydi."
+    },
+    {
+      "key": "paragraph-26-q5",
+      "fact_id": "paragraph-26-f5",
+      "question_text": "Murakkab oqsilni oddiy oqsildan farqlovchi belgi qaysi?",
+      "options": [
+        "Faqat suvda erimay qolishi",
+        "Faqat bitta aminokislotadan iboratligi",
+        "Oqsil bo‘lmagan qo‘shimcha qism mavjudligi",
+        "Aminokislotalar mutlaqo yo‘qligi"
+      ],
+      "correct_answer": "Oqsil bo‘lmagan qo‘shimcha qism mavjudligi",
+      "explanation": "Oddiy oqsil faqat aminokislota qoldiqlaridan tuzilgan. Murakkab oqsilda oqsil bo‘lmagan qo‘shimcha tarkibiy qism ham bo‘ladi."
+    },
+    {
+      "key": "paragraph-26-q6",
+      "fact_id": "paragraph-26-f6",
+      "question_text": "Nukleoproteinda oqsil bilan nima birikkan?",
+      "options": [
+        "Faqat selluloza",
+        "Nuklein kislota",
+        "Faqat kraxmal",
+        "Faqat mum"
+      ],
+      "correct_answer": "Nuklein kislota",
+      "explanation": "Nukleoproteinlar oqsil va nuklein kislotalar birikmasidir. Nomdagi nukleo qismi nuklein kislotaga ishora qiladi."
+    },
+    {
+      "key": "paragraph-26-q7",
+      "fact_id": "paragraph-26-f7",
+      "question_text": "Darslikdagi temirli rangli murakkab oqsil misoli qaysi?",
+      "options": [
+        "Gemoglobin",
+        "Faqat albumin",
+        "Faqat selluloza",
+        "Faqat glikogen"
+      ],
+      "correct_answer": "Gemoglobin",
+      "explanation": "Gemoglobin rangli murakkab oqsilga misol; uning tarkibida temir mavjud. Rangli qo‘shimcha qismni oqsilning aminokislota zanjiridan farqlash kerak."
+    }
+  ]
+}

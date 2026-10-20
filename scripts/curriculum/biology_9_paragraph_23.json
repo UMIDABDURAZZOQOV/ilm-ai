@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-23-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-30",
+  "title": "Lipidlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-23-f1": {
+      "claim": "Lipidlar suvda yaxshi erimaydigan organik moddalar guruhidir. O‘simlik moylari odatda xona haroratida suyuq bo‘ladi.",
+      "answer": "Lipidlarning",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f2": {
+      "claim": "Neytral yog‘lar glitserin va yog‘ kislotalari qoldiqlaridan tuzilgan. Oqsillarning aminokislota zanjiri bilan buni aralashtirmang.",
+      "answer": "Glitserin va yog‘ kislotalari",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f3": {
+      "claim": "Yog‘lar energiya zaxirasi bo‘lib, teri ostida issiqlik yo‘qotilishini kamaytirishda ham qatnashadi.",
+      "answer": "Issiqlikni saqlashga yordam berish",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f4": {
+      "claim": "Fosfolipidlar hujayra membranasi tarkibiga kiruvchi murakkab lipidlardir. Barcha lipidlar faqat zaxira tomchisi bo‘lib turmaydi.",
+      "answer": "Fosfolipidlar",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f5": {
+      "claim": "Mumlar o‘simlik va hayvonlarda sirtning suv bilan namlanishini cheklovchi qoplama vazifasini bajarishi mumkin. Asalari uyasi ham mumdan quriladi.",
+      "answer": "Suv yuqtirmaslikka yordam berish",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f6": {
+      "claim": "Lipidlar oqsillar bilan birikib lipoproteinlar hosil qiladi. Ular tashish va tuzilma vazifalarida qatnashadi.",
+      "answer": "Lipoprotein",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-23-f7": {
+      "claim": "Darslikda 1 g yog‘ to‘liq parchalanganda 38,9 kJ energiya ajralishi berilgan. Shu shartda 2 g uchun 77,8 kJ olinadi.",
+      "answer": "77,8 kJ",
+      "source": {
+        "paragraph": 23,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Lipid xossasi",
+      "body": "Lipidlar suvda yaxshi erimaydigan organik moddalar guruhidir. O‘simlik moylari odatda xona haroratida suyuq bo‘ladi.",
+      "fact_ids": [
+        "paragraph-23-f1"
+      ]
+    },
+    {
+      "title": "Neytral yog‘ tarkibi",
+      "body": "Neytral yog‘lar glitserin va yog‘ kislotalari qoldiqlaridan tuzilgan. Oqsillarning aminokislota zanjiri bilan buni aralashtirmang.",
+      "fact_ids": [
+        "paragraph-23-f2"
+      ]
+    },
+    {
+      "title": "Zaxira va issiqlik",
+      "body": "Yog‘lar energiya zaxirasi bo‘lib, teri ostida issiqlik yo‘qotilishini kamaytirishda ham qatnashadi.",
+      "fact_ids": [
+        "paragraph-23-f3"
+      ]
+    },
+    {
+      "title": "Membrana lipidlari",
+      "body": "Fosfolipidlar hujayra membranasi tarkibiga kiruvchi murakkab lipidlardir. Barcha lipidlar faqat zaxira tomchisi bo‘lib turmaydi.",
+      "fact_ids": [
+        "paragraph-23-f4"
+      ]
+    },
+    {
+      "title": "Mum vazifasi",
+      "body": "Mumlar o‘simlik va hayvonlarda sirtning suv bilan namlanishini cheklovchi qoplama vazifasini bajarishi mumkin. Asalari uyasi ham mumdan quriladi.",
+      "fact_ids": [
+        "paragraph-23-f5"
+      ]
+    },
+    {
+      "title": "Lipid va oqsil birikmasi",
+      "body": "Lipidlar oqsillar bilan birikib lipoproteinlar hosil qiladi. Ular tashish va tuzilma vazifalarida qatnashadi.",
+      "fact_ids": [
+        "paragraph-23-f6"
+      ]
+    },
+    {
+      "title": "Energiya miqdori",
+      "body": "Darslikda 1 g yog‘ to‘liq parchalanganda 38,9 kJ energiya ajralishi berilgan. Shu shartda 2 g uchun 77,8 kJ olinadi.",
+      "fact_ids": [
+        "paragraph-23-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-23-q1",
+      "fact_id": "paragraph-23-f1",
+      "question_text": "Suvda yaxshi erimaslik qaysi modda guruhining muhim belgisi?",
+      "options": [
+        "Barcha monosaxaridlarning",
+        "Faqat osh tuzining",
+        "Lipidlarning",
+        "Barcha mineral ionlarning"
+      ],
+      "correct_answer": "Lipidlarning",
+      "explanation": "Lipidlar suvda yaxshi erimaydigan organik moddalar guruhidir. O‘simlik moylari odatda xona haroratida suyuq bo‘ladi."
+    },
+    {
+      "key": "paragraph-23-q2",
+      "fact_id": "paragraph-23-f2",
+      "question_text": "Neytral yog‘ni tuzishda qaysi tarkibiy qismlar qatnashadi?",
+      "options": [
+        "Faqat glyukoza va fruktoza",
+        "Glitserin va yog‘ kislotalari",
+        "Faqat aminokislotalar",
+        "Faqat nukleotidlar"
+      ],
+      "correct_answer": "Glitserin va yog‘ kislotalari",
+      "explanation": "Neytral yog‘lar glitserin va yog‘ kislotalari qoldiqlaridan tuzilgan. Oqsillarning aminokislota zanjiri bilan buni aralashtirmang."
+    },
+    {
+      "key": "paragraph-23-q3",
+      "fact_id": "paragraph-23-f3",
+      "question_text": "Teri osti yog‘ qatlamining energetik vazifadan tashqari ahamiyati qaysi?",
+      "options": [
+        "Issiqlikni saqlashga yordam berish",
+        "Faqat xromosoma ajratish",
+        "Faqat ribosoma yig‘ish",
+        "Faqat hujayra yadrosini bo‘yash"
+      ],
+      "correct_answer": "Issiqlikni saqlashga yordam berish",
+      "explanation": "Yog‘lar energiya zaxirasi bo‘lib, teri ostida issiqlik yo‘qotilishini kamaytirishda ham qatnashadi."
+    },
+    {
+      "key": "paragraph-23-q4",
+      "fact_id": "paragraph-23-f4",
+      "question_text": "Hujayra membranasini hosil qilishda muhim lipid guruhi qaysi?",
+      "options": [
+        "Faqat kraxmal",
+        "Faqat selluloza",
+        "Faqat gemoglobin",
+        "Fosfolipidlar"
+      ],
+      "correct_answer": "Fosfolipidlar",
+      "explanation": "Fosfolipidlar hujayra membranasi tarkibiga kiruvchi murakkab lipidlardir. Barcha lipidlar faqat zaxira tomchisi bo‘lib turmaydi."
+    },
+    {
+      "key": "paragraph-23-q5",
+      "fact_id": "paragraph-23-f5",
+      "question_text": "Mumsimon qoplamaning darslikda ko‘rsatilgan foydasi qaysi?",
+      "options": [
+        "Faqat aminokislota tashish",
+        "Faqat hujayra bo‘linishini tezlatish",
+        "Suv yuqtirmaslikka yordam berish",
+        "Faqat irsiy axborot saqlash"
+      ],
+      "correct_answer": "Suv yuqtirmaslikka yordam berish",
+      "explanation": "Mumlar o‘simlik va hayvonlarda sirtning suv bilan namlanishini cheklovchi qoplama vazifasini bajarishi mumkin. Asalari uyasi ham mumdan quriladi."
+    },
+    {
+      "key": "paragraph-23-q6",
+      "fact_id": "paragraph-23-f6",
+      "question_text": "Lipid va oqsil birikmasining nomini tanlang.",
+      "options": [
+        "Monosaxarid",
+        "Lipoprotein",
+        "Polisaxarid",
+        "Nukleotid"
+      ],
+      "correct_answer": "Lipoprotein",
+      "explanation": "Lipidlar oqsillar bilan birikib lipoproteinlar hosil qiladi. Ular tashish va tuzilma vazifalarida qatnashadi."
+    },
+    {
+      "key": "paragraph-23-q7",
+      "fact_id": "paragraph-23-f7",
+      "question_text": "38,9 kJ/g shartida 2 g yog‘dan qancha energiya ajraladi?",
+      "options": [
+        "77,8 kJ",
+        "38,9 kJ",
+        "19,45 kJ",
+        "7,78 kJ"
+      ],
+      "correct_answer": "77,8 kJ",
+      "explanation": "Darslikda 1 g yog‘ to‘liq parchalanganda 38,9 kJ energiya ajralishi berilgan. Shu shartda 2 g uchun 77,8 kJ olinadi."
+    }
+  ]
+}

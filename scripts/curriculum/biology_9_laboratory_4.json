@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-laboratory-4-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-laboratory-36",
+  "title": "29 -§. 4- laboratoriya mashg‘uloti. Amilazaning kraxmalga ta’siri",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-4-f1": {
+      "claim": "To‘rtinchi laboratoriya faoliyatida amilazaning kraxmalga ta’siri o‘rganiladi. Amilaza kraxmalning kichikroq shakarlarga parchalanishida qatnashadi.",
+      "answer": "Kraxmal",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f2": {
+      "claim": "Yod bilan ko‘k rang hosil bo‘lishi kraxmal borligini ko‘rsatadi. Bu rangning yo‘qolishi barcha organik moddalar yo‘q degani emas.",
+      "answer": "Namunada kraxmal borligiga",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f3": {
+      "claim": "Darslikda suv va kraxmalli namuna amilaza qo‘shilgan kraxmal bilan solishtiriladi. Nazorat ferment ta’sirini ajratishga yordam beradi.",
+      "answer": "Suv va kraxmal, amilazasiz",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f4": {
+      "claim": "Amilaza ta’siridan keyin yodning ko‘k rang bermasligi kraxmal parchalanganiga mos keladi. Xulosani nazorat natijasi bilan birga baholash kerak.",
+      "answer": "Amilaza kraxmal parchalanishiga ta’sir qilgan",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "laboratory-4-f5": {
+      "claim": "Darslik amilaza manbai sifatida unayotgan don va so‘lakni keltiradi. Ilovada tayyor holatlar tahlil qilinadi; so‘lak yig‘ish yoki reagent bilan ishlash talab qilinmaydi.",
+      "answer": "Nazorat va fermentli holatlarni tahlil qilish",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ferment va substrat",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nTo‘rtinchi laboratoriya faoliyatida amilazaning kraxmalga ta’siri o‘rganiladi. Amilaza kraxmalning kichikroq shakarlarga parchalanishida qatnashadi.",
+      "fact_ids": [
+        "laboratory-4-f1"
+      ]
+    },
+    {
+      "title": "Indikator ma’nosi",
+      "body": "Yod bilan ko‘k rang hosil bo‘lishi kraxmal borligini ko‘rsatadi. Bu rangning yo‘qolishi barcha organik moddalar yo‘q degani emas.",
+      "fact_ids": [
+        "laboratory-4-f2"
+      ]
+    },
+    {
+      "title": "Nazoratni ajrating",
+      "body": "Darslikda suv va kraxmalli namuna amilaza qo‘shilgan kraxmal bilan solishtiriladi. Nazorat ferment ta’sirini ajratishga yordam beradi.",
+      "fact_ids": [
+        "laboratory-4-f3"
+      ]
+    },
+    {
+      "title": "Natijani talqin qilish",
+      "body": "Amilaza ta’siridan keyin yodning ko‘k rang bermasligi kraxmal parchalanganiga mos keladi. Xulosani nazorat natijasi bilan birga baholash kerak.",
+      "fact_ids": [
+        "laboratory-4-f4"
+      ]
+    },
+    {
+      "title": "Manba va xavfsiz tahlil",
+      "body": "Darslik amilaza manbai sifatida unayotgan don va so‘lakni keltiradi. Ilovada tayyor holatlar tahlil qilinadi; so‘lak yig‘ish yoki reagent bilan ishlash talab qilinmaydi.",
+      "fact_ids": [
+        "laboratory-4-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-4-q1",
+      "fact_id": "laboratory-4-f1",
+      "question_text": "Amilaza haqidagi bu laboratoriyada tekshiriladigan substrat qaysi?",
+      "options": [
+        "Neytral yog‘",
+        "Selluloza devori",
+        "Kraxmal",
+        "DNK"
+      ],
+      "correct_answer": "Kraxmal",
+      "explanation": "To‘rtinchi laboratoriya faoliyatida amilazaning kraxmalga ta’siri o‘rganiladi. Amilaza kraxmalning kichikroq shakarlarga parchalanishida qatnashadi."
+    },
+    {
+      "key": "laboratory-4-q2",
+      "fact_id": "laboratory-4-f2",
+      "question_text": "Nazorat namunasi yod bilan ko‘k rang berdi. Nimaga dalil bor?",
+      "options": [
+        "Barcha moddalar suvga aylanganiga",
+        "Namunada kraxmal borligiga",
+        "Namunada albatta DNK yo‘qligiga",
+        "Barcha oqsillar yo‘qolganiga"
+      ],
+      "correct_answer": "Namunada kraxmal borligiga",
+      "explanation": "Yod bilan ko‘k rang hosil bo‘lishi kraxmal borligini ko‘rsatadi. Bu rangning yo‘qolishi barcha organik moddalar yo‘q degani emas."
+    },
+    {
+      "key": "laboratory-4-q3",
+      "fact_id": "laboratory-4-f3",
+      "question_text": "Amilaza ta’sirini tekshirishda qaysi namuna nazorat bo‘la oladi?",
+      "options": [
+        "Suv va kraxmal, amilazasiz",
+        "Faqat ferment va kraxmal",
+        "Faqat bo‘sh quruq probirka",
+        "Faqat yodning o‘zi"
+      ],
+      "correct_answer": "Suv va kraxmal, amilazasiz",
+      "explanation": "Darslikda suv va kraxmalli namuna amilaza qo‘shilgan kraxmal bilan solishtiriladi. Nazorat ferment ta’sirini ajratishga yordam beradi."
+    },
+    {
+      "key": "laboratory-4-q4",
+      "fact_id": "laboratory-4-f4",
+      "question_text": "Nazorat ko‘k, amilazali kraxmal esa ko‘k bo‘lmadi. Mos xulosa qaysi?",
+      "options": [
+        "Amilaza yangi kraxmal hosil qilgan",
+        "Yod barcha moddalarga bir xil ta’sir qilgan",
+        "Nazorat namunasi mutlaqo kerak bo‘lmagan",
+        "Amilaza kraxmal parchalanishiga ta’sir qilgan"
+      ],
+      "correct_answer": "Amilaza kraxmal parchalanishiga ta’sir qilgan",
+      "explanation": "Amilaza ta’siridan keyin yodning ko‘k rang bermasligi kraxmal parchalanganiga mos keladi. Xulosani nazorat natijasi bilan birga baholash kerak."
+    },
+    {
+      "key": "laboratory-4-q5",
+      "fact_id": "laboratory-4-f5",
+      "question_text": "Raqamli amilaza mashg‘ulotida o‘quvchidan nima kutiladi?",
+      "options": [
+        "Yod eritmasini ichib tekshirish",
+        "Natijalarni ko‘rmasdan tajriba o‘tdi deb belgilash",
+        "Nazorat va fermentli holatlarni tahlil qilish",
+        "Mustaqil so‘lak yig‘ib umumiy idishga quyish"
+      ],
+      "correct_answer": "Nazorat va fermentli holatlarni tahlil qilish",
+      "explanation": "Darslik amilaza manbai sifatida unayotgan don va so‘lakni keltiradi. Ilovada tayyor holatlar tahlil qilinadi; so‘lak yig‘ish yoki reagent bilan ishlash talab qilinmaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "29 -§. 4- laboratoriya mashg‘uloti. Amilazaning kraxmalga ta’siri: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Ferment va substrat",
+        "fact_ids": [
+          "laboratory-4-f1"
+        ]
+      },
+      {
+        "instruction": "Indikator ma’nosi",
+        "fact_ids": [
+          "laboratory-4-f2"
+        ]
+      },
+      {
+        "instruction": "Nazoratni ajrating",
+        "fact_ids": [
+          "laboratory-4-f3"
+        ]
+      },
+      {
+        "instruction": "Natijani talqin qilish",
+        "fact_ids": [
+          "laboratory-4-f4"
+        ]
+      },
+      {
+        "instruction": "Manba va xavfsiz tahlil",
+        "fact_ids": [
+          "laboratory-4-f5"
+        ]
+      }
+    ]
+  }
+}

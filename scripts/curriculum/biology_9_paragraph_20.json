@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-20-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-27",
+  "title": "Hujayra tarkibiga kiruvchi suv va anorganik moddalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-20-f1": {
+      "claim": "Suv hujayraning hajmi va tarangligi bilan bog‘liq muhim tarkibiy qismdir. Turli hujayralarda suv miqdori bir xil emas.",
+      "answer": "Hajm va taranglikka",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f2": {
+      "claim": "Suv molekulasida zaryadlar notekis taqsimlangan: molekulaning bir tomoni qisman musbat, boshqa tomoni qisman manfiydir. Shu sabab u qutbli molekuladir.",
+      "answer": "Molekulada zaryadlar notekis taqsimlanganini",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f3": {
+      "claim": "Suv molekulalari o‘zaro vodorod bog‘lari hosil qiladi. Bu molekulalar orasidagi ta’sirni suv ichidagi kovalent bog‘ bilan aralashtirmaslik kerak.",
+      "answer": "Vodorod bog‘i",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f4": {
+      "claim": "Suv qutbli moddalar uchun yaxshi erituvchidir; gidrolizda esa reaksiyaning o‘zida qatnashadi.",
+      "answer": "Reaksiyada qatnashib moddaning parchalanishiga xizmat qiladi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f5": {
+      "claim": "Hujayrada mineral moddalar erigan ionlar yoki qattiq tuzlar ko‘rinishida bo‘lishi mumkin. Na+, K+ va Ca2+ biologik jarayonlarda muhimdir.",
+      "answer": "Ionlar va qattiq tuzlar",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          56
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-20-f6": {
+      "claim": "Bufer tizimi kislota yoki ishqor ta’sirida pHning keskin o‘zgarishini cheklaydi. Fosfatli va bikarbonatli tizimlar bunga misoldir.",
+      "answer": "Buferlik",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          57
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suv va hujayra holati",
+      "body": "Suv hujayraning hajmi va tarangligi bilan bog‘liq muhim tarkibiy qismdir. Turli hujayralarda suv miqdori bir xil emas.",
+      "fact_ids": [
+        "paragraph-20-f1"
+      ]
+    },
+    {
+      "title": "Qutblanish",
+      "body": "Suv molekulasida zaryadlar notekis taqsimlangan: molekulaning bir tomoni qisman musbat, boshqa tomoni qisman manfiydir. Shu sabab u qutbli molekuladir.",
+      "fact_ids": [
+        "paragraph-20-f2"
+      ]
+    },
+    {
+      "title": "Vodorod bog‘lari",
+      "body": "Suv molekulalari o‘zaro vodorod bog‘lari hosil qiladi. Bu molekulalar orasidagi ta’sirni suv ichidagi kovalent bog‘ bilan aralashtirmaslik kerak.",
+      "fact_ids": [
+        "paragraph-20-f3"
+      ]
+    },
+    {
+      "title": "Erituvchi va ishtirokchi",
+      "body": "Suv qutbli moddalar uchun yaxshi erituvchidir; gidrolizda esa reaksiyaning o‘zida qatnashadi.",
+      "fact_ids": [
+        "paragraph-20-f4"
+      ]
+    },
+    {
+      "title": "Mineral moddalar shakli",
+      "body": "Hujayrada mineral moddalar erigan ionlar yoki qattiq tuzlar ko‘rinishida bo‘lishi mumkin. Na+, K+ va Ca2+ biologik jarayonlarda muhimdir.",
+      "fact_ids": [
+        "paragraph-20-f5"
+      ]
+    },
+    {
+      "title": "Bufer tizimlari",
+      "body": "Bufer tizimi kislota yoki ishqor ta’sirida pHning keskin o‘zgarishini cheklaydi. Fosfatli va bikarbonatli tizimlar bunga misoldir.",
+      "fact_ids": [
+        "paragraph-20-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-20-q1",
+      "fact_id": "paragraph-20-f1",
+      "question_text": "Hujayradagi suvning kamayishi qaysi xususiyatga bevosita ta’sir qilishi mumkin?",
+      "options": [
+        "Elementlarning atom raqamiga",
+        "Xromosoma turining nomiga",
+        "Hajm va taranglikka",
+        "Genetik koddagi harflar soniga"
+      ],
+      "correct_answer": "Hajm va taranglikka",
+      "explanation": "Suv hujayraning hajmi va tarangligi bilan bog‘liq muhim tarkibiy qismdir. Turli hujayralarda suv miqdori bir xil emas."
+    },
+    {
+      "key": "paragraph-20-q2",
+      "fact_id": "paragraph-20-f2",
+      "question_text": "Suvning qutbli bo‘lishi nimani anglatadi?",
+      "options": [
+        "Har bir suv molekulasi metall ekanini",
+        "Molekulada zaryadlar notekis taqsimlanganini",
+        "Molekulada faqat to‘liq musbat zaryad borligini",
+        "Unda kislorod yo‘qligini"
+      ],
+      "correct_answer": "Molekulada zaryadlar notekis taqsimlanganini",
+      "explanation": "Suv molekulasida zaryadlar notekis taqsimlangan: molekulaning bir tomoni qisman musbat, boshqa tomoni qisman manfiydir. Shu sabab u qutbli molekuladir."
+    },
+    {
+      "key": "paragraph-20-q3",
+      "fact_id": "paragraph-20-f3",
+      "question_text": "Qo‘shni suv molekulalarini o‘zaro bog‘lovchi ta’sir qaysi?",
+      "options": [
+        "Vodorod bog‘i",
+        "Peptid bog‘i",
+        "Glikozid bog‘i",
+        "Fosfodiester bog‘i"
+      ],
+      "correct_answer": "Vodorod bog‘i",
+      "explanation": "Suv molekulalari o‘zaro vodorod bog‘lari hosil qiladi. Bu molekulalar orasidagi ta’sirni suv ichidagi kovalent bog‘ bilan aralashtirmaslik kerak."
+    },
+    {
+      "key": "paragraph-20-q4",
+      "fact_id": "paragraph-20-f4",
+      "question_text": "Suvning gidrolizdagi roli qaysi javobda to‘g‘ri?",
+      "options": [
+        "Faqat idish tashqarisida turadi",
+        "Faqat har qanday moddani mutlaqo eritadi",
+        "Reaksiyada hech qachon qatnashmaydi",
+        "Reaksiyada qatnashib moddaning parchalanishiga xizmat qiladi"
+      ],
+      "correct_answer": "Reaksiyada qatnashib moddaning parchalanishiga xizmat qiladi",
+      "explanation": "Suv qutbli moddalar uchun yaxshi erituvchidir; gidrolizda esa reaksiyaning o‘zida qatnashadi."
+    },
+    {
+      "key": "paragraph-20-q5",
+      "fact_id": "paragraph-20-f5",
+      "question_text": "Hujayradagi mineral moddalarning uchrash shakllari qaysilar?",
+      "options": [
+        "Faqat DNK nukleotidlari",
+        "Faqat kraxmal donachalari",
+        "Ionlar va qattiq tuzlar",
+        "Faqat oqsil zanjirlari"
+      ],
+      "correct_answer": "Ionlar va qattiq tuzlar",
+      "explanation": "Hujayrada mineral moddalar erigan ionlar yoki qattiq tuzlar ko‘rinishida bo‘lishi mumkin. Na+, K+ va Ca2+ biologik jarayonlarda muhimdir."
+    },
+    {
+      "key": "paragraph-20-q6",
+      "fact_id": "paragraph-20-f6",
+      "question_text": "Eritmaga oz miqdor kislota qo‘shilganda pH deyarli saqlandi. Qaysi xususiyat namoyon bo‘ldi?",
+      "options": [
+        "Faqat xromosoma ajralishi",
+        "Buferlik",
+        "Faqat fagositoz",
+        "Faqat yorug‘lik yutilishi"
+      ],
+      "correct_answer": "Buferlik",
+      "explanation": "Bufer tizimi kislota yoki ishqor ta’sirida pHning keskin o‘zgarishini cheklaydi. Fosfatli va bikarbonatli tizimlar bunga misoldir."
+    }
+  ]
+}

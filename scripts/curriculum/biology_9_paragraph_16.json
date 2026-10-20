@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-9-paragraph-16-v1",
+  "language": "uz",
+  "book_id": "biology-9-2019",
+  "topic_id": "bio-9-topic-21",
+  "title": "Hujayralar evolutsiyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-16-f1": {
+      "claim": "Darslik dastlabki hujayralarning kelib chiqishini tushuntirishda gipotezalardan foydalanadi. Gipotezani bevosita kuzatilgan tarixiy hodisa bilan tenglashtirmaslik kerak.",
+      "answer": "Dalillar bilan tekshiriladigan gipoteza sifatida",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f2": {
+      "claim": "Simbioz turli organizmlarning birga yashashi bilan bog‘liq. Darslik ayrim infuzoriyalar ichida fotosintez qiluvchi xlorellani misol keltiradi.",
+      "answer": "Simbiozni",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f3": {
+      "claim": "Mitoxondriya va xloroplastlarda o‘z DNKsi va RNKsi mavjudligi ularning prokariot ajdodlar bilan bog‘liqligini tushuntirishda dalil sifatida keltiriladi.",
+      "answer": "Mitoxondriya va xloroplastda o‘z nuklein kislotalari borligi",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f4": {
+      "claim": "Darslikdagi simbioz modelida mitoxondriya aerob prokariot ajdod bilan bog‘lanadi. Bu model energiya organoidining kelib chiqishini izohlaydi.",
+      "answer": "Mitoxondriya",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f5": {
+      "claim": "Invaginatsiya gipotezasi ayrim ichki membranalarni tashqi membrananing ichkariga botishi bilan izohlaydi. Bu darslikda muhokama qilingan modeldir.",
+      "answer": "Invaginatsiya gipotezasi",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    },
+    "paragraph-16-f6": {
+      "claim": "Darslikdagi ko‘p genomli gipoteza genom qismlarining turli funksiyalarga moslashishini taxmin qiladi. Bu tarixiy modelni tasdiqlangan yagona izoh deb qabul qilmaslik kerak.",
+      "answer": "Ko‘p genomli gipoteza",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-20"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Dalil va taxmin",
+      "body": "Darslik dastlabki hujayralarning kelib chiqishini tushuntirishda gipotezalardan foydalanadi. Gipotezani bevosita kuzatilgan tarixiy hodisa bilan tenglashtirmaslik kerak.",
+      "fact_ids": [
+        "paragraph-16-f1"
+      ]
+    },
+    {
+      "title": "Simbioz tushunchasi",
+      "body": "Simbioz turli organizmlarning birga yashashi bilan bog‘liq. Darslik ayrim infuzoriyalar ichida fotosintez qiluvchi xlorellani misol keltiradi.",
+      "fact_ids": [
+        "paragraph-16-f2"
+      ]
+    },
+    {
+      "title": "Endosimbiozga dalil",
+      "body": "Mitoxondriya va xloroplastlarda o‘z DNKsi va RNKsi mavjudligi ularning prokariot ajdodlar bilan bog‘liqligini tushuntirishda dalil sifatida keltiriladi.",
+      "fact_ids": [
+        "paragraph-16-f3"
+      ]
+    },
+    {
+      "title": "Organoid va ajdod",
+      "body": "Darslikdagi simbioz modelida mitoxondriya aerob prokariot ajdod bilan bog‘lanadi. Bu model energiya organoidining kelib chiqishini izohlaydi.",
+      "fact_ids": [
+        "paragraph-16-f4"
+      ]
+    },
+    {
+      "title": "Membrananing botishi modeli",
+      "body": "Invaginatsiya gipotezasi ayrim ichki membranalarni tashqi membrananing ichkariga botishi bilan izohlaydi. Bu darslikda muhokama qilingan modeldir.",
+      "fact_ids": [
+        "paragraph-16-f5"
+      ]
+    },
+    {
+      "title": "Tarixiy modellarni taqqoslash",
+      "body": "Darslikdagi ko‘p genomli gipoteza genom qismlarining turli funksiyalarga moslashishini taxmin qiladi. Bu tarixiy modelni tasdiqlangan yagona izoh deb qabul qilmaslik kerak.",
+      "fact_ids": [
+        "paragraph-16-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-16-q1",
+      "fact_id": "paragraph-16-f1",
+      "question_text": "Qadimgi hujayra kelib chiqishi haqidagi modelni qanday taqdim etish to‘g‘ri?",
+      "options": [
+        "Hech qanday dalil talab qilmaydigan hukm sifatida",
+        "Barcha boshqa izlanishlarni bekor qiladigan javob sifatida",
+        "Dalillar bilan tekshiriladigan gipoteza sifatida",
+        "Hozir bevosita ko‘rilgan hodisa sifatida"
+      ],
+      "correct_answer": "Dalillar bilan tekshiriladigan gipoteza sifatida",
+      "explanation": "Darslik dastlabki hujayralarning kelib chiqishini tushuntirishda gipotezalardan foydalanadi. Gipotezani bevosita kuzatilgan tarixiy hodisa bilan tenglashtirmaslik kerak."
+    },
+    {
+      "key": "paragraph-16-q2",
+      "fact_id": "paragraph-16-f2",
+      "question_text": "Infuzoriya ichida yashovchi xlorella misoli qaysi tushunchani yoritadi?",
+      "options": [
+        "Faqat plazmolizni",
+        "Simbiozni",
+        "Faqat hujayra bo‘linishini",
+        "Faqat mutatsiyani"
+      ],
+      "correct_answer": "Simbiozni",
+      "explanation": "Simbioz turli organizmlarning birga yashashi bilan bog‘liq. Darslik ayrim infuzoriyalar ichida fotosintez qiluvchi xlorellani misol keltiradi."
+    },
+    {
+      "key": "paragraph-16-q3",
+      "fact_id": "paragraph-16-f3",
+      "question_text": "Organoidlarning prokariot kelib chiqishini qo‘llab-quvvatlovchi belgi qaysi?",
+      "options": [
+        "Mitoxondriya va xloroplastda o‘z nuklein kislotalari borligi",
+        "Ularning hujayra devoridan iboratligi",
+        "Ularning umuman bo‘linmasligi",
+        "Ularning faqat tashqi muhitda yashashi"
+      ],
+      "correct_answer": "Mitoxondriya va xloroplastda o‘z nuklein kislotalari borligi",
+      "explanation": "Mitoxondriya va xloroplastlarda o‘z DNKsi va RNKsi mavjudligi ularning prokariot ajdodlar bilan bog‘liqligini tushuntirishda dalil sifatida keltiriladi."
+    },
+    {
+      "key": "paragraph-16-q4",
+      "fact_id": "paragraph-16-f4",
+      "question_text": "Simbioz modelida aerob prokariot ajdod qaysi organoid bilan bog‘lanadi?",
+      "options": [
+        "Golji majmuasi",
+        "Yadrocha",
+        "Hujayra devori",
+        "Mitoxondriya"
+      ],
+      "correct_answer": "Mitoxondriya",
+      "explanation": "Darslikdagi simbioz modelida mitoxondriya aerob prokariot ajdod bilan bog‘lanadi. Bu model energiya organoidining kelib chiqishini izohlaydi."
+    },
+    {
+      "key": "paragraph-16-q5",
+      "fact_id": "paragraph-16-f5",
+      "question_text": "Ichki membranalar tashqi membrananing botishidan hosil bo‘lishini qaysi gipoteza taklif qiladi?",
+      "options": [
+        "Xromosomalar doimiyligi qoidasi",
+        "Mendelning ajralish qonuni",
+        "Invaginatsiya gipotezasi",
+        "Faqat simbioz gipotezasi"
+      ],
+      "correct_answer": "Invaginatsiya gipotezasi",
+      "explanation": "Invaginatsiya gipotezasi ayrim ichki membranalarni tashqi membrananing ichkariga botishi bilan izohlaydi. Bu darslikda muhokama qilingan modeldir."
+    },
+    {
+      "key": "paragraph-16-q6",
+      "fact_id": "paragraph-16-f6",
+      "question_text": "Genom qismlarining funksional ixtisoslashishini taxmin qiluvchi darslik modeli qaysi?",
+      "options": [
+        "Faqat faol transport modeli",
+        "Ko‘p genomli gipoteza",
+        "Faqat invaginatsiya gipotezasi",
+        "Faqat plazmoliz modeli"
+      ],
+      "correct_answer": "Ko‘p genomli gipoteza",
+      "explanation": "Darslikdagi ko‘p genomli gipoteza genom qismlarining turli funksiyalarga moslashishini taxmin qiladi. Bu tarixiy modelni tasdiqlangan yagona izoh deb qabul qilmaslik kerak."
+    }
+  ]
+}
