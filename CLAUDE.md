@@ -1,5 +1,7 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Fizika 1-bosqich — 2026-10-21:** source-only xarita va FRQ texnik loyiha `feat/physics-curriculum-map`da. 6/7/10/11 fayllarida **197 bo‘lim = 176 nazariya + 20 lab + 1 uy amaliyoti** xaritalandi; **0 yangi dars/savol**, Fizika publish qilinmagan. 8/9 PDF transfer >32 MiB; 7-sinf bosma1–7 sahifalar yo‘q. 37 tanlangan formula rasmdan transkripsiya qilindi, to‘liq formula inventari hali tugamagan. Asosiy hisobot: `docs/physics/README.md`; keyingi implementatsiya foydalanuvchi tasdig‘ini kutadi.
+
 > **Joriy holat — 2026-10-21, mobil Biologiya/API QA:** kontent **355/355 nazariy + 51/51 faoliyat**, 2 527 karta / 2 609 savol saqlangan. Yangi **`/mobile/skills`** faqat reviewed Biologiyani beradi; veb namespace saqlandi. Backend **582 passed**, real PostgreSQL **2 passed**, Flutter **126 passed**, analyze/web build toza. **Real Google/Android testi bloklangan**: credential/Console va Android SDK yo‘q. Windows QA: Flutter `ANDROID_BIOLOGY_QA.md`; oxirgi batafsil bosqich hujjat oxirida. Production deploy/main merge bajarilmagan.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
@@ -2757,3 +2759,112 @@ Flutterdagi **`ANDROID_BIOLOGY_QA.md`** Windows uchun to‘liq PowerShell buyruq
 **Productionga hozir deploy qilinmaydi.** Alohida mobil namespace yangi visibility qoidalaridan vebni ajratadi, ammo oldingi feature branchdagi authoritative grading bilan vebning yetti legacy practice payloadi o‘rtasidagi **422 nomuvofiqligi** hanuz rollout bloklovchisi. Uni yashirish uchun `is_correct` yoki `score/total`ga ishonish tiklanmadi. Veb kodi o‘zgartirilmadi. Haqiqiy Google Console/telefon tekshiruvi, signed Android build va production migration/import rejasi alohida review/ruxsat talab qiladi.
 
 Barcha ish backend va Flutter **`feat/biology-curriculum`** branchlarida saqlanadi. `main` merge, production import/migratsiya/deploy, Play Market nashri yoki maxfiy kalit almashtirish bajarilmagan. Asosiy kontentni qayta yaratmang: keyingi nuqta — qo‘llanmadagi real Android/Google QA va alohida tasdiqlangan staging/rollout rejasi.
+
+## 2026-10-21 — Fizika 1-bosqich: qisman manba xaritasi va FRQ texnik loyiha
+
+**Chegara:** foydalanuvchi faqat manbalarni xaritalash va arxitektura/implementatsiya
+rejasini so‘radi, keyingi bosqich oldidan tasdiqni talab qildi. Shu sabab Fizika darsi,
+savoli, FRQ graderi, runtime API yoki Flutter inputi yaratilmadi; Fizika mobil katalogga
+chiqarilmadi. AI Explain qo‘shilmadi. Ushbu bosqich **to‘liq olti kitob xaritasi tayyor**
+deb belgilanmaydi.
+
+### Git va arxitektura asosi
+
+Boshlanishda backend va GitHub `feat/biology-curriculum` **`c0f84d0`**, Flutter
+va GitHub shu branchi **`79608c2`**, ikkala working tree toza edi. Mavjud ishlar
+saqlandi. Source-only ish uchun backendda **`feat/physics-curriculum-map`** ochildi;
+Biologiya branchi/main yoki Flutter kodi o‘zgartirilmadi. Next.js **`054f0ce`** toza.
+
+`CLAUDE.md`ning arxitektura, curriculum va oxirgi mobil nashr qaydlari, backendning
+`curriculum.py`, `curriculum_validation.py`, `models.py`, `study.py`, `mobile_publication.py`
+hamda Flutter curriculum/question modellari va lesson/repository oqimi o‘rganildi.
+Muhim real cheklovlar: `SkillQuestion` MCQ-only constraint, `grade()` variantga bog‘liq,
+Biologiya importer/validatori va reviewed hash indeksi subjectga xos. Bitta flagni
+o‘zgartirib Fizikani xavfsiz publish qilish mumkinligi da’vo qilinmadi.
+
+### Manbalar, sonlar va aniq bloklar
+
+| Sinf | PDF sahifa | Bob | Raqamlangan bo‘lim | Nazariya | Lab | Uy amaliyoti | Tayyor dars |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 6 | 176 | 7 | 61 | 53 | 7 | 1 | 0 |
+| 7 | 170 | 7 | 46 | 41 | 5 | 0 | 0 |
+| 8 | O‘qilmadi | Noma’lum | Noma’lum | Noma’lum | Noma’lum | Noma’lum | 0 |
+| 9 | O‘qilmadi | Noma’lum | Noma’lum | Noma’lum | Noma’lum | Noma’lum | 0 |
+| 10 | 178 | 9 | 45 | 40 | 5 | 0 | 0 |
+| 11 | 193 | 7 | 45 | 42 | 3 | 0 | 0 |
+
+- 8/9-sinf attachment download natijasi **`file exceeds the executor transfer limit of 32 MiB`**.
+  Nom, muallif, yil, mavzu yoki sahifa soni taxmin qilinmadi. Asl PDF sahifa tartibi
+  va oraliqlari ko‘rsatilgan, har biri 32 MiB’dan kichik segmentlar talab qilindi.
+- 7-sinf **PDF1 = bosma8**; bosma1–7 va mundarijada bosma3 deyilgan kirish mavjud emas.
+  PDF168/170 imprinti to‘rtinchi, PDF170 yuqori bibliografik satri uchinchi nashr
+  deydi; tafovut yashirilmadi. 46 raqamlangan paragraf bor, lekin to‘liq kitob
+  tekshirildi deyilmaydi. ISBN topilmadi, to‘qib qo‘shilmadi.
+- 6-sinfda asosiy bosma = PDF; 7-sinfda bosma = PDF+7; 10/11da bosma = PDF−1.
+  Mavjud bosma raqamlar har sahifa bo‘yicha tekshirildi; raqamsiz muqovalarga raqam
+  uydirilmadi. 10-sinf PDF1/178 va 11-sinf PDF1 — rasmdan ko‘rilgan muqovalar, bo‘sh
+  body sahifa deb talqin qilinmadi.
+- 10-sinf III bob testi TOC’da bosma57, haqiqiy sarlavha bosma56/PDF57da; body raqami
+  saqlandi. PDF177dagi ijara sahifasi matn qatlamida eski yashirin imprint bor,
+  bibliografiyaga ishlatilmadi. 11-sinf III bob kirishi bosma41/PDF42, §11 esa
+  bosma42/PDF43; ular alohida saqlandi.
+
+To‘rtta faylning **717 sahifasi** matn qatlamidan chiqarilib hashlandi, source auditda
+har sahifa rastrga dekodlandi va mavjud bosma raqami tekshirildi; **197 body sarlavha**
+markeri mundarija sahifasi bilan solishtirildi. Bob/mavzu tartibi, ichki kirish,
+laboratoriya, uy amaliyoti, body’dagi test/takrorlash/mashq/namuna/amaliyot belgilari
+va 7-sinf o‘lchash xatoligi ilovasi hamda javoblar indeksi alohida saqlandi.
+Bu barcha fan faktlari yoki butun kitobning pedagogik ekspertizasi bajarildi degani emas.
+
+### Artefaktlar va keyingi texnik qarorlar
+
+- `scripts/curriculum/physics/physics_sources.json`: oltita grade yozuvi, to‘rt haqiqiy
+  fayl SHA’lari, 197 bo‘limning ikki xil sahifa raqami, body chegaralari, 717 page audit,
+  ikki ochilmagan kitob uchun explicit blok. `counts:null` — noma’lum, nol mavzu emas.
+- `physics_formula_review.json`: **37 tanlangan** formula asl sahifa rasmlaridan
+  transkripsiya qilindi. Belgilar/qo‘llanish shartlari/source’lar bor; bu to‘liq formula
+  banki, executable grader yoki tayyor savollar emas. Qolgan formula va fizik atama
+  nomzodlari `review_pending`; indeks/kasr/vektor/ishora rasmdan tekshiriladi.
+- `scripts/audit_physics_sources.py`: ORM/startup/DBsiz offline validator; optional
+  private PDF identity/page/decode/anchor tekshiruvi; `--require-complete` ochiq blok
+  borida exit2. Bir sahifadagi ikki mavzu alohida offset bilan kesiladi: PDF147dagi
+  §53 `D=1/F` formulasi §54 prizmaga noto‘g‘ri biriktirilmaydi.
+- `tests/test_physics_source_map.py`: noma’lum metadata/sonni to‘qish, noto‘g‘ri
+  sahifa/SHA/topic, MCQdan FRQ tayyorligini yasash, kutilmagan publish/AI Explain,
+  shared-page formula va production URL borida ham DBsiz dry-run regressionlari.
+- `docs/physics/README.md`, `grade_{6..11}_map.md`: bibliografiya, barcha ochilgan
+  raqamlangan mavzu va body qo‘shimchalari, manba raqamlari, noaniqlik va aniq bloklar.
+- `docs/physics/FRQ_AND_IMPLEMENTATION_PLAN.md`: yangi typed assessment v2 uchun
+  alohida additive qatlam taklifi; safe AST, muqobil formula/domain, Decimal/rational,
+  birlik/o‘lcham/prefix, tolerance/yaxlitlash, sign/vektor, private server rubric,
+  snapshot/idempotent XP va accessible Flutter input rejasi. Bular hali implementatsiya emas.
+
+6-sinf partiyalari rejalashtirildi: **1–7, 8–17, 18–29, 30–35, 36–46, 47–56, 57–61**.
+Hisoblashga mos bo‘lmagan mavzularga sun’iy formula qo‘shilmaydi. Original
+tushuntirish/misol yoziladi; darslikdagi uzun matn yoki tayyor masalalar nusxalanmaydi.
+Raqamli laboratoriya jismoniy tajriba bajarilganligini anglatmaydi.
+
+### Haqiqiy tekshiruvlar
+
+| Tekshiruv | Natija |
+|---|---|
+| Yangi Physics testlari | **15 passed (0.52s)** dastlabki alohida run |
+| Physics + mavjud Biology curriculum/segment regressionlari | **51 passed (25.27s)** ruxsatli lokal ASGI muhitida |
+| Private PDF/source audit | **717 sahifa**, 197 body anchor va mavjud bosma raqamlar; qisman holat ochiq |
+| Full completion gate | **exit2**, kutilgan `complete_source_and_formula_review_blocked` |
+| Biology completion audit | **355 nazariya / 51 faoliyat / 2 527 karta / 2 609 savol**, complete true; kontent fayllari o‘zgarmagan |
+| Ruff critical va whitespace | **All checks passed**, `git diff --check` toza |
+| Flutter/website | Kod diffi yo‘q; ushbu source-only bosqichda build/native test qayta bajarilmadi |
+
+Cheklangan sandboxdagi ASGI rerun to‘xtab qolgani uchun tugallanmagan jarayon
+to‘xtatildi, lokal test soketlari ruxsatli muhitda yuqoridagi 51 test qayta bajarildi.
+Tugallanmagan run muvaffaqiyat deb hisoblanmadi. Private manba/rasmlar/kesh/loglar
+`/workspace/.setup/physics-*` va attachment katalogida; PDF yoki to‘liq matn Gitga kirmaydi.
+
+**Aniq davom nuqtasi:** 8/9 PDF segmentlari va 7-sinf old sahifalarini olish → source
+identity va to‘liq xaritani yakunlash → barcha formula/miqdor/birliklarni tasvirdan
+tekshirish → foydalanuvchiga 1-bosqich yakunini taqdim etish → **foydalanuvchi
+tasdig‘idan keyin** grader poydevori va 6-sinf 1–7 partiyasiga o‘tish. Hozir dars
+generatsiyasi yoki Fizikani e’lon qilish boshlanmaydi. Mavjud mobil Biologiya-only
+siyosati, Ilmo/brend, progress, XP, xavfsizlik va eski yashirin modullar saqlandi.
+Production import/migratsiya/deploy, main merge yoki ilova nashri bajarilmadi.

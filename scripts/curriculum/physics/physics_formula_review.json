@@ -1,0 +1,1084 @@
+{
+  "schema_version": 1,
+  "subject_slug": "fizika",
+  "language": "uz",
+  "status": "selected_transcriptions_only_full_inventory_pending",
+  "full_formula_inventory_complete": false,
+  "ready_questions": 0,
+  "entries": [
+    {
+      "id": "physics-formula-review-001",
+      "grade": 6,
+      "topic_id": "physics-6-section-16",
+      "title": "Zichlik",
+      "display_expression": "ρ = m / V",
+      "variables": [
+        "ρ: zichlik",
+        "m: massa",
+        "V: hajm"
+      ],
+      "conditions_and_review_notes": "Bir jinsli modda uchun massa/hajm nisbati.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "page_text_sha256": "cefc27aed83a6d2d10da9c9718c2a05c0eed472dde28741110f0439546485b29"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-002",
+      "grade": 6,
+      "topic_id": "physics-6-section-20",
+      "title": "Tezlik",
+      "display_expression": "υ = s / t",
+      "variables": [
+        "υ: tezlik",
+        "s: bosib o‘tilgan yo‘l",
+        "t: vaqt"
+      ],
+      "conditions_and_review_notes": "Tekis harakat; t > 0.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "page_text_sha256": "d9974dfc650650e1b6b203cc10cad3b588401a5dad88cdb5e1e409074598eb71"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-003",
+      "grade": 6,
+      "topic_id": "physics-6-section-23",
+      "title": "Bosim",
+      "display_expression": "p = F / S",
+      "variables": [
+        "p: bosim",
+        "F: bosim kuchi",
+        "S: kuch qo‘yilgan yuza"
+      ],
+      "conditions_and_review_notes": "Yuzaga tik qo‘yilgan kuch; S > 0.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          57
+        ],
+        "page_text_sha256": "74db76fdb2c04e3dcb1e73978376d5913bfdcad6ff9f604901d4b49ac93fc5d7"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-004",
+      "grade": 6,
+      "topic_id": "physics-6-section-25",
+      "title": "Gidrostatik bosim",
+      "display_expression": "p = ρ · g · h",
+      "variables": [
+        "ρ: suyuqlik zichligi",
+        "g: og‘irlik maydoniga oid kattalik",
+        "h: ustun balandligi"
+      ],
+      "conditions_and_review_notes": "Tinch suyuqlik ustuni; atmosfera bosimi qo‘shilishi masala shartida alohida ko‘rsatiladi.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "page_text_sha256": "50576471cd29b0f523d2bce14d207a58abb5c3cca431131a3f469d286072f666"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-005",
+      "grade": 6,
+      "topic_id": "physics-6-section-27",
+      "title": "Arximed kuchi",
+      "display_expression": "F_A = ρ_s · V_jism · g",
+      "variables": [
+        "ρ_s: suyuqlik yoki gaz zichligi",
+        "V_jism: jism hajmi",
+        "g: 9,81 N/kg manbada berilgan"
+      ],
+      "conditions_and_review_notes": "Bu sahifada to‘la botirilgan jism bayon qilingan; qisman botish uchun hajmni taxminan almashtirmang.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "page_text_sha256": "4e46dc222a45082a4a95a6ade2977ab9f7a5f6d3c00a1084d136612aedde9d95"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-006",
+      "grade": 6,
+      "topic_id": "physics-6-section-28",
+      "title": "Mexanik ish",
+      "display_expression": "A = F · s",
+      "variables": [
+        "A: ish",
+        "F: kuch",
+        "s: yo‘l"
+      ],
+      "conditions_and_review_notes": "Kuch va ko‘chish bir yo‘nalishda; tik yo‘nalish holati shu sahifada alohida izohlangan.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "page_text_sha256": "4d191bff87637d6433aa3beb69c4d7d603a688a14a96c7727c01eb19eff18b83"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-007",
+      "grade": 6,
+      "topic_id": "physics-6-section-29",
+      "title": "Quvvat",
+      "display_expression": "N = A / t",
+      "variables": [
+        "N: quvvat",
+        "A: ish",
+        "t: vaqt"
+      ],
+      "conditions_and_review_notes": "N bu yerda quvvat belgisi; N birlik belgisi bilan kontekst bo‘yicha farqlanadi.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "page_text_sha256": "76ff1f22011af8632f986c15438353174026ba486cbf1a33f014bd764f377d37"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-008",
+      "grade": 6,
+      "topic_id": "physics-6-section-31",
+      "title": "Kuch momenti",
+      "display_expression": "M = F · l",
+      "variables": [
+        "M: kuch momenti",
+        "F: kuch",
+        "l: kuch yelkasi"
+      ],
+      "conditions_and_review_notes": "Sahifa kuch va yelka o‘zaro tik deb qaralishini aytadi.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "page_text_sha256": "eeef81fac1eae49f69df359a6d64ef264cba0b3d45ae6e47972e6f37a38d7886"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-009",
+      "grade": 6,
+      "topic_id": "physics-6-section-31",
+      "title": "Richag muvozanati",
+      "display_expression": "F_1 · l_1 = F_2 · l_2",
+      "variables": [
+        "F_1, F_2: kuchlar",
+        "l_1, l_2: kuch yelkalari"
+      ],
+      "conditions_and_review_notes": "Qarama-qarshi aylantiruvchi momentlar muvozanati.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "page_text_sha256": "90cfd1b5e02d08df2eac4e14dce2679922dbf6e0a60abeb554f0b213ca87130c"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-010",
+      "grade": 6,
+      "topic_id": "physics-6-section-35",
+      "title": "Mexanizm FIK",
+      "display_expression": "η = A_f / A_u",
+      "variables": [
+        "A_f: foydali ish",
+        "A_u: umumiy ish",
+        "η: FIK"
+      ],
+      "conditions_and_review_notes": "Foiz shakli shu sahifada ×100% bilan berilgan; ulush va foizni ajratish kerak.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "page_text_sha256": "a1f2f64274b6b9baba5b2fca9766d96fbb387e1e1ab9198ac9acf59057d8ca99"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-011",
+      "grade": 6,
+      "topic_id": "physics-6-section-53",
+      "title": "Linzaning optik kuchi",
+      "display_expression": "D = 1 / F",
+      "variables": [
+        "D: optik kuch",
+        "F: fokus masofasi"
+      ],
+      "conditions_and_review_notes": "F metrda; sahifada D uchun dioptriya va botiq linza manfiyligi aytiladi.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "page_text_sha256": "cc8baac6c5a9e59fac21b611fe91dee2a8225a6c96dd14f6a5381a76bd29f682"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-012",
+      "grade": 6,
+      "topic_id": "physics-6-section-60",
+      "title": "Exolot chuqurligi",
+      "display_expression": "h = υ_t · t / 2",
+      "variables": [
+        "h: chuqurlik",
+        "υ_t: tovushning suvdagi tezligi",
+        "t: borib-qaytish vaqti"
+      ],
+      "conditions_and_review_notes": "Yo‘l ikki marta o‘tilgani uchun 2 ga bo‘linadi.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "page_text_sha256": "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-013",
+      "grade": 6,
+      "topic_id": "physics-6-section-60",
+      "title": "Tovush bo‘yicha masofa",
+      "display_expression": "l = υ_t · t",
+      "variables": [
+        "l: masofa",
+        "υ_t: tovush tezligi",
+        "t: vaqt"
+      ],
+      "conditions_and_review_notes": "Chaqmoq misolida yorug‘lik yetib kelish vaqti e’tiborga olinmaydi; exolotning ikki yo‘lidan farqlanadi.",
+      "source": {
+        "book_id": "physics-uz-grade-6",
+        "file_name": "fizika_6_uzb.pdf",
+        "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "page_text_sha256": "c26a85acc4e919871039600b09849f88665f86f9bf98995aaca19dc3d196210d"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-014",
+      "grade": 7,
+      "topic_id": "physics-7-section-9",
+      "title": "Tezlanish",
+      "display_expression": "a = (υ − υ_0) / t",
+      "variables": [
+        "a: tezlanish",
+        "υ_0: boshlang‘ich tezlik",
+        "υ: oxirgi tezlik",
+        "t: vaqt"
+      ],
+      "conditions_and_review_notes": "(1), bosma 38; tekis o‘zgaruvchan harakat.",
+      "source": {
+        "book_id": "physics-uz-grade-7",
+        "file_name": "fizika_7_uzb.pdf",
+        "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          38
+        ],
+        "page_text_sha256": "ed6989cfdee5d135eee40e6193ef007bdc447ab28b7c3a4b4449c0413a1e9595"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-015",
+      "grade": 7,
+      "topic_id": "physics-7-section-21",
+      "title": "Nyutonning ikkinchi qonuni",
+      "display_expression": "F = m · a",
+      "variables": [
+        "F: kuch",
+        "m: massa",
+        "a: tezlanish"
+      ],
+      "conditions_and_review_notes": "(5), bosma 80. Shu sahifada a = F / m ham (4) sifatida berilgan.",
+      "source": {
+        "book_id": "physics-uz-grade-7",
+        "file_name": "fizika_7_uzb.pdf",
+        "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          80
+        ],
+        "page_text_sha256": "efe22b6e7994c4d2246ddcf39c34043c2d7e82813dfcf0a1eb02bb7fec20a80f"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-016",
+      "grade": 7,
+      "topic_id": "physics-7-section-24",
+      "title": "Guk qonuni",
+      "display_expression": "F⃗_el = −k · Δl⃗",
+      "variables": [
+        "k: prujina bikirligi",
+        "Δl: uzayish",
+        "F_el: elastiklik kuchi"
+      ],
+      "conditions_and_review_notes": "(2), bosma 90; yo‘nalish va modul javoblari uchun alohida rubric kerak.",
+      "source": {
+        "book_id": "physics-uz-grade-7",
+        "file_name": "fizika_7_uzb.pdf",
+        "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          90
+        ],
+        "page_text_sha256": "c18f26e5e75021dbf450811d698af35ae868241e4cfdab0f66eb19c7b277a11a"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-017",
+      "grade": 7,
+      "topic_id": "physics-7-section-36",
+      "title": "Kuch impulsi",
+      "display_expression": "I⃗ = F⃗ · t",
+      "variables": [
+        "I: kuch impulsi",
+        "F: kuch",
+        "t: ta’sir vaqti"
+      ],
+      "conditions_and_review_notes": "(1), bosma 131; sahifada N·s birligi berilgan. I bu yerda tok kuchi emas.",
+      "source": {
+        "book_id": "physics-uz-grade-7",
+        "file_name": "fizika_7_uzb.pdf",
+        "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          131
+        ],
+        "page_text_sha256": "7f195b381a52b73900b827c07e2db6944bb3e1c210d2203159fd9b99921f2986"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-018",
+      "grade": 7,
+      "topic_id": "physics-7-section-42",
+      "title": "Kinetik energiya",
+      "display_expression": "E_k = m · υ² / 2",
+      "variables": [
+        "E_k: kinetik energiya",
+        "m: massa",
+        "υ: tezlik"
+      ],
+      "conditions_and_review_notes": "(7), bosma 156; tezlik kvadratini va birlikni tekshirish kerak.",
+      "source": {
+        "book_id": "physics-uz-grade-7",
+        "file_name": "fizika_7_uzb.pdf",
+        "sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          156
+        ],
+        "page_text_sha256": "9eace676a8df3c59a1f63910831305eedcfcd4b1eedee7d24d0b9fd51f8af6d1"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-019",
+      "grade": 10,
+      "topic_id": "physics-10-section-7",
+      "title": "Boshlang‘ich gorizontal tezlik",
+      "display_expression": "υ_0x = υ_0 · cos(α)",
+      "variables": [
+        "υ_0: boshlang‘ich tezlik",
+        "α: gorizontga burchak"
+      ],
+      "conditions_and_review_notes": "(1.28), bosma 19; havo qarshiligi hisobga olinmagan.",
+      "source": {
+        "book_id": "physics-uz-grade-10",
+        "file_name": "fizika_10_uzb.pdf",
+        "sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          19
+        ],
+        "page_text_sha256": "f1ec2f79de15c042e99bfbcbe214d999ccf02001a1392dfd5ae98e4d15240b1a"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-020",
+      "grade": 10,
+      "topic_id": "physics-10-section-7",
+      "title": "Boshlang‘ich vertikal tezlik",
+      "display_expression": "υ_0y = υ_0 · sin(α)",
+      "variables": [
+        "υ_0: boshlang‘ich tezlik",
+        "α: gorizontga burchak"
+      ],
+      "conditions_and_review_notes": "(1.28), bosma 19; o‘q yo‘nalishi masala shartida saqlanadi.",
+      "source": {
+        "book_id": "physics-uz-grade-10",
+        "file_name": "fizika_10_uzb.pdf",
+        "sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          19
+        ],
+        "page_text_sha256": "f1ec2f79de15c042e99bfbcbe214d999ccf02001a1392dfd5ae98e4d15240b1a"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-021",
+      "grade": 10,
+      "topic_id": "physics-10-section-7",
+      "title": "Vertikal tezlik",
+      "display_expression": "υ_y = υ_0 · sin(α) − g · t",
+      "variables": [
+        "υ_y: vertikal tezlik",
+        "g: erkin tushish tezlanishi",
+        "t: vaqt"
+      ],
+      "conditions_and_review_notes": "(1.30), bosma 19; yuqoriga yo‘nalish musbat olingan.",
+      "source": {
+        "book_id": "physics-uz-grade-10",
+        "file_name": "fizika_10_uzb.pdf",
+        "sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          19
+        ],
+        "page_text_sha256": "f1ec2f79de15c042e99bfbcbe214d999ccf02001a1392dfd5ae98e4d15240b1a"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-022",
+      "grade": 10,
+      "topic_id": "physics-10-section-7",
+      "title": "Ko‘tarilish vaqti",
+      "display_expression": "t_k = υ_0 · sin(α) / g",
+      "variables": [
+        "t_k: ko‘tarilish vaqti",
+        "g: erkin tushish tezlanishi"
+      ],
+      "conditions_and_review_notes": "(1.32), bosma 19; eng yuqori nuqtada υ_y = 0.",
+      "source": {
+        "book_id": "physics-uz-grade-10",
+        "file_name": "fizika_10_uzb.pdf",
+        "sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          19
+        ],
+        "page_text_sha256": "f1ec2f79de15c042e99bfbcbe214d999ccf02001a1392dfd5ae98e4d15240b1a"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-023",
+      "grade": 10,
+      "topic_id": "physics-10-section-23",
+      "title": "Prujinali mayatnik to‘la energiyasi",
+      "display_expression": "E_t = k · A² / 2",
+      "variables": [
+        "E_t: to‘la energiya",
+        "k: bikirlik",
+        "A: amplituda"
+      ],
+      "conditions_and_review_notes": "(5.17), bosma 83; bu formula uchun A ish emas, amplituda.",
+      "source": {
+        "book_id": "physics-uz-grade-10",
+        "file_name": "fizika_10_uzb.pdf",
+        "sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          83
+        ],
+        "page_text_sha256": "7a2de554f7fb43b709032db5224e3ff42c2e59a5ff065df43d46564e6b4dff94"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-024",
+      "grade": 10,
+      "topic_id": "physics-10-section-27",
+      "title": "Termodinamikaning birinchi qonuni",
+      "display_expression": "Q = ΔU + A",
+      "variables": [
+        "Q: issiqlik miqdori",
+        "ΔU: ichki energiya o‘zgarishi",
+        "A: bajarilgan ish"
+      ],
+      "conditions_and_review_notes": "(6.1), bosma 99; manbadagi ish ishorasi kelishuvi saqlanadi.",
+      "source": {
+        "book_id": "physics-uz-grade-10",
+        "file_name": "fizika_10_uzb.pdf",
+        "sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          99
+        ],
+        "page_text_sha256": "90f800d3c03428fa856077d36e11363204921759334c6a8dac78d6ddc72feb0e"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-025",
+      "grade": 10,
+      "topic_id": "physics-10-section-37",
+      "title": "Elektr yurituvchi kuch",
+      "display_expression": "ℰ = A_chet / q",
+      "variables": [
+        "ℰ: EYuK",
+        "A_chet: chet kuchlar ishi",
+        "q: zaryad"
+      ],
+      "conditions_and_review_notes": "(8.9), bosma 139; manbada volt bilan o‘lchanishi aytilgan.",
+      "source": {
+        "book_id": "physics-uz-grade-10",
+        "file_name": "fizika_10_uzb.pdf",
+        "sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          139
+        ],
+        "page_text_sha256": "664d18dc28ff9aeb60bf2fae5747a24cc9b8a73c9efcf4b797db8e8628231608"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-026",
+      "grade": 11,
+      "topic_id": "physics-11-section-6",
+      "title": "Magnit maydonda aylana radiusi",
+      "display_expression": "R = m · υ / (q · B)",
+      "variables": [
+        "R: radius",
+        "m: massa",
+        "υ: tezlik",
+        "q: zaryad",
+        "B: magnit induksiya"
+      ],
+      "conditions_and_review_notes": "(1–21), bosma 18; υ ⟂ B. Manba q yozgan; manfiy zaryad/modul kelishuvi FRQdan oldin ekspert tekshiruvi talab qiladi.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          18
+        ],
+        "page_text_sha256": "4d7fa668b4138524b111d0c73dcc97c5e177b15374cf4febe494dd7a3f89a880"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-027",
+      "grade": 11,
+      "topic_id": "physics-11-section-7",
+      "title": "Faradey qonuni",
+      "display_expression": "ℰ_i = −ΔΦ / Δt",
+      "variables": [
+        "ℰ_i: induksiya EYuK",
+        "Φ: magnit oqim",
+        "t: vaqt"
+      ],
+      "conditions_and_review_notes": "(2–1), bosma 27; minus ishorasi kontur yo‘nalishi kelishuviga bog‘liq.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          27
+        ],
+        "page_text_sha256": "390634285b2815e2c0ed3325a1db32ad4a1ff68806ec778225ae90fcd8debf8a"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-028",
+      "grade": 11,
+      "topic_id": "physics-11-section-7",
+      "title": "N o‘ram uchun induksiya",
+      "display_expression": "ℰ_i = −N · ΔΦ / Δt",
+      "variables": [
+        "N: o‘ramlar soni",
+        "Φ: bitta kontur magnit oqimi"
+      ],
+      "conditions_and_review_notes": "(2–2), bosma 27; oqim va oqim ilashishini aralashtirmaslik kerak.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          27
+        ],
+        "page_text_sha256": "390634285b2815e2c0ed3325a1db32ad4a1ff68806ec778225ae90fcd8debf8a"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-029",
+      "grade": 11,
+      "topic_id": "physics-11-section-11",
+      "title": "Tomson davri",
+      "display_expression": "T = 2π · √(L · C)",
+      "variables": [
+        "T: davr",
+        "L: induktivlik",
+        "C: sig‘im"
+      ],
+      "conditions_and_review_notes": "(3–1), bosma 43; ideal LC kontur.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          44
+        ],
+        "printed_pages": [
+          43
+        ],
+        "page_text_sha256": "450ecd914085cfddd3e19c44118ce8ab9b952adafb1abdd5c547cf2159c77582"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-030",
+      "grade": 11,
+      "topic_id": "physics-11-section-11",
+      "title": "Tomson chastotasi",
+      "display_expression": "ν = 1 / (2π · √(L · C))",
+      "variables": [
+        "ν: chastota",
+        "L: induktivlik",
+        "C: sig‘im"
+      ],
+      "conditions_and_review_notes": "(3–1), bosma 43; davrning teskarisi.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          44
+        ],
+        "printed_pages": [
+          43
+        ],
+        "page_text_sha256": "450ecd914085cfddd3e19c44118ce8ab9b952adafb1abdd5c547cf2159c77582"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-031",
+      "grade": 11,
+      "topic_id": "physics-11-section-15",
+      "title": "Sig‘im qarshiligi",
+      "display_expression": "X_C = 1 / (ω · C)",
+      "variables": [
+        "X_C: sig‘im qarshiligi",
+        "ω: siklik chastota",
+        "C: sig‘im"
+      ],
+      "conditions_and_review_notes": "(3–13), bosma 55; ideal kondensatorli AC model.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          56
+        ],
+        "printed_pages": [
+          55
+        ],
+        "page_text_sha256": "12078c1592223ff409f19a977839de092f6a809e76e062e35ed084518dbf0415"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-032",
+      "grade": 11,
+      "topic_id": "physics-11-section-30",
+      "title": "Nurlanish intensivligi",
+      "display_expression": "I = Φ_e / S",
+      "variables": [
+        "I: intensivlik",
+        "Φ_e: nurlanish oqimi",
+        "S: yuza"
+      ],
+      "conditions_and_review_notes": "(4–10), bosma 111; sahifada W/m². Bu I tok kuchi ham, kuch impulsi ham emas.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          111
+        ],
+        "page_text_sha256": "089c54523994c8a9dc7d0c50f856e74c175b9004ea107359337656f6588e2ff4"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-033",
+      "grade": 11,
+      "topic_id": "physics-11-section-35",
+      "title": "Fotoeffekt tenglamasi",
+      "display_expression": "h · ν = A + m · υ² / 2",
+      "variables": [
+        "h: Plank doimiysi",
+        "ν: chastota",
+        "A: chiqish ishi",
+        "m, υ: elektron massasi va tezligi"
+      ],
+      "conditions_and_review_notes": "(6–4), bosma 139; chegaraviy holat va maksimal kinetik energiya rubricda aniqlanadi.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          139
+        ],
+        "page_text_sha256": "6280c16c8ff6c42e3f0cd6eb10910e340ca12f704b6a8e6da1d2937d3dd992ad"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-034",
+      "grade": 11,
+      "topic_id": "physics-11-section-36",
+      "title": "Foton energiyasi",
+      "display_expression": "E = h · ν = h · c / λ",
+      "variables": [
+        "E: energiya",
+        "h: Plank doimiysi",
+        "c: yorug‘lik tezligi",
+        "λ: to‘lqin uzunligi"
+      ],
+      "conditions_and_review_notes": "(6–7), bosma 142.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          142
+        ],
+        "page_text_sha256": "c19f5557f9dffc0474dd0b49178054c898cc31941ca79f4cb7e55095d080239d"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-035",
+      "grade": 11,
+      "topic_id": "physics-11-section-36",
+      "title": "Foton impulsi",
+      "display_expression": "p = h / λ",
+      "variables": [
+        "p: impuls",
+        "h: Plank doimiysi",
+        "λ: to‘lqin uzunligi"
+      ],
+      "conditions_and_review_notes": "(6–7), bosma 142; sahifada p = hν/c ham berilgan.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          142
+        ],
+        "page_text_sha256": "c19f5557f9dffc0474dd0b49178054c898cc31941ca79f4cb7e55095d080239d"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-036",
+      "grade": 11,
+      "topic_id": "physics-11-section-39",
+      "title": "Massa defekti",
+      "display_expression": "Δm = Z · m_p + (A − Z) · m_n − m_ya",
+      "variables": [
+        "Z: protonlar soni",
+        "A: nuklonlar soni",
+        "m_p: proton massasi",
+        "m_n: neytron massasi",
+        "m_ya: yadro massasi"
+      ],
+      "conditions_and_review_notes": "(7–10), bosma 162; atom massasi va yadro massasini aralashtirmaslik kerak.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          162
+        ],
+        "page_text_sha256": "aa5a7aadd5932cb36a3aa5acd162b1a1e1458d090d8b6e2396f7cea143bdcd60"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    },
+    {
+      "id": "physics-formula-review-037",
+      "grade": 11,
+      "topic_id": "physics-11-section-39",
+      "title": "Bog‘lanish energiyasi",
+      "display_expression": "E_bog‘ = Δm · c²",
+      "variables": [
+        "E_bog‘: bog‘lanish energiyasi",
+        "Δm: massa defekti",
+        "c: yorug‘lik tezligi"
+      ],
+      "conditions_and_review_notes": "(7–11), bosma 162; SI/MeV konversiyasi alohida source review talab qiladi.",
+      "source": {
+        "book_id": "physics-uz-grade-11",
+        "file_name": "fizika_11_uzb.pdf",
+        "sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          162
+        ],
+        "page_text_sha256": "aa5a7aadd5932cb36a3aa5acd162b1a1e1458d090d8b6e2396f7cea143bdcd60"
+      },
+      "verification": "page_image_transcription_reviewed",
+      "reviewed_on": "2026-10-21",
+      "executable_grading_rule": false,
+      "ready_for_publication": false
+    }
+  ]
+}
