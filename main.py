@@ -96,6 +96,8 @@ app.include_router(math_solver.router)
 app.include_router(skills.router)
 from routers.mobile_skills import router as mobile_skills_router
 app.include_router(mobile_skills_router)
+from routers.physics_preview import router as physics_preview_router
+app.include_router(physics_preview_router)
 app.include_router(mock_exam.router)
 app.include_router(classes.router)
 app.include_router(parent.router)

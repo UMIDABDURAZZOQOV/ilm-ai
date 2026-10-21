@@ -116,3 +116,28 @@ fakt/formula/birlik/namuna/javoblar asl sahifalaridan qayta tekshiriladi, origin
 kartalar va savollar yaratiladi. Formula kerak bo‘lmagan mavzuga FRQ hisoblash
 sun’iy kiritilmaydi. Laboratoriya raqamli faoliyati haqiqiy tajriba bajarilganini
 anglatmaydi. FRQ runtime va mobil nashr hozir boshlanmagan.
+
+
+## 2026-10-22 — 2-bosqich, 6-sinf §1–7 doirasidagi qayta tekshiruv
+
+Asl `fizika_6_uzb.pdf`ning **PDF/bosma3–16** to‘liq matni va barcha 14 sahifa
+asl tasviri dars yozishdan oldin qayta ko‘rildi; source byte/text/render SHA’lari
+ham amalda solishtirildi. Frozen darslar va tasvir evidence hash’lari:
+`grade6_batch1.json`, `grade6_batch1_review.json`. PDF/rasm/to‘liq OCR Gitga kirmaydi.
+
+31 karta, 8 original misol, 43 topshiriq, 5 FRQ lokal sinov uchun yozilgan.
+§1–5 konseptual; §6–7 dagi besh hisoblash qoidasigina runtime graderga kiritilgan.
+Boshqa sinf/fakt/formulalar to‘liq ekspertizadan o‘tdi deyilmaydi.
+
+Ilmiy istisnolar: PDF7 tarixiy nationality/telescope-priority iboralari va qadimgi
+atom «bo‘linmasligi» zamonaviy fakt sifatida o‘rgatilmaydi; PDF10–11 Piza rivoyati
+universal qoida qilinmaydi; PDF13 tarixiy metr etaloni joriy SI ta’rifi emas.
+PDF14 dagi «ichki chiziqchalar» soni bilan ko‘rsatilgan formula tafovuti sabab
+**teng oraliqlar** aniq sanaladi. PDF15–16 yarim-bo‘linma xatoligi faqat oddiy
+shkala modeli, ikki o‘lchov o‘rtachasi barcha xatoni yo‘qotish kafolati emas.
+Bularning hech biri sun’iy yangi o‘quv mavzusi yoki tashqi kontentga aylantirilmadi.
+
+Manbani qayta ko‘rish va deterministik arifmetika mustaqil fan/pedagog eksperti
+imzosini anglatmaydi: `independent_subject_expert=not_claimed`, umumiy nashr o‘chiq.
+Raqamli faoliyat haqiqiy fizik tajriba bajarilganini tasdiqlamaydi.
+To‘liq yangi bosqich hisoboti: [STAGE2_GRADE6_BATCH1.md](STAGE2_GRADE6_BATCH1.md).

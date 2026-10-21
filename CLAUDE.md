@@ -1,5 +1,7 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Eng yangi holat — 2026-10-22 (Asia/Tashkent), Fizika 2-bosqich §1–7:** foydalanuvchi birinchi partiyaga ruxsat berdi. `cb46a02` ustidan **7 lokal/test dars, 31 karta, 5 hisoblash qoidasi, 8 misol, 43 topshiriq (36 konseptual + 2 tartiblash + 5 FRQ)** yozildi. Faqat `fizika_6_uzb.pdf` PDF/bosma3–16 manbalari; 14 asl sahifa tasviri qayta ko‘rildi va hash’lari solishtirildi. Yangi private-rubric server v2, replay-safe XP va Flutter test preview bor. **Umumiy Fizika nashri yo‘q; §8–17 boshlanmagan.** Backend **681 passed / 3 PG skipped**, alohida real PostgreSQL16.15 **3 passed** va final Physics **1 passed**; Flutter **141 passed**, analyze toza; release JS web + preview debug build va haqiqiy HTTP/Chromium FRQ o‘tdi. **Android SDK yo‘q: native build/manifest merge/real telefon tasdiqlanmagan.** Tafsilot: `docs/physics/STAGE2_GRADE6_BATCH1.md`. Flutter **`feat/physics-first-batch` / `9f152f0`**. Quyidagi 2026-10-21 qaydlar oldingi bosqichlarning saqlangan tarixidir.
+
 > **Fizika 1-bosqich davomi — 2026-10-21:** `feat/physics-curriculum-map`, `29e7d1e` saqlangan. Olti sinfning mavjud doirasidagi **316 bo‘lim = 254 nazariya + 31 lab + 4 amaliy + 1 uy amaliyoti + 26 masala yechish bo‘limi**, **41 bob / 1 069 PDF sahifa** xaritalangan. Yangi 8/9 manbalari to‘liq ochildi; 7-sinf §1–46 doirasi qabul qilingan, bosma1–7 yo‘qligi blok emas. **145 tanlangan formula yozuvi** rasmdan tekshirilgan; to‘liq fakt/formula inventari hali tugamagan. **0 yangi dars/savol**, Fizika/FRQ runtime/AI Explain yoqilmagan. Biologiya, Flutter va veb kod o‘zgarmagan. Hisobot: `docs/physics/README.md`, `SOURCE_REVIEW.md`. Keyingi 6-sinf dars bosqichi foydalanuvchi tasdig‘ini kutadi.
 
 > **Joriy holat — 2026-10-21, mobil Biologiya/API QA:** kontent **355/355 nazariy + 51/51 faoliyat**, 2 527 karta / 2 609 savol saqlangan. Yangi **`/mobile/skills`** faqat reviewed Biologiyani beradi; veb namespace saqlandi. Backend **582 passed**, real PostgreSQL **2 passed**, Flutter **126 passed**, analyze/web build toza. **Real Google/Android testi bloklangan**: credential/Console va Android SDK yo‘q. Windows QA: Flutter `ANDROID_BIOLOGY_QA.md`; oxirgi batafsil bosqich hujjat oxirida. Production deploy/main merge bajarilmagan.
@@ -2958,3 +2960,161 @@ Production import/migratsiya/deploy, main merge yoki ilova nashri bajarilmadi.
   tayyor; har partiya uchun to‘liq fakt/formula/birlik/yechim tekshiruvi va original
   mualliflik kerak. Butun kurs yoki FRQ tizimi tayyor deyilmaydi. Shu bosqichda
   haqiqiy darslarni yaratish boshlanmadi.
+
+
+## 2026-10-22 — Fizika 2-bosqich: 6-sinf §1–7, birinchi lokal partiya
+
+### Ruxsat, Git va manba doirasi
+
+Foydalanuvchi 316 xaritalangan bo‘limni darsga aylantirish bosqichini boshlashga,
+**faqat §1–7 birinchi partiyasi** va server FRQ poydevori/Flutter test ekranlariga
+ruxsat berdi. Keyingi §8–17 uchun shu hisobotdan keyingi tasdiq kutiladi.
+Boshlanish va yakunda backend remote `feat/physics-curriculum-map/cb46a02` va
+Flutter `feat/biology-curriculum/79608c2` tekshirildi. Boshqa ishlar yo‘qotilmadi.
+Flutter alohida **`feat/physics-first-batch`**, commit **`9f152f0`**.
+Backend ushbu yozuvni o‘z ichiga oladigan feature commitda; `main` o‘zgarmaydi.
+
+`docs/physics/README.md`, `SOURCE_REVIEW.md`, FRQ rejasi, mavjud source/auditlar va
+Biology import/grading/progress arxitekturasi o‘rganildi. Asl Turdiyev2017 6-sinf
+PDFning to‘liq §1–7 sahifalari **PDF/bosma3–16** matndan ham, tasvirdan ham qayta
+ko‘rildi. Kitob SHA, 14 page text va 14 rendered original-image SHA amalda tekshirildi.
+PDF, rasmlar, to‘liq matn/OCR, token yoki private sandbox config Gitga kirmadi.
+
+### Yozilgan kontent
+
+| § | PDF sahifa | Bosma sahifa | Karta | Formula qoidasi | Misol | Savol/faoliyat | FRQ |
+|---|---|---|---:|---:|---:|---:|---:|
+| 1 | 3–5 | 3–5 | 5 | 0 | 1 | 6 | 0 |
+| 2 | 6–8 | 6–8 | 4 | 0 | 1 | 5 | 0 |
+| 3 | 8–9 | 8–9 | 4 | 0 | 1 | 5 | 0 |
+| 4 | 9–10 | 9–10 | 4 | 0 | 1 | 6 | 0 |
+| 5 | 10–12 | 10–12 | 4 | 0 | 1 | 6 | 0 |
+| 6 | 12–14 | 12–14 | 5 | 2 | 1 | 7 | 2 |
+| 7 | 14–16 | 14–16 | 5 | 3 | 2 | 8 | 3 |
+| Jami | 14 noyob sahifa | | **31** | **5** | **8** | **43** | **5** |
+
+§1–5 ga sun’iy formula qo‘shilmadi. §6–7 uchun birlik konversiyasi, shkala oralig‘i,
+ikki o‘lchovning o‘rtachasi va oddiy modeldagi yarim-bo‘linma xatoligi ishlatiladi.
+`A=a±delta_a` natija yozuvi kartada alohida tushuntiriladi; 5 soni runtime hisoblash
+qoidalari sanoqidir. Original qisqa tushuntirish/misol/savol va to‘g‘ri/xato feedback
+bor; har birlik source topic/chapter, kitob/PDF sahifa va hash bilan bog‘langan.
+Varaq qalinligi yoki asbob tanlash raqamli reja/mulohaza; haqiqiy fizik tajriba
+bajarilgani da’vo qilinmaydi. Birinchi yetti mavzuda raqamlangan laboratoriya yo‘q.
+
+Ilmiy ehtiyotkorlik qarorlari review JSON va SOURCE_REVIEW’da: tarixiy atom fikri
+zamonaviy bo‘linmaslik emas; ishonchsiz Copernicus/telescope-priority va Piza
+rivoyati savollarga kiritilmagan; eski metr prototipi bugungi SI ta’rifi sifatida
+berilmagan. PDF14 «ichki chiziqcha» va `/10` tafovutida oraliqlar aniq sanaladi.
+Yarim bo‘linma shu oddiy model uchun; o‘rtacha barcha xatoni yo‘qotishi aytilmaydi.
+`independent_subject_expert=not_claimed`; umumiy nashrga tayyorlik belgilanmagan.
+
+### Backend fayllari va arxitektura qarorlari
+
+- `services/assessment_grading.py`: exact Fraction/Decimal; bounded closed AST,
+  whitelist formula equivalence, birlik/o‘lcham, abs/rel tolerance va rounding grid.
+  `eval`, CAS/AI, funksiya chaqiruvi, cheksiz daraja yoki mijoz correctness flagi yo‘q.
+- `services/assessment_models.py`, `alembic/versions/0013_add_assessment_v2.py`:
+  alohida `AssessmentBase` va 4 opt-in v2 jadval. Legacy `Base.create_all` ularni
+  avtomatik yaratmaydi. Shared study jadvallari yo‘q eski schemaga additive create;
+  mavjudiga alter yo‘q. Downgrade shared Biology ledgerini o‘chirmaydi.
+- `alembic/env.py`: autogenerate ikkala metadata’ni ko‘radi; begona v2 drop taklifi
+  bo‘lmasligi testlangan. To‘liq eski Alembic chain tekshirildi degan da’vo yo‘q.
+- `services/assessment_runtime.py`, `routers/physics_preview.py`, `main.py`:
+  **`/preview/physics/v2`** alohida JWT namespace, default disabled.
+  `PHYSICS_PREVIEW_ENABLED=true` + development/test + SQLite yoki loopbackdagi
+  staging PostgreSQL kerak; production/public-host DB rad etiladi.
+  Catalog → UUID start/resume → ordered typed answers → complete.
+  Clientda javob kaliti, tolerance, rubric/equivalentlar bo‘lmaydi; yechim faqat
+  shu savolga javob qabul qilingach ochiladi. Format422 yechimni ochmaydi.
+- Session snapshot, writer/user locks, immutable answer fingerprint, v2 progress,
+  StudyEvent va cached response bitta transaction bilan. 60% keyingi tugunni ochadi;
+  birinchi muvaffaqiyat **10 XP**, takroriy muvaffaqiyat **0 XP**. Parallel alohida
+  urinishlar ham mukofotni ko‘paytirmaydi. Mavjud record_activity/xp ledger ishlatiladi.
+- `services/physics_curriculum.py`, `scripts/curriculum/physics/grade6_batch1.json`,
+  `grade6_batch1_review.json`: explicit frozen batch, source/taught-fact/arithmetic
+  va reviewed-file hash validator; immutable import. Import faqat ikkita content jadvalini
+  SQLAlchemy Core orqali reflect qiladi: legacy ORM/`services.db` import hooklariga
+  ulanmaydi. Alohida minimal `users(id,sentinel)` + tripwire DATABASE_URL testida
+  eski user schema/data o‘zgarmasligi va begona DB umuman ochilmasligi tasdiqlandi.
+  Plain PostgreSQL URL ham mavjud `normalize_database_url` orqali installed
+  psycopg2 driveriga moslanadi; haqiqiy CLI random staging schema’da sinovdan o‘tdi. Source-only 316 map/145 formula
+  arxivi qayta generatsiya qilinmagan. Stage-one auditdagi `ready_lessons=0` umumiy
+  publication/source-arxiv holati; v2 lokal batch sanoqini explicit importer beradi.
+- `scripts/import_physics_preview.py`: DBsiz dry-run; explicit lokal SQLite yoki
+  loopback staging PostgreSQL importigina. Startup seeder yo‘q.
+- `scripts/serve_physics_preview.py`: Gitdan tashqaridagi **yangi** sandbox DB/QA
+  account; main/seeders/production import qilmaydi. Private bir soatlik test JWT va
+  Flutter defines; `--resume` local progressni saqlaydi. Secretlar log/commitda yo‘q.
+- `tests/test_physics_v2.py`, `tests/test_physics_postgres.py`: real API/SQL,
+  source mutation, security, alternative/unit/rounding, replay/concurrency,
+  stale session, progress/XP, immutable import va migration compatibility.
+
+Numeric registr birinchi darslardagi uzunlik birliklari bilan chegaralangan;
+hozir universal symbolic algebra, barcha SI/compound units, graph yoki bosqichli
+partial-credit tizimi tayyor emas. Bularni keyingi source-reviewed topshiriqlarsiz
+yoqmang. Eski `SkillQuestion.question_type=mcq`, Biology API/importer o‘zgarmagan.
+
+### Flutter fayllari va amaldagi UX
+
+`lib/features/physics/data/physics_repository.dart`,
+`presentation/physics_preview_screen.dart`, `physics_answer_editor.dart`:
+Ilmo/brand/3D widgets bilan alohida 7-node yo‘l, kartalar/formula/namuna/mashq/feedback/
+natija, formula+son+birlik va tartiblash inputlari, source sheet, server-only grading.
+Kiritilgan javob feedback yonida o‘qiladigan summaryda qoladi; klaviatura yopilib
+feedbackga scroll qilinadi. Busy va partial request guards, cancel/mounted/generation,
+account/origin/lesson-scoped prefs, frozen pending retry va server resume reconciliation
+bor. Completion/resumed result umumiy study revisionni yangilaydi. 200% matn,
+landscape, Reduce Motion va accessible labels/tap targets tekshirildi.
+
+`core/config/physics_preview.dart`, `product_mode.dart`, `core/router/app_router.dart`,
+`settings_screen.dart`: explicit compile flag + local/private API URLgina kirish
+beradi. Default hostda preview deep link ham Learn’ga qaytadi; Biology-only qoidalar
+kengaytirilmagan. `lib/physics_preview_main.dart` alohida debug-only test root;
+normal OAuth yoki app login flow uchun bypass qo‘shilmagan.
+
+Android `build.gradle.kts` + main manifest: faqat standalone QA target/debug/flag
+uchun `.physicsqa` package, QA label va alohida `ilmai-physics-qa` callback;
+normal `com.ilmai.app`/`ILM AI`/`ilmai` defaults saqlanadi. Preview release rad etiladi.
+**Native build/manifest merge SDK yo‘qligi sabab tekshirilmagan**; static default
+OAuth contract/XML tekshirildi. `PHYSICS_PREVIEW_QA.md` Windows/USB `adb reverse`,
+APK buyruqlari va real TalkBack/keyboard/offline/progress ro‘yxatini beradi.
+Yangi `test/physics_preview_test.dart`, 9 server-public JSON fixture va eski
+Android/default-route contract test kengaytmalari bor; rubrikalar fixturega kirmaydi.
+
+### Haqiqiy testlar va cheklovlar
+
+- Final backend `pytest -q`: **681 passed, 3 skipped, 13 warnings**, 246.66s.
+  Uch skip opt-in PG testlari; quyida alohida amalda bajarilgan.
+- Physics source + v2: **99 passed**; final bounded-source importer dry-run
+  **7/31/5/8/43/5**, stage-one `--require-mapped` ham o‘tdi; yangi fayllar Ruff toza.
+- Haqiqiy **PostgreSQL16.15** — yangi loopback-only Docker staging DB/random
+  schemas, production ma’lumotlarisiz. Physics + mavjud OAuth/Biology **3 passed**
+  (290.72s), oxirgi source/runtime holatida Physics-only **1 passed** (6.27s).
+  0013 additive upgrade/import/reimport, barcha 7 lesson, parallel first-pass XP
+  va legacy **137 XP/3 streak/2 stars** saqlanishi; Biology **406 + 47 checkpoint**
+  shu PG’da amalda o‘qilib/yakunlanib tekshirildi.
+- Final Flutter **141 passed** (oldingi 126 + 15 yangi), analyze **No issues found**.
+  320×568/640×320 + 200% text, default disabled route, labels/min tap targets,
+  timeout, account switch, pending/resume va double-tap testlari o‘tdi.
+- Default `main.dart` release **JS web** va standalone preview **debug web** build
+  o‘tdi. Eski TTS/secure-storage paketlari WASM dry-run warnings chiqaradi;
+  WASM build muvaffaqiyati da’vo qilinmaydi.
+- Asl PDF SHA, 14 page text/render hash **pass**; actual localhost HTTP **7 dars /
+  43 javob / 5 FRQ / 70 XP**, replay natijasi bir xil.
+- Chromium + actual API: §6, ikkita konseptual javob va `y=x*100 / 170 / cm` FRQ
+  to‘g‘ri baholandi; portrait390×844/landscape640×320 rasmlar ko‘rildi; JS error yo‘q.
+  Bu real Android sinovi emas.
+- `flutter doctor`: **Android SDK yo‘q**, Linux desktop toolchain yetishmaydi;
+  Maven/CocoaPods proxy403. APK/iOS/native Gradle build, real telefon, TalkBack,
+  actual Google Console/credential testi bajarilmagan.
+
+**Biology 406 manifest / 47 checkpoint / 2 527 karta / 2 609 savol, XP/streak,
+progress, Ilmo, yashirin eski modullar saqlangan. 432 Biology/legacy engine fayli va 3 oldingi Physics source-arxiv fayli Git blob
+bo‘yicha `cb46a02` bilan bir xil ekanligi tekshirildi. Veb-sayt `054f0ce` va ish daraxti
+ham o‘zgarmagan. PDF/secrets upload, production migration/deploy, main merge,
+AI Explain va ommaviy Fizika nashri bajarilmagan.**
+
+Davom: foydalanuvchi birinchi partiya hisobotini tasdiqlagach, **6-sinf §8–17**
+bo‘yicha asl PDF sahifalarini yangidan tekshirishdan boshlash. 309 qolgan xaritalangan
+bo‘limni tayyor deb belgilamang; §1–7 ni qayta yaratmang. Mustaqil fan/pedagog
+tekshiruvi va real Android QA umumiy release oldidan hali ochiq.

@@ -7,6 +7,7 @@ sys.path.append(os.getcwd())
 
 from alembic import context
 from services.db import engine, Base
+from services.assessment_models import AssessmentBase
 
 load_dotenv()
 
@@ -18,7 +19,7 @@ config = context.config
 fileConfig(config.config_file_name)
 
 # Provide the metadata for 'autogenerate'
-target_metadata = Base.metadata
+target_metadata = [Base.metadata, AssessmentBase.metadata]
 
 
 def run_migrations_offline():

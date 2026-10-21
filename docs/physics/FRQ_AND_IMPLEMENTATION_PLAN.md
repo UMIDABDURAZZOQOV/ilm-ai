@@ -1,5 +1,14 @@
 # Fizika: formula, FRQ va bosqichma-bosqich implementatsiya loyihasi
 
+**2026-10-22 amaldagi holat:** foydalanuvchi 2-bosqichning faqat **6-sinf §1–7**
+partiyasiga ruxsat berdi. Bajarilgan tor v2 subset — concept/ordering va
+formula+son+birlik FRQ; local/test-only endpointlar, opt-in migration, replay-safe XP
+va Flutter inputlar. Tafsilotlar: [birinchi partiya](STAGE2_GRADE6_BATCH1.md).
+Quyidagi umumiy formula/compound unit/partial-credit/graph rejalari to‘liq
+implementatsiya qilingan deb talqin qilinmasin. AI Explain hali yaratilmagan.
+
+## Saqlangan 1-bosqich taklifi
+
 **Loyiha taklifi, implementatsiya emas.** Sana: 2026-10-21. Barcha yangi nomlar,
 endpointlar, jadvallar va flaglar quyida taklif sifatida yozilgan; hozir mavjud deb
 talqin qilinmasin. AI Explain bu ishga kiritilmaydi. 8/9-sinfning bo‘lak manbalari

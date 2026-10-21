@@ -1,4 +1,18 @@
-# Fizika — 1-bosqich: manba xaritasi va texnik loyiha
+# Fizika — manba xaritalari va lokal interaktiv sinov
+
+**2026-10-22 — 2-bosqichning birinchi partiyasi:** 6-sinf §1–7 uchun 7 dars,
+31 karta, 8 misol, 43 topshiriq (5 FRQ) va alohida server/Flutter **lokal test preview**
+yozildi. Fizika umumiy foydalanuvchilarga e’lon qilinmagan. V1/Biology API va 406
+manifest saqlangan. Keyingi §8–17 hali boshlanmagan; foydalanuvchi tasdig‘i kerak.
+
+Amaldagi holat, sahifalar, testlar, xavfsizlik va ishga tushirish:
+[STAGE2_GRADE6_BATCH1.md](STAGE2_GRADE6_BATCH1.md).
+
+## 1-bosqich yakunining saqlangan hisoboti — cb46a02
+
+Quyidagi «0 dars/runtime yo‘q» jumlalari **2026-10-21 xaritalash yakuni** haqida.
+Hozirgi lokal partiya alohida yuqorida; stage-one katalog/publication metadata
+va olti sinfning source yozuvlari qayta generatsiya qilinmagan.
 
 Sana: **2026-10-21**. **Olti sinfning mavjud manba doirasidagi barcha 316 raqamlangan
 bo‘limi xaritalangan. To‘liq fan-fakt/formula tekshiruvi hali yakunlanmagan.**
