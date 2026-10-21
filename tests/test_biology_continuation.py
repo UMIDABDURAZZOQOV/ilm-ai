@@ -102,11 +102,10 @@ def test_distinct_continuation_questions_and_honest_theory_activity_counts():
     assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
     report = readiness_report(catalog, lessons)
     assert sum(r["topics"] for r in report) == 355
-    assert sum(r["ready_theory_lessons"] for r in report) == 329
-    assert sum(r["ready_activities"] for r in report) == 48
-    assert all(r["course_ready"] for r in report[:6])
-    assert not any(r["course_ready"] for r in report[6:])
-    for row in report[:6]:
+    assert sum(r["ready_theory_lessons"] for r in report) == 355
+    assert sum(r["ready_activities"] for r in report) == 51
+    assert all(r["course_ready"] for r in report)
+    for row in report:
         assert row["remaining_topics"] == 0
         assert row["remaining_activity_ids"] == []
 
@@ -174,7 +173,7 @@ def test_citation_uses_printed_activity_number_and_preserves_catalogue_id(
     assert result["paragraph"] == paragraph
 
 
-def test_complete_grades5_to10_and_grade11_continuation_api_once_only_xp(setup, tmp_path):
+def test_complete_grades5_to11_api_once_only_xp(setup, tmp_path):
     client, factory = setup
     catalog, _ = load_documents()
     lessons = load_lesson_set()
@@ -187,8 +186,7 @@ def test_complete_grades5_to10_and_grade11_continuation_api_once_only_xp(setup, 
         tree = client.get(f"/skills/1/tree?subject=biologiya&grade={grade}").json()
         units = tree["units"]
         for unit in units:
-            if grade < 11:
-                assert unit["coverage_complete"]
+            assert unit["coverage_complete"]
             for row in unit["lessons"]:
                 lid = row["id"]
                 issued = client.post(
@@ -223,6 +221,17 @@ def test_complete_grades5_to10_and_grade11_continuation_api_once_only_xp(setup, 
                         ("lesson", data), ("row", row), ("result", result.json())
                     ]:
                         (tmp_path / f"biology_mendel_{suffix}.json").write_text(
+                            json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+                        )
+                final_fixture = {
+                    "biology-11-paragraph-44-v1": "biology_grade11_final",
+                    "biology-11-laboratory-5-v1": "biology_grade11_lab5",
+                }.get(row["slug"])
+                if final_fixture:
+                    for suffix, payload in [
+                        ("lesson", data), ("row", row), ("result", result.json())
+                    ]:
+                        (tmp_path / f"{final_fixture}_{suffix}.json").write_text(
                             json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
                         )
                 assert (
@@ -268,8 +277,23 @@ def test_complete_grades5_to10_and_grade11_continuation_api_once_only_xp(setup, 
         outline = client.get(
             f"/skills/1/curriculum?subject=biologiya&grade={grade}"
         ).json()
-        assert outline["completed"] is (grade < 11)
+        assert outline["completed"] is True
         assert outline["next_grade"] == (grade + 1 if grade < 11 else None)
+        if grade == 11:
+            (tmp_path / "biology_grade11_complete_outline.json").write_text(
+                json.dumps(outline, ensure_ascii=False, indent=2) + "\n"
+            )
+            for name, url in [
+                ("biology_complete_grades", "/skills/subjects/biologiya/grades"),
+                ("biology_grade11_complete_tree", "/skills/1/tree?subject=biologiya&grade=11"),
+            ]:
+                response = client.get(url)
+                assert response.status_code == 200, response.text
+                (tmp_path / f"{name}.json").write_text(
+                    json.dumps(response.json(), ensure_ascii=False, indent=2) + "\n"
+                )
+    assert checkpoints == 47  # 46 textbook chapters plus the grade-8 introduction
+    assert events - checkpoints == 406  # 355 theory lessons and 51 digital activities
     with factory.begin() as db:
         assert db.get(User, 1).xp_total == xp
         assert db.query(StudyEvent).count() == events

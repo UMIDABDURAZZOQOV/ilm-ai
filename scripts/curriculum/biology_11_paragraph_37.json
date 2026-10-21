@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-37-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-44",
+  "title": "O‘simliklarning generativ organlari filogenezi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-37-f1": {
+      "claim": "Generativ organlar ko‘payish va keyingi avlod shakllanishida qatnashadi; ularni vegetativ organ vazifasidan farqlash kerak.",
+      "answer": "Generativ",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          190
+        ],
+        "printed_pages": [
+          190
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-37-f2": {
+      "claim": "Gametofit gametalar, sporofit esa sporalar shakllanadigan hayot sikli bo‘g‘inidir.",
+      "answer": "Gametofit va sporofit",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          191
+        ],
+        "printed_pages": [
+          191
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-37-f3": {
+      "claim": "Yo‘sinlarda gametofit, qirqquloq va qirqbo‘g‘imlarda sporofit hayot siklining ustun ko‘rinadigan bo‘g‘inidir.",
+      "answer": "Yo‘sinda gametofit, qirqquloqda sporofit",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          191
+        ],
+        "printed_pages": [
+          191
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-37-f4": {
+      "claim": "Ko‘plab sporali quruqlik o‘simliklarida harakatchan spermatozoidning tuxumga yetishi uchun namlik zarur.",
+      "answer": "Harakatchan gametaning tuxumga yetishiga sharoit beradi",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          192
+        ],
+        "printed_pages": [
+          192
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-37-f5": {
+      "claim": "Urug‘ murtak, himoya qobig‘i va oziq zaxirasi bilan bog‘liq murakkab tuzilmadir; zaxiraning joylashishi guruhga qarab farqlanadi.",
+      "answer": "Urug‘da ko‘p hujayrali murtak va himoya tuzilmalari bor",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          192
+        ],
+        "printed_pages": [
+          192
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-37-f6": {
+      "claim": "Chang naychasi urug‘li o‘simliklarda jinsiy axborotni yetkazishda qatnashadi va tashqi suv qatlamiga bog‘liqlikni kamaytiradi.",
+      "answer": "Urug‘lanishning tashqi erkin suvga bog‘liqligi kamayishi",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          192
+        ],
+        "printed_pages": [
+          192
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-37-f7": {
+      "claim": "Gulli o‘simlikda urug‘kurtak urug‘ga, tuguncha ko‘pincha mevaning asosiy qismiga rivojlanadi.",
+      "answer": "Urug‘ va meva",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          192
+        ],
+        "printed_pages": [
+          192
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-37-f8": {
+      "claim": "Changlanish bilan urug‘-meva tarqalishi turli bosqichlardir; shamol va hayvonlar har ikkala tur aloqada turlicha qatnashishi mumkin.",
+      "answer": "Bu urug‘ tarqalishi bosqichi",
+      "source": {
+        "paragraph": 37,
+        "pdf_pages": [
+          193
+        ],
+        "printed_pages": [
+          193
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Generativ tizim",
+      "body": "Generativ organlar ko‘payish va keyingi avlod shakllanishida qatnashadi; ularni vegetativ organ vazifasidan farqlash kerak.",
+      "fact_ids": [
+        "paragraph-37-f1"
+      ]
+    },
+    {
+      "title": "Nasl almashinuvi",
+      "body": "Gametofit gametalar, sporofit esa sporalar shakllanadigan hayot sikli bo‘g‘inidir.",
+      "fact_ids": [
+        "paragraph-37-f2"
+      ]
+    },
+    {
+      "title": "Ustun bo‘g‘in",
+      "body": "Yo‘sinlarda gametofit, qirqquloq va qirqbo‘g‘imlarda sporofit hayot siklining ustun ko‘rinadigan bo‘g‘inidir.",
+      "fact_ids": [
+        "paragraph-37-f3"
+      ]
+    },
+    {
+      "title": "Suvga bog‘liq urug‘lanish",
+      "body": "Ko‘plab sporali quruqlik o‘simliklarida harakatchan spermatozoidning tuxumga yetishi uchun namlik zarur.",
+      "fact_ids": [
+        "paragraph-37-f4"
+      ]
+    },
+    {
+      "title": "Urug‘dagi himoya",
+      "body": "Urug‘ murtak, himoya qobig‘i va oziq zaxirasi bilan bog‘liq murakkab tuzilmadir; zaxiraning joylashishi guruhga qarab farqlanadi.",
+      "fact_ids": [
+        "paragraph-37-f5"
+      ]
+    },
+    {
+      "title": "Chang naychasi",
+      "body": "Chang naychasi urug‘li o‘simliklarda jinsiy axborotni yetkazishda qatnashadi va tashqi suv qatlamiga bog‘liqlikni kamaytiradi.",
+      "fact_ids": [
+        "paragraph-37-f6"
+      ]
+    },
+    {
+      "title": "Urug‘kurtak va meva",
+      "body": "Gulli o‘simlikda urug‘kurtak urug‘ga, tuguncha ko‘pincha mevaning asosiy qismiga rivojlanadi.",
+      "fact_ids": [
+        "paragraph-37-f7"
+      ]
+    },
+    {
+      "title": "Tarqalish aloqalari",
+      "body": "Changlanish bilan urug‘-meva tarqalishi turli bosqichlardir; shamol va hayvonlar har ikkala tur aloqada turlicha qatnashishi mumkin.",
+      "fact_ids": [
+        "paragraph-37-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-37-q1",
+      "fact_id": "paragraph-37-f1",
+      "question_text": "Gulning ko‘payishdagi ishtiroki uni qaysi vazifaviy guruhga kiritadi?",
+      "options": [
+        "Generativ",
+        "Faqat mexanik abiotik",
+        "Faqat ildizning suv shimishi",
+        "Faqat bargning kundalik gaz almashinuvi"
+      ],
+      "correct_answer": "Generativ",
+      "explanation": "Generativ organlar ko‘payish va keyingi avlod shakllanishida qatnashadi; ularni vegetativ organ vazifasidan farqlash kerak."
+    },
+    {
+      "key": "paragraph-37-q2",
+      "fact_id": "paragraph-37-f2",
+      "question_text": "Gametalar va sporalar hosil bo‘lishini moslang.",
+      "options": [
+        "Sporofit va gametofit",
+        "Ikkalasi faqat bitta urug‘ po‘sti",
+        "Ikkalasi faqat urug‘chining mevasi",
+        "Gametofit va sporofit"
+      ],
+      "correct_answer": "Gametofit va sporofit",
+      "explanation": "Gametofit gametalar, sporofit esa sporalar shakllanadigan hayot sikli bo‘g‘inidir."
+    },
+    {
+      "key": "paragraph-37-q3",
+      "fact_id": "paragraph-37-f3",
+      "question_text": "Yo‘sin bilan qirqquloq ustun bo‘g‘inlarini moslang.",
+      "options": [
+        "Ikkalasida faqat yetuk urug‘",
+        "Yo‘sinda gul, qirqquloqda meva",
+        "Yo‘sinda gametofit, qirqquloqda sporofit",
+        "Ikkalasida faqat gameta"
+      ],
+      "correct_answer": "Yo‘sinda gametofit, qirqquloqda sporofit",
+      "explanation": "Yo‘sinlarda gametofit, qirqquloq va qirqbo‘g‘imlarda sporofit hayot siklining ustun ko‘rinadigan bo‘g‘inidir."
+    },
+    {
+      "key": "paragraph-37-q4",
+      "fact_id": "paragraph-37-f4",
+      "question_text": "Qirqquloq urug‘lanishida namlik nega muhim?",
+      "options": [
+        "Urug‘chi tugunchasini avtomatik yaratadi",
+        "Harakatchan gametaning tuxumga yetishiga sharoit beradi",
+        "Har qanday sporani to‘g‘ridan-to‘g‘ri urug‘ qiladi",
+        "Har bir gametani fotosintezlovchi barg qiladi"
+      ],
+      "correct_answer": "Harakatchan gametaning tuxumga yetishiga sharoit beradi",
+      "explanation": "Ko‘plab sporali quruqlik o‘simliklarida harakatchan spermatozoidning tuxumga yetishi uchun namlik zarur."
+    },
+    {
+      "key": "paragraph-37-q5",
+      "fact_id": "paragraph-37-f5",
+      "question_text": "Urug‘ni oddiy bitta spora bilan aynanlashtirishdagi muammo nima?",
+      "options": [
+        "Urug‘da ko‘p hujayrali murtak va himoya tuzilmalari bor",
+        "Har bir urug‘ faqat bitta yalang‘och yadro",
+        "Urug‘da hech qanday tirik tuzilma yo‘q",
+        "Urug‘ faqat abiotik qum"
+      ],
+      "correct_answer": "Urug‘da ko‘p hujayrali murtak va himoya tuzilmalari bor",
+      "explanation": "Urug‘ murtak, himoya qobig‘i va oziq zaxirasi bilan bog‘liq murakkab tuzilmadir; zaxiraning joylashishi guruhga qarab farqlanadi."
+    },
+    {
+      "key": "paragraph-37-q6",
+      "fact_id": "paragraph-37-f6",
+      "question_text": "Chang naychasining evolutsion ahamiyatini qaysi javob ifodalaydi?",
+      "options": [
+        "O‘simlikning umuman suvga ehtiyoji tugashi",
+        "Har bir urug‘li o‘simlikning suv hayvoniga aylanishi",
+        "Barcha ko‘payishning jinsiy bo‘lmay qolishi",
+        "Urug‘lanishning tashqi erkin suvga bog‘liqligi kamayishi"
+      ],
+      "correct_answer": "Urug‘lanishning tashqi erkin suvga bog‘liqligi kamayishi",
+      "explanation": "Chang naychasi urug‘li o‘simliklarda jinsiy axborotni yetkazishda qatnashadi va tashqi suv qatlamiga bog‘liqlikni kamaytiradi."
+    },
+    {
+      "key": "paragraph-37-q7",
+      "fact_id": "paragraph-37-f7",
+      "question_text": "Urug‘kurtak va tugunchaning rivojini moslang.",
+      "options": [
+        "Meva va hayvon tuxumi",
+        "Barg va poya po‘stlog‘i",
+        "Urug‘ va meva",
+        "Ikkalasi faqat ildiz tukchasi"
+      ],
+      "correct_answer": "Urug‘ va meva",
+      "explanation": "Gulli o‘simlikda urug‘kurtak urug‘ga, tuguncha ko‘pincha mevaning asosiy qismiga rivojlanadi."
+    },
+    {
+      "key": "paragraph-37-q8",
+      "fact_id": "paragraph-37-f8",
+      "question_text": "Qushning urug‘li mevani ko‘chirishini changlanishning o‘zi deyish nega xato?",
+      "options": [
+        "Urug‘ tarqalishi faqat suvda bo‘ladi",
+        "Bu urug‘ tarqalishi bosqichi",
+        "Qush hech qachon o‘simlik bilan bog‘lanmaydi",
+        "Har bir meva chang donasidir"
+      ],
+      "correct_answer": "Bu urug‘ tarqalishi bosqichi",
+      "explanation": "Changlanish bilan urug‘-meva tarqalishi turli bosqichlardir; shamol va hayvonlar har ikkala tur aloqada turlicha qatnashishi mumkin."
+    }
+  ]
+}

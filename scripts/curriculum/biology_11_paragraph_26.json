@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-26-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-32",
+  "title": "Biosferaning tarkibi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-26-f1": {
+      "claim": "Vernadskiy ta’limotidagi tirik modda barcha tirik organizmlar majmuasidir; u faqat hayvonlar yoki odamlar bilan chegaralanmaydi.",
+      "answer": "Tirik modda",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f2": {
+      "claim": "Granit va bazalt kabi jinslar hayot faoliyatiga bog‘liq bo‘lmagan geologik jarayonlarga misol sifatida keltiriladi.",
+      "answer": "Kelib chiqishiga ko‘ra abiotik jarayon",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          140
+        ],
+        "printed_pages": [
+          140
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f3": {
+      "claim": "Biogen moddalar organizmlar faoliyati yoki organik qoldiqlari bilan bog‘liq holda hosil bo‘ladi; ko‘mir va torf shu kontekstda o‘rganiladi.",
+      "answer": "Qadimgi organik qoldiqlar bilan bog‘liq kelib chiqishiga",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f4": {
+      "claim": "Tuproq tirik organizmlar va abiotik jarayonlar birgalikdagi ta’sirida shakllanadi.",
+      "answer": "Ikkala tur jarayonning birgalikdagi hissasi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f5": {
+      "claim": "Radioaktiv elementlar va ularning parchalanishi bilan bog‘liq moddalar kelib chiqish tasnifida alohida guruh sifatida ajratiladi.",
+      "answer": "Parchalanish jarayoni bilan tirik organizm majmuasini",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f6": {
+      "claim": "Meteorit va kosmik chang biosferaga tashqaridan keladigan kosmik moddalar misollaridir.",
+      "answer": "Kosmik moddalar",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f7": {
+      "claim": "Ayrim element atomlari tabiatda tarqoq holda uchrashi tasnifning alohida jihatidir; guruhlar o‘zaro bog‘langan holda o‘rganiladi.",
+      "answer": "Kelib chiqishi va tabiatdagi holati bilan",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          141
+        ],
+        "printed_pages": [
+          141
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tirik modda",
+      "body": "Vernadskiy ta’limotidagi tirik modda barcha tirik organizmlar majmuasidir; u faqat hayvonlar yoki odamlar bilan chegaralanmaydi.",
+      "fact_ids": [
+        "paragraph-26-f1"
+      ]
+    },
+    {
+      "title": "Abiotik kelib chiqish",
+      "body": "Granit va bazalt kabi jinslar hayot faoliyatiga bog‘liq bo‘lmagan geologik jarayonlarga misol sifatida keltiriladi.",
+      "fact_ids": [
+        "paragraph-26-f2"
+      ]
+    },
+    {
+      "title": "Biogen modda",
+      "body": "Biogen moddalar organizmlar faoliyati yoki organik qoldiqlari bilan bog‘liq holda hosil bo‘ladi; ko‘mir va torf shu kontekstda o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-26-f3"
+      ]
+    },
+    {
+      "title": "Aralash kelib chiqish",
+      "body": "Tuproq tirik organizmlar va abiotik jarayonlar birgalikdagi ta’sirida shakllanadi.",
+      "fact_ids": [
+        "paragraph-26-f4"
+      ]
+    },
+    {
+      "title": "Radioaktiv guruh",
+      "body": "Radioaktiv elementlar va ularning parchalanishi bilan bog‘liq moddalar kelib chiqish tasnifida alohida guruh sifatida ajratiladi.",
+      "fact_ids": [
+        "paragraph-26-f5"
+      ]
+    },
+    {
+      "title": "Kosmik kirim",
+      "body": "Meteorit va kosmik chang biosferaga tashqaridan keladigan kosmik moddalar misollaridir.",
+      "fact_ids": [
+        "paragraph-26-f6"
+      ]
+    },
+    {
+      "title": "Tarqoq atomlar",
+      "body": "Ayrim element atomlari tabiatda tarqoq holda uchrashi tasnifning alohida jihatidir; guruhlar o‘zaro bog‘langan holda o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-26-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-26-q1",
+      "fact_id": "paragraph-26-f1",
+      "question_text": "Bakteriya, daraxt va zamburug‘ni birlashtiradigan biosfera guruhi qaysi?",
+      "options": [
+        "Tirik modda",
+        "Faqat kosmik chang",
+        "Faqat radioaktiv parchalanish mahsuloti",
+        "Faqat granit"
+      ],
+      "correct_answer": "Tirik modda",
+      "explanation": "Vernadskiy ta’limotidagi tirik modda barcha tirik organizmlar majmuasidir; u faqat hayvonlar yoki odamlar bilan chegaralanmaydi."
+    },
+    {
+      "key": "paragraph-26-q2",
+      "fact_id": "paragraph-26-f2",
+      "question_text": "Bazaltning vulqon jarayoni bilan bog‘lanishi qanday tasnif mezoniga mos?",
+      "options": [
+        "Faqat jismning qattiqligidan uning tirikligini chiqarish",
+        "Faqat rangiga ko‘ra barcha jinsni hayvon qilish",
+        "Har bir jinsni tayyor hujayra deyish",
+        "Kelib chiqishiga ko‘ra abiotik jarayon"
+      ],
+      "correct_answer": "Kelib chiqishiga ko‘ra abiotik jarayon",
+      "explanation": "Granit va bazalt kabi jinslar hayot faoliyatiga bog‘liq bo‘lmagan geologik jarayonlarga misol sifatida keltiriladi."
+    },
+    {
+      "key": "paragraph-26-q3",
+      "fact_id": "paragraph-26-f3",
+      "question_text": "Ko‘mirni biologik tarix bilan bog‘lash nimaga tayanadi?",
+      "options": [
+        "Har bir bo‘lakda tirik yurak borligiga",
+        "Ko‘mirning faqat kosmosdan tushishiga",
+        "Qadimgi organik qoldiqlar bilan bog‘liq kelib chiqishiga",
+        "Ko‘mirning hozir nafas olishiga"
+      ],
+      "correct_answer": "Qadimgi organik qoldiqlar bilan bog‘liq kelib chiqishiga",
+      "explanation": "Biogen moddalar organizmlar faoliyati yoki organik qoldiqlari bilan bog‘liq holda hosil bo‘ladi; ko‘mir va torf shu kontekstda o‘rganiladi."
+    },
+    {
+      "key": "paragraph-26-q4",
+      "fact_id": "paragraph-26-f4",
+      "question_text": "Tuproqni faqat biogen yoki faqat abiotik deb cheklash o‘rniga nima hisobga olinadi?",
+      "options": [
+        "Faqat tuproqning mutlaqo o‘zgarmasligi",
+        "Ikkala tur jarayonning birgalikdagi hissasi",
+        "Faqat uning nomi",
+        "Faqat barcha tuproqning bir xil rangi"
+      ],
+      "correct_answer": "Ikkala tur jarayonning birgalikdagi hissasi",
+      "explanation": "Tuproq tirik organizmlar va abiotik jarayonlar birgalikdagi ta’sirida shakllanadi."
+    },
+    {
+      "key": "paragraph-26-q5",
+      "fact_id": "paragraph-26-f5",
+      "question_text": "Radioaktiv parchalanish mahsulotini tirik modda deyishdan oldin nimani farqlash kerak?",
+      "options": [
+        "Parchalanish jarayoni bilan tirik organizm majmuasini",
+        "Faqat mahsulot nomidagi harflarni",
+        "Faqat idish shaklini",
+        "Faqat namunaning kattaligini"
+      ],
+      "correct_answer": "Parchalanish jarayoni bilan tirik organizm majmuasini",
+      "explanation": "Radioaktiv elementlar va ularning parchalanishi bilan bog‘liq moddalar kelib chiqish tasnifida alohida guruh sifatida ajratiladi."
+    },
+    {
+      "key": "paragraph-26-q6",
+      "fact_id": "paragraph-26-f6",
+      "question_text": "Meteoritni qaysi kelib chiqish guruhi bilan bog‘laymiz?",
+      "options": [
+        "Har doim tirik modda",
+        "Faqat o‘simlik hosili",
+        "Faqat tuproqdagi ildiz ajratmasi",
+        "Kosmik moddalar"
+      ],
+      "correct_answer": "Kosmik moddalar",
+      "explanation": "Meteorit va kosmik chang biosferaga tashqaridan keladigan kosmik moddalar misollaridir."
+    },
+    {
+      "key": "paragraph-26-q7",
+      "fact_id": "paragraph-26-f7",
+      "question_text": "Moddani faqat rangi bilan emas, qanday mezon bilan guruhlash bo‘lim maqsadiga mos?",
+      "options": [
+        "Faqat namuna narxi bilan",
+        "Faqat tadqiqotchi imzosi bilan",
+        "Kelib chiqishi va tabiatdagi holati bilan",
+        "Faqat nom uzunligi bilan"
+      ],
+      "correct_answer": "Kelib chiqishi va tabiatdagi holati bilan",
+      "explanation": "Ayrim element atomlari tabiatda tarqoq holda uchrashi tasnifning alohida jihatidir; guruhlar o‘zaro bog‘langan holda o‘rganiladi."
+    }
+  ]
+}

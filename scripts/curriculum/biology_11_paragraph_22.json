@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-22-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-26",
+  "title": "Biogeotsenozlarning barqarorligi.",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-22-f1": {
+      "claim": "Ekosistema barqarorligi o‘zgaruvchan sharoitda uning muhim tuzilish va funksiyalarini saqlashi bilan baholanadi.",
+      "answer": "O‘zgarish paytida funksiyalarni saqlash yoki tiklash qobiliyati",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-22-f2": {
+      "claim": "Turli oziq aloqalari ayrim sharoitlarda muqobil resurslar orqali barqarorlikka yordam berishi mumkin; barcha buzilishdan cheksiz himoya emas.",
+      "answer": "Bir manba kamayganda boshqa aloqadan foydalanish",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-22-f3": {
+      "claim": "Suksessiya hududdagi jamoa tarkibining vaqt bo‘yicha izchil almashishidir.",
+      "answer": "Suksessiyaga",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-22-f4": {
+      "claim": "Birlamchi suksessiya tuproq hali shakllanmagan yalang‘och substratda boshlanishi mumkin.",
+      "answer": "Birlamchi suksessiya",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-22-f5": {
+      "claim": "Klimaks darslikda nisbatan yetilgan, muhit bilan dinamik muvozanatdagi jamoa bosqichi sifatida ishlatiladi; u o‘zgarmas yakun emas.",
+      "answer": "Nisbatan barqaror, ammo o‘zgarishi mumkin bo‘lgan bosqich",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-22-f6": {
+      "claim": "Yong‘in yoki kesishdan so‘ng tuproq va ayrim yerosti qismlari saqlansa, ikkilamchi suksessiya yuz berishi mumkin.",
+      "answer": "Ikkilamchi suksessiya",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-22-f7": {
+      "claim": "Saqlangan tuproq, urug‘ va yerosti organlari tiklanishga hissa qo‘shishi mumkin; tiklanish muddati barcha joyda bir xil emas.",
+      "answer": "Oldingi jamoaning ayrim qismlari saqlangan",
+      "source": {
+        "paragraph": 22,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Barqarorlik ma’nosi",
+      "body": "Ekosistema barqarorligi o‘zgaruvchan sharoitda uning muhim tuzilish va funksiyalarini saqlashi bilan baholanadi.",
+      "fact_ids": [
+        "paragraph-22-f1"
+      ]
+    },
+    {
+      "title": "Trofik xilma-xillik",
+      "body": "Turli oziq aloqalari ayrim sharoitlarda muqobil resurslar orqali barqarorlikka yordam berishi mumkin; barcha buzilishdan cheksiz himoya emas.",
+      "fact_ids": [
+        "paragraph-22-f2"
+      ]
+    },
+    {
+      "title": "Suksessiya",
+      "body": "Suksessiya hududdagi jamoa tarkibining vaqt bo‘yicha izchil almashishidir.",
+      "fact_ids": [
+        "paragraph-22-f3"
+      ]
+    },
+    {
+      "title": "Birlamchi boshlanish",
+      "body": "Birlamchi suksessiya tuproq hali shakllanmagan yalang‘och substratda boshlanishi mumkin.",
+      "fact_ids": [
+        "paragraph-22-f4"
+      ]
+    },
+    {
+      "title": "Klimaks tushunchasi",
+      "body": "Klimaks darslikda nisbatan yetilgan, muhit bilan dinamik muvozanatdagi jamoa bosqichi sifatida ishlatiladi; u o‘zgarmas yakun emas.",
+      "fact_ids": [
+        "paragraph-22-f5"
+      ]
+    },
+    {
+      "title": "Ikkilamchi boshlanish",
+      "body": "Yong‘in yoki kesishdan so‘ng tuproq va ayrim yerosti qismlari saqlansa, ikkilamchi suksessiya yuz berishi mumkin.",
+      "fact_ids": [
+        "paragraph-22-f6"
+      ]
+    },
+    {
+      "title": "Tiklanish manbalari",
+      "body": "Saqlangan tuproq, urug‘ va yerosti organlari tiklanishga hissa qo‘shishi mumkin; tiklanish muddati barcha joyda bir xil emas.",
+      "fact_ids": [
+        "paragraph-22-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-22-q1",
+      "fact_id": "paragraph-22-f1",
+      "question_text": "Barqaror tizimni hech qachon o‘zgarmaydigan tizim deyish o‘rniga nima tekshiriladi?",
+      "options": [
+        "O‘zgarish paytida funksiyalarni saqlash yoki tiklash qobiliyati",
+        "Faqat bir kunlik surat",
+        "Faqat tur nomlarining uzunligi",
+        "Faqat bitta organizmning rangi"
+      ],
+      "correct_answer": "O‘zgarish paytida funksiyalarni saqlash yoki tiklash qobiliyati",
+      "explanation": "Ekosistema barqarorligi o‘zgaruvchan sharoitda uning muhim tuzilish va funksiyalarini saqlashi bilan baholanadi."
+    },
+    {
+      "key": "paragraph-22-q2",
+      "fact_id": "paragraph-22-f2",
+      "question_text": "Oziq tarmog‘ida muqobil manbalar bo‘lishi qanday imkoniyat beradi?",
+      "options": [
+        "Har qanday ta’sirni mutlaqo zararsiz qilish",
+        "Barcha turlarni bir individga aylantirish",
+        "Energiya talabini yo‘qotish",
+        "Bir manba kamayganda boshqa aloqadan foydalanish"
+      ],
+      "correct_answer": "Bir manba kamayganda boshqa aloqadan foydalanish",
+      "explanation": "Turli oziq aloqalari ayrim sharoitlarda muqobil resurslar orqali barqarorlikka yordam berishi mumkin; barcha buzilishdan cheksiz himoya emas."
+    },
+    {
+      "key": "paragraph-22-q3",
+      "fact_id": "paragraph-22-f3",
+      "question_text": "Bir necha yil davomida o‘tlar o‘rnini butalar egallay boshlashi nimaga mos?",
+      "options": [
+        "Faqat bitta DNK asosiga",
+        "Faqat hayvonning ovqatlanishiga",
+        "Suksessiyaga",
+        "Faqat bir sutkalik nafas olishga"
+      ],
+      "correct_answer": "Suksessiyaga",
+      "explanation": "Suksessiya hududdagi jamoa tarkibining vaqt bo‘yicha izchil almashishidir."
+    },
+    {
+      "key": "paragraph-22-q4",
+      "fact_id": "paragraph-22-f4",
+      "question_text": "Sovigan yalang‘och lava yuzasida jamoa paydo bo‘lishi qaysi turga misol?",
+      "options": [
+        "Faqat bir gulning ochilishi",
+        "Birlamchi suksessiya",
+        "Faqat tuproq saqlangan ikkilamchi tiklanish",
+        "Faqat fasliy barg to‘kilishi"
+      ],
+      "correct_answer": "Birlamchi suksessiya",
+      "explanation": "Birlamchi suksessiya tuproq hali shakllanmagan yalang‘och substratda boshlanishi mumkin."
+    },
+    {
+      "key": "paragraph-22-q5",
+      "fact_id": "paragraph-22-f5",
+      "question_text": "Klimaks bosqichini qaysi talqin ehtiyotkor ifodalaydi?",
+      "options": [
+        "Nisbatan barqaror, ammo o‘zgarishi mumkin bo‘lgan bosqich",
+        "Hech qanday omil ta’sir qilolmaydigan abadiy holat",
+        "Har qanday hududda aynan bir xil tur ro‘yxati",
+        "Barcha organizmlarning o‘limi"
+      ],
+      "correct_answer": "Nisbatan barqaror, ammo o‘zgarishi mumkin bo‘lgan bosqich",
+      "explanation": "Klimaks darslikda nisbatan yetilgan, muhit bilan dinamik muvozanatdagi jamoa bosqichi sifatida ishlatiladi; u o‘zgarmas yakun emas."
+    },
+    {
+      "key": "paragraph-22-q6",
+      "fact_id": "paragraph-22-f6",
+      "question_text": "Tuproq saqlangan o‘rmon maydonining qayta tiklanishi qaysi jarayon?",
+      "options": [
+        "Yalang‘och jinsdan boshlanishi shart bo‘lgan birlamchi jarayon",
+        "Faqat yangi sayyora hosil bo‘lishi",
+        "Faqat gametalar qo‘shilishi",
+        "Ikkilamchi suksessiya"
+      ],
+      "correct_answer": "Ikkilamchi suksessiya",
+      "explanation": "Yong‘in yoki kesishdan so‘ng tuproq va ayrim yerosti qismlari saqlansa, ikkilamchi suksessiya yuz berishi mumkin."
+    },
+    {
+      "key": "paragraph-22-q7",
+      "fact_id": "paragraph-22-f7",
+      "question_text": "Ikkilamchi tiklanish ba’zan tezroq kechishini qaysi dalil izohlaydi?",
+      "options": [
+        "Har bir tizimda vaqt aniq bir xil",
+        "Organizmlar modda ishlatmaydi",
+        "Oldingi jamoaning ayrim qismlari saqlangan",
+        "Barcha muhit omili yo‘qolgan"
+      ],
+      "correct_answer": "Oldingi jamoaning ayrim qismlari saqlangan",
+      "explanation": "Saqlangan tuproq, urug‘ va yerosti organlari tiklanishga hissa qo‘shishi mumkin; tiklanish muddati barcha joyda bir xil emas."
+    }
+  ]
+}

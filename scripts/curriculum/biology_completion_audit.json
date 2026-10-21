@@ -1,0 +1,991 @@
+{
+  "schema_version": 1,
+  "scope": "reviewed_content_coverage_not_production_or_physical_lab_approval",
+  "content_sha256": "a58bebf883d1b8eb02005a51af0f967b9808db52d36a388d9b595a3ec7923620",
+  "complete": true,
+  "totals": {
+    "books": 7,
+    "chapters": 46,
+    "introductions": 1,
+    "theory_lessons": 355,
+    "digital_activities": 51,
+    "cards": 2527,
+    "questions": 2609
+  },
+  "grades": [
+    {
+      "grade": 5,
+      "chapters": 3,
+      "introductions": 0,
+      "numbered_paragraphs": 18,
+      "topics": 18,
+      "laboratories": 4,
+      "practicals": 8,
+      "ready_topics": 18,
+      "ready_lessons": 30,
+      "ready_theory_lessons": 18,
+      "ready_activities": 12,
+      "remaining_topics": 0,
+      "remaining_activity_ids": [],
+      "questions": 182,
+      "remaining_topic_ids": [],
+      "course_ready": true
+    },
+    {
+      "grade": 6,
+      "chapters": 5,
+      "introductions": 0,
+      "numbered_paragraphs": 59,
+      "topics": 59,
+      "laboratories": 7,
+      "practicals": 0,
+      "ready_topics": 59,
+      "ready_lessons": 66,
+      "ready_theory_lessons": 59,
+      "ready_activities": 7,
+      "remaining_topics": 0,
+      "remaining_activity_ids": [],
+      "questions": 331,
+      "remaining_topic_ids": [],
+      "course_ready": true
+    },
+    {
+      "grade": 7,
+      "chapters": 8,
+      "introductions": 0,
+      "numbered_paragraphs": 59,
+      "topics": 59,
+      "laboratories": 5,
+      "practicals": 0,
+      "ready_topics": 59,
+      "ready_lessons": 64,
+      "ready_theory_lessons": 59,
+      "ready_activities": 5,
+      "remaining_topics": 0,
+      "remaining_activity_ids": [],
+      "questions": 381,
+      "remaining_topic_ids": [],
+      "course_ready": true
+    },
+    {
+      "grade": 8,
+      "chapters": 13,
+      "introductions": 1,
+      "numbered_paragraphs": 61,
+      "topics": 61,
+      "laboratories": 7,
+      "practicals": 0,
+      "ready_topics": 61,
+      "ready_lessons": 68,
+      "ready_theory_lessons": 61,
+      "ready_activities": 7,
+      "remaining_topics": 0,
+      "remaining_activity_ids": [],
+      "questions": 435,
+      "remaining_topic_ids": [],
+      "course_ready": true
+    },
+    {
+      "grade": 9,
+      "chapters": 8,
+      "introductions": 0,
+      "numbered_paragraphs": 67,
+      "topics": 56,
+      "laboratories": 8,
+      "practicals": 3,
+      "ready_topics": 56,
+      "ready_lessons": 67,
+      "ready_theory_lessons": 56,
+      "ready_activities": 11,
+      "remaining_topics": 0,
+      "remaining_activity_ids": [],
+      "questions": 474,
+      "remaining_topic_ids": [],
+      "course_ready": true
+    },
+    {
+      "grade": 10,
+      "chapters": 5,
+      "introductions": 0,
+      "numbered_paragraphs": 58,
+      "topics": 58,
+      "laboratories": 4,
+      "practicals": 0,
+      "ready_topics": 58,
+      "ready_lessons": 62,
+      "ready_theory_lessons": 58,
+      "ready_activities": 4,
+      "remaining_topics": 0,
+      "remaining_activity_ids": [],
+      "questions": 428,
+      "remaining_topic_ids": [],
+      "course_ready": true
+    },
+    {
+      "grade": 11,
+      "chapters": 4,
+      "introductions": 0,
+      "numbered_paragraphs": 44,
+      "topics": 44,
+      "laboratories": 5,
+      "practicals": 0,
+      "ready_topics": 44,
+      "ready_lessons": 49,
+      "ready_theory_lessons": 44,
+      "ready_activities": 5,
+      "remaining_topics": 0,
+      "remaining_activity_ids": [],
+      "questions": 378,
+      "remaining_topic_ids": [],
+      "course_ready": true
+    }
+  ],
+  "chapters": [
+    {
+      "grade": 5,
+      "chapter_id": "bio-5-chapter-1",
+      "title": "I BOB. BIOLOGIYA TIRIK ORGANIZMLAR HAQIDAGI FAN",
+      "kind": "chapter",
+      "pdf_range": [
+        5,
+        24
+      ],
+      "printed_range": [
+        4,
+        23
+      ],
+      "theory_topics": 4,
+      "activities": 3,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 5,
+      "chapter_id": "bio-5-chapter-6",
+      "title": "II BOB. TIRIK ORGANIZMLARNING XILMA-XILLIGI",
+      "kind": "chapter",
+      "pdf_range": [
+        24,
+        81
+      ],
+      "printed_range": [
+        23,
+        80
+      ],
+      "theory_topics": 11,
+      "activities": 7,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 5,
+      "chapter_id": "bio-5-chapter-18",
+      "title": "III BOB. ORGANIZM VA TASHQI MUHIT",
+      "kind": "chapter",
+      "pdf_range": [
+        81,
+        92
+      ],
+      "printed_range": [
+        80,
+        91
+      ],
+      "theory_topics": 3,
+      "activities": 2,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 6,
+      "chapter_id": "bio-6-chapter-1",
+      "title": "I bob. O‘simliklar dunyosi bilan umumiy tanishuv",
+      "kind": "chapter",
+      "pdf_range": [
+        4,
+        11
+      ],
+      "printed_range": [
+        4,
+        11
+      ],
+      "theory_topics": 3,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 6,
+      "chapter_id": "bio-6-chapter-5",
+      "title": "II bob. Hujayra – hayotning asosi",
+      "kind": "chapter",
+      "pdf_range": [
+        12,
+        21
+      ],
+      "printed_range": [
+        12,
+        21
+      ],
+      "theory_topics": 3,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 6,
+      "chapter_id": "bio-6-chapter-9",
+      "title": "III bob. Gulli o‘simliklarning vegetativ va generativ organlari",
+      "kind": "chapter",
+      "pdf_range": [
+        21,
+        60
+      ],
+      "printed_range": [
+        21,
+        60
+      ],
+      "theory_topics": 18,
+      "activities": 5,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 6,
+      "chapter_id": "bio-6-chapter-28",
+      "title": "IV bob. Gulli o‘simliklarning hayotiy faoliyati",
+      "kind": "chapter",
+      "pdf_range": [
+        60,
+        92
+      ],
+      "printed_range": [
+        60,
+        92
+      ],
+      "theory_topics": 13,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 6,
+      "chapter_id": "bio-6-chapter-42",
+      "title": "V bob. O‘simliklar sistematikasi",
+      "kind": "chapter",
+      "pdf_range": [
+        92,
+        141
+      ],
+      "printed_range": [
+        92,
+        141
+      ],
+      "theory_topics": 22,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-1",
+      "title": "I BOB. Hayvonlar to‘g‘risida umumiy ma‘lumot",
+      "kind": "chapter",
+      "pdf_range": [
+        4,
+        11
+      ],
+      "printed_range": [
+        4,
+        11
+      ],
+      "theory_topics": 2,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-4",
+      "title": "II BOB. Bir hujayralilar, ya’ni sodda hayvonlar .",
+      "kind": "chapter",
+      "pdf_range": [
+        11,
+        23
+      ],
+      "printed_range": [
+        11,
+        23
+      ],
+      "theory_topics": 3,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-9",
+      "title": "III BOB. Ko‘p hujayrali hayvonlar: bo‘shliqichlilar tipi .",
+      "kind": "chapter",
+      "pdf_range": [
+        23,
+        31
+      ],
+      "printed_range": [
+        23,
+        31
+      ],
+      "theory_topics": 2,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-12",
+      "title": "IV BOB. Yassi va to‘garak chuvalchanglar tiplari",
+      "kind": "chapter",
+      "pdf_range": [
+        31,
+        45
+      ],
+      "printed_range": [
+        31,
+        45
+      ],
+      "theory_topics": 4,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-17",
+      "title": "V BOB. Halqali chuvalchanglar tipi",
+      "kind": "chapter",
+      "pdf_range": [
+        45,
+        53
+      ],
+      "printed_range": [
+        45,
+        53
+      ],
+      "theory_topics": 2,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-21",
+      "title": "VI BOB. Mollyuskalar tipi",
+      "kind": "chapter",
+      "pdf_range": [
+        53,
+        60
+      ],
+      "printed_range": [
+        53,
+        60
+      ],
+      "theory_topics": 2,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-24",
+      "title": "VII BOB. Bo‘g‘imoyoqlilar tipi .",
+      "kind": "chapter",
+      "pdf_range": [
+        60,
+        98
+      ],
+      "printed_range": [
+        60,
+        98
+      ],
+      "theory_topics": 12,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 7,
+      "chapter_id": "bio-7-chapter-41",
+      "title": "VIII BOB. Xordalilar tipi",
+      "kind": "chapter",
+      "pdf_range": [
+        98,
+        200
+      ],
+      "printed_range": [
+        98,
+        200
+      ],
+      "theory_topics": 32,
+      "activities": 2,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-introduction-1",
+      "title": "KIRISH",
+      "kind": "introduction",
+      "pdf_range": [
+        4,
+        8
+      ],
+      "printed_range": [
+        4,
+        8
+      ],
+      "theory_topics": 1,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-3",
+      "title": "I BOB. ODAM ORGANIZMI TO‘G‘RISIDA UMUMIY MA’LUMOT",
+      "kind": "chapter",
+      "pdf_range": [
+        9,
+        16
+      ],
+      "printed_range": [
+        9,
+        16
+      ],
+      "theory_topics": 3,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-7",
+      "title": "II BOB. ORGANIZM FUNKSIYASINING BOSHQARILISHI, SEKRETSIYA BEZLARI",
+      "kind": "chapter",
+      "pdf_range": [
+        17,
+        26
+      ],
+      "printed_range": [
+        17,
+        26
+      ],
+      "theory_topics": 4,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-12",
+      "title": "III BOB. TAYANCH-HARAKATLANISH SISTEMASI",
+      "kind": "chapter",
+      "pdf_range": [
+        27,
+        43
+      ],
+      "printed_range": [
+        27,
+        43
+      ],
+      "theory_topics": 5,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-18",
+      "title": "IV BOB. QON",
+      "kind": "chapter",
+      "pdf_range": [
+        44,
+        54
+      ],
+      "printed_range": [
+        44,
+        54
+      ],
+      "theory_topics": 4,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-23",
+      "title": "V BOB. QON AYLANISH SISTEMASI",
+      "kind": "chapter",
+      "pdf_range": [
+        55,
+        69
+      ],
+      "printed_range": [
+        55,
+        69
+      ],
+      "theory_topics": 5,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-29",
+      "title": "VI BOB. NAFAS OLISH SISTEMASI",
+      "kind": "chapter",
+      "pdf_range": [
+        70,
+        81
+      ],
+      "printed_range": [
+        70,
+        81
+      ],
+      "theory_topics": 3,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-33",
+      "title": "VII BOB. OVQAT HAZM QILISH SISTEMASI",
+      "kind": "chapter",
+      "pdf_range": [
+        82,
+        94
+      ],
+      "printed_range": [
+        82,
+        94
+      ],
+      "theory_topics": 4,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-38",
+      "title": "VIII BOB. MODDALAR VA ENERGIYA ALMASHINUVI",
+      "kind": "chapter",
+      "pdf_range": [
+        95,
+        108
+      ],
+      "printed_range": [
+        95,
+        108
+      ],
+      "theory_topics": 4,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-43",
+      "title": "IX BOB. TERI VA SIYDIK AYIRISH SISTEMASI",
+      "kind": "chapter",
+      "pdf_range": [
+        109,
+        121
+      ],
+      "printed_range": [
+        109,
+        121
+      ],
+      "theory_topics": 5,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-49",
+      "title": "X BOB. NERV SISTEMASI",
+      "kind": "chapter",
+      "pdf_range": [
+        122,
+        138
+      ],
+      "printed_range": [
+        122,
+        138
+      ],
+      "theory_topics": 6,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-56",
+      "title": "XI BOB. OLIY NERV FAOLIYATI",
+      "kind": "chapter",
+      "pdf_range": [
+        139,
+        156
+      ],
+      "printed_range": [
+        139,
+        156
+      ],
+      "theory_topics": 7,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-64",
+      "title": "XII BOB. SEZGI ORGANLARI",
+      "kind": "chapter",
+      "pdf_range": [
+        157,
+        174
+      ],
+      "printed_range": [
+        157,
+        174
+      ],
+      "theory_topics": 6,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 8,
+      "chapter_id": "bio-8-chapter-71",
+      "title": "XIII BOB. KO‘PAYISH VA RIVOJLANISH. ODAMNING BIOLOGIK VA IJTIMOIY TABIATI",
+      "kind": "chapter",
+      "pdf_range": [
+        175,
+        183
+      ],
+      "printed_range": [
+        175,
+        183
+      ],
+      "theory_topics": 4,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-2",
+      "title": "I BOB. Hayotning umumiy qonuniyatlari",
+      "kind": "chapter",
+      "pdf_range": [
+        5,
+        10
+      ],
+      "printed_range": [
+        5,
+        10
+      ],
+      "theory_topics": 2,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-5",
+      "title": "II BOB. Organizmlarning xilma-xilligi",
+      "kind": "chapter",
+      "pdf_range": [
+        10,
+        29
+      ],
+      "printed_range": [
+        10,
+        29
+      ],
+      "theory_topics": 5,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-13",
+      "title": "III BOB. Sitologiya asoslari",
+      "kind": "chapter",
+      "pdf_range": [
+        29,
+        53
+      ],
+      "printed_range": [
+        29,
+        53
+      ],
+      "theory_topics": 8,
+      "activities": 2,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-25",
+      "title": "IV BOB. Hayotiy jarayonlarning kimyoviy asoslari",
+      "kind": "chapter",
+      "pdf_range": [
+        53,
+        77
+      ],
+      "printed_range": [
+        53,
+        77
+      ],
+      "theory_topics": 10,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-38",
+      "title": "V BOB. Hujayralarda moddalar va energiya almashinuvi",
+      "kind": "chapter",
+      "pdf_range": [
+        77,
+        95
+      ],
+      "printed_range": [
+        77,
+        95
+      ],
+      "theory_topics": 7,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-48",
+      "title": "VI BOB. Organizmlarning ko‘payishi va individual rivojlanishi",
+      "kind": "chapter",
+      "pdf_range": [
+        95,
+        127
+      ],
+      "printed_range": [
+        95,
+        127
+      ],
+      "theory_topics": 9,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-59",
+      "title": "VII BOB. Genetika asoslari",
+      "kind": "chapter",
+      "pdf_range": [
+        127,
+        175
+      ],
+      "printed_range": [
+        127,
+        175
+      ],
+      "theory_topics": 11,
+      "activities": 6,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 9,
+      "chapter_id": "bio-9-chapter-78",
+      "title": "VIII BOB. Seleksiya va biotexnologiya asoslari",
+      "kind": "chapter",
+      "pdf_range": [
+        175,
+        187
+      ],
+      "printed_range": [
+        175,
+        187
+      ],
+      "theory_topics": 4,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "chapter_id": "bio-10-chapter-1",
+      "title": "I BOB. BIOLOGIK TIZIMLAR HAQIDA TUSHUNCHA",
+      "kind": "chapter",
+      "pdf_range": [
+        4,
+        12
+      ],
+      "printed_range": [
+        4,
+        12
+      ],
+      "theory_topics": 2,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "chapter_id": "bio-10-chapter-4",
+      "title": "II BOB. HAYOTNING MOLEKULA DARAJASIDAGI UMUMBIOLOGIK QONUNIYATLAR",
+      "kind": "chapter",
+      "pdf_range": [
+        12,
+        33
+      ],
+      "printed_range": [
+        12,
+        33
+      ],
+      "theory_topics": 4,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "chapter_id": "bio-10-chapter-9",
+      "title": "III BOB. HAYOTNING HUJAYRA DARAJASIDAGI UMUMBIOLOGIK QONUNIYATLAR",
+      "kind": "chapter",
+      "pdf_range": [
+        33,
+        60
+      ],
+      "printed_range": [
+        33,
+        60
+      ],
+      "theory_topics": 5,
+      "activities": 1,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "chapter_id": "bio-10-chapter-16",
+      "title": "IV BOB. HAYOTNING ORGANIZM DARAJASIDAGI UMUMBIOLOGIK QONUNIYATLAR",
+      "kind": "chapter",
+      "pdf_range": [
+        60,
+        146
+      ],
+      "printed_range": [
+        60,
+        146
+      ],
+      "theory_topics": 23,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "chapter_id": "bio-10-chapter-40",
+      "title": "V BOB. HAYOTNING TUR VA POPULATSIYA DARAJASIDAGI UMUMBIOLOGIK QONUNIYATLAR",
+      "kind": "chapter",
+      "pdf_range": [
+        147,
+        234
+      ],
+      "printed_range": [
+        147,
+        234
+      ],
+      "theory_topics": 24,
+      "activities": 3,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "chapter_id": "bio-11-chapter-1",
+      "title": "I BOB. EKOLOGIYA VA HAYOT",
+      "kind": "chapter",
+      "pdf_range": [
+        4,
+        14
+      ],
+      "printed_range": [
+        4,
+        14
+      ],
+      "theory_topics": 2,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "chapter_id": "bio-11-chapter-4",
+      "title": "II BOB. HAYOTNING EKOSISTEMA DARAJASIDAGI UMUMBIOLOGIK QONUNIYATLARI",
+      "kind": "chapter",
+      "pdf_range": [
+        14,
+        133
+      ],
+      "printed_range": [
+        14,
+        133
+      ],
+      "theory_topics": 21,
+      "activities": 3,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "chapter_id": "bio-11-chapter-29",
+      "title": "III BOB. HAYOTNING BIOSFERA DARAJASINING UMUMBIOLOGIK QONUNIYATLARI",
+      "kind": "chapter",
+      "pdf_range": [
+        133,
+        183
+      ],
+      "printed_range": [
+        133,
+        183
+      ],
+      "theory_topics": 11,
+      "activities": 0,
+      "missing_record_ids": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "chapter_id": "bio-11-chapter-41",
+      "title": "IV BOB. ORGANIK OLAM FILOGENEZI",
+      "kind": "chapter",
+      "pdf_range": [
+        183,
+        232
+      ],
+      "printed_range": [
+        183,
+        232
+      ],
+      "theory_topics": 10,
+      "activities": 2,
+      "missing_record_ids": [],
+      "complete": true
+    }
+  ]
+}

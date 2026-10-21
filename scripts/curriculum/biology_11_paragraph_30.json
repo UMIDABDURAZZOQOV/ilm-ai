@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-30-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-36",
+  "title": "Biogeokimyoviy sikl",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-30-f1": {
+      "claim": "Biogeokimyoviy siklda element muhitdan organizmga va yana muhitga o‘tadi; zaxirada uzoq qolgan qism ham bo‘lishi mumkin.",
+      "answer": "Aylanishda uzoq muddatli zaxiralar mavjudligini",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f2": {
+      "claim": "Fotosintez karbonat angidriddagi uglerodni organik birikmalarga kiritadi.",
+      "answer": "Fotosintez",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f3": {
+      "claim": "Nafas olish, parchalanish va uglerodli yoqilg‘ining yonishi CO₂ning muhitga qaytish yo‘llaridir.",
+      "answer": "Uzoq saqlangan uglerodning atmosferaga chiqishini",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f4": {
+      "claim": "Ayrim prokaryotlar molekular azotni o‘zlashtiriladigan birikmalarga aylantiradi; bu biologik fiksatsiyadir.",
+      "answer": "Azot fiksatsiyasi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f5": {
+      "claim": "Azotli organik qoldiqlarning ammiak yoki ammoniyli shakllarga parchalanishi ammonifikatsiya deb o‘rganiladi.",
+      "answer": "Ammonifikatsiya",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f6": {
+      "claim": "Nitrifikatsiyada ammoniyli azot nitrit va nitrat shakllarigacha oksidlanadi.",
+      "answer": "Nitrifikatsiya",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f7": {
+      "claim": "Denitrifikatsiya nitrat kabi oksidlangan azot shakllarining gazsimon azotga qaytish yo‘llaridan biridir.",
+      "answer": "Denitrifikatsiya",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f8": {
+      "claim": "Kislorodli fotosintez O₂ ajratadi, aerob nafas olish esa O₂dan foydalanadi; barcha tirik organizmlar majburiy aerob emas.",
+      "answer": "Fotosintez O₂ ajratadi, aerob nafas uni sarflaydi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          157
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f9": {
+      "claim": "Bug‘lanish, kondensatsiya, yog‘in va oqim suvning havza, havo va quruqlik orasida ko‘chishini bog‘laydi.",
+      "answer": "Kondensatsiya",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          158
+        ],
+        "printed_pages": [
+          158
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f10": {
+      "claim": "Fosfor nuklein kislotalar, ATF va suyak mineral birikmalarida qatnashadi; siklda fosfatning ildiz orqali kirishi muhim.",
+      "answer": "Ildiz orqali o‘zlashtirish",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f11": {
+      "claim": "O‘simliklar sulfatdan oltingugurt o‘zlashtiradi; oltingugurtli yoqilg‘i chiqindilari kislotali yog‘in bilan bog‘liq jarayonlarga hissa qo‘shishi mumkin.",
+      "answer": "Kislotali yog‘in hosil bo‘lishiga hissasi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          160
+        ],
+        "printed_pages": [
+          160
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Sikl va zaxira",
+      "body": "Biogeokimyoviy siklda element muhitdan organizmga va yana muhitga o‘tadi; zaxirada uzoq qolgan qism ham bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-30-f1"
+      ]
+    },
+    {
+      "title": "Uglerodning kirishi",
+      "body": "Fotosintez karbonat angidriddagi uglerodni organik birikmalarga kiritadi.",
+      "fact_ids": [
+        "paragraph-30-f2"
+      ]
+    },
+    {
+      "title": "Uglerodning qaytishi",
+      "body": "Nafas olish, parchalanish va uglerodli yoqilg‘ining yonishi CO₂ning muhitga qaytish yo‘llaridir.",
+      "fact_ids": [
+        "paragraph-30-f3"
+      ]
+    },
+    {
+      "title": "Azot fiksatsiyasi",
+      "body": "Ayrim prokaryotlar molekular azotni o‘zlashtiriladigan birikmalarga aylantiradi; bu biologik fiksatsiyadir.",
+      "fact_ids": [
+        "paragraph-30-f4"
+      ]
+    },
+    {
+      "title": "Ammonifikatsiya",
+      "body": "Azotli organik qoldiqlarning ammiak yoki ammoniyli shakllarga parchalanishi ammonifikatsiya deb o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-30-f5"
+      ]
+    },
+    {
+      "title": "Nitrifikatsiya",
+      "body": "Nitrifikatsiyada ammoniyli azot nitrit va nitrat shakllarigacha oksidlanadi.",
+      "fact_ids": [
+        "paragraph-30-f6"
+      ]
+    },
+    {
+      "title": "Denitrifikatsiya",
+      "body": "Denitrifikatsiya nitrat kabi oksidlangan azot shakllarining gazsimon azotga qaytish yo‘llaridan biridir.",
+      "fact_ids": [
+        "paragraph-30-f7"
+      ]
+    },
+    {
+      "title": "Kislorod yo‘llari",
+      "body": "Kislorodli fotosintez O₂ ajratadi, aerob nafas olish esa O₂dan foydalanadi; barcha tirik organizmlar majburiy aerob emas.",
+      "fact_ids": [
+        "paragraph-30-f8"
+      ]
+    },
+    {
+      "title": "Suvning aylanishi",
+      "body": "Bug‘lanish, kondensatsiya, yog‘in va oqim suvning havza, havo va quruqlik orasida ko‘chishini bog‘laydi.",
+      "fact_ids": [
+        "paragraph-30-f9"
+      ]
+    },
+    {
+      "title": "Fosfor birikmalari",
+      "body": "Fosfor nuklein kislotalar, ATF va suyak mineral birikmalarida qatnashadi; siklda fosfatning ildiz orqali kirishi muhim.",
+      "fact_ids": [
+        "paragraph-30-f10"
+      ]
+    },
+    {
+      "title": "Oltingugurt yo‘llari",
+      "body": "O‘simliklar sulfatdan oltingugurt o‘zlashtiradi; oltingugurtli yoqilg‘i chiqindilari kislotali yog‘in bilan bog‘liq jarayonlarga hissa qo‘shishi mumkin.",
+      "fact_ids": [
+        "paragraph-30-f11"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-30-q1",
+      "fact_id": "paragraph-30-f1",
+      "question_text": "Ko‘mirda uzoq saqlangan uglerod qaysi jihatni ko‘rsatadi?",
+      "options": [
+        "Aylanishda uzoq muddatli zaxiralar mavjudligini",
+        "Uglerod atomi butunlay yo‘q bo‘lganini",
+        "Har bir uglerod bir kunda to‘liq aylanib chiqishini",
+        "Ko‘mirning tirik organizm ekanini"
+      ],
+      "correct_answer": "Aylanishda uzoq muddatli zaxiralar mavjudligini",
+      "explanation": "Biogeokimyoviy siklda element muhitdan organizmga va yana muhitga o‘tadi; zaxirada uzoq qolgan qism ham bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-30-q2",
+      "fact_id": "paragraph-30-f2",
+      "question_text": "Havodagi CO₂ uglerodi barg uglevodiga qaysi jarayon orqali kiradi?",
+      "options": [
+        "Faqat denitrifikatsiya",
+        "Faqat mexanik maydalanish",
+        "Faqat terlash",
+        "Fotosintez"
+      ],
+      "correct_answer": "Fotosintez",
+      "explanation": "Fotosintez karbonat angidriddagi uglerodni organik birikmalarga kiritadi."
+    },
+    {
+      "key": "paragraph-30-q3",
+      "fact_id": "paragraph-30-f3",
+      "question_text": "Qazilma yoqilg‘i yonishi uglerod sikliga nima qo‘shadi?",
+      "options": [
+        "Barcha CO₂ning yo‘qolishini",
+        "O‘simliklarning nafas olmasligini",
+        "Uzoq saqlangan uglerodning atmosferaga chiqishini",
+        "Azot atomining uglerodga aylanishini"
+      ],
+      "correct_answer": "Uzoq saqlangan uglerodning atmosferaga chiqishini",
+      "explanation": "Nafas olish, parchalanish va uglerodli yoqilg‘ining yonishi CO₂ning muhitga qaytish yo‘llaridir."
+    },
+    {
+      "key": "paragraph-30-q4",
+      "fact_id": "paragraph-30-f4",
+      "question_text": "Tugunak bakteriyasi N₂ni bog‘langan shaklga o‘tkazsa, jarayon nima?",
+      "options": [
+        "Faqat fotosintezning yorug‘lik yutilishi",
+        "Azot fiksatsiyasi",
+        "Denitrifikatsiya",
+        "Faqat suvning bug‘lanishi"
+      ],
+      "correct_answer": "Azot fiksatsiyasi",
+      "explanation": "Ayrim prokaryotlar molekular azotni o‘zlashtiriladigan birikmalarga aylantiradi; bu biologik fiksatsiyadir."
+    },
+    {
+      "key": "paragraph-30-q5",
+      "fact_id": "paragraph-30-f5",
+      "question_text": "Oqsil qoldig‘idagi azot ammoniyga qaytsa, qaysi nom mos?",
+      "options": [
+        "Ammonifikatsiya",
+        "Faqat N₂ning azotli organik moddaga kirishi",
+        "Faqat nitratdan N₂ chiqishi",
+        "Faqat suvning muzlashi"
+      ],
+      "correct_answer": "Ammonifikatsiya",
+      "explanation": "Azotli organik qoldiqlarning ammiak yoki ammoniyli shakllarga parchalanishi ammonifikatsiya deb o‘rganiladi."
+    },
+    {
+      "key": "paragraph-30-q6",
+      "fact_id": "paragraph-30-f6",
+      "question_text": "Ammoniy → nitrit → nitrat ketma-ketligi qaysi jarayon?",
+      "options": [
+        "Denitrifikatsiya",
+        "Faqat fototaksis",
+        "Faqat urug‘ning tinimi",
+        "Nitrifikatsiya"
+      ],
+      "correct_answer": "Nitrifikatsiya",
+      "explanation": "Nitrifikatsiyada ammoniyli azot nitrit va nitrat shakllarigacha oksidlanadi."
+    },
+    {
+      "key": "paragraph-30-q7",
+      "fact_id": "paragraph-30-f7",
+      "question_text": "Nitrat azoti N₂ bo‘lib atmosferaga qaytsa, qaysi yo‘nalish tasvirlangan?",
+      "options": [
+        "Faqat kalsiy to‘planishi",
+        "Faqat transpiratsiya",
+        "Denitrifikatsiya",
+        "Faqat azotning biologik fiksatsiyasi"
+      ],
+      "correct_answer": "Denitrifikatsiya",
+      "explanation": "Denitrifikatsiya nitrat kabi oksidlangan azot shakllarining gazsimon azotga qaytish yo‘llaridan biridir."
+    },
+    {
+      "key": "paragraph-30-q8",
+      "fact_id": "paragraph-30-f8",
+      "question_text": "Kislorod siklida fotosintez va aerob nafasni moslang.",
+      "options": [
+        "O₂ faqat minerallarda bo‘ladi",
+        "Fotosintez O₂ ajratadi, aerob nafas uni sarflaydi",
+        "Ikkalasi O₂ni hech qachon ishlatmaydi",
+        "Fotosintez faqat O₂ sarflaydi, aerob nafas faqat O₂ chiqaradi"
+      ],
+      "correct_answer": "Fotosintez O₂ ajratadi, aerob nafas uni sarflaydi",
+      "explanation": "Kislorodli fotosintez O₂ ajratadi, aerob nafas olish esa O₂dan foydalanadi; barcha tirik organizmlar majburiy aerob emas."
+    },
+    {
+      "key": "paragraph-30-q9",
+      "fact_id": "paragraph-30-f9",
+      "question_text": "Bug‘ sovib tomchilarga aylansa, suv siklining qaysi bosqichi?",
+      "options": [
+        "Kondensatsiya",
+        "Faqat bug‘lanish",
+        "Faqat azot fiksatsiyasi",
+        "Faqat ammonifikatsiya"
+      ],
+      "correct_answer": "Kondensatsiya",
+      "explanation": "Bug‘lanish, kondensatsiya, yog‘in va oqim suvning havza, havo va quruqlik orasida ko‘chishini bog‘laydi."
+    },
+    {
+      "key": "paragraph-30-q10",
+      "fact_id": "paragraph-30-f10",
+      "question_text": "Parchalanishdan hosil bo‘lgan fosfatning o‘simlikka qaytish yo‘li qaysi?",
+      "options": [
+        "Faqat bargdan N₂ sifatida yutish",
+        "Faqat kislorodning fosforga aylanishi",
+        "Faqat gulning mexanik tebranishi",
+        "Ildiz orqali o‘zlashtirish"
+      ],
+      "correct_answer": "Ildiz orqali o‘zlashtirish",
+      "explanation": "Fosfor nuklein kislotalar, ATF va suyak mineral birikmalarida qatnashadi; siklda fosfatning ildiz orqali kirishi muhim."
+    },
+    {
+      "key": "paragraph-30-q11",
+      "fact_id": "paragraph-30-f11",
+      "question_text": "Yoqilg‘idagi oltingugurtning havoga chiqishini baholashda qaysi oqibat tekshiriladi?",
+      "options": [
+        "Barcha sulfatning azot atomiga aylanishi",
+        "Har bir yomg‘irning mutlaqo sof oqsil bo‘lishi",
+        "Kislotali yog‘in hosil bo‘lishiga hissasi",
+        "Barcha atmosferaning darhol yo‘qolishi"
+      ],
+      "correct_answer": "Kislotali yog‘in hosil bo‘lishiga hissasi",
+      "explanation": "O‘simliklar sulfatdan oltingugurt o‘zlashtiradi; oltingugurtli yoqilg‘i chiqindilari kislotali yog‘in bilan bog‘liq jarayonlarga hissa qo‘shishi mumkin."
+    }
+  ]
+}

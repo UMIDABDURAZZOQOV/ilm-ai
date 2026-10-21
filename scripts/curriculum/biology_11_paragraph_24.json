@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-24-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-30",
+  "title": "Biosfera darajasining xususiyatlari. Biosfera haqida ta’limot",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-24-f1": {
+      "claim": "Biosfera barcha ekosistemalar va ular bilan bog‘liq yashash muhitlarini birlashtiradigan global tizim sifatida o‘rganiladi.",
+      "answer": "Barcha ekosistemalar o‘rtasidagi global aloqalar ko‘lami",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f2": {
+      "claim": "Biosfera atamasi E. Zyuss nomi bilan, uning geologik-biologik ta’limoti esa V. Vernadskiy bilan bog‘liq.",
+      "answer": "Zyuss — atama, Vernadskiy — ta’limot",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f3": {
+      "claim": "Tirik organizmlar atmosfera, tuproq va cho‘kindi jarayonlariga ta’sir qiladi; biosfera tirik va abiotik jarayonlar o‘zaro aloqasida shakllanadi.",
+      "answer": "Hayotning geologik muhitga ta’sirini",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f4": {
+      "claim": "Biosfera darajasida ekosistemalar o‘zaro bog‘langan komponentlar sifatida qaraladi.",
+      "answer": "Ekosistemalar va ulardagi organizm-muhit jarayonlari",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f5": {
+      "claim": "Atmosferadagi karbonat angidridning inson faoliyatiga bog‘liq o‘zgarishi biosfera darajasidagi tadqiqot savolidir.",
+      "answer": "Inson faoliyati global CO₂ balansiga qanday ta’sir qiladi?",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f6": {
+      "claim": "Biosfera tadqiqotida biologik xilma-xillik va ekosistemalarning dinamik holatini saqlash muhim yo‘nalishdir.",
+      "answer": "Biologik xilma-xillik va tizim aloqalarini saqlashga",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Global tizim",
+      "body": "Biosfera barcha ekosistemalar va ular bilan bog‘liq yashash muhitlarini birlashtiradigan global tizim sifatida o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-24-f1"
+      ]
+    },
+    {
+      "title": "Atama va ta’limot",
+      "body": "Biosfera atamasi E. Zyuss nomi bilan, uning geologik-biologik ta’limoti esa V. Vernadskiy bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-24-f2"
+      ]
+    },
+    {
+      "title": "Hayotning geologik roli",
+      "body": "Tirik organizmlar atmosfera, tuproq va cho‘kindi jarayonlariga ta’sir qiladi; biosfera tirik va abiotik jarayonlar o‘zaro aloqasida shakllanadi.",
+      "fact_ids": [
+        "paragraph-24-f3"
+      ]
+    },
+    {
+      "title": "Tizim qismlari",
+      "body": "Biosfera darajasida ekosistemalar o‘zaro bog‘langan komponentlar sifatida qaraladi.",
+      "fact_ids": [
+        "paragraph-24-f4"
+      ]
+    },
+    {
+      "title": "Global savol",
+      "body": "Atmosferadagi karbonat angidridning inson faoliyatiga bog‘liq o‘zgarishi biosfera darajasidagi tadqiqot savolidir.",
+      "fact_ids": [
+        "paragraph-24-f5"
+      ]
+    },
+    {
+      "title": "Xilma-xillikni saqlash",
+      "body": "Biosfera tadqiqotida biologik xilma-xillik va ekosistemalarning dinamik holatini saqlash muhim yo‘nalishdir.",
+      "fact_ids": [
+        "paragraph-24-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-24-q1",
+      "fact_id": "paragraph-24-f1",
+      "question_text": "Bitta o‘rmondan biosfera ko‘lamiga o‘tganda nima kengayadi?",
+      "options": [
+        "Barcha ekosistemalar o‘rtasidagi global aloqalar ko‘lami",
+        "Faqat bitta daraxtning balandligi",
+        "Faqat bitta hujayraning diametri",
+        "Faqat kitobdagi chizma eni"
+      ],
+      "correct_answer": "Barcha ekosistemalar o‘rtasidagi global aloqalar ko‘lami",
+      "explanation": "Biosfera barcha ekosistemalar va ular bilan bog‘liq yashash muhitlarini birlashtiradigan global tizim sifatida o‘rganiladi."
+    },
+    {
+      "key": "paragraph-24-q2",
+      "fact_id": "paragraph-24-f2",
+      "question_text": "Biosfera atamasini kiritish va ta’limotni rivojlantirishni moslang.",
+      "options": [
+        "Darvin — atama, Mendel — biosfera ta’limoti",
+        "Paster — atama, Redi — biosfera ta’limoti",
+        "Uotson — atama, Morgan — biosfera ta’limoti",
+        "Zyuss — atama, Vernadskiy — ta’limot"
+      ],
+      "correct_answer": "Zyuss — atama, Vernadskiy — ta’limot",
+      "explanation": "Biosfera atamasi E. Zyuss nomi bilan, uning geologik-biologik ta’limoti esa V. Vernadskiy bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-24-q3",
+      "fact_id": "paragraph-24-f3",
+      "question_text": "Organizmlar atmosferaga gaz ajratishi qanday yondashuvni ko‘rsatadi?",
+      "options": [
+        "Organizm muhitni o‘zgartirmasligini",
+        "Atmosfera har bir hujayraning organoidi ekanini",
+        "Hayotning geologik muhitga ta’sirini",
+        "Barcha geologik hodisa faqat biologik ekanini"
+      ],
+      "correct_answer": "Hayotning geologik muhitga ta’sirini",
+      "explanation": "Tirik organizmlar atmosfera, tuproq va cho‘kindi jarayonlariga ta’sir qiladi; biosfera tirik va abiotik jarayonlar o‘zaro aloqasida shakllanadi."
+    },
+    {
+      "key": "paragraph-24-q4",
+      "fact_id": "paragraph-24-f4",
+      "question_text": "Biosferani tizim sifatida tushunish uchun qaysi qismlarning aloqasi o‘rganiladi?",
+      "options": [
+        "Faqat bitta odamning baholari",
+        "Ekosistemalar va ulardagi organizm-muhit jarayonlari",
+        "Faqat bir molekulaning barcha atomlari",
+        "Faqat bitta organizmning kiprigi"
+      ],
+      "correct_answer": "Ekosistemalar va ulardagi organizm-muhit jarayonlari",
+      "explanation": "Biosfera darajasida ekosistemalar o‘zaro bog‘langan komponentlar sifatida qaraladi."
+    },
+    {
+      "key": "paragraph-24-q5",
+      "fact_id": "paragraph-24-f5",
+      "question_text": "Qaysi savol mahalliy individ emas, global biosfera ko‘lamiga mos?",
+      "options": [
+        "Inson faoliyati global CO₂ balansiga qanday ta’sir qiladi?",
+        "Bitta o‘simlik bargi necha millimetr?",
+        "Bitta yurak bir daqiqada necha marta urdi?",
+        "Bitta hujayra yadrosi qayerda?"
+      ],
+      "correct_answer": "Inson faoliyati global CO₂ balansiga qanday ta’sir qiladi?",
+      "explanation": "Atmosferadagi karbonat angidridning inson faoliyatiga bog‘liq o‘zgarishi biosfera darajasidagi tadqiqot savolidir."
+    },
+    {
+      "key": "paragraph-24-q6",
+      "fact_id": "paragraph-24-f6",
+      "question_text": "Tur va yashash joylarini birgalikda muhofaza qilish nimaga xizmat qiladi?",
+      "options": [
+        "Faqat nomlar sonini sun’iy oshirishga",
+        "Barcha tabiiy o‘zgarishni mutlaqo to‘xtatishga",
+        "Faqat bitta xromosomani sanashga",
+        "Biologik xilma-xillik va tizim aloqalarini saqlashga"
+      ],
+      "correct_answer": "Biologik xilma-xillik va tizim aloqalarini saqlashga",
+      "explanation": "Biosfera tadqiqotida biologik xilma-xillik va ekosistemalarning dinamik holatini saqlash muhim yo‘nalishdir."
+    }
+  ]
+}

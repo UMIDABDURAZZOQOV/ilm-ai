@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-21-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-25",
+  "title": "Sun’iy ekosistemalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-21-f1": {
+      "claim": "Bog‘, akvarium va ekin maydoni inson yaratgan yoki boshqaradigan ekosistema misollaridir; ularda ham tabiiy biologik jarayonlar davom etadi.",
+      "answer": "Inson yaratishi yoki boshqarishi muhimligini",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-21-f2": {
+      "claim": "Shahar ekosistemasida tabiiy qismlar bilan bino, yo‘l va transport kabi inson yaratgan qismlar birga mavjud.",
+      "answer": "Organizmlar, suv, havo va tuproqni",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-21-f3": {
+      "claim": "Suvni tozalash, chiqindini kamaytirish va energiya tejamkorligi shahar ekosistemasini boshqarish yo‘nalishlaridir.",
+      "answer": "Atrofga tushadigan ifloslanishni kamaytirishga",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-21-f4": {
+      "claim": "Agroekosistema qishloq xo‘jaligi mahsuloti olish uchun boshqariladigan dala yoki bog‘ kabi tizimdir.",
+      "answer": "Mahsulot uchun boshqariladigan agroekosistema bo‘lishi",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-21-f5": {
+      "claim": "Agroekosistemada madaniy o‘simlik bilan begona o‘t, mikroorganizmlar, tuproq hayvonlari va zamburug‘lar ham mavjud.",
+      "answer": "Boshqa funksional guruhlar ham qatnashadi",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-21-f6": {
+      "claim": "Katta maydondagi bir xil ekin tizimi ayrim zararkunandalar ko‘payishi va tuproq muammolariga moyil bo‘lishi mumkin.",
+      "answer": "Resurs va biologik aloqalar haddan tashqari soddalashganmi?",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-21-f7": {
+      "claim": "Almashlab ekish turli ekinlarni vaqt bo‘yicha almashtirib, agroekosistema boshqaruviga xilma-xillik kiritadi.",
+      "answer": "Almashlab ekish",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-21-f8": {
+      "claim": "Hosilning tizimdan olib chiqilishi moddalarning bir qismini ham olib chiqadi; ozuqa elementlari balansini boshqarish kerak.",
+      "answer": "Tizimdan chiqayotgan va qaytadigan moddalar balansiga",
+      "source": {
+        "paragraph": 21,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Boshqariladigan tizim",
+      "body": "Bog‘, akvarium va ekin maydoni inson yaratgan yoki boshqaradigan ekosistema misollaridir; ularda ham tabiiy biologik jarayonlar davom etadi.",
+      "fact_ids": [
+        "paragraph-21-f1"
+      ]
+    },
+    {
+      "title": "Shahar tarkibi",
+      "body": "Shahar ekosistemasida tabiiy qismlar bilan bino, yo‘l va transport kabi inson yaratgan qismlar birga mavjud.",
+      "fact_ids": [
+        "paragraph-21-f2"
+      ]
+    },
+    {
+      "title": "Resurs boshqaruvi",
+      "body": "Suvni tozalash, chiqindini kamaytirish va energiya tejamkorligi shahar ekosistemasini boshqarish yo‘nalishlaridir.",
+      "fact_ids": [
+        "paragraph-21-f3"
+      ]
+    },
+    {
+      "title": "Agroekosistema",
+      "body": "Agroekosistema qishloq xo‘jaligi mahsuloti olish uchun boshqariladigan dala yoki bog‘ kabi tizimdir.",
+      "fact_ids": [
+        "paragraph-21-f4"
+      ]
+    },
+    {
+      "title": "Faqat ekin emas",
+      "body": "Agroekosistemada madaniy o‘simlik bilan begona o‘t, mikroorganizmlar, tuproq hayvonlari va zamburug‘lar ham mavjud.",
+      "fact_ids": [
+        "paragraph-21-f5"
+      ]
+    },
+    {
+      "title": "Monokultura xavfi",
+      "body": "Katta maydondagi bir xil ekin tizimi ayrim zararkunandalar ko‘payishi va tuproq muammolariga moyil bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-21-f6"
+      ]
+    },
+    {
+      "title": "Almashlab ekish",
+      "body": "Almashlab ekish turli ekinlarni vaqt bo‘yicha almashtirib, agroekosistema boshqaruviga xilma-xillik kiritadi.",
+      "fact_ids": [
+        "paragraph-21-f7"
+      ]
+    },
+    {
+      "title": "Hosil bilan chiqish",
+      "body": "Hosilning tizimdan olib chiqilishi moddalarning bir qismini ham olib chiqadi; ozuqa elementlari balansini boshqarish kerak.",
+      "fact_ids": [
+        "paragraph-21-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-21-q1",
+      "fact_id": "paragraph-21-f1",
+      "question_text": "Sun’iy ekosistema deyish nimani anglatadi?",
+      "options": [
+        "Inson yaratishi yoki boshqarishi muhimligini",
+        "Unda tirik organizmlar yo‘qligini",
+        "Unda tabiiy tanlanish mutlaqo mumkin emasligini",
+        "Uning energiyasiz ishlashini"
+      ],
+      "correct_answer": "Inson yaratishi yoki boshqarishi muhimligini",
+      "explanation": "Bog‘, akvarium va ekin maydoni inson yaratgan yoki boshqaradigan ekosistema misollaridir; ularda ham tabiiy biologik jarayonlar davom etadi."
+    },
+    {
+      "key": "paragraph-21-q2",
+      "fact_id": "paragraph-21-f2",
+      "question_text": "Shaharni faqat binolar to‘plami deyish qaysi qismlarni unutadi?",
+      "options": [
+        "Faqat ko‘cha raqamlarini",
+        "Faqat bino balandligini",
+        "Faqat yo‘l belgisining nomini",
+        "Organizmlar, suv, havo va tuproqni"
+      ],
+      "correct_answer": "Organizmlar, suv, havo va tuproqni",
+      "explanation": "Shahar ekosistemasida tabiiy qismlar bilan bino, yo‘l va transport kabi inson yaratgan qismlar birga mavjud."
+    },
+    {
+      "key": "paragraph-21-q3",
+      "fact_id": "paragraph-21-f3",
+      "question_text": "Shahar ekologiyasida oqva suvni tozalash qaysi masalaga xizmat qiladi?",
+      "options": [
+        "Suvni abadiy energiyasiz yaratishga",
+        "Faqat shahar nomini almashtirishga",
+        "Atrofga tushadigan ifloslanishni kamaytirishga",
+        "Barcha biologik aloqalarni yo‘q qilishga"
+      ],
+      "correct_answer": "Atrofga tushadigan ifloslanishni kamaytirishga",
+      "explanation": "Suvni tozalash, chiqindini kamaytirish va energiya tejamkorligi shahar ekosistemasini boshqarish yo‘nalishlaridir."
+    },
+    {
+      "key": "paragraph-21-q4",
+      "fact_id": "paragraph-21-f4",
+      "question_text": "Olmazor va bug‘doyzorning umumiy xo‘jalik-ekologik belgisi qaysi?",
+      "options": [
+        "Suvdan foydalanmasligi",
+        "Mahsulot uchun boshqariladigan agroekosistema bo‘lishi",
+        "Faqat yovvoyi okean bo‘lishi",
+        "Tirik organizmlari bo‘lmasligi"
+      ],
+      "correct_answer": "Mahsulot uchun boshqariladigan agroekosistema bo‘lishi",
+      "explanation": "Agroekosistema qishloq xo‘jaligi mahsuloti olish uchun boshqariladigan dala yoki bog‘ kabi tizimdir."
+    },
+    {
+      "key": "paragraph-21-q5",
+      "fact_id": "paragraph-21-f5",
+      "question_text": "Daladagi organizmlarni sanashda faqat ekinni yozish nega yetarli emas?",
+      "options": [
+        "Boshqa funksional guruhlar ham qatnashadi",
+        "Dalada mikroorganizm bo‘lishi mumkin emas",
+        "Hayvonlar faqat dengizda yashaydi",
+        "Ekinlar abiotik jinslardir"
+      ],
+      "correct_answer": "Boshqa funksional guruhlar ham qatnashadi",
+      "explanation": "Agroekosistemada madaniy o‘simlik bilan begona o‘t, mikroorganizmlar, tuproq hayvonlari va zamburug‘lar ham mavjud."
+    },
+    {
+      "key": "paragraph-21-q6",
+      "fact_id": "paragraph-21-f6",
+      "question_text": "Monokultura xavfini baholashda qaysi savol foydali?",
+      "options": [
+        "Faqat ekin nomi chiroylimi?",
+        "Faqat qatorlar alifbo tartibidami?",
+        "Barcha xavf har doim nolmi?",
+        "Resurs va biologik aloqalar haddan tashqari soddalashganmi?"
+      ],
+      "correct_answer": "Resurs va biologik aloqalar haddan tashqari soddalashganmi?",
+      "explanation": "Katta maydondagi bir xil ekin tizimi ayrim zararkunandalar ko‘payishi va tuproq muammolariga moyil bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-21-q7",
+      "fact_id": "paragraph-21-f7",
+      "question_text": "Bir maydonda yillar bo‘yicha turli ekin yetishtirish nima deyiladi?",
+      "options": [
+        "Faqat hosilni saqlash ombori",
+        "Faqat dengiz oqimi",
+        "Almashlab ekish",
+        "Faqat bir xil monokulturani uzluksiz saqlash"
+      ],
+      "correct_answer": "Almashlab ekish",
+      "explanation": "Almashlab ekish turli ekinlarni vaqt bo‘yicha almashtirib, agroekosistema boshqaruviga xilma-xillik kiritadi."
+    },
+    {
+      "key": "paragraph-21-q8",
+      "fact_id": "paragraph-21-f8",
+      "question_text": "Hosil yig‘ib ketilganda agroekosistemada qaysi balansga e’tibor kerak?",
+      "options": [
+        "Barcha modda avtomatik to‘liq qaytishiga",
+        "Tizimdan chiqayotgan va qaytadigan moddalar balansiga",
+        "Faqat dalaning nomidagi harflarga",
+        "Faqat biologik vaqt yo‘qligiga"
+      ],
+      "correct_answer": "Tizimdan chiqayotgan va qaytadigan moddalar balansiga",
+      "explanation": "Hosilning tizimdan olib chiqilishi moddalarning bir qismini ham olib chiqadi; ozuqa elementlari balansini boshqarish kerak."
+    }
+  ]
+}

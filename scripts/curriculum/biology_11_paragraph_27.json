@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-27-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-33",
+  "title": "Biosferadagi tirik moddaning xususiyatlari va funksiyalari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-27-f1": {
+      "claim": "Organizmning o‘z energiyasi bilan harakatlanishi moddalarning bir joydan boshqasiga ko‘chishida qatnashadi.",
+      "answer": "Faol biologik harakatga",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f2": {
+      "claim": "Individlar populatsiya, turli populatsiyalar esa jamoa aloqalarida qatnashadi; tirik modda bir xil bitta organizm emas.",
+      "answer": "Individ — populatsiya — jamoa",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f3": {
+      "claim": "Fotosintezda yorug‘lik energiyasi organik moddalarning kimyoviy energiyasiga aylanishi energetik funksiyadir.",
+      "answer": "Energetik",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f4": {
+      "claim": "Organizmlar ayrim elementlarni o‘z tuzilmalarida to‘playdi; diatomlarning kremniyli qobig‘i bunga misoldir.",
+      "answer": "Konsentratsiyalash",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f5": {
+      "claim": "Organik qoldiqlarning parchalanishi va minerallashishi elementlarni keyingi foydalanishga qaytaradi.",
+      "answer": "Destruktiv",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f6": {
+      "claim": "Organizmlar tuproq, suv yoki atmosfera xususiyatlarini o‘zgartirib yashash muhitini shakllantirishda qatnashadi.",
+      "answer": "Muhit yaratish",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f7": {
+      "claim": "Gazlarni o‘zlashtirish-ajratish gaz almashinuvi, moddalarning oksidlanish darajasi o‘zgarishi esa redoks funksiyasi bilan tahlil qilinadi.",
+      "answer": "Oksidlanish-qaytarilish",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f8": {
+      "claim": "Organizmlar bilan kimyoviy elementlarning joydan joyga ko‘chishi biogen migratsiyaning bir ko‘rinishidir.",
+      "answer": "Transport",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Faol ko‘chish",
+      "body": "Organizmning o‘z energiyasi bilan harakatlanishi moddalarning bir joydan boshqasiga ko‘chishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-27-f1"
+      ]
+    },
+    {
+      "title": "Tashkil topish",
+      "body": "Individlar populatsiya, turli populatsiyalar esa jamoa aloqalarida qatnashadi; tirik modda bir xil bitta organizm emas.",
+      "fact_ids": [
+        "paragraph-27-f2"
+      ]
+    },
+    {
+      "title": "Energetik funksiya",
+      "body": "Fotosintezda yorug‘lik energiyasi organik moddalarning kimyoviy energiyasiga aylanishi energetik funksiyadir.",
+      "fact_ids": [
+        "paragraph-27-f3"
+      ]
+    },
+    {
+      "title": "Konsentratsiyalash",
+      "body": "Organizmlar ayrim elementlarni o‘z tuzilmalarida to‘playdi; diatomlarning kremniyli qobig‘i bunga misoldir.",
+      "fact_ids": [
+        "paragraph-27-f4"
+      ]
+    },
+    {
+      "title": "Destruktiv funksiya",
+      "body": "Organik qoldiqlarning parchalanishi va minerallashishi elementlarni keyingi foydalanishga qaytaradi.",
+      "fact_ids": [
+        "paragraph-27-f5"
+      ]
+    },
+    {
+      "title": "Muhit yaratish",
+      "body": "Organizmlar tuproq, suv yoki atmosfera xususiyatlarini o‘zgartirib yashash muhitini shakllantirishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-27-f6"
+      ]
+    },
+    {
+      "title": "Gaz va redoks",
+      "body": "Gazlarni o‘zlashtirish-ajratish gaz almashinuvi, moddalarning oksidlanish darajasi o‘zgarishi esa redoks funksiyasi bilan tahlil qilinadi.",
+      "fact_ids": [
+        "paragraph-27-f7"
+      ]
+    },
+    {
+      "title": "Biogen transport",
+      "body": "Organizmlar bilan kimyoviy elementlarning joydan joyga ko‘chishi biogen migratsiyaning bir ko‘rinishidir.",
+      "fact_ids": [
+        "paragraph-27-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-27-q1",
+      "fact_id": "paragraph-27-f1",
+      "question_text": "Baliq oqimga qarshi suzib tanasidagi moddalarni ko‘chirdi. Bu nimaga misol?",
+      "options": [
+        "Faol biologik harakatga",
+        "Faqat shamoldagi passiv changga",
+        "Faqat geologik muzlashga",
+        "Faqat yorug‘lik qaytishiga"
+      ],
+      "correct_answer": "Faol biologik harakatga",
+      "explanation": "Organizmning o‘z energiyasi bilan harakatlanishi moddalarning bir joydan boshqasiga ko‘chishida qatnashadi."
+    },
+    {
+      "key": "paragraph-27-q2",
+      "fact_id": "paragraph-27-f2",
+      "question_text": "Biosfera tirik moddasini tasvirlashda qaysi darajalar aloqasi mos?",
+      "options": [
+        "Faqat atom — elektron — yadro",
+        "Faqat rang — shrift — sahifa",
+        "Faqat ism — familiya — taxallus",
+        "Individ — populatsiya — jamoa"
+      ],
+      "correct_answer": "Individ — populatsiya — jamoa",
+      "explanation": "Individlar populatsiya, turli populatsiyalar esa jamoa aloqalarida qatnashadi; tirik modda bir xil bitta organizm emas."
+    },
+    {
+      "key": "paragraph-27-q3",
+      "fact_id": "paragraph-27-f3",
+      "question_text": "Yashil o‘simlik energiyani organik moddada bog‘lashi qaysi funksiya?",
+      "options": [
+        "Faqat konsentratsiyalash",
+        "Faqat mexanik tayanch",
+        "Energetik",
+        "Faqat transport"
+      ],
+      "correct_answer": "Energetik",
+      "explanation": "Fotosintezda yorug‘lik energiyasi organik moddalarning kimyoviy energiyasiga aylanishi energetik funksiyadir."
+    },
+    {
+      "key": "paragraph-27-q4",
+      "fact_id": "paragraph-27-f4",
+      "question_text": "Diatom qobig‘ida kremniy to‘planishi qaysi funksiyaga misol?",
+      "options": [
+        "Faqat kosmik kelib chiqish",
+        "Konsentratsiyalash",
+        "Faqat oziq o‘ljasini ovlash",
+        "Faqat passiv bug‘lanish"
+      ],
+      "correct_answer": "Konsentratsiyalash",
+      "explanation": "Organizmlar ayrim elementlarni o‘z tuzilmalarida to‘playdi; diatomlarning kremniyli qobig‘i bunga misoldir."
+    },
+    {
+      "key": "paragraph-27-q5",
+      "fact_id": "paragraph-27-f5",
+      "question_text": "Bakteriyalar qoldiqni mineral shakllarga aylantirsa, qaysi funksiya ajratiladi?",
+      "options": [
+        "Destruktiv",
+        "Faqat fototropik",
+        "Faqat jins aniqlash",
+        "Faqat yorug‘likni qaytarish"
+      ],
+      "correct_answer": "Destruktiv",
+      "explanation": "Organik qoldiqlarning parchalanishi va minerallashishi elementlarni keyingi foydalanishga qaytaradi."
+    },
+    {
+      "key": "paragraph-27-q6",
+      "fact_id": "paragraph-27-f6",
+      "question_text": "Organizmlar faoliyati tuproq qatlamini o‘zgartirsa, bu qaysi funksiya?",
+      "options": [
+        "Faqat xromosoma sanash",
+        "Faqat tovush eshitish",
+        "Faqat aniq bir gen alleli",
+        "Muhit yaratish"
+      ],
+      "correct_answer": "Muhit yaratish",
+      "explanation": "Organizmlar tuproq, suv yoki atmosfera xususiyatlarini o‘zgartirib yashash muhitini shakllantirishda qatnashadi."
+    },
+    {
+      "key": "paragraph-27-q7",
+      "fact_id": "paragraph-27-f7",
+      "question_text": "Temir birikmasining oksidlanish darajasi bakteriya faoliyatida o‘zgardi. Qaysi funksiya mos?",
+      "options": [
+        "Faqat oziq qoldig‘iga joylashish",
+        "Faqat morfologik rang",
+        "Oksidlanish-qaytarilish",
+        "Faqat fazoviy orientatsiya"
+      ],
+      "correct_answer": "Oksidlanish-qaytarilish",
+      "explanation": "Gazlarni o‘zlashtirish-ajratish gaz almashinuvi, moddalarning oksidlanish darajasi o‘zgarishi esa redoks funksiyasi bilan tahlil qilinadi."
+    },
+    {
+      "key": "paragraph-27-q8",
+      "fact_id": "paragraph-27-f8",
+      "question_text": "Migratsiya qiluvchi organizm elementlarni boshqa hududga olib o‘tsa, qaysi funksiya ko‘rinadi?",
+      "options": [
+        "Faqat mineralning abiotik qotishi",
+        "Transport",
+        "Faqat DNKni ikkiga ko‘paytirish",
+        "Faqat hujayra ichida ribosoma tuzish"
+      ],
+      "correct_answer": "Transport",
+      "explanation": "Organizmlar bilan kimyoviy elementlarning joydan joyga ko‘chishi biogen migratsiyaning bir ko‘rinishidir."
+    }
+  ]
+}

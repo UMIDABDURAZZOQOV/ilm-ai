@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-40-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-48",
+  "title": "Hayvonlarning tana qoplami va harakat organlari evolutsiyasi.",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-40-f1": {
+      "claim": "Tana qoplamasi himoyadan tashqari guruhga qarab sezgi, gaz almashinuvi, ajratish va harorat boshqaruvida qatnashishi mumkin.",
+      "answer": "U bir nechta fiziologik vazifada qatnashadi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          208
+        ],
+        "printed_pages": [
+          208
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f2": {
+      "claim": "Umurtqalilar terisida tashqi epidermis va uning ostidagi derma ajratiladi.",
+      "answer": "Epidermis, keyin derma",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          209
+        ],
+        "printed_pages": [
+          209
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f3": {
+      "claim": "Baliq terisidagi shilimshiq suvda ishqalanishni kamaytirishga va qoplamani himoyalashga yordam beradi.",
+      "answer": "Suv bilan ishqalanishni kamaytirishga yordam beradi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          209
+        ],
+        "printed_pages": [
+          209
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f4": {
+      "claim": "Baqaning nam terisi gaz almashinuvida qatnashadi; tana qoplamasi va nafas olish funksiyasi o‘zaro bog‘langan.",
+      "answer": "Teri orqali gaz almashinuvini",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          209
+        ],
+        "printed_pages": [
+          209
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f5": {
+      "claim": "Sudralib yuruvchilarning muguzli tangachalari qoplamaning himoyasi va suv yo‘qotishini kamaytirish bilan bog‘liq.",
+      "answer": "Ortiqcha suv yo‘qotishni",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          211
+        ],
+        "printed_pages": [
+          211
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f6": {
+      "claim": "Qush pati va sutemizuvchi juni muguzlashgan qoplama hosilalaridir; tuzilishi hamda vazifaviy aloqalari guruhga mos farqlanadi.",
+      "answer": "Muguzlashgan qoplama hosilalari sifatida",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          211
+        ],
+        "printed_pages": [
+          211
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f7": {
+      "claim": "Gidroskeletda tana suyuqligi va mushaklarning o‘zaro ishlashi shaklni saqlash hamda harakatga yordam beradi.",
+      "answer": "Suyuqlik va mushaklarning hamkorligi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          212
+        ],
+        "printed_pages": [
+          212
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f8": {
+      "claim": "Bo‘g‘imoyoqlilarning tashqi xitinli skeleti himoya va mushaklar bilan birga harakat vazifasini bajaradi.",
+      "answer": "Bo‘g‘imli qismlarning boshqariladigan harakatiga",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          212
+        ],
+        "printed_pages": [
+          212
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f9": {
+      "claim": "Umurtqalilarda ichki skeletga birikkan muskullar qisqarishi bo‘g‘imlar atrofida tana qismlarini harakatlantiradi.",
+      "answer": "Suyakka birikkan muskullar qisqarishi orqali",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          213
+        ],
+        "printed_pages": [
+          213
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ko‘p vazifali qoplama",
+      "body": "Tana qoplamasi himoyadan tashqari guruhga qarab sezgi, gaz almashinuvi, ajratish va harorat boshqaruvida qatnashishi mumkin.",
+      "fact_ids": [
+        "paragraph-40-f1"
+      ]
+    },
+    {
+      "title": "Teri qatlamlari",
+      "body": "Umurtqalilar terisida tashqi epidermis va uning ostidagi derma ajratiladi.",
+      "fact_ids": [
+        "paragraph-40-f2"
+      ]
+    },
+    {
+      "title": "Baliqdagi shilimshiq",
+      "body": "Baliq terisidagi shilimshiq suvda ishqalanishni kamaytirishga va qoplamani himoyalashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-40-f3"
+      ]
+    },
+    {
+      "title": "Nam teri va gaz",
+      "body": "Baqaning nam terisi gaz almashinuvida qatnashadi; tana qoplamasi va nafas olish funksiyasi o‘zaro bog‘langan.",
+      "fact_ids": [
+        "paragraph-40-f4"
+      ]
+    },
+    {
+      "title": "Muguzli himoya",
+      "body": "Sudralib yuruvchilarning muguzli tangachalari qoplamaning himoyasi va suv yo‘qotishini kamaytirish bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-40-f5"
+      ]
+    },
+    {
+      "title": "Qoplama hosilalari",
+      "body": "Qush pati va sutemizuvchi juni muguzlashgan qoplama hosilalaridir; tuzilishi hamda vazifaviy aloqalari guruhga mos farqlanadi.",
+      "fact_ids": [
+        "paragraph-40-f6"
+      ]
+    },
+    {
+      "title": "Suyuq tayanch",
+      "body": "Gidroskeletda tana suyuqligi va mushaklarning o‘zaro ishlashi shaklni saqlash hamda harakatga yordam beradi.",
+      "fact_ids": [
+        "paragraph-40-f7"
+      ]
+    },
+    {
+      "title": "Tashqi tayanch",
+      "body": "Bo‘g‘imoyoqlilarning tashqi xitinli skeleti himoya va mushaklar bilan birga harakat vazifasini bajaradi.",
+      "fact_ids": [
+        "paragraph-40-f8"
+      ]
+    },
+    {
+      "title": "Ichki tayanch va muskul",
+      "body": "Umurtqalilarda ichki skeletga birikkan muskullar qisqarishi bo‘g‘imlar atrofida tana qismlarini harakatlantiradi.",
+      "fact_ids": [
+        "paragraph-40-f9"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-40-q1",
+      "fact_id": "paragraph-40-f1",
+      "question_text": "Terini faqat mexanik qobiq deyishdagi kamchilik nima?",
+      "options": [
+        "U bir nechta fiziologik vazifada qatnashadi",
+        "U hech qachon muhit bilan bog‘lanmaydi",
+        "U barcha hayvonlarda bir xil patdir",
+        "U faqat ko‘payish hujayrasidir"
+      ],
+      "correct_answer": "U bir nechta fiziologik vazifada qatnashadi",
+      "explanation": "Tana qoplamasi himoyadan tashqari guruhga qarab sezgi, gaz almashinuvi, ajratish va harorat boshqaruvida qatnashishi mumkin."
+    },
+    {
+      "key": "paragraph-40-q2",
+      "fact_id": "paragraph-40-f2",
+      "question_text": "Teri qatlamlarini tashqaridan ichkariga qanday tartiblaymiz?",
+      "options": [
+        "Derma, keyin faqat qanot",
+        "Avval alveola, keyin epidermis",
+        "Avval ichak, keyin urug‘",
+        "Epidermis, keyin derma"
+      ],
+      "correct_answer": "Epidermis, keyin derma",
+      "explanation": "Umurtqalilar terisida tashqi epidermis va uning ostidagi derma ajratiladi."
+    },
+    {
+      "key": "paragraph-40-q3",
+      "fact_id": "paragraph-40-f3",
+      "question_text": "Baliq qoplamasidagi shilimshiqni harakat bilan bog‘lab qanday izohlaymiz?",
+      "options": [
+        "Har bir baliqning jabrasini yo‘q qiladi",
+        "Suv bilan hech qanday aloqasi yo‘q",
+        "Suv bilan ishqalanishni kamaytirishga yordam beradi",
+        "Baliqni havoda uchiradi"
+      ],
+      "correct_answer": "Suv bilan ishqalanishni kamaytirishga yordam beradi",
+      "explanation": "Baliq terisidagi shilimshiq suvda ishqalanishni kamaytirishga va qoplamani himoyalashga yordam beradi."
+    },
+    {
+      "key": "paragraph-40-q4",
+      "fact_id": "paragraph-40-f4",
+      "question_text": "Baqa terisining namligi qaysi vazifani muhokama qilishga asos beradi?",
+      "options": [
+        "Faqat urug‘ changlanishini",
+        "Teri orqali gaz almashinuvini",
+        "Faqat sut ajralishini",
+        "Faqat patning o‘sishini"
+      ],
+      "correct_answer": "Teri orqali gaz almashinuvini",
+      "explanation": "Baqaning nam terisi gaz almashinuvida qatnashadi; tana qoplamasi va nafas olish funksiyasi o‘zaro bog‘langan."
+    },
+    {
+      "key": "paragraph-40-q5",
+      "fact_id": "paragraph-40-f5",
+      "question_text": "Quruqlikda muguzli tangachalar qaysi muammoni kamaytirishga yordam beradi?",
+      "options": [
+        "Ortiqcha suv yo‘qotishni",
+        "Organizmning umuman suvga muhtojligini",
+        "Har qanday harakatning bo‘lishini",
+        "Faqat gulning changlanishini"
+      ],
+      "correct_answer": "Ortiqcha suv yo‘qotishni",
+      "explanation": "Sudralib yuruvchilarning muguzli tangachalari qoplamaning himoyasi va suv yo‘qotishini kamaytirish bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-40-q6",
+      "fact_id": "paragraph-40-f6",
+      "question_text": "Pat va junni qaysi umumiy xususiyat bilan qiyoslaymiz?",
+      "options": [
+        "Ikkalasini faqat tirik ildiz sifatida",
+        "Ikkalasini faqat ichak kiprigi sifatida",
+        "Ikkalasini faqat jabra yaprog‘i sifatida",
+        "Muguzlashgan qoplama hosilalari sifatida"
+      ],
+      "correct_answer": "Muguzlashgan qoplama hosilalari sifatida",
+      "explanation": "Qush pati va sutemizuvchi juni muguzlashgan qoplama hosilalaridir; tuzilishi hamda vazifaviy aloqalari guruhga mos farqlanadi."
+    },
+    {
+      "key": "paragraph-40-q7",
+      "fact_id": "paragraph-40-f7",
+      "question_text": "Ichki qattiq suyaksiz chuvalchangda tayanchni qaysi tizim ta’minlashi mumkin?",
+      "options": [
+        "Faqat qushning qanoti",
+        "Faqat o‘simlik changdoni",
+        "Suyuqlik va mushaklarning hamkorligi",
+        "Faqat toshdan yasalgan umurtqa"
+      ],
+      "correct_answer": "Suyuqlik va mushaklarning hamkorligi",
+      "explanation": "Gidroskeletda tana suyuqligi va mushaklarning o‘zaro ishlashi shaklni saqlash hamda harakatga yordam beradi."
+    },
+    {
+      "key": "paragraph-40-q8",
+      "fact_id": "paragraph-40-f8",
+      "question_text": "Xitinli tashqi tayanchga mushaklar birikishi nimaga imkon beradi?",
+      "options": [
+        "Faqat urug‘ hosil bo‘lishiga",
+        "Bo‘g‘imli qismlarning boshqariladigan harakatiga",
+        "Har bir bo‘g‘imning alohida turga aylanishiga",
+        "Har qanday mushakning yo‘qolishiga"
+      ],
+      "correct_answer": "Bo‘g‘imli qismlarning boshqariladigan harakatiga",
+      "explanation": "Bo‘g‘imoyoqlilarning tashqi xitinli skeleti himoya va mushaklar bilan birga harakat vazifasini bajaradi."
+    },
+    {
+      "key": "paragraph-40-q9",
+      "fact_id": "paragraph-40-f9",
+      "question_text": "Suyakning o‘zi qisqarmasa ham qo‘l qanday harakatlanadi?",
+      "options": [
+        "Suyakka birikkan muskullar qisqarishi orqali",
+        "Suyak ichidagi patning uchishi orqali",
+        "Faqat terining changlanishi orqali",
+        "Skeletning butunlay erishi orqali"
+      ],
+      "correct_answer": "Suyakka birikkan muskullar qisqarishi orqali",
+      "explanation": "Umurtqalilarda ichki skeletga birikkan muskullar qisqarishi bo‘g‘imlar atrofida tana qismlarini harakatlantiradi."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-20-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-24",
+  "title": "Markaziy Osiyo va O‘zbekistonning tabiiy ekosistemalari.",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-20-f1": {
+      "claim": "Markaziy Osiyoda dasht, chala cho‘l, cho‘l va tog‘ ekosistemalari uchraydi; bitta mamlakat barcha joyda bir xil muhit degani emas.",
+      "answer": "Tabiiy mintaqalar xilma-xilligi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-20-f2": {
+      "claim": "Cho‘l ekosistemalarida namlik tanqisligi o‘simlik mahsuldorligini cheklashi mumkin.",
+      "answer": "Namlik yetishmasligi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-20-f3": {
+      "claim": "Cho‘lning qumli, sho‘rxok va gipsli qismlari tuproq sharoitlari bilan farqlanadi; saksovul va juzg‘un qumli cho‘l misollarida berilgan.",
+      "answer": "Saksovul va juzg‘un",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-20-f4": {
+      "claim": "To‘qaylar daryo bo‘yidagi nam hududlar jamoasi bo‘lib, suv rejimi bilan chambarchas bog‘langan.",
+      "answer": "Nam yashash sharoiti o‘zgarishi orqali",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-20-f5": {
+      "claim": "Adirdagi chimli o‘simlik qoplami tuproqni suv va shamol yuvishidan himoya qilishga hissa qo‘shadi.",
+      "answer": "Tuproq eroziyasi",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-20-f6": {
+      "claim": "O‘zbekiston tog‘ o‘rmonlari tavsifida archa, yong‘oq, yovvoyi olma va turli butalar keltirilgan.",
+      "answer": "Archa va yong‘oq",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-20-f7": {
+      "claim": "Yaylovlarda yer bag‘irlab yoki yostiqsimon o‘sadigan ko‘p yillik o‘simliklar sovuq va shamol sharoitiga moslanish misollaridir.",
+      "answer": "Baland tog‘ yaylovida",
+      "source": {
+        "paragraph": 20,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mintaqalar xilma-xilligi",
+      "body": "Markaziy Osiyoda dasht, chala cho‘l, cho‘l va tog‘ ekosistemalari uchraydi; bitta mamlakat barcha joyda bir xil muhit degani emas.",
+      "fact_ids": [
+        "paragraph-20-f1"
+      ]
+    },
+    {
+      "title": "Cho‘lda cheklov",
+      "body": "Cho‘l ekosistemalarida namlik tanqisligi o‘simlik mahsuldorligini cheklashi mumkin.",
+      "fact_ids": [
+        "paragraph-20-f2"
+      ]
+    },
+    {
+      "title": "Substrat va o‘simlik",
+      "body": "Cho‘lning qumli, sho‘rxok va gipsli qismlari tuproq sharoitlari bilan farqlanadi; saksovul va juzg‘un qumli cho‘l misollarida berilgan.",
+      "fact_ids": [
+        "paragraph-20-f3"
+      ]
+    },
+    {
+      "title": "To‘qayning suvi",
+      "body": "To‘qaylar daryo bo‘yidagi nam hududlar jamoasi bo‘lib, suv rejimi bilan chambarchas bog‘langan.",
+      "fact_ids": [
+        "paragraph-20-f4"
+      ]
+    },
+    {
+      "title": "Adir qoplami",
+      "body": "Adirdagi chimli o‘simlik qoplami tuproqni suv va shamol yuvishidan himoya qilishga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-20-f5"
+      ]
+    },
+    {
+      "title": "Tog‘ o‘rmoni",
+      "body": "O‘zbekiston tog‘ o‘rmonlari tavsifida archa, yong‘oq, yovvoyi olma va turli butalar keltirilgan.",
+      "fact_ids": [
+        "paragraph-20-f6"
+      ]
+    },
+    {
+      "title": "Balandlikdagi moslanish",
+      "body": "Yaylovlarda yer bag‘irlab yoki yostiqsimon o‘sadigan ko‘p yillik o‘simliklar sovuq va shamol sharoitiga moslanish misollaridir.",
+      "fact_ids": [
+        "paragraph-20-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-20-q1",
+      "fact_id": "paragraph-20-f1",
+      "question_text": "Markaziy Osiyo tabiatini bitta yashash muhiti deb cheklashda nima e’tibordan chetda qoladi?",
+      "options": [
+        "Tabiiy mintaqalar xilma-xilligi",
+        "Faqat mamlakat nomi",
+        "Faqat xarita shrifti",
+        "Faqat hududning bir xil rangga bo‘yalishi"
+      ],
+      "correct_answer": "Tabiiy mintaqalar xilma-xilligi",
+      "explanation": "Markaziy Osiyoda dasht, chala cho‘l, cho‘l va tog‘ ekosistemalari uchraydi; bitta mamlakat barcha joyda bir xil muhit degani emas."
+    },
+    {
+      "key": "paragraph-20-q2",
+      "fact_id": "paragraph-20-f2",
+      "question_text": "Cho‘ldagi yorug‘lik ko‘p bo‘lsa ham o‘sish pastligida qaysi cheklov tekshiriladi?",
+      "options": [
+        "Quyosh umuman mavjud emasligi",
+        "Barcha tuproq hujayradan iboratligi",
+        "Barcha o‘simliklarning hayvonga aylangani",
+        "Namlik yetishmasligi"
+      ],
+      "correct_answer": "Namlik yetishmasligi",
+      "explanation": "Cho‘l ekosistemalarida namlik tanqisligi o‘simlik mahsuldorligini cheklashi mumkin."
+    },
+    {
+      "key": "paragraph-20-q3",
+      "fact_id": "paragraph-20-f3",
+      "question_text": "Qumli cho‘l uchun sahifada keltirilgan juftlik qaysi?",
+      "options": [
+        "Buk va tropik epifit",
+        "Faqat sholi va dengiz marjoni",
+        "Saksovul va juzg‘un",
+        "Suv nilufari va laminariya"
+      ],
+      "correct_answer": "Saksovul va juzg‘un",
+      "explanation": "Cho‘lning qumli, sho‘rxok va gipsli qismlari tuproq sharoitlari bilan farqlanadi; saksovul va juzg‘un qumli cho‘l misollarida berilgan."
+    },
+    {
+      "key": "paragraph-20-q4",
+      "fact_id": "paragraph-20-f4",
+      "question_text": "Daryo suvi rejimi o‘zgarishi to‘qayga nima orqali ta’sir qilishi mumkin?",
+      "options": [
+        "To‘qayning suvga aloqasizligi orqali",
+        "Nam yashash sharoiti o‘zgarishi orqali",
+        "Faqat daraxtning nomi almashishi orqali",
+        "Faqat xromosoma soni majburan tenglashishi orqali"
+      ],
+      "correct_answer": "Nam yashash sharoiti o‘zgarishi orqali",
+      "explanation": "To‘qaylar daryo bo‘yidagi nam hududlar jamoasi bo‘lib, suv rejimi bilan chambarchas bog‘langan."
+    },
+    {
+      "key": "paragraph-20-q5",
+      "fact_id": "paragraph-20-f5",
+      "question_text": "Adirda o‘simlik qoplami buzilganda qaysi xavf ortishi mumkin?",
+      "options": [
+        "Tuproq eroziyasi",
+        "Quyoshning birdan so‘nishi",
+        "Barcha mineralning uglevodga aylanishi",
+        "Har bir hayvonning bir turga aylanishi"
+      ],
+      "correct_answer": "Tuproq eroziyasi",
+      "explanation": "Adirdagi chimli o‘simlik qoplami tuproqni suv va shamol yuvishidan himoya qilishga hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-20-q6",
+      "fact_id": "paragraph-20-f6",
+      "question_text": "Tog‘ o‘rmoniga oid daraxtlar juftligini toping.",
+      "options": [
+        "Laminariya va ulva",
+        "Qamish va suvo‘tining barcha turlari",
+        "Faqat dengiz marjonlari",
+        "Archa va yong‘oq"
+      ],
+      "correct_answer": "Archa va yong‘oq",
+      "explanation": "O‘zbekiston tog‘ o‘rmonlari tavsifida archa, yong‘oq, yovvoyi olma va turli butalar keltirilgan."
+    },
+    {
+      "key": "paragraph-20-q7",
+      "fact_id": "paragraph-20-f7",
+      "question_text": "Yostiqsimon o‘sish qaysi muhit kontekstida bo‘limda ko‘rsatilgan?",
+      "options": [
+        "Faqat shahar kanalizatsiyasida",
+        "Faqat inson ichagida",
+        "Baland tog‘ yaylovida",
+        "Faqat dengiz tubida"
+      ],
+      "correct_answer": "Baland tog‘ yaylovida",
+      "explanation": "Yaylovlarda yer bag‘irlab yoki yostiqsimon o‘sadigan ko‘p yillik o‘simliklar sovuq va shamol sharoitiga moslanish misollaridir."
+    }
+  ]
+}

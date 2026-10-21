@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-laboratory-4-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-laboratory-45",
+  "title": "4-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-4-f1": {
+      "claim": "Laboratoriya 4 sporali, ochiq urug‘li va gulli o‘simliklarning vegetativ hamda generativ tuzilmalarini qiyoslaydi.",
+      "answer": "Vegetativ va generativ tuzilmalarni",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-4-f2": {
+      "claim": "Ildiz, poya va barg vegetativ tuzilmalardir; generativ tuzilmani ko‘payishdagi vazifasi bo‘yicha aniqlash kerak. Qoida manbasi: §36, PDF 187; §37, PDF 192.",
+      "answer": "Poya vegetativ, qubba ko‘payish bilan bog‘liq",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-43",
+            "paragraph": 36,
+            "pdf_pages": [
+              187
+            ],
+            "printed_pages": [
+              187
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          },
+          {
+            "topic_id": "bio-11-topic-44",
+            "paragraph": 37,
+            "pdf_pages": [
+              192
+            ],
+            "printed_pages": [
+              192
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-4-f3": {
+      "claim": "Darslikdagi tasnifda urug‘ va gulning paydo bo‘lishi katta evolutsion yangiliklar sifatida tahlil qilinadi. Qoida manbasi: §35, PDF 185.",
+      "answer": "Yirik ko‘payish imkoniyatining yangiligi sifatida",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-42",
+            "paragraph": 35,
+            "pdf_pages": [
+              185
+            ],
+            "printed_pages": [
+              185
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-4-f4": {
+      "claim": "Laboratoriya turli guruhlardagi xususiy moslanishlarni ham tahlil qiladi; masalan, ignasimon barg suv yo‘qotishga ta’sir qilishi mumkin. Qoida manbasi: §10, PDF 61.",
+      "answer": "Muayyan muhitga xususiy moslanish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-12",
+            "paragraph": 10,
+            "pdf_pages": [
+              61
+            ],
+            "printed_pages": [
+              61
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-4-f5": {
+      "claim": "Raqamli tahlilda berilgan belgi yoki qonuniy tayyor namuna tavsifi ishlatiladi; noma’lum yoki muhofazadagi o‘simlikni yig‘ish shart emas.",
+      "answer": "Berilgan tavsifni tahlil qilish, fizik namuna yig‘ishni majburiy qilmaslik",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Taqqoslash rejasi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya 4 sporali, ochiq urug‘li va gulli o‘simliklarning vegetativ hamda generativ tuzilmalarini qiyoslaydi.",
+      "fact_ids": [
+        "laboratory-4-f1"
+      ]
+    },
+    {
+      "title": "Belgini asoslash",
+      "body": "Ildiz, poya va barg vegetativ tuzilmalardir; generativ tuzilmani ko‘payishdagi vazifasi bo‘yicha aniqlash kerak. Qoida manbasi: §36, PDF 187; §37, PDF 192.",
+      "fact_ids": [
+        "laboratory-4-f2"
+      ]
+    },
+    {
+      "title": "Yirik yangilik modeli",
+      "body": "Darslikdagi tasnifda urug‘ va gulning paydo bo‘lishi katta evolutsion yangiliklar sifatida tahlil qilinadi. Qoida manbasi: §35, PDF 185.",
+      "fact_ids": [
+        "laboratory-4-f3"
+      ]
+    },
+    {
+      "title": "Xususiy moslanish",
+      "body": "Laboratoriya turli guruhlardagi xususiy moslanishlarni ham tahlil qiladi; masalan, ignasimon barg suv yo‘qotishga ta’sir qilishi mumkin. Qoida manbasi: §10, PDF 61.",
+      "fact_ids": [
+        "laboratory-4-f4"
+      ]
+    },
+    {
+      "title": "Kuzatuvning haqiqiyligi",
+      "body": "Raqamli tahlilda berilgan belgi yoki qonuniy tayyor namuna tavsifi ishlatiladi; noma’lum yoki muhofazadagi o‘simlikni yig‘ish shart emas.",
+      "fact_ids": [
+        "laboratory-4-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-4-q1",
+      "fact_id": "laboratory-4-f1",
+      "question_text": "Dastlab namuna haqida qaysi ikki vazifaviy guruhni ajratamiz?",
+      "options": [
+        "Vegetativ va generativ tuzilmalarni",
+        "Faqat yirtqich va o‘lja a’zolarini",
+        "Faqat pat va junni",
+        "Faqat ichak va yurakni"
+      ],
+      "correct_answer": "Vegetativ va generativ tuzilmalarni",
+      "explanation": "Laboratoriya 4 sporali, ochiq urug‘li va gulli o‘simliklarning vegetativ hamda generativ tuzilmalarini qiyoslaydi."
+    },
+    {
+      "key": "laboratory-4-q2",
+      "fact_id": "laboratory-4-f2",
+      "question_text": "Qarag‘ayning poyasi bilan urug‘li qubbasini qanday ajratamiz?",
+      "options": [
+        "Ikkalasi ham faqat ildiz",
+        "Qubba faqat hayvon tuxumi",
+        "Poya faqat gul changi",
+        "Poya vegetativ, qubba ko‘payish bilan bog‘liq"
+      ],
+      "correct_answer": "Poya vegetativ, qubba ko‘payish bilan bog‘liq",
+      "explanation": "Ildiz, poya va barg vegetativ tuzilmalardir; generativ tuzilmani ko‘payishdagi vazifasi bo‘yicha aniqlash kerak. Qoida manbasi: §36, PDF 187; §37, PDF 192."
+    },
+    {
+      "key": "laboratory-4-q3",
+      "fact_id": "laboratory-4-f3",
+      "question_text": "Oddiy o‘quv jadvalida urug‘ hosil bo‘lishini qaysi mazmunda tekshiramiz?",
+      "options": [
+        "Faqat urug‘ rangining tasodifiy farqi sifatida",
+        "Faqat namuna narxi sifatida",
+        "Yirik ko‘payish imkoniyatining yangiligi sifatida",
+        "Har bir individning bir kunlik odati sifatida"
+      ],
+      "correct_answer": "Yirik ko‘payish imkoniyatining yangiligi sifatida",
+      "explanation": "Darslikdagi tasnifda urug‘ va gulning paydo bo‘lishi katta evolutsion yangiliklar sifatida tahlil qilinadi. Qoida manbasi: §35, PDF 185."
+    },
+    {
+      "key": "laboratory-4-q4",
+      "fact_id": "laboratory-4-f4",
+      "question_text": "Igna shaklidagi bargni namlik bilan qiyoslash qaysi tahlilga mos?",
+      "options": [
+        "Faqat kosmik modda kelib chiqishi",
+        "Muayyan muhitga xususiy moslanish",
+        "Barcha o‘simlikning bir turga aylanishi",
+        "Har bir o‘simlikning suvdan ozod bo‘lishi"
+      ],
+      "correct_answer": "Muayyan muhitga xususiy moslanish",
+      "explanation": "Laboratoriya turli guruhlardagi xususiy moslanishlarni ham tahlil qiladi; masalan, ignasimon barg suv yo‘qotishga ta’sir qilishi mumkin. Qoida manbasi: §10, PDF 61."
+    },
+    {
+      "key": "laboratory-4-q5",
+      "fact_id": "laboratory-4-f5",
+      "question_text": "Ilovadagi bu faoliyatni bajarishda qaysi qaror mos?",
+      "options": [
+        "Berilgan tavsifni tahlil qilish, fizik namuna yig‘ishni majburiy qilmaslik",
+        "Har bir noyob o‘simlikni uzib kelish",
+        "Ko‘rilmagan namunaga uydirma kuzatuv yozish",
+        "XPni haqiqiy gerbariy tayyorlandi deb hisoblash"
+      ],
+      "correct_answer": "Berilgan tavsifni tahlil qilish, fizik namuna yig‘ishni majburiy qilmaslik",
+      "explanation": "Raqamli tahlilda berilgan belgi yoki qonuniy tayyor namuna tavsifi ishlatiladi; noma’lum yoki muhofazadagi o‘simlikni yig‘ish shart emas."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "4-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Taqqoslash rejasi",
+        "fact_ids": [
+          "laboratory-4-f1"
+        ]
+      },
+      {
+        "instruction": "Belgini asoslash",
+        "fact_ids": [
+          "laboratory-4-f2"
+        ]
+      },
+      {
+        "instruction": "Yirik yangilik modeli",
+        "fact_ids": [
+          "laboratory-4-f3"
+        ]
+      },
+      {
+        "instruction": "Xususiy moslanish",
+        "fact_ids": [
+          "laboratory-4-f4"
+        ]
+      },
+      {
+        "instruction": "Kuzatuvning haqiqiyligi",
+        "fact_ids": [
+          "laboratory-4-f5"
+        ]
+      }
+    ]
+  }
+}

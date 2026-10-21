@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-36-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-43",
+  "title": "O‘simliklar filogenezi. O‘simliklarning vegetativ organlari filogenezi.",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-36-f1": {
+      "claim": "Ildiz va bargli novda o‘sish, oziqlanish va vegetativ ko‘payishda qatnashadigan tuzilmalardir.",
+      "answer": "O‘sish va kundalik oziqlanish faoliyatini ta’minlash",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          187
+        ],
+        "printed_pages": [
+          187
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f2": {
+      "claim": "Quruqlikda suvni saqlash, tuproqdan moddalar olish va mexanik tayanch muhim muammolardir.",
+      "answer": "Qurib qolishdan himoya va tayanch",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          188
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f3": {
+      "claim": "Qoplovchi tuzilma qurib qolish va tashqi mexanik ta’sirdan himoyaga yordam beradi.",
+      "answer": "Suv yo‘qotish va tashqi zarardan himoya",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          188
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f4": {
+      "claim": "O‘tkazuvchi to‘qimalar ildiz va yerusti qismlar o‘rtasida suv, mineral va organik moddalarni tashishda qatnashadi.",
+      "answer": "O‘tkazuvchi to‘qimaga",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          188
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f5": {
+      "claim": "Qirqbo‘g‘imlarda bo‘g‘imli poya va ildizpoya uchraydi; ildizpoya vegetativ ko‘payishda qatnashishi mumkin.",
+      "answer": "U vegetativ tizim va ko‘payishga ham tegishli",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          189
+        ],
+        "printed_pages": [
+          189
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f6": {
+      "claim": "Qirqquloq barglari fotosintezda qatnashadi, ayrim qismlaridagi soruslar esa spora tuzilmalari bilan bog‘liq.",
+      "answer": "Fotosintez va spora hosil qilish",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          189
+        ],
+        "printed_pages": [
+          189
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f7": {
+      "claim": "Ildiz, poya va barg alohida vazifalarni bajarsa ham butun o‘simlikning modda va energiya almashinuvida bog‘langan.",
+      "answer": "Yo‘q, ular butun organizmda o‘zaro bog‘langan",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          190
+        ],
+        "printed_pages": [
+          190
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Vegetativ vazifa",
+      "body": "Ildiz va bargli novda o‘sish, oziqlanish va vegetativ ko‘payishda qatnashadigan tuzilmalardir.",
+      "fact_ids": [
+        "paragraph-36-f1"
+      ]
+    },
+    {
+      "title": "Quruqlikning talabi",
+      "body": "Quruqlikda suvni saqlash, tuproqdan moddalar olish va mexanik tayanch muhim muammolardir.",
+      "fact_ids": [
+        "paragraph-36-f2"
+      ]
+    },
+    {
+      "title": "Qoplovchi to‘qima",
+      "body": "Qoplovchi tuzilma qurib qolish va tashqi mexanik ta’sirdan himoyaga yordam beradi.",
+      "fact_ids": [
+        "paragraph-36-f3"
+      ]
+    },
+    {
+      "title": "O‘tkazuvchi to‘qima",
+      "body": "O‘tkazuvchi to‘qimalar ildiz va yerusti qismlar o‘rtasida suv, mineral va organik moddalarni tashishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-36-f4"
+      ]
+    },
+    {
+      "title": "Qirqbo‘g‘im tuzilishi",
+      "body": "Qirqbo‘g‘imlarda bo‘g‘imli poya va ildizpoya uchraydi; ildizpoya vegetativ ko‘payishda qatnashishi mumkin.",
+      "fact_ids": [
+        "paragraph-36-f5"
+      ]
+    },
+    {
+      "title": "Qirqquloq bargi",
+      "body": "Qirqquloq barglari fotosintezda qatnashadi, ayrim qismlaridagi soruslar esa spora tuzilmalari bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-36-f6"
+      ]
+    },
+    {
+      "title": "Tizim sifatida o‘simlik",
+      "body": "Ildiz, poya va barg alohida vazifalarni bajarsa ham butun o‘simlikning modda va energiya almashinuvida bog‘langan.",
+      "fact_ids": [
+        "paragraph-36-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-36-q1",
+      "fact_id": "paragraph-36-f1",
+      "question_text": "Vegetativ tizimni gul va mevadan ajratadigan asosiy vazifa qaysi?",
+      "options": [
+        "O‘sish va kundalik oziqlanish faoliyatini ta’minlash",
+        "Faqat urug‘ hosil qilish",
+        "Faqat chang donasini yaratish",
+        "Faqat juft urug‘lanish"
+      ],
+      "correct_answer": "O‘sish va kundalik oziqlanish faoliyatini ta’minlash",
+      "explanation": "Ildiz va bargli novda o‘sish, oziqlanish va vegetativ ko‘payishda qatnashadigan tuzilmalardir."
+    },
+    {
+      "key": "paragraph-36-q2",
+      "fact_id": "paragraph-36-f2",
+      "question_text": "Suvdan quruqlikka o‘tishda qaysi yangi talablar birga tahlil qilinadi?",
+      "options": [
+        "Faqat doim suv oqimida suzish",
+        "Faqat jabra bilan nafas olish",
+        "Faqat tashqi suvda urug‘lanishning kuchayishi",
+        "Qurib qolishdan himoya va tayanch"
+      ],
+      "correct_answer": "Qurib qolishdan himoya va tayanch",
+      "explanation": "Quruqlikda suvni saqlash, tuproqdan moddalar olish va mexanik tayanch muhim muammolardir."
+    },
+    {
+      "key": "paragraph-36-q3",
+      "fact_id": "paragraph-36-f3",
+      "question_text": "O‘simlikning tashqi himoya qavati qaysi vazifa bilan bog‘liq?",
+      "options": [
+        "Faqat oziqni ichakda hazm qilish",
+        "Faqat hayvonning eshitishi",
+        "Suv yo‘qotish va tashqi zarardan himoya",
+        "Faqat gulning changini yaratish"
+      ],
+      "correct_answer": "Suv yo‘qotish va tashqi zarardan himoya",
+      "explanation": "Qoplovchi tuzilma qurib qolish va tashqi mexanik ta’sirdan himoyaga yordam beradi."
+    },
+    {
+      "key": "paragraph-36-q4",
+      "fact_id": "paragraph-36-f4",
+      "question_text": "Ildizda olingan moddalar uzoqdagi bargga yetishi qaysi tizimga bog‘liq?",
+      "options": [
+        "Faqat urug‘dagi individual belgiga",
+        "O‘tkazuvchi to‘qimaga",
+        "Faqat changdon rangiga",
+        "Faqat meva po‘stiga"
+      ],
+      "correct_answer": "O‘tkazuvchi to‘qimaga",
+      "explanation": "O‘tkazuvchi to‘qimalar ildiz va yerusti qismlar o‘rtasida suv, mineral va organik moddalarni tashishda qatnashadi."
+    },
+    {
+      "key": "paragraph-36-q5",
+      "fact_id": "paragraph-36-f5",
+      "question_text": "Qirqbo‘g‘imning yerosti ildizpoyasini faqat urug‘ organi deyish nega xato?",
+      "options": [
+        "U vegetativ tizim va ko‘payishga ham tegishli",
+        "U faqat gulning changchisi",
+        "U hayvonning tashqi skeleti",
+        "U faqat abiotik tosh"
+      ],
+      "correct_answer": "U vegetativ tizim va ko‘payishga ham tegishli",
+      "explanation": "Qirqbo‘g‘imlarda bo‘g‘imli poya va ildizpoya uchraydi; ildizpoya vegetativ ko‘payishda qatnashishi mumkin."
+    },
+    {
+      "key": "paragraph-36-q6",
+      "fact_id": "paragraph-36-f6",
+      "question_text": "Barg ostidagi sorusni ko‘rish qaysi ikki vazifani bir organ kontekstida tahlil qiladi?",
+      "options": [
+        "Faqat yirtqichlik va uchish",
+        "Faqat ichki urug‘lanish va laktatsiya",
+        "Faqat qon aylanishi",
+        "Fotosintez va spora hosil qilish"
+      ],
+      "correct_answer": "Fotosintez va spora hosil qilish",
+      "explanation": "Qirqquloq barglari fotosintezda qatnashadi, ayrim qismlaridagi soruslar esa spora tuzilmalari bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-36-q7",
+      "fact_id": "paragraph-36-f7",
+      "question_text": "Barg fotosintezi bilan ildizdan mineral kirishini alohida yopiq jarayon deb bo‘ladimi?",
+      "options": [
+        "Ha, har biri mutlaqo boshqa biologik tur",
+        "Ha, poya barcha aloqani doim to‘sadi",
+        "Yo‘q, ular butun organizmda o‘zaro bog‘langan",
+        "Ha, ildiz va barg hech qanday modda almashmaydi"
+      ],
+      "correct_answer": "Yo‘q, ular butun organizmda o‘zaro bog‘langan",
+      "explanation": "Ildiz, poya va barg alohida vazifalarni bajarsa ham butun o‘simlikning modda va energiya almashinuvida bog‘langan."
+    }
+  ]
+}

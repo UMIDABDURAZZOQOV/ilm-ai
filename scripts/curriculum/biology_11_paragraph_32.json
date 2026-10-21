@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-32-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-38",
+  "title": "Biosfera evolutsiyasi. Noogenez",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-32-f1": {
+      "claim": "Noosfera inson ongi va ongli faoliyatining biosfera o‘zgarishidagi rolini ifodalovchi tarixiy ilmiy-falsafiy tushunchadir.",
+      "answer": "Insonning ongli faoliyati roliga oid tarixiy tushuncha",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-32-f2": {
+      "claim": "Noosfera atamasi E. Lerua nomi bilan, biosfera bilan bog‘liq talqini Vernadskiy qarashlari bilan yoritiladi.",
+      "answer": "Eduard Lerua",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          167
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-32-f3": {
+      "claim": "Mehnat qurollari, dehqonchilik va chorvachilik odamning yashash joylarini o‘zgartirish ko‘lamini oshirgan.",
+      "answer": "Yer va biologik resurslarni boshqarish ko‘lami ortishi",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          168
+        ],
+        "printed_pages": [
+          168
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-32-f4": {
+      "claim": "Qazilma yoqilg‘i sarfi oldin uzoq zaxirada bo‘lgan uglerodni faol modda almashinuviga qaytaradi.",
+      "answer": "Uzoq muddatli uglerod zaxirasining qayta muhitga chiqishini",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-32-f5": {
+      "claim": "Darslik noogenika maqsadini jamiyat–tabiat aloqalarini rejalashtirish va salbiy oqibatlarni oldini olish bilan bog‘laydi.",
+      "answer": "Ongli ekologik rejalashtirishga",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          169
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-32-f6": {
+      "claim": "Ekologik qonuniyatlarni anglash oqilona boshqaruvga yordam beradi; bilimning o‘zi avtomatik ravishda barcha muammoni hal qilmaydi.",
+      "answer": "Dalilga asoslangan qaror va natijani tekshirish",
+      "source": {
+        "paragraph": 32,
+        "pdf_pages": [
+          170
+        ],
+        "printed_pages": [
+          170
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Noosfera tushunchasi",
+      "body": "Noosfera inson ongi va ongli faoliyatining biosfera o‘zgarishidagi rolini ifodalovchi tarixiy ilmiy-falsafiy tushunchadir.",
+      "fact_ids": [
+        "paragraph-32-f1"
+      ]
+    },
+    {
+      "title": "Atama tarixi",
+      "body": "Noosfera atamasi E. Lerua nomi bilan, biosfera bilan bog‘liq talqini Vernadskiy qarashlari bilan yoritiladi.",
+      "fact_ids": [
+        "paragraph-32-f2"
+      ]
+    },
+    {
+      "title": "Ijtimoiy faoliyat",
+      "body": "Mehnat qurollari, dehqonchilik va chorvachilik odamning yashash joylarini o‘zgartirish ko‘lamini oshirgan.",
+      "fact_ids": [
+        "paragraph-32-f3"
+      ]
+    },
+    {
+      "title": "Uzoq zaxirani ishlatish",
+      "body": "Qazilma yoqilg‘i sarfi oldin uzoq zaxirada bo‘lgan uglerodni faol modda almashinuviga qaytaradi.",
+      "fact_ids": [
+        "paragraph-32-f4"
+      ]
+    },
+    {
+      "title": "Oqibatni oldindan ko‘rish",
+      "body": "Darslik noogenika maqsadini jamiyat–tabiat aloqalarini rejalashtirish va salbiy oqibatlarni oldini olish bilan bog‘laydi.",
+      "fact_ids": [
+        "paragraph-32-f5"
+      ]
+    },
+    {
+      "title": "Mas’ul boshqaruv",
+      "body": "Ekologik qonuniyatlarni anglash oqilona boshqaruvga yordam beradi; bilimning o‘zi avtomatik ravishda barcha muammoni hal qilmaydi.",
+      "fact_ids": [
+        "paragraph-32-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-32-q1",
+      "fact_id": "paragraph-32-f1",
+      "question_text": "Noosfera haqida qaysi ta’rif ehtiyotkor?",
+      "options": [
+        "Insonning ongli faoliyati roliga oid tarixiy tushuncha",
+        "Yerdan alohida aniq qattiq geologik qatlam",
+        "Barcha ekologik muammo allaqachon tugagani isboti",
+        "Inson biologik ehtiyojlardan ozod bo‘lgani qonuni"
+      ],
+      "correct_answer": "Insonning ongli faoliyati roliga oid tarixiy tushuncha",
+      "explanation": "Noosfera inson ongi va ongli faoliyatining biosfera o‘zgarishidagi rolini ifodalovchi tarixiy ilmiy-falsafiy tushunchadir."
+    },
+    {
+      "key": "paragraph-32-q2",
+      "fact_id": "paragraph-32-f2",
+      "question_text": "Noosfera atamasi taklifi sahifada kim bilan bog‘langan?",
+      "options": [
+        "Gregor Mendel",
+        "Robert Guk",
+        "Lui Paster",
+        "Eduard Lerua"
+      ],
+      "correct_answer": "Eduard Lerua",
+      "explanation": "Noosfera atamasi E. Lerua nomi bilan, biosfera bilan bog‘liq talqini Vernadskiy qarashlari bilan yoritiladi."
+    },
+    {
+      "key": "paragraph-32-q3",
+      "fact_id": "paragraph-32-f3",
+      "question_text": "Dehqonchilikning biosfera tarixidagi ahamiyatini qaysi bog‘lanish ko‘rsatadi?",
+      "options": [
+        "Barcha tabiiy tanlanishning abadiy to‘xtashi",
+        "Barcha turlarning bir xil genotipga o‘tishi",
+        "Yer va biologik resurslarni boshqarish ko‘lami ortishi",
+        "Odamning suvga ehtiyoji tugashi"
+      ],
+      "correct_answer": "Yer va biologik resurslarni boshqarish ko‘lami ortishi",
+      "explanation": "Mehnat qurollari, dehqonchilik va chorvachilik odamning yashash joylarini o‘zgartirish ko‘lamini oshirgan."
+    },
+    {
+      "key": "paragraph-32-q4",
+      "fact_id": "paragraph-32-f4",
+      "question_text": "Neft yoqilg‘isidan keng foydalanish qaysi jarayonni tezlashtiradi?",
+      "options": [
+        "Tabiiy resursning cheksiz bo‘lib qolishini",
+        "Uzoq muddatli uglerod zaxirasining qayta muhitga chiqishini",
+        "Azotning temirga aylanishini",
+        "Barcha organizm massasining o‘zgarmasligini"
+      ],
+      "correct_answer": "Uzoq muddatli uglerod zaxirasining qayta muhitga chiqishini",
+      "explanation": "Qazilma yoqilg‘i sarfi oldin uzoq zaxirada bo‘lgan uglerodni faol modda almashinuviga qaytaradi."
+    },
+    {
+      "key": "paragraph-32-q5",
+      "fact_id": "paragraph-32-f5",
+      "question_text": "Loyihaning resurs va chiqindi oqibatini oldindan baholash qaysi yondashuvga mos?",
+      "options": [
+        "Ongli ekologik rejalashtirishga",
+        "Faqat oqibatni kuzatmasdan resurs sarflashga",
+        "Faqat turlar nomini almashtirishga",
+        "Hech qanday ekologik ma’lumot olmaslikka"
+      ],
+      "correct_answer": "Ongli ekologik rejalashtirishga",
+      "explanation": "Darslik noogenika maqsadini jamiyat–tabiat aloqalarini rejalashtirish va salbiy oqibatlarni oldini olish bilan bog‘laydi."
+    },
+    {
+      "key": "paragraph-32-q6",
+      "fact_id": "paragraph-32-f6",
+      "question_text": "Ekologik bilim amaliy foyda berishi uchun nima kerak?",
+      "options": [
+        "Faqat tushuncha nomini yodlash",
+        "Har qanday faoliyatni avtomatik zararsiz deyish",
+        "Barcha o‘lchovdan voz kechish",
+        "Dalilga asoslangan qaror va natijani tekshirish"
+      ],
+      "correct_answer": "Dalilga asoslangan qaror va natijani tekshirish",
+      "explanation": "Ekologik qonuniyatlarni anglash oqilona boshqaruvga yordam beradi; bilimning o‘zi avtomatik ravishda barcha muammoni hal qilmaydi."
+    }
+  ]
+}

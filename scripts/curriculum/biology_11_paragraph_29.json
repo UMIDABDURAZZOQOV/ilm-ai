@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-29-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-35",
+  "title": "Biosferada modda va energiyaning davriy aylanishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-29-f1": {
+      "claim": "Elementlar birikmalar orasida o‘tib, keyinchalik boshqa organizmlar foydalanadigan shaklga qaytishi modda aylanishining mazmunidir.",
+      "answer": "Modda aylanishi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f2": {
+      "claim": "Nurash, ko‘chish, cho‘kindi to‘planishi va tektonik harakat elementlarning geologik ko‘chishida qatnashadi.",
+      "answer": "Geologik modda aylanishi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f3": {
+      "claim": "Uglerod, vodorod, kislorod, azot, fosfor va oltingugurt tirik tizimlarda muhim elementlar qatoriga kiradi.",
+      "answer": "Tirik tizimlardagi muhim biogen elementlar bo‘lishi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f4": {
+      "claim": "Biologik va geologik jarayonlar alohida yopiq yo‘llar emas: elementlar biridan boshqasiga o‘tishi mumkin.",
+      "answer": "Biologik va geologik jarayonlarning bog‘liqligini",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f5": {
+      "claim": "Quyosh energiyasi ko‘plab biologik modda aylanishlarini harakatlantiradi; energiya issiqlik sifatida tarqalishi sabab modda kabi to‘liq yopiq qaytmaydi.",
+      "answer": "Energiya oqimida issiqlik tarqalishi hisobga olinadi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f6": {
+      "claim": "Produtsent sintezi, konsument iste’moli va redutsent minerallashishi elementlar qayta o‘zlashtirilishiga bog‘langan.",
+      "answer": "Redutsentlar",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Qayta foydalanish",
+      "body": "Elementlar birikmalar orasida o‘tib, keyinchalik boshqa organizmlar foydalanadigan shaklga qaytishi modda aylanishining mazmunidir.",
+      "fact_ids": [
+        "paragraph-29-f1"
+      ]
+    },
+    {
+      "title": "Geologik jarayon",
+      "body": "Nurash, ko‘chish, cho‘kindi to‘planishi va tektonik harakat elementlarning geologik ko‘chishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-29-f2"
+      ]
+    },
+    {
+      "title": "Biogen element",
+      "body": "Uglerod, vodorod, kislorod, azot, fosfor va oltingugurt tirik tizimlarda muhim elementlar qatoriga kiradi.",
+      "fact_ids": [
+        "paragraph-29-f3"
+      ]
+    },
+    {
+      "title": "Aylanishlarning aloqasi",
+      "body": "Biologik va geologik jarayonlar alohida yopiq yo‘llar emas: elementlar biridan boshqasiga o‘tishi mumkin.",
+      "fact_ids": [
+        "paragraph-29-f4"
+      ]
+    },
+    {
+      "title": "Energiya va modda",
+      "body": "Quyosh energiyasi ko‘plab biologik modda aylanishlarini harakatlantiradi; energiya issiqlik sifatida tarqalishi sabab modda kabi to‘liq yopiq qaytmaydi.",
+      "fact_ids": [
+        "paragraph-29-f5"
+      ]
+    },
+    {
+      "title": "Guruhlar ketma-ketligi",
+      "body": "Produtsent sintezi, konsument iste’moli va redutsent minerallashishi elementlar qayta o‘zlashtirilishiga bog‘langan.",
+      "fact_ids": [
+        "paragraph-29-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-29-q1",
+      "fact_id": "paragraph-29-f1",
+      "question_text": "Bargdagi element keyin mineral bo‘lib yangi o‘simlikka o‘tsa, nima kuzatilgan?",
+      "options": [
+        "Modda aylanishi",
+        "Atomning butunlay yo‘q bo‘lishi",
+        "Energiya va moddaning bir xil yopiq aylanishi",
+        "Faqat bir individning ismi o‘zgarishi"
+      ],
+      "correct_answer": "Modda aylanishi",
+      "explanation": "Elementlar birikmalar orasida o‘tib, keyinchalik boshqa organizmlar foydalanadigan shaklga qaytishi modda aylanishining mazmunidir."
+    },
+    {
+      "key": "paragraph-29-q2",
+      "fact_id": "paragraph-29-f2",
+      "question_text": "Jins yemirilib zarralari daryodan cho‘kindiga o‘tishi qaysi jarayon ko‘lamiga mos?",
+      "options": [
+        "Faqat refleks yoyi",
+        "Faqat shartli genotip",
+        "Faqat bir hujayraning mitoz bosqichi",
+        "Geologik modda aylanishi"
+      ],
+      "correct_answer": "Geologik modda aylanishi",
+      "explanation": "Nurash, ko‘chish, cho‘kindi to‘planishi va tektonik harakat elementlarning geologik ko‘chishida qatnashadi."
+    },
+    {
+      "key": "paragraph-29-q3",
+      "fact_id": "paragraph-29-f3",
+      "question_text": "C, H, O, N, P va Sni birlashtiradigan biologik jihat qaysi?",
+      "options": [
+        "Ularning hammasi aynan bitta element bo‘lishi",
+        "Ular hech qaysi organizmga kerak emasligi",
+        "Tirik tizimlardagi muhim biogen elementlar bo‘lishi",
+        "Ularning hammasi faqat gaz bo‘lishi"
+      ],
+      "correct_answer": "Tirik tizimlardagi muhim biogen elementlar bo‘lishi",
+      "explanation": "Uglerod, vodorod, kislorod, azot, fosfor va oltingugurt tirik tizimlarda muhim elementlar qatoriga kiradi."
+    },
+    {
+      "key": "paragraph-29-q4",
+      "fact_id": "paragraph-29-f4",
+      "question_text": "Mineralning o‘simlikka o‘tishi keyin cho‘kindiga qaytishi nimani ko‘rsatadi?",
+      "options": [
+        "Faqat bitta individning ikki nomi borligini",
+        "Biologik va geologik jarayonlarning bog‘liqligini",
+        "Har ikki jarayon mutlaqo aloqasizligini",
+        "Mineralning albatta tirik hujayra ekanini"
+      ],
+      "correct_answer": "Biologik va geologik jarayonlarning bog‘liqligini",
+      "explanation": "Biologik va geologik jarayonlar alohida yopiq yo‘llar emas: elementlar biridan boshqasiga o‘tishi mumkin."
+    },
+    {
+      "key": "paragraph-29-q5",
+      "fact_id": "paragraph-29-f5",
+      "question_text": "Modda qayta ishlatilishi bilan energiya oqimini nima ajratadi?",
+      "options": [
+        "Energiya oqimida issiqlik tarqalishi hisobga olinadi",
+        "Energiya har doim atomlarga aylanadi",
+        "Modda hech qachon qayta foydalanilmaydi",
+        "Issiqlik har doim o‘zgarmay fotosintezga to‘liq qaytadi"
+      ],
+      "correct_answer": "Energiya oqimida issiqlik tarqalishi hisobga olinadi",
+      "explanation": "Quyosh energiyasi ko‘plab biologik modda aylanishlarini harakatlantiradi; energiya issiqlik sifatida tarqalishi sabab modda kabi to‘liq yopiq qaytmaydi."
+    },
+    {
+      "key": "paragraph-29-q6",
+      "fact_id": "paragraph-29-f6",
+      "question_text": "Organik qoldiqning mineral moddalarga qaytishida qaysi funksional guruh ajratiladi?",
+      "options": [
+        "Faqat birlamchi o‘txo‘rlar",
+        "Faqat yirik yirtqichlar",
+        "Faqat abiotik yorug‘lik",
+        "Redutsentlar"
+      ],
+      "correct_answer": "Redutsentlar",
+      "explanation": "Produtsent sintezi, konsument iste’moli va redutsent minerallashishi elementlar qayta o‘zlashtirilishiga bog‘langan."
+    }
+  ]
+}

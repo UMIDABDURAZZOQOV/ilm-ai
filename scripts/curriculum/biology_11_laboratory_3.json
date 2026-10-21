@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-laboratory-3-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-laboratory-28",
+  "title": "3-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-3-f1": {
+      "claim": "Laboratoriya 3 tabiiy va sun’iy ekosistemalarda oziq guruhlari hamda boshqaruvdagi o‘xshashlik-farqlarni aniqlashni taklif qiladi.",
+      "answer": "Tarkib va boshqaruvdagi umumiy hamda farqli jihatlarni aniqlash",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-3-f2": {
+      "claim": "Taqqoslash jadvali ikkala tizimda ham produtsent, konsument va redutsentlarni izlashni talab qiladi.",
+      "answer": "Boshqa funksional guruhlar haqidagi qayd",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-3-f3": {
+      "claim": "Agroekosistemada inson sug‘orish, mineral moddalar va texnik energiya kabi qo‘shimcha kirimlarni boshqarishi mumkin.",
+      "answer": "Inson boshqaradigan qo‘shimcha suv va resurs kirimi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-3-f4": {
+      "claim": "Tabiiy va agroekosistemalarda tabiiy biologik jarayonlar davom etadi; inson tanlovi agroekosistemada qo‘shimcha yo‘nalish beradi. Qoida manbasi: §21, PDF 120.",
+      "answer": "Tabiiy tanlanish butunlay to‘xtaydi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-25",
+            "paragraph": 21,
+            "pdf_pages": [
+              120
+            ],
+            "printed_pages": [
+              120
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-3-f5": {
+      "claim": "Jadvaldagi taqqoslash kuzatuv yoki aniq berilgan modelga tayansin; raqamli mashqni real dala o‘lchovi deb belgilash mumkin emas.",
+      "answer": "O‘lchanmaganini ochiq belgilaymiz",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Taqqoslash maqsadi",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya 3 tabiiy va sun’iy ekosistemalarda oziq guruhlari hamda boshqaruvdagi o‘xshashlik-farqlarni aniqlashni taklif qiladi.",
+      "fact_ids": [
+        "laboratory-3-f1"
+      ]
+    },
+    {
+      "title": "Trofik guruhlar",
+      "body": "Taqqoslash jadvali ikkala tizimda ham produtsent, konsument va redutsentlarni izlashni talab qiladi.",
+      "fact_ids": [
+        "laboratory-3-f2"
+      ]
+    },
+    {
+      "title": "Qo‘shimcha kirim",
+      "body": "Agroekosistemada inson sug‘orish, mineral moddalar va texnik energiya kabi qo‘shimcha kirimlarni boshqarishi mumkin.",
+      "fact_ids": [
+        "laboratory-3-f3"
+      ]
+    },
+    {
+      "title": "Tabiiy tanlanish",
+      "body": "Tabiiy va agroekosistemalarda tabiiy biologik jarayonlar davom etadi; inson tanlovi agroekosistemada qo‘shimcha yo‘nalish beradi. Qoida manbasi: §21, PDF 120.",
+      "fact_ids": [
+        "laboratory-3-f4"
+      ]
+    },
+    {
+      "title": "Dalilga tayangan jadval",
+      "body": "Jadvaldagi taqqoslash kuzatuv yoki aniq berilgan modelga tayansin; raqamli mashqni real dala o‘lchovi deb belgilash mumkin emas.",
+      "fact_ids": [
+        "laboratory-3-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-3-q1",
+      "fact_id": "laboratory-3-f1",
+      "question_text": "Cho‘l va paxtazor taqqoslanganda asosiy vazifa nima?",
+      "options": [
+        "Tarkib va boshqaruvdagi umumiy hamda farqli jihatlarni aniqlash",
+        "Faqat paxtaning barcha turdan ustunligini e’lon qilish",
+        "Faqat hudud nomlarini yodlash",
+        "Faqat bir dona hosil massasidan barcha xulosani chiqarish"
+      ],
+      "correct_answer": "Tarkib va boshqaruvdagi umumiy hamda farqli jihatlarni aniqlash",
+      "explanation": "Laboratoriya 3 tabiiy va sun’iy ekosistemalarda oziq guruhlari hamda boshqaruvdagi o‘xshashlik-farqlarni aniqlashni taklif qiladi."
+    },
+    {
+      "key": "laboratory-3-q2",
+      "fact_id": "laboratory-3-f2",
+      "question_text": "Paxtazorda faqat paxta ro‘yxati tuzilsa, nima yetishmaydi?",
+      "options": [
+        "Faqat mahsulot narxi",
+        "Faqat qatorlar soni",
+        "Faqat dala nomi",
+        "Boshqa funksional guruhlar haqidagi qayd"
+      ],
+      "correct_answer": "Boshqa funksional guruhlar haqidagi qayd",
+      "explanation": "Taqqoslash jadvali ikkala tizimda ham produtsent, konsument va redutsentlarni izlashni talab qiladi."
+    },
+    {
+      "key": "laboratory-3-q3",
+      "fact_id": "laboratory-3-f3",
+      "question_text": "Tabiiy cho‘l bilan sug‘oriladigan dalani ajratadigan ko‘rsatkich qaysi?",
+      "options": [
+        "Har ikkisi albatta faqat bir turdan iboratligi",
+        "Dalada tuproq bo‘lmasligi",
+        "Inson boshqaradigan qo‘shimcha suv va resurs kirimi",
+        "Har ikki joyda energiya almashuvi yo‘qligi"
+      ],
+      "correct_answer": "Inson boshqaradigan qo‘shimcha suv va resurs kirimi",
+      "explanation": "Agroekosistemada inson sug‘orish, mineral moddalar va texnik energiya kabi qo‘shimcha kirimlarni boshqarishi mumkin."
+    },
+    {
+      "key": "laboratory-3-q4",
+      "fact_id": "laboratory-3-f4",
+      "question_text": "Inson ekinni tanlagani qaysi xulosani o‘z-o‘zidan bermaydi?",
+      "options": [
+        "Agroekosistemada inson ishtiroki bor",
+        "Tabiiy tanlanish butunlay to‘xtaydi",
+        "Inson mahsulot belgisiga e’tibor beradi",
+        "Ekinlar boshqariladi"
+      ],
+      "correct_answer": "Tabiiy tanlanish butunlay to‘xtaydi",
+      "explanation": "Tabiiy va agroekosistemalarda tabiiy biologik jarayonlar davom etadi; inson tanlovi agroekosistemada qo‘shimcha yo‘nalish beradi. Qoida manbasi: §21, PDF 120."
+    },
+    {
+      "key": "laboratory-3-q5",
+      "fact_id": "laboratory-3-f5",
+      "question_text": "Hududga chiqilmagan bo‘lsa, tur soni katagini qanday yuritamiz?",
+      "options": [
+        "O‘lchanmaganini ochiq belgilaymiz",
+        "Tasodifiy katta son yozamiz",
+        "Ikkala tizimga bir xil soxta son beramiz",
+        "Ilovadagi XPni tur soniga tenglaymiz"
+      ],
+      "correct_answer": "O‘lchanmaganini ochiq belgilaymiz",
+      "explanation": "Jadvaldagi taqqoslash kuzatuv yoki aniq berilgan modelga tayansin; raqamli mashqni real dala o‘lchovi deb belgilash mumkin emas."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "3-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Taqqoslash maqsadi",
+        "fact_ids": [
+          "laboratory-3-f1"
+        ]
+      },
+      {
+        "instruction": "Trofik guruhlar",
+        "fact_ids": [
+          "laboratory-3-f2"
+        ]
+      },
+      {
+        "instruction": "Qo‘shimcha kirim",
+        "fact_ids": [
+          "laboratory-3-f3"
+        ]
+      },
+      {
+        "instruction": "Tabiiy tanlanish",
+        "fact_ids": [
+          "laboratory-3-f4"
+        ]
+      },
+      {
+        "instruction": "Dalilga tayangan jadval",
+        "fact_ids": [
+          "laboratory-3-f5"
+        ]
+      }
+    ]
+  }
+}

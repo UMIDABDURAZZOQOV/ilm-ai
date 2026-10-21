@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-28-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-34",
+  "title": "Biosfera biomassasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-28-f1": {
+      "claim": "Biosfera biomassasi uning tirik organizmlari massasini ifodalaydi; bahoda quruq massa, uglerod massasi yoki nam massa ekanini farqlash kerak.",
+      "answer": "Hisoblangan modda asosi va qamrov",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f2": {
+      "claim": "Okeandagi tez yangilanuvchi planktonning kichik zaxirasi katta mahsulot oqimini ta’minlashi mumkin.",
+      "answer": "Yo‘q, zaxira va hosil bo‘lish tezligi farqli",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f3": {
+      "claim": "Okeanda fotosintezlovchi produtsentlar yorug‘lik yetib boradigan qatlamlarda faol bo‘ladi; chuqurlik chegarasi shaffoflikka bog‘liq.",
+      "answer": "Yorug‘lik kirishini kamaytirish orqali",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f4": {
+      "claim": "Organik qoldiqlar tubga cho‘kib, parchalovchilar faoliyati va ayrim cho‘kindi hosil bo‘lishida qatnashadi.",
+      "answer": "Suv qatlamlari o‘rtasida modda ko‘chishini",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f5": {
+      "claim": "Tuproq biomassasiga ildizlar, mikroorganizmlar va tuproqda yashovchi hayvonlar kiradi; uni faqat ko‘rinadigan qurtlar bilan sanab bo‘lmaydi.",
+      "answer": "Ildiz, mikroorganizm va tuproq hayvonlari",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f6": {
+      "claim": "Tuproq organizmlari va ularning funksiyalariga ehtiyotkor munosabat modda aylanishi hamda unumdorlikni saqlashga yordam beradi.",
+      "answer": "Parchalanish va tuproq funksiyalariga ta’sir qilishi mumkin",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          149
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Biomassa ko‘lami",
+      "body": "Biosfera biomassasi uning tirik organizmlari massasini ifodalaydi; bahoda quruq massa, uglerod massasi yoki nam massa ekanini farqlash kerak.",
+      "fact_ids": [
+        "paragraph-28-f1"
+      ]
+    },
+    {
+      "title": "Zaxira va yangilanish",
+      "body": "Okeandagi tez yangilanuvchi planktonning kichik zaxirasi katta mahsulot oqimini ta’minlashi mumkin.",
+      "fact_ids": [
+        "paragraph-28-f2"
+      ]
+    },
+    {
+      "title": "Yoritilgan qatlam",
+      "body": "Okeanda fotosintezlovchi produtsentlar yorug‘lik yetib boradigan qatlamlarda faol bo‘ladi; chuqurlik chegarasi shaffoflikka bog‘liq.",
+      "fact_ids": [
+        "paragraph-28-f3"
+      ]
+    },
+    {
+      "title": "Cho‘kayotgan qoldiq",
+      "body": "Organik qoldiqlar tubga cho‘kib, parchalovchilar faoliyati va ayrim cho‘kindi hosil bo‘lishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-28-f4"
+      ]
+    },
+    {
+      "title": "Tuproq biomassasi",
+      "body": "Tuproq biomassasiga ildizlar, mikroorganizmlar va tuproqda yashovchi hayvonlar kiradi; uni faqat ko‘rinadigan qurtlar bilan sanab bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-28-f5"
+      ]
+    },
+    {
+      "title": "Muhofaza",
+      "body": "Tuproq organizmlari va ularning funksiyalariga ehtiyotkor munosabat modda aylanishi hamda unumdorlikni saqlashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-28-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-28-q1",
+      "fact_id": "paragraph-28-f1",
+      "question_text": "Ikki global biomassa raqamini qiyoslashdan oldin nima tekshiriladi?",
+      "options": [
+        "Hisoblangan modda asosi va qamrov",
+        "Faqat raqamning ko‘proq noldan iboratligi",
+        "Faqat manba shriftining kattaligi",
+        "Faqat kitob nomining uzunligi"
+      ],
+      "correct_answer": "Hisoblangan modda asosi va qamrov",
+      "explanation": "Biosfera biomassasi uning tirik organizmlari massasini ifodalaydi; bahoda quruq massa, uglerod massasi yoki nam massa ekanini farqlash kerak."
+    },
+    {
+      "key": "paragraph-28-q2",
+      "fact_id": "paragraph-28-f2",
+      "question_text": "Bitta paytdagi kichik plankton massasi bilan yuqori yillik mahsulot o‘rtasida zidlik bormi?",
+      "options": [
+        "Ha, har qanday kichik zaxira mahsulotsiz",
+        "Ha, okeanda hech qanday o‘sish bo‘lmaydi",
+        "Yo‘q, chunki massa vaqtning aynan o‘zi",
+        "Yo‘q, zaxira va hosil bo‘lish tezligi farqli"
+      ],
+      "correct_answer": "Yo‘q, zaxira va hosil bo‘lish tezligi farqli",
+      "explanation": "Okeandagi tez yangilanuvchi planktonning kichik zaxirasi katta mahsulot oqimini ta’minlashi mumkin."
+    },
+    {
+      "key": "paragraph-28-q3",
+      "fact_id": "paragraph-28-f3",
+      "question_text": "Suvning loyqalanishi fitoplankton faoliyatiga qaysi yo‘l bilan ta’sir qilishi mumkin?",
+      "options": [
+        "Tuzni darhol oqsilga aylantirish orqali",
+        "Har bir atomni yo‘q qilish orqali",
+        "Yorug‘lik kirishini kamaytirish orqali",
+        "Barcha organizmlarni bir xil tur qilish orqali"
+      ],
+      "correct_answer": "Yorug‘lik kirishini kamaytirish orqali",
+      "explanation": "Okeanda fotosintezlovchi produtsentlar yorug‘lik yetib boradigan qatlamlarda faol bo‘ladi; chuqurlik chegarasi shaffoflikka bog‘liq."
+    },
+    {
+      "key": "paragraph-28-q4",
+      "fact_id": "paragraph-28-f4",
+      "question_text": "Yuza qatlamdan tubga qoldiq tushishi qanday aloqani ko‘rsatadi?",
+      "options": [
+        "Har qanday cho‘kindi tirik hayvon ekanini",
+        "Suv qatlamlari o‘rtasida modda ko‘chishini",
+        "Tubning yuqori qatlamga aloqasizligini",
+        "Tubda barcha modda yo‘qligini"
+      ],
+      "correct_answer": "Suv qatlamlari o‘rtasida modda ko‘chishini",
+      "explanation": "Organik qoldiqlar tubga cho‘kib, parchalovchilar faoliyati va ayrim cho‘kindi hosil bo‘lishida qatnashadi."
+    },
+    {
+      "key": "paragraph-28-q5",
+      "fact_id": "paragraph-28-f5",
+      "question_text": "Tuproq biomassasi ro‘yxatida qaysi to‘plam to‘liqroq?",
+      "options": [
+        "Ildiz, mikroorganizm va tuproq hayvonlari",
+        "Faqat tosh va qum",
+        "Faqat yomg‘ir suvi",
+        "Faqat havo gazlari"
+      ],
+      "correct_answer": "Ildiz, mikroorganizm va tuproq hayvonlari",
+      "explanation": "Tuproq biomassasiga ildizlar, mikroorganizmlar va tuproqda yashovchi hayvonlar kiradi; uni faqat ko‘rinadigan qurtlar bilan sanab bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-28-q6",
+      "fact_id": "paragraph-28-f6",
+      "question_text": "Tuproqdagi nishon bo‘lmagan organizmlar zararlanishi nega ekologik ahamiyatli?",
+      "options": [
+        "Faqat yer nomi qisqaradi",
+        "Barcha hosil doimo cheksiz ortadi",
+        "Tuproqda organizm funksiyasi yo‘q",
+        "Parchalanish va tuproq funksiyalariga ta’sir qilishi mumkin"
+      ],
+      "correct_answer": "Parchalanish va tuproq funksiyalariga ta’sir qilishi mumkin",
+      "explanation": "Tuproq organizmlari va ularning funksiyalariga ehtiyotkor munosabat modda aylanishi hamda unumdorlikni saqlashga yordam beradi."
+    }
+  ]
+}

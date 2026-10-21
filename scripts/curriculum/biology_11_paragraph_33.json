@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-33-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-39",
+  "title": "Inson biosfera omili sifatida. Inson faoliyatining biosferaga ta’siri .",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-33-f1": {
+      "claim": "Yashash joylarini o‘zgartirish, resurs sarflash va chiqindi chiqarish insonning biosferaga ta’sir yo‘llaridir.",
+      "answer": "Resurs kirimi, chiqindi va yashash joyi o‘zgarishi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          171
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f2": {
+      "claim": "O‘rmon kabi tiklanadigan resurs ham foydalanish tiklanishdan tez bo‘lsa kamayishi mumkin.",
+      "answer": "Tiklanish tezligi va sharoiti hisobga olinmagan",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f3": {
+      "claim": "Foydali qazilmalar inson foydalanishi vaqt ko‘lamida cheklangan va tiklanmaydigan zaxira sifatida qaraladi.",
+      "answer": "Ularning hosil bo‘lish vaqt ko‘lamlari farqli",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f4": {
+      "claim": "Amudaryo va Sirdaryo suvining katta qismini sug‘orishga yo‘naltirish Orolga kiradigan suv kamayishi bilan bog‘liq tarixiy misoldir.",
+      "answer": "Daryolardan dengizga keladigan suv",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f5": {
+      "claim": "CO₂ kabi issiqxona gazlari issiqlik nurlanishi bilan o‘zaro ta’sir qilib Yer energiya balansiga ta’sir qiladi; bu faqat yuqorida yig‘ilgan qalin qopqoq emas.",
+      "answer": "Kirish va chiqish energiyasi balansida",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f6": {
+      "claim": "Kamchiqindili texnologiya xomashyo va qoldiqlardan samaraliroq foydalanib tashqi muhitga tushadigan yukni kamaytirishga qaratiladi.",
+      "answer": "Chiqindi va resurs yukini kamaytirishga",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          174
+        ],
+        "printed_pages": [
+          174
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f7": {
+      "claim": "Chiqindini saralash va oqibatlarni kuzatish resursdan oqilona foydalanishni baholashga yordam beradi.",
+      "answer": "Oldingi va keyingi ko‘rsatkichlarni taqqoslash",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ta’sir yo‘llari",
+      "body": "Yashash joylarini o‘zgartirish, resurs sarflash va chiqindi chiqarish insonning biosferaga ta’sir yo‘llaridir.",
+      "fact_ids": [
+        "paragraph-33-f1"
+      ]
+    },
+    {
+      "title": "Tiklanish tezligi",
+      "body": "O‘rmon kabi tiklanadigan resurs ham foydalanish tiklanishdan tez bo‘lsa kamayishi mumkin.",
+      "fact_ids": [
+        "paragraph-33-f2"
+      ]
+    },
+    {
+      "title": "Tiklanmaydigan zaxira",
+      "body": "Foydali qazilmalar inson foydalanishi vaqt ko‘lamida cheklangan va tiklanmaydigan zaxira sifatida qaraladi.",
+      "fact_ids": [
+        "paragraph-33-f3"
+      ]
+    },
+    {
+      "title": "Orol misoli",
+      "body": "Amudaryo va Sirdaryo suvining katta qismini sug‘orishga yo‘naltirish Orolga kiradigan suv kamayishi bilan bog‘liq tarixiy misoldir.",
+      "fact_ids": [
+        "paragraph-33-f4"
+      ]
+    },
+    {
+      "title": "Issiqxona ta’siri",
+      "body": "CO₂ kabi issiqxona gazlari issiqlik nurlanishi bilan o‘zaro ta’sir qilib Yer energiya balansiga ta’sir qiladi; bu faqat yuqorida yig‘ilgan qalin qopqoq emas.",
+      "fact_ids": [
+        "paragraph-33-f5"
+      ]
+    },
+    {
+      "title": "Kamchiqindili yondashuv",
+      "body": "Kamchiqindili texnologiya xomashyo va qoldiqlardan samaraliroq foydalanib tashqi muhitga tushadigan yukni kamaytirishga qaratiladi.",
+      "fact_ids": [
+        "paragraph-33-f6"
+      ]
+    },
+    {
+      "title": "Qarorning dalili",
+      "body": "Chiqindini saralash va oqibatlarni kuzatish resursdan oqilona foydalanishni baholashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-33-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-33-q1",
+      "fact_id": "paragraph-33-f1",
+      "question_text": "Sanoat loyihasini ekologik tahlil qilishda qaysi to‘plam muhim?",
+      "options": [
+        "Resurs kirimi, chiqindi va yashash joyi o‘zgarishi",
+        "Faqat bino nomi va bo‘yoq rangi",
+        "Faqat loyiha rahbari ismi",
+        "Faqat reklama shiori"
+      ],
+      "correct_answer": "Resurs kirimi, chiqindi va yashash joyi o‘zgarishi",
+      "explanation": "Yashash joylarini o‘zgartirish, resurs sarflash va chiqindi chiqarish insonning biosferaga ta’sir yo‘llaridir."
+    },
+    {
+      "key": "paragraph-33-q2",
+      "fact_id": "paragraph-33-f2",
+      "question_text": "Tiklanadigan resursni cheksiz deb hisoblashdagi xato nima?",
+      "options": [
+        "Tiklanish har doim bir zumda bo‘ladi",
+        "Har qanday daraxt mineralga teng",
+        "Foydalanish miqdorining ta’siri yo‘q",
+        "Tiklanish tezligi va sharoiti hisobga olinmagan"
+      ],
+      "correct_answer": "Tiklanish tezligi va sharoiti hisobga olinmagan",
+      "explanation": "O‘rmon kabi tiklanadigan resurs ham foydalanish tiklanishdan tez bo‘lsa kamayishi mumkin."
+    },
+    {
+      "key": "paragraph-33-q3",
+      "fact_id": "paragraph-33-f3",
+      "question_text": "Neft zaxirasini o‘rmon o‘sishi kabi tez yangilanadi deyish nega noto‘g‘ri?",
+      "options": [
+        "Har qanday resurs bir xil biologik ko‘payadi",
+        "O‘rmon hech qachon o‘smaydi",
+        "Ularning hosil bo‘lish vaqt ko‘lamlari farqli",
+        "Neft faqat bir mavsumda urug‘dan o‘sadi"
+      ],
+      "correct_answer": "Ularning hosil bo‘lish vaqt ko‘lamlari farqli",
+      "explanation": "Foydali qazilmalar inson foydalanishi vaqt ko‘lamida cheklangan va tiklanmaydigan zaxira sifatida qaraladi."
+    },
+    {
+      "key": "paragraph-33-q4",
+      "fact_id": "paragraph-33-f4",
+      "question_text": "Orol hajmi kamayishini suv balansi orqali o‘rganishda qaysi kirim muhim?",
+      "options": [
+        "Faqat tuz kristalining alifbo tartibi",
+        "Daryolardan dengizga keladigan suv",
+        "Faqat sahifadagi rasm o‘lchami",
+        "Faqat dengiz nomi"
+      ],
+      "correct_answer": "Daryolardan dengizga keladigan suv",
+      "explanation": "Amudaryo va Sirdaryo suvining katta qismini sug‘orishga yo‘naltirish Orolga kiradigan suv kamayishi bilan bog‘liq tarixiy misoldir."
+    },
+    {
+      "key": "paragraph-33-q5",
+      "fact_id": "paragraph-33-f5",
+      "question_text": "Issiqxona gazlari ko‘payishi qaysi balansda tahlil qilinadi?",
+      "options": [
+        "Kirish va chiqish energiyasi balansida",
+        "Faqat daraxt nomlari balansida",
+        "Faqat hayvon xromosomalari sonida",
+        "Faqat tuproqdagi tosh shaklida"
+      ],
+      "correct_answer": "Kirish va chiqish energiyasi balansida",
+      "explanation": "CO₂ kabi issiqxona gazlari issiqlik nurlanishi bilan o‘zaro ta’sir qilib Yer energiya balansiga ta’sir qiladi; bu faqat yuqorida yig‘ilgan qalin qopqoq emas."
+    },
+    {
+      "key": "paragraph-33-q6",
+      "fact_id": "paragraph-33-f6",
+      "question_text": "Qoldiqni qayta ishlatish va resurs sarfini kamaytirish qaysi maqsadga mos?",
+      "options": [
+        "Har bir ishlab chiqarishning fizik qonunsiz bo‘lishiga",
+        "Har qanday chiqindining avtomatik foydali ekaniga",
+        "Barcha moddaning bir martada yo‘q bo‘lishiga",
+        "Chiqindi va resurs yukini kamaytirishga"
+      ],
+      "correct_answer": "Chiqindi va resurs yukini kamaytirishga",
+      "explanation": "Kamchiqindili texnologiya xomashyo va qoldiqlardan samaraliroq foydalanib tashqi muhitga tushadigan yukni kamaytirishga qaratiladi."
+    },
+    {
+      "key": "paragraph-33-q7",
+      "fact_id": "paragraph-33-f7",
+      "question_text": "Ekologik tadbir foydasini tekshirish uchun qaysi ish kerak?",
+      "options": [
+        "Natijani o‘lchamasdan doim foydali deb e’lon qilish",
+        "Barcha kuzatuvni bekor qilish",
+        "Oldingi va keyingi ko‘rsatkichlarni taqqoslash",
+        "Faqat tadbir nomini chiroyli yozish"
+      ],
+      "correct_answer": "Oldingi va keyingi ko‘rsatkichlarni taqqoslash",
+      "explanation": "Chiqindini saralash va oqibatlarni kuzatish resursdan oqilona foydalanishni baholashga yordam beradi."
+    }
+  ]
+}

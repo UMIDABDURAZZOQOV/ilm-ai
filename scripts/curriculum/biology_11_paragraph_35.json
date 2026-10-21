@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-35-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-42",
+  "title": "Organik olam filogenezining umumiy tavsifi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-35-f1": {
+      "claim": "Filogenez guruhlarning tarixiy evolutsiyasini, ontogenez esa individ rivojlanishini o‘rganadi.",
+      "answer": "Ontogenez va filogenez",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f2": {
+      "claim": "Zamonaviy biologik tasnifni baholashda organizmlarning evolutsion qarindoshligi muhimdir.",
+      "answer": "Qarindoshlik tarixini ham tekshirish kerak",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f3": {
+      "claim": "Darslik arogenezni yirik tuzilish-funksional yangiliklar bilan bog‘liq evolutsion yo‘nalish sifatida ishlatadi.",
+      "answer": "Arogenez",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          184
+        ],
+        "printed_pages": [
+          184
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f4": {
+      "claim": "Ko‘p hujayralilikda hujayralarning ixtisoslashishi va o‘zaro bog‘lanishi mehnat taqsimotiga imkon beradi.",
+      "answer": "Vazifalarni taqsimlash va muvofiqlashtirish",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          185
+        ],
+        "printed_pages": [
+          185
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f5": {
+      "claim": "Jinsiy ko‘payishda ota-ona genetik axborotining birikishi yangi kombinatsiyalar yuzaga kelishiga hissa qo‘shadi.",
+      "answer": "Irsiy kombinatsiyalarning yangilanishi",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          185
+        ],
+        "printed_pages": [
+          185
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f6": {
+      "claim": "Allogenez muayyan ekologik sharoitga xususiy moslanishlarning tarixiy yo‘nalishi deb ta’riflanadi.",
+      "answer": "Allogenez",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          185
+        ],
+        "printed_pages": [
+          185
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f7": {
+      "claim": "Katagenezda ayrim tuzilmalar soddalashishi mumkin; bu son va tarqalishning kamayishi bilan aynan bir narsa emas.",
+      "answer": "Tuzilish yo‘nalishi va biologik muvaffaqiyat mezoni ajratiladi",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          186
+        ],
+        "printed_pages": [
+          186
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Ikki rivojlanish",
+      "body": "Filogenez guruhlarning tarixiy evolutsiyasini, ontogenez esa individ rivojlanishini o‘rganadi.",
+      "fact_ids": [
+        "paragraph-35-f1"
+      ]
+    },
+    {
+      "title": "Tasnif va qarindoshlik",
+      "body": "Zamonaviy biologik tasnifni baholashda organizmlarning evolutsion qarindoshligi muhimdir.",
+      "fact_ids": [
+        "paragraph-35-f2"
+      ]
+    },
+    {
+      "title": "Arogenez",
+      "body": "Darslik arogenezni yirik tuzilish-funksional yangiliklar bilan bog‘liq evolutsion yo‘nalish sifatida ishlatadi.",
+      "fact_ids": [
+        "paragraph-35-f3"
+      ]
+    },
+    {
+      "title": "Ko‘p hujayralilik",
+      "body": "Ko‘p hujayralilikda hujayralarning ixtisoslashishi va o‘zaro bog‘lanishi mehnat taqsimotiga imkon beradi.",
+      "fact_ids": [
+        "paragraph-35-f4"
+      ]
+    },
+    {
+      "title": "Jinsiy axborot",
+      "body": "Jinsiy ko‘payishda ota-ona genetik axborotining birikishi yangi kombinatsiyalar yuzaga kelishiga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-35-f5"
+      ]
+    },
+    {
+      "title": "Allogenez",
+      "body": "Allogenez muayyan ekologik sharoitga xususiy moslanishlarning tarixiy yo‘nalishi deb ta’riflanadi.",
+      "fact_ids": [
+        "paragraph-35-f6"
+      ]
+    },
+    {
+      "title": "Katagenez va muvaffaqiyat",
+      "body": "Katagenezda ayrim tuzilmalar soddalashishi mumkin; bu son va tarqalishning kamayishi bilan aynan bir narsa emas.",
+      "fact_ids": [
+        "paragraph-35-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-35-q1",
+      "fact_id": "paragraph-35-f1",
+      "question_text": "Bir daraxtning urug‘dan o‘sishi va o‘simlik guruhlarining tarixiy o‘zgarishini moslang.",
+      "options": [
+        "Ontogenez va filogenez",
+        "Ikkalasi faqat ontogenez",
+        "Ikkalasi faqat bitta hujayra jarayoni",
+        "Filogenez va faqat fotosintez"
+      ],
+      "correct_answer": "Ontogenez va filogenez",
+      "explanation": "Filogenez guruhlarning tarixiy evolutsiyasini, ontogenez esa individ rivojlanishini o‘rganadi."
+    },
+    {
+      "key": "paragraph-35-q2",
+      "fact_id": "paragraph-35-f2",
+      "question_text": "Nega faqat tashqi ko‘rinishga qarab guruhlash yetarli emas?",
+      "options": [
+        "Har bir o‘xshashlik albatta aynan bir turdir",
+        "Barcha guruhlar bir xil ajralish vaqtiga ega",
+        "Kelib chiqish biologiyaga tegishli emas",
+        "Qarindoshlik tarixini ham tekshirish kerak"
+      ],
+      "correct_answer": "Qarindoshlik tarixini ham tekshirish kerak",
+      "explanation": "Zamonaviy biologik tasnifni baholashda organizmlarning evolutsion qarindoshligi muhimdir."
+    },
+    {
+      "key": "paragraph-35-q3",
+      "fact_id": "paragraph-35-f3",
+      "question_text": "Fotosintez kabi yirik imkoniyatni shu tarixiy atamalar bilan tavsiflashda qaysi nom mos?",
+      "options": [
+        "Faqat mavsumiy rang",
+        "Faqat embrionning kattalashishi",
+        "Arogenez",
+        "Faqat bir individning odati"
+      ],
+      "correct_answer": "Arogenez",
+      "explanation": "Darslik arogenezni yirik tuzilish-funksional yangiliklar bilan bog‘liq evolutsion yo‘nalish sifatida ishlatadi."
+    },
+    {
+      "key": "paragraph-35-q4",
+      "fact_id": "paragraph-35-f4",
+      "question_text": "Hujayralarning turli vazifaga ixtisoslashishi qaysi imkoniyatni beradi?",
+      "options": [
+        "Har qanday organizmning fotosintezlashi",
+        "Vazifalarni taqsimlash va muvofiqlashtirish",
+        "Har bir hujayraning boshqalar bilan aloqasizligi",
+        "Barcha bir hujayralilarning yashay olmasligi"
+      ],
+      "correct_answer": "Vazifalarni taqsimlash va muvofiqlashtirish",
+      "explanation": "Ko‘p hujayralilikda hujayralarning ixtisoslashishi va o‘zaro bog‘lanishi mehnat taqsimotiga imkon beradi."
+    },
+    {
+      "key": "paragraph-35-q5",
+      "fact_id": "paragraph-35-f5",
+      "question_text": "Jinsiy ko‘payishning xilma-xillikka qo‘shadigan hissasi nima?",
+      "options": [
+        "Irsiy kombinatsiyalarning yangilanishi",
+        "Har bir avlodning albatta aynan nusxa bo‘lishi",
+        "Barcha mutatsiyaning darhol yo‘qolishi",
+        "Har bir avlodning muqarrar yiriklashishi"
+      ],
+      "correct_answer": "Irsiy kombinatsiyalarning yangilanishi",
+      "explanation": "Jinsiy ko‘payishda ota-ona genetik axborotining birikishi yangi kombinatsiyalar yuzaga kelishiga hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-35-q6",
+      "fact_id": "paragraph-35-f6",
+      "question_text": "Bir guruhdagi turlar turli yashash sharoitiga xususiy moslansa, qaysi yo‘nalish bilan tahlil qilinadi?",
+      "options": [
+        "Faqat individual mashq",
+        "Faqat organizmning bir kunlik oziqlanishi",
+        "Faqat molekulaning erishi",
+        "Allogenez"
+      ],
+      "correct_answer": "Allogenez",
+      "explanation": "Allogenez muayyan ekologik sharoitga xususiy moslanishlarning tarixiy yo‘nalishi deb ta’riflanadi."
+    },
+    {
+      "key": "paragraph-35-q7",
+      "fact_id": "paragraph-35-f7",
+      "question_text": "Soddalashgan parazit guruh keng tarqalsa, qaysi fikr asosli?",
+      "options": [
+        "Har qanday parazit hech qanday moslanishga ega emas",
+        "Sonning ortishi o‘z-o‘zidan barcha organlar ko‘payganini bildiradi",
+        "Tuzilish yo‘nalishi va biologik muvaffaqiyat mezoni ajratiladi",
+        "Soddalashish doimo guruh yo‘qolganini bildiradi"
+      ],
+      "correct_answer": "Tuzilish yo‘nalishi va biologik muvaffaqiyat mezoni ajratiladi",
+      "explanation": "Katagenezda ayrim tuzilmalar soddalashishi mumkin; bu son va tarqalishning kamayishi bilan aynan bir narsa emas."
+    }
+  ]
+}

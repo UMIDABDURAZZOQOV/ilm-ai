@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-31-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-37",
+  "title": "Biosfera evolutsiyasi. Biogenez",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-31-f1": {
+      "claim": "Biosfera evolutsiyasida organizmlar faqat muhitga javob bermaydi, balki o‘z faoliyati orqali uni ham o‘zgartiradi.",
+      "answer": "Organizmlar bilan muhitning o‘zaro o‘zgarishi",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-31-f2": {
+      "claim": "Darslik Vernadskiyga bog‘langan sxemada dastlabki biosfera, xilma-xillik ortishi va inson faoliyati kuchayishini farqlaydi; bu tarixiy umumlashtirishdir.",
+      "answer": "Tarixiy jarayonlarni umumlashtiruvchi model sifatida",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-31-f3": {
+      "claim": "Kislorod ajratuvchi fotosintez muhitda O₂ to‘planishiga hissa qo‘shib aerob jarayonlar imkoniyatini kengaytirgan.",
+      "answer": "Erkin kislorod to‘planishi bilan",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-31-f4": {
+      "claim": "Organizmlarning quruqlikka tarqalishi tuproq shakllanishi va yangi yashash aloqalari rivoji bilan bog‘langan.",
+      "answer": "Organizmlar faoliyati va tuproq rivoji",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-31-f5": {
+      "claim": "Ildiz va novda tizimlari suv-mineral o‘zlashtirish hamda fotosintezning turli vazifalarini bajaradi.",
+      "answer": "Suv-mineral o‘zlashtirish va fotosintez",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          166
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-31-f6": {
+      "claim": "Hayvonlarning oziqlanishi va harakati organik moddalar hamda urug‘larning boshqa joyga ko‘chishida qatnashadi.",
+      "answer": "Biologik tarqalish va modda ko‘chishini",
+      "source": {
+        "paragraph": 31,
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          166
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Hayot va muhit tarixi",
+      "body": "Biosfera evolutsiyasida organizmlar faqat muhitga javob bermaydi, balki o‘z faoliyati orqali uni ham o‘zgartiradi.",
+      "fact_ids": [
+        "paragraph-31-f1"
+      ]
+    },
+    {
+      "title": "Bosqichlar sxemasi",
+      "body": "Darslik Vernadskiyga bog‘langan sxemada dastlabki biosfera, xilma-xillik ortishi va inson faoliyati kuchayishini farqlaydi; bu tarixiy umumlashtirishdir.",
+      "fact_ids": [
+        "paragraph-31-f2"
+      ]
+    },
+    {
+      "title": "Kislorodli fotosintez",
+      "body": "Kislorod ajratuvchi fotosintez muhitda O₂ to‘planishiga hissa qo‘shib aerob jarayonlar imkoniyatini kengaytirgan.",
+      "fact_ids": [
+        "paragraph-31-f3"
+      ]
+    },
+    {
+      "title": "Quruqlikni egallash",
+      "body": "Organizmlarning quruqlikka tarqalishi tuproq shakllanishi va yangi yashash aloqalari rivoji bilan bog‘langan.",
+      "fact_ids": [
+        "paragraph-31-f4"
+      ]
+    },
+    {
+      "title": "O‘simlik tizimlari",
+      "body": "Ildiz va novda tizimlari suv-mineral o‘zlashtirish hamda fotosintezning turli vazifalarini bajaradi.",
+      "fact_ids": [
+        "paragraph-31-f5"
+      ]
+    },
+    {
+      "title": "Hayvonlar va ko‘chish",
+      "body": "Hayvonlarning oziqlanishi va harakati organik moddalar hamda urug‘larning boshqa joyga ko‘chishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-31-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-31-q1",
+      "fact_id": "paragraph-31-f1",
+      "question_text": "Qadimgi hayot tarixini faqat turlar ro‘yxati bilan cheklashda nima yetishmaydi?",
+      "options": [
+        "Organizmlar bilan muhitning o‘zaro o‘zgarishi",
+        "Faqat tur nomlarining uzunligi",
+        "Faqat kitob muqovasining rangi",
+        "Faqat bir gulning zamonaviy bahosi"
+      ],
+      "correct_answer": "Organizmlar bilan muhitning o‘zaro o‘zgarishi",
+      "explanation": "Biosfera evolutsiyasida organizmlar faqat muhitga javob bermaydi, balki o‘z faoliyati orqali uni ham o‘zgartiradi."
+    },
+    {
+      "key": "paragraph-31-q2",
+      "fact_id": "paragraph-31-f2",
+      "question_text": "Uch bosqichli sxemani qanday qo‘llash ehtiyotkor?",
+      "options": [
+        "Har bir hodisaning barcha sanasi aniq isboti sifatida",
+        "Odam biologik qonunlarga bo‘ysunmaydi degan isbot sifatida",
+        "Barcha evolutsiya bir chiziq degan qoida sifatida",
+        "Tarixiy jarayonlarni umumlashtiruvchi model sifatida"
+      ],
+      "correct_answer": "Tarixiy jarayonlarni umumlashtiruvchi model sifatida",
+      "explanation": "Darslik Vernadskiyga bog‘langan sxemada dastlabki biosfera, xilma-xillik ortishi va inson faoliyati kuchayishini farqlaydi; bu tarixiy umumlashtirishdir."
+    },
+    {
+      "key": "paragraph-31-q3",
+      "fact_id": "paragraph-31-f3",
+      "question_text": "Biosfera tarixida aerob imkoniyatlar kengayishi qaysi o‘zgarish bilan bog‘liq?",
+      "options": [
+        "Azot atomining yo‘q bo‘lishi bilan",
+        "Barcha organizmlarning fotosintezlay boshlashi bilan",
+        "Erkin kislorod to‘planishi bilan",
+        "Barcha suvning birdan yo‘qolishi bilan"
+      ],
+      "correct_answer": "Erkin kislorod to‘planishi bilan",
+      "explanation": "Kislorod ajratuvchi fotosintez muhitda O₂ to‘planishiga hissa qo‘shib aerob jarayonlar imkoniyatini kengaytirgan."
+    },
+    {
+      "key": "paragraph-31-q4",
+      "fact_id": "paragraph-31-f4",
+      "question_text": "Quruqlikni egallashda qaysi ikki jarayon o‘zaro bog‘langan?",
+      "options": [
+        "Faqat bir molekulaning massasi",
+        "Organizmlar faoliyati va tuproq rivoji",
+        "Faqat qanot rangi va kitob narxi",
+        "Faqat orbitaning nomi va telefon turi"
+      ],
+      "correct_answer": "Organizmlar faoliyati va tuproq rivoji",
+      "explanation": "Organizmlarning quruqlikka tarqalishi tuproq shakllanishi va yangi yashash aloqalari rivoji bilan bog‘langan."
+    },
+    {
+      "key": "paragraph-31-q5",
+      "fact_id": "paragraph-31-f5",
+      "question_text": "Quruqlik o‘simligida ildiz va bargli novda vazifasini moslang.",
+      "options": [
+        "Suv-mineral o‘zlashtirish va fotosintez",
+        "Faqat ov qilish va uchish",
+        "Faqat CO₂ chiqarish va hech narsa olmaslik",
+        "Ikkalasi ham faqat urug‘lanish"
+      ],
+      "correct_answer": "Suv-mineral o‘zlashtirish va fotosintez",
+      "explanation": "Ildiz va novda tizimlari suv-mineral o‘zlashtirish hamda fotosintezning turli vazifalarini bajaradi."
+    },
+    {
+      "key": "paragraph-31-q6",
+      "fact_id": "paragraph-31-f6",
+      "question_text": "Hayvon meva yeb urug‘ni boshqa joyga olib ketishi qaysi biosfera aloqasini ko‘rsatadi?",
+      "options": [
+        "Har bir urug‘ hayvonga aylanishini",
+        "Hayvonning faqat produtsent ekanini",
+        "Harakat ekologik ahamiyatsizligini",
+        "Biologik tarqalish va modda ko‘chishini"
+      ],
+      "correct_answer": "Biologik tarqalish va modda ko‘chishini",
+      "explanation": "Hayvonlarning oziqlanishi va harakati organik moddalar hamda urug‘larning boshqa joyga ko‘chishida qatnashadi."
+    }
+  ]
+}

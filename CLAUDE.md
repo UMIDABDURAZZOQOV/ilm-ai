@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy holat — 2026-10-21, continuation-14:** `feat/biology-curriculum`: **329/355 nazariy dars, 26 qolgan; 48/51 raqamli faoliyat; 2 305 karta / 2 387 savol**. 5–10-sinflar to‘liq. Aniq davom: **11-sinf §19, PDF107**, keyin §20–44 va lab3–5. So‘nggi natija/testlar hujjat oxirida. Veb-sayt, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
+> **Joriy holat — 2026-10-21, continuation-15:** `feat/biology-curriculum`: **355/355 nazariy dars, 0 qolgan; 51/51 raqamli faoliyat; 2 527 karta / 2 609 savol**. 5–11-sinflar kontent qamrovi to‘liq. Backend **556 passed**, Flutter **109 passed**, analyze va Flutter web build o‘tdi. Yakuniy audit, Git va real qurilma/production cheklovlari hujjat oxirida. Keyingi bosqich — fan ekspertizasi va ruxsatli staging/native QA; darslarni qayta yaratmang.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -2631,3 +2631,62 @@ Lab1dagi bir nechta omil birga o‘zgargan dizaynni bitta sabab isboti qilib ko�
 Veb-sayt **`054f0ce`** kodi o‘zgarmagan. PDF yoki sahifa rasmlari GitHub’ga qo‘shilmadi. Production import/migratsiya/deploy/main merge/nashr bajarilmadi. Real Android/iOS/TalkBack, live PostgreSQL va mustaqil fan/klinik ekspertizasi hali kerak; oldingi web practice kontrakti va PR API Forbidden cheklovlari ochiq.
 
 **Keyingi aniq nuqta: 11-sinf §19 “Tabiiy ekosistemalar”, PDF/bosma107.** Continuation-15 qolgan **§19–44 (26 nazariy) va lab3–5 (3 faoliyat)**ni qamrab oladi. 329 tayyor mavzuni qayta yozmang; keyingi sahifalar ko‘rilishi hali manifest tayyorligi emas.
+
+
+## 2026-10-21 — Biology continuation-15: 355/355 nazariy mavzu yakuni
+
+Continuation-14 **`e275806`** GitHub feature branchda tasdiqlandi. Yakuniy partiya **11-sinf §19–44: 26 nazariy dars va laboratoriya 3–5: 3 raqamli faoliyat** qo‘shdi. **222 yangi karta / 222 yangi savol**, 29 manifest. Asl darslikning **PDF/bosma 107–232** sahifalaridagi ishlatilgan faktlar tasvir orqali ko‘rildi; OCRning o‘zi tasdiq hisoblanmadi. Avvalgi **377 manifest** HEAD nusxalariga byte-for-byte teng. Boshlang‘ich `519d0f4`dagi **209 nazariy + 32 faoliyat / 1 340 karta / 1 422 savol** va original 19 dars snapshotlari saqlandi.
+
+**Yakuniy kontent qamrovi: 355/355 nazariy, 0 qolgan; 51/51 raqamli faoliyat (40 laboratoriya + 11 amaliy); 406 manifest; 2 527 karta / 2 609 savol.** Boshlang‘ich 209dan keyingi ishlar 146 nazariy va 19 faoliyatni qo‘shdi; eski darslar qayta yaratilmagan. Bu test/staging uchun manbaga bog‘langan kontent qamrovi; production import, fizik tajriba bajarilishi yoki mustaqil fan ekspertizasi tasdig‘i emas.
+
+| Sinf | Bob | Jami nazariy | Tayyor | Qolgan | Raqamli faoliyat / jami | Tekshirilgan savol |
+|---|---:|---:|---:|---:|---:|---:|
+| 5 | 3 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 5 | 59 | 59 | 0 | 7 / 7 | 331 |
+| 7 | 8 | 59 | 59 | 0 | 5 / 5 | 381 |
+| 8 | 13 + kirish | 61 | 61 | 0 | 7 / 7 | 435 |
+| 9 | 8 | 56 | 56 | 0 | 11 / 11 | 474 |
+| 10 | 5 | 58 | 58 | 0 | 4 / 4 | 428 |
+| 11 | 4 | 44 | 44 | 0 | 5 / 5 | 378 |
+| **Jami** | **46 + kirish** | **355** | **355** | **0** | **51 / 51** | **2 609** |
+
+### Yangi darslar va manba aniqligi
+
+11-sinfning tabiiy/sun’iy ekosistemalar, biomlar, suksessiya, odam ekologiyasi, biosfera, tirik modda funksiyalari, biomassa, biogeokimyoviy aylanishlar, noosfera tarixi, inson ta’siri, muhofaza, o‘simlik/hayvon filogenezi va organ tizimlarini qiyoslash mavzulari yakunlandi. Savollar tasnif, vazifa-tuzilish aloqasi, ketma-ketlik, qarama-qarshi misol va dalildan xulosa chiqarishni qamrab oladi. Mavjud karta/MCQ/Ilmo feedback/server XP/progress/Skill Path ishlatildi; yangi savol widgetlari, original asset yoki animatsiya yaratilgani da’vo qilinmaydi. Savol matnlarining global aynan takrorlanmasligi tekshiriladi; bu o‘z-o‘zidan semantik sifat ekspertizasi emas.
+
+Har fakt va savolga kitob, bob, paragraf yoki faoliyat raqami, PDF/bosma sahifa va ko‘rib chiqish qaydi bog‘langan. Lab3 q4 uchun §21/PDF120; lab4 q2 uchun §36/PDF187 va §37/PDF192, q3 uchun §35/PDF185, q4 uchun §10/PDF61; lab5 q2 uchun §42/PDF220–221, q3 uchun §41/PDF216, q4 uchun §41/PDF215 qo‘shimcha `supporting_sources` mavjud. Laboratoriyaning o‘z sahifasi primary citation bo‘lib qoladi. Barcha faoliyatlar `guided_analysis`, `physical_execution_required:false`: kuzatuv ma’lumotini uydirish, preparatni amalda ko‘rdim deb belgilash yoki XPni fizik tajriba sertifikati deyish yo‘q.
+
+Tahrir qarorlari: biomassa jadvalidagi eski son/foiz nomuvofiqligi, sho‘rlikning 30% xatosi, element aylanishining qat’iy universal muddatlari va energiyaning yopiq aylanishi ko‘chirilmadi. Tog‘da kislorod ulushi va uning mavjud bosimi chalkashtirilmadi. Odamning iqlimga moslanishi qat’iy etnik tana/ferment qutilari yoki inson guruhlari ierarxiyasi bilan baholanmadi; 2 500 kkal hamma uchun tibbiy me’yor sifatida berilmadi. Noosfera tarixiy ilmiy-falsafiy tushuncha sifatida ajratildi. UNEP sanasi va eskirgan muhofaza statistikasi dolzarb haqiqat deb yozilmadi.
+
+Filogenez zamonaviy hayvonlarni bir-biriga aylanadigan majburiy zinaga aylantirilmagan; barcha o‘zgarish murakkablashish emas. PDF191dagi ochiq/yopiq urug‘li atamalari chalkashligi hamda PDF210dagi teri rasm-caption nomuvofiqligi savollarga ko‘chirilmadi. Changlanish urug‘lanish emas, urug‘ va spora aynan bir tuzilma emas. Barcha qushlar uchadi, barcha sutemizuvchilar tirik tug‘adi, barcha sudralib yuruvchilar uch kamerali yurakka ega yoki bir xil tuxum qo‘yadi kabi absolutlar yo‘q. Qush havo xaltasi ventilyatsiya bilan, alveola gaz almashinuvi sathi bilan bog‘landi; havo xaltasining o‘zi gaz almashinuvi joyi deyilmaydi. Hasharot gemolimfasida hech qanday shaklli element yo‘q degan xato, halqali chuvalchang gemoglobinidagi temir haqidagi xato va bo‘shliqichlilarga qisqaruvchi vakuola berish takrorlanmadi. Barcha baliqning yagona germafrodit istisnosi yoki barcha bo‘g‘imoyoqli albatta ayrim jinsli deyilmadi. Mustaqil biolog/pedagogning to‘liq tahriri hanuz release tekshiruvi bo‘lib qoladi.
+
+### Yakuniy qamrov auditi va avtomatik testlar
+
+- `scripts/audit_biology_completion.py` — DBsiz o‘qish auditi: **355 topic ID + 51 faoliyat**, **46 bob + 8-sinf kirishi**, manba/fakt/javob/sahifa validatorlari va takror source-topic orqali son oshirishni rad etish. `scripts/curriculum/biology_completion_audit.json` barcha 47 bo‘lim qamrovi va katalog+darslarning deterministik SHA-256 fingerprintini saqlaydi. Alohida tekshiruvda hech bir topic/activity o‘z bobining sahifa chegarasidan tashqarida emasligi ham tasdiqlandi. `biology_readiness.json`da barcha yetti sinf uchun qolgan IDlar bo‘sh; `course_ready:true` faqat kontent qamrovi mezonidir.
+- `tests/test_biology_completion.py` **4 regressiya**: hisobot eskirmagani, aniq yakuniy sonlar, boshqa key bilan nusxa darsni rad etish, oxirgi nazariya yoki laboratoriya olib tashlansa tegishli bob/sinf tayyor emasligi. Asl katalog, original 19 va 209 oldingi dars hash guardlari o‘tdi.
+- To‘liq backend **556 passed, 12 oldingi deprecation warnings, 103.69s**. Warnings mavjud Pydantic/FastAPI lifecycle kodidan. Keyin kuchaytirilgan yakuniy API testi alohida qayta bajarildi: **1 passed, 69.42s**. Unda **406/406 dars/faoliyat + 47/47 checkpoint** haqiqiy FastAPI TestClient bilan izolyatsiyalangan SQLite’da yakunlandi. Barcha sinflar `completed:true`; 5–10 uchun keyingi sinf, 11 uchun **`next_grade:null`**. Server baholashi, bir xil retry javobi, bir martalik XP va progress saqlangan holda qayta import tekshirildi. Yakuniy grades/tree/curriculum javoblari HTTP200 ekanligi tasdiqlandi.
+- Backend critical Ruff (`E9,F63,F7,F82`) va `git diff --check` toza. Audit qayta generatsiya qilinib committed artifact bilan tengligi tekshirildi. Private dalillar: `/workspace/.setup/biology-authoring/release15-*.log` va `release15-api-final-evidence/`; ular Git tarkibiga kirmaydi.
+
+Qayta tekshirish:
+
+```bash
+python scripts/import_biology_curriculum.py --all --report scripts/curriculum/biology_readiness.json
+python scripts/audit_biology_completion.py --output scripts/curriculum/biology_completion_audit.json
+ENVIRONMENT=development DATABASE_URL=sqlite:////tmp/biology-tests.db python -m pytest -q
+```
+
+### Mobil regressiya va qo‘shimcha haqiqiy UI tuzatishi
+
+Flutter **`0fbf92a`**, `feat/biology-curriculum`: `curriculum_learning_screen.dart`dagi barcha kurslarda doim “qolgan mavzular tayyorlanmoqda” deb turadigan xato banner tuzatildi. Endi uch interfeys tilida faqat backend bergan mavjud darslar soni aytiladi; hali yozilmagan mavzular holati outline ichida alohida ko‘rinadi. API kontrakti kengaytirilgani yoki tayyorlik hardcode qilingani yo‘q.
+
+`test/biology_curriculum_test.dart`ga **5 test** va `test/fixtures/biology_{complete_grades,grade11_*}.json`ga **9 real izolyatsiyalangan API fixture** qo‘shildi: §44 va lab5 to‘liq theory → savol → Ilmo feedback → natija, aynan bir complete, tegishli 20/10 XP; yetti sinfning haqiqiy dars sonlari; 11-sinf yakunida 12-sinf yo‘qligi; **320×568 va 640×360, 200% matn** bilan tugallangan outline oxirigacha scroll. Fixturelarda production user/credential/token, PDF yoki sahifa tasviri yo‘q. Avvalgi fixturelar va UI/Ilmo/brend o‘zgarmagan.
+
+Haqiqiy natijalar: Biology targeted **30 passed (6s)**; yakuniy to‘liq Flutter **109 passed (11s)**; `flutter analyze` **No issues found (1.4s)**. `flutter build web --release --dart-define=SUBJECTS_ONLY=true` **Built build/web (50.8s)**. Bu Flutter tekshiruv buildi; alohida Next.js veb-saytga o‘zgarish emas. WebAssembly dry-run mavjud secure-storage/tts dependency ogohlantirishlarini berdi; standart JavaScript build muvaffaqiyatli, WASM tayyorligi da’vo qilinmaydi.
+
+### Git, production va keyingi aniq qadam
+
+Backend va Flutter ishlari o‘z **`feat/biology-curriculum`** branchlarida saqlanadi; markaziy hujjat ushbu `ilm-ai/CLAUDE.md`. **Veb-sayt `054f0ce` o‘zgarmagan.** PDF, OCR to‘liq matni, manba tasvirlari, build chiqishlari, `.env` yoki kalitlar commit qilinmadi. Production foydalanuvchisi/progressiga yozish, production import/migratsiya/deploy, `main` merge va Play Market nashri bajarilmagan.
+
+`gh pr list` yakunda yana tekshirildi: GitHub GraphQL **Forbidden**. Feature branchga push ishlaydi; PR yaratilgani da’vo qilinmaydi. Yangilangan review uchun PR matnlari private `.setup/biology-pr-backend.md` va `.setup/biology-pr-flutter.md`da tayyorlanadi.
+
+**Kontent yozishda qolgan nazariy mavzu yoki katalogdagi raqamli laboratoriya/amaliy faoliyat yo‘q.** Keyingi ishni qayta §19 yoki boshqa paragrafdan boshlamang. Aniq keyingi bosqich: (1) mustaqil fan/pedagog tahriri; (2) real Android’da uzun nazariya/feedback, TalkBack, text scaling, Reduce Motion, sust tarmoq/retry/app background-resume va progressning qayta ochilishi; (3) ruxsatli PostgreSQL staging mosligi va import rejasi. `flutter doctor`da **Android SDK yo‘q**, native Android/iOS build va real qurilma testi bajarilmadi; maven.google.com/cocoapods.org tekshiruvlari proxy403 bilan bloklangan. Oldingi alohida web practice API kontrakti rollout bloklovchisi ham ochiq; saytni o‘zgartirish ushbu vazifaga kirmaydi. Production amallar oldidan foydalanuvchining alohida ruxsati zarur.

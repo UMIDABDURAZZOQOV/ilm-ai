@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-19-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-23",
+  "title": "Tabiiy ekosistemalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-19-f1": {
+      "claim": "Darslik tabiiy ekosistemalarni quruqlik, chuchuk suv va dengiz guruhlarida o‘rganadi; ular tabiiy jarayonlar ta’sirida shakllanadi.",
+      "answer": "Quruqlik, chuchuk suv, dengiz",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-19-f2": {
+      "claim": "Harorat va yog‘in quruqlikdagi yirik ekosistemalar tarqalishiga ta’sir qiladi; o‘xshash iqlimli yirik majmualar biom sifatida o‘rganiladi.",
+      "answer": "Harorat va yog‘in rejimi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-19-f3": {
+      "claim": "Tundrada sovuq va qisqa o‘sish mavsumi past bo‘yli buta, yo‘sin va lishayniklar bilan bog‘liq o‘simlik qoplamini shakllantiradi.",
+      "answer": "Qisqa mavsum va past bo‘yli o‘simliklar",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          108
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-19-f4": {
+      "claim": "Tayga shimoliy ignabargli o‘rmonlar bilan tavsiflanadi; qarag‘ay va pixta kabi daraxtlar muhim o‘rin tutadi.",
+      "answer": "Ignabargli o‘rmon",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-19-f5": {
+      "claim": "Epifit boshqa o‘simlik ustida o‘sadi; liana esa tuproqda ildiz otib tayanch bo‘ylab ko‘tariladi.",
+      "answer": "Liana",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-19-f6": {
+      "claim": "Ko‘l va hovuzlar oqmaydigan, daryo va soylar oqadigan chuchuk suv havzalari sifatida farqlanadi.",
+      "answer": "Birinchisi turg‘un, ikkinchisi oqadigan suv tizimi",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-19-f7": {
+      "claim": "Dengiz tizimida sho‘rlanish, oqim va chuqurlik organizmlar hayotiga ta’sir qiladi; qat’iy barcha havzalarga bir xil tuz soni berilmaydi.",
+      "answer": "Suvdagi tuz miqdorini",
+      "source": {
+        "paragraph": 19,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tabiiy tizimlar",
+      "body": "Darslik tabiiy ekosistemalarni quruqlik, chuchuk suv va dengiz guruhlarida o‘rganadi; ular tabiiy jarayonlar ta’sirida shakllanadi.",
+      "fact_ids": [
+        "paragraph-19-f1"
+      ]
+    },
+    {
+      "title": "Iqlim va biom",
+      "body": "Harorat va yog‘in quruqlikdagi yirik ekosistemalar tarqalishiga ta’sir qiladi; o‘xshash iqlimli yirik majmualar biom sifatida o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-19-f2"
+      ]
+    },
+    {
+      "title": "Tundra sharoiti",
+      "body": "Tundrada sovuq va qisqa o‘sish mavsumi past bo‘yli buta, yo‘sin va lishayniklar bilan bog‘liq o‘simlik qoplamini shakllantiradi.",
+      "fact_ids": [
+        "paragraph-19-f3"
+      ]
+    },
+    {
+      "title": "Tayga",
+      "body": "Tayga shimoliy ignabargli o‘rmonlar bilan tavsiflanadi; qarag‘ay va pixta kabi daraxtlar muhim o‘rin tutadi.",
+      "fact_ids": [
+        "paragraph-19-f4"
+      ]
+    },
+    {
+      "title": "Epifit va liana",
+      "body": "Epifit boshqa o‘simlik ustida o‘sadi; liana esa tuproqda ildiz otib tayanch bo‘ylab ko‘tariladi.",
+      "fact_ids": [
+        "paragraph-19-f5"
+      ]
+    },
+    {
+      "title": "Chuchuk suv turlari",
+      "body": "Ko‘l va hovuzlar oqmaydigan, daryo va soylar oqadigan chuchuk suv havzalari sifatida farqlanadi.",
+      "fact_ids": [
+        "paragraph-19-f6"
+      ]
+    },
+    {
+      "title": "Dengiz muhitining omillari",
+      "body": "Dengiz tizimida sho‘rlanish, oqim va chuqurlik organizmlar hayotiga ta’sir qiladi; qat’iy barcha havzalarga bir xil tuz soni berilmaydi.",
+      "fact_ids": [
+        "paragraph-19-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-19-q1",
+      "fact_id": "paragraph-19-f1",
+      "question_text": "Tog‘ o‘rmoni, daryo va okean qaysi ketma-ketlikka mos?",
+      "options": [
+        "Quruqlik, chuchuk suv, dengiz",
+        "Dengiz, quruqlik, chuchuk suv",
+        "Faqat uch xil agroekosistema",
+        "Faqat uch xil shahar"
+      ],
+      "correct_answer": "Quruqlik, chuchuk suv, dengiz",
+      "explanation": "Darslik tabiiy ekosistemalarni quruqlik, chuchuk suv va dengiz guruhlarida o‘rganadi; ular tabiiy jarayonlar ta’sirida shakllanadi."
+    },
+    {
+      "key": "paragraph-19-q2",
+      "fact_id": "paragraph-19-f2",
+      "question_text": "Tundra bilan tropik o‘rmonni qiyoslashda asosiy abiotik ma’lumot qaysi?",
+      "options": [
+        "Faqat nomining yozilishi",
+        "Faqat bitta hayvonning rangi",
+        "Faqat tadqiqotchining yoshi",
+        "Harorat va yog‘in rejimi"
+      ],
+      "correct_answer": "Harorat va yog‘in rejimi",
+      "explanation": "Harorat va yog‘in quruqlikdagi yirik ekosistemalar tarqalishiga ta’sir qiladi; o‘xshash iqlimli yirik majmualar biom sifatida o‘rganiladi."
+    },
+    {
+      "key": "paragraph-19-q3",
+      "fact_id": "paragraph-19-f3",
+      "question_text": "Tundra qoplamini tahlil qilishda qaysi bog‘lanish mos?",
+      "options": [
+        "Faqat sun’iy sug‘oriladigan paxta",
+        "Faqat dengiz suvo‘tlari",
+        "Qisqa mavsum va past bo‘yli o‘simliklar",
+        "Yil bo‘yi issiq va baland tropik daraxtlar"
+      ],
+      "correct_answer": "Qisqa mavsum va past bo‘yli o‘simliklar",
+      "explanation": "Tundrada sovuq va qisqa o‘sish mavsumi past bo‘yli buta, yo‘sin va lishayniklar bilan bog‘liq o‘simlik qoplamini shakllantiradi."
+    },
+    {
+      "key": "paragraph-19-q4",
+      "fact_id": "paragraph-19-f4",
+      "question_text": "Tayga uchun mos o‘simlik qoplamini tanlang.",
+      "options": [
+        "Faqat dengiz fitoplanktoni",
+        "Ignabargli o‘rmon",
+        "Faqat sho‘rxok bir yilliklar",
+        "Faqat tropik lianalar"
+      ],
+      "correct_answer": "Ignabargli o‘rmon",
+      "explanation": "Tayga shimoliy ignabargli o‘rmonlar bilan tavsiflanadi; qarag‘ay va pixta kabi daraxtlar muhim o‘rin tutadi."
+    },
+    {
+      "key": "paragraph-19-q5",
+      "fact_id": "paragraph-19-f5",
+      "question_text": "Tuproqda ildizi bo‘lib daraxtga chirmashgan o‘simlik qaysi tavsifga mos?",
+      "options": [
+        "Liana",
+        "Tuproqqa aloqasiz bo‘lishi shart bo‘lgan epifit",
+        "Majburiy endoparazit hayvon",
+        "Mineral zarra"
+      ],
+      "correct_answer": "Liana",
+      "explanation": "Epifit boshqa o‘simlik ustida o‘sadi; liana esa tuproqda ildiz otib tayanch bo‘ylab ko‘tariladi."
+    },
+    {
+      "key": "paragraph-19-q6",
+      "fact_id": "paragraph-19-f6",
+      "question_text": "Ko‘l va soy orasidagi gidrologik farq qaysi?",
+      "options": [
+        "Ikkalasi ham faqat dengizning tubi",
+        "Birinchisi faqat quruqlik, ikkinchisi atmosfera",
+        "Ikkalasida suv bo‘lishi mumkin emas",
+        "Birinchisi turg‘un, ikkinchisi oqadigan suv tizimi"
+      ],
+      "correct_answer": "Birinchisi turg‘un, ikkinchisi oqadigan suv tizimi",
+      "explanation": "Ko‘l va hovuzlar oqmaydigan, daryo va soylar oqadigan chuchuk suv havzalari sifatida farqlanadi."
+    },
+    {
+      "key": "paragraph-19-q7",
+      "fact_id": "paragraph-19-f7",
+      "question_text": "Dengiz va chuchuk suv organizmlarini qiyoslashda qaysi omilni tekshirish kerak?",
+      "options": [
+        "Faqat kitob muqovasini",
+        "Faqat organizmning nomlanish tilini",
+        "Suvdagi tuz miqdorini",
+        "Faqat havza nomining uzunligini"
+      ],
+      "correct_answer": "Suvdagi tuz miqdorini",
+      "explanation": "Dengiz tizimida sho‘rlanish, oqim va chuqurlik organizmlar hayotiga ta’sir qiladi; qat’iy barcha havzalarga bir xil tuz soni berilmaydi."
+    }
+  ]
+}

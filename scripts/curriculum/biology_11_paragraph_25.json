@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-25-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-31",
+  "title": "Biosfera chegaralari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-25-f1": {
+      "claim": "Biosferadagi hayot tarqalishi suv, harorat, energiya va boshqa yashash sharoitlari bilan cheklanadi; hamma organizm uchun bitta bir xil chegara yo‘q.",
+      "answer": "Muayyan organizm uchun zarur sharoitlarni baholash",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f2": {
+      "claim": "Biosfera atmosfera, gidrosfera va litosferaning hayot bilan bog‘langan qismlarini qamrab oladi.",
+      "answer": "Atmosfera, gidrosfera, litosfera",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f3": {
+      "claim": "Stratosferadagi ozon quyoshning zararli ultrabinafsha nurlanishining bir qismini yutadi.",
+      "answer": "Ultrabinafsha nurlanishdan himoya",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f4": {
+      "claim": "Okeanda hayot katta chuqurliklarda ham uchraydi, ammo yorug‘likka asoslangan fotosintez yoritilgan qatlamlar bilan cheklanadi.",
+      "answer": "Har chuqurlikda quyoshli fotosintez kechishini",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f5": {
+      "claim": "Litosferada tuproq organizmlari bilan birga chuqurroq qatlamlardagi mikroorganizmlar ham o‘rganiladi.",
+      "answer": "Yerostidagi mikroorganizmlar",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f6": {
+      "claim": "Hayot qobiqlar bo‘ylab notekis tarqaladi; chegaralarda o‘zaro bog‘liq suv, gaz va mineral sharoitlar muhimdir.",
+      "answer": "Yashash sharoitlari joylar bo‘yicha farqlanadi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Chegaraning mazmuni",
+      "body": "Biosferadagi hayot tarqalishi suv, harorat, energiya va boshqa yashash sharoitlari bilan cheklanadi; hamma organizm uchun bitta bir xil chegara yo‘q.",
+      "fact_ids": [
+        "paragraph-25-f1"
+      ]
+    },
+    {
+      "title": "Uch qobiq aloqasi",
+      "body": "Biosfera atmosfera, gidrosfera va litosferaning hayot bilan bog‘langan qismlarini qamrab oladi.",
+      "fact_ids": [
+        "paragraph-25-f2"
+      ]
+    },
+    {
+      "title": "Ozonning roli",
+      "body": "Stratosferadagi ozon quyoshning zararli ultrabinafsha nurlanishining bir qismini yutadi.",
+      "fact_ids": [
+        "paragraph-25-f3"
+      ]
+    },
+    {
+      "title": "Suvning chuqurligi",
+      "body": "Okeanda hayot katta chuqurliklarda ham uchraydi, ammo yorug‘likka asoslangan fotosintez yoritilgan qatlamlar bilan cheklanadi.",
+      "fact_ids": [
+        "paragraph-25-f4"
+      ]
+    },
+    {
+      "title": "Yerosti hayoti",
+      "body": "Litosferada tuproq organizmlari bilan birga chuqurroq qatlamlardagi mikroorganizmlar ham o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-25-f5"
+      ]
+    },
+    {
+      "title": "Notekis tarqalish",
+      "body": "Hayot qobiqlar bo‘ylab notekis tarqaladi; chegaralarda o‘zaro bog‘liq suv, gaz va mineral sharoitlar muhimdir.",
+      "fact_ids": [
+        "paragraph-25-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-25-q1",
+      "fact_id": "paragraph-25-f1",
+      "question_text": "Hayot tarqalish chegarasini tekshirishda qaysi yondashuv mos?",
+      "options": [
+        "Muayyan organizm uchun zarur sharoitlarni baholash",
+        "Faqat bitta qat’iy raqamni barcha turga berish",
+        "Faqat hudud nomini ko‘rish",
+        "Faqat Yer xaritasining rangini sanash"
+      ],
+      "correct_answer": "Muayyan organizm uchun zarur sharoitlarni baholash",
+      "explanation": "Biosferadagi hayot tarqalishi suv, harorat, energiya va boshqa yashash sharoitlari bilan cheklanadi; hamma organizm uchun bitta bir xil chegara yo‘q."
+    },
+    {
+      "key": "paragraph-25-q2",
+      "fact_id": "paragraph-25-f2",
+      "question_text": "Gazsimon, suvli va qattiq qobiqlarni moslang.",
+      "options": [
+        "Litosfera, atmosfera, gidrosfera",
+        "Gidrosfera, litosfera, atmosfera",
+        "Faqat uch xil hujayra organoidi",
+        "Atmosfera, gidrosfera, litosfera"
+      ],
+      "correct_answer": "Atmosfera, gidrosfera, litosfera",
+      "explanation": "Biosfera atmosfera, gidrosfera va litosferaning hayot bilan bog‘langan qismlarini qamrab oladi."
+    },
+    {
+      "key": "paragraph-25-q3",
+      "fact_id": "paragraph-25-f3",
+      "question_text": "Ozon kamayishining ekologik ahamiyati qaysi himoya bilan bog‘liq?",
+      "options": [
+        "Faqat suyakdagi fosfor",
+        "Faqat oziqdagi oqsil",
+        "Ultrabinafsha nurlanishdan himoya",
+        "Faqat tuproqning mexanik tayanchi"
+      ],
+      "correct_answer": "Ultrabinafsha nurlanishdan himoya",
+      "explanation": "Stratosferadagi ozon quyoshning zararli ultrabinafsha nurlanishining bir qismini yutadi."
+    },
+    {
+      "key": "paragraph-25-q4",
+      "fact_id": "paragraph-25-f4",
+      "question_text": "Chuqur okeanda hayot borligi qaysi xulosani o‘zi bermaydi?",
+      "options": [
+        "Yorug‘lik tarqalishini tekshirish kerakligini",
+        "Har chuqurlikda quyoshli fotosintez kechishini",
+        "Organizmlar suv muhitida yashashini",
+        "Chuqurlik sharoitlari farqlanishini"
+      ],
+      "correct_answer": "Har chuqurlikda quyoshli fotosintez kechishini",
+      "explanation": "Okeanda hayot katta chuqurliklarda ham uchraydi, ammo yorug‘likka asoslangan fotosintez yoritilgan qatlamlar bilan cheklanadi."
+    },
+    {
+      "key": "paragraph-25-q5",
+      "fact_id": "paragraph-25-f5",
+      "question_text": "Biosfera chegarasini faqat ko‘rinadigan o‘simlik ildizi bilan belgilashda nima unutiladi?",
+      "options": [
+        "Yerostidagi mikroorganizmlar",
+        "Faqat gul rangi",
+        "Faqat daraxt nomi",
+        "Faqat o‘quvchi yoshi"
+      ],
+      "correct_answer": "Yerostidagi mikroorganizmlar",
+      "explanation": "Litosferada tuproq organizmlari bilan birga chuqurroq qatlamlardagi mikroorganizmlar ham o‘rganiladi."
+    },
+    {
+      "key": "paragraph-25-q6",
+      "fact_id": "paragraph-25-f6",
+      "question_text": "Nega har bir joyga teng miqdorda tirik modda taqsimlangan deb bo‘lmaydi?",
+      "options": [
+        "Barcha joylar bir xil haroratli",
+        "Barcha turlar bir xil suv talab qiladi",
+        "Gaz, suv va mineral muhitlar aynan bir xil",
+        "Yashash sharoitlari joylar bo‘yicha farqlanadi"
+      ],
+      "correct_answer": "Yashash sharoitlari joylar bo‘yicha farqlanadi",
+      "explanation": "Hayot qobiqlar bo‘ylab notekis tarqaladi; chegaralarda o‘zaro bog‘liq suv, gaz va mineral sharoitlar muhimdir."
+    }
+  ]
+}
