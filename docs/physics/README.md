@@ -1,8 +1,8 @@
 # Fizika — manba xaritalari va lokal interaktiv sinov
 
 **Davom etayotgan ish — 2026-10-22:** barcha 316 bo‘lim uchun mualliflik ruxsati
-berilgan. Hozir **29 lokal dars/faoliyat**, 121 karta / 197 topshiriq / 53 FRQ;
-**287 bo‘lim qolgan**. Oraliq tasdiq kutilmaydi. Joriy sanoqlar, manba/ilmiy
+berilgan. Hozir **35 lokal dars/faoliyat**, 145 karta / 236 topshiriq / 68 FRQ;
+**281 bo‘lim qolgan**. Oraliq tasdiq kutilmaydi. Joriy sanoqlar, manba/ilmiy
 qarorlar va testlar: [STAGE2_PROGRESS.md](STAGE2_PROGRESS.md).
 Quyidagi birinchi partiya va source-only yozuvlar saqlangan tarixdir.
 

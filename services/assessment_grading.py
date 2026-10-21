@@ -61,6 +61,8 @@ UNITS = {
     "mJ": ("energy", Fraction(1, 1000)),
     "W": ("power", Fraction(1)),
     "kW": ("power", Fraction(1000)),
+    "N*m": ("torque", Fraction(1)),
+    "%": ("dimensionless", Fraction(1, 100)),
 }
 UNIT_ALIASES = {
     "metr": "m",
@@ -90,6 +92,9 @@ UNIT_ALIASES = {
     "paskal": "Pa",
     "joul": "J",
     "vatt": "W",
+    "N·m": "N*m",
+    "N m": "N*m",
+    "foiz": "%",
 }
 TOKEN = re.compile(
     r"\s*(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?|"

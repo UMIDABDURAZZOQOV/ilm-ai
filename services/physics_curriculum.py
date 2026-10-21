@@ -30,7 +30,11 @@ REVIEWED_BATCHES = {
     "grade6_batch2": (6, 8, 17),
     "grade6_batch3": (6, 18, 24),
     "grade6_batch4": (6, 25, 29),
+    "grade6_batch5": (6, 30, 35),
 }
+# Image-checked continuation missed by the old digital text boundary. Preserve
+# the frozen stage-one archive; permit only this explicitly documented page.
+SOURCE_CONTINUATIONS = {("physics-uz-grade-6", "physics-6-section-32"): {90}}
 
 # Algebraic alternatives reviewed under the stated source domains. No guessing
 # at symbolic equivalence or random-point numerical acceptance.
@@ -245,7 +249,13 @@ def validate_batch(document):
             )
             for pdf, label, digest in zip(pp, printed, ref["page_text_sha256"]):
                 require(
-                    topic["pdf_start"] <= pdf <= topic["pdf_end"],
+                    topic["pdf_start"] <= pdf <= topic["pdf_end"]
+                    or (
+                        pdf
+                        in SOURCE_CONTINUATIONS.get((book["id"], topic["id"]), set())
+                        and ref.get("extent_note")
+                        == "original_image_continues_before_next_heading"
+                    ),
                     "citation_outside_topic",
                 )
                 page = book["page_audit"][pdf - 1]
@@ -303,7 +313,7 @@ def validate_batch(document):
             require(set(item["fact_ids"]) <= taught, "example_or_formula_not_taught")
             for step in item.get("steps", []):
                 references(step["source_refs"])
-        if lesson["sequence"] <= 5:
+        if book["grade"] == 6 and lesson["sequence"] <= 5:
             require(
                 not lesson["formulas"], "no_artificial_formulas_for_conceptual_topics"
             )

@@ -90,13 +90,32 @@ ORACLES_BATCH4 = {
 }
 
 
+ORACLES_BATCH5 = {
+    (31, 5): ("2", "N·m", "l*F"),
+    (31, 6): ("24", "N", "F1*(l1/l2)"),
+    (31, 7): ("20", "cm", "l1*(F1/F2)"),
+    (32, 4): ("2", "N", "F1*l1/l2"),
+    (32, 5): ("18", "cm", "F1*l1/F2"),
+    (33, 5): ("40", "N", "P/2"),
+    (33, 6): ("30", "N", "P*(h/s)"),
+    (33, 7): ("30", "N", "P*r/R"),
+    (33, 8): ("12", "1", "R1*R2/(r1*r2)"),
+    (34, 4): ("1.2", "m", "s2*(F2/F1)"),
+    (34, 5): ("1.5", "m", "h*2"),
+    (34, 6): ("120", "cm", "F2*s2/F1"),
+    (35, 5): ("80", "%", "Af/Au"),
+    (35, 6): ("180", "J", "Au*eta"),
+    (35, 7): ("0.8", "1", "(P*h)/(F*s)"),
+}
+
+
 def new_answer(lesson, q):
     spec = q["grading_spec"]
     if spec["kind"] == "numeric_quantity":
         number = int(q["key"].rsplit("q", 1)[1])
-        value, unit, formula = (ORACLES | ORACLES_BATCH3 | ORACLES_BATCH4)[
-            (lesson["sequence"], number)
-        ]
+        value, unit, formula = (
+            ORACLES | ORACLES_BATCH3 | ORACLES_BATCH4 | ORACLES_BATCH5
+        )[(lesson["sequence"], number)]
         return {"value": value, "unit": unit, "formula": formula}
     return correct(q)
 
@@ -107,8 +126,8 @@ def test_original_frozen_content_and_honest_course_coverage():
         == "8d13627ce9275bda5a402b86d4ea94d67b1892c1538189c88dcc51891a3c6a78"
     )
     data = report()
-    assert (data["authored"], data["remaining"], data["source_total"]) == (29, 287, 316)
-    assert [r["authored"] for r in data["grades"]] == [29, 0, 0, 0, 0, 0]
+    assert (data["authored"], data["remaining"], data["source_total"]) == (35, 281, 316)
+    assert [r["authored"] for r in data["grades"]] == [35, 0, 0, 0, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -116,9 +135,9 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["frq"],
         row["laboratories"],
         row["practicals"],
-    ) == (121, 197, 53, 3, 1)
-    assert row["next_section"] == 30
-    assert len(load_course()) == 4
+    ) == (145, 236, 68, 4, 1)
+    assert row["next_section"] == 36
+    assert len(load_course()) == 5
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -308,7 +327,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 290
+        assert db.get(User, 1).xp_total == 350
 
 
 @pytest.mark.parametrize(
@@ -369,6 +388,60 @@ def test_batch_four_answers_alternatives_and_invalid_domains():
     # impossible reading difference or zero-time power accepted by an author.
     for li, qi, gi, bad in [(0, 4, 2, "-1"), (2, 7, 1, "10"), (4, 7, 1, "0")]:
         q = deepcopy(document["lessons"][li]["assessments"][qi])
+        q["public"]["givens"][gi]["value"] = bad
+        with pytest.raises(ValueError):
+            calculation_value(q)
+
+
+def test_batch_five_independent_moments_efficiency_and_source_continuation():
+    import json
+    from copy import deepcopy
+
+    from services.physics_curriculum import calculation_value
+
+    doc = load_batch("grade6_batch5")
+    assert validate_batch(doc) == {
+        "lessons": 6,
+        "cards": 24,
+        "formulas": 14,
+        "worked_examples": 6,
+        "assessments": 39,
+        "frq": 15,
+    }
+    seen = set()
+    for lesson in doc["lessons"]:
+        for q in lesson["assessments"]:
+            spec = q["grading_spec"]
+            answer = new_answer(lesson, q)
+            assert grade_answer(spec, answer) == "correct", q["key"]
+            if spec["kind"] != "numeric_quantity":
+                continue
+            seen.add((lesson["sequence"], int(q["key"].rsplit("q", 1)[1])))
+            for expression in spec["formula"]["equivalents"]:
+                assert (
+                    grade_answer(spec, {**answer, "formula": expression}) == "correct"
+                )
+            assert grade_answer(spec, {**answer, "unit": "s"}) == "dimension_mismatch"
+            assert (
+                grade_answer(spec, {**answer, "value": "999999999"})
+                == "out_of_tolerance"
+            )
+    assert seen == set(ORACLES_BATCH5)
+    archived = json.loads((DIRECTORY / "physics_sources.json").read_text())["books"][0]
+    assert (
+        next(r for r in archived["records"] if r["id"] == "physics-6-section-32")[
+            "pdf_end"
+        ]
+        == 89
+    )
+    assert doc["lessons"][2]["source_refs"][0]["pdf_pages"] == [89, 90]
+    tampered = deepcopy(doc)
+    tampered["lessons"][2]["source_refs"][0].pop("extent_note")
+    with pytest.raises(ValueError, match="citation_outside_topic"):
+        validate_batch(tampered)
+    # Physically impossible incline geometry / >100% efficiency are rejected.
+    for li, qi, gi, bad in [(3, 5, 1, "5"), (5, 4, 0, "200"), (5, 5, 0, "120")]:
+        q = deepcopy(doc["lessons"][li]["assessments"][qi])
         q["public"]["givens"][gi]["value"] = bad
         with pytest.raises(ValueError):
             calculation_value(q)

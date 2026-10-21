@@ -212,6 +212,78 @@ REVIEWED_FORMULAS = {
         ["N*t", "t*N"],
         "N shu oraliqdagi o‘rtacha yoki o‘zgarmas quvvat W da; A=N*t; PDF74–76.",
     ),
+    "double_wheel_gain": rule(
+        "n",
+        ["R1", "r1", "R2", "r2"],
+        ["(R1/r1)*(R2/r2)", "R1*R2/(r1*r2)"],
+        "Darslikdagi ideal ikki bosqichli lebyodka; musbat radius/yelkalar bir birlikda; PDF92.",
+    ),
+    "moment": rule(
+        "M",
+        ["F", "l"],
+        ["F*l", "l*F"],
+        "l — o‘qdan kuch ta’sir chizig‘igacha tik yelka; F>=0. Moment moduli, N*m; PDF87.",
+    ),
+    "lever_force": rule(
+        "F2",
+        ["F1", "l1", "l2"],
+        ["F1*l1/l2", "F1*(l1/l2)"],
+        "Qarama-qarshi aylantiruvchi ikki moment, ideal muvozanat, musbat tik yelkalar bir birlikda; F1*l1=F2*l2; PDF88–90.",
+    ),
+    "lever_arm": rule(
+        "l2",
+        ["F1", "l1", "F2"],
+        ["F1*l1/F2", "l1*(F1/F2)"],
+        "Ideal richag muvozanati; F1,F2>0 bir birlikda; PDF88–90.",
+    ),
+    "movable_pulley": rule(
+        "F",
+        ["P"],
+        ["P/2", "0.5*P"],
+        "Ideal bitta ko‘char blok, ikki vertikal tayanch ip, o‘z vazni/ishqalanish e’tiborsiz; P yuk og‘irligi; PDF91.",
+    ),
+    "incline_force": rule(
+        "F",
+        ["P", "h", "s"],
+        ["P*h/s", "P*(h/s)"],
+        "Ideal qiya tekislik, tekis harakat; P og‘irlik kuchi, 0<h<=s; h,s bir birlikda; PDF91.",
+    ),
+    "wheel_force": rule(
+        "F",
+        ["P", "r", "R"],
+        ["P*r/R", "P*(r/R)"],
+        "Ideal chig‘iriq; P yuk og‘irligi, r baraban radiusi, R dastak yelkasi; r,R>0 bir birlikda; PDF91–92.",
+    ),
+    "ideal_travel": rule(
+        "s1",
+        ["F2", "s2", "F1"],
+        ["F2*s2/F1", "s2*(F2/F1)"],
+        "Yo‘qotishsiz ideal mexanizmda F1*s1=F2*s2, parallel kuchlar, F1>0; PDF93–94.",
+    ),
+    "pulley_travel": rule(
+        "s",
+        ["h"],
+        ["2*h", "h*2"],
+        "Ideal bitta ko‘char blokni h ko‘tarishda ikki tayanch ipning erkin uchi yo‘li; PDF94.",
+    ),
+    "efficiency": rule(
+        "eta",
+        ["Af", "Au"],
+        ["Af/Au", "Af*Au^-1"],
+        "Af foydali ish, Au>0 umumiy ish; 0<=Af<=Au. eta nisbat, javob 1 yoki % birligida; PDF95.",
+    ),
+    "efficiency_work": rule(
+        "Af",
+        ["eta", "Au"],
+        ["eta*Au", "Au*eta"],
+        "eta 0..1 nisbat (masalan80%=0,8), Au>0 umumiy ish; PDF95,97.",
+    ),
+    "incline_efficiency": rule(
+        "eta",
+        ["P", "h", "F", "s"],
+        ["P*h/(F*s)", "(P*h)/(F*s)"],
+        "Tekis ko‘tarish: foydali ish P*h, umumiy ish F*s; 0<h<=s, 0<=P*h<=F*s; PDF96.",
+    ),
 }
 DIMENSION_UNIT = {
     "length": "m",
@@ -227,6 +299,7 @@ DIMENSION_UNIT = {
     "dimensionless": "1",
     "energy": "J",
     "power": "W",
+    "torque": "N*m",
 }
 
 
@@ -260,6 +333,58 @@ def reviewed_calculation(question):
         if result != Fraction(981, 100):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
+
+    if name == "double_wheel_gain":
+        same_units("R1", "r1", "R2", "r2")
+        return (positive("R1", "length") / positive("r1", "length")) * (
+            positive("R2", "length") / positive("r2", "length")
+        ), "dimensionless"
+    if name == "moment":
+        return value("F", "force") * value("l", "length"), "torque"
+    if name == "lever_force":
+        same_units("l1", "l2")
+        return positive("F1", "force") * positive("l1", "length") / positive(
+            "l2", "length"
+        ), "force"
+    if name == "lever_arm":
+        same_units("F1", "F2")
+        return positive("F1", "force") * positive("l1", "length") / positive(
+            "F2", "force"
+        ), "length"
+    if name == "movable_pulley":
+        return positive("P", "force") / 2, "force"
+    if name in {"incline_force", "wheel_force"}:
+        a, b = ("h", "s") if name == "incline_force" else ("r", "R")
+        same_units(a, b)
+        numerator, denominator = positive(a, "length"), positive(b, "length")
+        if name == "incline_force" and numerator > denominator:
+            raise ValueError("incline_height_exceeds_length")
+        return positive("P", "force") * numerator / denominator, "force"
+    if name == "ideal_travel":
+        same_units("F1", "F2")
+        return positive("F2", "force") * value("s2", "length") / positive(
+            "F1", "force"
+        ), "length"
+    if name == "pulley_travel":
+        return 2 * value("h", "length"), "length"
+    if name == "efficiency":
+        same_units("Af", "Au")
+        fraction = value("Af", "energy") / positive("Au", "energy")
+        if fraction > 1:
+            raise ValueError("efficiency_exceeds_one")
+        return fraction, "dimensionless"
+    if name == "efficiency_work":
+        fraction = value("eta", "dimensionless")
+        if fraction > 1:
+            raise ValueError("efficiency_exceeds_one")
+        return fraction * positive("Au", "energy"), "energy"
+    if name == "incline_efficiency":
+        same_units("h", "s")
+        height, length = positive("h", "length"), positive("s", "length")
+        fraction = positive("P", "force") * height / (positive("F", "force") * length)
+        if height > length or fraction > 1:
+            raise ValueError("invalid_incline_efficiency_domain")
+        return fraction, "dimensionless"
 
     if name == "hydrostatic":
         return positive("rho", "density") * gravity() * value("h", "length"), "pressure"

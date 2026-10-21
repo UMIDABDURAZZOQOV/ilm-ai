@@ -13,16 +13,16 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 61 | 29 | 32 | 121 | 46 | 35 | 197 | 53 | 3 / 1 |
+| 6 | 61 | 35 | 26 | 145 | 60 | 41 | 236 | 68 | 4 / 1 |
 | 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 29 | 287 | 121 | 46 | 35 | 197 | 53 | 3 / 1 |
+| Jami | 316 | 35 | 281 | 145 | 60 | 41 | 236 | 68 | 4 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
-soni emas. 44 executable qoida oilasi bor: dastlabki 5 + keyingi 39.
+soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
 Hisoblash mavjud bo‘lmagan mavzularga sun’iy formula kiritilmagan.
 
 ## 6-sinf §8–17: yangi 10 bo‘lim
@@ -157,3 +157,78 @@ ikki jarayon muvaffaqiyatli deb e’lon qilinmagan, yakuniy holatda qayta bajari
 Keyingi nuqta §30 PDF84; §30–35 PDF84–97 matn/tasvirlari keyingi mualliflik
 uchun ko‘rildi. §32 ning yakuniy formula qutisi PDF90 boshiga o‘tgan: eski
 map end89 buni qamramaydi; authored citationdan oldin explicit qayd kerak.
+
+
+## §30–35 — 6 yangi dars/faoliyat
+
+| § | Mavzu | PDF/bosma | Karta | Formula yozuvi | Misol | Topshiriq | FRQ |
+|---|---|---|---:|---:|---:|---:|---:|
+|30|Massa markazi va muvozanat|84–86|4|0|1|6|0|
+|31|Moment va richag|87–89|4|3|1|7|3|
+|32|Raqamli richag laboratoriyasi|89–90|3|2|1|5|2|
+|33|Oddiy mexanizmlar|90–93|6|4|1|8|4|
+|34|Ideal ishlar tengligi|93–95|3|2|1|6|3|
+|35|Oltin qoida va FIK|95–97|4|3|1|7|3|
+
+Jami24 karta/14 formula yozuvi/6 original misol/39 topshiriq/15 FRQ.
+To‘liq14 sahifa matn/tasviri qayta ko‘rildi; barcha5 partiya bo‘yicha82
+asl sahifa PDF/text/render hash auditidan o‘tdi. Har birlik tegishli
+paragraf va sahifaga bog‘langan. Mustaqil ekspert tasdig‘i da’vo qilinmaydi.
+
+§32 ning l2/l1=F1/F2 formula qutisi PDF90 boshida, §33 sarlavhasidan oldin
+davom etadi. Eski digital source map end89 saqlandi; `SOURCE_CONTINUATIONS`
+faqat shu bitta page90 uchun `extent_note` bilan explicit v2 citationga
+ruxsat beradi. Boshqa sahifalarga umumiy chekinish yo‘q; bu note olib
+tashlansa validator rad etadi. Review JSONda `source_extent_corrections` bor.
+
+Ilmiy qarorlar: geometrik/massa markazi faqat bir jinsli simmetrik misolda mos;
+kuchlar yig‘indisi nol bo‘lishi aylanish muvozanati uchun yolg‘iz mezon emas.
+Moment yelkasi ta’sir chizig‘iga tik masofa. N*m moment uchun conventional
+unit; J bilan bir xil SI bazaviy o‘lchamiga ega bo‘lsa ham shu quantity
+topshirig‘ida N*m yozuvi talab qilinadi. Bitta ko‘char blokning ikki vertikal
+ip/og‘irliksiz/ishqalanishsiz shartlari aytilgan. Umumiy polispast2n/2^n
+qoidasi ulanishdan tashqarida qo‘llanmagan. PDF94 dagi g=9,81/9,8 tafovutli
+tayyor yechim ko‘chirilmagan. FIK nisbat0..1, foiz1/100; ideal100% chegarasi
+real yo‘qotishlardan ajratiladi. Raqamli lab real bajarilganlik emas.
+
+Physics120 passed24.27s; har15 yangi FRQ uchun mustaqil javob, muqobil
+formula/birlik; noto‘g‘ri geometrik h>s va Af>Au rad etiladi. Barcha35 darsni
+actual localhost HTTP orqali yakunlash:236 to‘g‘ri javob/68 sonli FRQ/350 XP,
+javob+complete replay bir xil; start paytida private rubric/expected qiymat yo‘q.
+Flutter142 passed, analyze toza, standalone preview JS web build48.0s o‘tdi.
+WASM paketlari uchun oldingi dry-run warning bor; WASM success deyilmaydi.
+Keng backend/PG va actual Chromium natijasi yakuniy tekshiruv qaydida beriladi.
+
+**Haqiqiy holat35/316;281 bo‘lim qolgan.** 6-sinfda30 nazariya+4 lab+1 uy
+amaliyoti authored; qolgan23 nazariya+3 lab. Boshqa sinflar manba xaritasi
+saqlangan, interaktiv darslari hali0. 7-sinf yo‘q kirish sahifalari blok emas.
+Keyingi aniq nuqta: **6-sinf §36, PDF/bosma102, «Issiqlikni hosil qiluvchi
+manbalar. Issiqlik qabul qilish»**. Uning to‘liq sahifalarini qayta ko‘rishdan
+davom etiladi; hali authored/publish-ready deb belgilanmaydi. Oraliq tasdiq
+so‘ralmaydi; production/nashr uchun alohida ruxsat zarur.
+
+
+## Yakuniy tekshiruv qaydi — 2026-10-22
+
+- To‘liq backend: **702 passed/4 opt-in skipped/13 oldingi warning**,283.83s.
+- Alohida actual PostgreSQL16 staging: **4 passed**,318.26s;35 Physics dars,
+  eski7 migration/concurrency, OAuth hamda Biology406+47 checkpoint.
+- Flutter: **143 passed**, analyze toza. Physics3D tugmalariga alohida
+  semantik boundary/label/tap qo‘shildi: uzun matn bilan aralashmaydi.
+  Widget regression bu label va tapni tasdiqlaydi. Boshqa global UI o‘zgarmagan.
+- CDN’siz JS preview34.9s; actual Chromium §35 to‘rtta konseptual va
+  eta=Af/Au /80 /% javobini server bilan tekshirdi;390x844/640x320
+  rasmlari ko‘rildi, JS error yo‘q. CanvasKit CDN domeni bloklanganida
+  `--no-web-resources-cdn` bilan lokal SDK resursi ishlatiladi.
+- Actual HTTP35 lesson/236 answer/68 numeric/350 XP; retry bir xil.
+- Original82 sahifa hash audit, Biology355+51/2527/2609 va oldingi7 dars
+  bytes/progress saqlangan; veb-sayt054f0ce toza.
+
+To‘liq316 bo‘lim va mustaqil ekspert/real telefon tekshiruvi hali yakunlanmagan.
+Keyingi bo‘lim §36/PDF102; qolgan281 bo‘limning hech biri tayyor deb sanalmadi.
+
+
+Yakuniy normal `main.dart` release JS web build ham o‘tdi (49.3s,
+`--no-web-resources-cdn --no-wasm-dry-run`). Current build/web/main.dart.js
+private sandbox JWT’ni o‘z ichiga olmaydi. Bu production deploy yoki WASM/native
+Android build emas. Temporary QA server/konteynerlari tekshiruvdan keyin to‘xtatiladi.

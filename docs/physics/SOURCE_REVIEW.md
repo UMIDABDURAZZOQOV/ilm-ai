@@ -141,3 +141,23 @@ Manbani qayta ko‘rish va deterministik arifmetika mustaqil fan/pedagog ekspert
 imzosini anglatmaydi: `independent_subject_expert=not_claimed`, umumiy nashr o‘chiq.
 Raqamli faoliyat haqiqiy fizik tajriba bajarilganini tasdiqlamaydi.
 To‘liq yangi bosqich hisoboti: [STAGE2_GRADE6_BATCH1.md](STAGE2_GRADE6_BATCH1.md).
+
+
+## 2026-10-22 — §8–35 authored review davomi
+
+Jami35 lokal dars/faoliyat; dastlabki7 bytes/revisionlar saqlandi.82 asl
+sahifa to‘liq matn/tasvir bilan qayta ko‘rildi va original PDF/text/PNG
+fingerprintlari tekshirildi. Bu barcha316 bo‘limning fan ekspertizasi emas.
+Yangi ilmiy tafovutlar, ehtiyotkor shartlar, misol/savollar va testlar
+`grade6_batch2..5_review.json` hamda `STAGE2_PROGRESS.md` da.
+
+Aniq map chegarasi: §32 oxirgi formula qutisi PDF90 boshida §33 dan
+oldin. Source-only end89 arxivi saqlandi; v2 faqat page90 uchun
+`extent_note=original_image_continues_before_next_heading` bilan
+explicit continuation qabul qiladi. Tasodifiy page91 yoki umumiy
+manbasiz sahifa ruxsati yo‘q.
+
+Muhim yangi tafovutlar: PDF69 suzish/ko‘tarilish farqi; PDF94 g9,81
+berilib9,8 hisob ishlatilgani; PDF95 real/ideal FIK farqi. Ular
+xato javob kalitiga aylantirilmagan. §36 va keyingi281 bo‘lim
+hali authored tayyorlikka kiritilmagan.

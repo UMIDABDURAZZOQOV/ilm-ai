@@ -1,5 +1,7 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Eng yangi davom — 2026-10-22 (Asia/Tashkent), Fizika §1–35:** dastlabki7 dars saqlanib,28 yangi bo‘lim qo‘shildi. **35/316 lokal dars/faoliyat;281 qolgan.**6-sinf:30 nazariya+4 raqamli lab+1 uy amaliyoti;145 karta/60 formula yozuvi/41 misol/236 topshiriq (159 konseptual,9 tartiblash,68 FRQ).56 yopiq, manbali executable formula oilasi;82 asl sahifa text/tasvir/hash tekshirildi. Backend **702 passed/4 opt-in skipped**; haqiqiy loopback PostgreSQL16 **4 passed**, barcha Biology406+47 checkpoint saqlandi. Flutter semantik tugma boundary tuzatishi bilan **143 passed**, analyze toza; CDN’siz lokal JS preview va actual Chromium §35 formula/80/% oqimi o‘tdi. Actual HTTP35 dars/236 javob/68 FRQ/350 XP va replay tekshirildi. **Umumiy Fizika nashri yo‘q; real Android/native SDK va mustaqil ekspert tasdig‘i hali yo‘q.** Keyingi aniq nuqta **6-sinf §36, PDF/bosma102**. Qolgan sinflarning interaktiv darslari0,316/316 tayyor deb aytmang. `docs/physics/STAGE2_PROGRESS.md` — joriy batafsil hisobot.
+
 > **Fizika §25–29 — 2026-10-22:** yana5 dars/22 karta/39 topshiriq/15 FRQ. Hozir **29/316**,121 karta/35 misol/197 topshiriq/53 FRQ; **287 qolgan**. Physics119 passed, to‘liq Flutter142 passed/analyze toza; mustaqil loopback PostgreSQL Physics2 passed.68 asl sahifa hash tekshirildi. Muhit restarti keng backend/preview build jarayonini uzdi — ular hali success emas; yakuniy holatda qayta bajariladi. Keyingi mualliflik §30/PDF84.
 
 > **Keyingi partiya — 2026-10-22, §18–24:** yana7 dars/faoliyat,27 karta,48 topshiriq/16 FRQ. Hozir **24/316**, **99 karta/28 misol/158 topshiriq/38 FRQ**, **292 qolgan**. Physics118 passed, Flutter Physics16 passed, original53 sahifa hash audit o‘tdi. Keyingi nuqta §25/PDF62; oraliq tasdiq kutilmaydi. Biologiya/web/prod/nashr flaglari saqlangan. Joriy tafsilot: `docs/physics/STAGE2_PROGRESS.md`.
@@ -3197,3 +3199,76 @@ hali pass deb belgilanmaydi. Keyingi §30 PDF84. §32 ning formula davomi
 PDF90 da; source map89 chegarasi uchun explicit runtime citation qaydi kerak.
 Biology406/progress, web, production, default Biology-only/Physics-preview
 cheklovlari saqlangan. SDK/real Android va mustaqil ekspert hali ochiq.
+
+
+## 2026-10-22 — Fizika §30–35 va davom sessiyasining tekshirilgan holati
+
+Boshlang‘ich986efa7/Flutter9f152f0 saqlandi. Shu davomda GitHub’ga
+partiyalar7555f5f,fd39aa4,1a4aef5 (backend) va94d4bbb,7d59bc7,507b48c
+(Flutter) yuborildi; ushbu oxirgi partiya ularning ustidan feature branchda.
+Production/main merge/deploy/publish qilinmadi.
+
+Yangi6 dars: `grade6_batch5.json`/`grade6_batch5_review.json`, PDF84–97.
+Massa markazi, richag, raqamli richag laboratoriyasi, blok/qiya tekislik/vint/pona/
+chig‘iriq/lebyodka, ideal ishlar va FIK:24 karta/14 formula yozuvi/6 misol/
+39 topshiriq/15 FRQ. Har unit va yechimda paragraf/PDF/bosma sahifa/hash.
+§32 ning formula qutisi PDF90 boshida; eski source-map end89 bytes saqlanib,
+yangi v2 `SOURCE_CONTINUATIONS` faqat shu sahifani explicit extent_note bilan
+qabul qiladi. Chegarani umumiy susaytirish yo‘q; test notesiz citationni rad etadi.
+Massa markazi/simmetriya, tik moment yelkasi, ideal/real ishlar, foiz nisbatlari
+va fizik shartlar `STAGE2_PROGRESS.md` va review JSONda hujjatlashtirildi.
+
+Muhandislik: `services/physics_rules.py` ga12 qoida;56 total (birinchi5+51).
+`assessment_grading.py` N*m va% named-quantity birliklari. Momentning N*m
+yozuvi J bilan bir xil SI bazaviy o‘lchamiga ega, lekin shu quantity uchun
+conventional javob N*m talab qilinadi. FIK0..1; foiz1/100. Noto‘g‘ri Af>Au,
+h>s, nol maxrajlar source/domain validatorida rad etiladi. Yangi DB migratsiya
+yo‘q; v1/Biology API va xavfsizlik shartlari o‘zgarmagan.
+
+Flutter faqat Physics preview: manbali birlik chip/placeholderlar, dinamik
+bo‘lim oralig‘i. Chromium’da uzun dars matniga qo‘shilib ketgan3D tugma
+semantik nomlari aniqlandi: `_button` alohida `Semantics(container:true,
+label,button,enabled,onTap,excludeSemantics:true)` node oladi. Visual
+Duo3DButton/Ilmo/brend saqlandi; boshqa global widget/web kodiga tegilmadi.
+Yangi regression label+accessibility tapni tekshiradi.63 yangi numeric public
+payload fixture bor, expected/rubric yo‘q.
+
+Amalda yakunlangan tekshiruvlar:
+- Physics120 passed24.27s:35 dars/236 javob/350 XP, replay, manba drift,
+  immutable import, har yangi FRQ independent oracle va muqobil javob/domain.
+- To‘liq backend702 passed,4 opt-in skipped,13 oldingi warning,283.83s.
+- Alohida real loopback PostgreSQL16 staging4 passed318.26s: additive0013,
+  actual CLI import/reimport,7 eski va35 full-course dars, parallel XP,
+  OAuth/Biology406+47 checkpoint; eski137 XP/3 streak/2 stars saqlanadi.
+- To‘liq Flutter143 passed, analyze No issues found.320px/200% matn,
+  birlik chiplar, default route guard, retry/draft/lifecycle/account isolation.
+- Preview JS debug web (CDN’siz)34.9s; gstatic CanvasKit CDN blokiga javoban
+  build `--no-web-resources-cdn` bilan SDK rendererini lokal yuklaydi.
+- Actual localhost HTTP35 dars/236 javob/68 numeric FRQ/350 XP, barcha
+  javob+complete replay teng, startda grading_spec/expected qiymat yo‘q.
+- Chromium+actual API §35:4 konseptual javob va eta=Af/Au /80 /% to‘g‘ri;
+ 390x844/640x320 tasvirlari ko‘rildi, JS page error yo‘q.
+- Original PDF/text/PNG82 sahifa pass. Oldingi7 JSON/review, Biology
+  manifest/legacy engine va3 source-only Physics arxivi Git diff bo‘yicha
+ 986efa7 bilan bir xil. Biology audit355+51/2527/2609 saqlandi.
+
+SDK/adb mavjud emas; native APK/real Android/TalkBack/Google Console sinovi
+qilingan deb yozilmadi. Mustaqil fan/pedagog ekspert imzosi yo‘q. Har bir
+raqamli lab reja/jadval tahlili, real tajriba bajarilganini anglatmaydi.
+
+**Davom nuqtasi:6-sinf §36, PDF/bosma102 — Issiqlikni hosil qiluvchi manbalar.
+Issiqlik qabul qilish.** To‘liq sahifalarini qayta ko‘rib, original karta/namuna/
+mashq, kerak bo‘lsa manbali formula va private rubric, independent oracle,
+review evidence, explicit batch registry, stats/tests/hujjatlar qo‘shilsin.
+Qolgan6-sinf26,7-sinf46,8-sinf60,9-sinf59,10-sinf45,11-sinf45 =281.
+7-sinf kirish sahifalari yo‘qligi blok emas. Keyingi sinflar uchun Flutter
+grade tanlash/bibliografiya UI ham kengaytirilishi kerak; hozir35 lesson grade6.
+Oraliq tasdiq so‘ramasdan davom etish ruxsati bor; ommaviy release/deploy yo‘q.
+316/316 vazifa **hali tugamagan**; bu sessiya holatini tayyor to‘liq kurs deb
+belgilamang. Keyingi agent mavjud35 darsni qayta yaratmasin.
+
+
+Yakuniy normal `main.dart` release JS web build ham o‘tdi (49.3s,
+`--no-web-resources-cdn --no-wasm-dry-run`). Current build/web/main.dart.js
+private sandbox JWT’ni o‘z ichiga olmaydi. Bu production deploy yoki WASM/native
+Android build emas. Temporary QA server/konteynerlari tekshiruvdan keyin to‘xtatiladi.
