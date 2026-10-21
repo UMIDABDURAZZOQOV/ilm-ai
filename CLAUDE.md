@@ -1,5 +1,7 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Keyingi partiya — 2026-10-22, §18–24:** yana7 dars/faoliyat,27 karta,48 topshiriq/16 FRQ. Hozir **24/316**, **99 karta/28 misol/158 topshiriq/38 FRQ**, **292 qolgan**. Physics118 passed, Flutter Physics16 passed, original53 sahifa hash audit o‘tdi. Keyingi nuqta §25/PDF62; oraliq tasdiq kutilmaydi. Biologiya/web/prod/nashr flaglari saqlangan. Joriy tafsilot: `docs/physics/STAGE2_PROGRESS.md`.
+
 > **Davom — 2026-10-22, Fizika to‘liq kurs ruxsati:** foydalanuvchi barcha 316 bo‘limni oraliq tasdiqsiz yaratishga ruxsat berdi. Backend `986efa7` / Flutter `9f152f0` ustidan ish davom etmoqda; eski §1–7 saqlandi. Yangi §8–17 bilan **17/316 lokal dars/faoliyat**, **72 karta / 20 misol / 110 topshiriq / 22 FRQ**, **299 bo‘lim qolgan**. 2 lab va 1 uy amaliyoti faqat raqamli tahlil; mustaqil ekspert/real tajriba tasdig‘i yo‘q. Yangi 17 FRQ independent orakullari, barcha 17 dars HTTP/replay/170 XP tekshirildi; yangi kurs **12 passed**, eski v2/source-map **99 passed**, Flutter Physics **16 passed**. To‘liq regression/PG/build davom yakunida qayta tekshiriladi. Hozirgi mualliflik davom nuqtasi §18/PDF45. **Production/nashr yo‘q.** Joriy hisobot: `docs/physics/STAGE2_PROGRESS.md`; quyidagi oraliq tasdiq kutish qaydlari endi tarixiy.
 
 > **Eng yangi holat — 2026-10-22 (Asia/Tashkent), Fizika 2-bosqich §1–7:** foydalanuvchi birinchi partiyaga ruxsat berdi. `cb46a02` ustidan **7 lokal/test dars, 31 karta, 5 hisoblash qoidasi, 8 misol, 43 topshiriq (36 konseptual + 2 tartiblash + 5 FRQ)** yozildi. Faqat `fizika_6_uzb.pdf` PDF/bosma3–16 manbalari; 14 asl sahifa tasviri qayta ko‘rildi va hash’lari solishtirildi. Yangi private-rubric server v2, replay-safe XP va Flutter test preview bor. **Umumiy Fizika nashri yo‘q; §8–17 boshlanmagan.** Backend **681 passed / 3 PG skipped**, alohida real PostgreSQL16.15 **3 passed** va final Physics **1 passed**; Flutter **141 passed**, analyze toza; release JS web + preview debug build va haqiqiy HTTP/Chromium FRQ o‘tdi. **Android SDK yo‘q: native build/manifest merge/real telefon tasdiqlanmagan.** Tafsilot: `docs/physics/STAGE2_GRADE6_BATCH1.md`. Flutter **`feat/physics-first-batch` / `9f152f0`**. Quyidagi 2026-10-21 qaydlar oldingi bosqichlarning saqlangan tarixidir.
@@ -3154,3 +3156,17 @@ Flutter Physics16 passed, analyze toza. Biology audit355+51/2527/2609.
 To‘liq suite, PostgreSQL, build yakuniy kodda qayta bajarilishi kerak.
 Keyingi mualliflik: §18 PDF45; 299 bo‘lim qolgan. Android SDK yo‘q, real telefon
 va native APK/TalkBack hali tekshirilmagan. PDF/secrets/web/prod o‘zgarmagan.
+
+
+### Fizika davomining navbatdagi partiyasi — 2026-10-22, §18–24
+
+`7555f5f` ustidan7 yangi dars/faoliyat qo‘shildi; Flutter boshlang‘ich saqlangan
+partiya `94d4bbb`. §18–24 PDF45–61 to‘liq matn/tasvir qayta tekshirildi.
+`grade6_batch3.json` va `_review.json`:27 karta/15 formula/8 misol/48 topshiriq/16 FRQ.
+`physics_rules.py`, unit registri va testlar vaqt, yo‘l, tezlik, g=9,81 N/kg,
+kuch, bosim va ideal gidravlik pressga kengaydi. Sun’iy lab formulasi yo‘q.
+Barcha24 dars HTTP/replay/240 XP, muqobil javob/domain testlari bilan
+Physics118 passed (19.21s), Flutter Physics16 passed.53 original page hash pass.
+Oldingi7 va keyingi10 darsning bytes/revisionlari saqlandi. Jami24/316,292 qolgan;
+keyingi §25 PDF62. Mustaqil ekspert va real Android hali tasdiqlanmagan.
+To‘liq regression/PG/build shu davom oxirida alohida qayd qilinadi.

@@ -71,6 +71,75 @@ REVIEWED_FORMULAS = {
         ["l1*l2*l3"],
         "To‘g‘ri burchakli parallelepipedning musbat o‘lchamlari bir uzunlik birligida; PDF37.",
     ),
+    "km_to_m": rule("y", ["x"], ["1000*x", "x*1000"], "x km, y m; PDF47."),
+    "min_to_s": rule("y", ["x"], ["60*x", "x*60"], "x minut, y sekund; PDF47."),
+    "hour_to_s": rule("y", ["x"], ["3600*x", "x*3600"], "x soat, y sekund; PDF47."),
+    "step_distance": rule(
+        "s",
+        ["l", "n"],
+        ["l*n", "n*l"],
+        "l o‘rtacha qadam uzunligi, n musbat butun qadamlar soni; taxminiy masofa; PDF48.",
+    ),
+    "motion_speed": rule(
+        "v",
+        ["s", "t"],
+        ["s/t", "s*t^-1"],
+        "s yo‘l, t>0 vaqt; tekis harakat tezligi yoki butun yo‘l/butun vaqt o‘rtachasi; PDF49–50.",
+    ),
+    "motion_distance": rule(
+        "s",
+        ["v", "t"],
+        ["v*t", "t*v"],
+        "v tekis harakat tezligi, t vaqt; yoki butun oraliqning berilgan o‘rtacha tezligi; PDF51.",
+    ),
+    "motion_time": rule(
+        "t", ["s", "v"], ["s/v", "s*v^-1"], "s yo‘l, v>0 tezlik; PDF51,3-mashq7."
+    ),
+    "two_stage_speed": rule(
+        "v",
+        ["s1", "s2", "t1", "t2"],
+        ["(s1+s2)/(t1+t2)"],
+        "Ikki ketma-ket bosqich, yo‘llar o‘zaro va vaqtlar o‘zaro bir birlikda; umumiy yo‘l/umumiy vaqt; PDF50.",
+    ),
+    "earth_weight": rule(
+        "F",
+        ["m", "g"],
+        ["m*g", "g*m"],
+        "Yer sirtidagi og‘irlik kuchi moduli, g=9,81 N/kg masalada ochiq beriladi; PDF54.",
+    ),
+    "weight_mass": rule(
+        "m",
+        ["F", "g"],
+        ["F/g", "F*g^-1"],
+        "F og‘irlik kuchi, g=9,81 N/kg; massani topish; PDF54–55.",
+    ),
+    "pressure": rule(
+        "p",
+        ["F", "S"],
+        ["F/S", "F*S^-1"],
+        "F sirtga tik kuch, S>0 tegish yuzasi; o‘rtacha bosim; PDF57–58.",
+    ),
+    "pressure_force": rule(
+        "F", ["p", "S"], ["p*S", "S*p"], "Bir tekis bosim p, yuza S; PDF57–59."
+    ),
+    "pressure_area": rule(
+        "S",
+        ["F", "p"],
+        ["F/p", "F*p^-1"],
+        "Tik kuch F, musbat bosim p; PDF59,5-mashq1.",
+    ),
+    "rectangle_area": rule(
+        "S",
+        ["a", "b"],
+        ["a*b", "b*a"],
+        "To‘g‘ri to‘rtburchakning musbat tomonlari bir uzunlik birligida; PDF58.",
+    ),
+    "hydraulic_force": rule(
+        "F2",
+        ["F1", "S1", "S2"],
+        ["F1*S2/S1", "S2/S1*F1", "F1*(S2/S1)"],
+        "Ideal gidravlik press, ishqalanish va sath farqi e’tiborsiz; S1>0, S2>0 bir yuza birligida; PDF60–61.",
+    ),
 }
 DIMENSION_UNIT = {
     "length": "m",
@@ -80,6 +149,10 @@ DIMENSION_UNIT = {
     "volume": "m3",
     "density": "kg/m3",
     "speed": "m/s",
+    "force": "N",
+    "pressure": "Pa",
+    "force_per_mass": "N/kg",
+    "dimensionless": "1",
 }
 
 
@@ -107,6 +180,54 @@ def reviewed_calculation(question):
     def same_units(*symbols):
         if len({givens[s]["unit"] for s in symbols}) != 1:
             raise ValueError("same_given_units_required")
+
+    if name in {"km_to_m", "min_to_s", "hour_to_s"}:
+        unit, dimension = {
+            "km_to_m": ("km", "length"),
+            "min_to_s": ("min", "time"),
+            "hour_to_s": ("h", "time"),
+        }[name]
+        if givens["x"]["unit"] != unit:
+            raise ValueError("conversion_given_unit")
+        return value("x", dimension), dimension
+    if name == "step_distance":
+        steps = positive("n", "dimensionless")
+        if steps.denominator != 1:
+            raise ValueError("integer_step_count_required")
+        return positive("l", "length") * steps, "length"
+    if name == "motion_speed":
+        return value("s", "length") / positive("t", "time"), "speed"
+    if name == "motion_distance":
+        return value("v", "speed") * value("t", "time"), "length"
+    if name == "motion_time":
+        return value("s", "length") / positive("v", "speed"), "time"
+    if name == "two_stage_speed":
+        same_units("s1", "s2")
+        same_units("t1", "t2")
+        distance = value("s1", "length") + value("s2", "length")
+        duration = positive("t1", "time") + positive("t2", "time")
+        return distance / duration, "speed"
+    if name in {"earth_weight", "weight_mass"}:
+        gravity = positive("g", "force_per_mass")
+        if gravity != Fraction(981, 100):
+            raise ValueError("grade6_source_gravity_is_9_81")
+        if name == "earth_weight":
+            return positive("m", "mass") * gravity, "force"
+        return positive("F", "force") / gravity, "mass"
+    if name == "pressure":
+        return value("F", "force") / positive("S", "area"), "pressure"
+    if name == "pressure_force":
+        return value("p", "pressure") * positive("S", "area"), "force"
+    if name == "pressure_area":
+        return positive("F", "force") / positive("p", "pressure"), "area"
+    if name == "rectangle_area":
+        same_units("a", "b")
+        return positive("a", "length") * positive("b", "length"), "area"
+    if name == "hydraulic_force":
+        same_units("S1", "S2")
+        return value("F1", "force") * positive("S2", "area") / positive(
+            "S1", "area"
+        ), "force"
 
     if name in {"kg_to_g", "g_to_kg", "tonne_to_kg"}:
         expected = {"kg_to_g": "kg", "g_to_kg": "g", "tonne_to_kg": "t"}[name]

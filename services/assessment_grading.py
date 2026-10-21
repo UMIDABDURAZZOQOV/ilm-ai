@@ -44,6 +44,17 @@ UNITS = {
     "m/s": ("speed", Fraction(1)),
     "mm/s": ("speed", Fraction(1, 1000)),
     "cm/s": ("speed", Fraction(1, 100)),
+    "min": ("time", Fraction(60)),
+    "h": ("time", Fraction(3600)),
+    "km/h": ("speed", Fraction(5, 18)),
+    "N": ("force", Fraction(1)),
+    "kN": ("force", Fraction(1000)),
+    "mN": ("force", Fraction(1, 1000)),
+    "N/kg": ("force_per_mass", Fraction(1)),
+    "Pa": ("pressure", Fraction(1)),
+    "kPa": ("pressure", Fraction(1000)),
+    "N/m2": ("pressure", Fraction(1)),
+    "1": ("dimensionless", Fraction(1)),
 }
 UNIT_ALIASES = {
     "metr": "m",
@@ -66,6 +77,11 @@ UNIT_ALIASES = {
     "ml": "mL",
     "sm3": "cm3",
     "g/sm3": "g/cm3",
+    "soat": "h",
+    "minut": "min",
+    "km/soat": "km/h",
+    "nyuton": "N",
+    "paskal": "Pa",
 }
 TOKEN = re.compile(
     r"\s*(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?|"

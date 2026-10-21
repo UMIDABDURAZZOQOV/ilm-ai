@@ -13,16 +13,16 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 61 | 17 | 44 | 72 | 19 | 20 | 110 | 22 | 2 / 1 |
+| 6 | 61 | 24 | 37 | 99 | 34 | 28 | 158 | 38 | 3 / 1 |
 | 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
+| 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 17 | 299 | 72 | 19 | 20 | 110 | 22 | 2 / 1 |
+| Jami | 316 | 24 | 292 | 99 | 34 | 28 | 158 | 38 | 3 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
-soni emas. 17 executable qoida oilasi bor: dastlabki 5 + yangi 12.
+soni emas. 32 executable qoida oilasi bor: dastlabki 5 + keyingi 27.
 Hisoblash mavjud bo‘lmagan mavzularga sun’iy formula kiritilmagan.
 
 ## 6-sinf §8–17: yangi 10 bo‘lim
@@ -99,3 +99,29 @@ amalda qayta tekshirildi. PDF, to‘liq matn va rasmlar Gitga kiritilmaydi.
 Keyingi aniq mualliflik nuqtasi: **6-sinf §18, PDF/bosma45**. Navbatdagi
 manba sahifalari 45–61 o‘qildi va tasviri ko‘rildi; bu hali authored lesson emas.
 Ish keyingi partiyada davom etadi, foydalanuvchidan oraliq tasdiq kutilmaydi.
+
+
+## Keyingi saqlangan partiya — §18–24
+
+Yana 7 dars/faoliyat: 27 karta, 15 formula yozuvi, 8 misol, 48 topshiriq,
+16 FRQ. PDF/bosma45–61: §18 45–46, §19 47–48, §20 49–51,
+§21 52–55, §22 55–57, §23 57–59, §24 60–61.
+17 sahifaning to‘liq matni va tasviri qayta ko‘rildi; jami53 original sahifa
+text/render hash tekshiruvlari o‘tdi. `grade6_batch3.json` va `_review.json`.
+
+Yangi model/domains: yo‘l/sanoq jismi, qadamdan taxminiy masofa, vaqt birliklari,
+km/h↔m/s, butun yo‘l/butun vaqt, g=9,81 N/kg bilan kuch/massa, N va kg farqi,
+tekis tortishdagi dinamometr ko‘rsatishi, tik kuch/yuza, cm²↔m², ideal press.
+PDF48 yulduz masofasi/farsaxdagi bahsli sonlar va PDF55 dagi g=9,8 bilan
+yaxlitlangan tayyor javoblar ko‘chirilmagan. Paskal tashqi bosim ortishini
+uzatadi; har xil chuqurlikdagi umumiy bosimlar teng degan noto‘g‘ri xulosa yo‘q.
+§22 — raqamli ko‘rsatish/reja/tartiblash; sun’iy hisoblash formulasi kiritilmagan.
+
+Physics jami118 passed (19.21s); yangi16 sonli topshiriqda mustaqil aniq javoblar,
+muqobil formulalar/birliklar, g domeni, nol yuza/vaqt va kasr qadam soni rad etildi.
+Barcha24 darsning HTTP javob/replay/complete va240 XP oqimi o‘tdi.
+Flutter haqiqiy public payloadlarida N/Pa/m²/s, massa/hajm/zichlik/tezlik chiplarini
+320px/200% da sinadi:16 passed. Source audit53 sahifa.
+
+Haqiqiy holat24/316, qolgan292. Keyingi nuqta §25 PDF62.
+§25–29 manba sahifalari62–76 ko‘rildi; dars muallifligi keyingi partiyada.
