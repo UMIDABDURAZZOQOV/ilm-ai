@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-laboratory-2-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-laboratory-43",
+  "title": "2-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-2-f1": {
+      "claim": "Ushbu laboratoriyada ikki turga oid bir nechta namuna yoki ularning tasviri/gerbariysi bir xil morfologik belgilar bilan taqqoslanadi. Maqsad dalilni qayd etishdir.",
+      "answer": "Har ikkisi uchun bir xil belgilar jadvalini ishlatish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-2-f2": {
+      "claim": "Darslik ildiz, poya, barg, gul va meva belgilari bo‘yicha tavsif tuzishni taklif qiladi. Bir-biriga mos organlarni taqqoslash kerak.",
+      "answer": "Barg shakli bilan",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-2-f3": {
+      "claim": "Jadval ildiz sistemasi, bargning oddiy yoki murakkabligi, tomirlanishi, joylashuvi va boshqa kuzatiladigan belgilarni ajratadi.",
+      "answer": "Bargning tomirlanishi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-2-f4": {
+      "claim": "Morfologik o‘xshashlik boshlang‘ich dalildir, ammo bitta mezonning o‘zi barcha turlarni ishonchli ajratmaydi. Xulosa boshqa dalillar zarurligini ham ko‘rsatishi mumkin. Qoida manbasi: §35, PDF 149, 150.",
+      "answer": "Morfologik o‘xshash, boshqa mezonlar bilan ham tekshirish kerak",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-41",
+            "paragraph": 35,
+            "pdf_pages": [
+              149,
+              150
+            ],
+            "printed_pages": [
+              149,
+              150
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-2-f5": {
+      "claim": "Ilovada kuzatuv rejasini va taqqoslash xulosalarini tahlil qilamiz. Buni yakunlash o‘simlikni uzish yoki real gerbariy tayyorlash bajarilganini bildirmaydi.",
+      "answer": "Morfologik taqqoslash mantiqi tahlil qilinganini",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kuzatuv rejasini tanlaymiz",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nUshbu laboratoriyada ikki turga oid bir nechta namuna yoki ularning tasviri/gerbariysi bir xil morfologik belgilar bilan taqqoslanadi. Maqsad dalilni qayd etishdir.",
+      "fact_ids": [
+        "laboratory-2-f1"
+      ]
+    },
+    {
+      "title": "Organlarni ketma-ket kuzatamiz",
+      "body": "Darslik ildiz, poya, barg, gul va meva belgilari bo‘yicha tavsif tuzishni taklif qiladi. Bir-biriga mos organlarni taqqoslash kerak.",
+      "fact_ids": [
+        "laboratory-2-f2"
+      ]
+    },
+    {
+      "title": "Jadval ustunlari",
+      "body": "Jadval ildiz sistemasi, bargning oddiy yoki murakkabligi, tomirlanishi, joylashuvi va boshqa kuzatiladigan belgilarni ajratadi.",
+      "fact_ids": [
+        "laboratory-2-f3"
+      ]
+    },
+    {
+      "title": "Belgidan cheklangan xulosaga",
+      "body": "Morfologik o‘xshashlik boshlang‘ich dalildir, ammo bitta mezonning o‘zi barcha turlarni ishonchli ajratmaydi. Xulosa boshqa dalillar zarurligini ham ko‘rsatishi mumkin. Qoida manbasi: §35, PDF 149, 150.",
+      "fact_ids": [
+        "laboratory-2-f4"
+      ]
+    },
+    {
+      "title": "Raqamli ishning dalili",
+      "body": "Ilovada kuzatuv rejasini va taqqoslash xulosalarini tahlil qilamiz. Buni yakunlash o‘simlikni uzish yoki real gerbariy tayyorlash bajarilganini bildirmaydi.",
+      "fact_ids": [
+        "laboratory-2-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-2-q1",
+      "fact_id": "laboratory-2-f1",
+      "question_text": "Ikki guruhni taqqoslash uchun qaysi reja mos?",
+      "options": [
+        "Taqqoslashdan oldin xulosani qat’iy yozish",
+        "Har ikkisi uchun bir xil belgilar jadvalini ishlatish",
+        "Birida barg, ikkinchisida faqat nom uzunligini o‘lchash",
+        "Faqat eng katta namunani tanlab qolganini yashirish"
+      ],
+      "correct_answer": "Har ikkisi uchun bir xil belgilar jadvalini ishlatish",
+      "explanation": "Ushbu laboratoriyada ikki turga oid bir nechta namuna yoki ularning tasviri/gerbariysi bir xil morfologik belgilar bilan taqqoslanadi. Maqsad dalilni qayd etishdir."
+    },
+    {
+      "key": "laboratory-2-q2",
+      "fact_id": "laboratory-2-f2",
+      "question_text": "Birinchi o‘simlik bargining shaklini ikkinchisining nimasi bilan solishtirasiz?",
+      "options": [
+        "Barg shakli bilan",
+        "Faqat urug‘ning umumiy massasi bilan",
+        "Faqat nomidagi harflar bilan",
+        "Faqat idishning rangi bilan"
+      ],
+      "correct_answer": "Barg shakli bilan",
+      "explanation": "Darslik ildiz, poya, barg, gul va meva belgilari bo‘yicha tavsif tuzishni taklif qiladi. Bir-biriga mos organlarni taqqoslash kerak."
+    },
+    {
+      "key": "laboratory-2-q3",
+      "fact_id": "laboratory-2-f3",
+      "question_text": "Barg tomirlarining ko‘rinishini qaysi ustunga kiritish kerak?",
+      "options": [
+        "Poyaning o‘t yoki yog‘ochligi",
+        "Ildiz sistemasi turi",
+        "To‘pgul turi",
+        "Bargning tomirlanishi"
+      ],
+      "correct_answer": "Bargning tomirlanishi",
+      "explanation": "Jadval ildiz sistemasi, bargning oddiy yoki murakkabligi, tomirlanishi, joylashuvi va boshqa kuzatiladigan belgilarni ajratadi."
+    },
+    {
+      "key": "laboratory-2-q4",
+      "fact_id": "laboratory-2-f4",
+      "question_text": "Ikki namuna juda o‘xshash bo‘lsa, eng to‘g‘ri xulosa qaysi?",
+      "options": [
+        "Ular har doim boshqa tur",
+        "Ularning barcha genlari ko‘z bilan aniqlangan",
+        "Morfologik o‘xshash, boshqa mezonlar bilan ham tekshirish kerak",
+        "Ular albatta bir xil genotipli"
+      ],
+      "correct_answer": "Morfologik o‘xshash, boshqa mezonlar bilan ham tekshirish kerak",
+      "explanation": "Morfologik o‘xshashlik boshlang‘ich dalildir, ammo bitta mezonning o‘zi barcha turlarni ishonchli ajratmaydi. Xulosa boshqa dalillar zarurligini ham ko‘rsatishi mumkin. Qoida manbasi: §35, PDF 149, 150."
+    },
+    {
+      "key": "laboratory-2-q5",
+      "fact_id": "laboratory-2-f5",
+      "question_text": "Raqamli lab yakuni qaysi natijani to‘g‘ri ifodalaydi?",
+      "options": [
+        "Mikroskopda barcha xromosoma sanalganini",
+        "Morfologik taqqoslash mantiqi tahlil qilinganini",
+        "O‘quvchi haqiqiy gerbariy to‘plaganini",
+        "O‘simlikning barcha DNKsi sekvenslanganini"
+      ],
+      "correct_answer": "Morfologik taqqoslash mantiqi tahlil qilinganini",
+      "explanation": "Ilovada kuzatuv rejasini va taqqoslash xulosalarini tahlil qilamiz. Buni yakunlash o‘simlikni uzish yoki real gerbariy tayyorlash bajarilganini bildirmaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "2-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Kuzatuv rejasini tanlaymiz",
+        "fact_ids": [
+          "laboratory-2-f1"
+        ]
+      },
+      {
+        "instruction": "Organlarni ketma-ket kuzatamiz",
+        "fact_ids": [
+          "laboratory-2-f2"
+        ]
+      },
+      {
+        "instruction": "Jadval ustunlari",
+        "fact_ids": [
+          "laboratory-2-f3"
+        ]
+      },
+      {
+        "instruction": "Belgidan cheklangan xulosaga",
+        "fact_ids": [
+          "laboratory-2-f4"
+        ]
+      },
+      {
+        "instruction": "Raqamli ishning dalili",
+        "fact_ids": [
+          "laboratory-2-f5"
+        ]
+      }
+    ]
+  }
+}

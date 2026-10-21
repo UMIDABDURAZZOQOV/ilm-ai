@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-25-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-30",
+  "title": "Odamda uchraydigan irsiy kasalliklar. Reproduktiv salomatlik",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-25-f1": {
+      "claim": "Reproduktiv salomatlik faqat kasallik yo‘qligi emas; reproduktiv tizimga oid jismoniy, ruhiy va ijtimoiy farovonlikni ham qamrab oladi.",
+      "answer": "Kasallik yo‘qligi bilan birga jismoniy, ruhiy va ijtimoiy farovonlik",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f2": {
+      "claim": "Darslik reproduktiv huquqni farzandlar soni, oraliq va vaqt bo‘yicha mas’uliyatli erkin qaror hamda zarur axborotga ega bo‘lish bilan bog‘laydi.",
+      "answer": "Axborotga ega bo‘lib erkin va mas’uliyatli qaror qilish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f3": {
+      "claim": "Tug‘ma tushunchasi holatning tug‘ilishdan mavjudligiga, irsiy tushunchasi genetik uzatilishiga tegishli; bu ikki atamani aynanlashtirmaymiz.",
+      "answer": "Yo‘q, tug‘ma bo‘lish bilan irsiy uzatilish boshqa mezonlar",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          117
+        ],
+        "printed_pages": [
+          117
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f4": {
+      "claim": "Daun sindromining darslikdagi erkin trisomiya 21 modelida 21-xromosoma nusxasi uchta, umumiy son odatda 47 bo‘ladi. Bu son barcha variantlarni yoki shaxs qobiliyatini to‘liq ta’riflamaydi.",
+      "answer": "21-xromosomaning qo‘shimcha nusxasi",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f5": {
+      "claim": "Darslik XXY uchun odatda 47, bitta X mavjud 45,X modeli uchun 45 xromosomani ko‘rsatadi. Kariotip va insonning shaxsiy imkoniyatlari bir narsa emas.",
+      "answer": "47 va 45",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          119
+        ],
+        "printed_pages": [
+          119
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f6": {
+      "claim": "Skrining alomatlar sezilmasdan holatni erta aniqlashga yo‘naltiriladi. Natijani talqin qilish va keyingi tekshiruv tibbiyot mutaxassislari vazifasidir.",
+      "answer": "Xavf yoki holatni erta aniqlash va keyingi baholashga yo‘naltirish",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-25-f7": {
+      "claim": "Genetik va boshqa mutaxassislar tekshiruv natijalarini baholab maslahat beradi. O‘quv ilovasidagi savol-javob tibbiy-genetik konsultatsiyani almashtirmaydi.",
+      "answer": "Shaxsiy natijani tegishli tibbiy mutaxassis bilan baholash",
+      "source": {
+        "paragraph": 25,
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Salomatlikning keng ma’nosi",
+      "body": "Reproduktiv salomatlik faqat kasallik yo‘qligi emas; reproduktiv tizimga oid jismoniy, ruhiy va ijtimoiy farovonlikni ham qamrab oladi.",
+      "fact_ids": [
+        "paragraph-25-f1"
+      ]
+    },
+    {
+      "title": "Axborot va erkin qaror",
+      "body": "Darslik reproduktiv huquqni farzandlar soni, oraliq va vaqt bo‘yicha mas’uliyatli erkin qaror hamda zarur axborotga ega bo‘lish bilan bog‘laydi.",
+      "fact_ids": [
+        "paragraph-25-f2"
+      ]
+    },
+    {
+      "title": "Tug‘ma va irsiy bir mezon emas",
+      "body": "Tug‘ma tushunchasi holatning tug‘ilishdan mavjudligiga, irsiy tushunchasi genetik uzatilishiga tegishli; bu ikki atamani aynanlashtirmaymiz.",
+      "fact_ids": [
+        "paragraph-25-f3"
+      ]
+    },
+    {
+      "title": "Trisomiya misoli",
+      "body": "Daun sindromining darslikdagi erkin trisomiya 21 modelida 21-xromosoma nusxasi uchta, umumiy son odatda 47 bo‘ladi. Bu son barcha variantlarni yoki shaxs qobiliyatini to‘liq ta’riflamaydi.",
+      "fact_ids": [
+        "paragraph-25-f4"
+      ]
+    },
+    {
+      "title": "Jinsiy xromosoma soni",
+      "body": "Darslik XXY uchun odatda 47, bitta X mavjud 45,X modeli uchun 45 xromosomani ko‘rsatadi. Kariotip va insonning shaxsiy imkoniyatlari bir narsa emas.",
+      "fact_ids": [
+        "paragraph-25-f5"
+      ]
+    },
+    {
+      "title": "Skriningdan maqsad",
+      "body": "Skrining alomatlar sezilmasdan holatni erta aniqlashga yo‘naltiriladi. Natijani talqin qilish va keyingi tekshiruv tibbiyot mutaxassislari vazifasidir.",
+      "fact_ids": [
+        "paragraph-25-f6"
+      ]
+    },
+    {
+      "title": "Maslahatning o‘rni",
+      "body": "Genetik va boshqa mutaxassislar tekshiruv natijalarini baholab maslahat beradi. O‘quv ilovasidagi savol-javob tibbiy-genetik konsultatsiyani almashtirmaydi.",
+      "fact_ids": [
+        "paragraph-25-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-25-q1",
+      "fact_id": "paragraph-25-f1",
+      "question_text": "Qaysi ta’rif reproduktiv salomatlikni to‘liqroq ifodalaydi?",
+      "options": [
+        "Faqat xromosomalar soni",
+        "Kasallik yo‘qligi bilan birga jismoniy, ruhiy va ijtimoiy farovonlik",
+        "Faqat tashqi ko‘rinish",
+        "Faqat farzandlar soni"
+      ],
+      "correct_answer": "Kasallik yo‘qligi bilan birga jismoniy, ruhiy va ijtimoiy farovonlik",
+      "explanation": "Reproduktiv salomatlik faqat kasallik yo‘qligi emas; reproduktiv tizimga oid jismoniy, ruhiy va ijtimoiy farovonlikni ham qamrab oladi."
+    },
+    {
+      "key": "paragraph-25-q2",
+      "fact_id": "paragraph-25-f2",
+      "question_text": "Reproduktiv huquqning darslikdagi muhim qismi qaysi?",
+      "options": [
+        "Axborotga ega bo‘lib erkin va mas’uliyatli qaror qilish",
+        "Boshqalar o‘rniga majburiy qaror chiqarish",
+        "Tibbiy ma’lumotni butunlay yashirish",
+        "Barcha oilaga bir xil qat’iy reja berish"
+      ],
+      "correct_answer": "Axborotga ega bo‘lib erkin va mas’uliyatli qaror qilish",
+      "explanation": "Darslik reproduktiv huquqni farzandlar soni, oraliq va vaqt bo‘yicha mas’uliyatli erkin qaror hamda zarur axborotga ega bo‘lish bilan bog‘laydi."
+    },
+    {
+      "key": "paragraph-25-q3",
+      "fact_id": "paragraph-25-f3",
+      "question_text": "Tug‘ilishdan mavjud holat avtomatik ravishda ota-onadan irsiy o‘tganini isbotlaydimi?",
+      "options": [
+        "Ha, barcha tug‘ma holat bir xil monogen holat",
+        "Ha, barcha holat faqat onadan o‘tadi",
+        "Yo‘q, tug‘ma holatlarda genetik omil hech qachon bo‘lmaydi",
+        "Yo‘q, tug‘ma bo‘lish bilan irsiy uzatilish boshqa mezonlar"
+      ],
+      "correct_answer": "Yo‘q, tug‘ma bo‘lish bilan irsiy uzatilish boshqa mezonlar",
+      "explanation": "Tug‘ma tushunchasi holatning tug‘ilishdan mavjudligiga, irsiy tushunchasi genetik uzatilishiga tegishli; bu ikki atamani aynanlashtirmaymiz."
+    },
+    {
+      "key": "paragraph-25-q4",
+      "fact_id": "paragraph-25-f4",
+      "question_text": "Erkin trisomiya 21 modelida qaysi o‘zgarish asosiy?",
+      "options": [
+        "Faqat X xromosomaning yo‘qolishi",
+        "Har bir genning bir xil almashishi",
+        "21-xromosomaning qo‘shimcha nusxasi",
+        "21 ta butun yangi genom"
+      ],
+      "correct_answer": "21-xromosomaning qo‘shimcha nusxasi",
+      "explanation": "Daun sindromining darslikdagi erkin trisomiya 21 modelida 21-xromosoma nusxasi uchta, umumiy son odatda 47 bo‘ladi. Bu son barcha variantlarni yoki shaxs qobiliyatini to‘liq ta’riflamaydi."
+    },
+    {
+      "key": "paragraph-25-q5",
+      "fact_id": "paragraph-25-f5",
+      "question_text": "XXY va 45,X modellaridagi umumiy sonlar ketma-ketligi qaysi?",
+      "options": [
+        "48 va 44",
+        "47 va 45",
+        "46 va 46",
+        "45 va 47"
+      ],
+      "correct_answer": "47 va 45",
+      "explanation": "Darslik XXY uchun odatda 47, bitta X mavjud 45,X modeli uchun 45 xromosomani ko‘rsatadi. Kariotip va insonning shaxsiy imkoniyatlari bir narsa emas."
+    },
+    {
+      "key": "paragraph-25-q6",
+      "fact_id": "paragraph-25-f6",
+      "question_text": "Skriningning asosiy maqsadini toping.",
+      "options": [
+        "Xavf yoki holatni erta aniqlash va keyingi baholashga yo‘naltirish",
+        "Har bir o‘quvchiga ilovada yakuniy tashxis berish",
+        "Oiladagi bir shaxsni aybdor deb topish",
+        "Barcha irsiy holatni faqat tashqi ko‘rinishdan aniqlash"
+      ],
+      "correct_answer": "Xavf yoki holatni erta aniqlash va keyingi baholashga yo‘naltirish",
+      "explanation": "Skrining alomatlar sezilmasdan holatni erta aniqlashga yo‘naltiriladi. Natijani talqin qilish va keyingi tekshiruv tibbiyot mutaxassislari vazifasidir."
+    },
+    {
+      "key": "paragraph-25-q7",
+      "fact_id": "paragraph-25-f7",
+      "question_text": "Darsdagi genetik masala natijasini shaxsiy tashxisga aylantirmaslik uchun nima muhim?",
+      "options": [
+        "Faqat quiz balidan kasallik nomini chiqarish",
+        "Oilaviy ma’lumotni ommaga majburiy yozish",
+        "Faqat bitta tashqi belgidan barcha genlarni aniqlash",
+        "Shaxsiy natijani tegishli tibbiy mutaxassis bilan baholash"
+      ],
+      "correct_answer": "Shaxsiy natijani tegishli tibbiy mutaxassis bilan baholash",
+      "explanation": "Genetik va boshqa mutaxassislar tekshiruv natijalarini baholab maslahat beradi. O‘quv ilovasidagi savol-javob tibbiy-genetik konsultatsiyani almashtirmaydi."
+    }
+  ]
+}

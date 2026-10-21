@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-27-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-32",
+  "title": "Hujayraning genetik elementlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-27-f1": {
+      "claim": "Viruslarda irsiy material DNK yoki RNK bo‘lishi mumkin; eukaryot xromosomasi DNK va oqsil bilan bog‘liq. Barcha irsiy tuzilmani bir xil shaklga keltirmaymiz.",
+      "answer": "Virus genomi DNK yoki RNK bo‘lishi mumkin",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f2": {
+      "claim": "Plazmida asosiy xromosomadan tashqari uchrashi mumkin bo‘lgan DNK elementidir; darslik ko‘plarini halqasimon shaklda tasvirlaydi.",
+      "answer": "Plazmidaga",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f3": {
+      "claim": "Avtonom plazmida asosiy xromosomadan alohida nusxalanishi mumkin. Xromosomaga birikkan holatdagi element bilan alohida nusxalanayotgan holatni farqlash kerak.",
+      "answer": "Xromosomadan alohida replikatsiyalanish imkoniyati",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f4": {
+      "claim": "Transpozonlar genomdagi joylashuvini o‘zgartira oladigan genetik elementlardir. Darslik ularning kashf etilishini Barbara Mak-Klintok tadqiqotlari bilan bog‘laydi.",
+      "answer": "Transpozon",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          124
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f5": {
+      "claim": "Retrotranspozonlarda RNK oraliq mahsuloti va teskari transkripsiya bilan bog‘liq nusxalanish mavjud. Yangi nusxa boshqa joyga kirishi mumkin, eski nusxa saqlanadi.",
+      "answer": "Eski nusxa qolib, yangi nusxa boshqa joyga kirishi mumkin",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-27-f6": {
+      "claim": "Genetik elementning funksional gen joyiga kirishi uning faoliyatiga va fenotipga ta’sir qilishi mumkin; darslik makkajo‘xori pigmentini misol qiladi.",
+      "answer": "U gen faoliyatini o‘zgartirishi mumkin",
+      "source": {
+        "paragraph": 27,
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Genetik material shakli",
+      "body": "Viruslarda irsiy material DNK yoki RNK bo‘lishi mumkin; eukaryot xromosomasi DNK va oqsil bilan bog‘liq. Barcha irsiy tuzilmani bir xil shaklga keltirmaymiz.",
+      "fact_ids": [
+        "paragraph-27-f1"
+      ]
+    },
+    {
+      "title": "Asosiy xromosomadan tashqari",
+      "body": "Plazmida asosiy xromosomadan tashqari uchrashi mumkin bo‘lgan DNK elementidir; darslik ko‘plarini halqasimon shaklda tasvirlaydi.",
+      "fact_ids": [
+        "paragraph-27-f2"
+      ]
+    },
+    {
+      "title": "Avtonomlik mazmuni",
+      "body": "Avtonom plazmida asosiy xromosomadan alohida nusxalanishi mumkin. Xromosomaga birikkan holatdagi element bilan alohida nusxalanayotgan holatni farqlash kerak.",
+      "fact_ids": [
+        "paragraph-27-f3"
+      ]
+    },
+    {
+      "title": "Ko‘chuvchi genetik element",
+      "body": "Transpozonlar genomdagi joylashuvini o‘zgartira oladigan genetik elementlardir. Darslik ularning kashf etilishini Barbara Mak-Klintok tadqiqotlari bilan bog‘laydi.",
+      "fact_ids": [
+        "paragraph-27-f4"
+      ]
+    },
+    {
+      "title": "Nusxa orqali ko‘chish",
+      "body": "Retrotranspozonlarda RNK oraliq mahsuloti va teskari transkripsiya bilan bog‘liq nusxalanish mavjud. Yangi nusxa boshqa joyga kirishi mumkin, eski nusxa saqlanadi.",
+      "fact_ids": [
+        "paragraph-27-f5"
+      ]
+    },
+    {
+      "title": "Joy o‘zgarishi va belgi",
+      "body": "Genetik elementning funksional gen joyiga kirishi uning faoliyatiga va fenotipga ta’sir qilishi mumkin; darslik makkajo‘xori pigmentini misol qiladi.",
+      "fact_ids": [
+        "paragraph-27-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-27-q1",
+      "fact_id": "paragraph-27-f1",
+      "question_text": "Virus genomi va eukaryot xromosomasini taqqoslashda qaysi fikr to‘g‘ri?",
+      "options": [
+        "Barcha irsiy elementlar faqat glikogen",
+        "Virus genomi DNK yoki RNK bo‘lishi mumkin",
+        "Barcha viruslarda faqat oqsil genomi bor",
+        "Eukaryot xromosomasi faqat lipid"
+      ],
+      "correct_answer": "Virus genomi DNK yoki RNK bo‘lishi mumkin",
+      "explanation": "Viruslarda irsiy material DNK yoki RNK bo‘lishi mumkin; eukaryot xromosomasi DNK va oqsil bilan bog‘liq. Barcha irsiy tuzilmani bir xil shaklga keltirmaymiz."
+    },
+    {
+      "key": "paragraph-27-q2",
+      "fact_id": "paragraph-27-f2",
+      "question_text": "Bakteriyada asosiy xromosomadan tashqari DNK halqasi aniqlansa, qaysi elementga mos?",
+      "options": [
+        "Plazmidaga",
+        "Ribosomal oqsilga",
+        "Fosfolipid tomchisiga",
+        "Faqat hujayra devoriga"
+      ],
+      "correct_answer": "Plazmidaga",
+      "explanation": "Plazmida asosiy xromosomadan tashqari uchrashi mumkin bo‘lgan DNK elementidir; darslik ko‘plarini halqasimon shaklda tasvirlaydi."
+    },
+    {
+      "key": "paragraph-27-q3",
+      "fact_id": "paragraph-27-f3",
+      "question_text": "Avtonom plazmidaning asosiy belgisi qaysi?",
+      "options": [
+        "Hujayrada DNKning butunlay yo‘qligi",
+        "Faqat yadrocha ichida bo‘lishi",
+        "Har doim xromosoma sonini ikki baravar oshirishi",
+        "Xromosomadan alohida replikatsiyalanish imkoniyati"
+      ],
+      "correct_answer": "Xromosomadan alohida replikatsiyalanish imkoniyati",
+      "explanation": "Avtonom plazmida asosiy xromosomadan alohida nusxalanishi mumkin. Xromosomaga birikkan holatdagi element bilan alohida nusxalanayotgan holatni farqlash kerak."
+    },
+    {
+      "key": "paragraph-27-q4",
+      "fact_id": "paragraph-27-f4",
+      "question_text": "Genom ichida joyini o‘zgartira oladigan element qaysi?",
+      "options": [
+        "Faqat glikogen",
+        "Faqat antitana",
+        "Transpozon",
+        "Faqat xolesterin"
+      ],
+      "correct_answer": "Transpozon",
+      "explanation": "Transpozonlar genomdagi joylashuvini o‘zgartira oladigan genetik elementlardir. Darslik ularning kashf etilishini Barbara Mak-Klintok tadqiqotlari bilan bog‘laydi."
+    },
+    {
+      "key": "paragraph-27-q5",
+      "fact_id": "paragraph-27-f5",
+      "question_text": "Retrotranspozonning nusxa orqali ko‘chishiga mos izoh qaysi?",
+      "options": [
+        "U har safar barcha xromosomani yo‘q qiladi",
+        "Eski nusxa qolib, yangi nusxa boshqa joyga kirishi mumkin",
+        "Har doim eski va yangi nusxa birga yo‘qoladi",
+        "U faqat oqsilni RNKga aylantiradi"
+      ],
+      "correct_answer": "Eski nusxa qolib, yangi nusxa boshqa joyga kirishi mumkin",
+      "explanation": "Retrotranspozonlarda RNK oraliq mahsuloti va teskari transkripsiya bilan bog‘liq nusxalanish mavjud. Yangi nusxa boshqa joyga kirishi mumkin, eski nusxa saqlanadi."
+    },
+    {
+      "key": "paragraph-27-q6",
+      "fact_id": "paragraph-27-f6",
+      "question_text": "Element joylashuvining o‘zgarishi nega fenotipga ta’sir qilishi mumkin?",
+      "options": [
+        "U gen faoliyatini o‘zgartirishi mumkin",
+        "Har qanday ko‘chish har doim yangi tur yaratadi",
+        "Har qanday ko‘chish barcha genlarni aynan bir xil kuchaytiradi",
+        "DNK joylashuvining funksiyaga hech qanday aloqasi yo‘q"
+      ],
+      "correct_answer": "U gen faoliyatini o‘zgartirishi mumkin",
+      "explanation": "Genetik elementning funksional gen joyiga kirishi uning faoliyatiga va fenotipga ta’sir qilishi mumkin; darslik makkajo‘xori pigmentini misol qiladi."
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-36-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-42",
+  "title": "Populatsiya – turning tuzilish va evolutsiyaning boshlang‘ich birligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-36-f1": {
+      "claim": "Populyatsiya bir turga kiruvchi, muayyan hududda yashovchi va o‘zaro genetik aloqasi boshqa guruhlarga nisbatan ko‘proq bo‘lishi mumkin bo‘lgan individlar guruhidir.",
+      "answer": "Bir tur bir nechta populyatsiyadan iborat bo‘lishi mumkin",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          151
+        ],
+        "printed_pages": [
+          151
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f2": {
+      "claim": "Populyatsiyadagi genetik variantlar majmuasi genofond bilan ifodalanadi. Avlodlar bo‘yicha variantlar chastotalarini solishtirish populyatsiya o‘zgarishini o‘rganishga yordam beradi.",
+      "answer": "Genofonddagi o‘zgarishni",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f3": {
+      "claim": "Mutatsiyalar yangi irsiy variantlar manbai bo‘lib xizmat qiladi; kombinatsiyalanish va avlod qoldirish ularning keyingi tarqalishi bilan bog‘liq.",
+      "answer": "Mutatsiya yangi genetik o‘zgarish beradi, kombinatsiya mavjud variantlarni qayta birlashtiradi",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f4": {
+      "claim": "Genetik dreyfda allellar chastotasi tasodifiy sabablar bilan o‘zgaradi; kichik populyatsiyada uning ta’siri yaqqol bo‘lishi mumkin. Har bir o‘zgarish tanlanishning dalili emas.",
+      "answer": "Genetik dreyfga",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f5": {
+      "claim": "Populyatsiya to‘lqini individlar sonining vaqt davomida ortib-kamayishidir. Keskin kamayish genetik variantlarning saqlanishiga ham ta’sir qilishi mumkin.",
+      "answer": "Individlar soniga",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f6": {
+      "claim": "Geografik yoki boshqa to‘siqlar populyatsiyalar o‘rtasidagi genetik almashinuvni kamaytirishi mumkin. Alohidalanish genofondlar tafovutiga sharoit yaratadi.",
+      "answer": "Geografik alohidalanish",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f7": {
+      "claim": "Etologik alohidalanish xatti-harakat farqlari, masalan juftni jalb qiluvchi signallar bilan bog‘liq. Bu hududiy to‘siqning o‘zi emas.",
+      "answer": "Etologik",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-36-f8": {
+      "claim": "Populyatsiya genofondidagi avlodlararo o‘zgarishlar evolutsiyaning boshlang‘ich miqyosiga tegishli. Bitta individning o‘sishini shu ma’nodagi evolutsiya bilan tenglashtirmaymiz.",
+      "answer": "Biri individual rivojlanish, ikkinchisi avlodlararo genetik o‘zgarish",
+      "source": {
+        "paragraph": 36,
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          155
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mahalliy guruh va tur",
+      "body": "Populyatsiya bir turga kiruvchi, muayyan hududda yashovchi va o‘zaro genetik aloqasi boshqa guruhlarga nisbatan ko‘proq bo‘lishi mumkin bo‘lgan individlar guruhidir.",
+      "fact_ids": [
+        "paragraph-36-f1"
+      ]
+    },
+    {
+      "title": "Genofond",
+      "body": "Populyatsiyadagi genetik variantlar majmuasi genofond bilan ifodalanadi. Avlodlar bo‘yicha variantlar chastotalarini solishtirish populyatsiya o‘zgarishini o‘rganishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-36-f2"
+      ]
+    },
+    {
+      "title": "Yangi variantning manbai",
+      "body": "Mutatsiyalar yangi irsiy variantlar manbai bo‘lib xizmat qiladi; kombinatsiyalanish va avlod qoldirish ularning keyingi tarqalishi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-36-f3"
+      ]
+    },
+    {
+      "title": "Tasodifiy chastota o‘zgarishi",
+      "body": "Genetik dreyfda allellar chastotasi tasodifiy sabablar bilan o‘zgaradi; kichik populyatsiyada uning ta’siri yaqqol bo‘lishi mumkin. Har bir o‘zgarish tanlanishning dalili emas.",
+      "fact_ids": [
+        "paragraph-36-f4"
+      ]
+    },
+    {
+      "title": "Son va genetik tarkib farqi",
+      "body": "Populyatsiya to‘lqini individlar sonining vaqt davomida ortib-kamayishidir. Keskin kamayish genetik variantlarning saqlanishiga ham ta’sir qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-36-f5"
+      ]
+    },
+    {
+      "title": "Alohidalanish va gen oqimi",
+      "body": "Geografik yoki boshqa to‘siqlar populyatsiyalar o‘rtasidagi genetik almashinuvni kamaytirishi mumkin. Alohidalanish genofondlar tafovutiga sharoit yaratadi.",
+      "fact_ids": [
+        "paragraph-36-f6"
+      ]
+    },
+    {
+      "title": "Xulq to‘sig‘i",
+      "body": "Etologik alohidalanish xatti-harakat farqlari, masalan juftni jalb qiluvchi signallar bilan bog‘liq. Bu hududiy to‘siqning o‘zi emas.",
+      "fact_ids": [
+        "paragraph-36-f7"
+      ]
+    },
+    {
+      "title": "Evolutsiyaning miqyosi",
+      "body": "Populyatsiya genofondidagi avlodlararo o‘zgarishlar evolutsiyaning boshlang‘ich miqyosiga tegishli. Bitta individning o‘sishini shu ma’nodagi evolutsiya bilan tenglashtirmaymiz.",
+      "fact_ids": [
+        "paragraph-36-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-36-q1",
+      "fact_id": "paragraph-36-f1",
+      "question_text": "Tur va mahalliy populyatsiya o‘rtasidagi munosabatni tanlang.",
+      "options": [
+        "Populyatsiya faqat bitta gameta turi",
+        "Bir tur bir nechta populyatsiyadan iborat bo‘lishi mumkin",
+        "Har bir populyatsiya majburiy boshqa turdir",
+        "Har bir individning o‘zi alohida populyatsiya"
+      ],
+      "correct_answer": "Bir tur bir nechta populyatsiyadan iborat bo‘lishi mumkin",
+      "explanation": "Populyatsiya bir turga kiruvchi, muayyan hududda yashovchi va o‘zaro genetik aloqasi boshqa guruhlarga nisbatan ko‘proq bo‘lishi mumkin bo‘lgan individlar guruhidir."
+    },
+    {
+      "key": "paragraph-36-q2",
+      "fact_id": "paragraph-36-f2",
+      "question_text": "Bir necha avlodda allel chastotasini solishtirish nimani tekshiradi?",
+      "options": [
+        "Genofonddagi o‘zgarishni",
+        "Faqat bitta individning yoshini",
+        "Faqat oziqning kimyoviy hidini",
+        "Faqat organning tashqi rangini"
+      ],
+      "correct_answer": "Genofonddagi o‘zgarishni",
+      "explanation": "Populyatsiyadagi genetik variantlar majmuasi genofond bilan ifodalanadi. Avlodlar bo‘yicha variantlar chastotalarini solishtirish populyatsiya o‘zgarishini o‘rganishga yordam beradi."
+    },
+    {
+      "key": "paragraph-36-q3",
+      "fact_id": "paragraph-36-f3",
+      "question_text": "Mutatsiya bilan mavjud allellarning kombinatsiyalanishi orasidagi asosiy farq qaysi?",
+      "options": [
+        "Ikkalasi faqat hujayra hajmini o‘zgartiradi",
+        "Ikkalasi genofondga hech qachon ta’sir qilmaydi",
+        "Kombinatsiyalanish har doim barcha DNKni yo‘q qiladi",
+        "Mutatsiya yangi genetik o‘zgarish beradi, kombinatsiya mavjud variantlarni qayta birlashtiradi"
+      ],
+      "correct_answer": "Mutatsiya yangi genetik o‘zgarish beradi, kombinatsiya mavjud variantlarni qayta birlashtiradi",
+      "explanation": "Mutatsiyalar yangi irsiy variantlar manbai bo‘lib xizmat qiladi; kombinatsiyalanish va avlod qoldirish ularning keyingi tarqalishi bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-36-q4",
+      "fact_id": "paragraph-36-f4",
+      "question_text": "Kichik guruhda tasodif tufayli allel yo‘qolishi qaysi mexanizmga mos?",
+      "options": [
+        "Faqat transkripsiyaga",
+        "Faqat oqsil denaturatsiyasiga",
+        "Genetik dreyfga",
+        "Faqat maqsadli moslanishga"
+      ],
+      "correct_answer": "Genetik dreyfga",
+      "explanation": "Genetik dreyfda allellar chastotasi tasodifiy sabablar bilan o‘zgaradi; kichik populyatsiyada uning ta’siri yaqqol bo‘lishi mumkin. Har bir o‘zgarish tanlanishning dalili emas."
+    },
+    {
+      "key": "paragraph-36-q5",
+      "fact_id": "paragraph-36-f5",
+      "question_text": "Populyatsiya to‘lqini birinchi navbatda qaysi ko‘rsatkichga tegishli?",
+      "options": [
+        "Faqat har bir hujayradagi suv foiziga",
+        "Individlar soniga",
+        "Bitta DNK asosining massasiga",
+        "Bitta oqsilning uzunligiga"
+      ],
+      "correct_answer": "Individlar soniga",
+      "explanation": "Populyatsiya to‘lqini individlar sonining vaqt davomida ortib-kamayishidir. Keskin kamayish genetik variantlarning saqlanishiga ham ta’sir qilishi mumkin."
+    },
+    {
+      "key": "paragraph-36-q6",
+      "fact_id": "paragraph-36-f6",
+      "question_text": "Daryo to‘sig‘i guruhlar chatishtirish imkonini kamaytirsa, qaysi hodisa?",
+      "options": [
+        "Geografik alohidalanish",
+        "Faqat kimyoviy denaturatsiya",
+        "Faqat DNK nusxalanishi",
+        "Faqat bir xil genofondga majburiy qaytish"
+      ],
+      "correct_answer": "Geografik alohidalanish",
+      "explanation": "Geografik yoki boshqa to‘siqlar populyatsiyalar o‘rtasidagi genetik almashinuvni kamaytirishi mumkin. Alohidalanish genofondlar tafovutiga sharoit yaratadi."
+    },
+    {
+      "key": "paragraph-36-q7",
+      "fact_id": "paragraph-36-f7",
+      "question_text": "Bir hududdagi qushlar turlicha juftlashish signaliga javob bersa, qaysi to‘siqni o‘rganamiz?",
+      "options": [
+        "Faqat geografik tog‘ to‘sig‘i",
+        "Faqat mineral yetishmovchiligi",
+        "Faqat xromosoma ixchamlanishi",
+        "Etologik"
+      ],
+      "correct_answer": "Etologik",
+      "explanation": "Etologik alohidalanish xatti-harakat farqlari, masalan juftni jalb qiluvchi signallar bilan bog‘liq. Bu hududiy to‘siqning o‘zi emas."
+    },
+    {
+      "key": "paragraph-36-q8",
+      "fact_id": "paragraph-36-f8",
+      "question_text": "Bitta o‘simlik bo‘yi o‘sishi bilan populyatsiya evolutsiyasi farqi qaysi?",
+      "options": [
+        "Biri faqat DNKning kimyoviy nomi",
+        "Populyatsiyada avlodlar bo‘lmaydi",
+        "Biri individual rivojlanish, ikkinchisi avlodlararo genetik o‘zgarish",
+        "Ikkalasi har doim aynan bir ko‘rsatkich"
+      ],
+      "correct_answer": "Biri individual rivojlanish, ikkinchisi avlodlararo genetik o‘zgarish",
+      "explanation": "Populyatsiya genofondidagi avlodlararo o‘zgarishlar evolutsiyaning boshlang‘ich miqyosiga tegishli. Bitta individning o‘sishini shu ma’nodagi evolutsiya bilan tenglashtirmaymiz."
+    }
+  ]
+}

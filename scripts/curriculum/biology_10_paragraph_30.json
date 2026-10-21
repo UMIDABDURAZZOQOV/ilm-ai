@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-30-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-35",
+  "title": "Rekombinant DNK olish",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-30-f1": {
+      "claim": "Rekombinant DNK turli manbalardagi genetik qismlar birlashgan molekula bo‘lishi mumkin. Rekombinatsiya tabiiy jarayonlarda ham, tadqiqot usullarida ham uchraydi.",
+      "answer": "Genetik qismlarning yangi kombinatsiyasi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f2": {
+      "claim": "Donor kerakli axborot manbai, retsipiyent esa uni qabul qiluvchi hujayra yoki organizm sifatida tasvirlanadi. Bu ikki rolni vektorning tashuvchi roli bilan aralashtirmaymiz.",
+      "answer": "Tashuvchi, axborot manbai, qabul qiluvchi",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f3": {
+      "claim": "Vektor genetik materialni qabul qiluvchi tizimga yetkazish uchun ishlatiladigan tashuvchi DNK tuzilmasidir; plazmida bunga misol bo‘la oladi.",
+      "answer": "Genetik axborotni tashish",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f4": {
+      "claim": "Genni klonlash DNK qismining nusxalarini ko‘paytirish bilan bog‘liq. Bu avtomatik ravishda butun hayvonning reproduktiv kloni yaratildi degani emas.",
+      "answer": "Muayyan DNK qismi nusxalari",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          135
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f5": {
+      "claim": "Kiritilgan DNKning saqlanishi va nusxalanishi yangi axborotning hujayra avlodlariga o‘tishida muhim. Molekulani birlashtirish bilan uning hujayrada barqaror ishlashi bir xil bosqich emas.",
+      "answer": "Saqlanishi, nusxalanishi va avlodga o‘tishi alohida masala bo‘lgani uchun",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-30-f6": {
+      "claim": "Darslik rekombinant texnologiyalardan insulin kabi biologik mahsulotlar olishda foydalanilishini misol qiladi. O‘quv tushunchasi tayyor dori yoki davolash tartibi emas.",
+      "answer": "Biologik faol oqsil mahsuloti olishga",
+      "source": {
+        "paragraph": 30,
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Rekombinant molekula",
+      "body": "Rekombinant DNK turli manbalardagi genetik qismlar birlashgan molekula bo‘lishi mumkin. Rekombinatsiya tabiiy jarayonlarda ham, tadqiqot usullarida ham uchraydi.",
+      "fact_ids": [
+        "paragraph-30-f1"
+      ]
+    },
+    {
+      "title": "Donor va qabul qiluvchi",
+      "body": "Donor kerakli axborot manbai, retsipiyent esa uni qabul qiluvchi hujayra yoki organizm sifatida tasvirlanadi. Bu ikki rolni vektorning tashuvchi roli bilan aralashtirmaymiz.",
+      "fact_ids": [
+        "paragraph-30-f2"
+      ]
+    },
+    {
+      "title": "Vektor tushunchasi",
+      "body": "Vektor genetik materialni qabul qiluvchi tizimga yetkazish uchun ishlatiladigan tashuvchi DNK tuzilmasidir; plazmida bunga misol bo‘la oladi.",
+      "fact_ids": [
+        "paragraph-30-f3"
+      ]
+    },
+    {
+      "title": "Genni klonlash nimani ko‘paytiradi?",
+      "body": "Genni klonlash DNK qismining nusxalarini ko‘paytirish bilan bog‘liq. Bu avtomatik ravishda butun hayvonning reproduktiv kloni yaratildi degani emas.",
+      "fact_ids": [
+        "paragraph-30-f4"
+      ]
+    },
+    {
+      "title": "Hujayrada davomiylik",
+      "body": "Kiritilgan DNKning saqlanishi va nusxalanishi yangi axborotning hujayra avlodlariga o‘tishida muhim. Molekulani birlashtirish bilan uning hujayrada barqaror ishlashi bir xil bosqich emas.",
+      "fact_ids": [
+        "paragraph-30-f5"
+      ]
+    },
+    {
+      "title": "Mahsulotga yo‘nalish",
+      "body": "Darslik rekombinant texnologiyalardan insulin kabi biologik mahsulotlar olishda foydalanilishini misol qiladi. O‘quv tushunchasi tayyor dori yoki davolash tartibi emas.",
+      "fact_ids": [
+        "paragraph-30-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-30-q1",
+      "fact_id": "paragraph-30-f1",
+      "question_text": "Rekombinant so‘zining ushbu mavzudagi markaziy ma’nosi qaysi?",
+      "options": [
+        "Faqat organizmning tana vazni",
+        "Genetik qismlarning yangi kombinatsiyasi",
+        "Faqat DNKning tasodifiy rangi",
+        "Har doim xromosoma sonining kamayishi"
+      ],
+      "correct_answer": "Genetik qismlarning yangi kombinatsiyasi",
+      "explanation": "Rekombinant DNK turli manbalardagi genetik qismlar birlashgan molekula bo‘lishi mumkin. Rekombinatsiya tabiiy jarayonlarda ham, tadqiqot usullarida ham uchraydi."
+    },
+    {
+      "key": "paragraph-30-q2",
+      "fact_id": "paragraph-30-f2",
+      "question_text": "Vektor, donor va retsipiyent rollari qanday mos?",
+      "options": [
+        "Tashuvchi, axborot manbai, qabul qiluvchi",
+        "Qabul qiluvchi, tashuvchi, axborot manbai",
+        "Faqat uchta bir xil ferment",
+        "Faqat uchta turli gameta"
+      ],
+      "correct_answer": "Tashuvchi, axborot manbai, qabul qiluvchi",
+      "explanation": "Donor kerakli axborot manbai, retsipiyent esa uni qabul qiluvchi hujayra yoki organizm sifatida tasvirlanadi. Bu ikki rolni vektorning tashuvchi roli bilan aralashtirmaymiz."
+    },
+    {
+      "key": "paragraph-30-q3",
+      "fact_id": "paragraph-30-f3",
+      "question_text": "Rekombinant konstruksiyadagi vektorning roli qaysi?",
+      "options": [
+        "Faqat oqsilni hazm qilish",
+        "Faqat energiyani issiqlikka aylantirish",
+        "Faqat tananing tashqi qobig‘ini hosil qilish",
+        "Genetik axborotni tashish"
+      ],
+      "correct_answer": "Genetik axborotni tashish",
+      "explanation": "Vektor genetik materialni qabul qiluvchi tizimga yetkazish uchun ishlatiladigan tashuvchi DNK tuzilmasidir; plazmida bunga misol bo‘la oladi."
+    },
+    {
+      "key": "paragraph-30-q4",
+      "fact_id": "paragraph-30-f4",
+      "question_text": "Genni klonlash natijasidagi asosiy ko‘payuvchi obyekt qaysi?",
+      "options": [
+        "Faqat suv molekulalari",
+        "Faqat bitta aminokislota turi",
+        "Muayyan DNK qismi nusxalari",
+        "Butun yetuk hayvonlarning majburiy nusxalari"
+      ],
+      "correct_answer": "Muayyan DNK qismi nusxalari",
+      "explanation": "Genni klonlash DNK qismining nusxalarini ko‘paytirish bilan bog‘liq. Bu avtomatik ravishda butun hayvonning reproduktiv kloni yaratildi degani emas."
+    },
+    {
+      "key": "paragraph-30-q5",
+      "fact_id": "paragraph-30-f5",
+      "question_text": "Rekombinant molekula tuzilganidan keyin nega uning hujayradagi holati ham o‘rganiladi?",
+      "options": [
+        "Barcha hujayralar doim bir xil genotipga aylangani uchun",
+        "Saqlanishi, nusxalanishi va avlodga o‘tishi alohida masala bo‘lgani uchun",
+        "Har qanday molekula har hujayrada avtomatik bir xil ishlagani uchun",
+        "Hujayra DNKdan foydalanmagani uchun"
+      ],
+      "correct_answer": "Saqlanishi, nusxalanishi va avlodga o‘tishi alohida masala bo‘lgani uchun",
+      "explanation": "Kiritilgan DNKning saqlanishi va nusxalanishi yangi axborotning hujayra avlodlariga o‘tishida muhim. Molekulani birlashtirish bilan uning hujayrada barqaror ishlashi bir xil bosqich emas."
+    },
+    {
+      "key": "paragraph-30-q6",
+      "fact_id": "paragraph-30-f6",
+      "question_text": "Rekombinant insulin misoli qaysi qo‘llanishga tegishli?",
+      "options": [
+        "Biologik faol oqsil mahsuloti olishga",
+        "Faqat o‘simlik arealini chizishga",
+        "Faqat hayvonning tashqi rangini sanashga",
+        "Faqat xromosoma sonini ko‘z bilan taxmin qilishga"
+      ],
+      "correct_answer": "Biologik faol oqsil mahsuloti olishga",
+      "explanation": "Darslik rekombinant texnologiyalardan insulin kabi biologik mahsulotlar olishda foydalanilishini misol qiladi. O‘quv tushunchasi tayyor dori yoki davolash tartibi emas."
+    }
+  ]
+}

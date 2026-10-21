@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-42-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-50",
+  "title": "Tabiiy tanlanish va uning turlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-42-f1": {
+      "claim": "Tabiiy tanlanish irsiy variantlar bilan bog‘liq yashab qolish hamda avlod qoldirish farqlari orqali yuz beradi. Faqat tirik qolishning o‘zi keyingi avloddagi hissa bilan birga baholanadi.",
+      "answer": "Yashab qolish va avlod qoldirish",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          180
+        ],
+        "printed_pages": [
+          180
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-42-f2": {
+      "claim": "Sun’iy tanlashda insonning ko‘zlangan maqsadi bor; tabiiy tanlanishda muhitdagi sharoitlar bilan bog‘liq reproduktiv farqlar saralaydi. Tabiat ongli seleksioner sifatida reja tuzmaydi.",
+      "answer": "Birinchisida inson maqsadi, ikkinchisida muhitga bog‘liq saralash",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          180
+        ],
+        "printed_pages": [
+          180
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-42-f3": {
+      "claim": "Stabillashtiruvchi tanlanish modelida o‘rtacha belgi variantlari nisbatan ko‘proq saqlanib, chekka variantlar kamayadi; belgi tarqalishi torayishi mumkin.",
+      "answer": "Stabillashtiruvchi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          181
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-42-f4": {
+      "claim": "Harakatlantiruvchi tanlanishda belgi taqsimoti muayyan yo‘nalishga siljiydi; bu barcha evolutsiya doim kattalashishga boradi degani emas.",
+      "answer": "Harakatlantiruvchi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          182
+        ],
+        "printed_pages": [
+          182
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-42-f5": {
+      "claim": "Dizruptiv tanlanish modelida o‘rtacha variantga nisbatan ikki chekka variantning ustunligi yuzaga keladi; taqsimot ikki cho‘qqili bo‘lishi mumkin.",
+      "answer": "Dizruptiv",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-42-f6": {
+      "claim": "Tanlanish turini belgi nomidan emas, variantlarning nisbiy natijasi va taqsimotdagi o‘zgarishdan aniqlash kerak. Bir xil belgi turli sharoitlarda turlicha saralanishi mumkin.",
+      "answer": "Qaysi variantlar nisbatan ko‘proq avlod qoldirishi va taqsimot o‘zgarishi",
+      "source": {
+        "paragraph": 42,
+        "pdf_pages": [
+          184
+        ],
+        "printed_pages": [
+          184
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Yashab qolish va nasl",
+      "body": "Tabiiy tanlanish irsiy variantlar bilan bog‘liq yashab qolish hamda avlod qoldirish farqlari orqali yuz beradi. Faqat tirik qolishning o‘zi keyingi avloddagi hissa bilan birga baholanadi.",
+      "fact_ids": [
+        "paragraph-42-f1"
+      ]
+    },
+    {
+      "title": "Sun’iy tanlashdan farq",
+      "body": "Sun’iy tanlashda insonning ko‘zlangan maqsadi bor; tabiiy tanlanishda muhitdagi sharoitlar bilan bog‘liq reproduktiv farqlar saralaydi. Tabiat ongli seleksioner sifatida reja tuzmaydi.",
+      "fact_ids": [
+        "paragraph-42-f2"
+      ]
+    },
+    {
+      "title": "O‘rtacha variantning afzalligi",
+      "body": "Stabillashtiruvchi tanlanish modelida o‘rtacha belgi variantlari nisbatan ko‘proq saqlanib, chekka variantlar kamayadi; belgi tarqalishi torayishi mumkin.",
+      "fact_ids": [
+        "paragraph-42-f3"
+      ]
+    },
+    {
+      "title": "Bir yo‘nalishdagi siljish",
+      "body": "Harakatlantiruvchi tanlanishda belgi taqsimoti muayyan yo‘nalishga siljiydi; bu barcha evolutsiya doim kattalashishga boradi degani emas.",
+      "fact_ids": [
+        "paragraph-42-f4"
+      ]
+    },
+    {
+      "title": "Ikki chekka variant",
+      "body": "Dizruptiv tanlanish modelida o‘rtacha variantga nisbatan ikki chekka variantning ustunligi yuzaga keladi; taqsimot ikki cho‘qqili bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-42-f5"
+      ]
+    },
+    {
+      "title": "Grafikdan talqin",
+      "body": "Tanlanish turini belgi nomidan emas, variantlarning nisbiy natijasi va taqsimotdagi o‘zgarishdan aniqlash kerak. Bir xil belgi turli sharoitlarda turlicha saralanishi mumkin.",
+      "fact_ids": [
+        "paragraph-42-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-42-q1",
+      "fact_id": "paragraph-42-f1",
+      "question_text": "Tabiiy tanlanishni tushunishda qaysi ikki natija muhim?",
+      "options": [
+        "Faqat oziq turi va idish shakli",
+        "Yashab qolish va avlod qoldirish",
+        "Faqat tashqi chiroy va nom uzunligi",
+        "Faqat organ massasi va rang nomi"
+      ],
+      "correct_answer": "Yashab qolish va avlod qoldirish",
+      "explanation": "Tabiiy tanlanish irsiy variantlar bilan bog‘liq yashab qolish hamda avlod qoldirish farqlari orqali yuz beradi. Faqat tirik qolishning o‘zi keyingi avloddagi hissa bilan birga baholanadi."
+    },
+    {
+      "key": "paragraph-42-q2",
+      "fact_id": "paragraph-42-f2",
+      "question_text": "Sun’iy va tabiiy tanlashning ushbu farqini toping.",
+      "options": [
+        "Birinchisida inson maqsadi, ikkinchisida muhitga bog‘liq saralash",
+        "Ikkalasi faqat odam tanlagan bir xil reja",
+        "Tabiiy tanlanish irsiyatga mutlaqo aloqasiz",
+        "Sun’iy tanlashda avlod bo‘lmaydi"
+      ],
+      "correct_answer": "Birinchisida inson maqsadi, ikkinchisida muhitga bog‘liq saralash",
+      "explanation": "Sun’iy tanlashda insonning ko‘zlangan maqsadi bor; tabiiy tanlanishda muhitdagi sharoitlar bilan bog‘liq reproduktiv farqlar saralaydi. Tabiat ongli seleksioner sifatida reja tuzmaydi."
+    },
+    {
+      "key": "paragraph-42-q3",
+      "fact_id": "paragraph-42-f3",
+      "question_text": "Ikkala chekka variant kamayib, o‘rtacha ko‘proq avlod qoldirsa, bu qaysi model?",
+      "options": [
+        "Harakatlantiruvchi",
+        "Dizruptiv",
+        "Faqat tasodifiy o‘lchov xatosi",
+        "Stabillashtiruvchi"
+      ],
+      "correct_answer": "Stabillashtiruvchi",
+      "explanation": "Stabillashtiruvchi tanlanish modelida o‘rtacha belgi variantlari nisbatan ko‘proq saqlanib, chekka variantlar kamayadi; belgi tarqalishi torayishi mumkin."
+    },
+    {
+      "key": "paragraph-42-q4",
+      "fact_id": "paragraph-42-f4",
+      "question_text": "Bir chekka variant ustun bo‘lib, taqsimot o‘sha tomonga siljisa, qaysi model?",
+      "options": [
+        "Dizruptiv",
+        "Faqat ikki teng cho‘qqili eski holat",
+        "Harakatlantiruvchi",
+        "Stabillashtiruvchi"
+      ],
+      "correct_answer": "Harakatlantiruvchi",
+      "explanation": "Harakatlantiruvchi tanlanishda belgi taqsimoti muayyan yo‘nalishga siljiydi; bu barcha evolutsiya doim kattalashishga boradi degani emas."
+    },
+    {
+      "key": "paragraph-42-q5",
+      "fact_id": "paragraph-42-f5",
+      "question_text": "Ikkala chekka variant foyda ko‘rib, o‘rtacha kamaysa, qaysi tanlanish?",
+      "options": [
+        "Faqat oziqning oddiy ko‘payishi",
+        "Dizruptiv",
+        "Faqat harakatlantiruvchi",
+        "Faqat stabillashtiruvchi"
+      ],
+      "correct_answer": "Dizruptiv",
+      "explanation": "Dizruptiv tanlanish modelida o‘rtacha variantga nisbatan ikki chekka variantning ustunligi yuzaga keladi; taqsimot ikki cho‘qqili bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-42-q6",
+      "fact_id": "paragraph-42-f6",
+      "question_text": "Tanlanish modelini aniqlash uchun qaysi dalil kerak?",
+      "options": [
+        "Qaysi variantlar nisbatan ko‘proq avlod qoldirishi va taqsimot o‘zgarishi",
+        "Faqat organizmning nomi",
+        "Faqat xromosomaning tashqi rangi",
+        "Faqat bitta individning yoshini bilish"
+      ],
+      "correct_answer": "Qaysi variantlar nisbatan ko‘proq avlod qoldirishi va taqsimot o‘zgarishi",
+      "explanation": "Tanlanish turini belgi nomidan emas, variantlarning nisbiy natijasi va taqsimotdagi o‘zgarishdan aniqlash kerak. Bir xil belgi turli sharoitlarda turlicha saralanishi mumkin."
+    }
+  ]
+}

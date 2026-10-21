@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-29-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-34",
+  "title": "Gen muhandisligida qo‘llaniladigan fermentlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-29-f1": {
+      "claim": "Gen muhandisligidagi fermentlar DNKni kesish, sintezlash, uchlarini o‘zgartirish yoki qismlarini bog‘lash kabi turli vazifalarni bajaradi.",
+      "answer": "Qaysi molekulyar o‘zgarishni katalizlashi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f2": {
+      "claim": "DNK-polimeraza matritsaga mos nukleotidlarni ulab DNK sintezida qatnashadi. U DNK qismlarini maxsus joyidan kesadigan ferment bilan bir xil emas.",
+      "answer": "Polimeraza sintezlaydi, restriktaza muayyan joydan kesadi",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f3": {
+      "claim": "Revertaza yoki teskari transkriptaza RNK matritsasidan DNK sintezlay oladi. Oddiy transkripsiyadagi DNK → RNK yo‘nalishi bilan farqlanadi.",
+      "answer": "RNK → DNK",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f4": {
+      "claim": "DNK-ligaza qo‘shni DNK qismlari orasidagi fosfodiester bog‘ini tiklash yoki hosil qilishda qatnashadi; komplementar asoslarning vaqtincha juftlashishi bilan aynan bir hodisa emas.",
+      "answer": "Ligaza",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f5": {
+      "claim": "Restriktaza muayyan DNK ketma-ketligini taniydigan endonukleaza turidir; tanish nuqtasi restriksiya sayti deyiladi.",
+      "answer": "Ferment tanib oladigan DNK ketma-ketligini",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-29-f6": {
+      "claim": "Restriktazalar yopishqoq yoki to‘mtoq uchli qismlar berishi mumkin. Elektroforez esa DNK qismlarini ajratishga yordam beradigan usul, fermentning o‘zi emas.",
+      "answer": "U molekulalarni ajratish usuli, ligaza esa ferment",
+      "source": {
+        "paragraph": 29,
+        "pdf_pages": [
+          133
+        ],
+        "printed_pages": [
+          133
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Vazifa bo‘yicha tasnif",
+      "body": "Gen muhandisligidagi fermentlar DNKni kesish, sintezlash, uchlarini o‘zgartirish yoki qismlarini bog‘lash kabi turli vazifalarni bajaradi.",
+      "fact_ids": [
+        "paragraph-29-f1"
+      ]
+    },
+    {
+      "title": "Polimeraza",
+      "body": "DNK-polimeraza matritsaga mos nukleotidlarni ulab DNK sintezida qatnashadi. U DNK qismlarini maxsus joyidan kesadigan ferment bilan bir xil emas.",
+      "fact_ids": [
+        "paragraph-29-f2"
+      ]
+    },
+    {
+      "title": "Teskari transkripsiya",
+      "body": "Revertaza yoki teskari transkriptaza RNK matritsasidan DNK sintezlay oladi. Oddiy transkripsiyadagi DNK → RNK yo‘nalishi bilan farqlanadi.",
+      "fact_ids": [
+        "paragraph-29-f3"
+      ]
+    },
+    {
+      "title": "Ligazaning roli",
+      "body": "DNK-ligaza qo‘shni DNK qismlari orasidagi fosfodiester bog‘ini tiklash yoki hosil qilishda qatnashadi; komplementar asoslarning vaqtincha juftlashishi bilan aynan bir hodisa emas.",
+      "fact_ids": [
+        "paragraph-29-f4"
+      ]
+    },
+    {
+      "title": "Tanib olish nuqtasi",
+      "body": "Restriktaza muayyan DNK ketma-ketligini taniydigan endonukleaza turidir; tanish nuqtasi restriksiya sayti deyiladi.",
+      "fact_ids": [
+        "paragraph-29-f5"
+      ]
+    },
+    {
+      "title": "Uchlar va ajratish",
+      "body": "Restriktazalar yopishqoq yoki to‘mtoq uchli qismlar berishi mumkin. Elektroforez esa DNK qismlarini ajratishga yordam beradigan usul, fermentning o‘zi emas.",
+      "fact_ids": [
+        "paragraph-29-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-29-q1",
+      "fact_id": "paragraph-29-f1",
+      "question_text": "Fermentlarni o‘rganishda qaysi mezon mazmunli?",
+      "options": [
+        "Faqat o‘quvchi tanlagan tartib",
+        "Qaysi molekulyar o‘zgarishni katalizlashi",
+        "Faqat nomining uzunligi",
+        "Faqat idishning rangi"
+      ],
+      "correct_answer": "Qaysi molekulyar o‘zgarishni katalizlashi",
+      "explanation": "Gen muhandisligidagi fermentlar DNKni kesish, sintezlash, uchlarini o‘zgartirish yoki qismlarini bog‘lash kabi turli vazifalarni bajaradi."
+    },
+    {
+      "key": "paragraph-29-q2",
+      "fact_id": "paragraph-29-f2",
+      "question_text": "DNK-polimeraza va restriktazani vazifa bo‘yicha farqlang.",
+      "options": [
+        "Polimeraza sintezlaydi, restriktaza muayyan joydan kesadi",
+        "Polimeraza faqat kesadi, restriktaza faqat oqsil yasaydi",
+        "Ikkalasi faqat RNKni hazm qiladi",
+        "Ikkalasi faqat hujayra devorini hosil qiladi"
+      ],
+      "correct_answer": "Polimeraza sintezlaydi, restriktaza muayyan joydan kesadi",
+      "explanation": "DNK-polimeraza matritsaga mos nukleotidlarni ulab DNK sintezida qatnashadi. U DNK qismlarini maxsus joyidan kesadigan ferment bilan bir xil emas."
+    },
+    {
+      "key": "paragraph-29-q3",
+      "fact_id": "paragraph-29-f3",
+      "question_text": "Revertazaning matritsa va mahsulotini tanlang.",
+      "options": [
+        "Oqsil → lipid",
+        "DNK → faqat aminokislota",
+        "Glyukoza → DNK",
+        "RNK → DNK"
+      ],
+      "correct_answer": "RNK → DNK",
+      "explanation": "Revertaza yoki teskari transkriptaza RNK matritsasidan DNK sintezlay oladi. Oddiy transkripsiyadagi DNK → RNK yo‘nalishi bilan farqlanadi."
+    },
+    {
+      "key": "paragraph-29-q4",
+      "fact_id": "paragraph-29-f4",
+      "question_text": "DNK qismlarining skeletini kovalent bog‘lashga qaysi ferment mos?",
+      "options": [
+        "Faqat amilaza",
+        "Faqat lipaza",
+        "Ligaza",
+        "Restriktaza"
+      ],
+      "correct_answer": "Ligaza",
+      "explanation": "DNK-ligaza qo‘shni DNK qismlari orasidagi fosfodiester bog‘ini tiklash yoki hosil qilishda qatnashadi; komplementar asoslarning vaqtincha juftlashishi bilan aynan bir hodisa emas."
+    },
+    {
+      "key": "paragraph-29-q5",
+      "fact_id": "paragraph-29-f5",
+      "question_text": "Restriksiya sayti nimani anglatadi?",
+      "options": [
+        "Faqat ribosoma subbirligini",
+        "Ferment tanib oladigan DNK ketma-ketligini",
+        "Butun organizmning tashqi shaklini",
+        "Faqat oqsil massasini"
+      ],
+      "correct_answer": "Ferment tanib oladigan DNK ketma-ketligini",
+      "explanation": "Restriktaza muayyan DNK ketma-ketligini taniydigan endonukleaza turidir; tanish nuqtasi restriksiya sayti deyiladi."
+    },
+    {
+      "key": "paragraph-29-q6",
+      "fact_id": "paragraph-29-f6",
+      "question_text": "Elektroforezni ligaza bilan bir guruh ferment deyish nega xato?",
+      "options": [
+        "U molekulalarni ajratish usuli, ligaza esa ferment",
+        "Elektroforez faqat xromosoma nomi",
+        "Ligaza hech qachon DNK bilan bog‘liq emas",
+        "Ikkalasi faqat hujayraning tashqi devori"
+      ],
+      "correct_answer": "U molekulalarni ajratish usuli, ligaza esa ferment",
+      "explanation": "Restriktazalar yopishqoq yoki to‘mtoq uchli qismlar berishi mumkin. Elektroforez esa DNK qismlarini ajratishga yordam beradigan usul, fermentning o‘zi emas."
+    }
+  ]
+}

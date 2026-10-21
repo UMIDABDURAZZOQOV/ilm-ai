@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-laboratory-3-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-laboratory-48",
+  "title": "3-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-3-f1": {
+      "claim": "Irsiyat va o‘zgaruvchanlik tahlilida har bir namuna raqamlanib, bir xil belgilar bo‘yicha qayd qilinadi. Bu natijalarni chalkashtirmaslikka yordam beradi.",
+      "answer": "Belgi yozuvini tegishli namuna bilan bog‘lash uchun",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-3-f2": {
+      "claim": "O‘simlik uzunligi yoki barglar soni miqdoriy yozuv, barg shakli yoki gul rangi sifat tavsifi bo‘lishi mumkin. Har biri o‘ziga mos usulda qayd etiladi.",
+      "answer": "Sanash natijasi, masalan 12 ta",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-3-f3": {
+      "claim": "Boshoq tahlilida uzunlik, boshoqchalar soni, qiltig‘ining mavjudligi, don shakli va rangi alohida ustunlarda qayd qilinadi.",
+      "answer": "Mavjudlik belgisi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          174
+        ],
+        "printed_pages": [
+          174
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-3-f4": {
+      "claim": "Darslik kolleksiya yoki rangli rasmlardan foydalanishga ruxsat beradi. Ilovada tasvir/tavsif tahlili uchun hasharotni tutish yoki kimyoviy konservant ishlatish talab qilinmaydi.",
+      "answer": "Tayyor tasvir yoki tavsif",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          174
+        ],
+        "printed_pages": [
+          174
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-3-f5": {
+      "claim": "Bir turdagi o‘xshashlik va farqlar irsiyat hamda o‘zgaruvchanlik bilan bog‘liq tahlil qilinadi. Faqat tashqi farqning o‘zi mutatsiyani isbotlamaydi; muhit va avlod dalili ham kerak bo‘lishi mumkin. Qoida manbasi: §23, PDF 108, 109.",
+      "answer": "Farq qayd qilinadi, sabab uchun qo‘shimcha dalil kerak",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-10-topic-28",
+            "paragraph": 23,
+            "pdf_pages": [
+              108,
+              109
+            ],
+            "printed_pages": [
+              108,
+              109
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-3-f6": {
+      "claim": "Raqamli ish kuzatuv belgilari, taqqoslash va cheklangan xulosani o‘rgatadi. Quiz yakuni haqiqiy laboratoriya o‘lchovi bajarilganini tasdiqlamaydi.",
+      "answer": "Kuzatuv rejasini tushunish va dalilga mos xulosa",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Avval namuna identifikatori",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nIrsiyat va o‘zgaruvchanlik tahlilida har bir namuna raqamlanib, bir xil belgilar bo‘yicha qayd qilinadi. Bu natijalarni chalkashtirmaslikka yordam beradi.",
+      "fact_ids": [
+        "laboratory-3-f1"
+      ]
+    },
+    {
+      "title": "Miqdoriy va sifat belgi",
+      "body": "O‘simlik uzunligi yoki barglar soni miqdoriy yozuv, barg shakli yoki gul rangi sifat tavsifi bo‘lishi mumkin. Har biri o‘ziga mos usulda qayd etiladi.",
+      "fact_ids": [
+        "laboratory-3-f2"
+      ]
+    },
+    {
+      "title": "Boshoq jadvalini to‘ldiramiz",
+      "body": "Boshoq tahlilida uzunlik, boshoqchalar soni, qiltig‘ining mavjudligi, don shakli va rangi alohida ustunlarda qayd qilinadi.",
+      "fact_ids": [
+        "laboratory-3-f3"
+      ]
+    },
+    {
+      "title": "Tasvir bilan kuzatish",
+      "body": "Darslik kolleksiya yoki rangli rasmlardan foydalanishga ruxsat beradi. Ilovada tasvir/tavsif tahlili uchun hasharotni tutish yoki kimyoviy konservant ishlatish talab qilinmaydi.",
+      "fact_ids": [
+        "laboratory-3-f4"
+      ]
+    },
+    {
+      "title": "Sababni shoshmay ajratamiz",
+      "body": "Bir turdagi o‘xshashlik va farqlar irsiyat hamda o‘zgaruvchanlik bilan bog‘liq tahlil qilinadi. Faqat tashqi farqning o‘zi mutatsiyani isbotlamaydi; muhit va avlod dalili ham kerak bo‘lishi mumkin. Qoida manbasi: §23, PDF 108, 109.",
+      "fact_ids": [
+        "laboratory-3-f5"
+      ]
+    },
+    {
+      "title": "Kuzatuvdan hisobotga",
+      "body": "Raqamli ish kuzatuv belgilari, taqqoslash va cheklangan xulosani o‘rgatadi. Quiz yakuni haqiqiy laboratoriya o‘lchovi bajarilganini tasdiqlamaydi.",
+      "fact_ids": [
+        "laboratory-3-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-3-q1",
+      "fact_id": "laboratory-3-f1",
+      "question_text": "Nega namunalarni kuzatishdan oldin raqamlaymiz?",
+      "options": [
+        "Morfologik farqlarni yo‘q qilish uchun",
+        "Belgi yozuvini tegishli namuna bilan bog‘lash uchun",
+        "Barcha genotipni avtomatik bir xil qilish uchun",
+        "Faqat eng chiroyli namunani yashirish uchun"
+      ],
+      "correct_answer": "Belgi yozuvini tegishli namuna bilan bog‘lash uchun",
+      "explanation": "Irsiyat va o‘zgaruvchanlik tahlilida har bir namuna raqamlanib, bir xil belgilar bo‘yicha qayd qilinadi. Bu natijalarni chalkashtirmaslikka yordam beradi."
+    },
+    {
+      "key": "laboratory-3-q2",
+      "fact_id": "laboratory-3-f2",
+      "question_text": "Barglar sonini qayd qilish uchun qaysi yozuv aniqroq?",
+      "options": [
+        "Sanash natijasi, masalan 12 ta",
+        "Faqat chiroyli degan baho",
+        "Faqat guruh nomining uzunligi",
+        "Faqat namunaning umumiy yoqimliligi"
+      ],
+      "correct_answer": "Sanash natijasi, masalan 12 ta",
+      "explanation": "O‘simlik uzunligi yoki barglar soni miqdoriy yozuv, barg shakli yoki gul rangi sifat tavsifi bo‘lishi mumkin. Har biri o‘ziga mos usulda qayd etiladi."
+    },
+    {
+      "key": "laboratory-3-q3",
+      "fact_id": "laboratory-3-f3",
+      "question_text": "Qiltig‘i bor yoki yo‘qligi qaysi turdagi qaydga mos?",
+      "options": [
+        "Faqat santimetrdagi uzunlik",
+        "Faqat grammda massa",
+        "Faqat avlodlar soni",
+        "Mavjudlik belgisi"
+      ],
+      "correct_answer": "Mavjudlik belgisi",
+      "explanation": "Boshoq tahlilida uzunlik, boshoqchalar soni, qiltig‘ining mavjudligi, don shakli va rangi alohida ustunlarda qayd qilinadi."
+    },
+    {
+      "key": "laboratory-3-q4",
+      "fact_id": "laboratory-3-f4",
+      "question_text": "Raqamli tahlil uchun qaysi material mos?",
+      "options": [
+        "Majburiy formalin bilan ishlash",
+        "Majburiy noma’lum mikroorganizm yetishtirish",
+        "Tayyor tasvir yoki tavsif",
+        "Majburiy tirik hasharotni zararlash"
+      ],
+      "correct_answer": "Tayyor tasvir yoki tavsif",
+      "explanation": "Darslik kolleksiya yoki rangli rasmlardan foydalanishga ruxsat beradi. Ilovada tasvir/tavsif tahlili uchun hasharotni tutish yoki kimyoviy konservant ishlatish talab qilinmaydi."
+    },
+    {
+      "key": "laboratory-3-q5",
+      "fact_id": "laboratory-3-f5",
+      "question_text": "Ikki barg o‘lchami farq qilsa, qaysi xulosa ehtiyotkor?",
+      "options": [
+        "Har ikkalasi bir xil genotip ekani aniq isbotlangan",
+        "Farq qayd qilinadi, sabab uchun qo‘shimcha dalil kerak",
+        "Bittasida mutatsiya bo‘lgani aniq isbotlangan",
+        "Ular albatta ikki boshqa tur"
+      ],
+      "correct_answer": "Farq qayd qilinadi, sabab uchun qo‘shimcha dalil kerak",
+      "explanation": "Bir turdagi o‘xshashlik va farqlar irsiyat hamda o‘zgaruvchanlik bilan bog‘liq tahlil qilinadi. Faqat tashqi farqning o‘zi mutatsiyani isbotlamaydi; muhit va avlod dalili ham kerak bo‘lishi mumkin. Qoida manbasi: §23, PDF 108, 109."
+    },
+    {
+      "key": "laboratory-3-q6",
+      "fact_id": "laboratory-3-f6",
+      "question_text": "Bu laboratoriya uchun ishonchli yakun qaysi?",
+      "options": [
+        "Kuzatuv rejasini tushunish va dalilga mos xulosa",
+        "O‘lchanmagan sonlarni haqiqiy natija deb yozish",
+        "Har bir farqni taxminsiz mutatsiya deb belgilash",
+        "Quizdan barcha genotipni to‘liq aniqlangan deyish"
+      ],
+      "correct_answer": "Kuzatuv rejasini tushunish va dalilga mos xulosa",
+      "explanation": "Raqamli ish kuzatuv belgilari, taqqoslash va cheklangan xulosani o‘rgatadi. Quiz yakuni haqiqiy laboratoriya o‘lchovi bajarilganini tasdiqlamaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "3-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Avval namuna identifikatori",
+        "fact_ids": [
+          "laboratory-3-f1"
+        ]
+      },
+      {
+        "instruction": "Miqdoriy va sifat belgi",
+        "fact_ids": [
+          "laboratory-3-f2"
+        ]
+      },
+      {
+        "instruction": "Boshoq jadvalini to‘ldiramiz",
+        "fact_ids": [
+          "laboratory-3-f3"
+        ]
+      },
+      {
+        "instruction": "Tasvir bilan kuzatish",
+        "fact_ids": [
+          "laboratory-3-f4"
+        ]
+      },
+      {
+        "instruction": "Sababni shoshmay ajratamiz",
+        "fact_ids": [
+          "laboratory-3-f5"
+        ]
+      },
+      {
+        "instruction": "Kuzatuvdan hisobotga",
+        "fact_ids": [
+          "laboratory-3-f6"
+        ]
+      }
+    ]
+  }
+}

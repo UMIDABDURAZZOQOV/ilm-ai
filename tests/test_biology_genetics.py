@@ -154,3 +154,22 @@ def test_grade10_recombination_sums_both_classes_and_divides_by_all_offspring():
     assert question('paragraph-19', 3, grade=10)['correct_answer'] == f'{2 * Fraction(85, 10)}%'
     result = (Fraction(48) + 56) / 800 * 100
     assert question('paragraph-19', 6, grade=10)['correct_answer'] == f'{result}%'
+
+
+def test_grade10_human_model_probability_is_conditional_not_a_diagnosis():
+    distribution = offspring(('Aa',), ('aa',))
+    answer = probability(distribution, lambda g: g == ('aa',))
+    assert question('paragraph-24', 8, grade=10)['correct_answer'] == str(answer)
+    assert 'klinik tashxis' in question('paragraph-24', 8, grade=10)['explanation']
+
+
+def test_grade10_structural_and_genome_mutation_examples_have_consistent_math():
+    before = 'ABCDEF'
+    after_inversion = before[:2] + before[2:5][::-1] + before[5:]
+    q = question('paragraph-23', 5, grade=10)
+    assert after_inversion == 'ABEDCF' and sorted(before) == sorted(after_inversion)
+    assert before in q['question_text'] and after_inversion in q['question_text']
+    assert q['correct_answer'] == 'Inversiya'
+    assert question('paragraph-23', 6, grade=10)['correct_answer'] == 'Trisomiya — aneuploidiya'
+    assert 20 + 1 == 21 and 21 != 3 * 10
+    assert question('paragraph-45', 5, grade=10)['correct_answer'] == f'{42 // 7}x'

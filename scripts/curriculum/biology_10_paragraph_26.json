@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-26-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-31",
+  "title": "Gen muhandisligi tadqiqot obyektlari va rivojlanish tarixi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-26-f1": {
+      "claim": "Gen muhandisligi genetik axborotni o‘rganish va maqsadli o‘zgartirish usullarini qamrab oladi. Bu faqat tayyor organizmning tashqi belgisini tasvirlashdan farq qiladi.",
+      "answer": "Genetik axborot o‘zgartirilsa, uning mahsuloti qanday o‘zgaradi?",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f2": {
+      "claim": "DNKni muayyan joydan ajratadigan va qismlarni bog‘laydigan fermentlar, shuningdek molekulalarni ajratish usullari gen muhandisligi rivojiga asos bo‘lgan.",
+      "answer": "Yo‘q, ular turli ferment vazifalaridir",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f3": {
+      "claim": "Genetik tadqiqotda bakteriya, zamburug‘, o‘simlik va hayvon hujayralari hamda viruslar o‘rganiladi. Gen, xromosoma va hujayra muhandisligi turli miqyoslarni bildiradi.",
+      "answer": "Hujayra muhandisligi",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f4": {
+      "claim": "Shtamm bir tur doirasida muayyan genetik xususiyatlari bilan ajraluvchi mikroorganizmlar guruhidir. Bitta boshlang‘ich hujayradan ko‘paygan avlodlar klon deb ataladi.",
+      "answer": "Klon",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          122
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f5": {
+      "claim": "DNK tuzilishi, genetik kod, fermentlar va hujayra tadqiqotlaridagi kashfiyotlar rekombinant DNK texnologiyalariga yo‘l ochgan. Bu yo‘nalish bitta kuzatuvdan tayyor paydo bo‘lmagan.",
+      "answer": "Bir necha molekulyar va hujayraviy kashfiyotlar birlashgan",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-26-f6": {
+      "claim": "Darslik rekombinant molekulalar va biologik mahsulotlarni gen muhandisligi qo‘llanishi bilan bog‘laydi. Texnologiya tushunchasi barcha istalgan natija avtomatik olinadi degani emas.",
+      "answer": "Genetik axborot bilan maqsadli ishlashga imkon beruvchi usullar",
+      "source": {
+        "paragraph": 26,
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gen muhandisligi nishoni",
+      "body": "Gen muhandisligi genetik axborotni o‘rganish va maqsadli o‘zgartirish usullarini qamrab oladi. Bu faqat tayyor organizmning tashqi belgisini tasvirlashdan farq qiladi.",
+      "fact_ids": [
+        "paragraph-26-f1"
+      ]
+    },
+    {
+      "title": "Asboblar hamkorligi",
+      "body": "DNKni muayyan joydan ajratadigan va qismlarni bog‘laydigan fermentlar, shuningdek molekulalarni ajratish usullari gen muhandisligi rivojiga asos bo‘lgan.",
+      "fact_ids": [
+        "paragraph-26-f2"
+      ]
+    },
+    {
+      "title": "Obyektlar doirasi",
+      "body": "Genetik tadqiqotda bakteriya, zamburug‘, o‘simlik va hayvon hujayralari hamda viruslar o‘rganiladi. Gen, xromosoma va hujayra muhandisligi turli miqyoslarni bildiradi.",
+      "fact_ids": [
+        "paragraph-26-f3"
+      ]
+    },
+    {
+      "title": "Shtamm va klon",
+      "body": "Shtamm bir tur doirasida muayyan genetik xususiyatlari bilan ajraluvchi mikroorganizmlar guruhidir. Bitta boshlang‘ich hujayradan ko‘paygan avlodlar klon deb ataladi.",
+      "fact_ids": [
+        "paragraph-26-f4"
+      ]
+    },
+    {
+      "title": "Tarixiy bilimlar zanjiri",
+      "body": "DNK tuzilishi, genetik kod, fermentlar va hujayra tadqiqotlaridagi kashfiyotlar rekombinant DNK texnologiyalariga yo‘l ochgan. Bu yo‘nalish bitta kuzatuvdan tayyor paydo bo‘lmagan.",
+      "fact_ids": [
+        "paragraph-26-f5"
+      ]
+    },
+    {
+      "title": "Natija va qo‘llanish",
+      "body": "Darslik rekombinant molekulalar va biologik mahsulotlarni gen muhandisligi qo‘llanishi bilan bog‘laydi. Texnologiya tushunchasi barcha istalgan natija avtomatik olinadi degani emas.",
+      "fact_ids": [
+        "paragraph-26-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-26-q1",
+      "fact_id": "paragraph-26-f1",
+      "question_text": "Gen muhandisligining tadqiqot nishoniga qaysi savol mos?",
+      "options": [
+        "Faqat organlar massasi qancha?",
+        "Genetik axborot o‘zgartirilsa, uning mahsuloti qanday o‘zgaradi?",
+        "Faqat bargning tashqi konturi qanday?",
+        "Faqat populyatsiya areali qayerda?"
+      ],
+      "correct_answer": "Genetik axborot o‘zgartirilsa, uning mahsuloti qanday o‘zgaradi?",
+      "explanation": "Gen muhandisligi genetik axborotni o‘rganish va maqsadli o‘zgartirish usullarini qamrab oladi. Bu faqat tayyor organizmning tashqi belgisini tasvirlashdan farq qiladi."
+    },
+    {
+      "key": "paragraph-26-q2",
+      "fact_id": "paragraph-26-f2",
+      "question_text": "DNKni kesish va biriktirish vazifalari bitta tushunchami?",
+      "options": [
+        "Yo‘q, ular turli ferment vazifalaridir",
+        "Ha, ikkalasi faqat oqsil sintezi",
+        "Ha, ikkalasi faqat meyoz",
+        "Yo‘q, chunki DNK hech qachon qismlardan tuzilmaydi"
+      ],
+      "correct_answer": "Yo‘q, ular turli ferment vazifalaridir",
+      "explanation": "DNKni muayyan joydan ajratadigan va qismlarni bog‘laydigan fermentlar, shuningdek molekulalarni ajratish usullari gen muhandisligi rivojiga asos bo‘lgan."
+    },
+    {
+      "key": "paragraph-26-q3",
+      "fact_id": "paragraph-26-f3",
+      "question_text": "Butun hujayralarning xususiyatlarini o‘zgartirishni tahlil qiladigan yo‘nalish qaysi?",
+      "options": [
+        "Faqat morfologik kriteriy",
+        "Faqat biogeografiya",
+        "Faqat individlar sonini sanash",
+        "Hujayra muhandisligi"
+      ],
+      "correct_answer": "Hujayra muhandisligi",
+      "explanation": "Genetik tadqiqotda bakteriya, zamburug‘, o‘simlik va hayvon hujayralari hamda viruslar o‘rganiladi. Gen, xromosoma va hujayra muhandisligi turli miqyoslarni bildiradi."
+    },
+    {
+      "key": "paragraph-26-q4",
+      "fact_id": "paragraph-26-f4",
+      "question_text": "Bitta boshlang‘ich bakteriya hujayrasidan olingan avlod guruhiga qaysi atama mos?",
+      "options": [
+        "Biogeografik viloyat",
+        "Organlar tizimi",
+        "Klon",
+        "Butun biologik tur"
+      ],
+      "correct_answer": "Klon",
+      "explanation": "Shtamm bir tur doirasida muayyan genetik xususiyatlari bilan ajraluvchi mikroorganizmlar guruhidir. Bitta boshlang‘ich hujayradan ko‘paygan avlodlar klon deb ataladi."
+    },
+    {
+      "key": "paragraph-26-q5",
+      "fact_id": "paragraph-26-f5",
+      "question_text": "Gen muhandisligi rivojini qaysi fikr to‘g‘ri ifodalaydi?",
+      "options": [
+        "U faqat navlarning tashqi rangini sanashdan iborat",
+        "Bir necha molekulyar va hujayraviy kashfiyotlar birlashgan",
+        "U irsiyat haqidagi bilimlardan mustaqil",
+        "Unga DNK tuzilishi umuman aloqasiz"
+      ],
+      "correct_answer": "Bir necha molekulyar va hujayraviy kashfiyotlar birlashgan",
+      "explanation": "DNK tuzilishi, genetik kod, fermentlar va hujayra tadqiqotlaridagi kashfiyotlar rekombinant DNK texnologiyalariga yo‘l ochgan. Bu yo‘nalish bitta kuzatuvdan tayyor paydo bo‘lmagan."
+    },
+    {
+      "key": "paragraph-26-q6",
+      "fact_id": "paragraph-26-f6",
+      "question_text": "Gen muhandisligi imkoniyatini qanday ifodalash asosli?",
+      "options": [
+        "Genetik axborot bilan maqsadli ishlashga imkon beruvchi usullar",
+        "Barcha biologik cheklovlarni avtomatik yo‘q qiluvchi sehrli usul",
+        "Har bir belgi faqat bitta gendan iborat ekanining isboti",
+        "Faqat tabiiy tanlanishni kuzatish nomi"
+      ],
+      "correct_answer": "Genetik axborot bilan maqsadli ishlashga imkon beruvchi usullar",
+      "explanation": "Darslik rekombinant molekulalar va biologik mahsulotlarni gen muhandisligi qo‘llanishi bilan bog‘laydi. Texnologiya tushunchasi barcha istalgan natija avtomatik olinadi degani emas."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-33-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-38",
+  "title": "Gen va hujayra muhandisligiga asoslangan biotexnologiya",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-33-f1": {
+      "claim": "Biotexnologiya organizmlar va biomolekulalardan foydali mahsulot olishda foydalanadi. Qatiq va fermentatsiya misollari gen muhandisligidan avval ham mavjud bo‘lgan.",
+      "answer": "Biotexnologiya faqat gen tahriri bilan cheklanmaydi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f2": {
+      "claim": "Mikroorganizmlar ferment, vitamin va biologik faol moddalar ishlab chiqarishda ishlatilishi mumkin; tez ko‘payish va xususiyatlarning o‘rganilganligi muhim.",
+      "answer": "Kerakli mahsulotni hosil qilish xossasi va uning o‘rganilganligi",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f3": {
+      "claim": "Darslik insulin, somatotropin, fermentlar va diagnostik ashyolarni zamonaviy biotexnologiya mahsulotlari qatorida keltiradi.",
+      "answer": "Ferment, insulin va diagnostik reaktiv",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f4": {
+      "claim": "Gen terapiyasi funksional genetik axborot orqali ayrim kasalliklarni davolashga qaratilgan yo‘nalishdir. Bu barcha genetik holatga tayyor bir xil davo degani emas.",
+      "answer": "Ayrim holatlarda funksional genetik axborotdan foydalanishga qaratilgan",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f5": {
+      "claim": "Asos hujayralar o‘zini yangilash va muayyan hujayra turlariga ixtisoslashish imkoniyati bilan o‘rganiladi. Salohiyat hujayra turiga bog‘liq; har biri har qanday tayyor organni avtomatik bermaydi.",
+      "answer": "O‘zini yangilash va ixtisoslashish salohiyati",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-33-f6": {
+      "claim": "To‘qima va organ yaratish istiqbollari tadqiqot yo‘nalishidir. Tadqiqot imkoniyatini istalgan organni hammaga tayyor yaratish kafolati deb berib bo‘lmaydi.",
+      "answer": "Ilmiy rivojlanish yo‘nalishi sifatida, universal tayyor kafolat sifatida emas",
+      "source": {
+        "paragraph": 33,
+        "pdf_pages": [
+          144
+        ],
+        "printed_pages": [
+          144
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "An’anaviy tajribadan zamonaviy usulgacha",
+      "body": "Biotexnologiya organizmlar va biomolekulalardan foydali mahsulot olishda foydalanadi. Qatiq va fermentatsiya misollari gen muhandisligidan avval ham mavjud bo‘lgan.",
+      "fact_ids": [
+        "paragraph-33-f1"
+      ]
+    },
+    {
+      "title": "Mikroorganizm va mahsulot",
+      "body": "Mikroorganizmlar ferment, vitamin va biologik faol moddalar ishlab chiqarishda ishlatilishi mumkin; tez ko‘payish va xususiyatlarning o‘rganilganligi muhim.",
+      "fact_ids": [
+        "paragraph-33-f2"
+      ]
+    },
+    {
+      "title": "Mahsulotni misoldan ajratamiz",
+      "body": "Darslik insulin, somatotropin, fermentlar va diagnostik ashyolarni zamonaviy biotexnologiya mahsulotlari qatorida keltiradi.",
+      "fact_ids": [
+        "paragraph-33-f3"
+      ]
+    },
+    {
+      "title": "Gen terapiyasi tushunchasi",
+      "body": "Gen terapiyasi funksional genetik axborot orqali ayrim kasalliklarni davolashga qaratilgan yo‘nalishdir. Bu barcha genetik holatga tayyor bir xil davo degani emas.",
+      "fact_ids": [
+        "paragraph-33-f4"
+      ]
+    },
+    {
+      "title": "Hujayraning salohiyati",
+      "body": "Asos hujayralar o‘zini yangilash va muayyan hujayra turlariga ixtisoslashish imkoniyati bilan o‘rganiladi. Salohiyat hujayra turiga bog‘liq; har biri har qanday tayyor organni avtomatik bermaydi.",
+      "fact_ids": [
+        "paragraph-33-f5"
+      ]
+    },
+    {
+      "title": "Istiqbol va tayyor natija farqi",
+      "body": "To‘qima va organ yaratish istiqbollari tadqiqot yo‘nalishidir. Tadqiqot imkoniyatini istalgan organni hammaga tayyor yaratish kafolati deb berib bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-33-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-33-q1",
+      "fact_id": "paragraph-33-f1",
+      "question_text": "Qatiq tayyorlashning biotexnologiyaga kirishi qaysi xulosani beradi?",
+      "options": [
+        "An’anaviy usulda tirik tizim umuman qatnashmaydi",
+        "Biotexnologiya faqat gen tahriri bilan cheklanmaydi",
+        "Har qanday biotexnologiya majburiy transgen talab qiladi",
+        "Fermentatsiya biologik jarayon emas"
+      ],
+      "correct_answer": "Biotexnologiya faqat gen tahriri bilan cheklanmaydi",
+      "explanation": "Biotexnologiya organizmlar va biomolekulalardan foydali mahsulot olishda foydalanadi. Qatiq va fermentatsiya misollari gen muhandisligidan avval ham mavjud bo‘lgan."
+    },
+    {
+      "key": "paragraph-33-q2",
+      "fact_id": "paragraph-33-f2",
+      "question_text": "Sanoat biotexnologiyasida mikroorganizm tanlashda qaysi belgi mazmunli?",
+      "options": [
+        "Kerakli mahsulotni hosil qilish xossasi va uning o‘rganilganligi",
+        "Faqat nomining qisqaligi",
+        "Faqat koloniyaning chiroyli ko‘rinishi",
+        "Faqat tasodifan topilganligi"
+      ],
+      "correct_answer": "Kerakli mahsulotni hosil qilish xossasi va uning o‘rganilganligi",
+      "explanation": "Mikroorganizmlar ferment, vitamin va biologik faol moddalar ishlab chiqarishda ishlatilishi mumkin; tez ko‘payish va xususiyatlarning o‘rganilganligi muhim."
+    },
+    {
+      "key": "paragraph-33-q3",
+      "fact_id": "paragraph-33-f3",
+      "question_text": "Qaysi to‘plam zamonaviy biotexnologiya mahsulotlariga mos?",
+      "options": [
+        "Faqat qum, shag‘al va granit",
+        "Faqat tashqi geografik xarita",
+        "Faqat turning lotincha nomi",
+        "Ferment, insulin va diagnostik reaktiv"
+      ],
+      "correct_answer": "Ferment, insulin va diagnostik reaktiv",
+      "explanation": "Darslik insulin, somatotropin, fermentlar va diagnostik ashyolarni zamonaviy biotexnologiya mahsulotlari qatorida keltiradi."
+    },
+    {
+      "key": "paragraph-33-q4",
+      "fact_id": "paragraph-33-f4",
+      "question_text": "Gen terapiyasi haqidagi qaysi jumla asosli?",
+      "options": [
+        "Faqat antitana massasini sanashning nomi",
+        "Har bir odamga bir xil genni majburiy kiritishdir",
+        "Ayrim holatlarda funksional genetik axborotdan foydalanishga qaratilgan",
+        "Barcha irsiy holatni bir usulda kafolatli yo‘q qiladi"
+      ],
+      "correct_answer": "Ayrim holatlarda funksional genetik axborotdan foydalanishga qaratilgan",
+      "explanation": "Gen terapiyasi funksional genetik axborot orqali ayrim kasalliklarni davolashga qaratilgan yo‘nalishdir. Bu barcha genetik holatga tayyor bir xil davo degani emas."
+    },
+    {
+      "key": "paragraph-33-q5",
+      "fact_id": "paragraph-33-f5",
+      "question_text": "Asos hujayra tadqiqotida qaysi ikkita xossa muhim?",
+      "options": [
+        "Har doim barcha organlarni tayyor holda saqlash",
+        "O‘zini yangilash va ixtisoslashish salohiyati",
+        "Faqat xromosomasiz bo‘lish va qurib qolish",
+        "Faqat fotosintez va chang hosil qilish"
+      ],
+      "correct_answer": "O‘zini yangilash va ixtisoslashish salohiyati",
+      "explanation": "Asos hujayralar o‘zini yangilash va muayyan hujayra turlariga ixtisoslashish imkoniyati bilan o‘rganiladi. Salohiyat hujayra turiga bog‘liq; har biri har qanday tayyor organni avtomatik bermaydi."
+    },
+    {
+      "key": "paragraph-33-q6",
+      "fact_id": "paragraph-33-f6",
+      "question_text": "Darslikdagi istiqbolni qanday talqin qilish to‘g‘ri?",
+      "options": [
+        "Ilmiy rivojlanish yo‘nalishi sifatida, universal tayyor kafolat sifatida emas",
+        "Har bir odamga allaqachon istalgan organ tayyor degan xulosa sifatida",
+        "Hujayra tadqiqotlari endi kerak emas degan dalil sifatida",
+        "Biotexnologiya faqat tarix bo‘lib qolgan deb"
+      ],
+      "correct_answer": "Ilmiy rivojlanish yo‘nalishi sifatida, universal tayyor kafolat sifatida emas",
+      "explanation": "To‘qima va organ yaratish istiqbollari tadqiqot yo‘nalishidir. Tadqiqot imkoniyatini istalgan organni hammaga tayyor yaratish kafolati deb berib bo‘lmaydi."
+    }
+  ]
+}

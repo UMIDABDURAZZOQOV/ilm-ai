@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-44-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-53",
+  "title": "Evolutsiyaning sintetik nazariyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-44-f1": {
+      "claim": "Mikroevolutsiya populyatsiyalar genetik tarkibidagi avlodlararo o‘zgarishlar bilan bog‘liq; individning umr bo‘yi o‘sishi ontogenezga tegishli.",
+      "answer": "Mikroevolutsiya",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          193
+        ],
+        "printed_pages": [
+          193
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-44-f2": {
+      "claim": "Evolutsiyaning sintetik nazariyasi klassik darvinizmni genetika, ekologiya va boshqa fanlar dalillari bilan birlashtiradi. Sintetik atamasi sun’iy organizmning o‘zi degani emas.",
+      "answer": "Turli fanlar bilimlarining birlashishini",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-44-f3": {
+      "claim": "Mutatsion va kombinativ o‘zgaruvchanlik material beradi; dreyf, migratsiya, alohidalanish va tabiiy tanlanish genofondga turlicha ta’sir qiladi.",
+      "answer": "Bir nechta genetik va ekologik mexanizmni birgalikda",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-44-f4": {
+      "claim": "Genetik dreyf tasodifiy chastota o‘zgarishidir, tanlanish esa muayyan muhitda avlod qoldirish farqlari bilan bog‘liq. Chastota o‘zgarishi o‘zi mexanizmni to‘liq aniqlamaydi.",
+      "answer": "Yo‘q, dreyf va boshqa mexanizmlarni ham tekshirish kerak",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-44-f5": {
+      "claim": "Divergent rivojlanishda bitta ajdod yo‘nalishidan bir nechta guruh kelib chiqishi mumkin. Evolutsiyani faqat bitta to‘g‘ri zinapoya bilan tasvirlash yetarli emas.",
+      "answer": "Shoxlanuvchi daraxtga",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-44-f6": {
+      "claim": "Darslik mikroevolutsiyani tur doirasida, makroevolutsiyani turdan yuqori guruhlar tarixida muhokama qiladi. Ular genetik jarayonlar bilan uzviy bog‘liq miqyoslar sifatida talqin qilinadi.",
+      "answer": "Tarixiy-genetik jarayonlarning bog‘liq miqyoslari",
+      "source": {
+        "paragraph": 44,
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          194
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mikroevolutsiya darajasi",
+      "body": "Mikroevolutsiya populyatsiyalar genetik tarkibidagi avlodlararo o‘zgarishlar bilan bog‘liq; individning umr bo‘yi o‘sishi ontogenezga tegishli.",
+      "fact_ids": [
+        "paragraph-44-f1"
+      ]
+    },
+    {
+      "title": "Sintetik degani birlashtiruvchi",
+      "body": "Evolutsiyaning sintetik nazariyasi klassik darvinizmni genetika, ekologiya va boshqa fanlar dalillari bilan birlashtiradi. Sintetik atamasi sun’iy organizmning o‘zi degani emas.",
+      "fact_ids": [
+        "paragraph-44-f2"
+      ]
+    },
+    {
+      "title": "Material va mexanizmlar",
+      "body": "Mutatsion va kombinativ o‘zgaruvchanlik material beradi; dreyf, migratsiya, alohidalanish va tabiiy tanlanish genofondga turlicha ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-44-f3"
+      ]
+    },
+    {
+      "title": "Tasodif va saralashni ajratamiz",
+      "body": "Genetik dreyf tasodifiy chastota o‘zgarishidir, tanlanish esa muayyan muhitda avlod qoldirish farqlari bilan bog‘liq. Chastota o‘zgarishi o‘zi mexanizmni to‘liq aniqlamaydi.",
+      "fact_ids": [
+        "paragraph-44-f4"
+      ]
+    },
+    {
+      "title": "Shoxlanish imkoniyati",
+      "body": "Divergent rivojlanishda bitta ajdod yo‘nalishidan bir nechta guruh kelib chiqishi mumkin. Evolutsiyani faqat bitta to‘g‘ri zinapoya bilan tasvirlash yetarli emas.",
+      "fact_ids": [
+        "paragraph-44-f5"
+      ]
+    },
+    {
+      "title": "Mikro va makro bog‘lanadi",
+      "body": "Darslik mikroevolutsiyani tur doirasida, makroevolutsiyani turdan yuqori guruhlar tarixida muhokama qiladi. Ular genetik jarayonlar bilan uzviy bog‘liq miqyoslar sifatida talqin qilinadi.",
+      "fact_ids": [
+        "paragraph-44-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-44-q1",
+      "fact_id": "paragraph-44-f1",
+      "question_text": "Avlodlar davomida populyatsiya allel chastotasi o‘zgarsa, qaysi darajadagi jarayon o‘rganiladi?",
+      "options": [
+        "Faqat oqsil denaturatsiyasi",
+        "Mikroevolutsiya",
+        "Faqat bitta individ ontogenezi",
+        "Faqat oziq hazmi"
+      ],
+      "correct_answer": "Mikroevolutsiya",
+      "explanation": "Mikroevolutsiya populyatsiyalar genetik tarkibidagi avlodlararo o‘zgarishlar bilan bog‘liq; individning umr bo‘yi o‘sishi ontogenezga tegishli."
+    },
+    {
+      "key": "paragraph-44-q2",
+      "fact_id": "paragraph-44-f2",
+      "question_text": "Nazariyadagi sintetik so‘zi nimani anglatadi?",
+      "options": [
+        "Turli fanlar bilimlarining birlashishini",
+        "Faqat probirkada organizm yaratishni",
+        "Faqat kimyoviy bo‘yoqni",
+        "Faqat bir olimning tashqi kuzatuvini"
+      ],
+      "correct_answer": "Turli fanlar bilimlarining birlashishini",
+      "explanation": "Evolutsiyaning sintetik nazariyasi klassik darvinizmni genetika, ekologiya va boshqa fanlar dalillari bilan birlashtiradi. Sintetik atamasi sun’iy organizmning o‘zi degani emas."
+    },
+    {
+      "key": "paragraph-44-q3",
+      "fact_id": "paragraph-44-f3",
+      "question_text": "Sintetik nazariya genofond o‘zgarishini qaysi yondashuv bilan o‘rganadi?",
+      "options": [
+        "Faqat individning xohishi bilan",
+        "Faqat bir xil maqsadli mutatsiyalar bilan",
+        "Faqat tashqi ranglarning nomi bilan",
+        "Bir nechta genetik va ekologik mexanizmni birgalikda"
+      ],
+      "correct_answer": "Bir nechta genetik va ekologik mexanizmni birgalikda",
+      "explanation": "Mutatsion va kombinativ o‘zgaruvchanlik material beradi; dreyf, migratsiya, alohidalanish va tabiiy tanlanish genofondga turlicha ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-44-q4",
+      "fact_id": "paragraph-44-f4",
+      "question_text": "Allel ko‘payganini ko‘rib darhol foydali ekanini aytish mumkinmi?",
+      "options": [
+        "Ha, barcha ortishlar organizm ehtiyoji bilan maqsadli",
+        "Yo‘q, chunki chastota hech qachon o‘zgarmaydi",
+        "Yo‘q, dreyf va boshqa mexanizmlarni ham tekshirish kerak",
+        "Ha, har qanday chastota ortishi faqat foyda isboti"
+      ],
+      "correct_answer": "Yo‘q, dreyf va boshqa mexanizmlarni ham tekshirish kerak",
+      "explanation": "Genetik dreyf tasodifiy chastota o‘zgarishidir, tanlanish esa muayyan muhitda avlod qoldirish farqlari bilan bog‘liq. Chastota o‘zgarishi o‘zi mexanizmni to‘liq aniqlamaydi."
+    },
+    {
+      "key": "paragraph-44-q5",
+      "fact_id": "paragraph-44-f5",
+      "question_text": "Ajdoddan ikki avlod yo‘nalishining ajralishi qanday sxemaga mos?",
+      "options": [
+        "Faqat bir xil xromosoma nusxasiga",
+        "Shoxlanuvchi daraxtga",
+        "Faqat bitta o‘zgarmas aylana",
+        "Faqat bitta individning kattalashishiga"
+      ],
+      "correct_answer": "Shoxlanuvchi daraxtga",
+      "explanation": "Divergent rivojlanishda bitta ajdod yo‘nalishidan bir nechta guruh kelib chiqishi mumkin. Evolutsiyani faqat bitta to‘g‘ri zinapoya bilan tasvirlash yetarli emas."
+    },
+    {
+      "key": "paragraph-44-q6",
+      "fact_id": "paragraph-44-f6",
+      "question_text": "Mikro va makroevolutsiya haqida mos xulosa qaysi?",
+      "options": [
+        "Tarixiy-genetik jarayonlarning bog‘liq miqyoslari",
+        "Bir-biriga umuman aloqasiz ikki kimyoviy modda",
+        "Ikkalasi faqat bir organizmning qarishi",
+        "Ikkalasi faqat laboratoriya uskunasi nomi"
+      ],
+      "correct_answer": "Tarixiy-genetik jarayonlarning bog‘liq miqyoslari",
+      "explanation": "Darslik mikroevolutsiyani tur doirasida, makroevolutsiyani turdan yuqori guruhlar tarixida muhokama qiladi. Ular genetik jarayonlar bilan uzviy bog‘liq miqyoslar sifatida talqin qilinadi."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-28-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-33",
+  "title": "Hujayra irsiyatining o‘zgarishiga olib keladigan jarayonlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-28-f1": {
+      "claim": "Bakteriyalarda genetik material almashinuvi transformatsiya, transduksiya va konyugatsiya kabi yo‘llar bilan bog‘liq. Bu yo‘llar hujayra sonining oddiy ortishidan farqlanadi.",
+      "answer": "Axborot almashinuvi yangi irsiy kombinatsiya berishi mumkin",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          126
+        ],
+        "printed_pages": [
+          126
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f2": {
+      "claim": "Transformatsiyada hujayra tashqi DNKdan genetik axborot qabul qilishi mumkin. Bu tushuncha fag orqali tashish yoki ikki hujayra bevosita aloqasidan ajratiladi.",
+      "answer": "Transformatsiya",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          128
+        ],
+        "printed_pages": [
+          128
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f3": {
+      "claim": "Griffit ishlarida irsiy o‘zgarish hodisasi ko‘rsatilgan; Everi, Makleod va Makkarti tadqiqotlari esa DNKning axborot tashuvchi rolini aniqlashga hissa qo‘shgan.",
+      "answer": "Yo‘q, ikkinchisi moddiy asosni aniqlashtiradi",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          129
+        ],
+        "printed_pages": [
+          129
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f4": {
+      "claim": "Transduksiya bakteriyalar o‘rtasidagi genetik materialning bakteriofag vositasida o‘tishidir. Vositachi turi bu yo‘lni boshqalardan ajratadi.",
+      "answer": "Transduksiya",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f5": {
+      "claim": "Konyugatsiyada donor va retsipiyent hujayralarning bevosita aloqasi genetik material uzatilishi bilan bog‘liq. Donor beruvchi, retsipiyent qabul qiluvchi hujayradir.",
+      "answer": "Beruvchi va qabul qiluvchi",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-28-f6": {
+      "claim": "Litik yo‘lda hujayra lizisi bilan bog‘liq natija yuzaga keladi; lizogen holatda fag axboroti xo‘jayin genomi bilan bog‘lanib saqlanishi mumkin. Har fag kirishi darhol lizis degani emas.",
+      "answer": "Lizogeniya",
+      "source": {
+        "paragraph": 28,
+        "pdf_pages": [
+          130
+        ],
+        "printed_pages": [
+          130
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Uch yo‘lni ajratamiz",
+      "body": "Bakteriyalarda genetik material almashinuvi transformatsiya, transduksiya va konyugatsiya kabi yo‘llar bilan bog‘liq. Bu yo‘llar hujayra sonining oddiy ortishidan farqlanadi.",
+      "fact_ids": [
+        "paragraph-28-f1"
+      ]
+    },
+    {
+      "title": "Transformatsiya tushunchasi",
+      "body": "Transformatsiyada hujayra tashqi DNKdan genetik axborot qabul qilishi mumkin. Bu tushuncha fag orqali tashish yoki ikki hujayra bevosita aloqasidan ajratiladi.",
+      "fact_ids": [
+        "paragraph-28-f2"
+      ]
+    },
+    {
+      "title": "Kuzatuv va modda dalili",
+      "body": "Griffit ishlarida irsiy o‘zgarish hodisasi ko‘rsatilgan; Everi, Makleod va Makkarti tadqiqotlari esa DNKning axborot tashuvchi rolini aniqlashga hissa qo‘shgan.",
+      "fact_ids": [
+        "paragraph-28-f3"
+      ]
+    },
+    {
+      "title": "Fag vositachiligi",
+      "body": "Transduksiya bakteriyalar o‘rtasidagi genetik materialning bakteriofag vositasida o‘tishidir. Vositachi turi bu yo‘lni boshqalardan ajratadi.",
+      "fact_ids": [
+        "paragraph-28-f4"
+      ]
+    },
+    {
+      "title": "Bevosita aloqa",
+      "body": "Konyugatsiyada donor va retsipiyent hujayralarning bevosita aloqasi genetik material uzatilishi bilan bog‘liq. Donor beruvchi, retsipiyent qabul qiluvchi hujayradir.",
+      "fact_ids": [
+        "paragraph-28-f5"
+      ]
+    },
+    {
+      "title": "Litik va lizogen holat",
+      "body": "Litik yo‘lda hujayra lizisi bilan bog‘liq natija yuzaga keladi; lizogen holatda fag axboroti xo‘jayin genomi bilan bog‘lanib saqlanishi mumkin. Har fag kirishi darhol lizis degani emas.",
+      "fact_ids": [
+        "paragraph-28-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-28-q1",
+      "fact_id": "paragraph-28-f1",
+      "question_text": "Genetik axborot almashinuvi bilan oddiy binar bo‘linish farqi qaysi?",
+      "options": [
+        "Uchala yo‘l faqat o‘simlikning changlanishidir",
+        "Axborot almashinuvi yangi irsiy kombinatsiya berishi mumkin",
+        "Axborot almashinuvida DNK umuman qatnashmaydi",
+        "Binar bo‘linish har doim ikkita gameta qo‘shilishidir"
+      ],
+      "correct_answer": "Axborot almashinuvi yangi irsiy kombinatsiya berishi mumkin",
+      "explanation": "Bakteriyalarda genetik material almashinuvi transformatsiya, transduksiya va konyugatsiya kabi yo‘llar bilan bog‘liq. Bu yo‘llar hujayra sonining oddiy ortishidan farqlanadi."
+    },
+    {
+      "key": "paragraph-28-q2",
+      "fact_id": "paragraph-28-f2",
+      "question_text": "Tashqi DNKni qabul qilish bilan bog‘liq yo‘lni toping.",
+      "options": [
+        "Transformatsiya",
+        "Transduksiya",
+        "Konyugatsiya",
+        "Faqat sitokinez"
+      ],
+      "correct_answer": "Transformatsiya",
+      "explanation": "Transformatsiyada hujayra tashqi DNKdan genetik axborot qabul qilishi mumkin. Bu tushuncha fag orqali tashish yoki ikki hujayra bevosita aloqasidan ajratiladi."
+    },
+    {
+      "key": "paragraph-28-q3",
+      "fact_id": "paragraph-28-f3",
+      "question_text": "Hodisa kuzatilishi bilan axborot tashuvchi modda aniqlanishi bir xil dalilmi?",
+      "options": [
+        "Ha, hodisani ko‘rish barcha molekulani darhol aniqlaydi",
+        "Ha, molekulani o‘rganish umuman kerak emas",
+        "Yo‘q, chunki irsiyatda hech qanday modda qatnashmaydi",
+        "Yo‘q, ikkinchisi moddiy asosni aniqlashtiradi"
+      ],
+      "correct_answer": "Yo‘q, ikkinchisi moddiy asosni aniqlashtiradi",
+      "explanation": "Griffit ishlarida irsiy o‘zgarish hodisasi ko‘rsatilgan; Everi, Makleod va Makkarti tadqiqotlari esa DNKning axborot tashuvchi rolini aniqlashga hissa qo‘shgan."
+    },
+    {
+      "key": "paragraph-28-q4",
+      "fact_id": "paragraph-28-f4",
+      "question_text": "Genetik materialni fag tashiyotgani aytilsa, bu qaysi yo‘l?",
+      "options": [
+        "Konyugatsiya",
+        "Fragmentatsiya",
+        "Transduksiya",
+        "Transformatsiya"
+      ],
+      "correct_answer": "Transduksiya",
+      "explanation": "Transduksiya bakteriyalar o‘rtasidagi genetik materialning bakteriofag vositasida o‘tishidir. Vositachi turi bu yo‘lni boshqalardan ajratadi."
+    },
+    {
+      "key": "paragraph-28-q5",
+      "fact_id": "paragraph-28-f5",
+      "question_text": "Donor va retsipiyent atamalari qanday mos?",
+      "options": [
+        "Faqat xromosoma va organoid",
+        "Beruvchi va qabul qiluvchi",
+        "Ikkalasi faqat gameta",
+        "Faqat ona va zigota"
+      ],
+      "correct_answer": "Beruvchi va qabul qiluvchi",
+      "explanation": "Konyugatsiyada donor va retsipiyent hujayralarning bevosita aloqasi genetik material uzatilishi bilan bog‘liq. Donor beruvchi, retsipiyent qabul qiluvchi hujayradir."
+    },
+    {
+      "key": "paragraph-28-q6",
+      "fact_id": "paragraph-28-f6",
+      "question_text": "Fag genetik materialining xo‘jayin genomi bilan saqlanishi qaysi tushunchaga yaqin?",
+      "options": [
+        "Lizogeniya",
+        "Faqat darhol lizis",
+        "Faqat meyoz",
+        "Faqat translyatsiya"
+      ],
+      "correct_answer": "Lizogeniya",
+      "explanation": "Litik yo‘lda hujayra lizisi bilan bog‘liq natija yuzaga keladi; lizogen holatda fag axboroti xo‘jayin genomi bilan bog‘lanib saqlanishi mumkin. Har fag kirishi darhol lizis degani emas."
+    }
+  ]
+}

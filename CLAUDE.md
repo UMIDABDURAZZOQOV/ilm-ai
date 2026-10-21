@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy holat — 2026-10-20, continuation-12:** `feat/biology-curriculum`: **277/355 nazariy dars, 78 qolgan; 43/51 raqamli faoliyat; 1 911 karta / 1 993 savol**. 5–9-sinflar to‘liq. Aniq davom: **10-sinf §23, PDF103**. Eng so‘nggi natija va testlar hujjat oxirida; oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
+> **Joriy holat — 2026-10-21, continuation-13:** `feat/biology-curriculum`: **303/355 nazariy dars, 52 qolgan; 46/51 raqamli faoliyat; 2 100 karta / 2 182 savol**. 5–9-sinflar to‘liq. Aniq davom: **10-sinf §49, PDF211**, so‘ng 11-sinf §3, PDF14. Eng so‘nggi natija va testlar hujjat oxirida; oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -2555,3 +2555,39 @@ S bosqichi DNK miqdorini oshiradi, ploidlikni o‘z-o‘zidan ikki baravar qilma
 Veb-sayt kodi untouched **`054f0ce`**. PDF/OCR/tasvirlar GitHub’ga qo‘shilmadi; production ma’lumotlariga import/migratsiya, deploy, main merge va nashr yo‘q. Fan/klinik ekspertizasi, real Android/iOS/TalkBack, live PostgreSQL, oldingi web practice kontrakti va PR API Forbidden cheklovlari avvalgidek ochiq.
 
 **Aniq davom: 10-sinf §23 “O‘zgaruvchanlikning umumiy qonuniyatlari”, PDF/bosma 103-sahifa.** Keyingi continuation-13: **§23–42 (20 nazariy) + lab2 (155–156) va lab3 (173–175)**, so‘ng §43/PDF184. §23/PDF103–108 tasvirlari tayyorgarlik uchun ko‘rildi, lekin ushbu release’da §23+ manifestlar hali yo‘q. Oldingi 277 nazariy darsni saqlang.
+
+
+## 2026-10-21 — Biology continuation-13: 10-sinf §23–48 va qolgan laboratoriyalar
+
+Oldingi partiya **`b8d3b75`** remote feature branchda tasdiqlandi. Bu partiya **26 nazariy mavzu (§23–48), 3 raqamli laboratoriya (2–4), 189 karta va 189 savol** qo‘shdi. 10-sinf **PDF/bosma 103–210 sahifalari tasvirlari** tekshirildi; o‘zgaruvchanlik, odam genetikasi, gen/hujayra muhandisligi, tur/populatsiya, evolutsion nazariyalar, moslanish, turlanish va evolutsiya dalillari qamrab olindi. Barcha oldingi 277 dars va manba katalogi saqlangan. Partiya 20dan 26 nazariy mavzugacha kengaytirildi: qolgan ishlar ham 20–30 mavzuli mantiqiy partiyalarda tugatiladi.
+
+**Jami 303/355 nazariy, 52 qolgan; 46/51 faoliyat; 349 manifest; 2 100 karta / 2 182 savol.**
+
+| Sinf | Bob | Jami nazariy | Tayyor | Qolgan | Faoliyat / jami | Savol |
+|---|---:|---:|---:|---:|---:|---:|
+| 5 | 3 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 5 | 59 | 59 | 0 | 7 / 7 | 331 |
+| 7 | 8 | 59 | 59 | 0 | 5 / 5 | 381 |
+| 8 | 13 + kirish | 61 | 61 | 0 | 7 / 7 | 435 |
+| 9 | 8 | 56 | 56 | 0 | 11 / 11 | 474 |
+| 10 | 5 | 58 | 48 | 10 | 4 / 4 | 364 |
+| 11 | 4 | 44 | 2 | 42 | 0 / 5 | 15 |
+
+Savollar kuzatuvdan xulosa, dalil/usulni farqlash, shartli irsiyat ehtimoli, ketma-ketlik inversiyasi, xromosoma soni va adaptatsiya kontekstini tahlil qiladi. Laboratoriyalar guided_analysis; fizik bajarish yoki o‘lchov uydirilmaydi. Lab2 q4 §35/PDF149–150, lab3 q5 §23/PDF108–109, lab4 q3–5 §43/PDF184–190ga supporting citation orqali bog‘landi; faoliyatning o‘z manbasi ham saqlanadi. Ilmo/karta/MCQ/feedback/XP/progress/Skill Path engine qayta ishlatildi; yangi savol widgetlari yoki animatsiya assetlari qo‘shilgani da’vo qilinmaydi.
+
+### Tahrir va xavfsizlik
+
+Manbadagi eski yoki noto‘g‘ri umumlashtirishlar ko‘chirilmagan: barcha mutatsiyalar zararli/foydali yoki fenotipda darhol ko‘rinishi; odam intellekti, soch/ko‘z rangi, diabet/shizofreniyani sodda bitta gen modeli qilish; irsiy holatlarning barchasi tug‘ma bo‘lishi; oilani ayblash va sindromga qat’iy IQ/bepushtlik hukmi. Shartli Aa×aa ehtimoli tashxis emas. Gen muhandisligi konseptual: patogen yetishtirish, inyeksiya, hayvon jarohati yoki amaliy gen konstruksiyasi ko‘rsatmasi yo‘q. Plazmidlarning barchasi doiraviy/rezistent yoki transmissivlik integratsiya bilan aynan ekanligi aytilmaydi. Gurdon/Dolly sanalaridagi xatolar, barcha ildiz hujayralar istalgan organni yaratishi kabi da’volar ishlatilmadi.
+
+Evolutsiya tarixidagi qarashlar tarixiy deb belgilandi; spontan paydo bo‘lish, Lamarkning orttirilgan belgilar universalligi, embrionning adult sinflarni takrorlashi, ierarxik inson guruhlari va barcha moslanish mukammalligi o‘qitilmaydi. Drayf faqat kombinatsiya emas. Ginkgo o‘zgarmagan/qoloq deyilmaydi; barcha evolutsiya murakkablashish emas. Gemoglobindagi nol farq butun genom/tur bir xilligini anglatmaydi; rudiment mutlaqo funksiyasiz degani emas. Darslikdagi eskirgan DNK foizlari, Galapagos masofasi, Panama geografiyasi va tarixiy sanalardagi xatolar takrorlanmadi. Klinik/genetik maslahat o‘rnini bosadigan tavsiyalar yo‘q.
+
+### Haqiqiy testlar
+
+- Global validator **349/349 manifest valid**; readiness yangilandi. Source/fact/answer/options/duplicate/immutable/release guardlar o‘tdi.
+- To‘liq backend **488 passed, 12 existing lifecycle warnings, 92.31s**. Genetika testlari **31**: Aa×aa ehtimoli 1/2, inversiya tartibi va trisomiya/poliploidiya hisoblari qo‘shildi. API integration barcha 5–9-sinflar va tayyor 10-sinf checkpointlarini yakunlaydi; tugallanmagan checkpoint, server bahosi, XP retry va progressli qayta import himoyalari saqlangan.
+- Flutter **`d2c2654`**: to‘liq **104 passed (9s)**; analyze **No issues found (3.1s)**. Runtime kontrakti o‘zgarmadi, yangi native/web build bajarilgani da’vo qilinmaydi.
+- Private dalillar `/workspace/.setup/biology-authoring/release13-*.log`; critical Ruff va diff tekshiruvlari toza. O‘zgargan fayllar: 29 yangi grade10 manifesti, lesson index/readiness, continuation/genetics testlari va ushbu hujjat.
+
+Veb-sayt **`054f0ce`** o‘zgarmagan. PDF/rasmlar GitHub’ga qo‘shilmadi; production import/migratsiya/deploy, main merge yoki nashr yo‘q. Mustaqil fan/klinik ekspertizasi, real Android/iOS/TalkBack va live PostgreSQL hali kerak. Oldingi web practice kontrakti va PR API Forbidden cheklovlari saqlanadi.
+
+**Aniq davom: 10-sinf §49, PDF211.** Continuation-14: **10-sinf §49–58 (10) + 11-sinf §3–18 (16) + 11-sinf lab1–2**, jami 26 nazariy. Continuation-15: **11-sinf §19–44 (26) + lab3–5**. Bu hali yozilmagan darslar; 303 tayyor mavzu saqlanadi, 52si qolgan.

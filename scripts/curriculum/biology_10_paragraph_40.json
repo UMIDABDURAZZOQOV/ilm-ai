@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-40-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-47",
+  "title": "Evolutsiyani harakatlantiruvchi kuchlar. Irsiy o‘zgaruvchanlik",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-40-f1": {
+      "claim": "Darvin davridagi muayyan va nomuayyan o‘zgaruvchanlik atamalari guruhli va individual farqlarni muhokama qilgan. Keyingi genetika ularning irsiy asosini aniqroq tahlil qilishga imkon bergan.",
+      "answer": "Tarixiy tasnif bilan zamonaviy mexanizmni farqlash",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          171
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f2": {
+      "claim": "Meyozdagi mustaqil taqsimlanish va krossingover, so‘ng gametalarning qo‘shilishi mavjud allellardan turli genotiplar hosil qiladi.",
+      "answer": "Mavjud allellarning yangi birikmalarini yuzaga chiqaradi",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          171
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f3": {
+      "claim": "Mutatsiya irsiy material o‘zgarishi bo‘lib, yangi variantlarni ta’minlaydi. Uning foydali, neytral yoki zararli ta’siri sharoit va biologik kontekst bilan bog‘liq.",
+      "answer": "Ta’siri foydali, neytral yoki zararli bo‘lishi mumkin",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f4": {
+      "claim": "Gen doirasida nukleotid ketma-ketligi o‘zgarishi gen mutatsiyasidir. Struktur yoki butun to‘plam o‘zgarishi boshqa miqyosdagi hodisadir.",
+      "answer": "Butun xromosoma to‘plamining ortishidan",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f5": {
+      "claim": "Gen mutatsiyasi ketma-ketlik, xromosoma mutatsiyasi struktur qayta tuzilish, genom mutatsiyasi esa xromosomalar soni yoki to‘plam miqyosida tahlil qilinadi.",
+      "answer": "Xromosoma strukturasi, genom to‘plami",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-40-f6": {
+      "claim": "Irsiy o‘zgaruvchanlik tanlanish uchun material beradi; tabiiy tanlanish esa mavjud variantlarning avlod qoldirishiga bog‘liq saralashdir. Bu ikki rol bir xil emas.",
+      "answer": "Variant manbai bilan tanlanish natijasi turli jarayonlar",
+      "source": {
+        "paragraph": 40,
+        "pdf_pages": [
+          172
+        ],
+        "printed_pages": [
+          172
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tarixiy atamalar",
+      "body": "Darvin davridagi muayyan va nomuayyan o‘zgaruvchanlik atamalari guruhli va individual farqlarni muhokama qilgan. Keyingi genetika ularning irsiy asosini aniqroq tahlil qilishga imkon bergan.",
+      "fact_ids": [
+        "paragraph-40-f1"
+      ]
+    },
+    {
+      "title": "Kombinatsiya manbalari",
+      "body": "Meyozdagi mustaqil taqsimlanish va krossingover, so‘ng gametalarning qo‘shilishi mavjud allellardan turli genotiplar hosil qiladi.",
+      "fact_ids": [
+        "paragraph-40-f2"
+      ]
+    },
+    {
+      "title": "Yangi irsiy variant",
+      "body": "Mutatsiya irsiy material o‘zgarishi bo‘lib, yangi variantlarni ta’minlaydi. Uning foydali, neytral yoki zararli ta’siri sharoit va biologik kontekst bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-40-f3"
+      ]
+    },
+    {
+      "title": "Gen darajasidagi o‘zgarish",
+      "body": "Gen doirasida nukleotid ketma-ketligi o‘zgarishi gen mutatsiyasidir. Struktur yoki butun to‘plam o‘zgarishi boshqa miqyosdagi hodisadir.",
+      "fact_ids": [
+        "paragraph-40-f4"
+      ]
+    },
+    {
+      "title": "Uch miqyosni moslaymiz",
+      "body": "Gen mutatsiyasi ketma-ketlik, xromosoma mutatsiyasi struktur qayta tuzilish, genom mutatsiyasi esa xromosomalar soni yoki to‘plam miqyosida tahlil qilinadi.",
+      "fact_ids": [
+        "paragraph-40-f5"
+      ]
+    },
+    {
+      "title": "Material va saralash",
+      "body": "Irsiy o‘zgaruvchanlik tanlanish uchun material beradi; tabiiy tanlanish esa mavjud variantlarning avlod qoldirishiga bog‘liq saralashdir. Bu ikki rol bir xil emas.",
+      "fact_ids": [
+        "paragraph-40-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-40-q1",
+      "fact_id": "paragraph-40-f1",
+      "question_text": "Eski atamalarni hozirgi genetika bilan solishtirishda nima muhim?",
+      "options": [
+        "Har qanday o‘zgarishni bitta tashqi sababga majburiy bog‘lash",
+        "Tarixiy tasnif bilan zamonaviy mexanizmni farqlash",
+        "Ularni barcha holatda to‘liq sinonim deb olish",
+        "Genotip ma’lumotini umuman chiqarib tashlash"
+      ],
+      "correct_answer": "Tarixiy tasnif bilan zamonaviy mexanizmni farqlash",
+      "explanation": "Darvin davridagi muayyan va nomuayyan o‘zgaruvchanlik atamalari guruhli va individual farqlarni muhokama qilgan. Keyingi genetika ularning irsiy asosini aniqroq tahlil qilishga imkon bergan."
+    },
+    {
+      "key": "paragraph-40-q2",
+      "fact_id": "paragraph-40-f2",
+      "question_text": "Rekombinatsiya evolutsiya uchun nega muhim?",
+      "options": [
+        "Mavjud allellarning yangi birikmalarini yuzaga chiqaradi",
+        "Barcha allellarni majburiy yangi nukleotidga almashtiradi",
+        "Har safar xromosomalar sonini ikki baravar oshiradi",
+        "Faqat o‘sish tezligini vaqtincha o‘zgartiradi"
+      ],
+      "correct_answer": "Mavjud allellarning yangi birikmalarini yuzaga chiqaradi",
+      "explanation": "Meyozdagi mustaqil taqsimlanish va krossingover, so‘ng gametalarning qo‘shilishi mavjud allellardan turli genotiplar hosil qiladi."
+    },
+    {
+      "key": "paragraph-40-q3",
+      "fact_id": "paragraph-40-f3",
+      "question_text": "Mutatsiyalar haqida qaysi xulosa asossiz umumlashtirishdan qochadi?",
+      "options": [
+        "Barcha mutatsiya albatta foydali",
+        "Barcha mutatsiya albatta halokatli",
+        "Barcha mutatsiya organizm ehtiyoji bo‘yicha maqsadli yaratiladi",
+        "Ta’siri foydali, neytral yoki zararli bo‘lishi mumkin"
+      ],
+      "correct_answer": "Ta’siri foydali, neytral yoki zararli bo‘lishi mumkin",
+      "explanation": "Mutatsiya irsiy material o‘zgarishi bo‘lib, yangi variantlarni ta’minlaydi. Uning foydali, neytral yoki zararli ta’siri sharoit va biologik kontekst bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-40-q4",
+      "fact_id": "paragraph-40-f4",
+      "question_text": "Bitta gen ichidagi asos almashishini nimadan farqlaymiz?",
+      "options": [
+        "Har qanday irsiy material borligidan",
+        "Nukleotidlar mavjudligidan",
+        "Butun xromosoma to‘plamining ortishidan",
+        "Oddiy DNK ketma-ketligi tushunchasidan"
+      ],
+      "correct_answer": "Butun xromosoma to‘plamining ortishidan",
+      "explanation": "Gen doirasida nukleotid ketma-ketligi o‘zgarishi gen mutatsiyasidir. Struktur yoki butun to‘plam o‘zgarishi boshqa miqyosdagi hodisadir."
+    },
+    {
+      "key": "paragraph-40-q5",
+      "fact_id": "paragraph-40-f5",
+      "question_text": "Qism teskari aylanishi bilan butun to‘plam ko‘payishi ketma-ket qaysi miqyoslar?",
+      "options": [
+        "Faqat ikki xil modifikatsiya",
+        "Xromosoma strukturasi, genom to‘plami",
+        "Faqat ikkita gen almashishi",
+        "Faqat oqsil va lipid sintezi"
+      ],
+      "correct_answer": "Xromosoma strukturasi, genom to‘plami",
+      "explanation": "Gen mutatsiyasi ketma-ketlik, xromosoma mutatsiyasi struktur qayta tuzilish, genom mutatsiyasi esa xromosomalar soni yoki to‘plam miqyosida tahlil qilinadi."
+    },
+    {
+      "key": "paragraph-40-q6",
+      "fact_id": "paragraph-40-f6",
+      "question_text": "Yangi variant paydo bo‘lishi va uning tarqalishini nega ajratamiz?",
+      "options": [
+        "Variant manbai bilan tanlanish natijasi turli jarayonlar",
+        "Har bir yangi variant darhol hammada bir xil tarqaladi",
+        "Variant bo‘lmasa ham irsiy saralash har doim bir xil natija beradi",
+        "Barcha tarqalish faqat bitta individning xohishidir"
+      ],
+      "correct_answer": "Variant manbai bilan tanlanish natijasi turli jarayonlar",
+      "explanation": "Irsiy o‘zgaruvchanlik tanlanish uchun material beradi; tabiiy tanlanish esa mavjud variantlarning avlod qoldirishiga bog‘liq saralashdir. Bu ikki rol bir xil emas."
+    }
+  ]
+}

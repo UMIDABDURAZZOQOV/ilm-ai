@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-35-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-41",
+  "title": "Hayotning tur va populatsiya darajasi. Tur tushunchasi. Tur mezonlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-35-f1": {
+      "claim": "Tur populyatsiyalar majmuasi sifatida o‘rganiladi; populyatsiya tur arealining muayyan qismida yashovchi individlar guruhidir. Bitta individ populyatsiyaning o‘zi emas.",
+      "answer": "Populyatsiya",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          147
+        ],
+        "printed_pages": [
+          147
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f2": {
+      "claim": "O‘zaro chatishtirib nasl olish biologik tur tushunchasida muhim, lekin jinssiz organizmlar va qazilma turlar uchun bu sinovni bevosita qo‘llab bo‘lmaydi.",
+      "answer": "Jinssiz va qazilma organizmlar ham mavjud",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f3": {
+      "claim": "Bir tur ichida jinsiy dimorfizm bo‘lishi, turli turlar esa tashqi tomondan juda o‘xshashi mumkin. Morfologik mezon boshqa dalillar bilan birga ishlatiladi.",
+      "answer": "Yo‘q, ular bir turdagi jinsiy dimorfizmni ko‘rsatishi mumkin",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          149
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f4": {
+      "claim": "Ko‘payish va boshqa hayotiy jarayonlar xususiyatlari fiziologik mezonga kiradi. Ayrim turaro chatishtirish misollari bu mezonni ham yolg‘iz mutlaq qo‘llamaslikni ko‘rsatadi.",
+      "answer": "Fiziologik",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          149
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f5": {
+      "claim": "Nuklein kislotalar va oqsillardagi farqlar biokimyoviy dalil bo‘lib xizmat qilishi mumkin. Bu ma’lumotni birgina tashqi rang bilan almashtirib bo‘lmaydi.",
+      "answer": "Biokimyoviy",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          149
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f6": {
+      "claim": "Geografik mezon tarqalish hududi, ekologik mezon esa muhit bilan aloqalar va ekologik o‘rin bilan bog‘liq. Bir hududda bir nechta tur yashashi mumkin.",
+      "answer": "Yo‘q, areallar ustma-ust tushishi mumkin",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f7": {
+      "claim": "Genetik mezon kariotip belgilarini, etologik mezon xulq-atvorni taqqoslaydi. Xromosomalar soni teng bo‘lishining o‘zi bir tur ekanini kafolatlamaydi.",
+      "answer": "Boshqa mezonlarni ham tekshiraman",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-35-f8": {
+      "claim": "Tur identifikatsiyasida morfologik, fiziologik, biokimyoviy, geografik, ekologik, genetik va etologik dalillar birgalikda baholanadi.",
+      "answer": "Bir nechta mustaqil mezonning dalillarini birlashtirish",
+      "source": {
+        "paragraph": 35,
+        "pdf_pages": [
+          150
+        ],
+        "printed_pages": [
+          150
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tur va populyatsiya",
+      "body": "Tur populyatsiyalar majmuasi sifatida o‘rganiladi; populyatsiya tur arealining muayyan qismida yashovchi individlar guruhidir. Bitta individ populyatsiyaning o‘zi emas.",
+      "fact_ids": [
+        "paragraph-35-f1"
+      ]
+    },
+    {
+      "title": "Ta’rifning chegarasi",
+      "body": "O‘zaro chatishtirib nasl olish biologik tur tushunchasida muhim, lekin jinssiz organizmlar va qazilma turlar uchun bu sinovni bevosita qo‘llab bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-35-f2"
+      ]
+    },
+    {
+      "title": "Tashqi o‘xshashlik yetarli emas",
+      "body": "Bir tur ichida jinsiy dimorfizm bo‘lishi, turli turlar esa tashqi tomondan juda o‘xshashi mumkin. Morfologik mezon boshqa dalillar bilan birga ishlatiladi.",
+      "fact_ids": [
+        "paragraph-35-f3"
+      ]
+    },
+    {
+      "title": "Fiziologik dalil",
+      "body": "Ko‘payish va boshqa hayotiy jarayonlar xususiyatlari fiziologik mezonga kiradi. Ayrim turaro chatishtirish misollari bu mezonni ham yolg‘iz mutlaq qo‘llamaslikni ko‘rsatadi.",
+      "fact_ids": [
+        "paragraph-35-f4"
+      ]
+    },
+    {
+      "title": "Molekulani solishtirish",
+      "body": "Nuklein kislotalar va oqsillardagi farqlar biokimyoviy dalil bo‘lib xizmat qilishi mumkin. Bu ma’lumotni birgina tashqi rang bilan almashtirib bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-35-f5"
+      ]
+    },
+    {
+      "title": "Areal va ekologik o‘rin",
+      "body": "Geografik mezon tarqalish hududi, ekologik mezon esa muhit bilan aloqalar va ekologik o‘rin bilan bog‘liq. Bir hududda bir nechta tur yashashi mumkin.",
+      "fact_ids": [
+        "paragraph-35-f6"
+      ]
+    },
+    {
+      "title": "Kariotip va xulq",
+      "body": "Genetik mezon kariotip belgilarini, etologik mezon xulq-atvorni taqqoslaydi. Xromosomalar soni teng bo‘lishining o‘zi bir tur ekanini kafolatlamaydi.",
+      "fact_ids": [
+        "paragraph-35-f7"
+      ]
+    },
+    {
+      "title": "Mezonlarni birlashtiramiz",
+      "body": "Tur identifikatsiyasida morfologik, fiziologik, biokimyoviy, geografik, ekologik, genetik va etologik dalillar birgalikda baholanadi.",
+      "fact_ids": [
+        "paragraph-35-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-35-q1",
+      "fact_id": "paragraph-35-f1",
+      "question_text": "Bir tur arealining mahalliy qismida yashaydigan individlar guruhini nima deymiz?",
+      "options": [
+        "Bir biomolekula",
+        "Populyatsiya",
+        "Faqat bitta organ",
+        "Bitta gameta"
+      ],
+      "correct_answer": "Populyatsiya",
+      "explanation": "Tur populyatsiyalar majmuasi sifatida o‘rganiladi; populyatsiya tur arealining muayyan qismida yashovchi individlar guruhidir. Bitta individ populyatsiyaning o‘zi emas."
+    },
+    {
+      "key": "paragraph-35-q2",
+      "fact_id": "paragraph-35-f2",
+      "question_text": "Nega barcha turlarni faqat chatishtirish testi bilan aniqlab bo‘lmaydi?",
+      "options": [
+        "Jinssiz va qazilma organizmlar ham mavjud",
+        "Barcha organizmlar doim bir xil tashqi ko‘rinishda",
+        "Barcha turlar bir joyda yashaydi",
+        "Barcha individlar faqat bitta hujayradan iborat"
+      ],
+      "correct_answer": "Jinssiz va qazilma organizmlar ham mavjud",
+      "explanation": "O‘zaro chatishtirib nasl olish biologik tur tushunchasida muhim, lekin jinssiz organizmlar va qazilma turlar uchun bu sinovni bevosita qo‘llab bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-35-q3",
+      "fact_id": "paragraph-35-f3",
+      "question_text": "Tashqi ko‘rinish farqli bo‘lgan ikki individ albatta boshqa turmi?",
+      "options": [
+        "Ha, bitta rang farqi har doim yangi tur",
+        "Ha, har bir yosh boshqa tur hisoblanadi",
+        "Yo‘q, chunki tashqi ko‘rinish hech qanday ma’lumot bermaydi",
+        "Yo‘q, ular bir turdagi jinsiy dimorfizmni ko‘rsatishi mumkin"
+      ],
+      "correct_answer": "Yo‘q, ular bir turdagi jinsiy dimorfizmni ko‘rsatishi mumkin",
+      "explanation": "Bir tur ichida jinsiy dimorfizm bo‘lishi, turli turlar esa tashqi tomondan juda o‘xshashi mumkin. Morfologik mezon boshqa dalillar bilan birga ishlatiladi."
+    },
+    {
+      "key": "paragraph-35-q4",
+      "fact_id": "paragraph-35-f4",
+      "question_text": "Ko‘payish muddati va nasl berish imkoniyati qaysi mezonga yaqin?",
+      "options": [
+        "Faqat etologik xulq",
+        "Faqat tashqi morfologik rang",
+        "Fiziologik",
+        "Faqat geografik"
+      ],
+      "correct_answer": "Fiziologik",
+      "explanation": "Ko‘payish va boshqa hayotiy jarayonlar xususiyatlari fiziologik mezonga kiradi. Ayrim turaro chatishtirish misollari bu mezonni ham yolg‘iz mutlaq qo‘llamaslikni ko‘rsatadi."
+    },
+    {
+      "key": "paragraph-35-q5",
+      "fact_id": "paragraph-35-f5",
+      "question_text": "DNK ketma-ketligi va oqsil tarkibini taqqoslash qaysi dalil turiga kiradi?",
+      "options": [
+        "Faqat organ massasi",
+        "Biokimyoviy",
+        "Faqat geografik",
+        "Faqat morfologik kontur"
+      ],
+      "correct_answer": "Biokimyoviy",
+      "explanation": "Nuklein kislotalar va oqsillardagi farqlar biokimyoviy dalil bo‘lib xizmat qilishi mumkin. Bu ma’lumotni birgina tashqi rang bilan almashtirib bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-35-q6",
+      "fact_id": "paragraph-35-f6",
+      "question_text": "Ikki tur bir hududda yashashi ularning bitta tur ekanini isbotlaydimi?",
+      "options": [
+        "Yo‘q, areallar ustma-ust tushishi mumkin",
+        "Ha, bir hududda faqat bitta tur bo‘lishi mumkin",
+        "Ha, barcha ekologik o‘rinlar bir xil",
+        "Yo‘q, chunki turlarning areali bo‘lmaydi"
+      ],
+      "correct_answer": "Yo‘q, areallar ustma-ust tushishi mumkin",
+      "explanation": "Geografik mezon tarqalish hududi, ekologik mezon esa muhit bilan aloqalar va ekologik o‘rin bilan bog‘liq. Bir hududda bir nechta tur yashashi mumkin."
+    },
+    {
+      "key": "paragraph-35-q7",
+      "fact_id": "paragraph-35-f7",
+      "question_text": "Bir xil xromosoma soni topilgan ikki guruhni qanday baholaysiz?",
+      "options": [
+        "Ularni darhol bir tur deb belgilayman",
+        "DNK va xulq ma’lumotini keraksiz deyman",
+        "Har bir individning yoshi bir xil deyman",
+        "Boshqa mezonlarni ham tekshiraman"
+      ],
+      "correct_answer": "Boshqa mezonlarni ham tekshiraman",
+      "explanation": "Genetik mezon kariotip belgilarini, etologik mezon xulq-atvorni taqqoslaydi. Xromosomalar soni teng bo‘lishining o‘zi bir tur ekanini kafolatlamaydi."
+    },
+    {
+      "key": "paragraph-35-q8",
+      "fact_id": "paragraph-35-f8",
+      "question_text": "Ikki o‘xshash guruhni ajratishda eng asosli yondashuv qaysi?",
+      "options": [
+        "Faqat bir individning suratini ko‘rish",
+        "Faqat tur nomining harflarini solishtirish",
+        "Bir nechta mustaqil mezonning dalillarini birlashtirish",
+        "Faqat bitta tashqi belgidan qat’iy xulosa chiqarish"
+      ],
+      "correct_answer": "Bir nechta mustaqil mezonning dalillarini birlashtirish",
+      "explanation": "Tur identifikatsiyasida morfologik, fiziologik, biokimyoviy, geografik, ekologik, genetik va etologik dalillar birgalikda baholanadi."
+    }
+  ]
+}

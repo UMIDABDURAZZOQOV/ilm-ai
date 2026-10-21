@@ -102,8 +102,8 @@ def test_distinct_continuation_questions_and_honest_theory_activity_counts():
     assert len(texts) == len(set(texts)), "Do not inflate counts with duplicate prompts"
     report = readiness_report(catalog, lessons)
     assert sum(r["topics"] for r in report) == 355
-    assert sum(r["ready_theory_lessons"] for r in report) == 277
-    assert sum(r["ready_activities"] for r in report) == 43
+    assert sum(r["ready_theory_lessons"] for r in report) == 303
+    assert sum(r["ready_activities"] for r in report) == 46
     assert all(r["course_ready"] for r in report[:5])
     assert not any(r["course_ready"] for r in report[5:])
     for row in report[:5]:

@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-24-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-29",
+  "title": "Genetika va inson salomatligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-24-f1": {
+      "claim": "Odam genetikasi irsiyatni o‘rganadi, ammo insonlarda tajriba uchun rejalashtirilgan chatishtirish qo‘llanmaydi. Shajara, sitogenetik, biokimyoviy va boshqa kuzatuv usullari ishlatiladi.",
+      "answer": "Insonlarda tajribaviy chatishtirishni qo‘llamaymiz",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f2": {
+      "claim": "Shajara sxemasida kvadrat erkak, doira ayol, to‘ldirilgan ramz o‘rganilayotgan belgiga ega shaxsni bildiradi; ma’no sxema kaliti bilan tekshiriladi.",
+      "answer": "O‘rganilayotgan belgiga ega ayolni",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f3": {
+      "claim": "Proband shajara o‘rganilishi undan boshlangan shaxs, sibs esa uning aka-uka va opa-singillaridir. Qarindoshlik bilan belgi ma’lumotini alohida yozish kerak.",
+      "answer": "Sibs",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          112
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f4": {
+      "claim": "Sitogenetik usul xromosomalar soni va ko‘rinadigan tuzilish o‘zgarishlarini o‘rganadi. Har bir bitta nukleotid almashishini oddiy kariotipdan ko‘rish talab etilmaydi.",
+      "answer": "Sitogenetik",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f5": {
+      "claim": "Bir va turli tuxumli egizaklar belgilarini taqqoslash irsiyat va muhit hissasini tahlil qilishga yordam beradi. Bu bitta kuzatuvdan barcha tafovutning yagona sababini isbotlash emas.",
+      "answer": "Belgi rivojlanishida irsiyat va muhit hissasini tahlil qilishga",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f6": {
+      "claim": "Biokimyoviy usul modda almashinuvi, ferment va boshqa mahsulotlarni tekshiradi; immunologik yondashuv immun tizim belgilarini o‘rganishda qo‘llanadi.",
+      "answer": "Biokimyoviy",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f7": {
+      "claim": "Populyatsion-statistik usul allel va genotip chastotalarini guruhda o‘rganadi. Modelning ideal shartlari bilan real populyatsiya natijasini farqlash kerak.",
+      "answer": "Yo‘q, chastota guruh ko‘rsatkichi, individual tashxis emas",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-24-f8": {
+      "claim": "Autosom retsessiv modelda Aa × aa dan 1/2 Aa va 1/2 aa kutiladi. Bu shartli hisob klinik tashxis yoki oilaga hukm emas.",
+      "answer": "1/2",
+      "source": {
+        "paragraph": 24,
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          115
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Odamni o‘rganish chegarasi",
+      "body": "Odam genetikasi irsiyatni o‘rganadi, ammo insonlarda tajriba uchun rejalashtirilgan chatishtirish qo‘llanmaydi. Shajara, sitogenetik, biokimyoviy va boshqa kuzatuv usullari ishlatiladi.",
+      "fact_ids": [
+        "paragraph-24-f1"
+      ]
+    },
+    {
+      "title": "Ramzni o‘qiymiz",
+      "body": "Shajara sxemasida kvadrat erkak, doira ayol, to‘ldirilgan ramz o‘rganilayotgan belgiga ega shaxsni bildiradi; ma’no sxema kaliti bilan tekshiriladi.",
+      "fact_ids": [
+        "paragraph-24-f2"
+      ]
+    },
+    {
+      "title": "Proband va sibs",
+      "body": "Proband shajara o‘rganilishi undan boshlangan shaxs, sibs esa uning aka-uka va opa-singillaridir. Qarindoshlik bilan belgi ma’lumotini alohida yozish kerak.",
+      "fact_ids": [
+        "paragraph-24-f3"
+      ]
+    },
+    {
+      "title": "Sitogenetik savol",
+      "body": "Sitogenetik usul xromosomalar soni va ko‘rinadigan tuzilish o‘zgarishlarini o‘rganadi. Har bir bitta nukleotid almashishini oddiy kariotipdan ko‘rish talab etilmaydi.",
+      "fact_ids": [
+        "paragraph-24-f4"
+      ]
+    },
+    {
+      "title": "Egizaklar taqqoslanadi",
+      "body": "Bir va turli tuxumli egizaklar belgilarini taqqoslash irsiyat va muhit hissasini tahlil qilishga yordam beradi. Bu bitta kuzatuvdan barcha tafovutning yagona sababini isbotlash emas.",
+      "fact_ids": [
+        "paragraph-24-f5"
+      ]
+    },
+    {
+      "title": "Mahsulotni o‘rganish",
+      "body": "Biokimyoviy usul modda almashinuvi, ferment va boshqa mahsulotlarni tekshiradi; immunologik yondashuv immun tizim belgilarini o‘rganishda qo‘llanadi.",
+      "fact_ids": [
+        "paragraph-24-f6"
+      ]
+    },
+    {
+      "title": "Populyatsiya — boshqa miqyos",
+      "body": "Populyatsion-statistik usul allel va genotip chastotalarini guruhda o‘rganadi. Modelning ideal shartlari bilan real populyatsiya natijasini farqlash kerak.",
+      "fact_ids": [
+        "paragraph-24-f7"
+      ]
+    },
+    {
+      "title": "Shartli modelni hisoblaymiz",
+      "body": "Autosom retsessiv modelda Aa × aa dan 1/2 Aa va 1/2 aa kutiladi. Bu shartli hisob klinik tashxis yoki oilaga hukm emas.",
+      "fact_ids": [
+        "paragraph-24-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-24-q1",
+      "fact_id": "paragraph-24-f1",
+      "question_text": "Odam irsiyati uchun nega shajara kabi kuzatuv usullari kerak?",
+      "options": [
+        "Odam irsiyati muhitdan butunlay mustaqilligi uchun",
+        "Insonlarda tajribaviy chatishtirishni qo‘llamaymiz",
+        "Odamda DNK yo‘qligi uchun",
+        "Odamda barcha belgi faqat bitta gendan kelgani uchun"
+      ],
+      "correct_answer": "Insonlarda tajribaviy chatishtirishni qo‘llamaymiz",
+      "explanation": "Odam genetikasi irsiyatni o‘rganadi, ammo insonlarda tajriba uchun rejalashtirilgan chatishtirish qo‘llanmaydi. Shajara, sitogenetik, biokimyoviy va boshqa kuzatuv usullari ishlatiladi."
+    },
+    {
+      "key": "paragraph-24-q2",
+      "fact_id": "paragraph-24-f2",
+      "question_text": "Shajarada to‘ldirilgan doira, shu kalit bo‘yicha, nimani bildiradi?",
+      "options": [
+        "O‘rganilayotgan belgiga ega ayolni",
+        "Faqat barcha ayollarni",
+        "Belgiga ega erkakni",
+        "Majburiy tashuvchi erkakni"
+      ],
+      "correct_answer": "O‘rganilayotgan belgiga ega ayolni",
+      "explanation": "Shajara sxemasida kvadrat erkak, doira ayol, to‘ldirilgan ramz o‘rganilayotgan belgiga ega shaxsni bildiradi; ma’no sxema kaliti bilan tekshiriladi."
+    },
+    {
+      "key": "paragraph-24-q3",
+      "fact_id": "paragraph-24-f3",
+      "question_text": "Probandning singlisi shajara terminida qaysi guruhga kiradi?",
+      "options": [
+        "Faqat ota-ona avlodi",
+        "Gomolog xromosomalar",
+        "Faqat gametalar",
+        "Sibs"
+      ],
+      "correct_answer": "Sibs",
+      "explanation": "Proband shajara o‘rganilishi undan boshlangan shaxs, sibs esa uning aka-uka va opa-singillaridir. Qarindoshlik bilan belgi ma’lumotini alohida yozish kerak."
+    },
+    {
+      "key": "paragraph-24-q4",
+      "fact_id": "paragraph-24-f4",
+      "question_text": "Xromosoma soni o‘zgarganini tekshirish uchun qaysi usul eng mos?",
+      "options": [
+        "Faqat oziqning kaloriyasini hisoblash",
+        "Faqat ekin urug‘ini chatishtirish",
+        "Sitogenetik",
+        "Faqat shaxsning ko‘z rangini so‘rash"
+      ],
+      "correct_answer": "Sitogenetik",
+      "explanation": "Sitogenetik usul xromosomalar soni va ko‘rinadigan tuzilish o‘zgarishlarini o‘rganadi. Har bir bitta nukleotid almashishini oddiy kariotipdan ko‘rish talab etilmaydi."
+    },
+    {
+      "key": "paragraph-24-q5",
+      "fact_id": "paragraph-24-f5",
+      "question_text": "Egizaklar usuli qanday savolga yordam beradi?",
+      "options": [
+        "Barcha ijtimoiy qobiliyatni bitta allelga keltirishga",
+        "Belgi rivojlanishida irsiyat va muhit hissasini tahlil qilishga",
+        "Har bir belgini faqat muhit belgilashini oldindan e’lon qilishga",
+        "Har bir egizakda genotip mutlaqo aloqasizligini isbotlashga"
+      ],
+      "correct_answer": "Belgi rivojlanishida irsiyat va muhit hissasini tahlil qilishga",
+      "explanation": "Bir va turli tuxumli egizaklar belgilarini taqqoslash irsiyat va muhit hissasini tahlil qilishga yordam beradi. Bu bitta kuzatuvdan barcha tafovutning yagona sababini isbotlash emas."
+    },
+    {
+      "key": "paragraph-24-q6",
+      "fact_id": "paragraph-24-f6",
+      "question_text": "Ferment faolligi va metabolit miqdori haqida ma’lumot beruvchi usulni tanlang.",
+      "options": [
+        "Biokimyoviy",
+        "Faqat kariotipni sanash",
+        "Faqat geografik xarita",
+        "Faqat tashqi rang tasviri"
+      ],
+      "correct_answer": "Biokimyoviy",
+      "explanation": "Biokimyoviy usul modda almashinuvi, ferment va boshqa mahsulotlarni tekshiradi; immunologik yondashuv immun tizim belgilarini o‘rganishda qo‘llanadi."
+    },
+    {
+      "key": "paragraph-24-q7",
+      "fact_id": "paragraph-24-f7",
+      "question_text": "Populyatsiyadagi allel chastotasini bitta odamning tashxisi bilan tenglashtirish to‘g‘rimi?",
+      "options": [
+        "Ha, guruh foizi har bir odamning tayyor tashxisi",
+        "Ha, chastota har odamdagi xromosomalar soni",
+        "Yo‘q, chunki populyatsiyada genotip bo‘lmaydi",
+        "Yo‘q, chastota guruh ko‘rsatkichi, individual tashxis emas"
+      ],
+      "correct_answer": "Yo‘q, chastota guruh ko‘rsatkichi, individual tashxis emas",
+      "explanation": "Populyatsion-statistik usul allel va genotip chastotalarini guruhda o‘rganadi. Modelning ideal shartlari bilan real populyatsiya natijasini farqlash kerak."
+    },
+    {
+      "key": "paragraph-24-q8",
+      "fact_id": "paragraph-24-f8",
+      "question_text": "Aa × aa retsessiv modelida aa ehtimoli qancha?",
+      "options": [
+        "3/4",
+        "1",
+        "1/2",
+        "1/4"
+      ],
+      "correct_answer": "1/2",
+      "explanation": "Autosom retsessiv modelda Aa × aa dan 1/2 Aa va 1/2 aa kutiladi. Bu shartli hisob klinik tashxis yoki oilaga hukm emas."
+    }
+  ]
+}

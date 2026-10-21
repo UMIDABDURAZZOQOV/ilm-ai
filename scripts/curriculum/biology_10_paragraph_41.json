@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-41-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-49",
+  "title": "Yashash uchun kurash va uning turlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-41-f1": {
+      "claim": "Darvin yashash uchun kurashni faqat jismoniy olishuv emas, resurslar, muhit sharoiti va avlod qoldirish bilan bog‘liq murakkab munosabatlar ma’nosida ishlatgan.",
+      "answer": "U resurs, muhit va ko‘payishga oid munosabatlarni ham qamrab oladi",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-41-f2": {
+      "claim": "Ikki tur bir xil cheklangan oziqdan foydalansa, turlararo raqobat kuzatilishi mumkin. Yirtqich–o‘lja munosabati esa boshqa turdagi aloqadir.",
+      "answer": "Turlararo raqobat",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          176
+        ],
+        "printed_pages": [
+          176
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-41-f3": {
+      "claim": "Yirtqichning o‘lja bilan oziqlanishi va parazitning xo‘jayindan foydalanishi turlararo munosabatlardir; ular bir xil populyatsiya ichidagi oziq raqobati emas.",
+      "answer": "Turlararo yirtqich–o‘lja",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          176
+        ],
+        "printed_pages": [
+          176
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-41-f4": {
+      "claim": "Bir tur individlari o‘xshash resurslarga talab qo‘yishi sababli tur ichidagi raqobat kuchli bo‘lishi mumkin. Zich ekilgan o‘simliklarda yorug‘lik va suv uchun raqobat misol bo‘ladi.",
+      "answer": "Tur ichidagi",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          177
+        ],
+        "printed_pages": [
+          177
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-41-f5": {
+      "claim": "Sovuq, issiq yoki nam yetishmasligi kabi abiotik omillar ham yashab qolishga ta’sir qiladi. Bularning har birini boshqa organizm bilan to‘qnashuv deb bo‘lmaydi.",
+      "answer": "Abiotik",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          178
+        ],
+        "printed_pages": [
+          178
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-41-f6": {
+      "claim": "Ko‘chatlar orasidagi masofa bir xil resurslar uchun raqobatga aloqador; changlatuvchi bilan o‘simlik orasidagi aloqa esa o‘zaro foydali bo‘lishi mumkin.",
+      "answer": "Yorug‘lik, suv va mineral resurslar uchun raqobatga ta’sir qiladi",
+      "source": {
+        "paragraph": 41,
+        "pdf_pages": [
+          178
+        ],
+        "printed_pages": [
+          178
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Kurashning keng ma’nosi",
+      "body": "Darvin yashash uchun kurashni faqat jismoniy olishuv emas, resurslar, muhit sharoiti va avlod qoldirish bilan bog‘liq murakkab munosabatlar ma’nosida ishlatgan.",
+      "fact_ids": [
+        "paragraph-41-f1"
+      ]
+    },
+    {
+      "title": "Bir resurs, ikki tur",
+      "body": "Ikki tur bir xil cheklangan oziqdan foydalansa, turlararo raqobat kuzatilishi mumkin. Yirtqich–o‘lja munosabati esa boshqa turdagi aloqadir.",
+      "fact_ids": [
+        "paragraph-41-f2"
+      ]
+    },
+    {
+      "title": "Yirtqich va o‘lja",
+      "body": "Yirtqichning o‘lja bilan oziqlanishi va parazitning xo‘jayindan foydalanishi turlararo munosabatlardir; ular bir xil populyatsiya ichidagi oziq raqobati emas.",
+      "fact_ids": [
+        "paragraph-41-f3"
+      ]
+    },
+    {
+      "title": "O‘xshash ehtiyojlar",
+      "body": "Bir tur individlari o‘xshash resurslarga talab qo‘yishi sababli tur ichidagi raqobat kuchli bo‘lishi mumkin. Zich ekilgan o‘simliklarda yorug‘lik va suv uchun raqobat misol bo‘ladi.",
+      "fact_ids": [
+        "paragraph-41-f4"
+      ]
+    },
+    {
+      "title": "Abiotik sharoit",
+      "body": "Sovuq, issiq yoki nam yetishmasligi kabi abiotik omillar ham yashab qolishga ta’sir qiladi. Bularning har birini boshqa organizm bilan to‘qnashuv deb bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-41-f5"
+      ]
+    },
+    {
+      "title": "Amaliy aloqalarni tushunish",
+      "body": "Ko‘chatlar orasidagi masofa bir xil resurslar uchun raqobatga aloqador; changlatuvchi bilan o‘simlik orasidagi aloqa esa o‘zaro foydali bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-41-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-41-q1",
+      "fact_id": "paragraph-41-f1",
+      "question_text": "Yashash uchun kurash atamasini faqat jangga tenglashtirish nega tor?",
+      "options": [
+        "U faqat organizmning tana vazniga teng",
+        "U resurs, muhit va ko‘payishga oid munosabatlarni ham qamrab oladi",
+        "U faqat sport musobaqasining biologik nomi",
+        "U faqat yirtqichning tishini anglatadi"
+      ],
+      "correct_answer": "U resurs, muhit va ko‘payishga oid munosabatlarni ham qamrab oladi",
+      "explanation": "Darvin yashash uchun kurashni faqat jismoniy olishuv emas, resurslar, muhit sharoiti va avlod qoldirish bilan bog‘liq murakkab munosabatlar ma’nosida ishlatgan."
+    },
+    {
+      "key": "paragraph-41-q2",
+      "fact_id": "paragraph-41-f2",
+      "question_text": "Bo‘ri va tulki bir xil o‘lja resursidan foydalansa, ular orasidagi aloqa qaysi?",
+      "options": [
+        "Turlararo raqobat",
+        "Tur ichidagi raqobat",
+        "Bevosita bir turdagi juftlashish",
+        "Faqat DNK nusxalanishi"
+      ],
+      "correct_answer": "Turlararo raqobat",
+      "explanation": "Ikki tur bir xil cheklangan oziqdan foydalansa, turlararo raqobat kuzatilishi mumkin. Yirtqich–o‘lja munosabati esa boshqa turdagi aloqadir."
+    },
+    {
+      "key": "paragraph-41-q3",
+      "fact_id": "paragraph-41-f3",
+      "question_text": "Yirtqich qush va u oziqlanadigan baliq orasidagi aloqa qanday?",
+      "options": [
+        "Bir tur ichidagi juft tanlash",
+        "Faqat abiotik harorat ta’siri",
+        "Faqat o‘simliklarning yorug‘lik uchun raqobati",
+        "Turlararo yirtqich–o‘lja"
+      ],
+      "correct_answer": "Turlararo yirtqich–o‘lja",
+      "explanation": "Yirtqichning o‘lja bilan oziqlanishi va parazitning xo‘jayindan foydalanishi turlararo munosabatlardir; ular bir xil populyatsiya ichidagi oziq raqobati emas."
+    },
+    {
+      "key": "paragraph-41-q4",
+      "fact_id": "paragraph-41-f4",
+      "question_text": "Bir nav bug‘doy nihollarining zich ekilganda yorug‘lik uchun raqobati qaysi guruhga kiradi?",
+      "options": [
+        "Faqat abiotik sovuqning bevosita ta’siri",
+        "Faqat mutualizm",
+        "Tur ichidagi",
+        "Faqat turlararo yirtqichlik"
+      ],
+      "correct_answer": "Tur ichidagi",
+      "explanation": "Bir tur individlari o‘xshash resurslarga talab qo‘yishi sababli tur ichidagi raqobat kuchli bo‘lishi mumkin. Zich ekilgan o‘simliklarda yorug‘lik va suv uchun raqobat misol bo‘ladi."
+    },
+    {
+      "key": "paragraph-41-q5",
+      "fact_id": "paragraph-41-f5",
+      "question_text": "Qurg‘oqchilikning o‘simlikka bevosita ta’siri qaysi turdagi omil?",
+      "options": [
+        "Faqat genlarning birikishi",
+        "Abiotik",
+        "Faqat tur ichidagi juftlashish",
+        "Faqat turlararo yirtqichlik"
+      ],
+      "correct_answer": "Abiotik",
+      "explanation": "Sovuq, issiq yoki nam yetishmasligi kabi abiotik omillar ham yashab qolishga ta’sir qiladi. Bularning har birini boshqa organizm bilan to‘qnashuv deb bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-41-q6",
+      "fact_id": "paragraph-41-f6",
+      "question_text": "Nega bog‘da ko‘chatlar orasidagi masofa muhim?",
+      "options": [
+        "Yorug‘lik, suv va mineral resurslar uchun raqobatga ta’sir qiladi",
+        "Har bir ko‘chatning barcha genlarini avtomatik almashtiradi",
+        "Faqat nav nomini o‘zgartiradi",
+        "Har qanday o‘simlikni mustaqil yangi turga aylantiradi"
+      ],
+      "correct_answer": "Yorug‘lik, suv va mineral resurslar uchun raqobatga ta’sir qiladi",
+      "explanation": "Ko‘chatlar orasidagi masofa bir xil resurslar uchun raqobatga aloqador; changlatuvchi bilan o‘simlik orasidagi aloqa esa o‘zaro foydali bo‘lishi mumkin."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-47-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-56",
+  "title": "Evolutsiyani isbotlashda solishtirma anatomiya, paleontologiya fanlari dalillari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-47-f1": {
+      "claim": "Gomolog organlar umumiy kelib chiqish va tuzilish rejasiga bog‘liq; ular turli vazifani bajarishi mumkin. Umurtqali oldingi oyoqlar bunga misoldir.",
+      "answer": "Umumiy kelib chiqish va asosiy suyak rejasi",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          204
+        ],
+        "printed_pages": [
+          204
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-47-f2": {
+      "claim": "Analog organlar o‘xshash vazifani bajarsa-da, kelib chiqishi farq qiladi. Hasharot qanoti va qushning uchish organi funksional taqqoslashda analog misoldir.",
+      "answer": "Analogiya",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          205
+        ],
+        "printed_pages": [
+          205
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-47-f3": {
+      "claim": "Kaktus tikani barg, do‘lana tikani poya o‘zgarishi sifatida keltiriladi. O‘xshash himoya vazifasi ularni avtomatik bir xil kelib chiqishli qilmaydi.",
+      "answer": "Barg va poya kelib chiqishi",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          205
+        ],
+        "printed_pages": [
+          205
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-47-f4": {
+      "claim": "Rudiment ajdoddagi tuzilmaning kamaygan qoldig‘i, atavizm esa ayrim individda ajdodga xos belgi qayta namoyon bo‘lishi sifatida muhokama qilinadi. Rudimentning barcha funksiyasi nol deyish shart emas.",
+      "answer": "Atavizm",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          205
+        ],
+        "printed_pages": [
+          205
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-47-f5": {
+      "claim": "Paleontologiya qadimgi organizm qoldiqlari va izlarini o‘rganadi. Suyak, chig‘anoq va izlarning qatlamlarda saqlanishi o‘tmish hayot haqida ma’lumot beradi.",
+      "answer": "Paleontologik",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          206
+        ],
+        "printed_pages": [
+          206
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-47-f6": {
+      "claim": "Qattiq qismlar ko‘proq saqlanishi va qoldiqlarning parchalanishi qazilma yozuvning to‘liq bo‘lmasligini tushuntiradi. Topilmagan qoldiq organizm hech yashamaganining avtomatik isboti emas.",
+      "answer": "Saqlanish sharoiti va parchalanish tufayli yozuv to‘liq emas",
+      "source": {
+        "paragraph": 47,
+        "pdf_pages": [
+          206
+        ],
+        "printed_pages": [
+          206
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gomologiyani nimadan bilamiz?",
+      "body": "Gomolog organlar umumiy kelib chiqish va tuzilish rejasiga bog‘liq; ular turli vazifani bajarishi mumkin. Umurtqali oldingi oyoqlar bunga misoldir.",
+      "fact_ids": [
+        "paragraph-47-f1"
+      ]
+    },
+    {
+      "title": "Analogiyada vazifa muhim",
+      "body": "Analog organlar o‘xshash vazifani bajarsa-da, kelib chiqishi farq qiladi. Hasharot qanoti va qushning uchish organi funksional taqqoslashda analog misoldir.",
+      "fact_ids": [
+        "paragraph-47-f2"
+      ]
+    },
+    {
+      "title": "Bir so‘z, turli kelib chiqish",
+      "body": "Kaktus tikani barg, do‘lana tikani poya o‘zgarishi sifatida keltiriladi. O‘xshash himoya vazifasi ularni avtomatik bir xil kelib chiqishli qilmaydi.",
+      "fact_ids": [
+        "paragraph-47-f3"
+      ]
+    },
+    {
+      "title": "Rudiment va atavizm",
+      "body": "Rudiment ajdoddagi tuzilmaning kamaygan qoldig‘i, atavizm esa ayrim individda ajdodga xos belgi qayta namoyon bo‘lishi sifatida muhokama qilinadi. Rudimentning barcha funksiyasi nol deyish shart emas.",
+      "fact_ids": [
+        "paragraph-47-f4"
+      ]
+    },
+    {
+      "title": "Qazilma dalili",
+      "body": "Paleontologiya qadimgi organizm qoldiqlari va izlarini o‘rganadi. Suyak, chig‘anoq va izlarning qatlamlarda saqlanishi o‘tmish hayot haqida ma’lumot beradi.",
+      "fact_ids": [
+        "paragraph-47-f5"
+      ]
+    },
+    {
+      "title": "To‘liq bo‘lmagan solnoma",
+      "body": "Qattiq qismlar ko‘proq saqlanishi va qoldiqlarning parchalanishi qazilma yozuvning to‘liq bo‘lmasligini tushuntiradi. Topilmagan qoldiq organizm hech yashamaganining avtomatik isboti emas.",
+      "fact_ids": [
+        "paragraph-47-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-47-q1",
+      "fact_id": "paragraph-47-f1",
+      "question_text": "Kitning oldingi suzgichi bilan quruqlik umurtqalisi oldingi oyog‘ini gomolog deyishga nima asos?",
+      "options": [
+        "Faqat tashqi rangi bir xil bo‘lishi",
+        "Umumiy kelib chiqish va asosiy suyak rejasi",
+        "Har doim aynan bir xil vazifa bajarishi",
+        "Har ikkisida suyak umuman yo‘qligi"
+      ],
+      "correct_answer": "Umumiy kelib chiqish va asosiy suyak rejasi",
+      "explanation": "Gomolog organlar umumiy kelib chiqish va tuzilish rejasiga bog‘liq; ular turli vazifani bajarishi mumkin. Umurtqali oldingi oyoqlar bunga misoldir."
+    },
+    {
+      "key": "paragraph-47-q2",
+      "fact_id": "paragraph-47-f2",
+      "question_text": "Hasharot qanoti bilan qush qanotini uchish vazifasi bo‘yicha o‘xshash deyish qaysi dalil?",
+      "options": [
+        "Analogiya",
+        "Ikkalasining bir xil oldingi oyoq suyaklaridan tuzilishi",
+        "Faqat xromosoma sonining tengligi",
+        "Faqat bir xil gametadan kelib chiqishi"
+      ],
+      "correct_answer": "Analogiya",
+      "explanation": "Analog organlar o‘xshash vazifani bajarsa-da, kelib chiqishi farq qiladi. Hasharot qanoti va qushning uchish organi funksional taqqoslashda analog misoldir."
+    },
+    {
+      "key": "paragraph-47-q3",
+      "fact_id": "paragraph-47-f3",
+      "question_text": "Kaktus va do‘lana tikanida qaysi farq muhim?",
+      "options": [
+        "Faqat ikkalasining o‘simlik ekani",
+        "Faqat ikkalasining himoyada qatnashishi",
+        "Faqat ikkalasida suv mavjudligi",
+        "Barg va poya kelib chiqishi"
+      ],
+      "correct_answer": "Barg va poya kelib chiqishi",
+      "explanation": "Kaktus tikani barg, do‘lana tikani poya o‘zgarishi sifatida keltiriladi. O‘xshash himoya vazifasi ularni avtomatik bir xil kelib chiqishli qilmaydi."
+    },
+    {
+      "key": "paragraph-47-q4",
+      "fact_id": "paragraph-47-f4",
+      "question_text": "Ayrim individda ajdodga xos belgining qayta ko‘rinishi qaysi tushuncha?",
+      "options": [
+        "Faqat genetik kodning uchligi",
+        "Faqat tabiiy areal",
+        "Atavizm",
+        "Har qanday rudimentning oddiy mavjudligi"
+      ],
+      "correct_answer": "Atavizm",
+      "explanation": "Rudiment ajdoddagi tuzilmaning kamaygan qoldig‘i, atavizm esa ayrim individda ajdodga xos belgi qayta namoyon bo‘lishi sifatida muhokama qilinadi. Rudimentning barcha funksiyasi nol deyish shart emas."
+    },
+    {
+      "key": "paragraph-47-q5",
+      "fact_id": "paragraph-47-f5",
+      "question_text": "Qadimgi organizm izining tosh qatlamda saqlanishi qaysi dalilga kiradi?",
+      "options": [
+        "Faqat oila shajarasi",
+        "Paleontologik",
+        "Faqat tirik hujayra transkripsiyasi",
+        "Faqat zamonaviy rang o‘lchovi"
+      ],
+      "correct_answer": "Paleontologik",
+      "explanation": "Paleontologiya qadimgi organizm qoldiqlari va izlarini o‘rganadi. Suyak, chig‘anoq va izlarning qatlamlarda saqlanishi o‘tmish hayot haqida ma’lumot beradi."
+    },
+    {
+      "key": "paragraph-47-q6",
+      "fact_id": "paragraph-47-f6",
+      "question_text": "Nega barcha qadimgi organizmning to‘liq skeleti topilishi shart emas?",
+      "options": [
+        "Saqlanish sharoiti va parchalanish tufayli yozuv to‘liq emas",
+        "Barcha organizmning skeleti bir xil mineral",
+        "Qadimda faqat bitta tur yashagan",
+        "Har bir to‘qima doim bir xil saqlanadi"
+      ],
+      "correct_answer": "Saqlanish sharoiti va parchalanish tufayli yozuv to‘liq emas",
+      "explanation": "Qattiq qismlar ko‘proq saqlanishi va qoldiqlarning parchalanishi qazilma yozuvning to‘liq bo‘lmasligini tushuntiradi. Topilmagan qoldiq organizm hech yashamaganining avtomatik isboti emas."
+    }
+  ]
+}

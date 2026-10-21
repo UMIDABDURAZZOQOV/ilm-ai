@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-38-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-45",
+  "title": "K. Linney, J.B. Lamarkning ilmiy ishlari, J. Kyuvening evolutsion g‘oyalari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-38-f1": {
+      "claim": "Linney turlarni nomlash va guruhlashni tartibga solishga katta hissa qo‘shgan. Darslik uning ayrim belgilarga tayangan tizimini sun’iy tizim deb tavsiflaydi.",
+      "answer": "Ko‘plab organizmlarni nomlash va guruhlashni tartibga solish",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-38-f2": {
+      "claim": "Faqat oz sonli belgi bilan tuzilgan sun’iy tizim qarindosh organizmlarni ajratib, qarindosh bo‘lmaganlarni birlashtirishi mumkin.",
+      "answer": "Haqiqiy qarindoshlikni noto‘g‘ri aks ettirishi mumkin",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          161
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-38-f3": {
+      "claim": "Lamark turlar o‘zgarishi va uzoq tarixiy rivojlanishni himoya qilgan; uning mexanizmga oid qarashlari bugungi irsiyat nazariyasi bilan aynan bir emas.",
+      "answer": "Turlar o‘zgarishini himoya qilishi",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-38-f4": {
+      "claim": "Lamark organlarni mashq qildirish yoki ishlatmaslikni o‘zgarish izohida qo‘llagan. Bu tarixiy izohni barcha orttirilgan belgilar naslga muqarrar o‘tadi degan zamonaviy qoida sifatida bermaymiz.",
+      "answer": "Lamarkning tarixiy mexanizm qarashi sifatida",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-38-f5": {
+      "claim": "Kyuve qiyosiy anatomiya va paleontologiya bilan shug‘ullangan, organlar o‘zaro bog‘liqligiga asoslanib qazilmalarni talqin qilishga hissa qo‘shgan.",
+      "answer": "Jorj Kyuve",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          163
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-38-f6": {
+      "claim": "Embriologik taqqoslashlar va hujayra nazariyasi turli organizmlarning tuzilishida umumiylik borligini ko‘rsatgan; bu evolutsion izlanishlar uchun dalillar doirasini kengaytirgan.",
+      "answer": "Organizmlar tuzilishidagi umumiylikni aniqlashga yordam berishi",
+      "source": {
+        "paragraph": 38,
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Linney tizimlashtirdi",
+      "body": "Linney turlarni nomlash va guruhlashni tartibga solishga katta hissa qo‘shgan. Darslik uning ayrim belgilarga tayangan tizimini sun’iy tizim deb tavsiflaydi.",
+      "fact_ids": [
+        "paragraph-38-f1"
+      ]
+    },
+    {
+      "title": "Tasnif va qarindoshlik",
+      "body": "Faqat oz sonli belgi bilan tuzilgan sun’iy tizim qarindosh organizmlarni ajratib, qarindosh bo‘lmaganlarni birlashtirishi mumkin.",
+      "fact_ids": [
+        "paragraph-38-f2"
+      ]
+    },
+    {
+      "title": "Lamarkning tarixiy nazariyasi",
+      "body": "Lamark turlar o‘zgarishi va uzoq tarixiy rivojlanishni himoya qilgan; uning mexanizmga oid qarashlari bugungi irsiyat nazariyasi bilan aynan bir emas.",
+      "fact_ids": [
+        "paragraph-38-f3"
+      ]
+    },
+    {
+      "title": "Tarixiy mexanizmni ajratamiz",
+      "body": "Lamark organlarni mashq qildirish yoki ishlatmaslikni o‘zgarish izohida qo‘llagan. Bu tarixiy izohni barcha orttirilgan belgilar naslga muqarrar o‘tadi degan zamonaviy qoida sifatida bermaymiz.",
+      "fact_ids": [
+        "paragraph-38-f4"
+      ]
+    },
+    {
+      "title": "Kyuve va organlar aloqasi",
+      "body": "Kyuve qiyosiy anatomiya va paleontologiya bilan shug‘ullangan, organlar o‘zaro bog‘liqligiga asoslanib qazilmalarni talqin qilishga hissa qo‘shgan.",
+      "fact_ids": [
+        "paragraph-38-f5"
+      ]
+    },
+    {
+      "title": "Bilimlar yaqinlashadi",
+      "body": "Embriologik taqqoslashlar va hujayra nazariyasi turli organizmlarning tuzilishida umumiylik borligini ko‘rsatgan; bu evolutsion izlanishlar uchun dalillar doirasini kengaytirgan.",
+      "fact_ids": [
+        "paragraph-38-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-38-q1",
+      "fact_id": "paragraph-38-f1",
+      "question_text": "Linney tizimining muhim tarixiy foydasi qaysi?",
+      "options": [
+        "DNKning qo‘sh spiralini aniqlash",
+        "Ko‘plab organizmlarni nomlash va guruhlashni tartibga solish",
+        "Barcha evolutsiya mexanizmini genetik jihatdan isbotlash",
+        "Barcha qazilma yoshini radiometrik o‘lchash"
+      ],
+      "correct_answer": "Ko‘plab organizmlarni nomlash va guruhlashni tartibga solish",
+      "explanation": "Linney turlarni nomlash va guruhlashni tartibga solishga katta hissa qo‘shgan. Darslik uning ayrim belgilarga tayangan tizimini sun’iy tizim deb tavsiflaydi."
+    },
+    {
+      "key": "paragraph-38-q2",
+      "fact_id": "paragraph-38-f2",
+      "question_text": "Tasnifda faqat bitta belgi tanlashning xavfi nimada?",
+      "options": [
+        "Haqiqiy qarindoshlikni noto‘g‘ri aks ettirishi mumkin",
+        "Har doim barcha qarindoshlikni to‘liq ko‘rsatadi",
+        "Organizmdagi DNKni yo‘qotadi",
+        "Har qanday organizmni avtomatik yangi tur qiladi"
+      ],
+      "correct_answer": "Haqiqiy qarindoshlikni noto‘g‘ri aks ettirishi mumkin",
+      "explanation": "Faqat oz sonli belgi bilan tuzilgan sun’iy tizim qarindosh organizmlarni ajratib, qarindosh bo‘lmaganlarni birlashtirishi mumkin."
+    },
+    {
+      "key": "paragraph-38-q3",
+      "fact_id": "paragraph-38-f3",
+      "question_text": "Lamark qarashidagi muhim tarixiy qadam qaysi?",
+      "options": [
+        "DNK polimerazasini ajratishi",
+        "Mendel nisbatlarini tajribada ochishi",
+        "Xromosoma xaritasini tuzishi",
+        "Turlar o‘zgarishini himoya qilishi"
+      ],
+      "correct_answer": "Turlar o‘zgarishini himoya qilishi",
+      "explanation": "Lamark turlar o‘zgarishi va uzoq tarixiy rivojlanishni himoya qilgan; uning mexanizmga oid qarashlari bugungi irsiyat nazariyasi bilan aynan bir emas."
+    },
+    {
+      "key": "paragraph-38-q4",
+      "fact_id": "paragraph-38-f4",
+      "question_text": "Mashq va ishlatmaslik haqidagi bayonni qanday belgilash to‘g‘ri?",
+      "options": [
+        "Faqat DNK replikatsiyasi modeli sifatida",
+        "Faqat gametalarning tozaligi qonuni sifatida",
+        "Lamarkning tarixiy mexanizm qarashi sifatida",
+        "Barcha orttirilgan belgi uchun isbotlangan universal irsiyat sifatida"
+      ],
+      "correct_answer": "Lamarkning tarixiy mexanizm qarashi sifatida",
+      "explanation": "Lamark organlarni mashq qildirish yoki ishlatmaslikni o‘zgarish izohida qo‘llagan. Bu tarixiy izohni barcha orttirilgan belgilar naslga muqarrar o‘tadi degan zamonaviy qoida sifatida bermaymiz."
+    },
+    {
+      "key": "paragraph-38-q5",
+      "fact_id": "paragraph-38-f5",
+      "question_text": "Qazilma suyaklarni qiyosiy anatomiya bilan talqin qilish qaysi olim faoliyatiga bog‘langan?",
+      "options": [
+        "Tomas Morgan",
+        "Jorj Kyuve",
+        "Gregor Mendel",
+        "Barbara Mak-Klintok"
+      ],
+      "correct_answer": "Jorj Kyuve",
+      "explanation": "Kyuve qiyosiy anatomiya va paleontologiya bilan shug‘ullangan, organlar o‘zaro bog‘liqligiga asoslanib qazilmalarni talqin qilishga hissa qo‘shgan."
+    },
+    {
+      "key": "paragraph-38-q6",
+      "fact_id": "paragraph-38-f6",
+      "question_text": "Hujayra nazariyasi bilan embriologik taqqoslashning umumiy hissasi qaysi?",
+      "options": [
+        "Organizmlar tuzilishidagi umumiylikni aniqlashga yordam berishi",
+        "Barcha organizm bir xil tashqi ko‘rinishda ekanini aytishi",
+        "Mavjud allellarning hammasini yo‘q qilishi",
+        "Turlar haqida boshqa kuzatuvni keraksiz qilishi"
+      ],
+      "correct_answer": "Organizmlar tuzilishidagi umumiylikni aniqlashga yordam berishi",
+      "explanation": "Embriologik taqqoslashlar va hujayra nazariyasi turli organizmlarning tuzilishida umumiylik borligini ko‘rsatgan; bu evolutsion izlanishlar uchun dalillar doirasini kengaytirgan."
+    }
+  ]
+}

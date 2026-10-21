@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-34-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-39",
+  "title": "O‘zbekistonda gen muhandisligi va biotexnologiya fani yutuqlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-34-f1": {
+      "claim": "2017-yilgi darslik O‘zbekistonda gen muhandisligi tadqiqotlari boshlanishini 1980-yillar va O. S. Sodiqov tashabbusi bilan bog‘laydi. Bu tarixiy bayon, bugungi ko‘rsatkichlar jadvali emas.",
+      "answer": "1980-yillarga",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-34-f2": {
+      "claim": "Darslik I. Abdurahmonov va hamkorlarining paxta tolasi sifati va gullashga aloqador genlar tadqiqotlarini misol qiladi. Maqsad agronomik xossalarni o‘rganishdir.",
+      "answer": "Ekinning sifat ko‘rsatkichini o‘rganish va yaxshilash",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-34-f3": {
+      "claim": "Darslik O‘zbekistondagi biotexnologik izlanishlarda gepatit Bga oid diagnostika va vaksina yo‘nalishlari, shuningdek PCR bilan bog‘liq tashxis tadqiqotlarini keltiradi.",
+      "answer": "Diagnostik biotexnologiyaga",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-34-f4": {
+      "claim": "Gen daktiloskopiyasi DNK belgilarini taqqoslab identifikatsiya qilishga yordam beradi; uni oddiy barmoq izi suratining o‘zi bilan tenglashtirmaymiz.",
+      "answer": "DNK belgilariga",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-34-f5": {
+      "claim": "Darslik gen nokauti bilan ayrim gen funksiyasini to‘xtatib, uning belgidagi rolini o‘rganishni misol qiladi. Genni o‘chirish bilan butun genomni yo‘q qilish bir xil emas.",
+      "answer": "Ushbu genning belgi rivojlanishidagi roliga",
+      "source": {
+        "paragraph": 34,
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Manbadagi tarixiy bosqich",
+      "body": "2017-yilgi darslik O‘zbekistonda gen muhandisligi tadqiqotlari boshlanishini 1980-yillar va O. S. Sodiqov tashabbusi bilan bog‘laydi. Bu tarixiy bayon, bugungi ko‘rsatkichlar jadvali emas.",
+      "fact_ids": [
+        "paragraph-34-f1"
+      ]
+    },
+    {
+      "title": "Ekin uchun tadqiqot nishoni",
+      "body": "Darslik I. Abdurahmonov va hamkorlarining paxta tolasi sifati va gullashga aloqador genlar tadqiqotlarini misol qiladi. Maqsad agronomik xossalarni o‘rganishdir.",
+      "fact_ids": [
+        "paragraph-34-f2"
+      ]
+    },
+    {
+      "title": "Diagnostika yo‘nalishi",
+      "body": "Darslik O‘zbekistondagi biotexnologik izlanishlarda gepatit Bga oid diagnostika va vaksina yo‘nalishlari, shuningdek PCR bilan bog‘liq tashxis tadqiqotlarini keltiradi.",
+      "fact_ids": [
+        "paragraph-34-f3"
+      ]
+    },
+    {
+      "title": "DNK orqali identifikatsiya",
+      "body": "Gen daktiloskopiyasi DNK belgilarini taqqoslab identifikatsiya qilishga yordam beradi; uni oddiy barmoq izi suratining o‘zi bilan tenglashtirmaymiz.",
+      "fact_ids": [
+        "paragraph-34-f4"
+      ]
+    },
+    {
+      "title": "Gen faolligini o‘rganish",
+      "body": "Darslik gen nokauti bilan ayrim gen funksiyasini to‘xtatib, uning belgidagi rolini o‘rganishni misol qiladi. Genni o‘chirish bilan butun genomni yo‘q qilish bir xil emas.",
+      "fact_ids": [
+        "paragraph-34-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-34-q1",
+      "fact_id": "paragraph-34-f1",
+      "question_text": "Darslikda O‘zbekistondagi tadqiqotlar boshlanishi qaysi davrga bog‘langan?",
+      "options": [
+        "Faqat XIX asr boshiga",
+        "1980-yillarga",
+        "Faqat XVIII asrga",
+        "Faqat 2026-yilga"
+      ],
+      "correct_answer": "1980-yillarga",
+      "explanation": "2017-yilgi darslik O‘zbekistonda gen muhandisligi tadqiqotlari boshlanishini 1980-yillar va O. S. Sodiqov tashabbusi bilan bog‘laydi. Bu tarixiy bayon, bugungi ko‘rsatkichlar jadvali emas."
+    },
+    {
+      "key": "paragraph-34-q2",
+      "fact_id": "paragraph-34-f2",
+      "question_text": "Paxta tolasiga oid gen tadqiqoti qaysi maqsadga misol?",
+      "options": [
+        "Ekinning sifat ko‘rsatkichini o‘rganish va yaxshilash",
+        "Faqat hayvon embriologiyasini tasvirlash",
+        "Faqat daryolar arealini chizish",
+        "Faqat qadimgi qazilmani sanash"
+      ],
+      "correct_answer": "Ekinning sifat ko‘rsatkichini o‘rganish va yaxshilash",
+      "explanation": "Darslik I. Abdurahmonov va hamkorlarining paxta tolasi sifati va gullashga aloqador genlar tadqiqotlarini misol qiladi. Maqsad agronomik xossalarni o‘rganishdir."
+    },
+    {
+      "key": "paragraph-34-q3",
+      "fact_id": "paragraph-34-f3",
+      "question_text": "Kasallikni aniqlashga qaratilgan biologik testlar qaysi qo‘llanishga kiradi?",
+      "options": [
+        "Faqat tur nomlash qoidalariga",
+        "Faqat oziq zanjiridagi energiya hisobiga",
+        "Faqat o‘simlik bargi morfologiyasiga",
+        "Diagnostik biotexnologiyaga"
+      ],
+      "correct_answer": "Diagnostik biotexnologiyaga",
+      "explanation": "Darslik O‘zbekistondagi biotexnologik izlanishlarda gepatit Bga oid diagnostika va vaksina yo‘nalishlari, shuningdek PCR bilan bog‘liq tashxis tadqiqotlarini keltiradi."
+    },
+    {
+      "key": "paragraph-34-q4",
+      "fact_id": "paragraph-34-f4",
+      "question_text": "Gen daktiloskopiyasidagi taqqoslash nimaga asoslanadi?",
+      "options": [
+        "Faqat organizm tana massasiga",
+        "Faqat oziq kaloriyasiga",
+        "DNK belgilariga",
+        "Faqat kaft terisining rangiga"
+      ],
+      "correct_answer": "DNK belgilariga",
+      "explanation": "Gen daktiloskopiyasi DNK belgilarini taqqoslab identifikatsiya qilishga yordam beradi; uni oddiy barmoq izi suratining o‘zi bilan tenglashtirmaymiz."
+    },
+    {
+      "key": "paragraph-34-q5",
+      "fact_id": "paragraph-34-f5",
+      "question_text": "Gen funksiyasini to‘xtatib, natijani solishtirish qanday savolga yordam beradi?",
+      "options": [
+        "Har bir hujayra turini bir xil deb atashga",
+        "Ushbu genning belgi rivojlanishidagi roliga",
+        "Faqat organizmning geografik yoshiga",
+        "Faqat suvning issiqlik sig‘imiga"
+      ],
+      "correct_answer": "Ushbu genning belgi rivojlanishidagi roliga",
+      "explanation": "Darslik gen nokauti bilan ayrim gen funksiyasini to‘xtatib, uning belgidagi rolini o‘rganishni misol qiladi. Genni o‘chirish bilan butun genomni yo‘q qilish bir xil emas."
+    }
+  ]
+}

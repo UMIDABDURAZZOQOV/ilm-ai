@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-45-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-54",
+  "title": "Turlarning paydo bo‘lishi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-45-f1": {
+      "claim": "Darslik filetik davomiy o‘zgarish, duragaylash va divergensiyani tur paydo bo‘lishi muhokamasida ajratadi. Shoxlanish bilan bitta yo‘nalishdagi almashinish bir xil sxema emas.",
+      "answer": "Divergensiya",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          195
+        ],
+        "printed_pages": [
+          195
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-45-f2": {
+      "claim": "Alohidalanish va avlodlar davomida to‘planadigan farqlar reproduktiv jihatdan ajralgan guruh shakllanishiga olib kelishi mumkin. Bitta farq topilishi darhol yangi tur tayyor degani emas.",
+      "answer": "Reproduktiv aloqalar va farqlarning barqarorligini",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          196
+        ],
+        "printed_pages": [
+          196
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-45-f3": {
+      "claim": "Allopatrik tur hosil bo‘lishi geografik ajralish bilan bog‘liq. Tog‘, suv to‘sig‘i yoki arealning bo‘linishi gen oqimini cheklashi mumkin.",
+      "answer": "Allopatrik",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          197
+        ],
+        "printed_pages": [
+          197
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-45-f4": {
+      "claim": "Simpatrik yo‘lda ajralish bir geografik areal ichida yuzaga keladi. Ko‘payish muddati yoki ekologik farqlar bu munozarada muhim bo‘lishi mumkin.",
+      "answer": "Simpatrik",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          197
+        ],
+        "printed_pages": [
+          197
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-45-f5": {
+      "claim": "Darslik bug‘doyda 14, 28 va 42 xromosomali to‘plamlarni misol qiladi. Karrali to‘plam o‘zgarishi o‘simliklarning ayrim guruhlari xilma-xilligida muhimdir.",
+      "answer": "6x",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          198
+        ],
+        "printed_pages": [
+          198
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-45-f6": {
+      "claim": "Turaro duragaylash bilan to‘plam ortishi birikishi allopoliploid guruhlar kelib chiqishini tushuntirishda qo‘llanadi. Har duragay avtomatik yangi serhosil tur emas.",
+      "answer": "Allopoliploidiya",
+      "source": {
+        "paragraph": 45,
+        "pdf_pages": [
+          199
+        ],
+        "printed_pages": [
+          199
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Shoxlanish va davomiy o‘zgarish",
+      "body": "Darslik filetik davomiy o‘zgarish, duragaylash va divergensiyani tur paydo bo‘lishi muhokamasida ajratadi. Shoxlanish bilan bitta yo‘nalishdagi almashinish bir xil sxema emas.",
+      "fact_ids": [
+        "paragraph-45-f1"
+      ]
+    },
+    {
+      "title": "Populyatsiyadan yangi guruhga",
+      "body": "Alohidalanish va avlodlar davomida to‘planadigan farqlar reproduktiv jihatdan ajralgan guruh shakllanishiga olib kelishi mumkin. Bitta farq topilishi darhol yangi tur tayyor degani emas.",
+      "fact_ids": [
+        "paragraph-45-f2"
+      ]
+    },
+    {
+      "title": "Geografik yo‘l",
+      "body": "Allopatrik tur hosil bo‘lishi geografik ajralish bilan bog‘liq. Tog‘, suv to‘sig‘i yoki arealning bo‘linishi gen oqimini cheklashi mumkin.",
+      "fact_ids": [
+        "paragraph-45-f3"
+      ]
+    },
+    {
+      "title": "Bir areal ichidagi yo‘l",
+      "body": "Simpatrik yo‘lda ajralish bir geografik areal ichida yuzaga keladi. Ko‘payish muddati yoki ekologik farqlar bu munozarada muhim bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-45-f4"
+      ]
+    },
+    {
+      "title": "Poliploid to‘plamlar",
+      "body": "Darslik bug‘doyda 14, 28 va 42 xromosomali to‘plamlarni misol qiladi. Karrali to‘plam o‘zgarishi o‘simliklarning ayrim guruhlari xilma-xilligida muhimdir.",
+      "fact_ids": [
+        "paragraph-45-f5"
+      ]
+    },
+    {
+      "title": "Birlashtirish va juftlashish",
+      "body": "Turaro duragaylash bilan to‘plam ortishi birikishi allopoliploid guruhlar kelib chiqishini tushuntirishda qo‘llanadi. Har duragay avtomatik yangi serhosil tur emas.",
+      "fact_ids": [
+        "paragraph-45-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-45-q1",
+      "fact_id": "paragraph-45-f1",
+      "question_text": "Bitta ajdod yo‘nalishi ikki tarmoqqa ajralsa, qaysi atama mos?",
+      "options": [
+        "Faqat glikoliz",
+        "Divergensiya",
+        "Faqat bitta filetik yo‘nalish",
+        "Faqat sitokinez"
+      ],
+      "correct_answer": "Divergensiya",
+      "explanation": "Darslik filetik davomiy o‘zgarish, duragaylash va divergensiyani tur paydo bo‘lishi muhokamasida ajratadi. Shoxlanish bilan bitta yo‘nalishdagi almashinish bir xil sxema emas."
+    },
+    {
+      "key": "paragraph-45-q2",
+      "fact_id": "paragraph-45-f2",
+      "question_text": "Populyatsiyalar farqlana boshlasa, nimani hali alohida tekshirish kerak?",
+      "options": [
+        "Reproduktiv aloqalar va farqlarning barqarorligini",
+        "Faqat nomining bosh harfini",
+        "Faqat bir individning yoshini",
+        "Faqat tasvirning rangini"
+      ],
+      "correct_answer": "Reproduktiv aloqalar va farqlarning barqarorligini",
+      "explanation": "Alohidalanish va avlodlar davomida to‘planadigan farqlar reproduktiv jihatdan ajralgan guruh shakllanishiga olib kelishi mumkin. Bitta farq topilishi darhol yangi tur tayyor degani emas."
+    },
+    {
+      "key": "paragraph-45-q3",
+      "fact_id": "paragraph-45-f3",
+      "question_text": "Arealni yangi to‘siq ikkiga ajratishi bilan bog‘liq yo‘l qaysi?",
+      "options": [
+        "Simpatrik",
+        "Faqat kodominantlik",
+        "Faqat modifikator ta’siri",
+        "Allopatrik"
+      ],
+      "correct_answer": "Allopatrik",
+      "explanation": "Allopatrik tur hosil bo‘lishi geografik ajralish bilan bog‘liq. Tog‘, suv to‘sig‘i yoki arealning bo‘linishi gen oqimini cheklashi mumkin."
+    },
+    {
+      "key": "paragraph-45-q4",
+      "fact_id": "paragraph-45-f4",
+      "question_text": "Bir hudud ichida guruhlarning ko‘payish vaqti farqlanishi qaysi yo‘lga mos bo‘lishi mumkin?",
+      "options": [
+        "Faqat DNKning bir zanjirli bo‘lishi",
+        "Faqat organizmning qarishi",
+        "Simpatrik",
+        "Majburiy qit’alararo allopatrik"
+      ],
+      "correct_answer": "Simpatrik",
+      "explanation": "Simpatrik yo‘lda ajralish bir geografik areal ichida yuzaga keladi. Ko‘payish muddati yoki ekologik farqlar bu munozarada muhim bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-45-q5",
+      "fact_id": "paragraph-45-f5",
+      "question_text": "Asosiy xromosoma soni x=7 modelida 42 xromosoma nechta asosiy to‘plam?",
+      "options": [
+        "4x",
+        "6x",
+        "2x",
+        "3x"
+      ],
+      "correct_answer": "6x",
+      "explanation": "Darslik bug‘doyda 14, 28 va 42 xromosomali to‘plamlarni misol qiladi. Karrali to‘plam o‘zgarishi o‘simliklarning ayrim guruhlari xilma-xilligida muhimdir."
+    },
+    {
+      "key": "paragraph-45-q6",
+      "fact_id": "paragraph-45-f6",
+      "question_text": "Turaro duragayda to‘plamning ortishini o‘rganishda qaysi tushuncha mos?",
+      "options": [
+        "Allopoliploidiya",
+        "Faqat tranzitsiya",
+        "Faqat modifikatsion rang",
+        "Faqat genlar dreyfi"
+      ],
+      "correct_answer": "Allopoliploidiya",
+      "explanation": "Turaro duragaylash bilan to‘plam ortishi birikishi allopoliploid guruhlar kelib chiqishini tushuntirishda qo‘llanadi. Har duragay avtomatik yangi serhosil tur emas."
+    }
+  ]
+}
