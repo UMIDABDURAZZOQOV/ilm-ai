@@ -69,6 +69,22 @@ def consume_state(state, redirect_uri):
         return challenge
 
 
+def mobile_redirect_for_state(state):
+    """Use the exact original redirect behind reverse proxies, without consuming it.
+
+    The callback handler still atomically consumes state before contacting Google.
+    No credentials or raw state values are returned to the browser/logs here.
+    """
+    from urllib.parse import urlparse
+    with SessionLocal() as db:
+        row = db.get(OAuthState, digest(state or ""))
+        if (not row or row.consumed or not row.challenge
+                or aware(row.expires_at) <= utcnow()
+                or urlparse(row.redirect_uri).path != "/auth/google-callback-mobile"):
+            raise HTTPException(400, "invalid_oauth_state")
+        return row.redirect_uri
+
+
 def issue_grant(user_id, challenge):
     if not challenge:
         raise HTTPException(400, "mobile_client_upgrade_required")

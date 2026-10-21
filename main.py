@@ -12,6 +12,8 @@ from services import telegram_webhook
 
 load_dotenv()
 init_monitoring()
+from services.access_log_redaction import install_auth_access_redaction
+install_auth_access_redaction()
 
 # Auto-create tables in DB on startup
 Base.metadata.create_all(bind=engine)
@@ -92,6 +94,8 @@ app.include_router(notifications.router)
 app.include_router(review.router)
 app.include_router(math_solver.router)
 app.include_router(skills.router)
+from routers.mobile_skills import router as mobile_skills_router
+app.include_router(mobile_skills_router)
 app.include_router(mock_exam.router)
 app.include_router(classes.router)
 app.include_router(parent.router)

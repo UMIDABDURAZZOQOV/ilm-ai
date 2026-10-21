@@ -296,8 +296,8 @@ def test_complete_grades5_to11_api_once_only_xp(setup, tmp_path):
     assert events - checkpoints == 406  # 355 theory lessons and 51 digital activities
     with factory.begin() as db:
         assert db.get(User, 1).xp_total == xp
-        assert db.query(StudyEvent).count() == events
-        assert db.query(UserLessonProgress).count() == events - checkpoints
+        assert db.query(StudyEvent).filter_by(user_id=1).count() == events
+        assert db.query(UserLessonProgress).filter_by(user_id=1).count() == events - checkpoints
         for lesson in lessons:
             assert not import_curriculum(db, catalog, lesson)["created"]
         assert db.get(User, 1).xp_total == xp

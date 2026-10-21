@@ -4,9 +4,10 @@ from urllib.parse import urlparse
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
 from dotenv import load_dotenv
+from services.database_url import normalize_database_url
 
 load_dotenv()
-DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/ilm_ai")
+DATABASE_URL = normalize_database_url(os.environ.get("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/ilm_ai"))
 IS_PRODUCTION = os.environ.get("ENVIRONMENT", "development") == "production"
 
 
@@ -193,6 +194,12 @@ def migrate_postgres_columns():
     if not DATABASE_URL.startswith("postgres"):
         return
     statements = [
+        # Pre-OAuth PostgreSQL tables need the same additive fields as SQLite.
+        # Existing users/password hashes remain unchanged; OAuth inserts no password.
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS oauth_provider VARCHAR(50)",
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS oauth_provider_id VARCHAR(200)",
+        "ALTER TABLE users ADD COLUMN IF NOT EXISTS email_verified BOOLEAN NOT NULL DEFAULT FALSE",
+        "ALTER TABLE users ALTER COLUMN password DROP NOT NULL",
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS age INTEGER",
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS xp_total INTEGER DEFAULT 0",
         "ALTER TABLE users ADD COLUMN IF NOT EXISTS referral_code VARCHAR(16)",

@@ -428,6 +428,7 @@ def test_push_binding_moves_between_accounts_and_unbind_is_conditional(setup):
 def test_mobile_callback_never_places_credentials_in_uri(setup, monkeypatch):
     client, _ = setup
     monkeypatch.setattr(auth, "is_google_oauth_enabled", lambda: True)
+    mobile_oauth.save_state("state", "http://testserver/auth/google-callback-mobile", "a" * 43)
 
     async def callback(*args, **kwargs):
         assert kwargs["mobile"] is True

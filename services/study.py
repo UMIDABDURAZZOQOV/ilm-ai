@@ -47,9 +47,17 @@ def aware(value):
 def issue(db, user_id, kind, scope, questions, session_id=None):
     if not questions:
         return None
+    from services.mobile_publication import ensure_mobile_questions
+    ensure_mobile_questions(db, questions)
+    # A legacy web daily snapshot may contain unpublished questions. Keep its
+    # immutable attempt, but issue a separate mobile snapshot for the same day.
+    # The daily reward ledger remains account-wide, so this cannot double XP.
+    if db.info.get("mobile_publication") and kind == "daily" and session_id:
+        session_id = "mobile:" + session_id
     session_id = session_id or secrets.token_urlsafe(32)
     existing = db.get(StudySession, session_id)
     if existing:
+        ensure_mobile_questions(db, existing.questions)
         if existing.user_id != user_id or existing.kind != kind:
             raise HTTPException(409, "study_session_conflict")
         return existing
@@ -120,6 +128,8 @@ def resolve_session(db, user_id, kind, scope=None, attempt_id=None):
     row = query.order_by(StudySession.started_at.desc()).first()
     if not row:
         raise HTTPException(409, "study_session_required")
+    from services.mobile_publication import ensure_mobile_questions
+    ensure_mobile_questions(db, row.questions)
     if not row.completed_at and utcnow() - aware(row.started_at) > timedelta(hours=24):
         raise HTTPException(409, "study_session_expired")
     return row

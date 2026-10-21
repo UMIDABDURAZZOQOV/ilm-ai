@@ -15,9 +15,10 @@ def main():
     report = {}
     for label, route in [
         ("health", "/health"),
-        ("subjects", "/skills/subjects"),
+        ("mobile_catalog_config", "/mobile/skills/config"),
+        ("subjects", "/mobile/skills/subjects"),
         ("mobile_auth", "/auth/mobile/config"),
-        ("biology_grades", "/skills/subjects/biologiya/grades"),
+        ("biology_grades", "/mobile/skills/subjects/biologiya/grades"),
     ]:
         try:
             with urlopen(args.base_url.rstrip("/") + route, timeout=15) as response:
@@ -27,7 +28,11 @@ def main():
                     value.update(
                         valid_shape=isinstance(data, list),
                         count=len(data) if isinstance(data, list) else None,
+                        slugs=[r.get("slug") for r in data] if isinstance(data, list) else [],
+                        ready_lessons=sum(r.get("ready_lessons", 0) for r in data) if isinstance(data, list) else 0,
                     )
+                elif label == "mobile_catalog_config":
+                    value["mobile_curriculum_version"] = data.get("mobile_curriculum_version")
                 elif label == "mobile_auth":
                     value.update(
                         mobile_auth_version=data.get("mobile_auth_version"),
@@ -51,12 +56,14 @@ def main():
     ready = (
         all(r.get("http_status") == 200 for r in report.values())
         and report["subjects"].get("valid_shape")
+        and report["subjects"].get("slugs") == ["biologiya"]
+        and report["subjects"].get("ready_lessons") == 406
+        and report["mobile_catalog_config"].get("mobile_curriculum_version") == 1
         and report["mobile_auth"].get("mobile_auth_version") == 2
         and report["mobile_auth"].get("google_configured") is True
-        and any(
-            r.get("grade") == 5 and r.get("ready_lessons", 0) > 0
-            for r in report["biology_grades"].get("grades", [])
-        )
+        and [(r.get("grade"), r.get("ready_lessons"))
+             for r in report["biology_grades"].get("grades", [])]
+        == list(zip(range(5, 12), [30, 66, 64, 68, 67, 62, 49]))
     )
     raise SystemExit(0 if ready else 1)
 

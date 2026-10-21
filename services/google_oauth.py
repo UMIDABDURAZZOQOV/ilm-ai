@@ -191,6 +191,7 @@ async def handle_google_callback(request: Request, redirect_uri: str, mobile: bo
     except HTTPException:
         raise
     except Exception as e:
-        from services.monitoring import track_error
-        track_error(e, context={"operation": "google_oauth_callback", "error_type": "GeneralError"})
+        import logging
+        # Provider/DB exceptions may embed parameters. Record only their category.
+        logging.getLogger(__name__).warning("Google OAuth callback failed (%s)", type(e).__name__)
         raise HTTPException(status_code=500, detail="Authentication failed")

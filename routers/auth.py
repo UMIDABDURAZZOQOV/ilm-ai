@@ -401,13 +401,28 @@ async def google_login(request: Request, redirect_uri: str = None, code_challeng
     
     if code_challenge and code_challenge_method != "S256":
         raise HTTPException(400, "pkce_s256_required")
+    if code_challenge:
+        from urllib.parse import urlparse
+        import os
+        parsed = urlparse(redirect_uri)
+        configured = os.getenv("MOBILE_OAUTH_REDIRECT_URI")
+        origin = urlparse(str(request.base_url))
+        if (parsed.path != "/auth/google-callback-mobile" or parsed.query or parsed.fragment
+                or parsed.username or parsed.password
+                or parsed.scheme not in {"http", "https"}
+                or (configured and redirect_uri != configured)
+                or (not configured and parsed.netloc != origin.netloc)
+                or (parsed.scheme == "http" and parsed.hostname not in {"localhost", "127.0.0.1", "::1"})):
+            raise HTTPException(400, "invalid_mobile_redirect_uri")
     auth_url, state = await get_google_auth_url(request, redirect_uri, code_challenge)
     return {"auth_url": auth_url, "state": state, "mobile_auth_version": 2}
 
 
 @router.get("/mobile/config")
 def mobile_auth_config():
+    import os
     return {"mobile_auth_version":2,"pkce_method":"S256","code_exchange_path":"/auth/mobile/exchange",
+            "redirect_uri":os.getenv("MOBILE_OAUTH_REDIRECT_URI"),
             "google_configured":is_google_oauth_enabled()}
 
 
@@ -459,17 +474,18 @@ async def google_callback_mobile(request: Request, code: str | None = None,
             detail="Google OAuth is not configured. Please set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET environment variables."
         )
 
-    redirect_uri = f"{request.base_url}auth/google-callback-mobile"
-
     try:
+        from services.mobile_oauth import mobile_redirect_for_state
+        redirect_uri = mobile_redirect_for_state(state)
         if error or not code:
             from services.mobile_oauth import consume_state
             consume_state(state, redirect_uri)
             raise HTTPException(400, "oauth_cancelled")
         result = await handle_google_callback(request, redirect_uri, mobile=True)
-    except HTTPException:
+    except HTTPException as exc:
         from urllib.parse import urlencode
-        query = urlencode({"error": "oauth_failed", "state": state})
+        reason = "cancelled" if exc.detail == "oauth_cancelled" else "oauth_failed"
+        query = urlencode({"error": reason, "state": state})
     else:
         from urllib.parse import urlencode
         query = urlencode({"code": result["code"], "state": state})
