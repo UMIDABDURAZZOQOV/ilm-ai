@@ -1,5 +1,11 @@
 # Fizika — manba xaritalari va lokal interaktiv sinov
 
+**Davom etayotgan ish — 2026-10-22:** barcha 316 bo‘lim uchun mualliflik ruxsati
+berilgan. Hozir **17 lokal dars/faoliyat**, 72 karta / 110 topshiriq / 22 FRQ;
+**299 bo‘lim qolgan**. Oraliq tasdiq kutilmaydi. Joriy sanoqlar, manba/ilmiy
+qarorlar va testlar: [STAGE2_PROGRESS.md](STAGE2_PROGRESS.md).
+Quyidagi birinchi partiya va source-only yozuvlar saqlangan tarixdir.
+
 **2026-10-22 — 2-bosqichning birinchi partiyasi:** 6-sinf §1–7 uchun 7 dars,
 31 karta, 8 misol, 43 topshiriq (5 FRQ) va alohida server/Flutter **lokal test preview**
 yozildi. Fizika umumiy foydalanuvchilarga e’lon qilinmagan. V1/Biology API va 406

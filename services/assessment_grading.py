@@ -16,7 +16,9 @@ class AnswerError(ValueError):
     pass
 
 
-# Only units taught in grade 6 §6 (PDF12–14). Extend with reviewed source evidence.
+# Explicit registry, not a permissive expression parser. Source: grade 6
+# PDF12–14 (length/time), PDF21 (film V/S), PDF28 (front h/t),
+# PDF29–35 (mass, volume and density), PDF37–38 (laboratory volumes).
 UNITS = {
     "m": ("length", Fraction(1)),
     "cm": ("length", Fraction(1, 100)),
@@ -27,6 +29,21 @@ UNITS = {
     "nm": ("length", Fraction(1, 10**9)),
     "s": ("time", Fraction(1)),
     "kg": ("mass", Fraction(1)),
+    "g": ("mass", Fraction(1, 1000)),
+    "mg": ("mass", Fraction(1, 10**6)),
+    "t": ("mass", Fraction(1000)),
+    "m2": ("area", Fraction(1)),
+    "cm2": ("area", Fraction(1, 10**4)),
+    "m3": ("volume", Fraction(1)),
+    "dm3": ("volume", Fraction(1, 1000)),
+    "cm3": ("volume", Fraction(1, 10**6)),
+    "L": ("volume", Fraction(1, 1000)),
+    "mL": ("volume", Fraction(1, 10**6)),
+    "kg/m3": ("density", Fraction(1)),
+    "g/cm3": ("density", Fraction(1000)),
+    "m/s": ("speed", Fraction(1)),
+    "mm/s": ("speed", Fraction(1, 1000)),
+    "cm/s": ("speed", Fraction(1, 100)),
 }
 UNIT_ALIASES = {
     "metr": "m",
@@ -41,6 +58,14 @@ UNIT_ALIASES = {
     "nanometr": "nm",
     "sekund": "s",
     "kilogramm": "kg",
+    "gramm": "g",
+    "milligramm": "mg",
+    "tonna": "t",
+    "l": "L",
+    "litr": "L",
+    "ml": "mL",
+    "sm3": "cm3",
+    "g/sm3": "g/cm3",
 }
 TOKEN = re.compile(
     r"\s*(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?|"
@@ -169,6 +194,12 @@ def formula_ast(text, spec):
             return ("symbol", node.id)
         if isinstance(node, ast.UnaryOp) and isinstance(node.op, (ast.UAdd, ast.USub)):
             value = visit(node.operand, depth + 1)
+            if value[0] == "number":
+                number = Fraction(value[1])
+                return (
+                    "number",
+                    str(-number if isinstance(node.op, ast.USub) else number),
+                )
             return ("negate", value) if isinstance(node.op, ast.USub) else value
         if isinstance(node, ast.BinOp) and isinstance(
             node.op, (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Pow)
@@ -224,7 +255,10 @@ def grade_answer(spec, answer):
         return "answer_required"
     try:
         value = numeric(answer["value"])
-        unit = answer["unit"].strip()
+        # Accept explicit typed exponent variants, preserving SI case. Never
+        # infer an omitted exponent (cm and cm3 are different dimensions).
+        unit = answer["unit"].strip().replace("²", "2").replace("³", "3")
+        unit = unit.replace("^2", "2").replace("^3", "3")
         unit = UNIT_ALIASES.get(unit, unit)
         if unit not in UNITS:
             return "unknown_unit"

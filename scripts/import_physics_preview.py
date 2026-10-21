@@ -14,7 +14,7 @@ from sqlalchemy.engine import make_url
 from sqlalchemy.orm import Session
 
 from services.database_url import normalize_database_url
-from services.physics_curriculum import load_batch, validate_batch
+from services.physics_curriculum import load_batch, load_course, validate_batch
 
 
 def safe_url(raw, environment):
@@ -37,10 +37,15 @@ def main():
     action = parser.add_mutually_exclusive_group(required=True)
     action.add_argument("--dry-run", action="store_true")
     action.add_argument("--import-content", action="store_true")
+    parser.add_argument(
+        "--all-reviewed",
+        action="store_true",
+        help="Import every explicitly reviewed batch, preserving existing lessons/progress.",
+    )
     args = parser.parse_args()
-    document = load_batch()
+    documents = load_course() if args.all_reviewed else [load_batch()]
     if args.dry_run:
-        print(validate_batch(document))
+        print([dict(grade=d["grade"], **validate_batch(d)) for d in documents])
         return
     url = safe_url(os.getenv("DATABASE_URL"), os.getenv("ENVIRONMENT", "development"))
     # Validate and check tables before importing services.db (legacy import hooks).
@@ -64,7 +69,7 @@ def main():
     from services.physics_curriculum import import_batch
 
     with Session(engine) as db, db.begin():
-        print(import_batch(db, document))
+        print([import_batch(db, document) for document in documents])
     engine.dispose()
 
 

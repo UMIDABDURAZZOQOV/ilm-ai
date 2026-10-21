@@ -1,4 +1,4 @@
-"""Explicit first Physics batch, source validation and immutable preview import.
+"""Explicit reviewed Physics batches, validation and immutable preview import.
 
 Loading/validating documents never imports ORM or opens a database. There is no
 glob publication, startup seed, runtime generation, or modification of Biology.
@@ -14,10 +14,21 @@ from fractions import Fraction
 from pathlib import Path
 
 from services.assessment_grading import UNITS, formula_ast, grade_answer, numeric
+from services.physics_rules import (
+    DIMENSION_UNIT,
+    REVIEWED_FORMULAS,
+    reviewed_calculation,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 DIRECTORY = ROOT / "scripts/curriculum/physics"
 BATCH = DIRECTORY / "grade6_batch1.json"
+# Explicitly reviewed ranges only. Adding an unrelated JSON file never publishes
+# or imports it. The original first-batch entry and byte hashes remain frozen.
+REVIEWED_BATCHES = {
+    "grade6_batch1": (6, 1, 7),
+    "grade6_batch2": (6, 8, 17),
+}
 
 # Algebraic alternatives reviewed under the stated source domains. No guessing
 # at symbolic equivalence or random-point numerical acceptance.
@@ -53,6 +64,7 @@ FORMULAS = {
         "conditions": "shu oddiy shkala modeli uchun, d eng kichik bo‘linma; PDF15",
     },
 }
+FORMULAS.update(REVIEWED_FORMULAS)
 
 
 def fingerprint(document):
@@ -66,21 +78,53 @@ def require(condition, code):
         raise ValueError(code)
 
 
-def load_batch():
-    document = json.loads(BATCH.read_text())
+def load_batch(batch_id="grade6_batch1"):
+    require(batch_id in REVIEWED_BATCHES, "batch_not_reviewed")
+    document = json.loads((DIRECTORY / f"{batch_id}.json").read_text())
     validate_batch(document)
     validate_review_evidence(document)
     return document
 
 
+def load_course():
+    documents = [load_batch(name) for name in REVIEWED_BATCHES]
+    seen, prompts = set(), set()
+    for document in documents:
+        for lesson in document["lessons"]:
+            require(lesson["key"] not in seen, "overlapping_reviewed_batches")
+            seen.add(lesson["key"])
+            for question in lesson["assessments"]:
+                prompt = question["public"]["prompt"].strip().casefold()
+                require(prompt not in prompts, "duplicate_course_prompt")
+                prompts.add(prompt)
+    return documents
+
+
+def batch_identity(document):
+    identity = (
+        document["grade"],
+        document["lessons"][0]["sequence"],
+        document["lessons"][-1]["sequence"],
+    )
+    name = next((k for k, v in REVIEWED_BATCHES.items() if v == identity), None)
+    require(name is not None, "batch_not_reviewed")
+    return name
+
+
 def validate_review_evidence(document):
-    audit = json.loads((DIRECTORY / "grade6_batch1_review.json").read_text())
+    name = batch_identity(document)
+    path = DIRECTORY / f"{name}.json"
+    audit = json.loads((DIRECTORY / f"{name}_review.json").read_text())
     require(
-        audit["batch_file_sha256"] == hashlib.sha256(BATCH.read_bytes()).hexdigest()
-        and fingerprint(document) == fingerprint(json.loads(BATCH.read_text())),
+        audit["batch_file_sha256"] == hashlib.sha256(path.read_bytes()).hexdigest()
+        and fingerprint(document) == fingerprint(json.loads(path.read_text())),
         "changed_content_requires_new_reviewed_revision",
     )
-    book = json.loads((DIRECTORY / "physics_sources.json").read_text())["books"][0]
+    book = next(
+        b
+        for b in json.loads((DIRECTORY / "physics_sources.json").read_text())["books"]
+        if b["grade"] == document["grade"]
+    )
     require(
         audit["book_sha256"] == book["sha256"]
         and not audit["ready_for_general_publication"]
@@ -88,8 +132,16 @@ def validate_review_evidence(document):
         "source_review_scope",
     )
     require(
-        [p["pdf_page"] for p in audit["pages"]] == list(range(3, 17)),
-        "all_first_batch_pages_reviewed",
+        [p["pdf_page"] for p in audit["pages"]]
+        == sorted(
+            {
+                p
+                for lesson in document["lessons"]
+                for ref in lesson["source_refs"]
+                for p in ref["pdf_pages"]
+            }
+        ),
+        "all_batch_pages_reviewed",
     )
     for page in audit["pages"]:
         source = book["page_audit"][page["pdf_page"] - 1]
@@ -104,6 +156,8 @@ def validate_review_evidence(document):
 
 def calculation_value(question):
     rule = question["grading_spec"]["rule"]
+    if rule in REVIEWED_FORMULAS:
+        return reviewed_calculation(question)[0]
     givens = {v["symbol"]: v for v in question["public"]["givens"]}
 
     def value(key):
@@ -139,23 +193,25 @@ def calculation_value(question):
 
 def validate_batch(document):
     catalog = json.loads((DIRECTORY / "physics_sources.json").read_text())
-    book = catalog["books"][0]
     require(
         document["schema_version"] == 2
         and document["subject"] == "fizika"
         and document["language"] == "uz"
-        and document["grade"] == 6,
+        and document["grade"] in range(6, 12),
         "physics_batch_identity",
     )
+    book = next(b for b in catalog["books"] if b["grade"] == document["grade"])
     require(
         document["publication"] == "local_test_preview_only"
         and document["ai_explain"] is False,
         "no_physics_publication",
     )
     lessons = document["lessons"]
+    require(lessons, "empty_batch")
+    first, last = REVIEWED_BATCHES[batch_identity(document)][1:]
     require(
-        [l["sequence"] for l in lessons] == list(range(1, 8)),
-        "first_batch_only_sections_1_to_7",
+        [l["sequence"] for l in lessons] == list(range(first, last + 1)),
+        "reviewed_batch_source_order",
     )
     keys = set()
 
@@ -166,8 +222,8 @@ def validate_batch(document):
                 (r for r in book["records"] if r["id"] == ref["topic_id"]), None
             )
             require(
-                topic is not None and topic["kind"] == "topic" and topic["number"] <= 7,
-                "source_outside_reviewed_first_batch",
+                topic is not None and first <= (topic.get("number") or 0) <= last,
+                "source_outside_reviewed_batch",
             )
             require(
                 ref["book_id"] == book["id"]
@@ -200,11 +256,19 @@ def validate_batch(document):
         require(lesson["key"] not in keys, "duplicate_lesson")
         keys.add(lesson["key"])
         require(
-            lesson["topic_id"] == f"physics-6-section-{lesson['sequence']}"
+            lesson["topic_id"]
+            == f"physics-{book['grade']}-section-{lesson['sequence']}"
             and lesson["revision"] == 1
             and lesson["xp_reward"] == 10,
             "lesson_source_order",
         )
+        topic = next(r for r in book["records"] if r["id"] == lesson["topic_id"])
+        require(lesson["title"] == topic["title"], "source_title_mismatch")
+        if topic["kind"] != "topic":
+            require(
+                lesson["review"].get("physical_experiment_completed") is False,
+                "digital_activity_is_not_physical_experiment",
+            )
         require(
             lesson["review"]["source_text_and_images_checked"] is True
             and lesson["review"]["independent_subject_expert"] == "not_claimed",
@@ -242,6 +306,7 @@ def validate_batch(document):
                 not lesson["formulas"], "no_artificial_formulas_for_conceptual_topics"
             )
         question_keys = set()
+        taught_rules = {f["rule"] for f in lesson["formulas"]}
         for question in lesson["assessments"]:
             require(question["key"] not in question_keys, "duplicate_assessment")
             question_keys.add(question["key"])
@@ -268,6 +333,7 @@ def validate_batch(document):
                     "givens",
                     "symbols",
                     "suggested_unit",
+                    "unit_choices",
                 },
                 "private_grading_must_not_enter_public_prompt",
             )
@@ -307,7 +373,8 @@ def validate_batch(document):
                 correct = {"order": spec["expected_order"]}
             else:
                 require(
-                    lesson["sequence"] in {6, 7}, "calculation_not_in_conceptual_topic"
+                    spec["rule"] in taught_rules,
+                    "calculation_rule_not_taught",
                 )
                 require(
                     spec["formula"] == FORMULAS[spec["rule"]],
@@ -319,11 +386,29 @@ def validate_batch(document):
                     "calculation_answer_mismatch",
                 )
                 require(
-                    spec["dimension"] == "length"
+                    spec["dimension"] in DIMENSION_UNIT
                     and numeric(spec["abs_tol_si"]) >= 0
                     and numeric(spec["rel_tol"]) >= 0,
                     "numeric_rubric_domain",
                 )
+                if spec["rule"] in REVIEWED_FORMULAS:
+                    require(
+                        reviewed_calculation(question)[1] == spec["dimension"],
+                        "calculation_dimension_mismatch",
+                    )
+                else:
+                    require(
+                        spec["dimension"] == "length", "legacy_length_rule_dimension"
+                    )
+                if "unit_choices" in public:
+                    require(
+                        public["unit_choices"]
+                        and all(
+                            u in UNITS and UNITS[u][0] == spec["dimension"]
+                            for u in public["unit_choices"]
+                        ),
+                        "public_unit_choice_dimension",
+                    )
                 require(
                     set(public["symbols"]) == set(spec["formula"]["variables"]),
                     "public_symbol_mismatch",
@@ -332,7 +417,7 @@ def validate_batch(document):
                     formula_ast(expression, spec["formula"])
                 correct = {
                     "value": spec["expected_si"],
-                    "unit": "m",
+                    "unit": DIMENSION_UNIT[spec["dimension"]],
                     "formula": spec["formula"]["equivalents"][0],
                 }
             require(
@@ -389,7 +474,7 @@ def import_batch(db, document):
             lessons_table.insert().values(
                 key=lesson["key"],
                 subject="fizika",
-                grade=6,
+                grade=document["grade"],
                 sequence=lesson["sequence"],
                 revision=lesson["revision"],
                 topic_id=lesson["topic_id"],

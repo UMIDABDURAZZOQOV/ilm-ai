@@ -3,7 +3,7 @@
 from typing import Annotated, Literal
 from uuid import UUID
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Query
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from sqlalchemy.orm import Session
 
@@ -55,8 +55,8 @@ class Completion(BaseModel):
 
 
 @router.get("/catalog")
-def catalog(db: PreviewDB, uid: AuthID):
-    return runtime.catalog(db, uid)
+def catalog(db: PreviewDB, uid: AuthID, grade: Annotated[int, Query(ge=6, le=11)] = 6):
+    return runtime.catalog(db, uid, grade)
 
 
 @router.post("/lessons/{key}/start")

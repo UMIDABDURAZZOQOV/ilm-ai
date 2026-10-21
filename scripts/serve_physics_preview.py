@@ -78,7 +78,7 @@ def main():
         from routers.physics_preview import router
         from services.db import Base, SessionLocal, engine
         from services.models import User
-        from services.physics_curriculum import import_batch, load_batch
+        from services.physics_curriculum import import_batch, load_course
         from services.tokens import create_access_token
     (path / "setup.log").write_text(output.getvalue())
     if not args.resume:
@@ -108,7 +108,11 @@ def main():
                 )
             )
             db.flush()
-            import_batch(db, load_batch())
+    # Resume adds only reviewed immutable content; it never resets the user,
+    # completed sessions, XP, answers or existing lesson revisions.
+    with SessionLocal.begin() as db:
+        for document in load_course():
+            import_batch(db, document)
     token = create_access_token(900002)
     defines = {
         "PHYSICS_PREVIEW": True,

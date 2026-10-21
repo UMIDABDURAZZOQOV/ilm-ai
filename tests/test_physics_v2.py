@@ -504,6 +504,8 @@ def test_local_sandbox_creates_only_private_test_data_and_resume_preserves_it(tm
 
     from sqlalchemy import create_engine, text
 
+    from services.physics_curriculum import load_course
+
     path = tmp_path / "preview"
     command = [
         sys.executable,
@@ -525,10 +527,9 @@ def test_local_sandbox_creates_only_private_test_data_and_resume_preserves_it(tm
     assert config["PHYSICS_TEST_TOKEN"] not in result.stdout
     engine = create_engine(f"sqlite:///{path / 'preview.db'}")
     with engine.begin() as conn:
-        assert (
-            conn.execute(text("SELECT COUNT(*) FROM curriculum_v2_lessons")).scalar()
-            == 7
-        )
+        assert conn.execute(
+            text("SELECT COUNT(*) FROM curriculum_v2_lessons")
+        ).scalar() == sum(len(d["lessons"]) for d in load_course())
         assert (
             conn.execute(text("SELECT COUNT(*) FROM skilltree_lessons")).scalar() == 0
         )

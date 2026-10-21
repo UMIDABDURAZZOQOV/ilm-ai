@@ -1,5 +1,10 @@
 # Fizika: formula, FRQ va bosqichma-bosqich implementatsiya loyihasi
 
+**Eng yangi ruxsat — 2026-10-22:** foydalanuvchi barcha 316 bo‘lim bo‘yicha
+oraliq tasdiqsiz davom etishni buyurdi. Runtime va mualliflikning joriy, haqiqiy
+qamrovi [STAGE2_PROGRESS.md](STAGE2_PROGRESS.md)da. Quyidagi birinchi partiya
+ruxsati hamda implementatsiyadan oldingi takliflar tarixiy qaydlardir.
+
 **2026-10-22 amaldagi holat:** foydalanuvchi 2-bosqichning faqat **6-sinf §1–7**
 partiyasiga ruxsat berdi. Bajarilgan tor v2 subset — concept/ordering va
 formula+son+birlik FRQ; local/test-only endpointlar, opt-in migration, replay-safe XP

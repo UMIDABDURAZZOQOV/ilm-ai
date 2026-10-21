@@ -25,6 +25,7 @@ from services.physics_curriculum import fingerprint
 from services.study import aware, record_activity, utcnow
 
 KIND = "assessment_v2"
+SOURCE_SECTIONS = {6: 61, 7: 46, 8: 60, 9: 59, 10: 45, 11: 45}
 
 
 def preview_gate(db):
@@ -46,22 +47,26 @@ def preview_gate(db):
         raise HTTPException(503, "physics_preview_schema_not_installed")
 
 
-def lessons(db):
+def lessons(db, grade=6):
     return (
         db.query(CurriculumLessonV2)
-        .filter_by(subject="fizika", grade=6)
+        .filter_by(subject="fizika", grade=grade)
         .order_by(CurriculumLessonV2.sequence)
         .all()
     )
 
 
-def catalog(db, uid):
+def catalog(db, uid, grade=6):
+    if grade not in SOURCE_SECTIONS:
+        raise HTTPException(422, "unsupported_physics_grade")
     progress = {
         p.lesson_key: p for p in db.query(AssessmentV2Progress).filter_by(user_id=uid)
     }
     ready = True
     result = []
-    for lesson in lessons(db):
+    for expected, lesson in enumerate(lessons(db, grade), start=1):
+        # A missing imported prerequisite must never unlock a later section.
+        ready = ready and lesson.sequence == expected
         done = bool(progress.get(lesson.key) and progress[lesson.key].completed_at)
         result.append(
             {
@@ -79,12 +84,21 @@ def catalog(db, uid):
     return {
         "assessment_version": 2,
         "subject": "fizika",
-        "grade": 6,
+        "grade": grade,
         "language": "uz",
         "publication": "local_test_preview_only",
-        "source_sections": 61,
+        "source_sections": SOURCE_SECTIONS[grade],
         "implemented_sections": len(result),
         "course_complete": False,
+        "grade_content_complete": [r["sequence"] for r in result]
+        == list(range(1, SOURCE_SECTIONS[grade] + 1)),
+        "available_grades": [
+            g
+            for g in SOURCE_SECTIONS
+            if db.query(CurriculumLessonV2.key)
+            .filter_by(subject="fizika", grade=g, sequence=1)
+            .first()
+        ],
         "lessons": result,
     }
 
@@ -156,10 +170,15 @@ def start(db, uid, key, request_id):
             raise HTTPException(409, "request_id_reused_for_different_lesson")
         return public_attempt(db, row)
     lesson = db.get(CurriculumLessonV2, key)
-    if not lesson or lesson.subject != "fizika" or lesson.grade != 6:
+    if not lesson or lesson.subject != "fizika" or lesson.grade not in SOURCE_SECTIONS:
         raise HTTPException(404, "lesson_not_found")
     state = next(
-        (l["state"] for l in catalog(db, uid)["lessons"] if l["key"] == key), "locked"
+        (
+            l["state"]
+            for l in catalog(db, uid, lesson.grade)["lessons"]
+            if l["key"] == key
+        ),
+        "locked",
     )
     if state == "locked":
         raise HTTPException(403, "finish_previous_lesson")
