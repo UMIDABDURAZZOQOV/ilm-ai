@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-laboratory-2-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-laboratory-22",
+  "title": "2-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-2-f1": {
+      "claim": "Laboratoriya oziq zanjirlarini manbadan iste’molchiga tuzishni o‘rgatadi; o‘q oziq va energiya o‘tish yo‘nalishidadir.",
+      "answer": "O‘t → chigirtka → baqa",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          106
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-2-f2": {
+      "claim": "Zanjirda o‘simlik produtsent, uni yegan hayvon birinchi tartib konsument; saprotrof zamburug‘ parchalanishda qatnashadi. Qoida manbasi: §16, PDF 94.",
+      "answer": "Redutsent",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          106
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-19",
+            "paragraph": 16,
+            "pdf_pages": [
+              94
+            ],
+            "printed_pages": [
+              94
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-2-f3": {
+      "claim": "Har o‘tishda 10% deb berilgan modelda birlamchi mahsulot 5000 kg bo‘lsa, birinchi konsument mahsuloti 500 kg, ikkinchisi 50 kg bo‘ladi. Qoida manbasi: §18, PDF 103.",
+      "answer": "50 kg",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-21",
+            "paragraph": 18,
+            "pdf_pages": [
+              103
+            ],
+            "printed_pages": [
+              103
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-2-f4": {
+      "claim": "Bir xil davr uchun har darajada 10 baravar nisbat deb shart qilingan to‘rt darajali modelda yuqori qiymat 6 kg bo‘lsa, pastkilar 60, 600 va 6000 kg; yig‘indi 6666 kg. Qoida manbasi: §18, PDF 103.",
+      "answer": "6666 kg",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-21",
+            "paragraph": 18,
+            "pdf_pages": [
+              103
+            ],
+            "printed_pages": [
+              103
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-2-f5": {
+      "claim": "10% modelida har o‘tish qiymatni o‘n baravar kamaytiradi; 9000dan 9ga tushish 9000 → 900 → 90 → 9, ya’ni uch o‘tishdir. Qoida manbasi: §18, PDF 103.",
+      "answer": "3 o‘tish",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21",
+        "supporting_sources": [
+          {
+            "topic_id": "bio-11-topic-21",
+            "paragraph": 18,
+            "pdf_pages": [
+              103
+            ],
+            "printed_pages": [
+              103
+            ],
+            "verification": "page_image_reviewed",
+            "reviewed_on": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "laboratory-2-f6": {
+      "claim": "Massa yoki energiya modelini yechishda bir xil o‘lchov asosi va davri saqlanadi; model qiymati real o‘lchov o‘rniga yozilmaydi.",
+      "answer": "Tabiatdagi haqiqiy biomassa o‘lchandi degan xulosa",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Oziq o‘qini tanlash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya oziq zanjirlarini manbadan iste’molchiga tuzishni o‘rgatadi; o‘q oziq va energiya o‘tish yo‘nalishidadir.",
+      "fact_ids": [
+        "laboratory-2-f1"
+      ]
+    },
+    {
+      "title": "Funksional guruh",
+      "body": "Zanjirda o‘simlik produtsent, uni yegan hayvon birinchi tartib konsument; saprotrof zamburug‘ parchalanishda qatnashadi. Qoida manbasi: §16, PDF 94.",
+      "fact_ids": [
+        "laboratory-2-f2"
+      ]
+    },
+    {
+      "title": "Pastdan yuqoriga hisob",
+      "body": "Har o‘tishda 10% deb berilgan modelda birlamchi mahsulot 5000 kg bo‘lsa, birinchi konsument mahsuloti 500 kg, ikkinchisi 50 kg bo‘ladi. Qoida manbasi: §18, PDF 103.",
+      "fact_ids": [
+        "laboratory-2-f3"
+      ]
+    },
+    {
+      "title": "Teskari hisob",
+      "body": "Bir xil davr uchun har darajada 10 baravar nisbat deb shart qilingan to‘rt darajali modelda yuqori qiymat 6 kg bo‘lsa, pastkilar 60, 600 va 6000 kg; yig‘indi 6666 kg. Qoida manbasi: §18, PDF 103.",
+      "fact_ids": [
+        "laboratory-2-f4"
+      ]
+    },
+    {
+      "title": "Darajalarni sanash",
+      "body": "10% modelida har o‘tish qiymatni o‘n baravar kamaytiradi; 9000dan 9ga tushish 9000 → 900 → 90 → 9, ya’ni uch o‘tishdir. Qoida manbasi: §18, PDF 103.",
+      "fact_ids": [
+        "laboratory-2-f5"
+      ]
+    },
+    {
+      "title": "Birlikka sodiqlik",
+      "body": "Massa yoki energiya modelini yechishda bir xil o‘lchov asosi va davri saqlanadi; model qiymati real o‘lchov o‘rniga yozilmaydi.",
+      "fact_ids": [
+        "laboratory-2-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-2-q1",
+      "fact_id": "laboratory-2-f1",
+      "question_text": "Modelda o‘tni chigirtka, chigirtkani baqa yeydi. Qaysi o‘q tartibi mos?",
+      "options": [
+        "O‘t → chigirtka → baqa",
+        "Baqa → o‘t → chigirtka",
+        "Chigirtka → baqa → o‘t",
+        "O‘t → baqa → chigirtka"
+      ],
+      "correct_answer": "O‘t → chigirtka → baqa",
+      "explanation": "Laboratoriya oziq zanjirlarini manbadan iste’molchiga tuzishni o‘rgatadi; o‘q oziq va energiya o‘tish yo‘nalishidadir."
+    },
+    {
+      "key": "laboratory-2-q2",
+      "fact_id": "laboratory-2-f2",
+      "question_text": "Saprotrof zamburug‘ning ushbu tahlildagi vazifasi qaysi?",
+      "options": [
+        "Yashil produtsent",
+        "Majburiy yirtqich qush",
+        "Abiotik harorat",
+        "Redutsent"
+      ],
+      "correct_answer": "Redutsent",
+      "explanation": "Zanjirda o‘simlik produtsent, uni yegan hayvon birinchi tartib konsument; saprotrof zamburug‘ parchalanishda qatnashadi. Qoida manbasi: §16, PDF 94."
+    },
+    {
+      "key": "laboratory-2-q3",
+      "fact_id": "laboratory-2-f3",
+      "question_text": "5000 kgdan ikki bosqich o‘tadi, har birida 10% saqlanadi. Model natija qancha?",
+      "options": [
+        "5 kg",
+        "5000 kg",
+        "50 kg",
+        "500 kg"
+      ],
+      "correct_answer": "50 kg",
+      "explanation": "Har o‘tishda 10% deb berilgan modelda birlamchi mahsulot 5000 kg bo‘lsa, birinchi konsument mahsuloti 500 kg, ikkinchisi 50 kg bo‘ladi. Qoida manbasi: §18, PDF 103."
+    },
+    {
+      "key": "laboratory-2-q4",
+      "fact_id": "laboratory-2-f4",
+      "question_text": "6, 60, 600 va 6000 kg model qiymatlarining yig‘indisi qancha?",
+      "options": [
+        "6000 kg",
+        "6666 kg",
+        "6006 kg",
+        "660 kg"
+      ],
+      "correct_answer": "6666 kg",
+      "explanation": "Bir xil davr uchun har darajada 10 baravar nisbat deb shart qilingan to‘rt darajali modelda yuqori qiymat 6 kg bo‘lsa, pastkilar 60, 600 va 6000 kg; yig‘indi 6666 kg. Qoida manbasi: §18, PDF 103."
+    },
+    {
+      "key": "laboratory-2-q5",
+      "fact_id": "laboratory-2-f5",
+      "question_text": "Modelda 9000 birlikdan 9 birlikka yetguncha nechta 10% o‘tish bor?",
+      "options": [
+        "3 o‘tish",
+        "2 o‘tish",
+        "4 o‘tish",
+        "1 o‘tish"
+      ],
+      "correct_answer": "3 o‘tish",
+      "explanation": "10% modelida har o‘tish qiymatni o‘n baravar kamaytiradi; 9000dan 9ga tushish 9000 → 900 → 90 → 9, ya’ni uch o‘tishdir. Qoida manbasi: §18, PDF 103."
+    },
+    {
+      "key": "laboratory-2-q6",
+      "fact_id": "laboratory-2-f6",
+      "question_text": "Ilovadagi piramida hisobini yakunlashdan qanday xulosa chiqarmaymiz?",
+      "options": [
+        "Shartli hisob mashqi bajarildi degan xulosa",
+        "Berilgan nisbat qo‘llandi degan xulosa",
+        "Hisob birliklari tekshirildi degan xulosa",
+        "Tabiatdagi haqiqiy biomassa o‘lchandi degan xulosa"
+      ],
+      "correct_answer": "Tabiatdagi haqiqiy biomassa o‘lchandi degan xulosa",
+      "explanation": "Massa yoki energiya modelini yechishda bir xil o‘lchov asosi va davri saqlanadi; model qiymati real o‘lchov o‘rniga yozilmaydi."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "2-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Oziq o‘qini tanlash",
+        "fact_ids": [
+          "laboratory-2-f1"
+        ]
+      },
+      {
+        "instruction": "Funksional guruh",
+        "fact_ids": [
+          "laboratory-2-f2"
+        ]
+      },
+      {
+        "instruction": "Pastdan yuqoriga hisob",
+        "fact_ids": [
+          "laboratory-2-f3"
+        ]
+      },
+      {
+        "instruction": "Teskari hisob",
+        "fact_ids": [
+          "laboratory-2-f4"
+        ]
+      },
+      {
+        "instruction": "Darajalarni sanash",
+        "fact_ids": [
+          "laboratory-2-f5"
+        ]
+      },
+      {
+        "instruction": "Birlikka sodiqlik",
+        "fact_ids": [
+          "laboratory-2-f6"
+        ]
+      }
+    ]
+  }
+}

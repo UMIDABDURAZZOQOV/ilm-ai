@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-53-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-62",
+  "title": "Arxey, proterozoy eralaridagi hayot",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-53-f1": {
+      "claim": "Tog‘ jinslaridagi radioaktiv elementlarning parchalanishi geologik yoshni baholashda qo‘llanadigan dalillardan biridir.",
+      "answer": "Radioaktiv izotoplar parchalanishi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          223
+        ],
+        "printed_pages": [
+          223
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-53-f2": {
+      "claim": "Darslik tarixiy ketma-ketlikda arxey, proterozoy, paleozoy, mezozoy va kaynozoyni sanaydi; vaqt tasnifining nomlari hodisalarni tartiblashga yordam beradi.",
+      "answer": "Proterozoy",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          223
+        ],
+        "printed_pages": [
+          223
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-53-f3": {
+      "claim": "Darslik arxey hayotini bakteriyalar va sianobakteriyalar bilan bog‘laydi; sianobakteriyalar prokaryot organizmlardir.",
+      "answer": "Prokaryotlarga",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          224
+        ],
+        "printed_pages": [
+          224
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-53-f4": {
+      "claim": "Kislorod ajratuvchi fotosintez muhitni o‘zgartirib, aerob organizmlar rivojlanishi uchun sharoit yaratgan.",
+      "answer": "Ajralgan kislorod aerob jarayonlar imkoniyatini kengaytirgan",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          224
+        ],
+        "printed_pages": [
+          224
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-53-f5": {
+      "claim": "Proterozoy haqidagi bo‘lim ko‘p hujayrali organizmlarning rivojlanishini muhim hodisa sifatida ajratadi.",
+      "answer": "Ko‘p hujayrali shakllarning rivojlanishi",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          224
+        ],
+        "printed_pages": [
+          224
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-53-f6": {
+      "claim": "Ikki tomonlama simmetriya tananing oldingi-orqa hamda yelka-qorin yo‘nalishlarini farqlash bilan bog‘liq.",
+      "answer": "Oldingi-orqa va yelka-qorin",
+      "source": {
+        "paragraph": 53,
+        "pdf_pages": [
+          224
+        ],
+        "printed_pages": [
+          224
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Geologik vaqt",
+      "body": "Tog‘ jinslaridagi radioaktiv elementlarning parchalanishi geologik yoshni baholashda qo‘llanadigan dalillardan biridir.",
+      "fact_ids": [
+        "paragraph-53-f1"
+      ]
+    },
+    {
+      "title": "Vaqtni tartiblash",
+      "body": "Darslik tarixiy ketma-ketlikda arxey, proterozoy, paleozoy, mezozoy va kaynozoyni sanaydi; vaqt tasnifining nomlari hodisalarni tartiblashga yordam beradi.",
+      "fact_ids": [
+        "paragraph-53-f2"
+      ]
+    },
+    {
+      "title": "Qadimgi prokaryotlar",
+      "body": "Darslik arxey hayotini bakteriyalar va sianobakteriyalar bilan bog‘laydi; sianobakteriyalar prokaryot organizmlardir.",
+      "fact_ids": [
+        "paragraph-53-f3"
+      ]
+    },
+    {
+      "title": "Kislorodning roli",
+      "body": "Kislorod ajratuvchi fotosintez muhitni o‘zgartirib, aerob organizmlar rivojlanishi uchun sharoit yaratgan.",
+      "fact_ids": [
+        "paragraph-53-f4"
+      ]
+    },
+    {
+      "title": "Ko‘p hujayralilik",
+      "body": "Proterozoy haqidagi bo‘lim ko‘p hujayrali organizmlarning rivojlanishini muhim hodisa sifatida ajratadi.",
+      "fact_ids": [
+        "paragraph-53-f5"
+      ]
+    },
+    {
+      "title": "Ikki tomonlama tuzilish",
+      "body": "Ikki tomonlama simmetriya tananing oldingi-orqa hamda yelka-qorin yo‘nalishlarini farqlash bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-53-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-53-q1",
+      "fact_id": "paragraph-53-f1",
+      "question_text": "Qadimgi qatlam yoshini ilmiy baholashda qaysi ma’lumot yordam beradi?",
+      "options": [
+        "Faqat hozirgi ob-havo",
+        "Radioaktiv izotoplar parchalanishi",
+        "Faqat jinsning chiroyli rangi",
+        "Faqat kitob betining raqami"
+      ],
+      "correct_answer": "Radioaktiv izotoplar parchalanishi",
+      "explanation": "Tog‘ jinslaridagi radioaktiv elementlarning parchalanishi geologik yoshni baholashda qo‘llanadigan dalillardan biridir."
+    },
+    {
+      "key": "paragraph-53-q2",
+      "fact_id": "paragraph-53-f2",
+      "question_text": "Berilgan ketma-ketlikda paleozoydan oldin qaysi nom keladi?",
+      "options": [
+        "Proterozoy",
+        "Kaynozoy",
+        "Mezozoy",
+        "To‘rtlamchi davr"
+      ],
+      "correct_answer": "Proterozoy",
+      "explanation": "Darslik tarixiy ketma-ketlikda arxey, proterozoy, paleozoy, mezozoy va kaynozoyni sanaydi; vaqt tasnifining nomlari hodisalarni tartiblashga yordam beradi."
+    },
+    {
+      "key": "paragraph-53-q3",
+      "fact_id": "paragraph-53-f3",
+      "question_text": "Darslikdagi ko‘k-yashil suvo‘tlar nomi bilan atalgan sianobakteriyalar qaysi guruhga kiradi?",
+      "options": [
+        "Yadroli zamburug‘larga",
+        "Umurtqali hayvonlarga",
+        "Gulli o‘simliklarga",
+        "Prokaryotlarga"
+      ],
+      "correct_answer": "Prokaryotlarga",
+      "explanation": "Darslik arxey hayotini bakteriyalar va sianobakteriyalar bilan bog‘laydi; sianobakteriyalar prokaryot organizmlardir."
+    },
+    {
+      "key": "paragraph-53-q4",
+      "fact_id": "paragraph-53-f4",
+      "question_text": "Qadimgi kislorodli fotosintez bilan aerob nafas olish orasidagi bog‘lanish qaysi?",
+      "options": [
+        "Fotosintez barcha tirik tizimlarni ikki turga teng bo‘lgan",
+        "Fotosintez faqat hayvonlarda kechgan",
+        "Ajralgan kislorod aerob jarayonlar imkoniyatini kengaytirgan",
+        "Aerob jarayonlar kislorodni mutlaqo talab qilmaydi"
+      ],
+      "correct_answer": "Ajralgan kislorod aerob jarayonlar imkoniyatini kengaytirgan",
+      "explanation": "Kislorod ajratuvchi fotosintez muhitni o‘zgartirib, aerob organizmlar rivojlanishi uchun sharoit yaratgan."
+    },
+    {
+      "key": "paragraph-53-q5",
+      "fact_id": "paragraph-53-f5",
+      "question_text": "§53da proterozoy rivojlanishining qaysi xususiyati ta’kidlanadi?",
+      "options": [
+        "Qushlarning barcha zamonaviy turlari paydo bo‘lishi",
+        "Ko‘p hujayrali shakllarning rivojlanishi",
+        "Gulli daraxtlar hukmronligi",
+        "Odam dehqonchiligining boshlanishi"
+      ],
+      "correct_answer": "Ko‘p hujayrali shakllarning rivojlanishi",
+      "explanation": "Proterozoy haqidagi bo‘lim ko‘p hujayrali organizmlarning rivojlanishini muhim hodisa sifatida ajratadi."
+    },
+    {
+      "key": "paragraph-53-q6",
+      "fact_id": "paragraph-53-f6",
+      "question_text": "Ikki tomonlama simmetriyali hayvon tuzilishini tavsiflashda qaysi juft yo‘nalishlar mazmunli?",
+      "options": [
+        "Oldingi-orqa va yelka-qorin",
+        "Faqat daraxtning yillik halqalari",
+        "Faqat gulning changchisi va urug‘chisi",
+        "Faqat DNKning A va T asoslari"
+      ],
+      "correct_answer": "Oldingi-orqa va yelka-qorin",
+      "explanation": "Ikki tomonlama simmetriya tananing oldingi-orqa hamda yelka-qorin yo‘nalishlarini farqlash bilan bog‘liq."
+    }
+  ]
+}

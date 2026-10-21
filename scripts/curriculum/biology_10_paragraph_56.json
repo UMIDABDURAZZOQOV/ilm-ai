@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-56-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-65",
+  "title": "Antropologiya odam evolutsiyasi haqidagi fan",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-56-f1": {
+      "claim": "Antropologiya insonning biologik va ijtimoiy tarixini fanlararo o‘rganadi.",
+      "answer": "Biologik va ijtimoiy tarixni birga o‘rganish",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          229
+        ],
+        "printed_pages": [
+          229
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-56-f2": {
+      "claim": "Odam evolutsiyasi molekulyar biologiya, solishtirma anatomiya, embriologiya va paleontologiya dalillari bilan tekshiriladi.",
+      "answer": "Mustaqil turdagi dalillarni birlashtirishga",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          229
+        ],
+        "printed_pages": [
+          229
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-56-f3": {
+      "claim": "Odamdagi sut bezlari, diafragma va o‘rta quloqning uch suyakchasi sutemizuvchilarga xos tuzilishlar qatoriga kiradi.",
+      "answer": "Sut bezlari, diafragma, uch eshitish suyakchasi",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          229
+        ],
+        "printed_pages": [
+          229
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-56-f4": {
+      "claim": "Odam embrionida nerv nayi va xorda kabi xordalilarga xos asosiy tuzilmalar rivojlanadi.",
+      "answer": "Embriologik dalilga",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          229
+        ],
+        "printed_pages": [
+          229
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-56-f5": {
+      "claim": "Odamning odatiy somatik kariotipi 46 xromosomadan iborat; shimpanze bilan xromosoma tuzilishlari qiyosiy o‘rganiladi.",
+      "answer": "46",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          230
+        ],
+        "printed_pages": [
+          230
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-56-f6": {
+      "claim": "Umurtqa pog‘onasining egriliklari, oyoq kafti gumbazi va chanoq tuzilishi odamning ikki oyoqda yurishi bilan bog‘liq.",
+      "answer": "Ikki oyoqda tayanch va yurish",
+      "source": {
+        "paragraph": 56,
+        "pdf_pages": [
+          230
+        ],
+        "printed_pages": [
+          230
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Fanlararo yondashuv",
+      "body": "Antropologiya insonning biologik va ijtimoiy tarixini fanlararo o‘rganadi.",
+      "fact_ids": [
+        "paragraph-56-f1"
+      ]
+    },
+    {
+      "title": "Dalillarni birlashtirish",
+      "body": "Odam evolutsiyasi molekulyar biologiya, solishtirma anatomiya, embriologiya va paleontologiya dalillari bilan tekshiriladi.",
+      "fact_ids": [
+        "paragraph-56-f2"
+      ]
+    },
+    {
+      "title": "Sutemizuvchilarga xos belgilar",
+      "body": "Odamdagi sut bezlari, diafragma va o‘rta quloqning uch suyakchasi sutemizuvchilarga xos tuzilishlar qatoriga kiradi.",
+      "fact_ids": [
+        "paragraph-56-f3"
+      ]
+    },
+    {
+      "title": "Embrional o‘xshashlik",
+      "body": "Odam embrionida nerv nayi va xorda kabi xordalilarga xos asosiy tuzilmalar rivojlanadi.",
+      "fact_ids": [
+        "paragraph-56-f4"
+      ]
+    },
+    {
+      "title": "Kariotipni solishtirish",
+      "body": "Odamning odatiy somatik kariotipi 46 xromosomadan iborat; shimpanze bilan xromosoma tuzilishlari qiyosiy o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-56-f5"
+      ]
+    },
+    {
+      "title": "Tik yurishga moslanish",
+      "body": "Umurtqa pog‘onasining egriliklari, oyoq kafti gumbazi va chanoq tuzilishi odamning ikki oyoqda yurishi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-56-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-56-q1",
+      "fact_id": "paragraph-56-f1",
+      "question_text": "§56dagi antropologiya ta’rifi qaysi yondashuvga mos?",
+      "options": [
+        "Faqat bitta odamning bahosidan tur tarixini chiqarish",
+        "Biologik va ijtimoiy tarixni birga o‘rganish",
+        "Faqat tog‘ jinslarini rangiga ajratish",
+        "Faqat o‘simlik navlarini sanash"
+      ],
+      "correct_answer": "Biologik va ijtimoiy tarixni birga o‘rganish",
+      "explanation": "Antropologiya insonning biologik va ijtimoiy tarixini fanlararo o‘rganadi."
+    },
+    {
+      "key": "paragraph-56-q2",
+      "fact_id": "paragraph-56-f2",
+      "question_text": "Qadimgi suyak topilmasi va DNK taqqoslashini birga ishlatish nimaga xizmat qiladi?",
+      "options": [
+        "Mustaqil turdagi dalillarni birlashtirishga",
+        "Bitta tashqi belgini barcha dalil o‘rniga qo‘yishga",
+        "Odamlar orasida qadr-qimmat pog‘onasi tuzishga",
+        "Fikrni tekshiruvdan chiqarib tashlashga"
+      ],
+      "correct_answer": "Mustaqil turdagi dalillarni birlashtirishga",
+      "explanation": "Odam evolutsiyasi molekulyar biologiya, solishtirma anatomiya, embriologiya va paleontologiya dalillari bilan tekshiriladi."
+    },
+    {
+      "key": "paragraph-56-q3",
+      "fact_id": "paragraph-56-f3",
+      "question_text": "Odamning sutemizuvchilik xususiyatini ko‘rsatadigan to‘plamni tanlang.",
+      "options": [
+        "Xitin qoplama, jabra, mo‘ylov",
+        "Gul, urug‘chi, changchi",
+        "Mantiyali bo‘shliq va chig‘anoq",
+        "Sut bezlari, diafragma, uch eshitish suyakchasi"
+      ],
+      "correct_answer": "Sut bezlari, diafragma, uch eshitish suyakchasi",
+      "explanation": "Odamdagi sut bezlari, diafragma va o‘rta quloqning uch suyakchasi sutemizuvchilarga xos tuzilishlar qatoriga kiradi."
+    },
+    {
+      "key": "paragraph-56-q4",
+      "fact_id": "paragraph-56-f4",
+      "question_text": "Nerv nayi va xordaning embrionda kuzatilishi qanday dalilga kiradi?",
+      "options": [
+        "Sun’iy tanlash natijasiga",
+        "Faqat individual mashqqa",
+        "Embriologik dalilga",
+        "Arxeologik yozuvga"
+      ],
+      "correct_answer": "Embriologik dalilga",
+      "explanation": "Odam embrionida nerv nayi va xorda kabi xordalilarga xos asosiy tuzilmalar rivojlanadi."
+    },
+    {
+      "key": "paragraph-56-q5",
+      "fact_id": "paragraph-56-f5",
+      "question_text": "Odam somatik kariotipining odatiy xromosoma soni qaysi?",
+      "options": [
+        "92",
+        "46",
+        "23",
+        "48"
+      ],
+      "correct_answer": "46",
+      "explanation": "Odamning odatiy somatik kariotipi 46 xromosomadan iborat; shimpanze bilan xromosoma tuzilishlari qiyosiy o‘rganiladi."
+    },
+    {
+      "key": "paragraph-56-q6",
+      "fact_id": "paragraph-56-f6",
+      "question_text": "Oyoq kafti gumbazi qaysi funksiya kontekstida tushuntiriladi?",
+      "options": [
+        "Ikki oyoqda tayanch va yurish",
+        "Suvda jabra bilan nafas olish",
+        "Qanot bilan faol uchish",
+        "Gul orqali changlanish"
+      ],
+      "correct_answer": "Ikki oyoqda tayanch va yurish",
+      "explanation": "Umurtqa pog‘onasining egriliklari, oyoq kafti gumbazi va chanoq tuzilishi odamning ikki oyoqda yurishi bilan bog‘liq."
+    }
+  ]
+}

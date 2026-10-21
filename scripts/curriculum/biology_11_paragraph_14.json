@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-14-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-17",
+  "title": "Turning populatsion strukturasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-14-f1": {
+      "claim": "Populatsiya soni va zichligi alohida individga emas, individlar guruhiga tegishli ko‘rsatkichlardir.",
+      "answer": "Populatsiya zichligi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-14-f2": {
+      "claim": "Populatsiya soni tug‘ilish, o‘lim va migratsiya ta’sirida vaqt bo‘yicha o‘zgarishi mumkin.",
+      "answer": "O‘lim va tashqariga ko‘chishning yuqoriligi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          82
+        ],
+        "printed_pages": [
+          82
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-14-f3": {
+      "claim": "Son bo‘yicha zichlik individlar sonining maydon yoki hajm birligiga nisbatidir. 6 gektarda 180 tup bo‘lsa, 180 ÷ 6 = 30 tup/ga.",
+      "answer": "30 tup/ga",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-14-f4": {
+      "claim": "Emigratsiya individlarning populatsiya egallagan hududdan tashqariga ko‘chishidir.",
+      "answer": "Emigratsiya",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          83
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-14-f5": {
+      "claim": "Prereproduktiv, reproduktiv va postreproduktiv guruhlar ko‘payish bosqichiga nisbatan ajratiladi; bu ularning qiymatini baholash emas.",
+      "answer": "Prereproduktiv",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-14-f6": {
+      "claim": "Yosh va jinsiy tarkib kelajak dinamikasini baholashga yordam beradi, lekin tug‘ilish, o‘lim va migratsiya ham hisobga olinadi.",
+      "answer": "Boshqa demografik jarayonlar ham ta’sir qiladi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          84
+        ],
+        "printed_pages": [
+          84
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-14-f7": {
+      "claim": "Migratsiya yo‘q modelda 14 tug‘ilish va 9 o‘lim sonni 14 − 9 = 5 individga oshiradi.",
+      "answer": "5 individ ortadi",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-14-f8": {
+      "claim": "Migratsiyasiz modelda tug‘ilish va o‘lim sonlari teng bo‘lsa umumiy son o‘zgarmaydi; bu individlar almashmaydi degani emas.",
+      "answer": "Umumiy son barqaror, individlar tarkibi almashgan",
+      "source": {
+        "paragraph": 14,
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Guruhning xususiyati",
+      "body": "Populatsiya soni va zichligi alohida individga emas, individlar guruhiga tegishli ko‘rsatkichlardir.",
+      "fact_ids": [
+        "paragraph-14-f1"
+      ]
+    },
+    {
+      "title": "Son dinamikasi",
+      "body": "Populatsiya soni tug‘ilish, o‘lim va migratsiya ta’sirida vaqt bo‘yicha o‘zgarishi mumkin.",
+      "fact_ids": [
+        "paragraph-14-f2"
+      ]
+    },
+    {
+      "title": "Zichlik hisobi",
+      "body": "Son bo‘yicha zichlik individlar sonining maydon yoki hajm birligiga nisbatidir. 6 gektarda 180 tup bo‘lsa, 180 ÷ 6 = 30 tup/ga.",
+      "fact_ids": [
+        "paragraph-14-f3"
+      ]
+    },
+    {
+      "title": "Ko‘chib ketish",
+      "body": "Emigratsiya individlarning populatsiya egallagan hududdan tashqariga ko‘chishidir.",
+      "fact_ids": [
+        "paragraph-14-f4"
+      ]
+    },
+    {
+      "title": "Yosh tarkibi",
+      "body": "Prereproduktiv, reproduktiv va postreproduktiv guruhlar ko‘payish bosqichiga nisbatan ajratiladi; bu ularning qiymatini baholash emas.",
+      "fact_ids": [
+        "paragraph-14-f5"
+      ]
+    },
+    {
+      "title": "Prognozning chegarasi",
+      "body": "Yosh va jinsiy tarkib kelajak dinamikasini baholashga yordam beradi, lekin tug‘ilish, o‘lim va migratsiya ham hisobga olinadi.",
+      "fact_ids": [
+        "paragraph-14-f6"
+      ]
+    },
+    {
+      "title": "Yopiq model",
+      "body": "Migratsiya yo‘q modelda 14 tug‘ilish va 9 o‘lim sonni 14 − 9 = 5 individga oshiradi.",
+      "fact_ids": [
+        "paragraph-14-f7"
+      ]
+    },
+    {
+      "title": "Barqarorlik sharti",
+      "body": "Migratsiyasiz modelda tug‘ilish va o‘lim sonlari teng bo‘lsa umumiy son o‘zgarmaydi; bu individlar almashmaydi degani emas.",
+      "fact_ids": [
+        "paragraph-14-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-14-q1",
+      "fact_id": "paragraph-14-f1",
+      "question_text": "Bitta quyon uchun emas, quyonlar guruhiga nisbatan qaysi ko‘rsatkich ishlatiladi?",
+      "options": [
+        "Populatsiya zichligi",
+        "Tana harorati",
+        "Bitta yurak urishi",
+        "Individual tana uzunligi"
+      ],
+      "correct_answer": "Populatsiya zichligi",
+      "explanation": "Populatsiya soni va zichligi alohida individga emas, individlar guruhiga tegishli ko‘rsatkichlardir."
+    },
+    {
+      "key": "paragraph-14-q2",
+      "fact_id": "paragraph-14-f2",
+      "question_text": "Tug‘ilish ko‘p bo‘lsa ham son kamayishiga nima sabab bo‘lishi mumkin?",
+      "options": [
+        "Barcha individlar fotosintez qilishi",
+        "Sonning hech qachon o‘zgarmas qonuni",
+        "Faqat tur nomining o‘zgarishi",
+        "O‘lim va tashqariga ko‘chishning yuqoriligi"
+      ],
+      "correct_answer": "O‘lim va tashqariga ko‘chishning yuqoriligi",
+      "explanation": "Populatsiya soni tug‘ilish, o‘lim va migratsiya ta’sirida vaqt bo‘yicha o‘zgarishi mumkin."
+    },
+    {
+      "key": "paragraph-14-q3",
+      "fact_id": "paragraph-14-f3",
+      "question_text": "Model maydonda 6 gektarga 180 tup to‘g‘ri keldi. Zichlik qancha?",
+      "options": [
+        "6 tup/ga",
+        "180 tup/ga",
+        "30 tup/ga",
+        "1080 tup/ga"
+      ],
+      "correct_answer": "30 tup/ga",
+      "explanation": "Son bo‘yicha zichlik individlar sonining maydon yoki hajm birligiga nisbatidir. 6 gektarda 180 tup bo‘lsa, 180 ÷ 6 = 30 tup/ga."
+    },
+    {
+      "key": "paragraph-14-q4",
+      "fact_id": "paragraph-14-f4",
+      "question_text": "Individlarning populatsiya hududini tark etishi qaysi jarayon?",
+      "options": [
+        "Fotosintez",
+        "Emigratsiya",
+        "Faqat tug‘ilish",
+        "Faqat ichki gen rekombinatsiyasi"
+      ],
+      "correct_answer": "Emigratsiya",
+      "explanation": "Emigratsiya individlarning populatsiya egallagan hududdan tashqariga ko‘chishidir."
+    },
+    {
+      "key": "paragraph-14-q5",
+      "fact_id": "paragraph-14-f5",
+      "question_text": "Hali ko‘payish yoshiga yetmagan individlar qaysi guruhda?",
+      "options": [
+        "Prereproduktiv",
+        "Reproduktiv",
+        "Postreproduktiv",
+        "Faqat o‘lik organik qoldiq"
+      ],
+      "correct_answer": "Prereproduktiv",
+      "explanation": "Prereproduktiv, reproduktiv va postreproduktiv guruhlar ko‘payish bosqichiga nisbatan ajratiladi; bu ularning qiymatini baholash emas."
+    },
+    {
+      "key": "paragraph-14-q6",
+      "fact_id": "paragraph-14-f6",
+      "question_text": "Faqat jinsiy nisbatdan kelajak sonini qat’iy belgilash nega yetarli emas?",
+      "options": [
+        "Jinsiy tarkib umuman o‘lchanmaydi",
+        "Har bir populatsiya soni majburan teng",
+        "Faqat yirtqich nomi sonni belgilaydi",
+        "Boshqa demografik jarayonlar ham ta’sir qiladi"
+      ],
+      "correct_answer": "Boshqa demografik jarayonlar ham ta’sir qiladi",
+      "explanation": "Yosh va jinsiy tarkib kelajak dinamikasini baholashga yordam beradi, lekin tug‘ilish, o‘lim va migratsiya ham hisobga olinadi."
+    },
+    {
+      "key": "paragraph-14-q7",
+      "fact_id": "paragraph-14-f7",
+      "question_text": "Yopiq model populatsiyada 14 tug‘ilish, 9 o‘lim bo‘ldi. Sof o‘zgarish qancha?",
+      "options": [
+        "5 individ kamayadi",
+        "Son mutlaqo o‘zgarmaydi",
+        "5 individ ortadi",
+        "23 individ ortadi"
+      ],
+      "correct_answer": "5 individ ortadi",
+      "explanation": "Migratsiya yo‘q modelda 14 tug‘ilish va 9 o‘lim sonni 14 − 9 = 5 individga oshiradi."
+    },
+    {
+      "key": "paragraph-14-q8",
+      "fact_id": "paragraph-14-f8",
+      "question_text": "10 tug‘ilish va 10 o‘limli yopiq modelda qaysi xulosa to‘g‘ri?",
+      "options": [
+        "Son 10 taga kamaygan",
+        "Umumiy son barqaror, individlar tarkibi almashgan",
+        "Hech bir individ almashmagan",
+        "Son 20 taga ortgan"
+      ],
+      "correct_answer": "Umumiy son barqaror, individlar tarkibi almashgan",
+      "explanation": "Migratsiyasiz modelda tug‘ilish va o‘lim sonlari teng bo‘lsa umumiy son o‘zgarmaydi; bu individlar almashmaydi degani emas."
+    }
+  ]
+}

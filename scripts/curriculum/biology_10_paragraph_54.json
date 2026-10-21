@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-54-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-63",
+  "title": "Paleozoy erasidagi hayot",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-54-f1": {
+      "claim": "Paleozoy bo‘limi kembriy, ordovik, silur, devon, toshko‘mir va perm davrlarini shu tartibda o‘rganadi.",
+      "answer": "Devon",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          225
+        ],
+        "printed_pages": [
+          225
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-54-f2": {
+      "claim": "Kembriy haqidagi matnda dengiz umurtqasizlari, jumladan trilobitlarning keng tarqalishi ta’kidlanadi.",
+      "answer": "Trilobitlar kabi umurtqasizlar",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          225
+        ],
+        "printed_pages": [
+          225
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-54-f3": {
+      "claim": "Darslik silur bo‘limida dastlabki quruqlik o‘simliklari va quruqlik bo‘g‘imoyoqlilarini muhokama qiladi.",
+      "answer": "Organizmlarning quruqlik muhitini egallashiga",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          225
+        ],
+        "printed_pages": [
+          225
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-54-f4": {
+      "claim": "Devon bo‘limida baliqlar xilma-xilligi hamda dastlabki quruqlik umurtqalilari shakllanishi bilan bog‘liq o‘zgarishlar yoritiladi.",
+      "answer": "Baliqlar xilma-xilligi va quruqlik umurtqalilari rivoji",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          226
+        ],
+        "printed_pages": [
+          226
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-54-f5": {
+      "claim": "Toshko‘mir davridagi nam botqoqli o‘rmonlarda o‘simlik qoldiqlari to‘planishi keyinchalik ko‘mir qatlamlariga hissa qo‘shgan.",
+      "answer": "Ko‘p miqdordagi o‘simlik qoldiqlarining to‘planishi",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          226
+        ],
+        "printed_pages": [
+          226
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-54-f6": {
+      "claim": "Darslik toshko‘mirning nam botqoqli muhitini perm boshidagi quruqroq sharoit bilan taqqoslaydi.",
+      "answer": "Nam botqoqli sharoitdan quruqroq sharoit tomon o‘zgarish",
+      "source": {
+        "paragraph": 54,
+        "pdf_pages": [
+          226
+        ],
+        "printed_pages": [
+          226
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Davrlar ketma-ketligi",
+      "body": "Paleozoy bo‘limi kembriy, ordovik, silur, devon, toshko‘mir va perm davrlarini shu tartibda o‘rganadi.",
+      "fact_ids": [
+        "paragraph-54-f1"
+      ]
+    },
+    {
+      "title": "Dengiz xilma-xilligi",
+      "body": "Kembriy haqidagi matnda dengiz umurtqasizlari, jumladan trilobitlarning keng tarqalishi ta’kidlanadi.",
+      "fact_ids": [
+        "paragraph-54-f2"
+      ]
+    },
+    {
+      "title": "Quruqlikka o‘tish",
+      "body": "Darslik silur bo‘limida dastlabki quruqlik o‘simliklari va quruqlik bo‘g‘imoyoqlilarini muhokama qiladi.",
+      "fact_ids": [
+        "paragraph-54-f3"
+      ]
+    },
+    {
+      "title": "Devonning yangiliklari",
+      "body": "Devon bo‘limida baliqlar xilma-xilligi hamda dastlabki quruqlik umurtqalilari shakllanishi bilan bog‘liq o‘zgarishlar yoritiladi.",
+      "fact_ids": [
+        "paragraph-54-f4"
+      ]
+    },
+    {
+      "title": "Ko‘mir manbai",
+      "body": "Toshko‘mir davridagi nam botqoqli o‘rmonlarda o‘simlik qoldiqlari to‘planishi keyinchalik ko‘mir qatlamlariga hissa qo‘shgan.",
+      "fact_ids": [
+        "paragraph-54-f5"
+      ]
+    },
+    {
+      "title": "Muhitni taqqoslash",
+      "body": "Darslik toshko‘mirning nam botqoqli muhitini perm boshidagi quruqroq sharoit bilan taqqoslaydi.",
+      "fact_ids": [
+        "paragraph-54-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-54-q1",
+      "fact_id": "paragraph-54-f1",
+      "question_text": "Silurdan keyin, toshko‘mirdan oldin qaysi davr turadi?",
+      "options": [
+        "Yura",
+        "Devon",
+        "Kembriy",
+        "Bo‘r"
+      ],
+      "correct_answer": "Devon",
+      "explanation": "Paleozoy bo‘limi kembriy, ordovik, silur, devon, toshko‘mir va perm davrlarini shu tartibda o‘rganadi."
+    },
+    {
+      "key": "paragraph-54-q2",
+      "fact_id": "paragraph-54-f2",
+      "question_text": "Kembriy dengizlarining tavsifiga qaysi guruh mos keladi?",
+      "options": [
+        "Trilobitlar kabi umurtqasizlar",
+        "Zamonaviy ot zotlari",
+        "Gulli mevali daraxtlar",
+        "Dehqonchilik qiluvchi odamlar"
+      ],
+      "correct_answer": "Trilobitlar kabi umurtqasizlar",
+      "explanation": "Kembriy haqidagi matnda dengiz umurtqasizlari, jumladan trilobitlarning keng tarqalishi ta’kidlanadi."
+    },
+    {
+      "key": "paragraph-54-q3",
+      "fact_id": "paragraph-54-f3",
+      "question_text": "Silur haqidagi sahifa qaysi katta ekologik o‘zgarishga e’tibor qaratadi?",
+      "options": [
+        "Faqat mevali bog‘larning tashkil etilishiga",
+        "Faqat muzliklarning odam tomonidan eritilishiga",
+        "Barcha dengizlar butunlay yo‘qolishiga",
+        "Organizmlarning quruqlik muhitini egallashiga"
+      ],
+      "correct_answer": "Organizmlarning quruqlik muhitini egallashiga",
+      "explanation": "Darslik silur bo‘limida dastlabki quruqlik o‘simliklari va quruqlik bo‘g‘imoyoqlilarini muhokama qiladi."
+    },
+    {
+      "key": "paragraph-54-q4",
+      "fact_id": "paragraph-54-f4",
+      "question_text": "Devon davri mazmuniga mos juftlikni toping.",
+      "options": [
+        "Primatlar va dehqonchilik",
+        "Uy tovuqlari va sun’iy yo‘ldoshlar",
+        "Baliqlar xilma-xilligi va quruqlik umurtqalilari rivoji",
+        "Gulli bog‘lar va yozma madaniyat"
+      ],
+      "correct_answer": "Baliqlar xilma-xilligi va quruqlik umurtqalilari rivoji",
+      "explanation": "Devon bo‘limida baliqlar xilma-xilligi hamda dastlabki quruqlik umurtqalilari shakllanishi bilan bog‘liq o‘zgarishlar yoritiladi."
+    },
+    {
+      "key": "paragraph-54-q5",
+      "fact_id": "paragraph-54-f5",
+      "question_text": "Ko‘mir qatlamlarini qadimgi botqoqli o‘rmonlar bilan nima bog‘laydi?",
+      "options": [
+        "Faqat vulqon kulining tirik bo‘lishi",
+        "Ko‘p miqdordagi o‘simlik qoldiqlarining to‘planishi",
+        "Faqat toza qumning birdan hayvonga aylanishi",
+        "Faqat baliq suzgichlari"
+      ],
+      "correct_answer": "Ko‘p miqdordagi o‘simlik qoldiqlarining to‘planishi",
+      "explanation": "Toshko‘mir davridagi nam botqoqli o‘rmonlarda o‘simlik qoldiqlari to‘planishi keyinchalik ko‘mir qatlamlariga hissa qo‘shgan."
+    },
+    {
+      "key": "paragraph-54-q6",
+      "fact_id": "paragraph-54-f6",
+      "question_text": "Toshko‘mir va perm muhitini solishtirishda qaysi farq ajratilgan?",
+      "options": [
+        "Nam botqoqli sharoitdan quruqroq sharoit tomon o‘zgarish",
+        "Permda barcha suvning yo‘qolishi",
+        "Har ikki davrda faqat shaharlar bo‘lishi",
+        "Toshko‘mirda birorta o‘simlik yashamasligi"
+      ],
+      "correct_answer": "Nam botqoqli sharoitdan quruqroq sharoit tomon o‘zgarish",
+      "explanation": "Darslik toshko‘mirning nam botqoqli muhitini perm boshidagi quruqroq sharoit bilan taqqoslaydi."
+    }
+  ]
+}

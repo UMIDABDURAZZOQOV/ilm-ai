@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-55-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-64",
+  "title": "Mezozoy, kaynazoy eralaridagi hayot",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-55-f1": {
+      "claim": "Mezozoy bo‘limidagi davrlar trias, yura va bo‘r tartibida berilgan.",
+      "answer": "Oldin trias, keyin bo‘r",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          227
+        ],
+        "printed_pages": [
+          227
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-55-f2": {
+      "claim": "Yura o‘rmonlari tavsifida ochiq urug‘li o‘simliklarning muhim o‘rni qayd etilgan.",
+      "answer": "Ochiq urug‘lilarni",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          227
+        ],
+        "printed_pages": [
+          227
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-55-f3": {
+      "claim": "Darslik arxeopteriksni yura davri bilan bog‘laydi; bu qadimgi qushsimon shakllarni o‘rganishda muhim topilmadir.",
+      "answer": "Yura",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          227
+        ],
+        "printed_pages": [
+          227
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-55-f4": {
+      "claim": "Bo‘r bo‘limida yopiq urug‘li o‘simliklarning kengayishi va xilma-xillashishi ta’kidlanadi.",
+      "answer": "Gulli o‘simliklar xilma-xilligining ortishi",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          227
+        ],
+        "printed_pages": [
+          227
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-55-f5": {
+      "claim": "Kaynozoy tavsifida gulli o‘simliklar, hasharotlar, qushlar va sutemizuvchilar rivoji muhim o‘rin egallaydi.",
+      "answer": "Qushlar, sutemizuvchilar va gulli o‘simliklar",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          227
+        ],
+        "printed_pages": [
+          227
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-55-f6": {
+      "claim": "To‘rtlamchi davrning muzlanishlari yashash hududlari va o‘simlik qoplamiga ta’sir qilgan.",
+      "answer": "Iqlim va yashash sharoitlarini o‘zgartirish orqali",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          228
+        ],
+        "printed_pages": [
+          228
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-55-f7": {
+      "claim": "Qadimgi ovchilik yirik hayvonlar soniga ta’sir qilgan; bunday ta’sirni ekologik omil sifatida tahlil qilish mumkin.",
+      "answer": "Inson faoliyatining ta’sirini",
+      "source": {
+        "paragraph": 55,
+        "pdf_pages": [
+          228
+        ],
+        "printed_pages": [
+          228
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Mezozoyni tartiblash",
+      "body": "Mezozoy bo‘limidagi davrlar trias, yura va bo‘r tartibida berilgan.",
+      "fact_ids": [
+        "paragraph-55-f1"
+      ]
+    },
+    {
+      "title": "O‘simliklar manzarasi",
+      "body": "Yura o‘rmonlari tavsifida ochiq urug‘li o‘simliklarning muhim o‘rni qayd etilgan.",
+      "fact_ids": [
+        "paragraph-55-f2"
+      ]
+    },
+    {
+      "title": "Qushsimon topilma",
+      "body": "Darslik arxeopteriksni yura davri bilan bog‘laydi; bu qadimgi qushsimon shakllarni o‘rganishda muhim topilmadir.",
+      "fact_ids": [
+        "paragraph-55-f3"
+      ]
+    },
+    {
+      "title": "Bo‘r florasi",
+      "body": "Bo‘r bo‘limida yopiq urug‘li o‘simliklarning kengayishi va xilma-xillashishi ta’kidlanadi.",
+      "fact_ids": [
+        "paragraph-55-f4"
+      ]
+    },
+    {
+      "title": "Kaynozoydagi guruhlar",
+      "body": "Kaynozoy tavsifida gulli o‘simliklar, hasharotlar, qushlar va sutemizuvchilar rivoji muhim o‘rin egallaydi.",
+      "fact_ids": [
+        "paragraph-55-f5"
+      ]
+    },
+    {
+      "title": "Iqlimning o‘zgarishi",
+      "body": "To‘rtlamchi davrning muzlanishlari yashash hududlari va o‘simlik qoplamiga ta’sir qilgan.",
+      "fact_ids": [
+        "paragraph-55-f6"
+      ]
+    },
+    {
+      "title": "Odamning ta’siri",
+      "body": "Qadimgi ovchilik yirik hayvonlar soniga ta’sir qilgan; bunday ta’sirni ekologik omil sifatida tahlil qilish mumkin.",
+      "fact_ids": [
+        "paragraph-55-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-55-q1",
+      "fact_id": "paragraph-55-f1",
+      "question_text": "Yura davrining ikki tomonidagi davrlar qaysilar?",
+      "options": [
+        "Oldin devon, keyin ordovik",
+        "Oldin trias, keyin bo‘r",
+        "Oldin perm, keyin kembriy",
+        "Oldin kaynozoy, keyin silur"
+      ],
+      "correct_answer": "Oldin trias, keyin bo‘r",
+      "explanation": "Mezozoy bo‘limidagi davrlar trias, yura va bo‘r tartibida berilgan."
+    },
+    {
+      "key": "paragraph-55-q2",
+      "fact_id": "paragraph-55-f2",
+      "question_text": "Yura o‘rmonlari uchun darslik qaysi o‘simlik guruhini alohida ajratadi?",
+      "options": [
+        "Ochiq urug‘lilarni",
+        "Faqat madaniy bug‘doyni",
+        "Faqat uy sharoitidagi atirgul navlarini",
+        "Faqat suvdagi bakteriofaglarni"
+      ],
+      "correct_answer": "Ochiq urug‘lilarni",
+      "explanation": "Yura o‘rmonlari tavsifida ochiq urug‘li o‘simliklarning muhim o‘rni qayd etilgan."
+    },
+    {
+      "key": "paragraph-55-q3",
+      "fact_id": "paragraph-55-f3",
+      "question_text": "Arxeopteriks §55da qaysi davr tarkibida tilga olinadi?",
+      "options": [
+        "Ordovik",
+        "Silur",
+        "Toshko‘mir",
+        "Yura"
+      ],
+      "correct_answer": "Yura",
+      "explanation": "Darslik arxeopteriksni yura davri bilan bog‘laydi; bu qadimgi qushsimon shakllarni o‘rganishda muhim topilmadir."
+    },
+    {
+      "key": "paragraph-55-q4",
+      "fact_id": "paragraph-55-f4",
+      "question_text": "Bo‘r davri o‘simliklari rivojida qaysi yo‘nalish ajratilgan?",
+      "options": [
+        "Faqat bakteriyalarning barg chiqarishi",
+        "Barcha gullarning bir turga aylanishi",
+        "Gulli o‘simliklar xilma-xilligining ortishi",
+        "Barcha o‘simliklarda urug‘ning yo‘qolishi"
+      ],
+      "correct_answer": "Gulli o‘simliklar xilma-xilligining ortishi",
+      "explanation": "Bo‘r bo‘limida yopiq urug‘li o‘simliklarning kengayishi va xilma-xillashishi ta’kidlanadi."
+    },
+    {
+      "key": "paragraph-55-q5",
+      "fact_id": "paragraph-55-f5",
+      "question_text": "Kaynozoy haqidagi bo‘lim uchun mos guruhlar to‘plami qaysi?",
+      "options": [
+        "Faqat koatservat tomchilari",
+        "Qushlar, sutemizuvchilar va gulli o‘simliklar",
+        "Faqat trilobit va psilofitlar",
+        "Faqat ilk prokaryotlar"
+      ],
+      "correct_answer": "Qushlar, sutemizuvchilar va gulli o‘simliklar",
+      "explanation": "Kaynozoy tavsifida gulli o‘simliklar, hasharotlar, qushlar va sutemizuvchilar rivoji muhim o‘rin egallaydi."
+    },
+    {
+      "key": "paragraph-55-q6",
+      "fact_id": "paragraph-55-f6",
+      "question_text": "Muzlanish o‘simliklarning tarqalishini nima orqali o‘zgartiradi?",
+      "options": [
+        "Iqlim va yashash sharoitlarini o‘zgartirish orqali",
+        "Har bir urug‘ning genomini bir xil qilish orqali",
+        "Barcha tog‘larni birdan yo‘q qilish orqali",
+        "Fotosintezning kimyoviy qonunini bekor qilish orqali"
+      ],
+      "correct_answer": "Iqlim va yashash sharoitlarini o‘zgartirish orqali",
+      "explanation": "To‘rtlamchi davrning muzlanishlari yashash hududlari va o‘simlik qoplamiga ta’sir qilgan."
+    },
+    {
+      "key": "paragraph-55-q7",
+      "fact_id": "paragraph-55-f7",
+      "question_text": "Qadimgi ovchilik bilan hayvonlar soni o‘zgarishini bog‘lash qanday omilni tekshiradi?",
+      "options": [
+        "Faqat qit’a jinsining rangini",
+        "Faqat hayvon nomining uzunligini",
+        "Faqat Quyoshning massasini",
+        "Inson faoliyatining ta’sirini"
+      ],
+      "correct_answer": "Inson faoliyatining ta’sirini",
+      "explanation": "Qadimgi ovchilik yirik hayvonlar soniga ta’sir qilgan; bunday ta’sirni ekologik omil sifatida tahlil qilish mumkin."
+    }
+  ]
+}

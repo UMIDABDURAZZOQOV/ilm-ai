@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-5-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-7",
+  "title": "Organizmlarning yashash muhiti. Suv muhiti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-5-f1": {
+      "claim": "Yashash muhiti organizmga bevosita yoki bilvosita ta’sir qiladigan biotik va abiotik sharoitlarni birlashtiradi.",
+      "answer": "Suv sharoitlari va boshqa organizmlar",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-5-f2": {
+      "claim": "Adaptatsiyalar muayyan sharoitda yashash va ko‘payishga yordam beradigan belgilar majmuasidir.",
+      "answer": "Suv qarshiligini yengib harakatlanish bilan",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-5-f3": {
+      "claim": "Suvning katta issiqlik sig‘imi harorat o‘zgarishlarini yumshatishga yordam beradi; bu barcha suv qatlamlari har doim teng haroratli degani emas.",
+      "answer": "Katta issiqlik sig‘imi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-5-f4": {
+      "claim": "Chuqurlik ortganda yorug‘lik kamayishi fotosintezlovchi organizmlar tarqalishini cheklashi mumkin.",
+      "answer": "Yorug‘lik yetishishi",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-5-f5": {
+      "claim": "Erigan kislorod va tuz miqdori suv organizmlarining tarqalishi va faoliyatiga ta’sir qiladi.",
+      "answer": "Erigan kislorod va sho‘rlanish",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          26
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-5-f6": {
+      "claim": "Aerenxima — havo bo‘shliqlari rivojlangan o‘simlik to‘qimasi; u suv muhitida gaz almashishga yordam beradi.",
+      "answer": "Gazlarning ichki harakatiga yordam berishga",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-5-f7": {
+      "claim": "Planktonning ko‘chishi asosan oqimga bog‘liq; nekton esa oqimga qarshi faol suza oladi. Planktonni mutlaqo harakatsiz deb bo‘lmaydi.",
+      "answer": "Nekton",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-5-f8": {
+      "claim": "Bentos suv tubida yoki tub cho‘kindilari orasida yashovchi organizmlarni birlashtiradi.",
+      "answer": "Bentos",
+      "source": {
+        "paragraph": 5,
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          28
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Muhit ta’rifi",
+      "body": "Yashash muhiti organizmga bevosita yoki bilvosita ta’sir qiladigan biotik va abiotik sharoitlarni birlashtiradi.",
+      "fact_ids": [
+        "paragraph-5-f1"
+      ]
+    },
+    {
+      "title": "Moslanishning vazifasi",
+      "body": "Adaptatsiyalar muayyan sharoitda yashash va ko‘payishga yordam beradigan belgilar majmuasidir.",
+      "fact_ids": [
+        "paragraph-5-f2"
+      ]
+    },
+    {
+      "title": "Issiqlik sig‘imi",
+      "body": "Suvning katta issiqlik sig‘imi harorat o‘zgarishlarini yumshatishga yordam beradi; bu barcha suv qatlamlari har doim teng haroratli degani emas.",
+      "fact_ids": [
+        "paragraph-5-f3"
+      ]
+    },
+    {
+      "title": "Chuqurlik va yorug‘lik",
+      "body": "Chuqurlik ortganda yorug‘lik kamayishi fotosintezlovchi organizmlar tarqalishini cheklashi mumkin.",
+      "fact_ids": [
+        "paragraph-5-f4"
+      ]
+    },
+    {
+      "title": "Kimyoviy sharoit",
+      "body": "Erigan kislorod va tuz miqdori suv organizmlarining tarqalishi va faoliyatiga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-5-f5"
+      ]
+    },
+    {
+      "title": "Havoli to‘qima",
+      "body": "Aerenxima — havo bo‘shliqlari rivojlangan o‘simlik to‘qimasi; u suv muhitida gaz almashishga yordam beradi.",
+      "fact_ids": [
+        "paragraph-5-f6"
+      ]
+    },
+    {
+      "title": "Plankton va nekton",
+      "body": "Planktonning ko‘chishi asosan oqimga bog‘liq; nekton esa oqimga qarshi faol suza oladi. Planktonni mutlaqo harakatsiz deb bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-5-f7"
+      ]
+    },
+    {
+      "title": "Tub jamoasi",
+      "body": "Bentos suv tubida yoki tub cho‘kindilari orasida yashovchi organizmlarni birlashtiradi.",
+      "fact_ids": [
+        "paragraph-5-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-5-q1",
+      "fact_id": "paragraph-5-f1",
+      "question_text": "Suv havzasini baliq yashash muhiti deb tahlil qilishda nimalar hisobga olinadi?",
+      "options": [
+        "Suv sharoitlari va boshqa organizmlar",
+        "Faqat baliq nomi",
+        "Faqat ko‘lning odam bergan nomi",
+        "Faqat kitobdagi rasm o‘lchami"
+      ],
+      "correct_answer": "Suv sharoitlari va boshqa organizmlar",
+      "explanation": "Yashash muhiti organizmga bevosita yoki bilvosita ta’sir qiladigan biotik va abiotik sharoitlarni birlashtiradi."
+    },
+    {
+      "key": "paragraph-5-q2",
+      "fact_id": "paragraph-5-f2",
+      "question_text": "Baliqning suyri shaklini nima bilan bog‘lash asosli?",
+      "options": [
+        "Barcha baliqlarning uchishi bilan",
+        "Baliqning suvga ehtiyojsizligi bilan",
+        "Har bir baliqda gul hosil bo‘lishi bilan",
+        "Suv qarshiligini yengib harakatlanish bilan"
+      ],
+      "correct_answer": "Suv qarshiligini yengib harakatlanish bilan",
+      "explanation": "Adaptatsiyalar muayyan sharoitda yashash va ko‘payishga yordam beradigan belgilar majmuasidir."
+    },
+    {
+      "key": "paragraph-5-q3",
+      "fact_id": "paragraph-5-f3",
+      "question_text": "Suv harorati havoga qaraganda sekinroq o‘zgarsa, qaysi xususiyat muhim?",
+      "options": [
+        "Suvning barcha gazlarni yo‘qotishi",
+        "Suvda hech qanday energiya bo‘lmasligi",
+        "Katta issiqlik sig‘imi",
+        "Faqat suv rangining ko‘kligi"
+      ],
+      "correct_answer": "Katta issiqlik sig‘imi",
+      "explanation": "Suvning katta issiqlik sig‘imi harorat o‘zgarishlarini yumshatishga yordam beradi; bu barcha suv qatlamlari har doim teng haroratli degani emas."
+    },
+    {
+      "key": "paragraph-5-q4",
+      "fact_id": "paragraph-5-f4",
+      "question_text": "Chuqurroq qatlamda fotosintez kamayishini tekshirishda qaysi omil muhim?",
+      "options": [
+        "Faqat o‘simlikning alifbodagi o‘rni",
+        "Yorug‘lik yetishishi",
+        "Faqat baliq nomining uzunligi",
+        "Faqat suv idishining narxi"
+      ],
+      "correct_answer": "Yorug‘lik yetishishi",
+      "explanation": "Chuqurlik ortganda yorug‘lik kamayishi fotosintezlovchi organizmlar tarqalishini cheklashi mumkin."
+    },
+    {
+      "key": "paragraph-5-q5",
+      "fact_id": "paragraph-5-f5",
+      "question_text": "Ikki hovuzni baliq yashashi uchun solishtirishda qaysi o‘lchov foydali?",
+      "options": [
+        "Erigan kislorod va sho‘rlanish",
+        "Faqat xaritadagi rang",
+        "Faqat qirg‘oqdagi yozuv shrifti",
+        "Faqat havza nomidagi harflar soni"
+      ],
+      "correct_answer": "Erigan kislorod va sho‘rlanish",
+      "explanation": "Erigan kislorod va tuz miqdori suv organizmlarining tarqalishi va faoliyatiga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-5-q6",
+      "fact_id": "paragraph-5-f6",
+      "question_text": "Suv o‘simligidagi havo bo‘shliqli to‘qima qaysi moslanishga tegishli?",
+      "options": [
+        "Barcha hujayralarni xitinga aylantirishga",
+        "Fotosintezni har doim to‘xtatishga",
+        "Ildizni albatta butunlay yo‘qotishga",
+        "Gazlarning ichki harakatiga yordam berishga"
+      ],
+      "correct_answer": "Gazlarning ichki harakatiga yordam berishga",
+      "explanation": "Aerenxima — havo bo‘shliqlari rivojlangan o‘simlik to‘qimasi; u suv muhitida gaz almashishga yordam beradi."
+    },
+    {
+      "key": "paragraph-5-q7",
+      "fact_id": "paragraph-5-f7",
+      "question_text": "Oqimga qarshi faol suzuvchi baliq qaysi ekologik guruhga misol?",
+      "options": [
+        "Faqat bentos",
+        "Edafobiont",
+        "Nekton",
+        "Faqat plankton"
+      ],
+      "correct_answer": "Nekton",
+      "explanation": "Planktonning ko‘chishi asosan oqimga bog‘liq; nekton esa oqimga qarshi faol suza oladi. Planktonni mutlaqo harakatsiz deb bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-5-q8",
+      "fact_id": "paragraph-5-f8",
+      "question_text": "Tubdagi qum orasiga ko‘miladigan organizm qaysi guruh kontekstida o‘rganiladi?",
+      "options": [
+        "Faqat quruq dasht o‘simliklari",
+        "Bentos",
+        "Faqat havoda uchuvchi guruh",
+        "Faqat plankton"
+      ],
+      "correct_answer": "Bentos",
+      "explanation": "Bentos suv tubida yoki tub cho‘kindilari orasida yashovchi organizmlarni birlashtiradi."
+    }
+  ]
+}

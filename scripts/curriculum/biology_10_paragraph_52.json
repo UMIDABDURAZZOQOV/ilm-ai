@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-52-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-61",
+  "title": "Biokimyoviy evolutsiya nazariyasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-52-f1": {
+      "claim": "Oparin–Xoldeyn qarashi hayotgacha kimyoviy evolutsiya gipotezasini ilgari suradi; gipoteza barcha bosqichlar isbotlandi degani emas.",
+      "answer": "Gipotezani dalillar bilan tekshirish",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          221
+        ],
+        "printed_pages": [
+          221
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-52-f2": {
+      "claim": "Darslik kimyoviy evolutsiyada kichik organik molekulalardan murakkab birikmalar tomon jarayonlarni muhokama qiladi.",
+      "answer": "Kimyoviy murakkablashishga",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          221
+        ],
+        "printed_pages": [
+          221
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-52-f3": {
+      "claim": "Millerning 1953-yildagi model tajribasida ayrim organik moddalar, jumladan aminokislotalar hosil bo‘lgan; tayyor tirik hujayra yaratilmagan.",
+      "answer": "Model sharoitda ayrim organik moddalar abiogen hosil bo‘lishini",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          222
+        ],
+        "printed_pages": [
+          222
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-52-f4": {
+      "claim": "Tajribadagi gaz aralashmasi qadimgi sharoit modeli; natija tarixiy atmosferaning aynan shu tarkibini o‘zi isbotlamaydi.",
+      "answer": "Qadimgi atmosfera tarkibi to‘liq tasdiqlandi",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          222
+        ],
+        "printed_pages": [
+          222
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-52-f5": {
+      "claim": "Koatservatlar murakkab molekulalar to‘planuvchi tomchisimon tizim modeli bo‘lib, ularni to‘liq tirik hujayra deb qabul qilish noto‘g‘ri.",
+      "answer": "Hayotgacha tizimlarni o‘rganish modeli",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          222
+        ],
+        "printed_pages": [
+          222
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-52-f6": {
+      "claim": "Kislorod ajratuvchi fotosintez Yer muhitida kislorod to‘planishi va aerob jarayonlar kengayishi bilan bog‘liq.",
+      "answer": "Muhitda erkin kislorod to‘planishiga hissa",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          223
+        ],
+        "printed_pages": [
+          223
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-52-f7": {
+      "claim": "Atmosferadagi kislorod bilan bog‘liq ozon qatlami ultrabinafsha nurlanishning bir qismini tutadi.",
+      "answer": "Ultrabinafsha nurlanishdan himoyaga hissa qo‘shish",
+      "source": {
+        "paragraph": 52,
+        "pdf_pages": [
+          223
+        ],
+        "printed_pages": [
+          223
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Gipoteza va dalil",
+      "body": "Oparin–Xoldeyn qarashi hayotgacha kimyoviy evolutsiya gipotezasini ilgari suradi; gipoteza barcha bosqichlar isbotlandi degani emas.",
+      "fact_ids": [
+        "paragraph-52-f1"
+      ]
+    },
+    {
+      "title": "Bosqichlar modeli",
+      "body": "Darslik kimyoviy evolutsiyada kichik organik molekulalardan murakkab birikmalar tomon jarayonlarni muhokama qiladi.",
+      "fact_ids": [
+        "paragraph-52-f2"
+      ]
+    },
+    {
+      "title": "Miller tajribasi",
+      "body": "Millerning 1953-yildagi model tajribasida ayrim organik moddalar, jumladan aminokislotalar hosil bo‘lgan; tayyor tirik hujayra yaratilmagan.",
+      "fact_ids": [
+        "paragraph-52-f3"
+      ]
+    },
+    {
+      "title": "Modelning chegarasi",
+      "body": "Tajribadagi gaz aralashmasi qadimgi sharoit modeli; natija tarixiy atmosferaning aynan shu tarkibini o‘zi isbotlamaydi.",
+      "fact_ids": [
+        "paragraph-52-f4"
+      ]
+    },
+    {
+      "title": "Koatservat",
+      "body": "Koatservatlar murakkab molekulalar to‘planuvchi tomchisimon tizim modeli bo‘lib, ularni to‘liq tirik hujayra deb qabul qilish noto‘g‘ri.",
+      "fact_ids": [
+        "paragraph-52-f5"
+      ]
+    },
+    {
+      "title": "Fotosintezning oqibati",
+      "body": "Kislorod ajratuvchi fotosintez Yer muhitida kislorod to‘planishi va aerob jarayonlar kengayishi bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-52-f6"
+      ]
+    },
+    {
+      "title": "Ozon va himoya",
+      "body": "Atmosferadagi kislorod bilan bog‘liq ozon qatlami ultrabinafsha nurlanishning bir qismini tutadi.",
+      "fact_ids": [
+        "paragraph-52-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-52-q1",
+      "fact_id": "paragraph-52-f1",
+      "question_text": "Qadimgi molekulalar rivoji modeli uchun qaysi ilmiy munosabat mos?",
+      "options": [
+        "Barcha muqobil savollarni taqiqlash",
+        "Gipotezani dalillar bilan tekshirish",
+        "Uni tekshiruvsiz yakuniy qonun deyish",
+        "Hozirgi hujayrani oddiy mineral deyish"
+      ],
+      "correct_answer": "Gipotezani dalillar bilan tekshirish",
+      "explanation": "Oparin–Xoldeyn qarashi hayotgacha kimyoviy evolutsiya gipotezasini ilgari suradi; gipoteza barcha bosqichlar isbotlandi degani emas."
+    },
+    {
+      "key": "paragraph-52-q2",
+      "fact_id": "paragraph-52-f2",
+      "question_text": "Kichik organik molekulalar birikib yirik molekulalar modelini hosil qilishi nimaga tegishli?",
+      "options": [
+        "Kimyoviy murakkablashishga",
+        "Tayyor hayvonning tug‘ilishiga",
+        "Populatsiya migratsiyasiga",
+        "Gulning changlanishiga"
+      ],
+      "correct_answer": "Kimyoviy murakkablashishga",
+      "explanation": "Darslik kimyoviy evolutsiyada kichik organik molekulalardan murakkab birikmalar tomon jarayonlarni muhokama qiladi."
+    },
+    {
+      "key": "paragraph-52-q3",
+      "fact_id": "paragraph-52-f3",
+      "question_text": "Miller natijasi nimani ko‘rsatgan?",
+      "options": [
+        "To‘liq tirik hujayra tayyor bo‘lganini",
+        "Yerning ilk atmosferasi aniq to‘liq ma’lumligini",
+        "Barcha oqsillar birdan yaratilganini",
+        "Model sharoitda ayrim organik moddalar abiogen hosil bo‘lishini"
+      ],
+      "correct_answer": "Model sharoitda ayrim organik moddalar abiogen hosil bo‘lishini",
+      "explanation": "Millerning 1953-yildagi model tajribasida ayrim organik moddalar, jumladan aminokislotalar hosil bo‘lgan; tayyor tirik hujayra yaratilmagan."
+    },
+    {
+      "key": "paragraph-52-q4",
+      "fact_id": "paragraph-52-f4",
+      "question_text": "Bir modelda organik modda olishdan nima kelib chiqmaydi?",
+      "options": [
+        "Kimyoviy jarayonni tajribada tekshirish mumkin",
+        "Natijani boshqa modellar bilan solishtirish mumkin",
+        "Qadimgi atmosfera tarkibi to‘liq tasdiqlandi",
+        "Mazkur modelda reaksiya sodir bo‘ldi"
+      ],
+      "correct_answer": "Qadimgi atmosfera tarkibi to‘liq tasdiqlandi",
+      "explanation": "Tajribadagi gaz aralashmasi qadimgi sharoit modeli; natija tarixiy atmosferaning aynan shu tarkibini o‘zi isbotlamaydi."
+    },
+    {
+      "key": "paragraph-52-q5",
+      "fact_id": "paragraph-52-f5",
+      "question_text": "Koatservat tomchisini qanday tavsiflash aniqroq?",
+      "options": [
+        "Bir turdagi yetuk urug‘",
+        "Hayotgacha tizimlarni o‘rganish modeli",
+        "Barcha organoidli tayyor hayvon hujayrasi",
+        "Albatta mustaqil tirik tur"
+      ],
+      "correct_answer": "Hayotgacha tizimlarni o‘rganish modeli",
+      "explanation": "Koatservatlar murakkab molekulalar to‘planuvchi tomchisimon tizim modeli bo‘lib, ularni to‘liq tirik hujayra deb qabul qilish noto‘g‘ri."
+    },
+    {
+      "key": "paragraph-52-q6",
+      "fact_id": "paragraph-52-f6",
+      "question_text": "Kislorodli fotosintezning muhim tarixiy oqibati qaysi?",
+      "options": [
+        "Muhitda erkin kislorod to‘planishiga hissa",
+        "Atmosferadagi barcha azotning yo‘qolishi",
+        "Barcha anaeroblarning birdan yo‘qolishi",
+        "Yerda suvning umuman tugashi"
+      ],
+      "correct_answer": "Muhitda erkin kislorod to‘planishiga hissa",
+      "explanation": "Kislorod ajratuvchi fotosintez Yer muhitida kislorod to‘planishi va aerob jarayonlar kengayishi bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-52-q7",
+      "fact_id": "paragraph-52-f7",
+      "question_text": "Kislorod to‘planishi bilan bog‘liq ozon qatlamining ahamiyati nima?",
+      "options": [
+        "Yerdagi barcha ko‘rinadigan nurni to‘sish",
+        "Fotosintezni mutlaqo to‘xtatish",
+        "Barcha nurlanishni energiyasiz qilish",
+        "Ultrabinafsha nurlanishdan himoyaga hissa qo‘shish"
+      ],
+      "correct_answer": "Ultrabinafsha nurlanishdan himoyaga hissa qo‘shish",
+      "explanation": "Atmosferadagi kislorod bilan bog‘liq ozon qatlami ultrabinafsha nurlanishning bir qismini tutadi."
+    }
+  ]
+}

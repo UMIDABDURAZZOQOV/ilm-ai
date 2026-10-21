@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-laboratory-1-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-laboratory-16",
+  "title": "1-laboratoriya mashg‘uloti",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 10,
+  "facts": {
+    "laboratory-1-f1": {
+      "claim": "Laboratoriya 1 yorug‘lik, namlik va tuproq sharoitlarining o‘simlik rivojiga ta’sirini kuzatishni taklif etadi.",
+      "answer": "Abiotik sharoit va o‘simlik rivoji",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-1-f2": {
+      "claim": "Darslik bir xil xona o‘simligidan o‘xshash novdalar tanlashni so‘raydi; bu boshlang‘ich farqlar ta’sirini kamaytirishga yordam beradi.",
+      "answer": "Boshlang‘ich farqlarni kamaytirish uchun",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-1-f3": {
+      "claim": "Darslikdagi variantlarda yorug‘lik, sug‘orish va tuproq farqlari bor; bir necha omil birga o‘zgarsa natijani faqat bittasiga bog‘lash qiyin.",
+      "answer": "Natijada ikkala omil ham rol o‘ynagan bo‘lishi mumkin",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-1-f4": {
+      "claim": "Darslik jadvalida sharoit, hafta bo‘yicha bo‘y, barglar soni, o‘lchami va rangi qayd etiladi.",
+      "answer": "O‘zgarishning vaqt bo‘yicha ketishini ko‘rsatadi",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "laboratory-1-f5": {
+      "claim": "Laboratoriya xulosasi kuzatilgan sharoit va qayd etilgan natijalarga tayangan bo‘lishi kerak; ilovadagi tahlil haqiqiy tajriba sertifikati emas.",
+      "answer": "Tahlilni tajriba natijasi deb ko‘rsatmaslik",
+      "source": {
+        "paragraph": null,
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Maqsadni aniqlash",
+      "body": "Ilmo bilan darslikdagi faoliyatni rejalashtirib, kuzatuv va xulosalarni tahlil qilamiz. Bu ilovadagi tahlil mashqi; haqiqiy laboratoriya ishini o‘qituvchi nazoratida bajaring.\n\nLaboratoriya 1 yorug‘lik, namlik va tuproq sharoitlarining o‘simlik rivojiga ta’sirini kuzatishni taklif etadi.",
+      "fact_ids": [
+        "laboratory-1-f1"
+      ]
+    },
+    {
+      "title": "Boshlang‘ich o‘xshashlik",
+      "body": "Darslik bir xil xona o‘simligidan o‘xshash novdalar tanlashni so‘raydi; bu boshlang‘ich farqlar ta’sirini kamaytirishga yordam beradi.",
+      "fact_ids": [
+        "laboratory-1-f2"
+      ]
+    },
+    {
+      "title": "Aralash omillar",
+      "body": "Darslikdagi variantlarda yorug‘lik, sug‘orish va tuproq farqlari bor; bir necha omil birga o‘zgarsa natijani faqat bittasiga bog‘lash qiyin.",
+      "fact_ids": [
+        "laboratory-1-f3"
+      ]
+    },
+    {
+      "title": "Natijani qayd etish",
+      "body": "Darslik jadvalida sharoit, hafta bo‘yicha bo‘y, barglar soni, o‘lchami va rangi qayd etiladi.",
+      "fact_ids": [
+        "laboratory-1-f4"
+      ]
+    },
+    {
+      "title": "Xulosaning chegarasi",
+      "body": "Laboratoriya xulosasi kuzatilgan sharoit va qayd etilgan natijalarga tayangan bo‘lishi kerak; ilovadagi tahlil haqiqiy tajriba sertifikati emas.",
+      "fact_ids": [
+        "laboratory-1-f5"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "laboratory-1-q1",
+      "fact_id": "laboratory-1-f1",
+      "question_text": "Bu raqamli tahlilda asosiy o‘rganiladigan aloqa qaysi?",
+      "options": [
+        "Abiotik sharoit va o‘simlik rivoji",
+        "Faqat hayvonlarning juftlashuvi",
+        "Faqat DNK asoslarining nomlanishi",
+        "Faqat kitobning nashriyoti"
+      ],
+      "correct_answer": "Abiotik sharoit va o‘simlik rivoji",
+      "explanation": "Laboratoriya 1 yorug‘lik, namlik va tuproq sharoitlarining o‘simlik rivojiga ta’sirini kuzatishni taklif etadi."
+    },
+    {
+      "key": "laboratory-1-q2",
+      "fact_id": "laboratory-1-f2",
+      "question_text": "Taqqoslashda o‘xshash novdalarni tanlash nima uchun kerak?",
+      "options": [
+        "Natijani oldindan kafolatlash uchun",
+        "Barcha genlarni bir zumda o‘zgartirish uchun",
+        "Kuzatuvni butunlay bekor qilish uchun",
+        "Boshlang‘ich farqlarni kamaytirish uchun"
+      ],
+      "correct_answer": "Boshlang‘ich farqlarni kamaytirish uchun",
+      "explanation": "Darslik bir xil xona o‘simligidan o‘xshash novdalar tanlashni so‘raydi; bu boshlang‘ich farqlar ta’sirini kamaytirishga yordam beradi."
+    },
+    {
+      "key": "laboratory-1-q3",
+      "fact_id": "laboratory-1-f3",
+      "question_text": "Ikki variantda ham suv, ham yorug‘lik o‘zgarsa, qaysi xulosa ehtiyotkor?",
+      "options": [
+        "Faqat suv sabab ekanligi aniq",
+        "Farq bo‘lsa barcha muqobil sabablar yo‘qoladi",
+        "Natijada ikkala omil ham rol o‘ynagan bo‘lishi mumkin",
+        "Faqat yorug‘lik sabab ekanligi aniq"
+      ],
+      "correct_answer": "Natijada ikkala omil ham rol o‘ynagan bo‘lishi mumkin",
+      "explanation": "Darslikdagi variantlarda yorug‘lik, sug‘orish va tuproq farqlari bor; bir necha omil birga o‘zgarsa natijani faqat bittasiga bog‘lash qiyin."
+    },
+    {
+      "key": "laboratory-1-q4",
+      "fact_id": "laboratory-1-f4",
+      "question_text": "Faqat yakuniy surat o‘rniga haftalik qayd qanday foyda beradi?",
+      "options": [
+        "Barcha o‘simliklarda bir xil natijani kafolatlaydi",
+        "O‘zgarishning vaqt bo‘yicha ketishini ko‘rsatadi",
+        "Har bir bo‘sh katakni haqiqiy natijaga aylantiradi",
+        "Tajriba o‘lchovsiz bajarilganini isbotlaydi"
+      ],
+      "correct_answer": "O‘zgarishning vaqt bo‘yicha ketishini ko‘rsatadi",
+      "explanation": "Darslik jadvalida sharoit, hafta bo‘yicha bo‘y, barglar soni, o‘lchami va rangi qayd etiladi."
+    },
+    {
+      "key": "laboratory-1-q5",
+      "fact_id": "laboratory-1-f5",
+      "question_text": "Hali hech qanday fizik o‘lchov olinmagan bo‘lsa, nima to‘g‘ri?",
+      "options": [
+        "Tahlilni tajriba natijasi deb ko‘rsatmaslik",
+        "Bo‘sh jadvalni o‘ylab topilgan raqam bilan to‘ldirish",
+        "Barcha variant teng o‘sgan deb yozish",
+        "Dars tugagani bilan fizik tajriba bajarilganini belgilash"
+      ],
+      "correct_answer": "Tahlilni tajriba natijasi deb ko‘rsatmaslik",
+      "explanation": "Laboratoriya xulosasi kuzatilgan sharoit va qayd etilgan natijalarga tayangan bo‘lishi kerak; ilovadagi tahlil haqiqiy tajriba sertifikati emas."
+    }
+  ],
+  "activity": {
+    "kind": "laboratory",
+    "mode": "guided_analysis",
+    "physical_execution_required": false,
+    "goal": "1-laboratoriya mashg‘uloti: darslikdagi ish tartibi va kuzatuvlarni tahlil qilish.",
+    "steps": [
+      {
+        "instruction": "Maqsadni aniqlash",
+        "fact_ids": [
+          "laboratory-1-f1"
+        ]
+      },
+      {
+        "instruction": "Boshlang‘ich o‘xshashlik",
+        "fact_ids": [
+          "laboratory-1-f2"
+        ]
+      },
+      {
+        "instruction": "Aralash omillar",
+        "fact_ids": [
+          "laboratory-1-f3"
+        ]
+      },
+      {
+        "instruction": "Natijani qayd etish",
+        "fact_ids": [
+          "laboratory-1-f4"
+        ]
+      },
+      {
+        "instruction": "Xulosaning chegarasi",
+        "fact_ids": [
+          "laboratory-1-f5"
+        ]
+      }
+    ]
+  }
+}

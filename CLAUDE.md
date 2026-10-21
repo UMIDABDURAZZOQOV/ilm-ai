@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Joriy holat — 2026-10-21, continuation-13:** `feat/biology-curriculum`: **303/355 nazariy dars, 52 qolgan; 46/51 raqamli faoliyat; 2 100 karta / 2 182 savol**. 5–9-sinflar to‘liq. Aniq davom: **10-sinf §49, PDF211**, so‘ng 11-sinf §3, PDF14. Eng so‘nggi natija va testlar hujjat oxirida; oldingi bo‘limlar tarix sifatida saqlangan. Veb-sayt kodi, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
+> **Joriy holat — 2026-10-21, continuation-14:** `feat/biology-curriculum`: **329/355 nazariy dars, 26 qolgan; 48/51 raqamli faoliyat; 2 305 karta / 2 387 savol**. 5–10-sinflar to‘liq. Aniq davom: **11-sinf §19, PDF107**, keyin §20–44 va lab3–5. So‘nggi natija/testlar hujjat oxirida. Veb-sayt, production ma’lumotlari va main branchlari o‘zgartirilmaydi.
 
 ## DAVOM ETTIRISH NUQTASI — 2026-10-08: Flutter faqat Fanlar
 - 2026-10-19: BOSQICH 0B (Onboardingning qolgan barcha savol qadamlari) to'liq yakunlandi: 1-Bilim darajasi (5 ta variant: Yangi boshlovchi, Asoslarini bilaman, O'rtacha, Yaxshi bilaman, A'lo; har birining chapida o'sib boruvchi 4 ustunli signal belgisi, bitta tanlov, tanlanmaguncha Davom etish o'chiq), 2-"Ishonch" oraliq ekrani (faqat Ilmo va speech bubble "Ajoyib! Bilimni mustahkamlaymiz.", karta yo'q), 3-Sabab ("Nima uchun o'rganasiz?", 6 ta variant, kartalar o'ngida maxsus firuza yumaloq kvadrat katakcha va tekshirish belgisi, ko'p tanlov), 4-Sur'at oraliq ekrani (faqat Ilmo va speech bubble "Keling, qanday sur'atda o'qishni hal qilaylik!"), 5-Kunlik maqsad ("Kunlik maqsadingiz qanday?", 5, 10, 15, 20 daqiqa / 10, 20, 30, 50 XP variantlari; tanlanmaguncha "MAQSADGA KETDIK" tugmasi o'chiq; userDailyGoalProvider va SharedPreferences daily_goal_<userId> ga saqlanadi), 6-Natija ekrani ("Mana nimaga erishasiz!", 3 ta erishiladigan natija kartasi, rangli ikonkalar, raqamsiz va'dalar). Onboardingdagi savollar soni aniq 6 ta ("6 ta qisqa savolga javob bering..."), progress bar 6 ta savolga to'liq moslashtirildi. "Boshlang'ich nuqta" (scratch/placement) ekrani olib tashlandi. Jami 53/53 test to'liq o'tdi, flutter analyze: No issues found!
@@ -2591,3 +2591,43 @@ Evolutsiya tarixidagi qarashlar tarixiy deb belgilandi; spontan paydo bo‘lish,
 Veb-sayt **`054f0ce`** o‘zgarmagan. PDF/rasmlar GitHub’ga qo‘shilmadi; production import/migratsiya/deploy, main merge yoki nashr yo‘q. Mustaqil fan/klinik ekspertizasi, real Android/iOS/TalkBack va live PostgreSQL hali kerak. Oldingi web practice kontrakti va PR API Forbidden cheklovlari saqlanadi.
 
 **Aniq davom: 10-sinf §49, PDF211.** Continuation-14: **10-sinf §49–58 (10) + 11-sinf §3–18 (16) + 11-sinf lab1–2**, jami 26 nazariy. Continuation-15: **11-sinf §19–44 (26) + lab3–5**. Bu hali yozilmagan darslar; 303 tayyor mavzu saqlanadi, 52si qolgan.
+
+
+## 2026-10-21 — Biology continuation-14: 10-sinf yakuni va 11-sinf §3–18
+
+Continuation-13 **`114f0b1`** commit/push qilindi. Bu partiyada **26 nazariy dars**: 10-sinf §49–58 va 11-sinf §3–18; qo‘shimcha **11-sinf lab1–2** yozildi. Yangi **205 karta / 205 savol**, 28 manifest. 10-sinf PDF/bosma **211–234** va 11-sinf **14–107** original sahifa tasvirlari ko‘rildi. Avvalgi barcha **349 manifest** HEAD nusxalari bilan byte-for-byte solishtirilib o‘zgarmagani tasdiqlandi; original kataloglar/209 dars snapshot testlari ham saqlandi.
+
+**Jami: 329/355 nazariy; 26 qolgan; 48/51 faoliyat; 377 manifest; 2 305 karta / 2 387 savol.**
+
+| Sinf | Bob | Jami nazariy | Tayyor | Qolgan | Faoliyat / jami | Savol |
+|---|---:|---:|---:|---:|---:|---:|
+| 5 | 3 | 18 | 18 | 0 | 12 / 12 | 182 |
+| 6 | 5 | 59 | 59 | 0 | 7 / 7 | 331 |
+| 7 | 8 | 59 | 59 | 0 | 5 / 5 | 381 |
+| 8 | 13 + kirish | 61 | 61 | 0 | 7 / 7 | 435 |
+| 9 | 8 | 56 | 56 | 0 | 11 / 11 | 474 |
+| 10 | 5 | 58 | 58 | 0 | 4 / 4 | 428 |
+| 11 | 4 | 44 | 18 | 26 | 2 / 5 | 156 |
+
+10-sinfda evolutsion yo‘nalishlar, kelib chiqish gipotezalari, geologik tarix va odam evolutsiyasi; 11-sinfda ekosistema tarkibi, yashash muhitlari, ekologik omillar, biotik aloqalar, populatsiya, trofik struktura, mahsuldorlik va piramidalar qamrab olindi. Xilma-xil tahlil/hisob/moslik/ketma-ketlik savollari mavjud MCQ engine ichida ishlaydi; yangi savol widgeti yoki animatsiya asseti yaratilgani da’vo qilinmaydi. Ilmo va barcha oldingi UI/XP/progress himoyalari saqlandi.
+
+### Aniqlik va xavfsiz tahrir
+
+10-sinfdagi Yer yoshi/era davomiyligining eski raqamlari, arxeyda hech qanday iz yo‘qligi, fotosintez hayotni faqat o‘simlik/hayvonga ajratishi, Homo habilis olov ishlatishi haqidagi qat’iy da’vo, barcha zamonaviy odamlar faqat 50–60 ming yil avval paydo bo‘lgani, zarur yagona chiziqli ajdodlar zinasi va barcha topilmalar universal aniq miya hajmiga ega ekani ishlatilmadi. Redi sanasi xatosi ko‘chirilmadi. Oparin–Xoldeyn/Miller natijasi gipoteza/model sifatida: organik molekula olish tayyor hujayra yaratish emas. Panspermiya isbotlangan yechim emas. Odam barcha hozirgi guruhlar uchun **Homo sapiens** sifatida berildi; darslikdagi eski uch irq biologik qutilari, xulqni irqga bog‘lash, noto‘g‘ri kelib chiqish geografiyasi yoki evolutsion qiymat pog‘onasi takrorlanmadi. Rudiment mutlaqo funksiyasiz deyilmaydi.
+
+11-sinfda energiyani modda kabi yopiq aylanish deb yozish o‘rniga modda aylanishi va energiya oqimi ajratildi. Barcha suv qatlamlari doim +4°C yoki havo 10°C o‘zgarsa suv aynan 1°C o‘zgarishi, yorug‘lik hayvonlarga ahamiyatsizligi, sho‘r suvda faqat suvo‘tlar bo‘lishi, planktonning mutlaqo harakatsizligi, elodeyaning doim ildizsizligi kabi xatolar ishlatilmadi. Eski CO₂ ulushi, barcha yirtqichlar rang ajratmasligi, barcha qisqa kun o‘simliklari uchun noto‘g‘ri nav misollari va universal soat chegaralari chiqarildi. Bir omilga chidam boshqasiga chidamni kafolatlamaydi; nishalar hech qachon qisman ustma-ust kelmaydi, mutualizmning barchasi majburiy, parazit xo‘jayinni hech qachon nobud qilmaydi, barcha termitlar o‘z sellulazasiz, mikoriza faqat qalpoqchali zamburug‘ bilan degan absolutlar yo‘q. Inson yoki hayvonlarning qadrini sog‘liq/kuch bilan baholash yo‘q.
+
+Populatsiyada jinsiy nisbat/yosh piramidasidan qat’iy kelajak soni chiqarilmaydi; tug‘ilish/o‘lim/migratsiya ham hisoblanadi. Raqobat resursga bog‘liq, har bir o‘zaro ta’sir muqarrar yo‘qolish emas. **10% va 1% o‘quv modellari universal aniq empirik qonun emas**; son/biomassa piramidalari teskari bo‘lishi mumkin; energiya oqimi bir xil maydon/davr bo‘yicha qaraladi. Barcha zanjirlar olti bo‘g‘indan oshmaydi yoki har bosqichda individ yiriklashadi degan da’volar chiqarildi. Detritofag hayvonlar konsument sifatida ajratildi; parchalovchilarni faqat oxirgi bitta daraja deb cheklash yo‘q.
+
+Lab1dagi bir nechta omil birga o‘zgargan dizaynni bitta sabab isboti qilib ko‘rsatmaslik savoli bor; haftalik qayd va kuzatuvsiz raqam to‘qimaslik o‘rgatiladi. Lab2da yangi shartli sonlar/energiya/massa birligi hisoblari bor; qoida uchun §16/PDF94 va §18/PDF103 supporting citations saqlanadi. Ikkalasi guided_analysis; real tajriba yoki biomassa o‘lchovi sertifikati emas.
+
+### Bajarilgan tekshiruvlar
+
+- Global validator: **377/377 valid**; 26-mavzuli release guard, manba/citation/fakt/javob va duplicate testlari o‘tdi.
+- To‘liq backend **523 passed, 12 existing lifecycle warnings, 99.54s**. Yangi `tests/test_biology_ecology.py`: **7 mustaqil hisob testi** — zichlik, demografik balans, mahsuldorlik birliklari, Fraction bilan ikki trofik o‘tish, teskari yig‘indi va darajalar soni bilan o‘tishlar sonini farqlash.
+- API integration endi **5–10-sinflarning barcha darslari, faoliyatlari va checkpointlarini** yakunlab **11-sinf**ga o‘tadi. 11-sinfning tayyor qismi ishlaydi, tugallanmagan checkpoint bloklanadi. Server XP, aynan bir retry javobi va progressli qayta import regressiyalari o‘tdi.
+- Flutter **104 passed (9s)**, analyze **No issues found (2.1s)**; runtime va branch HEAD **`d2c2654`** o‘zgarmagan. Critical Ruff va diff tekshiruvi toza. Private dalillar `/workspace/.setup/biology-authoring/release14-*.log`.
+
+Veb-sayt **`054f0ce`** kodi o‘zgarmagan. PDF yoki sahifa rasmlari GitHub’ga qo‘shilmadi. Production import/migratsiya/deploy/main merge/nashr bajarilmadi. Real Android/iOS/TalkBack, live PostgreSQL va mustaqil fan/klinik ekspertizasi hali kerak; oldingi web practice kontrakti va PR API Forbidden cheklovlari ochiq.
+
+**Keyingi aniq nuqta: 11-sinf §19 “Tabiiy ekosistemalar”, PDF/bosma107.** Continuation-15 qolgan **§19–44 (26 nazariy) va lab3–5 (3 faoliyat)**ni qamrab oladi. 329 tayyor mavzuni qayta yozmang; keyingi sahifalar ko‘rilishi hali manifest tayyorligi emas.

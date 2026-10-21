@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-49-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-58",
+  "title": "Evolutsion o‘zgarishlarning tiplari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-49-f1": {
+      "claim": "Divergensiyada umumiy ajdoddan kelgan guruhlar turli sharoitlarga moslashib farqlanadi.",
+      "answer": "Divergensiya",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          211
+        ],
+        "printed_pages": [
+          211
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-49-f2": {
+      "claim": "Bir xil kelib chiqishli organlarning turli vazifalarga moslashishi divergent o‘zgarishga misol bo‘ladi.",
+      "answer": "Kelib chiqishi umumiy, vazifasi farqli",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          211
+        ],
+        "printed_pages": [
+          211
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-49-f3": {
+      "claim": "Darslik parallelizmni qarindosh guruhlarda bir-biridan mustaqil ravishda o‘xshash yo‘nalishdagi o‘zgarishlar deb ta’riflaydi.",
+      "answer": "Parallelizm",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          212
+        ],
+        "printed_pages": [
+          212
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-49-f4": {
+      "claim": "Akula, ixtiozavr va delfinda suvda harakatlanishga qulay tana shakli turli evolutsion tarmoqlarda yuzaga kelgan.",
+      "answer": "O‘xshash muhitda konvergent moslanishni",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          213
+        ],
+        "printed_pages": [
+          213
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-49-f5": {
+      "claim": "Konvergent tashqi o‘xshashlikning o‘zi organizmlar yaqin qarindoshligini isbotlamaydi.",
+      "answer": "Ikki guruh eng yaqin qarindoshdir",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          213
+        ],
+        "printed_pages": [
+          213
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-49-f6": {
+      "claim": "Qush va hasharot qanotlari uchish vazifasini bajaradi; vazifa o‘xshashligi organlarning bir xil kelib chiqishini anglatmaydi.",
+      "answer": "Funksiya o‘xshash, kelib chiqish alohida tekshiriladi",
+      "source": {
+        "paragraph": 49,
+        "pdf_pages": [
+          213
+        ],
+        "printed_pages": [
+          213
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tarmoqlanish",
+      "body": "Divergensiyada umumiy ajdoddan kelgan guruhlar turli sharoitlarga moslashib farqlanadi.",
+      "fact_ids": [
+        "paragraph-49-f1"
+      ]
+    },
+    {
+      "title": "Organlarni solishtirish",
+      "body": "Bir xil kelib chiqishli organlarning turli vazifalarga moslashishi divergent o‘zgarishga misol bo‘ladi.",
+      "fact_ids": [
+        "paragraph-49-f2"
+      ]
+    },
+    {
+      "title": "Parallel yo‘nalish",
+      "body": "Darslik parallelizmni qarindosh guruhlarda bir-biridan mustaqil ravishda o‘xshash yo‘nalishdagi o‘zgarishlar deb ta’riflaydi.",
+      "fact_ids": [
+        "paragraph-49-f3"
+      ]
+    },
+    {
+      "title": "Yashash muhitining talabi",
+      "body": "Akula, ixtiozavr va delfinda suvda harakatlanishga qulay tana shakli turli evolutsion tarmoqlarda yuzaga kelgan.",
+      "fact_ids": [
+        "paragraph-49-f4"
+      ]
+    },
+    {
+      "title": "Dalildan xulosa",
+      "body": "Konvergent tashqi o‘xshashlikning o‘zi organizmlar yaqin qarindoshligini isbotlamaydi.",
+      "fact_ids": [
+        "paragraph-49-f5"
+      ]
+    },
+    {
+      "title": "O‘xshashlikning darajasi",
+      "body": "Qush va hasharot qanotlari uchish vazifasini bajaradi; vazifa o‘xshashligi organlarning bir xil kelib chiqishini anglatmaydi.",
+      "fact_ids": [
+        "paragraph-49-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-49-q1",
+      "fact_id": "paragraph-49-f1",
+      "question_text": "Yagona ajdoddan kelgan ikki guruhning belgilarida farq ortmoqda. §49dagi qaysi jarayon tasvirlangan?",
+      "options": [
+        "Mavsumiy tinim",
+        "Divergensiya",
+        "Konvergensiya",
+        "Bir individning o‘sishi"
+      ],
+      "correct_answer": "Divergensiya",
+      "explanation": "Divergensiyada umumiy ajdoddan kelgan guruhlar turli sharoitlarga moslashib farqlanadi."
+    },
+    {
+      "key": "paragraph-49-q2",
+      "fact_id": "paragraph-49-f2",
+      "question_text": "No‘xat gajagi va kaktus tikani bargning turli o‘zgarishlaridir. Taqqoslashda nima muhim?",
+      "options": [
+        "Kelib chiqishi umumiy, vazifasi farqli",
+        "Har ikki organ ham ildizdan chiqqan",
+        "Ular turli vazifali bo‘lgani uchun kelib chiqishi tekshirilmaydi",
+        "Ular bir o‘simlikdagi aynan bir organ"
+      ],
+      "correct_answer": "Kelib chiqishi umumiy, vazifasi farqli",
+      "explanation": "Bir xil kelib chiqishli organlarning turli vazifalarga moslashishi divergent o‘zgarishga misol bo‘ladi."
+    },
+    {
+      "key": "paragraph-49-q3",
+      "fact_id": "paragraph-49-f3",
+      "question_text": "Qarindosh tarmoqlarda mustaqil o‘xshash o‘zgarishlar qayd etildi. Darslik tasnifida bu nima?",
+      "options": [
+        "Ontogenez",
+        "Mitotik bo‘linish",
+        "Individual o‘rganish",
+        "Parallelizm"
+      ],
+      "correct_answer": "Parallelizm",
+      "explanation": "Darslik parallelizmni qarindosh guruhlarda bir-biridan mustaqil ravishda o‘xshash yo‘nalishdagi o‘zgarishlar deb ta’riflaydi."
+    },
+    {
+      "key": "paragraph-49-q4",
+      "fact_id": "paragraph-49-f4",
+      "question_text": "Akula va delfin tanasining oqimga mos shakli nimani ko‘rsatadi?",
+      "options": [
+        "Akula sutemizuvchi ekanini",
+        "Ularning barcha organlari aynan bir xil ekanini",
+        "O‘xshash muhitda konvergent moslanishni",
+        "Delfin tog‘ayli baliq ekanini"
+      ],
+      "correct_answer": "O‘xshash muhitda konvergent moslanishni",
+      "explanation": "Akula, ixtiozavr va delfinda suvda harakatlanishga qulay tana shakli turli evolutsion tarmoqlarda yuzaga kelgan."
+    },
+    {
+      "key": "paragraph-49-q5",
+      "fact_id": "paragraph-49-f5",
+      "question_text": "Faqat suzgichsimon tashqi ko‘rinishdan qanday xulosani chiqarish yetarli asosga ega emas?",
+      "options": [
+        "Turli tarmoqlarda o‘xshashlik paydo bo‘lishi mumkin",
+        "Ikki guruh eng yaqin qarindoshdir",
+        "Suv harakatga ta’sir qiladi",
+        "Shakl funksiyaga bog‘liq bo‘lishi mumkin"
+      ],
+      "correct_answer": "Ikki guruh eng yaqin qarindoshdir",
+      "explanation": "Konvergent tashqi o‘xshashlikning o‘zi organizmlar yaqin qarindoshligini isbotlamaydi."
+    },
+    {
+      "key": "paragraph-49-q6",
+      "fact_id": "paragraph-49-f6",
+      "question_text": "Qush va kapalak qanotini faqat uchish vazifasi bo‘yicha solishtirsak, qaysi xulosa to‘g‘ri?",
+      "options": [
+        "Funksiya o‘xshash, kelib chiqish alohida tekshiriladi",
+        "Har ikki qanot umurtqali oldingi oyoqdir",
+        "Har ikki qanot xitindan iborat",
+        "Vazifa o‘xshash bo‘lsa genom ham bir xil bo‘ladi"
+      ],
+      "correct_answer": "Funksiya o‘xshash, kelib chiqish alohida tekshiriladi",
+      "explanation": "Qush va hasharot qanotlari uchish vazifasini bajaradi; vazifa o‘xshashligi organlarning bir xil kelib chiqishini anglatmaydi."
+    }
+  ]
+}

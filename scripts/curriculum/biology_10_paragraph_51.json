@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-51-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-60",
+  "title": "Yerda hayotning paydo bo‘lishi haqidagi nazariyalar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-51-f1": {
+      "claim": "Redining tajribasi go‘shtdagi lichinkalar o‘z-o‘zidanmi yoki pashshalar bilan bog‘liq holdami paydo bo‘lishini tekshirgan.",
+      "answer": "Lichinkalarning kelib chiqishi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          218
+        ],
+        "printed_pages": [
+          218
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-51-f2": {
+      "claim": "Doka havo o‘tishiga imkon beradi, ammo pashshaning go‘shtga bevosita yetishini cheklaydi.",
+      "answer": "Havoni o‘tkazib, pashsha kirishini ajratadi",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          219
+        ],
+        "printed_pages": [
+          219
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-51-f3": {
+      "claim": "Paster kolbasining egri bo‘yni havo kirishiga imkon berib, chang bilan keladigan mikroorganizmlar kirishini cheklagan.",
+      "answer": "Havo kirishi va mikroblar bilan ifloslanishni farqlash",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          219
+        ],
+        "printed_pages": [
+          219
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-51-f4": {
+      "claim": "Nazoratli tajribada mikroorganizmlar tashqaridan tushishi ko‘rsatilishi, qadimgi Yerda kimyoviy evolutsiyaning barcha bosqichlarini bevosita sinash degani emas.",
+      "answer": "Tekshirilgan sharoitda ifloslanish tirik manbaga bog‘liq",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          219
+        ],
+        "printed_pages": [
+          219
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-51-f5": {
+      "claim": "Panspermiya hayot yoki uning boshlang‘ich shakllarining kosmos orqali ko‘chishi haqidagi gipotezadir; u kelib chiqishning isbotlangan yechimi emas.",
+      "answer": "Ko‘chib kelish gipotezasi, yakuniy isbot emas",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          220
+        ],
+        "printed_pages": [
+          220
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-51-f6": {
+      "claim": "Biokimyoviy evolutsiya gipotezasida avval organik moddalarning hosil bo‘lishi va murakkablashishi, keyin tirik tizimlar evolutsiyasi farqlanadi.",
+      "answer": "Tirik tizimgacha kimyoviy, undan keyin biologik jarayonlar",
+      "source": {
+        "paragraph": 51,
+        "pdf_pages": [
+          220
+        ],
+        "printed_pages": [
+          220
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Redi tajribasining savoli",
+      "body": "Redining tajribasi go‘shtdagi lichinkalar o‘z-o‘zidanmi yoki pashshalar bilan bog‘liq holdami paydo bo‘lishini tekshirgan.",
+      "fact_ids": [
+        "paragraph-51-f1"
+      ]
+    },
+    {
+      "title": "Nazoratni tanlash",
+      "body": "Doka havo o‘tishiga imkon beradi, ammo pashshaning go‘shtga bevosita yetishini cheklaydi.",
+      "fact_ids": [
+        "paragraph-51-f2"
+      ]
+    },
+    {
+      "title": "Pasterning kolbasi",
+      "body": "Paster kolbasining egri bo‘yni havo kirishiga imkon berib, chang bilan keladigan mikroorganizmlar kirishini cheklagan.",
+      "fact_ids": [
+        "paragraph-51-f3"
+      ]
+    },
+    {
+      "title": "Kuzatuv chegarasi",
+      "body": "Nazoratli tajribada mikroorganizmlar tashqaridan tushishi ko‘rsatilishi, qadimgi Yerda kimyoviy evolutsiyaning barcha bosqichlarini bevosita sinash degani emas.",
+      "fact_ids": [
+        "paragraph-51-f4"
+      ]
+    },
+    {
+      "title": "Panspermiya",
+      "body": "Panspermiya hayot yoki uning boshlang‘ich shakllarining kosmos orqali ko‘chishi haqidagi gipotezadir; u kelib chiqishning isbotlangan yechimi emas.",
+      "fact_ids": [
+        "paragraph-51-f5"
+      ]
+    },
+    {
+      "title": "Kimyoviy va biologik bosqich",
+      "body": "Biokimyoviy evolutsiya gipotezasida avval organik moddalarning hosil bo‘lishi va murakkablashishi, keyin tirik tizimlar evolutsiyasi farqlanadi.",
+      "fact_ids": [
+        "paragraph-51-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-51-q1",
+      "fact_id": "paragraph-51-f1",
+      "question_text": "Redi solishtirishining markaziy savoli nima edi?",
+      "options": [
+        "Barcha hayotning aniq geologik yoshi",
+        "Lichinkalarning kelib chiqishi",
+        "Go‘shtning energiya qiymati",
+        "Pashsha qanotining rangi"
+      ],
+      "correct_answer": "Lichinkalarning kelib chiqishi",
+      "explanation": "Redining tajribasi go‘shtdagi lichinkalar o‘z-o‘zidanmi yoki pashshalar bilan bog‘liq holdami paydo bo‘lishini tekshirgan."
+    },
+    {
+      "key": "paragraph-51-q2",
+      "fact_id": "paragraph-51-f2",
+      "question_text": "Doka qo‘yilgan idish havo kirmaydi degan e’tirozni qanday tekshiradi?",
+      "options": [
+        "Havoni o‘tkazib, pashsha kirishini ajratadi",
+        "Havodagi barcha molekulani yo‘q qiladi",
+        "Go‘shtni tirik hujayraga aylantiradi",
+        "Pashshalar uchun oziq bo‘ladi"
+      ],
+      "correct_answer": "Havoni o‘tkazib, pashsha kirishini ajratadi",
+      "explanation": "Doka havo o‘tishiga imkon beradi, ammo pashshaning go‘shtga bevosita yetishini cheklaydi."
+    },
+    {
+      "key": "paragraph-51-q3",
+      "fact_id": "paragraph-51-f3",
+      "question_text": "Egri bo‘yinli kolbadagi asosiy ajratish nimadan iborat?",
+      "options": [
+        "Yorug‘likni barcha gazlardan ajratish",
+        "Faqat suyuqlik rangini almashtirish",
+        "Haroratni umuman mavjud qilmaslik",
+        "Havo kirishi va mikroblar bilan ifloslanishni farqlash"
+      ],
+      "correct_answer": "Havo kirishi va mikroblar bilan ifloslanishni farqlash",
+      "explanation": "Paster kolbasining egri bo‘yni havo kirishiga imkon berib, chang bilan keladigan mikroorganizmlar kirishini cheklagan."
+    },
+    {
+      "key": "paragraph-51-q4",
+      "fact_id": "paragraph-51-f4",
+      "question_text": "Paster natijasini qaysi xulosa bilan cheklash to‘g‘ri?",
+      "options": [
+        "Barcha molekulalar tirikdir",
+        "Kosmosda hayot topildi",
+        "Tekshirilgan sharoitda ifloslanish tirik manbaga bog‘liq",
+        "Qadimgi Yerning har bir hodisasi kolbada takrorlandi"
+      ],
+      "correct_answer": "Tekshirilgan sharoitda ifloslanish tirik manbaga bog‘liq",
+      "explanation": "Nazoratli tajribada mikroorganizmlar tashqaridan tushishi ko‘rsatilishi, qadimgi Yerda kimyoviy evolutsiyaning barcha bosqichlarini bevosita sinash degani emas."
+    },
+    {
+      "key": "paragraph-51-q5",
+      "fact_id": "paragraph-51-f5",
+      "question_text": "Panspermiya haqidagi ehtiyotkor ta’rifni tanlang.",
+      "options": [
+        "Har bir meteor tirik degan qonun",
+        "Ko‘chib kelish gipotezasi, yakuniy isbot emas",
+        "Miller yaratgan tayyor hujayra",
+        "Redining go‘sht haqidagi natijasi"
+      ],
+      "correct_answer": "Ko‘chib kelish gipotezasi, yakuniy isbot emas",
+      "explanation": "Panspermiya hayot yoki uning boshlang‘ich shakllarining kosmos orqali ko‘chishi haqidagi gipotezadir; u kelib chiqishning isbotlangan yechimi emas."
+    },
+    {
+      "key": "paragraph-51-q6",
+      "fact_id": "paragraph-51-f6",
+      "question_text": "Biokimyoviy gipotezada qaysi ikki daraja ajratiladi?",
+      "options": [
+        "Tirik tizimgacha kimyoviy, undan keyin biologik jarayonlar",
+        "Faqat hozirgi hayvonlarning o‘sishi",
+        "Faqat urug‘ning unishi",
+        "Faqat odamning bilim olishi"
+      ],
+      "correct_answer": "Tirik tizimgacha kimyoviy, undan keyin biologik jarayonlar",
+      "explanation": "Biokimyoviy evolutsiya gipotezasida avval organik moddalarning hosil bo‘lishi va murakkablashishi, keyin tirik tizimlar evolutsiyasi farqlanadi."
+    }
+  ]
+}

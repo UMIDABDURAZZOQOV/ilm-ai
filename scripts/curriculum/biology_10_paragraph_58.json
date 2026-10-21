@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-58-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-67",
+  "title": "Odam evolutsiyasini harakatlantiruvchi kuchlar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-58-f1": {
+      "claim": "Irsiy o‘zgaruvchanlik, genlar drayfi, alohidalanish va tabiiy tanlanish odam evolutsiyasiga ham tegishli biologik omillardir.",
+      "answer": "Irsiy o‘zgaruvchanlik, drayf va tanlanish",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          233
+        ],
+        "printed_pages": [
+          233
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-58-f2": {
+      "claim": "Darslik inson tarixida mehnat, jamoa bo‘lib yashash, nutq va tafakkurning ijtimoiy ahamiyatini ajratadi.",
+      "answer": "Jamoaviy mehnat va nutq",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          233
+        ],
+        "printed_pages": [
+          233
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-58-f3": {
+      "claim": "Birgalikda himoyalanish va bolalarga g‘amxo‘rlik jamoaviy yashashning muhim faoliyatlari sifatida berilgan.",
+      "answer": "Birgalikda himoyalanish va bolalarni parvarishlash",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          233
+        ],
+        "printed_pages": [
+          233
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-58-f4": {
+      "claim": "Nutq va boshqa aloqa vositalari jamoada axborot almashish va tajribani yetkazish bilan bog‘liq.",
+      "answer": "Tajriba va fikrni boshqalarga yetkazish",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          233
+        ],
+        "printed_pages": [
+          233
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-58-f5": {
+      "claim": "Hozirgi odamlarning barchasi Homo sapiens turiga mansub; tashqi belgilar xilma-xilligi alohida inson turlarini bildirmaydi.",
+      "answer": "Barcha hozirgi odamlar Homo sapiens turiga kiradi",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          233
+        ],
+        "printed_pages": [
+          233
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-58-f6": {
+      "claim": "Inson populatsiyalari tarixida mutatsiya, tanlanish, alohidalanish va populatsiyalar aralashuvi rol o‘ynagan.",
+      "answer": "Populatsiyalar o‘rtasidagi genetik aloqa kontekstida",
+      "source": {
+        "paragraph": 58,
+        "pdf_pages": [
+          234
+        ],
+        "printed_pages": [
+          234
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Biologik omillar",
+      "body": "Irsiy o‘zgaruvchanlik, genlar drayfi, alohidalanish va tabiiy tanlanish odam evolutsiyasiga ham tegishli biologik omillardir.",
+      "fact_ids": [
+        "paragraph-58-f1"
+      ]
+    },
+    {
+      "title": "Ijtimoiy omillar",
+      "body": "Darslik inson tarixida mehnat, jamoa bo‘lib yashash, nutq va tafakkurning ijtimoiy ahamiyatini ajratadi.",
+      "fact_ids": [
+        "paragraph-58-f2"
+      ]
+    },
+    {
+      "title": "Hamkorlik",
+      "body": "Birgalikda himoyalanish va bolalarga g‘amxo‘rlik jamoaviy yashashning muhim faoliyatlari sifatida berilgan.",
+      "fact_ids": [
+        "paragraph-58-f3"
+      ]
+    },
+    {
+      "title": "Axborot almashish",
+      "body": "Nutq va boshqa aloqa vositalari jamoada axborot almashish va tajribani yetkazish bilan bog‘liq.",
+      "fact_ids": [
+        "paragraph-58-f4"
+      ]
+    },
+    {
+      "title": "Umumiy tur",
+      "body": "Hozirgi odamlarning barchasi Homo sapiens turiga mansub; tashqi belgilar xilma-xilligi alohida inson turlarini bildirmaydi.",
+      "fact_ids": [
+        "paragraph-58-f5"
+      ]
+    },
+    {
+      "title": "Populatsiyalarning aloqasi",
+      "body": "Inson populatsiyalari tarixida mutatsiya, tanlanish, alohidalanish va populatsiyalar aralashuvi rol o‘ynagan.",
+      "fact_ids": [
+        "paragraph-58-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-58-q1",
+      "fact_id": "paragraph-58-f1",
+      "question_text": "Quyidagi qaysi to‘plam biologik evolutsion omillardan iborat?",
+      "options": [
+        "Faqat kitob narxi va sahifa soni",
+        "Irsiy o‘zgaruvchanlik, drayf va tanlanish",
+        "Faqat yozuv, san’at va maktab",
+        "Faqat shahar nomi va kasb"
+      ],
+      "correct_answer": "Irsiy o‘zgaruvchanlik, drayf va tanlanish",
+      "explanation": "Irsiy o‘zgaruvchanlik, genlar drayfi, alohidalanish va tabiiy tanlanish odam evolutsiyasiga ham tegishli biologik omillardir."
+    },
+    {
+      "key": "paragraph-58-q2",
+      "fact_id": "paragraph-58-f2",
+      "question_text": "Qaysi juftlik §58dagi ijtimoiy omillarga tegishli?",
+      "options": [
+        "Jamoaviy mehnat va nutq",
+        "Mutatsiya va xromosoma ajralishi",
+        "DNK replikatsiyasi va krossingover",
+        "Meyoz va gametalar qo‘shilishi"
+      ],
+      "correct_answer": "Jamoaviy mehnat va nutq",
+      "explanation": "Darslik inson tarixida mehnat, jamoa bo‘lib yashash, nutq va tafakkurning ijtimoiy ahamiyatini ajratadi."
+    },
+    {
+      "key": "paragraph-58-q3",
+      "fact_id": "paragraph-58-f3",
+      "question_text": "Jamoaviy hayotning vazifasini ko‘rsatuvchi misolni toping.",
+      "options": [
+        "Faqat bitta individning mutatsiyasi",
+        "Xromosoma sonining har safar o‘zgarishi",
+        "Faqat bargning tomirlanishi",
+        "Birgalikda himoyalanish va bolalarni parvarishlash"
+      ],
+      "correct_answer": "Birgalikda himoyalanish va bolalarni parvarishlash",
+      "explanation": "Birgalikda himoyalanish va bolalarga g‘amxo‘rlik jamoaviy yashashning muhim faoliyatlari sifatida berilgan."
+    },
+    {
+      "key": "paragraph-58-q4",
+      "fact_id": "paragraph-58-f4",
+      "question_text": "Nutqning ijtimoiy rolini qaysi misol ochib beradi?",
+      "options": [
+        "Faqat bitta hujayraning bo‘linishi",
+        "Organizmda suvning mutlaqo tugashi",
+        "Tajriba va fikrni boshqalarga yetkazish",
+        "Har bir so‘zning yangi xromosoma yaratishi"
+      ],
+      "correct_answer": "Tajriba va fikrni boshqalarga yetkazish",
+      "explanation": "Nutq va boshqa aloqa vositalari jamoada axborot almashish va tajribani yetkazish bilan bog‘liq."
+    },
+    {
+      "key": "paragraph-58-q5",
+      "fact_id": "paragraph-58-f5",
+      "question_text": "Hozirgi insonlar xilma-xilligi haqida qaysi xulosa manbadagi birlik fikriga mos?",
+      "options": [
+        "Har bir davlatda alohida odam turi bor",
+        "Barcha hozirgi odamlar Homo sapiens turiga kiradi",
+        "Har bir teri rangi alohida turdir",
+        "Til biologik tur chegarasini yakka o‘zi belgilaydi"
+      ],
+      "correct_answer": "Barcha hozirgi odamlar Homo sapiens turiga kiradi",
+      "explanation": "Hozirgi odamlarning barchasi Homo sapiens turiga mansub; tashqi belgilar xilma-xilligi alohida inson turlarini bildirmaydi."
+    },
+    {
+      "key": "paragraph-58-q6",
+      "fact_id": "paragraph-58-f6",
+      "question_text": "Migratsiya va populatsiyalar aralashuvi qanday jarayon sifatida tahlil qilinadi?",
+      "options": [
+        "Populatsiyalar o‘rtasidagi genetik aloqa kontekstida",
+        "Alohida inson guruhlarining qiymatini o‘lchash sifatida",
+        "Barcha individlarning bir zumda bir xil bo‘lishi sifatida",
+        "Odamlarning boshqa biologik turlarga ajralganining yakka isboti sifatida"
+      ],
+      "correct_answer": "Populatsiyalar o‘rtasidagi genetik aloqa kontekstida",
+      "explanation": "Inson populatsiyalari tarixida mutatsiya, tanlanish, alohidalanish va populatsiyalar aralashuvi rol o‘ynagan."
+    }
+  ]
+}

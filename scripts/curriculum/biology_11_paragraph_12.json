@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-12-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-14",
+  "title": "Muhitning biotik omillari. Tirik organizmlar o‘rtasidagi munosabatlar.",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-12-f1": {
+      "claim": "Tur ichidagi munosabat bir tur individlari orasida, turlararo munosabat turli turlar orasida yuz beradi.",
+      "answer": "Birinchisi tur ichida, ikkinchisi turlararo",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f2": {
+      "claim": "Munosabatda foyda +, zarar −, aniqlanadigan bevosita ta’sir yo‘qligi 0 bilan modellashtiriladi.",
+      "answer": "+ va −",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f3": {
+      "claim": "Mutualistik munosabatda har ikki hamkor foyda oladi; darslik majburiy mutualizmni alohida ta’kidlaydi.",
+      "answer": "+ va +",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f4": {
+      "claim": "Tugunak bakteriyalari azotni o‘zlashtirishda, o‘simlik esa bakteriyaga yashash joyi va organik modda berishda qatnashadi.",
+      "answer": "Azot bilan ta’minlash va organik modda olish",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          69
+        ],
+        "printed_pages": [
+          69
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f5": {
+      "claim": "Protokooperatsiyada har ikki tomon foyda olsa ham, hamkorlar alohida hayot kechira olishi mumkin.",
+      "answer": "Protokooperatsiya",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f6": {
+      "claim": "Kommensalizm modelida bir tur foyda oladi, ikkinchisiga sezilarli foyda yoki zarar aniqlanmaydi.",
+      "answer": "+ va 0 kommensalizm",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          70
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f7": {
+      "claim": "Bir xil cheklangan resursdan foydalanish tur ichida ham, turlar orasida ham raqobatga olib kelishi mumkin.",
+      "answer": "Turlararo raqobat",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f8": {
+      "claim": "Resurslarning turli qismlaridan yoki turli vaqtda foydalanish birga yashovchi turlar raqobatini kamaytirishi mumkin.",
+      "answer": "Resurs bo‘yicha raqobatni kamaytirishi mumkin",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f9": {
+      "claim": "Amensalizm modelida bir tomon zararlanadi, ikkinchisiga sezilarli ta’sir qayd etilmaydi.",
+      "answer": "Amensalizm",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f10": {
+      "claim": "Yirtqich o‘ljani oziq sifatida ishlatadi; bu oziq aloqasida yirtqich foyda, o‘lja zarar ko‘radi.",
+      "answer": "Yirtqich–o‘lja",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          73
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-12-f11": {
+      "claim": "Parazit xo‘jayindan oziq yoki yashash joyi sifatida foydalanib zarar yetkazadi; aloqalar sharoit va hayot bosqichiga qarab o‘zgarishi mumkin.",
+      "answer": "Parazit foydasi xo‘jayin zarari bilan bog‘liq",
+      "source": {
+        "paragraph": 12,
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Aloqa ko‘lami",
+      "body": "Tur ichidagi munosabat bir tur individlari orasida, turlararo munosabat turli turlar orasida yuz beradi.",
+      "fact_ids": [
+        "paragraph-12-f1"
+      ]
+    },
+    {
+      "title": "Belgilar modeli",
+      "body": "Munosabatda foyda +, zarar −, aniqlanadigan bevosita ta’sir yo‘qligi 0 bilan modellashtiriladi.",
+      "fact_ids": [
+        "paragraph-12-f2"
+      ]
+    },
+    {
+      "title": "O‘zaro foyda",
+      "body": "Mutualistik munosabatda har ikki hamkor foyda oladi; darslik majburiy mutualizmni alohida ta’kidlaydi.",
+      "fact_ids": [
+        "paragraph-12-f3"
+      ]
+    },
+    {
+      "title": "Azot va dukkakli",
+      "body": "Tugunak bakteriyalari azotni o‘zlashtirishda, o‘simlik esa bakteriyaga yashash joyi va organik modda berishda qatnashadi.",
+      "fact_ids": [
+        "paragraph-12-f4"
+      ]
+    },
+    {
+      "title": "Majburiy bo‘lmagan hamkorlik",
+      "body": "Protokooperatsiyada har ikki tomon foyda olsa ham, hamkorlar alohida hayot kechira olishi mumkin.",
+      "fact_ids": [
+        "paragraph-12-f5"
+      ]
+    },
+    {
+      "title": "Kommensalizm",
+      "body": "Kommensalizm modelida bir tur foyda oladi, ikkinchisiga sezilarli foyda yoki zarar aniqlanmaydi.",
+      "fact_ids": [
+        "paragraph-12-f6"
+      ]
+    },
+    {
+      "title": "Raqobat sharti",
+      "body": "Bir xil cheklangan resursdan foydalanish tur ichida ham, turlar orasida ham raqobatga olib kelishi mumkin.",
+      "fact_ids": [
+        "paragraph-12-f7"
+      ]
+    },
+    {
+      "title": "Nishalarni farqlash",
+      "body": "Resurslarning turli qismlaridan yoki turli vaqtda foydalanish birga yashovchi turlar raqobatini kamaytirishi mumkin.",
+      "fact_ids": [
+        "paragraph-12-f8"
+      ]
+    },
+    {
+      "title": "Amensalizm",
+      "body": "Amensalizm modelida bir tomon zararlanadi, ikkinchisiga sezilarli ta’sir qayd etilmaydi.",
+      "fact_ids": [
+        "paragraph-12-f9"
+      ]
+    },
+    {
+      "title": "Yirtqich va o‘lja",
+      "body": "Yirtqich o‘ljani oziq sifatida ishlatadi; bu oziq aloqasida yirtqich foyda, o‘lja zarar ko‘radi.",
+      "fact_ids": [
+        "paragraph-12-f10"
+      ]
+    },
+    {
+      "title": "Parazit va kontekst",
+      "body": "Parazit xo‘jayindan oziq yoki yashash joyi sifatida foydalanib zarar yetkazadi; aloqalar sharoit va hayot bosqichiga qarab o‘zgarishi mumkin.",
+      "fact_ids": [
+        "paragraph-12-f11"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-12-q1",
+      "fact_id": "paragraph-12-f1",
+      "question_text": "Ikki bug‘uning resurs uchun raqobati va bug‘u bilan bo‘ri aloqasini ajrating.",
+      "options": [
+        "Birinchisi tur ichida, ikkinchisi turlararo",
+        "Ikkalasi faqat tur ichida",
+        "Ikkalasi faqat abiotik",
+        "Birinchisi turlararo, ikkinchisi tur ichida"
+      ],
+      "correct_answer": "Birinchisi tur ichida, ikkinchisi turlararo",
+      "explanation": "Tur ichidagi munosabat bir tur individlari orasida, turlararo munosabat turli turlar orasida yuz beradi."
+    },
+    {
+      "key": "paragraph-12-q2",
+      "fact_id": "paragraph-12-f2",
+      "question_text": "Bir tomon foyda, ikkinchisi zarar ko‘rsa, qaysi belgi mos?",
+      "options": [
+        "+ va +",
+        "0 va 0",
+        "− va −",
+        "+ va −"
+      ],
+      "correct_answer": "+ va −",
+      "explanation": "Munosabatda foyda +, zarar −, aniqlanadigan bevosita ta’sir yo‘qligi 0 bilan modellashtiriladi."
+    },
+    {
+      "key": "paragraph-12-q3",
+      "fact_id": "paragraph-12-f3",
+      "question_text": "Ikki hamkorning har biri oziqlanish imkoniyatini yaxshilasa, natija qaysi belgiga mos?",
+      "options": [
+        "− va 0",
+        "− va −",
+        "+ va +",
+        "+ va 0"
+      ],
+      "correct_answer": "+ va +",
+      "explanation": "Mutualistik munosabatda har ikki hamkor foyda oladi; darslik majburiy mutualizmni alohida ta’kidlaydi."
+    },
+    {
+      "key": "paragraph-12-q4",
+      "fact_id": "paragraph-12-f4",
+      "question_text": "Dukkakli va tugunak bakteriyasi aloqasini tushuntiruvchi juftlik qaysi?",
+      "options": [
+        "Ikkala tomonning mineral tosh bo‘lishi",
+        "Azot bilan ta’minlash va organik modda olish",
+        "Faqat o‘simlikning bakteriyani ovlashi",
+        "Faqat bir tomonning doim zararlanishi"
+      ],
+      "correct_answer": "Azot bilan ta’minlash va organik modda olish",
+      "explanation": "Tugunak bakteriyalari azotni o‘zlashtirishda, o‘simlik esa bakteriyaga yashash joyi va organik modda berishda qatnashadi."
+    },
+    {
+      "key": "paragraph-12-q5",
+      "fact_id": "paragraph-12-f5",
+      "question_text": "Alohida yashay oladigan ikki turning o‘zaro foydali aloqasi darslikda nima deyiladi?",
+      "options": [
+        "Protokooperatsiya",
+        "Majburiy o‘zaro zarar",
+        "Faqat parazitizm",
+        "Faqat yirtqichlik"
+      ],
+      "correct_answer": "Protokooperatsiya",
+      "explanation": "Protokooperatsiyada har ikki tomon foyda olsa ham, hamkorlar alohida hayot kechira olishi mumkin."
+    },
+    {
+      "key": "paragraph-12-q6",
+      "fact_id": "paragraph-12-f6",
+      "question_text": "Biri oziq qoldig‘idan foyda ko‘rib, ikkinchisiga aniqlanadigan ta’sir bo‘lmasa, qaysi model mos?",
+      "options": [
+        "− va − raqobat",
+        "+ va − yirtqichlik",
+        "− va 0 amensalizm",
+        "+ va 0 kommensalizm"
+      ],
+      "correct_answer": "+ va 0 kommensalizm",
+      "explanation": "Kommensalizm modelida bir tur foyda oladi, ikkinchisiga sezilarli foyda yoki zarar aniqlanmaydi."
+    },
+    {
+      "key": "paragraph-12-q7",
+      "fact_id": "paragraph-12-f7",
+      "question_text": "Ikki o‘simlik turi kam suvdan foydalanadi. Qaysi munosabat ehtimoli tekshiriladi?",
+      "options": [
+        "Faqat geologik nurash",
+        "Faqat xromosoma replikatsiyasi",
+        "Turlararo raqobat",
+        "Faqat bir tur individlarining juftlashuvi"
+      ],
+      "correct_answer": "Turlararo raqobat",
+      "explanation": "Bir xil cheklangan resursdan foydalanish tur ichida ham, turlar orasida ham raqobatga olib kelishi mumkin."
+    },
+    {
+      "key": "paragraph-12-q8",
+      "fact_id": "paragraph-12-f8",
+      "question_text": "Bir qush daraxtdan, boshqasi yerdan oziq izlasa, bu qanday yordam beradi?",
+      "options": [
+        "Barcha biotik aloqani yo‘q qiladi",
+        "Resurs bo‘yicha raqobatni kamaytirishi mumkin",
+        "Turlarning bir individga aylanishini bildiradi",
+        "Oziqning ahamiyati yo‘qligini isbotlaydi"
+      ],
+      "correct_answer": "Resurs bo‘yicha raqobatni kamaytirishi mumkin",
+      "explanation": "Resurslarning turli qismlaridan yoki turli vaqtda foydalanish birga yashovchi turlar raqobatini kamaytirishi mumkin."
+    },
+    {
+      "key": "paragraph-12-q9",
+      "fact_id": "paragraph-12-f9",
+      "question_text": "Munosabat uchun − va 0 berilsa, darslikdagi nom qaysi?",
+      "options": [
+        "Amensalizm",
+        "Mutualizm",
+        "Protokooperatsiya",
+        "Ikki tomonlama raqobat"
+      ],
+      "correct_answer": "Amensalizm",
+      "explanation": "Amensalizm modelida bir tomon zararlanadi, ikkinchisiga sezilarli ta’sir qayd etilmaydi."
+    },
+    {
+      "key": "paragraph-12-q10",
+      "fact_id": "paragraph-12-f10",
+      "question_text": "O‘rgimchakning pashshani tutib yeyishi qanday munosabat?",
+      "options": [
+        "+ va + mutualizm",
+        "0 va 0 neytralizm",
+        "Faqat abiotik ta’sir",
+        "Yirtqich–o‘lja"
+      ],
+      "correct_answer": "Yirtqich–o‘lja",
+      "explanation": "Yirtqich o‘ljani oziq sifatida ishlatadi; bu oziq aloqasida yirtqich foyda, o‘lja zarar ko‘radi."
+    },
+    {
+      "key": "paragraph-12-q11",
+      "fact_id": "paragraph-12-f11",
+      "question_text": "Parazitizmni barcha holatda xo‘jayin uchun foydali deyish nega xato?",
+      "options": [
+        "Parazitning biologik aloqasi yo‘q",
+        "Xo‘jayin doim abiotik jism bo‘ladi",
+        "Parazit foydasi xo‘jayin zarari bilan bog‘liq",
+        "Har ikki tomon har doim fotosintez qiladi"
+      ],
+      "correct_answer": "Parazit foydasi xo‘jayin zarari bilan bog‘liq",
+      "explanation": "Parazit xo‘jayindan oziq yoki yashash joyi sifatida foydalanib zarar yetkazadi; aloqalar sharoit va hayot bosqichiga qarab o‘zgarishi mumkin."
+    }
+  ]
+}

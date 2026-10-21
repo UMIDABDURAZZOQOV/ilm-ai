@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-18-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-21",
+  "title": "Ekologik piramida qoidasi. Biomassa va energiya piramidasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-18-f1": {
+      "claim": "10% qoidasi soddalashtirilgan o‘quv modelidir; real trofik uzatilish samaradorligi barcha tizimda aynan 10% bo‘lmaydi.",
+      "answer": "Shartli model koeffitsiyenti sifatida",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-18-f2": {
+      "claim": "Iste’mol qilingan energiyaning hammasi yangi biomassaga aylanmaydi: hayotiy faoliyat, issiqlik va o‘zlashtirilmagan qism hisobga olinadi.",
+      "answer": "Energiya hayotiy faoliyatga sarflanadi va bir qismi o‘zlashtirilmaydi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-18-f3": {
+      "claim": "Har bosqichda 10% uzatiladigan modelda 25 000 kJdan ikki bosqich so‘ng 25 000 × 0,1 × 0,1 = 250 kJ qoladi.",
+      "answer": "250 kJ",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-18-f4": {
+      "claim": "Son piramidasi individlar sonini, biomassa piramidasi massasini, energiya piramidasi energiya oqimini ifodalaydi.",
+      "answer": "Energiya piramidasi",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-18-f5": {
+      "claim": "Bir katta daraxt ko‘p o‘simlikxo‘r hasharotni ta’minlashi mumkin; shuning uchun son piramidasi doimo keng asosli bo‘lavermaydi.",
+      "answer": "Produtsent soni konsument sonidan kam bo‘lishi mumkin",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          104
+        ],
+        "printed_pages": [
+          104
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-18-f6": {
+      "claim": "Tez yangilanuvchi fitoplankton ayrim suv tizimlarida iste’molchidan kichik bir paytlik biomassa zaxirasiga ega bo‘lishi mumkin.",
+      "answer": "Fitoplanktonning tez yangilanishi bilan",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-18-f7": {
+      "claim": "Son va biomassa zaxira holatini, energiya piramidasi esa berilgan vaqt bo‘yicha oqimni ko‘rsatadi; qiyoslashda birlik va davr muhim.",
+      "answer": "Zaxira va vaqt bo‘yicha oqim aralashtirilgan",
+      "source": {
+        "paragraph": 18,
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Uzatilish sharti",
+      "body": "10% qoidasi soddalashtirilgan o‘quv modelidir; real trofik uzatilish samaradorligi barcha tizimda aynan 10% bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-18-f1"
+      ]
+    },
+    {
+      "title": "Energiya yo‘llari",
+      "body": "Iste’mol qilingan energiyaning hammasi yangi biomassaga aylanmaydi: hayotiy faoliyat, issiqlik va o‘zlashtirilmagan qism hisobga olinadi.",
+      "fact_ids": [
+        "paragraph-18-f2"
+      ]
+    },
+    {
+      "title": "Ikki o‘tish",
+      "body": "Har bosqichda 10% uzatiladigan modelda 25 000 kJdan ikki bosqich so‘ng 25 000 × 0,1 × 0,1 = 250 kJ qoladi.",
+      "fact_ids": [
+        "paragraph-18-f3"
+      ]
+    },
+    {
+      "title": "Piramida turlari",
+      "body": "Son piramidasi individlar sonini, biomassa piramidasi massasini, energiya piramidasi energiya oqimini ifodalaydi.",
+      "fact_ids": [
+        "paragraph-18-f4"
+      ]
+    },
+    {
+      "title": "Sonning teskariligi",
+      "body": "Bir katta daraxt ko‘p o‘simlikxo‘r hasharotni ta’minlashi mumkin; shuning uchun son piramidasi doimo keng asosli bo‘lavermaydi.",
+      "fact_ids": [
+        "paragraph-18-f5"
+      ]
+    },
+    {
+      "title": "Suvdagi zaxira",
+      "body": "Tez yangilanuvchi fitoplankton ayrim suv tizimlarida iste’molchidan kichik bir paytlik biomassa zaxirasiga ega bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-18-f6"
+      ]
+    },
+    {
+      "title": "Vaqt asosini tekshirish",
+      "body": "Son va biomassa zaxira holatini, energiya piramidasi esa berilgan vaqt bo‘yicha oqimni ko‘rsatadi; qiyoslashda birlik va davr muhim.",
+      "fact_ids": [
+        "paragraph-18-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-18-q1",
+      "fact_id": "paragraph-18-f1",
+      "question_text": "Masalada 10% berilsa, qanday ishlatamiz?",
+      "options": [
+        "Shartli model koeffitsiyenti sifatida",
+        "Har bir real zanjirning aniq o‘zgarmas natijasi sifatida",
+        "Energiya saqlanishi bekor bo‘lishi sifatida",
+        "Barcha biomassa doimo teng bo‘lishi sifatida"
+      ],
+      "correct_answer": "Shartli model koeffitsiyenti sifatida",
+      "explanation": "10% qoidasi soddalashtirilgan o‘quv modelidir; real trofik uzatilish samaradorligi barcha tizimda aynan 10% bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-18-q2",
+      "fact_id": "paragraph-18-f2",
+      "question_text": "Nega keyingi darajaning yangi biomassasiga oziq energiyasining hammasi o‘tmaydi?",
+      "options": [
+        "Energiya atomlari barcha holatda yo‘q bo‘lib ketadi",
+        "Barcha oziq to‘liq yangi tana bo‘ladi",
+        "Nafas olish hech qanday energiya bilan bog‘liq emas",
+        "Energiya hayotiy faoliyatga sarflanadi va bir qismi o‘zlashtirilmaydi"
+      ],
+      "correct_answer": "Energiya hayotiy faoliyatga sarflanadi va bir qismi o‘zlashtirilmaydi",
+      "explanation": "Iste’mol qilingan energiyaning hammasi yangi biomassaga aylanmaydi: hayotiy faoliyat, issiqlik va o‘zlashtirilmagan qism hisobga olinadi."
+    },
+    {
+      "key": "paragraph-18-q3",
+      "fact_id": "paragraph-18-f3",
+      "question_text": "25 000 kJdan ikki trofik o‘tish, har biri 10%: natija qancha?",
+      "options": [
+        "25 kJ",
+        "25 000 kJ",
+        "250 kJ",
+        "2500 kJ"
+      ],
+      "correct_answer": "250 kJ",
+      "explanation": "Har bosqichda 10% uzatiladigan modelda 25 000 kJdan ikki bosqich so‘ng 25 000 × 0,1 × 0,1 = 250 kJ qoladi."
+    },
+    {
+      "key": "paragraph-18-q4",
+      "fact_id": "paragraph-18-f4",
+      "question_text": "Bir yil va bir xil maydon bo‘yicha kJ birlikli grafik qaysi piramidaga mos?",
+      "options": [
+        "Faqat xromosoma piramidasi",
+        "Energiya piramidasi",
+        "Faqat son piramidasi",
+        "Faqat yosh piramidasi"
+      ],
+      "correct_answer": "Energiya piramidasi",
+      "explanation": "Son piramidasi individlar sonini, biomassa piramidasi massasini, energiya piramidasi energiya oqimini ifodalaydi."
+    },
+    {
+      "key": "paragraph-18-q5",
+      "fact_id": "paragraph-18-f5",
+      "question_text": "Bitta daraxtda yuzlab hasharot bo‘lishi nimani ko‘rsatadi?",
+      "options": [
+        "Produtsent soni konsument sonidan kam bo‘lishi mumkin",
+        "Energiya quyi darajadan umuman kelmasligini",
+        "Daraxtning konsument bo‘lishini",
+        "Har bir hasharot alohida produtsent ekanini"
+      ],
+      "correct_answer": "Produtsent soni konsument sonidan kam bo‘lishi mumkin",
+      "explanation": "Bir katta daraxt ko‘p o‘simlikxo‘r hasharotni ta’minlashi mumkin; shuning uchun son piramidasi doimo keng asosli bo‘lavermaydi."
+    },
+    {
+      "key": "paragraph-18-q6",
+      "fact_id": "paragraph-18-f6",
+      "question_text": "Fitoplanktonning kichik zaxirasi bilan katta iste’molchi biomassasi qanday izohlanishi mumkin?",
+      "options": [
+        "Energiya umuman kerak emasligi bilan",
+        "Fitoplankton oziqlanishda rol o‘ynamasligi bilan",
+        "Biomassa bilan vaqt aynan bir narsa ekanligi bilan",
+        "Fitoplanktonning tez yangilanishi bilan"
+      ],
+      "correct_answer": "Fitoplanktonning tez yangilanishi bilan",
+      "explanation": "Tez yangilanuvchi fitoplankton ayrim suv tizimlarida iste’molchidan kichik bir paytlik biomassa zaxirasiga ega bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-18-q7",
+      "fact_id": "paragraph-18-f7",
+      "question_text": "Bir lahzalik kg bilan yillik kJni to‘g‘ridan-to‘g‘ri tenglashtirishdagi xato nima?",
+      "options": [
+        "Vaqtni bilish hech qachon kerak emas",
+        "Massa har doim energiyaga son jihatdan teng",
+        "Zaxira va vaqt bo‘yicha oqim aralashtirilgan",
+        "Ikkalasi ham bir xil birlik"
+      ],
+      "correct_answer": "Zaxira va vaqt bo‘yicha oqim aralashtirilgan",
+      "explanation": "Son va biomassa zaxira holatini, energiya piramidasi esa berilgan vaqt bo‘yicha oqimni ko‘rsatadi; qiyoslashda birlik va davr muhim."
+    }
+  ]
+}

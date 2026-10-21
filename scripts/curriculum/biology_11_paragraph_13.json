@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-13-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-15",
+  "title": "Antropogen omillar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-13-f1": {
+      "claim": "Antropogen omillar inson faoliyatining organizm va ekosistemalarga bevosita yoki bilvosita ta’siridir.",
+      "answer": "Antropogen",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          76
+        ],
+        "printed_pages": [
+          76
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-13-f2": {
+      "claim": "Sanoatning kimyoviy chiqindisi va transport shovqini antropogen ta’sirning turli ko‘rinishlaridir.",
+      "answer": "Birinchisi kimyoviy, ikkinchisi fizik",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-13-f3": {
+      "claim": "Daraxtni kesish daraxtning o‘ziga bevosita ta’sir, undan keyingi yashash joyi o‘zgarishi esa boshqa turlarga bilvosita ta’sir bo‘lishi mumkin.",
+      "answer": "Daraxtga bevosita, qushga muhit orqali bilvosita",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-13-f4": {
+      "claim": "Pestitsid qo‘llash faqat nishon zararkunandaga emas, boshqa organizmlarga ham ta’sir qilishi mumkin.",
+      "answer": "Nishon bo‘lmagan turlar ham ta’sirlanadimi?",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-13-f5": {
+      "claim": "Bir turni kamaytirish boshqa turlarning ko‘payishi yoki resursdan foydalanishiga bilvosita ta’sir qilishi mumkin.",
+      "answer": "Oziq to‘ri bo‘ylab boshqa turlar ham o‘zgarishi mumkin",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-13-f6": {
+      "claim": "Tabiatdan oqilona foydalanish va uni muhofaza qilish resurslardan foydalanish oqibatlarini hisobga olishni talab qiladi.",
+      "answer": "Foydalanish bilan uzoq muddatli saqlashni birga hisobga olish",
+      "source": {
+        "paragraph": 13,
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Inson omili",
+      "body": "Antropogen omillar inson faoliyatining organizm va ekosistemalarga bevosita yoki bilvosita ta’siridir.",
+      "fact_ids": [
+        "paragraph-13-f1"
+      ]
+    },
+    {
+      "title": "Kimyoviy va fizik",
+      "body": "Sanoatning kimyoviy chiqindisi va transport shovqini antropogen ta’sirning turli ko‘rinishlaridir.",
+      "fact_ids": [
+        "paragraph-13-f2"
+      ]
+    },
+    {
+      "title": "Bevosita ta’sir",
+      "body": "Daraxtni kesish daraxtning o‘ziga bevosita ta’sir, undan keyingi yashash joyi o‘zgarishi esa boshqa turlarga bilvosita ta’sir bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-13-f3"
+      ]
+    },
+    {
+      "title": "Nishon bo‘lmagan organizmlar",
+      "body": "Pestitsid qo‘llash faqat nishon zararkunandaga emas, boshqa organizmlarga ham ta’sir qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-13-f4"
+      ]
+    },
+    {
+      "title": "Aloqalar zanjiri",
+      "body": "Bir turni kamaytirish boshqa turlarning ko‘payishi yoki resursdan foydalanishiga bilvosita ta’sir qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-13-f5"
+      ]
+    },
+    {
+      "title": "Foydalanish va muhofaza",
+      "body": "Tabiatdan oqilona foydalanish va uni muhofaza qilish resurslardan foydalanish oqibatlarini hisobga olishni talab qiladi.",
+      "fact_ids": [
+        "paragraph-13-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-13-q1",
+      "fact_id": "paragraph-13-f1",
+      "question_text": "Yo‘l qurilishi va yashash joyi o‘zgarishini qaysi omil sifatida tekshiramiz?",
+      "options": [
+        "Antropogen",
+        "Faqat tabiiy mutatsiya",
+        "Faqat tug‘ma refleks",
+        "Faqat hujayra osmosi"
+      ],
+      "correct_answer": "Antropogen",
+      "explanation": "Antropogen omillar inson faoliyatining organizm va ekosistemalarga bevosita yoki bilvosita ta’siridir."
+    },
+    {
+      "key": "paragraph-13-q2",
+      "fact_id": "paragraph-13-f2",
+      "question_text": "Kimyoviy chiqindi bilan shovqinni moslang.",
+      "options": [
+        "Birinchisi fizik, ikkinchisi faqat irsiy",
+        "Ikkalasi ham faqat meyoz",
+        "Ikkalasi ham organizmning genotipi",
+        "Birinchisi kimyoviy, ikkinchisi fizik"
+      ],
+      "correct_answer": "Birinchisi kimyoviy, ikkinchisi fizik",
+      "explanation": "Sanoatning kimyoviy chiqindisi va transport shovqini antropogen ta’sirning turli ko‘rinishlaridir."
+    },
+    {
+      "key": "paragraph-13-q3",
+      "fact_id": "paragraph-13-f3",
+      "question_text": "Kesilgan daraxt bilan uya joyidan ayrilgan qush misolini qanday ajratamiz?",
+      "options": [
+        "Daraxtga faqat bilvosita, qushga faqat xromosomal",
+        "Har ikki holat faqat geografik nom",
+        "Daraxtga bevosita, qushga muhit orqali bilvosita",
+        "Qushga hech qanday ta’sir bo‘lishi mumkin emas"
+      ],
+      "correct_answer": "Daraxtga bevosita, qushga muhit orqali bilvosita",
+      "explanation": "Daraxtni kesish daraxtning o‘ziga bevosita ta’sir, undan keyingi yashash joyi o‘zgarishi esa boshqa turlarga bilvosita ta’sir bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-13-q4",
+      "fact_id": "paragraph-13-f4",
+      "question_text": "Kimyoviy kurashni baholashda qaysi savol zarur?",
+      "options": [
+        "Har qanday miqdor doimo barcha turlarga xavfsizmi?",
+        "Nishon bo‘lmagan turlar ham ta’sirlanadimi?",
+        "Faqat qadoq rangi chiroylimi?",
+        "Faqat vositaning nomi qisqami?"
+      ],
+      "correct_answer": "Nishon bo‘lmagan turlar ham ta’sirlanadimi?",
+      "explanation": "Pestitsid qo‘llash faqat nishon zararkunandaga emas, boshqa organizmlarga ham ta’sir qilishi mumkin."
+    },
+    {
+      "key": "paragraph-13-q5",
+      "fact_id": "paragraph-13-f5",
+      "question_text": "Yirtqich soni kamayishi oqibatini baholashda nega faqat uning o‘zini sanash yetmaydi?",
+      "options": [
+        "Oziq to‘ri bo‘ylab boshqa turlar ham o‘zgarishi mumkin",
+        "Boshqa turlar hech qachon bog‘lanmagan",
+        "Har bir tur yopiq laboratoriya idishidir",
+        "Oziq aloqasi faqat nomlardan iborat"
+      ],
+      "correct_answer": "Oziq to‘ri bo‘ylab boshqa turlar ham o‘zgarishi mumkin",
+      "explanation": "Bir turni kamaytirish boshqa turlarning ko‘payishi yoki resursdan foydalanishiga bilvosita ta’sir qilishi mumkin."
+    },
+    {
+      "key": "paragraph-13-q6",
+      "fact_id": "paragraph-13-f6",
+      "question_text": "Yer resursidan foydalanishda ekologik baholashning maqsadi qaysi?",
+      "options": [
+        "Har qanday resursni cheksiz deb qabul qilish",
+        "Faqat bugungi hosilni ko‘rib qolgan aloqalarni unutish",
+        "Tabiatni faqat mahsulot nomiga tenglashtirish",
+        "Foydalanish bilan uzoq muddatli saqlashni birga hisobga olish"
+      ],
+      "correct_answer": "Foydalanish bilan uzoq muddatli saqlashni birga hisobga olish",
+      "explanation": "Tabiatdan oqilona foydalanish va uni muhofaza qilish resurslardan foydalanish oqibatlarini hisobga olishni talab qiladi."
+    }
+  ]
+}

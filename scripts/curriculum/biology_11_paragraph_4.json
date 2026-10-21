@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-4-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-6",
+  "title": "Ekosistemalarning tarkibiy qismlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-4-f1": {
+      "claim": "Ekosistemaning muhit qismiga yorug‘lik, harorat, namlik, havo va tuproq sharoitlari kiradi.",
+      "answer": "Abiotik muhitni",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          18
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-4-f2": {
+      "claim": "Fitotsenoz o‘simliklar, zootsenoz hayvonlar, mikotsenoz zamburug‘lar jamoasini bildiradi.",
+      "answer": "Mikotsenoz",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-4-f3": {
+      "claim": "Produtsentlar anorganik moddalardan organik birikmalar hosil qiluvchi avtotrof organizmlardir.",
+      "answer": "Produtsent",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-4-f4": {
+      "claim": "Konsumentlar tayyor organik moddalarni iste’mol qiladi va oziq aloqalari orqali energiya uzatilishida qatnashadi.",
+      "answer": "Konsumentlarga",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-4-f5": {
+      "claim": "Saprotrof bakteriya va zamburug‘lar organik qoldiqlar parchalanishi va minerallashishida qatnashadi.",
+      "answer": "Redutsentlar",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-4-f6": {
+      "claim": "Redutsentlar hosil qilgan mineral moddalarni produtsentlar qayta o‘zlashtirishi moddalarning aylanishiga hissa qo‘shadi.",
+      "answer": "Qoldiq moddalarning minerallashishi",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-4-f7": {
+      "claim": "O‘simlik urug‘i ko‘pligi kemiruvchi soniga, kemiruvchi soni esa yirtqichlarga ta’sir qilishi o‘zaro boshqarilish misolidir.",
+      "answer": "Tizim qismlarining o‘zaro ta’sirini",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-4-f8": {
+      "claim": "Mavsumiy qaytalanish bilan jamoaning boshqa jamoa bilan izchil almashishi farqlanadi; ikkinchisi suksessiyadir.",
+      "answer": "Ekologik suksessiya",
+      "source": {
+        "paragraph": 4,
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Abiotik tarkib",
+      "body": "Ekosistemaning muhit qismiga yorug‘lik, harorat, namlik, havo va tuproq sharoitlari kiradi.",
+      "fact_ids": [
+        "paragraph-4-f1"
+      ]
+    },
+    {
+      "title": "Jamoa qismlari",
+      "body": "Fitotsenoz o‘simliklar, zootsenoz hayvonlar, mikotsenoz zamburug‘lar jamoasini bildiradi.",
+      "fact_ids": [
+        "paragraph-4-f2"
+      ]
+    },
+    {
+      "title": "Produtsent",
+      "body": "Produtsentlar anorganik moddalardan organik birikmalar hosil qiluvchi avtotrof organizmlardir.",
+      "fact_ids": [
+        "paragraph-4-f3"
+      ]
+    },
+    {
+      "title": "Konsument",
+      "body": "Konsumentlar tayyor organik moddalarni iste’mol qiladi va oziq aloqalari orqali energiya uzatilishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-4-f4"
+      ]
+    },
+    {
+      "title": "Redutsent",
+      "body": "Saprotrof bakteriya va zamburug‘lar organik qoldiqlar parchalanishi va minerallashishida qatnashadi.",
+      "fact_ids": [
+        "paragraph-4-f5"
+      ]
+    },
+    {
+      "title": "Guruhlar aloqasi",
+      "body": "Redutsentlar hosil qilgan mineral moddalarni produtsentlar qayta o‘zlashtirishi moddalarning aylanishiga hissa qo‘shadi.",
+      "fact_ids": [
+        "paragraph-4-f6"
+      ]
+    },
+    {
+      "title": "Qayta aloqa",
+      "body": "O‘simlik urug‘i ko‘pligi kemiruvchi soniga, kemiruvchi soni esa yirtqichlarga ta’sir qilishi o‘zaro boshqarilish misolidir.",
+      "fact_ids": [
+        "paragraph-4-f7"
+      ]
+    },
+    {
+      "title": "Siklik va izchil o‘zgarish",
+      "body": "Mavsumiy qaytalanish bilan jamoaning boshqa jamoa bilan izchil almashishi farqlanadi; ikkinchisi suksessiyadir.",
+      "fact_ids": [
+        "paragraph-4-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-4-q1",
+      "fact_id": "paragraph-4-f1",
+      "question_text": "O‘rmon harorati va tuproq namligi qaysi tarkibni tavsiflaydi?",
+      "options": [
+        "Abiotik muhitni",
+        "Faqat hayvonlar jamoasini",
+        "Faqat o‘simliklarning turlar ro‘yxatini",
+        "Faqat yirtqichlarni"
+      ],
+      "correct_answer": "Abiotik muhitni",
+      "explanation": "Ekosistemaning muhit qismiga yorug‘lik, harorat, namlik, havo va tuproq sharoitlari kiradi."
+    },
+    {
+      "key": "paragraph-4-q2",
+      "fact_id": "paragraph-4-f2",
+      "question_text": "Hududdagi barcha zamburug‘lar jamoasiga qaysi atama mos?",
+      "options": [
+        "Fitotsenoz",
+        "Klimatop",
+        "Faqat bitta individ",
+        "Mikotsenoz"
+      ],
+      "correct_answer": "Mikotsenoz",
+      "explanation": "Fitotsenoz o‘simliklar, zootsenoz hayvonlar, mikotsenoz zamburug‘lar jamoasini bildiradi."
+    },
+    {
+      "key": "paragraph-4-q3",
+      "fact_id": "paragraph-4-f3",
+      "question_text": "Fotosintezlovchi yashil o‘simlikning funksional roli qaysi?",
+      "options": [
+        "Faqat parchalovchi redutsent",
+        "Abiotik tuproq zarrachasi",
+        "Produtsent",
+        "Faqat yirtqich konsument"
+      ],
+      "correct_answer": "Produtsent",
+      "explanation": "Produtsentlar anorganik moddalardan organik birikmalar hosil qiluvchi avtotrof organizmlardir."
+    },
+    {
+      "key": "paragraph-4-q4",
+      "fact_id": "paragraph-4-f4",
+      "question_text": "O‘t bilan oziqlanuvchi kiyikni shu vazifasi bo‘yicha qayerga qo‘yamiz?",
+      "options": [
+        "Faqat abiotik muhitga",
+        "Konsumentlarga",
+        "Anorganik moddalarga",
+        "Fotosintezlovchi produtsentlarga"
+      ],
+      "correct_answer": "Konsumentlarga",
+      "explanation": "Konsumentlar tayyor organik moddalarni iste’mol qiladi va oziq aloqalari orqali energiya uzatilishida qatnashadi."
+    },
+    {
+      "key": "paragraph-4-q5",
+      "fact_id": "paragraph-4-f5",
+      "question_text": "Barg qoldig‘ining mineral moddalarga parchalanishida qaysi guruh muhim?",
+      "options": [
+        "Redutsentlar",
+        "Faqat yirik o‘txo‘rlar",
+        "Faqat yirtqich qushlar",
+        "Faqat tosh zarralari"
+      ],
+      "correct_answer": "Redutsentlar",
+      "explanation": "Saprotrof bakteriya va zamburug‘lar organik qoldiqlar parchalanishi va minerallashishida qatnashadi."
+    },
+    {
+      "key": "paragraph-4-q6",
+      "fact_id": "paragraph-4-f6",
+      "question_text": "Parchalovchilar kamayganda qaysi jarayonning sekinlashishi kutiladi?",
+      "options": [
+        "Har bir hayvonning fotosintezi",
+        "Barcha suvning darhol muzlashi",
+        "Quyoshdan energiya kelishining butunlay tugashi",
+        "Qoldiq moddalarning minerallashishi"
+      ],
+      "correct_answer": "Qoldiq moddalarning minerallashishi",
+      "explanation": "Redutsentlar hosil qilgan mineral moddalarni produtsentlar qayta o‘zlashtirishi moddalarning aylanishiga hissa qo‘shadi."
+    },
+    {
+      "key": "paragraph-4-q7",
+      "fact_id": "paragraph-4-f7",
+      "question_text": "Urug‘–kemiruvchi–yirtqich aloqasi nimani namoyon qiladi?",
+      "options": [
+        "Yirtqichning o‘simlikka mutlaqo aloqasizligini",
+        "Tizimning muhitdan to‘liq yopiq ekanini",
+        "Tizim qismlarining o‘zaro ta’sirini",
+        "Har bir tur soni hech qachon o‘zgarmasligini"
+      ],
+      "correct_answer": "Tizim qismlarining o‘zaro ta’sirini",
+      "explanation": "O‘simlik urug‘i ko‘pligi kemiruvchi soniga, kemiruvchi soni esa yirtqichlarga ta’sir qilishi o‘zaro boshqarilish misolidir."
+    },
+    {
+      "key": "paragraph-4-q8",
+      "fact_id": "paragraph-4-f8",
+      "question_text": "Bo‘sh hududdagi jamoa yillar davomida tarkiban almashmoqda. Qaysi atama mos?",
+      "options": [
+        "Faqat bir gulning ochilishi",
+        "Ekologik suksessiya",
+        "Faqat bir sutkalik uyqu",
+        "DNKning bitta replikatsiyasi"
+      ],
+      "correct_answer": "Ekologik suksessiya",
+      "explanation": "Mavsumiy qaytalanish bilan jamoaning boshqa jamoa bilan izchil almashishi farqlanadi; ikkinchisi suksessiyadir."
+    }
+  ]
+}

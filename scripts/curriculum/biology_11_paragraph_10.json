@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-10-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-12",
+  "title": "Namlik ekologik omil sifatida.",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-10-f1": {
+      "claim": "Suv biokimyoviy reaksiyalar muhiti, moddalarni tashish va issiqlik muvozanatida qatnashadi; tirik organizmlardagi suv ulushi turlicha.",
+      "answer": "U hujayraviy jarayonlar va modda tashishga ham ta’sir qiladi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-10-f2": {
+      "claim": "Kserofitlar namlik kam sharoitga moslashgan; suv saqlash yoki yo‘qotishni kamaytirish turli strategiyalardir.",
+      "answer": "Kserofitlar",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-10-f3": {
+      "claim": "Sukkulentlar suvni etli organlarda saqlaydi: aloy bargida, kaktus esa asosan yashil poyasida.",
+      "answer": "Aloy — barg, kaktus — poya",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-10-f4": {
+      "claim": "Mayda yoki qisqargan barglar, qalin kutikula va chuqur joylashgan og‘izchalar suv yo‘qotilishini kamaytirishga yordam berishi mumkin.",
+      "answer": "Suvni tejash bilan",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-10-f5": {
+      "claim": "Gigrofitlar nam joylarga, mezofitlar esa o‘rtacha namlik sharoitlariga moslashgan.",
+      "answer": "Birinchisi nam, ikkinchisi o‘rtacha nam muhitga mos",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-10-f6": {
+      "claim": "Organik moddalarning, jumladan yog‘larning oksidlanishi natijasida metabolik suv hosil bo‘lishi mumkin.",
+      "answer": "Oksidlanishda suv hosil bo‘lishi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-10-f7": {
+      "claim": "Siydik kislotasi kabi kam eruvchan azotli mahsulotni chiqarish ayrim hayvonlarda suvni tejash bilan bog‘liq; bu barcha cho‘l hayvonlariga xos emas.",
+      "answer": "Ayrim guruhlar kam suv bilan azotli chiqindi chiqaradi",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-10-f8": {
+      "claim": "Issiq va quruq vaqtda uyaga yashirinish yoki faollikni salqin paytga ko‘chirish suv yo‘qotishni kamaytirishi mumkin.",
+      "answer": "Issiqdagi bug‘lanish ta’sirini kamaytirish bilan",
+      "source": {
+        "paragraph": 10,
+        "pdf_pages": [
+          61
+        ],
+        "printed_pages": [
+          61
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Suvning roli",
+      "body": "Suv biokimyoviy reaksiyalar muhiti, moddalarni tashish va issiqlik muvozanatida qatnashadi; tirik organizmlardagi suv ulushi turlicha.",
+      "fact_ids": [
+        "paragraph-10-f1"
+      ]
+    },
+    {
+      "title": "Qurg‘oqchil guruh",
+      "body": "Kserofitlar namlik kam sharoitga moslashgan; suv saqlash yoki yo‘qotishni kamaytirish turli strategiyalardir.",
+      "fact_ids": [
+        "paragraph-10-f2"
+      ]
+    },
+    {
+      "title": "Suv zaxirasi",
+      "body": "Sukkulentlar suvni etli organlarda saqlaydi: aloy bargida, kaktus esa asosan yashil poyasida.",
+      "fact_ids": [
+        "paragraph-10-f3"
+      ]
+    },
+    {
+      "title": "Yuza va bug‘lanish",
+      "body": "Mayda yoki qisqargan barglar, qalin kutikula va chuqur joylashgan og‘izchalar suv yo‘qotilishini kamaytirishga yordam berishi mumkin.",
+      "fact_ids": [
+        "paragraph-10-f4"
+      ]
+    },
+    {
+      "title": "Namlik guruhlari",
+      "body": "Gigrofitlar nam joylarga, mezofitlar esa o‘rtacha namlik sharoitlariga moslashgan.",
+      "fact_ids": [
+        "paragraph-10-f5"
+      ]
+    },
+    {
+      "title": "Metabolik suv",
+      "body": "Organik moddalarning, jumladan yog‘larning oksidlanishi natijasida metabolik suv hosil bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-10-f6"
+      ]
+    },
+    {
+      "title": "Suv sarfini kamaytirish",
+      "body": "Siydik kislotasi kabi kam eruvchan azotli mahsulotni chiqarish ayrim hayvonlarda suvni tejash bilan bog‘liq; bu barcha cho‘l hayvonlariga xos emas.",
+      "fact_ids": [
+        "paragraph-10-f7"
+      ]
+    },
+    {
+      "title": "Xulqiy tejam",
+      "body": "Issiq va quruq vaqtda uyaga yashirinish yoki faollikni salqin paytga ko‘chirish suv yo‘qotishni kamaytirishi mumkin.",
+      "fact_ids": [
+        "paragraph-10-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-10-q1",
+      "fact_id": "paragraph-10-f1",
+      "question_text": "Suv tanqisligi nega faqat ichimlik masalasi emas?",
+      "options": [
+        "U hujayraviy jarayonlar va modda tashishga ham ta’sir qiladi",
+        "Suv faqat tashqi rangni belgilaydi",
+        "Hujayra suvdan umuman foydalanmaydi",
+        "Barcha turlarda suv miqdori aynan teng"
+      ],
+      "correct_answer": "U hujayraviy jarayonlar va modda tashishga ham ta’sir qiladi",
+      "explanation": "Suv biokimyoviy reaksiyalar muhiti, moddalarni tashish va issiqlik muvozanatida qatnashadi; tirik organizmlardagi suv ulushi turlicha."
+    },
+    {
+      "key": "paragraph-10-q2",
+      "fact_id": "paragraph-10-f2",
+      "question_text": "Qurg‘oqchil sharoitga mos o‘simliklar guruhini tanlang.",
+      "options": [
+        "Faqat gigrofitlar",
+        "Faqat suv tubi hayvonlari",
+        "Faqat patli qushlar",
+        "Kserofitlar"
+      ],
+      "correct_answer": "Kserofitlar",
+      "explanation": "Kserofitlar namlik kam sharoitga moslashgan; suv saqlash yoki yo‘qotishni kamaytirish turli strategiyalardir."
+    },
+    {
+      "key": "paragraph-10-q3",
+      "fact_id": "paragraph-10-f3",
+      "question_text": "Aloy va kaktus suv saqlash organini moslang.",
+      "options": [
+        "Aloy — faqat ildiz tukchasi, kaktus — urug‘chi",
+        "Ikkalasida ham suv saqlanmaydi",
+        "Aloy — barg, kaktus — poya",
+        "Aloy — gul changi, kaktus — pat"
+      ],
+      "correct_answer": "Aloy — barg, kaktus — poya",
+      "explanation": "Sukkulentlar suvni etli organlarda saqlaydi: aloy bargida, kaktus esa asosan yashil poyasida."
+    },
+    {
+      "key": "paragraph-10-q4",
+      "fact_id": "paragraph-10-f4",
+      "question_text": "Qalin kutikula va kamaygan barg yuzasi qaysi ehtiyoj bilan bog‘liq?",
+      "options": [
+        "Ildizni har doim yo‘q qilish bilan",
+        "Suvni tejash bilan",
+        "Faqat meva rangini o‘zgartirish bilan",
+        "Tayyor oqsilni havodan olish bilan"
+      ],
+      "correct_answer": "Suvni tejash bilan",
+      "explanation": "Mayda yoki qisqargan barglar, qalin kutikula va chuqur joylashgan og‘izchalar suv yo‘qotilishini kamaytirishga yordam berishi mumkin."
+    },
+    {
+      "key": "paragraph-10-q5",
+      "fact_id": "paragraph-10-f5",
+      "question_text": "Namlik talabi bo‘yicha gigrofit va mezofitning farqi qaysi?",
+      "options": [
+        "Birinchisi nam, ikkinchisi o‘rtacha nam muhitga mos",
+        "Ikkalasi ham faqat mutlaqo quruq muhitga mos",
+        "Birinchisi hayvon, ikkinchisi mineral",
+        "Ikkalasi ham faqat dengiz tubidagi bakteriya"
+      ],
+      "correct_answer": "Birinchisi nam, ikkinchisi o‘rtacha nam muhitga mos",
+      "explanation": "Gigrofitlar nam joylarga, mezofitlar esa o‘rtacha namlik sharoitlariga moslashgan."
+    },
+    {
+      "key": "paragraph-10-q6",
+      "fact_id": "paragraph-10-f6",
+      "question_text": "Cho‘l hayvonining yog‘ zaxirasini suv balansiga nima bog‘laydi?",
+      "options": [
+        "Yog‘ning o‘zgarmay turib tayyor ichimlik bo‘lishi",
+        "Yog‘da hech qanday kimyoviy jarayon bo‘lmasligi",
+        "Yog‘ning suvni har doim butunlay yo‘qotishi",
+        "Oksidlanishda suv hosil bo‘lishi"
+      ],
+      "correct_answer": "Oksidlanishda suv hosil bo‘lishi",
+      "explanation": "Organik moddalarning, jumladan yog‘larning oksidlanishi natijasida metabolik suv hosil bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-10-q7",
+      "fact_id": "paragraph-10-f7",
+      "question_text": "Suv tejovchi ajratish strategiyasini ehtiyotkor ifodalang.",
+      "options": [
+        "Hech bir hayvon azotli mahsulot chiqarmaydi",
+        "Chiqindi chiqarish suv balansiga bog‘liq emas",
+        "Ayrim guruhlar kam suv bilan azotli chiqindi chiqaradi",
+        "Barcha cho‘l hayvonlari bir xil mahsulot chiqaradi"
+      ],
+      "correct_answer": "Ayrim guruhlar kam suv bilan azotli chiqindi chiqaradi",
+      "explanation": "Siydik kislotasi kabi kam eruvchan azotli mahsulotni chiqarish ayrim hayvonlarda suvni tejash bilan bog‘liq; bu barcha cho‘l hayvonlariga xos emas."
+    },
+    {
+      "key": "paragraph-10-q8",
+      "fact_id": "paragraph-10-f8",
+      "question_text": "Hayvon kunduz uyada qolib, kechasi faol bo‘lsa, suv balansiga qaysi yo‘l bilan yordam berishi mumkin?",
+      "options": [
+        "Fotosintezlay boshlash bilan",
+        "Issiqdagi bug‘lanish ta’sirini kamaytirish bilan",
+        "Barcha suv talabini abadiy yo‘qotish bilan",
+        "Har safar yangi xromosoma yaratish bilan"
+      ],
+      "correct_answer": "Issiqdagi bug‘lanish ta’sirini kamaytirish bilan",
+      "explanation": "Issiq va quruq vaqtda uyaga yashirinish yoki faollikni salqin paytga ko‘chirish suv yo‘qotishni kamaytirishi mumkin."
+    }
+  ]
+}

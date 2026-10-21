@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-16-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-19",
+  "title": "Ekotizimlarning trofik strukturasi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-16-f1": {
+      "claim": "Birinchi tartib konsument produtsentni iste’mol qiladi; keyingi tartiblar iste’mol qilayotgan oziq zanjiridagi o‘rniga bog‘liq.",
+      "answer": "Birinchi tartib konsument",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          93
+        ],
+        "printed_pages": [
+          93
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-16-f2": {
+      "claim": "Detritofag hayvonlar qoldiqni iste’mol qiluvchi konsumentlar; redutsentlar minerallashishda qatnashuvchi mikroorganizmlardir.",
+      "answer": "Detritofag konsumentlar qatoriga",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-16-f3": {
+      "claim": "Oziq zanjiridagi o‘q oziq manbasidan uni iste’mol qiluvchiga modda va energiya o‘tishini ifodalaydi.",
+      "answer": "O‘tdagi oziq va energiya quyonga o‘tadi",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-16-f4": {
+      "claim": "O‘tloq tipidagi zanjir tirik produtsentdan, detrit zanjiri esa o‘lik organik qoldiqdan boshlanadi.",
+      "answer": "Detrit tipi",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          95
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-16-f5": {
+      "claim": "Produtsent birinchi trofik daraja, uni iste’mol qiluvchi birinchi tartib konsument ikkinchi trofik darajadir.",
+      "answer": "Produtsent I, birinchi tartib konsument II trofik darajada",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-16-f6": {
+      "claim": "Bir tur turli oziqlarni iste’mol qilganda turli zanjirlarda turli trofik o‘rinda bo‘lishi mumkin.",
+      "answer": "O‘rnini ayni oziq aloqasiga qarab aniqlaymiz",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-16-f7": {
+      "claim": "Bir nechta zanjir bir-biri bilan umumiy organizmlar orqali bog‘langanda oziq to‘ri hosil bo‘ladi.",
+      "answer": "Oziq to‘riga",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          97
+        ],
+        "printed_pages": [
+          97
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-16-f8": {
+      "claim": "O‘simlik → o‘simlikxo‘r hasharot → hasharotxo‘r hayvon → yirtqich ketma-ketligi oziq o‘tishining shartli modelidir.",
+      "answer": "Maysa → chigirtka → baqa",
+      "source": {
+        "paragraph": 16,
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Trofik rol",
+      "body": "Birinchi tartib konsument produtsentni iste’mol qiladi; keyingi tartiblar iste’mol qilayotgan oziq zanjiridagi o‘rniga bog‘liq.",
+      "fact_ids": [
+        "paragraph-16-f1"
+      ]
+    },
+    {
+      "title": "Detritofag va redutsent",
+      "body": "Detritofag hayvonlar qoldiqni iste’mol qiluvchi konsumentlar; redutsentlar minerallashishda qatnashuvchi mikroorganizmlardir.",
+      "fact_ids": [
+        "paragraph-16-f2"
+      ]
+    },
+    {
+      "title": "O‘qning ma’nosi",
+      "body": "Oziq zanjiridagi o‘q oziq manbasidan uni iste’mol qiluvchiga modda va energiya o‘tishini ifodalaydi.",
+      "fact_ids": [
+        "paragraph-16-f3"
+      ]
+    },
+    {
+      "title": "Ikki boshlanish",
+      "body": "O‘tloq tipidagi zanjir tirik produtsentdan, detrit zanjiri esa o‘lik organik qoldiqdan boshlanadi.",
+      "fact_ids": [
+        "paragraph-16-f4"
+      ]
+    },
+    {
+      "title": "Daraja va tartib",
+      "body": "Produtsent birinchi trofik daraja, uni iste’mol qiluvchi birinchi tartib konsument ikkinchi trofik darajadir.",
+      "fact_ids": [
+        "paragraph-16-f5"
+      ]
+    },
+    {
+      "title": "Bir turning turli o‘rni",
+      "body": "Bir tur turli oziqlarni iste’mol qilganda turli zanjirlarda turli trofik o‘rinda bo‘lishi mumkin.",
+      "fact_ids": [
+        "paragraph-16-f6"
+      ]
+    },
+    {
+      "title": "To‘r va zanjir",
+      "body": "Bir nechta zanjir bir-biri bilan umumiy organizmlar orqali bog‘langanda oziq to‘ri hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-16-f7"
+      ]
+    },
+    {
+      "title": "Ketma-ketlik tahlili",
+      "body": "O‘simlik → o‘simlikxo‘r hasharot → hasharotxo‘r hayvon → yirtqich ketma-ketligi oziq o‘tishining shartli modelidir.",
+      "fact_ids": [
+        "paragraph-16-f8"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-16-q1",
+      "fact_id": "paragraph-16-f1",
+      "question_text": "O‘simlikni yegan chigirtka shu zanjirda qaysi rolni bajaradi?",
+      "options": [
+        "Birinchi tartib konsument",
+        "Ikkinchi tartib konsument",
+        "Anorganik produtsent",
+        "Faqat mineral redutsent"
+      ],
+      "correct_answer": "Birinchi tartib konsument",
+      "explanation": "Birinchi tartib konsument produtsentni iste’mol qiladi; keyingi tartiblar iste’mol qilayotgan oziq zanjiridagi o‘rniga bog‘liq."
+    },
+    {
+      "key": "paragraph-16-q2",
+      "fact_id": "paragraph-16-f2",
+      "question_text": "Yomg‘ir chuvalchangini qoldiq yeyishi asosida qayerga joylashtiramiz?",
+      "options": [
+        "Faqat fotosintezlovchi produtsentlar qatoriga",
+        "Abiotik toshlar qatoriga",
+        "Har doim bakteriyalar domeniga",
+        "Detritofag konsumentlar qatoriga"
+      ],
+      "correct_answer": "Detritofag konsumentlar qatoriga",
+      "explanation": "Detritofag hayvonlar qoldiqni iste’mol qiluvchi konsumentlar; redutsentlar minerallashishda qatnashuvchi mikroorganizmlardir."
+    },
+    {
+      "key": "paragraph-16-q3",
+      "fact_id": "paragraph-16-f3",
+      "question_text": "O‘t → quyon o‘qini qanday o‘qiymiz?",
+      "options": [
+        "O‘t quyonni ovlaydi",
+        "Ikkalasi albatta bitta turdir",
+        "O‘tdagi oziq va energiya quyonga o‘tadi",
+        "Quyon fotosintez qilib o‘tni yaratadi"
+      ],
+      "correct_answer": "O‘tdagi oziq va energiya quyonga o‘tadi",
+      "explanation": "Oziq zanjiridagi o‘q oziq manbasidan uni iste’mol qiluvchiga modda va energiya o‘tishini ifodalaydi."
+    },
+    {
+      "key": "paragraph-16-q4",
+      "fact_id": "paragraph-16-f4",
+      "question_text": "To‘kilgan bargdan boshlanadigan oziq aloqasi qaysi tipga tegishli?",
+      "options": [
+        "Faqat inson shajarasi",
+        "Detrit tipi",
+        "Faqat tirik produtsentdan boshlanadigan o‘tloq tipi",
+        "Faqat abiotik yorug‘lik ro‘yxati"
+      ],
+      "correct_answer": "Detrit tipi",
+      "explanation": "O‘tloq tipidagi zanjir tirik produtsentdan, detrit zanjiri esa o‘lik organik qoldiqdan boshlanadi."
+    },
+    {
+      "key": "paragraph-16-q5",
+      "fact_id": "paragraph-16-f5",
+      "question_text": "Birinchi tartib konsument bilan birinchi trofik darajani aynanlashtirish nega xato?",
+      "options": [
+        "Produtsent I, birinchi tartib konsument II trofik darajada",
+        "Ikkalasi har doim IV darajada",
+        "Konsument hech qanday darajaga ega emas",
+        "Birinchi trofik daraja faqat yirtqichdir"
+      ],
+      "correct_answer": "Produtsent I, birinchi tartib konsument II trofik darajada",
+      "explanation": "Produtsent birinchi trofik daraja, uni iste’mol qiluvchi birinchi tartib konsument ikkinchi trofik darajadir."
+    },
+    {
+      "key": "paragraph-16-q6",
+      "fact_id": "paragraph-16-f6",
+      "question_text": "Ham o‘simlik, ham hayvon yeyayotgan organizmni qanday baholaymiz?",
+      "options": [
+        "Har qanday holatda faqat produtsent deymiz",
+        "Unga trofik aloqa qo‘llanmaydi deymiz",
+        "Har qanday holatda faqat bitta qat’iy darajani beramiz",
+        "O‘rnini ayni oziq aloqasiga qarab aniqlaymiz"
+      ],
+      "correct_answer": "O‘rnini ayni oziq aloqasiga qarab aniqlaymiz",
+      "explanation": "Bir tur turli oziqlarni iste’mol qilganda turli zanjirlarda turli trofik o‘rinda bo‘lishi mumkin."
+    },
+    {
+      "key": "paragraph-16-q7",
+      "fact_id": "paragraph-16-f7",
+      "question_text": "Bitta yirtqich bir necha o‘lja zanjirini bog‘lasa, tasvir nimaga aylanadi?",
+      "options": [
+        "Faqat mineral jadvalga",
+        "Faqat vaqt o‘lchoviga",
+        "Oziq to‘riga",
+        "Faqat bitta yopiq DNK halqasiga"
+      ],
+      "correct_answer": "Oziq to‘riga",
+      "explanation": "Bir nechta zanjir bir-biri bilan umumiy organizmlar orqali bog‘langanda oziq to‘ri hosil bo‘ladi."
+    },
+    {
+      "key": "paragraph-16-q8",
+      "fact_id": "paragraph-16-f8",
+      "question_text": "Modelda maysa, uni yegan chigirtka va chigirtkani yegan baqa bor. To‘g‘ri tartib qaysi?",
+      "options": [
+        "Maysa → baqa → chigirtka",
+        "Maysa → chigirtka → baqa",
+        "Baqa → maysa → chigirtka",
+        "Chigirtka → maysa → baqa"
+      ],
+      "correct_answer": "Maysa → chigirtka → baqa",
+      "explanation": "O‘simlik → o‘simlikxo‘r hasharot → hasharotxo‘r hayvon → yirtqich ketma-ketligi oziq o‘tishining shartli modelidir."
+    }
+  ]
+}

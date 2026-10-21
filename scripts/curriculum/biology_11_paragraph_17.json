@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-17-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-20",
+  "title": "Ekotizimlarning mahsuldorligi",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-17-f1": {
+      "claim": "Biomassa ma’lum paytdagi tirik modda miqdori, mahsuldorlik esa vaqt birligida hosil bo‘lish tezligidir.",
+      "answer": "Birinchisi biomassa, ikkinchisi mahsuldorlik",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-17-f2": {
+      "claim": "Quruqlikda biomassa ko‘pincha maydon birligidagi massa bilan ifodalanadi; solishtirishda quruq yoki nam massa ekanini bilish kerak.",
+      "answer": "Maydon va massa turi bir xil asosda berilishi",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          100
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-17-f3": {
+      "claim": "Avtotroflarning fotosintez yoki xemosintez orqali hosil qilgan organik biomassasi birlamchi mahsulotdir.",
+      "answer": "Birlamchi",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-17-f4": {
+      "claim": "Geterotroflarning oziqdan foydalanib o‘z tanasida hosil qilgan yangi biomassasi ikkilamchi mahsulotdir.",
+      "answer": "Ikkilamchi mahsulotga",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-17-f5": {
+      "claim": "Fitoplanktonning bir paytdagi biomassasi kichik bo‘lsa ham tez yangilanib yuqori mahsuldorlik ko‘rsatishi mumkin.",
+      "answer": "Mahsuldorlik ham albatta pastligini",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-17-f6": {
+      "claim": "Mahsuldorlik 200 g/m²/yil bo‘lib maydon 5 m² bo‘lsa, bir yilda 200 × 5 = 1000 g yangi quruq modda hosil bo‘ladi.",
+      "answer": "1000 g",
+      "source": {
+        "paragraph": 17,
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Zaxira va tezlik",
+      "body": "Biomassa ma’lum paytdagi tirik modda miqdori, mahsuldorlik esa vaqt birligida hosil bo‘lish tezligidir.",
+      "fact_ids": [
+        "paragraph-17-f1"
+      ]
+    },
+    {
+      "title": "Biomassa birligi",
+      "body": "Quruqlikda biomassa ko‘pincha maydon birligidagi massa bilan ifodalanadi; solishtirishda quruq yoki nam massa ekanini bilish kerak.",
+      "fact_ids": [
+        "paragraph-17-f2"
+      ]
+    },
+    {
+      "title": "Birlamchi mahsulot",
+      "body": "Avtotroflarning fotosintez yoki xemosintez orqali hosil qilgan organik biomassasi birlamchi mahsulotdir.",
+      "fact_ids": [
+        "paragraph-17-f3"
+      ]
+    },
+    {
+      "title": "Ikkilamchi mahsulot",
+      "body": "Geterotroflarning oziqdan foydalanib o‘z tanasida hosil qilgan yangi biomassasi ikkilamchi mahsulotdir.",
+      "fact_ids": [
+        "paragraph-17-f4"
+      ]
+    },
+    {
+      "title": "Tez yangilanish",
+      "body": "Fitoplanktonning bir paytdagi biomassasi kichik bo‘lsa ham tez yangilanib yuqori mahsuldorlik ko‘rsatishi mumkin.",
+      "fact_ids": [
+        "paragraph-17-f5"
+      ]
+    },
+    {
+      "title": "Model hisob",
+      "body": "Mahsuldorlik 200 g/m²/yil bo‘lib maydon 5 m² bo‘lsa, bir yilda 200 × 5 = 1000 g yangi quruq modda hosil bo‘ladi.",
+      "fact_ids": [
+        "paragraph-17-f6"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-17-q1",
+      "fact_id": "paragraph-17-f1",
+      "question_text": "500 g/m² va 200 g/m²/yil ko‘rsatkichlarini moslang.",
+      "options": [
+        "Birinchisi biomassa, ikkinchisi mahsuldorlik",
+        "Birinchisi mahsuldorlik, ikkinchisi faqat son",
+        "Ikkalasi faqat individlar soni",
+        "Ikkalasi vaqtga mutlaqo aloqasiz"
+      ],
+      "correct_answer": "Birinchisi biomassa, ikkinchisi mahsuldorlik",
+      "explanation": "Biomassa ma’lum paytdagi tirik modda miqdori, mahsuldorlik esa vaqt birligida hosil bo‘lish tezligidir."
+    },
+    {
+      "key": "paragraph-17-q2",
+      "fact_id": "paragraph-17-f2",
+      "question_text": "Ikki hudud biomassasini taqqoslashda qaysi aniqlik kerak?",
+      "options": [
+        "Faqat hudud nomining uzunligi",
+        "Faqat organizmlarning bir xil rangdaligi",
+        "Faqat natijaning kattaroq yozilishi",
+        "Maydon va massa turi bir xil asosda berilishi"
+      ],
+      "correct_answer": "Maydon va massa turi bir xil asosda berilishi",
+      "explanation": "Quruqlikda biomassa ko‘pincha maydon birligidagi massa bilan ifodalanadi; solishtirishda quruq yoki nam massa ekanini bilish kerak."
+    },
+    {
+      "key": "paragraph-17-q3",
+      "fact_id": "paragraph-17-f3",
+      "question_text": "Xemosintezlovchi avtotrof yaratgan yangi biomassa qaysi tur mahsulot?",
+      "options": [
+        "Faqat o‘lik mineral qoldiq",
+        "Faqat yirtqich mahsuloti",
+        "Birlamchi",
+        "Faqat ikkilamchi"
+      ],
+      "correct_answer": "Birlamchi",
+      "explanation": "Avtotroflarning fotosintez yoki xemosintez orqali hosil qilgan organik biomassasi birlamchi mahsulotdir."
+    },
+    {
+      "key": "paragraph-17-q4",
+      "fact_id": "paragraph-17-f4",
+      "question_text": "O‘txo‘r hayvonning oziq hisobiga tana massasi ortishi nimaga misol?",
+      "options": [
+        "Faqat quyosh nurlanishining o‘ziga",
+        "Ikkilamchi mahsulotga",
+        "Produtsentning birlamchi sinteziga",
+        "Faqat anorganik nurashga"
+      ],
+      "correct_answer": "Ikkilamchi mahsulotga",
+      "explanation": "Geterotroflarning oziqdan foydalanib o‘z tanasida hosil qilgan yangi biomassasi ikkilamchi mahsulotdir."
+    },
+    {
+      "key": "paragraph-17-q5",
+      "fact_id": "paragraph-17-f5",
+      "question_text": "Kichik biomassa zaxirasi nimani o‘z-o‘zidan isbotlamaydi?",
+      "options": [
+        "Mahsuldorlik ham albatta pastligini",
+        "Zaxira o‘lchangan vaqtga tegishliligini",
+        "Organizmlar mavjudligini",
+        "Zaxira bilan tezlik turli ko‘rsatkich ekanini"
+      ],
+      "correct_answer": "Mahsuldorlik ham albatta pastligini",
+      "explanation": "Fitoplanktonning bir paytdagi biomassasi kichik bo‘lsa ham tez yangilanib yuqori mahsuldorlik ko‘rsatishi mumkin."
+    },
+    {
+      "key": "paragraph-17-q6",
+      "fact_id": "paragraph-17-f6",
+      "question_text": "Shartli 5 m² maydon 200 g/m²/yil mahsuldor bo‘lsa, yillik mahsulot qancha?",
+      "options": [
+        "40 g",
+        "205 g",
+        "200 g",
+        "1000 g"
+      ],
+      "correct_answer": "1000 g",
+      "explanation": "Mahsuldorlik 200 g/m²/yil bo‘lib maydon 5 m² bo‘lsa, bir yilda 200 × 5 = 1000 g yangi quruq modda hosil bo‘ladi."
+    }
+  ]
+}

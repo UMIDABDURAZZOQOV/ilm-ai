@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-11-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-13",
+  "title": "Tuproq va topografik omillar",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-11-f1": {
+      "claim": "Tuproqning kimyoviy tarkibi, tuzilishi, suv, havo va harorat rejimi edafik omillardir.",
+      "answer": "Edafik sharoitni",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          63
+        ],
+        "printed_pages": [
+          63
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-11-f2": {
+      "claim": "Tog‘ jinsi, iqlim, relyef, organizmlar va vaqt tuproq hosil bo‘lishida birgalikda qatnashadi.",
+      "answer": "Iqlim, relyef, organizmlar va vaqtning roli",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-11-f3": {
+      "claim": "O‘simlik qoldiqlari va tuproq organizmlari faoliyati tuproqdagi organik modda hamda tuzilishga ta’sir qiladi.",
+      "answer": "Organizmlar tuproq hosil qiluvchi omil ekaniga",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          64
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-11-f4": {
+      "claim": "Tuproqdan noto‘g‘ri foydalanish eroziya, sho‘rlanish yoki botqoqlanish xavfini kuchaytirishi mumkin.",
+      "answer": "Uzoq muddatli degradatsiya xavfini",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-11-f5": {
+      "claim": "Balandlik va qiyalik iqlim, tuproq hamda organizmlar tarqalishiga ta’sir qiluvchi topografik omillardir.",
+      "answer": "Dengiz sathiga nisbatan balandlik",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          65
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-11-f6": {
+      "claim": "Qiyalikning qaysi tomonga qaragani quyosh nuri tushishi va mikroiqlimiga ta’sir qiladi.",
+      "answer": "Qiyalik ekspozitsiyasini",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-11-f7": {
+      "claim": "Tik qiyalikda suv tuproqni yuvib ketishi unumdor qatlam saqlanishiga ta’sir qilishi mumkin.",
+      "answer": "Suv eroziyasi bilan",
+      "source": {
+        "paragraph": 11,
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Edafik sharoit",
+      "body": "Tuproqning kimyoviy tarkibi, tuzilishi, suv, havo va harorat rejimi edafik omillardir.",
+      "fact_ids": [
+        "paragraph-11-f1"
+      ]
+    },
+    {
+      "title": "Hosil bo‘lish omillari",
+      "body": "Tog‘ jinsi, iqlim, relyef, organizmlar va vaqt tuproq hosil bo‘lishida birgalikda qatnashadi.",
+      "fact_ids": [
+        "paragraph-11-f2"
+      ]
+    },
+    {
+      "title": "Biologik ta’sir",
+      "body": "O‘simlik qoldiqlari va tuproq organizmlari faoliyati tuproqdagi organik modda hamda tuzilishga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-11-f3"
+      ]
+    },
+    {
+      "title": "Foydalanish xavfi",
+      "body": "Tuproqdan noto‘g‘ri foydalanish eroziya, sho‘rlanish yoki botqoqlanish xavfini kuchaytirishi mumkin.",
+      "fact_ids": [
+        "paragraph-11-f4"
+      ]
+    },
+    {
+      "title": "Relyef va balandlik",
+      "body": "Balandlik va qiyalik iqlim, tuproq hamda organizmlar tarqalishiga ta’sir qiluvchi topografik omillardir.",
+      "fact_ids": [
+        "paragraph-11-f5"
+      ]
+    },
+    {
+      "title": "Ekspozitsiya",
+      "body": "Qiyalikning qaysi tomonga qaragani quyosh nuri tushishi va mikroiqlimiga ta’sir qiladi.",
+      "fact_ids": [
+        "paragraph-11-f6"
+      ]
+    },
+    {
+      "title": "Tik qiyalik",
+      "body": "Tik qiyalikda suv tuproqni yuvib ketishi unumdor qatlam saqlanishiga ta’sir qilishi mumkin.",
+      "fact_ids": [
+        "paragraph-11-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-11-q1",
+      "fact_id": "paragraph-11-f1",
+      "question_text": "Tuproqdagi havo va suv nisbatini kuzatish nimani o‘rganadi?",
+      "options": [
+        "Edafik sharoitni",
+        "Faqat qushning uchish yo‘lini",
+        "Faqat gul rangini",
+        "Faqat yirtqichning ovini"
+      ],
+      "correct_answer": "Edafik sharoitni",
+      "explanation": "Tuproqning kimyoviy tarkibi, tuzilishi, suv, havo va harorat rejimi edafik omillardir."
+    },
+    {
+      "key": "paragraph-11-q2",
+      "fact_id": "paragraph-11-f2",
+      "question_text": "Tuproq shakllanishini faqat tog‘ jinsi bilan tushuntirishda nima yetishmaydi?",
+      "options": [
+        "Faqat sayyoralar nomi",
+        "Faqat kitob muqovasi",
+        "Faqat odamning kasbi",
+        "Iqlim, relyef, organizmlar va vaqtning roli"
+      ],
+      "correct_answer": "Iqlim, relyef, organizmlar va vaqtning roli",
+      "explanation": "Tog‘ jinsi, iqlim, relyef, organizmlar va vaqt tuproq hosil bo‘lishida birgalikda qatnashadi."
+    },
+    {
+      "key": "paragraph-11-q3",
+      "fact_id": "paragraph-11-f3",
+      "question_text": "Bir xil jins ustida turli biologik jamoalar turlicha tuproq rivojiga hissa qo‘sha olishi nimaga mos?",
+      "options": [
+        "Iqlimning hech qachon ahamiyati bo‘lmasligiga",
+        "Tuproqning vaqt davomida o‘zgarmasligiga",
+        "Organizmlar tuproq hosil qiluvchi omil ekaniga",
+        "Tuproq faqat tirik bo‘lmagan bitta kristall ekaniga"
+      ],
+      "correct_answer": "Organizmlar tuproq hosil qiluvchi omil ekaniga",
+      "explanation": "O‘simlik qoldiqlari va tuproq organizmlari faoliyati tuproqdagi organik modda hamda tuzilishga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-11-q4",
+      "fact_id": "paragraph-11-f4",
+      "question_text": "Yer boshqaruvida faqat qisqa muddat hosilni ko‘rib, tuproq holatini e’tiborsiz qoldirish nimani o‘tkazib yuboradi?",
+      "options": [
+        "Faqat ekin nomidagi bo‘g‘inlarni",
+        "Uzoq muddatli degradatsiya xavfini",
+        "Faqat dalaning nomini",
+        "Faqat xarita shriftini"
+      ],
+      "correct_answer": "Uzoq muddatli degradatsiya xavfini",
+      "explanation": "Tuproqdan noto‘g‘ri foydalanish eroziya, sho‘rlanish yoki botqoqlanish xavfini kuchaytirishi mumkin."
+    },
+    {
+      "key": "paragraph-11-q5",
+      "fact_id": "paragraph-11-f5",
+      "question_text": "Tog‘ yonbag‘rida o‘simlik qoplami balandlik bo‘yicha almashsa, qaysi omil hisobga olinadi?",
+      "options": [
+        "Dengiz sathiga nisbatan balandlik",
+        "Faqat o‘simlik nomi",
+        "Faqat bir gulning hidi",
+        "Faqat urug‘ning alifbo tartibi"
+      ],
+      "correct_answer": "Dengiz sathiga nisbatan balandlik",
+      "explanation": "Balandlik va qiyalik iqlim, tuproq hamda organizmlar tarqalishiga ta’sir qiluvchi topografik omillardir."
+    },
+    {
+      "key": "paragraph-11-q6",
+      "fact_id": "paragraph-11-f6",
+      "question_text": "Bir tog‘ning qarama-qarshi yonbag‘irlari namligi va isishi farq qilsa, nimani tekshirish foydali?",
+      "options": [
+        "Faqat tuproq nomining uzunligini",
+        "Faqat hayvonning taxallusini",
+        "Faqat hujayradagi ribosoma shaklini",
+        "Qiyalik ekspozitsiyasini"
+      ],
+      "correct_answer": "Qiyalik ekspozitsiyasini",
+      "explanation": "Qiyalikning qaysi tomonga qaragani quyosh nuri tushishi va mikroiqlimiga ta’sir qiladi."
+    },
+    {
+      "key": "paragraph-11-q7",
+      "fact_id": "paragraph-11-f7",
+      "question_text": "Tik qiyalikdagi yupqa tuproq qatlamini qaysi jarayon bilan bog‘lab tekshiramiz?",
+      "options": [
+        "Faqat meyoz bilan",
+        "Faqat fermentning nomi bilan",
+        "Suv eroziyasi bilan",
+        "Faqat changlanish bilan"
+      ],
+      "correct_answer": "Suv eroziyasi bilan",
+      "explanation": "Tik qiyalikda suv tuproqni yuvib ketishi unumdor qatlam saqlanishiga ta’sir qilishi mumkin."
+    }
+  ]
+}

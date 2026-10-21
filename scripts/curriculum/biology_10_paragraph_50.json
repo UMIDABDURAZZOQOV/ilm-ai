@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-50-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-59",
+  "title": "Organik olam evolutsiyasining asosiy yo‘nalishlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-50-f1": {
+      "claim": "Darslik biologik progressni individlar soni, egallangan hudud va guruh xilma-xilligining ortishi bilan tavsiflaydi.",
+      "answer": "Biologik progress mezonlariga",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          214
+        ],
+        "printed_pages": [
+          214
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-50-f2": {
+      "claim": "Aromorfoz katta tuzilish-funksional yangilik bilan yangi imkoniyatlar ochishini ifodalovchi tarixiy evolutsion tushunchadir.",
+      "answer": "Aromorfoz",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          215
+        ],
+        "printed_pages": [
+          215
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-50-f3": {
+      "claim": "Idioadaptatsiya muayyan sharoitga moslashishni ifodalaydi; u albatta umumiy tuzilishning murakkablashishini talab qilmaydi.",
+      "answer": "Idioadaptatsiya",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          215
+        ],
+        "printed_pages": [
+          215
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-50-f4": {
+      "claim": "Darslik umumiy degeneratsiya deb ataydigan yo‘nalishda ayrim organlar soddalashadi yoki kamayadi; bu guruh muvaffaqiyati bilan birga kechishi mumkin.",
+      "answer": "Hayot tarziga bog‘liq tuzilish soddalashishini",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          216
+        ],
+        "printed_pages": [
+          216
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-50-f5": {
+      "claim": "Zarpechakning mezbon bilan bog‘langan hayoti barglarning reduksiyasi va so‘rg‘ichlar bilan birga tavsiflanadi.",
+      "answer": "Parazit hayot tarzi bilan bog‘liq",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          217
+        ],
+        "printed_pages": [
+          217
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-50-f6": {
+      "claim": "Biologik regressda guruh soni va tarqalish hududi kamayadi; uni faqat bitta organning sodda tuzilishidan aniqlab bo‘lmaydi.",
+      "answer": "Soddalashishning o‘zi biologik regress dalili emas",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          217
+        ],
+        "printed_pages": [
+          217
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-50-f7": {
+      "claim": "Tuzilish o‘zgarishining yo‘nalishi va guruhning son-hudud bo‘yicha holati turli mezonlardir.",
+      "answer": "Soni, hududi va xilma-xilligi haqidagi dalillar",
+      "source": {
+        "paragraph": 50,
+        "pdf_pages": [
+          217
+        ],
+        "printed_pages": [
+          217
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Progress mezonlari",
+      "body": "Darslik biologik progressni individlar soni, egallangan hudud va guruh xilma-xilligining ortishi bilan tavsiflaydi.",
+      "fact_ids": [
+        "paragraph-50-f1"
+      ]
+    },
+    {
+      "title": "Yirik yangilik",
+      "body": "Aromorfoz katta tuzilish-funksional yangilik bilan yangi imkoniyatlar ochishini ifodalovchi tarixiy evolutsion tushunchadir.",
+      "fact_ids": [
+        "paragraph-50-f2"
+      ]
+    },
+    {
+      "title": "Xususiy moslanish",
+      "body": "Idioadaptatsiya muayyan sharoitga moslashishni ifodalaydi; u albatta umumiy tuzilishning murakkablashishini talab qilmaydi.",
+      "fact_ids": [
+        "paragraph-50-f3"
+      ]
+    },
+    {
+      "title": "Soddalashish",
+      "body": "Darslik umumiy degeneratsiya deb ataydigan yo‘nalishda ayrim organlar soddalashadi yoki kamayadi; bu guruh muvaffaqiyati bilan birga kechishi mumkin.",
+      "fact_ids": [
+        "paragraph-50-f4"
+      ]
+    },
+    {
+      "title": "O‘simlik misoli",
+      "body": "Zarpechakning mezbon bilan bog‘langan hayoti barglarning reduksiyasi va so‘rg‘ichlar bilan birga tavsiflanadi.",
+      "fact_ids": [
+        "paragraph-50-f5"
+      ]
+    },
+    {
+      "title": "Regressni baholash",
+      "body": "Biologik regressda guruh soni va tarqalish hududi kamayadi; uni faqat bitta organning sodda tuzilishidan aniqlab bo‘lmaydi.",
+      "fact_ids": [
+        "paragraph-50-f6"
+      ]
+    },
+    {
+      "title": "Ikki o‘lchov",
+      "body": "Tuzilish o‘zgarishining yo‘nalishi va guruhning son-hudud bo‘yicha holati turli mezonlardir.",
+      "fact_ids": [
+        "paragraph-50-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-50-q1",
+      "fact_id": "paragraph-50-f1",
+      "question_text": "Guruh soni hamda tarqalish hududi kengaydi. Bu qaysi mezonlarga mos?",
+      "options": [
+        "Barcha organlarning yo‘qolishiga",
+        "Biologik progress mezonlariga",
+        "Faqat embrion o‘sishiga",
+        "Har bir individning kattalashishiga"
+      ],
+      "correct_answer": "Biologik progress mezonlariga",
+      "explanation": "Darslik biologik progressni individlar soni, egallangan hudud va guruh xilma-xilligining ortishi bilan tavsiflaydi."
+    },
+    {
+      "key": "paragraph-50-q2",
+      "fact_id": "paragraph-50-f2",
+      "question_text": "Urug‘ning paydo bo‘lishi kabi yirik yangilik §50da qaysi tushuncha bilan izohlanadi?",
+      "options": [
+        "Aromorfoz",
+        "Mavsumiy barg to‘kilishi",
+        "Shaxsiy mashq qilish",
+        "Tasodifiy jarohat"
+      ],
+      "correct_answer": "Aromorfoz",
+      "explanation": "Aromorfoz katta tuzilish-funksional yangilik bilan yangi imkoniyatlar ochishini ifodalovchi tarixiy evolutsion tushunchadir."
+    },
+    {
+      "key": "paragraph-50-q3",
+      "fact_id": "paragraph-50-f3",
+      "question_text": "Yashirin rang muayyan muhitda himoya bersa, bu qaysi yo‘nalishga misol?",
+      "options": [
+        "Barcha organlar tizimining yangidan paydo bo‘lishi",
+        "Har bir hujayraning ikki baravar kattalashishi",
+        "Hayotning abiogen sintezi",
+        "Idioadaptatsiya"
+      ],
+      "correct_answer": "Idioadaptatsiya",
+      "explanation": "Idioadaptatsiya muayyan sharoitga moslashishni ifodalaydi; u albatta umumiy tuzilishning murakkablashishini talab qilmaydi."
+    },
+    {
+      "key": "paragraph-50-q4",
+      "fact_id": "paragraph-50-f4",
+      "question_text": "Parazit tasmasimon chuvalchangda ichakning yo‘qligi nimani ko‘rsatadi?",
+      "options": [
+        "Organizm tirik emasligini",
+        "Guruh albatta yo‘qolib ketishini",
+        "Hayot tarziga bog‘liq tuzilish soddalashishini",
+        "Barcha parazitlarda ichak yo‘qligini"
+      ],
+      "correct_answer": "Hayot tarziga bog‘liq tuzilish soddalashishini",
+      "explanation": "Darslik umumiy degeneratsiya deb ataydigan yo‘nalishda ayrim organlar soddalashadi yoki kamayadi; bu guruh muvaffaqiyati bilan birga kechishi mumkin."
+    },
+    {
+      "key": "paragraph-50-q5",
+      "fact_id": "paragraph-50-f5",
+      "question_text": "Zarpechakda barg kamayishi qaysi kontekstda tushuntiriladi?",
+      "options": [
+        "Uning faqat suvda yashashi bilan",
+        "Parazit hayot tarzi bilan bog‘liq",
+        "Barcha o‘simliklarda barg keraksiz bo‘lgani bilan",
+        "Uning hayvonlar guruhiga kirishi bilan"
+      ],
+      "correct_answer": "Parazit hayot tarzi bilan bog‘liq",
+      "explanation": "Zarpechakning mezbon bilan bog‘langan hayoti barglarning reduksiyasi va so‘rg‘ichlar bilan birga tavsiflanadi."
+    },
+    {
+      "key": "paragraph-50-q6",
+      "fact_id": "paragraph-50-f6",
+      "question_text": "Soddaroq tuzilgan guruh keng tarqalib, soni ortsa, qaysi fikr asosli?",
+      "options": [
+        "Soddalashishning o‘zi biologik regress dalili emas",
+        "Soddalik doimo yo‘qolib ketishni bildiradi",
+        "Sonning ortishi regressning yagona mezoni",
+        "Hudud kengayishi doim regressdir"
+      ],
+      "correct_answer": "Soddalashishning o‘zi biologik regress dalili emas",
+      "explanation": "Biologik regressda guruh soni va tarqalish hududi kamayadi; uni faqat bitta organning sodda tuzilishidan aniqlab bo‘lmaydi."
+    },
+    {
+      "key": "paragraph-50-q7",
+      "fact_id": "paragraph-50-f7",
+      "question_text": "Guruh muvaffaqiyatini tekshirish uchun tuzilishdan tashqari nima kerak?",
+      "options": [
+        "Faqat bir individning rangi",
+        "Faqat bitta suyakning uzunligi",
+        "Faqat guruh nomining uzunligi",
+        "Soni, hududi va xilma-xilligi haqidagi dalillar"
+      ],
+      "correct_answer": "Soni, hududi va xilma-xilligi haqidagi dalillar",
+      "explanation": "Tuzilish o‘zgarishining yo‘nalishi va guruhning son-hudud bo‘yicha holati turli mezonlardir."
+    }
+  ]
+}

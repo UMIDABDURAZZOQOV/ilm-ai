@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-11-paragraph-3-v1",
+  "language": "uz",
+  "book_id": "biology-11-2018",
+  "topic_id": "bio-11-topic-5",
+  "title": "Hayotning ekosistema darajasi xususiyatlari. Biogeotsenoz – biologik sistema",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-3-f1": {
+      "claim": "Biogeotsenoz ma’lum hududdagi turli organizmlar jamoasi va muhit bilan bog‘langan ochiq biologik tizimdir.",
+      "answer": "Boshqa organizmlar va muhit bilan aloqalar",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          14
+        ],
+        "printed_pages": [
+          14
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-3-f2": {
+      "claim": "Biotsenoz — tirik organizmlar jamoasi, biotop — ular yashaydigan muhit sharoitlari majmuasi.",
+      "answer": "Organizmlar — biotsenoz, sharoitlar — biotop",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-3-f3": {
+      "claim": "Biomassa hosil bo‘lishi, organizmlar o‘rtasidagi aloqalar hamda modda va energiya oqimi ekosistema darajasida o‘rganiladi.",
+      "answer": "O‘simlikdan iste’molchiga oziq va energiya o‘tishi",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-3-f4": {
+      "claim": "Ekosistema atamasi A. Tensli tomonidan 1935-yilda fanga kiritilgan.",
+      "answer": "Organizmlar va fizik muhitning funksional aloqasini",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-3-f5": {
+      "claim": "Darslikda ekosistema biogeotsenozga nisbatan kengroq ko‘lamdagi tushuncha sifatida ishlatiladi.",
+      "answer": "Ekosistema",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-3-f6": {
+      "claim": "Ekosistemalar kichik ko‘lmakdan okean va global biosferagacha turli ko‘lamda o‘rganilishi mumkin.",
+      "answer": "Tadqiq qilinayotgan tizim ko‘lamiga",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-3-f7": {
+      "claim": "Inson yaratgan bog‘ yoki akvarium ham tirik va abiotik tarkibiy qismlar aloqasi orqali ekosistema sifatida tahlil qilinadi.",
+      "answer": "U sun’iy ekosistema bo‘lishi mumkin",
+      "source": {
+        "paragraph": 3,
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Bir hududdagi tizim",
+      "body": "Biogeotsenoz ma’lum hududdagi turli organizmlar jamoasi va muhit bilan bog‘langan ochiq biologik tizimdir.",
+      "fact_ids": [
+        "paragraph-3-f1"
+      ]
+    },
+    {
+      "title": "Ikki tarkibiy qism",
+      "body": "Biotsenoz — tirik organizmlar jamoasi, biotop — ular yashaydigan muhit sharoitlari majmuasi.",
+      "fact_ids": [
+        "paragraph-3-f2"
+      ]
+    },
+    {
+      "title": "Tizimdagi jarayon",
+      "body": "Biomassa hosil bo‘lishi, organizmlar o‘rtasidagi aloqalar hamda modda va energiya oqimi ekosistema darajasida o‘rganiladi.",
+      "fact_ids": [
+        "paragraph-3-f3"
+      ]
+    },
+    {
+      "title": "Atama tarixi",
+      "body": "Ekosistema atamasi A. Tensli tomonidan 1935-yilda fanga kiritilgan.",
+      "fact_ids": [
+        "paragraph-3-f4"
+      ]
+    },
+    {
+      "title": "Tushunchalar ko‘lami",
+      "body": "Darslikda ekosistema biogeotsenozga nisbatan kengroq ko‘lamdagi tushuncha sifatida ishlatiladi.",
+      "fact_ids": [
+        "paragraph-3-f5"
+      ]
+    },
+    {
+      "title": "O‘lchamlar",
+      "body": "Ekosistemalar kichik ko‘lmakdan okean va global biosferagacha turli ko‘lamda o‘rganilishi mumkin.",
+      "fact_ids": [
+        "paragraph-3-f6"
+      ]
+    },
+    {
+      "title": "Sun’iy tizim",
+      "body": "Inson yaratgan bog‘ yoki akvarium ham tirik va abiotik tarkibiy qismlar aloqasi orqali ekosistema sifatida tahlil qilinadi.",
+      "fact_ids": [
+        "paragraph-3-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-3-q1",
+      "fact_id": "paragraph-3-f1",
+      "question_text": "Tog‘ o‘rmonini faqat daraxtlar ro‘yxati emas, ochiq tizim sifatida o‘rganishda nima qo‘shiladi?",
+      "options": [
+        "Boshqa organizmlar va muhit bilan aloqalar",
+        "Faqat daraxt nomlarining alifbo tartibi",
+        "Faqat bitta daraxtning yoshi",
+        "Faqat odam bergan hudud nomi"
+      ],
+      "correct_answer": "Boshqa organizmlar va muhit bilan aloqalar",
+      "explanation": "Biogeotsenoz ma’lum hududdagi turli organizmlar jamoasi va muhit bilan bog‘langan ochiq biologik tizimdir."
+    },
+    {
+      "key": "paragraph-3-q2",
+      "fact_id": "paragraph-3-f2",
+      "question_text": "Ko‘ldagi baliq va suvo‘tlarni suvning muhit sharoitlaridan ajratishda qaysi moslik to‘g‘ri?",
+      "options": [
+        "Organizmlar — biotop, sharoitlar — biotsenoz",
+        "Ikkalasi ham faqat bitta individ",
+        "Ikkalasi ham faqat DNK molekulasi",
+        "Organizmlar — biotsenoz, sharoitlar — biotop"
+      ],
+      "correct_answer": "Organizmlar — biotsenoz, sharoitlar — biotop",
+      "explanation": "Biotsenoz — tirik organizmlar jamoasi, biotop — ular yashaydigan muhit sharoitlari majmuasi."
+    },
+    {
+      "key": "paragraph-3-q3",
+      "fact_id": "paragraph-3-f3",
+      "question_text": "§3dagi ekosistema darajasi uchun qaysi kuzatuv mos?",
+      "options": [
+        "Faqat bitta oqsilning peptid bog‘i",
+        "Faqat shaxsiy telefon modeli",
+        "O‘simlikdan iste’molchiga oziq va energiya o‘tishi",
+        "Faqat bitta DNK asosining shakli"
+      ],
+      "correct_answer": "O‘simlikdan iste’molchiga oziq va energiya o‘tishi",
+      "explanation": "Biomassa hosil bo‘lishi, organizmlar o‘rtasidagi aloqalar hamda modda va energiya oqimi ekosistema darajasida o‘rganiladi."
+    },
+    {
+      "key": "paragraph-3-q4",
+      "fact_id": "paragraph-3-f4",
+      "question_text": "Tenslining ekosistema tushunchasi nimalarni birga ko‘radi?",
+      "options": [
+        "Faqat suyak uzunligini",
+        "Organizmlar va fizik muhitning funksional aloqasini",
+        "Faqat odam yasagan buyumlarni",
+        "Faqat tur nomining yozilishini"
+      ],
+      "correct_answer": "Organizmlar va fizik muhitning funksional aloqasini",
+      "explanation": "Ekosistema atamasi A. Tensli tomonidan 1935-yilda fanga kiritilgan."
+    },
+    {
+      "key": "paragraph-3-q5",
+      "fact_id": "paragraph-3-f5",
+      "question_text": "Akvariumdan biosferagacha qo‘llanadigan kengroq tushuncha qaysi?",
+      "options": [
+        "Ekosistema",
+        "Bitta gameta",
+        "Bitta allel",
+        "Bitta organoid"
+      ],
+      "correct_answer": "Ekosistema",
+      "explanation": "Darslikda ekosistema biogeotsenozga nisbatan kengroq ko‘lamdagi tushuncha sifatida ishlatiladi."
+    },
+    {
+      "key": "paragraph-3-q6",
+      "fact_id": "paragraph-3-f6",
+      "question_text": "Mikro va makroekosistemalarni ajratishda nimaga e’tibor beriladi?",
+      "options": [
+        "Faqat barcha organizmlarning teng kattaligiga",
+        "Faqat bitta rangga",
+        "Faqat bir xil xromosoma soniga",
+        "Tadqiq qilinayotgan tizim ko‘lamiga"
+      ],
+      "correct_answer": "Tadqiq qilinayotgan tizim ko‘lamiga",
+      "explanation": "Ekosistemalar kichik ko‘lmakdan okean va global biosferagacha turli ko‘lamda o‘rganilishi mumkin."
+    },
+    {
+      "key": "paragraph-3-q7",
+      "fact_id": "paragraph-3-f7",
+      "question_text": "Akvarium inson tomonidan tuzilgani qanday xulosaga mos?",
+      "options": [
+        "Undagi suv biotik organizmdir",
+        "Unda faqat bitta tur yashashi shart",
+        "U sun’iy ekosistema bo‘lishi mumkin",
+        "Uning ichida ekologik aloqalar bo‘lmaydi"
+      ],
+      "correct_answer": "U sun’iy ekosistema bo‘lishi mumkin",
+      "explanation": "Inson yaratgan bog‘ yoki akvarium ham tirik va abiotik tarkibiy qismlar aloqasi orqali ekosistema sifatida tahlil qilinadi."
+    }
+  ]
+}

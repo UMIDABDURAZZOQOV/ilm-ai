@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "key": "biology-10-paragraph-57-v1",
+  "language": "uz",
+  "book_id": "biology-10-2017",
+  "topic_id": "bio-10-topic-66",
+  "title": "Odam evolutsiyasining asosiy bosqichlari",
+  "authorship": "original_fact_based_adaptation",
+  "xp_reward": 20,
+  "facts": {
+    "paragraph-57-f1": {
+      "claim": "Odamning tarixiy rivojini tiklashda suyak qoldiqlari va ular topilgan qatlamlar muhim paleontologik materialdir.",
+      "answer": "Suyak qoldig‘i va uning topilish konteksti",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          231
+        ],
+        "printed_pages": [
+          231
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-57-f2": {
+      "claim": "Avstralopiteklar chanoq suyaklarining tuzilishi ikki oyoqda harakatlanganlik haqida dalil beradi.",
+      "answer": "Chanoq suyagi tuzilishi",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          231
+        ],
+        "printed_pages": [
+          231
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-57-f3": {
+      "claim": "Darslikda arxantroplar deb atalgan guruh Homo erectus bilan bog‘lanadi; bu tarixiy tasnif atamasidir.",
+      "answer": "Homo erectus",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          231
+        ],
+        "printed_pages": [
+          231
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-57-f4": {
+      "claim": "Pitekantrop qoldiqlari Yava bilan, sinantrop qoldiqlari Pekin atrofi bilan bog‘lanadi.",
+      "answer": "Pitekantrop — Yava",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          231
+        ],
+        "printed_pages": [
+          231
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-57-f5": {
+      "claim": "Teshiktosh g‘ori Surxondaryodagi neandertal topilmasi bilan tanilgan.",
+      "answer": "Teshiktosh",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          232
+        ],
+        "printed_pages": [
+          232
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-57-f6": {
+      "claim": "Neandertallar haqidagi bo‘limda jamoaviy hayot, bolalar va kasallarga g‘amxo‘rlik muhokama qilinadi.",
+      "answer": "Jamoa ichidagi g‘amxo‘rlik orqali",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          232
+        ],
+        "printed_pages": [
+          232
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    },
+    "paragraph-57-f7": {
+      "claim": "Kromanyonlar haqidagi matn murakkab qurollar va tasviriy san’atni inson madaniy tarixining dalillari sifatida keltiradi.",
+      "answer": "Madaniy faoliyat haqida",
+      "source": {
+        "paragraph": 57,
+        "pdf_pages": [
+          232
+        ],
+        "printed_pages": [
+          232
+        ],
+        "verification": "page_image_reviewed",
+        "reviewed_on": "2026-10-21"
+      }
+    }
+  },
+  "theory": [
+    {
+      "title": "Tarixiy material",
+      "body": "Odamning tarixiy rivojini tiklashda suyak qoldiqlari va ular topilgan qatlamlar muhim paleontologik materialdir.",
+      "fact_ids": [
+        "paragraph-57-f1"
+      ]
+    },
+    {
+      "title": "Ikki oyoqda yurish",
+      "body": "Avstralopiteklar chanoq suyaklarining tuzilishi ikki oyoqda harakatlanganlik haqida dalil beradi.",
+      "fact_ids": [
+        "paragraph-57-f2"
+      ]
+    },
+    {
+      "title": "Tarixiy atamalar",
+      "body": "Darslikda arxantroplar deb atalgan guruh Homo erectus bilan bog‘lanadi; bu tarixiy tasnif atamasidir.",
+      "fact_ids": [
+        "paragraph-57-f3"
+      ]
+    },
+    {
+      "title": "Geografik topilmalar",
+      "body": "Pitekantrop qoldiqlari Yava bilan, sinantrop qoldiqlari Pekin atrofi bilan bog‘lanadi.",
+      "fact_ids": [
+        "paragraph-57-f4"
+      ]
+    },
+    {
+      "title": "Mahalliy paleontologiya",
+      "body": "Teshiktosh g‘ori Surxondaryodagi neandertal topilmasi bilan tanilgan.",
+      "fact_ids": [
+        "paragraph-57-f5"
+      ]
+    },
+    {
+      "title": "Jamoaviy xulq",
+      "body": "Neandertallar haqidagi bo‘limda jamoaviy hayot, bolalar va kasallarga g‘amxo‘rlik muhokama qilinadi.",
+      "fact_ids": [
+        "paragraph-57-f6"
+      ]
+    },
+    {
+      "title": "Madaniy dalil",
+      "body": "Kromanyonlar haqidagi matn murakkab qurollar va tasviriy san’atni inson madaniy tarixining dalillari sifatida keltiradi.",
+      "fact_ids": [
+        "paragraph-57-f7"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "key": "paragraph-57-q1",
+      "fact_id": "paragraph-57-f1",
+      "question_text": "Qadimgi odam guruhini tadqiq qilish uchun bevosita moddiy dalil qaysi?",
+      "options": [
+        "Faqat bitta afsona",
+        "Suyak qoldig‘i va uning topilish konteksti",
+        "Zamonaviy odamning kiyim modasi",
+        "Faqat taxallusning uzunligi"
+      ],
+      "correct_answer": "Suyak qoldig‘i va uning topilish konteksti",
+      "explanation": "Odamning tarixiy rivojini tiklashda suyak qoldiqlari va ular topilgan qatlamlar muhim paleontologik materialdir."
+    },
+    {
+      "key": "paragraph-57-q2",
+      "fact_id": "paragraph-57-f2",
+      "question_text": "Avstralopitekning yurish usulini tekshirishda qaysi topilma foydali?",
+      "options": [
+        "Chanoq suyagi tuzilishi",
+        "Faqat toshning rangi",
+        "Faqat hozirgi yomg‘ir miqdori",
+        "Faqat topuvchining yoshi"
+      ],
+      "correct_answer": "Chanoq suyagi tuzilishi",
+      "explanation": "Avstralopiteklar chanoq suyaklarining tuzilishi ikki oyoqda harakatlanganlik haqida dalil beradi."
+    },
+    {
+      "key": "paragraph-57-q3",
+      "fact_id": "paragraph-57-f3",
+      "question_text": "Darslikdagi arxantrop atamasi qaysi nom bilan bog‘langan?",
+      "options": [
+        "Homo sapiensning barcha hozirgi odamlari",
+        "Zamonaviy shimpanzening aynan o‘zi",
+        "Sianobakteriya",
+        "Homo erectus"
+      ],
+      "correct_answer": "Homo erectus",
+      "explanation": "Darslikda arxantroplar deb atalgan guruh Homo erectus bilan bog‘lanadi; bu tarixiy tasnif atamasidir."
+    },
+    {
+      "key": "paragraph-57-q4",
+      "fact_id": "paragraph-57-f4",
+      "question_text": "§57dagi topilma va joy mosligini tanlang.",
+      "options": [
+        "Sinantrop — Mars",
+        "Sinantrop — Amazonka daryosi",
+        "Pitekantrop — Yava",
+        "Pitekantrop — Antarktida"
+      ],
+      "correct_answer": "Pitekantrop — Yava",
+      "explanation": "Pitekantrop qoldiqlari Yava bilan, sinantrop qoldiqlari Pekin atrofi bilan bog‘lanadi."
+    },
+    {
+      "key": "paragraph-57-q5",
+      "fact_id": "paragraph-57-f5",
+      "question_text": "O‘zbekistonning qaysi joyi neandertal topilmasi bilan bo‘limda tilga olingan?",
+      "options": [
+        "Yava oroli",
+        "Teshiktosh",
+        "Galapagos",
+        "Kroman yonidagi Fransiya g‘ori"
+      ],
+      "correct_answer": "Teshiktosh",
+      "explanation": "Teshiktosh g‘ori Surxondaryodagi neandertal topilmasi bilan tanilgan."
+    },
+    {
+      "key": "paragraph-57-q6",
+      "fact_id": "paragraph-57-f6",
+      "question_text": "Neandertallarni faqat quroliga qarab emas, yana qaysi mazmunda o‘rganish mumkin?",
+      "options": [
+        "Jamoa ichidagi g‘amxo‘rlik orqali",
+        "Faqat zamonaviy maktab baholari orqali",
+        "Faqat qishloq xo‘jaligi mashinalari orqali",
+        "Faqat yozma elektron xatlar orqali"
+      ],
+      "correct_answer": "Jamoa ichidagi g‘amxo‘rlik orqali",
+      "explanation": "Neandertallar haqidagi bo‘limda jamoaviy hayot, bolalar va kasallarga g‘amxo‘rlik muhokama qilinadi."
+    },
+    {
+      "key": "paragraph-57-q7",
+      "fact_id": "paragraph-57-f7",
+      "question_text": "G‘or tasviri va murakkab qurollar qaysi jihat haqida ma’lumot beradi?",
+      "options": [
+        "Qonning aynan bir guruhdaligi haqida",
+        "Har bir individning aniq genotipi haqida",
+        "Qatlamda umuman odam bo‘lmaganligi haqida",
+        "Madaniy faoliyat haqida"
+      ],
+      "correct_answer": "Madaniy faoliyat haqida",
+      "explanation": "Kromanyonlar haqidagi matn murakkab qurollar va tasviriy san’atni inson madaniy tarixining dalillari sifatida keltiradi."
+    }
+  ]
+}
