@@ -140,6 +140,78 @@ REVIEWED_FORMULAS = {
         ["F1*S2/S1", "S2/S1*F1", "F1*(S2/S1)"],
         "Ideal gidravlik press, ishqalanish va sath farqi e’tiborsiz; S1>0, S2>0 bir yuza birligida; PDF60–61.",
     ),
+    "hydrostatic": rule(
+        "p",
+        ["rho", "g", "h"],
+        ["rho*g*h"],
+        "Bir jinsli tinch suyuqlik: faqat ustun hissasi p=rho*g*h; g=9,81 N/kg, h>=0, tashqi bosim qo‘shilmagan; PDF62.",
+    ),
+    "communicating_height": rule(
+        "h2",
+        ["rho1", "h1", "rho2"],
+        ["rho1*h1/rho2", "h1*(rho1/rho2)"],
+        "Aralashmaydigan ikki tinch suyuqlik, ochiq sirtlarda bir xil bosim, ustunlar umumiy chegara sathidan; rho1*h1=rho2*h2; PDF63.",
+    ),
+    "atm_to_pa": rule(
+        "y",
+        ["x"],
+        ["101325*x", "x*101325"],
+        "x standart atmosfera birligida, y Pa; 1 atm=101325 Pa; PDF66. Har kungi bosim doim 1 atm degani emas.",
+    ),
+    "buoyancy": rule(
+        "FA",
+        ["rho", "V", "g"],
+        ["rho*V*g"],
+        "rho muhit zichligi; V SIQIB CHIQARILGAN suyuqlik/gaz hajmi. To‘liq botganda jism hajmi; g=9,81 N/kg; PDF68–69.",
+    ),
+    "buoyancy_readings": rule(
+        "FA",
+        ["Ph", "Ps"],
+        ["Ph-Ps"],
+        "Tinch osilgan jismning havo/suyuqlikdagi ko‘rsatishlari, havo ko‘tarish kuchi e’tiborsiz, Ph>=Ps; PDF68.",
+    ),
+    "parallel_work": rule(
+        "A",
+        ["F", "s"],
+        ["F*s", "s*F"],
+        "O‘zgarmas kuch ko‘chish bilan bir yo‘nalishda; s>=0. Perpendikulyar holat uchun F*s formulasi ishlatilmaydi; PDF71–72.",
+    ),
+    "work_force": rule(
+        "F",
+        ["A", "s"],
+        ["A/s", "A*s^-1"],
+        "Parallel o‘zgarmas kuch, s>0; A=F*s dan; PDF71.",
+    ),
+    "work_distance": rule(
+        "s",
+        ["A", "F"],
+        ["A/F", "A*F^-1"],
+        "Parallel o‘zgarmas kuch F>0; A=F*s dan; PDF71.",
+    ),
+    "potential_energy": rule(
+        "Ep",
+        ["m", "g", "h"],
+        ["m*g*h"],
+        "Yer sirti yaqinida tanlangan nol sathga nisbatan h>=0; g=9,81 N/kg berilgan; PDF73.",
+    ),
+    "kinetic_energy": rule(
+        "Ek",
+        ["m", "v"],
+        ["m*v^2/2", "m*v*v/2", "0.5*m*v^2"],
+        "m>0, v>=0 tezlik moduli, klassik maktab mexanikasi modeli; PDF73.",
+    ),
+    "power": rule(
+        "N",
+        ["A", "t"],
+        ["A/t", "A*t^-1"],
+        "N darslikdagi QUvVAT belgisi, birligi W. A ish, t>0; o‘rtacha quvvat; PDF74.",
+    ),
+    "power_work": rule(
+        "A",
+        ["N", "t"],
+        ["N*t", "t*N"],
+        "N shu oraliqdagi o‘rtacha yoki o‘zgarmas quvvat W da; A=N*t; PDF74–76.",
+    ),
 }
 DIMENSION_UNIT = {
     "length": "m",
@@ -153,6 +225,8 @@ DIMENSION_UNIT = {
     "pressure": "Pa",
     "force_per_mass": "N/kg",
     "dimensionless": "1",
+    "energy": "J",
+    "power": "W",
 }
 
 
@@ -180,6 +254,46 @@ def reviewed_calculation(question):
     def same_units(*symbols):
         if len({givens[s]["unit"] for s in symbols}) != 1:
             raise ValueError("same_given_units_required")
+
+    def gravity():
+        result = positive("g", "force_per_mass")
+        if result != Fraction(981, 100):
+            raise ValueError("grade6_source_gravity_is_9_81")
+        return result
+
+    if name == "hydrostatic":
+        return positive("rho", "density") * gravity() * value("h", "length"), "pressure"
+    if name == "communicating_height":
+        same_units("rho1", "rho2")
+        return positive("rho1", "density") * positive("h1", "length") / positive(
+            "rho2", "density"
+        ), "length"
+    if name == "atm_to_pa":
+        if givens["x"]["unit"] != "atm":
+            raise ValueError("conversion_given_unit")
+        return value("x", "pressure"), "pressure"
+    if name == "buoyancy":
+        return positive("rho", "density") * positive("V", "volume") * gravity(), "force"
+    if name == "buoyancy_readings":
+        same_units("Ph", "Ps")
+        result = positive("Ph", "force") - value("Ps", "force")
+        if result < 0:
+            raise ValueError("negative_buoyancy_readings")
+        return result, "force"
+    if name == "parallel_work":
+        return value("F", "force") * value("s", "length"), "energy"
+    if name == "work_force":
+        return value("A", "energy") / positive("s", "length"), "force"
+    if name == "work_distance":
+        return value("A", "energy") / positive("F", "force"), "length"
+    if name == "potential_energy":
+        return positive("m", "mass") * gravity() * value("h", "length"), "energy"
+    if name == "kinetic_energy":
+        return positive("m", "mass") * value("v", "speed") ** 2 / 2, "energy"
+    if name == "power":
+        return value("A", "energy") / positive("t", "time"), "power"
+    if name == "power_work":
+        return value("N", "power") * value("t", "time"), "energy"
 
     if name in {"km_to_m", "min_to_s", "hour_to_s"}:
         unit, dimension = {

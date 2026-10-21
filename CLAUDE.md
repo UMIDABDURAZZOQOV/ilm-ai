@@ -1,5 +1,7 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Fizika §25–29 — 2026-10-22:** yana5 dars/22 karta/39 topshiriq/15 FRQ. Hozir **29/316**,121 karta/35 misol/197 topshiriq/53 FRQ; **287 qolgan**. Physics119 passed, to‘liq Flutter142 passed/analyze toza; mustaqil loopback PostgreSQL Physics2 passed.68 asl sahifa hash tekshirildi. Muhit restarti keng backend/preview build jarayonini uzdi — ular hali success emas; yakuniy holatda qayta bajariladi. Keyingi mualliflik §30/PDF84.
+
 > **Keyingi partiya — 2026-10-22, §18–24:** yana7 dars/faoliyat,27 karta,48 topshiriq/16 FRQ. Hozir **24/316**, **99 karta/28 misol/158 topshiriq/38 FRQ**, **292 qolgan**. Physics118 passed, Flutter Physics16 passed, original53 sahifa hash audit o‘tdi. Keyingi nuqta §25/PDF62; oraliq tasdiq kutilmaydi. Biologiya/web/prod/nashr flaglari saqlangan. Joriy tafsilot: `docs/physics/STAGE2_PROGRESS.md`.
 
 > **Davom — 2026-10-22, Fizika to‘liq kurs ruxsati:** foydalanuvchi barcha 316 bo‘limni oraliq tasdiqsiz yaratishga ruxsat berdi. Backend `986efa7` / Flutter `9f152f0` ustidan ish davom etmoqda; eski §1–7 saqlandi. Yangi §8–17 bilan **17/316 lokal dars/faoliyat**, **72 karta / 20 misol / 110 topshiriq / 22 FRQ**, **299 bo‘lim qolgan**. 2 lab va 1 uy amaliyoti faqat raqamli tahlil; mustaqil ekspert/real tajriba tasdig‘i yo‘q. Yangi 17 FRQ independent orakullari, barcha 17 dars HTTP/replay/170 XP tekshirildi; yangi kurs **12 passed**, eski v2/source-map **99 passed**, Flutter Physics **16 passed**. To‘liq regression/PG/build davom yakunida qayta tekshiriladi. Hozirgi mualliflik davom nuqtasi §18/PDF45. **Production/nashr yo‘q.** Joriy hisobot: `docs/physics/STAGE2_PROGRESS.md`; quyidagi oraliq tasdiq kutish qaydlari endi tarixiy.
@@ -3170,3 +3172,28 @@ Physics118 passed (19.21s), Flutter Physics16 passed.53 original page hash pass.
 Oldingi7 va keyingi10 darsning bytes/revisionlari saqlandi. Jami24/316,292 qolgan;
 keyingi §25 PDF62. Mustaqil ekspert va real Android hali tasdiqlanmagan.
 To‘liq regression/PG/build shu davom oxirida alohida qayd qilinadi.
+
+
+### Fizika §25–29 — gidrostatika, atmosfera, Arximed, ish va energiya
+
+`fd39aa4`/Flutter `7d59bc7` ustidan5 dars qo‘shildi:22 karta,12 formula yozuvi,
+7 misol,39 topshiriq,15 FRQ; jami29/316,197 savol/53 FRQ. PDF62–76
+asl matn/tasvir qayta ko‘rildi. Muhim ilmiy qarorlar batch4 review va
+STAGE2_PROGRESS.md da; eski7 dars va barcha Biology fayllari saqlangan.
+
+Unit/graderga atm,J/kJ/mJ,W/kW; p=rho*g*h, tutash suyuqlik ustunlari,
+ko‘taruvchi kuch/ko‘rsatish farqi, parallel ish, Ep/Ek/quvvat explicit
+SI orakullari qo‘shildi. Exact1atm=101325Pa boshqa yaxlitlangan mmHg
+koeffitsiyentlari bilan aralashtirilmaydi. Yangi migratsiya yo‘q.
+
+Physics119 passed20.90s; Flutter142 passed/analyze toza; alohida
+loopback PostgreSQL2 passed12.13s. PG yangi full-course testi alohida
+`test_physics_course_postgres.py` modulida yangi schema oladi; eski7-dars
+testi saqlanadi. Barcha29 dars/197 javob/290 XP, immutable import va
+legacy137 XP/3 streak/2 stars tasdiqlandi.68 original page hash pass.
+
+Muhit restarti to‘liq backend/preview build jarayonlarini uzdi, bu natijalar
+hali pass deb belgilanmaydi. Keyingi §30 PDF84. §32 ning formula davomi
+PDF90 da; source map89 chegarasi uchun explicit runtime citation qaydi kerak.
+Biology406/progress, web, production, default Biology-only/Physics-preview
+cheklovlari saqlangan. SDK/real Android va mustaqil ekspert hali ochiq.

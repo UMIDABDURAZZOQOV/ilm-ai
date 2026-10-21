@@ -55,6 +55,12 @@ UNITS = {
     "kPa": ("pressure", Fraction(1000)),
     "N/m2": ("pressure", Fraction(1)),
     "1": ("dimensionless", Fraction(1)),
+    "atm": ("pressure", Fraction(101325)),
+    "J": ("energy", Fraction(1)),
+    "kJ": ("energy", Fraction(1000)),
+    "mJ": ("energy", Fraction(1, 1000)),
+    "W": ("power", Fraction(1)),
+    "kW": ("power", Fraction(1000)),
 }
 UNIT_ALIASES = {
     "metr": "m",
@@ -82,6 +88,8 @@ UNIT_ALIASES = {
     "km/soat": "km/h",
     "nyuton": "N",
     "paskal": "Pa",
+    "joul": "J",
+    "vatt": "W",
 }
 TOKEN = re.compile(
     r"\s*(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?|"

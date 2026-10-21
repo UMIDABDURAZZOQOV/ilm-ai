@@ -29,6 +29,7 @@ REVIEWED_BATCHES = {
     "grade6_batch1": (6, 1, 7),
     "grade6_batch2": (6, 8, 17),
     "grade6_batch3": (6, 18, 24),
+    "grade6_batch4": (6, 25, 29),
 }
 
 # Algebraic alternatives reviewed under the stated source domains. No guessing

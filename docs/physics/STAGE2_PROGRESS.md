@@ -13,16 +13,16 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 61 | 24 | 37 | 99 | 34 | 28 | 158 | 38 | 3 / 1 |
+| 6 | 61 | 29 | 32 | 121 | 46 | 35 | 197 | 53 | 3 / 1 |
 | 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 24 | 292 | 99 | 34 | 28 | 158 | 38 | 3 / 1 |
+| Jami | 316 | 29 | 287 | 121 | 46 | 35 | 197 | 53 | 3 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
-soni emas. 32 executable qoida oilasi bor: dastlabki 5 + keyingi 27.
+soni emas. 44 executable qoida oilasi bor: dastlabki 5 + keyingi 39.
 Hisoblash mavjud bo‘lmagan mavzularga sun’iy formula kiritilmagan.
 
 ## 6-sinf §8–17: yangi 10 bo‘lim
@@ -125,3 +125,35 @@ Flutter haqiqiy public payloadlarida N/Pa/m²/s, massa/hajm/zichlik/tezlik chipl
 
 Haqiqiy holat24/316, qolgan292. Keyingi nuqta §25 PDF62.
 §25–29 manba sahifalari62–76 ko‘rildi; dars muallifligi keyingi partiyada.
+
+
+## Saqlangan navbatdagi partiya — §25–29
+
+5 original dars:22 karta/12 formula yozuvi/7 misol/39 topshiriq/15 FRQ.
+PDF/bosma: §25 62–64, §26 64–67, §27 67–70, §28 70–72, §29 73–76.
+`grade6_batch4.json` va `_review.json`; 15 to‘liq matn/tasvir ko‘rildi; jami68
+asl sahifa text/render hash auditidan o‘tdi. Hozir29/316,287 qolgan.
+
+Muhim ilmiy chegaralar: p=rho*g*h — bir jinsli ustun hissasi, tashqi bosim
+qo‘shilmagan. Butun atmosfera doimiy zichlikli ustun emas.1atm=101325Pa exact
+konversiya; kitobdagi133,3Pa/mmHg yaxlitlash global exact unit registryga
+kiritilmagan. Arximed kuchida rho muhitniki, V siqib chiqarilgan hajm;
+sirtida tinch suzishda FA=mg. PDF69 dagi FA>mg ko‘tarilishdan ajratilgan.
+A=F*s faqat parallel o‘zgarmas kuchda; tik kuchning ishi nol. Ep ning nol sathi
+va Ek=m*v²/2 tekshirildi. Quvvatdagi N bilan kuch birligi N farqlanadi.
+J.Uatt «birinchi bug‘ mashinasi» va universal kunlik oziqa energiyasi kabi
+bahsli umumlashtirishlar olinmadi. Simob/igna/balandlikka chiqish tajribasi yo‘q.
+
+Partiya Physics119 passed (20.90s): barcha29 dars/197 javob/290 XP, replay va
+15 qo‘shimcha mustaqil sonli oracle o‘tdi. Flutter to‘liq142 passed, analyze toza.
+Yangi alohida loopback PostgreSQL16 sinovlari2 passed (12.13s): eski7 darsning
+migratsiya/concurrency testi va mustaqil schemada yangi29 dars/import/reimport,
+legacy137 XP/3 streak/2 stars saqlandi. Dastlab testlar bir schemani bo‘lishib
+to‘qnashgan; alohida test moduli/schemalar bilan tuzatildi, application
+migratsiyasini idempotent deb soxtalashtirish yoki eski7-dars testini susaytirish yo‘q.
+
+Muhit qayta ishga tushganda keng backend va preview web build uzilgan; bu
+ikki jarayon muvaffaqiyatli deb e’lon qilinmagan, yakuniy holatda qayta bajariladi.
+Keyingi nuqta §30 PDF84; §30–35 PDF84–97 matn/tasvirlari keyingi mualliflik
+uchun ko‘rildi. §32 ning yakuniy formula qutisi PDF90 boshiga o‘tgan: eski
+map end89 buni qamramaydi; authored citationdan oldin explicit qayd kerak.
