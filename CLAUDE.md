@@ -1,6 +1,6 @@
 # Ilm AI — Project Context (for Claude)
 
-> **Fizika 1-bosqich — 2026-10-21:** source-only xarita va FRQ texnik loyiha `feat/physics-curriculum-map`da. 6/7/10/11 fayllarida **197 bo‘lim = 176 nazariya + 20 lab + 1 uy amaliyoti** xaritalandi; **0 yangi dars/savol**, Fizika publish qilinmagan. 8/9 PDF transfer >32 MiB; 7-sinf bosma1–7 sahifalar yo‘q. 37 tanlangan formula rasmdan transkripsiya qilindi, to‘liq formula inventari hali tugamagan. Asosiy hisobot: `docs/physics/README.md`; keyingi implementatsiya foydalanuvchi tasdig‘ini kutadi.
+> **Fizika 1-bosqich davomi — 2026-10-21:** `feat/physics-curriculum-map`, `29e7d1e` saqlangan. Olti sinfning mavjud doirasidagi **316 bo‘lim = 254 nazariya + 31 lab + 4 amaliy + 1 uy amaliyoti + 26 masala yechish bo‘limi**, **41 bob / 1 069 PDF sahifa** xaritalangan. Yangi 8/9 manbalari to‘liq ochildi; 7-sinf §1–46 doirasi qabul qilingan, bosma1–7 yo‘qligi blok emas. **145 tanlangan formula yozuvi** rasmdan tekshirilgan; to‘liq fakt/formula inventari hali tugamagan. **0 yangi dars/savol**, Fizika/FRQ runtime/AI Explain yoqilmagan. Biologiya, Flutter va veb kod o‘zgarmagan. Hisobot: `docs/physics/README.md`, `SOURCE_REVIEW.md`. Keyingi 6-sinf dars bosqichi foydalanuvchi tasdig‘ini kutadi.
 
 > **Joriy holat — 2026-10-21, mobil Biologiya/API QA:** kontent **355/355 nazariy + 51/51 faoliyat**, 2 527 karta / 2 609 savol saqlangan. Yangi **`/mobile/skills`** faqat reviewed Biologiyani beradi; veb namespace saqlandi. Backend **582 passed**, real PostgreSQL **2 passed**, Flutter **126 passed**, analyze/web build toza. **Real Google/Android testi bloklangan**: credential/Console va Android SDK yo‘q. Windows QA: Flutter `ANDROID_BIOLOGY_QA.md`; oxirgi batafsil bosqich hujjat oxirida. Production deploy/main merge bajarilmagan.
 
@@ -2868,3 +2868,93 @@ tasdig‘idan keyin** grader poydevori va 6-sinf 1–7 partiyasiga o‘tish. Hoz
 generatsiyasi yoki Fizikani e’lon qilish boshlanmaydi. Mavjud mobil Biologiya-only
 siyosati, Ilmo/brend, progress, XP, xavfsizlik va eski yashirin modullar saqlandi.
 Production import/migratsiya/deploy, main merge yoki ilova nashri bajarilmadi.
+
+
+## 2026-10-21 — Fizika 1-bosqich davomi: 8/9 skanlar va olti sinf bo‘lim xaritasi
+
+### Boshlang‘ich holat, Git va saqlanish
+
+- Backend `feat/physics-curriculum-map`, local/GitHub boshlang‘ich HEAD
+  `29e7d1e796267d59e320c6bb39809b365daca37c` tekshirildi; yangiroq remote ish yo‘q edi.
+  Oldingi Physics audit/docs/FRQ reja hamda ushbu markaziy hujjat to‘liq o‘qildi.
+- 6/7/10/11 ning **197** mavjud bo‘limi, page audit, supplement/reference yozuvlari
+  va dastlabki **37 formula** o‘zgarmagan: baseline canonical SHA, avtomatik test va
+  `git show 29e7d1e:...` bilan mustaqil obyekt solishtirishi tasdiqladi.
+- Flutter `79608c2aa2795b24c3dcce0684298bb98868da90`, `feat/biology-curriculum`, clean;
+  Next.js `054f0cea9b78a9c791cba5aa478fc3769cbd85b8`, `feat/mobile-release-hardening`, clean.
+  Bu repozitoriyalarda hech qanday o‘zgarish qilinmadi.
+
+### Manbalar va yangi qamrov
+
+- Foydalanuvchining yangi oltita kichik PDFi o‘qildi: 8-sinf **88+88**, 9-sinf
+  **44+44+44+44**, har ikkalasi asl PDF **1–176**, gap/overlap yo‘q.
+- Barcha yangi **352 sahifa** PyMuPDF1.26.6 scale2.2 va Tesseract5.5.0/eng/PSM3
+  bilan OCR qilindi. OCR fakt/formula tasdig‘i emas. Yangi **119 sarlavha** original
+  body rastri va mundarija tasviridan tekshirildi; mavjud bosma sahifa yorliqlari ko‘rildi.
+- 8-sinf **5 bob / 60 bo‘lim = 41 nazariya + 5 lab + 2 amaliy + 12 masala yechish**.
+  9-sinf **6 bob / 59 bo‘lim = 37 nazariya + 6 lab + 2 amaliy + 14 masala yechish**.
+- Oltita sinf jami **41 bob / 316 bo‘lim / 1 069 PDF sahifa**; nazariya254, lab31,
+  amaliy4, uy amaliyoti1, masala yechish26. Tayyor yangi interaktiv dars/savol **0**.
+- 9-sinf asl PDF171/172/173 — bosma173/171/172. PDFlar qayta tartiblanmadi;
+  TOC o‘qish tartibi 172→173→171. 8-sinf PDF174 da bosma yorliq ko‘rinmaydi: null.
+- 7-sinf bo‘yicha foydalanuvchi yakuniy qarori bajarildi: PDF1/bosma8 dagi
+  §1 «Jismlarning harakati»dan mavjud **46** bo‘lim xaritasi qabul qilingan doirada
+  yakunlangan. Yo‘q bosma1–7 ni izlash yoki mazmunini tiklash majburiy shart emas.
+  `mapping_scope_complete=true`, `source_complete=false` farqi aniq; missing front
+  matter na xaritalash, na kelajakdagi full-review gate uchun doimiy blok emas.
+
+### Formulalar, dalillar va texnik qarorlar
+
+- **108 yangi + 37 saqlangan = 145** original rasmdan tekshirilgan formula yozuvi:
+  6/7/8/9/10/11 sinflar bo‘yicha **13/5/41/67/7/12**. Bular noyob fizik qonunlar
+  soni emas; ekvivalent yozuv va birlik tengliklari ham bor.
+- Har yangi yozuv belgi/birlik, shart, indeks/vektor/modul, yaxlitlash, original
+  PDF/bosma sahifa va segment/local-page/SHAga bog‘langan. Hammasi
+  `ready_for_publication=false`, `executable_grading_rule=false`.
+- `full_formula_inventory_complete=false`, barcha fan-fakt/formula review hali qisman.
+  Mavzu bo‘yicha ta’rif, qonun, birlik, miqdor atamasi, ishlangan namuna, mashq,
+  amaliy ko‘rsatma va tenglama sahifalari nomzod sifatida alohida saqlangan.
+- Source tafovutlari yashirilmadi: 8-sinf PDF82–83 C₃/U₃ oldidagi minuslar;
+  PDF124 Faradey formulasidagi A atom/molyar massa talqini; 9-sinf PDF109 shart
+  va yechim sonlari farqi; PDF145–147 linza ishoralari; PDF153 mikroskop modeli.
+  Tegishli dars/FRQ qoidalari review qilinmasdan tayyor deb belgilanmaydi.
+- Bo‘lak manba uchun haqiqiy merged PDF SHA to‘qilmadi: ordered segment manifest
+  SHA va har fayl SHA alohida. Har sahifada raw-text/OCR/raster hash bor. Umumiy
+  sahifalar rastr koordinatalari bilan kesilgan; formula/masala avvalgi mavzudan
+  keyingisiga avtomatik ko‘chmaydi. Private crop/heading hash’lari tekshirildi.
+- `--require-mapped` — qabul qilingan barcha bo‘lim xaritasi gate; `--require-complete`
+  — shu doiradagi barcha fakt/formula review gate. Hozir ikkinchisi qasddan exit2.
+  Flagni yolg‘iz true qilish to‘liq formula review deb qabul qilinmaydi.
+
+### O‘zgargan fayllar va chegaralar
+
+- `scripts/curriculum/physics/physics_sources.json`, `physics_formula_review.json`,
+  yangi `physics_map_audit.json` — manba metadata/evidence, publication emas.
+- `scripts/audit_physics_sources.py`, `tests/test_physics_source_map.py` — segment
+  yaxlitligi, lokal/asl sahifa, rastr, baseline va bosqich gate testlari.
+- `docs/physics/README.md`, `grade_7_map.md`, `grade_8_map.md`, `grade_9_map.md`,
+  `FRQ_AND_IMPLEMENTATION_PLAN.md`, yangi `SOURCE_REVIEW.md`, ushbu `CLAUDE.md`.
+- Biologiya content fayllari, foydalanuvchi progressi/XP, API runtime, Flutter,
+  Next.js, mobil publication flaglari o‘zgarmadi. Eski AI fanlari yoqilmadi.
+- PDFlar, original rasmlar va to‘liq OCR Gitga kiritilmadi. DB import, migratsiya,
+  production deploy, main merge va nashr bajarilmadi. AI Explain/FRQ runtime yo‘q.
+
+### Haqiqiy testlar va keyingi aniq nuqta
+
+- Private source audit: **1 069 PDF sahifa / 352 OCR sahifasi**, yangi body heading
+  va source-region raster hash’lari mos. `--require-mapped` exit0.
+- `--require-complete`: kutilgan exit2, tugallanmagan fakt/formula review sababli;
+  7-sinf yo‘q kirish sahifalari sababli emas.
+- Physics yakuniy alohida tekshiruv: **39 passed (2.64s)**; Ruff full va whitespace toza.
+- Yakuniy Biology/mobil/Physics regression: **565 passed, 1 warning (234.79s)**,
+  39 Physics + 526 Biology/mobil holati; yakuniy kodda to‘liq qayta o‘tdi.
+- Biology completion audit: **355 nazariya / 51 faoliyat / 2 527 karta / 2 609 savol**.
+  Mobil regression barcha406 dars/faoliyat va47 checkpointni yakunlaydi, XP retry
+  va server gradingni tekshiradi. Bitta mavjud SQLAlchemy Subquery `IN()` warning
+  (`routers/skills.py:931`); runtime bu source-only scope’da o‘zgartirilmadi.
+- Flutter/native Android, PostgreSQL staging va yangi FRQ runtime testlari bu
+  bosqichda bajarilmadi; ular ushbu source-only o‘zgarishda kiritilmagan.
+- **Davom nuqtasi: foydalanuvchi tasdig‘idan keyin 6-sinf §1–7.** Manba va tartib
+  tayyor; har partiya uchun to‘liq fakt/formula/birlik/yechim tekshiruvi va original
+  mualliflik kerak. Butun kurs yoki FRQ tizimi tayyor deyilmaydi. Shu bosqichda
+  haqiqiy darslarni yaratish boshlanmadi.

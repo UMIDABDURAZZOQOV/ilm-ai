@@ -1,129 +1,124 @@
 # Fizika — 1-bosqich: manba xaritasi va texnik loyiha
 
-Sana: **2026-10-21**. Holat: **qisman xaritalangan; to‘liq olti sinf xaritasi hali tayyor emas**.
-Fizika e’lon qilinmagan, dars/savol yozilmagan, DB importi va migratsiya bajarilmagan.
-Keyingi implementatsiya bosqichi foydalanuvchi tasdig‘ini kutadi.
+Sana: **2026-10-21**. **Olti sinfning mavjud manba doirasidagi barcha 316 raqamlangan
+bo‘limi xaritalangan. To‘liq fan-fakt/formula tekshiruvi hali yakunlanmagan.**
+Fizika e’lon qilinmagan; **0 tayyor interaktiv dars, 0 yangi savol**. Runtime FRQ,
+AI Explain, DB import/migratsiya va production o‘zgarishi yo‘q. Keyingi bosqich
+foydalanuvchi tasdig‘ini kutadi.
 
-## Tekshirilgan mavjud asos
+## Saqlangan ishlar va chegaralar
 
-- Backend boshlang‘ich commit: `c0f84d0603905393904083f59f5d2a61a125c9bd`.
-- Flutter: `79608c2aa2795b24c3dcce0684298bb98868da90`, `feat/biology-curriculum`; o‘zgartirilmagan.
-- Ushbu source-only ish backendning **`feat/physics-curriculum-map`** branchida.
-- `CLAUDE.md`ning curriculum, arxitektura, baholash va oxirgi mobil nashr bo‘limlari o‘qildi.
-- `services/curriculum.py`, `curriculum_validation.py`, `models.py`, `study.py`,
-  `mobile_publication.py`, Flutter curriculum modellari, question modeli, repository
-  va lesson ekrani tekshirildi. Runtime’ga ulanish qo‘shilmadi.
-- Biologiya **355 nazariya + 51 raqamli faoliyat + 47 checkpoint / 2 527 karta / 2 609 savol**
-  holatida saqlandi. Eski Fizika AI seedlari manba sifatida ishlatilmadi va o‘chirilmadi.
-- Next.js repozitoriyasiga tegilmadi; asl PDF, rasmlar va to‘liq matn Gitga kiritilmaydi.
+- Backend: **`feat/physics-curriculum-map`**, oldingi **`29e7d1e`** ustidan davom etildi;
+  6/7/10/11-sinfning 197 bo‘lim yozuvi, sahifa auditi, supplement/reference yozuvlari
+  va dastlabki 37 formula transkripsiyasi canonical SHA-256 bilan saqlangan.
+- Flutter **`79608c2aa2795b24c3dcce0684298bb98868da90`**, `feat/biology-curriculum`;
+  Next.js **`054f0cea9b78a9c791cba5aa478fc3769cbd85b8`** — o‘zgartirilmagan.
+- Biologiya **355 nazariya + 51 raqamli faoliyat + 47 checkpoint / 2 527 karta /
+  2 609 savol**, progress, XP, xavfsizlik va mobil nashr qoidalari saqlangan.
+- PDF, sahifa rasmlari, to‘liq OCR matni private; Gitga kiritilmaydi.
+- `MOBILE_PUBLISHED_SUBJECTS=biologiya`, Flutter `BIOLOGY_ONLY=true` va
+  `SUBJECTS_ONLY=true` kengaytirilmagan. Eski AI fanlari qayta yoqilmagan.
 
-## Manbalar va aniq qamrov
+## Qamrov va haqiqiy sanoq
 
-| Sinf | PDF sahifa | Bob | Raqamlangan bo‘lim | Nazariya | Laboratoriya | Uy amaliy ishi | Tayyor dars |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| [6](grade_6_map.md) | 176 | 7 | 61 | 53 | 7 | 1 | **0** |
-| [7](grade_7_map.md) | 170 | 7 | 46 | 41 | 5 | 0 | **0** |
-| 8 | O‘qilmadi | Noma’lum | Noma’lum | Noma’lum | Noma’lum | Noma’lum | **0** |
-| 9 | O‘qilmadi | Noma’lum | Noma’lum | Noma’lum | Noma’lum | Noma’lum | **0** |
-| [10](grade_10_map.md) | 178 | 9 | 45 | 40 | 5 | 0 | **0** |
-| [11](grade_11_map.md) | 193 | 7 | 45 | 42 | 3 | 0 | **0** |
-| O‘qilgan fayllarda jami | **717** | **30** | **197** | **176** | **20** | **1** | **0** |
+| Sinf | PDF sahifa | Bob | Raqamlangan bo‘lim | Nazariya | Lab | Amaliy / uy amaliyoti | Masala yechish bo‘limi | Rasmdan tekshirilgan formula yozuvi |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| [6](grade_6_map.md) | 176 | 7 | 61 | 53 | 7 | 0 / 1 | 0 | 13 |
+| [7](grade_7_map.md) | 170 | 7 | 46 | 41 | 5 | 0 / 0 | 0 | 5 |
+| [8](grade_8_map.md) | 176 | 5 | 60 | 41 | 5 | 2 / 0 | 12 | 41 |
+| [9](grade_9_map.md) | 176 | 6 | 59 | 37 | 6 | 2 / 0 | 14 | 67 |
+| [10](grade_10_map.md) | 178 | 9 | 45 | 40 | 5 | 0 / 0 | 0 | 7 |
+| [11](grade_11_map.md) | 193 | 7 | 45 | 42 | 3 | 0 / 0 | 0 | 12 |
+| Jami | **1 069** | **41** | **316** | **254** | **31** | **4 / 1** | **26** | **145** |
 
-Raqamlangan laboratoriyalar nazariy mavzu sifatida qayta sanalmaydi. 6-sinf §13 uyda
-bajariladigan diffuziya amaliyoti; u alohida nazariya emas. Bobdagi kirish/yakuniy
-suhbat, qo‘shimcha mashq va nazoratlar ham raqamlangan darslar ustiga nazariya sifatida
-qo‘shilmagan. 6-sinf boshidagi 7 mavzu va 10-sinf §1 manbadagi kirish tartibida saqlangan.
+Bu ustunlar tayyor darslar soni emas. Raqamlangan laboratoriya, amaliyot va
+`Masalalar yechish` bo‘limlari nazariya sifatida qayta sanalmaydi. 6-sinf §13 —
+uy amaliyoti. 6-sinfdagi dastlabki yetti mavzu va 10-sinf §1 kirish tartibida qolgan.
+Bob yakunlari, nazoratlar, qo‘shimcha mashqlar va ishlangan misol anchorlari ham
+saqlangan; ular jadvalga yangi nazariy mavzu sifatida qo‘shilmagan.
 
-**Bu jadval kontent tayyorligi emas.** 717 PDF sahifaning matn qatlami chiqarildi va
-fingerprintlandi; 197 raqamlangan sarlavhaning body sahifasi mundarija bilan solishtirildi.
-Bob yakuni, masala yechish namunasi, mashq va amaliy topshiriq belgilari body bo‘ylab
-qidirildi. Barcha 717 sahifadagi fan faktlari yoki barcha formulalar vizual/pedagogik
-tekshiruvdan o‘tdi degan da’vo yo‘q. Hech qanday interaktiv dars tayyor deb belgilanmagan.
+145 soni **transkripsiya yozuvlari**, noyob fizik qonunlar emas: ekvivalent yozuvlar,
+birlik tengliklari va laboratoriya hisoblashlari ham bor. Hammasida
+`ready_for_publication=false`, `executable_grading_rule=false`.
+`full_formula_inventory_complete=false` barcha olti sinf uchun saqlangan.
 
-### Transfer bloklari
+## Manba sahifalari va tekshirish chegarasi
 
-`fizika_8_uzb.pdf` va `fizika_9_uzb.pdf` uchun real yuklab olish natijasi:
-**`file exceeds the executor transfer limit of 32 MiB`**.
-Bu ikkala kitobning boblari, mualliflari, yili va mavzu sonlari taxmin qilinmadi.
-PDF sahifa ketma-ketligini saqlagan, har biri 32 MiB’dan kichik qismlar kerak.
-Qism nomida **asl PDF** sahifa oralig‘i bo‘lishi kerak; bosma sahifa bilan almashtirmang.
+- 8-sinf **88 + 88**, 9-sinf **44 + 44 + 44 + 44** sahifali barcha olti qism ochildi.
+  Har ikkisi asl PDF **1–176** ni uzilish/kesishishsiz qamraydi. Qism fayllari SHA-256,
+  hajmi/sahifa soni, tartibi, asl va qism ichidagi sahifa bog‘lanishi tekshirildi.
+  Manifest hash’i butun birlashtirilgan PDF hash’i deb ko‘rsatilmaydi.
+- Yangi **352 sahifa** rastrlash va OCRdan o‘tdi. 8/9-sinfning **119 sarlavhasi**
+  mundarija va asosiy sahifa tasviri bilan solishtirildi; mavjud bosma sahifa yorliqlari
+  rasmlardan tekshirildi. OCR qidirish vositasi, fakt/formula tasdig‘i emas.
+- 9-sinf mundarijasida **PDF171 = bosma173; PDF172 = bosma171; PDF173 = bosma172**.
+  Asl PDF tartibi o‘zgartirilmadi. Mundarija o‘qish tartibi 172→173→171.
+  8-sinf PDF174 mundarija oxirida ko‘rinadigan bosma raqam yo‘q; `null` saqlandi.
+- 7-sinf **PDF1 = bosma8**, §1 «Jismlarning harakati». Foydalanuvchi yakuniy qarori:
+  mavjud **§1–46** to‘liq xaritalanadi va ketma-ket ishlatiladi; bosma1–7 kirish
+  sahifalari **blok emas**, izlash majburiy emas, mazmuni to‘qilmaydi.
+  `source_complete=false` butun kitob nusxasi haqida, `mapping_scope_complete=true`
+  shu qabul qilingan doira haqida. Nashr qaydidagi uchinchi/to‘rtinchi nashr tafovuti
+  va aniqlanmagan ISBN yashirilmagan.
+- 6-sinfda bosma ≈ PDF; 7-sinfda bosma = PDF+7; 10/11 asosiy body’da bosma = PDF−1.
+  Raqamsiz muqova/imprintga raqam to‘qilmagan. 11-sinf III bob kirishi PDF42/bosma41,
+  §11 esa PDF43/bosma42 bo‘lib qoladi.
+- Bir sahifadagi chegaralar eski raqamli kitoblarda matn offseti, yangi skanlarda
+  **rastr koordinatalari va kesilgan source region hash’lari** bilan saqlanadi.
+  Masalan 9-sinf PDF97dagi sirt energiyasi §31ga, pastda boshlangan ho‘llash §32ga
+  tegishli; butun sahifadagi formulalar ikkalasiga ko‘r-ko‘rona biriktirilmaydi.
 
-7-sinf faylining **PDF1 sahifasi bosma8** sahifadir. Bosma1–7, jumladan mundarijada
-bosma3 deb ko‘rsatilgan `Kirish`, mavjud faylda yo‘q. Shu yetti bosma sahifa yoki
-to‘liq to‘g‘ri kitob nusxasi talab qilinadi. PDF168/170 imprintida to‘rtinchi nashr,
-PDF170 yuqoridagi bibliografik satrda esa uchinchi nashr yozilgan; bu tafovut saqlandi.
-ISBN mavjud sahifalardan olinmadi. 46 ta raqamlangan paragraf body’da mavjudligi bu
-fayl to‘liq kitob ekanini anglatmaydi.
+## Formulalar, birliklar va manbadagi noaniqliklar
 
-### Sahifa raqamlari
+[Mashina o‘qiydigan xarita](../../scripts/curriculum/physics/physics_sources.json)
+har mavzuning nazariya/ta’rif/qonun/birlik, miqdor atamalari, tenglama, ishlangan
+misol, mustaqil mashq va amaliy ko‘rsatma sahifalarini saqlaydi. Yangi skanlardagi
+`*_candidate` yozuvlari OCR nomzodi ekanligi aniq belgilangan. Hech narsa topilmagani
+«formula/masala yo‘q» degani emas; konseptual mavzuga sun’iy hisoblash kiritilmaydi.
 
-| Sinf | Tekshirilgan bog‘lanish | Muhim misol |
-|---|---|---|
-| 6 | Asosiy bosma sahifa = PDF sahifa | §16: bosma33 / PDF33 |
-| 7 | Mavjud body’da bosma sahifa = PDF + 7 | §9: bosma37 / PDF30; formula bosma38 / PDF31 |
-| 10 | Asosiy bosma sahifa = PDF − 1 | §1: bosma3 / PDF4 |
-| 11 | Asosiy bosma sahifa = PDF − 1 | §1: bosma4 / PDF5 |
+[Formula inventari](../../scripts/curriculum/physics/physics_formula_review.json)
+**108 yangi + 37 saqlangan = 145** original tasvirdan tekshirilgan yozuvni beradi.
+Belgi, birlik, shart, indeks, modul/vektor, yaxlitlash va manba PDF/bosma/qism
+havolalari bor. **Barcha formula, ilmiy fakt, namunaviy yechim yoki javob tekshirilgan
+emas.** Quyidagilar keyingi dars/FRQ yozilishidan oldin hal qilinadi:
 
-Har sahifadagi mavjud bosma raqam alohida tekshirildi va `page_audit`da saqlandi;
-raqamsiz muqova/imprintga soxta bosma raqam berilmadi. 11-sinf III bob kirishi
-bosma41/PDF42, birinchi mavzusi esa bosma42/PDF43 — ular bitta sahifa deb olinmagan.
-Bir sahifada ikki mavzu boshlansa, **matn boshlanish/tugash offsetlari** ham saqlanadi.
-Masalan 6-sinf PDF147 yuqorisidagi `D = 1/F` §53ga tegishli; pastda boshlanadigan §54ga
-bu formula avtomatik bog‘lanmaydi. Sahifa diapazoni fakt yoki javobning tasdig‘i emas.
+- 8-sinf PDF82–83: umumiy C/U yig‘indisidagi minus belgilar matn va sxemaga zid.
+- 8-sinf PDF124: A atom/molyar massa talqini va Faradey doimiysi birliklari.
+- 9-sinf PDF109: §37 1-masala sharti va yechim jadvalidagi sonlar turlicha.
+- 9-sinf PDF145–147: linza radiusi, ishorali masofa/modul va sochuvchi linza yozuvi.
+- 9-sinf PDF153: mikroskop modelidagi l talqini va qo‘llanish chegarasi.
 
-## Formulalar va fizik kattaliklar
-
-- [Mashina o‘qiydigan xarita](../../scripts/curriculum/physics/physics_sources.json):
-  barcha 197 bo‘lim tartibi, bob egasi, kitob/PDF sahifasi, manba SHA-256, body sarlavha
-  tekshiruvi, manba matni chegarasi, mashq/namuna/amaliyot sahifalari.
-- [Formula transkripsiyalari](../../scripts/curriculum/physics/physics_formula_review.json):
-  **37 tanlangan formula**, asl sahifa tasviri bilan tekshirilgan. Bu to‘liq formula
-  banki emas; executable grader yoki tekshirilgan savol ham emas.
-- Har mavzuda formulaga o‘xshash belgilar topilgan sahifalar va raqamlangan tenglama
-  nomzodlari bor. Tenglama raqami havolada qayta uchrashi mumkin; ular noyob
-  formulalar soni deb hisoblanmaydi. Kasr, indeks, vektor, daraja va minus ishoralari
-  asl rasmdan tekshirilmaguncha `formula_inventory_complete: false` qoladi.
-- `quantity_term_candidates` faqat shu mavzu matnida topilgan fizik atamalar va
-  sahifalarni ko‘rsatadi. Ta’rif, o‘lcham yoki birlik tekshirilganini anglatmaydi.
-- Hisoblash yo‘nalishlari uchun darslikdagi ishlangan misol/mashq sahifalari alohida
-  ko‘rsatilgan; bunday belgilar topilmagani «mavzuda hech qanday hisoblash yo‘q» degani emas.
-- Tarix, diffuziya, konveksiya, elektrlanish va boshqa konseptual mavzularga sun’iy
-  formula kiritilmaydi. Modalitetni tanlashdan oldin mavzuning to‘liq body’si qayta o‘qiladi.
-
-To‘liq texnik loyiha va 6-sinf partiyalari: [FRQ_AND_IMPLEMENTATION_PLAN.md](FRQ_AND_IMPLEMENTATION_PLAN.md).
+Tafsilotlar: [SOURCE_REVIEW.md](SOURCE_REVIEW.md). Texnik reja:
+[FRQ_AND_IMPLEMENTATION_PLAN.md](FRQ_AND_IMPLEMENTATION_PLAN.md).
 
 ## Qayta tekshirish
 
-Backend ildizidan, DB va production credentiallarsiz:
+Backend ildizidan, DB/production credentiallarsiz:
 
 ```bash
-python scripts/audit_physics_sources.py
-# Faqat private original fayllar bilan; PyMuPDF 1.26.6 talab qilinadi:
-python scripts/audit_physics_sources.py --pdf-dir /workspace/attachments
-# Qasddan exit 2: hozircha to‘liq qamrov va barcha formula tekshiruvi mavjud emas:
+python scripts/audit_physics_sources.py --require-mapped
+# Private original fayllar; PyMuPDF 1.26.6:
+python scripts/audit_physics_sources.py --require-mapped --pdf-dir /workspace/attachments \
+  --ocr-dir /workspace/.setup/physics-sources
+# Qasddan exit2: barcha fakt/formula review hali tugamagan:
 python scripts/audit_physics_sources.py --require-complete
+python scripts/audit_biology_completion.py
 ```
 
-Oddiy audit exit0 — **qisman katalog ichki izchil** degani. Bu full curriculum,
-tekshirilgan savollar, barcha formulalar yoki release tayyor degani emas. `--pdf-dir`
-717 haqiqiy sahifaning hashini va mavjud bosma raqamlarini, 197 body sarlavha
-markerini tekshiradi; u rasmdagi formulani matematik jihatdan tushunib tasdiqlamaydi.
+Oddiy audit ichki izchillikni, `--require-mapped` qabul qilingan barcha bo‘limlar
+qamrovini tekshiradi. `--require-complete` esa barcha fan-fakt/formula review va
+qabul qilingan manba doirasi uchun qat’iy, alohida gate; hozir o‘tmaydi. Bu gate ham
+7-sinfning qabul qilingan §1–46 doirasini ishlatadi: yo‘q kirish sahifalari sabab
+doimiy blok qo‘yilmaydi. Hozirgi to‘siq — tugallanmagan fakt/formula review.
 
-Amaldagi avtomatik tekshiruv: Physics uchun **15 yangi test**; mavjud Biology
-curriculum/segment regressionlari bilan jami **51 passed (25.27s)**. Biologiya
-completion auditi **355/51/2 527/2 609** sonlarini tasdiqladi. Ruff critical va
-whitespace tekshiruvi toza. Flutter va website kodi o‘zgarmagani uchun ushbu
-source-only bosqichda build/native testlar qayta bajarilmadi.
+Private tekshiruv **1 069 PDF sahifa**, yangi **352 OCR sahifasi**, barcha yangi
+sarlavha va kesilgan region hash’lari mosligini tekshirdi. Hash tasdiqi matematik
+haqiqatning ekspert tasdig‘i emas. Testlarning joriy natijalari [SOURCE_REVIEW.md](SOURCE_REVIEW.md)da.
 
-## Davom ettirish chegarasi
+## 6-sinfni boshlashga tayyorlik
 
-1. 8/9-sinfning kichik PDF qismlari va 7-sinfning yetishmagan old sahifalarini olish.
-2. Har segmentning fayl SHA, sahifa soni, asl PDF oralig‘i va ketma-ketligini tekshirish.
-3. Oltita kitob xaritasini to‘ldirish, bibliografik tafovutni aniqlashtirish.
-4. Barcha formula/miqdor/birlik va masala yo‘nalishlarini sahifa tasviridan tekshirish.
-5. Yakuniy 1-bosqich natijasini foydalanuvchiga taqdim etish.
-6. **Faqat foydalanuvchi tasdig‘idan so‘ng** FRQ implementatsiyasi va 6-sinf darslariga o‘tish.
-
-`MOBILE_PUBLISHED_SUBJECTS=biologiya`, Flutter `BIOLOGY_ONLY=true` va `SUBJECTS_ONLY=true`
-holati o‘zgarmagan. Fizika uchun runtime endpoint, migratsiya, import, generatsiya,
-AI Explain yoki mobil nashr ushbu bosqichda qo‘shilmagan.
+Manba va tartib tayyor: **176 sahifa, 7 bob, 61 bo‘lim**, mavjud Biologiya/runtime’dan
+ajratilgan. Birinchi partiya §1–7; **foydalanuvchi tasdig‘idan so‘ng** ularning to‘liq
+matni, tushunchalari, birliklari va topshiriq dalillari tekshirilib original darslar
+muallifligi boshlanishi mumkin. To‘liq formula/FRQ banki yoki ishlaydigan yangi input
+UI hozir tayyor emas. 7-sinfning yo‘q kirish sahifalari boshqa sinflarni bloklamaydi.

@@ -9,6 +9,9 @@
 **SHA-256:** `bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367`.
 
 **Aniqlangan:** 7 bob; 46 raqamlangan bo‘lim = 41 nazariya + 5 laboratoriya + 0 uy amaliyoti.
+**Foydalanuvchi tasdiqlagan doira:** PDF1 / bosma8 dagi §1 «Jismlarning harakati»dan §46 gacha.
+Mavjud 46 bo‘lim xaritasi saqlangan va shu doirada yakunlangan. Bosma1–7 kirish
+sahifalarining yo‘qligi xaritalash yoki mavjud bo‘limlardan foydalanishni bloklamaydi.
 Bular tayyor interaktiv darslar emas. Barcha mavzular `not_authored`.
 Sahifalar shu faylga tegishli; PDF raqami 1 dan boshlanadi. PDFlar Gitga qo‘shilmagan.
 Bitta sahifadagi ikki mavzu qisman ustma-ust diapazonga ega bo‘lishi mumkin; aniq matn chegaralari JSON `body_span`da.
@@ -105,7 +108,10 @@ Quyidagi yozuvlar raqamlangan mavzular hisobiga qayta qo‘shilmaydi. Bular tayy
 
 ## Noaniqlik va keyingi tekshiruv
 
-- Bosma 1–7 sahifa, shu jumladan Kirish (mundarija bo‘yicha bosma 3) olinmagan.
+- Bosma 1–7, shu jumladan Kirish (mundarijada bosma3), olinmagan; mazmuni taxmin qilinmadi.
+  Foydalanuvchining yakuniy qaroriga ko‘ra ularni izlash/to‘ldirish majburiy shart emas.
+  `source_complete=false` butun kitob nusxasiga tegishli; `mapping_scope_complete=true`
+  mavjud §1–46 xaritasiga tegishli. Bular barcha fakt yoki formulalar tasdiqlangan degani emas.
 - PDF168/170 asosiy nashr qaydi to‘rtinchi; PDF170 yuqoridagi bibliografik satr uchinchi deydi. Ikkalasini ham saqlang; ISBN mavjud sahifalarda ko‘rinmadi.
 - §1–2 mundarijasi matn qatlamidagi kirill/lotin aralashuvi PDF166 rasmi va body §1/§2 sarlavhalari bilan tuzatildi.
 - Matn qatlami kasr/indeks/vektor belgilarini buzishi mumkin; barcha formula nomzodlari asl sahifa tasviridan alohida transkripsiya qilinmaguncha darsga yaroqli emas.

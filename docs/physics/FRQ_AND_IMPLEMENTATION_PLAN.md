@@ -2,8 +2,10 @@
 
 **Loyiha taklifi, implementatsiya emas.** Sana: 2026-10-21. Barcha yangi nomlar,
 endpointlar, jadvallar va flaglar quyida taklif sifatida yozilgan; hozir mavjud deb
-talqin qilinmasin. AI Explain bu ishga kiritilmaydi. 8/9-sinf manbalari va 7-sinf
-old sahifalari yetishmayotgan paytda oltita to‘liq kurs tayyorligi da’vo qilinmaydi.
+talqin qilinmasin. AI Explain bu ishga kiritilmaydi. 8/9-sinfning bo‘lak manbalari
+o‘qildi; olti sinfning mavjud bo‘lim xaritalari tayyor. 7-sinfning bosma1–7 kirish
+sahifalari foydalanuvchi qaroriga ko‘ra blok emas; mavjud §1–46 dan foydalaniladi.
+Xarita tayyorligi barcha formula, fan faktlari yoki interaktiv kurs tayyorligi emas.
 
 ## Mavjud koddan kelib chiqadigan cheklovlar
 
@@ -28,6 +30,11 @@ Har karta, formula, namunaviy masala bosqichi, savol, javob izohi va rubric **o�
 `source_refs` ro‘yxatiga ega: fayl/segment, PDF sahifa, bosma sahifa, paragraf,
 kerak bo‘lsa boshqa paragrafdagi supporting source. Bitta lesson citationini hamma
 savolga avtomatik nusxalash javobning tasdig‘i sifatida qabul qilinmaydi.
+
+8/9-sinf uchun asl birlashtirilgan PDF hash’i to‘qilmaydi: tartiblangan segment
+manifestining `source_set_sha256`si, har qismning haqiqiy SHA-256si, asl PDF va
+qism ichidagi sahifa alohida saqlanadi. 9-sinf mundarijasi asl PDF172→173→171
+tartibida o‘qiladi; original sahifalar qayta raqamlanmaydi.
 
 Hisoblash darsi olti qismdan iborat:
 
@@ -125,6 +132,24 @@ Oraliq bosqichlarda yaxlitlashni kechiktirish va yakunda so‘ralgan aniqlikni s
   Muqobil mos birliklar konversiya orqali qabul qilinadi; noto‘g‘ri o‘lcham alohida
   `dimension_mismatch` feedbackini beradi.
 
+### 8/9-sinf rasmlaridan aniqlangan kontrakt cheklovlari
+
+- 8-sinf PDF82–83: C₃/U₃ oldidagi manba minuslari matndagi yig‘indi bilan zid;
+  ularni avtomatik graderga kiritish mumkin emas. PDF124 A atom/molyar massa
+  va Faradey doimiysi birliklari talqini ham alohida fan review talab qiladi.
+- 9-sinf PDF109: §37 1-masalaning sharti va yechim jadvalidagi sonlar turlicha;
+  bu misol tekshirilgan javob sifatida ishlatilmaydi.
+- 9-sinf PDF145–147: linza radiusi va sochuvchi linza uchun masofalar/modullar
+  ishora konvensiyasi kelishilmaguncha FRQ qoidasi yozilmaydi. PDF153 mikroskop
+  modelidagi l talqini ham aniq belgilanadi.
+- 9-sinf PDF22: T=t+273 kitobda yaxlitlangan; PDF133 c ning aniq va yaxlitlangan
+  qiymati alohida berilgan. Har masala manbadagi aniqlikni e’lon qiladi.
+- σ — sirt taranglik [N/m] yoki mexanik kuchlanish [Pa]; q — elektr zaryadi [C]
+  yoki yonish issiqligi [J/kg]; C — sig‘im belgisi yoki kulon birligi; F — kuch,
+  Faradey doimiysi yoki fokus belgisi. Global symbol almashinuvi ishlatilmaydi.
+
+Bu yozuvlar manba review natijasi; runtime parser yoki yangi savol implementatsiyasi emas.
+
 ## Feedback, xavfsizlik va progress
 
 Feedback toifalari: `invalid_expression`, `unknown_symbol`, `wrong_formula`,
@@ -147,7 +172,10 @@ brend ranglari, Reduce Motion, Skill Path va natija ekranlari saqlanadi.
 
 ## 6-sinfdan ketma-ket implementatsiya partiyalari
 
-**Hozir boshlanmaydi.** Avval manba xaritasi yakunlanadi va foydalanuvchi tasdiqlaydi.
+**Hozir boshlanmaydi.** Mavjud olti sinfning bo‘lim xaritalari yakunlangan.
+6-sinfni boshlash uchun foydalanuvchi tasdig‘i kutiladi. Har partiyaning to‘liq
+matn/fakt/formula/birlik review’si dars yozilishidan oldin bajariladi; 145 tanlangan
+transkripsiya butun olti kitobdagi formulalar tugaganini anglatmaydi.
 
 | Partiya | Manbadagi tartib | Qamrov va tekshiruv |
 |---|---|---|
