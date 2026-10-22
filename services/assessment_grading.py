@@ -63,6 +63,10 @@ UNITS = {
     "kW": ("power", Fraction(1000)),
     "N*m": ("torque", Fraction(1)),
     "%": ("dimensionless", Fraction(1, 100)),
+    # Grade6 PDF123–126: voltage and milli-/kilovolt notation. Case matters.
+    "V": ("voltage", Fraction(1)),
+    "mV": ("voltage", Fraction(1, 1000)),
+    "kV": ("voltage", Fraction(1000)),
 }
 UNIT_ALIASES = {
     "metr": "m",

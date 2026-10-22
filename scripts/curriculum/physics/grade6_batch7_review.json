@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "batch": "grade6_batch7",
+  "date": "2026-10-22",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-6",
+  "book_sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+  "batch_file_sha256": "728c04ccc594c0e514d66a4add21d2ff560c8fe3049b2720f08866365aa340f3",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original explanations/examples/questions. Independent source-reviewed semantic answer labels, explicit calculation oracles and wrong-answer/domain tests where applicable. Tool records hashes only; it does not claim automatic scientific review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 118,
+      "printed_page": 118,
+      "text_sha256": "f8f60cb9c154609bc46b2fb8bdc220184f76d7f272c7b5fed24acbe4575db6c8",
+      "reviewed_render_sha256": "cf50edda24aeb2fc0d7e1c598fe5cce915b1717ae5892cfaa67522e4852508ca",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": 119,
+      "text_sha256": "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+      "reviewed_render_sha256": "efa2336b5a88b686fdf8467f625834dc9a9263c1989c0c9f1b84e387e1b0567a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": 120,
+      "text_sha256": "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+      "reviewed_render_sha256": "1102a8d08d21fb8221662dd6b1e85130abc44aa524f8ea3a04656c6899fe93b4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": 121,
+      "text_sha256": "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+      "reviewed_render_sha256": "11b326d77f2758f26dd9ceecaaaca130040194775c45cf3fd9cecf089d47b888",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 122,
+      "printed_page": 122,
+      "text_sha256": "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef",
+      "reviewed_render_sha256": "3bbb491195be764baec8b024088df809e8e326053b4e4749bc97a36b9def2097",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 123,
+      "printed_page": 123,
+      "text_sha256": "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4",
+      "reviewed_render_sha256": "00a0fe054dcbec32139e6e2a6c48be529e595a7e3f77075a316592cac0bf4a95",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 124,
+      "printed_page": 124,
+      "text_sha256": "2742c5131ca21314860a108ca4f923245014c82f766c4a2804ac35c85d0e5484",
+      "reviewed_render_sha256": "77eff866409d2bfbcae01e0f1580f4b3c99ed257eba7385b853434072a20cedb",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 125,
+      "printed_page": 125,
+      "text_sha256": "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113",
+      "reviewed_render_sha256": "be0079a3b1269e595a9d12f834d82eb1c09d003d5fb0ee3ba1ba91fc86c59e54",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 126,
+      "printed_page": 126,
+      "text_sha256": "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf",
+      "reviewed_render_sha256": "0c42f767d90b36e571784db320301cb01aca30fcfcb0f0bb2194f2c6f0e2e845",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 127,
+      "printed_page": 127,
+      "text_sha256": "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+      "reviewed_render_sha256": "beec7a75aaa507979869cfc92104c6d0f9903abf1d09f4b564f9e89e40422d56",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": 128,
+      "text_sha256": "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f",
+      "reviewed_render_sha256": "d3a9b45fe2191f2a914f671a53896c8091c7774dce11a8229df5a1cb2483e92a",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        118,
+        119,
+        120,
+        121
+      ],
+      "decision": "Like charges repel; unlike attract; neutral metal can also be attracted by charge redistribution. Mere attraction does not prove pre-existing opposite net charge. Electron transfer signs verified; orbital picture is only a simple model, not a literal planetary trajectory. No disputed atom/nucleus size or electron/proton mass ratio from prose assessed."
+    },
+    {
+      "pdf_pages": [
+        121,
+        122,
+        123,
+        124
+      ],
+      "decision": "Current defined by mobile charged particles; free electrons specifically in metals, not a universal necessary carrier in every medium. Dielectric classification is not an absolute safety guarantee. Chemical/rechargeable sources, voltmeter parallel connection and V symbol source-checked. No priority dates or universal generator-efficiency numbers assessed."
+    },
+    {
+      "pdf_pages": [
+        124,
+        125,
+        126
+      ],
+      "decision": "Source and closed path describe the depicted working simple DC circuit, not sufficient for every broken component. Ammeter series vs voltmeter parallel checked from original diagrams. Only sourced voltage unit conversion1V=1000mV added; no Ohm/series resistance law invented. Equivalent numeric unit forms accepted in server SI check."
+    },
+    {
+      "pdf_pages": [
+        127,
+        128
+      ],
+      "decision": "No blanket36V-safe threshold: lower voltages do not guarantee safety. No mains work or disassembly assigned. Saving is qualitative, not unverified percentages. Energy meter distinguished from voltmeter and ammeter; source questions claiming every charged body attracts each other are not copied."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 43,
+      "topic_id": "physics-6-section-43",
+      "pdf_pages": [
+        118,
+        119,
+        120,
+        121
+      ],
+      "printed_pages": [
+        118,
+        119,
+        120,
+        121
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 44,
+      "topic_id": "physics-6-section-44",
+      "pdf_pages": [
+        121,
+        122,
+        123,
+        124
+      ],
+      "printed_pages": [
+        121,
+        122,
+        123,
+        124
+      ],
+      "cards": 5,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 45,
+      "topic_id": "physics-6-section-45",
+      "pdf_pages": [
+        124,
+        125,
+        126
+      ],
+      "printed_pages": [
+        124,
+        125,
+        126
+      ],
+      "cards": 5,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    },
+    {
+      "sequence": 46,
+      "topic_id": "physics-6-section-46",
+      "pdf_pages": [
+        127,
+        128
+      ],
+      "printed_pages": [
+        127,
+        128
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    }
+  ]
+}

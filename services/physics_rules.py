@@ -20,6 +20,9 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "v_to_mv": rule(
+        "y", ["x"], ["1000*x", "x*1000"], "x V, y mV; nonnegative magnitude, PDF126."
+    ),
     "film_thickness": rule(
         "d",
         ["V", "S"],
@@ -300,6 +303,7 @@ DIMENSION_UNIT = {
     "energy": "J",
     "power": "W",
     "torque": "N*m",
+    "voltage": "V",
 }
 
 
@@ -468,6 +472,10 @@ def reviewed_calculation(question):
             "S1", "area"
         ), "force"
 
+    if name == "v_to_mv":
+        if givens["x"]["unit"] != "V":
+            raise ValueError("conversion_given_unit")
+        return value("x", "voltage"), "voltage"
     if name in {"kg_to_g", "g_to_kg", "tonne_to_kg"}:
         expected = {"kg_to_g": "kg", "g_to_kg": "g", "tonne_to_kg": "t"}[name]
         if givens["x"]["unit"] != expected:

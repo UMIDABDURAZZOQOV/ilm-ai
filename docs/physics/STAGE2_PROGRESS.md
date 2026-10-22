@@ -13,13 +13,13 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 61 | 42 | 19 | 174 | 60 | 48 | 278 | 68 | 5 / 1 |
+| 6 | 61 | 46 | 15 | 192 | 61 | 52 | 302 | 70 | 5 / 1 |
 | 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 42 | 274 | 174 | 60 | 48 | 278 | 68 | 5 / 1 |
+| Jami | 316 | 46 | 270 | 192 | 61 | 52 | 302 | 70 | 5 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
 soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
@@ -265,3 +265,31 @@ uchradi, keyingi urinishda ishladi; xavfsizlik cheklovi chetlab o‘tilmadi.
 **42/316;274 qolgan. Keyingi nuqta: 6-sinf §43, PDF/bosma118.**
 Keyingi elektr manba sahifalari118–128 matn/tasvirlari o‘qildi; mualliflik
 keyingi partiyada. Boshqa sinflar0 authored; oraliq tasdiq kutilmaydi.
+
+
+## Davom — §43–46: elektrga kirish
+
+Yangi4 dars:18 karta/1 birlik formulasi/4 misol/24 topshiriq(2 FRQ).
+Manba PDF=bosma: §43 118–121, §44 121–124, §45 124–126, §46 127–128.
+11 asl sahifa matn/tasvirlari qayta tekshirildi; jami106 sahifa hash audit.
+`grade6_batch7.json`/`_review.json`; eski42 dars o‘zgarmadi.
+
+Elektrostatika belgisi va neytral metallning zaryad qayta taqsimlanishi
+farqlandi: tortilish oldindan qarama-qarshi net zaryad borligini isbotlamaydi.
+Erkin elektronlar metallga xos misol; barcha muhitdagi yagona tashuvchi
+deb berilmagan. Voltmetr parallel, ampermetr ketma-ket: chizmalar tekshirildi.
+Faqat manbadagi1V=1000mV birlik almashtirish qoidasi qo‘shildi; Ohm qonuni
+yoki qarshilik formulasi majburlanmadi. V/mV/kV server exact SI registry;
+case-sensitive va noto‘g‘ri fizik kattalik rad etiladi. Uy tarmog‘ida tajriba,
+«36V dan pasti doim xavfsiz» yoki universal tejash foizi yo‘q.
+
+Physics+Biology tanlangan regressionlari **116 passed(27.02s)**; barcha46
+dars HTTP/replay/complete bilan460XP.2 mustaqil sonli oracle va22 konseptual/
+tartib topshirig‘i semantik javoblar bilan tekshirildi. Flutter Physics
+**17 passed**, haqiqiy yangi public payloadlardan mV chipi320px/200% da sinaldi.
+Public fixturega private grading/expected qiymatlar kiritilmadi.
+
+**46/316;270 qolgan. Keyingi nuqta §47, PDF/bosma132.**
+§47–56 sahifalari132–151 matn/tasvir bilan ko‘rildi; darslari navbatda.
+PG/full backend/build/native Android natijasi yangi partiya uchun hali
+qayta tasdiqlanmagan; Fizika faqat lokal/test preview, AI Explain yo‘q.

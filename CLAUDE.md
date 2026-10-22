@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Davom — 2026-10-22, Fizika §43–46:** yana4 dars/18 karta/4 misol/24 topshiriq/2 FRQ. **46/316 authored,270 qolgan**; jami192 karta/61 formula yozuvi/52 misol/302 topshiriq/70 FRQ;57 executable oilasi. Asl PDF118–128 qayta ko‘rildi, jami106 original sahifa hash audit. V/mV/kV va manbadagi1V=1000mV exact qoida, ishoralar/neytral tortilish/asbob ulanishlari tekshirildi. Physics+Biology116 passed, HTTP46dars/460XP/replay; Flutter Physics17 passed, mV uchun public payload320px/200% regression. Keyingi **§47 PDF132**. Veb/Biology kontenti/prod o‘zgarmadi; umumiy nashr va ekspert/nativeAndroid tasdig‘i yo‘q. Tafsilot `docs/physics/STAGE2_PROGRESS.md`.
+
+
 > **Joriy davom — 2026-10-22, Fizika §36–42:** backend861bdd8 / Flutter4002bca HEADlari qayta tekshirildi;35 eski dars saqlandi. Yana7 dars/29 karta/7 misol/42 topshiriq; **42/316 authored,274 qolgan**. Jami174 karta/48 misol/278 topshiriq/68 FRQ;5 raqamli lab+1 uy amaliyoti. PDF102–114 asl matn/tasvir qayta ko‘rildi,95 umumiy sahifa hash auditidan o‘tdi. Yangi termal mavzularda sun’iy formula yo‘q. Tarixiy muz/havo taxmini to‘g‘ri zamonaviy javob sifatida berilmaydi; termometriyada bosim/asbob turi/raqamli tajriba chegarasi aniq. Physics89 passed, Flutter Physics17 passed; HTTP42 dars/420XP/replay o‘tdi. Barcha316 tayyor emas; keyingi **§43 PDF118**. Tafsilot: `docs/physics/STAGE2_PROGRESS.md`.
 
 

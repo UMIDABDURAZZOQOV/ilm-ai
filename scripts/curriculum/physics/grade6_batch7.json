@@ -1,0 +1,3623 @@
+{
+  "schema_version": 2,
+  "subject": "fizika",
+  "language": "uz",
+  "grade": 6,
+  "publication": "local_test_preview_only",
+  "ai_explain": false,
+  "source_review_date": "2026-10-22",
+  "lessons": [
+    {
+      "key": "physics-6-section-43-r1",
+      "topic_id": "physics-6-section-43",
+      "sequence": 43,
+      "revision": 1,
+      "title": "Jismlarning elektrlanishi",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-43",
+          "chapter_id": "physics-6-chapter-5",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            118,
+            119,
+            120,
+            121
+          ],
+          "printed_pages": [
+            118,
+            119,
+            120,
+            121
+          ],
+          "page_text_sha256": [
+            "f8f60cb9c154609bc46b2fb8bdc220184f76d7f272c7b5fed24acbe4575db6c8",
+            "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+            "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+            "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "signs": {
+          "claim": "Darslikda musbat va manfiy zaryad ajratiladi. Bir xil ishorali zaryadlangan jismlar itariladi, qarama-qarshi ishoralilar tortiladi. Faqat tortilish kuzatuvidan ikkala jism ham albatta zaryadlangan deb xulosa qilmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                119,
+                120,
+                121
+              ],
+              "printed_pages": [
+                119,
+                120,
+                121
+              ],
+              "page_text_sha256": [
+                "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "claim": "Ishqalashdagi sodda modelda ayrim elektronlar bir jismdan boshqasiga o‘tadi. Elektron olgan jism manfiy, elektron yo‘qotgan jism musbat zaryadlanadi. Elektronning o‘zi manfiy zaryadli; uni bergan jismda elektronlar yetishmay qoladi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120
+              ],
+              "printed_pages": [
+                120
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ]
+        },
+        "atom": {
+          "claim": "Proton musbat, elektron manfiy zaryadga ega; neytron elektr zaryadsiz. Musbat va manfiy zaryadlar muvozanatlangan atom neytral bo‘ladi. Kitobdagi yadro va elektronlar chizmasi sodda model, haqiqiy sayyora orbitasini o‘lchash emas.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120
+              ],
+              "printed_pages": [
+                120
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ]
+        },
+        "neutral": {
+          "claim": "Musbat tayoqcha neytral metallga yaqinlashtirilganda uning elektronlari yaqinroq tomonda ko‘proq to‘planadi. Zaryadlar qayta taqsimlanishi tortilishga sabab bo‘lishi mumkin. Shuning uchun neytral metall tortilishi uning oldindan manfiy bo‘lganini isbotlamaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120,
+                121
+              ],
+              "printed_pages": [
+                120,
+                121
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Ikki ishorali zaryad",
+          "body": "Darslikda musbat va manfiy zaryad ajratiladi. Bir xil ishorali zaryadlangan jismlar itariladi, qarama-qarshi ishoralilar tortiladi. Faqat tortilish kuzatuvidan ikkala jism ham albatta zaryadlangan deb xulosa qilmaymiz.",
+          "fact_ids": [
+            "signs"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                119,
+                120,
+                121
+              ],
+              "printed_pages": [
+                119,
+                120,
+                121
+              ],
+              "page_text_sha256": [
+                "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Elektronning ko‘chishi",
+          "body": "Ishqalashdagi sodda modelda ayrim elektronlar bir jismdan boshqasiga o‘tadi. Elektron olgan jism manfiy, elektron yo‘qotgan jism musbat zaryadlanadi. Elektronning o‘zi manfiy zaryadli; uni bergan jismda elektronlar yetishmay qoladi.",
+          "fact_ids": [
+            "transfer"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120
+              ],
+              "printed_pages": [
+                120
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Atomdagi zaryadlarni ajratish",
+          "body": "Proton musbat, elektron manfiy zaryadga ega; neytron elektr zaryadsiz. Musbat va manfiy zaryadlar muvozanatlangan atom neytral bo‘ladi. Kitobdagi yadro va elektronlar chizmasi sodda model, haqiqiy sayyora orbitasini o‘lchash emas.",
+          "fact_ids": [
+            "atom"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120
+              ],
+              "printed_pages": [
+                120
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Neytral metall ham tortilishi mumkin",
+          "body": "Musbat tayoqcha neytral metallga yaqinlashtirilganda uning elektronlari yaqinroq tomonda ko‘proq to‘planadi. Zaryadlar qayta taqsimlanishi tortilishga sabab bo‘lishi mumkin. Shuning uchun neytral metall tortilishi uning oldindan manfiy bo‘lganini isbotlamaydi.",
+          "fact_ids": [
+            "neutral"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120,
+                121
+              ],
+              "printed_pages": [
+                120,
+                121
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [],
+      "examples": [
+        {
+          "title": "Tortilishdan shoshilmaymiz",
+          "body": "Musbat tayoqcha yengil metall gilzani tortdi. O‘quvchi «gilza oldindan albatta manfiy edi» dedi.",
+          "steps": [
+            {
+              "body": "Manbada neytral gilzadagi elektronlar qayta taqsimlanishi ko‘rsatilgan.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-43",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    119,
+                    120,
+                    121
+                  ],
+                  "printed_pages": [
+                    119,
+                    120,
+                    121
+                  ],
+                  "page_text_sha256": [
+                    "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                    "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                    "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Yaqin tomondagi tortishish uzoqroq tomondagi itarishishdan ustun kelishi mumkin.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-43",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    119,
+                    120,
+                    121
+                  ],
+                  "printed_pages": [
+                    119,
+                    120,
+                    121
+                  ],
+                  "page_text_sha256": [
+                    "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                    "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                    "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Shuning uchun bitta tortilish kuzatuvi boshlang‘ich ishorani bir qiymatli aniqlamaydi.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-43",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    119,
+                    120,
+                    121
+                  ],
+                  "printed_pages": [
+                    119,
+                    120,
+                    121
+                  ],
+                  "page_text_sha256": [
+                    "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                    "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                    "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "neutral",
+            "signs"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                119,
+                120,
+                121
+              ],
+              "printed_pages": [
+                119,
+                120,
+                121
+              ],
+              "page_text_sha256": [
+                "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-43-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Ikki manfiy zaryadlangan jismning o‘zaro ta’siri qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Itarilish"
+              },
+              {
+                "id": "o2",
+                "label": "Albatta tortilish"
+              },
+              {
+                "id": "o3",
+                "label": "Zaryadlari yo‘qligi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "signs"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                119,
+                120
+              ],
+              "printed_pages": [
+                119,
+                120
+              ],
+              "page_text_sha256": [
+                "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Bir xil ishorali zaryadlar itariladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Bir xil ishorali zaryadlar itariladi."
+            },
+            "solution": [
+              {
+                "body": "Bir xil ishorali zaryadlar itariladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-43",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      119,
+                      120
+                    ],
+                    "printed_pages": [
+                      119,
+                      120
+                    ],
+                    "page_text_sha256": [
+                      "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                      "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-43-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Dastlab neytral jism qo‘shimcha elektronlar oldi. Natijaviy ishora qanday?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Musbat"
+              },
+              {
+                "id": "o2",
+                "label": "Manfiy"
+              },
+              {
+                "id": "o3",
+                "label": "Har doim neytral qoladi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "transfer"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120
+              ],
+              "printed_pages": [
+                120
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Elektronlar ortiqchaligi manfiy zaryadga mos.",
+              "incorrect": "Yana o‘ylab ko‘r: Elektronlar ortiqchaligi manfiy zaryadga mos."
+            },
+            "solution": [
+              {
+                "body": "Elektronlar ortiqchaligi manfiy zaryadga mos.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-43",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      120
+                    ],
+                    "printed_pages": [
+                      120
+                    ],
+                    "page_text_sha256": [
+                      "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-43-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Dastlab neytral jism elektronlarining bir qismini berdi. Natijaviy ishora qanday?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Doim manfiy"
+              },
+              {
+                "id": "o2",
+                "label": "Zaryad tushunchasi yo‘qoladi"
+              },
+              {
+                "id": "o3",
+                "label": "Musbat"
+              }
+            ]
+          },
+          "fact_ids": [
+            "transfer"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120
+              ],
+              "printed_pages": [
+                120
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Elektron yetishmasligi musbat zaryadga mos.",
+              "incorrect": "Yana o‘ylab ko‘r: Elektron yetishmasligi musbat zaryadga mos."
+            },
+            "solution": [
+              {
+                "body": "Elektron yetishmasligi musbat zaryadga mos.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-43",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      120
+                    ],
+                    "printed_pages": [
+                      120
+                    ],
+                    "page_text_sha256": [
+                      "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-43-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Neytron uchun qaysi belgi mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Elektr zaryadsiz"
+              },
+              {
+                "id": "o2",
+                "label": "Manfiy elektronning o‘zi"
+              },
+              {
+                "id": "o3",
+                "label": "Musbat protonning o‘zi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "atom"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120
+              ],
+              "printed_pages": [
+                120
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Neytron elektr zaryadiga ega emas.",
+              "incorrect": "Yana o‘ylab ko‘r: Neytron elektr zaryadiga ega emas."
+            },
+            "solution": [
+              {
+                "body": "Neytron elektr zaryadiga ega emas.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-43",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      120
+                    ],
+                    "printed_pages": [
+                      120
+                    ],
+                    "page_text_sha256": [
+                      "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-43-r1:q5",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Musbat tayoqcha neytral metallni tortishi qanday izohlanadi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Metall albatta oldindan manfiy edi"
+              },
+              {
+                "id": "o2",
+                "label": "Metall ichidagi zaryadlar qayta taqsimlanadi"
+              },
+              {
+                "id": "o3",
+                "label": "Neytral jismga ta’sir bo‘lishi mumkin emas"
+              }
+            ]
+          },
+          "fact_ids": [
+            "neutral"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                120,
+                121
+              ],
+              "printed_pages": [
+                120,
+                121
+              ],
+              "page_text_sha256": [
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Elektronlar yaqin tomonga siljib, tortishish ustun kelishi mumkin.",
+              "incorrect": "Yana o‘ylab ko‘r: Elektronlar yaqin tomonga siljib, tortishish ustun kelishi mumkin."
+            },
+            "solution": [
+              {
+                "body": "Elektronlar yaqin tomonga siljib, tortishish ustun kelishi mumkin.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-43",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      120,
+                      121
+                    ],
+                    "printed_pages": [
+                      120,
+                      121
+                    ],
+                    "page_text_sha256": [
+                      "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93",
+                      "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-43-r1:q6",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Musbat va manfiy zaryadli ikki jism uchun qaysi natija mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Bir xil ishorali bo‘lib qoladi"
+              },
+              {
+                "id": "o2",
+                "label": "Doim itariladi"
+              },
+              {
+                "id": "o3",
+                "label": "Bir-biriga tortiladi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "signs"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-43",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                119,
+                120
+              ],
+              "printed_pages": [
+                119,
+                120
+              ],
+              "page_text_sha256": [
+                "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Qarama-qarshi ishoralar tortishadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Qarama-qarshi ishoralar tortishadi."
+            },
+            "solution": [
+              {
+                "body": "Qarama-qarshi ishoralar tortishadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-43",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      119,
+                      120
+                    ],
+                    "printed_pages": [
+                      119,
+                      120
+                    ],
+                    "page_text_sha256": [
+                      "758b6c86c82a7b92369cd4ef6e3ede86a107f1f76a92fc3aebcbf92460e200c2",
+                      "dfbfdd0b00099833c3d30bf1e532147de3010dde005ba8afda127927573f2d93"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-6-section-44-r1",
+      "topic_id": "physics-6-section-44",
+      "sequence": 44,
+      "revision": 1,
+      "title": "Elektr toki haqida tushuncha. Tok manbalari",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-44",
+          "chapter_id": "physics-6-chapter-5",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            121,
+            122,
+            123,
+            124
+          ],
+          "printed_pages": [
+            121,
+            122,
+            123,
+            124
+          ],
+          "page_text_sha256": [
+            "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+            "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef",
+            "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4",
+            "2742c5131ca21314860a108ca4f923245014c82f766c4a2804ac35c85d0e5484"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "instrument": {
+          "claim": "Zaryad metall shar, sterjen va strelkaga o‘tganda bir xil ishorali qismlar itarilib strelka og‘adi. Ikki elektrometrni metall orqali tutashtirishda zaryad ko‘chishi kuzatiladi; darslikdagi plastmassa tutashtirgichda bu ta’sir kuzatilmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                121
+              ],
+              "printed_pages": [
+                121
+              ],
+              "page_text_sha256": [
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ]
+        },
+        "conductors": {
+          "claim": "Darslik tajribasida metall zaryad ko‘chishini o‘tkazadi, plastmassa esa yomon o‘tkazadi. Dielektrik materialdan izolyator tayyorlanadi. Bu oddiy tajriba tasnifi; rezina, havo yoki suvni har qanday sharoitda xavfsizlik kafolati deb olmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                121,
+                122
+              ],
+              "printed_pages": [
+                121,
+                122
+              ],
+              "page_text_sha256": [
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ]
+        },
+        "current": {
+          "claim": "Elektr toki — zaryadlangan zarralarning tartibli harakati. Metallarda erkin elektronlar qatnashadi. Ularning shunchaki borligi yetmaydi: tartibli harakatni hosil qiladigan tok manbai ham kerak. Shartli tok yo‘nalishi musbat zaryad harakati yo‘nalishidir.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                122
+              ],
+              "printed_pages": [
+                122
+              ],
+              "page_text_sha256": [
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ]
+        },
+        "chemical": {
+          "claim": "Darslikdagi Volta ustunida zaryadlarning ajralishi kimyoviy jarayon bilan bog‘liq. Qayta zaryadlash uchun mo‘ljallangan manba akkumulyator deyiladi. Oddiy bir martalik elementni o‘zboshimchalik bilan qayta zaryadlash topshirig‘i berilmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                122,
+                123
+              ],
+              "printed_pages": [
+                122,
+                123
+              ],
+              "page_text_sha256": [
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef",
+                "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+              ]
+            }
+          ]
+        },
+        "voltage": {
+          "claim": "Elektr kuchlanishi voltmetr bilan o‘lchanadi, birligi volt — V. Voltmetr iste’molchining ikki uchiga parallel ulanadi. Kuchlanishni zaryadning ishorasi yoki tok kuchi nomi bilan adashtirmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                123
+              ],
+              "printed_pages": [
+                123
+              ],
+              "page_text_sha256": [
+                "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Elektrometr nimani ko‘rsatadi?",
+          "body": "Zaryad metall shar, sterjen va strelkaga o‘tganda bir xil ishorali qismlar itarilib strelka og‘adi. Ikki elektrometrni metall orqali tutashtirishda zaryad ko‘chishi kuzatiladi; darslikdagi plastmassa tutashtirgichda bu ta’sir kuzatilmaydi.",
+          "fact_ids": [
+            "instrument"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                121
+              ],
+              "printed_pages": [
+                121
+              ],
+              "page_text_sha256": [
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "O‘tkazgich va dielektrik",
+          "body": "Darslik tajribasida metall zaryad ko‘chishini o‘tkazadi, plastmassa esa yomon o‘tkazadi. Dielektrik materialdan izolyator tayyorlanadi. Bu oddiy tajriba tasnifi; rezina, havo yoki suvni har qanday sharoitda xavfsizlik kafolati deb olmaymiz.",
+          "fact_ids": [
+            "conductors"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                121,
+                122
+              ],
+              "printed_pages": [
+                121,
+                122
+              ],
+              "page_text_sha256": [
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tartibli harakat",
+          "body": "Elektr toki — zaryadlangan zarralarning tartibli harakati. Metallarda erkin elektronlar qatnashadi. Ularning shunchaki borligi yetmaydi: tartibli harakatni hosil qiladigan tok manbai ham kerak. Shartli tok yo‘nalishi musbat zaryad harakati yo‘nalishidir.",
+          "fact_ids": [
+            "current"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                122
+              ],
+              "printed_pages": [
+                122
+              ],
+              "page_text_sha256": [
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kimyoviy tok manbalari",
+          "body": "Darslikdagi Volta ustunida zaryadlarning ajralishi kimyoviy jarayon bilan bog‘liq. Qayta zaryadlash uchun mo‘ljallangan manba akkumulyator deyiladi. Oddiy bir martalik elementni o‘zboshimchalik bilan qayta zaryadlash topshirig‘i berilmaydi.",
+          "fact_ids": [
+            "chemical"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                122,
+                123
+              ],
+              "printed_pages": [
+                122,
+                123
+              ],
+              "page_text_sha256": [
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef",
+                "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kuchlanish va voltmetr",
+          "body": "Elektr kuchlanishi voltmetr bilan o‘lchanadi, birligi volt — V. Voltmetr iste’molchining ikki uchiga parallel ulanadi. Kuchlanishni zaryadning ishorasi yoki tok kuchi nomi bilan adashtirmaymiz.",
+          "fact_ids": [
+            "voltage"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                123
+              ],
+              "printed_pages": [
+                123
+              ],
+              "page_text_sha256": [
+                "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [],
+      "examples": [
+        {
+          "title": "Ikki asbob, ikki vazifa",
+          "body": "Raqamli tasvirda elektrometr strelkasi og‘gan, boshqa chizmada lampochkaning ikki uchiga voltmetr ulangan.",
+          "steps": [
+            {
+              "body": "Elektrometrdagi og‘ish zaryadlanish bilan bog‘liq.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-44",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    121,
+                    123
+                  ],
+                  "printed_pages": [
+                    121,
+                    123
+                  ],
+                  "page_text_sha256": [
+                    "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                    "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Voltmetr kuchlanishni voltlarda o‘lchaydi.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-44",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    121,
+                    123
+                  ],
+                  "printed_pages": [
+                    121,
+                    123
+                  ],
+                  "page_text_sha256": [
+                    "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                    "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Voltmetr parallel ulanadi; asbob nomlarini bir-biriga almashtirmaymiz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-44",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    121,
+                    123
+                  ],
+                  "printed_pages": [
+                    121,
+                    123
+                  ],
+                  "page_text_sha256": [
+                    "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                    "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "instrument",
+            "voltage"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                121,
+                123
+              ],
+              "printed_pages": [
+                121,
+                123
+              ],
+              "page_text_sha256": [
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-44-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Elektr toki ta’rifiga qaysi holat mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat barcha jismlarning qizishi"
+              },
+              {
+                "id": "o2",
+                "label": "Zaryadlangan zarralarning tartibli harakati"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat neytral jismlarning nomi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "current"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                122
+              ],
+              "printed_pages": [
+                122
+              ],
+              "page_text_sha256": [
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Zaryadlar tartibli harakatlanishi elektr tokini ifodalaydi.",
+              "incorrect": "Yana o‘ylab ko‘r: Zaryadlar tartibli harakatlanishi elektr tokini ifodalaydi."
+            },
+            "solution": [
+              {
+                "body": "Zaryadlar tartibli harakatlanishi elektr tokini ifodalaydi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-44",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      122
+                    ],
+                    "printed_pages": [
+                      122
+                    ],
+                    "page_text_sha256": [
+                      "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-44-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Ikki elektrometrni tutashtirish tajribasida metall o‘rniga plastmassa qo‘yilganda nima kuzatilgan?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Ikkinchi strelka ochilmagan"
+              },
+              {
+                "id": "o2",
+                "label": "Ikkinchisi albatta kuchliroq zaryadlangan"
+              },
+              {
+                "id": "o3",
+                "label": "Barcha jismlar erib ketgan"
+              }
+            ]
+          },
+          "fact_ids": [
+            "instrument",
+            "conductors"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                121,
+                122
+              ],
+              "printed_pages": [
+                121,
+                122
+              ],
+              "page_text_sha256": [
+                "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Bu tajribada plastmassa zaryad oqimini metalldek o‘tkazmaydi.",
+              "incorrect": "Yana o‘ylab ko‘r: Bu tajribada plastmassa zaryad oqimini metalldek o‘tkazmaydi."
+            },
+            "solution": [
+              {
+                "body": "Bu tajribada plastmassa zaryad oqimini metalldek o‘tkazmaydi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-44",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      121,
+                      122
+                    ],
+                    "printed_pages": [
+                      121,
+                      122
+                    ],
+                    "page_text_sha256": [
+                      "e0261defcc065ae949961c392be485334f1fcf27195a916bddb5c0e4901f7f34",
+                      "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-44-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Volta ustunida zaryad ajralishi manbada nimaga bog‘lanadi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat tovush qaytishiga"
+              },
+              {
+                "id": "o2",
+                "label": "Faqat lampochkaning rangiga"
+              },
+              {
+                "id": "o3",
+                "label": "Kimyoviy jarayonga"
+              }
+            ]
+          },
+          "fact_ids": [
+            "chemical"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                122
+              ],
+              "printed_pages": [
+                122
+              ],
+              "page_text_sha256": [
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Volta ustuni kimyoviy manba misolidir.",
+              "incorrect": "Yana o‘ylab ko‘r: Volta ustuni kimyoviy manba misolidir."
+            },
+            "solution": [
+              {
+                "body": "Volta ustuni kimyoviy manba misolidir.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-44",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      122
+                    ],
+                    "printed_pages": [
+                      122
+                    ],
+                    "page_text_sha256": [
+                      "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-44-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Qayta zaryadlab ishlatishga mo‘ljallangan manba qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Akkumulyator"
+              },
+              {
+                "id": "o2",
+                "label": "Har qanday bir martalik element albatta"
+              },
+              {
+                "id": "o3",
+                "label": "Yassi ko‘zgu"
+              }
+            ]
+          },
+          "fact_ids": [
+            "chemical"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                123
+              ],
+              "printed_pages": [
+                123
+              ],
+              "page_text_sha256": [
+                "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Qayta zaryadlash xususiyati ishlab chiqarilgan manba turiga bog‘liq.",
+              "incorrect": "Yana o‘ylab ko‘r: Qayta zaryadlash xususiyati ishlab chiqarilgan manba turiga bog‘liq."
+            },
+            "solution": [
+              {
+                "body": "Qayta zaryadlash xususiyati ishlab chiqarilgan manba turiga bog‘liq.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-44",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      123
+                    ],
+                    "printed_pages": [
+                      123
+                    ],
+                    "page_text_sha256": [
+                      "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-44-r1:q5",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Lampochkadagi kuchlanish qanday asbob va ulanish bilan o‘lchanadi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Elektrometrni faqat ketma-ket ulash"
+              },
+              {
+                "id": "o2",
+                "label": "Voltmetrni parallel ulash"
+              },
+              {
+                "id": "o3",
+                "label": "Termometrni simga ulash"
+              }
+            ]
+          },
+          "fact_ids": [
+            "voltage"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                123
+              ],
+              "printed_pages": [
+                123
+              ],
+              "page_text_sha256": [
+                "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Kuchlanish voltmetr bilan ikki uch orasida o‘lchanadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Kuchlanish voltmetr bilan ikki uch orasida o‘lchanadi."
+            },
+            "solution": [
+              {
+                "body": "Kuchlanish voltmetr bilan ikki uch orasida o‘lchanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-44",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      123
+                    ],
+                    "printed_pages": [
+                      123
+                    ],
+                    "page_text_sha256": [
+                      "57ffadc770ac7812f9c6ac71dca8fce1e85be50f08ea4b320cbd5b266afaf6a4"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-44-r1:q6",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Shartli tok yo‘nalishi nimaning yo‘nalishi sifatida qabul qilingan?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat istalgan jism shamolining"
+              },
+              {
+                "id": "o2",
+                "label": "Har qanday neytronning"
+              },
+              {
+                "id": "o3",
+                "label": "Musbat zaryadning harakat yo‘nalishi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "current"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-44",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                122
+              ],
+              "printed_pages": [
+                122
+              ],
+              "page_text_sha256": [
+                "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Bu tarixan tanlangan yo‘nalish; metall elektronlari bilan adashtirmaymiz.",
+              "incorrect": "Yana o‘ylab ko‘r: Bu tarixan tanlangan yo‘nalish; metall elektronlari bilan adashtirmaymiz."
+            },
+            "solution": [
+              {
+                "body": "Bu tarixan tanlangan yo‘nalish; metall elektronlari bilan adashtirmaymiz.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-44",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      122
+                    ],
+                    "printed_pages": [
+                      122
+                    ],
+                    "page_text_sha256": [
+                      "67ebde7d4d9f429ae0c44226ae62793d8d1ab540fca3752ebe734db99fd772ef"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-6-section-45-r1",
+      "topic_id": "physics-6-section-45",
+      "sequence": 45,
+      "revision": 1,
+      "title": "Turmushda elektr tokining ahamiyati. Oddiy elektr zanjiri",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-45",
+          "chapter_id": "physics-6-chapter-5",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            124,
+            125,
+            126
+          ],
+          "printed_pages": [
+            124,
+            125,
+            126
+          ],
+          "page_text_sha256": [
+            "2742c5131ca21314860a108ca4f923245014c82f766c4a2804ac35c85d0e5484",
+            "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113",
+            "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "circuit": {
+          "claim": "Oddiy chizmada tok manbai, lampochka, ulovchi simlar va uzib-ulagich alohida shartli belgi bilan ko‘rsatiladi. Chizma buyumlarning bezagini emas, elektr ulanishini ifodalaydi. Bu faoliyat faqat raqamli sxema tahlilidir.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                124,
+                125
+              ],
+              "printed_pages": [
+                124,
+                125
+              ],
+              "page_text_sha256": [
+                "2742c5131ca21314860a108ca4f923245014c82f766c4a2804ac35c85d0e5484",
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ]
+        },
+        "closed": {
+          "claim": "Darslikdagi yaroqli manba, mos lampochka va simlardan tuzilgan sodda zanjirda uzib-ulagich yopilsa tok uchun berk yo‘l hosil bo‘ladi. Ochiq kalit yo‘lni uzadi. Berk chizmaning o‘zi, manbasiz yoki nosoz asbob bilan, yonishni kafolatlamaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                125
+              ],
+              "printed_pages": [
+                125
+              ],
+              "page_text_sha256": [
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ]
+        },
+        "ammeter": {
+          "claim": "Tok kuchi ampermetr bilan o‘lchanadi; birlik amper — A. Ampermetr o‘lchanayotgan zanjirga ketma-ket ulanadi. Uni voltmetrning parallel ulanish qoidasi bilan almashtirmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                125
+              ],
+              "printed_pages": [
+                125
+              ],
+              "page_text_sha256": [
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ]
+        },
+        "branches": {
+          "claim": "Darslikdagi ketma-ket sxemada lampochkalar bitta yo‘l bo‘ylab joylashgan; parallel sxemada alohida tarmoqlar bor. Bu dars ulanishni tanishga qaratilgan; manbada hali kiritilmagan qarshilik yoki yorqinlik hisoblash formulasi talab qilinmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ]
+        },
+        "millivolt": {
+          "claim": "Milli old qo‘shimchasi mingdan birni bildiradi: 1 V = 1000 mV. Berilgan son x volt bo‘lsa, y millivolt soni y=1000*x. Faqat birlikdagi son o‘zgaradi; o‘sha kuchlanishning o‘zi o‘zgarmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Zanjir qismlarini taniymiz",
+          "body": "Oddiy chizmada tok manbai, lampochka, ulovchi simlar va uzib-ulagich alohida shartli belgi bilan ko‘rsatiladi. Chizma buyumlarning bezagini emas, elektr ulanishini ifodalaydi. Bu faoliyat faqat raqamli sxema tahlilidir.",
+          "fact_ids": [
+            "circuit"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                124,
+                125
+              ],
+              "printed_pages": [
+                124,
+                125
+              ],
+              "page_text_sha256": [
+                "2742c5131ca21314860a108ca4f923245014c82f766c4a2804ac35c85d0e5484",
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Manba va berk yo‘l",
+          "body": "Darslikdagi yaroqli manba, mos lampochka va simlardan tuzilgan sodda zanjirda uzib-ulagich yopilsa tok uchun berk yo‘l hosil bo‘ladi. Ochiq kalit yo‘lni uzadi. Berk chizmaning o‘zi, manbasiz yoki nosoz asbob bilan, yonishni kafolatlamaydi.",
+          "fact_ids": [
+            "closed"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                125
+              ],
+              "printed_pages": [
+                125
+              ],
+              "page_text_sha256": [
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tok kuchini o‘lchash",
+          "body": "Tok kuchi ampermetr bilan o‘lchanadi; birlik amper — A. Ampermetr o‘lchanayotgan zanjirga ketma-ket ulanadi. Uni voltmetrning parallel ulanish qoidasi bilan almashtirmaymiz.",
+          "fact_ids": [
+            "ammeter"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                125
+              ],
+              "printed_pages": [
+                125
+              ],
+              "page_text_sha256": [
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ketma-ket va parallel ulanish",
+          "body": "Darslikdagi ketma-ket sxemada lampochkalar bitta yo‘l bo‘ylab joylashgan; parallel sxemada alohida tarmoqlar bor. Bu dars ulanishni tanishga qaratilgan; manbada hali kiritilmagan qarshilik yoki yorqinlik hisoblash formulasi talab qilinmaydi.",
+          "fact_ids": [
+            "branches"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Voltni millivoltga aylantirish",
+          "body": "Milli old qo‘shimchasi mingdan birni bildiradi: 1 V = 1000 mV. Berilgan son x volt bo‘lsa, y millivolt soni y=1000*x. Faqat birlikdagi son o‘zgaradi; o‘sha kuchlanishning o‘zi o‘zgarmaydi.",
+          "fact_ids": [
+            "millivolt"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [
+        {
+          "rule": "v_to_mv",
+          "title": "Volt → millivolt",
+          "expression": "y = 1000 * x",
+          "body": "x voltlardagi son; y millivoltlardagi son, x≥0. Bu Ohm qonuni emas, birlik almashtirish.",
+          "fact_ids": [
+            "millivolt"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Original kuchlanish yozuvi",
+          "body": "Mos test manbaidagi 2,5 V yozuvini millivoltda ko‘rsatamiz.",
+          "steps": [
+            {
+              "body": "1 V=1000 mV.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-45",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    126
+                  ],
+                  "printed_pages": [
+                    126
+                  ],
+                  "page_text_sha256": [
+                    "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "y=1000*x=1000 × 2,5=2500.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-45",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    126
+                  ],
+                  "printed_pages": [
+                    126
+                  ],
+                  "page_text_sha256": [
+                    "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Javob2500 mV; bu2,5 V bilan bir xil kuchlanish.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-45",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    126
+                  ],
+                  "printed_pages": [
+                    126
+                  ],
+                  "page_text_sha256": [
+                    "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "millivolt"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-45-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Yaroqli sodda zanjirda kalit ochiq turibdi. Nima yetishmaydi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Berk tok yo‘li"
+              },
+              {
+                "id": "o2",
+                "label": "Chiroqning rasmi"
+              },
+              {
+                "id": "o3",
+                "label": "Daftarning rangi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "closed"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                125
+              ],
+              "printed_pages": [
+                125
+              ],
+              "page_text_sha256": [
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Ochiq uzib-ulagich yo‘lni uzadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Ochiq uzib-ulagich yo‘lni uzadi."
+            },
+            "solution": [
+              {
+                "body": "Ochiq uzib-ulagich yo‘lni uzadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      125
+                    ],
+                    "printed_pages": [
+                      125
+                    ],
+                    "page_text_sha256": [
+                      "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-45-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Tok kuchi uchun qaysi asbob va ulanish mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Voltmetrni ketma-ket ulash"
+              },
+              {
+                "id": "o2",
+                "label": "Ampermetrni ketma-ket ulash"
+              },
+              {
+                "id": "o3",
+                "label": "Termometrni parallel ulash"
+              }
+            ]
+          },
+          "fact_ids": [
+            "ammeter"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                125
+              ],
+              "printed_pages": [
+                125
+              ],
+              "page_text_sha256": [
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Tok kuchi ampermetr bilan ketma-ket ulanishda o‘lchanadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Tok kuchi ampermetr bilan ketma-ket ulanishda o‘lchanadi."
+            },
+            "solution": [
+              {
+                "body": "Tok kuchi ampermetr bilan ketma-ket ulanishda o‘lchanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      125
+                    ],
+                    "printed_pages": [
+                      125
+                    ],
+                    "page_text_sha256": [
+                      "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-45-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Ikkita lampochka alohida ikki tarmoqda turibdi. Bu qanday ulanish?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Faqat bitta ketma-ket yo‘l"
+              },
+              {
+                "id": "o2",
+                "label": "Asbobsiz bo‘sh rasm"
+              },
+              {
+                "id": "o3",
+                "label": "Parallel ulanish"
+              }
+            ]
+          },
+          "fact_ids": [
+            "branches"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Darslik parallel sxemada tarmoqlarni ko‘rsatadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Darslik parallel sxemada tarmoqlarni ko‘rsatadi."
+            },
+            "solution": [
+              {
+                "body": "Darslik parallel sxemada tarmoqlarni ko‘rsatadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      126
+                    ],
+                    "printed_pages": [
+                      126
+                    ],
+                    "page_text_sha256": [
+                      "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-45-r1:q4",
+          "response_kind": "ordering",
+          "phase": "independent",
+          "public": {
+            "prompt": "Sodda raqamli zanjirni tekshirish rejasini tartibla.",
+            "items": [
+              {
+                "id": "s1",
+                "label": "Kalit yopilganda berk yo‘l hosil bo‘lishini tekshirish"
+              },
+              {
+                "id": "s2",
+                "label": "Manba, lampochka, sim va kalit belgilarini aniqlash"
+              },
+              {
+                "id": "s3",
+                "label": "Ochiq kalitli sxemadagi ulanishlarni tekshirish"
+              }
+            ]
+          },
+          "fact_ids": [
+            "circuit",
+            "closed"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                124,
+                125
+              ],
+              "printed_pages": [
+                124,
+                125
+              ],
+              "page_text_sha256": [
+                "2742c5131ca21314860a108ca4f923245014c82f766c4a2804ac35c85d0e5484",
+                "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "ordering",
+            "expected_order": [
+              "s2",
+              "s3",
+              "s1"
+            ],
+            "feedback": {
+              "correct": "Ketma-ketlik to‘g‘ri. Avval qismlar, so‘ng ochiq sxema ulanishi, keyin yopilgan yo‘l tekshiriladi; haqiqiy tarmoqqa ulash talab etilmaydi.",
+              "incorrect": "Ketma-ketlikni solishtir: Avval qismlar, so‘ng ochiq sxema ulanishi, keyin yopilgan yo‘l tekshiriladi; haqiqiy tarmoqqa ulash talab etilmaydi."
+            },
+            "solution": [
+              {
+                "body": "Avval qismlar, so‘ng ochiq sxema ulanishi, keyin yopilgan yo‘l tekshiriladi; haqiqiy tarmoqqa ulash talab etilmaydi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      124,
+                      125
+                    ],
+                    "printed_pages": [
+                      124,
+                      125
+                    ],
+                    "page_text_sha256": [
+                      "2742c5131ca21314860a108ca4f923245014c82f766c4a2804ac35c85d0e5484",
+                      "e67efc5038ad9ca2b6897497334c89245469fea2dc23a27bda714cc76a7bc113"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-45-r1:q5",
+          "response_kind": "numeric_quantity",
+          "phase": "guided",
+          "public": {
+            "prompt": "Test manbaidagi x=3 V kuchlanishni y millivoltda yoz. Formulada x voltlardagi son.",
+            "givens": [
+              {
+                "symbol": "x",
+                "value": "3",
+                "unit": "V"
+              }
+            ],
+            "symbols": [
+              "x"
+            ],
+            "suggested_unit": "mV",
+            "unit_choices": [
+              "V",
+              "mV",
+              "kV"
+            ]
+          },
+          "fact_ids": [
+            "millivolt"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "v_to_mv",
+            "formula": {
+              "target": "y",
+              "variables": [
+                "x"
+              ],
+              "equivalents": [
+                "1000*x",
+                "x*1000"
+              ],
+              "conditions": "x V, y mV; nonnegative magnitude, PDF126."
+            },
+            "expected_si": "3",
+            "dimension": "voltage",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "y=1000*x=1000 × 3=3000 mV.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      126
+                    ],
+                    "printed_pages": [
+                      126
+                    ],
+                    "page_text_sha256": [
+                      "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                    ]
+                  }
+                ]
+              },
+              {
+                "body": "3000 mV = 3 V.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      126
+                    ],
+                    "printed_pages": [
+                      126
+                    ],
+                    "page_text_sha256": [
+                      "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-45-r1:q6",
+          "response_kind": "numeric_quantity",
+          "phase": "independent",
+          "public": {
+            "prompt": "Mustaqil birlik almashtirish: x=1,8 V ni y millivoltda ifodala. Formulada x voltlardagi son.",
+            "givens": [
+              {
+                "symbol": "x",
+                "value": "1.8",
+                "unit": "V"
+              }
+            ],
+            "symbols": [
+              "x"
+            ],
+            "suggested_unit": "mV",
+            "unit_choices": [
+              "V",
+              "mV",
+              "kV"
+            ]
+          },
+          "fact_ids": [
+            "millivolt"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-45",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                126
+              ],
+              "printed_pages": [
+                126
+              ],
+              "page_text_sha256": [
+                "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "numeric_quantity",
+            "rule": "v_to_mv",
+            "formula": {
+              "target": "y",
+              "variables": [
+                "x"
+              ],
+              "equivalents": [
+                "1000*x",
+                "x*1000"
+              ],
+              "conditions": "x V, y mV; nonnegative magnitude, PDF126."
+            },
+            "expected_si": "1.8",
+            "dimension": "voltage",
+            "abs_tol_si": "0",
+            "rel_tol": "0",
+            "feedback": {
+              "correct": "Ajoyib! Formula, hisob va birlik mos.",
+              "incorrect": "Yechimni bosqichma-bosqich solishtir. Berilgan birliklarni tekshir.",
+              "wrong_formula": "Formula tuzilishi mos emas. Darsdagi noma’lum va belgilar ma’nosini tekshir.",
+              "unknown_symbol": "Faqat topshiriqda ko‘rsatilgan belgilarni ishlat.",
+              "unknown_unit": "Birlikni ko‘rsatilgan namunalardan biri kabi yoz. Daraja va harflar registrini tekshir.",
+              "dimension_mismatch": "Birlikning fizik o‘lchami mos emas: massa, hajm, uzunlik yoki zichlikni aralashtirma.",
+              "out_of_tolerance": "Hisob yoki birlik almashtirishda farq bor. Yechim bilan solishtir.",
+              "sign_error": "Bu vaziyatda javob manfiy bo‘lishi mumkin emas.",
+              "invalid_expression": "Ifodani tekshir: *, /, +, - va qavslardan foydalan.",
+              "domain_error": "Nolga bo‘lish yoki ruxsat etilmagan daraja bor."
+            },
+            "solution": [
+              {
+                "body": "y=1000*x=1000 × 1,8=1800 mV.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      126
+                    ],
+                    "printed_pages": [
+                      126
+                    ],
+                    "page_text_sha256": [
+                      "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                    ]
+                  }
+                ]
+              },
+              {
+                "body": "1800 mV = 1,8 V.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-45",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      126
+                    ],
+                    "printed_pages": [
+                      126
+                    ],
+                    "page_text_sha256": [
+                      "d9fa1c4d2b70b1f1142286bfda12670230ba42aea052be4e1d16b790a7fde5cf"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "physics-6-section-46-r1",
+      "topic_id": "physics-6-section-46",
+      "sequence": 46,
+      "revision": 1,
+      "title": "Xonadondagi elektr asboblari. Elektr energiyasini tejash",
+      "xp_reward": 10,
+      "source_refs": [
+        {
+          "book_id": "physics-uz-grade-6",
+          "topic_id": "physics-6-section-46",
+          "chapter_id": "physics-6-chapter-5",
+          "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+          "file_name": "fizika_6_uzb.pdf",
+          "verification": "original_pdf_text_and_image_checked",
+          "pdf_pages": [
+            127,
+            128
+          ],
+          "printed_pages": [
+            127,
+            128
+          ],
+          "page_text_sha256": [
+            "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+            "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+          ]
+        }
+      ],
+      "review": {
+        "source_text_and_images_checked": true,
+        "independent_subject_expert": "not_claimed",
+        "physical_experiment_completed": false
+      },
+      "facts": {
+        "devices": {
+          "claim": "Darslik elektr plitasi, chang yutkich, kir yuvish mashinasi, mikroto‘lqinli pech va dazmolni misol qiladi. Ular turli vazifalarni bajaradi, ammo ishlashi uchun elektr energiyasi sarflanadi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ]
+        },
+        "meter": {
+          "claim": "Uyda sarflangan elektr energiyasi hisoblagich bilan hisobga olinadi. To‘lov sarf bilan bog‘liq. Hisoblagichni termometr, kuchlanishni o‘lchaydigan voltmetr yoki tok kuchi ampermetri bilan adashtirmaymiz.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ]
+        },
+        "saving": {
+          "claim": "Zarurat bo‘lmaganda chiroq yoki televizorni ishlatib qo‘ymaslik elektr energiyasini tejash chorasi. Bir xil yoritish vazifasida tejamkor yoritgich tanlash ham sarfni kamaytirishi mumkin. Hamma qurilma uchun manbasiz aniq tejalish foizi kiritilmaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127,
+                128
+              ],
+              "printed_pages": [
+                127,
+                128
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+                "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+              ]
+            }
+          ]
+        },
+        "safety": {
+          "claim": "Xonadon tarmog‘i hayot uchun xavfli. Darslik kattalarning ruxsatisiz asbob ulashdan qaytaradi. Bu faoliyat rozetka, ochiq sim yoki qurilma ichini tekshirishni topshirmaydi; kichikroq kuchlanish ham barcha vaziyatda xavfsiz degan chegara qoidasini bermaydi.",
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ]
+        }
+      },
+      "cards": [
+        {
+          "title": "Elektr yordamchilarining vazifasi",
+          "body": "Darslik elektr plitasi, chang yutkich, kir yuvish mashinasi, mikroto‘lqinli pech va dazmolni misol qiladi. Ular turli vazifalarni bajaradi, ammo ishlashi uchun elektr energiyasi sarflanadi.",
+          "fact_ids": [
+            "devices"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sarflangan energiyani bilish",
+          "body": "Uyda sarflangan elektr energiyasi hisoblagich bilan hisobga olinadi. To‘lov sarf bilan bog‘liq. Hisoblagichni termometr, kuchlanishni o‘lchaydigan voltmetr yoki tok kuchi ampermetri bilan adashtirmaymiz.",
+          "fact_ids": [
+            "meter"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Keraksiz sarfni to‘xtatish",
+          "body": "Zarurat bo‘lmaganda chiroq yoki televizorni ishlatib qo‘ymaslik elektr energiyasini tejash chorasi. Bir xil yoritish vazifasida tejamkor yoritgich tanlash ham sarfni kamaytirishi mumkin. Hamma qurilma uchun manbasiz aniq tejalish foizi kiritilmaydi.",
+          "fact_ids": [
+            "saving"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127,
+                128
+              ],
+              "printed_pages": [
+                127,
+                128
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+                "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Elektr tarmog‘i o‘yin emas",
+          "body": "Xonadon tarmog‘i hayot uchun xavfli. Darslik kattalarning ruxsatisiz asbob ulashdan qaytaradi. Bu faoliyat rozetka, ochiq sim yoki qurilma ichini tekshirishni topshirmaydi; kichikroq kuchlanish ham barcha vaziyatda xavfsiz degan chegara qoidasini bermaydi.",
+          "fact_ids": [
+            "safety"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ]
+        }
+      ],
+      "formulas": [],
+      "examples": [
+        {
+          "title": "Raqamli tejash rejasi",
+          "body": "Rasmda bo‘sh xonada chiroq va televizor ishlayapti; oila boshqa xonada.",
+          "steps": [
+            {
+              "body": "Qaysi qurilma vazifasi hozir kerakligini ajratamiz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-46",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    127,
+                    128
+                  ],
+                  "printed_pages": [
+                    127,
+                    128
+                  ],
+                  "page_text_sha256": [
+                    "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+                    "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Keraksiz ishlashni to‘xtatish rejasini tanlaymiz.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-46",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    127,
+                    128
+                  ],
+                  "printed_pages": [
+                    127,
+                    128
+                  ],
+                  "page_text_sha256": [
+                    "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+                    "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+                  ]
+                }
+              ]
+            },
+            {
+              "body": "Reja sarfni kamaytirishga qaratilgan; elektr tarmog‘ini ochib tekshirishga emas.",
+              "source_refs": [
+                {
+                  "book_id": "physics-uz-grade-6",
+                  "topic_id": "physics-6-section-46",
+                  "chapter_id": "physics-6-chapter-5",
+                  "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                  "file_name": "fizika_6_uzb.pdf",
+                  "verification": "original_pdf_text_and_image_checked",
+                  "pdf_pages": [
+                    127,
+                    128
+                  ],
+                  "printed_pages": [
+                    127,
+                    128
+                  ],
+                  "page_text_sha256": [
+                    "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+                    "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fact_ids": [
+            "saving",
+            "safety"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127,
+                128
+              ],
+              "printed_pages": [
+                127,
+                128
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7",
+                "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "key": "physics-6-section-46-r1:q1",
+          "response_kind": "concept_selection",
+          "phase": "guided",
+          "public": {
+            "prompt": "Uyda sarflangan elektr energiyasini qaysi asbob hisobga oladi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Termometr"
+              },
+              {
+                "id": "o2",
+                "label": "Elektr hisoblagich"
+              },
+              {
+                "id": "o3",
+                "label": "Faqat ko‘zgu"
+              }
+            ]
+          },
+          "fact_ids": [
+            "meter"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Hisoblagich energiya sarfini hisobga oladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Hisoblagich energiya sarfini hisobga oladi."
+            },
+            "solution": [
+              {
+                "body": "Hisoblagich energiya sarfini hisobga oladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-46",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      127
+                    ],
+                    "printed_pages": [
+                      127
+                    ],
+                    "page_text_sha256": [
+                      "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-46-r1:q2",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Hech kim ko‘rmayotgan televizorni keraksiz ishlatmaslik nima uchun foydali?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Keraksiz energiya sarfini kamaytiradi"
+              },
+              {
+                "id": "o2",
+                "label": "Kuchlanishni albatta nolga aylantiradi"
+              },
+              {
+                "id": "o3",
+                "label": "Barcha boshqa sarflarni avtomatik yo‘q qiladi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "saving"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Tejash vazifasiz ishlashni qisqartirishdan boshlanadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Tejash vazifasiz ishlashni qisqartirishdan boshlanadi."
+            },
+            "solution": [
+              {
+                "body": "Tejash vazifasiz ishlashni qisqartirishdan boshlanadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-46",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      127
+                    ],
+                    "printed_pages": [
+                      127
+                    ],
+                    "page_text_sha256": [
+                      "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-46-r1:q3",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Bir xil yoritish vazifasi uchun tejamkor yoritgich tanlashdan maqsad nima?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Har qanday lampani doim ko‘proq yoqish"
+              },
+              {
+                "id": "o2",
+                "label": "Hisoblagichni chetlab o‘tish"
+              },
+              {
+                "id": "o3",
+                "label": "Kerakli yoritishni kamroq elektr energiyasi bilan olish"
+              }
+            ]
+          },
+          "fact_ids": [
+            "saving"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                128
+              ],
+              "printed_pages": [
+                128
+              ],
+              "page_text_sha256": [
+                "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Darslik tejamkor yoritgichlarni sarfni kamaytirish usuli sifatida ko‘rsatadi.",
+              "incorrect": "Yana o‘ylab ko‘r: Darslik tejamkor yoritgichlarni sarfni kamaytirish usuli sifatida ko‘rsatadi."
+            },
+            "solution": [
+              {
+                "body": "Darslik tejamkor yoritgichlarni sarfni kamaytirish usuli sifatida ko‘rsatadi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-46",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      128
+                    ],
+                    "printed_pages": [
+                      128
+                    ],
+                    "page_text_sha256": [
+                      "fe9a2f4d411567df8a8c094bae6800d7c5674dacc8be2f927a336187d285573f"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-46-r1:q4",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Ushbu raqamli darsdagi xavfsiz vazifa qaysi?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Tarmoqni ochmasdan, berilgan qurilmalar ishlash rejasini tahlil qilish"
+              },
+              {
+                "id": "o2",
+                "label": "Rozetka ichiga buyum kiritish"
+              },
+              {
+                "id": "o3",
+                "label": "Ochiq simni qo‘l bilan sinash"
+              }
+            ]
+          },
+          "fact_ids": [
+            "safety"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o1",
+            "feedback": {
+              "correct": "To‘g‘ri. Tahlil ekranda bajariladi; tarmoq bilan tajriba topshirilmaydi.",
+              "incorrect": "Yana o‘ylab ko‘r: Tahlil ekranda bajariladi; tarmoq bilan tajriba topshirilmaydi."
+            },
+            "solution": [
+              {
+                "body": "Tahlil ekranda bajariladi; tarmoq bilan tajriba topshirilmaydi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-46",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      127
+                    ],
+                    "printed_pages": [
+                      127
+                    ],
+                    "page_text_sha256": [
+                      "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-46-r1:q5",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Elektr plitasi va chang yutkich haqidagi qaysi xulosa mos?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Ikkalasi aynan bitta ishni bajaradi"
+              },
+              {
+                "id": "o2",
+                "label": "Vazifalari turli, ikkalasi ham energiya sarflaydi"
+              },
+              {
+                "id": "o3",
+                "label": "Hech biri elektr energiyasi talab qilmaydi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "devices"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o2",
+            "feedback": {
+              "correct": "To‘g‘ri. Turli foydali vazifalar elektr energiyasi hisobiga bajariladi.",
+              "incorrect": "Yana o‘ylab ko‘r: Turli foydali vazifalar elektr energiyasi hisobiga bajariladi."
+            },
+            "solution": [
+              {
+                "body": "Turli foydali vazifalar elektr energiyasi hisobiga bajariladi.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-46",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      127
+                    ],
+                    "printed_pages": [
+                      127
+                    ],
+                    "page_text_sha256": [
+                      "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "physics-6-section-46-r1:q6",
+          "response_kind": "concept_selection",
+          "phase": "independent",
+          "public": {
+            "prompt": "Hisoblagich bilan voltmetrni qanday ajratamiz?",
+            "options": [
+              {
+                "id": "o1",
+                "label": "Ikkalasi faqat havo temperaturasini o‘lchaydi"
+              },
+              {
+                "id": "o2",
+                "label": "Hisoblagich faqat zaryad ishorasini bildiradi"
+              },
+              {
+                "id": "o3",
+                "label": "Hisoblagich energiya sarfini, voltmetr kuchlanishni o‘lchaydi"
+              }
+            ]
+          },
+          "fact_ids": [
+            "meter"
+          ],
+          "source_refs": [
+            {
+              "book_id": "physics-uz-grade-6",
+              "topic_id": "physics-6-section-46",
+              "chapter_id": "physics-6-chapter-5",
+              "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+              "file_name": "fizika_6_uzb.pdf",
+              "verification": "original_pdf_text_and_image_checked",
+              "pdf_pages": [
+                127
+              ],
+              "printed_pages": [
+                127
+              ],
+              "page_text_sha256": [
+                "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+              ]
+            }
+          ],
+          "grading_spec": {
+            "kind": "concept_selection",
+            "choice_ids": [
+              "o1",
+              "o2",
+              "o3"
+            ],
+            "expected_choice": "o3",
+            "feedback": {
+              "correct": "To‘g‘ri. Bu asboblarning vazifalari turli.",
+              "incorrect": "Yana o‘ylab ko‘r: Bu asboblarning vazifalari turli."
+            },
+            "solution": [
+              {
+                "body": "Bu asboblarning vazifalari turli.",
+                "source_refs": [
+                  {
+                    "book_id": "physics-uz-grade-6",
+                    "topic_id": "physics-6-section-46",
+                    "chapter_id": "physics-6-chapter-5",
+                    "sha256": "ccfe285c53072e33966df6ee22ec50c730ca66b5e16e2202a9ad732c77ea2534",
+                    "file_name": "fizika_6_uzb.pdf",
+                    "verification": "original_pdf_text_and_image_checked",
+                    "pdf_pages": [
+                      127
+                    ],
+                    "printed_pages": [
+                      127
+                    ],
+                    "page_text_sha256": [
+                      "783644c01ddc2649bc68e7632b46e9144f68ce1a18306cd3fda58a9dfe32e9c7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

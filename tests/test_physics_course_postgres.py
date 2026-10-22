@@ -59,7 +59,7 @@ def test_postgres_all_reviewed_batches_append_without_legacy_changes(
         )
         assert result.returncode == 0, result.stderr
     with factory.begin() as db:
-        assert db.query(CurriculumLessonV2).count() == 42
+        assert db.query(CurriculumLessonV2).count() == 46
         db.add(
             User(
                 id=900003, name="Course QA", email="course-qa@example.test", xp_total=0
@@ -86,7 +86,7 @@ def test_postgres_all_reviewed_batches_append_without_legacy_changes(
                 assert result.status_code == 200 and result.json()["xp_awarded"] == 10
                 assert finish(client, attempt).json() == result.json()
         with factory() as db:
-            assert db.get(User, 900003).xp_total == 420
+            assert db.get(User, 900003).xp_total == 460
             assert (
                 db.get(User, 42).xp_total == 137 and db.get(User, 42).streak_days == 3
             )
