@@ -13,13 +13,13 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 61 | 35 | 26 | 145 | 60 | 41 | 236 | 68 | 4 / 1 |
+| 6 | 61 | 42 | 19 | 174 | 60 | 48 | 278 | 68 | 5 / 1 |
 | 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 35 | 281 | 145 | 60 | 41 | 236 | 68 | 4 / 1 |
+| Jami | 316 | 42 | 274 | 174 | 60 | 48 | 278 | 68 | 5 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
 soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
@@ -232,3 +232,36 @@ Yakuniy normal `main.dart` release JS web build ham o‘tdi (49.3s,
 `--no-web-resources-cdn --no-wasm-dry-run`). Current build/web/main.dart.js
 private sandbox JWT’ni o‘z ichiga olmaydi. Bu production deploy yoki WASM/native
 Android build emas. Temporary QA server/konteynerlari tekshiruvdan keyin to‘xtatiladi.
+
+
+## Davom — §36–42, 2026-10-22
+
+GitHub branch HEADlari qayta tekshirildi: backend861bdd8 / Flutter4002bca;
+mavjud35 dars qayta yozilmadi. Yangi7 dars:29 karta,7 original misol,42
+topshiriq (39 konseptual+3 tartiblash). Sun’iy formula/FRQ qo‘shilmadi.
+Manbalar: §36 PDF102–104; §37 104–106; §38 106–108; §39 108–110;
+§40 110–112; §41 112–114; §42 114. Barchasida PDF=bosma.
+13 sahifaning to‘liq matni va asl tasviri qayta ko‘rildi; jami95 asl sahifa
+PDF/text/render hash auditidan o‘tdi. `grade6_batch6.json`/`_review.json`.
+
+Muhim aniqliklar: issiqlik modda emas; ish ichki energiyani o‘zgartirishi
+mumkin, erishda temperatura har doim ortmaydi. Suvning4°C istisnosi,
+modda oqimli konveksiya, vakuumdan o‘tadigan nurlanish va termosning
+yaltiroq sirti alohida o‘rgatiladi. Ibn Sinoning tarixiy havo taxmini
+zamonaviy muz suzishi sababi sifatida berilmaydi. Selsiy tayanchida
+toza suv/normal bosim sharti bor. §42 faqat raqamli qayd va reja;
+real tajriba bajarilganlik yoki aralashma uchun sun’iy o‘rtacha formula yo‘q.
+
+Amaldagi testlar: Physics **89 passed (21.49s)**, yangi semantik javob
+kalitlari va barcha chalg‘ituvchi variantlar/tartiblar tekshirildi. To‘liq42
+darsning HTTP/javob/replay/complete oqimi **420 XP** bilan o‘tdi. Flutter
+Physics **17 passed**; backend boshlang‘ich cheklangan socket muhiti va
+Flutter socket testi bloklangach, ruxsatli muhitda qayta bajarildi.
+Biology curriculum/completion regressionlari **22 passed (3.39s)**.
+Keng backend/haqiqiyPG/native Android natijasi bu partiya uchun yangidan
+da’vo qilinmaydi. GitHub tekshiruvi dastlab approval-review usage limitiga
+uchradi, keyingi urinishda ishladi; xavfsizlik cheklovi chetlab o‘tilmadi.
+
+**42/316;274 qolgan. Keyingi nuqta: 6-sinf §43, PDF/bosma118.**
+Keyingi elektr manba sahifalari118–128 matn/tasvirlari o‘qildi; mualliflik
+keyingi partiyada. Boshqa sinflar0 authored; oraliq tasdiq kutilmaydi.

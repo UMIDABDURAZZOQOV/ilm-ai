@@ -126,8 +126,8 @@ def test_original_frozen_content_and_honest_course_coverage():
         == "8d13627ce9275bda5a402b86d4ea94d67b1892c1538189c88dcc51891a3c6a78"
     )
     data = report()
-    assert (data["authored"], data["remaining"], data["source_total"]) == (35, 281, 316)
-    assert [r["authored"] for r in data["grades"]] == [35, 0, 0, 0, 0, 0]
+    assert (data["authored"], data["remaining"], data["source_total"]) == (42, 274, 316)
+    assert [r["authored"] for r in data["grades"]] == [42, 0, 0, 0, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -135,9 +135,9 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["frq"],
         row["laboratories"],
         row["practicals"],
-    ) == (145, 236, 68, 4, 1)
-    assert row["next_section"] == 36
-    assert len(load_course()) == 5
+    ) == (174, 278, 68, 5, 1)
+    assert row["next_section"] == 43
+    assert len(load_course()) == 6
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -327,7 +327,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 350
+        assert db.get(User, 1).xp_total == 420
 
 
 @pytest.mark.parametrize(
