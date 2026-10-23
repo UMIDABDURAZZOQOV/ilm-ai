@@ -17,3 +17,10 @@ telegram_bot/__pycache__/
 data/*.db
 
 *.log
+
+# Chemistry source PDFs, OCR, rendered pages and isolated QA stay local.
+.local/
+*.pdf
+*.ocr.txt
+*.sqlite
+*.sqlite3
