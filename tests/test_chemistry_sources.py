@@ -34,8 +34,16 @@ def test_contents_discrepancies_preserve_original_pointer_and_verified_body_star
         assert record['start_locator']=={'pdf_page':body,'region':'full'}
 
 
+def test_known_source_conflict_cannot_silently_lose_its_review_hold():
+    c=deepcopy(load_catalog())
+    row=next(r for r in c['books'][2]['records'] if r['id']=='ch9-paragraph40')
+    assert row['source_review_hold']['printed_pages']==[186]
+    row.pop('source_review_hold')
+    with pytest.raises(ValueError,match='known_source_conflict'):validate_catalog(c)
+
+
 @pytest.mark.parametrize('mutation', ['digest','missing','duplicate','region',
-    'ocr_only','prerequisite','range','physical','container','grade'])
+    'ocr_only','prerequisite','range','physical','container','grade','renamed_source'])
 def test_validator_rejects_source_or_coverage_tampering(mutation):
     c=deepcopy(load_catalog()); b=c['books'][0]
     r=next(r for r in b['records'] if r['kind']=='paragraph')
@@ -49,4 +57,7 @@ def test_validator_rejects_source_or_coverage_tampering(mutation):
     if mutation=='physical': next(x for x in b['records'] if x['kind']=='laboratory')['digital_activity_policy']['physical_execution_required']=True
     if mutation=='container': r['chapter_id']='missing'
     if mutation=='grade': c['books'][-1]['grade']=10
+    if mutation=='renamed_source':
+        b['file_name']='unreviewed-edition.pdf'
+        for record in b['records']:record['source_file']=b['file_name']
     with pytest.raises(ValueError): validate_catalog(c)

@@ -52,6 +52,8 @@ def write_maps(catalog, progress):
             start, end = r["start_locator"], r["end_locator"]
             location = f"{start['pdf_page']}:{start['region']} – {end['pdf_page']}:{end['region']}"
             status = "reviewed local lesson" if r["kind"] in {"paragraph", "laboratory", "practical"} and r["id"] not in remaining else r["content_status"]
+            if r.get('source_review_hold',{}).get('status') == 'open':
+                status = 'blocked: source review ' + r['source_review_hold']['id']
             lines.append(f"| `{r['id']}` | {r['kind']} {r.get('number') or ''} | {r['title'].replace('|', '/')} | {r['printed_start']}–{r['printed_end']} | {location} | {r.get('toc_printed_start') or 'body only'} | {status} | {', '.join(r['prerequisite_ids']) or '—'} |")
         (folder / f"grade_{grade}_map.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -76,6 +78,8 @@ def main():
               "catalogue_records": sum(len(b["records"]) for b in catalog["books"]),
               "source_teaching_entries": sum(s["source_teaching_entries"] for s in progress),
               "implemented_lessons": len(lessons), "grades": progress,
+              "open_source_review_holds": sum(r.get('source_review_hold',{}).get('status') == 'open'
+                                               for b in catalog['books'] for r in b['records']),
               "full_fact_formula_review_complete": False}
     if args.pdf_dir:
         result["original_pdf_pages_decoded"] = audit_originals(catalog, args.pdf_dir)

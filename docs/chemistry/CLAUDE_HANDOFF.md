@@ -1,7 +1,7 @@
 # Central CLAUDE.md handoff: Chemistry
 
-Integrate this summary into the central project history after review; this task
-does not overwrite the shared Biology worktree's CLAUDE.md.
+The central CLAUDE.md in the Chemistry branch records this permanent requirement
+and links this handoff. The shared Biology worktree's CLAUDE.md was not changed.
 
 User's permanent rule: **all subject knowledge must come only from user-provided,
 verified textbooks**. No unverified memory, OCR guesses, replacement facts or live
@@ -12,6 +12,7 @@ Full requirements: docs/chemistry/REQUIREMENTS.md.
 
 Chemistry branches: backend/Flutter `feat/chemistry-curriculum` in separate
 worktrees, from stable Biology `c0f84d0` and polished UI `444743b` respectively.
+Reviewed Flutter implementation was pushed at `14b3407` (first preview `4642e38`).
 Physics code `07f748b`/`cf01011` read-only. Its unfinished v2 FRQ remains local
 preview, not an already available production mechanism. Use the same learning,
 server grading, XP/progress/prerequisite/replay rules across subjects; do not
@@ -23,6 +24,13 @@ grades10/11 scans require original-image review. Catalogue:29 chapters,
 204 paragraphs,49 laboratories,15 practicals,327 records/268 teaching entries.
 All source maps exist; this does not mean all interactive content is ready.
 Current interactive counts and exact next source: CURRICULUM_PROGRESS.md.
+
+First local lesson: `chemistry-7-p01-r1`, eight cards, nine MCQ, three short-text
+FRQ; printed3–8 with spread regions. Strict deterministic input and source gates,
+immutable server snapshots, ordered/replayed answers and once-only XP are tested.
+The known grade9 §40/page186 contradiction has a machine-enforced review hold.
+All other267 source teaching entries remain unauthored. Next is7-sinf §2,
+printed9/PDF5:right. Formula/equation/numeric grading is not yet implemented.
 
 PDFs/OCR/page renders stay private. Drafts never auto-import. Test-only explicit
 allowlist, source validation and isolated DB required; production data/user

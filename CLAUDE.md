@@ -2757,3 +2757,28 @@ Flutterdagi **`ANDROID_BIOLOGY_QA.md`** Windows uchun to‘liq PowerShell buyruq
 **Productionga hozir deploy qilinmaydi.** Alohida mobil namespace yangi visibility qoidalaridan vebni ajratadi, ammo oldingi feature branchdagi authoritative grading bilan vebning yetti legacy practice payloadi o‘rtasidagi **422 nomuvofiqligi** hanuz rollout bloklovchisi. Uni yashirish uchun `is_correct` yoki `score/total`ga ishonish tiklanmadi. Veb kodi o‘zgartirilmadi. Haqiqiy Google Console/telefon tekshiruvi, signed Android build va production migration/import rejasi alohida review/ruxsat talab qiladi.
 
 Barcha ish backend va Flutter **`feat/biology-curriculum`** branchlarida saqlanadi. `main` merge, production import/migratsiya/deploy, Play Market nashri yoki maxfiy kalit almashtirish bajarilmagan. Asosiy kontentni qayta yaratmang: keyingi nuqta — qo‘llanmadagi real Android/Google QA va alohida tasdiqlangan staging/rollout rejasi.
+
+## 2026-10-24 — Kimyo: o‘zgarmas manba talabi va alohida branch
+
+**Barcha fan bilimlari faqat foydalanuvchi bergan, tekshirilgan darsliklardan
+olinsin.** AI xotirasi, OCR taxmini yoki yetishmagan sahifa o‘rniga yozilgan
+ma’lumot tayyor bilim hisoblanmaydi. Original nazariya, MCQ/FRQ, formula,
+javob va feedback aniq paragraf, kitob beti va PDF sahifasiga bog‘lansin.
+7-sinf yoyilmalarida chap/o‘ng tomon saqlansin. Ilmiy ziddiyat review’ga chiqsin.
+PDF, to‘liq matn, OCR va manba rasmlari GitHub’ga qo‘yilmasin.
+
+To‘liq doimiy topshiriq: `docs/chemistry/REQUIREMENTS.md`;
+handoff: `docs/chemistry/CLAUDE_HANDOFF.md`. Kimyo backend/Flutter alohida
+`feat/chemistry-curriculum` worktree’larida. Biologiya va Fizika branchlariga
+tegilmadi. Fizikaning tugallanmagan v2 FRQ’si production imkoniyati emas;
+uning umumiy protokoli alohida lokal Kimyo preview’siga moslashtirildi.
+Nazariya, MCQ/FRQ, feedback, XP/progress, prerequisite va replay qoidalari
+fanlararo izchil qolsin. AI funksiyasi qo‘shilmasin.
+
+Besh darslik: 817 PDF sahifasi; xarita: 29 bob, 204 paragraf, 49 laboratoriya,
+15 amaliy ish, jami 268 ta o‘quv yozuvi. 327 katalog yozuvi barcha qo‘shimcha
+sarlavha va ichki faoliyatlarni ham saqlaydi. Hozir faqat 7-sinf §1 lokal
+preview darsi: 8 nazariya kartasi, 9 MCQ, 3 qisqa FRQ. Qolgan267 mavzu tayyor
+dars emas; barcha course-ready belgisi false. Keyingi manba §2, 9-bet/PDF5:o‘ng.
+Joriy holat va haqiqiy test natijalari: `docs/chemistry/CURRICULUM_PROGRESS.md`
+va `docs/chemistry/QA_REPORT.md`. Production import, main merge va deploy yo‘q.

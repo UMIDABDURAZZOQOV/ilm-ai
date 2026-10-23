@@ -16,7 +16,7 @@ local/test-only preview with private rubrics, immutable StudySession snapshots,
 authenticated ownership, 24-hour expiry, ordered answers, replay fingerprints,
 StudyEvent ledger and once-only completion XP. It is not production-ready FRQ.
 
-Chemistry will use this same versioned contract through an isolated local preview
+Chemistry uses this same versioned contract through an isolated local preview
 adapter and separate opt-in tables/namespace. No change to Physics files,
 Biology validators, startup import, mobile publication allowlist or main routes.
 Before eventual shared-engine consolidation, compare pinned contract tests and

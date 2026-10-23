@@ -159,7 +159,8 @@
             "status": "body_text_heading_verified",
             "method": "embedded_text_and_visually_reviewed_contents",
             "reviewed_on": "2026-10-24",
-            "local_page_image_sha256": "0aa2fad205f768bbe98bb76d1079199dd5497236bf080edc28c751db30608a1b"
+            "local_page_image_sha256": "dcadaecb45b5fd322c3669d258b425c6a3e10a46973a6768ff686da78e98f7b0",
+            "render_review_note": "Re-rendered at 2200px and visually re-reviewed with all first-paragraph source pages"
           },
           "content_status": "not_authored",
           "interactive_status": "not_implemented",
@@ -8824,11 +8825,24 @@
           "source_file": "kimyo_9_uzb.pdf",
           "source_sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
           "title_original": "Davriy qonun va elementlar davriy sistemasining ahamiyati",
-          "fact_review_status": "not_started",
+          "fact_review_status": "blocked_source_conflict",
           "end_boundary": {
             "record_id": "ch9-paragraph41",
             "printed_page": 189,
             "before_heading": true
+          },
+          "source_review_hold": {
+            "id": "ch9-p40-page186-configuration-conflict",
+            "status": "open",
+            "kind": "internal_scientific_contradiction",
+            "printed_pages": [
+              186
+            ],
+            "pdf_pages": [
+              186
+            ],
+            "region": "full",
+            "note": "Worked example prose and displayed outer configurations disagree; see SOURCE_REVIEW.md. No affected lesson may be imported until an explicit source-backed review resolves the hold."
           }
         },
         {

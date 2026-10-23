@@ -13,10 +13,16 @@ from catalogue containers, prefaces, subtopics and chapter reviews.
 The catalogue has **327 records**, including those additional source anchors.
 This is source mapping, not 268 finished interactive lessons.
 
+Grade7 §1 now has a reviewed local lesson: eight original teaching cards,
+nine MCQ and three short-text FRQ. The isolated v2 API and separate Flutter QA
+entrypoint reuse ILM AI learning components. **1/268** source teaching entries
+are implemented; all five course-ready flags remain false. No AI feature added.
+
 - [Source review](SOURCE_REVIEW.md)
 - [Exact progress](CURRICULUM_PROGRESS.md)
 - [Common MCQ/FRQ contract and integration plan](MCQ_FRQ_PLAN.md)
 - [Actual QA results](QA_REPORT.md)
+- [Run the isolated local preview](LOCAL_PREVIEW.md)
 - [Central CLAUDE.md handoff](CLAUDE_HANDOFF.md)
 - Course maps: [7](grade_7_map.md), [8](grade_8_map.md), [9](grade_9_map.md),
   [10](grade_10_map.md), [11](grade_11_map.md).

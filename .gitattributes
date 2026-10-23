@@ -1,0 +1,3 @@
+# Reviewed manifests are SHA-pinned; Windows checkout must preserve Git bytes.
+scripts/curriculum/*.json text eol=lf
+scripts/curriculum/chemistry/*.json text eol=lf

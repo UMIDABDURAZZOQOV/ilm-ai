@@ -20,8 +20,16 @@ PINNED_SOURCES = {
     10: ("b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6", 160, 35, 4, 6, 0),
     11: ("ee3d429585691951eb0f5529553f5879869cd084e1886e01b950d6971cf2952b", 160, 33, 8, 0, 0),
 }
+PINNED_IDENTITIES = {
+    7: ('chemistry-7-uz-2017', 'kimyo_7_uzb.pdf'),
+    8: ('chemistry-8-uz-2019', 'kimyo_8_uzb.pdf'),
+    9: ('chemistry-9-uz-2019', 'kimyo_9_uzb.pdf'),
+    10: ('chemistry-10-uz-2017', 'organik_kimyo_10_uzb.pdf'),
+    11: ('chemistry-11-uz-2018', 'umumiy_kimyo_11_uzb.pdf'),
+}
 TEACHING_KINDS = {"paragraph", "laboratory", "practical"}
 HEADING_STATES = {"body_text_heading_verified", "body_image_heading_verified"}
+KNOWN_SOURCE_HOLDS = {'ch9-paragraph40': 'ch9-p40-page186-configuration-conflict'}
 
 
 def read_json(path):
@@ -57,6 +65,8 @@ def validate_catalog(catalog):
     for book in books:
         grade = book["grade"]
         digest, pages, paras, chapters, labs, practicals = PINNED_SOURCES[grade]
+        if (book.get('id'),book.get('file_name')) != PINNED_IDENTITIES[grade]:
+            raise ValueError('pinned_source_identity_required')
         if (book.get("sha256") != digest or book.get("pdf_page_count") != pages
                 or book.get("decoded_pages") != pages or book.get("source_status") != "mapped"):
             raise ValueError("unreviewed_source_identity_or_page_count")
@@ -84,6 +94,11 @@ def validate_catalog(catalog):
         if starts != sorted(starts):
             raise ValueError("source_order_changed")
         for r in records:
+            if r['id'] in KNOWN_SOURCE_HOLDS and (
+                    r.get('source_review_hold',{}).get('id') != KNOWN_SOURCE_HOLDS[r['id']]
+                    or r.get('source_review_hold',{}).get('status') != 'open'
+                    or r.get('fact_review_status') != 'blocked_source_conflict'):
+                raise ValueError('known_source_conflict_must_remain_on_review_hold')
             if (r.get("source_id") != book["id"] or r.get("source_sha256") != digest
                     or r.get("source_file") != book["file_name"]):
                 raise ValueError("record_source_identity_mismatch")
@@ -126,3 +141,151 @@ def readiness(catalog, lessons=()):
                        "remaining_ids": [r["id"] for r in rows if r["id"] not in ready],
                        "course_ready": all(r["id"] in ready for r in rows)})
     return result
+
+
+def require(condition, code):
+    if not condition:
+        raise ValueError(code)
+
+
+def validate_lesson(catalog, lesson, review):
+    """Validate evidence/content shape, taught facts and deterministic keys."""
+    from services.chemistry_grading import normalized_text, grade_answer
+
+    validate_catalog(catalog)
+    require(lesson.get("schema_version") == 1 and lesson.get("assessment_version") == 2
+            and lesson.get("subject") == "kimyo" and lesson.get("language") == "uz"
+            and lesson.get("authorship") == "original_fact_based_adaptation"
+            and lesson.get("publication") == "local_test_preview_only",
+            "original_source_based_uzbek_lesson_required")
+    book = next((b for b in catalog["books"] if b["id"] == lesson["book_id"]), None)
+    require(book is not None and lesson["grade"] == book["grade"], "lesson_book_mismatch")
+    topic = next((r for r in book["records"] if r["id"] == lesson["topic_id"]), None)
+    require(topic and topic["kind"] in TEACHING_KINDS, "source_topic_required")
+    require(topic['id'] not in KNOWN_SOURCE_HOLDS and
+            topic.get('source_review_hold',{}).get('status') != 'open',
+            'unresolved_source_review_issue')
+    require(lesson.get("sequence") == topic["sequence"] and
+            lesson.get("prerequisite_ids") == topic["prerequisite_ids"], "lesson_order_mismatch")
+    require(type(lesson.get("revision")) is int and lesson["revision"] > 0,
+            "positive_reviewed_revision_required")
+    pages = {p["review_id"]: p for p in review.get("source_pages", [])}
+    require(pages and len(pages) == len(review["source_pages"]), "unique_page_review_required")
+
+    def source_refs(refs):
+        require(type(refs) is list and refs, "source_references_required")
+        for ref in refs:
+            evidence = pages.get(ref.get("review_id"))
+            require(evidence and evidence.get("verification") == "page_image_reviewed"
+                    and ref.get("verification") == "page_image_reviewed"
+                    and re.fullmatch(r"[0-9a-f]{64}", evidence.get("page_image_sha256", "")),
+                    "original_page_image_review_required")
+            require(ref.get("book_id") == book["id"] == evidence["book_id"]
+                    and ref.get("sha256") == book["sha256"] == evidence["sha256"]
+                    and ref.get("file_name") == book["file_name"]
+                    and ref.get("topic_id") == topic["id"] == evidence["topic_id"]
+                    and ref.get("paragraph") == topic["number"], "claim_source_identity_mismatch")
+            require(ref.get('book_title') == book['title'] and ref.get('authors') == book['authors']
+                    and ref.get('year') == book['year'] and ref.get('topic_title') == topic['title'],
+                    'claim_bibliography_mismatch')
+            pp = ref.get("printed_pages", [])
+            require(pp == [evidence["printed_page"]] and
+                    topic["printed_start"] <= pp[0] <= topic["printed_end"], "claim_outside_topic")
+            loc = page_locator(book["grade"], pp[0])
+            require(ref.get("pdf_pages") == [loc["pdf_page"]] == [evidence["pdf_page"]]
+                    and ref.get("regions") == [loc["region"]] == [evidence["region"]],
+                    "claim_pdf_printed_region_mismatch")
+
+    source_refs(lesson.get("source_refs"))
+    facts = lesson.get("facts", {})
+    require(type(facts) is dict and facts, "reviewed_facts_required")
+    for f in facts.values():
+        require(type(f.get("claim")) is str and f["claim"] and f.get("verified_answers")
+                and all(type(a) is str and a for a in f["verified_answers"]), "fact_answer_evidence_required")
+        source_refs(f.get("source_refs"))
+    content = lesson.get("content", {})
+    require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
+            and content["xp_reward"] == 20, "common_learning_content_required")
+    # This first conceptual batch must not be used as a fake formula engine.
+    require(not content["formulas"] and not content["examples"], "unreviewed_calculation_extension")
+    source_refs(content["source_refs"])
+    require(content["cards"] and lesson.get("assessments"), "teaching_and_assessments_required")
+    taught = set()
+
+    def fact_links(item):
+        ids = item.get("fact_ids", [])
+        require(ids and len(ids) == len(set(ids)) and set(ids) <= facts.keys(), "unknown_fact_reference")
+        source_refs(item.get("source_refs"))
+        needed = {fingerprint(r) for fid in ids for r in facts[fid]["source_refs"]}
+        require(needed <= {fingerprint(r) for r in item["source_refs"]}, "missing_fact_citation")
+        return set(ids)
+
+    for card in content["cards"]:
+        require(set(card) == {"title", "body", "source_refs", "fact_ids"}
+                and type(card["title"]) is str and card["title"]
+                and type(card["body"]) is str and card["body"], "original_card_required")
+        taught |= fact_links(card)
+    require(taught == facts.keys(), "untaught_fact_in_lesson")
+    keys, prompts = set(), set()
+    for q in lesson["assessments"]:
+        require(q.get("key") and q["key"] not in keys, "duplicate_assessment_key")
+        keys.add(q["key"])
+        ids = fact_links(q)
+        require(ids <= taught, "question_fact_not_taught")
+        public, spec = q["public"], q["grading_spec"]
+        require(type(public.get("prompt")) is str and public["prompt"]
+                and public["prompt"].casefold() not in prompts, "unique_original_prompt_required")
+        prompts.add(public["prompt"].casefold())
+        require(spec.get("kind") == q["response_kind"], "assessment_kind_mismatch")
+        verified = {normalized_text(a) for fid in ids for a in facts[fid]["verified_answers"]}
+        require(normalized_text(spec["verified_answer"]) in verified, "unverified_answer_key")
+        if q["response_kind"] == "concept_selection":
+            require(set(public) == {"prompt", "options"}, "private_or_unknown_prompt_field")
+            options = public["options"]
+            require(len(options) == 4 and all(set(o) == {"id", "label"} for o in options)
+                    and len({o["id"] for o in options}) == 4
+                    and len({o["label"].casefold() for o in options}) == 4,
+                    "four_unique_mcq_options_required")
+            correct = [o for o in options if o["id"] == spec["expected"]]
+            require(len(correct) == 1 and correct[0]["label"] == spec["verified_answer"], "mcq_answer_fact_mismatch")
+            require(spec.get("choice_ids") == [o["id"] for o in options], "choice_allowlist_required")
+            sample = {"choice_id": spec["expected"]}
+        elif q["response_kind"] == "short_text":
+            require(set(public) == {"prompt", "input_label", "max_length"}
+                    and public["max_length"] == 80 and public["input_label"], "bounded_short_text_input_required")
+            require(spec["expected"] == spec["verified_answer"] and spec.get("aliases")
+                    and normalized_text(spec["expected"]) in {normalized_text(a) for a in spec["aliases"]},
+                    "reviewed_text_aliases_required")
+            sample = {"value": spec["expected"]}
+        else:
+            raise ValueError("unreviewed_response_kind")
+        require(grade_answer(spec, sample) == "correct", "deterministic_answer_key_failed")
+        require(set(spec.get("feedback", {})) == {"correct", "incorrect", "invalid_answer", "answer_required"}
+                and all(type(s) is str and s for s in spec["feedback"].values()), "authored_feedback_required")
+        require(spec.get("solution"), "source_linked_solution_required")
+        for step in spec["solution"]:
+            require(step.get("body") and fact_links(step) <= ids, "solution_fact_not_taught")
+    return book, topic
+
+
+def load_lessons(catalog=None):
+    """Only explicit digest-pinned reviewed files; never glob JSON drafts."""
+    catalog = catalog or load_catalog()
+    index = read_json(DIRECTORY / "chemistry_lessons.json")
+    require(index.get("schema_version") == 1 and index.get("subject") == "kimyo", "reviewed_index_required")
+    lessons, keys, topics = [], set(), set()
+    for item in index["lessons"]:
+        require(Path(item["file"]).name == item["file"] and
+                Path(item["review_file"]).name == item["review_file"], "manifest_path_escape")
+        path = DIRECTORY / item["file"]
+        review = read_json(DIRECTORY / item["review_file"])
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        require(digest == item["sha256"] == review["lesson_sha256"]
+                and review["lesson_file"] == item["file"]
+                and review.get("original_authorship") is True, "changed_content_requires_new_review")
+        lesson = read_json(path)
+        validate_lesson(catalog, lesson, review)
+        require(lesson["key"] not in keys and lesson["topic_id"] not in topics, "duplicate_indexed_lesson")
+        keys.add(lesson["key"]); topics.add(lesson["topic_id"])
+        lessons.append(lesson)
+    return lessons

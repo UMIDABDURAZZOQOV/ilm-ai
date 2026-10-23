@@ -20,6 +20,7 @@ data/*.db
 
 # Chemistry source PDFs, OCR, rendered pages and isolated QA stay local.
 .local/
+.pytest_cache/
 *.pdf
 *.ocr.txt
 *.sqlite

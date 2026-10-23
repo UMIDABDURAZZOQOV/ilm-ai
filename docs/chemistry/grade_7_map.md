@@ -10,7 +10,7 @@ Individual lesson claims require their own reviewed source refs.
 | ID | Kind / number | Original heading | Printed | PDF / region | TOC start | Content | Prerequisite |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ch7-chapter01` | chapter 1 | Kimyoning asosiy tushuncha va qonunlari | 3–54 | 2:right – 28:left | 3 | not_authored | — |
-| `ch7-paragraph01` | paragraph 1 | Kimyo fani va uning vazifalari. Fan sifatida rivojlanish tarixi | 3–9 | 2:right – 5:right | 3 | not_authored | — |
+| `ch7-paragraph01` | paragraph 1 | Kimyo fani va uning vazifalari. Fan sifatida rivojlanish tarixi | 3–9 | 2:right – 5:right | 3 | reviewed local lesson | — |
 | `ch7-scientists` | subtopic  | O‘zbekiston kimyogar olimlarining kimyo faniga qo‘shgan hissalari | 5–9 | 3:right – 5:right | 5 | not_authored | — |
 | `ch7-paragraph02` | paragraph 2 | Modda va uning xossalari | 9–10 | 5:right – 6:left | 9 | not_authored | ch7-paragraph01 |
 | `ch7-practical01` | practical 1 | Kimyo xonasidagi jihozlar bilan ishlashda mehnat xavfsizligi qoidalari bilan tanishish | 10–12 | 6:left – 7:left | 10 | not_authored | ch7-paragraph02 |

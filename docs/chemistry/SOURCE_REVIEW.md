@@ -85,5 +85,22 @@ contradiction was found while checking headings:
   retains `3p⁵`. Do not import that worked answer as a verified rule. Preserve the
   source and require scientific review before that lesson is authored.
 
+This issue is also an open, machine-readable source hold on `ch9-paragraph40`.
+The validator rejects a lesson for that topic and refuses deletion of the known
+hold. Explicit source-backed resolution and validation changes are required;
+an image-reviewed page alone cannot silently approve contradictory content.
+
 No missing page or uncertain OCR is replaced by a model-generated fact. No expert
 teacher sign-off, current-syllabus approval or complete scientific inventory is claimed.
+
+## First authored source review
+
+Grade7 §1 was read from all original images for printed3–8: PDF2:right,
+PDF3:left/right, PDF4:left/right and PDF5:left. PDF3–5 were re-rendered at2200px
+for readable review. Each page/region and render SHA is recorded in
+`grade7_paragraph01_review.json`; the explicit lesson index pins the UTF-8/LF
+manifest digest. The earlier heading render hash for `ch7-scientists` was updated
+to the reviewed higher-resolution image, without changing the source PDF hash.
+The reviewed adaptation is original prose, not textbook OCR pasted as lessons.
+Biographical claims are scoped to the supplied2017 edition; no current-status,
+clinical, unverified historical-priority or physical-experiment claim was added.
