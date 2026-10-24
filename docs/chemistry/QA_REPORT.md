@@ -439,3 +439,31 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No new AI,notation/prediction engine,production/main/other-subject/real-user/
   PDF/OCR/fulltext/token operation or fresh teacher/PG/full-backend certification.
   All whole-course-ready flags remain false.
+
+
+## Batch14 — 2026-10-24
+
+- Labs4–11:**69/268 implemented,199 remaining**. Grade7:69/74,last5 labs remain.
+  New28 cards/51 questions:20 MCQ,11 short,3 numeric,8 formula,9 equation.
+  Total445 cards/681 assessments:286 MCQ,141 short,121 numeric,61 formula,
+  72 equation. Nine integrated chapter reviews,not extra teaching entries.
+- Full Chemistry **345 passed,1 skipped,1 existing warning,673.17s**. Final
+  target **20 passed/45.69s**. Initial target19 passed/one test-only expected-code
+  error:lowercase cu is invalid chemical syntax,not a well-formed wrong formula.
+  Test corrected to existing invalid_answer behaviour;grader unchanged. Critical
+  Ruff clean;original§1 and prior61 manifest bytes unchanged.
+- Full Flutter **490 passed/218s**. No Dart/fixture change in this batch;latest
+  analysis65.2s and200% lab captures belong to batch13,not a new visual claim.
+- Real HTTP preserved61 completions/1220XP,passed51 new questions,added160XP
+  once,total69/1380XP. Completion replay identical;private grading hidden.
+  Synthetic900003 only,real users/previous immutable snapshots unchanged.
+- All817 source pages decoded,five SHA identities verified. One scientific
+  blocker and25 editorial reviews remain. No invented blank-table values,
+  physical observations,efficiency figures or silent correction.
+- Original Fe/CuCl2 and full-neutralisation balancing models explicitly give
+  products and cite earlier rule/formula evidence. Printed Zn/HCl and CuO/H2
+  equations remain exact source contexts. Shared MCQ/FRQ/XP/prerequisite/replay
+  unchanged;no new teaching or notation/prediction/AI mechanism.
+- No actual heat/flame/acid/gas/mercury handling,clinical/pest procedure,
+  production/main/real-user/other-subject/PDF/OCR/fulltext/token operation or fresh
+  teacher/native/browser/IME/TalkBack/PG/full-backend certification. Ready false.

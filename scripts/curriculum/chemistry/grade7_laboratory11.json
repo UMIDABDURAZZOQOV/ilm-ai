@@ -1,0 +1,1728 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 69,
+  "key": "chemistry-7-lab11-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory11",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory10"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory11",
+      "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+      "paragraph": 11,
+      "printed_pages": [
+        153
+      ],
+      "pdf_pages": [
+        77
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory11-page153"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-1",
+      "topic_title": "I bobga doir masalalar yechish",
+      "paragraph": null,
+      "printed_pages": [
+        50
+      ],
+      "pdf_pages": [
+        26
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-1-page50"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph44",
+      "topic_title": "Kislotalarning olinishi va xossalari",
+      "paragraph": 44,
+      "printed_pages": [
+        119
+      ],
+      "pdf_pages": [
+        60
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph44-page119"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph40",
+      "topic_title": "Asoslarning olinishi va xossalari",
+      "paragraph": 40,
+      "printed_pages": [
+        111
+      ],
+      "pdf_pages": [
+        56
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph40-page111"
+    }
+  ],
+  "facts": {
+    "task": {
+      "claim": "Mavzu mis(II)-gidroksid va temir(III)-gidroksidni suvda erimaydigan asoslar sifatida, ularning kislotalar bilan o‘zaro ta’sirini solishtiradi.",
+      "verified_answers": [
+        "Cu(OH)2",
+        "Fe(OH)3",
+        "Asoslar"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        }
+      ]
+    },
+    "copper": {
+      "claim": "Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+      "verified_answers": [
+        "Cu(OH)2+H2SO4=CuSO4+2H2O",
+        "CuSO4",
+        "Suv"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-1",
+          "topic_title": "I bobga doir masalalar yechish",
+          "paragraph": null,
+          "printed_pages": [
+            50
+          ],
+          "pdf_pages": [
+            26
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-1-page50"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    "iron": {
+      "claim": "Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+      "verified_answers": [
+        "Fe(OH)3+3HCl=FeCl3+3H2O",
+        "FeCl3",
+        "Suv"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            111
+          ],
+          "pdf_pages": [
+            56
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page111"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    "evidence": {
+      "claim": "Matn eritma rangi va ajratiladigan kristallarga e’tibor berishni so‘raydi, lekin natijalarni son yoki aniq rang jadvali bilan bermaydi. Raqamli hisobotda faqat berilgan dalil yoziladi.",
+      "verified_answers": [
+        "Dalil",
+        "Hisobot"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Ikki asosni solishtirish",
+        "body": "Cu(OH)₂ va Fe(OH)₃ — shu mavzudagi suvda erimaydigan asoslar. Har birining kislota bilan berilgan juftligi alohida tahlil qilinadi.",
+        "fact_ids": [
+          "task"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory11",
+            "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+            "paragraph": 11,
+            "printed_pages": [
+              153
+            ],
+            "pdf_pages": [
+              77
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory11-page153"
+          }
+        ]
+      },
+      {
+        "title": "Mis uchun original model",
+        "body": "Mahsulotlari CuSO₄ va H₂O deb berilgan to‘liq neytrallanish modeli: Cu(OH)₂ + H₂SO₄ = CuSO₄ + 2H₂O. Avvalgi manbalar formulalar va neytrallanish qoidasini beradi.",
+        "fact_ids": [
+          "copper"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory11",
+            "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+            "paragraph": 11,
+            "printed_pages": [
+              153
+            ],
+            "pdf_pages": [
+              77
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory11-page153"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-1",
+            "topic_title": "I bobga doir masalalar yechish",
+            "paragraph": null,
+            "printed_pages": [
+              50
+            ],
+            "pdf_pages": [
+              26
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-1-page50"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph44",
+            "topic_title": "Kislotalarning olinishi va xossalari",
+            "paragraph": 44,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              60
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph44-page119"
+          }
+        ]
+      },
+      {
+        "title": "Temir uchun original model",
+        "body": "Mahsulotlari FeCl₃ va H₂O deb berilgan model: Fe(OH)₃ + 3HCl = FeCl₃ + 3H₂O. Uchta OH guruhi va suv koeffitsiyentini birga tekshiring.",
+        "fact_ids": [
+          "iron"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory11",
+            "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+            "paragraph": 11,
+            "printed_pages": [
+              153
+            ],
+            "pdf_pages": [
+              77
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory11-page153"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph40",
+            "topic_title": "Asoslarning olinishi va xossalari",
+            "paragraph": 40,
+            "printed_pages": [
+              111
+            ],
+            "pdf_pages": [
+              56
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph40-page111"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph44",
+            "topic_title": "Kislotalarning olinishi va xossalari",
+            "paragraph": 44,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              60
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph44-page119"
+          }
+        ]
+      },
+      {
+        "title": "Kuzatuv natijasini uydirmaslik",
+        "body": "Manba rang va kristalni solishtirishni so‘raydi. Lekin berilmagan aniq rang yoki kristall ko‘rinishini haqiqiy natija deb yozmaymiz. Tenglama modeli bilan kuzatuv dalili ajratiladi.",
+        "fact_ids": [
+          "evidence"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory11",
+            "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+            "paragraph": 11,
+            "printed_pages": [
+              153
+            ],
+            "pdf_pages": [
+              77
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory11-page153"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory11",
+        "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+        "paragraph": 11,
+        "printed_pages": [
+          153
+        ],
+        "pdf_pages": [
+          77
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory11-page153"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-1",
+        "topic_title": "I bobga doir masalalar yechish",
+        "paragraph": null,
+        "printed_pages": [
+          50
+        ],
+        "pdf_pages": [
+          26
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-1-page50"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph44",
+        "topic_title": "Kislotalarning olinishi va xossalari",
+        "paragraph": 44,
+        "printed_pages": [
+          119
+        ],
+        "pdf_pages": [
+          60
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph44-page119"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph40",
+        "topic_title": "Asoslarning olinishi va xossalari",
+        "paragraph": 40,
+        "printed_pages": [
+          111
+        ],
+        "pdf_pages": [
+          56
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph40-page111"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab11-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Fe(OH)₃ mazkur mavzuda qaysi sinfga tegishli?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Oksidlar"
+          },
+          {
+            "id": "b",
+            "label": "Tuzlar"
+          },
+          {
+            "id": "c",
+            "label": "Asoslar"
+          },
+          {
+            "id": "d",
+            "label": "Oddiy moddalar"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Asoslar",
+        "feedback": {
+          "correct": "To‘g‘ri. Mavzu mis(II)-gidroksid va temir(III)-gidroksidni suvda erimaydigan asoslar sifatida, ularning kislotalar bilan o‘zaro ta’sirini solishtiradi.",
+          "incorrect": "Hozircha noto‘g‘ri. Mavzu mis(II)-gidroksid va temir(III)-gidroksidni suvda erimaydigan asoslar sifatida, ularning kislotalar bilan o‘zaro ta’sirini solishtiradi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Mavzu mis(II)-gidroksid va temir(III)-gidroksidni suvda erimaydigan asoslar sifatida, ularning kislotalar bilan o‘zaro ta’sirini solishtiradi.",
+            "fact_ids": [
+              "task"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory11",
+                "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+                "paragraph": 11,
+                "printed_pages": [
+                  153
+                ],
+                "pdf_pages": [
+                  77
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory11-page153"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "task"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab11-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Mis uchun berilgan original modelning tuz mahsuloti?",
+        "options": [
+          {
+            "id": "a",
+            "label": "CuSO4"
+          },
+          {
+            "id": "b",
+            "label": "CuO"
+          },
+          {
+            "id": "c",
+            "label": "Cu"
+          },
+          {
+            "id": "d",
+            "label": "H2SO4"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "CuSO4",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+            "fact_ids": [
+              "copper"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory11",
+                "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+                "paragraph": 11,
+                "printed_pages": [
+                  153
+                ],
+                "pdf_pages": [
+                  77
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory11-page153"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-1",
+                "topic_title": "I bobga doir masalalar yechish",
+                "paragraph": null,
+                "printed_pages": [
+                  50
+                ],
+                "pdf_pages": [
+                  26
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-1-page50"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph44",
+                "topic_title": "Kislotalarning olinishi va xossalari",
+                "paragraph": 44,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  60
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph44-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "copper"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-1",
+          "topic_title": "I bobga doir masalalar yechish",
+          "paragraph": null,
+          "printed_pages": [
+            50
+          ],
+          "pdf_pages": [
+            26
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-1-page50"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab11-r1-q03",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Fe modelida tuzdan tashqari mahsulotning nomi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Suv",
+        "feedback": {
+          "correct": "To‘g‘ri. Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory11",
+                "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+                "paragraph": 11,
+                "printed_pages": [
+                  153
+                ],
+                "pdf_pages": [
+                  77
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory11-page153"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph40",
+                "topic_title": "Asoslarning olinishi va xossalari",
+                "paragraph": 40,
+                "printed_pages": [
+                  111
+                ],
+                "pdf_pages": [
+                  56
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph40-page111"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph44",
+                "topic_title": "Kislotalarning olinishi va xossalari",
+                "paragraph": 44,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  60
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph44-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "Suv",
+        "aliases": [
+          "Suv"
+        ]
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            111
+          ],
+          "pdf_pages": [
+            56
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page111"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab11-r1-q04",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Berilgan modelni tenglang: Cu(OH)₂+H₂SO₄→CuSO₄+H₂O.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Cu(OH)2+H2SO4=CuSO4+2H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O."
+        },
+        "solution": [
+          {
+            "body": "Cu(OH)2 va H2SO4 jufti uchun original to‘liq neytrallanish modelida mahsulotlar CuSO4 va H2O berilsin. Atomlar bo‘yicha tenglangan yozuv Cu(OH)2+H2SO4=CuSO4+2H2O.",
+            "fact_ids": [
+              "copper"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory11",
+                "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+                "paragraph": 11,
+                "printed_pages": [
+                  153
+                ],
+                "pdf_pages": [
+                  77
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory11-page153"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-1",
+                "topic_title": "I bobga doir masalalar yechish",
+                "paragraph": null,
+                "printed_pages": [
+                  50
+                ],
+                "pdf_pages": [
+                  26
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-1-page50"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph44",
+                "topic_title": "Kislotalarning olinishi va xossalari",
+                "paragraph": 44,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  60
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph44-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu(OH)2+H2SO4=CuSO4+2H2O"
+      },
+      "fact_ids": [
+        "copper"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-1",
+          "topic_title": "I bobga doir masalalar yechish",
+          "paragraph": null,
+          "printed_pages": [
+            50
+          ],
+          "pdf_pages": [
+            26
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-1-page50"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab11-r1-q05",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Berilgan modelni tenglang: Fe(OH)₃+HCl→FeCl₃+H₂O.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Fe(OH)3+3HCl=FeCl3+3H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O."
+        },
+        "solution": [
+          {
+            "body": "Fe(OH)3 va HCl jufti uchun original to‘liq neytrallanish modelida mahsulotlar FeCl3 va H2O berilsin. Atomlar bo‘yicha yozuv Fe(OH)3+3HCl=FeCl3+3H2O.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory11",
+                "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+                "paragraph": 11,
+                "printed_pages": [
+                  153
+                ],
+                "pdf_pages": [
+                  77
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory11-page153"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph40",
+                "topic_title": "Asoslarning olinishi va xossalari",
+                "paragraph": 40,
+                "printed_pages": [
+                  111
+                ],
+                "pdf_pages": [
+                  56
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph40-page111"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph44",
+                "topic_title": "Kislotalarning olinishi va xossalari",
+                "paragraph": 44,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  60
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph44-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "Fe(OH)3+3HCl=FeCl3+3H2O"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            111
+          ],
+          "pdf_pages": [
+            56
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page111"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab11-r1-q06",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Mavzudagi temir(III)-gidroksid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "Fe(OH)3",
+        "feedback": {
+          "correct": "To‘g‘ri. Mavzu mis(II)-gidroksid va temir(III)-gidroksidni suvda erimaydigan asoslar sifatida, ularning kislotalar bilan o‘zaro ta’sirini solishtiradi.",
+          "incorrect": "Hozircha noto‘g‘ri. Mavzu mis(II)-gidroksid va temir(III)-gidroksidni suvda erimaydigan asoslar sifatida, ularning kislotalar bilan o‘zaro ta’sirini solishtiradi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Mavzu mis(II)-gidroksid va temir(III)-gidroksidni suvda erimaydigan asoslar sifatida, ularning kislotalar bilan o‘zaro ta’sirini solishtiradi.",
+            "fact_ids": [
+              "task"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory11",
+                "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+                "paragraph": 11,
+                "printed_pages": [
+                  153
+                ],
+                "pdf_pages": [
+                  77
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory11-page153"
+              }
+            ]
+          }
+        ],
+        "expected": "Fe(OH)3"
+      },
+      "fact_ids": [
+        "task"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory11",
+          "topic_title": "Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri",
+          "paragraph": 11,
+          "printed_pages": [
+            153
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory11-page153"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-1",
+    "ch7-paragraph44",
+    "ch7-paragraph40"
+  ]
+}

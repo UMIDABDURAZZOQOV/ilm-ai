@@ -483,3 +483,35 @@ heading merely because the printed/PDF page is shared.
 
 One scientific blocker and25 editorial reviews remain open. Digital lab entries
 do not certify physical execution or independent subject-teacher approval.
+
+
+## Batch14 source review — laboratories4–11
+
+Exact shared-page segments:lab4 on150 before5;lab5 on150–151 before6;lab6/7
+on151 between their own headings;lab8 on151–152 before9;lab9 on152 before10;
+lab10 on152–153 before11;lab11 on153 before12. Original images were visually
+read;earlier source contexts retain actual title/paragraph/page/region/hash.
+
+- Lab4 uses prior§7/26 and§33/100 classification examples. No arbitrary specimen
+  physical properties. Lab5 retains lime/water,green malachite and Fe/CuCl2;
+  complete prior111/106 equations and original atom-balanced FeCl2/Cu model
+  derive from stated reactants plus earlier46/142 rule/formulas. No invented
+  actual metal deposition,gas/flame or colour observation.
+- Lab6 sample table151 and lab7 fuel-property values are blank. Earlier oxide
+  formulas102–103 and named fuel groups63 are separately cited;no density,
+  colour,odour,hardness,efficiency or heating-value measurement invented.
+- Lab8:Zn+2HCl=ZnCl2+H2 uses exact earlier70. Lab9:CuO+H2=Cu+H2O uses exact73.
+  Original virtual0.25/0.3mol questions use1:1 coefficients,not actual gas
+  measurements,collection,ignition,heating or apparatus steps.
+- Lab10 keeps CaO/P2O5/water/indicator and CuO/water inquiry separately. Exact
+  prior111/117 equations and111/118 tables support positive examples;review135
+  supplies salt/alkali CuOH2 route. No unqualified all-oxide/water prediction.
+- Lab11 stated reactants153 support original full-neutralisation balancing
+  models with products explicitly given:CuOH2/H2SO4→CuSO4/H2O and FeOH3/HCl→
+  FeCl3/H2O. Actual earlier50/111/119 formulas/rule are cited. Completed
+  equations are original solutions,not misquoted as printed equations153.
+  No unprovided crystal/hydrate/initial-colour result or physical evaporation.
+
+One scientific blocker and25 editorial reviews remain open. All new content is
+guided digital analysis;software/source-image review is not physical-lab or
+independent teacher certification.

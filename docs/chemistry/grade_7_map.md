@@ -97,14 +97,14 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-laboratory01` | laboratory 1 | Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish | 147–148 | 74:right – 75:left | 147 | reviewed local lesson | ch7-practical07 |
 | `ch7-laboratory02` | laboratory 2 | Fizik hodisalar | 148–149 | 75:left – 75:right | 148 | reviewed local lesson | ch7-laboratory01 |
 | `ch7-laboratory03` | laboratory 3 | Kimyoviy hodisalar | 149–150 | 75:right – 76:left | 149 | reviewed local lesson | ch7-laboratory02 |
-| `ch7-laboratory04` | laboratory 4 | Oddiy va murakkab moddalar | 150–151 | 76:left – 76:right | 150 | not_authored | ch7-laboratory03 |
-| `ch7-laboratory05` | laboratory 5 | Kimyoviy reaksiyalarning turlari | 150–151 | 76:left – 76:right | 150 | not_authored | ch7-laboratory04 |
-| `ch7-laboratory06` | laboratory 6 | Oksidlarning namunalari bilan tanishish | 151–152 | 76:right – 77:left | 151 | not_authored | ch7-laboratory05 |
-| `ch7-laboratory07` | laboratory 7 | Yonilg‘ilarning turli xillari va ulardan unumli foydalanish usullari bilan tanishish | 151–152 | 76:right – 77:left | 151 | not_authored | ch7-laboratory06 |
-| `ch7-laboratory08` | laboratory 8 | Kislota eritmasiga rux ta’sir ettirib vodorod olish | 151–152 | 76:right – 77:left | 151 | not_authored | ch7-laboratory07 |
-| `ch7-laboratory09` | laboratory 9 | Vodorodning mis (II)-oksid bilan o‘zaro ta’siri va bu reaksiyaning amaliy ahamiyatini o‘rganish | 152–153 | 77:left – 77:right | 152 | not_authored | ch7-laboratory08 |
-| `ch7-laboratory10` | laboratory 10 | Suvning oksidlar bilan o‘zaro ta’siri. Hosil bo‘lgan eritmalarda indikatorlar rangining o‘zgarishi | 152–153 | 77:left – 77:right | 152 | not_authored | ch7-laboratory09 |
-| `ch7-laboratory11` | laboratory 11 | Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri | 153–154 | 77:right – 78:left | 153 | not_authored | ch7-laboratory10 |
+| `ch7-laboratory04` | laboratory 4 | Oddiy va murakkab moddalar | 150–151 | 76:left – 76:right | 150 | reviewed local lesson | ch7-laboratory03 |
+| `ch7-laboratory05` | laboratory 5 | Kimyoviy reaksiyalarning turlari | 150–151 | 76:left – 76:right | 150 | reviewed local lesson | ch7-laboratory04 |
+| `ch7-laboratory06` | laboratory 6 | Oksidlarning namunalari bilan tanishish | 151–152 | 76:right – 77:left | 151 | reviewed local lesson | ch7-laboratory05 |
+| `ch7-laboratory07` | laboratory 7 | Yonilg‘ilarning turli xillari va ulardan unumli foydalanish usullari bilan tanishish | 151–152 | 76:right – 77:left | 151 | reviewed local lesson | ch7-laboratory06 |
+| `ch7-laboratory08` | laboratory 8 | Kislota eritmasiga rux ta’sir ettirib vodorod olish | 151–152 | 76:right – 77:left | 151 | reviewed local lesson | ch7-laboratory07 |
+| `ch7-laboratory09` | laboratory 9 | Vodorodning mis (II)-oksid bilan o‘zaro ta’siri va bu reaksiyaning amaliy ahamiyatini o‘rganish | 152–153 | 77:left – 77:right | 152 | reviewed local lesson | ch7-laboratory08 |
+| `ch7-laboratory10` | laboratory 10 | Suvning oksidlar bilan o‘zaro ta’siri. Hosil bo‘lgan eritmalarda indikatorlar rangining o‘zgarishi | 152–153 | 77:left – 77:right | 152 | reviewed local lesson | ch7-laboratory09 |
+| `ch7-laboratory11` | laboratory 11 | Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri | 153–154 | 77:right – 78:left | 153 | reviewed local lesson | ch7-laboratory10 |
 | `ch7-laboratory12` | laboratory 12 | Mis (II)-gidroksidining qizdirilganda parchalanishi | 154–155 | 78:left – 78:right | 154 | not_authored | ch7-laboratory11 |
 | `ch7-laboratory13` | laboratory 13 | Neytrallanish reaksiyasi | 154–155 | 78:left – 78:right | 154 | not_authored | ch7-laboratory12 |
 | `ch7-laboratory14` | laboratory 14 | Kislota eritmalarining indikatorlarga ta’siri | 154–155 | 78:left – 78:right | 154 | not_authored | ch7-laboratory13 |

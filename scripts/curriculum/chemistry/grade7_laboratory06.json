@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 64,
+  "key": "chemistry-7-lab06-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory06",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Oksidlarning namunalari bilan tanishish",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory05"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory06",
+      "topic_title": "Oksidlarning namunalari bilan tanishish",
+      "paragraph": 6,
+      "printed_pages": [
+        151
+      ],
+      "pdf_pages": [
+        76
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory06-page151"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph34",
+      "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+      "paragraph": 34,
+      "printed_pages": [
+        102
+      ],
+      "pdf_pages": [
+        52
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph34-page102"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph34",
+      "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+      "paragraph": 34,
+      "printed_pages": [
+        103
+      ],
+      "pdf_pages": [
+        52
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph34-page103"
+    }
+  ],
+  "facts": {
+    "table": {
+      "claim": "Oksid jadvali modda nomi, kimyoviy formula, agregat holati, rangi va hidi ustunlarini beradi. Bo‘sh kataklar tayyor o‘lchov natijasi emas.",
+      "verified_answers": [
+        "Kimyoviy formula",
+        "Agregat holati",
+        "Rang",
+        "Hid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory06",
+          "topic_title": "Oksidlarning namunalari bilan tanishish",
+          "paragraph": 6,
+          "printed_pages": [
+            151
+          ],
+          "pdf_pages": [
+            76
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory06-page151"
+        }
+      ]
+    },
+    "definition": {
+      "claim": "Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+      "verified_answers": [
+        "Oksid",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph34",
+          "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 34,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph34-page102"
+        }
+      ]
+    },
+    "examples": {
+      "claim": "Tekshirilgan oldingi misollar MgO — magniy oksid, Al2O3 — aluminiy oksid, CO2 — uglerod(IV)-oksid, P2O5 — fosfor(V)-oksid.",
+      "verified_answers": [
+        "MgO",
+        "Al2O3",
+        "CO2",
+        "P2O5"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph34",
+          "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 34,
+          "printed_pages": [
+            103
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph34-page103"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Bo‘sh oksid jadvali",
+        "body": "Nom, formula, agregat holat, rang va hid ustunlari bor. Berilmagan kataklarni haqiqiy o‘lchov yoki kuzatuv deb to‘ldirmaymiz.",
+        "fact_ids": [
+          "table"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory06",
+            "topic_title": "Oksidlarning namunalari bilan tanishish",
+            "paragraph": 6,
+            "printed_pages": [
+              151
+            ],
+            "pdf_pages": [
+              76
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory06-page151"
+          }
+        ]
+      },
+      {
+        "title": "Oksidni formula bilan tanish",
+        "body": "Oldingi ta’rifga ko‘ra oksidda ikkita element bo‘ladi va ulardan biri kisloroddir. Namuna yorlig‘ini shu qoida bilan tekshiramiz.",
+        "fact_ids": [
+          "definition"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph34",
+            "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 34,
+            "printed_pages": [
+              102
+            ],
+            "pdf_pages": [
+              52
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph34-page102"
+          }
+        ]
+      },
+      {
+        "title": "Tekshirilgan formula misollari",
+        "body": "MgO — magniy oksid; Al₂O₃ — aluminiy oksid; CO₂ — uglerod(IV)-oksid; P₂O₅ — fosfor(V)-oksid. Bu formulalar oldingi sahifadan olingan.",
+        "fact_ids": [
+          "examples"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph34",
+            "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 34,
+            "printed_pages": [
+              103
+            ],
+            "pdf_pages": [
+              52
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph34-page103"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory06",
+        "topic_title": "Oksidlarning namunalari bilan tanishish",
+        "paragraph": 6,
+        "printed_pages": [
+          151
+        ],
+        "pdf_pages": [
+          76
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory06-page151"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph34",
+        "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+        "paragraph": 34,
+        "printed_pages": [
+          102
+        ],
+        "pdf_pages": [
+          52
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph34-page102"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph34",
+        "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+        "paragraph": 34,
+        "printed_pages": [
+          103
+        ],
+        "pdf_pages": [
+          52
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph34-page103"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab06-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "MgO kabi yozuvlar qaysi ustunga tegishli?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Hid"
+          },
+          {
+            "id": "b",
+            "label": "Kimyoviy formula"
+          },
+          {
+            "id": "c",
+            "label": "Rang"
+          },
+          {
+            "id": "d",
+            "label": "Agregat holati"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Kimyoviy formula",
+        "feedback": {
+          "correct": "To‘g‘ri. Oksid jadvali modda nomi, kimyoviy formula, agregat holati, rangi va hidi ustunlarini beradi. Bo‘sh kataklar tayyor o‘lchov natijasi emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Oksid jadvali modda nomi, kimyoviy formula, agregat holati, rangi va hidi ustunlarini beradi. Bo‘sh kataklar tayyor o‘lchov natijasi emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oksid jadvali modda nomi, kimyoviy formula, agregat holati, rangi va hidi ustunlarini beradi. Bo‘sh kataklar tayyor o‘lchov natijasi emas.",
+            "fact_ids": [
+              "table"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory06",
+                "topic_title": "Oksidlarning namunalari bilan tanishish",
+                "paragraph": 6,
+                "printed_pages": [
+                  151
+                ],
+                "pdf_pages": [
+                  76
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory06-page151"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "table"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory06",
+          "topic_title": "Oksidlarning namunalari bilan tanishish",
+          "paragraph": 6,
+          "printed_pages": [
+            151
+          ],
+          "pdf_pages": [
+            76
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory06-page151"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab06-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Biri kislorod bo‘lgan ikki elementli modda atamasi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Asos"
+          },
+          {
+            "id": "b",
+            "label": "Kislota"
+          },
+          {
+            "id": "c",
+            "label": "Tuz"
+          },
+          {
+            "id": "d",
+            "label": "Oksid"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Oksid",
+        "feedback": {
+          "correct": "To‘g‘ri. Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+            "fact_ids": [
+              "definition"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph34",
+                "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 34,
+                "printed_pages": [
+                  102
+                ],
+                "pdf_pages": [
+                  52
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph34-page102"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "definition"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph34",
+          "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 34,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph34-page102"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab06-r1-q03",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Biri kislorod bo‘lgan ikki elementli murakkab modda nomi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Oksid",
+        "feedback": {
+          "correct": "To‘g‘ri. Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+            "fact_ids": [
+              "definition"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph34",
+                "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 34,
+                "printed_pages": [
+                  102
+                ],
+                "pdf_pages": [
+                  52
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph34-page102"
+              }
+            ]
+          }
+        ],
+        "expected": "Oksid",
+        "aliases": [
+          "Oksid",
+          "oksidlar"
+        ]
+      },
+      "fact_ids": [
+        "definition"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph34",
+          "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 34,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph34-page102"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab06-r1-q04",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Aluminiy oksidning tekshirilgan formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "Al2O3",
+        "feedback": {
+          "correct": "To‘g‘ri. Tekshirilgan oldingi misollar MgO — magniy oksid, Al2O3 — aluminiy oksid, CO2 — uglerod(IV)-oksid, P2O5 — fosfor(V)-oksid.",
+          "incorrect": "Hozircha noto‘g‘ri. Tekshirilgan oldingi misollar MgO — magniy oksid, Al2O3 — aluminiy oksid, CO2 — uglerod(IV)-oksid, P2O5 — fosfor(V)-oksid.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Tekshirilgan oldingi misollar MgO — magniy oksid, Al2O3 — aluminiy oksid, CO2 — uglerod(IV)-oksid, P2O5 — fosfor(V)-oksid.",
+            "fact_ids": [
+              "examples"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph34",
+                "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 34,
+                "printed_pages": [
+                  103
+                ],
+                "pdf_pages": [
+                  52
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph34-page103"
+              }
+            ]
+          }
+        ],
+        "expected": "Al2O3"
+      },
+      "fact_ids": [
+        "examples"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph34",
+          "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 34,
+          "printed_pages": [
+            103
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph34-page103"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab06-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Magniy oksid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "MgO",
+        "feedback": {
+          "correct": "To‘g‘ri. Tekshirilgan oldingi misollar MgO — magniy oksid, Al2O3 — aluminiy oksid, CO2 — uglerod(IV)-oksid, P2O5 — fosfor(V)-oksid.",
+          "incorrect": "Hozircha noto‘g‘ri. Tekshirilgan oldingi misollar MgO — magniy oksid, Al2O3 — aluminiy oksid, CO2 — uglerod(IV)-oksid, P2O5 — fosfor(V)-oksid.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Tekshirilgan oldingi misollar MgO — magniy oksid, Al2O3 — aluminiy oksid, CO2 — uglerod(IV)-oksid, P2O5 — fosfor(V)-oksid.",
+            "fact_ids": [
+              "examples"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph34",
+                "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 34,
+                "printed_pages": [
+                  103
+                ],
+                "pdf_pages": [
+                  52
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph34-page103"
+              }
+            ]
+          }
+        ],
+        "expected": "MgO"
+      },
+      "fact_ids": [
+        "examples"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph34",
+          "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 34,
+          "printed_pages": [
+            103
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph34-page103"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab06-r1-q06",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Mazkur oksid ta’rifida kimyoviy element turlari nechta?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "element turi"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oksid biri kislorod bo‘lgan ikki elementli murakkab modda sifatida tanishtirilgan.",
+            "fact_ids": [
+              "definition"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph34",
+                "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 34,
+                "printed_pages": [
+                  102
+                ],
+                "pdf_pages": [
+                  52
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph34-page102"
+              }
+            ]
+          }
+        ],
+        "expected": "2",
+        "unit": "element turi"
+      },
+      "fact_ids": [
+        "definition"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph34",
+          "topic_title": "Oksidlarning tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 34,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph34-page102"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph34"
+  ]
+}

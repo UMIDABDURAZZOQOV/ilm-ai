@@ -1,0 +1,1003 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 62,
+  "key": "chemistry-7-lab04-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory04",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Oddiy va murakkab moddalar",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory03"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory04",
+      "topic_title": "Oddiy va murakkab moddalar",
+      "paragraph": 4,
+      "printed_pages": [
+        150
+      ],
+      "pdf_pages": [
+        76
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory04-page150"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph07",
+      "topic_title": "Oddiy va murakkab moddalar",
+      "paragraph": 7,
+      "printed_pages": [
+        26
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph07-page26"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph33",
+      "topic_title": "Metallmaslar va metallar",
+      "paragraph": 33,
+      "printed_pages": [
+        100
+      ],
+      "pdf_pages": [
+        51
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph33-page100"
+    }
+  ],
+  "facts": {
+    "task": {
+      "claim": "Mavzu avval namunalarni oddiy/murakkab guruhlarga, so‘ng oddiy moddalarni metall/metallmas guruhlarga ajratishni so‘raydi. Tanlash mezoni tushuntirilishi kerak.",
+      "verified_answers": [
+        "Oddiy modda",
+        "Murakkab modda",
+        "Metall",
+        "Metallmas"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory04",
+          "topic_title": "Oddiy va murakkab moddalar",
+          "paragraph": 4,
+          "printed_pages": [
+            150
+          ],
+          "pdf_pages": [
+            76
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory04-page150"
+        }
+      ]
+    },
+    "simple": {
+      "claim": "Oldingi tasnifda temir bir elementli oddiy modda, suv turli elementli murakkab modda misoli.",
+      "verified_answers": [
+        "Oddiy modda",
+        "Murakkab modda",
+        "Temir",
+        "Suv"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph07",
+          "topic_title": "Oddiy va murakkab moddalar",
+          "paragraph": 7,
+          "printed_pages": [
+            26
+          ],
+          "pdf_pages": [
+            14
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph07-page26"
+        }
+      ]
+    },
+    "families": {
+      "claim": "Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+      "verified_answers": [
+        "Cu",
+        "Fe",
+        "O2",
+        "S8",
+        "Metall",
+        "Metallmas"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph33",
+          "topic_title": "Metallmaslar va metallar",
+          "paragraph": 33,
+          "printed_pages": [
+            100
+          ],
+          "pdf_pages": [
+            51
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph33-page100"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Ikki bosqichli tasnif",
+        "body": "Birinchi bosqich oddiy va murakkab moddalarni ajratadi. Ikkinchi bosqich oddiy moddalarni metall va metallmaslarga ajratadi. Har bosqichning mezoni boshqa.",
+        "fact_ids": [
+          "task"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory04",
+            "topic_title": "Oddiy va murakkab moddalar",
+            "paragraph": 4,
+            "printed_pages": [
+              150
+            ],
+            "pdf_pages": [
+              76
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory04-page150"
+          }
+        ]
+      },
+      {
+        "title": "Element tarkibi mezoni",
+        "body": "Temir bir element atomlaridan iborat oddiy modda. Suv turli elementlar atomlaridan iborat murakkab modda. Bu oldingi ta’rif va misollarning qo‘llanishi.",
+        "fact_ids": [
+          "simple"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph07",
+            "topic_title": "Oddiy va murakkab moddalar",
+            "paragraph": 7,
+            "printed_pages": [
+              26
+            ],
+            "pdf_pages": [
+              14
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph07-page26"
+          }
+        ]
+      },
+      {
+        "title": "Metall va metallmas misollar",
+        "body": "Cu, Fe — metallar; O₂, S₈ — metallmas oddiy moddalar. Namuna yorlig‘i yoki tekshirilgan formula bilan tasnifni bog‘lang.",
+        "fact_ids": [
+          "families"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph33",
+            "topic_title": "Metallmaslar va metallar",
+            "paragraph": 33,
+            "printed_pages": [
+              100
+            ],
+            "pdf_pages": [
+              51
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph33-page100"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory04",
+        "topic_title": "Oddiy va murakkab moddalar",
+        "paragraph": 4,
+        "printed_pages": [
+          150
+        ],
+        "pdf_pages": [
+          76
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory04-page150"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph07",
+        "topic_title": "Oddiy va murakkab moddalar",
+        "paragraph": 7,
+        "printed_pages": [
+          26
+        ],
+        "pdf_pages": [
+          14
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph07-page26"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph33",
+        "topic_title": "Metallmaslar va metallar",
+        "paragraph": 33,
+        "printed_pages": [
+          100
+        ],
+        "pdf_pages": [
+          51
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph33-page100"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab04-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Temir element tarkibiga ko‘ra qanday modda?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Murakkab modda"
+          },
+          {
+            "id": "b",
+            "label": "Oddiy modda"
+          },
+          {
+            "id": "c",
+            "label": "Faqat eritma"
+          },
+          {
+            "id": "d",
+            "label": "Faqat aralashma"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Oddiy modda",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi tasnifda temir bir elementli oddiy modda, suv turli elementli murakkab modda misoli.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi tasnifda temir bir elementli oddiy modda, suv turli elementli murakkab modda misoli.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi tasnifda temir bir elementli oddiy modda, suv turli elementli murakkab modda misoli.",
+            "fact_ids": [
+              "simple"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph07",
+                "topic_title": "Oddiy va murakkab moddalar",
+                "paragraph": 7,
+                "printed_pages": [
+                  26
+                ],
+                "pdf_pages": [
+                  14
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph07-page26"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "simple"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph07",
+          "topic_title": "Oddiy va murakkab moddalar",
+          "paragraph": 7,
+          "printed_pages": [
+            26
+          ],
+          "pdf_pages": [
+            14
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph07-page26"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab04-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Suv element tarkibiga ko‘ra qanday modda?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Oddiy modda"
+          },
+          {
+            "id": "b",
+            "label": "Faqat metall"
+          },
+          {
+            "id": "c",
+            "label": "Faqat metallmas"
+          },
+          {
+            "id": "d",
+            "label": "Murakkab modda"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Murakkab modda",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi tasnifda temir bir elementli oddiy modda, suv turli elementli murakkab modda misoli.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi tasnifda temir bir elementli oddiy modda, suv turli elementli murakkab modda misoli.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi tasnifda temir bir elementli oddiy modda, suv turli elementli murakkab modda misoli.",
+            "fact_ids": [
+              "simple"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph07",
+                "topic_title": "Oddiy va murakkab moddalar",
+                "paragraph": 7,
+                "printed_pages": [
+                  26
+                ],
+                "pdf_pages": [
+                  14
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph07-page26"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "simple"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph07",
+          "topic_title": "Oddiy va murakkab moddalar",
+          "paragraph": 7,
+          "printed_pages": [
+            26
+          ],
+          "pdf_pages": [
+            14
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph07-page26"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab04-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "O₂ oldingi tasnifda qaysi guruh misoli?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Metallmas"
+          },
+          {
+            "id": "b",
+            "label": "Metall"
+          },
+          {
+            "id": "c",
+            "label": "Asos"
+          },
+          {
+            "id": "d",
+            "label": "Tuz"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Metallmas",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+            "fact_ids": [
+              "families"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph33",
+                "topic_title": "Metallmaslar va metallar",
+                "paragraph": 33,
+                "printed_pages": [
+                  100
+                ],
+                "pdf_pages": [
+                  51
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph33-page100"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "families"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph33",
+          "topic_title": "Metallmaslar va metallar",
+          "paragraph": 33,
+          "printed_pages": [
+            100
+          ],
+          "pdf_pages": [
+            51
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph33-page100"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab04-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Oddiy moddalarning metallardan tashqari ikkinchi katta guruhi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Metallmas",
+        "feedback": {
+          "correct": "To‘g‘ri. Mavzu avval namunalarni oddiy/murakkab guruhlarga, so‘ng oddiy moddalarni metall/metallmas guruhlarga ajratishni so‘raydi. Tanlash mezoni tushuntirilishi kerak.",
+          "incorrect": "Hozircha noto‘g‘ri. Mavzu avval namunalarni oddiy/murakkab guruhlarga, so‘ng oddiy moddalarni metall/metallmas guruhlarga ajratishni so‘raydi. Tanlash mezoni tushuntirilishi kerak.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Mavzu avval namunalarni oddiy/murakkab guruhlarga, so‘ng oddiy moddalarni metall/metallmas guruhlarga ajratishni so‘raydi. Tanlash mezoni tushuntirilishi kerak.",
+            "fact_ids": [
+              "task"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory04",
+                "topic_title": "Oddiy va murakkab moddalar",
+                "paragraph": 4,
+                "printed_pages": [
+                  150
+                ],
+                "pdf_pages": [
+                  76
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory04-page150"
+              }
+            ]
+          }
+        ],
+        "expected": "Metallmas",
+        "aliases": [
+          "Metallmas",
+          "metallmaslar"
+        ]
+      },
+      "fact_ids": [
+        "task"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory04",
+          "topic_title": "Oddiy va murakkab moddalar",
+          "paragraph": 4,
+          "printed_pages": [
+            150
+          ],
+          "pdf_pages": [
+            76
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory04-page150"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab04-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Manbadagi kislorod oddiy moddasi formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "O2",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+            "fact_ids": [
+              "families"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph33",
+                "topic_title": "Metallmaslar va metallar",
+                "paragraph": 33,
+                "printed_pages": [
+                  100
+                ],
+                "pdf_pages": [
+                  51
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph33-page100"
+              }
+            ]
+          }
+        ],
+        "expected": "O2"
+      },
+      "fact_ids": [
+        "families"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph33",
+          "topic_title": "Metallmaslar va metallar",
+          "paragraph": 33,
+          "printed_pages": [
+            100
+          ],
+          "pdf_pages": [
+            51
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph33-page100"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab04-r1-q06",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Manbadagi mis elementi belgisini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "Cu",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Cu va Fe metallar misollari; O2 va S8 metallmas oddiy moddalar misollaridir.",
+            "fact_ids": [
+              "families"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph33",
+                "topic_title": "Metallmaslar va metallar",
+                "paragraph": 33,
+                "printed_pages": [
+                  100
+                ],
+                "pdf_pages": [
+                  51
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph33-page100"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu"
+      },
+      "fact_ids": [
+        "families"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph33",
+          "topic_title": "Metallmaslar va metallar",
+          "paragraph": 33,
+          "printed_pages": [
+            100
+          ],
+          "pdf_pages": [
+            51
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph33-page100"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph07",
+    "ch7-paragraph33"
+  ]
+}

@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-61 reviewed lessons through grade7 §51,practical1–7,laboratories1–3;207 remain. All
+69 reviewed lessons through grade7 §51,practical1–7,laboratories1–11;199 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next teaching entries are grade7 laboratories4–11,then12–16,in book order.
+Next teaching entries are grade7 laboratories12–16,the last5 entries in grade7.
 Nine chapterI–VI reviews are integrated;context reuse is not an extra entry.
-Grade8 remains unauthored and Flutter grade selection remains7;generalise
-carefully before integrating grade8 without changing shared learning rules.
+Grade8 remains unauthored. Flutter grade selection remains7;generalise carefully
+before integrating grade8 without changing shared learning/XP rules.
 
 ## Review and development notes
 
@@ -218,3 +218,20 @@ and formulas112;it is not a silent certification of malformed130. That hold stay
 Mass models144 explicitly use totals/declared rounding;ideal copper conservation
 146 explicitly assumes no loss. Clinical recipe and unspecified CO2-product
 volume are held. Total25 editorial issues plus one scientific blocker.
+
+
+## Batch14 laboratories4–11
+
+Eight separate ordered lab entries add28 cards/51 questions. All retain the
+existing MCQ/FRQ/feedback/XP/prerequisite system. Lab4 uses verified simple/
+compound and metal/nonmetal examples. Lab5 keeps all3 reaction modes,including
+an explicitly original Fe/CuCl2 model with given FeCl2/Cu products and earlier
+substitution/formula evidence. No invented measured copper deposit/colour.
+
+Lab6 oxide and lab7 fuel tables are blank;formula/group data come only from
+earlier reviewed102/103/63,not fabricated specimen values or efficiency numbers.
+Labs8/9 use exact earlier Zn/HCl70 and CuO/H2 73 equations plus explicitly virtual
+1:1 molar models. Lab10 retains all3 oxide/water components and exact earlier
+indicator tables,not a universal oxide/water rule. Lab11 original full-neutral-
+isation models explicitly give products using actual earlier50/111/119 evidence;
+no claim that the completed equations or colours/crystals are printed on153.

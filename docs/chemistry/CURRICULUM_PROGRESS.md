@@ -4,18 +4,18 @@
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7 | 6 | 51 | 16 | 7 | 74 | 61 | 13 |
+| 7 | 6 | 51 | 16 | 7 | 74 | 69 | 5 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 0 | 59 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 61 | 207 |
+| Total | 29 | 204 | 49 | 15 | 268 | 69 | 199 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 417 cards; 630 assessments: 266 concept_selection, 130 short_text, 118 numeric_value, 53 chemical_formula, 63 chemical_equation.
+Total: 445 cards; 681 assessments: 286 concept_selection, 141 short_text, 121 numeric_value, 61 chemical_formula, 72 chemical_equation.
 
 ## Initial §1
 
@@ -69,16 +69,20 @@ Total: 417 cards; 630 assessments: 266 concept_selection, 130 short_text, 118 nu
 
 5 lessons;24 cards;15 MCQ,8 short text,5 numeric,4 formula,7 equation.
 
+## Batch14: laboratories4–11
+
+8 lessons;28 cards;20 MCQ,11 short text,3 numeric,8 formula,9 equation.
+
 ## Current continuation
 
-Completed grade7 through **§51**,practical1–7,laboratories1–3 and nine chapterI–VI
-review anchors. Next **laboratories4–11**,then12–16 in source order.
-Grade7 has13 teaching entries remaining;whole project207.
+Completed grade7 §1–51,practical1–7,laboratories1–11 and nine chapterI–VI review
+anchors. Next **laboratories12–16**,the last5 grade7 teaching entries.
+Grade7 has5 teaching entries remaining;whole project199.
 
-One scientific hold and25 scoped editorial issues remain open. Practical7
-clinical/purity scope and chapterVI CO2-product/copper-loss ambiguity are visible.
-No source gap is silently replaced with invented observations or treatment.
-All course-ready flags remain false. Shared learning/XP/grading unchanged.
+One scientific hold and25 scoped editorial issues remain open. No physical lab,
+invented specimen/colour/efficiency/crystal result or silent source correction.
+Original balanced model conditions/products and earlier source identities are
+explicit. Shared learning/XP/grading unchanged;all course-ready flags false.
 
 Original§1,prior immutable lessons/attempts and real users are preserved.
 Separate Chemistry branches only;no production/main/other-subject/AI operation.

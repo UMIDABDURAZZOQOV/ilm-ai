@@ -1,0 +1,1135 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 66,
+  "key": "chemistry-7-lab08-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory08",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory07"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory08",
+      "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+      "paragraph": 8,
+      "printed_pages": [
+        151
+      ],
+      "pdf_pages": [
+        76
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory08-page151"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory08",
+      "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+      "paragraph": 8,
+      "printed_pages": [
+        152
+      ],
+      "pdf_pages": [
+        77
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory08-page152"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph24",
+      "topic_title": "Vodorodning olinishi",
+      "paragraph": 24,
+      "printed_pages": [
+        70
+      ],
+      "pdf_pages": [
+        36
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph24-page70"
+    }
+  ],
+  "facts": {
+    "task": {
+      "claim": "Mavzu rux va xlorid kislota tizimi, ajraladigan gaz hamda eritma qoldig‘ini tahlil qilishni so‘raydi. Raqamli ishda oldingi tenglama orqali modda identifikatsiyasi bajariladi.",
+      "verified_answers": [
+        "Rux",
+        "Gaz",
+        "Tuz"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory08",
+          "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+          "paragraph": 8,
+          "printed_pages": [
+            151
+          ],
+          "pdf_pages": [
+            76
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory08-page151"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory08",
+          "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+          "paragraph": 8,
+          "printed_pages": [
+            152
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory08-page152"
+        }
+      ]
+    },
+    "equation": {
+      "claim": "Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+      "verified_answers": [
+        "Zn+2HCl=ZnCl2+H2",
+        "H2",
+        "ZnCl2",
+        "Vodorod"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    "ratio": {
+      "claim": "Shu berilgan model uchun original virtual shart: yetarli HCl bilan 0,25 mol Zn to‘liq mos kelsa, 1: 1 koeffitsiyent nisbatida H2 miqdori 0,25 mol.",
+      "verified_answers": [
+        "0.25"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory08",
+          "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+          "paragraph": 8,
+          "printed_pages": [
+            152
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory08-page152"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Berilgan tizimni tanish",
+        "body": "Manba rux/xlorid kislota tizimini so‘raydi. Raqamli darsda gaz va tuz oldingi tekshirilgan tenglama bilan aniqlanadi; real gaz olinmaydi.",
+        "fact_ids": [
+          "task"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory08",
+            "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+            "paragraph": 8,
+            "printed_pages": [
+              151
+            ],
+            "pdf_pages": [
+              76
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory08-page151"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory08",
+            "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+            "paragraph": 8,
+            "printed_pages": [
+              152
+            ],
+            "pdf_pages": [
+              77
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory08-page152"
+          }
+        ]
+      },
+      {
+        "title": "Oldingi tenglama",
+        "body": "Zn + 2HCl = ZnCl₂ + H₂. Vodorod gaz mahsuloti, ZnCl₂ esa tuz formulasidir.",
+        "fact_ids": [
+          "equation"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph24",
+            "topic_title": "Vodorodning olinishi",
+            "paragraph": 24,
+            "printed_pages": [
+              70
+            ],
+            "pdf_pages": [
+              36
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph24-page70"
+          }
+        ]
+      },
+      {
+        "title": "Virtual molar nisbat",
+        "body": "Berilgan modelda Zn: H₂ koeffitsiyentlari 1: 1. Yetarli HCl shartidagi 0,25 mol Zn uchun H₂ 0,25 mol. Bu faqat hisob modeli.",
+        "fact_ids": [
+          "ratio"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory08",
+            "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+            "paragraph": 8,
+            "printed_pages": [
+              152
+            ],
+            "pdf_pages": [
+              77
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory08-page152"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph24",
+            "topic_title": "Vodorodning olinishi",
+            "paragraph": 24,
+            "printed_pages": [
+              70
+            ],
+            "pdf_pages": [
+              36
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph24-page70"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory08",
+        "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+        "paragraph": 8,
+        "printed_pages": [
+          151
+        ],
+        "pdf_pages": [
+          76
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory08-page151"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory08",
+        "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+        "paragraph": 8,
+        "printed_pages": [
+          152
+        ],
+        "pdf_pages": [
+          77
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory08-page152"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph24",
+        "topic_title": "Vodorodning olinishi",
+        "paragraph": 24,
+        "printed_pages": [
+          70
+        ],
+        "pdf_pages": [
+          36
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph24-page70"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab08-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Berilgan tenglamadagi gaz mahsulot qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "O2"
+          },
+          {
+            "id": "b",
+            "label": "H2"
+          },
+          {
+            "id": "c",
+            "label": "N2"
+          },
+          {
+            "id": "d",
+            "label": "CO2"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "H2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab08-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Berilgan modeldagi tuz formulasi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "ZnO"
+          },
+          {
+            "id": "b",
+            "label": "Zn"
+          },
+          {
+            "id": "c",
+            "label": "HCl"
+          },
+          {
+            "id": "d",
+            "label": "ZnCl2"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "ZnCl2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab08-r1-q03",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Gaz mahsulotning kimyoviy nomi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Vodorod",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "Vodorod",
+        "aliases": [
+          "Vodorod",
+          "vodorod gazi"
+        ]
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab08-r1-q04",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Rux va HCl dan ZnCl₂ hamda H₂ hosil bo‘lish moddiy yozuvini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Zn+2HCl=ZnCl2+H2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn+2HCl=ZnCl2+H2"
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab08-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Modeldagi rux xlorid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "ZnCl2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aniq model Zn+2HCl=ZnCl2+H2. Gaz mahsulot H2 — vodorod; tuz yozuvi ZnCl2.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "ZnCl2"
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab08-r1-q06",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Virtual modelda 0,25 mol Zn yetarli HCl bilan to‘liq mos keladi. 1: 1 nisbatdagi H₂ miqdori qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "mol"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.25",
+        "feedback": {
+          "correct": "To‘g‘ri. Shu berilgan model uchun original virtual shart: yetarli HCl bilan 0,25 mol Zn to‘liq mos kelsa, 1: 1 koeffitsiyent nisbatida H2 miqdori 0,25 mol.",
+          "incorrect": "Hozircha noto‘g‘ri. Shu berilgan model uchun original virtual shart: yetarli HCl bilan 0,25 mol Zn to‘liq mos kelsa, 1: 1 koeffitsiyent nisbatida H2 miqdori 0,25 mol.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Shu berilgan model uchun original virtual shart: yetarli HCl bilan 0,25 mol Zn to‘liq mos kelsa, 1: 1 koeffitsiyent nisbatida H2 miqdori 0,25 mol.",
+            "fact_ids": [
+              "ratio"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory08",
+                "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+                "paragraph": 8,
+                "printed_pages": [
+                  152
+                ],
+                "pdf_pages": [
+                  77
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory08-page152"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "0.25",
+        "unit": "mol"
+      },
+      "fact_ids": [
+        "ratio"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory08",
+          "topic_title": "Kislota eritmasiga rux ta’sir ettirib vodorod olish",
+          "paragraph": 8,
+          "printed_pages": [
+            152
+          ],
+          "pdf_pages": [
+            77
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory08-page152"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph24"
+  ]
+}
