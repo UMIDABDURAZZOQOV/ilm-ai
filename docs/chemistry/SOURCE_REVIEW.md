@@ -682,3 +682,35 @@ has no scientific prefix before§21. No new chapter-prefix permission added.
 
 Five new editorial scopes bring51 plus one scientific blocker. Digital analysis
 only,no physical gas generation/heating/collection or medical/teacher certificate.
+
+
+## Batch21 source review — 2026-10-25,grade8 sequence26–30
+
+Original111–134 read;source order§26/27/28/practical1/§29 preserved.
+
+- §26:bookE/equivalent-mass units andvalence/full-replacement model are explicit.
+  ClearCa20/oxide28,Fe28/18.67,CO6/CO2=3 and original mass-ratio exercises retained.
+  Cu52.74→52.7 working precision and questionO/solutionAl9 mismatch held.
+- §27:gas/aqueous distinction,indicators,clear metal/oxide/base/carbonate/AgCl/
+  redox models,chloride/mineral/industrial categories andoxyacid names retained.
+  Density conditions,HgCl2 insolubility,atomicO/lime notation/balance,medical/
+  current-population claims and unqualified oxidant rankings held.
+- §28:actual minerals,diatomic/dispersion trend,explicitXeF2/SiO2/F2/water/HI
+  material balances,Ag/Pb halide colors andindustrial categories retained. HI
+  heat sign and unqualified reaction predictors not keyed;clinical dosing and
+  sedative/hemostatic claims held. No new charged/reversible-equilibrium grader.
+- Practical1:all6 tasks mapped into evidence and original balances. ThreeZnCl2
+  acid models explicitly116/20;fourth originalZn+Cl2=ZnCl2 combines actual earlier
+  Zn-metal75,generalCl2-metal97,known product116 and task124. All exact refs kept.
+  AgCl/AgI evidence alone does not identifyNa;no invented observation/flame test.
+  Ca(OH)2 conflict124 uses separately verified125.128 firstdivision,not wrong
+  secondmultiplication.129H2S observation lacks earlier taught support and is
+  held,not borrowed from future§30. Clinical context held. Original ion counts
+  use explicitα1,priorCa40/NA andsame-practicalCl35.5 with full composite refs.
+- §29:outer6,OF2/H2O2/ordinary0,S/Se/Te models,natural sulfides/sulfates,allotropes,
+  nonwetting/flotation and exact source redox models retained. NoSe79 natural
+  abundance,universal d-promotion/oxygen/S−2 or physicalCS2/plastic-sulfur task.
+
+56 editorial issues plus one scientific blocker;all course-ready flags false.
+All817 original pages decoded,five SHA identities checked. No independent teacher
+or medical certification. Original135–147 read next;not yet authored facts.

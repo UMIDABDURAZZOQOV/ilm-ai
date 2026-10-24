@@ -1,21 +1,21 @@
 # Chemistry progress
 
-2026-10-24. Source mapping and interactive readiness are separate.
+2026-10-25. Source mapping and interactive readiness are separate.
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 25 | 34 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 30 | 29 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 99 | 169 |
+| Total | 29 | 204 | 49 | 15 | 268 | 104 | 164 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 678 cards; 1039 assessments: 386 concept_selection, 197 short_text, 251 numeric_value, 90 chemical_formula, 115 chemical_equation.
+Total: 737 cards; 1111 assessments: 404 concept_selection, 205 short_text, 277 numeric_value, 94 chemical_formula, 131 chemical_equation.
 
 ## Initial §1
 
@@ -101,16 +101,21 @@ Ionic/lattice/oxidation/redox topics reuse existing bounded response types.
 5 lessons;54 cards;19 MCQ,7 short,36 numeric,4 formula,12 equation.
 Nonmetals,halogens,chlorine,HCl and gas models retain exact source conditions.
 
+## Batch21: grade8 §26/27/28,practical1,§29
+
+5 source-order lessons;59 cards;18 MCQ,8 short,26 numeric,4 formula,16 equation.
+All six practical categories are digital evidence/given-product balance tasks.
+
 ## Current continuation
 
-Grade7 all74 mapped entries;grade8 §1–25 implemented (25/59),34 remain.
-Next source-order five entries:§26,§27,§28,practical1,§29 (111–134).
-Whole project169 teaching entries remain. Catalog327/268 unchanged.
-Original5–134 grade8 images visually read;future individual fact review and
-authoring still pending. Nine grade7 reviews integrated,not additional lessons.
+Grade7 all74 entries;grade8 §1–29 plus practical1 (30/59),29 remain:
+15 paragraphs,10 laboratories,4 practicals. Whole project164 entries remain.
+Next five:§30–34,sequence31–35,original134–147. All original5–147 images now
+visually read;future individual fact authoring/review remains pending.
+Catalog327/268 unchanged;nine grade7 reviews integrated,not additional entries.
 
-One grade9 scientific blocker and51 scoped editorial issues remain. Mixed-state
-gas/solubility calculations,unqualified phases/noble-gas rules and unsupported
-precision are held. No silent correction or external scientific knowledge.
-Ready flags false;original§1,prior94 manifests/progress,real users and other
-subjects preserved. Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.
+One grade9 scientific blocker and56 scoped editorial issues remain. New holds
+cover equivalent-target/copy errors,chloride/oxychlorine ambiguities,medical
+claims,practical evidence limits and orbital/isotope/state generalizations.
+All ready flags false. Original§1,prior99 manifests/progress,real users and
+other subjects preserved. Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.

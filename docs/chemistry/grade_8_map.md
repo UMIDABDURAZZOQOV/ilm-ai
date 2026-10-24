@@ -39,12 +39,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-paragraph23` | paragraph 23 | Xlor | 96–100 | 96:full – 100:full | 96 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph22 |
 | `ch8-paragraph24` | paragraph 24 | Vodorod xlorid | 100–103 | 100:full – 103:full | 100 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph23 |
 | `ch8-paragraph25` | paragraph 25 | Avogadro qonuni. Molyar hajm | 103–111 | 103:full – 111:full | 103 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph24 |
-| `ch8-paragraph26` | paragraph 26 | Ekvivalent qonuni | 111–116 | 111:full – 116:full | 111 | not_authored | ch8-paragraph25 |
-| `ch8-paragraph27` | paragraph 27 | Xlorid kislota | 116–121 | 116:full – 121:full | 116 | not_authored | ch8-paragraph26 |
-| `ch8-paragraph28` | paragraph 28 | Ftor, brom, yod | 121–124 | 121:full – 124:full | 121 | not_authored | ch8-paragraph27 |
-| `ch8-practical01` | practical 1 | “Galogenlar” mavzusi bo‘yicha tajribaviy masalalar yechish | 124–130 | 124:full – 130:full | 124 | not_authored | ch8-paragraph28 |
+| `ch8-paragraph26` | paragraph 26 | Ekvivalent qonuni | 111–116 | 111:full – 116:full | 111 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph25 |
+| `ch8-paragraph27` | paragraph 27 | Xlorid kislota | 116–121 | 116:full – 121:full | 116 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph26 |
+| `ch8-paragraph28` | paragraph 28 | Ftor, brom, yod | 121–124 | 121:full – 124:full | 121 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph27 |
+| `ch8-practical01` | practical 1 | “Galogenlar” mavzusi bo‘yicha tajribaviy masalalar yechish | 124–130 | 124:full – 130:full | 124 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph28 |
 | `ch8-chapter05` | chapter 5 | Oltinchi guruh bosh guruhchasi elementlariga umumiy tavsif | 130–156 | 130:full – 156:full | 130 | not_authored | — |
-| `ch8-paragraph29` | paragraph 29 | Kislorod guruhchasi elementlari | 130–134 | 130:full – 134:full | 130 | not_authored | ch8-practical01 |
+| `ch8-paragraph29` | paragraph 29 | Kislorod guruhchasi elementlari | 130–134 | 130:full – 134:full | 130 | reviewed local lesson; scoped editorial review remains open | ch8-practical01 |
 | `ch8-paragraph30` | paragraph 30 | Oltingugurtning vodorodli birikmalari | 134–136 | 134:full – 136:full | 134 | not_authored | ch8-paragraph29 |
 | `ch8-paragraph31` | paragraph 31 | Oltingugurtning kislorodli birikmalari | 136–138 | 136:full – 138:full | 136 | not_authored | ch8-paragraph30 |
 | `ch8-paragraph32` | paragraph 32 | Sulfat kislota | 138–141 | 138:full – 141:full | 138 | not_authored | ch8-paragraph31 |

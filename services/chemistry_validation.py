@@ -82,6 +82,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph23': 'ch8-p23-solubility-state-review',
     'ch8-paragraph24': 'ch8-p24-gas-aqueous-scope',
     'ch8-paragraph25': 'ch8-p25-gas-state-precision-review',
+    'ch8-paragraph26': 'ch8-p26-equivalent-definition-review',
+    'ch8-paragraph27': 'ch8-p27-chloride-oxychlorine-review',
+    'ch8-paragraph28': 'ch8-p28-halogen-medical-condition-review',
+    'ch8-practical01': 'ch8-practical1-evidence-stoichiometry-review',
+    'ch8-paragraph29': 'ch8-p29-oxygen-orbital-sulfur-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -468,6 +473,24 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-paragraph25' in topic_ids:
             require(not any(re.search(r'(?<![0-9])112(?![0-9])', a)
                             for a in f['verified_answers']), 'unresolved_water_vapour_state_cannot_be_an_answer')
+        if 'ch8-paragraph26' in topic_ids:
+            require(not any(a.strip() == '9' for a in f['verified_answers']),
+                    'unresolved_equivalent_target_mismatch_cannot_be_an_answer')
+        if 'ch8-paragraph27' in topic_ids:
+            require(not any('HgCl2' in a and 'erimaydi' in a.casefold()
+                            for a in plain_values), 'unreviewed_mercury_chloride_solubility_cannot_be_a_premise')
+        if 'ch8-paragraph28' in topic_ids:
+            require(not any('uyqusizlik' in a.casefold() for a in plain_values),
+                    'unverified_halogen_clinical_treatment_cannot_be_a_premise')
+        if 'ch8-practical01' in topic_ids:
+            require(not any('Ca(OH)2' in a.replace(' ', '') and '2CaCl2' in a.replace(' ', '')
+                            and ('=' in a or '→' in a) for a in plain_values),
+                    'unbalanced_calcium_hydroxide_copy_cannot_be_a_premise')
+            require(not any(re.search(r'2[.,]45\s*[·*×]\s*0[.,]75\s*=\s*3[.,]27', a)
+                            for a in plain_values), 'incorrect_solution_fraction_operation_cannot_be_a_premise')
+        if 'ch8-paragraph29' in topic_ids:
+            require(not ('Se' in f['claim'] and '79' in f['verified_answers']),
+                    'unreviewed_selenium_isotope_label_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

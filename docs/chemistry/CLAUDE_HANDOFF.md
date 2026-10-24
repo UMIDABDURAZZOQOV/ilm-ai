@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-99 reviewed lessons:all74 grade7 entries and grade8 §1–25;169 remain. All
+104 reviewed lessons:all74 grade7 entries and grade8 §1–29 plus practical1;164 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next source-order five:grade8 §26/§27/§28/practical1/§29,original111–134.
-Grade7 all74 entries;grade8 has25/59.
+Next five:grade8 §30–34,sequence31–35,original134–147.
+Grade7 all74 entries;grade8 has30/59 (29 paragraphs+practical1).
 Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
-One scientific blocker/51 editorial reviews still gate readiness. Same shared
+One scientific blocker/56 editorial reviews still gate readiness. Same shared
 MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
@@ -363,3 +363,37 @@ HTTP preserved94 completions/1880XP,passed78 questions,added100XP once:
 loopback8900 sandbox now PID14352;verify full command before stopping.
 Earlier99 imported revisions immutable. Flutter production code unchanged.
 Next§26/27/28/practical1/29;original112–134 also visually read during QA wait.
+
+
+## Batch21: equivalent law,halogen practical,oxygen family
+
+Original111–134 fully read;five source-order lessons add59 cards/72 questions.
+Practical1 lies between§28 and§29. All six categories use digital evidence and
+given-product atom balancing,no invented tube result/flame test/physical lab.
+The fourthZnCl2 equation is an explicitly original application of earlier
+Zn-metal75/Cl2-metal97/knownZnCl2 product116,not falsely a printed equation124.
+EarlierZn(OH)2/HCl is explicitly printed20. Composite claims cite all these
+sources and question/solution/source-group refs retain them. Ag-halide evidence
+does not independently proveNa cation. BalancedCa(OH)2 equation is separately
+verified125;conflicting124 copy remains held.128 first division method retained,
+second multiplication copy held. No clinicalCaCl2/F/Br/iodine advice or doses.
+
+Equivalent law retains supplied valence/reaction and textbookE/unit conventions;
+Al/O target mismatch114–115 is not silently repaired. HgCl2 insolubility/atomicO/
+lime ambiguity held. Oxygen exceptions,ordinary0,S/Se/Te source models,allotropes,
+natural compounds and exact redox models retained without universal d-promotion,
+Se79 representative-isotope or all-sulfideS−2 keys. Five new issues bring56+1.
+
+Mutation tests found new checks initially placed in the question loop using the
+last fact. Moved them into per-fact validation;all45 target tests now pass. No
+held claim entered imported lessons. HTTP preserved99 completions/1980XP,passed
+72 questions,added100XP once:104/2080XP. Own loopback8900PID21696;verify command
+before stopping. Earlier104 imported revisions immutable. Public practical
+fixtures have fake attempt IDs/future expiry,no private rubrics/tokens.
+
+Flutter production code unchanged;two actualHTTP widget cases cover original
+equation and2.408e23 input,multi-source feedback and actual practical label.
+Full30-lesson catalog/attempt payloads triggerDio background JSON isolation;
+bounded real-async waits in harness drain decoding before UI assertions. This
+fixes test timing assumptions,not scientific grading or production behavior.
+Original135–147 additionally read for next batch during QA.

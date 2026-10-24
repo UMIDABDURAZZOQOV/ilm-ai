@@ -628,3 +628,32 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - Shared theory/MCQ/FRQ/feedback/XP/progress/prerequisite/replay rules unchanged.
   No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
   physical experiment or fresh PG/whole-backend certification.
+
+
+## Batch21 — 2026-10-25
+
+- **104/268 implemented,164 remaining**;grade7:74/74,grade8:30/59.
+  New§26/27/28/practical1/§29:59 cards/72 questions (18 MCQ,8 short,26 numeric,
+  4 formula,16 equation). Total737 cards/1111 questions:404/205/277/94/131.
+  All99 earlier manifest hashes unchanged;original§1 unchanged;Ruff/diff clean.
+- Full Chemistry **589 passed,1 skipped,1 existing warning/742.26s**.
+  Final target **45 passed/24.80s**. Initial target40pass/5fail exposed misplaced
+  new guards;fixed per-fact scope,not answer expectations. Tests cover all new
+  source issues,composite evidence,fourth originalZn balance,practical ordering,
+  every key,99 old completions/XP,replay and preserved Biology test account.
+- Full Flutter **502 passed/184s**;analysis **no issues/104.2s**.
+  Two actualHTTP practical widget cases **passed/9s**,320×568/200%,both themes.
+  Six input/feedback/source captures inspected:fields,scrolling feedback/source
+  sheet and pinned actions usable. Initial harness0pass/2fail then1pass/1fail
+  were background JSON decoding races;bounded real-async drain fixes harness.
+  Production UI/grading unchanged. No native/browser/IME/TalkBack certification.
+- Actual HTTP preserved99 completions/1980XP,passed72 answers,added100XP once,
+  total104/2080XP;scientific e/E replay identical. Grade7 catalog unchanged,
+  grading private,synthetic900003 only. New public fixtures contain fake attempt
+  IDs/future expiry,no tokens/private pre-answer keys.
+- Five source SHA identities/all817 pages audited. One scientific blocker plus
+ 56 editorial issues remain;no silently repaired conflicts/external science or
+  claimed teacher sign-off. Original135–147 read for continuation,not counted as
+  new authored material. Catalog327/268 unchanged;all ready flags false.
+- No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
+  physical experiment,new chemistry engine or fresh PG/whole-backend certificate.

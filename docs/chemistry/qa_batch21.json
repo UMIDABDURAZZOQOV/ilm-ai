@@ -1,0 +1,51 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 99,
+  "prior_xp": 1980,
+  "added_lessons": 5,
+  "added_questions": 72,
+  "kinds": {
+    "concept_selection": 18,
+    "short_text": 8,
+    "chemical_formula": 4,
+    "numeric_value": 26,
+    "chemical_equation": 16
+  },
+  "added_xp": 100,
+  "total_xp": 2080,
+  "total_completed_lessons": 104,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_catalog_unchanged": true,
+  "scientific_notation_replay_equivalent": true,
+  "exported_fixtures": "sanitized public grade8 halogen practical catalog,lesson,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 104,
+  "remaining_lessons": 164,
+  "backend_tests": {
+    "passed": 589,
+    "skipped": 1,
+    "seconds": 742.26
+  },
+  "targeted_batch_tests": {
+    "passed": 45,
+    "seconds": 24.8
+  },
+  "flutter_tests": {
+    "passed": 502,
+    "seconds": 184
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 104.2
+  },
+  "flutter_practical_widget_tests": {
+    "passed": 2,
+    "seconds": 9
+  },
+  "flutter_production_changes": false,
+  "open_source_holds": 1,
+  "open_editorial_issues": 56,
+  "production_operations": false
+}

@@ -6897,7 +6897,42 @@
             "record_id": "ch8-paragraph27",
             "printed_page": 116,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p26-equivalent-definition-review",
+              "status": "open_review",
+              "printed_pages": [
+                111,
+                112,
+                113,
+                114,
+                115
+              ],
+              "pdf_pages": [
+                111,
+                112,
+                113,
+                114,
+                115
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "E/equivalent versus equivalent-mass terminology and g/mol units are historical textbook conventions. Valence/basicity divisors require the specified reaction/model,not universal all-reaction values. Copper input52.74 becomes52.7 in working114;114 asks oxygen equivalent while115 solves aluminium9.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p26-equivalent-definition-review",
+                  "printed_page": 111,
+                  "reason": "Use exact named valence/mass-ratio examples and explicit final rounding. Withhold Al/O mismatched9 key and precision-dependentCu answer;do not silently repair source target or units."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6937,7 +6972,42 @@
             "record_id": "ch8-paragraph28",
             "printed_page": 121,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p27-chloride-oxychlorine-review",
+              "status": "open_review",
+              "printed_pages": [
+                116,
+                117,
+                118,
+                119,
+                120
+              ],
+              "pdf_pages": [
+                116,
+                117,
+                118,
+                119,
+                120
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Concentrated acid density lacks temperature;NaCl consumption/population values118 are historical descriptions,not current/medical recommendations. HgCl2 insolubility119 needs review. Atomic oxygen/HClO decomposition and chlorinated lime formula/association/unbalanced water119 need species/stoichiometry review. Acid/oxidant rankings require conditions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p27-chloride-oxychlorine-review",
+                  "printed_page": 116,
+                  "reason": "Use exact clear indicator/reaction/AgCl/oxychlorine identity examples. No universalHgCl2-insoluble key,atomic-O product key,unbalanced lime equation,health-dose/current mine claim or explosive preparation detail."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6977,7 +7047,36 @@
             "record_id": "ch8-practical01",
             "printed_page": 124,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p28-halogen-medical-condition-review",
+              "status": "open_review",
+              "printed_pages": [
+                121,
+                122,
+                123
+              ],
+              "pdf_pages": [
+                121,
+                122,
+                123
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Universal fluorine/direct-reaction/halide oxygen-series wording lacks conditions;HI heat sign is not a condition-free thermochemical key. Clinical bromine/fluorine doses,sedative claims andiodine hemostatic use123 are unverified medical assertions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p28-halogen-medical-condition-review",
+                  "printed_page": 121,
+                  "reason": "Retain actual minerals,diatomic/dispersion trend,clear given material balances,Ag-halide colors and industrial categories. Withhold clinical instructions/doses,unqualified heat signs/reaction predictions. No fluoride/halogen physical handling."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "practical",
@@ -7022,7 +7121,45 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-practical1-evidence-stoichiometry-review",
+              "status": "open_review",
+              "printed_pages": [
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "pdf_pages": [
+                124,
+                125,
+                126,
+                127,
+                128,
+                129
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Practical asks identifyingNaCl/NaI butAg-halide tests alone do not identifyNa+. FourZnCl2 methods need explicit prior source support,not inventedobservations. Ca(OH)2 equation124 has2CaCl2 while125 hasbalanced one;128 second solution multiplies2.45*0.75 butlabels3.27.129 H2S/bromine observation is not taught in priorhalogen sources. Medical CaCl2 claims124-125 lackclinicalverification.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-practical1-evidence-stoichiometry-review",
+                  "printed_page": 124,
+                  "reason": "Digital evidence analysis only. Preserve clear125 equation and128 first division method with conflictnoted. No invented tube identity,Na flame test,H2S observation,physicalfour-method procedure,clinicalpreparation or silent repair."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch8-chapter05",
@@ -7099,7 +7236,42 @@
             "record_id": "ch8-paragraph30",
             "printed_page": 134,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p29-oxygen-orbital-sulfur-scope",
+              "status": "open_review",
+              "printed_pages": [
+                130,
+                131,
+                132,
+                133,
+                134
+              ],
+              "pdf_pages": [
+                130,
+                131,
+                132,
+                133,
+                134
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Se79 isotope label130 lacks representative-isotope context. Outer d-orbital promotion pictures131 are a textbookmodel,not proven universal bonding mechanism. Remaining-all-oxygen-2 wording ignores ordinary0 and needs exception scope;natural sulfide list includesFeS2,so not all sulfide sulfur automatically-2. Flotation/property/application statements require scopedexamples.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p29-oxygen-orbital-sulfur-scope",
+                  "printed_page": 130,
+                  "reason": "Use exact outer6 configuration recognition,OF2+2/H2O2-1,listedcompounds,allotropes and supplied redoxequations. No Se79 naturalabundance key,universal d-promotion/oxygen/sulfide-state inference,physicalplastic-sulfur/CS2 activity or medical/pesticide/explosive recipe."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

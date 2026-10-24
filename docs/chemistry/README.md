@@ -1,6 +1,6 @@
 # ILM AI Chemistry 7–11
 
-2026-10-24 (Asia/Tashkent). Separate backend and Flutter
+2026-10-25 (Asia/Tashkent). Separate backend and Flutter
 `feat/chemistry-curriculum` branches. Permanent user requirements:
 [REQUIREMENTS.md](REQUIREMENTS.md).
 
@@ -13,10 +13,10 @@ from catalogue containers, prefaces, subtopics and chapter reviews.
 The catalogue has **327 records**, including those additional source anchors.
 This is source mapping, not 268 finished interactive lessons.
 
-Grade7 has all74 mapped teaching entries;grade8 now has reviewed §1–25.
+Grade7 has all74 mapped teaching entries;grade8 now has reviewed §1–29 plus practical1.
 The isolated v2 API and separate Flutter QA entrypoint reuse ILM AI learning
 components for MCQ, short text, fixed-unit numbers, formulas and equations.
-**99/268** source teaching entries are implemented;169 remain and all five
+**104/268** source teaching entries are implemented;164 remain and all five
 course-ready flags remain false. No AI feature added.
 
 - [Source review](SOURCE_REVIEW.md)
