@@ -1,0 +1,2362 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 13,
+  "key": "chemistry-7-p10-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph10",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph09"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph10",
+      "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+      "paragraph": 10,
+      "printed_pages": [
+        33
+      ],
+      "pdf_pages": [
+        17
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph10-page33"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph10",
+      "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+      "paragraph": 10,
+      "printed_pages": [
+        34
+      ],
+      "pdf_pages": [
+        18
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph10-page34"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph10",
+      "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+      "paragraph": 10,
+      "printed_pages": [
+        35
+      ],
+      "pdf_pages": [
+        18
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph10-page35"
+    }
+  ],
+  "facts": {
+    "size": {
+      "claim": "Kitob molekula diametrini 30 Å (3 nm yoki 3·10⁻⁹ m) gacha, ko‘pchilik molekulalar uchun 1–10 Å oralig‘ida deb tavsiflaydi.",
+      "verified_answers": [
+        "3",
+        "30"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    "absolute": {
+      "claim": "Darslik bitta suv molekulasining absolut massasini 29,91·10⁻²⁷ kg deb beradi; molekulalar massasi ham juda kichik bo‘lgani uchun nisbiy molekular massa ishlatiladi.",
+      "verified_answers": [
+        "29.91e-27"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    "relative": {
+      "claim": "Nisbiy molekular massa Mr molekula massasining uglerod-12 atom massasining 1/12 qismiga nisbatidir; u molekuladagi atomlarning nisbiy massalari yig‘indisiga teng. Suv misolida 2+16=18.",
+      "verified_answers": [
+        "18",
+        "Nisbiy molekular massa"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    "mol": {
+      "claim": "Darslik modda miqdorining birligini mol deb ataydi; 1 molni 0,012 kg ugleroddagi atomlar soniga teng zarrachalar tutuvchi miqdor sifatida ta’riflaydi.",
+      "verified_answers": [
+        "Mol",
+        "0.012"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    "avogadro": {
+      "claim": "Darslikdagi yaxlitlangan Avogadro doimiysi NA = 6,02·10²³ mol⁻¹; har qanday 1 mol moddada shuncha zarracha bor. Zarrachalar soni N = NA·n.",
+      "verified_answers": [
+        "6.02e23",
+        "Avogadro doimiysi"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    "amount": {
+      "claim": "N = NA·n munosabatidan n = N/NA kelib chiqadi. Bir mol suvda va bir mol kislorodda har biridan 6,02·10²³ ta molekula bo‘ladi.",
+      "verified_answers": [
+        "1",
+        "6.02e23"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    "molar": {
+      "claim": "Molar massa M modda massasi m ning modda miqdori n ga nisbatidir: M=m/n. m kg yoki g, n mol bo‘lsa, M kg/mol yoki g/mol birlikda ifodalanadi.",
+      "verified_answers": [
+        "Molar massa",
+        "9",
+        "16"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    "table": {
+      "claim": "Kitob jadvalidagi molar massalar: suv H2O —18 g/mol (0,018 kg/mol); O2 —32 g/mol (0,032 kg/mol); CO2 —44 g/mol; NaOH —40 g/mol. g/mol dagi son qiymat Mr ga teng.",
+      "verified_answers": [
+        "18",
+        "32",
+        "44",
+        "40",
+        "0.018"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    "atom": {
+      "claim": "Kitob atom holidagi kislorod molar massasini 16 g/mol, O2 molekular kislorodnikini 32 g/mol deb ajratadi.",
+      "verified_answers": [
+        "16",
+        "32"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    "worked": {
+      "claim": "M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+      "verified_answers": [
+        "9",
+        "16",
+        "6.02e23"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page35"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Molekulaning o‘lchami va massasi",
+        "body": "Darslik molekula diametrini 30 Å = 3 nm = 3·10⁻⁹ m gacha deb beradi, ko‘pchiligi 1–10 Å oralig‘ida deyiladi. Bir suv molekulasining massasi 29,91·10⁻²⁷ kg deb yozilgan. Bunday kichik massalarni taqqoslashda nisbiy kattalik qulay.",
+        "fact_ids": [
+          "size",
+          "absolute"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              33
+            ],
+            "pdf_pages": [
+              17
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page33"
+          }
+        ]
+      },
+      {
+        "title": "Nisbiy molekular massani yig‘amiz",
+        "body": "Mr — molekula massasini uglerod-12 massasining 1/12 qismi bilan taqqoslash. Uni atomlarning nisbiy massalarini qo‘shib topamiz. Kitob suv uchun ikki H hissasi 2 va O hissasi 16 ni qo‘shadi: Mr(H₂O)=18. Mr massa birligi bilan yozilmaydigan nisbatdir.",
+        "fact_ids": [
+          "relative"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              33
+            ],
+            "pdf_pages": [
+              17
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page33"
+          }
+        ]
+      },
+      {
+        "title": "Mol nimani sanaydi?",
+        "body": "Modda miqdorining birligi — mol. Ushbu darslik 1 molni 0,012 kg ugleroddagi atomlar soni bilan ta’riflaydi. U zarrachalar sonini yaxlitlab 6,02·10²³ deb beradi va NA bilan belgilaydi. Bu darsdagi hisoblar aynan kitobning shu yaxlitlangan qiymatiga asoslanadi.",
+        "fact_ids": [
+          "mol",
+          "avogadro"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              33
+            ],
+            "pdf_pages": [
+              17
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page33"
+          }
+        ]
+      },
+      {
+        "title": "Zarrachalar soni bilan miqdor orasida",
+        "body": "N = NA·n. Aksincha, n = N/NA. Bir mol suv ham, bir mol kislorod ham kitobdagi bir xil son — 6,02·10²³ ta molekulani tutadi. Modda turi o‘zgarsa ham bir molning zarrachalar soni o‘zgarmaydi.",
+        "fact_ids": [
+          "avogadro",
+          "amount"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              33
+            ],
+            "pdf_pages": [
+              17
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page33"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      },
+      {
+        "title": "Molar massa va birlik",
+        "body": "M=m/n. Massani g da, miqdorni mol da olsak, birlik g/mol; kg da olsak kg/mol bo‘ladi. Suv 18 g/mol = 0,018 kg/mol; O₂ 32 g/mol = 0,032 kg/mol. Mr bilan son jihatdan tenglik g/mol yozuviga tegishli. Birlikni tashlab ketmang.",
+        "fact_ids": [
+          "molar",
+          "table"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      },
+      {
+        "title": "Jadvaldagi modda va zarrachani farqlash",
+        "body": "Kitob jadvali CO₂ uchun 44 g/mol, NaOH uchun 40 g/mol beradi. Atom holidagi O esa 16 g/mol; O₂ molekulasi 32 g/mol. “Kislorod” nomini o‘qishda formula O yoki O₂ ekanini ham tekshiring.",
+        "fact_ids": [
+          "table",
+          "atom"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      },
+      {
+        "title": "Original hisoblash mashqi",
+        "body": "M=m/n dan m=M·n ni olamiz. 0,5 mol suv: 18×0,5=9 g. 0,5 mol O₂: 32×0,5=16 g. 18 g suv esa 1 mol va kitob bo‘yicha 6,02·10²³ molekula. Bular tayyor ma’lumotdan hisoblash; modda bilan tajriba talab qilinmaydi.",
+        "fact_ids": [
+          "worked",
+          "molar",
+          "amount"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              35
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page35"
+          }
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "title": "Sanoq va modda miqdori",
+        "body": "N=NA·n; n=N/NA. NA=6,02·10²³ mol⁻¹ — ushbu darslikdagi yaxlitlangan qiymat.",
+        "fact_ids": [
+          "avogadro",
+          "amount"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              33
+            ],
+            "pdf_pages": [
+              17
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page33"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      },
+      {
+        "title": "Molar massa",
+        "body": "M=m/n; shu tenglikdan m=M·n. Birliklar bir-biriga mos bo‘lsin.",
+        "fact_ids": [
+          "molar"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "title": "Yarim mol suv",
+        "body": "m=18 g/mol ×0,5 mol=9 g.",
+        "fact_ids": [
+          "worked",
+          "table"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              35
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page35"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph10",
+        "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+        "paragraph": 10,
+        "printed_pages": [
+          33
+        ],
+        "pdf_pages": [
+          17
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph10-page33"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph10",
+        "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+        "paragraph": 10,
+        "printed_pages": [
+          34
+        ],
+        "pdf_pages": [
+          18
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph10-page34"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph10",
+        "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+        "paragraph": 10,
+        "printed_pages": [
+          35
+        ],
+        "pdf_pages": [
+          18
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph10-page35"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p10-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Atomlar nisbiy massalarining yig‘indisi molekula uchun qaysi kattalikni beradi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Molar hajm"
+          },
+          {
+            "id": "b",
+            "label": "Nisbiy molekular massa"
+          },
+          {
+            "id": "c",
+            "label": "Absolut diametr"
+          },
+          {
+            "id": "d",
+            "label": "Moddaning rangi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Nisbiy molekular massa",
+        "feedback": {
+          "correct": "To‘g‘ri. Nisbiy molekular massa Mr molekula massasining uglerod-12 atom massasining 1/12 qismiga nisbatidir; u molekuladagi atomlarning nisbiy massalari yig‘indisiga teng. Suv misolida 2+16=18.",
+          "incorrect": "Hozircha noto‘g‘ri. Nisbiy molekular massa Mr molekula massasining uglerod-12 atom massasining 1/12 qismiga nisbatidir; u molekuladagi atomlarning nisbiy massalari yig‘indisiga teng. Suv misolida 2+16=18.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Nisbiy molekular massa Mr molekula massasining uglerod-12 atom massasining 1/12 qismiga nisbatidir; u molekuladagi atomlarning nisbiy massalari yig‘indisiga teng. Suv misolida 2+16=18.",
+            "fact_ids": [
+              "relative"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  33
+                ],
+                "pdf_pages": [
+                  17
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page33"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "relative"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Modda miqdorining kitobdagi birligi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "g/mol"
+          },
+          {
+            "id": "b",
+            "label": "kg"
+          },
+          {
+            "id": "c",
+            "label": "nm"
+          },
+          {
+            "id": "d",
+            "label": "Mol"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Mol",
+        "feedback": {
+          "correct": "To‘g‘ri. Darslik modda miqdorining birligini mol deb ataydi; 1 molni 0,012 kg ugleroddagi atomlar soniga teng zarrachalar tutuvchi miqdor sifatida ta’riflaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Darslik modda miqdorining birligini mol deb ataydi; 1 molni 0,012 kg ugleroddagi atomlar soniga teng zarrachalar tutuvchi miqdor sifatida ta’riflaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Darslik modda miqdorining birligini mol deb ataydi; 1 molni 0,012 kg ugleroddagi atomlar soniga teng zarrachalar tutuvchi miqdor sifatida ta’riflaydi.",
+            "fact_ids": [
+              "mol"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  33
+                ],
+                "pdf_pages": [
+                  17
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page33"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "mol"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Massaning modda miqdoriga nisbati qanday ataladi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Molar massa"
+          },
+          {
+            "id": "b",
+            "label": "Nisbiy atom massasi"
+          },
+          {
+            "id": "c",
+            "label": "Molekula diametri"
+          },
+          {
+            "id": "d",
+            "label": "Zarrachalar orasidagi masofa"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Molar massa",
+        "feedback": {
+          "correct": "To‘g‘ri. Molar massa M modda massasi m ning modda miqdori n ga nisbatidir: M=m/n. m kg yoki g, n mol bo‘lsa, M kg/mol yoki g/mol birlikda ifodalanadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Molar massa M modda massasi m ning modda miqdori n ga nisbatidir: M=m/n. m kg yoki g, n mol bo‘lsa, M kg/mol yoki g/mol birlikda ifodalanadi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Molar massa M modda massasi m ning modda miqdori n ga nisbatidir: M=m/n. m kg yoki g, n mol bo‘lsa, M kg/mol yoki g/mol birlikda ifodalanadi.",
+            "fact_ids": [
+              "molar"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "molar"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "CO₂ ning kitob jadvalidagi molar massasi necha g/mol?",
+        "options": [
+          {
+            "id": "a",
+            "label": "18"
+          },
+          {
+            "id": "b",
+            "label": "32"
+          },
+          {
+            "id": "c",
+            "label": "44"
+          },
+          {
+            "id": "d",
+            "label": "40"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "44",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob jadvalidagi molar massalar: suv H2O —18 g/mol (0,018 kg/mol); O2 —32 g/mol (0,032 kg/mol); CO2 —44 g/mol; NaOH —40 g/mol. g/mol dagi son qiymat Mr ga teng.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob jadvalidagi molar massalar: suv H2O —18 g/mol (0,018 kg/mol); O2 —32 g/mol (0,032 kg/mol); CO2 —44 g/mol; NaOH —40 g/mol. g/mol dagi son qiymat Mr ga teng.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kitob jadvalidagi molar massalar: suv H2O —18 g/mol (0,018 kg/mol); O2 —32 g/mol (0,032 kg/mol); CO2 —44 g/mol; NaOH —40 g/mol. g/mol dagi son qiymat Mr ga teng.",
+            "fact_ids": [
+              "table"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "table"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q05",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Atom holidagi O uchun necha g/mol berilgan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "32"
+          },
+          {
+            "id": "b",
+            "label": "16"
+          },
+          {
+            "id": "c",
+            "label": "18"
+          },
+          {
+            "id": "d",
+            "label": "40"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "16",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob atom holidagi kislorod molar massasini 16 g/mol, O2 molekular kislorodnikini 32 g/mol deb ajratadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob atom holidagi kislorod molar massasini 16 g/mol, O2 molekular kislorodnikini 32 g/mol deb ajratadi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kitob atom holidagi kislorod molar massasini 16 g/mol, O2 molekular kislorodnikini 32 g/mol deb ajratadi.",
+            "fact_ids": [
+              "atom"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "atom"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "NA bilan belgilangan doimiy nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Avogadro doimiysi",
+        "feedback": {
+          "correct": "To‘g‘ri. Darslikdagi yaxlitlangan Avogadro doimiysi NA = 6,02·10²³ mol⁻¹; har qanday 1 mol moddada shuncha zarracha bor. Zarrachalar soni N = NA·n.",
+          "incorrect": "Hozircha noto‘g‘ri. Darslikdagi yaxlitlangan Avogadro doimiysi NA = 6,02·10²³ mol⁻¹; har qanday 1 mol moddada shuncha zarracha bor. Zarrachalar soni N = NA·n.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Darslikdagi yaxlitlangan Avogadro doimiysi NA = 6,02·10²³ mol⁻¹; har qanday 1 mol moddada shuncha zarracha bor. Zarrachalar soni N = NA·n.",
+            "fact_ids": [
+              "avogadro"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  33
+                ],
+                "pdf_pages": [
+                  17
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page33"
+              }
+            ]
+          }
+        ],
+        "expected": "Avogadro doimiysi",
+        "aliases": [
+          "Avogadro doimiysi",
+          "avogadro soni"
+        ]
+      },
+      "fact_ids": [
+        "avogadro"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q07",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "M=m/n ifodasi bilan aniqlanadigan kattalik nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Molar massa",
+        "feedback": {
+          "correct": "To‘g‘ri. Molar massa M modda massasi m ning modda miqdori n ga nisbatidir: M=m/n. m kg yoki g, n mol bo‘lsa, M kg/mol yoki g/mol birlikda ifodalanadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Molar massa M modda massasi m ning modda miqdori n ga nisbatidir: M=m/n. m kg yoki g, n mol bo‘lsa, M kg/mol yoki g/mol birlikda ifodalanadi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Molar massa M modda massasi m ning modda miqdori n ga nisbatidir: M=m/n. m kg yoki g, n mol bo‘lsa, M kg/mol yoki g/mol birlikda ifodalanadi.",
+            "fact_ids": [
+              "molar"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "Molar massa",
+        "aliases": [
+          "Molar massa",
+          "molyar massa"
+        ]
+      },
+      "fact_ids": [
+        "molar"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q08",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Kitobdagi 2+16 yig‘indisiga ko‘ra suvning Mr qiymati nechaga teng?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": ""
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "18",
+        "feedback": {
+          "correct": "To‘g‘ri. Nisbiy molekular massa Mr molekula massasining uglerod-12 atom massasining 1/12 qismiga nisbatidir; u molekuladagi atomlarning nisbiy massalari yig‘indisiga teng. Suv misolida 2+16=18.",
+          "incorrect": "Hozircha noto‘g‘ri. Nisbiy molekular massa Mr molekula massasining uglerod-12 atom massasining 1/12 qismiga nisbatidir; u molekuladagi atomlarning nisbiy massalari yig‘indisiga teng. Suv misolida 2+16=18.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Nisbiy molekular massa Mr molekula massasining uglerod-12 atom massasining 1/12 qismiga nisbatidir; u molekuladagi atomlarning nisbiy massalari yig‘indisiga teng. Suv misolida 2+16=18.",
+            "fact_ids": [
+              "relative"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  33
+                ],
+                "pdf_pages": [
+                  17
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page33"
+              }
+            ]
+          }
+        ],
+        "expected": "18",
+        "unit": ""
+      },
+      "fact_ids": [
+        "relative"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            33
+          ],
+          "pdf_pages": [
+            17
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page33"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q09",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "18 g/mol ni kitobdagi kg/mol yozuviga o‘tkazing. Faqat son yozing.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "kg/mol"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.018",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob jadvalidagi molar massalar: suv H2O —18 g/mol (0,018 kg/mol); O2 —32 g/mol (0,032 kg/mol); CO2 —44 g/mol; NaOH —40 g/mol. g/mol dagi son qiymat Mr ga teng.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob jadvalidagi molar massalar: suv H2O —18 g/mol (0,018 kg/mol); O2 —32 g/mol (0,032 kg/mol); CO2 —44 g/mol; NaOH —40 g/mol. g/mol dagi son qiymat Mr ga teng.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kitob jadvalidagi molar massalar: suv H2O —18 g/mol (0,018 kg/mol); O2 —32 g/mol (0,032 kg/mol); CO2 —44 g/mol; NaOH —40 g/mol. g/mol dagi son qiymat Mr ga teng.",
+            "fact_ids": [
+              "table"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "0.018",
+        "unit": "kg/mol"
+      },
+      "fact_ids": [
+        "table"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q10",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "0,5 mol suvning massasini M=18 g/mol bilan toping.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "g"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "9",
+        "feedback": {
+          "correct": "To‘g‘ri. M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+          "incorrect": "Hozircha noto‘g‘ri. M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+            "fact_ids": [
+              "worked"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  35
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page35"
+              }
+            ]
+          }
+        ],
+        "expected": "9",
+        "unit": "g"
+      },
+      "fact_ids": [
+        "worked"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page35"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "0,5 mol O₂ ning massasini M=32 g/mol bilan toping.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "g"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "16",
+        "feedback": {
+          "correct": "To‘g‘ri. M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+          "incorrect": "Hozircha noto‘g‘ri. M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+            "fact_ids": [
+              "worked"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  35
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page35"
+              }
+            ]
+          }
+        ],
+        "expected": "16",
+        "unit": "g"
+      },
+      "fact_ids": [
+        "worked"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page35"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p10-r1-q12",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "18 g suvda kitobning yaxlitlangan NA qiymati bo‘yicha nechta molekula bor? e yozuvi mumkin.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "ta molekula"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "6.02e23",
+        "feedback": {
+          "correct": "To‘g‘ri. M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+          "incorrect": "Hozircha noto‘g‘ri. M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "M=m/n dan m=M·n. Suv uchun 0,5 mol ×18 g/mol =9 g; O2 uchun 0,5 mol ×32 g/mol =16 g. 18 g suv 1 mol bo‘lgani uchun 6,02·10²³ molekula tutadi.",
+            "fact_ids": [
+              "worked"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  35
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page35"
+              }
+            ]
+          }
+        ],
+        "expected": "6.02e23",
+        "unit": "ta molekula"
+      },
+      "fact_ids": [
+        "worked"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page35"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only"
+}

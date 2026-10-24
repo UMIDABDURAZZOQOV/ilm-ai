@@ -73,3 +73,14 @@ specification is exported. Widget screenshots can be captured under ignored
 `build/chemistry-review` using `--dart-define=CHEMISTRY_CAPTURE=true`.
 
 Actual pass/fail results and native-device limits: [QA_REPORT.md](QA_REPORT.md).
+
+
+## Batch04 sandbox and notation
+
+Current corrected local QA uses the separate directory
+`C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch04-final-qa`, port8898.
+It contains only synthetic learner900003. Its private defines file is for the
+separate debug entrypoint only. Do not commit tokens or reuse it for production.
+Older development sandboxes preserve older immutable snapshots; source-copy
+review fixes require a fresh sandbox, not importer overwrite. Formula/equation
+input is now supported within ASSESSMENT_CONTRACT.md's explicit finite bounds.

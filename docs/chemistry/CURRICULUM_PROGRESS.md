@@ -1,43 +1,59 @@
 # Chemistry progress
 
-2026-10-24. All five maps complete; first eleven reviewed local lessons implemented.
+2026-10-24. Source mapping and interactive readiness are separate.
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7 | 6 | 51 | 16 | 7 | 74 | 11 | 63 |
+| 7 | 6 | 51 | 16 | 7 | 74 | 16 | 58 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 0 | 59 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 11 | 257 |
+| Total | 29 | 204 | 49 | 15 | 268 | 16 | 252 |
 
-All five source maps exist. All course-ready flags remain false. Prefaces,
-sections, unnumbered subtopics, child activities and chapter-review anchors are
-preserved in the 327-record catalogue but not double-counted as teaching entries.
+All five maps exist. All whole-course ready flags remain false. The327 catalogue
+records include containers, prefaces, reviews and child anchors; these are not
+double-counted as268 finished lessons. Only explicitly indexed, reviewed lessons
+count as implemented. This is an isolated local preview, not course publication.
 
-Implemented: `chemistry-7-p01-r1`, grade7 §1 printed3–8 / PDF2:right,
-PDF3:left/right, PDF4:left/right, PDF5:left. Eight original theory cards,
-nine MCQ and three bounded short-text FRQ, 18 reviewed fact entries. No chemical
-calculation or equation is forced into this introductory topic. This is an
-explicit local QA preview; the normal app has not published a Chemistry course.
+## Initial §1
 
-Batch02: grade7 ?2 (printed9?10), practical1 (10?12), practical2
-(12?15), ?3 (15?18), ?4 (19?20). 30 new cards, 52 assessments:
-32 MCQ, 12 short-text FRQ, 8 numerical FRQ. Numeric entries accept exact comma,
-dot and scientific decimal variants in the stated unit. One reviewed formula
-and one original worked arithmetic example are also linked to taught facts.
+1 lessons;8 theory cards. 9 concept_selection, 3 short_text.
 
-Batch03: grade7 ?5 (printed20?22), ?6 (22?25), practical3 (25?26),
-?7 (26?28), ?8 (28?29). 28 new cards,32 MCQ,17 short-text FRQ and3 numerical
-FRQ. Digital-only separation/result analysis; no real heating or reagent use.
+## Batch02: §2, practical1–2, §3–4
 
-Next authorship: grade7 ?9, printed30?32 / PDF16:left through PDF17:left,
-formula/valence/indices; then ?10, ?11, ?12 and ?13. Original source images
-through printed43 have been rendered and read in preparation; no unindexed
-material is considered implemented. Formula and equation input grading is the
-next required technical extension, not an existing production capability.
+5 lessons;30 theory cards. 32 concept_selection, 12 short_text, 8 numeric_value.
 
-The earlier handoff label ??2 laboratory safety? was incorrect: ?2 is substance
-properties; laboratory safety is practical1. Source order/count did not change.
-All remaining257 entries are source map records, not finished lessons.
-See CHECKPOINT.md for batch evidence and continuation; course-ready remains false.
+## Batch03: §5–6, practical3, §7–8
+
+5 lessons;28 theory cards. 32 concept_selection, 17 short_text, 3 numeric_value.
+
+## Batch04: §9–13
+
+5 lessons;30 theory cards. 25 concept_selection, 11 short_text, 2 chemical_formula, 14 numeric_value, 4 chemical_equation.
+
+## Current continuation
+
+Completed grade7 through §13, including practical1–3. Next is **§14, Massaning
+saqlanish qonuni**, printed42–43 / PDF22:left–right. Then §15, §16 and chapterI
+review anchors before chapterII §17. Source images through printed61 have been
+rendered in preparation; reading/rendering does not make a lesson implemented.
+
+Current deterministic kinds: MCQ, short text, fixed-unit numeric values, formula
+notation and finite chemical equations. No general structural/ionic/charge or
+automatic reaction engine is claimed. See ASSESSMENT_CONTRACT.md.
+
+One blocking grade9 §40 scientific hold and one scoped grade7 §13 editorial
+percentage issue remain visible. The latter disputed values cannot become
+answer keys; unambiguous parts have separate evidence. See SOURCE_REVIEW.md.
+
+Eight apostrophes in four development files were restored after a Windows pipe
+encoding fault. Scientific facts/keys are unchanged, review hashes renewed,
+original §1 preserved. Existing imported QA rows/snapshots are not overwritten;
+a fresh synthetic sandbox uses the corrected manifests.
+
+The earlier handoff calling §2 safety was wrong: §2 is substance properties;
+safety is practical1. Original book order/count stays unchanged.
+
+See CHECKPOINT.md for commits/tests and CURRICULUM_ALIGNMENT_2026.md for official
+programme differences. Remaining252 entries are not finished lessons.

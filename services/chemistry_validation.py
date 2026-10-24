@@ -30,6 +30,8 @@ PINNED_IDENTITIES = {
 TEACHING_KINDS = {"paragraph", "laboratory", "practical"}
 HEADING_STATES = {"body_text_heading_verified", "body_image_heading_verified"}
 KNOWN_SOURCE_HOLDS = {'ch9-paragraph40': 'ch9-p40-page186-configuration-conflict'}
+KNOWN_EDITORIAL_ISSUES = {'ch7-paragraph13': 'ch7-p13-p41-percentage-discrepancy'}
+UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
 
 def read_json(path):
@@ -94,6 +96,11 @@ def validate_catalog(catalog):
         if starts != sorted(starts):
             raise ValueError("source_order_changed")
         for r in records:
+            if r['id'] in KNOWN_EDITORIAL_ISSUES:
+                require(any(i.get('id') == KNOWN_EDITORIAL_ISSUES[r['id']]
+                            and i.get('status') == 'open_review'
+                            for i in r.get('editorial_review_issues', [])),
+                        'known_editorial_issue_must_remain_visible')
             if r['id'] in KNOWN_SOURCE_HOLDS and (
                     r.get('source_review_hold',{}).get('id') != KNOWN_SOURCE_HOLDS[r['id']]
                     or r.get('source_review_hold',{}).get('status') != 'open'
@@ -152,6 +159,19 @@ def validate_lesson(catalog, lesson, review):
     """Validate evidence/content shape, taught facts and deterministic keys."""
     from services.chemistry_grading import normalized_text, grade_answer
 
+    def copy_integrity(value):
+        if isinstance(value, str):
+            require('\ufffd' not in value and not re.search(r'[A-Za-z]\?[A-Za-z]', value),
+                    'corrupted_utf8_lesson_copy')
+        elif isinstance(value, dict):
+            for child in value.values():
+                copy_integrity(child)
+        elif isinstance(value, list):
+            for child in value:
+                copy_integrity(child)
+
+    copy_integrity(lesson)
+
     validate_catalog(catalog)
     require(lesson.get("schema_version") == 1 and lesson.get("assessment_version") == 2
             and lesson.get("subject") == "kimyo" and lesson.get("language") == "uz"
@@ -203,6 +223,9 @@ def validate_lesson(catalog, lesson, review):
         require(type(f.get("claim")) is str and f["claim"] and f.get("verified_answers")
                 and all(type(a) is str and a for a in f["verified_answers"]), "fact_answer_evidence_required")
         source_refs(f.get("source_refs"))
+        if topic['id'] in KNOWN_EDITORIAL_ISSUES:
+            require(not any(UNRESOLVED_PERCENTAGES.search(a) for a in f['verified_answers']),
+                    'unresolved_source_percentage_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
@@ -282,10 +305,27 @@ def validate_lesson(catalog, lesson, review):
                     'explicit_numeric_unit_required')
             require(spec['expected'] == spec['verified_answer'], 'numeric_answer_evidence_mismatch')
             sample = {'value': spec['expected']}
+        elif q['response_kind'] in {'chemical_formula', 'chemical_equation'}:
+            from services.chemistry_notation import formula, equation
+            require(set(public) == {'prompt', 'input_label', 'max_length'}
+                    and public['max_length'] == 80 and public['input_label'],
+                    'bounded_notation_input_required')
+            require(spec['expected'] == spec['verified_answer'], 'notation_answer_evidence_mismatch')
+            if q['response_kind'] == 'chemical_formula':
+                _, composition = formula(spec['expected'])
+                for alias in spec.get('aliases', []):
+                    require(formula(alias)[1] == composition, 'formula_alias_composition_mismatch')
+            else:
+                _, atoms, _ = equation(spec['expected'])
+                require(atoms[0] == atoms[1], 'unbalanced_reviewed_equation')
+            sample = {'value': spec['expected']}
         else:
             raise ValueError("unreviewed_response_kind")
         require(grade_answer(spec, sample) == "correct", "deterministic_answer_key_failed")
-        require(set(spec.get("feedback", {})) == {"correct", "incorrect", "invalid_answer", "answer_required"}
+        feedback_codes = {"correct", "incorrect", "invalid_answer", "answer_required"}
+        if q['response_kind'] == 'chemical_equation':
+            feedback_codes |= {'incorrect_species', 'atom_imbalance', 'incorrect_ratio'}
+        require(set(spec.get("feedback", {})) == feedback_codes
                 and all(type(s) is str and s for s in spec["feedback"].values()), "authored_feedback_required")
         require(spec.get("solution"), "source_linked_solution_required")
         for step in spec["solution"]:

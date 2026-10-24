@@ -80,6 +80,9 @@ def main():
               "implemented_lessons": len(lessons), "grades": progress,
               "open_source_review_holds": sum(r.get('source_review_hold',{}).get('status') == 'open'
                                                for b in catalog['books'] for r in b['records']),
+              "open_editorial_review_issues": sum(i.get('status') == 'open_review'
+                                                 for b in catalog['books'] for r in b['records']
+                                                 for i in r.get('editorial_review_issues', [])),
               "full_fact_formula_review_complete": False}
     if args.pdf_dir:
         result["original_pdf_pages_decoded"] = audit_originals(catalog, args.pdf_dir)

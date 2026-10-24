@@ -1,52 +1,69 @@
-# Central CLAUDE.md handoff: Chemistry
+# Chemistry handoff — authoritative current state
 
-The central CLAUDE.md in the Chemistry branch records this permanent requirement
-and links this handoff. The shared Biology worktree's CLAUDE.md was not changed.
+## Permanent user instruction
 
-User's permanent rule: **all subject knowledge must come only from user-provided,
-verified textbooks**. No unverified memory, OCR guesses, replacement facts or live
-AI generation. Original explanations/questions are allowed only within taught,
-page-reviewed textbook knowledge. All formulas/answers/feedback require precise
-paragraph/page evidence. Scientific contradictions enter a review queue.
-Full requirements: docs/chemistry/REQUIREMENTS.md.
+All scientific knowledge comes exclusively from the five user-supplied,
+page-reviewed textbooks. Original teaching, questions and worked arithmetic are
+allowed; unverified memory, OCR guesses, missing-page replacements and live AI
+are not. Exact paragraph, printed/PDF page, spread region and PDF identity apply
+to facts, formulas, examples, questions, keys and feedback. Contradictions remain
+visible in review. See REQUIREMENTS.md for the complete requirements.
 
-Chemistry branches: backend/Flutter `feat/chemistry-curriculum` in separate
-worktrees, from stable Biology `c0f84d0` and polished UI `444743b` respectively.
-Reviewed Flutter implementation was pushed at `14b3407` (first preview `4642e38`).
-Physics code `07f748b`/`cf01011` read-only. Its unfinished v2 FRQ remains local
-preview, not an already available production mechanism. Use the same learning,
-server grading, XP/progress/prerequisite/replay rules across subjects; do not
-invent incompatible educational engines.
+Continue automatically in source order through grades7–11, in reviewed batches
+of5–10 lessons. Validate, test, import to isolated local staging, record a precise
+checkpoint, commit/push the feature branch and proceed. Routine continuation does
+not need approval. Preserve completed work and original §1; do not regenerate it.
 
-Five supplied Uzbek sources are pinned by SHA/edition: grades7/8/9/10/11 actual
-PDF counts81/208/208/160/160. Grade7 spread regions and singleton front/back;
-grades10/11 scans require original-image review. Catalogue:29 chapters,
-204 paragraphs,49 laboratories,15 practicals,327 records/268 teaching entries.
-All source maps exist; this does not mean all interactive content is ready.
-Current interactive counts and exact next source: CURRICULUM_PROGRESS.md.
+## Branches and source map
 
-First local lesson: `chemistry-7-p01-r1`, eight cards, nine MCQ, three short-text
-FRQ; printed3–8 with spread regions. Strict deterministic input and source gates,
-immutable server snapshots, ordered/replayed answers and once-only XP are tested.
-The known grade9 §40/page186 contradiction has a machine-enforced review hold.
-All other267 source teaching entries remain unauthored. Next is7-sinf §2,
-printed9/PDF5:right. Formula/equation/numeric grading is not yet implemented.
+Backend/Flutter use separate `feat/chemistry-curriculum` worktrees from stable
+Biology `c0f84d0` and polished UI `444743b`. Physics `07f748b`/`cf01011` were read
+only; its unfinished FRQ is not production functionality. Original other-subject
+branches,406 Biology lessons and real user data remain intact.
 
-PDFs/OCR/page renders stay private. Drafts never auto-import. Test-only explicit
-allowlist, source validation and isolated DB required; production data/user
-progress, Biology's406 lessons and Physics work remain unchanged. No AI feature,
-main merge or production publication is authorized.
+The five books have81/208/208/160/160 PDF pages,817 total. The map has29 chapters,
+204 paragraphs,49 laboratories,15 practicals:268 teaching entries and327 total
+anchors. Grade7 spreads preserve left/right; grades10/11 scans require image
+review. Mapping is not interactive readiness.
 
+## Current implementation
 
-## 2026-10-24 continuation ? authoritative latest state
+16 reviewed lessons through grade7 §13, including practical1–3;252 remain. All
+whole-course flags remain false. §2 is substance properties, practical1 is safety.
+The previous safety label for §2 was a handoff error.
 
-User explicitly authorizes automatic sequential batches of 5?10 lessons through
-all five grades, with source review, validation, staging, tests and a pushed
-checkpoint after each batch. Do not request routine continuation approval.
-Preserve ?1 bytes and commits. Source order is ?2 substance properties, practical1
-safety, practical2 apparatus, ?3 particles/elements, ?4 mass, then ?5 substances.
-The earlier ?2 safety label is a handoff error, not source evidence.
-See CURRICULUM_PROGRESS.md and CHECKPOINT.md for current counts and next source.
-The only new response kind is bounded exact numeric_value with the unit fixed
-in the public prompt; it is not a formula/equation engine. Short-text grading
-remains unchanged. Chemical symbols are case-sensitive MCQ labels.
+MCQ, bounded short text, exact fixed-unit numeric input, formula notation and
+finite equation balance share ILM AI v2 ordered attempts, private server rubrics,
+immutable snapshots, replay, expiry, source feedback and once-only XP. Read
+ASSESSMENT_CONTRACT.md for actual syntax/limits; charge/structural/general-unit
+engines are not silently supported. Flutter uses common Ilmo/source/feedback/
+result/exit components and a separate explicit local preview entrypoint.
+
+Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
+Next paragraph is grade7 §14, printed42–43, followed by §15, §16 and chapterI
+review anchors before chapterII §17. Keep review anchors visible without double
+counting them as additional teaching entries.
+
+## Review and development notes
+
+- Grade9 §40/186 has a machine-enforced scientific hold; no silent approval.
+- Grade7 §13/41 has differing prose/table CO/CO₂ percentages. The catalogue pins
+  a scoped editorial issue, and the validator forbids those numbers as answer
+  keys. Unambiguous law, water/peroxide and integer-ratio material is separately
+  cited. Do not replace the conflicting data from memory.
+- Official2026-linked programmes differ by stream/structure; see
+  CURRICULUM_ALIGNMENT_2026.md. Chapter correspondence is not full outcome or
+  current-school-curriculum certification. No external programme knowledge is
+  added to lessons.
+- A PowerShell ASCII pipe damaged eight apostrophes in four development lesson
+  files; UTF-8 repair and renewed review hashes restore typography only. Facts,
+  correct answers and learning rules did not change. Existing imported rows are
+  never overwritten. Use a fresh synthetic QA sandbox for corrected manifests;
+  old QA snapshots/data remain separate. Original §1 bytes stay unchanged.
+- Use UTF-8 files/apply_patch for Uzbek text; do not pipe Unicode through default
+  Windows PowerShell OutputEncoding. The validator rejects corrupted lesson copy.
+
+PDF/OCR/page images and tokens remain private. No production DB/deploy/main merge,
+other-subject branch edit, AI Tutor/Explain or physical hazardous activity is
+authorized. Native phone/IME/TalkBack and independent teacher sign-off are not
+claimed by widget/source-image tests.

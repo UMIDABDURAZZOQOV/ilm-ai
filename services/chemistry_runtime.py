@@ -243,6 +243,10 @@ def submit(db, uid, sid, key, answer):
     elif question['kind'] == 'numeric_value':
         from services.chemistry_grading import canonical_number
         canonical = {'value': canonical_number(answer['value'])}
+    elif question['kind'] in {'chemical_formula', 'chemical_equation'}:
+        from services.chemistry_notation import formula, equation
+        canonical = {'value': (formula(answer['value'])[0] if question['kind']=='chemical_formula'
+                               else equation(answer['value'])[2])}
     digest = fingerprint(canonical)
     old = db.get(ChemistryAnswer, (sid, key))
     if old:

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph10.json",
+  "lesson_sha256": "64fc1f72224976fa6472dcce22393bacbbffea0c407bb45941222b7155a907f7",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Edition-specific carbon12-based mol definition and rounded6.02e23 are retained; no unprovided modern SI constant is substituted.",
+    "Molar-mass numerical equality to Mr is explicitly scoped to g/mol, as supported by printed34 table; kg/mol values are1000 times smaller. Units are never omitted.",
+    "Printed35 only the two final paragraph10 exercises above paragraph11 heading are in scope.",
+    "Original worked half-mole water/oxygen exercises use printed34 M values and M=m/n, with reviewed arithmetic; no unreviewed atomic-mass table is imported."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph10-page33",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph10",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 33,
+      "pdf_page": 17,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "efe3826885fc592f0037d428fef48b4c18a88967231a4df1f3f1c83c61829d4c",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph10-page34",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph10",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 34,
+      "pdf_page": 18,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "a3c5807bffd56d938b229112447bd6d8ae965f8ce73e9b337e665d1079408688",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph10-page35",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph10",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 35,
+      "pdf_page": 18,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "a3c5807bffd56d938b229112447bd6d8ae965f8ce73e9b337e665d1079408688",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

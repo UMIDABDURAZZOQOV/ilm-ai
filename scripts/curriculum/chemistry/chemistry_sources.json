@@ -827,7 +827,24 @@
             "record_id": "ch7-paragraph14",
             "printed_page": 42,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p13-p41-percentage-discrepancy",
+              "status": "open_review",
+              "printed_pages": [
+                41
+              ],
+              "pdf_pages": [
+                21
+              ],
+              "regions": [
+                "right"
+              ],
+              "scope": "CO/CO2 percentage values only; unambiguous law, water/peroxide values and integer ratio may be taught",
+              "description": "Prose and table differ: CO42.88/57.12 versus42.86/57.14; CO2 27.29/72.71 versus27.27/72.73. No conflicting percentage is an approved answer key."
+            }
+          ]
         },
         {
           "kind": "paragraph",

@@ -87,8 +87,8 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 
 ## Batch02 ? 2026-10-24
 
-- Six reviewed lessons total (five newly authored): ?2, practical1, practical2,
-  ?3, ?4; source order and ?1 bytes preserved. New batch:30 cards,32 MCQ,
+- Six reviewed lessons total (five newly authored): §2, practical1, practical2,
+  §3, §4; source order and §1 bytes preserved. New batch:30 cards,32 MCQ,
   12 short-text FRQ,8 numerical FRQ, one formula and one worked example.
 - Chemistry backend suite: **93 passed,1 existing Starlette/httpx warning,
   63.83s**. After the final source-wording edit, batch suite **24 passed,21.90s**.
@@ -114,7 +114,7 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 
 ## Batch03 ? 2026-10-24
 
-- Five additional reviewed lessons through grade7 ?8, including practical3:
+- Five additional reviewed lessons through grade7 §8, including practical3:
   **11/268 implemented,257 remaining**.28 new cards,32 MCQ,17 short-text FRQ,
   3 numerical FRQ. Prior committed lesson files are unchanged.
 - Complete Chemistry suite now **95 passed,1 existing warning,93.38s**.
@@ -127,3 +127,39 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   five source hashes and817-page decode passed again. Critical Ruff passed.
 - Flutter code/contract unchanged in this batch; prior475-test/clean-analysis
   result is historical evidence, not a new run. No new PG/native/browser claim.
+
+
+## Batch04 — 2026-10-24
+
+- Five additional source-reviewed lessons §9–13: **16/268 implemented,252
+  remaining**. New batch30 cards,25 MCQ,11 short-text FRQ,14 numeric FRQ,
+  2 formula FRQ and4 equation FRQ. Total16 lessons:96 cards and172 assessments
+  (98 MCQ,43 short text,25 numeric,2 formula,4 equation).
+- Final complete local Chemistry suite: **142 passed,1 existing Starlette/httpx
+  warning,172.17s**, after editorial and UTF-8 guards. Earlier139/140-test runs
+  and final45-test targeted guard run also passed; the142-test run is the final
+  combined state. Critical Ruff passed.
+- Full Flutter: **479 passed,2m12s**. Formula/equation public fixtures are captured
+  from the actual isolated API. New tests submit typed Unicode notation at
+  320x568/200% text and reject an attempt returned for a different lesson key.
+- Final Flutter analyze: **No issues found,20.7s**. An intermediate missing import
+  was caught, fixed and rerun; it is not counted as a passing run.
+- Debug web build passed167.7s; rebuilt against the final corrected synthetic
+  sandbox **183.9s**, `--debug --no-wasm-dry-run`. No release/WASM/native claim.
+- Fresh final local QA imported all16 reviewed manifests. **Real HTTP** then
+  completed all172 questions with the five supported response kinds:320 totalXP,
+  identical repeated completion and no private keys in pre-answer content.
+  Only synthetic900003 in the new private sandbox was used. Earlier QA snapshots
+  and all real user data remain unchanged.
+- Original source audit again verified five SHA identities and decoded817 pages.
+  One blocking grade9 scientific hold and one scoped grade7 editorial issue are
+  visible; ambiguous percentages are forbidden answer keys.
+- Eight damaged apostrophes in four prior development manifests were restored,
+  re-reviewed and SHA-pinned. Scientific keys are unchanged; first§1 bytes remain
+  identical. Corrupted-copy regressions now reject embedded replacement marks.
+- The build regenerated seven platform registrant files; these task-generated
+  changes are restored to Chemistry HEAD and excluded from the feature commit.
+  Dependency versions/lockfile and other subject worktrees are unchanged.
+- No fresh PostgreSQL/full-backend/browser/native-device suite in this batch;
+  older results remain historical. Native IME/TalkBack and teacher review are
+  not certified. No source PDFs/OCR, credentials, production data or main merge.

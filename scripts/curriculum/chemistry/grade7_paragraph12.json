@@ -1,0 +1,2295 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 15,
+  "key": "chemistry-7-p12-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph12",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph11"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph12",
+      "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+      "paragraph": 12,
+      "printed_pages": [
+        36
+      ],
+      "pdf_pages": [
+        19
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph12-page36"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph12",
+      "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+      "paragraph": 12,
+      "printed_pages": [
+        37
+      ],
+      "pdf_pages": [
+        19
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph12-page37"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph12",
+      "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+      "paragraph": 12,
+      "printed_pages": [
+        38
+      ],
+      "pdf_pages": [
+        20
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph12-page38"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph12",
+      "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+      "paragraph": 12,
+      "printed_pages": [
+        39
+      ],
+      "pdf_pages": [
+        20
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph12-page39"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph12",
+      "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+      "paragraph": 12,
+      "printed_pages": [
+        40
+      ],
+      "pdf_pages": [
+        21
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph12-page40"
+    }
+  ],
+  "facts": {
+    "conditions": {
+      "claim": "Kitob reaksiyalar uchun muayyan sharoit zarurligini aytadi: ayrimlari boshlanishida issiqlik talab qiladi, ayrimlariga issiqlik uzluksiz berilishi kerak; molekulalarning o‘zaro tegishi/to‘qnashishi ham muhim.",
+      "verified_answers": [
+        "Boshlang‘ich issiqlik",
+        "Uzluksiz issiqlik"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            36
+          ],
+          "pdf_pages": [
+            19
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page36"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            37
+          ],
+          "pdf_pages": [
+            19
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page37"
+        }
+      ]
+    },
+    "surface": {
+      "claim": "Darslik reaksiyaga kirishuvchi moddalar tegish yuzasi kattaroq bo‘lishi, eritmalardan foydalanish va zarur isitishni reaksiya borishini osonlashtiruvchi omillar sifatida sanaydi.",
+      "verified_answers": [
+        "Tegish yuzasi",
+        "Eritma"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            38
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page38"
+        }
+      ]
+    },
+    "notation": {
+      "claim": "Kimyoviy tenglama reaksiyani kimyoviy formulalar bilan ifodalaydi. Chap tomonda boshlang‘ich moddalar, o‘ng tomonda mahsulotlar; bir tomondagi moddalar orasida + belgisi yoziladi.",
+      "verified_answers": [
+        "Kimyoviy tenglama",
+        "Chap tomon",
+        "O‘ng tomon"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            38
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page38"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    "balance": {
+      "claim": "Reaksiyada har bir element atomlar soni chap va o‘ng tomonda teng bo‘lishi kerak. Tenglash uchun formulalar oldiga koeffitsiyent qo‘yiladi; indekslar o‘zgartirilmaydi.",
+      "verified_answers": [
+        "Koeffitsiyent",
+        "Atomlar soni"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    "water": {
+      "claim": "Suv hosil bo‘lishi kitobda 2H2 + O2 = 2H2O qilib tenglangan. Chapda ham o‘ngda ham to‘rt H va ikki O atomi bor; koeffitsiyentlar nisbati 2:1:2.",
+      "verified_answers": [
+        "2H2+O2=2H2O",
+        "4",
+        "2",
+        "2:1:2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    "calcium": {
+      "claim": "Kitob ohaktosh CaCO3 parchalanishida CaO va CO2 hosil bo‘lishini beradi. Atomlarni sanash bilan CaCO3 = CaO + CO2 barcha koeffitsiyentlari bir bo‘lib tenglanadi.",
+      "verified_answers": [
+        "CaCO3=CaO+CO2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    "magnesium": {
+      "claim": "Kitobdagi Mg + O2 = MgO sxemasi 2Mg + O2 = 2MgO bilan tenglanadi: har ikki tomonda ikki Mg va ikki O atomi bor.",
+      "verified_answers": [
+        "2Mg+O2=2MgO",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    "iron": {
+      "claim": "Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+      "verified_answers": [
+        "2Fe+3Cl2=2FeCl3",
+        "6",
+        "3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    "mercury": {
+      "claim": "Kitobdagi HgO = Hg + O2 sxemasi 2HgO = 2Hg + O2 bilan tenglanadi. Bu formulalar ustidagi raqamli tahlil, simob birikmasi bilan amaliy ish emas.",
+      "verified_answers": [
+        "2HgO=2Hg+O2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    "sodium": {
+      "claim": "Kitobdagi Na + Cl2 = NaCl sxemasida 2Na + Cl2 = 2NaCl yozilganda ikki Na va ikki Cl atomi ikkala tomonda ham teng.",
+      "verified_answers": [
+        "2Na+Cl2=2NaCl"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Reaksiya sharoitini tayyor matndan tahlil qilamiz",
+        "body": "Kitob ayrim reaksiyaga boshlang‘ich issiqlik, boshqasiga uzluksiz issiqlik kerakligini farqlaydi. Moddalar tegishi yoki molekulalar to‘qnashishi ham muhim. Bu dars real alanga, gaz yoki reagent ishlatish ko‘rsatmasini bermaydi.",
+        "fact_ids": [
+          "conditions"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              36
+            ],
+            "pdf_pages": [
+              19
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page36"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              37
+            ],
+            "pdf_pages": [
+              19
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page37"
+          }
+        ]
+      },
+      {
+        "title": "Ta’sir sharoiti va yuzasi",
+        "body": "Kitob katta tegish yuzasi, eritmadan foydalanish va zarur isitishni reaksiya borishini osonlashtiruvchi omillar sifatida keltiradi. Mashqda ushbu omillarni tayyor vaziyatdan ajratasiz; maydalash, aralashtirish yoki qizdirish amali bajarilmaydi.",
+        "fact_ids": [
+          "surface"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              38
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page38"
+          }
+        ]
+      },
+      {
+        "title": "Tenglama ikki tomonni bog‘laydi",
+        "body": "Chap tomonda boshlang‘ich moddalar formulalari, o‘ng tomonda mahsulotlar turadi. Bir tomondagi turli moddalar + bilan ajratiladi. Har bir element atomlari ikki tomonda teng bo‘lishi kerak. Tenglash koeffitsiyentni o‘zgartirish orqali bajariladi, formuladagi indeksni almashtirish orqali emas.",
+        "fact_ids": [
+          "notation",
+          "balance"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              38
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page38"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              39
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page39"
+          }
+        ]
+      },
+      {
+        "title": "Suv misolida atomlarni sanash",
+        "body": "H₂ + O₂ = H₂O yozuvida O teng emas. Mahsulot oldiga 2 qo‘yilsa, o‘ngda H to‘rtta bo‘ladi; chapdagi H₂ oldiga ham 2 qo‘yiladi. Natija: 2H₂ + O₂ = 2H₂O. Har tomonda H:4, O:2.",
+        "fact_ids": [
+          "water",
+          "balance"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              39
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page39"
+          }
+        ]
+      },
+      {
+        "title": "Ikki original tenglash tahlili",
+        "body": "Mg + O₂ = MgO sxemasida O ni tenglashtirib 2Mg + O₂ = 2MgO olamiz. Fe + Cl₂ = FeCl₃ da xlor sonini oltitaga keltiramiz: 2Fe + 3Cl₂ = 2FeCl₃. Formulalar o‘zgarmadi, faqat oldingi koeffitsiyentlar o‘zgardi.",
+        "fact_ids": [
+          "magnesium",
+          "iron"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              40
+            ],
+            "pdf_pages": [
+              21
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page40"
+          }
+        ]
+      },
+      {
+        "title": "Qolgan sxemalarni tekshirish",
+        "body": "CaCO₃ = CaO + CO₂ tenglamasida hamma koeffitsiyent bir. HgO parchalanishi sxemasi: 2HgO = 2Hg + O₂. Natriy xlorid sxemasi: 2Na + Cl₂ = 2NaCl. Bular kitobdagi formulalar bo‘yicha atom sanash topshiriqlari, haqiqiy reaksiyalarni bajarish emas.",
+        "fact_ids": [
+          "calcium",
+          "mercury",
+          "sodium"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              40
+            ],
+            "pdf_pages": [
+              21
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page40"
+          }
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "title": "Atomlar tengligi",
+        "body": "Har bir element uchun chapdagi atomlar soni = o‘ngdagi atomlar soni; koeffitsiyent atomlar soniga ko‘paytiriladi.",
+        "fact_ids": [
+          "balance"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              39
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page39"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "title": "Fe/Cl atomlarini tekshirish",
+        "body": "2Fe + 3Cl₂ = 2FeCl₃: Fe 2=2; Cl 3×2=2×3=6.",
+        "fact_ids": [
+          "iron"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              40
+            ],
+            "pdf_pages": [
+              21
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page40"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph12",
+        "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+        "paragraph": 12,
+        "printed_pages": [
+          36
+        ],
+        "pdf_pages": [
+          19
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph12-page36"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph12",
+        "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+        "paragraph": 12,
+        "printed_pages": [
+          37
+        ],
+        "pdf_pages": [
+          19
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph12-page37"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph12",
+        "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+        "paragraph": 12,
+        "printed_pages": [
+          38
+        ],
+        "pdf_pages": [
+          20
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph12-page38"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph12",
+        "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+        "paragraph": 12,
+        "printed_pages": [
+          39
+        ],
+        "pdf_pages": [
+          20
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph12-page39"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph12",
+        "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+        "paragraph": 12,
+        "printed_pages": [
+          40
+        ],
+        "pdf_pages": [
+          21
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph12-page40"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p12-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Boshlang‘ich moddalar tenglamaning qaysi tomoniga yoziladi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "O‘ng tomon"
+          },
+          {
+            "id": "b",
+            "label": "Chap tomon"
+          },
+          {
+            "id": "c",
+            "label": "Faqat indeks ostiga"
+          },
+          {
+            "id": "d",
+            "label": "Faqat mahsulotning ustiga"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Chap tomon",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy tenglama reaksiyani kimyoviy formulalar bilan ifodalaydi. Chap tomonda boshlang‘ich moddalar, o‘ng tomonda mahsulotlar; bir tomondagi moddalar orasida + belgisi yoziladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy tenglama reaksiyani kimyoviy formulalar bilan ifodalaydi. Chap tomonda boshlang‘ich moddalar, o‘ng tomonda mahsulotlar; bir tomondagi moddalar orasida + belgisi yoziladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy tenglama reaksiyani kimyoviy formulalar bilan ifodalaydi. Chap tomonda boshlang‘ich moddalar, o‘ng tomonda mahsulotlar; bir tomondagi moddalar orasida + belgisi yoziladi.",
+            "fact_ids": [
+              "notation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  38
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page38"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  39
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page39"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "notation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            38
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page38"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Atomlarni tenglashtirish uchun o‘zgartiriladigan yozuv qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Kimyoviy belgi"
+          },
+          {
+            "id": "b",
+            "label": "Formula indeksi"
+          },
+          {
+            "id": "c",
+            "label": "Element nomi"
+          },
+          {
+            "id": "d",
+            "label": "Koeffitsiyent"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Koeffitsiyent",
+        "feedback": {
+          "correct": "To‘g‘ri. Reaksiyada har bir element atomlar soni chap va o‘ng tomonda teng bo‘lishi kerak. Tenglash uchun formulalar oldiga koeffitsiyent qo‘yiladi; indekslar o‘zgartirilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Reaksiyada har bir element atomlar soni chap va o‘ng tomonda teng bo‘lishi kerak. Tenglash uchun formulalar oldiga koeffitsiyent qo‘yiladi; indekslar o‘zgartirilmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Reaksiyada har bir element atomlar soni chap va o‘ng tomonda teng bo‘lishi kerak. Tenglash uchun formulalar oldiga koeffitsiyent qo‘yiladi; indekslar o‘zgartirilmaydi.",
+            "fact_ids": [
+              "balance"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  39
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page39"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "balance"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Suv hosil bo‘lishida kitobdagi eng kichik koeffitsiyentlar nisbati qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "2:1:2"
+          },
+          {
+            "id": "b",
+            "label": "1:1:1"
+          },
+          {
+            "id": "c",
+            "label": "1:2:1"
+          },
+          {
+            "id": "d",
+            "label": "2:2:1"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "2:1:2",
+        "feedback": {
+          "correct": "To‘g‘ri. Suv hosil bo‘lishi kitobda 2H2 + O2 = 2H2O qilib tenglangan. Chapda ham o‘ngda ham to‘rt H va ikki O atomi bor; koeffitsiyentlar nisbati 2:1:2.",
+          "incorrect": "Hozircha noto‘g‘ri. Suv hosil bo‘lishi kitobda 2H2 + O2 = 2H2O qilib tenglangan. Chapda ham o‘ngda ham to‘rt H va ikki O atomi bor; koeffitsiyentlar nisbati 2:1:2.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Suv hosil bo‘lishi kitobda 2H2 + O2 = 2H2O qilib tenglangan. Chapda ham o‘ngda ham to‘rt H va ikki O atomi bor; koeffitsiyentlar nisbati 2:1:2.",
+            "fact_ids": [
+              "water"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  39
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page39"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "water"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Kitob reaksiyani osonlashtirishda kattaroq bo‘lishini muhim sanagan omil qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat idish nomi"
+          },
+          {
+            "id": "b",
+            "label": "Faqat daftar sahifasi"
+          },
+          {
+            "id": "c",
+            "label": "Tegish yuzasi"
+          },
+          {
+            "id": "d",
+            "label": "Faqat reaksiya sarlavhasi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Tegish yuzasi",
+        "feedback": {
+          "correct": "To‘g‘ri. Darslik reaksiyaga kirishuvchi moddalar tegish yuzasi kattaroq bo‘lishi, eritmalardan foydalanish va zarur isitishni reaksiya borishini osonlashtiruvchi omillar sifatida sanaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Darslik reaksiyaga kirishuvchi moddalar tegish yuzasi kattaroq bo‘lishi, eritmalardan foydalanish va zarur isitishni reaksiya borishini osonlashtiruvchi omillar sifatida sanaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Darslik reaksiyaga kirishuvchi moddalar tegish yuzasi kattaroq bo‘lishi, eritmalardan foydalanish va zarur isitishni reaksiya borishini osonlashtiruvchi omillar sifatida sanaydi.",
+            "fact_ids": [
+              "surface"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  38
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page38"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "surface"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            38
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page38"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Reaksiyani formulalar yordamida ifodalaydigan yozuv nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Kimyoviy tenglama",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy tenglama reaksiyani kimyoviy formulalar bilan ifodalaydi. Chap tomonda boshlang‘ich moddalar, o‘ng tomonda mahsulotlar; bir tomondagi moddalar orasida + belgisi yoziladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy tenglama reaksiyani kimyoviy formulalar bilan ifodalaydi. Chap tomonda boshlang‘ich moddalar, o‘ng tomonda mahsulotlar; bir tomondagi moddalar orasida + belgisi yoziladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy tenglama reaksiyani kimyoviy formulalar bilan ifodalaydi. Chap tomonda boshlang‘ich moddalar, o‘ng tomonda mahsulotlar; bir tomondagi moddalar orasida + belgisi yoziladi.",
+            "fact_ids": [
+              "notation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  38
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page38"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  39
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page39"
+              }
+            ]
+          }
+        ],
+        "expected": "Kimyoviy tenglama",
+        "aliases": [
+          "Kimyoviy tenglama",
+          "reaksiya tenglamasi"
+        ]
+      },
+      "fact_ids": [
+        "notation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            38
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page38"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Tenglashda o‘zgartiriladigan formula oldi sonining nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Koeffitsiyent",
+        "feedback": {
+          "correct": "To‘g‘ri. Reaksiyada har bir element atomlar soni chap va o‘ng tomonda teng bo‘lishi kerak. Tenglash uchun formulalar oldiga koeffitsiyent qo‘yiladi; indekslar o‘zgartirilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Reaksiyada har bir element atomlar soni chap va o‘ng tomonda teng bo‘lishi kerak. Tenglash uchun formulalar oldiga koeffitsiyent qo‘yiladi; indekslar o‘zgartirilmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Reaksiyada har bir element atomlar soni chap va o‘ng tomonda teng bo‘lishi kerak. Tenglash uchun formulalar oldiga koeffitsiyent qo‘yiladi; indekslar o‘zgartirilmaydi.",
+            "fact_ids": [
+              "balance"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  39
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page39"
+              }
+            ]
+          }
+        ],
+        "expected": "Koeffitsiyent",
+        "aliases": [
+          "Koeffitsiyent",
+          "koeffitsient"
+        ]
+      },
+      "fact_ids": [
+        "balance"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q07",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mg + O₂ = MgO sxemasini koeffitsiyentlar bilan tenglab yozing. Butun koeffitsiyentlarning bir xil nisbatdagi ko‘paytmalari ham qabul qilinadi.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "2Mg+O2=2MgO",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitobdagi Mg + O2 = MgO sxemasi 2Mg + O2 = 2MgO bilan tenglanadi: har ikki tomonda ikki Mg va ikki O atomi bor.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitobdagi Mg + O2 = MgO sxemasi 2Mg + O2 = 2MgO bilan tenglanadi: har ikki tomonda ikki Mg va ikki O atomi bor.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kitobdagi Mg + O2 = MgO sxemasi 2Mg + O2 = 2MgO bilan tenglanadi: har ikki tomonda ikki Mg va ikki O atomi bor.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kitobdagi Mg + O2 = MgO sxemasi 2Mg + O2 = 2MgO bilan tenglanadi: har ikki tomonda ikki Mg va ikki O atomi bor.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kitobdagi Mg + O2 = MgO sxemasi 2Mg + O2 = 2MgO bilan tenglanadi: har ikki tomonda ikki Mg va ikki O atomi bor."
+        },
+        "solution": [
+          {
+            "body": "Kitobdagi Mg + O2 = MgO sxemasi 2Mg + O2 = 2MgO bilan tenglanadi: har ikki tomonda ikki Mg va ikki O atomi bor.",
+            "fact_ids": [
+              "magnesium"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  40
+                ],
+                "pdf_pages": [
+                  21
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page40"
+              }
+            ]
+          }
+        ],
+        "expected": "2Mg+O2=2MgO"
+      },
+      "fact_ids": [
+        "magnesium"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q08",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Fe + Cl₂ = FeCl₃ sxemasini atomlar soni bo‘yicha tenglab yozing.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "2Fe+3Cl2=2FeCl3",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi."
+        },
+        "solution": [
+          {
+            "body": "Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  40
+                ],
+                "pdf_pages": [
+                  21
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page40"
+              }
+            ]
+          }
+        ],
+        "expected": "2Fe+3Cl2=2FeCl3"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q09",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Na + Cl₂ = NaCl sxemasini tenglab yozing; formuladagi indekslarni almashtirmang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "2Na+Cl2=2NaCl",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitobdagi Na + Cl2 = NaCl sxemasida 2Na + Cl2 = 2NaCl yozilganda ikki Na va ikki Cl atomi ikkala tomonda ham teng.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitobdagi Na + Cl2 = NaCl sxemasida 2Na + Cl2 = 2NaCl yozilganda ikki Na va ikki Cl atomi ikkala tomonda ham teng.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kitobdagi Na + Cl2 = NaCl sxemasida 2Na + Cl2 = 2NaCl yozilganda ikki Na va ikki Cl atomi ikkala tomonda ham teng.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kitobdagi Na + Cl2 = NaCl sxemasida 2Na + Cl2 = 2NaCl yozilganda ikki Na va ikki Cl atomi ikkala tomonda ham teng.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kitobdagi Na + Cl2 = NaCl sxemasida 2Na + Cl2 = 2NaCl yozilganda ikki Na va ikki Cl atomi ikkala tomonda ham teng."
+        },
+        "solution": [
+          {
+            "body": "Kitobdagi Na + Cl2 = NaCl sxemasida 2Na + Cl2 = 2NaCl yozilganda ikki Na va ikki Cl atomi ikkala tomonda ham teng.",
+            "fact_ids": [
+              "sodium"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  40
+                ],
+                "pdf_pages": [
+                  21
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page40"
+              }
+            ]
+          }
+        ],
+        "expected": "2Na+Cl2=2NaCl"
+      },
+      "fact_ids": [
+        "sodium"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q10",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Ohaktosh parchalanishining kitobdagi mahsulotlari CaO va CO₂. CaCO₃ uchun tenglamani yozing.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "CaCO3=CaO+CO2",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob ohaktosh CaCO3 parchalanishida CaO va CO2 hosil bo‘lishini beradi. Atomlarni sanash bilan CaCO3 = CaO + CO2 barcha koeffitsiyentlari bir bo‘lib tenglanadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob ohaktosh CaCO3 parchalanishida CaO va CO2 hosil bo‘lishini beradi. Atomlarni sanash bilan CaCO3 = CaO + CO2 barcha koeffitsiyentlari bir bo‘lib tenglanadi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kitob ohaktosh CaCO3 parchalanishida CaO va CO2 hosil bo‘lishini beradi. Atomlarni sanash bilan CaCO3 = CaO + CO2 barcha koeffitsiyentlari bir bo‘lib tenglanadi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kitob ohaktosh CaCO3 parchalanishida CaO va CO2 hosil bo‘lishini beradi. Atomlarni sanash bilan CaCO3 = CaO + CO2 barcha koeffitsiyentlari bir bo‘lib tenglanadi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kitob ohaktosh CaCO3 parchalanishida CaO va CO2 hosil bo‘lishini beradi. Atomlarni sanash bilan CaCO3 = CaO + CO2 barcha koeffitsiyentlari bir bo‘lib tenglanadi."
+        },
+        "solution": [
+          {
+            "body": "Kitob ohaktosh CaCO3 parchalanishida CaO va CO2 hosil bo‘lishini beradi. Atomlarni sanash bilan CaCO3 = CaO + CO2 barcha koeffitsiyentlari bir bo‘lib tenglanadi.",
+            "fact_ids": [
+              "calcium"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  40
+                ],
+                "pdf_pages": [
+                  21
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page40"
+              }
+            ]
+          }
+        ],
+        "expected": "CaCO3=CaO+CO2"
+      },
+      "fact_ids": [
+        "calcium"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "2H₂ + O₂ = 2H₂O tenglamasining har bir tomonida jami nechta H atomi bor?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "ta atom"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "4",
+        "feedback": {
+          "correct": "To‘g‘ri. Suv hosil bo‘lishi kitobda 2H2 + O2 = 2H2O qilib tenglangan. Chapda ham o‘ngda ham to‘rt H va ikki O atomi bor; koeffitsiyentlar nisbati 2:1:2.",
+          "incorrect": "Hozircha noto‘g‘ri. Suv hosil bo‘lishi kitobda 2H2 + O2 = 2H2O qilib tenglangan. Chapda ham o‘ngda ham to‘rt H va ikki O atomi bor; koeffitsiyentlar nisbati 2:1:2.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Suv hosil bo‘lishi kitobda 2H2 + O2 = 2H2O qilib tenglangan. Chapda ham o‘ngda ham to‘rt H va ikki O atomi bor; koeffitsiyentlar nisbati 2:1:2.",
+            "fact_ids": [
+              "water"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  39
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page39"
+              }
+            ]
+          }
+        ],
+        "expected": "4",
+        "unit": "ta atom"
+      },
+      "fact_ids": [
+        "water"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            39
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page39"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p12-r1-q12",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "2Fe + 3Cl₂ = 2FeCl₃ tenglamasining har bir tomonida jami nechta Cl atomi bor?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "ta atom"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "6",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kitobdagi Fe + Cl2 = FeCl3 sxemasida umumiy xlor soni oltita olinadi: 2Fe + 3Cl2 = 2FeCl3. Chap va o‘ng tomonda ikki Fe va oltita Cl bo‘ladi.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  40
+                ],
+                "pdf_pages": [
+                  21
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page40"
+              }
+            ]
+          }
+        ],
+        "expected": "6",
+        "unit": "ta atom"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only"
+}

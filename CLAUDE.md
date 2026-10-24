@@ -2786,8 +2786,8 @@ va `docs/chemistry/QA_REPORT.md`. Production import, main merge va deploy yo‘q
 
 ### Kimyo continuation, 2026-10-24
 
-User authorized automatic source-reviewed 5?10 lesson batches without repeated
-approval through grades7?11. Latest state overrides the first-lesson-only note:
-see docs/chemistry/CHECKPOINT.md and CURRICULUM_PROGRESS.md. ?2 is substance
-properties (printed9?10), safety is practical1 (10?12). Preserve original ?1.
+User authorized automatic source-reviewed 5-10 lesson batches without repeated
+approval through grades7-11. Latest state overrides the first-lesson-only note:
+see docs/chemistry/CHECKPOINT.md and CURRICULUM_PROGRESS.md. §2 is substance
+properties (printed9-10), safety is practical1 (10-12). Preserve original §1.
 No main merge, production operation, other-subject branch edit or AI feature.

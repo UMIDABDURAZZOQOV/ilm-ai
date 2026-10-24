@@ -23,11 +23,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-practical03` | practical 3 | Ifloslangan osh tuzini tozalash | 25–26 | 13:right – 14:left | 25 | reviewed local lesson | ch7-paragraph06 |
 | `ch7-paragraph07` | paragraph 7 | Oddiy va murakkab moddalar | 26–28 | 14:left – 15:left | 26 | reviewed local lesson | ch7-practical03 |
 | `ch7-paragraph08` | paragraph 8 | Moddaning agregat holatlari | 28–30 | 15:left – 16:left | 28 | reviewed local lesson | ch7-paragraph07 |
-| `ch7-paragraph09` | paragraph 9 | Kimyoviy formula va undan kelib chiqadigan xulosalar. Valentlik. Indekslar haqida tushuncha | 30–33 | 16:left – 17:right | 30 | not_authored | ch7-paragraph08 |
-| `ch7-paragraph10` | paragraph 10 | Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi | 33–35 | 17:right – 18:right | 33 | not_authored | ch7-paragraph09 |
-| `ch7-paragraph11` | paragraph 11 | Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar | 35–36 | 18:right – 19:left | 35 | not_authored | ch7-paragraph10 |
-| `ch7-paragraph12` | paragraph 12 | Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar | 36–40 | 19:left – 21:left | 36 | not_authored | ch7-paragraph11 |
-| `ch7-paragraph13` | paragraph 13 | Tarkibning doimiylik qonuni | 40–42 | 21:left – 22:left | 40 | not_authored | ch7-paragraph12 |
+| `ch7-paragraph09` | paragraph 9 | Kimyoviy formula va undan kelib chiqadigan xulosalar. Valentlik. Indekslar haqida tushuncha | 30–33 | 16:left – 17:right | 30 | reviewed local lesson | ch7-paragraph08 |
+| `ch7-paragraph10` | paragraph 10 | Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi | 33–35 | 17:right – 18:right | 33 | reviewed local lesson | ch7-paragraph09 |
+| `ch7-paragraph11` | paragraph 11 | Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar | 35–36 | 18:right – 19:left | 35 | reviewed local lesson | ch7-paragraph10 |
+| `ch7-paragraph12` | paragraph 12 | Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar | 36–40 | 19:left – 21:left | 36 | reviewed local lesson | ch7-paragraph11 |
+| `ch7-paragraph13` | paragraph 13 | Tarkibning doimiylik qonuni | 40–42 | 21:left – 22:left | 40 | reviewed local lesson | ch7-paragraph12 |
 | `ch7-paragraph14` | paragraph 14 | Massaning saqlanish qonuni | 42–43 | 22:left – 22:right | 42 | not_authored | ch7-paragraph13 |
 | `ch7-paragraph15` | paragraph 15 | Avogadro qonuni. Molar hajm | 43–45 | 22:right – 23:right | 43 | not_authored | ch7-paragraph14 |
 | `ch7-paragraph16` | paragraph 16 | Kimyoviy reaksiya turlari. Kimyoviy energiya | 45–47 | 23:right – 24:right | 45 | not_authored | ch7-paragraph15 |

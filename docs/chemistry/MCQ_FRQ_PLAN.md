@@ -29,14 +29,18 @@ short-text concept answers (normalised case/Uzbek apostrophe variants; no fuzzy
 semantic grading). Do not invent formula/equation/numeric questions before the
 book teaches them. Reviewed aliases remain server-private.
 
-## Later topic-specific extensions, not implemented claims
+## Reviewed topic-specific extensions
 
-Chemical formula, balanced equation, valence/oxidation state, mol/molar mass,
-quantity and numeric-with-unit inputs will be added when their source sections
-are reviewed. Use bounded parsers, no eval/exec, explicit notation aliases,
-element/case/subscript/charge conservation, per-task precision/tolerance/unit
-rules, immutable private specs and negative tests. Do not silently accept an
-unrestricted prose answer. Ambiguous tasks go to review.
+Batch02 introduced exact numeric input in the unit fixed by the prompt. Batch04
+adds case-sensitive formula notation and finite balanced-equation checking after
+reviewing §9–13. See ASSESSMENT_CONTRACT.md for actual supported syntax and bounds.
+Formula counts do not predict products; only reviewed textbook species and
+answer keys are authoritative. Numeric prose, fuzzy grading and eval are absent.
+
+Charge/isotope/structural input, oxidation-state syntax, numerical tolerance and
+general unit conversion remain future topic-specific extensions. Add them only
+with source review, explicit rules and negative tests; do not claim the current
+introductory parser already provides them. Ambiguous data go to review.
 
 All cards, worked example steps, question prompts, answers and solution steps
 must carry source refs, not just one blanket lesson citation. Client payloads
