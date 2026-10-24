@@ -1,61 +1,60 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch08. Continue automatically; no routine approval needed.
+2026-10-24,batch09. Continue automatically; no routine approval needed.
 
-- Backend implementation:`840cba1f175c45043f0dfd3ea2d76052376cbb5c`.
-- Flutter implementation:`524c9f527409ca810685c45f6bc5b35f25ea7cd5`.
+- Backend implementation:`dd70477144076fb80f3a92e0539a6d54c317e49e`.
+- Flutter implementation:`524c9f527409ca810685c45f6bc5b35f25ea7cd5` (unchanged9).
 - Both separate branches `feat/chemistry-curriculum`; other subjects untouched.
-- Completed grade7 through **§32**,practical1–4,five chapterI/II/III review anchors:
-  **36/268 implemented,232 remaining**. Grade7:36/74,38 remaining; others:0.
-- Total246 cards/385 assessments:182 MCQ,86 short,80 numeric,11 formula,26 equation.
-  Batch08 adds35 cards/42 questions. No artificial calculation/formula kind where
-  inappropriate; review anchors are not extra teaching entries.
-- Full Chemistry208 passed,1 skipped (opt-in PostgreSQL),1 existing warning,
-  263.72s. Targeted batch20 passed/18.30s; critical Ruff clean. Original§1 unchanged.
-- Full Flutter486 passed/74s,analysis clean/117.8s. Final2 molar tests/3s at320px/
-  200% verified visible mol/l helper,exact0,4 input,§10/34 and§32/91 source sides.
-  Actual captures inspected. No production widget change in batch08.
-- HTTP preserved31 completions/620XP,appendedfive immutable lessons,answered42
-  new questions,added100 once-onlyXP,total36/720XP; replay identical,grading hidden.
-  Synthetic900003 only; earlier imported rows/snapshots and real users intact.
+- Completed grade7 through **§36**,practical1–5,seven chapterI–IV review anchors:
+  **41/268 implemented,227 remaining**. Grade7:41/74,33 remaining; others:0.
+- Total283 cards/436 assessments:201 MCQ,93 short,90 numeric,18 formula,34 equation.
+  Batch09:37 cards/51 questions. Reviews are not extra teaching entries.
+- Full Chemistry228 passed,1 skipped (opt-in PostgreSQL),1 existing warning,
+  515.21s. Targeted20 passed/19.38s; critical Ruff clean. Original§1 unchanged.
+- Full Flutter486 passed/86s. No Dart/fixture change in batch09; latest analysis
+  clean117.8s belongs to batch08. No new native/browser/web/PG/teacher certification.
+- HTTP preserved36 lessons/720XP,appendedfive immutable manifests,passed51 new
+  questions,added100XP once,total41/820XP. Completion replay identical,grading
+  private. Synthetic900003 only; old snapshots and real users unchanged.
 - Current private sandbox:`C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,
-  loopback8900. Append-compatible while earlier36 manifests stay unchanged.
-  Old8899 sandbox has older water prompt; do not overwrite or resume with current
-  manifests. Token/defines/renders/PDF/OCR/fulltext remain private.
-- All817 original pages decoded and five SHA identities verified again. One
-  grade9§40 scientific blocker plus nine grade7 scoped editorial issues remain
-  visible; all whole-course ready flags false. Source86 higher-resolution review
-  confirms375000000km²; no false area issue added. Ocean-volume keys guarded.
-- No production/main/real-user/other-subject/AI operation. No fresh web/native/
-  browser/PostgreSQL/IME/TalkBack/independent teacher certification this batch.
+  loopback8900. Append-compatible while earlier41 manifests unchanged. Private
+  defines/token stay outside Git; old8899 sandbox must not overwrite its older row.
+- All817 PDF pages decoded,five source SHA identities verified. One grade9§40
+  scientific blocker and13 grade7 scoped editorial issues remain open;all course
+  ready flags false. Source99's incorrect§9 pointer is resolved to actual§7/26.
+- Current open grade7 issues:§13,18,19,20,24,26,review ch7-4,27,28,practical5,
+  review ch7-7,33,34. Held colour/state/percentage premises are not approved keys.
+- No production/main/real-user/other-subject/AI operation or PDF/OCR/fulltext/token
+  upload. Source-image review is not independent teacher certification.
 
 ## Exact continuation
 
-Next **grade7 practical5**,printed93–95. Preserve both components:concentration
-calculation/label/report and soil aqueous extract/indicator analysis. Then attach
-ch7-6 review95–97 andch7-7 test97–99 to practical5,without double-counting.
-Next teaching entries:§33 (99–102),§34 (102–104),§35 (104–105),§36 (105–107).
-This is five teaching entries for batch09. No batch09 lesson indexed yet.
+Next **grade7 §37**,printed107–109,then §38(109–110),§39(110–111),§40(111–113),
+§41(113–114). Five teaching entries for batch10. No batch10 lesson indexed yet.
+Original spreads through PDF60/printed119 rendered. Pages through115 visually
+read;116–119 not yet read. Reread107 and exact shared-page boundaries as needed.
 
-Original spreads through PDF54/printed107 rendered privately. Pages through99
-visually read;100–107 still need visual reading. Reread93 before practical
-authorship. The source formula M(CaCl2)=111g/mol is explicit in review96; no
-invented periodic-table constant is needed for its original variants.
+Source review points for next batch:
+- §37/107 calls CO2 constant0.03%,where §20/61 explicitly says CO2 varies. Do
+  not certify a permanent/current concentration. NO2 'not in nature' and the
+  quartz gemstone list on108 need source review;do not correct from memory.
+- §38 uses NH4OH as an included textbook convention,not an isolated crystal
+  claim. Graphic metal–O–H lines are a valence model. M(OH)n uses symbolic metal
+  placeholder;no literal placeholder molecule or automatic structure inference.
+- §39 list of insoluble examples is separate from slightly-soluble Ca(OH)2 on113;
+  do not collapse 'not NaOH/KOH' into a universal insolubility rule.
+- §40/111 indicator table:lakmus violet→blue,methyl-orange orange→yellow,
+  phenolphthalein colourless→pink. This does not resolve the universal indicator
+  misidentification on94;keep that existing hold.
+- §40 equations include partial neutralisation Mg(OH)Cl/CaHPO4 and precipitation.
+  Retain supplied species/ratios. Current plain equation parser does not accept
+  gas/precipitate ↑↓ annotations;teach phase observations by recognition,without
+  silently adding an unsupported notation promise. Do not touch real reagents.
+- §40/112 exercise8g NaOH/19g H2SO4 requires careful product/stoichiometry scope;
+  do not assume unique neutral salt without reviewing the given conditions.
+- §41/113 touching-caustic instructions are not learner tasks. No agriculture,
+  pest-control,skin exposure,medicine or home base preparation procedures.
 
-Source points to review in batch09:
-- Practical5/94 says universal indicator yellow→pink for alkaline soil; verify
-  against supplied-book context before teaching. Litmus violet→blue is separately
-  printed. No physical soil reagent setup,agricultural treatment or home chemistry.
-- Review98 asks18g water vapour volume above100°C without pressure/temperature
-  sufficient for a unique gas volume; do not silently use22.4l normal-state volume
-  there. The4°C liquid-density part can be separately source-backed.
-- Source99 backward reference says26-page,§9 for simple/compound; original§9 is
-  formulas on30,while simple/compound is§7 on26. Retain actual context identity,
-  not the book's mistaken paragraph pointer.
-
-Massa ulushi denominator is whole solution; eruvchanlik uses solvent mass.
-CM=n/V uses litres; mass form m*1000/(M*V) uses g,g/mol,ml. No arbitrary unit
-converter or unsupported hydrate/isotope/structural input is claimed.
-
-Validate/test/local-import,update docs,commit/push feature batches and continue
-automatically in original book order through all five supplied grades.
+All physical labs remain guided digital analysis. Preserve common ILM AI learning
+and XP/prerequisite/replay rules. Validate/test/local-import,update docs,commit/
+push Chemistry batches and continue automatically through all supplied grades.
