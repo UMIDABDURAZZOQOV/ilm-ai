@@ -150,3 +150,12 @@ Private loopback8900 has104 immutable lessons and104 synthetic900003 completions
 All72 new answers passed actualHTTP;100XP once,replay identical. Public practical
 fixtures are sanitized;the fourth original balance keeps all earlier source refs.
 No production Flutter change. Full catalog JSON decoding is awaited in widget QA.
+
+
+## Current continuation after batch22
+
+Private loopback8900 contains109 immutable lessons and109 synthetic900003
+completions/2180XP. Grade7 remains74;grade8 now35. ActualHTTP passed74 answers
+and once-only100XP;comma/dot replay identical. Public kinetics/equilibrium
+fixtures are sanitized. Display-only <=> fixes missing⇌,without changing raw
+source or grading. No new response type or production publication.

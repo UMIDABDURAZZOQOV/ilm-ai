@@ -45,11 +45,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-practical01` | practical 1 | “Galogenlar” mavzusi bo‘yicha tajribaviy masalalar yechish | 124–130 | 124:full – 130:full | 124 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph28 |
 | `ch8-chapter05` | chapter 5 | Oltinchi guruh bosh guruhchasi elementlariga umumiy tavsif | 130–156 | 130:full – 156:full | 130 | not_authored | — |
 | `ch8-paragraph29` | paragraph 29 | Kislorod guruhchasi elementlari | 130–134 | 130:full – 134:full | 130 | reviewed local lesson; scoped editorial review remains open | ch8-practical01 |
-| `ch8-paragraph30` | paragraph 30 | Oltingugurtning vodorodli birikmalari | 134–136 | 134:full – 136:full | 134 | not_authored | ch8-paragraph29 |
-| `ch8-paragraph31` | paragraph 31 | Oltingugurtning kislorodli birikmalari | 136–138 | 136:full – 138:full | 136 | not_authored | ch8-paragraph30 |
-| `ch8-paragraph32` | paragraph 32 | Sulfat kislota | 138–141 | 138:full – 141:full | 138 | not_authored | ch8-paragraph31 |
-| `ch8-paragraph33` | paragraph 33 | Kimyoviy reaksiyalarning tezligi | 141–144 | 141:full – 144:full | 141 | not_authored | ch8-paragraph32 |
-| `ch8-paragraph34` | paragraph 34 | Kimyoviy muvozanat | 144–147 | 144:full – 147:full | 144 | not_authored | ch8-paragraph33 |
+| `ch8-paragraph30` | paragraph 30 | Oltingugurtning vodorodli birikmalari | 134–136 | 134:full – 136:full | 134 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph29 |
+| `ch8-paragraph31` | paragraph 31 | Oltingugurtning kislorodli birikmalari | 136–138 | 136:full – 138:full | 136 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph30 |
+| `ch8-paragraph32` | paragraph 32 | Sulfat kislota | 138–141 | 138:full – 141:full | 138 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph31 |
+| `ch8-paragraph33` | paragraph 33 | Kimyoviy reaksiyalarning tezligi | 141–144 | 141:full – 144:full | 141 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph32 |
+| `ch8-paragraph34` | paragraph 34 | Kimyoviy muvozanat | 144–147 | 144:full – 147:full | 144 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph33 |
 | `ch8-paragraph35` | paragraph 35 | Sanoatda sulfat kislota ishlab chiqarish | 147–151 | 147:full – 151:full | 147 | not_authored | ch8-paragraph34 |
 | `ch8-practical02` | practical 2 | “Oltingugurt” mavzusi bo‘yicha tajribaviy masalalar yechish | 151–156 | 151:full – 156:full | 151 | not_authored | ch8-paragraph35 |
 | `ch8-chapter06` | chapter 6 | Azot guruhchasi | 156–200 | 156:full – 200:full | 156 | not_authored | — |

@@ -7311,7 +7311,36 @@
             "record_id": "ch8-paragraph31",
             "printed_page": 136,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p30-sulfide-condition-scope",
+              "status": "open_review",
+              "printed_pages": [
+                134,
+                135,
+                136
+              ],
+              "pdf_pages": [
+                134,
+                135,
+                136
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "H2S exposure/occupational limits and solubility volumes lack validated safety/state context. School-air testing is not a digital observation.136 air-volume exercise needs a verified earlier air oxygen fraction;142 is a future topic.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p30-sulfide-condition-scope",
+                  "printed_page": 134,
+                  "reason": "Retain exact formula,gas/aqueous identity,oxygen-condition products,clear redox/precipitate models and original molar-mass/density arithmetic. No safe-exposure key,smelling/air testing/physical toxic-gas procedure or invented air fraction/unknown tube result."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -7351,7 +7380,36 @@
             "record_id": "ch8-paragraph32",
             "printed_page": 138,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p31-sulfur-oxide-condition-review",
+              "status": "open_review",
+              "printed_pages": [
+                136,
+                137,
+                138
+              ],
+              "pdf_pages": [
+                136,
+                137,
+                138
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "SO2 solubility36 volumes and0.03-0.05mg/L air limits lack validated conditions/exposure context. H2SO3 is the supplied aqueous school model,not isolated molecular-species proof. Oleum variable association is not a definite neutral formula.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p31-sulfur-oxide-condition-review",
+                  "printed_page": 136,
+                  "reason": "Use exact supplied material equations and scoped gas/aqueous examples. No safe-exposure/food-preservation procedure,condition-free solubility key,physical oleum preparation or new complex/hydrate grader."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -7391,7 +7449,39 @@
             "record_id": "ch8-paragraph33",
             "printed_page": 141,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p32-acid-sulfate-conflict-review",
+              "status": "open_review",
+              "printed_pages": [
+                138,
+                139,
+                140,
+                141
+              ],
+              "pdf_pages": [
+                138,
+                139,
+                140,
+                141
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Concentrated acid density lacksT;blanketAg nonreaction139 needs review. S called a gas withSO2/H2S needs phase scope. Sugar/wood symbolic carbonization is not a specified balanced material equation. Gypsum2H2O allegedly loses3/4water but printsCaSO4·1/4H2O,an internal quantity/formula conflict.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p32-acid-sulfate-conflict-review",
+                  "printed_page": 138,
+                  "reason": "Hold Ag universal nonreaction,quarter-hydrate and symbolic-carbonization keys;no silent alternate formula from memory. Retain exact dilute/concentrated given equations,whiteBaSO4,salt recognition and scoped applications. No physical dilution/heating,medical/pesticide/explosive recipe."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -7431,7 +7521,36 @@
             "record_id": "ch8-paragraph34",
             "printed_page": 144,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p33-rate-model-review",
+              "status": "open_review",
+              "printed_pages": [
+                142,
+                143,
+                144
+              ],
+              "pdf_pages": [
+                142,
+                143,
+                144
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Average disappearance rate is not all-species stoichiometry-normalized rate.142 displayed mass-action formula omitsk while143 definesk;overall coefficients are not universal reaction orders.2-4 per10C is empirical assumed model,not all reactions. Surface/packing and never-unchanged catalyst wording need net/context scope.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p33-rate-model-review",
+                  "printed_page": 142,
+                  "reason": "Use exact concentration-change example and explicit given gamma model;no unrestricted rate-law prediction or unqualified universal orders/temperature/surface claim. No physicalK/Na-water ignition or experiment."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -7471,7 +7590,36 @@
             "record_id": "ch8-paragraph35",
             "printed_page": 147,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p34-equilibrium-rate-state-review",
+              "status": "open_review",
+              "printed_pages": [
+                145,
+                146,
+                147
+              ],
+              "pdf_pages": [
+                145,
+                146,
+                147
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "146 mixes equilibrium shift with literal faster-forward reaction whenT falls.22.4L/mol gives67.2/44.8 without validSO3 gas-state context. Equal forward/back rates do not imply equal concentrations or equal counts of all species independent of stoichiometry;irreversible school models need their stated conditions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p34-equilibrium-rate-state-review",
+                  "printed_page": 145,
+                  "reason": "Teach dynamic rate equality,conditional equilibrium-direction comparisons,gas coefficients and catalyst nonshift. Hold lowerT=faster and absoluteSO3 normal-state volume keys. No unrestricted equilibrium solver,new reversible/charge parser or physical reaction procedure."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

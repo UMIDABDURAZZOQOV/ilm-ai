@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-104 reviewed lessons:all74 grade7 entries and grade8 §1–29 plus practical1;164 remain. All
+109 reviewed lessons:all74 grade7 entries and grade8 §1–34 plus practical1;159 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next five:grade8 §30–34,sequence31–35,original134–147.
-Grade7 all74 entries;grade8 has30/59 (29 paragraphs+practical1).
+Next five:grade8 §35/practical2/§36/§37/§38,sequence36–40,original147–165.
+Grade7 all74 entries;grade8 has35/59 (34 paragraphs+practical1).
 Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
-One scientific blocker/56 editorial reviews still gate readiness. Same shared
+One scientific blocker/61 editorial reviews still gate readiness. Same shared
 MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
@@ -397,3 +397,31 @@ Full30-lesson catalog/attempt payloads triggerDio background JSON isolation;
 bounded real-async waits in harness drain decoding before UI assertions. This
 fixes test timing assumptions,not scientific grading or production behavior.
 Original135–147 additionally read for next batch during QA.
+
+
+## Batch22: sulfur compounds,rates and equilibrium
+
+Original134–147 fully read;five lessons add56 cards/74 questions. All clear
+H2S/SO2/SO3/H2SO4 material models and source conditions retained. Earlier1/7
+H1/S32/O16,2/12Al27,25 gas model and26Fe56 evidence supports original density/
+mass/stoichiometry calculations;all constituent refs retained. H2SO3 is a
+supplied aqueous model,not isolated-species proof. Air-volume question136 lacks
+earlier verified air fraction,so only its oxygen portion is keyed;no future§33.
+
+Exposure/solubility conditions,Ag nonreaction,gypsum water conflict,symbolic
+carbonization,universal rate-order/temperature rules and lowerT=faster claim held.
+Rates use exact average0.06 and given gamma2 models;equilibrium uses dynamic
+rate equality and conditional direction comparisons. No unrestricted rate-law/
+equilibrium/charge/structure engine. Five new reviews bring61 plus one blocker.
+
+HTTP preserved104 completions/2080XP,passed74 questions,added100XP once:
+109/2180XP. Comma/dot0.06 replay identical. Own loopback8900PID19612;verify
+full command before stopping. Earlier109 imported revisions immutable.
+Sanitized public kinetics/equilibrium fixtures contain fake IDs/future expiry.
+
+Visual QA found actual missing⇌ glyph in the bundled Roboto font. The existing
+Chemistry display adapter now renders it as <=>;source payloads,typed input,
+rubrics and server grading stay unchanged. Unit check confirms source JSON is
+not mutated. New theory/source widgets cover gamma/equilibrium at320×568/200%,
+both themes;updated captures show the repaired sign. No native/IME certificate.
+Original148–165 also visually read for the next batch.

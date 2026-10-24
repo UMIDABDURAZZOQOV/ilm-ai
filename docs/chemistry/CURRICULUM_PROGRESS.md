@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 30 | 29 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 35 | 24 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 104 | 164 |
+| Total | 29 | 204 | 49 | 15 | 268 | 109 | 159 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 737 cards; 1111 assessments: 404 concept_selection, 205 short_text, 277 numeric_value, 94 chemical_formula, 131 chemical_equation.
+Total: 793 cards; 1185 assessments: 424 concept_selection, 217 short_text, 299 numeric_value, 97 chemical_formula, 148 chemical_equation.
 
 ## Initial §1
 
@@ -106,16 +106,22 @@ Nonmetals,halogens,chlorine,HCl and gas models retain exact source conditions.
 5 source-order lessons;59 cards;18 MCQ,8 short,26 numeric,4 formula,16 equation.
 All six practical categories are digital evidence/given-product balance tasks.
 
+## Batch22: grade8 §30–34
+
+5 lessons;56 cards;20 MCQ,12 short,22 numeric,3 formula,17 equation.
+Rates/equilibrium use existing bounded responses and explicit model assumptions.
+
 ## Current continuation
 
-Grade7 all74 entries;grade8 §1–29 plus practical1 (30/59),29 remain:
-15 paragraphs,10 laboratories,4 practicals. Whole project164 entries remain.
-Next five:§30–34,sequence31–35,original134–147. All original5–147 images now
-visually read;future individual fact authoring/review remains pending.
-Catalog327/268 unchanged;nine grade7 reviews integrated,not additional entries.
+Grade7 all74 entries;grade8 §1–34 plus practical1 (35/59),24 remain:
+10 paragraphs,10 laboratories,4 practicals. Whole project159 entries remain.
+Next five:§35,practical2,§36/37/38,sequence36–40,original147–165.
+All original5–165 images visually read;future fact authoring/review pending.
+Chapter06 has actual prefix156 and top157 before§36;preserve exact boundary.
+Catalog327/268 unchanged;nine grade7 reviews integrated,not extra entries.
 
-One grade9 scientific blocker and56 scoped editorial issues remain. New holds
-cover equivalent-target/copy errors,chloride/oxychlorine ambiguities,medical
-claims,practical evidence limits and orbital/isotope/state generalizations.
-All ready flags false. Original§1,prior99 manifests/progress,real users and
-other subjects preserved. Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.
+One grade9 scientific blocker and61 editorial scopes remain. New holds cover
+exposure/state conditions,gypsum/silver conflicts,rate-law generalizations and
+equilibrium shift/rate confusion. Ready flags false. Original§1,prior104 lesson
+hashes/progress,real users and other subjects preserved. QA_REPORT/CHECKPOINT
+record measured tests and commits.

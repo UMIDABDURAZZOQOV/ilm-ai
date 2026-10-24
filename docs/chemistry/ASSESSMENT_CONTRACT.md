@@ -94,3 +94,12 @@ existing Decimal grammar. The raw80 bound is checked first. Number value,unit,
 precision and reference answers are unchanged. Both spellings have the same
 canonical replay fingerprint. Units,arithmetic expressions,ionic notation,
 superscript minus and en dash are not accepted by this normalization.
+
+
+## Portable equilibrium display (batch22)
+
+The Chemistry display-only adapter spells source⇌ as ASCII <=> when presenting
+theory/prompts/feedback. Bundled-font captures showed a missing glyph. Raw API
+source text and typed answers are unchanged;the finite equation grader has no
+new reversible-arrow/equilibrium semantics. A material-balancing question still
+requires the existing accepted= or-> syntax and does not compute equilibrium.

@@ -87,6 +87,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph28': 'ch8-p28-halogen-medical-condition-review',
     'ch8-practical01': 'ch8-practical1-evidence-stoichiometry-review',
     'ch8-paragraph29': 'ch8-p29-oxygen-orbital-sulfur-scope',
+    'ch8-paragraph30': 'ch8-p30-sulfide-condition-scope',
+    'ch8-paragraph31': 'ch8-p31-sulfur-oxide-condition-review',
+    'ch8-paragraph32': 'ch8-p32-acid-sulfate-conflict-review',
+    'ch8-paragraph33': 'ch8-p33-rate-model-review',
+    'ch8-paragraph34': 'ch8-p34-equilibrium-rate-state-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -491,6 +496,25 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-paragraph29' in topic_ids:
             require(not ('Se' in f['claim'] and '79' in f['verified_answers']),
                     'unreviewed_selenium_isotope_label_cannot_be_an_answer')
+        if 'ch8-paragraph30' in topic_ids:
+            require(not any('H2S' in a and 'xavfsiz' in a.casefold() for a in plain_values),
+                    'unverified_sulfide_exposure_threshold_cannot_be_a_premise')
+        if 'ch8-paragraph31' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])0[.,]0[35](?![0-9])', a)
+                            for a in f['verified_answers']), 'unverified_sulfur_oxide_exposure_limit_cannot_be_an_answer')
+        if 'ch8-paragraph32' in topic_ids:
+            require(not any('CaSO4' in a and re.search(r'(?:1/4|¼|0[.,]25)\s*H2O', a)
+                            for a in plain_values), 'unresolved_gypsum_hydrate_quantity_cannot_be_a_premise')
+            require(not any(re.search(r'(?<![A-Za-z])Ag(?![a-z])', a)
+                            and ('etmaydi' in a.casefold() or 'kirishmaydi' in a.casefold())
+                            for a in plain_values), 'unresolved_silver_acid_nonreaction_cannot_be_a_premise')
+        if 'ch8-paragraph33' in topic_ids:
+            require(not any('barcha reaksiyalarda' in a.casefold() and 'koeffitsiyent' in a.casefold()
+                            and 'tartib' in a.casefold() for a in plain_values),
+                    'unreviewed_universal_reaction_order_cannot_be_a_premise')
+        if 'ch8-paragraph34' in topic_ids:
+            require(not any('harorat pasaysa' in a.casefold() and 'tezlashadi' in a.casefold()
+                            for a in plain_values), 'unresolved_equilibrium_shift_rate_confusion_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

@@ -714,3 +714,34 @@ Original111–134 read;source order§26/27/28/practical1/§29 preserved.
 56 editorial issues plus one scientific blocker;all course-ready flags false.
 All817 original pages decoded,five SHA identities checked. No independent teacher
 or medical certification. Original135–147 read next;not yet authored facts.
+
+
+## Batch22 source review — 2026-10-25,grade8 §30–34
+
+Original134–top147 read in full;shared headings delimit each topic.
+
+- §30:gas/aqueousH2S,oxygen-dependent products,FeCl3/Cl2/H2SO3 and clear acid/
+  sulfide tests retained. Exposure limits,solubility conditions and actual school
+  air-testing withheld. Original density uses priorH1/S32/H2/air constants.
+  Original oxygen-only80gS calculation is not claimed as air volume;future
+  air-fraction context is forbidden. CuSO4 product-given balance is original
+  application of the suppliedCuS model,not a fabricated observation.
+- §31:all clearSO2/SO3 production/acidic/sulfite/redox models,oleum recognition,
+  original50/50 composition and5.6LSO2/pyrite exercises retained. H2SO3 aqueous
+  model and variableoleum composition remain scoped;no isolated-species proof
+  or new complex syntax. Solubility/exposure/food-preservation keys withheld.
+- §32:explicit dilute/concentrated models and source conditions,whiteBaSO4,
+  named sulfate hydrates,applications and original5.4gAl/20% problem retained.
+  Ag blanket nonreaction,elementalS gas,undefined organic equation and gypsum
+  quarter-water conflict held;no silent alternative from memory or physical task.
+- §33:average reactant decrease1→0.4 over10s gives0.06;given gamma2 gives16/32/
+  128. These are models,not general orders/rates for all species/reactions.
+  Missingk/display ambiguity and coefficient=universal-order claim withheld.
+  Five factors,catalyst examples and inhibitor retained with net/example scope.
+- §34:school irreversibility/reversible aqueous model,dynamic rate equality,
+  catalyst nonshift and conditional heat/pressure/concentration comparisons.
+  No lowerT=faster or absoluteSO3 volume key;equal rates not all concentrations.
+  Finite material balancing is separate from equilibrium direction;no new solver.
+
+61 editorial scopes plus one scientific blocker;ready false. All817 pages/five
+SHA identities audited. Original148–165 read next,not yet authored facts.

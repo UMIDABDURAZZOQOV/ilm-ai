@@ -657,3 +657,30 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   new authored material. Catalog327/268 unchanged;all ready flags false.
 - No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
   physical experiment,new chemistry engine or fresh PG/whole-backend certificate.
+
+
+## Batch22 — 2026-10-25
+
+- **109/268 implemented,159 remaining**;grade7:74/74,grade8:35/59.
+  New§30–34:56 cards/74 questions (20 MCQ,12 short,22 numeric,3 formula,
+  17 equation). Total793 cards/1185 questions:424/217/299/97/148 respectively.
+  All104 prior hashes/original§1 unchanged;Ruff/diff clean.
+- Full Chemistry **633 passed,1 skipped,1 existing warning/722.46s**.
+  Target **44 passed/27.64s**. Initial43pass/1fail was expected-error regex
+  mismatch (validator correctly rejected future context);test now asserts the
+  actualsource_context_must_precede_lesson code. No runtime weakening.
+- Full Flutter **504 passed/153s**;analysis **no issues/91.8s**.
+  Two new actualHTTP theory/source widgets **passed/7s**,320×568/200%,both
+  themes. Initial visual capture found missing⇌ glyph;display-only <=> repair
+  visually rechecked. Four final captures inspected;source pages143/145 visible,
+  scroll and pinned actions preserved. Source JSON mutation assertion passes.
+  No native/browser/IME/TalkBack certification.
+- ActualHTTP preserved104 completions/2080XP,passed74 answers,added100XP once,
+  total109/2180XP. Comma/dot0.06 replay identical,grade7 catalog unchanged,
+  grading private,synthetic900003 only. Six new public fixtures sanitized.
+- Five source SHA identities/all817 pages audited. One scientific blocker and
+ 61 editorial scopes remain;no silent correction or teacher certification.
+  Original148–165 additionally read for continuation,not counted as authored.
+  Catalog327/268 unchanged;all ready flags false.
+- No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
+  physical experiment,new chemical solver or fresh PG/whole-backend certificate.

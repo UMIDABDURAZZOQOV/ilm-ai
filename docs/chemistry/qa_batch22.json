@@ -1,0 +1,51 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 104,
+  "prior_xp": 2080,
+  "added_lessons": 5,
+  "added_questions": 74,
+  "kinds": {
+    "concept_selection": 20,
+    "short_text": 12,
+    "chemical_formula": 3,
+    "chemical_equation": 17,
+    "numeric_value": 22
+  },
+  "added_xp": 100,
+  "total_xp": 2180,
+  "total_completed_lessons": 109,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_catalog_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public kinetics/equilibrium catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 109,
+  "remaining_lessons": 159,
+  "backend_tests": {
+    "passed": 633,
+    "skipped": 1,
+    "seconds": 722.46
+  },
+  "targeted_batch_tests": {
+    "passed": 44,
+    "seconds": 27.64
+  },
+  "flutter_tests": {
+    "passed": 504,
+    "seconds": 153
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 91.8
+  },
+  "flutter_theory_widget_tests": {
+    "passed": 2,
+    "seconds": 7
+  },
+  "flutter_display_only_change": "equilibrium sign to portable ASCII",
+  "open_source_holds": 1,
+  "open_editorial_issues": 61,
+  "production_operations": false
+}

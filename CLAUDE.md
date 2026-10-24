@@ -2793,9 +2793,9 @@ properties (printed9-10), safety is practical1 (10-12). Preserve original §1.
 No main merge, production operation, other-subject branch edit or AI feature.
 
 
-Kimyo latest checkpoint (2026-10-25):104/268 reviewed local lessons:all74
-grade7 entries and grade8 §1–29 plus practical1;164 remain. All scientific knowledge still comes only from supplied
-page-reviewed textbooks; one scientific hold and fifty-six scoped editorial issues
+Kimyo latest checkpoint (2026-10-25):109/268 reviewed local lessons:all74
+grade7 entries and grade8 §1–34 plus practical1;159 remain. All scientific knowledge still comes only from supplied
+page-reviewed textbooks; one scientific hold and sixty-one scoped editorial issues
 are visible, not silently repaired. All course-ready flags remain false.
 Continue automatically from docs/chemistry/CHECKPOINT.md in the separate
 Chemistry branches; preserve other subjects, real users and original §1.
