@@ -3123,7 +3123,63 @@
             "record_id": "ch7-paragraph43",
             "printed_page": 116,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p42-acid-notation-valence-review",
+              "status": "open_review",
+              "printed_pages": [
+                114,
+                115,
+                116
+              ],
+              "pdf_pages": [
+                58,
+                58,
+                59
+              ],
+              "regions": [
+                "left",
+                "right",
+                "left"
+              ],
+              "scope": "Legacy iodine notation and a blanket hydrogen-count/residue-valence rule require scoped review;no silent corrected key.",
+              "withheld_claims": [
+                {
+                  "id": "iodine_notation",
+                  "printed_page": 115,
+                  "reason": "Printed HJ/-J differs from supplied grade8/23 HI and I2. Preserve the discrepancy in metadata;neither silently substitute nor ask the current IUPAC-symbol parser to accept J."
+                },
+                {
+                  "id": "phosphite_valence",
+                  "printed_page": 115,
+                  "reason": "H3PO3 has three written H while the same row marks =PO3 with two valence lines;the blanket equality on114 cannot be certified for every table row. Formula/name may be recognised separately;no inferred residue/basicity key."
+                },
+                {
+                  "id": "keyword_definitions",
+                  "printed_page": 116,
+                  "reason": "Bromat,atsetat,oksalat are keyword-only mentions without definitions/formulas in table115. Do not fill these gaps from memory;source coverage remains a review detail."
+                }
+              ],
+              "cross_source_evidence": [
+                {
+                  "book_id": "chemistry-8-uz-2019",
+                  "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                  "topic_id": "ch8-paragraph04",
+                  "printed_pages": [
+                    23
+                  ],
+                  "pdf_pages": [
+                    23
+                  ],
+                  "regions": [
+                    "full"
+                  ],
+                  "verification": "page_image_reviewed"
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -3163,7 +3219,38 @@
             "record_id": "ch7-paragraph44",
             "printed_page": 117,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p43-basicity-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                116,
+                117
+              ],
+              "pdf_pages": [
+                59,
+                59
+              ],
+              "regions": [
+                "left",
+                "right"
+              ],
+              "scope": "Do not turn the blanket total-written-H classification into a universal rule. H3BO3 three-basic assignment lacks a reviewed operational/ionisation explanation;held pending review,without inventing an alternative.",
+              "withheld_claims": [
+                {
+                  "id": "boric_basicity",
+                  "printed_page": 117,
+                  "reason": "The table lists H3BO3 under three-basic,but this paragraph supplies no dissociation/operational context. Treat this as a pending scientific-review scope,not a verified alternative classification. Other individually supplied unambiguous examples are separately taught."
+                },
+                {
+                  "id": "legacy_iodine",
+                  "printed_page": 117,
+                  "reason": "HJ repeats the legacy notation on115;no formula key until a documented notation resolution."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -3203,7 +3290,38 @@
             "record_id": "ch7-practical06",
             "printed_page": 121,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p44-product-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                119,
+                120
+              ],
+              "pdf_pages": [
+                60,
+                61
+              ],
+              "regions": [
+                "right",
+                "left"
+              ],
+              "scope": "Metal activity and neutralisation must retain printed conditions/products;do not impose an unqualified complete-neutralisation answer on the final mass exercise.",
+              "withheld_claims": [
+                {
+                  "id": "neutralisation_exercise",
+                  "printed_page": 120,
+                  "reason": "196gCu(OH)2/73gHCl does not state a unique complete-neutralisation product model;source119 already includes partial neutralisation and source112 Cu(OH)Cl. No unqualified neutral-salt mass key."
+                },
+                {
+                  "id": "metal_acid_scope",
+                  "printed_page": 119,
+                  "reason": "The same page supplies Zn/H2SO4→H2 and Cu/concentratedHNO3→NO2. The activity-row shorthand must not become an every-acid/every-concentration H2 prediction."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "practical",
@@ -3288,7 +3406,46 @@
             "record_id": "ch7-paragraph46",
             "printed_page": 125,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p45-condition-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                122,
+                123,
+                124
+              ],
+              "pdf_pages": [
+                62,
+                62,
+                63
+              ],
+              "regions": [
+                "left",
+                "right",
+                "left"
+              ],
+              "scope": "Unqualified density/gas-drying/metal-reactivity/storage statements are not universal keys or practical procedures;retain only explicitly scoped source recognition.",
+              "withheld_claims": [
+                {
+                  "id": "nitric_metal_scope",
+                  "printed_page": 124,
+                  "reason": "Cold-concentrated passivation and broad metal-reactivity wording appear together;no every-condition metal reaction/storage rule or home handling task."
+                },
+                {
+                  "id": "physical_conditions",
+                  "printed_page": 122,
+                  "reason": "Almost twice-water density and broad gas-drying wording lack precise concentration/temperature/gas scope;no exact density or all-gas applicability answer."
+                },
+                {
+                  "id": "nitric_density",
+                  "printed_page": 124,
+                  "reason": "1.5-times-water statement lacks exact concentration/temperature context;no exact calculation key."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch7-section5-5",

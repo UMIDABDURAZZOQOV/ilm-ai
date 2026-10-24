@@ -46,6 +46,10 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-paragraph34': 'ch7-p34-iron-percentage-precision',
     'ch7-paragraph37': 'ch7-p37-occurrence-mineral-review',
     'ch9-paragraph27': 'ch9-p27-gem-and-equation-review',
+    'ch7-paragraph42': 'ch7-p42-acid-notation-valence-review',
+    'ch7-paragraph43': 'ch7-p43-basicity-scope-review',
+    'ch7-paragraph44': 'ch7-p44-product-scope-review',
+    'ch7-paragraph45': 'ch7-p45-condition-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -228,8 +232,16 @@ def validate_lesson(catalog, lesson, review):
                     and record.get('source_review_hold', {}).get('status') != 'open',
                     'unknown_or_blocked_linked_source')
             if field == 'source_context_ids':
-                require(record['kind'] in TEACHING_KINDS and record['sequence'] < topic['sequence'],
-                        'source_context_must_precede_lesson')
+                if record['kind'] == 'review':
+                    predecessors = [r['sequence'] for r in book['records'] if r['kind'] in TEACHING_KINDS
+                                    and r['chapter_id'] == record['chapter_id']
+                                    and r['printed_start'] <= record['printed_start']]
+                    require(predecessors and max(predecessors) < topic['sequence']
+                            and record['printed_end'] <= topic['printed_start'],
+                            'source_context_must_precede_lesson')
+                else:
+                    require(record['kind'] in TEACHING_KINDS and record['sequence'] < topic['sequence'],
+                            'source_context_must_precede_lesson')
             else:
                 require(record['kind'] == 'review' and record['chapter_id'] == topic['chapter_id'],
                         'same_chapter_review_anchor_required')
@@ -310,6 +322,15 @@ def validate_lesson(catalog, lesson, review):
             require(not any(('Al(OH)3' in a or 'Al(OH)₃' in a) and 'KOH' in a
                             for a in f['verified_answers']),
                     'unresolved_aluminium_koh_equation_cannot_be_an_answer')
+        if any(r['topic_id'] in {'ch7-paragraph42', 'ch7-paragraph43'} for r in f['source_refs']):
+            require(not any(re.search(r'(?<![A-Za-z])(?:HJ|KJ)(?![A-Za-z])', a)
+                            for a in [f['claim'], *f['verified_answers']]),
+                    'unresolved_legacy_iodine_notation_cannot_be_a_premise')
+            held_acid = any(x in f['claim'] for x in ('H3PO3', 'H₃PO₃', 'H3BO3', 'H₃BO₃'))
+            require(not held_acid or (not any('negiz' in a.casefold() or 'valent' in a.casefold()
+                                            for a in [f['claim'], *f['verified_answers']])
+                                      and not any(a in {'1', '2', '3'} for a in f['verified_answers'])),
+                    'unresolved_acid_basicity_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
@@ -445,7 +466,7 @@ def load_lessons(catalog=None):
     catalog = catalog or load_catalog()
     index = read_json(DIRECTORY / "chemistry_lessons.json")
     require(index.get("schema_version") == 1 and index.get("subject") == "kimyo", "reviewed_index_required")
-    lessons, keys, topics = [], set(), set()
+    lessons, keys, topics, integrated_reviews = [], set(), set(), set()
     for item in index["lessons"]:
         require(Path(item["file"]).name == item["file"] and
                 Path(item["review_file"]).name == item["review_file"], "manifest_path_escape")
@@ -457,7 +478,12 @@ def load_lessons(catalog=None):
                 and review.get("original_authorship") is True, "changed_content_requires_new_review")
         lesson = read_json(path)
         validate_lesson(catalog, lesson, review)
+        records = {r['id']: r for b in catalog['books'] for r in b['records']}
+        require(all(identifier in integrated_reviews for identifier in lesson.get('source_context_ids', [])
+                    if records[identifier]['kind'] == 'review'),
+                'review_context_must_already_be_integrated')
         require(lesson["key"] not in keys and lesson["topic_id"] not in topics, "duplicate_indexed_lesson")
         keys.add(lesson["key"]); topics.add(lesson["topic_id"])
+        integrated_reviews.update(lesson.get('source_activity_ids', []))
         lessons.append(lesson)
     return lessons

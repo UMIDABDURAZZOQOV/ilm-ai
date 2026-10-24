@@ -1,0 +1,2208 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 47,
+  "key": "chemistry-7-p42-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph42",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph41"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph42",
+      "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+      "paragraph": 42,
+      "printed_pages": [
+        114
+      ],
+      "pdf_pages": [
+        58
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph42-page114"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph42",
+      "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+      "paragraph": 42,
+      "printed_pages": [
+        115
+      ],
+      "pdf_pages": [
+        58
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph42-page115"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph42",
+      "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+      "paragraph": 42,
+      "printed_pages": [
+        116
+      ],
+      "pdf_pages": [
+        59
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph42-page116"
+    }
+  ],
+  "facts": {
+    "definition": {
+      "claim": "Kislota tarkibi almashina oluvchi vodorod va kislota qoldig‘i orqali tanishtirilgan. Nomlashda qoldiq nomiga kislota so‘zi qo‘shiladi; masalan, xlorid kislota, sulfat kislota.",
+      "verified_answers": [
+        "Kislota qoldig‘i",
+        "Sulfat kislota"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            114
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page114"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "simple": {
+      "claim": "Kislorodsiz nomlarni moslashtiramiz: HF — ftorid kislota; HCl — xlorid kislota; HBr — bromid kislota; HCN — sianid kislota; H2S — sulfid kislota.",
+      "verified_answers": [
+        "HF",
+        "HCl",
+        "HBr",
+        "HCN",
+        "H2S",
+        "Xlorid kislota"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "sulfur": {
+      "claim": "H2SO3 — sulfit kislota, H2SO4 — sulfat kislota; HNO2 — nitrit kislota, HNO3 — nitrat kislota. Bir juftdagi O indeksini nom bilan birga o‘qing.",
+      "verified_answers": [
+        "H2SO3",
+        "H2SO4",
+        "HNO2",
+        "HNO3",
+        "Nitrit kislota"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "phosphorus": {
+      "claim": "Fosforli nomlar: H3PO4 — ortofosfat kislota; H3PO3 — fosfit kislota; HPO3 — metafosfat kislota; H4P2O7 — pirofosfat kislota. Bu yerda formula bilan nom moslashtiriladi.",
+      "verified_answers": [
+        "H3PO4",
+        "H3PO3",
+        "HPO3",
+        "H4P2O7"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "chromium": {
+      "claim": "H2Cr2O7 — dixromat kislota; H2CrO4 — xromat kislota; HMnO4 — permanganat kislota; H2MnO4 — manganat kislota.",
+      "verified_answers": [
+        "H2Cr2O7",
+        "H2CrO4",
+        "HMnO4",
+        "H2MnO4"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "others": {
+      "claim": "H2SiO3 — silikat kislota; H3BO3 — borat kislota; H2CO3 — karbonat kislota. Formula va nom alohida taniladi.",
+      "verified_answers": [
+        "H2SiO3",
+        "H3BO3",
+        "H2CO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "arsenic": {
+      "claim": "H3AsO4 — arsenat kislota; H3AsO3 — arsenit kislota. Bu juftda kislorod indeksi va nom oxirini taqqoslaymiz.",
+      "verified_answers": [
+        "H3AsO4",
+        "H3AsO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "halogen": {
+      "claim": "Xlorli qator: HClO — gipoxlorit, HClO2 — xlorit, HClO3 — xlorat, HClO4 — perxlorat kislota. Bromli misollar HBrO2 — bromit, HBrO4 — perbromat kislota.",
+      "verified_answers": [
+        "HClO",
+        "HClO2",
+        "HClO3",
+        "HClO4",
+        "HBrO2",
+        "HBrO4"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    "examples": {
+      "claim": "Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+      "verified_answers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            114
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page114"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Kislota tarkibi va nomi",
+        "body": "Kislota tarkibida almashina oluvchi vodorod va kislota qoldig‘i ajratiladi. Qoldiq nomi bilan kislota so‘zi birga ishlatiladi: xlorid kislota, sulfat kislota.",
+        "fact_ids": [
+          "definition"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              114
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page114"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Kislorodsiz nomlar",
+        "body": "HF — ftorid; HCl — xlorid; HBr — bromid; HCN — sianid; H₂S — sulfid kislota. Formuladagi element belgilarini o‘zgartirmasdan nomga moslang.",
+        "fact_ids": [
+          "simple"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Sulfit yoki sulfat, nitrit yoki nitrat",
+        "body": "H₂SO₃ — sulfit, H₂SO₄ — sulfat; HNO₂ — nitrit, HNO₃ — nitrat kislota. O indeksi o‘zgarsa, bu juftlardagi nom ham o‘zgaradi.",
+        "fact_ids": [
+          "sulfur"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Fosforli nomlarni farqlash",
+        "body": "H₃PO₄ — ortofosfat; H₃PO₃ — fosfit; HPO₃ — metafosfat; H₄P₂O₇ — pirofosfat kislota. Har formulani o‘z nomi bilan alohida eslab qoling.",
+        "fact_ids": [
+          "phosphorus"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Xrom va marganesli juftlar",
+        "body": "H₂Cr₂O₇ — dixromat; H₂CrO₄ — xromat; HMnO₄ — permanganat; H₂MnO₄ — manganat kislota. Cr va Mn belgilarini ham, indekslarni ham tekshiring.",
+        "fact_ids": [
+          "chromium"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Silikat, borat va karbonat",
+        "body": "H₂SiO₃ — silikat; H₃BO₃ — borat; H₂CO₃ — karbonat kislota. Si, B va C belgilariga qarab nomlarni ajrating.",
+        "fact_ids": [
+          "others"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Arsenat va arsenit",
+        "body": "H₃AsO₄ — arsenat, H₃AsO₃ — arsenit kislota. Bu ikkita formula uchun H va As qismi bir xil, O indeksi farqli.",
+        "fact_ids": [
+          "arsenic"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Kislorodli xlor va brom nomlari",
+        "body": "HClO — gipoxlorit; HClO₂ — xlorit; HClO₃ — xlorat; HClO₄ — perxlorat. HBrO₂ — bromit; HBrO₄ — perbromat kislota.",
+        "fact_ids": [
+          "halogen"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              115
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page115"
+          }
+        ]
+      },
+      {
+        "title": "Uchta aniq valentlik misoli",
+        "body": "Berilgan HCl, H₂SO₄, H₃PO₄ modellarida tegishli xlorid, sulfat, ortofosfat qoldiqlari bir, ikki, uch valentli qilib ko‘rsatilgan. Savol aynan shu misollarga tegishli.",
+        "fact_ids": [
+          "examples"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph42",
+            "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+            "paragraph": 42,
+            "printed_pages": [
+              114
+            ],
+            "pdf_pages": [
+              58
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph42-page114"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph42",
+        "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+        "paragraph": 42,
+        "printed_pages": [
+          114
+        ],
+        "pdf_pages": [
+          58
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph42-page114"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph42",
+        "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+        "paragraph": 42,
+        "printed_pages": [
+          115
+        ],
+        "pdf_pages": [
+          58
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph42-page115"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph42",
+        "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+        "paragraph": 42,
+        "printed_pages": [
+          116
+        ],
+        "pdf_pages": [
+          59
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph42-page116"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p42-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "HCl ning nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sulfat kislota"
+          },
+          {
+            "id": "b",
+            "label": "Xlorid kislota"
+          },
+          {
+            "id": "c",
+            "label": "Nitrat kislota"
+          },
+          {
+            "id": "d",
+            "label": "Karbonat kislota"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Xlorid kislota",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislorodsiz nomlarni moslashtiramiz: HF — ftorid kislota; HCl — xlorid kislota; HBr — bromid kislota; HCN — sianid kislota; H2S — sulfid kislota.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislorodsiz nomlarni moslashtiramiz: HF — ftorid kislota; HCl — xlorid kislota; HBr — bromid kislota; HCN — sianid kislota; H2S — sulfid kislota.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kislorodsiz nomlarni moslashtiramiz: HF — ftorid kislota; HCl — xlorid kislota; HBr — bromid kislota; HCN — sianid kislota; H2S — sulfid kislota.",
+            "fact_ids": [
+              "simple"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "simple"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "HNO₂ ning jadvaldagi nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nitrat kislota"
+          },
+          {
+            "id": "b",
+            "label": "Sulfit kislota"
+          },
+          {
+            "id": "c",
+            "label": "Sulfat kislota"
+          },
+          {
+            "id": "d",
+            "label": "Nitrit kislota"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Nitrit kislota",
+        "feedback": {
+          "correct": "To‘g‘ri. H2SO3 — sulfit kislota, H2SO4 — sulfat kislota; HNO2 — nitrit kislota, HNO3 — nitrat kislota. Bir juftdagi O indeksini nom bilan birga o‘qing.",
+          "incorrect": "Hozircha noto‘g‘ri. H2SO3 — sulfit kislota, H2SO4 — sulfat kislota; HNO2 — nitrit kislota, HNO3 — nitrat kislota. Bir juftdagi O indeksini nom bilan birga o‘qing.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "H2SO3 — sulfit kislota, H2SO4 — sulfat kislota; HNO2 — nitrit kislota, HNO3 — nitrat kislota. Bir juftdagi O indeksini nom bilan birga o‘qing.",
+            "fact_ids": [
+              "sulfur"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "sulfur"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Sulfat qoldig‘i nomi bilan qaysi kislota nomi yasaladi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sulfat kislota"
+          },
+          {
+            "id": "b",
+            "label": "Sulfid kislota"
+          },
+          {
+            "id": "c",
+            "label": "Nitrit kislota"
+          },
+          {
+            "id": "d",
+            "label": "Xlorid kislota"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Sulfat kislota",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislota tarkibi almashina oluvchi vodorod va kislota qoldig‘i orqali tanishtirilgan. Nomlashda qoldiq nomiga kislota so‘zi qo‘shiladi; masalan, xlorid kislota, sulfat kislota.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislota tarkibi almashina oluvchi vodorod va kislota qoldig‘i orqali tanishtirilgan. Nomlashda qoldiq nomiga kislota so‘zi qo‘shiladi; masalan, xlorid kislota, sulfat kislota.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kislota tarkibi almashina oluvchi vodorod va kislota qoldig‘i orqali tanishtirilgan. Nomlashda qoldiq nomiga kislota so‘zi qo‘shiladi; masalan, xlorid kislota, sulfat kislota.",
+            "fact_ids": [
+              "definition"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  114
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page114"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "definition"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            114
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page114"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Kislota tarkibining vodoroddan boshqa nomlangan qismi nima?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Kislota qoldig‘i",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislota tarkibi almashina oluvchi vodorod va kislota qoldig‘i orqali tanishtirilgan. Nomlashda qoldiq nomiga kislota so‘zi qo‘shiladi; masalan, xlorid kislota, sulfat kislota.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislota tarkibi almashina oluvchi vodorod va kislota qoldig‘i orqali tanishtirilgan. Nomlashda qoldiq nomiga kislota so‘zi qo‘shiladi; masalan, xlorid kislota, sulfat kislota.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kislota tarkibi almashina oluvchi vodorod va kislota qoldig‘i orqali tanishtirilgan. Nomlashda qoldiq nomiga kislota so‘zi qo‘shiladi; masalan, xlorid kislota, sulfat kislota.",
+            "fact_ids": [
+              "definition"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  114
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page114"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "Kislota qoldig‘i",
+        "aliases": [
+          "Kislota qoldig‘i",
+          "kislota qoldigi",
+          "qoldiq"
+        ]
+      },
+      "fact_ids": [
+        "definition"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            114
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page114"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "HCl kislotasining nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Xlorid kislota",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislorodsiz nomlarni moslashtiramiz: HF — ftorid kislota; HCl — xlorid kislota; HBr — bromid kislota; HCN — sianid kislota; H2S — sulfid kislota.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislorodsiz nomlarni moslashtiramiz: HF — ftorid kislota; HCl — xlorid kislota; HBr — bromid kislota; HCN — sianid kislota; H2S — sulfid kislota.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kislorodsiz nomlarni moslashtiramiz: HF — ftorid kislota; HCl — xlorid kislota; HBr — bromid kislota; HCN — sianid kislota; H2S — sulfid kislota.",
+            "fact_ids": [
+              "simple"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "Xlorid kislota",
+        "aliases": [
+          "Xlorid kislota",
+          "xlorid"
+        ]
+      },
+      "fact_ids": [
+        "simple"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "HNO₂ kislotasining nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Nitrit kislota",
+        "feedback": {
+          "correct": "To‘g‘ri. H2SO3 — sulfit kislota, H2SO4 — sulfat kislota; HNO2 — nitrit kislota, HNO3 — nitrat kislota. Bir juftdagi O indeksini nom bilan birga o‘qing.",
+          "incorrect": "Hozircha noto‘g‘ri. H2SO3 — sulfit kislota, H2SO4 — sulfat kislota; HNO2 — nitrit kislota, HNO3 — nitrat kislota. Bir juftdagi O indeksini nom bilan birga o‘qing.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "H2SO3 — sulfit kislota, H2SO4 — sulfat kislota; HNO2 — nitrit kislota, HNO3 — nitrat kislota. Bir juftdagi O indeksini nom bilan birga o‘qing.",
+            "fact_ids": [
+              "sulfur"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "Nitrit kislota",
+        "aliases": [
+          "Nitrit kislota",
+          "nitrit"
+        ]
+      },
+      "fact_ids": [
+        "sulfur"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q07",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Pirofosfat kislotaning formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "H4P2O7",
+        "feedback": {
+          "correct": "To‘g‘ri. Fosforli nomlar: H3PO4 — ortofosfat kislota; H3PO3 — fosfit kislota; HPO3 — metafosfat kislota; H4P2O7 — pirofosfat kislota. Bu yerda formula bilan nom moslashtiriladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Fosforli nomlar: H3PO4 — ortofosfat kislota; H3PO3 — fosfit kislota; HPO3 — metafosfat kislota; H4P2O7 — pirofosfat kislota. Bu yerda formula bilan nom moslashtiriladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Fosforli nomlar: H3PO4 — ortofosfat kislota; H3PO3 — fosfit kislota; HPO3 — metafosfat kislota; H4P2O7 — pirofosfat kislota. Bu yerda formula bilan nom moslashtiriladi.",
+            "fact_ids": [
+              "phosphorus"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "H4P2O7"
+      },
+      "fact_ids": [
+        "phosphorus"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q08",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Dixromat kislotaning formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "H2Cr2O7",
+        "feedback": {
+          "correct": "To‘g‘ri. H2Cr2O7 — dixromat kislota; H2CrO4 — xromat kislota; HMnO4 — permanganat kislota; H2MnO4 — manganat kislota.",
+          "incorrect": "Hozircha noto‘g‘ri. H2Cr2O7 — dixromat kislota; H2CrO4 — xromat kislota; HMnO4 — permanganat kislota; H2MnO4 — manganat kislota.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "H2Cr2O7 — dixromat kislota; H2CrO4 — xromat kislota; HMnO4 — permanganat kislota; H2MnO4 — manganat kislota.",
+            "fact_ids": [
+              "chromium"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "H2Cr2O7"
+      },
+      "fact_ids": [
+        "chromium"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q09",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Karbonat kislotaning formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "H2CO3",
+        "feedback": {
+          "correct": "To‘g‘ri. H2SiO3 — silikat kislota; H3BO3 — borat kislota; H2CO3 — karbonat kislota. Formula va nom alohida taniladi.",
+          "incorrect": "Hozircha noto‘g‘ri. H2SiO3 — silikat kislota; H3BO3 — borat kislota; H2CO3 — karbonat kislota. Formula va nom alohida taniladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "H2SiO3 — silikat kislota; H3BO3 — borat kislota; H2CO3 — karbonat kislota. Formula va nom alohida taniladi.",
+            "fact_ids": [
+              "others"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "H2CO3"
+      },
+      "fact_ids": [
+        "others"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q10",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Perxlorat kislotaning formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "HClO4",
+        "feedback": {
+          "correct": "To‘g‘ri. Xlorli qator: HClO — gipoxlorit, HClO2 — xlorit, HClO3 — xlorat, HClO4 — perxlorat kislota. Bromli misollar HBrO2 — bromit, HBrO4 — perbromat kislota.",
+          "incorrect": "Hozircha noto‘g‘ri. Xlorli qator: HClO — gipoxlorit, HClO2 — xlorit, HClO3 — xlorat, HClO4 — perxlorat kislota. Bromli misollar HBrO2 — bromit, HBrO4 — perbromat kislota.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Xlorli qator: HClO — gipoxlorit, HClO2 — xlorit, HClO3 — xlorat, HClO4 — perxlorat kislota. Bromli misollar HBrO2 — bromit, HBrO4 — perbromat kislota.",
+            "fact_ids": [
+              "halogen"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  115
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page115"
+              }
+            ]
+          }
+        ],
+        "expected": "HClO4"
+      },
+      "fact_ids": [
+        "halogen"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            115
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page115"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Berilgan HCl modelida xlorid qoldig‘i valentligi nechaga teng?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "valentlik"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "1",
+        "feedback": {
+          "correct": "To‘g‘ri. Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+          "incorrect": "Hozircha noto‘g‘ri. Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+            "fact_ids": [
+              "examples"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  114
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page114"
+              }
+            ]
+          }
+        ],
+        "expected": "1",
+        "unit": "valentlik"
+      },
+      "fact_ids": [
+        "examples"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            114
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page114"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q12",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Berilgan H₂SO₄ modelida sulfat qoldig‘i valentligi nechaga teng?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "valentlik"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "2",
+        "feedback": {
+          "correct": "To‘g‘ri. Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+          "incorrect": "Hozircha noto‘g‘ri. Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+            "fact_ids": [
+              "examples"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  114
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page114"
+              }
+            ]
+          }
+        ],
+        "expected": "2",
+        "unit": "valentlik"
+      },
+      "fact_ids": [
+        "examples"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            114
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page114"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p42-r1-q13",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Berilgan H₃PO₄ modelida ortofosfat qoldig‘i valentligi nechaga teng?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "valentlik"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "3",
+        "feedback": {
+          "correct": "To‘g‘ri. Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+          "incorrect": "Hozircha noto‘g‘ri. Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Aynan berilgan uch misolda HCl uchun xlorid qoldig‘i bir, H2SO4 uchun sulfat qoldig‘i ikki, H3PO4 uchun ortofosfat qoldig‘i uch valentli modelda tasvirlangan.",
+            "fact_ids": [
+              "examples"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph42",
+                "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+                "paragraph": 42,
+                "printed_pages": [
+                  114
+                ],
+                "pdf_pages": [
+                  58
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph42-page114"
+              }
+            ]
+          }
+        ],
+        "expected": "3",
+        "unit": "valentlik"
+      },
+      "fact_ids": [
+        "examples"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph42",
+          "topic_title": "Kislotalar tarkibi, tuzilishi va nomlanishi",
+          "paragraph": 42,
+          "printed_pages": [
+            114
+          ],
+          "pdf_pages": [
+            58
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph42-page114"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only"
+}

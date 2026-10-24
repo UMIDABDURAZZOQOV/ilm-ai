@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_practical06.json",
+  "lesson_sha256": "4745f0efd4d275fdbd407da0322307ffdc37c3f37118a7b685aff644ae5fc595",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original121 read. Both Cu(II)-oxide and Fe(III)-oxide branches retained in digital source/report analysis. No heating,acid handling,volumes,setup or fabricated colour/crystal observations.",
+    "Copper material equation and exact molar-mass ratios are explicitly printed in earlier chapterI review50,already integrated with paragraph16. It is reused as a source context,not relabelled as practical121 or reintegrated as a new activity.",
+    "The original4g arithmetic variant is a virtual report condition,not a reagent instruction. No invented iron-sulfate formula or unprovided iron experimental result.",
+    "Guided digital analysis only; no physical execution, certification, heating, reagent handling or unsupervised experiment.",
+    "Final answer/copy review: each expected formula/equation atom-checked;all numbers recomputed from explicitly cited textbook data. No silent legacy iodine/basicity/neutral-salt/condition repair."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-practical06-page121",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-practical06",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 121,
+      "pdf_page": 61,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "147500e1dc217f6623f263816c4ef8bcc316d51407152af403d49ae95cb7fca6",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-1-page50",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-1",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 50,
+      "pdf_page": 26,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "f0787fe30d5ce8eac559e624336e4dfcc91dcd59ab561ca2933a6c1dc29dfc68",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

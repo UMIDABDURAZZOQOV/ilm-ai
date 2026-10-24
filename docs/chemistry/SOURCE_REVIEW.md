@@ -375,3 +375,38 @@ context for the overall photosynthesis statement;no isotope routing added.
 
 One scientific blocker and15 scoped editorial issues remain open. The holds gate
 readiness while separately verified material can continue in book order.
+
+
+## Batch11 original acid pages — 2026-10-24
+
+Grade7 originals114–124/PDF58–63 read,with exact boundaries:§42 uses114–116
+before43;§43 uses116–117 before44;§44 uses117–120;practical6 uses121;§45 uses
+122–124. Prior worked50 retains ch7-1 review identity. Grade8 original23 was
+visually compared for notation only;its science is not silently inserted in7.
+
+- **ch7-p42-acid-notation-valence-review**:HJ/-J115 differs from supplied
+  grade8§4/23 HI/I2. No legacy-symbol FRQ or hidden replacement. H3PO3/=PO3
+  has3 written H versus2 valence lines,so blanket114 equality is not approved
+  for all rows. Formula/name is separately recognised. Keyword-only116 bromat,
+  atsetat,oksalat have no formula/definition in115;no missing content invented.
+- **ch7-p43-basicity-scope-review**:total-written-H rule is not promoted to
+  universal ionisable-H equivalence. H3BO3 three-basic assignment117 lacks a
+  reviewed operational explanation here;held without inventing an alternative.
+  Other individually reviewed examples and oxygen classification are separate.
+- **ch7-p44-product-scope-review**:196gCu(OH)2/73gHCl exercise120 is not an
+  unqualified neutral-salt mass key.119 includes partial Mg(OH)Cl/KH2PO4;112
+  includes Cu(OH)Cl. Zn/H2SO4→H2 versus Cu/concentratedHNO3→NO2 retains
+  conditions rather than a universal metal/acid prediction. Material equations
+  atom-checked;phase annotations remain recognition,not unsupported input.
+- **ch7-p45-condition-scope-review**:unspecified density/gas-drying scope and
+  broad metal-reactivity/storage wording122–124 are held as universal keys or
+  procedures. Cold-concentrated passivation is explicitly scoped. No corrosive
+  dilution,drying,metal-storage,medical or explosives synthesis task.
+- Practical6 retains both named oxides,filtration/crystal goal and reporting.
+  No unprovided colour,iron product formula or actual experiment. Its copper
+  equation/data are explicitly printed in earlier ch7-1/50;virtual4g variant
+  uses80:98:160:18 to obtain4.9/8/0.9g. Earlier review context is not relabelled
+  as practical121 or reintegrated as a new chapter activity.
+
+One scientific blocker and19 editorial reviews remain open. Source-image review
+and passing software tests are not independent teacher/scientific certification.

@@ -76,11 +76,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-paragraph40` | paragraph 40 | Asoslarning olinishi va xossalari | 111–113 | 56:right – 57:right | 111 | reviewed local lesson | ch7-paragraph39 |
 | `ch7-paragraph41` | paragraph 41 | Eng muhim asoslarning ishlatilishi | 113–114 | 57:right – 58:left | 113 | reviewed local lesson | ch7-paragraph40 |
 | `ch7-section5-4` | section 5.4 | Kislotalar | 114–125 | 58:left – 63:right | 114 | covered_by_child_topics | — |
-| `ch7-paragraph42` | paragraph 42 | Kislotalar tarkibi, tuzilishi va nomlanishi | 114–116 | 58:left – 59:left | 114 | not_authored | ch7-paragraph41 |
-| `ch7-paragraph43` | paragraph 43 | Kislotalarning toifalanishi | 116–117 | 59:left – 59:right | 116 | not_authored | ch7-paragraph42 |
-| `ch7-paragraph44` | paragraph 44 | Kislotalarning olinishi va xossalari | 117–121 | 59:right – 61:right | 117 | not_authored | ch7-paragraph43 |
-| `ch7-practical06` | practical 6 | Sulfat kislota bilan mis (II)-oksid, shuningdek, temir (III)-oksid orasidagi almashinish reaksiyalarini olib borish va reaksiya mahsulotlarini eritmadan ajratish | 121–122 | 61:right – 62:left | 121 | not_authored | ch7-paragraph44 |
-| `ch7-paragraph45` | paragraph 45 | Eng muhim kislotalarning ishlatilishi | 122–125 | 62:left – 63:right | 122 | not_authored | ch7-practical06 |
+| `ch7-paragraph42` | paragraph 42 | Kislotalar tarkibi, tuzilishi va nomlanishi | 114–116 | 58:left – 59:left | 114 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph41 |
+| `ch7-paragraph43` | paragraph 43 | Kislotalarning toifalanishi | 116–117 | 59:left – 59:right | 116 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph42 |
+| `ch7-paragraph44` | paragraph 44 | Kislotalarning olinishi va xossalari | 117–121 | 59:right – 61:right | 117 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph43 |
+| `ch7-practical06` | practical 6 | Sulfat kislota bilan mis (II)-oksid, shuningdek, temir (III)-oksid orasidagi almashinish reaksiyalarini olib borish va reaksiya mahsulotlarini eritmadan ajratish | 121–122 | 61:right – 62:left | 121 | reviewed local lesson | ch7-paragraph44 |
+| `ch7-paragraph45` | paragraph 45 | Eng muhim kislotalarning ishlatilishi | 122–125 | 62:left – 63:right | 122 | reviewed local lesson; scoped editorial review remains open | ch7-practical06 |
 | `ch7-section5-5` | section 5.5 | Tuzlar | 125–141 | 63:right – 71:right | 125 | covered_by_child_topics | — |
 | `ch7-paragraph46` | paragraph 46 | Tuzlar tarkibi, tuzilishi va nomlanishi | 125–127 | 63:right – 64:right | 125 | not_authored | ch7-paragraph45 |
 | `ch7-paragraph47` | paragraph 47 | Tuzlar formulalarining ifodalanishi | 127–129 | 64:right – 65:right | 127 | not_authored | ch7-paragraph46 |

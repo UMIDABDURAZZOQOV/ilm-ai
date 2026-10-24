@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-46 reviewed lessons through grade7 §41, including practical1–5;222 remain. All
+51 reviewed lessons through grade7 §45, including practical1–6;217 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next teaching entry is grade7 §42,printed114–116,then §43,§44,practical6,§45.
-Seven earlier chapter-review anchors retain their actual source identity.
-Do not double-count or mislabel them.
+Next teaching entries are grade7 §46–50 in book order. Then §51,practical7,
+and the16 separate laboratory entries. Seven chapterI–IV reviews are already
+integrated;context reuse does not increase the teaching-entry count.
 
 ## Review and development notes
 
@@ -158,3 +158,27 @@ the original half-water question expects0.78g without inventing a solution densi
 before storing anything. CLI,synthetic preview and test fixture use this safe
 batch path. It accepts no caller documents and caches nothing. Per-row published
 immutability remains unchanged. `import_lesson` still rejects changed documents.
+
+
+## Batch11 acids and practical6
+
+§42–44,practical6,§45 adds39 cards/53 questions. Acid naming groups preserve
+reviewed formulas;no legacy HJ/J substitution or blanket total-written-H rule.
+H3PO3/H3BO3 names/formulas are distinct from their held basicity/residue claims.
+Partial neutralisation keeps Mg(OH)Cl/KH2PO4;Cu/concentratedHNO3 keeps NO2.
+Do not grade the196gCu(OH)2/73gHCl exercise as unqualified full neutralisation.
+Unexplained keyword-only bromat/atsetat/oksalat116 remain a visible source gap.
+Total19 editorial issues plus one scientific blocker;no course-ready claim.
+
+Practical6 retains copper and iron oxide branches in digital source/report
+analysis. Actual copper equation/molar data come from earlier worked50,not an
+invented practical121 quotation. Original4g virtual variant:4.9g acid,8g salt,
+0.9g water. No heating,reagent setup,physical observation invention or invented
+iron-sulfate formula. Applications and passivation remain scoped recognition.
+
+Existing source_context_ids can now cite a same-book earlier review only if its
+end precedes the new topic and its last preceding teaching sequence is earlier.
+The explicit lesson index must already integrate that review in a previous
+manifest. Future,unintegrated,cross-book and same-chapter activity mislabelling
+remain rejected. Exact source title/null paragraph/page and image hashes remain.
+No new learning mechanism or XP rule. Flutter uses the same source-button path.

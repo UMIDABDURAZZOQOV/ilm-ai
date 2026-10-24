@@ -349,3 +349,34 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No new general notation engine,AI,production/main/real-user/other-subject work,
   PDF/fulltext/OCR/token upload,teacher/native/browser/IME/TalkBack/full-backend
   or PostgreSQL certification. Whole-course readiness stays false.
+
+
+## Batch11 — 2026-10-24
+
+- §42–44,practical6,§45:**51/268 implemented,217 remaining**. Grade7:51/74.
+  New39 cards/53 questions:16 MCQ,11 short,8 numeric,10 formula,8 equation.
+  Total351 cards/532 assessments:233 MCQ,112 short,101 numeric,38 formula,
+  48 equation. Seven reviews integrated;earlier review reuse adds no entry.
+- Full Chemistry **277 passed,1 skipped,1 existing warning,207.49s**;targeted
+  **26 passed/17.06s**. PG skip remains opt-in. Critical Ruff/diff checks pass.
+  Original§1 unchanged. Explicit review context must precede the lesson and
+  already be integrated in an earlier indexed manifest. Tests reject future
+  anchors,missing prior integration,legacy symbols and held basicity assertions.
+- Full Flutter **488 passed/89s**;analysis **no issues/87.3s**. Two new real-widget
+  tests/2s with sanitized real-HTTP practical6 fixtures. At320×568/200% text,
+  earlier review context/feedback retains actual50→PDF26left and title/null
+  paragraph,not false§6. Light theory/dark feedback captures visually inspected;
+  source and continue are readable. Not native/browser/IME/TalkBack certification.
+- Real loopback HTTP preserved46 completions/920XP,passed53 new questions,
+  added100XP once,total51/1020XP. Completion replay identical;private grading
+  hidden. Public fixture strips live attempt identity/expiry and contains no
+  token/private pre-answer key. Only synthetic900003,real users unchanged.
+- All817 original PDF pages decoded,five SHA identities verified again. Nineteen
+  scoped editorial issues plus one scientific blocker remain open. No guessed
+  iodine/basicity/product/density/condition repair or missing-keyword definition.
+- Practical6 preserves both oxide branches as digital analysis. Copper equation
+  and mass data are actual earlier50 evidence,not a fabricated quotation121.
+  No physical lab/reagent setup,boiling/heating,unprovided observation,clinical,
+  storage or harmful synthesis procedure. Existing learning/XP/grader unchanged.
+- No production/main/real-user/other-subject/AI/PDF/fulltext/OCR/token upload or
+  fresh independent teacher/PG/full-backend certification;all course-ready false.
