@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 10 | 49 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 15 | 44 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 84 | 184 |
+| Total | 29 | 204 | 49 | 15 | 268 | 89 | 179 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 541 cards; 834 assessments: 332 concept_selection, 168 short_text, 166 numeric_value, 78 chemical_formula, 90 chemical_equation.
+Total: 580 cards; 895 assessments: 350 concept_selection, 181 short_text, 192 numeric_value, 82 chemical_formula, 90 chemical_equation.
 
 ## Initial §1
 
@@ -86,16 +86,21 @@ Total: 541 cards; 834 assessments: 332 concept_selection, 168 short_text, 166 nu
 5 lessons;35 cards;14 MCQ,11 short text,27 numeric. Nuclear,periodic-table and
 orbital concepts use topic-appropriate existing inputs,not a new notation engine.
 
+## Batch18: grade8 §11–15
+
+5 lessons;39 cards;18 MCQ,13 short text,26 numeric,4 formula. Includes all
+donor-acceptor content69–71 and actual chapter03 introduction63–64.
+
 ## Current continuation
 
-Grade7 all74 mapped entries covered;grade8 §1–10 implemented (10/59).
-Next grade8 §11–15,original48–71. Whole project184 entries remaining.
-Nine grade7 chapterI–VI reviews integrated,not extra teaching entries.
+Grade7 all74 mapped entries covered;grade8 §1–15 implemented (15/59).
+Next grade8 §16–20,original71–89. Whole project179 entries remaining.
+Nine grade7 reviews integrated,not extra entries. Chapter preface references
+are source context,not extra teaching keys;catalog remains327/268.
 
-One grade9 scientific blocker and35 scoped editorial issues remain. New reviews
-hold unqualified group rules,average-mass versus integer nucleus-count identity,
-isotope chart/fraction inconsistencies and classical electron force/spin claims.
-Book short-table representation,neutral-atom scope,explicit worked B model and
-maximum versus actual shell occupancy remain distinct. All ready flags false.
-Original§1,earlier immutable manifests/progress,real users and other subjects
-preserved. Exact measured QA/commits:QA_REPORT.md and CHECKPOINT.md.
+One grade9 scientific blocker and41 scoped editorial issues remain. New scopes
+hold universal ground-state/configuration/valence/metal/octet/fraction claims,
+La/Ce details,unqualified scale rescaling and molecule-geometry conclusions.
+Clear table entries,original supplied models and exact source identity retained.
+All ready flags false. Original§1,prior84 manifests/progress,real users and other
+subjects preserved. Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.

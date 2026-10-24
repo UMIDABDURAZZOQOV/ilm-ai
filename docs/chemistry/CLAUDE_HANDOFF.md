@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-84 reviewed lessons:all74 grade7 entries and grade8 §1–10;184 remain. All
+89 reviewed lessons:all74 grade7 entries and grade8 §1–15;179 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next grade8 §11–15,original48–71. All74 grade7 entries covered;grade8 has10/59.
-Nine grade7 reviews integrated,not extra entries. One scientific blocker/35
-editorial reviews still gate readiness. Flutter grade selection and common
-MCQ/FRQ/XP/draft rules remain as batch16;no new Dart change in batch17.
+Next grade8 §16–20,original71–89. Grade7 all74 entries;grade8 has15/59.
+Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
+One scientific blocker/41 editorial reviews still gate readiness. Same shared
+MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
 
@@ -295,3 +295,27 @@ stop). Never rerun indexed author_batch17.py or source-review initializer. Origi
 anchor,not an invented extra lesson. Assess precise source-context support before
 using chapter preface facts;do not label chapter3 as paragraph3 or cite future
 chapter pages. Upcoming Ce/La52 and isotope-fraction/table scopes need review.
+
+
+## Batch18 grade8 §11–15 and exact chapter prefix
+
+Original48–71 fully visually read. Five lessons add39 cards/61 questions,
+including donor-acceptor69–71. H–Ar,K/Ca/Sc/Zn/Ga/Kr/Cs,Sr/As/V and historical
+predictions are precise source examples;La/Ce detail52 held,not corrected.
+Natural isotope mass/particle fraction ambiguity and Cl38/59 conflict remain.
+Bond polarity is not an unreviewed whole-molecule geometry statement. Donor
+pair origin is distinguished from a shared resulting bond. No new typed ionic,
+orbital,formal-charge or Lewis-structure syntax.
+
+Chapter context is now accepted only for the same chapter's prefix,whose start
+precedes its first teaching paragraph. Full earlier intro pages allowed;the
+first teaching page needs matching before_first_teaching_heading scope in ref
+AND original-image evidence. No later chapter page allowed. Chapter refs have
+paragraph:null,actual chapter title and exact book/page/image SHA. This fixes
+63 and top64 preface without falsely calling it§3 or§14. Existing84 manifests
+remain byte-identical. No catalog container is counted as another teaching entry.
+
+Flutter preserves separate scoped source groups and displays the actual heading
+boundary in localized source sheet. Sanitized actualHTTP chapter-intro fixtures
+use fake attempt ID/future expiry,no private keys/tokens. Own sandboxPID15680,
+89 synthetic900003 completions/1780XP on8900;verify command before stopping.

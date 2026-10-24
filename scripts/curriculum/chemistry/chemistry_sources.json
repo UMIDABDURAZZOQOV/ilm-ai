@@ -5748,7 +5748,30 @@
             "record_id": "ch8-paragraph12",
             "printed_page": 51,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p11-ground-state-scope",
+              "status": "open_review",
+              "printed_pages": [
+                49
+              ],
+              "pdf_pages": [
+                49
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Third-period outer8/3d0 explanation is scoped to the displayed neutral ground-state examples,not all possible states or the2n^2 capacity. No unrestricted configuration inference.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p11-ground-state-scope",
+                  "printed_page": 49,
+                  "reason": "Teach exact H–Ar table strings/populations as source models;do not turn third-period outer8 into a maximum capacity of all third shells."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5789,7 +5812,30 @@
             "record_id": "ch8-paragraph13",
             "printed_page": 53,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p12-filling-state-review",
+              "status": "open_review",
+              "printed_pages": [
+                52
+              ],
+              "pdf_pages": [
+                52
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "La f-start and Ce4f2/shell20-8 example supplies no state qualifications or corroborating configuration review. No authoritative La/Ce ground-state key or silent alternate configuration from memory.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p12-filling-state-review",
+                  "printed_page": 52,
+                  "reason": "Hold La/Ce detail for teacher/source review. Retain separately printed K/Ca/Sc/Zn/Ga/Kr/Cs examples and source-defined shell/subshell limits."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5830,7 +5876,45 @@
             "record_id": "ch8-chapter03",
             "printed_page": 63,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p13-valence-and-isotope-scope",
+              "status": "open_review",
+              "printed_pages": [
+                54,
+                55,
+                57,
+                59,
+                60,
+                61
+              ],
+              "pdf_pages": [
+                54,
+                55,
+                57,
+                59,
+                60,
+                61
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Unqualified oxygen-valence1–8 and outer2=metal omit prior O/F/He exceptions. Sr88/As75 neutron counts are explicit integer models,not arbitrary average-weight rounding. Cl38/59 values conflict and mass-fraction labels cannot silently become particle fractions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p13-valence-and-isotope-scope",
+                  "printed_page": 54,
+                  "reason": "Hold universal valence/metal claims and natural Cl/Ag/Ne fraction-based keys until meanings are resolved. Retain explicit integer counting,source position/configuration,conditional historical predictions and supplied orbital examples. No hidden natural-isotope correction."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch8-chapter03",
@@ -5867,7 +5951,30 @@
             "record_id": "ch8-chapter04",
             "printed_page": 89,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-ch03-bonding-intro-scope",
+              "status": "open_review",
+              "printed_pages": [
+                63
+              ],
+              "pdf_pages": [
+                63
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Chapter preface gives broad any-atom/octet/inert statements and labels several ionic compounds as molecules. No universal all-atom octet/stability or isolated NaCl molecule claim.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-ch03-bonding-intro-scope",
+                  "printed_page": 63,
+                  "reason": "Use actual single-element/multi-element formula examples and question about bonding. Preserve duet versus octet as limited examples,not an unrestricted bonding predictor;cite chapter title with null paragraph."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5907,7 +6014,30 @@
             "record_id": "ch8-paragraph15",
             "printed_page": 66,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p14-tabulated-scale-scope",
+              "status": "open_review",
+              "printed_pages": [
+                65
+              ],
+              "pdf_pages": [
+                65
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Lithium0.98/rounded1 reference wording is not a licence to rescale the printed table. Cs minimum statement is scoped to the supplied tabulation;no unseen Fr/noble value or universal cutoff is inferred.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p14-tabulated-scale-scope",
+                  "printed_page": 65,
+                  "reason": "Read exact clearly legible table entries. Hold ambiguous symbol glyph if used and any renormalised/electronegativity-threshold key. No outside scale data added."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5947,7 +6077,42 @@
             "record_id": "ch8-paragraph16",
             "printed_page": 71,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p15-bond-molecule-scope",
+              "status": "open_review",
+              "printed_pages": [
+                66,
+                67,
+                69,
+                70,
+                71
+              ],
+              "pdf_pages": [
+                66,
+                67,
+                69,
+                70,
+                71
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "A polar bond does not by itself supply whole-molecule geometry/polarity for all listed compounds. Donor electron-pair origin must not be read as permanent sole ownership after sharing.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p15-bond-molecule-scope",
+                  "printed_page": 66,
+                  "reason": "Retain source H2/O2/N2/HCl shared-pair/partial-charge examples and NH3/H+ donor-acceptor/H2O case. No invented geometry,ionic cutoff,formal-charge/Lewis/structure grader or blanket octet prediction."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

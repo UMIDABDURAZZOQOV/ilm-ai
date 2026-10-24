@@ -66,6 +66,12 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph07': 'ch8-p07-mass-model-scope',
     'ch8-paragraph08': 'ch8-p08-isotope-average-scope',
     'ch8-paragraph09': 'ch8-p09-classical-electron-model-scope',
+    'ch8-paragraph11': 'ch8-p11-ground-state-scope',
+    'ch8-paragraph12': 'ch8-p12-filling-state-review',
+    'ch8-paragraph13': 'ch8-p13-valence-and-isotope-scope',
+    'ch8-chapter03': 'ch8-ch03-bonding-intro-scope',
+    'ch8-paragraph14': 'ch8-p14-tabulated-scale-scope',
+    'ch8-paragraph15': 'ch8-p15-bond-molecule-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -236,6 +242,7 @@ def validate_lesson(catalog, lesson, review):
             "positive_reviewed_revision_required")
     records = {r['id']: r for r in book['records']}
     allowed_sources = {topic['id']: topic}
+    chapter_prefix_limits = {}
     for field in ('source_context_ids', 'source_activity_ids'):
         linked = lesson.get(field, [])
         require(type(linked) is list and all(type(x) is str for x in linked)
@@ -248,7 +255,15 @@ def validate_lesson(catalog, lesson, review):
                     and record.get('source_review_hold', {}).get('status') != 'open',
                     'unknown_or_blocked_linked_source')
             if field == 'source_context_ids':
-                if record['kind'] == 'review':
+                if record['kind'] == 'chapter':
+                    first = min((r for r in book['records'] if r['kind'] in TEACHING_KINDS
+                                 and r['chapter_id'] == record['id']), key=lambda r: r['sequence'])
+                    require(record['id'] == topic['chapter_id']
+                            and record['printed_start'] < first['printed_start']
+                            and first['sequence'] <= topic['sequence'],
+                            'source_chapter_prefix_must_precede_lesson')
+                    chapter_prefix_limits[identifier] = first['printed_start']
+                elif record['kind'] == 'review':
                     predecessors = [r['sequence'] for r in book['records'] if r['kind'] in TEACHING_KINDS
                                     and r['chapter_id'] == record['chapter_id']
                                     and r['printed_start'] <= record['printed_start']]
@@ -283,13 +298,18 @@ def validate_lesson(catalog, lesson, review):
                     and ref.get("sha256") == book["sha256"] == evidence["sha256"]
                     and ref.get("file_name") == book["file_name"]
                     and cited and ref.get("topic_id") == cited["id"] == evidence["topic_id"]
-                    and ref.get("paragraph") == cited["number"], "claim_source_identity_mismatch")
+                    and ref.get("paragraph") == (None if cited['kind'] == 'chapter' else cited["number"]), "claim_source_identity_mismatch")
             require(ref.get('book_title') == book['title'] and ref.get('authors') == book['authors']
                     and ref.get('year') == book['year'] and ref.get('topic_title') == cited['title'],
                     'claim_bibliography_mismatch')
             pp = ref.get("printed_pages", [])
             require(pp == [evidence["printed_page"]] and
                     cited["printed_start"] <= pp[0] <= cited["printed_end"], "claim_outside_topic")
+            if cited['kind'] == 'chapter':
+                limit = chapter_prefix_limits[cited['id']]
+                require(pp[0] < limit or (pp[0] == limit
+                        and ref.get('page_scope') == evidence.get('page_scope')
+                        == 'before_first_teaching_heading'), 'claim_outside_chapter_prefix')
             loc = page_locator(book["grade"], pp[0])
             require(ref.get("pdf_pages") == [loc["pdf_page"]] == [evidence["pdf_page"]]
                     and ref.get("regions") == [loc["region"]] == [evidence["region"]],
@@ -400,6 +420,19 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-paragraph09' in topic_ids:
             require(not any('markazdan qochma' in a.casefold() for a in plain_values),
                     'unresolved_classical_electron_force_cannot_be_a_premise')
+        if 'ch8-paragraph12' in topic_ids:
+            require(not any(re.search(r'(?<![A-Za-z])(?:La|Ce)(?![a-z])', a)
+                            for a in [f['claim'], *f['verified_answers']]),
+                    'unresolved_la_ce_configuration_cannot_be_a_premise')
+        if 'ch8-paragraph13' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])35[.,](?:543|4846)(?![0-9])', a)
+                            for a in f['verified_answers']), 'unresolved_natural_chlorine_average_cannot_be_an_answer')
+            require(not ('geliy' in f['claim'].casefold() and any(a.casefold() == 'metall'
+                            for a in f['verified_answers'])), 'unresolved_two_electrons_metal_rule_cannot_be_a_premise')
+        if 'ch8-paragraph15' in topic_ids:
+            require(not any(('CH4' in a or 'CH₄' in a) and 'molekula' in a.casefold()
+                            and 'qutbli' in a.casefold() for a in [f['claim'], *f['verified_answers']]),
+                    'unreviewed_molecule_geometry_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

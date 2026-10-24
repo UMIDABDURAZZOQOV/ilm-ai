@@ -22,12 +22,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-paragraph08` | paragraph 8 | Izotoplar. Izobarlar | 37–41 | 37:full – 41:full | 36 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph07 |
 | `ch8-paragraph09` | paragraph 9 | Atom elektron qavatlarining tuzilishi | 41–44 | 41:full – 44:full | 39 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph08 |
 | `ch8-paragraph10` | paragraph 10 | Energetik pog‘onachalar | 44–48 | 44:full – 48:full | 42 | reviewed local lesson | ch8-paragraph09 |
-| `ch8-paragraph11` | paragraph 11 | Kichik davr elementlarining atom tuzilishi | 48–51 | 48:full – 51:full | 46 | not_authored | ch8-paragraph10 |
-| `ch8-paragraph12` | paragraph 12 | Katta davr elementlarining atom tuzilishi | 51–53 | 51:full – 53:full | 49 | not_authored | ch8-paragraph11 |
-| `ch8-paragraph13` | paragraph 13 | Elementlarning davriy sistemadagi o‘rni va atom tuzilishiga qarab tavsiflash. Davriy qonunning ahamiyati | 53–63 | 53:full – 63:full | 51 | not_authored | ch8-paragraph12 |
-| `ch8-chapter03` | chapter 3 | Kimyoviy bog‘lanishlar | 63–89 | 63:full – 89:full | 63 | not_authored | — |
-| `ch8-paragraph14` | paragraph 14 | Kimyoviy elementlarning nisbiy elektromanfiyligi | 64–66 | 64:full – 66:full | 64 | not_authored | ch8-paragraph13 |
-| `ch8-paragraph15` | paragraph 15 | Kimyoviy bog‘lanish turlari. Qutbli va qutbsiz kovalent bog‘lanish | 66–71 | 66:full – 71:full | 66 | not_authored | ch8-paragraph14 |
+| `ch8-paragraph11` | paragraph 11 | Kichik davr elementlarining atom tuzilishi | 48–51 | 48:full – 51:full | 46 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph10 |
+| `ch8-paragraph12` | paragraph 12 | Katta davr elementlarining atom tuzilishi | 51–53 | 51:full – 53:full | 49 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph11 |
+| `ch8-paragraph13` | paragraph 13 | Elementlarning davriy sistemadagi o‘rni va atom tuzilishiga qarab tavsiflash. Davriy qonunning ahamiyati | 53–63 | 53:full – 63:full | 51 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph12 |
+| `ch8-chapter03` | chapter 3 | Kimyoviy bog‘lanishlar | 63–89 | 63:full – 89:full | 63 | not_authored; scoped editorial review remains open | — |
+| `ch8-paragraph14` | paragraph 14 | Kimyoviy elementlarning nisbiy elektromanfiyligi | 64–66 | 64:full – 66:full | 64 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph13 |
+| `ch8-paragraph15` | paragraph 15 | Kimyoviy bog‘lanish turlari. Qutbli va qutbsiz kovalent bog‘lanish | 66–71 | 66:full – 71:full | 66 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph14 |
 | `ch8-paragraph16` | paragraph 16 | Ionli bog‘lanish | 71–74 | 71:full – 74:full | 71 | not_authored | ch8-paragraph15 |
 | `ch8-paragraph17` | paragraph 17 | Kristall panjaralar | 74–76 | 74:full – 76:full | 74 | not_authored | ch8-paragraph16 |
 | `ch8-paragraph18` | paragraph 18 | Elementlarning oksidlanish darajasi | 76–80 | 76:full – 80:full | 76 | not_authored | ch8-paragraph17 |

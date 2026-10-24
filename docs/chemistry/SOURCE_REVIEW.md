@@ -597,3 +597,34 @@ starting48. Printed=PDF,full-page identity/image SHA recorded for every ref.
 
 Four new scoped editorial reviews bring35 plus one scientific blocker. None
 silently removed;all whole-course-ready flags false.
+
+
+## Batch18 source review — grade8 §11–15
+
+Original48–71 fully read. §11 ends in51 before§12;§12 ends in53 before§13;
+§13 ends62;63 and top64 introduce chapter03 before§14;§14 ends in66 before§15;
+§15 includes donor-acceptor69–71 before§16. All refs keep full-page/book/image SHA.
+
+- §11:H–Ar neutral ground-state table strings/populations only. Third-period
+  3d0/outer8 is not all-state capacity;2n² remains separate. No gas-density
+  key from an unprovided state/model context or new orbital parser.
+- §12:La f-start/Ce4f2 and20/8 shell detail52 held for state/configuration
+  review. No alternate from memory. Clearly printed K/Ca/Sc/Zn/Ga/Kr/Cs retained.
+- §13:unqualified oxygen-valence1–8/outer2=metal held against previous O/F/He.
+  Sr88/As75/Ba137 are explicit integer models,not average-mass rounding. Cl38/59
+  and mass/particle fraction terminology held;no natural Cl/Ag/Ne fraction key.
+  Historical ekasilicon/germanium comparison is source-attributed. Worked/review
+  material53–62 belongs to actual§13 anchor,not another source teaching count.
+- Chapter03:63 and top64 are actual preface. Formula examples do not imply
+  isolated molecules for ionic solids or unlimited octet/stability. New strict
+  prefix context/null paragraph preserves the actual chapter title;64 requires
+  explicit pre-heading evidence. Arbitrary future chapter pages are rejected.
+- §14:exact clearly legible table65 values used without Li rescaling,unseen
+  values or invented ionic cutoff. Na/F electron examples64 are given models.
+- §15:all common-pair/nonpolar/polar/donor-acceptor topics retained. HCl partial
+  charges are not full transfer;H2/O2/N2 are the supplied Lewis models. NH4+/H3O+
+  recognition and donor identity use existing MCQ/short/numeric/formula inputs,
+  not an unrestricted ionic/geometry/structure grader.
+
+Six new scoped issues bring41 plus one scientific blocker. No silent repair,
+physical experiment or independent teacher/publication certification.

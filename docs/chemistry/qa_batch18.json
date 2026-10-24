@@ -1,0 +1,49 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 84,
+  "prior_xp": 1680,
+  "added_lessons": 5,
+  "added_questions": 61,
+  "kinds": {
+    "concept_selection": 18,
+    "short_text": 13,
+    "numeric_value": 26,
+    "chemical_formula": 4
+  },
+  "added_xp": 100,
+  "total_xp": 1780,
+  "total_completed_lessons": 89,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_catalog_unchanged": true,
+  "exported_fixtures": "sanitized public grade8 chapter-intro catalog,paragraph14 and post-answer feedback",
+  "reviewed_on": "2026-10-24",
+  "implemented_lessons": 89,
+  "remaining_lessons": 179,
+  "backend_tests": {
+    "passed": 461,
+    "skipped": 1,
+    "seconds": 507.31
+  },
+  "targeted_batch_tests": {
+    "passed": 40,
+    "seconds": 22.78
+  },
+  "flutter_tests": {
+    "passed": 498,
+    "seconds": 228
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 192.1
+  },
+  "flutter_chapter_widget_tests": {
+    "passed": 2,
+    "seconds": 6
+  },
+  "grade8_previous_ten_completed_and_next_available": true,
+  "open_source_holds": 1,
+  "open_editorial_issues": 41,
+  "production_operations": false
+}

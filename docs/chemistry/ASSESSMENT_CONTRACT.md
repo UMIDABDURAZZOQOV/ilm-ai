@@ -74,3 +74,14 @@ runs to explicit ^(...) strings;arrows render as ->. This is presentation only,
 not scientific interpretation or new accepted input. API/manifests/typed strings
 and correctness comparisons remain original. Shared source-button separator is
 optional;its default and Biology behaviour stay unchanged.
+
+
+## Exact chapter-preface context (batch18)
+
+source_context_ids may include the current chapter's actual intro anchor only
+when that chapter starts before its first teaching paragraph. Citations are
+limited to pages before that paragraph;on its first page both ref and image
+review must declare before_first_teaching_heading. Later chapter pages,other
+chapters,chapter-as-review and false paragraph numbers fail closed. Actual
+chapter title/null paragraph is public. This is evidence reuse,not a new lesson,
+new response kind or permission to cite arbitrary pages in the chapter range.

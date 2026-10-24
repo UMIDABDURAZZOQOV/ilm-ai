@@ -549,3 +549,32 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No AI,production/main/other-subject/PDF/OCR/fulltext/token/real-user operation
   or fresh teacher/native/browser/IME/TalkBack/PG/full-backend certification.
   Grade7 coverage and grade8 progress do not imply course-ready;all flags false.
+
+
+## Batch18 — 2026-10-24
+
+- Grade8 §11–15:**89/268 implemented,179 remaining**;grade7:74/74,grade8:15/59.
+  New39 cards/61 questions:18 MCQ,13 short,26 numeric,4 formula. Total580 cards/
+  895 assessments:350 MCQ,181 short,192 numeric,82 formula,90 equation.
+- Full Chemistry **461 passed,1 skipped,1 existing warning/507.31s**. Target
+  **40 passed/22.78s**. New prefix tests reject later pages,unscoped first-heading
+  page,false paragraph,other chapter and chapter-as-review. Scoped original64
+  pre-header fact reaches the public API with actual chapter identity. Critical
+  Ruff/diff clean;prior84 manifest bytes unchanged.
+- Full Flutter **498 passed/228s**;analysis **no issues/192.1s**. Two new real-
+  widget tests/6s inspect actual63/64 chapter refs in both themes,320×568/200%
+  text including navigator overlay. Localized pre-heading location is visible;
+  original screenshots inspected,scrollable content/pinned actions intact.
+  Flutter startup lock serialized analysis after test startup;both commands
+  completed successfully. No native/browser/IME/TalkBack certification claimed.
+- Actual HTTP preserved84 completions/1680XP,passed61 questions,added100XP once,
+  total89/1780XP. Grade7 catalog unchanged,replay identical,grading private.
+  Sanitized public fixtures have fake attempt ID/future expiry,no tokens/private
+  pre-answer keys. No real account or prior immutable attempt/lesson change.
+- All817 original pages decoded,five book SHA identities checked. One scientific
+  blocker plus41 editorial reviews remain. La/Ce,valence/octet,average/fraction,
+  scale and geometry scopes held;no external knowledge or silent correction.
+- Common learning/input/XP/prerequisite/replay unchanged. New chapter prefix is
+  evidence routing,not another course entry or new orbital/ionic/AI mechanism.
+  No production/main/other-subject/PDF/OCR/fulltext/token/real-user operation or
+  fresh teacher/PG/full-backend certification. All course-ready flags false.

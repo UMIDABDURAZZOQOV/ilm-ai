@@ -117,3 +117,11 @@ Fresh sandbox is required if an already imported revision is changed.
 The same private loopback8900 sandbox now contains84 immutable reviewed lessons
 and84 synthetic900003 completions/1680XP. Grade8 has10 lessons;grade7 still74.
 Older79 manifests/attempts and grade7 catalog were preserved during append QA.
+
+
+## Current continuation after batch18
+
+The same private loopback8900 sandbox now contains89 immutable reviewed lessons
+and89 synthetic900003 completions/1780XP. Grade8 has15 lessons;grade7 still74.
+Sanitized actualHTTP chapter-intro fixtures cover63 and scoped top64;source sheet
+names the chapter and heading boundary,without a false paragraph3.
