@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph29.json",
+  "lesson_sha256": "4d1bbde68eea7b1eb4bf9a4de68de8ce9c58fe4fb80c768dc13676c61b14bd92",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original84–85 reviewed,stops before paragraph30 heading. Municipal source sequence is recognition only,no home chlorination/coagulant doses or claim that improvised filtered water is potable.",
+    "WHO/current/2050 figures are identified as dated edition attribution/forecast,not independently verified current population facts and not quantitative answer keys.",
+    "Final readable-spacing review; expected keys and source links unchanged. High-resolution original86 confirms375000000km2; no invented area discrepancy."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph29-page84",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph29",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 84,
+      "pdf_page": 43,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "a16186f348cc00176dc06a1cae90b1c0f1c5a9c459e480fd2e71c9e609d8d9c2",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph29-page85",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph29",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 85,
+      "pdf_page": 43,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "a16186f348cc00176dc06a1cae90b1c0f1c5a9c459e480fd2e71c9e609d8d9c2",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

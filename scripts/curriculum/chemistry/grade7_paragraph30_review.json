@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph30.json",
+  "lesson_sha256": "258628f829e20a1bc1a5a852568b605d11a32e01b5e4c0c35a61ef99e2f4be41",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original85–88 and higher-resolution original PDF44 checked. Printed86 area is375000000km2,not37500000; no invented area conflict. Book approximation3/4 is not treated as an exact equality.",
+    "Figure35 labels g/l while prose defines g/100g solvent; no unverified plotted reading is a per100g answer. Only prose/worked numeric data are used; thresholds at exactly10/0.01 are not inferred.",
+    "Edition environmental inventories/residue values are not independently certified current measurements. All dissolving/evaporation examples are digital arithmetic,not physical procedures.",
+    "Final readable-spacing review; expected keys and source links unchanged. High-resolution original86 confirms375000000km2; no invented area discrepancy."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph30-page85",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph30",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 85,
+      "pdf_page": 43,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "a16186f348cc00176dc06a1cae90b1c0f1c5a9c459e480fd2e71c9e609d8d9c2",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph30-page86",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph30",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 86,
+      "pdf_page": 44,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "511083d1773a539c94ec7e8b8805a966483e6d9de76463ff47ef26d8fa79632e",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph30-page87",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph30",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 87,
+      "pdf_page": 44,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "511083d1773a539c94ec7e8b8805a966483e6d9de76463ff47ef26d8fa79632e",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph30-page88",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph30",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 88,
+      "pdf_page": 45,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "d0a6ef8237eb09f4c9e94b89274b138028c237471dc8a01c140e258980a3bd6e",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

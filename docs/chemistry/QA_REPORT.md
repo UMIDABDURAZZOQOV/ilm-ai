@@ -255,3 +255,35 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No fresh web build/PostgreSQL/full-backend or native suite in this batch. No
   PDF/OCR/fulltext/token upload, production DB/deploy, main merge, live AI or
   real-user/other-subject branch operation.
+
+
+## Batch08 — 2026-10-24
+
+- Five new lessons §28–32:**36/268 implemented,232 remaining**. Batch35 cards/
+  42 questions (19 MCQ,11 short,12 numeric); total246 cards/385 assessments
+  (182 MCQ,86 short,80 numeric,11 formula,26 equation). No artificial formula
+  FRQ added to non-calculation conservation/water-source topics.
+- Full Chemistry **208 passed,1 skipped,1 existing warning,263.72s**. Initial
+  targeted batch20 passed/18.30s. Skip is opt-in PostgreSQL; no fresh PG claim.
+  Critical Ruff clean. Original §1 bytes remain unchanged.
+- Full Flutter **486 passed,74s**; analysis **No issues found,117.8s**. Two
+  real-payload molarity tests at320px/200% passed; final recapture also2 passed/3s
+  after ensuring the fixed-unit helper is fully visible. Initial assertion sought
+  a standalone mol/l widget; the existing input helper includes it in a sentence,
+  so the assertion was corrected. No production widget change in this batch.
+- Actual screenshots inspected:0,4 input,visible mol/l helper and check button;
+  feedback source91→PDF46:right; prior molar-mass source34→PDF18:left. Client
+  submits the exact comma string; correctness and unit-fixed numeric rubric stay
+  on server. No general unit conversion or native/browser/IME certification.
+- Real loopback HTTP preserved31 completed lessons/620XP,appended five immutable
+  lessons and answered all42 new questions. Added100 once-onlyXP,total36/720XP;
+  completion replay identical and private grading hidden. Only synthetic900003
+  in the private8900 sandbox used; existing rows/snapshots and real users intact.
+- All817 original pages decoded and five hashes verified again. Open review still
+  one scientific blocker and nine scoped editorial issues. Source86 enlarged
+  image confirms375000000km²; provisional digit concern was not a book error.
+  Disputed ocean-volume variants are rejected as keys. Course readiness false.
+- No current drinking-water/clinical advice or home chlorination instructions.
+  Source87 plot units are not silently interchanged with per100g solvent values.
+  No fresh web build/PostgreSQL/full-backend/native suite,PDF/OCR/token upload,
+  real-user operation,production/main/other-subject branch action or AI feature.

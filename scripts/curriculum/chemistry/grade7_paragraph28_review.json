@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph28.json",
+  "lesson_sha256": "7ad003d463b377d94c61fc5f0466808b0881ee462b2ce62d5f7a9ff87f5e46cf",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original83–84 read; paragraph29 begins on84. Conflicting ocean-volume figures remain withheld under the pinned issue; no repaired exponent.",
+    "Water-distribution/use percentages are explicitly the edition data, not current demographic/industrial measurements. No clinical dehydration threshold or drinking-water instruction.",
+    "Original mass-percentage task is a hypothetical calculation from the taught65% source value, not a patient assessment.",
+    "Final readable-spacing review; expected keys and source links unchanged. High-resolution original86 confirms375000000km2; no invented area discrepancy."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph28-page83",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph28",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 83,
+      "pdf_page": 42,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "b35691f7f39ee733574c2947553327086483a9fa4d46d681fe45a068426d35f5",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph28-page84",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph28",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 84,
+      "pdf_page": 43,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "a16186f348cc00176dc06a1cae90b1c0f1c5a9c459e480fd2e71c9e609d8d9c2",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph27-page81",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph27",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 81,
+      "pdf_page": 41,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "e7427cb8078642072996a8aba65e5875ba4764be88222ac21ccac8e8ab1dea84",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

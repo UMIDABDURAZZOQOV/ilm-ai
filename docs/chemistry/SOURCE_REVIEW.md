@@ -276,3 +276,34 @@ facts/options/keys unchanged and SHA evidence renewed before final fresh QA.
 Open review: one blocking scientific hold plus nine scoped editorial issues.
 Five chapter-review anchors integrated; source mapping is not independent
 teacher certification or complete interactive-course readiness.
+
+
+## Batch08 image review — 2026-10-24
+
+Original printed83–92/PDF42–47 read. §28 ends before §29 on84; §29 before§30
+on85; §30 before§31 on88; §31 before§32 on90; practical5 starts on93,which is
+not cited as §32 content. Prior§10/34 table was visually reread:NaOH40g/mol is
+the explicit molar-mass datum used by the new CM example. No invented NaCl mass.
+
+- Held ocean volumes on83 remain withheld; canonical numeric variants cannot
+  enter verified answers. Source distribution/physical-role facts are separate.
+- Higher-resolution PDF44 image confirms the86 numeral **375000000km²**,not
+  37500000. The provisional digit concern was resolved from the original; no
+  erroneous source hold or replacement numeral was introduced. The earlier3/4
+  statement is approximate,not an exact equality with the area pair.
+- Source87 prose uses g/100g solvent; figure35 says g/l. Only prose/worked
+  numeric givens are graded. No curve value was guessed from pixels or treated
+  as a directly interchangeable unit. Boundary equality at10/0.01 is not inferred.
+- Original solubility examples preserve denominator:250g solution−60g salt=
+  190g solvent;60/190×100≈31.6g/100g water,one decimal. BaCl2 ratio uses the
+  printed40°C/50g-per100g-water datum in a digital75g/150g variant only.
+- Mass fraction denominator is whole solution; concentration volume is whole
+  solution. CM=n/V(l)=m(g)×1000/[M(g/mol)×V(ml)]. Given density models are
+  hypothetical arithmetic conditions,not fabricated measured solution densities.
+- Municipal coagulation/filter/chlorination is recognition only. No doses,
+  domestic procedure,potable-water certification,clinical dehydration threshold
+  or medicinal/mineral-water cure instruction. Dated statistics/forecasts are
+  edition attributions,not independently verified current facts or answer keys.
+
+Open review remains one scientific blocker plus nine scoped editorial issues.
+All source-only,immutable-import and no-production rules remain in force.

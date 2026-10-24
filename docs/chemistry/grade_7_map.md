@@ -51,11 +51,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-5` | review  | III bob yuzasidan test topshiriqlari | 78–80 | 40:left – 41:left | 78 | integrated source activity in chemistry-7-p26-r1 | — |
 | `ch7-chapter04` | chapter 4 | Suv va eritmalar | 80–99 | 41:left – 50:right | 80 | not_authored | — |
 | `ch7-paragraph27` | paragraph 27 | Suv – murakkab modda. Fizik va kimyoviy xossalari | 80–83 | 41:left – 42:right | 80 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph26 |
-| `ch7-paragraph28` | paragraph 28 | Suvning tabiatda tarqalishi. Uning tirik organizmlar uchun ahamiyati, ishlatilishi | 83–84 | 42:right – 43:left | 83 | not_authored; scoped editorial review remains open | ch7-paragraph27 |
-| `ch7-paragraph29` | paragraph 29 | Suv havzalarini ifloslanishdan saqlash choralari. Suvni tozalash usullari | 84–85 | 43:left – 43:right | 84 | not_authored | ch7-paragraph28 |
-| `ch7-paragraph30` | paragraph 30 | Suv – eng yaxshi erituvchi. Eruvchanlik | 85–88 | 43:right – 45:left | 85 | not_authored | ch7-paragraph29 |
-| `ch7-paragraph31` | paragraph 31 | Eritmalar | 88–90 | 45:left – 46:left | 88 | not_authored | ch7-paragraph30 |
-| `ch7-paragraph32` | paragraph 32 | Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi | 90–93 | 46:left – 47:right | 90 | not_authored | ch7-paragraph31 |
+| `ch7-paragraph28` | paragraph 28 | Suvning tabiatda tarqalishi. Uning tirik organizmlar uchun ahamiyati, ishlatilishi | 83–84 | 42:right – 43:left | 83 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph27 |
+| `ch7-paragraph29` | paragraph 29 | Suv havzalarini ifloslanishdan saqlash choralari. Suvni tozalash usullari | 84–85 | 43:left – 43:right | 84 | reviewed local lesson | ch7-paragraph28 |
+| `ch7-paragraph30` | paragraph 30 | Suv – eng yaxshi erituvchi. Eruvchanlik | 85–88 | 43:right – 45:left | 85 | reviewed local lesson | ch7-paragraph29 |
+| `ch7-paragraph31` | paragraph 31 | Eritmalar | 88–90 | 45:left – 46:left | 88 | reviewed local lesson | ch7-paragraph30 |
+| `ch7-paragraph32` | paragraph 32 | Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi | 90–93 | 46:left – 47:right | 90 | reviewed local lesson | ch7-paragraph31 |
 | `ch7-solutions` | subtopic  | Eritmalarning inson hayotidagi ahamiyati | 91–93 | 46:right – 47:right | 91 | not_authored | — |
 | `ch7-practical05` | practical 5 | Erigan moddaning konsentratsiyasi ma’lum bo‘lgan eritmalarini tayyorlash | 93–95 | 47:right – 48:right | 93 | not_authored | ch7-paragraph32 |
 | `ch7-soil` | subactivity  | Tuproqning suvli eritmasini tayyorlash va unda ishqor borligini aniqlash | 94–95 | 48:left – 48:right | 94 | not_authored | — |

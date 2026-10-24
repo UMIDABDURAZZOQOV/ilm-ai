@@ -4,19 +4,19 @@
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7 | 6 | 51 | 16 | 7 | 74 | 31 | 43 |
+| 7 | 6 | 51 | 16 | 7 | 74 | 36 | 38 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 0 | 59 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 31 | 237 |
+| Total | 29 | 204 | 49 | 15 | 268 | 36 | 232 |
 
 All five maps exist; all course-ready flags remain false. The327 catalogue
 records include containers,prefaces,reviews and child anchors. Only reviewed,
 explicitly indexed teaching entries count toward268. Open source issues also
 prevent readiness even if every topic eventually has a lesson file.
 
-Total: 211 cards; 343 assessments: 163 concept_selection, 75 short_text, 68 numeric_value, 11 chemical_formula, 26 chemical_equation.
+Total: 246 cards; 385 assessments: 182 concept_selection, 86 short_text, 80 numeric_value, 11 chemical_formula, 26 chemical_equation.
 
 ## Initial §1
 
@@ -46,23 +46,25 @@ Total: 211 cards; 343 assessments: 163 concept_selection, 75 short_text, 68 nume
 
 5 lessons; 40 cards; 17 concept_selection, 8 short_text, 4 chemical_formula, 12 chemical_equation, 14 numeric_value.
 
+## Batch08: §28–32
+
+5 lessons; 35 cards; 19 concept_selection, 11 short_text, 12 numeric_value.
+
 ## Current continuation
 
-Completed grade7 through **§27**, including practical1–4 and chapterI/II/III
-review anchors without double-counting. Next: **§28**, printed83–84, then §29–32
-in book order. Grade7 has43 teaching entries remaining; whole project237.
+Completed grade7 through **§32**,including practical1–4 and five chapterI/II/III
+review anchors. Next:**practical5**,printed93–95,then chapterIV reviews95–99,
+§33–36 in book order. Grade7 has38 teaching entries remaining; whole project232.
 
-Supported input: MCQ,bounded short text,fixed-unit numeric,reviewed plain
-formulas and finite equations. Hydrate/association/isotope notation is taught
-through recognition where the plain parser does not support it.
+Molarity uses whole solution volume:CM=n/V with litres,or CM=m×1000/(M×V)
+with g,g/mol and ml. Mass fraction uses whole solution mass; solubility uses
+solvent mass. Numeric tasks fix the unit; no arbitrary-unit engine is claimed.
 
-One scientific hold and nine scoped editorial issues remain open, including
-the future §28 ocean-volume discrepancy. These are not silently corrected or
-used as approved keys. See SOURCE_REVIEW.md. No whole course is ready.
+One scientific hold and nine scoped editorial issues remain open. Disputed
+ocean volumes cannot become numeric answer keys. The higher-resolution86 image
+confirmed375000000km²; the provisional digit concern was not a source error.
+No whole course is ready. See SOURCE_REVIEW.md and CHECKPOINT.md.
 
-Original §1 and imported attempts remain unchanged. A fresh final synthetic
-sandbox handles the one plain-language water prompt polish without overwriting
-old immutable snapshots. No production,main,real-user or other-subject action.
-
-Exact commits/tests: CHECKPOINT.md. Official programme comparison remains
-separate in CURRICULUM_ALIGNMENT_2026.md.
+Original §1,earlier imported lessons/attempts and real users are unchanged.
+Only separate Chemistry branches; no production,main,other-subject or AI action.
+2026 programme comparison is separate in CURRICULUM_ALIGNMENT_2026.md.

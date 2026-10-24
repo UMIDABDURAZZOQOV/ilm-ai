@@ -1,0 +1,42 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 31,
+  "prior_xp": 620,
+  "added_lessons": 5,
+  "added_questions": 42,
+  "kinds": {
+    "concept_selection": 19,
+    "short_text": 11,
+    "numeric_value": 12
+  },
+  "added_xp": 100,
+  "total_xp": 720,
+  "total_completed_lessons": 36,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "reviewed_on": "2026-10-24",
+  "implemented_lessons": 36,
+  "remaining_lessons": 232,
+  "backend_tests": {
+    "passed": 208,
+    "skipped": 1,
+    "seconds": 263.72
+  },
+  "targeted_batch_tests": {
+    "passed": 20,
+    "seconds": 18.3
+  },
+  "flutter_tests": {
+    "passed": 486,
+    "seconds": 74
+  },
+  "flutter_analysis": "no issues",
+  "final_molar_widget_tests": {
+    "passed": 2,
+    "seconds": 3
+  },
+  "open_source_holds": 1,
+  "open_editorial_issues": 9,
+  "production_operations": false
+}

@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-31 reviewed lessons through grade7 §27, including practical1–4;237 remain. All
+36 reviewed lessons through grade7 §32, including practical1–4;232 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next paragraph is grade7 §28, printed83–84, then §29–32 in book order.
-Five chapter-review anchors are integrated with actual source identities; do not
-double-count or mislabel them.
+Next teaching entry is grade7 practical5,printed93–95,then chapterIV reviews
+95–99 and §33–36. Five earlier chapter-review anchors are integrated with actual
+source identities; do not double-count or mislabel them.
 
 ## Review and development notes
 
@@ -107,3 +107,16 @@ Water fixtures are actual sanitized API payloads. At320px/200% text both theory
 and hydrate MCQ feedback expose the correct printed/PDF side. Hydrate input is
 recognition, not a newly claimed parser feature. One water prompt was shortened
 without changing science/key and uses a fresh synthetic final sandbox.
+
+
+## Batch08 units and source review
+
+Massa ulushi uses whole solution mass; eruvchanlik uses solvent mass. CM=n/V
+requires litre solution volume; mass-based CM=m×1000/(M×V) requires V in ml,
+m in g and M in g/mol. NaOH40g/mol is explicitly prior§10/34 context,not a
+fabricated constant. Only digital calculations,not physical solution preparation.
+Source85 municipal sequence is recognition,not home disinfection or a potable
+water assurance. Dated WHO/2050 statements are not approved current statistics.
+Source86 high-resolution review confirmed375000000km²; no false discrepancy
+was added. Source87 graph g/l axis is not silently read as g/100g solvent.
+Existing nine scoped issues remain open; ocean-volume keys are now guarded.

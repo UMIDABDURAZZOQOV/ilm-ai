@@ -280,6 +280,15 @@ def validate_lesson(catalog, lesson, review):
         if any(r['topic_id'] == 'ch7-4' for r in f['source_refs']):
             require(not any(a in {'S8', 'S₈', '0.89', '0,89'} for a in f['verified_answers']),
                     'unresolved_gas_phase_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-paragraph28' for r in f['source_refs']):
+            from services.chemistry_grading import canonical_number
+            for answer in f['verified_answers']:
+                try:
+                    value = canonical_number(answer)
+                except ValueError:
+                    continue
+                require(value not in {'1350000', '1400000000'},
+                        'unresolved_ocean_volume_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

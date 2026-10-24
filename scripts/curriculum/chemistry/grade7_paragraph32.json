@@ -1,0 +1,2543 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 36,
+  "key": "chemistry-7-p32-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph32",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph31"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph32",
+      "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+      "paragraph": 32,
+      "printed_pages": [
+        90
+      ],
+      "pdf_pages": [
+        46
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph32-page90"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph32",
+      "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+      "paragraph": 32,
+      "printed_pages": [
+        91
+      ],
+      "pdf_pages": [
+        46
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph32-page91"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph32",
+      "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+      "paragraph": 32,
+      "printed_pages": [
+        92
+      ],
+      "pdf_pages": [
+        47
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph32-page92"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph10",
+      "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+      "paragraph": 10,
+      "printed_pages": [
+        34
+      ],
+      "pdf_pages": [
+        18
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph10-page34"
+    }
+  ],
+  "facts": {
+    "types": {
+      "claim": "To‘yinmagan eritmada shu haroratdagi to‘yingan eritmaga nisbatan kamroq erigan modda bor. Erigan modda miqdori juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deb ta’riflangan.",
+      "verified_answers": [
+        "To‘yinmagan",
+        "Suyultirilgan",
+        "Konsentrlangan"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        }
+      ]
+    },
+    "fraction": {
+      "claim": "Massa ulushi w=m1/m2:erigan modda massasi butun eritma massasiga bo‘linadi. Original 20 g modda va80 g erituvchidan 100 g eritma:w=20/100=0,2.",
+      "verified_answers": [
+        "0.2",
+        "100",
+        "Massa ulushi"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        }
+      ]
+    },
+    "percent": {
+      "claim": "Foiz konsentratsiya C%=w×100=m1/m2×100. Eritma massasi erigan modda va erituvchi massalari yig‘indisidir. Original 20+80=100 g modelda C=20%; 200 g shunday eritmada 40 g modda bo‘ladi.",
+      "verified_answers": [
+        "20",
+        "40",
+        "Foiz konsentratsiya"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    "density": {
+      "claim": "Eritma uchun m=V×rho, V=m/rho, rho=m/V. OriginalV=80 ml, rho=1,25 g/ml bo‘lsa m=100 g; 20 g erigan moddali shu modelda C=20%. Zichlik shu misolda berilgan shart, muayyan eritma uchun o‘lchov da’vosi emas.",
+      "verified_answers": [
+        "100",
+        "20"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    "molar": {
+      "claim": "Molar konsentratsiya erigan modda miqdorining butun eritma hajmiga nisbati:CM=n/V, V litrda, CM mol/l da. 0,2 mol modda 0,5 l eritmada bo‘lsa CM=0,4 mol/l. 1 l eritmada 1 mol bo‘lsa 1 M deb ataladi.",
+      "verified_answers": [
+        "0.4",
+        "1",
+        "Molar konsentratsiya"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    "mass": {
+      "claim": "Oldingi jadvalda NaOH molyar massasi 40 g/mol. 8 g uchun n=m/M=8/40=0,2 mol; 500 ml=0,5 l eritmada CM=0,2/0,5=0,4 mol/l. Bu faqat berilgan sonli model.",
+      "verified_answers": [
+        "0.2",
+        "0.4",
+        "40"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    "ml": {
+      "claim": "Massa bilan molar konsentratsiya CM=m×1000/(M×V) ko‘rinishida: m g, M g/mol, V ml. Original 8 g, M40 g/mol, V500 ml uchun 8×1000/(40×500)=0,4 mol/l.",
+      "verified_answers": [
+        "0.4",
+        "1000"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    "life": {
+      "claim": "Manba suvli eritmalarni organizmda erituvchi, oziq modda tashuvchi va jarayonlar muhiti sifatida tavsiflaydi. O‘simlikka erigan modda yetkazish, sanoatda teri/gazlama/sovun, batareya elektrolitlari, bo‘yoq/lak va erituvchi sohalari sanalgan.",
+      "verified_answers": [
+        "Erituvchi",
+        "Muhit"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            92
+          ],
+          "pdf_pages": [
+            47
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page92"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Suyultirilgan va to‘yinmagan",
+        "body": "To‘yinmagan eritmada ayni haroratdagi to‘yingan holatdan kamroq erigan modda bor. Erigan modda juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deyiladi. To‘yinish va miqdor tavsiflarini alohida o‘qing.",
+        "fact_ids": [
+          "types"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              90
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page90"
+          }
+        ]
+      },
+      {
+        "title": "Massa ulushining maxraji",
+        "body": "w=m(erigan modda)/m(eritma).20 g modda+80 g erituvchi=100 g eritma. Shu sababw=20/100=0,2. Maxrajga faqat 80 g erituvchini qo‘yish bu massa ulushi ta’rifiga mos kelmaydi.",
+        "fact_ids": [
+          "fraction"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              90
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page90"
+          }
+        ]
+      },
+      {
+        "title": "Ulushdan foizga",
+        "body": "C%=w×100. 0,2 ulush —20%. Shunday tarkibli 200 g eritmada erigan modda 200×0,2=40 g. Foizni sonli ulushga qaytarishda 100 ga bo‘lamiz.",
+        "fact_ids": [
+          "percent"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              90
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page90"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          }
+        ]
+      },
+      {
+        "title": "Zichlik bilan eritma massasiga",
+        "body": "m=V×rho. Original 80 ml va1,25 g/ml bilan m=100 g. Shu berilgan modelda 20 g modda bo‘lsa C=20/100×100=20%. Hajmni eritma massasiga aylantirish uchun zichlik ham kerak.",
+        "fact_ids": [
+          "density"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          }
+        ]
+      },
+      {
+        "title": "Molar konsentratsiya",
+        "body": "CM=n/V. V — butun eritmaning litrda hajmi, n — erigan moddaning mol miqdori. 0,2 mol va0,5 l uchun CM=0,4 mol/l. 1 l da1 mol erigan modda bo‘lsa 1 M deyiladi.",
+        "fact_ids": [
+          "molar"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          }
+        ]
+      },
+      {
+        "title": "Massadan molga oldingi qoida",
+        "body": "§10 jadvalidagi M(NaOH)=40 g/mol. Original 8 g uchun n=8/40=0,2 mol. Butun eritma hajmi 500 ml=0,5 l bo‘lganda CM=0,4 mol/l. Bu ramziy hisob, modda bilan ishlash vazifasi emas.",
+        "fact_ids": [
+          "mass",
+          "molar"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          }
+        ]
+      },
+      {
+        "title": "Millilitrli formula",
+        "body": "CM=m×1000/(M×V). Bu ko‘rinishda m g, M g/mol, V ml. 8×1000/(40×500)=0,4 mol/l. Agar V ni litrda qo‘ysangiz, 1000 ko‘paytuvchini qo‘shmay, n/V ni ishlating.",
+        "fact_ids": [
+          "ml"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      },
+      {
+        "title": "Eritmalarning vazifalari",
+        "body": "Suvli eritmalar organizmda modda tashish va jarayonlar muhiti sifatida berilgan. Sanoat misollari:teri/gazlama, sovun, batareya elektrolitlari, bo‘yoq va laklar. Bu kimyoviy vazifalarni tanish darsi.",
+        "fact_ids": [
+          "life"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              92
+            ],
+            "pdf_pages": [
+              47
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page92"
+          }
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "title": "Massa va foiz",
+        "body": "w=m1/m2; C%=w×100; m2=m1+m(erituvchi).",
+        "fact_ids": [
+          "fraction",
+          "percent"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              90
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page90"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          }
+        ]
+      },
+      {
+        "title": "Hajm va mol",
+        "body": "m=V×rho; CM=n/V(l)=m(g)×1000/[M(g/mol)×V(ml)].",
+        "fact_ids": [
+          "density",
+          "molar",
+          "ml"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "title": "Original ulush",
+        "body": "20/(20+80)=0,2; 0,2×100=20%.",
+        "fact_ids": [
+          "fraction",
+          "percent"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              90
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page90"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          }
+        ]
+      },
+      {
+        "title": "Original molar model",
+        "body": "8/40=0,2 mol; 0,2/0,5=0,4 mol/l.",
+        "fact_ids": [
+          "mass"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph32",
+            "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+            "paragraph": 32,
+            "printed_pages": [
+              91
+            ],
+            "pdf_pages": [
+              46
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph32-page91"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph32",
+        "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+        "paragraph": 32,
+        "printed_pages": [
+          90
+        ],
+        "pdf_pages": [
+          46
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph32-page90"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph32",
+        "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+        "paragraph": 32,
+        "printed_pages": [
+          91
+        ],
+        "pdf_pages": [
+          46
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph32-page91"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph32",
+        "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+        "paragraph": 32,
+        "printed_pages": [
+          92
+        ],
+        "pdf_pages": [
+          47
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph32-page92"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph10",
+        "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+        "paragraph": 10,
+        "printed_pages": [
+          34
+        ],
+        "pdf_pages": [
+          18
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph10-page34"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p32-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Erigan modda juda oz bo‘lgan eritma qanday ataladi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Har doim to‘yingan"
+          },
+          {
+            "id": "b",
+            "label": "Faqat qattiq"
+          },
+          {
+            "id": "c",
+            "label": "Faqat birikma"
+          },
+          {
+            "id": "d",
+            "label": "Suyultirilgan"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Suyultirilgan",
+        "feedback": {
+          "correct": "To‘g‘ri. To‘yinmagan eritmada shu haroratdagi to‘yingan eritmaga nisbatan kamroq erigan modda bor. Erigan modda miqdori juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deb ta’riflangan.",
+          "incorrect": "Hozircha noto‘g‘ri. To‘yinmagan eritmada shu haroratdagi to‘yingan eritmaga nisbatan kamroq erigan modda bor. Erigan modda miqdori juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deb ta’riflangan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "To‘yinmagan eritmada shu haroratdagi to‘yingan eritmaga nisbatan kamroq erigan modda bor. Erigan modda miqdori juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deb ta’riflangan.",
+            "fact_ids": [
+              "types"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  90
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page90"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "types"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Erigan modda massasining butun eritma massasiga nisbati nima?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Massa ulushi"
+          },
+          {
+            "id": "b",
+            "label": "Faqat hajm"
+          },
+          {
+            "id": "c",
+            "label": "Faqat zichlik"
+          },
+          {
+            "id": "d",
+            "label": "Faqat bosim"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Massa ulushi",
+        "feedback": {
+          "correct": "To‘g‘ri. Massa ulushi w=m1/m2:erigan modda massasi butun eritma massasiga bo‘linadi. Original 20 g modda va80 g erituvchidan 100 g eritma:w=20/100=0,2.",
+          "incorrect": "Hozircha noto‘g‘ri. Massa ulushi w=m1/m2:erigan modda massasi butun eritma massasiga bo‘linadi. Original 20 g modda va80 g erituvchidan 100 g eritma:w=20/100=0,2.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Massa ulushi w=m1/m2:erigan modda massasi butun eritma massasiga bo‘linadi. Original 20 g modda va80 g erituvchidan 100 g eritma:w=20/100=0,2.",
+            "fact_ids": [
+              "fraction"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  90
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page90"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "fraction"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Molning butun eritma litriga nisbati qaysi kattalik?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat massa ulushi"
+          },
+          {
+            "id": "b",
+            "label": "Faqat erituvchi massasi"
+          },
+          {
+            "id": "c",
+            "label": "Molar konsentratsiya"
+          },
+          {
+            "id": "d",
+            "label": "Faqat foiz"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Molar konsentratsiya",
+        "feedback": {
+          "correct": "To‘g‘ri. Molar konsentratsiya erigan modda miqdorining butun eritma hajmiga nisbati:CM=n/V, V litrda, CM mol/l da. 0,2 mol modda 0,5 l eritmada bo‘lsa CM=0,4 mol/l. 1 l eritmada 1 mol bo‘lsa 1 M deb ataladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Molar konsentratsiya erigan modda miqdorining butun eritma hajmiga nisbati:CM=n/V, V litrda, CM mol/l da. 0,2 mol modda 0,5 l eritmada bo‘lsa CM=0,4 mol/l. 1 l eritmada 1 mol bo‘lsa 1 M deb ataladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Molar konsentratsiya erigan modda miqdorining butun eritma hajmiga nisbati:CM=n/V, V litrda, CM mol/l da. 0,2 mol modda 0,5 l eritmada bo‘lsa CM=0,4 mol/l. 1 l eritmada 1 mol bo‘lsa 1 M deb ataladi.",
+            "fact_ids": [
+              "molar"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  91
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page91"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "molar"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "To‘yingan holatdagidan kamroq modda tutuvchi eritma uchun atama?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "To‘yinmagan",
+        "feedback": {
+          "correct": "To‘g‘ri. To‘yinmagan eritmada shu haroratdagi to‘yingan eritmaga nisbatan kamroq erigan modda bor. Erigan modda miqdori juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deb ta’riflangan.",
+          "incorrect": "Hozircha noto‘g‘ri. To‘yinmagan eritmada shu haroratdagi to‘yingan eritmaga nisbatan kamroq erigan modda bor. Erigan modda miqdori juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deb ta’riflangan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "To‘yinmagan eritmada shu haroratdagi to‘yingan eritmaga nisbatan kamroq erigan modda bor. Erigan modda miqdori juda oz bo‘lsa suyultirilgan, yuqoriroq bo‘lsa konsentrlangan deb ta’riflangan.",
+            "fact_ids": [
+              "types"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  90
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page90"
+              }
+            ]
+          }
+        ],
+        "expected": "To‘yinmagan",
+        "aliases": [
+          "To‘yinmagan",
+          "toyinmagan"
+        ]
+      },
+      "fact_ids": [
+        "types"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q05",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "20 g modda va80 g erituvchi modelida massa ulushi qancha? Sonli ulush yozing.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "ulush"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.2",
+        "feedback": {
+          "correct": "To‘g‘ri. Massa ulushi w=m1/m2:erigan modda massasi butun eritma massasiga bo‘linadi. Original 20 g modda va80 g erituvchidan 100 g eritma:w=20/100=0,2.",
+          "incorrect": "Hozircha noto‘g‘ri. Massa ulushi w=m1/m2:erigan modda massasi butun eritma massasiga bo‘linadi. Original 20 g modda va80 g erituvchidan 100 g eritma:w=20/100=0,2.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Massa ulushi w=m1/m2:erigan modda massasi butun eritma massasiga bo‘linadi. Original 20 g modda va80 g erituvchidan 100 g eritma:w=20/100=0,2.",
+            "fact_ids": [
+              "fraction"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  90
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page90"
+              }
+            ]
+          }
+        ],
+        "expected": "0.2",
+        "unit": "ulush"
+      },
+      "fact_ids": [
+        "fraction"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q06",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Shu 20 g modda/100 g eritma modelidagi foiz qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "%"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "20",
+        "feedback": {
+          "correct": "To‘g‘ri. Foiz konsentratsiya C%=w×100=m1/m2×100. Eritma massasi erigan modda va erituvchi massalari yig‘indisidir. Original 20+80=100 g modelda C=20%; 200 g shunday eritmada 40 g modda bo‘ladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Foiz konsentratsiya C%=w×100=m1/m2×100. Eritma massasi erigan modda va erituvchi massalari yig‘indisidir. Original 20+80=100 g modelda C=20%; 200 g shunday eritmada 40 g modda bo‘ladi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Foiz konsentratsiya C%=w×100=m1/m2×100. Eritma massasi erigan modda va erituvchi massalari yig‘indisidir. Original 20+80=100 g modelda C=20%; 200 g shunday eritmada 40 g modda bo‘ladi.",
+            "fact_ids": [
+              "percent"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  90
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page90"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  91
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page91"
+              }
+            ]
+          }
+        ],
+        "expected": "20",
+        "unit": "%"
+      },
+      "fact_ids": [
+        "percent"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q07",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "w=0,2 bo‘lgan 200 g eritmadagi erigan modda massasini toping.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "g"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "40",
+        "feedback": {
+          "correct": "To‘g‘ri. Foiz konsentratsiya C%=w×100=m1/m2×100. Eritma massasi erigan modda va erituvchi massalari yig‘indisidir. Original 20+80=100 g modelda C=20%; 200 g shunday eritmada 40 g modda bo‘ladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Foiz konsentratsiya C%=w×100=m1/m2×100. Eritma massasi erigan modda va erituvchi massalari yig‘indisidir. Original 20+80=100 g modelda C=20%; 200 g shunday eritmada 40 g modda bo‘ladi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Foiz konsentratsiya C%=w×100=m1/m2×100. Eritma massasi erigan modda va erituvchi massalari yig‘indisidir. Original 20+80=100 g modelda C=20%; 200 g shunday eritmada 40 g modda bo‘ladi.",
+            "fact_ids": [
+              "percent"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  90
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page90"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  91
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page91"
+              }
+            ]
+          }
+        ],
+        "expected": "40",
+        "unit": "g"
+      },
+      "fact_ids": [
+        "percent"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            90
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page90"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q08",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "80 ml eritma zichligi berilgan 1,25 g/ml bo‘lsa, massasi qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "g"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "100",
+        "feedback": {
+          "correct": "To‘g‘ri. Eritma uchun m=V×rho, V=m/rho, rho=m/V. OriginalV=80 ml, rho=1,25 g/ml bo‘lsa m=100 g; 20 g erigan moddali shu modelda C=20%. Zichlik shu misolda berilgan shart, muayyan eritma uchun o‘lchov da’vosi emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Eritma uchun m=V×rho, V=m/rho, rho=m/V. OriginalV=80 ml, rho=1,25 g/ml bo‘lsa m=100 g; 20 g erigan moddali shu modelda C=20%. Zichlik shu misolda berilgan shart, muayyan eritma uchun o‘lchov da’vosi emas.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Eritma uchun m=V×rho, V=m/rho, rho=m/V. OriginalV=80 ml, rho=1,25 g/ml bo‘lsa m=100 g; 20 g erigan moddali shu modelda C=20%. Zichlik shu misolda berilgan shart, muayyan eritma uchun o‘lchov da’vosi emas.",
+            "fact_ids": [
+              "density"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  91
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page91"
+              }
+            ]
+          }
+        ],
+        "expected": "100",
+        "unit": "g"
+      },
+      "fact_ids": [
+        "density"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q09",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "0,2 mol modda 0,5 l butun eritmada bo‘lsa, CM qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "mol/l"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.4",
+        "feedback": {
+          "correct": "To‘g‘ri. Molar konsentratsiya erigan modda miqdorining butun eritma hajmiga nisbati:CM=n/V, V litrda, CM mol/l da. 0,2 mol modda 0,5 l eritmada bo‘lsa CM=0,4 mol/l. 1 l eritmada 1 mol bo‘lsa 1 M deb ataladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Molar konsentratsiya erigan modda miqdorining butun eritma hajmiga nisbati:CM=n/V, V litrda, CM mol/l da. 0,2 mol modda 0,5 l eritmada bo‘lsa CM=0,4 mol/l. 1 l eritmada 1 mol bo‘lsa 1 M deb ataladi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Molar konsentratsiya erigan modda miqdorining butun eritma hajmiga nisbati:CM=n/V, V litrda, CM mol/l da. 0,2 mol modda 0,5 l eritmada bo‘lsa CM=0,4 mol/l. 1 l eritmada 1 mol bo‘lsa 1 M deb ataladi.",
+            "fact_ids": [
+              "molar"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  91
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page91"
+              }
+            ]
+          }
+        ],
+        "expected": "0.4",
+        "unit": "mol/l"
+      },
+      "fact_ids": [
+        "molar"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q10",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "M=40 g/mol bo‘lganda 8 g NaOH miqdori qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "mol"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi jadvalda NaOH molyar massasi 40 g/mol. 8 g uchun n=m/M=8/40=0,2 mol; 500 ml=0,5 l eritmada CM=0,2/0,5=0,4 mol/l. Bu faqat berilgan sonli model.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi jadvalda NaOH molyar massasi 40 g/mol. 8 g uchun n=m/M=8/40=0,2 mol; 500 ml=0,5 l eritmada CM=0,2/0,5=0,4 mol/l. Bu faqat berilgan sonli model.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi jadvalda NaOH molyar massasi 40 g/mol. 8 g uchun n=m/M=8/40=0,2 mol; 500 ml=0,5 l eritmada CM=0,2/0,5=0,4 mol/l. Bu faqat berilgan sonli model.",
+            "fact_ids": [
+              "mass"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  91
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page91"
+              }
+            ]
+          }
+        ],
+        "expected": "0.2",
+        "unit": "mol"
+      },
+      "fact_ids": [
+        "mass"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p32-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "8 g, M=40 g/mol, V=500 ml bilan CM=m×1000/(M×V) ni hisoblang.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "mol/l"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.4",
+        "feedback": {
+          "correct": "To‘g‘ri. Massa bilan molar konsentratsiya CM=m×1000/(M×V) ko‘rinishida: m g, M g/mol, V ml. Original 8 g, M40 g/mol, V500 ml uchun 8×1000/(40×500)=0,4 mol/l.",
+          "incorrect": "Hozircha noto‘g‘ri. Massa bilan molar konsentratsiya CM=m×1000/(M×V) ko‘rinishida: m g, M g/mol, V ml. Original 8 g, M40 g/mol, V500 ml uchun 8×1000/(40×500)=0,4 mol/l.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Massa bilan molar konsentratsiya CM=m×1000/(M×V) ko‘rinishida: m g, M g/mol, V ml. Original 8 g, M40 g/mol, V500 ml uchun 8×1000/(40×500)=0,4 mol/l.",
+            "fact_ids": [
+              "ml"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph32",
+                "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+                "paragraph": 32,
+                "printed_pages": [
+                  91
+                ],
+                "pdf_pages": [
+                  46
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph32-page91"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "0.4",
+        "unit": "mol/l"
+      },
+      "fact_ids": [
+        "ml"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph32",
+          "topic_title": "Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi",
+          "paragraph": 32,
+          "printed_pages": [
+            91
+          ],
+          "pdf_pages": [
+            46
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph32-page91"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph10"
+  ]
+}
