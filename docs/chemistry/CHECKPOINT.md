@@ -1,52 +1,55 @@
 # Chemistry continuation checkpoint
 
-2026-10-24, batch06. Continue automatically; no routine approval needed.
+2026-10-24,batch07. Continue automatically; no routine approval needed.
 
-- Backend implementation: `3e3fcb9f9da037aea514472a6ac5a60b7af91227`.
-- Flutter implementation: `8459d3ae370f39489eee42cf53a573633742c79d` (no batch06
-  Dart change). Both branches `feat/chemistry-curriculum`.
-- Completed grade7 through **§22 Vodorod**, practical1–4, chapterI/II reviews:
-  **26/268 implemented,242 remaining**. Grade7:26/74,48 remaining. Others:0.
-- Total171 cards/288 assessments:146 MCQ,67 short,54 numeric,7 formula,14 equation.
-  Batch06:38 cards/52 questions. Reviews are not extra teaching entries.
-- Full Chemistry168 passed,1 skipped (opt-in PostgreSQL),1 existing warning,
-  370.05s. Full Flutter482 passed/146s. Critical Ruff clean. Latest Flutter
-  analysis belongs to batch05:clean/130.9s, no new Dart changes afterward.
-- Real HTTP preserved previous21 lessons/420XP, appended5 lessons/52 questions,
-  awarded100XP once:26 completions/520XP, identical completion replay and hidden
-  private grading. Private synthetic900003 sandbox:
-  `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch05-final-qa`, loopback8899.
-  Original manifests/imports/snapshots and real users unchanged. §1 bytes preserved.
-- Five source SHA identities verified;817 pages decoded again. One scientific
-  hold (grade9 §40/186) and four scoped editorial issues (grade7 §13 percentages,
-  §18 ozone context, §19 silane equation, §20 photosynthesis routing) remain open.
-  Held data are withheld, not replaced from memory; all course-ready flags false.
-- Source context retains exact earlier topic identities. Three review anchors
-  integrated in total, source buttons label paragraph/review/practical correctly.
-- No production/main/other-subject/data/AI operation. No new native/browser/web
-  build/PostgreSQL/IME/TalkBack/independent teacher certification this batch.
+- Backend implementation: `77b052322b9fca2a818f119e723cf3f1f2a56387`.
+- Flutter implementation: `972f2dee9ceb6ca8967bc4c9d5bf235e0c39f4c2`.
+- Both separate branches `feat/chemistry-curriculum`; other subjects untouched.
+- Completed grade7 through **§27**,practical1–4,chapterI/II/III reviews:
+  **31/268 implemented,237 remaining**. Grade7:31/74,43 remaining; others:0.
+- Total211 cards/343 assessments:163 MCQ,75 short,68 numeric,11 formula,26 equation.
+  Batch07:40 cards/55 questions. Five review anchors integrated,not extra lessons.
+- Full Chemistry188 passed,1 skipped (opt-in PostgreSQL),1 existing warning,
+  464.06s. After a prompt-only edit,targeted20 passed/28.91s; keys unchanged.
+- Final full Flutter484 passed/104s,analysis clean/118.7s. Two final water tests
+  passed at320px/200%;actual widget captures inspected. Shared optional feedback
+  source slot shows Chemistry exact references; other callers unchanged.
+- Fresh final staging/real HTTP completed all31 lessons/343 questions/620 once-only
+  XP,replay identical,private grading hidden. Synthetic900003 only. Earlier
+  continuity run preserved26 lessons/520XP then added5/100XP. Old snapshots intact.
+- Current private sandbox: `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,
+  loopback8900. Defines/token stay private. Prior8899 sandbox has an older water
+  prompt; importer correctly refuses overwriting that row. Do not resume it with
+  current manifests. Latest final8900 is append-compatible while31 bytes unchanged.
+- All817 original PDF pages decoded again,five SHA identities verified. One grade9
+  §40 scientific hold and nine grade7 scoped editorial issues remain open:§13,
+  §18,§19,§20,§24,§26,review ch7-4,§27,§28. See SOURCE_REVIEW.md. No silent repairs;
+  all whole-course ready flags false. Original§1 bytes remain identical.
+- No production/main/real-user/other-subject/AI action. No fresh web build/native/
+  browser/PostgreSQL/IME/TalkBack/independent teacher certification this batch.
 
 ## Exact continuation
 
-Next **grade7 §23 Kislotalar haqida dastlabki tushunchalar**, printed69–70.
-Then §24 (70–72), §25 (72–73), §26 (73–75), chapterIII review anchors ch7-4
-(75–78), ch7-5 (78–80), §27 (80–83). Five teaching entries; reviews attach to§26.
+Next **grade7 §28**,printed83–84,then §29 (84–85),§30 (85–88),§31 (88–90),
+§32 (90–93). Five teaching entries; practical5 (93–95) follows in next batch.
+Original spreads through PDF47/printed93 are privately rendered and visually read.
+No batch08 lesson is indexed yet. Reread relevant original images for details.
 
-Original spreads through PDF42/printed83 are privately rendered and visually read.
-No next-batch lesson has yet been indexed at this checkpoint. Recheck exact
-formulas/conditions before authorship. Keep original chapter/title order.
+Known source review points:
+- §28/83 already pins the conflicting ocean-volume figures1.35·10^6km³ versus
+  approximately1.4billionkm³. Neither is an approved key. Avoid current medical
+  dehydration thresholds or treating dated water-use statistics as current.
+- §29 purification is the book's municipal sequence,not home chlorination or
+  an assurance that improvised filtered water is drinkable. Dated WHO figures/
+  2050 forecast are not independently validated current facts.
+- §30/86 area numerals may conflict with the earlier3/4 coverage statement;
+  visually verify digits before any numerical task. Do not fix from memory.
+  Figure35 on87 labels solubility g/l; text defines g/100g solvent. Do not read
+  plotted numbers directly as per100g values. Qualitative trends are separate.
+- §32/91 CM=m*1000/(M*V) requires V in ml,m in g,M in g/mol; CM=n/V uses V in l.
+  Teach units explicitly. Existing grader fixes each numeric question's unit;
+  no arbitrary-unit engine is claimed. Avoid clinical solution-use directions.
 
-Review items to investigate in next batch: thermal +/-206/40kJ notation on72
-needs reconciliation, not silent correction; source's broad environmental claim
-for hydrogen needs scope; room-temperature sulfur-vapour and normal-state HF
-density examples on77 lack phase context. Teach unambiguous overall equations
-and density rules separately. Water's broad dry-gas/catalysis assertions on82
-need condition context; hydrate dot/association/isotope syntax is unsupported
-by the current finite plain-formula parser, so choose appropriate MCQ/text.
-
-Future §28 on83: ocean1.35·10^6km³ conflicts with the same page's≈1.4billionkm³.
-Do not convert either into an approved answer without source-backed resolution.
-No tasting acids, gas-generation setup, ignition or metal/water home procedures.
-
-Keep all PDF/OCR/fulltext/renders and tokens private. Validate/test/local-import,
-update docs, commit/push Chemistry feature batches and continue automatically.
+All physical labs remain guided digital analysis. Keep PDF/OCR/fulltext/renders
+and tokens private. Validate/test/local-import,update docs,commit/push feature
+batches,and continue automatically through all five supplied grades.
