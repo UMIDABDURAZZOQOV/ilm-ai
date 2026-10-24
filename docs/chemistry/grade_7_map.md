@@ -43,15 +43,15 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-3` | review  | II bob yuzasidan masala va test topshiriqlari | 66–67 | 34:left – 34:right | 66 | integrated source activity in chemistry-7-practical04-r1 | — |
 | `ch7-chapter03` | chapter 3 | Vodorod | 67–80 | 34:right – 41:left | 67 | not_authored | — |
 | `ch7-paragraph22` | paragraph 22 | Vodorod | 67–69 | 34:right – 35:right | 67 | reviewed local lesson | ch7-practical04 |
-| `ch7-paragraph23` | paragraph 23 | Kislotalar haqida dastlabki tushunchalar | 69–70 | 35:right – 36:left | 69 | not_authored | ch7-paragraph22 |
-| `ch7-paragraph24` | paragraph 24 | Vodorodning olinishi | 70–72 | 36:left – 37:left | 70 | not_authored | ch7-paragraph23 |
-| `ch7-paragraph25` | paragraph 25 | Vodorod – oddiy modda. Vodorodning fizik va kimyoviy xossalari. Ishlatilishi | 72–73 | 37:left – 37:right | 72 | not_authored | ch7-paragraph24 |
-| `ch7-paragraph26` | paragraph 26 | Vodorod – sof ekologik yonilg‘i. Ishlatilishi | 73–75 | 37:right – 38:right | 73 | not_authored | ch7-paragraph25 |
-| `ch7-4` | review  | III bobga doir masalalar yechish | 75–78 | 38:right – 40:left | 75 | not_authored | — |
-| `ch7-5` | review  | III bob yuzasidan test topshiriqlari | 78–80 | 40:left – 41:left | 78 | not_authored | — |
+| `ch7-paragraph23` | paragraph 23 | Kislotalar haqida dastlabki tushunchalar | 69–70 | 35:right – 36:left | 69 | reviewed local lesson | ch7-paragraph22 |
+| `ch7-paragraph24` | paragraph 24 | Vodorodning olinishi | 70–72 | 36:left – 37:left | 70 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph23 |
+| `ch7-paragraph25` | paragraph 25 | Vodorod – oddiy modda. Vodorodning fizik va kimyoviy xossalari. Ishlatilishi | 72–73 | 37:left – 37:right | 72 | reviewed local lesson | ch7-paragraph24 |
+| `ch7-paragraph26` | paragraph 26 | Vodorod – sof ekologik yonilg‘i. Ishlatilishi | 73–75 | 37:right – 38:right | 73 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph25 |
+| `ch7-4` | review  | III bobga doir masalalar yechish | 75–78 | 38:right – 40:left | 75 | integrated source activity in chemistry-7-p26-r1; scoped editorial review remains open | — |
+| `ch7-5` | review  | III bob yuzasidan test topshiriqlari | 78–80 | 40:left – 41:left | 78 | integrated source activity in chemistry-7-p26-r1 | — |
 | `ch7-chapter04` | chapter 4 | Suv va eritmalar | 80–99 | 41:left – 50:right | 80 | not_authored | — |
-| `ch7-paragraph27` | paragraph 27 | Suv – murakkab modda. Fizik va kimyoviy xossalari | 80–83 | 41:left – 42:right | 80 | not_authored | ch7-paragraph26 |
-| `ch7-paragraph28` | paragraph 28 | Suvning tabiatda tarqalishi. Uning tirik organizmlar uchun ahamiyati, ishlatilishi | 83–84 | 42:right – 43:left | 83 | not_authored | ch7-paragraph27 |
+| `ch7-paragraph27` | paragraph 27 | Suv – murakkab modda. Fizik va kimyoviy xossalari | 80–83 | 41:left – 42:right | 80 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph26 |
+| `ch7-paragraph28` | paragraph 28 | Suvning tabiatda tarqalishi. Uning tirik organizmlar uchun ahamiyati, ishlatilishi | 83–84 | 42:right – 43:left | 83 | not_authored; scoped editorial review remains open | ch7-paragraph27 |
 | `ch7-paragraph29` | paragraph 29 | Suv havzalarini ifloslanishdan saqlash choralari. Suvni tozalash usullari | 84–85 | 43:left – 43:right | 84 | not_authored | ch7-paragraph28 |
 | `ch7-paragraph30` | paragraph 30 | Suv – eng yaxshi erituvchi. Eruvchanlik | 85–88 | 43:right – 45:left | 85 | not_authored | ch7-paragraph29 |
 | `ch7-paragraph31` | paragraph 31 | Eritmalar | 88–90 | 45:left – 46:left | 88 | not_authored | ch7-paragraph30 |

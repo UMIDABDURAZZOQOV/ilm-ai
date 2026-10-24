@@ -222,3 +222,36 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   attribution as answers. Source heading transcription corrected on62. All other
   source order/counts unchanged. Original §1 and imported prior snapshots remain
   unchanged. Full course readiness is false; no production or real-user action.
+
+
+## Batch07 — 2026-10-24
+
+- Five new lessons §23–27 plus both chapterIII review anchors: **31/268
+  implemented,237 remaining**. Batch40 cards/55 questions; total211 cards/343
+  assessments (163 MCQ,75 short,68 numeric,11 formula,26 equation).
+- Full Chemistry **188 passed,1 skipped,1 existing warning,464.06s**. Skip is
+  opt-in PostgreSQL, not a fresh database certification. After one plain-language
+  water-prompt edit, final targeted20 tests passed again/28.91s. Scientific keys,
+  options, grading and source identity did not change; SHA evidence renewed.
+  Critical Ruff passed. Existing first§1 remains byte-identical.
+- Final full Flutter **484 passed,104s** after the shared optional feedback-source
+  slot and refreshed real API fixtures. Analysis **No issues found,118.7s**.
+  Earlier484-test/144s run preceded the optional source slot and is superseded.
+  Two final320px/200% water tests passed; source dialog resolves80→PDF41:left
+  and feedback82→PDF42:left. Captured widget images were inspected visually.
+- Chemistry feedback now supplies exact source links to the common scrollable
+  panel; other callers retain the default absent slot. Hydrate is a recognition
+  MCQ rather than unsupported formula input. Long prompt simplified in original
+  Uzbek; source/key preserved. Both explanation and source scroll above the fixed
+  continue action. No browser/native/IME/TalkBack/teacher certification claimed.
+- Earlier continuity HTTP run preserved26 completions/520XP and added5/100XP.
+  Final fresh immutable sandbox then completed **all31 lessons/343 questions/
+  620 once-onlyXP** over real loopback HTTP, replay identical and private grading
+  hidden. Old sandbox/attempt snapshots remain intact; synthetic900003 only.
+- Original817 pages decoded and five hashes verified again; five review anchors
+  integrated. One scientific blocker and nine scoped editorial issues remain
+  visible, including a future-topic ocean-volume discrepancy. Course readiness
+  is false; source mapping and JSON counts do not mean a whole course is ready.
+- No fresh web build/PostgreSQL/full-backend or native suite in this batch. No
+  PDF/OCR/fulltext/token upload, production DB/deploy, main merge, live AI or
+  real-user/other-subject branch operation.

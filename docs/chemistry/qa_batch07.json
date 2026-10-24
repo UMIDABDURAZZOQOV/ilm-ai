@@ -1,0 +1,36 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "lessons": 31,
+  "questions": 343,
+  "kinds": {
+    "concept_selection": 163,
+    "short_text": 75,
+    "numeric_value": 68,
+    "chemical_formula": 11,
+    "chemical_equation": 26
+  },
+  "total_xp": 620,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "reviewed_on": "2026-10-24",
+  "implemented_lessons": 31,
+  "remaining_lessons": 237,
+  "backend_tests": {
+    "passed": 188,
+    "skipped": 1,
+    "seconds": 464.06
+  },
+  "final_copy_targeted_tests": {
+    "passed": 20,
+    "seconds": 28.91
+  },
+  "flutter_tests": {
+    "passed": 484,
+    "seconds": 104
+  },
+  "flutter_analysis": "no issues",
+  "open_source_holds": 1,
+  "open_editorial_issues": 9,
+  "production_operations": false
+}

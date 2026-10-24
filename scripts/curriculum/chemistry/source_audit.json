@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 26,
+  "implemented_lessons": 31,
   "grades": [
     {
       "grade": 7,
@@ -11,13 +11,8 @@
       "laboratories": 16,
       "practicals": 7,
       "source_teaching_entries": 74,
-      "implemented_lessons": 26,
+      "implemented_lessons": 31,
       "remaining_ids": [
-        "ch7-paragraph23",
-        "ch7-paragraph24",
-        "ch7-paragraph25",
-        "ch7-paragraph26",
-        "ch7-paragraph27",
         "ch7-paragraph28",
         "ch7-paragraph29",
         "ch7-paragraph30",
@@ -66,7 +61,12 @@
         "ch7-p13-p41-percentage-discrepancy",
         "ch7-p18-ozone-context-review",
         "ch7-p19-silane-equation-review",
-        "ch7-p20-photosynthesis-label-review"
+        "ch7-p20-photosynthesis-label-review",
+        "ch7-p24-heat-sign-review",
+        "ch7-p26-environmental-scope-review",
+        "ch7-review3-gas-phase-context",
+        "ch7-p27-water-condition-review",
+        "ch7-p28-ocean-volume-discrepancy"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -324,9 +324,9 @@
       "course_ready": false
     }
   ],
-  "integrated_source_activities": 3,
+  "integrated_source_activities": 5,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 4,
+  "open_editorial_review_issues": 9,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

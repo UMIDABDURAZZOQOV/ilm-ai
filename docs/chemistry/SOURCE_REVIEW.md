@@ -238,3 +238,41 @@ catalogue transcription; topic identity, source order/count are unchanged.
 Open issues now total one blocking scientific hold and four scoped editorial
 issues. File coverage alone cannot make a whole course ready. The lessons are
 source-image reviewed, not independently teacher-certified.
+
+
+## Batch07 image review — 2026-10-24
+
+Printed69–83/PDF35–42 reviewed in original images; earlier source47,55 reread for
+heat convention and oxygen mass. §23 ends before §24 on70; §24 before §25 on72;
+§25 before §26 on73; §26 main content ends on74. ChapterIII problems75–78 and
+tests78–79 retain ch7-4/ch7-5 identities. §27 uses80–82, before §28 on83.
+
+- **ch7-p24-heat-sign-review**,72: printed206/40kJ terms have unreconciled
+  heat-direction and condition conventions. Material equations alone are taught;
+  no silent sign swap or approved heat key. Earlier §16/47 convention is retained.
+- **ch7-p26-environmental-scope-review**,73: the broad no-pollution statement
+  lacks lifecycle/all-condition scope. Teaching states the actual H2/O2 equation
+  produces water; no general environmental absence is inferred.
+- **ch7-review3-gas-phase-context**,77: room-temperature sulfur-vapour and actual
+  normal-state HF density premises lack phase boundaries. Neither S8 nor0.89g/l
+  from those examples is an answer. The75 density rules are separately taught
+  with original O2/H2S/Zn/FeO/KClO3 calculations from explicit source data.
+- **ch7-p27-water-condition-review**,82: dry-gas/catalysis statements omit needed
+  reaction-condition context. Absolute no-reaction-without-water claims are
+  withheld. Other water structure,states,density and balanced material equations
+  are separately linked. Hydrate dot/association notation is recognition only.
+- **ch7-p28-ocean-volume-discrepancy**,83, identified for the next topic: the
+  page gives1.35·10^6km³ and approximately1.4billionkm³. Neither is silently
+  approved as the correct ocean volume. No replacement exponent is invented.
+
+No current prices,spoon mass or clinical breathing-rate data fill underspecified
+review78 exercises. No acid tasting,gas collection setup,ignition,metal/water or
+halogen experiment is assigned. Indicator colors follow the exact69 caption.
+Water uses source80 angle104.3° and source81 constants as edition data. Source
+page55, not54, explicitly supports the rounded O2 molecular mass32 used in the
+new density example. One water MCQ prompt was shortened for small screens;
+facts/options/keys unchanged and SHA evidence renewed before final fresh QA.
+
+Open review: one blocking scientific hold plus nine scoped editorial issues.
+Five chapter-review anchors integrated; source mapping is not independent
+teacher certification or complete interactive-course readiness.

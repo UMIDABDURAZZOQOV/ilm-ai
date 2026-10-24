@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-26 reviewed lessons through grade7 §22, including practical1–4;242 remain. All
+31 reviewed lessons through grade7 §27, including practical1–4;237 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next paragraph is grade7 §23, printed69–70, then §24–26, chapterIII review
-anchors and §27. ChapterI/II reviews are integrated with actual source identities;
-do not double-count or mislabel them.
+Next paragraph is grade7 §28, printed83–84, then §29–32 in book order.
+Five chapter-review anchors are integrated with actual source identities; do not
+double-count or mislabel them.
 
 ## Review and development notes
 
@@ -90,3 +90,20 @@ issues are pinned, not resolved. Dry-air percentages and reserve figures are
 explicit edition data, not present-day observations. Practical4 is guided
 digital analysis; absent limewater outcomes are not invented. §22 is Vodorod,
 not a heat topic. Isotope table recognition uses MCQ/text, not unsupported syntax.
+
+
+## Batch07 conditions and UI source feedback
+
+Kipp/acid/metal/halogen/oxygen examples are digital recognition and material
+equations only. No physical gas generation, tasting, ignition or apparatus steps.
+Unreconciled heat signs on72, universal clean-fuel scope on73, phase context in
+review77 and absolute dry-gas claims on82 remain held. Future §28 ocean-volume
+numbers on83 conflict and are already pinned for review. Source image details
+are in SOURCE_REVIEW.md. No model-memory correction is authorized.
+
+Chemistry feedback now supplies the existing exact source widget to an optional
+slot in the common scrollable panel; other callers keep their prior behavior.
+Water fixtures are actual sanitized API payloads. At320px/200% text both theory
+and hydrate MCQ feedback expose the correct printed/PDF side. Hydrate input is
+recognition, not a newly claimed parser feature. One water prompt was shortened
+without changing science/key and uses a fresh synthetic final sandbox.

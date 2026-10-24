@@ -1597,7 +1597,30 @@
             "record_id": "ch7-paragraph25",
             "printed_page": 72,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p24-heat-sign-review",
+              "status": "open_review",
+              "printed_pages": [
+                72
+              ],
+              "pdf_pages": [
+                37
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "Thermal206/40kJ signs and phase/condition conventions need source reconciliation; only balanced material equations are taught.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 72,
+                  "reason": "Printed reforming+206kJ and shift−40kJ are not approved heat-direction/quantity keys. Earlier paragraph16/47 assigns plus/minus to released/absorbed heat; do not silently swap signs from memory."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -1679,7 +1702,30 @@
             "record_id": "ch7-4",
             "printed_page": 75,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p26-environmental-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                73
+              ],
+              "pdf_pages": [
+                37
+              ],
+              "regions": [
+                "right"
+              ],
+              "scope": "The broad clean-fuel claim is restricted to the displayed H2/O2 water-product equation; no all-conditions/lifecycle zero-impact assertion.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 73,
+                  "reason": "The source does not establish a lifecycle/environmental boundary for its unconditional no-pollution wording. Do not teach a universal absence of environmental effects."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "review",
@@ -1716,7 +1762,30 @@
             "record_id": "ch7-5",
             "printed_page": 78,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-review3-gas-phase-context",
+              "status": "open_review",
+              "printed_pages": [
+                77
+              ],
+              "pdf_pages": [
+                39
+              ],
+              "regions": [
+                "right"
+              ],
+              "scope": "Physical phase context for room-temperature sulfur vapour and normal-state HF density is unverified; neither premise/value is graded.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 77,
+                  "reason": "Density formulas are separately source-backed on75. The particular77 examples do not supply a sufficient phase/idealisation boundary; do not certify room-temperature sulfur vapour or use HF0.89g/l as an actual normal-state datum."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "review",
@@ -1830,7 +1899,30 @@
             "record_id": "ch7-paragraph28",
             "printed_page": 83,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p27-water-condition-review",
+              "status": "open_review",
+              "printed_pages": [
+                82
+              ],
+              "pdf_pages": [
+                42
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "Unqualified dry-gas/catalysis claims need reaction-condition review; no universal no-reaction-without-water rules.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 82,
+                  "reason": "The source lists several assertions about absence of reactions in dry conditions without specifying moisture/initiator/material conditions sufficiently. No absolute dry-gas outcome becomes an answer."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -1870,7 +1962,30 @@
             "record_id": "ch7-paragraph29",
             "printed_page": 84,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p28-ocean-volume-discrepancy",
+              "status": "open_review",
+              "printed_pages": [
+                83
+              ],
+              "pdf_pages": [
+                42
+              ],
+              "regions": [
+                "right"
+              ],
+              "scope": "Unresolved same-page ocean-volume figures are withheld from future answer keys.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 83,
+                  "reason": "Paragraph83 gives1.35·10^6km3 then approximately1.4billionkm3. No replacement exponent or silent approved value is supplied."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

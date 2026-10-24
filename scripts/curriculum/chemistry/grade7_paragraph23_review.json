@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph23.json",
+  "lesson_sha256": "358a98c076455a4d96e7ebcb5ee56df75a817e8d18b3642013e74c93ad05208f",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original69–70 reviewed, stops before paragraph24 heading. No tasting, medicine use, acid handling or physical metal/acid activity.",
+    "Metal/acid observation is scoped to the source illustration; not a universal prediction for every metal and every acid. Indicator outcomes are exactly the printed caption.",
+    "Final copy review: readable spacing, expected keys and source identities preserved; only new batch07 development files edited."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph23-page69",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph23",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 69,
+      "pdf_page": 35,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "12daaf4dd0f4a6081ca30dcd2f58639f260f2f83619d9d5897af96a445ac1c08",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph23-page70",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph23",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 70,
+      "pdf_page": 36,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "d02c7730ffcce495407b1fa30f404cfa23d3862363dc3f2c60a095ba811493e7",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

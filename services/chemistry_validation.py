@@ -35,6 +35,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-paragraph18': 'ch7-p18-ozone-context-review',
     'ch7-paragraph19': 'ch7-p19-silane-equation-review',
     'ch7-paragraph20': 'ch7-p20-photosynthesis-label-review',
+    'ch7-paragraph24': 'ch7-p24-heat-sign-review',
+    'ch7-paragraph26': 'ch7-p26-environmental-scope-review',
+    'ch7-4': 'ch7-review3-gas-phase-context',
+    'ch7-paragraph27': 'ch7-p27-water-condition-review',
+    'ch7-paragraph28': 'ch7-p28-ocean-volume-discrepancy',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -272,6 +277,9 @@ def validate_lesson(catalog, lesson, review):
         if any(r['topic_id'] == 'ch7-paragraph20' for r in f['source_refs']):
             require(not any('*' in a for a in f['verified_answers']),
                     'unresolved_photosynthesis_label_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-4' for r in f['source_refs']):
+            require(not any(a in {'S8', 'S₈', '0.89', '0,89'} for a in f['verified_answers']),
+                    'unresolved_gas_phase_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
@@ -307,6 +315,9 @@ def validate_lesson(catalog, lesson, review):
         ids = fact_links(q)
         require(ids <= taught, "question_fact_not_taught")
         public, spec = q["public"], q["grading_spec"]
+        if any(r['topic_id'] == 'ch7-paragraph24' for r in q['source_refs']):
+            require(public.get('unit') not in {'kJ', 'kJ/mol'},
+                    'unresolved_heat_sign_cannot_be_an_answer')
         if any(r['topic_id'] == 'ch7-paragraph18' for r in q['source_refs']):
             # The book omits the layer-thickness interpretation and current
             # exposure context. Do not turn those unresolved data into keys.

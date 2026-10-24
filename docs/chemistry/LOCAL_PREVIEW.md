@@ -92,3 +92,11 @@ Current final21-lesson QA uses a fresh synthetic900003 sandbox at
 `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch05-final-qa`, loopback8899.
 Old sandboxes and their immutable rows/snapshots remain intact. Defines/tokens
 stay private; no production application/router publication is implied.
+
+
+## Batch07 final sandbox
+
+Final31-lesson source-copy QA uses the new private directory
+`C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`, loopback8900,
+synthetic900003 only. Older sandbox26→31 continuity and immutable snapshots remain
+intact. Never publish defines/tokens or treat the isolated preview as production.

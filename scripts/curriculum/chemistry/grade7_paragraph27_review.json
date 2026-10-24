@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph27.json",
+  "lesson_sha256": "fb3fdc21cccd72600e3267ce4b7f479979d28b5b238e860e5e1ead4baf37701c",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original80–82 reviewed; paragraph28 starts on83. Water angle and detailed constants are edition values, not replaced from memory.",
+    "Broad dry-gas/mandatory-water catalysis assertions on82 are withheld under ch7-p27-water-condition-review. No universal absence-of-reaction rule is authored.",
+    "Hydrate dot and association notation are recognition tasks only; not silently accepted by plain formula/equation parser. Sodium/water, thermal decomposition and steam/metal equations are symbolic only.",
+    "Final copy review: readable spacing, expected keys and source identities preserved; only new batch07 development files edited.",
+    "Small-screen copy review: one hydrate MCQ prompt shortened to plain Uzbek; scientific meaning, options, key and source unchanged. Use a fresh final synthetic sandbox, never overwrite the earlier imported row."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph27-page80",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph27",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 80,
+      "pdf_page": 41,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "e7427cb8078642072996a8aba65e5875ba4764be88222ac21ccac8e8ab1dea84",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph27-page81",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph27",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 81,
+      "pdf_page": 41,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "e7427cb8078642072996a8aba65e5875ba4764be88222ac21ccac8e8ab1dea84",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph27-page82",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph27",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 82,
+      "pdf_page": 42,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "b35691f7f39ee733574c2947553327086483a9fa4d46d681fe45a068426d35f5",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

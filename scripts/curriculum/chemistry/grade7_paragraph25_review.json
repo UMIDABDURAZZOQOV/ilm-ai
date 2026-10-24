@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph25.json",
+  "lesson_sha256": "7d6c818228d47635cbaf6fa56f97615cbb9f4441e1b89ecda6ca695767cd05e5",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original72–73 read, stops at paragraph26 heading. Hazardous H2/halogen/oxygen/metal reactions are symbolic analysis only, no mixture preparation, irradiation, ignition, apparatus heating or reagent handling.",
+    "Edition physical constants are identified with source conditions; atomic versus molecular hydrogen is not confused with a general reaction predictor.",
+    "Final copy review: readable spacing, expected keys and source identities preserved; only new batch07 development files edited."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph25-page72",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph25",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 72,
+      "pdf_page": 37,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "00def95628350d09e504b6fb222161401e3da238578c122a132716102c29bfa5",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph25-page73",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph25",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 73,
+      "pdf_page": 37,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "00def95628350d09e504b6fb222161401e3da238578c122a132716102c29bfa5",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

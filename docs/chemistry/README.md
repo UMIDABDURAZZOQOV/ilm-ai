@@ -13,10 +13,10 @@ from catalogue containers, prefaces, subtopics and chapter reviews.
 The catalogue has **327 records**, including those additional source anchors.
 This is source mapping, not 268 finished interactive lessons.
 
-Grade7 now has26 reviewed local lessons through §22, including practical1–4.
+Grade7 now has31 reviewed local lessons through §27, including practical1–4.
 The isolated v2 API and separate Flutter QA entrypoint reuse ILM AI learning
 components for MCQ, short text, fixed-unit numbers, formulas and equations.
-**26/268** source teaching entries are implemented;242 remain and all five
+**31/268** source teaching entries are implemented;237 remain and all five
 course-ready flags remain false. No AI feature added.
 
 - [Source review](SOURCE_REVIEW.md)
