@@ -1,0 +1,2170 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 18,
+  "key": "chemistry-7-p15-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph15",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Avogadro qonuni. Molar hajm",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph14"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph15",
+      "topic_title": "Avogadro qonuni. Molar hajm",
+      "paragraph": 15,
+      "printed_pages": [
+        43
+      ],
+      "pdf_pages": [
+        22
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph15-page43"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph15",
+      "topic_title": "Avogadro qonuni. Molar hajm",
+      "paragraph": 15,
+      "printed_pages": [
+        44
+      ],
+      "pdf_pages": [
+        23
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph15-page44"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph15",
+      "topic_title": "Avogadro qonuni. Molar hajm",
+      "paragraph": 15,
+      "printed_pages": [
+        45
+      ],
+      "pdf_pages": [
+        23
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph15-page45"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph10",
+      "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+      "paragraph": 10,
+      "printed_pages": [
+        34
+      ],
+      "pdf_pages": [
+        18
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph10-page34"
+    }
+  ],
+  "facts": {
+    "law": {
+      "claim": "Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+      "verified_answers": [
+        "Avogadro qonuni",
+        "Harorat va bosim"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page43"
+        }
+      ]
+    },
+    "limit": {
+      "claim": "Juda past harorat yoki katta bosimda molekulalar yaqinlashganda gaz uchun berilgan Avogadro qonunidan chetlanish yuz beradi.",
+      "verified_answers": [
+        "Past harorat va yuqori bosim"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    "normal": {
+      "claim": "Darslik normal sharoitni 0 °C va101,325 kPa deb beradi. Bir mol gaz uchun 0,0224 m³ yoki 22,4 l hajm keltirilgan.",
+      "verified_answers": [
+        "0",
+        "101.325",
+        "22.4",
+        "0.0224"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    "volume": {
+      "claim": "Molar hajm Vm=V/n. Bundan n=V/Vm va V=n·Vm; massa berilgan bo‘lsa V=m·Vm/M. Vm birliklari m³/mol yoki l/mol.",
+      "verified_answers": [
+        "Molar hajm",
+        "11.2",
+        "0.5"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    "density": {
+      "claim": "Jadvaldagi molar hajm molar massa va zichlikdan Vm=M/ρ bilan topiladi. CO uchun 0,028 kg/mol ni1,25 kg/m³ ga bo‘lish 0,0224 m³/mol ni beradi.",
+      "verified_answers": [
+        "0.0224"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    "co2mass": {
+      "claim": "Kitobning oldin o‘rganilgan jadvalida CO2 molar massasi 44 g/mol.",
+      "verified_answers": [
+        "44"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    "co2calc": {
+      "claim": "Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+      "verified_answers": [
+        "0.1",
+        "2.24",
+        "6.02e22"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    "liquid": {
+      "claim": "Kitob bir mol suyuq suv 4 °C da0,018 l hajm egallashini aytadi; suyuq va qattiq moddalarning bir mol hajmlari gazlarning 22,4 l qiymatiga teng emas.",
+      "verified_answers": [
+        "0.018"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Teng hajmni to‘g‘ri solishtirish",
+        "body": "Avogadro qonunida gazlar bir xil harorat va bir xil bosimda taqqoslanadi. Shunda teng hajmlarda molekulalar soni teng bo‘ladi. Bu shartlarni olib tashlab, har qanday ikki gaz hajmini avtomatik teng deb bo‘lmaydi.",
+        "fact_ids": [
+          "law"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page43"
+          }
+        ]
+      },
+      {
+        "title": "Qo‘llanish chegarasi",
+        "body": "Kitob gazlar uchun berilgan qonunni suyuq va qattiq moddalarga ko‘chirmaydi. Juda past harorat yoki katta bosimda molekulalar yaqinlashadi va qonunning oddiy ko‘rinishi cheklanadi.",
+        "fact_ids": [
+          "law",
+          "limit"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page43"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          }
+        ]
+      },
+      {
+        "title": "Darslikdagi normal sharoit",
+        "body": "Ushbu nashr n.sh. uchun 0 °C va101,325 kPa ni oladi. Bir mol gaz hajmi 22,4 l =0,0224 m³ deb berilgan. Birliklar turlicha ko‘rinsa ham, bu bir xil hajmning ikki yozuvi.",
+        "fact_ids": [
+          "normal"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          }
+        ]
+      },
+      {
+        "title": "Hajm bilan modda miqdori",
+        "body": "Vm=V/n; n=V/Vm; V=n·Vm. Masalan, n.sh.da0,5 mol gaz hajmi 0,5×22,4=11,2 l. Jadvaldagi CO uchun Vm=M/ρ=0,028/1,25=0,0224 m³/mol.",
+        "fact_ids": [
+          "volume",
+          "density",
+          "normal"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          }
+        ]
+      },
+      {
+        "title": "Massa, miqdor va gaz hajmi",
+        "body": "§10 jadvalidagi M(CO₂)=44 g/mol bilan original 4,4 g namuna uchun n=0,1 mol topiladi. N.sh.da V=0,1×22,4=2,24 l. Darslikdagi NA qiymati bilan N=6,02·10²² molekula. Har bir hisobda tegishli birlikni saqlang.",
+        "fact_ids": [
+          "co2mass",
+          "co2calc",
+          "volume"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          }
+        ]
+      },
+      {
+        "title": "Bir mol suv va bir mol gaz",
+        "body": "Kitob 4 °C dagi bir mol suyuq suv hajmini 0,018 l deb beradi. Bu gazning n.sh.dagi 22,4 l molar hajmi emas. Moddaning miqdori bir mol bo‘lishi barcha holatlarda uning hajmi bir xil degani emas.",
+        "fact_ids": [
+          "liquid",
+          "normal"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          }
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "title": "Gaz hajmi",
+        "body": "Vm=V/n; V=n·Vm; n=V/Vm; V=m·Vm/M. Sharoit va birliklar mos bo‘lsin.",
+        "fact_ids": [
+          "volume"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          }
+        ]
+      },
+      {
+        "title": "Zichlikdan molar hajm",
+        "body": "Vm=M/ρ.",
+        "fact_ids": [
+          "density"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "title": "CO₂ uchun original hisob",
+        "body": "4,4 g /44 g/mol=0,1 mol; 0,1×22,4=2,24 l (n.sh.).",
+        "fact_ids": [
+          "co2calc",
+          "co2mass"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph15",
+            "topic_title": "Avogadro qonuni. Molar hajm",
+            "paragraph": 15,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              23
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph15-page44"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph10",
+            "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+            "paragraph": 10,
+            "printed_pages": [
+              34
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph10-page34"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph15",
+        "topic_title": "Avogadro qonuni. Molar hajm",
+        "paragraph": 15,
+        "printed_pages": [
+          43
+        ],
+        "pdf_pages": [
+          22
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph15-page43"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph15",
+        "topic_title": "Avogadro qonuni. Molar hajm",
+        "paragraph": 15,
+        "printed_pages": [
+          44
+        ],
+        "pdf_pages": [
+          23
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph15-page44"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph15",
+        "topic_title": "Avogadro qonuni. Molar hajm",
+        "paragraph": 15,
+        "printed_pages": [
+          45
+        ],
+        "pdf_pages": [
+          23
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph15-page45"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph10",
+        "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+        "paragraph": 10,
+        "printed_pages": [
+          34
+        ],
+        "pdf_pages": [
+          18
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph10-page34"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p15-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Bir xil sharoitda teng hajmli gazlarda molekulalar soni tengligini qaysi qonun aytadi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tarkibning doimiylik qonuni"
+          },
+          {
+            "id": "b",
+            "label": "Karrali nisbatlar qonuni"
+          },
+          {
+            "id": "c",
+            "label": "Avogadro qonuni"
+          },
+          {
+            "id": "d",
+            "label": "Faqat massaning saqlanish qonuni"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Avogadro qonuni",
+        "feedback": {
+          "correct": "To‘g‘ri. Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+            "fact_ids": [
+              "law"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "law"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Teng gaz hajmlarini taqqoslashda bir xil bo‘lishi kerak bo‘lgan ikkita shart qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Harorat va bosim"
+          },
+          {
+            "id": "b",
+            "label": "Faqat rang va hid"
+          },
+          {
+            "id": "c",
+            "label": "Faqat idish nomi va shakli"
+          },
+          {
+            "id": "d",
+            "label": "Faqat modda nomi va belgisi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Harorat va bosim",
+        "feedback": {
+          "correct": "To‘g‘ri. Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+            "fact_ids": [
+              "law"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "law"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Kitob gaz qonunining cheklanishini qaysi sharoit bilan bog‘laydi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Yuqori harorat va past bosim"
+          },
+          {
+            "id": "b",
+            "label": "Oddiy harorat va past bosim"
+          },
+          {
+            "id": "c",
+            "label": "Bir xil harorat va bir xil bosim"
+          },
+          {
+            "id": "d",
+            "label": "Past harorat va yuqori bosim"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Past harorat va yuqori bosim",
+        "feedback": {
+          "correct": "To‘g‘ri. Juda past harorat yoki katta bosimda molekulalar yaqinlashganda gaz uchun berilgan Avogadro qonunidan chetlanish yuz beradi.",
+          "incorrect": "Hozircha noto‘g‘ri. Juda past harorat yoki katta bosimda molekulalar yaqinlashganda gaz uchun berilgan Avogadro qonunidan chetlanish yuz beradi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Juda past harorat yoki katta bosimda molekulalar yaqinlashganda gaz uchun berilgan Avogadro qonunidan chetlanish yuz beradi.",
+            "fact_ids": [
+              "limit"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "limit"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "V/n nisbati qanday kattalik?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Molar massa"
+          },
+          {
+            "id": "b",
+            "label": "Molar hajm"
+          },
+          {
+            "id": "c",
+            "label": "Nisbiy atom massasi"
+          },
+          {
+            "id": "d",
+            "label": "Massa ulushi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Molar hajm",
+        "feedback": {
+          "correct": "To‘g‘ri. Molar hajm Vm=V/n. Bundan n=V/Vm va V=n·Vm; massa berilgan bo‘lsa V=m·Vm/M. Vm birliklari m³/mol yoki l/mol.",
+          "incorrect": "Hozircha noto‘g‘ri. Molar hajm Vm=V/n. Bundan n=V/Vm va V=n·Vm; massa berilgan bo‘lsa V=m·Vm/M. Vm birliklari m³/mol yoki l/mol.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Molar hajm Vm=V/n. Bundan n=V/Vm va V=n·Vm; massa berilgan bo‘lsa V=m·Vm/M. Vm birliklari m³/mol yoki l/mol.",
+            "fact_ids": [
+              "volume"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "volume"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Bir xil sharoitdagi gazlar hajmi va molekulalar soniga oid qonun nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Avogadro qonuni",
+        "feedback": {
+          "correct": "To‘g‘ri. Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Bir xil harorat va bosimda teng hajmli turli gazlarda molekulalar soni teng bo‘ladi — Avogadro qonuni. Qonun gazlar uchun berilgan, qattiq va suyuqliklarga shu ko‘rinishda qo‘llanmaydi.",
+            "fact_ids": [
+              "law"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "Avogadro qonuni",
+        "aliases": [
+          "Avogadro qonuni"
+        ]
+      },
+      "fact_ids": [
+        "law"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Vm belgisi bilan ifodalanadigan kattalik nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Molar hajm",
+        "feedback": {
+          "correct": "To‘g‘ri. Molar hajm Vm=V/n. Bundan n=V/Vm va V=n·Vm; massa berilgan bo‘lsa V=m·Vm/M. Vm birliklari m³/mol yoki l/mol.",
+          "incorrect": "Hozircha noto‘g‘ri. Molar hajm Vm=V/n. Bundan n=V/Vm va V=n·Vm; massa berilgan bo‘lsa V=m·Vm/M. Vm birliklari m³/mol yoki l/mol.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Molar hajm Vm=V/n. Bundan n=V/Vm va V=n·Vm; massa berilgan bo‘lsa V=m·Vm/M. Vm birliklari m³/mol yoki l/mol.",
+            "fact_ids": [
+              "volume"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              }
+            ]
+          }
+        ],
+        "expected": "Molar hajm",
+        "aliases": [
+          "Molar hajm",
+          "molyar hajm"
+        ]
+      },
+      "fact_ids": [
+        "volume"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q07",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Kitobdagi n.sh.da bir mol gaz hajmi necha litr?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "l"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "22.4",
+        "feedback": {
+          "correct": "To‘g‘ri. Darslik normal sharoitni 0 °C va101,325 kPa deb beradi. Bir mol gaz uchun 0,0224 m³ yoki 22,4 l hajm keltirilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Darslik normal sharoitni 0 °C va101,325 kPa deb beradi. Bir mol gaz uchun 0,0224 m³ yoki 22,4 l hajm keltirilgan.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Darslik normal sharoitni 0 °C va101,325 kPa deb beradi. Bir mol gaz uchun 0,0224 m³ yoki 22,4 l hajm keltirilgan.",
+            "fact_ids": [
+              "normal"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              }
+            ]
+          }
+        ],
+        "expected": "22.4",
+        "unit": "l"
+      },
+      "fact_ids": [
+        "normal"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q08",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "CO uchun Vm=0,028/1,25 qiymatini hisoblang.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "m³/mol"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.0224",
+        "feedback": {
+          "correct": "To‘g‘ri. Jadvaldagi molar hajm molar massa va zichlikdan Vm=M/ρ bilan topiladi. CO uchun 0,028 kg/mol ni1,25 kg/m³ ga bo‘lish 0,0224 m³/mol ni beradi.",
+          "incorrect": "Hozircha noto‘g‘ri. Jadvaldagi molar hajm molar massa va zichlikdan Vm=M/ρ bilan topiladi. CO uchun 0,028 kg/mol ni1,25 kg/m³ ga bo‘lish 0,0224 m³/mol ni beradi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Jadvaldagi molar hajm molar massa va zichlikdan Vm=M/ρ bilan topiladi. CO uchun 0,028 kg/mol ni1,25 kg/m³ ga bo‘lish 0,0224 m³/mol ni beradi.",
+            "fact_ids": [
+              "density"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              }
+            ]
+          }
+        ],
+        "expected": "0.0224",
+        "unit": "m³/mol"
+      },
+      "fact_ids": [
+        "density"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q09",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Original 4,4 g CO₂ namunasida M=44 g/mol bo‘lsa, modda miqdori necha mol?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "mol"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.1",
+        "feedback": {
+          "correct": "To‘g‘ri. Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+          "incorrect": "Hozircha noto‘g‘ri. Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+            "fact_ids": [
+              "co2calc"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "0.1",
+        "unit": "mol"
+      },
+      "fact_ids": [
+        "co2calc"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q10",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Shu 0,1 mol CO₂ n.sh.da necha litr hajm egallaydi?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "l"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "2.24",
+        "feedback": {
+          "correct": "To‘g‘ri. Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+          "incorrect": "Hozircha noto‘g‘ri. Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+            "fact_ids": [
+              "co2calc"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "2.24",
+        "unit": "l"
+      },
+      "fact_ids": [
+        "co2calc"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p15-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Shu 0,1 mol uchun darslik NA qiymati bilan molekulalar sonini yozing.",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "ta molekula"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "6.02e22",
+        "feedback": {
+          "correct": "To‘g‘ri. Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+          "incorrect": "Hozircha noto‘g‘ri. Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Original 4,4 g CO2 hisobi: n=4,4/44=0,1 mol; n.sh.da V=0,1×22,4=2,24 l. Darslik NA qiymati bilan N=0,1×6,02·10²³=6,02·10²² molekula.",
+            "fact_ids": [
+              "co2calc"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph15",
+                "topic_title": "Avogadro qonuni. Molar hajm",
+                "paragraph": 15,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  23
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph15-page44"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph10",
+                "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+                "paragraph": 10,
+                "printed_pages": [
+                  34
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph10-page34"
+              }
+            ]
+          }
+        ],
+        "expected": "6.02e22",
+        "unit": "ta molekula"
+      },
+      "fact_ids": [
+        "co2calc"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph15",
+          "topic_title": "Avogadro qonuni. Molar hajm",
+          "paragraph": 15,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            23
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph15-page44"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph10",
+          "topic_title": "Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi",
+          "paragraph": 10,
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph10-page34"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph10"
+  ]
+}

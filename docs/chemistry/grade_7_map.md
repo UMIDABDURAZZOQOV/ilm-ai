@@ -27,15 +27,15 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-paragraph10` | paragraph 10 | Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi | 33–35 | 17:right – 18:right | 33 | reviewed local lesson | ch7-paragraph09 |
 | `ch7-paragraph11` | paragraph 11 | Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar | 35–36 | 18:right – 19:left | 35 | reviewed local lesson | ch7-paragraph10 |
 | `ch7-paragraph12` | paragraph 12 | Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar | 36–40 | 19:left – 21:left | 36 | reviewed local lesson | ch7-paragraph11 |
-| `ch7-paragraph13` | paragraph 13 | Tarkibning doimiylik qonuni | 40–42 | 21:left – 22:left | 40 | reviewed local lesson | ch7-paragraph12 |
-| `ch7-paragraph14` | paragraph 14 | Massaning saqlanish qonuni | 42–43 | 22:left – 22:right | 42 | not_authored | ch7-paragraph13 |
-| `ch7-paragraph15` | paragraph 15 | Avogadro qonuni. Molar hajm | 43–45 | 22:right – 23:right | 43 | not_authored | ch7-paragraph14 |
-| `ch7-paragraph16` | paragraph 16 | Kimyoviy reaksiya turlari. Kimyoviy energiya | 45–47 | 23:right – 24:right | 45 | not_authored | ch7-paragraph15 |
-| `ch7-1` | review  | I bobga doir masalalar yechish | 47–52 | 24:right – 27:left | 47 | not_authored | — |
-| `ch7-2` | review  | I bob yuzasidan test topshiriqlari | 52–54 | 27:left – 28:left | 52 | not_authored | — |
+| `ch7-paragraph13` | paragraph 13 | Tarkibning doimiylik qonuni | 40–42 | 21:left – 22:left | 40 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph12 |
+| `ch7-paragraph14` | paragraph 14 | Massaning saqlanish qonuni | 42–43 | 22:left – 22:right | 42 | reviewed local lesson | ch7-paragraph13 |
+| `ch7-paragraph15` | paragraph 15 | Avogadro qonuni. Molar hajm | 43–45 | 22:right – 23:right | 43 | reviewed local lesson | ch7-paragraph14 |
+| `ch7-paragraph16` | paragraph 16 | Kimyoviy reaksiya turlari. Kimyoviy energiya | 45–47 | 23:right – 24:right | 45 | reviewed local lesson | ch7-paragraph15 |
+| `ch7-1` | review  | I bobga doir masalalar yechish | 47–52 | 24:right – 27:left | 47 | integrated source activity in chemistry-7-p16-r1 | — |
+| `ch7-2` | review  | I bob yuzasidan test topshiriqlari | 52–54 | 27:left – 28:left | 52 | integrated source activity in chemistry-7-p16-r1 | — |
 | `ch7-chapter02` | chapter 2 | Kislorod | 54–67 | 28:left – 34:right | 54 | not_authored | — |
-| `ch7-paragraph17` | paragraph 17 | Kislorod | 54–56 | 28:left – 29:left | 54 | not_authored | ch7-paragraph16 |
-| `ch7-paragraph18` | paragraph 18 | Kislorod – oddiy modda | 56–58 | 29:left – 30:left | 56 | not_authored | ch7-paragraph17 |
+| `ch7-paragraph17` | paragraph 17 | Kislorod | 54–56 | 28:left – 29:left | 54 | reviewed local lesson | ch7-paragraph16 |
+| `ch7-paragraph18` | paragraph 18 | Kislorod – oddiy modda | 56–58 | 29:left – 30:left | 56 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph17 |
 | `ch7-paragraph19` | paragraph 19 | Kislorodning kimyoviy xossalari. Biologik ahamiyati va ishlatilishi | 58–60 | 30:left – 31:left | 58 | not_authored | ch7-paragraph18 |
 | `ch7-paragraph20` | paragraph 20 | Kislorodning tabiatda aylanishi. Havo va uning tarkibi. Havoni ifloslanishdan saqlash | 60–62 | 31:left – 32:left | 60 | not_authored | ch7-paragraph19 |
 | `ch7-paragraph21` | paragraph 21 | Yonish. Yo‘nilg‘ilarning turlari | 62–64 | 32:left – 33:left | 62 | not_authored | ch7-paragraph20 |

@@ -1,0 +1,1816 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 17,
+  "key": "chemistry-7-p14-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph14",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Massaning saqlanish qonuni",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph13"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph14",
+      "topic_title": "Massaning saqlanish qonuni",
+      "paragraph": 14,
+      "printed_pages": [
+        42
+      ],
+      "pdf_pages": [
+        22
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph14-page42"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph14",
+      "topic_title": "Massaning saqlanish qonuni",
+      "paragraph": 14,
+      "printed_pages": [
+        43
+      ],
+      "pdf_pages": [
+        22
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph14-page43"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph12",
+      "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+      "paragraph": 12,
+      "printed_pages": [
+        40
+      ],
+      "pdf_pages": [
+        21
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph12-page40"
+    }
+  ],
+  "facts": {
+    "law": {
+      "claim": "Kimyoviy reaksiyaga kirishgan moddalar umumiy massasi mahsulotlarning umumiy massasiga teng.",
+      "verified_answers": [
+        "Massaning saqlanish qonuni"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    "atoms": {
+      "claim": "Kimyoviy reaksiyada atomlar yo‘qolmaydi yoki yangidan paydo bo‘lmaydi; bir element atomi boshqa element atomiga aylanmaydi, har atomning massasi o‘zgarmas deb olinadi.",
+      "verified_answers": [
+        "Atomlar",
+        "O‘zgarmaydi"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    "closed": {
+      "claim": "Kitob qonun tarixini yopiq idishlarda o‘tkazilgan kuzatuvlar va Lomonosov hamda Lavuazye ishlari bilan tushuntiradi.",
+      "verified_answers": [
+        "Yopiq idish"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    "iron": {
+      "claim": "Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+      "verified_answers": [
+        "88",
+        "Fe+S=FeS"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    "scaled": {
+      "claim": "Shu Fe/S massalar nisbatini beshga bo‘lsak, original mashqda 11,2 g Fe va6,4 g S jami 17,6 g mahsulotga mos keladi.",
+      "verified_answers": [
+        "17.6"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    "carbonate": {
+      "claim": "Darslikda CaCO3 parchalanish mahsulotlari CaO va CO2 deb berilgan.",
+      "verified_answers": [
+        "CO2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    "gas": {
+      "claim": "Kitob masalasida 50 g CaCO3 dan 28 g CaO qoladi: massa farqi 22 g. Xuddi shu nisbatdagi original 100 g namunada 56 g qattiq mahsulot va44 g gaz massasi bo‘ladi.",
+      "verified_answers": [
+        "22",
+        "44",
+        "100"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page43"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "To‘liq massani hisoblaymiz",
+        "body": "Kimyoviy reaksiyada boshlang‘ich moddalar massalari yig‘indisi barcha mahsulotlar yig‘indisiga teng. Hisobga faqat ko‘rinib qolgan qattiq mahsulotni emas, boshqa mahsulotlarni ham kiriting. Bu massaning saqlanish qonunidir.",
+        "fact_ids": [
+          "law"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page42"
+          }
+        ]
+      },
+      {
+        "title": "Qonunning zarracha darajasidagi mazmuni",
+        "body": "Kitob kimyoviy reaksiyada atomlar yo‘qolmasligi, yangidan yaralmasligi va boshqa elementga aylanmasligini aytadi. Har atomning massasi saqlanganligi umumiy massaning saqlanishini izohlaydi.",
+        "fact_ids": [
+          "atoms"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page42"
+          }
+        ]
+      },
+      {
+        "title": "Yopiq idish nimani ko‘rsatadi?",
+        "body": "Darslik qonun tarixini yopiq idish kuzatuvlari orqali bayon qiladi, Lomonosov va Lavuazye ishlarini eslatadi. Barcha moddalar hisobda qolishi umumiy massani solishtirish uchun muhim. Bu uyda idish qizdirish vazifasi emas.",
+        "fact_ids": [
+          "closed",
+          "law"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page42"
+          }
+        ]
+      },
+      {
+        "title": "Massalar yig‘indisi",
+        "body": "Kitob misoli: Fe + S = FeS; 56 g +32 g =88 g. Original kichikroq miqdorli hisob:11,2 g +6,4 g =17,6 g. Atomlar ham, umumiy massa ham hisobdan yo‘qolmaydi.",
+        "fact_ids": [
+          "iron",
+          "scaled"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page42"
+          }
+        ]
+      },
+      {
+        "title": "Qattiq qoldiq butun mahsulot emas",
+        "body": "Avvalgi §12 da CaCO₃ mahsulotlari CaO va CO₂ deb berilgan. §14 masalasidagi 50 g boshlang‘ich massa bilan 28 g qoldiq orasidagi 22 g farq gaz mahsulotiga tegishli. Shu nisbatdagi 100 g namunada 56 g qattiq mahsulot va44 g gaz bo‘ladi.",
+        "fact_ids": [
+          "carbonate",
+          "gas",
+          "law"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              40
+            ],
+            "pdf_pages": [
+              21
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page40"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page43"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page42"
+          }
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "title": "Umumiy massa",
+        "body": "Σm(boshlang‘ich moddalar)=Σm(mahsulotlar).",
+        "fact_ids": [
+          "law"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page42"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "title": "Massani tiklash",
+        "body": "100−56=44 g gaz; 56+44=100 g umumiy mahsulot.",
+        "fact_ids": [
+          "gas"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph14",
+            "topic_title": "Massaning saqlanish qonuni",
+            "paragraph": 14,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              22
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph14-page43"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph12",
+            "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+            "paragraph": 12,
+            "printed_pages": [
+              40
+            ],
+            "pdf_pages": [
+              21
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph12-page40"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph14",
+        "topic_title": "Massaning saqlanish qonuni",
+        "paragraph": 14,
+        "printed_pages": [
+          42
+        ],
+        "pdf_pages": [
+          22
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph14-page42"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph14",
+        "topic_title": "Massaning saqlanish qonuni",
+        "paragraph": 14,
+        "printed_pages": [
+          43
+        ],
+        "pdf_pages": [
+          22
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph14-page43"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph12",
+        "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+        "paragraph": 12,
+        "printed_pages": [
+          40
+        ],
+        "pdf_pages": [
+          21
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph12-page40"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p14-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Barcha boshlang‘ich va hosil bo‘lgan moddalar massalari yig‘indisini tenglashtiradigan qonun qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Karrali nisbatlar qonuni"
+          },
+          {
+            "id": "b",
+            "label": "Massaning saqlanish qonuni"
+          },
+          {
+            "id": "c",
+            "label": "Tarkibning doimiylik qonuni"
+          },
+          {
+            "id": "d",
+            "label": "Avogadro doimiysi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Massaning saqlanish qonuni",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy reaksiyaga kirishgan moddalar umumiy massasi mahsulotlarning umumiy massasiga teng.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy reaksiyaga kirishgan moddalar umumiy massasi mahsulotlarning umumiy massasiga teng.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy reaksiyaga kirishgan moddalar umumiy massasi mahsulotlarning umumiy massasiga teng.",
+            "fact_ids": [
+              "law"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "law"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Oddiy kimyoviy reaksiyada kitobga ko‘ra nima saqlanadi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Har doim jism shakli"
+          },
+          {
+            "id": "b",
+            "label": "Har doim gaz hajmi"
+          },
+          {
+            "id": "c",
+            "label": "Har doim modda rangi"
+          },
+          {
+            "id": "d",
+            "label": "Atomlar"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Atomlar",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy reaksiyada atomlar yo‘qolmaydi yoki yangidan paydo bo‘lmaydi; bir element atomi boshqa element atomiga aylanmaydi, har atomning massasi o‘zgarmas deb olinadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy reaksiyada atomlar yo‘qolmaydi yoki yangidan paydo bo‘lmaydi; bir element atomi boshqa element atomiga aylanmaydi, har atomning massasi o‘zgarmas deb olinadi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy reaksiyada atomlar yo‘qolmaydi yoki yangidan paydo bo‘lmaydi; bir element atomi boshqa element atomiga aylanmaydi, har atomning massasi o‘zgarmas deb olinadi.",
+            "fact_ids": [
+              "atoms"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "atoms"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Kitobdagi qonun tarixida qaysi idish holati muhim?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Yopiq idish"
+          },
+          {
+            "id": "b",
+            "label": "Ochiq idish"
+          },
+          {
+            "id": "c",
+            "label": "Teshik idish"
+          },
+          {
+            "id": "d",
+            "label": "Qopqoqsiz idish"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Yopiq idish",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob qonun tarixini yopiq idishlarda o‘tkazilgan kuzatuvlar va Lomonosov hamda Lavuazye ishlari bilan tushuntiradi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob qonun tarixini yopiq idishlarda o‘tkazilgan kuzatuvlar va Lomonosov hamda Lavuazye ishlari bilan tushuntiradi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kitob qonun tarixini yopiq idishlarda o‘tkazilgan kuzatuvlar va Lomonosov hamda Lavuazye ishlari bilan tushuntiradi.",
+            "fact_ids": [
+              "closed"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "closed"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "CaCO₃ parchalanishida CaO bilan birga qaysi mahsulot berilgan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "O2"
+          },
+          {
+            "id": "b",
+            "label": "H2"
+          },
+          {
+            "id": "c",
+            "label": "CO2"
+          },
+          {
+            "id": "d",
+            "label": "FeS"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "CO2",
+        "feedback": {
+          "correct": "To‘g‘ri. Darslikda CaCO3 parchalanish mahsulotlari CaO va CO2 deb berilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Darslikda CaCO3 parchalanish mahsulotlari CaO va CO2 deb berilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Darslikda CaCO3 parchalanish mahsulotlari CaO va CO2 deb berilgan.",
+            "fact_ids": [
+              "carbonate"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  40
+                ],
+                "pdf_pages": [
+                  21
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page40"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "carbonate"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Reaksiyada umumiy massa tengligini ifodalovchi qonun nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Massaning saqlanish qonuni",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy reaksiyaga kirishgan moddalar umumiy massasi mahsulotlarning umumiy massasiga teng.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy reaksiyaga kirishgan moddalar umumiy massasi mahsulotlarning umumiy massasiga teng.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy reaksiyaga kirishgan moddalar umumiy massasi mahsulotlarning umumiy massasiga teng.",
+            "fact_ids": [
+              "law"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "Massaning saqlanish qonuni",
+        "aliases": [
+          "Massaning saqlanish qonuni",
+          "massa saqlanish qonuni"
+        ]
+      },
+      "fact_ids": [
+        "law"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Kimyoviy reaksiyada bir element atomi boshqa element atomiga aylanadimi? Kitobdagi natijani “o‘zgaradi/o‘zgarmaydi” shaklida yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "O‘zgarmaydi",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy reaksiyada atomlar yo‘qolmaydi yoki yangidan paydo bo‘lmaydi; bir element atomi boshqa element atomiga aylanmaydi, har atomning massasi o‘zgarmas deb olinadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy reaksiyada atomlar yo‘qolmaydi yoki yangidan paydo bo‘lmaydi; bir element atomi boshqa element atomiga aylanmaydi, har atomning massasi o‘zgarmas deb olinadi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy reaksiyada atomlar yo‘qolmaydi yoki yangidan paydo bo‘lmaydi; bir element atomi boshqa element atomiga aylanmaydi, har atomning massasi o‘zgarmas deb olinadi.",
+            "fact_ids": [
+              "atoms"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "O‘zgarmaydi",
+        "aliases": [
+          "O‘zgarmaydi",
+          "ozgarmaydi"
+        ]
+      },
+      "fact_ids": [
+        "atoms"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q07",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Kitobning temir va oltingugurt birikish misolida mahsulot FeS. Tenglamani formulalar bilan yozing.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Fe+S=FeS",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88."
+        },
+        "solution": [
+          {
+            "body": "Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "Fe+S=FeS"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q08",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Kitobdagi 56 g Fe va32 g S misolida mahsulot massasi necha g?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "g"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "88",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kitob Fe + S = FeS uchun 56 g temir va32 g oltingugurtdan 88 g mahsulot hosil bo‘lishini ko‘rsatadi. Massalar yig‘indisi 56+32=88.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "88",
+        "unit": "g"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q09",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Original hisob:11,2 g Fe va6,4 g S to‘liq mahsulotga aylansa, umumiy mahsulot massasi necha g?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "g"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "17.6",
+        "feedback": {
+          "correct": "To‘g‘ri. Shu Fe/S massalar nisbatini beshga bo‘lsak, original mashqda 11,2 g Fe va6,4 g S jami 17,6 g mahsulotga mos keladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Shu Fe/S massalar nisbatini beshga bo‘lsak, original mashqda 11,2 g Fe va6,4 g S jami 17,6 g mahsulotga mos keladi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Shu Fe/S massalar nisbatini beshga bo‘lsak, original mashqda 11,2 g Fe va6,4 g S jami 17,6 g mahsulotga mos keladi.",
+            "fact_ids": [
+              "scaled"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "17.6",
+        "unit": "g"
+      },
+      "fact_ids": [
+        "scaled"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p14-r1-q10",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "100 g boshlang‘ich namunadan 56 g qattiq qoldiq bo‘lsa, qolgan gaz mahsuloti massasi necha g?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "g"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "44",
+        "feedback": {
+          "correct": "To‘g‘ri. Kitob masalasida 50 g CaCO3 dan 28 g CaO qoladi: massa farqi 22 g. Xuddi shu nisbatdagi original 100 g namunada 56 g qattiq mahsulot va44 g gaz massasi bo‘ladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kitob masalasida 50 g CaCO3 dan 28 g CaO qoladi: massa farqi 22 g. Xuddi shu nisbatdagi original 100 g namunada 56 g qattiq mahsulot va44 g gaz massasi bo‘ladi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kitob masalasida 50 g CaCO3 dan 28 g CaO qoladi: massa farqi 22 g. Xuddi shu nisbatdagi original 100 g namunada 56 g qattiq mahsulot va44 g gaz massasi bo‘ladi.",
+            "fact_ids": [
+              "gas"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph14",
+                "topic_title": "Massaning saqlanish qonuni",
+                "paragraph": 14,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  22
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph14-page43"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph12",
+                "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+                "paragraph": 12,
+                "printed_pages": [
+                  40
+                ],
+                "pdf_pages": [
+                  21
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph12-page40"
+              }
+            ]
+          }
+        ],
+        "expected": "44",
+        "unit": "g"
+      },
+      "fact_ids": [
+        "gas"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph14",
+          "topic_title": "Massaning saqlanish qonuni",
+          "paragraph": 14,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            22
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph14-page43"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph12",
+          "topic_title": "Kimyoviy reaksiyalarning sodir bo‘lishi. Kimyoviy reaksiya tenglamalari. Koeffitsientlar",
+          "paragraph": 12,
+          "printed_pages": [
+            40
+          ],
+          "pdf_pages": [
+            21
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph12-page40"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph12"
+  ]
+}

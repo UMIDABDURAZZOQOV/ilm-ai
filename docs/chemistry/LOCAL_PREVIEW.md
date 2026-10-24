@@ -84,3 +84,11 @@ separate debug entrypoint only. Do not commit tokens or reuse it for production.
 Older development sandboxes preserve older immutable snapshots; source-copy
 review fixes require a fresh sandbox, not importer overwrite. Formula/equation
 input is now supported within ASSESSMENT_CONTRACT.md's explicit finite bounds.
+
+
+## Batch05 final immutable sandbox
+
+Current final21-lesson QA uses a fresh synthetic900003 sandbox at
+`C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch05-final-qa`, loopback8899.
+Old sandboxes and their immutable rows/snapshots remain intact. Defines/tokens
+stay private; no production application/router publication is implied.

@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 16,
+  "implemented_lessons": 21,
   "grades": [
     {
       "grade": 7,
@@ -11,13 +11,8 @@
       "laboratories": 16,
       "practicals": 7,
       "source_teaching_entries": 74,
-      "implemented_lessons": 16,
+      "implemented_lessons": 21,
       "remaining_ids": [
-        "ch7-paragraph14",
-        "ch7-paragraph15",
-        "ch7-paragraph16",
-        "ch7-paragraph17",
-        "ch7-paragraph18",
         "ch7-paragraph19",
         "ch7-paragraph20",
         "ch7-paragraph21",
@@ -72,6 +67,11 @@
         "ch7-laboratory15",
         "ch7-laboratory16"
       ],
+      "pending_source_review_ids": [
+        "ch7-p13-p41-percentage-discrepancy",
+        "ch7-p18-ozone-context-review"
+      ],
+      "source_review_complete": false,
       "course_ready": false
     },
     {
@@ -143,6 +143,8 @@
         "ch8-laboratory09",
         "ch8-laboratory10"
       ],
+      "pending_source_review_ids": [],
+      "source_review_complete": true,
       "course_ready": false
     },
     {
@@ -216,6 +218,10 @@
         "ch9-laboratory16",
         "ch9-laboratory17"
       ],
+      "pending_source_review_ids": [
+        "ch9-p40-page186-configuration-conflict"
+      ],
+      "source_review_complete": false,
       "course_ready": false
     },
     {
@@ -269,6 +275,8 @@
         "ch10-laboratory05",
         "ch10-laboratory06"
       ],
+      "pending_source_review_ids": [],
+      "source_review_complete": true,
       "course_ready": false
     },
     {
@@ -314,11 +322,14 @@
         "ch11-paragraph32",
         "ch11-paragraph33"
       ],
+      "pending_source_review_ids": [],
+      "source_review_complete": true,
       "course_ready": false
     }
   ],
+  "integrated_source_activities": 2,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 1,
+  "open_editorial_review_issues": 2,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

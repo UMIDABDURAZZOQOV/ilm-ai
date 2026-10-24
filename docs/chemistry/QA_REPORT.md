@@ -163,3 +163,35 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No fresh PostgreSQL/full-backend/browser/native-device suite in this batch;
   older results remain historical. Native IME/TalkBack and teacher review are
   not certified. No source PDFs/OCR, credentials, production data or main merge.
+
+
+## Batch05 — 2026-10-24
+
+- Five new reviewed lessons §14–18, including both chapterI review anchors:
+  **21/268 implemented,247 remaining**. Batch37 cards/64 assessments; total133
+  cards/236 assessments (124 MCQ,54 short,45 numeric,5 formula,8 equation).
+- Final complete Chemistry suite: **157 passed,1 skipped,1 existing warning,
+  204.59s**. The opt-in PostgreSQL test was skipped; no fresh PostgreSQL claim.
+  Final focused batch05 also passed15 tests/15.63s. Critical Ruff clean.
+  An initial Windows wildcard invocation found no files; explicit file-list
+  invocation produced the complete result above.
+- Full Flutter suite with current Dart changes: **482 passed,1m44s**; analysis
+  **No issues found,130.9s**. After final backend copy/coverage and sanitized
+  fixture export, seven source tests passed again,4s, with320x568/200% captures.
+  Actual widget images were visually inspected; source groups wrap separately.
+- Prior-paragraph, chapter-review and practical source links retain actual book,
+  topic, page and activity identity. Optional shared source labels preserve the
+  existing default Biology behavior. No independent native/browser/IME/TalkBack
+  or teacher certification is claimed. No fresh debug web build in this batch.
+- Fresh final local staging sandbox imported all21 immutable manifests; real
+  loopback HTTP completed **236 questions/420 once-onlyXP**, identical repeated
+  completion and hidden private grading before submission. Synthetic900003 only.
+  A separate earlier continuity run preserved16 completions/320XP then added5
+  lessons/100XP; its60-question new-batch copy predates the final64 questions.
+  These are distinguished rather than misreported as the same run.
+- Original five PDF hashes verified and817 pages decoded again. Source holds:
+  one scientific blocker and two scoped editorial issues. Readiness also checks
+  these issues, so file counts alone cannot enable a complete course.
+- Existing development imports/snapshots and real users are unchanged. Original
+  §1 bytes remain unchanged. Only separate Chemistry feature branches are used.
+  No PDF/OCR/fulltext/token upload, production DB/deploy or main merge.

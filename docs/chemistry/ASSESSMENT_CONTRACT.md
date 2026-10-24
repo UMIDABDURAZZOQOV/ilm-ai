@@ -50,3 +50,13 @@ calculation. It supports a full keyboard for case, parentheses, e and arrows,
 uses the common feedback/result/exit components, and refuses an attempt returned
 for a different requested lesson. Public fixtures are captured from the actual
 isolated backend; private specs and tokens never enter frontend start payloads.
+
+
+## Explicit source context (batch05)
+
+Optional source_context_ids must refer to earlier teaching records in the same
+book; source_activity_ids only attach same-chapter review anchors to the final
+preceding teaching lesson. Every source ref and image evidence retains its own
+topic ID/title, paragraph or null review number, printed page and spread side.
+Future/unknown/duplicate/undeclared/misidentified contexts fail validation.
+Known source holds cannot be bypassed by citing them in another lesson.

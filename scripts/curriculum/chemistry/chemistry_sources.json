@@ -1155,7 +1155,43 @@
             "record_id": "ch7-paragraph19",
             "printed_page": 58,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p18-ozone-context-review",
+              "status": "open_review",
+              "printed_pages": [
+                57,
+                58
+              ],
+              "pdf_pages": [
+                29,
+                30
+              ],
+              "regions": [
+                "right",
+                "left"
+              ],
+              "scope": "Ozone thickness interpretation, resin-formation context and present-day exposure instruction are withheld, not graded knowledge.",
+              "withheld_claims": [
+                {
+                  "id": "layer_thickness_context",
+                  "printed_page": 57,
+                  "reason": "The2–4.5mm layer statement does not state the reduction/interpretation conditions. Do not teach it as literal stratospheric geometric thickness."
+                },
+                {
+                  "id": "resin_formation_conditions",
+                  "printed_page": 57,
+                  "reason": "The conifer/resin oxidation formation statement lacks reaction/condition context; no unconditional causal rule is authored."
+                },
+                {
+                  "id": "current_exposure_limit",
+                  "printed_page": 58,
+                  "reason": "The edition10^-5% figure has not been validated as current exposure guidance and is not a graded safety limit."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

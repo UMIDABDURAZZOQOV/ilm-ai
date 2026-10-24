@@ -57,8 +57,11 @@ def lessons(db, grade=7):
 
 
 def catalog(db, uid, grade=7):
+    from services.chemistry_validation import load_catalog, source_review_issues
     if grade not in SOURCE_SECTIONS:
         raise HTTPException(422, "unsupported_chemistry_grade")
+    source_book = next(b for b in load_catalog()['books'] if b['grade'] == grade)
+    review_issues = source_review_issues(source_book)
     progress = {
         p.lesson_key: p for p in db.query(ChemistryProgress).filter_by(user_id=uid)
     }
@@ -90,8 +93,10 @@ def catalog(db, uid, grade=7):
         "source_sections": SOURCE_SECTIONS[grade],
         "implemented_sections": len(result),
         "course_complete": False,
+        "source_review_pending": bool(review_issues),
+        "source_review_issue_count": len(review_issues),
         "grade_content_complete": [r["sequence"] for r in result]
-        == list(range(1, SOURCE_SECTIONS[grade] + 1)),
+        == list(range(1, SOURCE_SECTIONS[grade] + 1)) and not review_issues,
         "available_grades": [
             g
             for g in SOURCE_SECTIONS

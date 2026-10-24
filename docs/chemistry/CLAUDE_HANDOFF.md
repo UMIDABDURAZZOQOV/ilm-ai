@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-16 reviewed lessons through grade7 §13, including practical1–3;252 remain. All
+21 reviewed lessons through grade7 §18, including practical1–3;247 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next paragraph is grade7 §14, printed42–43, followed by §15, §16 and chapterI
-review anchors before chapterII §17. Keep review anchors visible without double
-counting them as additional teaching entries.
+Next paragraph is grade7 §19, printed58–60, followed by §20, §21,
+practical4 and §22. ChapterI's two review anchors are integrated into §16 with
+their actual topic identities; do not double-count or mislabel them.
 
 ## Review and development notes
 
@@ -67,3 +67,15 @@ PDF/OCR/page images and tokens remain private. No production DB/deploy/main merg
 other-subject branch edit, AI Tutor/Explain or physical hazardous activity is
 authorized. Native phone/IME/TalkBack and independent teacher sign-off are not
 claimed by widget/source-image tests.
+
+
+## Batch05 provenance and readiness
+
+Prior-topic context is explicit, earlier in the same book and page validated.
+Chapter-review anchors attach only to their preceding teaching section. Source
+buttons retain their real paragraph/review/practical labels; default Biology
+source behavior is unchanged. Source issues prevent complete-course readiness.
+Grade7 §18 ozone thickness interpretation, resin-formation context and old
+exposure figure remain withheld under ch7-p18-ozone-context-review. Do not
+convert the 2–4.5mm statement into geometric stratospheric thickness or teach
+the edition's 10^-5% figure as a current exposure guideline.

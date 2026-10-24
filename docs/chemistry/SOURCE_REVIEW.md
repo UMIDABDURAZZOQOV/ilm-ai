@@ -182,3 +182,28 @@ answer or learning policy changed; §1 bytes remain unchanged. The validator now
 rejects replacement characters and question marks embedded in words. Old local
 QA imports remain immutable, and corrected content is loaded into a fresh
 synthetic sandbox. No real user data or old attempt snapshots were rewritten.
+
+
+## Batch05 original image review (2026-10-24)
+
+Grade7 §14–18, printed42–58/PDF22–30, reviewed against original spreads,
+including chapterI problem/test anchors47–54. §16 integrates both review anchors
+under their actual identities. Prior §12/40 carbonate products, §10/34 CO2 molar
+mass and §15/43 gas-volume rule remain explicitly linked to those earlier topics.
+All five oxygen-preparation equations and atomic [O] notation were checked;
+these are symbolic tasks, never physical preparation instructions. The density
+table1.429 and later1.428 g/l text are not universal precision answer keys.
+
+### Scoped ozone-context issue: §18, printed57–58
+
+The 2–4.5mm layer statement lacks reduction/interpretation conditions; resin
+oxidation formation wording lacks reaction context; the old 10^-5% exposure
+figure is not approved current exposure guidance. These three claims are
+withheld from teaching/graded answers, not replaced from model memory. A pinned
+editorial issue and answer guards preserve the review. Unambiguous allotropy,
+formula, preparation equations and protective atmosphere role remain separately
+sourced. No claim that every ozone clause is resolved or teacher-certified.
+
+Readiness now checks open source-review issues as well as missing lesson IDs.
+There is one blocking scientific hold and two scoped editorial issues. All
+whole-course ready flags remain false.

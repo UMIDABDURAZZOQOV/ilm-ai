@@ -4,56 +4,56 @@
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7 | 6 | 51 | 16 | 7 | 74 | 16 | 58 |
+| 7 | 6 | 51 | 16 | 7 | 74 | 21 | 53 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 0 | 59 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 16 | 252 |
+| Total | 29 | 204 | 49 | 15 | 268 | 21 | 247 |
 
-All five maps exist. All whole-course ready flags remain false. The327 catalogue
-records include containers, prefaces, reviews and child anchors; these are not
-double-counted as268 finished lessons. Only explicitly indexed, reviewed lessons
-count as implemented. This is an isolated local preview, not course publication.
+All five maps exist; all course-ready flags remain false. The 327 catalogue
+records include containers, prefaces, reviews and child anchors. Only explicitly
+indexed, reviewed teaching lessons count toward 268. Open source issues also
+prevent course readiness even if all topic IDs eventually have lesson files.
+
+Total: 133 cards; 236 assessments: 124 concept_selection, 54 short_text, 45 numeric_value, 5 chemical_formula, 8 chemical_equation.
 
 ## Initial §1
 
-1 lessons;8 theory cards. 9 concept_selection, 3 short_text.
+1 lessons; 8 cards; 9 concept_selection, 3 short_text.
 
 ## Batch02: §2, practical1–2, §3–4
 
-5 lessons;30 theory cards. 32 concept_selection, 12 short_text, 8 numeric_value.
+5 lessons; 30 cards; 32 concept_selection, 12 short_text, 8 numeric_value.
 
 ## Batch03: §5–6, practical3, §7–8
 
-5 lessons;28 theory cards. 32 concept_selection, 17 short_text, 3 numeric_value.
+5 lessons; 28 cards; 32 concept_selection, 17 short_text, 3 numeric_value.
 
 ## Batch04: §9–13
 
-5 lessons;30 theory cards. 25 concept_selection, 11 short_text, 2 chemical_formula, 14 numeric_value, 4 chemical_equation.
+5 lessons; 30 cards; 25 concept_selection, 11 short_text, 2 chemical_formula, 14 numeric_value, 4 chemical_equation.
+
+## Batch05: §14–18 and chapterI review anchors
+
+5 lessons; 37 cards; 26 concept_selection, 11 short_text, 4 chemical_equation, 20 numeric_value, 3 chemical_formula.
 
 ## Current continuation
 
-Completed grade7 through §13, including practical1–3. Next is **§14, Massaning
-saqlanish qonuni**, printed42–43 / PDF22:left–right. Then §15, §16 and chapterI
-review anchors before chapterII §17. Source images through printed61 have been
-rendered in preparation; reading/rendering does not make a lesson implemented.
+Completed grade7 through §18, including practical1–3 and both chapterI
+review anchors, without double-counting the reviews as new teaching entries.
+Next: **§19**, printed58–60. Then §20, §21, practical4, §22 in book order.
 
-Current deterministic kinds: MCQ, short text, fixed-unit numeric values, formula
-notation and finite chemical equations. No general structural/ionic/charge or
-automatic reaction engine is claimed. See ASSESSMENT_CONTRACT.md.
+Supported: MCQ, bounded short text, fixed-unit numeric, reviewed formulas and
+finite equations. See ASSESSMENT_CONTRACT.md for exact limits.
 
-One blocking grade9 §40 scientific hold and one scoped grade7 §13 editorial
-percentage issue remain visible. The latter disputed values cannot become
-answer keys; unambiguous parts have separate evidence. See SOURCE_REVIEW.md.
+Open issues: grade9 §40/186 scientific hold; grade7 §13/41 percentage discrepancy;
+grade7 §18/57–58 ozone context/exposure ambiguity. Disputed claims are withheld,
+not silently corrected. See SOURCE_REVIEW.md. No whole course is ready.
 
-Eight apostrophes in four development files were restored after a Windows pipe
-encoding fault. Scientific facts/keys are unchanged, review hashes renewed,
-original §1 preserved. Existing imported QA rows/snapshots are not overwritten;
-a fresh synthetic sandbox uses the corrected manifests.
+Original §1 is preserved. Corrected development manifests use fresh synthetic
+sandboxes; existing imported rows/attempt snapshots are never overwritten.
+No real-user, production, other-subject branch or main operation.
 
-The earlier handoff calling §2 safety was wrong: §2 is substance properties;
-safety is practical1. Original book order/count stays unchanged.
-
-See CHECKPOINT.md for commits/tests and CURRICULUM_ALIGNMENT_2026.md for official
-programme differences. Remaining252 entries are not finished lessons.
+See CHECKPOINT.md for exact commits/tests and CURRICULUM_ALIGNMENT_2026.md
+for the separate official-programme comparison. Remaining247 are not finished.

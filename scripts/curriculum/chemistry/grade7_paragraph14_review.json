@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph14.json",
+  "lesson_sha256": "1b9ba11b5580935df70faec57ccf2cec5a6568d7d89ad828d4283af84602fcde",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Mass conservation is applied to the complete set of reactants/products; an escaped gas is not lost matter.",
+    "Original100g carbonate example scales the printed50g/28g problem; gas identity is explicitly sourced to earlier paragraph12, printed40.",
+    "Historical attributions and resource-recovery anecdotes are not presented as independently verified chronology or current industrial recovery percentages.",
+    "All reactions/calculations are digital analysis, not reagent preparation or heating tasks.",
+    "Final editorial review: readable word/number spacing and direct learner explanations. Scientific data, expected answers and source identities preserved."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph14-page42",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph14",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 42,
+      "pdf_page": 22,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "79c3b61d37815c749e1c2391fa5b68155e3f396fa4d04796171ed4a2f764f57f",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph14-page43",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph14",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 43,
+      "pdf_page": 22,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "79c3b61d37815c749e1c2391fa5b68155e3f396fa4d04796171ed4a2f764f57f",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph12-page40",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph12",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 40,
+      "pdf_page": 21,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "024962d6fef107ba17f1b681882a3f023f5f6a6cd2148342f4fd6d67d361dd54",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

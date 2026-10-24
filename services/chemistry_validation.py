@@ -30,7 +30,10 @@ PINNED_IDENTITIES = {
 TEACHING_KINDS = {"paragraph", "laboratory", "practical"}
 HEADING_STATES = {"body_text_heading_verified", "body_image_heading_verified"}
 KNOWN_SOURCE_HOLDS = {'ch9-paragraph40': 'ch9-p40-page186-configuration-conflict'}
-KNOWN_EDITORIAL_ISSUES = {'ch7-paragraph13': 'ch7-p13-p41-percentage-discrepancy'}
+KNOWN_EDITORIAL_ISSUES = {
+    'ch7-paragraph13': 'ch7-p13-p41-percentage-discrepancy',
+    'ch7-paragraph18': 'ch7-p18-ozone-context-review',
+}
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
 
@@ -134,11 +137,18 @@ def load_catalog():
     return validate_catalog(read_json(SOURCE_PATH))
 
 
+def source_review_issues(book):
+    return [issue['id'] for r in book['records'] for issue in
+            ([r['source_review_hold']] if r.get('source_review_hold', {}).get('status') == 'open' else [])
+            + [i for i in r.get('editorial_review_issues', []) if i.get('status') == 'open_review']]
+
+
 def readiness(catalog, lessons=()):
     ready = {lesson["topic_id"] for lesson in lessons}
     result = []
     for book in catalog["books"]:
         rows = [r for r in book["records"] if r["kind"] in TEACHING_KINDS]
+        issues = source_review_issues(book)
         result.append({"grade": book["grade"], "chapters": book["chapter_count"],
                        "paragraphs": book["paragraph_count"],
                        "laboratories": book["laboratory_count"],
@@ -146,7 +156,9 @@ def readiness(catalog, lessons=()):
                        "source_teaching_entries": len(rows),
                        "implemented_lessons": sum(r["id"] in ready for r in rows),
                        "remaining_ids": [r["id"] for r in rows if r["id"] not in ready],
-                       "course_ready": all(r["id"] in ready for r in rows)})
+                       "pending_source_review_ids": issues,
+                       "source_review_complete": not issues,
+                       "course_ready": all(r["id"] in ready for r in rows) and not issues})
     return result
 
 
@@ -189,6 +201,31 @@ def validate_lesson(catalog, lesson, review):
             lesson.get("prerequisite_ids") == topic["prerequisite_ids"], "lesson_order_mismatch")
     require(type(lesson.get("revision")) is int and lesson["revision"] > 0,
             "positive_reviewed_revision_required")
+    records = {r['id']: r for r in book['records']}
+    allowed_sources = {topic['id']: topic}
+    for field in ('source_context_ids', 'source_activity_ids'):
+        linked = lesson.get(field, [])
+        require(type(linked) is list and all(type(x) is str for x in linked)
+                and len(linked) == len(set(linked)),
+                'explicit_unique_source_links_required')
+        for identifier in linked:
+            record = records.get(identifier)
+            require(record and identifier not in allowed_sources
+                    and identifier not in KNOWN_SOURCE_HOLDS
+                    and record.get('source_review_hold', {}).get('status') != 'open',
+                    'unknown_or_blocked_linked_source')
+            if field == 'source_context_ids':
+                require(record['kind'] in TEACHING_KINDS and record['sequence'] < topic['sequence'],
+                        'source_context_must_precede_lesson')
+            else:
+                require(record['kind'] == 'review' and record['chapter_id'] == topic['chapter_id'],
+                        'same_chapter_review_anchor_required')
+                predecessors = [r['sequence'] for r in book['records'] if r['kind'] in TEACHING_KINDS
+                                and r['chapter_id'] == record['chapter_id']
+                                and r['printed_start'] <= record['printed_start']]
+                require(predecessors and max(predecessors) == topic['sequence'],
+                        'chapter_review_belongs_to_last_preceding_lesson')
+            allowed_sources[identifier] = record
     pages = {p["review_id"]: p for p in review.get("source_pages", [])}
     require(pages and len(pages) == len(review["source_pages"]), "unique_page_review_required")
 
@@ -196,6 +233,7 @@ def validate_lesson(catalog, lesson, review):
         require(type(refs) is list and refs, "source_references_required")
         for ref in refs:
             evidence = pages.get(ref.get("review_id"))
+            cited = allowed_sources.get(ref.get('topic_id'))
             require(evidence and evidence.get("verification") == "page_image_reviewed"
                     and ref.get("verification") == "page_image_reviewed"
                     and re.fullmatch(r"[0-9a-f]{64}", evidence.get("page_image_sha256", "")),
@@ -203,14 +241,14 @@ def validate_lesson(catalog, lesson, review):
             require(ref.get("book_id") == book["id"] == evidence["book_id"]
                     and ref.get("sha256") == book["sha256"] == evidence["sha256"]
                     and ref.get("file_name") == book["file_name"]
-                    and ref.get("topic_id") == topic["id"] == evidence["topic_id"]
-                    and ref.get("paragraph") == topic["number"], "claim_source_identity_mismatch")
+                    and cited and ref.get("topic_id") == cited["id"] == evidence["topic_id"]
+                    and ref.get("paragraph") == cited["number"], "claim_source_identity_mismatch")
             require(ref.get('book_title') == book['title'] and ref.get('authors') == book['authors']
-                    and ref.get('year') == book['year'] and ref.get('topic_title') == topic['title'],
+                    and ref.get('year') == book['year'] and ref.get('topic_title') == cited['title'],
                     'claim_bibliography_mismatch')
             pp = ref.get("printed_pages", [])
             require(pp == [evidence["printed_page"]] and
-                    topic["printed_start"] <= pp[0] <= topic["printed_end"], "claim_outside_topic")
+                    cited["printed_start"] <= pp[0] <= cited["printed_end"], "claim_outside_topic")
             loc = page_locator(book["grade"], pp[0])
             require(ref.get("pdf_pages") == [loc["pdf_page"]] == [evidence["pdf_page"]]
                     and ref.get("regions") == [loc["region"]] == [evidence["region"]],
@@ -223,7 +261,7 @@ def validate_lesson(catalog, lesson, review):
         require(type(f.get("claim")) is str and f["claim"] and f.get("verified_answers")
                 and all(type(a) is str and a for a in f["verified_answers"]), "fact_answer_evidence_required")
         source_refs(f.get("source_refs"))
-        if topic['id'] in KNOWN_EDITORIAL_ISSUES:
+        if any(r['topic_id'] == 'ch7-paragraph13' for r in f['source_refs']):
             require(not any(UNRESOLVED_PERCENTAGES.search(a) for a in f['verified_answers']),
                     'unresolved_source_percentage_cannot_be_an_answer')
     content = lesson.get("content", {})
@@ -261,6 +299,21 @@ def validate_lesson(catalog, lesson, review):
         ids = fact_links(q)
         require(ids <= taught, "question_fact_not_taught")
         public, spec = q["public"], q["grading_spec"]
+        if any(r['topic_id'] == 'ch7-paragraph18' for r in q['source_refs']):
+            # The book omits the layer-thickness interpretation and current
+            # exposure context. Do not turn those unresolved data into keys.
+            answer_text = spec.get('verified_answer', '')
+            from services.chemistry_grading import canonical_number
+            try:
+                concentration = canonical_number(answer_text.replace('%', '').strip())
+            except ValueError:
+                concentration = None
+            require(public.get('unit') != 'mm' and not any(
+                token in answer_text for token in ('10^-5', '10⁻⁵', '0.00001', '0,00001')),
+                'unresolved_ozone_context_cannot_be_an_answer')
+            require(not ((public.get('unit') == '%' or '%' in answer_text)
+                         and concentration == '0.00001'),
+                    'unresolved_ozone_context_cannot_be_an_answer')
         require(type(public.get("prompt")) is str and public["prompt"]
                 and public["prompt"].casefold() not in prompts, "unique_original_prompt_required")
         prompts.add(public["prompt"].casefold())

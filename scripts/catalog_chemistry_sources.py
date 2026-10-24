@@ -35,9 +35,11 @@ def audit_originals(catalog, directory):
     return total
 
 
-def write_maps(catalog, progress):
+def write_maps(catalog, progress, lessons=()):
     folder = ROOT / "docs/chemistry"
     folder.mkdir(parents=True, exist_ok=True)
+    activities = {identifier: lesson['key'] for lesson in lessons
+                  for identifier in lesson.get('source_activity_ids', [])}
     for book, state in zip(catalog["books"], progress):
         grade = book["grade"]
         lines = [f"# {grade}-sinf: {book['title']} ({book['year']})", "",
@@ -52,6 +54,10 @@ def write_maps(catalog, progress):
             start, end = r["start_locator"], r["end_locator"]
             location = f"{start['pdf_page']}:{start['region']} – {end['pdf_page']}:{end['region']}"
             status = "reviewed local lesson" if r["kind"] in {"paragraph", "laboratory", "practical"} and r["id"] not in remaining else r["content_status"]
+            if r['id'] in activities:
+                status = 'integrated source activity in ' + activities[r['id']]
+            if r.get('editorial_review_issues'):
+                status += '; scoped editorial review remains open'
             if r.get('source_review_hold',{}).get('status') == 'open':
                 status = 'blocked: source review ' + r['source_review_hold']['id']
             lines.append(f"| `{r['id']}` | {r['kind']} {r.get('number') or ''} | {r['title'].replace('|', '/')} | {r['printed_start']}–{r['printed_end']} | {location} | {r.get('toc_printed_start') or 'body only'} | {status} | {', '.join(r['prerequisite_ids']) or '—'} |")
@@ -78,6 +84,7 @@ def main():
               "catalogue_records": sum(len(b["records"]) for b in catalog["books"]),
               "source_teaching_entries": sum(s["source_teaching_entries"] for s in progress),
               "implemented_lessons": len(lessons), "grades": progress,
+              "integrated_source_activities": len({i for l in lessons for i in l.get('source_activity_ids', [])}),
               "open_source_review_holds": sum(r.get('source_review_hold',{}).get('status') == 'open'
                                                for b in catalog['books'] for r in b['records']),
               "open_editorial_review_issues": sum(i.get('status') == 'open_review'
@@ -87,7 +94,7 @@ def main():
     if args.pdf_dir:
         result["original_pdf_pages_decoded"] = audit_originals(catalog, args.pdf_dir)
     if args.write_maps:
-        write_maps(catalog, progress)
+        write_maps(catalog, progress, lessons)
     if args.report:
         args.report.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in result.items() if k != "grades"}, indent=2))
