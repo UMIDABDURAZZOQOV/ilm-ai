@@ -1,55 +1,61 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch07. Continue automatically; no routine approval needed.
+2026-10-24,batch08. Continue automatically; no routine approval needed.
 
-- Backend implementation: `77b052322b9fca2a818f119e723cf3f1f2a56387`.
-- Flutter implementation: `972f2dee9ceb6ca8967bc4c9d5bf235e0c39f4c2`.
+- Backend implementation:`840cba1f175c45043f0dfd3ea2d76052376cbb5c`.
+- Flutter implementation:`524c9f527409ca810685c45f6bc5b35f25ea7cd5`.
 - Both separate branches `feat/chemistry-curriculum`; other subjects untouched.
-- Completed grade7 through **§27**,practical1–4,chapterI/II/III reviews:
-  **31/268 implemented,237 remaining**. Grade7:31/74,43 remaining; others:0.
-- Total211 cards/343 assessments:163 MCQ,75 short,68 numeric,11 formula,26 equation.
-  Batch07:40 cards/55 questions. Five review anchors integrated,not extra lessons.
-- Full Chemistry188 passed,1 skipped (opt-in PostgreSQL),1 existing warning,
-  464.06s. After a prompt-only edit,targeted20 passed/28.91s; keys unchanged.
-- Final full Flutter484 passed/104s,analysis clean/118.7s. Two final water tests
-  passed at320px/200%;actual widget captures inspected. Shared optional feedback
-  source slot shows Chemistry exact references; other callers unchanged.
-- Fresh final staging/real HTTP completed all31 lessons/343 questions/620 once-only
-  XP,replay identical,private grading hidden. Synthetic900003 only. Earlier
-  continuity run preserved26 lessons/520XP then added5/100XP. Old snapshots intact.
-- Current private sandbox: `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,
-  loopback8900. Defines/token stay private. Prior8899 sandbox has an older water
-  prompt; importer correctly refuses overwriting that row. Do not resume it with
-  current manifests. Latest final8900 is append-compatible while31 bytes unchanged.
-- All817 original PDF pages decoded again,five SHA identities verified. One grade9
-  §40 scientific hold and nine grade7 scoped editorial issues remain open:§13,
-  §18,§19,§20,§24,§26,review ch7-4,§27,§28. See SOURCE_REVIEW.md. No silent repairs;
-  all whole-course ready flags false. Original§1 bytes remain identical.
-- No production/main/real-user/other-subject/AI action. No fresh web build/native/
+- Completed grade7 through **§32**,practical1–4,five chapterI/II/III review anchors:
+  **36/268 implemented,232 remaining**. Grade7:36/74,38 remaining; others:0.
+- Total246 cards/385 assessments:182 MCQ,86 short,80 numeric,11 formula,26 equation.
+  Batch08 adds35 cards/42 questions. No artificial calculation/formula kind where
+  inappropriate; review anchors are not extra teaching entries.
+- Full Chemistry208 passed,1 skipped (opt-in PostgreSQL),1 existing warning,
+  263.72s. Targeted batch20 passed/18.30s; critical Ruff clean. Original§1 unchanged.
+- Full Flutter486 passed/74s,analysis clean/117.8s. Final2 molar tests/3s at320px/
+  200% verified visible mol/l helper,exact0,4 input,§10/34 and§32/91 source sides.
+  Actual captures inspected. No production widget change in batch08.
+- HTTP preserved31 completions/620XP,appendedfive immutable lessons,answered42
+  new questions,added100 once-onlyXP,total36/720XP; replay identical,grading hidden.
+  Synthetic900003 only; earlier imported rows/snapshots and real users intact.
+- Current private sandbox:`C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,
+  loopback8900. Append-compatible while earlier36 manifests stay unchanged.
+  Old8899 sandbox has older water prompt; do not overwrite or resume with current
+  manifests. Token/defines/renders/PDF/OCR/fulltext remain private.
+- All817 original pages decoded and five SHA identities verified again. One
+  grade9§40 scientific blocker plus nine grade7 scoped editorial issues remain
+  visible; all whole-course ready flags false. Source86 higher-resolution review
+  confirms375000000km²; no false area issue added. Ocean-volume keys guarded.
+- No production/main/real-user/other-subject/AI operation. No fresh web/native/
   browser/PostgreSQL/IME/TalkBack/independent teacher certification this batch.
 
 ## Exact continuation
 
-Next **grade7 §28**,printed83–84,then §29 (84–85),§30 (85–88),§31 (88–90),
-§32 (90–93). Five teaching entries; practical5 (93–95) follows in next batch.
-Original spreads through PDF47/printed93 are privately rendered and visually read.
-No batch08 lesson is indexed yet. Reread relevant original images for details.
+Next **grade7 practical5**,printed93–95. Preserve both components:concentration
+calculation/label/report and soil aqueous extract/indicator analysis. Then attach
+ch7-6 review95–97 andch7-7 test97–99 to practical5,without double-counting.
+Next teaching entries:§33 (99–102),§34 (102–104),§35 (104–105),§36 (105–107).
+This is five teaching entries for batch09. No batch09 lesson indexed yet.
 
-Known source review points:
-- §28/83 already pins the conflicting ocean-volume figures1.35·10^6km³ versus
-  approximately1.4billionkm³. Neither is an approved key. Avoid current medical
-  dehydration thresholds or treating dated water-use statistics as current.
-- §29 purification is the book's municipal sequence,not home chlorination or
-  an assurance that improvised filtered water is drinkable. Dated WHO figures/
-  2050 forecast are not independently validated current facts.
-- §30/86 area numerals may conflict with the earlier3/4 coverage statement;
-  visually verify digits before any numerical task. Do not fix from memory.
-  Figure35 on87 labels solubility g/l; text defines g/100g solvent. Do not read
-  plotted numbers directly as per100g values. Qualitative trends are separate.
-- §32/91 CM=m*1000/(M*V) requires V in ml,m in g,M in g/mol; CM=n/V uses V in l.
-  Teach units explicitly. Existing grader fixes each numeric question's unit;
-  no arbitrary-unit engine is claimed. Avoid clinical solution-use directions.
+Original spreads through PDF54/printed107 rendered privately. Pages through99
+visually read;100–107 still need visual reading. Reread93 before practical
+authorship. The source formula M(CaCl2)=111g/mol is explicit in review96; no
+invented periodic-table constant is needed for its original variants.
 
-All physical labs remain guided digital analysis. Keep PDF/OCR/fulltext/renders
-and tokens private. Validate/test/local-import,update docs,commit/push feature
-batches,and continue automatically through all five supplied grades.
+Source points to review in batch09:
+- Practical5/94 says universal indicator yellow→pink for alkaline soil; verify
+  against supplied-book context before teaching. Litmus violet→blue is separately
+  printed. No physical soil reagent setup,agricultural treatment or home chemistry.
+- Review98 asks18g water vapour volume above100°C without pressure/temperature
+  sufficient for a unique gas volume; do not silently use22.4l normal-state volume
+  there. The4°C liquid-density part can be separately source-backed.
+- Source99 backward reference says26-page,§9 for simple/compound; original§9 is
+  formulas on30,while simple/compound is§7 on26. Retain actual context identity,
+  not the book's mistaken paragraph pointer.
+
+Massa ulushi denominator is whole solution; eruvchanlik uses solvent mass.
+CM=n/V uses litres; mass form m*1000/(M*V) uses g,g/mol,ml. No arbitrary unit
+converter or unsupported hydrate/isotope/structural input is claimed.
+
+Validate/test/local-import,update docs,commit/push feature batches and continue
+automatically in original book order through all five supplied grades.
