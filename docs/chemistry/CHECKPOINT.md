@@ -1,70 +1,64 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch12. Continue automatically in source order.
+2026-10-24,batch13. Continue automatically;no routine approval needed.
 
-- Backend implementation:`bb51022d5ff4f2587399c5caa3a2894a41bb47d3`.
-- Flutter:`efc8c4fd933b765167d0de78adf5c777e6692c7f` (unchanged12).
-- Both separate `feat/chemistry-curriculum` branches;other subjects untouched.
-- **56/268 implemented,212 remaining**. Grade7:56/74,18 remaining.
-  Through§50,practical1–6,eight chapterI–V review anchors integrated.
-- Total393 cards/591 assessments:251 MCQ,122 short,113 numeric,49 formula,
-  56 equation. Batch12:42 cards/59 questions. Reviews are not extra entries.
-- Final full Chemistry306 passed,1 skipped(opt-in PG),1 existing warning,
-  221.15s. Target29 passed/23.31s. Initial full305 passed/one old test assertion
-  counted future reviews;fixed batch11/12 assertions to their own slices,reran
-  full successfully. Critical Ruff/diff checks clean;original§1 unchanged.
-- Full Flutter488 passed/94s. Latest clean analysis87.3s/widget captures are
-  batch11 evidence;no new Dart/native/browser/IME/TalkBack/teacher/PG claim.
-- Real HTTP preserved51 completions/1020XP,passed59 new questions,added100XP
-  once,total56/1120XP,replay identical,grading private. Synthetic900003 only.
+- Backend implementation:`a015288854cc5ac8f236e219d4da724eefa88978`.
+- Flutter:`267a66ecb8c54ed14514443ff211644adebbf6bb`.
+- Separate `feat/chemistry-curriculum` branches;Biology/Physics untouched.
+- **61/268 implemented,207 remaining**. Grade7:61/74,13 remaining.
+  §1–51,practical1–7,labs1–3,nine chapterI–VI review anchors integrated.
+- Total417 cards/630 assessments:266 MCQ,130 short,118 numeric,53 formula,
+ 63 equation. Batch13:24 cards/39 questions. Reviews are not extra entries.
+- Full Chemistry325 passed,1 skipped(opt-in PG),1 existing warning/409.04s.
+  Target19 passed/22.03s. Full Flutter490 passed/137s;analysis clean65.2s.
+  Two new widgets/1s;320×568/200% lab source/light and short feedback/dark
+  captures visually inspected. Critical Ruff/diff clean;original§1 unchanged.
+- HTTP preserved56 completions/1120XP,passed39 new questions,added100XP once;
+  total61/1220XP,replay identical,grading private. Synthetic900003 only.
 - Private sandbox:`C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,
-  loopback8900,server PID14644 at checkpoint;verify before stop. Earlier56
-  manifests immutable. Fresh sandbox if existing key content is revised.
-  Private tokens/defines and old source-copy snapshots remain outside Git.
-- Full-index batch import revalidates once before any write,without caller
-  documents/cache;per-row immutability retained. Earlier review contexts must
-  already be integrated and precede current topic. ChapterV review ch7-8 belongs
-  to§49;M(NaOH)=40 comes from earlier ch7-6/96. Eight integrated reviews total.
-- All817 pages decoded,five source SHA identities verified. One grade9§40
-  scientific blocker plus23 editorial reviews remain. Latest:legacyKJ125,
-  missingCu130/legacyNaJ132,clinical/current/saline-density133–134,sulfurCO2
-  typo/precision/gas/unit scope137–140. No silent correction;all ready flagsfalse.
+  loopback8900,server PID22684 at checkpoint;verify before stop. Earlier61
+  manifests immutable;fresh sandbox if existing key revised. Tokens outside Git.
+- Full-index batch importer validates once before any write each call,no caller
+  documents/cache. Per-row immutability retained. Earlier review contexts must
+  already be integrated and precede new topic. No new learning or XP mechanism.
+- Distinct laboratory keys lab01–03 and source labels work through existing
+  common MCQ/FRQ UI. Blank147 table is not fabricated experimental data.
+- All817 pages decoded,five SHA identities verified. One grade9§40 blocker plus
+ 25 editorial reviews remain. Latest practical7 clinical/purity and ch7-9
+  CO2-product/copper-loss scope. No silent correction;all course-ready false.
 - No production/main/real-user/other-subject/AI/PDF/OCR/fulltext/token operation
-  or independent scientific/teacher certification.
+  or independent teacher/native/browser/IME/TalkBack/PG/full-backend certification.
 
 ## Exact continuation
 
-Next **§51**(141–143),**practical7**(143–144),then16 individual labs147–155.
-Suggested batch13:these first2+labs1–8=10 entries,then batch14:labs9–16=8.
-Original pages141–155/PDF71–78 have now ALL been visually read,including exact
-shared-page headings. PDF75 newly rendered;other existing PNGs not overwritten.
+Next **laboratories4–11** (8 entries,sequence62–69),then12–16(5 entries).
+Original141–155/PDF71–78 have all been visually read;images remain private.
+Private helper now handles laboratory keys and digital notes correctly;never
+rerun old author scripts on indexed content. All new content must be manual,
+source-reviewed and pinned,not filled from model memory or OCR guesses.
 
-Before next authoring:
-- Private helper's non-paragraph key currently always says practical. Add the
-  laboratory key type before labs,without touching earlier indexed lessons.
-  Flutter already recognises practical/laboratory source IDs for labels.
-- §51 complete printed material equations141–142 may be reused;diagram arrows
-  are relationships with conditions,not a universal direct-reaction engine.
-- Practical7:retain all5 inquiry components as digital analysis;unknown black
-  powder143 has no fabricated purity/observation result. Indicator-table virtual
-  data may link actual111/118;CuO/CuCl2/CuOH2 loop144 must use reviewed equations.
-  Clinical Regidron recipe144 is not an assigned treatment/preparation task.
-  Arithmetic144 can use explicit virtual mass-fraction models,with declared
-  rounding. Do not infer solution mass from1l water without convention.
-- ChapterVI review ch7-9(145–146) belongs to practical7.146 CO2-volume question
-  does not specify carbonate/bicarbonate product;record scope before grading.
-- Lab1 table147 is BLANK:do not invent sample densities/colours/measurements.
-  Lab2 odour/ether tasks149 become recognition only,no inhalation instructions.
-- Labs3–5 preserve separate burning/copper/carbonate and combination/decompose/
-  displacement components,using actual earlier equations/source links. No heat,
-  flames,gas generation,acid setup or claimed real observations/certification.
-- Lab7 sample properties are unspecified;no invented fuel efficiency values.
-- Labs8–16 use earlier reviewed equations/formulas and explicitly original
-  digital conditions. No H2 ignition/collection,unprovided CuOH2 colour or
-  clinical doses. Lab15 H2SO4 concentration/heating scope is unspecified;do
-  not grade a universal Cu/H2SO4 product or no-reaction claim.
-- Grade selection in Flutter remains hardcoded7:generalise safely before grade8
-  integration,without changing common learning/XP/prerequisite/replay rules.
+- Lab4(150):simple/compound and metal/nonmetal classification;earlier§7/26 and
+  §33/100 supply exact named examples. Do not invent sample measurements.
+- Lab5(150–151):retain all3 modes—CaO/water combination,malachite decomposition,
+  Fe/CuCl2 displacement. Existing complete equations111/106 and earlier
+  substitution46/FeCl2 model142 can support explicitly original solutions.
+  No flames,heating,ignition,gas collection or real reagent task.
+- Lab6(151):oxide sample table is blank. Use exact prior formulas/definitions,
+  not fabricated colour/density results. Lab7(151) fuel sample values also blank;
+  prior§21/63 has explicit solid/liquid/gas fuel examples,not efficiency numbers.
+- Lab8(151–152):Zn/HCl,H2,ZnCl2 can use earlier reviewed§24/70 or§48/130;
+  no H2 generation/ignition/evaporation or unprovided crystal observations.
+- Lab9(152):prior§25/73 explicitly CuO+H2=Cu+H2O;no apparatus/physical heat.
+- Lab10(152–153):CaO/P2O5/water/indicator comparison and CuO/water inquiry.
+  Keep exact prior111/118/117 equations/tables;no inferred universal oxide/water
+  reaction or fabricated observation. Earlier review135 CuOH2 route is salt/alkali.
+- Lab11(153):CuOH2/FeOH3 plus H2SO4/HCl;original balanced model questions may
+  explicitly give products using prior formula/neutralisation rules. No invented
+  actual crystal/colour result or unsafe acid/evaporation instructions.
+- Labs12–16(154–155):no unverified initial CuOH2 colour,clinical recipes,real
+  reagent/heating/gas work. Lab15 H2SO4 concentration/heat unspecified—record
+  condition scope before any universal Cu/H2SO4 product/no-reaction key.
+- Grade selection remains7 in Flutter;generalise safely before grade8 integration.
 
-Validate/test/local import,update docs/checkpoint,commit/push Chemistry batches
-and continue automatically through grades7–11. No routine approval needed.
+Validate/test/local import,update docs/QA/checkpoint,commit/push Chemistry batches
+and continue automatically through all supplied grades7–11.
