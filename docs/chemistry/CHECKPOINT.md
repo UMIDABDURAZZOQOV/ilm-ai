@@ -1,68 +1,74 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch18. Continue automatically;no routine approval needed.
+2026-10-24,batch19. Continue automatically;no routine approval needed.
 
-- Backend implementation:`fe9d735f79d8a59cee680c0f4f014aea8bec4fcd`.
-- Flutter:`3755ac7518db0cd40756a6679780adc6d08e5bed`.
+- Backend implementation:`894d834cfb5ba1d24d589ed925a89658f052e1fb`.
+- Flutter:`f04ab09886c61e3439f1fc382ad6efd5009a5da2`.
 - Separate `feat/chemistry-curriculum` branches;Biology/Physics untouched.
-- **89/268 implemented,179 remaining**. Grade7 all74 mapped teaching entries;
-  grade8 §1–15 (15/59). Nine grade7 reviews integrated,not extra entries.
-- Total580 cards/895 assessments:350 MCQ,181 short,192 numeric,82 formula,
-  90 equation. Batch18:39 cards/61 questions (18MCQ,13short,26numeric,4formula).
-- Full Chemistry461 passed,1 skipped(opt-in PG),1 existing warning/507.31s.
-  Target40 passed/22.78s. Critical Ruff/diff clean;prior84 manifest bytes unchanged.
-- Full Flutter498 passed/228s;analysis no issues/192.1s. Two new actualHTTP-source
-  real-widget tests/6s cover chapter63/top64,light/dark,320×568/200% text including
-  modal overlay. Actual captures inspected;precise pre-heading location visible.
-  Startup lock serialization completed successfully;no native/browser/IME claim.
-- HTTP preserved84 completions/1680XP,passed61 questions,added100XP once;
-  total89/1780XP,replay identical,grade7 catalog unchanged. Synthetic900003 only.
+- **94/268 implemented,174 remaining**. Grade7 all74 mapped teaching entries;
+  grade8 §1–20 (20/59). Nine grade7 reviews integrated,not extra entries.
+- Total624 cards/961 questions:367 MCQ,190 short,215 numeric,86 formula,
+  103 equation. Batch19:44 cards/66 questions (17/9/23/4/13 respectively).
+- Full Chemistry505 passed,1 skipped(opt-in PG),1 existing warning/846.50s.
+  Target44 passed/33.67s. Critical Ruff/diff clean;prior89 manifests unchanged.
+- Full Flutter500 passed/214s;analysis no issues/225.7s. Two actualHTTP FRQ widget
+  tests/9s,320×568/200%,light/dark. Four input/feedback captures inspected.
+  Long equation wraps in scroll flow;source and pinned continue usable.
+- HTTP preserved89 completions/1780XP,passed66 questions,added100XP once;
+  total94/1880XP,replay identical,grade7 catalog unchanged. Synthetic900003 only.
+  U+2212 −2 and ASCII -2 canonical replay identical. Numeric grammar stays bounded.
 - Private append-compatible sandbox:
   `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,loopback8900.
-  Own PID15680;verify command before stop. Earlier89 manifests immutable;fresh
-  sandbox if old revision changes. Tokens/defines stay outside Git.
-- Strict chapter context:only current chapter prefix before first teaching
-  paragraph. Its first heading page also requires matching ref+image evidence
-  page_scope=before_first_teaching_heading. Later pages/other chapters/false
-  paragraphs/chapter-as-review rejected. Chapter paragraph:null and actual title.
-  Source groups preserve page_scope;localized source sheet shows heading boundary.
-- Public chapter-intro fixtures use fake attempt ID/future expiry,no tokens or
-  private pre-answer keys. Original§1,prior manifests/progress,real users preserved.
-- Five SHA identities/817 original PDF pages checked. One grade9§40 scientific
-  blocker plus41 editorial reviews remain. La/Ce,universal valence/octet/metal,
-  isotope fractions,EN rescaling and unreviewed molecule geometry held. Ready false.
-- No AI,new orbital/ionic/structure grader,physical experiment,production/main/
-  other-subject/PDF/OCR/fulltext/token/real-user operation or fresh teacher/PG/
-  full-backend/native/browser/IME/TalkBack certification.
+  Own PID16136;verify full command before stop. Earlier94 imported lessons are
+  immutable;fresh sandbox if an old revision changes. Tokens stay outside Git.
+- Five source SHA identities/817 PDF pages checked. One grade9§40 scientific
+  blocker plus46 scoped editorial reviews remain. All course-ready flags false.
+- Preserve strict chapter-prefix boundaries,actual topic titles/null chapter
+  paragraph,source page_scope and original-image SHA. No future source context.
+- No AI,new science parser,physical experiments,production/main/other-subject/
+  real-user/PDF/OCR/fulltext/token operations. Native/browser/IME/TalkBack,
+  independent teacher,PG and whole-backend certification not claimed.
 
 ## Exact continuation
 
-Next grade8 §16–20,sequence16–20:71–74,74–76,76–80,80–83,83–89.
-All original5–89 images rendered privately and visually read. §20 actually ends
-on88;89 starts chapter04/§21. Never rerun indexed author_batch18.py,its final-copy
-or catalog-review initializer. Private author_grade8_helpers.py supports chapter
-refs with null paragraph;for a shared heading page add explicit scope+evidence.
+Next grade8 §21–25:89–92,92–96,96–100,100–103,103–111.
+All original5–111 images now visually read (90–111 during continuation19).
+Chapter04 begins on89 together with§21;there is only a banner before its heading,
+so do not relax chapter-prefix validation for a nonexistent scientific preface.
+Never rerun indexed batch19 author/catalog/final-copy/doc scripts.
 
-Review/source-scope notes for next batch:
-- §16:K+/Cl-/Ar table72 has18 electrons but different nuclear charges17/19/18.
-  Keep actual ion models and signs;no new ionic parser. Broad final73 wording
-  about all bonding via common pairs must not erase ionic-transfer distinction.
-- §17:solid-phase molecular lattice examples explicitly say qattiq holatda.
-  Preserve amorphous exception74,NaCl6 neighbours75,diamond4 neighbours75–76,
-  distinction intramolecular/intermolecular bonds. No all-solids=molecules,
-  universal hardness/melting/volatility key or fabricated measured temperature.
-- §18:neutral compounds'weighted oxidation-number sum0;source H3PO4 gives+5,
-  H peroxide−1 vswater−2,metal hydrideH−1 vsHCl+1. Do not equate all oxidation
-  numbers with literal ionic charge or omit stated peroxide/F/ordinary0 scopes.
-- §19:given unchanged-state CuO/H2SO4 vsNa/Cl redox,CuO/H2 andFe2O3/H2 models;
-  −3→+5 loses8,+4→−2 gains6. Keep free-metal/ion and oxygen-exception scopes;
-  no universal all-metal-species reductant or all-oxygen−2 statement.
-- §20:intermediate unbalanced working lines83–84 are not final keys. Exact final
-  2Al+6HCl=2AlCl3+3H2;8Al+30HNO3=8Al(NO3)3+3N2O+15H2O;
-  2KMnO4=K2MnO4+MnO2+O2;2H2O2=2H2O+O2;Zn+4HNO3=Zn(NO3)2+2NO2+2H2O.
-  Use given-product/material balance and explicit source conditions,not universal
-  nitric-acid product prediction. Keep N2O average/model scope,electron balances
-  as MCQ/numeric/steps;no new charged half-equation syntax or physical heating.
+New source scopes to review before authoring:
+- §21:89 short-table generic highest oxides includes VIII A/RO4;do not teach
+  universal noble-gas oxide.90 unqualified poor conductivity/solubility/bond/oxide
+  generalizations need example scope.91 explicitly He2 vsother inert8 and XeF4
+  exception;do not teach absolutely unreactive noble gases. Water(H2O)n92 is
+  association illustration,not a new definite stoichiometric formula.
+- §22:source short VIIA,7 outer electrons,F−1 in compounds and exact NaF/HCl/
+  KBr/CaI2 models93;neutral atom configurations use recognition,not new parser.
+  Given displacement equations94 and F2/water96 are digital analysis only.
+  Table95 densities have a25°C header requiring condition review before numeric
+  keys;history1866 Moissan date needs review,not memory correction. Iodine has
+  melting+114 in table95 while prose says heating bypasses liquid without
+  conditions:hold the universal claim,retain scoped sublimation concept.
+- §23:Cl2 is a nonpolar molecule;NaCl crystal is not an isolated salt molecule.
+  Exact hot/cold KOH products98–99 differ. Text redox label98 has a grammatical
+  reduction-wording issue;use electron transfer/earlier reviewed roles. Worked
+  chlorine solubility99 uses22.4 L/mol although97 quotes20°C;hold this mixed-state
+  calculation rather than silently accepting0.63% or inventing a correction.
+- §24:distinguish HCl gas and aqueous acid100–102;dry-HCl metals/oxides blanket
+  claim102 needs scope,not a universal key. Written reaction balances are digital
+  models,no preparation/collection/apparatus/heating instructions. Worked102–103
+  has exact stated theoretical100%/n.sh. assumptions;avoid physical procedures.
+- §25:104 identical temperature+pressure and low-pressure gas model;not all
+  substances/all states.10522.4 L/mol only n.sh.;table H2 mass0.002016 differs
+  from later integer2g models,so do not demand an unqualified precision key.
+  Water-vapour107 uses22.4 without suitable gas-state conditions;111 repeats
+  water normal-condition vaporization:hold,no invented temperature/pressure.
+  Mixture107 percentages lack explicit basis and its decimal products are
+  rounded;use clear volume fractions40/60% and37.6/18.8 models109–110 instead.
+  108 water at4°C explicitly1g/cm3 is separate liquid calculation.1092.86*22.4
+  printed64 has unstated rounding;make precision explicit or hold.110 NO2 is a
+  given M46/air29 model,not a universal gas equilibrium-density prediction.
 
-Continue5–10 reviewed lessons,validate/test/local HTTP/import,measured docs,
-checkpoint,commit/push Chemistry and automatically proceed through all grades.
+Continue5–10 source-reviewed lessons,validate/test/local HTTP/import,measured
+docs,checkpoint,commit/push Chemistry feature branches,then proceed all grades.
