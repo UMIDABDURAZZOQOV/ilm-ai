@@ -1,61 +1,68 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch17. Continue automatically;no routine approval needed.
+2026-10-24,batch18. Continue automatically;no routine approval needed.
 
-- Backend implementation:`64fcb3b0f6938389ada63fc2d9452e517408c0f7`.
-- Flutter:`956c465f7cb77a31d6f739adf85e1220a5e0a834` (unchanged17).
+- Backend implementation:`fe9d735f79d8a59cee680c0f4f014aea8bec4fcd`.
+- Flutter:`3755ac7518db0cd40756a6679780adc6d08e5bed`.
 - Separate `feat/chemistry-curriculum` branches;Biology/Physics untouched.
-- **84/268 implemented,184 remaining**. Grade7 all74 teaching entries;grade8
-  §1–10 (10/59). Nine grade7 reviews integrated,not extra teaching entries.
-- Total541 cards/834 assessments:332 MCQ,168 short,166 numeric,78 formula,
-  90 equation. Batch17:35 cards/52 questions (14 MCQ,11 short,27 numeric).
-- Full Chemistry421 passed,1 skipped(opt-in PG),1 existing warning/399.29s.
-  Target31 passed/18.10s. Critical Ruff/diff clean;earlier79 manifest bytes
-  unchanged. Helium8 guard applies only to outer-electron premises,not correct
-  separate first-period H/He and second-period8 facts. All35 issues stay pinned.
-- Full Flutter496 passed/101s. No Dart/fixture change17. Latest analysis38.3s
-  and200% source/grade/FRQ captures are batch16 evidence. No new grading engine.
-- HTTP preserved79 completions/1580XP,passed52 questions,added100XP once;
-  total84/1680XP,replay identical,grade7 catalog unchanged. Synthetic900003 only.
+- **89/268 implemented,179 remaining**. Grade7 all74 mapped teaching entries;
+  grade8 §1–15 (15/59). Nine grade7 reviews integrated,not extra entries.
+- Total580 cards/895 assessments:350 MCQ,181 short,192 numeric,82 formula,
+  90 equation. Batch18:39 cards/61 questions (18MCQ,13short,26numeric,4formula).
+- Full Chemistry461 passed,1 skipped(opt-in PG),1 existing warning/507.31s.
+  Target40 passed/22.78s. Critical Ruff/diff clean;prior84 manifest bytes unchanged.
+- Full Flutter498 passed/228s;analysis no issues/192.1s. Two new actualHTTP-source
+  real-widget tests/6s cover chapter63/top64,light/dark,320×568/200% text including
+  modal overlay. Actual captures inspected;precise pre-heading location visible.
+  Startup lock serialization completed successfully;no native/browser/IME claim.
+- HTTP preserved84 completions/1680XP,passed61 questions,added100XP once;
+  total89/1780XP,replay identical,grade7 catalog unchanged. Synthetic900003 only.
 - Private append-compatible sandbox:
   `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,loopback8900.
-  Own PID28132;verify full command before stop. Earlier84 manifests immutable;
-  fresh sandbox if old revision changes. Defines/tokens never enter Git.
-- All817 pages decoded,five source SHA identities checked. One grade9§40
-  scientific blocker plus35 editorial reviews remain;all ready flags false.
-  Neutral-atom,Integer count vs average mass,conditional B model,maximum vs
-  actual shell occupancy and book short-table/source-era scopes are explicit.
-- No AI,physical experiment,production/main/other-subject/PDF/OCR/fulltext/
-  token/real-user operation or fresh teacher/native/browser/IME/TalkBack/PG/
-  full-backend certification. Course coverage is not scientific issue resolution.
+  Own PID15680;verify command before stop. Earlier89 manifests immutable;fresh
+  sandbox if old revision changes. Tokens/defines stay outside Git.
+- Strict chapter context:only current chapter prefix before first teaching
+  paragraph. Its first heading page also requires matching ref+image evidence
+  page_scope=before_first_teaching_heading. Later pages/other chapters/false
+  paragraphs/chapter-as-review rejected. Chapter paragraph:null and actual title.
+  Source groups preserve page_scope;localized source sheet shows heading boundary.
+- Public chapter-intro fixtures use fake attempt ID/future expiry,no tokens or
+  private pre-answer keys. Original§1,prior manifests/progress,real users preserved.
+- Five SHA identities/817 original PDF pages checked. One grade9§40 scientific
+  blocker plus41 editorial reviews remain. La/Ce,universal valence/octet/metal,
+  isotope fractions,EN rescaling and unreviewed molecule geometry held. Ready false.
+- No AI,new orbital/ionic/structure grader,physical experiment,production/main/
+  other-subject/PDF/OCR/fulltext/token/real-user operation or fresh teacher/PG/
+  full-backend/native/browser/IME/TalkBack certification.
 
 ## Exact continuation
 
-Next grade8 §11–15,sequence11–15:original48–51,51–53,53–63,64–66,66–71.
-All original5–71 images are rendered privately;all5–71 have been visually read.
-Do not rerun indexed author_batch17.py or review_batch17_catalog.py.
+Next grade8 §16–20,sequence16–20:71–74,74–76,76–80,80–83,83–89.
+All original5–89 images rendered privately and visually read. §20 actually ends
+on88;89 starts chapter04/§21. Never rerun indexed author_batch18.py,its final-copy
+or catalog-review initializer. Private author_grade8_helpers.py supports chapter
+refs with null paragraph;for a shared heading page add explicit scope+evidence.
 
-Upcoming source review findings to record before authoring:
-- §11:scope third-period outer8/3d0 to displayed ground-state examples,not an
-  all-state capacity rule. Orbital strings are MCQ/parts/numeric,not formulas.
-- §12/52:La f-start/Ce4f2 and shell20/8 example needs review;no silent alternate
-  configuration from memory. K/Ca/Sc/Zn/Ga/Kr and Cs53 are separate exact models.
-- §13/54–62:unqualified oxygen-valence1–8 and outer2=metal conflict with prior
-  O/F/He examples. Sr88/As75 neutron calculations are explicit integer models,
-  not universal average-weight rounding. Cl fraction/average conflicts38/59 and
-  mass-fraction versus weighted particle-fraction terminology need scoped holds.
-  Review exercises/tests remain inside actual §13 anchor,not extra teaching keys.
-- Chapter03 preface63 is a chapter container. Before citing it,add precise
-  same-chapter-prefix source-context validation if needed:only actual intro
-  pages before first teaching paragraph,never arbitrary future chapter pages;
-  chapter number must not appear as a false paragraph. No new teaching mechanism.
-- §14:electronegativity values/trends belong to actual source table65;do not
-  invent a numerical bond cutoff or unseen atom value. Inspect ambiguous table
-  glyph before using its symbol;use only clearly reviewed entries.
-- §15:include donor-acceptor69–71. Bond polarity differs from an unstated whole-
-  molecule geometry conclusion. HCl partial charges,NH4+/H3O+ recognition and
-  Lewis shared-pair models are not permission for a new charge/structure parser.
+Review/source-scope notes for next batch:
+- §16:K+/Cl-/Ar table72 has18 electrons but different nuclear charges17/19/18.
+  Keep actual ion models and signs;no new ionic parser. Broad final73 wording
+  about all bonding via common pairs must not erase ionic-transfer distinction.
+- §17:solid-phase molecular lattice examples explicitly say qattiq holatda.
+  Preserve amorphous exception74,NaCl6 neighbours75,diamond4 neighbours75–76,
+  distinction intramolecular/intermolecular bonds. No all-solids=molecules,
+  universal hardness/melting/volatility key or fabricated measured temperature.
+- §18:neutral compounds'weighted oxidation-number sum0;source H3PO4 gives+5,
+  H peroxide−1 vswater−2,metal hydrideH−1 vsHCl+1. Do not equate all oxidation
+  numbers with literal ionic charge or omit stated peroxide/F/ordinary0 scopes.
+- §19:given unchanged-state CuO/H2SO4 vsNa/Cl redox,CuO/H2 andFe2O3/H2 models;
+  −3→+5 loses8,+4→−2 gains6. Keep free-metal/ion and oxygen-exception scopes;
+  no universal all-metal-species reductant or all-oxygen−2 statement.
+- §20:intermediate unbalanced working lines83–84 are not final keys. Exact final
+  2Al+6HCl=2AlCl3+3H2;8Al+30HNO3=8Al(NO3)3+3N2O+15H2O;
+  2KMnO4=K2MnO4+MnO2+O2;2H2O2=2H2O+O2;Zn+4HNO3=Zn(NO3)2+2NO2+2H2O.
+  Use given-product/material balance and explicit source conditions,not universal
+  nitric-acid product prediction. Keep N2O average/model scope,electron balances
+  as MCQ/numeric/steps;no new charged half-equation syntax or physical heating.
 
-Private author_grade8_helpers.py serializes manual original content. Continue
-reviewed5–10 lesson batches:validate/test/local HTTP/import,measured docs,
+Continue5–10 reviewed lessons,validate/test/local HTTP/import,measured docs,
 checkpoint,commit/push Chemistry and automatically proceed through all grades.
