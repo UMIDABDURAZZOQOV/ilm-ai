@@ -1,57 +1,52 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch14. Continue automatically;no routine approval needed.
+2026-10-24,batch15. Continue automatically;no routine approval needed.
 
-- Backend:`f432e7a5c6a37bda26b013dc23953f2012dc1667`.
-- Flutter:`267a66ecb8c54ed14514443ff211644adebbf6bb` (unchanged14).
+- Backend implementation:`fb94388b001ab1e1a651e86a5258b5159178f0cc`.
+- Flutter:`267a66ecb8c54ed14514443ff211644adebbf6bb` (unchanged15).
 - Separate `feat/chemistry-curriculum` branches;Biology/Physics untouched.
-- **69/268 implemented,199 remaining**. Grade7:69/74,last5 labs remain.
-  §1–51,practical1–7,labs1–11,nine chapterI–VI reviews integrated.
-- Total445 cards/681 assessments:286 MCQ,141 short,121 numeric,61 formula,
- 72 equation. Batch14:28 cards/51 questions;reviews not extra teaching entries.
-- Full Chemistry345 passed,1 skipped(opt-in PG),1 existing warning/673.17s.
-  Final target20 passed/45.69s. Initial target expected lowercase cu to be a
-  well-formed wrong formula;fixed test to existing invalid_answer behaviour.
-  Grader unchanged. Critical Ruff clean;original§1/prior61 manifests unchanged.
-- Full Flutter490 passed/218s. Latest analysis65.2s/200% captures are batch13
-  evidence. No new Dart,visual/native/browser/IME/TalkBack/teacher/PG claim.
-- HTTP preserved61 completions/1220XP,passed51 new questions,added160XP once;
-  total69/1380XP,replay identical,grading private. Synthetic900003 only.
+- **74/268 implemented,194 remaining**. All74 grade7 teaching entries covered:
+  §1–51,practical1–7,labs1–16,nine integrated chapterI–VI review anchors.
+- Total462 cards/714 assessments:296 MCQ,147 short,123 numeric,67 formula,
+  81 equation. Batch15:17 cards/33 questions;reviews not extra teaching entries.
+- Full Chemistry363 passed,1 skipped(opt-in PG),1 existing warning/365.38s.
+  Target18 passed/35.53s. Pure positive grading cases06–15 use module snapshot
+  with teardown mutation fingerprint;source/mutation/import/API tests fresh.
+  No runtime validation cache. Critical Ruff/diff clean;original§1 unchanged.
+- Full Flutter490 passed/85s. Initial automatic approval usage limit resolved
+  on authorized retry. No Dart/fixture change. Latest analysis65.2s/200% captures
+  are batch13 evidence;no new native/browser/IME/TalkBack/teacher/PG claim.
+- HTTP preserved69 completions/1380XP,passed33 new questions,added100XP once;
+  total74/1480XP,replay identical,grading private. Synthetic900003 only.
 - Private append-compatible sandbox:
   `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,loopback8900.
-  Resolve/verify current own process before stop. Earlier69 manifests immutable;
-  fresh sandbox if prior key revised. Tokens/defines remain outside Git.
-- All817 pages decoded,five SHA identities verified. One grade9§40 blocker plus
- 25 editorial reviews remain;all course-ready flags false. No silent correction,
-  physical lab,unprovided specimen/colour/efficiency/crystal data or AI mechanism.
-- No production/main/real-user/other-subject/PDF/OCR/fulltext/token operation or
-  independent teacher/PG/full-backend certification.
+  Current own server PID2068;verify full command before stopping. Earlier74
+  manifests immutable;fresh sandbox if prior key revised. Tokens outside Git.
+- All817 source pages decoded,five SHA identities verified. One grade9§40
+  scientific blocker plus26 editorial reviews remain;all course-ready flags
+  false. Teaching coverage is not source issue resolution or publication.
+- Lab15 Cu/H2SO4 unspecified concentration/heat scope machine guarded. No
+  fabricated starting colour,pH7 endpoint,concentration,crystal/hydrate result,
+  physical procedure,AI,production/main/other-subject/real-user/PDF/OCR operation.
 
 ## Exact continuation
 
-Next **laboratories12–16**,sequence70–74,on original154–155. These complete the
-mapped74 grade7 teaching entries,but source review issues still gate readiness.
-Private `.local/author_batch15.py` is manually drafted,NOT RUN/INDEXED at this
-checkpoint. Before run,record lab15 unspecified Cu/H2SO4 concentration/heat
-scope as an editorial review and validator guard;no universal outcome key.
+Next grade8 §1–5 in source order (5 teaching entries). First source ranges:
+§1 original5–10,§2 10–17,§3 17–21,§4 21–25,§5 25–31. Grade8 pages are full
+pages,printed=PDF. Private canonical PNG5–31 rendered without overwrites.
+Original5–10 have been visually read in this continuation. Before authoring
+later topics,read their full exact page images;OCR/text is only a locator.
 
-Draft boundaries:
-- Lab12 uses exact prior112 decomposition;no unprovided CuOH2 starting colour.
-- Lab13 preserves source pink→colourless without asserting endpoint=pH7;
-  molar question explicitly assumes complete1:1 neutralisation.
-- Lab14 uses both HCl/H2SO4 and exact118 lakmus/metilzargaldogi table context,
-  not universal pH thresholds or physical indicator preparation.
-- Lab15 exact Zn/HCl70 and Zn/H2SO4 119;original Fe/HCl model explicitly gives
-  FeCl2/H2 products using known142 species/rule. No Cu/H2SO4 universal claim.
-- Lab16 original balanced full-neutralisation models explicitly give products
-  and cite earlier valence/formula rules. No claim they are printed completed
-  equations155;no actual crystal/hydrate/colour/evaporation result.
+New review finding to record before §1 authoring:page7 first mol bullet uses a
+gram-mass definition,while following bullet and page9 distinguish amount in mol
+from mass in g and molar mass in g/mol. Do not silently teach mol=grams;hold the
+ambiguous definition,retain explicit source-backed amount/mass worked models.
+Hydrate-dot formula page10 remains MCQ recognition under existing parser limits.
 
-Original141–155/PDF71–78 all visually read. Private helper supports lab keys.
-Never rerun old author scripts on indexed content. After final-copy SHA review,
-validate/test/local HTTP/import,update docs/checkpoint,commit/push Chemistry.
+Private author_lesson_helpers.py is grade7-specific. Create a grade-aware
+private serialization helper (no generated science),preserving old manifests.
+Flutter selection remains hardcoded7;generalise available_grades safely before
+grade8 integration. Common learning/XP/prerequisite/replay must stay unchanged.
 
-Then grade8:re-read exact original pages before science authoring. All5 maps
-already exist. Flutter current selection remains hardcoded7;generalise using
-available_grades safely before grade8 integration,without changing common
-learning/XP/prerequisite/replay or Biology/Physics. Continue through all grades.
+After next reviewed batch:validate,test,local HTTP/import,docs,checkpoint,
+commit/push Chemistry and automatically proceed through all five grades.
