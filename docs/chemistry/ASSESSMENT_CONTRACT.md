@@ -60,3 +60,17 @@ preceding teaching lesson. Every source ref and image evidence retains its own
 topic ID/title, paragraph or null review number, printed page and spread side.
 Future/unknown/duplicate/undeclared/misidentified contexts fail validation.
 Known source holds cannot be bypassed by citing them in another lesson.
+
+
+## Grade selection and portable display (batch16)
+
+The isolated catalog accepts grade7–11 and lists only grades with an imported
+first lesson. Flutter sends the selected grade,validates the list and rejects a
+mismatched catalog. The picker is absent during attempts;existing cancellation,
+account/origin/lesson storage and once-only XP semantics remain unchanged.
+
+Chemistry display maps Unicode subscript digits to ordinary digits and raised
+runs to explicit ^(...) strings;arrows render as ->. This is presentation only,
+not scientific interpretation or new accepted input. API/manifests/typed strings
+and correctness comparisons remain original. Shared source-button separator is
+optional;its default and Biology behaviour stay unchanged.

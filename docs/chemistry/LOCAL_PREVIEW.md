@@ -100,3 +100,13 @@ Final31-lesson source-copy QA uses the new private directory
 `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`, loopback8900,
 synthetic900003 only. Older sandbox26→31 continuity and immutable snapshots remain
 intact. Never publish defines/tokens or treat the isolated preview as production.
+
+
+## Current grade8 continuation (batch16)
+
+The append-compatible batch07 sandbox onloopback8900 now has79 immutable
+reviewed lessons:74 grade7 and5 grade8. Synthetic900003 has79 completions/1580XP;
+no real accounts. Grade picker lists7/8 only and is hidden during an attempt.
+Actual public grade8 fixtures contain source metadata and post-answer feedback;
+fake attempt ID/future expiry replace private identities,without tokens/rubrics.
+Fresh sandbox is required if an already imported revision is changed.

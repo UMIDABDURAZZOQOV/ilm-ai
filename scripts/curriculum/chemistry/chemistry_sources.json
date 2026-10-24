@@ -5068,7 +5068,30 @@
             "record_id": "ch8-paragraph02",
             "printed_page": 10,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p01-mol-definition-scope",
+              "status": "open_review",
+              "printed_pages": [
+                7
+              ],
+              "pdf_pages": [
+                7
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "The first mol bullet describes a gram mass while the next definition and worked page9 distinguish amount,mass and molar mass. No mol=grams answer;retain explicit source-backed N=m/M models.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p01-mol-definition-scope",
+                  "printed_page": 7,
+                  "reason": "Ambiguous mol/mass wording remains withheld,not silently repaired. Source7 second definition and9 worked amount/mass models support the scoped lesson."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5108,7 +5131,36 @@
             "record_id": "ch8-chapter02",
             "printed_page": 17,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p02-rounding-scope",
+              "status": "open_review",
+              "printed_pages": [
+                10,
+                11,
+                12
+              ],
+              "pdf_pages": [
+                10,
+                11,
+                12
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Worked percentage/ratio decimals have no consistent rounding rule. Do not grade34.61/34.62 or43.25/43.24 as unique keys or infer an exact empirical formula from rounded Mn/O percentages.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p02-rounding-scope",
+                  "printed_page": 10,
+                  "reason": "Original10–11 Mn percentages and rounded ratio steps;12 Al percentage34.61 vs27/78 and Ca oxygen43.25 vs32/74. Teach exact displayed molar masses and balanced equations separately."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch8-chapter02",
@@ -5185,7 +5237,30 @@
             "record_id": "ch8-paragraph04",
             "printed_page": 21,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p03-classification-scope",
+              "status": "open_review",
+              "printed_pages": [
+                19
+              ],
+              "pdf_pages": [
+                19
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Unqualified all-metals-except-mercury phase and universal hydride volatility lack stated physical conditions/exceptions. Table placement of Zn hydroxide/acid form is not a universal identity.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p03-classification-scope",
+                  "printed_page": 19,
+                  "reason": "Use typical-property wording and explicit20 amphoteric examples;no universal phase/hydride statement or fabricated missing conditions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5225,7 +5300,36 @@
             "record_id": "ch8-paragraph05",
             "printed_page": 25,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p04-oxygen-and-phase-scope",
+              "status": "open_review",
+              "printed_pages": [
+                21,
+                22,
+                23
+              ],
+              "pdf_pages": [
+                21,
+                22,
+                23
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Printed2Na+O2=Na2O2 has unequal sodium atoms;K/oxygen product scope and blanket hydrogen-halide gas phase need conditions. No silent corrected oxygen equation or universal state key.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p04-oxygen-and-phase-scope",
+                  "printed_page": 21,
+                  "reason": "Hold the oxygen equations and unqualified all-hydrogen-halide-gases statement. Exact water/chlorine equations and source family/formula/table identities remain available."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5265,7 +5369,33 @@
             "record_id": "ch8-paragraph06",
             "printed_page": 31,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p05-nitrogen-valence-review",
+              "status": "open_review",
+              "printed_pages": [
+                28,
+                29
+              ],
+              "pdf_pages": [
+                28,
+                29
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Table7 N2O5 row labels nitrogen valenceIV,conflicting with oxygenII rule/source formula. NoIV/V nitrogen key tied to that row;no silent table correction. Broad lithium superlative scoped to the illustrated row,not all elements.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p05-nitrogen-valence-review",
+                  "printed_page": 28,
+                  "reason": "Retain old mass-based law as historical25 and modern nuclear-charge law30;use unambiguous Na/Cl/Ar examples and Ar/K ordering. Nitrogen valence cell held for review."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

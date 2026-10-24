@@ -57,6 +57,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-practical07': 'ch7-practical7-clinical-source-scope',
     'ch7-9': 'ch7-review6-product-loss-scope',
     'ch7-laboratory15': 'ch7-lab15-acid-condition-scope',
+    'ch8-paragraph01': 'ch8-p01-mol-definition-scope',
+    'ch8-paragraph02': 'ch8-p02-rounding-scope',
+    'ch8-paragraph03': 'ch8-p03-classification-scope',
+    'ch8-paragraph04': 'ch8-p04-oxygen-and-phase-scope',
+    'ch8-paragraph05': 'ch8-p05-nitrogen-valence-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -360,6 +365,22 @@ def validate_lesson(catalog, lesson, review):
                             and ('=' in plain or '→' in plain)
                             for a in [f['claim'], *f['verified_answers']]),
                     'unresolved_lab_copper_acid_conditions_cannot_be_a_premise')
+        topic_ids = {r['topic_id'] for r in f['source_refs']}
+        plain_values = [a.translate(str.maketrans('₀₁₂₃₄₅₆₇₈₉', '0123456789'))
+                        for a in [f['claim'], *f['verified_answers']]]
+        if 'ch8-paragraph01' in topic_ids:
+            require(not any(re.search(r'1\s*mol\s*=\s*(?:[0-9.,]+\s*)?(?:g\b|gram)', a, re.I)
+                            for a in plain_values), 'unresolved_mol_mass_identity_cannot_be_a_premise')
+        if 'ch8-paragraph02' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])(?:34[.,]6[12]|43[.,]2[45])(?![0-9])', a)
+                            for a in f['verified_answers']), 'unresolved_grade8_rounding_cannot_be_an_answer')
+        if 'ch8-paragraph04' in topic_ids:
+            require(not any('O2' in a and ('Na2O2' in a or 'K2O2' in a)
+                            and ('=' in a or '→' in a) for a in plain_values),
+                    'unresolved_alkali_oxygen_equation_cannot_be_a_premise')
+        if 'ch8-paragraph05' in topic_ids:
+            require(not any('N2O5' in a and ('valent' in a.casefold() or 'IV' in a or 'V' in a)
+                            for a in plain_values), 'unresolved_nitrogen_valence_cell_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

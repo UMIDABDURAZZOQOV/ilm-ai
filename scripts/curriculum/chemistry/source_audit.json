@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 74,
+  "implemented_lessons": 79,
   "grades": [
     {
       "grade": 7,
@@ -50,13 +50,8 @@
       "laboratories": 10,
       "practicals": 5,
       "source_teaching_entries": 59,
-      "implemented_lessons": 0,
+      "implemented_lessons": 5,
       "remaining_ids": [
-        "ch8-paragraph01",
-        "ch8-paragraph02",
-        "ch8-paragraph03",
-        "ch8-paragraph04",
-        "ch8-paragraph05",
         "ch8-paragraph06",
         "ch8-paragraph07",
         "ch8-paragraph08",
@@ -112,8 +107,14 @@
         "ch8-laboratory09",
         "ch8-laboratory10"
       ],
-      "pending_source_review_ids": [],
-      "source_review_complete": true,
+      "pending_source_review_ids": [
+        "ch8-p01-mol-definition-scope",
+        "ch8-p02-rounding-scope",
+        "ch8-p03-classification-scope",
+        "ch8-p04-oxygen-and-phase-scope",
+        "ch8-p05-nitrogen-valence-review"
+      ],
+      "source_review_complete": false,
       "course_ready": false
     },
     {
@@ -299,7 +300,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 26,
+  "open_editorial_review_issues": 31,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

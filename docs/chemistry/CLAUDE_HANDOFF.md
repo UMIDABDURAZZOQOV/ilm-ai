@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-74 reviewed lessons: all grade7 §1–51,practical1–7,laboratories1–16;194 remain. All
+79 reviewed lessons:all74 grade7 entries and grade8 §1–5;189 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,11 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next grade8 §1,original5–10;all74 grade7 teaching entries are implemented.
-Nine chapterI–VI reviews integrated;context reuse is not an extra entry.
-Grade7 source issues still gate readiness. Flutter selection remains7;generalise
-using available_grades before grade8 integration,keeping common learning rules.
+Next grade8 §6–10,original31–48. All74 grade7 entries covered;grade8 has5/59.
+Nine grade7 reviews are integrated;context reuse is not an extra teaching entry.
+One scientific blocker/31 editorial reviews still gate readiness. Flutter now
+uses available_grades and grade query,with generation/cancellation,grade-mismatch
+checks and per-lesson drafts. Shared learning,grading and XP unchanged.
 
 ## Review and development notes
 
@@ -250,3 +251,25 @@ Pure positive grading tests06–15 now share a module-scoped fully validated
 document snapshot,with a teardown fingerprint proving no mutation. Source
 mutation/loader/import/API tests still read and validate fresh. No runtime or
 importer cache introduced;all363 Chemistry tests pass (one opt-in PG skipped).
+
+
+## Batch16 grade8 §1–5
+
+Original5–31 fully visually read. Exact pages are full,printed=PDF. New source
+holds are pinned:ch8-p01-mol-definition-scope,ch8-p02-rounding-scope,
+ch8-p03-classification-scope,ch8-p04-oxygen-and-phase-scope,
+ch8-p05-nitrogen-valence-review. Unambiguous definitions,worked masses/amounts,
+five salt classes,amphoteric models,families and historical/modern periodic-law
+definitions remain distinct. No repaired Na/oxygen or N2O5 valence answer.
+
+Private author_grade8_helpers.py is a grade8 serialization helper,not a source
+of science. Never rerun indexed author_batch16.py or its catalog initializer.
+New earlier-grade facts must remain immutable. All input/XP/feedback contracts
+unchanged;no orbital/ionic/hydrate/general structure prediction engine added.
+
+Chemistry-only display converts Unicode indices to ordinary digits and raised
+runs to explicit ^(...) spelling,avoiding absent Roboto glyphs. It does not
+mutate manifests,answers,labels used for grading or API data. Shared source
+button gains optional locatorSeparator (default unchanged for other subjects).
+Chemistry uses ASCII ->. Modal source QA now scales the navigator overlay too;
+previous home-only MediaQuery captures did not certify the modal at200%.

@@ -11,12 +11,12 @@ Individual lesson claims require their own reviewed source refs.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ch8-preface` | preface  | So‘zboshi | 3–5 | 3:full – 5:full | 3 | not_authored | — |
 | `ch8-chapter01` | chapter 1 | 7-sinf kimyo kursining asosiy tushunchalarini takrorlash | 5–17 | 5:full – 17:full | 5 | not_authored | — |
-| `ch8-paragraph01` | paragraph 1 | Dastlabki kimyoviy tushuncha va qonunlar | 5–10 | 5:full – 10:full | 5 | not_authored | — |
-| `ch8-paragraph02` | paragraph 2 | Noorganik birikmalarning asosiy sinflari | 10–17 | 10:full – 17:full | 10 | not_authored | ch8-paragraph01 |
+| `ch8-paragraph01` | paragraph 1 | Dastlabki kimyoviy tushuncha va qonunlar | 5–10 | 5:full – 10:full | 5 | reviewed local lesson; scoped editorial review remains open | — |
+| `ch8-paragraph02` | paragraph 2 | Noorganik birikmalarning asosiy sinflari | 10–17 | 10:full – 17:full | 10 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph01 |
 | `ch8-chapter02` | chapter 2 | Davriy qonun va elementlar davriy sistemasi. Atom tuzilishi | 17–63 | 17:full – 63:full | 17 | not_authored | — |
-| `ch8-paragraph03` | paragraph 3 | Kimyoviy elementlarning dastlabki toifalanishi | 17–21 | 17:full – 21:full | 17 | not_authored | ch8-paragraph02 |
-| `ch8-paragraph04` | paragraph 4 | Kimyoviy elementlarning tabiiy oilalari | 21–25 | 21:full – 25:full | 21 | not_authored | ch8-paragraph03 |
-| `ch8-paragraph05` | paragraph 5 | Kimyoviy elementlarning davriy qonuni | 25–31 | 25:full – 31:full | 25 | not_authored | ch8-paragraph04 |
+| `ch8-paragraph03` | paragraph 3 | Kimyoviy elementlarning dastlabki toifalanishi | 17–21 | 17:full – 21:full | 17 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph02 |
+| `ch8-paragraph04` | paragraph 4 | Kimyoviy elementlarning tabiiy oilalari | 21–25 | 21:full – 25:full | 21 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph03 |
+| `ch8-paragraph05` | paragraph 5 | Kimyoviy elementlarning davriy qonuni | 25–31 | 25:full – 31:full | 25 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph04 |
 | `ch8-paragraph06` | paragraph 6 | Kimyoviy elementlar davriy sistemasi | 31–34 | 31:full – 34:full | 30 | not_authored | ch8-paragraph05 |
 | `ch8-paragraph07` | paragraph 7 | Atom yadrosi tarkibi | 34–37 | 34:full – 37:full | 32 | not_authored | ch8-paragraph06 |
 | `ch8-paragraph08` | paragraph 8 | Izotoplar. Izobarlar | 37–41 | 37:full – 41:full | 36 | not_authored | ch8-paragraph07 |

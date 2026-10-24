@@ -538,3 +538,34 @@ retains actual title/paragraph/printed/PDF page/region/book and image hashes.
 All74 grade7 teaching entries covered;one scientific blocker and26 scoped
 editorial issues across the supplied catalog remain. Coverage is not independent
 teacher certification or whole-course publication approval;ready flags false.
+
+
+## Batch16 source review — grade8 §1–5
+
+Original5–31 images fully read,not inferred from extraction. §1 begins5 and
+continues through the exercises before§2 on10;§2 ends16 before§3 on17;§3
+includes the exercise at top21 before§4;§4 ends24 before§5 on25;§5 ends in31
+before§6. Exact full-page identities and hashes accompany all facts/keys.
+
+- §1:the first mol bullet7 describes grams,unlike following definition and9
+  N=m/M models. Ambiguous identity held;explicit amount/mass/molar mass units
+  preserved. FeSO4·7H2O10 is recognition,not new typed hydrate syntax.
+- §2:rounded Mn empirical ratios10–11 and inconsistent percentage precision12
+  held. Exact molar-mass sums and printed balanced material equations retained.
+  Five salt types,ammonium exception and1:1 NaOH/H2SO4→NaHSO4 model are source
+  specific. No invented products for the open reaction grid/chains or heat work.
+- §3:unqualified all-metal phase/hydride statements19 held. Typical-property
+  wording and iodine counterexample are separate. Exact Zn hydroxide equations20
+  and CrO/Cr2O3/CrO3 classifications remain precise source contexts.
+- §4:2Na+O2=Na2O2 on21 is atom-unbalanced;no silent correction. K/oxygen outcome
+  and blanket hydrogen-halide gas phase need conditions. Water/chlorine models,
+  family lists,table identities and aqueous acids remain. Inert-gas oxygen/
+  fluorine exception retained;no universal no-compound assertion.
+- §5:N2O5 row29 labels valenceIV,conflicting with given oxygenII rule/formula;
+  IV/V cell answers held. Li superlative and repetition stay within shown
+  examples. Historical1869 mass definition25 and modern nuclear-charge
+  definition30 are distinct;Ar/K ordering and historical Be prediction retain
+  actual source rounded values. No external current chemistry/history added.
+
+Five additional editorial reviews bring31 open issues plus one scientific
+blocker. Coverage/software tests are not independent teacher review or publication.

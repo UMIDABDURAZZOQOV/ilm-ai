@@ -492,3 +492,35 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - All grade7 coverage is local preview,not publication/teacher sign-off. No AI,
   production/main/other-subject/PDF/OCR/fulltext/token operation or fresh
   PG/full-backend/native/browser/IME/TalkBack certification. Ready flags false.
+
+
+## Batch16 — 2026-10-24
+
+- Grade8 §1–5:**79/268 implemented,189 remaining**;grade7:74/74,grade8:5/59.
+  New44 cards/68 questions:22 MCQ,10 short,16 numeric,11 formula,9 equation.
+  Total506 cards/782 assessments:318 MCQ,157 short,139 numeric,78 formula,
+  90 equation. All nine grade7 reviews remain integrated,not extra entries.
+- Full Chemistry **390 passed,1 skipped,1 existing warning/428.45s**. Final
+  target **27 passed/16.84s**. Initial target26 passed/one test-only expected403
+  vs409 mismatch for locked prerequisite,fixed to existing API403;runtime unchanged.
+  Grade8 starts independently of grade7,ordered locks and once-only XP tested.
+- Full Flutter **496 passed/114s**. Final analysis
+  **no issues/38.3s**. Four grade8 real-widget cases/4s cover both themes,
+  320×568/200% text,actual grade/source/full-page2019 identity,typed comma decimal,
+  common feedback and draft restored after7↔8 switch. Actual final screenshots
+  inspected;scrolling clips already-scrolled content intentionally,without overflow.
+  Test MediaQuery now wraps navigator overlays;source modal itself is tested200%.
+- Visual QA found missing Unicode subscript/arrow glyphs in Roboto test renders.
+  Chemistry-only portable display spells H2SO4 and10^(-24),without changing any
+  source/grading/input data. Optional source locatorSeparator keeps other-subject
+  default intact. Unit test proves source data remains unchanged. No font download.
+- Actual HTTP preserved74 completions/1480XP,passed68 new questions,awarded100XP
+  once,total79/1580XP;grade7 catalog byte-equivalent,replay identical,grading private.
+  Sanitized public grade8 fixtures have fake attempt ID/future expiry,no tokens
+  or pre-answer keys. Real user data/older immutable manifests unchanged.
+- All817 pages decoded,five SHA identities checked;one scientific blocker and31
+  editorial reviews remain. Mol/rounding/phase/Na-oxygen/N-valence scopes held,
+  not silently corrected. Historical/current source contexts explicitly distinct.
+- No new learning/prediction/AI engine,production/main/other-subject/real-user/
+  PDF/OCR/fulltext/token operation or fresh teacher/native/browser/IME/TalkBack/
+  PG/full-backend certification. All whole-course-ready flags false.
