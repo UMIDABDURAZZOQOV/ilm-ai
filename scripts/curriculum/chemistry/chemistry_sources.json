@@ -5436,7 +5436,33 @@
             "record_id": "ch8-paragraph07",
             "printed_page": 34,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p06-group-rule-scope",
+              "status": "open_review",
+              "printed_pages": [
+                31,
+                33
+              ],
+              "pdf_pages": [
+                31,
+                33
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Short eight-group/main/side representation only. Broad alkali-start period wording has explicit H/He first-period exception32. Unqualified outer-electrons=main-group-number rule33 needs He exception against reviewed shell row43;no universal He8 answer. Francium superlative lacks operational conditions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p06-group-rule-scope",
+                  "printed_page": 31,
+                  "reason": "Do not replace the book table with invented modern groups. Preserve exact first-period/short-table examples and stated O/F valence exceptions;withhold universal group-rule and superlative keys."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5477,7 +5503,33 @@
             "record_id": "ch8-paragraph08",
             "printed_page": 37,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p07-mass-model-scope",
+              "status": "open_review",
+              "printed_pages": [
+                35,
+                36
+              ],
+              "pdf_pages": [
+                35,
+                36
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Proton/neutron1 and electron0 are the book rounded counting model,not exact particle masses. Ar=N+Z notation cannot be used for an arbitrary fractional isotope-averaged atomic weight from later38.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p07-mass-model-scope",
+                  "printed_page": 35,
+                  "reason": "Use explicitly given integer nucleus mass/count models only. Neutral atom p=e scope is explicit;do not infer charged-ion electron counts or nucleus structure from a rounded average."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5518,7 +5570,33 @@
             "record_id": "ch8-paragraph09",
             "printed_page": 41,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p08-isotope-average-scope",
+              "status": "open_review",
+              "printed_pages": [
+                38,
+                41
+              ],
+              "pdf_pages": [
+                38,
+                41
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "38 calls an isotope mean arithmetic and chart labels mass fractions,while worked40 uses weighted isotope portions. Cl chart75.77/24.23 with labels35/37 gives35.4846,not stated35.543. K39/K40 natural93/7 claim41 is uncorroborated in reviewed supplied pages. No silent isotope/abundance substitution.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p08-isotope-average-scope",
+                  "printed_page": 38,
+                  "reason": "Hold chart-based natural-average keys and natural K abundance assertion. Teach exact isotope/isobar/isoton definitions and the explicitly given B10/B11/10.81 worked model40 with source-weighted19/81 solution,not a fresh natural measurement."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -5559,7 +5637,36 @@
             "record_id": "ch8-paragraph10",
             "printed_page": 44,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p09-classical-electron-model-scope",
+              "status": "open_review",
+              "printed_pages": [
+                41,
+                42,
+                43
+              ],
+              "pdf_pages": [
+                41,
+                42,
+                43
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Classical centrifugal stability41 and literal own-axis/orbit rotation43 are not established by the cloud/table model. No force/orbit-speed/mechanical-spin key. Energy-distance statement42 is not a universal prediction for arbitrary multi-electron states.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p09-classical-electron-model-scope",
+                  "printed_page": 41,
+                  "reason": "Retain no-fixed-trajectory/cloud description,energy-level notation,2n^2 maximum and exact shell populations43. Do not add external quantum derivations or universal energy-distance claims."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

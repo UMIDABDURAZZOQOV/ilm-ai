@@ -62,6 +62,10 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph03': 'ch8-p03-classification-scope',
     'ch8-paragraph04': 'ch8-p04-oxygen-and-phase-scope',
     'ch8-paragraph05': 'ch8-p05-nitrogen-valence-review',
+    'ch8-paragraph06': 'ch8-p06-group-rule-scope',
+    'ch8-paragraph07': 'ch8-p07-mass-model-scope',
+    'ch8-paragraph08': 'ch8-p08-isotope-average-scope',
+    'ch8-paragraph09': 'ch8-p09-classical-electron-model-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -381,6 +385,21 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-paragraph05' in topic_ids:
             require(not any('N2O5' in a and ('valent' in a.casefold() or 'IV' in a or 'V' in a)
                             for a in plain_values), 'unresolved_nitrogen_valence_cell_cannot_be_a_premise')
+        if 'ch8-paragraph06' in topic_ids:
+            require(not ('geliy' in f['claim'].casefold() and 'tashqi' in f['claim'].casefold()
+                         and '8' in f['verified_answers']),
+                    'unresolved_helium_group_rule_cannot_be_an_answer')
+        if 'ch8-paragraph07' in topic_ids:
+            require(not any(re.search(r'A_?r\s*=\s*N\s*\+\s*Z', a) for a in plain_values),
+                    'unresolved_average_mass_identity_cannot_be_a_premise')
+        if 'ch8-paragraph08' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])35[.,](?:543|4846)(?![0-9])', a)
+                            for a in f['verified_answers']), 'unresolved_isotope_chart_average_cannot_be_an_answer')
+            require(not any('tabiiy kaliy' in a.casefold() and re.search(r'(?<![0-9])(?:7|93)\s*%', a)
+                            for a in plain_values), 'unresolved_natural_potassium_abundance_cannot_be_a_premise')
+        if 'ch8-paragraph09' in topic_ids:
+            require(not any('markazdan qochma' in a.casefold() for a in plain_values),
+                    'unresolved_classical_electron_force_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

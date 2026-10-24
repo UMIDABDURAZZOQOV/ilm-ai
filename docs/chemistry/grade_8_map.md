@@ -17,11 +17,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-paragraph03` | paragraph 3 | Kimyoviy elementlarning dastlabki toifalanishi | 17–21 | 17:full – 21:full | 17 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph02 |
 | `ch8-paragraph04` | paragraph 4 | Kimyoviy elementlarning tabiiy oilalari | 21–25 | 21:full – 25:full | 21 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph03 |
 | `ch8-paragraph05` | paragraph 5 | Kimyoviy elementlarning davriy qonuni | 25–31 | 25:full – 31:full | 25 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph04 |
-| `ch8-paragraph06` | paragraph 6 | Kimyoviy elementlar davriy sistemasi | 31–34 | 31:full – 34:full | 30 | not_authored | ch8-paragraph05 |
-| `ch8-paragraph07` | paragraph 7 | Atom yadrosi tarkibi | 34–37 | 34:full – 37:full | 32 | not_authored | ch8-paragraph06 |
-| `ch8-paragraph08` | paragraph 8 | Izotoplar. Izobarlar | 37–41 | 37:full – 41:full | 36 | not_authored | ch8-paragraph07 |
-| `ch8-paragraph09` | paragraph 9 | Atom elektron qavatlarining tuzilishi | 41–44 | 41:full – 44:full | 39 | not_authored | ch8-paragraph08 |
-| `ch8-paragraph10` | paragraph 10 | Energetik pog‘onachalar | 44–48 | 44:full – 48:full | 42 | not_authored | ch8-paragraph09 |
+| `ch8-paragraph06` | paragraph 6 | Kimyoviy elementlar davriy sistemasi | 31–34 | 31:full – 34:full | 30 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph05 |
+| `ch8-paragraph07` | paragraph 7 | Atom yadrosi tarkibi | 34–37 | 34:full – 37:full | 32 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph06 |
+| `ch8-paragraph08` | paragraph 8 | Izotoplar. Izobarlar | 37–41 | 37:full – 41:full | 36 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph07 |
+| `ch8-paragraph09` | paragraph 9 | Atom elektron qavatlarining tuzilishi | 41–44 | 41:full – 44:full | 39 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph08 |
+| `ch8-paragraph10` | paragraph 10 | Energetik pog‘onachalar | 44–48 | 44:full – 48:full | 42 | reviewed local lesson | ch8-paragraph09 |
 | `ch8-paragraph11` | paragraph 11 | Kichik davr elementlarining atom tuzilishi | 48–51 | 48:full – 51:full | 46 | not_authored | ch8-paragraph10 |
 | `ch8-paragraph12` | paragraph 12 | Katta davr elementlarining atom tuzilishi | 51–53 | 51:full – 53:full | 49 | not_authored | ch8-paragraph11 |
 | `ch8-paragraph13` | paragraph 13 | Elementlarning davriy sistemadagi o‘rni va atom tuzilishiga qarab tavsiflash. Davriy qonunning ahamiyati | 53–63 | 53:full – 63:full | 51 | not_authored | ch8-paragraph12 |

@@ -524,3 +524,28 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No new learning/prediction/AI engine,production/main/other-subject/real-user/
   PDF/OCR/fulltext/token operation or fresh teacher/native/browser/IME/TalkBack/
   PG/full-backend certification. All whole-course-ready flags false.
+
+
+## Batch17 — 2026-10-24
+
+- Grade8 §6–10:**84/268 implemented,184 remaining**;grade7:74/74,grade8:10/59.
+  New35 cards/52 questions:14 MCQ,11 short,27 numeric. Total541 cards/834
+  assessments:332 MCQ,168 short,166 numeric,78 formula,90 equation.
+- Full Chemistry **421 passed,1 skipped,1 existing warning/399.29s**. Target
+  **31 passed/18.10s**. Source guard narrowing is deliberate:the helium8 hold
+  applies to outer-electron premises,not the correct separate first-period H/He
+  and second-period8 facts. All new held premises/removal bypasses tested.
+  Critical Ruff/diff clean;prior79 manifest bytes unchanged.
+- Full Flutter **496 passed/101s**. No Dart/fixture change in this batch. Latest
+  analysis38.3s and200% source/grade/FRQ captures are batch16 evidence. Common
+  feedback/result/draft/XP flow unchanged;no new grading or learning mechanism.
+- Real HTTP preserved79 completions/1580XP,passed52 new questions,added100XP
+  once,total84/1680XP. Grade7 catalog unchanged,completion replay identical,
+  private grading hidden. Synthetic900003 only,real users/snapshots untouched.
+- All817 pages decoded,five source SHA identities verified. One scientific
+  blocker plus35 editorial reviews remain. Neutral atom,integer count versus
+  average mass,conditional B model,maximum versus actual shell occupancy and
+  short-table/source-era scopes explicit. No silent source repair or experiment.
+- No AI,production/main/other-subject/PDF/OCR/fulltext/token/real-user operation
+  or fresh teacher/native/browser/IME/TalkBack/PG/full-backend certification.
+  Grade7 coverage and grade8 progress do not imply course-ready;all flags false.

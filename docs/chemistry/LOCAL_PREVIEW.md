@@ -110,3 +110,10 @@ no real accounts. Grade picker lists7/8 only and is hidden during an attempt.
 Actual public grade8 fixtures contain source metadata and post-answer feedback;
 fake attempt ID/future expiry replace private identities,without tokens/rubrics.
 Fresh sandbox is required if an already imported revision is changed.
+
+
+## Current continuation after batch17
+
+The same private loopback8900 sandbox now contains84 immutable reviewed lessons
+and84 synthetic900003 completions/1680XP. Grade8 has10 lessons;grade7 still74.
+Older79 manifests/attempts and grade7 catalog were preserved during append QA.

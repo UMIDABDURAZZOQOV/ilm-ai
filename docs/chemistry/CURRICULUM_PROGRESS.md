@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 5 | 54 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 10 | 49 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 79 | 189 |
+| Total | 29 | 204 | 49 | 15 | 268 | 84 | 184 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 506 cards; 782 assessments: 318 concept_selection, 157 short_text, 139 numeric_value, 78 chemical_formula, 90 chemical_equation.
+Total: 541 cards; 834 assessments: 332 concept_selection, 168 short_text, 166 numeric_value, 78 chemical_formula, 90 chemical_equation.
 
 ## Initial §1
 
@@ -81,19 +81,21 @@ Total: 506 cards; 782 assessments: 318 concept_selection, 157 short_text, 139 nu
 
 5 lessons;44 cards;22 MCQ,10 short text,16 numeric,11 formula,9 equation.
 
+## Batch17: grade8 §6–10
+
+5 lessons;35 cards;14 MCQ,11 short text,27 numeric. Nuclear,periodic-table and
+orbital concepts use topic-appropriate existing inputs,not a new notation engine.
+
 ## Current continuation
 
-Grade7 all74 mapped entries covered;grade8 §1–5 implemented (5/59).
-Next grade8 §6–10,original31–48. Whole project189 entries remaining.
+Grade7 all74 mapped entries covered;grade8 §1–10 implemented (10/59).
+Next grade8 §11–15,original48–71. Whole project184 entries remaining.
 Nine grade7 chapterI–VI reviews integrated,not extra teaching entries.
 
-One grade9 scientific hold and31 scoped editorial issues remain. New grade8
-reviews hold ambiguous mol/mass wording,rounding,unqualified phase/hydride scope,
-unbalanced Na/oxygen and unspecified product scope,nitrogen valence table cell.
-These are not silently repaired or used as authoritative keys. Ready flags false.
-
-Flutter selects only available grades,retains per-lesson/account/origin drafts
-and shows the actual grade. Chemistry formula display uses ordinary indices and
-explicit ^(exponent) spelling for glyph portability;source/rubrics/input unchanged.
+One grade9 scientific blocker and35 scoped editorial issues remain. New reviews
+hold unqualified group rules,average-mass versus integer nucleus-count identity,
+isotope chart/fraction inconsistencies and classical electron force/spin claims.
+Book short-table representation,neutral-atom scope,explicit worked B model and
+maximum versus actual shell occupancy remain distinct. All ready flags false.
 Original§1,earlier immutable manifests/progress,real users and other subjects
 preserved. Exact measured QA/commits:QA_REPORT.md and CHECKPOINT.md.

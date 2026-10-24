@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 79,
+  "implemented_lessons": 84,
   "grades": [
     {
       "grade": 7,
@@ -50,13 +50,8 @@
       "laboratories": 10,
       "practicals": 5,
       "source_teaching_entries": 59,
-      "implemented_lessons": 5,
+      "implemented_lessons": 10,
       "remaining_ids": [
-        "ch8-paragraph06",
-        "ch8-paragraph07",
-        "ch8-paragraph08",
-        "ch8-paragraph09",
-        "ch8-paragraph10",
         "ch8-paragraph11",
         "ch8-paragraph12",
         "ch8-paragraph13",
@@ -112,7 +107,11 @@
         "ch8-p02-rounding-scope",
         "ch8-p03-classification-scope",
         "ch8-p04-oxygen-and-phase-scope",
-        "ch8-p05-nitrogen-valence-review"
+        "ch8-p05-nitrogen-valence-review",
+        "ch8-p06-group-rule-scope",
+        "ch8-p07-mass-model-scope",
+        "ch8-p08-isotope-average-scope",
+        "ch8-p09-classical-electron-model-scope"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -300,7 +299,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 31,
+  "open_editorial_review_issues": 35,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

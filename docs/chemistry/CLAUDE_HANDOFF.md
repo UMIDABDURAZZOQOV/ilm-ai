@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-79 reviewed lessons:all74 grade7 entries and grade8 §1–5;189 remain. All
+84 reviewed lessons:all74 grade7 entries and grade8 §1–10;184 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,11 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next grade8 §6–10,original31–48. All74 grade7 entries covered;grade8 has5/59.
-Nine grade7 reviews are integrated;context reuse is not an extra teaching entry.
-One scientific blocker/31 editorial reviews still gate readiness. Flutter now
-uses available_grades and grade query,with generation/cancellation,grade-mismatch
-checks and per-lesson drafts. Shared learning,grading and XP unchanged.
+Next grade8 §11–15,original48–71. All74 grade7 entries covered;grade8 has10/59.
+Nine grade7 reviews integrated,not extra entries. One scientific blocker/35
+editorial reviews still gate readiness. Flutter grade selection and common
+MCQ/FRQ/XP/draft rules remain as batch16;no new Dart change in batch17.
 
 ## Review and development notes
 
@@ -273,3 +272,26 @@ mutate manifests,answers,labels used for grading or API data. Shared source
 button gains optional locatorSeparator (default unchanged for other subjects).
 Chemistry uses ASCII ->. Modal source QA now scales the navigator overlay too;
 previous home-only MediaQuery captures did not certify the modal at200%.
+
+
+## Batch17 grade8 §6–10
+
+All original31–48 images visually read before authorship. Five lessons add35
+cards/52 questions:14 MCQ,11 short,27 numeric. Atomic/subshell terms and supplied
+integer/weighted models use existing bounded text/numeric grading. No isotope,
+charge,orbital,structural or unrestricted configuration parser added.
+
+Pinned reviews:ch8-p06-group-rule-scope,ch8-p07-mass-model-scope,
+ch8-p08-isotope-average-scope,ch8-p09-classical-electron-model-scope. First-period
+H/He exception and short eight-group representation are explicit. Original A in
+§7 is declared total nucleus-particle count,not a silently repaired average Ar.
+§8 B10/B11 model is conditional source40 algebra,not a new natural measurement.
+§9 maximum2n² is distinct from actual Na M1 and other shell populations43.
+§10 orbital shape/count/capacity and2019 block counts retain exact table context.
+
+Current private sandbox84 completions/1680XP on8900,own PID28132 (verify before
+stop). Never rerun indexed author_batch17.py or source-review initializer. Original
+48–71 already visually read for next batch;chapter03 intro63 is a container
+anchor,not an invented extra lesson. Assess precise source-context support before
+using chapter preface facts;do not label chapter3 as paragraph3 or cite future
+chapter pages. Upcoming Ce/La52 and isotope-fraction/table scopes need review.

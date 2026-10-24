@@ -1,0 +1,39 @@
+{
+  "grade7_catalog_unchanged": true,
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 79,
+  "prior_xp": 1580,
+  "added_lessons": 5,
+  "added_questions": 52,
+  "kinds": {
+    "concept_selection": 14,
+    "short_text": 11,
+    "numeric_value": 27
+  },
+  "added_xp": 100,
+  "total_xp": 1680,
+  "total_completed_lessons": 84,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "reviewed_on": "2026-10-24",
+  "implemented_lessons": 84,
+  "remaining_lessons": 184,
+  "backend_tests": {
+    "passed": 421,
+    "skipped": 1,
+    "seconds": 399.29
+  },
+  "targeted_batch_tests": {
+    "passed": 31,
+    "seconds": 18.1
+  },
+  "flutter_tests": {
+    "passed": 496,
+    "seconds": 101
+  },
+  "flutter_code_changed": false,
+  "open_source_holds": 1,
+  "open_editorial_issues": 35,
+  "production_operations": false
+}

@@ -569,3 +569,31 @@ before§6. Exact full-page identities and hashes accompany all facts/keys.
 
 Five additional editorial reviews bring31 open issues plus one scientific
 blocker. Coverage/software tests are not independent teacher review or publication.
+
+
+## Batch17 source review — grade8 §6–10
+
+Original31–48 fully read. §6 ends33 before§7 on34;§7 ends in37 before§8;§8
+includes exercises on41 before§9;§9 ends in44 before§10;§10 ends47,with§11
+starting48. Printed=PDF,full-page identity/image SHA recorded for every ref.
+
+- §6:book short eight-group/main/side representation scoped. H/He first period
+  is explicit32;universal alkali-start and outer-electron/group equality withheld
+  (He row43 reviewed). O/F valence exceptions kept;no Fr superlative key.
+- §7:p/e equality is neutral-atom only. Rounded particle masses1/1/0 and Ar=N+Z
+  cannot become exact physical masses or a fractional isotope-average identity.
+  Original A is explicitly the given total nucleus-particle count. No ion/radiation
+  experiment or external nuclear model;historical scattering analysed only.
+- §8:38 chart fractions and35.543 prose disagree with label35/37 weighted result;
+  chart mass/particle meaning is unclear. Natural K proportions41 uncorroborated
+  in reviewed supplied pages. Both withheld,not repaired. Exact definitions and
+  given B10/B11/10.81 model40,Ar counts39–40 and isoton examples40 retained.
+- §9:classical centrifugal stability41/mechanical own-axis spin43 and arbitrary
+  multi-electron energy-distance inferences held. Cloud,2n² maximum and exact
+  H–Ar shell populations retained. He2/Na M1 illustrate limits of broad rules.
+- §10:s/p/d/f,shapes,allowed l values,2(2l+1) and actual tables45–46 source based.
+  Short terms/numbers/MCQ only,not chemical-formula parsing of orbital notation.
+  Historical2019 block counts are attributed,not independently current-certified.
+
+Four new scoped editorial reviews bring35 plus one scientific blocker. None
+silently removed;all whole-course-ready flags false.
