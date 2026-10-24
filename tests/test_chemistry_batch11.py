@@ -10,7 +10,7 @@ from services import chemistry_validation as validation
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_catalog,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch11_original_order_pages_and_source_review_reuse():
@@ -79,8 +79,8 @@ def test_review_context_requires_an_actually_earlier_integrated_manifest(monkeyp
     (3,6,'2CuO+2H2SO4=2CuSO4+2H2O','correct'),
     (3,7,'4,9','correct'),(3,8,'8','correct'),(3,9,'0,9','correct'),
     (4,8,'HNO2','incorrect')])
-def test_specific_formulas_partial_products_concentrated_case_and_original_ratio(offset,qn,value,code):
-    l=load_lessons()[46+offset]
+def test_specific_formulas_partial_products_concentrated_case_and_original_ratio(offset,qn,value,code,reviewed_chemistry_documents):
+    l=reviewed_chemistry_documents[46+offset]
     assert grade_answer(l['assessments'][qn-1]['grading_spec'],{'value':value})==code
 
 

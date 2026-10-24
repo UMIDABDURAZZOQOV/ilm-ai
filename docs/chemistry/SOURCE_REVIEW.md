@@ -515,3 +515,26 @@ read;earlier source contexts retain actual title/paragraph/page/region/hash.
 One scientific blocker and25 editorial reviews remain open. All new content is
 guided digital analysis;software/source-image review is not physical-lab or
 independent teacher certification.
+
+
+## Batch15 source review — laboratories12–16
+
+Original154–155 read:lab12 before13 on154;lab13 before14 on154;lab14 spans
+154–155 before15;lab15 before16 on155;lab16 on155. Each cited earlier source
+retains actual title/paragraph/printed/PDF page/region/book and image hashes.
+
+- Lab12 exact decomposition112;no fabricated initial CuOH2 colour or experiment.
+- Lab13 source-specific pink→colourless;no inference endpoint=pH7. Original
+  numeric model explicitly assumes complete1:1 neutralisation,not measurement.
+- Lab14 both acids and both indicators;exact118 table rows,not universal pH.
+- Lab15 concentration/heating and ready-made observations unspecified. New
+  ch7-lab15-acid-condition-scope holds universal Cu/H2SO4 keys. Zn models use
+  exact70/119;Fe model explicitly gives FeCl2/H2 with earlier142/119 evidence.
+- Lab16 both Fe(III)-oxide/MgO and HCl/H2SO4 retained. Products-given original
+  full-neutralisation models use earlier102–103/111/115/119/127. Completed
+  equations are original derived solutions,not claimed printed equations155.
+  No crystal colour/shape/hydrate,heating/evaporation or actual lab result.
+
+All74 grade7 teaching entries covered;one scientific blocker and26 scoped
+editorial issues across the supplied catalog remain. Coverage is not independent
+teacher certification or whole-course publication approval;ready flags false.

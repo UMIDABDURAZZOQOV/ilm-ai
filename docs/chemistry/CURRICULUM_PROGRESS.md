@@ -4,18 +4,18 @@
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7 | 6 | 51 | 16 | 7 | 74 | 69 | 5 |
+| 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 0 | 59 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 69 | 199 |
+| Total | 29 | 204 | 49 | 15 | 268 | 74 | 194 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 445 cards; 681 assessments: 286 concept_selection, 141 short_text, 121 numeric_value, 61 chemical_formula, 72 chemical_equation.
+Total: 462 cards; 714 assessments: 296 concept_selection, 147 short_text, 123 numeric_value, 67 chemical_formula, 81 chemical_equation.
 
 ## Initial §1
 
@@ -73,17 +73,19 @@ Total: 445 cards; 681 assessments: 286 concept_selection, 141 short_text, 121 nu
 
 8 lessons;28 cards;20 MCQ,11 short text,3 numeric,8 formula,9 equation.
 
+## Batch15: laboratories12–16
+
+5 lessons;17 cards;10 MCQ,6 short text,2 numeric,6 formula,9 equation.
+
 ## Current continuation
 
-Completed grade7 §1–51,practical1–7,laboratories1–11 and nine chapterI–VI review
-anchors. Next **laboratories12–16**,the last5 grade7 teaching entries.
-Grade7 has5 teaching entries remaining;whole project199.
+All74 mapped grade7 teaching entries implemented:§1–51,practical1–7,labs1–16;
+nine chapterI–VI review anchors integrated,not extra teaching entries.
+Next grade8 §1,original5–10. Whole project194 entries remaining.
 
-One scientific hold and25 scoped editorial issues remain open. No physical lab,
-invented specimen/colour/efficiency/crystal result or silent source correction.
-Original balanced model conditions/products and earlier source identities are
-explicit. Shared learning/XP/grading unchanged;all course-ready flags false.
-
-Original§1,prior immutable lessons/attempts and real users are preserved.
-Separate Chemistry branches only;no production/main/other-subject/AI operation.
+One scientific hold and26 scoped editorial issues remain open. Grade7 coverage
+is complete;course-ready flags remain false pending source-review gates.
+No invented physical observation,concentration,pH endpoint,crystal/hydrate value
+or silent source correction. Shared MCQ/FRQ/XP/prerequisite/replay unchanged.
+Original§1,prior manifests/attempts,real users and other subjects preserved.
 Measured QA and exact commits:QA_REPORT.md and CHECKPOINT.md.

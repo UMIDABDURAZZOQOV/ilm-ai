@@ -1,0 +1,1506 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 73,
+  "key": "chemistry-7-lab15-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory15",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory14"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory15",
+      "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+      "paragraph": 15,
+      "printed_pages": [
+        155
+      ],
+      "pdf_pages": [
+        78
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory15-page155"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph24",
+      "topic_title": "Vodorodning olinishi",
+      "paragraph": 24,
+      "printed_pages": [
+        70
+      ],
+      "pdf_pages": [
+        36
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph24-page70"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph44",
+      "topic_title": "Kislotalarning olinishi va xossalari",
+      "paragraph": 44,
+      "printed_pages": [
+        119
+      ],
+      "pdf_pages": [
+        60
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph44-page119"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph51",
+      "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+      "paragraph": 51,
+      "printed_pages": [
+        142
+      ],
+      "pdf_pages": [
+        72
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph51-page142"
+    }
+  ],
+  "facts": {
+    "task": {
+      "claim": "Mavzuda rux, temir, mis va xlorid/sulfat kislota tizimlari solishtiriladi. Matn barcha holatlar uchun aniq konsentratsiya va tayyor kuzatuv jadvalini bermaydi; universal natija uchun sharoit yetishmaydi.",
+      "verified_answers": [
+        "Rux",
+        "Temir",
+        "Mis",
+        "Sharoit"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory15",
+          "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+          "paragraph": 15,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory15-page155"
+        }
+      ]
+    },
+    "zinc": {
+      "claim": "Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+      "verified_answers": [
+        "Zn+2HCl=ZnCl2+H2",
+        "Vodorod",
+        "H2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    "sulfate": {
+      "claim": "Aniq oldingi rux/sulfat kislota yozuvi Zn+H2SO4=ZnSO4+H2. Bu berilgan model, barcha metall va sharoitlarning yagona natijasi emas.",
+      "verified_answers": [
+        "Zn+H2SO4=ZnSO4+H2",
+        "ZnSO4"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    "iron": {
+      "claim": "Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+      "verified_answers": [
+        "Fe+2HCl=FeCl2+H2",
+        "FeCl2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory15",
+          "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+          "paragraph": 15,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory15-page155"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph51",
+          "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+          "paragraph": 51,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            72
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph51-page142"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Natijani shart bilan bog‘lash",
+        "body": "Rux, temir, mis va ikki kislota tizimi solishtiriladi. Berilmagan konsentratsiya va kuzatuvlarni o‘zingizdan qo‘shmang; mis/sulfat kislota uchun universal natija chiqarilmaydi.",
+        "fact_ids": [
+          "task"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory15",
+            "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+            "paragraph": 15,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              78
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory15-page155"
+          }
+        ]
+      },
+      {
+        "title": "Rux va xlorid kislota modeli",
+        "body": "Zn + 2HCl = ZnCl₂ + H₂ — oldingi manbaning aniq yozuvi. Vodorod gaz mahsulotidir.",
+        "fact_ids": [
+          "zinc"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph24",
+            "topic_title": "Vodorodning olinishi",
+            "paragraph": 24,
+            "printed_pages": [
+              70
+            ],
+            "pdf_pages": [
+              36
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph24-page70"
+          }
+        ]
+      },
+      {
+        "title": "Rux va sulfat kislota modeli",
+        "body": "Zn + H₂SO₄ = ZnSO₄ + H₂ — oldingi ishlangan yozuv. Qaysi metall va qaysi kislota berilganini saqlang.",
+        "fact_ids": [
+          "sulfate"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph44",
+            "topic_title": "Kislotalarning olinishi va xossalari",
+            "paragraph": 44,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              60
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph44-page119"
+          }
+        ]
+      },
+      {
+        "title": "Temir uchun berilgan mahsulotli model",
+        "body": "Fe + 2HCl = FeCl₂ + H₂. Bu original yordamchi modelda mahsulotlar aniq berilgan va oldingi formulalar bilan bog‘langan.",
+        "fact_ids": [
+          "iron"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory15",
+            "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+            "paragraph": 15,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              78
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory15-page155"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph51",
+            "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+            "paragraph": 51,
+            "printed_pages": [
+              142
+            ],
+            "pdf_pages": [
+              72
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph51-page142"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph44",
+            "topic_title": "Kislotalarning olinishi va xossalari",
+            "paragraph": 44,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              60
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph44-page119"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory15",
+        "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+        "paragraph": 15,
+        "printed_pages": [
+          155
+        ],
+        "pdf_pages": [
+          78
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory15-page155"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph24",
+        "topic_title": "Vodorodning olinishi",
+        "paragraph": 24,
+        "printed_pages": [
+          70
+        ],
+        "pdf_pages": [
+          36
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph24-page70"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph44",
+        "topic_title": "Kislotalarning olinishi va xossalari",
+        "paragraph": 44,
+        "printed_pages": [
+          119
+        ],
+        "pdf_pages": [
+          60
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph44-page119"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph51",
+        "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+        "paragraph": 51,
+        "printed_pages": [
+          142
+        ],
+        "pdf_pages": [
+          72
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph51-page142"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab15-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Matnda tayyor universal natija chiqarish uchun qaysi turdagi ma’lumot yetishmaydi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sharoit"
+          },
+          {
+            "id": "b",
+            "label": "Faqat fayl nomi"
+          },
+          {
+            "id": "c",
+            "label": "Faqat rangli sarlavha"
+          },
+          {
+            "id": "d",
+            "label": "Faqat sahifa raqami"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Sharoit",
+        "feedback": {
+          "correct": "To‘g‘ri. Mavzuda rux, temir, mis va xlorid/sulfat kislota tizimlari solishtiriladi. Matn barcha holatlar uchun aniq konsentratsiya va tayyor kuzatuv jadvalini bermaydi; universal natija uchun sharoit yetishmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Mavzuda rux, temir, mis va xlorid/sulfat kislota tizimlari solishtiriladi. Matn barcha holatlar uchun aniq konsentratsiya va tayyor kuzatuv jadvalini bermaydi; universal natija uchun sharoit yetishmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Mavzuda rux, temir, mis va xlorid/sulfat kislota tizimlari solishtiriladi. Matn barcha holatlar uchun aniq konsentratsiya va tayyor kuzatuv jadvalini bermaydi; universal natija uchun sharoit yetishmaydi.",
+            "fact_ids": [
+              "task"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory15",
+                "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+                "paragraph": 15,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  78
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory15-page155"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "task"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory15",
+          "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+          "paragraph": 15,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory15-page155"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab15-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Zn/HCl modelining gaz mahsulot nomi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Kislorod"
+          },
+          {
+            "id": "b",
+            "label": "Azot"
+          },
+          {
+            "id": "c",
+            "label": "Vodorod"
+          },
+          {
+            "id": "d",
+            "label": "Karbonat angidrid"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Vodorod",
+        "feedback": {
+          "correct": "To‘g‘ri. Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+          "incorrect": "Hozircha noto‘g‘ri. Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+            "fact_ids": [
+              "zinc"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "zinc"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab15-r1-q03",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Mavzudagi Zn nomi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Rux",
+        "feedback": {
+          "correct": "To‘g‘ri. Mavzuda rux, temir, mis va xlorid/sulfat kislota tizimlari solishtiriladi. Matn barcha holatlar uchun aniq konsentratsiya va tayyor kuzatuv jadvalini bermaydi; universal natija uchun sharoit yetishmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Mavzuda rux, temir, mis va xlorid/sulfat kislota tizimlari solishtiriladi. Matn barcha holatlar uchun aniq konsentratsiya va tayyor kuzatuv jadvalini bermaydi; universal natija uchun sharoit yetishmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Mavzuda rux, temir, mis va xlorid/sulfat kislota tizimlari solishtiriladi. Matn barcha holatlar uchun aniq konsentratsiya va tayyor kuzatuv jadvalini bermaydi; universal natija uchun sharoit yetishmaydi.",
+            "fact_ids": [
+              "task"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory15",
+                "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+                "paragraph": 15,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  78
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory15-page155"
+              }
+            ]
+          }
+        ],
+        "expected": "Rux",
+        "aliases": [
+          "Rux"
+        ]
+      },
+      "fact_ids": [
+        "task"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory15",
+          "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+          "paragraph": 15,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory15-page155"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab15-r1-q04",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Oldingi Zn/HCl modelini ZnCl₂ va H₂ mahsulotlari bilan tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Zn+2HCl=ZnCl2+H2",
+        "feedback": {
+          "correct": "To‘g‘ri. Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+          "incorrect": "Hozircha noto‘g‘ri. Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod."
+        },
+        "solution": [
+          {
+            "body": "Aniq oldingi yozuv Zn+2HCl=ZnCl2+H2. Shu modelning gaz mahsuloti vodorod.",
+            "fact_ids": [
+              "zinc"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph24",
+                "topic_title": "Vodorodning olinishi",
+                "paragraph": 24,
+                "printed_pages": [
+                  70
+                ],
+                "pdf_pages": [
+                  36
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph24-page70"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn+2HCl=ZnCl2+H2"
+      },
+      "fact_ids": [
+        "zinc"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph24",
+          "topic_title": "Vodorodning olinishi",
+          "paragraph": 24,
+          "printed_pages": [
+            70
+          ],
+          "pdf_pages": [
+            36
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph24-page70"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab15-r1-q05",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Oldingi Zn/H₂SO₄ modelini ZnSO₄ va H₂ mahsulotlari bilan yozing.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Zn+H2SO4=ZnSO4+H2",
+        "feedback": {
+          "correct": "To‘g‘ri. Aniq oldingi rux/sulfat kislota yozuvi Zn+H2SO4=ZnSO4+H2. Bu berilgan model, barcha metall va sharoitlarning yagona natijasi emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Aniq oldingi rux/sulfat kislota yozuvi Zn+H2SO4=ZnSO4+H2. Bu berilgan model, barcha metall va sharoitlarning yagona natijasi emas.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Aniq oldingi rux/sulfat kislota yozuvi Zn+H2SO4=ZnSO4+H2. Bu berilgan model, barcha metall va sharoitlarning yagona natijasi emas.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Aniq oldingi rux/sulfat kislota yozuvi Zn+H2SO4=ZnSO4+H2. Bu berilgan model, barcha metall va sharoitlarning yagona natijasi emas.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Aniq oldingi rux/sulfat kislota yozuvi Zn+H2SO4=ZnSO4+H2. Bu berilgan model, barcha metall va sharoitlarning yagona natijasi emas."
+        },
+        "solution": [
+          {
+            "body": "Aniq oldingi rux/sulfat kislota yozuvi Zn+H2SO4=ZnSO4+H2. Bu berilgan model, barcha metall va sharoitlarning yagona natijasi emas.",
+            "fact_ids": [
+              "sulfate"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph44",
+                "topic_title": "Kislotalarning olinishi va xossalari",
+                "paragraph": 44,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  60
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph44-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn+H2SO4=ZnSO4+H2"
+      },
+      "fact_ids": [
+        "sulfate"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab15-r1-q06",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Original modelni tenglang: Fe+HCl→FeCl₂+H₂.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Fe+2HCl=FeCl2+H2",
+        "feedback": {
+          "correct": "To‘g‘ri. Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas."
+        },
+        "solution": [
+          {
+            "body": "Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory15",
+                "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+                "paragraph": 15,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  78
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory15-page155"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph51",
+                "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+                "paragraph": 51,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  72
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph51-page142"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph44",
+                "topic_title": "Kislotalarning olinishi va xossalari",
+                "paragraph": 44,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  60
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph44-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "Fe+2HCl=FeCl2+H2"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory15",
+          "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+          "paragraph": 15,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory15-page155"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph51",
+          "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+          "paragraph": 51,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            72
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph51-page142"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab15-r1-q07",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Berilgan temir modelidagi tuz formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "FeCl2",
+        "feedback": {
+          "correct": "To‘g‘ri. Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Original yordamchi Fe/HCl modelida mahsulotlar FeCl2 va H2 berilsin. Atomlar bo‘yicha tenglangan yozuv Fe+2HCl=FeCl2+H2. Bu haqiqiy kuzatuv yoki barcha kislotalar uchun bashorat emas.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory15",
+                "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+                "paragraph": 15,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  78
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory15-page155"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph51",
+                "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+                "paragraph": 51,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  72
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph51-page142"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph44",
+                "topic_title": "Kislotalarning olinishi va xossalari",
+                "paragraph": 44,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  60
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph44-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "FeCl2"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory15",
+          "topic_title": "Kislotalarning metallar bilan o‘zaro ta’siri",
+          "paragraph": 15,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory15-page155"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph51",
+          "topic_title": "Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish",
+          "paragraph": 51,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            72
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph51-page142"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph44",
+          "topic_title": "Kislotalarning olinishi va xossalari",
+          "paragraph": 44,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            60
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph44-page119"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph24",
+    "ch7-paragraph44",
+    "ch7-paragraph51"
+  ]
+}

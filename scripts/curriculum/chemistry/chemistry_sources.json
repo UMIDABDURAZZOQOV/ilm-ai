@@ -4825,7 +4825,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-lab15-acid-condition-scope",
+              "status": "open_review",
+              "printed_pages": [
+                155
+              ],
+              "pdf_pages": [
+                78
+              ],
+              "regions": [
+                "right"
+              ],
+              "scope": "H2SO4 concentration/heating conditions and actual outcomes are unspecified;no universal Cu/H2SO4 reaction/no-reaction or fabricated rate key.",
+              "withheld_claims": [
+                {
+                  "id": "copper_sulfate_conditions",
+                  "printed_page": 155,
+                  "reason": "The inquiry compares Zn/Fe/Cu with HCl/H2SO4 and suggests heat when no reaction,but supplies no definite H2SO4 concentration or measured outcome. Preserve as a condition-scope review;do not invent a universal Cu/H2SO4 product or no-reaction answer."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",

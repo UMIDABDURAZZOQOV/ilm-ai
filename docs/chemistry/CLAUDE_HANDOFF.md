@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-69 reviewed lessons through grade7 §51,practical1–7,laboratories1–11;199 remain. All
+74 reviewed lessons: all grade7 §1–51,practical1–7,laboratories1–16;194 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next teaching entries are grade7 laboratories12–16,the last5 entries in grade7.
-Nine chapterI–VI reviews are integrated;context reuse is not an extra entry.
-Grade8 remains unauthored. Flutter grade selection remains7;generalise carefully
-before integrating grade8 without changing shared learning/XP rules.
+Next grade8 §1,original5–10;all74 grade7 teaching entries are implemented.
+Nine chapterI–VI reviews integrated;context reuse is not an extra entry.
+Grade7 source issues still gate readiness. Flutter selection remains7;generalise
+using available_grades before grade8 integration,keeping common learning rules.
 
 ## Review and development notes
 
@@ -235,3 +235,18 @@ Labs8/9 use exact earlier Zn/HCl70 and CuO/H2 73 equations plus explicitly virtu
 indicator tables,not a universal oxide/water rule. Lab11 original full-neutral-
 isation models explicitly give products using actual earlier50/111/119 evidence;
 no claim that the completed equations or colours/crystals are printed on153.
+
+
+## Batch15 laboratories12–16
+
+Final5 labs add17 cards/33 questions. Original154–155 plus precise earlier
+formula/equation/indicator contexts were visually read. Lab15 unspecified
+Cu/H2SO4 concentration/heating is held in ch7-lab15-acid-condition-scope and
+machine guarded;no universal outcome key. All original products-given balancing
+models are distinguished from printed completed equations. No invented starting
+CuOH2 colour,pH7 endpoint,crystal/hydrate value or physical procedure.
+
+Pure positive grading tests06–15 now share a module-scoped fully validated
+document snapshot,with a teardown fingerprint proving no mutation. Source
+mutation/loader/import/API tests still read and validate fresh. No runtime or
+importer cache introduced;all363 Chemistry tests pass (one opt-in PG skipped).

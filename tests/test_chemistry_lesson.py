@@ -28,6 +28,19 @@ from routers.chemistry_preview import router
 PREFIX='/preview/chemistry/v2'
 
 
+@pytest.fixture(scope='module')
+def reviewed_chemistry_documents():
+    """One fully validated immutable snapshot for pure grading examples only.
+
+    Source-mutation,loader,import and API tests still read/revalidate evidence.
+    The teardown checksum also catches accidental mutation by a grading test.
+    """
+    from services.chemistry_validation import fingerprint
+    documents=load_lessons();before=fingerprint(documents)
+    yield documents
+    assert fingerprint(documents)==before
+
+
 @pytest.fixture
 def chemistry(tmp_path,monkeypatch):
     monkeypatch.setenv('ENVIRONMENT','test')

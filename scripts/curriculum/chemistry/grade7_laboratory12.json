@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 70,
+  "key": "chemistry-7-lab12-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory12",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Mis (II)-gidroksidining qizdirilganda parchalanishi",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory11"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory12",
+      "topic_title": "Mis (II)-gidroksidining qizdirilganda parchalanishi",
+      "paragraph": 12,
+      "printed_pages": [
+        154
+      ],
+      "pdf_pages": [
+        78
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory12-page154"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph40",
+      "topic_title": "Asoslarning olinishi va xossalari",
+      "paragraph": 40,
+      "printed_pages": [
+        112
+      ],
+      "pdf_pages": [
+        57
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph40-page112"
+    }
+  ],
+  "facts": {
+    "task": {
+      "claim": "Mavzu mis(II)-gidroksidning parchalanishini so‘raydi. Matn boshlang‘ich/yakuniy ko‘rinish va suv tomchilariga e’tibor berishni aytadi; aniq boshlang‘ich rang qiymati berilmagan.",
+      "verified_answers": [
+        "Parchalanish",
+        "Suv"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory12",
+          "topic_title": "Mis (II)-gidroksidining qizdirilganda parchalanishi",
+          "paragraph": 12,
+          "printed_pages": [
+            154
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory12-page154"
+        }
+      ]
+    },
+    "equation": {
+      "claim": "Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+      "verified_answers": [
+        "Cu(OH)2=CuO+H2O",
+        "CuO",
+        "H2O",
+        "Suv",
+        "Parchalanish"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            112
+          ],
+          "pdf_pages": [
+            57
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page112"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Manba so‘rovini o‘qish",
+        "body": "Mavzu Cu(OH)₂ parchalanishi haqida. Matn ko‘rinish va suv tomchilari masalasiga e’tibor qaratadi. Berilmagan boshlang‘ich rangni haqiqiy natija deb yozmaymiz.",
+        "fact_ids": [
+          "task"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory12",
+            "topic_title": "Mis (II)-gidroksidining qizdirilganda parchalanishi",
+            "paragraph": 12,
+            "printed_pages": [
+              154
+            ],
+            "pdf_pages": [
+              78
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory12-page154"
+          }
+        ]
+      },
+      {
+        "title": "Tekshirilgan moddiy yozuv",
+        "body": "Cu(OH)₂ = CuO + H₂O. Bitta boshlang‘ich moddadan ikkita mahsulot yozilgan; oksid bilan suvni ajrating.",
+        "fact_ids": [
+          "equation"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph40",
+            "topic_title": "Asoslarning olinishi va xossalari",
+            "paragraph": 40,
+            "printed_pages": [
+              112
+            ],
+            "pdf_pages": [
+              57
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph40-page112"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory12",
+        "topic_title": "Mis (II)-gidroksidining qizdirilganda parchalanishi",
+        "paragraph": 12,
+        "printed_pages": [
+          154
+        ],
+        "pdf_pages": [
+          78
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory12-page154"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph40",
+        "topic_title": "Asoslarning olinishi va xossalari",
+        "paragraph": 40,
+        "printed_pages": [
+          112
+        ],
+        "pdf_pages": [
+          57
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph40-page112"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab12-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Berilgan yozuvdagi oksid mahsulot qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Cu(OH)2"
+          },
+          {
+            "id": "b",
+            "label": "CuO"
+          },
+          {
+            "id": "c",
+            "label": "Cu"
+          },
+          {
+            "id": "d",
+            "label": "H2O"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "CuO",
+        "feedback": {
+          "correct": "To‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "incorrect": "Hozircha noto‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph40",
+                "topic_title": "Asoslarning olinishi va xossalari",
+                "paragraph": 40,
+                "printed_pages": [
+                  112
+                ],
+                "pdf_pages": [
+                  57
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph40-page112"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            112
+          ],
+          "pdf_pages": [
+            57
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page112"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab12-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Mavzu qanday reaksiya turiga bag‘ishlangan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Birikish"
+          },
+          {
+            "id": "b",
+            "label": "O‘rin olish"
+          },
+          {
+            "id": "c",
+            "label": "Faqat erish"
+          },
+          {
+            "id": "d",
+            "label": "Parchalanish"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Parchalanish",
+        "feedback": {
+          "correct": "To‘g‘ri. Mavzu mis(II)-gidroksidning parchalanishini so‘raydi. Matn boshlang‘ich/yakuniy ko‘rinish va suv tomchilariga e’tibor berishni aytadi; aniq boshlang‘ich rang qiymati berilmagan.",
+          "incorrect": "Hozircha noto‘g‘ri. Mavzu mis(II)-gidroksidning parchalanishini so‘raydi. Matn boshlang‘ich/yakuniy ko‘rinish va suv tomchilariga e’tibor berishni aytadi; aniq boshlang‘ich rang qiymati berilmagan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Mavzu mis(II)-gidroksidning parchalanishini so‘raydi. Matn boshlang‘ich/yakuniy ko‘rinish va suv tomchilariga e’tibor berishni aytadi; aniq boshlang‘ich rang qiymati berilmagan.",
+            "fact_ids": [
+              "task"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory12",
+                "topic_title": "Mis (II)-gidroksidining qizdirilganda parchalanishi",
+                "paragraph": 12,
+                "printed_pages": [
+                  154
+                ],
+                "pdf_pages": [
+                  78
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory12-page154"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "task"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory12",
+          "topic_title": "Mis (II)-gidroksidining qizdirilganda parchalanishi",
+          "paragraph": 12,
+          "printed_pages": [
+            154
+          ],
+          "pdf_pages": [
+            78
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory12-page154"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab12-r1-q03",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Oksiddan tashqari ikkinchi mahsulot nomi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Suv",
+        "feedback": {
+          "correct": "To‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "incorrect": "Hozircha noto‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph40",
+                "topic_title": "Asoslarning olinishi va xossalari",
+                "paragraph": 40,
+                "printed_pages": [
+                  112
+                ],
+                "pdf_pages": [
+                  57
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph40-page112"
+              }
+            ]
+          }
+        ],
+        "expected": "Suv",
+        "aliases": [
+          "Suv"
+        ]
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            112
+          ],
+          "pdf_pages": [
+            57
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page112"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab12-r1-q04",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Cu(OH)₂ dan CuO va H₂O hosil bo‘lish yozuvini kiriting.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Cu(OH)2=CuO+H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "incorrect": "Hozircha noto‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv."
+        },
+        "solution": [
+          {
+            "body": "Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph40",
+                "topic_title": "Asoslarning olinishi va xossalari",
+                "paragraph": 40,
+                "printed_pages": [
+                  112
+                ],
+                "pdf_pages": [
+                  57
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph40-page112"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu(OH)2=CuO+H2O"
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            112
+          ],
+          "pdf_pages": [
+            57
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page112"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab12-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Suv mahsulotining formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "incorrect": "Hozircha noto‘g‘ri. Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Berilgan moddiy yozuv Cu(OH)2=CuO+H2O. Mahsulotlar mis(II)-oksid va suv.",
+            "fact_ids": [
+              "equation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph40",
+                "topic_title": "Asoslarning olinishi va xossalari",
+                "paragraph": 40,
+                "printed_pages": [
+                  112
+                ],
+                "pdf_pages": [
+                  57
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph40-page112"
+              }
+            ]
+          }
+        ],
+        "expected": "H2O"
+      },
+      "fact_ids": [
+        "equation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph40",
+          "topic_title": "Asoslarning olinishi va xossalari",
+          "paragraph": 40,
+          "printed_pages": [
+            112
+          ],
+          "pdf_pages": [
+            57
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph40-page112"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph40"
+  ]
+}

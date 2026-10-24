@@ -9,7 +9,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_catalog,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch07_original_order_review_anchors_and_hydrate_recognition():
@@ -55,8 +55,8 @@ def test_source_review_phase_assumptions_are_not_verified_answers(bad):
     (25,7,'2NH3=N2+3H2','incorrect_species'),
     (26,7,'1,43','correct'),(26,12,'0,672','correct'),
     (27,6,'Ca(OH)₂','correct'),(27,9,'3Fe+4H2O=Fe3O4+4H2','correct')])
-def test_new_finite_input_variants(n,qn,value,expected):
-    l=next(l for l in load_lessons() if l['topic_id']==f'ch7-paragraph{n}')
+def test_new_finite_input_variants(n,qn,value,expected,reviewed_chemistry_documents):
+    l=next(l for l in reviewed_chemistry_documents if l['topic_id']==f'ch7-paragraph{n}')
     q=l['assessments'][qn-1]
     assert grade_answer(q['grading_spec'],{'value':value})==expected
 

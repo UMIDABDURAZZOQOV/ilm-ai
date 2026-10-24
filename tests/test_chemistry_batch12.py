@@ -9,7 +9,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_catalog,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch12_order_review_identity_and_no_new_input_engine():
@@ -72,8 +72,8 @@ def test_unresolved_decimal_and_sulfur_carbon_typo_are_not_premises(text):
     (2,14,'H2O+CO2+CaCO3=Ca(HCO3)2','correct'),
     (3,10,'0,025','correct'),(3,11,'0.05','correct'),
     (4,10,'67,5','correct'),(4,10,'135','incorrect')])
-def test_reviewed_condensed_grouped_salts_partial_equations_and_ratio_answers(offset,qn,value,code):
-    l=load_lessons()[51+offset]
+def test_reviewed_condensed_grouped_salts_partial_equations_and_ratio_answers(offset,qn,value,code,reviewed_chemistry_documents):
+    l=reviewed_chemistry_documents[51+offset]
     assert grade_answer(l['assessments'][qn-1]['grading_spec'],{'value':value})==code
 
 

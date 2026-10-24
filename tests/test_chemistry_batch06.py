@@ -9,7 +9,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_catalog,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch06_book_order_pages_and_original_review_anchor():
@@ -52,8 +52,8 @@ def test_held_reactions_are_not_reviewed_answers(n,bad,error):
     (19,8,'2Al₂O₃=4Al+3O₂'),
     (20,9,'2,586'),
     (22,12,'5,88')])
-def test_new_reviewed_input_variants_and_wrong_direction(n,qnumber,value):
-    lesson=next(l for l in load_lessons() if l['topic_id']==f'ch7-paragraph{n}')
+def test_new_reviewed_input_variants_and_wrong_direction(n,qnumber,value,reviewed_chemistry_documents):
+    lesson=next(l for l in reviewed_chemistry_documents if l['topic_id']==f'ch7-paragraph{n}')
     q=lesson['assessments'][qnumber-1]
     result=grade_answer(q['grading_spec'],{'value':value})
     assert (result=='correct') is (value!='2Al₂O₃=4Al+3O₂')

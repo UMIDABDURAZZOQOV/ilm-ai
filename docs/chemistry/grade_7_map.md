@@ -105,8 +105,8 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-laboratory09` | laboratory 9 | Vodorodning mis (II)-oksid bilan o‘zaro ta’siri va bu reaksiyaning amaliy ahamiyatini o‘rganish | 152–153 | 77:left – 77:right | 152 | reviewed local lesson | ch7-laboratory08 |
 | `ch7-laboratory10` | laboratory 10 | Suvning oksidlar bilan o‘zaro ta’siri. Hosil bo‘lgan eritmalarda indikatorlar rangining o‘zgarishi | 152–153 | 77:left – 77:right | 152 | reviewed local lesson | ch7-laboratory09 |
 | `ch7-laboratory11` | laboratory 11 | Suvda erimaydigan asoslarning kislotalar bilan o‘zaro ta’siri | 153–154 | 77:right – 78:left | 153 | reviewed local lesson | ch7-laboratory10 |
-| `ch7-laboratory12` | laboratory 12 | Mis (II)-gidroksidining qizdirilganda parchalanishi | 154–155 | 78:left – 78:right | 154 | not_authored | ch7-laboratory11 |
-| `ch7-laboratory13` | laboratory 13 | Neytrallanish reaksiyasi | 154–155 | 78:left – 78:right | 154 | not_authored | ch7-laboratory12 |
-| `ch7-laboratory14` | laboratory 14 | Kislota eritmalarining indikatorlarga ta’siri | 154–155 | 78:left – 78:right | 154 | not_authored | ch7-laboratory13 |
-| `ch7-laboratory15` | laboratory 15 | Kislotalarning metallar bilan o‘zaro ta’siri | 155–155 | 78:right – 78:right | 155 | not_authored | ch7-laboratory14 |
-| `ch7-laboratory16` | laboratory 16 | Kislotalarning metall oksidlari bilan o‘zaro ta’siri | 155–155 | 78:right – 78:right | 155 | not_authored | ch7-laboratory15 |
+| `ch7-laboratory12` | laboratory 12 | Mis (II)-gidroksidining qizdirilganda parchalanishi | 154–155 | 78:left – 78:right | 154 | reviewed local lesson | ch7-laboratory11 |
+| `ch7-laboratory13` | laboratory 13 | Neytrallanish reaksiyasi | 154–155 | 78:left – 78:right | 154 | reviewed local lesson | ch7-laboratory12 |
+| `ch7-laboratory14` | laboratory 14 | Kislota eritmalarining indikatorlarga ta’siri | 154–155 | 78:left – 78:right | 154 | reviewed local lesson | ch7-laboratory13 |
+| `ch7-laboratory15` | laboratory 15 | Kislotalarning metallar bilan o‘zaro ta’siri | 155–155 | 78:right – 78:right | 155 | reviewed local lesson; scoped editorial review remains open | ch7-laboratory14 |
+| `ch7-laboratory16` | laboratory 16 | Kislotalarning metall oksidlari bilan o‘zaro ta’siri | 155–155 | 78:right – 78:right | 155 | reviewed local lesson | ch7-laboratory15 |

@@ -9,7 +9,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch08_order_source_boundaries_and_solvent_units():
@@ -43,8 +43,8 @@ def test_conflicting_ocean_volume_does_not_become_an_answer(answer):
     (32,9,'0,4','correct'),(32,9,'400','incorrect'),
     (32,11,'0.400','correct'),(32,11,'0.0004','incorrect'),
     (32,11,'0.4 mol/l','invalid_answer')])
-def test_solvent_fraction_percent_and_millilitre_answers(n,qn,value,code):
-    l=next(l for l in load_lessons() if l['topic_id']==f'ch7-paragraph{n}')
+def test_solvent_fraction_percent_and_millilitre_answers(n,qn,value,code,reviewed_chemistry_documents):
+    l=next(l for l in reviewed_chemistry_documents if l['topic_id']==f'ch7-paragraph{n}')
     assert grade_answer(l['assessments'][qn-1]['grading_spec'],{'value':value})==code
 
 

@@ -467,3 +467,28 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No actual heat/flame/acid/gas/mercury handling,clinical/pest procedure,
   production/main/real-user/other-subject/PDF/OCR/fulltext/token operation or fresh
   teacher/native/browser/IME/TalkBack/PG/full-backend certification. Ready false.
+
+
+## Batch15 — 2026-10-24
+
+- Labs12–16:all74 grade7 teaching entries implemented;**74/268,194 remaining**.
+  New17 cards/33 questions:10 MCQ,6 short,2 numeric,6 formula,9 equation.
+  Total462 cards/714 assessments:296 MCQ,147 short,123 numeric,67 formula,
+  81 equation. Nine integrated reviews do not inflate teaching-entry counts.
+- Full Chemistry **363 passed,1 skipped,1 existing warning/365.38s**. Targeted
+  **18 passed/35.53s**. Test-only module snapshot speeds pure positive grading
+  examples,teardown fingerprint checks no mutation;negative/source/import/API
+  cases remain fresh. Runtime validation/import semantics unchanged.
+- Full Flutter **490 passed/85s**;no Dart/fixture change. Latest analysis65.2s
+  and200% captures are batch13 evidence,not new visual/native certification.
+  Initial execution was blocked by automatic-approval usage limit;after user
+  continuation retry ran successfully. No security rejection bypassed.
+- Real loopback HTTP preserved69 completions/1380XP,passed33 new questions,
+  awarded100XP once,total74/1480XP. Completion replay identical;grading private.
+  Synthetic900003 only;prior immutable snapshots and real user data untouched.
+- All817 source pages decoded,five book SHA identities checked. One scientific
+  blocker plus26 editorial issues remain. Lab15 Cu/H2SO4 scope machine guarded.
+  No assumed pH7 endpoint,concentration,physical observation or crystal data.
+- All grade7 coverage is local preview,not publication/teacher sign-off. No AI,
+  production/main/other-subject/PDF/OCR/fulltext/token operation or fresh
+  PG/full-backend/native/browser/IME/TalkBack certification. Ready flags false.

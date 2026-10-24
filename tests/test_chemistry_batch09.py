@@ -9,7 +9,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_catalog,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch09_original_order_both_practical_parts_and_exact_source_pointer():
@@ -63,9 +63,9 @@ def test_imprecise_iron_percentages_cannot_become_a_fact_premise(premise):
     (36,6,'2Cu2(OH)2CO3=4CuO+2CO2+2H2O','correct'),
     (36,8,'P2O5+H2O=2H3PO4','atom_imbalance'),
     (36,10,'H2O+Na2SO3=2NaOH+SO2','incorrect_species')])
-def test_reviewed_original_numeric_and_parenthesized_equation_inputs(n,qn,value,code):
+def test_reviewed_original_numeric_and_parenthesized_equation_inputs(n,qn,value,code,reviewed_chemistry_documents):
     topic='ch7-practical05' if n==5 else f'ch7-paragraph{n}'
-    l=next(l for l in load_lessons() if l['topic_id']==topic)
+    l=next(l for l in reviewed_chemistry_documents if l['topic_id']==topic)
     assert grade_answer(l['assessments'][qn-1]['grading_spec'],{'value':value})==code
 
 

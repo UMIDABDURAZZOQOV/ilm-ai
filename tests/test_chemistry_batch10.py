@@ -10,7 +10,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_catalog,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch10_original_order_exact_boundaries_and_context():
@@ -58,8 +58,8 @@ def test_disputed_gem_host_cannot_become_a_teaching_premise(name):
     (40,8,'Mg(OH)2+2HCl=MgCl2+2H2O','incorrect_species'),
     (40,10,'CuCl2+NaOH=Cu(OH)Cl+NaCl','correct'),
     (41,8,'0,78','correct'),(41,8,'1.56','incorrect')])
-def test_formula_grouping_partial_products_and_fixed_unit_ratio(n,qn,value,code):
-    l=next(l for l in load_lessons() if l['topic_id']==f'ch7-paragraph{n}')
+def test_formula_grouping_partial_products_and_fixed_unit_ratio(n,qn,value,code,reviewed_chemistry_documents):
+    l=next(l for l in reviewed_chemistry_documents if l['topic_id']==f'ch7-paragraph{n}')
     assert grade_answer(l['assessments'][qn-1]['grading_spec'],{'value':value})==code
 
 

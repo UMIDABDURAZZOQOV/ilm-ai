@@ -56,6 +56,7 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-paragraph50': 'ch7-p50-gas-precision-context-review',
     'ch7-practical07': 'ch7-practical7-clinical-source-scope',
     'ch7-9': 'ch7-review6-product-loss-scope',
+    'ch7-laboratory15': 'ch7-lab15-acid-condition-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -353,6 +354,12 @@ def validate_lesson(catalog, lesson, review):
             require(not any('regidron' in a.casefold() or 'регидрон' in a.casefold()
                             for a in [f['claim'], *f['verified_answers']]),
                     'held_clinical_recipe_cannot_be_a_premise')
+        if any(r['topic_id'] == 'ch7-laboratory15' for r in f['source_refs']):
+            require(not any('H2SO4' in (plain := a.translate(str.maketrans('₀₁₂₃₄₅₆₇₈₉', '0123456789')).replace(' ', ''))
+                            and re.search(r'(?<![A-Za-z])(?:[0-9]+)?Cu(?=[+=→]|$)', plain)
+                            and ('=' in plain or '→' in plain)
+                            for a in [f['claim'], *f['verified_answers']]),
+                    'unresolved_lab_copper_acid_conditions_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

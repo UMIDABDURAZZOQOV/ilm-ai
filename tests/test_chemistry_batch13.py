@@ -9,7 +9,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import DIRECTORY,load_catalog,load_lessons,read_json,readiness,validate_catalog,validate_lesson
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch13_first_labs_have_distinct_keys_prerequisites_and_real_sources():
@@ -60,8 +60,8 @@ def test_unspecified_review_co2_product_does_not_get_a_unique_gas_key(unit,value
     (1,12,'12,8','correct'),
     (2,4,'eruvchanlik','correct'),(3,5,'Hid','correct'),
     (4,5,'CuO','correct'),(4,5,'Cu2O','incorrect')])
-def test_source_models_rounding_bounded_lab_text_and_notation(offset,qn,value,code):
-    l=load_lessons()[56+offset]
+def test_source_models_rounding_bounded_lab_text_and_notation(offset,qn,value,code,reviewed_chemistry_documents):
+    l=reviewed_chemistry_documents[56+offset]
     assert grade_answer(l['assessments'][qn-1]['grading_spec'],{'value':value})==code
 
 

@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 69,
+  "implemented_lessons": 74,
   "grades": [
     {
       "grade": 7,
@@ -11,14 +11,8 @@
       "laboratories": 16,
       "practicals": 7,
       "source_teaching_entries": 74,
-      "implemented_lessons": 69,
-      "remaining_ids": [
-        "ch7-laboratory12",
-        "ch7-laboratory13",
-        "ch7-laboratory14",
-        "ch7-laboratory15",
-        "ch7-laboratory16"
-      ],
+      "implemented_lessons": 74,
+      "remaining_ids": [],
       "pending_source_review_ids": [
         "ch7-p13-p41-percentage-discrepancy",
         "ch7-p18-ozone-context-review",
@@ -43,7 +37,8 @@
         "ch7-p49-medical-current-scope-review",
         "ch7-p50-gas-precision-context-review",
         "ch7-practical7-clinical-source-scope",
-        "ch7-review6-product-loss-scope"
+        "ch7-review6-product-loss-scope",
+        "ch7-lab15-acid-condition-scope"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -304,7 +299,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 25,
+  "open_editorial_review_issues": 26,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

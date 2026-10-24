@@ -8,7 +8,7 @@ from services.chemistry_models import ChemistryProgress
 from services.chemistry_validation import load_catalog,load_lessons,readiness
 from services.models import User
 from services.study import utcnow
-from test_chemistry_lesson import chemistry,PREFIX,send,finish,answer_for
+from test_chemistry_lesson import reviewed_chemistry_documents,chemistry,PREFIX,send,finish,answer_for
 
 
 def test_batch14_labs4_to11_have_distinct_ordered_source_keys_and_no_double_count():
@@ -43,8 +43,8 @@ def test_batch14_labs4_to11_have_distinct_ordered_source_keys_and_no_double_coun
     (7,4,'Cu(OH)2+H2SO4=CuSO4+2H2O','correct'),
     (7,5,'Fe(OH)3+3HCl=FeCl3+3H2O','correct'),
     (7,5,'Fe(OH)3+2HCl=FeCl2+3H2O','incorrect_species')])
-def test_sourced_laboratory_models_case_grouping_and_molar_ratios(offset,qn,value,code):
-    l=load_lessons()[61+offset]
+def test_sourced_laboratory_models_case_grouping_and_molar_ratios(offset,qn,value,code,reviewed_chemistry_documents):
+    l=reviewed_chemistry_documents[61+offset]
     assert grade_answer(l['assessments'][qn-1]['grading_spec'],{'value':value})==code
 
 
