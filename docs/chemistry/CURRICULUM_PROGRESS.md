@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 35 | 24 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 40 | 19 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 109 | 159 |
+| Total | 29 | 204 | 49 | 15 | 268 | 114 | 154 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 793 cards; 1185 assessments: 424 concept_selection, 217 short_text, 299 numeric_value, 97 chemical_formula, 148 chemical_equation.
+Total: 853 cards; 1271 assessments: 445 concept_selection, 223 short_text, 330 numeric_value, 105 chemical_formula, 168 chemical_equation.
 
 ## Initial §1
 
@@ -111,17 +111,23 @@ All six practical categories are digital evidence/given-product balance tasks.
 5 lessons;56 cards;20 MCQ,12 short,22 numeric,3 formula,17 equation.
 Rates/equilibrium use existing bounded responses and explicit model assumptions.
 
+## Batch23: grade8 §35,practical2,§36–38
+
+5 lessons;60 cards;21 MCQ,6 short,31 numeric,8 formula,20 equation.
+Actual chapter06 preface156/top157 retains null paragraph and explicit scope.
+Every lesson includes an original worked example within the reviewed model.
+
 ## Current continuation
 
-Grade7 all74 entries;grade8 §1–34 plus practical1 (35/59),24 remain:
-10 paragraphs,10 laboratories,4 practicals. Whole project159 entries remain.
-Next five:§35,practical2,§36/37/38,sequence36–40,original147–165.
-All original5–165 images visually read;future fact authoring/review pending.
-Chapter06 has actual prefix156 and top157 before§36;preserve exact boundary.
-Catalog327/268 unchanged;nine grade7 reviews integrated,not extra entries.
+Grade7 all74 entries;grade8 §1–38 plus practical1–2 (40/59),19 remain:
+6 paragraphs,10 laboratories,3 practicals. Whole project154 entries remain.
+Next five:§39,practical3,§40/41,practical4,sequence41–45,original165–184.
+All original5–185 images visually read;185 marks the next§42 boundary.
+Future fact authoring/review pending. Catalog327/268 unchanged;nine grade7
+reviews integrated,not extra entries.
 
-One grade9 scientific blocker and61 editorial scopes remain. New holds cover
-exposure/state conditions,gypsum/silver conflicts,rate-law generalizations and
-equilibrium shift/rate confusion. Ready flags false. Original§1,prior104 lesson
-hashes/progress,real users and other subjects preserved. QA_REPORT/CHECKPOINT
-record measured tests and commits.
+One grade9 scientific blocker and67 editorial scopes remain. New reviews cover
+industrial yield assumptions,ozone heat/solution-total inconsistencies,chapter
+configuration copy,N2 condition scope,NH3 rate/equilibrium/aqueous models and
+nitrogen-oxide valence/phase conventions. Ready flags false. Original§1,prior
+109 lesson hashes/progress,real users and other subjects preserved.

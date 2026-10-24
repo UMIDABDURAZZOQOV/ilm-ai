@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-109 reviewed lessons:all74 grade7 entries and grade8 §1–34 plus practical1;159 remain. All
+114 reviewed lessons:all74 grade7 entries and grade8 §1–38 plus practical1–2;154 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next five:grade8 §35/practical2/§36/§37/§38,sequence36–40,original147–165.
-Grade7 all74 entries;grade8 has35/59 (34 paragraphs+practical1).
+Next five:grade8 §39/practical3/§40/§41/practical4,sequence41–45,original165–184.
+Grade7 all74 entries;grade8 has40/59 (38 paragraphs+practical1–2).
 Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
-One scientific blocker/61 editorial reviews still gate readiness. Same shared
+One scientific blocker/67 editorial reviews still gate readiness. Same shared
 MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
@@ -425,3 +425,37 @@ rubrics and server grading stay unchanged. Unit check confirms source JSON is
 not mutated. New theory/source widgets cover gamma/equilibrium at320×568/200%,
 both themes;updated captures show the repaired sign. No native/IME certificate.
 Original148–165 also visually read for the next batch.
+
+
+## Batch23: sulfur practical and nitrogen
+
+Original147–top165 reviewed;five lessons add60 cards/86 questions. Clear source
+industrial sulfur models and all four digital practical categories retained.
+Prior33/142 and current155 now support a new later80gS/air calculation266.67L;
+old immutable§30 remains oxygen-only. Ozone heat153 and100g/200g solution154
+conflicts remain held;clear11.65gBaSO4→4.9g pureH2SO4 step is retained.
+
+Chapter06 prefix156/top157 keeps actual title,null paragraph and matching
+before_first_teaching_heading scope on157 refs AND image evidence. Bi5p10 row
+held;P complete configuration independently verified in earlier table11/50.
+N2/nonpolar/triple-pair,source air fractions,nitrides and conditional gas models
+retained. NH3/ammonium donor pair distinguishes N valence4 from oxidation−3;
+acid-salt/normal-salt ratios and Pt/uncatalyzed products remain explicit.
+NH4OH is aqueous school notation,not isolated-molecule proof. Six N-oxide
+identities and conditionalCu/HNO3 models retained;N2O5 valence and unqualified
+realNO2 density remain held. Density questions explicitly use school models.
+
+Initial manifest validation rejected three missing exact Uzbek answer labels;
+page-verified synonyms were added before first import. No validator weakening.
+53 new backend tests and actualHTTP86 answers pass. Synthetic109/2180XP
+preserved,then114/2280XP;Unicode/ASCII−3 replay identical. No new parser.
+Own loopback8900PID27844;verify full command before stopping. All114 imported
+revisions immutable. Public nitrogen/ammonia fixtures have fake IDs/expiry.
+Four small-screen/200% widgets in both themes cover chapter157 heading scope
+and signed numeric feedback161;source sheets/pinned continuation inspected.
+
+Original166–185 additionally read for continuation. Private detailed next-source
+notes:.local/batch24_source_notes.md. Before authoring next batch,catalog the
+newly found nitrate/generalization,cyanamide formula,phosphine/directreaction,
+phosphate solubility/structure and unbalanced water184 issues. Do not silently
+repair. All course-ready flags remain false;no independent teacher certificate.

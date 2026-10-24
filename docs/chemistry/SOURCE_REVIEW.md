@@ -745,3 +745,36 @@ Original134–top147 read in full;shared headings delimit each topic.
 
 61 editorial scopes plus one scientific blocker;ready false. All817 pages/five
 SHA identities audited. Original148–165 read next,not yet authored facts.
+
+
+## Batch23 source review — 2026-10-25,grade8 sequence36–40
+
+- §35,147–top151:source raw materials including distinctCuS list/Cu2S balance,
+  fluidized/countercurrent concepts,dust/drying/contact/heat-exchange/absorption,
+  V2O5,oleum and continuous-process concepts. No condition-free99.2/73% yield
+  keys or physical acid/gas operations. Original complete-model FeS2:H2SO4=1:2.
+- Practical2,151–155:four tasks become digital evidence/given-product analysis;
+  no fabricated tube IDs or selective protocol. Exact rate-law/completion-time/K
+  assumptions are explicit. Ozone heat/direction153 and solution-total154 held;
+  pure-acid mass step remains clear. Original models cover impurity,air,hydrate,
+  Al/20%acid and the now-taught later air fraction for the earlier80gS problem.
+- Chapter06,156/top157:actual chapter identity,null paragraph,scope157 matches
+  reviewed-image evidence. N/P configurations clear;fullP crosschecked50.
+  Heavy-element configurations,especiallyBi5p10,held with no memory repair.
+- §36,157–top159:triple/nonpolarN2,78volume vs75.5mass sourceair,occurrence,
+  air-separation concept,CuO/NH3 and conditionalN2/O2/H2/Li/Mg balances.
+  No universal all-other-metals nonreaction,unconditioned solubility or physical
+  cryogenic/gas task. Earlier normal-condition models support original density.
+- §37,159–163:NH3 polarity,ammonium/base and industrial balances,aqueous donor
+  pair,N valence4 vs−3oxidation,1:1/2:1 acid-salt ratios,Pt/uncatalyzed products,
+  supplied salts/carbonate/base models and application categories. LowerT/yield
+  confusion,700volume conditions,unlimited solubility and isolatedNH4OH proof
+  held. 5.6L catalytic model gives7LO2/5.6LNO;no phase-free water-gas key.
+- §38,164–top165:six oxide identities,NO neutral/NO2 acidic,explicitCu nitrate
+  models,NO oxidation and suppliedwater model. N2O+1 average,N2O5oxidation+5
+  distinguished from unresolved valence. Density46/2,46/29 is an explicit prior
+  school-model ratio,not a measuredNO2/N2O4 mixture claim.
+
+67 editorial scopes plus one scientific blocker;ready false. All817 PDF pages
+and five SHA identities re-audited. Original166–185 read for the next batch;
+not yet counted as authored facts. New issues there require scoped catalog review.

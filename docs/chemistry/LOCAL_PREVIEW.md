@@ -159,3 +159,12 @@ completions/2180XP. Grade7 remains74;grade8 now35. ActualHTTP passed74 answers
 and once-only100XP;comma/dot replay identical. Public kinetics/equilibrium
 fixtures are sanitized. Display-only <=> fixes missing⇌,without changing raw
 source or grading. No new response type or production publication.
+
+
+## Current continuation after batch23
+
+Private loopback8900 contains114 immutable lessons and114 synthetic900003
+completions/2280XP. Grade7 remains74;grade8 now40. ActualHTTP passed86 answers
+and once-only100XP;Unicode/ASCII−3 replay identical. Public nitrogen/ammonia
+fixtures sanitized. Four source/feedback widgets at320×568/200% in both themes
+pass. No new parser,production publication or real-user operation.

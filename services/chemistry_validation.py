@@ -92,6 +92,12 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph32': 'ch8-p32-acid-sulfate-conflict-review',
     'ch8-paragraph33': 'ch8-p33-rate-model-review',
     'ch8-paragraph34': 'ch8-p34-equilibrium-rate-state-review',
+    'ch8-paragraph35': 'ch8-p35-production-yield-scope',
+    'ch8-practical02': 'ch8-practical2-heat-fraction-condition-review',
+    'ch8-chapter06': 'ch8-ch06-prefix-configuration-review',
+    'ch8-paragraph36': 'ch8-p36-nitrogen-condition-scope',
+    'ch8-paragraph37': 'ch8-p37-ammonia-aqueous-yield-scope',
+    'ch8-paragraph38': 'ch8-p38-nitrogen-oxide-valence-state-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -515,6 +521,27 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-paragraph34' in topic_ids:
             require(not any('harorat pasaysa' in a.casefold() and 'tezlashadi' in a.casefold()
                             for a in plain_values), 'unresolved_equilibrium_shift_rate_confusion_cannot_be_a_premise')
+        if 'ch8-paragraph35' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])(?:99[.,]2|73)(?![0-9])', a)
+                            for a in f['verified_answers']), 'unqualified_production_yield_cannot_be_an_answer')
+        if 'ch8-practical02' in topic_ids:
+            require(not any('O3' in a and ('Q' in a or '192' in a) for a in plain_values),
+                    'unresolved_ozone_formation_heat_cannot_be_a_premise')
+            if any(r['printed_pages']==[154] for r in f['source_refs']) and 'massa ulushi' in f['claim'].casefold():
+                require(not any(re.search(r'(?<![0-9])(?:2[.,]45|4[.,]9)(?![0-9])', a)
+                                for a in f['verified_answers']), 'unresolved_solution_total_mass_cannot_be_an_answer')
+        if 'ch8-chapter06' in topic_ids:
+            require(not any('5p10' in a.replace(' ', '') for a in plain_values),
+                    'unresolved_bismuth_p_capacity_copy_cannot_be_a_premise')
+        if 'ch8-paragraph36' in topic_ids:
+            require(not any('barcha metallar' in a.casefold() and 'kirishmaydi' in a.casefold()
+                            for a in plain_values), 'unqualified_nitrogen_metal_nonreaction_cannot_be_a_premise')
+        if 'ch8-paragraph37' in topic_ids:
+            require(not any('harorat pasaysa' in a.casefold() and 'unum kamayadi' in a.casefold()
+                            for a in plain_values), 'unresolved_ammonia_yield_rate_confusion_cannot_be_a_premise')
+        if 'ch8-paragraph38' in topic_ids:
+            require(not any('N2O5' in a and 'valent' in a.casefold() for a in plain_values),
+                    'unresolved_nitrogen_pentoxide_valence_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

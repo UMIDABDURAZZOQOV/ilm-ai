@@ -7659,7 +7659,36 @@
             "record_id": "ch8-practical02",
             "printed_page": 151,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p35-production-yield-scope",
+              "status": "open_review",
+              "printed_pages": [
+                148,
+                149,
+                150
+              ],
+              "pdf_pages": [
+                148,
+                149,
+                150
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "400C99.2percent/600C73percent lacks pressure/feed composition context and is not universal industrial yield. Catalyst mixtures/history and operating descriptions are source models,not current design specifications.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p35-production-yield-scope",
+                  "printed_page": 148,
+                  "reason": "Retain exact source material balances,fluidized/countercurrent concept,equipment roles,heat recovery,catalyst and absorption/oleum descriptions. No universal yield keys,physical apparatus/acid/gas operating procedure or invented conditions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "practical",
@@ -7704,7 +7733,42 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-practical2-heat-fraction-condition-review",
+              "status": "open_review",
+              "printed_pages": [
+                151,
+                152,
+                153,
+                154,
+                155
+              ],
+              "pdf_pages": [
+                151,
+                152,
+                153,
+                154,
+                155
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "ConcentratedZn/H2SO4 products and unknown-tube observations lack unique supplied conditions/data.153 ozone formation+192.46heat sign/direction requires scientific review.154problem7 begins100g solution then uses200g and2.45percent. Rate-law/completion-time/K examples are assumed models,not universal kinetics/equilibrium rules.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-practical2-heat-fraction-condition-review",
+                  "printed_page": 151,
+                  "reason": "Digital evidence and given-product balance only. Hold ozone heat/direction and inconsistent final fraction;clearBaSO4-to-pureH2SO4 mass step retained. No invented tube identity,uniqueZn reaction channel,physicalHg/acid/gas procedure or new unrestricted solver."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch8-chapter06",
@@ -7741,7 +7805,33 @@
             "record_id": "ch8-activities",
             "printed_page": 200,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-ch06-prefix-configuration-review",
+              "status": "open_review",
+              "printed_pages": [
+                156,
+                157
+              ],
+              "pdf_pages": [
+                156,
+                157
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "d-promotion/max-valence explanations are textbook models,not universal bonding mechanisms.157 heavier-atom configurations are abbreviated/inconsistent;Bi explicitlyprints5p10,which conflicts with earlier p-capacity6. Oxidation+5 is distinct from bond-valence conventions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-ch06-prefix-configuration-review",
+                  "printed_page": 156,
+                  "reason": "Retain clear family names,outer5,integer table scalars and N/P configurations. Hold inconsistent heavier configuration rows,no silent p-to-d repair. Actual chapter prefix156/top157 requires nullparagraph and exact pre-heading scope157."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -7781,7 +7871,36 @@
             "record_id": "ch8-paragraph37",
             "printed_page": 159,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p36-nitrogen-condition-scope",
+              "status": "open_review",
+              "printed_pages": [
+                157,
+                158,
+                159
+              ],
+              "pdf_pages": [
+                157,
+                158,
+                159
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Air78volume/75.5mass are source composition models,not interchangeable. Solubility0.0154 and blanket onlyLi/all-other-metal nonreaction lack unrestricted conditions. Phase/temperature/industrial separation descriptions are not physical instructions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p36-nitrogen-condition-scope",
+                  "printed_page": 157,
+                  "reason": "Use exact N2/nonpolar/triple-pair model,givenCuO/NH3,N2/O2,N2/H2,Li/Mg nitride equations and earlier verified gas models. No universal metal reaction predictor,condition-free solubility or actual cryogenic/gas handling."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -7821,7 +7940,39 @@
             "record_id": "ch8-paragraph38",
             "printed_page": 164,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p37-ammonia-aqueous-yield-scope",
+              "status": "open_review",
+              "printed_pages": [
+                160,
+                161,
+                162,
+                163
+              ],
+              "pdf_pages": [
+                160,
+                161,
+                162,
+                163
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "160lower-temperature-lower-yield wording conflates rate/equilibrium. Solubility700 lacks explicit conditions. NH4OH is aqueous school notation alongside NH4+/OH-,not isolated molecular substance proof. All-ammonium-salts-soluble language is not unlimited.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p37-ammonia-aqueous-yield-scope",
+                  "printed_page": 160,
+                  "reason": "Retain clear given models,ammonium donor-pair/N valence4 versus oxidation-3 and specified acid-salt/normal-salt ratios. No unqualified lowerT lowers equilibrium yield,isolatedNH4OH/typedcharge key,physical ammonium/ammonia flame/explosive/medical procedure."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -7861,7 +8012,33 @@
             "record_id": "ch8-paragraph39",
             "printed_page": 165,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p38-nitrogen-oxide-valence-state-review",
+              "status": "open_review",
+              "printed_pages": [
+                164,
+                165
+              ],
+              "pdf_pages": [
+                164,
+                165
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "N2O5 valence question intersects earlier inconsistent valence conventions;oxidation+5 is distinct. N2O+1 names an average,not individual N sites. NO/NO2 physical constants/solubility and NO2 dimerization require state/condition scope.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p38-nitrogen-oxide-valence-state-review",
+                  "printed_page": 164,
+                  "reason": "Use exact six oxide identities,NO neutral/NO2 acidic and supplied dilute/concentratedCu nitrate/oxidation/water models. Hold N2O5 numericvalence,unconditional real-gas density/solubility and individualN2O site claims;no silent correction or toxicgas preparation."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

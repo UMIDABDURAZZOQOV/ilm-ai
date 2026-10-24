@@ -1,0 +1,50 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 109,
+  "prior_xp": 2180,
+  "added_lessons": 5,
+  "added_questions": 86,
+  "kinds": {
+    "concept_selection": 21,
+    "short_text": 6,
+    "chemical_formula": 8,
+    "chemical_equation": 20,
+    "numeric_value": 31
+  },
+  "added_xp": 100,
+  "total_xp": 2280,
+  "total_completed_lessons": 114,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_catalog_unchanged": true,
+  "unicode_ascii_minus_replay_equivalent": true,
+  "exported_fixtures": "sanitized public nitrogen/ammonia catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 114,
+  "remaining_lessons": 154,
+  "backend_tests": {
+    "passed": 686,
+    "skipped": 1,
+    "seconds": 764.37
+  },
+  "targeted_batch_tests": {
+    "passed": 53,
+    "seconds": 32.11
+  },
+  "flutter_tests": {
+    "passed": 508,
+    "seconds": 117
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 181.2
+  },
+  "flutter_source_feedback_widgets": {
+    "passed": 4,
+    "seconds": 11
+  },
+  "open_source_holds": 1,
+  "open_editorial_issues": 67,
+  "production_operations": false
+}

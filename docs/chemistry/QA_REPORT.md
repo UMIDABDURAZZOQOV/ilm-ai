@@ -684,3 +684,31 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   Catalog327/268 unchanged;all ready flags false.
 - No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
   physical experiment,new chemical solver or fresh PG/whole-backend certificate.
+
+
+## Batch23 — 2026-10-25
+
+- **114/268 implemented,154 remaining**;grade7:74/74,grade8:40/59.
+  §35/practical2/§36–38 add60 cards/86 questions (21 MCQ,6 short,31 numeric,
+  8 formula,20 equation). Total853 cards/1271 questions:445/223/330/105/168.
+  All109 prior hashes/original§1 unchanged;critical Ruff/diff checks pass.
+- Full Chemistry **686 passed,1 skipped,1 existing warning/764.37s**.
+  Target **53 passed/32.11s**. Source mutation tests retain all six reviews and
+  reject erroneousBi configuration,ozone heat,solution fraction,yield/rate and
+  valence premises. Prefix157 evidence scope must match. Initial manifest
+  rejected three missing exact Uzbek answer labels;source-backed labels were
+  completed before first import,without changing the validator contract.
+- Full Flutter **508 passed/117s**;analysis **no issues/181.2s**.
+  Four new actualHTTP-fixture widgets **passed/11s**,320×568/200%,both themes.
+  Table/source prefix157 and signed numeric feedback/source161 inspected;
+  eight captures generated,four representative captures visually reviewed.
+  Scrollable source sheets and pinned continuation remain usable. No native,
+  browser,IME or TalkBack certificate;no new runtime parser/display change.
+- ActualHTTP preserved109 completions/2180XP,passed86 answers,added100XP once,
+  total114/2280XP. Unicode/ASCII−3 replay identical;grade7 catalog unchanged;
+  rubrics private. Synthetic900003 only. Six new public fixtures sanitized.
+- Five textbook SHA identities/all817 pages re-audited. Catalog327/268 unchanged;
+  one scientific blocker and67 editorial scopes remain. Ready flags false.
+  Original166–185 additionally read for continuation,not yet authored lessons.
+- No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
+  physical experiment,new scientific solver or fresh PG/whole-backend claim.

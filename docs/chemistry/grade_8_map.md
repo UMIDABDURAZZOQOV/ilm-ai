@@ -50,12 +50,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-paragraph32` | paragraph 32 | Sulfat kislota | 138–141 | 138:full – 141:full | 138 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph31 |
 | `ch8-paragraph33` | paragraph 33 | Kimyoviy reaksiyalarning tezligi | 141–144 | 141:full – 144:full | 141 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph32 |
 | `ch8-paragraph34` | paragraph 34 | Kimyoviy muvozanat | 144–147 | 144:full – 147:full | 144 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph33 |
-| `ch8-paragraph35` | paragraph 35 | Sanoatda sulfat kislota ishlab chiqarish | 147–151 | 147:full – 151:full | 147 | not_authored | ch8-paragraph34 |
-| `ch8-practical02` | practical 2 | “Oltingugurt” mavzusi bo‘yicha tajribaviy masalalar yechish | 151–156 | 151:full – 156:full | 151 | not_authored | ch8-paragraph35 |
-| `ch8-chapter06` | chapter 6 | Azot guruhchasi | 156–200 | 156:full – 200:full | 156 | not_authored | — |
-| `ch8-paragraph36` | paragraph 36 | Azot | 157–159 | 157:full – 159:full | 157 | not_authored | ch8-practical02 |
-| `ch8-paragraph37` | paragraph 37 | Azotning vodorodli birikmalari | 159–164 | 159:full – 164:full | 159 | not_authored | ch8-paragraph36 |
-| `ch8-paragraph38` | paragraph 38 | Azotning kislorodli birikmalari | 164–165 | 164:full – 165:full | 164 | not_authored | ch8-paragraph37 |
+| `ch8-paragraph35` | paragraph 35 | Sanoatda sulfat kislota ishlab chiqarish | 147–151 | 147:full – 151:full | 147 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph34 |
+| `ch8-practical02` | practical 2 | “Oltingugurt” mavzusi bo‘yicha tajribaviy masalalar yechish | 151–156 | 151:full – 156:full | 151 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph35 |
+| `ch8-chapter06` | chapter 6 | Azot guruhchasi | 156–200 | 156:full – 200:full | 156 | not_authored; scoped editorial review remains open | — |
+| `ch8-paragraph36` | paragraph 36 | Azot | 157–159 | 157:full – 159:full | 157 | reviewed local lesson; scoped editorial review remains open | ch8-practical02 |
+| `ch8-paragraph37` | paragraph 37 | Azotning vodorodli birikmalari | 159–164 | 159:full – 164:full | 159 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph36 |
+| `ch8-paragraph38` | paragraph 38 | Azotning kislorodli birikmalari | 164–165 | 164:full – 165:full | 164 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph37 |
 | `ch8-paragraph39` | paragraph 39 | Nitrat kislota | 165–170 | 165:full – 170:full | 165 | not_authored | ch8-paragraph38 |
 | `ch8-practical03` | practical 3 | “Ammiak olish va u bilan tajribalar o‘tkazish” | 170–174 | 170:full – 174:full | 170 | not_authored | ch8-paragraph39 |
 | `ch8-paragraph40` | paragraph 40 | Fosfor | 174–177 | 174:full – 177:full | 174 | not_authored | ch8-practical03 |
