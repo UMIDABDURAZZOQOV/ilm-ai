@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 21,
+  "implemented_lessons": 26,
   "grades": [
     {
       "grade": 7,
@@ -11,13 +11,8 @@
       "laboratories": 16,
       "practicals": 7,
       "source_teaching_entries": 74,
-      "implemented_lessons": 21,
+      "implemented_lessons": 26,
       "remaining_ids": [
-        "ch7-paragraph19",
-        "ch7-paragraph20",
-        "ch7-paragraph21",
-        "ch7-practical04",
-        "ch7-paragraph22",
         "ch7-paragraph23",
         "ch7-paragraph24",
         "ch7-paragraph25",
@@ -69,7 +64,9 @@
       ],
       "pending_source_review_ids": [
         "ch7-p13-p41-percentage-discrepancy",
-        "ch7-p18-ozone-context-review"
+        "ch7-p18-ozone-context-review",
+        "ch7-p19-silane-equation-review",
+        "ch7-p20-photosynthesis-label-review"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -327,9 +324,9 @@
       "course_ready": false
     }
   ],
-  "integrated_source_activities": 2,
+  "integrated_source_activities": 3,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 2,
+  "open_editorial_review_issues": 4,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

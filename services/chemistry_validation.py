@@ -33,6 +33,8 @@ KNOWN_SOURCE_HOLDS = {'ch9-paragraph40': 'ch9-p40-page186-configuration-conflict
 KNOWN_EDITORIAL_ISSUES = {
     'ch7-paragraph13': 'ch7-p13-p41-percentage-discrepancy',
     'ch7-paragraph18': 'ch7-p18-ozone-context-review',
+    'ch7-paragraph19': 'ch7-p19-silane-equation-review',
+    'ch7-paragraph20': 'ch7-p20-photosynthesis-label-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -264,6 +266,12 @@ def validate_lesson(catalog, lesson, review):
         if any(r['topic_id'] == 'ch7-paragraph13' for r in f['source_refs']):
             require(not any(UNRESOLVED_PERCENTAGES.search(a) for a in f['verified_answers']),
                     'unresolved_source_percentage_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-paragraph19' for r in f['source_refs']):
+            require(not any('SiH4' in a or 'SiH₄' in a for a in f['verified_answers']),
+                    'unresolved_silane_equation_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-paragraph20' for r in f['source_refs']):
+            require(not any('*' in a for a in f['verified_answers']),
+                    'unresolved_photosynthesis_label_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

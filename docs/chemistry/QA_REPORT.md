@@ -195,3 +195,30 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - Existing development imports/snapshots and real users are unchanged. Original
   §1 bytes remain unchanged. Only separate Chemistry feature branches are used.
   No PDF/OCR/fulltext/token upload, production DB/deploy or main merge.
+
+
+## Batch06 — 2026-10-24
+
+- Five new lessons: §19–22 plus practical4; chapterII review is integrated with
+  exact source identity. **26/268 implemented,242 remaining**;171 cards/288
+  assessments total (146 MCQ,67 short,54 numeric,7 formula,14 equation).
+  Batch06 adds38 cards/52 questions, including6 equation tasks.
+- Final complete Chemistry suite: **168 passed,1 skipped,1 existing warning,
+  370.05s**. The skip is opt-in PostgreSQL, not a passing database run. Critical
+  Ruff clean. Initial four failures were the new test treating the grader's
+  string result as a dictionary; that test assertion was corrected before this
+  final full run. No grader behavior changed to make the test pass.
+- Full Flutter suite rerun: **482 passed,2m26s**. No Dart changes in batch06;
+  the preceding clean analysis/source-widget results remain historical. No fresh
+  native/browser/web-build/PostgreSQL/IME/TalkBack/teacher certification claimed.
+- Real loopback HTTP appended five immutable manifests and answered52 new
+  questions correctly. Prior21 completed lessons/420XP preserved; added100XP,
+  total26/520XP. Repeated completion identical; pre-answer grading stays private.
+  Only synthetic900003 in the existing private final sandbox was used.
+- All817 original PDF pages decoded and five SHA identities verified again.
+  Three chapter-review anchors integrated in total. One scientific hold and four
+  scoped editorial issues are visible and gate whole-course readiness.
+- New source guards reject the unapproved silane equation and starred oxygen
+  attribution as answers. Source heading transcription corrected on62. All other
+  source order/counts unchanged. Original §1 and imported prior snapshots remain
+  unchanged. Full course readiness is false; no production or real-user action.

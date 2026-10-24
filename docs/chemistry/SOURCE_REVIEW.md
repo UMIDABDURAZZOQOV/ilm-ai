@@ -207,3 +207,34 @@ sourced. No claim that every ozone clause is resolved or teacher-certified.
 Readiness now checks open source-review issues as well as missing lesson IDs.
 There is one blocking scientific hold and two scoped editorial issues. All
 whole-course ready flags remain false.
+
+
+## Batch06 image review — 2026-10-24
+
+Original spreads30–35/printed58–69 read. §19 uses only58–59; §20 starts on60.
+§21 starts halfway down62 and ends before practical4 on64. Practical4 uses64–65
+with chapterII review66 explicitly linked. §22 uses67–68; acids begin on69.
+The printed Yonilg‘ilarning heading on62 corrected a misplaced apostrophe in the
+catalogue transcription; topic identity, source order/count are unchanged.
+
+- **ch7-p19-silane-equation-review**,59/PDF30:right: printed
+  SiH4+2O2=SiO2+H2O has4 hydrogen atoms left and2 right. It is withheld, including
+  an unapproved silent repaired answer. Other individually balanced reactions
+  are taught. No oxygen-cylinder operation or physical burning instructions.
+- **ch7-p20-photosynthesis-label-review**,60/PDF31:left: printed6H2O* and6O2*
+  labels mark different oxygen counts, and nearby routing/half-biomass prose
+  requires context. Isotope origin is withheld; only the balanced overall
+  unlabeled equation and its reverse are used. No mechanistic correction from
+  memory is supplied.
+- Air table values are identified as this2017 edition's sea-level dry-air data;
+  historical reserve/geographic statements are not certified current statistics.
+- Practical4's limewater instruction asks for an observation without stating an
+  outcome there. No result is fabricated. Digital work uses supplied gas identity,
+  earlier verified equations, report structure and original stoichiometric tasks.
+- §22 isotope table and edition-specific detailed masses are separate from
+  roundedH=1/O=16 arithmetic. The H2O2 mass-fraction example cites prior §10/33
+  and §13/40 as well as the current paragraph; no disputed §13/41 numbers used.
+
+Open issues now total one blocking scientific hold and four scoped editorial
+issues. File coverage alone cannot make a whole course ready. The lessons are
+source-image reviewed, not independently teacher-certified.

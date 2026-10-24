@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph22.json",
+  "lesson_sha256": "e8fd175ce69904cc2e9c6e32a48bff764d0094741e22a787a360cafdd92d4411",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original67–68 read; paragraph23 starts at69. Hydrogen history is textbook attribution, not independently verified chronology.",
+    "Printed detailed atomic/molecular masses used only as edition values; school-arithmetic examples explicitly use roundedH=1 andO=16 sourced to prior paragraph10.",
+    "Isotope table is recognition only; isotope/structural/ionic input is not silently routed to the finite plain-formula parser. No nuclear/balloon experiment instructions.",
+    "Final copy/answer review: correct MCQ label explicitly maps to the taught product side, word/number spacing polished; no original21 lesson changed."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph22-page67",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph22",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 67,
+      "pdf_page": 34,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "7ae843edc41415e3b5f22f81405ac97c16519a2d2a148221d03c9a6f3688a936",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph22-page68",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph22",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 68,
+      "pdf_page": 35,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "12daaf4dd0f4a6081ca30dcd2f58639f260f2f83619d9d5897af96a445ac1c08",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph10-page33",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph10",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 33,
+      "pdf_page": 17,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "efe3826885fc592f0037d428fef48b4c18a88967231a4df1f3f1c83c61829d4c",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph13-page40",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph13",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 40,
+      "pdf_page": 21,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "024962d6fef107ba17f1b681882a3f023f5f6a6cd2148342f4fd6d67d361dd54",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

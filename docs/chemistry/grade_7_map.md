@@ -36,13 +36,13 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-chapter02` | chapter 2 | Kislorod | 54–67 | 28:left – 34:right | 54 | not_authored | — |
 | `ch7-paragraph17` | paragraph 17 | Kislorod | 54–56 | 28:left – 29:left | 54 | reviewed local lesson | ch7-paragraph16 |
 | `ch7-paragraph18` | paragraph 18 | Kislorod – oddiy modda | 56–58 | 29:left – 30:left | 56 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph17 |
-| `ch7-paragraph19` | paragraph 19 | Kislorodning kimyoviy xossalari. Biologik ahamiyati va ishlatilishi | 58–60 | 30:left – 31:left | 58 | not_authored | ch7-paragraph18 |
-| `ch7-paragraph20` | paragraph 20 | Kislorodning tabiatda aylanishi. Havo va uning tarkibi. Havoni ifloslanishdan saqlash | 60–62 | 31:left – 32:left | 60 | not_authored | ch7-paragraph19 |
-| `ch7-paragraph21` | paragraph 21 | Yonish. Yo‘nilg‘ilarning turlari | 62–64 | 32:left – 33:left | 62 | not_authored | ch7-paragraph20 |
-| `ch7-practical04` | practical 4 | Kislorod olish va uning xossalari bilan tanishish | 64–66 | 33:left – 34:left | 64 | not_authored | ch7-paragraph21 |
-| `ch7-3` | review  | II bob yuzasidan masala va test topshiriqlari | 66–67 | 34:left – 34:right | 66 | not_authored | — |
+| `ch7-paragraph19` | paragraph 19 | Kislorodning kimyoviy xossalari. Biologik ahamiyati va ishlatilishi | 58–60 | 30:left – 31:left | 58 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph18 |
+| `ch7-paragraph20` | paragraph 20 | Kislorodning tabiatda aylanishi. Havo va uning tarkibi. Havoni ifloslanishdan saqlash | 60–62 | 31:left – 32:left | 60 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph19 |
+| `ch7-paragraph21` | paragraph 21 | Yonish. Yonilg‘ilarning turlari | 62–64 | 32:left – 33:left | 62 | reviewed local lesson | ch7-paragraph20 |
+| `ch7-practical04` | practical 4 | Kislorod olish va uning xossalari bilan tanishish | 64–66 | 33:left – 34:left | 64 | reviewed local lesson | ch7-paragraph21 |
+| `ch7-3` | review  | II bob yuzasidan masala va test topshiriqlari | 66–67 | 34:left – 34:right | 66 | integrated source activity in chemistry-7-practical04-r1 | — |
 | `ch7-chapter03` | chapter 3 | Vodorod | 67–80 | 34:right – 41:left | 67 | not_authored | — |
-| `ch7-paragraph22` | paragraph 22 | Vodorod | 67–69 | 34:right – 35:right | 67 | not_authored | ch7-practical04 |
+| `ch7-paragraph22` | paragraph 22 | Vodorod | 67–69 | 34:right – 35:right | 67 | reviewed local lesson | ch7-practical04 |
 | `ch7-paragraph23` | paragraph 23 | Kislotalar haqida dastlabki tushunchalar | 69–70 | 35:right – 36:left | 69 | not_authored | ch7-paragraph22 |
 | `ch7-paragraph24` | paragraph 24 | Vodorodning olinishi | 70–72 | 36:left – 37:left | 70 | not_authored | ch7-paragraph23 |
 | `ch7-paragraph25` | paragraph 25 | Vodorod – oddiy modda. Vodorodning fizik va kimyoviy xossalari. Ishlatilishi | 72–73 | 37:left – 37:right | 72 | not_authored | ch7-paragraph24 |

@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-21 reviewed lessons through grade7 §18, including practical1–3;247 remain. All
+26 reviewed lessons through grade7 §22, including practical1–4;242 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next paragraph is grade7 §19, printed58–60, followed by §20, §21,
-practical4 and §22. ChapterI's two review anchors are integrated into §16 with
-their actual topic identities; do not double-count or mislabel them.
+Next paragraph is grade7 §23, printed69–70, then §24–26, chapterIII review
+anchors and §27. ChapterI/II reviews are integrated with actual source identities;
+do not double-count or mislabel them.
 
 ## Review and development notes
 
@@ -79,3 +79,14 @@ Grade7 §18 ozone thickness interpretation, resin-formation context and old
 exposure figure remain withheld under ch7-p18-ozone-context-review. Do not
 convert the 2–4.5mm statement into geometric stratospheric thickness or teach
 the edition's 10^-5% figure as a current exposure guideline.
+
+
+## Batch06 source boundaries
+
+§19 silane equation on59 is atom-unbalanced and withheld; do not repair from
+memory. §20 oxygen-routing prose/star labels on60 need contextual review; the
+balanced overall unlabeled photosynthesis equation is taught separately. These
+issues are pinned, not resolved. Dry-air percentages and reserve figures are
+explicit edition data, not present-day observations. Practical4 is guided
+digital analysis; absent limewater outcomes are not invented. §22 is Vodorod,
+not a heat topic. Isotope table recognition uses MCQ/text, not unsupported syntax.

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph19.json",
+  "lesson_sha256": "679cff7b43c8ba63b039be1647aa917b9f56a72d67c43f05a96e7ff76f2198b5",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original images58–59 checked; section20 starts at60. Symbolic reactions only, no burning, oxygen-cylinder handling or home procedures.",
+    "Printed SiH4+2O2=SiO2+H2O is atom-unbalanced (H4 versusH2); withheld and recorded as ch7-p19-silane-equation-review. No silently repaired key.",
+    "Broad photosynthesis wording on59 is not taught as oxygen being a photosynthesis reactant. Actual photosynthesis equation belongs to later paragraph20.",
+    "Edition-specific biomass percentages and industrial descriptions are identified as textbook data, not current clinical or operating advice.",
+    "Final copy/answer review: correct MCQ label explicitly maps to the taught product side, word/number spacing polished; no original21 lesson changed."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph19-page58",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph19",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 58,
+      "pdf_page": 30,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "28fd3badeb46b057e8d0a6753d23728d6e8cac4a4cf1246b72c275b27eb30dda",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph19-page59",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph19",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 59,
+      "pdf_page": 30,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "28fd3badeb46b057e8d0a6753d23728d6e8cac4a4cf1246b72c275b27eb30dda",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph15-page43",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph15",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 43,
+      "pdf_page": 22,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "79c3b61d37815c749e1c2391fa5b68155e3f396fa4d04796171ed4a2f764f57f",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

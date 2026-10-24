@@ -1231,7 +1231,30 @@
             "record_id": "ch7-paragraph20",
             "printed_page": 60,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p19-silane-equation-review",
+              "status": "open_review",
+              "printed_pages": [
+                59
+              ],
+              "pdf_pages": [
+                30
+              ],
+              "regions": [
+                "right"
+              ],
+              "scope": "Printed silane equation has H4 on the left and H2 on the right; withheld without silently repairing the printed key.",
+              "withheld_claims": [
+                {
+                  "id": "silane_equation",
+                  "printed_page": 59,
+                  "reason": "SiH4+2O2=SiO2+H2O is not atom-balanced. Do not author this reaction as an approved formula/equation answer."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -1271,13 +1294,36 @@
             "record_id": "ch7-paragraph21",
             "printed_page": 62,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p20-photosynthesis-label-review",
+              "status": "open_review",
+              "printed_pages": [
+                60
+              ],
+              "pdf_pages": [
+                31
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "Detailed oxygen-source routing prose and starred equation require review; teach only the balanced overall unlabeled equation, not isotope attribution.",
+              "withheld_claims": [
+                {
+                  "id": "oxygen_routing_labels",
+                  "printed_page": 60,
+                  "reason": "The printed6H2O* input marks six oxygen atoms while6O2* output would mark twelve; accompanying half-biomass/routing prose lacks sufficient context. Do not grade isotopic origin or copy these starred counts."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
           "number": 21,
           "printed_start": 62,
-          "title": "Yonish. Yo‘nilg‘ilarning turlari",
+          "title": "Yonish. Yonilg‘ilarning turlari",
           "id": "ch7-paragraph21",
           "chapter_id": "ch7-chapter02",
           "sequence": 24,
@@ -1298,14 +1344,15 @@
           "heading_review": {
             "status": "body_text_heading_verified",
             "method": "embedded_text_and_visually_reviewed_contents",
-            "reviewed_on": "2026-10-24"
+            "reviewed_on": "2026-10-24",
+            "transcription_correction": "Original printed62 heading reads Yonilg‘ilarning; previous catalogue had a misplaced apostrophe. Source order and topic identity are unchanged."
           },
           "content_status": "not_authored",
           "interactive_status": "not_implemented",
           "source_id": "chemistry-7-uz-2017",
           "source_file": "kimyo_7_uzb.pdf",
           "source_sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
-          "title_original": "Yonish. Yo‘nilg‘ilarning turlari",
+          "title_original": "Yonish. Yonilg‘ilarning turlari",
           "fact_review_status": "not_started",
           "end_boundary": {
             "record_id": "ch7-practical04",
