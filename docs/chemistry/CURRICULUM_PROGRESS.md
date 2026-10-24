@@ -4,18 +4,18 @@
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7 | 6 | 51 | 16 | 7 | 74 | 56 | 18 |
+| 7 | 6 | 51 | 16 | 7 | 74 | 61 | 13 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 0 | 59 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 56 | 212 |
+| Total | 29 | 204 | 49 | 15 | 268 | 61 | 207 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 393 cards; 591 assessments: 251 concept_selection, 122 short_text, 113 numeric_value, 49 chemical_formula, 56 chemical_equation.
+Total: 417 cards; 630 assessments: 266 concept_selection, 130 short_text, 118 numeric_value, 53 chemical_formula, 63 chemical_equation.
 
 ## Initial §1
 
@@ -65,20 +65,21 @@ Total: 393 cards; 591 assessments: 251 concept_selection, 122 short_text, 113 nu
 
 5 lessons;42 cards;18 MCQ,10 short text,12 numeric,11 formula,8 equation.
 
+## Batch13: §51,practical7,laboratories1–3
+
+5 lessons;24 cards;15 MCQ,8 short text,5 numeric,4 formula,7 equation.
+
 ## Current continuation
 
-Completed grade7 through **§50**,including practical1–6 and eight chapterI–V
-review anchors. Next **§51**,practical7,and16 separate laboratories in book order.
-Grade7 has18 teaching entries remaining;whole project212.
+Completed grade7 through **§51**,practical1–7,laboratories1–3 and nine chapterI–VI
+review anchors. Next **laboratories4–11**,then12–16 in source order.
+Grade7 has13 teaching entries remaining;whole project207.
 
-MCQ,bounded short text,fixed-unit numeric,reviewed finite formulas and balanced
-equations share the existing system. Hydrate-dot/complex/double-salt formulas are
-recognition only. No automatic ionic/structural/reaction engine or AI feature.
-
-One scientific hold and23 scoped editorial issues remain open. Legacy iodine,
-missing Cu product,sulfur/CO2 typo,precision/state and clinical/current scope
-remain held without an invented replacement. All whole-course flags false.
+One scientific hold and25 scoped editorial issues remain open. Practical7
+clinical/purity scope and chapterVI CO2-product/copper-loss ambiguity are visible.
+No source gap is silently replaced with invented observations or treatment.
+All course-ready flags remain false. Shared learning/XP/grading unchanged.
 
 Original§1,prior immutable lessons/attempts and real users are preserved.
-Separate Chemistry branches only;no production/main/other-subject operation.
+Separate Chemistry branches only;no production/main/other-subject/AI operation.
 Measured QA and exact commits:QA_REPORT.md and CHECKPOINT.md.

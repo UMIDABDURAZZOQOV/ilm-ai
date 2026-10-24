@@ -90,13 +90,13 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-8` | review  | V bob yuzasidan test topshiriqlari | 135–136 | 68:right – 69:left | 135 | integrated source activity in chemistry-7-p49-r1 | — |
 | `ch7-paragraph50` | paragraph 50 | Ekvivalentlik qonuni | 136–141 | 69:left – 71:right | 136 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph49 |
 | `ch7-chapter06` | chapter 6 | Oksidlar, asoslar, kislotalar va tuzlarning o‘zaro genetik bog‘lanishi | 141–147 | 71:right – 74:right | 141 | not_authored | — |
-| `ch7-paragraph51` | paragraph 51 | Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish | 141–143 | 71:right – 72:right | 141 | not_authored | ch7-paragraph50 |
-| `ch7-practical07` | practical 7 | Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish | 143–145 | 72:right – 73:right | 143 | not_authored | ch7-paragraph51 |
-| `ch7-9` | review  | VI bob yuzasidan test topshiriqlari | 145–147 | 73:right – 74:right | 145 | not_authored | — |
+| `ch7-paragraph51` | paragraph 51 | Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish | 141–143 | 71:right – 72:right | 141 | reviewed local lesson | ch7-paragraph50 |
+| `ch7-practical07` | practical 7 | Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish | 143–145 | 72:right – 73:right | 143 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph51 |
+| `ch7-9` | review  | VI bob yuzasidan test topshiriqlari | 145–147 | 73:right – 74:right | 145 | integrated source activity in chemistry-7-practical07-r1; scoped editorial review remains open | — |
 | `ch7-activities` | activity_collection  | Laboratoriya ishlari | 147–155 | 74:right – 78:right | 147 | not_authored | — |
-| `ch7-laboratory01` | laboratory 1 | Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish | 147–148 | 74:right – 75:left | 147 | not_authored | ch7-practical07 |
-| `ch7-laboratory02` | laboratory 2 | Fizik hodisalar | 148–149 | 75:left – 75:right | 148 | not_authored | ch7-laboratory01 |
-| `ch7-laboratory03` | laboratory 3 | Kimyoviy hodisalar | 149–150 | 75:right – 76:left | 149 | not_authored | ch7-laboratory02 |
+| `ch7-laboratory01` | laboratory 1 | Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish | 147–148 | 74:right – 75:left | 147 | reviewed local lesson | ch7-practical07 |
+| `ch7-laboratory02` | laboratory 2 | Fizik hodisalar | 148–149 | 75:left – 75:right | 148 | reviewed local lesson | ch7-laboratory01 |
+| `ch7-laboratory03` | laboratory 3 | Kimyoviy hodisalar | 149–150 | 75:right – 76:left | 149 | reviewed local lesson | ch7-laboratory02 |
 | `ch7-laboratory04` | laboratory 4 | Oddiy va murakkab moddalar | 150–151 | 76:left – 76:right | 150 | not_authored | ch7-laboratory03 |
 | `ch7-laboratory05` | laboratory 5 | Kimyoviy reaksiyalarning turlari | 150–151 | 76:left – 76:right | 150 | not_authored | ch7-laboratory04 |
 | `ch7-laboratory06` | laboratory 6 | Oksidlarning namunalari bilan tanishish | 151–152 | 76:right – 77:left | 151 | not_authored | ch7-laboratory05 |

@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 60,
+  "key": "chemistry-7-lab02-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory02",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Fizik hodisalar",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory01"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory02",
+      "topic_title": "Fizik hodisalar",
+      "paragraph": 2,
+      "printed_pages": [
+        148
+      ],
+      "pdf_pages": [
+        75
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory02-page148"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory02",
+      "topic_title": "Fizik hodisalar",
+      "paragraph": 2,
+      "printed_pages": [
+        149
+      ],
+      "pdf_pages": [
+        75
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory02-page149"
+    }
+  ],
+  "facts": {
+    "paraffin": {
+      "claim": "Parafin suyuqlanishi va sovishidagi holat o‘zgarishi fizik hodisa misoli sifatida berilgan. Bu modda holatining o‘zgarishi bilan tanishtiradi.",
+      "verified_answers": [
+        "Fizik hodisa",
+        "Suyuqlanish"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page148"
+        }
+      ]
+    },
+    "salt": {
+      "claim": "Osh tuzining suvda erishi va eritmadan yana tuz kristallari ajralishi fizik hodisalar qatorida keltirilgan.",
+      "verified_answers": [
+        "Fizik hodisa",
+        "Kristallar",
+        "Erish"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page148"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page149"
+        }
+      ]
+    },
+    "odour": {
+      "claim": "Uchinchi komponent moddalarni hid xossasi bo‘yicha farqlash deb nomlangan. Raqamli darsda faqat xossa turi taniladi; manba aniq hid tavsiflarini bermagan.",
+      "verified_answers": [
+        "Hid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page149"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Parafinning holat o‘zgarishi",
+        "body": "Manba parafinning suyuqlanishi va sovishini fizik hodisa misoli sifatida beradi. Topshiriqda shu tasnifni taniymiz.",
+        "fact_ids": [
+          "paraffin"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory02",
+            "topic_title": "Fizik hodisalar",
+            "paragraph": 2,
+            "printed_pages": [
+              148
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory02-page148"
+          }
+        ]
+      },
+      {
+        "title": "Tuz va eritma misoli",
+        "body": "Osh tuzi suvda erishi va eritmadan yana kristallar ajralishi fizik hodisalar qatorida berilgan. Biz tayyor tavsifni tasniflaymiz.",
+        "fact_ids": [
+          "salt"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory02",
+            "topic_title": "Fizik hodisalar",
+            "paragraph": 2,
+            "printed_pages": [
+              148
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory02-page148"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory02",
+            "topic_title": "Fizik hodisalar",
+            "paragraph": 2,
+            "printed_pages": [
+              149
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory02-page149"
+          }
+        ]
+      },
+      {
+        "title": "Hid — xossa nomi",
+        "body": "Uchinchi bo‘lim hid xossasi bo‘yicha farqlash deb nomlangan. Bu dars hidlash tajribasi emas; aniq hid natijalari berilmagani uchun ularni uydirmaymiz.",
+        "fact_ids": [
+          "odour"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory02",
+            "topic_title": "Fizik hodisalar",
+            "paragraph": 2,
+            "printed_pages": [
+              149
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory02-page149"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory02",
+        "topic_title": "Fizik hodisalar",
+        "paragraph": 2,
+        "printed_pages": [
+          148
+        ],
+        "pdf_pages": [
+          75
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory02-page148"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory02",
+        "topic_title": "Fizik hodisalar",
+        "paragraph": 2,
+        "printed_pages": [
+          149
+        ],
+        "pdf_pages": [
+          75
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory02-page149"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab02-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Parafin suyuqlanishi manbada qanday hodisa misoli?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Kimyoviy parchalanish"
+          },
+          {
+            "id": "b",
+            "label": "Fizik hodisa"
+          },
+          {
+            "id": "c",
+            "label": "Tuz hosil bo‘lishi"
+          },
+          {
+            "id": "d",
+            "label": "Metall almashinuvi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Fizik hodisa",
+        "feedback": {
+          "correct": "To‘g‘ri. Parafin suyuqlanishi va sovishidagi holat o‘zgarishi fizik hodisa misoli sifatida berilgan. Bu modda holatining o‘zgarishi bilan tanishtiradi.",
+          "incorrect": "Hozircha noto‘g‘ri. Parafin suyuqlanishi va sovishidagi holat o‘zgarishi fizik hodisa misoli sifatida berilgan. Bu modda holatining o‘zgarishi bilan tanishtiradi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Parafin suyuqlanishi va sovishidagi holat o‘zgarishi fizik hodisa misoli sifatida berilgan. Bu modda holatining o‘zgarishi bilan tanishtiradi.",
+            "fact_ids": [
+              "paraffin"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory02",
+                "topic_title": "Fizik hodisalar",
+                "paragraph": 2,
+                "printed_pages": [
+                  148
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory02-page148"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "paraffin"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page148"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab02-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Eritmadan yana nima ajralishi tilga olingan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat metall"
+          },
+          {
+            "id": "b",
+            "label": "Faqat vodorod"
+          },
+          {
+            "id": "c",
+            "label": "Faqat kislorod"
+          },
+          {
+            "id": "d",
+            "label": "Kristallar"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Kristallar",
+        "feedback": {
+          "correct": "To‘g‘ri. Osh tuzining suvda erishi va eritmadan yana tuz kristallari ajralishi fizik hodisalar qatorida keltirilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Osh tuzining suvda erishi va eritmadan yana tuz kristallari ajralishi fizik hodisalar qatorida keltirilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Osh tuzining suvda erishi va eritmadan yana tuz kristallari ajralishi fizik hodisalar qatorida keltirilgan.",
+            "fact_ids": [
+              "salt"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory02",
+                "topic_title": "Fizik hodisalar",
+                "paragraph": 2,
+                "printed_pages": [
+                  148
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory02-page148"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory02",
+                "topic_title": "Fizik hodisalar",
+                "paragraph": 2,
+                "printed_pages": [
+                  149
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory02-page149"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "salt"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page148"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page149"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab02-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Uchinchi komponent qaysi xossa nomiga tegishli?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Hid"
+          },
+          {
+            "id": "b",
+            "label": "Zichlik"
+          },
+          {
+            "id": "c",
+            "label": "Valentlik"
+          },
+          {
+            "id": "d",
+            "label": "Indeks"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Hid",
+        "feedback": {
+          "correct": "To‘g‘ri. Uchinchi komponent moddalarni hid xossasi bo‘yicha farqlash deb nomlangan. Raqamli darsda faqat xossa turi taniladi; manba aniq hid tavsiflarini bermagan.",
+          "incorrect": "Hozircha noto‘g‘ri. Uchinchi komponent moddalarni hid xossasi bo‘yicha farqlash deb nomlangan. Raqamli darsda faqat xossa turi taniladi; manba aniq hid tavsiflarini bermagan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Uchinchi komponent moddalarni hid xossasi bo‘yicha farqlash deb nomlangan. Raqamli darsda faqat xossa turi taniladi; manba aniq hid tavsiflarini bermagan.",
+            "fact_ids": [
+              "odour"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory02",
+                "topic_title": "Fizik hodisalar",
+                "paragraph": 2,
+                "printed_pages": [
+                  149
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory02-page149"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "odour"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page149"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab02-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Parafinning qattiq holatdan suyuq holatga o‘tishi atamasi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Suyuqlanish",
+        "feedback": {
+          "correct": "To‘g‘ri. Parafin suyuqlanishi va sovishidagi holat o‘zgarishi fizik hodisa misoli sifatida berilgan. Bu modda holatining o‘zgarishi bilan tanishtiradi.",
+          "incorrect": "Hozircha noto‘g‘ri. Parafin suyuqlanishi va sovishidagi holat o‘zgarishi fizik hodisa misoli sifatida berilgan. Bu modda holatining o‘zgarishi bilan tanishtiradi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Parafin suyuqlanishi va sovishidagi holat o‘zgarishi fizik hodisa misoli sifatida berilgan. Bu modda holatining o‘zgarishi bilan tanishtiradi.",
+            "fact_ids": [
+              "paraffin"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory02",
+                "topic_title": "Fizik hodisalar",
+                "paragraph": 2,
+                "printed_pages": [
+                  148
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory02-page148"
+              }
+            ]
+          }
+        ],
+        "expected": "Suyuqlanish",
+        "aliases": [
+          "Suyuqlanish",
+          "suyuqlanishi"
+        ]
+      },
+      "fact_ids": [
+        "paraffin"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page148"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab02-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Manba nomlagan, raqamli darsda natijasi uydirilmaydigan xossa?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Hid",
+        "feedback": {
+          "correct": "To‘g‘ri. Uchinchi komponent moddalarni hid xossasi bo‘yicha farqlash deb nomlangan. Raqamli darsda faqat xossa turi taniladi; manba aniq hid tavsiflarini bermagan.",
+          "incorrect": "Hozircha noto‘g‘ri. Uchinchi komponent moddalarni hid xossasi bo‘yicha farqlash deb nomlangan. Raqamli darsda faqat xossa turi taniladi; manba aniq hid tavsiflarini bermagan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Uchinchi komponent moddalarni hid xossasi bo‘yicha farqlash deb nomlangan. Raqamli darsda faqat xossa turi taniladi; manba aniq hid tavsiflarini bermagan.",
+            "fact_ids": [
+              "odour"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory02",
+                "topic_title": "Fizik hodisalar",
+                "paragraph": 2,
+                "printed_pages": [
+                  149
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory02-page149"
+              }
+            ]
+          }
+        ],
+        "expected": "Hid",
+        "aliases": [
+          "Hid",
+          "hidi"
+        ]
+      },
+      "fact_ids": [
+        "odour"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory02",
+          "topic_title": "Fizik hodisalar",
+          "paragraph": 2,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory02-page149"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only"
+}

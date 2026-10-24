@@ -1,0 +1,1091 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 61,
+  "key": "chemistry-7-lab03-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory03",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Kimyoviy hodisalar",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-laboratory02"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory03",
+      "topic_title": "Kimyoviy hodisalar",
+      "paragraph": 3,
+      "printed_pages": [
+        149
+      ],
+      "pdf_pages": [
+        75
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory03-page149"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory03",
+      "topic_title": "Kimyoviy hodisalar",
+      "paragraph": 3,
+      "printed_pages": [
+        150
+      ],
+      "pdf_pages": [
+        76
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory03-page150"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-practical07",
+      "topic_title": "Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish",
+      "paragraph": 7,
+      "printed_pages": [
+        143
+      ],
+      "pdf_pages": [
+        72
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-practical07-page143"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph11",
+      "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+      "paragraph": 11,
+      "printed_pages": [
+        35
+      ],
+      "pdf_pages": [
+        18
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph11-page35"
+    }
+  ],
+  "facts": {
+    "components": {
+      "claim": "Kimyoviy hodisalar bo‘limi yonish, mis yuzasidagi qora modda va xlorid kislotaning bo‘r/marmar/ohaktoshga ta’sirini uch alohida misol sifatida so‘raydi.",
+      "verified_answers": [
+        "Kimyoviy hodisa",
+        "Yonish",
+        "Mis"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory03",
+          "topic_title": "Kimyoviy hodisalar",
+          "paragraph": 3,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory03-page149"
+        }
+      ]
+    },
+    "copper": {
+      "claim": "Matn mis yuzasida hosil bo‘lgan qora modda bilan boshlang‘ich misni taqqoslashni so‘raydi. Avvalgi masalada qora kukun uchun CuO formulasi nomlangan; rangning o‘zi tozalik dalili emas.",
+      "verified_answers": [
+        "CuO",
+        "Mis"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory03",
+          "topic_title": "Kimyoviy hodisalar",
+          "paragraph": 3,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory03-page149"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-practical07",
+          "topic_title": "Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish",
+          "paragraph": 7,
+          "printed_pages": [
+            143
+          ],
+          "pdf_pages": [
+            72
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-practical07-page143"
+        }
+      ]
+    },
+    "change": {
+      "claim": "Kimyoviy hodisada modda tarkibi o‘zgarib, yangi modda hosil bo‘lishi oldin o‘rgatilgan. Laboratoriya tavsiflari shu qoida bilan tahlil qilinadi.",
+      "verified_answers": [
+        "Yangi modda",
+        "Kimyoviy hodisa"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph11",
+          "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+          "paragraph": 11,
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph11-page35"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Uchta kimyoviy misol",
+        "body": "Manba yonish, mis yuzasidagi qora modda va kislota/karbonat tavsiflarini alohida beradi. Har misolda boshlang‘ich modda bilan yangi modda masalasi tahlil qilinadi.",
+        "fact_ids": [
+          "components",
+          "change"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory03",
+            "topic_title": "Kimyoviy hodisalar",
+            "paragraph": 3,
+            "printed_pages": [
+              149
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory03-page149"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph11",
+            "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+            "paragraph": 11,
+            "printed_pages": [
+              35
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph11-page35"
+          }
+        ]
+      },
+      {
+        "title": "Mis va qora modda",
+        "body": "Misning dastlabki ko‘rinishi bilan qora modda taqqoslanadi. Oldingi masalada CuO qora kukun nomi bilan keltirilgan. Faqat rangga qarab namuna toza deyish mumkin emas.",
+        "fact_ids": [
+          "copper"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory03",
+            "topic_title": "Kimyoviy hodisalar",
+            "paragraph": 3,
+            "printed_pages": [
+              149
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory03-page149"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-practical07",
+            "topic_title": "Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish",
+            "paragraph": 7,
+            "printed_pages": [
+              143
+            ],
+            "pdf_pages": [
+              72
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-practical07-page143"
+          }
+        ]
+      },
+      {
+        "title": "Tasniflash mezoni",
+        "body": "Oldingi qoida: kimyoviy hodisada tarkib o‘zgarib, yangi modda hosil bo‘ladi. Tayyor tavsifni shu mezon bilan tahlil qilamiz; berilmagan tajriba natijasini yozmaymiz.",
+        "fact_ids": [
+          "change"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph11",
+            "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+            "paragraph": 11,
+            "printed_pages": [
+              35
+            ],
+            "pdf_pages": [
+              18
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph11-page35"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory03",
+        "topic_title": "Kimyoviy hodisalar",
+        "paragraph": 3,
+        "printed_pages": [
+          149
+        ],
+        "pdf_pages": [
+          75
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory03-page149"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory03",
+        "topic_title": "Kimyoviy hodisalar",
+        "paragraph": 3,
+        "printed_pages": [
+          150
+        ],
+        "pdf_pages": [
+          76
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory03-page150"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-practical07",
+        "topic_title": "Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish",
+        "paragraph": 7,
+        "printed_pages": [
+          143
+        ],
+        "pdf_pages": [
+          72
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-practical07-page143"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph11",
+        "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+        "paragraph": 11,
+        "printed_pages": [
+          35
+        ],
+        "pdf_pages": [
+          18
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph11-page35"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab03-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Mazkur bo‘lim misollari qaysi turga kiritilgan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat fizik hodisa"
+          },
+          {
+            "id": "b",
+            "label": "Faqat agregat holat"
+          },
+          {
+            "id": "c",
+            "label": "Kimyoviy hodisa"
+          },
+          {
+            "id": "d",
+            "label": "Faqat rang nomi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Kimyoviy hodisa",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy hodisalar bo‘limi yonish, mis yuzasidagi qora modda va xlorid kislotaning bo‘r/marmar/ohaktoshga ta’sirini uch alohida misol sifatida so‘raydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy hodisalar bo‘limi yonish, mis yuzasidagi qora modda va xlorid kislotaning bo‘r/marmar/ohaktoshga ta’sirini uch alohida misol sifatida so‘raydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy hodisalar bo‘limi yonish, mis yuzasidagi qora modda va xlorid kislotaning bo‘r/marmar/ohaktoshga ta’sirini uch alohida misol sifatida so‘raydi.",
+            "fact_ids": [
+              "components"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory03",
+                "topic_title": "Kimyoviy hodisalar",
+                "paragraph": 3,
+                "printed_pages": [
+                  149
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory03-page149"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "components"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory03",
+          "topic_title": "Kimyoviy hodisalar",
+          "paragraph": 3,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory03-page149"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab03-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Misollardan biri qaysi nom bilan keltirilgan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Yonish"
+          },
+          {
+            "id": "b",
+            "label": "Faqat muzlash"
+          },
+          {
+            "id": "c",
+            "label": "Faqat elash"
+          },
+          {
+            "id": "d",
+            "label": "Faqat o‘lchash"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Yonish",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy hodisalar bo‘limi yonish, mis yuzasidagi qora modda va xlorid kislotaning bo‘r/marmar/ohaktoshga ta’sirini uch alohida misol sifatida so‘raydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy hodisalar bo‘limi yonish, mis yuzasidagi qora modda va xlorid kislotaning bo‘r/marmar/ohaktoshga ta’sirini uch alohida misol sifatida so‘raydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy hodisalar bo‘limi yonish, mis yuzasidagi qora modda va xlorid kislotaning bo‘r/marmar/ohaktoshga ta’sirini uch alohida misol sifatida so‘raydi.",
+            "fact_ids": [
+              "components"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory03",
+                "topic_title": "Kimyoviy hodisalar",
+                "paragraph": 3,
+                "printed_pages": [
+                  149
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory03-page149"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "components"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory03",
+          "topic_title": "Kimyoviy hodisalar",
+          "paragraph": 3,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory03-page149"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab03-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Kimyoviy hodisa mezonidagi natija qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat idish"
+          },
+          {
+            "id": "b",
+            "label": "Faqat yozuv"
+          },
+          {
+            "id": "c",
+            "label": "Faqat jadval"
+          },
+          {
+            "id": "d",
+            "label": "Yangi modda"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Yangi modda",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy hodisada modda tarkibi o‘zgarib, yangi modda hosil bo‘lishi oldin o‘rgatilgan. Laboratoriya tavsiflari shu qoida bilan tahlil qilinadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy hodisada modda tarkibi o‘zgarib, yangi modda hosil bo‘lishi oldin o‘rgatilgan. Laboratoriya tavsiflari shu qoida bilan tahlil qilinadi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy hodisada modda tarkibi o‘zgarib, yangi modda hosil bo‘lishi oldin o‘rgatilgan. Laboratoriya tavsiflari shu qoida bilan tahlil qilinadi.",
+            "fact_ids": [
+              "change"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph11",
+                "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+                "paragraph": 11,
+                "printed_pages": [
+                  35
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph11-page35"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "change"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph11",
+          "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+          "paragraph": 11,
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph11-page35"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab03-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Kimyoviy hodisada hosil bo‘ladigan tarkibi boshqa obyekt qanday ataladi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Yangi modda",
+        "feedback": {
+          "correct": "To‘g‘ri. Kimyoviy hodisada modda tarkibi o‘zgarib, yangi modda hosil bo‘lishi oldin o‘rgatilgan. Laboratoriya tavsiflari shu qoida bilan tahlil qilinadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Kimyoviy hodisada modda tarkibi o‘zgarib, yangi modda hosil bo‘lishi oldin o‘rgatilgan. Laboratoriya tavsiflari shu qoida bilan tahlil qilinadi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kimyoviy hodisada modda tarkibi o‘zgarib, yangi modda hosil bo‘lishi oldin o‘rgatilgan. Laboratoriya tavsiflari shu qoida bilan tahlil qilinadi.",
+            "fact_ids": [
+              "change"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph11",
+                "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+                "paragraph": 11,
+                "printed_pages": [
+                  35
+                ],
+                "pdf_pages": [
+                  18
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph11-page35"
+              }
+            ]
+          }
+        ],
+        "expected": "Yangi modda",
+        "aliases": [
+          "Yangi modda"
+        ]
+      },
+      "fact_ids": [
+        "change"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph11",
+          "topic_title": "Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar",
+          "paragraph": 11,
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [
+            18
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph11-page35"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab03-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Oldingi masalada qora kukun uchun nomlangan mis(II)-oksid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "CuO",
+        "feedback": {
+          "correct": "To‘g‘ri. Matn mis yuzasida hosil bo‘lgan qora modda bilan boshlang‘ich misni taqqoslashni so‘raydi. Avvalgi masalada qora kukun uchun CuO formulasi nomlangan; rangning o‘zi tozalik dalili emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Matn mis yuzasida hosil bo‘lgan qora modda bilan boshlang‘ich misni taqqoslashni so‘raydi. Avvalgi masalada qora kukun uchun CuO formulasi nomlangan; rangning o‘zi tozalik dalili emas.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Matn mis yuzasida hosil bo‘lgan qora modda bilan boshlang‘ich misni taqqoslashni so‘raydi. Avvalgi masalada qora kukun uchun CuO formulasi nomlangan; rangning o‘zi tozalik dalili emas.",
+            "fact_ids": [
+              "copper"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory03",
+                "topic_title": "Kimyoviy hodisalar",
+                "paragraph": 3,
+                "printed_pages": [
+                  149
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory03-page149"
+              },
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-practical07",
+                "topic_title": "Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish",
+                "paragraph": 7,
+                "printed_pages": [
+                  143
+                ],
+                "pdf_pages": [
+                  72
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-practical07-page143"
+              }
+            ]
+          }
+        ],
+        "expected": "CuO"
+      },
+      "fact_ids": [
+        "copper"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory03",
+          "topic_title": "Kimyoviy hodisalar",
+          "paragraph": 3,
+          "printed_pages": [
+            149
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory03-page149"
+        },
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-practical07",
+          "topic_title": "Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish",
+          "paragraph": 7,
+          "printed_pages": [
+            143
+          ],
+          "pdf_pages": [
+            72
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-practical07-page143"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-practical07",
+    "ch7-paragraph11"
+  ]
+}

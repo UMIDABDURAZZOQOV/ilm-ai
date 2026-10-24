@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-56 reviewed lessons through grade7 §50, including practical1–6;212 remain. All
+61 reviewed lessons through grade7 §51,practical1–7,laboratories1–3;207 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next teaching entries are grade7 §51,practical7,and16 separate laboratory
-entries in book order. Eight chapterI–V review anchors are integrated;do not
-double-count contexts/reviews as extra teaching entries.
+Next teaching entries are grade7 laboratories4–11,then12–16,in book order.
+Nine chapterI–VI reviews are integrated;context reuse is not an extra entry.
+Grade8 remains unauthored and Flutter grade selection remains7;generalise
+carefully before integrating grade8 without changing shared learning rules.
 
 ## Review and development notes
 
@@ -200,3 +201,20 @@ fumigation doses,98/3 decimal precision and gas-state/unit/generalisation scope
 repair any of these as a verified key. Equivalent examples are explicitly
 compound/reaction-specific;one-equivalent mass questions use the source's
 worked g models. H3PO4 calculation remains exact98/3,not32.66/32.67 grading.
+
+
+## Batch13 genetic links,practical7 and laboratories1–3
+
+§51,practical7,labs1–3 adds24 cards/39 questions. Labs have distinct labNN keys
+and source activity labels,ordinary MCQ/FRQ/XP and exact prerequisites. No new
+learning mechanism or real-lab certification. Blank table147 is not filled with
+fabricated measurements. Lab2 retains all3 components but odour is recognition
+only;lab3 retains burning,copper and carbonate inquiry without invented results.
+
+Practical7 retains all5 inquiry components. Unknown black powder has no asserted
+purity;indicator observations are explicit virtual rows from111/118. The balanced
+CuCl2/NaOH solution is an original solution for chain144 using earlier review135
+and formulas112;it is not a silent certification of malformed130. That hold stays.
+Mass models144 explicitly use totals/declared rounding;ideal copper conservation
+146 explicitly assumes no loss. Clinical recipe and unspecified CO2-product
+volume are held. Total25 editorial issues plus one scientific blocker.

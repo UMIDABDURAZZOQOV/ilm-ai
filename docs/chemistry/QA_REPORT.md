@@ -409,3 +409,33 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No production/main/real-user/other-subject/PDF/OCR/fulltext/token operation,
   fresh independent teacher/PG/native/browser/IME/TalkBack/full-backend
   certification. Whole-course flags remain false.
+
+
+## Batch13 — 2026-10-24
+
+- §51,practical7,labs1–3:**61/268 implemented,207 remaining**. Grade7:61/74.
+  New24 cards/39 questions:15 MCQ,8 short,5 numeric,4 formula,7 equation.
+  Total417 cards/630 assessments:266 MCQ,130 short,118 numeric,53 formula,
+  63 equation. Nine chapter reviews integrated,not extra teaching entries.
+- Full Chemistry **325 passed,1 skipped,1 existing warning,409.04s**. Targeted
+  **19 passed/22.03s**. Critical Ruff/diff checks clean;original§1 unchanged.
+  Distinct lab keys/prerequisites,digital policy,clinical hold,CO2-product scope,
+  explicit rounding,typed grouping and preservation of56 prior completions tested.
+- Full Flutter **490 passed/137s**;analysis **no issues/65.2s**. Two new real-widget
+  tests/1s use sanitized actual-HTTP lab1 fixtures. At320×568/200% text,Lab1 source
+  label and147→PDF74right are correct,not false§1. Light source/dark short-FRQ
+  feedback captures visually inspected. No native/browser/IME/TalkBack claim.
+- Real HTTP preserved56 completions/1120XP,passed39 new questions,added100XP
+  once,total61/1220XP. Completion replay identical,grading private. Synthetic
+ 900003 only;public fixtures have fake attempt identity/future expiry,no tokens
+  or private pre-answer keys. Real user data and previous snapshots unchanged.
+- All817 pages decoded,five SHA identities verified. One scientific blocker and
+ 25 editorial reviews remain. Clinical recipe,powder purity and unspecified
+  review CO2-product/loss assumptions are held. No gap/observation invented.
+- Laboratories use the existing common MCQ/FRQ/XP flow with activity labels.
+  Blank147 table is not filled with fabricated values;all three physical and
+  chemical lab components remain digital classification. Original chain144
+  solution cites earlier method/formulas;it is not a hidden correction of130.
+- No new AI,notation/prediction engine,production/main/other-subject/real-user/
+  PDF/OCR/fulltext/token operation or fresh teacher/PG/full-backend certification.
+  All whole-course-ready flags remain false.

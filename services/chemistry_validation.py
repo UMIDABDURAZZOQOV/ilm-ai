@@ -54,6 +54,8 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-paragraph48': 'ch7-p48-copper-iodide-review',
     'ch7-paragraph49': 'ch7-p49-medical-current-scope-review',
     'ch7-paragraph50': 'ch7-p50-gas-precision-context-review',
+    'ch7-practical07': 'ch7-practical7-clinical-source-scope',
+    'ch7-9': 'ch7-review6-product-loss-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -347,6 +349,10 @@ def validate_lesson(catalog, lesson, review):
                             or ('oltingugurt' in a.casefold() and ('CO2' in a or 'CO₂' in a))
                             for a in [f['claim'], *f['verified_answers']]),
                     'unresolved_equivalent_gas_or_precision_cannot_be_a_premise')
+        if any(r['topic_id'] == 'ch7-practical07' for r in f['source_refs']):
+            require(not any('regidron' in a.casefold() or 'регидрон' in a.casefold()
+                            for a in [f['claim'], *f['verified_answers']]),
+                    'held_clinical_recipe_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
@@ -390,6 +396,11 @@ def validate_lesson(catalog, lesson, review):
                 from services.chemistry_grading import canonical_number
                 require(canonical_number(spec['verified_answer']) not in {'22.4', '22400'},
                         'unresolved_water_vapour_state_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-9' for r in q['source_refs']):
+            if q.get('response_kind') == 'numeric_value' and public.get('unit') in {'l', 'ml'}:
+                from services.chemistry_grading import canonical_number
+                require(canonical_number(spec['verified_answer']) not in {'4.48', '8.96', '4480', '8960'},
+                        'unresolved_review_co2_product_cannot_be_an_answer')
         if any(r['topic_id'] == 'ch7-paragraph18' for r in q['source_refs']):
             # The book omits the layer-thickness interpretation and current
             # exposure context. Do not turn those unresolved data into keys.

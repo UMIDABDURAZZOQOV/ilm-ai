@@ -1,0 +1,955 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 59,
+  "key": "chemistry-7-lab01-r1",
+  "revision": 1,
+  "topic_id": "ch7-laboratory01",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-practical07"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory01",
+      "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+      "paragraph": 1,
+      "printed_pages": [
+        147
+      ],
+      "pdf_pages": [
+        74
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory01-page147"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-laboratory01",
+      "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+      "paragraph": 1,
+      "printed_pages": [
+        148
+      ],
+      "pdf_pages": [
+        75
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-laboratory01-page148"
+    }
+  ],
+  "facts": {
+    "columns": {
+      "claim": "Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+      "verified_answers": [
+        "Agregat holati",
+        "Rang",
+        "Hid",
+        "Zichlik",
+        "Eruvchanlik",
+        "Qattiqlik"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            74
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page147"
+        }
+      ]
+    },
+    "state": {
+      "claim": "Agregat holat gaz, suyuq yoki qattiq deb ajratiladi. Rang oddiy yorug‘likdagi ko‘rinish bilan, eruvchanlik esa suvda erish belgisi bilan bog‘langan fizik tavsiflardir.",
+      "verified_answers": [
+        "Gaz",
+        "Suyuq",
+        "Qattiq",
+        "Rang",
+        "Eruvchanlik",
+        "Agregat holati"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page148"
+        }
+      ]
+    },
+    "report": {
+      "claim": "Tavsiflashda xossa nomi bilan uning tekshirilgan qiymati alohida ko‘rsatiladi. Noma’lum moddaning ta’mini tekshirmaslik manbada aniq ta’kidlangan.",
+      "verified_answers": [
+        "Xossa",
+        "Qiymat"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page148"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Bo‘sh jadvalni qanday o‘qiymiz?",
+        "body": "Jadval ustunlari: nom, agregat holat, rang, hid, zichlik, suvda eruvchanlik, qattiqlik. Kataklar bo‘sh bo‘lsa, ular o‘lchangan qiymat deb qabul qilinmaydi.",
+        "fact_ids": [
+          "columns"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory01",
+            "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+            "paragraph": 1,
+            "printed_pages": [
+              147
+            ],
+            "pdf_pages": [
+              74
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory01-page147"
+          }
+        ]
+      },
+      {
+        "title": "Holat va xossani ajratish",
+        "body": "Gaz, suyuq, qattiq — agregat holat tavsiflari. Rang va suvda eruvchanlik boshqa fizik xossalardir. Raqamli topshiriqda xossa nomlarini guruhlaymiz.",
+        "fact_ids": [
+          "state"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory01",
+            "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+            "paragraph": 1,
+            "printed_pages": [
+              148
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory01-page148"
+          }
+        ]
+      },
+      {
+        "title": "Faqat berilgan dalilni yozish",
+        "body": "Xossa nomi bilan tekshirilgan qiymatini alohida yozing. Bu jadvaldagi noma’lum kataklarni o‘zingizdan to‘ldirmang. Noma’lum modda ta’mi tekshirilmaydi.",
+        "fact_ids": [
+          "report"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-laboratory01",
+            "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+            "paragraph": 1,
+            "printed_pages": [
+              148
+            ],
+            "pdf_pages": [
+              75
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-laboratory01-page148"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory01",
+        "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+        "paragraph": 1,
+        "printed_pages": [
+          147
+        ],
+        "pdf_pages": [
+          74
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory01-page147"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-laboratory01",
+        "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+        "paragraph": 1,
+        "printed_pages": [
+          148
+        ],
+        "pdf_pages": [
+          75
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-laboratory01-page148"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-lab01-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Modda suyuq yoki qattiqligini qaysi ustun ifodalaydi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rang"
+          },
+          {
+            "id": "b",
+            "label": "Hid"
+          },
+          {
+            "id": "c",
+            "label": "Agregat holati"
+          },
+          {
+            "id": "d",
+            "label": "Qattiqlik"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Agregat holati",
+        "feedback": {
+          "correct": "To‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "incorrect": "Hozircha noto‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+            "fact_ids": [
+              "columns"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory01",
+                "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+                "paragraph": 1,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  74
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory01-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "columns"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            74
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page147"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab01-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Suvda erish xossasi qaysi atamaga mos?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Eruvchanlik"
+          },
+          {
+            "id": "b",
+            "label": "Hid"
+          },
+          {
+            "id": "c",
+            "label": "Rang"
+          },
+          {
+            "id": "d",
+            "label": "Qattiqlik"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Eruvchanlik",
+        "feedback": {
+          "correct": "To‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "incorrect": "Hozircha noto‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+            "fact_ids": [
+              "columns"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory01",
+                "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+                "paragraph": 1,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  74
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory01-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "columns"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            74
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page147"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab01-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Gaz va qattiqdan tashqari uchinchi agregat holat tavsifi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rang"
+          },
+          {
+            "id": "b",
+            "label": "Hid"
+          },
+          {
+            "id": "c",
+            "label": "Zichlik"
+          },
+          {
+            "id": "d",
+            "label": "Suyuq"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Suyuq",
+        "feedback": {
+          "correct": "To‘g‘ri. Agregat holat gaz, suyuq yoki qattiq deb ajratiladi. Rang oddiy yorug‘likdagi ko‘rinish bilan, eruvchanlik esa suvda erish belgisi bilan bog‘langan fizik tavsiflardir.",
+          "incorrect": "Hozircha noto‘g‘ri. Agregat holat gaz, suyuq yoki qattiq deb ajratiladi. Rang oddiy yorug‘likdagi ko‘rinish bilan, eruvchanlik esa suvda erish belgisi bilan bog‘langan fizik tavsiflardir.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Agregat holat gaz, suyuq yoki qattiq deb ajratiladi. Rang oddiy yorug‘likdagi ko‘rinish bilan, eruvchanlik esa suvda erish belgisi bilan bog‘langan fizik tavsiflardir.",
+            "fact_ids": [
+              "state"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory01",
+                "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+                "paragraph": 1,
+                "printed_pages": [
+                  148
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory01-page148"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "state"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page148"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab01-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Moddaning suvda erish xossasi nomi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Eruvchanlik",
+        "feedback": {
+          "correct": "To‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "incorrect": "Hozircha noto‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+            "fact_ids": [
+              "columns"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory01",
+                "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+                "paragraph": 1,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  74
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory01-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "Eruvchanlik",
+        "aliases": [
+          "Eruvchanlik",
+          "suvda eruvchanlik"
+        ]
+      },
+      "fact_ids": [
+        "columns"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            74
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page147"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab01-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Namuna rangini yozish uchun qaysi xossa nomi ishlatiladi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Rang",
+        "feedback": {
+          "correct": "To‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "incorrect": "Hozircha noto‘g‘ri. Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Namuna jadvali modda nomi, agregat holati, rang, hid, zichlik, suvda eruvchanlik va qattiqlik ustunlarini ajratadi. Bu ustunlar namuna qiymatlari bilan hali to‘ldirilmagan.",
+            "fact_ids": [
+              "columns"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory01",
+                "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+                "paragraph": 1,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  74
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory01-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "Rang",
+        "aliases": [
+          "Rang",
+          "rangi"
+        ]
+      },
+      "fact_ids": [
+        "columns"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            74
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page147"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-lab01-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Gaz, suyuq, qattiq qanday umumiy tavsifning turlari?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Agregat holati",
+        "feedback": {
+          "correct": "To‘g‘ri. Agregat holat gaz, suyuq yoki qattiq deb ajratiladi. Rang oddiy yorug‘likdagi ko‘rinish bilan, eruvchanlik esa suvda erish belgisi bilan bog‘langan fizik tavsiflardir.",
+          "incorrect": "Hozircha noto‘g‘ri. Agregat holat gaz, suyuq yoki qattiq deb ajratiladi. Rang oddiy yorug‘likdagi ko‘rinish bilan, eruvchanlik esa suvda erish belgisi bilan bog‘langan fizik tavsiflardir.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Agregat holat gaz, suyuq yoki qattiq deb ajratiladi. Rang oddiy yorug‘likdagi ko‘rinish bilan, eruvchanlik esa suvda erish belgisi bilan bog‘langan fizik tavsiflardir.",
+            "fact_ids": [
+              "state"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-laboratory01",
+                "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+                "paragraph": 1,
+                "printed_pages": [
+                  148
+                ],
+                "pdf_pages": [
+                  75
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-laboratory01-page148"
+              }
+            ]
+          }
+        ],
+        "expected": "Agregat holati",
+        "aliases": [
+          "Agregat holati",
+          "agregat holat"
+        ]
+      },
+      "fact_ids": [
+        "state"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-laboratory01",
+          "topic_title": "Fizik xossalari turlicha bo‘lgan moddalar bilan tanishish",
+          "paragraph": 1,
+          "printed_pages": [
+            148
+          ],
+          "pdf_pages": [
+            75
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-laboratory01-page148"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only"
+}

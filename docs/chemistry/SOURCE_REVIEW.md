@@ -448,3 +448,38 @@ Original125–140/PDF63–71 read. §46 uses125–127 before47;§47 uses127–12
 
 One scientific blocker and23 editorial reviews remain open;all course-ready
 flags false. This is source-image review,not independent teacher certification.
+
+
+## Batch13 original genetic/practical/lab pages — 2026-10-24
+
+Original141–155/PDF71–78 now visually read. Current batch uses§51 141–143 before
+practical7;practical7 143–144 plus chapterVI review145–146;lab1 147–148 before2;
+lab2 148–149 before3;lab3 149 before lab4 on150. No facts are taken from a later
+heading merely because the printed/PDF page is shared.
+
+- **ch7-practical7-clinical-source-scope**:the clinical Regidron recipe144 is
+  not a treatment/preparation/dose task. Unknown black-powder inquiry143 has no
+  supplied purity result;appearance alone is insufficient evidence. Digital
+  mass-fraction variants are separate explicitly virtual non-clinical models.
+- **ch7-review6-product-loss-scope**:146 CO2-volume question does not specify
+  carbonate/bicarbonate,while130 gives both ratios. No unqualified volume key.
+  Copper-loop options overlap without loss conditions;original question is not
+  copied as a uniquely keyed MCQ. Our virtual model explicitly says no loss.
+- §51 diagram arrows are class relationships with conditions,not an unrestricted
+  reaction engine. Every typed printed equation atom-checked;no physical HgO
+  heating,gas preparation or chemical handling assigned.
+- Practical7 retains all5 inquiry components. Virtual indicator rows cite actual
+ 111/118;CuCl2→Cu(OH)2 solution is original atom-balanced reasoning for the144
+  target chain using earlier135 salt/alkali method and112 formulas. It is not
+  quoted as a printed130 equation or a resolution of the missing-Cu typo.
+- Virtual arithmetic144:80g10%→8g;20gsolute+80gwater→80%solvent;500g20%+300gwater
+  →12.5%;400g5%+50gsolute→70/450×100≈15.6% to one decimal. Ideal no-loss Cu loop
+  retains12.8g. None is an actual observation,clinical or agricultural procedure.
+- Lab1 table147 is blank. Only property columns/classification are taught;no
+  invented densities,colours or measured sample values. Lab2 phase/dissolution/
+  odour components remain recognition,no melting/flames/inhalation. Lab3 keeps
+  burning,copper and carbonate inquiry;prior35 supplies chemical-change rule
+  and143 names the CuO candidate. No fabricated purity/gas/colour result.
+
+One scientific blocker and25 editorial reviews remain open. Digital lab entries
+do not certify physical execution or independent subject-teacher approval.

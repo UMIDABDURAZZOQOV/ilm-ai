@@ -4015,7 +4015,38 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-practical7-clinical-source-scope",
+              "status": "open_review",
+              "printed_pages": [
+                143,
+                144
+              ],
+              "pdf_pages": [
+                72,
+                73
+              ],
+              "regions": [
+                "right",
+                "left"
+              ],
+              "scope": "No fabricated purity/observation results or clinical/agricultural preparation task.",
+              "withheld_claims": [
+                {
+                  "id": "clinical_recipe",
+                  "printed_page": 144,
+                  "reason": "Regidron composition/treatment/preparation exercise is not a clinical recommendation or parameterised recipe. Digital mass-fraction questions use separate non-clinical virtual conditions."
+                },
+                {
+                  "id": "unknown_powder",
+                  "printed_page": 143,
+                  "reason": "Black-powder purity cannot be concluded from appearance without further supplied evidence. No invented result for the inquiry."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "review",
@@ -4052,7 +4083,35 @@
             "record_id": "ch7-activities",
             "printed_page": 147,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-review6-product-loss-scope",
+              "status": "open_review",
+              "printed_pages": [
+                146
+              ],
+              "pdf_pages": [
+                74
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "CO2 product and conservation-loss conditions must be explicit;original ambiguous options are not unique answer keys.",
+              "withheld_claims": [
+                {
+                  "id": "co2_salt_product",
+                  "printed_page": 146,
+                  "reason": "12.4gNa2O/CO2-volume question does not specify carbonate versus bicarbonate product;130 gives both NaOH/CO2 ratios. No unqualified gas-volume key."
+                },
+                {
+                  "id": "copper_loss",
+                  "printed_page": 146,
+                  "reason": "Copper-loop options C/D overlap unless ideal no-loss assumption is explicit. Original variants may explicitly state no loss;do not claim the original unqualified MCQ has one unique choice."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch7-activities",
