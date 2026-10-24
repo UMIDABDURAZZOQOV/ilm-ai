@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 20 | 39 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 25 | 34 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 94 | 174 |
+| Total | 29 | 204 | 49 | 15 | 268 | 99 | 169 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 624 cards; 961 assessments: 367 concept_selection, 190 short_text, 215 numeric_value, 86 chemical_formula, 103 chemical_equation.
+Total: 678 cards; 1039 assessments: 386 concept_selection, 197 short_text, 251 numeric_value, 90 chemical_formula, 115 chemical_equation.
 
 ## Initial §1
 
@@ -96,16 +96,21 @@ donor-acceptor content69–71 and actual chapter03 introduction63–64.
 5 lessons;44 cards;17 MCQ,9 short text,23 numeric,4 formula,13 equation.
 Ionic/lattice/oxidation/redox topics reuse existing bounded response types.
 
+## Batch20: grade8 §21–25
+
+5 lessons;54 cards;19 MCQ,7 short,36 numeric,4 formula,12 equation.
+Nonmetals,halogens,chlorine,HCl and gas models retain exact source conditions.
+
 ## Current continuation
 
-Grade7 all74 mapped entries covered;grade8 §1–20 implemented (20/59).
-Next grade8 §21–25,original89–111. Whole project174 entries remaining.
-Nine grade7 reviews integrated,not extra entries. Chapter preface references
-are source context,not extra teaching keys;catalog remains327/268.
+Grade7 all74 mapped entries;grade8 §1–25 implemented (25/59),34 remain.
+Next source-order five entries:§26,§27,§28,practical1,§29 (111–134).
+Whole project169 teaching entries remain. Catalog327/268 unchanged.
+Original5–134 grade8 images visually read;future individual fact review and
+authoring still pending. Nine grade7 reviews integrated,not additional lessons.
 
-One grade9 scientific blocker and46 scoped editorial issues remain. New scopes
-distinguish ionic transfer from shared pairs,solid phases from all matter,
-oxidation bookkeeping from literal charge,free metals from their ions and
-given reaction conditions from universal product prediction. Ready flags false.
-Original§1,prior89 manifests/progress,real users and other subjects preserved.
-Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.
+One grade9 scientific blocker and51 scoped editorial issues remain. Mixed-state
+gas/solubility calculations,unqualified phases/noble-gas rules and unsupported
+precision are held. No silent correction or external scientific knowledge.
+Ready flags false;original§1,prior94 manifests/progress,real users and other
+subjects preserved. Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.

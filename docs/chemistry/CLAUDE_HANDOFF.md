@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-94 reviewed lessons:all74 grade7 entries and grade8 §1–20;174 remain. All
+99 reviewed lessons:all74 grade7 entries and grade8 §1–25;169 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next grade8 §21–25,original89–111. Grade7 all74 entries;grade8 has20/59.
+Next source-order five:grade8 §26/§27/§28/practical1/§29,original111–134.
+Grade7 all74 entries;grade8 has25/59.
 Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
-One scientific blocker/46 editorial reviews still gate readiness. Same shared
+One scientific blocker/51 editorial reviews still gate readiness. Same shared
 MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
@@ -339,3 +340,26 @@ Actual HTTP preserved89 completions/1780XP and added66 answers/100XP once:
 94 completions/1880XP. Own loopback8900 sandbox PID16136;verify command before
 stopping. Earlier94 imported lesson revisions are immutable. Sanitized public
 oxidation/redox fixtures contain fake attempt IDs,not tokens or private rubrics.
+
+
+## Batch20: nonmetals through gas models
+
+Original89–111 read;five lessons add54 cards/78 questions. Short-table labels,
+He2/XeF4 exceptions,ionicNaCl vsCl2,hot/coldKOH products,gas vsaqueousHCl and
+matching gas temperature/pressure retained. Liquid water4°C is separate from
+n.sh.22.4L/mol gas calculations. Scientific notation reuses existing Decimal
+grading;no gas-law,charge,hydrate or general-unit engine added.
+
+Source-held keys:universal noble-gasRO4;unverified1866 history;table95 density
+conditions;unconditional iodine phase path;chlorine0.63% mixed-state result;
+HCl500 volume without conditions;water-vapour112L without gas-state support.
+Five new reviews bring51 editorial issues plus one scientific blocker. Numeric
+rounding is explicit;unrounded intermediate liquid-water particle calculation
+produces3.344e25 to4 significant figures. Clear40/60 volume-fraction mixture is
+separate from ambiguous107 percentages. NO2/air is a given M46/M29 model only.
+
+HTTP preserved94 completions/1880XP,passed78 questions,added100XP once:
+99 completions/1980XP. e/E scientific-notation replay identical. Same owned
+loopback8900 sandbox now PID14352;verify full command before stopping.
+Earlier99 imported revisions immutable. Flutter production code unchanged.
+Next§26/27/28/practical1/29;original112–134 also visually read during QA wait.

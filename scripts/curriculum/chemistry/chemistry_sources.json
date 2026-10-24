@@ -6528,7 +6528,39 @@
             "record_id": "ch8-paragraph22",
             "printed_page": 92,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p21-generalization-scope",
+              "status": "open_review",
+              "printed_pages": [
+                89,
+                90,
+                91,
+                92
+              ],
+              "pdf_pages": [
+                89,
+                90,
+                91,
+                92
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Short-table generic highest oxides including VIII A/RO4 and broad nonmetal conductivity/solubility/bond/oxide rules are not universal. He2 and XeF4 are explicit exceptions to outer8/absolute inertness. Water association(H2O)n is not a definite molecular stoichiometry.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p21-generalization-scope",
+                  "printed_page": 89,
+                  "reason": "Teach exact listed examples,short-table labels and scoped trends. Do not assert all noble gases form RO4,all nonmetals are insulating or inert gases never react;no association-polymer formula key."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6568,7 +6600,36 @@
             "record_id": "ch8-paragraph23",
             "printed_page": 96,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p22-halogen-condition-review",
+              "status": "open_review",
+              "printed_pages": [
+                94,
+                95,
+                96
+              ],
+              "pdf_pages": [
+                94,
+                95,
+                96
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Table18 gas densities are headed25C without consistent pressure context;history1866 Moissan date needs corroboration. Iodine melting+114 and unconditional heat-bypasses-liquid prose need phase/condition review. Halide-ion chemical activity wording is not an unrestricted reaction predictor.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p22-halogen-condition-review",
+                  "printed_page": 94,
+                  "reason": "Withhold density/history date and universal iodine phase-path keys. Retain exact phase/color table,explicit sublimation concept,source displacement/electron models. No corrected dates/constants from memory or physical halogen activity."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6608,7 +6669,42 @@
             "record_id": "ch8-paragraph24",
             "printed_page": 100,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p23-solubility-state-review",
+              "status": "open_review",
+              "printed_pages": [
+                96,
+                97,
+                98,
+                99,
+                100
+              ],
+              "pdf_pages": [
+                96,
+                97,
+                98,
+                99,
+                100
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Prompt says salt molecule despite ionic crystal context. Cl2 reduction label98 has a grammatical ambiguity. Worked chlorine-water99 uses22.4L/mol whereas physical-solubility97 specifies20C;same-state pressure/temperature not established for0.63percent result.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p23-solubility-state-review",
+                  "printed_page": 96,
+                  "reason": "Withhold mixed-state solubility result and salt-isolated-molecule premise. Teach actualCl2/NaCl distinction and exact hot/cold KOH products,electron transfer roles. No preparation/apparatus/gas collection or household chlorination procedure."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6648,7 +6744,39 @@
             "record_id": "ch8-paragraph25",
             "printed_page": 103,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p24-gas-aqueous-scope",
+              "status": "open_review",
+              "printed_pages": [
+                100,
+                101,
+                102,
+                103
+              ],
+              "pdf_pages": [
+                100,
+                101,
+                102,
+                103
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "HCl gas must be separated from aqueous hydrochloric acid. Blanket dry-HCl nonreaction with metals/oxides lacks universal conditions;500volume solubility lacks explicit state context. Approximate worked constants/results require stated n.sh./theoretical-yield/rounding assumptions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p24-gas-aqueous-scope",
+                  "printed_page": 100,
+                  "reason": "Retain gas/solution distinction and given material equations as digital analysis. Withhold universal dry-gas reactivity or condition-free500 solubility keys. No acid preparation/heating/collection instructions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6688,7 +6816,48 @@
             "record_id": "ch8-paragraph26",
             "printed_page": 111,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p25-gas-state-precision-review",
+              "status": "open_review",
+              "printed_pages": [
+                104,
+                105,
+                107,
+                108,
+                109,
+                110,
+                111
+              ],
+              "pdf_pages": [
+                104,
+                105,
+                107,
+                108,
+                109,
+                110,
+                111
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Avogadro model requires matching temperature/pressure and gas-state limitations. TableH2 precise mass0.002016kg vs integer2g models must not mix precision. Water-vapour107 uses22.4L without suitable vapor state/conditions;111 repeats n.sh. vaporization. Mixture107 percentage basis unspecified and rounding unlabelled;1092.86*22.4=64 unstated rounding;NO2/air is an explicit M46/M29 model,not all-equilibria density.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p25-gas-state-precision-review",
+                  "printed_page": 104,
+                  "reason": "Hold water-vapour112L and unspecified state-change ratio;no invented temperature/pressure. Use exact stated gas models,explicit volume fractions109-110 and liquid water4C calculation separately. Make rounding explicit and do not import external gas constants."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

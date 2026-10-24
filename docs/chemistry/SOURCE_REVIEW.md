@@ -653,3 +653,32 @@ Read complete original71–89;§20 ends88 before chapter04/§21 on89.
 
 Five new editorial scopes bring46 plus one scientific blocker. No silent repair
 or independent teacher certification. All course-ready flags remain false.
+
+
+## Batch20 source review — grade8 §21–25
+
+All original89–111 read. Shared heading boundaries respected;chapter04 on89
+has no scientific prefix before§21. No new chapter-prefix permission added.
+
+- §21:exact short-table families/trends with89/90/92 citations,He2 andXeF4
+  exceptions. General highest-oxide row is not a universal noble-gas formula.
+  CO2 bond/molecule distinction is explicitly printed90. Water association
+  illustration is not a definite n-index compound for formula grading.
+- §22:neutral configurations,outer7,exact halide examples,source displacement
+  equations and phases/colors.95 history1866/density conditions/unconditional
+  iodine heat path held;no alternate date/constant from memory. Forward
+  sublimation concept retained without an all-pressure phase assertion.
+- §23:actualCl2 molecule vsion crystal uses earlier16/73,17/74 and23/96 context.
+  Exact hot/coldKOH products retained. Solubility97 at20°C versus22.4L/mol
+  arithmetic99–100 lacks state correspondence,so0.63% is not an answer key.
+- §24:gas/aqueousHCl distinction,all given material equations and theoretical
+  stated n.sh./100% examples retained. No universal dry-gas nonreaction or500
+  condition-free solubility key. Final rounding is explicit.
+- §25:103–111 gas limitations,Vm/density/relative density,particle counts,liquid
+  water4°C and clear40/60 volume mixture covered. Water-vapour107/111 held;
+  no invented gas state. Precision-dependentH2 table and ambiguous107 mixture
+  basis not merged with integer models. Exact2.86*22.4=64.064 is explicitly
+  rounded to64,not represented as an exact equality. NO2/air stays given model.
+
+Five new editorial scopes bring51 plus one scientific blocker. Digital analysis
+only,no physical gas generation/heating/collection or medical/teacher certificate.

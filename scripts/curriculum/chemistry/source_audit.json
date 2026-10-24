@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 94,
+  "implemented_lessons": 99,
   "grades": [
     {
       "grade": 7,
@@ -50,13 +50,8 @@
       "laboratories": 10,
       "practicals": 5,
       "source_teaching_entries": 59,
-      "implemented_lessons": 20,
+      "implemented_lessons": 25,
       "remaining_ids": [
-        "ch8-paragraph21",
-        "ch8-paragraph22",
-        "ch8-paragraph23",
-        "ch8-paragraph24",
-        "ch8-paragraph25",
         "ch8-paragraph26",
         "ch8-paragraph27",
         "ch8-paragraph28",
@@ -112,7 +107,12 @@
         "ch8-p17-lattice-property-scope",
         "ch8-p18-oxidation-model-scope",
         "ch8-p19-redox-role-scope",
-        "ch8-p20-reaction-condition-scope"
+        "ch8-p20-reaction-condition-scope",
+        "ch8-p21-generalization-scope",
+        "ch8-p22-halogen-condition-review",
+        "ch8-p23-solubility-state-review",
+        "ch8-p24-gas-aqueous-scope",
+        "ch8-p25-gas-state-precision-review"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -300,7 +300,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 46,
+  "open_editorial_review_issues": 51,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

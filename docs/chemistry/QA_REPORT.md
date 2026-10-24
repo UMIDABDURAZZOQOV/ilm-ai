@@ -602,3 +602,29 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   blocker plus46 scoped editorial reviews remain. No external science,silent
   correction,physical experiment,production/main/other-subject/real-user change,
   raw PDF/OCR/fulltext upload or fresh teacher/PG/full-backend certification.
+
+
+## Batch20 — 2026-10-24
+
+- Grade8 §21–25:**99/268 implemented,169 remaining**;grade7:74/74,grade8:25/59.
+  New54 cards/78 questions:19 MCQ,7 short,36 numeric,4 formula,12 equation.
+  Total678 cards/1039 questions:386 MCQ,197 short,251 numeric,90 formula,
+  115 equation. All94 earlier manifest hashes unchanged;Ruff/diff clean.
+- Full Chemistry **544 passed,1 skipped,1 existing warning/901.86s**.
+  Target **39 passed/25.51s**. Tests cover exact topic order,earlier context,
+  visible source holds,hot/cold products,scientific Decimal notation,precision,
+  units,private grading,94 old completions,once-onlyXP and unchanged Biology.
+- Full Flutter **500 passed/157s**;fresh analysis **no issues/185.4s**.
+  No new Flutter changes in this batch. Prior actualHTTP-widget small-screen
+  oxidation/redox/source-sheet evidence remains;no fresh native/browser/IME/
+  TalkBack or teacher certification claimed.
+- Actual HTTP preserved94 completions/1880XP,passed78 answers,added100XP once,
+  total99/1980XP. e/E numeric replay identical;grade7 catalog unchanged and
+  private grading hidden. Synthetic900003 only,no real user modification.
+- All817 PDF pages decoded,five source SHA identities checked. One scientific
+  blocker plus51 scoped editorial issues remain;all ready flags false. Mixed
+  gas-state/solubility/precision and unqualified generalizations held without
+  external corrections. Original111–134 images additionally read for next batch.
+- Shared theory/MCQ/FRQ/feedback/XP/progress/prerequisite/replay rules unchanged.
+  No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
+  physical experiment or fresh PG/whole-backend certification.

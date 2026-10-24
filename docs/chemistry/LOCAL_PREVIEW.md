@@ -133,3 +133,11 @@ Private loopback8900 now has94 immutable reviewed lessons and94 synthetic900003
 completions/1880XP. Grade7 remains74;grade8 has20. Actual HTTP verifies U+2212
 numeric answer and ASCII-minus replay equivalence. Public fixtures cover§18
 negative oxidation input and§20 long redox equation in the common Flutter flow.
+
+
+## Current continuation after batch20
+
+Private loopback8900 has99 immutable lessons and99 synthetic900003 completions/
+1980XP. Grade7 still74;grade8 now25. All78 new answers passed actualHTTP with
+once-only100XP and identical completion replay. Scientific-notation e/E spellings
+replay identically. No new Flutter production code,fixtures or response kinds.

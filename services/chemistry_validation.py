@@ -77,6 +77,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph18': 'ch8-p18-oxidation-model-scope',
     'ch8-paragraph19': 'ch8-p19-redox-role-scope',
     'ch8-paragraph20': 'ch8-p20-reaction-condition-scope',
+    'ch8-paragraph21': 'ch8-p21-generalization-scope',
+    'ch8-paragraph22': 'ch8-p22-halogen-condition-review',
+    'ch8-paragraph23': 'ch8-p23-solubility-state-review',
+    'ch8-paragraph24': 'ch8-p24-gas-aqueous-scope',
+    'ch8-paragraph25': 'ch8-p25-gas-state-precision-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -448,6 +453,21 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-paragraph20' in topic_ids:
             require(not any('N2O' in a and 'har bir' in a.casefold() and '+1' in a
                             for a in plain_values), 'unreviewed_individual_nitrogen_site_cannot_be_a_premise')
+        if 'ch8-paragraph21' in topic_ids:
+            require(not any('barcha inert gaz' in a.casefold() and 'RO4' in a
+                            for a in plain_values), 'unreviewed_universal_noble_oxide_cannot_be_a_premise')
+        if 'ch8-paragraph22' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])1866(?![0-9])', a)
+                            for a in f['verified_answers']), 'unresolved_halogen_history_date_cannot_be_an_answer')
+        if 'ch8-paragraph23' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])0[.,]63(?![0-9])', a)
+                            for a in f['verified_answers']), 'unresolved_chlorine_solubility_state_cannot_be_an_answer')
+        if 'ch8-paragraph24' in topic_ids:
+            require(not any(a.strip() == '500' for a in f['verified_answers']),
+                    'unresolved_hcl_solubility_conditions_cannot_be_an_answer')
+        if 'ch8-paragraph25' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])112(?![0-9])', a)
+                            for a in f['verified_answers']), 'unresolved_water_vapour_state_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

@@ -34,11 +34,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-paragraph19` | paragraph 19 | Oksidlanish-qaytarilish reaksiyalari | 80–83 | 80:full – 83:full | 80 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph18 |
 | `ch8-paragraph20` | paragraph 20 | Oksidlanish-qaytarilish reaksiyalari tenglamalarini tuzish | 83–89 | 83:full – 89:full | 83 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph19 |
 | `ch8-chapter04` | chapter 4 | Metallmaslar | 89–130 | 89:full – 130:full | 89 | not_authored | — |
-| `ch8-paragraph21` | paragraph 21 | Metallmaslarning umumiy xossalari | 89–92 | 89:full – 92:full | 89 | not_authored | ch8-paragraph20 |
-| `ch8-paragraph22` | paragraph 22 | Galogenlarning davriy sistemadagi o‘rni. Atom tuzilishi | 92–96 | 92:full – 96:full | 92 | not_authored | ch8-paragraph21 |
-| `ch8-paragraph23` | paragraph 23 | Xlor | 96–100 | 96:full – 100:full | 96 | not_authored | ch8-paragraph22 |
-| `ch8-paragraph24` | paragraph 24 | Vodorod xlorid | 100–103 | 100:full – 103:full | 100 | not_authored | ch8-paragraph23 |
-| `ch8-paragraph25` | paragraph 25 | Avogadro qonuni. Molyar hajm | 103–111 | 103:full – 111:full | 103 | not_authored | ch8-paragraph24 |
+| `ch8-paragraph21` | paragraph 21 | Metallmaslarning umumiy xossalari | 89–92 | 89:full – 92:full | 89 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph20 |
+| `ch8-paragraph22` | paragraph 22 | Galogenlarning davriy sistemadagi o‘rni. Atom tuzilishi | 92–96 | 92:full – 96:full | 92 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph21 |
+| `ch8-paragraph23` | paragraph 23 | Xlor | 96–100 | 96:full – 100:full | 96 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph22 |
+| `ch8-paragraph24` | paragraph 24 | Vodorod xlorid | 100–103 | 100:full – 103:full | 100 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph23 |
+| `ch8-paragraph25` | paragraph 25 | Avogadro qonuni. Molyar hajm | 103–111 | 103:full – 111:full | 103 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph24 |
 | `ch8-paragraph26` | paragraph 26 | Ekvivalent qonuni | 111–116 | 111:full – 116:full | 111 | not_authored | ch8-paragraph25 |
 | `ch8-paragraph27` | paragraph 27 | Xlorid kislota | 116–121 | 116:full – 121:full | 116 | not_authored | ch8-paragraph26 |
 | `ch8-paragraph28` | paragraph 28 | Ftor, brom, yod | 121–124 | 121:full – 124:full | 121 | not_authored | ch8-paragraph27 |
