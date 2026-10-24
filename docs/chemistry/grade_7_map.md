@@ -57,18 +57,18 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-paragraph31` | paragraph 31 | Eritmalar | 88–90 | 45:left – 46:left | 88 | reviewed local lesson | ch7-paragraph30 |
 | `ch7-paragraph32` | paragraph 32 | Eritmada erigan moddaning massa ulushi, foiz, molar konsentratsiyasi | 90–93 | 46:left – 47:right | 90 | reviewed local lesson | ch7-paragraph31 |
 | `ch7-solutions` | subtopic  | Eritmalarning inson hayotidagi ahamiyati | 91–93 | 46:right – 47:right | 91 | not_authored | — |
-| `ch7-practical05` | practical 5 | Erigan moddaning konsentratsiyasi ma’lum bo‘lgan eritmalarini tayyorlash | 93–95 | 47:right – 48:right | 93 | not_authored | ch7-paragraph32 |
+| `ch7-practical05` | practical 5 | Erigan moddaning konsentratsiyasi ma’lum bo‘lgan eritmalarini tayyorlash | 93–95 | 47:right – 48:right | 93 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph32 |
 | `ch7-soil` | subactivity  | Tuproqning suvli eritmasini tayyorlash va unda ishqor borligini aniqlash | 94–95 | 48:left – 48:right | 94 | not_authored | — |
-| `ch7-6` | review  | IV bobga doir masalalar yechish | 95–97 | 48:right – 49:right | 95 | not_authored | — |
-| `ch7-7` | review  | IV bob yuzasidan test topshiriqlari | 97–99 | 49:right – 50:right | 97 | not_authored | — |
+| `ch7-6` | review  | IV bobga doir masalalar yechish | 95–97 | 48:right – 49:right | 95 | integrated source activity in chemistry-7-practical05-r1 | — |
+| `ch7-7` | review  | IV bob yuzasidan test topshiriqlari | 97–99 | 49:right – 50:right | 97 | integrated source activity in chemistry-7-practical05-r1; scoped editorial review remains open | — |
 | `ch7-chapter05` | chapter 5 | Anorganik moddalarning eng muhim sinflari | 99–141 | 50:right – 71:right | 99 | not_authored | — |
 | `ch7-section5-1` | section 5.1 | Moddalarning toifalanishi | 99–102 | 50:right – 52:left | 99 | covered_by_child_topics | — |
-| `ch7-paragraph33` | paragraph 33 | Metallmaslar va metallar | 99–102 | 50:right – 52:left | 99 | not_authored | ch7-practical05 |
+| `ch7-paragraph33` | paragraph 33 | Metallmaslar va metallar | 99–102 | 50:right – 52:left | 99 | reviewed local lesson; scoped editorial review remains open | ch7-practical05 |
 | `ch7-complex` | subtopic  | Murakkab moddalarning toifalanishi | 101–102 | 51:right – 52:left | 101 | not_authored | — |
 | `ch7-section5-2` | section 5.2 | Oksidlar | 102–109 | 52:left – 55:right | 102 | covered_by_child_topics | — |
-| `ch7-paragraph34` | paragraph 34 | Oksidlarning tarkibi, tuzilishi va nomlanishi | 102–104 | 52:left – 53:left | 102 | not_authored | ch7-paragraph33 |
-| `ch7-paragraph35` | paragraph 35 | Oksidlarning toifalanishi | 104–105 | 53:left – 53:right | 104 | not_authored | ch7-paragraph34 |
-| `ch7-paragraph36` | paragraph 36 | Oksidlarning olinishi va xossalari | 105–107 | 53:right – 54:right | 105 | not_authored | ch7-paragraph35 |
+| `ch7-paragraph34` | paragraph 34 | Oksidlarning tarkibi, tuzilishi va nomlanishi | 102–104 | 52:left – 53:left | 102 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph33 |
+| `ch7-paragraph35` | paragraph 35 | Oksidlarning toifalanishi | 104–105 | 53:left – 53:right | 104 | reviewed local lesson | ch7-paragraph34 |
+| `ch7-paragraph36` | paragraph 36 | Oksidlarning olinishi va xossalari | 105–107 | 53:right – 54:right | 105 | reviewed local lesson | ch7-paragraph35 |
 | `ch7-paragraph37` | paragraph 37 | Eng muhim oksidlarning ishlatilishi | 107–109 | 54:right – 55:right | 107 | not_authored | ch7-paragraph36 |
 | `ch7-section5-3` | section 5.3 | Asoslar | 109–114 | 55:right – 58:left | 109 | covered_by_child_topics | — |
 | `ch7-paragraph38` | paragraph 38 | Asoslarning tarkibi, tuzilishi va nomlanishi | 109–110 | 55:right – 56:left | 109 | not_authored | ch7-paragraph37 |

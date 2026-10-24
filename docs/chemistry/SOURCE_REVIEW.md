@@ -307,3 +307,42 @@ the explicit molar-mass datum used by the new CM example. No invented NaCl mass.
 
 Open review remains one scientific blocker plus nine scoped editorial issues.
 All source-only,immutable-import and no-production rules remain in force.
+
+
+## Batch09 image review — 2026-10-24
+
+Original93–106/PDF47–54 reviewed; practical5 uses93–94,review anchors95–98,
+§33 uses99–101,§34 uses102–104 before§35,§35 uses104–105 before§36,§36 uses
+105–106. §37 starts on107,not cited as§36 teaching. Prior§7/26 and§9/32 retain
+their exact source identities. Each displayed material equation atom-checked.
+
+- Practical5 retains both components:mass fraction,label/report and soil aqueous
+  extract/filtrate/litmus interpretation. No reagent amounts/setup,physical
+  execution,agricultural treatment or inferred unprovided observations.
+- **ch7-practical5-universal-colour-review**,94:the universal-indicator yellow/
+  pink alkaline-soil inference lacks formulation/chart context. No corrected
+  colour is invented. The separately printed litmus violet→blue observation is
+  used as supplied digital evidence.
+- **ch7-review4-water-vapour-state**,98:hot vapour volume lacks definite pressure/
+  temperature. Normal-state22.4l is not silently substituted. The independently
+  specified4°C liquid-density part is taught with prior§27/81 instead.
+- **ch7-p33-francium-state-review**,100:Fr exception in the normal-condition
+  phase table is held pending corroborating source/condition context. No melting
+  point or corrected state is invented; other named examples/general trends
+  remain separately taught.
+- **ch7-p34-iron-percentage-precision**,104:72.2/27.8 Fe/O exercise gives no
+  tolerance/precision boundary. Earlier Fe56/42 and O16/55 would give Fe3O4
+  approximately72.41/27.59. Printed values are withheld as an exact premise;
+  neither numbers nor formula are silently repaired. Other explicit formulas
+  are separately available. Validator rejects the held percentage premise.
+- Source99's backward reference says26/§9,but original simple/compound topic
+  is§7 on26;§9/formulas begins30. This pointer is resolved from original pages
+  and cited accurately,without altering the scientific rule.
+- ChapterIV arithmetic variants use exact source rules/data:CaCl2 M111g/mol on96;
+ 20g/(40g/mol×2.5l)=0.2mol/l;100g10%+150g20% gives16%. No invented atomic mass.
+  Graphic oxide lines retain source§9's valence representation;formal structural
+  input/automatic bond inference is not introduced.
+
+Open review now one scientific blocker plus13 scoped editorial issues. Seven
+chapter-review anchors integrated; source mapping is not full-course readiness
+or independent teacher certification. Existing source-only rules remain in force.

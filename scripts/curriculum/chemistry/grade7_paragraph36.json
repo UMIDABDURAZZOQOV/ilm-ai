@@ -1,0 +1,1908 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 41,
+  "key": "chemistry-7-p36-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph36",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Oksidlarning olinishi va xossalari",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph35"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph36",
+      "topic_title": "Oksidlarning olinishi va xossalari",
+      "paragraph": 36,
+      "printed_pages": [
+        105
+      ],
+      "pdf_pages": [
+        53
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph36-page105"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph36",
+      "topic_title": "Oksidlarning olinishi va xossalari",
+      "paragraph": 36,
+      "printed_pages": [
+        106
+      ],
+      "pdf_pages": [
+        54
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph36-page106"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph36",
+      "topic_title": "Oksidlarning olinishi va xossalari",
+      "paragraph": 36,
+      "printed_pages": [
+        107
+      ],
+      "pdf_pages": [
+        54
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph36-page107"
+    }
+  ],
+  "facts": {
+    "elements": {
+      "claim": "Oddiy moddalardan olish misollari 4Al+3O2=2Al2O3 va4P+5O2=2P2O5.",
+      "verified_answers": [
+        "4Al+3O2=2Al2O3",
+        "4P+5O2=2P2O5"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            105
+          ],
+          "pdf_pages": [
+            53
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page105"
+        }
+      ]
+    },
+    "burning": {
+      "claim": "Murakkab moddalarning kislorod bilan yozuvlari CH4+2O2=CO2+2H2O va2H2S+3O2=2H2O+2SO2.",
+      "verified_answers": [
+        "CH4+2O2=CO2+2H2O",
+        "2H2S+3O2=2H2O+2SO2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    "decompose": {
+      "claim": "Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+      "verified_answers": [
+        "Cu(OH)2=CuO+H2O",
+        "H2SiO3=H2O+SiO2",
+        "Cu2(OH)2CO3=2CuO+CO2+H2O"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    "other": {
+      "claim": "Boshqa moddiy yozuvlar 2HClO4+P2O5=2HPO3+Cl2O7; Na2CO3+SiO2=Na2SiO3+CO2.",
+      "verified_answers": [
+        "2HClO4+P2O5=2HPO3+Cl2O7",
+        "Na2CO3+SiO2=Na2SiO3+CO2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    "basewater": {
+      "claim": "Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+      "verified_answers": [
+        "Na2O+H2O=2NaOH",
+        "CaO+H2O=Ca(OH)2",
+        "NaOH"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    "acidwater": {
+      "claim": "Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+      "verified_answers": [
+        "SO2+H2O=H2SO3",
+        "P2O5+3H2O=2H3PO4",
+        "H2SO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    "acid": {
+      "claim": "Asosli oksid/kislota misollari CaO+2HCl=CaCl2+H2O va BaO+2HNO3=Ba(NO3)2+H2O.",
+      "verified_answers": [
+        "CaO+2HCl=CaCl2+H2O",
+        "BaO+2HNO3=Ba(NO3)2+H2O"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    "base": {
+      "claim": "Kislotali oksid/asos misollari SO2+2NaOH=Na2SO3+H2O va P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O.",
+      "verified_answers": [
+        "SO2+2NaOH=Na2SO3+H2O",
+        "P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    "oxide": {
+      "claim": "Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+      "verified_answers": [
+        "MgO+SO2=MgSO3",
+        "BaO+CO2=BaCO3",
+        "Tuz"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Oddiy moddalardan oksid",
+        "body": "4Al +3O₂ =2Al₂O₃; 4P +5O₂ =2P₂O₅. Chapdagi oddiy moddalar birikib oksid mahsulotini hosil qiladi. Darsda faqat yozuvlar tahlil qilinadi.",
+        "fact_ids": [
+          "elements"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              105
+            ],
+            "pdf_pages": [
+              53
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page105"
+          }
+        ]
+      },
+      {
+        "title": "Murakkab moddalarning yozuvlari",
+        "body": "CH₄ +2O₂ = CO₂ +2H₂O; 2H₂S +3O₂ =2H₂O +2SO₂. Har bir elementni ikki tomonda koeffitsiyent bilan sanang.",
+        "fact_ids": [
+          "burning"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      },
+      {
+        "title": "Parchalanish orqali",
+        "body": "Cu(OH)₂ = CuO + H₂O; H₂SiO₃ = H₂O + SiO₂. Murakkab misol:Cu₂(OH)₂CO₃ =2CuO + CO₂ + H₂O. Oksid mahsulotlari berilgan formuladan aniqlanadi.",
+        "fact_ids": [
+          "decompose"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      },
+      {
+        "title": "Boshqa reaksiyalardagi oksid",
+        "body": "2HClO₄ + P₂O₅ =2HPO₃ + Cl₂O₇; Na₂CO₃ + SiO₂ = Na₂SiO₃ + CO₂. Bu manbadagi moddiy tenglamalar, moddalarni amalda tayyorlash topshirig‘i emas.",
+        "fact_ids": [
+          "other"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      },
+      {
+        "title": "Suv bilan asos hosil bo‘lishi",
+        "body": "Na₂O + H₂O =2NaOH; CaO + H₂O = Ca(OH)₂. Oldingi tasnifdagi shu asosli oksidlar suv bilan berilgan asos mahsulotlarini hosil qiladi.",
+        "fact_ids": [
+          "basewater"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      },
+      {
+        "title": "Suv bilan kislota hosil bo‘lishi",
+        "body": "SO₂ + H₂O = H₂SO₃; P₂O₅ +3H₂O =2H₃PO₄. Berilgan kislotali oksidlar mahsulot kislotalari bilan bog‘langan.",
+        "fact_ids": [
+          "acidwater"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      },
+      {
+        "title": "Oksid va kislota",
+        "body": "CaO +2HCl = CaCl₂ + H₂O; BaO +2HNO₃ = Ba(NO₃)₂ + H₂O. Shu misollarda tuz va suv hosil bo‘ladi.",
+        "fact_ids": [
+          "acid"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      },
+      {
+        "title": "Oksid va asos",
+        "body": "SO₂ +2NaOH = Na₂SO₃ + H₂O; P₂O₅ +3Ca(OH)₂ = Ca₃(PO₄)₂ +3H₂O. Qavs ichidagi atomlar sonini tashqi indeks bilan birga hisoblang.",
+        "fact_ids": [
+          "base"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      },
+      {
+        "title": "Ikki oksiddan tuz",
+        "body": "MgO + SO₂ = MgSO₃; BaO + CO₂ = BaCO₃. Kitob bu misollarni asosli va kislotali oksidlar birikib tuz hosil qilishi bilan tushuntiradi.",
+        "fact_ids": [
+          "oxide"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      }
+    ],
+    "formulas": [
+      {
+        "title": "Ko‘rib chiqilgan misollar",
+        "body": "Cu(OH)2=CuO+H2O; SO2+2NaOH=Na2SO3+H2O; BaO+CO2=BaCO3.",
+        "fact_ids": [
+          "decompose",
+          "base",
+          "oxide"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph36",
+            "topic_title": "Oksidlarning olinishi va xossalari",
+            "paragraph": 36,
+            "printed_pages": [
+              106
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph36-page106"
+          }
+        ]
+      }
+    ],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph36",
+        "topic_title": "Oksidlarning olinishi va xossalari",
+        "paragraph": 36,
+        "printed_pages": [
+          105
+        ],
+        "pdf_pages": [
+          53
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph36-page105"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph36",
+        "topic_title": "Oksidlarning olinishi va xossalari",
+        "paragraph": 36,
+        "printed_pages": [
+          106
+        ],
+        "pdf_pages": [
+          54
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph36-page106"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph36",
+        "topic_title": "Oksidlarning olinishi va xossalari",
+        "paragraph": 36,
+        "printed_pages": [
+          107
+        ],
+        "pdf_pages": [
+          54
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph36-page107"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p36-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Na₂O + H₂O yozuvida qaysi asos mahsulot?",
+        "options": [
+          {
+            "id": "a",
+            "label": "H2SO3"
+          },
+          {
+            "id": "b",
+            "label": "NaOH"
+          },
+          {
+            "id": "c",
+            "label": "CO2"
+          },
+          {
+            "id": "d",
+            "label": "Na"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "NaOH",
+        "feedback": {
+          "correct": "To‘g‘ri. Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+          "incorrect": "Hozircha noto‘g‘ri. Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+            "fact_ids": [
+              "basewater"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "basewater"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "SO₂ + H₂O yozuvida qaysi kislota berilgan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "NaOH"
+          },
+          {
+            "id": "b",
+            "label": "H2"
+          },
+          {
+            "id": "c",
+            "label": "SO2"
+          },
+          {
+            "id": "d",
+            "label": "H2SO3"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "H2SO3",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+            "fact_ids": [
+              "acidwater"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "acidwater"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "BaO + CO₂ mahsuloti manbada qaysi sinf?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Tuz"
+          },
+          {
+            "id": "b",
+            "label": "Oddiy metall"
+          },
+          {
+            "id": "c",
+            "label": "Oddiy metallmas"
+          },
+          {
+            "id": "d",
+            "label": "Faqat gaz"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Tuz",
+        "feedback": {
+          "correct": "To‘g‘ri. Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+            "fact_ids": [
+              "oxide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "oxide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q04",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Al + O₂ → Al₂O₃ sxemasini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "4Al+3O2=2Al2O3",
+        "feedback": {
+          "correct": "To‘g‘ri. Oddiy moddalardan olish misollari 4Al+3O2=2Al2O3 va4P+5O2=2P2O5.",
+          "incorrect": "Hozircha noto‘g‘ri. Oddiy moddalardan olish misollari 4Al+3O2=2Al2O3 va4P+5O2=2P2O5.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oddiy moddalardan olish misollari 4Al+3O2=2Al2O3 va4P+5O2=2P2O5.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oddiy moddalardan olish misollari 4Al+3O2=2Al2O3 va4P+5O2=2P2O5.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oddiy moddalardan olish misollari 4Al+3O2=2Al2O3 va4P+5O2=2P2O5."
+        },
+        "solution": [
+          {
+            "body": "Oddiy moddalardan olish misollari 4Al+3O2=2Al2O3 va4P+5O2=2P2O5.",
+            "fact_ids": [
+              "elements"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  105
+                ],
+                "pdf_pages": [
+                  53
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page105"
+              }
+            ]
+          }
+        ],
+        "expected": "4Al+3O2=2Al2O3"
+      },
+      "fact_ids": [
+        "elements"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            105
+          ],
+          "pdf_pages": [
+            53
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page105"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q05",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Cu(OH)₂ dan CuO va H₂O hosil bo‘lish yozuvini kiriting.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Cu(OH)2=CuO+H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O."
+        },
+        "solution": [
+          {
+            "body": "Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+            "fact_ids": [
+              "decompose"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu(OH)2=CuO+H2O"
+      },
+      "fact_ids": [
+        "decompose"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q06",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Cu₂(OH)₂CO₃ → CuO + CO₂ + H₂O sxemasini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Cu2(OH)2CO3=2CuO+CO2+H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O."
+        },
+        "solution": [
+          {
+            "body": "Parchalanish misollari Cu(OH)2=CuO+H2O; H2SiO3=H2O+SiO2; Cu2(OH)2CO3=2CuO+CO2+H2O.",
+            "fact_ids": [
+              "decompose"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu2(OH)2CO3=2CuO+CO2+H2O"
+      },
+      "fact_ids": [
+        "decompose"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q07",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Na₂O + H₂O → NaOH sxemasini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Na2O+H2O=2NaOH",
+        "feedback": {
+          "correct": "To‘g‘ri. Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+          "incorrect": "Hozircha noto‘g‘ri. Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2."
+        },
+        "solution": [
+          {
+            "body": "Asos hosil bo‘lish misollari Na2O+H2O=2NaOH va CaO+H2O=Ca(OH)2.",
+            "fact_ids": [
+              "basewater"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "Na2O+H2O=2NaOH"
+      },
+      "fact_ids": [
+        "basewater"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q08",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "P₂O₅ + H₂O → H₃PO₄ sxemasini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "P2O5+3H2O=2H3PO4",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4."
+        },
+        "solution": [
+          {
+            "body": "Kislota hosil bo‘lish misollari SO2+H2O=H2SO3 va P2O5+3H2O=2H3PO4.",
+            "fact_ids": [
+              "acidwater"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "P2O5+3H2O=2H3PO4"
+      },
+      "fact_ids": [
+        "acidwater"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q09",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "CaO va HCl dan CaCl₂ va H₂O hosil bo‘lishini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "CaO+2HCl=CaCl2+H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Asosli oksid/kislota misollari CaO+2HCl=CaCl2+H2O va BaO+2HNO3=Ba(NO3)2+H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Asosli oksid/kislota misollari CaO+2HCl=CaCl2+H2O va BaO+2HNO3=Ba(NO3)2+H2O.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Asosli oksid/kislota misollari CaO+2HCl=CaCl2+H2O va BaO+2HNO3=Ba(NO3)2+H2O.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Asosli oksid/kislota misollari CaO+2HCl=CaCl2+H2O va BaO+2HNO3=Ba(NO3)2+H2O.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Asosli oksid/kislota misollari CaO+2HCl=CaCl2+H2O va BaO+2HNO3=Ba(NO3)2+H2O."
+        },
+        "solution": [
+          {
+            "body": "Asosli oksid/kislota misollari CaO+2HCl=CaCl2+H2O va BaO+2HNO3=Ba(NO3)2+H2O.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "CaO+2HCl=CaCl2+H2O"
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q10",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "SO₂ + NaOH → Na₂SO₃ + H₂O sxemasini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "SO2+2NaOH=Na2SO3+H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislotali oksid/asos misollari SO2+2NaOH=Na2SO3+H2O va P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislotali oksid/asos misollari SO2+2NaOH=Na2SO3+H2O va P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kislotali oksid/asos misollari SO2+2NaOH=Na2SO3+H2O va P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kislotali oksid/asos misollari SO2+2NaOH=Na2SO3+H2O va P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kislotali oksid/asos misollari SO2+2NaOH=Na2SO3+H2O va P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O."
+        },
+        "solution": [
+          {
+            "body": "Kislotali oksid/asos misollari SO2+2NaOH=Na2SO3+H2O va P2O5+3Ca(OH)2=Ca3(PO4)2+3H2O.",
+            "fact_ids": [
+              "base"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "SO2+2NaOH=Na2SO3+H2O"
+      },
+      "fact_ids": [
+        "base"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p36-r1-q11",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "BaO va CO₂ dan BaCO₃ hosil bo‘lish tenglamasini yozing.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "BaO+CO2=BaCO3",
+        "feedback": {
+          "correct": "To‘g‘ri. Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan."
+        },
+        "solution": [
+          {
+            "body": "Qarama-qarshi xossali oksid misollari MgO+SO2=MgSO3 va BaO+CO2=BaCO3. Mahsulotlar tuzlar sifatida berilgan.",
+            "fact_ids": [
+              "oxide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph36",
+                "topic_title": "Oksidlarning olinishi va xossalari",
+                "paragraph": 36,
+                "printed_pages": [
+                  106
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph36-page106"
+              }
+            ]
+          }
+        ],
+        "expected": "BaO+CO2=BaCO3"
+      },
+      "fact_ids": [
+        "oxide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph36",
+          "topic_title": "Oksidlarning olinishi va xossalari",
+          "paragraph": 36,
+          "printed_pages": [
+            106
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph36-page106"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only"
+}

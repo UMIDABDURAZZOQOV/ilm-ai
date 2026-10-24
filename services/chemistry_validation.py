@@ -40,6 +40,10 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-4': 'ch7-review3-gas-phase-context',
     'ch7-paragraph27': 'ch7-p27-water-condition-review',
     'ch7-paragraph28': 'ch7-p28-ocean-volume-discrepancy',
+    'ch7-practical05': 'ch7-practical5-universal-colour-review',
+    'ch7-7': 'ch7-review4-water-vapour-state',
+    'ch7-paragraph33': 'ch7-p33-francium-state-review',
+    'ch7-paragraph34': 'ch7-p34-iron-percentage-precision',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -289,6 +293,13 @@ def validate_lesson(catalog, lesson, review):
                     continue
                 require(value not in {'1350000', '1400000000'},
                         'unresolved_ocean_volume_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-practical05' for r in f['source_refs']):
+            require(not any(a.casefold() == 'pushti' for a in f['verified_answers']),
+                    'unresolved_soil_universal_colour_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-paragraph34' for r in f['source_refs']):
+            require(not any(re.search(r'(?<![0-9])(?:72[.,]2|27[.,]8)(?![0-9])', a)
+                            for a in [f['claim'], *f['verified_answers']]),
+                    'unresolved_iron_percentage_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
@@ -327,6 +338,11 @@ def validate_lesson(catalog, lesson, review):
         if any(r['topic_id'] == 'ch7-paragraph24' for r in q['source_refs']):
             require(public.get('unit') not in {'kJ', 'kJ/mol'},
                     'unresolved_heat_sign_cannot_be_an_answer')
+        if any(r['topic_id'] == 'ch7-7' for r in q['source_refs']):
+            if q.get('response_kind') == 'numeric_value' and public.get('unit') in {'l', 'ml'}:
+                from services.chemistry_grading import canonical_number
+                require(canonical_number(spec['verified_answer']) not in {'22.4', '22400'},
+                        'unresolved_water_vapour_state_cannot_be_an_answer')
         if any(r['topic_id'] == 'ch7-paragraph18' for r in q['source_refs']):
             # The book omits the layer-thickness interpretation and current
             # exposure context. Do not turn those unresolved data into keys.

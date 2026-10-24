@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-36 reviewed lessons through grade7 §32, including practical1–4;232 remain. All
+41 reviewed lessons through grade7 §36, including practical1–5;227 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next teaching entry is grade7 practical5,printed93–95,then chapterIV reviews
-95–99 and §33–36. Five earlier chapter-review anchors are integrated with actual
-source identities; do not double-count or mislabel them.
+Next teaching entry is grade7 §37,printed107–109,then §38–41 in book order.
+Seven earlier chapter-review anchors are integrated with actual source identity;
+do not double-count or mislabel them.
 
 ## Review and development notes
 
@@ -120,3 +120,19 @@ water assurance. Dated WHO/2050 statements are not approved current statistics.
 Source86 high-resolution review confirmed375000000km²; no false discrepancy
 was added. Source87 graph g/l axis is not silently read as g/100g solvent.
 Existing nine scoped issues remain open; ocean-volume keys are now guarded.
+
+
+## Batch09 digital practical and oxide boundaries
+
+Practical5 includes both solution-label/report arithmetic and soil-filtrate/
+litmus observation. No physical procedure or agricultural treatment is assigned.
+ChapterIV review identities ch7-6/ch7-7 attach only to that preceding lesson.
+CaCl2 M111g/mol comes from explicit worked96. Source99's bad §9 pointer is
+resolved to actual §7/26,not copied into false source metadata. Oxide graphics
+are the prior§9 valence-line representation,not a claim of molecules/covalent
+bonds for every oxide. Source-specific formula/equation spelling bounds remain.
+
+New held contexts:universal soil-indicator colour94,hot water-vapour state98,
+Fr state100,Fe/O percentage precision104. Together with previous holds there
+are13 scoped editorial issues plus the grade9 scientific blocker. None is
+silently repaired or promoted into verified teaching/keys. Read SOURCE_REVIEW.md.

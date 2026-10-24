@@ -287,3 +287,35 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   Source87 plot units are not silently interchanged with per100g solvent values.
   No fresh web build/PostgreSQL/full-backend/native suite,PDF/OCR/token upload,
   real-user operation,production/main/other-subject branch action or AI feature.
+
+
+## Batch09 — 2026-10-24
+
+- Practical5 plus§33–36 and both chapterIV review anchors:**41/268 implemented,
+  227 remaining**. Batch37 cards/51 questions (19 MCQ,7 short,10 numeric,7 formula,
+  8 equation); total283 cards/436 assessments (201 MCQ,93 short,90 numeric,
+  18 formula,34 equation). Seven review anchors integrated,not extra lessons.
+- Full Chemistry **228 passed,1 skipped,1 existing warning,515.21s**. Targeted
+  batch20 passed/19.38s. Skip is opt-in PostgreSQL; no fresh PG certification.
+  Critical Ruff clean. Original§1 unchanged by byte comparison.
+- Full Flutter rerun **486 passed,86s**. No Dart/fixture change this batch; prior
+  clean analysis117.8s and widget captures remain historical,not rerun claims.
+  Existing UI/common learning contract preserved; no new teaching mechanism.
+- Real HTTP preserved36 completions/720XP,appendedfive immutable manifests and
+  passed all51 new questions. Added100XP once,total41/820XP; completion replay
+  identical,private grading hidden. Synthetic900003 only in private8900 sandbox.
+  Real user/Biology progress and old source-copy snapshots remain unchanged.
+- Both practical components retained:solution calculations/label/report and
+  supplied soil-filtrate/litmus observation. No physical reagent setup or invented
+  universal-indicator result. Original-page evidence corrects source99's bad§9
+  pointer to actual§7/26 without changing the classification fact.
+- All817 original PDF pages decoded and five SHA identities verified again.
+  One scientific hold and13 scoped editorial issues now visible. Held soil colour,
+  hot-vapour state,Fr phase and imprecise Fe/O premise never become approved keys.
+  All whole-course flags false; JSON coverage is not full scientific readiness.
+- Material equations including parenthesized basic copper carbonate were checked
+  for atom balance. Accepted typed variants include subscript digits,term order,
+  arrow spelling and proportional integer coefficients; no general structural/
+  ionic/reaction-prediction engine is claimed.
+- No fresh web/native/browser/IME/TalkBack/teacher/full-backend/PostgreSQL suite,
+  production/main/real-user/other-subject action,PDF/OCR/token upload or AI feature.

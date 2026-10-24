@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 36,
+  "implemented_lessons": 41,
   "grades": [
     {
       "grade": 7,
@@ -11,13 +11,8 @@
       "laboratories": 16,
       "practicals": 7,
       "source_teaching_entries": 74,
-      "implemented_lessons": 36,
+      "implemented_lessons": 41,
       "remaining_ids": [
-        "ch7-practical05",
-        "ch7-paragraph33",
-        "ch7-paragraph34",
-        "ch7-paragraph35",
-        "ch7-paragraph36",
         "ch7-paragraph37",
         "ch7-paragraph38",
         "ch7-paragraph39",
@@ -61,7 +56,11 @@
         "ch7-p26-environmental-scope-review",
         "ch7-review3-gas-phase-context",
         "ch7-p27-water-condition-review",
-        "ch7-p28-ocean-volume-discrepancy"
+        "ch7-p28-ocean-volume-discrepancy",
+        "ch7-practical5-universal-colour-review",
+        "ch7-review4-water-vapour-state",
+        "ch7-p33-francium-state-review",
+        "ch7-p34-iron-percentage-precision"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -319,9 +318,9 @@
       "course_ready": false
     }
   ],
-  "integrated_source_activities": 5,
+  "integrated_source_activities": 7,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 9,
+  "open_editorial_review_issues": 13,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

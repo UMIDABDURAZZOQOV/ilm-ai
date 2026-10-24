@@ -2228,7 +2228,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-practical5-universal-colour-review",
+              "status": "open_review",
+              "printed_pages": [
+                94
+              ],
+              "pdf_pages": [
+                48
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "The specific universal-indicator yellow-to-pink alkaline-soil interpretation lacks formulation/chart context and is withheld.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 94,
+                  "reason": "No corrected universal colour is invented. The separately printed litmus violet-to-blue observation is available for digital interpretation,not physical soil testing."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "subactivity",
@@ -2345,7 +2368,30 @@
             "record_id": "ch7-chapter05",
             "printed_page": 99,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-review4-water-vapour-state",
+              "status": "open_review",
+              "printed_pages": [
+                98
+              ],
+              "pdf_pages": [
+                50
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "The18g-water vapour volume above100C lacks a definite gas-state pressure/temperature; do not silently apply22.4l at normal conditions.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 98,
+                  "reason": "Paragraph27/81 defines the liquid/gas boundary at101.3kPa; normal-state22.4l from paragraph15/43 is a different condition. The4C liquid-density part can be used separately."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch7-chapter05",
@@ -2459,7 +2505,41 @@
             "record_id": "ch7-paragraph34",
             "printed_page": 102,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p33-francium-state-review",
+              "status": "open_review",
+              "printed_pages": [
+                100
+              ],
+              "pdf_pages": [
+                51
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "The table lists Fr with Hg as exceptions to solid metals under its normal-condition header; Fr state is withheld pending corroborating source/condition context.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 100,
+                  "reason": "Do not invent a Fr melting point or silently teach a corrected state. General properties and individually named source examples remain separate."
+                }
+              ]
+            }
+          ],
+          "source_reference_notes": [
+            {
+              "id": "ch7-p33-p99-back-reference",
+              "status": "resolved_from_original_pages",
+              "printed_page": 99,
+              "printed_pointer": "26-page,paragraph9",
+              "actual_topic_id": "ch7-paragraph07",
+              "actual_printed_page": 26,
+              "reason": "Original26 heading is paragraph7/simple-compound. Paragraph9/formulas begins30. Cite the actual earlier topic identity; scientific classification is unchanged."
+            }
+          ]
         },
         {
           "kind": "subtopic",
@@ -2574,7 +2654,30 @@
             "record_id": "ch7-paragraph35",
             "printed_page": 104,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p34-iron-percentage-precision",
+              "status": "open_review",
+              "printed_pages": [
+                104
+              ],
+              "pdf_pages": [
+                53
+              ],
+              "regions": [
+                "left"
+              ],
+              "scope": "The72.2/27.8 Fe/O exercise lacks a precision/tolerance boundary sufficient for an exact authoritative formula key; premise is withheld.",
+              "withheld_claims": [
+                {
+                  "id": "context",
+                  "printed_page": 104,
+                  "reason": "Earlier source14/42 Fe56 and17/55 O16 give Fe3O4 percentages approximately72.41/27.59,not the printed one-decimal values. Do not silently repair the numbers or present them as exact evidence. Explicit oxide formulas elsewhere remain available."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
