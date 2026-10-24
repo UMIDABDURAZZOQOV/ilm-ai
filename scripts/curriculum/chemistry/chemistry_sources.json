@@ -2797,7 +2797,59 @@
             "record_id": "ch7-paragraph38",
             "printed_page": 109,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p37-occurrence-mineral-review",
+              "status": "open_review",
+              "printed_pages": [
+                107,
+                108
+              ],
+              "pdf_pages": [
+                54,
+                55
+              ],
+              "regions": [
+                "right",
+                "left"
+              ],
+              "scope": "CO2 fixed/current concentration,NO2 absolute natural absence and gemstone host classifications are withheld pending source review.",
+              "withheld_claims": [
+                {
+                  "id": "co2_constancy",
+                  "printed_page": 107,
+                  "reason": "Permanent0.03% wording conflicts with same-book paragraph20/61 explicitly variable CO2. No fixed/current concentration answer."
+                },
+                {
+                  "id": "no2_occurrence",
+                  "printed_page": 108,
+                  "reason": "Unqualified absence-in-nature statement lacks condition/scope context; no absolute occurrence key."
+                },
+                {
+                  "id": "gem_hosts",
+                  "printed_page": 108,
+                  "reason": "Quartz list includes sapphire/ruby/amethyst; supplied grade9 paragraph27/130–131 assigns these names to corundum/Al2O3. Neither conflicting host list is approved."
+                }
+              ],
+              "cross_source_evidence": [
+                {
+                  "book_id": "chemistry-9-uz-2019",
+                  "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                  "topic_id": "ch9-paragraph27",
+                  "printed_pages": [
+                    130,
+                    131
+                  ],
+                  "pdf_pages": [
+                    130,
+                    131
+                  ],
+                  "verification": "page_image_reviewed"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch7-section5-3",
@@ -8590,7 +8642,55 @@
             "record_id": "ch9-paragraph28",
             "printed_page": 131,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-p27-gem-and-equation-review",
+              "status": "open_review",
+              "printed_pages": [
+                130,
+                131
+              ],
+              "pdf_pages": [
+                130,
+                131
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Gemstone host assignment conflicts with supplied grade7,and the printed KOH/aluminium-hydroxide equation is atom-unbalanced;held without silent repair.",
+              "withheld_claims": [
+                {
+                  "id": "gem_hosts",
+                  "printed_page": 131,
+                  "reason": "Corundum/Al2O3 sapphire/ruby/amethyst attribution conflicts with grade7/108 quartz list;no approved alternative assignment inserted."
+                },
+                {
+                  "id": "koh_coefficient",
+                  "printed_page": 130,
+                  "reason": "Al(OH)3+2KOH=KAlO2+2H2O has K2/H5 left versus K1/H4 right. No repaired coefficient becomes an answer without a source-backed resolution."
+                }
+              ],
+              "cross_source_evidence": [
+                {
+                  "book_id": "chemistry-7-uz-2017",
+                  "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                  "topic_id": "ch7-paragraph37",
+                  "printed_pages": [
+                    108
+                  ],
+                  "pdf_pages": [
+                    55
+                  ],
+                  "regions": [
+                    "left"
+                  ],
+                  "verification": "page_image_reviewed"
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

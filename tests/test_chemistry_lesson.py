@@ -17,7 +17,7 @@ from sqlalchemy.orm import sessionmaker
 
 from services import db as database, tokens, users
 from services.models import Base, StudyEvent, StudySession, User, UserLessonProgress
-from services.chemistry_curriculum import import_lesson, install_schema
+from services.chemistry_curriculum import import_lesson, import_reviewed_lessons, install_schema
 from services.chemistry_grading import grade_answer, normalized_text
 from services.chemistry_models import ChemistryBase, ChemistryAssessment, ChemistryLesson, ChemistryProgress
 from services.chemistry_validation import load_catalog,load_lessons,read_json,validate_lesson,DIRECTORY
@@ -47,7 +47,7 @@ def chemistry(tmp_path,monkeypatch):
         from services.curriculum import import_curriculum,load_documents
         bio=import_curriculum(db,*load_documents())
         db.add(UserLessonProgress(user_id=42,lesson_id=bio['lesson_id'],stars=2,attempts=1,xp_earned=137,completed_at=utcnow()))
-        for lesson in load_lessons(): import_lesson(db,lesson)
+        import_reviewed_lessons(db)
     app=FastAPI();app.include_router(router)
     def get_db():
         with factory() as db: yield db

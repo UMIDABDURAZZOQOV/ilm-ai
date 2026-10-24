@@ -1,0 +1,1373 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 7,
+  "sequence": 42,
+  "key": "chemistry-7-p37-r1",
+  "revision": 1,
+  "topic_id": "ch7-paragraph37",
+  "book_id": "chemistry-7-uz-2017",
+  "title": "Eng muhim oksidlarning ishlatilishi",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch7-paragraph36"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph37",
+      "topic_title": "Eng muhim oksidlarning ishlatilishi",
+      "paragraph": 37,
+      "printed_pages": [
+        107
+      ],
+      "pdf_pages": [
+        54
+      ],
+      "regions": [
+        "right"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph37-page107"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph37",
+      "topic_title": "Eng muhim oksidlarning ishlatilishi",
+      "paragraph": 37,
+      "printed_pages": [
+        108
+      ],
+      "pdf_pages": [
+        55
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph37-page108"
+    },
+    {
+      "book_id": "chemistry-7-uz-2017",
+      "book_title": "Kimyo",
+      "authors": [
+        "I.R. Asqarov",
+        "N.X. To‘xtaboyev",
+        "K.G‘. G‘opirov"
+      ],
+      "year": 2017,
+      "file_name": "kimyo_7_uzb.pdf",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "topic_id": "ch7-paragraph20",
+      "topic_title": "Kislorodning tabiatda aylanishi. Havo va uning tarkibi. Havoni ifloslanishdan saqlash",
+      "paragraph": 20,
+      "printed_pages": [
+        60
+      ],
+      "pdf_pages": [
+        31
+      ],
+      "regions": [
+        "left"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch7-paragraph20-page60"
+    }
+  ],
+  "facts": {
+    "carbon": {
+      "claim": "CO2 karbonat angidrid deb nomlanadi; manba uni fotosintez, ichimliklarni gazlash, qattiq quruq muzning sovituvchi vazifasi va soda ishlab chiqarish bilan bog‘laydi.",
+      "verified_answers": [
+        "CO2",
+        "Quruq muz",
+        "Fotosintez"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            107
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page107"
+        }
+      ]
+    },
+    "photosynthesis": {
+      "claim": "Oldingi umumiy fotosintez yozuvida CO2 va suv boshlang‘ich moddalar, organik modda hamda O2 mahsulotlardir.",
+      "verified_answers": [
+        "CO2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph20",
+          "topic_title": "Kislorodning tabiatda aylanishi. Havo va uning tarkibi. Havoni ifloslanishdan saqlash",
+          "paragraph": 20,
+          "printed_pages": [
+            60
+          ],
+          "pdf_pages": [
+            31
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph20-page60"
+        }
+      ]
+    },
+    "silicon": {
+      "claim": "SiO2 — kremniy(IV)-oksid; qum qurilish materiali, kvars esa manbada ultrabinafsha asboblari, kimyoviy shisha va kremniy olish sohasi bilan bog‘langan.",
+      "verified_answers": [
+        "SiO2",
+        "Kvars"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    "calcium": {
+      "claim": "CaO kalsiy oksid, so‘ndirilmagan ohak deb ataladi; manba uni ohaktosh bilan bog‘laydi, qurilish, qorishma va sement xomashyosi sifatida sanaydi.",
+      "verified_answers": [
+        "CaO",
+        "So‘ndirilmagan ohak"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    "sulfur": {
+      "claim": "SO3 — oltingugurt(VI)-oksid, sulfat angidrid. Manba uni SO2 ni oksidlash orqali olish va asosan sulfat kislota ishlab chiqarish bilan bog‘laydi.",
+      "verified_answers": [
+        "SO3",
+        "Sulfat kislota"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    "nitrogen": {
+      "claim": "NO2 — azot(IV)-oksid; manbada nitrat kislota ishlab chiqarish bilan bog‘langan. Nitrat kislota azotli o‘g‘it va nitrobirikmalar ishlab chiqarishning xomashyosi sifatida sanalgan.",
+      "verified_answers": [
+        "NO2",
+        "Nitrat kislota"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Karbonat angidridning vazifalari",
+        "body": "CO₂ fotosintez va ichimliklarni gazlash bilan bog‘langan. Qattiq shakli quruq muz deb atalib, sovituvchi sifatida keltirilgan. Soda ishlab chiqarish ham manbadagi foydalanish yo‘nalishidir.",
+        "fact_ids": [
+          "carbon",
+          "photosynthesis"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph37",
+            "topic_title": "Eng muhim oksidlarning ishlatilishi",
+            "paragraph": 37,
+            "printed_pages": [
+              107
+            ],
+            "pdf_pages": [
+              54
+            ],
+            "regions": [
+              "right"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph37-page107"
+          },
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph20",
+            "topic_title": "Kislorodning tabiatda aylanishi. Havo va uning tarkibi. Havoni ifloslanishdan saqlash",
+            "paragraph": 20,
+            "printed_pages": [
+              60
+            ],
+            "pdf_pages": [
+              31
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph20-page60"
+          }
+        ]
+      },
+      {
+        "title": "Kremniy oksid qo‘llanishlari",
+        "body": "SiO₂ qum va kvars nomlari bilan bog‘langan. Qum qurilishda, kvars esa manbada ultrabinafsha asboblari va kimyoviy shisha uchun ko‘rsatilgan. Kremniy olish sohasi ham sanaladi.",
+        "fact_ids": [
+          "silicon"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph37",
+            "topic_title": "Eng muhim oksidlarning ishlatilishi",
+            "paragraph": 37,
+            "printed_pages": [
+              108
+            ],
+            "pdf_pages": [
+              55
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph37-page108"
+          }
+        ]
+      },
+      {
+        "title": "So‘ndirilmagan ohak",
+        "body": "CaO — kalsiy oksid. Kitob so‘ndirilmagan ohakni qurilish, qorishma va sement xomashyosi bilan bog‘laydi. Bu foydalanish sohalarini tanish darsi.",
+        "fact_ids": [
+          "calcium"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph37",
+            "topic_title": "Eng muhim oksidlarning ishlatilishi",
+            "paragraph": 37,
+            "printed_pages": [
+              108
+            ],
+            "pdf_pages": [
+              55
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph37-page108"
+          }
+        ]
+      },
+      {
+        "title": "Sulfat kislota yo‘nalishi",
+        "body": "SO₃ oltingugurt(VI)-oksid yoki sulfat angidrid deb ataladi. Kitob SO₂ ni oksidlash orqali olishni va undan sulfat kislota ishlab chiqarishda foydalanishni sanaydi.",
+        "fact_ids": [
+          "sulfur"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph37",
+            "topic_title": "Eng muhim oksidlarning ishlatilishi",
+            "paragraph": 37,
+            "printed_pages": [
+              108
+            ],
+            "pdf_pages": [
+              55
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph37-page108"
+          }
+        ]
+      },
+      {
+        "title": "Nitrat kislota yo‘nalishi",
+        "body": "NO₂ azot(IV)-oksid deb berilgan. Asosiy qo‘llanishi nitrat kislota ishlab chiqarishga bog‘langan; undan keyingi sohalar azotli o‘g‘itlar va nitrobirikmalardir.",
+        "fact_ids": [
+          "nitrogen"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-7-uz-2017",
+            "book_title": "Kimyo",
+            "authors": [
+              "I.R. Asqarov",
+              "N.X. To‘xtaboyev",
+              "K.G‘. G‘opirov"
+            ],
+            "year": 2017,
+            "file_name": "kimyo_7_uzb.pdf",
+            "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+            "topic_id": "ch7-paragraph37",
+            "topic_title": "Eng muhim oksidlarning ishlatilishi",
+            "paragraph": 37,
+            "printed_pages": [
+              108
+            ],
+            "pdf_pages": [
+              55
+            ],
+            "regions": [
+              "left"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch7-paragraph37-page108"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph37",
+        "topic_title": "Eng muhim oksidlarning ishlatilishi",
+        "paragraph": 37,
+        "printed_pages": [
+          107
+        ],
+        "pdf_pages": [
+          54
+        ],
+        "regions": [
+          "right"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph37-page107"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph37",
+        "topic_title": "Eng muhim oksidlarning ishlatilishi",
+        "paragraph": 37,
+        "printed_pages": [
+          108
+        ],
+        "pdf_pages": [
+          55
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph37-page108"
+      },
+      {
+        "book_id": "chemistry-7-uz-2017",
+        "book_title": "Kimyo",
+        "authors": [
+          "I.R. Asqarov",
+          "N.X. To‘xtaboyev",
+          "K.G‘. G‘opirov"
+        ],
+        "year": 2017,
+        "file_name": "kimyo_7_uzb.pdf",
+        "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+        "topic_id": "ch7-paragraph20",
+        "topic_title": "Kislorodning tabiatda aylanishi. Havo va uning tarkibi. Havoni ifloslanishdan saqlash",
+        "paragraph": 20,
+        "printed_pages": [
+          60
+        ],
+        "pdf_pages": [
+          31
+        ],
+        "regions": [
+          "left"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch7-paragraph20-page60"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-7-p37-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Qattiq CO₂ ning kitobdagi nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Quruq muz"
+          },
+          {
+            "id": "b",
+            "label": "So‘ndirilgan ohak"
+          },
+          {
+            "id": "c",
+            "label": "Kvars"
+          },
+          {
+            "id": "d",
+            "label": "Magneziya"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Quruq muz",
+        "feedback": {
+          "correct": "To‘g‘ri. CO2 karbonat angidrid deb nomlanadi; manba uni fotosintez, ichimliklarni gazlash, qattiq quruq muzning sovituvchi vazifasi va soda ishlab chiqarish bilan bog‘laydi.",
+          "incorrect": "Hozircha noto‘g‘ri. CO2 karbonat angidrid deb nomlanadi; manba uni fotosintez, ichimliklarni gazlash, qattiq quruq muzning sovituvchi vazifasi va soda ishlab chiqarish bilan bog‘laydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "CO2 karbonat angidrid deb nomlanadi; manba uni fotosintez, ichimliklarni gazlash, qattiq quruq muzning sovituvchi vazifasi va soda ishlab chiqarish bilan bog‘laydi.",
+            "fact_ids": [
+              "carbon"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  107
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page107"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "carbon"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            107
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page107"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p37-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "SO₃ qaysi kislota ishlab chiqarish bilan bog‘langan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Xlorid kislota"
+          },
+          {
+            "id": "b",
+            "label": "Nitrat kislota"
+          },
+          {
+            "id": "c",
+            "label": "Sulfat kislota"
+          },
+          {
+            "id": "d",
+            "label": "Karbonat kislota"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Sulfat kislota",
+        "feedback": {
+          "correct": "To‘g‘ri. SO3 — oltingugurt(VI)-oksid, sulfat angidrid. Manba uni SO2 ni oksidlash orqali olish va asosan sulfat kislota ishlab chiqarish bilan bog‘laydi.",
+          "incorrect": "Hozircha noto‘g‘ri. SO3 — oltingugurt(VI)-oksid, sulfat angidrid. Manba uni SO2 ni oksidlash orqali olish va asosan sulfat kislota ishlab chiqarish bilan bog‘laydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "SO3 — oltingugurt(VI)-oksid, sulfat angidrid. Manba uni SO2 ni oksidlash orqali olish va asosan sulfat kislota ishlab chiqarish bilan bog‘laydi.",
+            "fact_ids": [
+              "sulfur"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  108
+                ],
+                "pdf_pages": [
+                  55
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page108"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "sulfur"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p37-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "NO₂ ning berilgan sanoat yo‘nalishi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat sement"
+          },
+          {
+            "id": "b",
+            "label": "Faqat shisha"
+          },
+          {
+            "id": "c",
+            "label": "Faqat NaCl"
+          },
+          {
+            "id": "d",
+            "label": "Nitrat kislota"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Nitrat kislota",
+        "feedback": {
+          "correct": "To‘g‘ri. NO2 — azot(IV)-oksid; manbada nitrat kislota ishlab chiqarish bilan bog‘langan. Nitrat kislota azotli o‘g‘it va nitrobirikmalar ishlab chiqarishning xomashyosi sifatida sanalgan.",
+          "incorrect": "Hozircha noto‘g‘ri. NO2 — azot(IV)-oksid; manbada nitrat kislota ishlab chiqarish bilan bog‘langan. Nitrat kislota azotli o‘g‘it va nitrobirikmalar ishlab chiqarishning xomashyosi sifatida sanalgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "NO2 — azot(IV)-oksid; manbada nitrat kislota ishlab chiqarish bilan bog‘langan. Nitrat kislota azotli o‘g‘it va nitrobirikmalar ishlab chiqarishning xomashyosi sifatida sanalgan.",
+            "fact_ids": [
+              "nitrogen"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  108
+                ],
+                "pdf_pages": [
+                  55
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page108"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "nitrogen"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p37-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "CaO ning ohak bilan bog‘langan nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "So‘ndirilmagan ohak",
+        "feedback": {
+          "correct": "To‘g‘ri. CaO kalsiy oksid, so‘ndirilmagan ohak deb ataladi; manba uni ohaktosh bilan bog‘laydi, qurilish, qorishma va sement xomashyosi sifatida sanaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. CaO kalsiy oksid, so‘ndirilmagan ohak deb ataladi; manba uni ohaktosh bilan bog‘laydi, qurilish, qorishma va sement xomashyosi sifatida sanaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "CaO kalsiy oksid, so‘ndirilmagan ohak deb ataladi; manba uni ohaktosh bilan bog‘laydi, qurilish, qorishma va sement xomashyosi sifatida sanaydi.",
+            "fact_ids": [
+              "calcium"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  108
+                ],
+                "pdf_pages": [
+                  55
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page108"
+              }
+            ]
+          }
+        ],
+        "expected": "So‘ndirilmagan ohak",
+        "aliases": [
+          "So‘ndirilmagan ohak",
+          "sondirilmagan ohak"
+        ]
+      },
+      "fact_ids": [
+        "calcium"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p37-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "CO₂ organik modda hosil bo‘lishi bilan bog‘langan qaysi jarayonda qatnashadi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Fotosintez",
+        "feedback": {
+          "correct": "To‘g‘ri. CO2 karbonat angidrid deb nomlanadi; manba uni fotosintez, ichimliklarni gazlash, qattiq quruq muzning sovituvchi vazifasi va soda ishlab chiqarish bilan bog‘laydi.",
+          "incorrect": "Hozircha noto‘g‘ri. CO2 karbonat angidrid deb nomlanadi; manba uni fotosintez, ichimliklarni gazlash, qattiq quruq muzning sovituvchi vazifasi va soda ishlab chiqarish bilan bog‘laydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "CO2 karbonat angidrid deb nomlanadi; manba uni fotosintez, ichimliklarni gazlash, qattiq quruq muzning sovituvchi vazifasi va soda ishlab chiqarish bilan bog‘laydi.",
+            "fact_ids": [
+              "carbon"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  107
+                ],
+                "pdf_pages": [
+                  54
+                ],
+                "regions": [
+                  "right"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page107"
+              }
+            ]
+          }
+        ],
+        "expected": "Fotosintez",
+        "aliases": [
+          "Fotosintez"
+        ]
+      },
+      "fact_ids": [
+        "carbon"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            107
+          ],
+          "pdf_pages": [
+            54
+          ],
+          "regions": [
+            "right"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page107"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p37-r1-q06",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Qum/kvarsga bog‘langan oksid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "SiO2",
+        "feedback": {
+          "correct": "To‘g‘ri. SiO2 — kremniy(IV)-oksid; qum qurilish materiali, kvars esa manbada ultrabinafsha asboblari, kimyoviy shisha va kremniy olish sohasi bilan bog‘langan. Ziddiyatli qimmatbaho tosh host ro‘yxati bu faktga kiritilmagan.",
+          "incorrect": "Hozircha noto‘g‘ri. SiO2 — kremniy(IV)-oksid; qum qurilish materiali, kvars esa manbada ultrabinafsha asboblari, kimyoviy shisha va kremniy olish sohasi bilan bog‘langan. Ziddiyatli qimmatbaho tosh host ro‘yxati bu faktga kiritilmagan.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "SiO2 — kremniy(IV)-oksid; qum qurilish materiali, kvars esa manbada ultrabinafsha asboblari, kimyoviy shisha va kremniy olish sohasi bilan bog‘langan. Ziddiyatli qimmatbaho tosh host ro‘yxati bu faktga kiritilmagan.",
+            "fact_ids": [
+              "silicon"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  108
+                ],
+                "pdf_pages": [
+                  55
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page108"
+              }
+            ]
+          }
+        ],
+        "expected": "SiO2"
+      },
+      "fact_ids": [
+        "silicon"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p37-r1-q07",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Sulfat angidridning berilgan formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "SO3",
+        "feedback": {
+          "correct": "To‘g‘ri. SO3 — oltingugurt(VI)-oksid, sulfat angidrid. Manba uni SO2 ni oksidlash orqali olish va asosan sulfat kislota ishlab chiqarish bilan bog‘laydi.",
+          "incorrect": "Hozircha noto‘g‘ri. SO3 — oltingugurt(VI)-oksid, sulfat angidrid. Manba uni SO2 ni oksidlash orqali olish va asosan sulfat kislota ishlab chiqarish bilan bog‘laydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "SO3 — oltingugurt(VI)-oksid, sulfat angidrid. Manba uni SO2 ni oksidlash orqali olish va asosan sulfat kislota ishlab chiqarish bilan bog‘laydi.",
+            "fact_ids": [
+              "sulfur"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  108
+                ],
+                "pdf_pages": [
+                  55
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page108"
+              }
+            ]
+          }
+        ],
+        "expected": "SO3"
+      },
+      "fact_ids": [
+        "sulfur"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-7-p37-r1-q08",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Azot(IV)-oksidning berilgan formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "NO2",
+        "feedback": {
+          "correct": "To‘g‘ri. NO2 — azot(IV)-oksid; manbada nitrat kislota ishlab chiqarish bilan bog‘langan. Nitrat kislota azotli o‘g‘it va nitrobirikmalar ishlab chiqarishning xomashyosi sifatida sanalgan.",
+          "incorrect": "Hozircha noto‘g‘ri. NO2 — azot(IV)-oksid; manbada nitrat kislota ishlab chiqarish bilan bog‘langan. Nitrat kislota azotli o‘g‘it va nitrobirikmalar ishlab chiqarishning xomashyosi sifatida sanalgan.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "NO2 — azot(IV)-oksid; manbada nitrat kislota ishlab chiqarish bilan bog‘langan. Nitrat kislota azotli o‘g‘it va nitrobirikmalar ishlab chiqarishning xomashyosi sifatida sanalgan.",
+            "fact_ids": [
+              "nitrogen"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-7-uz-2017",
+                "book_title": "Kimyo",
+                "authors": [
+                  "I.R. Asqarov",
+                  "N.X. To‘xtaboyev",
+                  "K.G‘. G‘opirov"
+                ],
+                "year": 2017,
+                "file_name": "kimyo_7_uzb.pdf",
+                "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+                "topic_id": "ch7-paragraph37",
+                "topic_title": "Eng muhim oksidlarning ishlatilishi",
+                "paragraph": 37,
+                "printed_pages": [
+                  108
+                ],
+                "pdf_pages": [
+                  55
+                ],
+                "regions": [
+                  "left"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch7-paragraph37-page108"
+              }
+            ]
+          }
+        ],
+        "expected": "NO2"
+      },
+      "fact_ids": [
+        "nitrogen"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-7-uz-2017",
+          "book_title": "Kimyo",
+          "authors": [
+            "I.R. Asqarov",
+            "N.X. To‘xtaboyev",
+            "K.G‘. G‘opirov"
+          ],
+          "year": 2017,
+          "file_name": "kimyo_7_uzb.pdf",
+          "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+          "topic_id": "ch7-paragraph37",
+          "topic_title": "Eng muhim oksidlarning ishlatilishi",
+          "paragraph": 37,
+          "printed_pages": [
+            108
+          ],
+          "pdf_pages": [
+            55
+          ],
+          "regions": [
+            "left"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch7-paragraph37-page108"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch7-paragraph20"
+  ]
+}

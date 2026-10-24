@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph40.json",
+  "lesson_sha256": "521ff5afcae14d1af4913cca6319605d9bae4564a976d946202eea076cc8e909",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Original111–112 read; paragraph41 begins113. All equations atom-checked;physical gas/precipitation symbols are taught by recognition,not silently added to the current plain-equation input grammar.",
+    "Partial neutralisation retains Mg(OH)Cl and CaHPO4 supplied species/ratios. No automatic assumption of a unique neutral salt for the8gNaOH/19gH2SO4 exercise.",
+    "No metal/water,corrosive reagent,heating or indicator experiment. Indicator table is the supplied contextual observation,not a universal concentration-independent prediction.",
+    "Final copy/answer review: expected formulas and equations individually atom-checked; held gas-concentration,absolute-occurrence and gemstone-host claims remain in review metadata only. Learner content contains no unreviewed correction."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph40-page111",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph40",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 111,
+      "pdf_page": 56,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "c825ec0eb9f15930bf34e896f42819750f38e22269e69ad953dc825cdc993308",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph40-page112",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph40",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 112,
+      "pdf_page": 57,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "a6c13a9fc647a20170eac83626097045f7c027289ed487c7cf06498e39beb913",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

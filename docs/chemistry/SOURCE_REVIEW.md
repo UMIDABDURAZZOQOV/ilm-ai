@@ -346,3 +346,32 @@ their exact source identities. Each displayed material equation atom-checked.
 Open review now one scientific blocker plus13 scoped editorial issues. Seven
 chapter-review anchors integrated; source mapping is not full-course readiness
 or independent teacher certification. Existing source-only rules remain in force.
+
+
+## Batch10 image review — 2026-10-24
+
+§37:107–108;§38:109;§39:110;§40:111–112;§41:113–114 before§42 heading.
+PDF54–58 left/right images retain hashes. Earlier§20/60 is an explicit source
+context for the overall photosynthesis statement;no isotope routing added.
+
+- **ch7-p37-occurrence-mineral-review**:fixed/current0.03%CO2 conflicts with
+  same-book§20/61 variable wording;the unqualified NO2 absence claim lacks scope.
+  Neither becomes an answer. Grade7/108 quartz gemstone list conflicts with
+  supplied grade9§27/130–131 corundum/Al2O3 list. Both disputed assignments held.
+- **ch9-p27-gem-and-equation-review**:same cross-book host conflict;on130 the
+  printed Al(OH)3+2KOH=KAlO2+2H2O has K2/H5 left and K1/H4 right. No coefficient
+  repair is inserted as a verified key. Grade9 content is still unauthored.
+- Original107 ocean-area numeral was rechecked in a supplemental high-resolution
+  original rendering:375000000km². No guessed digit or new discrepancy was added.
+- All displayed base reaction examples atom-checked. Partial products remain
+  Mg(OH)Cl,CaHPO4 and Cu(OH)Cl. No unique-neutral-salt inference is imposed on
+  the8gNaOH/19gH2SO4 exercise. Existing plain-equation grammar remains explicit.
+- Ca(OH)2 sparse solubility on113 is distinct from insoluble-example list110.
+  No universal not-NaOH/KOH→insoluble rule. NH4OH notation is the book convention,
+  not an isolated-crystal claim;metal–O–H graphics are not universal bond claims.
+- Indicator111 is a specific printed table,not resolution of the held universal
+  soil-indicator issue94. No physical caustic handling,clinical recommendation,
+  pesticide use or invented electrolysis equation in the interactive lessons.
+
+One scientific blocker and15 scoped editorial issues remain open. The holds gate
+readiness while separately verified material can continue in book order.

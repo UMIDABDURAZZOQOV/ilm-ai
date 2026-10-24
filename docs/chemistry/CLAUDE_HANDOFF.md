@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-41 reviewed lessons through grade7 §36, including practical1–5;227 remain. All
+46 reviewed lessons through grade7 §41, including practical1–5;222 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next teaching entry is grade7 §37,printed107–109,then §38–41 in book order.
-Seven earlier chapter-review anchors are integrated with actual source identity;
-do not double-count or mislabel them.
+Next teaching entry is grade7 §42,printed114–116,then §43,§44,practical6,§45.
+Seven earlier chapter-review anchors retain their actual source identity.
+Do not double-count or mislabel them.
 
 ## Review and development notes
 
@@ -136,3 +136,25 @@ New held contexts:universal soil-indicator colour94,hot water-vapour state98,
 Fr state100,Fe/O percentage precision104. Together with previous holds there
 are13 scoped editorial issues plus the grade9 scientific blocker. None is
 silently repaired or promoted into verified teaching/keys. Read SOURCE_REVIEW.md.
+
+
+## Batch10 oxide applications and bases
+
+§37–41 adds29 cards/43 questions. Source37 gas constancy/absolute occurrence and
+gemstone-host assignments are held. Grade9§27/130–131 was visually compared with
+grade7/108;the incompatible host lists and unbalanced Al(OH)3/KOH equation are
+explicit review issues,not corrected from memory. Total15 editorial issues plus
+one scientific blocker. No source-complete or teacher-certified claim.
+
+Base formulas preserve parentheses;NH4OH is the supplied notation convention.
+Partial neutralisation retains Mg(OH)Cl/CaHPO4 and Cu(OH)Cl products. The current
+equation editor accepts plain material equations,not ↑↓ annotations. Indicator
+and precipitate observations are recognition tasks. No reagent/heating/exposure
+or home experiment. Ca(OH)2 ratio uses the printed1.56g/1l water at20°C;
+the original half-water question expects0.78g without inventing a solution density.
+
+
+`import_reviewed_lessons(db)` validates the full explicit index once per call,
+before storing anything. CLI,synthetic preview and test fixture use this safe
+batch path. It accepts no caller documents and caches nothing. Per-row published
+immutability remains unchanged. `import_lesson` still rejects changed documents.

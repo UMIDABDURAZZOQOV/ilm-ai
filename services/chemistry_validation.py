@@ -44,6 +44,8 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-7': 'ch7-review4-water-vapour-state',
     'ch7-paragraph33': 'ch7-p33-francium-state-review',
     'ch7-paragraph34': 'ch7-p34-iron-percentage-precision',
+    'ch7-paragraph37': 'ch7-p37-occurrence-mineral-review',
+    'ch9-paragraph27': 'ch9-p27-gem-and-equation-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -300,6 +302,14 @@ def validate_lesson(catalog, lesson, review):
             require(not any(re.search(r'(?<![0-9])(?:72[.,]2|27[.,]8)(?![0-9])', a)
                             for a in [f['claim'], *f['verified_answers']]),
                     'unresolved_iron_percentage_cannot_be_a_premise')
+        if any(r['topic_id'] in {'ch7-paragraph37', 'ch9-paragraph27'} for r in f['source_refs']):
+            require(not any(any(name in a.casefold() for name in ('ametist', 'sapfir', 'yoqut', 'rubin'))
+                            for a in [f['claim'], *f['verified_answers']]),
+                    'unresolved_gem_host_cannot_be_a_premise')
+        if any(r['topic_id'] == 'ch9-paragraph27' for r in f['source_refs']):
+            require(not any(('Al(OH)3' in a or 'Al(OH)₃' in a) and 'KOH' in a
+                            for a in f['verified_answers']),
+                    'unresolved_aluminium_koh_equation_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

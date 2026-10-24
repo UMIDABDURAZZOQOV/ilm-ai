@@ -32,14 +32,14 @@ def main():
         return
     os.environ.update(DATABASE_URL=args.database_url,ENVIRONMENT="test",
                       CHEMISTRY_PREVIEW_ENABLED="true", AUTH_STORAGE="database")
-    from services.chemistry_curriculum import import_lesson, install_schema
+    from services.chemistry_curriculum import import_reviewed_lessons, install_schema
     from services.db import Base, engine, SessionLocal
     Base.metadata.create_all(engine)
     if args.install_schema:
         install_schema(engine)
     with SessionLocal.begin() as db:
-        for document in lessons:
-            print(import_lesson(db, document))
+        for result in import_reviewed_lessons(db):
+            print(result)
 
 
 if __name__ == "__main__":

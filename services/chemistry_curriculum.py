@@ -33,6 +33,22 @@ def import_lesson(db, document):
     digest = fingerprint(document)
     if reviewed is None or fingerprint(reviewed) != digest:
         raise ValueError("only_explicit_unchanged_reviewed_lessons_may_be_imported")
+    return _store_reviewed_lesson(db, document, digest)
+
+
+def import_reviewed_lessons(db):
+    """Validate the entire pinned index before storing any reviewed snapshot.
+
+    No caller-supplied document or validation bypass is accepted. Revalidate on
+    every invocation; do not cache mutable documents or on-disk evidence.
+    """
+    require_local(db.get_bind())
+    documents = load_lessons()
+    return [_store_reviewed_lesson(db, document, fingerprint(document))
+            for document in documents]
+
+
+def _store_reviewed_lesson(db, document, digest):
     existing = db.get(ChemistryLesson, document["key"])
     if existing is not None:
         if (existing.content_sha256 != digest or existing.revision != document["revision"]

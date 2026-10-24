@@ -69,12 +69,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-paragraph34` | paragraph 34 | Oksidlarning tarkibi, tuzilishi va nomlanishi | 102–104 | 52:left – 53:left | 102 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph33 |
 | `ch7-paragraph35` | paragraph 35 | Oksidlarning toifalanishi | 104–105 | 53:left – 53:right | 104 | reviewed local lesson | ch7-paragraph34 |
 | `ch7-paragraph36` | paragraph 36 | Oksidlarning olinishi va xossalari | 105–107 | 53:right – 54:right | 105 | reviewed local lesson | ch7-paragraph35 |
-| `ch7-paragraph37` | paragraph 37 | Eng muhim oksidlarning ishlatilishi | 107–109 | 54:right – 55:right | 107 | not_authored | ch7-paragraph36 |
+| `ch7-paragraph37` | paragraph 37 | Eng muhim oksidlarning ishlatilishi | 107–109 | 54:right – 55:right | 107 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph36 |
 | `ch7-section5-3` | section 5.3 | Asoslar | 109–114 | 55:right – 58:left | 109 | covered_by_child_topics | — |
-| `ch7-paragraph38` | paragraph 38 | Asoslarning tarkibi, tuzilishi va nomlanishi | 109–110 | 55:right – 56:left | 109 | not_authored | ch7-paragraph37 |
-| `ch7-paragraph39` | paragraph 39 | Asoslarning toifalanishi | 110–111 | 56:left – 56:right | 110 | not_authored | ch7-paragraph38 |
-| `ch7-paragraph40` | paragraph 40 | Asoslarning olinishi va xossalari | 111–113 | 56:right – 57:right | 111 | not_authored | ch7-paragraph39 |
-| `ch7-paragraph41` | paragraph 41 | Eng muhim asoslarning ishlatilishi | 113–114 | 57:right – 58:left | 113 | not_authored | ch7-paragraph40 |
+| `ch7-paragraph38` | paragraph 38 | Asoslarning tarkibi, tuzilishi va nomlanishi | 109–110 | 55:right – 56:left | 109 | reviewed local lesson | ch7-paragraph37 |
+| `ch7-paragraph39` | paragraph 39 | Asoslarning toifalanishi | 110–111 | 56:left – 56:right | 110 | reviewed local lesson | ch7-paragraph38 |
+| `ch7-paragraph40` | paragraph 40 | Asoslarning olinishi va xossalari | 111–113 | 56:right – 57:right | 111 | reviewed local lesson | ch7-paragraph39 |
+| `ch7-paragraph41` | paragraph 41 | Eng muhim asoslarning ishlatilishi | 113–114 | 57:right – 58:left | 113 | reviewed local lesson | ch7-paragraph40 |
 | `ch7-section5-4` | section 5.4 | Kislotalar | 114–125 | 58:left – 63:right | 114 | covered_by_child_topics | — |
 | `ch7-paragraph42` | paragraph 42 | Kislotalar tarkibi, tuzilishi va nomlanishi | 114–116 | 58:left – 59:left | 114 | not_authored | ch7-paragraph41 |
 | `ch7-paragraph43` | paragraph 43 | Kislotalarning toifalanishi | 116–117 | 59:left – 59:right | 116 | not_authored | ch7-paragraph42 |

@@ -60,8 +60,7 @@ def main():
     with contextlib.redirect_stdout(output):
         from services.db import Base,engine,SessionLocal
         from services.models import User
-        from services.chemistry_curriculum import import_lesson,install_schema
-        from services.chemistry_validation import load_lessons
+        from services.chemistry_curriculum import import_reviewed_lessons,install_schema
         from services.tokens import create_access_token
         from routers.chemistry_preview import router
     (path/"setup.log").write_text(output.getvalue())
@@ -71,8 +70,7 @@ def main():
         with SessionLocal.begin() as db:
             db.add(User(id=900003,name="Lokal Kimyo sinovi",email="chemistry-qa@example.test",xp_total=0))
     with SessionLocal.begin() as db:
-        for lesson in load_lessons():
-            import_lesson(db,lesson)
+        import_reviewed_lessons(db)
     defines={"CHEMISTRY_PREVIEW":True,"API_URL":f"http://127.0.0.1:{args.port}",
              "CHEMISTRY_TEST_USER_ID":900003,"CHEMISTRY_TEST_TOKEN":create_access_token(900003)}
     (path/"flutter-defines.json").write_text(json.dumps(defines))

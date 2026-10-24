@@ -319,3 +319,33 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   ionic/reaction-prediction engine is claimed.
 - No fresh web/native/browser/IME/TalkBack/teacher/full-backend/PostgreSQL suite,
   production/main/real-user/other-subject action,PDF/OCR/token upload or AI feature.
+
+
+## Batch10 — 2026-10-24
+
+- §37–41:**46/268 implemented,222 remaining**. Grade7:46/74. Batch29 cards/
+  43 questions (16 MCQ,8 short,3 numeric,10 formula,6 equation). Total312 cards/
+  479 assessments (217 MCQ,101 short,93 numeric,28 formula,40 equation).
+- Full Chemistry **251 passed,1 skipped,1 existing warning,228.75s**. The skip
+  is opt-in PostgreSQL;no fresh PG claim. Initial targeted run had one test-only
+  metadata-path typo (20 others passed);fixed before the full passing run.
+  An earlier slow full run was intentionally interrupted,not counted as passing.
+  Critical Ruff and diff whitespace checks pass. Original§1 byte diff is empty.
+- Full Flutter **486 passed,252s**. No Dart change/new visual certification.
+  Previous clean analysis117.8s and widget captures remain historical evidence.
+- Synthetic real loopback HTTP:preserved41 completions/820XP,passed43 new
+  questions,added100XP once,total46/920XP. Completion replay identical;private
+  grading hidden. Old rows/source snapshots and real Biology users preserved.
+- Added a batch importer to validate the entire pinned index before any write,
+  then import the verified in-memory snapshot. No caller document/skip-validation
+  parameter or persistent cache. Every call revalidates evidence;all per-row
+  immutable-content/assessment checks remain. Fixture,CLI and local QA server
+  use it to avoid repeatedly validating the whole curriculum for each lesson.
+  Tests prove one validation/call,revalidation on repeat,pre-write failure and
+  rejection of a changed stored lesson. Single-document guard remains intact.
+- All817 PDF pages decoded,five SHA identities verified. One scientific hold
+  and15 editorial issues remain visible,including supplied-book gemstone-host
+  conflict and grade9 unbalanced KOH equation. No disputed correction inserted.
+- No new general notation engine,AI,production/main/real-user/other-subject work,
+  PDF/fulltext/OCR/token upload,teacher/native/browser/IME/TalkBack/full-backend
+  or PostgreSQL certification. Whole-course readiness stays false.
