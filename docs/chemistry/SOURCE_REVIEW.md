@@ -135,3 +135,18 @@ mid20 and is excluded from this batch's ?4 claims.
 
 These safety adaptations do not resolve the open grade9 ?40 scientific hold.
 Independent subject-teacher and real laboratory certification remain unclaimed.
+
+
+## Batch03 image review (2026-10-24)
+
+Printed20?29, PDF11:left through PDF15:right, individually inspected. Each new
+lesson has its own page/region image hashes and fact/answer citations. ?8 stops
+on29; ?9 begins on30. Practical3 stops before ?7 starts midway on26.
+Molecular/nonmolecular distinctions are explicit, and a homogeneous mixture is
+not classified as pure simply because it is clear. Practical3 uses only the
+printed flow diagram, recorded quantities/results and report structure.
+The2017 edition's element-distribution/count anecdotes are scoped as that book's
+description. The table's gas density values are not taught as universal20?C data.
+?8 retains101.3kPa water phase conditions and avoids exact0/100?C boundary cases.
+Sublimation/combustion and phosphorus examples are descriptions, never handling
+or execution assignments. MCQ distractors use already taught nearby concepts.

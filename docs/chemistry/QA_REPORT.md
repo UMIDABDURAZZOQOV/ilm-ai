@@ -110,3 +110,20 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
 - No fresh PostgreSQL/full-backend/web/native-device run in this batch. Earlier
   runs above are historical evidence, not rerun claims. Browser/IME/TalkBack and
   independent science-teacher sign-off remain unclaimed.
+
+
+## Batch03 ? 2026-10-24
+
+- Five additional reviewed lessons through grade7 ?8, including practical3:
+  **11/268 implemented,257 remaining**.28 new cards,32 MCQ,17 short-text FRQ,
+  3 numerical FRQ. Prior committed lesson files are unchanged.
+- Complete Chemistry suite now **95 passed,1 existing warning,93.38s**.
+  The initial new test fixture wrongly supplied Biology's stars field to the
+  separate ChemistryProgress model; corrected to best_score_pct and full suite
+  rerun successfully. No runtime/schema change was required.
+- New batch API tests complete and replay all52 new questions, verify sequential
+  unlock and zero replay XP, and preserve the historical synthetic user.
+- Fresh final local SQLite staging imported all11 unchanged reviewed lessons;
+  five source hashes and817-page decode passed again. Critical Ruff passed.
+- Flutter code/contract unchanged in this batch; prior475-test/clean-analysis
+  result is historical evidence, not a new run. No new PG/native/browser claim.

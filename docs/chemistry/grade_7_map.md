@@ -17,12 +17,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-practical02` | practical 2 | Laboratoriya shtativi, spirt lampasi bilan ishlash usullari, alanganing tuzilishini o‘rganish | 12–15 | 7:left – 8:right | 12 | reviewed local lesson | ch7-practical01 |
 | `ch7-paragraph03` | paragraph 3 | Atom-molekular ta’limot. Atom va molekulalarning realligi (mavjudligi). Kimyoviy element, kimyoviy belgi | 15–19 | 8:right – 10:right | 15 | reviewed local lesson | ch7-practical02 |
 | `ch7-paragraph04` | paragraph 4 | Atomlarning o‘lchami. Nisbiy va absolut massa | 19–20 | 10:right – 11:left | 19 | reviewed local lesson | ch7-paragraph03 |
-| `ch7-paragraph05` | paragraph 5 | Kimyoviy modda – atom va molekulalar uyushmasi | 20–22 | 11:left – 12:left | 20 | not_authored | ch7-paragraph04 |
+| `ch7-paragraph05` | paragraph 5 | Kimyoviy modda – atom va molekulalar uyushmasi | 20–22 | 11:left – 12:left | 20 | reviewed local lesson | ch7-paragraph04 |
 | `ch7-molecular` | subtopic  | Molekular va nomolekular moddalar | 21–22 | 11:right – 12:left | 21 | not_authored | — |
-| `ch7-paragraph06` | paragraph 6 | Sof modda va aralashma | 22–25 | 12:left – 13:right | 22 | not_authored | ch7-paragraph05 |
-| `ch7-practical03` | practical 3 | Ifloslangan osh tuzini tozalash | 25–26 | 13:right – 14:left | 25 | not_authored | ch7-paragraph06 |
-| `ch7-paragraph07` | paragraph 7 | Oddiy va murakkab moddalar | 26–28 | 14:left – 15:left | 26 | not_authored | ch7-practical03 |
-| `ch7-paragraph08` | paragraph 8 | Moddaning agregat holatlari | 28–30 | 15:left – 16:left | 28 | not_authored | ch7-paragraph07 |
+| `ch7-paragraph06` | paragraph 6 | Sof modda va aralashma | 22–25 | 12:left – 13:right | 22 | reviewed local lesson | ch7-paragraph05 |
+| `ch7-practical03` | practical 3 | Ifloslangan osh tuzini tozalash | 25–26 | 13:right – 14:left | 25 | reviewed local lesson | ch7-paragraph06 |
+| `ch7-paragraph07` | paragraph 7 | Oddiy va murakkab moddalar | 26–28 | 14:left – 15:left | 26 | reviewed local lesson | ch7-practical03 |
+| `ch7-paragraph08` | paragraph 8 | Moddaning agregat holatlari | 28–30 | 15:left – 16:left | 28 | reviewed local lesson | ch7-paragraph07 |
 | `ch7-paragraph09` | paragraph 9 | Kimyoviy formula va undan kelib chiqadigan xulosalar. Valentlik. Indekslar haqida tushuncha | 30–33 | 16:left – 17:right | 30 | not_authored | ch7-paragraph08 |
 | `ch7-paragraph10` | paragraph 10 | Molekulalarning o‘lchami, nisbiy va absolut massasi. Mol va molar massa. Avogadro doimiysi | 33–35 | 17:right – 18:right | 33 | not_authored | ch7-paragraph09 |
 | `ch7-paragraph11` | paragraph 11 | Moddalarning xossalari: fizik va kimyoviy o‘zgarishlar | 35–36 | 18:right – 19:left | 35 | not_authored | ch7-paragraph10 |
