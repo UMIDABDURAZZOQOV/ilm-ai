@@ -82,13 +82,13 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-practical06` | practical 6 | Sulfat kislota bilan mis (II)-oksid, shuningdek, temir (III)-oksid orasidagi almashinish reaksiyalarini olib borish va reaksiya mahsulotlarini eritmadan ajratish | 121–122 | 61:right – 62:left | 121 | reviewed local lesson | ch7-paragraph44 |
 | `ch7-paragraph45` | paragraph 45 | Eng muhim kislotalarning ishlatilishi | 122–125 | 62:left – 63:right | 122 | reviewed local lesson; scoped editorial review remains open | ch7-practical06 |
 | `ch7-section5-5` | section 5.5 | Tuzlar | 125–141 | 63:right – 71:right | 125 | covered_by_child_topics | — |
-| `ch7-paragraph46` | paragraph 46 | Tuzlar tarkibi, tuzilishi va nomlanishi | 125–127 | 63:right – 64:right | 125 | not_authored | ch7-paragraph45 |
-| `ch7-paragraph47` | paragraph 47 | Tuzlar formulalarining ifodalanishi | 127–129 | 64:right – 65:right | 127 | not_authored | ch7-paragraph46 |
+| `ch7-paragraph46` | paragraph 46 | Tuzlar tarkibi, tuzilishi va nomlanishi | 125–127 | 63:right – 64:right | 125 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph45 |
+| `ch7-paragraph47` | paragraph 47 | Tuzlar formulalarining ifodalanishi | 127–129 | 64:right – 65:right | 127 | reviewed local lesson | ch7-paragraph46 |
 | `ch7-salts` | subtopic  | Tuzlarning toifalanishi | 128–129 | 65:left – 65:right | 128 | not_authored | — |
-| `ch7-paragraph48` | paragraph 48 | Tuzlarning olinishi va xossalari | 129–133 | 65:right – 67:right | 129 | not_authored | ch7-paragraph47 |
-| `ch7-paragraph49` | paragraph 49 | Eng muhim tuzlarning ishlatilishi | 133–135 | 67:right – 68:right | 133 | not_authored | ch7-paragraph48 |
-| `ch7-8` | review  | V bob yuzasidan test topshiriqlari | 135–136 | 68:right – 69:left | 135 | not_authored | — |
-| `ch7-paragraph50` | paragraph 50 | Ekvivalentlik qonuni | 136–141 | 69:left – 71:right | 136 | not_authored | ch7-paragraph49 |
+| `ch7-paragraph48` | paragraph 48 | Tuzlarning olinishi va xossalari | 129–133 | 65:right – 67:right | 129 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph47 |
+| `ch7-paragraph49` | paragraph 49 | Eng muhim tuzlarning ishlatilishi | 133–135 | 67:right – 68:right | 133 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph48 |
+| `ch7-8` | review  | V bob yuzasidan test topshiriqlari | 135–136 | 68:right – 69:left | 135 | integrated source activity in chemistry-7-p49-r1 | — |
+| `ch7-paragraph50` | paragraph 50 | Ekvivalentlik qonuni | 136–141 | 69:left – 71:right | 136 | reviewed local lesson; scoped editorial review remains open | ch7-paragraph49 |
 | `ch7-chapter06` | chapter 6 | Oksidlar, asoslar, kislotalar va tuzlarning o‘zaro genetik bog‘lanishi | 141–147 | 71:right – 74:right | 141 | not_authored | — |
 | `ch7-paragraph51` | paragraph 51 | Oksid, asos, kislota va tuzlar orasida o‘zаro genetik bog‘lanish | 141–143 | 71:right – 72:right | 141 | not_authored | ch7-paragraph50 |
 | `ch7-practical07` | practical 7 | Anorganik birikmalarning eng muhim sinflariga oid bilimlarni umumlashtirish yuzasidan tajribaviy masalalar yechish | 143–145 | 72:right – 73:right | 143 | not_authored | ch7-paragraph51 |

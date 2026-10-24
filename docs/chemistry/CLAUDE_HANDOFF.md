@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-51 reviewed lessons through grade7 §45, including practical1–6;217 remain. All
+56 reviewed lessons through grade7 §50, including practical1–6;212 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next teaching entries are grade7 §46–50 in book order. Then §51,practical7,
-and the16 separate laboratory entries. Seven chapterI–IV reviews are already
-integrated;context reuse does not increase the teaching-entry count.
+Next teaching entries are grade7 §51,practical7,and16 separate laboratory
+entries in book order. Eight chapterI–V review anchors are integrated;do not
+double-count contexts/reviews as extra teaching entries.
 
 ## Review and development notes
 
@@ -182,3 +182,21 @@ The explicit lesson index must already integrate that review in a previous
 manifest. Future,unintegrated,cross-book and same-chapter activity mislabelling
 remain rejected. Exact source title/null paragraph/page and image hashes remain.
 No new learning mechanism or XP rule. Flutter uses the same source-button path.
+
+
+## Batch12 salts and equivalent law
+
+§46–50 adds42 cards/59 questions;chapterV review135–136 belongs to§49 before§50.
+Earlier ch7-6/96 supplies M(NaOH)=40 with its actual null-paragraph review title;
+the original full-neutralisation4g model requires0.05mol H2SO4. Condensed
+CH3COONa and grouped phosphate/basic salt formulas are finite reviewed spellings.
+Hydrate-dot,complex brackets and double salts remain MCQ recognition,not a new
+input grammar or general equivalence/structure engine.
+
+New holds:KJ125;Cu missing from product130 and legacy NaJ/AgJ132;clinical/body
+percentage/saline-density/current-industry scope133–134;sulfur oxide printedCO2,
+fumigation doses,98/3 decimal precision and gas-state/unit/generalisation scope
+137–140. Total23 editorial reviews plus one scientific blocker. Never silently
+repair any of these as a verified key. Equivalent examples are explicitly
+compound/reaction-specific;one-equivalent mass questions use the source's
+worked g models. H3PO4 calculation remains exact98/3,not32.66/32.67 grading.

@@ -25,7 +25,7 @@ def test_batch11_original_order_pages_and_source_review_reuse():
     ref=practical['facts']['copper']['source_refs'][0]
     assert ref['topic_id']=='ch7-1' and ref['paragraph'] is None and ref['printed_pages']==[50]
     assert 'Temir(III)-oksid' in practical['facts']['purpose']['verified_answers']
-    assert len({i for l in load_lessons() for i in l.get('source_activity_ids',[])})==7
+    assert len({i for l in load_lessons()[:51] for i in l.get('source_activity_ids',[])})==7
     state=readiness(load_catalog(),load_lessons()[:51])[0]
     assert state['implemented_lessons']==51 and len(state['remaining_ids'])==23 and not state['course_ready']
 

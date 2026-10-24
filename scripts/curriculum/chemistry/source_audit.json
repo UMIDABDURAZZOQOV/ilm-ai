@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 51,
+  "implemented_lessons": 56,
   "grades": [
     {
       "grade": 7,
@@ -11,13 +11,8 @@
       "laboratories": 16,
       "practicals": 7,
       "source_teaching_entries": 74,
-      "implemented_lessons": 51,
+      "implemented_lessons": 56,
       "remaining_ids": [
-        "ch7-paragraph46",
-        "ch7-paragraph47",
-        "ch7-paragraph48",
-        "ch7-paragraph49",
-        "ch7-paragraph50",
         "ch7-paragraph51",
         "ch7-practical07",
         "ch7-laboratory01",
@@ -55,7 +50,11 @@
         "ch7-p42-acid-notation-valence-review",
         "ch7-p43-basicity-scope-review",
         "ch7-p44-product-scope-review",
-        "ch7-p45-condition-scope-review"
+        "ch7-p45-condition-scope-review",
+        "ch7-p46-legacy-iodide-review",
+        "ch7-p48-copper-iodide-review",
+        "ch7-p49-medical-current-scope-review",
+        "ch7-p50-gas-precision-context-review"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -314,9 +313,9 @@
       "course_ready": false
     }
   ],
-  "integrated_source_activities": 7,
+  "integrated_source_activities": 8,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 19,
+  "open_editorial_review_issues": 23,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

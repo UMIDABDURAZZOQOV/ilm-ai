@@ -380,3 +380,32 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   storage or harmful synthesis procedure. Existing learning/XP/grader unchanged.
 - No production/main/real-user/other-subject/AI/PDF/fulltext/OCR/token upload or
   fresh independent teacher/PG/full-backend certification;all course-ready false.
+
+
+## Batch12 — 2026-10-24
+
+- §46–50/chapterV review:**56/268 implemented,212 remaining**. Grade7:56/74.
+  New42 cards/59 questions:18 MCQ,10 short,12 numeric,11 formula,8 equation.
+  Total393 cards/591 assessments:251 MCQ,122 short,113 numeric,49 formula,
+  56 equation. Eight reviews integrated,not extra teaching entries.
+- Final full Chemistry **306 passed,1 skipped,1 existing warning,221.15s**.
+  Target **29 passed/23.31s**. Initial full run:305 passed/one test-only failure
+  because batch11 counted future review anchors. Fixed its assertion to its own
+  51-lesson slice (batch12 similarly56);final full rerun passes. Critical Ruff
+  clean. Original§1 unchanged;only new manifests and explicit QA/docs changed.
+- Full Flutter **488 passed/94s**. No Dart change in this batch;analysis clean
+ 87.3s and prior200% captures are batch11 evidence,not new native/visual claims.
+- Real HTTP preserved51 completions/1020XP,passed59 new questions,added100XP
+  once,total56/1120XP. Completion replay identical,private grading hidden.
+  Synthetic900003 only;previous immutable source/attempt snapshots preserved.
+- All817 PDF pages decoded,five source SHA identities verified. One scientific
+  blocker and23 scoped editorial issues remain. Missing Cu,legacy iodine,
+  sulfur/CO2 typo,unexplained rounding/state/clinical/current scopes are held.
+- Compound/reaction conditions are explicit. Condensed/grouped formulas are
+  finite reviewed spellings;hydrate-dot/complex/double-salt forms remain
+  recognition. No new ionic/structural/prediction/AI mechanism. Equivalent g
+  questions use the source's worked one-equivalent-mass models,not gas volumes
+  or universal E claims;98/3 is exact,not a silently corrected decimal key.
+- No production/main/real-user/other-subject/PDF/OCR/fulltext/token operation,
+  fresh independent teacher/PG/native/browser/IME/TalkBack/full-backend
+  certification. Whole-course flags remain false.

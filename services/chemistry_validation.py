@@ -50,6 +50,10 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch7-paragraph43': 'ch7-p43-basicity-scope-review',
     'ch7-paragraph44': 'ch7-p44-product-scope-review',
     'ch7-paragraph45': 'ch7-p45-condition-scope-review',
+    'ch7-paragraph46': 'ch7-p46-legacy-iodide-review',
+    'ch7-paragraph48': 'ch7-p48-copper-iodide-review',
+    'ch7-paragraph49': 'ch7-p49-medical-current-scope-review',
+    'ch7-paragraph50': 'ch7-p50-gas-precision-context-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -322,15 +326,27 @@ def validate_lesson(catalog, lesson, review):
             require(not any(('Al(OH)3' in a or 'Al(OH)₃' in a) and 'KOH' in a
                             for a in f['verified_answers']),
                     'unresolved_aluminium_koh_equation_cannot_be_an_answer')
-        if any(r['topic_id'] in {'ch7-paragraph42', 'ch7-paragraph43'} for r in f['source_refs']):
-            require(not any(re.search(r'(?<![A-Za-z])(?:HJ|KJ)(?![A-Za-z])', a)
+        if any(r['topic_id'] in {'ch7-paragraph42', 'ch7-paragraph43', 'ch7-paragraph46', 'ch7-paragraph48'} for r in f['source_refs']):
+            require(not any(re.search(r'(?<![A-Za-z])(?:HJ|KJ|NaJ|AgJ|J[2₂])(?![A-Za-z])', a)
                             for a in [f['claim'], *f['verified_answers']]),
                     'unresolved_legacy_iodine_notation_cannot_be_a_premise')
+        if any(r['topic_id'] in {'ch7-paragraph42', 'ch7-paragraph43', 'ch7-paragraph50'} for r in f['source_refs']):
             held_acid = any(x in f['claim'] for x in ('H3PO3', 'H₃PO₃', 'H3BO3', 'H₃BO₃'))
             require(not held_acid or (not any('negiz' in a.casefold() or 'valent' in a.casefold()
                                             for a in [f['claim'], *f['verified_answers']])
                                       and not any(a in {'1', '2', '3'} for a in f['verified_answers'])),
                     'unresolved_acid_basicity_cannot_be_a_premise')
+        if any(r['topic_id'] == 'ch7-paragraph48' for r in f['source_refs']):
+            values = [a.translate(str.maketrans('₀₁₂₃₄₅₆₇₈₉', '0123456789')).replace(' ', '')
+                      for a in [f['claim'], *f['verified_answers']]]
+            require(not any('CuCl2' in a and 'NaOH' in a and
+                            ('Cu(OH)2' in a or '=(OH)2' in a) for a in values),
+                    'unresolved_missing_copper_equation_cannot_be_a_premise')
+        if any(r['topic_id'] == 'ch7-paragraph50' for r in f['source_refs']):
+            require(not any(re.search(r'(?<![0-9])32[.,]6[67](?![0-9])', a)
+                            or ('oltingugurt' in a.casefold() and ('CO2' in a or 'CO₂' in a))
+                            for a in [f['claim'], *f['verified_answers']]),
+                    'unresolved_equivalent_gas_or_precision_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

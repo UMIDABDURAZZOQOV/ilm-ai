@@ -3522,7 +3522,30 @@
             "record_id": "ch7-paragraph47",
             "printed_page": 127,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p46-legacy-iodide-review",
+              "status": "open_review",
+              "printed_pages": [
+                125
+              ],
+              "pdf_pages": [
+                63
+              ],
+              "regions": [
+                "right"
+              ],
+              "scope": "KJ spelling repeats the unresolved iodine notation;not a current parser key or silently replaced KI.",
+              "withheld_claims": [
+                {
+                  "id": "iodide",
+                  "printed_page": 125,
+                  "reason": "Potassium iodide is printed KJ,while supplied grade8/23 uses I. No hidden notation substitution;the remaining unambiguous salt examples are separate."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -3640,7 +3663,38 @@
             "record_id": "ch7-paragraph49",
             "printed_page": 133,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p48-copper-iodide-review",
+              "status": "open_review",
+              "printed_pages": [
+                130,
+                132
+              ],
+              "pdf_pages": [
+                66,
+                67
+              ],
+              "regions": [
+                "left",
+                "left"
+              ],
+              "scope": "Missing copper in a product and legacy iodine species are held,without inventing a corrected reaction.",
+              "withheld_claims": [
+                {
+                  "id": "missing_copper",
+                  "printed_page": 130,
+                  "reason": "CuCl2+2NaOH=(OH)2+2NaCl omits Cu on the right. Do not silently replace it by a balanced copper-hydroxide product key. Other complete printed equations are separately taught."
+                },
+                {
+                  "id": "legacy_iodine",
+                  "printed_page": 132,
+                  "reason": "130 uses KJ/J2 and132 NaJ/AgJ;legacy notation stays out of formula/equation keys until documented source resolution."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -3680,7 +3734,43 @@
             "record_id": "ch7-8",
             "printed_page": 135,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p49-medical-current-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                133,
+                134
+              ],
+              "pdf_pages": [
+                67,
+                68
+              ],
+              "regions": [
+                "right",
+                "left"
+              ],
+              "scope": "Body percentage,clinical treatment,industrial/mining and physiological-solution volume statements lack present-day/condition scope;not current advice or fabricated density assumptions.",
+              "withheld_claims": [
+                {
+                  "id": "clinical_percentage",
+                  "printed_page": 133,
+                  "reason": "5.5% body salts and self-regulation/treatment wording are not independently reviewed clinical guidance;no body-mass percentage or self-treatment key."
+                },
+                {
+                  "id": "saline_volume",
+                  "printed_page": 134,
+                  "reason": "1l of0.9% solution requires an explicit density/mass convention for exact mass calculations. Do not assume1l=1kg or assign preparation/clinical use."
+                },
+                {
+                  "id": "edition_industry",
+                  "printed_page": 134,
+                  "reason": "Mining/factory and broad iron-sulfide-to-cast-iron wording are edition statements,not independently verified2026 processes/sites. Recognition remains explicitly2017-attributed."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "review",
@@ -3757,7 +3847,53 @@
             "record_id": "ch7-chapter06",
             "printed_page": 141,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch7-p50-gas-precision-context-review",
+              "status": "open_review",
+              "printed_pages": [
+                137,
+                140
+              ],
+              "pdf_pages": [
+                69,
+                71
+              ],
+              "regions": [
+                "right",
+                "left"
+              ],
+              "scope": "Sulfur-oxide CO2 typo,fumigation tasks,acid-H generalisation,unit/state and decimal precision require scoped review;no silent repair or unqualified universal equivalent.",
+              "withheld_claims": [
+                {
+                  "id": "sulfur_carbon_formula",
+                  "printed_page": 140,
+                  "reason": "Exercise6 calls sulfur(IV) oxide CO2 and repeats carbon dioxide for sulfur burning. Earlier supplied58 gives S+O2=SO2. The erroneous exercise is held;no replacement answer silently certified."
+                },
+                {
+                  "id": "fumigation",
+                  "printed_page": 140,
+                  "reason": "Exercises6–7 give pest-control/gas-dose instructions;no physical task or parameterised dose calculation."
+                },
+                {
+                  "id": "phosphate_precision",
+                  "printed_page": 140,
+                  "reason": "98/3 is displayed32.66 without a rounding/truncation rule. Use the exact fraction concept only;neither32.66 nor silently substituted32.67 becomes the expected numeric key."
+                },
+                {
+                  "id": "equivalent_conditions",
+                  "printed_page": 137,
+                  "reason": "Equivalent mass varies with compound/reaction;printed equivalent-volume numbers lack explicit T/P here and unit conventions vary across137–140. No universal fixed equivalent or gas-volume key without separately reviewed state."
+                },
+                {
+                  "id": "all_written_h",
+                  "printed_page": 140,
+                  "reason": "Acid formula divides by written H count as blanket basicity;previous phosphite/boric scope remains unresolved. Restrict any rule to explicit reaction/full-neutralisation examples,not every written H."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch7-chapter06",

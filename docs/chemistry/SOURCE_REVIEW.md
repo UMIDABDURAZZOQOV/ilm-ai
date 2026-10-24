@@ -410,3 +410,41 @@ visually compared for notation only;its science is not silently inserted in7.
 
 One scientific blocker and19 editorial reviews remain open. Source-image review
 and passing software tests are not independent teacher/scientific certification.
+
+
+## Batch12 original salt/equivalent pages — 2026-10-24
+
+Original125–140/PDF63–71 read. §46 uses125–127 before47;§47 uses127–129 before48;
+§48 uses129–132;§49 uses133–134 and chapterV review135–136 before50;§50 uses
+136–140. Earlier chapterIV worked96 keeps its own review identity and evidence.
+
+- **ch7-p46-legacy-iodide-review**:KJ125 is unresolved legacy iodine notation,
+  not a hidden KI substitution. Other source formulas/names are separately used.
+- **ch7-p48-copper-iodide-review**:130 prints CuCl2+2NaOH=(OH)2+2NaCl,missing Cu
+  on the right. Neither this unbalanced line nor a silently repaired copper-
+  hydroxide line becomes a key. Complete Mg full/partial equations131 are
+  separately taught. KJ/J2 on130 and NaJ/AgJ132 remain held legacy species.
+- **ch7-p49-medical-current-scope-review**:5.5% body-salt/self-treatment claims,
+  1l0.9% mass without density and broad/current industrial statements are not
+  clinical advice or exact keys. Mining examples are explicitly2017-attributed;
+  no inferred2026 operating sites/processes or home saline preparation.
+- **ch7-p50-gas-precision-context-review**:140 calls sulfur(IV) oxide CO2 in a
+  sulfur-burning exercise;earlier58 gives S+O2=SO2. The faulty exercise/fumigation
+  doses stay held,not repaired or parameterised. 98/3 is printed32.66 without a
+  precision rule;no32.66 or silent32.67 expected key. Gas-equivalent volumes lack
+  definite T/P here. Unit/reaction/binding context prevents universal E claims.
+  Written-H/basicity is not generalised to the unresolved phosphite/boric cases.
+- School equivalent calculations use explicit source models:Al27/3=9,CuO80/2=40,
+  Cu(OH)2 98/2=49,CuCl2 135/2=67.5. g questions explicitly mean mass of one
+  equivalent amount in that model;no new unit-conversion engine or gas-state
+  assumption. Carbon CO/CO2 example137 is separate from the sulfur typo140.
+- ChapterV review is integrated only into last preceding§49,not§50. Virtual4g
+  NaOH full-neutralisation model uses prior40g/mol and1:2 ratio,not ambiguous
+  partial-neutralisation products. All complete typed material equations checked
+  for atom balance;phase glyphs are not promised as supported input.
+- Hydrate/complex/double-salt forms are source recognition only. Salt graphics
+  are valence representations;no universal covalent-molecule claim. No reagent,
+  mercury/chlorine exposure,heating,pest-control,clinical or physical task.
+
+One scientific blocker and23 editorial reviews remain open;all course-ready
+flags false. This is source-image review,not independent teacher certification.
