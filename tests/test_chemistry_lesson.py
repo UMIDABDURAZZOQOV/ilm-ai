@@ -243,11 +243,12 @@ def test_parallel_completes_are_atomic_and_once_only(chemistry):
 
 def test_missing_source_prerequisite_never_unlocks_later_import(chemistry):
     client,factory,_=chemistry
+    gap_sequence=max(l['sequence'] for l in load_lessons() if l['grade']==7)+2
     with factory.begin() as db:
-        db.add(ChemistryLesson(key='test-only-gap',subject='kimyo',grade=7,sequence=3,revision=1,
+        db.add(ChemistryLesson(key='test-only-gap',subject='kimyo',grade=7,sequence=gap_sequence,revision=1,
             topic_id='test-only-gap',content_sha256='0'*64,title='Synthetic test gap',content={'source_refs':[]}))
     rows=client.get(PREFIX+'/catalog').json()['lessons']
-    assert rows[1]['state']=='locked'
+    assert next(r for r in rows if r['key']=='test-only-gap')['state']=='locked'
     r=client.post(PREFIX+'/lessons/test-only-gap/start',json={'assessment_version':2,'request_id':str(uuid4())})
     assert r.status_code==403
 

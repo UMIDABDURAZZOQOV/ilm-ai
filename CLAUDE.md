@@ -2782,3 +2782,12 @@ preview darsi: 8 nazariya kartasi, 9 MCQ, 3 qisqa FRQ. Qolgan267 mavzu tayyor
 dars emas; barcha course-ready belgisi false. Keyingi manba §2, 9-bet/PDF5:o‘ng.
 Joriy holat va haqiqiy test natijalari: `docs/chemistry/CURRICULUM_PROGRESS.md`
 va `docs/chemistry/QA_REPORT.md`. Production import, main merge va deploy yo‘q.
+
+
+### Kimyo continuation, 2026-10-24
+
+User authorized automatic source-reviewed 5?10 lesson batches without repeated
+approval through grades7?11. Latest state overrides the first-lesson-only note:
+see docs/chemistry/CHECKPOINT.md and CURRICULUM_PROGRESS.md. ?2 is substance
+properties (printed9?10), safety is practical1 (10?12). Preserve original ?1.
+No main merge, production operation, other-subject branch edit or AI feature.

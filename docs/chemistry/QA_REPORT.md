@@ -79,7 +79,34 @@
 
 The isolated adapters use the pinned Physics common v2 contract and existing ILM
 AI source/choice/feedback/result/exit components; no production FRQ capability or
-completed Chemistry7–11 course is claimed. Exact progress remains1/268.
+completed Chemistry7–11 course is claimed. That earlier checkpoint was1/268; see latest batch below.
 
 No production data access, source PDF upload, main merge or deployment.
 The scientific review queue is open; see SOURCE_REVIEW.md.
+
+
+## Batch02 ? 2026-10-24
+
+- Six reviewed lessons total (five newly authored): ?2, practical1, practical2,
+  ?3, ?4; source order and ?1 bytes preserved. New batch:30 cards,32 MCQ,
+  12 short-text FRQ,8 numerical FRQ, one formula and one worked example.
+- Chemistry backend suite: **93 passed,1 existing Starlette/httpx warning,
+  63.83s**. After the final source-wording edit, batch suite **24 passed,21.90s**.
+  Earlier failing numeric expanded-decimal case fixed and rerun; both comma/dot,
+  scientific notation, explicit units, bounds, invalid expressions, exact long
+  replay fingerprints, ordered unlock, source gaps, once-only XP and preserved
+  synthetic Biology137 XP/3 streak/2 stars are covered.
+- **475 Flutter tests passed,2m02s** (full suite; two new numeric tests).
+  New test uses public payloads captured from the real isolated backend and
+  submits numeric FRQ at320x568 with200% text through the common flow.
+- Static Flutter analysis **No issues found,101.3s**; critical Ruff passed.
+- All five original PDF hashes/page counts rechecked; **817 pages decoded**.
+  Catalogue still327 records/268 teaching entries,6 implemented,262 remaining,
+  one unresolved grade9 source hold; all course-ready flags remain false.
+- Fresh explicit local SQLite `chemistry_staging_batch02_final.db` imported
+  all six reviewed documents. Legacy DB import emits existing missing-users
+  migration diagnostics before fresh-table creation; schema creation and imports
+  succeed. This is disposable staging only, not a production migration result.
+- No fresh PostgreSQL/full-backend/web/native-device run in this batch. Earlier
+  runs above are historical evidence, not rerun claims. Browser/IME/TalkBack and
+  independent science-teacher sign-off remain unclaimed.

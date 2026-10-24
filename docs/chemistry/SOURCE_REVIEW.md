@@ -104,3 +104,34 @@ to the reviewed higher-resolution image, without changing the source PDF hash.
 The reviewed adaptation is original prose, not textbook OCR pasted as lessons.
 Biographical claims are scoped to the supplied2017 edition; no current-status,
 clinical, unverified historical-priority or physical-experiment claim was added.
+
+
+## Batch02 image review (2026-10-24)
+
+Grade7 printed9?20 was inspected from original PDF5:right through PDF11:left.
+The five new evidence files pin every cited region and rendered image SHA.
+Paragraph boundaries are respected: practical1 begins mid printed10; practical2
+begins mid12; paragraph3 begins mid15; paragraph4 begins on19; paragraph5 begins
+mid20 and is excluded from this batch's ?4 claims.
+
+- Practical1, printed11?12: the book contains mercury spill and sodium disposal
+  procedures, acid dilution/transfer and explosive-mixture cautions. These are
+  retained as review flags in evidence; no learner cleanup, disposal, dilution,
+  ignition or hazardous physical execution is prescribed. Safety scenarios use
+  recognition, recorded observations and notebook structure only.
+- Practical2, printed13?14: asbestos mesh is a historical equipment label in this
+  edition, explicitly flagged for qualified laboratory-safety review. The digital
+  lesson does not recommend obtaining or using it. Fuel filling, wick preparation,
+  lighting and heating sequences are not interactive execution tasks.
+- ?3 printed16's introductory molecule generalisation is scoped to molecular
+  examples. The same book's printed21?22 distinguishes nonmolecular substances;
+  the lesson does not claim all substances contain molecules. Historical atomos
+  wording is separated from the taught electron/proton/neutron structure.
+- ?4 printed19: ?/nm exponents, kg exponents, carbon-12 fraction, rounded mass
+  unit and oxygen ratio visually verified. The original 3.32/1.66 worked exercise
+  follows the printed rule and is labelled a hypothetical arithmetic example,
+  not an unverified element measurement. Numeric comparisons use exact Decimal
+  values; no formula evaluation, fuzzy grading or silent unit conversion.
+
+These safety adaptations do not resolve the open grade9 ?40 scientific hold.
+Independent subject-teacher and real laboratory certification remain unclaimed.

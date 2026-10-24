@@ -12,11 +12,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch7-chapter01` | chapter 1 | Kimyoning asosiy tushuncha va qonunlari | 3–54 | 2:right – 28:left | 3 | not_authored | — |
 | `ch7-paragraph01` | paragraph 1 | Kimyo fani va uning vazifalari. Fan sifatida rivojlanish tarixi | 3–9 | 2:right – 5:right | 3 | reviewed local lesson | — |
 | `ch7-scientists` | subtopic  | O‘zbekiston kimyogar olimlarining kimyo faniga qo‘shgan hissalari | 5–9 | 3:right – 5:right | 5 | not_authored | — |
-| `ch7-paragraph02` | paragraph 2 | Modda va uning xossalari | 9–10 | 5:right – 6:left | 9 | not_authored | ch7-paragraph01 |
-| `ch7-practical01` | practical 1 | Kimyo xonasidagi jihozlar bilan ishlashda mehnat xavfsizligi qoidalari bilan tanishish | 10–12 | 6:left – 7:left | 10 | not_authored | ch7-paragraph02 |
-| `ch7-practical02` | practical 2 | Laboratoriya shtativi, spirt lampasi bilan ishlash usullari, alanganing tuzilishini o‘rganish | 12–15 | 7:left – 8:right | 12 | not_authored | ch7-practical01 |
-| `ch7-paragraph03` | paragraph 3 | Atom-molekular ta’limot. Atom va molekulalarning realligi (mavjudligi). Kimyoviy element, kimyoviy belgi | 15–19 | 8:right – 10:right | 15 | not_authored | ch7-practical02 |
-| `ch7-paragraph04` | paragraph 4 | Atomlarning o‘lchami. Nisbiy va absolut massa | 19–20 | 10:right – 11:left | 19 | not_authored | ch7-paragraph03 |
+| `ch7-paragraph02` | paragraph 2 | Modda va uning xossalari | 9–10 | 5:right – 6:left | 9 | reviewed local lesson | ch7-paragraph01 |
+| `ch7-practical01` | practical 1 | Kimyo xonasidagi jihozlar bilan ishlashda mehnat xavfsizligi qoidalari bilan tanishish | 10–12 | 6:left – 7:left | 10 | reviewed local lesson | ch7-paragraph02 |
+| `ch7-practical02` | practical 2 | Laboratoriya shtativi, spirt lampasi bilan ishlash usullari, alanganing tuzilishini o‘rganish | 12–15 | 7:left – 8:right | 12 | reviewed local lesson | ch7-practical01 |
+| `ch7-paragraph03` | paragraph 3 | Atom-molekular ta’limot. Atom va molekulalarning realligi (mavjudligi). Kimyoviy element, kimyoviy belgi | 15–19 | 8:right – 10:right | 15 | reviewed local lesson | ch7-practical02 |
+| `ch7-paragraph04` | paragraph 4 | Atomlarning o‘lchami. Nisbiy va absolut massa | 19–20 | 10:right – 11:left | 19 | reviewed local lesson | ch7-paragraph03 |
 | `ch7-paragraph05` | paragraph 5 | Kimyoviy modda – atom va molekulalar uyushmasi | 20–22 | 11:left – 12:left | 20 | not_authored | ch7-paragraph04 |
 | `ch7-molecular` | subtopic  | Molekular va nomolekular moddalar | 21–22 | 11:right – 12:left | 21 | not_authored | — |
 | `ch7-paragraph06` | paragraph 6 | Sof modda va aralashma | 22–25 | 12:left – 13:right | 22 | not_authored | ch7-paragraph05 |

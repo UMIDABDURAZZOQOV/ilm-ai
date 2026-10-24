@@ -36,3 +36,17 @@ PDFs/OCR/page renders stay private. Drafts never auto-import. Test-only explicit
 allowlist, source validation and isolated DB required; production data/user
 progress, Biology's406 lessons and Physics work remain unchanged. No AI feature,
 main merge or production publication is authorized.
+
+
+## 2026-10-24 continuation ? authoritative latest state
+
+User explicitly authorizes automatic sequential batches of 5?10 lessons through
+all five grades, with source review, validation, staging, tests and a pushed
+checkpoint after each batch. Do not request routine continuation approval.
+Preserve ?1 bytes and commits. Source order is ?2 substance properties, practical1
+safety, practical2 apparatus, ?3 particles/elements, ?4 mass, then ?5 substances.
+The earlier ?2 safety label is a handoff error, not source evidence.
+See CURRICULUM_PROGRESS.md and CHECKPOINT.md for current counts and next source.
+The only new response kind is bounded exact numeric_value with the unit fixed
+in the public prompt; it is not a formula/equation engine. Short-text grading
+remains unchanged. Chemical symbols are case-sensitive MCQ labels.

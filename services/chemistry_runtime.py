@@ -240,6 +240,9 @@ def submit(db, uid, sid, key, answer):
     canonical = answer
     if question["kind"] == "short_text":
         canonical = {"value": normalized_text(spec["expected"] if code == "correct" else answer["value"])}
+    elif question['kind'] == 'numeric_value':
+        from services.chemistry_grading import canonical_number
+        canonical = {'value': canonical_number(answer['value'])}
     digest = fingerprint(canonical)
     old = db.get(ChemistryAnswer, (sid, key))
     if old:

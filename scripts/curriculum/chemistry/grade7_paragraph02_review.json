@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph02.json",
+  "lesson_sha256": "79160dfe0e9f05def2efa8cf2e32a977e266b50922890122f3c06185dd87ac08",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Boundary: printed10 paragraph2 summary ends before practical1 heading.",
+    "Taste/odour are described as textbook properties, never learner identification instructions; numerical values explicitly attributed to supplied edition.",
+    "Original comparison uses printed9 density and boiling values, not outside measurements or new experiments."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph02-page09",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph02",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 9,
+      "pdf_page": 5,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "2e488a7ca377d0b88c160fb7e0990e79f80964d1d4bbeac1a71ea63f0386a3f9",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph02-page10",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph02",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 10,
+      "pdf_page": 6,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "8d9dcff331f6e14662d9b9796f3fb4748716a9ecbf5776297c4051291aa713fd",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph04.json",
+  "lesson_sha256": "a808b271a3dcac79668274f571ddc75d9cb64de76050a2c5a9cd71df55f9dea0",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "All exponents, units and oxygen ratio visually checked on printed19/PDF10:right.",
+    "Uses the supplied edition's rounded 1.66e-27 kg unit, not an imported modern constant. Oxygen ratio is a rounded textbook example.",
+    "Original arithmetic exercise doubles the supplied reference unit to 3.32e-27 kg; derived step is shown and reviewed, not presented as a new real element measurement.",
+    "Printed20 problem values for Fe/H/U are covered as given data; no unsupported rounding precision is imposed on their division results."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-paragraph04-page19",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph04",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 19,
+      "pdf_page": 10,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "1a5ab1850c1c0a3ecf98d046ba2aedd0b461a3fdfa36b9156364b4f403d89ad0",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-paragraph04-page20",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-paragraph04",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 20,
+      "pdf_page": 11,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "d0b8be668d4f45f4e5f2a706b346c77774b3ccacd092333ebcbf3c2e5af5fa17",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

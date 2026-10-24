@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_practical02.json",
+  "lesson_sha256": "1eeb6ad83cc3baab4a84062d9d1fcb46a220dc2338fd564d0f28706f046f6696",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent subject-teacher sign-off",
+  "original_authorship": true,
+  "manifest_encoding": "UTF-8 LF",
+  "scientific_review_notes": [
+    "Printed12 belongs after practical2 heading; printed15 stops before paragraph3 heading.",
+    "Asbestos mesh in printed13 and14 is an edition-specific historical equipment label requiring qualified safety review, not a recommendation to obtain/use it.",
+    "Lamp construction and flame zones are analysed from the textbook diagram only. Fuel filling, wick preparation, lighting and heating are not executable learner instructions.",
+    "Guided digital analysis only; no physical execution, certification, heating, reagent handling or unsupervised experiment."
+  ],
+  "source_pages": [
+    {
+      "review_id": "ch7-practical02-page12",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-practical02",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 12,
+      "pdf_page": 7,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "615ece3a187890b1783d2abb7be0afd30e3307a5f206b620a0b2b6e4f7ab1529",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-practical02-page13",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-practical02",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 13,
+      "pdf_page": 7,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "615ece3a187890b1783d2abb7be0afd30e3307a5f206b620a0b2b6e4f7ab1529",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-practical02-page14",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-practical02",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 14,
+      "pdf_page": 8,
+      "region": "left",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "cd3fea5e18b09164c19239178b22132e49c7cfc49971e3eb5069667f97463c87",
+      "reviewed_on": "2026-10-24"
+    },
+    {
+      "review_id": "ch7-practical02-page15",
+      "book_id": "chemistry-7-uz-2017",
+      "topic_id": "ch7-practical02",
+      "sha256": "a164c51ca0f55b8024e74d8e6daa32a3b10a3d45b33761630add81c47e24ce0a",
+      "printed_page": 15,
+      "pdf_page": 8,
+      "region": "right",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "cd3fea5e18b09164c19239178b22132e49c7cfc49971e3eb5069667f97463c87",
+      "reviewed_on": "2026-10-24"
+    }
+  ]
+}

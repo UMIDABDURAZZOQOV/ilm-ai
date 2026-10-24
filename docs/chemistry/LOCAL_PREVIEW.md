@@ -15,7 +15,8 @@ python scripts/import_chemistry_curriculum.py
 The importer defaults to pure validation. It does not import ORM/database modules,
 even when a production DATABASE_URL is in the environment. Only explicit,
 unchanged reviewed index entries can be applied. The first conceptual lesson
-supports MCQ and bounded short text; formula/equation/numeric parsers are pending.
+supports MCQ and bounded short text. Batch02 adds exact numeric_value FRQ in
+the stated unit. Formula/equation input parsers remain pending.
 
 ## Disposable sandbox
 
@@ -57,7 +58,7 @@ Long Windows integration runs may require test-only
 `ACCESS_TOKEN_EXPIRE_MINUTES=120`; production defaults are unchanged.
 
 ```powershell
-python -m pytest -q tests/test_chemistry_sources.py tests/test_chemistry_lesson.py --basetemp=.local/pytest-chemistry -p no:cacheprovider
+python -m pytest -q tests/test_chemistry_sources.py tests/test_chemistry_lesson.py tests/test_chemistry_batch02.py --basetemp=.local/pytest-chemistry -p no:cacheprovider
 ```
 
 Real PostgreSQL tests use the existing opt-in loopback staging guard and a private

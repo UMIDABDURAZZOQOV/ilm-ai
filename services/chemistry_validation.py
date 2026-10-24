@@ -206,8 +206,8 @@ def validate_lesson(catalog, lesson, review):
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
-    # This first conceptual batch must not be used as a fake formula engine.
-    require(not content["formulas"] and not content["examples"], "unreviewed_calculation_extension")
+    require(type(content['formulas']) is list and type(content['examples']) is list,
+            'reviewed_calculation_lists_required')
     source_refs(content["source_refs"])
     require(content["cards"] and lesson.get("assessments"), "teaching_and_assessments_required")
     taught = set()
@@ -226,6 +226,11 @@ def validate_lesson(catalog, lesson, review):
                 and type(card["body"]) is str and card["body"], "original_card_required")
         taught |= fact_links(card)
     require(taught == facts.keys(), "untaught_fact_in_lesson")
+    for item in content['formulas'] + content['examples']:
+        require(set(item) == {'title', 'body', 'source_refs', 'fact_ids'}
+                and type(item['title']) is str and item['title']
+                and type(item['body']) is str and item['body'], 'reviewed_calculation_item_required')
+        require(fact_links(item) <= taught, 'calculation_fact_not_taught')
     keys, prompts = set(), set()
     for q in lesson["assessments"]:
         require(q.get("key") and q["key"] not in keys, "duplicate_assessment_key")
@@ -237,14 +242,27 @@ def validate_lesson(catalog, lesson, review):
                 and public["prompt"].casefold() not in prompts, "unique_original_prompt_required")
         prompts.add(public["prompt"].casefold())
         require(spec.get("kind") == q["response_kind"], "assessment_kind_mismatch")
-        verified = {normalized_text(a) for fid in ids for a in facts[fid]["verified_answers"]}
-        require(normalized_text(spec["verified_answer"]) in verified, "unverified_answer_key")
+        if q['response_kind'] == 'numeric_value':
+            require(spec['verified_answer'] in {a for fid in ids for a in facts[fid]['verified_answers']},
+                    'unverified_numeric_answer_key')
+        else:
+            # Evidence labels may include printed numerical/symbol labels. This
+            # comparison never grades learner text; the kind-specific grader does.
+            def evidence_key(value):
+                try:
+                    return ('text', normalized_text(value))
+                except ValueError:
+                    return ('literal', value)
+            verified = {evidence_key(a) for fid in ids for a in facts[fid]["verified_answers"]}
+            require(evidence_key(spec["verified_answer"]) in verified, "unverified_answer_key")
         if q["response_kind"] == "concept_selection":
             require(set(public) == {"prompt", "options"}, "private_or_unknown_prompt_field")
             options = public["options"]
             require(len(options) == 4 and all(set(o) == {"id", "label"} for o in options)
                     and len({o["id"] for o in options}) == 4
-                    and len({o["label"].casefold() for o in options}) == 4,
+                    # Chemical symbols are case-sensitive: H, h, Hg and HG
+                    # are distinct displayed choices. IDs remain authoritative.
+                    and len({o["label"].strip() for o in options}) == 4,
                     "four_unique_mcq_options_required")
             correct = [o for o in options if o["id"] == spec["expected"]]
             require(len(correct) == 1 and correct[0]["label"] == spec["verified_answer"], "mcq_answer_fact_mismatch")
@@ -257,6 +275,13 @@ def validate_lesson(catalog, lesson, review):
                     and normalized_text(spec["expected"]) in {normalized_text(a) for a in spec["aliases"]},
                     "reviewed_text_aliases_required")
             sample = {"value": spec["expected"]}
+        elif q['response_kind'] == 'numeric_value':
+            require(set(public) == {'prompt', 'input_label', 'max_length', 'unit'}
+                    and public['max_length'] == 80 and public['input_label']
+                    and type(public['unit']) is str and public['unit'] == spec.get('unit'),
+                    'explicit_numeric_unit_required')
+            require(spec['expected'] == spec['verified_answer'], 'numeric_answer_evidence_mismatch')
+            sample = {'value': spec['expected']}
         else:
             raise ValueError("unreviewed_response_kind")
         require(grade_answer(spec, sample) == "correct", "deterministic_answer_key_failed")
