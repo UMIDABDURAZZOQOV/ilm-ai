@@ -168,3 +168,13 @@ completions/2280XP. Grade7 remains74;grade8 now40. ActualHTTP passed86 answers
 and once-only100XP;Unicode/ASCII−3 replay identical. Public nitrogen/ammonia
 fixtures sanitized. Four source/feedback widgets at320×568/200% in both themes
 pass. No new parser,production publication or real-user operation.
+
+
+## Current continuation after batch24
+
+Current fresh sandbox:ilm-ai-chemistry-batch24-final-qa,loopback8901PID19924.
+It holds119 immutable lessons and119 synthetic900003 completions/2380XP.
+Only114 exact old synthetic progress rows/2280XP were seeded read-only from
+the previous sandbox;the revised five lessons then passed86 actualHTTP answers
+and once-only100XP. Older8900 is historical. Use the fresh private defines file.
+Comma/dot0.833 replay identical. Public nitrate/phosphate fixtures sanitized.

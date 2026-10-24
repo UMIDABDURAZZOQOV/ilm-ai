@@ -8078,7 +8078,45 @@
             "record_id": "ch8-practical03",
             "printed_page": 170,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p39-nitrate-condition-valence-review",
+              "status": "open_review",
+              "printed_pages": [
+                165,
+                166,
+                167,
+                168,
+                169,
+                170
+              ],
+              "pdf_pages": [
+                165,
+                166,
+                167,
+                168,
+                169,
+                170
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "165N bond-valence convention differs from earlier shorthand and oxidation+5.166physical density/phase and catalyst names are source conditions/examples,not universal/current industrial certification.167broad passive-metal reduction products and168169Mg-relative nitrate decomposition scheme require exceptions/conditions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p39-nitrate-condition-valence-review",
+                  "printed_page": 165,
+                  "reason": "Hold numericN valence,unqualified physical constants,universal metal/nitrate reaction predictors. Retain exact acid/base/carbonate,conditionalCu/Pb/Fe and specific nitrate models;diagramNO-return and oxygen-present net model stay distinct. No physical acid/gas/organic ignition instruction."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "practical",
@@ -8123,7 +8161,42 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-practical3-copy-formula-phase-review",
+              "status": "open_review",
+              "printed_pages": [
+                170,
+                171,
+                172,
+                173,
+                174
+              ],
+              "pdf_pages": [
+                170,
+                171,
+                172,
+                173,
+                174
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "172prose says1molNH3 reacts1molNH3,whereas clear equation isNH3+HNO3.174Ca(CN)2 is labeledcalciumcyanamide,formula/name needs review.174NO2 normal-condition gas volume lacks real phase/dimerization scope. Intermediate rounding/percent-to-mass labels need explicit arithmetic units.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-practical3-copy-formula-phase-review",
+                  "printed_page": 170,
+                  "reason": "Use digital models only;no smell/flame/acid operations or fabricated indicator/tube observations. Hold wrongreagent prose andcyanamide identity/fraction. Clear limiting-reagent/loss/composition calculations retained with exact intermediate arithmetic and explicit school gas models."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -8163,7 +8236,39 @@
             "record_id": "ch8-paragraph41",
             "printed_page": 177,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p40-phosphorus-reactivity-model-review",
+              "status": "open_review",
+              "printed_pages": [
+                174,
+                175,
+                176,
+                177
+              ],
+              "pdf_pages": [
+                174,
+                175,
+                176,
+                177
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "174175promotion is a textbook model,not universal mechanism.175apatite/bone/protein composition wording is simplified or broad.176directP+H2→PH3 formation and unqualifiedredP nontoxic claim require review;phase/density values need conditions. Local deposit question177 is not answered by this paragraph.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p40-phosphorus-reactivity-model-review",
+                  "printed_page": 174,
+                  "reason": "Retain clear outerconfiguration,oxidation/allotrope identity and supplied balances;hold directPH3 reaction key,universal protein/bone identity,unconditionalredP safety and invented localdeposit. No physical whiteP synthesis/storage or match friction/mixing procedure."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -8203,7 +8308,51 @@
             "record_id": "ch8-practical04",
             "printed_page": 184,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p41-phosphate-structure-balance-review",
+              "status": "open_review",
+              "printed_pages": [
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184
+              ],
+              "pdf_pages": [
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "179all non-dihydrophosphates insoluble conflicts180alkali/ammonium exceptions;directAgNO3/H3PO4 precipitation lacks acidity scope.180boneCa3(PO4)2 simplification conflicts OH/F sidebar structures;intake/body figures are not clinical advice.1811934blackPdate/182blackP4diagram need review.184P2O5+6KOH=2K3PO4+H2O has unbalanced H/O.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p41-phosphate-structure-balance-review",
+                  "printed_page": 177,
+                  "reason": "Retain molecularP4O10/empiricalP2O5,scoped acid/salt/ion models and exact given-product balances. Hold universal solubility/directacidprecipitation,clinical values,blackP4/date and literalwrongwater coefficient. Clear P/K1:6→0.1mol example separate;no silent repair or inventedCa3P2 hydrolysis."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "practical",
@@ -8248,7 +8397,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-practical4-lime-unknown-evidence-review",
+              "status": "open_review",
+              "printed_pages": [
+                184
+              ],
+              "pdf_pages": [
+                184
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Task1 saysso‘ndirilmagan lime(CaO),where earlier explicit ammonium model usesCa(OH)2. Unknown salt/acid tubes have no actual identities/observations;phosphateacid/Ag precipitation condition issue still applies.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-practical4-lime-unknown-evidence-review",
+                  "printed_page": 184,
+                  "reason": "Five digital tasks;no silentCaO-to-Ca(OH)2 substitution or unique dry mechanism,unknowntubeIDs,unverifiedselectiveprotocol or fielddosage. Given-product Cu/base/carbonate balances and separate sulfate/chloride/ammonium evidence use exact earlier source refs only."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

@@ -1,0 +1,52 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 114,
+  "prior_xp": 2280,
+  "added_lessons": 5,
+  "added_questions": 86,
+  "kinds": {
+    "concept_selection": 19,
+    "short_text": 4,
+    "chemical_formula": 12,
+    "chemical_equation": 25,
+    "numeric_value": 26
+  },
+  "added_xp": 100,
+  "total_xp": 2380,
+  "total_completed_lessons": 119,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_catalog_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public nitrate practical/phosphate catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 119,
+  "remaining_lessons": 149,
+  "backend_tests": {
+    "passed": 739,
+    "skipped": 1,
+    "seconds": 795.29
+  },
+  "targeted_batch_tests": {
+    "passed": 53,
+    "seconds": 19.23
+  },
+  "flutter_tests": {
+    "passed": 510,
+    "seconds": 140
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 72.8
+  },
+  "flutter_model_widgets": {
+    "passed": 2,
+    "seconds": 13
+  },
+  "sandbox": "fresh batch24 loopback8901;114 baseline synthetic progress rows preserved",
+  "preclarification_full_run": "stopped;not counted as pass",
+  "open_source_holds": 1,
+  "open_editorial_issues": 72,
+  "production_operations": false
+}

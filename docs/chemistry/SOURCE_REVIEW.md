@@ -778,3 +778,36 @@ SHA identities audited. Original148–165 read next,not yet authored facts.
 67 editorial scopes plus one scientific blocker;ready false. All817 PDF pages
 and five SHA identities re-audited. Original166–185 read for the next batch;
 not yet counted as authored facts. New issues there require scoped catalog review.
+
+
+## Batch24 source review — 2026-10-25,grade8 sequence41–45
+
+- §39,165–top170:clear HNO3/acid properties,industrial/lab material models,
+  separate diagramNO-return and oxygen-present net model,Cu/Pb/Fe conditions,
+  specific nitrate decompositions,source evidence and application categories.
+  No universal valence/metal/nitrate predictor,physicalacid/gas/ignition recipe
+  or current industrial catalyst certification. Original3.2gCu→NO calculation
+  uses actual earlierCu64/Vm22.4 evidence and explicit product/model conditions.
+- Practical3,170–top174:all major digital activities and clear limiting-reagent,
+  loss,composition/gas exercises. WrongNH3 reagent prose and cyanamide name/
+  formula held. 7000/7140mol gives560kgproduct/8.82kgacidleftover. Loss2.8%
+  uses full intermediate,three-decimal0.833t. No fake sample/indicator data.
+- §40,174–top177:outerconfiguration,oxidation/allotropes/source table,clear
+  supplied material balances and digital electron example30. DirectPH3
+  formation,unconditionalredP safety and missing localdeposit answer held.
+  No physicalwhiteP/CS2/match manufacture or handling procedure.
+- §41,177–top184:P4O10 molecular/P2O5 composition distinction,three acid models,
+  three ion/salt classes,nine genericM patterns,Na/Ca/ammonium examples,clear
+  given-product balances,scoped solubility/recognition,biology/history/arithmetic.
+  Literal unbalanced water184 held;clearP/K1:6:2 model separately retained.
+  No universal bone/clinical claim or inventedCa3P2→PH3 mechanism. Conditional
+  completeP-transfer arithmetic is explicitly a limit,not preparation proof.
+- Practical4,184:five digital tasks. Lime wording is not silently substituted;
+  no tubeIDs/fielddosage/unverifiedselectiveprotocol. OriginalCu given-product
+  balances cite earlier acid/base/carbonate examples;HCl acid formula27/116
+  visually rechecked after the misplaced initial citation was rejected.
+
+72 editorial scopes plus one scientific blocker;ready false. All817 pages and
+five textbook SHA identities audited. Remaining original185–204 teaching and
+205–208 final material read,table199 inspected upright;not yet authored facts.
+New remaining-source issues must be catalogued before later lesson creation.

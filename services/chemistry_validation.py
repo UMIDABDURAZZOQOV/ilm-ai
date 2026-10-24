@@ -98,6 +98,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph36': 'ch8-p36-nitrogen-condition-scope',
     'ch8-paragraph37': 'ch8-p37-ammonia-aqueous-yield-scope',
     'ch8-paragraph38': 'ch8-p38-nitrogen-oxide-valence-state-review',
+    'ch8-paragraph39': 'ch8-p39-nitrate-condition-valence-review',
+    'ch8-practical03': 'ch8-practical3-copy-formula-phase-review',
+    'ch8-paragraph40': 'ch8-p40-phosphorus-reactivity-model-review',
+    'ch8-paragraph41': 'ch8-p41-phosphate-structure-balance-review',
+    'ch8-practical04': 'ch8-practical4-lime-unknown-evidence-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -542,6 +547,21 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-paragraph38' in topic_ids:
             require(not any('N2O5' in a and 'valent' in a.casefold() for a in plain_values),
                     'unresolved_nitrogen_pentoxide_valence_cannot_be_a_premise')
+        if 'ch8-practical03' in topic_ids:
+            require(not any('Ca(CN)2' in a.replace(' ', '') for a in plain_values),
+                    'unresolved_cyanamide_formula_identity_cannot_be_a_premise')
+            require(not any('NH3+NH3' in a.replace(' ', '') for a in plain_values),
+                    'unresolved_ammonia_reagent_copy_cannot_be_a_premise')
+        if 'ch8-paragraph40' in topic_ids:
+            require(not any('2P+3H2=2PH3' in a.replace(' ', '') for a in plain_values),
+                    'unreviewed_direct_phosphine_formation_cannot_be_a_premise')
+            require(not any('qizil fosfor zaharsiz' in a.casefold() for a in plain_values),
+                    'unqualified_phosphorus_safety_claim_cannot_be_a_premise')
+        if 'ch8-paragraph41' in topic_ids:
+            require(not any(re.search(r'P2O5\+6KOH=2K3PO4\+H2O(?![0-9])', a.replace(' ', ''))
+                            for a in plain_values), 'unbalanced_phosphate_water_copy_cannot_be_a_premise')
+            require(not any('barcha fosfatlar erimaydi' in a.casefold() for a in plain_values),
+                    'unqualified_phosphate_solubility_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

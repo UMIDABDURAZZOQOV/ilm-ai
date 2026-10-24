@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-114 reviewed lessons:all74 grade7 entries and grade8 §1–38 plus practical1–2;154 remain. All
+119 reviewed lessons:all74 grade7 entries and grade8 §1–41 plus practical1–4;149 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next five:grade8 §39/practical3/§40/§41/practical4,sequence41–45,original165–184.
-Grade7 all74 entries;grade8 has40/59 (38 paragraphs+practical1–2).
+Next five:grade8 §42/§43/§44/practical5/lab1,sequence46–50,original185–200.
+Grade7 all74 entries;grade8 has45/59 (41 paragraphs+practical1–4).
 Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
-One scientific blocker/67 editorial reviews still gate readiness. Same shared
+One scientific blocker/72 editorial reviews still gate readiness. Same shared
 MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
@@ -459,3 +459,35 @@ notes:.local/batch24_source_notes.md. Before authoring next batch,catalog the
 newly found nitrate/generalization,cyanamide formula,phosphine/directreaction,
 phosphate solubility/structure and unbalanced water184 issues. Do not silently
 repair. All course-ready flags remain false;no independent teacher certificate.
+
+
+## Batch24: nitrates,phosphorus/phosphates and digital practicals
+
+Original165–top184 reviewed;five lessons add68 cards/86 questions. Specific
+nitrate/Cu/Pb/Fe models,industrial source diagrams,allotropes,acid/salt/ion
+models,clear biology/history and original worked arithmetic retained. No new
+parser,AI or production capability. WrongNH3+NH3 prose,Ca(CN)2/name mismatch,
+directP/H2 formation,unconditionalredP safety,phosphate solubility/structure/
+clinical claims and unbalanced water184 remain visible review scopes.
+
+Initial misplacedHCl24/98 citation rejected and replaced by visually checked
+27/116. Final dissociation card clarified that residual acidH count decreases,
+not H+ itself. Pre-clarification full run was stopped,not counted as passed.
+Older119-lesson disposable DB was preserved;fresh batch24-final-qa copied only
+114 exact synthetic baseline progress rows/2280XP after checking lesson SHAs.
+New119 lesson QA then passed86 answers and once-only100XP→2380XP. Comma/dot
+0.833 replay identical;grade7 unchanged. Loopback8901PID19924,private defines
+in the fresh sandbox. Older8900 sandbox remains historical,not current.
+
+Full739 backend and510 Flutter tests pass;two new320×568/200% widgets cover
+decimal practical feedback172173 and clarified ion theory/source178. Five
+captures inspected;no native/IME/TalkBack certificate. All114 prior hashes
+and original§1 unchanged. 72 editorial scopes plus one scientific blocker.
+
+All remaining grade8 teaching pages through204 read;205–208 contents/colophon/
+rental seen. Upright table199 exposes contradictory NH4Cl nitrate-gas positive
+andKNO3 negative rows:hold,no silent swap. Private detailed remaining-source
+notes:.local/grade8_remaining_source_notes.md. Before next authoring,catalog
+commercial nutrient-equivalent/hydrate scopes,16.4/4.117/473.3 arithmetic,
+medical/essentiality/clinical claims in§44,table199 and lab1 condition reviews.
+Source knowledge remains textbook-only;never fill gaps with memory.

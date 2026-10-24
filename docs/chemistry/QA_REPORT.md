@@ -712,3 +712,32 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   Original166–185 additionally read for continuation,not yet authored lessons.
 - No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
   physical experiment,new scientific solver or fresh PG/whole-backend claim.
+
+
+## Batch24 — 2026-10-25
+
+- **119/268 implemented,149 remaining**;grade7:74/74,grade8:45/59.
+  §39/practical3/§40/41/practical4 add68 cards/86 questions (19 MCQ,4 short,
+  26 numeric,12 formula,25 equation). Total921 cards/1357 questions:
+  464/227/356/117/193. All114 prior hashes/original§1 unchanged;critical Ruff
+  anddiff checks pass. Catalog327/268 unchanged;all ready flags false.
+- Final full Chemistry **739 passed,1 skipped,1 existing warning/795.29s**.
+  Final target **53 passed/19.23s**. Earlier target53/21.23s preceded one card
+  wording clarification. Fullv1 was explicitly stopped before editing,not
+  counted as a pass. Finalv2 is the clarified immutable snapshot.
+- Full Flutter **510 passed/140s**;analysis **no issues/72.8s**.
+  Two new actualHTTP-fixture widgets **passed/13s**,320×568/200%,light/dark.
+  Five captures inspected:practical feedback top/source172173 and clarified
+  phosphate dissociation/source178. Scroll and pinned continuation preserved.
+  No runtime parser change,native/browser/IME/TalkBack certificate.
+- Initial misplacedHCl24/98 citation was rejected;actual27/116 image confirmed
+  and all refs/evidence relinked before final import. Dissociation body clarified
+  residual acidH count. Older draft sandbox left immutable;fresh local sandbox
+  seeded114 exact baseline synthetic progress rows and2280XP read-only after
+  SHA checks,then passed86 actualHTTP answers/once-only100XP→119/2380XP.
+  Comma/dot replay identical,grade7 unchanged,rubrics private,six fixtures sanitized.
+- Five textbook SHA identities/all817 pages audited. One scientific blocker and
+  72 editorial scopes remain. Remaining185–208 material and upright table199
+  read for continuation,not counted as authored/teacher-approved knowledge.
+- No production/main/other-subject/AI/PDF/OCR/fulltext/token/real-user operation,
+  physical experiment,new scientific solver or fresh PG/whole-backend claim.

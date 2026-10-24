@@ -56,11 +56,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-paragraph36` | paragraph 36 | Azot | 157–159 | 157:full – 159:full | 157 | reviewed local lesson; scoped editorial review remains open | ch8-practical02 |
 | `ch8-paragraph37` | paragraph 37 | Azotning vodorodli birikmalari | 159–164 | 159:full – 164:full | 159 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph36 |
 | `ch8-paragraph38` | paragraph 38 | Azotning kislorodli birikmalari | 164–165 | 164:full – 165:full | 164 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph37 |
-| `ch8-paragraph39` | paragraph 39 | Nitrat kislota | 165–170 | 165:full – 170:full | 165 | not_authored | ch8-paragraph38 |
-| `ch8-practical03` | practical 3 | “Ammiak olish va u bilan tajribalar o‘tkazish” | 170–174 | 170:full – 174:full | 170 | not_authored | ch8-paragraph39 |
-| `ch8-paragraph40` | paragraph 40 | Fosfor | 174–177 | 174:full – 177:full | 174 | not_authored | ch8-practical03 |
-| `ch8-paragraph41` | paragraph 41 | Fosforning kislorodli birikmalari | 177–184 | 177:full – 184:full | 177 | not_authored | ch8-paragraph40 |
-| `ch8-practical04` | practical 4 | “Azot” guruhchasi elementlari mavzusiga oid tajribaviy masalalar yechish | 184–185 | 184:full – 185:full | 184 | not_authored | ch8-paragraph41 |
+| `ch8-paragraph39` | paragraph 39 | Nitrat kislota | 165–170 | 165:full – 170:full | 165 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph38 |
+| `ch8-practical03` | practical 3 | “Ammiak olish va u bilan tajribalar o‘tkazish” | 170–174 | 170:full – 174:full | 170 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph39 |
+| `ch8-paragraph40` | paragraph 40 | Fosfor | 174–177 | 174:full – 177:full | 174 | reviewed local lesson; scoped editorial review remains open | ch8-practical03 |
+| `ch8-paragraph41` | paragraph 41 | Fosforning kislorodli birikmalari | 177–184 | 177:full – 184:full | 177 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph40 |
+| `ch8-practical04` | practical 4 | “Azot” guruhchasi elementlari mavzusiga oid tajribaviy masalalar yechish | 184–185 | 184:full – 185:full | 184 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph41 |
 | `ch8-paragraph42` | paragraph 42 | Mineral o‘g‘itlar | 185–189 | 185:full – 189:full | 185 | not_authored | ch8-practical04 |
 | `ch8-paragraph43` | paragraph 43 | Eng muhim asosiy mineral o‘g‘itlar | 189–193 | 189:full – 193:full | 189 | not_authored | ch8-paragraph42 |
 | `ch8-paragraph44` | paragraph 44 | Biogen elementlar va ularning tirik organizmlardagi ahamiyati | 193–197 | 193:full – 197:full | 193 | not_authored | ch8-paragraph43 |

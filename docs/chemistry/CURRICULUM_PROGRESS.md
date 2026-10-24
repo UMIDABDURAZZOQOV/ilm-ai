@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 40 | 19 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 45 | 14 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 114 | 154 |
+| Total | 29 | 204 | 49 | 15 | 268 | 119 | 149 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 853 cards; 1271 assessments: 445 concept_selection, 223 short_text, 330 numeric_value, 105 chemical_formula, 168 chemical_equation.
+Total: 921 cards; 1357 assessments: 464 concept_selection, 227 short_text, 356 numeric_value, 117 chemical_formula, 193 chemical_equation.
 
 ## Initial §1
 
@@ -117,17 +117,23 @@ Rates/equilibrium use existing bounded responses and explicit model assumptions.
 Actual chapter06 preface156/top157 retains null paragraph and explicit scope.
 Every lesson includes an original worked example within the reviewed model.
 
+## Batch24: grade8 §39,practical3,§40/41,practical4
+
+5 lessons;68 cards;19 MCQ,4 short,26 numeric,12 formula,25 equation.
+Original examples preserve exact intermediate arithmetic and given conditions.
+
 ## Current continuation
 
-Grade7 all74 entries;grade8 §1–38 plus practical1–2 (40/59),19 remain:
-6 paragraphs,10 laboratories,3 practicals. Whole project154 entries remain.
-Next five:§39,practical3,§40/41,practical4,sequence41–45,original165–184.
-All original5–185 images visually read;185 marks the next§42 boundary.
-Future fact authoring/review pending. Catalog327/268 unchanged;nine grade7
-reviews integrated,not extra entries.
+Grade7 all74 entries;grade8 §1–41 plus practical1–4 (45/59),14 remain:
+3 paragraphs,10 laboratories,1 practical. Whole project149 entries remain.
+Next five:§42/43/44,practical5,lab1,sequence46–50,original185–200.
+Then nine labs2–10,sequence51–59,will finish the mapped grade8 teaching entries.
+All original teaching5–204 and finalcontents/colophon/rental205–208 visually
+read. Rotated table199 also inspected upright. Future authoring/QA pending.
+Catalog327/268 unchanged;nine grade7 reviews integrated,not extra entries.
 
-One grade9 scientific blocker and67 editorial scopes remain. New reviews cover
-industrial yield assumptions,ozone heat/solution-total inconsistencies,chapter
-configuration copy,N2 condition scope,NH3 rate/equilibrium/aqueous models and
-nitrogen-oxide valence/phase conventions. Ready flags false. Original§1,prior
-109 lesson hashes/progress,real users and other subjects preserved.
+One grade9 scientific blocker and72 editorial scopes remain. New reviews cover
+nitrate condition/valence,ammonia reagent/cyanamide copy,phosphorus reactivity/
+safety,phosphate solubility/structure/water balance and practical lime/unknown
+evidence. Ready flags false. Original§1,prior114 lesson hashes/progress,real
+users and other subjects preserved. No independent teacher certificate.
