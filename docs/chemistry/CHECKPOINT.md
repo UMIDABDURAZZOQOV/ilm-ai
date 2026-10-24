@@ -1,54 +1,53 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch10. Continue automatically in source order.
+2026-10-24,batch11. Continue automatically in source order.
 
-- Backend implementation:`9e93f8a57ada614ebe432bc33a8a6927f3df60c6`.
-- Flutter:`524c9f527409ca810685c45f6bc5b35f25ea7cd5` (unchanged10).
+- Backend implementation:`9d03ccfd76c887dbdab036a4c3f36afec88baacb`.
+- Flutter:`efc8c4fd933b765167d0de78adf5c777e6692c7f`.
 - Separate `feat/chemistry-curriculum` branches;Biology/Physics untouched.
-- **46/268 implemented,222 remaining**. Grade7:46/74,28 remaining.
-  Completed through§41,practical1–5,seven chapterI–IV review anchors.
-- Total312 cards/479 assessments:217 MCQ,101 short,93 numeric,28 formula,40
-  equation. New5 lessons:29 cards/43 questions. Reviews are not extra lessons.
-- Full Chemistry251 passed,1 skipped(opt-in PG),1 existing warning/228.75s.
-  Full Flutter486 passed/252s. Critical Ruff/diff checks clean;original§1
-  unchanged. Earlier slow interrupted backend run is not a passing result.
-- Safe `import_reviewed_lessons(db)` validates the full pinned index before any
-  write,once per invocation. No caller documents or cache;per-row immutability
-  retained. CLI,preview and fixture use it;single-document import guard retained.
-- HTTP preserved41 completions/820XP,passed43 new questions,added100XP once;
-  total46/920XP,replay identical,grading private. Only synthetic900003.
+- **51/268 implemented,217 remaining**. Grade7:51/74,23 remaining.
+  Completed through§45,practical1–6,seven chapterI–IV review anchors.
+- Total351 cards/532 assessments:233 MCQ,112 short,101 numeric,38 formula,
+  48 equation. Batch11:39 cards/53 questions. Reviews are not extra lessons.
+- Full Chemistry277 passed,1 skipped(opt-in PG),1 existing warning/207.49s.
+  Target26 passed/17.06s. Full Flutter488 passed/89s;analysis clean87.3s.
+  Two new widgets pass/2s;320×568/200% light source/dark feedback captures read.
+  Critical Ruff/diff checks clean;original§1 unchanged.
+- HTTP preserved46 completions/920XP,passed53 new questions,added100XP once;
+  total51/1020XP,replay identical,grading private. Synthetic900003 only.
 - Private append-compatible sandbox:
   `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,loopback8900.
-  Server restarted with bulk importer. Never overwrite earlier46 manifest keys;
-  use a fresh sandbox if earlier content is revised. Tokens/defines outside Git.
-- All817 PDF pages decoded,five SHA identities verified. One grade9§40 scientific
-  blocker and15 editorial issues remain open. Latest issues:grade7§37 gas/
-  gemstone context and grade9§27 gemstone/unbalanced KOH equation. No invented
-  correction;all whole-course flags false. See SOURCE_REVIEW.md and catalogue.
-- No new production/main/real-user/other-subject/AI/PDF/OCR/token upload or
+  Server PID6720 at this checkpoint;verify command line before any stop/restart.
+  Earlier51 manifest keys immutable;fresh sandbox if revised. Tokens outside Git.
+- Batch importer validates full explicit index once before any write,every call,
+  no caller documents/cache;per-row immutability retained. Prior review context
+  now allowed only when source range/preceding teaching are earlier AND the
+  reviewed index already integrates that review in a previous lesson.
+  Practical6 uses ch7-1/50,null paragraph;it is not relabelled or counted twice.
+- All817 PDF pages decoded,five SHA identities verified. One grade9§40 blocker
+  plus19 scoped editorial issues remain. Latest:§42 notation/valence/keyword
+  gaps,§43 basicity scope,§44 product/condition scope,§45 physical/reactivity
+  scope. No guessed alternate fact or missing definition;course-ready all false.
+- No production/main/real-user/other-subject/AI/PDF/OCR/token upload or fresh
   teacher/native/browser/IME/TalkBack/PG/full-backend certification.
 
 ## Exact continuation
 
-Next **§42**(114–116),§43(116–117),§44(117–120),practical6(121),§45(122–124).
-Original grade7PDF58–63/printed114–125 visually read;PDF61–66 newly rendered,
-126–131 not yet read. Continue source review before writing new facts.
+Next **§46**(125–127),§47(127–129),§48(129–133),§49(133–135),§50(136–141).
+Then§51(141–143),practical7(143–145),sixteen labs(147–155).
+Original pages through125 visually read;PDF64–66/126–131 rendered but unread.
+Render/read132–140 before authoring the full next batch.
 
-Review before batch11:
-- Table115 uses HJ/J legacy iodine spelling;supplied grade8 text locator23 uses
-  HI. Do not silently replace without visual source comparison and review.
-- H3PO3/=PO3 row on115 conflicts with the blanket H-count/valence rule114.
-  Do not infer all written H are replaceable. Boric-acid basicity117 needs
-  scoped review;do not invent an alternate classification from memory.
-- Preserve partial products Mg(OH)Cl/KH2PO4 in119. Cu/concHNO3 gives NO2,
-  not H2;do not generalise the metal activity row to every acid/concentration.
-- Source120 exercise196gCu(OH)2/73gHCl does not justify an unqualified complete-
-  neutralisation product key. Review stoichiometry/product scope first.
-- Practical6 is digital source/report/filtration analysis. No boiling acid,
-  heating,volumes/reagent setup,unprovided colour/crystal observations or lab
-  certification. Do not invent products without an actual reviewed source.
-- §45 applications are recognition only;no corrosive mixing,drying,clinical,
-  explosives synthesis or metal-storage procedure.
+Pending source points:
+-125 table KJ repeats legacy iodine notation;do not silently substitute KI.
+- MnKm placeholder formula125 must not be graded as a literal molecule. Salt
+  graphic lines are textbook valence models,not universal covalent molecules.
+- Source chapterV review anchors around135/140 need exact activity/range/order
+  checks;never attach future review to an earlier non-final teaching lesson.
+- Keep hydrates/basic/acid salts within actually reviewed parser/teaching scope.
+  No generic ionic/structural/hydrate-dot engine,AI or new learning mechanism.
+- Practical/labs remain source-guided digital analysis,not reagent/heating/
+  gas/caustic procedures or invented observations. Preserve both named branches.
 
 Validate/test/local import,update QA/progress/checkpoint,commit/push Chemistry
 batches and continue automatically through all supplied grades.
