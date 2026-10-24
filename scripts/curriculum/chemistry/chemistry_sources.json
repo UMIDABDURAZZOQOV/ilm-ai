@@ -6152,7 +6152,30 @@
             "record_id": "ch8-paragraph17",
             "printed_page": 74,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p16-ionic-pair-scope",
+              "status": "open_review",
+              "printed_pages": [
+                73
+              ],
+              "pdf_pages": [
+                73
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Broad concluding common-electron-pair wording must not erase the separately stated ionic transfer/attraction model. Equal electron populations do not imply equal nuclei/elements.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p16-ionic-pair-scope",
+                  "printed_page": 73,
+                  "reason": "Retain exact K+/Cl-/Ar counts and signs72 plus ionic examples73. No universal all-bonds-share-pairs claim or unrestricted ion parser."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6192,7 +6215,36 @@
             "record_id": "ch8-paragraph18",
             "printed_page": 76,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p17-lattice-property-scope",
+              "status": "open_review",
+              "printed_pages": [
+                74,
+                75,
+                76
+              ],
+              "pdf_pages": [
+                74,
+                75,
+                76
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Initial all-solid molecules wording is limited by later atom/ion lattices and amorphous exception. Molecular lattice examples are explicitly solid-phase;hardness/melting/volatility descriptions lack universal quantitative conditions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p17-lattice-property-scope",
+                  "printed_page": 74,
+                  "reason": "Use exact lattice particle types and NaCl6/diamond4 neighbour models. No all-solids=molecules,no gas at ordinary conditions treated as a crystal,no measured sugar/iodine temperature or physical heating step."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6232,7 +6284,36 @@
             "record_id": "ch8-paragraph19",
             "printed_page": 80,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p18-oxidation-model-scope",
+              "status": "open_review",
+              "printed_pages": [
+                77,
+                78,
+                79
+              ],
+              "pdf_pages": [
+                77,
+                78,
+                79
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Oxidation numbers are assigned in the given bond/electron model,not literal independent ionic charges for all covalent atoms. Ordinary0,peroxide oxygen−1,oxygen/F and metal-hydrideH exceptions cannot be omitted. Group-number and metal-positive statements are not unrestricted all-state rules.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p18-oxidation-model-scope",
+                  "printed_page": 77,
+                  "reason": "Teach scoped neutral-compound weighted sums and explicitly reviewed values. No all-oxygen−2 or literal full transfer for every polar bond."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6272,7 +6353,33 @@
             "record_id": "ch8-paragraph20",
             "printed_page": 83,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p19-redox-role-scope",
+              "status": "open_review",
+              "printed_pages": [
+                80,
+                81
+              ],
+              "pdf_pages": [
+                80,
+                81
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Unqualified oxygen−2 and all-metals-always-reductants language needs free-metal/ion and previously supplied peroxide/F/ordinary-state scope.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p19-redox-role-scope",
+                  "printed_page": 80,
+                  "reason": "Use exact supplied reactions and stated electron-count changes,not a role predictor for any unspecified metal species or oxygen compound."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -6312,7 +6419,39 @@
             "record_id": "ch8-chapter04",
             "printed_page": 89,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p20-reaction-condition-scope",
+              "status": "open_review",
+              "printed_pages": [
+                84,
+                85,
+                87,
+                88
+              ],
+              "pdf_pages": [
+                84,
+                85,
+                87,
+                88
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Nitric-acid products belong to explicit source concentration/given-product models. N2O+1 nitrogen is the worked average bookkeeping value,not an assertion that two atom sites are identical. Unbalanced intermediate working lines are not final equations.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p20-reaction-condition-scope",
+                  "printed_page": 84,
+                  "reason": "Retain exact final material equations and original balancing of supplied-product exercises. No universal nitrate-acid product prediction,individual N2O-site key,charged half-equation parser or physical heating/acid procedure."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch8-chapter04",

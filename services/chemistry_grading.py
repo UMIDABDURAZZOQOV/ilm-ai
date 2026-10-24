@@ -12,7 +12,7 @@ def normalized_number(value):
     """Bounded decimal input, including comma decimals and e notation. No eval."""
     if type(value) is not str or len(value) > 80:
         raise ValueError('invalid_answer')
-    value = value.strip()
+    value = value.strip().replace('\u2212', '-')
     if not value:
         raise ValueError('answer_required')
     if not re.fullmatch(r'[+-]?(?:[0-9]{1,50}(?:[.,][0-9]{1,50})?|[.,][0-9]{1,50})(?:[eE][+-]?[0-9]{1,2})?', value):

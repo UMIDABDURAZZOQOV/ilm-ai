@@ -125,3 +125,11 @@ The same private loopback8900 sandbox now contains89 immutable reviewed lessons
 and89 synthetic900003 completions/1780XP. Grade8 has15 lessons;grade7 still74.
 Sanitized actualHTTP chapter-intro fixtures cover63 and scoped top64;source sheet
 names the chapter and heading boundary,without a false paragraph3.
+
+
+## Current continuation after batch19
+
+Private loopback8900 now has94 immutable reviewed lessons and94 synthetic900003
+completions/1880XP. Grade7 remains74;grade8 has20. Actual HTTP verifies U+2212
+numeric answer and ASCII-minus replay equivalence. Public fixtures cover§18
+negative oxidation input and§20 long redox equation in the common Flutter flow.

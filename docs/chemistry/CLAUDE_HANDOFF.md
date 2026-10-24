@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-89 reviewed lessons:all74 grade7 entries and grade8 §1–15;179 remain. All
+94 reviewed lessons:all74 grade7 entries and grade8 §1–20;174 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,9 +40,9 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next grade8 §16–20,original71–89. Grade7 all74 entries;grade8 has15/59.
+Next grade8 §21–25,original89–111. Grade7 all74 entries;grade8 has20/59.
 Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
-One scientific blocker/41 editorial reviews still gate readiness. Same shared
+One scientific blocker/46 editorial reviews still gate readiness. Same shared
 MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
@@ -319,3 +319,23 @@ Flutter preserves separate scoped source groups and displays the actual heading
 boundary in localized source sheet. Sanitized actualHTTP chapter-intro fixtures
 use fake attempt ID/future expiry,no private keys/tokens. Own sandboxPID15680,
 89 synthetic900003 completions/1780XP on8900;verify command before stopping.
+
+
+## Batch19: oxidation and redox
+
+Original71–89 fully reviewed. Five lessons add44 cards/66 questions,including
+ionic K+/Cl-/Ar comparison,lattice neighbours,peroxide/hydride exceptions,
+electron balances and original balancing of the textbook's given products.
+N2O oxidation+1 is a worked average,not an individual-site assertion. Exact
+nitric-acid products remain tied to their stated equation/conditions. No
+physical heating,gas collection,mercury handling or charged-half-equation engine.
+Five scoped reviews bring46 editorial issues plus one scientific blocker.
+
+Numeric input accepts the mathematical minus U+2212 as a spelling of ASCII
+minus. Raw80-character limit and Decimal grammar still apply;units,expressions,
+charges,superscript minus and en dash remain rejected. Canonicalization treats
+−2/-2 identically for replay. Source facts and numeric keys are unchanged.
+Actual HTTP preserved89 completions/1780XP and added66 answers/100XP once:
+94 completions/1880XP. Own loopback8900 sandbox PID16136;verify command before
+stopping. Earlier94 imported lesson revisions are immutable. Sanitized public
+oxidation/redox fixtures contain fake attempt IDs,not tokens or private rubrics.

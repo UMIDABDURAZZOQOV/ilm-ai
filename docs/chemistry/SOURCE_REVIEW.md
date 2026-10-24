@@ -628,3 +628,28 @@ Original48–71 fully read. §11 ends in51 before§12;§12 ends in53 before§13;
 
 Six new scoped issues bring41 plus one scientific blocker. No silent repair,
 physical experiment or independent teacher/publication certification.
+
+
+## Batch19 source review — grade8 §16–20
+
+Read complete original71–89;§20 ends88 before chapter04/§21 on89.
+
+- §16:K+/Cl-/Ar all18 electrons with different nuclei. Broad shared-pair
+  wording73 does not replace the earlier ionic-transfer distinction.
+- §17:solid molecular lattice examples and amorphous exception retained.
+  NaCl6 neighbours and diamond4 neighbours are separate printed models;
+  no fabricated measured melting point or universal all-solids=molecules claim.
+- §18:neutral weighted sum0,ordinary substances0,peroxide O−1 and metal-hydride
+  H−1 remain explicit. Oxidation number is bookkeeping,not every atom's literal
+  ionic charge. H3PO4 and Al2S3 worked models use exact source pages.
+- §19:unchanged oxidation states in CuO/H2SO4 differ from CuO/H2 redox.
+  Free metal and metal ion are distinguished. Earlier§18/78 supplies explicit
+  hydrogen context for H2/LiH/HgO examples. Electron loss/gain uses existing
+  short/numeric types;no typed charge parser.
+- §20:unbalanced intermediate lines83–84 are working steps. Final given-product
+  equations and original balancing are distinguished. N2O+1 is an average
+  model;nitric-acid products require their exact supplied context. No invented
+  general reaction prediction. All complex equations pass atom/material balance.
+
+Five new editorial scopes bring46 plus one scientific blocker. No silent repair
+or independent teacher certification. All course-ready flags remain false.

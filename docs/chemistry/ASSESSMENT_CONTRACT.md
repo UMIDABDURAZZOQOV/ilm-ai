@@ -85,3 +85,12 @@ review must declare before_first_teaching_heading. Later chapter pages,other
 chapters,chapter-as-review and false paragraph numbers fail closed. Actual
 chapter title/null paragraph is public. This is evidence reuse,not a new lesson,
 new response kind or permission to cite arbitrary pages in the chapter range.
+
+
+## Numeric minus spelling (batch19)
+
+Only numeric_value accepts U+2212 mathematical minus as ASCII minus before the
+existing Decimal grammar. The raw80 bound is checked first. Number value,unit,
+precision and reference answers are unchanged. Both spellings have the same
+canonical replay fingerprint. Units,arithmetic expressions,ionic notation,
+superscript minus and en dash are not accepted by this normalization.

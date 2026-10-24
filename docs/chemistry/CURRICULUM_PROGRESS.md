@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 15 | 44 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 20 | 39 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 89 | 179 |
+| Total | 29 | 204 | 49 | 15 | 268 | 94 | 174 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 580 cards; 895 assessments: 350 concept_selection, 181 short_text, 192 numeric_value, 82 chemical_formula, 90 chemical_equation.
+Total: 624 cards; 961 assessments: 367 concept_selection, 190 short_text, 215 numeric_value, 86 chemical_formula, 103 chemical_equation.
 
 ## Initial §1
 
@@ -91,16 +91,21 @@ orbital concepts use topic-appropriate existing inputs,not a new notation engine
 5 lessons;39 cards;18 MCQ,13 short text,26 numeric,4 formula. Includes all
 donor-acceptor content69–71 and actual chapter03 introduction63–64.
 
+## Batch19: grade8 §16–20
+
+5 lessons;44 cards;17 MCQ,9 short text,23 numeric,4 formula,13 equation.
+Ionic/lattice/oxidation/redox topics reuse existing bounded response types.
+
 ## Current continuation
 
-Grade7 all74 mapped entries covered;grade8 §1–15 implemented (15/59).
-Next grade8 §16–20,original71–89. Whole project179 entries remaining.
+Grade7 all74 mapped entries covered;grade8 §1–20 implemented (20/59).
+Next grade8 §21–25,original89–111. Whole project174 entries remaining.
 Nine grade7 reviews integrated,not extra entries. Chapter preface references
 are source context,not extra teaching keys;catalog remains327/268.
 
-One grade9 scientific blocker and41 scoped editorial issues remain. New scopes
-hold universal ground-state/configuration/valence/metal/octet/fraction claims,
-La/Ce details,unqualified scale rescaling and molecule-geometry conclusions.
-Clear table entries,original supplied models and exact source identity retained.
-All ready flags false. Original§1,prior84 manifests/progress,real users and other
-subjects preserved. Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.
+One grade9 scientific blocker and46 scoped editorial issues remain. New scopes
+distinguish ionic transfer from shared pairs,solid phases from all matter,
+oxidation bookkeeping from literal charge,free metals from their ions and
+given reaction conditions from universal product prediction. Ready flags false.
+Original§1,prior89 manifests/progress,real users and other subjects preserved.
+Measured QA/commits:QA_REPORT.md and CHECKPOINT.md.

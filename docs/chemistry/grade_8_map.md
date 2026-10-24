@@ -28,11 +28,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-chapter03` | chapter 3 | Kimyoviy bog‘lanishlar | 63–89 | 63:full – 89:full | 63 | not_authored; scoped editorial review remains open | — |
 | `ch8-paragraph14` | paragraph 14 | Kimyoviy elementlarning nisbiy elektromanfiyligi | 64–66 | 64:full – 66:full | 64 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph13 |
 | `ch8-paragraph15` | paragraph 15 | Kimyoviy bog‘lanish turlari. Qutbli va qutbsiz kovalent bog‘lanish | 66–71 | 66:full – 71:full | 66 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph14 |
-| `ch8-paragraph16` | paragraph 16 | Ionli bog‘lanish | 71–74 | 71:full – 74:full | 71 | not_authored | ch8-paragraph15 |
-| `ch8-paragraph17` | paragraph 17 | Kristall panjaralar | 74–76 | 74:full – 76:full | 74 | not_authored | ch8-paragraph16 |
-| `ch8-paragraph18` | paragraph 18 | Elementlarning oksidlanish darajasi | 76–80 | 76:full – 80:full | 76 | not_authored | ch8-paragraph17 |
-| `ch8-paragraph19` | paragraph 19 | Oksidlanish-qaytarilish reaksiyalari | 80–83 | 80:full – 83:full | 80 | not_authored | ch8-paragraph18 |
-| `ch8-paragraph20` | paragraph 20 | Oksidlanish-qaytarilish reaksiyalari tenglamalarini tuzish | 83–89 | 83:full – 89:full | 83 | not_authored | ch8-paragraph19 |
+| `ch8-paragraph16` | paragraph 16 | Ionli bog‘lanish | 71–74 | 71:full – 74:full | 71 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph15 |
+| `ch8-paragraph17` | paragraph 17 | Kristall panjaralar | 74–76 | 74:full – 76:full | 74 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph16 |
+| `ch8-paragraph18` | paragraph 18 | Elementlarning oksidlanish darajasi | 76–80 | 76:full – 80:full | 76 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph17 |
+| `ch8-paragraph19` | paragraph 19 | Oksidlanish-qaytarilish reaksiyalari | 80–83 | 80:full – 83:full | 80 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph18 |
+| `ch8-paragraph20` | paragraph 20 | Oksidlanish-qaytarilish reaksiyalari tenglamalarini tuzish | 83–89 | 83:full – 89:full | 83 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph19 |
 | `ch8-chapter04` | chapter 4 | Metallmaslar | 89–130 | 89:full – 130:full | 89 | not_authored | — |
 | `ch8-paragraph21` | paragraph 21 | Metallmaslarning umumiy xossalari | 89–92 | 89:full – 92:full | 89 | not_authored | ch8-paragraph20 |
 | `ch8-paragraph22` | paragraph 22 | Galogenlarning davriy sistemadagi o‘rni. Atom tuzilishi | 92–96 | 92:full – 96:full | 92 | not_authored | ch8-paragraph21 |

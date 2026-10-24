@@ -72,6 +72,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-chapter03': 'ch8-ch03-bonding-intro-scope',
     'ch8-paragraph14': 'ch8-p14-tabulated-scale-scope',
     'ch8-paragraph15': 'ch8-p15-bond-molecule-scope',
+    'ch8-paragraph16': 'ch8-p16-ionic-pair-scope',
+    'ch8-paragraph17': 'ch8-p17-lattice-property-scope',
+    'ch8-paragraph18': 'ch8-p18-oxidation-model-scope',
+    'ch8-paragraph19': 'ch8-p19-redox-role-scope',
+    'ch8-paragraph20': 'ch8-p20-reaction-condition-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -433,6 +438,16 @@ def validate_lesson(catalog, lesson, review):
             require(not any(('CH4' in a or 'CH₄' in a) and 'molekula' in a.casefold()
                             and 'qutbli' in a.casefold() for a in [f['claim'], *f['verified_answers']]),
                     'unreviewed_molecule_geometry_cannot_be_a_premise')
+        if topic_ids & {'ch8-paragraph18', 'ch8-paragraph19'}:
+            require(not any('kislorod' in a.casefold() and 'doimo' in a.casefold()
+                            and re.search(r'[−-]2', a) for a in plain_values),
+                    'unresolved_universal_oxygen_state_cannot_be_a_premise')
+        if 'ch8-paragraph19' in topic_ids:
+            require(not any('barcha metall ionlari' in a.casefold() and 'qaytaruvchi' in a.casefold()
+                            for a in plain_values), 'unresolved_universal_metal_ion_role_cannot_be_a_premise')
+        if 'ch8-paragraph20' in topic_ids:
+            require(not any('N2O' in a and 'har bir' in a.casefold() and '+1' in a
+                            for a in plain_values), 'unreviewed_individual_nitrogen_site_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

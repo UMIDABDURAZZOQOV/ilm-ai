@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 89,
+  "implemented_lessons": 94,
   "grades": [
     {
       "grade": 7,
@@ -50,13 +50,8 @@
       "laboratories": 10,
       "practicals": 5,
       "source_teaching_entries": 59,
-      "implemented_lessons": 15,
+      "implemented_lessons": 20,
       "remaining_ids": [
-        "ch8-paragraph16",
-        "ch8-paragraph17",
-        "ch8-paragraph18",
-        "ch8-paragraph19",
-        "ch8-paragraph20",
         "ch8-paragraph21",
         "ch8-paragraph22",
         "ch8-paragraph23",
@@ -112,7 +107,12 @@
         "ch8-p13-valence-and-isotope-scope",
         "ch8-ch03-bonding-intro-scope",
         "ch8-p14-tabulated-scale-scope",
-        "ch8-p15-bond-molecule-scope"
+        "ch8-p15-bond-molecule-scope",
+        "ch8-p16-ionic-pair-scope",
+        "ch8-p17-lattice-property-scope",
+        "ch8-p18-oxidation-model-scope",
+        "ch8-p19-redox-role-scope",
+        "ch8-p20-reaction-condition-scope"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -300,7 +300,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 41,
+  "open_editorial_review_issues": 46,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

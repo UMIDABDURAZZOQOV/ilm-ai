@@ -578,3 +578,27 @@ The scientific review queue is open; see SOURCE_REVIEW.md.
   evidence routing,not another course entry or new orbital/ionic/AI mechanism.
   No production/main/other-subject/PDF/OCR/fulltext/token/real-user operation or
   fresh teacher/PG/full-backend certification. All course-ready flags false.
+
+
+## Batch19 — 2026-10-24
+
+- Grade8 §16–20:**94/268 implemented,174 remaining**;grade7:74/74,grade8:20/59.
+  New44 cards/66 questions:17 MCQ,9 short,23 numeric,4 formula,13 equation.
+  Total624 cards/961 assessments:367 MCQ,190 short,215 numeric,86 formula,
+  103 equation. Prior89 manifest bytes unchanged;critical Ruff/diff clean.
+- Full Chemistry **505 passed,1 skipped,1 existing warning/846.50s**. Target
+  **44 passed/33.67s**. Includes explicit exceptions,scope guards,every new key,
+  source evidence,ordered attempts,prior progress and numeric-minus replay.
+- Full Flutter **500 passed/214s**. Analysis: **No issues found! (ran in 225.7s)**.
+  Two new actualHTTP widget tests **passed/9s**,320×568/200%,light oxidation and
+  dark redox. Input and feedback captures inspected:long equation wraps within
+  scrolling flow,source and pinned continue remain usable. No native/browser/
+  keyboard/IME/TalkBack certification claimed.
+- Actual HTTP preserved89 completions/1780XP,passed66 questions,added100XP once,
+  total94/1880XP. U+2212 −2 and ASCII -2 replay responses identical. Grade7
+  catalog unchanged,grading private. Sanitized public fixtures have fake IDs
+  and future expiry;no private pre-answer rubrics or tokens.
+- All817 original pages decoded,five SHA identities checked. One scientific
+  blocker plus46 scoped editorial reviews remain. No external science,silent
+  correction,physical experiment,production/main/other-subject/real-user change,
+  raw PDF/OCR/fulltext upload or fresh teacher/PG/full-backend certification.
