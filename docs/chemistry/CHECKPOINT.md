@@ -1,53 +1,70 @@
 # Chemistry continuation checkpoint
 
-2026-10-24,batch11. Continue automatically in source order.
+2026-10-24,batch12. Continue automatically in source order.
 
-- Backend implementation:`9d03ccfd76c887dbdab036a4c3f36afec88baacb`.
-- Flutter:`efc8c4fd933b765167d0de78adf5c777e6692c7f`.
-- Separate `feat/chemistry-curriculum` branches;Biology/Physics untouched.
-- **51/268 implemented,217 remaining**. Grade7:51/74,23 remaining.
-  Completed through§45,practical1–6,seven chapterI–IV review anchors.
-- Total351 cards/532 assessments:233 MCQ,112 short,101 numeric,38 formula,
-  48 equation. Batch11:39 cards/53 questions. Reviews are not extra lessons.
-- Full Chemistry277 passed,1 skipped(opt-in PG),1 existing warning/207.49s.
-  Target26 passed/17.06s. Full Flutter488 passed/89s;analysis clean87.3s.
-  Two new widgets pass/2s;320×568/200% light source/dark feedback captures read.
-  Critical Ruff/diff checks clean;original§1 unchanged.
-- HTTP preserved46 completions/920XP,passed53 new questions,added100XP once;
-  total51/1020XP,replay identical,grading private. Synthetic900003 only.
-- Private append-compatible sandbox:
-  `C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,loopback8900.
-  Server PID6720 at this checkpoint;verify command line before any stop/restart.
-  Earlier51 manifest keys immutable;fresh sandbox if revised. Tokens outside Git.
-- Batch importer validates full explicit index once before any write,every call,
-  no caller documents/cache;per-row immutability retained. Prior review context
-  now allowed only when source range/preceding teaching are earlier AND the
-  reviewed index already integrates that review in a previous lesson.
-  Practical6 uses ch7-1/50,null paragraph;it is not relabelled or counted twice.
-- All817 PDF pages decoded,five SHA identities verified. One grade9§40 blocker
-  plus19 scoped editorial issues remain. Latest:§42 notation/valence/keyword
-  gaps,§43 basicity scope,§44 product/condition scope,§45 physical/reactivity
-  scope. No guessed alternate fact or missing definition;course-ready all false.
-- No production/main/real-user/other-subject/AI/PDF/OCR/token upload or fresh
-  teacher/native/browser/IME/TalkBack/PG/full-backend certification.
+- Backend implementation:`bb51022d5ff4f2587399c5caa3a2894a41bb47d3`.
+- Flutter:`efc8c4fd933b765167d0de78adf5c777e6692c7f` (unchanged12).
+- Both separate `feat/chemistry-curriculum` branches;other subjects untouched.
+- **56/268 implemented,212 remaining**. Grade7:56/74,18 remaining.
+  Through§50,practical1–6,eight chapterI–V review anchors integrated.
+- Total393 cards/591 assessments:251 MCQ,122 short,113 numeric,49 formula,
+  56 equation. Batch12:42 cards/59 questions. Reviews are not extra entries.
+- Final full Chemistry306 passed,1 skipped(opt-in PG),1 existing warning,
+  221.15s. Target29 passed/23.31s. Initial full305 passed/one old test assertion
+  counted future reviews;fixed batch11/12 assertions to their own slices,reran
+  full successfully. Critical Ruff/diff checks clean;original§1 unchanged.
+- Full Flutter488 passed/94s. Latest clean analysis87.3s/widget captures are
+  batch11 evidence;no new Dart/native/browser/IME/TalkBack/teacher/PG claim.
+- Real HTTP preserved51 completions/1020XP,passed59 new questions,added100XP
+  once,total56/1120XP,replay identical,grading private. Synthetic900003 only.
+- Private sandbox:`C:/Users/Page/Desktop/Projects/ilm-ai-chemistry-batch07-final-qa`,
+  loopback8900,server PID14644 at checkpoint;verify before stop. Earlier56
+  manifests immutable. Fresh sandbox if existing key content is revised.
+  Private tokens/defines and old source-copy snapshots remain outside Git.
+- Full-index batch import revalidates once before any write,without caller
+  documents/cache;per-row immutability retained. Earlier review contexts must
+  already be integrated and precede current topic. ChapterV review ch7-8 belongs
+  to§49;M(NaOH)=40 comes from earlier ch7-6/96. Eight integrated reviews total.
+- All817 pages decoded,five source SHA identities verified. One grade9§40
+  scientific blocker plus23 editorial reviews remain. Latest:legacyKJ125,
+  missingCu130/legacyNaJ132,clinical/current/saline-density133–134,sulfurCO2
+  typo/precision/gas/unit scope137–140. No silent correction;all ready flagsfalse.
+- No production/main/real-user/other-subject/AI/PDF/OCR/fulltext/token operation
+  or independent scientific/teacher certification.
 
 ## Exact continuation
 
-Next **§46**(125–127),§47(127–129),§48(129–133),§49(133–135),§50(136–141).
-Then§51(141–143),practical7(143–145),sixteen labs(147–155).
-Original pages through125 visually read;PDF64–66/126–131 rendered but unread.
-Render/read132–140 before authoring the full next batch.
+Next **§51**(141–143),**practical7**(143–144),then16 individual labs147–155.
+Suggested batch13:these first2+labs1–8=10 entries,then batch14:labs9–16=8.
+Original pages141–155/PDF71–78 have now ALL been visually read,including exact
+shared-page headings. PDF75 newly rendered;other existing PNGs not overwritten.
 
-Pending source points:
--125 table KJ repeats legacy iodine notation;do not silently substitute KI.
-- MnKm placeholder formula125 must not be graded as a literal molecule. Salt
-  graphic lines are textbook valence models,not universal covalent molecules.
-- Source chapterV review anchors around135/140 need exact activity/range/order
-  checks;never attach future review to an earlier non-final teaching lesson.
-- Keep hydrates/basic/acid salts within actually reviewed parser/teaching scope.
-  No generic ionic/structural/hydrate-dot engine,AI or new learning mechanism.
-- Practical/labs remain source-guided digital analysis,not reagent/heating/
-  gas/caustic procedures or invented observations. Preserve both named branches.
+Before next authoring:
+- Private helper's non-paragraph key currently always says practical. Add the
+  laboratory key type before labs,without touching earlier indexed lessons.
+  Flutter already recognises practical/laboratory source IDs for labels.
+- §51 complete printed material equations141–142 may be reused;diagram arrows
+  are relationships with conditions,not a universal direct-reaction engine.
+- Practical7:retain all5 inquiry components as digital analysis;unknown black
+  powder143 has no fabricated purity/observation result. Indicator-table virtual
+  data may link actual111/118;CuO/CuCl2/CuOH2 loop144 must use reviewed equations.
+  Clinical Regidron recipe144 is not an assigned treatment/preparation task.
+  Arithmetic144 can use explicit virtual mass-fraction models,with declared
+  rounding. Do not infer solution mass from1l water without convention.
+- ChapterVI review ch7-9(145–146) belongs to practical7.146 CO2-volume question
+  does not specify carbonate/bicarbonate product;record scope before grading.
+- Lab1 table147 is BLANK:do not invent sample densities/colours/measurements.
+  Lab2 odour/ether tasks149 become recognition only,no inhalation instructions.
+- Labs3–5 preserve separate burning/copper/carbonate and combination/decompose/
+  displacement components,using actual earlier equations/source links. No heat,
+  flames,gas generation,acid setup or claimed real observations/certification.
+- Lab7 sample properties are unspecified;no invented fuel efficiency values.
+- Labs8–16 use earlier reviewed equations/formulas and explicitly original
+  digital conditions. No H2 ignition/collection,unprovided CuOH2 colour or
+  clinical doses. Lab15 H2SO4 concentration/heating scope is unspecified;do
+  not grade a universal Cu/H2SO4 product or no-reaction claim.
+- Grade selection in Flutter remains hardcoded7:generalise safely before grade8
+  integration,without changing common learning/XP/prerequisite/replay rules.
 
-Validate/test/local import,update QA/progress/checkpoint,commit/push Chemistry
-batches and continue automatically through all supplied grades.
+Validate/test/local import,update docs/checkpoint,commit/push Chemistry batches
+and continue automatically through grades7–11. No routine approval needed.
