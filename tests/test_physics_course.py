@@ -503,6 +503,15 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (8, 46, 5): ("400", "uA", "e*N/t"),
+        (8, 46, 6): ("6250000000000000", "1", "t*I/e"),
+        (8, 46, 7): ("20000000000000000", "1", "A/U/e"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -519,11 +528,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        152,
-        164,
+        157,
+        159,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 45, 0, 0, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 50, 0, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -533,7 +542,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 27
+    assert len(load_course()) == 28
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -730,7 +739,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 1520
+        assert db.get(User, 1).xp_total == 1570
 
 
 @pytest.mark.parametrize(

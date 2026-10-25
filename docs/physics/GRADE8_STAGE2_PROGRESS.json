@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 152,
-  "remaining": 164,
+  "authored": 157,
+  "remaining": 159,
   "grades": [
     {
       "grade": 6,
@@ -36,16 +36,16 @@
     {
       "grade": 8,
       "source_sections": 60,
-      "authored": 45,
-      "remaining": 15,
-      "cards": 190,
-      "formula_entries": 108,
-      "examples": 53,
-      "assessments": 316,
-      "frq": 111,
+      "authored": 50,
+      "remaining": 10,
+      "cards": 211,
+      "formula_entries": 111,
+      "examples": 58,
+      "assessments": 347,
+      "frq": 114,
       "laboratories": 4,
       "practicals": 2,
-      "next_section": 46
+      "next_section": 51
     },
     {
       "grade": 9,
@@ -90,25 +90,25 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 421,
+  "original_page_checks": 436,
   "date": "2026-10-26",
   "next": {
     "grade": 8,
-    "section": 46,
-    "pdf_page": 129,
-    "printed_page": 129
+    "section": 51,
+    "pdf_page": 145,
+    "printed_page": 145
   },
-  "unique_original_pages_reviewed": 407,
+  "unique_original_pages_reviewed": 421,
   "tests": {
-    "full_backend_passed": 952,
-    "full_backend_opt_in_skipped": 4,
-    "full_backend_warnings": 13,
-    "backend_seconds": 321.04,
+    "physics_biology_passed": 387,
+    "postgres_opt_in_skipped": 2,
+    "backend_seconds": 79.26,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 35.32,
-    "full_flutter_passed": 147,
-    "flutter_analyze": "No issues found (1.6s)",
-    "grade8_public_frq_drafts": 111
+    "postgresql_seconds": 36.64,
+    "flutter_physics_passed": 21,
+    "grade8_public_frq_drafts": 114,
+    "previous_full_backend_passed": 952,
+    "previous_full_flutter_passed": 147
   },
   "native_android": "not_run_sdk_absent"
 }

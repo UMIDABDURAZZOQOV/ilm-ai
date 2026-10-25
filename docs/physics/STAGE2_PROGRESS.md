@@ -1103,3 +1103,33 @@ Keyingi **8-sinf§46«Vakuumda elektr toki»,PDF/bosma129**. §46–50PDF129–1
 Xaritada§49doimiy magnit,§50Bparametrlar;yarimo‘tkazgich darsi kiritilmaydi.
 PDF132maydon≠ionizator,PDF140o‘rtadafieldzero universalclaim cheklansin.
 Oraliq tasdiq kutilmaydi. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi.
+
+
+## 8-sinf §46–50 — 2026-10-26 (Asia/Tashkent)
+
+5dars: vakuumdagi tok, gazlardagi tok, nomustaqil/mustaqil razryad,
+doimiy magnit, magnit induksiya va chiziqlar. 21karta/3formula yozuvi/
+5namuna/31topshiriq (23MCQ+5tartib+3FRQ). §46PDF129–131,§47PDF131–133,
+§48PDF133–136,§49PDF139–143,§50PDF143–145; bosma teng.
+15asl sahifa qayta ko‘rildi:436pagechecks/421noyob.3yangi qoida,jami237.
+Elektron sanoq faqat butun,N>=0,e=1.6e-19C,t/U>0; independent SI oracles.
+
+Maydon ionizator emas,rekombinatsiya yagona yo‘qolish jarayoni deyilmaydi.
+Mustaqil razryad tashqi ionizatorga ehtiyojsiz,elektr manbaiga ehtiyojsiz emas.
+Magnit ranglari universal emas,markazdagi sust tortish B=0 kafolati emas.
+B vektor,T birligi,berk chiziqlar/urinma,shkalasiz aniq tesla to‘qilmaydi.
+§47–50sun’iy formula/FRQ yo‘q. Sahifa145§51boshlanishi:§50inclusive extentda
+bor,lekin§50fakt/kartalarining manbasi sifatida ishlatilmadi.
+Yuqori kuchlanish,ochiq alanga yoki vakuum qurilmasini yig‘ish berilmagan.
+
+Yangi test13passed1.43s. Physics/Biology387passed/2PGopt-in skipped79.26s.
+Actual localPG16 1passed36.64s:157dars/import/reimport/1570XP/replay,
+legacy137XP/3streak/2stars saqlandi. FlutterPhysics21passed30s:114public8FRQ
+320px/200%. Oldfull952backend/147Flutter alohida,bu partiyada full suite
+qayta bajarilmadi. NativeAndroid/mustaqil ekspert/production sinovi yo‘q.
+
+157/316,159qolgan.6:61/61,7:46/46,8:50/60,9:0/59,10:0/45,11:0/45.
+Jami661karta/275formula yozuvi/172namuna/1045topshiriq/335FRQ.
+Keyingi8§51«Yerning magnit maydoni»,PDF/bosma145. §51–55ning145–155asl
+rasmlari va OCR o‘qildi;originaldars matni privateqoralamada,JSONhaliyo‘q.
+Biology406/old6–8/Web/Kimyo/prod/AIExplain saqlandi. Oraliq tasdiq kutilmaydi.

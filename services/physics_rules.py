@@ -24,6 +24,24 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "vacuum_current": rule(
+        "I",
+        ["N", "e", "t"],
+        ["N*e/t", "e*N/t"],
+        "N manfiy bo‘lmagan butun elektronlar soni,e1.6e-19C musbatmodul,t>0;PDF130.",
+    ),
+    "vacuum_count": rule(
+        "N",
+        ["I", "t", "e"],
+        ["I*t/e", "t*I/e"],
+        "Anod toki moduli,e1.6e-19C,Nbutun;PDF131exercise1.",
+    ),
+    "vacuum_work_count": rule(
+        "N",
+        ["A", "U", "e"],
+        ["A/(U*e)", "A/U/e"],
+        "Aelektrishmoduli,U>0,e1.6e-19C,Nbutun;PDF131exercise2.",
+    ),
     "electrolysis_mass_charge": rule(
         "m",
         ["k", "q"],
@@ -1536,6 +1554,23 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name in {"vacuum_current", "vacuum_count", "vacuum_work_count"}:
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_elementary_charge_magnitude")
+        if name == "vacuum_current":
+            count = value("N", "dimensionless")
+            if givens["N"]["unit"] != "1" or count.denominator != 1:
+                raise ValueError("whole_particle_count")
+            return count * e / positive("t", "time"), "current"
+        count = (
+            value("I", "current") * value("t", "time") / e
+            if name == "vacuum_count"
+            else value("A", "energy") / (positive("U", "voltage") * e)
+        )
+        if count.denominator != 1:
+            raise ValueError("whole_particle_count")
+        return count, "dimensionless"
     if name == "electrolysis_mass_charge":
         return positive("k", "electrochemical_equivalent") * value(
             "q", "charge"
