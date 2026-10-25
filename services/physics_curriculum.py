@@ -60,6 +60,7 @@ REVIEWED_BATCHES = {
     "grade8_batch9": (8, 41, 45),
     "grade8_batch10": (8, 46, 50),
     "grade8_batch11": (8, 51, 55),
+    "grade8_batch12": (8, 56, 60),
 }
 # Image-checked continuation missed by the old digital text boundary. Preserve
 # the frozen stage-one archive; permit only this explicitly documented page.
@@ -67,6 +68,8 @@ SOURCE_CONTINUATIONS = {
     ("physics-uz-grade-6", "physics-6-section-32"): {90},
     # Original page112 upper21-mashq continues §39 before chapter-review heading.
     ("physics-uz-grade-8", "physics-8-section-39"): {112},
+    # Original166 upper27-mashq2–5 continues §60 before V chapter review.
+    ("physics-uz-grade-8", "physics-8-section-60"): {166},
 }
 
 # Algebraic alternatives reviewed under the stated source domains. No guessing

@@ -24,6 +24,30 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "lorentz_force": rule(
+        "F",
+        ["q", "v", "B"],
+        ["q*v*B", "B*v*q"],
+        "v B ga TIK,bir jinsli maydon,q=|q|>0,v>=0,B>=0;magnit kuch moduli;PDF155–156.",
+    ),
+    "lorentz_charge": rule(
+        "q",
+        ["F", "v", "B"],
+        ["F/(v*B)", "F/v/B"],
+        "v B ga TIK,F/v/B>0,q=|q|,ishora moduldan aniqlanmaydi;PDF165.",
+    ),
+    "lorentz_speed": rule(
+        "v",
+        ["F", "q", "B"],
+        ["F/(q*B)", "F/q/B"],
+        "v B ga TIK,q=|q|>0,B>0,v modul;PDF166upper27-mashq3.",
+    ),
+    "lorentz_induction": rule(
+        "B",
+        ["F", "q", "v"],
+        ["F/(q*v)", "F/q/v"],
+        "v B ga TIK,q=|q|>0,v>0,B modul;PDF166upper27-mashq2.",
+    ),
     "ampere_force": rule(
         "F",
         ["B", "I", "l"],
@@ -1588,6 +1612,22 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "lorentz_force":
+        return positive("q", "charge") * value("v", "speed") * value(
+            "B", "magnetic_induction"
+        ), "force"
+    if name == "lorentz_charge":
+        return positive("F", "force") / (
+            positive("v", "speed") * positive("B", "magnetic_induction")
+        ), "charge"
+    if name == "lorentz_speed":
+        return value("F", "force") / (
+            positive("q", "charge") * positive("B", "magnetic_induction")
+        ), "speed"
+    if name == "lorentz_induction":
+        return value("F", "force") / (
+            positive("q", "charge") * positive("v", "speed")
+        ), "magnetic_induction"
     if name == "ampere_force":
         return value("B", "magnetic_induction") * value("I", "current") * value(
             "l", "length"

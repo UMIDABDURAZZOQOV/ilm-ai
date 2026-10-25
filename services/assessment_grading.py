@@ -123,6 +123,7 @@ UNITS = {
     "nC": ("charge", Fraction(1, 10**9)),
     "µN": ("force", Fraction(1, 10**6)),
     "nN": ("force", Fraction(1, 10**9)),
+    "pN": ("force", Fraction(1, 10**12)),
     "N*m2/C2": ("coulomb_constant", Fraction(1)),
     "N/C": ("electric_field", Fraction(1)),
     # Grade8 PDF42/48/51: current, resistance, resistivity and square millimetres.
