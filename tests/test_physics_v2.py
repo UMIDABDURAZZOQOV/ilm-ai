@@ -58,9 +58,9 @@ def preview(setup, monkeypatch):
     return client, factory
 
 
-def start(client, n=1, request=None):
+def start(client, n=1, request=None, *, grade=6):
     return client.post(
-        f"{PREFIX}/lessons/physics-6-section-{n}-r1/start",
+        f"{PREFIX}/lessons/physics-{grade}-section-{n}-r1/start",
         json={"assessment_version": 2, "request_id": request or str(uuid4())},
     )
 

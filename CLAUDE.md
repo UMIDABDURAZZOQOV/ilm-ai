@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika7-sinf§1–5:** 5yangi manbali dars/23karta/5misol/32topshiriq/9FRQ; **umumiy66/316,250qolgan**.7-sinf5/46;6-sinf61dars o‘zgarmadi.21originalsahifa qayta ko‘rildi,159umumiy sahifa hash audit;70executable oila. Gradepicker/bibliografiya servergradeparametr bilan va(grade,section,q)oracleidentityoldindan tayyorlandi.117backendPhysics/Biologytestpassed; actualPG1passed14.76s66lesson/import/reimport660XP/legacy137XPsaqlandi. FlutterPhysics19passed/analyze0issue. FullFlutter/buildnatijalari keyingi qaydda. Keyingi **7-sinf§6PDF21/bosma28**; oraliq tasdiq kutilmaydi. `docs/physics/STAGE2_PROGRESS.md` va batchreview — aniq davom. NativeAndroid/ekspert/prodnashr tasdig‘i yo‘q.
+
+
 > **Tasdiqlangan QA — 2026-10-25:** Fizika6-sinf61/61 authored, umumiy61/316 va255qolgan. Tuzatishdan keyingi to‘liq backend **732passed/4opt-in skipped/13existing warning249.54s**, alohida actualPG16 **4passed292.04s**. Flutter143passed/analyze0issue/webrelease51.5s; actualHTTP61/394/88FRQ/610XP va replay. Testlangan backend047c639, Flutterac9b3e0. `docs/physics/GRADE6_VALIDATION.json` va `STAGE2_PROGRESS.md` — saqlangan checkpoint.7-sinfPDF1–7 sourcepreflight bor, ammo authored0; keyingi **§1PDF1/bosma8**. Mustaqil ekspert/nativeAndroid va qolgan255bo‘lim bajarilmagan. Quyidagi pending/failed qaydlari tarixiy; final rerun natijasi shu yerda.
 
 

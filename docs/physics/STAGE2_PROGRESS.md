@@ -14,12 +14,12 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 6 | 61 | 61 | 0 | 254 | 74 | 67 | 394 | 88 | 7 / 1 |
-| 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
+| 7 | 46 | 5 | 41 | 23 | 6 | 5 | 32 | 9 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 61 | 255 | 254 | 74 | 67 | 394 | 88 | 7 / 1 |
+| Jami | 316 | 66 | 250 | 277 | 80 | 72 | 426 | 97 | 7 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
 soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
@@ -441,3 +441,37 @@ Bu bosqich **hali61/316**: grade7dars import qilinmadi. ManbaPDF1–21
 matn/tasvirlari keyingi§1–5 muallifligi uchun qayta ko‘rildi.
 BackendoldPhysics81passed25.12s, multigrade8passed1.22s. Flutter
 analyze0issue; Physics18passed, gradepicker320px/200% regression o‘tdi.
+
+
+## 7-sinf§1–5 — birinchi manbali partiya,2026-10-25
+
+5dars/23karta/6formula yozuvi/5misol/32topshiriq(22konseptual,1tartib,9FRQ).
+Manba PDF/bosma:§1 1–4/8–11;§2 4–7/11–14;§3 7–11/14–18;
+§4 11–18/18–25;§5 19–21/26–28.21asl sahifa matn/tasviri qayta ko‘rildi;
+jami159sahifa originalPDF/text/render hash auditidan o‘tdi.
+`grade7_batch1.json`/`_review.json`.6-sinf9partiya/61dars baytlari saqlandi.
+
+5yangi qoida:klassik bir yo‘nalishli tezliklar, kollinear bir/qarama-qarshi
+ko‘chish modullari, musbat skalyar ko‘paytirish, teng vaqt oraliqlarida
+takroriy yo‘l. Jami70executable oila. Qarama-qarshi branch a≥b; musbat k
+sharti va butun oraliqlar soni tekshiriladi. Vector triangle/subtraction,
+projection, reference frames, material point, path/displacement, coordinate
+dimensions va uniform/straight farqi o‘rgatildi. Musbat k<1 modulni
+kamaytiradi; to‘g‘ri chiziqda orqaga qaytishda yo‘l≠ko‘chish moduli.
+§4ichidagi17–18PDF qo‘shimcha mashqlar ham manba sifatida ko‘rildi;
+bosma24dagi Yer sharqdan g‘arbga aylanadi jumlasi ko‘chirilmagan.
+Tarixiy metre/sekund ta’riflari joriy SI sifatida berilmaydi.
+
+Amaldagi testlar:Physics/source/identity/Biology **117passed34.07s**;
+serverHTTP66dars/replay660XP o‘tdi. Grade-default6API va grade7ning
+prerequisite mustaqilligi tekshirildi. Alohida actual PostgreSQL16
+**1passed14.76s**:barcha66lesson import/reimport,660XP, legacy137XP/3streak/
+2stars saqlandi. Bu PGtest boshqa406kontent regressionini yangidan
+uydirib tasdiqlamaydi; ular tanlangan Biologytestlarda tekshirildi.
+FlutterPhysics **19passed**, yangi9publicFRQ320px/200% draft testi
+o‘tdi; analyze0issue. FullFlutter **145passed**; normalJSreleasebuild natijasi keyingi qaydda.
+
+**Haqiqiy holat66/316;250qolgan.7-sinf5/46,41qolgan.**
+Keyingi **7-sinf§6«To‘g‘ri chiziqli tekis harakat tezligi»,PDF21/bosma28**.
+§6–10PDF21–37 matnlari o‘qildi, rasmlari hali mualliflikdan oldin tekshirilsin.
+Oraliq tasdiq so‘ralmaydi. Kimyo/Biology/veb/prod/PDFtarqatish/AIExplain yo‘q.

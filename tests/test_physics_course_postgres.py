@@ -59,7 +59,7 @@ def test_postgres_all_reviewed_batches_append_without_legacy_changes(
         )
         assert result.returncode == 0, result.stderr
     with factory.begin() as db:
-        assert db.query(CurriculumLessonV2).count() == 61
+        assert db.query(CurriculumLessonV2).count() == 66
         db.add(
             User(
                 id=900003, name="Course QA", email="course-qa@example.test", xp_total=0
@@ -71,12 +71,14 @@ def test_postgres_all_reviewed_batches_append_without_legacy_changes(
     try:
         for document in load_course():
             for lesson in document["lessons"]:
-                issued = start(client, lesson["sequence"])
+                issued = start(client, lesson["sequence"], grade=document["grade"])
                 assert issued.status_code == 200, issued.text
                 attempt = issued.json()
                 for q in lesson["assessments"]:
                     answer = (
-                        correct(q) if lesson["sequence"] < 8 else new_answer(lesson, q)
+                        correct(q)
+                        if document["grade"] == 6 and lesson["sequence"] < 8
+                        else new_answer(lesson, q)
                     )
                     graded = submit(client, attempt, q["key"], answer)
                     assert graded.status_code == 200 and graded.json()["is_correct"], (
@@ -86,7 +88,7 @@ def test_postgres_all_reviewed_batches_append_without_legacy_changes(
                 assert result.status_code == 200 and result.json()["xp_awarded"] == 10
                 assert finish(client, attempt).json() == result.json()
         with factory() as db:
-            assert db.get(User, 900003).xp_total == 610
+            assert db.get(User, 900003).xp_total == 660
             assert (
                 db.get(User, 42).xp_total == 137 and db.get(User, 42).streak_days == 3
             )

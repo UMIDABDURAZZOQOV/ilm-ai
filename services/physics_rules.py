@@ -20,6 +20,36 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "codirectional_speed": rule(
+        "v",
+        ["v1", "v2"],
+        ["v1+v2", "v2+v1"],
+        "Klassik bir to‘g‘ri chiziq/bir yo‘nalish modeli; platforma Yerga, odam platformaga nisbatan;7sinfPDF2/bosma9.",
+    ),
+    "codirectional_length": rule(
+        "s",
+        ["a", "b"],
+        ["a+b", "b+a"],
+        "Ikki bir yo‘nalishli kollinear ko‘chish modullari;7sinfPDF13–14/bosma20–21.",
+    ),
+    "opposed_length": rule(
+        "s",
+        ["a", "b"],
+        ["a-b"],
+        "Qarama-qarshi kollinear ko‘chishlar, a>=b>=0; natija a yo‘nalishi bo‘yicha modul;7sinfPDF14/bosma21.",
+    ),
+    "scaled_length": rule(
+        "s",
+        ["a", "k"],
+        ["a*k", "k*a"],
+        "Ko‘chish vektorini musbat k songa ko‘paytirish, yo‘nalish saqlanadi;7sinfPDF14–15/bosma21–22.",
+    ),
+    "equal_intervals_distance": rule(
+        "s",
+        ["d", "n"],
+        ["d*n", "n*d"],
+        "Har teng vaqt oralig‘ida d yo‘l, n musbat butun oraliq;7sinfPDF20/bosma27.",
+    ),
     "frequency_count": rule(
         "nu",
         ["n", "t"],
@@ -522,6 +552,22 @@ def reviewed_calculation(question):
             "S1", "area"
         ), "force"
 
+    if name == "codirectional_speed":
+        return value("v1", "speed") + value("v2", "speed"), "speed"
+    if name in {"codirectional_length", "opposed_length"}:
+        a, b = value("a", "length"), value("b", "length")
+        if name == "opposed_length" and a < b:
+            raise ValueError("opposed_length_direction_domain")
+        return (a + b if name == "codirectional_length" else a - b), "length"
+    if name == "scaled_length":
+        if givens["k"]["unit"] != "1":
+            raise ValueError("scalar_multiplier_unit")
+        return value("a", "length") * positive("k", "dimensionless"), "length"
+    if name == "equal_intervals_distance":
+        n = positive("n", "dimensionless")
+        if givens["n"]["unit"] != "1" or n.denominator != 1:
+            raise ValueError("whole_interval_count_required")
+        return positive("d", "length") * n, "length"
     if name == "frequency_count":
         count = positive("n", "dimensionless")
         if givens["n"]["unit"] != "1" or count.denominator != 1:

@@ -1,0 +1,107 @@
+{
+  "publication": "local_test_preview_only",
+  "independent_expert": "not_claimed",
+  "source_total": 316,
+  "authored": 66,
+  "remaining": 250,
+  "grades": [
+    {
+      "grade": 6,
+      "source_sections": 61,
+      "authored": 61,
+      "remaining": 0,
+      "cards": 254,
+      "formula_entries": 74,
+      "examples": 67,
+      "assessments": 394,
+      "frq": 88,
+      "laboratories": 7,
+      "practicals": 1,
+      "next_section": null
+    },
+    {
+      "grade": 7,
+      "source_sections": 46,
+      "authored": 5,
+      "remaining": 41,
+      "cards": 23,
+      "formula_entries": 6,
+      "examples": 5,
+      "assessments": 32,
+      "frq": 9,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 6
+    },
+    {
+      "grade": 8,
+      "source_sections": 60,
+      "authored": 0,
+      "remaining": 60,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 9,
+      "source_sections": 59,
+      "authored": 0,
+      "remaining": 59,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 10,
+      "source_sections": 45,
+      "authored": 0,
+      "remaining": 45,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 11,
+      "source_sections": 45,
+      "authored": 0,
+      "remaining": 45,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    }
+  ],
+  "original_page_checks": 159,
+  "date": "2026-10-25",
+  "next": {
+    "grade": 7,
+    "section": 6,
+    "pdf_page": 21,
+    "printed_page": 28
+  },
+  "tests": {
+    "selected_backend_and_biology_passed": 117,
+    "postgresql16_passed": 1,
+    "flutter_physics_passed": 19,
+    "analyze_issues": 0
+  }
+}
