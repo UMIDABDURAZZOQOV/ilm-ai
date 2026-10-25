@@ -13,13 +13,13 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 61 | 56 | 5 | 234 | 68 | 62 | 365 | 79 | 7 / 1 |
+| 6 | 61 | 61 | 0 | 254 | 74 | 67 | 394 | 88 | 7 / 1 |
 | 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 56 | 260 | 234 | 68 | 62 | 365 | 79 | 7 / 1 |
+| Jami | 316 | 61 | 255 | 254 | 74 | 67 | 394 | 88 | 7 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
 soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
@@ -319,3 +319,54 @@ suite **127 passed(26.76s)**; barcha56 dars HTTP/replay/560XP. Flutter Physics
 **17 passed**; dptr/km public birliklar320px/200% da tekshirildi. Jami126 asl
 sahifa hash auditidan o‘tdi. Flutter branch commitbefb294. **56/316;260 qolgan.**
 Keyingi **§57,PDF/bosma156**. Native Android/mustaqil ekspert tasdig‘i yo‘q.
+
+
+## 2026-10-25 — §57–61: 6-sinf muallifligi61/61
+
+Yangi5 dars:20 karta/6 formula yozuvi/5 misol/29 topshiriq(9 FRQ).
+Manba PDF=bosma:§57 156–158;58 159–161;59 161–163;60 163–165;61 165–167.
+12 asl sahifa to‘liq matn/tasvir bilan tekshirildi; barcha9partiya bo‘yicha
+**138 original sahifa** PDF/text/render hash auditidan o‘tdi.
+`grade6_batch9.json`/`_review.json`; oldingi56 dars qayta yozilmadi.
+Yangi3 executable oila: chastota n/t, borish-qaytishdan h=v*t/2,
+tovush yutilishi Ea/Ei; jami65 oila. Hz/kHz birliklari serverda.
+Chastotada musbat butun tebranish soni va musbat vaqt, yutilishda
+0≤Ea≤Ei/Ei>0 talab qilinadi. Chaqmoqdagi bir tomon vaqti aks sado
+bilan almashtirilmaydi.9 sonli javob mustaqil oracleda tekshirildi.
+
+Ilmiy qarorlar: PDF157 ovozning asosiy manbaini til deb atash olinmagan;
+7–9Hz halokat haqidagi tasdiqlanmagan hikoya/individual eshitish testi yo‘q.
+Tovush tezligi faqat zichlik funksiyasi emas;99,9% suv/havo qaytish raqami
+umumiy universal qoida emas. Jadvaldagi gaz0°C/suyuqlik20°C sarlavhasi
+matndagi umumiy0°C jumlasidan ajratildi. Qattiqlik, ton balandligi va
+tembr farqlandi; og‘riq chegarasi/vokal diapazon universal son sifatida
+berilmadi. Yutilish jadvali500Hz va material sharoitiga tegishli.
+Tuxumsimon ship har joyga teng yo‘l beradi degan universal da’vo yo‘q.
+
+Amaldagi tekshiruvlar:
+- Yangi sound+course **27 passed18.22s** (avvalgi bitta outdated
+  grade_content_complete=false kutish61dars tugashi sabab yangilandi).
+- Actual localhost HTTP **61dars/394javob/88FRQ/610XP**; javob/complete
+  replay bir xil, startda private rubric/expected qiymat yo‘q.
+- Flutter **143 passed**, analyze0issue, normal releaseJS web build51.5s.
+  Hz/kHz yangi public fixture, Hz chip320px/200% testda.
+- To‘liq backend va haqiqiy PG rehearsal shu checkpoint paytida davom
+  etmoqda; yakuniy log natijasi keyingi qaydda. Native Android/ekspert yo‘q.
+
+**Haqiqiy umumiy holat61/316;255 qolgan.**6-sinf53nazariya+7raqamli lab+
+1uy amaliyoti;254karta/74formula yozuvi/67misol/394topshiriq(287konseptual,
+19tartiblash,88FRQ). Boshqa sinflar hali0 authored. Biologiya406+47
+checkpoint/source kontenti o‘zgarmadi. Veb054f0ce toza. Flutterac9b3e0.
+
+**Aniq davom nuqtasi:7-sinf §1 «Jismlarning harakati»,PDF1–4/bosma8–11.**
+Manba `/workspace/attachments/e0ae04db-aceb-4d4e-8e34-944009b3c9e0/fizika_7_uzb.pdf`,
+SHAbdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367.
+Yetishmayotgan kirish bosma1–7 foydalanuvchi qaroriga ko‘ra blok emas.
+§1dan oldin asl matn/tasvirni qayta ko‘rish, grade7 authoring helper va
+review yaratish kerak. Hozir Flutter preview sarlavha/bibliografiya va
+repository catalog chaqiruvi6-sinfga bog‘langan;7-sinf darsi qo‘shilganda
+grade tanlash va to‘g‘ri bibliografiya bilan testlang. Sonli oracles hozir
+(sequence,qN) bilan kalitlanadi:7-sinf qo‘shilishidan OLDIN grade kalitini
+qo‘shing, aks holda sinflar savol kalitlari to‘qnashadi. Runtime catalog
+grade6..11 parametri mavjud. Production/AIExplain/yashirin fanlar yoqilmasin.
+Oldingi partiyalarni qayta yaratish yoki ommaviy PDF commit qilish kerak emas.

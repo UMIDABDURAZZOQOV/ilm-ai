@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika6-sinf61/61 authored:** §57–61 qo‘shildi; **umumiy61/316,255 qolgan**, boshqa sinflar0.254karta/74formula yozuvi/67misol/394topshiriq(88FRQ),65 executable oila;138asl sahifa hash audit. Yangi Hz/kHz, n/t, round-trip echo va yutilish nisbati. Sound/course27passed; actualHTTP61dars/394javob/88FRQ/610XP/replay/private-rubric tekshirildi. Flutter143passed/analyze toza/normalwebrelease51.5s; Flutterac9b3e0. To‘liq backend/PG tekshiruvlari hali davom etmoqda, tayyor deb sanalmaydi. Keyingi **7-sinf §1 PDF1/bosma8**; grade-aware oracles va Flutter grade/bibliografiya kerak. `docs/physics/STAGE2_PROGRESS.md` to‘liq checkpoint. NativeAndroid/ekspert/prodnashr yo‘q.
+
+
 > **2026-10-25 — Fizika optika §47–56:** saqlanmagan ishlar yo‘qotilmasdan yakunlandi. **56/316 authored,260 qolgan**;234 karta/68 formula yozuvi/62 misol/365 topshiriq/79 FRQ. Asl PDF132–151 qayta o‘qilgan;5 yangi cheklangan formula oilasi,62 jami. Kitobdagi145-sahifa javob/ko‘p tasvir va141-sahifa kamalak tafovutlari reviewda ochiq; xavfli Quyoshga qarash topshirig‘i yo‘q. Ikki yangi lab faqat raqamli. Keyingi **§57 PDF156**; Fizika lokal/test preview. Batafsil `docs/physics/STAGE2_PROGRESS.md`.
 
 

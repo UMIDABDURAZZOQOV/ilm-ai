@@ -20,6 +20,24 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "frequency_count": rule(
+        "nu",
+        ["n", "t"],
+        ["n/t", "n*t^-1"],
+        "n musbat butun tebranishlar soni, t>0 sekund; PDF157.",
+    ),
+    "echo_distance": rule(
+        "h",
+        ["v", "t"],
+        ["v*t/2", "0.5*v*t"],
+        "t borish-qaytish vaqti; bir xil muhitda v>0; h bir tomon masofa; PDF164.",
+    ),
+    "sound_absorption": rule(
+        "alpha",
+        ["Ea", "Ei"],
+        ["Ea/Ei", "Ea*Ei^-1"],
+        "Ei>0 tushgan,0<=Ea<=Ei yutilgan energiya, bir xil kuzatuv; PDF166.",
+    ),
     "flat_image_distance": rule(
         "i",
         ["d"],
@@ -335,6 +353,7 @@ DIMENSION_UNIT = {
     "torque": "N*m",
     "voltage": "V",
     "optical_power": "dptr",
+    "frequency": "Hz",
 }
 
 
@@ -503,6 +522,19 @@ def reviewed_calculation(question):
             "S1", "area"
         ), "force"
 
+    if name == "frequency_count":
+        count = positive("n", "dimensionless")
+        if givens["n"]["unit"] != "1" or count.denominator != 1:
+            raise ValueError("whole_oscillation_count_required")
+        return count / positive("t", "time"), "frequency"
+    if name == "echo_distance":
+        return positive("v", "speed") * positive("t", "time") / 2, "length"
+    if name == "sound_absorption":
+        incoming = positive("Ei", "energy")
+        absorbed = value("Ea", "energy")
+        if absorbed > incoming:
+            raise ValueError("absorption_energy_domain")
+        return absorbed / incoming, "dimensionless"
     if name == "flat_image_distance":
         return positive("d", "length"), "length"
     if name == "spherical_focus":

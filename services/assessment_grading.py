@@ -71,6 +71,8 @@ UNITS = {
     # Grade6 PDF147: lens optical power1/F with F in metres.
     "dptr": ("optical_power", Fraction(1)),
     "1/m": ("optical_power", Fraction(1)),
+    "Hz": ("frequency", Fraction(1)),
+    "kHz": ("frequency", Fraction(1000)),
 }
 UNIT_ALIASES = {
     "metr": "m",
