@@ -14,12 +14,12 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 6 | 61 | 61 | 0 | 254 | 74 | 67 | 394 | 88 | 7 / 1 |
-| 7 | 46 | 10 | 36 | 43 | 14 | 10 | 67 | 24 | 0 / 0 |
+| 7 | 46 | 15 | 31 | 63 | 25 | 15 | 98 | 39 | 1 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 71 | 245 | 297 | 88 | 77 | 461 | 112 | 7 / 1 |
+| Jami | 316 | 76 | 240 | 317 | 99 | 82 | 492 | 127 | 8 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
 soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
@@ -506,3 +506,33 @@ Keyingi§11«Tekis o‘zgaruvchan harakatda bosib o‘tilgan yo‘l»
 **PDF37/bosma44**.§11–15PDF37–52 matn/tasvirlari keyingi mualliflik
 uchun qayta ko‘rilsin; hozir37–49matni o‘qildi, bu authoredemas.
 6-sinf61dars va 7-sinfoldingi5dars qayta yaratilmaydi.
+
+
+## 7-sinf§11–15 —2026-10-25
+
+Yana5dars/faoliyat:20karta/11formula yozuvi/5misol/31topshiriq
+(15MCQ+1tartiblash+15FRQ). Manba PDF/bosma:§11 37–39/44–46;
+§12 40–41/47–48;§13 41–43/48–50;§14 43–45/50–52;§15 49–52/56–59.
+13sahifa asl matn/tasviri qayta ko‘rildi; umumiy187originalsahifa hash
+audit(37oldingi partiyada ham bor).§12raqamli lab real tajriba emas.
+10qoidaoilasi qo‘shildi:jami83. Tezlanishli yo‘l faqat to‘xtashgacha;
+lab2s/t² va uch aning o‘rtachasi; erkin tushish/yuqoriga otilishdagi
+g explicit source modeli; yuqoriga musbat ishorali v cho‘qqidan keyin
+manfiy bo‘lishi mumkin. h otilgan sathga nisbatan balandlik, jami yo‘l
+emas. Ideal qaytish-sath/qarshiliksiz shartlar aniq.
+Radian yoy/radius, omega phi/t; rad va rad/s birliklari. Kitobdagi
+pi=3,14 exact emas, yaqinlashuv. PDF52minutmili30mm/10min berilishi
+30mmradius uchun haqiqiy minutmili davriga mos emas:kalitga olinmadi.
+PDF38yo‘l vaqtga proporsional deyilishi kvadratikformula bilan
+almashtirilib aniqlashtirildi; barcha sourceqarorlari batchreviewda.
+
+Amaldagi backendPhysics/Biology **129passed32.22s**; barcha76dars
+HTTP/replay760XP. Sonli15oracle, wrongunit/formula/son, flighttime/g
+model/radius/time/stopdomain tekshirildi. ActualPG16 **1passed16.67s**:
+76lesson/import/reimport760XP/legacy137XPsaqlandi. FlutterPhysics
+**19passed**,39ta publicFRQ320px/200%signeddraftsinovi o‘tdi.
+Audit189pagechecks,187noyob(book,page); takroriy citationlar sanoqda
+yangi sahifa sifatida yashirilmaydi. Oldingi6-sinf61 va7-sinf10dars
+baytlari o‘zgarmadi. **76/316;240qolgan.7-sinf15/46,31qolgan.**
+Keyingi **§16«Aylanma harakatni tavsiflaydigan kattaliklar orasidagi
+munosabatlar»,PDF52/bosma59**. Oraliq tasdiq kutilmaydi.

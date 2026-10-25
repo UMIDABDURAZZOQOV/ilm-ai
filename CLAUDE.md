@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika7-sinf§11–15:** umumiy **76/316;240qolgan**,7-sinf15/46. Yangi5dars(1raqamli lab)/20karta/31topshiriq/15FRQ; jami317karta/99formula yozuvi/82misol/492topshiriq/127FRQ,83qoidaoilasi.187originalsahifa hash audit. Signedflightvelocity/balandlikvsyo‘l/explicitg/radian/speedbranchchegaralari.129backendPhysics/Biologytestpassed,76darsHTTP/replay760XP. PG/Fluttershu partiya natijalari logtekshiruvidan keyin qayd etiladi. Keyingi **§16PDF52/bosma59**.6-sinf61dars saqlandi; production,Kimyo,veb,AIExplainyo‘q. TafsilotSTAGE2_PROGRESS/batchreview.
+
+
 > **2026-10-25 — Fizika7-sinf§6–10:** umumiy **71/316,245qolgan**,7-sinf10/46. Yangi5dars/20karta/35topshiriq/15FRQ; jami297karta/88formula yozuvi/77misol/461topshiriq/112FRQ. Signedaccelerationvaunitm/s²/cm/s²,constantaccelvelocity/endpointmeanchegaralari;73formulaoila.123backendPhysics/Biologytestpassed, actualPG1passed14.02s71lesson/710XP/legacyprogresssaqlandi. FlutterPhysics19passed,24taFRQ320px/200%manfiydraft. Oldingi kengFlutter145passed/web47.1s. Keyingi **§11PDF37/bosma44**. Batchreview va STAGE2_PROGRESSdavomnuqtasini saqlaydi.6-sinf61dars/Web/Kimyo/prodga tegilmadi,316tayyordeyilmaydi.
 
 

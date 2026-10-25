@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 71,
-  "remaining": 245,
+  "authored": 76,
+  "remaining": 240,
   "grades": [
     {
       "grade": 6,
@@ -22,16 +22,16 @@
     {
       "grade": 7,
       "source_sections": 46,
-      "authored": 10,
-      "remaining": 36,
-      "cards": 43,
-      "formula_entries": 14,
-      "examples": 10,
-      "assessments": 67,
-      "frq": 24,
-      "laboratories": 0,
+      "authored": 15,
+      "remaining": 31,
+      "cards": 63,
+      "formula_entries": 25,
+      "examples": 15,
+      "assessments": 98,
+      "frq": 39,
+      "laboratories": 1,
       "practicals": 0,
-      "next_section": 11
+      "next_section": 16
     },
     {
       "grade": 8,
@@ -90,17 +90,19 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 176,
+  "original_page_checks": 189,
   "date": "2026-10-25",
   "next": {
     "grade": 7,
-    "section": 11,
-    "pdf_page": 37,
-    "printed_page": 44
+    "section": 16,
+    "pdf_page": 52,
+    "printed_page": 59
   },
   "tests": {
-    "selected_backend_and_biology_passed": 123,
+    "selected_backend_and_biology_passed": 129,
     "postgresql16_passed": 1,
+    "postgresql_seconds": 16.67,
     "flutter_physics_passed": 19
-  }
+  },
+  "unique_original_pages_reviewed": 187
 }

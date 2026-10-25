@@ -75,6 +75,8 @@ UNITS = {
     "kHz": ("frequency", Fraction(1000)),
     "m/s2": ("acceleration", Fraction(1)),
     "cm/s2": ("acceleration", Fraction(1, 100)),
+    "rad": ("angle", Fraction(1)),
+    "rad/s": ("angular_speed", Fraction(1)),
 }
 UNIT_ALIASES = {
     "metr": "m",

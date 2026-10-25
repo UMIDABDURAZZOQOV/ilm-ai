@@ -20,6 +20,66 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "accelerated_path": rule(
+        "s",
+        ["v0", "a", "t"],
+        ["v0*t+a*t^2/2", "t*v0+0.5*a*t*t"],
+        "Doimiy a, bir yo‘nalish, to‘xtashgacha;7sinfPDF37–39.",
+    ),
+    "lab_acceleration": rule(
+        "a",
+        ["s", "t"],
+        ["2*s/t^2", "2*s/(t*t)"],
+        "Tinch holatdan doimiy tezlanish, s>0,t>0;7sinfPDF40.",
+    ),
+    "mean_acceleration3": rule(
+        "a_ort",
+        ["a1", "a2", "a3"],
+        ["(a1+a2+a3)/3", "a1/3+a2/3+a3/3"],
+        "Bir xil qiya novning uch musbat qaydi;7sinfPDF40.",
+    ),
+    "fall_velocity": rule(
+        "v",
+        ["v0", "g", "t"],
+        ["v0+g*t", "g*t+v0"],
+        "Pastga musbat o‘q, havosiz, berilgan doimiyg;7sinfPDF42.",
+    ),
+    "fall_height": rule(
+        "h",
+        ["v0", "g", "t"],
+        ["v0*t+g*t^2/2", "t*v0+0.5*g*t*t"],
+        "Pastga tushish yo‘li, havo qarshiliksiz;7sinfPDF42.",
+    ),
+    "up_velocity": rule(
+        "v",
+        ["v0", "g", "t"],
+        ["v0-g*t"],
+        "Yuqoriga musbat; v ishorali proyeksiya, 0<=t<=2v0/g;7sinfPDF43–45.",
+    ),
+    "up_height": rule(
+        "h",
+        ["v0", "g", "t"],
+        ["v0*t-g*t^2/2", "t*v0-0.5*g*t*t"],
+        "Otilgan sathga nisbatan balandlik, jami yo‘l emas;0<=t<=2v0/g;7sinfPDF44–45.",
+    ),
+    "up_peak_time": rule(
+        "t",
+        ["v0", "g"],
+        ["v0/g", "v0*g^-1"],
+        "Yuqoriga otilishning cho‘qqigacha vaqti, v0>0;7sinfPDF44.",
+    ),
+    "arc_angle": rule(
+        "phi",
+        ["s", "R"],
+        ["s/R", "s*R^-1"],
+        "s yoy uzunligi (vatar emas), R>0; radian;7sinfPDF50–51.",
+    ),
+    "angular_speed": rule(
+        "omega",
+        ["phi", "t"],
+        ["phi/t", "phi*t^-1"],
+        "Tekis aylanish, phi radianlarda, t>0;7sinfPDF51.",
+    ),
     "constant_acceleration": rule(
         "a",
         ["v", "v0", "t"],
@@ -403,6 +463,8 @@ DIMENSION_UNIT = {
     "optical_power": "dptr",
     "frequency": "Hz",
     "acceleration": "m/s2",
+    "angle": "rad",
+    "angular_speed": "rad/s",
 }
 
 
@@ -571,6 +633,57 @@ def reviewed_calculation(question):
             "S1", "area"
         ), "force"
 
+    if name == "accelerated_path":
+        given = givens["a"]
+        unit = UNITS.get(given["unit"])
+        if not unit or unit[0] != "acceleration":
+            raise ValueError("acceleration_given_unit")
+        a = numeric(given["value"]) * unit[1]
+        v0, t = value("v0", "speed"), value("t", "time")
+        if v0 + a * t < 0:
+            raise ValueError("before_stop_velocity_domain")
+        return v0 * t + a * t * t / 2, "length"
+    if name == "lab_acceleration":
+        return 2 * positive("s", "length") / positive("t", "time") ** 2, "acceleration"
+    if name == "mean_acceleration3":
+        return sum(
+            (positive(k, "acceleration") for k in ("a1", "a2", "a3")), Fraction()
+        ) / 3, "acceleration"
+    if name in {
+        "fall_velocity",
+        "fall_height",
+        "up_velocity",
+        "up_height",
+        "up_peak_time",
+    }:
+        g = positive("g", "acceleration")
+        if g not in {
+            Fraction("9.81"),
+            Fraction("9.8"),
+            Fraction(10),
+            Fraction("9.78"),
+            Fraction("9.83"),
+        }:
+            raise ValueError("source_gravity_model")
+        v0 = value("v0", "speed")
+        if name == "up_peak_time":
+            if v0 <= 0:
+                raise ValueError("positive_launch_velocity")
+            return v0 / g, "time"
+        t = value("t", "time")
+        if name.startswith("up_") and (v0 <= 0 or t > 2 * v0 / g):
+            raise ValueError("flight_above_launch_level")
+        if name == "fall_velocity":
+            return v0 + g * t, "speed"
+        if name == "fall_height":
+            return v0 * t + g * t * t / 2, "length"
+        if name == "up_velocity":
+            return v0 - g * t, "speed"
+        return v0 * t - g * t * t / 2, "length"
+    if name == "arc_angle":
+        return value("s", "length") / positive("R", "length"), "angle"
+    if name == "angular_speed":
+        return value("phi", "angle") / positive("t", "time"), "angular_speed"
     if name == "constant_acceleration":
         return (value("v", "speed") - value("v0", "speed")) / positive(
             "t", "time"
