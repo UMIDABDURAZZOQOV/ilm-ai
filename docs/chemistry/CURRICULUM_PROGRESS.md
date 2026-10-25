@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 41 | 20 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 48 | 13 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 174 | 94 |
+| Total | 29 | 204 | 49 | 15 | 268 | 181 | 87 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1663 cards; 2563 assessments: 694 concept_selection, 333 short_text, 692 numeric_value, 307 chemical_formula, 537 chemical_equation.
+Total: 1724 cards; 2648 assessments: 722 concept_selection, 347 short_text, 708 numeric_value, 314 chemical_formula, 557 chemical_equation.
 
 ## Initial §1
 
@@ -194,11 +194,15 @@ Loopback8903 current ownPID24620;verify exact command before stopping.
 6 lessons;90 cards;115 questions:28 MCQ,15 short,35 numeric,11 formula,26 equation.
 All41 grade9 numbered paragraphs implemented.20 practical/laboratory entries remain.
 
+## Batch35:grade9 practical1–3,laboratory1–4
+
+7 lessons;61 cards;85 questions:28 MCQ,14 short,16 numeric,7 formula,20 equation.
+All41 paragraphs,3practicals and4/17labs implemented.13labs remain.
+
 ## Current continuation
 
-174/268 implemented;94 remain. Grade7 all74,grade8 all59,grade9 41/61.
-Next practical1–3 and laboratory1–4 in source order,then labs5–17.
-14 private activity drafts (batches35/36) passed in-memory source/grading checks;
-none indexed yet. Original192–204 visually reviewed;allreadyfalse.
-126 scoped editorial issues,one finite reviewed erratum;zero open whole holds.
-ActualHTTP preserves168/3360XP and adds120XP once→174/3480XP.
+181/268 implemented;87 remain. Grade7 all74,grade8 all59,grade9 48/61.
+Next laboratory5–11(batch36),then12–17(batch37). All13 private drafts passed
+in-memory source/grading/fact-key checks;none saved/indexed yet.
+133 scoped editorial issues,one finite reviewed erratum,zero wholeholds.
+ActualHTTP preserves174/3480XP and adds140XP once→181/3620XP.

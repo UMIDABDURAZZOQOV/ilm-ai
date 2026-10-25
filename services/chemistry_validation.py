@@ -159,6 +159,13 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-paragraph39': 'ch9-p39-environment-exposure-taxonomy-review',
     'ch9-paragraph40': 'ch9-p40-periodicity-bounded-correction-review',
     'ch9-paragraph41': 'ch9-p41-technology-rate-model-review',
+    'ch9-practical01': 'ch9-practical01-soil-observation-limits-review',
+    'ch9-practical02': 'ch9-practical02-closed-set-carbonate-branches-review',
+    'ch9-practical03': 'ch9-practical03-closed-metal-models-review',
+    'ch9-laboratory01': 'ch9-laboratory01-carbonate-two-stage-model-review',
+    'ch9-laboratory02': 'ch9-laboratory02-missing-mineral-measurements-review',
+    'ch9-laboratory03': 'ch9-laboratory03-missing-glass-measurements-review',
+    'ch9-laboratory04': 'ch9-laboratory04-missing-thermal-hardness-data-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -848,6 +855,18 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
             require(not any('akaritsid' in a.casefold() and 'kapalak' in a.casefold()
                             for a in f['verified_answers']),
                     'unreviewed_acaricide_taxonomy_copy_cannot_be_an_answer')
+        if 'ch9-practical01' in topic_ids:
+            require(not any('tuproq' in a.casefold() and 'doim' in a.casefold() and 'AgCl' in a
+                            for a in f['verified_answers']),
+                    'unknown_soil_precipitate_identity_cannot_be_an_answer')
+        if 'ch9-practical02' in topic_ids:
+            require(not any('nitrat' in a.casefold() and 'universal' in a.casefold()
+                            for a in f['verified_answers']),
+                    'closed_candidate_elimination_is_not_universal_nitrate_test')
+        if 'ch9-laboratory02' in topic_ids:
+            require(not any(re.search(r'(?i)\bMohs\s*[=:]?\s*\d', a)
+                            for a in f['verified_answers']),
+                    'missing_mineral_hardness_cannot_be_fabricated')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

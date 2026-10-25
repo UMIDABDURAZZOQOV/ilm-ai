@@ -57,14 +57,14 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-paragraph40` | paragraph 40 | Davriy qonun va elementlar davriy sistemasining ahamiyati | 185–189 | 185:full – 189:full | 185 | reviewed local lesson; scoped editorial review remains open; reviewed erratum ch9-p40-page186-reviewed-configuration-erratum | ch9-paragraph39 |
 | `ch9-paragraph41` | paragraph 41 | Kimyoviy reaksiyalarning kimyoviy ishlab chiqarishdagi ahamiyati | 189–192 | 189:full – 192:full | 189 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph40 |
 | `ch9-practicals` | activity_collection  | Amaliy mashg‘ulotlar | 192–195 | 192:full – 195:full | 192 | not_authored | — |
-| `ch9-practical01` | practical 1 | Uglerod (IV)-oksid hosil qilish va uning xossalari bilan tanishish | 192–193 | 192:full – 193:full | 192 | not_authored | ch9-paragraph41 |
-| `ch9-practical02` | practical 2 | “Ishqoriy metallar” va “Kalsiy” mavzulari bo‘yicha tajribaviy masalalar yechish | 193–194 | 193:full – 194:full | 193 | not_authored | ch9-practical01 |
-| `ch9-practical03` | practical 3 | “Metallar” mavzusi bo‘yicha tajribaviy masalalar yechish | 194–195 | 194:full – 195:full | 194 | not_authored | ch9-practical02 |
+| `ch9-practical01` | practical 1 | Uglerod (IV)-oksid hosil qilish va uning xossalari bilan tanishish | 192–193 | 192:full – 193:full | 192 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph41 |
+| `ch9-practical02` | practical 2 | “Ishqoriy metallar” va “Kalsiy” mavzulari bo‘yicha tajribaviy masalalar yechish | 193–194 | 193:full – 194:full | 193 | reviewed local lesson; scoped editorial review remains open | ch9-practical01 |
+| `ch9-practical03` | practical 3 | “Metallar” mavzusi bo‘yicha tajribaviy masalalar yechish | 194–195 | 194:full – 195:full | 194 | reviewed local lesson; scoped editorial review remains open | ch9-practical02 |
 | `ch9-laboratories` | activity_collection  | Laboratoriya mashg‘ulotlari | 195–204 | 195:full – 204:full | 195 | not_authored | — |
-| `ch9-laboratory01` | laboratory 1 | Karbonatlar va gidrokarbonatlarning xossalari va bir-biriga aylanishi bilan tanishish | 195–196 | 195:full – 196:full | 195 | not_authored | ch9-practical03 |
-| `ch9-laboratory02` | laboratory 2 | Tabiiy silikatlarning namunalari bilan tanishish | 196–197 | 196:full – 197:full | 196 | not_authored | ch9-laboratory01 |
-| `ch9-laboratory03` | laboratory 3 | Shishaning turlari va ularning tarkibi bilan tanishish. «Shisha va undan yasalgan mahsulotlar» to‘plami bilan tanishish va ishlash | 196–197 | 196:full – 197:full | 196 | not_authored | ch9-laboratory02 |
-| `ch9-laboratory04` | laboratory 4 | Metallar namunalarini ko‘zdan kechirish | 197–198 | 197:full – 198:full | 197 | not_authored | ch9-laboratory03 |
+| `ch9-laboratory01` | laboratory 1 | Karbonatlar va gidrokarbonatlarning xossalari va bir-biriga aylanishi bilan tanishish | 195–196 | 195:full – 196:full | 195 | reviewed local lesson; scoped editorial review remains open | ch9-practical03 |
+| `ch9-laboratory02` | laboratory 2 | Tabiiy silikatlarning namunalari bilan tanishish | 196–197 | 196:full – 197:full | 196 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory01 |
+| `ch9-laboratory03` | laboratory 3 | Shishaning turlari va ularning tarkibi bilan tanishish. «Shisha va undan yasalgan mahsulotlar» to‘plami bilan tanishish va ishlash | 196–197 | 196:full – 197:full | 196 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory02 |
+| `ch9-laboratory04` | laboratory 4 | Metallar namunalarini ko‘zdan kechirish | 197–198 | 197:full – 198:full | 197 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory03 |
 | `ch9-laboratory05` | laboratory 5 | Qotishmalarning namunalari bilan tanishish | 197–198 | 197:full – 198:full | 197 | not_authored | ch9-laboratory04 |
 | `ch9-laboratory06` | laboratory 6 | Tuzlar eritmalari bilan metallarning o‘zaro ta’siri | 198–199 | 198:full – 199:full | 198 | not_authored | ch9-laboratory05 |
 | `ch9-laboratory07` | laboratory 7 | Mis (II)-xlorid va kaliy yodid eritmalarining elektrolizi | 198–199 | 198:full – 199:full | 198 | not_authored | ch9-laboratory06 |

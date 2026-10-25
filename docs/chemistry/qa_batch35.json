@@ -1,0 +1,57 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 174,
+  "prior_xp": 3480,
+  "added_lessons": 7,
+  "added_questions": 85,
+  "kinds": {
+    "concept_selection": 28,
+    "short_text": 14,
+    "chemical_equation": 20,
+    "chemical_formula": 7,
+    "numeric_value": 16
+  },
+  "added_xp": 140,
+  "total_xp": 3620,
+  "total_completed_lessons": 181,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_and8_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public CO2 practical/silicate samples/metal samples catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 181,
+  "remaining_lessons": 87,
+  "backend_tests": {
+    "passed": 1406,
+    "skipped": 1,
+    "seconds": 1745.98
+  },
+  "targeted_tests": {
+    "passed": 85,
+    "seconds": 30.61,
+    "earlier_grade_source_tests": 22,
+    "erratum_tests": 34
+  },
+  "flutter_tests": {
+    "passed": 537,
+    "seconds": 147
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 42.7
+  },
+  "flutter_widgets": {
+    "passed": 3,
+    "seconds": 11,
+    "new_captures_inspected": 9,
+    "initial_new_test_flow_and_label_assumptions_fixed": true
+  },
+  "open_source_holds": 0,
+  "open_editorial_issues": 133,
+  "reviewed_errata": 1,
+  "prior174_hashes_preserved": true,
+  "production_operations": false
+}

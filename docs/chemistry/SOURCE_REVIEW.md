@@ -1,3 +1,43 @@
+## Batch35 — 2026-10-25:grade9 practical1–3,laboratory1–4
+
+**181/268 implemented;87 remain. Grade9 48/61;13laboratories remain.**
+Seven source-ordered activities add61cards/85questions:28MCQ,14short,16numeric,
+7formula,20equation. Total1724cards/2648questions:722/347/708/314/557.
+Original192–197 reread as images. Digital observation→model→conclusion tasks
+coverCO2/carbonate,closed alkali/calcium/metals cases,carbonate/bicarbonate,
+natural silicates,glass andmetals. Same learning/XP/progress/prerequisite contract.
+
+No actual soil/mineral/glass/alloy measurements invented. Unknown white soil
+precipitate not uniquelyAgCl;NaNO3 only exhaustiveclosedset elimination. Kaolin/
+feldspar exact9§12/61 models display/MCQ/count,not guessed mineral/Mohsdata.
+Glass oxideformula is approximate ratio,not molecule/qualitycertificate. Exact
+Al660.5/Cu1083/Fe1539 from124/133/159;meltingorder not hardness/thermalrate.
+133editorialscopes,onecontrolled§40erratum;allreadyfalse,teacherreviewpending.
+
+Full Chemistry1406pass,1opt-inPGskip,1existingStarlettewarning/1745.98s.
+Target85pass/30.61s includes34erratum and22earlier-source tests. CriticalRuff/diff
+passed.174predecessor hashes/manifestpins and original§1 unchanged. FivePDF
+hashes/all817pages audited;327anchors/268entries. No physical activitycompletion.
+
+Flutter537tests/147s,analysis0issues/42.7s. Final3new320×568/200%widgets/11s;
+ninecaptures visually inspected:practical1/192 andprior§10/52;lab2/196 and
+kaolin§12/61;lab4/197 andpriorAl§26/124. CO2/kaolinMCQ and422,5FRQ preserve
+source ownership,scrollablefeedback/sheets,pinnedcontinue. Initialnewwidgets
+failed in two runs from test assumptions:MCQbeforetheory completion and exact
+source label without its activitytype/page suffix. Fixed those tests only;
+productionUI unchanged. No nativeAndroid/IME/TalkBackcertificate. Client6829dbb.
+
+ActualHTTP85answers preserve174baseline completions/3480XP;140XPonce→181/3620.
+Complete replay identical;0,448/0.448 and422.5/4.225e2 equivalent. Grade7/8
+catalogs unchanged,rubricsprivate,nine sanitized publicfixtures. All181r1 imported
+snapshots immutable. Loopback8903 ownPID11128;verify fullcommand before stop.
+
+Next13labdrafts:author36a–g(lab5–11),37a–f(lab12–17). All passed private in-memory
+key/proof/fact-answer checks;noneindexed. Source197–204 reread. Catalog36/37
+private scripts prepared butUNEXECUTED. Current index181,not188/194.
+First grade10 originalscans also read for nextsource preparation;no grade10
+lesson authored. OCR remains locator only. No AI/production/other-subject change.
+
 ## Batch34 — 2026-10-25:grade9 final paragraphs36–41
 
 **174/268 implemented;94 remain. Grade9 all41 paragraphs,20 activities remain.**
