@@ -24,6 +24,62 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "voltage_work": rule(
+        "U", ["A", "q"], ["A/q", "A*q^-1"], "q>0 zaryad moduli,U ish/zaryad;PDF39."
+    ),
+    "electric_work": rule(
+        "A", ["q", "U"], ["q*U", "U*q"], "Doimiy U,zaryad moduli;PDF41."
+    ),
+    "work_charge": rule(
+        "q", ["A", "U"], ["A/U", "A*U^-1"], "U>0,ish va zaryad modullari;PDF41."
+    ),
+    "series_cells": rule(
+        "U",
+        ["n", "U0"],
+        ["n*U0", "U0*n"],
+        "Bir xil elementlar mos yo‘nalishda ketma-ket,ideal kuchlanishlar yig‘indisi;n butun;PDF40.",
+    ),
+    "current_strength": rule(
+        "I", ["q", "t"], ["q/t", "q*t^-1"], "t>0 vaqt davomida q zaryad moduli;PDF42."
+    ),
+    "current_charge": rule("q", ["I", "t"], ["I*t", "t*I"], "Doimiy tok moduli;PDF43."),
+    "current_time": rule("t", ["q", "I"], ["q/I", "q*I^-1"], "I>0 doimiy tok;PDF46."),
+    "current_electron_count": rule(
+        "n",
+        ["I", "t", "e"],
+        ["I*t/e", "t*I/e"],
+        "e=1.6e-19C;butun elektronlar soni;PDF43.",
+    ),
+    "electric_work_current": rule(
+        "A",
+        ["U", "I", "t"],
+        ["U*I*t", "I*t*U", "U*(I*t)"],
+        "Doimiy U va I,ish moduli;PDF45.",
+    ),
+    "current_work_voltage": rule(
+        "U", ["A", "I", "t"], ["A/(I*t)", "A/I/t"], "I,t>0;PDF46."
+    ),
+    "current_electron_mass": rule(
+        "m",
+        ["I", "t", "e", "m0"],
+        ["I*t*m0/e", "m0*(I*t/e)"],
+        "Butun elektronlar soni,e1.6e-19C,m0=9.1e-31kg;PDF45.",
+    ),
+    "wire_resistance": rule(
+        "R",
+        ["rho", "l", "S"],
+        ["rho*l/S", "l*rho/S"],
+        "Bir jinsli sim,doimiy material/harorat,l,S>0;PDF49–51.",
+    ),
+    "wire_resistivity": rule(
+        "rho", ["R", "S", "l"], ["R*S/l", "S*R/l"], "Bir jinsli sim,l>0;PDF51."
+    ),
+    "wire_length": rule(
+        "l", ["R", "S", "rho"], ["R*S/rho", "S*R/rho"], "Bir jinsli sim,rho>0;PDF51–52."
+    ),
+    "wire_area": rule(
+        "S", ["rho", "l", "R"], ["rho*l/R", "l*rho/R"], "Bir jinsli sim,R>0;PDF51–52."
+    ),
     "field_charge": rule(
         "q", ["F", "E"], ["F/E", "F*E^-1"], "Kuch va maydon MODULLARI,E>0;8sinfPDF25."
     ),
@@ -903,6 +959,9 @@ DIMENSION_UNIT = {
     "momentum": "kg*m/s",
     "charge": "C",
     "electric_field": "N/C",
+    "current": "A",
+    "resistance": "Ω",
+    "resistivity": "Ω*m",
 }
 
 
@@ -1126,6 +1185,60 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "voltage_work":
+        return value("A", "energy") / positive("q", "charge"), "voltage"
+    if name == "electric_work":
+        return value("q", "charge") * value("U", "voltage"), "energy"
+    if name == "work_charge":
+        return value("A", "energy") / positive("U", "voltage"), "charge"
+    if name == "series_cells":
+        count = positive("n", "dimensionless")
+        if givens["n"]["unit"] != "1" or count.denominator != 1:
+            raise ValueError("whole_cell_count_required")
+        return count * positive("U0", "voltage"), "voltage"
+    if name == "current_strength":
+        return value("q", "charge") / positive("t", "time"), "current"
+    if name == "current_charge":
+        return value("I", "current") * value("t", "time"), "charge"
+    if name == "current_time":
+        return value("q", "charge") / positive("I", "current"), "time"
+    if name in {"current_electron_count", "current_electron_mass"}:
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_elementary_charge_magnitude")
+        count = value("I", "current") * value("t", "time") / e
+        if count.denominator != 1:
+            raise ValueError("whole_particle_count")
+        if name == "current_electron_mass":
+            m0 = positive("m0", "mass")
+            if m0 != Fraction("9.1e-31"):
+                raise ValueError("explicit_electron_rest_mass")
+            return count * m0, "mass"
+        return count, "dimensionless"
+    if name == "electric_work_current":
+        return value("U", "voltage") * value("I", "current") * value(
+            "t", "time"
+        ), "energy"
+    if name == "current_work_voltage":
+        return value("A", "energy") / (
+            positive("I", "current") * positive("t", "time")
+        ), "voltage"
+    if name == "wire_resistance":
+        return positive("rho", "resistivity") * positive("l", "length") / positive(
+            "S", "area"
+        ), "resistance"
+    if name == "wire_resistivity":
+        return positive("R", "resistance") * positive("S", "area") / positive(
+            "l", "length"
+        ), "resistivity"
+    if name == "wire_length":
+        return positive("R", "resistance") * positive("S", "area") / positive(
+            "rho", "resistivity"
+        ), "length"
+    if name == "wire_area":
+        return positive("rho", "resistivity") * positive("l", "length") / positive(
+            "R", "resistance"
+        ), "area"
     if name == "field_charge":
         return value("F", "force") / positive("E", "electric_field"), "charge"
     if name == "field_electron_count":

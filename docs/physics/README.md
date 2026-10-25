@@ -1,5 +1,12 @@
 # Fizika — manba xaritalari va lokal interaktiv sinov
 
+**Eng yangi checkpoint —2026-10-25:** **122/316 lokal/test bo‘lim,194qolgan**.
+6:61/61,7:46/46,8:15/60;9–11hali0.516karta/807topshiriq/258FRQ.
+Physics/Biology261passed,alohidaPG1passed122lesson/1220XP,FlutterPhysics21passed.
+Keyingi8§16PDF52. [GRADE8_STAGE2_PROGRESS.json](GRADE8_STAGE2_PROGRESS.json)
+va [STAGE2_PROGRESS.md](STAGE2_PROGRESS.md) joriy;quyidagi sanoqlar tarixiy.
+
+
 **Joriy holat — 2026-10-25:** **112/316 lokal/test bo‘lim, 204 qolgan**.
 6-sinf61/61,7-sinf46/46,8-sinf5/60;9–11 hali0.473karta/734topshiriq/236FRQ.
 Backend815passed/4skipped, actualPG1passed112dars/1120XP, Flutter147passed.

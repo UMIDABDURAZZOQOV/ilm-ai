@@ -101,8 +101,21 @@ UNITS = {
     "nN": ("force", Fraction(1, 10**9)),
     "N*m2/C2": ("coulomb_constant", Fraction(1)),
     "N/C": ("electric_field", Fraction(1)),
+    # Grade8 PDF42/48/51: current, resistance, resistivity and square millimetres.
+    "A": ("current", Fraction(1)),
+    "mA": ("current", Fraction(1, 1000)),
+    "µA": ("current", Fraction(1, 10**6)),
+    "Ω": ("resistance", Fraction(1)),
+    "mΩ": ("resistance", Fraction(1, 1000)),
+    "kΩ": ("resistance", Fraction(1000)),
+    "MΩ": ("resistance", Fraction(10**6)),
+    "Ω*m": ("resistivity", Fraction(1)),
+    "mm2": ("area", Fraction(1, 10**6)),
 }
 UNIT_ALIASES = {
+    "ohm": "Ω",
+    "kohm": "kΩ",
+    "ohm*m": "Ω*m",
     "metr": "m",
     "santimetr": "cm",
     "sm": "cm",
@@ -137,6 +150,8 @@ UNIT_ALIASES = {
     "uC": "µC",
     "μN": "µN",
     "uN": "µN",
+    "μA": "µA",
+    "uA": "µA",
 }
 TOKEN = re.compile(
     r"\s*(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?|"

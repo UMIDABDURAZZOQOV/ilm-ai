@@ -840,3 +840,38 @@ Jami495karta/182formula yozuvi/127namuna/768topshiriq/242FRQ.
 Keyingi **8-sinf§11«Elektr kuchlanish va uni o‘lchash»,PDF/bosma39**.
 §11–15PDF39–52OCRmatni o‘qildi, originalrasmlar renderqilingan,
 mualliflikdan oldin qayta ko‘rilsin. Oraliq tasdiq kutmasdan davom.
+
+
+## 8-sinf §11–15 — 2026-10-25
+
+5 yangi dars/faoliyat (1 raqamli laboratoriya),21 karta,16 formula yozuvi,
+6 original namuna,39 topshiriq (18MCQ+5tartiblash+16FRQ). §11PDF39–42,
+§12PDF42–45,§13PDF45–46,§14PDF46–47,§15PDF47–52;bosma raqamlar bir xil.
+Barcha14 asl sahifa tasviri qayta o‘qildi,OCR/darajalar/qutblar/jadval
+solishtirildi. 342pagechecks/334noyob original sahifa. 15yangi executable
+oila,jami171. Amper,mA,µA/μA/uA,Ω/mΩ/kΩ/MΩ,Ω*m/ohm*m,mm² aniq
+SI konversiyalari; eski MCQ/FRQ/parser defaultlari saqlandi.
+
+U=A/q,I=q/t,A=UIt,m=It*m0/e,R=rho*l/S va manbali inverselar.
+PDF40qutb satri/chizma fizik DC qutblanishiga mos tushuntirildi;PDF45dagi
+nostandartnkg o‘rniga kg/g/mg. Nixrom1.1×10^-6Ω*m jadvalning asl
+PDF51tasviridan tasdiqlandi. Uzunlik/kesim bog‘lanishida material/harorat
+sharti aniq; mm²→m² mustaqil test. Haqiqiy o‘lchovlar uydirilmagan,
+labda bo‘sh jadvalni to‘ldirish majburiy emas va real tajriba da’vosi yo‘q.
+§15ga kelgusi Omqonuni,§14ga sun’iy FRQ qo‘shilmadi. Review barcha
+fakt/karta/formula/misol/topshiriq/yechim manba bindingini qayd etadi.
+
+Yangi ilmiy/domen/unit testlari18passed1.99s. Physics/source/server/Biology
+**261passed,2opt-inPGskipped60.95s**. Alohida actualPG16 **1passed30.51s**:
+122dars import/reimport/1220XP/replay va eski137XP/3streak/2stars.
+FlutterPhysics **21passed**,37publicgrade8FRQ320px/200% qoralama/birliklar;
+yangi klient grading yoki answerkey yo‘q. Oldingi full815backend/147Flutter
+natijalari alohida; bu partiyada fullsuite deb da’vo qilinmaydi.
+
+**122/316;194qolgan**.6:61/61,7:46/46,8:15/60,9:0/59,10:0/45,11:0/45.
+Jami516karta/198formula yozuvi/133namuna/807topshiriq/258FRQ.
+Keyingi **8-sinf§16«Rezistorlar.Reostatlar.Potensiometrlar»,PDF/bosma52**.
+§16–20PDF52–64OCR/aslrasmlari tekshirildi;darslar hali yozilmagan.
+Avtomatik davom, oraliq ruxsat kutilmaydi. Biology406/6–7frozen darslar/
+old8§1–10/website/Kimyo/prod/AIExplain o‘zgarmadi. Fizika faqatlocaltest,
+Android/independentexpert/prodnashr tasdig‘i yo‘q.

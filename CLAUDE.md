@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika8-sinf§11–15:** **122/316,194qolgan**,8-sinf15/60.21karta/16formula yozuvi/6namuna/39topshiriq/16FRQ,1raqamli lab; jami516karta/198formula/133namuna/807topshiriq/258FRQ,171qoida. U=A/q,I=q/t,A=UIt,elektronmassa,R=rho*l/S;A/mA/µA,Ω/Ω*m,mm² aniqSI. PDF40qutb/PDF45nkg ilmiy qayd,PDF51nixromjadval aslrasmdan tekshirildi.342pagechecks/334noyob. Physics/Biology **261passed/2PGskipped60.95s**,actualPG **1passed30.51s**122dars/1220XP/replay/legacy;FlutterPhysics21passed37publicFRQ320px/200%.Oldfull815backend/147Flutter alohida. Keyingi **8§16PDF52**;§16–20PDF52–64manbalari o‘qildi,muallifligi keyin. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi,lokaltestonly;Android/ekspert tasdiqlanmagan.
+
+
 > **2026-10-25 — Fizika 8-sinf §6–10:** **117/316 bo‘lim,199 qolgan**,8-sinf10/60. Yangi22karta/5formula yozuvi/7namuna/34topshiriq/6FRQ; jami495karta/182formula yozuvi/127namuna/768topshiriq/242FRQ,156qoidaoilasi. Elektrostatik ortiqcha zaryad/Faradeyshartlari, maydonmasalalari, tayyorchaqmoqqaydi, tartiblitok va manbalar;§6/9/10ga sun’iyformula yo‘q. Source328pagechecks/321noyob. TanlanganbackendPhysics/Biology **243passed/2PGskipped62.02s**; actualPG1passed30.71s117lesson/1170XP/legacyprogress; FlutterPhysics21passed21publicgrade8FRQ. Oldingi to‘liq815backend/147Flutter natijalari alohida saqlangan. Keyingi **§11PDF/bosma39**,§11–15matni o‘qildi,rasmlar tekshiriladi. Biology406/website/Kimyo/prod/AIExplain saqlandi.
 
 

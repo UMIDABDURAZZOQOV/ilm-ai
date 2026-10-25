@@ -371,6 +371,28 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (8, 11, 5): ("4000", "mV", "A/q"),
+        (8, 11, 6): ("0.020", "kJ", "U*q"),
+        (8, 11, 7): ("9", "C", "A/U"),
+        (8, 11, 8): ("6", "V", "U0*n"),
+        (8, 12, 5): ("200", "mA", "q/t"),
+        (8, 12, 6): ("2", "C", "t*I"),
+        (8, 12, 7): ("2.5", "min", "q/I"),
+        (8, 12, 8): ("1000000000000000000", "1", "t*I/e"),
+        (8, 13, 5): ("0.072", "kJ", "I*t*U"),
+        (8, 13, 6): ("6000", "mV", "A/I/t"),
+        (8, 13, 7): ("0.0000000182", "g", "m0*(I*t/e)"),
+        (8, 13, 8): ("2.5", "min", "q/I"),
+        (8, 15, 6): ("0.0088", "kΩ", "l*rho/S"),
+        (8, 15, 7): ("0.0000011", "ohm*m", "S*R/l"),
+        (8, 15, 8): ("200", "cm", "S*R/rho"),
+        (8, 15, 9): ("0.5", "mm2", "l*rho/R"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -387,11 +409,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        117,
-        199,
+        122,
+        194,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 10, 0, 0, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 15, 0, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -401,7 +423,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 20
+    assert len(load_course()) == 21
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -598,7 +620,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 1170
+        assert db.get(User, 1).xp_total == 1220
 
 
 @pytest.mark.parametrize(
