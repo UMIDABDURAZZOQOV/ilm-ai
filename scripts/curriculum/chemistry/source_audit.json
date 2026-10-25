@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 124,
+  "implemented_lessons": 133,
   "grades": [
     {
       "grade": 7,
@@ -50,18 +50,8 @@
       "laboratories": 10,
       "practicals": 5,
       "source_teaching_entries": 59,
-      "implemented_lessons": 50,
-      "remaining_ids": [
-        "ch8-laboratory02",
-        "ch8-laboratory03",
-        "ch8-laboratory04",
-        "ch8-laboratory05",
-        "ch8-laboratory06",
-        "ch8-laboratory07",
-        "ch8-laboratory08",
-        "ch8-laboratory09",
-        "ch8-laboratory10"
-      ],
+      "implemented_lessons": 59,
+      "remaining_ids": [],
       "pending_source_review_ids": [
         "ch8-p01-mol-definition-scope",
         "ch8-p02-rounding-scope",
@@ -113,7 +103,16 @@
         "ch8-p43-reporting-basis-arithmetic-review",
         "ch8-p44-biogen-clinical-essentiality-review",
         "ch8-practical5-table-nitrate-unknown-review",
-        "ch8-lab1-amphoteric-observation-scope"
+        "ch8-lab1-amphoteric-observation-scope",
+        "ch8-lab2-crystal-phase-scope",
+        "ch8-lab3-halide-starch-observation-scope",
+        "ch8-lab4-soil-unknown-scope",
+        "ch8-lab5-halogen-condition-scope",
+        "ch8-lab6-solvent-layer-scope",
+        "ch8-lab7-mineral-formula-unit-scope",
+        "ch8-lab8-sulfate-model-scope",
+        "ch8-lab9-ammonia-ratio-observation-scope",
+        "ch8-lab10-fertilizer-unknown-scope"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -301,7 +300,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 77,
+  "open_editorial_review_issues": 86,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

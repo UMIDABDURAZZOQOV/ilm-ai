@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 50 | 9 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 124 | 144 |
+| Total | 29 | 204 | 49 | 15 | 268 | 133 | 135 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 980 cards; 1425 assessments: 483 concept_selection, 235 short_text, 374 numeric_value, 128 chemical_formula, 205 chemical_equation.
+Total: 1035 cards; 1518 assessments: 510 concept_selection, 244 short_text, 394 numeric_value, 151 chemical_formula, 219 chemical_equation.
 
 ## Initial §1
 
@@ -126,11 +126,16 @@ Original examples preserve exact intermediate arithmetic and given conditions.
 
 5 lessons;59 cards;68 questions:19 MCQ,8 short,18 numeric,11 formula,12 equation.
 
+## Batch26: grade8 laboratories2–10
+
+9 lessons;55 cards;93 questions:27 MCQ,9 short,20 numeric,23 formula,14 equation.
+
 ## Current continuation
 
-124/268 implemented;144 remain. Grade7 all74;grade8 50/59:all44 paragraphs,
-all5 practicals and laboratory1. Next9:labs2–10,sequence51–59,original200–204.
-All grade8 teaching pages visually reviewed;unknown observations are not supplied.
-77 editorial scopes plus one grade9 scientific blocker;all ready flags false.
-ActualHTTP preserves119 baseline completions/2380XP and adds100XP once:
-124 completions/2480XP. Prior119 lesson hashes and original§1 unchanged.
+133/268 implemented;135 remain. Grade7 all74 and grade8 all59 mapped entries
+have reviewed digital lessons. Grade9 0/61,grade10 0/41,grade11 0/33.
+Next5:grade9 §1–5,sequence1–5,original5–28,boundary29. Original4–29 read;
+private preparatory notes .local/grade9_start_source_notes.md. Not authored yet.
+86 editorial scopes plus one grade9 scientific blocker;ready flags false.
+ActualHTTP preserves124 completions/2480XP,adds180XP once:133/2660XP.
+Prior124 hashes/original§1 unchanged. No independent teacher/production signoff.

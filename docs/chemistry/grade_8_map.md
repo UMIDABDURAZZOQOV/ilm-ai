@@ -67,12 +67,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-practical05` | practical 5 | Mineral o‘g‘itlarni aniqlash | 197–200 | 197:full – 200:full | 197 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph44 |
 | `ch8-activities` | activity_collection  | Laboratoriya mashg‘ulotlari | 200–204 | 200:full – 204:full | 200 | not_authored | — |
 | `ch8-laboratory01` | laboratory 1 | Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri | 200–201 | 200:full – 201:full | 200 | reviewed local lesson; scoped editorial review remains open | ch8-practical05 |
-| `ch8-laboratory02` | laboratory 2 | Turli kimyoviy bog‘lanishli moddalarning (kaliy xlorid, oltingugurt, yod) kristall panjaralari namunalarini tayyorlash | 200–201 | 200:full – 201:full | 200 | not_authored | ch8-laboratory01 |
-| `ch8-laboratory03` | laboratory 3 | Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari | 201–202 | 201:full – 202:full | 201 | not_authored | ch8-laboratory02 |
-| `ch8-laboratory04` | laboratory 4 | Tuproq eritmasi tarkibida xloridlarning borligini aniqlash | 201–202 | 201:full – 202:full | 201 | not_authored | ch8-laboratory03 |
-| `ch8-laboratory05` | laboratory 5 | Galogenlarning birikmalari eritmalaridan bir-birini siqib chiqarishi | 202–203 | 202:full – 203:full | 202 | not_authored | ch8-laboratory04 |
-| `ch8-laboratory06` | laboratory 6 | Galogenlarning suvda va organik erituvchilarda erishi | 202–203 | 202:full – 203:full | 202 | not_authored | ch8-laboratory05 |
-| `ch8-laboratory07` | laboratory 7 | Oltingugurt va uning tabiiy birikmalari namunalari bilan tanishish | 203–204 | 203:full – 204:full | 203 | not_authored | ch8-laboratory06 |
-| `ch8-laboratory08` | laboratory 8 | Turli eritmalarda sulfat ioni borligini aniqlash | 203–204 | 203:full – 204:full | 203 | not_authored | ch8-laboratory07 |
-| `ch8-laboratory09` | laboratory 9 | Ammoniy tuzlariga so‘ndirilgan ohak ta’sir ettirib ammiak olish va uning xossalarini o‘rganish | 203–204 | 203:full – 204:full | 203 | not_authored | ch8-laboratory08 |
-| `ch8-laboratory10` | laboratory 10 | Mineral o‘g‘itlarning namunalari bilan tanishish | 204–204 | 204:full – 204:full | 204 | not_authored | ch8-laboratory09 |
+| `ch8-laboratory02` | laboratory 2 | Turli kimyoviy bog‘lanishli moddalarning (kaliy xlorid, oltingugurt, yod) kristall panjaralari namunalarini tayyorlash | 200–201 | 200:full – 201:full | 200 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory01 |
+| `ch8-laboratory03` | laboratory 3 | Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari | 201–202 | 201:full – 202:full | 201 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory02 |
+| `ch8-laboratory04` | laboratory 4 | Tuproq eritmasi tarkibida xloridlarning borligini aniqlash | 201–202 | 201:full – 202:full | 201 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory03 |
+| `ch8-laboratory05` | laboratory 5 | Galogenlarning birikmalari eritmalaridan bir-birini siqib chiqarishi | 202–203 | 202:full – 203:full | 202 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory04 |
+| `ch8-laboratory06` | laboratory 6 | Galogenlarning suvda va organik erituvchilarda erishi | 202–203 | 202:full – 203:full | 202 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory05 |
+| `ch8-laboratory07` | laboratory 7 | Oltingugurt va uning tabiiy birikmalari namunalari bilan tanishish | 203–204 | 203:full – 204:full | 203 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory06 |
+| `ch8-laboratory08` | laboratory 8 | Turli eritmalarda sulfat ioni borligini aniqlash | 203–204 | 203:full – 204:full | 203 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory07 |
+| `ch8-laboratory09` | laboratory 9 | Ammoniy tuzlariga so‘ndirilgan ohak ta’sir ettirib ammiak olish va uning xossalarini o‘rganish | 203–204 | 203:full – 204:full | 203 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory08 |
+| `ch8-laboratory10` | laboratory 10 | Mineral o‘g‘itlarning namunalari bilan tanishish | 204–204 | 204:full – 204:full | 204 | reviewed local lesson; scoped editorial review remains open | ch8-laboratory09 |

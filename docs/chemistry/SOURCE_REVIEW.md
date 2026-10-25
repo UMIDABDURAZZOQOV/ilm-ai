@@ -850,3 +850,54 @@ stopping);private defines remain there. Imported r1 lessons are immutable.
 All prior119 hashes and original§1 unchanged;critical Ruff/diff checks passed.
 Biology/Physics branches and real user data preserved. No production/main,
 PDF/OCR/fulltext/token push or native/IME/TalkBack/whole-backend certificate.
+
+
+## Batch26 — 2026-10-25: final grade8 laboratories2–10
+
+**133/268 implemented,135 remain. Grade7 all74;grade8 all59 mapped entries.**
+Nine final labs add55 cards/93 questions:27 MCQ,9 short,20 numeric,23 formula,
+14 equation. Total1035 cards/1518 questions:510/244/394/151/219 respectively.
+Mapped coverage is not independent scientific approval;all ready flags false.
+
+Original200–204 reviewed with exact prior source pages. KClcoord6 separated
+from1:1formula;S8model versus other sulfur phases;iodine limitedtwoatom/solid
+facts. AgClwhite/AgBrsarg‘ish/AgIyellow exact122;lab3 starch/food colors absent
+and held. Soil task does not supply actual chloride result. Halogen3x3 table
+uses exact earlierKmodels/rank for originalNa givenproductbalances. Iodine
+water/organic qualitative comparison;layercolor/position/measurement held.
+MineralsFeS2/ZnS/CaSO4·2H2O andS8 masses use exact priorconstants;formula
+unit versus atom/molecule distinguished. Known four sulfate solution models
+retainBaSO4white evidence;no universalwhitesolid identification. NH3 equation,
+aqueousschoolmodel andindicator context retained;recipe1.5:1 is not exact
+stoichiometricmass key. Fiveexplicit fertilizer examples,not invented samples.
+NH3/HCl exact page161 checked instead of initial162 reference. Br2 FRQ uses
+existing chemical_formula contract rather than prose;no new scientific parser.
+86 editorial scopes plus one grade9 scientific blocker remain. No source gap
+filled from memory,physical experiment,AI feature or teacher certificate.
+
+Target final62 passed/6.88s;initial61pass/1fail was wrong test expectation
+incorrect_species for formula mismatch (actual documentedcode incorrect),
+fixed assertion only. FullChemistry851 passed,1 opt-in PG skip,1 existing
+Starlette warning/389.15s. Critical Ruff anddiff checks passed;all prior124
+hashes and original§1 unchanged. FivePDF identities/all817 pages audited.
+FullFlutter514 passed/79s;analysis no issues/87.0s. Two new320×568/200%
+light/dark laboratory widgets passed/6s;capture rerun2passed/7s. Four source/
+feedback captures visually inspected203/204:scroll/pinnedcontinuation works.
+No runtimeUI/parser change or native/IME/TalkBack/whole-backend certificate.
+
+ActualHTTP93 answers preserve124 baseline completions/2480XP,award180XP
+once→133completions/2660XP. Comma/dot74,5/74.5 replay identical;grade7
+catalog unchanged,private rubrics hidden,six sanitized public fixtures.
+Current sandboxilm-ai-chemistry-batch24-final-qa,port8901,ownPID9864,
+verify full command before stopping;private defines stay there. All133 r1
+imported revisions immutable. Real users,Biology andPhysics untouched.
+No production/main/PDF/OCR/fulltext/token push or new externalknowledge.
+
+Nextbatch27:grade9 §1–5,sequence1–5,original5–28. Original4–29 already
+visually read;private notes .local/grade9_start_source_notes.md andrenders4–42.
+Review before authoring:Ar/nucleoncount,legacygroup/period universal claims,
+Mg radius .269 andstrictmonotonictrends,Cs strongestabsolute,orbitalpaths;
+bond/valence/oxidation universals;water/CO2 conductivity,H3PO3 acidH task,
+universal chloride safety;NH4OH schoolmodel/acidstages;58%H2SO4 ambiguous
+basis,allorganicweak/allconcentrationstrong andunlimitedKconcentrationlaw.
+Keep exact clear models,hold errors visibly,no silent memory repair.

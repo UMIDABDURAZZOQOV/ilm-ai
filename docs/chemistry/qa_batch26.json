@@ -1,0 +1,51 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 124,
+  "prior_xp": 2480,
+  "added_lessons": 9,
+  "added_questions": 93,
+  "kinds": {
+    "concept_selection": 27,
+    "short_text": 9,
+    "chemical_formula": 23,
+    "numeric_value": 20,
+    "chemical_equation": 14
+  },
+  "added_xp": 180,
+  "total_xp": 2660,
+  "total_completed_lessons": 133,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_catalog_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public sulfate/fertilizer laboratory catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 133,
+  "remaining_lessons": 135,
+  "backend_tests": {
+    "passed": 851,
+    "skipped": 1,
+    "seconds": 389.15
+  },
+  "targeted_batch_tests": {
+    "passed": 62,
+    "seconds": 6.88
+  },
+  "flutter_tests": {
+    "passed": 514,
+    "seconds": 79
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 87.0
+  },
+  "flutter_model_widgets": {
+    "passed": 2,
+    "seconds": 6,
+    "capture_rerun_seconds": 7
+  },
+  "open_source_holds": 1,
+  "open_editorial_issues": 86,
+  "production_operations": false
+}

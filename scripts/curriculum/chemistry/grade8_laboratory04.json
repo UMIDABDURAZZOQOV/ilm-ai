@@ -1,0 +1,1792 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 8,
+  "sequence": 53,
+  "key": "chemistry-8-lab04-r1",
+  "revision": 1,
+  "topic_id": "ch8-laboratory04",
+  "book_id": "chemistry-8-uz-2019",
+  "title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch8-laboratory03"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-laboratory04",
+      "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+      "paragraph": 4,
+      "printed_pages": [
+        201
+      ],
+      "pdf_pages": [
+        201
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-laboratory04-page201"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph27",
+      "topic_title": "Xlorid kislota",
+      "paragraph": 27,
+      "printed_pages": [
+        119
+      ],
+      "pdf_pages": [
+        119
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph27-page119"
+    }
+  ],
+  "facts": {
+    "purpose": {
+      "claim": "Vazifa tuproqdan olingan filtratdagi xloridni tekshirish haqida. Namunaning kuzatuv natijasi va miqdori berilmagan. Shu sababli biz avvalgi ma’lum xlorid modelini o‘qiymiz, haqiqiy maktab tuprog‘i uchun javob yaratmaymiz.",
+      "verified_answers": [
+        "Xlorid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        }
+      ]
+    },
+    "reagent": {
+      "claim": "Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+      "verified_answers": [
+        "AgNO3",
+        "AgCl",
+        "NaCl+AgNO3=AgCl+NaNO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    "scope": {
+      "claim": "Sifat belgisi haqidagi bilim bilan o‘lchangan miqdor farqlanadi. Bu topshiriqda massa, konsentratsiya yoki qayd etilgan cho‘kma miqdori yo‘q; undan aniq xlorid soni yoki tuproq sifati haqida xulosa hisoblab bo‘lmaydi.",
+      "verified_answers": [
+        "Sifat belgisi",
+        "Aniq konsentratsiyani hisoblash uchun ma’lumot yetishmaydi"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        }
+      ]
+    },
+    "formula": {
+      "claim": "Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+      "verified_answers": [
+        "AgCl",
+        "AgNO3",
+        "3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    "balance": {
+      "claim": "NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi.",
+      "verified_answers": [
+        "NaCl+AgNO3=AgCl+NaNO3",
+        "1"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Filtrat haqida berilgan vazifa",
+        "body": "Vazifa tuproqdan olingan filtratdagi xloridni tekshirish haqida. Namunaning kuzatuv natijasi va miqdori berilmagan. Shu sababli biz avvalgi ma’lum xlorid modelini o‘qiymiz, haqiqiy maktab tuprog‘i uchun javob yaratmaymiz.",
+        "fact_ids": [
+          "purpose"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory04",
+            "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+            "paragraph": 4,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory04-page201"
+          }
+        ]
+      },
+      {
+        "title": "Ma’lum xlorid dalili",
+        "body": "Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+        "fact_ids": [
+          "reagent"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory04",
+            "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+            "paragraph": 4,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory04-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              119
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page119"
+          }
+        ]
+      },
+      {
+        "title": "Sifat va miqdorni ajrating",
+        "body": "Sifat belgisi haqidagi bilim bilan o‘lchangan miqdor farqlanadi. Bu topshiriqda massa, konsentratsiya yoki qayd etilgan cho‘kma miqdori yo‘q; undan aniq xlorid soni yoki tuproq sifati haqida xulosa hisoblab bo‘lmaydi.",
+        "fact_ids": [
+          "scope"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory04",
+            "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+            "paragraph": 4,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory04-page201"
+          }
+        ]
+      },
+      {
+        "title": "Reaktiv va mahsulot formulasi",
+        "body": "Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+        "fact_ids": [
+          "formula"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory04",
+            "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+            "paragraph": 4,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory04-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              119
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page119"
+          }
+        ]
+      },
+      {
+        "title": "Atomlar bo‘yicha tekshiruv",
+        "body": "NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi.",
+        "fact_ids": [
+          "balance"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory04",
+            "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+            "paragraph": 4,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory04-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              119
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page119"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [
+      {
+        "title": "Ma’lum modelni tekshirish",
+        "body": "NaCl+AgNO3=AgCl+NaNO3 daNa,Cl,Ag,N bir martadan;O uch martadan qatnashadi. Formula balanslangan. Ammo namuna natijasi berilmagani sababli bu maktab tuprog‘ida xlorid topildi degan qayd emas.",
+        "fact_ids": [
+          "purpose",
+          "balance"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory04",
+            "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+            "paragraph": 4,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory04-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              119
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page119"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-laboratory04",
+        "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+        "paragraph": 4,
+        "printed_pages": [
+          201
+        ],
+        "pdf_pages": [
+          201
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-laboratory04-page201"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph27",
+        "topic_title": "Xlorid kislota",
+        "paragraph": 27,
+        "printed_pages": [
+          119
+        ],
+        "pdf_pages": [
+          119
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph27-page119"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-8-lab04-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Oldingi xlorid modeli uchun reaktiv?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat S8"
+          },
+          {
+            "id": "b",
+            "label": "Faqat I2"
+          },
+          {
+            "id": "c",
+            "label": "AgNO3"
+          },
+          {
+            "id": "d",
+            "label": "Faqat KCl panjara"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "AgNO3",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+            "fact_ids": [
+              "reagent"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "reagent"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab04-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "ReaktivAgNO3, cho‘kma esa…",
+        "options": [
+          {
+            "id": "a",
+            "label": "AgCl"
+          },
+          {
+            "id": "b",
+            "label": "NaCl"
+          },
+          {
+            "id": "c",
+            "label": "NaNO3"
+          },
+          {
+            "id": "d",
+            "label": "AgNO3"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "AgCl",
+        "feedback": {
+          "correct": "To‘g‘ri. Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+            "fact_ids": [
+              "formula"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "formula"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab04-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Miqdor berilmagan vazifadan qaysi xulosa o‘rinli?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Xlorid har doim50%"
+          },
+          {
+            "id": "b",
+            "label": "Aniq konsentratsiyani hisoblash uchun ma’lumot yetishmaydi"
+          },
+          {
+            "id": "c",
+            "label": "Barcha tuproq bir xil"
+          },
+          {
+            "id": "d",
+            "label": "Tuproq sifati tasdiqlandi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Aniq konsentratsiyani hisoblash uchun ma’lumot yetishmaydi",
+        "feedback": {
+          "correct": "To‘g‘ri. Sifat belgisi haqidagi bilim bilan o‘lchangan miqdor farqlanadi. Bu topshiriqda massa, konsentratsiya yoki qayd etilgan cho‘kma miqdori yo‘q; undan aniq xlorid soni yoki tuproq sifati haqida xulosa hisoblab bo‘lmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Sifat belgisi haqidagi bilim bilan o‘lchangan miqdor farqlanadi. Bu topshiriqda massa, konsentratsiya yoki qayd etilgan cho‘kma miqdori yo‘q; undan aniq xlorid soni yoki tuproq sifati haqida xulosa hisoblab bo‘lmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Sifat belgisi haqidagi bilim bilan o‘lchangan miqdor farqlanadi. Bu topshiriqda massa, konsentratsiya yoki qayd etilgan cho‘kma miqdori yo‘q; undan aniq xlorid soni yoki tuproq sifati haqida xulosa hisoblab bo‘lmaydi.",
+            "fact_ids": [
+              "scope"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "scope"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab04-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Topshiriq qaysi kislota qoldig‘iga oid sifat tekshiruvini so‘raydi?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Xlorid",
+        "feedback": {
+          "correct": "To‘g‘ri. Vazifa tuproqdan olingan filtratdagi xloridni tekshirish haqida. Namunaning kuzatuv natijasi va miqdori berilmagan. Shu sababli biz avvalgi ma’lum xlorid modelini o‘qiymiz, haqiqiy maktab tuprog‘i uchun javob yaratmaymiz.",
+          "incorrect": "Hozircha noto‘g‘ri. Vazifa tuproqdan olingan filtratdagi xloridni tekshirish haqida. Namunaning kuzatuv natijasi va miqdori berilmagan. Shu sababli biz avvalgi ma’lum xlorid modelini o‘qiymiz, haqiqiy maktab tuprog‘i uchun javob yaratmaymiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Vazifa tuproqdan olingan filtratdagi xloridni tekshirish haqida. Namunaning kuzatuv natijasi va miqdori berilmagan. Shu sababli biz avvalgi ma’lum xlorid modelini o‘qiymiz, haqiqiy maktab tuprog‘i uchun javob yaratmaymiz.",
+            "fact_ids": [
+              "purpose"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              }
+            ]
+          }
+        ],
+        "expected": "Xlorid",
+        "aliases": [
+          "Xlorid"
+        ]
+      },
+      "fact_ids": [
+        "purpose"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab04-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Reaktiv formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "AgNO3",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi dalilda xloridni aniqlash reaktiviAgNO3. OqAgCl xlorid uchun manbadagi sifat belgisi; ma’lum modelNaCl+AgNO3=AgCl+NaNO3.",
+            "fact_ids": [
+              "reagent"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "AgNO3"
+      },
+      "fact_ids": [
+        "reagent"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab04-r1-q06",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Manbadagi oq cho‘kma formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "AgCl",
+        "feedback": {
+          "correct": "To‘g‘ri. Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+            "fact_ids": [
+              "formula"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "AgCl"
+      },
+      "fact_ids": [
+        "formula"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab04-r1-q07",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Ma’lumNaCl+AgNO3→AgCl+NaNO3 modelini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "NaCl+AgNO3=AgCl+NaNO3",
+        "feedback": {
+          "correct": "To‘g‘ri. NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi."
+        },
+        "solution": [
+          {
+            "body": "NaCl+AgNO3=AgCl+NaNO3 modelining har ikki tomonida1Na,1Cl,1Ag,1N va3O bor. Barcha koeffitsiyentlar1. Shu tenglama tekshiruvi yangi haqiqiy namuna kuzatuvi hisoblanmaydi.",
+            "fact_ids": [
+              "balance"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "NaCl+AgNO3=AgCl+NaNO3"
+      },
+      "fact_ids": [
+        "balance"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab04-r1-q08",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "BirAgNO3 formula birligidagi O atomlari soni?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "atom"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "3",
+        "feedback": {
+          "correct": "To‘g‘ri. Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Ma’lum modeldagiAgCl formula birligida Ag:Cl=1:1. AgNO3 tarkibida1Ag,1N va3O bor. Reaktiv formulasi bilan cho‘kma formulasi bir xil emas.",
+            "fact_ids": [
+              "formula"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory04",
+                "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+                "paragraph": 4,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory04-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "3",
+        "unit": "atom"
+      },
+      "fact_ids": [
+        "formula"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory04",
+          "topic_title": "Tuproq eritmasi tarkibida xloridlarning borligini aniqlash",
+          "paragraph": 4,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory04-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch8-paragraph27"
+  ]
+}

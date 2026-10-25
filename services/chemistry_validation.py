@@ -108,6 +108,15 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph44': 'ch8-p44-biogen-clinical-essentiality-review',
     'ch8-practical05': 'ch8-practical5-table-nitrate-unknown-review',
     'ch8-laboratory01': 'ch8-lab1-amphoteric-observation-scope',
+    'ch8-laboratory02': 'ch8-lab2-crystal-phase-scope',
+    'ch8-laboratory03': 'ch8-lab3-halide-starch-observation-scope',
+    'ch8-laboratory04': 'ch8-lab4-soil-unknown-scope',
+    'ch8-laboratory05': 'ch8-lab5-halogen-condition-scope',
+    'ch8-laboratory06': 'ch8-lab6-solvent-layer-scope',
+    'ch8-laboratory07': 'ch8-lab7-mineral-formula-unit-scope',
+    'ch8-laboratory08': 'ch8-lab8-sulfate-model-scope',
+    'ch8-laboratory09': 'ch8-lab9-ammonia-ratio-observation-scope',
+    'ch8-laboratory10': 'ch8-lab10-fertilizer-unknown-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -579,6 +588,18 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-laboratory01' in topic_ids:
             require(not any('barcha gidroksidlar' in a.casefold() and 'ishqorda eriydi' in a.casefold()
                             for a in plain_values), 'unqualified_hydroxide_alkali_dissolution_cannot_be_a_premise')
+        if 'ch8-laboratory03' in topic_ids:
+            require(not any('kraxmal' in a.casefold() and ('ko‘k' in a.casefold() or "ko'k" in a.casefold())
+                            for a in plain_values), 'unprovided_starch_color_cannot_be_a_premise')
+        if 'ch8-laboratory04' in topic_ids:
+            require(not any('barcha tuproq' in a.casefold() and 'xlorid' in a.casefold()
+                            for a in plain_values), 'unprovided_soil_chloride_result_cannot_be_a_premise')
+        if 'ch8-laboratory06' in topic_ids:
+            require(not any('benzol' in a.casefold() and ('qatlam binafsha' in a.casefold() or 'qatlami binafsha' in a.casefold())
+                            for a in plain_values), 'unprovided_iodine_layer_color_cannot_be_a_premise')
+        if 'ch8-laboratory09' in topic_ids:
+            require(not any('1.5:1' in a.replace(',', '.') and 'stexiometrik' in a.casefold()
+                            for a in f['verified_answers']), 'recipe_is_not_exact_stoichiometric_mass_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

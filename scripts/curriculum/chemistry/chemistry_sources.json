@@ -8861,7 +8861,33 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab2-crystal-phase-scope",
+              "status": "open_review",
+              "printed_pages": [
+                200,
+                201
+              ],
+              "pdf_pages": [
+                200,
+                201
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "KClcoord6 andS8ring/chair are explicit;iodine in heading lacks detailed lattice/model. Earlier17/75 list does not explicitly containI2. Do not universalizeS8 to all sulfur phases.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab2-crystal-phase-scope",
+                  "printed_page": 200,
+                  "reason": "Use exactKClionic/S8molecular evidence and earlierI2twoatom/solid properties;no unprovided iodine lattice geometry/coordination or actual construction result."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -8906,7 +8932,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab3-halide-starch-observation-scope",
+              "status": "open_review",
+              "printed_pages": [
+                201
+              ],
+              "pdf_pages": [
+                201
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "AgNO3 table is a task without recorded experiment. Iodine/starch,potato,bread tasks have no printed outcome;earlier grade8 text locator has no starch-color evidence.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab3-halide-starch-observation-scope",
+                  "printed_page": 201,
+                  "reason": "KnownAgCl/AgBr/AgI equations/colors from27/119,28/122 only. Hold starch-color/actualfoodcomposition/realobservations;no memory-basedblue answer or new chemicalcomplex identity."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -8951,7 +9000,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab4-soil-unknown-scope",
+              "status": "open_review",
+              "printed_pages": [
+                201
+              ],
+              "pdf_pages": [
+                201
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Schoolsoil sample task gives no actual chloride measurement or validated interference/selectivity conditions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab4-soil-unknown-scope",
+                  "printed_page": 201,
+                  "reason": "Teach knownchloride/AgCl source model and evidence limits;no inventedfieldresult,allsoilpositive,quantitativechloride or safety/quality certificate."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -8996,7 +9068,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab5-halogen-condition-scope",
+              "status": "open_review",
+              "printed_pages": [
+                202
+              ],
+              "pdf_pages": [
+                202
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "3x3 displacement table has no actualobservations. Relativeoxidizingorder andexactKmodels given22/94 support bounded digitalNa examples,not allsolvents/conditions/oxyanions.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab5-halogen-condition-scope",
+                  "printed_page": 202,
+                  "reason": "Separate exactgivenproductbalances from physical experiment or universalhalogenpredictor;do not misread chlorate reaction as simplechloride displacement."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -9041,7 +9136,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab6-solvent-layer-scope",
+              "status": "open_review",
+              "printed_pages": [
+                202
+              ],
+              "pdf_pages": [
+                202
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Iodinewater/benzene procedure asks layercolors but records none. Earlier22/94 numericwater solubility lacks fullT/P;violet sublimationgas is not benzene-layer evidence.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab6-solvent-layer-scope",
+                  "printed_page": 202,
+                  "reason": "Qualitativewaterpoor/organicgood source28/121 and22/9495 only. Hold layercolor/position/density/actualpartitionmeasurement and condition-free numeric solubility;no physicalbenzene instructions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -9087,7 +9205,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab7-mineral-formula-unit-scope",
+              "status": "open_review",
+              "printed_pages": [
+                203
+              ],
+              "pdf_pages": [
+                203
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Sampletableblank. Source29/131 gypsumCaSO4·2H2O differs erroneousalabaster quarterhydrate32/140;mineralformulaunit mass differs molecule/atomicS versusS8.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab7-mineral-formula-unit-scope",
+                  "printed_page": 203,
+                  "reason": "Knownformulas/exactgivenconstants and scopedrhombicS properties only;no fabricated actual pyrite/ZnS/gypsumappearance/solubility. Preservehydrateerrorreview;no novelhydrateparser."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -9133,7 +9274,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab8-sulfate-model-scope",
+              "status": "open_review",
+              "printed_pages": [
+                203
+              ],
+              "pdf_pages": [
+                203
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Four solutiontasks lack actualmeasurements;BaSO4white known32/140 is qualitative under sourced model,not fullselectivity/amount/unknownmixture certificate.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab8-sulfate-model-scope",
+                  "printed_page": 203,
+                  "reason": "Givenproductbalances for four known solutions with earlierexactformulas. No actualperformedclaim,newquantitativeprecipitationresult or universalwhitesolid=sulfate rule."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -9179,7 +9343,33 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab9-ammonia-ratio-observation-scope",
+              "status": "open_review",
+              "printed_pages": [
+                203,
+                204
+              ],
+              "pdf_pages": [
+                203,
+                204
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "1.5:1 NH4Cl/lime is procedural massrecipe,not exactstoichiometric ratio. AqueousNH4OH is schoolmodel not isolatedpureproduct;paper/gas tasks have no measuredoutput.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab9-ammonia-ratio-observation-scope",
+                  "printed_page": 203,
+                  "reason": "Use exact37/160equation andwater/base model,practical3/171whiteNH4Cl,27/116indicatorcontext. No physicalpreparation/heating/gas/smell,exactrecipe-key or fabricatedpaperobservation."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -9220,7 +9410,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab10-fertilizer-unknown-scope",
+              "status": "open_review",
+              "printed_pages": [
+                204
+              ],
+              "pdf_pages": [
+                204
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Blank5row table teacherselects real samples. No actualIDs/colors/purity/hydrates provided;commercialprimarynutrient differs wholechemicalelementcount.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab10-fertilizer-unknown-scope",
+                  "printed_page": 204,
+                  "reason": "Five explicit digitalknownexamples42/43 rather than guessed unknowns. Exactformula/mass arithmetic only with priorconstants;no observedcolors,commercialpurity,unique mixturemolecule or fielddosage."
+                }
+              ]
+            }
+          ]
         }
       ],
       "full_fact_formula_review_complete": false,

@@ -1,0 +1,3122 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 8,
+  "sequence": 52,
+  "key": "chemistry-8-lab03-r1",
+  "revision": 1,
+  "topic_id": "ch8-laboratory03",
+  "book_id": "chemistry-8-uz-2019",
+  "title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch8-laboratory02"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-laboratory03",
+      "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+      "paragraph": 3,
+      "printed_pages": [
+        201
+      ],
+      "pdf_pages": [
+        201
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-laboratory03-page201"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph27",
+      "topic_title": "Xlorid kislota",
+      "paragraph": 27,
+      "printed_pages": [
+        119
+      ],
+      "pdf_pages": [
+        119
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph27-page119"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph28",
+      "topic_title": "Ftor, brom, yod",
+      "paragraph": 28,
+      "printed_pages": [
+        122
+      ],
+      "pdf_pages": [
+        122
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph28-page122"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph28",
+      "topic_title": "Ftor, brom, yod",
+      "paragraph": 28,
+      "printed_pages": [
+        121
+      ],
+      "pdf_pages": [
+        121
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph28-page121"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph27",
+      "topic_title": "Xlorid kislota",
+      "paragraph": 27,
+      "printed_pages": [
+        116
+      ],
+      "pdf_pages": [
+        116
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph27-page116"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph39",
+      "topic_title": "Nitrat kislota",
+      "paragraph": 39,
+      "printed_pages": [
+        165
+      ],
+      "pdf_pages": [
+        165
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph39-page165"
+    }
+  ],
+  "facts": {
+    "table": {
+      "claim": "JadvaldaAgNO3 reaktivi HCl,NaCl,NaBr vaNaI bilan taqqoslanadi. Bu ma’lum formulalar bo‘yicha raqamli mashq; bo‘sh jadval haqiqiy tajriba natijasi deb to‘ldirilmaydi.",
+      "verified_answers": [
+        "AgNO3",
+        "4"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        }
+      ]
+    },
+    "chloride": {
+      "claim": "Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+      "verified_answers": [
+        "AgCl",
+        "Oq",
+        "AgNO3+NaCl=AgCl+NaNO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    "bromide": {
+      "claim": "Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+      "verified_answers": [
+        "AgBr",
+        "Sarg‘ish",
+        "AgNO3+NaBr=AgBr+NaNO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    "iodide": {
+      "claim": "Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+      "verified_answers": [
+        "AgI",
+        "Sariq",
+        "AgNO3+NaI=AgI+NaNO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            121
+          ],
+          "pdf_pages": [
+            121
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page121"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    "acid": {
+      "claim": "HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi.",
+      "verified_answers": [
+        "HCl+AgNO3=AgCl+HNO3",
+        "HNO3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            116
+          ],
+          "pdf_pages": [
+            116
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page116"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph39",
+          "topic_title": "Nitrat kislota",
+          "paragraph": 39,
+          "printed_pages": [
+            165
+          ],
+          "pdf_pages": [
+            165
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph39-page165"
+        }
+      ]
+    },
+    "observation": {
+      "claim": "Keyingi vazifa yodning kraxmal, kartoshka va non bilan kuzatuvini so‘raydi. Bu sahifada natija rangi yoki namuna tarkibi yozilmagan. Savolning o‘zi qayd etilgan natija o‘rnini bosa olmaydi.",
+      "verified_answers": [
+        "Natija berilmagan"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "To‘rtta ma’lum namuna",
+        "body": "JadvaldaAgNO3 reaktivi HCl,NaCl,NaBr vaNaI bilan taqqoslanadi. Bu ma’lum formulalar bo‘yicha raqamli mashq; bo‘sh jadval haqiqiy tajriba natijasi deb to‘ldirilmaydi.",
+        "fact_ids": [
+          "table"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory03",
+            "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+            "paragraph": 3,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory03-page201"
+          }
+        ]
+      },
+      {
+        "title": "Xlorid uchun dalil",
+        "body": "Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+        "fact_ids": [
+          "chloride"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory03",
+            "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+            "paragraph": 3,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory03-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              119
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page119"
+          }
+        ]
+      },
+      {
+        "title": "Bromidni ajrating",
+        "body": "Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+        "fact_ids": [
+          "bromide"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory03",
+            "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+            "paragraph": 3,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory03-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph28",
+            "topic_title": "Ftor, brom, yod",
+            "paragraph": 28,
+            "printed_pages": [
+              122
+            ],
+            "pdf_pages": [
+              122
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph28-page122"
+          }
+        ]
+      },
+      {
+        "title": "Yodid erkin yod emas",
+        "body": "Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+        "fact_ids": [
+          "iodide"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory03",
+            "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+            "paragraph": 3,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory03-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph28",
+            "topic_title": "Ftor, brom, yod",
+            "paragraph": 28,
+            "printed_pages": [
+              121
+            ],
+            "pdf_pages": [
+              121
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph28-page121"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph28",
+            "topic_title": "Ftor, brom, yod",
+            "paragraph": 28,
+            "printed_pages": [
+              122
+            ],
+            "pdf_pages": [
+              122
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph28-page122"
+          }
+        ]
+      },
+      {
+        "title": "HCl uchun mahsulotli balans",
+        "body": "HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi.",
+        "fact_ids": [
+          "acid"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory03",
+            "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+            "paragraph": 3,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory03-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              116
+            ],
+            "pdf_pages": [
+              116
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page116"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              119
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page119"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph39",
+            "topic_title": "Nitrat kislota",
+            "paragraph": 39,
+            "printed_pages": [
+              165
+            ],
+            "pdf_pages": [
+              165
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph39-page165"
+          }
+        ]
+      },
+      {
+        "title": "Kuzatuv savoli va qayd farqi",
+        "body": "Keyingi vazifa yodning kraxmal, kartoshka va non bilan kuzatuvini so‘raydi. Bu sahifada natija rangi yoki namuna tarkibi yozilmagan. Savolning o‘zi qayd etilgan natija o‘rnini bosa olmaydi.",
+        "fact_ids": [
+          "observation"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory03",
+            "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+            "paragraph": 3,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory03-page201"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [
+      {
+        "title": "Bir xil natija nimani ajratmaydi?",
+        "body": "HCl vaNaCl uchun berilganAgCl mahsuloti xlorid dalilidir. Shu umumiy belgi ikki boshlang‘ichmoddadan qaysi biri bo‘lganini yolg‘iz o‘zi tanlab bermaydi. Ma’lum formulali balanslar alohida yoziladi.",
+        "fact_ids": [
+          "chloride",
+          "acid"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory03",
+            "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+            "paragraph": 3,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory03-page201"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              119
+            ],
+            "pdf_pages": [
+              119
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page119"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              116
+            ],
+            "pdf_pages": [
+              116
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page116"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph39",
+            "topic_title": "Nitrat kislota",
+            "paragraph": 39,
+            "printed_pages": [
+              165
+            ],
+            "pdf_pages": [
+              165
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph39-page165"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-laboratory03",
+        "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+        "paragraph": 3,
+        "printed_pages": [
+          201
+        ],
+        "pdf_pages": [
+          201
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-laboratory03-page201"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph27",
+        "topic_title": "Xlorid kislota",
+        "paragraph": 27,
+        "printed_pages": [
+          119
+        ],
+        "pdf_pages": [
+          119
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph27-page119"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph28",
+        "topic_title": "Ftor, brom, yod",
+        "paragraph": 28,
+        "printed_pages": [
+          122
+        ],
+        "pdf_pages": [
+          122
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph28-page122"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph28",
+        "topic_title": "Ftor, brom, yod",
+        "paragraph": 28,
+        "printed_pages": [
+          121
+        ],
+        "pdf_pages": [
+          121
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph28-page121"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph27",
+        "topic_title": "Xlorid kislota",
+        "paragraph": 27,
+        "printed_pages": [
+          116
+        ],
+        "pdf_pages": [
+          116
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph27-page116"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph39",
+        "topic_title": "Nitrat kislota",
+        "paragraph": 39,
+        "printed_pages": [
+          165
+        ],
+        "pdf_pages": [
+          165
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph39-page165"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-8-lab03-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "ManbaningAgCl cho‘kma tavsifi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sariq"
+          },
+          {
+            "id": "b",
+            "label": "Oq"
+          },
+          {
+            "id": "c",
+            "label": "Sarg‘ish"
+          },
+          {
+            "id": "d",
+            "label": "Qoramtir-kulrang yod"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Oq",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+            "fact_ids": [
+              "chloride"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "chloride"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "AgNO3/NaBr modelining cho‘kma mahsuloti?",
+        "options": [
+          {
+            "id": "a",
+            "label": "AgCl"
+          },
+          {
+            "id": "b",
+            "label": "AgI"
+          },
+          {
+            "id": "c",
+            "label": "I2"
+          },
+          {
+            "id": "d",
+            "label": "AgBr"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "AgBr",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+            "fact_ids": [
+              "bromide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  122
+                ],
+                "pdf_pages": [
+                  122
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page122"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "bromide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "AgNO3/NaI modelidagi sariq mahsulot?",
+        "options": [
+          {
+            "id": "a",
+            "label": "AgI"
+          },
+          {
+            "id": "b",
+            "label": "AgBr"
+          },
+          {
+            "id": "c",
+            "label": "AgCl"
+          },
+          {
+            "id": "d",
+            "label": "NaNO3"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "AgI",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+            "fact_ids": [
+              "iodide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  121
+                ],
+                "pdf_pages": [
+                  121
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page121"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  122
+                ],
+                "pdf_pages": [
+                  122
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page122"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "iodide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            121
+          ],
+          "pdf_pages": [
+            121
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page121"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "ManbadaAgBr rangi qanday atalgan?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Sarg‘ish",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+            "fact_ids": [
+              "bromide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  122
+                ],
+                "pdf_pages": [
+                  122
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page122"
+              }
+            ]
+          }
+        ],
+        "expected": "Sarg‘ish",
+        "aliases": [
+          "Sarg‘ish",
+          "Sarg'ish"
+        ]
+      },
+      "fact_ids": [
+        "bromide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Xlorid uchun berilgan kumush cho‘kma formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "AgCl",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+            "fact_ids": [
+              "chloride"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "AgCl"
+      },
+      "fact_ids": [
+        "chloride"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q06",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Kumush bromid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "AgBr",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+            "fact_ids": [
+              "bromide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  122
+                ],
+                "pdf_pages": [
+                  122
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page122"
+              }
+            ]
+          }
+        ],
+        "expected": "AgBr"
+      },
+      "fact_ids": [
+        "bromide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q07",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Kumush yodid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "AgI",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+            "fact_ids": [
+              "iodide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  121
+                ],
+                "pdf_pages": [
+                  121
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page121"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  122
+                ],
+                "pdf_pages": [
+                  122
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page122"
+              }
+            ]
+          }
+        ],
+        "expected": "AgI"
+      },
+      "fact_ids": [
+        "iodide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            121
+          ],
+          "pdf_pages": [
+            121
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page121"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q08",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mahsulotlar berilgan modelni tenglang: AgNO3+NaCl→AgCl+NaNO3",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "AgNO3+NaCl=AgCl+NaNO3",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi."
+        },
+        "solution": [
+          {
+            "body": "Oldingi xlorid dalili: AgNO3+NaCl=AgCl+NaNO3. AgCl oq pag‘a cho‘kma deb tavsiflangan; aniq ma’lum modeldagi xloridni tanish uchun shu mahsulot o‘qiladi.",
+            "fact_ids": [
+              "chloride"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              }
+            ]
+          }
+        ],
+        "expected": "AgNO3+NaCl=AgCl+NaNO3"
+      },
+      "fact_ids": [
+        "chloride"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q09",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mahsulotlar berilgan modelni tenglang: AgNO3+NaBr→AgBr+NaNO3",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "AgNO3+NaBr=AgBr+NaNO3",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi."
+        },
+        "solution": [
+          {
+            "body": "Oldingi galogenid jadvalidaAgNO3+NaBr=AgBr+NaNO3; AgBr sarg‘ish cho‘kma. Kumush bromidning sarg‘ish tavsifi xuddi shu jadvaldagi qo‘rg‘oshin bromid bilan almashtirilmaydi.",
+            "fact_ids": [
+              "bromide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  122
+                ],
+                "pdf_pages": [
+                  122
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page122"
+              }
+            ]
+          }
+        ],
+        "expected": "AgNO3+NaBr=AgBr+NaNO3"
+      },
+      "fact_ids": [
+        "bromide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q10",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mahsulotlar berilgan modelni tenglang: AgNO3+NaI→AgI+NaNO3",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "AgNO3+NaI=AgI+NaNO3",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi."
+        },
+        "solution": [
+          {
+            "body": "Oldingi jadvaldaAgNO3+NaI=AgI+NaNO3; AgI sariq cho‘kma sifatida berilgan. AgI va erkin yodI2 turli formulalar: biri galogenid mahsuloti, ikkinchisi oddiy modda molekulasi.",
+            "fact_ids": [
+              "iodide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  121
+                ],
+                "pdf_pages": [
+                  121
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page121"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph28",
+                "topic_title": "Ftor, brom, yod",
+                "paragraph": 28,
+                "printed_pages": [
+                  122
+                ],
+                "pdf_pages": [
+                  122
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph28-page122"
+              }
+            ]
+          }
+        ],
+        "expected": "AgNO3+NaI=AgI+NaNO3"
+      },
+      "fact_ids": [
+        "iodide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            121
+          ],
+          "pdf_pages": [
+            121
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page121"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph28",
+          "topic_title": "Ftor, brom, yod",
+          "paragraph": 28,
+          "printed_pages": [
+            122
+          ],
+          "pdf_pages": [
+            122
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph28-page122"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab03-r1-q11",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mahsulotlar berilgan modelni tenglang: HCl+AgNO3→AgCl+HNO3",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "HCl+AgNO3=AgCl+HNO3",
+        "feedback": {
+          "correct": "To‘g‘ri. HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi.",
+          "incorrect": "Hozircha noto‘g‘ri. HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi."
+        },
+        "solution": [
+          {
+            "body": "HCl ustuni uchun mahsulotlari aniq berilgan raqamli balans: HCl+AgNO3=AgCl+HNO3. Oldingi xlorid/AgCl dalili va HNO3 formulasi ishlatilgan. Koeffitsiyentlar1:1:1:1; atomlar ikki tomonda saqlanadi.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory03",
+                "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+                "paragraph": 3,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory03-page201"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  116
+                ],
+                "pdf_pages": [
+                  116
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page116"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  119
+                ],
+                "pdf_pages": [
+                  119
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page119"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph39",
+                "topic_title": "Nitrat kislota",
+                "paragraph": 39,
+                "printed_pages": [
+                  165
+                ],
+                "pdf_pages": [
+                  165
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph39-page165"
+              }
+            ]
+          }
+        ],
+        "expected": "HCl+AgNO3=AgCl+HNO3"
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory03",
+          "topic_title": "Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari",
+          "paragraph": 3,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory03-page201"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            116
+          ],
+          "pdf_pages": [
+            116
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page116"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            119
+          ],
+          "pdf_pages": [
+            119
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page119"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph39",
+          "topic_title": "Nitrat kislota",
+          "paragraph": 39,
+          "printed_pages": [
+            165
+          ],
+          "pdf_pages": [
+            165
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph39-page165"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch8-paragraph27",
+    "ch8-paragraph28",
+    "ch8-paragraph39"
+  ]
+}
