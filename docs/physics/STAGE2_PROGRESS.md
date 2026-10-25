@@ -1059,3 +1059,47 @@ PDF117–129OCR/aslrasmlari qayta o‘qildi,darslari hali yozilmagan. NaClaq
 sodium deposition/atomic-vs-molar mass/source empiricalk tafovutlari
 keyingireviewda ajratilsin;wetchemistry DIY qo‘shilmasin. Oraliq tasdiq
 kutilmaydi. Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi.
+
+
+## 8-sinf §41–45 va aniq kasrli private rubrika — 2026-10-26 (Asia/Tashkent)
+
+5bo‘lim:elektrolitlar,FaradeyI/II,originalmasalalar,elektroliztatbiqlari.
+21karta/11formula yozuvi/7namuna/35topshiriq(19MCQ+5tartib+11FRQ).
+§41PDF117–120,§42PDF120–123,§43PDF123–125(+M108manbasi§44PDF127),
+§44PDF125–127,§45PDF127–129,bosma raqamlar bir xil.13aslrasm qayta o‘qildi;
+421pagechecks/407noyob.11yangi qoida,jami234. kg/C,mg/C,kg/mol,g/mol,
+C/mol,mol yopiqregistry;valentlik butun,F≈96500C/mol manbaberilgan.
+
+**Orqaga mos private numeric kengaytma:** takrorlanuvchi ratsionalni
+expected_si decimalga avval yaxlitlab noto‘g‘ri truth qilish muammosi bor edi.
+Yangi optional expected_rational={numerator,denominator} faqat serverrubrikada;
+128belgili butunson stringlari,musbat maxraj,noeval. Eski rubrikalar aynan
+expected_si decimal qiymatini ishlatadi. Validator yangi exactratio ni mustaqil
+Fractionoraclega solishtiradi;expected_si endi yangi rubrikada o‘quvchi
+so‘ralgan qadamda yozadigan canonicaljavob bo‘lishi mumkin. Mavjud
+abs_tol_si/rounding_increment_si grid bilan faqat oxirgi qadamda yaxlitlash.
+Mijozga ratio/expected/gradingspec chiqmaydi,DTO yoki grade_answer orqali
+javobkalitini kiritish rad etiladi. APIv2response/MCQ/publiccontract/DBschema
+buzilmadi,migratsiya kerak emas. EskiJSONlar o‘zgarmadi.
+
+FaradeyII da M molyar massa kg/mol,unitless atomicweight emas. PDF123aqNaCl
+H2chiqishi bilan keyin Na massasidepositionni aralashtiradi;Naajralishi
+ko‘r-ko‘rona o‘rgatilmadi. M108/F96500 nazariyAgk≈1.119mg/C bilan jadvalning
+empirik1.118mg/C qiymati alohida berilgan. Lampoff≠exactzero,ikkita qoplangan
+yuza uchun2koeffitsiyent,sourceCr90µm yaqinlashuvi reviewda. Faqat tanlangan
+reaksiya100%current-efficiency nazariy modeli;wetchemistry DIY va haqiqiy
+qaydlar yo‘q. Electrochemistryexpert generalpublication oldidan required.
+
+Yangi grading/content testlari **29passed1.76s**. **To‘liqbackend952passed,
+4PGopt-in skipped,13mavjud warning321.04s**. Actual lokalPG16 **1passed35.32s**:
+152dars/import/reimport/1520XP/replay va legacy137XP3streak2stars. **To‘liq
+Flutter147passed**,111public8FRQ320px/200%;analyze **No issues found1.6s**.
+NativeAndroid/actualTCPHTTP152/webbuild qayta bajarilmadi,mustaqilekspert yo‘q.
+
+**152/316;164qolgan**.6:61/61,7:46/46,8:45/60,9:0/59,10:0/45,11:0/45.
+Jami640karta/272formula yozuvi/167namuna/1014topshiriq/332FRQ.
+Keyingi **8-sinf§46«Vakuumda elektr toki»,PDF/bosma129**. §46–50PDF129–136/
+139–145OCR/aslrasm o‘qildi,originalmatnprivateqoralamada,JSONhaliyo‘q.
+Xaritada§49doimiy magnit,§50Bparametrlar;yarimo‘tkazgich darsi kiritilmaydi.
+PDF132maydon≠ionizator,PDF140o‘rtadafieldzero universalclaim cheklansin.
+Oraliq tasdiq kutilmaydi. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi.

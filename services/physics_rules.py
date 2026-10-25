@@ -24,6 +24,66 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "electrolysis_mass_charge": rule(
+        "m",
+        ["k", "q"],
+        ["k*q", "q*k"],
+        "Berilgan tanlangan elektrod reaksiyasi uchun k,100%current-efficiency nazariy model;PDF121.",
+    ),
+    "electrolysis_mass_current": rule(
+        "m",
+        ["k", "I", "t"],
+        ["k*I*t", "I*t*k"],
+        "Doimiy I,berilgan k,100%current-efficiency;PDF121.",
+    ),
+    "electrolysis_charge": rule(
+        "q", ["m", "k"], ["m/k", "m*k^-1"], "k>0,tanlangan elektrod mahsuloti;PDF122."
+    ),
+    "electrolysis_current": rule(
+        "I",
+        ["m", "k", "t"],
+        ["m/(k*t)", "m/k/t"],
+        "Doimiy I,k,t>0,100%efficiency model;PDF122.",
+    ),
+    "electrolysis_equivalent": rule(
+        "k", ["m", "I", "t"], ["m/(I*t)", "m/I/t"], "I,t>0;shartli qayddan kg/C;PDF122."
+    ),
+    "faraday_equivalent": rule(
+        "k",
+        ["M", "Z", "F"],
+        ["M/(Z*F)", "M/Z/F"],
+        "M MOLYAR MASSA kg/mol,Z musbat butun elektron soni,F=96500C/mol manba yaqinlashuvi;PDF123–124.",
+    ),
+    "faraday_mass": rule(
+        "m",
+        ["M", "q", "Z", "F"],
+        ["M*q/(Z*F)", "M*q/Z/F"],
+        "Tanlangan reaksiya uchun100%current-efficiency,Mkg/mol,F96500C/mol,Zbutun;PDF124.",
+    ),
+    "faraday_mole_charge": rule(
+        "q",
+        ["n", "Z", "F"],
+        ["n*Z*F", "F*Z*n"],
+        "n modda miqdori mol,Z elektronlar soni,F96500C/mol;PDF124.",
+    ),
+    "coating_charge": rule(
+        "q",
+        ["rho", "S", "h", "k"],
+        ["rho*S*h/k", "S*h*rho/k"],
+        "S JAMI QOPLANADIGAN yuza,yupqa tekis qatlam,chetlar e’tiborsiz,100%efficiency;PDF125.",
+    ),
+    "coating_power_mass": rule(
+        "m",
+        ["k", "P", "t", "U"],
+        ["k*P*t/U", "P*t*k/U"],
+        "Doimiy elektriste’molP/U,k,100%current-efficiency;PDF126.",
+    ),
+    "coating_thickness2": rule(
+        "h",
+        ["k", "I", "t", "rho", "a", "b"],
+        ["k*I*t/(2*rho*a*b)", "I*t*k/(2*a*b*rho)"],
+        "To‘g‘ri to‘rtburchakning AYNAN IKKI yuzi,chetlar e’tiborsiz,uniformqatlam,100%efficiency;PDF126.",
+    ),
     "load_current3": rule(
         "I",
         ["P1", "P2", "P3", "U"],
@@ -1252,6 +1312,7 @@ DIMENSION_UNIT = {
     "resistance": "Ω",
     "resistivity": "Ω*m",
     "capacitance": "F",
+    "electrochemical_equivalent": "kg/C",
 }
 
 
@@ -1475,6 +1536,58 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "electrolysis_mass_charge":
+        return positive("k", "electrochemical_equivalent") * value(
+            "q", "charge"
+        ), "mass"
+    if name == "electrolysis_mass_current":
+        return positive("k", "electrochemical_equivalent") * value(
+            "I", "current"
+        ) * value("t", "time"), "mass"
+    if name == "electrolysis_charge":
+        return value("m", "mass") / positive(
+            "k", "electrochemical_equivalent"
+        ), "charge"
+    if name == "electrolysis_current":
+        return value("m", "mass") / (
+            positive("k", "electrochemical_equivalent") * positive("t", "time")
+        ), "current"
+    if name == "electrolysis_equivalent":
+        return positive("m", "mass") / (
+            positive("I", "current") * positive("t", "time")
+        ), "electrochemical_equivalent"
+    if name in {"faraday_equivalent", "faraday_mass", "faraday_mole_charge"}:
+        z = positive("Z", "dimensionless")
+        if givens["Z"]["unit"] != "1" or z.denominator != 1:
+            raise ValueError("positive_integer_electron_valence")
+        f = positive("F", "faraday_constant")
+        if f != 96500:
+            raise ValueError("explicit_source_faraday_approximation")
+        if name == "faraday_mole_charge":
+            return value("n", "amount") * z * f, "charge"
+        k = positive("M", "molar_mass") / (z * f)
+        return (
+            (k, "electrochemical_equivalent")
+            if name == "faraday_equivalent"
+            else (k * value("q", "charge"), "mass")
+        )
+    if name == "coating_charge":
+        return positive("rho", "density") * positive("S", "area") * value(
+            "h", "length"
+        ) / positive("k", "electrochemical_equivalent"), "charge"
+    if name == "coating_power_mass":
+        return positive("k", "electrochemical_equivalent") * value(
+            "P", "power"
+        ) * value("t", "time") / positive("U", "voltage"), "mass"
+    if name == "coating_thickness2":
+        return positive("k", "electrochemical_equivalent") * value(
+            "I", "current"
+        ) * value("t", "time") / (
+            2
+            * positive("rho", "density")
+            * positive("a", "length")
+            * positive("b", "length")
+        ), "length"
     if name == "load_current3":
         return sum(
             (value(k, "power") for k in ["P1", "P2", "P3"]), Fraction()

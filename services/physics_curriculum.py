@@ -9,11 +9,15 @@ from __future__ import annotations
 import hashlib
 import json
 from copy import deepcopy
-from decimal import Decimal
-from fractions import Fraction
 from pathlib import Path
 
-from services.assessment_grading import UNITS, formula_ast, grade_answer, numeric
+from services.assessment_grading import (
+    UNITS,
+    expected_quantity,
+    formula_ast,
+    grade_answer,
+    numeric,
+)
 from services.physics_rules import (
     DIMENSION_UNIT,
     REVIEWED_FORMULAS,
@@ -53,6 +57,7 @@ REVIEWED_BATCHES = {
     "grade8_batch6": (8, 26, 30),
     "grade8_batch7": (8, 31, 35),
     "grade8_batch8": (8, 36, 40),
+    "grade8_batch9": (8, 41, 45),
 }
 # Image-checked continuation missed by the old digital text boundary. Preserve
 # the frozen stage-one archive; permit only this explicitly documented page.
@@ -456,8 +461,7 @@ def validate_batch(document):
                     "unreviewed_formula_equivalent",
                 )
                 require(
-                    Fraction(Decimal(spec["expected_si"]))
-                    == calculation_value(question),
+                    expected_quantity(spec) == calculation_value(question),
                     "calculation_answer_mismatch",
                 )
                 require(

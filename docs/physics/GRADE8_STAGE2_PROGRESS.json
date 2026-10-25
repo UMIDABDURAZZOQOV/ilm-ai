@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 147,
-  "remaining": 169,
+  "authored": 152,
+  "remaining": 164,
   "grades": [
     {
       "grade": 6,
@@ -36,16 +36,16 @@
     {
       "grade": 8,
       "source_sections": 60,
-      "authored": 40,
-      "remaining": 20,
-      "cards": 169,
-      "formula_entries": 97,
-      "examples": 46,
-      "assessments": 281,
-      "frq": 100,
+      "authored": 45,
+      "remaining": 15,
+      "cards": 190,
+      "formula_entries": 108,
+      "examples": 53,
+      "assessments": 316,
+      "frq": 111,
       "laboratories": 4,
       "practicals": 2,
-      "next_section": 41
+      "next_section": 46
     },
     {
       "grade": 9,
@@ -90,25 +90,25 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 408,
+  "original_page_checks": 421,
   "date": "2026-10-26",
   "next": {
     "grade": 8,
-    "section": 41,
-    "pdf_page": 117,
-    "printed_page": 117
+    "section": 46,
+    "pdf_page": 129,
+    "printed_page": 129
   },
-  "unique_original_pages_reviewed": 395,
+  "unique_original_pages_reviewed": 407,
   "tests": {
-    "selected_backend_and_biology_passed": 345,
-    "selected_opt_in_skipped": 2,
-    "backend_seconds": 75.58,
+    "full_backend_passed": 952,
+    "full_backend_opt_in_skipped": 4,
+    "full_backend_warnings": 13,
+    "backend_seconds": 321.04,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 34.58,
-    "flutter_physics_passed": 21,
-    "grade8_public_frq_drafts": 100,
-    "previous_full_backend_passed": 890,
-    "previous_full_flutter_passed": 147
+    "postgresql_seconds": 35.32,
+    "full_flutter_passed": 147,
+    "flutter_analyze": "No issues found (1.6s)",
+    "grade8_public_frq_drafts": 111
   },
   "native_android": "not_run_sdk_absent"
 }

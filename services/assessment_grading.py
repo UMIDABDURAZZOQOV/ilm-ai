@@ -17,6 +17,30 @@ class AnswerError(ValueError):
     pass
 
 
+def expected_quantity(spec):
+    """Private optional exact ratio; legacy decimal rubrics retain their value.
+
+    A repeating rational (for example M/(ZF)) must not be silently rounded
+    before deciding the authored rounding interval. Neither field is public.
+    """
+    if "expected_rational" not in spec:
+        return Fraction(Decimal(spec["expected_si"]))
+    ratio = spec["expected_rational"]
+    if not isinstance(ratio, dict) or set(ratio) != {"numerator", "denominator"}:
+        raise AnswerError("invalid_expected_rational")
+    for value in ratio.values():
+        if (
+            not isinstance(value, str)
+            or len(value) > 128
+            or not re.fullmatch(r"[+-]?[0-9]+", value)
+        ):
+            raise AnswerError("invalid_expected_rational")
+    numerator, denominator = int(ratio["numerator"]), int(ratio["denominator"])
+    if denominator <= 0:
+        raise AnswerError("invalid_expected_rational")
+    return Fraction(numerator, denominator)
+
+
 # Explicit registry, not a permissive expression parser. Source: grade 6
 # PDF12–14 (length/time), PDF21 (film V/S), PDF28 (front h/t),
 # PDF29–35 (mass, volume and density), PDF37–38 (laboratory volumes).
@@ -124,6 +148,13 @@ UNITS = {
     "hWh": ("energy", Fraction(360000)),
     "MWh": ("energy", Fraction(3600000000)),
     "GJ": ("energy", Fraction(1000000000)),
+    # Grade8 PDF121/123/124: molar quantities, not dimensionless atomic weights.
+    "kg/C": ("electrochemical_equivalent", Fraction(1)),
+    "mg/C": ("electrochemical_equivalent", Fraction(1, 10**6)),
+    "kg/mol": ("molar_mass", Fraction(1)),
+    "g/mol": ("molar_mass", Fraction(1, 1000)),
+    "C/mol": ("faraday_constant", Fraction(1)),
+    "mol": ("amount", Fraction(1)),
 }
 UNIT_ALIASES = {
     "ohm": "Ω",
@@ -415,7 +446,7 @@ def grade_answer(spec, answer):
             if actual not in equivalents:
                 return "wrong_formula"
         actual_si = value * factor
-        expected = Fraction(Decimal(spec["expected_si"]))
+        expected = expected_quantity(spec)
         tolerance = max(
             Fraction(Decimal(spec["abs_tol_si"])),
             abs(expected) * Fraction(Decimal(spec["rel_tol"])),

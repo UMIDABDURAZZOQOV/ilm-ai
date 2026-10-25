@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-26 — Fizika8§41–45:** **152/316,164qolgan**,8-sinf45/60.21karta/11formula/7namuna/35topshiriq/11FRQ; jami640karta/272formula/167namuna/1014topshiriq/332FRQ,234qoida.421pagechecks/407noyob. Faradey/molyarSI/empiricalvs theoreticalk/ikkita yuzali qatlam tekshirildi;aqNaClNa-deposition noaniqligi ko‘chirilmadi. Private optional expected_rational bilan exacttruth+explicitroundinggrid;eski decimal/MCQ/DTO/API/DBschema saqlandi,kalitclientga chiqmaydi. **Fullbackend952passed/4PGskipped/13existingwarnings321.04s**,actualPG **1passed35.32s**152lesson/1520XP/replay/legacy;**FullFlutter147passed**,111publicFRQ320px/200%,analyze toza1.6s. Keyingi **8§46PDF129**,46–50source129–136/139–145ko‘rildi,matnprivate,JSONhaliyo‘q. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/ekspert/nashr tasdiqlanmagan.
+
+
 > **2026-10-26 — Fizika8§36–40:** **147/316,169qolgan**,8-sinf40/60. Yangi20karta/5formula/5namuna/32topshiriq/5FRQ; jami619karta/261formula/160namuna/979topshiriq/321FRQ,223qoida.408pagechecks/395noyob. §39PDF112upperdavomi exactwhitelist/note bilan;frozenmap saqlandi. §37–38operationalwiring/unsafe-neutral/42V/livephaseclaim takrorlanmadi,electricalsafetyexpert generalpublication oldidan required;faqatdigital. Physics/Biology **345passed/2PGskipped75.58s**,actualPG **1passed34.58s**147lesson/1470XP/legacy/replay;FlutterPhysics21passed100publicFRQ320px/200%. Oldfull890/147 alohida. Keyingi **8§41PDF117**,41–45source117–129ko‘rildi,authoringhaliyo‘q. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/ekspert/nashr tasdiqlanmagan.
 
 
