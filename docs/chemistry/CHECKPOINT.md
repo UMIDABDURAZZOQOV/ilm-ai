@@ -1,63 +1,59 @@
 # Chemistry continuation checkpoint
 
-2026-10-25, batch32. Continue automatically; no routine approval.
+2026-10-25,batch33. Continue authorized work;no routine approval.
 
-- Backend implementation: `e63b7676201b1c07069a6362a2e1bba6f05ba97e`.
-- Flutter: `34c0254eb316b9ad5368fef0c17c3308397b6b2a`.
-- Separate feat/chemistry-curriculum branches; Biology/Physics untouched.
-- **163/268 implemented;105 remain. Grade7 74/74;grade8 59/59;grade9 30/61.**
-  Grade10 0/41,grade11 0/33. Ready flags false; teacher review outstanding.
-- Total1484 cards/2259 questions:646 MCQ,308 short,611 numeric,265 formula,
-  429 equation. Batch32 adds78 cards/151 questions:20/10/40/19/62.
-- Full Chemistry1244 passed,1 opt-in PG skip,1 existing warning/1964.72s.
-  Target88/46.05s includes22 earlier-source tests. Critical Ruff/diff passed.
-  All158 predecessor hashes/pins and original grade7§1 unchanged.
-- Flutter527 tests/254s; analysis0 issues/117.5s. Three new320×568/200%
-  source/feedback widgets passed/31s. Eight captures inspected: Al kaolin model
-  feedback/current9/129/earlier8/27; Zn model/current9/144/earlier9/57; existing
-  bounded complex MCQ and source9/129–130. No runtime UI/native/IME certificate.
-- Actual HTTP151 answers preserve158 synthetic completions/3160XP;100XPonce
-  →163/3260XP. Replay identical;3,270/3.270 and2.093e1/20.930 equivalent.
-  Grade7/8 catalogs unchanged;rubrics private;nine sanitized public fixtures.
-  All163r1 imported snapshots immutable. No actual user/production operation.
-- Current sandboxilm-ai-chemistry-batch28-final-qa,loopback8903,ownPID19764.
-  Verify full command before stopping; private defines/tokens stay outside Git.
-- All five PDF hashes/all817 pages audited;327anchors/268teaching entries.
-  115 editorial scopes plus unchanged grade9§40 scientific blocker;allreadyfalse.
-- Preserve legacy paragraph27 gem/KOH issue ID and cross-book grade7/108
-  evidence. Disputed gemstone and KOH equation keys remain excluded, including
-  a mathematically repaired KOH key. Do not weaken existing guards.
-- Other new scopes: Al nitrate/water/H2/hydrate copies and missing earlierCr
-  mass constant;Cu phase/product conditions;Ag clinical/Au leaf-unit/exclusive
-  acid assertions;Zn/Hg acid labels/water coefficient. Complexes display/MCQ/count
-  only. No outside-memory repair, physical hazardous procedure or clinical advice.
-- Read-only baselines reconfirmed: Biologybackendc0f84d0,
-  BiologyFlutter79608c2,UI444743b. Unrelated preexisting files preserved.
+- Backend implementation:`f28b72a37ee97a06bd30df2c1a9c1e1a203d8993`.
+- Flutter:`b19c17c419649ca8eff7be2c01df64a151b60e8a`.
+- Separate feat/chemistry-curriculum branches;Biology/Physics untouched.
+- **168/268 implemented;100 remain. Grade7 74/74;grade8 59/59;grade9 35/61.**
+  Grade10 0/41,grade11 0/33. Allreadyfalse;teacher review outstanding.
+- Total1573 cards/2448questions:666MCQ,318short,657numeric,296formula,
+  511equation. Batch33 adds89cards/189questions:20/10/46/31/82.
+- Full Chemistry1296passed,1opt-inPGskip,1existingwarning/789.32s.
+  Target74/13.21s includes22earlier-source tests. CriticalRuff/diffpassed.
+  All163 predecessor hashes/pins and originalgrade7§1 unchanged.
+- Flutter530tests/99s;analysis0issues/35.4s. Final3new320×568/200%widgets/6s.
+  Initial2pass/1fail was async-MCQ test selecting before response;bounded wait
+  added to that test only. No production UI change. Eightcaptures inspected:
+  Cr19,6/current9/145–146/prior8/29;Fe4.515e23/current9/165/prior7/34→PDF18:left;
+  complexMCQ/current9/148. Sourceownership/scroll/pinnedcontinue preserved.
+  No nativeAndroid/IME/TalkBackcertificate.
+- ActualHTTP189answers preserve163syntheticcompletions/3260XP;100XPonce
+  →168/3360XP. Replayidentical,19,6/19.6 and4.515e23/full decimal
+  451500000000000000000000 equivalent. Grade7/8 unchanged;rubricsprivate;
+  nine sanitized public fixtures. All168r1 imported revisionsimmutable.
+- Sandboxilm-ai-chemistry-batch28-final-qa,loopback8903,ownPID19116.
+  Verifyfullcommandbeforestop;privatedefines/tokensoutsideGit.
+- FivePDFhashes/all817pagesaudited;327anchors/268entries.120editorialscopes
+  plus unchanged whole scientific holdgrade9§40;allreadyfalse.
+- Cracidproductguarantees/CrO3coefficient,Mnnonoxidation/+7versus+6,
+  Fediagram/potential/limonite/rust/complexphase/clinicalclaims remainreviewed
+  butheld. Cr52 explicitlyroundedfromownnative51.996,notbackfilledinto§26.
+  Complexesdisplay/MCQ/countonly;nonewparser/AI/physicalprocedure/clinicaladvice.
+- Legacyparagraph27 gem/KOH issue,cross-bookevidenceandguardsunchanged.
 
 ## Exact continuation
 
-Next batch33:grade9§31–35,sequence31–35,original145–top165.
-All145–165 visually read. Private notes:.local/grade9_batch33_source_notes.md.
-Earlier8/27,29,114 and7/34(PDF18:left) reread for actual constants.
+Next§36–39,original165–top185,allvisuallyread. Private detailedsource notes:
+.local/grade9_batch34_source_notes.md nowcover§36–41 through191;practical1
+page192alsoseen. Images166–192privatelyrendered. Earlier-source proofs remain
+exactoriginalbook/region;neverrelabelorusefuturecontexts.
 
-Five private author_batch33a.py through33e.py prepared but UNEXECUTED for real
-saving. Index assertions163/164/165/166/167. In-memory dry run only:89cards/
-189questions,all expected answers accepted by existing grader;no sourcefiles
-written. Do not call that a finished batch. review_batch33_catalog.py prepared
-but UNEXECUTED;five new scope IDs.
+Private author_batch34a.py(§36)preparedbutUNEXECUTED,indexassert168.
+No batch34 catalogue/indexmutationyet. Stillwrite34b/c/d for§37/38/39.
+§37workedsamplescontainmultiplearithmetic/copyissues,especially174–175
+Al/O2factor2;useonlysourcecorroboratedoriginalmodels,notwrongcopiedkeys.
+§36/37carbonboundary2versus2.14contradiction;§38ethane-elementmislabel;
+§39acaricidecategory/clinical-exposurethreshold/current-statistics issuesheld.
 
-Review Cr acid/product conditions and missingCrO3 coefficient; Mn absolute
-nonoxidation/+7-versus+6 copies; Fe orbitaldrawing/potential/limonite/rust;
-complex phase identities and clinical claims. All questions use existing types.
-Finish proofread/source validation before first immutable import; never overwrite
-indexed authors or rerun prepare/catalogue/finalcopy/docs scripts.
+§40page186 holdcurrentlyremainsopen:3s2 3p5versusallIIgroup,andmissing3p5inCl
+prose. User explicitlyconfirmedBe/CaII,ClVIIA(17),Cl3s2 3p5 andauthorized
+source-corroborated reviewed_erratum,withstrict testedvalidator support.
+Implement that controlled mechanism,retain original conflict history and exact
+supplied-page evidence;do notdisable validation. Uncertain facts stayheld,
+other reviewedcontent continues. See REQUIREMENTS.md latesterratum instruction.
 
-Subsequent originals165–180 also visually read; private detailed notes
-.local/grade9_batch34_source_notes.md cover165–177,with178–180 notes still to
-append. Images166–192 privately rendered. §36/37 have carbon-boundary conflicts
-and worked-example errors,especially174–175 Al/O2 factor2;do not copy keys.
-No batch34 author/catalogue mutations. §40 hold remains unresolved.
-
-After5–10:validate/audit,target/full tests,HTTP preserve163/3260XP,small-screen
-source/math QA,measured docs,commit/push and continue. No main/production/
-PDF/OCR/fulltext/render/token push or other-subject branch mutation/AI feature.
+Validate/audit,target/fulltests,HTTPpreserve168/3360XP,small-screenQA,measured
+docs,commit/push. Neverrerunindexedauthor/catalogue/finalcopy/docscripts.
+No rawPDF/OCR/fulltext/render/tokenpush,main/productionoperation,other-subject
+branchmutationornewAIfeature. Preserveoriginal§1andrealuserdata.

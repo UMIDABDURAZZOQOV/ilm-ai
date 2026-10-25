@@ -113,3 +113,27 @@ already exist in the digest-pinned validated manifest prefix. Future grades,
 unreviewed sources and cross-book chapter/review containers are forbidden.
 This citation support does not introduce a new learning mechanism or loosen
 the common fact,answer,feedback,prerequisite,XP,progress and source-hold rules.
+
+## Explicit user erratum instruction, 2026-10-25
+
+A confirmed textbook error blocks its affected claim, not automatically the
+entire paragraph or course. The supplied books remain the compulsory scientific
+sources. Inspect the original image, compare other supplied textbook passages
+and periodic tables, and record an unambiguous correction as `reviewed_erratum`.
+Keep the original discrepancy visible in SOURCE_REVIEW.md. Original theory,
+MCQ and FRQ may use the corrected fact only through a controlled, tested source
+validation mechanism; never disable the validator or silently change the PDF.
+
+The user specifically confirmed grade9 §40 printed/PDF186: Be and Ca belong to
+groupII; Cl belongs to group17/VIIA and its outer configuration is3s2 3p5.
+The page's all-groupII assertion and missing3p5 in the Cl prose are erroneous.
+Corroborate with the supplied books before publishing this as authored content.
+Keep page identity and original mistake history; a user statement alone does
+not replace textbook evidence. This permits a narrowly reviewed exception to
+the previous whole-paragraph hold, not a general source-validation bypass.
+
+Uncertain corrections remain excluded from assessed facts and await expert
+review. Continue other verified work. Do not ask for a new PDF or confirmation
+for every small typo; escalate only substantial contradictions that independent
+checking of the supplied material cannot resolve. Preserve existing tests,
+progress and safety; Biology/Physics branches remain untouched.
