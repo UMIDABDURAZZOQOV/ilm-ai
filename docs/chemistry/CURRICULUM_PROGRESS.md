@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 5 | 56 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 133 | 135 |
+| Total | 29 | 204 | 49 | 15 | 268 | 138 | 130 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1035 cards; 1518 assessments: 510 concept_selection, 244 short_text, 394 numeric_value, 151 chemical_formula, 219 chemical_equation.
+Total: 1099 cards; 1615 assessments: 538 concept_selection, 258 short_text, 430 numeric_value, 170 chemical_formula, 219 chemical_equation.
 
 ## Initial §1
 
@@ -130,12 +130,16 @@ Original examples preserve exact intermediate arithmetic and given conditions.
 
 9 lessons;55 cards;93 questions:27 MCQ,9 short,20 numeric,23 formula,14 equation.
 
+## Batch27: grade9 §1–5
+
+5 lessons;64 cards;97 questions:28 MCQ,14 short,36 numeric,19 formula.
+Charged models use source display/MCQ and numericcounts,existing kinds only.
+
 ## Current continuation
 
-133/268 implemented;135 remain. Grade7 all74 and grade8 all59 mapped entries
-have reviewed digital lessons. Grade9 0/61,grade10 0/41,grade11 0/33.
-Next5:grade9 §1–5,sequence1–5,original5–28,boundary29. Original4–29 read;
-private preparatory notes .local/grade9_start_source_notes.md. Not authored yet.
-86 editorial scopes plus one grade9 scientific blocker;ready flags false.
-ActualHTTP preserves124 completions/2480XP,adds180XP once:133/2660XP.
-Prior124 hashes/original§1 unchanged. No independent teacher/production signoff.
+138/268 implemented;130 remain. Grade7 all74,grade8 all59,grade9 5/61.
+Next5:grade9 §6–10,sequence6–10,original29–top53. All29–53 read;
+private notes .local/grade9_next_source_notes.md. Rendered43–61 privately.
+91 editorial scopes plus one grade9 scientific blocker;ready flags false.
+Fresh finalHTTP preserves133 baseline completions/2660XP,adds100XP once:
+138completions/2760XP. All prior133 lesson hashes/original§1 unchanged.

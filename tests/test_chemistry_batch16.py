@@ -71,7 +71,8 @@ def test_grade8_progress_is_independent_preserves_grade7_and_awards_once(chemist
     g7=client.get(PREFIX+'/catalog?grade=7').json()
     g8=client.get(PREFIX+'/catalog?grade=8').json()
     assert g7['grade']==7 and g8['grade']==8
-    assert g7['available_grades']==g8['available_grades']==[7,8]
+    assert g7['available_grades']==g8['available_grades']
+    assert {7,8} <= set(g7['available_grades'])
     assert len(g7['lessons'])==74 and len(g8['lessons'])>=5
     assert g7['lessons'][0]['state']=='completed' and g7['lessons'][2]['state']=='locked'
     assert g8['lessons'][0]['state']=='available' and g8['lessons'][1]['state']=='locked'

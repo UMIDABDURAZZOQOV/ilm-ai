@@ -1,0 +1,57 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 133,
+  "prior_xp": 2660,
+  "added_lessons": 5,
+  "added_questions": 97,
+  "kinds": {
+    "concept_selection": 28,
+    "short_text": 14,
+    "chemical_formula": 19,
+    "numeric_value": 36
+  },
+  "added_xp": 100,
+  "total_xp": 2760,
+  "total_completed_lessons": 138,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_and8_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public grade9 periodic/degree catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 138,
+  "remaining_lessons": 130,
+  "backend_tests": {
+    "passed": 916,
+    "skipped": 1,
+    "seconds": 378.31
+  },
+  "targeted_tests": {
+    "passed": 154,
+    "seconds": 23.19,
+    "batches": [
+      16,
+      26,
+      27
+    ]
+  },
+  "flutter_tests": {
+    "passed": 516,
+    "seconds": 79
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 5.7
+  },
+  "flutter_model_widgets": {
+    "passed": 2,
+    "seconds": 3
+  },
+  "earlier_full_runs": "v1/v2 stopped;not counted as pass",
+  "sandbox": "fresh batch27 loopback8902;133 exact baseline synthetic progress rows preserved",
+  "open_source_holds": 1,
+  "open_editorial_issues": 91,
+  "production_operations": false
+}

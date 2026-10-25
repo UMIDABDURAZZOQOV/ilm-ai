@@ -268,3 +268,57 @@ bond/valence/oxidation universals;water/CO2 conductivity,H3PO3 acidH task,
 universal chloride safety;NH4OH schoolmodel/acidstages;58%H2SO4 ambiguous
 basis,allorganicweak/allconcentrationstrong andunlimitedKconcentrationlaw.
 Keep exact clear models,hold errors visibly,no silent memory repair.
+
+
+## Batch27 — 2026-10-25: grade9 paragraphs1–5
+
+**138/268 implemented,130 remain. Grade9 5/61;7/8 all74/59 mapped entries.**
+New5 add64 cards/97 questions:28 MCQ,14 short,36 numeric,19 formula.
+Total1099 cards/1615 questions:538/258/430/170/219 respectively.
+
+Original5–28 fully reviewed:periodiclaw/history/nuclearcharge/atomcounts,
+scopedlegacygroups/trends,capacities/configurations,bondtypes/energy/redox/
+formaloxidation,electrolyte/ionmobility/hydration/H3O+,acid/base/saltstages,
+degree/percent/weak equilibrium andconditionalK arithmetic. No new parser:
+charged equations shown/selected inMCQ;FRQ existingneutralformula/name/
+numericcounts. H3PO4 stages introduced only in§5 with actual27P(OH)3,
+earlier§4task linked. Exactreferences9/11,23/24/25 and27/28 tightened.
+
+91 editorial scopes plus one scientific blocker. Held source issues include
+Ar/nucleoncount,Mg.269/strictIEtrend/Csabsolute,allperiodalkali/outer8 and
+literalorbitalpath universals,bond/valence/oxidation universals,water/CO2
+conductivity,H3PO3threeacidH/chlorideuniversalsafety,NH4OHschoolnotation,
+58%H2SO4 ambiguousstage,allorganicweak/allconcentrationstrong andunlimited
+Klaw. No silentmemoryrepair;all ready flags false. Originalgivenmodels and
+arithmetic are labeled,not fabricated experiments or clinical guidance.
+
+FinalfullChemistry916 passed,1 opt-in PG skip,1existingwarning/378.31s.
+Targetfinal154/23.19s coversbatch16/26/27. Initialnew65/7.18s and127/13.99s
+were before finalcopy. Fullv1/v2 stopped,not counted aspass:historicalbatch26
+exacttotal133 andbatch16exactavailable[7,8] wronglyforbade newgrade9.
+Assertions now preservebaseline andrequiredgrades while allowing continuation;
+runtime/learningrules unchanged. All133 prior hashes/original§1 same;Ruff/diffpass.
+
+FinalfullFlutter516 passed/79s;analysis noissues/5.7s. Two320×568/200%
+light/dark grade9 widgets passed/3s;four finalfeedback/source11/28 captures
+seen. Initialdraftwidgets2/2s,full516/80s,analysis26.2s precededcopyspacing.
+Visualreviewcaught number/formula wordsjoined;onlynew5 learnercopy spaced.
+Old138draft sandbox preserved. Fresh batch27final sandbox compared133content
+SHAs andcopied only exactsyntheticbaseline progress/2660XP read-only,then
+passed97actualHTTP answers and once-only100XP→138/2760XP. Comma/dot1,66/
+1.66 andscientific1e-5/0.00001 replay identical;grade7/8catalogs unchanged,
+private rubrics hidden,six sanitized fixtures. Grade9 selection uses existingUI.
+
+Current sandboxilm-ai-chemistry-batch27-final-qa,loopback8902,ownPID24044.
+Verifycommand before stopping;private defines staythere. Current138r1 immutable.
+Older8901draft stopped(20776),preservedhistorical. No real-user/prod/main,
+other-subject/PDF/OCR/fulltext/tokenpush,AI,newsolver orphysicalexperiment.
+No independentteacher/native/IME/TalkBack/whole-backend certificate.
+
+Next5:grade9 §6–10,original29–top53. All29–53 read;43–61rendered privately.
+Notes .local/grade9_next_source_notes.md: H2Sinsolubleclaim,wateralpha,
+weak/weakallfullyhydrolyze,FeIIIcarbonateunbalanced38,CO2conductancezero,
+carbon2p6legend/fullerenecount/classicalphase constants,coalcurrentstatistics/
+medicaladsorption andunlimitedheat/combustion claims need visible review.
+Exactprovided textbookconstants fromearliergrade mayneed narrowly validated
+explicitcrossgrade sourcecontexts;currentlyownbookonly. Do not fill bymemory.

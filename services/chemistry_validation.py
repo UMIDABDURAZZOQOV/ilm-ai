@@ -117,6 +117,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-laboratory08': 'ch8-lab8-sulfate-model-scope',
     'ch8-laboratory09': 'ch8-lab9-ammonia-ratio-observation-scope',
     'ch8-laboratory10': 'ch8-lab10-fertilizer-unknown-scope',
+    'ch9-paragraph01': 'ch9-p1-periodic-mass-trend-model-review',
+    'ch9-paragraph02': 'ch9-p2-bond-charge-universals-review',
+    'ch9-paragraph03': 'ch9-p3-electrolyte-water-acid-scope-review',
+    'ch9-paragraph04': 'ch9-p4-dissociation-stage-school-scope-review',
+    'ch9-paragraph05': 'ch9-p5-electrolyte-degree-constant-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -600,6 +605,23 @@ def validate_lesson(catalog, lesson, review):
         if 'ch8-laboratory09' in topic_ids:
             require(not any('1.5:1' in a.replace(',', '.') and 'stexiometrik' in a.casefold()
                             for a in f['verified_answers']), 'recipe_is_not_exact_stoichiometric_mass_answer')
+        if 'ch9-paragraph01' in topic_ids:
+            require(not any('0.269' in a.replace(',', '.') and 'mg' in a.casefold()
+                            for a in plain_values), 'unreviewed_magnesium_radius_cannot_be_a_premise')
+            require(not any('barcha davrlarda' in a.casefold() and 'ionlanish' in a.casefold()
+                            and 'qat’iy ortadi' in a.casefold() for a in plain_values),
+                    'unqualified_monotonic_ionization_cannot_be_a_premise')
+            require(not any('Ar-Z' in a.replace(' ', '').replace('−', '-')
+                            for a in f['verified_answers']),
+                    'average_atomic_mass_neutron_rule_cannot_be_an_answer')
+        if 'ch9-paragraph03' in topic_ids:
+            require(not any('H3PO3' in a and ('3H+' in a.replace(' ', '') or 'uchta kislotali' in a.casefold())
+                            for a in plain_values), 'unverified_phosphorous_acid_three_protons_cannot_be_a_premise')
+        if 'ch9-paragraph05' in topic_ids:
+            require(not any('barcha organik' in a.casefold() and 'kuchsiz' in a.casefold()
+                            for a in plain_values), 'unqualified_all_organic_weak_cannot_be_a_premise')
+            require('58' not in f['verified_answers'],
+                    'ambiguous_sulfate_dissociation_degree_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

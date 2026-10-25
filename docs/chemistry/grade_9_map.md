@@ -11,12 +11,12 @@ Individual lesson claims require their own reviewed source refs.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ch9-introduction` | introduction  | Kirish | 3–5 | 3:full – 5:full | 3 | not_authored | — |
 | `ch9-chapter01` | chapter 1 | 8-sinf kimyo kursining eng muhim mavzularini takrorlash | 5–20 | 5:full – 20:full | 5 | not_authored | — |
-| `ch9-paragraph01` | paragraph 1 | Elementlar davriy sistemasi va davriy qonuni | 5–16 | 5:full – 16:full | 5 | not_authored | — |
-| `ch9-paragraph02` | paragraph 2 | Kimyoviy bog‘lanishning turlari: kovalent (qutbsiz va qutbli), ionli, metall bog‘lanishlar | 16–20 | 16:full – 20:full | 16 | not_authored | ch9-paragraph01 |
+| `ch9-paragraph01` | paragraph 1 | Elementlar davriy sistemasi va davriy qonuni | 5–16 | 5:full – 16:full | 5 | reviewed local lesson; scoped editorial review remains open | — |
+| `ch9-paragraph02` | paragraph 2 | Kimyoviy bog‘lanishning turlari: kovalent (qutbsiz va qutbli), ionli, metall bog‘lanishlar | 16–20 | 16:full – 20:full | 16 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph01 |
 | `ch9-chapter02` | chapter 2 | Elektrolitik dissotsiatsiyalanish nazariyasi | 20–42 | 20:full – 42:full | 20 | not_authored | — |
-| `ch9-paragraph03` | paragraph 3 | Elektrolitlar va noelektrolitlar | 20–24 | 20:full – 24:full | 20 | not_authored | ch9-paragraph02 |
-| `ch9-paragraph04` | paragraph 4 | Kislota, ishqor va tuzlarning dissotsiatsiyalanishi | 24–26 | 24:full – 26:full | 24 | not_authored | ch9-paragraph03 |
-| `ch9-paragraph05` | paragraph 5 | Kuchli va kuchsiz elektrolitlar dissotsiatsiyalanish darajasi | 26–29 | 26:full – 29:full | 26 | not_authored | ch9-paragraph04 |
+| `ch9-paragraph03` | paragraph 3 | Elektrolitlar va noelektrolitlar | 20–24 | 20:full – 24:full | 20 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph02 |
+| `ch9-paragraph04` | paragraph 4 | Kislota, ishqor va tuzlarning dissotsiatsiyalanishi | 24–26 | 24:full – 26:full | 24 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph03 |
+| `ch9-paragraph05` | paragraph 5 | Kuchli va kuchsiz elektrolitlar dissotsiatsiyalanish darajasi | 26–29 | 26:full – 29:full | 26 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph04 |
 | `ch9-paragraph06` | paragraph 6 | Ion almashinish reaksiyalari | 29–32 | 29:full – 32:full | 29 | not_authored | ch9-paragraph05 |
 | `ch9-paragraph07` | paragraph 7 | Tuzlarning gidrolizi | 32–42 | 32:full – 42:full | 32 | not_authored | ch9-paragraph06 |
 | `ch9-chapter03` | chapter 3 | Metallmaslar. Uglerod guruhi | 42–71 | 42:full – 71:full | 42 | not_authored | — |
