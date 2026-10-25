@@ -1,0 +1,3239 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 9,
+  "sequence": 57,
+  "key": "chemistry-9-lab13-r1",
+  "revision": 1,
+  "topic_id": "ch9-laboratory13",
+  "book_id": "chemistry-9-uz-2019",
+  "title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch9-laboratory12"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-laboratory13",
+      "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+      "paragraph": 13,
+      "printed_pages": [
+        201
+      ],
+      "pdf_pages": [
+        201
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-laboratory13-page201"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-laboratory13",
+      "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+      "paragraph": 13,
+      "printed_pages": [
+        202
+      ],
+      "pdf_pages": [
+        202
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-laboratory13-page202"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-paragraph30",
+      "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+      "paragraph": 30,
+      "printed_pages": [
+        142
+      ],
+      "pdf_pages": [
+        142
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-paragraph30-page142"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-paragraph06",
+      "topic_title": "Ion almashinish reaksiyalari",
+      "paragraph": 6,
+      "printed_pages": [
+        31
+      ],
+      "pdf_pages": [
+        31
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-paragraph06-page31"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-paragraph30",
+      "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+      "paragraph": 30,
+      "printed_pages": [
+        143
+      ],
+      "pdf_pages": [
+        143
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-paragraph30-page143"
+    }
+  ],
+  "facts": {
+    "precipitation": {
+      "claim": "Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+      "verified_answers": [
+        "ZnSO4+2NaOH=Zn(OH)2+Na2SO4",
+        "Zn(OH)2",
+        "Oq",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph06",
+          "topic_title": "Ion almashinish reaksiyalari",
+          "paragraph": 6,
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [
+            31
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph06-page31"
+        }
+      ]
+    },
+    "amphoteric": {
+      "claim": "Kislota va ishqor bilan berilgan ikki tarmoq Zn(OH)2 ning amfoter xossasini ko‘rsatadi. “Ishqor bor” bilan “ishqor ortiqcha” bir xil shart emas.",
+      "verified_answers": [
+        "Amfoterlik"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            143
+          ],
+          "pdf_pages": [
+            143
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page143"
+        }
+      ]
+    },
+    "acid": {
+      "claim": "Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+      "verified_answers": [
+        "Zn(OH)2+H2SO4=ZnSO4+2H2O",
+        "2",
+        "4"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        }
+      ]
+    },
+    "base": {
+      "claim": "Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+      "verified_answers": [
+        "Na2[Zn(OH)4]",
+        "2",
+        "4"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            143
+          ],
+          "pdf_pages": [
+            143
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page143"
+        }
+      ]
+    },
+    "volume": {
+      "claim": "Manbadagi hajm va massa foizi berilgan bo‘lsa ham, eritma massasiga o‘tish uchun zichlik kerak. Bu ikki eritma zichligi ko‘rsatilmagan; haqiqiy cho‘kma massasini yangi son bilan belgilamaymiz.",
+      "verified_answers": [
+        "Zichlik",
+        "Ma’lumot yetarli emas"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        }
+      ]
+    },
+    "ratio": {
+      "claim": "Alohida virtual kartada ZnSO4=0,02 mol va birinchi cho‘kish modeli to‘liq deb berilsin. NaOH=0,04 mol, Zn(OH)2=0,02 mol. Bu aniq mol kartasi oldingi hajmli real namuna o‘rniga qo‘yilmaydi.",
+      "verified_answers": [
+        "0.04",
+        "0.02"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        }
+      ]
+    },
+    "report": {
+      "claim": "Hisobotda birinchi cho‘kma kartasi, kislota yoki ortiqcha asos tarmog‘i va ma’lumot yetishmasligi ajratiladi. Ikki xil shartni bitta shartsiz mahsulot bilan almashtirish xulosani buzadi.",
+      "verified_answers": [
+        "Miqdor va muhit"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Birinchi cho‘kish kartasi",
+        "body": "Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+        "fact_ids": [
+          "precipitation"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page201"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              142
+            ],
+            "pdf_pages": [
+              142
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page142"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph06",
+            "topic_title": "Ion almashinish reaksiyalari",
+            "paragraph": 6,
+            "printed_pages": [
+              31
+            ],
+            "pdf_pages": [
+              31
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph06-page31"
+          }
+        ]
+      },
+      {
+        "title": "Amfoterlikdagi ikki tarmoq",
+        "body": "Kislota va ishqor bilan berilgan ikki tarmoq Zn(OH)2 ning amfoter xossasini ko‘rsatadi. “Ishqor bor” bilan “ishqor ortiqcha” bir xil shart emas.",
+        "fact_ids": [
+          "amphoteric"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              202
+            ],
+            "pdf_pages": [
+              202
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page202"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              142
+            ],
+            "pdf_pages": [
+              142
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page142"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              143
+            ],
+            "pdf_pages": [
+              143
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page143"
+          }
+        ]
+      },
+      {
+        "title": "Kislota modelida suvni tekshiring",
+        "body": "Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+        "fact_ids": [
+          "acid"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page201"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              142
+            ],
+            "pdf_pages": [
+              142
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page142"
+          }
+        ]
+      },
+      {
+        "title": "Ortiqcha asosdagi tarkib yozuvi",
+        "body": "Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+        "fact_ids": [
+          "base"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              202
+            ],
+            "pdf_pages": [
+              202
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page202"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              142
+            ],
+            "pdf_pages": [
+              142
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page142"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              143
+            ],
+            "pdf_pages": [
+              143
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page143"
+          }
+        ]
+      },
+      {
+        "title": "Hajm va foiz qayerda yetmaydi?",
+        "body": "Manbadagi hajm va massa foizi berilgan bo‘lsa ham, eritma massasiga o‘tish uchun zichlik kerak. Bu ikki eritma zichligi ko‘rsatilmagan; haqiqiy cho‘kma massasini yangi son bilan belgilamaymiz.",
+        "fact_ids": [
+          "volume"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page201"
+          }
+        ]
+      },
+      {
+        "title": "Alohida mol kartasini hisoblang",
+        "body": "Alohida virtual kartada ZnSO4=0,02 mol va birinchi cho‘kish modeli to‘liq deb berilsin. NaOH=0,04 mol, Zn(OH)2=0,02 mol. Bu aniq mol kartasi oldingi hajmli real namuna o‘rniga qo‘yilmaydi.",
+        "fact_ids": [
+          "ratio"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              202
+            ],
+            "pdf_pages": [
+              202
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page202"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              142
+            ],
+            "pdf_pages": [
+              142
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page142"
+          }
+        ]
+      },
+      {
+        "title": "Shartlarni saqlagan xulosa",
+        "body": "Hisobotda birinchi cho‘kma kartasi, kislota yoki ortiqcha asos tarmog‘i va ma’lumot yetishmasligi ajratiladi. Ikki xil shartni bitta shartsiz mahsulot bilan almashtirish xulosani buzadi.",
+        "fact_ids": [
+          "report"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              202
+            ],
+            "pdf_pages": [
+              202
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page202"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [
+      {
+        "title": "Mol kartasi va hajm kartasi farqi",
+        "body": "0,02 mol berilgan kartada 1:2 nisbatdan NaOH=0,04 mol topiladi. Faqat 5 mL va massa foizi berilgan kartada zichliksiz shu 0,02 molni taxmin qilish mumkin emas.",
+        "fact_ids": [
+          "volume",
+          "ratio"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              201
+            ],
+            "pdf_pages": [
+              201
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page201"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory13",
+            "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+            "paragraph": 13,
+            "printed_pages": [
+              202
+            ],
+            "pdf_pages": [
+              202
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory13-page202"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph30",
+            "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+            "paragraph": 30,
+            "printed_pages": [
+              142
+            ],
+            "pdf_pages": [
+              142
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph30-page142"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-laboratory13",
+        "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+        "paragraph": 13,
+        "printed_pages": [
+          201
+        ],
+        "pdf_pages": [
+          201
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-laboratory13-page201"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-laboratory13",
+        "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+        "paragraph": 13,
+        "printed_pages": [
+          202
+        ],
+        "pdf_pages": [
+          202
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-laboratory13-page202"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-paragraph30",
+        "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+        "paragraph": 30,
+        "printed_pages": [
+          142
+        ],
+        "pdf_pages": [
+          142
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-paragraph30-page142"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-paragraph06",
+        "topic_title": "Ion almashinish reaksiyalari",
+        "paragraph": 6,
+        "printed_pages": [
+          31
+        ],
+        "pdf_pages": [
+          31
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-paragraph06-page31"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-paragraph30",
+        "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+        "paragraph": 30,
+        "printed_pages": [
+          143
+        ],
+        "pdf_pages": [
+          143
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-paragraph30-page143"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-9-lab13-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Ma’lum Zn/OH kartasidagi cho‘kma formulasi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Zn(OH)2"
+          },
+          {
+            "id": "b",
+            "label": "ZnSO4"
+          },
+          {
+            "id": "c",
+            "label": "Na2SO4"
+          },
+          {
+            "id": "d",
+            "label": "ZnCl2"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Zn(OH)2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+            "fact_ids": [
+              "precipitation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page201"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph06",
+                "topic_title": "Ion almashinish reaksiyalari",
+                "paragraph": 6,
+                "printed_pages": [
+                  31
+                ],
+                "pdf_pages": [
+                  31
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph06-page31"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "precipitation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph06",
+          "topic_title": "Ion almashinish reaksiyalari",
+          "paragraph": 6,
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [
+            31
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph06-page31"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Oldingi suvli ortiqcha asos kartasidagi yozuv qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Zn(OH)2"
+          },
+          {
+            "id": "b",
+            "label": "NaZnO"
+          },
+          {
+            "id": "c",
+            "label": "Na2[Zn(OH)4]"
+          },
+          {
+            "id": "d",
+            "label": "ZnSO4"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Na2[Zn(OH)4]",
+        "feedback": {
+          "correct": "To‘g‘ri. Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+          "incorrect": "Hozircha noto‘g‘ri. Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+            "fact_ids": [
+              "base"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  202
+                ],
+                "pdf_pages": [
+                  202
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page202"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  143
+                ],
+                "pdf_pages": [
+                  143
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page143"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "base"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            143
+          ],
+          "pdf_pages": [
+            143
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page143"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Hajm va massa foizidan eritma massasiga o‘tishda yetishmayotgan xossa qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rang"
+          },
+          {
+            "id": "b",
+            "label": "Zichlik"
+          },
+          {
+            "id": "c",
+            "label": "Nom"
+          },
+          {
+            "id": "d",
+            "label": "Yorliq"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Zichlik",
+        "feedback": {
+          "correct": "To‘g‘ri. Manbadagi hajm va massa foizi berilgan bo‘lsa ham, eritma massasiga o‘tish uchun zichlik kerak. Bu ikki eritma zichligi ko‘rsatilmagan; haqiqiy cho‘kma massasini yangi son bilan belgilamaymiz.",
+          "incorrect": "Hozircha noto‘g‘ri. Manbadagi hajm va massa foizi berilgan bo‘lsa ham, eritma massasiga o‘tish uchun zichlik kerak. Bu ikki eritma zichligi ko‘rsatilmagan; haqiqiy cho‘kma massasini yangi son bilan belgilamaymiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manbadagi hajm va massa foizi berilgan bo‘lsa ham, eritma massasiga o‘tish uchun zichlik kerak. Bu ikki eritma zichligi ko‘rsatilmagan; haqiqiy cho‘kma massasini yangi son bilan belgilamaymiz.",
+            "fact_ids": [
+              "volume"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page201"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "volume"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Berilgan kislota modelida H2O koeffitsiyenti qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1"
+          },
+          {
+            "id": "b",
+            "label": "3"
+          },
+          {
+            "id": "c",
+            "label": "4"
+          },
+          {
+            "id": "d",
+            "label": "2"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "2",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page201"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Ikki tarmoq bilan ko‘rsatilgan xossa nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Amfoterlik",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislota va ishqor bilan berilgan ikki tarmoq Zn(OH)2 ning amfoter xossasini ko‘rsatadi. “Ishqor bor” bilan “ishqor ortiqcha” bir xil shart emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislota va ishqor bilan berilgan ikki tarmoq Zn(OH)2 ning amfoter xossasini ko‘rsatadi. “Ishqor bor” bilan “ishqor ortiqcha” bir xil shart emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Kislota va ishqor bilan berilgan ikki tarmoq Zn(OH)2 ning amfoter xossasini ko‘rsatadi. “Ishqor bor” bilan “ishqor ortiqcha” bir xil shart emas.",
+            "fact_ids": [
+              "amphoteric"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  202
+                ],
+                "pdf_pages": [
+                  202
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page202"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  143
+                ],
+                "pdf_pages": [
+                  143
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page143"
+              }
+            ]
+          }
+        ],
+        "expected": "Amfoterlik",
+        "aliases": [
+          "Amfoterlik"
+        ]
+      },
+      "fact_ids": [
+        "amphoteric"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            143
+          ],
+          "pdf_pages": [
+            143
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page143"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Ma’lum Zn/OH kartasining rangini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Oq",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+            "fact_ids": [
+              "precipitation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page201"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph06",
+                "topic_title": "Ion almashinish reaksiyalari",
+                "paragraph": 6,
+                "printed_pages": [
+                  31
+                ],
+                "pdf_pages": [
+                  31
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph06-page31"
+              }
+            ]
+          }
+        ],
+        "expected": "Oq",
+        "aliases": [
+          "Oq"
+        ]
+      },
+      "fact_ids": [
+        "precipitation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph06",
+          "topic_title": "Ion almashinish reaksiyalari",
+          "paragraph": 6,
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [
+            31
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph06-page31"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q07",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Berilgan rux gidroksid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "Zn(OH)2",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+            "fact_ids": [
+              "precipitation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page201"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph06",
+                "topic_title": "Ion almashinish reaksiyalari",
+                "paragraph": 6,
+                "printed_pages": [
+                  31
+                ],
+                "pdf_pages": [
+                  31
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph06-page31"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn(OH)2"
+      },
+      "fact_ids": [
+        "precipitation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph06",
+          "topic_title": "Ion almashinish reaksiyalari",
+          "paragraph": 6,
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [
+            31
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph06-page31"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q08",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Berilgan mahsulotli atom balansini yozing: ZnSO4+2NaOH=Zn(OH)2+Na2SO4",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "ZnSO4+2NaOH=Zn(OH)2+Na2SO4",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi."
+        },
+        "solution": [
+          {
+            "body": "Oldingi ma’lum model ZnSO4+2NaOH=Zn(OH)2+Na2SO4. Jadval Zn/OH kartasini oq cho‘kma bilan bog‘laydi. Natija aynan berilgan miqdor va muhit doirasida o‘qiladi.",
+            "fact_ids": [
+              "precipitation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page201"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph06",
+                "topic_title": "Ion almashinish reaksiyalari",
+                "paragraph": 6,
+                "printed_pages": [
+                  31
+                ],
+                "pdf_pages": [
+                  31
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph06-page31"
+              }
+            ]
+          }
+        ],
+        "expected": "ZnSO4+2NaOH=Zn(OH)2+Na2SO4"
+      },
+      "fact_ids": [
+        "precipitation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph06",
+          "topic_title": "Ion almashinish reaksiyalari",
+          "paragraph": 6,
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [
+            31
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph06-page31"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q09",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Berilgan mahsulotli atom balansini yozing: Zn(OH)2+H2SO4=ZnSO4+2H2O",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Zn(OH)2+H2SO4=ZnSO4+2H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+          "incorrect": "Hozircha noto‘g‘ri. Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak."
+        },
+        "solution": [
+          {
+            "body": "Kislota kartasida berilgan moddalar Zn(OH)2, H2SO4, ZnSO4 va H2O. Atomlar saqlanishidan Zn(OH)2+H2SO4=ZnSO4+2H2O. Chapdagi jami 4 H uchun o‘ngda ikkita suv kerak.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  201
+                ],
+                "pdf_pages": [
+                  201
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page201"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn(OH)2+H2SO4=ZnSO4+2H2O"
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            201
+          ],
+          "pdf_pages": [
+            201
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page201"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q10",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Na2[Zn(OH)4] yozuvida nechta OH guruhi sanaladi?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "4",
+        "feedback": {
+          "correct": "To‘g‘ri. Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+          "incorrect": "Hozircha noto‘g‘ri. Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Suvli ortiqcha asos uchun oldingi Na2[Zn(OH)4] yozuvi berilgan. Unda ikki Na, bir Zn va to‘rtta OH guruhi sanaladi. Kompleksli eritma holati bilan dastlabki Zn(OH)2 cho‘kmasini bir xil tarkib deb yozmang.",
+            "fact_ids": [
+              "base"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  202
+                ],
+                "pdf_pages": [
+                  202
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page202"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  143
+                ],
+                "pdf_pages": [
+                  143
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page143"
+              }
+            ]
+          }
+        ],
+        "expected": "4",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "base"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            143
+          ],
+          "pdf_pages": [
+            143
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page143"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab13-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "To‘liq birinchi modelda 0,02 mol ZnSO4 ga necha mol NaOH mos?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "mol"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.04",
+        "feedback": {
+          "correct": "To‘g‘ri. Alohida virtual kartada ZnSO4=0,02 mol va birinchi cho‘kish modeli to‘liq deb berilsin. NaOH=0,04 mol, Zn(OH)2=0,02 mol. Bu aniq mol kartasi oldingi hajmli real namuna o‘rniga qo‘yilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Alohida virtual kartada ZnSO4=0,02 mol va birinchi cho‘kish modeli to‘liq deb berilsin. NaOH=0,04 mol, Zn(OH)2=0,02 mol. Bu aniq mol kartasi oldingi hajmli real namuna o‘rniga qo‘yilmaydi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Alohida virtual kartada ZnSO4=0,02 mol va birinchi cho‘kish modeli to‘liq deb berilsin. NaOH=0,04 mol, Zn(OH)2=0,02 mol. Bu aniq mol kartasi oldingi hajmli real namuna o‘rniga qo‘yilmaydi.",
+            "fact_ids": [
+              "ratio"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory13",
+                "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+                "paragraph": 13,
+                "printed_pages": [
+                  202
+                ],
+                "pdf_pages": [
+                  202
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory13-page202"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph30",
+                "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+                "paragraph": 30,
+                "printed_pages": [
+                  142
+                ],
+                "pdf_pages": [
+                  142
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph30-page142"
+              }
+            ]
+          }
+        ],
+        "expected": "0.04",
+        "unit": "mol"
+      },
+      "fact_ids": [
+        "ratio"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory13",
+          "topic_title": "Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash",
+          "paragraph": 13,
+          "printed_pages": [
+            202
+          ],
+          "pdf_pages": [
+            202
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory13-page202"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph30",
+          "topic_title": "II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari",
+          "paragraph": 30,
+          "printed_pages": [
+            142
+          ],
+          "pdf_pages": [
+            142
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph30-page142"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch9-paragraph30",
+    "ch9-paragraph06"
+  ]
+}

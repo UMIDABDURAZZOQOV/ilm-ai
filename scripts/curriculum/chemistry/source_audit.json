@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 188,
+  "implemented_lessons": 194,
   "grades": [
     {
       "grade": 7,
@@ -124,15 +124,8 @@
       "laboratories": 17,
       "practicals": 3,
       "source_teaching_entries": 61,
-      "implemented_lessons": 55,
-      "remaining_ids": [
-        "ch9-laboratory12",
-        "ch9-laboratory13",
-        "ch9-laboratory14",
-        "ch9-laboratory15",
-        "ch9-laboratory16",
-        "ch9-laboratory17"
-      ],
+      "implemented_lessons": 61,
+      "remaining_ids": [],
       "pending_source_review_ids": [
         "ch9-p1-periodic-mass-trend-model-review",
         "ch9-p2-bond-charge-universals-review",
@@ -188,7 +181,13 @@
         "ch9-lab8-aluminium-gas-coefficient-review",
         "ch9-lab9-missing-aluminium-strength-data-review",
         "ch9-lab10-hydroxide-drop-stoichiometry-review",
-        "ch9-lab11-hydrolysis-speciation-scope-review"
+        "ch9-lab11-hydrolysis-speciation-scope-review",
+        "ch9-lab12-copper-theoretical-volume-review",
+        "ch9-lab13-zinc-missing-density-review",
+        "ch9-lab14-chromium-condition-model-review",
+        "ch9-lab15-iron-hydroxide-color-scope-review",
+        "ch9-lab16-iron-complex-phase-formula-review",
+        "ch9-lab17-alloy-rate-versus-amount-review"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -298,7 +297,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 0,
-  "open_editorial_review_issues": 140,
+  "open_editorial_review_issues": 146,
   "reviewed_errata": 1,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817

@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 55 | 6 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 61 | 0 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 188 | 80 |
+| Total | 29 | 204 | 49 | 15 | 268 | 194 | 74 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1777 cards; 2722 assessments: 750 concept_selection, 361 short_text, 726 numeric_value, 319 chemical_formula, 566 chemical_equation.
+Total: 1823 cards; 2798 assessments: 774 concept_selection, 373 short_text, 744 numeric_value, 325 chemical_formula, 582 chemical_equation.
 
 ## Initial §1
 
@@ -204,9 +204,14 @@ All41 paragraphs,3practicals and4/17labs implemented.13labs remain.
 7 lessons;53 cards;74 questions:28 MCQ,14 short,18 numeric,5 formula,9 equation.
 All41 paragraphs,3practicals and11/17labs implemented.6labs remain.
 
+## Batch37:grade9 laboratory12–17
+
+6 lessons;46 cards;76 questions:24 MCQ,12 short,18 numeric,6 formula,16 equation.
+All61 grade9 teaching entries implemented:41paragraphs,3practicals,17laboratories.
+
 ## Current continuation
 
-188/268 implemented;80 remain. Grade7 all74,grade8 all59,grade9 55/61.
-Next laboratory12–17(batch37),then grade10. Six private drafts checked in memory,
-not indexed.140 editorial scopes,one finite reviewed erratum,zero wholeholds.
-ActualHTTP preserves181/3620XP and adds140XP once→188/3760XP.
+194/268 implemented;74 remain. Grade7 all74,grade8 all59,grade9 all61.
+Next grade10§1–5(batch38);five private drafts passed key/source checks,not indexed.
+146editorial scopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
+ActualHTTP preserves188/3760XP and adds120XPonce→194/3880XP.

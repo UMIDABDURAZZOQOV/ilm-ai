@@ -173,6 +173,12 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-laboratory09': 'ch9-lab9-missing-aluminium-strength-data-review',
     'ch9-laboratory10': 'ch9-lab10-hydroxide-drop-stoichiometry-review',
     'ch9-laboratory11': 'ch9-lab11-hydrolysis-speciation-scope-review',
+    'ch9-laboratory12': 'ch9-lab12-copper-theoretical-volume-review',
+    'ch9-laboratory13': 'ch9-lab13-zinc-missing-density-review',
+    'ch9-laboratory14': 'ch9-lab14-chromium-condition-model-review',
+    'ch9-laboratory15': 'ch9-lab15-iron-hydroxide-color-scope-review',
+    'ch9-laboratory16': 'ch9-lab16-iron-complex-phase-formula-review',
+    'ch9-laboratory17': 'ch9-lab17-alloy-rate-versus-amount-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -885,6 +891,15 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
             require(not any('AlCl3 doim to‘liq'.casefold() in a.casefold()
                             for a in f['verified_answers']),
                     'formal_hydrolysis_is_not_unconditional_complete_conversion')
+        if 'ch9-laboratory13' in topic_ids:
+            require(not any('zichliksiz aniq massa' in a.casefold() for a in f['verified_answers']),
+                    'missing_solution_densities_cannot_certify_mass')
+        if 'ch9-laboratory16' in topic_ids:
+            require(not any('yagona haqiqiy faza' in a.casefold() for a in f['verified_answers']),
+                    'source_complex_notation_is_not_unique_actual_phase')
+        if 'ch9-laboratory17' in topic_ids:
+            require(not any('teng massa doim teng tezlik' in a.casefold() for a in f['verified_answers']),
+                    'total_gas_amount_is_not_actual_rate')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

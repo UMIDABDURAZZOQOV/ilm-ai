@@ -1,0 +1,57 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 188,
+  "prior_xp": 3760,
+  "added_lessons": 6,
+  "added_questions": 76,
+  "kinds": {
+    "concept_selection": 24,
+    "short_text": 12,
+    "chemical_formula": 6,
+    "chemical_equation": 16,
+    "numeric_value": 18
+  },
+  "added_xp": 120,
+  "total_xp": 3880,
+  "total_completed_lessons": 194,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_and8_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public copper volume/iron complex/alloy amount laboratory catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 194,
+  "remaining_lessons": 74,
+  "backend_tests": {
+    "passed": 1473,
+    "skipped": 1,
+    "seconds": 2050.05
+  },
+  "targeted_tests": {
+    "passed": 89,
+    "seconds": 35.5,
+    "earlier_grade_source_tests": 22,
+    "erratum_tests": 34,
+    "initial_new_test_error_code_expectation_fixed": true
+  },
+  "flutter_tests": {
+    "passed": 543,
+    "seconds": 235
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 62.7
+  },
+  "flutter_widgets": {
+    "passed": 3,
+    "seconds": 15,
+    "new_captures_inspected": 9
+  },
+  "open_source_holds": 0,
+  "open_editorial_issues": 146,
+  "reviewed_errata": 1,
+  "prior188_hashes_preserved": true,
+  "production_operations": false
+}

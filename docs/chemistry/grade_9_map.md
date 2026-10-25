@@ -72,9 +72,9 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-laboratory09` | laboratory 9 | Aluminiy va uning qotishmalari namunalari bilan tanishish | 199–200 | 199:full – 200:full | 199 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory08 |
 | `ch9-laboratory10` | laboratory 10 | Aluminiy gidroksidni olish, uning kislota va ishqorlar bilan o‘zaro ta’sirlashuvini o‘rganish | 199–200 | 199:full – 200:full | 199 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory09 |
 | `ch9-laboratory11` | laboratory 11 | Aluminiy tuzlari eritmalarining indikatorlarga ta’sirini o‘rganish | 200–201 | 200:full – 201:full | 200 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory10 |
-| `ch9-laboratory12` | laboratory 12 | Misning ikki valentli tuzlaridan mis (II)-gidroksidi olish va u bilan tajribalar o‘tkazish | 200–201 | 200:full – 201:full | 200 | not_authored | ch9-laboratory11 |
-| `ch9-laboratory13` | laboratory 13 | Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash | 201–202 | 201:full – 202:full | 201 | not_authored | ch9-laboratory12 |
-| `ch9-laboratory14` | laboratory 14 | Xromning ikki, uch va olti valentli birikmalari | 202–203 | 202:full – 203:full | 202 | not_authored | ch9-laboratory13 |
-| `ch9-laboratory15` | laboratory 15 | Temirning (II)- va (III)-gidroksidlarini olish | 203–204 | 203:full – 204:full | 203 | not_authored | ch9-laboratory14 |
-| `ch9-laboratory16` | laboratory 16 | Ikki va uch valentli temir tuzlarini bilib olish | 203–204 | 203:full – 204:full | 203 | not_authored | ch9-laboratory15 |
-| `ch9-laboratory17` | laboratory 17 | Cho‘yan va po‘lat namunalari bilan tanishish | 204–204 | 204:full – 204:full | 204 | not_authored | ch9-laboratory16 |
+| `ch9-laboratory12` | laboratory 12 | Misning ikki valentli tuzlaridan mis (II)-gidroksidi olish va u bilan tajribalar o‘tkazish | 200–201 | 200:full – 201:full | 200 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory11 |
+| `ch9-laboratory13` | laboratory 13 | Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash | 201–202 | 201:full – 202:full | 201 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory12 |
+| `ch9-laboratory14` | laboratory 14 | Xromning ikki, uch va olti valentli birikmalari | 202–203 | 202:full – 203:full | 202 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory13 |
+| `ch9-laboratory15` | laboratory 15 | Temirning (II)- va (III)-gidroksidlarini olish | 203–204 | 203:full – 204:full | 203 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory14 |
+| `ch9-laboratory16` | laboratory 16 | Ikki va uch valentli temir tuzlarini bilib olish | 203–204 | 203:full – 204:full | 203 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory15 |
+| `ch9-laboratory17` | laboratory 17 | Cho‘yan va po‘lat namunalari bilan tanishish | 204–204 | 204:full – 204:full | 204 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory16 |
