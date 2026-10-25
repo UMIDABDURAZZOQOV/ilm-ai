@@ -1,59 +1,56 @@
 # Chemistry continuation checkpoint
 
-2026-10-25, batch29. Continue automatically; no routine approval.
+2026-10-25, batch30. Continue automatically; no routine approval.
 
-- Backend implementation: `50d3a5870c7b7ecd85438830da7c50685968ef1d`.
-- Flutter: `cc63e70391bca21dea765d7fae0d2499883262c7`.
-- Separate `feat/chemistry-curriculum` branches. Biology/Physics untouched.
-- **148/268 implemented;120 remain. Grade7 74/74;grade8 59/59;grade9 15/61.**
-  Grade10 0/41,grade11 0/33. Course-ready flags false; no teacher sign-off claimed.
-- Total1251 cards/1864 questions:584 MCQ,277 short,491 numeric,209 formula,
-  303 equation. Batch29 adds80 cards/125 questions:23/9/35/18/40 respectively.
-- Full Chemistry1058 passed,1 opt-in PG skip,1 existing warning/523.49s;
-  target89 passed/11.23s, including22 earlier-grade source tests. Initial target
-  AU assertion corrected toincorrect; existing grader unchanged. Critical Ruff
-  and diff checks passed. All143 predecessor hashes/manifest pins unchanged.
-- Flutter520 tests/111s; analysis0 issues/153.1s. Four source widgets/6s,
-  including two new320×568/200% dark/light scenarios. Six new captures seen:
-  silicon feedback/source9/62/earlier8/27, silicate industry feedback/source9/70/
-  earlier8/84–85. Separate source dialogs and pinned continuation work.
-  No runtime UI change/native Android/IME/TalkBack certificate.
-- Actual HTTP125 answers preserve143 synthetic completions/2860XP and add100XP
-  once→148/2960XP. Complete replay, comma/dot146,140/146.140 and scientific
-  3.568e2/356.8 replay identical. Grade7/8 catalogs unchanged; rubrics private;
-  six sanitized public fixtures exported. All148 imported r1 revisions immutable.
-- Current sandbox:ilm-ai-chemistry-batch28-final-qa,loopback8903,ownPID22976.
+- Backend implementation: `29a5fff97baca33c876dc0541df3b0faffc32e0f`.
+- Flutter: `80f28d205446163a824d838d094ee699892b93f1`.
+- Separate feat/chemistry-curriculum branches. Biology/Physics untouched.
+- **153/268 implemented;115 remain. Grade7 74/74;grade8 59/59;grade9 20/61.**
+  Grade10 0/41,grade11 0/33. Ready flags false; no teacher sign-off claimed.
+- Total1326 cards/1975 questions:606 MCQ,288 short,537 numeric,226 formula,
+  318 equation. Batch30 adds75 cards/111 questions:22/11/46/17/15.
+- Full Chemistry1118 passed,1 opt-in PG skip,1 existing warning/507.17s;
+  target82 passed/11.10s includes22 earlier-source tests. Missing Natriy entry
+  in the taught names fact was added before tests/first import; science unchanged.
+  Critical Ruff/diff checks passed. All148 predecessor hashes/pins unchanged.
+- Flutter522 tests/93s; analysis0 issues/26.3s. Six source widgets/7s including
+  two new320×568/200% scenarios. Six new captures seen: corrosion feedback/
+  source9/85/source7/31→PDF16:right, and electrolysis feedback/source9/90,93,94,96/
+  source8/59. Source dialogs scroll and continuation remains pinned.
+  No runtime UI/native Android/IME/TalkBack certificate.
+- Actual HTTP111 answers preserve148 synthetic completions/2960XP; once-only
+ 100XP→153/3060XP. Replay identical, comma/dot2,24/2.24 and scientific
+  3.01e23/301000000000000000000000 equivalent. Grade7/8 catalogs unchanged;
+  rubrics private; six sanitized public fixtures. All153 imported r1 immutable.
+- Current sandboxilm-ai-chemistry-batch28-final-qa,loopback8903,ownPID26704.
   Verify full command before stopping. Private defines stay outside Git.
-- Five PDF hashes/all817 pages audited. Catalogue327 anchors/268 entries;
-  101 editorial scopes and one grade9§40 scientific blocker. No readiness claim.
-- Batch29 original53–top74 reviewed. Wrong HCO3 charge54, ambiguous hydrate56,
-  2.74/20.4 copies59/60, Si density/species universals, cement450C, early-round
-  water146g/limestone.953, density500kg/m3/current resource universals held.
-  Exact declared calculations2.467%,146.140g/.952 retained; no silent external
-  correction. Equation prompts show supplied unbalanced species, not the keys.
-- Strict earlier-grade context rule remains: already validated teaching topic,
-  exact own book SHA/bibliography/page/region, grade7 left/right preserved.
-  Future/unreviewed/blocked/container links fail. No new solver or pedagogy.
+- Five PDF hashes/all817 pages audited;327 anchors/268 entries unchanged.
+  106 editorial scopes plus one grade9§40 scientific blocker; not course-ready.
+- Batch30 original74–top100 reviewed. Holds: alloy/property universals and
+  incomplete recipes; metal displacement conditions; corrosion charge/rust/
+  inhibitor exponents; electrolysis electrode/charged-product/tableH2S copies;
+  Fr/medical/biological alkali claims. Clear source models retained. No silent
+  external corrections, new solver/AI, physical operations or clinical advice.
 
 ## Exact continuation
 
-Next batch30:grade9§16–20,sequence16–20,original74–top100.
-All74–100 visually read,78–100 privately rendered. Detailed notes:
-`.local/grade9_batch30_source_notes.md`. No batch30 catalogue/authors run yet.
+Next batch31:grade9§21–25,sequence21–25,original100–top124.
+All100–124 visually read. Private notes:.local/grade9_batch31_source_notes.md.
+Images101–124 privately rendered. No batch31 catalogue/authors run yet.
 
-Review alloy universal properties/incomplete recipes and undefined gold assay;
-metal displacement/acid conditions; corrosion charge/Fe(OH)3 scope/inhibitor
-exponents; electrolysis wrong electrode labels/charged products/tableH2S and
-conditional product predictions; alkali Fr/medical/biological universals. Do not
-invent missing constants or silently repair source errors. Exact prior constants
-must be located in supplied reviewed pages before numeric keys are authored.
+Review K potential/KO2 term/NaON label; conditional hydride identity and soda
+gross-versus-net inputs; MgSiO3/apatite/clinical claims and ambiguous lime names;
+hardness phase simplifications/milk165 typo/bone20% denominator; Al electrode
+signs/O2+2C→CO/nepheline ratios/medical intake. Do not replace with memory.
+Every formula/key/feedback must link exact supplied reviewed pages.
 
-Use `.local/author_grade9_helpers.py`; do not rerun its prepare script, indexed
-authors, catalogue/finalcopy/doc scripts. `earlier` preserves cited book evidence;
-do not add own topic as source_context. Proofread prose/units before immutable
-import. Do not call suvsiz tuz anhidrid. For equation prompts strip coefficients
-only in supplied species; retain reviewed private balance keys.
+Use.local/author_grade9_helpers.py; never rerun its prepare script or indexed
+author/catalogue/finalcopy/doc scripts. Keep each earlier source book identity;
+do not add own topic as context. Proofread copy/units before immutable import.
+Equation prompts may show unbalanced supplied species; private keys preserve
+reviewed balances. Hydrates/charged/complex structures remain display or bounded
+MCQ/numeric; no silent new parser.
 
-After each5–10:validate/audit, target/full tests, HTTP preserve148/2960XP,
-small-screen source/math QA, measured docs, commit/push and continue. No AI,
-main/production/PDF/OCR/fulltext/token push or other-subject branch mutation.
+After5–10:validate/audit, target/full tests, HTTP preserve153/3060XP, small-screen
+source/math QA, measured docs, commit/push and continue. No main merge,
+production/PDF/OCR/fulltext/render/token push or other-subject branch mutation.
