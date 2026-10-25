@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "batch": "grade7_batch8",
+  "date": "2026-10-25",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-7",
+  "book_sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+  "batch_file_sha256": "00a0ac1cb210e718e8092ba2ae64242236a2684f2d7a59fc27dba7b7b4eb8ce0",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original explanations/examples/questions. Independent source-reviewed semantic answer labels, explicit calculation oracles and wrong-answer/domain tests where applicable. Tool records hashes only; it does not claim automatic scientific review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 123,
+      "printed_page": 130,
+      "text_sha256": "b691df0b19a8dbdef140ffd087d5bd1163c1f3a3d5e14d581389bd7a07b56344",
+      "reviewed_render_sha256": "8d64a11febfdedae29505f333288130b8aaa6071b864252a3a087c5306583d32",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 124,
+      "printed_page": 131,
+      "text_sha256": "7f195b381a52b73900b827c07e2db6944bb3e1c210d2203159fd9b99921f2986",
+      "reviewed_render_sha256": "08661beb01087fd9bc690d5ab21085669ea07ab4b72d1dfc648c2aeafa47413f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 125,
+      "printed_page": 132,
+      "text_sha256": "22c7ab9ec01ac61be723567463723f797d31efc7ae1231592857ed219cc7eb32",
+      "reviewed_render_sha256": "48824c4d7160d651e9448bcea3aa5f49dfce1a21a31de30f6aaa00f105e86ddc",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 126,
+      "printed_page": 133,
+      "text_sha256": "449500fb3c3e34df631e6ec33efa3763a0678f53d4df1f108c361136edc9f3ba",
+      "reviewed_render_sha256": "ca95e86916be4f37e38a818af2ef03688051d51f50197fb6fdf7a175af40b1f9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 127,
+      "printed_page": 134,
+      "text_sha256": "88a34d61028f0c3b6cac612030fe40be13b5cd8b6ec1d4b92e413ece60d6238f",
+      "reviewed_render_sha256": "e5af4a4765621b30841d2eef1b1af83ded874bbd3589f64a73b09b9db05432ca",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": 135,
+      "text_sha256": "4bd7b44647af041b0eeaa94884a5bbd545da830a70671669f740cd416483f00c",
+      "reviewed_render_sha256": "457890aa9d7384d6036628092a5b63c3048de1573abef82f7a504d371ac767b4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 129,
+      "printed_page": 136,
+      "text_sha256": "e65f0173a1c5a86efff51a608138dd9fa8eda6c6f2d27fdadf90a36321add982",
+      "reviewed_render_sha256": "ca9d59fc0c7ef722142755d19af7929eb9cd48aa7b659ada476c7793c65bfd5f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": 137,
+      "text_sha256": "034cbfd21f2cc2ce0617f1bd50e179a5c7a6ce95b2d0493480efdf7421d77b85",
+      "reviewed_render_sha256": "95eb927889239034c5349f1d79b84f3d5fc67c4134d6dd905df251b51ad8755f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 131,
+      "printed_page": 138,
+      "text_sha256": "7a40a8e559b0455a7664cf9c022c1104702c28729dbe0711824ca860cd1318fe",
+      "reviewed_render_sha256": "606cc08c522232f1128a5a00f9f6efff673ba6df1e1dc1f7526781cd5d2ab6a1",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 132,
+      "printed_page": 139,
+      "text_sha256": "6b3a5c280faa20d99904e8d151a3436f349dadb6bda77449f17444fd0b769d94",
+      "reviewed_render_sha256": "7319f6d52bba7943ddf8d58928601e5da2270c7bab8df9b7800acf632bd2cee4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 133,
+      "printed_page": 140,
+      "text_sha256": "27d303bad9ace37d74575801dc1b8bf917cf5f5f8be0f3b77a898667bbcdc8e3",
+      "reviewed_render_sha256": "2dfc4cb2fee1fe1de4229614d68391aac2bf9c815d5595fdf463b1fb04cef88c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 134,
+      "printed_page": 141,
+      "text_sha256": "52ba91e2a1c1282fdcf82ec3ec10c0bb2f4ee53ec096d6b84f7347a56eecfacb",
+      "reviewed_render_sha256": "b67161c7582cf2a3fd64752508e9de72dd6cde29ce27e87982659360c57de4c4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 135,
+      "printed_page": 142,
+      "text_sha256": "572f030ba675422b5ed863fcb7ad9ae1a817004dab7ce34bad976d2974530975",
+      "reviewed_render_sha256": "0762b69df2f5e6cd19394b13aeddeab63048c770692bae0e36610308c72f29ef",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 136,
+      "printed_page": 143,
+      "text_sha256": "1e7955b744c78b8931beeaf9e86d6f22e536f8a702f4081cc61f17ba0d663216",
+      "reviewed_render_sha256": "e38bfffeb4d580dd2d44e661a76837f2211119c18cc6afb7fb59725b1544e0f9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 140,
+      "printed_page": 147,
+      "text_sha256": "b3414ff96deb571d0d12117a1cd16f478756b673c5029716c012e966f2c22c57",
+      "reviewed_render_sha256": "9b051be42923d987617af3b15ba0099c0eec5e49acb4e5549b6e229d16bee6db",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 141,
+      "printed_page": 148,
+      "text_sha256": "4aa2bae3eea576dfd72b15118e1ed64c99be903205c6c30755395a2077c552a1",
+      "reviewed_render_sha256": "c7ff3f18f51c6282083b18de701d5afac56288c98a56d52d206c595f746cea9d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 142,
+      "printed_page": 149,
+      "text_sha256": "0224585c2b02c19a8358687b0bb8142587be87f8eed7406b793e03d3df4fa039",
+      "reviewed_render_sha256": "f8272a108adb1a12071d0418bace6080672d61c93a1625d3596ab06bcb771ec7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 143,
+      "printed_page": 150,
+      "text_sha256": "25f45f5297475853da2e502d744800d1209497da778dbfe58cb993b87157af95",
+      "reviewed_render_sha256": "8cc2975b4e3c76fa7682c612bc5b0650f3b22eb0581ba9a3fcee04ba5ca926e3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 144,
+      "printed_page": 151,
+      "text_sha256": "43ec59ae4ef7a7337dc35c99eb2419b46d1526c34b898d85b372ba02e2c40108",
+      "reviewed_render_sha256": "85e9d49c296ff34a014bc6b67aba29219f20802012b1d6dca8dbd1c6076bfb70",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 145,
+      "printed_page": 152,
+      "text_sha256": "0adbcccea81008ad827f7072520499c17bdcfa1a6a5536313486f95148551f37",
+      "reviewed_render_sha256": "f3f4216ee55a9b1db03bda8c6aa75206f321c00217df47f2a47c927c6d59d8f8",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "decision": "Constant net-force impulse Ft equals change of constant-mass momentum. N*s=kg*m/s dimensions verified on original imagePDF125 (text extraction drops /s in prose). Signed one-axis momentum, change and force projections; old unsigned magnitudes not globally relaxed. Variable force requires average over interval, not universal constant-acceleration assumption. Impulse alone not damage predictor; string-break/hammer/projectile stunts not assigned. Inertia not force that must be overcome; source t0 velocity0 is initial condition only."
+    },
+    {
+      "pdf_pages": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "decision": "External net impulse zero, not absence of every external force; internal forces redistribute momenta. Conservation is vector sum not each body's momentum. Perfectly inelastic common velocity only after sticking. SourcePDF131 sign of approach/separation relative velocities inconsistent; not copied into key, one-axis signed convention explicit. No requirement all inelastic collisions stick. Strongman hammer story not assigned as safe experiment."
+    },
+    {
+      "pdf_pages": [
+        133,
+        134,
+        135,
+        136
+      ],
+      "decision": "Recoil formula v=-m*u/M is one initially-resting two-body split, external impulse zero. Both velocities same inertial frame, M remaining body; exhaust relative velocity not interchangeable. No claimed continuous variable-mass rocket law or assertion all staged pieces burn up. Closed heated test tube, flame and pressure rigs only diagrams, not practical instruction. Exact signed and gram conversion oracles."
+    },
+    {
+      "pdf_pages": [
+        140,
+        141,
+        142,
+        143
+      ],
+      "decision": "Work A=F_projection*s constant-force projection; opposite direction negative, perpendicular zero. Individual work distinct from net work; constant speed not zero individual works. Figure129e says s0cm despite discussion of perpendicular motion; rely on Fprojection0, not universal no displacement. J/kJ/MJ/mJ verified. Signed projection rules bounded AST, no new unrestricted evaluation."
+    },
+    {
+      "pdf_pages": [
+        144,
+        145
+      ],
+      "decision": "Digital lab only; uniform lifting force work positive Fh, gravity work negative. Horizontal drawing work Fs versus perpendicular gravity work0. Equal distances do not imply equal work; compare stated actual forces. Source inconsistent load lists0.81/1.81/2.81N versus1/2/3N not copied as empirical dataset; original hypothetical observations explicit. No universal assertion lifting always greater without conditions."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 36,
+      "topic_id": "physics-7-section-36",
+      "pdf_pages": [
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "printed_pages": [
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    },
+    {
+      "sequence": 37,
+      "topic_id": "physics-7-section-37",
+      "pdf_pages": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "printed_pages": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    },
+    {
+      "sequence": 38,
+      "topic_id": "physics-7-section-38",
+      "pdf_pages": [
+        133,
+        134,
+        135,
+        136
+      ],
+      "printed_pages": [
+        140,
+        141,
+        142,
+        143
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 3
+    },
+    {
+      "sequence": 39,
+      "topic_id": "physics-7-section-39",
+      "pdf_pages": [
+        140,
+        141,
+        142,
+        143
+      ],
+      "printed_pages": [
+        147,
+        148,
+        149,
+        150
+      ],
+      "cards": 5,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    },
+    {
+      "sequence": 40,
+      "topic_id": "physics-7-section-40",
+      "pdf_pages": [
+        144,
+        145
+      ],
+      "printed_pages": [
+        151,
+        152
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    }
+  ]
+}

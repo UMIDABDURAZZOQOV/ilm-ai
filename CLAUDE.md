@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika 7-sinf §36–40:** **101/316;215qolgan**,7-sinf40/46.5dars(1raqamli lab)/22karta/9formula yozuvi/5misol/34topshiriq/18FRQ; jami424karta/147formula yozuvi/107misol/655topshiriq/200FRQ,130qoidaoilasi. Signedimpuls/Δp/yopishish/recoil/kuchproyeksiyaishi; N*s=kg*m/s,MJ; eski unsigneddomenlar saqlandi.210backendPhysics/Biologytest50.48s; actualPG1passed27.02s101lesson/1010XP/legacyprogress; FlutterPhysics19passed112publicFRQ320px/200%.271noyoboriginalsahifa. Keyingi **§41PDF145/bosma152**. Barcha316tayyoremas; Biology/Web/Kimyo/AIExplain/prodga tegilmadi.
+
+
 > **2026-10-25 — Fizika 7-sinf §31–35:** **96/316;220qolgan**,7-sinf35/46. Yana5dars(1raqamli lab)/22karta/7formula yozuvi/5misol/31topshiriq/10FRQ; jami402karta/138formula yozuvi/102misol/621topshiriq/182FRQ,122qoidaoilasi. Statikfrictionchegara, sirpanish/dumalash c birligi, satellite approximateorbit va lab sourcehavola to‘g‘rilandi; sahifaPDF112 topic33 sifatida halol cited, validatorbo‘shatilmadi.204backendPhysics/Biologytest48.91s; actualPG1passed26.99s96lesson/960XP/legacyprogress; FlutterPhysics19passed94publicFRQ320px/200%.251noyoboriginalsahifa. Keyingi **§36PDF123/bosma130**. Biologiya/Web/Kimyo/prod/AIExplain/nashrga tegilmadi.
 
 

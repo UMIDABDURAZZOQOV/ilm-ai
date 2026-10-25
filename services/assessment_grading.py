@@ -84,6 +84,10 @@ UNITS = {
     "kN/m": ("stiffness", Fraction(1000)),
     # Grade7 PDF91: explicit supplied G, not dimensionless.
     "N*m2/kg2": ("gravitation_constant", Fraction(1)),
+    "kg*m/s": ("momentum", Fraction(1)),
+    "N*s": ("momentum", Fraction(1)),
+    # Grade7 PDF141: megajoule is explicitly taught.
+    "MJ": ("energy", Fraction(1000000)),
 }
 UNIT_ALIASES = {
     "metr": "m",

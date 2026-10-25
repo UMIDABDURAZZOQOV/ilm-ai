@@ -651,3 +651,31 @@ PDF123/bosma130**. PDF123–136,140–145 aslmatn/tasvirlari keyingi
 §36–40 muallifligi uchun ko‘rildi, hali authoredemas. Eski kontent
 baytlari/406Biology/website/Kimyo saqlandi. NativeAndroid/independent
 expert/prodclaim yo‘q. Navbatdagi partiyaga tasdiq kutmasdan o‘tiladi.
+
+
+## 7-sinf §36–40 — 2026-10-25
+
+5dars/faoliyat(1raqamli ish lab),22karta,9formula yozuvi,5misol,
+34topshiriq(15MCQ+1tartib+18FRQ). PDF/bosma:§36 123–128/130–135;
+§37 128–133/135–140;§38 133–136/140–143;§39 140–143/147–150;
+§40 144–145/151–152.20asl sahifa matn/tasvir:276pagechecks/271noyob.
+8yangi executable oila,jami130. F*t, m*v, m(v−v0), jami p va yopishish
+umumiy v, ikki-qism recoil, Fprojection*s, ko‘tarish F*h. Signed
+proyeksiyalar faqat aniq yangi qoidalarda; musbat massa/vaqt/yo‘l talab
+bo‘shatilmadi. N*s va kg*m/s teng dimension, MJsourcebirligi qo‘shildi.
+Tashqi netimpuls0, bitta o‘q/sistema, yopishish branchi va initialrest
+recoil shartlari aniq; uzluksiz raketa tenglamasi deb berilmaydi. Gazning
+raketaga nisbatan tezligi bilan inertialu aralashtirilmadi. Ish musbat,
+manfiy yoki0bo‘lishi mumkin, tanlangan kuch alohida. Barcha ilmiy
+qarorlar batchreviewda; xavfli ip/bolg‘a/berkprobirka topshirig‘i yo‘q.
+
+BackendPhysics/source/identity/Biology **210passed50.48s**, barcha101dars
+ASGIHTTP/replay1010XP.18mustaqiloracle va noto‘g‘ri ishora/birlik/formula,
+zero/yopishish, mass/time/distancedomainlar. ActualPG16 **1passed27.02s**:
+101import/reimport1010XP/legacy137XP/3streak/2stars. FlutterPhysics
+**19passed**,112publicFRQ320px/200%signeddraft. Oldingi6-sinf61/7-sinf35
+baytlari va Biology406 saqlandi; website/Kimyo/production/AIExplainyo‘q.
+**101/316;215qolgan.7-sinf40/46,6qolgan.** Keyingi **§41«Potensial
+energiya»,PDF145/bosma152**. §41–46PDF145–161aslmatn/tasvirlari
+mualliflik uchun qayta ko‘rildi; hali authoredemas. NativeAndroid va
+mustaqil ekspert tekshiruvi hali bajarilmagan. Tasdiq kutmasdan davom.

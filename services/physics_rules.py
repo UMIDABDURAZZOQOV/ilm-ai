@@ -20,6 +20,54 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "linear_momentum": rule(
+        "p",
+        ["m", "v"],
+        ["m*v", "v*m"],
+        "Bir o‘q bo‘yicha signedv, m>0;7sinfPDF125–127.",
+    ),
+    "force_impulse": rule(
+        "I",
+        ["F", "t"],
+        ["F*t", "t*F"],
+        "O‘zgarmas natijaviy kuch proyeksiyasi,t>=0;7sinfPDF124–126.",
+    ),
+    "momentum_change": rule(
+        "dp",
+        ["m", "v", "v0"],
+        ["m*(v-v0)", "m*v-m*v0"],
+        "O‘zgarmas massa,bir o‘qdagi signedtezliklar;7sinfPDF126–128.",
+    ),
+    "momentum_sum2": rule(
+        "p",
+        ["m1", "v1", "m2", "v2"],
+        ["m1*v1+m2*v2", "v1*m1+v2*m2"],
+        "Ikki jism,bir xil sanoq sistemasi va o‘q,signedv;7sinfPDF129–131.",
+    ),
+    "inelastic_velocity": rule(
+        "v",
+        ["m1", "v1", "m2", "v2"],
+        ["(m1*v1+m2*v2)/(m1+m2)"],
+        "Tashqi impuls0, yopishib birga harakat qiluvchi ikki jism,m1,m2>0;7sinfPDF131–132.",
+    ),
+    "recoil_velocity": rule(
+        "v",
+        ["m", "u", "M"],
+        ["-m*u/M", "-(m*u)/M"],
+        "Boshlang‘ich jami impuls0; ajralgan m va qolgan M, u ayni inertial frame;7sinfPDF133–135.",
+    ),
+    "directed_work": rule(
+        "A",
+        ["Fpr", "s"],
+        ["Fpr*s", "s*Fpr"],
+        "O‘zgarmas kuchning ko‘chish bo‘yicha signedproyeksiyasi,s>=0;7sinfPDF141–143.",
+    ),
+    "lifting_lab_work": rule(
+        "A",
+        ["F", "h"],
+        ["F*h", "h*F"],
+        "Tekis yuqoriga ko‘tarishdagi kuch moduli va musbat balandlik;7sinfPDF144–145.",
+    ),
     "orbit_altitude": rule(
         "h",
         ["v", "g", "R"],
@@ -694,6 +742,7 @@ DIMENSION_UNIT = {
     "angle": "rad",
     "angular_speed": "rad/s",
     "stiffness": "N/m",
+    "momentum": "kg*m/s",
 }
 
 
@@ -711,6 +760,14 @@ def reviewed_calculation(question):
         if not unit or unit[0] != dimension or amount < 0:
             raise ValueError("given_quantity_domain")
         return amount * unit[1]
+
+    def projection(symbol, dimension):
+        # Signed components only for explicitly reviewed one-axis momentum/work rules.
+        given = givens[symbol]
+        unit = UNITS.get(given["unit"])
+        if not unit or unit[0] != dimension:
+            raise ValueError("given_projection_unit")
+        return numeric(given["value"]) * unit[1]
 
     def positive(symbol, dimension):
         result = value(symbol, dimension)
@@ -909,6 +966,26 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "linear_momentum":
+        return positive("m", "mass") * projection("v", "speed"), "momentum"
+    if name == "force_impulse":
+        return projection("F", "force") * value("t", "time"), "momentum"
+    if name == "momentum_change":
+        return positive("m", "mass") * (
+            projection("v", "speed") - projection("v0", "speed")
+        ), "momentum"
+    if name in {"momentum_sum2", "inelastic_velocity"}:
+        m1, m2 = positive("m1", "mass"), positive("m2", "mass")
+        p = m1 * projection("v1", "speed") + m2 * projection("v2", "speed")
+        return (p, "momentum") if name == "momentum_sum2" else (p / (m1 + m2), "speed")
+    if name == "recoil_velocity":
+        return -positive("m", "mass") * projection("u", "speed") / positive(
+            "M", "mass"
+        ), "speed"
+    if name == "directed_work":
+        return projection("Fpr", "force") * value("s", "length"), "energy"
+    if name == "lifting_lab_work":
+        return positive("F", "force") * value("h", "length"), "energy"
     if name == "orbit_altitude":
         h = positive("v", "speed") ** 2 / positive("g", "acceleration") - positive(
             "R", "length"
