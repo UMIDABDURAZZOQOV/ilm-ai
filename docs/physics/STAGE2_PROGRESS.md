@@ -804,3 +804,39 @@ Keyingi **8-sinf§6«O‘tkazgichlarda elektr zaryadlarning taqsimlanishi»,
 PDF/bosma22**. §6–10 PDF22–29/32–39 matn/tasvirlari qayta o‘qildi;
 25/26dagi noaniq OCR asl tasvirda tekshirildi, keyingi darslar hali0.
 Oraliq tasdiq kutilmaydi, §6–10 muallifligi bilan davom etiladi.
+
+
+## 8-sinf §6–10 — 2026-10-25
+
+5dars/faoliyat,22karta,5formula yozuvi,7originalnamuna,34topshiriq
+(23MCQ+5tartib+6FRQ). PDF/bosma:§6 22–25;§7 25–27;§8 27–29;
+§9 32–34;§10 34–39.16originalsahifa matn/tasvir;328pagechecks/321noyob.
+Qaytadan yaratilgan eski dars yo‘q.5yangi executable oila,jami156.
+q=F/E,n=F/(eE),eps=kq/(Er²),ideal muallaq q=mg/E va tayyor
+tovush kechikishi s≈340t. nN aniqSIkoeffitsiyenti qo‘shildi.
+
+Metall ichidagi ortiqcha zaryad bilan barcha zarralarni ajratish,
+Faradeyqafasining yopiq/elektrostatik/ichkizaryadsiz shartlari,uchli
+sirt taqsimoti va elektrshamol raqamli izohi. PDF25eps3.2ni OCR32deb
+olinmadi,26dagi exponent tafovuti mustaqil hisob bilan aniqlandi.
+Tomchi modelida kuchlar yo‘nalishi va g10 explicit. Chaqmoqmasofasi
+faqat tayyorqayd/taxmin, haqiqiy bo‘ronda turish topshirig‘i yo‘q.
+Tok tartibli zaryad oqimi; manba boshqa energiyadan zaryad ajratadi.
+Kislota reaksiyasi/eskibiografiya/seriespower universalclaim ko‘chirilmagan.
+§6,9,10konseptual, sun’iyformula/FRQyo‘q. §10ichidagi inclusivePDF39
+aslida§11voltageboshlanishi: fakt/formulalari§10ga yozilmadi.
+
+Physics/source/server/Biology **243passed,2opt-inPGskipped62.02s**.
+Alohida actualPG16 **1passed30.71s**:117dars import/reimport1170XP,
+replay,eski137XP/3streak/2stars.6mustaqil numericoracle va noto‘g‘ri
+unit/formula/son, integercount/dielectric/fieldzero/g/soundmodeldomain
+sinovlari. FlutterPhysics **21passed**,21publicgrade8FRQ320px/200%.
+Avvalgi fullbackend815/4skipped/Flutter147 natijalari §1–5checkpointida;
+bu partiyada qayta to‘liq821deb da’vo qilinmaydi. NativeAndroidyo‘q.
+Biology406,old6/7hamda8old5baytlari,website/Kimyo/prod/AIExplain saqlandi.
+
+**117/316;199qolgan.8-sinf10/60,50qolgan;9:59,10:45,11:45qolgan.**
+Jami495karta/182formula yozuvi/127namuna/768topshiriq/242FRQ.
+Keyingi **8-sinf§11«Elektr kuchlanish va uni o‘lchash»,PDF/bosma39**.
+§11–15PDF39–52OCRmatni o‘qildi, originalrasmlar renderqilingan,
+mualliflikdan oldin qayta ko‘rilsin. Oraliq tasdiq kutmasdan davom.

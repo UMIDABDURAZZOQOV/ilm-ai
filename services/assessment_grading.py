@@ -98,6 +98,7 @@ UNITS = {
     "µC": ("charge", Fraction(1, 10**6)),
     "nC": ("charge", Fraction(1, 10**9)),
     "µN": ("force", Fraction(1, 10**6)),
+    "nN": ("force", Fraction(1, 10**9)),
     "N*m2/C2": ("coulomb_constant", Fraction(1)),
     "N/C": ("electric_field", Fraction(1)),
 }

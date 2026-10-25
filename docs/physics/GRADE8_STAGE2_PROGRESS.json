@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 112,
-  "remaining": 204,
+  "authored": 117,
+  "remaining": 199,
   "grades": [
     {
       "grade": 6,
@@ -36,16 +36,16 @@
     {
       "grade": 8,
       "source_sections": 60,
-      "authored": 5,
-      "remaining": 55,
-      "cards": 23,
-      "formula_entries": 13,
-      "examples": 6,
-      "assessments": 36,
-      "frq": 15,
+      "authored": 10,
+      "remaining": 50,
+      "cards": 45,
+      "formula_entries": 18,
+      "examples": 13,
+      "assessments": 70,
+      "frq": 21,
       "laboratories": 0,
       "practicals": 0,
-      "next_section": 6
+      "next_section": 11
     },
     {
       "grade": 9,
@@ -90,25 +90,24 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 312,
+  "original_page_checks": 328,
   "date": "2026-10-25",
   "next": {
     "grade": 8,
-    "section": 6,
-    "pdf_page": 22,
-    "printed_page": 22
+    "section": 11,
+    "pdf_page": 39,
+    "printed_page": 39
   },
-  "unique_original_pages_reviewed": 306,
+  "unique_original_pages_reviewed": 321,
   "tests": {
-    "full_backend_passed": 815,
-    "full_backend_skipped": 4,
-    "existing_warnings": 13,
-    "backend_seconds": 296.78,
+    "selected_backend_and_biology_passed": 243,
+    "selected_opt_in_skipped": 2,
+    "backend_seconds": 62.02,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 26.49,
-    "flutter_full_passed": 147,
+    "postgresql_seconds": 30.71,
     "flutter_physics_passed": 21,
-    "flutter_analyze": "Analyzing ilm-ai-flutter...                                     \nNo issues found! (ran in 1.6s)"
+    "previous_full_backend_passed": 815,
+    "previous_full_flutter_passed": 147
   },
   "native_android": "not_run_sdk_absent"
 }

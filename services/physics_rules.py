@@ -24,6 +24,33 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "field_charge": rule(
+        "q", ["F", "E"], ["F/E", "F*E^-1"], "Kuch va maydon MODULLARI,E>0;8sinfPDF25."
+    ),
+    "field_electron_count": rule(
+        "n",
+        ["F", "e", "E"],
+        ["F/(e*E)", "F/e/E"],
+        "Manfiy zaryaddagi ortiqcha butun elektronlar soni,e1.6e-19C;8sinfPDF25.",
+    ),
+    "point_dielectric_ratio": rule(
+        "eps",
+        ["k", "q", "E", "r"],
+        ["k*q/(E*r^2)", "k*q/E/r^2"],
+        "Bir jinsli elektrostatik muhit,k9e9,qmodul,eps>=1;8sinfPDF25.",
+    ),
+    "field_balance_charge": rule(
+        "q",
+        ["m", "g", "E"],
+        ["m*g/E", "g*m/E"],
+        "Muallaq tomchi moduli,faqat gravitatsiya/elektrkuch,g10,E>0;8sinfPDF25–26.",
+    ),
+    "lightning_distance": rule(
+        "s",
+        ["v", "t"],
+        ["v*t", "t*v"],
+        "Berilgan tovush v340m/s,kechikish t,lighttime negligibletaxmin;8sinfPDF28.",
+    ),
     "charge_multiple": rule(
         "q",
         ["n", "e"],
@@ -1099,6 +1126,36 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "field_charge":
+        return value("F", "force") / positive("E", "electric_field"), "charge"
+    if name == "field_electron_count":
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_elementary_charge_magnitude")
+        count = value("F", "force") / (e * positive("E", "electric_field"))
+        if count.denominator != 1:
+            raise ValueError("whole_particle_count")
+        return count, "dimensionless"
+    if name == "point_dielectric_ratio":
+        k = positive("k", "coulomb_constant")
+        if k != 9_000_000_000:
+            raise ValueError("explicit_vacuum_coulomb_constant")
+        ratio = (
+            k
+            * positive("q", "charge")
+            / (positive("E", "electric_field") * positive("r", "length") ** 2)
+        )
+        if ratio < 1:
+            raise ValueError("static_dielectric_model")
+        return ratio, "dimensionless"
+    if name == "field_balance_charge":
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_drop_g_is_10")
+        return positive("m", "mass") * 10 / positive("E", "electric_field"), "charge"
+    if name == "lightning_distance":
+        if positive("v", "speed") != 340:
+            raise ValueError("explicit_sound_speed_model_340")
+        return 340 * value("t", "time"), "length"
     if name in {"charge_multiple", "electron_count"}:
         e = positive("e", "charge")
         if e != Fraction("1.6e-19"):
