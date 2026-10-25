@@ -13,10 +13,10 @@ from catalogue containers, prefaces, subtopics and chapter reviews.
 The catalogue has **327 records**, including those additional source anchors.
 This is source mapping, not 268 finished interactive lessons.
 
-Grade7 has all74 mapped teaching entries;grade8 has all59;grade9 now has §1–20 (20/61).
+Grade7 has all74 mapped teaching entries;grade8 has all59;grade9 now has §1–25 (25/61).
 The isolated v2 API and separate Flutter QA entrypoint reuse ILM AI learning
 components for MCQ, short text, fixed-unit numbers, formulas and equations.
-**153/268** source teaching entries are implemented;115 remain and all five
+**158/268** source teaching entries are implemented;110 remain and all five
 course-ready flags remain false. No AI feature added.
 
 - [Source review](SOURCE_REVIEW.md)

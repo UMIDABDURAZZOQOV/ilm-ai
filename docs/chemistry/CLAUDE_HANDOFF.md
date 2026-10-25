@@ -28,7 +28,7 @@ review. Mapping is not interactive readiness.
 
 ## Current implementation
 
-153 reviewed lessons:all74 grade7,all59 grade8 and grade9 §1–20;115 remain. All
+158 reviewed lessons:all74 grade7,all59 grade8 and grade9 §1–25;110 remain. All
 whole-course flags remain false. §2 is substance properties, practical1 is safety.
 The previous safety label for §2 was a handoff error.
 
@@ -40,10 +40,10 @@ engines are not silently supported. Flutter uses common Ilmo/source/feedback/
 result/exit components and a separate explicit local preview entrypoint.
 
 Exact implementation commits/tests/next page: CHECKPOINT.md and QA_REPORT.md.
-Next five:grade9 §21–25,sequence21–25,original100–top124.
-Grade7 all74 entries;grade8 all59 entries;grade9 20/61.
+Next five:grade9 §26–30,sequence26–30,original124–top145.
+Grade7 all74 entries;grade8 all59 entries;grade9 25/61.
 Nine grade7 reviews integrated;chapter prefatory context is not an extra entry.
-One scientific blocker/106 editorial reviews still gate readiness. Same shared
+One scientific blocker/111 editorial reviews still gate readiness. Same shared
 MCQ/FRQ/feedback/XP/draft rules;no new orbital/ionic/structure prediction engine.
 
 ## Review and development notes
@@ -822,3 +822,65 @@ notes:.local/grade9_batch31_source_notes.md. Review K potential/KO2 category/NaO
 conditional hydride identification, mineral formula conflicts, clinical claims,
 lime-name ambiguity, hardness/biological arithmetic copies, and Al electrode
 signs/carbon balance/nepheline ratios. Do not fill missing keys from memory.
+
+
+## Batch31 — 2026-10-25: grade9 paragraphs21–25
+
+**158/268 implemented;110 remain. Grade9 25/61;grade7 all74 andgrade8 all59.**
+Five new lessons add80 cards/133 questions:20 MCQ,10 short,34 numeric,
+20 formula and49 equation. Total1406 cards/2108 questions:626/298/571/246/367.
+
+Original100–top124 visually reviewed. Coverage includes Na/K source models,
+historical soda cycles and gross versus recycled inputs, Mg/Ca/lime/gypsum
+categories, water hardness and ion exchange, and aluminium structure/electrolysis.
+Every key uses the shared bounded response types and exact supplied page evidence.
+The unspecified lime question is adapted to an openly defined90%CaO input/
+20%Ca(OH)2 output model, not silently repaired. The milk/bone contexts are
+abstract declared arithmetic, with clinical and actual body-composition claims
+held. Crystal-soda acid example uses full intermediate5139.860139g pure acid,
+5354.020979g96%solution and2909.794010mL→2.910L under declared assumptions.
+
+New source scopes remain visible: K potential/KO2 category/NaON label; hydride
+identity and cycle boundaries; mineral/medical/lime-name ambiguities; hardness
+phase simplifications/milk165/bone denominator; Al electrode signs/carbon
+balance/nepheline ratios/required intake.111 editorial issues and one scientific
+blocker keep all readiness flags false. No external memory repair, physical
+experiment, clinical recommendation, new complex/ionic solver or AI feature.
+
+Final full Chemistry1178 passed,1 opt-in PostgreSQL skip,1 existing Starlette
+warning/1370.84s. Final target82 passed/43.75s includes22 earlier-source
+tests. Earlier target81 pass/1 fail was a test pointing Mg/CO2 answer at q17
+instead of q16; only its index changed, grader unchanged. Corrected pre-final
+target82/38.40s also passed. Pre-import copy validation caught a formatter
+splitting4Li into4 L i; exact lithium formulas were restored, then a regression
+assertion added. Final prose polish excludes expected/verified formula keys
+and source metadata. Critical Ruff/diff checks passed. All153 prior lesson
+hashes/manifest pins and original grade7§1 remain unchanged.
+
+Flutter524 tests passed/151s. Analysis0 code issues/135.0s; the command first
+waited for Flutter's startup lock, then exited0. Eight200% source widgets
+passed/28s, including two new320×568 dark/light scenarios. Six new captures
+were inspected: Na/K mass feedback/source9/105/earlier8/29–30, and Al cathode
+feedback/source9/123/prior9/85,91. Source ownership, page locators, scrolling
+and pinned continuation are preserved. No runtime UI or native/IME/TalkBack
+certificate is claimed.
+
+Actual HTTP133 answers preserved153 synthetic completions/3060XP, then added
+100XP once→158completions/3160XP. Complete replay is identical;22,4/22.4 and
+6.15385e2/615.385 replays agree. Grade7/8 catalogs are unchanged; private
+rubrics hidden; six sanitized public fixtures exported. Current sandbox remains
+ilm-ai-chemistry-batch28-final-qa on8903,now ownPID7544. Verify full command
+before stopping; private defines remain outside Git. All158 imported r1 immutable.
+
+Five PDF hashes/all817 pages audited;327 anchors/268 teaching entries unchanged.
+No PDF/OCR/full text/render/token push, main merge, production operation or
+other-subject branch mutation. Independent teacher review remains outstanding.
+
+Next five:grade9§26–30,original124–top145,all visually read. Private detailed
+notes:.local/grade9_batch32_source_notes.md. Private author_batch32a.py,
+author_batch32b.py and author_batch32c.py are prepared but unexecuted;
+no batch32 catalogue scope run.
+Review Al nitrate/water/H2 copies, missing legitimate priorCr mass constant,
+KOH coefficient/amethyst identity, Cu conditional chemistry, Ag medical/Au
+leaf-thickness/cyanide-complex scope, and Zn/Hg acid/product/balance copies.
+Never invent missing constants or enable unsupported complex notation grading.

@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 20 | 41 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 25 | 36 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 153 | 115 |
+| Total | 29 | 204 | 49 | 15 | 268 | 158 | 110 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1326 cards; 1975 assessments: 606 concept_selection, 288 short_text, 537 numeric_value, 226 chemical_formula, 318 chemical_equation.
+Total: 1406 cards; 2108 assessments: 626 concept_selection, 298 short_text, 571 numeric_value, 246 chemical_formula, 367 chemical_equation.
 
 ## Initial §1
 
@@ -150,11 +150,16 @@ Original carbonate, silicon, silicate industry and metal models keep exact sourc
 5 lessons;75 cards;111 questions:22 MCQ,11 short,46 numeric,17 formula,15 equation.
 Alloys, metal properties, corrosion, electrolysis and alkali models retain sources.
 
+## Batch31: grade9 §21–25
+
+5 lessons;80 cards;133 questions:20 MCQ,10 short,34 numeric,20 formula,49 equation.
+Sodium/potassium, soda, Mg/Ca, water hardness and aluminium retain exact sources.
+
 ## Current continuation
 
-153/268 implemented;115 remain. Grade7 all74,grade8 all59,grade9 20/61.
-Next5:grade9 §21–25,sequence21–25,original100–top124. All100–124 visually read.
-Detailed private notes: .local/grade9_batch31_source_notes.md.
-106 editorial scopes plus one scientific blocker; all ready flags false.
-Actual HTTP preserved148 baseline completions/2960XP and added100XP once:
-153completions/3060XP. All148 prior hashes/original§1 unchanged.
+158/268 implemented;110 remain. Grade7 all74,grade8 all59,grade9 25/61.
+Next5:grade9 §26–30,sequence26–30,original124–top145. All124–145 visually read.
+Private notes:.local/grade9_batch32_source_notes.md.
+111 editorial scopes plus one scientific blocker; all ready flags false.
+Actual HTTP preserved153 baseline completions/3060XP and added100XP once:
+158completions/3160XP. All153 prior hashes/original§1 unchanged.

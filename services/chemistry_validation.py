@@ -137,6 +137,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-paragraph18': 'ch9-p18-corrosion-charge-inhibitor-review',
     'ch9-paragraph19': 'ch9-p19-electrolysis-charge-products-review',
     'ch9-paragraph20': 'ch9-p20-alkali-source-scope-review',
+    'ch9-paragraph21': 'ch9-p21-alkali-compound-copy-scope-review',
+    'ch9-paragraph22': 'ch9-p22-soda-hydride-cycle-scope-review',
+    'ch9-paragraph23': 'ch9-p23-alkaline-earth-mineral-clinical-scope-review',
+    'ch9-paragraph24': 'ch9-p24-hardness-phase-biological-arithmetic-review',
+    'ch9-paragraph25': 'ch9-p25-aluminium-electrode-mineral-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -737,6 +742,27 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
                     'unreviewed_francium_occurrence_cannot_be_a_premise')
             require(not any('seziy' in a.casefold() and 'zaharli emas' in a.casefold() for a in plain_values),
                     'unqualified_alkali_toxicity_cannot_be_a_premise')
+        if 'ch9-paragraph21' in topic_ids:
+            require(not any(a.strip() == 'NaON' for a in f['verified_answers']),
+                    'unreviewed_sodium_hydroxide_label_cannot_be_an_answer')
+            require(not any('KO2' in a and 'peroksid' in a.casefold() for a in f['verified_answers']),
+                    'unreviewed_potassium_oxygen_category_cannot_be_an_answer')
+        if 'ch9-paragraph22' in topic_ids:
+            require(not any('har qanday' in a.casefold() and 'gidrid' in a.casefold() and 'KH' in a for a in plain_values),
+                    'unqualified_hydride_identity_cannot_be_a_premise')
+        if 'ch9-paragraph23' in topic_ids:
+            require(not any('MgSiO3' in a and 'olivin' in a.casefold() for a in plain_values),
+                    'unreviewed_olivine_formula_cannot_be_a_premise')
+            require(not any('askalsiy' in a.casefold() and 'davola' in a.casefold() for a in plain_values),
+                    'unreviewed_alkaline_earth_clinical_claim_cannot_be_a_premise')
+        if 'ch9-paragraph24' in topic_ids:
+            require(not any(a.replace(',', '.') == '165' for a in f['verified_answers']),
+                    'unresolved_milk_arithmetic_copy_cannot_be_an_answer')
+        if 'ch9-paragraph25' in topic_ids:
+            require(not any('katod musbat' in a.casefold() for a in plain_values),
+                    'unreviewed_aluminium_electrode_sign_cannot_be_a_premise')
+            require(not any(a.replace(' ', '') == 'O2+2C=CO' for a in f['verified_answers']),
+                    'unbalanced_aluminium_carbon_copy_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

@@ -34,11 +34,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-paragraph18` | paragraph 18 | Metallar korroziyasi | 80–85 | 80:full – 85:full | 80 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph17 |
 | `ch9-paragraph19` | paragraph 19 | Elektroliz va uning amaliy ahamiyati | 85–97 | 85:full – 97:full | 85 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph18 |
 | `ch9-paragraph20` | paragraph 20 | Ishqoriy metallar | 97–100 | 97:full – 100:full | 97 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph19 |
-| `ch9-paragraph21` | paragraph 21 | Natriy va kaliyning xossalari va eng muhim birikmalari | 100–105 | 100:full – 105:full | 100 | not_authored | ch9-paragraph20 |
-| `ch9-paragraph22` | paragraph 22 | Soda ishlab chiqarish | 105–109 | 105:full – 109:full | 105 | not_authored | ch9-paragraph21 |
-| `ch9-paragraph23` | paragraph 23 | Kalsiy va magniy | 109–117 | 109:full – 117:full | 109 | not_authored | ch9-paragraph22 |
-| `ch9-paragraph24` | paragraph 24 | Suvning qattiqligi va uni yumshatish usullari | 117–121 | 117:full – 121:full | 117 | not_authored | ch9-paragraph23 |
-| `ch9-paragraph25` | paragraph 25 | Aluminiy | 121–124 | 121:full – 124:full | 121 | not_authored | ch9-paragraph24 |
+| `ch9-paragraph21` | paragraph 21 | Natriy va kaliyning xossalari va eng muhim birikmalari | 100–105 | 100:full – 105:full | 100 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph20 |
+| `ch9-paragraph22` | paragraph 22 | Soda ishlab chiqarish | 105–109 | 105:full – 109:full | 105 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph21 |
+| `ch9-paragraph23` | paragraph 23 | Kalsiy va magniy | 109–117 | 109:full – 117:full | 109 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph22 |
+| `ch9-paragraph24` | paragraph 24 | Suvning qattiqligi va uni yumshatish usullari | 117–121 | 117:full – 121:full | 117 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph23 |
+| `ch9-paragraph25` | paragraph 25 | Aluminiy | 121–124 | 121:full – 124:full | 121 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph24 |
 | `ch9-paragraph26` | paragraph 26 | Aluminiy xossalari | 124–129 | 124:full – 129:full | 124 | not_authored | ch9-paragraph25 |
 | `ch9-paragraph27` | paragraph 27 | Aluminiy birikmalari. Ishlatilishi | 129–131 | 129:full – 131:full | 129 | not_authored; scoped editorial review remains open | ch9-paragraph26 |
 | `ch9-paragraph28` | paragraph 28 | I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis | 131–137 | 131:full – 137:full | 131 | not_authored | ch9-paragraph27 |
