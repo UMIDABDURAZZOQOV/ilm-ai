@@ -20,6 +20,57 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "rotational_linear": rule(
+        "v",
+        ["omega", "R"],
+        ["omega*R", "R*omega"],
+        "Tekis aylanish, R>0, omega rad/s;7sinfPDF52.",
+    ),
+    "rotation_period": rule(
+        "T",
+        ["t", "n"],
+        ["t/n", "t*n^-1"],
+        "n musbat butun aylanishlar soni,t>0;7sinfPDF53.",
+    ),
+    "rotation_frequency": rule(
+        "nu",
+        ["n", "t"],
+        ["n/t", "n*t^-1"],
+        "n musbat butun aylanishlar soni,t>0;7sinfPDF53–54.",
+    ),
+    "angular_from_period": rule(
+        "omega",
+        ["p", "T"],
+        ["2*p/T", "2*p*T^-1"],
+        "p=3.14 ochiq yaqinlashuv,T>0;7sinfPDF53–54.",
+    ),
+    "centripetal": rule(
+        "ac",
+        ["v", "R"],
+        ["v^2/R", "v*v/R"],
+        "Chiziqli tezlik moduli v, aylana radiusi R>0;7sinfPDF56–57.",
+    ),
+    "centripetal_radius": rule(
+        "R", ["v", "ac"], ["v^2/ac", "v*v/ac"], "v>0,ac>0;7sinfPDF57,10-mashq."
+    ),
+    "force_sum2": rule(
+        "F",
+        ["F1", "F2"],
+        ["F1+F2", "F2+F1"],
+        "Bir jismga bir yo‘nalishli kollinear kuchlar moduli;7sinfPDF64.",
+    ),
+    "force_difference": rule(
+        "F",
+        ["F1", "F2"],
+        ["F1-F2"],
+        "Kollinear qarama-qarshi kuchlar,F1>=F2; natija F1 yo‘nalishi;7sinfPDF64.",
+    ),
+    "mass_sum2": rule(
+        "m",
+        ["m1", "m2"],
+        ["m1+m2", "m2+m1"],
+        "Ikki qismli klassik jism, massalar bir birlikda;7sinfPDF71.",
+    ),
     "accelerated_path": rule(
         "s",
         ["v0", "a", "t"],
@@ -680,6 +731,32 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "rotational_linear":
+        return value("omega", "angular_speed") * positive("R", "length"), "speed"
+    if name in {"rotation_period", "rotation_frequency"}:
+        n = positive("n", "dimensionless")
+        if givens["n"]["unit"] != "1" or n.denominator != 1:
+            raise ValueError("whole_rotation_count_required")
+        t = positive("t", "time")
+        return (t / n, "time") if name == "rotation_period" else (n / t, "frequency")
+    if name == "angular_from_period":
+        if givens["p"]["unit"] != "1" or value("p", "dimensionless") != Fraction(
+            "3.14"
+        ):
+            raise ValueError("explicit_pi_approximation_required")
+        return 2 * Fraction("3.14") / positive("T", "time"), "angular_speed"
+    if name == "centripetal":
+        return value("v", "speed") ** 2 / positive("R", "length"), "acceleration"
+    if name == "centripetal_radius":
+        return positive("v", "speed") ** 2 / positive("ac", "acceleration"), "length"
+    if name in {"force_sum2", "force_difference"}:
+        a, b = value("F1", "force"), value("F2", "force")
+        if name == "force_difference" and a < b:
+            raise ValueError("resultant_direction_domain")
+        return (a + b if name == "force_sum2" else a - b), "force"
+    if name == "mass_sum2":
+        same_units("m1", "m2")
+        return value("m1", "mass") + value("m2", "mass"), "mass"
     if name == "arc_angle":
         return value("s", "length") / positive("R", "length"), "angle"
     if name == "angular_speed":

@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika 7-sinf §16–20:** umumiy **81/316; 235 qolgan**, 7-sinf20/46. Yangi5dars/21karta/9formula yozuvi/5misol/32topshiriq/12FRQ; jami338karta/108formula yozuvi/87misol/524topshiriq/139FRQ,92qoidaoilasi. 1/s va rad/s ajratildi, explicit pi/tolerance, markazga tezlanish, kollinear kuch va massalar yig‘indisi. Backend **186passed39.89s**, actualPG16 **1passed20.62s**81lesson/810XP/legacyprogress, FlutterPhysics **19passed**,51publicFRQ320px/200% qoralamalari. /tmp/.git sabab dastlab185pass/1fail bo‘lgan xavfsiz sandbox testi alohida /dev/shm katalogida qayta o‘tdi; himoya o‘zgarmadi. Oldingi§11–15actualPG1passed16.67s va Flutter19passed ham tasdiqlandi. Keyingi **§21PDF71/bosma78**. Fizika lokal/test, nativeAndroid/mustaqil ekspert/prod tasdig‘i yo‘q.
+
+
 > **2026-10-25 — Fizika7-sinf§11–15:** umumiy **76/316;240qolgan**,7-sinf15/46. Yangi5dars(1raqamli lab)/20karta/31topshiriq/15FRQ; jami317karta/99formula yozuvi/82misol/492topshiriq/127FRQ,83qoidaoilasi.187originalsahifa hash audit. Signedflightvelocity/balandlikvsyo‘l/explicitg/radian/speedbranchchegaralari.129backendPhysics/Biologytestpassed,76darsHTTP/replay760XP. PG/Fluttershu partiya natijalari logtekshiruvidan keyin qayd etiladi. Keyingi **§16PDF52/bosma59**.6-sinf61dars saqlandi; production,Kimyo,veb,AIExplainyo‘q. TafsilotSTAGE2_PROGRESS/batchreview.
 
 

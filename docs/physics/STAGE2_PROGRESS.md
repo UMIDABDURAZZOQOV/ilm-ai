@@ -536,3 +536,31 @@ yangi sahifa sifatida yashirilmaydi. Oldingi6-sinf61 va7-sinf10dars
 baytlari o‘zgarmadi. **76/316;240qolgan.7-sinf15/46,31qolgan.**
 Keyingi **§16«Aylanma harakatni tavsiflaydigan kattaliklar orasidagi
 munosabatlar»,PDF52/bosma59**. Oraliq tasdiq kutilmaydi.
+
+
+## 7-sinf §16–20 — 2026-10-25
+
+5dars,21karta,9formula yozuvi,5originalmisol,32topshiriq(19konseptual,
+1tartib,12FRQ). Manba PDF/bosma:§16 52–55/59–62;§17 55–58/62–65;
+§18 62–65/69–72;§19 65–68/72–75;§20 69–71/76–78.17asl sahifa
+matn/tasviri qayta ko‘rildi; originalaudit206pagechecks,203noyob(book,page).
+`grade7_batch4.json` va review. 9yangi qoida, jami92. 1/sfrequency
+rad/sdan ajratildi; davr/butun aylanish, v=omegaR, ac=v²/R, kollinear
+kuchlar va qismlar massasi. Pi p=3.14 sourceyaqinlashuv,0.005rad/s
+aniqlik explicit va chegaralari testlangan. Inersiya darsiga sun’iyFRQyo‘q.
+PDF58summarydagi phi=2piR/v birlik xatosi olinmadi; PDF54dagi erta
+oraliq yaxlitlash ko‘chirilmagan. Qarama-qarshi aravacha tezlanishlari
+vektorlari teng emas, faqat modul. Barcha qarorlar reviewda.
+
+Backend Physics/source/identity/Biology **186passed39.89s**. Dastlab
+185passed/1sandbox-resume fail: muhitdagi /tmp/.git belgisi private
+sinovkatalogini Git deb blokladi. Xavfsizlik qoidasini bo‘shatmay,
+/dev/shm alohida disposable basetempda barcha186test qayta o‘tdi.
+ActualPG16 **1passed20.62s**,81lesson/import/reimport810XP, eski137XP/
+3streak/2stars saqlandi. FlutterPhysics **19passed**,51publicFRQ
+320px/200% signedqoralama; rubrikalar mijozga chiqarilmadi.
+Biology kontenti/6-sinf61dars baytlari va website/Kimyo saqlandi.
+**81/316;235qolgan.7-sinf20/46,26qolgan.** Keyingi
+**§21«Nyutonning ikkinchi qonuni»,PDF71/bosma78**. §21–25ningPDF71–88
+matn/tasvirlari yangi mualliflik uchun qayta o‘qildi; hali authoredemas.
+Oraliq tasdiq kutilmaydi. NativeAndroid/mustaqil pedagogik tasdiq yo‘q.

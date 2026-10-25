@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "batch": "grade7_batch4",
+  "date": "2026-10-25",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-7",
+  "book_sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+  "batch_file_sha256": "cc22f7c6b91628eda8f1282e7862ed451f4d69ebe7b72cbe65cf0f32697010d7",
+  "review_method": "Original full PDF text and rendered images of every cited page re-read before authoring; original explanations/examples/questions. Independent source-reviewed semantic answer labels, explicit calculation oracles and wrong-answer/domain tests where applicable. Tool records hashes only; it does not claim automatic scientific review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 52,
+      "printed_page": 59,
+      "text_sha256": "3384c846046b9cbcac0a9eaf87769d7a0c7dfcba907f945f3a44181efcda0561",
+      "reviewed_render_sha256": "2b7207bde9619e4bf51f48a4e4459812d6e84e482bb8fcebf02531ac79e3a7b3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": 60,
+      "text_sha256": "2ce4f9f3efa7dd2af38fce7178d1d4bbc7181b9ba60c916d524428f7b2781491",
+      "reviewed_render_sha256": "cece62292ea4f2e3efd536dd264a27d1ec67412f209a9293cc4e7a066eb0bcd4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": 61,
+      "text_sha256": "f4427599824430d757b146b2a1f7b338c5a1c6dab40aea5bcbd0610dfd2d2ca9",
+      "reviewed_render_sha256": "99784340b7a0949fa3a7148349112c50822a670cdfbd73fe089563791f3b81ba",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 62,
+      "text_sha256": "283e9c292bf8fa47ad2922ad1cd7faa45637444a7e4f91a8be0e78db941bda9d",
+      "reviewed_render_sha256": "dbe7dbf9eb24e91361a8932bec56c2a1eb46ab5148ff3d0996675b621c7d4c44",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 56,
+      "printed_page": 63,
+      "text_sha256": "6aa8b6ade187285c6aab546c7723af08634fde9677d0f5b444b6f160eca7a7c7",
+      "reviewed_render_sha256": "14fe6f946904bfe2d7d204dd22ca0d9bbde893bae0f1cb1ba52effeb8d130d25",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 64,
+      "text_sha256": "3a56ecb407ff352baf0b30b3c1d2d038e6eddb7b11a4302c1f10dc54dcb04133",
+      "reviewed_render_sha256": "86c7dee3f7ad2463f2dc506d2007c1467cf6145700a43093eab8608f06d71f21",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 58,
+      "printed_page": 65,
+      "text_sha256": "0683951576e75380fe6258fa92301138b67383e6478814a40fb2889c51fb29a8",
+      "reviewed_render_sha256": "8a953586ae685900f8bfe034899e8f4809166633fc1f3a574c08cb90da213b35",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 69,
+      "text_sha256": "2ec039f3d90a99436a49fbe9740763c766473fd20b070246ebdd7f43fdcb769b",
+      "reviewed_render_sha256": "c14498389b4296500db8a52f2357675fd180a5b5214660bd71013f42c5cf0c99",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": 70,
+      "text_sha256": "bab1442881ee4c988ec81ea96990aa6ed2f8766fc8af0682343ef10330a69e91",
+      "reviewed_render_sha256": "be1d6cbe366a3cd9272c6d2820b081c20ad4dbd1bb9b703a70da1cedf6063c03",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 71,
+      "text_sha256": "35fd8cee2cf1b7973e39867547ef00a1c8f9020806760a55d81e9e134b026e87",
+      "reviewed_render_sha256": "9eb8442eab43ee8eaa348d8a07534edca5734fb425d948a9076c7a7eda3c8110",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 65,
+      "printed_page": 72,
+      "text_sha256": "8a90e5ac042dab140c3168eeb5c5d702548940c3a571adfe1d9a2f35945f7e04",
+      "reviewed_render_sha256": "12d250a2d489dba537d7d0a4d4b18b009005f0217414f2bad02322dab6cc9fe7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": 73,
+      "text_sha256": "aa6fa5bb934a3f8ec373aaac8fdad11061a332df9f7188946158f0150665c8c6",
+      "reviewed_render_sha256": "4c4aac294464684352b6c521ed5ba9ee679576fafa46198d54f4c52a96145872",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 67,
+      "printed_page": 74,
+      "text_sha256": "8706e0d060acab4da8e51e306708fe6f602173f99b5549091e0df826ea88b3ac",
+      "reviewed_render_sha256": "1db82278768c03e14c60eaa86408be028fb88d8354b17056fb81b4dec9ea50cd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 68,
+      "printed_page": 75,
+      "text_sha256": "282246ac14099549fcb852a23cf845da7546221efe9041fffce34569b4f7304c",
+      "reviewed_render_sha256": "a1e17a6052fae26528b67012ea197f054cefdf1562e6889a48cb6bef23a911ef",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": 76,
+      "text_sha256": "8c3bf22717d0adce9b0b161aff9d25d18d738a43c318ab22a437166bfe8a5dac",
+      "reviewed_render_sha256": "1cc87f234ba3f3319f46418c897c6ece2ff8dd556235e7d5ea15c07a0de2ef41",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": 77,
+      "text_sha256": "7a8bd8061bfadcf1e5b7663c440b9965c5ca9768cfe6cd0efe2ed29a495a933c",
+      "reviewed_render_sha256": "77b8778a0205bfbc654241abd3cc3b880e99fc4b5eddb568351c2af81fe10849",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 71,
+      "printed_page": 78,
+      "text_sha256": "f6b80565340431ef46411842bfa63b59468e52b634043621d4650ed2d13d72be",
+      "reviewed_render_sha256": "0ffe6c25cb48551547ea4ea2b05ab03ea3315493f5374d88006fde2fcf7b8de8",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pdf_pages": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "decision": "v=omega*R, T=t/n, nu=n/t=1/T, omega=2pi/T verified in original formulas. 1/s is frequency, rad/s angular speed; registry keeps them distinct. Source worked example v25/R0.4 prematurely rounds T to0.1 then omega62.8 vs direct62.5; new examples keep intermediates. pi3.14 explicitly approximate, p=3.14 checked in numeric model; tolerance0.005rad/s explicitly stated. Supplemental summaryPDF58 incorrectly identifies phi with2piR/v (a time); not copied."
+    },
+    {
+      "pdf_pages": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "decision": "Centripetal acceleration magnitude v²/R and inward direction separated; original arrow-over-v squared/arrowR notation is not valid vector algebra. Instantaneous velocity tangent, acceleration inward. Smaller radius increases ac ONLY at fixed linear speed, not at fixed omega. Radius/acceleration strictly positive on inverse branch."
+    },
+    {
+      "pdf_pages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "decision": "Contact and noncontact interactions, force vector with application point, N/mN/kN and collinear resultant verified. Source wording greater force implies greater instantaneous speed is not taught: force alone does not determine current speed. Zero resultant is not absence of component forces or blanket rotational equilibrium."
+    },
+    {
+      "pdf_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "decision": "Inertia and NewtonI retain rest or rectilinear uniform velocity, zero resultant rather than no individual forces. Appropriate inertial frame explicitly stated. No artificial formula/FRQ for this conceptual lesson; digital bus observations only, no dangerous road demonstration."
+    },
+    {
+      "pdf_pages": [
+        69,
+        70,
+        71
+      ],
+      "decision": "Mass as inertness measure, scalar kg and additive classical mass verified. Source opposite-moving carts' a1=a2 with vector arrows is interpreted as equal magnitudes only, opposite vectors not equal. Historical Pt-Ir prototype is not presented as current SI definition. Mass not conflated with chemical amount/mol; no Chemistry edits. F=ma postponed to next source topic."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 16,
+      "topic_id": "physics-7-section-16",
+      "pdf_pages": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "printed_pages": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "cards": 4,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 4
+    },
+    {
+      "sequence": 17,
+      "topic_id": "physics-7-section-17",
+      "pdf_pages": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "printed_pages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 3
+    },
+    {
+      "sequence": 18,
+      "topic_id": "physics-7-section-18",
+      "pdf_pages": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "printed_pages": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "cards": 5,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 19,
+      "topic_id": "physics-7-section-19",
+      "pdf_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "printed_pages": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "cards": 4,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 20,
+      "topic_id": "physics-7-section-20",
+      "pdf_pages": [
+        69,
+        70,
+        71
+      ],
+      "printed_pages": [
+        76,
+        77,
+        78
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    }
+  ]
+}
