@@ -39,11 +39,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-paragraph23` | paragraph 23 | Kalsiy va magniy | 109–117 | 109:full – 117:full | 109 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph22 |
 | `ch9-paragraph24` | paragraph 24 | Suvning qattiqligi va uni yumshatish usullari | 117–121 | 117:full – 121:full | 117 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph23 |
 | `ch9-paragraph25` | paragraph 25 | Aluminiy | 121–124 | 121:full – 124:full | 121 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph24 |
-| `ch9-paragraph26` | paragraph 26 | Aluminiy xossalari | 124–129 | 124:full – 129:full | 124 | not_authored | ch9-paragraph25 |
-| `ch9-paragraph27` | paragraph 27 | Aluminiy birikmalari. Ishlatilishi | 129–131 | 129:full – 131:full | 129 | not_authored; scoped editorial review remains open | ch9-paragraph26 |
-| `ch9-paragraph28` | paragraph 28 | I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis | 131–137 | 131:full – 137:full | 131 | not_authored | ch9-paragraph27 |
-| `ch9-paragraph29` | paragraph 29 | Kumush va oltin. Xossalari. Ishlatilishi | 137–139 | 137:full – 139:full | 137 | not_authored | ch9-paragraph28 |
-| `ch9-paragraph30` | paragraph 30 | II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari | 139–145 | 139:full – 145:full | 139 | not_authored | ch9-paragraph29 |
+| `ch9-paragraph26` | paragraph 26 | Aluminiy xossalari | 124–129 | 124:full – 129:full | 124 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph25 |
+| `ch9-paragraph27` | paragraph 27 | Aluminiy birikmalari. Ishlatilishi | 129–131 | 129:full – 131:full | 129 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph26 |
+| `ch9-paragraph28` | paragraph 28 | I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis | 131–137 | 131:full – 137:full | 131 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph27 |
+| `ch9-paragraph29` | paragraph 29 | Kumush va oltin. Xossalari. Ishlatilishi | 137–139 | 137:full – 139:full | 137 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph28 |
+| `ch9-paragraph30` | paragraph 30 | II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari | 139–145 | 139:full – 145:full | 139 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph29 |
 | `ch9-paragraph31` | paragraph 31 | Xrom. Davriy jadvaldagi o‘rni. Atom tuzilishi va ayrim xossalari | 145–147 | 145:full – 147:full | 145 | not_authored | ch9-paragraph30 |
 | `ch9-paragraph32` | paragraph 32 | Xromning II, III, VI valentli birikmalari va xossalari | 147–152 | 147:full – 152:full | 147 | not_authored | ch9-paragraph31 |
 | `ch9-paragraph33` | paragraph 33 | Marganes. Davriy jadvaldagi o‘rni. Atom tuzilishi. Ayrim xossalari | 152–158 | 152:full – 158:full | 152 | not_authored | ch9-paragraph32 |

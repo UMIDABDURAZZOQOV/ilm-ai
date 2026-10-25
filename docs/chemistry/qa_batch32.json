@@ -1,0 +1,55 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 158,
+  "prior_xp": 3160,
+  "added_lessons": 5,
+  "added_questions": 151,
+  "kinds": {
+    "concept_selection": 20,
+    "short_text": 10,
+    "chemical_formula": 19,
+    "chemical_equation": 62,
+    "numeric_value": 40
+  },
+  "added_xp": 100,
+  "total_xp": 3260,
+  "total_completed_lessons": 163,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_and8_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public aluminium properties/compounds/zinc group catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 163,
+  "remaining_lessons": 105,
+  "backend_tests": {
+    "passed": 1244,
+    "skipped": 1,
+    "seconds": 1964.72
+  },
+  "targeted_tests": {
+    "passed": 88,
+    "seconds": 46.05,
+    "earlier_grade_source_tests": 22
+  },
+  "flutter_tests": {
+    "passed": 527,
+    "seconds": 254
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 117.5
+  },
+  "flutter_source_widgets": {
+    "passed": 3,
+    "new_batch_scenarios": 3,
+    "seconds": 31,
+    "new_captures_inspected": 8
+  },
+  "sandbox": "loopback8903;158 exact prior synthetic progress rows preserved",
+  "open_source_holds": 1,
+  "open_editorial_issues": 115,
+  "production_operations": false
+}

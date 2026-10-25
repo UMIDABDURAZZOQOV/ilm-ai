@@ -571,3 +571,52 @@ Review Al nitrate/water/H2 copies, missing legitimate priorCr mass constant,
 KOH coefficient/amethyst identity, Cu conditional chemistry, Ag medical/Au
 leaf-thickness/cyanide-complex scope, and Zn/Hg acid/product/balance copies.
 Never invent missing constants or enable unsupported complex notation grading.
+
+
+## Batch32 — 2026-10-25: grade9 paragraphs26–30
+
+**163/268 implemented;105 remain. Grade9 30/61;grade7 all74 andgrade8 all59.**
+Five lessons add78 cards/151 questions:20 MCQ,10 short,40 numeric,19 formula,
+62 equation. Total1484 cards/2259 questions:646/308/611/265/429.
+Original124–top145 visually reviewed. Al properties and amphoteric compounds,
+Cu,Ag/Au,Zn/Cd/Hg use the existing common learning/input/grading contracts.
+
+Source holds remain explicit: Al nitrate/water/H2 copies, missing legitimate
+earlier Cr mass constant for paragraph26, hydrate rounding; legacy paragraph27
+gem-host contradiction with grade7/108 and KOH coefficient; Cu conditional
+phases/products; Ag clinical assertions/Au leaf-thickness unit/exclusive acid
+claim; Zn/Hg concentration labels and water coefficient. Existing paragraph27
+issue ID and cross-book evidence retained; disputed gemstone and KOH equation
+keys are excluded, including a mathematically repaired KOH key. Complex species
+remain display/MCQ/count only. No physical hazardous procedure or clinical advice.
+115 editorial issues and one scientific blocker keep every ready flag false.
+
+Full Chemistry1244 passed,1 opt-in PG skip,1 existing Starlette warning/
+1964.72s. Target88/46.05s includes22 earlier-grade source tests. Critical
+Ruff/diff checks passed. All158 predecessor hashes/manifest pins and original§1
+remain unchanged. Five PDF hashes/all817 pages audited;327anchors/268entries.
+
+Flutter527 tests/254s; analysis0 issues/117.5s. Three new320×568/200% dark/light
+widgets passed/31s. Eight captures visually inspected: Al kaolin20,930 feedback,
+source9/129 and prior8/27; Zn3,270 feedback,source9/144 and prior9/57; existing
+bounded complex MCQ feedback and source9/129–130. Dialog source ownership,
+locators, scrolling and pinned continuation remain intact. No runtime UI change
+or native Android/IME/TalkBack certificate is claimed.
+
+Actual HTTP151 answers preserve158 synthetic completions/3160XP and add100XP
+once→163completions/3260XP. Complete replay identical;3,270/3.270 and
+2.093e1/20.930 replays equivalent. Grade7/8 catalogs unchanged; rubrics private;
+nine sanitized public fixtures. All163r1 imported snapshots immutable.
+Current sandboxilm-ai-chemistry-batch28-final-qa,loopback8903,ownPID19764.
+Verify full command before stopping; private tokens/defines remain outside Git.
+
+No PDF/OCR/full text/render/token push, main merge, production DB/deploy,
+other-subject branch mutation or AI feature. Teacher review remains outstanding.
+
+Next5:grade9§31–35,original145–top165,all visually read. Detailed private notes
+.local/grade9_batch33_source_notes.md. Five author_batch33a–e scripts prepared
+but unsaved/unindexed. In-memory dry run:89cards/189questions; all expected
+answers accepted by existing grader. Do not call that a finished course batch.
+Review Cr acid/product conditions/CrO3 coefficient, Mn nonoxidation and +7/+6
+copies, Fe diagram/potential/limonite/rust, complex phase and clinical claims.
+No catalogue scope run yet. Freeze source data during full snapshot tests.
