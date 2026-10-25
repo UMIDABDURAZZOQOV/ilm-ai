@@ -65,13 +65,13 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-laboratory02` | laboratory 2 | Tabiiy silikatlarning namunalari bilan tanishish | 196–197 | 196:full – 197:full | 196 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory01 |
 | `ch9-laboratory03` | laboratory 3 | Shishaning turlari va ularning tarkibi bilan tanishish. «Shisha va undan yasalgan mahsulotlar» to‘plami bilan tanishish va ishlash | 196–197 | 196:full – 197:full | 196 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory02 |
 | `ch9-laboratory04` | laboratory 4 | Metallar namunalarini ko‘zdan kechirish | 197–198 | 197:full – 198:full | 197 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory03 |
-| `ch9-laboratory05` | laboratory 5 | Qotishmalarning namunalari bilan tanishish | 197–198 | 197:full – 198:full | 197 | not_authored | ch9-laboratory04 |
-| `ch9-laboratory06` | laboratory 6 | Tuzlar eritmalari bilan metallarning o‘zaro ta’siri | 198–199 | 198:full – 199:full | 198 | not_authored | ch9-laboratory05 |
-| `ch9-laboratory07` | laboratory 7 | Mis (II)-xlorid va kaliy yodid eritmalarining elektrolizi | 198–199 | 198:full – 199:full | 198 | not_authored | ch9-laboratory06 |
-| `ch9-laboratory08` | laboratory 8 | Aluminiyning kislota va asos eritmalari bilan o‘zaro ta’siri | 199–200 | 199:full – 200:full | 199 | not_authored | ch9-laboratory07 |
-| `ch9-laboratory09` | laboratory 9 | Aluminiy va uning qotishmalari namunalari bilan tanishish | 199–200 | 199:full – 200:full | 199 | not_authored | ch9-laboratory08 |
-| `ch9-laboratory10` | laboratory 10 | Aluminiy gidroksidni olish, uning kislota va ishqorlar bilan o‘zaro ta’sirlashuvini o‘rganish | 199–200 | 199:full – 200:full | 199 | not_authored | ch9-laboratory09 |
-| `ch9-laboratory11` | laboratory 11 | Aluminiy tuzlari eritmalarining indikatorlarga ta’sirini o‘rganish | 200–201 | 200:full – 201:full | 200 | not_authored | ch9-laboratory10 |
+| `ch9-laboratory05` | laboratory 5 | Qotishmalarning namunalari bilan tanishish | 197–198 | 197:full – 198:full | 197 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory04 |
+| `ch9-laboratory06` | laboratory 6 | Tuzlar eritmalari bilan metallarning o‘zaro ta’siri | 198–199 | 198:full – 199:full | 198 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory05 |
+| `ch9-laboratory07` | laboratory 7 | Mis (II)-xlorid va kaliy yodid eritmalarining elektrolizi | 198–199 | 198:full – 199:full | 198 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory06 |
+| `ch9-laboratory08` | laboratory 8 | Aluminiyning kislota va asos eritmalari bilan o‘zaro ta’siri | 199–200 | 199:full – 200:full | 199 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory07 |
+| `ch9-laboratory09` | laboratory 9 | Aluminiy va uning qotishmalari namunalari bilan tanishish | 199–200 | 199:full – 200:full | 199 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory08 |
+| `ch9-laboratory10` | laboratory 10 | Aluminiy gidroksidni olish, uning kislota va ishqorlar bilan o‘zaro ta’sirlashuvini o‘rganish | 199–200 | 199:full – 200:full | 199 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory09 |
+| `ch9-laboratory11` | laboratory 11 | Aluminiy tuzlari eritmalarining indikatorlarga ta’sirini o‘rganish | 200–201 | 200:full – 201:full | 200 | reviewed local lesson; scoped editorial review remains open | ch9-laboratory10 |
 | `ch9-laboratory12` | laboratory 12 | Misning ikki valentli tuzlaridan mis (II)-gidroksidi olish va u bilan tajribalar o‘tkazish | 200–201 | 200:full – 201:full | 200 | not_authored | ch9-laboratory11 |
 | `ch9-laboratory13` | laboratory 13 | Ruxning suvda eriydigan tuzlaridan rux gidroksid olish va uni amfoter xossasini isbotlash | 201–202 | 201:full – 202:full | 201 | not_authored | ch9-laboratory12 |
 | `ch9-laboratory14` | laboratory 14 | Xromning ikki, uch va olti valentli birikmalari | 202–203 | 202:full – 203:full | 202 | not_authored | ch9-laboratory13 |

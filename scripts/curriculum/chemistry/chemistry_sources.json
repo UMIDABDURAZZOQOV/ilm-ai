@@ -13839,7 +13839,38 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-lab5-missing-alloy-measurements-review",
+              "status": "open_review",
+              "printed_pages": [
+                197,
+                198
+              ],
+              "pdf_pages": [
+                197,
+                198
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Original images reviewed;source-backed bounded digitaldata/model/report analysis. Uncertain copies and missing observations excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch9-lab5-missing-alloy-measurements-review-page197",
+                  "printed_page": 197,
+                  "reason": "Hardness/plasticity/color observations absent. Explicit prior sourcecards and fraction calculations are not real measurements or universal performance certificates."
+                },
+                {
+                  "id": "ch9-lab5-missing-alloy-measurements-review-page198",
+                  "printed_page": 198,
+                  "reason": "Exact nikelin67/32/1 from16/76 must not merge later composition ranges. No physical alloymaking/testing."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -13884,7 +13915,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-lab6-bounded-salt-displacement-review",
+              "status": "open_review",
+              "printed_pages": [
+                198
+              ],
+              "pdf_pages": [
+                198
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Original images reviewed;source-backed bounded digitaldata/model/report analysis. Uncertain copies and missing observations excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch9-lab6-bounded-salt-displacement-review-page198",
+                  "printed_page": 198,
+                  "reason": "Same-condition declared aqueous activity-series models only;Cu must not be keyed as displacingPb. Native questions not supplied actual unknownsample/measurement data. No toxicmetal handling;ionic expressions display/count only."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -13929,7 +13983,38 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-lab7-anode-starch-evidence-review",
+              "status": "open_review",
+              "printed_pages": [
+                198,
+                199
+              ],
+              "pdf_pages": [
+                198,
+                199
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Original images reviewed;source-backed bounded digitaldata/model/report analysis. Uncertain copies and missing observations excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch9-lab7-anode-starch-evidence-review-page198",
+                  "printed_page": 198,
+                  "reason": "Copper-anode gas question conflicts own86 eruvchan/inert prose. Cu-anode→unconditionalCl2 excluded. Separately declared Cu-soluble/inert cases preserve86–87 evidence. Starch color question has no printed answer here or located earlier passage;unique color key held,not guessed."
+                },
+                {
+                  "id": "ch9-lab7-anode-starch-evidence-review-page199",
+                  "printed_page": 199,
+                  "reason": "Electrolytic cathode/anode signs scoped to supplied electrolysis. NativeKIgraphiteH2/I2 products retained;no voltage/current/2M/apparatus/gas instructions or actual measurement."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -13974,7 +14059,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-lab8-aluminium-gas-coefficient-review",
+              "status": "open_review",
+              "printed_pages": [
+                199
+              ],
+              "pdf_pages": [
+                199
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Original images reviewed;source-backed bounded digitaldata/model/report analysis. Uncertain copies and missing observations excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch9-lab8-aluminium-gas-coefficient-review-page199",
+                  "printed_page": 199,
+                  "reason": "Use exact prior125complex3H2,not127wrong1H2. Oxidefilm andconditions retained;no universal product/rate guarantee. Bracketcomplex display/MCQ/count only;no physical acid/baseAl actions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -14019,7 +14127,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-lab9-missing-aluminium-strength-data-review",
+              "status": "open_review",
+              "printed_pages": [
+                199
+              ],
+              "pdf_pages": [
+                199
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Original images reviewed;source-backed bounded digitaldata/model/report analysis. Uncertain copies and missing observations excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch9-lab9-missing-aluminium-strength-data-review-page199",
+                  "printed_page": 199,
+                  "reason": "No actual alloystrength/hardness/unknownsample data. Exact priorAl density2.698 andduralumin95/4/.5/.5 example only;do not certify three-times-lighter/steel-equivalence or infer allproperties from fractions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -14064,7 +14195,38 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-lab10-hydroxide-drop-stoichiometry-review",
+              "status": "open_review",
+              "printed_pages": [
+                199,
+                200
+              ],
+              "pdf_pages": [
+                199,
+                200
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Original images reviewed;source-backed bounded digitaldata/model/report analysis. Uncertain copies and missing observations excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch9-lab10-hydroxide-drop-stoichiometry-review-page199",
+                  "printed_page": 199,
+                  "reason": "Equal .5MAl/1MOH drops lack actualvolume for amount claim;evenequalvolumes ratio2OH/Al differs3needed. No blanket fullprecipitation assertion."
+                },
+                {
+                  "id": "ch9-lab10-hydroxide-drop-stoichiometry-review-page200",
+                  "printed_page": 200,
+                  "reason": "Keep legacy27KOH equation/gemholds;do notrepairKOH key. ClearNaOHcomplex native129display only;acid/base amount/phaseconditions explicit. No physical doses/mixing."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
@@ -14109,7 +14271,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch9-lab11-hydrolysis-speciation-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                200
+              ],
+              "pdf_pages": [
+                200
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "Original images reviewed;source-backed bounded digitaldata/model/report analysis. Uncertain copies and missing observations excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch9-lab11-hydrolysis-speciation-scope-review-page200",
+                  "printed_page": 200,
+                  "reason": "Formal hydroxychloride step bookkeeping based34–35 is not unique actual aqueousspeciation or irreversible completeAlOH3+3HCl conversion. No invented pH/hydrolysispercentage/colorintensity or physical heating/dilution. Retain prior7water-stops/weakweak scopes."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",

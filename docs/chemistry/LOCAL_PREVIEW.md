@@ -1,3 +1,41 @@
+## Batch36 — 2026-10-25:grade9 laboratory5–11
+
+**188/268 implemented;80 remain. Grade9 55/61;6laboratories remain.**
+Seven source-ordered digital activities add53cards/74questions:28MCQ,14short,
+18numeric,5formula,9equation. Total1777cards/2722questions:750/361/726/319/566.
+Original197–200 and linked earlier proofs visually reviewed. Alloy cards,
+metal displacement,electrolysis,aluminium/amphoterism and hydrolysis reuse the
+same learning/assessment/XP/prerequisite contracts;no AI or physical execution.
+
+No missing alloy hardness or real sample measures invented. Duralumin95/4/.5/.5
+and nikelin67/32/1 use exact source contexts. Cu-anode/gas inconsistency86/198
+retained;solubleCu and inert-anode models explicitly separated. No guessed
+starch-color key. Prior electrolysis is§19/85–97,not§20. Aluminium balance uses
+3H2 from125,not bad coefficient on127. Equal drops do not prove full precipitation.
+Hydroxychloride equations are formal reversible source models,not irreversible
+complete aqueous speciation. Legacy§27gem/KOH holds and§40erratum preserved.
+140editorial scopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
+
+Full Chemistry1440pass,1opt-inPGskip,1existingStarlettewarning/2708.92s.
+Target90pass/56.37s includes34erratum and22earlier-grade tests. CriticalRuff/diff
+passed.181predecessor hashes and original§1 unchanged. FivePDF SHA/all817pages
+audited;327anchors/268entries. No independent subject-teacher sign-off claimed.
+
+Flutter540tests/240s,analysis0issues/150.3s. Three new320×568/200%widgets
+passed/20s;allnine captures visually inspected. ElectrolysisMCQ currentlab7/198
+and prior§19/86–87;aluminium0,30FRQ lab8/199 and prior§26/125;hydrolysis neutral
+equationFRQ lab11/200 and prior§7/34–35. Feedback/source sheets scroll,continue
+remains accessible. No nativeAndroid/IME/TalkBack certification.
+
+ActualHTTP74answers preserve181completions/3620XP;140XPonce→188/3760XP.
+Complete replay identical;0,30/0.3 and3e0/3 equivalent. Grade7/8catalogs unchanged,
+rubrics private,nine sanitized publicfixtures.188r1 imported snapshots immutable.
+Loopback8903 ownPID14316;verify exact fullcommand before stop. Tokens remain private.
+
+Next6private lab12–17drafts are not indexed. Source200–204 reread. Catalog37
+private helper prepared,unexecuted. Grade10 originals4–26 visually read,only
+source notes;no grade10lesson authored. Biology/Physics/userdata/production untouched.
+
 ## Batch35 — 2026-10-25:grade9 practical1–3,laboratory1–4
 
 **181/268 implemented;87 remain. Grade9 48/61;13laboratories remain.**

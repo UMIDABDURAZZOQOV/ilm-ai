@@ -1,0 +1,56 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 181,
+  "prior_xp": 3620,
+  "added_lessons": 7,
+  "added_questions": 74,
+  "kinds": {
+    "concept_selection": 28,
+    "short_text": 14,
+    "numeric_value": 18,
+    "chemical_formula": 5,
+    "chemical_equation": 9
+  },
+  "added_xp": 140,
+  "total_xp": 3760,
+  "total_completed_lessons": 188,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_and8_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public electrolysis/aluminium/hydrolysis laboratory catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 188,
+  "remaining_lessons": 80,
+  "backend_tests": {
+    "passed": 1440,
+    "skipped": 1,
+    "seconds": 2708.92
+  },
+  "targeted_tests": {
+    "passed": 90,
+    "seconds": 56.37,
+    "earlier_grade_source_tests": 22,
+    "erratum_tests": 34
+  },
+  "flutter_tests": {
+    "passed": 540,
+    "seconds": 240
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 150.3
+  },
+  "flutter_widgets": {
+    "passed": 3,
+    "seconds": 20,
+    "new_captures_inspected": 9
+  },
+  "open_source_holds": 0,
+  "open_editorial_issues": 140,
+  "reviewed_errata": 1,
+  "prior181_hashes_preserved": true,
+  "production_operations": false
+}

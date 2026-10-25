@@ -1,0 +1,4114 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 9,
+  "sequence": 50,
+  "key": "chemistry-9-lab06-r1",
+  "revision": 1,
+  "topic_id": "ch9-laboratory06",
+  "book_id": "chemistry-9-uz-2019",
+  "title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch9-laboratory05"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-laboratory06",
+      "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+      "paragraph": 6,
+      "printed_pages": [
+        198
+      ],
+      "pdf_pages": [
+        198
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-laboratory06-page198"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-paragraph17",
+      "topic_title": "Metallarning fizik va kimyoviy xossalari",
+      "paragraph": 17,
+      "printed_pages": [
+        79
+      ],
+      "pdf_pages": [
+        79
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-paragraph17-page79"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-paragraph28",
+      "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+      "paragraph": 28,
+      "printed_pages": [
+        134
+      ],
+      "pdf_pages": [
+        134
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-paragraph28-page134"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-paragraph29",
+      "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+      "paragraph": 29,
+      "printed_pages": [
+        137
+      ],
+      "pdf_pages": [
+        137
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-paragraph29-page137"
+    },
+    {
+      "book_id": "chemistry-9-uz-2019",
+      "book_title": "Kimyo 9",
+      "authors": [
+        "I.R. Asqarov",
+        "K.G‘. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_9_uzb.pdf",
+      "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "topic_id": "ch9-paragraph19",
+      "topic_title": "Elektroliz va uning amaliy ahamiyati",
+      "paragraph": 19,
+      "printed_pages": [
+        96
+      ],
+      "pdf_pages": [
+        96
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch9-paragraph19-page96"
+    }
+  ],
+  "facts": {
+    "comparison": {
+      "claim": "Berilgan uch karta Cu/AgNO3, Fe/CuSO4 va Cu/Pb(NO3)2 juftliklarini taqqoslaydi. Oldingi kuchlanish qatori bir xil muhit/sharoitdagi metall va uning tuzi modelini qiyoslashga yordam beradi; bu barcha aralashmalar uchun cheksiz qoida emas.",
+      "verified_answers": [
+        "Cu",
+        "Fe",
+        "Ag",
+        "Pb"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    "silver": {
+      "claim": "Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+      "verified_answers": [
+        "Cu+2AgNO3=Cu(NO3)2+2Ag",
+        "Cu(NO3)2",
+        "2",
+        "Ag"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        }
+      ]
+    },
+    "iron": {
+      "claim": "Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+      "verified_answers": [
+        "Fe+CuSO4=FeSO4+Cu",
+        "FeSO4",
+        "Cu",
+        "1"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph19",
+          "topic_title": "Elektroliz va uning amaliy ahamiyati",
+          "paragraph": 19,
+          "printed_pages": [
+            96
+          ],
+          "pdf_pages": [
+            96
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph19-page96"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    "lead": {
+      "claim": "Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+      "verified_answers": [
+        "Siqib chiqarmaydi"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    "species": {
+      "claim": "Cu(NO3)2 bilan AgNO3 formulasidagi nitrat qoldig‘i bir xil, koeffitsiyent va kation valentligi esa farqli. Cu(NO3)2 tarkibida ikkita NO3 guruhi; AgNO3 da bitta.",
+      "verified_answers": [
+        "Cu(NO3)2",
+        "AgNO3",
+        "2",
+        "1"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        }
+      ]
+    },
+    "amount": {
+      "claim": "Birinchi to‘liq virtual modelda 0,05 mol Cu uchun 0,10 mol AgNO3 va 0,10 mol Ag mos. Ikkinchi modelda 0,05 mol Fe ga 0,05 mol Cu mos. Bu nazariy koeffitsiyentlar nisbati, tayyor namunadagi ajralgan massani o‘lchash emas.",
+      "verified_answers": [
+        "0.10",
+        "0.05"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph19",
+          "topic_title": "Elektroliz va uning amaliy ahamiyati",
+          "paragraph": 19,
+          "printed_pages": [
+            96
+          ],
+          "pdf_pages": [
+            96
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph19-page96"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    "report": {
+      "claim": "Hisobotda berilgan boshlang‘ich juftlik, qaysi model qo‘llangani va undan chiqqan xulosa yoziladi. Elektrod potensialining ishorasi yoki berilmagan rang/tezlik o‘lchovi qo‘shilmaydi.",
+      "verified_answers": [
+        "Boshlang‘ich juftlik"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Uch juftlikni bir xil shartda o‘qing",
+        "body": "Berilgan uch karta Cu/AgNO3, Fe/CuSO4 va Cu/Pb(NO3)2 juftliklarini taqqoslaydi. Oldingi kuchlanish qatori bir xil muhit/sharoitdagi metall va uning tuzi modelini qiyoslashga yordam beradi; bu barcha aralashmalar uchun cheksiz qoida emas.",
+        "fact_ids": [
+          "comparison"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph17",
+            "topic_title": "Metallarning fizik va kimyoviy xossalari",
+            "paragraph": 17,
+            "printed_pages": [
+              79
+            ],
+            "pdf_pages": [
+              79
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph17-page79"
+          }
+        ]
+      },
+      {
+        "title": "Cu va kumush tuzining modeli",
+        "body": "Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+        "fact_ids": [
+          "silver"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph28",
+            "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+            "paragraph": 28,
+            "printed_pages": [
+              134
+            ],
+            "pdf_pages": [
+              134
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph28-page134"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph17",
+            "topic_title": "Metallarning fizik va kimyoviy xossalari",
+            "paragraph": 17,
+            "printed_pages": [
+              79
+            ],
+            "pdf_pages": [
+              79
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph17-page79"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph29",
+            "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+            "paragraph": 29,
+            "printed_pages": [
+              137
+            ],
+            "pdf_pages": [
+              137
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph29-page137"
+          }
+        ]
+      },
+      {
+        "title": "Fe va mis tuzining modeli",
+        "body": "Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+        "fact_ids": [
+          "iron"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph19",
+            "topic_title": "Elektroliz va uning amaliy ahamiyati",
+            "paragraph": 19,
+            "printed_pages": [
+              96
+            ],
+            "pdf_pages": [
+              96
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph19-page96"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph17",
+            "topic_title": "Metallarning fizik va kimyoviy xossalari",
+            "paragraph": 17,
+            "printed_pages": [
+              79
+            ],
+            "pdf_pages": [
+              79
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph17-page79"
+          }
+        ]
+      },
+      {
+        "title": "Cu va qo‘rg‘oshin tuzi uchun chegara",
+        "body": "Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+        "fact_ids": [
+          "lead"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph17",
+            "topic_title": "Metallarning fizik va kimyoviy xossalari",
+            "paragraph": 17,
+            "printed_pages": [
+              79
+            ],
+            "pdf_pages": [
+              79
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph17-page79"
+          }
+        ]
+      },
+      {
+        "title": "Nitrat guruhlarini sanang",
+        "body": "Cu(NO3)2 bilan AgNO3 formulasidagi nitrat qoldig‘i bir xil, koeffitsiyent va kation valentligi esa farqli. Cu(NO3)2 tarkibida ikkita NO3 guruhi; AgNO3 da bitta.",
+        "fact_ids": [
+          "species"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph28",
+            "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+            "paragraph": 28,
+            "printed_pages": [
+              134
+            ],
+            "pdf_pages": [
+              134
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph28-page134"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph29",
+            "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+            "paragraph": 29,
+            "printed_pages": [
+              137
+            ],
+            "pdf_pages": [
+              137
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph29-page137"
+          }
+        ]
+      },
+      {
+        "title": "Mol nisbatlarini qiyoslang",
+        "body": "Birinchi to‘liq virtual modelda 0,05 mol Cu uchun 0,10 mol AgNO3 va 0,10 mol Ag mos. Ikkinchi modelda 0,05 mol Fe ga 0,05 mol Cu mos. Bu nazariy koeffitsiyentlar nisbati, tayyor namunadagi ajralgan massani o‘lchash emas.",
+        "fact_ids": [
+          "amount"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph28",
+            "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+            "paragraph": 28,
+            "printed_pages": [
+              134
+            ],
+            "pdf_pages": [
+              134
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph28-page134"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph19",
+            "topic_title": "Elektroliz va uning amaliy ahamiyati",
+            "paragraph": 19,
+            "printed_pages": [
+              96
+            ],
+            "pdf_pages": [
+              96
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph19-page96"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph29",
+            "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+            "paragraph": 29,
+            "printed_pages": [
+              137
+            ],
+            "pdf_pages": [
+              137
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph29-page137"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph17",
+            "topic_title": "Metallarning fizik va kimyoviy xossalari",
+            "paragraph": 17,
+            "printed_pages": [
+              79
+            ],
+            "pdf_pages": [
+              79
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph17-page79"
+          }
+        ]
+      },
+      {
+        "title": "Dalilga bog‘langan hisobot",
+        "body": "Hisobotda berilgan boshlang‘ich juftlik, qaysi model qo‘llangani va undan chiqqan xulosa yoziladi. Elektrod potensialining ishorasi yoki berilmagan rang/tezlik o‘lchovi qo‘shilmaydi.",
+        "fact_ids": [
+          "report"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [
+      {
+        "title": "Bitta va ikkita koeffitsiyent",
+        "body": "Cu/Ag modelida 0,05·2=0,10 mol Ag. Fe/Cu modelida 0,05·1=0,05 mol Cu. Metall nomini almashtirganda nisbat o‘z-o‘zidan bir xil bo‘lib qolmaydi.",
+        "fact_ids": [
+          "silver",
+          "iron",
+          "amount"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-laboratory06",
+            "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+            "paragraph": 6,
+            "printed_pages": [
+              198
+            ],
+            "pdf_pages": [
+              198
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-laboratory06-page198"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph28",
+            "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+            "paragraph": 28,
+            "printed_pages": [
+              134
+            ],
+            "pdf_pages": [
+              134
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph28-page134"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph17",
+            "topic_title": "Metallarning fizik va kimyoviy xossalari",
+            "paragraph": 17,
+            "printed_pages": [
+              79
+            ],
+            "pdf_pages": [
+              79
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph17-page79"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph29",
+            "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+            "paragraph": 29,
+            "printed_pages": [
+              137
+            ],
+            "pdf_pages": [
+              137
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph29-page137"
+          },
+          {
+            "book_id": "chemistry-9-uz-2019",
+            "book_title": "Kimyo 9",
+            "authors": [
+              "I.R. Asqarov",
+              "K.G‘. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_9_uzb.pdf",
+            "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+            "topic_id": "ch9-paragraph19",
+            "topic_title": "Elektroliz va uning amaliy ahamiyati",
+            "paragraph": 19,
+            "printed_pages": [
+              96
+            ],
+            "pdf_pages": [
+              96
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch9-paragraph19-page96"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-laboratory06",
+        "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+        "paragraph": 6,
+        "printed_pages": [
+          198
+        ],
+        "pdf_pages": [
+          198
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-laboratory06-page198"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-paragraph17",
+        "topic_title": "Metallarning fizik va kimyoviy xossalari",
+        "paragraph": 17,
+        "printed_pages": [
+          79
+        ],
+        "pdf_pages": [
+          79
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-paragraph17-page79"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-paragraph28",
+        "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+        "paragraph": 28,
+        "printed_pages": [
+          134
+        ],
+        "pdf_pages": [
+          134
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-paragraph28-page134"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-paragraph29",
+        "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+        "paragraph": 29,
+        "printed_pages": [
+          137
+        ],
+        "pdf_pages": [
+          137
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-paragraph29-page137"
+      },
+      {
+        "book_id": "chemistry-9-uz-2019",
+        "book_title": "Kimyo 9",
+        "authors": [
+          "I.R. Asqarov",
+          "K.G‘. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_9_uzb.pdf",
+        "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+        "topic_id": "ch9-paragraph19",
+        "topic_title": "Elektroliz va uning amaliy ahamiyati",
+        "paragraph": 19,
+        "printed_pages": [
+          96
+        ],
+        "pdf_pages": [
+          96
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch9-paragraph19-page96"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-9-lab06-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Cu+2AgNO3 modelida ajraladigan metall qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ag"
+          },
+          {
+            "id": "b",
+            "label": "Cu"
+          },
+          {
+            "id": "c",
+            "label": "Fe"
+          },
+          {
+            "id": "d",
+            "label": "Pb"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Ag",
+        "feedback": {
+          "correct": "To‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+            "fact_ids": [
+              "silver"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph28",
+                "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+                "paragraph": 28,
+                "printed_pages": [
+                  134
+                ],
+                "pdf_pages": [
+                  134
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph28-page134"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph29",
+                "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+                "paragraph": 29,
+                "printed_pages": [
+                  137
+                ],
+                "pdf_pages": [
+                  137
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph29-page137"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "silver"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Fe/CuSO4 modelidagi tuz formulasi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Fe2(SO4)3"
+          },
+          {
+            "id": "b",
+            "label": "AgNO3"
+          },
+          {
+            "id": "c",
+            "label": "Pb(NO3)2"
+          },
+          {
+            "id": "d",
+            "label": "FeSO4"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "FeSO4",
+        "feedback": {
+          "correct": "To‘g‘ri. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "incorrect": "Hozircha noto‘g‘ri. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph19",
+                "topic_title": "Elektroliz va uning amaliy ahamiyati",
+                "paragraph": 19,
+                "printed_pages": [
+                  96
+                ],
+                "pdf_pages": [
+                  96
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph19-page96"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph19",
+          "topic_title": "Elektroliz va uning amaliy ahamiyati",
+          "paragraph": 19,
+          "printed_pages": [
+            96
+          ],
+          "pdf_pages": [
+            96
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph19-page96"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Berilgan bir xil sharoitli qator modelida Cu qo‘rg‘oshinni qanday?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Siqib chiqaradi"
+          },
+          {
+            "id": "b",
+            "label": "Har doim sof Pb beradi"
+          },
+          {
+            "id": "c",
+            "label": "Siqib chiqarmaydi"
+          },
+          {
+            "id": "d",
+            "label": "Barcha tuzni gazga aylantiradi"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Siqib chiqarmaydi",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+            "fact_ids": [
+              "lead"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "lead"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Cu(NO3)2 da nechta NO3 guruhi bor?",
+        "options": [
+          {
+            "id": "a",
+            "label": "1"
+          },
+          {
+            "id": "b",
+            "label": "2"
+          },
+          {
+            "id": "c",
+            "label": "3"
+          },
+          {
+            "id": "d",
+            "label": "4"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "2",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu(NO3)2 bilan AgNO3 formulasidagi nitrat qoldig‘i bir xil, koeffitsiyent va kation valentligi esa farqli. Cu(NO3)2 tarkibida ikkita NO3 guruhi; AgNO3 da bitta.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu(NO3)2 bilan AgNO3 formulasidagi nitrat qoldig‘i bir xil, koeffitsiyent va kation valentligi esa farqli. Cu(NO3)2 tarkibida ikkita NO3 guruhi; AgNO3 da bitta.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Cu(NO3)2 bilan AgNO3 formulasidagi nitrat qoldig‘i bir xil, koeffitsiyent va kation valentligi esa farqli. Cu(NO3)2 tarkibida ikkita NO3 guruhi; AgNO3 da bitta.",
+            "fact_ids": [
+              "species"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph28",
+                "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+                "paragraph": 28,
+                "printed_pages": [
+                  134
+                ],
+                "pdf_pages": [
+                  134
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph28-page134"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph29",
+                "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+                "paragraph": 29,
+                "printed_pages": [
+                  137
+                ],
+                "pdf_pages": [
+                  137
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph29-page137"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "species"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Cu/Pb tuzi kartasidagi ikki so‘zli qator xulosasini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Siqib chiqarmaydi",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi manbada Pb misni uning tuzidan siqib chiqarishi aytilgan. Shunga mos bir xil sharoitdagi qator modelida Cu/Pb(NO3)2 kartasiga “Cu qo‘rg‘oshinni siqib chiqardi” degan mahsulot yozilmaydi. Bu berilgan sharoitli qiyos.",
+            "fact_ids": [
+              "lead"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              }
+            ]
+          }
+        ],
+        "expected": "Siqib chiqarmaydi",
+        "aliases": [
+          "Siqib chiqarmaydi"
+        ]
+      },
+      "fact_ids": [
+        "lead"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Hisobotda avval beriladigan ikki so‘zli ma’lumot nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Boshlang‘ich juftlik",
+        "feedback": {
+          "correct": "To‘g‘ri. Hisobotda berilgan boshlang‘ich juftlik, qaysi model qo‘llangani va undan chiqqan xulosa yoziladi. Elektrod potensialining ishorasi yoki berilmagan rang/tezlik o‘lchovi qo‘shilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Hisobotda berilgan boshlang‘ich juftlik, qaysi model qo‘llangani va undan chiqqan xulosa yoziladi. Elektrod potensialining ishorasi yoki berilmagan rang/tezlik o‘lchovi qo‘shilmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Hisobotda berilgan boshlang‘ich juftlik, qaysi model qo‘llangani va undan chiqqan xulosa yoziladi. Elektrod potensialining ishorasi yoki berilmagan rang/tezlik o‘lchovi qo‘shilmaydi.",
+            "fact_ids": [
+              "report"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              }
+            ]
+          }
+        ],
+        "expected": "Boshlang‘ich juftlik",
+        "aliases": [
+          "Boshlang‘ich juftlik",
+          "Boshlangich juftlik"
+        ]
+      },
+      "fact_ids": [
+        "report"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q07",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Berilgan mis(II)-nitrat formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "Cu(NO3)2",
+        "feedback": {
+          "correct": "To‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+            "fact_ids": [
+              "silver"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph28",
+                "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+                "paragraph": 28,
+                "printed_pages": [
+                  134
+                ],
+                "pdf_pages": [
+                  134
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph28-page134"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph29",
+                "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+                "paragraph": 29,
+                "printed_pages": [
+                  137
+                ],
+                "pdf_pages": [
+                  137
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph29-page137"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu(NO3)2"
+      },
+      "fact_ids": [
+        "silver"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q08",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Berilgan temir(II)-sulfat formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "FeSO4",
+        "feedback": {
+          "correct": "To‘g‘ri. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "incorrect": "Hozircha noto‘g‘ri. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph19",
+                "topic_title": "Elektroliz va uning amaliy ahamiyati",
+                "paragraph": 19,
+                "printed_pages": [
+                  96
+                ],
+                "pdf_pages": [
+                  96
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph19-page96"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              }
+            ]
+          }
+        ],
+        "expected": "FeSO4"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph19",
+          "topic_title": "Elektroliz va uning amaliy ahamiyati",
+          "paragraph": 19,
+          "printed_pages": [
+            96
+          ],
+          "pdf_pages": [
+            96
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph19-page96"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q09",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Berilgan mahsulotli atom balansini yozing: Cu+2AgNO3=Cu(NO3)2+2Ag",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Cu+2AgNO3=Cu(NO3)2+2Ag",
+        "feedback": {
+          "correct": "To‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi."
+        },
+        "solution": [
+          {
+            "body": "Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+            "fact_ids": [
+              "silver"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph28",
+                "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+                "paragraph": 28,
+                "printed_pages": [
+                  134
+                ],
+                "pdf_pages": [
+                  134
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph28-page134"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph29",
+                "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+                "paragraph": 29,
+                "printed_pages": [
+                  137
+                ],
+                "pdf_pages": [
+                  137
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph29-page137"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu+2AgNO3=Cu(NO3)2+2Ag"
+      },
+      "fact_ids": [
+        "silver"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q10",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Berilgan mahsulotli atom balansini yozing: Fe+CuSO4=FeSO4+Cu",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Fe+CuSO4=FeSO4+Cu",
+        "feedback": {
+          "correct": "To‘g‘ri. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "incorrect": "Hozircha noto‘g‘ri. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1."
+        },
+        "solution": [
+          {
+            "body": "Ikkinchi model Fe+CuSO4=FeSO4+Cu. Oldingi aniq misolda Fe va Cu ning berilgan valentliklari +2 bo‘lib, birlik nisbati Fe: Cu=1:1.",
+            "fact_ids": [
+              "iron"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph19",
+                "topic_title": "Elektroliz va uning amaliy ahamiyati",
+                "paragraph": 19,
+                "printed_pages": [
+                  96
+                ],
+                "pdf_pages": [
+                  96
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph19-page96"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              }
+            ]
+          }
+        ],
+        "expected": "Fe+CuSO4=FeSO4+Cu"
+      },
+      "fact_ids": [
+        "iron"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph19",
+          "topic_title": "Elektroliz va uning amaliy ahamiyati",
+          "paragraph": 19,
+          "printed_pages": [
+            96
+          ],
+          "pdf_pages": [
+            96
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph19-page96"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Birinchi berilgan modelda bir Cu ga nechta elektron mos?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "2",
+        "feedback": {
+          "correct": "To‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "incorrect": "Hozircha noto‘g‘ri. Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Birinchi aniq model Cu+2AgNO3=Cu(NO3)2+2Ag. Cu uchun +2, Ag uchun +1 ion modeli bilan bir Cu ikki elektron beradi, ikkita Ag ioni bittadan oladi.",
+            "fact_ids": [
+              "silver"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph28",
+                "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+                "paragraph": 28,
+                "printed_pages": [
+                  134
+                ],
+                "pdf_pages": [
+                  134
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph28-page134"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph29",
+                "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+                "paragraph": 29,
+                "printed_pages": [
+                  137
+                ],
+                "pdf_pages": [
+                  137
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph29-page137"
+              }
+            ]
+          }
+        ],
+        "expected": "2",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "silver"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-9-lab06-r1-q12",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Birinchi to‘liq modelda 0,05 mol Cu ga necha mol Ag mos?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "mol"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "0.10",
+        "feedback": {
+          "correct": "To‘g‘ri. Birinchi to‘liq virtual modelda 0,05 mol Cu uchun 0,10 mol AgNO3 va 0,10 mol Ag mos. Ikkinchi modelda 0,05 mol Fe ga 0,05 mol Cu mos. Bu nazariy koeffitsiyentlar nisbati, tayyor namunadagi ajralgan massani o‘lchash emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Birinchi to‘liq virtual modelda 0,05 mol Cu uchun 0,10 mol AgNO3 va 0,10 mol Ag mos. Ikkinchi modelda 0,05 mol Fe ga 0,05 mol Cu mos. Bu nazariy koeffitsiyentlar nisbati, tayyor namunadagi ajralgan massani o‘lchash emas.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Birinchi to‘liq virtual modelda 0,05 mol Cu uchun 0,10 mol AgNO3 va 0,10 mol Ag mos. Ikkinchi modelda 0,05 mol Fe ga 0,05 mol Cu mos. Bu nazariy koeffitsiyentlar nisbati, tayyor namunadagi ajralgan massani o‘lchash emas.",
+            "fact_ids": [
+              "amount"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-laboratory06",
+                "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+                "paragraph": 6,
+                "printed_pages": [
+                  198
+                ],
+                "pdf_pages": [
+                  198
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-laboratory06-page198"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph28",
+                "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+                "paragraph": 28,
+                "printed_pages": [
+                  134
+                ],
+                "pdf_pages": [
+                  134
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph28-page134"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph19",
+                "topic_title": "Elektroliz va uning amaliy ahamiyati",
+                "paragraph": 19,
+                "printed_pages": [
+                  96
+                ],
+                "pdf_pages": [
+                  96
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph19-page96"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph29",
+                "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+                "paragraph": 29,
+                "printed_pages": [
+                  137
+                ],
+                "pdf_pages": [
+                  137
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph29-page137"
+              },
+              {
+                "book_id": "chemistry-9-uz-2019",
+                "book_title": "Kimyo 9",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K.G‘. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_9_uzb.pdf",
+                "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+                "topic_id": "ch9-paragraph17",
+                "topic_title": "Metallarning fizik va kimyoviy xossalari",
+                "paragraph": 17,
+                "printed_pages": [
+                  79
+                ],
+                "pdf_pages": [
+                  79
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch9-paragraph17-page79"
+              }
+            ]
+          }
+        ],
+        "expected": "0.10",
+        "unit": "mol"
+      },
+      "fact_ids": [
+        "amount"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-laboratory06",
+          "topic_title": "Tuzlar eritmalari bilan metallarning o‘zaro ta’siri",
+          "paragraph": 6,
+          "printed_pages": [
+            198
+          ],
+          "pdf_pages": [
+            198
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-laboratory06-page198"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph28",
+          "topic_title": "I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis",
+          "paragraph": 28,
+          "printed_pages": [
+            134
+          ],
+          "pdf_pages": [
+            134
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph28-page134"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph19",
+          "topic_title": "Elektroliz va uning amaliy ahamiyati",
+          "paragraph": 19,
+          "printed_pages": [
+            96
+          ],
+          "pdf_pages": [
+            96
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph19-page96"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph29",
+          "topic_title": "Kumush va oltin. Xossalari. Ishlatilishi",
+          "paragraph": 29,
+          "printed_pages": [
+            137
+          ],
+          "pdf_pages": [
+            137
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph29-page137"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph17",
+          "topic_title": "Metallarning fizik va kimyoviy xossalari",
+          "paragraph": 17,
+          "printed_pages": [
+            79
+          ],
+          "pdf_pages": [
+            79
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph17-page79"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch9-paragraph17",
+    "ch9-paragraph28",
+    "ch9-paragraph29",
+    "ch9-paragraph19"
+  ]
+}

@@ -166,6 +166,13 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-laboratory02': 'ch9-laboratory02-missing-mineral-measurements-review',
     'ch9-laboratory03': 'ch9-laboratory03-missing-glass-measurements-review',
     'ch9-laboratory04': 'ch9-laboratory04-missing-thermal-hardness-data-review',
+    'ch9-laboratory05': 'ch9-lab5-missing-alloy-measurements-review',
+    'ch9-laboratory06': 'ch9-lab6-bounded-salt-displacement-review',
+    'ch9-laboratory07': 'ch9-lab7-anode-starch-evidence-review',
+    'ch9-laboratory08': 'ch9-lab8-aluminium-gas-coefficient-review',
+    'ch9-laboratory09': 'ch9-lab9-missing-aluminium-strength-data-review',
+    'ch9-laboratory10': 'ch9-lab10-hydroxide-drop-stoichiometry-review',
+    'ch9-laboratory11': 'ch9-lab11-hydrolysis-speciation-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -867,6 +874,17 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
             require(not any(re.search(r'(?i)\bMohs\s*[=:]?\s*\d', a)
                             for a in f['verified_answers']),
                     'missing_mineral_hardness_cannot_be_fabricated')
+        if 'ch9-laboratory07' in topic_ids:
+            require(not any('Cu anodda doim Cl2' in a for a in f['verified_answers']),
+                    'unqualified_copper_anode_chlorine_key_requires_review')
+        if 'ch9-laboratory10' in topic_ids:
+            require(not any('barcha Al doim'.casefold() in a.casefold()
+                            for a in f['verified_answers']),
+                    'drop_counts_cannot_certify_complete_precipitation')
+        if 'ch9-laboratory11' in topic_ids:
+            require(not any('AlCl3 doim to‘liq'.casefold() in a.casefold()
+                            for a in f['verified_answers']),
+                    'formal_hydrolysis_is_not_unconditional_complete_conversion')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

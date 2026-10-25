@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 181,
+  "implemented_lessons": 188,
   "grades": [
     {
       "grade": 7,
@@ -124,15 +124,8 @@
       "laboratories": 17,
       "practicals": 3,
       "source_teaching_entries": 61,
-      "implemented_lessons": 48,
+      "implemented_lessons": 55,
       "remaining_ids": [
-        "ch9-laboratory05",
-        "ch9-laboratory06",
-        "ch9-laboratory07",
-        "ch9-laboratory08",
-        "ch9-laboratory09",
-        "ch9-laboratory10",
-        "ch9-laboratory11",
         "ch9-laboratory12",
         "ch9-laboratory13",
         "ch9-laboratory14",
@@ -188,7 +181,14 @@
         "ch9-laboratory01-carbonate-two-stage-model-review",
         "ch9-laboratory02-missing-mineral-measurements-review",
         "ch9-laboratory03-missing-glass-measurements-review",
-        "ch9-laboratory04-missing-thermal-hardness-data-review"
+        "ch9-laboratory04-missing-thermal-hardness-data-review",
+        "ch9-lab5-missing-alloy-measurements-review",
+        "ch9-lab6-bounded-salt-displacement-review",
+        "ch9-lab7-anode-starch-evidence-review",
+        "ch9-lab8-aluminium-gas-coefficient-review",
+        "ch9-lab9-missing-aluminium-strength-data-review",
+        "ch9-lab10-hydroxide-drop-stoichiometry-review",
+        "ch9-lab11-hydrolysis-speciation-scope-review"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -298,7 +298,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 0,
-  "open_editorial_review_issues": 133,
+  "open_editorial_review_issues": 140,
   "reviewed_errata": 1,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817

@@ -1,74 +1,61 @@
 # Chemistry continuation checkpoint
 
-## Batch35 — 2026-10-25:grade9 practical1–3,laboratory1–4
+## Batch36 — 2026-10-25:grade9 laboratory5–11
 
-**181/268 implemented;87 remain. Grade9 48/61;13laboratories remain.**
-Seven source-ordered activities add61cards/85questions:28MCQ,14short,16numeric,
-7formula,20equation. Total1724cards/2648questions:722/347/708/314/557.
-Original192–197 reread as images. Digital observation→model→conclusion tasks
-coverCO2/carbonate,closed alkali/calcium/metals cases,carbonate/bicarbonate,
-natural silicates,glass andmetals. Same learning/XP/progress/prerequisite contract.
+**188/268 implemented;80 remain. Grade9 55/61;6laboratories remain.**
+Seven source-ordered digital activities add53cards/74questions:28MCQ,14short,
+18numeric,5formula,9equation. Total1777cards/2722questions:750/361/726/319/566.
+Original197–200 and linked earlier proofs visually reviewed. Alloy cards,
+metal displacement,electrolysis,aluminium/amphoterism and hydrolysis reuse the
+same learning/assessment/XP/prerequisite contracts;no AI or physical execution.
 
-No actual soil/mineral/glass/alloy measurements invented. Unknown white soil
-precipitate not uniquelyAgCl;NaNO3 only exhaustiveclosedset elimination. Kaolin/
-feldspar exact9§12/61 models display/MCQ/count,not guessed mineral/Mohsdata.
-Glass oxideformula is approximate ratio,not molecule/qualitycertificate. Exact
-Al660.5/Cu1083/Fe1539 from124/133/159;meltingorder not hardness/thermalrate.
-133editorialscopes,onecontrolled§40erratum;allreadyfalse,teacherreviewpending.
+No missing alloy hardness or real sample measures invented. Duralumin95/4/.5/.5
+and nikelin67/32/1 use exact source contexts. Cu-anode/gas inconsistency86/198
+retained;solubleCu and inert-anode models explicitly separated. No guessed
+starch-color key. Prior electrolysis is§19/85–97,not§20. Aluminium balance uses
+3H2 from125,not bad coefficient on127. Equal drops do not prove full precipitation.
+Hydroxychloride equations are formal reversible source models,not irreversible
+complete aqueous speciation. Legacy§27gem/KOH holds and§40erratum preserved.
+140editorial scopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
 
-Full Chemistry1406pass,1opt-inPGskip,1existingStarlettewarning/1745.98s.
-Target85pass/30.61s includes34erratum and22earlier-source tests. CriticalRuff/diff
-passed.174predecessor hashes/manifestpins and original§1 unchanged. FivePDF
-hashes/all817pages audited;327anchors/268entries. No physical activitycompletion.
+Full Chemistry1440pass,1opt-inPGskip,1existingStarlettewarning/2708.92s.
+Target90pass/56.37s includes34erratum and22earlier-grade tests. CriticalRuff/diff
+passed.181predecessor hashes and original§1 unchanged. FivePDF SHA/all817pages
+audited;327anchors/268entries. No independent subject-teacher sign-off claimed.
 
-Flutter537tests/147s,analysis0issues/42.7s. Final3new320×568/200%widgets/11s;
-ninecaptures visually inspected:practical1/192 andprior§10/52;lab2/196 and
-kaolin§12/61;lab4/197 andpriorAl§26/124. CO2/kaolinMCQ and422,5FRQ preserve
-source ownership,scrollablefeedback/sheets,pinnedcontinue. Initialnewwidgets
-failed in two runs from test assumptions:MCQbeforetheory completion and exact
-source label without its activitytype/page suffix. Fixed those tests only;
-productionUI unchanged. No nativeAndroid/IME/TalkBackcertificate. Client6829dbb.
+Flutter540tests/240s,analysis0issues/150.3s. Three new320×568/200%widgets
+passed/20s;allnine captures visually inspected. ElectrolysisMCQ currentlab7/198
+and prior§19/86–87;aluminium0,30FRQ lab8/199 and prior§26/125;hydrolysis neutral
+equationFRQ lab11/200 and prior§7/34–35. Feedback/source sheets scroll,continue
+remains accessible. No nativeAndroid/IME/TalkBack certification.
 
-ActualHTTP85answers preserve174baseline completions/3480XP;140XPonce→181/3620.
-Complete replay identical;0,448/0.448 and422.5/4.225e2 equivalent. Grade7/8
-catalogs unchanged,rubricsprivate,nine sanitized publicfixtures. All181r1 imported
-snapshots immutable. Loopback8903 ownPID11128;verify fullcommand before stop.
+ActualHTTP74answers preserve181completions/3620XP;140XPonce→188/3760XP.
+Complete replay identical;0,30/0.3 and3e0/3 equivalent. Grade7/8catalogs unchanged,
+rubrics private,nine sanitized publicfixtures.188r1 imported snapshots immutable.
+Loopback8903 ownPID14316;verify exact fullcommand before stop. Tokens remain private.
 
-Next13labdrafts:author36a–g(lab5–11),37a–f(lab12–17). All passed private in-memory
-key/proof/fact-answer checks;noneindexed. Source197–204 reread. Catalog36/37
-private scripts prepared butUNEXECUTED. Current index181,not188/194.
-First grade10 originalscans also read for nextsource preparation;no grade10
-lesson authored. OCR remains locator only. No AI/production/other-subject change.
+Next6private lab12–17drafts are not indexed. Source200–204 reread. Catalog37
+private helper prepared,unexecuted. Grade10 originals4–26 visually read,only
+source notes;no grade10lesson authored. Biology/Physics/userdata/production untouched.
 
 ## Exact continuation
 
-Backend implementation commit follows this measured checkpoint;batch34 0747f60.
-Flutter6829dbb on separatefeat/chemistry-curriculum. No indexed35author/catalog/
-HTTP/docs script rerun. Baseline181/3620XP atloopback8903. Independentteacher
-review pending;allreadyfalse. Physics/Biology/main/production untouched.
+Backend batch35 f8b6bbc;batch36 implementation commit follows this measured file.
+Separate Chemistry branches only. All188 imported r1 lessons immutable.
+Do not rerun indexed36author/catalog/HTTP/docs scripts. Baseline188/3760XP.
 
-Privateauthor36a–g(index181→188),37a–f(188→194) are UNEXECUTED for saves.
-review_remaining_grade9_drafts.py checked all13 in memory against current181.
-Add eachbatch's sourcecatalogscopes/guards first,then save onebatch in order.
-Privatecatalog36/37prepared,UNEXECUTED. Batch36 adds53cards/74Q:28MCQ,14short,
-18numeric,5formula,9equation. Batch37 adds46cards/76Q:24/12/18/6/16.
-Afterboth194/268:grade9all61,grade10/11still0. Do notclaim indexed draft counts.
+Next review_batch37_catalog.py prepared UNEXECUTED;add six known scoped review
+IDs and bounded guards,then author_batch37a–f once(index188→194). Lab12–17 adds
+46cards/76Q:24MCQ12short18numeric6formula16equation. Source originals200–204
+already seen;missing Zn solutiondensities,complexphase notation and rate/amount
+limits retained. Do not reopen legacy unbalanced KOH or gem identity keys.
+After37 grade9all61;grade10/11remain74. Never claim private draft counts indexed.
 
-Lab7 Cu-anode/gas contradiction86/198 andstarchcolor not supplied stay scoped;
-no unconditionalCu-anodeCl2 or guessedstarchkey. Electrolysis prior§19/85–97,
-not§20. Legacy§27gem/KOH unchanged. Lab10dropdata lack fullstoichiometry.
-Lab11formal hydroxychlorides not actual irreversible completehydrolysis.
-Lab13missingdensities,lab16complexphaseformulas,lab17rate versusamount all
-explicit heldscopes. Labs digitalanalysis,not physicalexecution/certification.
-
-Grade10 earlyoriginals seen;exactpagecoverage/sourceissues inprivate
-.local/grade10_batch38_source_notes.md. §1history/definition/CH4combustion/butane.
-5generalallorganicnonelectrolyte/alwayslowertemperature/alwaysslow and6copied
-questions not universalkeys. 7question8 wrongly conflatesFrankland/propionic
-withacetic per4;Zininbenzene/aniline directroute not assumed. No grade10author
-helper/content yet;completeoriginalimage review beforewriting. NeveruseOCR
-alone as factverification oralterbookorder.
-
-Validate/audit,target/fulltests,actualHTTP,small-screenQA,measureddocs,commit/
-push. No rawPDF/OCR/fulltext/render/tokenpush,no AIfeature,realuser mutation,
-other-subject branch or productionoperation. Preserve all181prior hashes.
+Validate/audit,target/fulltests,actualHTTP,small-screenQA,measured docs,commit/push.
+Preserve all188 prior hashes and original§1. Grade10 first§1–5 originals4–25 read;
+26starts§6,not§5facts. Private grade10 source notes;no helper/content yet.
+Do not use blanket organic generalizations,misprinted HCOOH/acetic caption,
+2-chlorobutane missing terminalH or original82.75% precise key. Structural isomers
+need MCQ/display/word/count tasks,not unsupported molecular-formula identity FRQ.
+Only book-reviewed knowledge. No rawPDF/OCR/render/tokenpush,AI/production/main
+operation or Biology/Physics branch edits. Allcourse-readyfalse,teacherreviewpending.
