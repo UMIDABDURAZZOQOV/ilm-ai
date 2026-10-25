@@ -111,6 +111,12 @@ UNITS = {
     "MΩ": ("resistance", Fraction(10**6)),
     "Ω*m": ("resistivity", Fraction(1)),
     "mm2": ("area", Fraction(1, 10**6)),
+    # Grade8 PDF79: capacitance and explicit permittivity constant.
+    "F": ("capacitance", Fraction(1)),
+    "µF": ("capacitance", Fraction(1, 10**6)),
+    "nF": ("capacitance", Fraction(1, 10**9)),
+    "pF": ("capacitance", Fraction(1, 10**12)),
+    "F/m": ("permittivity", Fraction(1)),
 }
 UNIT_ALIASES = {
     "ohm": "Ω",
@@ -152,6 +158,8 @@ UNIT_ALIASES = {
     "uN": "µN",
     "μA": "µA",
     "uA": "µA",
+    "μF": "µF",
+    "uF": "µF",
 }
 TOKEN = re.compile(
     r"\s*(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?|"

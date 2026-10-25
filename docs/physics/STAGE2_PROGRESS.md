@@ -943,3 +943,39 @@ PDF76–85/88–90OCR va asl tasvirlari o‘qildi,shu darslar hali yozilmagan.
 86–87 raqamlanmagan chapter review,authored bo‘limlar sanog‘iga kiritilmadi.
 PDF83 minus/plus tafovuti reviewga yozilsin. Oraliq tasdiq kutilmaydi.
 Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi;faqat lokal/test preview.
+
+
+## 8-sinf §26–30 va to‘liq regression — 2026-10-26 (Asia/Tashkent)
+
+5 bo‘lim: zanjir masalalari, sig‘im/kondensatorlar, kondensatorlarni ulash,
+sig‘im masalalari va tok ishi. 21 karta,17 formula yozuvi,6 original namuna,
+37 topshiriq (15MCQ+5tartib+17FRQ). §26PDF76–78,§27PDF78–82,§28PDF82–84,
+§29PDF84–85,§30PDF88–90;bosma sahifalar bir xil.13asl sahifa qayta o‘qildi:
+381pagechecks/370noyob.13yangi executable oila,jami204. F/µF/μF/uF/nF/pF
+vaF/m aniqSI registry,eski MCQ/baholash/parser defaultlari saqlandi.
+
+C=q/U,bitta qoplama zaryad moduli;parallel C yig‘indi,series reciprocal;
+yassi model eps*e0*S/d,kvadrat qoplama oralig‘i,eps va aniq mixed topologiya.
+e0=8.85e-12F/m va eps≥1 ushbu manba modeli bilan tekshirildi. §26da
+parallel juftlik U_AB bilan butun mixedzanjir U si alohida;PDF77rasm
+ko‘rildi. PDF83eq5dagi U3 oldidan bosilgan minus izchil yo‘nalish sharti
+bilan tushuntirildi;figure84ikki element yig‘indisi tekshirildi. PDF80
+«barcha klaviatura» umumlashtirishi cheklangan. PDF89I²Rt/U²t/R asl
+segment89local1bilan bog‘langan,88/89orasida sahifaidentitysaqlandi.
+Kondensatorning uzun matni ko‘chirilmadi;misollar/givens original.
+
+Yangi semantik/independent oracle/domen/unit testlari **19passed1.83s**.
+**To‘liq backend890passed,4PGopt-in skipped,13mavjud warning312.29s**.
+Alohida actual lokalPG16 **1passed40.05s**:137dars/import/reimport/1370XP,
+replay,eski137XP/3streak/2stars saqlandi. **To‘liq Flutter147passed**,78public
+8FRQ320px/200%qoralama sinovlari;**flutter analyze No issues found1.8s**.
+Bu partiyada actualTCPHTTP137,webbuild yoki nativeAndroid qayta bajarilmadi;
+old actualHTTP107/webbuild natijalari tarixiy. Mustaqil ekspert tasdig‘i yo‘q.
+
+**137/316;179qolgan**.6:61/61,7:46/46,8:30/60,9:0/59,10:0/45,11:0/45.
+Jami577karta/239formula yozuvi/150namuna/910topshiriq/299FRQ.
+Keyingi **8-sinf§31«Elektr tokining quvvati»,PDF/bosma90**. §31–35PDF90–102
+OCR/aslrasm tekshirildi,originalmatn private authoringda tayyor,lekin runtime
+JSON/registry/test hali qo‘shilmagan. PDF94erta yaxlitlashdan R489vs484Ω;
+PDF96o‘rtacha quvvat formulasidagi minus belgisi reviewga yozilsin.
+Oraliq tasdiq kutilmaydi. Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi.

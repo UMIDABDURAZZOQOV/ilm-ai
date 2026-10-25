@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-26 — Fizika8§26–30:** **137/316,179qolgan**,8-sinf30/60. Yangi21karta/17formula yozuvi/6namuna/37topshiriq/17FRQ; jami577karta/239formula/150namuna/910topshiriq/299FRQ,204qoida. KondensatorC/q/U/yassi model/ulanish va elektrish,381pagechecks/370noyob;F/µ/n/pF/F/m aniqSI. PDF83minus va78/89OCR/segmenttafovutlari reviewda. **To‘liqbackend890passed/4PGskipped/13existingwarning312.29s**,actualPG **1passed40.05s**137lesson/1370XP/replay/legacy;**to‘liqFlutter147passed**,78publicFRQ320px/200%,analyze toza1.8s. Keyingi **8§31PDF90**;§31–35source90–102ko‘rildi,matnprivateqoralama,JSONhaliyo‘q. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;Android/mustaqilekspert/nashr tasdiqlanmagan.
+
+
 > **2026-10-26 — Fizika8§21–25:** **132/316,184qolgan**,8-sinf25/60. Yangi20karta/13formula yozuvi/5namuna/33topshiriq/13FRQ,1raqamli lab+1amaliy; jami556karta/222formula/144namuna/873topshiriq/282FRQ,191qoida. Ketma-ket/parallel/tugunli mixed,368pagechecks/358noyob. PDF76 universal qisqartirish da’vosi cheklangan;haqiqiy o‘lchovlar uydirilmagan. Physics/Biology **293passed/2PGskipped66.02s**,actualPG **1passed32.01s**132dars/1320XP/legacy/replay;FlutterPhysics21passed61publicFRQ320px/200%. Oldfull815/147 alohida. Keyingi **8§26PDF76**;§26–30PDF76–85/88–90rasmlari o‘qilgan,mualliflik keyin. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;lokaltestonly,Android/ekspert/nashr tasdiqlanmagan.
 
 

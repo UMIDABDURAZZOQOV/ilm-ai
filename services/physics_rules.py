@@ -24,6 +24,78 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "parallel_pair_current": rule(
+        "I",
+        ["U", "R1", "R2"],
+        ["U*(R1+R2)/(R1*R2)", "U/R1+U/R2"],
+        "U aynan parallel juftlik uchlarida,umumiy zanjir U bilan almashtirma;PDF77.",
+    ),
+    "capacitance": rule(
+        "C",
+        ["q", "U"],
+        ["q/U", "q*U^-1"],
+        "q bitta qoplama zaryadining moduli,U>0,ideal chiziqli kondensator;PDF79.",
+    ),
+    "capacitor_charge": rule(
+        "q", ["C", "U"], ["C*U", "U*C"], "q bir qoplama moduli,C>0;PDF81,83."
+    ),
+    "capacitor_voltage": rule(
+        "U", ["q", "C"], ["q/C", "q*C^-1"], "C>0,q bitta qoplama moduli;PDF82."
+    ),
+    "plate_capacitance": rule(
+        "C",
+        ["eps", "e0", "S", "d"],
+        ["eps*e0*S/d", "e0*eps*S/d"],
+        "Yassi ideal parallel qoplamalar,bir jinsli chiziqli dielektrik,chet ta’siri e’tiborsiz,e0=8.85e-12F/m,eps>=1;PDF79.",
+    ),
+    "cap_parallel2": rule(
+        "C",
+        ["C1", "C2"],
+        ["C1+C2", "C2+C1"],
+        "Ikki kondensator aynan ikki umumiy tugun orasida;PDF82.",
+    ),
+    "cap_series2": rule(
+        "C",
+        ["C1", "C2"],
+        ["C1*C2/(C1+C2)", "1/(1/C1+1/C2)"],
+        "Dastlab zaryadsiz ideal ketma-ket kondensatorlar,oraliq izolyatsiya tuguni neytral;PDF83.",
+    ),
+    "cap_series3": rule(
+        "C",
+        ["C1", "C2", "C3"],
+        ["1/(1/C1+1/C2+1/C3)"],
+        "Uch ideal musbat C ketma-ket,oraliq tugunlar neytral;PDF83–84.",
+    ),
+    "plate_gap_square": rule(
+        "d",
+        ["eps", "e0", "a", "C"],
+        ["eps*e0*a^2/C", "e0*eps*a*a/C"],
+        "Kvadrat qoplama a>0,ideal yassi model,e0=8.85e-12F/m,eps>=1;PDF84.",
+    ),
+    "plate_dielectric": rule(
+        "eps",
+        ["C", "d", "e0", "S"],
+        ["C*d/(e0*S)", "C*d/e0/S"],
+        "Ideal yassi model,e0=8.85e-12F/m,eps>=1,d,S>0;PDF85.",
+    ),
+    "cap_mixed": rule(
+        "C",
+        ["C1", "C2", "C3"],
+        ["C1*C2/(C1+C2)+C3", "C3+1/(1/C1+1/C2)"],
+        "C1,C2 ketma-ket juftligi C3 bilan parallel;aniq ikki tashqi tugun;PDF85.",
+    ),
+    "electric_work_resistance": rule(
+        "A",
+        ["I", "R", "t"],
+        ["I^2*R*t", "I*I*R*t"],
+        "Doimiy tok/qarshilik,ohmik iste’molchi;PDF89.",
+    ),
+    "electric_work_voltage": rule(
+        "A",
+        ["U", "t", "R"],
+        ["U^2*t/R", "U*U*t/R"],
+        "Doimiy U/qarshilik,ohmik iste’molchi,R>0;PDF89.",
+    ),
     "series_resistance2": rule(
         "R",
         ["R1", "R2"],
@@ -1076,6 +1148,7 @@ DIMENSION_UNIT = {
     "current": "A",
     "resistance": "Ω",
     "resistivity": "Ω*m",
+    "capacitance": "F",
 }
 
 
@@ -1299,6 +1372,60 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "parallel_pair_current":
+        voltage = value("U", "voltage")
+        return voltage / positive("R1", "resistance") + voltage / positive(
+            "R2", "resistance"
+        ), "current"
+    if name == "capacitance":
+        return positive("q", "charge") / positive("U", "voltage"), "capacitance"
+    if name == "capacitor_charge":
+        return positive("C", "capacitance") * value("U", "voltage"), "charge"
+    if name == "capacitor_voltage":
+        return value("q", "charge") / positive("C", "capacitance"), "voltage"
+    if name in {"plate_capacitance", "plate_gap_square", "plate_dielectric"}:
+        e0 = positive("e0", "permittivity")
+        if e0 != Fraction("8.85e-12"):
+            raise ValueError("explicit_source_permittivity")
+        if name == "plate_dielectric":
+            eps = (
+                positive("C", "capacitance")
+                * positive("d", "length")
+                / (e0 * positive("S", "area"))
+            )
+        else:
+            eps = positive("eps", "dimensionless")
+        if eps < 1:
+            raise ValueError("static_dielectric_model")
+        if name == "plate_capacitance":
+            return eps * e0 * positive("S", "area") / positive(
+                "d", "length"
+            ), "capacitance"
+        if name == "plate_gap_square":
+            return eps * e0 * positive("a", "length") ** 2 / positive(
+                "C", "capacitance"
+            ), "length"
+        return eps, "dimensionless"
+    if name == "cap_parallel2":
+        return positive("C1", "capacitance") + positive(
+            "C2", "capacitance"
+        ), "capacitance"
+    if name in {"cap_series2", "cap_series3"}:
+        keys = ["C1", "C2"] + (["C3"] if name == "cap_series3" else [])
+        return 1 / sum(
+            (1 / positive(k, "capacitance") for k in keys), Fraction()
+        ), "capacitance"
+    if name == "cap_mixed":
+        a, b, c = (positive(k, "capacitance") for k in ["C1", "C2", "C3"])
+        return 1 / (1 / a + 1 / b) + c, "capacitance"
+    if name == "electric_work_resistance":
+        return value("I", "current") ** 2 * positive("R", "resistance") * value(
+            "t", "time"
+        ), "energy"
+    if name == "electric_work_voltage":
+        return value("U", "voltage") ** 2 * value("t", "time") / positive(
+            "R", "resistance"
+        ), "energy"
     if name in {"series_resistance2", "series_resistance3"}:
         keys = ["R1", "R2"] + (["R3"] if name == "series_resistance3" else [])
         return sum((positive(k, "resistance") for k in keys), Fraction()), "resistance"
