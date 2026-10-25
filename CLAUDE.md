@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **Tasdiqlangan QA — 2026-10-25:** Fizika6-sinf61/61 authored, umumiy61/316 va255qolgan. Tuzatishdan keyingi to‘liq backend **732passed/4opt-in skipped/13existing warning249.54s**, alohida actualPG16 **4passed292.04s**. Flutter143passed/analyze0issue/webrelease51.5s; actualHTTP61/394/88FRQ/610XP va replay. Testlangan backend047c639, Flutterac9b3e0. `docs/physics/GRADE6_VALIDATION.json` va `STAGE2_PROGRESS.md` — saqlangan checkpoint.7-sinfPDF1–7 sourcepreflight bor, ammo authored0; keyingi **§1PDF1/bosma8**. Mustaqil ekspert/nativeAndroid va qolgan255bo‘lim bajarilmagan. Quyidagi pending/failed qaydlari tarixiy; final rerun natijasi shu yerda.
+
+
 > **2026-10-25 — Fizika6-sinf61/61 authored:** §57–61 qo‘shildi; **umumiy61/316,255 qolgan**, boshqa sinflar0.254karta/74formula yozuvi/67misol/394topshiriq(88FRQ),65 executable oila;138asl sahifa hash audit. Yangi Hz/kHz, n/t, round-trip echo va yutilish nisbati. Sound/course27passed; actualHTTP61dars/394javob/88FRQ/610XP/replay/private-rubric tekshirildi. Flutter143passed/analyze toza/normalwebrelease51.5s; Flutterac9b3e0. To‘liq backend/PG tekshiruvlari hali davom etmoqda, tayyor deb sanalmaydi. Keyingi **7-sinf §1 PDF1/bosma8**; grade-aware oracles va Flutter grade/bibliografiya kerak. `docs/physics/STAGE2_PROGRESS.md` to‘liq checkpoint. NativeAndroid/ekspert/prodnashr yo‘q.
 
 

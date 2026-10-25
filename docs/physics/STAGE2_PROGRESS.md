@@ -1,6 +1,6 @@
 # Fizika 2-bosqich — davom etayotgan haqiqiy kontent
 
-2026-10-22 (Asia/Tashkent). Foydalanuvchi barcha **316 bo‘limni** ketma-ket
+2026-10-25 (Asia/Tashkent). Foydalanuvchi barcha **316 bo‘limni** ketma-ket
 yaratishga ruxsat berdi; partiyalar orasida yangi tasdiq talab qilinmaydi.
 Bu ruxsat production deploy yoki ommaviy nashr uchun ruxsat emas.
 
@@ -402,3 +402,22 @@ logini yangi test natijasi deb sanamang. PrivatePDF, QAJWT yoki
 DB credential commit qilinmasin.7-sinf§1 muallifligidan davom etilsin;
 §1–61 qayta yaratilmasin. Flutter gradepicker/bibliografiya va grade-aware
 numeric oracle keylari birinchi7-sinf importidan oldin zarur.
+
+
+## Yakunlangan6-sinf QA qayta yurishi — 2026-10-25
+
+Tuzatilgan testdan keyin to‘liq backend qayta bajarildi: **732passed,
+4opt-in skipped,13existing warning,249.54s**. Alohida actualPG16run
+**4passed292.04s**; skipped testlar PG muvaffaqiyatiga o‘rniga taxmin
+sifatida ishlatilmagan. Flutter143passed/analyze0issue/web51.5s va
+HTTP61/394/88FRQ/610XP/replay natijalari saqlangan.
+`GRADE6_VALIDATION.json` ushbu haqiqiy natijalar va barcha6sinf holatini
+mashina o‘qiydigan shaklda beradi. Testlangan application commit047c639,
+Flutterac9b3e0; keyingi commitlar shu qayd/evidence fayllari.
+`GRADE7_SOURCE_PREFLIGHT.json`7asl sahifa text/render hashini saqlaydi,
+lekin grade7authored0 ekanini aniq ko‘rsatadi.
+
+QA test serveri va faqat shu ish uchun yaratilgan PostgreSQL konteyneri
+to‘xtatildi; production/server/foydalanuvchiDBga tegilmadi. Sessiya
+checkpointi: **61/316;255qolgan;7-sinf§1PDF1/bosma8**. 316/316
+tugallandi deyilmasin. Keyingi davomda §1–61 noldan yozilmasin.

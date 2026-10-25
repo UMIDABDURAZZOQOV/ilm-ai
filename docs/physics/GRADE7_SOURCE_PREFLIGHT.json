@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-25",
+  "grade": 7,
+  "book_id": "physics-uz-grade-7",
+  "book_sha256": "bdd4fbfc0fdc48957e36663219777d9ce64efe2939190ccc1b34fee4881f8367",
+  "scope": "source preflight only; no new interactive lesson",
+  "authored_lessons": 0,
+  "ready_for_publication": false,
+  "independent_expert": "not_claimed",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": 8,
+      "text_sha256": "5d8b13159a5748b3eef14b2f0169c217d72ad0bc59c5ef5b5796e5945d7ffb89",
+      "render_sha256": "901195487289800e2078df3b7a677a6229887a3070abbf42e16f830daa5acbdc",
+      "text_and_original_image_checked": true
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 9,
+      "text_sha256": "bb470765d9ab467511da62007dc49fb0b6f4bd90dacac012e9db9ed33e89b58e",
+      "render_sha256": "68408f6defc47f89832585ee1167537050c6bc82d23981307b64e9c426b8e2cd",
+      "text_and_original_image_checked": true
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 10,
+      "text_sha256": "e4ef8ab17c0917f8a44d1361726cbee9ab9911c1f01fa96ccfa2d1dd80563594",
+      "render_sha256": "71310fdfa578c75de1c7b8102163329fe1dd9f1d6ef709d2e1e9bbe1bd5fcd8e",
+      "text_and_original_image_checked": true
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 11,
+      "text_sha256": "3c99163a78d1e3bfc4dabfc37849f45bd75752abe1d932675d8030ddbeb111f9",
+      "render_sha256": "2dbd479b44d154f9a0aa488f19a25a85e7706547abcc202d2bd92362f9bc94c4",
+      "text_and_original_image_checked": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 12,
+      "text_sha256": "eec4e37ddfef6b53b783c46f1381de7f672a0d4bc7fde52eb0ab62b35489b520",
+      "render_sha256": "0aff44c7d5835617dc6dc6bb8d8191b6011997bf05397c9abca4ffeaecd9266d",
+      "text_and_original_image_checked": true
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 13,
+      "text_sha256": "8a826728d84535ae196b40a1be4d6c4a2152610053e2ce6ac52ff4166d766db7",
+      "render_sha256": "c384d8eda2895a98a31a7ebc0dcd179e5682b695346ecc2837723c2e2611b98d",
+      "text_and_original_image_checked": true
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 14,
+      "text_sha256": "1f0e257be837e791556e83b22c4875f70272c9c65199945256941db0deb69e92",
+      "render_sha256": "531dc1375aa42cff0dfe47fef54276e685c45eb16e8e69c817dd1f7d4a5ae9fa",
+      "text_and_original_image_checked": true
+    }
+  ],
+  "notes": "See GRADE7_NEXT_REVIEW.md. Missing introductory printed1–7 accepted as nonblocking. Arithmetic discrepancy and unsupported universal claims are not lesson answer keys."
+}
