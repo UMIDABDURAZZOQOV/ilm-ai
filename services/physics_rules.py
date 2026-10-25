@@ -24,6 +24,72 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "series_resistance2": rule(
+        "R",
+        ["R1", "R2"],
+        ["R1+R2", "R2+R1"],
+        "Ikki musbat rezistor ketma-ket,ideal simlar;PDF65.",
+    ),
+    "series_resistance3": rule(
+        "R",
+        ["R1", "R2", "R3"],
+        ["R1+R2+R3", "R3+R2+R1"],
+        "Uch musbat rezistor ketma-ket;PDF65–66.",
+    ),
+    "series_voltage2": rule(
+        "U",
+        ["U1", "U2"],
+        ["U1+U2", "U2+U1"],
+        "Ketma-ket ikki iste’molchi kuchlanish tushuvlari;PDF65.",
+    ),
+    "series_current2": rule(
+        "I",
+        ["U", "R1", "R2"],
+        ["U/(R1+R2)", "U*(R1+R2)^-1"],
+        "Ohmik ketma-ket ikki rezistor,umumiy U;PDF65–67.",
+    ),
+    "series_drop1": rule(
+        "U1",
+        ["U", "R1", "R2"],
+        ["U*R1/(R1+R2)", "R1*U/(R1+R2)"],
+        "Ohmik ikki ketma-ket rezistor,birinchi tushuv;PDF65–67.",
+    ),
+    "parallel_current2": rule(
+        "I",
+        ["I1", "I2"],
+        ["I1+I2", "I2+I1"],
+        "Bir tugunga kiruvchi/chiqishdagi ikki musbat shoxobcha miqdori;PDF68.",
+    ),
+    "parallel_resistance2": rule(
+        "R",
+        ["R1", "R2"],
+        ["R1*R2/(R1+R2)", "1/(1/R1+1/R2)"],
+        "Ikki rezistor bir xil ikki tugun orasida,R1,R2>0;PDF69.",
+    ),
+    "parallel_resistance3": rule(
+        "R",
+        ["R1", "R2", "R3"],
+        ["1/(1/R1+1/R2+1/R3)", "R1*R2*R3/(R1*R2+R1*R3+R2*R3)"],
+        "Uch musbat rezistor aynan ikki umumiy tugun orasida;PDF69.",
+    ),
+    "source_voltage3": rule(
+        "U",
+        ["U1", "U2", "U3"],
+        ["U1+U2+U3", "U3+U2+U1"],
+        "Mos yo‘nalishda ketma-ket3element,ideal/shartli qayd;PDF71.",
+    ),
+    "mixed_resistance": rule(
+        "R",
+        ["R1", "R2", "R3"],
+        ["R1+R2*R3/(R2+R3)", "R2*R3/(R2+R3)+R1"],
+        "A--R1--B va B--(R2||R3)--C,boshqa shoxobchasiz;PDF75.",
+    ),
+    "mixed_current": rule(
+        "I",
+        ["U", "R1", "R2", "R3"],
+        ["U/(R1+R2*R3/(R2+R3))"],
+        "U aynan A/C terminal orasida,R1 series(R2||R3);PDF75–76.",
+    ),
     "ohm_current": rule(
         "I",
         ["U", "R"],
@@ -1233,6 +1299,38 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name in {"series_resistance2", "series_resistance3"}:
+        keys = ["R1", "R2"] + (["R3"] if name == "series_resistance3" else [])
+        return sum((positive(k, "resistance") for k in keys), Fraction()), "resistance"
+    if name == "series_voltage2":
+        return value("U1", "voltage") + value("U2", "voltage"), "voltage"
+    if name in {"series_current2", "series_drop1"}:
+        r1, r2 = positive("R1", "resistance"), positive("R2", "resistance")
+        current = value("U", "voltage") / (r1 + r2)
+        return (
+            (current, "current")
+            if name == "series_current2"
+            else (current * r1, "voltage")
+        )
+    if name == "parallel_current2":
+        return value("I1", "current") + value("I2", "current"), "current"
+    if name in {"parallel_resistance2", "parallel_resistance3"}:
+        keys = ["R1", "R2"] + (["R3"] if name == "parallel_resistance3" else [])
+        return 1 / sum(
+            (1 / positive(k, "resistance") for k in keys), Fraction()
+        ), "resistance"
+    if name == "source_voltage3":
+        return sum(
+            (value(k, "voltage") for k in ["U1", "U2", "U3"]), Fraction()
+        ), "voltage"
+    if name in {"mixed_resistance", "mixed_current"}:
+        a, b, c = (positive(k, "resistance") for k in ["R1", "R2", "R3"])
+        total = a + 1 / (1 / b + 1 / c)
+        return (
+            (total, "resistance")
+            if name == "mixed_resistance"
+            else (value("U", "voltage") / total, "current")
+        )
     if name == "ohm_current":
         return value("U", "voltage") / positive("R", "resistance"), "current"
     if name == "ohm_voltage":

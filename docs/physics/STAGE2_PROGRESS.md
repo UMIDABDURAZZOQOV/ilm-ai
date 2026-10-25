@@ -910,3 +910,36 @@ Keyingi **8-sinf§21«Iste’molchilarni ketma-ket ulash»,PDF/bosma64**.
 «har qanday» murakkab sxema series/parallelga keladi umumlashtirishi yangi
 kontentda cheklanadi:faqat shu usul bilan qisqaradigan misollar. Oraliq
 ruxsat kutilmaydi. Biology406/6–7/old8/website/Kimyo/prod/AIExplain saqlandi.
+
+
+## 8-sinf §21–25 — 2026-10-26 (Asia/Tashkent)
+
+Ketma-ket va parallel iste’molchilar, manbalarni ulash raqamli amaliyoti,
+raqamli laboratoriya hamda aralash ulanish: 5 bo‘lim, 20 karta, 13 formula
+yozuvi, 5 original namuna, 33 topshiriq (15 MCQ + 5 tartiblash + 13 FRQ).
+§21 PDF64–67, §22 PDF67–71, §23 PDF71–72, §24 PDF72–75, §25 PDF75–76;
+bosma sahifalar teng. Barcha13 asl sahifa tekshirildi:368pagechecks/358noyob.
+11 yangi executable oila, jami191. Musbat rezistorlar, aniq ikki tugun va
+umumiy/shoxobcha terminali shartlari bilan exact Fraction hisob.
+
+Parallel qarshilik eng kichik shoxobchadan ham kichikligi, umumiy tok va
+shoxobcha tok farqi tekshirildi. Lab formulalariga oldingi§21PDF65/§22PDF69
+havolalari haqiqiy topic_id bilan qo‘shildi; manba labga noto‘g‘ri atalmadi.
+Manbalar va labdagi sonlar faqat ochiq shartli misollar, real o‘lchov da’vosi
+yo‘q. PDF66 mains-shoda ulash jumlasi amaliy topshiriqqa ko‘chirilmadi.
+PDF76 «har qanday murakkab sxema» da’vosi series-parallelga qisqaradigan
+sxemalar bilan cheklangan. Hech qanday yangi ko‘prik-zanjir mavzusi yo‘q.
+
+Yangi semantik/topologiya/oracle/domen testlar15passed1.67s. Keng
+Physics/Biology **293passed,2PGopt-in skipped66.02s**. Alohida actualPG16
+**1passed32.01s**:132dars/import/reimport/1320XP/replay/legacy137XP3streak2stars.
+FlutterPhysics **21passed**,61publicgrade8FRQ320px/200%. Old full815backend/
+147Flutter natijalari tarixiy; nativeAndroid va ekspert sinovi da’vo qilinmaydi.
+
+**132/316;184qolgan**.6:61/61,7:46/46,8:25/60,9:0/59,10:0/45,11:0/45.
+Jami556karta/222formula yozuvi/144namuna/873topshiriq/282FRQ.
+Keyingi **8-sinf§26«Masalalar yechish»,PDF/bosma76**. §26–30ning
+PDF76–85/88–90OCR va asl tasvirlari o‘qildi,shu darslar hali yozilmagan.
+86–87 raqamlanmagan chapter review,authored bo‘limlar sanog‘iga kiritilmadi.
+PDF83 minus/plus tafovuti reviewga yozilsin. Oraliq tasdiq kutilmaydi.
+Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi;faqat lokal/test preview.

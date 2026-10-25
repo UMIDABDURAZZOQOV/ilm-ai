@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-26 — Fizika8§21–25:** **132/316,184qolgan**,8-sinf25/60. Yangi20karta/13formula yozuvi/5namuna/33topshiriq/13FRQ,1raqamli lab+1amaliy; jami556karta/222formula/144namuna/873topshiriq/282FRQ,191qoida. Ketma-ket/parallel/tugunli mixed,368pagechecks/358noyob. PDF76 universal qisqartirish da’vosi cheklangan;haqiqiy o‘lchovlar uydirilmagan. Physics/Biology **293passed/2PGskipped66.02s**,actualPG **1passed32.01s**132dars/1320XP/legacy/replay;FlutterPhysics21passed61publicFRQ320px/200%. Oldfull815/147 alohida. Keyingi **8§26PDF76**;§26–30PDF76–85/88–90rasmlari o‘qilgan,mualliflik keyin. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi;lokaltestonly,Android/ekspert/nashr tasdiqlanmagan.
+
+
 > **2026-10-26 — Fizika8§16–20:** **127/316,189qolgan**,8-sinf20/60. Yangi20karta/11formula/6namuna/33topshiriq/11FRQ,1raqamli lab+1amaliy. Jami536karta/209formula yozuvi/139namuna/840topshiriq/269FRQ,180qoida;355pagechecks/346noyob. Ohm/sim geometriyasi/elektron soni/4R o‘rtachasi;fixed-temperature va shartli lab qaydlari aniq. Physics/Biology **278passed/2PGskipped63.04s**;actualPG **1passed28.65s**,127dars/1270XP/replay/legacy;FlutterPhysics21passed48publicFRQ320px/200%. Old full815/147 alohida. Keyingi **8§21PDF64**;§21–25PDF64–76manbalari o‘qilgan,mualliflik davom. Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi;nativeAndroid/ekspert/nashr tasdiqlanmagan.
 
 
