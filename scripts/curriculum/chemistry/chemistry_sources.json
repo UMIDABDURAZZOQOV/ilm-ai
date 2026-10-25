@@ -15350,7 +15350,62 @@
             "record_id": "ch10-paragraph07",
             "printed_page": 31,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p6-nomenclature-tie-rules-review",
+              "status": "open_review",
+              "printed_pages": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "pdf_pages": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;bounded sourcegraph/atom/amount models only. Uncertainliteralkeys,missingconditions andphysicalcertification excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p6-nomenclature-tie-rules-review-page26",
+                  "printed_page": 26,
+                  "reason": "Longest-chain principle not overridden by compressed morebranched wording. Unambiguous givenexamples retained."
+                },
+                {
+                  "id": "ch10-p6-nomenclature-tie-rules-review-page27",
+                  "printed_page": 27,
+                  "reason": "SmallerCsubstituent tiebreak/4ethyl3methylhexane label not universalmodernIUPAC rule;ambiguous tie keys held."
+                },
+                {
+                  "id": "ch10-p6-nomenclature-tie-rules-review-page28",
+                  "printed_page": 28,
+                  "reason": "Halogenpriority generalization cannot replace full set oflocants;digitcontainingnames MCQ only,not shorttext."
+                },
+                {
+                  "id": "ch10-p6-nomenclature-tie-rules-review-page29",
+                  "printed_page": 29,
+                  "reason": "Mixedsubstituent/halogentienames held pendingreview,not silently corrected or treated as modernstandard."
+                },
+                {
+                  "id": "ch10-p6-nomenclature-tie-rules-review-page30",
+                  "printed_page": 30,
+                  "reason": "1,5dimethylhexane copiedname fails26longestchain;no identitykey. Counts from explicitgraphs,not arbitrary molecularidentity."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15391,7 +15446,46 @@
             "record_id": "ch10-paragraph08",
             "printed_page": 33,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p7-wurtz-name-phase-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                31,
+                32,
+                33
+              ],
+              "pdf_pages": [
+                31,
+                32,
+                33
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;bounded sourcegraph/atom/amount models only. Uncertainliteralkeys,missingconditions andphysicalcertification excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p7-wurtz-name-phase-scope-review-page31",
+                  "printed_page": 31,
+                  "reason": "Prose2,2,3,3tetramethylhexane conflicts drawnC8dimer/twoC4units. Wrongproselabel withheld. I/J symbollegacy canonicalI from firstrows. Couplingcards not guaranteedpuresingleproduct or tertalkylactualyield."
+                },
+                {
+                  "id": "ch10-p7-wurtz-name-phase-scope-review-page32",
+                  "printed_page": 32,
+                  "reason": "C5–15liquid/C16+solid cutoff lacks consistenttemperature/isomers;no universalphasekey. Givenproduct equations digitalonly,not physicalpreparation."
+                },
+                {
+                  "id": "ch10-p7-wurtz-name-phase-scope-review-page33",
+                  "printed_page": 33,
+                  "reason": "Quantities theoretical fullconversion with prior sourceAl27/C12/H1/O16/Na23/Vm22.4 proof. No actual dose/gascollection/synthesis guarantee."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15432,7 +15526,54 @@
             "record_id": "ch10-paragraph09",
             "printed_page": 36,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p8-cracking-caption-selectivity-review",
+              "status": "open_review",
+              "printed_pages": [
+                33,
+                34,
+                35,
+                36
+              ],
+              "pdf_pages": [
+                33,
+                34,
+                35,
+                36
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;bounded sourcegraph/atom/amount models only. Uncertainliteralkeys,missingconditions andphysicalcertification excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p8-cracking-caption-selectivity-review-page33",
+                  "printed_page": 33,
+                  "reason": "Relativeinertness not absolute no-reactionallconditions. Complete combustion andpyrolysis explicitlygivenproductmodels."
+                },
+                {
+                  "id": "ch10-p8-cracking-caption-selectivity-review-page34",
+                  "printed_page": 34,
+                  "reason": "Alternative thermalcrackingbranches not summed. Catalyticcracking caption depicts sameC5H12 isomergraphs,not Ccountfragmentation;wronglabel key withheld."
+                },
+                {
+                  "id": "ch10-p8-cracking-caption-selectivity-review-page35",
+                  "printed_page": 35,
+                  "reason": "Halogenpreference not exclusiveactualproduct or conditionindependentfraction. Historicalsolvent/rawmaterial examples not currenthandlingrecommendations."
+                },
+                {
+                  "id": "ch10-p8-cracking-caption-selectivity-review-page36",
+                  "printed_page": 36,
+                  "reason": "Pureproduct/fullconversion assumptions andpreviousVm/massmodel explicit;no actualheating/synthesis instructions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15473,7 +15614,54 @@
             "record_id": "ch10-paragraph10",
             "printed_page": 39,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p9-ring-schematic-identity-review",
+              "status": "open_review",
+              "printed_pages": [
+                36,
+                37,
+                38,
+                39
+              ],
+              "pdf_pages": [
+                36,
+                37,
+                38,
+                39
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;bounded sourcegraph/atom/amount models only. Uncertainliteralkeys,missingconditions andphysicalcertification excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p9-ring-schematic-identity-review-page36",
+                  "printed_page": 36,
+                  "reason": "Schematic alkane→ring arrows omitH2;not completebalance/guaranteedphysicalroute. Monocyclicfamilyonly,not all polycycles."
+                },
+                {
+                  "id": "ch10-p9-ring-schematic-identity-review-page37",
+                  "printed_page": 37,
+                  "reason": "Mixedsubstituenttiename not universalnomenclaturekey;explicitunambiguousgraphs/counts retained."
+                },
+                {
+                  "id": "ch10-p9-ring-schematic-identity-review-page38",
+                  "printed_page": 38,
+                  "reason": "No unchecked completeisomer/stereoisomercount from C5H10exercise. Source ringclosure/hydrogenation givenproducts only;compositiongradingdoesnotcertifygraph."
+                },
+                {
+                  "id": "ch10-p9-ring-schematic-identity-review-page39",
+                  "printed_page": 39,
+                  "reason": "Theoretical gasquantities declaredVm22.4/C12/H1,not physicalcollection."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15514,7 +15702,46 @@
             "record_id": "ch10-paragraph11",
             "printed_page": 42,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p10-combustion-data-ring-conditions-review",
+              "status": "open_review",
+              "printed_pages": [
+                39,
+                40,
+                41
+              ],
+              "pdf_pages": [
+                39,
+                40,
+                41
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;bounded sourcegraph/atom/amount models only. Uncertainliteralkeys,missingconditions andphysicalcertification excluded.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p10-combustion-data-ring-conditions-review-page39",
+                  "printed_page": 39,
+                  "reason": "Practicalinsolubility not exactzero,phase/densitytrend not universalpairwise. Differentringopeningconditions retained,not allsameT."
+                },
+                {
+                  "id": "ch10-p10-combustion-data-ring-conditions-review-page40",
+                  "printed_page": 40,
+                  "reason": "Bookhistoricalinsecticideuse not currentauthorization,dose or applicationrecommendation. GivenproductH2/Cl2 models digitalonly."
+                },
+                {
+                  "id": "ch10-p10-combustion-data-ring-conditions-review-page41",
+                  "printed_page": 41,
+                  "reason": "Exercise1 132gCO2/M44=3mol and108gH2O/M18=6mol contradict own worked1:1mol model. No copiedoxygenkey198g. Assess mismatch without silently changingoriginaldata. Otherconsistent cards retain exact workedsource masses."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15555,7 +15782,46 @@
             "record_id": "ch10-paragraph12",
             "printed_page": 44,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p11-alkene-figure-mass-unit-review",
+              "status": "open_review",
+              "printed_pages": [
+                42,
+                43,
+                44
+              ],
+              "pdf_pages": [
+                42,
+                43,
+                44
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;finiteclearstructures/givenproducts/declaredamountmodels only. Uncertaingeneralrules/literalerrors excluded,not filledfrommemory.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p11-alkene-figure-mass-unit-review-page42",
+                  "printed_page": 42,
+                  "reason": "OpenchainoneC=C familyonly;CnH2n also ringcompositions,not uniquegraph/class proof. Vinydash attachmentnotcharge."
+                },
+                {
+                  "id": "ch10-p11-alkene-figure-mass-unit-review-page43",
+                  "printed_page": 43,
+                  "reason": "First4methylhexene2 figure lacksC4H;literalbadgraph not copied. Otherclearfigures/markedlocants used,not universal modernnomenclatureclaims."
+                },
+                {
+                  "id": "ch10-p11-alkene-figure-mass-unit-review-page44",
+                  "printed_page": 44,
+                  "reason": "Molecularmass84g wording invalidunit;use original explicitM84g/mol/C12H1 theoreticalmodel,not literalunitkey. DigitnamesMCQ,compositionFRQ not graphidentity."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15596,7 +15862,70 @@
             "record_id": "ch10-paragraph13",
             "printed_page": 50,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p12-ez-priority-route-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "pdf_pages": [
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;finiteclearstructures/givenproducts/declaredamountmodels only. Uncertaingeneralrules/literalerrors excluded,not filledfrommemory.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p12-ez-priority-route-scope-review-page45",
+                  "printed_page": 45,
+                  "reason": "Butaneorientation not differentcompound;do notclaimzero rotationbarrier."
+                },
+                {
+                  "id": "ch10-p12-ez-priority-route-scope-review-page46",
+                  "printed_page": 46,
+                  "reason": "Sourceconformation/configuration terminology held;geometriccriterion and finitecis/trans pictures retained."
+                },
+                {
+                  "id": "ch10-p12-ez-priority-route-scope-review-page47",
+                  "printed_page": 47,
+                  "reason": "180degree imagineddiagramrotation is not physicalfreeC=Crotation. Molecularmass-only E/Zpriority not taughtasgeneralrule."
+                },
+                {
+                  "id": "ch10-p12-ez-priority-route-scope-review-page48",
+                  "printed_page": 48,
+                  "reason": "E/Z finitebluehighlightedprioritygroups suppliedexplicitly;no outsideCIP fill/unseenprioritykeys. Methanetoetheneuncorroboratedproductionroute held;use49ethanemodel."
+                },
+                {
+                  "id": "ch10-p12-ez-priority-route-scope-review-page49",
+                  "printed_page": 49,
+                  "reason": "AlcoholicKOH condition retained,not sameasallwateryKOH. Unknownalcohol/model not arbitraryactualconversion or physicalpreparation."
+                },
+                {
+                  "id": "ch10-p12-ez-priority-route-scope-review-page50",
+                  "printed_page": 50,
+                  "reason": "Unknownalcohol/alkene only molecularcomposition,not uniqueisomer. Sourcequantitymodels require prior masses/Vm proofs."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15637,7 +15966,46 @@
             "record_id": "ch10-paragraph14",
             "printed_page": 53,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p13-alkene-phase-selectivity-polymer-review",
+              "status": "open_review",
+              "printed_pages": [
+                50,
+                51,
+                52
+              ],
+              "pdf_pages": [
+                50,
+                51,
+                52
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;finiteclearstructures/givenproducts/declaredamountmodels only. Uncertaingeneralrules/literalerrors excluded,not filledfrommemory.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p13-alkene-phase-selectivity-polymer-review-page50",
+                  "printed_page": 50,
+                  "reason": "Odor/allbuteneisomersgas/phasecutoff lackfullconditions;no universalkeys."
+                },
+                {
+                  "id": "ch10-p13-alkene-phase-selectivity-polymer-review-page51",
+                  "printed_page": 51,
+                  "reason": "Known brominewatercard not uniqueunknownanalyte identity. FiniteMarkovnikovpropeneproduct not unconditionalallconditions/soleyield. MnO2sourcecolor scoped."
+                },
+                {
+                  "id": "ch10-p13-alkene-phase-selectivity-polymer-review-page52",
+                  "printed_page": 52,
+                  "reason": "CopiedQ6hasmultiplefittingoptions;Q8rearrangement/conditions unspecified. Halogenmass380.9/67.86 precision andactualproductscope held. Polymerrepeatcounts not actualchainend/distribution/purity certificate."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15678,7 +16046,46 @@
             "record_id": "ch10-paragraph15",
             "printed_page": 56,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p14-diene-bond-header-products-review",
+              "status": "open_review",
+              "printed_pages": [
+                54,
+                55,
+                56
+              ],
+              "pdf_pages": [
+                54,
+                55,
+                56
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;finiteclearstructures/givenproducts/declaredamountmodels only. Uncertaingeneralrules/literalerrors excluded,not filledfrommemory.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p14-diene-bond-header-products-review-page54",
+                  "printed_page": 54,
+                  "reason": "Empiriktableheader not actualempiricalratio definition;usemolecularcomposition. Namedgraphs do not implyalldienesgeometricisomers."
+                },
+                {
+                  "id": "ch10-p14-diene-bond-header-products-review-page55",
+                  "printed_page": 55,
+                  "reason": "Firstbutadieneproductdrawing missingC=C not copied;clear54corroboratingstructure andmolecularconservation used. Alternative1,2/1,4addition not guaranteedpureproductratio."
+                },
+                {
+                  "id": "ch10-p14-diene-bond-header-products-review-page56",
+                  "printed_page": 56,
+                  "reason": "M54/58/68/72 fullconversionratio models theoreticalwithpreviousC12H1proofs,not actualsynthesis/doses/yields."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15719,7 +16126,62 @@
             "record_id": "ch10-paragraph16",
             "printed_page": 61,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p15-alkyne-identity-incomplete-chains-review",
+              "status": "open_review",
+              "printed_pages": [
+                57,
+                58,
+                59,
+                60,
+                61
+              ],
+              "pdf_pages": [
+                57,
+                58,
+                59,
+                60,
+                61
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Originalscanreviewed;finiteclearstructures/givenproducts/declaredamountmodels only. Uncertaingeneralrules/literalerrors excluded,not filledfrommemory.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p15-alkyne-identity-incomplete-chains-review-page57",
+                  "printed_page": 57,
+                  "reason": "Empirikheader not actualempiricalratio definition. Structure identityMCQ/words,not molecular-equivalence grading."
+                },
+                {
+                  "id": "ch10-p15-alkyne-identity-incomplete-chains-review-page58",
+                  "printed_page": 58,
+                  "reason": "No physicalcarbide/water/H2/heat/smell method. Pureacetyleneodor not unknownpuritytest or universal boilingtrend."
+                },
+                {
+                  "id": "ch10-p15-alkyne-identity-incomplete-chains-review-page59",
+                  "printed_page": 59,
+                  "reason": "Hydration/trimerization knownproducts only,not Hg/heat/benzenephysicalmethod. Completecombustionmodelexplicit."
+                },
+                {
+                  "id": "ch10-p15-alkyne-identity-incomplete-chains-review-page60",
+                  "printed_page": 60,
+                  "reason": "C5H8 gasratio does not uniquelyidentify straightpentyne;three namedsourcealkynes retained,not onegraphkey."
+                },
+                {
+                  "id": "ch10-p15-alkyne-identity-incomplete-chains-review-page61",
+                  "printed_page": 61,
+                  "reason": "Transformationchains incompleteconditions/factory/base/PVCroutes not invented. TheoreticalCa40/C12/H1/O16/Vm proofs anddeclaredyieldmodel only,not physicalscaleup/certification."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

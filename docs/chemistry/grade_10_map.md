@@ -17,16 +17,16 @@ Individual lesson claims require their own reviewed source refs.
 | `ch10-paragraph04` | paragraph 4 | Organik birikmalarning sinflanishi. Organik birikmalarga xos reaksiya turlari | 15–21 | 15:full – 21:full | 15 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph03 |
 | `ch10-chapter02` | chapter 2 | Uglevodorodlar | 21–77 | 21:full – 77:full | 21 | not_authored | — |
 | `ch10-paragraph05` | paragraph 5 | Alkanlarning umumiy formulasi va gomologik qatori. Ratsional nomenklatura | 21–26 | 21:full – 26:full | 21 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph04 |
-| `ch10-paragraph06` | paragraph 6 | Alkanlarning xalqaro nomenklatura bo‘yicha nomlanishi. Izomeriyasi | 26–31 | 26:full – 31:full | 26 | not_authored | ch10-paragraph05 |
-| `ch10-paragraph07` | paragraph 7 | Alkanlarning olinishi va fizik xossalari | 31–33 | 31:full – 33:full | 31 | not_authored | ch10-paragraph06 |
-| `ch10-paragraph08` | paragraph 8 | Alkanlarning kimyoviy xossasi. Ishlatilishi | 33–36 | 33:full – 36:full | 33 | not_authored | ch10-paragraph07 |
-| `ch10-paragraph09` | paragraph 9 | Sikloalkanlar. Nomenklaturasi. Izomeriyasi. Olinishi | 36–39 | 36:full – 39:full | 36 | not_authored | ch10-paragraph08 |
-| `ch10-paragraph10` | paragraph 10 | Sikloalkanlarning fizik va kimyoviy xossalari | 39–42 | 39:full – 42:full | 39 | not_authored | ch10-paragraph09 |
-| `ch10-paragraph11` | paragraph 11 | Alkenlar va ularning nomenklaturasi | 42–44 | 42:full – 44:full | 42 | not_authored | ch10-paragraph10 |
-| `ch10-paragraph12` | paragraph 12 | Alkenlarning izomeriyasi va olinishi | 44–50 | 44:full – 50:full | 44 | not_authored | ch10-paragraph11 |
-| `ch10-paragraph13` | paragraph 13 | Alkenlarning fizik va kimyoviy xossalari | 50–53 | 50:full – 53:full | 50 | not_authored | ch10-paragraph12 |
-| `ch10-paragraph14` | paragraph 14 | Alkadiyenlar. Olinishi va xossalari | 53–56 | 53:full – 56:full | 53 | not_authored | ch10-paragraph13 |
-| `ch10-paragraph15` | paragraph 15 | Alkinlar. Olinishi va xossalari | 56–61 | 56:full – 61:full | 56 | not_authored | ch10-paragraph14 |
+| `ch10-paragraph06` | paragraph 6 | Alkanlarning xalqaro nomenklatura bo‘yicha nomlanishi. Izomeriyasi | 26–31 | 26:full – 31:full | 26 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph05 |
+| `ch10-paragraph07` | paragraph 7 | Alkanlarning olinishi va fizik xossalari | 31–33 | 31:full – 33:full | 31 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph06 |
+| `ch10-paragraph08` | paragraph 8 | Alkanlarning kimyoviy xossasi. Ishlatilishi | 33–36 | 33:full – 36:full | 33 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph07 |
+| `ch10-paragraph09` | paragraph 9 | Sikloalkanlar. Nomenklaturasi. Izomeriyasi. Olinishi | 36–39 | 36:full – 39:full | 36 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph08 |
+| `ch10-paragraph10` | paragraph 10 | Sikloalkanlarning fizik va kimyoviy xossalari | 39–42 | 39:full – 42:full | 39 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph09 |
+| `ch10-paragraph11` | paragraph 11 | Alkenlar va ularning nomenklaturasi | 42–44 | 42:full – 44:full | 42 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph10 |
+| `ch10-paragraph12` | paragraph 12 | Alkenlarning izomeriyasi va olinishi | 44–50 | 44:full – 50:full | 44 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph11 |
+| `ch10-paragraph13` | paragraph 13 | Alkenlarning fizik va kimyoviy xossalari | 50–53 | 50:full – 53:full | 50 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph12 |
+| `ch10-paragraph14` | paragraph 14 | Alkadiyenlar. Olinishi va xossalari | 53–56 | 53:full – 56:full | 53 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph13 |
+| `ch10-paragraph15` | paragraph 15 | Alkinlar. Olinishi va xossalari | 56–61 | 56:full – 61:full | 56 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph14 |
 | `ch10-paragraph16` | paragraph 16 | Aromatik uglevodorodlar. Olinishi va xossalari | 61–67 | 61:full – 67:full | 61 | not_authored | ch10-paragraph15 |
 | `ch10-paragraph17` | paragraph 17 | Organik birikmalarda uglerod atomining gibridlanishi | 67–69 | 67:full – 69:full | 67 | not_authored | ch10-paragraph16 |
 | `ch10-paragraph18` | paragraph 18 | Uglevodorodlarning tabiiy manbalari. Neft va neftni qayta ishlash mahsulotlari | 69–73 | 69:full – 73:full | 69 | not_authored | ch10-paragraph17 |

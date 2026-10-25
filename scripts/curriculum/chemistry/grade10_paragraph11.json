@@ -1,0 +1,2440 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 10,
+  "sequence": 11,
+  "key": "chemistry-10-p11-r1",
+  "revision": 1,
+  "topic_id": "ch10-paragraph11",
+  "book_id": "chemistry-10-uz-2017",
+  "title": "Alkenlar va ularning nomenklaturasi",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch10-paragraph10"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-10-uz-2017",
+      "book_title": "Organik kimyo",
+      "authors": [
+        "A. Mutalibov",
+        "E. Murodov",
+        "S. Masharipov",
+        "H. Islomova"
+      ],
+      "year": 2017,
+      "file_name": "organik_kimyo_10_uzb.pdf",
+      "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+      "topic_id": "ch10-paragraph11",
+      "topic_title": "Alkenlar va ularning nomenklaturasi",
+      "paragraph": 11,
+      "printed_pages": [
+        42
+      ],
+      "pdf_pages": [
+        42
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch10-paragraph11-page42"
+    },
+    {
+      "book_id": "chemistry-10-uz-2017",
+      "book_title": "Organik kimyo",
+      "authors": [
+        "A. Mutalibov",
+        "E. Murodov",
+        "S. Masharipov",
+        "H. Islomova"
+      ],
+      "year": 2017,
+      "file_name": "organik_kimyo_10_uzb.pdf",
+      "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+      "topic_id": "ch10-paragraph11",
+      "topic_title": "Alkenlar va ularning nomenklaturasi",
+      "paragraph": 11,
+      "printed_pages": [
+        43
+      ],
+      "pdf_pages": [
+        43
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch10-paragraph11-page43"
+    },
+    {
+      "book_id": "chemistry-10-uz-2017",
+      "book_title": "Organik kimyo",
+      "authors": [
+        "A. Mutalibov",
+        "E. Murodov",
+        "S. Masharipov",
+        "H. Islomova"
+      ],
+      "year": 2017,
+      "file_name": "organik_kimyo_10_uzb.pdf",
+      "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+      "topic_id": "ch10-paragraph11",
+      "topic_title": "Alkenlar va ularning nomenklaturasi",
+      "paragraph": 11,
+      "printed_pages": [
+        44
+      ],
+      "pdf_pages": [
+        44
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch10-paragraph11-page44"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph01",
+      "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+      "paragraph": 1,
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph01-page07"
+    }
+  ],
+  "facts": {
+    "family": {
+      "claim": "Bu bo‘lim alkenlarni ochiq zanjirli, bitta C=C bog‘li uglevodorodlar bilan tushuntiradi. Ularning umumiy molekulyar tarkibi CnH2n va ushbu modelda bitta π bog‘ ko‘rsatiladi. Faqat CnH2n tarkibini ko‘rishning o‘zi halqali tuzilishni chiqarib tashlamaydi.",
+      "verified_answers": [
+        "Alken",
+        "CnH2n",
+        "1"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    "names": {
+      "claim": "Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+      "verified_answers": [
+        "Eten",
+        "Etilen",
+        "Propen",
+        "Propilen",
+        "C2H4",
+        "C3H6"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    "vinyl": {
+      "claim": "CH2=CH– birikuvchi guruhini darslik vinil deb ataydi. Yozuvdagi oxirgi chiziq ulanish nuqtasini bildiradi; bu yerda u alohida minus zaryad sifatida berilmagan. Shu guruhda2 C va 3 H sanaladi.",
+      "verified_answers": [
+        "Vinil",
+        "2",
+        "3"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    "numbering": {
+      "claim": "Asosiy zanjir tarkibida qo‘sh bog‘ bo‘lishi kerak. Berilgan misollarda raqamlash qo‘sh bog‘ga yaqin uchdan boshlanadi, nomda uning o‘rni ko‘rsatiladi. Shoxning o‘rni bilan C=C o‘rnini alohida o‘qish lozim.",
+      "verified_answers": [
+        "Qo‘sh bog‘"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    "dimethyl": {
+      "claim": "O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+      "verified_answers": [
+        "4,4-dimetilpenten-2",
+        "5",
+        "2",
+        "4",
+        "7"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    "rational": {
+      "claim": "Ratsional misollarda etenning H lari o‘rniga kelgan guruhlar sanaladi. CH3–CH=CH2 metiletilen; CH3–CH=CH–CH3 simmetrik dimetiletilen deb keltirilgan. Bir xil CH3 guruhlari ikki alohida C=C atomiga birikkani uchun ikkinchi misol simmetrik deb ajratilgan.",
+      "verified_answers": [
+        "Metiletilen",
+        "Simmetrik dimetiletilen"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    "unsymmetric": {
+      "claim": "CH2=C(CH3)2 rasmida ikkala metil bir xil qo‘sh bog‘ C siga birikkan. Bu nosimmetrik dimetiletilen misoli. C=C ning har ikki C siga ikkitadan metil birikkan rasm esa tetrametiletilen; unda jami 6 C va 12 H bor.",
+      "verified_answers": [
+        "Nosimmetrik dimetiletilen",
+        "Tetrametiletilen",
+        "6",
+        "12"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    "halogen": {
+      "claim": "Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+      "verified_answers": [
+        "1",
+        "6",
+        "4",
+        "5",
+        "9",
+        "4-etil-4-metil-5-xlorgeksen-1"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    "mass": {
+      "claim": "Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+      "verified_answers": [
+        "6",
+        "12",
+        "C6H12"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            44
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page44"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph01",
+          "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+          "paragraph": 1,
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph01-page07"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Ochiq zanjirdagi bitta C=C modeli",
+        "body": "Bu bo‘lim alkenlarni ochiq zanjirli, bitta C=C bog‘li uglevodorodlar bilan tushuntiradi. Ularning umumiy molekulyar tarkibi CnH2n va ushbu modelda bitta π bog‘ ko‘rsatiladi. Faqat CnH2n tarkibini ko‘rishning o‘zi halqali tuzilishni chiqarib tashlamaydi.",
+        "fact_ids": [
+          "family"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              42
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page42"
+          }
+        ]
+      },
+      {
+        "title": "Eten va propenning ikki nomi",
+        "body": "Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+        "fact_ids": [
+          "names"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              42
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page42"
+          }
+        ]
+      },
+      {
+        "title": "Vinilning ulanish nuqtasi",
+        "body": "CH2=CH– birikuvchi guruhini darslik vinil deb ataydi. Yozuvdagi oxirgi chiziq ulanish nuqtasini bildiradi; bu yerda u alohida minus zaryad sifatida berilmagan. Shu guruhda2 C va 3 H sanaladi.",
+        "fact_ids": [
+          "vinyl"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              42
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page42"
+          }
+        ]
+      },
+      {
+        "title": "Avval C=C o‘rnini raqamlang",
+        "body": "Asosiy zanjir tarkibida qo‘sh bog‘ bo‘lishi kerak. Berilgan misollarda raqamlash qo‘sh bog‘ga yaqin uchdan boshlanadi, nomda uning o‘rni ko‘rsatiladi. Shoxning o‘rni bilan C=C o‘rnini alohida o‘qish lozim.",
+        "fact_ids": [
+          "numbering"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              42
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page42"
+          }
+        ]
+      },
+      {
+        "title": "4,4-dimetilpenten-2 ning aniq kartasi",
+        "body": "O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+        "fact_ids": [
+          "dimethyl"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              43
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page43"
+          }
+        ]
+      },
+      {
+        "title": "Ratsional nomda ikki tomonni qiyoslang",
+        "body": "Ratsional misollarda etenning H lari o‘rniga kelgan guruhlar sanaladi. CH3–CH=CH2 metiletilen; CH3–CH=CH–CH3 simmetrik dimetiletilen deb keltirilgan. Bir xil CH3 guruhlari ikki alohida C=C atomiga birikkani uchun ikkinchi misol simmetrik deb ajratilgan.",
+        "fact_ids": [
+          "rational"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              43
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page43"
+          }
+        ]
+      },
+      {
+        "title": "Ikki metil bir C ga biriksa nima farq qiladi?",
+        "body": "CH2=C(CH3)2 rasmida ikkala metil bir xil qo‘sh bog‘ C siga birikkan. Bu nosimmetrik dimetiletilen misoli. C=C ning har ikki C siga ikkitadan metil birikkan rasm esa tetrametiletilen; unda jami 6 C va 12 H bor.",
+        "fact_ids": [
+          "unsymmetric"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              43
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page43"
+          }
+        ]
+      },
+      {
+        "title": "Galogenli rasmda uch xil o‘rinni ajrating",
+        "body": "Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+        "fact_ids": [
+          "halogen"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              43
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page43"
+          }
+        ]
+      },
+      {
+        "title": "M84 kartasidan C soniga",
+        "body": "Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+        "fact_ids": [
+          "mass"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              42
+            ],
+            "pdf_pages": [
+              42
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page42"
+          },
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              44
+            ],
+            "pdf_pages": [
+              44
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page44"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph01",
+            "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+            "paragraph": 1,
+            "printed_pages": [
+              7
+            ],
+            "pdf_pages": [
+              7
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph01-page07"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [
+      {
+        "title": "Asosiy zanjir C soni jami C soni emas",
+        "body": "4,4-dimetilpenten-2 rasmida asosiy zanjir5 C.Ikkita metil yana2 C beradi; jami 7 C. Nomdagi4,4 ikkita metilning bir C ga birikkanini bildiradi.",
+        "fact_ids": [
+          "dimethyl"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph11",
+            "topic_title": "Alkenlar va ularning nomenklaturasi",
+            "paragraph": 11,
+            "printed_pages": [
+              43
+            ],
+            "pdf_pages": [
+              43
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph11-page43"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-10-uz-2017",
+        "book_title": "Organik kimyo",
+        "authors": [
+          "A. Mutalibov",
+          "E. Murodov",
+          "S. Masharipov",
+          "H. Islomova"
+        ],
+        "year": 2017,
+        "file_name": "organik_kimyo_10_uzb.pdf",
+        "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+        "topic_id": "ch10-paragraph11",
+        "topic_title": "Alkenlar va ularning nomenklaturasi",
+        "paragraph": 11,
+        "printed_pages": [
+          42
+        ],
+        "pdf_pages": [
+          42
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch10-paragraph11-page42"
+      },
+      {
+        "book_id": "chemistry-10-uz-2017",
+        "book_title": "Organik kimyo",
+        "authors": [
+          "A. Mutalibov",
+          "E. Murodov",
+          "S. Masharipov",
+          "H. Islomova"
+        ],
+        "year": 2017,
+        "file_name": "organik_kimyo_10_uzb.pdf",
+        "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+        "topic_id": "ch10-paragraph11",
+        "topic_title": "Alkenlar va ularning nomenklaturasi",
+        "paragraph": 11,
+        "printed_pages": [
+          43
+        ],
+        "pdf_pages": [
+          43
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch10-paragraph11-page43"
+      },
+      {
+        "book_id": "chemistry-10-uz-2017",
+        "book_title": "Organik kimyo",
+        "authors": [
+          "A. Mutalibov",
+          "E. Murodov",
+          "S. Masharipov",
+          "H. Islomova"
+        ],
+        "year": 2017,
+        "file_name": "organik_kimyo_10_uzb.pdf",
+        "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+        "topic_id": "ch10-paragraph11",
+        "topic_title": "Alkenlar va ularning nomenklaturasi",
+        "paragraph": 11,
+        "printed_pages": [
+          44
+        ],
+        "pdf_pages": [
+          44
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch10-paragraph11-page44"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph01",
+        "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+        "paragraph": 1,
+        "printed_pages": [
+          7
+        ],
+        "pdf_pages": [
+          7
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph01-page07"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-10-p11-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "CH2=CH–CH3 ko‘rsatilgan tuzilishning sistematik nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Propan"
+          },
+          {
+            "id": "b",
+            "label": "Propen"
+          },
+          {
+            "id": "c",
+            "label": "Eten"
+          },
+          {
+            "id": "d",
+            "label": "Etan"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Propen",
+        "feedback": {
+          "correct": "To‘g‘ri. Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+            "fact_ids": [
+              "names"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  42
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "names"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "5 C li zanjir, C=C2 va 4-C dagi ikki metil kartasining nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "4,4-dimetilpenten-2"
+          },
+          {
+            "id": "b",
+            "label": "2,2-dimetilpenten-4"
+          },
+          {
+            "id": "c",
+            "label": "2-metilpenten-1"
+          },
+          {
+            "id": "d",
+            "label": "4-metilgeksen-2"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "4,4-dimetilpenten-2",
+        "feedback": {
+          "correct": "To‘g‘ri. O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+          "incorrect": "Hozircha noto‘g‘ri. O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+            "fact_ids": [
+              "dimethyl"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  43
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "dimethyl"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "CH3–CH=CH–CH3 ning berilgan ratsional nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Nosimmetrik dimetiletilen"
+          },
+          {
+            "id": "b",
+            "label": "Tetrametiletilen"
+          },
+          {
+            "id": "c",
+            "label": "Simmetrik dimetiletilen"
+          },
+          {
+            "id": "d",
+            "label": "Metiletilen"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Simmetrik dimetiletilen",
+        "feedback": {
+          "correct": "To‘g‘ri. Ratsional misollarda etenning H lari o‘rniga kelgan guruhlar sanaladi. CH3–CH=CH2 metiletilen; CH3–CH=CH–CH3 simmetrik dimetiletilen deb keltirilgan. Bir xil CH3 guruhlari ikki alohida C=C atomiga birikkani uchun ikkinchi misol simmetrik deb ajratilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Ratsional misollarda etenning H lari o‘rniga kelgan guruhlar sanaladi. CH3–CH=CH2 metiletilen; CH3–CH=CH–CH3 simmetrik dimetiletilen deb keltirilgan. Bir xil CH3 guruhlari ikki alohida C=C atomiga birikkani uchun ikkinchi misol simmetrik deb ajratilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Ratsional misollarda etenning H lari o‘rniga kelgan guruhlar sanaladi. CH3–CH=CH2 metiletilen; CH3–CH=CH–CH3 simmetrik dimetiletilen deb keltirilgan. Bir xil CH3 guruhlari ikki alohida C=C atomiga birikkani uchun ikkinchi misol simmetrik deb ajratilgan.",
+            "fact_ids": [
+              "rational"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  43
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "rational"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "CH2=C(CH3)2 rasmiga berilgan ratsional nom qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Simmetrik dimetiletilen"
+          },
+          {
+            "id": "b",
+            "label": "Tetrametiletilen"
+          },
+          {
+            "id": "c",
+            "label": "Metiletilen"
+          },
+          {
+            "id": "d",
+            "label": "Nosimmetrik dimetiletilen"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Nosimmetrik dimetiletilen",
+        "feedback": {
+          "correct": "To‘g‘ri. CH2=C(CH3)2 rasmida ikkala metil bir xil qo‘sh bog‘ C siga birikkan. Bu nosimmetrik dimetiletilen misoli. C=C ning har ikki C siga ikkitadan metil birikkan rasm esa tetrametiletilen; unda jami 6 C va 12 H bor.",
+          "incorrect": "Hozircha noto‘g‘ri. CH2=C(CH3)2 rasmida ikkala metil bir xil qo‘sh bog‘ C siga birikkan. Bu nosimmetrik dimetiletilen misoli. C=C ning har ikki C siga ikkitadan metil birikkan rasm esa tetrametiletilen; unda jami 6 C va 12 H bor.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "CH2=C(CH3)2 rasmida ikkala metil bir xil qo‘sh bog‘ C siga birikkan. Bu nosimmetrik dimetiletilen misoli. C=C ning har ikki C siga ikkitadan metil birikkan rasm esa tetrametiletilen; unda jami 6 C va 12 H bor.",
+            "fact_ids": [
+              "unsymmetric"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  43
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "unsymmetric"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "CH2=CH– birikuvchi guruhining manbadagi nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Vinil",
+        "feedback": {
+          "correct": "To‘g‘ri. CH2=CH– birikuvchi guruhini darslik vinil deb ataydi. Yozuvdagi oxirgi chiziq ulanish nuqtasini bildiradi; bu yerda u alohida minus zaryad sifatida berilmagan. Shu guruhda2 C va 3 H sanaladi.",
+          "incorrect": "Hozircha noto‘g‘ri. CH2=CH– birikuvchi guruhini darslik vinil deb ataydi. Yozuvdagi oxirgi chiziq ulanish nuqtasini bildiradi; bu yerda u alohida minus zaryad sifatida berilmagan. Shu guruhda2 C va 3 H sanaladi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "CH2=CH– birikuvchi guruhini darslik vinil deb ataydi. Yozuvdagi oxirgi chiziq ulanish nuqtasini bildiradi; bu yerda u alohida minus zaryad sifatida berilmagan. Shu guruhda2 C va 3 H sanaladi.",
+            "fact_ids": [
+              "vinyl"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  42
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "Vinil",
+        "aliases": [
+          "Vinil"
+        ]
+      },
+      "fact_ids": [
+        "vinyl"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Eten uchun keltirilgan boshqa nomni yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Etilen",
+        "feedback": {
+          "correct": "To‘g‘ri. Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Etan/eten va propan/propen juftlari rasmda qiyoslangan. Eten etilen, propen propilen nomi bilan ham keltiriladi. Eten CH2=CH2, propen CH2=CH–CH3 ulanishi bilan ko‘rsatilgan.",
+            "fact_ids": [
+              "names"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  42
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "Etilen",
+        "aliases": [
+          "Etilen"
+        ]
+      },
+      "fact_ids": [
+        "names"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q07",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Berilgan bitta C=C li ochiq alken modelida π bog‘lar soni qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "1",
+        "feedback": {
+          "correct": "To‘g‘ri. Bu bo‘lim alkenlarni ochiq zanjirli, bitta C=C bog‘li uglevodorodlar bilan tushuntiradi. Ularning umumiy molekulyar tarkibi CnH2n va ushbu modelda bitta π bog‘ ko‘rsatiladi. Faqat CnH2n tarkibini ko‘rishning o‘zi halqali tuzilishni chiqarib tashlamaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Bu bo‘lim alkenlarni ochiq zanjirli, bitta C=C bog‘li uglevodorodlar bilan tushuntiradi. Ularning umumiy molekulyar tarkibi CnH2n va ushbu modelda bitta π bog‘ ko‘rsatiladi. Faqat CnH2n tarkibini ko‘rishning o‘zi halqali tuzilishni chiqarib tashlamaydi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Bu bo‘lim alkenlarni ochiq zanjirli, bitta C=C bog‘li uglevodorodlar bilan tushuntiradi. Ularning umumiy molekulyar tarkibi CnH2n va ushbu modelda bitta π bog‘ ko‘rsatiladi. Faqat CnH2n tarkibini ko‘rishning o‘zi halqali tuzilishni chiqarib tashlamaydi.",
+            "fact_ids": [
+              "family"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  42
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page42"
+              }
+            ]
+          }
+        ],
+        "expected": "1",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "family"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q08",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "4,4-dimetilpenten-2 rasmida jami C soni qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "7",
+        "feedback": {
+          "correct": "To‘g‘ri. O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+          "incorrect": "Hozircha noto‘g‘ri. O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "O‘ngdagi aniq rasmda asosiy zanjir5 C, qo‘sh bog‘2-o‘rinda, ikkita metil4-C ga birikkan. Manba shu misolni4,4-dimetilpenten-2 deb nomlaydi. Jami 5+2=7 C bor.",
+            "fact_ids": [
+              "dimethyl"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  43
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "7",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "dimethyl"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q09",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Berilgan galogenli rasmda C=C ning raqami qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "1",
+        "feedback": {
+          "correct": "To‘g‘ri. Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+          "incorrect": "Hozircha noto‘g‘ri. Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+            "fact_ids": [
+              "halogen"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  43
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "1",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "halogen"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q10",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Shu aniq galogenli rasmda jami C soni qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "9",
+        "feedback": {
+          "correct": "To‘g‘ri. Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+          "incorrect": "Hozircha noto‘g‘ri. Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Belgilangan CH2=CH–CH2–C(CH3)(C2H5)–CH(Cl)–CH3 tuzilishida qo‘sh bog‘1-o‘rinda, asosiy zanjir6 C. Yon qismlar4-etil,4-metil va 5-xlor sifatida ajratilgan. Shu aniq rasmda jami 9 C bor.",
+            "fact_ids": [
+              "halogen"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  43
+                ],
+                "pdf_pages": [
+                  43
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page43"
+              }
+            ]
+          }
+        ],
+        "expected": "9",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "halogen"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            43
+          ],
+          "pdf_pages": [
+            43
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page43"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Alken oilasi, M84 g/mol va C12/H1 kartasida n qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "6",
+        "feedback": {
+          "correct": "To‘g‘ri. Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+          "incorrect": "Hozircha noto‘g‘ri. Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+            "fact_ids": [
+              "mass"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  42
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page42"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  44
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page44"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph01",
+                "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+                "paragraph": 1,
+                "printed_pages": [
+                  7
+                ],
+                "pdf_pages": [
+                  7
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph01-page07"
+              }
+            ]
+          }
+        ],
+        "expected": "6",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "mass"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            44
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page44"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph01",
+          "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+          "paragraph": 1,
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph01-page07"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-p11-r1-q12",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Berilgan M84 alken kartasidan topilgan faqat jami molekulyar tarkibni yozing; ulanish so‘ralmayapti.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "C6H12",
+        "feedback": {
+          "correct": "To‘g‘ri. Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+          "incorrect": "Hozircha noto‘g‘ri. Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Alohida hisob kartasi alken oilasi va M=84 g/mol deb aniq shart qo‘yadi. Oldingi C=12, H=1 modeli bilan CnH2n uchun M=14n; 14n=84 dan n=6, H=12. Natija C6H12 molekulyar tarkibidir, uning barcha ulanishlarini bitta rasmga tenglashtirmaymiz.",
+            "fact_ids": [
+              "mass"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  42
+                ],
+                "pdf_pages": [
+                  42
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page42"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph11",
+                "topic_title": "Alkenlar va ularning nomenklaturasi",
+                "paragraph": 11,
+                "printed_pages": [
+                  44
+                ],
+                "pdf_pages": [
+                  44
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph11-page44"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph01",
+                "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+                "paragraph": 1,
+                "printed_pages": [
+                  7
+                ],
+                "pdf_pages": [
+                  7
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph01-page07"
+              }
+            ]
+          }
+        ],
+        "expected": "C6H12"
+      },
+      "fact_ids": [
+        "mass"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            42
+          ],
+          "pdf_pages": [
+            42
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page42"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph11",
+          "topic_title": "Alkenlar va ularning nomenklaturasi",
+          "paragraph": 11,
+          "printed_pages": [
+            44
+          ],
+          "pdf_pages": [
+            44
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph11-page44"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph01",
+          "topic_title": "Dastlabki kimyoviy tushuncha va qonunlar",
+          "paragraph": 1,
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph01-page07"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch8-paragraph01"
+  ]
+}

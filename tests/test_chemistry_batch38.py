@@ -95,5 +95,7 @@ def test_batch38_preserves194_and_awards100xp_once(chemistry):
         assert db.get(User,1).xp_total==3980
         assert db.query(ChemistryProgress).filter_by(user_id=1).count()==199
         assert (db.get(User,42).xp_total,db.get(User,42).streak_days)==(137,3)
-    assert all(l['state']=='completed' for l in client.get(PREFIX+'/catalog?grade=10').json()['lessons'])
+    current=client.get(PREFIX+'/catalog?grade=10').json()['lessons']
+    assert all(l['state']=='completed' for l in current[:5])
+    if len(current)>5:assert current[5]['state']=='available'
     for g,c in old.items():assert client.get(PREFIX+f'/catalog?grade={g}').json()==c

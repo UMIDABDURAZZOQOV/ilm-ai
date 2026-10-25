@@ -1,74 +1,80 @@
 # Chemistry continuation checkpoint
 
-## Batch38 — 2026-10-26:grade10§1–5
+## Batch39 — 2026-10-26:grade10§6–15
 
-**199/268 implemented;69 remain. Grade10 5/41;grade7–9 all194 preserved.**
-Five source-ordered lessons add58cards/68questions:22MCQ,15short,23numeric,
-5formula,3equation. Total1881cards/2866questions:796/388/767/330/585.
-Original scan4–25 reviewed as images;26starts§6. History/definition/structure,
-chain/position/interclass/geometricisomers,functionalgroups/reactiontypes and
-alkane homologues/markedcenter rationalnames use original explanations.
+**209/268 implemented;59 remain. Grade10 15/41;prior199 lessons preserved.**
+Ten lessons add116cards/163questions:40MCQ,22short,62numeric,5formula,
+34equation. Total1997cards/3029questions:836/410/829/335/619. Five private
+drafts39 andfive40 formone ten-lesson delivery,within user5–10lesson batch rule.
 
-Ethanol/ether and organicgraphs are MCQ/word/count tasks. Existing molecular
-composition grader never certifies connectivity. FormulaFRQ explicitly asks total
-molecularcomposition;equationFRQ givenproducts/atomconservation only. No parser
-extension or new learning/XP/progress rule. Sourcebook10 proof SHA/imagepins;
-grade8§1/7 supports declared C12/H1 forward mass models. Independentteacher
-review pending;scan/OCR alone never treated as approved science.
+Original scan26–61 reviewed visually. Unambiguous mainchain/finite namedgraphs,
+carbon-neighbor counts,alkane/cycloalkane/alkene/diene/alkyne families and exact
+source amount cards retain common lesson/feedback/grading/progress contracts.
+No molecular-composition grader claim of organic connectivity. Explicit given
+product atommodels only;formulaFRQ asks totalcomposition. Decimal/scientific
+replays use existing exactDecimal contract;no new tolerance or AI functionality.
 
-Five source scopes retain blanketorganicgeneralizations,Frankland/acetic copied
-history key,HCOOH wrong aceticcaption,2chlorobutane terminalH misprint,
-classification/onlyorganicpolymerization universality and82.75% precisionissue.
-Uncertain literalkeys excluded. Original forward C3H8/C4H10 calculations declare
-integer masses and three-decimal rounding81.818/82.759;no false precision repair.
-Rationalnames require markedcenter;pentane alternative names are samegraph.
-151editorialscopes,one finite§40erratum,zero wholeholds;allreadyfalse.
+Ten additional source scopes retain uncertaintie nomenclature,31C8dimer vsC10
+prose,34sameC5graph/crackingcaption,41inconsistentCO2/waterdata,43missingH,
+48mass-onlyE/Z priority,alkenephase/selectivity assumptions,55missingdienebond,
+unresolvedisomeridentity andincompletetransformationchains. Finite E/Z task uses
+explicitly provided groups,not inferredoutsidepriority rules. Native reaction
+pages corroborate exercise calculations;previousbooks keep their own SHA/page.
+161editorialscopes,one finite9§40reviewederratum,zero wholeholds;allreadyfalse.
 
-Full Chemistry1507pass,1opt-inPGskip,1existingStarlettewarning/3430.51s.
-Target90pass/25.65s;readiness regression1pass/3.90s. Initial fullrun stopped after
-known oldbatch05 test failure:it assumed no grade10 sourceissues and expected
-synthetic readiness true. Updatedtest requires grade10false with≥5pendingissues
-and checks readiness against pendingissues for both10/11. Validator/grader unchanged
-by this correction;fullsuite restarted on frozen finalsnapshot. CriticalRuff/diff
-passed.194priorhashes and original§1 preserved;fivePDF SHA/all817pages audited.
+Target157pass/123.48s:66newtests,34batch38,34erratum,22earliergrades,1readiness.
+FullChemistry1573pass,1opt-inPGskip. All45files runexactlyonce acrossfourisolated
+processes/DBs;protected source/runtime/testsnapshot remained unchanged. Existing
+Starlettewarning appears once perprocess(fourtotal). Measuredwall 8170.53s;
+individualworker times retainedinqa_batch39.json. CriticalRuff/diff passed.
+199priorlessonhashes andoriginal7§1 preserved;fivePDFSHA/all817pages audited.
 
-Flutter546tests/211s,analysis0issues/68.8s. Three new320×568/200%widgets/5s;
-ninecaptures visually inspected:grade10catalogs,ethanol/ether MCQ2+source8,
-sisbutene2 MCQ4+source13,81,818numericFRQ+source25/priorgrade8§1/7. All current
-references show organik_kimyo_10_uzb.pdf;prior proof keeps kimyo_8_uzb.pdf.
-Grade10 fixture routing added only in tests;productionUI remains common/dynamic.
-Scrollable feedback/source and pinnedcontinue accessible. No nativeAndroid/IME/
-TalkBackcertificate. Nine sanitized publicfixtures,no tokens/privategrading.
+ActualHTTP163correctanswers preserve199completions/3980XP. Ten completions add
+200XPonce→209/4180XP;complete replay identical. 6,72/6.72 and1.56e3/1560 replay
+equivalent;privategrading hidden,grade7/8/9catalogs unchanged. Eighteen sanitized
+publicfixtures covercarbonneighbors,carbideamount,inconsistentcombustion,E/Z,
+polymerrepeat andalkyneyield. Preview ownPID28808/loopback8903;verify exactcommand
+before stop. 209r1 imports immutable;no genuineuserdata touched.
 
-ActualHTTP68answers preserve194completions/3880XP;100XPonce→199/3980XP.
-Complete replay identical;81,818/81.818 and2e-1/0.20 equivalent. Grade7/8/9catalogs
-unchanged during execution;availablegrade10 appears through existing dynamic API.
-199r1 immutable imports. Loopback8903 ownPID8916;verify exact command before stop.
+Flutterfinal552tests/157s;analysis0issues/82.0s. Six final320×568/200%scenarios
+pass/12s;24capturepaths visually inspected including selectedcatalogactions,
+feedbacktop/scrolledsourcebuttons,currentandpriorbooklocators. Continue stays
+visible;longfeedback/sourceviews scroll. Initialadditionalcapture selection
+failed because several' Darsni boshlash' texts matched;test now uses firstmatch,
+the samechoice as existing taphelper. No productionUI changes. Fullfinalsuite
+rerun after this correction;initial full552pass log remains historical. Some
+source-adaptation prose joins words/digits(e.g.zanjirning2);editorialcopy polish
+still pending andnot represented as nativeAndroid/IME/TalkBack certification.
+Fluttercommit ec4470e pushed toChemistrybranch.
 
-Next§6–10 private drafts:57cards/84Q,20MCQ11short35numeric1formula17equation.
-All source/key/proof checks pass privately;not indexed. Original26–42 reviewed;
-42starts§11. Ownsource conflicts in tiednames,Wurtz dimerlabel,crackingcaption,
-phaseboundaries and41inconsistentcombustiondata retained inprivate notes.
-No AI/main/production/other-subject operations;Biology/Physics/userdata preserved.
+Next§16–25 scans61–102 reviewed;§16–20 privateauthor scripts prepared andnot
+indexed. 75reciprocaldivision22.4/67.2=3 retained as withheldoriginalmistake;
+use independentlycorrect76+prior8§26 forfuturetasks,no silentbadkey. 86sameCtwoOH
+absoluteclaim conflicts95temporarygemdiol;94wrong2metilpropan label conflicts
+correcttable. Uncertainliteralclaims remain out. No physics/biology/main/AI/
+production changes or rawPDF/OCR/fulltext/render/tokenpush.
 
 ## Exact continuation
 
-Batch37backend7589b39/Flutterd5c8a01. Batch38commit follows this measured file.
-Chemistrybranches only;199r1 imports immutable. Do notrerun indexed38catalog/
-author/HTTP/docs scripts. Baseline199/3980XP. Fullfinal log isbatch38-full-tests-final,
-not interruptedinitialrun. Allcourse-readyfalse;grade10scopes also blockreadiness.
+Batch38backend57bd1f5/Fluttera9071ad. Batch39Flutterec4470e;backendcommit follows.
+Do not rerun indexed39/40catalog/prepare/author/install/HTTP/doc scripts.
+Baseline209/4180XP. Allreadyfalse,161editorial scopes,1finiteerratum,0wholeholds.
+Currentlocal sourceaudit209. Backendfullreport.local/batch39-parallel-full/report.json.
+Fullsuite freezes source/runtime/testfiles while running. Standaloneisolated
+processes use uniqueDBs/basetemps;alltestfiles still run once,none excluded.
 
-Next batch39§6–10. author_batch39a–e expected199→204,UNEXECUTED for real saves.
-review_batch39_drafts.py serialized ignored.local/grade10-second-drafts only;
-validated source/key/proof and all84 answers. Add5editorialscopes/guards/tests
-before real save. Source notes.local/grade10_batch39_source_notes.md cover26–42.
-Do not rerun39draft review after real index changes without updatingexpectedindex.
+Next ten-lesson batch41§16–25. Privateauthor_batch41a–e.py expected209→214,
+UNEXECUTED real/draft saves;privateauthor42§21–25 stilltoauthor,expected214→219.
+Draft-validation mustserialize toignored.local,not mutateindexedlessons.
+Source notes.local/grade10_batch41_source_notes.md(61–81) and
+.local/grade10_batch42_source_notes.md(81–102). Alloriginal4–102 visuallyseen.
+Add10scoped sourceissues/guards/tests beforeindexing;strictaudit andactualQA
+afterward. Source helpers onlyserialize manuallyauthoredscience,not generatefacts.
+Do notassumefutureprivateauthorsalreadyvalidated. Organicstructure identity
+MCQ/word/count,composition/conservationFRQ explicit. No parser/XP/progressfork.
 
-Hold ambiguous IUPACtienames/universalhalogenpriority,31wrongC10dimerprose,
-32physicalphasecutoffs,34crackinglabel for sameC5isomerdrawing,and41inconsistent
-132CO2/108water oxygenkey. Digitalknownproduct/models only;no physical synthesis.
-Complex/organicgraph identity not molecularcomposition grading. Existingcommon
-MCQ/short/numeric/formula/equation contracts retained. Originalparagraphorder.
-
-Strictaudit,target/fulltests,realHTTP,small-screenUI,measureddocs,commit/push perbatch.
-No rawPDF/OCR/fulltext/render/tokenpush,AI/production/main/otherbranch changes.
+Scope unresolvedmass/phase/route/priorityclaims;75wrongdivision neverteach.
+Do not blanketoverridepage75:unrelatedcokeclaims needownreview. Knownfinite9§40
+mechanism remains digestpinned. Biologyp406/Physicsbranches/userprogress untouched.
+Finish all268;remaining59=grade10remaining26+grade11all33. Neverclaimcoursecomplete
+fromlessoncountalone,source/teacherreview/readinessgates stillapply.

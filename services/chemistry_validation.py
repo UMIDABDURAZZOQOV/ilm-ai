@@ -184,6 +184,16 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch10-paragraph03': 'ch10-p3-isomer-figure-scope-review',
     'ch10-paragraph04': 'ch10-p4-classification-polymerization-review',
     'ch10-paragraph05': 'ch10-p5-rational-center-percentage-review',
+    'ch10-paragraph06': 'ch10-p6-nomenclature-tie-rules-review',
+    'ch10-paragraph07': 'ch10-p7-wurtz-name-phase-scope-review',
+    'ch10-paragraph08': 'ch10-p8-cracking-caption-selectivity-review',
+    'ch10-paragraph09': 'ch10-p9-ring-schematic-identity-review',
+    'ch10-paragraph10': 'ch10-p10-combustion-data-ring-conditions-review',
+    'ch10-paragraph11': 'ch10-p11-alkene-figure-mass-unit-review',
+    'ch10-paragraph12': 'ch10-p12-ez-priority-route-scope-review',
+    'ch10-paragraph13': 'ch10-p13-alkene-phase-selectivity-polymer-review',
+    'ch10-paragraph14': 'ch10-p14-diene-bond-header-products-review',
+    'ch10-paragraph15': 'ch10-p15-alkyne-identity-incomplete-chains-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -924,6 +934,38 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch10-paragraph05' in topic_ids:
             require(not any(a.replace(',', '.') == '82.75' for a in f['verified_answers']),
                     'copied_percentage_precision_cannot_replace_declared_rounding')
+        if 'ch10-paragraph06' in topic_ids:
+            require(not any(a.replace(' ', '') == '1,5-dimetilgeksan' for a in f['verified_answers']),
+                    'copied_nonlongest_parent_name_requires_review')
+        if 'ch10-paragraph07' in topic_ids:
+            require(not any('tetrametilgeksan' in a.casefold() for a in f['verified_answers']),
+                    'c8_dimer_cannot_use_c10_prose_name')
+        if 'ch10-paragraph08' in topic_ids:
+            require(not any('pentanda c soni kamayadi' in a.casefold() for a in f['verified_answers']),
+                    'same_c5_isomer_diagram_is_not_fragmentation')
+        if 'ch10-paragraph09' in topic_ids:
+            require(not any('har qanday alkan o‘z-o‘zidan halqa' in a.casefold() for a in f['verified_answers']),
+                    'schematic_formula_difference_is_not_guaranteed_cyclization')
+        if 'ch10-paragraph10' in topic_ids and 'Ma’lumotlar mos kelmaydi' in f['verified_answers']:
+            require('198' not in f['verified_answers'],
+                    'inconsistent_combustion_data_cannot_supply_oxygen_key')
+        if 'ch10-paragraph11' in topic_ids:
+            require(not any('cnh2n doim faqat alken' in a.casefold() for a in f['verified_answers']),
+                    'family_composition_is_not_unique_connectivity')
+        if 'ch10-paragraph12' in topic_ids:
+            require(not any('e/z ustunligi faqat molekulyar massa bilan' in a.casefold()
+                            for a in f['verified_answers']),
+                    'unreviewed_mass_only_ez_priority_cannot_be_a_key')
+        if 'ch10-paragraph13' in topic_ids:
+            require(not any('barcha buten izomerlari n.sh.da gaz' in a.casefold()
+                            for a in f['verified_answers']),
+                    'unqualified_all_butene_phase_cannot_be_a_key')
+        if 'ch10-paragraph14' in topic_ids:
+            require(not any(a.replace('–', '-') == 'H2C-CH-CH=CH2' for a in f['verified_answers']),
+                    'missing_diene_bond_copy_cannot_be_a_key')
+        if 'ch10-paragraph15' in topic_ids:
+            require(not any('pentin yagona tuzilish' in a.casefold() for a in f['verified_answers']),
+                    'alkyne_gas_ratio_does_not_determine_unique_graph')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

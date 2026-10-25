@@ -7,15 +7,15 @@
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 61 | 0 |
-| 10 | 4 | 35 | 6 | 0 | 41 | 5 | 36 |
+| 10 | 4 | 35 | 6 | 0 | 41 | 15 | 26 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 199 | 69 |
+| Total | 29 | 204 | 49 | 15 | 268 | 209 | 59 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1881 cards; 2866 assessments: 796 concept_selection, 388 short_text, 767 numeric_value, 330 chemical_formula, 585 chemical_equation.
+Total: 1997 cards; 3029 assessments: 836 concept_selection, 410 short_text, 829 numeric_value, 335 chemical_formula, 619 chemical_equation.
 
 ## Initial §1
 
@@ -214,9 +214,15 @@ All61 grade9 teaching entries implemented:41paragraphs,3practicals,17laboratorie
 5 lessons;58 cards;68 questions:22 MCQ,15 short,23 numeric,5 formula,3 equation.
 Scan-reviewed original organic foundations,isomers,classes and alkane naming.
 
+## Batch39:grade10§6–15 (ten lessons)
+
+Two five-lesson draft groups39/40 shipped together within the ten-lesson batch limit.
+116 cards;163 questions:40MCQ,22short,62numeric,5formula,34equation.
+Source graphs,nomenclature and given-product stoichiometry preserve book order.
+
 ## Current continuation
 
-199/268 implemented;69 remain. Grade7 all74,grade8 all59,grade9 all61,grade10 5/41.
-Next grade10§6–10(batch39);five private drafts passed source/key validation,
-not indexed.151editorial scopes,one finite reviewederratum,zero wholeholds.
-ActualHTTP preserves194/3880XP and adds100XPonce→199/3980XP. Allreadyfalse.
+209/268 implemented;59 remain. Grade7 all74,grade8 all59,grade9 all61,grade10 15/41.
+Next grade10§16–25;§16–20 private author scripts prepared,not indexed.
+161editorial scopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
+ActualHTTP preserves199/3980XP and adds200XPonce→209/4180XP.
