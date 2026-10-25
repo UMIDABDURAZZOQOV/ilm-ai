@@ -564,3 +564,31 @@ Biology kontenti/6-sinf61dars baytlari va website/Kimyo saqlandi.
 **§21«Nyutonning ikkinchi qonuni»,PDF71/bosma78**. §21–25ningPDF71–88
 matn/tasvirlari yangi mualliflik uchun qayta o‘qildi; hali authoredemas.
 Oraliq tasdiq kutilmaydi. NativeAndroid/mustaqil pedagogik tasdiq yo‘q.
+
+
+## 7-sinf §21–25 — 2026-10-25
+
+Yana5dars/faoliyat(1raqamli prujina lab),22karta,12formula yozuvi,
+5originalmisol,35topshiriq(17konseptual,1tartib,17FRQ). PDF/bosma:
+§21 71–74/78–81;§22 75–79/82–86;§23 79–81/86–88;
+§24 81–86/88–93;§25 86–88/93–95.18asl sahifa matn/tasviri ko‘rildi;
+audit224pagechecks/220noyob sahifa. 12yangi executable oila,jami104.
+F=m*a dagi F bir jismning natijaviy kuchi; NewtonIII juftligi turli
+jismlarda. Markazga kuch yangi interaction turi emas; sharchaga
+ichkariga/tashqariga ikki kuchni qo‘yib bekor qilinmaydi. SourcePDF75
+vektor ishora xatosi,PDF83muvozanatni NewtonIII deyishi va chiziqlik/
+elastiklik chegarasi farqi reviewda ochiq qayd etildi. Prujina F=kx,
+k=F/x,x=F/k va kichik aksial sterjen k=ES/l; E birligi dimensional
+tekshirildi. N/m,kN/mexact registry. Raqamli lab g=10m/s2, alohida
+har k keyin uch k o‘rtachasi; real tajriba bajarildi demaydi.
+
+Backend Physics/source/identity/Biology **192passed47.94s**; barcha86dars
+ASGIHTTP/replay860XP, mustaqil17oracle/wrongunit/formula/son/noldomen.
+ActualPG16 **1passed26.47s**, import/reimport/860XP va old137XP/3streak/
+2stars saqlandi. FlutterPhysics **19passed**,68publicFRQ320px/200%signed
+qoralama. Oldingi61grade6/20grade7 JSON o‘zgarmadi, secrets/PDFGitga yo‘q.
+**86/316;230qolgan.7-sinf25/46,21qolgan.** Keyingi
+**§26«Butun olam tortishish qonuni»,PDF90/bosma97**. PDF90–105aslmatn/
+tasvir keyingi§26–30 uchun qayta ko‘rildi, hali authoredemas.
+NativeAndroid/mustaqil ekspert/prodrelease tasdiqlanmagan. Keyingi
+partiyaga yangi ruxsat kutmasdan o‘tiladi.

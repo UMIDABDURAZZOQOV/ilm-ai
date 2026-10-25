@@ -20,6 +20,78 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "newton_acceleration": rule(
+        "a",
+        ["F", "m"],
+        ["F/m", "F*m^-1"],
+        "F natijaviy kuch moduli,m>0,klassik/inersial;7sinfPDF73–74.",
+    ),
+    "newton_force": rule(
+        "F",
+        ["m", "a"],
+        ["m*a", "a*m"],
+        "Natijaviy kuch moduli, m>0,a>=0;7sinfPDF73–74.",
+    ),
+    "newton_mass": rule(
+        "m",
+        ["F", "a"],
+        ["F/a", "F*a^-1"],
+        "F>0,a>0 klassik inersial model;7sinfPDF73–74.",
+    ),
+    "reaction_magnitude": rule(
+        "F2",
+        ["F1"],
+        ["F1", "1*F1"],
+        "Turli jismlardagi ta’sir/aks ta’sir modullari, yo‘nalishlar teskari;7sinfPDF75–78.",
+    ),
+    "paired_acceleration": rule(
+        "a2",
+        ["m1", "a1", "m2"],
+        ["m1*a1/m2", "a1*m1/m2"],
+        "Faqat o‘zaro kuch ta’siridan tezlanish modullari, m1,m2>0;7sinfPDF78.",
+    ),
+    "centripetal_force": rule(
+        "F",
+        ["m", "v", "R"],
+        ["m*v^2/R", "m*v*v/R"],
+        "Natijaviy markazga kuch moduli, tekis aylana,m,R>0;7sinfPDF80.",
+    ),
+    "spring_force": rule(
+        "F",
+        ["k", "x"],
+        ["k*x", "x*k"],
+        "Kichik chiziqli elastik deformatsiya moduli x>=0,k>0;7sinfPDF83–85.",
+    ),
+    "spring_stiffness": rule(
+        "k",
+        ["F", "x"],
+        ["F/x", "F*x^-1"],
+        "Chiziqli elastik branch, F>0,x>0;7sinfPDF84–85.",
+    ),
+    "spring_extension": rule(
+        "x",
+        ["F", "k"],
+        ["F/k", "F*k^-1"],
+        "Chiziqli elastik branch, F>=0,k>0;7sinfPDF83–85.",
+    ),
+    "rod_stiffness": rule(
+        "k",
+        ["E", "S", "l"],
+        ["E*S/l", "S*E/l"],
+        "Bir jinsli sterjenning kichik aksial deformatsiyasi,E,S,l>0;7sinfPDF84.",
+    ),
+    "lab_stiffness": rule(
+        "k",
+        ["m", "g", "x"],
+        ["m*g/x", "g*m/x"],
+        "Tinch muvozanatdagi raqamli lab,g=10m/s2 berilgan,x,m>0;7sinfPDF86.",
+    ),
+    "mean_stiffness3": rule(
+        "k_ort",
+        ["k1", "k2", "k3"],
+        ["(k1+k2+k3)/3", "k1/3+k2/3+k3/3"],
+        "Bitta prujinaning uch musbat qaydidan o‘rtacha;7sinfPDF86–87.",
+    ),
     "rotational_linear": rule(
         "v",
         ["omega", "R"],
@@ -516,6 +588,7 @@ DIMENSION_UNIT = {
     "acceleration": "m/s2",
     "angle": "rad",
     "angular_speed": "rad/s",
+    "stiffness": "N/m",
 }
 
 
@@ -731,6 +804,40 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "newton_acceleration":
+        return value("F", "force") / positive("m", "mass"), "acceleration"
+    if name == "newton_force":
+        return positive("m", "mass") * value("a", "acceleration"), "force"
+    if name == "newton_mass":
+        return positive("F", "force") / positive("a", "acceleration"), "mass"
+    if name == "reaction_magnitude":
+        return value("F1", "force"), "force"
+    if name == "paired_acceleration":
+        return positive("m1", "mass") * value("a1", "acceleration") / positive(
+            "m2", "mass"
+        ), "acceleration"
+    if name == "centripetal_force":
+        return positive("m", "mass") * value("v", "speed") ** 2 / positive(
+            "R", "length"
+        ), "force"
+    if name == "spring_force":
+        return positive("k", "stiffness") * value("x", "length"), "force"
+    if name == "spring_stiffness":
+        return positive("F", "force") / positive("x", "length"), "stiffness"
+    if name == "spring_extension":
+        return value("F", "force") / positive("k", "stiffness"), "length"
+    if name == "rod_stiffness":
+        return positive("E", "pressure") * positive("S", "area") / positive(
+            "l", "length"
+        ), "stiffness"
+    if name == "lab_stiffness":
+        if value("g", "acceleration") != 10:
+            raise ValueError("grade7_spring_lab_g_is_10")
+        return positive("m", "mass") * 10 / positive("x", "length"), "stiffness"
+    if name == "mean_stiffness3":
+        return sum(
+            (positive(k, "stiffness") for k in ("k1", "k2", "k3")), Fraction()
+        ) / 3, "stiffness"
     if name == "rotational_linear":
         return value("omega", "angular_speed") * positive("R", "length"), "speed"
     if name in {"rotation_period", "rotation_frequency"}:

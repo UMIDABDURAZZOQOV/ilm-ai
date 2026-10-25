@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika 7-sinf §21–25:** **86/316;230qolgan**,7-sinf25/46. Yana5dars(1raqamli lab)/22karta/12formula yozuvi/5misol/35topshiriq/17FRQ; jami360karta/120formula yozuvi/92misol/559topshiriq/156FRQ,104qoidaoilasi. NewtonII/III tanlangan jism va kuch juftligini ajratadi; markazga kuch, kichik Guk/sterjen modeli,N/m birligi,g10berilgan springlab.192backendPhysics/Biologytest47.94s, actualPG1passed26.47s86lesson/860XP/legacyprogress, FlutterPhysics19passed/68publicFRQ320px/200%.220noyob original sahifa audit. Keyingi **§26PDF90/bosma97**; lokal/test only, Biology406/website/Kimyo/prodga tegilmadi.
+
+
 > **2026-10-25 — Fizika 7-sinf §16–20:** umumiy **81/316; 235 qolgan**, 7-sinf20/46. Yangi5dars/21karta/9formula yozuvi/5misol/32topshiriq/12FRQ; jami338karta/108formula yozuvi/87misol/524topshiriq/139FRQ,92qoidaoilasi. 1/s va rad/s ajratildi, explicit pi/tolerance, markazga tezlanish, kollinear kuch va massalar yig‘indisi. Backend **186passed39.89s**, actualPG16 **1passed20.62s**81lesson/810XP/legacyprogress, FlutterPhysics **19passed**,51publicFRQ320px/200% qoralamalari. /tmp/.git sabab dastlab185pass/1fail bo‘lgan xavfsiz sandbox testi alohida /dev/shm katalogida qayta o‘tdi; himoya o‘zgarmadi. Oldingi§11–15actualPG1passed16.67s va Flutter19passed ham tasdiqlandi. Keyingi **§21PDF71/bosma78**. Fizika lokal/test, nativeAndroid/mustaqil ekspert/prod tasdig‘i yo‘q.
 
 

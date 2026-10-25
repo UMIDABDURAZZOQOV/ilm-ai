@@ -79,6 +79,9 @@ UNITS = {
     "cm/s2": ("acceleration", Fraction(1, 100)),
     "rad": ("angle", Fraction(1)),
     "rad/s": ("angular_speed", Fraction(1)),
+    # Grade7 PDF84: spring stiffness and original SI-scaled answers.
+    "N/m": ("stiffness", Fraction(1)),
+    "kN/m": ("stiffness", Fraction(1000)),
 }
 UNIT_ALIASES = {
     "metr": "m",
