@@ -139,19 +139,26 @@ ORACLES_BATCH9 = {
 }
 
 
+# Full identity prevents grade7 §9/q6 from using grade6 §9/q6's answer.
+NUMERIC_ORACLES = {
+    (6, section, number): answer
+    for (section, number), answer in (
+        ORACLES
+        | ORACLES_BATCH3
+        | ORACLES_BATCH4
+        | ORACLES_BATCH5
+        | ORACLES_BATCH7
+        | ORACLES_BATCH8
+        | ORACLES_BATCH9
+    ).items()
+}
+
+
 def new_answer(lesson, q):
-    spec = q["grading_spec"]
-    if spec["kind"] == "numeric_quantity":
+    if q["grading_spec"]["kind"] == "numeric_quantity":
+        grade = int(lesson["topic_id"].split("-")[1])
         number = int(q["key"].rsplit("q", 1)[1])
-        value, unit, formula = (
-            ORACLES
-            | ORACLES_BATCH3
-            | ORACLES_BATCH4
-            | ORACLES_BATCH5
-            | ORACLES_BATCH7
-            | ORACLES_BATCH8
-            | ORACLES_BATCH9
-        )[(lesson["sequence"], number)]
+        value, unit, formula = NUMERIC_ORACLES[(grade, lesson["sequence"], number)]
         return {"value": value, "unit": unit, "formula": formula}
     return correct(q)
 

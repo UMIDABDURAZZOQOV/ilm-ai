@@ -83,6 +83,19 @@ def fingerprint(document):
     ).hexdigest()
 
 
+def public_book(grade):
+    """Bibliography only; no OCR, private source paths or answer rubrics."""
+    book = next(
+        b
+        for b in json.loads((DIRECTORY / "physics_sources.json").read_text())["books"]
+        if b["grade"] == grade
+    )
+    return {
+        key: deepcopy(book[key])
+        for key in ("id", "grade", "title", "authors", "publisher", "year")
+    }
+
+
 def require(condition, code):
     if not condition:
         raise ValueError(code)

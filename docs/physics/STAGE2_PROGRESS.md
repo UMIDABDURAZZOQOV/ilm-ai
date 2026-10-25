@@ -421,3 +421,23 @@ QA test serveri va faqat shu ish uchun yaratilgan PostgreSQL konteyneri
 to‘xtatildi; production/server/foydalanuvchiDBga tegilmadi. Sessiya
 checkpointi: **61/316;255qolgan;7-sinf§1PDF1/bosma8**. 316/316
 tugallandi deyilmasin. Keyingi davomda §1–61 noldan yozilmasin.
+
+
+## 7-sinf oldidan sinflararo poydevor — 2026-10-25
+
+Backend/FlutterHEADa40362a/ac9b3e0 va toza worktree tekshirildi.
+Catalogda additive `book` bibliografiya allowlisti(id/grade/title/authors/
+publisher/year) bor; OCR/privatepath/rubric chiqarilmaydi. Grade6 default
+API saqlandi. Flutter repositorygrade6..11 queryparametrini yuboradi,
+mos kelmaydigan grade/bookni rad etadi. Preview sinf tanlashni serverdagi
+available_grades asosida ko‘rsatadi; hardcoded6-sinf bibliografiyasi olib
+tashlandi. Sinf almashishda cancellation/generation guard, eski lesson
+key asosidagi account/origin draft izolyatsiyasi saqlanadi.
+
+Sonli test kaliti endi(grade,section,question). Boshqa sinfda bir xil
+paragraf/raqam borligi grade6javobiga fallback qilmaydi. Test qasddan
+grade7 uchun kalit yo‘qligini va mustaqil kalit ajratilishini sinaydi.
+Bu bosqich **hali61/316**: grade7dars import qilinmadi. ManbaPDF1–21
+matn/tasvirlari keyingi§1–5 muallifligi uchun qayta ko‘rildi.
+BackendoldPhysics81passed25.12s, multigrade8passed1.22s. Flutter
+analyze0issue; Physics18passed, gradepicker320px/200% regression o‘tdi.

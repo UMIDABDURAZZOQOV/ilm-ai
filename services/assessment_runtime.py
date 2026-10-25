@@ -21,7 +21,7 @@ from services.assessment_models import (
     CurriculumLessonV2,
 )
 from services.models import StudyEvent, StudySession, User
-from services.physics_curriculum import fingerprint
+from services.physics_curriculum import fingerprint, public_book
 from services.study import aware, record_activity, utcnow
 
 KIND = "assessment_v2"
@@ -85,6 +85,7 @@ def catalog(db, uid, grade=6):
         "assessment_version": 2,
         "subject": "fizika",
         "grade": grade,
+        "book": public_book(grade),
         "language": "uz",
         "publication": "local_test_preview_only",
         "source_sections": SOURCE_SECTIONS[grade],

@@ -3301,3 +3301,12 @@ sahifasi qayta ko‘rildi; `docs/physics/GRADE7_NEXT_REVIEW.md`dagi
 arifmetik va ilmiy tafovutlarni keyingi mualliflikda hisobga oling.
 §1PDF1/bosma8dan davom; hozir grade7authored0. Markaziy hujjat
 tarixi saqlandi, Kimyo branchi/veb/main/prod/AIExplainga tegilmadi.
+
+
+### Fizika7-sinf oldidan multigrade poydevori — 2026-10-25
+Cataloggrade-parametr/allowlistbibliografiya, Flutter sinf tanlash va
+grade-specificbookvalidation hamda test oracle(grade,section,q)
+kalitlari qo‘shildi.6-sinf61dars/progress o‘zgarmadi; grade7importhali0.
+Testlar: oldPhysics81passed, yangiidentity/bibliografiya8passed.
+§1–5 PDF1–21 asl matn/tasvirlari o‘qildi, mualliflik navbatda.
+Details `docs/physics/STAGE2_PROGRESS.md`. Veb/Kimyo/productionga tegilmadi.
