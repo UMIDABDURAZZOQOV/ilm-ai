@@ -875,3 +875,38 @@ Keyingi **8-sinf§16«Rezistorlar.Reostatlar.Potensiometrlar»,PDF/bosma52**.
 Avtomatik davom, oraliq ruxsat kutilmaydi. Biology406/6–7frozen darslar/
 old8§1–10/website/Kimyo/prod/AIExplain o‘zgarmadi. Fizika faqatlocaltest,
 Android/independentexpert/prodnashr tasdig‘i yo‘q.
+
+
+## 8-sinf §16–20 — 2026-10-26 (Asia/Tashkent)
+
+5 yangi dars/faoliyat: rezistor/reostat/potensiometr, Om qonuni, masalalar,
+1 raqamli laboratoriya va 1 raqamli amaliy ish. 20 karta,11 formula yozuvi,
+6 original namuna,33 topshiriq (17MCQ+5tartib+11FRQ). §16 PDF52–56,
+§17 PDF56–60,§18 PDF60–61,§19 PDF61–63,§20 PDF63–64; bosma raqamlar bir xil.
+13 asl sahifa qayta o‘qildi:355pagechecks/346noyob. 9 yangi qoida,jami180.
+I=U/R,U=IR,R=U/I va sim geometriyasi,zaryad/elektron soni,4 ta R o‘rtachasi.
+
+Ohmik element va doimiy harorat/rho sharti aniq. R=U/I nisbatini universal
+R∝U sababiy qonun deb o‘rgatilmaydi. PDF60 qizigan volfram misolining sovuq
+jadval rho bilan soddalashtirilgani reviewda ochiq:original mashqlarda rho
+sharti berilgan,haqiqiy qizigan spiral natijasi da’vo qilinmaydi. Reostatda
+faol uch/surgich tekshiriladi,universal chap/o‘ng yodlash yo‘q. §16ga sun’iy
+potensiometr formula,§20ga sonli tajriba uydirmasi qo‘shilmadi. Raqamli lab
+misollari «shartli,haqiqiy tajriba emas» deb belgilangan;manba bo‘sh jadvali
+real natija sifatida to‘ldirilmagan.
+
+Dastlab yangi testda3 assertion xatosi (unknown_symbol kodi,aslida butun1
+elektron bo‘lgan fractional probe,Shartli harf registri) tuzatildi;kontent
+javoblari o‘zgartirilmadi. Yangi test17passed1.86s. Keng Physics/Biology
+**278passed,2PGopt-in skipped63.04s**. Actual lokal PG16 **1passed28.65s**:
+127dars/import/reimport/1270XP/replay/eski137XP/3streak/2stars. FlutterPhysics
+**21passed**,48publicgrade8FRQ320px/200%. Oldingi full815backend/147Flutter
+natijalari old checkpointda; yangi fullsuite/nativeAndroid da’vosi yo‘q.
+
+**127/316;189qolgan.** 6:61/61,7:46/46,8:20/60,9:0/59,10:0/45,11:0/45.
+Jami536karta/209formula yozuvi/139namuna/840topshiriq/269FRQ.
+Keyingi **8-sinf§21«Iste’molchilarni ketma-ket ulash»,PDF/bosma64**.
+§21–25PDF64–76aslrasm/OCR qayta o‘qildi;darslar yozilmagan. PDF76dagi
+«har qanday» murakkab sxema series/parallelga keladi umumlashtirishi yangi
+kontentda cheklanadi:faqat shu usul bilan qisqaradigan misollar. Oraliq
+ruxsat kutilmaydi. Biology406/6–7/old8/website/Kimyo/prod/AIExplain saqlandi.

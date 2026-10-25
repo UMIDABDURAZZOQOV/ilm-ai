@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-26 — Fizika8§16–20:** **127/316,189qolgan**,8-sinf20/60. Yangi20karta/11formula/6namuna/33topshiriq/11FRQ,1raqamli lab+1amaliy. Jami536karta/209formula yozuvi/139namuna/840topshiriq/269FRQ,180qoida;355pagechecks/346noyob. Ohm/sim geometriyasi/elektron soni/4R o‘rtachasi;fixed-temperature va shartli lab qaydlari aniq. Physics/Biology **278passed/2PGskipped63.04s**;actualPG **1passed28.65s**,127dars/1270XP/replay/legacy;FlutterPhysics21passed48publicFRQ320px/200%. Old full815/147 alohida. Keyingi **8§21PDF64**;§21–25PDF64–76manbalari o‘qilgan,mualliflik davom. Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi;nativeAndroid/ekspert/nashr tasdiqlanmagan.
+
+
 > **2026-10-25 — Fizika8-sinf§11–15:** **122/316,194qolgan**,8-sinf15/60.21karta/16formula yozuvi/6namuna/39topshiriq/16FRQ,1raqamli lab; jami516karta/198formula/133namuna/807topshiriq/258FRQ,171qoida. U=A/q,I=q/t,A=UIt,elektronmassa,R=rho*l/S;A/mA/µA,Ω/Ω*m,mm² aniqSI. PDF40qutb/PDF45nkg ilmiy qayd,PDF51nixromjadval aslrasmdan tekshirildi.342pagechecks/334noyob. Physics/Biology **261passed/2PGskipped60.95s**,actualPG **1passed30.51s**122dars/1220XP/replay/legacy;FlutterPhysics21passed37publicFRQ320px/200%.Oldfull815backend/147Flutter alohida. Keyingi **8§16PDF52**;§16–20PDF52–64manbalari o‘qildi,muallifligi keyin. Biology406/6–7/old8/Web/Kimyo/prod/AIExplain saqlandi,lokaltestonly;Android/ekspert tasdiqlanmagan.
 
 

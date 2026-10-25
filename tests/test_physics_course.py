@@ -393,6 +393,23 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (8, 17, 5): ("30", "mA", "U/R"),
+        (8, 17, 6): ("6000", "mV", "R*I"),
+        (8, 17, 7): ("0.06", "kΩ", "U/I"),
+        (8, 17, 8): ("500", "mA", "U*S/rho/l"),
+        (8, 18, 5): ("1500", "cm", "U*S/rho/I"),
+        (8, 18, 6): ("1000", "uA", "U*S/(rho*l)"),
+        (8, 18, 7): ("900", "mV", "rho*l*I/S"),
+        (8, 18, 8): ("40", "Ω", "t*U/q"),
+        (8, 18, 9): ("4000000000000000000", "1", "U*t/R/e"),
+        (8, 19, 5): ("0.1", "kohm", "U/I"),
+        (8, 19, 6): ("100", "ohm", "(R4+R3+R2+R1)/4"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -409,11 +426,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        122,
-        194,
+        127,
+        189,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 15, 0, 0, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 20, 0, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -423,7 +440,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 21
+    assert len(load_course()) == 22
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -620,7 +637,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 1220
+        assert db.get(User, 1).xp_total == 1270
 
 
 @pytest.mark.parametrize(

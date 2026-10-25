@@ -24,6 +24,54 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "ohm_current": rule(
+        "I",
+        ["U", "R"],
+        ["U/R", "U*R^-1"],
+        "Zanjir qismi,ohmik element,doimiy harorat,R>0;PDF56–58.",
+    ),
+    "ohm_voltage": rule(
+        "U", ["I", "R"], ["I*R", "R*I"], "Ohmik element,doimiy harorat;PDF58."
+    ),
+    "ohm_resistance": rule(
+        "R",
+        ["U", "I"],
+        ["U/I", "U*I^-1"],
+        "I>0;R=U/I o‘lchangan nisbat,universal R∝U qonuni emas;PDF58,62.",
+    ),
+    "ohm_wire_current": rule(
+        "I",
+        ["U", "S", "rho", "l"],
+        ["U*S/(rho*l)", "U*S/rho/l"],
+        "Bir jinsli sim,doimiy berilgan rho/harorat,l,S>0;PDF58,60.",
+    ),
+    "ohm_wire_length": rule(
+        "l",
+        ["U", "S", "rho", "I"],
+        ["U*S/(rho*I)", "U*S/rho/I"],
+        "Bir jinsli sim,doimiy berilgan rho/harorat;PDF60.",
+    ),
+    "ohm_wire_voltage": rule(
+        "U",
+        ["I", "rho", "l", "S"],
+        ["I*rho*l/S", "rho*l*I/S"],
+        "Bir jinsli sim,doimiy berilgan rho/harorat;PDF60.",
+    ),
+    "ohm_charge_resistance": rule(
+        "R", ["U", "t", "q"], ["U*t/q", "t*U/q"], "Doimiy tok va U,q>0,t>0,I=q/t;PDF61."
+    ),
+    "ohm_electron_count": rule(
+        "n",
+        ["U", "t", "R", "e"],
+        ["U*t/(R*e)", "U*t/R/e"],
+        "Ohmik element,e1.6e-19C va butun elektron soni;PDF61.",
+    ),
+    "mean_resistance4": rule(
+        "Ravg",
+        ["R1", "R2", "R3", "R4"],
+        ["(R1+R2+R3+R4)/4", "(R4+R3+R2+R1)/4"],
+        "To‘rt shartli yoki mavjud qayd arifmetik o‘rtachasi,haqiqiy tajriba da’vosi emas;PDF62.",
+    ),
     "voltage_work": rule(
         "U", ["A", "q"], ["A/q", "A*q^-1"], "q>0 zaryad moduli,U ish/zaryad;PDF39."
     ),
@@ -1185,6 +1233,44 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "ohm_current":
+        return value("U", "voltage") / positive("R", "resistance"), "current"
+    if name == "ohm_voltage":
+        return value("I", "current") * positive("R", "resistance"), "voltage"
+    if name == "ohm_resistance":
+        return positive("U", "voltage") / positive("I", "current"), "resistance"
+    if name == "ohm_wire_current":
+        return value("U", "voltage") * positive("S", "area") / (
+            positive("rho", "resistivity") * positive("l", "length")
+        ), "current"
+    if name == "ohm_wire_length":
+        return positive("U", "voltage") * positive("S", "area") / (
+            positive("rho", "resistivity") * positive("I", "current")
+        ), "length"
+    if name == "ohm_wire_voltage":
+        return value("I", "current") * positive("rho", "resistivity") * positive(
+            "l", "length"
+        ) / positive("S", "area"), "voltage"
+    if name == "ohm_charge_resistance":
+        return positive("U", "voltage") * positive("t", "time") / positive(
+            "q", "charge"
+        ), "resistance"
+    if name == "ohm_electron_count":
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_elementary_charge_magnitude")
+        count = (
+            value("U", "voltage")
+            * value("t", "time")
+            / (positive("R", "resistance") * e)
+        )
+        if count.denominator != 1:
+            raise ValueError("whole_particle_count")
+        return count, "dimensionless"
+    if name == "mean_resistance4":
+        return sum(
+            (positive(k, "resistance") for k in ["R1", "R2", "R3", "R4"]), Fraction()
+        ) / 4, "resistance"
     if name == "voltage_work":
         return value("A", "energy") / positive("q", "charge"), "voltage"
     if name == "electric_work":

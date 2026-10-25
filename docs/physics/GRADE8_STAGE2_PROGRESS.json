@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 122,
-  "remaining": 194,
+  "authored": 127,
+  "remaining": 189,
   "grades": [
     {
       "grade": 6,
@@ -36,16 +36,16 @@
     {
       "grade": 8,
       "source_sections": 60,
-      "authored": 15,
-      "remaining": 45,
-      "cards": 66,
-      "formula_entries": 34,
-      "examples": 19,
-      "assessments": 109,
-      "frq": 37,
-      "laboratories": 1,
-      "practicals": 0,
-      "next_section": 16
+      "authored": 20,
+      "remaining": 40,
+      "cards": 86,
+      "formula_entries": 45,
+      "examples": 25,
+      "assessments": 142,
+      "frq": 48,
+      "laboratories": 2,
+      "practicals": 1,
+      "next_section": 21
     },
     {
       "grade": 9,
@@ -90,21 +90,21 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 342,
-  "date": "2026-10-25",
+  "original_page_checks": 355,
+  "date": "2026-10-26",
   "next": {
     "grade": 8,
-    "section": 16,
-    "pdf_page": 52,
-    "printed_page": 52
+    "section": 21,
+    "pdf_page": 64,
+    "printed_page": 64
   },
-  "unique_original_pages_reviewed": 334,
+  "unique_original_pages_reviewed": 346,
   "tests": {
-    "selected_backend_and_biology_passed": 261,
+    "selected_backend_and_biology_passed": 278,
     "selected_opt_in_skipped": 2,
-    "backend_seconds": 60.95,
+    "backend_seconds": 63.04,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 30.51,
+    "postgresql_seconds": 28.65,
     "flutter_physics_passed": 21,
     "previous_full_backend_passed": 815,
     "previous_full_flutter_passed": 147
