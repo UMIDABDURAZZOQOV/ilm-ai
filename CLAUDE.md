@@ -3284,3 +3284,17 @@ Yakuniy normal `main.dart` release JS web build ham o‘tdi (49.3s,
 `--no-web-resources-cdn --no-wasm-dry-run`). Current build/web/main.dart.js
 private sandbox JWT’ni o‘z ichiga olmaydi. Bu production deploy yoki WASM/native
 Android build emas. Temporary QA server/konteynerlari tekshiruvdan keyin to‘xtatiladi.
+
+
+### Fizika6-sinf checkpoint — 2026-10-25
+
+Backend047c639 / Flutterac9b3e0 GitHubga yuborildi;6-sinf61/61,
+umumiy61/316 va255qolgan. HaqiqiyPG4passed292.04s, actualHTTP
+61dars/394javob/88FRQ/610XP. Biology/progress/old35dars o‘zgarmadi.
+Birinchi full backend731passed/1outdated-assertion-failed/4skipped;
+test tuzatildi va27targetedpassed, to‘liq rerun natijasi hali pending.
+Flutter143passed/analyze0issue/webrelease51.5s.7-sinf birinchi7PDF
+sahifasi qayta ko‘rildi; `docs/physics/GRADE7_NEXT_REVIEW.md`dagi
+arifmetik va ilmiy tafovutlarni keyingi mualliflikda hisobga oling.
+§1PDF1/bosma8dan davom; hozir grade7authored0. Markaziy hujjat
+tarixi saqlandi, Kimyo branchi/veb/main/prod/AIExplainga tegilmadi.

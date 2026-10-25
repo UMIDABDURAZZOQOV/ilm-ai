@@ -370,3 +370,35 @@ grade tanlash va to‘g‘ri bibliografiya bilan testlang. Sonli oracles hozir
 qo‘shing, aks holda sinflar savol kalitlari to‘qnashadi. Runtime catalog
 grade6..11 parametri mavjud. Production/AIExplain/yashirin fanlar yoqilmasin.
 Oldingi partiyalarni qayta yaratish yoki ommaviy PDF commit qilish kerak emas.
+
+
+## Saqlangan checkpoint va keng tekshiruv — 2026-10-25
+
+Backend **047c639**, Flutter **ac9b3e0** GitHub feature HEADlari; optics
+backend6305313/Flutterbefb294. Branchlar oldingidek; main/productionga tegilmadi.
+Haqiqiy PostgreSQL16: **4 passed292.04s** — eski7 migratsiya/concurrency,
+barcha61 import/reimport/610XP, legacy137XP/3streak/2stars hamda
+OAuth/Biology406+47checkpoint tekshirildi. HTTP61/394/88FRQ/610XP o‘tdi.
+
+Birinchi keng backend run **731passed/1failed/4skipped/13warning268.50s**:
+faqat yangi61dars sabab grade_content_complete=true bo‘lganini eskicha
+false kutgan test yiqildi. Bu test tuzatilib sound/course27passed bilan
+qayta tasdiqlandi. To‘liq run ham tuzatishdan keyin yana ishga tushirildi;
+uning natijasi alohida final tekshiruv qaydida, tugashidan oldin success
+deyilmaydi. Keng Flutter143passed, analyze0issue, webbuild51.5s.
+
+Oldingi35 kontent/review fayli, source-map va Biology kontent diffi bo‘sh.
+`--dry-run --all-reviewed`61lessonni validatsiya qildi.7-sinf§1–2
+PDF1–7/bosma8–14 to‘liq matn/tasviri ko‘rildi, lekin darslar hali
+yozilmadi; **61/316** sanoq o‘zgarmadi. Yangi `GRADE7_NEXT_REVIEW.md`
+PDF5/bosma12dagi4300yil vs4,32millionyil arifmetik tafovuti, cheksiz fazo
+da’vosi va tarixiy sekund ta’rifi kabi muammolarni aniq saqlaydi.
+
+Keyingi sessiya avval GitHub/worktree va shu hujjatning eng oxirgi
+qaydini tekshirsin; backend test logi private
+`/workspace/.setup/physics-stage2/backend-grade6-retest.log`, PG
+`postgres-grade6-final.log`, audit `audit-grade6-final.json`. Eski sessiya
+logini yangi test natijasi deb sanamang. PrivatePDF, QAJWT yoki
+DB credential commit qilinmasin.7-sinf§1 muallifligidan davom etilsin;
+§1–61 qayta yaratilmasin. Flutter gradepicker/bibliografiya va grade-aware
+numeric oracle keylari birinchi7-sinf importidan oldin zarur.
