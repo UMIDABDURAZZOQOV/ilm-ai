@@ -24,6 +24,24 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "load_current3": rule(
+        "I",
+        ["P1", "P2", "P3", "U"],
+        ["(P1+P2+P3)/U", "(P3+P2+P1)/U"],
+        "Uch parallel doimiy yuk,berilgan iste’mol quvvatlar,umumiy U>0;PDF111.",
+    ),
+    "parallel_heat2": rule(
+        "Q2",
+        ["Q1", "R1", "R2"],
+        ["Q1*R1/R2", "R1*Q1/R2"],
+        "Bir xil U,t,ohmik rezistiv parallel elementlar;PDF112upper21-mashq4.",
+    ),
+    "series_heat2": rule(
+        "Q2",
+        ["Q1", "R1", "R2"],
+        ["Q1*R2/R1", "R2*Q1/R1"],
+        "Bir xil I,t,ohmik rezistiv ketma-ket elementlar;PDF112upper21-mashq5.",
+    ),
     "electric_power": rule(
         "P", ["I", "U"], ["I*U", "U*I"], "Doimiy tok/berilgan ishlash nuqtasi;PDF90–91."
     ),
@@ -1457,6 +1475,14 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "load_current3":
+        return sum(
+            (value(k, "power") for k in ["P1", "P2", "P3"]), Fraction()
+        ) / positive("U", "voltage"), "current"
+    if name in {"parallel_heat2", "series_heat2"}:
+        q = value("Q1", "energy")
+        a, b = positive("R1", "resistance"), positive("R2", "resistance")
+        return (q * a / b if name == "parallel_heat2" else q * b / a), "energy"
     if name == "electric_power":
         return value("I", "current") * value("U", "voltage"), "power"
     if name == "electric_power_current":

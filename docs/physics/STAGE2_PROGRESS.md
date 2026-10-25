@@ -1017,3 +1017,45 @@ jumlalari jiddiy xavfsizlik review talab qiladi;DIY yoki xavfsizlikkafolati
 sifatida takrorlanmasin,faqat raqamli konseptual dars. Qaytmas amal/soxta
 fakt kerak emas,oraliq tasdiq kutilmaydi. Biology406/6–7/old8/Web/Kimyo/
 prod/AIExplain saqlandi;faqat lokal/test preview,umumiy nashr yo‘q.
+
+
+## 8-sinf §36–40 — 2026-10-26 (Asia/Tashkent)
+
+Isitgich tatbiqlari,xonadon sxemalari,elektr xavfsizligi,masalalar va
+metallarda tok:5bo‘lim/20karta/5formula yozuvi/5namuna/32topshiriq
+(22MCQ+5tartib+5FRQ). §36PDF102–104,§37PDF104–108,§38PDF108–111,
+§39PDF111+112yuqori21-mashq,§40PDF115–117. Bosma raqamlar teng.
+14asl sahifa tekshirildi:408pagechecks/395noyob.3yangi qoida,jami223.
+
+Eski map§39PDFend111saqlandi;asl112yuqoridagi21-mashq tugashi chapterreview
+sarlavhasidan oldin ko‘rildi. Faqat shu(book,topic,page112) uchun mavjud
+SOURCE_CONTINUATIONS mexanizmi bilan extent_note talab qilinadi;qo‘shni
+mavzuga sahifani noqonuniy biriktirish yoki note yo‘qligi testda rad etiladi.
+Umumiy citation cheklovi bo‘shatilmadi. Q2parallel/seriesratio,bitta sim
+bo‘lagining voltage-dropi va uch doimiy yuk hisoblari originalmodel.
+
+**Muhim safety review:** PDF105neutral doim voltagefree,PDF106pastdagi
+sim doimneutral,PDF107polarityirrelevant,PDF108neutral/faza switchinterchangeable,
+PDF10942Vuniversalthreshold,PDF110livephaseinsulatedstance jumlalari
+amaliy ko‘rsatma yoki kafolat sifatida berilmadi. Saqlagichortiqcha tokni
+uzadi,barcha shockdan universalhimoya deyilmaydi. Faqat digital sxema,
+xavfni tanish/tegmaslik/yordamchaqirish;wire-stripping/socket/indicator probe,
+jonli montaj yoki tibbiy reanimatsiya protokoli topshirilmaydi. §37–38review
+metadata electrical-safety expertni **generalpublicationdan oldin required**
+deb belgilaydi. Bu talab bajarildi deyilmaydi. Ampacity jadvali universal
+realdesign talabi sifatida qo‘llanmadi. Metallarda elektron drift va
+shartli tok yo‘nalishi,termikharakat alohida;sun’iy FRQ37/38/40yo‘q.
+
+Yangi test **11passed1.34s**. Physics/Biology **345passed,2PGopt-in skipped
+75.58s**. Actual lokalPG16 **1passed34.58s**:147dars/import/reimport/1470XP,
+replay,legacy137XP/3streak/2stars. FlutterPhysics **21passed**,100public8FRQ
+320px/200%. Oldfull890backend/147Flutter/analyze natijalari alohida;yangidan
+full923deb da’vo qilinmaydi. NativeAndroid/independentexpert bajarilmagan.
+
+**147/316;169qolgan**.6:61/61,7:46/46,8:40/60,9:0/59,10:0/45,11:0/45.
+Jami619karta/261formula yozuvi/160namuna/979topshiriq/321FRQ.
+Keyingi **8-sinf§41«Suyuqliklarda elektr toki»,PDF/bosma117**. §41–45ning
+PDF117–129OCR/aslrasmlari qayta o‘qildi,darslari hali yozilmagan. NaClaq
+sodium deposition/atomic-vs-molar mass/source empiricalk tafovutlari
+keyingireviewda ajratilsin;wetchemistry DIY qo‘shilmasin. Oraliq tasdiq
+kutilmaydi. Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi.
