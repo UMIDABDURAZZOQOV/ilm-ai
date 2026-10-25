@@ -109,7 +109,11 @@ def test_reviewed_first_paragraph_has_real_taught_facts_mcq_and_frq():
 
 
 def test_unresolved_source_contradiction_blocks_authorship_even_with_a_review_file():
-    c=load_catalog();l=deepcopy(load_lessons()[0])
+    c=deepcopy(load_catalog());l=deepcopy(load_lessons()[0])
+    source=next(r for r in c['books'][2]['records'] if r['id']=='ch9-paragraph40')
+    source['source_review_hold']['status']='open'
+    source['fact_review_status']='blocked_source_conflict'
+    source.pop('reviewed_erratum_ids',None)
     l.update(book_id=c['books'][2]['id'],grade=9,topic_id='ch9-paragraph40')
     with pytest.raises(ValueError,match='unresolved_source_review_issue'):
         validate_lesson(c,l,read_json(DIRECTORY/'grade7_paragraph01_review.json'))

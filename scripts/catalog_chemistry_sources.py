@@ -60,6 +60,8 @@ def write_maps(catalog, progress, lessons=()):
                 status += '; scoped editorial review remains open'
             if r.get('source_review_hold',{}).get('status') == 'open':
                 status = 'blocked: source review ' + r['source_review_hold']['id']
+            elif r.get('reviewed_erratum_ids'):
+                status += '; reviewed erratum ' + ', '.join(r['reviewed_erratum_ids'])
             lines.append(f"| `{r['id']}` | {r['kind']} {r.get('number') or ''} | {r['title'].replace('|', '/')} | {r['printed_start']}–{r['printed_end']} | {location} | {r.get('toc_printed_start') or 'body only'} | {status} | {', '.join(r['prerequisite_ids']) or '—'} |")
         (folder / f"grade_{grade}_map.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -90,6 +92,8 @@ def main():
               "open_editorial_review_issues": sum(i.get('status') == 'open_review'
                                                  for b in catalog['books'] for r in b['records']
                                                  for i in r.get('editorial_review_issues', [])),
+              "reviewed_errata": sum(len(r.get('reviewed_erratum_ids', []))
+                                     for b in catalog['books'] for r in b['records']),
               "full_fact_formula_review_complete": False}
     if args.pdf_dir:
         result["original_pdf_pages_decoded"] = audit_originals(catalog, args.pdf_dir)

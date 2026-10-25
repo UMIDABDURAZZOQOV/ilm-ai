@@ -10,6 +10,8 @@ import json
 import re
 from pathlib import Path
 
+from services.chemistry_errata import validate_fact_erratum, validate_question_erratum, validate_resolution
+
 ROOT = Path(__file__).resolve().parents[1]
 DIRECTORY = ROOT / "scripts/curriculum/chemistry"
 SOURCE_PATH = DIRECTORY / "chemistry_sources.json"
@@ -222,11 +224,18 @@ def validate_catalog(catalog):
                             and i.get('status') == 'open_review'
                             for i in r.get('editorial_review_issues', [])),
                         'known_editorial_issue_must_remain_visible')
-            if r['id'] in KNOWN_SOURCE_HOLDS and (
-                    r.get('source_review_hold',{}).get('id') != KNOWN_SOURCE_HOLDS[r['id']]
-                    or r.get('source_review_hold',{}).get('status') != 'open'
-                    or r.get('fact_review_status') != 'blocked_source_conflict'):
-                raise ValueError('known_source_conflict_must_remain_on_review_hold')
+            if r['id'] in KNOWN_SOURCE_HOLDS:
+                hold = r.get('source_review_hold', {})
+                require(hold.get('id') == KNOWN_SOURCE_HOLDS[r['id']],
+                        'known_source_conflict_must_remain_on_review_hold')
+                if hold.get('status') == 'open':
+                    require(r.get('fact_review_status') == 'blocked_source_conflict'
+                            and not r.get('reviewed_erratum_ids'),
+                            'known_source_conflict_must_remain_on_review_hold')
+                else:
+                    validate_resolution(catalog, r)
+            else:
+                require(not r.get('reviewed_erratum_ids'), 'unsupported_source_erratum')
             if (r.get("source_id") != book["id"] or r.get("source_sha256") != digest
                     or r.get("source_file") != book["file_name"]):
                 raise ValueError("record_source_identity_mismatch")
@@ -253,6 +262,15 @@ def validate_catalog(catalog):
 
 def load_catalog():
     return validate_catalog(read_json(SOURCE_PATH))
+
+
+def source_is_blocked(catalog, record):
+    if record.get('id') in KNOWN_SOURCE_HOLDS:
+        if record.get('source_review_hold', {}).get('status') == 'open':
+            return True
+        validate_resolution(catalog, record)
+        return False
+    return record.get('source_review_hold', {}).get('status') == 'open'
 
 
 def source_review_issues(book):
@@ -336,8 +354,7 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
     require(book is not None and lesson["grade"] == book["grade"], "lesson_book_mismatch")
     topic = next((r for r in book["records"] if r["id"] == lesson["topic_id"]), None)
     require(topic and topic["kind"] in TEACHING_KINDS, "source_topic_required")
-    require(topic['id'] not in KNOWN_SOURCE_HOLDS and
-            topic.get('source_review_hold',{}).get('status') != 'open',
+    require(not source_is_blocked(catalog, topic),
             'unresolved_source_review_issue')
     require(lesson.get("sequence") == topic["sequence"] and
             lesson.get("prerequisite_ids") == topic["prerequisite_ids"], "lesson_order_mismatch")
@@ -355,8 +372,7 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         for identifier in linked:
             record = records.get(identifier)
             require(record and identifier not in allowed_sources
-                    and identifier not in KNOWN_SOURCE_HOLDS
-                    and record.get('source_review_hold', {}).get('status') != 'open',
+                    and not source_is_blocked(catalog, record),
                     'unknown_or_blocked_linked_source')
             context_book = source_books[identifier]
             if context_book['id'] != book['id']:
@@ -440,6 +456,7 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         require(type(f.get("claim")) is str and f["claim"] and f.get("verified_answers")
                 and all(type(a) is str and a for a in f["verified_answers"]), "fact_answer_evidence_required")
         source_refs(f.get("source_refs"))
+        validate_fact_erratum(catalog, f, pages)
         if any(r['topic_id'] == 'ch7-paragraph13' for r in f['source_refs']):
             require(not any(UNRESOLVED_PERCENTAGES.search(a) for a in f['verified_answers']),
                     'unresolved_source_percentage_cannot_be_an_answer')
@@ -848,6 +865,7 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         ids = fact_links(q)
         require(ids <= taught, "question_fact_not_taught")
         public, spec = q["public"], q["grading_spec"]
+        validate_question_erratum(q, facts)
         if any(r['topic_id'] == 'ch7-paragraph24' for r in q['source_refs']):
             require(public.get('unit') not in {'kJ', 'kJ/mol'},
                     'unresolved_heat_sign_cannot_be_an_answer')

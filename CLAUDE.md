@@ -2803,3 +2803,12 @@ Chemistry branches; preserve other subjects, real users and original §1.
 Earlier-grade source context requires an already digest-reviewed/validated teaching
 record and its own book SHA/bibliography/page/region;never relabel an earlier
 book as current. Future/unreviewed/container links fail. See Chemistry contract.
+
+User erratum instruction2026-10-25: do not stop a paragraph/course for one
+independently resolvable textbook error. Compare original supplied pages and
+record a finite `reviewed_erratum`; keep the original discrepancy visible.
+Use controlled, tested source validation for corrected facts/questions, never
+disable it or import uncertain keys. Grade9§40/186 Be/CaII and ClVIIA,
+outer3s2 3p5 correction is explicitly authorized and source-corroborated.
+See docs/chemistry/REVIEWED_ERRATA.md and REQUIREMENTS.md. Do not repeatedly ask
+for new PDFs for small errors; escalate only substantial unresolved conflicts.

@@ -59,7 +59,13 @@ def test_cross_grade_bibliography_and_page_forgery_rejected(field,value,error):
 def test_future_unreviewed_container_and_blocked_sources_cannot_be_context(identifier,error):
     l=deepcopy(read_json(DIRECTORY/'grade9_paragraph01.json'));r=read_json(DIRECTORY/'grade9_paragraph01_review.json')
     l['source_context_ids']=[identifier]
-    with pytest.raises(ValueError,match=error):validate_lesson(load_catalog(),l,r)
+    catalog=deepcopy(load_catalog())
+    if identifier=='ch9-paragraph40':
+        source=next(s for s in catalog['books'][2]['records'] if s['id']==identifier)
+        source['source_review_hold']['status']='open'
+        source['fact_review_status']='blocked_source_conflict'
+        source.pop('reviewed_erratum_ids',None)
+    with pytest.raises(ValueError,match=error):validate_lesson(catalog,l,r)
 
 
 def test_context_must_exist_in_validated_manifest_prefix():

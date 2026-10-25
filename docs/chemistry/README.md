@@ -20,6 +20,7 @@ components for MCQ, short text, fixed-unit numbers, formulas and equations.
 course-ready flags remain false. No AI feature added.
 
 - [Source review](SOURCE_REVIEW.md)
+- [Controlled reviewed errata](REVIEWED_ERRATA.md)
 - [Exact progress](CURRICULUM_PROGRESS.md)
 - [Continuation checkpoint](CHECKPOINT.md)
 - [Current input/grading contract](ASSESSMENT_CONTRACT.md)

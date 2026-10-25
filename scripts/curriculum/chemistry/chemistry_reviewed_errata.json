@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "subject": "kimyo",
+  "errata": [
+    {
+      "id": "ch9-p40-page186-reviewed-configuration-erratum",
+      "status": "reviewed_erratum",
+      "resolves_hold_id": "ch9-p40-page186-configuration-conflict",
+      "topic_id": "ch9-paragraph40",
+      "affected_printed_pages": [
+        186
+      ],
+      "affected_pdf_pages": [
+        186
+      ],
+      "affected_regions": [
+        "full"
+      ],
+      "source_sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+      "original_discrepancy": "The sample groupsBe,Cl,Ca togetherasII; the followingCl prose omits3p5 although the displayed full configuration includes it.",
+      "review_method": "original_page_images_and_independent_supplied_passage_comparison",
+      "reviewer": "Codex original-image comparison;not independent teacher sign-off",
+      "reviewed_on": "2026-10-25",
+      "authorization": {
+        "kind": "explicit_user_erratum_instruction",
+        "date": "2026-10-25",
+        "scope": "Permit this exact source-corroborated correction; preserve uncertainty holds and all other source controls."
+      },
+      "notation_scope": "Assessed group labels use the supplied books I–VIII main-subgroup notation. User also explicitly confirmed modernCl group17 equivalence; no outside source is substituted.",
+      "corrections": [
+        {
+          "id": "be_group",
+          "corrected_claim": "Be belongs to the main subgroupII (IIA).",
+          "verified_values": [
+            "Be",
+            "II",
+            "IIA",
+            "2"
+          ],
+          "required_evidence": [
+            {
+              "topic_id": "ch9-paragraph01",
+              "printed_page": 9
+            },
+            {
+              "topic_id": "ch8-paragraph11",
+              "printed_page": 49
+            }
+          ]
+        },
+        {
+          "id": "be_outer_configuration",
+          "corrected_claim": "Be outer configuration is2s2; full1s2 2s2.",
+          "verified_values": [
+            "Be",
+            "2s2",
+            "1s2 2s2",
+            "2",
+            "4"
+          ],
+          "required_evidence": [
+            {
+              "topic_id": "ch8-paragraph11",
+              "printed_page": 49
+            }
+          ]
+        },
+        {
+          "id": "ca_group",
+          "corrected_claim": "Ca belongs to the main subgroupII (IIA).",
+          "verified_values": [
+            "Ca",
+            "II",
+            "IIA",
+            "2"
+          ],
+          "required_evidence": [
+            {
+              "topic_id": "ch9-paragraph23",
+              "printed_page": 109
+            }
+          ]
+        },
+        {
+          "id": "ca_outer_configuration",
+          "corrected_claim": "Ca outer configuration is4s2; full1s2 2s2 2p6 3s2 3p6 4s2.",
+          "verified_values": [
+            "Ca",
+            "4s2",
+            "1s2 2s2 2p6 3s2 3p6 4s2",
+            "2",
+            "20"
+          ],
+          "required_evidence": [
+            {
+              "topic_id": "ch8-paragraph12",
+              "printed_page": 52
+            },
+            {
+              "topic_id": "ch9-paragraph23",
+              "printed_page": 109
+            }
+          ]
+        },
+        {
+          "id": "cl_group",
+          "corrected_claim": "Cl belongs to main subgroupVII (VIIA), notII.",
+          "verified_values": [
+            "Cl",
+            "VII",
+            "VIIA",
+            "7"
+          ],
+          "required_evidence": [
+            {
+              "topic_id": "ch9-paragraph01",
+              "printed_page": 11
+            },
+            {
+              "topic_id": "ch8-paragraph23",
+              "printed_page": 96
+            }
+          ]
+        },
+        {
+          "id": "cl_outer_configuration",
+          "corrected_claim": "Cl outer configuration is3s2 3p5; full1s2 2s2 2p6 3s2 3p5;Z17.",
+          "verified_values": [
+            "Cl",
+            "3s2 3p5",
+            "1s2 2s2 2p6 3s2 3p5",
+            "7",
+            "17",
+            "3",
+            "5",
+            "2"
+          ],
+          "required_evidence": [
+            {
+              "topic_id": "ch9-paragraph01",
+              "printed_page": 11
+            },
+            {
+              "topic_id": "ch8-paragraph23",
+              "printed_page": 96
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph40",
+          "topic_title": "Davriy qonun va elementlar davriy sistemasining ahamiyati",
+          "paragraph": 40,
+          "printed_pages": [
+            186
+          ],
+          "pdf_pages": [
+            186
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph40-page186",
+          "page_image_sha256": "8c313c8d4827ee007c0fd932a92cf737bda0e09af720f804ebb5d2ad2ab22221",
+          "reviewed_on": "2026-10-25"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph01",
+          "topic_title": "Elementlar davriy sistemasi va davriy qonuni",
+          "paragraph": 1,
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [
+            9
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph01-page09",
+          "page_image_sha256": "22c310291a8d92cdfbc581f03c0eabfaa09567919e95b474bfb66dc16491c836",
+          "reviewed_on": "2026-10-25"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph01",
+          "topic_title": "Elementlar davriy sistemasi va davriy qonuni",
+          "paragraph": 1,
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            11
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph01-page11",
+          "page_image_sha256": "8ed91817b8c71e57eaf19e7e815901fbcb2655133ee9ed9d4c21e3c0ff3c0eae",
+          "reviewed_on": "2026-10-25"
+        },
+        {
+          "book_id": "chemistry-9-uz-2019",
+          "book_title": "Kimyo 9",
+          "authors": [
+            "I.R. Asqarov",
+            "K.G‘. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_9_uzb.pdf",
+          "sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
+          "topic_id": "ch9-paragraph23",
+          "topic_title": "Kalsiy va magniy",
+          "paragraph": 23,
+          "printed_pages": [
+            109
+          ],
+          "pdf_pages": [
+            109
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch9-paragraph23-page109",
+          "page_image_sha256": "5b6686262c01a397f53de2b16307b4c3a80663e13e7cb6ae6746ea23786f8919",
+          "reviewed_on": "2026-10-25"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph11",
+          "topic_title": "Kichik davr elementlarining atom tuzilishi",
+          "paragraph": 11,
+          "printed_pages": [
+            49
+          ],
+          "pdf_pages": [
+            49
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph11-page49",
+          "page_image_sha256": "e7a49b470b0a60cc3025b25608cdbe58292f211fd4197d8fc9d8687c07bb41d8",
+          "reviewed_on": "2026-10-25"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph12",
+          "topic_title": "Katta davr elementlarining atom tuzilishi",
+          "paragraph": 12,
+          "printed_pages": [
+            52
+          ],
+          "pdf_pages": [
+            52
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph12-page52",
+          "page_image_sha256": "a99554a5dd6290ee0705238e31db25cec250ab01e39121f493dea4f6690064f5",
+          "reviewed_on": "2026-10-25"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph23",
+          "topic_title": "Xlor",
+          "paragraph": 23,
+          "printed_pages": [
+            96
+          ],
+          "pdf_pages": [
+            96
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph23-page96",
+          "page_image_sha256": "6fd4a63b3342210fefce0649411f2274ca8f3f4ebe330478c45b47e14cd47051",
+          "reviewed_on": "2026-10-25"
+        }
+      ]
+    }
+  ]
+}

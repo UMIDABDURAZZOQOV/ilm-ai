@@ -1,0 +1,41 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "completed_lessons_preserved": 168,
+  "xp_preserved": 3360,
+  "grade_catalog_counts": {
+    "7": 74,
+    "8": 59,
+    "9": 35
+  },
+  "all_prior_states_completed": true,
+  "private_rubrics_hidden": true,
+  "added_lessons": 0,
+  "added_xp": 0,
+  "production_operations": false,
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 168,
+  "remaining_lessons": 100,
+  "backend_tests": {
+    "passed": 1330,
+    "skipped": 1,
+    "seconds": 1913.44,
+    "warning": "existing Starlette deprecation"
+  },
+  "targeted_source_tests": {
+    "passed": 80,
+    "seconds": 13.09
+  },
+  "new_erratum_tests": {
+    "passed": 34,
+    "seconds": 2.31
+  },
+  "all_168_lesson_hashes_preserved": true,
+  "original_grade7_paragraph1_preserved": true,
+  "open_source_holds": 0,
+  "open_editorial_issues": 120,
+  "reviewed_errata": 1,
+  "flutter_runtime_changed": false,
+  "flutter_baseline": "batch33:530 tests;0 analysis issues;3 source widgets;8 inspected captures",
+  "teacher_signoff": false
+}

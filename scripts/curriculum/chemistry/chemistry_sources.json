@@ -12884,7 +12884,7 @@
           "source_file": "kimyo_9_uzb.pdf",
           "source_sha256": "ee3695eeb0598016629cc370dfcb0c73836250cf594f4d5d0cb2a06ea40c7386",
           "title_original": "Davriy qonun va elementlar davriy sistemasining ahamiyati",
-          "fact_review_status": "blocked_source_conflict",
+          "fact_review_status": "reviewed_with_erratum",
           "end_boundary": {
             "record_id": "ch9-paragraph41",
             "printed_page": 189,
@@ -12892,7 +12892,7 @@
           },
           "source_review_hold": {
             "id": "ch9-p40-page186-configuration-conflict",
-            "status": "open",
+            "status": "resolved_by_reviewed_erratum",
             "kind": "internal_scientific_contradiction",
             "printed_pages": [
               186
@@ -12901,8 +12901,14 @@
               186
             ],
             "region": "full",
-            "note": "Worked example prose and displayed outer configurations disagree; see SOURCE_REVIEW.md. No affected lesson may be imported until an explicit source-backed review resolves the hold."
-          }
+            "note": "Worked example prose and displayed outer configurations disagree; see SOURCE_REVIEW.md. No affected lesson may be imported until an explicit source-backed review resolves the hold.",
+            "original_status": "open",
+            "resolution_id": "ch9-p40-page186-reviewed-configuration-erratum",
+            "resolved_on": "2026-10-25"
+          },
+          "reviewed_erratum_ids": [
+            "ch9-p40-page186-reviewed-configuration-erratum"
+          ]
         },
         {
           "kind": "paragraph",

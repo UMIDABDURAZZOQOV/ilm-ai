@@ -54,7 +54,7 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-chapter05` | chapter 5 | Noorganik kimyodan olgan bilimlarni umumlashtirish | 177–192 | 177:full – 192:full | 177 | not_authored | — |
 | `ch9-paragraph38` | paragraph 38 | Kimyoviy ishlab chiqarish istiqbollari | 177–180 | 177:full – 180:full | 177 | not_authored | ch9-paragraph37 |
 | `ch9-paragraph39` | paragraph 39 | Atmosfera va gidrosferani muhofaza qilish | 180–185 | 180:full – 185:full | 180 | not_authored | ch9-paragraph38 |
-| `ch9-paragraph40` | paragraph 40 | Davriy qonun va elementlar davriy sistemasining ahamiyati | 185–189 | 185:full – 189:full | 185 | blocked: source review ch9-p40-page186-configuration-conflict | ch9-paragraph39 |
+| `ch9-paragraph40` | paragraph 40 | Davriy qonun va elementlar davriy sistemasining ahamiyati | 185–189 | 185:full – 189:full | 185 | not_authored; reviewed erratum ch9-p40-page186-reviewed-configuration-erratum | ch9-paragraph39 |
 | `ch9-paragraph41` | paragraph 41 | Kimyoviy reaksiyalarning kimyoviy ishlab chiqarishdagi ahamiyati | 189–192 | 189:full – 192:full | 189 | not_authored | ch9-paragraph40 |
 | `ch9-practicals` | activity_collection  | Amaliy mashg‘ulotlar | 192–195 | 192:full – 195:full | 192 | not_authored | — |
 | `ch9-practical01` | practical 1 | Uglerod (IV)-oksid hosil qilish va uning xossalari bilan tanishish | 192–193 | 192:full – 193:full | 192 | not_authored | ch9-paragraph41 |
