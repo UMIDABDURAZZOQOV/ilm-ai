@@ -117,6 +117,13 @@ UNITS = {
     "nF": ("capacitance", Fraction(1, 10**9)),
     "pF": ("capacitance", Fraction(1, 10**12)),
     "F/m": ("permittivity", Fraction(1)),
+    # Grade8 PDF91–92: power and metered energy; prefixes remain case-sensitive.
+    "hW": ("power", Fraction(100)),
+    "Wh": ("energy", Fraction(3600)),
+    "kWh": ("energy", Fraction(3600000)),
+    "hWh": ("energy", Fraction(360000)),
+    "MWh": ("energy", Fraction(3600000000)),
+    "GJ": ("energy", Fraction(1000000000)),
 }
 UNIT_ALIASES = {
     "ohm": "Ω",

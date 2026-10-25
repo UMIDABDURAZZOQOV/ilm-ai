@@ -24,6 +24,91 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "electric_power": rule(
+        "P", ["I", "U"], ["I*U", "U*I"], "Doimiy tok/berilgan ishlash nuqtasi;PDF90–91."
+    ),
+    "electric_power_current": rule(
+        "I", ["P", "U"], ["P/U", "P*U^-1"], "U>0,iste’mol quvvati;PDF94."
+    ),
+    "electric_power_resistance": rule(
+        "R", ["U", "P"], ["U^2/P", "U*U/P"], "Ohmik ishlash nuqtasi,P>0;PDF93."
+    ),
+    "electric_power_work": rule(
+        "A", ["P", "t"], ["P*t", "t*P"], "O‘zgarmas yoki shu vaqt o‘rtacha P;PDF92."
+    ),
+    "parallel_power2": rule(
+        "P2",
+        ["P1", "R1", "R2"],
+        ["P1*R1/R2", "R1*P1/R2"],
+        "Bir xil U,ohmik parallel ikki element;PDF94.",
+    ),
+    "series_power2": rule(
+        "P2",
+        ["P1", "R1", "R2"],
+        ["P1*R2/R1", "R2*P1/R1"],
+        "Bir xil I,ohmik ketma-ket ikki element;PDF95.",
+    ),
+    "meter_energy": rule(
+        "A",
+        ["W2", "W1"],
+        ["W2-W1"],
+        "Bir xil hisoblagichning keyingi-avvalgi sarf qaydi,aylanish/reset yo‘q;PDF92,95.",
+    ),
+    "mean_power3": rule(
+        "Pavg",
+        ["P1", "P2", "P3"],
+        ["(P1+P2+P3)/3", "(P3+P2+P1)/3"],
+        "Uch shartli/mavjud qayd arifmetik o‘rtachasi;PDF96 minus xatosi tuzatilgan.",
+    ),
+    "joule_heat": rule(
+        "Q",
+        ["I", "R", "t"],
+        ["I^2*R*t", "I*I*R*t"],
+        "Doimiy I,R,rezistiv qizish;harorat oshishini issiqlik miqdoriga tenglashtirma;PDF97.",
+    ),
+    "joule_heat_voltage": rule(
+        "Q",
+        ["U", "t", "R"],
+        ["U^2*t/R", "U*U*t/R"],
+        "Doimiy U,R,ohmik rezistiv model;PDF97,100.",
+    ),
+    "electric_efficiency": rule(
+        "eta",
+        ["Af", "At"],
+        ["Af/At", "Af*At^-1"],
+        "0<=Af<=At,At>0;eta nisbat yoki%;PDF98.",
+    ),
+    "electric_efficiency_power": rule(
+        "eta",
+        ["Pf", "Pt"],
+        ["Pf/Pt", "Pf*Pt^-1"],
+        "0<=Pf<=Pt,Pt>0,foydali/iste’mol quvvat;PDF99.",
+    ),
+    "motor_useful_work": rule(
+        "Af",
+        ["eta", "U", "I", "t"],
+        ["eta*U*I*t", "U*I*t*eta"],
+        "Doimiy U,I,t,0<=eta<=1;PDF100.",
+    ),
+    "power_energy_ratio": rule(
+        "ratio",
+        ["P1", "P2"],
+        ["P1/P2", "P1*P2^-1"],
+        "Ikkala iste’molchi uchun bir xil t>0,o‘zgarmas quvvat;PDF100.",
+    ),
+    "parallel_work2": rule(
+        "A2",
+        ["A1", "R1", "R2"],
+        ["A1*R1/R2", "R1*A1/R2"],
+        "Bir xil U va bir xil vaqt,ohmik parallel;PDF101.",
+    ),
+    "joule_current": rule(
+        "I",
+        ["Q", "R", "t"],
+        ["sqrt(Q/(R*t))", "(Q/(R*t))^(1/2)", "(Q/(R*t))^0.5"],
+        "Tok MODULI,R,t>0;faqat exact rational square roots;PDF100exercise5.",
+        square_root=True,
+    ),
     "parallel_pair_current": rule(
         "I",
         ["U", "R1", "R2"],
@@ -1372,6 +1457,63 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "electric_power":
+        return value("I", "current") * value("U", "voltage"), "power"
+    if name == "electric_power_current":
+        return value("P", "power") / positive("U", "voltage"), "current"
+    if name == "electric_power_resistance":
+        return positive("U", "voltage") ** 2 / positive("P", "power"), "resistance"
+    if name == "electric_power_work":
+        return value("P", "power") * value("t", "time"), "energy"
+    if name in {"parallel_power2", "series_power2"}:
+        a, b = positive("R1", "resistance"), positive("R2", "resistance")
+        p = value("P1", "power")
+        return (p * a / b if name == "parallel_power2" else p * b / a), "power"
+    if name == "meter_energy":
+        previous, current = value("W1", "energy"), value("W2", "energy")
+        if current < previous:
+            raise ValueError("meter_reset_or_reversed_readings")
+        return current - previous, "energy"
+    if name == "mean_power3":
+        return sum(
+            (value(k, "power") for k in ["P1", "P2", "P3"]), Fraction()
+        ) / 3, "power"
+    if name == "joule_heat":
+        return value("I", "current") ** 2 * positive("R", "resistance") * value(
+            "t", "time"
+        ), "energy"
+    if name == "joule_heat_voltage":
+        return value("U", "voltage") ** 2 * value("t", "time") / positive(
+            "R", "resistance"
+        ), "energy"
+    if name in {"electric_efficiency", "electric_efficiency_power"}:
+        dim = "energy" if name == "electric_efficiency" else "power"
+        f = value("Af" if dim == "energy" else "Pf", dim)
+        total = positive("At" if dim == "energy" else "Pt", dim)
+        if f > total:
+            raise ValueError("useful_energy_exceeds_input")
+        return f / total, "dimensionless"
+    if name == "motor_useful_work":
+        eta = value("eta", "dimensionless")
+        if eta > 1:
+            raise ValueError("efficiency_range")
+        return eta * value("U", "voltage") * value("I", "current") * value(
+            "t", "time"
+        ), "energy"
+    if name == "power_energy_ratio":
+        return value("P1", "power") / positive("P2", "power"), "dimensionless"
+    if name == "parallel_work2":
+        return value("A1", "energy") * positive("R1", "resistance") / positive(
+            "R2", "resistance"
+        ), "energy"
+    if name == "joule_current":
+        squared = value("Q", "energy") / (
+            positive("R", "resistance") * positive("t", "time")
+        )
+        a, b = isqrt(squared.numerator), isqrt(squared.denominator)
+        if a * a != squared.numerator or b * b != squared.denominator:
+            raise ValueError("reviewed_exact_rational_root_required")
+        return Fraction(a, b), "current"
     if name == "parallel_pair_current":
         voltage = value("U", "voltage")
         return voltage / positive("R1", "resistance") + voltage / positive(

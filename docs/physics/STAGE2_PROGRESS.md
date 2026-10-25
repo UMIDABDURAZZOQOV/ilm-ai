@@ -979,3 +979,41 @@ OCR/aslrasm tekshirildi,originalmatn private authoringda tayyor,lekin runtime
 JSON/registry/test hali qo‘shilmagan. PDF94erta yaxlitlashdan R489vs484Ω;
 PDF96o‘rtacha quvvat formulasidagi minus belgisi reviewga yozilsin.
 Oraliq tasdiq kutilmaydi. Biology406/6–7/old8/veb/Kimyo/prod/AIExplain saqlandi.
+
+
+## 8-sinf §31–35 — 2026-10-26 (Asia/Tashkent)
+
+Quvvat,quvvat masalalari,raqamli quvvat laboratoriyasi,Joul–Lens va FIK,
+foydali ish masalalari:5bo‘lim/22karta/17formula yozuvi/5namuna/37topshiriq
+(15MCQ+5tartib+17FRQ). §31PDF90–94,§32PDF94–96,§33PDF96–97,
+§34PDF97–100,§35PDF100–102,bosma raqamlar teng.13aslrasm qayta o‘qildi;
+394pagechecks/382noyob.16yangi executable oila,jami220. Wh,kWh,hWh,MWh,GJ
+energiya va hW quvvat koeffitsiyentlari aniq;W energiya belgisi/W vatt
+birligi tushuntirilgan. Meter subtraction no-reset va FIK0..1 tekshiriladi.
+
+PDF94R1≈489Ω erta0.45A yaxlitlashidan;aniq220²/100=484Ω,originalmasalalar
+oraliq aniqlikni saqlaydi. PDF96o‘rtacha P formulasidagi minus matematik
+ravishda plusga tuzatildi;3ta original shartli qiymat bilan mustaqil test.
+Q=I²Rt,heat≠temperature,FIK≠energiya yo‘qolishi;no-expansion/no-heat lamp
+universalclaim takrorlanmagan. Yangi joule_current oilasigagina opt-in
+exactrational sqrt(Q/(Rt));legacyrootdefault yopiq,irratsional rounding
+umumiy qo‘llab-quvvatlandi deyilmaydi. Original1rootFRQ,xato/alternativ/
+negative/injection/irrational testlari bor. Labsonlari haqiqiy o‘lchov emas.
+
+Yangi test **22passed1.96s**. Keng Physics/Biology **334passed,
+2PGopt-in skipped70.70s**. Alohida actualPG16 **1passed32.85s**142dars/
+import/reimport/1420XP/replay/legacy137XP3streak2stars. FlutterPhysics
+**21passed**,95public8FRQ320px/200%,Coulomb va Joule ildizli inputqoralama.
+Old§26–30to‘liq890backend/147Flutter/analyze natijalari alohida saqlanadi;
+bu partiyada full912deb da’vo qilinmaydi. NativeAndroid/ekspert yo‘q.
+
+**142/316;174qolgan**.6:61/61,7:46/46,8:35/60,9:0/59,10:0/45,11:0/45.
+Jami599karta/256formula yozuvi/155namuna/947topshiriq/316FRQ.
+Keyingi **8-sinf§36«Joul–Lens qonunining amaliy tatbiqlari»,PDF/bosma102**.
+§36–40PDF102–112/115–117OCR/aslrasm o‘qildi. §39asli112 yuqori qismda
+21-mashq davom etadi:archive111end ni o‘zgartirmasdan exactpage continuation
+ruxsati/evidence qo‘shilsin. §37–38neutral/switch/42V/live-insulation
+jumlalari jiddiy xavfsizlik review talab qiladi;DIY yoki xavfsizlikkafolati
+sifatida takrorlanmasin,faqat raqamli konseptual dars. Qaytmas amal/soxta
+fakt kerak emas,oraliq tasdiq kutilmaydi. Biology406/6–7/old8/Web/Kimyo/
+prod/AIExplain saqlandi;faqat lokal/test preview,umumiy nashr yo‘q.
