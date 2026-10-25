@@ -1,0 +1,3195 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 8,
+  "sequence": 50,
+  "key": "chemistry-8-lab01-r1",
+  "revision": 1,
+  "topic_id": "ch8-laboratory01",
+  "book_id": "chemistry-8-uz-2019",
+  "title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch8-practical05"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-laboratory01",
+      "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+      "paragraph": 1,
+      "printed_pages": [
+        200
+      ],
+      "pdf_pages": [
+        200
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-laboratory01-page200"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph03",
+      "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+      "paragraph": 3,
+      "printed_pages": [
+        20
+      ],
+      "pdf_pages": [
+        20
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph03-page20"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph02",
+      "topic_title": "Noorganik birikmalarning asosiy sinflari",
+      "paragraph": 2,
+      "printed_pages": [
+        11
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph02-page11"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph02",
+      "topic_title": "Noorganik birikmalarning asosiy sinflari",
+      "paragraph": 2,
+      "printed_pages": [
+        15
+      ],
+      "pdf_pages": [
+        15
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph02-page15"
+    },
+    {
+      "book_id": "chemistry-8-uz-2019",
+      "book_title": "Kimyo 8",
+      "authors": [
+        "I.R. Asqarov",
+        "K. G‘opirov",
+        "N.X. To‘xtaboyev"
+      ],
+      "year": 2019,
+      "file_name": "kimyo_8_uzb.pdf",
+      "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+      "topic_id": "ch8-paragraph27",
+      "topic_title": "Xlorid kislota",
+      "paragraph": 27,
+      "printed_pages": [
+        117
+      ],
+      "pdf_pages": [
+        117
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch8-paragraph27-page117"
+    }
+  ],
+  "facts": {
+    "purpose": {
+      "claim": "Laboratoriya ZnCl2/NaOH orqali gidroksid modelini, keyin kislota/ishqor bilan taqqoslashni va CuCl2 bilan parallel savolni beradi. Raqamli mashq formulalar va oldingi aniq tenglamalarni tahlil qiladi; haqiqiy probirka natijasi yoki rang yaratilmaydi.",
+      "verified_answers": [
+        "ZnCl2",
+        "NaOH",
+        "CuCl2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        }
+      ]
+    },
+    "hydroxide": {
+      "claim": "Sarlavha va oldingi misoldagi rux gidroksid formulasi Zn(OH)2. Formulada1Zn va ikkitaOH guruhi, jami2O va2H bor. Qavsdan tashqaridagi2 butunOH guruhiga tegishli.",
+      "verified_answers": [
+        "Zn(OH)2",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    "formation": {
+      "claim": "Mahsulotlar Zn(OH)2 va NaCl deb berilgan original atom balansiZnCl2+2NaOH=Zn(OH)2+2NaCl. Bu sarlavhadagi gidroksid va ma’lum tuz formulasining raqamli modeli; real namuna rangiga doir yangi kuzatuv emas.",
+      "verified_answers": [
+        "ZnCl2+2NaOH=Zn(OH)2+2NaCl",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph02",
+          "topic_title": "Noorganik birikmalarning asosiy sinflari",
+          "paragraph": 2,
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            11
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph02-page11"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph02",
+          "topic_title": "Noorganik birikmalarning asosiy sinflari",
+          "paragraph": 2,
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [
+            15
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph02-page15"
+        }
+      ]
+    },
+    "acid": {
+      "claim": "Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+      "verified_answers": [
+        "Zn(OH)2+2HCl=ZnCl2+2H2O",
+        "Asoslik",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    "base": {
+      "claim": "Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+      "verified_answers": [
+        "Zn(OH)2+2NaOH=Na2ZnO2+2H2O",
+        "Na2ZnO2",
+        "Kislotali"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    "amphoteric": {
+      "claim": "Oldingi ta’rif: ham asos, ham kislota xossasini namoyon qiluvchi gidroksid amfoter gidroksid deb ataladi. Manba Zn(OH)2 ni ikki aniq misol bilan beradi; bu har bir gidroksidning xossalari bir xil degani emas.",
+      "verified_answers": [
+        "Amfoter",
+        "Amfoter gidroksid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    "copper": {
+      "claim": "Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+      "verified_answers": [
+        "Cu(OH)2",
+        "Cu(OH)2+2HCl=CuCl2+2H2O",
+        "Erimaydigan"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph02",
+          "topic_title": "Noorganik birikmalarning asosiy sinflari",
+          "paragraph": 2,
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            11
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph02-page11"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            117
+          ],
+          "pdf_pages": [
+            117
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page117"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Raqamli laboratoriyaning maqsadi",
+        "body": "ZnCl2/NaOH modeli, kislota/ishqor taqqoslanishi va CuCl2 savoli. Haqiqiy kuzatuv natijasi berilmagan.",
+        "fact_ids": [
+          "purpose"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          }
+        ]
+      },
+      {
+        "title": "Zn(OH)2 formulasini o‘qing",
+        "body": "BirZn va ikkiOH guruhi: jami2O,2H. Qavs indeksini alohidaH ga tegishli deb olmang.",
+        "fact_ids": [
+          "hydroxide"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph03",
+            "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+            "paragraph": 3,
+            "printed_pages": [
+              20
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph03-page20"
+          }
+        ]
+      },
+      {
+        "title": "Mahsulotlari berilgan hosil bo‘lish balansi",
+        "body": "ZnCl2+2NaOH=Zn(OH)2+2NaCl. Atomlar sonini ikki tomonda tekshiring.",
+        "fact_ids": [
+          "formation"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph03",
+            "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+            "paragraph": 3,
+            "printed_pages": [
+              20
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph03-page20"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph02",
+            "topic_title": "Noorganik birikmalarning asosiy sinflari",
+            "paragraph": 2,
+            "printed_pages": [
+              11
+            ],
+            "pdf_pages": [
+              11
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph02-page11"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph02",
+            "topic_title": "Noorganik birikmalarning asosiy sinflari",
+            "paragraph": 2,
+            "printed_pages": [
+              15
+            ],
+            "pdf_pages": [
+              15
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph02-page15"
+          }
+        ]
+      },
+      {
+        "title": "Kislota bilan oldingi model",
+        "body": "Zn(OH)2+2HCl=ZnCl2+2H2O — asoslik xossasi misoli.",
+        "fact_ids": [
+          "acid"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph03",
+            "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+            "paragraph": 3,
+            "printed_pages": [
+              20
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph03-page20"
+          }
+        ]
+      },
+      {
+        "title": "Ishqor bilan oldingi model",
+        "body": "Zn(OH)2+2NaOH=Na2ZnO2+2H2O — kitobning aniq kislotali xossa modeli. Suvli sharoitni cheksiz umumlashtirmang.",
+        "fact_ids": [
+          "base"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph03",
+            "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+            "paragraph": 3,
+            "printed_pages": [
+              20
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph03-page20"
+          }
+        ]
+      },
+      {
+        "title": "Amfoter atamasi",
+        "body": "Ham asos, ham kislota xossasi ikki aniq misolda ajratilgan. Bu Zn(OH)2 misoli.",
+        "fact_ids": [
+          "amphoteric"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph03",
+            "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+            "paragraph": 3,
+            "printed_pages": [
+              20
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph03-page20"
+          }
+        ]
+      },
+      {
+        "title": "Cu bilan qiyosning aniq chegarasi",
+        "body": "Cu(OH)2 suvda erimaydigan misol; Cu(OH)2+2HCl=CuCl2+2H2O berilgan. Tekshirilmagan ishqor natijasi taxmin qilinmaydi.",
+        "fact_ids": [
+          "copper"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph02",
+            "topic_title": "Noorganik birikmalarning asosiy sinflari",
+            "paragraph": 2,
+            "printed_pages": [
+              11
+            ],
+            "pdf_pages": [
+              11
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph02-page11"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph27",
+            "topic_title": "Xlorid kislota",
+            "paragraph": 27,
+            "printed_pages": [
+              117
+            ],
+            "pdf_pages": [
+              117
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph27-page117"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [
+      {
+        "title": "Qavsli formulada atomlarni tekshirish",
+        "body": "BerilganZnCl2+2NaOH=Zn(OH)2+2NaCl. Chap:Zn1,Cl2,Na2,O2,H2. O‘ng ham shu sonlar. Ko‘paytiruvchi2OH guruhining O vaH atomlariga birdek ta’sir qiladi.",
+        "fact_ids": [
+          "formation",
+          "hydroxide"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-laboratory01",
+            "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+            "paragraph": 1,
+            "printed_pages": [
+              200
+            ],
+            "pdf_pages": [
+              200
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-laboratory01-page200"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph03",
+            "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+            "paragraph": 3,
+            "printed_pages": [
+              20
+            ],
+            "pdf_pages": [
+              20
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph03-page20"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph02",
+            "topic_title": "Noorganik birikmalarning asosiy sinflari",
+            "paragraph": 2,
+            "printed_pages": [
+              11
+            ],
+            "pdf_pages": [
+              11
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph02-page11"
+          },
+          {
+            "book_id": "chemistry-8-uz-2019",
+            "book_title": "Kimyo 8",
+            "authors": [
+              "I.R. Asqarov",
+              "K. G‘opirov",
+              "N.X. To‘xtaboyev"
+            ],
+            "year": 2019,
+            "file_name": "kimyo_8_uzb.pdf",
+            "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+            "topic_id": "ch8-paragraph02",
+            "topic_title": "Noorganik birikmalarning asosiy sinflari",
+            "paragraph": 2,
+            "printed_pages": [
+              15
+            ],
+            "pdf_pages": [
+              15
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch8-paragraph02-page15"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-laboratory01",
+        "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+        "paragraph": 1,
+        "printed_pages": [
+          200
+        ],
+        "pdf_pages": [
+          200
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-laboratory01-page200"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph03",
+        "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+        "paragraph": 3,
+        "printed_pages": [
+          20
+        ],
+        "pdf_pages": [
+          20
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph03-page20"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph02",
+        "topic_title": "Noorganik birikmalarning asosiy sinflari",
+        "paragraph": 2,
+        "printed_pages": [
+          11
+        ],
+        "pdf_pages": [
+          11
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph02-page11"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph02",
+        "topic_title": "Noorganik birikmalarning asosiy sinflari",
+        "paragraph": 2,
+        "printed_pages": [
+          15
+        ],
+        "pdf_pages": [
+          15
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph02-page15"
+      },
+      {
+        "book_id": "chemistry-8-uz-2019",
+        "book_title": "Kimyo 8",
+        "authors": [
+          "I.R. Asqarov",
+          "K. G‘opirov",
+          "N.X. To‘xtaboyev"
+        ],
+        "year": 2019,
+        "file_name": "kimyo_8_uzb.pdf",
+        "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+        "topic_id": "ch8-paragraph27",
+        "topic_title": "Xlorid kislota",
+        "paragraph": 27,
+        "printed_pages": [
+          117
+        ],
+        "pdf_pages": [
+          117
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch8-paragraph27-page117"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-8-lab01-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Ham asos, ham kislota xossasi uchun manbadagi atama?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Faqat befarq"
+          },
+          {
+            "id": "b",
+            "label": "Faqat izobar"
+          },
+          {
+            "id": "c",
+            "label": "Amfoter"
+          },
+          {
+            "id": "d",
+            "label": "Faqat metall panjara"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Amfoter",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi ta’rif: ham asos, ham kislota xossasini namoyon qiluvchi gidroksid amfoter gidroksid deb ataladi. Manba Zn(OH)2 ni ikki aniq misol bilan beradi; bu har bir gidroksidning xossalari bir xil degani emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi ta’rif: ham asos, ham kislota xossasini namoyon qiluvchi gidroksid amfoter gidroksid deb ataladi. Manba Zn(OH)2 ni ikki aniq misol bilan beradi; bu har bir gidroksidning xossalari bir xil degani emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi ta’rif: ham asos, ham kislota xossasini namoyon qiluvchi gidroksid amfoter gidroksid deb ataladi. Manba Zn(OH)2 ni ikki aniq misol bilan beradi; bu har bir gidroksidning xossalari bir xil degani emas.",
+            "fact_ids": [
+              "amphoteric"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "amphoteric"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Berilgan Zn(OH)2/HCl modeli qaysi xossaga misol?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Asoslik"
+          },
+          {
+            "id": "b",
+            "label": "Kislotali"
+          },
+          {
+            "id": "c",
+            "label": "Faqat izotop"
+          },
+          {
+            "id": "d",
+            "label": "Faqat yadroviy"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Asoslik",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Berilgan Zn(OH)2/NaOH modeli qaysi xossaga misol?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Asoslik"
+          },
+          {
+            "id": "b",
+            "label": "Faqat izotop"
+          },
+          {
+            "id": "c",
+            "label": "Faqat yadroviy"
+          },
+          {
+            "id": "d",
+            "label": "Kislotali"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Kislotali",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+            "fact_ids": [
+              "base"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "base"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q04",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Zn(OH)2 ning ikkala xossasini birlashtiruvchi atama?",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Amfoter",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi ta’rif: ham asos, ham kislota xossasini namoyon qiluvchi gidroksid amfoter gidroksid deb ataladi. Manba Zn(OH)2 ni ikki aniq misol bilan beradi; bu har bir gidroksidning xossalari bir xil degani emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi ta’rif: ham asos, ham kislota xossasini namoyon qiluvchi gidroksid amfoter gidroksid deb ataladi. Manba Zn(OH)2 ni ikki aniq misol bilan beradi; bu har bir gidroksidning xossalari bir xil degani emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Oldingi ta’rif: ham asos, ham kislota xossasini namoyon qiluvchi gidroksid amfoter gidroksid deb ataladi. Manba Zn(OH)2 ni ikki aniq misol bilan beradi; bu har bir gidroksidning xossalari bir xil degani emas.",
+            "fact_ids": [
+              "amphoteric"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "Amfoter",
+        "aliases": [
+          "Amfoter"
+        ]
+      },
+      "fact_ids": [
+        "amphoteric"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q05",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Rux gidroksid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "Zn(OH)2",
+        "feedback": {
+          "correct": "To‘g‘ri. Sarlavha va oldingi misoldagi rux gidroksid formulasi Zn(OH)2. Formulada1Zn va ikkitaOH guruhi, jami2O va2H bor. Qavsdan tashqaridagi2 butunOH guruhiga tegishli.",
+          "incorrect": "Hozircha noto‘g‘ri. Sarlavha va oldingi misoldagi rux gidroksid formulasi Zn(OH)2. Formulada1Zn va ikkitaOH guruhi, jami2O va2H bor. Qavsdan tashqaridagi2 butunOH guruhiga tegishli.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Sarlavha va oldingi misoldagi rux gidroksid formulasi Zn(OH)2. Formulada1Zn va ikkitaOH guruhi, jami2O va2H bor. Qavsdan tashqaridagi2 butunOH guruhiga tegishli.",
+            "fact_ids": [
+              "hydroxide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn(OH)2"
+      },
+      "fact_ids": [
+        "hydroxide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q06",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "Oldingi mis(II) gidroksid formulasini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "Cu(OH)2",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+            "fact_ids": [
+              "copper"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph02",
+                "topic_title": "Noorganik birikmalarning asosiy sinflari",
+                "paragraph": 2,
+                "printed_pages": [
+                  11
+                ],
+                "pdf_pages": [
+                  11
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph02-page11"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  117
+                ],
+                "pdf_pages": [
+                  117
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page117"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu(OH)2"
+      },
+      "fact_ids": [
+        "copper"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph02",
+          "topic_title": "Noorganik birikmalarning asosiy sinflari",
+          "paragraph": 2,
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            11
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph02-page11"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            117
+          ],
+          "pdf_pages": [
+            117
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page117"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q07",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mahsulotlar berilgan: ZnCl2+NaOH→Zn(OH)2+NaCl ni tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "ZnCl2+2NaOH=Zn(OH)2+2NaCl",
+        "feedback": {
+          "correct": "To‘g‘ri. Mahsulotlar Zn(OH)2 va NaCl deb berilgan original atom balansiZnCl2+2NaOH=Zn(OH)2+2NaCl. Bu sarlavhadagi gidroksid va ma’lum tuz formulasining raqamli modeli; real namuna rangiga doir yangi kuzatuv emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Mahsulotlar Zn(OH)2 va NaCl deb berilgan original atom balansiZnCl2+2NaOH=Zn(OH)2+2NaCl. Bu sarlavhadagi gidroksid va ma’lum tuz formulasining raqamli modeli; real namuna rangiga doir yangi kuzatuv emas.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Mahsulotlar Zn(OH)2 va NaCl deb berilgan original atom balansiZnCl2+2NaOH=Zn(OH)2+2NaCl. Bu sarlavhadagi gidroksid va ma’lum tuz formulasining raqamli modeli; real namuna rangiga doir yangi kuzatuv emas.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Mahsulotlar Zn(OH)2 va NaCl deb berilgan original atom balansiZnCl2+2NaOH=Zn(OH)2+2NaCl. Bu sarlavhadagi gidroksid va ma’lum tuz formulasining raqamli modeli; real namuna rangiga doir yangi kuzatuv emas.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Mahsulotlar Zn(OH)2 va NaCl deb berilgan original atom balansiZnCl2+2NaOH=Zn(OH)2+2NaCl. Bu sarlavhadagi gidroksid va ma’lum tuz formulasining raqamli modeli; real namuna rangiga doir yangi kuzatuv emas."
+        },
+        "solution": [
+          {
+            "body": "Mahsulotlar Zn(OH)2 va NaCl deb berilgan original atom balansiZnCl2+2NaOH=Zn(OH)2+2NaCl. Bu sarlavhadagi gidroksid va ma’lum tuz formulasining raqamli modeli; real namuna rangiga doir yangi kuzatuv emas.",
+            "fact_ids": [
+              "formation"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph02",
+                "topic_title": "Noorganik birikmalarning asosiy sinflari",
+                "paragraph": 2,
+                "printed_pages": [
+                  11
+                ],
+                "pdf_pages": [
+                  11
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph02-page11"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph02",
+                "topic_title": "Noorganik birikmalarning asosiy sinflari",
+                "paragraph": 2,
+                "printed_pages": [
+                  15
+                ],
+                "pdf_pages": [
+                  15
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph02-page15"
+              }
+            ]
+          }
+        ],
+        "expected": "ZnCl2+2NaOH=Zn(OH)2+2NaCl"
+      },
+      "fact_ids": [
+        "formation"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph02",
+          "topic_title": "Noorganik birikmalarning asosiy sinflari",
+          "paragraph": 2,
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            11
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph02-page11"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph02",
+          "topic_title": "Noorganik birikmalarning asosiy sinflari",
+          "paragraph": 2,
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [
+            15
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph02-page15"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q08",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Oldingi Zn(OH)2+HCl→ZnCl2+H2O modelini tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Zn(OH)2+2HCl=ZnCl2+2H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aynan berilgan rux/kislota modeliZn(OH)2+2HCl=ZnCl2+2H2O. Mahsulotlar tuz va suv; bu amfoter gidroksidning asoslik xossasiga misol sifatida ko‘rsatilgan.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn(OH)2+2HCl=ZnCl2+2H2O"
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q09",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Aynan kitob modeli: Zn(OH)2+NaOH→Na2ZnO2+H2O ni tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Zn(OH)2+2NaOH=Na2ZnO2+2H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi."
+        },
+        "solution": [
+          {
+            "body": "Oldingi aynan berilgan ishqor modeliZn(OH)2+2NaOH=Na2ZnO2+2H2O. Bu Zn(OH)2 ning kislotali xossasi uchun manbaning maktab moddiy yozuvi; barcha suvli sharoitlarda yagona zarracha turi deb olinmaydi.",
+            "fact_ids": [
+              "base"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "Zn(OH)2+2NaOH=Na2ZnO2+2H2O"
+      },
+      "fact_ids": [
+        "base"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q10",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Oldingi Cu(OH)2+HCl→CuCl2+H2O ni tenglang.",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "Cu(OH)2+2HCl=CuCl2+2H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi."
+        },
+        "solution": [
+          {
+            "body": "Cu bilan parallel savol uchun oldingi formulalarCuCl2 vaCu(OH)2. 2/11jadvalda Cu(OH)2 suvda erimaydigan asos misoli; 27/117daCu(OH)2+2HCl=CuCl2+2H2O aynan yozilgan. Bu ma’lumotdan noma’lum ishqor sharoiti uchun barcha qo‘shimcha natijalar taxmin qilinmaydi.",
+            "fact_ids": [
+              "copper"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph02",
+                "topic_title": "Noorganik birikmalarning asosiy sinflari",
+                "paragraph": 2,
+                "printed_pages": [
+                  11
+                ],
+                "pdf_pages": [
+                  11
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph02-page11"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph27",
+                "topic_title": "Xlorid kislota",
+                "paragraph": 27,
+                "printed_pages": [
+                  117
+                ],
+                "pdf_pages": [
+                  117
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph27-page117"
+              }
+            ]
+          }
+        ],
+        "expected": "Cu(OH)2+2HCl=CuCl2+2H2O"
+      },
+      "fact_ids": [
+        "copper"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph02",
+          "topic_title": "Noorganik birikmalarning asosiy sinflari",
+          "paragraph": 2,
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            11
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph02-page11"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph27",
+          "topic_title": "Xlorid kislota",
+          "paragraph": 27,
+          "printed_pages": [
+            117
+          ],
+          "pdf_pages": [
+            117
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph27-page117"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-8-lab01-r1-q11",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "BirZn(OH)2 formula birligidagi O atomlari soni?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "atom"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "2",
+        "feedback": {
+          "correct": "To‘g‘ri. Sarlavha va oldingi misoldagi rux gidroksid formulasi Zn(OH)2. Formulada1Zn va ikkitaOH guruhi, jami2O va2H bor. Qavsdan tashqaridagi2 butunOH guruhiga tegishli.",
+          "incorrect": "Hozircha noto‘g‘ri. Sarlavha va oldingi misoldagi rux gidroksid formulasi Zn(OH)2. Formulada1Zn va ikkitaOH guruhi, jami2O va2H bor. Qavsdan tashqaridagi2 butunOH guruhiga tegishli.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Sarlavha va oldingi misoldagi rux gidroksid formulasi Zn(OH)2. Formulada1Zn va ikkitaOH guruhi, jami2O va2H bor. Qavsdan tashqaridagi2 butunOH guruhiga tegishli.",
+            "fact_ids": [
+              "hydroxide"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-laboratory01",
+                "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+                "paragraph": 1,
+                "printed_pages": [
+                  200
+                ],
+                "pdf_pages": [
+                  200
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-laboratory01-page200"
+              },
+              {
+                "book_id": "chemistry-8-uz-2019",
+                "book_title": "Kimyo 8",
+                "authors": [
+                  "I.R. Asqarov",
+                  "K. G‘opirov",
+                  "N.X. To‘xtaboyev"
+                ],
+                "year": 2019,
+                "file_name": "kimyo_8_uzb.pdf",
+                "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+                "topic_id": "ch8-paragraph03",
+                "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+                "paragraph": 3,
+                "printed_pages": [
+                  20
+                ],
+                "pdf_pages": [
+                  20
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch8-paragraph03-page20"
+              }
+            ]
+          }
+        ],
+        "expected": "2",
+        "unit": "atom"
+      },
+      "fact_ids": [
+        "hydroxide"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-laboratory01",
+          "topic_title": "Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri",
+          "paragraph": 1,
+          "printed_pages": [
+            200
+          ],
+          "pdf_pages": [
+            200
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-laboratory01-page200"
+        },
+        {
+          "book_id": "chemistry-8-uz-2019",
+          "book_title": "Kimyo 8",
+          "authors": [
+            "I.R. Asqarov",
+            "K. G‘opirov",
+            "N.X. To‘xtaboyev"
+          ],
+          "year": 2019,
+          "file_name": "kimyo_8_uzb.pdf",
+          "sha256": "077e2c96380950d3dd4118489474a200a08d39ff226b7096dd48436df9bc8056",
+          "topic_id": "ch8-paragraph03",
+          "topic_title": "Kimyoviy elementlarning dastlabki toifalanishi",
+          "paragraph": 3,
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [
+            20
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch8-paragraph03-page20"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch8-paragraph03",
+    "ch8-paragraph02",
+    "ch8-paragraph27"
+  ]
+}

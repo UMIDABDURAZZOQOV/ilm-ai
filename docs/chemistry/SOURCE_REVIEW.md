@@ -811,3 +811,42 @@ not yet counted as authored facts. New issues there require scoped catalog revie
 five textbook SHA identities audited. Remaining original185–204 teaching and
 205–208 final material read,table199 inspected upright;not yet authored facts.
 New remaining-source issues must be catalogued before later lesson creation.
+
+
+## Batch25 — 2026-10-25: grade8 sequence46–50
+
+124/268 implemented;144 remain. Grade7 all74;grade8 all44 paragraphs,all5
+practicals and lab1 (50/59). Next nine labs2–10,sequence51–59,original200–204.
+New5 lessons add59 cards/68 questions (19 MCQ,8 short,18 numeric,11 formula,
+12 equation). Total980 cards/1425 questions:483/235/374/128/205 respectively.
+
+§42 distinguishes primaryNPK from total element counts;commercial percentages,
+hydrates and mixtures are not pure compound identities. §43 teaches P2O5/K2O
+reporting equivalents and exact given arithmetic:16.47%,4.120t,473.2kg,with
+printed16.4/4.117/473.3 separately flagged. §44 retains neutral source
+classification/relative amounts/symbols/environment;clinical,treatment,
+universal essentiality,current statistics and waste application claims held.
+Practical5 covers digital known models and original exact calculations;upright
+table199 contradictory nitrate rows held. No unknown sample IDs or actual
+observations invented. Lab1 retains exact school zincate model and limited Cu
+comparison. Exact prior Na/water4/21,AlCl3 20/83 and KHSO4 2/15 checked.
+
+77 editorial scopes plus one scientific blocker remain;all ready flags false.
+No source gap filled by memory,AI feature,new solver,physical experiment or
+teacher certificate. Five PDF identities/all817 decoded pages audited.
+
+Target50 passed/20.53s;full Chemistry789 passed,1 opt-in PG skip,1 existing
+Starlette warning/906.77s. Full Flutter512 passed/137s. Analyzer initially
+reported missing braces in one new test;fixed,final no issues/35.0s. Two new
+320×568/200% light/dark widgets passed/15s;four captures visually inspected
+for fertilizer decimal feedback/source191 and zincate feedback/source200.
+Scroll/pinned continuation preserved. No runtime UI/parser change this batch.
+
+Actual loopbackHTTP68 answers preserved119 completions/2380XP,added100XP
+once,now124 completions/2480XP. Comma/dot4,120/4.120 replay identical,grade7
+unchanged,private rubrics hidden,six public fixtures sanitized. Current sandbox
+ilm-ai-chemistry-batch24-final-qa,port8901,ownPID24132 (verify command before
+stopping);private defines remain there. Imported r1 lessons are immutable.
+All prior119 hashes and original§1 unchanged;critical Ruff/diff checks passed.
+Biology/Physics branches and real user data preserved. No production/main,
+PDF/OCR/fulltext/token push or native/IME/TalkBack/whole-backend certificate.

@@ -1,0 +1,50 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 119,
+  "prior_xp": 2380,
+  "added_lessons": 5,
+  "added_questions": 68,
+  "kinds": {
+    "concept_selection": 19,
+    "short_text": 8,
+    "chemical_formula": 11,
+    "numeric_value": 18,
+    "chemical_equation": 12
+  },
+  "added_xp": 100,
+  "total_xp": 2480,
+  "total_completed_lessons": 124,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_catalog_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public fertilizer/zinc laboratory catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 124,
+  "remaining_lessons": 144,
+  "backend_tests": {
+    "passed": 789,
+    "skipped": 1,
+    "seconds": 906.77
+  },
+  "targeted_batch_tests": {
+    "passed": 50,
+    "seconds": 20.53
+  },
+  "flutter_tests": {
+    "passed": 512,
+    "seconds": 137
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 35.0
+  },
+  "flutter_model_widgets": {
+    "passed": 2,
+    "seconds": 15
+  },
+  "open_source_holds": 1,
+  "open_editorial_issues": 77,
+  "production_operations": false
+}

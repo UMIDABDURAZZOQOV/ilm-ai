@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 119,
+  "implemented_lessons": 124,
   "grades": [
     {
       "grade": 7,
@@ -50,13 +50,8 @@
       "laboratories": 10,
       "practicals": 5,
       "source_teaching_entries": 59,
-      "implemented_lessons": 45,
+      "implemented_lessons": 50,
       "remaining_ids": [
-        "ch8-paragraph42",
-        "ch8-paragraph43",
-        "ch8-paragraph44",
-        "ch8-practical05",
-        "ch8-laboratory01",
         "ch8-laboratory02",
         "ch8-laboratory03",
         "ch8-laboratory04",
@@ -113,7 +108,12 @@
         "ch8-practical3-copy-formula-phase-review",
         "ch8-p40-phosphorus-reactivity-model-review",
         "ch8-p41-phosphate-structure-balance-review",
-        "ch8-practical4-lime-unknown-evidence-review"
+        "ch8-practical4-lime-unknown-evidence-review",
+        "ch8-p42-nutrient-mixture-scope-review",
+        "ch8-p43-reporting-basis-arithmetic-review",
+        "ch8-p44-biogen-clinical-essentiality-review",
+        "ch8-practical5-table-nitrate-unknown-review",
+        "ch8-lab1-amphoteric-observation-scope"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -301,7 +301,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 1,
-  "open_editorial_review_issues": 72,
+  "open_editorial_review_issues": 77,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817
 }

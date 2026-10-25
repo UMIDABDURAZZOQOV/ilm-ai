@@ -103,6 +103,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch8-paragraph40': 'ch8-p40-phosphorus-reactivity-model-review',
     'ch8-paragraph41': 'ch8-p41-phosphate-structure-balance-review',
     'ch8-practical04': 'ch8-practical4-lime-unknown-evidence-review',
+    'ch8-paragraph42': 'ch8-p42-nutrient-mixture-scope-review',
+    'ch8-paragraph43': 'ch8-p43-reporting-basis-arithmetic-review',
+    'ch8-paragraph44': 'ch8-p44-biogen-clinical-essentiality-review',
+    'ch8-practical05': 'ch8-practical5-table-nitrate-unknown-review',
+    'ch8-laboratory01': 'ch8-lab1-amphoteric-observation-scope',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -562,6 +567,18 @@ def validate_lesson(catalog, lesson, review):
                             for a in plain_values), 'unbalanced_phosphate_water_copy_cannot_be_a_premise')
             require(not any('barcha fosfatlar erimaydi' in a.casefold() for a in plain_values),
                     'unqualified_phosphate_solubility_cannot_be_a_premise')
+        if 'ch8-paragraph43' in topic_ids:
+            require(not any(re.search(r'(?<![0-9])(?:16[.,]4|4[.,]117|473[.,]3)(?![0-9])', a)
+                            for a in f['verified_answers']), 'unresolved_fertilizer_arithmetic_cannot_be_an_answer')
+        if 'ch8-paragraph44' in topic_ids:
+            require(not any('askaltsiy' in a.casefold() or 'askalsiy' in a.casefold()
+                            or 'c vitamini' in a.casefold() for a in plain_values),
+                    'unreviewed_biogen_clinical_claim_cannot_be_a_premise')
+            require(not any('barcha mikroelementlar' in a.casefold() and 'zarur' in a.casefold()
+                            for a in plain_values), 'unqualified_trace_element_essentiality_cannot_be_a_premise')
+        if 'ch8-laboratory01' in topic_ids:
+            require(not any('barcha gidroksidlar' in a.casefold() and 'ishqorda eriydi' in a.casefold()
+                            for a in plain_values), 'unqualified_hydroxide_alkali_dissolution_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

@@ -5,17 +5,17 @@
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
-| 8 | 6 | 44 | 10 | 5 | 59 | 45 | 14 |
+| 8 | 6 | 44 | 10 | 5 | 59 | 50 | 9 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 0 | 61 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 119 | 149 |
+| Total | 29 | 204 | 49 | 15 | 268 | 124 | 144 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 921 cards; 1357 assessments: 464 concept_selection, 227 short_text, 356 numeric_value, 117 chemical_formula, 193 chemical_equation.
+Total: 980 cards; 1425 assessments: 483 concept_selection, 235 short_text, 374 numeric_value, 128 chemical_formula, 205 chemical_equation.
 
 ## Initial §1
 
@@ -122,18 +122,15 @@ Every lesson includes an original worked example within the reviewed model.
 5 lessons;68 cards;19 MCQ,4 short,26 numeric,12 formula,25 equation.
 Original examples preserve exact intermediate arithmetic and given conditions.
 
+## Batch25: grade8 §42–44, practical5 and laboratory1
+
+5 lessons;59 cards;68 questions:19 MCQ,8 short,18 numeric,11 formula,12 equation.
+
 ## Current continuation
 
-Grade7 all74 entries;grade8 §1–41 plus practical1–4 (45/59),14 remain:
-3 paragraphs,10 laboratories,1 practical. Whole project149 entries remain.
-Next five:§42/43/44,practical5,lab1,sequence46–50,original185–200.
-Then nine labs2–10,sequence51–59,will finish the mapped grade8 teaching entries.
-All original teaching5–204 and finalcontents/colophon/rental205–208 visually
-read. Rotated table199 also inspected upright. Future authoring/QA pending.
-Catalog327/268 unchanged;nine grade7 reviews integrated,not extra entries.
-
-One grade9 scientific blocker and72 editorial scopes remain. New reviews cover
-nitrate condition/valence,ammonia reagent/cyanamide copy,phosphorus reactivity/
-safety,phosphate solubility/structure/water balance and practical lime/unknown
-evidence. Ready flags false. Original§1,prior114 lesson hashes/progress,real
-users and other subjects preserved. No independent teacher certificate.
+124/268 implemented;144 remain. Grade7 all74;grade8 50/59:all44 paragraphs,
+all5 practicals and laboratory1. Next9:labs2–10,sequence51–59,original200–204.
+All grade8 teaching pages visually reviewed;unknown observations are not supplied.
+77 editorial scopes plus one grade9 scientific blocker;all ready flags false.
+ActualHTTP preserves119 baseline completions/2380XP and adds100XP once:
+124 completions/2480XP. Prior119 lesson hashes and original§1 unchanged.

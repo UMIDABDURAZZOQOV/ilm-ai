@@ -61,12 +61,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch8-paragraph40` | paragraph 40 | Fosfor | 174–177 | 174:full – 177:full | 174 | reviewed local lesson; scoped editorial review remains open | ch8-practical03 |
 | `ch8-paragraph41` | paragraph 41 | Fosforning kislorodli birikmalari | 177–184 | 177:full – 184:full | 177 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph40 |
 | `ch8-practical04` | practical 4 | “Azot” guruhchasi elementlari mavzusiga oid tajribaviy masalalar yechish | 184–185 | 184:full – 185:full | 184 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph41 |
-| `ch8-paragraph42` | paragraph 42 | Mineral o‘g‘itlar | 185–189 | 185:full – 189:full | 185 | not_authored | ch8-practical04 |
-| `ch8-paragraph43` | paragraph 43 | Eng muhim asosiy mineral o‘g‘itlar | 189–193 | 189:full – 193:full | 189 | not_authored | ch8-paragraph42 |
-| `ch8-paragraph44` | paragraph 44 | Biogen elementlar va ularning tirik organizmlardagi ahamiyati | 193–197 | 193:full – 197:full | 193 | not_authored | ch8-paragraph43 |
-| `ch8-practical05` | practical 5 | Mineral o‘g‘itlarni aniqlash | 197–200 | 197:full – 200:full | 197 | not_authored | ch8-paragraph44 |
+| `ch8-paragraph42` | paragraph 42 | Mineral o‘g‘itlar | 185–189 | 185:full – 189:full | 185 | reviewed local lesson; scoped editorial review remains open | ch8-practical04 |
+| `ch8-paragraph43` | paragraph 43 | Eng muhim asosiy mineral o‘g‘itlar | 189–193 | 189:full – 193:full | 189 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph42 |
+| `ch8-paragraph44` | paragraph 44 | Biogen elementlar va ularning tirik organizmlardagi ahamiyati | 193–197 | 193:full – 197:full | 193 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph43 |
+| `ch8-practical05` | practical 5 | Mineral o‘g‘itlarni aniqlash | 197–200 | 197:full – 200:full | 197 | reviewed local lesson; scoped editorial review remains open | ch8-paragraph44 |
 | `ch8-activities` | activity_collection  | Laboratoriya mashg‘ulotlari | 200–204 | 200:full – 204:full | 200 | not_authored | — |
-| `ch8-laboratory01` | laboratory 1 | Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri | 200–201 | 200:full – 201:full | 200 | not_authored | ch8-practical05 |
+| `ch8-laboratory01` | laboratory 1 | Rux gidroksidning olinishi, unga kislota va ishqor eritmalarining ta’siri | 200–201 | 200:full – 201:full | 200 | reviewed local lesson; scoped editorial review remains open | ch8-practical05 |
 | `ch8-laboratory02` | laboratory 2 | Turli kimyoviy bog‘lanishli moddalarning (kaliy xlorid, oltingugurt, yod) kristall panjaralari namunalarini tayyorlash | 200–201 | 200:full – 201:full | 200 | not_authored | ch8-laboratory01 |
 | `ch8-laboratory03` | laboratory 3 | Xlorid kislota, galogenidlar va yod uchun sifat reaksiyalari | 201–202 | 201:full – 202:full | 201 | not_authored | ch8-laboratory02 |
 | `ch8-laboratory04` | laboratory 4 | Tuproq eritmasi tarkibida xloridlarning borligini aniqlash | 201–202 | 201:full – 202:full | 201 | not_authored | ch8-laboratory03 |

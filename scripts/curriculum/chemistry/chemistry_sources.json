@@ -8460,7 +8460,39 @@
             "record_id": "ch8-paragraph43",
             "printed_page": 189,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p42-nutrient-mixture-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                185,
+                186,
+                187,
+                188
+              ],
+              "pdf_pages": [
+                185,
+                186,
+                187,
+                188
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "PrimaryNPK classification is not totalchemicalelementcount/universalessentiality. Commercialpercent/hydrate/mixedformula rows are not puremolecularidentities;188single superphosphate hydration differs190 andammoniumhydrogenphosphate rowincludes sulfate. Excessfertilizerfoodalwaysunfit is unqualified;NH4OH is aqueousnotation,not isolatedfertilizer molecule.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p42-nutrient-mixture-scope-review",
+                  "printed_page": 185,
+                  "reason": "Teach exact primaryNPK examples,relative macro/micro amounts,clear formulas and givenmass comparison. Hold purehydrate/singlecompound identity,blanketfoodjudgment,unconditionedcommercialpercent,isolatedNH4OH andfield/clinicalinterventions. No future§43 context."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -8500,7 +8532,42 @@
             "record_id": "ch8-paragraph44",
             "printed_page": 193,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p43-reporting-basis-arithmetic-review",
+              "status": "open_review",
+              "printed_pages": [
+                189,
+                190,
+                191,
+                192,
+                193
+              ],
+              "pdf_pages": [
+                189,
+                190,
+                191,
+                192,
+                193
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "P2O5/K2O are reportingbases,not literalfreeoxides inallfertilizers.19014/85*100 nearest1decimal is16.5,not16.4.191234/142/.4 nearest3decimals is4.120,not4.117.192750*94/149 nearest1decimal is473.2,not473.3. Single superphosphate/ammophos aremixtures;hydrate/phase andfactoryclaims arehistoricalsourcecontexts.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p43-reporting-basis-arithmetic-review",
+                  "printed_page": 189,
+                  "reason": "Retain source formulas/classification/conceptualbalances andoriginalexactarithmeticwithprecision. Flag printedtruncation/arithmetic,no silentrepair. No physicalboneburning/strongacidfertilizerrecipe,fielddose or currentfactorycertification."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -8540,7 +8607,42 @@
             "record_id": "ch8-practical05",
             "printed_page": 197,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-p44-biogen-clinical-essentiality-review",
+              "status": "open_review",
+              "printed_pages": [
+                193,
+                194,
+                195,
+                196,
+                197
+              ],
+              "pdf_pages": [
+                193,
+                194,
+                195,
+                196,
+                197
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Crust/body/plant listsandpercentages have copy/scopeissues. Studiedtrace/toxicelements do not automatically meanuniversalessentiality. Askaltsiy/tumor/immunity,calciumclinicalpercent,Mnurine/Cvitamin,Cohemoglobin,Brnerves andotherhealth/deficiency/yield/wastefertilizerclaims lack reliable species/condition/clinicalscope. Localpatient/remedydata absent.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-p44-biogen-clinical-essentiality-review",
+                  "printed_page": 193,
+                  "reason": "Only clear neutralbookclassification/relativeamount/element-symbol/environmentconcepts may be keyed. Holdclinical/supplement/treatment/universalessentiality,cropgain/bodypercent/currentstatistics andactualwasteapplication. No externalmedicalreplacement or inventedlocaldiagnoses. Scopeissuesremainvisible,not healthcertification."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "practical",
@@ -8585,7 +8687,36 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-practical5-table-nitrate-unknown-review",
+              "status": "open_review",
+              "printed_pages": [
+                197,
+                198,
+                199
+              ],
+              "pdf_pages": [
+                197,
+                198,
+                199
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Rotatedtable199 acid/Cu column givesNH4Clbrownpositive andKNO3negative,contradicting earliernitrate model39/169. Flameimpurities,traceAgNO3haze,sulfateprecipitation andmixedsuperphosphate requirecondition scope. UnknownactualtubeIDs/observations absent. Gasidentityfrommassalone notunique;ozone25percentbasis/constantconditions notfullyspecified.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-practical5-table-nitrate-unknown-review",
+                  "printed_page": 197,
+                  "reason": "Hold contradictorynitrate rows,no silentswap. Digital knownmodel evidence/given-product/mathonly with exactpriorrefs;no fake unknownIDs/selectiveprotocol,uniquegasproof,condition-free mixturekey,physicalflame/smell/hotacid/benzene operations."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch8-activities",
@@ -8662,7 +8793,30 @@
             "mode": "guided_analysis",
             "physical_execution_required": false,
             "real_lab_certification": false
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch8-lab1-amphoteric-observation-scope",
+              "status": "open_review",
+              "printed_pages": [
+                200
+              ],
+              "pdf_pages": [
+                200
+              ],
+              "regions": [
+                "full"
+              ],
+              "scope": "ZnCl2/NaOH acid/alkali comparison andCuCl2repeat have no reportedactualsamplecolors/results. Earlier schoolzincatemodel mustnotbe silentlyreplaced byunverifiedhydroxocomplex. Cu hydroxide/alkali behavior notunlimited or identicaltoallhydroxides.",
+              "withheld_claims": [
+                {
+                  "id": "ch8-lab1-amphoteric-observation-scope",
+                  "printed_page": 200,
+                  "reason": "Digital exactearlierprecipitation/acid/amphotericmodelsonly,no inventedcolors/measuredresult,universalallhydroxidedissolution,newcomplexparser or physicalreagentinstructions."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "laboratory",
