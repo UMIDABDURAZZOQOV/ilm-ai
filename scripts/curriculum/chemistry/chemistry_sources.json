@@ -14904,7 +14904,54 @@
             "record_id": "ch10-paragraph02",
             "printed_page": 7,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p1-organic-generalizations-history-review",
+              "status": "open_review",
+              "printed_pages": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "pdf_pages": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original scan images reviewed;bounded textbook science/explicit models only,not OCR prediction. Uncertain copied claims excluded from assessment.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p1-organic-generalizations-history-review-page4",
+                  "printed_page": 4,
+                  "reason": "Compressed Zinin history not a verified one-step benzene/aniline route. No physical preparation instructions."
+                },
+                {
+                  "id": "ch10-p1-organic-generalizations-history-review-page5",
+                  "printed_page": 5,
+                  "reason": "Blanket allorganicH/nonelectrolyte/alwayslowerT/unstable/slower statements not universal assessed premises."
+                },
+                {
+                  "id": "ch10-p1-organic-generalizations-history-review-page6",
+                  "printed_page": 6,
+                  "reason": "Copied universal comparison questions3/6/7 do not override bounded knownexamples."
+                },
+                {
+                  "id": "ch10-p1-organic-generalizations-history-review-page7",
+                  "printed_page": 7,
+                  "reason": "Question8 conflates Frankland with acetic whereas4 assignspropionic;jointcopiedkey withheld. Namedindividual histories tied4 only."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -14945,7 +14992,46 @@
             "record_id": "ch10-paragraph03",
             "printed_page": 11,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p2-structure-caption-oxidation-review",
+              "status": "open_review",
+              "printed_pages": [
+                9,
+                10,
+                11
+              ],
+              "pdf_pages": [
+                9,
+                10,
+                11
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original scan images reviewed;bounded textbook science/explicit models only,not OCR prediction. Uncertain copied claims excluded from assessment.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p2-structure-caption-oxidation-review-page9",
+                  "printed_page": 9,
+                  "reason": "Ethanol/ether graphidentity not molecularcomposition grading. Na model digital givenstructure only. Formal oxidationstate not actualioncharge."
+                },
+                {
+                  "id": "ch10-p2-structure-caption-oxidation-review-page10",
+                  "printed_page": 10,
+                  "reason": "HCOOH drawing wrongly captioned acetic versus own formicprose;badcaption/identitykey excluded. No silent literalcopy."
+                },
+                {
+                  "id": "ch10-p2-structure-caption-oxidation-review-page11",
+                  "printed_page": 11,
+                  "reason": "Nitrogen/halogen oxidation tasks require own EN evidence;not invented from recall. Carbon degree sum not eachindividual carbon value."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -14986,7 +15072,46 @@
             "record_id": "ch10-paragraph04",
             "printed_page": 15,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p3-isomer-figure-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                12,
+                13,
+                14
+              ],
+              "pdf_pages": [
+                12,
+                13,
+                14
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original scan images reviewed;bounded textbook science/explicit models only,not OCR prediction. Uncertain copied claims excluded from assessment.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p3-isomer-figure-scope-review-page12",
+                  "printed_page": 12,
+                  "reason": "Rightterminal CH2 in2chlorobutane figure lacksH. Literal erroneousformula key excluded;use other unambiguous pairs. No compositiongrader certifiesgraphidentity."
+                },
+                {
+                  "id": "ch10-p3-isomer-figure-scope-review-page13",
+                  "printed_page": 13,
+                  "reason": "Cis/trans scoped shownbutene2,not all doublebondcompounds. Specificnamedalkaneisomer counts only."
+                },
+                {
+                  "id": "ch10-p3-isomer-figure-scope-review-page14",
+                  "printed_page": 14,
+                  "reason": "General atomcount/isomer count statement not unrestricted theorem;position/chain/interclass examples retained individually."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -15027,7 +15152,46 @@
             "record_id": "ch10-chapter02",
             "printed_page": 21,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p4-classification-polymerization-review",
+              "status": "open_review",
+              "printed_pages": [
+                16,
+                17,
+                20
+              ],
+              "pdf_pages": [
+                16,
+                17,
+                20
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original scan images reviewed;bounded textbook science/explicit models only,not OCR prediction. Uncertain copied claims excluded from assessment.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p4-classification-polymerization-review-page16",
+                  "printed_page": 16,
+                  "reason": "C/H/O/N categories not mutuallyexclusive exhaustive partition. Nitrogencompound mayO. Aromatic category not general simplealkene reactivity."
+                },
+                {
+                  "id": "ch10-p4-classification-polymerization-review-page17",
+                  "printed_page": 17,
+                  "reason": "C=O occurrence does not imply only aldehyde/ketone;COOHcounterexample. Not all estersfats."
+                },
+                {
+                  "id": "ch10-p4-classification-polymerization-review-page20",
+                  "printed_page": 20,
+                  "reason": "Question10 onlyorganicpolymerization universality withheld. No externalpolymerexamples or physical synthesis protocols."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch10-chapter02",
@@ -15106,7 +15270,46 @@
             "record_id": "ch10-paragraph06",
             "printed_page": 26,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p5-rational-center-percentage-review",
+              "status": "open_review",
+              "printed_pages": [
+                23,
+                24,
+                25
+              ],
+              "pdf_pages": [
+                23,
+                24,
+                25
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original scan images reviewed;bounded textbook science/explicit models only,not OCR prediction. Uncertain copied claims excluded from assessment.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p5-rational-center-percentage-review-page23",
+                  "printed_page": 23,
+                  "reason": "Alkyldash is attachment bond,not negativeion/free radicalidentity. Structural alternatives not composition-equivalence FRQ."
+                },
+                {
+                  "id": "ch10-p5-rational-center-percentage-review-page24",
+                  "printed_page": 24,
+                  "reason": "Samepentane can have methylpropyl/dietyl rational names with differentmarkedcenters. Do not require one unique global rationalname."
+                },
+                {
+                  "id": "ch10-p5-rational-center-percentage-review-page25",
+                  "printed_page": 25,
+                  "reason": "82.75% copiedtask does not exactly round from butane C12/H1 model82.75862%. Literal precisionkey withheld. Original forwardpropane81.818/butane82.759 three-decimal models declare masses/rounding. No actual synthesis/dosing."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

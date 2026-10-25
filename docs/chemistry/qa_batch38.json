@@ -1,0 +1,61 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 194,
+  "prior_xp": 3880,
+  "added_lessons": 5,
+  "added_questions": 68,
+  "kinds": {
+    "concept_selection": 22,
+    "short_text": 15,
+    "numeric_value": 23,
+    "chemical_formula": 5,
+    "chemical_equation": 3
+  },
+  "added_xp": 100,
+  "total_xp": 3980,
+  "total_completed_lessons": 199,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_8_9_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public organic structure/isomer types/alkane names catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-26",
+  "implemented_lessons": 199,
+  "remaining_lessons": 69,
+  "backend_tests": {
+    "passed": 1507,
+    "skipped": 1,
+    "seconds": 3430.51
+  },
+  "targeted_tests": {
+    "passed": 90,
+    "seconds": 25.65,
+    "earlier_grade_source_tests": 22,
+    "erratum_tests": 34
+  },
+  "readiness_test": {
+    "passed": 1,
+    "seconds": 3.9,
+    "initial_obsolete_grade10_ready_expectation_fixed": true
+  },
+  "flutter_tests": {
+    "passed": 546,
+    "seconds": 211
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 68.8
+  },
+  "flutter_widgets": {
+    "passed": 3,
+    "seconds": 5,
+    "new_captures_inspected": 9
+  },
+  "open_source_holds": 0,
+  "open_editorial_issues": 151,
+  "reviewed_errata": 1,
+  "prior194_hashes_preserved": true,
+  "production_operations": false
+}

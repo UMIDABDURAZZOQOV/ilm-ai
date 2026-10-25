@@ -179,6 +179,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-laboratory15': 'ch9-lab15-iron-hydroxide-color-scope-review',
     'ch9-laboratory16': 'ch9-lab16-iron-complex-phase-formula-review',
     'ch9-laboratory17': 'ch9-lab17-alloy-rate-versus-amount-review',
+    'ch10-paragraph01': 'ch10-p1-organic-generalizations-history-review',
+    'ch10-paragraph02': 'ch10-p2-structure-caption-oxidation-review',
+    'ch10-paragraph03': 'ch10-p3-isomer-figure-scope-review',
+    'ch10-paragraph04': 'ch10-p4-classification-polymerization-review',
+    'ch10-paragraph05': 'ch10-p5-rational-center-percentage-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -900,6 +905,25 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch9-laboratory17' in topic_ids:
             require(not any('teng massa doim teng tezlik' in a.casefold() for a in f['verified_answers']),
                     'total_gas_amount_is_not_actual_rate')
+        if 'ch10-paragraph01' in topic_ids:
+            require(not any('barcha organik moddalar noelektrolit' in a.casefold()
+                            for a in f['verified_answers']),
+                    'organic_generalizations_are_not_universal_keys')
+        if 'ch10-paragraph02' in topic_ids:
+            require(not any('HCOOH' in a and 'sirka' in a.casefold()
+                            for a in f['verified_answers']),
+                    'misprinted_formic_acetic_caption_cannot_be_a_key')
+        if 'ch10-paragraph03' in topic_ids:
+            require(not any(a.replace(' ', '') == 'CH3CHClCH2CH2'
+                            for a in f['verified_answers']),
+                    'missing_terminal_hydrogen_copy_cannot_be_a_key')
+        if 'ch10-paragraph04' in topic_ids:
+            require(not any('faqat organik moddalar polimerlanadi' in a.casefold()
+                            for a in f['verified_answers']),
+                    'polymerization_universality_requires_source_review')
+        if 'ch10-paragraph05' in topic_ids:
+            require(not any(a.replace(',', '.') == '82.75' for a in f['verified_answers']),
+                    'copied_percentage_precision_cannot_replace_declared_rounding')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

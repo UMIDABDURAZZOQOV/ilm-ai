@@ -68,7 +68,11 @@ def test_open_source_issues_prevent_ready_even_if_all_topic_ids_are_present():
     assert len(states[7]['pending_source_review_ids'])>=2
     assert not states[9]['course_ready']
     assert not states[8]['course_ready']  # New original-page reviews remain open.
-    assert all(states[g]['course_ready'] for g in [10,11])
+    assert not states[10]['course_ready']
+    assert len(states[10]['pending_source_review_ids']) >= 5
+    # Completing topic IDs cannot bypass any grade's newly reviewed source issues.
+    for grade in (10, 11):
+        assert states[grade]['course_ready'] == (not states[grade]['pending_source_review_ids'])
 
 
 @pytest.mark.parametrize('value',['0.00001','1e-5','1.0e-5'])

@@ -7,15 +7,15 @@
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 61 | 0 |
-| 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
+| 10 | 4 | 35 | 6 | 0 | 41 | 5 | 36 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 194 | 74 |
+| Total | 29 | 204 | 49 | 15 | 268 | 199 | 69 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1823 cards; 2798 assessments: 774 concept_selection, 373 short_text, 744 numeric_value, 325 chemical_formula, 582 chemical_equation.
+Total: 1881 cards; 2866 assessments: 796 concept_selection, 388 short_text, 767 numeric_value, 330 chemical_formula, 585 chemical_equation.
 
 ## Initial §1
 
@@ -209,9 +209,14 @@ All41 paragraphs,3practicals and11/17labs implemented.6labs remain.
 6 lessons;46 cards;76 questions:24 MCQ,12 short,18 numeric,6 formula,16 equation.
 All61 grade9 teaching entries implemented:41paragraphs,3practicals,17laboratories.
 
+## Batch38:grade10§1–5
+
+5 lessons;58 cards;68 questions:22 MCQ,15 short,23 numeric,5 formula,3 equation.
+Scan-reviewed original organic foundations,isomers,classes and alkane naming.
+
 ## Current continuation
 
-194/268 implemented;74 remain. Grade7 all74,grade8 all59,grade9 all61.
-Next grade10§1–5(batch38);five private drafts passed key/source checks,not indexed.
-146editorial scopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
-ActualHTTP preserves188/3760XP and adds120XPonce→194/3880XP.
+199/268 implemented;69 remain. Grade7 all74,grade8 all59,grade9 all61,grade10 5/41.
+Next grade10§6–10(batch39);five private drafts passed source/key validation,
+not indexed.151editorial scopes,one finite reviewederratum,zero wholeholds.
+ActualHTTP preserves194/3880XP and adds100XPonce→199/3980XP. Allreadyfalse.

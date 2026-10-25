@@ -11,12 +11,12 @@ Individual lesson claims require their own reviewed source refs.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ch10-preface` | preface  | So‘zboshi | 3–4 | 3:full – 4:full | 3 | not_authored | — |
 | `ch10-chapter01` | chapter 1 | Organik kimyoning tuzilish nazariyasi | 4–21 | 4:full – 21:full | 4 | not_authored | — |
-| `ch10-paragraph01` | paragraph 1 | Organik kimyo tarixi. Organik birikmalarning o‘ziga xos xususiyatlari | 4–7 | 4:full – 7:full | 4 | not_authored | — |
-| `ch10-paragraph02` | paragraph 2 | Organik moddalarning tuzilish nazariyasi | 7–11 | 7:full – 11:full | 7 | not_authored | ch10-paragraph01 |
-| `ch10-paragraph03` | paragraph 3 | Izomeriya va uning turlari | 11–15 | 11:full – 15:full | 11 | not_authored | ch10-paragraph02 |
-| `ch10-paragraph04` | paragraph 4 | Organik birikmalarning sinflanishi. Organik birikmalarga xos reaksiya turlari | 15–21 | 15:full – 21:full | 15 | not_authored | ch10-paragraph03 |
+| `ch10-paragraph01` | paragraph 1 | Organik kimyo tarixi. Organik birikmalarning o‘ziga xos xususiyatlari | 4–7 | 4:full – 7:full | 4 | reviewed local lesson; scoped editorial review remains open | — |
+| `ch10-paragraph02` | paragraph 2 | Organik moddalarning tuzilish nazariyasi | 7–11 | 7:full – 11:full | 7 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph01 |
+| `ch10-paragraph03` | paragraph 3 | Izomeriya va uning turlari | 11–15 | 11:full – 15:full | 11 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph02 |
+| `ch10-paragraph04` | paragraph 4 | Organik birikmalarning sinflanishi. Organik birikmalarga xos reaksiya turlari | 15–21 | 15:full – 21:full | 15 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph03 |
 | `ch10-chapter02` | chapter 2 | Uglevodorodlar | 21–77 | 21:full – 77:full | 21 | not_authored | — |
-| `ch10-paragraph05` | paragraph 5 | Alkanlarning umumiy formulasi va gomologik qatori. Ratsional nomenklatura | 21–26 | 21:full – 26:full | 21 | not_authored | ch10-paragraph04 |
+| `ch10-paragraph05` | paragraph 5 | Alkanlarning umumiy formulasi va gomologik qatori. Ratsional nomenklatura | 21–26 | 21:full – 26:full | 21 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph04 |
 | `ch10-paragraph06` | paragraph 6 | Alkanlarning xalqaro nomenklatura bo‘yicha nomlanishi. Izomeriyasi | 26–31 | 26:full – 31:full | 26 | not_authored | ch10-paragraph05 |
 | `ch10-paragraph07` | paragraph 7 | Alkanlarning olinishi va fizik xossalari | 31–33 | 31:full – 33:full | 31 | not_authored | ch10-paragraph06 |
 | `ch10-paragraph08` | paragraph 8 | Alkanlarning kimyoviy xossasi. Ishlatilishi | 33–36 | 33:full – 36:full | 33 | not_authored | ch10-paragraph07 |
