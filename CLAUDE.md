@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika 7-sinf46/46 tekshirildi:** umumiy **107/316;209qolgan** (8:60,9:59,10:45,11:45). §41–46 qo‘shildi:6dars(1raqamli lab)/26karta/17formula yozuvi/7misol/43topshiriq/21FRQ. Jami450karta/164formula yozuvi/114misol/698topshiriq/221FRQ,139executable oila;287noyoboriginalsahifa/293pagechecks. To‘liq backend **795passed/4opt-in skipped/13existingwarnings302.11s**; dastlab794pass/1stale101countfailure tuzatilib to‘liq qayta o‘tdi. ActualPG16 **2passed39.55s**,107lesson/import/reimport/1070XP/concurrentfirstpass/legacyprogress; actualTCPHTTP107lesson/698javob/221FRQ/1070XP/replay/privatekeyyo‘q. Flutter **145passed**,analyze0issue2.2s,normalJSwebbuild3.1s. **6-sinf61/61 va7-sinf46/46 authored; boshqa4sinf0.** Keyingi **8-sinf§1PDF/bosma4**, segmentmanifest/OCR manbaidentityadapteri kerak; asl4–22sahifalar/privateOCRhashlar tekshirildi, darslari hali0. `GRADE7_VALIDATION.json` vaSTAGE2_PROGRESS exactcheckpoint. Fizika lokal/testonly; missing7introaccepted, independentexpert/nativeAndroid/prodpublicationyo‘q. Biology406/website/Kimyo/AIExplainsaqlandi.
+
+
 > **2026-10-25 — Fizika 7-sinf §36–40:** **101/316;215qolgan**,7-sinf40/46.5dars(1raqamli lab)/22karta/9formula yozuvi/5misol/34topshiriq/18FRQ; jami424karta/147formula yozuvi/107misol/655topshiriq/200FRQ,130qoidaoilasi. Signedimpuls/Δp/yopishish/recoil/kuchproyeksiyaishi; N*s=kg*m/s,MJ; eski unsigneddomenlar saqlandi.210backendPhysics/Biologytest50.48s; actualPG1passed27.02s101lesson/1010XP/legacyprogress; FlutterPhysics19passed112publicFRQ320px/200%.271noyoboriginalsahifa. Keyingi **§41PDF145/bosma152**. Barcha316tayyoremas; Biology/Web/Kimyo/AIExplain/prodga tegilmadi.
 
 

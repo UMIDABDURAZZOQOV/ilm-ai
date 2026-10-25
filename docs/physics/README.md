@@ -1,5 +1,14 @@
 # Fizika — manba xaritalari va lokal interaktiv sinov
 
+**Joriy holat —2026-10-25:** **107/316 lokal/test dars/faoliyat,209qolgan**.
+6-sinf61/61 va7-sinf46/46;8–11hali0.450karta/698topshiriq/221FRQ.
+Fullbackend795passed/4skipped, actualPG2passed, actualHTTP107/1070XP,
+Flutter145passed/analyze/webJSbuild. NativeAndroid/mustaqil ekspert va
+productionnashr bajarilmagan. Keyingi8-sinf§1PDF4, yangi tasdiq kutilmaydi.
+[GRADE7_VALIDATION.json](GRADE7_VALIDATION.json) va
+[STAGE2_PROGRESS.md](STAGE2_PROGRESS.md) — joriy checkpoint.
+Quyidagi2026-10-22 sanoqlar tarixiy.
+
 **Davom etayotgan ish — 2026-10-22:** barcha 316 bo‘lim uchun mualliflik ruxsati
 berilgan. Hozir **35 lokal dars/faoliyat**, 145 karta / 236 topshiriq / 68 FRQ;
 **281 bo‘lim qolgan**. Oraliq tasdiq kutilmaydi. Joriy sanoqlar, manba/ilmiy

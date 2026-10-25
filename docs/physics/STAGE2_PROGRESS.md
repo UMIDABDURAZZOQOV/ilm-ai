@@ -679,3 +679,54 @@ baytlari va Biology406 saqlandi; website/Kimyo/production/AIExplainyo‘q.
 energiya»,PDF145/bosma152**. §41–46PDF145–161aslmatn/tasvirlari
 mualliflik uchun qayta ko‘rildi; hali authoredemas. NativeAndroid va
 mustaqil ekspert tekshiruvi hali bajarilmagan. Tasdiq kutmasdan davom.
+
+
+## 7-sinf §41–46 va sinf yakuniy QA — 2026-10-25
+
+6yangi dars/faoliyat(1raqamli lab),26karta,17formula yozuvi,7misol,
+43topshiriq(20MCQ+2tartib+21FRQ). PDF/bosma:§41 145–148/152–155;
+§42 148–150/155–157;§43 150–155/157–162;§44 155–156/162–163;
+§45 156–158/163–165;§46 159–161/166–168.17asl sahifa matn/tasvir;
+audit293pagechecks/287noyob.9yangi executable oila,jami139. Gmgh va
+gravitatsiya ishi−deltaEp,deltaEk netish, konservativ mechanicalbalance,
+chiziqli kx²/2, N=Fv/Nv inverse va craneFIK. Kichik mW/kW/MW,
+W*s=J registri. SourcePDF147ishora/prose,PDF153yopiqsistemadaharqanday
+mexaniksaqlanish,PDF157gWprefix vaPDF160kran24/27mtafovutlari reviewda.
+Raqamli rollinglab ilgarilanma mv²/2 ni barchaaylanish/urilish energiyasi
+deb olmaydi. Qarshilikda mexanik qism kamayishi umumiyenergiya yo‘qolishiemas.
+
+### Shu sinf uchun haqiqiy tekshiruvlar
+
+- **To‘liq backend795passed/4opt-in skipped/13oldwarnings302.11s.** Dastlab
+ 794passed/1coverageassertfail304.58s: formatterdan so‘ng tuple101/215
+ qolgan, haqiqiy content107/209 edi. Expectation tuzatildi, focusedtest
+ o‘tdi va butun suite qayta795pass bo‘ldi; hech qanday runtimefail yashirilmadi.
+- **ActualPG16 2passed39.55s:** alohida schemas, additivefirstbatchmigration,
+ all107import/reimport,1070XP,replay va concurrentfirstpass XP1marta,
+ eski137XP/3streak/2stars saqlandi. Boshqa2stagingtest bu sinfdaopt-in
+ sifatida alohida qayta bajarilmadi; ular fullsuiteda skipped. ProductionDByo‘q.
+- **ActualTCPHTTP107lesson(6:61,7:46)/698javob/221mustaqilsonlioracle/
+ 1070XP.** Bir javob/complete replay teng; maxfiyrubrika clientgachiqmadi.
+ Server127.0.0.1:8889, disposableprivatedb, sinovdan so‘ng to‘xtatildi.
+- **Flutter145passed**, analyze0issue2.2s; JSreleasewebbuild3.1s.133ta
+ grade7publicFRQ320px/200% da signedqoralama. AndroidSDK/realAndroid
+ test va mustaqil pedagogik ekspertiza bajarilmadi; WASM successda’vosi yo‘q.
+- Source-map/batchhashaudit yuqoridagi287sahifa, grade6frozen61 va
+ oldgrade7batchesbaytlari, Biology406/47checkpoint/2527karta/2609savol
+ kontenti o‘zgarmadi. Website/Kimyo/production/AIExplainyo‘q.
+
+**6-sinf61/61;7-sinf46/46. Umumiy107/316;209qolgan.**
+7-sinf196karta/90formula yozuvi/47misol/304topshiriq/133FRQ/5raqamli lab.
+Jami450karta/164formula yozuvi/114misol/698topshiriq/221FRQ.
+8-sinf0/60,9-sinf0/59,10-sinf0/45,11-sinf0/45. 7-sinfmissingbosma1–7
+foydalanuvchi qabul qilgan doiraga ko‘ra nonblocking, ularning mazmuni
+o‘ylab topilmadi. NativeAndroid/independentexpert/generalpublicationyo‘q.
+
+**Keyingi aniq nuqta:8-sinf§1«Jismlarning zaryadlanishi»,PDF/bosma4.**
+Avval sourceidentityadapter:8/9books orderedPDFsegments, source_set_sha256
+butunPDFhashi emas; nativeemptytext va cachedOCRdigest alohida. Mavjud
+source maps/PDFqismlar/fingerprints saqlansin. Original8PDF4–22 rasmlari,
+noaniq11/14/15/20sahifa to‘liq kattalashtirib ko‘rildi; barcha19OCR/nativeraster
+hashlari tekshirildi. Bu darslari authored degani emas. Yangi ruxsat
+kutmasdan8-sinf1–5partiya bilan davom etish. `GRADE7_VALIDATION.json`
+saqlangan QAcheckpoint, Gitlog oxirgi featurecommitlarni ko‘rsatadi.

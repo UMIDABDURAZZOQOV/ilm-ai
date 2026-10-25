@@ -88,6 +88,10 @@ UNITS = {
     "N*s": ("momentum", Fraction(1)),
     # Grade7 PDF141: megajoule is explicitly taught.
     "MJ": ("energy", Fraction(1000000)),
+    # Grade7 PDF157: correct case-sensitive SI prefixes, not gW.
+    "mW": ("power", Fraction(1, 1000)),
+    "MW": ("power", Fraction(1000000)),
+    "W*s": ("energy", Fraction(1)),
 }
 UNIT_ALIASES = {
     "metr": "m",

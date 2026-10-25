@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 101,
-  "remaining": 215,
+  "authored": 107,
+  "remaining": 209,
   "grades": [
     {
       "grade": 6,
@@ -22,16 +22,16 @@
     {
       "grade": 7,
       "source_sections": 46,
-      "authored": 40,
-      "remaining": 6,
-      "cards": 170,
-      "formula_entries": 73,
-      "examples": 40,
-      "assessments": 261,
-      "frq": 112,
-      "laboratories": 4,
+      "authored": 46,
+      "remaining": 0,
+      "cards": 196,
+      "formula_entries": 90,
+      "examples": 47,
+      "assessments": 304,
+      "frq": 133,
+      "laboratories": 5,
       "practicals": 0,
-      "next_section": 41
+      "next_section": null
     },
     {
       "grade": 8,
@@ -90,20 +90,38 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 276,
+  "original_page_checks": 293,
   "date": "2026-10-25",
   "next": {
-    "grade": 7,
-    "section": 41,
-    "pdf_page": 145,
-    "printed_page": 152
+    "grade": 8,
+    "section": 1,
+    "pdf_page": 4,
+    "printed_page": 4
   },
-  "unique_original_pages_reviewed": 271,
+  "unique_original_pages_reviewed": 287,
   "tests": {
-    "selected_backend_and_biology_passed": 210,
-    "backend_seconds": 50.48,
-    "postgresql16_passed": 1,
-    "postgresql_seconds": 27.02,
-    "flutter_physics_passed": 19
-  }
+    "full_backend_passed": 795,
+    "full_backend_skipped": 4,
+    "existing_warnings": 13,
+    "backend_seconds": 302.11,
+    "postgresql16_passed": 2,
+    "postgresql_seconds": 39.55,
+    "flutter_full_passed": 145,
+    "flutter_analyze": "No issues found (2.2s)",
+    "flutter_web_release": "JS build passed (3.1s)",
+    "actual_http": {
+      "http_lessons": 107,
+      "grades": {
+        "6": 61,
+        "7": 46
+      },
+      "correct_answers": 698,
+      "independent_numeric_answers": 221,
+      "xp_awarded_this_run": 1070,
+      "xp_total": 1070,
+      "all_replays_equal": true,
+      "private_rubrics_absent": true
+    }
+  },
+  "native_android": "not_run_sdk_absent"
 }

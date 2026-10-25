@@ -1,0 +1,127 @@
+{
+  "publication": "local_test_preview_only",
+  "independent_expert": "not_claimed",
+  "source_total": 316,
+  "authored": 107,
+  "remaining": 209,
+  "grades": [
+    {
+      "grade": 6,
+      "source_sections": 61,
+      "authored": 61,
+      "remaining": 0,
+      "cards": 254,
+      "formula_entries": 74,
+      "examples": 67,
+      "assessments": 394,
+      "frq": 88,
+      "laboratories": 7,
+      "practicals": 1,
+      "next_section": null
+    },
+    {
+      "grade": 7,
+      "source_sections": 46,
+      "authored": 46,
+      "remaining": 0,
+      "cards": 196,
+      "formula_entries": 90,
+      "examples": 47,
+      "assessments": 304,
+      "frq": 133,
+      "laboratories": 5,
+      "practicals": 0,
+      "next_section": null
+    },
+    {
+      "grade": 8,
+      "source_sections": 60,
+      "authored": 0,
+      "remaining": 60,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 9,
+      "source_sections": 59,
+      "authored": 0,
+      "remaining": 59,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 10,
+      "source_sections": 45,
+      "authored": 0,
+      "remaining": 45,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    },
+    {
+      "grade": 11,
+      "source_sections": 45,
+      "authored": 0,
+      "remaining": 45,
+      "cards": 0,
+      "formula_entries": 0,
+      "examples": 0,
+      "assessments": 0,
+      "frq": 0,
+      "laboratories": 0,
+      "practicals": 0,
+      "next_section": 1
+    }
+  ],
+  "original_page_checks": 293,
+  "date": "2026-10-25",
+  "next": {
+    "grade": 8,
+    "section": 1,
+    "pdf_page": 4,
+    "printed_page": 4
+  },
+  "unique_original_pages_reviewed": 287,
+  "tests": {
+    "full_backend_passed": 795,
+    "full_backend_skipped": 4,
+    "existing_warnings": 13,
+    "backend_seconds": 302.11,
+    "postgresql16_passed": 2,
+    "postgresql_seconds": 39.55,
+    "flutter_full_passed": 145,
+    "flutter_analyze": "No issues found (2.2s)",
+    "flutter_web_release": "JS build passed (3.1s)",
+    "actual_http": {
+      "http_lessons": 107,
+      "grades": {
+        "6": 61,
+        "7": 46
+      },
+      "correct_answers": 698,
+      "independent_numeric_answers": 221,
+      "xp_awarded_this_run": 1070,
+      "xp_total": 1070,
+      "all_replays_equal": true,
+      "private_rubrics_absent": true
+    }
+  },
+  "native_android": "not_run_sdk_absent"
+}

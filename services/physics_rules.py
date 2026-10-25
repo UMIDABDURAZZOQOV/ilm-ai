@@ -1,4 +1,4 @@
-"""Reviewed grade-six formula families and independent SI arithmetic oracles.
+"""Source-reviewed Physics formula families and independent SI arithmetic oracles.
 
 No runtime evaluation of the submitted formula, no general CAS/equivalence
 claim. Each alternative has a stated source domain. The content validator
@@ -20,6 +20,60 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "potential7": rule(
+        "Ep",
+        ["m", "g", "h"],
+        ["m*g*h", "g*m*h"],
+        "Tanlangan nol sathdan h>=0,berilgan doimiyg9.8/10;7sinfPDF146–148.",
+    ),
+    "gravity_work7": rule(
+        "A",
+        ["m", "g", "h1", "h2"],
+        ["m*g*(h1-h2)", "m*g*h1-m*g*h2"],
+        "Faqat og‘irlik kuchi ishi,doimiyg, tanlangan sathdan h1,h2>=0;7sinfPDF147.",
+    ),
+    "kinetic_change": rule(
+        "A",
+        ["m", "v1", "v2"],
+        ["m*(v2^2-v1^2)/2", "m*v2^2/2-m*v1^2/2"],
+        "Natijaviy kuch ishi,o‘zgarmas m,tezlik MODULLARI;7sinfPDF149–150.",
+    ),
+    "mechanical_total7": rule(
+        "E",
+        ["m", "g", "h", "v"],
+        ["m*g*h+m*v^2/2", "0.5*m*v*v+m*g*h"],
+        "Nuqta jism+Yer translational va gravitational energiyasi,doimiyg;7sinfPDF150–154.",
+    ),
+    "spring_energy": rule(
+        "Ep",
+        ["k", "x"],
+        ["k*x^2/2", "0.5*k*x*x"],
+        "Chiziqli elastik prujina,k>0,x deformatsiya moduli;7sinfPDF153.",
+    ),
+    "kinetic_balance": rule(
+        "Ek2",
+        ["Ek1", "Ep1", "Ep2"],
+        ["Ek1+Ep1-Ep2", "Ep1-Ep2+Ek1"],
+        "Konservativ model,no dissipative/externalwork,Ek2>=0;7sinfPDF152–154.",
+    ),
+    "parallel_power": rule(
+        "N",
+        ["F", "v"],
+        ["F*v", "v*F"],
+        "Harakat tomonidagi kuchning quvvati,F,v>=0;7sinfPDF157.",
+    ),
+    "power_force": rule(
+        "F",
+        ["N", "v"],
+        ["N/v", "N*v^-1"],
+        "Parallel tortish foydali quvvati N, v>0;7sinfPDF157–158.",
+    ),
+    "crane_efficiency7": rule(
+        "eta",
+        ["m", "g", "h", "N", "t"],
+        ["m*g*h/(N*t)", "m*g*h/N/t"],
+        "Af=mgh,Au=N*t,kirish N>0,t>0,eta<=1;7sinfPDF160.",
+    ),
     "linear_momentum": rule(
         "p",
         ["m", "v"],
@@ -966,6 +1020,41 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name in {
+        "potential7",
+        "gravity_work7",
+        "mechanical_total7",
+        "crane_efficiency7",
+    }:
+        m, g = positive("m", "mass"), positive("g", "acceleration")
+        if g not in {Fraction("9.8"), Fraction(10)}:
+            raise ValueError("explicit_grade7_energy_g")
+        if name == "gravity_work7":
+            return m * g * (value("h1", "length") - value("h2", "length")), "energy"
+        e = m * g * value("h", "length")
+        if name == "potential7":
+            return e, "energy"
+        if name == "mechanical_total7":
+            return e + m * value("v", "speed") ** 2 / 2, "energy"
+        eta = e / (positive("N", "power") * positive("t", "time"))
+        if eta > 1:
+            raise ValueError("efficiency_exceeds_one")
+        return eta, "dimensionless"
+    if name == "kinetic_change":
+        return positive("m", "mass") * (
+            value("v2", "speed") ** 2 - value("v1", "speed") ** 2
+        ) / 2, "energy"
+    if name == "spring_energy":
+        return positive("k", "stiffness") * value("x", "length") ** 2 / 2, "energy"
+    if name == "kinetic_balance":
+        e = value("Ek1", "energy") + value("Ep1", "energy") - value("Ep2", "energy")
+        if e < 0:
+            raise ValueError("negative_kinetic_energy")
+        return e, "energy"
+    if name == "parallel_power":
+        return value("F", "force") * value("v", "speed"), "power"
+    if name == "power_force":
+        return value("N", "power") / positive("v", "speed"), "force"
     if name == "linear_momentum":
         return positive("m", "mass") * projection("v", "speed"), "momentum"
     if name == "force_impulse":
