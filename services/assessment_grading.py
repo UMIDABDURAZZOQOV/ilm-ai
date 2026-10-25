@@ -73,6 +73,8 @@ UNITS = {
     "1/m": ("optical_power", Fraction(1)),
     "Hz": ("frequency", Fraction(1)),
     "kHz": ("frequency", Fraction(1000)),
+    "m/s2": ("acceleration", Fraction(1)),
+    "cm/s2": ("acceleration", Fraction(1, 100)),
 }
 UNIT_ALIASES = {
     "metr": "m",

@@ -20,6 +20,24 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "constant_acceleration": rule(
+        "a",
+        ["v", "v0", "t"],
+        ["(v-v0)/t", "v/t-v0/t"],
+        "Bir o‘qdagi musbat tezliklar, t>0; a ishorali proyeksiya;7sinfPDF31–33/bosma38–40.",
+    ),
+    "accelerated_velocity": rule(
+        "v",
+        ["v0", "a", "t"],
+        ["v0+a*t", "a*t+v0"],
+        "Doimiy ishorali a, t>=0, v0>=0; to‘xtashgacha v>=0 branch;7sinfPDF34–35/bosma41–42.",
+    ),
+    "linear_mean_speed": rule(
+        "v_ort",
+        ["v0", "v"],
+        ["(v0+v)/2", "v0/2+v/2"],
+        "Faqat doimiy tezlanish va yo‘nalish almashmasligi; ikkala endpoint tezlik>=0;7sinfPDF35–36/bosma42–43.",
+    ),
     "codirectional_speed": rule(
         "v",
         ["v1", "v2"],
@@ -384,6 +402,7 @@ DIMENSION_UNIT = {
     "voltage": "V",
     "optical_power": "dptr",
     "frequency": "Hz",
+    "acceleration": "m/s2",
 }
 
 
@@ -552,6 +571,22 @@ def reviewed_calculation(question):
             "S1", "area"
         ), "force"
 
+    if name == "constant_acceleration":
+        return (value("v", "speed") - value("v0", "speed")) / positive(
+            "t", "time"
+        ), "acceleration"
+    if name == "accelerated_velocity":
+        given = givens["a"]
+        unit = UNITS.get(given["unit"])
+        if not unit or unit[0] != "acceleration":
+            raise ValueError("acceleration_given_unit")
+        acceleration = numeric(given["value"]) * unit[1]
+        result = value("v0", "speed") + acceleration * value("t", "time")
+        if result < 0:
+            raise ValueError("before_stop_velocity_domain")
+        return result, "speed"
+    if name == "linear_mean_speed":
+        return (value("v0", "speed") + value("v", "speed")) / 2, "speed"
     if name == "codirectional_speed":
         return value("v1", "speed") + value("v2", "speed"), "speed"
     if name in {"codirectional_length", "opposed_length"}:

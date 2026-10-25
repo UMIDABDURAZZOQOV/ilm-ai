@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika7-sinf§6–10:** umumiy **71/316,245qolgan**,7-sinf10/46. Yangi5dars/20karta/35topshiriq/15FRQ; jami297karta/88formula yozuvi/77misol/461topshiriq/112FRQ. Signedaccelerationvaunitm/s²/cm/s²,constantaccelvelocity/endpointmeanchegaralari;73formulaoila.123backendPhysics/Biologytestpassed, actualPG1passed14.02s71lesson/710XP/legacyprogresssaqlandi. FlutterPhysics19passed,24taFRQ320px/200%manfiydraft. Oldingi kengFlutter145passed/web47.1s. Keyingi **§11PDF37/bosma44**. Batchreview va STAGE2_PROGRESSdavomnuqtasini saqlaydi.6-sinf61dars/Web/Kimyo/prodga tegilmadi,316tayyordeyilmaydi.
+
+
 > **2026-10-25 — Fizika7-sinf§1–5:** 5yangi manbali dars/23karta/5misol/32topshiriq/9FRQ; **umumiy66/316,250qolgan**.7-sinf5/46;6-sinf61dars o‘zgarmadi.21originalsahifa qayta ko‘rildi,159umumiy sahifa hash audit;70executable oila. Gradepicker/bibliografiya servergradeparametr bilan va(grade,section,q)oracleidentityoldindan tayyorlandi.117backendPhysics/Biologytestpassed; actualPG1passed14.76s66lesson/import/reimport660XP/legacy137XPsaqlandi. FlutterPhysics19passed/analyze0issue. FullFlutter/buildnatijalari keyingi qaydda. Keyingi **7-sinf§6PDF21/bosma28**; oraliq tasdiq kutilmaydi. `docs/physics/STAGE2_PROGRESS.md` va batchreview — aniq davom. NativeAndroid/ekspert/prodnashr tasdig‘i yo‘q.
 
 

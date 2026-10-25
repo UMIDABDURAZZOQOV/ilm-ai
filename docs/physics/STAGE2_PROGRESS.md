@@ -14,12 +14,12 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 6 | 61 | 61 | 0 | 254 | 74 | 67 | 394 | 88 | 7 / 1 |
-| 7 | 46 | 5 | 41 | 23 | 6 | 5 | 32 | 9 | 0 / 0 |
+| 7 | 46 | 10 | 36 | 43 | 14 | 10 | 67 | 24 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 66 | 250 | 277 | 80 | 72 | 426 | 97 | 7 / 1 |
+| Jami | 316 | 71 | 245 | 297 | 88 | 77 | 461 | 112 | 7 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
 soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
@@ -475,3 +475,34 @@ o‘tdi; analyze0issue. FullFlutter **145passed**; normalJSreleasebuild natijasi
 Keyingi **7-sinf§6«To‘g‘ri chiziqli tekis harakat tezligi»,PDF21/bosma28**.
 §6–10PDF21–37 matnlari o‘qildi, rasmlari hali mualliflikdan oldin tekshirilsin.
 Oraliq tasdiq so‘ralmaydi. Kimyo/Biology/veb/prod/PDFtarqatish/AIExplain yo‘q.
+
+
+## 7-sinf§6–10 —2026-10-25
+
+Yana5dars/20karta/8formula yozuvi/5misol/35topshiriq(20MCQ+15FRQ).
+Manba PDF/bosma:§6 21–25/28–32;§7 25–27/32–34;§8 27–30/34–37;
+§9 30–33/37–40;§10 33–37/40–44.17asl sahifa matn/tasvir bilan
+tekshirildi; umumiy175noyob sahifa hash audit(sahifa21 oldingi partiyada
+ham bor).`grade7_batch2.json` va `_review.json`.
+
+Doimiy tezlanish, signeda, v=v0+a*t, endpointmean(onlyconstantaccel/no
+reversal) qo‘shildi;73executable oila. m/s2 va cm/s2 exact birliklar,
+manfiy sonli acceleration javobi qabul qilinadi; eski nonnegative
+domenlar globally bo‘shatilmagan. Sonli velocity modeli to‘xtashgacha;
+result<0 bo‘lsa source branch rad etiladi. O‘rtacha tezlik jami yo‘l/
+jami vaqt; to‘xtash vaqti ham kiradi. Grafik o‘qlari/masshtabi va qisqa
+oraliqdagi taqribiy oniy qiymat farqlandi. PDF29dagi6minvs10mingrafik
+nomuvofiqligi vaPDF36dagi35/36rasm reference xatosi kalitga ko‘chirilmagan.
+
+Physics/Biology/identity **123passed34.47s**, barcha71dars HTTP/replay
+710XP. Alohida haqiqiyPG16 **1passed14.02s**:71lesson/import/reimport,
+legacy137XP/3streak/2stars saqlandi. FlutterPhysics **19passed**;
+24ta grade7publicFRQ320px/200% da manfiy sonli qoralamani saqladi.
+Avvalgi partiya kengFlutter145passed, webrelease47.1s o‘tgan.
+§6–10 uchun yangi nativeAndroid yoki mustaqil faneksperti da’vosi yo‘q.
+
+**71/316;245qolgan.7-sinf10/46,36qolgan.**
+Keyingi§11«Tekis o‘zgaruvchan harakatda bosib o‘tilgan yo‘l»
+**PDF37/bosma44**.§11–15PDF37–52 matn/tasvirlari keyingi mualliflik
+uchun qayta ko‘rilsin; hozir37–49matni o‘qildi, bu authoredemas.
+6-sinf61dars va 7-sinfoldingi5dars qayta yaratilmaydi.

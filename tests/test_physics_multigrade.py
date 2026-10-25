@@ -15,10 +15,10 @@ def test_numeric_oracle_does_not_fall_back_to_another_grade(monkeypatch):
     lesson = deepcopy(load_batch("grade6_batch2")["lessons"][1])
     q = lesson["assessments"][5]
     old = new_answer(lesson, q)
-    lesson["topic_id"] = "physics-7-section-9"
+    lesson["topic_id"] = "physics-8-section-9"
     with pytest.raises(KeyError):
         new_answer(lesson, q)
-    monkeypatch.setitem(NUMERIC_ORACLES, (7, 9, 6), ("123", "m", "s"))
+    monkeypatch.setitem(NUMERIC_ORACLES, (8, 9, 6), ("123", "m", "s"))
     assert new_answer(lesson, q) == {"value": "123", "unit": "m", "formula": "s"}
     assert old["value"] == "0.0000000003"
 

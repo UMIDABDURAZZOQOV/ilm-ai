@@ -167,6 +167,26 @@ NUMERIC_ORACLES.update(
     }
 )
 
+NUMERIC_ORACLES.update(
+    {
+        (7, 6, 5): ("8", "m/s", "s/t"),
+        (7, 6, 6): ("18", "km/h", "s/t"),
+        (7, 7, 5): ("42", "m", "t*v"),
+        (7, 7, 6): ("30", "s", "s/v"),
+        (7, 7, 7): ("3.6", "km", "v*t"),
+        (7, 8, 5): ("3", "m/s", "(s1+s2)/(t1+t2)"),
+        (7, 8, 6): ("4", "m/s", "(s1+s2)/(t1+t2)"),
+        (7, 8, 7): ("6", "m/s", "s/t"),
+        (7, 9, 5): ("300", "cm/s2", "(v-v0)/t"),
+        (7, 9, 6): ("-3", "m/s²", "(v-v0)/t"),
+        (7, 9, 7): ("200", "cm/s2", "v/t-v0/t"),
+        (7, 10, 5): ("11", "m/s", "v0+a*t"),
+        (7, 10, 6): ("6", "m/s", "a*t+v0"),
+        (7, 10, 7): ("9", "m/s", "(v0+v)/2"),
+        (7, 10, 8): ("43.2", "km/h", "v0/2+v/2"),
+    }
+)
+
 
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
@@ -183,8 +203,8 @@ def test_original_frozen_content_and_honest_course_coverage():
         == "8d13627ce9275bda5a402b86d4ea94d67b1892c1538189c88dcc51891a3c6a78"
     )
     data = report()
-    assert (data["authored"], data["remaining"], data["source_total"]) == (66, 250, 316)
-    assert [r["authored"] for r in data["grades"]] == [61, 5, 0, 0, 0, 0]
+    assert (data["authored"], data["remaining"], data["source_total"]) == (71, 245, 316)
+    assert [r["authored"] for r in data["grades"]] == [61, 10, 0, 0, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -194,7 +214,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 10
+    assert len(load_course()) == 11
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -296,7 +316,7 @@ def test_all_seventeen_http_lessons_replay_append_and_private_keys(preview):
     assert cat["grade_content_complete"] and len(cat["lessons"]) == 61
     assert [
         r["state"] for r in client.get(f"{PREFIX}/catalog?grade=7").json()["lessons"]
-    ] == ["available"] + ["locked"] * 4
+    ] == ["available"] + ["locked"] * 9
     assert client.get(f"{PREFIX}/catalog?grade=12").status_code == 422
     for lesson in load_batch("grade6_batch2")["lessons"]:
         response = start(client, lesson["sequence"])
@@ -391,7 +411,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 660
+        assert db.get(User, 1).xp_total == 710
 
 
 @pytest.mark.parametrize(
