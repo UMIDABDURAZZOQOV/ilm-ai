@@ -20,6 +20,48 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "orbit_altitude": rule(
+        "h",
+        ["v", "g", "R"],
+        ["v^2/g-R", "v*v/g-R"],
+        "Ideal aylana orbita,g ayni orbitada,h>=0;7sinfPDF105.",
+    ),
+    "static_balance": rule(
+        "f",
+        ["F", "Fmax"],
+        ["F", "1*F"],
+        "Gorizontal tinch muvozanat,0<=F<=Fmax; Fmax berilgan chegaraviy modul;7sinfPDF108–111.",
+    ),
+    "sliding_force": rule(
+        "f",
+        ["mu", "N"],
+        ["mu*N", "N*mu"],
+        "Sirpanayotgan sirtlar oddiy Coulomb modeli,N>0,mu>=0;7sinfPDF112.",
+    ),
+    "sliding_coefficient": rule(
+        "mu",
+        ["f", "N"],
+        ["f/N", "f*N^-1"],
+        "Sirpanishda f>=0,N>0; birliksiz;7sinfPDF112.",
+    ),
+    "rolling_force": rule(
+        "f",
+        ["c", "P", "r"],
+        ["c*P/r", "P*c/r"],
+        "Kitob dumalash modeli,c uzunlik birligida,P>0,r>0;7sinfPDF114.",
+    ),
+    "sliding_lab_mu": rule(
+        "mu",
+        ["F", "m", "g"],
+        ["F/(m*g)", "F/m/g"],
+        "Gorizontal tekis tortish,vertikal a0, F sirpanish kuchi,g10berilgan;7sinfPDF112,115–116.",
+    ),
+    "mean_mu3": rule(
+        "mu_ort",
+        ["mu1", "mu2", "mu3"],
+        ["(mu1+mu2+mu3)/3", "mu1/3+mu2/3+mu3/3"],
+        "Bir xil sirtlar juftining uch sirpanish koeffitsiyenti;7sinfPDF116.",
+    ),
     "gravity_pair": rule(
         "F",
         ["G", "m1", "m2", "r"],
@@ -867,6 +909,34 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "orbit_altitude":
+        h = positive("v", "speed") ** 2 / positive("g", "acceleration") - positive(
+            "R", "length"
+        )
+        if h < 0:
+            raise ValueError("orbital_altitude_above_surface")
+        return h, "length"
+    if name == "static_balance":
+        f, limit = value("F", "force"), value("Fmax", "force")
+        if f > limit:
+            raise ValueError("static_limit_exceeded")
+        return f, "force"
+    if name == "sliding_force":
+        return value("mu", "dimensionless") * positive("N", "force"), "force"
+    if name == "sliding_coefficient":
+        return value("f", "force") / positive("N", "force"), "dimensionless"
+    if name == "rolling_force":
+        return value("c", "length") * positive("P", "force") / positive(
+            "r", "length"
+        ), "force"
+    if name == "sliding_lab_mu":
+        if value("g", "acceleration") != 10:
+            raise ValueError("explicit_sliding_lab_g_is_10")
+        return value("F", "force") / (positive("m", "mass") * 10), "dimensionless"
+    if name == "mean_mu3":
+        return sum(
+            (value(k, "dimensionless") for k in ("mu1", "mu2", "mu3")), Fraction()
+        ) / 3, "dimensionless"
     if name in {"gravity_pair", "altitude_gravity"}:
         constant = positive("G", "gravitation_constant")
         if constant != Fraction("6.67e-11"):

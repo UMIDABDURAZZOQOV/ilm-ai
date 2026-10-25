@@ -621,3 +621,33 @@ Biology406/grade6/grade7old25 JSON o‘zgarmadi, website/Kimyoga tegilmadi.
 yo‘ldoshlari»,PDF105/bosma112**. PDF105–120matni keyingi§31–35 uchun
 o‘qildi; rasmlar mualliflikdan avval tekshirilsin. NativeAndroid va
 mustaqil pedagogik tasdiq yo‘q. Oraliq tasdiq kutmasdan davom etiladi.
+
+
+## 7-sinf §31–35 — 2026-10-25
+
+5dars/faoliyat(1raqamli lab),22karta,7formula yozuvi,5misol,31topshiriq
+(18MCQ+3tartib+10FRQ). PDF/bosma:§31 105–108/112–115;
+§32 108–111/115–118;§33 111–115/118–122;§34 115–116/122–123;
+§35 116–120/123–127.16asl sahifa matn/tasvir tekshirildi;
+audit256pagechecks/251noyob.7yangi executable oila,jami122.
+Tinch ishqalanish f=F muvozanatda Fmaxgacha, f=k*F_applied universal
+emas. Yo‘nalish nisbiy sirpanish/tendensiyaga qarshi, yurishda jismni
+oldinga tezlatishi mumkin. Dumalash c uzunlik birligida, sirpanish mu
+birliksiz. c doimradiusbilanortadi sourcexulosasi olinmadi. Labdagi
+printed121(4) noto‘g‘ri dumalash havolasi o‘rniga PDF112/printed119
+sirpanish formulasi aniq topic33 identifikatori bilan cited. Buning
+uchun source validator istisnosi qo‘shilmadi. Real tajriba da’vosi yo‘q.
+Satellite300km/7.7km/s universalminimum emas; shartli idealorbita
+originalmisoli, tarix1957→1961→1969. SourceApolloqo‘nish/firststep
+sana farqi kalitda aralashmadi. Qualitativeengineering darsida sun’iyFRQyo‘q.
+
+BackendPhysics/source/identity/Biology **204passed48.91s**, barcha96dars
+ASGIHTTP/replay960XP.10mustaqiloracle, staticchegaradan oshish, rolling
+unit/radius, labmass/g va manba-topic identity tekshirildi. ActualPG16
+**1passed26.99s**,96import/reimport960XP/legacy137XP/3streak/2stars.
+FlutterPhysics **19passed**,94publicFRQ320px/200%signeddraft.
+**96/316;220qolgan.7-sinf35/46,11qolgan.** Keyingi **§36«Impuls»,
+PDF123/bosma130**. PDF123–136,140–145 aslmatn/tasvirlari keyingi
+§36–40 muallifligi uchun ko‘rildi, hali authoredemas. Eski kontent
+baytlari/406Biology/website/Kimyo saqlandi. NativeAndroid/independent
+expert/prodclaim yo‘q. Navbatdagi partiyaga tasdiq kutmasdan o‘tiladi.
