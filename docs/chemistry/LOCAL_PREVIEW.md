@@ -322,3 +322,68 @@ carbon2p6legend/fullerenecount/classicalphase constants,coalcurrentstatistics/
 medicaladsorption andunlimitedheat/combustion claims need visible review.
 Exactprovided textbookconstants fromearliergrade mayneed narrowly validated
 explicitcrossgrade sourcecontexts;currentlyownbookonly. Do not fill bymemory.
+
+
+## Batch28 — 2026-10-25: grade9 paragraphs6–10
+
+**143/268 implemented,125 remain. Grade9 10/61;7/8 all74/59 mapped entries.**
+New5 add72 cards/124 questions:23 MCQ,10 short,26 numeric,21 formula,44
+equation. Total1171 cards/1739 questions:561/268/456/191/263 respectively.
+
+Original29–top53 fullyreviewed:ion exchange/full/net models/qualitativetable,
+hydrolysis/conditionalstages/limitingreactants,carbonfamily/allotropes/cycle,
+adsorption/givenproductreactionfamilies,CO/CO2/salt-ratio/heat/density models.
+Printed38water/FeOH2 errors held;originalgivenFeOH3/CO2 balance has3water.
+ClearBaSO4 example5.825g andcarbonate1.12Ln.sh retained. SiH4 exercise uses
+actual earlier8/25/110He4,8/5/27Si28/SiH4,8/1/7H1;CuO20g model uses
+actualCu64 from8/practical1/127,O16 from8/1/7,C12 from8/5/29→3gC/16gCu.
+Bookheat412/572 used onlyasexplicitgivenmathmodels,notexperimentalenthalpy.
+No COCl2productionconditions,physicalgas/CS2/cyanogen/fluorination/acid/heat/
+electricityprotocol or clinical/field/fire certificate. Neutralformula/equation,
+numeric andMCQ/short commonassessment contract unchanged;no newsolver/AI.
+
+Strict earlier-grade citation support added to Chemistry validator. Context must
+be teaching record in earliergrade andalreadyvalidated importer manifestprefix.
+Standalonevalidation checks referencedindexedlesson digest/review andvalidates
+it. Eachref retains citedbookSHA/file/title/authors/year/topic/page/region;
+grade7left/right mappings preserved. Futuregrade/unreviewed/blocked/container
+contexts rejected. Samebookordering/chapterprefix/review/heldfact guards intact.
+22 new structural/forgery/spread/index tests pass. REQUIREMENTS andASSESSMENT
+contract updated. Existing138 lesson bytes/learning/XP/progress untouched.
+
+96 editorial scopes plus one scientific blocker remain;allreadyfalse. Newholds:
+H2Sinsolubility/universalselectivity,wateralpha/allweak-weakfullyhydrolyze,
+FeIIIcarbonatebalance/Sbproductidentity/conductancezero,C2p6diagram/fullerenecount,
+charcoalpurity/allphase/currentcoal/medicaladsorption/unlimitedheat/fireclaims.
+No silentmemoryrepair;five textbook identities/all817 pages audited.
+
+FinalfullChemistry991 passed,1 opt-in PG skip,1existingwarning/436.59s.
+Finaltarget75/10.61s includes22 earlier-source plus53batchtests. Initialtarget
+74pass/1fail was wrong testexpectation invalid_answer forSIH4 (a validS/I/H
+formula withwrong composition);assertioncorrected toincorrect,graderunchanged.
+First correctedtarget75/9.71s,initialfull991/521.05s precededfinalcopyspacing.
+CriticalRuff/diffpass;all138 baseline hashes/original§1 unchanged.
+
+FinalFlutter518/87s,analysisnoissues/6.2s;two320×568/200%widgets4s.
+Sixfinalcaptures inspected:darkSiH4/light71,5feedback,currentgrade9source47/
+51,53 andearliergrade8source110/105. Actualgrade8filename/bibliography and
+locators shown separately;scroll/pinnedcontinuation preserved. Initialwidgets
+2/5s,full518/86s,analysis64s precededfinalremainingword/unitspacing polish.
+No runtimeUIchange/native/IME/TalkBack/whole-backend certificate.
+
+Historical143draftQA preserved. Freshbatch28final sandbox compared138content
+SHAs,copied only138exactbaseline syntheticprogressrows/2760XP read-only,
+then124actualHTTP answers/once-only100XP→143completions/2860XP. Comma/dot
+71,5/71.5 andscientific1.71666667e5/171666.667 replayidentical;grade7/8
+catalogs unchanged,rubricsprivate,six fixtures sanitized. Current143r1 immutable.
+Current sandboxilm-ai-chemistry-batch28-final-qa,loopback8903,ownPID27960;
+verifyfullcommand beforestop,private definesstaythere. Older8902draft stopped
+ownPID24440 andpreservedhistorical. No actualusers/production/main/otherbranch,
+PDF/OCR/fulltext/tokenpush or independentteacher signoff.
+
+Next5:grade9 §11–15,original53–top74. All53–74 read;62–77 renderedprivately.
+Notes .local/grade9_batch29_source_notes.md. Reviewbeforeauthoring:HCO3wrong
+charge54,hydrate11.44/4.28ambiguous56,2.74versus2.47and20.4Vmtypos59/60,
+cave/clinicalsafety,Si phase/density/acid-subject/polysilaneuniversals,cement
+450C,crystalsodaearlyround146/limestone.953,densitythreshold500/metalloid/
+currentresourcerank universals. Exactclearbookmodels only,no externalrepair.

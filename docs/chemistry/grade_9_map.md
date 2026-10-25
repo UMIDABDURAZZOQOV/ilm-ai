@@ -17,12 +17,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-paragraph03` | paragraph 3 | Elektrolitlar va noelektrolitlar | 20–24 | 20:full – 24:full | 20 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph02 |
 | `ch9-paragraph04` | paragraph 4 | Kislota, ishqor va tuzlarning dissotsiatsiyalanishi | 24–26 | 24:full – 26:full | 24 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph03 |
 | `ch9-paragraph05` | paragraph 5 | Kuchli va kuchsiz elektrolitlar dissotsiatsiyalanish darajasi | 26–29 | 26:full – 29:full | 26 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph04 |
-| `ch9-paragraph06` | paragraph 6 | Ion almashinish reaksiyalari | 29–32 | 29:full – 32:full | 29 | not_authored | ch9-paragraph05 |
-| `ch9-paragraph07` | paragraph 7 | Tuzlarning gidrolizi | 32–42 | 32:full – 42:full | 32 | not_authored | ch9-paragraph06 |
+| `ch9-paragraph06` | paragraph 6 | Ion almashinish reaksiyalari | 29–32 | 29:full – 32:full | 29 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph05 |
+| `ch9-paragraph07` | paragraph 7 | Tuzlarning gidrolizi | 32–42 | 32:full – 42:full | 32 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph06 |
 | `ch9-chapter03` | chapter 3 | Metallmaslar. Uglerod guruhi | 42–71 | 42:full – 71:full | 42 | not_authored | — |
-| `ch9-paragraph08` | paragraph 8 | Uglerod guruhidagi elementlarning umumiy tavsifi | 42–47 | 42:full – 47:full | 42 | not_authored | ch9-paragraph07 |
-| `ch9-paragraph09` | paragraph 9 | Uglerodning fizik va kimyoviy xossalari | 47–50 | 47:full – 50:full | 47 | not_authored | ch9-paragraph08 |
-| `ch9-paragraph10` | paragraph 10 | Uglerodning eng muhim birikmalari | 50–53 | 50:full – 53:full | 50 | not_authored | ch9-paragraph09 |
+| `ch9-paragraph08` | paragraph 8 | Uglerod guruhidagi elementlarning umumiy tavsifi | 42–47 | 42:full – 47:full | 42 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph07 |
+| `ch9-paragraph09` | paragraph 9 | Uglerodning fizik va kimyoviy xossalari | 47–50 | 47:full – 50:full | 47 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph08 |
+| `ch9-paragraph10` | paragraph 10 | Uglerodning eng muhim birikmalari | 50–53 | 50:full – 53:full | 50 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph09 |
 | `ch9-paragraph11` | paragraph 11 | Karbonat kislota va karbonatlarning xossalari | 53–61 | 53:full – 61:full | 53 | not_authored | ch9-paragraph10 |
 | `ch9-paragraph12` | paragraph 12 | Kremniy. Kremniyning davriy sistemadagi o‘rni va atom tuzilishi | 61–63 | 61:full – 63:full | 61 | not_authored | ch9-paragraph11 |
 | `ch9-paragraph13` | paragraph 13 | Kremniyning xossalari. Muhim birikmalari | 63–66 | 63:full – 66:full | 63 | not_authored | ch9-paragraph12 |

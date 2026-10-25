@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 5 | 56 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 10 | 51 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 138 | 130 |
+| Total | 29 | 204 | 49 | 15 | 268 | 143 | 125 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1099 cards; 1615 assessments: 538 concept_selection, 258 short_text, 430 numeric_value, 170 chemical_formula, 219 chemical_equation.
+Total: 1171 cards; 1739 assessments: 561 concept_selection, 268 short_text, 456 numeric_value, 191 chemical_formula, 263 chemical_equation.
 
 ## Initial §1
 
@@ -135,11 +135,16 @@ Original examples preserve exact intermediate arithmetic and given conditions.
 5 lessons;64 cards;97 questions:28 MCQ,14 short,36 numeric,19 formula.
 Charged models use source display/MCQ and numericcounts,existing kinds only.
 
+## Batch28: grade9 §6–10
+
+5 lessons;72 cards;124 questions:23 MCQ,10 short,26 numeric,21 formula,44 equation.
+Strict explicit earlier-grade source citations preserve each book identity.
+
 ## Current continuation
 
-138/268 implemented;130 remain. Grade7 all74,grade8 all59,grade9 5/61.
-Next5:grade9 §6–10,sequence6–10,original29–top53. All29–53 read;
-private notes .local/grade9_next_source_notes.md. Rendered43–61 privately.
-91 editorial scopes plus one grade9 scientific blocker;ready flags false.
-Fresh finalHTTP preserves133 baseline completions/2660XP,adds100XP once:
-138completions/2760XP. All prior133 lesson hashes/original§1 unchanged.
+143/268 implemented;125 remain. Grade7 all74,grade8 all59,grade9 10/61.
+Next5:grade9 §11–15,sequence11–15,original53–top74. All53–74 read;
+private notes .local/grade9_batch29_source_notes.md. Rendered62–77 privately.
+96 editorial scopes plus one grade9 scientific blocker;all ready flags false.
+Fresh finalHTTP preserves138 baseline completions/2760XP,adds100XP once:
+143completions/2860XP. All138 prior hashes/original§1 unchanged.

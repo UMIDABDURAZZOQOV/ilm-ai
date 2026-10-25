@@ -54,12 +54,22 @@ isolated backend; private specs and tokens never enter frontend start payloads.
 
 ## Explicit source context (batch05)
 
-Optional source_context_ids must refer to earlier teaching records in the same
-book; source_activity_ids only attach same-chapter review anchors to the final
+Optional source_context_ids refer to earlier teaching records in the same book,
+or explicitly reviewed,already-indexed teaching records in an earlier grade
+(batch28). Each earlier-grade reference retains its own book identity,reviewed
+page and original spread mapping. source_activity_ids only attach same-chapter review anchors to the final
 preceding teaching lesson. Every source ref and image evidence retains its own
 topic ID/title, paragraph or null review number, printed page and spread side.
 Future/unknown/duplicate/undeclared/misidentified contexts fail validation.
 Known source holds cannot be bypassed by citing them in another lesson.
+
+Earlier-grade contexts must already be validated in the importer manifest prefix.
+Standalone validation checks the referenced lesson digest and review and validates
+that lesson. Grade strictly decreases across such book links;future grades,
+unreviewed records and cross-book chapter/review containers are rejected.
+Per-ref SHA,file,title,authors,year,topic,printed/PDF page and region are checked
+against the cited book. Existing same-book ordering and chapter-prefix limits,
+source holds,private rubrics and all learning/XP/progress rules remain in force.
 
 
 ## Grade selection and portable display (batch16)

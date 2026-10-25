@@ -122,6 +122,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-paragraph03': 'ch9-p3-electrolyte-water-acid-scope-review',
     'ch9-paragraph04': 'ch9-p4-dissociation-stage-school-scope-review',
     'ch9-paragraph05': 'ch9-p5-electrolyte-degree-constant-scope-review',
+    'ch9-paragraph06': 'ch9-p6-ion-exchange-condition-review',
+    'ch9-paragraph07': 'ch9-p7-hydrolysis-water-balance-review',
+    'ch9-paragraph08': 'ch9-p8-carbon-configuration-allotrope-review',
+    'ch9-paragraph09': 'ch9-p9-carbon-adsorption-heat-review',
+    'ch9-paragraph10': 'ch9-p10-carbon-oxide-phase-safety-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -256,7 +261,31 @@ def require(condition, code):
         raise ValueError(code)
 
 
-def validate_lesson(catalog, lesson, review):
+def _validate_indexed_context(catalog, identifier):
+    """Standalone validation also requires an immutable reviewed earlier lesson.
+
+    load_lessons supplies its already-validated prefix, avoiding repeated reads.
+    Earlier-grade links strictly decrease grade, so recursive review terminates.
+    """
+    index = read_json(DIRECTORY / 'chemistry_lessons.json')
+    for item in index['lessons']:
+        require(Path(item['file']).name == item['file'] and
+                Path(item['review_file']).name == item['review_file'], 'manifest_path_escape')
+        path = DIRECTORY / item['file']
+        context = read_json(path)
+        if context.get('topic_id') != identifier:
+            continue
+        evidence = read_json(DIRECTORY / item['review_file'])
+        require(hashlib.sha256(path.read_bytes()).hexdigest() == item['sha256']
+                == evidence['lesson_sha256'] and evidence['lesson_file'] == item['file']
+                and evidence.get('original_authorship') is True,
+                'changed_context_requires_new_review')
+        validate_lesson(catalog, context, evidence)
+        return
+    raise ValueError('earlier_grade_context_must_be_reviewed_and_indexed')
+
+
+def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
     """Validate evidence/content shape, taught facts and deterministic keys."""
     from services.chemistry_grading import normalized_text, grade_answer
 
@@ -290,7 +319,8 @@ def validate_lesson(catalog, lesson, review):
             lesson.get("prerequisite_ids") == topic["prerequisite_ids"], "lesson_order_mismatch")
     require(type(lesson.get("revision")) is int and lesson["revision"] > 0,
             "positive_reviewed_revision_required")
-    records = {r['id']: r for r in book['records']}
+    records = {r['id']: r for b in catalog['books'] for r in b['records']}
+    source_books = {r['id']: b for b in catalog['books'] for r in b['records']}
     allowed_sources = {topic['id']: topic}
     chapter_prefix_limits = {}
     for field in ('source_context_ids', 'source_activity_ids'):
@@ -304,6 +334,19 @@ def validate_lesson(catalog, lesson, review):
                     and identifier not in KNOWN_SOURCE_HOLDS
                     and record.get('source_review_hold', {}).get('status') != 'open',
                     'unknown_or_blocked_linked_source')
+            context_book = source_books[identifier]
+            if context_book['id'] != book['id']:
+                require(field == 'source_context_ids' and record['kind'] in TEACHING_KINDS,
+                        'earlier_grade_teaching_context_only')
+                require(context_book['grade'] < book['grade'],
+                        'source_context_grade_must_precede_lesson')
+                if reviewed_context_topics is None:
+                    _validate_indexed_context(catalog, identifier)
+                else:
+                    require(identifier in reviewed_context_topics,
+                            'earlier_grade_context_must_already_be_validated')
+                allowed_sources[identifier] = record
+                continue
             if field == 'source_context_ids':
                 if record['kind'] == 'chapter':
                     first = min((r for r in book['records'] if r['kind'] in TEACHING_KINDS
@@ -340,17 +383,18 @@ def validate_lesson(catalog, lesson, review):
         for ref in refs:
             evidence = pages.get(ref.get("review_id"))
             cited = allowed_sources.get(ref.get('topic_id'))
+            cited_book = source_books.get(ref.get('topic_id'))
             require(evidence and evidence.get("verification") == "page_image_reviewed"
                     and ref.get("verification") == "page_image_reviewed"
                     and re.fullmatch(r"[0-9a-f]{64}", evidence.get("page_image_sha256", "")),
                     "original_page_image_review_required")
-            require(ref.get("book_id") == book["id"] == evidence["book_id"]
-                    and ref.get("sha256") == book["sha256"] == evidence["sha256"]
-                    and ref.get("file_name") == book["file_name"]
+            require(cited_book and ref.get("book_id") == cited_book["id"] == evidence["book_id"]
+                    and ref.get("sha256") == cited_book["sha256"] == evidence["sha256"]
+                    and ref.get("file_name") == cited_book["file_name"]
                     and cited and ref.get("topic_id") == cited["id"] == evidence["topic_id"]
                     and ref.get("paragraph") == (None if cited['kind'] == 'chapter' else cited["number"]), "claim_source_identity_mismatch")
-            require(ref.get('book_title') == book['title'] and ref.get('authors') == book['authors']
-                    and ref.get('year') == book['year'] and ref.get('topic_title') == cited['title'],
+            require(ref.get('book_title') == cited_book['title'] and ref.get('authors') == cited_book['authors']
+                    and ref.get('year') == cited_book['year'] and ref.get('topic_title') == cited['title'],
                     'claim_bibliography_mismatch')
             pp = ref.get("printed_pages", [])
             require(pp == [evidence["printed_page"]] and
@@ -360,7 +404,7 @@ def validate_lesson(catalog, lesson, review):
                 require(pp[0] < limit or (pp[0] == limit
                         and ref.get('page_scope') == evidence.get('page_scope')
                         == 'before_first_teaching_heading'), 'claim_outside_chapter_prefix')
-            loc = page_locator(book["grade"], pp[0])
+            loc = page_locator(cited_book["grade"], pp[0])
             require(ref.get("pdf_pages") == [loc["pdf_page"]] == [evidence["pdf_page"]]
                     and ref.get("regions") == [loc["region"]] == [evidence["region"]],
                     "claim_pdf_printed_region_mismatch")
@@ -622,6 +666,26 @@ def validate_lesson(catalog, lesson, review):
                             for a in plain_values), 'unqualified_all_organic_weak_cannot_be_a_premise')
             require('58' not in f['verified_answers'],
                     'ambiguous_sulfate_dissociation_degree_cannot_be_an_answer')
+        if 'ch9-paragraph06' in topic_ids:
+            require(not any('H2S suvda erimaydi' in a for a in plain_values),
+                    'unqualified_hydrogen_sulfide_insolubility_cannot_be_a_premise')
+        if 'ch9-paragraph07' in topic_ids:
+            require(not any('kuchsiz asos va kuchsiz kislota' in a.casefold() and
+                            'barcha' in a.casefold() and 'to‘liq' in a.casefold() for a in plain_values),
+                    'unqualified_complete_weak_salt_hydrolysis_cannot_be_a_premise')
+            require(not any(re.search(r'Fe\(OH\)2(?![A-Za-z0-9])', a) and 'FeCl3' in a for a in plain_values),
+                    'unreviewed_ferric_carbonate_hydroxide_copy_cannot_be_a_premise')
+        if 'ch9-paragraph08' in topic_ids:
+            require(not any(a.replace(' ', '') in {'1s22s22p6', '2p6'} for a in f['verified_answers']),
+                    'unreviewed_carbon_configuration_copy_cannot_be_an_answer')
+            require(not any('fulleren' in a.casefold() and '80' in a for a in plain_values),
+                    'unreviewed_fullerene_atom_count_cannot_be_a_premise')
+        if 'ch9-paragraph09' in topic_ids:
+            require(not any('qonni tozalash' in a.casefold() for a in plain_values),
+                    'unreviewed_adsorption_clinical_claim_cannot_be_a_premise')
+        if 'ch9-paragraph10' in topic_ids:
+            require(not any('CO2' in a and 'barcha yong‘in' in a.casefold() for a in plain_values),
+                    'unqualified_carbon_dioxide_fire_safety_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
@@ -773,7 +837,7 @@ def load_lessons(catalog=None):
                 and review["lesson_file"] == item["file"]
                 and review.get("original_authorship") is True, "changed_content_requires_new_review")
         lesson = read_json(path)
-        validate_lesson(catalog, lesson, review)
+        validate_lesson(catalog, lesson, review, reviewed_context_topics=topics)
         records = {r['id']: r for b in catalog['books'] for r in b['records']}
         require(all(identifier in integrated_reviews for identifier in lesson.get('source_context_ids', [])
                     if records[identifier]['kind'] == 'review'),

@@ -103,3 +103,13 @@ files for 268 scientifically, pedagogically and technically reviewed lessons.
 Report 2026 curriculum alignment separately; retain edition-specific differences.
 Stop only for real missing source, unsafe operation, agent conflict or production
 decision; routine batch boundaries require no new approval.
+
+## Earlier-grade textbook evidence (batch28)
+
+Reuse of already reviewed knowledge must cite the exact supplied earlier-grade
+book and page,with that book's SHA,bibliography and original PDF region. It must
+never be relabeled as the current textbook. Earlier-grade teaching contexts must
+already exist in the digest-pinned validated manifest prefix. Future grades,
+unreviewed sources and cross-book chapter/review containers are forbidden.
+This citation support does not introduce a new learning mechanism or loosen
+the common fact,answer,feedback,prerequisite,XP,progress and source-hold rules.
