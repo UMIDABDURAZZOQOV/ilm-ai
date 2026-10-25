@@ -1,0 +1,57 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 168,
+  "prior_xp": 3360,
+  "added_lessons": 6,
+  "added_questions": 115,
+  "kinds": {
+    "concept_selection": 28,
+    "short_text": 15,
+    "chemical_formula": 11,
+    "chemical_equation": 26,
+    "numeric_value": 35
+  },
+  "added_xp": 120,
+  "total_xp": 3480,
+  "total_completed_lessons": 174,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_and8_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "rounded_temperature_comma_replay_equivalent": true,
+  "initial_check": "Original run completed36\u201338;changed unrounded answer to39 correctly returned409. Resume reused original attempt IDs,not reset data. Exact rounded equivalents replayed;all six completions retain single20XP.",
+  "exported_fixtures": "sanitized public environment/periodicity reviewed erratum/technology rate catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 174,
+  "remaining_lessons": 94,
+  "backend_tests": {
+    "passed": 1377,
+    "skipped": 1,
+    "seconds": 1625.32
+  },
+  "targeted_tests": {
+    "passed": 103,
+    "seconds": 32.83,
+    "earlier_grade_source_tests": 22,
+    "erratum_tests": 34
+  },
+  "flutter_tests": {
+    "passed": 534,
+    "seconds": 141
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 65.1
+  },
+  "flutter_widgets": {
+    "passed": 4,
+    "seconds": 18,
+    "new_captures_inspected": 11
+  },
+  "open_source_holds": 0,
+  "open_editorial_issues": 126,
+  "reviewed_errata": 1,
+  "prior168_hashes_preserved": true,
+  "production_operations": false
+}

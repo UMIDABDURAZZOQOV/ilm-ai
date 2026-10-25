@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 35 | 26 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 41 | 20 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 168 | 100 |
+| Total | 29 | 204 | 49 | 15 | 268 | 174 | 94 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1573 cards; 2448 assessments: 666 concept_selection, 318 short_text, 657 numeric_value, 296 chemical_formula, 511 chemical_equation.
+Total: 1663 cards; 2563 assessments: 694 concept_selection, 333 short_text, 692 numeric_value, 307 chemical_formula, 537 chemical_equation.
 
 ## Initial §1
 
@@ -189,8 +189,16 @@ drafts have passed in-memory source/grading checks but are not indexed yet.
 Originals165–204 visually reviewed. No production/AI/other-subject operation.
 Loopback8903 current ownPID24620;verify exact command before stopping.
 
+## Batch34:grade9 §36–41
+
+6 lessons;90 cards;115 questions:28 MCQ,15 short,35 numeric,11 formula,26 equation.
+All41 grade9 numbered paragraphs implemented.20 practical/laboratory entries remain.
+
 ## Current continuation
 
-Continue §36–41 from the six unindexed private drafts. Preserve all168 prior
-lesson hashes,progress and XP. Controlled §40 correction is implemented;the
-paragraph still requires normal authored-content/API/UI validation.
+174/268 implemented;94 remain. Grade7 all74,grade8 all59,grade9 41/61.
+Next practical1–3 and laboratory1–4 in source order,then labs5–17.
+14 private activity drafts (batches35/36) passed in-memory source/grading checks;
+none indexed yet. Original192–204 visually reviewed;allreadyfalse.
+126 scoped editorial issues,one finite reviewed erratum;zero open whole holds.
+ActualHTTP preserves168/3360XP and adds120XP once→174/3480XP.

@@ -153,6 +153,12 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-paragraph33': 'ch9-p33-manganese-oxidation-copy-review',
     'ch9-paragraph34': 'ch9-p34-iron-diagram-rust-scope-review',
     'ch9-paragraph35': 'ch9-p35-iron-complex-clinical-scope-review',
+    'ch9-paragraph36': 'ch9-p36-castiron-carbon-boundary-review',
+    'ch9-paragraph37': 'ch9-p37-steel-worked-copy-review',
+    'ch9-paragraph38': 'ch9-p38-materials-universal-claim-review',
+    'ch9-paragraph39': 'ch9-p39-environment-exposure-taxonomy-review',
+    'ch9-paragraph40': 'ch9-p40-periodicity-bounded-correction-review',
+    'ch9-paragraph41': 'ch9-p41-technology-rate-model-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -830,6 +836,18 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
             require(not any(a.replace(' ', '') in {'200mg', '6–40mg', '7–35g'}
                             for a in f['verified_answers']),
                     'unreviewed_iron_clinical_dose_cannot_be_an_answer')
+        if 'ch9-paragraph37' in topic_ids:
+            require(not any(a.replace(' ', '') in {'MeO+2HCl=MeCl2+H2', '2Al+3O2=2Al2O3'}
+                            for a in f['verified_answers']),
+                    'unbalanced_steel_worked_copy_cannot_be_an_answer')
+        if 'ch9-paragraph38' in topic_ids:
+            require(not any('etan' in a.casefold() and 'element' in a.casefold()
+                            for a in f['verified_answers']),
+                    'unreviewed_ethane_element_copy_cannot_be_an_answer')
+        if 'ch9-paragraph39' in topic_ids:
+            require(not any('akaritsid' in a.casefold() and 'kapalak' in a.casefold()
+                            for a in f['verified_answers']),
+                    'unreviewed_acaricide_taxonomy_copy_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

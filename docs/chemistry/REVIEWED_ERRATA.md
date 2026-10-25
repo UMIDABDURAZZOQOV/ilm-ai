@@ -57,7 +57,7 @@ validation. Uncertain facts stay excluded from assessment. Course-ready flags,
 independent teacher sign-off, explicit manifest import, immutable attempts,
 prerequisites, progress, replay and XP rules remain in force.
 
-The correction does not count as a new interactive lesson. At this point168/268
-entries are implemented; grade9 §40 still requires original lesson authorship
-and the normal source/content/API/UI regression checks. No production operation
-or change to Biology/Physics is authorized.
+The foundation correction itself did not add a lesson. Batch34 subsequently
+authored and source/API/UI-validated grade9 §40 within174/268 implemented entries.
+See qa_batch34.json for measured checks. Independent teacher sign-off remains
+outstanding. No production operation or Biology/Physics mutation occurred.
