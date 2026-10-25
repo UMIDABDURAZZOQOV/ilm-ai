@@ -20,6 +20,69 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "gravity_pair": rule(
+        "F",
+        ["G", "m1", "m2", "r"],
+        ["G*m1*m2/r^2", "G*m2*m1/(r*r)"],
+        "Moddiy nuqtalar yoki sferik taqsimotli jismlar, markazlar oralig‘i r>0,G=6.67e-11;7sinfPDF90–93.",
+    ),
+    "gravity_force7": rule(
+        "F",
+        ["m", "g"],
+        ["m*g", "g*m"],
+        "Yer yaqinida masalada g=9.8 yoki10m/s2 berilgan, m>0;7sinfPDF94–95.",
+    ),
+    "gravity_mass7": rule(
+        "m", ["F", "g"], ["F/g", "F*g^-1"], "F>0,g=9.8 yoki10m/s2 berilgan;7sinfPDF95."
+    ),
+    "rest_weight": rule(
+        "P",
+        ["m", "g"],
+        ["m*g", "g*m"],
+        "Tayanch/osma bilan vertikal a=0, g=9.8 yoki10m/s2;7sinfPDF96–98.",
+    ),
+    "apparent_up": rule(
+        "P",
+        ["m", "g", "a"],
+        ["m*(g+a)", "m*g+m*a"],
+        "Tayanch bilan yuqoriga a>=0 tezlanish, doimiyg9.8/10;7sinfPDF98–101.",
+    ),
+    "apparent_down": rule(
+        "P",
+        ["m", "g", "a"],
+        ["m*(g-a)", "m*g-m*a"],
+        "Pastga a moduli 0<=a<=g; kontakt mavjud yoki freefall a=g;7sinfPDF99–100.",
+    ),
+    "load_factor": rule(
+        "n",
+        ["g", "a"],
+        ["(g+a)/g", "1+a/g"],
+        "Yuqoriga tezlanishdagi P/mg, g9.8/10,a>=0;7sinfPDF98.",
+    ),
+    "horizontal_range": rule(
+        "s",
+        ["v0", "t"],
+        ["v0*t", "t*v0"],
+        "Havosiz, gorizontal boshlang‘ich tezlik, bir xil oraliq t>=0;7sinfPDF102–105.",
+    ),
+    "horizontal_drop": rule(
+        "h",
+        ["g", "t"],
+        ["g*t^2/2", "0.5*g*t*t"],
+        "Vertikal v0=0,h pastga tushilgan masofa,doimiyg9.8/10;7sinfPDF102–105.",
+    ),
+    "altitude_gravity": rule(
+        "gh",
+        ["G", "M", "R", "h"],
+        ["G*M/(R+h)^2", "G*M/((R+h)*(R+h))"],
+        "Sferik Yer modeli,R,M>0,h>=0,G=6.67e-11;7sinfPDF103.",
+    ),
+    "orbital_radius": rule(
+        "r",
+        ["v", "g"],
+        ["v^2/g", "v*v/g"],
+        "Ideal aylana orbita,v>0,g ayni orbitada,R=v²/g;7sinfPDF104.",
+    ),
     "newton_acceleration": rule(
         "a",
         ["F", "m"],
@@ -804,6 +867,46 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name in {"gravity_pair", "altitude_gravity"}:
+        constant = positive("G", "gravitation_constant")
+        if constant != Fraction("6.67e-11"):
+            raise ValueError("explicit_grade7_G_approximation")
+        if name == "gravity_pair":
+            return constant * positive("m1", "mass") * positive(
+                "m2", "mass"
+            ) / positive("r", "length") ** 2, "force"
+        return constant * positive("M", "mass") / (
+            positive("R", "length") + value("h", "length")
+        ) ** 2, "acceleration"
+    if name in {
+        "gravity_force7",
+        "gravity_mass7",
+        "rest_weight",
+        "apparent_up",
+        "apparent_down",
+        "load_factor",
+        "horizontal_drop",
+    }:
+        g = positive("g", "acceleration")
+        if g not in {Fraction("9.8"), Fraction(10)}:
+            raise ValueError("explicit_grade7_near_surface_g")
+        if name == "gravity_mass7":
+            return positive("F", "force") / g, "mass"
+        if name == "horizontal_drop":
+            return g * value("t", "time") ** 2 / 2, "length"
+        if name == "load_factor":
+            return (g + value("a", "acceleration")) / g, "dimensionless"
+        m = positive("m", "mass")
+        if name in {"gravity_force7", "rest_weight"}:
+            return m * g, "force"
+        a = value("a", "acceleration")
+        if name == "apparent_down" and a > g:
+            raise ValueError("no_negative_support_force")
+        return m * (g - a if name == "apparent_down" else g + a), "force"
+    if name == "horizontal_range":
+        return value("v0", "speed") * value("t", "time"), "length"
+    if name == "orbital_radius":
+        return positive("v", "speed") ** 2 / positive("g", "acceleration"), "length"
     if name == "newton_acceleration":
         return value("F", "force") / positive("m", "mass"), "acceleration"
     if name == "newton_force":

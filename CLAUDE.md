@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika 7-sinf §26–30:** **91/316;225qolgan**,7-sinf30/46. Yangi5dars/20karta/11formula yozuvi/5misol/31topshiriq/16FRQ; jami380karta/131formula yozuvi/97misol/590topshiriq/172FRQ,115qoidaoilasi. Gexplicitunit, tortish/og‘irlik/tayanch alohida, contactdomain0≤a≤g, horizontalproyeksiya/altitudeg/idealorbita. Asl236noyobsahifa audit.198backendPhysics/Biologytest44.36s; actualPG1passed21.86s91lesson/910XP/legacyprogress; FlutterPhysics19passed84publicFRQ320px/200%. Keyingi **§31PDF105/bosma112**.Biology406/grade6baytlari/Web/Kimyo/prod/nashr/AIExplainsaqlandi.
+
+
 > **2026-10-25 — Fizika 7-sinf §21–25:** **86/316;230qolgan**,7-sinf25/46. Yana5dars(1raqamli lab)/22karta/12formula yozuvi/5misol/35topshiriq/17FRQ; jami360karta/120formula yozuvi/92misol/559topshiriq/156FRQ,104qoidaoilasi. NewtonII/III tanlangan jism va kuch juftligini ajratadi; markazga kuch, kichik Guk/sterjen modeli,N/m birligi,g10berilgan springlab.192backendPhysics/Biologytest47.94s, actualPG1passed26.47s86lesson/860XP/legacyprogress, FlutterPhysics19passed/68publicFRQ320px/200%.220noyob original sahifa audit. Keyingi **§26PDF90/bosma97**; lokal/test only, Biology406/website/Kimyo/prodga tegilmadi.
 
 

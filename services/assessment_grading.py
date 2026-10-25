@@ -82,6 +82,8 @@ UNITS = {
     # Grade7 PDF84: spring stiffness and original SI-scaled answers.
     "N/m": ("stiffness", Fraction(1)),
     "kN/m": ("stiffness", Fraction(1000)),
+    # Grade7 PDF91: explicit supplied G, not dimensionless.
+    "N*m2/kg2": ("gravitation_constant", Fraction(1)),
 }
 UNIT_ALIASES = {
     "metr": "m",

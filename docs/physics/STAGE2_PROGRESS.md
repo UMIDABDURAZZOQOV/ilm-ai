@@ -592,3 +592,32 @@ qoralama. Oldingi61grade6/20grade7 JSON o‘zgarmadi, secrets/PDFGitga yo‘q.
 tasvir keyingi§26–30 uchun qayta ko‘rildi, hali authoredemas.
 NativeAndroid/mustaqil ekspert/prodrelease tasdiqlanmagan. Keyingi
 partiyaga yangi ruxsat kutmasdan o‘tiladi.
+
+
+## 7-sinf §26–30 — 2026-10-25
+
+Yana5dars,20karta,11formula yozuvi,5originalmisol,31topshiriq
+(15MCQ+16FRQ). PDF/bosma:§26 90–93/97–100;§27 93–95/100–102;
+§28 95–98/102–105;§29 98–101/105–108;§30 101–105/108–112.
+16asl sahifa matn/tasvir:240pagechecks/236noyob audit.11yangi executable
+oila, jami115. G ning6.67e-11N*m2/kg2 yaqinlashuvi explicit; oddiy
+SIlinear numeric parser va bounded formula whitelist o‘zgarmadi.
+G/g, massa/kuch, jismga tortish/tayanchga P ajratildi. kg kalibrli
+shkala kuchning kg birligi degani emas; prujina o‘tish jarayoni har doim
+monoton deb olinmaydi. P=m(g±a) tezlanish tomoni uchun, pastga branch
+0≤a≤g; vaznsizlikdaP0,Fmgsaqlanadi. Gorizontal s=v0t jami trayektoriya
+yo‘li emas; h=gt²/2 verticalv0=0. gh=GM/(R+h)²/ideal v²=gr
+shartlari aniq. Sqrt parserni yashirin kengaytirmasdan radius branchi
+FRQ bilan tekshirildi; source7.9km/s ideal taxmin, release yo‘riqnomaemas.
+Barcha ilmiy sourceqarorlar grade7_batch6_review.json da.
+
+BackendPhysics/source/identity/Biology **198passed44.36s**; barcha91dars
+ASGIHTTP/replay910XP.16mustaqil oracle, Gunit, tiny scientificnotation,
+constants/radius/contactdomain tekshirildi. ActualPG16 **1passed21.86s**:
+91lesson/import/reimport910XP/legacy137XP/3streak/2stars saqlandi.
+FlutterPhysics **19passed**;84publicFRQ320px/200% qoralama. Eski
+Biology406/grade6/grade7old25 JSON o‘zgarmadi, website/Kimyoga tegilmadi.
+**91/316;225qolgan.7-sinf30/46,16qolgan.** Keyingi **§31«Yerning sun’iy
+yo‘ldoshlari»,PDF105/bosma112**. PDF105–120matni keyingi§31–35 uchun
+o‘qildi; rasmlar mualliflikdan avval tekshirilsin. NativeAndroid va
+mustaqil pedagogik tasdiq yo‘q. Oraliq tasdiq kutmasdan davom etiladi.
