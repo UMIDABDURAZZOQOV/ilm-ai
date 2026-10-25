@@ -19,6 +19,7 @@ from services.physics_rules import (
     REVIEWED_FORMULAS,
     reviewed_calculation,
 )
+from services.physics_source_documents import segment_page, source_identity
 
 ROOT = Path(__file__).resolve().parents[1]
 DIRECTORY = ROOT / "scripts/curriculum/physics"
@@ -157,9 +158,20 @@ def validate_review_evidence(document):
         for b in json.loads((DIRECTORY / "physics_sources.json").read_text())["books"]
         if b["grade"] == document["grade"]
     )
+    identity = source_identity(book)
+    if "sha256" in identity:
+        require(
+            audit.get("book_sha256") == identity["sha256"], "source_review_identity"
+        )
+    else:
+        require(
+            audit.get("source_kind") == identity["source_kind"]
+            and audit.get("book_source_set_sha256") == identity["source_set_sha256"]
+            and "book_sha256" not in audit,
+            "source_review_segment_manifest_identity",
+        )
     require(
-        audit["book_sha256"] == book["sha256"]
-        and not audit["ready_for_general_publication"]
+        not audit["ready_for_general_publication"]
         and audit["independent_subject_expert"] == "not_claimed",
         "source_review_scope",
     )
@@ -177,6 +189,13 @@ def validate_review_evidence(document):
     )
     for page in audit["pages"]:
         source = book["page_audit"][page["pdf_page"] - 1]
+        if "source_set_sha256" in identity:
+            require(
+                page.get("text_origin") == "cached_ocr_checked_against_original_image"
+                and page.get("digital_text_sha256") == source["digital_text_sha256"]
+                and page.get("source_segment") == segment_page(book, page["pdf_page"]),
+                "segmented_page_review_evidence",
+            )
         require(
             page["printed_page"] == source["printed_page"]
             and page["text_sha256"] == source["text_sha256"]
@@ -259,7 +278,7 @@ def validate_batch(document):
             )
             require(
                 ref["book_id"] == book["id"]
-                and ref["sha256"] == book["sha256"]
+                and all(ref.get(k) == v for k, v in source_identity(book).items())
                 and ref["file_name"] == book["file_name"]
                 and ref["chapter_id"] == topic["chapter_id"],
                 "source_identity_mismatch",
@@ -273,6 +292,12 @@ def validate_batch(document):
                 pp and len(pp) == len(printed) == len(ref["page_text_sha256"]),
                 "both_page_systems_required",
             )
+            if book.get("source_kind") == "ordered_pdf_segments":
+                require(
+                    "sha256" not in ref
+                    and ref.get("segment_pages") == [segment_page(book, p) for p in pp],
+                    "source_segment_page_binding",
+                )
             for pdf, label, digest in zip(pp, printed, ref["page_text_sha256"]):
                 require(
                     topic["pdf_start"] <= pdf <= topic["pdf_end"]

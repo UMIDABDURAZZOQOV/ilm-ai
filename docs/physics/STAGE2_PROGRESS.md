@@ -730,3 +730,33 @@ noaniq11/14/15/20sahifa to‘liq kattalashtirib ko‘rildi; barcha19OCR/nativera
 hashlari tekshirildi. Bu darslari authored degani emas. Yangi ruxsat
 kutmasdan8-sinf1–5partiya bilan davom etish. `GRADE7_VALIDATION.json`
 saqlangan QAcheckpoint, Gitlog oxirgi featurecommitlarni ko‘rsatadi.
+
+
+## 8/9-sinf segmentli manbalarga texnik tayyorgarlik — 2026-10-25
+
+6/7 manbalari bitta PDF/native-text,8/9 esa orderedPDFsegments+OCR.
+Oldv2validatorda book[sha256] talabi8/9da mavjud bo‘lmagan butunfaylhashini
+kutgan edi. Endi legacysha va source_set_sha256 alohida qat’iy identity,
+manifest uzluksizligi/tartibi/soni, har originalpage uchunsegmentfile,
+localpage va partSHA tekshiriladi. Manifest hechqachon butunPDFdigestideb
+yozilmaydi. Reviewda native layer hash/OCRhash/rastrdalillari alohida.
+`services/physics_source_documents.py`, `scripts/audit_physics_source_pages.py`
+va mavjud validator/auditCLIyangilandi. PDF/OCR/credentialsGityo‘q;
+6/7darsJSONlari va Biology406baytlari o‘zgarmadi. No publication.
+
+230tanlanganbackend/source/API/grading/Biologytest **52.75s** o‘tdi,
+13yangi segmenttest ichida manifestgap/reorder/wronghash, originalfile
+bytes, localbinding, native/OCR/render tamperlar bor. Private293oldpage
+checks qayta o‘tdi. Fitztayyorbo‘lmaganQAvenv uchun optional
+`requirements-source-review.txt` PyMuPDF1.26.6 pin qo‘shildi; uv bilan
+QAvenvga o‘rnatilib barchasi real bajarildi. Pip buvenvdayo‘q; source
+renderer prodwebrequirementga majburan qo‘shilmadi. Optionalrenderer
+bo‘lmasa5PDFfixturetests skip va8metadata test ishlaydi, bu skiplar
+passed deb aytilmaydi. Amaldagi natijada230/230pass, rendererbor.
+
+Manbani tekshirish:
+`python -m scripts.audit_physics_course --pdf-dir <private-pdfs> --ocr-dir <private-cache>`
+OCRcacheichida`g8-ocr/p004.txt` kabi originalPDFindeks saqlanadi.
+**Hali107/316;8-sinf0/60.** Sourceadapter tayyor; keyingi8-sinf§1–5,
+PDF/bosma4–22. Noaniq exponent/symbol sahifalari11/14/15/20to‘liq
+kattalashtirib tekshirildi, OCRning xatolari bilim manbasi deb olinmaydi.
