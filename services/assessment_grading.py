@@ -155,8 +155,14 @@ UNITS = {
     "g/mol": ("molar_mass", Fraction(1, 1000)),
     "C/mol": ("faraday_constant", Fraction(1)),
     "mol": ("amount", Fraction(1)),
+    # Grade8 PDF150/152: magnetic induction (not temperature).
+    "T": ("magnetic_induction", Fraction(1)),
+    "mT": ("magnetic_induction", Fraction(1, 1000)),
+    "µT": ("magnetic_induction", Fraction(1, 10**6)),
 }
 UNIT_ALIASES = {
+    "μT": "µT",
+    "uT": "µT",
     "ohm": "Ω",
     "kohm": "kΩ",
     "ohm*m": "Ω*m",

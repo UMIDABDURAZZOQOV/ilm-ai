@@ -1133,3 +1133,14 @@ Jami661karta/275formula yozuvi/172namuna/1045topshiriq/335FRQ.
 Keyingi8§51«Yerning magnit maydoni»,PDF/bosma145. §51–55ning145–155asl
 rasmlari va OCR o‘qildi;originaldars matni privateqoralamada,JSONhaliyo‘q.
 Biology406/old6–8/Web/Kimyo/prod/AIExplain saqlandi. Oraliq tasdiq kutilmaydi.
+
+
+## 8-sinf §51–55 — 2026-10-26 (Asia/Tashkent)
+
+Yer magnit maydoni, tok maydoni, Amper kuchi, original masalalar va tokli ramka/asboblar: 5 dars/20 karta/10 formula yozuvi/6 namuna/36 topshiriq (21 MCQ+5 tartib+10 FRQ). §51 PDF145–146, §52 146–149, §53 149–151, §54 151–153, §55 153–155; bosma raqamlar teng. 11 asl sahifa ko‘rildi; 447 tekshiruv/431 noyob sahifa. 6 yangi formula oilasi; jami 243. T/mT/µT va μT/uT aliaslari yopiq registryda, massaning t birligi bilan chalkashmaydi.
+
+Kompas mahalliy maydonga moslashadi, geografik va magnit qutblar bir nuqta emas. PDF145 yorug‘lik nuri/zaryadli oqim chalkashligi ajratildi; eski qutb koordinatalari bugungi navigatsiya kafolati emas. Erstedning 90° burilishi va g‘altak ichki parallel chiziqlari model shartlari bilan. Amper F=BIl faqat bir jinsli maydonga TIK to‘g‘ri faol qism uchun. Umumiy burchak formulasi yo‘q. PDF151 tarixiy amper jumlasining masofa/ideal uzunlik shartlari yo‘qligi sabab undan sonli kuch hisoblanmadi. PDF153 magnitni almashtirish tokni avtomatik almashtiradi degan gap takrorlanmadi; tashqi B va circuit current ajratildi. §51/52/55 sun’iy formula yoki FRQ yo‘q; qurilma yig‘ish topshirilmagan.
+
+Yangi 16 test passed1.56s; dastlab ruff import/dict uslub xatolari to‘g‘rilandi, content test failure bo‘lmadi. Physics/Biology **403 passed, 2 PG opt-in skipped85.60s**. Actual isolated local PG16 **1 passed44.52s**:162 dars/import/reimport/1620XP/replay/legacy137XP3streak2stars. Flutter Physics **21 passed37s**, 124 public8FRQ 320px/200%; private javob/rubrika fixturega kiritilmadi. Old full952/147 alohida, full suite bu partiyada qayta bajarilmadi. Android/real lab/independent expert yo‘q.
+
+**162/316;154 qolgan**. 6:61/61,7:46/46,8:55/60,9:0/59,10:0/45,11:0/45. Jami681 karta/285 formula yozuvi/178 namuna/1081 topshiriq/345FRQ. Keyingi **8§56 PDF/bosma155**. §56–60 original155–166 rasmlari/OCR ko‘rildi, matn private qoralama; PDF166 upper27-mashq davom etadi, arxiv165 chegarasi exact whitelist/note bilan kelgusi partiyada to‘g‘rilansin. Elektromagnit F scaling va universal motor/heat-engine FIK da’volari review talab qiladi; takrorlanmasin. Biology406/old grades/Web/Kimyo/prod/AI Explain saqlandi. Oraliq tasdiq kutilmaydi.

@@ -24,6 +24,39 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "ampere_force": rule(
+        "F",
+        ["B", "I", "l"],
+        ["B*I*l", "I*l*B"],
+        "Sim B ga TIK,bir jinsli maydondagi to‘g‘ri l qism,F/B/I modullari;PDF150.",
+    ),
+    "ampere_current": rule(
+        "I", ["F", "B", "l"], ["F/(B*l)", "F/B/l"], "Sim B ga TIK,B/l>0;PDF150–151."
+    ),
+    "ampere_induction": rule(
+        "B",
+        ["F", "I", "l"],
+        ["F/(I*l)", "F/I/l"],
+        "Sim B ga TIK,I/l>0,B birligiT;PDF150.",
+    ),
+    "ampere_length": rule(
+        "l",
+        ["F", "B", "I"],
+        ["F/(B*I)", "F/B/I"],
+        "Sim B ga TIK,B/I>0,l maydon ichidagi qism;PDF150/152.",
+    ),
+    "ampere_charge": rule(
+        "q",
+        ["F", "t", "B", "l"],
+        ["F*t/(B*l)", "F*t/B/l"],
+        "Sim B ga TIK,doimiytok,t/B/l>0;q moduli;PDF152.",
+    ),
+    "ampere_force_charge": rule(
+        "F",
+        ["B", "q", "l", "t"],
+        ["B*q*l/t", "q*B*l/t"],
+        "Sim B ga TIK,doimiytok,t>0;PDF152.",
+    ),
     "vacuum_current": rule(
         "I",
         ["N", "e", "t"],
@@ -1302,6 +1335,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "magnetic_induction": "T",
     "length": "m",
     "time": "s",
     "mass": "kg",
@@ -1554,6 +1588,30 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name == "ampere_force":
+        return value("B", "magnetic_induction") * value("I", "current") * value(
+            "l", "length"
+        ), "force"
+    if name == "ampere_current":
+        return value("F", "force") / (
+            positive("B", "magnetic_induction") * positive("l", "length")
+        ), "current"
+    if name == "ampere_induction":
+        return value("F", "force") / (
+            positive("I", "current") * positive("l", "length")
+        ), "magnetic_induction"
+    if name == "ampere_length":
+        return value("F", "force") / (
+            positive("B", "magnetic_induction") * positive("I", "current")
+        ), "length"
+    if name == "ampere_charge":
+        return value("F", "force") * positive("t", "time") / (
+            positive("B", "magnetic_induction") * positive("l", "length")
+        ), "charge"
+    if name == "ampere_force_charge":
+        return value("B", "magnetic_induction") * value("q", "charge") * value(
+            "l", "length"
+        ) / positive("t", "time"), "force"
     if name in {"vacuum_current", "vacuum_count", "vacuum_work_count"}:
         e = positive("e", "charge")
         if e != Fraction("1.6e-19"):

@@ -1,5 +1,7 @@
 # Fizika — manba xaritalari va lokal interaktiv sinov
 
+**2026-10-26 — Fizika 8-sinf §51–55:** **162/316, 154 qolgan**; 8-sinf 55/60. Yangi 20 karta, 10 formula yozuvi, 6 namuna, 36 topshiriq/10 FRQ. Jami 681 karta/285 formula/178 namuna/1081 topshiriq/345 FRQ, 243 qoida oilasi. 447 asl sahifa tekshiruvi/431 noyob. Tok maydoni, kompas, tik simdagi Amper kuchi va ramkali asboblar; T/mT/µT yopiq birliklari. Physics/Biology **403 passed, 2 PG skipped, 85.60s**; actual local PG **1 passed, 44.52s**, 162 dars/1620 XP/replay/eski progress. Flutter Physics **21 passed**, 124 public FRQ 320px/200%. Old full 952 backend/147 Flutter alohida. Keyingi **8-sinf §56, PDF/bosma 155**. §56–60 manba 155–166 ko‘rildi, matn private qoralamada. Biology406/old6–8/Web/Kimyo/prod/AI Explain saqlandi; Android/mustaqil ekspert/ommaviy nashr bajarilmagan.
+
 **Eng yangi checkpoint —2026-10-26:** **157/316 lokal/test bo‘lim,159qolgan**.
 6:61/61,7:46/46,8:50/60;9–11hali0.661karta/1045topshiriq/335FRQ.
 Physics/Biology387passed/2skipped,actualPG1passed157lesson/1570XP,
