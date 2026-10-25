@@ -132,6 +132,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-paragraph13': 'ch9-p13-silicon-silicate-species-scope-review',
     'ch9-paragraph14': 'ch9-p14-silicate-cement-arithmetic-scope-review',
     'ch9-paragraph15': 'ch9-p15-metal-classification-density-scope-review',
+    'ch9-paragraph16': 'ch9-p16-alloy-conditional-composition-review',
+    'ch9-paragraph17': 'ch9-p17-metal-properties-conditions-review',
+    'ch9-paragraph18': 'ch9-p18-corrosion-charge-inhibitor-review',
+    'ch9-paragraph19': 'ch9-p19-electrolysis-charge-products-review',
+    'ch9-paragraph20': 'ch9-p20-alkali-source-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -710,6 +715,28 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch9-paragraph15' in topic_ids:
             require(not any('500' in a and 'chegara' in a.casefold() and 'kg/m3' in a for a in plain_values),
                     'unreviewed_metal_density_threshold_cannot_be_a_premise')
+        if 'ch9-paragraph16' in topic_ids:
+            require(not any('barcha qotishma' in a.casefold() and 'yuqori' in a.casefold() for a in plain_values),
+                    'unqualified_alloy_conductivity_cannot_be_a_premise')
+        if 'ch9-paragraph17' in topic_ids:
+            require(not any('har bir metall' in a.casefold() and 'barcha' in a.casefold()
+                            and 'siqib' in a.casefold() for a in plain_values),
+                    'unqualified_aqueous_displacement_cannot_be_a_premise')
+        if 'ch9-paragraph18' in topic_ids:
+            require(not any('10^6' in a and 'mol/L' in a for a in plain_values),
+                    'unreviewed_inhibitor_concentration_cannot_be_a_premise')
+            require(not any('barcha zang' in a.casefold() and 'Fe(OH)3' in a for a in plain_values),
+                    'unqualified_rust_identity_cannot_be_a_premise')
+        if 'ch9-paragraph19' in topic_ids:
+            require(not any('H2S' in a and 'anod' in a.casefold() and 'barcha' in a.casefold() for a in plain_values),
+                    'unreviewed_sulfide_anode_product_cannot_be_a_premise')
+            require(not any('2H++2e=H+' in a.replace(' ', '') for a in plain_values),
+                    'unbalanced_electrolysis_hydrogen_copy_cannot_be_a_premise')
+        if 'ch9-paragraph20' in topic_ids:
+            require(not any('fransiy' in a.casefold() and 'tabiatda uchramaydi' in a.casefold() for a in plain_values),
+                    'unreviewed_francium_occurrence_cannot_be_a_premise')
+            require(not any('seziy' in a.casefold() and 'zaharli emas' in a.casefold() for a in plain_values),
+                    'unqualified_alkali_toxicity_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

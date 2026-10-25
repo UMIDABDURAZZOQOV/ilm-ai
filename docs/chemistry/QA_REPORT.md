@@ -1016,3 +1016,59 @@ properties/incomplete compositions; metal displacement conditions; corrosion
 charge/Fe(OH)3/inhibitor exponents; electrolysis wrong electrode labels, charged
 products and tableH2S; and alkali Fr/medical/biological universals. The clear
 source examples remain usable under their declared conditions.
+
+
+## Batch30 — 2026-10-25: grade9 paragraphs16–20
+
+**153/268 implemented;115 remain. Grade9 20/61;grade7 all74 andgrade8 all59.**
+Five new lessons add75 cards/111 questions:22 MCQ,11 short,46 numeric,
+17 formula and15 equation. Total1326 cards/1975 questions:606/288/537/226/318.
+
+Original74–top100 visually reviewed. Coverage includes alloy composition and
+structure, metallic bonding and scoped displacement, corrosion/protection roles,
+electrolysis of specified melts/solutions, Faraday unit pairing and all seven
+worked examples, and alkali configurations/compound categories. Current and
+earlier source pages remain explicit. Ag107.9 from8/13/59 is openly rounded108
+for the school mass model. CuO is a declaredCu(II) product with prior7/9/31
+(PDF16:right) and8/2/10 evidence, not an unbounded reaction prediction.
+
+New source scopes remain visible: alloy universal properties/incomplete recipes,
+undefined gold assay and acid products; unqualified metal displacement; corrosion
+charge/pure rust/inhibitor exponent; electrolysis wrong electrode labels, charged
+hydrogen/oxygen copies and tableH2S; and Fr/medical/biological alkali claims.
+106 editorial issues plus one scientific blocker remain. Course-ready flags are
+false. Conditional original balances and exact arithmetic are taught without
+silently copying disputed assertions or repairing them from external knowledge.
+No new ionic/equilibrium solver, pedagogy, AI or physical experiment was added.
+
+Full Chemistry1118 passed,1 opt-in PostgreSQL skip,1 existing Starlette warning,
+507.17s. Target82 passed/11.10s includes22 earlier-source tests. All111 new
+answers also passed actual HTTP. An initial standalone validation caught a
+missing Natriy entry in the already taught names fact; the evidence list was
+completed before tests/import. Critical Ruff/diff checks passed. All148 prior
+lesson bytes/manifest pins and original grade7§1 remain unchanged.
+
+Flutter522 tests passed/93s; analysis0 issues/26.3s. Six200% source widgets
+passed/7s, including two new320×568 dark/light scenarios. Six new captures were
+inspected: corrosion feedback/source9/85/source7/31→PDF16:right, and electrolysis
+feedback/source9/90,93,94,96/source8/59. Source ownership, spread locators,
+scrolling and pinned continuation remain usable. No runtime UI change or native
+Android/IME/TalkBack certificate is claimed.
+
+Actual HTTP preserved148 synthetic completions/2960XP and added100XP once,
+reaching153 completions/3060XP. Complete replay is identical;2,24/2.24 and
+3.01e23/301000000000000000000000 replays agree. Grade7/8 catalogs are unchanged;
+private rubrics remain hidden. Six sanitized public fixtures were exported.
+Current sandboxilm-ai-chemistry-batch28-final-qa on8903 now runs ownPID26704;
+verify full command before stopping. All153 imported r1 revisions are immutable;
+private defines remain outside Git.
+
+Five PDF hashes/all817 pages audited; catalogue327 anchors/268 teaching entries
+unchanged. No PDF/OCR/full text/render/token push, production operation, main merge
+or other-subject branch mutation. Source teacher review remains outstanding.
+
+Next five:grade9§21–25,original100–top124,all visually read. Private detailed
+notes:.local/grade9_batch31_source_notes.md. Review K potential/KO2 category/NaON,
+conditional hydride identification, mineral formula conflicts, clinical claims,
+lime-name ambiguity, hardness/biological arithmetic copies, and Al electrode
+signs/carbon balance/nepheline ratios. Do not fill missing keys from memory.

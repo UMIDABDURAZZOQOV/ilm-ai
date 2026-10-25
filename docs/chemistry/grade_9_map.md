@@ -29,11 +29,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-paragraph14` | paragraph 14 | Silikat sanoati | 66–71 | 66:full – 71:full | 66 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph13 |
 | `ch9-chapter04` | chapter 4 | Metallar | 71–177 | 71:full – 177:full | 71 | not_authored | — |
 | `ch9-paragraph15` | paragraph 15 | Metallarning tabiatda tarqalishi, olinishi va ishlatilishi | 71–74 | 71:full – 74:full | 71 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph14 |
-| `ch9-paragraph16` | paragraph 16 | Qotishmalar | 74–77 | 74:full – 77:full | 74 | not_authored | ch9-paragraph15 |
-| `ch9-paragraph17` | paragraph 17 | Metallarning fizik va kimyoviy xossalari | 77–80 | 77:full – 80:full | 77 | not_authored | ch9-paragraph16 |
-| `ch9-paragraph18` | paragraph 18 | Metallar korroziyasi | 80–85 | 80:full – 85:full | 80 | not_authored | ch9-paragraph17 |
-| `ch9-paragraph19` | paragraph 19 | Elektroliz va uning amaliy ahamiyati | 85–97 | 85:full – 97:full | 85 | not_authored | ch9-paragraph18 |
-| `ch9-paragraph20` | paragraph 20 | Ishqoriy metallar | 97–100 | 97:full – 100:full | 97 | not_authored | ch9-paragraph19 |
+| `ch9-paragraph16` | paragraph 16 | Qotishmalar | 74–77 | 74:full – 77:full | 74 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph15 |
+| `ch9-paragraph17` | paragraph 17 | Metallarning fizik va kimyoviy xossalari | 77–80 | 77:full – 80:full | 77 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph16 |
+| `ch9-paragraph18` | paragraph 18 | Metallar korroziyasi | 80–85 | 80:full – 85:full | 80 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph17 |
+| `ch9-paragraph19` | paragraph 19 | Elektroliz va uning amaliy ahamiyati | 85–97 | 85:full – 97:full | 85 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph18 |
+| `ch9-paragraph20` | paragraph 20 | Ishqoriy metallar | 97–100 | 97:full – 100:full | 97 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph19 |
 | `ch9-paragraph21` | paragraph 21 | Natriy va kaliyning xossalari va eng muhim birikmalari | 100–105 | 100:full – 105:full | 100 | not_authored | ch9-paragraph20 |
 | `ch9-paragraph22` | paragraph 22 | Soda ishlab chiqarish | 105–109 | 105:full – 109:full | 105 | not_authored | ch9-paragraph21 |
 | `ch9-paragraph23` | paragraph 23 | Kalsiy va magniy | 109–117 | 109:full – 117:full | 109 | not_authored | ch9-paragraph22 |
