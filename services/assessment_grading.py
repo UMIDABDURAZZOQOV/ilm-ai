@@ -47,6 +47,7 @@ UNITS = {
     "min": ("time", Fraction(60)),
     "h": ("time", Fraction(3600)),
     "km/h": ("speed", Fraction(5, 18)),
+    "km/s": ("speed", Fraction(1000)),
     "N": ("force", Fraction(1)),
     "kN": ("force", Fraction(1000)),
     "mN": ("force", Fraction(1, 1000)),
@@ -67,6 +68,9 @@ UNITS = {
     "V": ("voltage", Fraction(1)),
     "mV": ("voltage", Fraction(1, 1000)),
     "kV": ("voltage", Fraction(1000)),
+    # Grade6 PDF147: lens optical power1/F with F in metres.
+    "dptr": ("optical_power", Fraction(1)),
+    "1/m": ("optical_power", Fraction(1)),
 }
 UNIT_ALIASES = {
     "metr": "m",

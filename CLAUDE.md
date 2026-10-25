@@ -1,5 +1,8 @@
 # Ilm AI — Project Context (for Claude)
 
+> **2026-10-25 — Fizika optika §47–56:** saqlanmagan ishlar yo‘qotilmasdan yakunlandi. **56/316 authored,260 qolgan**;234 karta/68 formula yozuvi/62 misol/365 topshiriq/79 FRQ. Asl PDF132–151 qayta o‘qilgan;5 yangi cheklangan formula oilasi,62 jami. Kitobdagi145-sahifa javob/ko‘p tasvir va141-sahifa kamalak tafovutlari reviewda ochiq; xavfli Quyoshga qarash topshirig‘i yo‘q. Ikki yangi lab faqat raqamli. Keyingi **§57 PDF156**; Fizika lokal/test preview. Batafsil `docs/physics/STAGE2_PROGRESS.md`.
+
+
 > **Davom — 2026-10-22, Fizika §43–46:** yana4 dars/18 karta/4 misol/24 topshiriq/2 FRQ. **46/316 authored,270 qolgan**; jami192 karta/61 formula yozuvi/52 misol/302 topshiriq/70 FRQ;57 executable oilasi. Asl PDF118–128 qayta ko‘rildi, jami106 original sahifa hash audit. V/mV/kV va manbadagi1V=1000mV exact qoida, ishoralar/neytral tortilish/asbob ulanishlari tekshirildi. Physics+Biology116 passed, HTTP46dars/460XP/replay; Flutter Physics17 passed, mV uchun public payload320px/200% regression. Keyingi **§47 PDF132**. Veb/Biology kontenti/prod o‘zgarmadi; umumiy nashr va ekspert/nativeAndroid tasdig‘i yo‘q. Tafsilot `docs/physics/STAGE2_PROGRESS.md`.
 
 

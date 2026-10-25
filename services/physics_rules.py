@@ -20,6 +20,36 @@ def rule(target, variables, equivalents, conditions):
 
 
 REVIEWED_FORMULAS = {
+    "flat_image_distance": rule(
+        "i",
+        ["d"],
+        ["d", "1*d"],
+        "Yassi ko‘zgu: d>0 oldingi masofa, i orqadagi masofa moduli; PDF142–143.",
+    ),
+    "spherical_focus": rule(
+        "F",
+        ["R"],
+        ["R/2", "0.5*R"],
+        "Paraksial botiq sferik ko‘zgu modeli, R>0; PDF143 rasm/formula qutisi.",
+    ),
+    "concave_image": rule(
+        "f",
+        ["F", "d"],
+        ["F*d/(d-F)", "1/(1/F-1/d)"],
+        "Paraksial botiq ko‘zgu, F>0 va d>F; haqiqiy tasvir masofasi f>0; PDF144. d=F yoki virtual branch qabul qilinmaydi.",
+    ),
+    "lens_power": rule(
+        "D",
+        ["F"],
+        ["1/F", "F^-1"],
+        "Havodagi yig‘uvchi linza, F>0 metrlarda; D dioptriyada; PDF147.",
+    ),
+    "lens_focal": rule(
+        "F",
+        ["D"],
+        ["1/D", "D^-1"],
+        "Havodagi yig‘uvchi linza, D>0 dioptriyada; F metrlarda; PDF147.",
+    ),
     "v_to_mv": rule(
         "y", ["x"], ["1000*x", "x*1000"], "x V, y mV; nonnegative magnitude, PDF126."
     ),
@@ -304,6 +334,7 @@ DIMENSION_UNIT = {
     "power": "W",
     "torque": "N*m",
     "voltage": "V",
+    "optical_power": "dptr",
 }
 
 
@@ -472,6 +503,20 @@ def reviewed_calculation(question):
             "S1", "area"
         ), "force"
 
+    if name == "flat_image_distance":
+        return positive("d", "length"), "length"
+    if name == "spherical_focus":
+        return positive("R", "length") / 2, "length"
+    if name == "concave_image":
+        focal = positive("F", "length")
+        distance = positive("d", "length")
+        if distance <= focal:
+            raise ValueError("real_concave_image_domain")
+        return focal * distance / (distance - focal), "length"
+    if name == "lens_power":
+        return 1 / positive("F", "length"), "optical_power"
+    if name == "lens_focal":
+        return 1 / positive("D", "optical_power"), "length"
     if name == "v_to_mv":
         if givens["x"]["unit"] != "V":
             raise ValueError("conversion_given_unit")

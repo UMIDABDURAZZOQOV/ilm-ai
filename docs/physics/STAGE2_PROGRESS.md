@@ -13,13 +13,13 @@ Joriy mualliflik sanoqlari `python -m scripts.audit_physics_course` orqali olina
 
 | Sinf | Jami bo‘lim | Yozilgan lokal dars/faoliyat | Qolgan | Karta | Formula yozuvi | Misol | Topshiriq | FRQ | Lab / uy amaliyoti |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 6 | 61 | 46 | 15 | 192 | 61 | 52 | 302 | 70 | 5 / 1 |
+| 6 | 61 | 56 | 5 | 234 | 68 | 62 | 365 | 79 | 7 / 1 |
 | 7 | 46 | 0 | 46 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 8 | 60 | 0 | 60 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 9 | 59 | 0 | 59 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 10 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
 | 11 | 45 | 0 | 45 | 0 | 0 | 0 | 0 | 0 | 0 / 0 |
-| Jami | 316 | 46 | 270 | 192 | 61 | 52 | 302 | 70 | 5 / 1 |
+| Jami | 316 | 56 | 260 | 234 | 68 | 62 | 365 | 79 | 7 / 1 |
 
 Formula yozuvlari dars ichidagi izohlangan formulalardir, noyob fizik qonunlar
 soni emas. 56 executable qoida oilasi bor: dastlabki 5 + keyingi 51.
@@ -293,3 +293,29 @@ Public fixturega private grading/expected qiymatlar kiritilmadi.
 §47–56 sahifalari132–151 matn/tasvir bilan ko‘rildi; darslari navbatda.
 PG/full backend/build/native Android natijasi yangi partiya uchun hali
 qayta tasdiqlanmagan; Fizika faqat lokal/test preview, AI Explain yo‘q.
+
+
+## 2026-10-25 — Optika §47–56 saqlanmagan ishlarini yakunlash
+
+Worktree va GitHub HEAD07f748b qayta tekshirildi; hech qanday reset/overwrite
+yo‘q. Oldingi46 dars saqlandi.10 yangi dars:42 karta/7 formula yozuvi/10 misol/
+63 topshiriq(9 FRQ). Manba PDF=bosma:§47 132–134;48 134–135;49 135–137;
+50 138–140;51 140–142;52 142–145;53 146–147;54 147–149;55 149–150;56 150–151.
+20 asl sahifa matn/tasviri tekshirildi; review JSONda hash/ilmiy qarorlar bor.
+Yangi5 executable oila: flat image, spherical focus, real concave image, lens
+power/focal distance. d>F>0 paraksial ko‘zgu va havodagi musbat yig‘uvchi linza
+doiralari aniq; virtual/singular branchni musbat formula bilan baholamaymiz.
+km/s,dptr,1/m exact birliklari;9 mustaqil sonli oracle.
+
+Kitob tafovutlari:PDF145 mashq2 d250cm/F245cm natijasi12250cm, berilgan124cm
+kalit emas; parallel2ko‘zgu uchun universal2tasvir kaliti ham ko‘chirilmagan.
+PDF141 kamalak yoyini Yer sferikligi bilan izohlash ilmiy qoida sifatida
+berilmaydi; tomchi/sinish/qaytish ishlatiladi. PDF137 tanga/qora ko‘zoynak
+bilan Quyoshga qarash topshirig‘i kiritilmadi. Sferik qonunlar paraksial;
+7 rang nomi shartli, spektr uzluksiz. Raqamli2lab real tajriba emas.
+
+Optika11 yangi source-semantic/domain testi o‘tdi; tanlangan Physics/Biology
+suite **127 passed(26.76s)**; barcha56 dars HTTP/replay/560XP. Flutter Physics
+**17 passed**; dptr/km public birliklar320px/200% da tekshirildi. Jami126 asl
+sahifa hash auditidan o‘tdi. Flutter branch commitbefb294. **56/316;260 qolgan.**
+Keyingi **§57,PDF/bosma156**. Native Android/mustaqil ekspert tasdig‘i yo‘q.
