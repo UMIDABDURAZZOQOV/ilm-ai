@@ -23,12 +23,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-paragraph08` | paragraph 8 | Uglerod guruhidagi elementlarning umumiy tavsifi | 42–47 | 42:full – 47:full | 42 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph07 |
 | `ch9-paragraph09` | paragraph 9 | Uglerodning fizik va kimyoviy xossalari | 47–50 | 47:full – 50:full | 47 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph08 |
 | `ch9-paragraph10` | paragraph 10 | Uglerodning eng muhim birikmalari | 50–53 | 50:full – 53:full | 50 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph09 |
-| `ch9-paragraph11` | paragraph 11 | Karbonat kislota va karbonatlarning xossalari | 53–61 | 53:full – 61:full | 53 | not_authored | ch9-paragraph10 |
-| `ch9-paragraph12` | paragraph 12 | Kremniy. Kremniyning davriy sistemadagi o‘rni va atom tuzilishi | 61–63 | 61:full – 63:full | 61 | not_authored | ch9-paragraph11 |
-| `ch9-paragraph13` | paragraph 13 | Kremniyning xossalari. Muhim birikmalari | 63–66 | 63:full – 66:full | 63 | not_authored | ch9-paragraph12 |
-| `ch9-paragraph14` | paragraph 14 | Silikat sanoati | 66–71 | 66:full – 71:full | 66 | not_authored | ch9-paragraph13 |
+| `ch9-paragraph11` | paragraph 11 | Karbonat kislota va karbonatlarning xossalari | 53–61 | 53:full – 61:full | 53 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph10 |
+| `ch9-paragraph12` | paragraph 12 | Kremniy. Kremniyning davriy sistemadagi o‘rni va atom tuzilishi | 61–63 | 61:full – 63:full | 61 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph11 |
+| `ch9-paragraph13` | paragraph 13 | Kremniyning xossalari. Muhim birikmalari | 63–66 | 63:full – 66:full | 63 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph12 |
+| `ch9-paragraph14` | paragraph 14 | Silikat sanoati | 66–71 | 66:full – 71:full | 66 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph13 |
 | `ch9-chapter04` | chapter 4 | Metallar | 71–177 | 71:full – 177:full | 71 | not_authored | — |
-| `ch9-paragraph15` | paragraph 15 | Metallarning tabiatda tarqalishi, olinishi va ishlatilishi | 71–74 | 71:full – 74:full | 71 | not_authored | ch9-paragraph14 |
+| `ch9-paragraph15` | paragraph 15 | Metallarning tabiatda tarqalishi, olinishi va ishlatilishi | 71–74 | 71:full – 74:full | 71 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph14 |
 | `ch9-paragraph16` | paragraph 16 | Qotishmalar | 74–77 | 74:full – 77:full | 74 | not_authored | ch9-paragraph15 |
 | `ch9-paragraph17` | paragraph 17 | Metallarning fizik va kimyoviy xossalari | 77–80 | 77:full – 80:full | 77 | not_authored | ch9-paragraph16 |
 | `ch9-paragraph18` | paragraph 18 | Metallar korroziyasi | 80–85 | 80:full – 85:full | 80 | not_authored | ch9-paragraph17 |

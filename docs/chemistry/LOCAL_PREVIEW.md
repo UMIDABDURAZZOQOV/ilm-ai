@@ -387,3 +387,69 @@ charge54,hydrate11.44/4.28ambiguous56,2.74versus2.47and20.4Vmtypos59/60,
 cave/clinicalsafety,Si phase/density/acid-subject/polysilaneuniversals,cement
 450C,crystalsodaearlyround146/limestone.953,densitythreshold500/metalloid/
 currentresourcerank universals. Exactclearbookmodels only,no externalrepair.
+
+
+## Batch29 — 2026-10-25: grade9 paragraphs11–15
+
+**148/268 implemented;120 remain. Grade9 15/61, with all74 grade7 and59 grade8 entries.**
+Five new lessons add80 cards and125 questions:23 MCQ,9 short,35 numeric,
+18 formula and40 equation. Total1251 cards/1864 questions:584/277/491/209/303.
+
+Original53–top74 was visually reviewed. Coverage includes carbonate equilibria,
+salts and worked mass balances; silicon structure, minerals and given reduction
+models; silica/metasilicate transformations; glass/cement/ceramic categories;
+and metal occurrence, extraction families and electron counts. Worked arithmetic
+uses exact declared textbook models and final rounding. Earlier-grade constants
+retain their own book identity, including8/practical1/125–126 mass316 for
+2KMnO4 and8/20/84–85 decomposition. No remembered Mn atomic mass was added.
+
+New source review scopes remain visible: bicarbonate charge54, ambiguous hydrate
+sample56,2.74 versus2.47 and20.4 versus22.4 copies59/60; silicon phase density;
+unqualified silane/acid/species claims; cement450C; early-rounding water146g and
+limestone.953; metal density500kg/m3 and current resource statistics. Clear
+given models yield2.467%,146.140g and.952 at declared precision. These original
+calculations are identified as such. No silent external450→1450 or500→5000
+correction. All five ready flags remain false:101 editorial scopes and one
+scientific blocker, with no independent teacher approval claimed.
+
+The validator now rejects both superscript minus forms of the wrong HCO3 charge
+and both disputed silicon phase density values. New tests cover these holds,
+source order,125 grading answers and once-only XP. Equation prompts present
+unbalanced supplied species; private expected ratios remain source checked.
+The shared MCQ/FRQ, immutable attempt, expiry, replay and20XP rules are unchanged.
+Learner copy and unit spacing were proofread before the first immutable import;
+carbonate hydrate content uses “suvsiz tuz”, not “anhidrid”.
+
+Full Chemistry:1058 passed,1 opt-in PostgreSQL skip,1 existing Starlette warning,
+523.49s. Target89 passed/11.23s includes22 earlier-source tests. Initial target
+had88 pass/1 fail because AU was incorrectly expected to return invalid_answer;
+existing grammar returns incorrect for a wrong formula. Only that test assertion
+changed. Critical Ruff/diff checks passed. All143 predecessor lesson hashes and
+manifest pins, plus original grade7§1, are unchanged.
+
+Flutter520 tests passed/111s; analysis0 issues/153.1s. Four200% source widgets
+passed/6s, including two new320×568 dark/light scenarios. Six new captures were
+visually inspected: silicon mass feedback/current9/62/earlier8/27, and silicate
+industry feedback/current9/70/earlier8/84–85. Source dialogs scroll separately,
+and feedback keeps its continuation button reachable. No runtime UI change or
+native Android/IME/TalkBack certification is claimed.
+
+Actual loopback HTTP answered125 questions and preserved143 synthetic progress
+rows/2860XP. It added100XP once, reaching148 completions/2960XP. Complete replay
+is identical;146,140/146.140 and3.568e2/356.8 replays agree. Grade7/8 catalogs
+remain unchanged and private rubrics are hidden. Six sanitized public fixtures
+were exported. Current sandbox remainsilm-ai-chemistry-batch28-final-qa on8903,
+now ownPID22976; verify its full command before stopping. Private defines stay
+outside Git. All148 imported r1 revisions are immutable.
+
+Five PDF hashes/all817 pages audited; source map remains327 anchors/268 entries.
+No raw PDF/OCR/full text/render/token push, main merge, production DB operation,
+AI feature or other-subject branch mutation. Digital models do not provide
+physical lead/silane/HF/thermite/refining/electrolysis/clinical instructions.
+
+Next five: grade9§16–20, original74–top100. All74–100 visually read; detailed
+notes are private at.local/grade9_batch30_source_notes.md. Review alloy universal
+properties/incomplete compositions; metal displacement conditions; corrosion
+charge/Fe(OH)3/inhibitor exponents; electrolysis wrong electrode labels, charged
+products and tableH2S; and alkali Fr/medical/biological universals. The clear
+source examples remain usable under their declared conditions.

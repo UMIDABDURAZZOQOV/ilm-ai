@@ -127,6 +127,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-paragraph08': 'ch9-p8-carbon-configuration-allotrope-review',
     'ch9-paragraph09': 'ch9-p9-carbon-adsorption-heat-review',
     'ch9-paragraph10': 'ch9-p10-carbon-oxide-phase-safety-review',
+    'ch9-paragraph11': 'ch9-p11-carbonate-charge-hydrate-rounding-review',
+    'ch9-paragraph12': 'ch9-p12-silicon-density-source-scope-review',
+    'ch9-paragraph13': 'ch9-p13-silicon-silicate-species-scope-review',
+    'ch9-paragraph14': 'ch9-p14-silicate-cement-arithmetic-scope-review',
+    'ch9-paragraph15': 'ch9-p15-metal-classification-density-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -686,6 +691,25 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch9-paragraph10' in topic_ids:
             require(not any('CO2' in a and 'barcha yong‘in' in a.casefold() for a in plain_values),
                     'unqualified_carbon_dioxide_fire_safety_cannot_be_a_premise')
+        if 'ch9-paragraph11' in topic_ids:
+            require(not any(any(bad in a for bad in ('HCO3²−', 'HCO3²⁻', 'HCO3(2-)')) for a in plain_values),
+                    'unbalanced_bicarbonate_charge_copy_cannot_be_a_premise')
+            require(not any(a.replace(',', '.') in {'2.74', '20.4'} for a in f['verified_answers']),
+                    'unresolved_carbonate_arithmetic_or_volume_copy_cannot_be_an_answer')
+        if 'ch9-paragraph12' in topic_ids:
+            require(not any(a.replace(',', '.') in {'3.3', '2.33'} for a in f['verified_answers']),
+                    'unreviewed_silicon_phase_density_cannot_be_an_answer')
+        if 'ch9-paragraph13' in topic_ids:
+            require(not any('barcha silan' in a.casefold() and 'n<8' in a.replace(' ', '') for a in plain_values),
+                    'unqualified_silane_chain_limit_cannot_be_a_premise')
+        if 'ch9-paragraph14' in topic_ids:
+            require(not any('450' in a and ('sement' in a.casefold() or 'klinker' in a.casefold()) for a in plain_values),
+                    'unreviewed_cement_temperature_cannot_be_a_premise')
+            require(not any(a.replace(',', '.')=='0.953' for a in f['verified_answers']),
+                    'unresolved_limestone_fraction_rounding_cannot_be_an_answer')
+        if 'ch9-paragraph15' in topic_ids:
+            require(not any('500' in a and 'chegara' in a.casefold() and 'kg/m3' in a for a in plain_values),
+                    'unreviewed_metal_density_threshold_cannot_be_a_premise')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

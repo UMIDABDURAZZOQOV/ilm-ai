@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 10 | 51 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 15 | 46 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 143 | 125 |
+| Total | 29 | 204 | 49 | 15 | 268 | 148 | 120 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1171 cards; 1739 assessments: 561 concept_selection, 268 short_text, 456 numeric_value, 191 chemical_formula, 263 chemical_equation.
+Total: 1251 cards; 1864 assessments: 584 concept_selection, 277 short_text, 491 numeric_value, 209 chemical_formula, 303 chemical_equation.
 
 ## Initial §1
 
@@ -140,11 +140,16 @@ Charged models use source display/MCQ and numericcounts,existing kinds only.
 5 lessons;72 cards;124 questions:23 MCQ,10 short,26 numeric,21 formula,44 equation.
 Strict explicit earlier-grade source citations preserve each book identity.
 
+## Batch29: grade9 §11–15
+
+5 lessons;80 cards;125 questions:23 MCQ,9 short,35 numeric,18 formula,40 equation.
+Original carbonate, silicon, silicate industry and metal models keep exact sources.
+
 ## Current continuation
 
-143/268 implemented;125 remain. Grade7 all74,grade8 all59,grade9 10/61.
-Next5:grade9 §11–15,sequence11–15,original53–top74. All53–74 read;
-private notes .local/grade9_batch29_source_notes.md. Rendered62–77 privately.
-96 editorial scopes plus one grade9 scientific blocker;all ready flags false.
-Fresh finalHTTP preserves138 baseline completions/2760XP,adds100XP once:
-143completions/2860XP. All138 prior hashes/original§1 unchanged.
+148/268 implemented;120 remain. Grade7 all74,grade8 all59,grade9 15/61.
+Next5:grade9 §16–20,sequence16–20,original74–top100. All74–100 visually read.
+Detailed private notes: .local/grade9_batch30_source_notes.md.
+101 editorial scopes plus one scientific blocker; all ready flags false.
+Actual HTTP preserved143 baseline completions/2860XP and added100XP once:
+148completions/2960XP. All143 prior hashes/original§1 unchanged.
