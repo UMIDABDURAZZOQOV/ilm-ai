@@ -10,6 +10,7 @@ import ast
 import re
 from decimal import Decimal, InvalidOperation
 from fractions import Fraction
+from math import isqrt
 
 
 class AnswerError(ValueError):
@@ -92,6 +93,13 @@ UNITS = {
     "mW": ("power", Fraction(1, 1000)),
     "MW": ("power", Fraction(1000000)),
     "W*s": ("energy", Fraction(1)),
+    # Grade8 PDF10–21: charge, Coulomb coefficient and electric field.
+    "C": ("charge", Fraction(1)),
+    "µC": ("charge", Fraction(1, 10**6)),
+    "nC": ("charge", Fraction(1, 10**9)),
+    "µN": ("force", Fraction(1, 10**6)),
+    "N*m2/C2": ("coulomb_constant", Fraction(1)),
+    "N/C": ("electric_field", Fraction(1)),
 }
 UNIT_ALIASES = {
     "metr": "m",
@@ -124,6 +132,10 @@ UNIT_ALIASES = {
     "N·m": "N*m",
     "N m": "N*m",
     "foiz": "%",
+    "μC": "µC",
+    "uC": "µC",
+    "μN": "µN",
+    "uN": "µN",
 }
 TOKEN = re.compile(
     r"\s*(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?|"
@@ -189,7 +201,17 @@ def literal(node, text):
         raise AnswerError("invalid_expression") from None
 
 
-def numeric(text):
+def exact_square_root(value):
+    """Exact rational roots only; irrational rounding is not silently guessed."""
+    if value < 0:
+        raise AnswerError("domain_error")
+    top, bottom = isqrt(value.numerator), isqrt(value.denominator)
+    if top * top != value.numerator or bottom * bottom != value.denominator:
+        raise AnswerError("domain_error")
+    return bounded(Fraction(top, bottom))
+
+
+def numeric(text, *, allow_square_root=False):
     text, root = tree(text)
 
     def visit(node, depth=0):
@@ -197,6 +219,15 @@ def numeric(text):
             raise AnswerError("invalid_expression")
         if isinstance(node, ast.Constant):
             return literal(node, text)
+        if (
+            allow_square_root
+            and isinstance(node, ast.Call)
+            and isinstance(node.func, ast.Name)
+            and node.func.id == "sqrt"
+            and len(node.args) == 1
+            and not node.keywords
+        ):
+            return exact_square_root(visit(node.args[0], depth + 1))
         if isinstance(node, ast.UnaryOp) and isinstance(node.op, (ast.UAdd, ast.USub)):
             value = visit(node.operand, depth + 1)
             return -value if isinstance(node.op, ast.USub) else value
@@ -215,6 +246,8 @@ def numeric(text):
                     raise AnswerError("domain_error")
                 result = left / right
             else:
+                if allow_square_root and right == Fraction(1, 2):
+                    return exact_square_root(left)
                 if (
                     right.denominator != 1
                     or abs(right) > 12
@@ -246,6 +279,15 @@ def formula_ast(text, spec):
         if isinstance(node, ast.Constant):
             value = literal(node, text)
             return ("number", str(value))
+        if (
+            spec.get("allow_square_root") is True
+            and isinstance(node, ast.Call)
+            and isinstance(node.func, ast.Name)
+            and node.func.id == "sqrt"
+            and len(node.args) == 1
+            and not node.keywords
+        ):
+            return ("power", visit(node.args[0], depth + 1), ("number", "1/2"))
         if isinstance(node, ast.Name):
             if node.id not in allowed:
                 raise AnswerError("unknown_symbol")
@@ -275,6 +317,13 @@ def formula_ast(text, spec):
                 if right == ("number", "0"):
                     raise AnswerError("domain_error")
                 return ("divide", left, right)
+            if spec.get("allow_square_root") is True:
+                try:
+                    exponent = numeric(ast.get_source_segment(text, node.right))
+                except AnswerError:
+                    raise AnswerError("domain_error") from None
+                if exponent == Fraction(1, 2):
+                    return ("power", left, ("number", "1/2"))
             if (
                 right[0] != "number"
                 or Fraction(right[1]).denominator != 1
@@ -312,7 +361,11 @@ def grade_answer(spec, answer):
     if fields != required:
         return "answer_required"
     try:
-        value = numeric(answer["value"])
+        value = numeric(
+            answer["value"],
+            allow_square_root=(spec.get("formula") or {}).get("allow_square_root")
+            is True,
+        )
         # Accept explicit typed exponent variants, preserving SI case. Never
         # infer an omitted exponent (cm and cm3 are different dimensions).
         unit = answer["unit"].strip().replace("²", "2").replace("³", "3")

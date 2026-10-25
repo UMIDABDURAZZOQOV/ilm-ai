@@ -760,3 +760,47 @@ OCRcacheichida`g8-ocr/p004.txt` kabi originalPDFindeks saqlanadi.
 **Hali107/316;8-sinf0/60.** Sourceadapter tayyor; keyingi8-sinf§1–5,
 PDF/bosma4–22. Noaniq exponent/symbol sahifalari11/14/15/20to‘liq
 kattalashtirib tekshirildi, OCRning xatolari bilim manbasi deb olinmaydi.
+
+
+## 8-sinf §1–5 — 2026-10-25
+
+5 dars/faoliyat, 23 karta, 13 formula yozuvi, 6 original namuna,
+36 topshiriq (19 MCQ + 2 tartiblash + 15 FRQ). Manba PDF/bosma:
+§1 4–9, §2 9–12, §3 12–15, §4 15–18, §5 18–22. 19 asl sahifa
+va cached OCR qayta tekshirildi; jami 312 page checks/306 noyob sahifa.
+8-sinf manbasi ikki original PDF segmentidan iborat; segment manifesti
+butun PDF hashiga aylantirilmadi. Har citation original va local sahifa,
+part SHA, OCR/native text va render dalillari bilan tekshiriladi.
+
+12 yangi executable oila, jami151. Charge C/µC/nC, forceµN va fieldN/C
+birliklari; elementar musbat modul e=1.6e-19C, butun zarra soni,
+particle mass, vakuum Kulon moduli, signed ikki bir xil shar taqsimoti,
+kuch nisbati, E=F/q/kq/r² va dielektrik modeli. §1ga sun’iy FRQ yo‘q.
+PDF11dagi elektron yo‘qotgan jism ishorasi xato, PDF9 orbit rasmi va
+OCRdagi exponent/epsilon tafovutlari reviewda ochiq. Asl11/14/15/20
+sahifalar kattalashtirib tekshirildi. Barcha tushuntirish/masalalar original.
+
+Kvadrat ildiz faqat serverdagi yangi `equal_coulomb_charge` oilasi uchun
+opt-in. `sqrt(...)`, `^0.5` va `^(1/2)` yopiq AST sifatida taniladi;
+client flag bera olmaydi. Parser uzunlik/depth/bit/power chegaralari,
+no-eval/no-CAS va eski qoida defaultlari saqlandi. Numeric ifodada faqat
+aniq ratsional ildiz hisoblanadi. Bu partiyaning manbali masalalari shunga
+mos; **umumiy irratsional ildizni aniqlik bilan yaxlitlash hali implement
+qilingan deyilmaydi**. Ildiz, ishora, kichik birliklar va noto‘g‘ri function
+chaqiruvlari alohida testlangan. Qoidalar/javob kalitlari clientga chiqmaydi.
+
+To‘liq backend **815 passed,4 opt-in skipped,13 mavjud warning296.78s**.
+Actual lokal PG16 **1 passed26.49s**: barcha112 dars import/reimport,
+1120XP, replay, eski137XP/3streak/2stars saqlandi. Flutter **147 passed**,
+Physics **21 passed**, analyze toza; grade8 bibliography/API query va
+15 yangi FRQ320px/200% qoralama, root notation testlari o‘tdi. Native
+Android va yangi actual TCPHTTP112 sinovi bu partiyada bajarilmadi;
+oldingi actualHTTP107 natijasi sinf7checkpointida qoladi. Old6/7json va
+Biology406 o‘zgarmadi; website/Kimyo/prod/import/AIExplain yo‘q.
+
+**112/316;204 qolgan.**6:61/61,7:46/46,8:5/60,9:0/59,10:0/45,11:0/45.
+Jami473karta/177formula yozuvi/120namuna/734topshiriq/236FRQ.
+Keyingi **8-sinf§6«O‘tkazgichlarda elektr zaryadlarning taqsimlanishi»,
+PDF/bosma22**. §6–10 PDF22–29/32–39 matn/tasvirlari qayta o‘qildi;
+25/26dagi noaniq OCR asl tasvirda tekshirildi, keyingi darslar hali0.
+Oraliq tasdiq kutilmaydi, §6–10 muallifligi bilan davom etiladi.

@@ -6,20 +6,97 @@ recalculates answers from structured givens, independently of stored answers.
 """
 
 from fractions import Fraction
+from math import isqrt
 
 from services.assessment_grading import UNITS, numeric
 
 
-def rule(target, variables, equivalents, conditions):
-    return {
+def rule(target, variables, equivalents, conditions, *, square_root=False):
+    result = {
         "target": target,
         "variables": variables,
         "equivalents": equivalents,
         "conditions": conditions,
     }
+    if square_root:
+        result["allow_square_root"] = True
+    return result
 
 
 REVIEWED_FORMULAS = {
+    "charge_multiple": rule(
+        "q",
+        ["n", "e"],
+        ["n*e", "e*n"],
+        "e=1.6e-19C musbat modul,n butun elektron/protonlar soni;8sinfPDF11.",
+    ),
+    "electron_count": rule(
+        "n",
+        ["q", "e"],
+        ["q/e", "q*e^-1"],
+        "q zaryad MODULI,e=1.6e-19C; butun zarrachalar soni;8sinfPDF11,15.",
+    ),
+    "particle_mass_sum": rule(
+        "m",
+        ["n", "m0"],
+        ["n*m0", "m0*n"],
+        "n butun son,m0=9.1e-31kg elektron yoki1.67e-27kg protonning berilgan yaqinlashuvi;8sinfPDF11.",
+    ),
+    "coulomb_force": rule(
+        "F",
+        ["k", "q1", "q2", "r"],
+        ["k*q1*q2/r^2", "k*q2*q1/(r*r)"],
+        "Vakuum,qo‘zg‘almas nuqtalar,q1/q2 musbat MODULLAR,r>0,k9e9;8sinfPDF13–14.",
+    ),
+    "identical_charge2": rule(
+        "q",
+        ["q1", "q2"],
+        ["(q1+q2)/2", "q1/2+q2/2"],
+        "Bir xil ikki metall sharning ideal teng taqsimoti,yakkalangan umumiy zaryad,signedq;8sinfPDF12,16.",
+    ),
+    "equal_share_ratio": rule(
+        "ratio",
+        ["q1", "q2"],
+        ["(q1+q2)^2/(4*q1*q2)"],
+        "Musbat bir xil ishorali zaryadlar,bir xil sharlar,oldingi r ga qaytarish;8sinfPDF16.",
+    ),
+    "field_strength": rule(
+        "E",
+        ["F", "q"],
+        ["F/q", "F*q^-1"],
+        "Kichik musbat sinov zaryadi,modullar;8sinfPDF19–21.",
+    ),
+    "field_point": rule(
+        "E",
+        ["k", "q", "r"],
+        ["k*q/r^2", "k*q/(r*r)"],
+        "Vakuumdagi nuqtaviy manba,q modul,r>0,k9e9;8sinfPDF20.",
+    ),
+    "field_force": rule(
+        "F",
+        ["E", "q"],
+        ["E*q", "q*E"],
+        "Elektr maydon va sinov zaryadi modullaridan kuch moduli;8sinfPDF19–21.",
+    ),
+    "dielectric_field": rule(
+        "E",
+        ["E0", "eps"],
+        ["E0/eps", "E0*eps^-1"],
+        "Berilgan bir jinsli chiziqli elektrostatik dielektrik,eps>=1;8sinfPDF20.",
+    ),
+    "dielectric_ratio": rule(
+        "eps",
+        ["E0", "E"],
+        ["E0/E", "E0*E^-1"],
+        "Ayni manba va geometrik sharoit,E0>=E>0;8sinfPDF20–21.",
+    ),
+    "equal_coulomb_charge": rule(
+        "q",
+        ["F", "r", "k"],
+        ["sqrt(F*r^2/k)", "(F*r^2/k)^0.5", "r*sqrt(F/k)"],
+        "Teng moduldagi vakuum nuqtalari,F/r>0,k9e9; aniq ratsional ildizli berilganlar;8sinfPDF15.",
+        square_root=True,
+    ),
     "potential7": rule(
         "Ep",
         ["m", "g", "h"],
@@ -797,6 +874,8 @@ DIMENSION_UNIT = {
     "angular_speed": "rad/s",
     "stiffness": "N/m",
     "momentum": "kg*m/s",
+    "charge": "C",
+    "electric_field": "N/C",
 }
 
 
@@ -1020,6 +1099,64 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+    if name in {"charge_multiple", "electron_count"}:
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_elementary_charge_magnitude")
+        if name == "charge_multiple":
+            count = value("n", "dimensionless")
+            if givens["n"]["unit"] != "1" or count.denominator != 1:
+                raise ValueError("whole_particle_count")
+            return count * e, "charge"
+        count = value("q", "charge") / e
+        if count.denominator != 1:
+            raise ValueError("whole_particle_count")
+        return count, "dimensionless"
+    if name == "particle_mass_sum":
+        count = value("n", "dimensionless")
+        mass = positive("m0", "mass")
+        if (
+            givens["n"]["unit"] != "1"
+            or count.denominator != 1
+            or mass not in {Fraction("9.1e-31"), Fraction("1.67e-27")}
+        ):
+            raise ValueError("explicit_particle_mass_and_whole_count")
+        return count * mass, "mass"
+    if name in {"coulomb_force", "field_point", "equal_coulomb_charge"}:
+        k = positive("k", "coulomb_constant")
+        if k != 9_000_000_000:
+            raise ValueError("explicit_vacuum_coulomb_constant")
+        radius = positive("r", "length")
+        if name == "coulomb_force":
+            return k * positive("q1", "charge") * positive(
+                "q2", "charge"
+            ) / radius**2, "force"
+        if name == "field_point":
+            return k * value("q", "charge") / radius**2, "electric_field"
+        radicand = positive("F", "force") * radius**2 / k
+        top, bottom = isqrt(radicand.numerator), isqrt(radicand.denominator)
+        if top * top != radicand.numerator or bottom * bottom != radicand.denominator:
+            raise ValueError("root_rounding_not_reviewed_for_this_rule")
+        return Fraction(top, bottom), "charge"
+    if name == "identical_charge2":
+        return (projection("q1", "charge") + projection("q2", "charge")) / 2, "charge"
+    if name == "equal_share_ratio":
+        a, b = positive("q1", "charge"), positive("q2", "charge")
+        return (a + b) ** 2 / (4 * a * b), "dimensionless"
+    if name == "field_strength":
+        return value("F", "force") / positive("q", "charge"), "electric_field"
+    if name == "field_force":
+        return value("E", "electric_field") * value("q", "charge"), "force"
+    if name == "dielectric_field":
+        eps = positive("eps", "dimensionless")
+        if eps < 1:
+            raise ValueError("static_dielectric_model")
+        return value("E0", "electric_field") / eps, "electric_field"
+    if name == "dielectric_ratio":
+        e0, e = positive("E0", "electric_field"), positive("E", "electric_field")
+        if e0 < e:
+            raise ValueError("static_dielectric_model")
+        return e0 / e, "dimensionless"
     if name in {
         "potential7",
         "gravity_work7",
