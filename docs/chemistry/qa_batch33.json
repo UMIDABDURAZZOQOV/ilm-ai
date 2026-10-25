@@ -1,0 +1,56 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 163,
+  "prior_xp": 3260,
+  "added_lessons": 5,
+  "added_questions": 189,
+  "kinds": {
+    "concept_selection": 20,
+    "short_text": 10,
+    "chemical_formula": 31,
+    "chemical_equation": 82,
+    "numeric_value": 46
+  },
+  "added_xp": 100,
+  "total_xp": 3360,
+  "total_completed_lessons": 168,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_and8_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public chromium basics/compounds/iron compounds catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-25",
+  "implemented_lessons": 168,
+  "remaining_lessons": 100,
+  "backend_tests": {
+    "passed": 1296,
+    "skipped": 1,
+    "seconds": 789.32
+  },
+  "targeted_tests": {
+    "passed": 74,
+    "seconds": 13.21,
+    "earlier_grade_source_tests": 22
+  },
+  "flutter_tests": {
+    "passed": 530,
+    "seconds": 99
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 35.4
+  },
+  "flutter_source_widgets": {
+    "passed": 3,
+    "new_batch_scenarios": 3,
+    "seconds": 6,
+    "new_captures_inspected": 8,
+    "initial_async_test_failure_fixed": true
+  },
+  "sandbox": "loopback8903;163 exact prior synthetic progress rows preserved",
+  "open_source_holds": 1,
+  "open_editorial_issues": 120,
+  "production_operations": false
+}

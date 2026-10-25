@@ -1183,3 +1183,57 @@ answers accepted by existing grader. Do not call that a finished course batch.
 Review Cr acid/product conditions/CrO3 coefficient, Mn nonoxidation and +7/+6
 copies, Fe diagram/potential/limonite/rust, complex phase and clinical claims.
 No catalogue scope run yet. Freeze source data during full snapshot tests.
+
+
+## Batch33 — 2026-10-25: grade9 paragraphs31–35
+
+**168/268 implemented;100 remain. Grade9 35/61;grade7 all74 andgrade8 all59.**
+Five lessons add89 cards/189 questions:20 MCQ,10 short,46 numeric,31 formula,
+82 equation. Total1573 cards/2448 questions:666/318/657/296/511.
+Original145–top165 visually reviewed. Cr/Cr compounds,Mn,Fe/Fe compounds use
+the existing response types and common learning/progress/XP/source structure.
+
+Cr acid-product guarantees/CrO3 coefficient copy,Mn absolute nonoxidation/+7
+versus+6 copies,Fe orbital diagram/potential/limonite/rust,complex-phase and
+clinical assertions remain explicit review scopes. Cr52 is openly rounded from
+native51.996 in its own paragraph,never backfilled into earlier paragraph26.
+Worked-example rounded masses remain separate from native tables. Source156
+K2MnO4/+6/two-electron evidence supports the declared model;wrong+7/three-electron
+copy excluded. Existing paragraph27 gem/KOH and paragraph40 wholehold unchanged.
+Complex square-bracket species remain display/MCQ/count only;no new parser/AI.
+120 editorial issues and one scientific blocker keep every ready flag false.
+
+Full Chemistry1296 passed,1 opt-in PG skip,1 existing Starlette warning/789.32s.
+Target74/13.21s includes22 earlier-grade source tests. Critical Ruff/diff passed.
+All163 predecessor hashes/manifest pins and original§1 unchanged. Five original
+PDF hashes/all817 pages audited;327anchors/268teaching entries retained.
+
+Flutter530 tests/99s;analysis0issues/35.4s. Final three320×568/200% widgets
+passed/6s. Initial2pass/1fail was a new complex-MCQ test selecting before async
+lesson response;bounded wait added to that test only,production UI unchanged.
+Eight captures visually inspected: Cr19,6 feedback/current9/145–146/prior8/29;
+Fe4.515e23 feedback/current9/165/prior7/34→PDF18:left;Cr complex MCQ/current
+9/148. Scrollable source ownership/locators and pinned continuation preserved.
+No native Android/IME/TalkBack certificate is claimed.
+
+Actual HTTP189 answers preserve163 synthetic completions/3260XP,then add100XP
+once→168completions/3360XP. Replay identical;19,6/19.6 and4.515e23/full decimal
+451500000000000000000000 equivalent. Grade7/8 unchanged;private rubrics hidden;
+nine sanitized public fixtures. All168r1 imported snapshots immutable.
+Current sandboxilm-ai-chemistry-batch28-final-qa,loopback8903,ownPID19116.
+Verify full command before stopping;private defines/tokens remain outside Git.
+
+Next§36–39,original165–top185,all visually read. Private source notes also
+cover§40/41 through191 and practical1page192. Next§36 private author_batch34a.py
+prepared but UNEXECUTED;no batch34 catalogue/index mutation. §37 examples contain
+multiple verified copy/arithmetic conflicts,especially174–175 Al/O2 factor2.
+Never copy those keys;use independently checked prior supplied-page evidence.
+
+§40page186 wholehold remains:configuration3s2 3p5 versusallIIgroup andmissing
+3p5 inCl prose. User was asked asynchronously for a corrected textbook page or
+teacher-confirmed correction;no approval or correction presumed. Continue the
+independent authorized work before that blocker. Do not weaken the hold/tests.
+
+No raw PDF/OCR/fulltext/render/token push,main merge,production DB/deploy,
+other-subject branch mutation or clinical/physical hazardous instructions.
+Independent teacher review remains outstanding.

@@ -6,16 +6,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
-| 9 | 5 | 41 | 17 | 3 | 61 | 30 | 31 |
+| 9 | 5 | 41 | 17 | 3 | 61 | 35 | 26 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 0 | 41 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 163 | 105 |
+| Total | 29 | 204 | 49 | 15 | 268 | 168 | 100 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 1484 cards; 2259 assessments: 646 concept_selection, 308 short_text, 611 numeric_value, 265 chemical_formula, 429 chemical_equation.
+Total: 1573 cards; 2448 assessments: 666 concept_selection, 318 short_text, 657 numeric_value, 296 chemical_formula, 511 chemical_equation.
 
 ## Initial §1
 
@@ -160,12 +160,16 @@ Sodium/potassium, soda, Mg/Ca, water hardness and aluminium retain exact sources
 5 lessons;78 cards;151 questions:20 MCQ,10 short,40 numeric,19 formula,62 equation.
 Aluminium properties/compounds, copper, silver/gold and zinc/cadmium/mercury.
 
+## Batch33: grade9 §31–35
+
+5 lessons;89 cards;189 questions:20 MCQ,10 short,46 numeric,31 formula,82 equation.
+Chromium/compounds,manganese,iron/compounds retain exact supplied source evidence.
+
 ## Current continuation
 
-163/268 implemented;105 remain. Grade7 all74,grade8 all59,grade9 30/61.
-Next5:grade9 §31–35,sequence31–35,original145–top165. All145–165 visually read.
-Private notes:.local/grade9_batch33_source_notes.md. All five private drafts
-prepared and dry-run reviewed without saving/indexing during batch32 full tests.
-115 editorial scopes plus one scientific blocker; all ready flags false.
-Actual HTTP preserved158 baseline completions/3160XP and added100XP once:
-163completions/3260XP. All158 prior hashes/original§1 unchanged.
+168/268 implemented;100 remain. Grade7 all74,grade8 all59,grade9 35/61.
+Next source:§36–39,original165–top185,all visuallyread. §40 remains blocked;
+corrected source/teacher-confirmed correction requested asynchronously.
+120 editorial scopes plus one scientific blocker;all ready flags false.
+Actual HTTP preserved163 baseline completions/3260XP and added100XP once:
+168completions/3360XP. All163 prior hashes/original§1 unchanged.

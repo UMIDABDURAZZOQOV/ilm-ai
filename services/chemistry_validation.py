@@ -146,6 +146,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch9-paragraph28': 'ch9-p28-copper-phase-conditional-scope-review',
     'ch9-paragraph29': 'ch9-p29-silver-gold-clinical-thickness-scope-review',
     'ch9-paragraph30': 'ch9-p30-zinc-mercury-balance-clinical-review',
+    'ch9-paragraph31': 'ch9-p31-chromium-condition-table-review',
+    'ch9-paragraph32': 'ch9-p32-chromium-compounds-coefficient-review',
+    'ch9-paragraph33': 'ch9-p33-manganese-oxidation-copy-review',
+    'ch9-paragraph34': 'ch9-p34-iron-diagram-rust-scope-review',
+    'ch9-paragraph35': 'ch9-p35-iron-complex-clinical-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -786,6 +791,28 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch9-paragraph30' in topic_ids:
             require(not any(a.replace(' ', '') == 'Zn(OH)2+H2SO4=ZnSO4+H2O' for a in f['verified_answers']),
                     'unbalanced_zinc_hydroxide_water_copy_cannot_be_an_answer')
+        if 'ch9-paragraph31' in topic_ids:
+            require(not any('ortiqcha HCl'.casefold() in a.casefold() and 'CrCl3' in a
+                            for a in f['verified_answers']),
+                    'unreviewed_chromium_excess_acid_product_cannot_be_an_answer')
+        if 'ch9-paragraph32' in topic_ids:
+            require(not any(a.replace(' ', '') == 'K2Cr2O7+H2SO4=CrO3+K2SO4+H2O' for a in f['verified_answers']),
+                    'unbalanced_chromium_trioxide_copy_cannot_be_an_answer')
+        if 'ch9-paragraph33' in topic_ids:
+            require(not any('K2MnO4' in a and ('+7' in a or '3 elektron' in a.casefold())
+                            for a in f['verified_answers']),
+                    'unreviewed_manganate_oxidation_copy_cannot_be_an_answer')
+        if 'ch9-paragraph34' in topic_ids:
+            require(not any('limonit' in a.casefold() and 'FeO2' in a
+                            for a in plain_values),
+                    'unreviewed_limonite_formula_cannot_be_a_premise')
+            require(not any('juftlashmagan' in a.casefold() and '6' in a
+                            for a in f['verified_answers']),
+                    'unreviewed_iron_orbital_diagram_cannot_be_an_answer')
+        if 'ch9-paragraph35' in topic_ids:
+            require(not any(a.replace(' ', '') in {'200mg', '6–40mg', '7–35g'}
+                            for a in f['verified_answers']),
+                    'unreviewed_iron_clinical_dose_cannot_be_an_answer')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

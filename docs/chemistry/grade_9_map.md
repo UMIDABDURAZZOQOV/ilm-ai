@@ -44,11 +44,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch9-paragraph28` | paragraph 28 | I guruh yonaki guruhcha metallarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari. Mis | 131–137 | 131:full – 137:full | 131 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph27 |
 | `ch9-paragraph29` | paragraph 29 | Kumush va oltin. Xossalari. Ishlatilishi | 137–139 | 137:full – 139:full | 137 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph28 |
 | `ch9-paragraph30` | paragraph 30 | II guruh yonaki guruhcha elementlarining davriy jadvaldagi o‘rni. Atom tuzilishi. Xossalari | 139–145 | 139:full – 145:full | 139 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph29 |
-| `ch9-paragraph31` | paragraph 31 | Xrom. Davriy jadvaldagi o‘rni. Atom tuzilishi va ayrim xossalari | 145–147 | 145:full – 147:full | 145 | not_authored | ch9-paragraph30 |
-| `ch9-paragraph32` | paragraph 32 | Xromning II, III, VI valentli birikmalari va xossalari | 147–152 | 147:full – 152:full | 147 | not_authored | ch9-paragraph31 |
-| `ch9-paragraph33` | paragraph 33 | Marganes. Davriy jadvaldagi o‘rni. Atom tuzilishi. Ayrim xossalari | 152–158 | 152:full – 158:full | 152 | not_authored | ch9-paragraph32 |
-| `ch9-paragraph34` | paragraph 34 | Temir | 158–162 | 158:full – 162:full | 158 | not_authored | ch9-paragraph33 |
-| `ch9-paragraph35` | paragraph 35 | Temirning eng muhim birikmalari. Ishlatilishi | 162–165 | 162:full – 165:full | 162 | not_authored | ch9-paragraph34 |
+| `ch9-paragraph31` | paragraph 31 | Xrom. Davriy jadvaldagi o‘rni. Atom tuzilishi va ayrim xossalari | 145–147 | 145:full – 147:full | 145 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph30 |
+| `ch9-paragraph32` | paragraph 32 | Xromning II, III, VI valentli birikmalari va xossalari | 147–152 | 147:full – 152:full | 147 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph31 |
+| `ch9-paragraph33` | paragraph 33 | Marganes. Davriy jadvaldagi o‘rni. Atom tuzilishi. Ayrim xossalari | 152–158 | 152:full – 158:full | 152 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph32 |
+| `ch9-paragraph34` | paragraph 34 | Temir | 158–162 | 158:full – 162:full | 158 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph33 |
+| `ch9-paragraph35` | paragraph 35 | Temirning eng muhim birikmalari. Ishlatilishi | 162–165 | 162:full – 165:full | 162 | reviewed local lesson; scoped editorial review remains open | ch9-paragraph34 |
 | `ch9-paragraph36` | paragraph 36 | O‘zbekistonda metallurgiya. Cho‘yan ishlab chiqarish | 165–168 | 165:full – 168:full | 165 | not_authored | ch9-paragraph35 |
 | `ch9-paragraph37` | paragraph 37 | Po‘lat ishlab chiqarish | 168–177 | 168:full – 177:full | 168 | not_authored | ch9-paragraph36 |
 | `ch9-chapter05` | chapter 5 | Noorganik kimyodan olgan bilimlarni umumlashtirish | 177–192 | 177:full – 192:full | 177 | not_authored | — |
