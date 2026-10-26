@@ -79,6 +79,7 @@ UNITS = {
     "ms": ("time", Fraction(1, 1000)),
     "µs": ("time", Fraction(1, 10**6)),
     "ns": ("time", Fraction(1, 10**9)),
+    "µPa": ("pressure", Fraction(1, 10**6)),
     "J*s": ("action", Fraction(1)),
     "m*K": ("wien_constant", Fraction(1)),
     "sr": ("solid_angle", Fraction(1)),

@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "batch": "grade11_batch8",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-11",
+  "book_sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+  "batch_file_sha256": "c2c1fb1e52eb082bdd5b872e9228597c0d5b16818494d0e2c5f9d253b1cb4b8f",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 143,
+      "printed_page": 142,
+      "text_sha256": "c19f5557f9dffc0474dd0b49178054c898cc31941ca79f4cb7e55095d080239d",
+      "reviewed_render_sha256": "115bddd997f828d246be20b92cb5fc8c434e4fb1bb44a83dfdc4145e40e097e7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 144,
+      "printed_page": 143,
+      "text_sha256": "ca173d94e81fc253abb6c447d5ebcb6d049ff2589c430962a9ff4f24ec12b47f",
+      "reviewed_render_sha256": "bb59093c644f279d10b2da6de554d5ad6f682533d9d048c2e848904580245bdb",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 145,
+      "printed_page": 144,
+      "text_sha256": "059c510bf3d126c4204cc8deceb99547d35c3c03e2bf79605706f5d2e72b5892",
+      "reviewed_render_sha256": "4941f1c7ad7ad97d63d78670a53fdea6aef4f42ee66747acb7be81e5e54930de",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 146,
+      "printed_page": 145,
+      "text_sha256": "3069983f0d55119056aaae739517bc286c8cba121bc52ad928e9d5d0029ba6b2",
+      "reviewed_render_sha256": "f40acf65dbfe0080cc9a8978ad274008a4dfbbec9680f9099588b77913a7c8f7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 147,
+      "printed_page": 146,
+      "text_sha256": "26d7624ff1d4ee73a946ddad0fd4a3e57b0c8ac87bac7ec843c9b08d34d0d1a3",
+      "reviewed_render_sha256": "d70e3176f8118e52626ea28fdd1e3d64b5d3c5bd642e98818273984d985726ed",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 148,
+      "printed_page": 147,
+      "text_sha256": "db933bd1604ce13db0007a1c94c7547d9e4a6bb58615eb0e32582987d360dea6",
+      "reviewed_render_sha256": "edb1d52df494c3c24b82543b0ffd1d5b73a8db56effb27bca42b3743754d6b91",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 152,
+      "printed_page": 151,
+      "text_sha256": "6687472360adf9b84f65b57205c7ebcc98c1f2f8da009fe8952fbc095519964e",
+      "reviewed_render_sha256": "b2818e07855714b4934037a65a3b97ba2cbd83c6ea178e10171e43de1bda18fc",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 153,
+      "printed_page": 152,
+      "text_sha256": "d52816b0613a38ee923c97ff719aa83e4b6bba925fb1ebec12c61f9277449bac",
+      "reviewed_render_sha256": "f729bdc6575ea0fd7cd89be56dd8c4534f361c683044bd023eab2eb47b16aa2c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 154,
+      "printed_page": 153,
+      "text_sha256": "ddc8e2cc08ca144c30bcf9c626f2784b84159a7119e5ea72ce516f0e69393200",
+      "reviewed_render_sha256": "f8687251d248f0c24874f2ab7b6c2dd0ff6b7283ea65f13c55564960312add25",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 155,
+      "printed_page": 154,
+      "text_sha256": "77d25c5e777934430c48c99c68e868243306517e14e2bf7f137f696884650c75",
+      "reviewed_render_sha256": "96de980ee6a9ed6ef31336a8d3fa9682df2ddeb1b946264a41f3cf7db094823f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 156,
+      "printed_page": 155,
+      "text_sha256": "6f1f70ae4e48acc908520983095c8445e28c67aba5901034ce83af7dd65274eb",
+      "reviewed_render_sha256": "7ecec5c42158417be7babd6a5178276959df19df0667b4e44be56fa15996d76f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 157,
+      "printed_page": 156,
+      "text_sha256": "eba43192710a85afd3bc264c87fa3b87358de65038243f55f5fe487a57c559c5",
+      "reviewed_render_sha256": "fbb7fe5bb71a5b775ff91fb05caa6c64960928a3b2273bec732391ba61b7b6a5",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 158,
+      "printed_page": 157,
+      "text_sha256": "3613fbbc9cc049d6d35685b509eb1d473c3ff61b75eab74cf78a6082da6b0f3b",
+      "reviewed_render_sha256": "5512ba90b64663c3064d7837cb90a22916b62b78cd601c72d8b7a1c9cf399304",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 159,
+      "printed_page": 158,
+      "text_sha256": "a96e5bdc5d388f44e8ffba7860c78243bc0f25007c67ce68a737e65d318cf8d3",
+      "reviewed_render_sha256": "c2bdbdae3a2df80e1e98a08b99fa6af55d5bb1da26bf76806345b6df22571bfd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 160,
+      "printed_page": 159,
+      "text_sha256": "fb497b5211270adc870e15cfcef96bcdada81dd346b99e5e8542a7edfed66427",
+      "reviewed_render_sha256": "bd6ad3688739d323ded67495163acac997a361708915cc3a1dc19412a938b09c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 161,
+      "printed_page": 160,
+      "text_sha256": "69cce9166b7d315d8fd5b0755e262742487763cfd7302a9c9a812717a0f3299b",
+      "reviewed_render_sha256": "c7d371e58e62290c41b6d4ddaa53d53caf09a6107d85a1e8c6834d031548bd66",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 162,
+      "printed_page": 161,
+      "text_sha256": "8a9c18ef0fe5aac9f3481233c93c92ecd75d19f130efb053ac189c2f5c5a469d",
+      "reviewed_render_sha256": "4e6a8764389fc8744d2e8292eeef079c26d90c8a0292ab0ba9dc91b027f90c2b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 163,
+      "printed_page": 162,
+      "text_sha256": "aa5a7aadd5932cb36a3aa5acd162b1a1e1458d090d8b6e2396f7cea143bdcd60",
+      "reviewed_render_sha256": "b6af4487305bddd946e8bdebe55610d35f26cb84007cfa6a5ccf3575874e5282",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 164,
+      "printed_page": 163,
+      "text_sha256": "0ee3bd36b4d26495013cab8bd4664e5372a0fd83c3130df4d3516eebd893bd49",
+      "reviewed_render_sha256": "458ded05c8870b1c654059e084e3642d4eaf0c6da159c4a08d6a7dce4d75c11c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 165,
+      "printed_page": 164,
+      "text_sha256": "d1aa2182dc5f0cf0d4d288517c9f2c0ea4012ff6fb8772a3a5f4e8230880aa17",
+      "reviewed_render_sha256": "30ebd1d7bd0d93bacdded27a5ee87194a1e69ed27a5d2897249a931ff807ddb8",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 166,
+      "printed_page": 165,
+      "text_sha256": "47d772f5db0ca3134505478b3094ef55fdaf81cb52480482dc3e5f82dcc8c370",
+      "reviewed_render_sha256": "6b2858de56de98e904756d3bf439f26d476374899904a6c4bcd28efc18747314",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 167,
+      "printed_page": 166,
+      "text_sha256": "bf81608bb69e13386ab5b9a52f4d7625380db04e3baf537a9dfadfd9864480b6",
+      "reviewed_render_sha256": "b05cac00fddfadc050427bd158a3530dd92204a9ea597f3861c5eda6006c0e77",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 168,
+      "printed_page": 167,
+      "text_sha256": "68f7821d7352e6fcba7ade1e08d655a64f8de63257a7e779e064c86f8919c833",
+      "reviewed_render_sha256": "0113a437d6468a86aa19a6fb8f9b9891202b0282e2b1434ff92e06b9cf048188",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        143,
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "decision": "Vacuum photonE=hc/lambda,p=h/lambda,normalperfectabsorptionp=I/c/reflection2I/c checked. Source sunlight pressure/force number0.48µN wrongmagnitude/unitforgeneric sunlight notcopied. Source147workedtable lambda=nu/c typo corrected c/nu; h6.6e-63 exercise typo notcopied. No assumptionuniversalmediumphotonmomentum (Abraham/Minkowskiambiguity). LEDisnot automaticallysemiconductorlaser, emissionnotinternalphotoeffect inreversewording. PVefficiency/historyfiguresnotcurrentupperbounds. Original source faithful explanations/problems, noactualdevices."
+    },
+    {
+      "pages": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "decision": "Bohr stationary/transition postulates originalimageschecked. Source155radiuswritten n*h²eps/(pi*m*e²) missingn²; scientificcorrectionr_n=a0*n² recorded/used. Varyingclassicalorbitv=constant notgenerallycorrect, avoidclassicalcollapseargumentwiththatextraassumption. En=-Eion/n² hydrogenapprox,zeroionizationreference; npositivewhole. EmissionEi>Ef,negativeboundsallowed,photonpositive. Original unnamedgivenlevelmodel notclaimedactualelementlevels. hbar1.05e-34/h6.626e-34explicitbookapprox,not hidden exactconstants."
+    },
+    {
+      "pages": [
+        157,
+        158,
+        159,
+        160,
+        161
+      ],
+      "decision": "Laser conceptualonly/noartificialFRQ. Stimulatedvs spontaneous, pumping/metastable and rubyCr3+ chain reviewed. Notalllasers fixedpower/linewidth/polarization orallLEDlaser. Bookexactorders1e16–1e20W/m²not universalrequiredfacts. NoDIYlasers/isotopeseparation/surgicaloperationalinstructions; safeclassificationonly."
+    },
+    {
+      "pages": [
+        161,
+        162,
+        163,
+        164
+      ],
+      "decision": "A,Z,Ncounts distinct masses; isotopes sameZvsisobars sameA. Dm=Zmp+(A-Z)mn-mNUCLEUS; atomicmassnot mixed. BoundenergyDm*c²,pernucleonE/A average. Source95%mass claim inaccurateapprox(usually>99.9%)excludednumericaltest. Source164 binding-per-nucleon chart not copied as universal stability criterion. Original givenA4Z2mp1.6726e-27mn1.6749e-27mNuc6.644e-27 ->Dm5.1e-29/E4.59e-12J independentexactdecimalbalance; masses declaredapproximatemodelnotnewmeasuredisotopeclaim."
+    },
+    {
+      "pages": [
+        165,
+        166,
+        167,
+        168
+      ],
+      "decision": "Detector pulsecountvs spatialtrack,Geiger gasionization,cloud droplets,bubble superheatedliquid,scintillation light/photoemulsion reviewed. No perfectefficiency/zerodeadtime assumptions. Source168electronv~6e7 classical calculation needsrelativistic correction (~2%); neworiginal low-speedcase~8.79e5 chosen within existingexplicitpreview<3e6 guard,nottextbookfundamentalcutoff. qpositivechargeMODULUS/Bperpendicularuniform/Rcurvature. Rounded exact80000000/91 ->879000m/s at1000grid. Noactualradioactivesource/highvoltageexperiment."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 36,
+      "topic_id": "physics-11-section-36",
+      "pdf_pages": [
+        143,
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "printed_pages": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 37,
+      "topic_id": "physics-11-section-37",
+      "pdf_pages": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "printed_pages": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 38,
+      "topic_id": "physics-11-section-38",
+      "pdf_pages": [
+        157,
+        158,
+        159,
+        160,
+        161
+      ],
+      "printed_pages": [
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "cards": 5,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 39,
+      "topic_id": "physics-11-section-39",
+      "pdf_pages": [
+        161,
+        162,
+        163,
+        164
+      ],
+      "printed_pages": [
+        160,
+        161,
+        162,
+        163
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 40,
+      "topic_id": "physics-11-section-40",
+      "pdf_pages": [
+        165,
+        166,
+        167,
+        168
+      ],
+      "printed_pages": [
+        164,
+        165,
+        166,
+        167
+      ],
+      "cards": 5,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 1
+    }
+  ]
+}

@@ -1,3 +1,20 @@
+# Keyingi: 11-sinf §41 — 2026-10-26
+
+11§41–45 all19 original mapped pages168–186 visually reviewed, native hashes matched;privateoriginaldraft prepared. No batch9 runtime at this checkpoint. Next11§41PDF168/bosma167.
+
+PDF168,169,170,171: Decay originalpages viewed/nativehash matched. N=N0*2^(-t/T) expectedensembleparentcount,notdeterministicindividualtime. Newexactcalculatorrestricted WHOLE halfperiods0<=t/T<=4096,notphysicalclaimfractionalperiodsforbidden. ClosedAST symbolicpoweroptin ONLY formula-shapecomparison,neverexecuteslearnerinput; exactFraction fixedbase2 calculationguard. Activitypositive=-dN/dt=decayRate*N,source derivative missingminus corrected. Bqnotfrequency/dose,explicitln2=.693approx. Source allradioactivityabsolutelyunaffectedbytemperature/chemistry notgeneralextremeconditions;Bi209stableclaimobsolete,notcopied.
+
+PDF171,172,173,174: A/Z conservation vsrestmassenergy distinct. AlphaAd=A-4/Zd=Z-2 andbetaMinusZd=Z+1,Aunchanged. Sourcebeta-minus schematic omitsantineutrino; note missingparticle forenergy/momentum/leptonbalance,notclaimfullreaction. Gamma A/Zunchanged,energylevelchanges; XrayvsGamma origin notuniversalfrequencythreshold. Qsigned=(summin-summout)c² consistentnuclearinventory,positiveQnotguaranteedreactionrate/barrierabsence. Originalsmallabstract Qbalance notexperimentalreactionclaim.
+
+PDF174,175,176,177,178: Source historicalelementary300count/7fundamentaltypes/gravitonconfirmed excluded. Protonuud/neutronudd,valencequarkcharges+2/3and-1/3 imageverified. Antineutronnotselfidentical merelyneutral; sameantiQuantumNumbersconcept. ParentATREST two-photonONLY decay impliesoppositeequalenergyEq=mc²/2,noallmovingdecayclaim. Source two-photon parentworkedformula checked, originaldeclared2.4e-28kgmodelmass notnewmeasuredpionvalue.
+
+PDF178,179,180,181,182,183: Fissionbindingenergycomparison, generalchainconcept andheat→steam→turbine→generator reviewed. DoNOTcopyallk>1instantnuclearexplosionstatement orallglobalpowermostlyAESclaim. Industrialsafetyisnonoperationalgeneralconcept; nofuelsourcing/enrichment/criticalmassgeometry/procedure/shielddesign instructions. Etotal=Nevents*Qsingle abstractenergybookkeeping withfictionaldeclaredsmallcount,notreactorprediction. ExistingDB/XP/Biologyunchanged.
+
+PDF183,184,185,186: Uzbekistan1949/1956institutehistory explicitlybookhistoricalcontext,notliveverifiedinstitutionstate. Radiationmaterialscience/detectors/agricultural/treatmentexamples conceptualnotmedicalDIY. 1995productcountnotcurrentstatistic. Mappedendexercise186 reviewedwithoutclaimingeveryendchapterexercise individually authored. Nativeexpert/physicalmeasurementsnotclaimed.
+
+---
+Tarixiy qaydlar saqlandi.
+
 # Keyingi: 11-sinf §36 — 2026-10-26
 
 11§36–40 all23 original mapped pages143–148/152–168 re-read as images and native hashes matched. Private original draft prepared, no batch8 runtime at checkpoint. Next11§36PDF143/bosma142.

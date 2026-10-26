@@ -24,6 +24,78 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "vacuum_photon_energy_wavelength": rule(
+        "Eq",
+        ["h", "c", "Lw"],
+        ["h*c/Lw", "c*h*Lw^-1"],
+        "VACUUMwavelength,h6.626e-34,c3e8givenapprox;11PDF143.",
+    ),
+    "vacuum_photon_momentum": rule(
+        "pPhot",
+        ["h", "Lw"],
+        ["h/Lw", "h*Lw^-1"],
+        "VACUUMphotonmomentum,notambiguousmediumphotonmomentum;h6.626e-34;11PDF143.",
+    ),
+    "normal_absorber_radiation_pressure": rule(
+        "pAbs",
+        ["Iflux", "c"],
+        ["Iflux/c", "Iflux*c^-1"],
+        "Normalperfectabsorber/unidirectionalvacuumbeam,Iflux>=0W/m²,c3e8;11PDF144.",
+    ),
+    "normal_mirror_radiation_pressure": rule(
+        "pMirror",
+        ["Iflux", "c"],
+        ["2*Iflux/c", "Iflux/c*2"],
+        "Normalperfectmirror,vacuumbeam,nolosses,c3e8approx;11PDF144.",
+    ),
+    "bohr_quantized_angular_momentum": rule(
+        "Jorb",
+        ["n", "hbar"],
+        ["n*hbar", "hbar*n"],
+        "HydrogenBohrmodel,positiveWHOLEN,hbar1.05e-34givenapprox,notmodernallatomorbitclaim;11PDF154.",
+    ),
+    "atomic_emission_frequency": rule(
+        "nu",
+        ["Ei", "Ef", "h"],
+        ["(Ei-Ef)/h", "Ei/h-Ef/h"],
+        "BoundgivenatomlevelsEi>Ef,bothnegative,emissionpositivefrequency,h6.626e-34;11PDF155.",
+    ),
+    "hydrogen_bound_level_energy": rule(
+        "En",
+        ["Eion", "n"],
+        ["-Eion/n^2", "-(Eion*n^-2)"],
+        "IdealHYDROGENBohrmodel,Eion>0,positiveWHOLEN,zeroseparatedelectronproton;11PDF155–156.",
+    ),
+    "hydrogen_bohr_radius": rule(
+        "rn",
+        ["a0", "n"],
+        ["a0*n^2", "n^2*a0"],
+        "IdealHYDROGENBohrmodel,a0positive,positiveWHOLEN; n²scientificcorrectionto source155typo.",
+    ),
+    "nuclear_neutron_count": rule(
+        "N",
+        ["A", "Z"],
+        ["A-Z", "-Z+A"],
+        "Apositivewhole,Znonnegativewhole,Z<=A,countsnotkg;11PDF162.",
+    ),
+    "nuclear_mass_defect": rule(
+        "Dm",
+        ["A", "Z", "mp", "mn", "mNuc"],
+        ["Z*mp+(A-Z)*mn-mNuc", "mp*Z+mn*(A-Z)-mNuc"],
+        "NUCLEARnotneutralatomicmass,positivefreemasses,nonnegativebounddefect,wholeA/Z;11PDF163.",
+    ),
+    "nuclear_binding_energy": rule(
+        "Ebind",
+        ["Dm", "c"],
+        ["Dm*c^2", "c^2*Dm"],
+        "Boundnucleardefect>=0,c3e8explicitapprox,notchemicalrelease;11PDF163.",
+    ),
+    "binding_energy_per_nucleon": rule(
+        "Eper",
+        ["Ebind", "A"],
+        ["Ebind/A", "Ebind*A^-1"],
+        "ApositiveWHOLE,Ebind>=0,AVERAGEpernucleonnotindividualseparationenergy;11PDF163.",
+    ),
     "equal_illuminance_source_intensity": rule(
         "Iv1",
         ["Iv2", "r1", "r2"],
@@ -3773,6 +3845,7 @@ REVIEWED_FORMULAS = {
 }
 DIMENSION_UNIT = {
     "irradiance": "W/m2",
+    "action": "J*s",
     "solid_angle": "sr",
     "luminous_flux": "lm",
     "luminous_intensity": "cd",
@@ -3865,6 +3938,75 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name in {"vacuum_photon_energy_wavelength", "vacuum_photon_momentum"}:
+        h = positive("h", "action")
+        if h != Fraction("6.626e-34"):
+            raise ValueError("explicit_book_planck_approximation_required")
+        result = h / positive("Lw", "length")
+        if name == "vacuum_photon_momentum":
+            return result, "momentum"
+        c = positive("c", "speed")
+        if c != 300_000_000:
+            raise ValueError("explicit_air_vacuum_school_speed_required")
+        return result * c, "energy"
+    if name in {
+        "normal_absorber_radiation_pressure",
+        "normal_mirror_radiation_pressure",
+        "nuclear_binding_energy",
+    }:
+        c = positive("c", "speed")
+        if c != 300_000_000:
+            raise ValueError("explicit_air_vacuum_school_speed_required")
+        if name == "nuclear_binding_energy":
+            return value("Dm", "mass") * c * c, "energy"
+        return value("Iflux", "irradiance") / c * (
+            2 if name == "normal_mirror_radiation_pressure" else 1
+        ), "pressure"
+    if name in {
+        "bohr_quantized_angular_momentum",
+        "hydrogen_bound_level_energy",
+        "hydrogen_bohr_radius",
+    }:
+        n = positive("n", "dimensionless")
+        if n.denominator != 1 or givens["n"]["unit"] != "1":
+            raise ValueError("positive_whole_quantum_number_required")
+        if name == "bohr_quantized_angular_momentum":
+            hbar = positive("hbar", "action")
+            if hbar != Fraction("1.05e-34"):
+                raise ValueError("explicit_hbar_book_approximation_required")
+            return n * hbar, "action"
+        if name == "hydrogen_bohr_radius":
+            return positive("a0", "length") * n * n, "length"
+        return -positive("Eion", "energy") / (n * n), "energy"
+    if name == "atomic_emission_frequency":
+        ei, ef = projection("Ei", "energy"), projection("Ef", "energy")
+        h = positive("h", "action")
+        if h != Fraction("6.626e-34") or not ef < ei < 0:
+            raise ValueError("given_bound_downward_transition_required")
+        return (ei - ef) / h, "frequency"
+    if name in {
+        "nuclear_neutron_count",
+        "nuclear_mass_defect",
+        "binding_energy_per_nucleon",
+    }:
+        a = positive("A", "dimensionless")
+        if a.denominator != 1 or givens["A"]["unit"] != "1":
+            raise ValueError("positive_whole_mass_number_required")
+        if name == "binding_energy_per_nucleon":
+            return value("Ebind", "energy") / a, "energy"
+        z = value("Z", "dimensionless")
+        if z.denominator != 1 or z > a or givens["Z"]["unit"] != "1":
+            raise ValueError("valid_whole_charge_number_required")
+        if name == "nuclear_neutron_count":
+            return a - z, "dimensionless"
+        dm = (
+            z * positive("mp", "mass")
+            + (a - z) * positive("mn", "mass")
+            - positive("mNuc", "mass")
+        )
+        if dm < 0:
+            raise ValueError("bound_nuclear_mass_defect_nonnegative")
+        return dm, "mass"
     if name == "equal_illuminance_source_intensity":
         return value("Iv2", "luminous_intensity") * (
             positive("r1", "length") / positive("r2", "length")

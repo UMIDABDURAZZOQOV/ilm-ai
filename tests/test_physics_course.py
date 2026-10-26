@@ -1129,6 +1129,9 @@ NUMERIC_ORACLES.update({(11, 26, 6): ('600', 'nm', 'y*d/x/n'), (11, 26, 7): ('40
 NUMERIC_ORACLES.update({(11, 31, 6): ('40', 'cd', 'Iv2*(r1/r2)^2'), (11, 32, 6): ('7.5', 'ns', 'sqrt(tau0^2/(1-v^2/c^2))'), (11, 32, 7): ('120', 'cm', 'sqrt(l0^2*(1-v^2/c^2))'), (11, 32, 8): ('264705882', 'm/s', '(v+u)/(1+v*u/c^2)'), (11, 32, 9): ('0', 'm/s', '(u+v)/(1+u*v/c^2)'), (11, 33, 6): ('1.8e-10', 'J', 'c^2*m0'), (11, 33, 7): ('2.25e-10', 'J', 'sqrt(m0^2*c^4/(1-v^2/c^2))'), (11, 33, 8): ('4.5e-11', 'J', 'm0*c^2/sqrt(1-v^2/c^2)-m0*c^2'), (11, 33, 9): ('4.5e-19', 'kg*m/s', 'sqrt(m0^2*v^2/(1-v^2/c^2))'), (11, 34, 6): ('690', 'nm', 'b*T^-1'), (11, 34, 7): ('3000', 'K', 'b*Lpeak^-1'), (11, 34, 8): ('3.313e-19', 'J', 'nu*h'), (11, 34, 9): ('3e14', 'Hz', 'Eq*h^-1'), (11, 35, 6): ('3.313e-19', 'J', 'nu*h-A'), (11, 35, 7): ('3e14', 'Hz', 'A*h^-1'), (11, 35, 8): ('2000', 'mV', 'Kmax*e^-1')})
 
 
+NUMERIC_ORACLES.update({(11, 36, 6): ('3.313e-19', 'J', 'c*h*Lw^-1'), (11, 36, 7): ('1.3252e-27', 'kg*m/s', 'h*Lw^-1'), (11, 36, 8): ('2', 'µPa', 'Iflux*c^-1'), (11, 36, 9): ('4', 'µPa', 'Iflux/c*2'), (11, 37, 6): ('4.2e-34', 'J*s', 'hbar*n'), (11, 37, 7): ('3e14', 'Hz', 'Ei/h-Ef/h'), (11, 37, 8): ('-5.44e-19', 'J', '-(Eion*n^-2)'), (11, 37, 9): ('0.4761', 'nm', 'n^2*a0'), (11, 39, 6): ('14', '1', '-Z+A'), (11, 39, 7): ('5.1e-26', 'g', 'mp*Z+mn*(A-Z)-mNuc'), (11, 39, 8): ('4.59e-12', 'J', 'c^2*Dm'), (11, 39, 9): ('1.1475e-12', 'J', 'Ebind*A^-1'), (11, 40, 6): ('879000', 'm/s', 'B*R*q/m')})
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -1145,11 +1148,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        306,
-        10,
+        311,
+        5,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 35]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 40]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -1159,7 +1162,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 58
+    assert len(load_course()) == 59
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1372,7 +1375,7 @@ def test_all_reviewed_http_content_and_replay(preview):
         "course_complete"
     ]  # Grade11 is partial; completed grades do not imply 316/316.
     with factory() as db:
-        assert db.get(User, 1).xp_total == 3060
+        assert db.get(User, 1).xp_total == 3110
 
 
 @pytest.mark.parametrize(
