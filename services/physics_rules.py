@@ -24,6 +24,132 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "isobaric_volume": rule(
+        "V2",
+        ["V1", "T2", "T1"],
+        ["V1*T2/T1", "T2*V1/T1"],
+        "SAME idealgas amount/composition,p const,T Kelvin>0;9PDF35.",
+    ),
+    "isobaric_temperature": rule(
+        "T2",
+        ["V2", "T1", "V1"],
+        ["V2*T1/V1", "T1*V2/V1"],
+        "SAMEidealgas amount/composition,pconst,TiKelvin>0;9PDF35–36.",
+    ),
+    "isobaric_cooling": rule(
+        "Dcool",
+        ["T1", "V2", "V1"],
+        ["T1*(1-V2/V1)", "T1*(V1-V2)/V1"],
+        "ISOBARIC COOLING,SAMEideal gas,T1>0,0<V2<V1,DcoolPOSITIVE reduction;9PDF36.",
+    ),
+    "isobaric_heating": rule(
+        "Dheating",
+        ["T1", "V2", "V1"],
+        ["T1*(V2-V1)/V1", "T1*(V2/V1-1)"],
+        "ISOBARIC HEATING,SAMEideal gas,T1>0,V2>V1>0,DheatingPOSITIVE increase;9PDF36.",
+    ),
+    "isochoric_pressure": rule(
+        "p2",
+        ["p1", "T2", "T1"],
+        ["p1*T2/T1", "T2*p1/T1"],
+        "SAMEideal gasamount/composition,Vconst,ABSOLUTEp,TiKelvin>0;9PDF37.",
+    ),
+    "isochoric_temperature": rule(
+        "T2",
+        ["p2", "T1", "p1"],
+        ["p2*T1/p1", "T1*p2/p1"],
+        "SAMEideal gasamount/composition,Vconst,ABSOLUTEp,TiKelvin>0;9PDF37.",
+    ),
+    "isochoric_initial_pressure": rule(
+        "p1",
+        ["dp", "T1", "T2"],
+        ["dp*T1/(T2-T1)", "T1*dp/(T2-T1)"],
+        "SAMEideal gas,Vconst,dp>0INCREASE,T2>T1>0Kelvin,p1ABSOLUTE;9PDF38.",
+    ),
+    "layer_effective_thickness": rule(
+        "d",
+        ["V", "S"],
+        ["V/S", "V*S^-1"],
+        "V/S EFFECTIVE modelthickness;not exactpea/molecule diameter,packing/modeluncertainty;9PDF39.",
+    ),
+    "row_particle_mean": rule(
+        "d",
+        ["L", "N"],
+        ["L/N", "L*N^-1"],
+        "Average ROWmodel,L>0,NpositiveWHOLE count inunit1;9PDF39.",
+    ),
+    "room_volume": rule(
+        "V",
+        ["a", "b", "c"],
+        ["a*b*c", "c*b*a"],
+        "RectangularROOMmodel,positiveorthogonaledges;conditionaldigitaldata;9PDF39.",
+    ),
+    "room_air_density": rule(
+        "rho",
+        ["p", "M", "R", "T"],
+        ["p*M/(R*T)", "M*p/R/T"],
+        "IDEALairmodel,M29g/molsourceapprox,R8.31,TKelvin>0,pABSOLUTE;9PDF39–40.",
+    ),
+    "room_particle_count": rule(
+        "N",
+        ["n", "V"],
+        ["n*V", "V*n"],
+        "nNUMBERdensity,V>0,Nwholeconditionaldigitalcount;9PDF40.",
+    ),
+    "leaking_fixed_volume_pressure": rule(
+        "p2",
+        ["f", "p1", "T2", "T1"],
+        ["f*p1*T2/T1", "p1*f*T2/T1"],
+        "SAMEcompositionIDEALgas,Vconst,fREMAININGamountfraction0..1,TiKelvin>0,pABSOLUTE;9PDF42.",
+    ),
+    "isobaric_density_temperature": rule(
+        "T2",
+        ["rho1", "T1", "rho2"],
+        ["rho1*T1/rho2", "T1*rho1/rho2"],
+        "SAMEideal gascomposition,pconst,positive densities,TKelvin>0;9PDF41.",
+    ),
+    "isochoric_fraction_temperature": rule(
+        "T1",
+        ["DT", "f"],
+        ["DT/f", "DT*f^-1"],
+        "SAMEideal gasVconst,DTpositiveINCREASE,f=dp/p1positivefractionalpressureINCREASE;9PDF41.",
+    ),
+    "bubble_expansion_ratio": rule(
+        "x",
+        ["rho", "g", "h", "p0"],
+        ["1+rho*g*h/p0", "rho*g*h/p0+1"],
+        "ISOTHERMALconstantgasamountbubble,p0ABSOLUTE>0,g10N/kgsourceapprox,neglectsurfacetension/dissolution;h>=0;9PDF41.",
+    ),
+    "bubble_depth_ratio": rule(
+        "h",
+        ["x", "p0", "rho", "g"],
+        ["(x-1)*p0/(rho*g)", "p0*(x-1)/rho/g"],
+        "SAMEisothermalbubblemodel,x=Vsurface/Vbottom>=1,g10N/kgsourceapprox,p0ABSOLUTE;9PDF42.",
+    ),
+    "mono_internal_energy": rule(
+        "U",
+        ["nu", "R", "T"],
+        ["3*nu*R*T/2", "nu*R*T*3/2"],
+        "ONLYCLASSICALMONATOMICIDEALgas,nu>0,R8.31,TKelvin>=0;9PDF51.",
+    ),
+    "mono_delta_energy": rule(
+        "DU",
+        ["nu", "R", "T2", "T1"],
+        ["3*nu*R*(T2-T1)/2", "nu*R*(T2-T1)*3/2"],
+        "ONLYMONATOMICCLASSICALIDEALgas,SAMEamount,DU=U2-U1 SIGNED,R8.31,TiKelvin>0;9PDF51–52.",
+    ),
+    "mono_pressure_energy": rule(
+        "p",
+        ["U", "V"],
+        ["2*U/(3*V)", "2*U/3/V"],
+        "ONLYMONATOMICCLASSICALIDEALgas,Uinternalenergy,V>0,pABSOLUTE;9PDF51–52.",
+    ),
+    "mono_delta_volume": rule(
+        "DU",
+        ["p", "V2", "V1"],
+        ["3*p*(V2-V1)/2", "p*(V2-V1)*3/2"],
+        "ONLYMONATOMICCLASSICALIDEALgas,SAMEamount,pconstABSOLUTE,DU=U2-U1 SIGNED;9PDF52.",
+    ),
     "kelvin_from_celsius": rule(
         "T",
         ["theta"],
@@ -2028,6 +2154,98 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "isobaric_volume":
+        return positive("V1", "volume") * positive("T2", "temperature") / positive(
+            "T1", "temperature"
+        ), "volume"
+    if name == "isobaric_temperature":
+        return positive("V2", "volume") * positive("T1", "temperature") / positive(
+            "V1", "volume"
+        ), "temperature"
+    if name in {"isobaric_cooling", "isobaric_heating"}:
+        v1, v2 = positive("V1", "volume"), positive("V2", "volume")
+        if name == "isobaric_cooling":
+            if v2 >= v1:
+                raise ValueError("cooling_volume_decrease_required")
+            return positive("T1", "temperature") * (1 - v2 / v1), "temperature"
+        if v2 <= v1:
+            raise ValueError("heating_volume_increase_required")
+        return positive("T1", "temperature") * (v2 / v1 - 1), "temperature"
+    if name == "isochoric_pressure":
+        return positive("p1", "pressure") * positive("T2", "temperature") / positive(
+            "T1", "temperature"
+        ), "pressure"
+    if name == "isochoric_temperature":
+        return positive("p2", "pressure") * positive("T1", "temperature") / positive(
+            "p1", "pressure"
+        ), "temperature"
+    if name == "isochoric_initial_pressure":
+        t1, t2 = positive("T1", "temperature"), positive("T2", "temperature")
+        if t2 <= t1:
+            raise ValueError("warming_temperature_increase_required")
+        return positive("dp", "pressure") * t1 / (t2 - t1), "pressure"
+    if name == "layer_effective_thickness":
+        return positive("V", "volume") / positive("S", "area"), "length"
+    if name == "row_particle_mean":
+        count = count_given()
+        if count <= 0:
+            raise ValueError("positive_particle_count")
+        return positive("L", "length") / count, "length"
+    if name == "room_volume":
+        return positive("a", "length") * positive("b", "length") * positive(
+            "c", "length"
+        ), "volume"
+    if name == "room_air_density":
+        molar = positive("M", "molar_mass")
+        if molar != Fraction("0.029"):
+            raise ValueError("source_air_molar_mass_approximation")
+        return positive("p", "pressure") * molar / (
+            gas_constant() * positive("T", "temperature")
+        ), "density"
+    if name == "room_particle_count":
+        return whole_count(
+            value("n", "number_density") * positive("V", "volume")
+        ), "dimensionless"
+    if name == "leaking_fixed_volume_pressure":
+        fraction = value("f", "dimensionless")
+        if fraction > 1:
+            raise ValueError("remaining_fraction_zero_to_one")
+        return fraction * positive("p1", "pressure") * positive(
+            "T2", "temperature"
+        ) / positive("T1", "temperature"), "pressure"
+    if name == "isobaric_density_temperature":
+        return positive("rho1", "density") * positive("T1", "temperature") / positive(
+            "rho2", "density"
+        ), "temperature"
+    if name == "isochoric_fraction_temperature":
+        return positive("DT", "temperature") / positive(
+            "f", "dimensionless"
+        ), "temperature"
+    if name in {"bubble_expansion_ratio", "bubble_depth_ratio"}:
+        gravity = value("g", "force_per_mass")
+        if gravity != 10:
+            raise ValueError("explicit_source_gravity_10")
+        rho, p0 = positive("rho", "density"), positive("p0", "pressure")
+        if name == "bubble_expansion_ratio":
+            return 1 + rho * gravity * value("h", "length") / p0, "dimensionless"
+        ratio = positive("x", "dimensionless")
+        if ratio < 1:
+            raise ValueError("surface_to_bottom_ratio_at_least_one")
+        return (ratio - 1) * p0 / (rho * gravity), "length"
+    if name == "mono_internal_energy":
+        return 3 * positive("nu", "amount") * gas_constant() * value(
+            "T", "temperature"
+        ) / 2, "energy"
+    if name == "mono_delta_energy":
+        return 3 * positive("nu", "amount") * gas_constant() * (
+            positive("T2", "temperature") - positive("T1", "temperature")
+        ) / 2, "energy"
+    if name == "mono_pressure_energy":
+        return 2 * value("U", "energy") / (3 * positive("V", "volume")), "pressure"
+    if name == "mono_delta_volume":
+        return 3 * positive("p", "pressure") * (
+            positive("V2", "volume") - positive("V1", "volume")
+        ) / 2, "energy"
     if name == "molecular_layer":
         return positive("V", "volume") / positive("S", "area"), "length"
     if name in {"relative_particle_mass", "particle_mass_relative"}:
