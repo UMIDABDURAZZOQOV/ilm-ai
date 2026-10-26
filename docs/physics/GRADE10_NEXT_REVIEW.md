@@ -1,3 +1,20 @@
+# Keyingi: 10-sinf §41–45 — 2026-10-26
+
+266/316 bo‘lim.17asl sahifa153–169 nativehash/tasvirlari qayta o‘qildi. Bu source tayyorgarligi, keyingi runtimebatch9haliqo‘shilmagan.
+
+PDF153,154,155: Original images/native hashes read. Vacuum conduction requires emitted electrons, not vacuum automatically/source153 p<<1e-13mmHg not universal necessary pressure copied. Cathode heating vs anode accelerating voltage distinguished. I=k*U^(3/2) only same-geometry/temp SPACE-CHARGE-LIMITED positive-bias regime, before saturation; current ratio sqrt((U2/U1)^3) cancels k, no fabricated k units. Saturation depends emission/temp, not universal I=U/R. No heating/vacuum DIY measurement claim.
+
+PDF155,156,157,158: Original R/R0/rho formulas and coefficients checked. Linear approximate ordinary-metal law near specified reference with constant alpha; DT is temperature DIFFERENCE in K, not absolute Kelvin. Require positive modeled resistance/factor, signed cooling allowed, no extrapolation to superconducting/absolutezero regime. Source156 coefficient column labelled alpha degreesC is reciprocal unit1/K. Source157 zero/infinite resistance extrapolation is historical failed reasoning not asserted modern fact; mercury4.15K is historical reported approximate, no incomplete priority/BCStheory copied. Source158 sample early R0 rounding27 gives2518 while exact R0=30/1.1 gives~2488.89C schoolalpha.005, not publication answer key. Original modest-range givens avoid huge extrapolation. Source168Nickelin .0001 vs source156Nickel .0065 inconsistent, no guessed material value used.
+
+PDF158,159,160,161,162: Original intrinsic/donor/acceptor diagrams read. Electron/hole transport distinguished; hole is missing valence electron effectivepositive carrier, not drifting actual positive ion. Intrinsic equal electron/hole concentrations does NOT imply equal currents without equal mobilities; source160 equal-conductivities and source169test4 electron1mA->total2mA not copied. n-type/p-type majority carriers do not imply whole doped crystal netnegative/positive. As5 donor inSi, In3 acceptor only supplied diagrams; no toxic doping task or edits to Chemistry branch. Semiconductor temperature/light trends bounded statedmodel, not allconditions/universal materials groupsIII–V only. No unsupported numeric formula forced.
+
+PDF162,163,164,165,166: Original p-n depletion/forward/reverse/BJT/half-wave diagrams read. Depleted MOBILE carriers not absence of all fixed ion charge. Forward ppositive/nnegative, reverse opposite, smallreverse leakage allowed, not absolute all-bias zero. Bipolar transistor has emitter/base/collector,two junctions; emitterbase forward/collectorbase reverse in stated active mode. No invented beta/AC circuit formulas. Source165 emitter-base total current claimed much smaller than emitter-collector is misleading; small BASE branch controls larger collector circuit with external energy, not emitter current smaller than collector. Source165 allradioelement1nm/universal microchip historical claims not copied. Half-wave output pulsating unidirectional, not flatDC; no mains assembly task.
+
+PDF167,168,169: Original diode lab curve axes and conditional data checked. DIGITAL only no physical experiment/36–42V instructions. Ivertical in mA,UhorizontalV,reverse quadrant and forward bias scales distinct. Rpoint=|U|/|I| for supplied nonzero conditional point, not constant Ohmic diode/global differential resistance. Forward/reverse data explicitly hypothetical, not measured dots claimed. Source168question2 says whyreverse current flows, source163nearlyzero clarified smallleakage not contradiction forcedzero. Unsupported intrinsic-current-equality key not used. NoShockley/newAI explain or added semiconductor equation.
+
+---
+Tarixiy manba qaydlari quyida saqlandi.
+
 # Keyingi: 10-sinf §36–40 — 2026-10-26
 
 261/316 bo‘lim. 13asl sahifa PDF137–149 tasvir/nativehashlari o‘qildi. Bu source tayyorgarligi, runtime darslari hali qo‘shilmagan.

@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch8",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "aa6a9448a9f65748472f75109f11393b946b0aa40fac1805d58832804067590b",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 137,
+      "printed_page": 136,
+      "text_sha256": "62c8884cc0ad244b04a503238f89686b5f4fb87712e34cb66c6f6b92e70ffa29",
+      "reviewed_render_sha256": "813b2a5a461a5c16c59d1ecb6741db6edbccea76cc47094be4b2314a3c7fc299",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 138,
+      "printed_page": 137,
+      "text_sha256": "11ee8ee424628938c2df032a394752d88be091c64a947934ff6c58388891b0db",
+      "reviewed_render_sha256": "8f700bf2bd22d510150666865a01c94cd89cb4293b823f7e8e02e4a399332393",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 139,
+      "printed_page": 138,
+      "text_sha256": "afb821f2ee1477a4aa57fb35e13eddb61e1f33bab82dbce30283cca2f90e1c4e",
+      "reviewed_render_sha256": "b962f12370ed0662484e1129dbaeba77c249d26363eaf39f0e165c4ff30e9cec",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 140,
+      "printed_page": 139,
+      "text_sha256": "664d18dc28ff9aeb60bf2fae5747a24cc9b8a73c9efcf4b797db8e8628231608",
+      "reviewed_render_sha256": "92d046404dae1de0e0bfa319eb09ac3eeae9e9bea9b92f95daf9a9a770bc0bf3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 141,
+      "printed_page": 140,
+      "text_sha256": "4e4323e7d345056f2e3d207683acfc87144c72f79c922f5359d936963e2e4232",
+      "reviewed_render_sha256": "0bc077a30c8bd45c297ee45e9c44f2fbb959d36a74a910c89dd1d763a1a42b76",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 142,
+      "printed_page": 141,
+      "text_sha256": "aec3ab16dede066d8b19316087ddefa4b30880e4da888b7a343021c0a95f0ed2",
+      "reviewed_render_sha256": "2e4f167429f781121b1a3f7f2ca54d54f638363c39d325f65e69d0a4979a64d2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 143,
+      "printed_page": 142,
+      "text_sha256": "4da6045af2c5a385e3503344df8763dd13e9c35fa4abcd4c4dc48e63968bbf2a",
+      "reviewed_render_sha256": "b36d810a8eb79a59ae54672b2cfe4d150cd2c877eec5697d39a7cc706b9d9344",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 144,
+      "printed_page": 143,
+      "text_sha256": "a0ea2ac903239a6ef7944f8c12be70b02bd37e4f2c6282cd5296584109760603",
+      "reviewed_render_sha256": "d9e640c354201e52330962f1c431230a619157459654f0fc5cf403d9b9fd6133",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 145,
+      "printed_page": 144,
+      "text_sha256": "b8b95912f47741f63b75ac3bfe8ff5c9dc6feecb83fe8db2101eddc9eadddce0",
+      "reviewed_render_sha256": "147d694a5186579bd0a6c931bbafb0dd8a4cf78a4a10b38ac8b1bc06a3473d25",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 146,
+      "printed_page": 145,
+      "text_sha256": "7eb648fbb6f53fe314b3d0faecd700fde8eeb5d2f831aa636e15d17f2c06440d",
+      "reviewed_render_sha256": "244f21b68e19c4dd7fc64676c2c2f77a8f70ef7de18a011a6f0d969ac790059c",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 147,
+      "printed_page": 146,
+      "text_sha256": "2835ad14dbe234118181457ab22b9889d4a2c97b5594d3570c6acaa3e4448b6f",
+      "reviewed_render_sha256": "6161dfad8f8a9939a5391dcf4b542186f2ea07bde6739fcfa6560a7dea5736d4",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 148,
+      "printed_page": 147,
+      "text_sha256": "5739f7fcc959f53f675641e93ffbd9a0baadbb7e5612c40d3390cd293a259515",
+      "reviewed_render_sha256": "4d052aac71dfbf0171e78be70447d67ec01971617346134e435e88ab0dc0b781",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 149,
+      "printed_page": 148,
+      "text_sha256": "ec8ee6ba390b251a27a0bf129880722cf796219147d7605f7759e003a01e7ffb",
+      "reviewed_render_sha256": "2e8997763ae0fb99ede3b9507fec3c40cbdd45223474a83ab40043d78da21be4",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        137,
+        138,
+        139
+      ],
+      "decision": "Original images/native hashes checked. Current magnitude q/t, density I/S for area perpendicular to uniform current, vector direction conventional positive-charge flow; carrier density times drift speed distinct random speed. Circular S=pD²/4, Ddiameter,p3.14 explicitly approximate. No copying source138 household wire current ratings as wiring guidance/universal safe values. Thermal/magnetic/chemical effects conceptual by media, not all currents deposit ions."
+    },
+    {
+      "pages": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "decision": "Original images checked. EMF non-electrostatic work per positive charge in VOLTS, not newton force. Constant ideal EMF+series internal ohmic resistance model DISCHARGING into passive R: I=Emf/(R+r),terminalU=IR,eta=R/(R+r). Open-circuitUapproximatelyEmf for negligible voltmeter load; no charging-mode universal U<=Emf claim. Short circuit explanation only; no physical test or optimization endorsement. R/r nonnegative with total>0; efficiency/current examples positive resistances."
+    },
+    {
+      "pages": [
+        142,
+        143,
+        144,
+        145
+      ],
+      "decision": "Original diagrams checked. Kirchhoff signed conservation conceptual. Identical cells same orientation/integern: series netEmf=nEmf,rnet=nr;parallelEmf unchanged,rnet=r/n. Exact formulas used. Approx parallel n-times current requires R<<r/n, not merely R<<r at arbitrary n. Unequal same-polarity source model high-impedance voltmeter, weightedU=(E1*r2+E2*r1)/(r1+r2); signed loopI=(E2-E1)/(r1+r2) under stated direction. Source145 worked table pairs E1=2/r1=.6 and E2=1.5/r2=.4 yield1.7V but printed1.8 uses swapped resistance pairing; new conditional pairs explicit. No instruction to parallel real batteries."
+    },
+    {
+      "pages": [
+        146,
+        147,
+        148
+      ],
+      "decision": "Original images/formulas checked. Source146 uses n=I/Ig then Ir/Ig=n and n+1 inconsistency. Define m=fullrange/originalrange consistently: shuntRs=Rg/(m-1),parallel; voltageRadd=Rg*(m-1),series. Calibration multiplier m, not source147 contradictory m+1. m>1 need not integer. Source147 sample Ig5A,Rg.12/Rs.04 gives20A correctly; new independent values. Modifications only abstract digital model, no mains meter construction."
+    },
+    {
+      "pages": [
+        148,
+        149
+      ],
+      "decision": "Original digital EMF/internal-resistance lab and conditional table source checked. No physicalmeasurementclaim. Negligible voltmeter current, openUapproximatelyEmf, closedUload; r=(Emf-Uload)/I and Emf=Uload+I*r, Emf>Uload>0/currentpositive. Source149exercise10 .8mA/Rg1k gives additional resistances2.75/17.75/92.75/186.5k rather than printed9/49/249/499k; not copied. Exercise11 printed100kA not used as credible galvanometer current. Data made conditional, no live circuit or shorting task."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 36,
+      "topic_id": "physics-10-section-36",
+      "pdf_pages": [
+        137,
+        138,
+        139
+      ],
+      "printed_pages": [
+        136,
+        137,
+        138
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 37,
+      "topic_id": "physics-10-section-37",
+      "pdf_pages": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "printed_pages": [
+        138,
+        139,
+        140,
+        141
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 38,
+      "topic_id": "physics-10-section-38",
+      "pdf_pages": [
+        142,
+        143,
+        144,
+        145
+      ],
+      "printed_pages": [
+        141,
+        142,
+        143,
+        144
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 39,
+      "topic_id": "physics-10-section-39",
+      "pdf_pages": [
+        146,
+        147,
+        148
+      ],
+      "printed_pages": [
+        145,
+        146,
+        147
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 40,
+      "topic_id": "physics-10-section-40",
+      "pdf_pages": [
+        148,
+        149
+      ],
+      "printed_pages": [
+        147,
+        148
+      ],
+      "cards": 5,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 2
+    }
+  ]
+}

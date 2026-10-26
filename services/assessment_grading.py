@@ -73,6 +73,10 @@ def expected_quantity(spec):
 # PDF12–14 (length/time), PDF21 (film V/S), PDF28 (front h/t),
 # PDF29–35 (mass, volume and density), PDF37–38 (laboratory volumes).
 UNITS = {
+    # Grade10 PDF137–139: area is perpendicular to current, mm²=1e-6m².
+    "A/m2": ("current_density", Fraction(1)),
+    "A/mm2": ("current_density", Fraction(10**6)),
+    "mA/mm2": ("current_density", Fraction(1000)),
     # Grade10 PDF133: element conductance, distinct from material S/m.
     "S": ("conductance", Fraction(1)),
     "mS": ("conductance", Fraction(1, 1000)),

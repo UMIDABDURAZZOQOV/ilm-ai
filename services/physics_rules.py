@@ -24,6 +24,102 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "current_density_section": rule(
+        "j",
+        ["I", "S"],
+        ["I/S", "I*S^-1"],
+        "Uniform current MAGNITUDE through PERPENDICULAR cross section S>0, not arbitrary local density of nonuniform flow;10PDF137.",
+    ),
+    "current_density_drift": rule(
+        "j",
+        ["n", "e", "vDrift"],
+        ["n*e*vDrift", "e*vDrift*n"],
+        "Single-carrier uniform model, supplied n>0,e1.6e-19C positive modulus, drift speed magnitude, not random speed;10PDF138.",
+    ),
+    "current_density_diameter": rule(
+        "j",
+        ["I", "p", "D"],
+        ["4*I/(p*D^2)", "I/(p*D*D/4)"],
+        "Uniform current through circular perpendicular cross section, D DIAMETER>0,p3.14 explicitly approximate;10PDF139.",
+    ),
+    "complete_circuit_current": rule(
+        "I",
+        ["Emf", "R", "r"],
+        ["Emf/(R+r)", "Emf/(r+R)"],
+        "Constant EMF source DISCHARGING into passive ohmic load R>0, internal r>=0 fixed, not charging/nonlinear source;10PDF141.",
+    ),
+    "loaded_source_terminal_voltage": rule(
+        "U",
+        ["Emf", "R", "r"],
+        ["Emf*R/(R+r)", "R*Emf/(r+R)"],
+        "Constant EMF source DISCHARGING into passive R>0, r>=0 fixed ohmicinternal, not all charging cases;10PDF141.",
+    ),
+    "discharging_source_efficiency": rule(
+        "eta",
+        ["R", "r"],
+        ["R/(R+r)", "1-r/(R+r)"],
+        "Passive discharge, R>0,r>=0, useful energy defined as EXTERNAL resistance heat, not external power optimization;10PDF141.",
+    ),
+    "identical_series_source_current": rule(
+        "I",
+        ["n", "Emf", "R", "r"],
+        ["n*Emf/(R+n*r)", "Emf*n/(r*n+R)"],
+        "IDENTICAL constantEMF/r sources, same aiding orientation, npositiveWHOLE, passiveR>0,r>=0, conditional digital circuit;10PDF144.",
+    ),
+    "identical_parallel_source_current": rule(
+        "I",
+        ["n", "Emf", "R", "r"],
+        ["Emf/(R+r/n)", "n*Emf/(n*R+r)"],
+        "IDENTICAL constantEMF/r sources same polarity, npositiveWHOLE, passiveR>0,r>=0; exact no R<<r shortcut;10PDF144.",
+    ),
+    "unequal_parallel_source_voltage": rule(
+        "U",
+        ["E1", "r1", "E2", "r2"],
+        ["(E1*r2+E2*r1)/(r1+r2)", "(E2*r1+E1*r2)/(r2+r1)"],
+        "Two SAME-polarity sources, NO external load/negligible voltmeter current, paired positive E/r, not identical-parallel generalization;10PDF145.",
+    ),
+    "unequal_parallel_circulating_current": rule(
+        "I",
+        ["E1", "r1", "E2", "r2"],
+        ["(E2-E1)/(r1+r2)", "(E2-E1)/(r2+r1)"],
+        "Same unloaded two-source model, SIGNED circulating current POSITIVE when E2 dominates, internalr1/r2>0;10PDF145.",
+    ),
+    "ammeter_shunt_resistance": rule(
+        "Rs",
+        ["Rg", "m"],
+        ["Rg/(m-1)", "Rg*(m-1)^-1"],
+        "Ideal galvanometer PARALLEL shunt, m=TOTALnewfullrange/original>1 (not shuntbranch ratio), positiveRg, digitalonly;10PDF146–147.",
+    ),
+    "voltmeter_added_resistance": rule(
+        "Radd",
+        ["Rg", "m"],
+        ["Rg*(m-1)", "(m-1)*Rg"],
+        "Ideal galvanometer SERIES addedresistance, m=TOTALnewvoltrange/original>1, positiveRg,digitalonly;10PDF147.",
+    ),
+    "shunted_ammeter_full_current": rule(
+        "Imax",
+        ["Ig", "Rg", "Rs"],
+        ["Ig*(1+Rg/Rs)", "Ig+Ig*Rg/Rs"],
+        "Ideal parallel shunt, Ig ORIGINAL full-deflection instrument current, not total, positiveRg/Rs, conditionaldigital;10PDF146–147.",
+    ),
+    "extended_voltmeter_full_voltage": rule(
+        "Umax",
+        ["Ig", "Rg", "Radd"],
+        ["Ig*(Rg+Radd)", "Ig*Rg+Ig*Radd"],
+        "Ideal SERIES addedresistance, Ig originalfull-deflection current, Rg>0,Radd>=0, conditionaldigital;10PDF147.",
+    ),
+    "source_internal_resistance_estimate": rule(
+        "r",
+        ["Emf", "Uload", "I"],
+        ["(Emf-Uload)/I", "Emf/I-Uload/I"],
+        "Conditional DIGITAL lab, negligible voltmeter loading, passive discharge,Emf>Uload>0,I>0, no actual measurement;10PDF148.",
+    ),
+    "source_emf_from_loaded_data": rule(
+        "Emf",
+        ["Uload", "I", "r"],
+        ["Uload+I*r", "I*r+Uload"],
+        "Conditional same-source DIGITAL passive discharge, Uload/I>0,r>=0, no actualmeasurement;10PDF148.",
+    ),
     "sphere_exterior_field": rule(
         "E",
         ["k", "q", "r", "R"],
@@ -3035,6 +3131,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "current_density": "A/m2",
     "conductance": "S",
     "energy_density": "J/m3",
     "angular_acceleration": "rad/s2",
@@ -3118,6 +3215,82 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name == "current_density_section":
+        return value("I", "current") / positive("S", "area"), "current_density"
+    if name == "current_density_drift":
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_elementary_charge_modulus_required")
+        return positive("n", "number_density") * e * value(
+            "vDrift", "speed"
+        ), "current_density"
+    if name == "current_density_diameter":
+        p = positive("p", "dimensionless")
+        if p != Fraction("3.14"):
+            raise ValueError("explicit_pi_approximation_required")
+        return 4 * value("I", "current") / (
+            p * positive("D", "length") ** 2
+        ), "current_density"
+    if name in {
+        "complete_circuit_current",
+        "loaded_source_terminal_voltage",
+        "discharging_source_efficiency",
+        "identical_series_source_current",
+        "identical_parallel_source_current",
+    }:
+        R, r = positive("R", "resistance"), value("r", "resistance")
+        if name == "discharging_source_efficiency":
+            return R / (R + r), "dimensionless"
+        emf = positive("Emf", "voltage")
+        if name == "complete_circuit_current":
+            return emf / (R + r), "current"
+        if name == "loaded_source_terminal_voltage":
+            return emf * R / (R + r), "voltage"
+        n = positive("n", "dimensionless")
+        if givens["n"]["unit"] != "1" or n.denominator != 1:
+            raise ValueError("positive_whole_source_count_required")
+        return (
+            (n * emf / (R + n * r), "current")
+            if name == "identical_series_source_current"
+            else (emf / (R + r / n), "current")
+        )
+    if name in {
+        "unequal_parallel_source_voltage",
+        "unequal_parallel_circulating_current",
+    }:
+        E1, E2 = positive("E1", "voltage"), positive("E2", "voltage")
+        r1, r2 = positive("r1", "resistance"), positive("r2", "resistance")
+        return (
+            ((E1 * r2 + E2 * r1) / (r1 + r2), "voltage")
+            if name == "unequal_parallel_source_voltage"
+            else ((E2 - E1) / (r1 + r2), "current")
+        )
+    if name in {"ammeter_shunt_resistance", "voltmeter_added_resistance"}:
+        Rg, m = positive("Rg", "resistance"), positive("m", "dimensionless")
+        if m <= 1:
+            raise ValueError("range_multiplier_must_exceed_one")
+        return (
+            (Rg / (m - 1), "resistance")
+            if name == "ammeter_shunt_resistance"
+            else (Rg * (m - 1), "resistance")
+        )
+    if name == "shunted_ammeter_full_current":
+        return positive("Ig", "current") * (
+            1 + positive("Rg", "resistance") / positive("Rs", "resistance")
+        ), "current"
+    if name == "extended_voltmeter_full_voltage":
+        return positive("Ig", "current") * (
+            positive("Rg", "resistance") + value("Radd", "resistance")
+        ), "voltage"
+    if name == "source_internal_resistance_estimate":
+        emf, U = positive("Emf", "voltage"), positive("Uload", "voltage")
+        if emf <= U:
+            raise ValueError("passive_discharge_emf_exceeds_loaded_voltage")
+        return (emf - U) / positive("I", "current"), "resistance"
+    if name == "source_emf_from_loaded_data":
+        return positive("Uload", "voltage") + positive("I", "current") * value(
+            "r", "resistance"
+        ), "voltage"
     if name in {
         "sphere_exterior_field",
         "sphere_interior_potential",
