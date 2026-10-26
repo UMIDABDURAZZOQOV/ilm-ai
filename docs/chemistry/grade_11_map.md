@@ -34,13 +34,13 @@ Individual lesson claims require their own reviewed source refs.
 | `ch11-paragraph18` | paragraph 18 | Molyar konsentratsiya | 85–88 | 85:full – 88:full | 85 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph17 |
 | `ch11-paragraph19` | paragraph 19 | Normal konsentratsiya | 88–92 | 88:full – 92:full | 88 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph18 |
 | `ch11-paragraph20` | paragraph 20 | Foiz va molyar konsentratsiya o‘rtasidagi bog‘lanish | 92–94 | 92:full – 94:full | 92 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph19 |
-| `ch11-paragraph21` | paragraph 21 | Foiz va normal konsentratsiya o‘rtasidagi bog‘lanish | 94–98 | 94:full – 98:full | 94 | not_authored | ch11-paragraph20 |
+| `ch11-paragraph21` | paragraph 21 | Foiz va normal konsentratsiya o‘rtasidagi bog‘lanish | 94–98 | 94:full – 98:full | 94 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph20 |
 | `ch11-chapter05` | chapter 5 | Reaksiya tezligi | 98–112 | 98:full – 112:full | 98 | not_authored | — |
-| `ch11-paragraph22` | paragraph 22 | Reaksiya tezligi haqida tushuncha | 98–104 | 98:full – 104:full | 98 | not_authored | ch11-paragraph21 |
-| `ch11-paragraph23` | paragraph 23 | Reaksiya tezligiga bosim, hajm va haroratning ta’siri. Katalizator haqida tushuncha | 104–109 | 104:full – 109:full | 104 | not_authored | ch11-paragraph22 |
-| `ch11-paragraph24` | paragraph 24 | Tezlik mavzusi bo‘yicha masalalar va ularning yechimlari | 109–112 | 109:full – 112:full | 109 | not_authored | ch11-paragraph23 |
+| `ch11-paragraph22` | paragraph 22 | Reaksiya tezligi haqida tushuncha | 98–104 | 98:full – 104:full | 98 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph21 |
+| `ch11-paragraph23` | paragraph 23 | Reaksiya tezligiga bosim, hajm va haroratning ta’siri. Katalizator haqida tushuncha | 104–109 | 104:full – 109:full | 104 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph22 |
+| `ch11-paragraph24` | paragraph 24 | Tezlik mavzusi bo‘yicha masalalar va ularning yechimlari | 109–112 | 109:full – 112:full | 109 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph23 |
 | `ch11-chapter06` | chapter 6 | Kimyoviy muvozanat | 112–127 | 112:full – 127:full | 112 | not_authored | — |
-| `ch11-paragraph25` | paragraph 25 | Qaytar va qaytmas reaksiyalar. Kimyoviy muvozanat | 112–116 | 112:full – 116:full | 112 | not_authored | ch11-paragraph24 |
+| `ch11-paragraph25` | paragraph 25 | Qaytar va qaytmas reaksiyalar. Kimyoviy muvozanat | 112–116 | 112:full – 116:full | 112 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph24 |
 | `ch11-paragraph26` | paragraph 26 | Kimyoviy muvozanat va unga ta’sir etuvchi omillar | 116–121 | 116:full – 121:full | 116 | not_authored | ch11-paragraph25 |
 | `ch11-paragraph27` | paragraph 27 | Kimyoviy muvozanat mavzusiga oid masalalar va ularning yechimi | 121–127 | 121:full – 127:full | 121 | not_authored | ch11-paragraph26 |
 | `ch11-chapter07` | chapter 7 | Oksidlanish-qaytarilish reaksiyalari | 127–139 | 127:full – 139:full | 127 | not_authored | — |

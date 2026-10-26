@@ -240,6 +240,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch11-paragraph18': 'ch11-p18-molarity-final-volume-rounding-scope-review',
     'ch11-paragraph19': 'ch11-p19-normality-reaction-equivalent-unit-scope-review',
     'ch11-paragraph20': 'ch11-p20-percent-molarity-identity-rounding-scope-review',
+    'ch11-paragraph21': 'ch11-p21-normality-percent-reactionfactor-unit-scope-review',
+    'ch11-paragraph22': 'ch11-p22-named-species-rate-positive-time-scope-review',
+    'ch11-paragraph23': 'ch11-p23-kinetic-model-gamma-catalyst-scope-review',
+    'ch11-paragraph24': 'ch11-p24-species-rate-inverse-stipulated-order-scope-review',
+    'ch11-paragraph25': 'ch11-p25-dynamic-equilibrium-quotient-source-conflict-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1150,6 +1155,21 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch11-paragraph20' in topic_ids:
             require('Molyar massa 56 bo‘lsa modda har doim KOH'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'molar_mass_not_unique_identity')
+        if 'ch11-paragraph21' in topic_ids:
+            require('Normal konsentratsiya barcha reaksiyalarda molyarlikka teng'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'normality_percent_requires_reaction_factor')
+        if 'ch11-paragraph22' in topic_ids:
+            require('Tezlik har qanday tenglama koeffitsiyentidan aniqlanadi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'kinetic_order_not_universal_stoichiometry')
+        if 'ch11-paragraph23' in topic_ids:
+            require('Barcha reaksiyalarda gamma har doim 2–4'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'gamma_not_universal_all_reactions')
+        if 'ch11-paragraph24' in topic_ids:
+            require('Tenglashtirilgan tenglamadan har doim haqiqiy kinetik daraja keladi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'rate_order_requires_separate_model')
+        if 'ch11-paragraph25' in topic_ids:
+            require('Kc=2 bo‘lsa muvozanatda teskari tezlik ikki marta katta'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'equilibrium_rates_equal_despite_k2')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

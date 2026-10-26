@@ -8,14 +8,14 @@
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 61 | 0 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 41 | 0 |
-| 11 | 8 | 33 | 0 | 0 | 33 | 20 | 13 |
-| Total | 29 | 204 | 49 | 15 | 268 | 255 | 13 |
+| 11 | 8 | 33 | 0 | 0 | 33 | 25 | 8 |
+| Total | 29 | 204 | 49 | 15 | 268 | 260 | 8 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 2466 cards; 3651 assessments: 1016 concept_selection, 513 short_text, 1068 numeric_value, 359 chemical_formula, 695 chemical_equation.
+Total: 2511 cards; 3702 assessments: 1031 concept_selection, 521 short_text, 1093 numeric_value, 359 chemical_formula, 698 chemical_equation.
 
 ## Initial §1
 
@@ -257,7 +257,11 @@ First5/33 grade11 paragraphs implemented in original textbook order.
 
 40 cards;50 questions. Grade11 first20/33.
 
+## Batch50:grade11§21–25
+
+45 cards;51 questions. Grade11 first25/33.
+
 ## Current continuation
 
-255/268 implemented;13 remain. 207 editorialscopes,one finite
-reviewederratum,zero wholeholds;allreadyfalse. ActualHTTP250/5000→255/5100XP.
+260/268 implemented;8 remain. 212 editorialscopes,one finite
+reviewederratum,zero wholeholds;allreadyfalse. ActualHTTP255/5100→260/5200XP.
