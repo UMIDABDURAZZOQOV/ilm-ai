@@ -24,6 +24,120 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "bar_extension": rule(
+        "DL",
+        ["l", "l0"],
+        ["l-l0", "l+(-l0)"],
+        "AXIALTENSIONabsoluteextensionl>=l0>0,notarbitrarysignedcompression;9PDF107.",
+    ),
+    "bar_strain": rule(
+        "eps",
+        ["DL", "l0"],
+        ["DL/l0", "DL*l0^-1"],
+        "AXIALTENSIONstrainfraction,DL>=0,l0>0,percentviaunitnot100hidden;9PDF107.",
+    ),
+    "axial_stress": rule(
+        "sig",
+        ["F", "S"],
+        ["F/S", "F*S^-1"],
+        "UNIFORMnormalaxialtensionstressmagnitude,crosssectionS>0,notvoltageorsurfacecoefficient;9PDF108.",
+    ),
+    "young_stress": rule(
+        "sig",
+        ["E", "eps"],
+        ["E*eps", "eps*E"],
+        "SMALLLINEARelasticuniaxialregime,constantYoungE>0,eps>=0,notallplasticdeformation;9PDF108.",
+    ),
+    "young_bar_extension": rule(
+        "DL",
+        ["F", "l0", "E", "S"],
+        ["F*l0/(E*S)", "l0*F/E/S"],
+        "SMALLLINEARelasticuniformbaraxialtension,F>=0,l0/E/S>0;9PDF108.",
+    ),
+    "young_bar_stiffness": rule(
+        "k",
+        ["E", "S", "l0"],
+        ["E*S/l0", "S*E/l0"],
+        "UNIFORMlinearaxialbar,YoungEvsgeometricstiffnesskDISTINCT,notallnonlinearrubber;9PDF108.",
+    ),
+    "bar_initial_length": rule(
+        "l0",
+        ["DL", "eps"],
+        ["DL/eps", "DL*eps^-1"],
+        "AXIALTENSIONDL/eps>0,epsfractionor%unit;source1093mmvs4mmconflictnotrepeated.",
+    ),
+    "young_modulus_measured": rule(
+        "E",
+        ["F", "l0", "S", "DL"],
+        ["F*l0/(S*DL)", "l0*F/S/DL"],
+        "PROVIDEDconditionaldata,smallLINEARelasticuniformbar,noactualmeasurement;9PDF111.",
+    ),
+    "self_weight_limit_length": rule(
+        "lmax",
+        ["sigLimit", "rho", "g"],
+        ["sigLimit/(rho*g)", "sigLimit/rho/g"],
+        "IDEALuniformverticalwireownweightonly,noextramass,safetyfactororrealrating,g10explicit;9PDF110–111.",
+    ),
+    "young_bar_force": rule(
+        "F",
+        ["E", "S", "DL", "l0"],
+        ["E*S*DL/l0", "S*E*DL/l0"],
+        "SMALLLINEARelasticuniformaxialbar,tensionDL>=0,l0/E/S>0;9PDF110.",
+    ),
+    "melting_energy": rule(
+        "Q",
+        ["lam", "m"],
+        ["lam*m", "m*lam"],
+        "CRYSTALatmeltingtemperature,givenpressure,completefusiononlypositiveheatNOTpreheating;9PDF113.",
+    ),
+    "melting_mass": rule(
+        "m",
+        ["Q", "lam"],
+        ["Q/lam", "Q*lam^-1"],
+        "CRYSTALalreadyatmeltingtemperature,providedenergyTOFUSION,lam>0;9PDF113.",
+    ),
+    "specific_fusion_energy": rule(
+        "lam",
+        ["Q", "m"],
+        ["Q/m", "Q*m^-1"],
+        "CompleteCRYSTALfusionATmeltingtemperature,givenpressure,m>0;9PDF113.",
+    ),
+    "solidification_signed_heat": rule(
+        "Q",
+        ["lam", "m"],
+        ["-lam*m", "-m*lam"],
+        "CRYSTALliquidATfreezingtemperature,completefreeze,QSIGNEDTOBODYnegative,notpositiveRELEASEDmodulus;9PDF114.",
+    ),
+    "water_melts_ice_limit": rule(
+        "mi",
+        ["mw", "c", "Tw", "Tm", "lam"],
+        ["mw*c*(Tw-Tm)/lam", "c*mw*(Tw-Tm)/lam"],
+        "IDEALisolatedbalance,iceINITIALatTm,finalTm,allwatercoolingenergyONLYmelting,nocalorimeter/heatloss,MAXmeltmass;9PDF115.",
+    ),
+    "vaporization_energy": rule(
+        "Q",
+        ["r", "m"],
+        ["r*m", "m*r"],
+        "CompleteLIQUIDtovaporATgivensametemperature,r>0givenwithconditions,notpreheating;9PDF116–117.",
+    ),
+    "vaporization_mass": rule(
+        "m",
+        ["Q", "r"],
+        ["Q/r", "Q*r^-1"],
+        "ATgivenT,energyONLYvaporization,r>0provided;9PDF117.",
+    ),
+    "condensation_signed_heat": rule(
+        "Q",
+        ["r", "m"],
+        ["-r*m", "-m*r"],
+        "VAPORtoliquidATsametemperature,QSIGNEDTOBODYnegative,releasedmoduluspositive;9PDF117.",
+    ),
+    "specific_vaporization_energy": rule(
+        "r",
+        ["Q", "m"],
+        ["Q/m", "Q*m^-1"],
+        "CompletevaporizationATgivenT,r>0,Q>0,m>0;9PDF117.",
+    ),
     "surface_boundary_force": rule(
         "F",
         ["sigma", "l"],
@@ -2510,6 +2624,65 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "bar_extension":
+        final, initial = positive("l", "length"), positive("l0", "length")
+        if final < initial:
+            raise ValueError("tension_length_required")
+        return final - initial, "length"
+    if name == "bar_strain":
+        return value("DL", "length") / positive("l0", "length"), "dimensionless"
+    if name == "axial_stress":
+        return value("F", "force") / positive("S", "area"), "pressure"
+    if name == "young_stress":
+        return positive("E", "pressure") * value("eps", "dimensionless"), "pressure"
+    if name == "young_bar_extension":
+        return value("F", "force") * positive("l0", "length") / (
+            positive("E", "pressure") * positive("S", "area")
+        ), "length"
+    if name == "young_bar_stiffness":
+        return positive("E", "pressure") * positive("S", "area") / positive(
+            "l0", "length"
+        ), "stiffness"
+    if name == "bar_initial_length":
+        return positive("DL", "length") / positive("eps", "dimensionless"), "length"
+    if name == "young_modulus_measured":
+        return positive("F", "force") * positive("l0", "length") / (
+            positive("S", "area") * positive("DL", "length")
+        ), "pressure"
+    if name == "self_weight_limit_length":
+        g = positive("g", "force_per_mass")
+        if g != 10:
+            raise ValueError("source_limit_example_g10_required")
+        return positive("sigLimit", "pressure") / (
+            positive("rho", "density") * g
+        ), "length"
+    if name == "young_bar_force":
+        return positive("E", "pressure") * positive("S", "area") * value(
+            "DL", "length"
+        ) / positive("l0", "length"), "force"
+    if name == "melting_energy":
+        return positive("lam", "specific_energy") * value("m", "mass"), "energy"
+    if name == "melting_mass":
+        return value("Q", "energy") / positive("lam", "specific_energy"), "mass"
+    if name == "specific_fusion_energy":
+        return positive("Q", "energy") / positive("m", "mass"), "specific_energy"
+    if name == "solidification_signed_heat":
+        return -positive("lam", "specific_energy") * value("m", "mass"), "energy"
+    if name == "water_melts_ice_limit":
+        warm, melting = positive("Tw", "temperature"), positive("Tm", "temperature")
+        if warm <= melting:
+            raise ValueError("water_must_be_warmer_than_melting")
+        return positive("mw", "mass") * positive("c", "specific_heat") * (
+            warm - melting
+        ) / positive("lam", "specific_energy"), "mass"
+    if name == "vaporization_energy":
+        return positive("r", "specific_energy") * value("m", "mass"), "energy"
+    if name == "vaporization_mass":
+        return value("Q", "energy") / positive("r", "specific_energy"), "mass"
+    if name == "condensation_signed_heat":
+        return -positive("r", "specific_energy") * value("m", "mass"), "energy"
+    if name == "specific_vaporization_energy":
+        return positive("Q", "energy") / positive("m", "mass"), "specific_energy"
     if name == "surface_boundary_force":
         return positive("sigma", "stiffness") * value("l", "length"), "force"
     if name == "surface_coefficient_force":

@@ -259,3 +259,46 @@ kontekstlaridan foydalanadi; ikkala kutilgan xesh,PDF SHA/OCR/native/binding
 tekshiruvlari saqlangan. Eski review yoki katalog xeshlari qayta yozilmadi.
 2yangi regression ham haqiqiy cache farqini,ham buzilgan review xeshi rad
 etilishini tekshiradi. Barcha552asl sahifa tekshiruvi tuzatishdan keyin o‘tdi.
+
+## 9-sinf §36–40 — elastiklik va faza o‘zgarishi (2026-10-26)
+
+PDF/bosma106–119 asl tasvirlari va OCR tekshirildi. DL=l-l0,eps=DL/l0,
+sig=F/S=E*eps va k=E*S/l0 kichik chiziqli elastik o‘q bo‘ylab model bilan
+beriladi. Mexanik sig va E Pa; elektr V yoki sirt sigma N/m bilan bir xil
+kattalik deb o‘rgatilmaydi. Yopiq MPa/GPa aliaslari eski Pa/kPa fizik
+kontraktini saqlaydi. E modda xossasi,k geometriyaga ham bog‘liq.
+
+109-sahifadagi37namuna1 matnida4mm,berilgan/calculationda3mm.110-sahifadagi
+namuna2 matnida6kg,berilganda4kg va g≈10 bilan hisob. Yangi masalalar boshqa,
+izchil sonlarda;zid javob ko‘r-ko‘rona ko‘chirilmadi. O‘z og‘irligidagi simning
+lmax=sigLimit/(rho*g) chegarasi **eng katta**,manbadagi «kamida» emas. g10 bu
+qoida shartida aniq,eski9.81qoidalar o‘zgarmadi. Model real arqon/qurilish
+yuk ruxsati,xavfsizlik zaxirasi yoki fizik uzish tajribasi emas.
+
+111–113-grafikda qo‘rg‘oshin300→600K qiymatlari27/327°Cuchun kitobning273
+yaqinlashuvi. Qattiq fazadagi0.1*130*300=3900J va erish platosi2500J
+ajratildi. Temperatura platosi sof kristall,berilgan bosim,muvozanat modeli;
+barcha qotishmalar yoki real qizish/sovish tarixlari aynan bir xil deyilmaydi.
+114-muz lam334kJ/kg jadvali bilan115namunadagi336kJ/kg shart farqi qayd
+etildi;yangi savolda berilgan qiymat izchil qo‘llanadi. Qotish signedQ=-lam*m,
+berilgan modul musbat. Maksimal muz balansida muz boshlanishidaTmda,finalTm,
+idish/tashqi almashinuv yo‘q;84/167kg faqat oxirida1ggridga yaxlitlanadi.
+
+116–119-bug‘lanish va kondensatsiya bir temperaturadagi latent energiya bilan
+ishlaydi. Suv r≈2.3MJ/kg normal qaynash uchun maktab qiymati. Qcond_TO_BODY
+manfiy,chiqargan modul musbat. To‘yingan bug‘da oqimlar teng,jarayonlar to‘xtab
+qolmagan. p=nkT faqat ideal yaqinlashuv,saturatsiya uchun yangi aniq holat
+tenglamasi emas. Shamolni faqat energiya qo‘shish bilan izohlash,har doim havo
+pufakchasi mavjudligi,tog‘da go‘sht hech qachon pishmasligi va germetik idishni
+qizdirish ko‘rsatmasi tekshirilgan universal fakt/topshiriq sifatida olinmadi.
+
+Yangi testda oldingi signed ish savollaridagi umumiy feedback xatosi ham
+tasdiqlandi: sign_error uchun «manfiy bo‘lishi mumkin emas» shabloni manfiy
+kutiladigan ish/Qga mos emas. Runtime faqat aynan shu eski shablonni neytral
+ishora-konvensiyasi izohiga almashtiradi;grading,qoidalar,immutable snapshot,
+oldin saqlangan replay response va XP o‘zgarmaydi. Ijobiy/manfiy eski issued
+snapshotning API replay testi bor;yangi kontentning sign_error matni ham to‘g‘ri.
+Eski dars JSONlari qayta yozilmadi. Birinchi yangi sinovda testning sign_error
+kutishi noto‘g‘ri edi;API fixtureda eski savol FK importi ham yetishmasdi.
+Ular testlarda tuzatildi,guard yoki FK pasaytirilmadi. Yakuniy natija progress
+hujjatida qayd etiladi. Biology406/website/Chemistry/production/AIExplain saqlandi.

@@ -247,6 +247,13 @@ def submit(db, uid, sid, key, answer):
     spec = q["grading_spec"]
     code = grade_answer(spec, answer)
     feedback = spec["feedback"].get(code, spec["feedback"]["incorrect"])
+    # Preserve immutable snapshots and stored replay responses. The original
+    # generic template assumed unsigned answers; signed work/heat can be negative.
+    if (
+        code == "sign_error"
+        and feedback == "Bu vaziyatda javob manfiy bo‘lishi mumkin emas."
+    ):
+        feedback = "Javob ishorasi talabga mos emas. Topshiriqdagi yo‘nalish va ishora konvensiyasini tekshir."
     if code in {
         "invalid_answer",
         "answer_required",

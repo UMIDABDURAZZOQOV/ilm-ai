@@ -720,6 +720,32 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (9, 36, 5): ("1", "mm", "l+(-l0)"),
+        (9, 36, 6): ("0.2", "%", "DL*l0^-1"),
+        (9, 36, 7): ("100", "MPa", "F*S^-1"),
+        (9, 36, 8): ("0.1", "GPa", "eps*E"),
+        (9, 36, 9): ("1", "mm", "l0*F/E/S"),
+        (9, 36, 10): ("100", "kN/m", "S*E/l0"),
+        (9, 37, 5): ("200", "cm", "DL*eps^-1"),
+        (9, 37, 6): ("100", "GPa", "l0*F/S/DL"),
+        (9, 37, 7): ("2", "km", "sigLimit/rho/g"),
+        (9, 37, 8): ("0.76", "kN", "S*E*DL/l0"),
+        (9, 38, 5): ("7.8", "kJ", "c*m*(T2-T1)"),
+        (9, 39, 5): ("83.5", "kJ", "m*lam"),
+        (9, 39, 6): ("500", "g", "Q*lam^-1"),
+        (9, 39, 7): ("105", "kJ/kg", "Q*m^-1"),
+        (9, 39, 8): ("-66.8", "kJ", "-m*lam"),
+        (9, 39, 9): ("503", "g", "c*mw*(Tw-Tm)/lam"),
+        (9, 40, 5): ("92", "kJ", "m*r"),
+        (9, 40, 6): ("50", "g", "Q*r^-1"),
+        (9, 40, 7): ("-46", "kJ", "-m*r"),
+        (9, 40, 8): ("2.3", "MJ/kg", "Q*m^-1"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -736,11 +762,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        202,
-        114,
+        207,
+        109,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 35, 0, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 40, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -750,7 +776,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 37
+    assert len(load_course()) == 38
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -947,7 +973,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 2020
+        assert db.get(User, 1).xp_total == 2070
 
 
 @pytest.mark.parametrize(

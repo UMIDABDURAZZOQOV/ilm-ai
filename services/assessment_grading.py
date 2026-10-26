@@ -107,6 +107,8 @@ UNITS = {
     "N/kg": ("force_per_mass", Fraction(1)),
     "Pa": ("pressure", Fraction(1)),
     "kPa": ("pressure", Fraction(1000)),
+    "MPa": ("pressure", Fraction(10**6)),
+    "GPa": ("pressure", Fraction(10**9)),
     "N/m2": ("pressure", Fraction(1)),
     "1": ("dimensionless", Fraction(1)),
     "atm": ("pressure", Fraction(101325)),
