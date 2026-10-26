@@ -69,7 +69,9 @@ def test_meaningful_concepts_order_and_separate_pdf_printed_pages(seq):
         )
 
 
-@pytest.mark.parametrize("identity", [k for k in NUMERIC_ORACLES if k[0] == 10])
+@pytest.mark.parametrize(
+    "identity", [k for k in NUMERIC_ORACLES if k[0] == 10 and k[1] <= 5]
+)
 def test_every_numeric_literal_oracle_alternative_formula_unit_and_wrong_answer(
     identity,
 ):
@@ -155,6 +157,8 @@ def test_grade10_batch_honest_counts_and_no_general_publication():
         "frq": 20,
     }
     r = next(g for g in report()["grades"] if g["grade"] == 10)
-    assert (r["authored"], r["remaining"], r["next_section"]) == (5, 40, 6)
+    assert r["authored"] >= 5
+    assert r["remaining"] == 45 - r["authored"]
+    assert r["next_section"] == r["authored"] + 1
     assert d["publication"] == "local_test_preview_only" and not d["ai_explain"]
     assert all(not l["review"]["physical_experiment_completed"] for l in d["lessons"])

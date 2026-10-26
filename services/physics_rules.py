@@ -24,6 +24,93 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "horizontal_flight_time": rule(
+        "t",
+        ["h", "g"],
+        ["sqrt(2*h/g)", "(2*h/g)^0.5"],
+        "Horizontal launch, h>0 above ground, no drag, constant g=10m/s2 given; time to ground;10PDF18.",
+        square_root=True,
+    ),
+    "horizontal_flight_range": rule(
+        "s",
+        ["v0", "h", "g"],
+        ["v0*sqrt(2*h/g)", "sqrt(2*h*v0^2/g)"],
+        "Horizontal launch speed v0>0, h>0 above ground, no drag, g=10m/s2 given; horizontal range NOT path;10PDF18.",
+        square_root=True,
+    ),
+    "horizontal_height_time": rule(
+        "y",
+        ["h", "g", "t"],
+        ["h-g*t^2/2", "h-0.5*g*t*t"],
+        "GROUND y=0 and initial y=h>0, horizontal launch, before ground, no drag, given g=10m/s2;10PDF17.",
+    ),
+    "horizontal_impact_speed": rule(
+        "v",
+        ["v0", "g", "h"],
+        ["sqrt(v0^2+2*g*h)", "(2*h*g+v0^2)^0.5"],
+        "Horizontal initial v0>0, ground lower by h>0, no drag, g=10m/s2 given; total speed magnitude;10PDF18–19.",
+        square_root=True,
+    ),
+    "inclined_initial_horizontal": rule(
+        "vx",
+        ["v0", "cosA"],
+        ["v0*cosA", "cosA*v0"],
+        "Ideal acute upward launch, PROVIDED cosA in (0,1), NOT angle degrees; v0>0;10PDF20.",
+    ),
+    "inclined_vertical_velocity": rule(
+        "vy",
+        ["v0", "sinA", "g", "t"],
+        ["v0*sinA-g*t", "sinA*v0-t*g"],
+        "Ideal acute launch from y0=0, PROVIDED sinA in (0,1), g=10m/s2 given, upward signed vy before SAME-height return;10PDF20.",
+    ),
+    "inclined_horizontal_displacement": rule(
+        "x",
+        ["v0", "cosA", "t"],
+        ["v0*cosA*t", "t*cosA*v0"],
+        "Ideal no-drag acute launch, PROVIDED cosA in (0,1), t>=0 stipulated airborne; not total path;10PDF20.",
+    ),
+    "inclined_peak_height": rule(
+        "h",
+        ["v0", "sinA", "g"],
+        ["v0^2*sinA^2/(2*g)", "(v0*sinA)^2/(g*2)"],
+        "Ideal no-drag acute launch, PROVIDED sinA in (0,1), constant given g=10m/s2, height ABOVE launch;10PDF21.",
+    ),
+    "inclined_round_trip_time": rule(
+        "t",
+        ["v0", "sinA", "g"],
+        ["2*v0*sinA/g", "sinA*v0*2/g"],
+        "Ideal no-drag acute launch, PROVIDED sinA in (0,1), constant g=10m/s2, return SAME height;10PDF21.",
+    ),
+    "inclined_same_height_range": rule(
+        "s",
+        ["v0", "sinA", "cosA", "g"],
+        ["2*v0^2*sinA*cosA/g", "v0^2*(2*sinA*cosA)/g"],
+        "Ideal no-drag acute launch, SAME-height landing, PROVIDED exact unit-circle sinA/cosA pair (0,1), g=10m/s2;10PDF20–21.",
+    ),
+    "mean_range_three": rule(
+        "lMean",
+        ["l1", "l2", "l3"],
+        ["(l1+l2+l3)/3", "(l3+l1+l2)/3"],
+        "Three positive CONDITIONAL ranges at SAME speed/angle/height, arithmetic mean from source table, no physical measurement claim;10PDF23.",
+    ),
+    "same_force_combined_acceleration": rule(
+        "a",
+        ["a1", "a2"],
+        ["a1*a2/(a1+a2)", "a2*a1/(a2+a1)"],
+        "SAME positive net external F separately on constant masses then their sum, a1/a2>0 magnitudes, inertial classical model;10PDF32.",
+    ),
+    "translating_frame_inertial_force": rule(
+        "Fi",
+        ["m", "A"],
+        ["-m*A", "(-A)*m"],
+        "NONROTATING translating frame signed acceleration A relative inertial, m>0; inertial force component -mA, source35 lower text/sign consistency;10PDF35.",
+    ),
+    "translating_frame_relative_acceleration": rule(
+        "ar",
+        ["F", "m", "A"],
+        ["F/m-A", "F*m^-1-A"],
+        "NONROTATING translating frame, one fixed axis F/A signed, m>0 constant, real net F; ar=F/m-A, no general rotating-frame solver;10PDF35 eq2.3/sign correction.",
+    ),
     "kinematic_component_position": rule(
         "x",
         ["x0", "v0", "a", "t"],
@@ -2660,6 +2747,76 @@ def reviewed_calculation(question):
         if result != Fraction(981, 100):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
+
+    horizontal = {
+        "horizontal_flight_time",
+        "horizontal_flight_range",
+        "horizontal_height_time",
+        "horizontal_impact_speed",
+    }
+    inclined = {
+        "inclined_vertical_velocity",
+        "inclined_peak_height",
+        "inclined_round_trip_time",
+        "inclined_same_height_range",
+    }
+    if name in horizontal | inclined:
+        g = positive("g", "acceleration")
+        if g != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+    if name in horizontal:
+        h = positive("h", "length")
+        if name == "horizontal_flight_time":
+            return square_root_quantity(2 * h / g), "time"
+        if name == "horizontal_height_time":
+            y = h - g * value("t", "time") ** 2 / 2
+            if y < 0:
+                raise ValueError("before_ground_only")
+            return y, "length"
+        v0 = positive("v0", "speed")
+        if name == "horizontal_flight_range":
+            return square_root_quantity(2 * h * v0**2 / g), "length"
+        return square_root_quantity(v0**2 + 2 * g * h), "speed"
+    if name.startswith("inclined_"):
+        v0 = positive("v0", "speed")
+        if "sinA" in givens:
+            sine = positive("sinA", "dimensionless")
+            if sine >= 1:
+                raise ValueError("acute_sine_data_required")
+        if "cosA" in givens:
+            cosine = positive("cosA", "dimensionless")
+            if cosine >= 1:
+                raise ValueError("acute_cosine_data_required")
+        if name == "inclined_initial_horizontal":
+            return v0 * cosine, "speed"
+        if name == "inclined_horizontal_displacement":
+            return v0 * cosine * value("t", "time"), "length"
+        if name == "inclined_vertical_velocity":
+            t = value("t", "time")
+            if g * t > 2 * v0 * sine:
+                raise ValueError("before_same_height_return_only")
+            return v0 * sine - g * t, "speed"
+        if name == "inclined_peak_height":
+            return (v0 * sine) ** 2 / (2 * g), "length"
+        if name == "inclined_round_trip_time":
+            return 2 * v0 * sine / g, "time"
+        if name == "inclined_same_height_range":
+            if sine**2 + cosine**2 != 1:
+                raise ValueError("consistent_provided_unit_circle_pair_required")
+            return 2 * v0**2 * sine * cosine / g, "length"
+    if name == "mean_range_three":
+        return sum(
+            (positive(k, "length") for k in ("l1", "l2", "l3")), Fraction()
+        ) / 3, "length"
+    if name == "same_force_combined_acceleration":
+        a1, a2 = positive("a1", "acceleration"), positive("a2", "acceleration")
+        return a1 * a2 / (a1 + a2), "acceleration"
+    if name == "translating_frame_inertial_force":
+        return -positive("m", "mass") * projection("A", "acceleration"), "force"
+    if name == "translating_frame_relative_acceleration":
+        return projection("F", "force") / positive("m", "mass") - projection(
+            "A", "acceleration"
+        ), "acceleration"
 
     if name == "kinematic_component_position":
         t = value("t", "time")

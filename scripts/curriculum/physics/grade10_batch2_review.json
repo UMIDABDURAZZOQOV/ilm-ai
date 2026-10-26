@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch2",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "7ce1fa730a7c46ea91e42e283aa69653d28ce0ca71a3db0af3e872bf211cb946",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 17,
+      "printed_page": 16,
+      "text_sha256": "415dd34d8dd7a4f4827046188e6f0922bc60ac2e09ec91f9a5a3b455f9f3272e",
+      "reviewed_render_sha256": "e8634cce2abc0c210f38f6efa069e218508ac1ed2d80a665ea7232d8d02d0f96",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 17,
+      "text_sha256": "d303788e152dd904263f3e858b8f0fdcee106ba9eeb0fedb79f1a4c358a2b038",
+      "reviewed_render_sha256": "fa0b7ff6c7638f309162a15002fe60ff45f7c223d08573bcfda7aae29bbcf43d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 18,
+      "text_sha256": "73a1b6567a4957ed37ac0487ceda2db7037cb0aaff01fc55f5c57a10c6b93570",
+      "reviewed_render_sha256": "d17455073f47bfd45d05a0d54f310ca14962e284ba1ee1953c7378e2c07a0337",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 19,
+      "text_sha256": "f1ec2f79de15c042e99bfbcbe214d999ccf02001a1392dfd5ae98e4d15240b1a",
+      "reviewed_render_sha256": "c593a6c6d03c8c0bfa528cba316c78e986930ec7df0c7d41ea32e06a9dfe5230",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 20,
+      "text_sha256": "7e7f18877f2089d3de362291c58f63a3e3c55ebd1029d4ea8dfea5176779c93a",
+      "reviewed_render_sha256": "159fa5ebda4683adb19b5cd4b1500441179045840ca41caee68fb2b2d5627bfa",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 21,
+      "text_sha256": "637646d4850abcf8454a8a39f126741ef8e425b0ef15cd88c3dc0ac4cf161226",
+      "reviewed_render_sha256": "2b3dffb10f77bf5064403ed19f0deaae25feb7173db69eb7369607c1706be34f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 22,
+      "text_sha256": "acf5eddbbb5ce431823bffe4ede409c180150f1167d5438b66490fc4feb7ff4e",
+      "reviewed_render_sha256": "615a76be6b555acbb3eda99a91da5c3538223bd3a2e543238cb2f04d9d6fb0b7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 23,
+      "text_sha256": "43f255361407b35afcf875e85b811db943da5cd6b103b5ede9f2d64232dddde0",
+      "reviewed_render_sha256": "75034c50fb2569fff51f61c6155b3dc1320630f92943263f72bc8f3d7d5c5694",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 24,
+      "text_sha256": "db9e7c106a0d2914fbad39228f2f26e3311de1c0009b3ae4a0beb74f09b6eef2",
+      "reviewed_render_sha256": "888c9cc7e105e62fc14fcb7f9c0bcc08b026526f769f6901167e09e90be3967e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 28,
+      "text_sha256": "d9452ec9214632cfe883a81cf6bd03b37f411bd167833727a7b661de9801cd9e",
+      "reviewed_render_sha256": "f830bbb7c0b403cea67d81ea8eba66b6ef34452898b1aa8f304881dc4fdc6087",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 29,
+      "text_sha256": "603e829fb2ad8b5c245796d3f43b5e013055abb6f68e5a9f886d19bb027f64d0",
+      "reviewed_render_sha256": "f656df896ab8a588a1d5c41c993d2f885080f5d7ac959ef0941b4e7aba458375",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": 30,
+      "text_sha256": "d621a69844e66d0f0bdabae6a69ff798a8689d60ae37ddc139890711ad65c021",
+      "reviewed_render_sha256": "f498d03458afe9e2e08ad7db94254fb7f81ddeb512e070eebffa76a2189dd052",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": 31,
+      "text_sha256": "995c62b0fff6b6bb3ad15d58a34bff74a28f26224f527a244ea9a439be6dbfc3",
+      "reviewed_render_sha256": "f247a124a7e55889c105f94a11b2b057465788db756983de076aba59b9233ecd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": 32,
+      "text_sha256": "0308701bfe749c8c6d2206a03ecc197baca6ced7731e8d5ac403c8baf944d69e",
+      "reviewed_render_sha256": "c9af38ed2d09a47a76505ccc19464d625e61af65b06426e08ecf9a4029d6bfb1",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": 33,
+      "text_sha256": "6e64cfe92c02f46f6e9f72ce3f4e654b33ef31fadcc900d4b4cda563228e54ce",
+      "reviewed_render_sha256": "2c38e5b9aa60a78c5ec29fe03d913123cfed36c56606d521c00f9159a4ee4e82",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": 34,
+      "text_sha256": "6ca7e340f3cf1c3a7d337922e51cd96ec73226e3dd4250b1d96f180d90e84d0f",
+      "reviewed_render_sha256": "d5e0a8de1b54dfc19675178bcf0ed416e3cd4f15b06db2a35072918cddc90f73",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": 35,
+      "text_sha256": "ea152a5aa1a030fd2a2d63b7fa8b02b28f0340b85fcc1c6430ddea61df27a0e6",
+      "reviewed_render_sha256": "7a02703f642156803ae709a8fdcb2230d1eb499b9d47cf978af93f2f310d4b13",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        17,
+        18,
+        19
+      ],
+      "decision": "Original 1.21–1.27 verified: fixed ground y=h-gt²/2, launch x=0/y=h. Source17 prose origin at launch conflicts with h ground coordinate, so new explicit ground origin. Source18 positive vy=gt is magnitude; upward signed vy=-gt. Horizontal flight time sqrt(2h/g), range v0*sqrt(2h/g), impact sqrt(v0²+2gh). New questions g10 explicit, before ground only, no live projectile trial. Source19 30²+2*10*35=1600→40 correct; original givens differ."
+    },
+    {
+      "pages": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "decision": "Original sin/cos velocity decomposition, parabola, apex vx nonzero, same-height time/range and hmax read. New deterministic solver receives sinA/cosA as dimensionless DATA, not angle degrees or arbitrary trig/CAS. 0<sin/cos<1 with exact unit-circle pair for range; same-height/no-drag/constantg explicit. Source21 claim range only horizontal component incomplete because flight time depends vertical; 45deg maximum ONLY fixed v0/sameheight/g/noair. Source22 30–40deg air optimum is not universal for any body/drag. Original35? no; 10m/s/sin30/g9.81 h≈1.2742m vs1.27 source, no changed textbook snapshot."
+    },
+    {
+      "pages": [
+        23,
+        24,
+        25
+      ],
+      "decision": "Laboratory8 only DIGITAL supplied conditional dataset. Source23 includes launcher/metal ball; no operational steps or equipment building given to learner. Three ranges per angle and mean column guide arithmetic mean; new original ranges remain conditional, not fabricated measurements. Compare30/45 only at SAME speed/height/model. Exercise25 item8: omega2=100*pi,R1=.3,R2=.1 gives omega1=100*pi/3rad/s→1000rpm, not printed300; not copied. Other numbered exercises not treated as additional mapped lessons. No specialist or real physical lab claim."
+    },
+    {
+      "pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "decision": "Newton laws read visually. Inertial frame/net force/constantmass/classical scope. Source29 Earth-relative zero-force rest/straight line must be scoped approximate inertial, source30 improves this. Source31 all balancing forces equal/opposite only TWO-force special case, not arbitrary3+; total vector sum zero. Thirdlaw pair acts on DIFFERENT bodies, does not cancel on one body. F/a mass only nonzero ratio, not0/0. Source32 combined same-force a=a1a2/(a1+a2) verified; original examples use new values."
+    },
+    {
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "decision": "Galilean classical inertial uniform-translation scope; frame merely at rest relative to arbitrary other frame not automatically inertial. Earth rotation ignored only as stated local approximation; NOT no Earth rotation effect in any experiment. Source34 displacement relativecar always smaller false for opposite direction; retain SIGNED components, no universal smaller. Source35 displayed2.4 Fi=m(ab-anis) inconsistent with2.3 manis=F+Fi andF=mab; NEW for TRANSLATING/NONROTATING frame acceleration A: Fi=-mA, aRelative=F/m-A; lower source35 Fi=-m ai and diagram support negative sign. No arbitrary rotating frame/Coriolis solver added. tg angle |A|/g only conditionalstaticpendulum but no numeric angle requested this batch. Scientific derivation and scope documented, independent subjectexpert not claimed."
+    },
+    {
+      "pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "decision": "All17 original native-text hashes matched source catalog; rendered original images read incl formulas/subscripts/units. PDF=printed+1. Whole supplied textbook identity unchanged; no public PDF/OCR, no Biology406/old6–9/website/Chemistry/prod/AIExplain changes. Every new content item must cite its owner section, not broad unscoped prior-page citation."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 6,
+      "topic_id": "physics-10-section-6",
+      "pdf_pages": [
+        17,
+        18,
+        19
+      ],
+      "printed_pages": [
+        16,
+        17,
+        18
+      ],
+      "cards": 4,
+      "formula_rules": 5,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 5
+    },
+    {
+      "sequence": 7,
+      "topic_id": "physics-10-section-7",
+      "pdf_pages": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "printed_pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "cards": 5,
+      "formula_rules": 6,
+      "worked_examples": 1,
+      "assessments": 10,
+      "frq": 6
+    },
+    {
+      "sequence": 8,
+      "topic_id": "physics-10-section-8",
+      "pdf_pages": [
+        23,
+        24,
+        25
+      ],
+      "printed_pages": [
+        22,
+        23,
+        24
+      ],
+      "cards": 4,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 1
+    },
+    {
+      "sequence": 9,
+      "topic_id": "physics-10-section-9",
+      "pdf_pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "printed_pages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 10,
+      "topic_id": "physics-10-section-10",
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "printed_pages": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    }
+  ]
+}

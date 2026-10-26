@@ -472,3 +472,44 @@ va manba SHA saqlandi. Bu sinfda PDF sahifasi bosma raqamdan1oldinda.
 Asl manba tekshiruvi muallifning tekshiruvidir; mustaqil pedagog/fan eksperti
 imzosi hamda native Android tajribasi deb ko‘rsatilmaydi. Fizika lokal/test
 preview holatida, ommaviy nashr yoqilmadi.
+
+## 2026-10-26 — 10-sinf §6–10, PDF17–25/29–36
+
+Asl17 sahifa matni, formulalari, indekslari va tasvirlari qayta o‘qildi;
+PDF=bosma+1. Har kontent birligi tegishli paragraf sahifalariga bog‘landi.
+
+- PDF17 matnida o‘q boshi otilish nuqtasi deyiladi, ammo y=h−gt²/2 yerga
+  bog‘langan koordinatadir. Yangi dars yer y=0, boshlang‘ich y=h, x=0 ni aniq
+  belgilaydi. PDF18 vy=gt musbat moduli bilan yuqoriga o‘qdagi vy=−gt
+  proyeksiyasi ajratiladi. Egri yo‘l va gorizontal uzoqlik boshqa kattalik.
+- PDF21 uzoqlik «faqat gorizontal tarkib»ga bog‘liq degan jumla to‘liq emas:
+  uchish vaqti vertikal tarkibga ham bog‘liq.45° maksimum faqat bir xil v0,
+  bir xil boshlang‘ich/yakuniy balandlik va qarshiliksiz model uchun.
+  PDF22 havodagi30–40° universal optimum sifatida ko‘chirilmadi.
+- SinA/cosA savolda berilgan birliksiz ma’lumot; burchak gradusi emas.
+  Umumiy trig/CAS solver qo‘shilmadi. To‘liq uzoqlikda exact unit-circle
+  jufti tekshiriladi. sqrt(3)s savoli aniq kvadrat haqiqati va0,01s yakuniy
+  grid bilan; oldingi exact-root himoyalar o‘zgarmadi.
+- Laboratoriya8 faqat shartli jadval tahlili va uch qaydning o‘rtachasi.
+  Ballistik moslama/metal sharcha bilan operational yo‘riqnoma berilmaydi,
+  real o‘lchash bajarilgani aytilmaydi. PDF25 mashq8da omega2=100*pi,
+  R1=30cm,R2=10cm dan omega1=100*pi/3rad/s va1000rpm chiqadi;
+  bosilgan300rpm javob ko‘chirilmadi. Raqamlanmagan mashqlar alohida yangi
+  curriculum bo‘limlari sifatida sun’iy ko‘paytirilmadi.
+- PDF31 kuchlar muvozanatida teng/qarama-qarshilik aynan ikki kuchga xos;
+  umumiy holatda vektor yig‘indi nol. Uchinchi qonun jufti turli jismlarda.
+  F/a orqali massa aniqlashda0/0 ishlatilmaydi. Bir xil F bilan ikkita massa
+  birlashtirilgandagi a=a1*a2/(a1+a2) sharti aniq.
+- PDF34 nisbiy ko‘chish har doim kichik deyilishi teskari yo‘nalishda umumiy
+  qoida emas. Galiley nisbiyligi klassik inersial to‘g‘ri siljishga tegishli.
+  Yer aylanishining e’tiborsizligi barcha tajriba uchun mutlaq da’vo emas.
+- PDF35 yuqoridagi2.4 `Fi=m*(aAbs−aRelative)` belgisi2.3
+  `m*aRelative=F+Fi` hamda `F=m*aAbs` bilan mos emas. Shu tenglamalardan
+  `Fi=m*(aRelative−aAbs)=−m*A` keladi; sahifa pastidagi manfiy ishora va
+  sxema ham bunga mos. Yangi qoida faqat aylanmaydigan, tezlanib siljiydigan
+  sistemada `Fi=−m*A`, `aRelative=F/m−A` ni ishlatadi. Mustaqil sonli
+  tenglik testida m=2,F=10,A=3 uchun Fi=−6,ar=2 va m*ar=F+Fi=4.
+  Aylanuvchi sistemalar uchun umumiy solver yaratilmagan.
+
+Bu manbaga tayangan muallif tekshiruvi; mustaqil ekspert tasdig‘i emas.
+Biologiya va oldingi Fizika darslarining immutable JSON/reviewlari saqlandi.

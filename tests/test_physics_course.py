@@ -847,6 +847,31 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (10, 6, 5): ("1.73", "s", "(2*h/g)^0.5"),
+        (10, 6, 6): ("1000", "cm", "sqrt(2*h*v0^2/g)"),
+        (10, 6, 7): ("1500", "cm", "h-0.5*g*t*t"),
+        (10, 6, 8): ("18", "km/h", "(2*h*g+v0^2)^0.5"),
+        (10, 6, 9): ("400", "cm", "t*v"),
+        (10, 7, 5): ("57.6", "km/h", "cosA*v0"),
+        (10, 7, 6): ("-28.8", "km/h", "sinA*v0-t*g"),
+        (10, 7, 7): ("1600", "cm", "t*cosA*v0"),
+        (10, 7, 8): ("720", "cm", "(v0*sinA)^2/(g*2)"),
+        (10, 7, 9): ("2.4", "s", "sinA*v0*2/g"),
+        (10, 7, 10): ("3840", "cm", "v0^2*(2*sinA*cosA)/g"),
+        (10, 8, 6): ("200", "cm", "(l3+l1+l2)/3"),
+        (10, 9, 5): ("400", "cm/s2", "F*m^-1"),
+        (10, 9, 6): ("1000", "mN", "a*m"),
+        (10, 9, 7): ("6000", "g", "F*a^-1"),
+        (10, 9, 8): ("200", "cm/s²", "a2*a1/(a2+a1)"),
+        (10, 10, 5): ("21.6", "km/h", "v2+v1"),
+        (10, 10, 6): ("-6000", "mN", "(-A)*m"),
+        (10, 10, 7): ("200", "cm/s2", "F*m^-1-A"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -863,11 +888,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        231,
-        85,
+        236,
+        80,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 5, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 10, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -877,7 +902,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 43
+    assert len(load_course()) == 44
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1080,7 +1105,7 @@ def test_all_reviewed_http_content_and_replay(preview):
         "course_complete"
     ]  # Grade10 is partial and grade11 is still unimplemented.
     with factory() as db:
-        assert db.get(User, 1).xp_total == 2310
+        assert db.get(User, 1).xp_total == 2360
 
 
 @pytest.mark.parametrize(
