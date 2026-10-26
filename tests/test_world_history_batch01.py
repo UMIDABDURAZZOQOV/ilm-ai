@@ -12,7 +12,7 @@ from services.world_history_models import WorldHistoryProgress
 
 
 def test_first_batch_preserves_every_source_paragraph_and_taught_objective_keys():
-    documents=load_lessons()
+    documents=load_lessons()[:6]
     assert len(documents)==6
     assert [d['sequence'] for d in documents]==list(range(1,7))
     assert [len(d['content']['cards']) for d in documents]==[13,8,9,8,8,9]
@@ -30,7 +30,7 @@ def test_first_batch_preserves_every_source_paragraph_and_taught_objective_keys(
 
 def test_six_real_lessons_follow_prerequisites_and_award120_once(history):
     client,factory,_=history
-    documents=load_lessons()
+    documents=load_lessons()[:6]
     request={'assessment_version':2,'request_id':str(uuid4())}
     assert client.post(f"{PREFIX}/lessons/{documents[1]['key']}/start",json=request).status_code==403
     for d in documents:
@@ -50,8 +50,9 @@ def test_six_real_lessons_follow_prerequisites_and_award120_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==6
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==6 and catalog['source_sections']==46
-    assert all(r['state']=='completed' for r in catalog['lessons'])
+    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert all(r['state']=='completed' for r in catalog['lessons'][:6])
+    assert all(r['state']!='completed' for r in catalog['lessons'][6:])
     assert catalog['grade_content_complete'] is False and catalog['course_complete'] is False
 
 

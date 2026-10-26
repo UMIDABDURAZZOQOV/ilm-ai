@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph08.json",
+  "lesson_sha256": "afcf85707552b582f81dfffa3985a1eed5b48af28b5bd7942114cacde5c6bd71",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p08-page035",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic08",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 35,
+      "printed_page": 35,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "ebfb74679385d0e8d0bcbc774f8741620b8a6223074bd14bc828a635ab117227",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p08-page036",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic08",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 36,
+      "printed_page": 36,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "683d2f473ecf05499fc9abae5ac1dabeff5895ff5249a899c693aabaa32f865b",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p08-page037",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic08",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 37,
+      "printed_page": 37,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "fb9927672896b1d371e793489efbb2d4d9e16afe4a143796e03a8ac94ec78ea3",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original35–37 read;35 below§8 heading,37 only final questions above§9 heading.",
+    "Every deity/action is explicitly belief/legend content, never established supernatural history. Objective questions test names and attributed story comprehension.",
+    "Figure captions35–36 directly checked for Tot, Anubis, Maat and Xatxor; no modern theology or medical advice inserted.",
+    "Priest flood/agriculture knowledge scoped to textbook, not infallible prediction; complex influence/ideology explanation stays self/teacher review."
+  ],
+  "approved_fact_sha256": {
+    "belief-images": "e243badc4adb0792727c4653af572b35dd18507939ebefa3ad8801482fd533db",
+    "ptah": "147c5a7f627093e48c01d69c61798eb1e3277d0a61cb6c6ce6a4e6bb36273444",
+    "amon-ra": "9c5c99891992932c95e675f081a431b6b8ab38627451568e7a3bcd66a9b13222",
+    "divine-ruler": "9030a8c198b7673deeaa013f2b6f78f6286eaac18b24a24999d24a6b6a3e5611",
+    "hapi": "9bd8ce97e9cd945ec7bcb37a0dd9265437887920521af93164f2d9776083aeb8",
+    "osiris": "ed8ec96197459e12118dbce75b3f920f310b4571d1f34a87da35920a8453d5cf",
+    "osiris-story": "707dcc28b45e6c91c43c9b896de140263dc53189b5dedfb067a662af3e45908b",
+    "tot": "3019306ca3cb5ec226bafd7f20003a29ad9fcf8dd902ea654a3893ecc540e825",
+    "anubis": "8ace3e94676eca3601abfc4b02485fc23c7f15d89c544d4e0bc41a4ee9664a00",
+    "maat": "abd4dab994d7457c23bc22ccc5eb3c602627233866e860a83f436b5fe970ab56",
+    "hathor": "9e19c648ea2cbe0d8ec79c69999fba90a0520c7c54d0cd4853031e2f04218d8b",
+    "priests": "019181683e1b2693743fad7fc09883c8ce76c9ee212f43fa5caadd28da7d11a7",
+    "temple-roles": "22b90092d4bfc05a8e90b82691d12b1174622980ce77dee0e37f0d9606bbd782"
+  },
+  "approved_content_sha256": "ac1568519e7b7a1dc11ee27e5a4267d701f77e4e494c01811078737c20ddf3b8",
+  "approved_assessments_sha256": "b6806a55c4bac6d277d9ade4187c43b28523a46f9faf37ce33226f05d360d8f3",
+  "approved_answer_targets": {
+    "world-history-6-p08-r1-q01": {
+      "fact_ids": [
+        "ptah"
+      ],
+      "verified_answer": "Ptax",
+      "aliases": []
+    },
+    "world-history-6-p08-r1-q02": {
+      "fact_ids": [
+        "ptah"
+      ],
+      "verified_answer": "Ptax",
+      "aliases": []
+    },
+    "world-history-6-p08-r1-q03": {
+      "fact_ids": [
+        "hapi"
+      ],
+      "verified_answer": "Xapi",
+      "aliases": []
+    },
+    "world-history-6-p08-r1-q04": {
+      "fact_ids": [
+        "osiris-story"
+      ],
+      "verified_answer": "Isida",
+      "aliases": []
+    },
+    "world-history-6-p08-r1-q05": {
+      "fact_ids": [
+        "maat"
+      ],
+      "verified_answer": "Maat",
+      "aliases": []
+    },
+    "world-history-6-p08-r1-q06": {
+      "fact_ids": [
+        "tot"
+      ],
+      "verified_answer": "Tot",
+      "aliases": []
+    },
+    "world-history-6-p08-r1-q07": {
+      "fact_ids": [
+        "priests"
+      ],
+      "verified_answer": "Kohin",
+      "aliases": []
+    },
+    "world-history-6-p08-r1-q08": {
+      "fact_ids": [
+        "hathor"
+      ],
+      "verified_answer": "Xatxor",
+      "aliases": [
+        "Xatxor"
+      ]
+    },
+    "world-history-6-p08-r1-q09": {
+      "fact_ids": [
+        "anubis"
+      ],
+      "verified_answer": "Anubis",
+      "aliases": [
+        "Anubis"
+      ]
+    },
+    "world-history-6-p08-r1-q10": {
+      "fact_ids": [
+        "amon-ra"
+      ],
+      "verified_answer": "Amon-Ra",
+      "aliases": [
+        "Amon-Ra",
+        "Amon Ra"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 36,
+      "activity": "deity_recall_and_summary",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "card7",
+        "card8",
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q08",
+        "q09",
+        "q10"
+      ]
+    },
+    {
+      "pdf_page": 37,
+      "region": "above_next_heading",
+      "activity": "final_questions_continued",
+      "covered_by": [
+        "card3",
+        "card4",
+        "card5",
+        "card8",
+        "reflection"
+      ]
+    }
+  ]
+}

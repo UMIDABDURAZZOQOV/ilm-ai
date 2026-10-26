@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph10.json",
+  "lesson_sha256": "c94db9ca03022b75161e907f0c10ca8d1df7b2d220b387f0d9dedbeb30175f16",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p10-page040",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic10",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 40,
+      "printed_page": 40,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "0bf11d8be5bdf64f8711a3b4002292e06e78e301a3d5ff39206b634e11692128",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p10-page041",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic10",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 41,
+      "printed_page": 41,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "d1d7e100215183d3ce6d94b3d307a6f32230106333515c8d5d9f322e2ff57969",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p10-page042",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic10",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 42,
+      "printed_page": 42,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "9ce400c38dc208573d6b2144d96415ca12c01e241fea507cdc4e559de0c59fbd",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original40–42 read;40 below§10 heading;43 begins§11 and is not cited.",
+    "750 fixed alphabet, exact365-day solar year, sole/world-first astronomy/calendar/decipherment and timeless52.5cm cubit claims withheld.",
+    "1822 achievement and two named languages directly checked40–42.2017 museum location is not published as verified2026 status.",
+    "No outside linguistic system details, modern medical claims, fluid-dynamics formula or invented mathematics examples inserted."
+  ],
+  "approved_fact_sha256": {
+    "writing": "0e158c52c77193a5914e125fb93003acd43ed78acdaf9a8e76fedbed3d761a6f",
+    "sign-count": "9bc1ad0e32f6e69b6c5a19d25f23404a85ea4bb14ea7821d82ecfd418b4fb222",
+    "writing-media": "588e50915055b69f89d59364dbce6624c77e7b17be12d23cce975de88eb7de76",
+    "papyrus": "51ad900a765076eadadb738176363a458e643c61d231a13e6cba485dfd23394b",
+    "scribes": "0b00d109a363477e2bf2c8032654d64525b3515debaec6f0505aef2e2d218caf",
+    "champollion": "ead4f5c0c5e1cb696c879f6d0d6be0599fd4a2371fb13b1490484c7eb09f5996",
+    "rosetta": "5c6112118cbd674b033b2ac582065b295db490d46aaf8fda33af555336b13454",
+    "sources-opened": "92c22250ef1dc68bb3e04add6e4ef092feb6092bac958f0313f8f434b39b80a2",
+    "museum-scope": "02e6681a98c5342081b747fd60bfde16653d2afa16bf7db07928ba2141398a66",
+    "astronomy": "b7af7cc82d0bcebd7340c9f73ab10a917206977a7d761a2f8963133891e99fa7",
+    "calendar": "d3f3b2244bac19eca2f18b7ddf2dfa610cbe2896d236c72960e93f8a22b9633a",
+    "geometry": "3f082f85b0753c57e31a49fc8b7a998a2ef5ab64a8298ef6c17f2569566b9cc1",
+    "cubit": "aaf2c703321672381dfca798ad30eb2aca0f3e827c3262e208f0be2677e8412d",
+    "water-clock": "168498e1836712f5cfdd64252ea3c28268b4b0071d67f0f8489e738a204ebd06"
+  },
+  "approved_content_sha256": "146d490d0e156068e411ae4b02acbc48b9db44f720b3bb8b3c58b9fc31de998a",
+  "approved_assessments_sha256": "cb35c40f30e6aa5250d89d62ba506c2cd76de613384b89fc96e7a3a9f3103230",
+  "approved_answer_targets": {
+    "world-history-6-p10-r1-q01": {
+      "fact_ids": [
+        "writing"
+      ],
+      "verified_answer": "Iyeroglif",
+      "aliases": []
+    },
+    "world-history-6-p10-r1-q02": {
+      "fact_ids": [
+        "papyrus"
+      ],
+      "verified_answer": "Papirus",
+      "aliases": []
+    },
+    "world-history-6-p10-r1-q03": {
+      "fact_ids": [
+        "champollion"
+      ],
+      "verified_answer": "1822-yil",
+      "aliases": []
+    },
+    "world-history-6-p10-r1-q04": {
+      "fact_ids": [
+        "rosetta"
+      ],
+      "verified_answer": "Qadimgi Misr va yunon tillari",
+      "aliases": []
+    },
+    "world-history-6-p10-r1-q05": {
+      "fact_ids": [
+        "geometry"
+      ],
+      "verified_answer": "Geometriya",
+      "aliases": []
+    },
+    "world-history-6-p10-r1-q06": {
+      "fact_ids": [
+        "champollion"
+      ],
+      "verified_answer": "Jak-Fransua Shampolyon",
+      "aliases": [
+        "Shampolyon",
+        "Jak-Fransua Shampolyon"
+      ]
+    },
+    "world-history-6-p10-r1-q07": {
+      "fact_ids": [
+        "astronomy"
+      ],
+      "verified_answer": "Astronomiya",
+      "aliases": [
+        "Astronomiya"
+      ]
+    },
+    "world-history-6-p10-r1-q08": {
+      "fact_ids": [
+        "cubit"
+      ],
+      "verified_answer": "Tirsak",
+      "aliases": [
+        "Tirsak"
+      ]
+    },
+    "world-history-6-p10-r1-q09": {
+      "fact_ids": [
+        "water-clock"
+      ],
+      "verified_answer": "Suv soati",
+      "aliases": [
+        "Suv soati"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 41,
+      "activity": "writing_and_decipherment_recall",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q06",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 42,
+      "activity": "summary_and_three_final_questions",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "card7",
+        "card8",
+        "reflection"
+      ]
+    }
+  ]
+}

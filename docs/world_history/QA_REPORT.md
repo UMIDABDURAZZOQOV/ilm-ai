@@ -67,3 +67,36 @@ feedback, scrollable explanation at200%, FRQ flow and self-review. Source PDF/ma
 images were not bundled. Screenshots/logs/DBs/tokens stay private. No actual Android,
 IME/TalkBack, independent history-teacher sign-off or complete2026–2027 outcome
 equivalence is claimed. No production/main/deploy/real-user operation occurred.
+
+## Batch02 — grade6§7–11, 2026-10-26
+
+Five additional reviewed lessons:44 cards,72 fact records,29 MCQ and17 objective
+FRQ. Total **11/219 local-preview lessons**,99 cards,164 facts,68 MCQ,36 FRQ and11
+self/teacher activities;208 units remain. Whole-book course-ready flags are false.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Current backend/source/preservation |96 passed in158.95s | All11 lessons, source regions/digests, private per-question keys, aliases, beliefs/interpretations, original44 map legend, immutable API and once-only220XP |
+| Actual PostgreSQL |1 passed in26.22s | Dedicated history staging schema; parallel first completion, all11 sequential lessons,220XP, pre-existing synthetic account unchanged |
+| Actual loopback HTTP |6 grade catalogues,104 answers,220XP | Fresh synthetic learner; prerequisites and idempotent completion; no old progress reset |
+| Current targeted Flutter |33 passed in00:12 | Actual API fixtures§1–11; MCQ/FRQ, 320×568/200% theory/feedback, resume, UZ/RU/EN and prior safeguards |
+| Full Flutter regression |642 passed in03:41 | Entire current suite; common UI and existing subject tests included |
+| Full Flutter analysis |0 issues in112.4s | Entire current Flutter history worktree |
+| Protected baseline |687 SHA pins matched | Existing406 Biology +268 Chemistry manifests and13 runtime files |
+| Critical Ruff / whitespace |Passed | History code/tests and Git diffs |
+
+The full2569-backend regression recorded above remains the first-lesson snapshot;
+it was not rerun for this content-only batch. Current96 tests cover all new
+content and the unchanged history runtime. The new batch adds no production route,
+database migration or application networking change.
+
+The initial§11 FRQ widget test failed because its66KB fixture crossed Dio's
+background-isolate decoding threshold outside the widget fake-async zone. The
+fixture adapter now uses synchronous decoding, preserving strict response checks.
+All33 targeted tests and then all642 full tests passed. This was a test harness
+timing issue; no shared runtime/UI/subject code was changed.
+
+Inspected actual widget renders:§7 theory at200%,§10 feedback at200%,§11 resumed
+FRQ and earlier shared-feedback scroll states. No PDF image was bundled.
+No actual Android/IME/TalkBack, independent teacher approval, full2026–2027
+equivalence, deployment, main merge or real-user access is claimed.

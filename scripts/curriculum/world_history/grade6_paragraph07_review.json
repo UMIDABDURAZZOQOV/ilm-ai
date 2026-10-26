@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph07.json",
+  "lesson_sha256": "59c9f5956395757ddeb55a1e0ba83e3661727b24373fc1c95dc4e8aaf0acbe1a",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p07-page032",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic07",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 32,
+      "printed_page": 32,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "e67c3147bb840dd8abda0674c829c5cfb234bc1be34b81a42bd45bd031505a95",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p07-page033",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic07",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 33,
+      "printed_page": 33,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "ed774ac35e7cdd1e99f73e078dc49161d084700dc380e841548b8965c6a34811",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p07-page034",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic07",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 34,
+      "printed_page": 34,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "1f79aec3743dc8e121d23b3b5a4cb6d4f44c752c9de8ccdb95febad911c95ce0",
+      "reviewed_on": "2026-10-26",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original32–34 images read;32 below§7 heading.35 begins§8 and is not cited.",
+    "TutmosII campaign attribution and exact Hyksos chronology are scoped/withheld, not silently corrected from outside memory.",
+    "525BCE is explicit in both original34 body and summary. No year-zero or CE/BCE ambiguity in accepted key.",
+    "Historical neighbours/territories do not assert modern borders; causal/evaluative war interpretations are not automatically graded."
+  ],
+  "approved_fact_sha256": {
+    "nubia": "cc04a761e3f76ad53fa3b6708616878d80fde3a5bdac7121be8261b55cecbbcc",
+    "libya": "2d556cf749ae0c44efa9f52f9e47ded881877f12ce732183a05736dfec35c7d7",
+    "sinai-neighbours": "98aabe272bb9fbb60e0e8da7f42eb448d2905b454c032068228d8c8626ca8b43",
+    "campaigns": "d60b55fa507700a7f08fa9a675e1ff222f1c23539d0a31fd2ebca6dc4e8e45dd",
+    "hyksos-period": "9eaa3543191567b21fd864136e2e7fc8625c3be7910da2c9a969ac58a4389794",
+    "chariots": "a4c850cf2979dbd538f8d89775428a3d8cea5bdc377a33645c6d5bcd0754f0eb",
+    "thebes": "9c2c69623eff45bd73a0d5b7715ee36549d43db0179832b8ef90757d0a15f979",
+    "ahmose": "9625f645a1c8fa6f6890aed5532027c6f30b6b85d957fa8d077256def43e805d",
+    "thutmose-account": "71aa606c21f8a268c70e21d226def1ff3d56c4f683d40ed0a865778a38b40be5",
+    "war-effects": "85ac49a89037e60973f2d8acdd6fcf9196cfde2fed2623cc780fef64edf468c9",
+    "persian-conquest": "b28427ed65b3aef006f2176e92cd10fd69467dca1c4eb715fa09766f6cf47d5f",
+    "reunification": "0f56f2e129aafb63bb20eadb1e17cc51ab09663b663809f0fd1a62fc69ffb9ed"
+  },
+  "approved_content_sha256": "86ea0c2a2a8f107f95522ff9f31d3e3a8f6f14c961d710d4a5759e8d3b93d3b8",
+  "approved_assessments_sha256": "130032bd69366afe7f1d1cedb29c1829bb6ba3babd355e344ffed8dce8575264",
+  "approved_answer_targets": {
+    "world-history-6-p07-r1-q01": {
+      "fact_ids": [
+        "nubia"
+      ],
+      "verified_answer": "Nubiya",
+      "aliases": []
+    },
+    "world-history-6-p07-r1-q02": {
+      "fact_ids": [
+        "sinai-neighbours"
+      ],
+      "verified_answer": "Mis",
+      "aliases": []
+    },
+    "world-history-6-p07-r1-q03": {
+      "fact_ids": [
+        "chariots"
+      ],
+      "verified_answer": "Jangovar aravalar",
+      "aliases": []
+    },
+    "world-history-6-p07-r1-q04": {
+      "fact_ids": [
+        "ahmose"
+      ],
+      "verified_answer": "Yangi podsholik",
+      "aliases": []
+    },
+    "world-history-6-p07-r1-q05": {
+      "fact_ids": [
+        "persian-conquest"
+      ],
+      "verified_answer": "Miloddan avvalgi 525-yil",
+      "aliases": []
+    },
+    "world-history-6-p07-r1-q06": {
+      "fact_ids": [
+        "thebes"
+      ],
+      "verified_answer": "Fiva",
+      "aliases": [
+        "Fiva"
+      ]
+    },
+    "world-history-6-p07-r1-q07": {
+      "fact_ids": [
+        "ahmose"
+      ],
+      "verified_answer": "Yaxmos",
+      "aliases": [
+        "Yaxmos"
+      ]
+    },
+    "world-history-6-p07-r1-q08": {
+      "fact_ids": [
+        "persian-conquest"
+      ],
+      "verified_answer": "Kambiz II",
+      "aliases": [
+        "Kambiz II"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 34,
+      "activity": "recall_summary_and_four_final_questions",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "card7",
+        "q01",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "reflection"
+      ]
+    }
+  ]
+}

@@ -53,5 +53,5 @@ def test_real_postgres_history_import_snapshot_account_preservation_and_parallel
             assert response.status_code == 200 and response.json()['is_correct']
         assert finish(client, attempt).json()['xp_awarded'] == 20
     with factory() as db:
-        assert db.get(User, 1).xp_total == 120
+        assert db.get(User, 1).xp_total == 20 * len(load_lessons())
         assert db.get(User, 42).xp_total == old[0]

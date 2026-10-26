@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 6; remaining: 213.** Source pages are candidate spans;
+**Reviewed preview lessons: 11; remaining: 208.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -40,11 +40,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 4 | wh6-topic04 | Eneolit va bronza davri | 22–25 | reviewed_preview_ready |
 | 5 | wh6-topic05 | Temir davriga o‘tishda O‘rta Osiyoning rivojlanishi | 25–28 | reviewed_preview_ready |
 | 6 | wh6-topic06 | Nil vodiysi va uning aholisi | 28–32 | reviewed_preview_ready |
-| 7 | wh6-topic07 | Qadimgi Misr | 32–35 | not_implemented |
-| 8 | wh6-topic08 | Qadimgi Misrda din | 35–37 | not_implemented |
-| 9 | wh6-topic09 | Piramidalar va daxmalar | 37–40 | not_implemented |
-| 10 | wh6-topic10 | Qadimgi Misr madaniyati | 40–43 | not_implemented |
-| 11 | wh6-topic11 | Mesopotamiya sivilizatsiyalari | 43–49 | not_implemented |
+| 7 | wh6-topic07 | Qadimgi Misr | 32–35 | reviewed_preview_ready |
+| 8 | wh6-topic08 | Qadimgi Misrda din | 35–37 | reviewed_preview_ready |
+| 9 | wh6-topic09 | Piramidalar va daxmalar | 37–40 | reviewed_preview_ready |
+| 10 | wh6-topic10 | Qadimgi Misr madaniyati | 40–43 | reviewed_preview_ready |
+| 11 | wh6-topic11 | Mesopotamiya sivilizatsiyalari | 43–49 | reviewed_preview_ready |
 | 12 | wh6-topic12 | Bobil podsholigi | 49–53 | not_implemented |
 | 13 | wh6-topic13 | Old Osiyo davlatlari | 53–57 | not_implemented |
 | 14 | wh6-topic14 | Ahamoniylar davlati | 57–61 | not_implemented |
