@@ -13,7 +13,7 @@ from services.world_history_models import WorldHistoryProgress
 
 
 def test_batch04_exact_source_counts_and_unresolved_fact_exclusions():
-    documents=load_lessons();assert len(documents)==21
+    documents=load_lessons();assert len(documents)>=21
     batch=documents[16:21]
     assert [len(d['facts']) for d in batch]==[12,17,16,15,11]
     assert [len(d['content']['cards']) for d in batch]==[8,9,10,8,6]
@@ -51,7 +51,7 @@ def test_olymp_mountain_is_not_an_olimpiya_alias():
 
 
 def test_all_twentyone_prerequisites_and420_xp_once(history):
-    client,factory,_=history;documents=load_lessons()
+    client,factory,_=history;documents=load_lessons()[:21]
     assert client.post(f"{PREFIX}/lessons/{documents[16]['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())}).status_code==403
     for d in documents:
         response=client.post(f"{PREFIX}/lessons/{d['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())})
@@ -68,6 +68,7 @@ def test_all_twentyone_prerequisites_and420_xp_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==21
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==21 and catalog['source_sections']==46
-    assert all(r['state']=='completed' for r in catalog['lessons'])
+    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert all(r['state']=='completed' for r in catalog['lessons'][:21])
+    assert all(r['state']!='completed' for r in catalog['lessons'][21:])
     assert not catalog['grade_content_complete'] and not catalog['course_complete']

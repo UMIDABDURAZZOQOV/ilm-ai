@@ -65,6 +65,11 @@ chapter/topic order and separate bibliography once the reviewed UI adapter exist
 - Source and schema checks remain mandatory. No production certification is
   inherited from the unfinished Physics prototype.
 
+The batch05 checkpoint has26 explicitly allowed lessons. Content additions do not
+change the common runtime/schema or ordinary release routes. Each next batch must
+retain prior manifest bytes and validate exact page regions and finite per-question
+answer targets before immutable local import. See CHECKPOINT.md and QA_REPORT.md.
+
 ## Mandatory continuation and acceptance
 
 Finish the complete source/activity catalogue, then author grade 6 §1 onward in

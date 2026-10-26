@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph25.json",
+  "lesson_sha256": "daf561863e5b17e7886a28724acdaad7b36c8f49fc80c99bcb8ba8e7d12df3ba",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p25-page098",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic25",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 98,
+      "printed_page": 98,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "26a03220ab598a506a8914f7afe9d5d16e2cc5d77534104ed5fd1c0656602f47",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p25-page099",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic25",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 99,
+      "printed_page": 99,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "729110b3081dbaa5e5d8e43518dfd3d5d9631e5b57e927446c58b828d1b5f110",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p25-page100",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic25",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 100,
+      "printed_page": 100,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "bb1dcdbfea0c2fd774353766a2ce5913a40c859fecafe23b5d02f0732f7a489d",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p25-page101",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic25",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 101,
+      "printed_page": 101,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "b140abf0cac184c7f72b35a37db9ecdca2e1739e34212fd338538c56fa780801",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original98 below §25 through101 fully reviewed;102 begins §26 and excluded. Original99 map/schematic inspected.",
+    "No map colour-to-army key invented without legend. Schematics not converted into practical combat tasks.",
+    "Marathon runner exact42km/death mechanism/story historicity not automatic facts;300 label not total defenders; sole pass/all-others-left generalizations withheld.",
+    "Ship200/speed18/comparative superiority not keyed.449 peace retained only as attributed textbook periodization, not definitive uncorroborated endpoint.",
+    "Envoy speech/violence attributed, causal/strategic essays self/teacher review. Names and battle associations are page-verified."
+  ],
+  "approved_fact_sha256": {
+    "cause": "ae517c7510e352169d078b8c7cae9a8eea143fe7073ec2780846c9a32485c6fa",
+    "envoys": "41a52170ab136c5bb67f7d12cf9717f9139a5b99bf534550b43e0109f40ea1f2",
+    "marathon": "5238d0a3b800c9206b120faafbab6b8c69b5f6b050ba0480834f95fcea320185",
+    "miltiades": "5cdafa75820a80b33e3df4c358d548b757f45068b47a737df48a6a274445ecb3",
+    "runner": "03f69a690a81630726284beb8ee90bfb3e1d09e31888889cdf61e784dd13af50",
+    "map": "290533765210ff141a67b685f56fc891e616deb26bd38bc860e405cfe3d05f7e",
+    "xerxes": "f20611f048c293d8f22be83df98baea12a479959d7b745dc70ffeed5d13269a9",
+    "thermopylae": "ff1c7f755feb0bcf8c07065dc09c18bfd21b5dfa4eb7d81fc8ebbc4929dcf009",
+    "three-hundred": "940f23d425716cb3b45b2e08594d3cc6dfd46724fe766f65ebe87fff4c7b2ee0",
+    "salamis": "ce6f1a4bda14b4ce3aa3b67f1ce700b207c12cb8385beab4232601863eb933d5",
+    "trireme": "5033ec9a2c4c74a7447307b4329c0ae794fa0e95085a1be86ea41e05215acffb",
+    "plataea": "c990b6d03d4d3f6cd4c94df01f7f0de25bf53752e3c6b614b6e7404ac5bf110a",
+    "ending": "9d4a4b3cfe0a257803f06f3c0bbc72494331584e65e072e122886baf75c17508"
+  },
+  "approved_content_sha256": "85f0b0b7822a2bcb8bc6c1b4f9aaa58026237747bf865f0eadf6b3df1f773c4b",
+  "approved_assessments_sha256": "38b8973117f483ba704c5a9a95662daa223ec7169e3b03fcefe32b21e80e4d58",
+  "approved_answer_targets": {
+    "world-history-6-p25-r1-q01": {
+      "fact_ids": [
+        "marathon"
+      ],
+      "verified_answer": "Marafon",
+      "aliases": []
+    },
+    "world-history-6-p25-r1-q02": {
+      "fact_ids": [
+        "miltiades"
+      ],
+      "verified_answer": "Miltiad",
+      "aliases": []
+    },
+    "world-history-6-p25-r1-q03": {
+      "fact_ids": [
+        "thermopylae"
+      ],
+      "verified_answer": "Leonid",
+      "aliases": []
+    },
+    "world-history-6-p25-r1-q04": {
+      "fact_ids": [
+        "salamis"
+      ],
+      "verified_answer": "Salamin",
+      "aliases": []
+    },
+    "world-history-6-p25-r1-q05": {
+      "fact_ids": [
+        "plataea"
+      ],
+      "verified_answer": "Plateya",
+      "aliases": []
+    },
+    "world-history-6-p25-r1-q06": {
+      "fact_ids": [
+        "xerxes"
+      ],
+      "verified_answer": "Kserks",
+      "aliases": []
+    },
+    "world-history-6-p25-r1-q07": {
+      "fact_ids": [
+        "trireme"
+      ],
+      "verified_answer": "Triyera",
+      "aliases": [
+        "Triyera",
+        "Triyeralar"
+      ]
+    },
+    "world-history-6-p25-r1-q08": {
+      "fact_ids": [
+        "thermopylae"
+      ],
+      "verified_answer": "Leonid",
+      "aliases": [
+        "Leonid"
+      ]
+    },
+    "world-history-6-p25-r1-q09": {
+      "fact_ids": [
+        "salamis"
+      ],
+      "verified_answer": "Salamin",
+      "aliases": [
+        "Salamin"
+      ]
+    },
+    "world-history-6-p25-r1-q10": {
+      "fact_ids": [
+        "miltiades"
+      ],
+      "verified_answer": "Miltiad",
+      "aliases": [
+        "Miltiad"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 99,
+      "activity": "war_map_marathon_schematic_and_recall",
+      "covered_by": [
+        "card2",
+        "card3",
+        "q01",
+        "q02",
+        "q10",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 100,
+      "activity": "thermopylae_and_salamis_recall",
+      "covered_by": [
+        "card4",
+        "card5",
+        "q03",
+        "q04",
+        "q06",
+        "q07",
+        "q08",
+        "q09"
+      ]
+    },
+    {
+      "pdf_page": 101,
+      "activity": "recall_summary_and_five_tasks",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "q05",
+        "reflection"
+      ]
+    }
+  ]
+}

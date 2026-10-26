@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 21; remaining: 198.** Source pages are candidate spans;
+**Reviewed preview lessons: 26; remaining: 193.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -55,11 +55,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 19 | wh6-topic19 | O‘zbekiston hududidagi ilk davlatlar | 75–80 | reviewed_preview_ready |
 | 20 | wh6-topic20 | Zardushtiylik | 80–84 | reviewed_preview_ready |
 | 21 | wh6-topic21 | Antik tarixning boshlanishi | 84–86 | reviewed_preview_ready |
-| 22 | wh6-topic22 | Qadimgi Yunonistonning yuksalishi | 86–91 | not_implemented |
-| 23 | wh6-topic23 | Yunon koloniyalari | 91–93 | not_implemented |
-| 24 | wh6-topic24 | Afinada demokratiya | 93–98 | not_implemented |
-| 25 | wh6-topic25 | Yunon-fors urushlari | 98–102 | not_implemented |
-| 26 | wh6-topic26 | Yunonistonning Makedoniya tomonidan bosib olinishi | 102–104 | not_implemented |
+| 22 | wh6-topic22 | Qadimgi Yunonistonning yuksalishi | 86–91 | reviewed_preview_ready |
+| 23 | wh6-topic23 | Yunon koloniyalari | 91–93 | reviewed_preview_ready |
+| 24 | wh6-topic24 | Afinada demokratiya | 93–98 | reviewed_preview_ready |
+| 25 | wh6-topic25 | Yunon-fors urushlari | 98–102 | reviewed_preview_ready |
+| 26 | wh6-topic26 | Yunonistonning Makedoniya tomonidan bosib olinishi | 102–104 | reviewed_preview_ready |
 | 27 | wh6-topic27 | Fuqaro tarbiyasi | 104–107 | not_implemented |
 | 28 | wh6-topic28 | Qadimgi Yunoniston madaniyati | 107–111 | not_implemented |
 | 29 | wh6-topic29 | Qadimgi Yunoniston olimlari va mutafakkirlari | 111–115 | not_implemented |

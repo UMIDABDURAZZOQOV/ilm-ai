@@ -167,3 +167,33 @@ Actual widget renders inspected:§18 feedback at200%,§19 resumed FRQ and§21 th
 at200%, plus prior shared-feedback scroll states. No source PDF images bundled.
 Independent teacher review, native Android/IME/TalkBack and full2026–2027 outcome
 certification remain pending; no production/main/real-user operation occurred.
+
+## Batch05 — grade6§22–26, 2026-10-27
+
+Five additional lessons:35 cards,68 fact records,28 MCQ and20 objective FRQ.
+Total **26/219 local-preview lessons**,221 cards,381 facts,151 MCQ,97 objective FRQ
+and26 ungraded activities;193 units remain (20 in grade6).
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Current backend/source/preservation |122 passed in451.74s | Seven history test modules; all26 lessons, identity/region/digest/target gates, exclusions, finite Periek variants, prerequisites/replay and520XP once |
+| Actual PostgreSQL |1 passed in54.78s | Fresh schema in dedicated history staging; parallel completion and all26 sequential lessons, old synthetic account preserved |
+| Actual loopback HTTP |6 catalogues,248 answers,520XP | Fresh synthetic learner900056, prerequisite/replay checks; prior learner accounts not reset |
+| Targeted Flutter |63 passed in01:28 | Actual API fixtures§1–26, small-screen/200% theory/MCQ and resumed FRQ, prior language/account/snapshot guards |
+| Full Flutter regression |672 passed in05:57 | Entire current suite, shared and other subject coverage included |
+| Full Flutter analysis |0 issues in138.6s | Entire history Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing406 Biology/268 Chemistry manifests plus13 runtime files; all42 prior history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | Python history modules/scripts/tests only; git diff check |
+
+The earlier2569-pass full backend snapshot is baseline evidence, not a rerun here.
+The first overly broad Ruff glob accidentally included a PowerShell OCR script;
+rerunning with Python-only paths passed. No source/runtime fix was needed.
+Tool-generated Flutter plugin line-ending changes were restored separately.
+
+Original86–104 exact paragraph regions reviewed;91/98/102 wholly next-topic pages
+were excluded from preceding lessons,93/104 shared boundaries are explicit.92
+period mismatch,96 council headship, schematic citizenship/education, Marathon
+runner and ship precision remain withheld/scoped; no external correction invented.
+Source-review record contains the full decisions. Actual renders inspected:
+§24 feedback at200%,§26 resumed FRQ and§23 theory at200%; shared feedback scroll
+tests passed. No PDF images bundled, native run or teacher approval claimed.

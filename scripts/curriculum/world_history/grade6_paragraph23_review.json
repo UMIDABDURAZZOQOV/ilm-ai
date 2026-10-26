@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph23.json",
+  "lesson_sha256": "335784e38fdeadfb119ea2676b43cd888851a0359af253f4d44dda778f306f53",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p23-page091",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic23",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 91,
+      "printed_page": 91,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "80fbd65125facaf18d42fed1a87687e926c332483f80c565f1a118cecb4eba62",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p23-page092",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic23",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 92,
+      "printed_page": 92,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "65150dd582ed491485deadbb5a61792dac806616a9a92609aecc0f0ee3589171",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p23-page093",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic23",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 93,
+      "printed_page": 93,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "daa515dfb1ca06b05c053bef3f60844ea96ec426ed4ccea96bb20ce49f8de6e8",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original91 below §23 through93 above §24 visually reviewed, including original map legend.",
+    "92 main body VIII–VI versus first summary line VIII–VII retained as unresolved internal span mismatch; no exact-period key or invented correction.",
+    "Eighth-century/24-letter precision withheld; verified Phoenician relationship and vowel signs taught.",
+    "Outsider label attributed, no inferiority claim; coerced people trade described without endorsement; ritual not reenacted."
+  ],
+  "approved_fact_sha256": {
+    "migration": "19ad5dc5066e1674e6c3f95227274096cd24bbd1d89fcdd19d890ea75c74a4f3",
+    "ritual": "46bab9b169616e8b2a0e15283d24481d53a99dcf04163266fb6dd966aaa258e6",
+    "settlements": "34b5c77ad01ab40393c5282eec7c4dbac4db23fb3b48a12c48cfb2a138881c12",
+    "map": "8960f9ea3f8cb1948b4ea43ee434903240f23806c89f48f4b88eb34e91c95fc8",
+    "colonies": "c31e9dd9ceebe2db8a0a7bdd2b99579c5deb61546375593b1f1158810e5b063b",
+    "connections": "d5f0117ee0dc446cfe74c9632dc470d67305739f7e7671585d68b95d01e3a389",
+    "hellenes": "4c0b073eb11d164c575ca0f7e29963f10c7c0ed58507091d476643cf94b5dd77",
+    "hellas": "a4c23ec5f9085ea0e75be8ba1fd98b9bf06afdd89cc39209e62a8e96944258ab",
+    "outsider-label": "42d3aaa7520b0d0d3aa921a95a52b0c2807af9c20b48cf89f58ac1a9dddfbd31",
+    "black-sea": "1e07362af6f1eacf3334650619f3146900ceb8791b2a29d5c547efc943ddd53c",
+    "alphabet": "62f2189c7cf61f2a280ddabc43c8b712ee3228d407b605b6fe755e670f0749c4"
+  },
+  "approved_content_sha256": "0374bdc2a654a40661fee83dc2c6dc8ecb732cda2055438859386290636f339f",
+  "approved_assessments_sha256": "d37f6c3b6a157e6436b6fa8f4883e0a446f0341168a4aa5648c1e1d1b53cbfba",
+  "approved_answer_targets": {
+    "world-history-6-p23-r1-q01": {
+      "fact_ids": [
+        "hellenes"
+      ],
+      "verified_answer": "Ellinlar",
+      "aliases": []
+    },
+    "world-history-6-p23-r1-q02": {
+      "fact_ids": [
+        "hellas"
+      ],
+      "verified_answer": "Ellada",
+      "aliases": []
+    },
+    "world-history-6-p23-r1-q03": {
+      "fact_ids": [
+        "black-sea"
+      ],
+      "verified_answer": "Olviya, Xersones, Pantikapey",
+      "aliases": []
+    },
+    "world-history-6-p23-r1-q04": {
+      "fact_ids": [
+        "alphabet"
+      ],
+      "verified_answer": "Finikiya",
+      "aliases": []
+    },
+    "world-history-6-p23-r1-q05": {
+      "fact_ids": [
+        "settlements"
+      ],
+      "verified_answer": "Sitsiliya sohillari",
+      "aliases": []
+    },
+    "world-history-6-p23-r1-q06": {
+      "fact_ids": [
+        "colonies"
+      ],
+      "verified_answer": "O‘rtayer dengizi",
+      "aliases": []
+    },
+    "world-history-6-p23-r1-q07": {
+      "fact_ids": [
+        "hellas"
+      ],
+      "verified_answer": "Ellada",
+      "aliases": [
+        "Ellada"
+      ]
+    },
+    "world-history-6-p23-r1-q08": {
+      "fact_ids": [
+        "hellenes"
+      ],
+      "verified_answer": "Ellinlar",
+      "aliases": [
+        "Ellin",
+        "Ellinlar"
+      ]
+    },
+    "world-history-6-p23-r1-q09": {
+      "fact_ids": [
+        "black-sea"
+      ],
+      "verified_answer": "Xersones",
+      "aliases": [
+        "Xersones"
+      ]
+    },
+    "world-history-6-p23-r1-q10": {
+      "fact_ids": [
+        "alphabet"
+      ],
+      "verified_answer": "Finikiya",
+      "aliases": [
+        "Finikiya"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 91,
+      "activity": "migration_map_and_legend",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card5",
+        "q03",
+        "q05",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 92,
+      "activity": "summary_and_alphabet",
+      "covered_by": [
+        "card3",
+        "card4",
+        "card6",
+        "q01",
+        "q02",
+        "q04",
+        "q06",
+        "q10",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 93,
+      "activity": "recall_and_four_tasks_before_next_heading",
+      "covered_by": [
+        "card1",
+        "card4",
+        "card5",
+        "q07",
+        "q08",
+        "q09",
+        "reflection"
+      ]
+    }
+  ]
+}
