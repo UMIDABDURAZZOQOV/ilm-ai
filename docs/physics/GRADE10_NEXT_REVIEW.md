@@ -1,3 +1,21 @@
+# Keyingi: 10-sinf §31–35 — 2026-10-26
+
+§26–30 tekshirildi:256/316. Keyingi §31PDF119/bosma118.
+§31–35 asl16sahifa119–129/133–137ning tasvirlari va nativehashlari o‘qildi; private authoring tayyorgarligi bor, hali runtimega qo‘shilmagan. Quyidagi qaydlar source tayyorgarligi, independentexpertapproval emas.
+
+PDF119,120,121: Native hashes and original images checked. Isolated conducting sphere in electrostatic equilibrium: interior E0, exterior radial point-charge magnitude at distance from CENTRE, just-outside surface r=R. Not uniformly volume-charged insulating sphere. Dielectric E0/eps for fixed free charges/homogeneous linear model, not fixed-voltage universal reduction. eps dimensionless>=1. Field strength vs dielectric polarization distinct.
+
+PDF121,122,123: Original formulas/images checked. Signed potential zero at infinity, phi=k*q/(eps*r), potential energy qTest*phi signed, potential independent of test charge. Source121 statement that field always resists bringing a test charge is false for opposite sign: attraction/repulsion distinguished. Source122 W_-q/q notation not copied as sign convention; use explicit SIGNED test charge. Equipotentials are 3D surfaces, circles are section. Source123 E=(phi1-phi2)/d is uniform field/component along oriented displacement ONLY, not arbitrary point-field finite difference. Conducting sphere interior phi same as surface but E0, r measured from centre; source30nC/5cm worked values5400/2700V consistent.
+
+PDF124,125,126: Original images checked. Electrostatic field work q*(phi_initial-phi_final)=W_initial-W_final=-DeltaW, path independent/static field and fixed endpoints. Source125 E*dx=phi2-phi1 and A=q(U2-U1) wording/sign convention conflicts source122; retain named INITIAL/FINAL and standard negative-gradient sign. Along-axis displacement SIGNED, q signed, cosPhi bounded[-1,1] only provided value, no general trig. Conservative field closed-loop work0 not nonconservative induction generalization.
+
+PDF126,127,128,129: Original all1/2 coefficients and cap qoneplate/Ubetweenplates checked. Constant linearC/quasistaticcharging fromzero: W=qU/2=CU²/2=q²/(2C), isolatedconductor phi referencedinfinity. Fieldenergy w=eps0*eps*E²/2 in homogeneous LINEAR ideal parallelplate model, edgeeffects ignored. Generaldielectric/nonlinear/fixedCallconditionsnotassumed. Source129exercise5 midpoint +.4uC/-.6uC at.06m gives -30000V not -30V;exercise10 q2uC/W.5uJ gives4uF not16uF; keys not copied. Source128W/m³ vs J/m³ correctly energy density J/m³. Capacitorleakage not instantallidealmodels; no physical charging task.
+
+PDF133,134,135,136,137: Original images/native checked. Conductance gamma=1/R in S vs material conductivity S/m. Ohm I=G*U only fixed-temperature ohmic element. Source134 copper8.4e23m^-3 is not accepted as verified general concentration (typical free-electron model order10^28), no claim copied. Classical ballistic t/2 drift derivation only textbook simplified model, not universal collision-time factor. Transport current I=n*e*S*vdrift with supplied conditional n/e, e positive modulus1.6e-19, conventional current opposite electron drift. Source136 graph verticalU horizontalI slope R, not conductance. Material conductivity depends conditions; no DIY mains or clinical-water-quality claims.
+
+---
+Quyida tarixiy §21–25 va oldingi qaydlar saqlandi.
+
 # Keyingi: 10-sinf §21–25 — 2026-10-26
 
 §16–20 yozildi; testlar joriy checkpointda. Keyingi **§21,PDF72/bosma71**.

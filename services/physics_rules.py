@@ -24,6 +24,50 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "mechanical_wavelength": rule(
+        "Lw",
+        ["v", "nu"],
+        ["v/nu", "v*nu^-1"],
+        "Periodic mechanical wave in a specified medium, positive phase speed/frequency, lambda SAME-phase spacing not amplitude;10PDF92–93.",
+    ),
+    "mechanical_wave_speed": rule(
+        "v",
+        ["Lw", "nu"],
+        ["Lw*nu", "nu*Lw"],
+        "Periodic mechanical wave in specified medium, positive wavelength/frequency;10PDF92–93.",
+    ),
+    "mechanical_wave_frequency": rule(
+        "nu",
+        ["v", "Lw"],
+        ["v/Lw", "v*Lw^-1"],
+        "Periodic mechanical wave in specified medium, positive phase speed/wavelength;10PDF93.",
+    ),
+    "taut_string_wave_speed": rule(
+        "v",
+        ["F", "l", "m"],
+        ["sqrt(F*l/m)", "(l*F/m)^0.5"],
+        "Uniform taut string, small transverse wave, tension F>0, linear density m/l, negligible bending stiffness;10PDF93. Not bulk-solid wave or arbitrary large motion.",
+        square_root=True,
+    ),
+    "closed_charge_total2": rule(
+        "qTotal",
+        ["q1", "q2"],
+        ["q1+q2", "q2+q1"],
+        "TWO charges, ALGEBRAIC signed sum in a closed system, not sum of magnitudes;10PDF115–116.",
+    ),
+    "electric_field_component_sum": rule(
+        "Ex",
+        ["Ex1", "Ex2"],
+        ["Ex1+Ex2", "Ex2+Ex1"],
+        "SIGNED components of electric field at SAME point on SAME oriented axis, superposition;10PDF117–118.",
+    ),
+    "orthogonal_electric_field_magnitude": rule(
+        "E",
+        ["Ex", "Ey"],
+        ["sqrt(Ex^2+Ey^2)", "(Ey^2+Ex^2)^0.5"],
+        "Two PERPENDICULAR signed Cartesian field components at same point, nonnegative resultant magnitude, not arbitrary angle;10PDF118eq7.7.",
+        square_root=True,
+    ),
     "torricelli_efflux": rule(
         "v",
         ["g", "h"],
@@ -2975,6 +3019,28 @@ def reviewed_calculation(question):
         if result != Fraction(981, 100):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
+
+    if name == "mechanical_wavelength":
+        return positive("v", "speed") / positive("nu", "frequency"), "length"
+    if name == "mechanical_wave_speed":
+        return positive("Lw", "length") * positive("nu", "frequency"), "speed"
+    if name == "mechanical_wave_frequency":
+        return positive("v", "speed") / positive("Lw", "length"), "frequency"
+    if name == "taut_string_wave_speed":
+        return square_root_quantity(
+            positive("F", "force") * positive("l", "length") / positive("m", "mass")
+        ), "speed"
+    if name == "closed_charge_total2":
+        return projection("q1", "charge") + projection("q2", "charge"), "charge"
+    if name == "electric_field_component_sum":
+        return projection("Ex1", "electric_field") + projection(
+            "Ex2", "electric_field"
+        ), "electric_field"
+    if name == "orthogonal_electric_field_magnitude":
+        return square_root_quantity(
+            projection("Ex", "electric_field") ** 2
+            + projection("Ey", "electric_field") ** 2
+        ), "electric_field"
 
     if name in {"torricelli_efflux", "torricelli_outlet_elevation"}:
         if positive("g", "acceleration") != 10:
