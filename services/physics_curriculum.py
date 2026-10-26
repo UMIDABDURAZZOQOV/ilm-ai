@@ -65,6 +65,7 @@ REVIEWED_BATCHES = {
     "grade9_batch2": (9, 6, 10),
     "grade9_batch3": (9, 11, 15),
     "grade9_batch4": (9, 16, 20),
+    "grade9_batch5": (9, 21, 25),
 }
 # Image-checked continuation missed by the old digital text boundary. Preserve
 # the frozen stage-one archive; permit only this explicitly documented page.
@@ -74,6 +75,14 @@ SOURCE_CONTINUATIONS = {
     ("physics-uz-grade-8", "physics-8-section-39"): {112},
     # Original166 upper27-mashq2–5 continues §60 before V chapter review.
     ("physics-uz-grade-8", "physics-8-section-60"): {166},
+    # Original74 upper lab steps2–7/analysis precede the chapter-review heading.
+    ("physics-uz-grade-9", "physics-9-section-25"): {74},
+}
+
+# Explicit prior-source dependencies, never an unrestricted citation escape.
+# Lab25 reuses the water-specific-heat table previously reviewed in §17.
+SOURCE_PREREQUISITES = {
+    ("grade9_batch5", "physics-9-section-17"): {56},
 }
 
 # Algebraic alternatives reviewed under the stated source domains. No guessing
@@ -285,7 +294,8 @@ def validate_batch(document):
     )
     lessons = document["lessons"]
     require(lessons, "empty_batch")
-    first, last = REVIEWED_BATCHES[batch_identity(document)][1:]
+    batch_name = batch_identity(document)
+    first, last = REVIEWED_BATCHES[batch_name][1:]
     require(
         [l["sequence"] for l in lessons] == list(range(first, last + 1)),
         "reviewed_batch_source_order",
@@ -298,10 +308,42 @@ def validate_batch(document):
             topic = next(
                 (r for r in book["records"] if r["id"] == ref["topic_id"]), None
             )
-            require(
-                topic is not None and first <= (topic.get("number") or 0) <= last,
-                "source_outside_reviewed_batch",
-            )
+            require(topic is not None, "source_outside_reviewed_batch")
+            if not first <= (topic.get("number") or 0) <= last:
+                allowed = SOURCE_PREREQUISITES.get((batch_name, topic["id"]), set())
+                require(
+                    allowed
+                    and ref.get("pdf_pages")
+                    and set(ref["pdf_pages"]) <= allowed
+                    and ref.get("prerequisite_note") == "previous_reviewed_foundation",
+                    "source_outside_reviewed_batch",
+                )
+                owner = next(
+                    (
+                        name
+                        for name, (grade, start, end) in REVIEWED_BATCHES.items()
+                        if grade == book["grade"]
+                        and start <= topic["number"] <= end < first
+                    ),
+                    None,
+                )
+                require(owner is not None, "source_prerequisite_not_previous")
+                digest = hashlib.sha256(
+                    (DIRECTORY / f"{owner}.json").read_bytes()
+                ).hexdigest()
+                evidence = json.loads((DIRECTORY / f"{owner}_review.json").read_text())
+                reviewed = {
+                    p["pdf_page"]
+                    for p in evidence["pages"]
+                    if p["original_text_and_image_checked"] is True
+                }
+                require(
+                    ref.get("prerequisite_batch") == owner
+                    and ref.get("prerequisite_batch_sha256") == digest
+                    and evidence["batch_file_sha256"] == digest
+                    and set(ref["pdf_pages"]) <= reviewed,
+                    "source_prerequisite_review_binding",
+                )
             require(
                 ref["book_id"] == book["id"]
                 and all(ref.get(k) == v for k, v in source_identity(book).items())

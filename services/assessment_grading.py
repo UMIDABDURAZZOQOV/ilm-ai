@@ -195,6 +195,9 @@ UNITS = {
     "J/(mol*K)": ("gas_constant", Fraction(1)),
     "J/(kg*K)": ("specific_heat", Fraction(1)),
     "kJ/(kg*K)": ("specific_heat", Fraction(1000)),
+    "J/kg": ("specific_energy", Fraction(1)),
+    "kJ/kg": ("specific_energy", Fraction(1000)),
+    "MJ/kg": ("specific_energy", Fraction(10**6)),
     # Grade8 PDF150/152: magnetic induction (not temperature).
     "T": ("magnetic_induction", Fraction(1)),
     "mT": ("magnetic_induction", Fraction(1, 1000)),

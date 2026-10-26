@@ -24,6 +24,114 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "fuel_energy": rule(
+        "Qfuel",
+        ["q", "m"],
+        ["q*m", "m*q"],
+        "COMPLETECOMBUSTION,q>0given/sourceapprox,QfuelRELEASEDMAGNITUDE>=0,notQ_TO_SYSTEM;9PDF65–66.",
+    ),
+    "fuel_mass": rule(
+        "m",
+        ["Qfuel", "q"],
+        ["Qfuel/q", "Qfuel*q^-1"],
+        "COMPLETECOMBUSTION,Qfuelreleasedmagnitude,q>0;9PDF66.",
+    ),
+    "fuel_specific_energy": rule(
+        "q",
+        ["Qfuel", "m"],
+        ["Qfuel/m", "Qfuel*m^-1"],
+        "COMPLETECOMBUSTION,Qfuel>0releasedmagnitude,m>0,qJ/kg;9PDF66.",
+    ),
+    "equal_fuel_mass": rule(
+        "m2",
+        ["m1", "q1", "q2"],
+        ["m1*q1/q2", "q1*m1/q2"],
+        "EQUALRELEASEDENERGYcompletecombustion,q1/q2given>0;9PDF66.",
+    ),
+    "fuel_useful_share": rule(
+        "Quse",
+        ["f", "q", "m"],
+        ["f*q*m", "q*m*f"],
+        "COMPLETECOMBUSTION,f0..1USEFULshare,restelsewhereenergyconserved;9PDF66.",
+    ),
+    "first_law_heat": rule(
+        "Q",
+        ["DU", "A"],
+        ["DU+A", "A+DU"],
+        "CLOSEDthermomodel,QSIGNEDTOsystem,DUSIGNED,AworkBYsystemSIGNED;9PDF67.",
+    ),
+    "first_law_delta": rule(
+        "DU",
+        ["Q", "A"],
+        ["Q-A", "Q+(-A)"],
+        "CLOSEDthermomodel,QSIGNEDTOsystem,AworkBYSIGNED,DU=U2-U1;9PDF67–68.",
+    ),
+    "first_law_work_by": rule(
+        "A",
+        ["Q", "DU"],
+        ["Q-DU", "Q+(-DU)"],
+        "CLOSEDthermomodel,AworkBYsystemSIGNED,QSIGNEDTOsystem;9PDF67–68.",
+    ),
+    "first_law_work_on": rule(
+        "Aon",
+        ["DU", "Q"],
+        ["DU-Q", "DU+(-Q)"],
+        "CLOSEDthermomodel,AonworkONsystemSIGNED=-A_BY,QSIGNEDTOsystem;9PDF68–69.",
+    ),
+    "adiabatic_work_by": rule(
+        "A",
+        ["DU"],
+        ["-DU", "0-DU"],
+        "ADIABATICclosedmodelQ0,AworkBYsystemSIGNED,DU=U2-U1;9PDF69.",
+    ),
+    "isochoric_heat_delta": rule(
+        "DU",
+        ["Q"],
+        ["Q", "1*Q"],
+        "ISOCHORICclosedmodelNOotherwork,Avolume0,QSIGNEDTOsystem;9PDF69.",
+    ),
+    "mono_isobaric_heat": rule(
+        "Q",
+        ["A"],
+        ["5*A/2", "A*5/2"],
+        "ONLYCLASSICALMONATOMICIDEALgas ISOBARICexpansion,A_BY>=0,Q_TO>0,40/60fractionNOTuniversal;9PDF70–71.",
+    ),
+    "mono_isochoric_heating_delta": rule(
+        "DT",
+        ["Q", "M", "m", "R"],
+        ["2*Q*M/(3*m*R)", "2*Q*M/3/m/R"],
+        "ONLYMONATOMICCLASSICALIDEALgas ISOCHORICHEATING,Q>0,DT>0,R8.31,Mmolar;9PDF71.",
+    ),
+    "mono_isochoric_heating_heat": rule(
+        "Q",
+        ["nu", "R", "DT"],
+        ["3*nu*R*DT/2", "nu*R*DT*3/2"],
+        "ONLYMONATOMICCLASSICALIDEALgas ISOCHORICHEATING,nu/DT>0,R8.31;9PDF71.",
+    ),
+    "mono_isochoric_heating_amount": rule(
+        "nu",
+        ["Q", "R", "DT"],
+        ["2*Q/(3*R*DT)", "2*Q/3/R/DT"],
+        "ONLYMONATOMICCLASSICALIDEALgas ISOCHORICHEATING,Q/DT>0,R8.31;9PDF71.",
+    ),
+    "hot_water_heat_magnitude": rule(
+        "Qhot",
+        ["c", "mh", "Th", "Tf"],
+        ["c*mh*(Th-Tf)", "mh*c*(Th-Tf)"],
+        "SINGLEPHASEwater,cconst>0,Th>TfKelvin,QhotRELEASEDPOSITIVEMAGNITUDE;9PDF74upper25,priorcPDF56.",
+    ),
+    "cold_water_heat_magnitude": rule(
+        "Qcold",
+        ["c", "mc", "Tf", "Tc"],
+        ["c*mc*(Tf-Tc)", "mc*c*(Tf-Tc)"],
+        "SINGLEPHASEwater,cconst>0,Tf>TcKelvin,QcoldRECEIVEDPOSITIVEMAGNITUDE;9PDF74upper25,priorcPDF56.",
+    ),
+    "heat_balance_residual": rule(
+        "dQ",
+        ["Qhot", "Qcold"],
+        ["Qhot-Qcold", "Qhot+(-Qcold)"],
+        "Qhot/coldnonnegativePROVIDEDdigitalmagnitudes,dQSIGNEDdifference,notclaimedphysicalmeasurement/energyviolation;9PDF74upper25.",
+    ),
     "isobaric_gas_work": rule(
         "A",
         ["p", "V2", "V1"],
@@ -1858,6 +1966,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "specific_energy": "J/kg",
     "specific_heat": "J/(kg*K)",
     "temperature": "K",
     "gas_constant": "J/(mol*K)",
@@ -2245,6 +2354,63 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "fuel_energy":
+        return positive("q", "specific_energy") * value("m", "mass"), "energy"
+    if name == "fuel_mass":
+        return value("Qfuel", "energy") / positive("q", "specific_energy"), "mass"
+    if name == "fuel_specific_energy":
+        return positive("Qfuel", "energy") / positive("m", "mass"), "specific_energy"
+    if name == "equal_fuel_mass":
+        return value("m1", "mass") * positive("q1", "specific_energy") / positive(
+            "q2", "specific_energy"
+        ), "mass"
+    if name == "fuel_useful_share":
+        f = value("f", "dimensionless")
+        if f > 1:
+            raise ValueError("useful_fraction_zero_to_one")
+        return f * positive("q", "specific_energy") * value("m", "mass"), "energy"
+    if name == "first_law_heat":
+        return projection("DU", "energy") + projection("A", "energy"), "energy"
+    if name == "first_law_delta":
+        return projection("Q", "energy") - projection("A", "energy"), "energy"
+    if name == "first_law_work_by":
+        return projection("Q", "energy") - projection("DU", "energy"), "energy"
+    if name == "first_law_work_on":
+        return projection("DU", "energy") - projection("Q", "energy"), "energy"
+    if name == "adiabatic_work_by":
+        return -projection("DU", "energy"), "energy"
+    if name == "isochoric_heat_delta":
+        return projection("Q", "energy"), "energy"
+    if name == "mono_isobaric_heat":
+        return 5 * value("A", "energy") / 2, "energy"
+    if name == "mono_isochoric_heating_delta":
+        return 2 * positive("Q", "energy") * positive("M", "molar_mass") / (
+            3 * positive("m", "mass") * gas_constant()
+        ), "temperature"
+    if name == "mono_isochoric_heating_heat":
+        return 3 * positive("nu", "amount") * gas_constant() * positive(
+            "DT", "temperature"
+        ) / 2, "energy"
+    if name == "mono_isochoric_heating_amount":
+        return 2 * positive("Q", "energy") / (
+            3 * gas_constant() * positive("DT", "temperature")
+        ), "amount"
+    if name == "hot_water_heat_magnitude":
+        hot, final = positive("Th", "temperature"), positive("Tf", "temperature")
+        if hot <= final:
+            raise ValueError("hot_water_must_cool")
+        return positive("c", "specific_heat") * positive("mh", "mass") * (
+            hot - final
+        ), "energy"
+    if name == "cold_water_heat_magnitude":
+        final, cold = positive("Tf", "temperature"), positive("Tc", "temperature")
+        if final <= cold:
+            raise ValueError("cold_water_must_warm")
+        return positive("c", "specific_heat") * positive("mc", "mass") * (
+            final - cold
+        ), "energy"
+    if name == "heat_balance_residual":
+        return value("Qhot", "energy") - value("Qcold", "energy"), "energy"
     if name == "isobaric_gas_work":
         return positive("p", "pressure") * (
             positive("V2", "volume") - positive("V1", "volume")
