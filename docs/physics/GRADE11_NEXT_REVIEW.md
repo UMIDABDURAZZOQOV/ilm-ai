@@ -1,3 +1,20 @@
+# Keyingi: 11-sinf §31 — 2026-10-26
+
+11§31–35 all20 original mapped pages (116–119,125–133,136–142) visually read and native hashes matched. No runtime batch7 content at this checkpoint. Next11§31PDF116/bosma115.
+
+PDF116,117,118,119: Equal NORMAL illuminance balance Iv1/r1²=Iv2/r2² gives Iv1=Iv2*r1²/r2². Source117 visually has invertedratio; corrected notcopied. Source E=1/r² omits sourceintensity, use Ev=Iv/r². Digitalcomparison only, no mains/voltageexperiment. Exercisepages includedmappedrange butnotallendofchapterquestions separatecoverageclaims.
+
+PDF125,126,127,128,129: Inertialvacuum c same, Lorentz tables/signs viewed. Proper intervalsameclock, lengthparallelmotion simultaneous endpoints; not allobserverdimension contraction. Velocity collinear SIGNED (u+v)/(1+uv/c²),frame |v|<c, object|u|<=c, noresultsuperluminal; use explicitc3e8 approximation. Rational-root original examples use.6c/.8c, notfloatingtruth.
+
+PDF129,130,131,132,133: Historical velocity-dependent mass m=gamma*m0 is energy/c² convention, invariant restmassm0 unchanged. Prefer E=gamma*m0*c²,K=E-m0c²,p=gamma*m0v. Source kinetic classical1/2mv² mustnotbeusedallrelativisticspeeds. Source.89c lifetime5x answer inconsistent (gamma~2.19), no copiedkey; water/coal/petrol equalrestenergiesatideal1kg not equalchemicalusableenergy.
+
+PDF136,137: Wien lambda_peak*T=b for wavelength spectraldensity/thermalblackbodymodel, notuniversal allsources orfrequencydensity peak converted. Source b2.898e-3mK,h6.626e-34Js givenapprox not modernexactSI. PlanckE=hnu, classicalfailure doesnotmeanallclassicalphysicsinvalid. Source claimSunnotthermal atall misleading; steady energyinput permitsradiationnotisolatedequilibrium; avoidclaim.
+
+PDF138,139,140,141,142: Single-photon photoelectric Kmax=hnu-A>=0,thresholdnu0=A/h,stopUpositiveMODULUS=K/e; belowthresholdnoemissionnotnegativeK. Frequencycontrolsmaxenergy; intensitychangesnumberabove thresholdundermodel. Internalvs external effectdistinct; photonrestmass0, historicalE/c²notinvariantmass. h6.626e-34/e1.6e-19 explicitbookapproximations. No actualvacuum/highvoltageexperiment.
+
+---
+Tarixiy qaydlar saqlandi.
+
 # Keyingi: 11-sinf §26 — 2026-10-26
 
 11§26–30 PDF97–116 original native hashes and all20 images re-read. Private original draft prepared; batch6 JSON/runtime not yet added at this checkpoint. Next §26PDF97/bosma96.

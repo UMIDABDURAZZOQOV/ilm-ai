@@ -24,6 +24,66 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "grating_small_angle_wavelength": rule(
+        "Lw",
+        ["d", "y", "n", "x"],
+        ["d*y/(n*x)", "y*d/x/n"],
+        "Normal incidence smallangle approximation, y/x<=0.1 explicit preview bound, dperiod,npositivewhole;11PDF97–98.",
+    ),
+    "optical_phase_index": rule(
+        "n",
+        ["c", "v"],
+        ["c/v", "c*v^-1"],
+        "Ordinary transparent medium at specified frequency; c=3e8 schoolapprox,0<v<=c;11PDF101.",
+    ),
+    "symmetric_biconvex_focal_length": rule(
+        "F",
+        ["R", "n"],
+        ["R/(2*(n-1))", "R/(n-1)/2"],
+        "Thin symmetric biconvex in AIR,R curvature modulus,n>1;11PDF104.",
+    ),
+    "malus_transmitted_intensity": rule(
+        "Iout",
+        ["Iin", "cosA"],
+        ["Iin*cosA^2", "cosA^2*Iin"],
+        "LINEAR polarized light immediately before ideal ANALYZER, cosA[-1,1];11PDF106.",
+    ),
+    "malus_transmission_ratio": rule(
+        "ratio",
+        ["cosA"],
+        ["cosA^2", "cosA*cosA"],
+        "Ideal analyzer ratio,nonzero linear incidentintensity; cosA[-1,1];11PDF106.",
+    ),
+    "sphere_patch_solid_angle": rule(
+        "Omega",
+        ["S0", "R"],
+        ["S0/R^2", "S0*R^-2"],
+        "S0 spherical surfacepatch NOTflat projection,R>0; schoolsmallpatch Omega<=4sr previewonly;11PDF112.",
+    ),
+    "uniform_luminous_intensity": rule(
+        "Iv",
+        ["Phi", "Omega"],
+        ["Phi/Omega", "Phi*Omega^-1"],
+        "Luminousfluxlm uniform over specifiedsolidanglesr,notradiantW;smallpatch<=4sr;11PDF113.",
+    ),
+    "uniform_luminous_flux": rule(
+        "Phi",
+        ["Iv", "Omega"],
+        ["Iv*Omega", "Omega*Iv"],
+        "Luminousintensitycd uniform within specifiedangularpatch<=4sr,notarbitraryisotropic4pi;11PDF113.",
+    ),
+    "uniform_illuminance_flux": rule(
+        "Ev",
+        ["Phi", "S"],
+        ["Phi/S", "Phi*S^-1"],
+        "RECEIVED luminousfluxlm uniformly overpositivesurfacearea,notwholebulbelectricW;11PDF114.",
+    ),
+    "point_oblique_illuminance": rule(
+        "Ev",
+        ["Iv", "cosA", "r"],
+        ["Iv*cosA/r^2", "cosA*Iv*r^-2"],
+        "Pointsource/noabsorption/farfield,cosA againstsurfacenormal0..1;11PDF115.",
+    ),
     "em_wave_wavelength": rule(
         "Lw",
         ["v", "nu"],
@@ -3608,6 +3668,10 @@ REVIEWED_FORMULAS = {
 }
 DIMENSION_UNIT = {
     "irradiance": "W/m2",
+    "solid_angle": "sr",
+    "luminous_flux": "lm",
+    "luminous_intensity": "cd",
+    "illuminance": "lx",
     "inductance": "H",
     "magnetic_flux": "Wb",
     "permeability": "N/A2",
@@ -3696,6 +3760,59 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name == "grating_small_angle_wavelength":
+        n = positive("n", "dimensionless")
+        x = positive("x", "length")
+        y = value("y", "length")
+        if n.denominator != 1 or givens["n"]["unit"] != "1" or y / x > Fraction(1, 10):
+            raise ValueError("smallangle_and_whole_order_scope")
+        return positive("d", "length") * y / (n * x), "length"
+    if name == "optical_phase_index":
+        c = positive("c", "speed")
+        v = positive("v", "speed")
+        if c != 300_000_000 or v > c:
+            raise ValueError("ordinary_transparent_phase_scope")
+        return c / v, "dimensionless"
+    if name == "symmetric_biconvex_focal_length":
+        n = positive("n", "dimensionless")
+        if n <= 1:
+            raise ValueError("air_biconvex_index_above_one")
+        return positive("R", "length") / (2 * (n - 1)), "length"
+    if name in {"malus_transmitted_intensity", "malus_transmission_ratio"}:
+        c = projection("cosA", "dimensionless")
+        if abs(c) > 1:
+            raise ValueError("cosine_range")
+        return (
+            (value("Iin", "irradiance") * c * c, "irradiance")
+            if name == "malus_transmitted_intensity"
+            else (c * c, "dimensionless")
+        )
+    if name in {
+        "sphere_patch_solid_angle",
+        "uniform_luminous_intensity",
+        "uniform_luminous_flux",
+    }:
+        omega = (
+            value("S0", "area") / positive("R", "length") ** 2
+            if name == "sphere_patch_solid_angle"
+            else positive("Omega", "solid_angle")
+        )
+        if omega > 4:
+            raise ValueError("explicit_small_angular_patch_preview_scope")
+        if name == "sphere_patch_solid_angle":
+            return omega, "solid_angle"
+        if name == "uniform_luminous_intensity":
+            return value("Phi", "luminous_flux") / omega, "luminous_intensity"
+        return value("Iv", "luminous_intensity") * omega, "luminous_flux"
+    if name == "uniform_illuminance_flux":
+        return value("Phi", "luminous_flux") / positive("S", "area"), "illuminance"
+    if name == "point_oblique_illuminance":
+        c = value("cosA", "dimensionless")
+        if c > 1:
+            raise ValueError("front_surface_normal_cosine_range")
+        return value("Iv", "luminous_intensity") * c / positive(
+            "r", "length"
+        ) ** 2, "illuminance"
     if name in {
         "em_wave_wavelength",
         "em_wave_frequency",

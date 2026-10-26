@@ -795,3 +795,26 @@ PDF92,93,94,95,96: Original coherence/pathconditions/Newtonrings/grating images 
 Actual local PostgreSQL16: 296 dars import/reimport, 2960XP/replay, legacy137XP/3streak/2stars saqlandi. 11-sinfning76publicFRQdrafti320px/200%widgetrun bilan tekshirildi. Ruff va gitdiffcheck passed. Ikki o‘zgarmagan sandbox testi outside-Git tempdir escalation approval-review usage limit sabab ajratilgan; guard chetlab o‘tilmadi yoki yumshatilmadi, joriyda o‘tdi deyilmaydi. Oxirgi to‘liq backend1913 va fullFlutter154 §1–5checkpoint natijalari alohida; bu partiya Physics/Biology + FlutterPhysics tanlovini bajardi. NativeAndroid/liveTCP/newwebbuild/independentexpert/productionnotrun. EskiPhysics/BiologyimmutableJSON/website/Chemistry saqlandi.
 
 11§26–30 PDF97–116 original native hashes and all20 images re-read. Private original draft prepared; batch6 JSON/runtime not yet added at this checkpoint. Next §26PDF97/bosma96.
+
+
+## 11-sinf §26–30 — 2026-10-26
+
+**2026-10-26 — Fizika 11-sinf §26–30: 301/316 bo‘lim, 15 qolgan.** 6-sinf 61/61; 7-sinf 46/46; 8-sinf 60/60; 9-sinf 59/59; 10-sinf 45/45; 11-sinf 30/45. Jami 1340 karta, 741 formula yozuvi, 321 namuna, 2188 topshiriq, 808 FRQ. 862 asl sahifa tekshiruvi/830 noyob. Physics/Biology 2030 passed/2 PG opt-in skipped/2 sandbox deselected (373.43s); actual PG 1 passed (120.56s). Flutter Physics 28 passed (96s), analyze No issues found (2.2s); yangi 34 test (2.94s). Keyingi **11§31, PDF116/bosma115**. Local test preview; Biology406/veb/Kimyo/production saqlandi, native Android/ekspert/release bajarilmagan.
+
+Yangi: 24 karta/10 formula/5 namuna/37 topshiriq/11 FRQ. §26 PDF97–98; §27 PDF99–104; §28 PDF104–107; §29 PDF108–111; §30 PDF111–116. Butun manba kitobida PDF=bosma+1; original tasvirlar/native hashlar qayta tekshirildi.
+
+PDF97,98: Original diagram x axial/y transverse and approximate sin≈tan were visually checked. Smallangle Lw≈d*y/(n*x), explicit authored y/x<=0.1 limit, not exact/general. Original digital rows600/620nm ->mean610nm, deviations10nm. Source table delta recursive typo corrected to |Lw_i-mean|; mean deviation not complete instrument uncertainty. Physical measurement false; no eye/laser experiment.
+
+PDF99,100,101,102,103,104: Dispersion n depends on frequency/vacuum wavelength, interface frequency same; ordinary normal dispersion not allmedia redalwaysfaster. White spectrum not exactly7discretefrequencies; reversed prism not universally converging lens. Atomic line spectra can have multiplelines despite source singularline phrase. RGB finite gamut, no allcolors universal claim. Symmetric thin biconvex air F=R/[2(n-1)] and original0.6/0.5m values independently checked; no copied long text.
+
+PDF104,105,106,107: Original Malus I=I0cos²alpha checked in image: I0 is LINEAR incident at analyzer, not natural light beforefirstpolarizer. cos input[-1,1], intensity>=0, no negativeintensity. Ideal parallel/crossed limit, no artificial unpolarized factor1/2 assignment beyondthissource.
+
+PDF108,109,110,111: IR/UV/Xrays conceptual activity only. Avoid dubious mosquito IR-seeing, IR sterilization and absolute historicalpriority claims. UV category gaps and overlapping Xray frequency numbers not tested as exactsingleuniversalbound. Thermal/nuclear/ionizing safety no real device/therapy. Book medical/sterilization examples not DIYinstructions.
+
+PDF112,113,114,115,116: Radiometric W/m² distinct photometric lm/cd/lx. Omega sphericalPATCHarea/R², not planararea. Iv=Phi/Omega uniform withinangularpatch, Phi=4piIv onlyisotropic; Phi/S RECEIVEDuniformflux; Ev=IvcosNormal/r² point/noabsorb. Source55nm visually confirmed typo, avoid copying asSI:555nm near photopicpeak, oldplatinumcandela definition historical notcurrent. Luminance directional projectedarea, sourceI/S onlynormalcase, notunqualified universal. No generatedfalsemeasurement.
+
+10 closed source-scoped formula families: small-angle grating, phase index, symmetric biconvex focus, Malus, spherical patch and uniform photometry. New sr/lm/cd/lx units distinct from radiometric units. Photometry small angular-patch preview family restricts Omega<=4sr explicitly; full-sphere4pi relation explained, no general equivalence claim. 34 independent source/domain/answer tests passed.
+
+Actual local PostgreSQL16: 301 dars import/reimport, 3010XP/replay, legacy137XP/3streak/2stars saqlandi. 11-sinfning87publicFRQdrafti320px/200%widgetrun bilan tekshirildi. Ruff va gitdiffcheck passed. Ikki o‘zgarmagan sandbox testi outside-Git tempdir escalation approval-review usage limit sabab ajratilgan; guard chetlab o‘tilmadi yoki yumshatilmadi, joriyda o‘tdi deyilmaydi. Oxirgi to‘liq backend1913 va fullFlutter154 §1–5checkpoint natijalari alohida; bu partiya Physics/Biology + FlutterPhysics tanlovini bajardi. NativeAndroid/liveTCP/newwebbuild/independentexpert/productionnotrun. EskiPhysics/BiologyimmutableJSON/website/Chemistry saqlandi.
+
+11§31–35 all20 original mapped pages (116–119,125–133,136–142) visually read and native hashes matched. No runtime batch7 content at this checkpoint. Next11§31PDF116/bosma115.
