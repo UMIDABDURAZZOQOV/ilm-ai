@@ -1,6 +1,6 @@
 # Fizika: formula, FRQ va bosqichma-bosqich implementatsiya loyihasi
 
-> **Amaldagi holat — 2026-10-26:** foydalanuvchi 2-bosqichga ruxsat bergan; 6–8 to‘liq,9§1–10 bilan177/316lokal dars. Assessmentv2, server grading, replay-safe XP va Flutter preview amalda. Private exact-rational va [exact-root yaxlitlash](FRQ_NUMERIC_ROOTS.md) qo‘shilgan;fullbackend1092/PG1/Flutter149/analyze toza. Keyingi9§11PDF35. Quyidagi «hali boshlanmaydi/tasdiq kutiladi» matni **1-bosqich tarixiy rejasi**, joriy topshiriqni bloklamaydi. Production/nashr/ekspert/nativeAndroid alohida qoladi.
+> **Amaldagi holat — 2026-10-26:** 6–9-sinf to‘liq: 226/316 lokal/test dars. 90 bo‘lim qolgan (10/11-sinflar). Assessment v2, server grading, replay-safe XP va Flutter preview amalda. To‘liq backend1408/PG2/Flutter150/analyze toza. Keyingi10§1PDF4/bosma3. Eng yangi holat [STAGE2_PROGRESS.md](STAGE2_PROGRESS.md)da. Quyidagi 1-bosqich tasdiq kutish matni tarixiy; joriy ruxsatni cheklamaydi. Production/nashr/ekspert/nativeAndroid alohida qoladi.
 
 **Eng yangi ruxsat — 2026-10-22:** foydalanuvchi barcha 316 bo‘lim bo‘yicha
 oraliq tasdiqsiz davom etishni buyurdi. Runtime va mualliflikning joriy, haqiqiy

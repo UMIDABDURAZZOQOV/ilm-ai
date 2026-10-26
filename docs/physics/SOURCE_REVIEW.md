@@ -412,3 +412,35 @@ diagnostik chegara emas. Katta yoshdagi barcha o‘qish qiyinchiligini bir holat
 tenglash yo‘q;tasvirlangan sxema shaxsga tashxis/ko‘zoynak retsepti emas.
 Mustaqil oftalmologik/pedagogik review bajarildi deyilmaydi. Biology406,oldingi
 curriculum/progress,Flutterbrand,website,Chemistry,production,AIExplain saqlandi.
+
+## 9-sinf §56–59 — yakuniy manba ko‘rigi (2026-10-26)
+
+156–159va164–167 asl8sahifa/OCR ko‘rildi.160yuqoridagi57savollari ham kuzatildi,
+lekin ulardan yangi manba da’vosi olinmadi;160–163bob review’i yangi raqamlangan
+bo‘lim emas.59/59raqamlangan bo‘limlar tartibi,6laboratoriya va2amaliy faoliyat
+saqlanadi.57–59ga sun’iy formula yoki nominal FRQqo‘shilmadi.
+
+56kameraH=h*(d-F)/Fva d=F*(1+H/h)haqiqiy tasvir,positive balandlik modullari
+doirasida. Source1561.76mhisob tekshirildi;yangi masalalar boshqa izchil sonlar.
+Mikroskop hali kitobning soddalashtirilgan modeli.157yaqindan o‘qish masofasining
+o‘zi insonning klinik ko‘zoynak retseptini aniqlamaydi. Yangi sonli misol shaxsga
+bog‘lanmagan ikki conjugatli abstrakt yupqa linza: d=.25m,f=-.2m→D=-1dptr.
+
+158«yillik energiya300–1340W/m2»yozuvi birlik jihatidan quvvat/yuzadir,
+yillik energiya emas. Bu raqamlar universal doimiy yoki yangi yillik energiya
+ma’lumotiga aylantirilmadi.159Parkent1987/1MWtavsifi kitob tarixi,bugungi
+unumdorlik yoki dunyoda faqat ikki qurilma bor degan joriy tasdiq emas.
+Geliotexnika energiya aylanishi/quritish/isitish/materiallar bilan o‘rganiladi;
+nol barcha ekologik ta’sir,universal barcha telefon quyoshli yoki shifo
+ko‘rsatmasi berilmaydi. Quyosh fokusida kuydirish topshirig‘i yo‘q.
+
+164–165mexanik/elektromagnit/kvant manzara tarixiy doira va model chegaralari
+bilan bayon qilinadi. Absolyut vaqt/bir onda ta’sir hozirgi universal fizik qonun
+emas. Galiley birinchi inson tajribasi egasi yoki tabiatda faqat ikki fundamental
+ta’sir bor degan da’vo yo‘q. Kitobdan tashqari kvant formulasi talab qilinmadi.
+166printingXIXasrda ilk paydo bo‘lgan degan umumlashtirish ko‘chirilmadi.
+167dagi32/37eski cross-refshu nashrdagi mavzularga mos kelmaydi,yadro mazmuni
+taxminan yaratilmaydi. Institutlar kitobning tarixiy qaydi sifatida,asboblar
+vazifasi esa optika/yarimo‘tkazgich tadqiqotlari bilan bog‘lanadi. Distraktorlar
+shu fizik fan/asbob tushunchalaridan tuzildi,mahsulotning ichki texnik so‘zlari
+kontentga kiritilmadi. Expert/nativeAndroid/prodrelease bajarildi deyilmaydi.

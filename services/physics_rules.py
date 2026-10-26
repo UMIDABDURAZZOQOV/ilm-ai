@@ -24,6 +24,18 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "photographed_object_height": rule(
+        "H",
+        ["d", "F", "h"],
+        ["h*(d-F)/F", "(d-F)*h/F"],
+        "REALcameraimage,thinconvergingF>0,d>F,himageheightPOSITIVE,Hobjectheight,noactualphotogrammetryclaim;9PDF156.",
+    ),
+    "camera_object_distance_heights": rule(
+        "d",
+        ["F", "H", "h"],
+        ["F*(1+H/h)", "F+F*H/h"],
+        "REALcameraimage,thinconvergingF>0,H/hPOSITIVEheightmagnitudes,d>F;9PDF157M29.",
+    ),
     "thin_lens_signed_image": rule(
         "f",
         ["F", "d"],
@@ -2877,6 +2889,15 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "photographed_object_height":
+        d, focal = positive("d", "length"), positive("F", "length")
+        if d <= focal:
+            raise ValueError("camera_real_image_requires_d_above_focal")
+        return positive("h", "length") * (d - focal) / focal, "length"
+    if name == "camera_object_distance_heights":
+        return positive("F", "length") * (
+            1 + positive("H", "length") / positive("h", "length")
+        ), "length"
     if name == "thin_lens_signed_image":
         focal, d = projection("F", "length"), positive("d", "length")
         if not focal or d == focal:
