@@ -24,6 +24,114 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "humidity_pressure_from_fraction": rule(
+        "p",
+        ["phi", "pSat"],
+        ["phi*pSat", "pSat*phi"],
+        "SAMEtemperaturewaterpartialpressure,0<=phi<=1,pSat>0;9PDF125inverse.",
+    ),
+    "humidity_mass_volume_fraction": rule(
+        "phi",
+        ["m", "V", "rhoSat"],
+        ["m/(V*rhoSat)", "m/V/rhoSat"],
+        "WATERVAPORmass/humidairvolume/SAMEtemperature saturationdensity,0<=rho<=rhoSat;9PDF126upper43.",
+    ),
+    "humidity_density_ratio": rule(
+        "phi",
+        ["rho", "rhoSat"],
+        ["rho/rhoSat", "rho*rhoSat^-1"],
+        "SAMEtemperaturewater-vapordensity/saturationdensity,0<=rho<=rhoSat,phiFRACTIONor%unit,notpressureassamedensity;9PDF120.",
+    ),
+    "humidity_pressure_ratio": rule(
+        "phi",
+        ["p", "pSat"],
+        ["p/pSat", "p*pSat^-1"],
+        "SAMEtemperaturewatervaporPARTIALpressure,NOTtotalatmospheric,0<=p<=pSat;9PDF120.",
+    ),
+    "humidity_density_from_fraction": rule(
+        "rho",
+        ["phi", "rhoSat"],
+        ["phi*rhoSat", "rhoSat*phi"],
+        "SAMEtemperaturedensity,0<=phi<=1providedunitfraction/%,rhoSat>0;9PDF120/124–125.",
+    ),
+    "psychrometer_temperature_difference": rule(
+        "DT",
+        ["td", "tw"],
+        ["td-tw", "td+(-tw)"],
+        "ProvidedDRYandWETreadingsSAMECelsius scale,td>=tw,DTKdifference noaffineabsolutetemperatureconversion;9PDF124.",
+    ),
+    "vapor_ideal_density": rule(
+        "rho",
+        ["M", "p", "R", "T"],
+        ["M*p/(R*T)", "p*M/R/T"],
+        "IDEALwatervaporapprox,PARTIALp>0,KelvinT,providedMkg/mol/R8.31;source12517C2kPasupersaturationnotcopiedasstableunsaturatedair.",
+    ),
+    "vacuum_light_time": rule(
+        "t",
+        ["D", "c"],
+        ["D/c", "D*c^-1"],
+        "ONEWAYpathDvacuum,providedc3e8SCHOOLapproxnot299792458definitioninterchange;9PDF131/133.",
+    ),
+    "vacuum_light_distance": rule(
+        "D",
+        ["c", "t"],
+        ["c*t", "t*c"],
+        "ONEWAYpathvacuum,providedconstantc,notroundtripdistanceunlessstated;9PDF131/133.",
+    ),
+    "light_roundtrip_time": rule(
+        "t",
+        ["l", "c"],
+        ["2*l/c", "l*2/c"],
+        "REFLECTEDpathoutandbackequallegsl,roundtrip2l,providedc;9PDF132.",
+    ),
+    "fizeau_first_dark_speed": rule(
+        "c",
+        ["N", "l", "f"],
+        ["4*N*l*f", "4*l*f*N"],
+        "IDEALequaltoothandgapFizeauFIRSTDARKcondition,frotationalHz,NpositiveINTEGERteeth,lONEWAY;9PDF132.",
+    ),
+    "fizeau_first_dark_frequency": rule(
+        "f",
+        ["c", "N", "l"],
+        ["c/(4*N*l)", "c/4/N/l"],
+        "IDEALequaltoothandgapFizeauFIRSTDARK,fROTATIONHz,NpositiveINTEGER,lONEWAY;9PDF132–133.",
+    ),
+    "reflection_angle_degrees": rule(
+        "gamma",
+        ["alpha"],
+        ["alpha", "1*alpha"],
+        "Geometricflatmirror,anglesFROMNORMALdeg0<=alpha<=90,notfromsurface;9PDF135.",
+    ),
+    "normal_angle_from_surface": rule(
+        "alpha",
+        ["b"],
+        ["90-b", "90+(-b)"],
+        "Anglebsurface0..90DEGREES,normalperpendicular,alpha90-b;9PDF135figure66.",
+    ),
+    "absolute_refractive_index": rule(
+        "n",
+        ["c", "v"],
+        ["c/v", "c*v^-1"],
+        "ORDINARYtransparentmediummodel,providedvacuumc>=phasev>0,wavelengthconditionsfixed;9PDF136.",
+    ),
+    "medium_light_speed": rule(
+        "v",
+        ["c", "n"],
+        ["c/n", "c*n^-1"],
+        "ORDINARYtransparentmedium,providedn>=1,cconstantapproxstated;9PDF136.",
+    ),
+    "relative_index_sines": rule(
+        "n21",
+        ["sina", "sinb"],
+        ["sina/sinb", "sina*sinb^-1"],
+        "PROVIDEDsines0<sina<=1and0<sinb<=1,ratioPOSITIVEcanexceed1,NOTangles/doubleratio,non-normaltransmittedray;9PDF136.",
+    ),
+    "refraction_sine_output": rule(
+        "sinb",
+        ["n1", "n2", "sina"],
+        ["n1*sina/n2", "sina*n1/n2"],
+        "ORDINARYmedian1/n2>=1,providedsinincident0..1,transmittedonlyifcomputed<=1,notTIRsine>1;9PDF137.",
+    ),
     "bar_extension": rule(
         "DL",
         ["l", "l0"],
@@ -2236,6 +2344,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "angle_degrees": "°",
     "specific_energy": "J/kg",
     "specific_heat": "J/(kg*K)",
     "temperature": "K",
@@ -2624,6 +2733,95 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "humidity_pressure_from_fraction":
+        phi = value("phi", "dimensionless")
+        if phi > 1:
+            raise ValueError("humidity_fraction_zero_to_one")
+        return phi * positive("pSat", "pressure"), "pressure"
+    if name == "humidity_mass_volume_fraction":
+        fraction = value("m", "mass") / (
+            positive("V", "volume") * positive("rhoSat", "density")
+        )
+        if fraction > 1:
+            raise ValueError("supersaturation_outside_school_humidity_model")
+        return fraction, "dimensionless"
+    if name in {"humidity_density_ratio", "humidity_pressure_ratio"}:
+        density = name == "humidity_density_ratio"
+        actual = value("rho" if density else "p", "density" if density else "pressure")
+        saturated = positive(
+            "rhoSat" if density else "pSat", "density" if density else "pressure"
+        )
+        if actual > saturated:
+            raise ValueError("supersaturation_outside_school_humidity_model")
+        return actual / saturated, "dimensionless"
+    if name == "humidity_density_from_fraction":
+        phi = value("phi", "dimensionless")
+        if phi > 1:
+            raise ValueError("humidity_fraction_zero_to_one")
+        return phi * positive("rhoSat", "density"), "density"
+    if name == "psychrometer_temperature_difference":
+        dry, wet = (
+            projection("td", "celsius_reading"),
+            projection("tw", "celsius_reading"),
+        )
+        if dry < wet:
+            raise ValueError("wet_reading_must_not_exceed_dry_model")
+        return dry - wet, "temperature"
+    if name == "vapor_ideal_density":
+        return positive("M", "molar_mass") * positive("p", "pressure") / (
+            gas_constant() * positive("T", "temperature")
+        ), "density"
+    if name == "vacuum_light_time":
+        return value("D", "length") / positive("c", "speed"), "time"
+    if name == "vacuum_light_distance":
+        return positive("c", "speed") * value("t", "time"), "length"
+    if name == "light_roundtrip_time":
+        return 2 * positive("l", "length") / positive("c", "speed"), "time"
+    if name in {"fizeau_first_dark_speed", "fizeau_first_dark_frequency"}:
+        n = positive("N", "dimensionless")
+        if n.denominator != 1:
+            raise ValueError("whole_teeth_count_required")
+        length = positive("l", "length")
+        if name == "fizeau_first_dark_speed":
+            return 4 * n * length * positive("f", "frequency"), "speed"
+        return positive("c", "speed") / (4 * n * length), "frequency"
+    if name in {"reflection_angle_degrees", "normal_angle_from_surface"}:
+        angle = value(
+            "alpha" if name == "reflection_angle_degrees" else "b", "angle_degrees"
+        )
+        if angle > 90:
+            raise ValueError("incidence_angle_zero_to_90_degrees")
+        return (
+            angle if name == "reflection_angle_degrees" else 90 - angle,
+            "angle_degrees",
+        )
+    if name == "absolute_refractive_index":
+        vacuum, medium = positive("c", "speed"), positive("v", "speed")
+        if medium > vacuum:
+            raise ValueError("ordinary_index_at_least_one")
+        return vacuum / medium, "dimensionless"
+    if name == "medium_light_speed":
+        n = positive("n", "dimensionless")
+        if n < 1:
+            raise ValueError("ordinary_index_at_least_one")
+        return positive("c", "speed") / n, "speed"
+    if name == "relative_index_sines":
+        incident, refracted = (
+            positive("sina", "dimensionless"),
+            positive("sinb", "dimensionless"),
+        )
+        if max(incident, refracted) > 1:
+            raise ValueError("sine_must_not_exceed_one")
+        return incident / refracted, "dimensionless"
+    if name == "refraction_sine_output":
+        n1, n2 = positive("n1", "dimensionless"), positive("n2", "dimensionless")
+        incident = value("sina", "dimensionless")
+        if min(n1, n2) < 1 or incident > 1:
+            raise ValueError("ordinary_index_or_sine_domain")
+        result = n1 * incident / n2
+        if result > 1:
+            raise ValueError("no_transmitted_ray_for_these_givens")
+        return result, "dimensionless"
     if name == "bar_extension":
         final, initial = positive("l", "length"), positive("l0", "length")
         if final < initial:

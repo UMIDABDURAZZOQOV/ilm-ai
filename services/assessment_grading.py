@@ -93,6 +93,10 @@ UNITS = {
     "L": ("volume", Fraction(1, 1000)),
     "mL": ("volume", Fraction(1, 10**6)),
     "kg/m3": ("density", Fraction(1)),
+    "g/m3": ("density", Fraction(1,1000)),
+    # Degrees are separate from radian magnitudes; no inexact pi conversion.
+    "°": ("angle_degrees", Fraction(1)),
+    "deg": ("angle_degrees", Fraction(1)),
     "g/cm3": ("density", Fraction(1000)),
     "m/s": ("speed", Fraction(1)),
     "mm/s": ("speed", Fraction(1, 1000)),

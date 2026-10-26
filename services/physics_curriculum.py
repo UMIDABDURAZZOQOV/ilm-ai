@@ -69,6 +69,7 @@ REVIEWED_BATCHES = {
     "grade9_batch6": (9, 26, 30),
     "grade9_batch7": (9, 31, 35),
     "grade9_batch8": (9, 36, 40),
+    "grade9_batch9": (9, 41, 45),
 }
 # Image-checked continuation missed by the old digital text boundary. Preserve
 # the frozen stage-one archive; permit only this explicitly documented page.
@@ -80,6 +81,8 @@ SOURCE_CONTINUATIONS = {
     ("physics-uz-grade-8", "physics-8-section-60"): {166},
     # Original74 upper lab steps2–7/analysis precede the chapter-review heading.
     ("physics-uz-grade-9", "physics-9-section-25"): {74},
+    # Original126 upper23-mashq precedes IV chapter-review heading.
+    ("physics-uz-grade-9", "physics-9-section-43"): {126},
 }
 
 # Explicit prior-source dependencies, never an unrestricted citation escape.

@@ -302,3 +302,40 @@ Eski dars JSONlari qayta yozilmadi. Birinchi yangi sinovda testning sign_error
 kutishi noto‘g‘ri edi;API fixtureda eski savol FK importi ham yetishmasdi.
 Ular testlarda tuzatildi,guard yoki FK pasaytirilmadi. Yakuniy natija progress
 hujjatida qayd etiladi. Biology406/website/Chemistry/production/AIExplain saqlandi.
+
+## 9-sinf §41–45 — namlik va yorug‘lik (2026-10-26)
+
+PDF/bosma119–126 va131–138 asl tasvirlari/OCR ko‘rildi. Absolyut namlik
+rho=m/V aynan suv bug‘ining massasi/havo hajmi,kg/m3 yoki g/m3. Pa bilan
+bosim boshqa fizik kattalik. phi=rho/rhoSat yoki p/pSat **bir xil Tda**,p bug‘ning
+parsial bosimi,umumiy atmosfera bosimi emas.100%namlikda molekulyar almashinuv
+to‘xtamaydi.122-sahifadagi12.5g/m3/15°Cchizma120jadval12.8g/m3qiymatiga
+yaqinlashtirilgan,aniq shudring nuqtasi oracle’i sifatida olinmadi.
+
+Raqamli42-laboratoriyada121-jadvalning asl kataklari24°C/DT5→62%,20°C/DT4→66%,
+28°C/DT7→53% tekshirildi.28°C/DT10katagidagi29shubhali,ishlatilmadi va taxminan
+«tuzatilmadi».124-lab120/121ni aniq havola qiladi;shu batch ichidagi foundation
+refs.43ning23-mashqlari126yuqorisida IVbob review’idan oldin davom etadi:
+frozenend125saqlandi,faqat(topic43,page126)+extent_note whitelist qo‘shildi.
+125dagi17°C/p2kPa misoli120jadvaldagi to‘yingan1.93kPa dan katta;barqaror
+to‘yinmagan havo deb ko‘chirilmadi. Yangi ideal bug‘ misoliT300K/p1.662kPa/
+M18g/mol/R8.31→rho.012kg/m3.125dagi8°CpSat1.06va120dagi1.07farqi yashirilmaydi;
+berilgan qiymat bir hisobda izchil ishlatiladi. Real termometr yig‘ish/o‘lchov yo‘q.
+
+Ryomerning284millionkm/22min natijasi~215151515m/s,215million esa yaxlitlangan.
+132FizoN720,l8.6km,f12.67→313809408m/s,manbadagi313300000bilan aynan teng emas.
+Yangi sonlar original va mustaqil hisoblangan. c=4*N*l*f faqat teng tish/tirqishli
+ideal birinchi qorong‘ilanish sharti;Nbutun,faylanishHz,lbir tomon masofa.
+Qaytish yo‘li2*l. Aniq c299792458m/s va maktab3e8yaqinlashuvi ajratildi.
+Tez aylanuvchi g‘ildirak/kuchli nur qurilmasi topshirig‘i yo‘q.
+
+Qaytish burchaklari normaldan,alpha=gamma; sirt bilan burchakb bo‘lsa90-b.
+Yangi°/deg yopiq birligi radian bilan inexact pi orqali yashirin aylantirilmaydi;
+eski rad ma’nosi saqlandi. Bu yerda mustaqil `angle_degrees` dimension bor.
+n=c/v absolyut,n21=n2/n1=v1/v2=sin(alpha)/sin(beta)nisbiy. Sines FRQlarida
+sina/sinb **berilgan sinus sonlari**,gradus burchagi emas;arbitrary trig/CAS
+parser qo‘shilmadi. Normal tushishda0/0bilan n topilmaydi. Olingan sinus>1bo‘lsa
+shu berilganlar uchun singan nur sifatida rad qilinadi. Muhitlar oddiy shaffof
+maktab modeli bilan chegaralangan;manba n/vjadvali yaxlitlangan. Bir jinsli
+geometrik nur modeli va parallel plastinka sharti boshqa holatlarga shartsiz
+umumlashtirilmadi. Mustaqil ekspert/Android/ommaviy release tasdiqlanmagan.
