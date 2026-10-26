@@ -21063,7 +21063,54 @@
             "record_id": "ch11-paragraph27",
             "printed_page": 121,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p26-equilibrium-fixedtemperature-pressure-heat-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                118,
+                119,
+                120,
+                121
+              ],
+              "pdf_pages": [
+                118,
+                119,
+                120,
+                121
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p26-equilibrium-fixedtemperature-pressure-heat-scope-review-page118",
+                  "printed_page": 118,
+                  "reason": "Gascoefficients only for stated phases/fixedT volumechange; no universalpressureabsolute."
+                },
+                {
+                  "id": "ch11-p26-equilibrium-fixedtemperature-pressure-heat-scope-review-page119",
+                  "printed_page": 119,
+                  "reason": "NO2temperatureallgone/colouraloneproof and unbalancedSO2 withheld."
+                },
+                {
+                  "id": "ch11-p26-equilibrium-fixedtemperature-pressure-heat-scope-review-page120",
+                  "printed_page": 120,
+                  "reason": "MalformedNOCl/PCl5phase/ambiguous thermal keys withheld."
+                },
+                {
+                  "id": "ch11-p26-equilibrium-fixedtemperature-pressure-heat-scope-review-page121",
+                  "printed_page": 121,
+                  "reason": "CaCO3gas and invalid gascounts withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -21104,7 +21151,62 @@
             "record_id": "ch11-chapter07",
             "printed_page": 127,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p27-equilibrium-ice-table-arithmetic-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                122,
+                123,
+                124,
+                125,
+                126
+              ],
+              "pdf_pages": [
+                122,
+                123,
+                124,
+                125,
+                126
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p27-equilibrium-ice-table-arithmetic-scope-review-page122",
+                  "printed_page": 122,
+                  "reason": "Initialproducts0 explicit; concentration and amountunits differ."
+                },
+                {
+                  "id": "ch11-p27-equilibrium-ice-table-arithmetic-scope-review-page123",
+                  "printed_page": 123,
+                  "reason": "9times9=27 HClworkedkey withheld; correcttable/otherquotients used."
+                },
+                {
+                  "id": "ch11-p27-equilibrium-ice-table-arithmetic-scope-review-page124",
+                  "printed_page": 124,
+                  "reason": "COchange.2 conflicts with table.4."
+                },
+                {
+                  "id": "ch11-p27-equilibrium-ice-table-arithmetic-scope-review-page125",
+                  "printed_page": 125,
+                  "reason": "Prose.9+.5=1.3 conflicts with correcttable.4."
+                },
+                {
+                  "id": "ch11-p27-equilibrium-ice-table-arithmetic-scope-review-page126",
+                  "printed_page": 126,
+                  "reason": "Unbalanced equations/malformed optionunits withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch11-chapter07",
@@ -21183,7 +21285,54 @@
             "record_id": "ch11-paragraph29",
             "printed_page": 132,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p28-half-reaction-formal-ion-electron-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                127,
+                128,
+                131,
+                132
+              ],
+              "pdf_pages": [
+                127,
+                128,
+                131,
+                132
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p28-half-reaction-formal-ion-electron-scope-review-page127",
+                  "printed_page": 127,
+                  "reason": "Formaloxidationstates not isolatedN5+/As3+ions."
+                },
+                {
+                  "id": "ch11-p28-half-reaction-formal-ion-electron-scope-review-page128",
+                  "printed_page": 128,
+                  "reason": "Electronrelease shown asproductconcept; subtracted-electronshorthand not parserinput."
+                },
+                {
+                  "id": "ch11-p28-half-reaction-formal-ion-electron-scope-review-page131",
+                  "printed_page": 131,
+                  "reason": "SourceJ/HJ and unsafephysicalprocedures withheld."
+                },
+                {
+                  "id": "ch11-p28-half-reaction-formal-ion-electron-scope-review-page132",
+                  "printed_page": 132,
+                  "reason": "Unspecifiedproducts not invented; fullmolecularcards atomchecked."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -21224,7 +21373,46 @@
             "record_id": "ch11-paragraph30",
             "printed_page": 135,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p29-redox-medium-products-waterbalance-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                132,
+                133,
+                134
+              ],
+              "pdf_pages": [
+                132,
+                133,
+                134
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p29-redox-medium-products-waterbalance-scope-review-page132",
+                  "printed_page": 132,
+                  "reason": "No actualreagentdrop experiment; namedproducts/conditions supplied."
+                },
+                {
+                  "id": "ch11-p29-redox-medium-products-waterbalance-scope-review-page133",
+                  "printed_page": 133,
+                  "reason": "Combinedacid ionic8H2O conflicts with correctmolecular3H2O; alwayscolourlessMn2+ withheld."
+                },
+                {
+                  "id": "ch11-p29-redox-medium-products-waterbalance-scope-review-page134",
+                  "printed_page": 134,
+                  "reason": "5/3/1 factors finite givenmodels,not allconditions productpredictor."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -21265,7 +21453,54 @@
             "record_id": "ch11-chapter08",
             "printed_page": 139,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p30-redox-equivalent-reaction-product-mass-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                135,
+                136,
+                137,
+                138
+              ],
+              "pdf_pages": [
+                135,
+                136,
+                137,
+                138
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p30-redox-equivalent-reaction-product-mass-scope-review-page135",
+                  "printed_page": 135,
+                  "reason": "E requires declaredredoxfactor; sourceJ/KJ not unsupportedparser."
+                },
+                {
+                  "id": "ch11-p30-redox-equivalent-reaction-product-mass-scope-review-page136",
+                  "printed_page": 136,
+                  "reason": "Reducerreceivedword/freeMn7+ion implication withheld."
+                },
+                {
+                  "id": "ch11-p30-redox-equivalent-reaction-product-mass-scope-review-page137",
+                  "printed_page": 137,
+                  "reason": "MnSO4 productequivalence bookkeeping not intrinsicoxidantE."
+                },
+                {
+                  "id": "ch11-p30-redox-equivalent-reaction-product-mass-scope-review-page138",
+                  "printed_page": 138,
+                  "reason": "Balanced10:2 independently verifies6.04g model."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch11-chapter08",
@@ -21339,7 +21574,62 @@
             "record_id": "ch11-paragraph32",
             "printed_page": 144,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p31-electrolysis-phase-polarity-finite-products-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                139,
+                141,
+                142,
+                143,
+                144
+              ],
+              "pdf_pages": [
+                139,
+                141,
+                142,
+                143,
+                144
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p31-electrolysis-phase-polarity-finite-products-scope-review-page139",
+                  "printed_page": 139,
+                  "reason": "Negativecathode applies electrolyticcell,not allcells; no physicalwiring."
+                },
+                {
+                  "id": "ch11-p31-electrolysis-phase-polarity-finite-products-scope-review-page141",
+                  "printed_page": 141,
+                  "reason": "Al activityboundary ambiguity withheld; watermayparticipate."
+                },
+                {
+                  "id": "ch11-p31-electrolysis-phase-polarity-finite-products-scope-review-page142",
+                  "printed_page": 142,
+                  "reason": "Universal middlemetalcodeposition/alloxygenanionrules withheld."
+                },
+                {
+                  "id": "ch11-p31-electrolysis-phase-polarity-finite-products-scope-review-page143",
+                  "printed_page": 143,
+                  "reason": "GenericMeCl/MeSO4/molten sulfate table notuniversal; namedproducts only."
+                },
+                {
+                  "id": "ch11-p31-electrolysis-phase-polarity-finite-products-scope-review-page144",
+                  "printed_page": 144,
+                  "reason": "Plating conceptualdiagramonly."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -21380,7 +21670,62 @@
             "record_id": "ch11-paragraph33",
             "printed_page": 149,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p32-faraday-charge-units-hydrate-rounding-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                144,
+                145,
+                146,
+                148,
+                149
+              ],
+              "pdf_pages": [
+                144,
+                145,
+                146,
+                148,
+                149
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p32-faraday-charge-units-hydrate-rounding-scope-review-page144",
+                  "printed_page": 144,
+                  "reason": "F(farad) capacitanceconflation/FeCl3alwaysFe withheld."
+                },
+                {
+                  "id": "ch11-p32-faraday-charge-units-hydrate-rounding-scope-review-page145",
+                  "printed_page": 145,
+                  "reason": "SwappedE/neq units withheld; coherent g/eq andeq with prior19."
+                },
+                {
+                  "id": "ch11-p32-faraday-charge-units-hydrate-rounding-scope-review-page146",
+                  "printed_page": 146,
+                  "reason": "8.96vs8.94 conflictingKClline withheld; minuteseconds coherent."
+                },
+                {
+                  "id": "ch11-p32-faraday-charge-units-hydrate-rounding-scope-review-page148",
+                  "printed_page": 148,
+                  "reason": "7percent approximate;2decimals7.03; phasebasis explicit."
+                },
+                {
+                  "id": "ch11-p32-faraday-charge-units-hydrate-rounding-scope-review-page149",
+                  "printed_page": 149,
+                  "reason": "Hydration viaordinarymoles,not universalequivalentratio."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -21416,7 +21761,62 @@
           "source_file": "umumiy_kimyo_11_uzb.pdf",
           "source_sha256": "ee3d429585691951eb0f5529553f5879869cd084e1886e01b950d6971cf2952b",
           "title_original": "Elektroliz mavzusiga doir masalalar va ularning yechimi",
-          "fact_review_status": "not_started"
+          "fact_review_status": "not_started",
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p33-electrolysis-total-charge-partition-mass-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "pdf_pages": [
+                150,
+                151,
+                152,
+                153,
+                154
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p33-electrolysis-total-charge-partition-mass-scope-review-page150",
+                  "printed_page": 150,
+                  "reason": "Finiteidealproducts/100percentmodel; physicalCdhandling withheld."
+                },
+                {
+                  "id": "ch11-p33-electrolysis-total-charge-partition-mass-scope-review-page151",
+                  "printed_page": 151,
+                  "reason": "3A/2A,195vs965,.94saltlabelCu conflicts;badworkedkey withheld."
+                },
+                {
+                  "id": "ch11-p33-electrolysis-total-charge-partition-mass-scope-review-page152",
+                  "printed_page": 152,
+                  "reason": "Premature4.3/40.56vs40.58 and fixed9.12 exactkey withheld."
+                },
+                {
+                  "id": "ch11-p33-electrolysis-total-charge-partition-mass-scope-review-page153",
+                  "printed_page": 153,
+                  "reason": "One totalcharge divided; correctmetalvssaltlabels; fullyrecoveredinitialmetal assumption explicit."
+                },
+                {
+                  "id": "ch11-p33-electrolysis-total-charge-partition-mass-scope-review-page154",
+                  "printed_page": 154,
+                  "reason": "Initialvolume/initialconcentrations,not finalsolution; unspecifiedproducts not invented."
+                }
+              ]
+            }
+          ]
         }
       ],
       "full_fact_formula_review_complete": false,

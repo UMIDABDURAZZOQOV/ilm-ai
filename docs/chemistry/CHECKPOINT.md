@@ -1,37 +1,41 @@
 # Chemistry continuation checkpoint
 
-## Batch50 — 2026-10-26:grade11§21–25
+## Batch51 — 2026-10-26:grade11§26–33
 
-**260/268 implemented;8 remain. Grade11 25/33 paragraphs.**
-Adds45cards/51questions:15MCQ,
-8short,25numeric,3equation.
-Total2511cards/3702questions:1031/521/1093/359/698.
-Original94–116 pages reviewed. Reaction-specific normality/percent conversion,
-named-species positive average disappearance, coherent time/volume units,
-stipulated kinetic expressions, interval-limited gamma and dynamic equilibrium
-share common ILM contracts. Abstract A/B/C labels and ionic charges are display
-or algebra,never unsupported chemical-formula input. Given molecular atom
-cards use the existing equation grader. No physical reactor/fuel/reagent steps.
-Five scopes withhold reversedtime denominator,onlygases/universalrateorder,
-H2 consumption exceeding initialCl2,universalgamma2–4,yeastbacteria/physical
-oxidizer recipes,111CO exponenttypo,114K box k2/k1 factor and115K2 means
-unequalrates. Clear113/114equalrates and115quotient corroborate finite tasks.
-212editorialscopes,one finite9§40erratum,zero wholeholds;allreadyfalse.
+**268/268 implemented;0 remain. Grade11 33/33 paragraphs.**
+Adds66cards/92questions:26MCQ,
+16short,42numeric,8equation.
+Total2577cards/3794questions:1057/537/1135/359/706.
+Original116–154 pages reviewed. Final eight paragraphs cover finite Le Chatelier
+changes,ICE tables,half-reaction atom/charge/electron accounting,medium-specific
+redoxproducts,reaction-specific equivalents,electrolytic phases/polarity,
+Faraday mass/charge and mixed-product charge budgets. Halfreaction ions are
+display/MCQ/word/count only; full neutral equations use the common atomgrader.
+Digital models state products,current efficiency,phase and complete initial
+metal recovery where required. No physicalelectrolysis/reagent/gascollection.
+Eight scopes preserve119temperatureallgone/colouraloneproof,1239*9=27,
+124–125CO prose/table mismatch,formalionsversusoxidationstate,1338H2O bad
+combinedline,universalactivity/product tables,145E/neq unitlabels,146KCl
+8.96/8.94 conflict,148exact7percent and151mixedmetal time/masslabels.
+Correct tables/molecular atom balance and coherent units support retained
+models;uncertain badworkedkeys withheld. Hydration uses ordinary mole ratio;
+one total charge is partitioned once across mixed products.
+220editorialscopes,one finite9§40erratum,zero wholeholds;allreadyfalse.
 
-Target110pass/20.23s. Full1870pass/1opt-inPGskip,
-all54Chemistryfiles once across4isolatedDB/processes;
-frozen snapshot unchanged;wall2485.69s. ExistingStarlettewarning
-once/process(4total). CriticalRuff/diffpassed. 255priorlessonhashes/original7§1
-preserved;5PDFSHA/817pages auditpasses. ActualHTTP51correctanswers
-preserve255/5100→260/5200XP,+100once;complete replay
+Target122pass/68.67s. Full1908pass/1opt-inPGskip,
+all55Chemistryfiles once across4isolatedDB/processes;
+frozen snapshot unchanged;wall1788.22s. ExistingStarlettewarning
+once/process(4total). CriticalRuff/diffpassed. 260priorlessonhashes/original7§1
+preserved;5PDFSHA/817pages auditpasses. ActualHTTP92correctanswers
+preserve260/5200→268/5360XP,+160once;complete replay
 identical. Comma/exponent variants equivalent. Privategradinghidden;
-grade7/8/9/10catalogs unchanged. 15sanitizedpublicfixtures only.
+grade7/8/9/10catalogs unchanged. 24sanitizedpublicfixtures only.
 
-Flutter601tests/360s;analysis0issues/627.5s.
-5scenarios320×568/200% pass/17s,20captures visually
+Flutter609tests/520s;analysis0issues/141.0s.
+8scenarios320×568/200% pass/16s,32captures visually
 inspected:catalog/current source/feedback/feedbacksource scroll,Continuevisible,
 nooverflowexceptions. NativeAndroid/IME/TalkBack notcertified;copyspacingreview
-pending. Flutterbab69c4 pushed Chemistrybranch;backendcommit follows.
+pending. Flutter0312ff3 pushed Chemistrybranch;backendcommit follows.
 Independent teacher review and detailed2026outcome equivalence remain pending;
 documented official2026 structuraldifferences do not change textbookorder.
 No rawPDF/OCR/fulltext/render/token/DBpush;Biology406/Physics/realuserdata/
@@ -39,12 +43,12 @@ main/AI/production preserved. Future drafts not counted as completed.
 
 ## Exact continuation
 
-Batch50backend commit follows;Flutterbab69c4. Baselinebackend994be37.
-Do not rerun indexed50author/install/HTTP/doc scripts. Synthetic260/5200XP.
-Ownpreview loopback8903 PID21100;verify exact fullcommand beforestop/resume.
-Next FINAL51§26–33 eight→268. Prepared install_batch51.py and
-test_chemistry_batch51.prepared.py. Private8authors require260baseline,
-validated66cards/92questions:26MCQ16short42numeric8eq. All116–154 images
-reviewed;notes.local/grade11_batch51_source_notes.md. No unsupported ionic
-parser,universalactivityproducts or physicalelectrolysis. Complete51batchQA
-then final wholecourse completeness/staging/PG/regression review.
+Batch51backend commit follows;Flutter0312ff3. Baselinebackend235320b.
+Do not rerun indexed51author/install/HTTP/doc scripts. Synthetic268/5360XP.
+Ownpreview loopback8903;verify exact fullcommand beforestop/resume.
+All268 textbook teaching entries implemented. Run final wholecourse
+completeness,source/hash checks,real PostgreSQL staging and final regression
+report. Keep course_ready false while editorial scopes/teacher review remain.
+No production/main/AI operations. Final outcome documentation must distinguish
+source-backed local interactive completeness from independent teacher and2026
+outcome equivalence certification.

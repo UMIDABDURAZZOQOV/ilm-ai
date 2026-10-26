@@ -41,13 +41,13 @@ Individual lesson claims require their own reviewed source refs.
 | `ch11-paragraph24` | paragraph 24 | Tezlik mavzusi bo‘yicha masalalar va ularning yechimlari | 109–112 | 109:full – 112:full | 109 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph23 |
 | `ch11-chapter06` | chapter 6 | Kimyoviy muvozanat | 112–127 | 112:full – 127:full | 112 | not_authored | — |
 | `ch11-paragraph25` | paragraph 25 | Qaytar va qaytmas reaksiyalar. Kimyoviy muvozanat | 112–116 | 112:full – 116:full | 112 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph24 |
-| `ch11-paragraph26` | paragraph 26 | Kimyoviy muvozanat va unga ta’sir etuvchi omillar | 116–121 | 116:full – 121:full | 116 | not_authored | ch11-paragraph25 |
-| `ch11-paragraph27` | paragraph 27 | Kimyoviy muvozanat mavzusiga oid masalalar va ularning yechimi | 121–127 | 121:full – 127:full | 121 | not_authored | ch11-paragraph26 |
+| `ch11-paragraph26` | paragraph 26 | Kimyoviy muvozanat va unga ta’sir etuvchi omillar | 116–121 | 116:full – 121:full | 116 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph25 |
+| `ch11-paragraph27` | paragraph 27 | Kimyoviy muvozanat mavzusiga oid masalalar va ularning yechimi | 121–127 | 121:full – 127:full | 121 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph26 |
 | `ch11-chapter07` | chapter 7 | Oksidlanish-qaytarilish reaksiyalari | 127–139 | 127:full – 139:full | 127 | not_authored | — |
-| `ch11-paragraph28` | paragraph 28 | Oksidlanish qaytarilish reaksiyalarini yarim reaksiya usuli bilan tenglashtirish | 127–132 | 127:full – 132:full | 127 | not_authored | ch11-paragraph27 |
-| `ch11-paragraph29` | paragraph 29 | Oksidlanish va qaytarilish reaksiyalarini eritma muhitiga bog‘liqligi | 132–135 | 132:full – 135:full | 132 | not_authored | ch11-paragraph28 |
-| `ch11-paragraph30` | paragraph 30 | Oksidlanish-qaytarilish reaksiyalarida moddalarning ekvivalent og‘irliklarini aniqlash | 135–139 | 135:full – 139:full | 135 | not_authored | ch11-paragraph29 |
+| `ch11-paragraph28` | paragraph 28 | Oksidlanish qaytarilish reaksiyalarini yarim reaksiya usuli bilan tenglashtirish | 127–132 | 127:full – 132:full | 127 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph27 |
+| `ch11-paragraph29` | paragraph 29 | Oksidlanish va qaytarilish reaksiyalarini eritma muhitiga bog‘liqligi | 132–135 | 132:full – 135:full | 132 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph28 |
+| `ch11-paragraph30` | paragraph 30 | Oksidlanish-qaytarilish reaksiyalarida moddalarning ekvivalent og‘irliklarini aniqlash | 135–139 | 135:full – 139:full | 135 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph29 |
 | `ch11-chapter08` | chapter 8 | Elektroliz | 139–154 | 139:full – 154:full | 139 | not_authored | — |
-| `ch11-paragraph31` | paragraph 31 | Elektroliz tushunchasi. Eritma va suyuqlanma elektrolizi | 139–144 | 139:full – 144:full | 139 | not_authored | ch11-paragraph30 |
-| `ch11-paragraph32` | paragraph 32 | Elektroliz qonunlari | 144–149 | 144:full – 149:full | 144 | not_authored | ch11-paragraph31 |
-| `ch11-paragraph33` | paragraph 33 | Elektroliz mavzusiga doir masalalar va ularning yechimi | 149–154 | 149:full – 154:full | 149 | not_authored | ch11-paragraph32 |
+| `ch11-paragraph31` | paragraph 31 | Elektroliz tushunchasi. Eritma va suyuqlanma elektrolizi | 139–144 | 139:full – 144:full | 139 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph30 |
+| `ch11-paragraph32` | paragraph 32 | Elektroliz qonunlari | 144–149 | 144:full – 149:full | 144 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph31 |
+| `ch11-paragraph33` | paragraph 33 | Elektroliz mavzusiga doir masalalar va ularning yechimi | 149–154 | 149:full – 154:full | 149 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph32 |

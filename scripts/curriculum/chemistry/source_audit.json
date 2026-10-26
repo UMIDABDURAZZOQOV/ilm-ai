@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 260,
+  "implemented_lessons": 268,
   "grades": [
     {
       "grade": 7,
@@ -254,17 +254,8 @@
       "laboratories": 0,
       "practicals": 0,
       "source_teaching_entries": 33,
-      "implemented_lessons": 25,
-      "remaining_ids": [
-        "ch11-paragraph26",
-        "ch11-paragraph27",
-        "ch11-paragraph28",
-        "ch11-paragraph29",
-        "ch11-paragraph30",
-        "ch11-paragraph31",
-        "ch11-paragraph32",
-        "ch11-paragraph33"
-      ],
+      "implemented_lessons": 33,
+      "remaining_ids": [],
       "pending_source_review_ids": [
         "ch11-p1-quantum-capacity-configuration-model-scope-review",
         "ch11-p2-periodic-shorttable-trend-configuration-scope-review",
@@ -290,7 +281,15 @@
         "ch11-p22-named-species-rate-positive-time-scope-review",
         "ch11-p23-kinetic-model-gamma-catalyst-scope-review",
         "ch11-p24-species-rate-inverse-stipulated-order-scope-review",
-        "ch11-p25-dynamic-equilibrium-quotient-source-conflict-scope-review"
+        "ch11-p25-dynamic-equilibrium-quotient-source-conflict-scope-review",
+        "ch11-p26-equilibrium-fixedtemperature-pressure-heat-scope-review",
+        "ch11-p27-equilibrium-ice-table-arithmetic-scope-review",
+        "ch11-p28-half-reaction-formal-ion-electron-scope-review",
+        "ch11-p29-redox-medium-products-waterbalance-scope-review",
+        "ch11-p30-redox-equivalent-reaction-product-mass-scope-review",
+        "ch11-p31-electrolysis-phase-polarity-finite-products-scope-review",
+        "ch11-p32-faraday-charge-units-hydrate-rounding-scope-review",
+        "ch11-p33-electrolysis-total-charge-partition-mass-scope-review"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -298,7 +297,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 0,
-  "open_editorial_review_issues": 212,
+  "open_editorial_review_issues": 220,
   "reviewed_errata": 1,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817

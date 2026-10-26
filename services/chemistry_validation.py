@@ -245,6 +245,14 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch11-paragraph23': 'ch11-p23-kinetic-model-gamma-catalyst-scope-review',
     'ch11-paragraph24': 'ch11-p24-species-rate-inverse-stipulated-order-scope-review',
     'ch11-paragraph25': 'ch11-p25-dynamic-equilibrium-quotient-source-conflict-scope-review',
+    'ch11-paragraph26': 'ch11-p26-equilibrium-fixedtemperature-pressure-heat-scope-review',
+    'ch11-paragraph27': 'ch11-p27-equilibrium-ice-table-arithmetic-scope-review',
+    'ch11-paragraph28': 'ch11-p28-half-reaction-formal-ion-electron-scope-review',
+    'ch11-paragraph29': 'ch11-p29-redox-medium-products-waterbalance-scope-review',
+    'ch11-paragraph30': 'ch11-p30-redox-equivalent-reaction-product-mass-scope-review',
+    'ch11-paragraph31': 'ch11-p31-electrolysis-phase-polarity-finite-products-scope-review',
+    'ch11-paragraph32': 'ch11-p32-faraday-charge-units-hydrate-rounding-scope-review',
+    'ch11-paragraph33': 'ch11-p33-electrolysis-total-charge-partition-mass-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1170,6 +1178,30 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch11-paragraph25' in topic_ids:
             require('Kc=2 bo‘lsa muvozanatda teskari tezlik ikki marta katta'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'equilibrium_rates_equal_despite_k2')
+        if 'ch11-paragraph26' in topic_ids:
+            require('Katalizator muvozanatni har doim o‘ngga siljitadi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'catalyst_does_not_shift_equilibrium')
+        if 'ch11-paragraph27' in topic_ids:
+            require('9×9=27'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'equilibrium_bad_product_27_withheld')
+        if 'ch11-paragraph28' in topic_ids:
+            require('Eritmada alohida N5+ ioni bor'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'formal_oxidation_state_not_isolated_ion')
+        if 'ch11-paragraph29' in topic_ids:
+            require('Kislotali berilgan molekulyar kartada suv koeffitsiyenti 8'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'redox_acid_bad_water_coefficient_withheld')
+        if 'ch11-paragraph30' in topic_ids:
+            require('MnSO4 har qanday reaksiyada oksidlovchi ekvivalenti 30,2'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'redox_product_equivalent_not_intrinsic')
+        if 'ch11-paragraph31' in topic_ids:
+            require('Barcha elektrokimyoviy elementlarda katod manfiy'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'electrolytic_polarity_not_all_cells')
+        if 'ch11-paragraph32' in topic_ids:
+            require('96500 sekundli formulaga minutni o‘zgartirmasdan qo‘yish mumkin'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'faraday_seconds_require_time_conversion')
+        if 'ch11-paragraph33' in topic_ids:
+            require('Aralashmadagi har bir metallga bir xil jami zaryad to‘liq sarflanadi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'mixed_metals_share_one_total_charge')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
