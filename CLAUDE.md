@@ -2820,3 +2820,33 @@ and 609 Flutter tests. See docs/chemistry/COMPLETION_REPORT.md.
 All source-only, erratum, XP and progress restrictions persist. Independent
 teacher, editorial/native and full 2026 outcome certification remain pending.
 No production operation or main merge was performed.
+
+## Jahon tarixi 6–11: new isolated course — 2026-10-26
+
+The full user instruction is docs/world_history/REQUIREMENTS_UZ.md. Continue in
+the separate backend/Flutter feat/world-history-curriculum worktrees, based on
+Chemistry backend 9b37213 and Flutter 0312ff3. Do not restart Chemistry, alter
+Biology/Physics/Chemistry branches, or modify another agent's worktree.
+
+Use only the user's six pinned history textbooks for all historical knowledge.
+Private exact copies: ../ilm-ai-world-history-sources/. Updated original folder:
+C:/Users/Page/Desktop/Jaxon-Tarixi/. Six books, 961 PDF pages; 216 numbered source
+blocks and 219 printed number labels (grade10 has 7–8,15–16,19–20 combined topics).
+Ancillary activities and exact total teaching lessons remain under audit.
+The scanned grade9 has no text layer: OCR is locator only, not fact approval.
+
+No implemented history lesson/runtime/UI at this initial checkpoint. Continue
+from docs/world_history/CHECKPOINT.md. Complete the source/activity inventory,
+then source-review and author grade6 §1 through the last grade11 topic in order.
+Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
+save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
+interpretations, maps, answers or explanations. Distinguish source interpretation
+from historical evidence; uncertain claims never enter automatic grading.
+
+Keep jahon_tarixi separate from future ozbekiston_tarixi, while retaining every
+Central Asian topic in the supplied grade6 book. Every 5–10 lesson batch: original
+image review, validation, backend/Flutter and needed local HTTP/PostgreSQL checks,
+exact progress, feature-branch commit/push and next batch without routine approval.
+Preserve 406 Biology and 268 Chemistry manifests. No real-user/production DB,
+main merge, deploy, raw textbook/OCR/image/token publication. Final acceptance
+requires all catalogue sections; do not call this task finished prematurely.
