@@ -1,0 +1,2221 @@
+{
+  "backend_base": "e2aab00ecac29294600a3ac4e5e95d5299c3eeaf",
+  "flutter_base": "ba2e0e213aa47e8a2968fcbc1dc2b06b018e393d",
+  "protected_files": [
+    {
+      "path": "routers/mobile_skills.py",
+      "sha256": "3b494c82255ba9588dd5e16fa2947a58a555db5be5572d4e5f3ac7e1c1be9f5f"
+    },
+    {
+      "path": "routers/physics_preview.py",
+      "sha256": "29ed9b19c8a1547fa78ec34439ce6ba565a2b5e40b3f2dad9ff935517a093e20"
+    },
+    {
+      "path": "routers/skills.py",
+      "sha256": "602ea58f0f56477d57d49a74b4561403f0f783c6039e4ea47fe61d0768aeb6d7"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_laboratory_1.json",
+      "sha256": "68ea0395c439641740946346046a2068b608adeea4da0b5b88776083feb59377"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_laboratory_2.json",
+      "sha256": "0b094995b692d0a7b24e5e17668ad7772ed396ffbbc990e1a512dd4f000884c2"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_laboratory_3.json",
+      "sha256": "00f8f63c5bae991dd54fff8b97f660c9c498436a05a6cd5cd4ec66754b81ca0c"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_laboratory_4.json",
+      "sha256": "72d8c3882d195ae2f29c7e3620d8fca9137ffd6e4746e218725fc39d0521291c"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_1.json",
+      "sha256": "ac10d3d212ace11c7b85add57a620b7aa356320a1dc18e44196e9acb867f195d"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_10.json",
+      "sha256": "43b2c42836faa123d7c47a5a45a70e757ef1ba9d5eda728582b17715e969074f"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_11.json",
+      "sha256": "ea482c49aa5c68216919405b066de7774a5f7bd27c843910c20b442040bb224e"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_12.json",
+      "sha256": "7d0836a7e816af8aed80e8be693302ae2c66f785f7d83557d14ce19c9a91d45c"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_13.json",
+      "sha256": "bc97364dd53dc359c0cbcfd2c0821eecb648e8289cb3b76a6cd72c4fb889c3a6"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_14.json",
+      "sha256": "88bb2e7e87277cde1d3e089827e11fbb00d9b55fe3acee942fe3b32f350e5d2c"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_15.json",
+      "sha256": "43829e680f15a24daf744e51785a17b8fc3000e9b1ad7baf0c14ef93a6093c3d"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_16.json",
+      "sha256": "9884174e01fa622334e486af94ba9f650996940b056c6184197dfbb18b7e5a19"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_17.json",
+      "sha256": "8a976c05880f352ac3b34cd9bd4c65825afbe896c0ca70e5a3542e3286a869e6"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_18.json",
+      "sha256": "eed4c3d5099743926cc963551258d37cb4717a4b465109fa2ca26ffbbd18107e"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_19.json",
+      "sha256": "d1acab687a6d6cd12f462f00d8c52cf0d838d70655167b7818906048a6b00699"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_2.json",
+      "sha256": "d2bedee35c57f58ad0b094ee16299d7c1941716e5d5d17a9c997c6513d407b89"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_20.json",
+      "sha256": "3bb5b205e5a70c7f628da28fcd4c579c3058b047956eee813359507402ce29d1"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_21.json",
+      "sha256": "2c21cd28f5b83b2937a406fad7f85f05fe1a14e2174f364097c36e9fcd82a5d3"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_22.json",
+      "sha256": "f4226eeccc19d77c15542ed3e93fc2d8af41745fbcde1d870c104bc79b18fd28"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_23.json",
+      "sha256": "0048a79fcdc2b85cbf3c9b27f96a8d1964f5367f8e16214698cc23252120bfc2"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_24.json",
+      "sha256": "64c8bb427139e98f3facedfc66be755fed69bb13abc1eee7d31af0e2e92c94ad"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_25.json",
+      "sha256": "75e65f346a057cb223427c1271fcedf7e4fce2cbe7390561c634cf23999e5eec"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_26.json",
+      "sha256": "7b48fb6e497869da98bead6f76fd7fe4961ed477004cf4e14f4157d87fc1ca35"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_27.json",
+      "sha256": "061110ba56e4581e1e789174c9318c48203ef0c9ff297462a19fc7fc7dd350e9"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_28.json",
+      "sha256": "8ea3958b0568d94a6197313999a51bc12c4c59627671bebd255be70433771fab"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_29.json",
+      "sha256": "b56a99e92f88efd00d00d8a3c2e623c135553aec4707ec1ca19f9ac129dfcc7b"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_3.json",
+      "sha256": "9df8390ded0b7a3e183fd4a8c6995670dcd10fb395cdb6f25f6bc366831cd0ca"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_30.json",
+      "sha256": "ae6d8df1a8388fe175e9744b3e194130c567ed640414b4a4ea0bb0635a33c426"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_31.json",
+      "sha256": "caa0fd65b57c098c6d8c19bd68f926af90f7e097722806761a6617fe377c0a7d"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_32.json",
+      "sha256": "2e3212b22aee571fbb7c508fa86ef1ce4bb9b40a1421ecd3a25b06b072900b4d"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_33.json",
+      "sha256": "1247ac13cdf4a9e6fd80dcb62d11dbbf8a45e8026c5f11e839026cefa82e1b03"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_34.json",
+      "sha256": "5e5b979c50671f3f196435a9031a2e32e918567a673aae24fad4bcd552c0b909"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_35.json",
+      "sha256": "5edaee57991ca5d17d0cff49a819029d3ef679ee34cf44c941b05de6f8b80901"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_36.json",
+      "sha256": "46133cad44d2ca41bcd9229d5bd1bd999bdefc9df0826fc8cf7f2d6b7c345ebc"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_37.json",
+      "sha256": "c6ee3d5a31dcbf1217747db6ed64f73666bdef6a799558cc99071edfcd7d84ad"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_38.json",
+      "sha256": "bac842dfd3c86d0cd7468a06a8fafa92d063d8d8c243791fac4278f142197aa9"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_39.json",
+      "sha256": "9ff472c824054b9ed4467275d4dc0b6c6b93ec09698589c3430e2957ebabd681"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_4.json",
+      "sha256": "7e49075fd64961f14b39fdc46c9255ffaff3dc0a375ec3c3cfe0816ae0f61206"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_40.json",
+      "sha256": "fb804cd5db29e9f5956698741e97dd3ecbace67f74c866212c11abaee5590605"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_41.json",
+      "sha256": "f3a35d09ee4b67ca589d1e39ca16927f046c4249c42f2f1c4f48c53a32d7f0dd"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_42.json",
+      "sha256": "0cfa40e7220195010a87c36a3eea6332b328a8b6d82afa0291c68c3b7943a946"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_43.json",
+      "sha256": "1577e795d9a2e5c53a8b32bf7963f5c3d03689f9133f5212ebc9c8c7fbc22e5b"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_44.json",
+      "sha256": "b9410ff61220936ad2f8e7287421731b686cf1b31f26b95fc74dace457eb1c3d"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_45.json",
+      "sha256": "78806b30095c5ffe8479838996f690d77d02d9e4dca0340cdde6144c99310d19"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_46.json",
+      "sha256": "693e4994d0dcce688f00377c8f0924f52ddd1c94ae43075e45d56ce731a84a4f"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_47.json",
+      "sha256": "8d21ac0eb313af4deab5069a4ede64c2e50e4f2110e95efe74a31c8cc1f5cd8e"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_48.json",
+      "sha256": "e6c696800b8c912ecc580c3c15706661dcd47c9084c32dc51062d3036f40436a"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_49.json",
+      "sha256": "10722b92cdea7f0bbddce6eaa5ab0c500c4a7fe5df82ba245b10f0c1a9457e5e"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_5.json",
+      "sha256": "9f3261f477b9c73b51de0131451ef00a80b1aba01b522cbd997b2c2daf4ea1b4"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_50.json",
+      "sha256": "747241209798150c3e7025b42474a6af73a2cc8bfa084fce0efbb73e553dcabf"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_51.json",
+      "sha256": "9befdb43fce56a86ff7bd539ed39152c018f5c0767f53534ff457b68be30930f"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_52.json",
+      "sha256": "fddabec065bcac541e747724c615e44a8c0fddb080a32175ad308da471efd4a9"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_53.json",
+      "sha256": "8036705f8052c01b7e9d2a80eb70df197f302ba28b8092f9dc47193ac5a862e9"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_54.json",
+      "sha256": "dfe564eea33f081304f1e7f2ca630fc9b6331a1c2bb9980aeb57e278afb31392"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_55.json",
+      "sha256": "fe827e0d7272e3e1b026a554cf30fe216289f60f46fff20c76c4255fbfd70938"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_56.json",
+      "sha256": "ff939017982affcc91aef02bd413f76a97cd1e1f3f7359303114c94ccc4a9f08"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_57.json",
+      "sha256": "a809a5907be29b5df31ca9a944e9667d8182c16d18962c2cb6fba300d858b2b2"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_58.json",
+      "sha256": "7420b5538d9f3997c0f09cdbd925e5faa93b0005de10e8fee7ec39c0a82d121a"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_6.json",
+      "sha256": "49216244b17e198e36fdacf82c1f568f4ec142cc46dde22d152f1eafab11e663"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_7.json",
+      "sha256": "dc3fd140944a8cab898fcb075c095278b613f02815fd947f8dbb8efd269379f9"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_8.json",
+      "sha256": "5c4ae9d26dd2769a5d3dadc05d8285bbab28f46eb26bfe81681a713513184017"
+    },
+    {
+      "path": "scripts/curriculum/biology_10_paragraph_9.json",
+      "sha256": "2df0554a11181317b6398b37d15730ccc8e24f4b44b47f7fd875c56504f60e99"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_laboratory_1.json",
+      "sha256": "dfac3eb9171676571e23dd91f6b86e4b9f37a2422a628bd9a5c501d14eb3cd3c"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_laboratory_2.json",
+      "sha256": "2b9b89a4a81a6cedfb22c5f85f90bbcf8d79403a6ec3364731878eac8d075a0b"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_laboratory_3.json",
+      "sha256": "ae9b5b244831f30a1ddc96f06b9cc40c1586270884ec26dcd9f55439f9fc0e1d"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_laboratory_4.json",
+      "sha256": "19cbef6435fbe9177be1525acd1d4c8743afba1bfe35351a752ffa9552826b28"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_laboratory_5.json",
+      "sha256": "a5e7c3a8f8d548ac3b2e00480a9dd20e0066850e32e1bfac372f4baa9ed0bf75"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_1.json",
+      "sha256": "bb6ad32b66a5539be8143e40b56c58d9d94b509a3f6c6cad80aa2c55ae908207"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_10.json",
+      "sha256": "9d06b393d0ad28683913af3f503f4234cc06846c44726c2e41a70d74d2508621"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_11.json",
+      "sha256": "8129ea02e1e50e413751b5f408af23847ba365072558a73f7cffeceb10542723"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_12.json",
+      "sha256": "eb853a0ea58ffb1e11c831e31ac2624dbdf607260243dcd11a9f0d94e3c623bf"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_13.json",
+      "sha256": "5b17d88bc851f18dd9c06e64ce7a075fb014d9c2c2842275f3412a8308664968"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_14.json",
+      "sha256": "803a23599d14edfea4d1b315b32f6cf77ce61988d6d05b4c62d0bd92c6718e48"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_15.json",
+      "sha256": "ca79f151c71c711e31046110fb6bb79e6926757ca5b0ec4da5bbcdfe17f00774"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_16.json",
+      "sha256": "d6ddb97a6d7c756a3766ae10f8ef5857e56009028966e0f7c8b1e1cab1e5ed36"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_17.json",
+      "sha256": "b2749abceb160411fa6bf9af41ab0322842224c39d0e01594024e2421258b983"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_18.json",
+      "sha256": "b836158f14b933d95cabd309143a7f3205e7897fafadd78d98162f36fc8b708c"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_19.json",
+      "sha256": "bc696008e9d0d2b328e5b77131500032dd4d05e3eec7e129165561a35e4dd709"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_2.json",
+      "sha256": "b4f4c2bfbc38537b6063ede40c525fdec0a9ef86f681e9d6db1df36776fb63cf"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_20.json",
+      "sha256": "a1ad77b8d2169a211c5de9127f9b8a3d0708617aaab12fac4d7a10c5bbda7a34"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_21.json",
+      "sha256": "f07f53eccfc7f03d271509d589e7f654298c984e3c21aa813aec5d6147334ed5"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_22.json",
+      "sha256": "47a51885b424cb5305e78cfd748fda605adcce272421328605bbac892171143c"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_23.json",
+      "sha256": "662fc3f23cb8f8a656a8a9d859b7b20dffcf6ce4b8ce508c309db048ad3be298"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_24.json",
+      "sha256": "9852ff53b772717f9e13d0c23e69819efb46d29fecc1f8fead3493ea7a4a0648"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_25.json",
+      "sha256": "23beb27d10f89b9e527da6bf3bd436cce7330ad004535a3e64a4e7d7ee668005"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_26.json",
+      "sha256": "59f6d0faf8101e47b3d0a4a939d078e57beaa48932cb334683ba72a857ffe284"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_27.json",
+      "sha256": "c811bd9d5dff2f38468d106d274a4ff41a24d5688ab86d8f9e00679a776243c7"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_28.json",
+      "sha256": "5fd5132a9819b55ed4c7593b01ffd078d0c86a9dea33b030d4eeb13841682cdc"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_29.json",
+      "sha256": "d04bb768a1026ea47f9c96dbdd1f5515f4fbf31caadc93d8f022c6c6262fbf12"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_3.json",
+      "sha256": "7c1c4d6656db4ea15439c66dac1ad22b1de6aac3ba7b8c6aa43a214c624cdeac"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_30.json",
+      "sha256": "9bcb85d80bbb75ff5712df11783dc47d9c1e6bb1e635be0237517ca03abe9faa"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_31.json",
+      "sha256": "46517de59d006e3c1fa9ae2f085e85adebe86e077b3aafb02bd3c8458472ba13"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_32.json",
+      "sha256": "542a2a83a45ff9bf38f14a1ca6991a607b80165ba39703ec1d796da0753349ed"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_33.json",
+      "sha256": "1febc53890b2e0a0fa8e949bc8652581736243b44d24db5ddc896c67352328af"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_34.json",
+      "sha256": "63e41c13a2747baf046e4ff6646fcdfb28b476968461e9311e3e6bae5fe13728"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_35.json",
+      "sha256": "c970f01d093096c7977b4245615e95d2d4ea9cebc3cd7bcb22487890f3b00075"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_36.json",
+      "sha256": "6ebbabbb163ac319a651d5989b15a3d6df2302eeff109162b1782c1f194861da"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_37.json",
+      "sha256": "5ea2c0087190b81072e03012c9c03f72c31b8a74b44cf732a1124c7c428f6272"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_38.json",
+      "sha256": "b9afa012c43a85495b66e344d46e1382157554d376a0fc85b5b4c28363a78975"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_39.json",
+      "sha256": "8747b731d980eb20bdec7595698b7b7ef83707df83876636b09f98f2f28d3f77"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_4.json",
+      "sha256": "6d740a9bfd05a33ee778bfe0be0f33963ff975d45eee40a9ad4ec0fe783cdaa5"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_40.json",
+      "sha256": "e37b5b802118ae9d9cea243b51e6a89aaa84040d5484cc5198a3bd23f29d0727"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_41.json",
+      "sha256": "f10138b210a064dbc88df7248274cfeb8e1eaf204d2bbf3b48fa61112fb31e8b"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_42.json",
+      "sha256": "2f9b803989662a2dd4605979b5f651ac690c51e1a34e963d8ea3d7d6a480445a"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_43.json",
+      "sha256": "5ed0e897f16a170c7c47ae18aeb221731f5a5f62f1ac906dfe1bfb062bca8988"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_44.json",
+      "sha256": "bd302f4d48c51cd1c42f2f00d028c96fadcdcff16541eae37aebba6b7c4f2cd9"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_5.json",
+      "sha256": "d087fc20e221409d7adb4b86155359c9650a3fef30327ccf75b3230095b16da9"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_6.json",
+      "sha256": "70c31f58f198bb68337293b154c355417b8c4289b040d191fff3197661df2f39"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_7.json",
+      "sha256": "d1cbd4a008572801408c8d8d2284c60a06a2e98a9bc35500fe53b08baec420e1"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_8.json",
+      "sha256": "b2bf3b1e5b12ee4905729d58d59f1cb2254fcce10bec68605bfe795d2144f427"
+    },
+    {
+      "path": "scripts/curriculum/biology_11_paragraph_9.json",
+      "sha256": "4f5994909bfc850ae0f13471ac03cb18c83323b2f58ea3f961b9b6578abcee07"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_first_lesson.json",
+      "sha256": "ede8cb724d5a06406a8eb3be4caafe2f02e6333729040fde4bfdce0496e37582"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_laboratory_1.json",
+      "sha256": "5a60cf4cbef2245e1cda9955931cada50bd210dd8ee4bf994b8dc0fe0ebb57a8"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_laboratory_2.json",
+      "sha256": "14e089157fb74d6757f9a7afb706ca77add71078a2c52e5f55835648fb6c8c3c"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_laboratory_3.json",
+      "sha256": "bbbc6d0fad6f113990d25d720b680405cd51896acdc3b71e47b67e0120ef09ef"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_laboratory_4.json",
+      "sha256": "ca75aff899563d4dbc73a85de87fb54a5956e55f9d3ced98f9f51d2c98bc5dd8"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_10.json",
+      "sha256": "b432da8e3a7ccf25c62136b840aab1cbec3ab1ce5efd931c6ecb1dc3c97e8463"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_11.json",
+      "sha256": "49a97582eb2cb44855fceb5ce038b459930ef97e551a480a7e97fa8e5d7b8cc1"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_12.json",
+      "sha256": "39337091021368c575448434afe3fcbcfeaac01c0dded59be414cfe7a6eeb8b4"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_13.json",
+      "sha256": "856e329413864316639c712ec0dd9c8628c6801df7a819d2119025fea8cc8267"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_14.json",
+      "sha256": "8c36b678c0f7e49d611a80de14a2e9b64d5245b70e44d750c13a5c7082690b85"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_15.json",
+      "sha256": "ecdda53e435dfd1bf65037edbd89d60054cbc0cd5bf813a07da352b2344977f5"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_16.json",
+      "sha256": "15321b5ab047fd6bbdd0d311feafbb4a522a8ba69676ea5a2228a52aff3a0e90"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_17.json",
+      "sha256": "6e1644343f1c277d8f9334246d5b66c236d9f806c9fdc38a5c2332396941b278"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_18.json",
+      "sha256": "b424545bedb1e8ef2e56092c0be41b05c1b52d927008e10613681dc082efbb4c"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_2.json",
+      "sha256": "bc27826bd765802b6561c64254847a9b6a76fc93475f48b6e0a697cc92c9739e"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_3.json",
+      "sha256": "8720eb4abfdc200ddb5cb454ff56a6e6c7584097da2f896cde0e81b3536dc042"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_4.json",
+      "sha256": "9553e6b479594940bad6f65eeb583a3a07ce09df0f0d5e4f8a0025a9daea0765"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_5.json",
+      "sha256": "ed226df603baea816c7052f12a629281c7b0053a9f8853e74a5ed3bd9c6a9d75"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_6.json",
+      "sha256": "5f06c3eb22e9216e644bb8fbe738ff717cfa85bb6eb7db09bb71447c000f42ce"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_7.json",
+      "sha256": "89159715544e4337396e74333a7ef08feb71fc2cfb58307f88a1d97ba4770f13"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_8.json",
+      "sha256": "107bb7aee5c26db85e832add76e401e505fde15378ca3ee3805140fd9b7bb395"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_paragraph_9.json",
+      "sha256": "c845b6164187e390fff2b607e4f7ade334e7fa9f9ef8d7bd094e7573976e3564"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_1.json",
+      "sha256": "90be7c3e4659c67fae1daba8729bd7e40377d0984b1705aec15cbe4ca432f6e6"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_2.json",
+      "sha256": "136142924e363228539f953c78c754dc00a1cdba10f9265e2b2e15eba8b5708c"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_3.json",
+      "sha256": "f45c44f3795a1912dd81bb5cb407112a85acb1f154d6288aafc4bb81246a8159"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_4.json",
+      "sha256": "88f27e25926db66316a3752c58383b40e5bd7f7dc36934aa184d1b8a558cadda"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_5.json",
+      "sha256": "03d7b49754f5c274fb8ee8c7ca4f377c74881b74105f97f4b71b689db912c10d"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_6.json",
+      "sha256": "8a3129c8167ab14e1371578de76f4ffafb4c4db093b7f7a60c7f40cc1cf25ce0"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_7.json",
+      "sha256": "b42ba0ea9291af8a54a21ee2dcb34f59ce9edf00d3083479b6115b046edab081"
+    },
+    {
+      "path": "scripts/curriculum/biology_5_practical_8.json",
+      "sha256": "c16ec8d0451d13149bc148999f12390e7729423f4a43a038ce34e65a51d8315d"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_laboratory_1.json",
+      "sha256": "a45c5185bcc45fd38fe402dcfa99ed2bb106ef1af6b7d00924bc91d929ebe5a9"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_laboratory_2.json",
+      "sha256": "73d905d81a341cf52639efa50302740a69b90e67ba97168caadc777bf97437f2"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_laboratory_3.json",
+      "sha256": "8987da5163ac4f6c5c2d00663507e40da72de5925d76679b304d25bdd7d49970"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_laboratory_4.json",
+      "sha256": "ed36bf69c426eeed2b9b78cd099511152113ccd31c7287f1f84a2a542188a868"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_laboratory_5.json",
+      "sha256": "99aa7200d11438cbceebecfab16cb36ffe1482b056efc8a3025c94c5566eaef5"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_laboratory_6.json",
+      "sha256": "1e8791e6f249baf0c85e9f8b57c07a3826f33293f3ba0aaacaf0fa2adef17af3"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_laboratory_7.json",
+      "sha256": "53e0aa98550d587bf2976f99cf146b8990ebe7c1640ba1f067ff6523efe3012c"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_1.json",
+      "sha256": "9bb271fa0ec4303fff705a040bf4d973ae131d7207d5dcb7498796b823f50d57"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_10.json",
+      "sha256": "dc513e4018cf0c6deee6ceb0de1d15d2b7ad2ddc5e7cc1b32194e5038f61afe4"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_11.json",
+      "sha256": "e488af75c609fe8377641c4c402a6aced5e31fe1620839443c9499503d8dc671"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_12.json",
+      "sha256": "4ea3f0c66cf8da46fffdbe7059baef9615788420f518329502ece0abbb638063"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_13.json",
+      "sha256": "228132f8e3879b4ced1843d543926c2a40f2eb2d24415b1aa552edbba4af9f76"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_14.json",
+      "sha256": "d24a0ab48fba9dddd8587ac9d6ad7e36e8f76d69aaa5be88ca34e5370d09ec60"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_15.json",
+      "sha256": "cc794c0713a11d5b898fc332aebe46517c8eeae3d36123e9a86ec262af95e9bd"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_16.json",
+      "sha256": "8ce197f2e239632bb4e27b3be76b39a88137ecab2fdd341ae98c7b355765a0c3"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_17.json",
+      "sha256": "9d5673643f1663905d8a8681e77447cc942d8e3904170371b3fe06c700f32466"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_18.json",
+      "sha256": "ee71ed7f12eef744aeb8d3b1ef2cfe83bf07b87748b9eebc36a9b021f3a0461a"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_19.json",
+      "sha256": "b69d6dd99c6de9bcb086a8894abbf02fc7415c28c9b1a82e728741a40c29f40e"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_2.json",
+      "sha256": "66082ac6015e5495a586d7e172ee8e2cf68dff93e4cba85b040bfc5719a2c326"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_20.json",
+      "sha256": "a46e3afdcb5bc05ad00f0c8b877dac4b48c0db2fafe07c859bee101e9e6fd897"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_21.json",
+      "sha256": "46b8396074a32836c55242d979f58b61568dc54e77cb42c4ccc3ea65b544a18f"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_22.json",
+      "sha256": "38e0f7091533c93e89a1d4adfc25b2c6ca5b8e1045bc5423837f18d707d3b6d3"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_23.json",
+      "sha256": "78b39857103408889d541b0504ff4eea1d7af62b20daf480a455edb2b77df2c6"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_24.json",
+      "sha256": "40cb83fdfa08e8407c8b6f425ace3d568c381e42aa2613d620677da79ce59394"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_25.json",
+      "sha256": "193af46f6604d02be35a75b1a48896015c66b20f9ceba807f600b750382ccd19"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_26.json",
+      "sha256": "4773d708f3a0365a01846c6ec9bf08b53b7543e07e5cf3820a73a49598dd08e3"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_27.json",
+      "sha256": "3d20c44f1ff4aa9ce353aed2b07df3c60faebb714a6ffd790fbfc8ff1179758d"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_28.json",
+      "sha256": "9e83f0c72853e9d2e437675eb7cf3ff42ee6247c69577d13365adaf9f6f0c4e3"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_29.json",
+      "sha256": "80ebe3c0c6c08422b1154be46b6e98fbef3334202e53f1ec7a65e333ecd671ae"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_3.json",
+      "sha256": "a004cbb5d4e3149f2a4a34d0b065d08777b6ecda42c3b4ff7bdaf69ff302bbff"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_30.json",
+      "sha256": "05c76c5a3d70b8b2d2687ae6ceed33bbaeddfe0645387485523fc6648df24e26"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_31.json",
+      "sha256": "3701bfc0c5224c3d873b2d1a31feb94201df4a978c2f27fc6cb59019b760858f"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_32.json",
+      "sha256": "fb78f707d87a9d1593de7c98eed0fdc07f6221067978bc41a14e794e3d776b24"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_33.json",
+      "sha256": "b305c69797db552107b863041857f225cdebfa57ae0c5f0f9aa281697286133e"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_34.json",
+      "sha256": "89ed50e2aba194b8375498357b81bdc8de0f1e30f45f72af5f9b3e47be3b87ea"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_35.json",
+      "sha256": "a6037a5544f38179050d2430c16781c7617edc2e3f398b5b05a47201bc4d1bb9"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_36.json",
+      "sha256": "66d9a0a3cc1073640a85497d31fa72250483beef5fb1f94f36a84824e95c81f6"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_37.json",
+      "sha256": "c62d53c24b7a647c1bf027e4dd3379666858401d3d873aa2a8692ab7e8b74ee5"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_38.json",
+      "sha256": "cd928d64369a0974fd695f42056a8d0f91b6c20c6ea1647c5feb96fd3b725f8c"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_39.json",
+      "sha256": "55b8e4da124f0d02a7d3472af20468d6dca8c7dbb09f00d8229fafdb0cceb74c"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_4.json",
+      "sha256": "8d9fbe74116b0efe3535271148165f8c1d4b9ac6b5a13b7f4b4ba95739d68dd3"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_40.json",
+      "sha256": "a1babb4610c2e5002626adfd24cbf81804225a1ab0a253272f667384d41d2cdb"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_41.json",
+      "sha256": "faf6340ea81bf345cfe8a024aae6338df1b6ec56cf76034306615c11ebef0fa7"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_42.json",
+      "sha256": "7a55d23180112db6ba3802b2439200c98fa004dc5a55cb438399f58358b74bf1"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_43.json",
+      "sha256": "fbc2c8572dee719bdded65cd0e7c9146a5ae292954774b1be889cbf29393b476"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_44.json",
+      "sha256": "3199734aee1d0ac3ada35e6182e0d5e74c5409e7316888407f9e78c5d03489e9"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_45.json",
+      "sha256": "3957f8a0b13d21d1efc55e51f4419790b3200f13a102f4c242c00f057f768059"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_46.json",
+      "sha256": "a73bfa32ead870f7f0b2125948ec1e61391a0998489d8d52ff0af57b2f2da9e0"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_47.json",
+      "sha256": "340c39eb4408bf0e0ffbd476b6601abbd9983e9b778117f4765bc16b37e66b61"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_48.json",
+      "sha256": "895cd4ac37b61bf9ca64bfb8d1b448c8d66c86e4155779363fca772b450ff924"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_49.json",
+      "sha256": "2ce848a056704a1ca862151338380d3747605136f65b010edb4b2f7741c95375"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_5.json",
+      "sha256": "f6d12a50d6f99a2af7ae162b80a20cbf7dd83dd0b7bc0babece0b3d19b292893"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_50.json",
+      "sha256": "f14e3145af7671bf8e0fa7d42e565cf47c73addb049c62d5f09d8bec7e143def"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_51.json",
+      "sha256": "e4fdb857e8ffba64246d4763f4d16c88e305b0adafa660ae8c4fac909b7bd96a"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_52.json",
+      "sha256": "7a213221c33f2a70c382682b5d72e98d2c4cadd6af954af7c794491ae5c59ce6"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_53.json",
+      "sha256": "9232d1c3dcc0761fd56a799fb1f1fccff25fa982cb27a4f325513ed681a21616"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_54.json",
+      "sha256": "fd6e961094540606f362f370f53d84737b5971682d37635d1d6ca788dd9faaa6"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_55.json",
+      "sha256": "589658fb161305329988eaa9615ceef7aad025c56dee1fe7a85fe7d888dc1a74"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_56.json",
+      "sha256": "4eecf01601d5c618def58e2c7e0575153fd65295b7307faa5c5a27c8cc0ef04e"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_57.json",
+      "sha256": "c650535b453969836caaa4bd3b3167bf2bf60bf89ef601c5e7736d9e6e81545b"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_58.json",
+      "sha256": "bda0065d3138ed62106417f3f8fac704ac605437f262819a724f80ae2f9396b8"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_59.json",
+      "sha256": "00c0bc7c628ae90f4b61c4df827d1a2f58b06dc3f40e02deeba4b417c34b685e"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_6.json",
+      "sha256": "460c6f8fa5f5ea14968e9f90c8202aee42ce1745ab0e5528357f9f013733915a"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_7.json",
+      "sha256": "3cec49ef7f13bbf9e73780c67307e9fd769c5b348e54a2d313e0d6f81b0ac81a"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_8.json",
+      "sha256": "58accbba76233938300685e093cedb79915b48e5038e4f580d4295d3ce66a741"
+    },
+    {
+      "path": "scripts/curriculum/biology_6_paragraph_9.json",
+      "sha256": "3ad9a568a5096d93526d02bc280b783d2aa84bd2bd8ab29be599f51c3c69daaa"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_laboratory_1.json",
+      "sha256": "ccf17fc91252a8091298ce54120a9ea8f457819d59b1650b584068cca165ea26"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_laboratory_2.json",
+      "sha256": "6413bdd1a5a712d340e3270f744e7deda2ddc7c1179c9535fb17d3e48083ca9d"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_laboratory_3.json",
+      "sha256": "b5dee5800230f83ca063160210f528da84a49890e66aaa2fb25f14ce3b4e55f1"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_laboratory_4.json",
+      "sha256": "5ca0598aa9c839dc038bf9a0fcfce4c3c8c77f2c617fc82e83028f69fbf275a0"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_laboratory_5.json",
+      "sha256": "a845385d2d5f2eb6f887a3b83fc71794b011345a74cdfe911819305a3e4b95c4"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_1.json",
+      "sha256": "8aa5689faddb6c4b5cbd044224a0d74a0461ca12684b19b3a1cea19bd22c2c4f"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_10.json",
+      "sha256": "06d9bf9270151d37322c15cd82915605fc22a9f46b4a29deeb6a1b7e3950290d"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_11.json",
+      "sha256": "7a5ffc155b5f9a9c96bad5b07db89d33cf770e621bc586f9a89c1c5e2bd4ff97"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_12.json",
+      "sha256": "a90d08cb8fe4808f5545dd27cde1a0e83512cba48eafbbcfad455739d3fc0fc8"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_13.json",
+      "sha256": "ca6b65e490f6abe54170ab1ee50de782e10050ac410470125892be0075aa6bd4"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_14.json",
+      "sha256": "44b3ab3d3a2cb7c6faa5c25a21399628a358ca176c942300c347388e32e2e682"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_15.json",
+      "sha256": "78e8b10e3a8ea1aa29f314b57dc03ca63057ffb4e0de4efa4e022bb4f62c41f3"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_16.json",
+      "sha256": "9ae4ed41f6e0207456e82ea1914eaa7db4950aa83ae5890dd1ae495f9ee5ffd6"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_17.json",
+      "sha256": "623ba262d6ecdfa32ce6e1e26066efd9b630631471712ca13dd359a5bb20e2e8"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_18.json",
+      "sha256": "0b11d2c49da174e904fd8370312a9379d5d487c6a530e32ddaac23c703230080"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_19.json",
+      "sha256": "e6585bde007d437e006cd38f26576c326b7f09aab1520a21c87533743d2358e0"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_2.json",
+      "sha256": "33ebfd345a144519a06fa7b977687b65cdffc23bf5f2afd0af47a29afb8b5d62"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_20.json",
+      "sha256": "bb6822f77177c417692912d1d57194b850312ca5e5348580d7ebfde63d35868f"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_21.json",
+      "sha256": "91db4b27a8d6dd33ecd1e0637235457edcd7f903813c13462f044533b3217541"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_22.json",
+      "sha256": "794a7263d1f16aedd84e841d302d2110e456d281236026503d369b89a4c74c1f"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_23.json",
+      "sha256": "6aeca59245d49ba0136e3f04d97eeaaac5c876397a8f427f3e8779d5edd24ddc"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_24.json",
+      "sha256": "8a7d1b2f48bf7d87e8b5e7aa1d33d98394bdb8f8f75d3cf8cce158e4c0b2f65f"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_25.json",
+      "sha256": "fc6baaa1db0c19f5211d80f3ae5560d734e5777e44da695589bc244703b7d1ba"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_26.json",
+      "sha256": "87e7380cc59066ad36746f70c55609f1abc75b96f807c6e997a1f2f5133403e1"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_27.json",
+      "sha256": "7c9acc156632452e9128dfa4eff6416a1ba8ffe2afca5f23d1be0d668d04d57e"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_28.json",
+      "sha256": "8edd79e261c5353dd4dabeaf817a85ed952a1011f6842d51d739035a3b60a89d"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_29.json",
+      "sha256": "a4a821926e5842b6c19fe27bac123c4f1188ef67741f9445486a02f7d08e2f0f"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_3.json",
+      "sha256": "abb862924f308f00b5cbd0d368b27227e3adb112c47fa10a901e292d4ed70458"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_30.json",
+      "sha256": "f20d437ed0b6f4d358cb7ff2af3014bb486269faead3481a86305b45d2a751fb"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_31.json",
+      "sha256": "b0a78cd0ed411dbf0f6266a0839c9d632a41009728e3b629a33a625cf16a799b"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_32.json",
+      "sha256": "8c311911792388f47bbace87ccc45cd2c33eede2bd0368c648ed2370e4417cf5"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_33.json",
+      "sha256": "ed90a427c9c09a8f479563693ed80e9c28dce7086f51d1bc76637138137abb3e"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_34.json",
+      "sha256": "d5ddfe1d3262189b49a14f6ea6607b332c4b9942ba89e559b71c4619a20324fe"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_35.json",
+      "sha256": "2c29ddc1e0d71a26c6abbea4239cd2cf6958dc6e555715fb8f707b6ae6648076"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_36.json",
+      "sha256": "87d9d55769cb962f432e816d762f68b39a2105c127775409bcee7024186a04b3"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_37.json",
+      "sha256": "f1885069a43446172266b728017341bc446af4f87a00f640a175229a9734057f"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_38.json",
+      "sha256": "99e8dec49eea03213477b419518e3fdfa4d1203d6c448c3c4b6ba0506b59b3d9"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_39.json",
+      "sha256": "ef70eee8dceeeeac4984a4e3c77e472c8753a72c66ecc6519fb15ca75c1fbc2b"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_4.json",
+      "sha256": "6369d56698b55f065f0b2e7c276897bfd11baedab7953f87f0d18ea908115999"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_40.json",
+      "sha256": "2a2db2e49fc71efa009a1314e29d831b13339adc2d61d0f4a6734e0906176960"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_41.json",
+      "sha256": "fb35882c9cf9d44079da9cb02a8b742e870068240a1f0514c10894daefcb64f2"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_42.json",
+      "sha256": "f8617ea4c62057c41cbdc929c9a47585aa6147864b5e0551db8ec59a53f8aa7d"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_43.json",
+      "sha256": "7e40be202216d05a49f947fbddf6cda722c82dc1188d7988e6bfcd3d0e5aa570"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_44.json",
+      "sha256": "1c019b5efbf0e3503092658c9ae5b18487521f3858afcafa936c1eb6331ea274"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_45.json",
+      "sha256": "78233cb88568f53f4a714d34e461e69b65a43a9963c1d44fa361297666b9b9bd"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_46.json",
+      "sha256": "2363981eac75183b29670612aef460fd2467c185527db1ded1cd1d341134c538"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_47.json",
+      "sha256": "a9be88812615719a3179b0d8bb3975d8a8e3452097ac7bb395350c014fcef2d6"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_48.json",
+      "sha256": "eebd7efc80ca09cc4e3e10a0a4a2fc0909864cd81f1b73004d7b3d30f5e6e875"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_49.json",
+      "sha256": "0f7742ae94734dc606c4fb0eae4bb54efcefb488fcde7620a67660a0120453c7"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_5.json",
+      "sha256": "055d11f32efac2989ccf169576587023327374e8b16f09323dc205ef3cad4f48"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_50.json",
+      "sha256": "07dcb542d30e5762db92b197cf8d6ad5086cd8cf733b87d771f05d1fe70a7e5b"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_51.json",
+      "sha256": "48c6acd966a71cff04fc474f1a8a641cb77c603d8a97db782db6bc8778822e4b"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_52.json",
+      "sha256": "1ca4fb9da0bdfb20711b664caff7fbbfece422a9409ab87117b4fc24ca34f3ee"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_53.json",
+      "sha256": "641aa1eaf1f22b5220679783545740daa7097c40016e00e2c167f4ad99e1f623"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_54.json",
+      "sha256": "2ccfe5a1c1d1d43c7c7771ab4eb86140f44fdee3c81f0cb7bda5a08b3ed9bf98"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_55.json",
+      "sha256": "3365dfd05dc51d643087c0983b97c956dddd0c8953ee7e1d9457556cf130f87e"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_56.json",
+      "sha256": "4371582b4724848d228aa61e944c25f5dfae5d5816950218e121de93a7ccde99"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_57.json",
+      "sha256": "7e75d6325205538bbb691da98bcec426f33dc59abb8aec33317382f3da4c5aa4"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_58.json",
+      "sha256": "81d97b487a23c8339ea3cc377ca01e64102759770b557d6a357079400dac8779"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_59.json",
+      "sha256": "4fd22cba7cda3950da36609cef8a01ebc42c36b495a668049f72e28a99a2cc9a"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_6.json",
+      "sha256": "35a44c44aabe216068ccd849cda07f1b00ff35640a28c85436bc333db1766693"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_7.json",
+      "sha256": "340b346fb68e1859dc456744676f81a2955a81cff95d59ea12b6a1d60b83c238"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_8.json",
+      "sha256": "a7436c27c6a2dc2651b052e6429bec4ec233b4525f053b45d8dbddc2bcca6816"
+    },
+    {
+      "path": "scripts/curriculum/biology_7_paragraph_9.json",
+      "sha256": "1df6385550fb0d7dd6b551f262a380fe5eaad260a1353e75d64defa1f9e88529"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_laboratory_1.json",
+      "sha256": "4f4079f04aa3908322e02fc6b8f58b3ce1d6feb859f6f5d2e2684c7ca48dcec8"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_laboratory_2.json",
+      "sha256": "1f3f9aed6da9e19f87d8c4d2fefdd5d8358335c493baa2c31a659f0229770428"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_laboratory_3.json",
+      "sha256": "cd1763c7b315fda474fd3dfd6ed4f3868b872d6a7dbeaa6e7c113bf3ecd08e61"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_laboratory_4.json",
+      "sha256": "680f89beeb515e3f6f826ee6666f3b69c352ae58580560517c5330d53aa2495c"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_laboratory_5.json",
+      "sha256": "7986a51329353af4ac228bdfeded7c77843f02f150e235a59e3c0a98b8d5ecfa"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_laboratory_6.json",
+      "sha256": "3e1a6e6377246a16ca2013ec8a54734166b766a008420ec57c441b52c1e636a9"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_laboratory_7.json",
+      "sha256": "3ed266e1d796b4d721b7edee863f218742417a6095900318d260338ae3487823"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_1.json",
+      "sha256": "0393f3272b6b41e919e9d06b7741d145a8de0c7751b17a00b9086b4830dd5c4b"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_10.json",
+      "sha256": "703f417643c2f814ffd28c5642354013bbcadf9fc8b7e3f123800c2ae15663d9"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_11.json",
+      "sha256": "e8bd33c0441887794c81947d8f6df78fa1ac7b1306a7b34049df0708b0adac6b"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_12.json",
+      "sha256": "4d6df91e75aaa67e563719ffb1c83e32d405907ec86be8aadb2124bde5c38536"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_13.json",
+      "sha256": "a4774c5d6008ea36ec51e5e69a277c503ea2fb98c0c4959f2964175360a556d9"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_14.json",
+      "sha256": "25ebe7c4e6e4db44d15633c083225ae558b4ff7806482ec36c070b642fbc6aab"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_15.json",
+      "sha256": "f48b151ff96f647f1b80d04e5c26ca4149bd6c3eb193605571e018e59f7bdcf6"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_16.json",
+      "sha256": "e5930486767d31c0a4f385e10be353d207f9d1954a08eed525d50144c818834e"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_17.json",
+      "sha256": "4cdc068769057010200bb9b6e13af24e2c12ad0ba811d449ba673edc80184d78"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_18.json",
+      "sha256": "ab8bdbbaca5b87c8933c11ddefe7c6622e221e79155ad3b6e4efbd8f96c80cd3"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_19.json",
+      "sha256": "ca08c2d62b07b4bcf8a86b126cc7e85642c20735d03bb71f1a40c0b4a1f5e0fe"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_2.json",
+      "sha256": "63b4c718302c8288bf8b38ba44e3d6c60e833309bbf25bef70c9fa9c797091e7"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_20.json",
+      "sha256": "a52fb0610392764f1ae828deaa07f4b96d8ce50f0bba49f642ba05a97102974f"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_21.json",
+      "sha256": "2c520c0d4089fb7382df25b772ab73fd1e4a135e6511e8c090c43453249c1783"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_22.json",
+      "sha256": "858a038d6bf51ccdc5ffa1ba10c2e93b9519665857713990cc319a0bf8823c89"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_23.json",
+      "sha256": "c423b4751c5eda477e7754763d2be4e27f2048bbb4191daae6eeb4f27c24f996"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_24.json",
+      "sha256": "63790a811f1abea63ce017a8daf9e009b3d7c574b37764d44d0da1f8ddf7b37f"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_25.json",
+      "sha256": "8d1b57c430871a69e47b872b740d6573f35a69e0194157a32230a5003a61f781"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_26.json",
+      "sha256": "f42c9ad9adb334e4e4344f8a7f7ad9c5d0574efea2a24262614d722797867c75"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_27.json",
+      "sha256": "e061f40128bbb815255e1d87d1577a190f56dea993263caed470f2de4fed56f9"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_28.json",
+      "sha256": "dca6b6d5099af79c87c1fd2a8159cc581ff8539cf8db0e6e058b6502e752d44f"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_29.json",
+      "sha256": "4d4aa25a8d0514ac52f0e1d2cb2ece26e2db4d23ea7bdfa206220e55e1c6b981"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_3.json",
+      "sha256": "100662d98cf07e931835817e005f951b36248a2c099276c5602d5a2be4018105"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_30.json",
+      "sha256": "e7b68f0bc4086ff5f5c4ea59d589979214a518de00d1381ec87c8963feb193ef"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_31.json",
+      "sha256": "34a62628fc270d92ae1973768a620b76a0fc731feb839802133dfe76aa0dda0c"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_32.json",
+      "sha256": "abc909acd26d4313b67b48fb39981f111a115d47d68e8495bf3fe218a39e5bdf"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_33.json",
+      "sha256": "7168cd0b05b25c6acc1a880fc9cddd812b01604eb8481f4e745b1998721a04ae"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_34.json",
+      "sha256": "dfb066fc05a2263b11672882df3a855d71dace0d649e9ee0d7abc376079edb29"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_35.json",
+      "sha256": "d62972c29b8720fa7d8933e790f78952bed1f6828443fe44b0937cf95b5138ab"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_36.json",
+      "sha256": "21b72ab9447dcf84fe2dd897d23c009d29eef586463861b8cc62c93748f4ca54"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_37.json",
+      "sha256": "b137f63163859467db371d7e4d3de698961c077b172f68cb439e43f335e3ab7b"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_38.json",
+      "sha256": "ec8706b79391b88b3aa70c03dae4abf7923fbb767bb6a61e6bc886699c2d8466"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_39.json",
+      "sha256": "4a1aaa76bf3045077c552a05be5d31a833caf70dbe8e1d3d580db27fb28371d5"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_4.json",
+      "sha256": "c70f1f26566455a0d4fe4c45f92971f39e3e37e37864b2fdfd461f27cfca2646"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_40.json",
+      "sha256": "8e94f9128b9aa83921be06081b0a20a4dc7f7afe9ba8325d6fbf88c4f077804d"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_41.json",
+      "sha256": "03aedd0fdf49b3df507ece08d5106a870bca847ddada57d3858d70ee93779b06"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_42.json",
+      "sha256": "eccfc6be56eac2730026713d8797939b084bde4fce085306d43d4cd9103e05ac"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_43.json",
+      "sha256": "7af943a3e44a7b443e5c560780a2d761c108fed8ab75fe771b07b4236e972d81"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_44.json",
+      "sha256": "868d39c9bd2e3e47bf2a767f2ec2f82c6363e55c7b931eaa9c6fc9441c0114c6"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_45.json",
+      "sha256": "72baba6ac184304cdbd9436077e32bc0e1a4bbbdabfb013cbe5fed885148ae76"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_46.json",
+      "sha256": "8b3f504a737247d2753bc4b4deada0bf1fea7f880f585d34285b72c4b9f96573"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_47.json",
+      "sha256": "6bcd480fdbd7b4ee028c926de7e561520339fb6a50d74c45433a3a2ef26cdede"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_48.json",
+      "sha256": "a8148cf60026e3a53e7afc3474bb129251653d3095eb445ec0b398b9fe70f854"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_49.json",
+      "sha256": "f97cba2dda393b42675c0b7a010e880adab7a2746ca4691c4b5f278ad65d80b4"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_5.json",
+      "sha256": "9b84e58dbd0742dce184bc41102a3ee278a61147a98632214a3292c5d1ef19ab"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_50.json",
+      "sha256": "db45da715c382f202256a5854fee8902db01257fb6243b8e5d1b7f3606841812"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_51.json",
+      "sha256": "e58904a86d224554d1cc372c6bb7e63479558e69f754bc9208b5a2f1e918e5e4"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_52.json",
+      "sha256": "d4f3f5b1ac6a31b3be7281e8a44791bb5f6fc4a04461e2eb316fc063a4ea3d12"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_53.json",
+      "sha256": "a0911f616d8698ab37936def85d5e4c91c2d7ebf21784c9bd23c25d0eb1c3a61"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_54.json",
+      "sha256": "f1b1be0980844ed2aac7671988c5a2f516d1015f132e480e49612f2331ff1c49"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_55.json",
+      "sha256": "75953a0c8c302d8986708c268bb2a0c22b95c9d50a5394cd4d236435e4321f92"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_56.json",
+      "sha256": "acc34a83434765114a8607067bfa4d8a99aa7675b6d59447d063b392cf3be51d"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_57.json",
+      "sha256": "ec74555f58fcda660b2725645f0bc6e3a6773d06929eae999e9e2cf311e8b485"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_58.json",
+      "sha256": "630b6361d1f23790936507c7884f54c3b4074694a733ed02fd40b8a5b0face33"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_59.json",
+      "sha256": "56d6e293650b259229232037c1b5fe587d00dbf4ca80b26b79ff13927194d022"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_6.json",
+      "sha256": "b075eda68fe42d611eee9c89521fd27680a34d89e67f963340bef2337867321a"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_60.json",
+      "sha256": "06f64875ce885b0b9399a6a8754b6097c809f4efe76fbc0864cbf211a779d0de"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_61.json",
+      "sha256": "1b9abedc88d410a0fbaba767e84f7291cf314d060f511bbb136ec6b3dc377f07"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_7.json",
+      "sha256": "5cd44ec9c0d53971744f5dfab95b446551dc922e5078112a5cddd5ff64173dee"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_8.json",
+      "sha256": "3df203f73f02d9482b708647e5e0bbc9f5abe62d2c9a0e6c008189398a92d158"
+    },
+    {
+      "path": "scripts/curriculum/biology_8_paragraph_9.json",
+      "sha256": "d012eff77e48c6c3c25a9eeb8faaf9d1e560f621913b81c53df999b561e514f9"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_1.json",
+      "sha256": "02d4318eaec3ba8acf5b97ed2ab33fb0fdcf73a234425f69390f016d570278fb"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_2.json",
+      "sha256": "8864f76152ea8acc0e5a14ce53007974e5cb843b7b24b59dff7ad9db20e1afe3"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_3.json",
+      "sha256": "5d5bd24179f1ad9999d9ecf15dfb22f16d113a7f2e4fee1aa7e1f18a93e98edd"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_4.json",
+      "sha256": "301c7dc476700587fa7814319451b4345e4884eb1bc7d97c4eb957befa56c7fe"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_5.json",
+      "sha256": "222aef482bea6a239080b14bc4c4330c4f11b719a615b849e526fd930c38b994"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_6.json",
+      "sha256": "3eb3de8453fbfd3b72664d87df9a58d841c525d3e024634c820ff85171ec90e7"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_7.json",
+      "sha256": "ab611c027786b14bfba9f8c475ec326bc8ee3cec5cc629c78f3d6afce2483f57"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_laboratory_8.json",
+      "sha256": "60616841ece18e35612357cff34f3fed3203843866771694a2c6702579d80768"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_1.json",
+      "sha256": "056448f293a89b3c22059360e11c21d08f05ef203b07637cba4b04c74dc91ae7"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_10.json",
+      "sha256": "e26b3e82d85d1214b35514c77cbcc42e071ac57549c399852edca0e911493d76"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_11.json",
+      "sha256": "4fab3eb35fb23c75f5d1396f10d4c1dc6a3b09c4d3786f73a9f4446fe71deaac"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_12.json",
+      "sha256": "c8ecd39f2bc7156d6171ff49d461db3614b7b70c3454e9d397cb16a9966dba6e"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_13.json",
+      "sha256": "6a52dedbcc4cef190060f26ae0e1e5cc5636e8f81de78b3bb6d841efde49ef2a"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_14.json",
+      "sha256": "c79bb14bd17c92b49a9b0b6e7500024c7248824ecfc8caf480ab471505bc4e0d"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_15.json",
+      "sha256": "37d29e65badec71448d026d8e7e7857d3c04650f9c3cfc2fb5e8c2c16b2e693e"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_16.json",
+      "sha256": "e1dd9a4bc76cc69f2913fbd6b78f6552ffed1574f184824397bbb0ad82ba2dec"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_19.json",
+      "sha256": "96be51c48863f546733c806732e903b460f2479b351005ea3d66569eaf056486"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_2.json",
+      "sha256": "4e3ac822cbe0d0fd80d78d7b32aadaa453ed487e17953adf53f542a32edd6090"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_20.json",
+      "sha256": "d0901054c187a024828ac70c90407cb6ce004efde22912af8c2cab895c65eda9"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_21.json",
+      "sha256": "ea6477de2868f6b145fe8b4770f4cd1736f35dde4a9356b9dc9401a62c6042bb"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_22.json",
+      "sha256": "2819cba02afe84bf3fe72a0e802ccfe5e6e57f06208b6640e7480f2357d9ba41"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_23.json",
+      "sha256": "6744b058c6734464899b6f7a4762631158a88be12e16d16fb6085b5e6ae7d681"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_24.json",
+      "sha256": "47ecf8b825498094b52107576a4ed2463d8cc4ab9e1f4cec5be21e1eb5783fad"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_25.json",
+      "sha256": "ca6d004b992801241e5a5ec4464e950217165ad86c898d79e483bea5c8564444"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_26.json",
+      "sha256": "36f4febc5848887fc5049004982389d9e830c62d8919e18f5cd95e7a12ad2f06"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_27.json",
+      "sha256": "08859b7231eb8fd1f5872ad9e0e349811830f4c14565217fcd67ffe6da60ecbf"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_28.json",
+      "sha256": "fc79be9fe5af8adcb518fefcd51ea2f4583968e6454089f4f711d0065b150dd5"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_3.json",
+      "sha256": "7ad8c9299202dbab82be1ee47c412a69d62b76e10675685eff5c9c9621dac917"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_30.json",
+      "sha256": "ee7e7b9813bdee068c337a40eb0eeb4baa708e669801ccb5f9abb5892c216203"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_31.json",
+      "sha256": "6f3279daa02cf959c75b2aac8d136ea7c21e4ca496ba526d97a7a698d36c12a6"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_32.json",
+      "sha256": "44fc34e3e12126d23744bd005a98c10ae56e4eba7bd8953448a14a600f603180"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_33.json",
+      "sha256": "31f1be10cb1e3885e20490a33921f2956d16414b7a59df9a5127808b171848cc"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_34.json",
+      "sha256": "89e5dfbff475d44c436032728339b8902675be018e78dbc0ff3a9af54692308c"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_35.json",
+      "sha256": "84f03ad78fd0d7b4bb5c9fdd4ff49f1b2e7445081733f7e2c96eb416d82d310e"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_36.json",
+      "sha256": "84bbc7be845445375549e22d219455f6aec4d25ffcd924080bbcb8bff6790794"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_38.json",
+      "sha256": "57c79c210b802d10e53d45b5faf0e8f0b8e48b30dca37475e2ca2a56ca3b30bf"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_39.json",
+      "sha256": "d8e40471826930dcff35308882080f4f3e2bfe321c0c7bbc0c8b63c3fe454b4e"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_4.json",
+      "sha256": "3757843c88a3d1046e65987ba8a7b28b86bc9747fbc4e4f3f1076125311da332"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_40.json",
+      "sha256": "3f6f48f721df5309d1001b7b9bbe368bd7be2d19c9a59b0f98ffea5ca83d767c"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_41.json",
+      "sha256": "d5a4ac47cea9a1b640aa78bcfda1dffd6056ae5f4dc9cd47392401e5b11bbb1a"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_42.json",
+      "sha256": "2962435a59f0f3e4fcdc48964350711916526b355a7c4c6f3e63493a06b86eeb"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_43.json",
+      "sha256": "5e79587f662ffab98f16c0bcfd8509fccda67f1324376fdb2c27c07da39aa938"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_44.json",
+      "sha256": "5f666fda46a1a0e68ca51640e6541a1c7c38d840ae0072d8edc691dc2c169755"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_45.json",
+      "sha256": "6ffc76e6c5175b66d60bdbe8a2f1d5ab48c217f756fd6f88dabf7361f4b2fa54"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_46.json",
+      "sha256": "392d0ea5b05edac5ff93851f593d1b790b5083edec7efe4b6e12f9e5d828063e"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_47.json",
+      "sha256": "6f26564b7657f60efd3bc47d9cd4a553981cdb3545b9ebd6cae60a3e42629d96"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_48.json",
+      "sha256": "b5c3c1c4ede1c03169df760c2648d380fa9e1ae4bf36cfa6ada2edef925eb8ea"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_5.json",
+      "sha256": "99c8e4e28b7ab65d9db8a54954e2d8f9d060ce216cfc070426c087ddddbfecd3"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_50.json",
+      "sha256": "a91109dbdaa9b3496405fdb87952b89a2d6d640e4b843ccae18db0bd3af2d0cf"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_53.json",
+      "sha256": "4823c883e94c3de5e46306d4391ffec22c07a3535b8aac1c860cacb442b0a574"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_54.json",
+      "sha256": "c5c62f5b577602c72a9a62df6f2fa9cf54975246d1bdc0214fd1efcb58b0dc70"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_56.json",
+      "sha256": "8722698b58e67e471d543ef27a81ada5d30fbdee8e1c672ce9eca1311d5d65fe"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_57.json",
+      "sha256": "cc0887c1bf2f414c21debd5581274ea93c41d8adb904c1e6bf8f80c7706e3df6"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_59.json",
+      "sha256": "4d0dd8e926bf77cda5cb2b999d547872d06ef005001a2e924a389225b16490e4"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_6.json",
+      "sha256": "01af3b66fef45409eeeeff749ea959556429a17e2131ea3c3120dd9fa5dcc28c"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_61.json",
+      "sha256": "cff30cd7b20defdf5eb49e2ca4b02f662127d07836930e32cc2085db6851ace3"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_62.json",
+      "sha256": "f2e99f80c7b5975f1733e3e8cfc809916738864ab21fa3a2a108f72aa57da702"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_63.json",
+      "sha256": "13e0851d664e2c2b50ba8e423589dc901433cdab8c088ff71b9b500c962baef9"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_64.json",
+      "sha256": "b21b6ba1fe7eebde191d0116b57de48994b692f798023894e2686588da6cb753"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_65.json",
+      "sha256": "d5037b01b401a068834015807c56f1d90fb6e9ff209233b182bfa4584b0c0336"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_66.json",
+      "sha256": "0e19712ed180b4dab5c6df5e6434acd356d359f41ce3a8b391aeddd330ab528c"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_67.json",
+      "sha256": "65947fb6f96820c9e028236dba50bce4eb83827470ef29b36d78a731b3c15613"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_7.json",
+      "sha256": "8388efb1c45e217256b5d3dbb27090a43ec20d7b8d83d5563c6e9e9b7b82b01d"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_paragraph_9.json",
+      "sha256": "d10c660c438c318e120d5ceba7d1c25d1be5d31e233050cc5c9ef8c1a827f327"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_practical_1.json",
+      "sha256": "6ee0cd2042cfd5b9ae4d440733ef4b1ec75e3a94c82c87e1d66dde8756f7ae41"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_practical_2.json",
+      "sha256": "d617142c55c2b442c90038a4ffea5bacce39a9e6e3d0db48a74e2ee460ea9f3c"
+    },
+    {
+      "path": "scripts/curriculum/biology_9_practical_3.json",
+      "sha256": "c856150b018432cc20d0b71cfa7971fce550f8f61563533aaa897be2009736a0"
+    },
+    {
+      "path": "scripts/curriculum/biology_completion_audit.json",
+      "sha256": "c7c1ed441e66e7e43289b5cc747fd996a206a02fdc990e7575c41ea6f5e01bdc"
+    },
+    {
+      "path": "scripts/curriculum/biology_lessons.json",
+      "sha256": "1c072aa848448942a4855c242e323c593c1b83348d5c8558d83f1b5459099206"
+    },
+    {
+      "path": "scripts/curriculum/biology_preserved_baseline.json",
+      "sha256": "ad0fa092cbed6c39bfc2459dc7271ff9fcbfd053e3d19c30816e4e5ebf2cd8fa"
+    },
+    {
+      "path": "scripts/curriculum/biology_preserved_release09.json",
+      "sha256": "4ccc028a8e51bc76e6d08be98ef76baa6bfd7252e26993cf4c26ace9ac225d97"
+    },
+    {
+      "path": "scripts/curriculum/biology_readiness.json",
+      "sha256": "3e9ba1b48ecba5a159e31a39d6df265d1f75717b54e8ff681c8487352e111f39"
+    },
+    {
+      "path": "scripts/curriculum/biology_scanned_review.json",
+      "sha256": "c914acd98007448cd6b5515cf434ab78771841e617bbe86d97db1e3c38442553"
+    },
+    {
+      "path": "scripts/curriculum/biology_sources.json",
+      "sha256": "c173eb0e4c14305dc197a79527861b0d1b4558dd9b2ae0d639836e9e6bccd16f"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch1.json",
+      "sha256": "9ea1e5674b0d75c5f15d9ea8e352db98a55f0c45c59c17aab9238cb98f81dd5c"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch1_review.json",
+      "sha256": "5284562e175b202d5ab4da306f88861edfa6329e01cd444be2872b7e338fedf5"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch2.json",
+      "sha256": "7ce1fa730a7c46ea91e42e283aa69653d28ce0ca71a3db0af3e872bf211cb946"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch2_review.json",
+      "sha256": "16cd135eb5cef06cf49fe678374c4d88bc6239edc51734573c5a86ba142beb91"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch3.json",
+      "sha256": "66ea5ef6c392dff4ceff701aafbd636167464f93bb3d0a46a9b6f0c1cb4da00b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch3_review.json",
+      "sha256": "444df9f36778dc0fd02bfd7b435cd55867c071f4690e3576e74b383a656f4728"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch4.json",
+      "sha256": "02e8f738cabd21ea3004e9859c338edf955005ab008a96930ae933c8cf8d3cf6"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch4_review.json",
+      "sha256": "f44c2ba906252b4caa2a36b107c3c6ce147cb4f6c697dbb7d07c7ecc2eabf780"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch5.json",
+      "sha256": "a3eedc13e3d63384ab6e1fb8b427502961cfa39fef2db0ea30a1fb409b776759"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch5_review.json",
+      "sha256": "d0858da9e6ef2491ef4e6af19c6180918d865deefca073601842fda72d281a85"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch6.json",
+      "sha256": "4ce28760684eb97ffb4b31d8d58f9bd065658033381ef94c97b8a700c46c0dff"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch6_review.json",
+      "sha256": "a733d87a27d860163a2e8f24ebaf249823f015ea7386444aa83b7fb214d5e945"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch7.json",
+      "sha256": "13e0d5dcf3642c425badfa1c9c722908926f4d8b3699e440243343cc24e38335"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch7_review.json",
+      "sha256": "dc99b28ef7a8b21f7586716ad54e913b597078d121d92f3efc6f380f5010fb8a"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch8.json",
+      "sha256": "aa6a9448a9f65748472f75109f11393b946b0aa40fac1805d58832804067590b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch8_review.json",
+      "sha256": "a495c4da8cf1b7ea72c330369ead36d786f63fc17bd472e1d163c03893f1707e"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch9.json",
+      "sha256": "98af01b861d0e4b4bb41ce6427c86b02abc67ba32360e4a6dc743701faf1a53f"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade10_batch9_review.json",
+      "sha256": "220ffef84a935994549c021c43195dd0bee0b900f98655435ea376a90de68311"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch1.json",
+      "sha256": "6f8253f5725ac2c962b79de1420e87e3d732ab6d106929c99074d5e2203c734d"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch1_review.json",
+      "sha256": "c62e5fb52546f0ce848cadf3ba31c56f8a1d4a219e45f706845b7917073b8f2b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch2.json",
+      "sha256": "7dcdc95355a3edae9bb7b051eac33e8816eb3e4b32b11fd64850da8964bce80d"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch2_review.json",
+      "sha256": "a1afcb60ff89412130ca3a90e6eca2fed71cdcb183c2ec4aa207b51290034a86"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch3.json",
+      "sha256": "c4ddb29232b3d67dd44aa62c0148c043edcf703870011823c29fffbf33d6c230"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch3_review.json",
+      "sha256": "6670b4325ab699188b8e1b06be4dd648c8de6b145f3db7fb726d97f7d1cb6608"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch4.json",
+      "sha256": "109e55409eb328d6d58b8ee4af9df020281b6086ebb625649721d1b8ae23f3f3"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch4_review.json",
+      "sha256": "d8e73f29e99dda1b0f98642830f7bba0227e8e64cfd6be5ffdcaede4c36d4bb8"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch5.json",
+      "sha256": "08968bd19633b1d16f6ae6b35b22318644610d445677e2a8f2fc5c1be28f2e63"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch5_review.json",
+      "sha256": "d8cbe43708c0615557acb8e52bbdc43893c08edaffffeddcaa769d6e4a331c7b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch6.json",
+      "sha256": "10c540b1a33c8394c5fe3b8e1f47539919c7e39a9ef6ba135fa6bdd7bce7e70e"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch6_review.json",
+      "sha256": "5c0fb50b6b5340e51e763ac4da80b979eb39a0cd38ebcd682d924d8a0db20c45"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch7.json",
+      "sha256": "458dfea8d7a4fc4a42c91ab04c2372e7ef02450dbdd82ef5566af984fc382f3f"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch7_review.json",
+      "sha256": "303a0153a005946db40a1b59c3e49424a80fa54a6f2e65a483584f9f302d34ad"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch8.json",
+      "sha256": "c2c1fb1e52eb082bdd5b872e9228597c0d5b16818494d0e2c5f9d253b1cb4b8f"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch8_review.json",
+      "sha256": "49e393aebe798e155ee480b3a73409169f06e237fd2275d4aa52c724bbed65e9"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch9.json",
+      "sha256": "c5e7799fe2900cb30803fe96fac3fbc5ee8affeba3fc4522ed6bb93b9d81a11f"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade11_batch9_review.json",
+      "sha256": "b887717162066d53026cc01437b68e89552a7873873f52c671dffb78997f75b9"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch1.json",
+      "sha256": "8d13627ce9275bda5a402b86d4ea94d67b1892c1538189c88dcc51891a3c6a78"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch1_review.json",
+      "sha256": "1f8d3df75ed936a76645e0271840e119fa8f958f10469ea71ad577f3a5245bc7"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch2.json",
+      "sha256": "246bc2c3c15d7db8b2ec84817e08b8b44aaef38bdb2833e70435bc55842126f3"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch2_review.json",
+      "sha256": "1ced3a0b50b6ebb417bb0856df87213af1279c098f776ed43d126f82c4a90b24"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch3.json",
+      "sha256": "0f6fc3bef8af4a8d3070cd41799249289fb1c0b2f1572df416715e15927e627e"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch3_review.json",
+      "sha256": "5500ce1d8d9954e57d4ad37024c963d2c0d013065413322a7bf0252c6cc47709"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch4.json",
+      "sha256": "afc848bbbffc68939c27ebc5cc8af169ea4864112c1871f9be42e3a90799e7b1"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch4_review.json",
+      "sha256": "cd42a9c842754b6dd3db0e3aa455e71070765a258b8239c48be8341a82d468d2"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch5.json",
+      "sha256": "ba9c8e594ced538ed6fadcd0575ad48fca9f9b10f888591ddf8971b87d7dd2df"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch5_review.json",
+      "sha256": "5c14dc2c5bd91e8b714b50c05e631ef8aacfa2d1bae6cedf0719afa9877a3fa4"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch6.json",
+      "sha256": "af1dfecf79d164148229bed09dcef2ed1d519a5725f4ccb0b48b06f48cd784a9"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch6_review.json",
+      "sha256": "56b34b5595932a0d7c2995b9067668ca94df5bce6b26a5edd4d05a1f19da83a8"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch7.json",
+      "sha256": "728c04ccc594c0e514d66a4add21d2ff560c8fe3049b2720f08866365aa340f3"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch7_review.json",
+      "sha256": "b3df8f0c52c0ff91a8470f86ff07b1b8810b2eee81b90d5be226abe1490a8cdc"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch8.json",
+      "sha256": "710d868e91c997441133cfbffbf2059b4ba97ff86a1f66b5bca27c074d0563cf"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch8_review.json",
+      "sha256": "663d89fa52ecc93d9f5b13175b7cd6f92826e666c2019cc177f257a8471491a8"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch9.json",
+      "sha256": "1a47249530a824b9272a85fc89ad2898509ed3150d2d5b7371c12964594d29d5"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade6_batch9_review.json",
+      "sha256": "1725c7c4a215c743375e09602c6b43f80955ced970b69575341c3301a6d6c26b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch1.json",
+      "sha256": "c2ae781442f86800b3c358cc86ba47f08c2c4b24ac48d69534e928d8d91c11cb"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch1_review.json",
+      "sha256": "ec725dc15f554460573a6641caffbe37807eea7150257d88e7062993744f39eb"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch2.json",
+      "sha256": "e924a91993a45e3559fe55ce44ab9edc6b7c1b765fe343c329499477a999d9f8"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch2_review.json",
+      "sha256": "5e674f65fe93d0806f44f865987f4d997fe2dd624c90088af236194abe1c78c3"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch3.json",
+      "sha256": "87e4c008667e7db41d08e44cd9def04e6d5086b372f0ccd12bfc62cd92cb62fd"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch3_review.json",
+      "sha256": "2911ff2ff1dd7170912b725be8fe60f203266e6b056aa078796cd8b04117356c"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch4.json",
+      "sha256": "cc22f7c6b91628eda8f1282e7862ed451f4d69ebe7b72cbe65cf0f32697010d7"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch4_review.json",
+      "sha256": "72fe218200efd51cd7d65456fd0992491a43100e28ef5de557521d32b9b8d125"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch5.json",
+      "sha256": "0d24669e6bcc43864bfe7ce8541992db5bd8a2cf9ed6f0bd35999f504eb202ff"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch5_review.json",
+      "sha256": "829194fb347be0518d7208bd317c6e11e2ce88a3459bc8ec8204abc23677aed1"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch6.json",
+      "sha256": "1c0f3179ef59c4ec58896f268f7bb05efde5716b29109bb181fe861350c3bf66"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch6_review.json",
+      "sha256": "278de70d852024a998a8a2a6533e4429d3b3cde3abc111ff87d00b0104556abe"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch7.json",
+      "sha256": "46b9fff7481f24ffad0b9e627476202fbc60c1a412a7bfc25271dce7c6177361"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch7_review.json",
+      "sha256": "a3db67b8d4d4f3c754102e00fb1abeaefd72734a9dea871ea496990f93abe84f"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch8.json",
+      "sha256": "00a0ac1cb210e718e8092ba2ae64242236a2684f2d7a59fc27dba7b7b4eb8ce0"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch8_review.json",
+      "sha256": "d26aeb59f7c3ecb21d6a81bcc78c0634bf23f577c750551df6868466995ea692"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch9.json",
+      "sha256": "0233461d8f6e896c5c5a0fe78ab82a10dc41c0ef3e4fe70be648ed77a87054fb"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade7_batch9_review.json",
+      "sha256": "103ea953446bee03b961216eadedfb66e23cd335285a558b75e3e3a87c1ce1de"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch1.json",
+      "sha256": "7408a9788f827041de14f94d507ca85e1e6b639cd00d6b888df443ed5a23c6e7"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch10.json",
+      "sha256": "1262c8c943f0cfc77c6d53b1272b3f47dc4ff76c42b43bb21aa45ee92bf84705"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch10_review.json",
+      "sha256": "65ce4377e6d79c8dc7f6c4214dd3ab015fb7839ed5a5ed47db7559600d78ac60"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch11.json",
+      "sha256": "833130b21b30e3bbbcf95e12a74b25a7fae28cd9ff1676b57d37c45f908a8571"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch11_review.json",
+      "sha256": "75135b0f391743af44452b5e2d93d3c6b7cc451f17ed4c7579de885dcd88dbb4"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch12.json",
+      "sha256": "26e6d6c4d6860ff1774e8b1f3d0f913fead31ca4af34f5c089d6399025f93a81"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch12_review.json",
+      "sha256": "97bb7c46992c715f72d1fef9d9768b6b40539b32d4718abb588c5f44f4203010"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch1_review.json",
+      "sha256": "a8e96045d0c32f17e97c7a886dadf32d83fc06bb367b7202d26499a52f817b15"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch2.json",
+      "sha256": "af3dfaa8011267b605e11425f33bdd5a16f41aa45feafb25d07ffe53e143cf67"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch2_review.json",
+      "sha256": "2324e8f72c661f03febea4b12679efbbc969a676bf94fcdc803d7eea770d9896"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch3.json",
+      "sha256": "ae98a013ef353049ba33a062868766288aa0c40f895e25d5251acde6f1e290e1"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch3_review.json",
+      "sha256": "714706f49cc029fee200537f464361216e8b18e87d67569aef0f2a5ad6830048"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch4.json",
+      "sha256": "4189f029a892137e1c8b0e20b1c7949c92eebeab349afa5f6eae0c761a0e7a37"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch4_review.json",
+      "sha256": "f3cf9cc007b48da8390f096ee289e97c646707e2dd0a9e8f8019a0feadc2004b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch5.json",
+      "sha256": "7b09bf9b849c3bb0844cd232d5cd9ae4e88868eee620b7ea6aea38ae20352670"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch5_review.json",
+      "sha256": "8370aeca4e7eb6fab248dbd77be6d6e39d8c2eb7ddb05c5e5e887848170a47ec"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch6.json",
+      "sha256": "e052e9c07a8e06c1f8fa7c426903c0e60f633b12933bb95ef73004b259d36767"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch6_review.json",
+      "sha256": "237edd297cde1caa482f6a9f9fafbd822ce67b35f11e1ae5bb5e178436888211"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch7.json",
+      "sha256": "cedd6efa6c8bcf6810d8b811a70334e6ab1181d7745c485f378cb3b21bc935b2"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch7_review.json",
+      "sha256": "540bf0ba52ccbecbaa23ff5e7c05981ff8fec59c9edd93ef1630fdc4e66d7b7c"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch8.json",
+      "sha256": "2aaa564dbe27647f53b6713f4b8ed0a9439c9f918394755a4d02d928fabe89fe"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch8_review.json",
+      "sha256": "67882271d55c0cd32d0992cae4484e7832a3939f5d1902b1a91ba37ccc9ebf41"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch9.json",
+      "sha256": "16b0136d1d4e1db96ebcf29234616f93a551f9957e94bff47c0c281d6d79ddf9"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade8_batch9_review.json",
+      "sha256": "7f43c9c26f93e861c2182032b3b8d4c1ef5f3e156cbd9dc86526c90e38582a9d"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch1.json",
+      "sha256": "698f8b921039cf9e9ab34ce634c3f5908c258785e7677d060479ef92d9542607"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch10.json",
+      "sha256": "5cb80d258fe3d6266ab3e187afd8a135506e7b8e4f10b9b2cddfbece8bd890e8"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch10_review.json",
+      "sha256": "e3c8997205ded62117c70d19dc7a0feaf623f2911a864e2701390cecdead150c"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch11.json",
+      "sha256": "3e37e6f2312ab48d85d0b87d39589cd6feb252661ca51f4a2caa526841654637"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch11_review.json",
+      "sha256": "84cac2a8bd3481c521d061db8b91c7b8eef25e8cc679a240f7ef3dd07d88c214"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch12.json",
+      "sha256": "f145fec80e94e2d7f1b3405b23ff0c2bac31784b5ad4d6eeec992be6d962e90b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch12_review.json",
+      "sha256": "af90cb6862e32cabb9e0e61e7e8e41e77081e58be3eb1de84f2ab84dde762999"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch1_review.json",
+      "sha256": "592857a83f116ca056f16b4eb49a5544649d49a8823f683d225ca58568faa266"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch2.json",
+      "sha256": "3e88dd5448054157b669979564ac23275f07990a3ef4fd43c7a6c3aff086207a"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch2_review.json",
+      "sha256": "b0c75c030bd73a0fabc6acbf0e38f2ad9fd7b9e510545f7c7aba56d537315eaf"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch3.json",
+      "sha256": "0ad4161dc6fc53c70883cecadd5e25efc5a29d4e766341d1476c364db32b94e0"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch3_review.json",
+      "sha256": "9640d20852e2afe2fa68900206c1ed6769b9a7e0bd5509ba820e408c370af1c9"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch4.json",
+      "sha256": "7b642a29b4031894c81c7d850b45025c8c4c644fbd4feb1afce95a39ba11f360"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch4_review.json",
+      "sha256": "312474dd9d5d375dff3a6ea3e96a088b035f368e79cd7138f51ba09016980f9e"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch5.json",
+      "sha256": "fb7e0aae0ae569f6c6a65c5a30ba16ec614bb621c3168b5894876133f13c8de6"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch5_review.json",
+      "sha256": "14be8dbddde6d88ff8b8f9e7c4fad8abff1bfb04d3a374aae88dbf462becc612"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch6.json",
+      "sha256": "64035e3484888fcf08a789d55a445a6600e1e6da7a4aa031a51975dc1116131b"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch6_review.json",
+      "sha256": "7f450c945d4bcdce6cb4c8a33a79155c1f3335b88982d6a0df411a1af1dc9699"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch7.json",
+      "sha256": "d01e0bec6dfa36320864fc746507456bff4dfc43dface3566b0df8a35f7d2cb1"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch7_review.json",
+      "sha256": "76de43d8ae53fe664477ed5f865467e1a48ca0e7ad12f648a97bb7a004b1e616"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch8.json",
+      "sha256": "0ab0b3a93c180f5633367de3ee2b9b619d3b49f30ebb7d8218984be191e0d2fa"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch8_review.json",
+      "sha256": "d66c0b460da9cb19a4ab265f302cec019bede2c4246eaf1ca96dd3e75f290e51"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch9.json",
+      "sha256": "8748d83e5ffe585e9958079f9677b08478323cb4e4c546b6bba8e299fb9ca638"
+    },
+    {
+      "path": "scripts/curriculum/physics/grade9_batch9_review.json",
+      "sha256": "59d280e2d05050c409b6ce9f026b757175a2da09565feebcaf8054036b3a22c9"
+    },
+    {
+      "path": "scripts/curriculum/physics/physics_formula_review.json",
+      "sha256": "18b606aff09de7f95ba25860e1a58df22bacb9cf7008dc765e8d2c5a5a86e1df"
+    },
+    {
+      "path": "scripts/curriculum/physics/physics_map_audit.json",
+      "sha256": "edebe9c8b61019e15a9c181c23ad92a35426baffc0516dd02526b510d89ef97e"
+    },
+    {
+      "path": "scripts/curriculum/physics/physics_sources.json",
+      "sha256": "ff9dfca3dcf5f6884e6457275195990d578182b7932cfbb71fcbcfdbcc9efbea"
+    },
+    {
+      "path": "services/assessment_grading.py",
+      "sha256": "f6088199e2a70626025a97f858d0b920c0b99ec696aca497aa8b25b1a639339b"
+    },
+    {
+      "path": "services/assessment_models.py",
+      "sha256": "b9c829654ce3491c212df5b2a56e618341ed9abd9971d1077876d59030eb7371"
+    },
+    {
+      "path": "services/assessment_runtime.py",
+      "sha256": "dfd48af68135655baa2a43d6af41107c79587fd616a8e70c4f8e4f7fa48cbb08"
+    },
+    {
+      "path": "services/curriculum.py",
+      "sha256": "77a75b166fc738a04059f445fab414455af6b82f1a7739f3a682355ef853f629"
+    },
+    {
+      "path": "services/curriculum_validation.py",
+      "sha256": "e174669d8370ae23b6ab8fd8d78f53e39a729dbd91a5f241707cc9898cf6adb0"
+    },
+    {
+      "path": "services/physics_curriculum.py",
+      "sha256": "7445a7254d92e9a794130e7b1c8cb7bed9dccdd76584ee320d787ca489124632"
+    },
+    {
+      "path": "services/physics_rules.py",
+      "sha256": "629dcf8b78ecea462c364970ca4c31adf5749656f74767fbe65abde26215fde9"
+    },
+    {
+      "path": "services/physics_source_documents.py",
+      "sha256": "d91c4eea02a3e11c4fce4f18096d39f9790c2afae53d948cdf7d32b64b762c77"
+    },
+    {
+      "path": "services/skill_stats.py",
+      "sha256": "785ac8117c79978998e0f1f126cc283d21a2ec9325acd26b9685f561010c5336"
+    },
+    {
+      "path": "services/skill_tree.py",
+      "sha256": "95d50640f4081eb4f4928aac0fdccffe95690a4408cf939ed59c45859749432a"
+    },
+    {
+      "path": "services/skilltree_bank.py",
+      "sha256": "a9576e3fd99fdd6615eaf7bda855654278404e54f7c4d46cd5e1ff0e1aa7da4f"
+    },
+    {
+      "path": "services/skilltree_outline.json",
+      "sha256": "a4dd23076ed246ab518645d71ef8b83be9970b1d3d6b51cf46b2fc496cfb4bb0"
+    },
+    {
+      "path": "services/skilltree_taxonomy.py",
+      "sha256": "3985f7d58ceea140740231b602d4b543a27416321f047b96f5fde8c68c509974"
+    }
+  ],
+  "parallel_references": {
+    "chemistry_backend": "9b37213cfeeebb358f2179d76c8c5d97417f1861",
+    "chemistry_flutter": "0312ff3108e96e1e3446bdc8c4dcb27fe7ecd37d",
+    "world_history_backend": "720c279b798a30088d9fed1dfbc9db40c358003a",
+    "world_history_flutter": "8c3f1d154b20bbea6cacbb1d5d636650bc4e4c8d"
+  },
+  "note": "Read-only pinned parallel feature refs. Chemistry/world-history not merged into Physics-based worktrees; cross-branch integrated runtime not claimed."
+}
