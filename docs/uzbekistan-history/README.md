@@ -1,9 +1,13 @@
-# O‘zbekiston tarixi 7–11-sinflar
+# O‘zbekiston tarixi: manba katalogi va lokal/test kursi
 
-Alohida fan: `ozbekiston_tarixi`. Jahon tarixi `jahon_tarixi` bilan aralashtirilmaydi. Hozir katalog bosqichi: **4/5 kitob o‘qildi, 131 mavzu guruhi xaritalandi, 0 interaktiv dars**. Bu kurs yakuni emas.
+Joriy interaktiv qamrov 7-sinf §1–5 bilan cheklangan. **Barcha besh kitob tayyor emas.**
 
-[Manba xaritasi](COURSE_MAP.md), [review](SOURCE_REVIEW.md), [arxitektura](ARCHITECTURE.md), [2026–2027 mosligi](CURRICULUM_ALIGNMENT_2026_2027.md), [joriy bajarilish holati](COURSE_COMPLETION.md).
+- [Joriy hisob va sinovlar](COURSE_COMPLETION.md)
+- [Aniq davom nuqtasi](STAGE2_PROGRESS.md)
+- [Lokal preview, API va Android chegaralari](LOCAL_QA.md)
+- [Manba katalogi](COURSE_MAP.md)
+- [Manba va tafovutlar auditi](SOURCE_REVIEW.md)
+- [Arxitektura va parallel fanlar izolyatsiyasi](ARCHITECTURE.md)
+- [2026–2027 dastur bilan moslik tekshiruvi](CURRICULUM_ALIGNMENT_2026_2027.md)
 
-8-sinf45,4MB skan32MiBexecutortransferlimitidan katta. Faylning original1–160sahifalarini uzluksiz kichik qismlarda olish kerak. Asl butun fayl olinmagani uchun SHA yoki mavzular soni o‘ylab topilmagan. Segmentlar kelganda ularning asl oralig‘i,lokal sahifa soni va individual SHA bog‘lanadi;source-set digest butun PDF SHA deb atalmasin.
-
-Audit: `python -m scripts.audit_uzbekistan_history_sources --pdf-dir /workspace/attachments`. `--require-complete` hozir exit2 beradi:8-sinf manbasi yo‘q. PDF/OCR/asl rasmlar/transkriptlar repoda saqlanmaydi.
+Validator: `python -m scripts.audit_uzbekistan_history_sources --pdf-dir /PRIVATE/ATTACHMENTS --include-lessons`. Besh kitob to‘liqligini talab qilish uchun `--require-complete`: 8-sinf yo‘qligida ataylab exit 2. PDF, OCR va kitob rasmlari Gitga qo‘shilmaydi.
