@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph21.json",
+  "lesson_sha256": "e3c40de8d21c03d6a1686168be7a727487c3f30c00867eba1b58240a93980b89",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p21-page084",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic21",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 84,
+      "printed_page": 84,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "b60514747ebefab6600413449ca8099cf6be2abfaf18a5a331a7527048a9391d",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p21-page085",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic21",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 85,
+      "printed_page": 85,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "fe58eeaded1e23bc8c4b95ed9ecfeaf8953e8dc1703eecd227198b7ea6d7d9ab",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p21-page086",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic21",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 86,
+      "printed_page": 86,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "6704064e343756cb8010c471380323402107ea66ae210dfc3c63e57dc2b47d70",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original84–86 read;84 below§21 and86 above§22 only. Polis/hoplite body below§22 not imported.",
+    "84 original map legend BCE1st-millennium beginning checked; historical settlement boundary, not current sovereignty.",
+    "Uncorroborated one-third mountain fraction withheld from accepted physical-geography keys. Mountain Olimp distinct from Olimpiya place.",
+    "Minos is legendary naming; volcano/Achaean/Dorian collapse model and1200 endpoint not automatic certain-cause/date keys.",
+    "Early sailing scope retained; no universal no-large-Greek-ships claim or operational navigation instructions."
+  ],
+  "approved_fact_sha256": {
+    "geography": "fc9d513016abff555420b8e31d1cabf1c073e3c71bd2a48f7bf6b17891b7e8ac",
+    "olympus": "5475936fe0d92e6615d5dcdaec0346cf1fe66cd30317893583582ba74fc46994",
+    "mountain-fraction": "63a520b8f82a2b4e60ee7216e779c49cf0a7f0c202d27f7cc5f882a1464a095a",
+    "occupations": "c573cabf03afb8b5e6f8fffc20cd944d7a1e510c77051c03aba7a2421a223cd9",
+    "centres": "0bef3f85ec4975dedfe5ecad1e3be2299ee7bc5106f036dae9599e3ae79f60b6",
+    "minoan-name": "14cdfe5d6d394402d6650d86ee0df0cada995cea116e95c1005b957b8ee3ceb5",
+    "collapse": "aee41f322650a876be332d9ba3df9e1e6ac3ba378f48bd7af15df28368689377",
+    "sailing": "04c460b13f37dc21a31daae087d38aaf465297ec46f9234c3a6d445625b090a9",
+    "destinations": "f928390c17f9b9ecef3bd773daa862768c51e1d3e263d35932afe23fb2823c27",
+    "oikoumene": "db0cb8de1e82af05dc1bb51b72a1826c8c4e801eb7ec7422ede3533eb3da578d",
+    "map": "b47677c0ac7f532bf29687027602fe102d1364f86c3540fc3cc2463c97e1b09d"
+  },
+  "approved_content_sha256": "4a5cffaa29b7720030cbb91aa32635d10ddc467e813c056eb1ee22d2f9af5093",
+  "approved_assessments_sha256": "fb08761007c87e82d39f6eb4486589b0611f76386fb1cb98181d87caabbb8786",
+  "approved_answer_targets": {
+    "world-history-6-p21-r1-q01": {
+      "fact_ids": [
+        "geography"
+      ],
+      "verified_answer": "Bolqon yarimoroli",
+      "aliases": []
+    },
+    "world-history-6-p21-r1-q02": {
+      "fact_ids": [
+        "olympus"
+      ],
+      "verified_answer": "Olimp",
+      "aliases": []
+    },
+    "world-history-6-p21-r1-q03": {
+      "fact_ids": [
+        "centres",
+        "minoan-name"
+      ],
+      "verified_answer": "Krit",
+      "aliases": []
+    },
+    "world-history-6-p21-r1-q04": {
+      "fact_ids": [
+        "sailing"
+      ],
+      "verified_answer": "Egey dengizi",
+      "aliases": []
+    },
+    "world-history-6-p21-r1-q05": {
+      "fact_ids": [
+        "olympus"
+      ],
+      "verified_answer": "Olimp",
+      "aliases": [
+        "Olimp"
+      ]
+    },
+    "world-history-6-p21-r1-q06": {
+      "fact_ids": [
+        "oikoumene"
+      ],
+      "verified_answer": "Oykumena",
+      "aliases": [
+        "Oykumena"
+      ]
+    },
+    "world-history-6-p21-r1-q07": {
+      "fact_ids": [
+        "centres"
+      ],
+      "verified_answer": "Krit",
+      "aliases": [
+        "Krit"
+      ]
+    },
+    "world-history-6-p21-r1-q08": {
+      "fact_ids": [
+        "minoan-name"
+      ],
+      "verified_answer": "Minoy",
+      "aliases": [
+        "Minoy"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 84,
+      "activity": "map_geography_and_era_legend",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card6",
+        "q01",
+        "q02",
+        "q03",
+        "q07",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 86,
+      "activity": "summary_and_three_questions_above22",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "q04",
+        "q05",
+        "q06",
+        "q08",
+        "reflection"
+      ]
+    }
+  ]
+}

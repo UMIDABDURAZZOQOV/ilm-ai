@@ -134,3 +134,36 @@ Inspected widget renders include§12 feedback at200%,§15 theory at200%,§16 res
 FRQ, plus prior source/feedback scroll states. No actual native Android, IME,
 TalkBack, independent teacher sign-off, full2026–2027 equivalence, production/main
 operation, raw-source publication or real-user access is claimed.
+
+## Batch04 — grade6§17–21, 2026-10-27
+
+Five additional lessons:41 cards,71 fact records,26 MCQ,20 objective FRQ. Total
+**21/219 local-preview lessons**,186 cards,313 facts,123 MCQ,77 objective FRQ and21
+ungraded self/teacher activities;198 units remain (25 in grade6).
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Current backend/source/preservation |112 passed in196.85s | All21 lessons, source identity/regions/digests, exact answer targets, reviewed aliases, disputed facts excluded, complete prerequisites and once-only420XP |
+| Actual PostgreSQL |1 passed in29.16s | Dedicated history staging; parallel first completion, all21 sequential lessons,420XP, old synthetic account preserved |
+| Actual loopback HTTP |6 grade catalogues,200 answers,420XP | Fresh synthetic learner; ordered access/replay and no previous-progress reset |
+| Targeted Flutter |53 passed in00:44 | Actual API fixtures§1–21, third-chapter opening, MCQ/FRQ, 320×568/200%, previous resume/account/language safeguards |
+| Full Flutter regression |662 passed in03:58 | Entire current suite, including shared UI and existing subjects |
+| Full Flutter analysis |0 issues in96.9s | Entire current Flutter history worktree |
+| Preservation |687 SHA pins matched |406 Biology +268 Chemistry manifests and13 protected runtime files; prior16 history manifests unchanged |
+| Critical Ruff / whitespace |Passed | History code/tests and staged diffs |
+
+The full2569-pass backend snapshot remains earlier evidence, not a batch04 rerun.
+Current112 tests and separate real PostgreSQL ran against the finalized21-lesson
+manifests. History runtime/schema and production routes remain unchanged.
+
+Unresolved Chjou69/71 chronology, Qin246 timing, rice-origin and tea-health
+wording, seismograph prediction, exact wall metrics, ancient-city relative ages,
+astrological etymology, literal revelation, geographic fractions and definite
+collapse models are excluded from automatic keys as documented. The seismograph
+prediction sentence has its own unassessed fact ID and cannot enter the reviewed
+instrument-name feedback. No invented correction date or external fact was added.
+
+Actual widget renders inspected:§18 feedback at200%,§19 resumed FRQ and§21 theory
+at200%, plus prior shared-feedback scroll states. No source PDF images bundled.
+Independent teacher review, native Android/IME/TalkBack and full2026–2027 outcome
+certification remain pending; no production/main/real-user operation occurred.

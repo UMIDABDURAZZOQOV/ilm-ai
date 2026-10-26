@@ -13,7 +13,7 @@ from services.world_history_models import WorldHistoryProgress
 
 
 def test_batch03_exact_coverage_aliases_and_interpretation_limits():
-    documents=load_lessons();assert len(documents)==16
+    documents=load_lessons();assert len(documents)>=16
     batch=documents[11:16]
     assert [len(d['facts']) for d in batch]==[16,18,14,15,15]
     assert [len(d['content']['cards']) for d in batch]==[10,11,9,8,8]
@@ -55,7 +55,7 @@ def test_distinct_buddha_names_cannot_become_an_unreviewed_alias_for_every_quest
 
 
 def test_all_sixteen_follow_prerequisites_and_award320_once(history):
-    client,factory,_=history;documents=load_lessons()
+    client,factory,_=history;documents=load_lessons()[:16]
     assert client.post(f"{PREFIX}/lessons/{documents[11]['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())}).status_code==403
     for d in documents:
         response=client.post(f"{PREFIX}/lessons/{d['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())})
@@ -72,6 +72,7 @@ def test_all_sixteen_follow_prerequisites_and_award320_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==16
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==16 and catalog['source_sections']==46
-    assert all(r['state']=='completed' for r in catalog['lessons'])
+    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert all(r['state']=='completed' for r in catalog['lessons'][:16])
+    assert all(r['state']!='completed' for r in catalog['lessons'][16:])
     assert not catalog['grade_content_complete'] and not catalog['course_complete']

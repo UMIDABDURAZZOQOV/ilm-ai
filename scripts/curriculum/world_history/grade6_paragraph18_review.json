@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph18.json",
+  "lesson_sha256": "b275a6e591c684c59b856aea1b68b6a2872287d7ed57f4e9f8f5f46cc72910d2",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p18-page072",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic18",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 72,
+      "printed_page": 72,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "9af7ae9780c989884c0167e088b6a6ce002156e74aba293f946cea6be5114f25",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p18-page073",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic18",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 73,
+      "printed_page": 73,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "bb3b26aa9221e1d779d0dce81944733d7966ab39d9e3b425ca4f25cc43600a3b",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p18-page074",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic18",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 74,
+      "printed_page": 74,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "8024d84494217ab80b0424bc20f436f31cc8bdb683cadefefbf81df07398325b",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p18-page075",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic18",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 75,
+      "printed_page": 75,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "7148d8d574b19de50314fb33700868ec1af32fb8bc06413dd47d7b1d46004b50",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original72–75 read;72 below§18 and75 above§19 only;75 Saka figure/new-topic facts excluded.",
+    "246 accession/unification/title conflation not keyed; no unverified replacement date.206 chronology kept source-scoped, name/dynasty relation only keyed.",
+    "Wall metrics, absolute impenetrability, labour totals and terracotta counts source-scoped; photo not assumed Qin-period fabric.",
+    "74 seismograph prediction wording withheld from accepted scientific claims; only pictured instrument label keyed. No earthquake advice.",
+    "Paper invention priority and relative2500-year conversion withheld; no named inventor/date supplied from memory."
+  ],
+  "approved_fact_sha256": {
+    "qin-ruler": "7af2fca790e420c9930307845a28ab1a507861b834f58e528b72aea84d747ffd",
+    "qin-date": "9f5b33e2cd4df5bea072252ddbbb94ef48e2bccad287130e42fba4b3316177f8",
+    "administration": "a39649cf836ca349e6dade47f6061de67c085ffdd74ba2222165520fce2cfa27",
+    "tomb": "bf9c9ba19774747539f8563ddd389dd1ff684c65ebf95bfc1370474913da42d8",
+    "wall": "460699e8d7b1fae01fdaf9f6aaa74b7d18f9efc90fc405d3265575276e6bca5b",
+    "wall-metrics": "645cd5d518f6a75ab15a4adbd88fffe03f726022d442872fb9dbb2c4d11a52c7",
+    "labour": "01c0e9c0e4b9079ba4187cd6567f14962a0828e550b80a0f3b4815b70f91da64",
+    "liu-bang": "43fc2be570c4eaa4927ae5cffbd5aa93ca0f0a2fb070219f9345cd319f1afc34",
+    "wudi": "74536fdab5d65fd2d8399b0e950f38e9155fb06a69892e7e3498f16500513fd8",
+    "rebellions": "40c8768596e5028de7668859c7086d1feecce139b5b48637aede4338225b27e3",
+    "causal-model": "e2091057f746e3c7eed4fab02a005a09451db0131c22cf4d4cec50472f02947a",
+    "writing": "fc7b9a9de63a359845fd186ca7c9e2af676aa71bdfab9bded5f961d3cb41be93",
+    "paper": "afd48c76f9fd848b641382fa9f97e1892eec0668b8fea9280cb533b645fb5497",
+    "compass": "dff57ffc499247b2acc5865445bd6e4b5345691889e1388f254683d251732ed9",
+    "seismo": "f945a1f75ed40a14208b43cbeafa94c720933aa0a35200af3ae08d2ecfef0624",
+    "seismo-prediction": "fdf2ff1906d6b51316e63f90682c59ebfc60409947a5121b1b6d3773ef2d0c5d",
+    "historian": "003e9826c88c13ccdd3d7545a2ea235d4c5980f7b4d03a725371793f4618a7fe"
+  },
+  "approved_content_sha256": "2ecaf9e09bcb0a2b8afd0b1b2463f7404a5907866b69793635852e0ce99440ec",
+  "approved_assessments_sha256": "75bafa5fabe6c3be9ba31578a4fc6765c52b98bcbea15cef0996c30966501a0d",
+  "approved_answer_targets": {
+    "world-history-6-p18-r1-q01": {
+      "fact_ids": [
+        "qin-ruler"
+      ],
+      "verified_answer": "Sin Shixuandi",
+      "aliases": []
+    },
+    "world-history-6-p18-r1-q02": {
+      "fact_ids": [
+        "liu-bang"
+      ],
+      "verified_answer": "Lyu Ban",
+      "aliases": []
+    },
+    "world-history-6-p18-r1-q03": {
+      "fact_ids": [
+        "wudi",
+        "liu-bang"
+      ],
+      "verified_answer": "Xan",
+      "aliases": []
+    },
+    "world-history-6-p18-r1-q04": {
+      "fact_ids": [
+        "writing"
+      ],
+      "verified_answer": "Bambuk",
+      "aliases": []
+    },
+    "world-history-6-p18-r1-q05": {
+      "fact_ids": [
+        "compass"
+      ],
+      "verified_answer": "Kompas",
+      "aliases": []
+    },
+    "world-history-6-p18-r1-q06": {
+      "fact_ids": [
+        "administration"
+      ],
+      "verified_answer": "Noib",
+      "aliases": [
+        "Noib"
+      ]
+    },
+    "world-history-6-p18-r1-q07": {
+      "fact_ids": [
+        "wall"
+      ],
+      "verified_answer": "Buyuk Xitoy devori",
+      "aliases": [
+        "Buyuk Xitoy devori"
+      ]
+    },
+    "world-history-6-p18-r1-q08": {
+      "fact_ids": [
+        "seismo"
+      ],
+      "verified_answer": "Seysmograf",
+      "aliases": [
+        "Seysmograf"
+      ]
+    },
+    "world-history-6-p18-r1-q09": {
+      "fact_ids": [
+        "wudi"
+      ],
+      "verified_answer": "U-Di",
+      "aliases": [
+        "U-Di"
+      ]
+    },
+    "world-history-6-p18-r1-q10": {
+      "fact_ids": [
+        "historian"
+      ],
+      "verified_answer": "Sim Syan",
+      "aliases": [
+        "Sim Syan"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 74,
+      "activity": "ruler_writing_wall_recall_and_instrument_images",
+      "covered_by": [
+        "card1",
+        "card3",
+        "card7",
+        "card8",
+        "q01",
+        "q04",
+        "q05",
+        "q07",
+        "q08"
+      ]
+    },
+    {
+      "pdf_page": 75,
+      "activity": "summary_and_four_tasks_above19",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "card7",
+        "card8",
+        "card9",
+        "reflection"
+      ]
+    }
+  ]
+}
