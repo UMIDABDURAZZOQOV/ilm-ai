@@ -16,7 +16,16 @@ from services.uzbekistan_history_sources import (
     validate_catalog,
 )
 
-BATCHES = {"grade7_batch1": (7, 1, 5), "grade7_batch2": (7, 6, 10), "grade7_batch3": (7, 11, 15), "grade7_batch4": (7, 16, 20), "grade7_batch5": (7, 21, 25), "grade7_batch6": (7, 26, 30)}
+BATCHES = {
+    "grade7_batch1": (7, 1, 5),
+    "grade7_batch2": (7, 6, 10),
+    "grade7_batch3": (7, 11, 15),
+    "grade7_batch4": (7, 16, 20),
+    "grade7_batch5": (7, 21, 25),
+    "grade7_batch6": (7, 26, 30),
+    "grade7_batch7": (7, 31, 35),
+}
+
 fingerprint = digest
 
 
@@ -157,11 +166,17 @@ def validate_batch(doc):
                     not fact["accepted_answers"], "interpretation_not_objective_key"
                 )
         taught = set()
+        expected_refs = [r for fact in facts.values() for r in fact["source_refs"]]
+        require(
+            {digest(r) for r in lesson["source_refs"]} == {digest(r) for r in expected_refs},
+            "lesson_source_coverage",
+        )
         for card in lesson["cards"]:
             require(
                 card["fact_ids"]
                 and set(card["fact_ids"]) <= facts.keys()
-                and card["body"],
+                and card["body"]
+                and {r["fact_id"] for r in card["source_refs"]} == set(card["fact_ids"]),
                 "untaught_card_fact",
             )
             taught.update(card["fact_ids"])
@@ -172,7 +187,8 @@ def validate_batch(doc):
             require(
                 block["fact_ids"]
                 and set(block["fact_ids"]) <= taught
-                and block["body"],
+                and block["body"]
+                and {r["fact_id"] for r in block["source_refs"]} == set(block["fact_ids"]),
                 "example_or_reflection_untaught",
             )
             for ref in block["source_refs"]:
@@ -192,6 +208,10 @@ def validate_batch(doc):
             require(q["public"]["prompt"] not in prompts, "duplicate_question_prompt")
             prompts.add(q["public"]["prompt"])
             require(q["source_refs"], "question_source_missing")
+            require(
+                {r["fact_id"] for r in q["source_refs"]} == set(q["fact_ids"]),
+                "question_source_coverage",
+            )
             for ref in q["source_refs"]:
                 validate_ref(ref, book, topic, facts)
                 require(ref["fact_id"] in q["fact_ids"], "question_reference_mismatch")

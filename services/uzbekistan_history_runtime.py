@@ -274,7 +274,12 @@ def start(db, uid, key, request_id):
                     "key": q.key,
                     "kind": q.response_kind,
                     "public": deepcopy(q.public_prompt),
-                    "grading_spec": deepcopy(q.grading_spec),
+                    # Freeze normalization with each new attempt. Previously
+                    # saved snapshots omit this and retain revision 1 replay.
+                    "grading_spec": {
+                        **deepcopy(q.grading_spec),
+                        **({"normalization_revision": 2} if q.response_kind == "short_text" else {}),
+                    },
                     "source_refs": q.source_refs,
                 }
                 for q in questions

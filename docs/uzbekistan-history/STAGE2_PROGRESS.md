@@ -1,18 +1,18 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan.** 7-sinf §1–30: **30 dars**, 228 karta, 30 original misol, 199 topshiriq (120 MCQ / 59 qisqa FRQ / 20 xronologiya), 30 avtomatik baholanmaydigan refleksiya/rubrika.
+2026-10-27. **Kurs tugallanmagan.** 7-sinf §1–35: **35 dars**, 267 karta, 35 original misol, 234 topshiriq (140 MCQ / 69 qisqa FRQ / 25 xronologiya), 35 avtomatik baholanmaydigan refleksiya/rubrika.
 
 | Sinf | Bob | Katalogdagi mavzu | Interaktiv dars | Qolgan |
 |---|---:|---:|---:|---:|
-| 7 | 6 | 42 | 30 | 12 |
+| 7 | 6 | 42 | 35 | 7 |
 | 8 | ? | ? | 0 | Noma’lum: PDF olinmagan |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
-To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 101 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
+To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 96 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
 
-Keyingi: **7-sinf §31, PDF/bosma 114 — Amir Temur – markazlashgan davlat asoschisi**. Hozirgacha yozilgan darslarni qaytadan yaratmang. 8-sinf manbasi olinmagan; boshqa fanlar yoki productionga tegmang.
+Keyingi: **7-sinf §36, PDF/bosma 133 — Mirzo Ulug‘bekning hukmronligi davrida Movarounnahr**. Hozirgacha yozilgan darslarni qaytadan yaratmang. 8-sinf manbasi olinmagan; boshqa fanlar yoki productionga tegmang.
 
 | 7-sinf darsi | Faktlar keltirilgan PDF/bosma sahifalar | Karta | Topshiriq |
 |---|---|---:|---:|
@@ -46,13 +46,18 @@ Keyingi: **7-sinf §31, PDF/bosma 114 — Amir Temur – markazlashgan davlat as
 | §28 Diniy bilimlarning rivojlanishi | 101–105 | 8 | 6 |
 | §29 Me’morchilik, san’at va musiqa | 106–108 | 7 | 6 |
 | §30 XIV asrning o‘rtalarida Movarounnahrda ijtimoiy-siyosiy vaziyat | 109–113 | 8 | 7 |
+| §31 Amir Temur – markazlashgan davlat asoschisi | 114–116 | 7 | 7 |
+| §32 Amir Temur saltanatining tashkil topishi | 116–121 | 8 | 7 |
+| §33 Amir Temurning tashqi siyosati | 123–126 | 8 | 7 |
+| §34 Amir Temurning jahon tarixida tutgan o‘rni | 127–130 | 8 | 7 |
+| §35 Temuriylar davridagi siyosiy jarayonlar | 131–133 | 8 | 7 |
 
 Bu partiyalarda PDF va bosma raqamlar mos; ular har bir refda alohida saqlangan. Sahifa ichidagi boshlanish va navbatdagi sarlavhadan oldingi chegara JSON’da bor. Tafovut/ekspert qaydlari SOURCE_REVIEW.md’da.
 
-- backend: `72 passed, 1 skipped in 13.23s`.
-- postgres: `1 passed, 56 deselected in 10.71s`.
-- flutter: `01:33 +210: All tests passed!`.
-- analyze: `No issues found! (ran in 1.8s)`.
+- backend: `83 passed, 1 skipped in 21.12s`.
+- postgres: `1 passed, 67 deselected in 13.39s`.
+- flutter: `01:18 +221: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 - legacy_selected: `530 passed in 197.87s (0:03:17)`.
 - legacy_full: `2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)`.
-- flutter_history: `00:06 +57: All tests passed!`.
+- flutter_history: `00:06 +67: All tests passed!`.

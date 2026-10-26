@@ -3,6 +3,24 @@
 import re
 import unicodedata
 
+ROMAN = {
+    tens + ones: 10 * t + o
+    for t, tens in enumerate(["", "x", "xx", "xxx", "xl", "l", "lx", "lxx", "lxxx", "xc"])
+    for o, ones in enumerate(["", "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix"])
+    if t or o
+}
+
+
+def century_value(text, *, require_unit=False):
+    """Bounded century notation, never dates, arithmetic or inferred history."""
+    suffix = r"\s*-?\s*asr" if require_unit else r"(?:\s*-?\s*asr)?"
+    match = re.fullmatch(r"([0-9]{1,2}|[ivxlcdm]+)" + suffix, text)
+    if not match:
+        return None
+    token = match[1]
+    value = int(token) if token.isascii() and token.isdecimal() else ROMAN.get(token)
+    return value if value is not None and 1 <= value <= 99 else None
+
 
 def normalized_text(value):
     if type(value) is not str or len(value) > 120:
@@ -50,9 +68,17 @@ def grade_answer(spec, answer):
             value = normalized_text(answer["value"])
         except ValueError as exc:
             return str(exc)
-        return (
-            "correct"
-            if value in {normalized_text(a) for a in spec["aliases"]}
-            else "incorrect"
-        )
+        revision = spec.get("normalization_revision", 1)
+        if type(revision) is not int or revision not in {1, 2}:
+            return "invalid_answer"
+        aliases = {normalized_text(a) for a in spec["aliases"]}
+        if value in aliases:
+            return "correct"
+        if revision == 2:
+            # Only source-approved aliases explicitly naming the same century
+            # enable bare Arabic/Roman notation. Names and years stay exact.
+            values = {century_value(a, require_unit=True) for a in aliases}
+            if len(values) == 1 and None not in values and century_value(value) in values:
+                return "correct"
+        return "incorrect"
     return "invalid_answer"

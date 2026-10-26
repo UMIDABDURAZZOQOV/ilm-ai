@@ -114,6 +114,19 @@ FRQ.update({26: ["Ibn Sino", "Beruniy"], 27: ["Xos Hojib", "Koshg'ar"],
     30: ["Mavlonozoda", "Abu Bakr Kalaviy"]})
 ORDER[30] = ["e1", "e2", "e3", "e4"]
 
+MCQ.update({
+    31: ["Movarounnahr amiri", "Samarqand", "1372-yil", "Hirot"],
+    32: ["Devonbegi", "Tavochi", "Tuman", "Suyurg‘ol"],
+    33: ["Barquq", "Klavixo", "Mironshoh", "Samarqand"],
+    34: ["I.M. Mo‘minov", "Xristofor Marlo", "Toshkent", "1995-yil"],
+    35: ["Pirmuhammad", "Xalil Sulton", "Hirot", "Samarqand"],
+})
+FRQ.update({31: ["Sayyid Baraka", "Bayroq va nog'ora"], 32: ["Hazora", "Qo'shun"],
+    33: ["Muhammad Qozi", "Karl VI"], 34: ["Perondino", "Sevilya"], 35: ["Qora Yusuf", "Xudoydod"]})
+ORDER.update({31: ["e1", "e2", "e3"], 32: ["e1", "e2", "e3"],
+    33: ["e1", "e2", "e3", "e4"], 34: ["e1", "e2", "e3", "e4", "e5"],
+    35: ["e1", "e2", "e3", "e4"]})
+
 
 def course_lessons():
     return [l for d in load_course() for l in d["lessons"]]
@@ -143,7 +156,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 31))
+@pytest.mark.parametrize("seq", range(1, 36))
 def test_independent_source_answer_keys(seq):
     l = course_lessons()[seq - 1]
     for q, a in zip(l["assessments"], answers(l)):
@@ -187,6 +200,62 @@ def test_reviewed_spelling_is_not_fuzzy_or_essay_grading():
     )
 
 
+def test_century_notation_has_frozen_legacy_and_bounded_new_normalization():
+    spec = deepcopy(course_lessons()[28]["assessments"][-1]["grading_spec"])
+    assert grade_answer(spec, {"value": "12"}) == "incorrect"  # frozen legacy
+    spec["normalization_revision"] = 2
+    for value in ["12", "XII", "Ⅻ", "12 asr", "XII-asr"]:
+        assert grade_answer(spec, {"value": value}) == "correct"
+    for value in ["13", "IIIIIIIIIIII", "120", "0", "XII yil"]:
+        assert grade_answer(spec, {"value": value}) == "incorrect"
+    name = deepcopy(course_lessons()[0]["assessments"][4]["grading_spec"])
+    name["normalization_revision"] = 2
+    assert grade_answer(name, {"value": "12"}) == "incorrect"
+
+
+def test_legacy_century_answer_replay_survives_new_attempt_normalization(preview):
+    c, factory = preview
+    for lesson in course_lessons()[:28]:
+        complete_lesson(c, lesson)
+    lesson = course_lessons()[28]
+    old = start(c, 29).json()
+    with factory.begin() as db:
+        row = db.get(StudySession, old["attempt_id"])
+        snapshot = deepcopy(row.questions)
+        for q in snapshot["assessments"]:
+            q["grading_spec"].pop("normalization_revision", None)
+        row.questions = snapshot
+    saved = None
+    for q, answer in zip(lesson["assessments"], answers(lesson)):
+        if q == lesson["assessments"][-1]:
+            answer = {"value": "12"}
+        body = {"assessment_version": 2, "assessment_key": q["key"], "answer": answer}
+        r = c.post(f"{P}/attempts/{old['attempt_id']}/answers", json=body)
+        assert r.status_code == 200
+        saved = r.json()
+    assert saved is not None and not saved["is_correct"]
+    old_result = c.post(f"{P}/attempts/{old['attempt_id']}/complete", json={"assessment_version": 2}).json()
+    assert old_result["score"] == 5 and old_result["xp_awarded"] == 10
+    fresh = start(c, 29).json()
+    for q, answer in zip(lesson["assessments"], answers(lesson)):
+        if q == lesson["assessments"][-1]:
+            answer = {"value": "XII"}
+        r = c.post(f"{P}/attempts/{fresh['attempt_id']}/answers", json={
+            "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
+        })
+        assert r.status_code == 200 and r.json()["is_correct"]
+    new_result = c.post(f"{P}/attempts/{fresh['attempt_id']}/complete", json={"assessment_version": 2}).json()
+    assert new_result["score"] == 6 and new_result["xp_awarded"] == 0
+    q = lesson["assessments"][-1]
+    replay = c.post(f"{P}/attempts/{old['attempt_id']}/answers", json={
+        "assessment_version": 2, "assessment_key": q["key"], "answer": {"value": "12"},
+    })
+    assert replay.status_code == 200 and replay.json() == saved
+    with factory() as db:
+        assert db.get(StudySession, old["attempt_id"]).response == old_result
+        assert db.get(User, 1).xp_total == 427
+
+
 def test_chronology_intervals_no_display_year_zero_or_elapsed_year_claim():
     assert chronology_bounds({"era": "BCE", "start_year": 2, "end_year": 1}) == (-2, -1)
     assert chronology_bounds({"era": "CE", "start_year": 1, "end_year": 1}) == (1, 1)
@@ -211,6 +280,10 @@ def test_chronology_intervals_no_display_year_zero_or_elapsed_year_claim():
         "interpreted_chronology",
         "duplicate_label",
         "feedback_key",
+        "missing_card_refs",
+        "missing_example_refs",
+        "missing_root_refs",
+        "mislinked_example",
     ],
 )
 def test_source_tamper_fails_closed(case):
@@ -239,6 +312,16 @@ def test_source_tamper_fails_closed(case):
         dated = next(f for f in d["lessons"][1]["facts"].values() if f.get("time", {}).get("start_year") == 456)
         dated["assertion_kind"] = "source_interpretation"
         dated["accepted_answers"] = []
+    elif case == "missing_card_refs":
+        l["cards"][0]["source_refs"] = []
+    elif case == "missing_example_refs":
+        l["examples"][0]["source_refs"] = []
+    elif case == "missing_root_refs":
+        l["source_refs"] = []
+    elif case == "mislinked_example":
+        example = l["examples"][0]
+        unrelated = next(f for fid, f in l["facts"].items() if fid not in example["fact_ids"])
+        example["source_refs"] = deepcopy(unrelated["source_refs"])
     elif case == "feedback_key":
         l["assessments"][0]["grading_spec"]["verified_answer"] = "unverified claim"
     elif case == "duplicate_label":
@@ -277,8 +360,8 @@ def preview(tmp_path, monkeypatch):
                 User(id=2, name="QA2", email="uzh-qa2@example.test", xp_total=0),
             ]
         )
-        assert import_course(db) == {"created": 30, "skipped": 0}
-        assert import_course(db) == {"created": 0, "skipped": 30}
+        assert import_course(db) == {"created": 35, "skipped": 0}
+        assert import_course(db) == {"created": 0, "skipped": 35}
     app = FastAPI()
     app.include_router(router)
 
@@ -335,21 +418,21 @@ def complete_lesson(client, l, request=None):
     return a, r.json()
 
 
-def test_real_api_all_thirty_sources_xp_replay_and_legacy_preservation(preview):
+def test_real_api_all_thirty_five_sources_xp_replay_and_legacy_preservation(preview):
     c, f = preview
     catalog = c.get(P + "/catalog").json()
     assert catalog["subject"] == "ozbekiston_tarixi" and catalog["book"]["grade"] == 7
     assert catalog["lessons"][0]["source_numbers"] == [1]
     assert catalog["book"]["isbn"] == "978-9943-26-656-8"
-    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 30
+    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 35
     assert catalog["available_grades"] == [7] and catalog["blocked_grades"] == [8]
-    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 29
+    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 34
     assert start(c, 2).status_code == 403
     for l in course_lessons():
         _, result = complete_lesson(c, l)
         assert result["xp_awarded"] == 10
     _, again = complete_lesson(c, load_course()[0]["lessons"][0])
-    assert again["xp_awarded"] == 0 and again["xp_total"] == 437
+    assert again["xp_awarded"] == 0 and again["xp_total"] == 487
     cat = c.get(P + "/catalog").json()
     assert not cat["course_complete"] and not cat["grade_content_complete"]
     assert cat["chapters"][0]["checkpoint_state"] == "completed"
@@ -359,7 +442,7 @@ def test_real_api_all_thirty_sources_xp_replay_and_legacy_preservation(preview):
     assert cat["chapters"][4]["checkpoint_state"] == "locked"
     with f() as db:
         assert (
-            db.get(User, 1).xp_total == 437 and db.query(HistoryProgress).count() == 30
+            db.get(User, 1).xp_total == 487 and db.query(HistoryProgress).count() == 35
         )
 
 
@@ -506,7 +589,7 @@ def test_parallel_completion_never_duplicates_xp(preview, different_attempts):
         assert db.get(User, 1).xp_total == 147
 
 
-def test_postgres_opt_in_fresh_schema_all_thirty_and_parallel_xp(monkeypatch):
+def test_postgres_opt_in_fresh_schema_all_thirty_five_and_parallel_xp(monkeypatch):
     """Only an explicit loopback staging URL; never a production schema."""
     import os
     import secrets
@@ -536,8 +619,8 @@ def test_postgres_opt_in_fresh_schema_all_thirty_and_parallel_xp(monkeypatch):
         with factory.begin() as db:
             db.add(User(id=1, name="QA", email="qa@example.test", xp_total=137))
             db.flush()
-            assert import_course(db) == {"created": 30, "skipped": 0}
-            assert import_course(db) == {"created": 0, "skipped": 30}
+            assert import_course(db) == {"created": 35, "skipped": 0}
+            assert import_course(db) == {"created": 0, "skipped": 35}
         monkeypatch.setenv("ENVIRONMENT", "test")
         monkeypatch.setenv("UZBEKISTAN_HISTORY_PREVIEW_ENABLED", "true")
         monkeypatch.setattr(tokens, "JWT_SECRET", "history-local-pg-test-only-key-over-32-characters")
@@ -567,9 +650,9 @@ def test_postgres_opt_in_fresh_schema_all_thirty_and_parallel_xp(monkeypatch):
             assert [r.status_code for r in responses] == [200, 200]
             assert sorted(r.json()["xp_awarded"] for r in responses) == [0, 10]
             _, r = complete_lesson(c, load_course()[0]["lessons"][0])
-            assert r["xp_total"] == 437 and r["xp_awarded"] == 0
+            assert r["xp_total"] == 487 and r["xp_awarded"] == 0
         with factory() as db:
-            assert db.get(User, 1).xp_total == 437 and db.query(HistoryProgress).count() == 30
+            assert db.get(User, 1).xp_total == 487 and db.query(HistoryProgress).count() == 35
     finally:
         engine.dispose()
         with admin.begin() as conn:
