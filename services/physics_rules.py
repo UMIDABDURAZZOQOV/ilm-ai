@@ -24,6 +24,84 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "surface_boundary_force": rule(
+        "F",
+        ["sigma", "l"],
+        ["sigma*l", "l*sigma"],
+        "ONEinterface EFFECTIVEtotalcontactlinel,notautomaticallytwo,uniformsigma;9PDF95.",
+    ),
+    "surface_coefficient_force": rule(
+        "sigma",
+        ["F", "l"],
+        ["F/l", "F*l^-1"],
+        "ONEinterface EFFECTIVEtotalcontactlinel>0,forceNORMALTOcontactlineINsurface,notanyforce;9PDF95–96.",
+    ),
+    "surface_energy_area": rule(
+        "W",
+        ["sigma", "S"],
+        ["sigma*S", "S*sigma"],
+        "SphysicalTOTALinterfacearea,constantconditions/sigma,notdoublecounted;9PDF97.",
+    ),
+    "surface_coefficient_energy": rule(
+        "sigma",
+        ["W", "S"],
+        ["W/S", "W*S^-1"],
+        "Totalinterfacearea>0,schoolconstant-sigmamodelW=sigma*S,N/m=J/m2;9PDF97.",
+    ),
+    "wetting_capillary_height": rule(
+        "h",
+        ["sigma", "rho", "g", "r"],
+        ["2*sigma/(rho*g*r)", "2*sigma/rho/g/r"],
+        "IDEALCOMPLETEwettingverticalcircularcapillary,radiusr,rho/g>0,ignorecontactanglecorrection,notuniversalwetting;9PDF99.",
+    ),
+    "wetting_capillary_radius": rule(
+        "r",
+        ["sigma", "rho", "g", "h"],
+        ["2*sigma/(rho*g*h)", "2*sigma/rho/g/h"],
+        "IDEALCOMPLETEwettingverticalcapillary,rRADIUSnotdiameter,h>0;9PDF99–100.",
+    ),
+    "capillary_diameter": rule(
+        "d",
+        ["sigma", "rho", "g", "h"],
+        ["4*sigma/(rho*g*h)", "4*sigma/rho/g/h"],
+        "IDEALCOMPLETEwettingcircularcapillary,dDIAMETER=2r;9PDF102.",
+    ),
+    "needle_two_side_force": rule(
+        "F",
+        ["sigma", "l"],
+        ["2*sigma*l", "sigma*l*2"],
+        "Statedstraightneedleidealhorizontalforce,twolongcontactsignoreends/contactangle,givenmodelnotuniversalfloatproof;9PDF100.",
+    ),
+    "drop_detachment_mass": rule(
+        "m0",
+        ["sigma", "pi", "d", "g"],
+        ["sigma*pi*d/g", "pi*d*sigma/g"],
+        "APPROXIMATEschooldropdetachment,fullverticalsurfacetensionatcircularedge,pi3.14provided,notexactrealTatedrop;9PDF101–102.",
+    ),
+    "bubble_surface_energy_change": rule(
+        "DW",
+        ["sigma", "pi", "R2", "R1"],
+        ["8*pi*sigma*(R2^2-R1^2)", "2*sigma*4*pi*(R2^2-R1^2)"],
+        "THINsoapbubble TWOinterfaces,innerouterradiiapproximatelyequal,constant sigma,R2>=R1>0,notliquiddropsingleinterface;9PDF101.",
+    ),
+    "capillary_coefficient": rule(
+        "sigma",
+        ["h", "rho", "g", "r"],
+        ["h*rho*g*r/2", "rho*g*h*r/2"],
+        "IDEALCOMPLETEwetting,circularverticaltube,rRADIUS,positivegivens;9PDF102.",
+    ),
+    "wire_detachment_coefficient": rule(
+        "sigma",
+        ["F2", "F1", "l"],
+        ["(F2-F1)/(2*l)", "(F2-F1)/2/l"],
+        "DigitalSCHOOLwirelab,twocontactlinesofsameperimeterl,F2>F1weightbaseline,nobuoyancy/meniscuscorrection;9PDF103.",
+    ),
+    "mean_surface_coefficient3": rule(
+        "sigmaMean",
+        ["s1", "s2", "s3"],
+        ["(s1+s2+s3)/3", "(s3+s1+s2)/3"],
+        "ThreePROVIDEDpositiveconditionalestimates,SAMEsubstance/conditions,meanNOTexperimentalcompletion;9PDF103.",
+    ),
     "heat_cycle_rejected_heat": rule(
         "Qc",
         ["Qh", "eta"],
@@ -2432,6 +2510,61 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "surface_boundary_force":
+        return positive("sigma", "stiffness") * value("l", "length"), "force"
+    if name == "surface_coefficient_force":
+        return value("F", "force") / positive("l", "length"), "stiffness"
+    if name == "surface_energy_area":
+        return positive("sigma", "stiffness") * value("S", "area"), "energy"
+    if name == "surface_coefficient_energy":
+        return value("W", "energy") / positive("S", "area"), "stiffness"
+    if name in {
+        "wetting_capillary_height",
+        "wetting_capillary_radius",
+        "capillary_diameter",
+        "capillary_coefficient",
+        "drop_detachment_mass",
+    }:
+        g = gravity()
+        if name == "drop_detachment_mass":
+            pi = value("pi", "dimensionless")
+            if pi != Fraction(314, 100):
+                raise ValueError("source_pi_3_14_required")
+            return positive("sigma", "stiffness") * pi * positive(
+                "d", "length"
+            ) / g, "mass"
+        rho = positive("rho", "density")
+        if name == "capillary_coefficient":
+            return positive("h", "length") * rho * g * positive(
+                "r", "length"
+            ) / 2, "stiffness"
+        sig = positive("sigma", "stiffness")
+        if name == "wetting_capillary_height":
+            return 2 * sig / (rho * g * positive("r", "length")), "length"
+        return (4 if name == "capillary_diameter" else 2) * sig / (
+            rho * g * positive("h", "length")
+        ), "length"
+    if name == "needle_two_side_force":
+        return 2 * positive("sigma", "stiffness") * positive("l", "length"), "force"
+    if name == "bubble_surface_energy_change":
+        pi = value("pi", "dimensionless")
+        if pi != Fraction(314, 100):
+            raise ValueError("source_pi_3_14_required")
+        big, small = positive("R2", "length"), positive("R1", "length")
+        if big < small:
+            raise ValueError("expanding_bubble_required")
+        return 8 * pi * positive("sigma", "stiffness") * (
+            big * big - small * small
+        ), "energy"
+    if name == "wire_detachment_coefficient":
+        pull, weight = positive("F2", "force"), positive("F1", "force")
+        if pull <= weight:
+            raise ValueError("detachment_must_exceed_baseline")
+        return (pull - weight) / (2 * positive("l", "length")), "stiffness"
+    if name == "mean_surface_coefficient3":
+        return sum(
+            positive(x, "stiffness") for x in ("s1", "s2", "s3")
+        ) / 3, "stiffness"
     if name == "heat_cycle_rejected_heat":
         eta = positive("eta", "dimensionless")
         if eta >= 1:

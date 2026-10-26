@@ -152,3 +152,69 @@ def test_original_page_and_segment_evidence_tampering_is_detected(split_book, ch
         path.write_bytes(path.read_bytes() + b"\n% altered bytes\n")
     with pytest.raises(ValueError):
         check_book_pages(book, pages, directory, directory / "ocr")
+
+
+@pytest.mark.parametrize("display_width", [110, 115])
+def test_original_review_render_does_not_depend_on_catalogue_scale_cache(
+    split_book, display_width
+):
+    """A generated indexed image reproduces MuPDF's cross-scale cache drift."""
+    import struct
+    import zlib
+
+    import fitz
+
+    book, evidence, directory = split_book
+    width, height = 476, 474
+
+    def chunk(kind, data):
+        return (
+            struct.pack("!I", len(data))
+            + kind
+            + data
+            + struct.pack("!I", zlib.crc32(kind + data) & 0xFFFFFFFF)
+        )
+
+    palette = bytes(v for i in range(256) for v in (i, i * 23 % 256, i * 17 % 256))
+    rows = b"".join(
+        b"\0" + bytes((x * 37 + y * 13) % 256 for x in range(width))
+        for y in range(height)
+    )
+    png = (
+        b"\x89PNG\r\n\x1a\n"
+        + chunk(b"IHDR", struct.pack("!2I5B", width, height, 8, 3, 0, 0, 0))
+        + chunk(b"PLTE", palette)
+        + chunk(b"IDAT", zlib.compress(rows))
+        + chunk(b"IEND", b"")
+    )
+    path = directory / "part1.pdf"
+    with fitz.open() as doc:
+        pg = doc.new_page(width=300, height=300)
+        pg.insert_image(
+            fitz.Rect(10, 10, 10 + display_width, 10 + display_width), stream=png
+        )
+        doc.save(path)
+    book["segments"][0]["sha256"] = digest(path.read_bytes())
+    book["source_set_sha256"] = digest(
+        json.dumps(book["segments"], sort_keys=True).encode()
+    )
+    for e in evidence:
+        e["source_segment"] = segment_page(book, e["pdf_page"])
+    with fitz.open(path) as doc:
+        pg = doc[0]
+        raw = digest(pg.get_text().encode())
+        pix = pg.get_pixmap(matrix=fitz.Matrix(2.2, 2.2))
+        raster_hash = digest(pix.samples)
+        raster_size = [pix.width, pix.height]
+        mixed = digest(pg.get_pixmap(matrix=fitz.Matrix(2, 2)).tobytes("png"))
+    with fitz.open(path) as doc:
+        standalone = digest(doc[0].get_pixmap(matrix=fitz.Matrix(2, 2)).tobytes("png"))
+    assert standalone != mixed  # this fixture exercises the actual renderer bug
+    book["page_audit"][0].update(
+        digital_text_sha256=raw, raster_sha256=raster_hash, raster_size=raster_size
+    )
+    evidence[0].update(digital_text_sha256=raw, reviewed_render_sha256=standalone)
+    assert check_book_pages(book, evidence, directory, directory / "ocr") == 2
+    evidence[0]["reviewed_render_sha256"] = "0" * 64
+    with pytest.raises(ValueError, match="original_page_text_or_pixels_mismatch"):
+        check_book_pages(book, evidence, directory, directory / "ocr")

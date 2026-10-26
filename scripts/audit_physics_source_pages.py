@@ -14,6 +14,9 @@ def check_book_pages(book, pages, directory, ocr_directory=None):
     identity = source_identity(book)
     with ExitStack() as stack:
         documents = {}
+        # Keep 2.0x review rendering separate from 2.2x catalogue rendering.
+        # MuPDF caches scaled images: interleaving scales can change pixels.
+        review_documents = {}
         parts = (
             book.get("segments")
             if "source_set_sha256" in identity
@@ -36,6 +39,9 @@ def check_book_pages(book, pages, directory, ocr_directory=None):
             if len(doc) != part["pages"]:
                 raise ValueError("original_pdf_or_segment_page_count")
             documents[part["file_name"]] = doc
+            review_documents[part["file_name"]] = stack.enter_context(
+                fitz.open(paths[0])
+            )
         for evidence in pages:
             n = evidence["pdf_page"]
             source = book["page_audit"][n - 1]
@@ -73,9 +79,16 @@ def check_book_pages(book, pages, directory, ocr_directory=None):
                     != evidence["text_sha256"]
                 ):
                     raise ValueError("original_page_text_or_pixels_mismatch")
+            review_page = (
+                review_documents[binding["segment_file_name"]][
+                    binding["segment_local_pdf_page"] - 1
+                ]
+                if "source_set_sha256" in identity
+                else review_documents[book["file_name"]][n - 1]
+            )
             if (
                 hashlib.sha256(
-                    page.get_pixmap(matrix=fitz.Matrix(2, 2)).tobytes("png")
+                    review_page.get_pixmap(matrix=fitz.Matrix(2, 2)).tobytes("png")
                 ).hexdigest()
                 != evidence["reviewed_render_sha256"]
             ):

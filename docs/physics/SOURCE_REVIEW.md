@@ -213,3 +213,49 @@ Foydali isitish energiyasi mexanik ish bilan teng nomlanmaydi.90-sahifadagi
 P=eta*rho*V*q*v/s o‘zgarmas tezlik/o‘rtacha foydali quvvat modelida qo‘llanadi.
 PDF, frozen xarita, oldingi darslar va Biology o‘zgartirilmadi. Barchasi lokal/test
 preview; mustaqil fan/pedagogik review va Android sinovi hali bajarilmagan.
+
+## 9-sinf §31–35 — sirt va qattiq jismlar (2026-10-26)
+
+PDF/bosma94–106 ning barcha13 asl tasviri va OCR tekshirildi. F=sigma*l da l
+samarali jami kontakt chizig‘i; igna modelidagi2*l ikki tomon ekanligi alohida.
+W=sigma*S da S jami sirt yuzi. N/m va J/m2 bir xil fizik o‘lcham; serverdagi
+oldingi `stiffness` dimension nomi force/length sifatida saqlandi, prujina
+kontrakti o‘zgarmadi. Yangi yopiq aliaslar mN/m,J/m2,mJ/m2. sigma ni fizik
+ma’noda prujina bikrligi deb o‘rgatmaymiz.
+
+99-sahifadagi h=2*sigma/(rho*g*r) formula miqdoriy mashqlarda **ideal to‘liq
+ho‘llash**,vertikal doiraviy kapillyar uchun cheklangan; noma’lum kontakt burchagi
+va barcha ho‘llamaydigan chuqurliklarga universal tatbiq qilinmadi. Radius va
+diametrning2omili tekshirildi. g=9.81N/kg va pi=3.14 aniq berilgan model
+parametrlari. Balandlik73/4905m va radius73/98100m exact-rational rubrika
+bilan faqat oxirida so‘ralgan gridga yaxlitlanadi.
+
+101-sahifadagi tomchi soni1040 yaxlitlangan, aniq butun sonli o‘lchov emas.
+Tomchi uzilishi m0=sigma*pi*d/g sodda kuch balansi yaqinlashuvi sifatida berildi.
+Yupqa sovun pufagida ikki sirt bor; DW=8*pi*sigma*(R2^2-R1^2), bitta tomchiga
+asossiz2omili qo‘yilmaydi. Original masalada R1=.01m,R2=.03m,sigma=.04N/m,
+pi3.14 bilan DW=.00080384J mustaqil hisoblandi.103-sahifadagi laboratoriya
+faqat shartli digital natijalar: F2-F1 baseline ayirmasi va2*l. Real tajriba
+bajarildi degan belgi yoki uyda igna/sim/tomizg‘ich yasash topshirig‘i yo‘q.
+
+104–106-sahifalarda kristall panjara,mono/poli,amorf va yo‘nalishga bog‘liqlik
+tekshirildi. Har bir kristallning har bir xossasi doimo anizotrop,har qanday
+polimer doimo izotrop kabi universal hukmlar talab qilinmaydi.106-sahifadagi
+eski deraza pastki qismi qalinligini shishaning xona sharoitida sezilarli oqishiga
+dalil qilish tekshirilgan fakt sifatida ishlatilmadi; mustaqil materialshunoslik
+review’iga qayd qoldirildi. Kristall erishi sharoitga bog‘liq; amorfning yumshashi
+bu bosqichda sun’iy hisoblash formulasiga aylantirilmadi. Biology,oldingi
+curriculum,PDF va xarita o‘zgarmadi. Mustaqil ekspert/native Android/general
+publication hali tasdiqlanmagan.
+
+### Asl sahifa render auditi barqarorligi
+
+9-sinf95/104-sahifalarda original PDF/OCR/native-text/2.2x raster to‘liq mos,
+ammo2.2x dan keyingi2.0x PNG oldingi review PNG’sidan farq qildi. MuPDF
+masshtablangan indeksli rasmlarni keshda saqlashi sababli render tarixi ta’siri
+sun’iy476x474 palitrali test rasmining110/115punktli ko‘rinishlarida qayta
+hosil qilindi. Audit endi katalog2.2x va review2.0x uchun alohida hujjat
+kontekstlaridan foydalanadi; ikkala kutilgan xesh,PDF SHA/OCR/native/binding
+tekshiruvlari saqlangan. Eski review yoki katalog xeshlari qayta yozilmadi.
+2yangi regression ham haqiqiy cache farqini,ham buzilgan review xeshi rad
+etilishini tekshiradi. Barcha552asl sahifa tekshiruvi tuzatishdan keyin o‘tdi.

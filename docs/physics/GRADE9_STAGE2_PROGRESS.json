@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 197,
-  "remaining": 119,
+  "authored": 202,
+  "remaining": 114,
   "grades": [
     {
       "grade": 6,
@@ -50,16 +50,16 @@
     {
       "grade": 9,
       "source_sections": 59,
-      "authored": 30,
-      "remaining": 29,
-      "cards": 140,
-      "formula_entries": 119,
-      "examples": 31,
-      "assessments": 249,
-      "frq": 121,
-      "laboratories": 2,
+      "authored": 35,
+      "remaining": 24,
+      "cards": 162,
+      "formula_entries": 132,
+      "examples": 37,
+      "assessments": 284,
+      "frq": 134,
+      "laboratories": 3,
       "practicals": 2,
-      "next_section": 31
+      "next_section": 36
     },
     {
       "grade": 10,
@@ -90,38 +90,39 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 539,
+  "original_page_checks": 552,
   "date": "2026-10-26",
   "next": {
     "grade": 9,
-    "section": 31,
-    "pdf_page": 94,
-    "printed_page": 94
+    "section": 36,
+    "pdf_page": 106,
+    "printed_page": 106
   },
-  "unique_original_pages_reviewed": 517,
+  "unique_original_pages_reviewed": 530,
   "totals": {
-    "cards": 843,
-    "formula_entries": 412,
-    "examples": 215,
-    "assessments": 1366,
-    "frq": 476
+    "cards": 865,
+    "formula_entries": 425,
+    "examples": 221,
+    "assessments": 1401,
+    "frq": 489
   },
-  "executable_formula_families": 362,
+  "executable_formula_families": 375,
   "tests": {
-    "full_backend_passed": 1232,
-    "postgres_opt_in_skipped": 4,
-    "backend_seconds": 340.6,
-    "existing_warnings": 13,
+    "physics_biology_passed": 683,
+    "postgres_opt_in_skipped": 2,
+    "backend_seconds": 112.5,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 68.07,
-    "full_flutter_passed": 150,
-    "flutter_seconds": 66,
-    "flutter_analyze": "No issues found",
-    "flutter_analyze_seconds": 1.6,
-    "grade9_public_frq_drafts": 121,
-    "new_content_passed": 36,
-    "new_content_seconds": 3.1,
-    "initial_backend_run": "1130passed/4skipped/102setup_errors_readonly_var_tmp; rerun with specific directory permission passed"
+    "postgresql_seconds": 61.21,
+    "flutter_physics_passed": 24,
+    "flutter_seconds": 50,
+    "grade9_public_frq_drafts": 134,
+    "new_content_passed": 27,
+    "new_content_seconds": 2.32,
+    "source_integrity_passed": 15,
+    "source_integrity_seconds": 0.54,
+    "previous_full_backend_passed": 1232,
+    "previous_full_flutter_passed": 150,
+    "initial_source_audit": "MuPDF cross-scale image cache drift; isolated renderer contexts fixed; all original hashes preserved"
   },
   "native_android": "not_run_sdk_absent"
 }
