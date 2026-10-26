@@ -42,16 +42,51 @@ def test_catalog_mutations_fail_closed(change):
 
 
 def test_incomplete_inventory_cannot_be_used_to_publish_a_lesson():
+    document = deepcopy(load_catalog())
+    document['catalogue_complete'] = False
     with pytest.raises(ValueError, match='complete_source_and_activity_catalog'):
-        require_complete_catalog(load_catalog())
+        require_complete_catalog(document)
 
 
 def test_readiness_booleans_cannot_substitute_for_page_evidence():
     document = deepcopy(load_catalog())
-    document.update(catalogue_complete=True, total_teaching_topics=216)
-    for book in document['books']:
-        book['catalogue_status'] = 'body_and_features_reviewed'
+    document['books'][0]['page_feature_inventory'].pop()
     with pytest.raises(ValueError, match='complete_original_page_feature_inventory'):
+        require_complete_catalog(document)
+
+
+def test_complete_catalog_has_219_ordered_units_and_all_961_page_reviews():
+    document = require_complete_catalog(load_catalog())
+    assert [b['total_teaching_topics'] for b in document['books']] == [46, 44, 33, 41, 26, 29]
+    assert sum(len(b['page_feature_inventory']) for b in document['books']) == 961
+    assert document['implemented_lessons'] == 0
+    assert all(b['course_ready'] is False and b['content_reviewed'] is False for b in document['books'])
+
+
+@pytest.mark.parametrize('change', [
+    'digest', 'duplicate_page', 'bool_page', 'unknown_feature', 'duplicate_feature',
+    'missing_heading', 'uncovered_ancillary', 'missing_unit', 'unit_order',
+    'unit_location', 'missing_binding', 'binding_feature', 'binding_topic', 'reference_link', 'removed_reference',
+])
+def test_complete_catalog_rejects_incomplete_or_forged_evidence(change):
+    document = deepcopy(load_catalog())
+    book = document['books'][0]
+    if change == 'digest': book['page_feature_inventory'][0]['page_image_sha256'] = '0'*64
+    if change == 'duplicate_page': book['page_feature_inventory'][1]['pdf_page'] = 1
+    if change == 'bool_page': book['page_feature_inventory'][0]['pdf_page'] = True
+    if change == 'unknown_feature': book['page_feature_inventory'][0]['features'] = ['ocr_guess']
+    if change == 'duplicate_feature': book['page_feature_inventory'][0]['features'] = ['bibliography']*2
+    if change == 'missing_heading': book['records'][0]['heading_verification'] = 'ocr_candidate'
+    if change == 'uncovered_ancillary': book['ancillary_records'][0]['coverage_decision'] = 'pending'
+    if change == 'missing_unit': book['teaching_units'].pop()
+    if change == 'unit_order': book['teaching_units'][1]['prerequisite_ids'] = []
+    if change == 'unit_location': book['teaching_units'][0]['pdf_pages'] = [9]
+    if change == 'missing_binding': book['activity_bindings'].pop()
+    if change == 'binding_feature': book['activity_bindings'][0]['features'] = []
+    if change == 'binding_topic': book['activity_bindings'][7]['candidate_numbered_topic_ids'] = []
+    if change == 'reference_link': book['ancillary_records'][0]['linked_teaching_ids'] = ['invented-topic']
+    if change == 'removed_reference': book['ancillary_records'].pop()
+    with pytest.raises(ValueError):
         require_complete_catalog(document)
 
 

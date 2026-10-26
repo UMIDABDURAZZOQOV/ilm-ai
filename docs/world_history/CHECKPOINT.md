@@ -1,6 +1,6 @@
 # Jahon tarixi continuation checkpoint
 
-2026-10-26. **Task not complete.** Phase 0 source/catalogue foundation.
+2026-10-26. **Task not complete.** Source/activity catalogue complete; first lesson next.
 
 ## Exact state
 
@@ -20,10 +20,12 @@
   41 scanned body headings checked using original image regions.
 - Numbered source blocks: **216**, labels **219**; chapters **26**. Grade10's
   combined labels remain combined. Ancillary anchors registered separately.
-- Page-by-page render hashes and unverified feature locators cover all 961 pages.
-  **Not every page feature or historical claim is visually approved.**
-- **Implemented/imported history lessons: 0.** Total teaching-entry and remaining
-  lesson counts are not final until ancillary/activity audit is complete.
+- All961 original page images inspected for feature presence/layout; rendered
+  hashes, observed categories and candidate parent bindings recorded separately
+  from OCR locators. **This is not approval of every claim/map legend.**
+- Complete teaching map: **219** units (46/44/33/41/26/29 by grade), including
+  grade6 conclusion/final review and grade8 conclusion. All ancillary sources
+  explicitly linked. **Implemented/imported: 0; remaining: 219.**
 - No history runtime/schema/API/UI yet. No production or learner DB operation.
 - 674 existing lesson files and 13 runtime files pinned in protected_baseline.json.
 - Source-only policy, original dates/names/maps/interpretations, common ILM
@@ -33,21 +35,18 @@
 
 ## Next exact work
 
-1. Complete full page feature classification from the original private images,
-   particularly the scanned grade9 maps/tables and any OCR-missed exercises.
-   Use world_history_page_inventory.json only as a locator. Keep actual-image
-   feature confirmation separate from fact approval.
-2. Verify all ancillary body anchors: grade6 introduction5–7, conclusion179–180,
-   glossary181–183, final review184, indices185–186, chronology187–190;
-   grade7 preface3, introduction4–7, chronology155–156;
-   grade8 introduction3–6/conclusion156; grade9 introduction3/maps154–156;
-   grades10/11 introduction3. Decide teaching units vs supporting context
-   explicitly, retaining original order and no duplicate inflated counts.
-3. Finalise the six-grade source/activity map and exact teaching-entry count.
-   Do not turn `catalogue_complete` on without the required page evidence.
+1. Catalogue phase is complete. COURSE_MAP.md and PAGE_FEATURE_AUDIT.md are
+   derived from the canonical catalogue. Do not rerun the old private initial
+   catalogue builders: they predate the enriched manual ledger.
+2. `require_complete_catalog` checks exact219 units, every original render digest,
+   headings, ancillary links, prerequisite order and all961 activity bindings.
+   Inventory evidence is separate from historical fact approval.
+3. The new catalogue tests reject missing/forged evidence. All687 protected
+   Biology/Chemistry lesson/runtime digests remain unchanged.
 4. Then author grade6 §1 “Qadimgi tarix – taraqqiyotning boshlanishi”, original
    PDF/printed8–13; page13 only the question group above the §2 heading belongs
-   to §1. These six original images were visually read, but no lesson drafted.
+   to §1. Original introduction5–7 and paragraph8–13 images were visually read;
+   no lesson drafted at this catalogue checkpoint.
    See SOURCE_REVIEW.md for social-stage/priority/date-band scope cautions.
 5. Implement isolated, additive common v2 MCQ/objective FRQ/history adapter,
    strict fact/page/key validator, explicit immutable import, authoritative

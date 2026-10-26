@@ -20,3 +20,16 @@
 
 Existing Chemistry's final 1,908 backend / 609 Flutter / 3 PostgreSQL results are
 historical baseline evidence, **not new Jahon tarixi test results**.
+
+## Completed catalogue checkpoint, 2026-10-26
+
+- All961 original page images inspected for feature presence/layout. Every page
+  has a digest-bound manual observation record and candidate parent binding.
+- Complete219-unit teaching map: 46/44/33/41/26/29 by grade. Supporting records
+  explicitly retained. No historical fact approved merely by catalogue status.
+- **46 source/chronology/preservation tests passed in4.00s**. Mutations include
+  forged render hash, duplicate/bool page, unknown/duplicate feature, missing
+  heading/reference/unit/binding, wrong prerequisite/location/parent link.
+- All687 protected files matched their baseline SHA-256 values.
+- Critical Ruff (`F821,F822,E9`) and `git diff --check` passed.
+- No history executable lesson, runtime, UI or DB import at this checkpoint.

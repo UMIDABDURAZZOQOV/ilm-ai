@@ -119,16 +119,84 @@ def require_complete_catalog(document):
     validate_catalog(document)
     require(document.get('catalogue_complete') is True
             and type(document.get('total_teaching_topics')) is int
-            and document['total_teaching_topics'] >= 216,
+            and document['total_teaching_topics'] == 219,
             'complete_source_and_activity_catalog_required_before_lesson_import')
+    original_pages = read_json(DIRECTORY / 'world_history_page_inventory.json')['pages']
+    hashes = {(p['book_id'], p['pdf_page']): p['page_image_sha256'] for p in original_pages}
+    feature_types = {
+        'question_group', 'chronology_or_concept_summary', 'recall_activity',
+        'printed_map', 'diagram', 'introduction', 'glossary', 'bibliography',
+        'contents', 'printed_table', 'conclusion', 'reference_index',
+        'study_instructions', 'final_review', 'colophon', 'administrative_rental_tables',
+        'reflection_activity', 'authors_preface', 'creative_activity',
+        'external_research_activity', 'map_activity', 'media_activity', 'cover_map',
+        'independent_activity', 'activity_table', 'appendix_maps',
+        'abbreviations_reference', 'illustrative_map',
+    }
     for book in document['books']:
         require(book.get('catalogue_status') == 'body_and_features_reviewed',
                 'body_and_page_feature_review_required')
         features = book.get('page_feature_inventory', [])
         require([p.get('pdf_page') for p in features]
                 == list(range(1, book['pdf_page_count']+1))
-                and all(p.get('verification') == 'original_image_features_reviewed'
+                and all(type(p.get('pdf_page')) is int
+                        and p.get('verification') == 'original_image_features_reviewed'
                         and re.fullmatch(r'[0-9a-f]{64}', p.get('page_image_sha256', ''))
                         for p in features),
                 'complete_original_page_feature_inventory_required')
+        for page in features:
+            require(page['page_image_sha256'] == hashes.get((book['id'], page['pdf_page'])),
+                    'original_page_render_digest_mismatch')
+            values = page.get('features')
+            require(type(values) is list and all(type(v) is str for v in values)
+                    and len(set(values)) == len(values) and set(values) <= feature_types,
+                    'reviewed_feature_categories_required')
+        require(all(r.get('heading_verification') == (
+                    'contents_and_original_body_image_heading_checked' if book['grade'] == 9
+                    else 'contents_image_and_body_text_heading_checked')
+                    for r in book['records']), 'every_numbered_body_heading_required')
+        ancillary = book.get('ancillary_records', [])
+        expected_ancillary = {
+            6: ['wh6-intro', 'wh6-conclusion', 'wh6-glossary', 'wh6-final-review',
+                'wh6-geographic-index', 'wh6-names-index', 'wh6-chronology'],
+            7: ['wh7-authors', 'wh7-intro', 'wh7-chronology'],
+            8: ['wh8-intro', 'wh8-conclusion'],
+            9: ['wh9-intro', 'wh9-appendix'], 10: ['wh10-intro'], 11: ['wh11-intro'],
+        }[book['grade']]
+        require([r.get('id') for r in ancillary] == expected_ancillary,
+                'every_original_ancillary_source_required')
+        require(ancillary and all(r.get('verification') == 'original_image_structure_reviewed_facts_pending'
+                    and r.get('coverage_decision') in {
+                        'separate_teaching_unit', 'opening_context_in_first_numbered_unit',
+                        'source_maps_attached_to_relevant_numbered_units',
+                        'grade_reference_cross_linked_after_fact_review'}
+                    and r.get('linked_teaching_ids') for r in ancillary),
+                'all_ancillary_sources_need_explicit_coverage')
+        units = book.get('teaching_units', [])
+        extras = {6: ['wh6-conclusion', 'wh6-final-review'], 8: ['wh8-conclusion']}.get(book['grade'], [])
+        expected_ids = [r['id'] for r in book['records']] + extras
+        require([u.get('id') for u in units] == expected_ids
+                and book.get('total_teaching_topics') == len(expected_ids),
+                'complete_ordered_teaching_unit_map_required')
+        source_records = {r['id']: r for r in book['records'] + ancillary}
+        for index, unit in enumerate(units):
+            source = source_records[unit['id']]
+            require(unit.get('sequence') == index+1
+                    and unit.get('prerequisite_ids') == ([] if index == 0 else [units[index-1]['id']])
+                    and unit.get('source_record_id') == source['id']
+                    and unit.get('pdf_pages') == source['pdf_pages']
+                    and unit.get('printed_pages') == source['printed_pages']
+                    and unit.get('title') == source['title'],
+                    'teaching_units_must_preserve_source_order_and_location')
+        require(all(set(r['linked_teaching_ids']) <= set(expected_ids) for r in ancillary),
+                'ancillary_links_must_resolve')
+        bindings = book.get('activity_bindings', [])
+        require([p.get('pdf_page') for p in bindings] == list(range(1, book['pdf_page_count']+1)),
+                'every_page_activity_binding_required')
+        for binding, page in zip(bindings, features):
+            number = page['pdf_page']
+            require(binding.get('features') == page['features']
+                    and binding.get('candidate_numbered_topic_ids') == [r['id'] for r in book['records'] if number in r['pdf_pages']]
+                    and binding.get('ancillary_ids') == [r['id'] for r in ancillary if number in r['pdf_pages']],
+                    'activity_bindings_must_match_original_page_catalog')
     return document

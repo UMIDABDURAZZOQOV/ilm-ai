@@ -17,9 +17,11 @@ had SHA-256 `1fc780611965fc472d3314c9f96a2e00ff516a56d06107cb49d9886567e30de3`.
 | 11 | 2018 | 144 | 29 | 29 |
 | Total | | 961 | 216 | 219 |
 
-These are numbered source blocks, **not a final executable lesson count**.
-Introductions, conclusions, review activities and other ancillary anchors are
-separately registered. Final teaching-entry count awaits their body/activity audit.
+These are numbered source blocks. The completed ancillary/activity inventory
+defines **219 teaching units**: grades6–11 have 46/44/33/41/26/29 respectively.
+The full ordered [course map](COURSE_MAP.md) records every unit and supporting
+source record; [page feature audit](PAGE_FEATURE_AUDIT.md) summarizes all961
+original images. This inventory does not approve historical claims or lessons.
 There are 26 explicitly named source chapters; grade 10 has a flat contents list.
 Do not invent chapter headings or split its combined 7–8, 15–16, 19–20 source
 topics merely to increase the count.
@@ -29,8 +31,8 @@ every book. All 216 numbered body headings were cross-checked: embedded text for
 grades 6/7/8/10/11 and original scanned image regions for grade 9. Grade 9 has no
 usable text layer; OCR is an unverified locator, never an approval.
 
-**Implemented/imported interactive history lessons: 0.** Source cataloguing is
-under way; no history API or UI has been published. All course-ready flags remain
+**Implemented/imported interactive history lessons: 0; remaining: 219.** Source
+cataloguing is complete; no history API or UI has been published. All course-ready flags remain
 false. See [checkpoint](CHECKPOINT.md), [source review](SOURCE_REVIEW.md),
 [architecture](ARCHITECTURE.md) and [QA](QA_REPORT.md).
 
