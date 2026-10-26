@@ -19733,7 +19733,54 @@
             "record_id": "ch11-chapter04",
             "printed_page": 62,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p11-hydrolysis-ph-equilibrium-medical-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                58,
+                59,
+                60,
+                61
+              ],
+              "pdf_pages": [
+                58,
+                59,
+                60,
+                61
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; source-specific conceptual and numeric models. Uncertain/generalized literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p11-hydrolysis-ph-equilibrium-medical-scope-review-page58",
+                  "printed_page": 58,
+                  "reason": "NH4OHschoolnotation notisolatedspecies;MgCl2completehydroxidemodelnotasserted."
+                },
+                {
+                  "id": "ch11-p11-hydrolysis-ph-equilibrium-medical-scope-review-page59",
+                  "printed_page": 59,
+                  "reason": "Bothweakalwaysneutral/precipitatesneverhydrolyze/CaCO3none/foodspoilageabsolutes withheld."
+                },
+                {
+                  "id": "ch11-p11-hydrolysis-ph-equilibrium-medical-scope-review-page60",
+                  "printed_page": 60,
+                  "reason": "Rateversusextent/acetateacidadditionprescription,universalpH7/0–14 andmedicaldiagnosis withheld."
+                },
+                {
+                  "id": "ch11-p11-hydrolysis-ph-equilibrium-medical-scope-review-page61",
+                  "printed_page": 61,
+                  "reason": "Namedindicator/milieu observations finite,notuniqueunknownidentity."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch11-chapter04",
@@ -19812,7 +19859,46 @@
             "record_id": "ch11-paragraph13",
             "printed_page": 65,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p12-homogeneous-solution-variablecomposition-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                62,
+                63,
+                64
+              ],
+              "pdf_pages": [
+                62,
+                63,
+                64
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; source-specific conceptual and numeric models. Uncertain/generalized literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p12-homogeneous-solution-variablecomposition-scope-review-page62",
+                  "printed_page": 62,
+                  "reason": "Rainwaterdistilledpure/tasting/allspeciesmolecules withheld."
+                },
+                {
+                  "id": "ch11-p12-homogeneous-solution-variablecomposition-scope-review-page63",
+                  "printed_page": 63,
+                  "reason": "Distilledalwayspure/densityalwaysup andsolutionnotmixture generalizations withheld."
+                },
+                {
+                  "id": "ch11-p12-homogeneous-solution-variablecomposition-scope-review-page64",
+                  "printed_page": 64,
+                  "reason": "Allmixtureszeroheat/blooduniformsolution/medicaldigestionclaims withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -19853,7 +19939,62 @@
             "record_id": "ch11-paragraph14",
             "printed_page": 70,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p13-solubility-saturation-phase-temperature-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "pdf_pages": [
+                65,
+                66,
+                67,
+                68,
+                69
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; source-specific conceptual and numeric models. Uncertain/generalized literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p13-solubility-saturation-phase-temperature-scope-review-page65",
+                  "printed_page": 65,
+                  "reason": "100gsolventnot100gsolution;classificationgap/overlap notkeyed."
+                },
+                {
+                  "id": "ch11-p13-solubility-saturation-phase-temperature-scope-review-page66",
+                  "printed_page": 66,
+                  "reason": "AllsolidSproportionalT/divingmedical/physicalheatingclaims withheld."
+                },
+                {
+                  "id": "ch11-p13-solubility-saturation-phase-temperature-scope-review-page67",
+                  "printed_page": 67,
+                  "reason": "AllgasS∝1/T withheld;pressurequalitative;specifiedTandphase."
+                },
+                {
+                  "id": "ch11-p13-solubility-saturation-phase-temperature-scope-review-page68",
+                  "printed_page": 68,
+                  "reason": "Supersaturationdeclaredhypothesisnotguaranteedcooling;separatesolidnotallsolution."
+                },
+                {
+                  "id": "ch11-p13-solubility-saturation-phase-temperature-scope-review-page69",
+                  "printed_page": 69,
+                  "reason": "FiniteNH4Clmasspartition only,nophysicalshakingexperiment."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -19894,7 +20035,46 @@
             "record_id": "ch11-paragraph15",
             "printed_page": 73,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p14-solubility-givenmass-crystal-balance-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                70,
+                72,
+                73
+              ],
+              "pdf_pages": [
+                70,
+                72,
+                73
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; source-specific conceptual and numeric models. Uncertain/generalized literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p14-solubility-givenmass-crystal-balance-scope-review-page70",
+                  "printed_page": 70,
+                  "reason": "GivenCaCl2S74model,solventdenominator."
+                },
+                {
+                  "id": "ch11-p14-solubility-givenmass-crystal-balance-scope-review-page72",
+                  "printed_page": 72,
+                  "reason": "AllsolidsproportionalT/misleadingfinal100Ccaption withheld;noevap/nohydrateconditions explicit."
+                },
+                {
+                  "id": "ch11-p14-solubility-givenmass-crystal-balance-scope-review-page73",
+                  "printed_page": 73,
+                  "reason": "30Cstart/20Cquestion lacksdata;badkeywithheld. GivenBaNO3finitebalanceonly."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -19935,7 +20115,54 @@
             "record_id": "ch11-paragraph16",
             "printed_page": 77,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p15-masspercentage-totalbasis-rounding-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                74,
+                75,
+                76,
+                77
+              ],
+              "pdf_pages": [
+                74,
+                75,
+                76,
+                77
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; source-specific conceptual and numeric models. Uncertain/generalized literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p15-masspercentage-totalbasis-rounding-scope-review-page74",
+                  "printed_page": 74,
+                  "reason": "Concentrateddensity/viscosityabsolutes withheld;30/13023percent isroundednotexact."
+                },
+                {
+                  "id": "ch11-p15-masspercentage-totalbasis-rounding-scope-review-page75",
+                  "printed_page": 75,
+                  "reason": "Digitalmassmodelsnotreagentpreparation."
+                },
+                {
+                  "id": "ch11-p15-masspercentage-totalbasis-rounding-scope-review-page76",
+                  "printed_page": 76,
+                  "reason": "ExplicitM106model and35.33twodecimal;unitgmolnotcopied."
+                },
+                {
+                  "id": "ch11-p15-masspercentage-totalbasis-rounding-scope-review-page77",
+                  "printed_page": 77,
+                  "reason": "Top§15exercisesonly;KClMnotfrommemory,noNH4NO3physicalrecipe."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

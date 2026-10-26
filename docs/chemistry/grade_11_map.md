@@ -23,12 +23,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch11-chapter03` | chapter 3 | Kuchli va kuchsiz elektrolitlar. Dissotsiyalanish. Gidroliz | 51–62 | 51:full – 62:full | 51 | not_authored | — |
 | `ch11-paragraph09` | paragraph 9 | Kuchli va kuchsiz elektrolitlar haqida tushuncha | 51–54 | 51:full – 54:full | 51 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph08 |
 | `ch11-paragraph10` | paragraph 10 | Dissotsiatsiyalanish darajasi. Qisqa va to‘liq ionli tenglamalar | 54–58 | 54:full – 58:full | 54 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph09 |
-| `ch11-paragraph11` | paragraph 11 | Tuzlarning gidrolizi va undagi eritma muhiti | 58–62 | 58:full – 62:full | 58 | not_authored | ch11-paragraph10 |
+| `ch11-paragraph11` | paragraph 11 | Tuzlarning gidrolizi va undagi eritma muhiti | 58–62 | 58:full – 62:full | 58 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph10 |
 | `ch11-chapter04` | chapter 4 | Eritma | 62–98 | 62:full – 98:full | 62 | not_authored | — |
-| `ch11-paragraph12` | paragraph 12 | Eritma haqida tushuncha | 62–65 | 62:full – 65:full | 62 | not_authored | ch11-paragraph11 |
-| `ch11-paragraph13` | paragraph 13 | Eruvchanlik | 65–70 | 65:full – 70:full | 65 | not_authored | ch11-paragraph12 |
-| `ch11-paragraph14` | paragraph 14 | Eruvchanlik mavzusiga doir masalalar va ularning yechimi | 70–73 | 70:full – 73:full | 70 | not_authored | ch11-paragraph13 |
-| `ch11-paragraph15` | paragraph 15 | Eritma konsentratsiyasi va uni ifodalash usullari. Foiz konsentratsiya | 73–77 | 73:full – 77:full | 73 | not_authored | ch11-paragraph14 |
+| `ch11-paragraph12` | paragraph 12 | Eritma haqida tushuncha | 62–65 | 62:full – 65:full | 62 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph11 |
+| `ch11-paragraph13` | paragraph 13 | Eruvchanlik | 65–70 | 65:full – 70:full | 65 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph12 |
+| `ch11-paragraph14` | paragraph 14 | Eruvchanlik mavzusiga doir masalalar va ularning yechimi | 70–73 | 70:full – 73:full | 70 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph13 |
+| `ch11-paragraph15` | paragraph 15 | Eritma konsentratsiyasi va uni ifodalash usullari. Foiz konsentratsiya | 73–77 | 73:full – 77:full | 73 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph14 |
 | `ch11-paragraph16` | paragraph 16 | Foiz konsentratsiya mavzusiga doir masalalar va ularning yechimi | 77–84 | 77:full – 84:full | 77 | not_authored | ch11-paragraph15 |
 | `ch11-paragraph17` | paragraph 17 | Foiz konsentratsiya, eritma massasi, hajmi va zichligi orasidagi bog‘lanish | 84–85 | 84:full – 85:full | 84 | not_authored | ch11-paragraph16 |
 | `ch11-paragraph18` | paragraph 18 | Molyar konsentratsiya | 85–88 | 85:full – 88:full | 85 | not_authored | ch11-paragraph17 |

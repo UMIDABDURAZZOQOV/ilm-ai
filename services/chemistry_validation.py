@@ -230,6 +230,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch11-paragraph08': 'ch11-p8-ideal-gas-unit-temperature-identity-scope-review',
     'ch11-paragraph09': 'ch11-p9-electrolyte-solubility-lamp-scope-review',
     'ch11-paragraph10': 'ch11-p10-dissociation-degree-ionic-count-model-scope-review',
+    'ch11-paragraph11': 'ch11-p11-hydrolysis-ph-equilibrium-medical-scope-review',
+    'ch11-paragraph12': 'ch11-p12-homogeneous-solution-variablecomposition-scope-review',
+    'ch11-paragraph13': 'ch11-p13-solubility-saturation-phase-temperature-scope-review',
+    'ch11-paragraph14': 'ch11-p14-solubility-givenmass-crystal-balance-scope-review',
+    'ch11-paragraph15': 'ch11-p15-masspercentage-totalbasis-rounding-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1110,6 +1115,21 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch11-paragraph10' in topic_ids:
             require('CaCl2 dan bitta xlorid ioni'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'dissociation_cacl2_chloride_count_withheld')
+        if 'ch11-paragraph11' in topic_ids:
+            require('Barcha cho‘kmalar hech qachon gidrolizlanmaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'hydrolysis_precipitate_absolute_withheld')
+        if 'ch11-paragraph12' in topic_ids:
+            require('Yomg‘ir suvi doimo kimyoviy sof'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'solution_rainwater_purity_absolute_withheld')
+        if 'ch11-paragraph13' in topic_ids:
+            require('Barcha qattiq moddalar eruvchanligi haroratga to‘g‘ri proporsional'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'solubility_temperature_universal_proportion_withheld')
+        if 'ch11-paragraph14' in topic_ids:
+            require('Kristall massasi eritma massasiga har doim kiradi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'solubility_separate_crystal_not_dissolved_solution')
+        if 'ch11-paragraph15' in topic_ids:
+            require('Foiz konsentratsiyada maxraj faqat suv massasi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'mass_percentage_requires_total_solution_mass')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
