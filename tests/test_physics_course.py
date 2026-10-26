@@ -1036,6 +1036,24 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (11, 1, 5): ("-60", "µWb", "S*cosAlpha*B"),
+        (11, 1, 6): ("20", "mT", "Phi*S^-1"),
+        (11, 2, 5): ("1.2", "mN*m", "I*S*B*n*sinAlpha"),
+        (11, 2, 6): ("20", "mT", "Mmax/n/I/S"),
+        (11, 2, 7): ("4", "mN", "I*l*B"),
+        (11, 3, 5): ("10", "µT", "I*mu0/(d*p*2)"),
+        (11, 3, 6): ("12.56", "µT", "I*mu0/R/2"),
+        (11, 3, 7): ("62.8", "µT", "n*I*mu0/R/2"),
+        (11, 3, 8): ("20", "µT", "Bx2+Bx1"),
+        (11, 4, 5): ("6", "mJ", "B*I*d*l*sinAlpha"),
+        (11, 4, 6): ("-6", "mJ", "DPhi*I"),
+        (11, 5, 5): ("60", "µN", "I2*I1*mu0*l/(d*p*2)"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -1052,11 +1070,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        271,
-        45,
+        276,
+        40,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 5]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -1066,7 +1084,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 51
+    assert len(load_course()) == 52
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1268,11 +1286,18 @@ def test_all_reviewed_http_content_and_replay(preview):
     grade10 = client.get(f"{PREFIX}/catalog?grade=10").json()
     assert grade10["grade_content_complete"] and len(grade10["lessons"]) == 45
     assert all(l["state"] == "completed" for l in grade10["lessons"])
+    grade11 = client.get(f"{PREFIX}/catalog?grade=11").json()
+    assert grade11["book"]["id"] == "physics-uz-grade-11"
+    assert grade11["book"]["year"] == 2018
+    assert grade11["available_grades"] == [6, 7, 8, 9, 10, 11]
+    assert len(grade11["lessons"]) == report()["grades"][-1]["authored"]
+    assert all(l["state"] == "completed" for l in grade11["lessons"])
+    assert not grade11["grade_content_complete"]
     assert not grade9[
         "course_complete"
-    ]  # Grade11 is still unimplemented; completed grades do not imply 316/316.
+    ]  # Grade11 is partial; completed grades do not imply 316/316.
     with factory() as db:
-        assert db.get(User, 1).xp_total == 2710
+        assert db.get(User, 1).xp_total == 2760
 
 
 @pytest.mark.parametrize(

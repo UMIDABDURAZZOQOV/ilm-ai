@@ -24,6 +24,72 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "uniform_oriented_magnetic_flux": rule(
+        "Phi",
+        ["B", "S", "cosAlpha"],
+        ["B*S*cosAlpha", "S*cosAlpha*B"],
+        "UNIFORM B magnitude/flat oriented area,S>0, PROVIDED signed cosine[-1,1] between B and NORMAL not plane, flux signed;11PDF7.",
+    ),
+    "normal_flux_induction": rule(
+        "B",
+        ["Phi", "S"],
+        ["Phi/S", "Phi*S^-1"],
+        "Uniform B ALIGNED with positive flat-surface normal, Phi nonnegative magnitude/S>0, not arbitraryangle flux inverse;11PDF7.",
+    ),
+    "loop_torque_sine_data": rule(
+        "M",
+        ["n", "B", "I", "S", "sinAlpha"],
+        ["n*B*I*S*sinAlpha", "I*S*B*n*sinAlpha"],
+        "Uniform B, identical same-normal coplanar loops,npositivewhole, torque MAGNITUDE, supplied sine[0,1] BvsNORMAL, not fluxcosine;11PDF9–10.",
+    ),
+    "loop_maximum_induction": rule(
+        "B",
+        ["Mmax", "n", "I", "S"],
+        ["Mmax/(n*I*S)", "Mmax/n/I/S"],
+        "Uniform field, identical turns npositivewhole, MAXIMUM torque magnitude (B perpendicular normal), I/S>0;11PDF9–10.",
+    ),
+    "long_wire_induction": rule(
+        "B",
+        ["mu0", "I", "p", "d"],
+        ["mu0*I/(2*p*d)", "I*mu0/(d*p*2)"],
+        "Vacuum INFINITELY LONG thin straight wire, distance d>0 PERPENDICULAR from axis, p3.14 and mu01.256e-6N/A2 explicitly approximate;11PDF12,14.",
+    ),
+    "circular_centre_induction": rule(
+        "B",
+        ["mu0", "I", "R"],
+        ["mu0*I/(2*R)", "I*mu0/R/2"],
+        "Vacuum ONE thin circular loop CENTRE, Rradius>0, given mu01.256e-6 approximate, not arbitrary point;11PDF13.",
+    ),
+    "thin_coil_centre_induction": rule(
+        "B",
+        ["mu0", "n", "I", "R"],
+        ["mu0*n*I/(2*R)", "n*I*mu0/R/2"],
+        "Vacuum npositiveWHOLE same-radius same-orientation THIN nearly coplanar circular turns at COMMON CENTRE, NOT long solenoid;givenmu01.256e-6;11PDF13.",
+    ),
+    "magnetic_component_sum": rule(
+        "Bx",
+        ["Bx1", "Bx2"],
+        ["Bx1+Bx2", "Bx2+Bx1"],
+        "SIGNED magnetic induction components SAME point/SAME oriented axis, superposition not sum of arbitrary magnitudes;11PDF12.",
+    ),
+    "ampere_translation_work": rule(
+        "A",
+        ["I", "B", "l", "d", "sinAlpha"],
+        ["I*B*l*d*sinAlpha", "B*I*d*l*sinAlpha"],
+        "Uniform B/currentwire, provided sine[0,1] between current and B, displacement ALONG Ampere force, nonnegative workmagnitude, source suppliesenergy;11PDF15.",
+    ),
+    "constant_current_flux_work": rule(
+        "A",
+        ["I", "DPhi"],
+        ["I*DPhi", "DPhi*I"],
+        "CONSTANT positive contour current, SIGNED flux change with normal oriented consistently with current, net Ampere mechanicalwork/source exchange, not free magneticenergy;11PDF14–15.",
+    ),
+    "parallel_wire_force": rule(
+        "F",
+        ["mu0", "I1", "I2", "l", "p", "d"],
+        ["mu0*I1*I2*l/(2*p*d)", "I2*I1*mu0*l/(d*p*2)"],
+        "Vacuum two LONG THIN PARALLEL wires, d axis distance>0,l selectedpositive length, currentmagnitudes, direction separately, p3.14/mu01.256e-6 approximate;11PDF17.",
+    ),
     "space_charge_current_ratio": rule(
         "ratio",
         ["U1", "U2"],
@@ -3162,6 +3228,8 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "magnetic_flux": "Wb",
+    "permeability": "N/A2",
     "temperature_coefficient": "1/K",
     "current_density": "A/m2",
     "conductance": "S",
@@ -3247,6 +3315,71 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name == "uniform_oriented_magnetic_flux":
+        c = projection("cosAlpha", "dimensionless")
+        if abs(c) > 1:
+            raise ValueError("provided_normal_cosine_range")
+        return value("B", "magnetic_induction") * positive(
+            "S", "area"
+        ) * c, "magnetic_flux"
+    if name == "normal_flux_induction":
+        return value("Phi", "magnetic_flux") / positive(
+            "S", "area"
+        ), "magnetic_induction"
+    if name in {"loop_torque_sine_data", "loop_maximum_induction"}:
+        n = positive("n", "dimensionless")
+        if givens["n"]["unit"] != "1" or n.denominator != 1:
+            raise ValueError("positive_whole_turn_count_required")
+        S = positive("S", "area")
+        if name == "loop_maximum_induction":
+            return value("Mmax", "torque") / (
+                n * positive("I", "current") * S
+            ), "magnetic_induction"
+        c = value("sinAlpha", "dimensionless")
+        if c > 1:
+            raise ValueError("provided_normal_sine_range")
+        return n * value("B", "magnetic_induction") * value(
+            "I", "current"
+        ) * S * c, "torque"
+    if name in {
+        "long_wire_induction",
+        "circular_centre_induction",
+        "thin_coil_centre_induction",
+        "parallel_wire_force",
+    }:
+        mu0 = positive("mu0", "permeability")
+        if mu0 != Fraction("1.256e-6"):
+            raise ValueError("explicit_school_magnetic_constant_approximation")
+        if name in {"long_wire_induction", "parallel_wire_force"}:
+            p = positive("p", "dimensionless")
+            if p != Fraction("3.14"):
+                raise ValueError("explicit_pi_approximation_required")
+            d = positive("d", "length")
+            if name == "parallel_wire_force":
+                return mu0 * value("I1", "current") * value("I2", "current") * positive(
+                    "l", "length"
+                ) / (2 * p * d), "force"
+            return mu0 * value("I", "current") / (2 * p * d), "magnetic_induction"
+        B = mu0 * value("I", "current") / (2 * positive("R", "length"))
+        if name == "thin_coil_centre_induction":
+            n = positive("n", "dimensionless")
+            if givens["n"]["unit"] != "1" or n.denominator != 1:
+                raise ValueError("positive_whole_turn_count_required")
+            B *= n
+        return B, "magnetic_induction"
+    if name == "magnetic_component_sum":
+        return projection("Bx1", "magnetic_induction") + projection(
+            "Bx2", "magnetic_induction"
+        ), "magnetic_induction"
+    if name == "ampere_translation_work":
+        c = value("sinAlpha", "dimensionless")
+        if c > 1:
+            raise ValueError("provided_current_field_sine_range")
+        return value("I", "current") * value("B", "magnetic_induction") * positive(
+            "l", "length"
+        ) * value("d", "length") * c, "energy"
+    if name == "constant_current_flux_work":
+        return positive("I", "current") * projection("DPhi", "magnetic_flux"), "energy"
     if name == "space_charge_current_ratio":
         return square_root_quantity(
             (positive("U2", "voltage") / positive("U1", "voltage")) ** 3

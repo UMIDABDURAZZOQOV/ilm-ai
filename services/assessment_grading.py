@@ -73,6 +73,13 @@ def expected_quantity(spec):
 # PDF12–14 (length/time), PDF21 (film V/S), PDF28 (front h/t),
 # PDF29–35 (mass, volume and density), PDF37–38 (laboratory volumes).
 UNITS = {
+    # Grade11 PDF7,10,13: oriented magnetic flux, moment and given mu0.
+    "Wb": ("magnetic_flux", Fraction(1)),
+    "mWb": ("magnetic_flux", Fraction(1, 1000)),
+    "µWb": ("magnetic_flux", Fraction(1, 10**6)),
+    "N/A2": ("permeability", Fraction(1)),
+    "mN*m": ("torque", Fraction(1, 1000)),
+    "µN*m": ("torque", Fraction(1, 10**6)),
     # Grade10 PDF156: alpha multiplies a temperature DIFFERENCE.
     "1/K": ("temperature_coefficient", Fraction(1)),
     "K^-1": ("temperature_coefficient", Fraction(1)),

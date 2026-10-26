@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "batch": "grade11_batch1",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-11",
+  "book_sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+  "batch_file_sha256": "6f8253f5725ac2c962b79de1420e87e3d732ab6d106929c99074d5e2203c734d",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "text_sha256": "3433b83eb368546e45236325de6953f881aaac07bf74216a7c66d5b855d9f4cf",
+      "reviewed_render_sha256": "9fd88a686ef71dca8bf03e3e9a60aba617761298da939a23defcbe71f997c391",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "text_sha256": "cdb00ecf48e73ded9a68008eddca7069b1ed4acf675d64f12a3908e77face0f9",
+      "reviewed_render_sha256": "de1adeb936039c64562d6b5746ed286e140df02433d748e887df9f9219d4f1d9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "text_sha256": "3a32878c84cc1523479def0ff118a226b8e5c3e7059e2f44f6d9f364b2f8e1f6",
+      "reviewed_render_sha256": "14eef5d192d8327165795c6ff7762c5fb891b4d413e405e97d6fd79bb448ef10",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "text_sha256": "474cf90595d92a9b19695d45b49e8e61afbf7cdc760f566935df6b0dfcc2a608",
+      "reviewed_render_sha256": "f575e5ddc2fe0bb90a940722ae505e851d4bad3ded77cc2e655f9f3f1d54b253",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "text_sha256": "096d424cf1698d34d226421e09844198d175cad301c1aee922077371d1ccf1bb",
+      "reviewed_render_sha256": "5ffb4c10113c6d3f7f73b87c0c2190aede2cedaadf75c622477c6f89057c8e48",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "text_sha256": "0bab68f0b49d72febf53178336162180d429a8e0879f2618b3eb40526ca8434b",
+      "reviewed_render_sha256": "612237a669e7af96b39d0eb307ce6821baa90b1356f60cf20860b843d219d3b9",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "text_sha256": "3122e47f0bcc474e8d3e89480910182f9c7008182edcfb20724b6215d2685d17",
+      "reviewed_render_sha256": "5046c15f74239e5f44f345f6f8b065132b0f8cdbeebc485c198578c639da2655",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "text_sha256": "cd4f428d78788e337e2a6ea2d7d6ea8e69661d7f6afd3ef24cac89376a694868",
+      "reviewed_render_sha256": "25976f0025cbce020970bfb83db9227c2f1596c9e26bebf4e5cd90ee0771cadb",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "text_sha256": "df16f0ce31cef2825f487a3c7392344cd6d243e48c272f7f2bb4a0017e7136e7",
+      "reviewed_render_sha256": "a1b448384b6c06c02dd257b94544598133e5367b676f03b4f4f2f06f02930d26",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "text_sha256": "b4f702897304093dc95d98c89efc45867ecd9157e5d5e51c858ffc6bded0c488",
+      "reviewed_render_sha256": "21074c5d66e85a5c819790ebe803ef82936bc53957365186b3c4c37e28c69e10",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "text_sha256": "a51581bd4159562992a5cee60089901cb35a40ab7b86e6b01b2997a13b0e2e22",
+      "reviewed_render_sha256": "471ac7d8ed3ac35b89ca7602c0da50bafe0a5ca58662df629acb292eff3bf021",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 15,
+      "text_sha256": "b60fbc1382db862dff75462c452c64ab4dd0c88c735f2ee2e267bae41823b7b5",
+      "reviewed_render_sha256": "7ded213fc145e6e3e0e6e79884eb12566d53cf161617490ca214d9488022337a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 16,
+      "text_sha256": "58cbe55b4d10001c5e1b4bc7bccd90ef4c74413b9504ae62b457717685e6c70f",
+      "reviewed_render_sha256": "0b0546180715b1c3f79f3fb0244b917efe2e5ead64737901e60a6cd365f5b33f",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "decision": "Original whole PDF SHA/pagecount and native/image pages checked. Magnetic induction vector T vs signed scalar flux Wb. Uniform B and flat oriented area Phi=B*S*cosAlpha, alpha angle with NORMAL not surface plane. Source7 worked wording angle to frame ambiguous, calculation uses normal60deg; new prompts explicitly normal/provided cosine. Closed field lines no monopole claim within school model; outside NtoS/inside return, not all lines start N endS. No false physical iron-filings experiment."
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "decision": "Original couple/leverarm/currentloop diagram and M formulas checked. SINGLEloop M=BISsinAlpha, Nidenticalcoplanarturns multiplyN evidenced source10 worked example. alpha B vs loopNORMAL, maximum at90deg minimum0, opposite sideforces cancelnetF but nonzerocouple. Moment N*m vs energy J semantic distinction preserved. Source10 B1.25mT correct independent. No electric-motor physical experiment, no general inertia/trig solver."
+    },
+    {
+      "pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "decision": "Original right-hand/BiotSavart/longwire/circularloop/coil formulas checked. Infinite straight thinwire B=mu0I/(2pid) dperpendicular fromaxis; circularcenter B=mu0I/(2R). Nturn formula mu0NI/(2R) only thin/coincident circular turns nearcommonplane, NOT longsolenoid universal despite source13longcoil picture. Same-point vectorcomponent sum, not all magnitudes sum. mu0=4p*1e-7 with p3.14 explicitly approximate input (modern SI mu0 not exactdefinedconstant). Source14 working1.25e-6T correct but final12.5e-6T inconsistent; no bad answerkey copied."
+    },
+    {
+      "pages": [
+        14,
+        15
+      ],
+      "decision": "Original Ampere work geometry checked. Straight current perpendicularB and motionparallelforce gives A=IBld; general provided sin between current/B when motion alongforce A=IBldsinAlpha. Iconstant,currentlooporientedflux relation A=I*DPhi with sign/orientation explicit. Energy from maintaining source, not free static magnetic field/contradiction to individual-charge Lorentz no work. No homemade electron gun or high-current experiment."
+    },
+    {
+      "pages": [
+        16,
+        17
+      ],
+      "decision": "Original two long parallel wires force and worked sample checked. Codirectional attraction/opposite repulsion under vacuum longthinwire model; force magnitude mu0I1I2l/(2pid), same per-selectedlength not arbitrary finiteendgeometry. Source17 2018 ampere two-wire definition is HISTORICAL, modern SI fixes elementary charge since2019; do not present olddefinition or exactmu0 as current release standard. Numeric givenmu0/p approximation explicitly stated, no real wire experiment."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 1,
+      "topic_id": "physics-11-section-1",
+      "pdf_pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "printed_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cards": 5,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    },
+    {
+      "sequence": 2,
+      "topic_id": "physics-11-section-2",
+      "pdf_pages": [
+        8,
+        9,
+        10
+      ],
+      "printed_pages": [
+        7,
+        8,
+        9
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 3,
+      "topic_id": "physics-11-section-3",
+      "pdf_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "printed_pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 4,
+      "topic_id": "physics-11-section-4",
+      "pdf_pages": [
+        14,
+        15
+      ],
+      "printed_pages": [
+        13,
+        14
+      ],
+      "cards": 5,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    },
+    {
+      "sequence": 5,
+      "topic_id": "physics-11-section-5",
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "printed_pages": [
+        15,
+        16
+      ],
+      "cards": 5,
+      "formula_rules": 1,
+      "worked_examples": 1,
+      "assessments": 5,
+      "frq": 1
+    }
+  ]
+}
