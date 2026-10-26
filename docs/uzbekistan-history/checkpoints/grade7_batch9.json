@@ -19,7 +19,9 @@
     "legacy_full": "2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)",
     "flutter_history": "00:08 +81: All tests passed!",
     "web_build": "debug JS build/web passed; compile-only invalid placeholder, no browser/Android run",
-    "web_limit": "existing flutter_tts JS interop/Wasm dry-run warnings; Wasm not validated"
+    "web_limit": "existing flutter_tts JS interop/Wasm dry-run warnings; Wasm not validated",
+    "backend_full_current": "2366 passed, 5 skipped, 2 deselected, 13 warnings in 505.90s (0:08:25)",
+    "sandbox_negative_guard": "1 passed in 0.81s"
   },
   "source_audit": {
     "available_books": 4,

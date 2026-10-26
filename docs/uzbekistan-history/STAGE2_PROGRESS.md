@@ -62,6 +62,8 @@ Keyingi: **8-sinf: manba PDF segmentlari olinmaguncha bloklangan**. Hozirgacha y
 Bu partiyalarda PDF va bosma raqamlar mos; ular har bir refda alohida saqlangan. Sahifa ichidagi boshlanish va navbatdagi sarlavhadan oldingi chegara JSON’da bor. Tafovut/ekspert qaydlari SOURCE_REVIEW.md’da.
 
 - backend: `94 passed, 1 skipped in 23.72s`.
+- backend_full_current: `2366 passed, 5 skipped, 2 deselected, 13 warnings in 505.90s (0:08:25)`.
+- sandbox_negative_guard: `1 passed in 0.81s`.
 - postgres: `1 passed, 78 deselected in 14.19s`.
 - flutter: `01:19 +235: All tests passed!`.
 - analyze: `No issues found! (ran in 1.5s)`.

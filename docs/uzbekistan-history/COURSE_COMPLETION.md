@@ -15,6 +15,8 @@ To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 89 tasi hali darsg
 ## Haqiqiy test natijalari
 
 - backend: `94 passed, 1 skipped in 23.72s`.
+- backend_full_current: `2366 passed, 5 skipped, 2 deselected, 13 warnings in 505.90s (0:08:25)`.
+- sandbox_negative_guard: `1 passed in 0.81s`.
 - postgres: `1 passed, 78 deselected in 14.19s`.
 - flutter: `01:19 +235: All tests passed!`.
 - analyze: `No issues found! (ran in 1.5s)`.
@@ -36,6 +38,14 @@ Production router, fanlar katalogi, Google login, veb-sayt, Biology406 va Physic
 
 ## Git va davom
 
+Oxirgi kontent checkpointlari: backend **`7644bec6ff10a0cec60eb2daab7bd9a86b3dcc86`**, Flutter **`f90637ed39e2a2e58ad7d0601a4a5a0ab8b8501d`**; ikkala remote SHA `ls-remote` bilan tekshirildi. Bu hujjatning keyingi commitida kontent qayta yozilmadi.
+
 Backend va Flutter: `feat/uzbekistan-history-curriculum`. Source checkpoint `d7d0510`; oldingi backend partiyalari `bf98c8c`/`a11c97d`/`4b51213`/`e9c8c9e`/`606d17d`/`4fdcc56`/`717d5ae`/`0661754`; Flutter `8490036`/`86402fc`/`bfef1a9`/`adaa2bb`/`0379d6b`/`eff2654`/`bdfa3ad`/`248e6e9`. Joriy partiya commitini `git log -1` va `git ls-remote` bilan tekshiring. Keyingi: **8-sinf: manba PDF segmentlari olinmaguncha bloklangan**.
 
 [Davom va dars manbalari](STAGE2_PROGRESS.md), [manba tafovutlari](SOURCE_REVIEW.md), [lokal QA chegaralari](LOCAL_QA.md), [8-sinf manba handoffi](SOURCE_HANDOFF.md).
+
+## Yakuniy regression qaydi
+
+2366-testli full run7-sinf42dars va yangi backend validator/grader/runtime bilan bajarildi.5PostgreSQL opt-in holati oddiy run’da skip; History uchun alohida real lokal PostgreSQL fresh-schema testi1passed.2sandbox-nomli test full commandda deselect qilingan: tashqi Gitdan tashqarida yangi sandbox yaratadigan ijobiy CLI sinovi bu muhitda bajarilmaydi; guardning salbiy testi esa alohida1passed. Guard chetlab o‘tilmadi.13oldingi Pydantic/FastAPI/SQLAlchemy deprecation/query warning saqlandi.
+
+`--require-complete` ham joriy42dars bilan real ishga tushirilib kutilgan exit2 qaytardi:8-sinf yo‘qligi yashirilmaydi. Buyruqning muvaffaqiyatsiz completeness natijasi to‘liq kurs tayyor degan da’voni to‘sadi. [Mashina o‘qiydigan dalillar](checkpoints/grade7_validation.json).
