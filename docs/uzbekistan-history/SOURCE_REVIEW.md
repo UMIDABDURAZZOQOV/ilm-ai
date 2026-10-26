@@ -12,3 +12,14 @@ To‘rtta supplied PDF haqiqatan ochildi:161+160+144+144=609sahifa. Har sahifa d
 7§1–5to‘liqPDF6–19tasvirlari keyingi mualliflik uchun ko‘rildi. Eftallar/xioniylar etnik kelib chiqishi,aniq poytaxt/ismlarning kelib chiqishi va davrlashtirish haqidagi bahsli umumlashtirishlar mustaqil tarixchi tasdig‘isiz yagona haqiqat kalitiga aylantirilmaydi. Nashrdagi sana asklari kerak bo‘lsa “darslikda...” doirasida beriladi. Fikr-mulohaza/esse avtomatik bitta kalit bilan baholanmaydi.
 
 Mustaqil tarix o‘qituvchisi,Android va2026–2027to‘liq dastur ekspertizasi bajarilmagan.
+
+
+## 2026-10-26: §6–10 va navbatdagi manba tekshiruvi
+
+§6–10 faktlari va original topshiriqlari asl PDF19–37 bilan tekshirildi. Shahar qismlari va mansablar o‘z davri hamda manba bandi doirasida berilgan; “rabot”ning keyingi mavzulardagi boshqa ma’nolarini avtomatik aynan tenglashtirmang. Siyosiy talqinlar va o‘quvchining shaxsiy diniy e’tiqodi avtomatik ballga aylantirilmagan. Jizya/xiroj/zakot turlari farqlanadi, lekin manbadagi stavkalar barcha davr uchun qat’iy qonun sifatida testlanmagan. §7dagi ko‘kturk misollarini faqat sarlavhaga qarab VI–VII asrlarga sanalamadi. “Toxar” yozuvi bu kitobda mintaqaviy termin sifatida ishlatilgan; uni barcha toxar tillari yozuvi bilan aynan tenglashtirish uchun mustaqil ekspert kerak.
+
+33-sahifadagi Umar ibn Abdulaziz hukmronligi “717–719” qaydi mustaqil xronologik tekshiruvga qoldirildi. Bu oraliq §10 karta yoki avtomatik javob kalitiga kiritilmadi; soliq siyosati haqidagi matn bilan ishlanadi. Tashqi ishonchli manba bu sessiyada tekshirilmagan ekan, boshqa sana ham tasdiqlangan tuzatish sifatida qo‘shilmadi.
+
+Keyingi §11 uchun asl37–41 ko‘rildi: 38-sahifada sulola almashish bayoni 749-yilga bog‘langan, ayni joyda Abul Abbos Saffoh hukmronligi 750–754 deb ko‘rsatilgan; 39-sahifa xulosasi ham 747–749ni beradi. Bu ichki xronologik tafovut. Sulola hokimiyatga kelgan yilini bir qiymatli avtomatik savolga aylantirmaslik kerak; 747 targ‘ibot, 751 Talos, 755 Abu Muslim qaydlarini alohida tekshirib ishlatish mumkin. Yetishmayotgan mustaqil dalilsiz “tuzatildi” deb aytilmaydi.
+
+§12 uchun 42-sahifada O‘g‘uz davlati IX oxiri–X boshida tashkil topishi va X asr birinchi choragida parchalanishi berilgan. Tugash asri mustaqil ekspertizaga qoldirildi, aniq sana kaliti qo‘yilmasin. Qarluqlar va o‘g‘uzlar haqida matndagi murakkab etnogenez xulosalari bir-to-bir avtomatik fakt testiga aylantirilmaydi.

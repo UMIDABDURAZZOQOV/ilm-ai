@@ -54,6 +54,22 @@ FRQ = {
 }
 ORDER = {2: ["e1", "e2"], 3: ["e1", "e2", "e3"], 4: ["e1", "e2", "e3"], 5: ["e2", "e1"]}
 
+MCQ.update({
+    6: ["Boj to‘lash va ichki boshqaruvning saqlanishi", "Zarafshon va Qashqadaryo", "Koson, Axsikat, Quva", "Ko‘handiz yoki ark"],
+    7: ["Sug‘d va xorazm yozuvlari", "Charm, yog‘och va sopol", "Varaxsha", "Bir nechta diniy an’ana mavjud bo‘lgan"],
+    8: ["Daryoning narigi tomoni", "Marv", "Buxoro", "Iqto"],
+    9: ["Jizya", "Xiroj", "Dastlabki yillarda", "Quva va Afrosiyob"],
+    10: ["G‘urak va Divashtich", "Oq libos", "Niqobdor", "Rofe ibn Lays"],
+})
+FRQ.update({6: ["Tunkat", "Rabot"], 7: ["Mug' qal'asi", "Choch raqsi"],
+    8: ["Qutayba ibn Muslim", "G'urak"], 9: ["Zakot", "Jizya"],
+    10: ["Hoshim ibn Hakim", "Som qal'asi"]})
+ORDER.update({8: ["e1", "e2", "e3"], 10: ["e1", "e2", "e3"]})
+
+
+def course_lessons():
+    return [l for d in load_course() for l in d["lessons"]]
+
 
 def answers(lesson):
     result = []
@@ -79,9 +95,9 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 6))
+@pytest.mark.parametrize("seq", range(1, 11))
 def test_independent_source_answer_keys(seq):
-    l = load_course()[0]["lessons"][seq - 1]
+    l = course_lessons()[seq - 1]
     for q, a in zip(l["assessments"], answers(l)):
         assert grade_answer(q["grading_spec"], a) == "correct"
         if q["response_kind"] == "concept_selection":
@@ -201,8 +217,8 @@ def preview(tmp_path, monkeypatch):
                 User(id=2, name="QA2", email="uzh-qa2@example.test", xp_total=0),
             ]
         )
-        assert import_course(db) == {"created": 5, "skipped": 0}
-        assert import_course(db) == {"created": 0, "skipped": 5}
+        assert import_course(db) == {"created": 10, "skipped": 0}
+        assert import_course(db) == {"created": 0, "skipped": 10}
     app = FastAPI()
     app.include_router(router)
 
@@ -259,25 +275,26 @@ def complete_lesson(client, l, request=None):
     return a, r.json()
 
 
-def test_real_api_all_five_sources_xp_replay_and_legacy_preservation(preview):
+def test_real_api_all_ten_sources_xp_replay_and_legacy_preservation(preview):
     c, f = preview
     catalog = c.get(P + "/catalog").json()
     assert catalog["subject"] == "ozbekiston_tarixi" and catalog["book"]["grade"] == 7
-    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 5
+    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 10
     assert catalog["available_grades"] == [7] and catalog["blocked_grades"] == [8]
-    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 4
+    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 9
     assert start(c, 2).status_code == 403
-    for l in load_course()[0]["lessons"]:
+    for l in course_lessons():
         _, result = complete_lesson(c, l)
         assert result["xp_awarded"] == 10
     _, again = complete_lesson(c, load_course()[0]["lessons"][0])
-    assert again["xp_awarded"] == 0 and again["xp_total"] == 187
+    assert again["xp_awarded"] == 0 and again["xp_total"] == 237
     cat = c.get(P + "/catalog").json()
     assert not cat["course_complete"] and not cat["grade_content_complete"]
-    assert cat["chapters"][0]["checkpoint_state"] == "locked"
+    assert cat["chapters"][0]["checkpoint_state"] == "completed"
+    assert cat["chapters"][1]["checkpoint_state"] == "locked"
     with f() as db:
         assert (
-            db.get(User, 1).xp_total == 187 and db.query(HistoryProgress).count() == 5
+            db.get(User, 1).xp_total == 237 and db.query(HistoryProgress).count() == 10
         )
 
 
@@ -391,7 +408,7 @@ def test_parallel_completion_never_duplicates_xp(preview):
         assert db.get(User, 1).xp_total == 147
 
 
-def test_postgres_opt_in_fresh_schema_all_five_and_parallel_xp(monkeypatch):
+def test_postgres_opt_in_fresh_schema_all_ten_and_parallel_xp(monkeypatch):
     """Only an explicit loopback staging URL; never a production schema."""
     import os
     import secrets
@@ -421,8 +438,8 @@ def test_postgres_opt_in_fresh_schema_all_five_and_parallel_xp(monkeypatch):
         with factory.begin() as db:
             db.add(User(id=1, name="QA", email="qa@example.test", xp_total=137))
             db.flush()
-            assert import_course(db) == {"created": 5, "skipped": 0}
-            assert import_course(db) == {"created": 0, "skipped": 5}
+            assert import_course(db) == {"created": 10, "skipped": 0}
+            assert import_course(db) == {"created": 0, "skipped": 10}
         monkeypatch.setenv("ENVIRONMENT", "test")
         monkeypatch.setenv("UZBEKISTAN_HISTORY_PREVIEW_ENABLED", "true")
         monkeypatch.setattr(tokens, "JWT_SECRET", "history-local-pg-test-only-key-over-32-characters")
@@ -435,10 +452,10 @@ def test_postgres_opt_in_fresh_schema_all_five_and_parallel_xp(monkeypatch):
 
         app.dependency_overrides[database.get_db] = get_db
         with TestClient(app, headers={"Authorization": "Bearer " + tokens.create_access_token(1)}) as c:
-            for l in load_course()[0]["lessons"][:-1]:
+            for l in course_lessons()[:-1]:
                 _, r = complete_lesson(c, l)
                 assert r["xp_awarded"] == 10
-            l = load_course()[0]["lessons"][-1]
+            l = course_lessons()[-1]
             a = start(c, l["sequence"]).json()
             for q, answer in zip(l["assessments"], answers(l)):
                 assert c.post(f"{P}/attempts/{a['attempt_id']}/answers", json={
@@ -452,9 +469,9 @@ def test_postgres_opt_in_fresh_schema_all_five_and_parallel_xp(monkeypatch):
             assert responses[0].json() == responses[1].json()
             assert responses[0].json()["xp_awarded"] == 10
             _, r = complete_lesson(c, load_course()[0]["lessons"][0])
-            assert r["xp_total"] == 187 and r["xp_awarded"] == 0
+            assert r["xp_total"] == 237 and r["xp_awarded"] == 0
         with factory() as db:
-            assert db.get(User, 1).xp_total == 187 and db.query(HistoryProgress).count() == 5
+            assert db.get(User, 1).xp_total == 237 and db.query(HistoryProgress).count() == 10
     finally:
         engine.dispose()
         with admin.begin() as conn:

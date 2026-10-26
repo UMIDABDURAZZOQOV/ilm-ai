@@ -16,7 +16,7 @@ from services.uzbekistan_history_sources import (
     validate_catalog,
 )
 
-BATCHES = {"grade7_batch1": (7, 1, 5)}
+BATCHES = {"grade7_batch1": (7, 1, 5), "grade7_batch2": (7, 6, 10)}
 fingerprint = digest
 
 
@@ -351,4 +351,12 @@ def load_course():
                 "page_review_evidence",
             )
         result.append(doc)
+    all_lessons = [lesson for doc in result for lesson in doc["lessons"]]
+    require(len({l["topic_id"] for l in all_lessons}) == len(all_lessons), "duplicate_batch_topic")
+    questions = [q for l in all_lessons for q in l["assessments"]]
+    require(len({q["key"] for q in questions}) == len(questions), "duplicate_batch_question")
+    require(len({q["public"]["prompt"] for q in questions}) == len(questions), "duplicate_batch_prompt")
+    for grade in {d["grade"] for d in result}:
+        seq = [l["sequence"] for d in result if d["grade"] == grade for l in d["lessons"]]
+        require(seq == list(range(1, max(seq) + 1)), "cross_batch_source_gap")
     return result
