@@ -1,3 +1,20 @@
+# 10-sinf yakunlandi; keyingi 11-sinf §1–5 — 2026-10-26
+
+271/316.10-sinf45/45. Keyingi11§1PDF5/bosma4, original13sahifa5–17 tekshirildi. Hozircha private draft, yangi runtimehaliqo‘shilmagan.
+
+PDF5,6,7,8: Original whole PDF SHA/pagecount and native/image pages checked. Magnetic induction vector T vs signed scalar flux Wb. Uniform B and flat oriented area Phi=B*S*cosAlpha, alpha angle with NORMAL not surface plane. Source7 worked wording angle to frame ambiguous, calculation uses normal60deg; new prompts explicitly normal/provided cosine. Closed field lines no monopole claim within school model; outside NtoS/inside return, not all lines start N endS. No false physical iron-filings experiment.
+
+PDF8,9,10: Original couple/leverarm/currentloop diagram and M formulas checked. SINGLEloop M=BISsinAlpha, Nidenticalcoplanarturns multiplyN evidenced source10 worked example. alpha B vs loopNORMAL, maximum at90deg minimum0, opposite sideforces cancelnetF but nonzerocouple. Moment N*m vs energy J semantic distinction preserved. Source10 B1.25mT correct independent. No electric-motor physical experiment, no general inertia/trig solver.
+
+PDF11,12,13,14: Original right-hand/BiotSavart/longwire/circularloop/coil formulas checked. Infinite straight thinwire B=mu0I/(2pid) dperpendicular fromaxis; circularcenter B=mu0I/(2R). Nturn formula mu0NI/(2R) only thin/coincident circular turns nearcommonplane, NOT longsolenoid universal despite source13longcoil picture. Same-point vectorcomponent sum, not all magnitudes sum. mu0=4p*1e-7 with p3.14 explicitly approximate input (modern SI mu0 not exactdefinedconstant). Source14 working1.25e-6T correct but final12.5e-6T inconsistent; no bad answerkey copied.
+
+PDF14,15: Original Ampere work geometry checked. Straight current perpendicularB and motionparallelforce gives A=IBld; general provided sin between current/B when motion alongforce A=IBldsinAlpha. Iconstant,currentlooporientedflux relation A=I*DPhi with sign/orientation explicit. Energy from maintaining source, not free static magnetic field/contradiction to individual-charge Lorentz no work. No homemade electron gun or high-current experiment.
+
+PDF16,17: Original two long parallel wires force and worked sample checked. Codirectional attraction/opposite repulsion under vacuum longthinwire model; force magnitude mu0I1I2l/(2pid), same per-selectedlength not arbitrary finiteendgeometry. Source17 2018 ampere two-wire definition is HISTORICAL, modern SI fixes elementary charge since2019; do not present olddefinition or exactmu0 as current release standard. Numeric givenmu0/p approximation explicitly stated, no real wire experiment.
+
+---
+10-sinf tarixiy manba qaydlari quyida saqlandi.
+
 # Keyingi: 10-sinf §41–45 — 2026-10-26
 
 266/316 bo‘lim.17asl sahifa153–169 nativehash/tasvirlari qayta o‘qildi. Bu source tayyorgarligi, keyingi runtimebatch9haliqo‘shilmagan.

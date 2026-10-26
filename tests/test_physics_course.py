@@ -1023,6 +1023,19 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (10, 41, 6): ("800", "%", "((U2/U1)^3)^0.5"),
+        (10, 42, 6): ("0.055", "kΩ", "R0+R0*alpha*DT"),
+        (10, 42, 7): ("0.004", "K^-1", "(R/R0-1)/DT"),
+        (10, 42, 8): ("0.000000022", "Ω*m", "rho0+rho0*alpha*DT"),
+        (10, 42, 9): ("0.05", "kΩ", "R*(1+alpha*DT)^-1"),
+        (10, 45, 6): ("0.03", "kΩ", "U*I^-1"),
+        (10, 45, 7): ("0.5", "MΩ", "U*I^-1"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -1039,11 +1052,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        266,
-        50,
+        271,
+        45,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 40, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -1053,7 +1066,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 50
+    assert len(load_course()) == 51
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1252,11 +1265,14 @@ def test_all_reviewed_http_content_and_replay(preview):
     grade9 = client.get(f"{PREFIX}/catalog?grade=9").json()
     assert grade9["grade_content_complete"] and len(grade9["lessons"]) == 59
     assert all(l["state"] == "completed" for l in grade9["lessons"])
+    grade10 = client.get(f"{PREFIX}/catalog?grade=10").json()
+    assert grade10["grade_content_complete"] and len(grade10["lessons"]) == 45
+    assert all(l["state"] == "completed" for l in grade10["lessons"])
     assert not grade9[
         "course_complete"
-    ]  # Grade10 is partial and grade11 is still unimplemented.
+    ]  # Grade11 is still unimplemented; completed grades do not imply 316/316.
     with factory() as db:
-        assert db.get(User, 1).xp_total == 2660
+        assert db.get(User, 1).xp_total == 2710
 
 
 @pytest.mark.parametrize(

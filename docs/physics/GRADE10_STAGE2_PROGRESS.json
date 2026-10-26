@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 266,
-  "remaining": 50,
+  "authored": 271,
+  "remaining": 45,
   "grades": [
     {
       "grade": 6,
@@ -64,16 +64,16 @@
     {
       "grade": 10,
       "source_sections": 45,
-      "authored": 40,
-      "remaining": 5,
-      "cards": 186,
-      "formula_entries": 154,
-      "examples": 41,
-      "assessments": 337,
-      "frq": 154,
-      "laboratories": 4,
+      "authored": 45,
+      "remaining": 0,
+      "cards": 214,
+      "formula_entries": 160,
+      "examples": 46,
+      "assessments": 373,
+      "frq": 161,
+      "laboratories": 5,
       "practicals": 0,
-      "next_section": 41
+      "next_section": null
     },
     {
       "grade": 11,
@@ -90,36 +90,39 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 744,
+  "original_page_checks": 761,
   "date": "2026-10-26",
   "next": {
-    "grade": 10,
-    "section": 41,
-    "pdf_page": 153,
-    "printed_page": 152
+    "grade": 11,
+    "section": 1,
+    "pdf_page": 5,
+    "printed_page": 4
   },
-  "unique_original_pages_reviewed": 712,
+  "unique_original_pages_reviewed": 729,
   "totals": {
-    "cards": 1160,
-    "formula_entries": 649,
-    "examples": 286,
-    "assessments": 1915,
-    "frq": 714
+    "cards": 1188,
+    "formula_entries": 655,
+    "examples": 291,
+    "assessments": 1951,
+    "frq": 721
   },
-  "executable_formula_families": 540,
+  "executable_formula_families": 545,
   "tests": {
-    "physics_biology_passed": 1716,
+    "physics_biology_passed": 1749,
     "postgres_opt_in_skipped": 2,
     "sandbox_deselected": 2,
-    "backend_seconds": 297.45,
+    "backend_seconds": 295.81,
+    "initial_run_passed": 1748,
+    "initial_run_failed": 1,
+    "initial_failure": "old batch1 test assumed grade10 never complete; corrected terminal None assertion and reran full selection",
     "postgresql16_passed": 1,
-    "postgresql_seconds": 94.47,
+    "postgresql_seconds": 94.56,
     "flutter_physics_passed": 26,
     "flutter_seconds": 76,
-    "flutter_analyze": "No issues found (1.9s)",
-    "grade10_public_frq_drafts": 154,
-    "new_content_passed": 56,
-    "new_content_seconds": 4.22,
+    "flutter_analyze": "No issues found (2.0s)",
+    "grade10_public_frq_drafts": 161,
+    "new_content_passed": 33,
+    "new_content_seconds": 5.1,
     "previous_backend_except_two_sandbox_passed": 1774,
     "previous_full_flutter_passed": 152
   },

@@ -24,6 +24,37 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "space_charge_current_ratio": rule(
+        "ratio",
+        ["U1", "U2"],
+        ["sqrt((U2/U1)^3)", "((U2/U1)^3)^0.5"],
+        "Same vacuum-diode geometry/cathode temperature k, BOTH positive-anode points in SPACE-CHARGE-LIMITED I=kU^(3/2) regime, NOT saturation, ratio I2/I1 dimensionless;10PDF154.",
+        square_root=True,
+    ),
+    "metal_linear_resistance": rule(
+        "R",
+        ["R0", "alpha", "DT"],
+        ["R0*(1+alpha*DT)", "R0+R0*alpha*DT"],
+        "Provided ordinary-metal constantalpha LINEAR valid interval, R0 at0degC, DT signed difference K not absoluteT, positive modeledR, no superconducting extrapolation;10PDF156.",
+    ),
+    "metal_linear_coefficient": rule(
+        "alpha",
+        ["R", "R0", "DT"],
+        ["(R-R0)/(R0*DT)", "(R/R0-1)/DT"],
+        "Same ordinary-metal linear interval/R0at0degC, nonzero signed temperature DIFFERENCE, nonnegative coefficient, not alpha in degreesC;10PDF156.",
+    ),
+    "metal_linear_resistivity": rule(
+        "rho",
+        ["rho0", "alpha", "DT"],
+        ["rho0*(1+alpha*DT)", "rho0+rho0*alpha*DT"],
+        "Same ordinary-metal linear interval, geometric changes negligible, rho0 at0degC, signed DT difference, positive modeledrho;10PDF156.",
+    ),
+    "metal_reference_resistance": rule(
+        "R0",
+        ["R", "alpha", "DT"],
+        ["R/(1+alpha*DT)", "R*(1+alpha*DT)^-1"],
+        "Same ordinary-metal linear interval, reference0degC, signed DT difference, positive linearfactor, retain exact values until final answer;10PDF156,158.",
+    ),
     "current_density_section": rule(
         "j",
         ["I", "S"],
@@ -3131,6 +3162,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "temperature_coefficient": "1/K",
     "current_density": "A/m2",
     "conductance": "S",
     "energy_density": "J/m3",
@@ -3215,6 +3247,37 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name == "space_charge_current_ratio":
+        return square_root_quantity(
+            (positive("U2", "voltage") / positive("U1", "voltage")) ** 3
+        ), "dimensionless"
+    if name in {
+        "metal_linear_resistance",
+        "metal_linear_coefficient",
+        "metal_linear_resistivity",
+        "metal_reference_resistance",
+    }:
+        dt = projection("DT", "temperature")
+        if dt <= -Fraction("273.15"):
+            raise ValueError(
+                "positive_absolute_temperature_from_zero_celsius_reference"
+            )
+        if name == "metal_linear_coefficient":
+            if dt == 0:
+                raise ValueError("nonzero_temperature_difference_required")
+            R, R0 = positive("R", "resistance"), positive("R0", "resistance")
+            a = (R - R0) / (R0 * dt)
+            if a < 0:
+                raise ValueError("ordinary_metal_nonnegative_temperature_coefficient")
+            return a, "temperature_coefficient"
+        factor = 1 + value("alpha", "temperature_coefficient") * dt
+        if factor <= 0:
+            raise ValueError("positive_linear_material_factor_required")
+        if name == "metal_linear_resistivity":
+            return positive("rho0", "resistivity") * factor, "resistivity"
+        if name == "metal_reference_resistance":
+            return positive("R", "resistance") / factor, "resistance"
+        return positive("R0", "resistance") * factor, "resistance"
     if name == "current_density_section":
         return value("I", "current") / positive("S", "area"), "current_density"
     if name == "current_density_drift":

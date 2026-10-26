@@ -159,6 +159,6 @@ def test_grade10_batch_honest_counts_and_no_general_publication():
     r = next(g for g in report()["grades"] if g["grade"] == 10)
     assert r["authored"] >= 5
     assert r["remaining"] == 45 - r["authored"]
-    assert r["next_section"] == r["authored"] + 1
+    assert r["next_section"] == (r["authored"] + 1 if r["remaining"] else None)
     assert d["publication"] == "local_test_preview_only" and not d["ai_explain"]
     assert all(not l["review"]["physical_experiment_completed"] for l in d["lessons"])
