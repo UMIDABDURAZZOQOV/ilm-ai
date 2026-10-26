@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-27",
+  "statistics": {
+    "lessons": 30,
+    "cards": 228,
+    "examples": 30,
+    "reflections": 30,
+    "mcq": 120,
+    "frq": 59,
+    "chronology": 20,
+    "questions": 199
+  },
+  "tests": {
+    "backend": "72 passed, 1 skipped in 13.23s",
+    "postgres": "1 passed, 56 deselected in 10.71s",
+    "flutter": "01:33 +210: All tests passed!",
+    "analyze": "No issues found! (ran in 1.8s)",
+    "legacy_selected": "530 passed in 197.87s (0:03:17)",
+    "legacy_full": "2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)",
+    "flutter_history": "00:06 +57: All tests passed!"
+  },
+  "source_audit": {
+    "available_books": 4,
+    "blocked_grades": [
+      8
+    ],
+    "catalogued_teaching_entries": 131,
+    "all_five_total": null,
+    "original_pages": 609,
+    "original_heading_images": 131,
+    "interactive_batches": [
+      {
+        "lessons": 5,
+        "cards": 34,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 32,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 41,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 9,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 31,
+        "frq": 10,
+        "chronologies": 1
+      }
+    ],
+    "lesson_full_page_images": 107
+  },
+  "publication": "local_test_preview_only",
+  "course_complete": false,
+  "next_grade": 7,
+  "next_sequence": 31,
+  "next_pdf_page": 114
+}

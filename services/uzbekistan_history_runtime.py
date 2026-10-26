@@ -93,6 +93,7 @@ def catalog(db, uid, grade=7):
     if grade not in SOURCE_SECTIONS:
         raise HTTPException(422, "unsupported_uzbekistan_history_grade")
     source_book = next(b for b in load_catalog()["books"] if b["grade"] == grade)
+    source_numbers = {t["id"]: t["source_numbers"] for t in source_book["topics"]}
     progress = {
         p.lesson_key: p for p in db.query(HistoryProgress).filter_by(user_id=uid)
     }
@@ -106,6 +107,7 @@ def catalog(db, uid, grade=7):
             {
                 "key": lesson.key,
                 "sequence": lesson.sequence,
+                "source_numbers": source_numbers.get(lesson.topic_id, []),
                 "title": lesson.title,
                 "state": "completed" if done else ("available" if ready else "locked"),
                 "best_score_pct": progress[lesson.key].best_score_pct
@@ -123,7 +125,7 @@ def catalog(db, uid, grade=7):
         "publication": "local_test_preview_only",
         "book": {
             k: source_book[k]
-            for k in ["id", "grade", "title", "authors", "publisher", "year"]
+            for k in ["id", "grade", "title", "authors", "publisher", "year", "isbn"]
         },
         "subject_name": "O‘zbekiston tarixi",
         "source_sections": SOURCE_SECTIONS[grade],

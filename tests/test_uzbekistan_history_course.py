@@ -102,6 +102,18 @@ FRQ.update({21: ["Xalifa Nosir", "G'iyosiddin Pirshoh"], 22: ["Juvayniy", "Jalol
 ORDER.update({21: ["e1", "e2", "e3", "e4"], 22: ["e1", "e2", "e3", "e4"],
     23: ["e1", "e2"], 24: ["e1", "e2", "e3"]})
 
+MCQ.update({
+    26: ["Bag‘dod", "Al-Xorazmiy", "Ahmad al-Farg‘oniy", "Abu Nasr Farobiy"],
+    27: ["Mahmud az-Zamaxshariy", "Yusuf Xos Hojib", "Mahmud Koshg‘ariy", "Ahmad Yugnakiy"],
+    28: ["Imom al-Buxoriy", "Abu Mansur al-Moturidiy", "Burhoniddin al-Marg‘inoniy", "Fiqh"],
+    29: ["Xonbandi", "Xattotlik", "Olti maqom", "Yog‘och sinch"],
+    30: ["Xoja Ilg‘or", "Dorug‘a", "Loy jangi", "Samarqand"],
+})
+FRQ.update({26: ["Ibn Sino", "Beruniy"], 27: ["Xos Hojib", "Koshg'ar"],
+    28: ["Ahmad Yassaviy", "Bahouddin Naqshband"], 29: ["Ismoil Somoniy", "12 asr"],
+    30: ["Mavlonozoda", "Abu Bakr Kalaviy"]})
+ORDER[30] = ["e1", "e2", "e3", "e4"]
+
 
 def course_lessons():
     return [l for d in load_course() for l in d["lessons"]]
@@ -131,7 +143,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 26))
+@pytest.mark.parametrize("seq", range(1, 31))
 def test_independent_source_answer_keys(seq):
     l = course_lessons()[seq - 1]
     for q, a in zip(l["assessments"], answers(l)):
@@ -265,8 +277,8 @@ def preview(tmp_path, monkeypatch):
                 User(id=2, name="QA2", email="uzh-qa2@example.test", xp_total=0),
             ]
         )
-        assert import_course(db) == {"created": 25, "skipped": 0}
-        assert import_course(db) == {"created": 0, "skipped": 25}
+        assert import_course(db) == {"created": 30, "skipped": 0}
+        assert import_course(db) == {"created": 0, "skipped": 30}
     app = FastAPI()
     app.include_router(router)
 
@@ -323,28 +335,31 @@ def complete_lesson(client, l, request=None):
     return a, r.json()
 
 
-def test_real_api_all_twenty_five_sources_xp_replay_and_legacy_preservation(preview):
+def test_real_api_all_thirty_sources_xp_replay_and_legacy_preservation(preview):
     c, f = preview
     catalog = c.get(P + "/catalog").json()
     assert catalog["subject"] == "ozbekiston_tarixi" and catalog["book"]["grade"] == 7
-    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 25
+    assert catalog["lessons"][0]["source_numbers"] == [1]
+    assert catalog["book"]["isbn"] == "978-9943-26-656-8"
+    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 30
     assert catalog["available_grades"] == [7] and catalog["blocked_grades"] == [8]
-    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 24
+    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 29
     assert start(c, 2).status_code == 403
     for l in course_lessons():
         _, result = complete_lesson(c, l)
         assert result["xp_awarded"] == 10
     _, again = complete_lesson(c, load_course()[0]["lessons"][0])
-    assert again["xp_awarded"] == 0 and again["xp_total"] == 387
+    assert again["xp_awarded"] == 0 and again["xp_total"] == 437
     cat = c.get(P + "/catalog").json()
     assert not cat["course_complete"] and not cat["grade_content_complete"]
     assert cat["chapters"][0]["checkpoint_state"] == "completed"
     assert cat["chapters"][1]["checkpoint_state"] == "completed"
     assert cat["chapters"][2]["checkpoint_state"] == "completed"
-    assert cat["chapters"][3]["checkpoint_state"] == "locked"
+    assert cat["chapters"][3]["checkpoint_state"] == "completed"
+    assert cat["chapters"][4]["checkpoint_state"] == "locked"
     with f() as db:
         assert (
-            db.get(User, 1).xp_total == 387 and db.query(HistoryProgress).count() == 25
+            db.get(User, 1).xp_total == 437 and db.query(HistoryProgress).count() == 30
         )
 
 
@@ -465,27 +480,33 @@ def test_import_immutable_digest_and_local_only_gate(preview, monkeypatch):
         safe_staging_url(make_url("sqlite:////tmp/uzbekistan_history_staging.db"))
 
 
-def test_parallel_completion_never_duplicates_xp(preview):
+@pytest.mark.parametrize("different_attempts", [False, True])
+def test_parallel_completion_never_duplicates_xp(preview, different_attempts):
     from concurrent.futures import ThreadPoolExecutor
 
     c, factory = preview
     l = load_course()[0]["lessons"][0]
     a = start(c).json()
-    for q, answer in zip(l["assessments"], answers(l)):
-        assert c.post(f"{P}/attempts/{a['attempt_id']}/answers", json={
-            "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
-        }).status_code == 200
+    attempts = [a, start(c).json()] if different_attempts else [a]
+    for attempt in attempts:
+        for q, answer in zip(l["assessments"], answers(l)):
+            assert c.post(f"{P}/attempts/{attempt['attempt_id']}/answers", json={
+                "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
+            }).status_code == 200
     with ThreadPoolExecutor(max_workers=2) as pool:
-        responses = list(pool.map(lambda _: c.post(
-            f"{P}/attempts/{a['attempt_id']}/complete", json={"assessment_version": 2}
-        ), range(2)))
+        responses = list(pool.map(lambda attempt: c.post(
+            f"{P}/attempts/{attempt['attempt_id']}/complete", json={"assessment_version": 2}
+        ), attempts if different_attempts else [a, a]))
     assert [r.status_code for r in responses] == [200, 200]
-    assert responses[0].json() == responses[1].json()
+    if different_attempts:
+        assert sorted(r.json()["xp_awarded"] for r in responses) == [0, 10]
+    else:
+        assert responses[0].json() == responses[1].json()
     with factory() as db:
         assert db.get(User, 1).xp_total == 147
 
 
-def test_postgres_opt_in_fresh_schema_all_twenty_five_and_parallel_xp(monkeypatch):
+def test_postgres_opt_in_fresh_schema_all_thirty_and_parallel_xp(monkeypatch):
     """Only an explicit loopback staging URL; never a production schema."""
     import os
     import secrets
@@ -515,8 +536,8 @@ def test_postgres_opt_in_fresh_schema_all_twenty_five_and_parallel_xp(monkeypatc
         with factory.begin() as db:
             db.add(User(id=1, name="QA", email="qa@example.test", xp_total=137))
             db.flush()
-            assert import_course(db) == {"created": 25, "skipped": 0}
-            assert import_course(db) == {"created": 0, "skipped": 25}
+            assert import_course(db) == {"created": 30, "skipped": 0}
+            assert import_course(db) == {"created": 0, "skipped": 30}
         monkeypatch.setenv("ENVIRONMENT", "test")
         monkeypatch.setenv("UZBEKISTAN_HISTORY_PREVIEW_ENABLED", "true")
         monkeypatch.setattr(tokens, "JWT_SECRET", "history-local-pg-test-only-key-over-32-characters")
@@ -533,22 +554,22 @@ def test_postgres_opt_in_fresh_schema_all_twenty_five_and_parallel_xp(monkeypatc
                 _, r = complete_lesson(c, l)
                 assert r["xp_awarded"] == 10
             l = course_lessons()[-1]
-            a = start(c, l["sequence"]).json()
-            for q, answer in zip(l["assessments"], answers(l)):
-                assert c.post(f"{P}/attempts/{a['attempt_id']}/answers", json={
-                    "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
-                }).status_code == 200
+            attempts = [start(c, l["sequence"]).json() for _ in range(2)]
+            for attempt in attempts:
+                for q, answer in zip(l["assessments"], answers(l)):
+                    assert c.post(f"{P}/attempts/{attempt['attempt_id']}/answers", json={
+                        "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
+                    }).status_code == 200
             with ThreadPoolExecutor(max_workers=2) as pool:
-                responses = list(pool.map(lambda _: c.post(
-                    f"{P}/attempts/{a['attempt_id']}/complete", json={"assessment_version": 2}
-                ), range(2)))
+                responses = list(pool.map(lambda attempt: c.post(
+                    f"{P}/attempts/{attempt['attempt_id']}/complete", json={"assessment_version": 2}
+                ), attempts))
             assert [r.status_code for r in responses] == [200, 200]
-            assert responses[0].json() == responses[1].json()
-            assert responses[0].json()["xp_awarded"] == 10
+            assert sorted(r.json()["xp_awarded"] for r in responses) == [0, 10]
             _, r = complete_lesson(c, load_course()[0]["lessons"][0])
-            assert r["xp_total"] == 387 and r["xp_awarded"] == 0
+            assert r["xp_total"] == 437 and r["xp_awarded"] == 0
         with factory() as db:
-            assert db.get(User, 1).xp_total == 387 and db.query(HistoryProgress).count() == 25
+            assert db.get(User, 1).xp_total == 437 and db.query(HistoryProgress).count() == 30
     finally:
         engine.dispose()
         with admin.begin() as conn:
