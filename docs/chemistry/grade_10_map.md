@@ -50,10 +50,10 @@ Individual lesson claims require their own reviewed source refs.
 | `ch10-paragraph34` | paragraph 34 | Aminokislotalar va oqsillar. Olinishi va xossalari | 139–145 | 139:full – 145:full | 139 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph33 |
 | `ch10-paragraph35` | paragraph 35 | Yuqori molekulyar birikmalar | 145–153 | 145:full – 153:full | 145 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph34 |
 | `ch10-activities` | activity_collection  | Laboratoriya ishlari | 153–156 | 153:full – 156:full | 153 | not_authored | — |
-| `ch10-laboratory01` | laboratory 1 | Etilenning etil spirtdan olinishi | 153–154 | 153:full – 154:full | 153 | not_authored | ch10-paragraph35 |
-| `ch10-laboratory02` | laboratory 2 | Atsetilenning olinishi | 153–154 | 153:full – 154:full | 153 | not_authored | ch10-laboratory01 |
-| `ch10-laboratory03` | laboratory 3 | Glitserinni suvda eritish va uning mis (II)-gidroksid bilan reaksiyasi | 154–155 | 154:full – 155:full | 154 | not_authored | ch10-laboratory02 |
-| `ch10-laboratory04` | laboratory 4 | Karbon kislotalarining olinishi va xossalari | 155–156 | 155:full – 156:full | 155 | not_authored | ch10-laboratory03 |
-| `ch10-laboratory05` | laboratory 5 | Glukozaning mis (II)-gidroksid bilan reaksiyasi | 156–156 | 156:full – 156:full | 156 | not_authored | ch10-laboratory04 |
-| `ch10-laboratory06` | laboratory 6 | Oqsillarga xos rangli reaksiya | 156–156 | 156:full – 156:full | 156 | not_authored | ch10-laboratory05 |
+| `ch10-laboratory01` | laboratory 1 | Etilenning etil spirtdan olinishi | 153–154 | 153:full – 154:full | 153 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph35 |
+| `ch10-laboratory02` | laboratory 2 | Atsetilenning olinishi | 153–154 | 153:full – 154:full | 153 | reviewed local lesson; scoped editorial review remains open | ch10-laboratory01 |
+| `ch10-laboratory03` | laboratory 3 | Glitserinni suvda eritish va uning mis (II)-gidroksid bilan reaksiyasi | 154–155 | 154:full – 155:full | 154 | reviewed local lesson; scoped editorial review remains open | ch10-laboratory02 |
+| `ch10-laboratory04` | laboratory 4 | Karbon kislotalarining olinishi va xossalari | 155–156 | 155:full – 156:full | 155 | reviewed local lesson; scoped editorial review remains open | ch10-laboratory03 |
+| `ch10-laboratory05` | laboratory 5 | Glukozaning mis (II)-gidroksid bilan reaksiyasi | 156–156 | 156:full – 156:full | 156 | reviewed local lesson; scoped editorial review remains open | ch10-laboratory04 |
+| `ch10-laboratory06` | laboratory 6 | Oqsillarga xos rangli reaksiya | 156–156 | 156:full – 156:full | 156 | reviewed local lesson; scoped editorial review remains open | ch10-laboratory05 |
 | `ch10-laboratory05-starch` | subactivity  | Kraxmal kleysterini tayyorlash va kraxmalning yod bilan reaksiyasi | 156–156 | 156:full – 156:full | body only | not_authored | — |

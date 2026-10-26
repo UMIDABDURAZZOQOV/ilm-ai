@@ -1,3 +1,48 @@
+## Batch45 — 2026-10-26:all six grade10 laboratories
+
+**235/268 implemented;33 remain. Grade10 all41 entries implemented.**
+Six laboratories add38cards/62questions:24MCQ,11short,14numeric,5formula,
+8equation. Total2268cards/3409questions:940/472/952/356/689.
+Original153–156 reviewed, with97/119/121/142/143 and earlier named sections
+for corroboration. These are guided digital analysis using the common lesson,
+MCQ/topic-appropriate FRQ/feedback/source/XP/progress/prerequisite contracts.
+They contain no physical experiment instructions, reagent quantities, heating,
+gas capture/storage, flame, tasting or medical advice.
+
+Six source scopes preserve153 prosevolume/diagramratio ambiguity;154 flame
+not unique identity and no unique glycerol/Cu complex;155 rate comparison
+not universal;156 glucose reagent/iodine/biuret observations not unique IDs.
+Glucose two-water gross atom model is corroborated by the sum of two aldehyde
+cards on97;121 missing-water literal remains withheld. No actual solution
+speciation or fixed peptide-color/complex formula is asserted.187editorial
+scopes,one controlled9§40erratum,zero wholeholds;allreadyfalse.
+
+Target127pass/67.11s;full1735pass,1opt-inPGskip. All49Chemistryfiles once
+across4isolatedDB/processes. Frozen source/runtime/test snapshot preserved;
+wall1590.11s, individual timings retainedqa_batch45.json.
+ExistingStarlettewarning once/process(4total). CriticalRuff/diffpassed.
+229priorlesson hashes and original7§1 bytes unchanged;5PDFSHA/817pages audit
+passes. No rawPDF/OCR/fulltext/renders/tokens/DB are included in Git.
+
+ActualHTTP62correctanswers preserve229/4580XP→235/4700XP,+120once.
+Complete replay identical;13,0/13 and2e0/2 identical. Private grading hidden;
+7/8/9 catalogs unchanged.18sanitized public fixtures. Own loopback8903
+synthetic900003 preview;verify exact process command before stopping.
+
+Flutter576tests/557s;analysis0issues/85.9s. Six320×568/200% scenarios pass/34s;
+24captures inspected. Feedback and source views scroll, Continue stays visible;
+current laboratory and earlier paragraph/source locators retain their identity.
+No productionUI changes thisbatch. NativeAndroid/IME/TalkBack notcertified;
+copy-spacing review pending. Flutter6566690 pushed to Chemistry feature branch.
+Backend commit follows this checkpoint. Biology406/Physics/real user data,
+main/AI/production untouched.
+
+Next grade11§1–5 private drafts:62cards/76questions, original4–34reviewed.
+Private batch47§6–10 authors prepared after original35–58 review; notindexed.
+Gasvolume rounding/steam phase, equivalent reaction context, R unit convention,
+electrolyte lamp/dilution and H2SO4 classification issues recorded privately
+for finite source review scopes. No independentteacher certification claimed.
+
 ## Batch44 — 2026-10-26:grade10§31–35
 
 **229/268 implemented;39 remain. All35 grade10paragraphs,6labs remain.**

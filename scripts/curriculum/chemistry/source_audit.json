@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 229,
+  "implemented_lessons": 235,
   "grades": [
     {
       "grade": 7,
@@ -199,15 +199,8 @@
       "laboratories": 6,
       "practicals": 0,
       "source_teaching_entries": 41,
-      "implemented_lessons": 35,
-      "remaining_ids": [
-        "ch10-laboratory01",
-        "ch10-laboratory02",
-        "ch10-laboratory03",
-        "ch10-laboratory04",
-        "ch10-laboratory05",
-        "ch10-laboratory06"
-      ],
+      "implemented_lessons": 41,
+      "remaining_ids": [],
       "pending_source_review_ids": [
         "ch10-p1-organic-generalizations-history-review",
         "ch10-p2-structure-caption-oxidation-review",
@@ -243,7 +236,13 @@
         "ch10-p32-nitro-carbon-classification-route-scope-review",
         "ch10-p33-amine-phase-basicity-isomer-scope-review",
         "ch10-p34-aminoacid-valence-peptide-color-model-review",
-        "ch10-p35-polymer-endgroups-properties-rubber-rank-review"
+        "ch10-p35-polymer-endgroups-properties-rubber-rank-review",
+        "ch10-lab1-ethanol-digital-cycle-safety-review",
+        "ch10-lab2-acetylene-digital-observation-safety-review",
+        "ch10-lab3-glycerol-complex-observation-scope-review",
+        "ch10-lab4-acid-kinetics-indicator-digital-scope-review",
+        "ch10-lab5-glucose-iodine-reagent-balance-scope-review",
+        "ch10-lab6-protein-biuret-observation-scope-review"
       ],
       "source_review_complete": false,
       "course_ready": false
@@ -298,7 +297,7 @@
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 0,
-  "open_editorial_review_issues": 181,
+  "open_editorial_review_issues": 187,
   "reviewed_errata": 1,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817

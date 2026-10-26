@@ -1,21 +1,21 @@
 # Chemistry progress
 
-2026-10-25. Source mapping and interactive readiness are separate.
+2026-10-26. Source mapping and interactive readiness are separate.
 
 | Grade | Chapters | Paragraphs | Lab | Practical | Source teaching entries | Implemented | Remaining |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 61 | 0 |
-| 10 | 4 | 35 | 6 | 0 | 41 | 35 | 6 |
+| 10 | 4 | 35 | 6 | 0 | 41 | 41 | 0 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 229 | 39 |
+| Total | 29 | 204 | 49 | 15 | 268 | 235 | 33 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 2230 cards; 3347 assessments: 916 concept_selection, 461 short_text, 938 numeric_value, 351 chemical_formula, 681 chemical_equation.
+Total: 2268 cards; 3409 assessments: 940 concept_selection, 472 short_text, 952 numeric_value, 356 chemical_formula, 689 chemical_equation.
 
 ## Initial §1
 
@@ -235,9 +235,14 @@ Acid/ether/ester/fat/carbohydrate sources retain common contracts.
 57cards;74questions:20MCQ,14short,26numeric,4formula,10equation.
 All35grade10paragraphs implemented;6source laboratory entries remain.
 
+## Batch45:grade10 laboratories1–6
+
+38 cards;62 questions:24MCQ,11short,14numeric,5formula,8equation.
+All41 grade10 source teaching entries implemented, including all6laboratories.
+
 ## Current continuation
 
-229/268 implemented;39 remain. Grade7 all74,grade8 all59,grade9 all61,grade10 35/41.
-Next six grade10labs;privateauthors45a–f draftvalidated,not indexed.
-181editorialscopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
-ActualHTTP preserves224/4480XP and adds100XPonce→229/4580XP.
+235/268 implemented;33 remain, all in grade11. Grade7 all74,grade8 all59,
+grade9 all61,grade10 all41. Grade11 firstfive private drafts validated.
+187editorialscopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
+ActualHTTP preserves229/4580XP and adds120XPonce→235/4700XP.

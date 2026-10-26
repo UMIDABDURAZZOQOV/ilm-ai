@@ -214,6 +214,12 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch10-paragraph33': 'ch10-p33-amine-phase-basicity-isomer-scope-review',
     'ch10-paragraph34': 'ch10-p34-aminoacid-valence-peptide-color-model-review',
     'ch10-paragraph35': 'ch10-p35-polymer-endgroups-properties-rubber-rank-review',
+    'ch10-laboratory01': 'ch10-lab1-ethanol-digital-cycle-safety-review',
+    'ch10-laboratory02': 'ch10-lab2-acetylene-digital-observation-safety-review',
+    'ch10-laboratory03': 'ch10-lab3-glycerol-complex-observation-scope-review',
+    'ch10-laboratory04': 'ch10-lab4-acid-kinetics-indicator-digital-scope-review',
+    'ch10-laboratory05': 'ch10-lab5-glucose-iodine-reagent-balance-scope-review',
+    'ch10-laboratory06': 'ch10-lab6-protein-biuret-observation-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1046,6 +1052,24 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch10-paragraph35' in topic_ids:
             require('PVC hech qachon suyuqlanmaydi va yonmaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'absolute_pvc_thermal_claim_is_withheld')
+        if 'ch10-laboratory01' in topic_ids:
+            require('Gazni amalda yig‘ish'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'lab_ethanol_physical_gas_collection_is_not_an_answer')
+        if 'ch10-laboratory02' in topic_ids:
+            require('Alanga atsetilenni yagona isbotlaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'lab_acetylene_flame_is_not_unique_identity')
+        if 'ch10-laboratory03' in topic_ids:
+            require('Ko‘k rang har qanday ko‘p atomli spirtni isbotlaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'lab_glycerol_blue_is_not_universal_identity')
+        if 'ch10-laboratory04' in topic_ids:
+            require('Magniy barcha sharoitda ruxdan tezroq'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'lab_acid_reported_rate_is_not_universal')
+        if 'ch10-laboratory05' in topic_ids:
+            require('C6H12O6+2Cu(OH)2=C6H12O7+Cu2O+H2O'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'lab_glucose_missing_water_literal_is_withheld')
+        if 'ch10-laboratory06' in topic_ids:
+            require('Biuret rangi oqsilni yagona isbotlaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'lab_biuret_color_is_not_unique_identity')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

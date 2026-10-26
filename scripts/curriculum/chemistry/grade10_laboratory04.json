@@ -1,0 +1,2605 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "kimyo",
+  "grade": 10,
+  "sequence": 39,
+  "key": "chemistry-10-lab04-r1",
+  "revision": 1,
+  "topic_id": "ch10-laboratory04",
+  "book_id": "chemistry-10-uz-2017",
+  "title": "Karbon kislotalarining olinishi va xossalari",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "ch10-laboratory03"
+  ],
+  "source_refs": [
+    {
+      "book_id": "chemistry-10-uz-2017",
+      "book_title": "Organik kimyo",
+      "authors": [
+        "A. Mutalibov",
+        "E. Murodov",
+        "S. Masharipov",
+        "H. Islomova"
+      ],
+      "year": 2017,
+      "file_name": "organik_kimyo_10_uzb.pdf",
+      "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+      "topic_id": "ch10-laboratory04",
+      "topic_title": "Karbon kislotalarining olinishi va xossalari",
+      "paragraph": 4,
+      "printed_pages": [
+        155
+      ],
+      "pdf_pages": [
+        155
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch10-laboratory04-page155"
+    },
+    {
+      "book_id": "chemistry-10-uz-2017",
+      "book_title": "Organik kimyo",
+      "authors": [
+        "A. Mutalibov",
+        "E. Murodov",
+        "S. Masharipov",
+        "H. Islomova"
+      ],
+      "year": 2017,
+      "file_name": "organik_kimyo_10_uzb.pdf",
+      "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+      "topic_id": "ch10-paragraph26",
+      "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+      "paragraph": 26,
+      "printed_pages": [
+        102
+      ],
+      "pdf_pages": [
+        102
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch10-paragraph26-page102"
+    },
+    {
+      "book_id": "chemistry-10-uz-2017",
+      "book_title": "Organik kimyo",
+      "authors": [
+        "A. Mutalibov",
+        "E. Murodov",
+        "S. Masharipov",
+        "H. Islomova"
+      ],
+      "year": 2017,
+      "file_name": "organik_kimyo_10_uzb.pdf",
+      "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+      "topic_id": "ch10-paragraph26",
+      "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+      "paragraph": 26,
+      "printed_pages": [
+        103
+      ],
+      "pdf_pages": [
+        103
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch10-paragraph26-page103"
+    },
+    {
+      "book_id": "chemistry-10-uz-2017",
+      "book_title": "Organik kimyo",
+      "authors": [
+        "A. Mutalibov",
+        "E. Murodov",
+        "S. Masharipov",
+        "H. Islomova"
+      ],
+      "year": 2017,
+      "file_name": "organik_kimyo_10_uzb.pdf",
+      "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+      "topic_id": "ch10-paragraph26",
+      "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+      "paragraph": 26,
+      "printed_pages": [
+        104
+      ],
+      "pdf_pages": [
+        104
+      ],
+      "regions": [
+        "full"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "ch10-paragraph26-page104"
+    }
+  ],
+  "facts": {
+    "digital": {
+      "claim": "Bu laboratoriya darsida tayyor kislota, metall va indikator kuzatuv kartalari raqamli tahlil qilinadi. Reagentlarni aralashtirish, isitish va suyuqlik yig‘ish amaliy bosqichlari topshiriqqa kiritilmaydi.",
+      "verified_answers": [
+        "Raqamli tahlil"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    "acid": {
+      "claim": "Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+      "verified_answers": [
+        "Sirka",
+        "2",
+        "1",
+        "C2H4O2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            102
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page102"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            103
+          ],
+          "pdf_pages": [
+            103
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page103"
+        }
+      ]
+    },
+    "salt": {
+      "claim": "Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas.",
+      "verified_answers": [
+        "2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4",
+        "2"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            104
+          ],
+          "pdf_pages": [
+            104
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page104"
+        }
+      ]
+    },
+    "metals": {
+      "claim": "Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+      "verified_answers": [
+        "Magniy",
+        "Rux"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    "indicator": {
+      "claim": "Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+      "verified_answers": [
+        "Fenolftalein",
+        "Rangsizlanish"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    "neutral": {
+      "claim": "Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+      "verified_answers": [
+        "C2H4O2+NaOH=C2H3O2Na+H2O",
+        "1"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            104
+          ],
+          "pdf_pages": [
+            104
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page104"
+        }
+      ]
+    },
+    "record": {
+      "claim": "Raqamli hisobotda modda nomi, qayd etilgan kuzatuv va mahsulotlari berilgan atom kartasi alohida yoziladi. Kuzatuvni qayta aytish bilan modda formulasi uchun dalil ko‘rsatish ikki alohida ishdir.",
+      "verified_answers": [
+        "Raqamli tahlil"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Tayyor kuzatuvlarni raqamli tahlil qilish",
+        "body": "Bu laboratoriya darsida tayyor kislota, metall va indikator kuzatuv kartalari raqamli tahlil qilinadi. Reagentlarni aralashtirish, isitish va suyuqlik yig‘ish amaliy bosqichlari topshiriqqa kiritilmaydi.",
+        "fact_ids": [
+          "digital"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          }
+        ]
+      },
+      {
+        "title": "Sirka kislota deb nomlangan rasm",
+        "body": "Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+        "fact_ids": [
+          "acid"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          },
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph26",
+            "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+            "paragraph": 26,
+            "printed_pages": [
+              102
+            ],
+            "pdf_pages": [
+              102
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph26-page102"
+          },
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph26",
+            "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+            "paragraph": 26,
+            "printed_pages": [
+              103
+            ],
+            "pdf_pages": [
+              103
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph26-page103"
+          }
+        ]
+      },
+      {
+        "title": "Atsetat va kislota uchun tayyor mahsulot kartasi",
+        "body": "Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas.",
+        "fact_ids": [
+          "salt"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          },
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph26",
+            "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+            "paragraph": 26,
+            "printed_pages": [
+              104
+            ],
+            "pdf_pages": [
+              104
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph26-page104"
+          }
+        ]
+      },
+      {
+        "title": "Mg va Zn haqidagi cheklangan kuzatuv",
+        "body": "Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+        "fact_ids": [
+          "metals"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          }
+        ]
+      },
+      {
+        "title": "Indikator rangining qayd etilgan o‘zgarishi",
+        "body": "Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+        "fact_ids": [
+          "indicator"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          }
+        ]
+      },
+      {
+        "title": "Berilgan neytrallash atom kartasi",
+        "body": "Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+        "fact_ids": [
+          "neutral"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          },
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph26",
+            "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+            "paragraph": 26,
+            "printed_pages": [
+              104
+            ],
+            "pdf_pages": [
+              104
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph26-page104"
+          }
+        ]
+      },
+      {
+        "title": "Kuzatuv va formula dalilini ajrating",
+        "body": "Raqamli hisobotda modda nomi, qayd etilgan kuzatuv va mahsulotlari berilgan atom kartasi alohida yoziladi. Kuzatuvni qayta aytish bilan modda formulasi uchun dalil ko‘rsatish ikki alohida ishdir.",
+        "fact_ids": [
+          "record"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "examples": [
+      {
+        "title": "Atsetat kartasidagi ikki Na ni hisoblang",
+        "body": "Na2SO4 mahsulotida2Na bor. Shu tayyor mahsulotlar bilan chapda2natriy atsetat va o‘ngda2sirka kislota olinadi; C4/H8/O8/Na2/S1 muvozanatlanadi.",
+        "fact_ids": [
+          "salt"
+        ],
+        "source_refs": [
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-laboratory04",
+            "topic_title": "Karbon kislotalarining olinishi va xossalari",
+            "paragraph": 4,
+            "printed_pages": [
+              155
+            ],
+            "pdf_pages": [
+              155
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-laboratory04-page155"
+          },
+          {
+            "book_id": "chemistry-10-uz-2017",
+            "book_title": "Organik kimyo",
+            "authors": [
+              "A. Mutalibov",
+              "E. Murodov",
+              "S. Masharipov",
+              "H. Islomova"
+            ],
+            "year": 2017,
+            "file_name": "organik_kimyo_10_uzb.pdf",
+            "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+            "topic_id": "ch10-paragraph26",
+            "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+            "paragraph": 26,
+            "printed_pages": [
+              104
+            ],
+            "pdf_pages": [
+              104
+            ],
+            "regions": [
+              "full"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "ch10-paragraph26-page104"
+          }
+        ]
+      }
+    ],
+    "xp_reward": 20,
+    "source_refs": [
+      {
+        "book_id": "chemistry-10-uz-2017",
+        "book_title": "Organik kimyo",
+        "authors": [
+          "A. Mutalibov",
+          "E. Murodov",
+          "S. Masharipov",
+          "H. Islomova"
+        ],
+        "year": 2017,
+        "file_name": "organik_kimyo_10_uzb.pdf",
+        "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+        "topic_id": "ch10-laboratory04",
+        "topic_title": "Karbon kislotalarining olinishi va xossalari",
+        "paragraph": 4,
+        "printed_pages": [
+          155
+        ],
+        "pdf_pages": [
+          155
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch10-laboratory04-page155"
+      },
+      {
+        "book_id": "chemistry-10-uz-2017",
+        "book_title": "Organik kimyo",
+        "authors": [
+          "A. Mutalibov",
+          "E. Murodov",
+          "S. Masharipov",
+          "H. Islomova"
+        ],
+        "year": 2017,
+        "file_name": "organik_kimyo_10_uzb.pdf",
+        "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+        "topic_id": "ch10-paragraph26",
+        "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+        "paragraph": 26,
+        "printed_pages": [
+          102
+        ],
+        "pdf_pages": [
+          102
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch10-paragraph26-page102"
+      },
+      {
+        "book_id": "chemistry-10-uz-2017",
+        "book_title": "Organik kimyo",
+        "authors": [
+          "A. Mutalibov",
+          "E. Murodov",
+          "S. Masharipov",
+          "H. Islomova"
+        ],
+        "year": 2017,
+        "file_name": "organik_kimyo_10_uzb.pdf",
+        "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+        "topic_id": "ch10-paragraph26",
+        "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+        "paragraph": 26,
+        "printed_pages": [
+          103
+        ],
+        "pdf_pages": [
+          103
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch10-paragraph26-page103"
+      },
+      {
+        "book_id": "chemistry-10-uz-2017",
+        "book_title": "Organik kimyo",
+        "authors": [
+          "A. Mutalibov",
+          "E. Murodov",
+          "S. Masharipov",
+          "H. Islomova"
+        ],
+        "year": 2017,
+        "file_name": "organik_kimyo_10_uzb.pdf",
+        "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+        "topic_id": "ch10-paragraph26",
+        "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+        "paragraph": 26,
+        "printed_pages": [
+          104
+        ],
+        "pdf_pages": [
+          104
+        ],
+        "regions": [
+          "full"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "ch10-paragraph26-page104"
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "chemistry-10-lab04-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Manbaning berilgan laboratoriya kartasida qaysi kislota nomlangan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Sirka"
+          },
+          {
+            "id": "b",
+            "label": "Propion"
+          },
+          {
+            "id": "c",
+            "label": "Stearin"
+          },
+          {
+            "id": "d",
+            "label": "Palmitin"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Sirka",
+        "feedback": {
+          "correct": "To‘g‘ri. Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  102
+                ],
+                "pdf_pages": [
+                  102
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page102"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  103
+                ],
+                "pdf_pages": [
+                  103
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page103"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            102
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page102"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            103
+          ],
+          "pdf_pages": [
+            103
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page103"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Aynan kitobdagi kuzatuvda tezroq deb qayd etilgan metall qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rux"
+          },
+          {
+            "id": "b",
+            "label": "Mis"
+          },
+          {
+            "id": "c",
+            "label": "Kumush"
+          },
+          {
+            "id": "d",
+            "label": "Magniy"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Magniy",
+        "feedback": {
+          "correct": "To‘g‘ri. Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+            "fact_ids": [
+              "metals"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "metals"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Rangi yo‘qolishi bilan bog‘langan indikator qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Kraxmal"
+          },
+          {
+            "id": "b",
+            "label": "Fenolftalein"
+          },
+          {
+            "id": "c",
+            "label": "Glitserin"
+          },
+          {
+            "id": "d",
+            "label": "Selluloza"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Fenolftalein",
+        "feedback": {
+          "correct": "To‘g‘ri. Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+            "fact_ids": [
+              "indicator"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "indicator"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Ushbu laboratoriya darsida bajariladigan vazifa qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Amalda suyuqlik haydash"
+          },
+          {
+            "id": "b",
+            "label": "Metallni eritmaga solish"
+          },
+          {
+            "id": "c",
+            "label": "Raqamli tahlil"
+          },
+          {
+            "id": "d",
+            "label": "Kislotalarni isitish"
+          }
+        ]
+      },
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Raqamli tahlil",
+        "feedback": {
+          "correct": "To‘g‘ri. Bu laboratoriya darsida tayyor kislota, metall va indikator kuzatuv kartalari raqamli tahlil qilinadi. Reagentlarni aralashtirish, isitish va suyuqlik yig‘ish amaliy bosqichlari topshiriqqa kiritilmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Bu laboratoriya darsida tayyor kislota, metall va indikator kuzatuv kartalari raqamli tahlil qilinadi. Reagentlarni aralashtirish, isitish va suyuqlik yig‘ish amaliy bosqichlari topshiriqqa kiritilmaydi.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Bu laboratoriya darsida tayyor kislota, metall va indikator kuzatuv kartalari raqamli tahlil qilinadi. Reagentlarni aralashtirish, isitish va suyuqlik yig‘ish amaliy bosqichlari topshiriqqa kiritilmaydi.",
+            "fact_ids": [
+              "digital"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "fact_ids": [
+        "digital"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q05",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Berilgan kartada tezroq deb qayd etilgan metall nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Magniy",
+        "feedback": {
+          "correct": "To‘g‘ri. Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manbaning aynan berilgan kuzatuv tavsifida sirka kislota/magniy kartasi sirka kislota/rux kartasiga qaraganda tezroq jarayon bilan tasvirlangan. Bu qaydning sharoiti cheklangan; istalgan sirt, harorat va eritmada doimo bir xil tezlik bo‘ladi degan qoida emas.",
+            "fact_ids": [
+              "metals"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              }
+            ]
+          }
+        ],
+        "expected": "Magniy",
+        "aliases": [
+          "Magniy"
+        ]
+      },
+      "fact_ids": [
+        "metals"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q06",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Berilgan kartadagi indikator nomini yozing.",
+        "input_label": "Qisqa javob",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Fenolftalein",
+        "feedback": {
+          "correct": "To‘g‘ri. Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manbaning sirka kislota va asos kartasida fenolftalein bilan bog‘langan boshlang‘ich rang yo‘qolishi ko‘rsatilgan. Kuzatuv natijasi rangsizlanish deb yoziladi. Rangning o‘zi noma’lum namunaning yagona tarkib isboti emas.",
+            "fact_ids": [
+              "indicator"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              }
+            ]
+          }
+        ],
+        "expected": "Fenolftalein",
+        "aliases": [
+          "Fenolftalein"
+        ]
+      },
+      "fact_ids": [
+        "indicator"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q07",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "CH3COOH kartasida jami C atomlari soni qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "2",
+        "feedback": {
+          "correct": "To‘g‘ri. Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  102
+                ],
+                "pdf_pages": [
+                  102
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page102"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  103
+                ],
+                "pdf_pages": [
+                  103
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page103"
+              }
+            ]
+          }
+        ],
+        "expected": "2",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            102
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page102"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            103
+          ],
+          "pdf_pages": [
+            103
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page103"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q08",
+      "response_kind": "numeric_value",
+      "public": {
+        "prompt": "Berilgan neytrallashda bir kislota uchun NaOH koeffitsiyenti qancha?",
+        "input_label": "Sonli javob",
+        "max_length": 80,
+        "unit": "1"
+      },
+      "grading_spec": {
+        "kind": "numeric_value",
+        "verified_answer": "1",
+        "feedback": {
+          "correct": "To‘g‘ri. Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+          "invalid_answer": "Faqat son yozing; birlik savolda berilgan. Masalan, o‘nli kasrda vergul yoki nuqta ishlatish mumkin.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+            "fact_ids": [
+              "neutral"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  104
+                ],
+                "pdf_pages": [
+                  104
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page104"
+              }
+            ]
+          }
+        ],
+        "expected": "1",
+        "unit": "1"
+      },
+      "fact_ids": [
+        "neutral"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            104
+          ],
+          "pdf_pages": [
+            104
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page104"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q09",
+      "response_kind": "chemical_formula",
+      "public": {
+        "prompt": "CH3COOH sirka kislotaning faqat jami molekulyar tarkibini yozing.",
+        "input_label": "Kimyoviy formula",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_formula",
+        "verified_answer": "C2H4O2",
+        "feedback": {
+          "correct": "To‘g‘ri. Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+          "incorrect": "Hozircha noto‘g‘ri. Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Manba laboratoriya sarlavhasida sirka kislotani nomlaydi. Uning berilgan CH3COOH rasmida 2 ta C, bitta COOH guruhi va jami C2H4O2 bor. Namuna nomi bu kartada oldindan berilgan; hidning o‘zi bilan taxmin qilinmaydi.",
+            "fact_ids": [
+              "acid"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  102
+                ],
+                "pdf_pages": [
+                  102
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page102"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  103
+                ],
+                "pdf_pages": [
+                  103
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page103"
+              }
+            ]
+          }
+        ],
+        "expected": "C2H4O2"
+      },
+      "fact_ids": [
+        "acid"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            102
+          ],
+          "pdf_pages": [
+            102
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page102"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            103
+          ],
+          "pdf_pages": [
+            103
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page103"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q10",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mahsulotlari berilgan raqamli kartaning atom balansini yozing: 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4",
+        "feedback": {
+          "correct": "To‘g‘ri. Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas.",
+          "incorrect": "Hozircha noto‘g‘ri. Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas."
+        },
+        "solution": [
+          {
+            "body": "Berilgan natriy atsetat va sulfat kislota kartasida sirka kislota mahsuloti nomlangan. Oldingi tuz/kislota modeliga mos jami atom kartasi 2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4. Bu tayyor mahsulotlarning raqamli hisobi, amaliy olish yo‘riqnomasi emas.",
+            "fact_ids": [
+              "salt"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  104
+                ],
+                "pdf_pages": [
+                  104
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page104"
+              }
+            ]
+          }
+        ],
+        "expected": "2C2H3O2Na+H2SO4=2C2H4O2+Na2SO4"
+      },
+      "fact_ids": [
+        "salt"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            104
+          ],
+          "pdf_pages": [
+            104
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page104"
+        }
+      ]
+    },
+    {
+      "key": "chemistry-10-lab04-r1-q11",
+      "response_kind": "chemical_equation",
+      "public": {
+        "prompt": "Mahsulotlari berilgan raqamli kartaning atom balansini yozing: C2H4O2+NaOH=C2H3O2Na+H2O",
+        "input_label": "Kimyoviy tenglama",
+        "max_length": 80
+      },
+      "grading_spec": {
+        "kind": "chemical_equation",
+        "verified_answer": "C2H4O2+NaOH=C2H3O2Na+H2O",
+        "feedback": {
+          "correct": "To‘g‘ri. Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+          "incorrect": "Hozircha noto‘g‘ri. Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+          "invalid_answer": "Belgilar registri, indeks va qavslarni tekshiring. Formula yoki tenglamani ko‘rsatilgan shaklda yozing.",
+          "answer_required": "Avval javob kiriting.",
+          "incorrect_species": "Moddalar formulasi yoki chap/o‘ng tomoni berilgan reaksiyaga mos emas. Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+          "atom_imbalance": "Chap va o‘ng tomondagi har bir element atomlarini koeffitsiyent bilan birga sanang; indekslarni o‘zgartirmang. Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+          "incorrect_ratio": "Koeffitsiyentlar nisbati berilgan reaksiyaga mos emas. Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi."
+        },
+        "solution": [
+          {
+            "body": "Sirka kislota va NaOH mahsulotlari tayyor virtual neytrallash kartasi: C2H4O2+NaOH=C2H3O2Na+H2O. Berilgan nisbatda bir kislota uchun bitta asos, bitta natriy atsetat va bitta suv hisoblanadi.",
+            "fact_ids": [
+              "neutral"
+            ],
+            "source_refs": [
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-laboratory04",
+                "topic_title": "Karbon kislotalarining olinishi va xossalari",
+                "paragraph": 4,
+                "printed_pages": [
+                  155
+                ],
+                "pdf_pages": [
+                  155
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-laboratory04-page155"
+              },
+              {
+                "book_id": "chemistry-10-uz-2017",
+                "book_title": "Organik kimyo",
+                "authors": [
+                  "A. Mutalibov",
+                  "E. Murodov",
+                  "S. Masharipov",
+                  "H. Islomova"
+                ],
+                "year": 2017,
+                "file_name": "organik_kimyo_10_uzb.pdf",
+                "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+                "topic_id": "ch10-paragraph26",
+                "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+                "paragraph": 26,
+                "printed_pages": [
+                  104
+                ],
+                "pdf_pages": [
+                  104
+                ],
+                "regions": [
+                  "full"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "ch10-paragraph26-page104"
+              }
+            ]
+          }
+        ],
+        "expected": "C2H4O2+NaOH=C2H3O2Na+H2O"
+      },
+      "fact_ids": [
+        "neutral"
+      ],
+      "source_refs": [
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-laboratory04",
+          "topic_title": "Karbon kislotalarining olinishi va xossalari",
+          "paragraph": 4,
+          "printed_pages": [
+            155
+          ],
+          "pdf_pages": [
+            155
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-laboratory04-page155"
+        },
+        {
+          "book_id": "chemistry-10-uz-2017",
+          "book_title": "Organik kimyo",
+          "authors": [
+            "A. Mutalibov",
+            "E. Murodov",
+            "S. Masharipov",
+            "H. Islomova"
+          ],
+          "year": 2017,
+          "file_name": "organik_kimyo_10_uzb.pdf",
+          "sha256": "b9edd182161159f109fbbb668bc1656e00e221aab9411ec83b16ff1889244cb6",
+          "topic_id": "ch10-paragraph26",
+          "topic_title": "Karbon kislotalar. Olinishi va xossalari",
+          "paragraph": 26,
+          "printed_pages": [
+            104
+          ],
+          "pdf_pages": [
+            104
+          ],
+          "regions": [
+            "full"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "ch10-paragraph26-page104"
+        }
+      ]
+    }
+  ],
+  "publication": "local_test_preview_only",
+  "source_context_ids": [
+    "ch10-paragraph26"
+  ]
+}
