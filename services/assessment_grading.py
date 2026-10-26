@@ -73,6 +73,15 @@ def expected_quantity(spec):
 # PDF12–14 (length/time), PDF21 (film V/S), PDF28 (front h/t),
 # PDF29–35 (mass, volume and density), PDF37–38 (laboratory volumes).
 UNITS = {
+    # Grade11 PDF79,82,88: RF frequencies, timed echoes, average energy flux.
+    "MHz": ("frequency", Fraction(10**6)),
+    "GHz": ("frequency", Fraction(10**9)),
+    "ms": ("time", Fraction(1, 1000)),
+    "µs": ("time", Fraction(1, 10**6)),
+    "ns": ("time", Fraction(1, 10**9)),
+    "W/m2": ("irradiance", Fraction(1)),
+    "mW/m2": ("irradiance", Fraction(1, 1000)),
+    "µW/m2": ("irradiance", Fraction(1, 10**6)),
     # Grade11 PDF32: henry and explicit metric prefixes.
     "H": ("inductance", Fraction(1)),
     "mH": ("inductance", Fraction(1, 1000)),

@@ -24,6 +24,104 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "em_wave_wavelength": rule(
+        "Lw",
+        ["v", "nu"],
+        ["v/nu", "v*nu^-1"],
+        "Specified ordinary NONDISPERSIVE bulk EM medium/airvacuum schoolapprox,0<v<=3e8,positivefrequency,Lw=lambdaASCII;11PDF79.",
+    ),
+    "em_wave_frequency": rule(
+        "nu",
+        ["v", "Lw"],
+        ["v/Lw", "v*Lw^-1"],
+        "Same ordinary medium/phase speed0<v<=3e8,positivewavelength,notdriftspeed;11PDF79.",
+    ),
+    "em_wave_speed": rule(
+        "v",
+        ["Lw", "nu"],
+        ["Lw*nu", "nu*Lw"],
+        "Same ordinary NONDISPERSIVE bulk medium,positivegivens,result<=3e8 schoolapprox,notwaveguide/anomalousphasevelocityclaim;11PDF79.",
+    ),
+    "phase_speed_relative_index": rule(
+        "n21",
+        ["v1", "v2"],
+        ["v1/v2", "v1*v2^-1"],
+        "Stationary interface/ordinarytransparentmedia,0<v1/v2<=3e8 each,relativeindexmaybelow1,notabsoluten>=1;11PDF81.",
+    ),
+    "wave_intensity_energy": rule(
+        "Iflux",
+        ["Ewave", "S", "dt"],
+        ["Ewave/(S*dt)", "Ewave/dt/S"],
+        "Energy through PERPENDICULAR area overpositiveinterval,AVERAGE intensityW/m2,notenergy densityJ/m3;11PDF82.",
+    ),
+    "vacuum_wave_intensity_density": rule(
+        "Iflux",
+        ["wAvg", "c"],
+        ["wAvg*c", "c*wAvg"],
+        "VACUUMunidirectionalidealplane wave,AVERAGE totalenergydensity,c3e8 explicitly approximate;11PDF83.",
+    ),
+    "isotropic_wave_intensity": rule(
+        "Iflux",
+        ["Pavg", "p", "R"],
+        ["Pavg/(4*p*R^2)", "Pavg/R^2/p/4"],
+        "ISOTROPICpointsourceFARFIELD/noabsorption,positiveR,p3.14given,notarbitrarydirectedantenna;11PDF83.",
+    ),
+    "radar_roundtrip_range": rule(
+        "R",
+        ["c", "tEcho"],
+        ["c*tEcho/2", "tEcho*c/2"],
+        "MONOSTATIC roundtrip echo time,negligibleobjectmotion,c3e8airvacuumapprox,notpulsewidth/onewaytime;11PDF87.",
+    ),
+    "radar_roundtrip_time": rule(
+        "tEcho",
+        ["R", "c"],
+        ["2*R/c", "R*2/c"],
+        "Same monostaticroundtrip,nonnegativerange,providedc3e8schoolapprox;11PDF87.",
+    ),
+    "pulse_cycle_count": rule(
+        "N",
+        ["c", "tPulse", "Lw"],
+        ["c*tPulse/Lw", "tPulse*c/Lw"],
+        "CyclesWITHINonepulse,c3e8given,positivepulsewidth/wavelength,providedWHOLEcycles,notpulsePRF/minimumrangemix;11PDF88.",
+    ),
+    "inphase_interference_maximum_path": rule(
+        "Delta",
+        ["m", "Lw"],
+        ["m*Lw", "Lw*m"],
+        "INPHASEcoherent/equalfrequency/samepolarization/LINEARuniformmedium,nonnegativeWHOLEorder,constructive pathdifference;11PDF93.",
+    ),
+    "inphase_interference_minimum_path": rule(
+        "Delta",
+        ["m", "Lw"],
+        ["(m+0.5)*Lw", "Lw*(m+1/2)"],
+        "Same inphasecoherentuniformmodel,nonnegativeWHOLEorder,destructive pathdifference,notarbitraryinitialphase;11PDF93.",
+    ),
+    "newton_reflected_dark_radius": rule(
+        "rDark",
+        ["m", "Lw", "R"],
+        ["sqrt(m*Lw*R)", "(R*Lw*m)^0.5"],
+        "Newton rings REFLECTEDnear-normal/THINairfilm/smallgap, RlensCURVATUREradius,nonnegativeWHOLEm,nottransmitted/liquidgeneral;11PDF94.",
+        square_root=True,
+    ),
+    "newton_reflected_bright_radius": rule(
+        "rBright",
+        ["m", "Lw", "R"],
+        ["sqrt((m+0.5)*Lw*R)", "(R*Lw*(m+1/2))^0.5"],
+        "Same reflectedthinAIRfilm model,Rcurvatureradius,wholeorder>=0;11PDF94.",
+        square_root=True,
+    ),
+    "normal_grating_wavelength": rule(
+        "Lw",
+        ["d", "sinPhi", "n"],
+        ["d*sinPhi/n", "sinPhi*d/n"],
+        "NORMAL monochromaticincidence/PRINCIPALmaxima,dPERIOD,positiveWHOLEn,provided0<sinPhi<=1,notcentraln0inverse;11PDF96.",
+    ),
+    "normal_grating_period": rule(
+        "d",
+        ["n", "Lw", "sinPhi"],
+        ["n*Lw/sinPhi", "Lw*n/sinPhi"],
+        "Same NORMALgrating/principalmaxima,npositiveWHOLE,0<sinPhi<=1,wavelength>0,notuniversalhalf-integerminima;11PDF96.",
+    ),
     "inductive_reactance_angular": rule(
         "XL",
         ["omega", "L"],
@@ -3509,6 +3607,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "irradiance": "W/m2",
     "inductance": "H",
     "magnetic_flux": "Wb",
     "permeability": "N/A2",
@@ -3597,6 +3696,87 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name in {
+        "em_wave_wavelength",
+        "em_wave_frequency",
+        "em_wave_speed",
+        "phase_speed_relative_index",
+    }:
+        if name == "em_wave_speed":
+            v = positive("Lw", "length") * positive("nu", "frequency")
+        elif name == "phase_speed_relative_index":
+            a, b = positive("v1", "speed"), positive("v2", "speed")
+            if max(a, b) > 300_000_000:
+                raise ValueError("ordinary_bulk_phase_speed_scope")
+            return a / b, "dimensionless"
+        else:
+            v = positive("v", "speed")
+        if v > 300_000_000:
+            raise ValueError("ordinary_bulk_phase_speed_scope")
+        if name == "em_wave_speed":
+            return v, "speed"
+        return (
+            (v / positive("nu", "frequency"), "length")
+            if name == "em_wave_wavelength"
+            else (v / positive("Lw", "length"), "frequency")
+        )
+    if name == "wave_intensity_energy":
+        return value("Ewave", "energy") / (
+            positive("S", "area") * positive("dt", "time")
+        ), "irradiance"
+    if name in {
+        "vacuum_wave_intensity_density",
+        "radar_roundtrip_range",
+        "radar_roundtrip_time",
+        "pulse_cycle_count",
+    }:
+        c = positive("c", "speed")
+        if c != 300_000_000:
+            raise ValueError("explicit_air_vacuum_school_speed_required")
+        if name == "vacuum_wave_intensity_density":
+            return value("wAvg", "energy_density") * c, "irradiance"
+        if name == "radar_roundtrip_range":
+            return c * value("tEcho", "time") / 2, "length"
+        if name == "radar_roundtrip_time":
+            return 2 * value("R", "length") / c, "time"
+        n = c * positive("tPulse", "time") / positive("Lw", "length")
+        if n.denominator != 1:
+            raise ValueError("authored_whole_pulse_cycles_required")
+        return n, "dimensionless"
+    if name == "isotropic_wave_intensity":
+        p = positive("p", "dimensionless")
+        if p != Fraction("3.14"):
+            raise ValueError("explicit_pi_approximation_required")
+        return value("Pavg", "power") / (
+            4 * p * positive("R", "length") ** 2
+        ), "irradiance"
+    if name in {
+        "inphase_interference_maximum_path",
+        "inphase_interference_minimum_path",
+        "newton_reflected_dark_radius",
+        "newton_reflected_bright_radius",
+    }:
+        m = value("m", "dimensionless")
+        if givens["m"]["unit"] != "1" or m.denominator != 1:
+            raise ValueError("nonnegative_whole_interference_order_required")
+        lw = positive("Lw", "length")
+        if name == "inphase_interference_maximum_path":
+            return m * lw, "length"
+        if name == "inphase_interference_minimum_path":
+            return (m + Fraction(1, 2)) * lw, "length"
+        if name == "newton_reflected_bright_radius":
+            m += Fraction(1, 2)
+        return square_root_quantity(m * lw * positive("R", "length")), "length"
+    if name in {"normal_grating_wavelength", "normal_grating_period"}:
+        n = positive("n", "dimensionless")
+        s = positive("sinPhi", "dimensionless")
+        if n.denominator != 1 or givens["n"]["unit"] != "1" or s > 1:
+            raise ValueError("principal_order_positive_whole_and_valid_sine_required")
+        return (
+            (positive("d", "length") * s / n, "length")
+            if name == "normal_grating_wavelength"
+            else (n * positive("Lw", "length") / s, "length")
+        )
     if name in {
         "inductive_reactance_angular",
         "inductive_reactance_frequency",

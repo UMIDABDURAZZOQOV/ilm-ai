@@ -1120,6 +1120,9 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update({(11, 21, 6): ('300', 'cm', 'v*nu^-1'), (11, 21, 7): ('100', 'MHz', 'v*Lw^-1'), (11, 21, 8): ('300000', 'km/s', 'nu*Lw'), (11, 22, 6): ('150', '%', 'v1*v2^-1'), (11, 22, 7): ('1000', 'mW/m2', 'Ewave/dt/S'), (11, 22, 8): ('600', 'mW/m2', 'c*wAvg'), (11, 22, 9): ('100', 'µW/m2', 'Pavg/R^2/p/4'), (11, 23, 6): ('3', 'km', 'tEcho*c/2'), (11, 23, 7): ('10', 'µs', 'R*2/c'), (11, 23, 8): ('1000', '1', 'tPulse*c/Lw'), (11, 25, 7): ('1', 'µm', 'Lw*m'), (11, 25, 8): ('1.25', 'µm', 'Lw*(m+1/2)'), (11, 25, 9): ('1', 'mm', '(R*Lw*m)^0.5'), (11, 25, 10): ('500', 'µm', '(R*Lw*(m+1/2))^0.5'), (11, 25, 11): ('600', 'nm', 'sinPhi*d/n'), (11, 25, 12): ('2', 'µm', 'Lw*n/sinPhi')})
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -1136,11 +1139,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        291,
-        25,
+        296,
+        20,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 20]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 25]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -1150,7 +1153,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 55
+    assert len(load_course()) == 56
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1363,7 +1366,7 @@ def test_all_reviewed_http_content_and_replay(preview):
         "course_complete"
     ]  # Grade11 is partial; completed grades do not imply 316/316.
     with factory() as db:
-        assert db.get(User, 1).xp_total == 2910
+        assert db.get(User, 1).xp_total == 2960
 
 
 @pytest.mark.parametrize(

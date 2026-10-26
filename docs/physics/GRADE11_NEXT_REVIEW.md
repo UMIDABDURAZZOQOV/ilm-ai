@@ -1,3 +1,20 @@
+# Keyingi: 11-sinf §26 — 2026-10-26
+
+11§26–30 PDF97–116 original native hashes and all20 images re-read. Private original draft prepared; batch6 JSON/runtime not yet added at this checkpoint. Next §26PDF97/bosma96.
+
+PDF97,98: Original diagram x axial/y transverse and approximate sin≈tan were visually checked. Smallangle Lw≈d*y/(n*x), explicit authored y/x<=0.1 limit, not exact/general. Original digital rows600/620nm ->mean610nm, deviations10nm. Source table delta recursive typo corrected to |Lw_i-mean|; mean deviation not complete instrument uncertainty. Physical measurement false; no eye/laser experiment.
+
+PDF99,100,101,102,103,104: Dispersion n depends on frequency/vacuum wavelength, interface frequency same; ordinary normal dispersion not allmedia redalwaysfaster. White spectrum not exactly7discretefrequencies; reversed prism not universally converging lens. Atomic line spectra can have multiplelines despite source singularline phrase. RGB finite gamut, no allcolors universal claim. Symmetric thin biconvex air F=R/[2(n-1)] and original0.6/0.5m values independently checked; no copied long text.
+
+PDF104,105,106,107: Original Malus I=I0cos²alpha checked in image: I0 is LINEAR incident at analyzer, not natural light beforefirstpolarizer. cos input[-1,1], intensity>=0, no negativeintensity. Ideal parallel/crossed limit, no artificial unpolarized factor1/2 assignment beyondthissource.
+
+PDF108,109,110,111: IR/UV/Xrays conceptual activity only. Avoid dubious mosquito IR-seeing, IR sterilization and absolute historicalpriority claims. UV category gaps and overlapping Xray frequency numbers not tested as exactsingleuniversalbound. Thermal/nuclear/ionizing safety no real device/therapy. Book medical/sterilization examples not DIYinstructions.
+
+PDF112,113,114,115,116: Radiometric W/m² distinct photometric lm/cd/lx. Omega sphericalPATCHarea/R², not planararea. Iv=Phi/Omega uniform withinangularpatch, Phi=4piIv onlyisotropic; Phi/S RECEIVEDuniformflux; Ev=IvcosNormal/r² point/noabsorb. Source55nm visually confirmed typo, avoid copying asSI:555nm near photopicpeak, oldplatinumcandela definition historical notcurrent. Luminance directional projectedarea, sourceI/S onlynormalcase, notunqualified universal. No generatedfalsemeasurement.
+
+---
+Tarixiy qaydlar saqlandi.
+
 # Keyingi: 11-sinf §21 — 2026-10-26
 
 Keyingi11§21PDF77/bosma76. §21–25 original20sahifa77–96 nativehash/tasvirlari qayta o‘qildi, scientificnotes tayyor, JSON/runtimebatch5haliyo‘q. Emwave/relativeindex/intensity/radar/history/coherentinterference/Newtonrings/grating source tafovutlari GRADE11_NEXT_REVIEW.md da yozilgan. Oddiy bosqichda approval qayta so‘ralmasin. 25bo‘lim qolgan;316tugallangan emas.
