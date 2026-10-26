@@ -24,6 +24,90 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "torricelli_efflux": rule(
+        "v",
+        ["g", "h"],
+        ["sqrt(2*g*h)", "(2*h*g)^0.5"],
+        "Ideal initial efflux, large reservoir/small outlet, same outside pressure, depth h>=0 below free surface, g10 given, negligible free-surface speed;10PDF73.",
+        square_root=True,
+    ),
+    "torricelli_outlet_elevation": rule(
+        "v",
+        ["g", "H", "h"],
+        ["sqrt(2*g*(H-h))", "(2*(H-h)*g)^0.5"],
+        "Same ideal efflux, surface elevation H>outlet h>=0 from SAME datum, g10 given;10PDF74.",
+        square_root=True,
+    ),
+    "harmonic_restoring_force": rule(
+        "F",
+        ["k", "x"],
+        ["-k*x", "(-x)*k"],
+        "Linear massless spring, SIGNED displacement from EQUILIBRIUM, restoring force component, valid linear domain;10PDF79–80.",
+    ),
+    "harmonic_acceleration": rule(
+        "a",
+        ["omega", "x"],
+        ["-omega^2*x", "-x*omega^2"],
+        "Ideal LINEAR harmonic mode, signed displacement from equilibrium; a=-omega²x, not source81 erroneous cos for x=Asin;10PDF81–82.",
+    ),
+    "harmonic_max_speed": rule(
+        "vmax",
+        ["A", "omega"],
+        ["A*omega", "omega*A"],
+        "Ideal harmonic mode, positive amplitude and angular frequency, speed MAGNITUDE;10PDF81–82.",
+    ),
+    "harmonic_max_acceleration": rule(
+        "amax",
+        ["A", "omega"],
+        ["A*omega^2", "omega^2*A"],
+        "Ideal harmonic mode, positive amplitude and angular frequency, acceleration MAGNITUDE;10PDF81–82.",
+    ),
+    "harmonic_displacement_phase_data": rule(
+        "x",
+        ["A", "sinPhase"],
+        ["A*sinPhase", "sinPhase*A"],
+        "x=Asin(theta), supplied SIGNED sine in[-1,1], NOT angle; positive amplitude, no general trig solver;10PDF80.",
+    ),
+    "harmonic_velocity_phase_data": rule(
+        "v",
+        ["A", "omega", "cosPhase"],
+        ["A*omega*cosPhase", "cosPhase*omega*A"],
+        "x=Asin(theta), v=Aomega cos(theta), supplied SIGNED cosine in[-1,1], not angle, positive A/omega;10PDF81.",
+    ),
+    "spring_natural_angular": rule(
+        "omega",
+        ["k", "m"],
+        ["sqrt(k/m)", "(k/m)^0.5"],
+        "Ideal massless LINEAR spring/positive point mass, equilibrium-relative motion/no damping;10PDF83.",
+        square_root=True,
+    ),
+    "spring_natural_period": rule(
+        "T",
+        ["p", "m", "k"],
+        ["2*p*sqrt(m/k)", "sqrt(4*p^2*m/k)"],
+        "Ideal massless linear spring, positive mass/stiffness, p=3.14 explicitly supplied pi approximation;10PDF83.",
+        square_root=True,
+    ),
+    "small_angle_pendulum_period": rule(
+        "T",
+        ["p", "l", "g"],
+        ["2*p*sqrt(l/g)", "sqrt(4*p^2*l/g)"],
+        "SMALL angle6–8deg approximation, massless inextensible thread/pointmass, pivot-to-COM l>0, no drag, g10 given,p3.14;10PDF85.",
+        square_root=True,
+    ),
+    "combined_pendulum_period": rule(
+        "T",
+        ["T1", "T2"],
+        ["sqrt(T1^2+T2^2)", "(T2^2+T1^2)^0.5"],
+        "SAME localg, small-angle ideal pendula, new length l1+l2, positive periods, not arbitrary coupled pendulum system;10PDF86.",
+        square_root=True,
+    ),
+    "pendulum_gravity_estimate": rule(
+        "g",
+        ["p", "l", "T"],
+        ["4*p^2*l/T^2", "4*l*p^2/(T*T)"],
+        "DIGITAL conditional small-angle ideal pendulum, l pivot-to-COM, T ONE full period, p3.14 explicit, no real measurement claim;10PDF86–87.",
+    ),
     "elastic_collision_first": rule(
         "u1",
         ["m1", "v1", "m2", "v2"],
@@ -2891,6 +2975,68 @@ def reviewed_calculation(question):
         if result != Fraction(981, 100):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
+
+    if name in {"torricelli_efflux", "torricelli_outlet_elevation"}:
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        depth = value("h", "length")
+        if name == "torricelli_outlet_elevation":
+            depth = positive("H", "length") - depth
+            if depth <= 0:
+                raise ValueError("surface_above_outlet_required")
+        return square_root_quantity(20 * depth), "speed"
+    if name == "harmonic_restoring_force":
+        return -positive("k", "stiffness") * projection("x", "length"), "force"
+    if name == "harmonic_acceleration":
+        return -(positive("omega", "angular_speed") ** 2) * projection(
+            "x", "length"
+        ), "acceleration"
+    if name in {"harmonic_max_speed", "harmonic_max_acceleration"}:
+        A, w = positive("A", "length"), positive("omega", "angular_speed")
+        return (
+            (A * w, "speed")
+            if name == "harmonic_max_speed"
+            else (A * w**2, "acceleration")
+        )
+    if name in {"harmonic_displacement_phase_data", "harmonic_velocity_phase_data"}:
+        symbol = (
+            "sinPhase" if name == "harmonic_displacement_phase_data" else "cosPhase"
+        )
+        phase = projection(symbol, "dimensionless")
+        if abs(phase) > 1:
+            raise ValueError("provided_sine_cosine_range")
+        A = positive("A", "length")
+        return (
+            (A * phase, "length")
+            if name == "harmonic_displacement_phase_data"
+            else (A * positive("omega", "angular_speed") * phase, "speed")
+        )
+    if name == "spring_natural_angular":
+        return square_root_quantity(
+            positive("k", "stiffness") / positive("m", "mass")
+        ), "angular_speed"
+    if name in {
+        "spring_natural_period",
+        "small_angle_pendulum_period",
+        "pendulum_gravity_estimate",
+    }:
+        p = positive("p", "dimensionless")
+        if p != Fraction("3.14"):
+            raise ValueError("explicit_pi_approximation_required")
+        if name == "spring_natural_period":
+            return square_root_quantity(
+                4 * p * p * positive("m", "mass") / positive("k", "stiffness")
+            ), "time"
+        l = positive("l", "length")
+        if name == "pendulum_gravity_estimate":
+            return 4 * p * p * l / positive("T", "time") ** 2, "acceleration"
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        return square_root_quantity(4 * p * p * l / 10), "time"
+    if name == "combined_pendulum_period":
+        return square_root_quantity(
+            positive("T1", "time") ** 2 + positive("T2", "time") ** 2
+        ), "time"
 
     if name in {
         "elastic_collision_first",

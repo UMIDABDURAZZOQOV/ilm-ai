@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch5",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "a3eedc13e3d63384ab6e1fb8b427502961cfa39fef2db0ea30a1fb409b776759",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 72,
+      "printed_page": 71,
+      "text_sha256": "e6499055ca7adef81c61446d47373fd4a6b42bb438a3b43551f97bbc6c015e69",
+      "reviewed_render_sha256": "763fd792a93cd1083ce7d526bacaa04e9ac5b470a1c85e98a61e9355863c4ce2",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 73,
+      "printed_page": 72,
+      "text_sha256": "d41ce0084700837ac1edaeec2add188e9161f06636944e74ff614a403af950f5",
+      "reviewed_render_sha256": "c169be37ea01873a2b624f4b281348d57b5afdd45248f8de1396fea9403e5986",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 74,
+      "printed_page": 73,
+      "text_sha256": "7b747c11327c5e7bde99303d831b8b9de925f49650d77c4eb3672ca537a89233",
+      "reviewed_render_sha256": "8b6be63c7f4c25523995943679b34b832b85953a8c49b780e24b0fa5a943fad0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 75,
+      "printed_page": 74,
+      "text_sha256": "41edabcceccc8ea0b425d0f2fcd467a7b8572e40cc70db2eae612ec0026bc7ea",
+      "reviewed_render_sha256": "3138ee78e93387c049c4ca60b92fc0585ff71c5d41a45836844a4f34dabcba2f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": 78,
+      "text_sha256": "5fc8215501a03c678028f9eeff5c48f752bada8a2b15397f680a327e00596289",
+      "reviewed_render_sha256": "abb7cbad6eb009fcb2cae1bb687235f5e1a1a9b12dc5fb7b518ddbe7550eef00",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": 79,
+      "text_sha256": "e262f0cf6febd1541a0255d08992bbbff1c3f9b95957d6e44bbc87fda0613f67",
+      "reviewed_render_sha256": "3f472470c84d3f2eb4bdf27a3e9e66830d3ab68350e98d18ed765c0df26eb4b8",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": 80,
+      "text_sha256": "c6f9dfb23acf529d59f6a76a80b8562044f1dc579d84d378719472dc8f12b7c2",
+      "reviewed_render_sha256": "1777cd2226f8f4d32fe076d39ecf24cafc24856b376a1e2511da582c342c3a24",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": 81,
+      "text_sha256": "55452f707490d20eceffa42ddf8a3d23145acc8118ed68a67874ba2b90bda381",
+      "reviewed_render_sha256": "362d5a80fd1af030ba099ec65817fed0968b29be1f21f24162e4921523e6388a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": 82,
+      "text_sha256": "8e358f7cd8759685a6ca3317a336f5f49a9afafc3bb805806a909ffd25133c49",
+      "reviewed_render_sha256": "e9887dbd7cc63ba459ab59d56dd051ad51304a263dfcc1f7c7967dd4ebfe611b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": 83,
+      "text_sha256": "7a2de554f7fb43b709032db5224e3ff42c2e59a5ff065df43d46564e6b4dff94",
+      "reviewed_render_sha256": "2e4df1684a43cc6cce40c914b546cce7de9097b8100661dbe0230dfbbf889561",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 85,
+      "printed_page": 84,
+      "text_sha256": "e9dbe602bc395ec904065d29a82095546fd87a87edebcaeb3330fbed5c23cded",
+      "reviewed_render_sha256": "13db3a6d9d15cc17e8ea5185c79a442f93f92cb208fe537d21831bf4d955ed0a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 86,
+      "printed_page": 85,
+      "text_sha256": "5523fecea81096267bfbe98f361833eca5d2979fb1d18cc14fea91b4c1d18b31",
+      "reviewed_render_sha256": "363083dc66fe118e92ee74ec19f0aa39e5f3a93054924da0eb9a66daa40be8b3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 87,
+      "printed_page": 86,
+      "text_sha256": "754e82c400c1fa4ba638c945673f7f6bfaf1eedc1f0e8cfaefef1bc7a78322c3",
+      "reviewed_render_sha256": "d88765c4b6da108de7c82dd7bda3ca8db74bc80adada5fa462965da644db039f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 88,
+      "printed_page": 87,
+      "text_sha256": "f04cd23816e46782ccb419281db816e3cbd56ccfe2b1a16c1bbda64e4c1d4e5a",
+      "reviewed_render_sha256": "715822f91c527d10f0f8a15a5bef4267ac8e8e0f6ba6808309efecd923750a71",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 89,
+      "printed_page": 88,
+      "text_sha256": "fd1341859ccd3b8840c801006ca04ce7f258120615e0a01a0dcc70e4e1bb40a1",
+      "reviewed_render_sha256": "e8b622723ff2353ba339c9a1d45fa13ac87546436171c1dc1dc090d9bebb3c58",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 90,
+      "printed_page": 89,
+      "text_sha256": "c66d12d902c7f82d47495834c71eea466ec50a6ebcbf5edb696974f7384a38be",
+      "reviewed_render_sha256": "44f3c586839893566e4a65a4b50cf2127d46e3d9b6fac9d799b274cf17af51e0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 91,
+      "printed_page": 90,
+      "text_sha256": "22b402ac578211e41ab6e245c0e5d8b6edba2043d4b386eebcf0080e306dc887",
+      "reviewed_render_sha256": "f2cd258cec9122aa57643dd15baee1f16d35b6e21fcf38a4c0ad9296fb1752ef",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        72,
+        73,
+        74,
+        75,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "decision": "Original17 source pages/images and native hashes read; original short content follows these verified decisions: - §21PDF72–75: source73 qanotning uzun yuqori yo‘li sabab havo albatta\n  tezroq borishi (equal transit time) izohi to‘g‘ri universal dalil emas;\n  havo zarralari bir vaqt uchrashishi shartligini kiritmang. Turbulence\n  doim liftni oshiradi deb aytmang. Bosim taqsimoti/Magnus oqim yo‘nalishi\n  bilan cheklangan konseptlar; manbada yo‘q liftcoefficientformulasi yo‘q.\n  Torricelli v=sqrt(2*g*depth) ideal katta idish/kichik teshik/sameoutsidep/\n  topvelocitynegligible/shuondagi chuqurlik, Hground−houtlet farqi.\n  Source74g10/sqrt90≈9.5 misoli izchil; trueexactgridprivate kerak.\n  Real oqim/dischargecoef va pressurisedDIY/weapon/bullet sinovi qo‘shmang.\n- §22PDF79–82: davriy harakatning hammasi sinusoidal/garmonik emas,\n  qaytaruvchi kuch va inertlikning o‘zi yetmaydi (linear F=−kx scope).\n  x signed proyeksiya, A>=0modul. x=A*sin(theta),v=A*omega*cos(theta),\n  a=−A*omega²*sin(theta)=−omega²*x izchil. PDF81(5.10) da cos xsin bilan\n  mos emas;PDF82minusomega²x to‘g‘ri. Graphphase/initialphase aniq berilsin.\n  Energiya sin²/cos² pulsatsiyalari x bilan aynan bir chastotali simple\n  sinus emas. omega=2*pi/T rad/s, nu=N/t Hz farqli, pi3.14 yaqinlashuvi\n  ochiq berilsin. No general trigsolver, providedsinPhase/cosPhasevalid\n  data yoki aniq phasecritical point bilan finite graders rejalansin.\n  PDF82A.05m,vmax.12m/s,x.03m:omega2.4,amax.288m/s²,\n  a=−.1728m/s² (bosilgan−.073 noto‘g‘ri),vmodul.096m/sizchil;\n  amax printedm/s emas m/s². Original givens va independent oracles.\n- §23PDF82–86: source5.11 staticma=−kx0 noto‘g‘ri to‘liq balans,\n  muvozanatda mg−k*x0=0, inkrement x EQUILIBRIUMdan bo‘lsa m*xddot=−kx.\n  Ideal masslessspring/linear/lowdamping omega=sqrt(k/m),T=2*pi*sqrt(m/k).\n  OriginalPDF84energy5.15–5.17 hammasida1/2 bor; native text buni yo‘qotgan,\n  buni kitob xatosi deb yozmang. Eski spring_energy rule qayta ishlatilishi\n  mumkin. Mathematicalpendulum smallangle6–8° approximate T=2*pi*sqrt(l/g),\n  omega=sqrt(g/l),l pivottoCOM; allangles/masses/air uchun aniq emas.\n  Restoringmg*sin tangentialcomponent, umumiy netvector deb emas.\n  PDF86 lengths-sum T=sqrt(T1²+T2²)3/4→5 source izchil.\n- §24PDF86–87: DIGITAL shartli l_thread+r,20/30/40count/timing data,\n  T=t/N va g=4*pi²*l/T². Npositivewhole,periodvsalltime,centrelength,\n  smallangle/idealapprox,pi given. Realstativ/sekundomer o‘lchovi bajarildi\n  deyilmasin. Gmean/absolutedev/relativepercent jadvali bor; formula/\n  printedcolumn native Ti ti textni originalrasm bilan ajratish kerak.\n- §25PDF87–91: forced/damped/resonant/selfoscillation konseptlari.\n  «Erkin tebranish amalda ishlatilmaydi»/«forced har qanday holatda\n  so‘nmaydi»/«hamma qo‘ng‘iroq universal bir xil» claims ko‘chirilmang.\n  Steadystate forcedfrequency driverga mos, transient emas. Resonance\n  omegaDriver≈omega0 kichikdamping/schoolmodel; umumiy dampedpeak\n  doim EXACTomega0 deb aytmang, manbada yo‘q responseformula qo‘shmang.\n  Selfoscillator feedback/energysourcefinite, perpetualmotion emas.\n  Source25formula yo‘q: majburan numericFRQ yasamang. Digital tasnif/\n  tartiblash/grafik tavsifi orqali obyektiv topshiriqlar bo‘lsin.\n"
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 21,
+      "topic_id": "physics-10-section-21",
+      "pdf_pages": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "printed_pages": [
+        71,
+        72,
+        73,
+        74
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 2
+    },
+    {
+      "sequence": 22,
+      "topic_id": "physics-10-section-22",
+      "pdf_pages": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "printed_pages": [
+        78,
+        79,
+        80,
+        81
+      ],
+      "cards": 4,
+      "formula_rules": 8,
+      "worked_examples": 1,
+      "assessments": 12,
+      "frq": 8
+    },
+    {
+      "sequence": 23,
+      "topic_id": "physics-10-section-23",
+      "pdf_pages": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "printed_pages": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "cards": 4,
+      "formula_rules": 5,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 5
+    },
+    {
+      "sequence": 24,
+      "topic_id": "physics-10-section-24",
+      "pdf_pages": [
+        86,
+        87
+      ],
+      "printed_pages": [
+        85,
+        86
+      ],
+      "cards": 4,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 25,
+      "topic_id": "physics-10-section-25",
+      "pdf_pages": [
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "printed_pages": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "cards": 5,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    }
+  ]
+}

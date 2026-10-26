@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 246,
-  "remaining": 70,
+  "authored": 251,
+  "remaining": 65,
   "grades": [
     {
       "grade": 6,
@@ -64,16 +64,16 @@
     {
       "grade": 10,
       "source_sections": 45,
-      "authored": 20,
-      "remaining": 25,
-      "cards": 90,
-      "formula_entries": 78,
-      "examples": 21,
-      "assessments": 164,
-      "frq": 78,
-      "laboratories": 2,
+      "authored": 25,
+      "remaining": 20,
+      "cards": 111,
+      "formula_entries": 97,
+      "examples": 26,
+      "assessments": 205,
+      "frq": 97,
+      "laboratories": 3,
       "practicals": 0,
-      "next_section": 21
+      "next_section": 26
     },
     {
       "grade": 11,
@@ -90,35 +90,35 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 674,
+  "original_page_checks": 691,
   "date": "2026-10-26",
   "next": {
     "grade": 10,
-    "section": 21,
-    "pdf_page": 72,
-    "printed_page": 71
+    "section": 26,
+    "pdf_page": 91,
+    "printed_page": 90
   },
-  "unique_original_pages_reviewed": 645,
+  "unique_original_pages_reviewed": 661,
   "totals": {
-    "cards": 1064,
-    "formula_entries": 573,
-    "examples": 266,
-    "assessments": 1742,
-    "frq": 638
+    "cards": 1085,
+    "formula_entries": 592,
+    "examples": 271,
+    "assessments": 1783,
+    "frq": 657
   },
-  "executable_formula_families": 488,
+  "executable_formula_families": 501,
   "tests": {
-    "physics_biology_passed": 1497,
+    "physics_biology_passed": 1542,
     "postgres_opt_in_skipped": 2,
-    "backend_seconds": 281.33,
+    "backend_seconds": 299.26,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 80.83,
+    "postgresql_seconds": 88.58,
     "flutter_physics_passed": 26,
-    "flutter_seconds": 67,
-    "flutter_analyze": "No issues found (1.9s)",
-    "grade10_public_frq_drafts": 78,
-    "new_content_passed": 52,
-    "new_content_seconds": 3.36,
+    "flutter_seconds": 74,
+    "flutter_analyze": "No issues found (1.7s)",
+    "grade10_public_frq_drafts": 97,
+    "new_content_passed": 45,
+    "new_content_seconds": 3.24,
     "previous_full_backend_passed": 1505,
     "previous_full_flutter_passed": 152
   },

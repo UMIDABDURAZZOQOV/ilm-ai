@@ -577,3 +577,16 @@ manfiy bo‘lsa rad. Porshen modelida rho/g/yuza shartlari aniq;
 source4.9m/s soni noto‘g‘ri, yangi original m/h/S bilan exactsqrt5 va
 0,01m/sgrid. Umumiy trig/CAS/LLM yo‘q. Manba review muallif tekshiruvi,
 mustaqil ekspert/nativeAndroid/realphysicalexperiment/prodclaim emas.
+
+
+## 10-sinf §21–25 — 2026-10-26
+
+**2026-10-26 — Fizika 10-sinf §21–25:** **251/316 bo‘lim, 65 qolgan**. 6–9-sinflar to‘liq; 10-sinf25/45, 11-sinf0/45. Yangi21karta/19formula/5namuna/41topshiriq/19FRQ; jami1085karta/592formula/271namuna/1783topshiriq/657FRQ,501qoida oilasi. Asl691sahifa tekshiruvi/661noyob. Physics/Biology1542passed/2opt-inPGskipped299.26s; haqiqiy lokalPG1passed88.58s (251dars/2510XP/replay/legacy). FlutterPhysics26passed74s (97public10FRQ,320px/200%),analyzeNoissues1.7s; yangi45test3.24s. Torrichelli,ishorali garmonik tezlanish,prujina/mayatnik va raqamli g tekshirildi. Keyingi **10§26PDF91/bosma90**. Biology406/veb/Kimyo/production saqlandi; nativeAndroid va mustaqil ekspert tekshiruvi bajarilmagan; local/testpreview only.
+
+Manbalar: §21 PDF72–75/bosma71–74; §22 PDF79–82/78–81; §23 PDF82–86/81–85; §24 PDF86–87/85–86; §25 PDF87–91/86–90.17originalsahifa.13yangi finite formula oilasi,6mavjud qoida qayta ishlatildi. §25konseptual: sun’iy hisob/formula qo‘shilmadi. §24shartli raqamli laboratoriya, haqiqiy o‘lchov bajarildi deyilmaydi.
+
+Manba tafovutlari: equal-transit-time qanot afsonasi takrorlanmadi; idealTorrichelli chuqurligi H−h, kattaidish/kichikteshik/samepressure shartlari aniq. x=A*sin(theta) bo‘lsa a=−omega²*x; PDF81cos xsin bilan mos emas. PDF82A.05/vmax.12/x.03 uchun a−.1728m/s², amax.288m/s²; bosilgan−.073vaamaxm/s noto‘g‘ri. Statik prujinada mg−k*x0=0, tebranishx muvozanatdan inkrement; manba5.11to‘liqbalans emas. PDF84aslenergiyada1/2bor, nativeOCRyo‘qotishi kitobxatosi emas. Kichikburchak/pivotCOM, p3.14 ochiq; amplitudalar/reversalfazalar izchil. Sin/cosPhase tayyor[-1,1] ma’lumot, umumiy trigsolver yo‘q. Rezonans barqaror/kichikso‘nish scope; avtotebranish manbali, perpetualmotion emas.
+
+45yangi test3.24s; Physics/Biology1542passed/2opt-inPGskipped299.26s. PostgreSQL16izolyatsiyalangan1passed88.58s:251dars/import/reimport/2510XP/replay, eski137XP/3streak/2stars saqlandi. Flutter26passed74s/97public10FRQ320px200%, analyzeNoissues1.7s. 691aslPDFpagecheck/661unique. Ruff/diffcheck o‘tdi. Oldingi fullbackend1505/fullFlutter152 alohida tarixiy natija; bu partiyada yangi fullsuite/TCP251/webbuild/nativeAndroid/expert/prod bajarilmadi. EskiPhysics/BiologyJSON/review byteunchanged.
+
+Keyingi: 10§26«Mexanik to‘lqinlarning muhitlarda tarqalishi…», PDF91/bosma90. §26–30 manba tayyorgarligi ketmoqda; interaktiv kontenti hali yozilmagan. Ruxsat qayta so‘ralmasin; tekshirilmagan kontentni tayyor demang.
