@@ -156,12 +156,21 @@ UNITS = {
     "g/mol": ("molar_mass", Fraction(1, 1000)),
     "C/mol": ("faraday_constant", Fraction(1)),
     "mol": ("amount", Fraction(1)),
+    # Grade9 PDF8/12/14: volume, inverse-mol constant and NUMBER concentration.
+    "mm3": ("volume", Fraction(1, 10**9)),
+    "1/mol": ("avogadro_constant", Fraction(1)),
+    "1/m3": ("number_density", Fraction(1)),
     # Grade8 PDF150/152: magnetic induction (not temperature).
     "T": ("magnetic_induction", Fraction(1)),
     "mT": ("magnetic_induction", Fraction(1, 1000)),
     "µT": ("magnetic_induction", Fraction(1, 10**6)),
 }
 UNIT_ALIASES = {
+    "mol^-1": "1/mol",
+    "mol⁻¹": "1/mol",
+    "m^-3": "1/m3",
+    "m⁻³": "1/m3",
+    "m⁻3": "1/m3",
     "μT": "µT",
     "uT": "µT",
     "ohm": "Ω",

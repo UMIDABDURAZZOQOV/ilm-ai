@@ -24,6 +24,142 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "molecular_layer": rule(
+        "d",
+        ["V", "S"],
+        ["V/S", "V*S^-1"],
+        "Bir tekis BIR MOLEKULYAR qatlam farazi,d faqat modelbahosi,V/S>0;9PDF8.",
+    ),
+    "relative_particle_mass": rule(
+        "Mr",
+        ["m0", "u"],
+        ["m0/u", "m0*u^-1"],
+        "Mr o‘lchamsiz,u=1.66e-27kg manba yaqinlashuvi;9PDF10–11.",
+    ),
+    "particle_mass_relative": rule(
+        "m0",
+        ["Mr", "u"],
+        ["Mr*u", "u*Mr"],
+        "Mr>0 o‘lchamsiz,u=1.66e-27kg yaqinlashuv;9PDF10–11.",
+    ),
+    "particle_count_mass": rule(
+        "N", ["m", "m0"], ["m/m0", "m*m0^-1"], "Bir xil zarralar,m0>0,Nbutun;9PDF11."
+    ),
+    "particle_count_density": rule(
+        "N",
+        ["rho", "V", "m0"],
+        ["rho*V/m0", "V*rho/m0"],
+        "Bir jinsli modda,berilgan m0>0,Nbutun;9PDF11.",
+    ),
+    "amount_from_count": rule(
+        "nu",
+        ["N", "NA"],
+        ["N/NA", "N*NA^-1"],
+        "Nbutun,nu modda miqdori mol,NA ochiq manbayaqinlashuvi;9PDF12.",
+    ),
+    "count_from_amount": rule(
+        "N",
+        ["nu", "NA"],
+        ["nu*NA", "NA*nu"],
+        "nu mol,NA1/mol berilgan yaqinlashuv,Nbutun;9PDF12.",
+    ),
+    "amount_from_mass": rule(
+        "nu", ["m", "M"], ["m/M", "m*M^-1"], "M MOLYARkg/mol>0,mkg;nu mol;9PDF14."
+    ),
+    "mass_from_amount": rule(
+        "m", ["nu", "M"], ["nu*M", "M*nu"], "nu mol,Mkg/mol>0;9PDF13–14."
+    ),
+    "molar_from_particle": rule(
+        "M",
+        ["m0", "NA"],
+        ["m0*NA", "NA*m0"],
+        "m0kg>0,NA1/mol berilgan yaqinlashuv;9PDF13.",
+    ),
+    "particle_from_molar": rule(
+        "m0",
+        ["M", "NA"],
+        ["M/NA", "M*NA^-1"],
+        "Mkg/mol>0,NA1/mol berilgan yaqinlashuv;9PDF13.",
+    ),
+    "number_concentration": rule(
+        "n",
+        ["N", "V"],
+        ["N/V", "N*V^-1"],
+        "n son konsentratsiyasi1/m3,Nbutun,V>0;9PDF14.",
+    ),
+    "density_from_particles": rule(
+        "rho",
+        ["n", "m0"],
+        ["n*m0", "m0*n"],
+        "n SON konsentratsiyasi1/m3,m0kg>0;9PDF14.",
+    ),
+    "particle_count_rod": rule(
+        "N",
+        ["rho", "S", "l", "m0"],
+        ["rho*S*l/m0", "S*l*rho/m0"],
+        "Bir jinsli sterjen,Skesim,luzunlik,m0>0,Nbutun;9PDF16.",
+    ),
+    "concentration_mass": rule(
+        "n",
+        ["m", "NA", "M", "V"],
+        ["m*NA/(M*V)", "m*NA/M/V"],
+        "n SONkonsentratsiyasi,Mkg/mol,V>0,NA explicit;9PDF16.",
+    ),
+    "coating_particle_count": rule(
+        "N",
+        ["rho", "S", "h", "NA", "M"],
+        ["rho*S*h*NA/M", "S*h*rho*NA/M"],
+        "S JAMI qoplangan yuza,yupqa tekis qatlam,chetlar e’tiborsiz,M>0,Nbutun;9PDF16.",
+    ),
+    "plate_area_amount": rule(
+        "S",
+        ["nu", "M", "rho", "h"],
+        ["nu*M/(rho*h)", "nu*M/rho/h"],
+        "Bir jinsli tekis plastinka,h/rho>0,nu mol;9PDF17.",
+    ),
+    "image_particle_size": rule(
+        "d",
+        ["D", "k"],
+        ["D/k", "D*k^-1"],
+        "D rasm diametri,k>0 birliksiz kattalashtirish,haqiqiy d;9PDF17.",
+    ),
+    "gas_pressure_density": rule(
+        "p",
+        ["rho", "v"],
+        ["rho*v^2/3", "v^2*rho/3"],
+        "IDEALgaz,rho>0,v RMS tezlikmoduli;9PDF19.",
+    ),
+    "gas_rms_speed": rule(
+        "v",
+        ["p", "rho"],
+        ["sqrt(3*p/rho)", "(3*p/rho)^0.5", "(3*p/rho)^(1/2)"],
+        "IDEALgaz,rho>0,aniq RATSIONALILDIZ,v RMS,umumiy irrationalrounding yo‘q;9PDF19.",
+        square_root=True,
+    ),
+    "gas_pressure_particles": rule(
+        "p",
+        ["n", "m0", "v"],
+        ["n*m0*v^2/3", "m0*n*v^2/3"],
+        "IDEALgaz,n sonkonsentratsiyasi,m0>0,v RMS;9PDF19.",
+    ),
+    "gas_pressure_energy": rule(
+        "p",
+        ["n", "E"],
+        ["2*n*E/3", "n*E*2/3"],
+        "IDEALgaz,E bitta molekulaning O‘RTACHA ilgarilanma kinetik energiyasi;9PDF19.",
+    ),
+    "gas_mean_energy": rule(
+        "E",
+        ["p", "n"],
+        ["3*p/(2*n)", "3*p/2/n"],
+        "IDEALgaz,n>0,E bitta molekulaning o‘rtacha kinetik energiyasi;9PDF20.",
+    ),
+    "gas_density_speed": rule(
+        "rho",
+        ["p", "v"],
+        ["3*p/v^2", "3*p/(v*v)"],
+        "IDEALgaz,v>0 RMS tezlik;9PDF19–20.",
+    ),
     "lorentz_force": rule(
         "F",
         ["q", "v", "B"],
@@ -1359,6 +1495,9 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "amount": "mol",
+    "molar_mass": "kg/mol",
+    "number_density": "1/m3",
     "magnetic_induction": "T",
     "length": "m",
     "time": "s",
@@ -1612,6 +1751,103 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+
+    def avogadro():
+        result = positive("NA", "avogadro_constant")
+        if result not in {Fraction("6e23"), Fraction("6.02e23"), Fraction("6.022e23")}:
+            raise ValueError("explicit_source_avogadro_approximation")
+        return result
+
+    def whole_count(result):
+        if result < 0 or result.denominator != 1:
+            raise ValueError("whole_particle_count")
+        return result
+
+    def count_given():
+        if givens["N"]["unit"] != "1":
+            raise ValueError("particle_count_unit_one")
+        return whole_count(value("N", "dimensionless"))
+
+    if name == "molecular_layer":
+        return positive("V", "volume") / positive("S", "area"), "length"
+    if name in {"relative_particle_mass", "particle_mass_relative"}:
+        u = positive("u", "mass")
+        if u != Fraction("1.66e-27"):
+            raise ValueError("explicit_atomic_mass_approximation")
+        return (
+            (positive("m0", "mass") / u, "dimensionless")
+            if name == "relative_particle_mass"
+            else (positive("Mr", "dimensionless") * u, "mass")
+        )
+    if name == "particle_count_mass":
+        return whole_count(value("m", "mass") / positive("m0", "mass")), "dimensionless"
+    if name == "particle_count_density":
+        return whole_count(
+            positive("rho", "density") * value("V", "volume") / positive("m0", "mass")
+        ), "dimensionless"
+    if name == "amount_from_count":
+        return count_given() / avogadro(), "amount"
+    if name == "count_from_amount":
+        return whole_count(value("nu", "amount") * avogadro()), "dimensionless"
+    if name == "amount_from_mass":
+        return value("m", "mass") / positive("M", "molar_mass"), "amount"
+    if name == "mass_from_amount":
+        return value("nu", "amount") * positive("M", "molar_mass"), "mass"
+    if name == "molar_from_particle":
+        return positive("m0", "mass") * avogadro(), "molar_mass"
+    if name == "particle_from_molar":
+        return positive("M", "molar_mass") / avogadro(), "mass"
+    if name == "number_concentration":
+        return count_given() / positive("V", "volume"), "number_density"
+    if name == "density_from_particles":
+        return value("n", "number_density") * positive("m0", "mass"), "density"
+    if name == "particle_count_rod":
+        return whole_count(
+            positive("rho", "density")
+            * positive("S", "area")
+            * value("l", "length")
+            / positive("m0", "mass")
+        ), "dimensionless"
+    if name == "concentration_mass":
+        return value("m", "mass") * avogadro() / (
+            positive("M", "molar_mass") * positive("V", "volume")
+        ), "number_density"
+    if name == "coating_particle_count":
+        return whole_count(
+            positive("rho", "density")
+            * positive("S", "area")
+            * value("h", "length")
+            * avogadro()
+            / positive("M", "molar_mass")
+        ), "dimensionless"
+    if name == "plate_area_amount":
+        return value("nu", "amount") * positive("M", "molar_mass") / (
+            positive("rho", "density") * positive("h", "length")
+        ), "area"
+    if name == "image_particle_size":
+        if givens["k"]["unit"] != "1":
+            raise ValueError("magnification_unit_one")
+        return value("D", "length") / positive("k", "dimensionless"), "length"
+    if name == "gas_pressure_density":
+        return positive("rho", "density") * value("v", "speed") ** 2 / 3, "pressure"
+    if name == "gas_rms_speed":
+        squared = 3 * value("p", "pressure") / positive("rho", "density")
+        a, b = isqrt(squared.numerator), isqrt(squared.denominator)
+        if a * a != squared.numerator or b * b != squared.denominator:
+            raise ValueError("reviewed_exact_rational_root_required")
+        return Fraction(a, b), "speed"
+    if name == "gas_pressure_particles":
+        return value("n", "number_density") * positive("m0", "mass") * value(
+            "v", "speed"
+        ) ** 2 / 3, "pressure"
+    if name == "gas_pressure_energy":
+        return 2 * value("n", "number_density") * value("E", "energy") / 3, "pressure"
+    if name == "gas_mean_energy":
+        return 3 * value("p", "pressure") / (
+            2 * positive("n", "number_density")
+        ), "energy"
+    if name == "gas_density_speed":
+        return 3 * value("p", "pressure") / positive("v", "speed") ** 2, "density"
     if name == "lorentz_force":
         return positive("q", "charge") * value("v", "speed") * value(
             "B", "magnetic_induction"
