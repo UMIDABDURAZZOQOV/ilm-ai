@@ -17636,7 +17636,62 @@
             "record_id": "ch10-chapter04",
             "printed_page": 131,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p31-polysaccharide-endgroups-amount-units-review",
+              "status": "open_review",
+              "printed_pages": [
+                125,
+                126,
+                127,
+                128,
+                130
+              ],
+              "pdf_pages": [
+                125,
+                126,
+                127,
+                128,
+                130
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original images inspected;finite clear graphs,declared idealmodels andgivenproducts only. Listedambiguity remainswithheld.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p31-polysaccharide-endgroups-amount-units-review-page125",
+                  "printed_page": 125,
+                  "reason": "Given sucrose/maltose composition not ALLdisaccharides universalformula."
+                },
+                {
+                  "id": "ch10-p31-polysaccharide-endgroups-amount-units-review-page126",
+                  "printed_page": 126,
+                  "reason": "(C6H10O5)n+(n−1)water literal lacksendgroupatoms;withheld,notcopied asbalance."
+                },
+                {
+                  "id": "ch10-p31-polysaccharide-endgroups-amount-units-review-page127",
+                  "printed_page": 127,
+                  "reason": "Iodineblue finiteobservation notuniqueunknownID/physicalexperiment."
+                },
+                {
+                  "id": "ch10-p31-polysaccharide-endgroups-amount-units-review-page128",
+                  "printed_page": 128,
+                  "reason": "ApproxMr/162 repeatcount not molproductfromindividualmolecule. Explicitidealmodel/noendgroups."
+                },
+                {
+                  "id": "ch10-p31-polysaccharide-endgroups-amount-units-review-page130",
+                  "printed_page": 130,
+                  "reason": "Molecularmass andsampleamount mustbedistinguished inpolymer exercises."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch10-chapter04",
@@ -17715,7 +17770,46 @@
             "record_id": "ch10-paragraph33",
             "printed_page": 134,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p32-nitro-carbon-classification-route-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                131,
+                132,
+                133
+              ],
+              "pdf_pages": [
+                131,
+                132,
+                133
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original images inspected;finite clear graphs,declared idealmodels andgivenproducts only. Listedambiguity remainswithheld.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p32-nitro-carbon-classification-route-scope-review-page131",
+                  "printed_page": 131,
+                  "reason": "Nitro-bearingC neighborclassification notaminetypeNsubstitution. Names/finitegraphs only."
+                },
+                {
+                  "id": "ch10-p32-nitro-carbon-classification-route-scope-review-page132",
+                  "printed_page": 132,
+                  "reason": "No unqualifiedphysicalphase/odoridentity or nitrationpreparation/ratios/conditions/yields."
+                },
+                {
+                  "id": "ch10-p32-nitro-carbon-classification-route-scope-review-page133",
+                  "printed_page": 133,
+                  "reason": "Tertiarybutylamineoxidation prompt ambiguousinreductionsection,notfilled. Nitro-to-amino conceptualonly,no explosivematerialpreparation."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -17756,7 +17850,62 @@
             "record_id": "ch10-paragraph34",
             "printed_page": 139,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p33-amine-phase-basicity-isomer-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                134,
+                135,
+                136,
+                137,
+                138
+              ],
+              "pdf_pages": [
+                134,
+                135,
+                136,
+                137,
+                138
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original images inspected;finite clear graphs,declared idealmodels andgivenproducts only. Listedambiguity remainswithheld.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p33-amine-phase-basicity-isomer-scope-review-page134",
+                  "printed_page": 134,
+                  "reason": "Classification counts groups directlyonN,not numberofneighborsofC."
+                },
+                {
+                  "id": "ch10-p33-amine-phase-basicity-isomer-scope-review-page135",
+                  "printed_page": 135,
+                  "reason": "Phasegeneralization omits ethylamine;notuniversal. FourPRIMARYC4 graphsnotallC4amineisomers."
+                },
+                {
+                  "id": "ch10-p33-amine-phase-basicity-isomer-scope-review-page136",
+                  "printed_page": 136,
+                  "reason": "Saltchargeddiagram distinguishedfromneutralgrossatomformula. Knowncombustionproductmodelnotallrealnitrogenproducts."
+                },
+                {
+                  "id": "ch10-p33-amine-phase-basicity-isomer-scope-review-page137",
+                  "printed_page": 137,
+                  "reason": "Anilinewaternotreact absoluteclaim/brominationunconditionalsoleproduct withheld."
+                },
+                {
+                  "id": "ch10-p33-amine-phase-basicity-isomer-scope-review-page138",
+                  "printed_page": 138,
+                  "reason": "Basicityranking lacksmedium/solvation. UnlocatedBr80numericalproofnotinvented;triphenylN14proof8§5/29."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -17797,7 +17946,70 @@
             "record_id": "ch10-paragraph35",
             "printed_page": 145,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p34-aminoacid-valence-peptide-color-model-review",
+              "status": "open_review",
+              "printed_pages": [
+                139,
+                141,
+                142,
+                143,
+                144,
+                145
+              ],
+              "pdf_pages": [
+                139,
+                141,
+                142,
+                143,
+                144,
+                145
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original images inspected;finite clear graphs,declared idealmodels andgivenproducts only. Listedambiguity remainswithheld.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p34-aminoacid-valence-peptide-color-model-review-page139",
+                  "printed_page": 139,
+                  "reason": "Restrictedgeneralformula notallaminoacids."
+                },
+                {
+                  "id": "ch10-p34-aminoacid-valence-peptide-color-model-review-page141",
+                  "printed_page": 141,
+                  "reason": "Equalgroupcountnotuniversalindicatorneutrality. Historicalclinicalclaims notmedicaladvice."
+                },
+                {
+                  "id": "ch10-p34-aminoacid-valence-peptide-color-model-review-page142",
+                  "printed_page": 142,
+                  "reason": "Explicitlinearpeptidemodel only,notALLpeptideslinear/50cutoffuniversal. Notallhormones/antibioticsprotein."
+                },
+                {
+                  "id": "ch10-p34-aminoacid-valence-peptide-color-model-review-page143",
+                  "printed_page": 143,
+                  "reason": "Denaturationefir/polysulfidbreakage universalwording andpeptidelength-specificbiuretcolors notadopted."
+                },
+                {
+                  "id": "ch10-p34-aminoacid-valence-peptide-color-model-review-page144",
+                  "printed_page": 144,
+                  "reason": "R–CH2(NH2)COOH valence5ifRpresent;correctglycineused.2aminopropioncaption conflicts3aminograph."
+                },
+                {
+                  "id": "ch10-p34-aminoacid-valence-peptide-color-model-review-page145",
+                  "printed_page": 145,
+                  "reason": "M89notuniquealaninewithoutpositioninfo. GivenoneCOOH1:1neutralization only."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -17838,7 +18050,78 @@
             "record_id": "ch10-activities",
             "printed_page": 153,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review",
+              "status": "open_review",
+              "printed_pages": [
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                152
+              ],
+              "pdf_pages": [
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                152
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original images inspected;finite clear graphs,declared idealmodels andgivenproducts only. Listedambiguity remainswithheld.",
+              "withheld_claims": [
+                {
+                  "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review-page145",
+                  "printed_page": 145,
+                  "reason": "Polydispersitymeansidealnnotallrealchains."
+                },
+                {
+                  "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review-page146",
+                  "printed_page": 146,
+                  "reason": "Syntheticmonomersnotuniversallyabsentnature. M=m*n declaredidealrepeatmodelomittingendgroups."
+                },
+                {
+                  "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review-page147",
+                  "printed_page": 147,
+                  "reason": "Networkresinformulanotuniquefullpolymeridentity."
+                },
+                {
+                  "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review-page148",
+                  "printed_page": 148,
+                  "reason": "UniversalPPstrength/PVCnevermeltsburns/permeability/solubility claims withheld."
+                },
+                {
+                  "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review-page149",
+                  "printed_page": 149,
+                  "reason": "Butadienerubber rankedweakerthannatural vs150divinylstronger;stereo/formulationnotgiven.2017nowroute notcurrentclaim."
+                },
+                {
+                  "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review-page150",
+                  "printed_page": 150,
+                  "reason": "No allrubber mechanicalranking/permeability guarantees."
+                },
+                {
+                  "id": "ch10-p35-polymer-endgroups-properties-rubber-rank-review-page152",
+                  "printed_page": 152,
+                  "reason": "Repeatmassarithmetic explicitmodel,notexactfinitechainM/organicconnectivity certification."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch10-activities",

@@ -43,12 +43,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch10-paragraph28` | paragraph 28 | Murakkab efirlar. Olinishi va xossalari. Ishlatilishi | 109–114 | 109:full – 114:full | 109 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph27 |
 | `ch10-paragraph29` | paragraph 29 | Yog‘lar. Olinishi va xossalari | 114–117 | 114:full – 117:full | 114 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph28 |
 | `ch10-paragraph30` | paragraph 30 | Uglevodlar. Monosaxaridlar. Olinishi va xossalari | 117–125 | 117:full – 125:full | 117 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph29 |
-| `ch10-paragraph31` | paragraph 31 | Disaxaridlar, Polisaxaridlar. Olinishi va xossalari | 125–131 | 125:full – 131:full | 125 | not_authored | ch10-paragraph30 |
+| `ch10-paragraph31` | paragraph 31 | Disaxaridlar, Polisaxaridlar. Olinishi va xossalari | 125–131 | 125:full – 131:full | 125 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph30 |
 | `ch10-chapter04` | chapter 4 | Azotli organik birikmalar | 131–153 | 131:full – 153:full | 131 | not_authored | — |
-| `ch10-paragraph32` | paragraph 32 | Nitrobirikmalar. Olinishi va xossalari | 131–134 | 131:full – 134:full | 131 | not_authored | ch10-paragraph31 |
-| `ch10-paragraph33` | paragraph 33 | Aminlar va aromatik aminlar. Olinishi va xossalari | 134–139 | 134:full – 139:full | 134 | not_authored | ch10-paragraph32 |
-| `ch10-paragraph34` | paragraph 34 | Aminokislotalar va oqsillar. Olinishi va xossalari | 139–145 | 139:full – 145:full | 139 | not_authored | ch10-paragraph33 |
-| `ch10-paragraph35` | paragraph 35 | Yuqori molekulyar birikmalar | 145–153 | 145:full – 153:full | 145 | not_authored | ch10-paragraph34 |
+| `ch10-paragraph32` | paragraph 32 | Nitrobirikmalar. Olinishi va xossalari | 131–134 | 131:full – 134:full | 131 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph31 |
+| `ch10-paragraph33` | paragraph 33 | Aminlar va aromatik aminlar. Olinishi va xossalari | 134–139 | 134:full – 139:full | 134 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph32 |
+| `ch10-paragraph34` | paragraph 34 | Aminokislotalar va oqsillar. Olinishi va xossalari | 139–145 | 139:full – 145:full | 139 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph33 |
+| `ch10-paragraph35` | paragraph 35 | Yuqori molekulyar birikmalar | 145–153 | 145:full – 153:full | 145 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph34 |
 | `ch10-activities` | activity_collection  | Laboratoriya ishlari | 153–156 | 153:full – 156:full | 153 | not_authored | — |
 | `ch10-laboratory01` | laboratory 1 | Etilenning etil spirtdan olinishi | 153–154 | 153:full – 154:full | 153 | not_authored | ch10-paragraph35 |
 | `ch10-laboratory02` | laboratory 2 | Atsetilenning olinishi | 153–154 | 153:full – 154:full | 153 | not_authored | ch10-laboratory01 |

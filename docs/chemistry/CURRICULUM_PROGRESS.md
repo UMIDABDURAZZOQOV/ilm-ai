@@ -7,15 +7,15 @@
 | 7 | 6 | 51 | 16 | 7 | 74 | 74 | 0 |
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 61 | 0 |
-| 10 | 4 | 35 | 6 | 0 | 41 | 30 | 11 |
+| 10 | 4 | 35 | 6 | 0 | 41 | 35 | 6 |
 | 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 224 | 44 |
+| Total | 29 | 204 | 49 | 15 | 268 | 229 | 39 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 2173 cards; 3273 assessments: 896 concept_selection, 447 short_text, 912 numeric_value, 347 chemical_formula, 671 chemical_equation.
+Total: 2230 cards; 3347 assessments: 916 concept_selection, 461 short_text, 938 numeric_value, 351 chemical_formula, 681 chemical_equation.
 
 ## Initial §1
 
@@ -230,9 +230,14 @@ Original aromatic/hybridization/fuel/oxygen-compound sources retain common contr
 53cards;79questions:20MCQ,11short,25numeric,5formula,18equation.
 Acid/ether/ester/fat/carbohydrate sources retain common contracts.
 
+## Batch44:grade10§31–35 (five lessons)
+
+57cards;74questions:20MCQ,14short,26numeric,4formula,10equation.
+All35grade10paragraphs implemented;6source laboratory entries remain.
+
 ## Current continuation
 
-224/268 implemented;44 remain. Grade7 all74,grade8 all59,grade9 all61,grade10 30/41.
-Next grade10§31–35;five private authors draftvalidated,not indexed.
-176editorialscopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
-ActualHTTP preserves219/4380XP and adds100XPonce→224/4480XP.
+229/268 implemented;39 remain. Grade7 all74,grade8 all59,grade9 all61,grade10 35/41.
+Next six grade10labs;privateauthors45a–f draftvalidated,not indexed.
+181editorialscopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
+ActualHTTP preserves224/4480XP and adds100XPonce→229/4580XP.

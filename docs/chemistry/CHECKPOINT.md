@@ -1,75 +1,80 @@
 # Chemistry continuation checkpoint
 
-## Batch43 — 2026-10-26:grade10§26–30
+## Batch44 — 2026-10-26:grade10§31–35
 
-**224/268 implemented;44 remain. Grade10 30/41;prior219 lessons preserved.**
-Five lessons add53cards/79questions:20MCQ,11short,25numeric,5formula,
-18equation. Total2173cards/3273questions:896/447/912/347/671.
-Original102–124 images reviewed,125 starts§31. Finite acid/ether/ester/fat/
-carbohydrate graphs,known products and explicit amount models reuse common
-theory/MCQ/FRQ/feedback/XP/prerequisite/exactDecimal contracts. No new AI,
-organic-connectivity grading,formula parser scope or numeric tolerance.
+**229/268 implemented;39 remain. All35 grade10paragraphs,6labs remain.**
+Five lessons add57cards/74questions:20MCQ,14short,26numeric,4formula,
+10equation. Total2230cards/3347questions:916/461/938/351/681.
+Original125–152 scans reviewed;153 beginslabs. Disaccharide/polysaccharide,
+nitro/amine/aminoacid/protein/polymer examples keep common source/theory/MCQ/
+appropriateFRQ/feedback/XP/progress/prerequisite contracts. Nitro topic uses
+word/count inputs,no preparation/ratio/yield/conditions. Organiccomposition
+doesnotgradeconnectivity;polymerM/n models explicitlyideal,omitendgroups.
 
-Five new source scopes retain103 incorrectbranchedacidname,104 missingacid
-coefficient,105 formicclassification,107 falseC2/C4etherisomerpair,109 ambiguous
-bondhybrids,alkalineester salt versusfreeacid,universalphase/nutrition/fatscope,
-121 missingwater,122–124 orbitalcount-to-gram mismatch and123–124 unverified
-reducing-sugar exclusivity. Generic104 balancedMgO line supports finite original
-given-product card. No silentcopy of badliteral or invented externalreplacement.
-176editorialscopes,one finite9§40erratum,zero wholeholds;allreadyfalse.
+Five source scopes preserve126/128 endgroup/water imbalance andamountunits,
+133 ambiguousoxidationprompt,135phase/primaryisomerscope,138 basicitymedium,
+141universalindicator/medicalclaims,143 peptidecolor/denaturationgeneralization,
+144 valence5Rgraph/wrongaminolocant,148PVCthermalabsolute and149/150rubber
+rankconflict. Cleartext/graphs supplyfinite originaltasks. N14proof8§5/29
+rechecked;earliergradechapter-only context wasrejected indraftreview,notbypassed.
+181editorialscopes,one finite9§40erratum,zero wholeholds;allreadyfalse.
 
-Private draft validation initially found seven correctanswer phrases missing
-from their explicit verifiedanswer sets;manually linked taughtphrases before
-first indexing. No facts invented by serialization. Target149pass/113.39s;
-first invocation used wrong readiness node(no tests),next hit sharedTemp access
-errors(140pass/9setup errors),final uses new ignoredproject basetemp andpassesall.
-Full1665pass,1opt-inPGskip;all47Chemistryfiles once across4isolatedDB/processes.
-Frozen source/runtime/test snapshot preserved;existing Starlettewarning once
-perprocess(4total). Wall1944.56s;individual timings inqa_batch43.json.
-CriticalRuff/diffpassed;219priorhashes/original7§1 preserved;5PDFSHA/817pagesaudit.
+Target125pass/124.97s;full1699pass,1opt-inPGskip. All48Chemistryfiles once
+across4isolatedDB/processes;frozen source/runtime/test bytes unchanged.
+ExistingStarlettewarning once perprocess(4total). Wall2248.48s;
+individualtimes retainedqa_batch44.json. CriticalRuff/diffpassed.224priorhashes
+andoriginal7§1 preserved;5PDFSHA/817pages decoded audit stillpasses.
 
-ActualHTTP79correctanswers preserve219/4380XP→224/4480XP,+100once.
-Complete replay identical;133,2/133.2 and1.344e2/134.4 equivalent. Privategrading
-hidden;grade7/8/9catalogs unchanged.15sanitized publicfixtures only;no JWT/DB.
-Preview ownPID16660/loopback8903/synthetic900003;verify command before stopping.
+ActualHTTP74correctanswers preserve224/4480XP→229/4580XP,+100once.
+Completionreplayidentical;1,5/1.5 and1.005e3/1005 equivalent. Privategrading
+hidden;grade7/8/9catalogsunchanged. FirstHTTPconnectedbeforepreviewready and
+failedbeforeanyprogresswrite;rerunafterreadinesssucceeded.15sanitizedpublic
+fixtures only;no JWT/DB/sourcepayloads. PreviewownPID22612/loopback8903,
+synthetic900003;verifyexactcommandbeforestop.
 
-Flutter564tests/557s;analysis0issues/58.7s. Six320×568/200% scenarios pass/37s;
-24captures inspected:acidamount,etherorbitals,estersalt,fatsaponification,
-glucoseproducts andglucosevolume. Feedbackscroll/source sheets work,Continue
-staysvisible,current/prior locators correct. No productionUI changes thisbatch.
-NativeAndroid/IME/TalkBack notcertified;editorialcopy-spacing review remains.
-Flutter18e2a34 pushed toChemistrybranch;backendcommit follows checkpoint.
+Flutter570tests/658s;analysis0issues/171.7s. Six320×568/200% scenarios pass/96s;
+24captures inspected,includinglongpeptideequation input,feedbackscroll,current/
+priorbooksource locators. Continuevisible,sourceviews scroll,nooverflowexceptions.
+No productionUI changes thisbatch;nativeAndroid/IME/TalkBack notcertified,
+copy-spacingreview remainspending. Flutter2b8d6cb pushed toChemistrybranch;
+backendcommit follows checkpoint. No Biology406/Physics/userdata/main/AI/
+production changes or rawPDF/OCR/fulltext/render/tokenpush.
 
-Next§31–35 private drafts validated:57cards/74questions,not indexed. Original
-125–156 nowallvisuallyseen,including sixfuturelabs.8§5/29 rechecked N14 proof;
-earliergradechapter-only context rejected correctly,teachingparagraph used.
-Future sixlab privateauthors45a–f also draftvalidated:38cards/62questions;
-none indexed. Future scopes include polysaccharideendgroup/water/amountunits,aminetypeCvsN,
-unscopedphase/basicity,144 carbonvalence/name error,143 biuretlengthcolors,
-peptide-linear-model andPVC/rubber propertygeneralizations. Private source notes
-retainexactpages. Biology406/Physics/userdata/main/production/AI unchanged.
-No rawPDF/OCR/fulltext/render/token push.
+Future45 sixprivate digital labs draftvalidated:38cards/62questions. Sources
+153–156 and97/121 reviewed. No physicalexperiments/reagentdoses/heating/gas
+collection/flame. Lab5 two-water grossmodel corroboratedby97 sumoftwocards;
+121badliteral withheld. No uniqueCucomplex/peptidelengthcolor formula.
+Grade11original4–34 reviewed,source notes retain quantum/configuration,
+periodiclayout/nuclearA/Z/particlecount/ionicmodel/mole-unit misprints forfuture
+finite scopes.11-sinf five private authors draftvalidated:62cards/76questions,
+not indexed. Existing common graders accept signedquantumvalues,35.45isotope
+mean andNa/Cu scientificnotation;no new nuclear/configuration parser.
 
 ## Exact continuation
 
-Batch41backend86c23a3/Flutter17396e9. Batch43Flutter18e2a34;backendcommit follows.
-Do not rerun indexed43author/install/HTTP/doc scripts.
-Baseline224/4480XP. Allreadyfalse,176editorialscopes,1finiteerratum,0wholeholds.
-Backendfullreport.local/batch43-parallel-full/report.json.
+Batch43backendb7b885f/Flutter18e2a34. Batch44Flutter2b8d6cb;backendcommit follows.
+Do not rerun indexed44author/install/HTTP/doc scripts.
+Baseline229/4580XP. Allreadyfalse,181editorialscopes,1finiteerratum,0wholeholds.
+Backendfullreport.local/batch44-parallel-full/report.json.
 
-Next five-lesson batch44§31–35. Privateauthor_batch44a–e.py expected224→229,
-real saves UNEXECUTED;private dry reviewpassed .local/review_batch44_drafts.py.
-57cards/74questions:20MCQ14short26numeric4formula10equation. No indexedwrites.
-Private source notes.local/grade10_batch44_source_notes.md includes125–156,
-all6futurelabs andreviewedN14proof8§5/29. Add5sourceissues/guards/tests,
-index/audit thenactualHTTP/small-screen/fullQA. Sourcehelpers serializeonly
-manuallyauthoredscience. No earliergradechapter-context bypass.
+Next six-lesson batch45 labs1–6. Privateauthor_batch45a–f.py expected229→235,
+real saves UNEXECUTED;alreadydraftvalidated using old224baseline+44prelude.
+38cards/62questions:24MCQ11short14numeric5formula8equation. Existingprivate
+review_batch45_drafts.py expects224;do notrerununchanged at229. Adjustwrapper
+to229+45only ifneeded. Add6finite sourcescopes/guards/tests,indexauditthen
+actualHTTP/small-screen/fullQA. No placeholder/physicalexperiment recipes.
 
-Then six-laboratory batch45→235(all10). Privateauthor45a–f prepared and
-draftvalidated with44 prelude:.local/review_batch45_drafts.py (baseline224).
-38cards/62questions:24MCQ11short14numeric5formula8equation. No realsaves.
-Source97/121 originalrechecked;lab5 given-productgrossmodel uses97two-card
-sum with2water,121badliteral remainswithheld. No physicalexperiment recipes.
-Then33grade11entries→268.
-Finishall268;44remaining=11grade10+33grade11. Neverclaimcoursecomplete/ready
-from countalone;independentteacher/source/readiness gates remain required.
+Then grade11firstfive batch46§1–5→240. Original4–34read,private notes
+.local/grade11_batch46_source_notes.md. Helperauthor_grade11_helpers.py
+prepared fromsame serialization schema;author_batch46a–e.py draftvalidated
+62cards/76questions:20MCQ13short39numeric3formula1equation. Real savesnotrun.
+review_batch46_drafts.py currentlyexpects229anduses45prelude;after235adjust
+wrapperto235+46only ifrerunning. Helper uses
+bookindex4,grade11sourceimages andch11prefix. No futurecontext/earliergrade
+chapter-context bypass. NuclearA/Z andconfigurationtasks MCQ/word/numeric,
+notchemicalformula parser. Withhold22Cr51sum75vs78,33Ag10exponent,
+32CO2percentmisprints unlesscontrolledreviewederratum/independentproperproof.
+
+Remaining39=6grade10labs+33grade11. Proposed5–10lessonbatches46§1–5,
+47§6–10,48§11–15,49§16–20,50§21–25,51§26–33. Finishall268;source/
+independentteacher/readinessgates remain distinctfromcount/production.

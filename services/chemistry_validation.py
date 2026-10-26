@@ -209,6 +209,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch10-paragraph28': 'ch10-p28-ester-medium-identity-scope-review',
     'ch10-paragraph29': 'ch10-p29-fat-composition-phase-hydrolysis-review',
     'ch10-paragraph30': 'ch10-p30-carbohydrate-units-redox-scope-review',
+    'ch10-paragraph31': 'ch10-p31-polysaccharide-endgroups-amount-units-review',
+    'ch10-paragraph32': 'ch10-p32-nitro-carbon-classification-route-scope-review',
+    'ch10-paragraph33': 'ch10-p33-amine-phase-basicity-isomer-scope-review',
+    'ch10-paragraph34': 'ch10-p34-aminoacid-valence-peptide-color-model-review',
+    'ch10-paragraph35': 'ch10-p35-polymer-endgroups-properties-rubber-rank-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1026,6 +1031,21 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch10-paragraph30' in topic_ids:
             require('Fruktoza kumush ko‘zguni hech qachon bermaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'unverified_sugar_redox_exclusivity_is_withheld')
+        if 'ch10-paragraph31' in topic_ids:
+            require('Bir molekula kraxmaldan 200 mol glukoza'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'polymer_particle_count_is_not_moles')
+        if 'ch10-paragraph32' in topic_ids:
+            require('Nitrolash har doim bitta sof mahsulot'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'unconditional_nitration_product_claim_is_withheld')
+        if 'ch10-paragraph33' in topic_ids:
+            require('C4H11N jami faqat 4 ta izomer'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'primary_amine_examples_are_not_all_amine_isomers')
+        if 'ch10-paragraph34' in topic_ids:
+            require('Har qanday dipeptid musbat biuret beradi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'universal_dipeptide_biuret_claim_is_withheld')
+        if 'ch10-paragraph35' in topic_ids:
+            require('PVC hech qachon suyuqlanmaydi va yonmaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'absolute_pvc_thermal_claim_is_withheld')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
