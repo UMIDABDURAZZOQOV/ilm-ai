@@ -1,3 +1,13 @@
+## Final 268 checkpoint — 2026-10-26
+
+**268/268 local interactive lessons implemented and validated.** Full report:
+[COMPLETION_REPORT.md](COMPLETION_REPORT.md). Final checks passed: 1,908 Chemistry
+tests, 3 real PostgreSQL scenarios and 609 Flutter tests. The synthetic learner
+completed 268 lessons with 5,360 XP awarded once. Original sources and shared
+learning contracts remain enforced. Course-ready flags remain false pending
+independent teacher/source, editorial and native accessibility review.
+No production/main/AI operation was performed.
+
 # ILM AI Chemistry 7–11
 
 2026-10-26 (Asia/Tashkent). Separate backend and Flutter
@@ -11,7 +21,7 @@ The source map contains **29 chapters, 204 numbered paragraphs, 49 laboratories
 and 15 practical activities**. The latter **268** teaching entries are distinct
 from catalogue containers, prefaces, subtopics and chapter reviews.
 The catalogue has **327 records**, including those additional source anchors.
-This is source mapping, not 268 finished interactive lessons.
+Catalogue mapping and reviewed interactive implementation are tracked separately.
 
 Grade7 has all74 mapped teaching entries;grade8 has all59;grade9 now has §1–41,practical1–3 andlaboratory1–17 (61/61). Grade10 now has all35 paragraphs and6 laboratories (41/41). Grade11 now§1–33 (33/33).
 The isolated v2 API and separate Flutter QA entrypoint reuse ILM AI learning

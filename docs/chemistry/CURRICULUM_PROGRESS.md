@@ -265,7 +265,10 @@ First5/33 grade11 paragraphs implemented in original textbook order.
 
 66 cards;92 questions. Grade11 first33/33.
 
-## Current continuation
+## Implementation complete
 
-268/268 implemented;0 remain. 220 editorialscopes,one finite
-reviewederratum,zero wholeholds;allreadyfalse. ActualHTTP260/5200→268/5360XP.
+268/268 implemented; 0 remain. There are 220 scoped editorial review records,
+one controlled reviewed erratum and zero whole-source holds. All five
+`course_ready` flags remain false. The actual HTTP synthetic learner finished
+268 lessons with 5,360 XP. Final regression and PostgreSQL staging checks passed;
+see [completion report](COMPLETION_REPORT.md) and [measured QA](qa_final268.json).

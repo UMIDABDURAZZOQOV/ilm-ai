@@ -1,54 +1,38 @@
-# Chemistry continuation checkpoint
+# Chemistry final local checkpoint
 
-## Batch51 — 2026-10-26:grade11§26–33
+## Final 268 checkpoint — 2026-10-26
 
-**268/268 implemented;0 remain. Grade11 33/33 paragraphs.**
-Adds66cards/92questions:26MCQ,
-16short,42numeric,8equation.
-Total2577cards/3794questions:1057/537/1135/359/706.
-Original116–154 pages reviewed. Final eight paragraphs cover finite Le Chatelier
-changes,ICE tables,half-reaction atom/charge/electron accounting,medium-specific
-redoxproducts,reaction-specific equivalents,electrolytic phases/polarity,
-Faraday mass/charge and mixed-product charge budgets. Halfreaction ions are
-display/MCQ/word/count only; full neutral equations use the common atomgrader.
-Digital models state products,current efficiency,phase and complete initial
-metal recovery where required. No physicalelectrolysis/reagent/gascollection.
-Eight scopes preserve119temperatureallgone/colouraloneproof,1239*9=27,
-124–125CO prose/table mismatch,formalionsversusoxidationstate,1338H2O bad
-combinedline,universalactivity/product tables,145E/neq unitlabels,146KCl
-8.96/8.94 conflict,148exact7percent and151mixedmetal time/masslabels.
-Correct tables/molecular atom balance and coherent units support retained
-models;uncertain badworkedkeys withheld. Hydration uses ordinary mole ratio;
-one total charge is partitioned once across mixed products.
-220editorialscopes,one finite9§40erratum,zero wholeholds;allreadyfalse.
+**268/268 local interactive lessons implemented and validated.** Full report:
+[COMPLETION_REPORT.md](COMPLETION_REPORT.md). Final checks passed: 1,908 Chemistry
+tests, 3 real PostgreSQL scenarios and 609 Flutter tests. The synthetic learner
+completed 268 lessons with 5,360 XP awarded once. Original sources and shared
+learning contracts remain enforced. Course-ready flags remain false pending
+independent teacher/source, editorial and native accessibility review.
+No production/main/AI operation was performed.
 
-Target122pass/68.67s. Full1908pass/1opt-inPGskip,
-all55Chemistryfiles once across4isolatedDB/processes;
-frozen snapshot unchanged;wall1788.22s. ExistingStarlettewarning
-once/process(4total). CriticalRuff/diffpassed. 260priorlessonhashes/original7§1
-preserved;5PDFSHA/817pages auditpasses. ActualHTTP92correctanswers
-preserve260/5200→268/5360XP,+160once;complete replay
-identical. Comma/exponent variants equivalent. Privategradinghidden;
-grade7/8/9/10catalogs unchanged. 24sanitizedpublicfixtures only.
+## Exact commits
 
-Flutter609tests/520s;analysis0issues/141.0s.
-8scenarios320×568/200% pass/16s,32captures visually
-inspected:catalog/current source/feedback/feedbacksource scroll,Continuevisible,
-nooverflowexceptions. NativeAndroid/IME/TalkBack notcertified;copyspacingreview
-pending. Flutter0312ff3 pushed Chemistrybranch;backendcommit follows.
-Independent teacher review and detailed2026outcome equivalence remain pending;
-documented official2026 structuraldifferences do not change textbookorder.
-No rawPDF/OCR/fulltext/render/token/DBpush;Biology406/Physics/realuserdata/
-main/AI/production preserved. Future drafts not counted as completed.
+Lesson backend: `45693b00901300abe058729da662a0294e6a2fe1`.
+Flutter: `0312ff3108e96e1e3446bdc8c4dcb27fe7ecd37d`.
+Final documentation commit follows these checkpoints on the Chemistry branch.
 
-## Exact continuation
+## Completed
 
-Batch51backend commit follows;Flutter0312ff3. Baselinebackend235320b.
-Do not rerun indexed51author/install/HTTP/doc scripts. Synthetic268/5360XP.
-Ownpreview loopback8903;verify exact fullcommand beforestop/resume.
-All268 textbook teaching entries implemented. Run final wholecourse
-completeness,source/hash checks,real PostgreSQL staging and final regression
-report. Keep course_ready false while editorial scopes/teacher review remain.
-No production/main/AI operations. Final outcome documentation must distinguish
-source-backed local interactive completeness from independent teacher and2026
-outcome equivalence certification.
+Grades 7–11: 74 + 59 + 61 + 41 + 33 = 268/268 lessons; remaining entries: 0.
+Source SHA/page/render audit, 3,794 expected-answer checks, all-grade actual HTTP,
+fresh idempotent staging import, 1,908 backend tests, 3 real PostgreSQL scenarios,
+609 Flutter tests, analysis and 32 final visual captures completed.
+Synthetic local learner: 268 progress rows / 5,360 XP. Do not rerun indexed authors,
+installers or historical HTTP mutation scripts.
+
+## Remaining review gates
+
+220 source-specific editorial records, independent teacher review, copy editing,
+native Android / IME / TalkBack certification and full 2026 outcome equivalence remain
+open. Five course-ready flags remain false. These are release/review gates,
+not missing source-map lessons. See COMPLETION_REPORT.md and qa_final268.json.
+No production DB/deploy, main merge, AI feature or Biology/Physics branch write.
+Owned local preview uses loopback port 8903 and the ignored batch28-final-qa folder;
+verify the exact process command before stop/resume. Private PostgreSQL staging
+was used only on loopback port 15437 with fresh random schemas and was stopped
+after the successful final checks. Private data files were retained locally.

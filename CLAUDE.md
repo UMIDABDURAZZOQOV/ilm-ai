@@ -2812,3 +2812,11 @@ disable it or import uncertain keys. Grade9§40/186 Be/CaII and ClVIIA,
 outer3s2 3p5 correction is explicitly authorized and source-corroborated.
 See docs/chemistry/REVIEWED_ERRATA.md and REQUIREMENTS.md. Do not repeatedly ask
 for new PDFs for small errors; escalate only substantial unresolved conflicts.
+
+
+Chemistry grades 7–11 final local checkpoint: 268/268 lessons, 2,577 cards
+and 3,794 questions. Passed: 1,908 Chemistry tests, 3 real PostgreSQL scenarios
+and 609 Flutter tests. See docs/chemistry/COMPLETION_REPORT.md.
+All source-only, erratum, XP and progress restrictions persist. Independent
+teacher, editorial/native and full 2026 outcome certification remain pending.
+No production operation or main merge was performed.
