@@ -29,11 +29,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch11-paragraph13` | paragraph 13 | Eruvchanlik | 65–70 | 65:full – 70:full | 65 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph12 |
 | `ch11-paragraph14` | paragraph 14 | Eruvchanlik mavzusiga doir masalalar va ularning yechimi | 70–73 | 70:full – 73:full | 70 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph13 |
 | `ch11-paragraph15` | paragraph 15 | Eritma konsentratsiyasi va uni ifodalash usullari. Foiz konsentratsiya | 73–77 | 73:full – 77:full | 73 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph14 |
-| `ch11-paragraph16` | paragraph 16 | Foiz konsentratsiya mavzusiga doir masalalar va ularning yechimi | 77–84 | 77:full – 84:full | 77 | not_authored | ch11-paragraph15 |
-| `ch11-paragraph17` | paragraph 17 | Foiz konsentratsiya, eritma massasi, hajmi va zichligi orasidagi bog‘lanish | 84–85 | 84:full – 85:full | 84 | not_authored | ch11-paragraph16 |
-| `ch11-paragraph18` | paragraph 18 | Molyar konsentratsiya | 85–88 | 85:full – 88:full | 85 | not_authored | ch11-paragraph17 |
-| `ch11-paragraph19` | paragraph 19 | Normal konsentratsiya | 88–92 | 88:full – 92:full | 88 | not_authored | ch11-paragraph18 |
-| `ch11-paragraph20` | paragraph 20 | Foiz va molyar konsentratsiya o‘rtasidagi bog‘lanish | 92–94 | 92:full – 94:full | 92 | not_authored | ch11-paragraph19 |
+| `ch11-paragraph16` | paragraph 16 | Foiz konsentratsiya mavzusiga doir masalalar va ularning yechimi | 77–84 | 77:full – 84:full | 77 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph15 |
+| `ch11-paragraph17` | paragraph 17 | Foiz konsentratsiya, eritma massasi, hajmi va zichligi orasidagi bog‘lanish | 84–85 | 84:full – 85:full | 84 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph16 |
+| `ch11-paragraph18` | paragraph 18 | Molyar konsentratsiya | 85–88 | 85:full – 88:full | 85 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph17 |
+| `ch11-paragraph19` | paragraph 19 | Normal konsentratsiya | 88–92 | 88:full – 92:full | 88 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph18 |
+| `ch11-paragraph20` | paragraph 20 | Foiz va molyar konsentratsiya o‘rtasidagi bog‘lanish | 92–94 | 92:full – 94:full | 92 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph19 |
 | `ch11-paragraph21` | paragraph 21 | Foiz va normal konsentratsiya o‘rtasidagi bog‘lanish | 94–98 | 94:full – 98:full | 94 | not_authored | ch11-paragraph20 |
 | `ch11-chapter05` | chapter 5 | Reaksiya tezligi | 98–112 | 98:full – 112:full | 98 | not_authored | — |
 | `ch11-paragraph22` | paragraph 22 | Reaksiya tezligi haqida tushuncha | 98–104 | 98:full – 104:full | 98 | not_authored | ch11-paragraph21 |

@@ -235,6 +235,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch11-paragraph13': 'ch11-p13-solubility-saturation-phase-temperature-scope-review',
     'ch11-paragraph14': 'ch11-p14-solubility-givenmass-crystal-balance-scope-review',
     'ch11-paragraph15': 'ch11-p15-masspercentage-totalbasis-rounding-scope-review',
+    'ch11-paragraph16': 'ch11-p16-reaction-product-phase-percentage-scope-review',
+    'ch11-paragraph17': 'ch11-p17-density-total-solution-units-scope-review',
+    'ch11-paragraph18': 'ch11-p18-molarity-final-volume-rounding-scope-review',
+    'ch11-paragraph19': 'ch11-p19-normality-reaction-equivalent-unit-scope-review',
+    'ch11-paragraph20': 'ch11-p20-percent-molarity-identity-rounding-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1130,6 +1135,21 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch11-paragraph15' in topic_ids:
             require('Foiz konsentratsiyada maxraj faqat suv massasi'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'mass_percentage_requires_total_solution_mass')
+        if 'ch11-paragraph16' in topic_ids:
+            require('Cho‘kma har doim suyuq eritma massasiga kiradi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'reaction_separate_solid_not_solution_mass')
+        if 'ch11-paragraph17' in topic_ids:
+            require('Barcha suvli eritmalarning zichligi aynan 1 g/mL'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'solution_density_universal_water_value_withheld')
+        if 'ch11-paragraph18' in topic_ids:
+            require('Molyarlik maxraji har doim boshlang‘ich suv hajmi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'molarity_requires_final_solution_volume')
+        if 'ch11-paragraph19' in topic_ids:
+            require('Normal konsentratsiya har doim molyar konsentratsiyaga teng'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'normality_requires_reaction_factor')
+        if 'ch11-paragraph20' in topic_ids:
+            require('Molyar massa 56 bo‘lsa modda har doim KOH'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'molar_mass_not_unique_identity')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

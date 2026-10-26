@@ -20203,7 +20203,38 @@
             "record_id": "ch11-paragraph17",
             "printed_page": 84,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p16-reaction-product-phase-percentage-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                79,
+                82
+              ],
+              "pdf_pages": [
+                79,
+                82
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p16-reaction-product-phase-percentage-scope-review-page79",
+                  "printed_page": 79,
+                  "reason": "SIV hydration/speciation literal and9.4 rounding withheld; digital given-product cards only."
+                },
+                {
+                  "id": "ch11-p16-reaction-product-phase-percentage-scope-review-page82",
+                  "printed_page": 82,
+                  "reason": "Copied BaCl2 diagram for Na2SO4 and unspecified-excess single-product keys withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -20244,7 +20275,38 @@
             "record_id": "ch11-paragraph18",
             "printed_page": 85,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p17-density-total-solution-units-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                84,
+                85
+              ],
+              "pdf_pages": [
+                84,
+                85
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p17-density-total-solution-units-scope-review-page84",
+                  "printed_page": 84,
+                  "reason": "Density is specified model input,not universal1g/mL; total solution mass distinct from solute."
+                },
+                {
+                  "id": "ch11-p17-density-total-solution-units-scope-review-page85",
+                  "printed_page": 85,
+                  "reason": "g/mL and kg/L coherent units; no blind volume additivity or physical preparation."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -20285,7 +20347,38 @@
             "record_id": "ch11-paragraph19",
             "printed_page": 88,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p18-molarity-final-volume-rounding-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                87,
+                88
+              ],
+              "pdf_pages": [
+                87,
+                88
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p18-molarity-final-volume-rounding-scope-review-page87",
+                  "printed_page": 87,
+                  "reason": "336.5/1.12=300mL is rounded,not exact."
+                },
+                {
+                  "id": "ch11-p18-molarity-final-volume-rounding-scope-review-page88",
+                  "printed_page": 88,
+                  "reason": "NaCl mass / HCl identity mismatch withheld; final solution volume required."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -20326,7 +20419,46 @@
             "record_id": "ch11-paragraph20",
             "printed_page": 92,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p19-normality-reaction-equivalent-unit-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                88,
+                89,
+                90
+              ],
+              "pdf_pages": [
+                88,
+                89,
+                90
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p19-normality-reaction-equivalent-unit-scope-review-page88",
+                  "printed_page": 88,
+                  "reason": "Swapped equivalent mass/amount units withheld."
+                },
+                {
+                  "id": "ch11-p19-normality-reaction-equivalent-unit-scope-review-page89",
+                  "printed_page": 89,
+                  "reason": "neq has eq unit,E g/eq; full-neutralization factor specified."
+                },
+                {
+                  "id": "ch11-p19-normality-reaction-equivalent-unit-scope-review-page90",
+                  "printed_page": 90,
+                  "reason": "Unrelated5017.1/1.003expression and exact4000mL rounding withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -20367,7 +20499,38 @@
             "record_id": "ch11-paragraph21",
             "printed_page": 94,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p20-percent-molarity-identity-rounding-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                93,
+                94
+              ],
+              "pdf_pages": [
+                93,
+                94
+              ],
+              "regions": [
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed; finite source models,phase and coherent unit basis. Bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p20-percent-molarity-identity-rounding-scope-review-page93",
+                  "printed_page": 93,
+                  "reason": "HNO3 worked75percent conflicts with7.5 formula result; original94fivepercent model used."
+                },
+                {
+                  "id": "ch11-p20-percent-molarity-identity-rounding-scope-review-page94",
+                  "printed_page": 94,
+                  "reason": "M56 alone not unique substance identity; finite mass question only."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
