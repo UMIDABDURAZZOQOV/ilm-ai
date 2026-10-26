@@ -193,12 +193,18 @@ UNITS = {
     "°C": ("celsius_reading", Fraction(1)),
     "J/K": ("boltzmann_constant", Fraction(1)),
     "J/(mol*K)": ("gas_constant", Fraction(1)),
+    "J/(kg*K)": ("specific_heat", Fraction(1)),
+    "kJ/(kg*K)": ("specific_heat", Fraction(1000)),
     # Grade8 PDF150/152: magnetic induction (not temperature).
     "T": ("magnetic_induction", Fraction(1)),
     "mT": ("magnetic_induction", Fraction(1, 1000)),
     "µT": ("magnetic_induction", Fraction(1, 10**6)),
 }
 UNIT_ALIASES = {
+    "J/(kg·K)": "J/(kg*K)",
+    "J/(kg K)": "J/(kg*K)",
+    "J/(kg*°C)": "J/(kg*K)",
+    "J/(kg·°C)": "J/(kg*K)",
     "mol^-1": "1/mol",
     "mol⁻¹": "1/mol",
     "m^-3": "1/m3",

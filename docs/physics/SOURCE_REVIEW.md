@@ -161,3 +161,25 @@ Muhim yangi tafovutlar: PDF69 suzish/ko‘tarilish farqi; PDF94 g9,81
 berilib9,8 hisob ishlatilgani; PDF95 real/ideal FIK farqi. Ular
 xato javob kalitiga aylantirilmagan. §36 va keyingi281 bo‘lim
 hali authored tayyorlikka kiritilmagan.
+
+## 2026-10-26 — 9-sinf kalorimetriya erratumi (2-bosqich)
+
+Yuqoridagi0interaktivdars holati 1-bosqich tarixiy auditidir. Joriy kontent
+qamrovi `STAGE2_PROGRESS.md` va `GRADE9_STAGE2_PROGRESS.json`da.
+
+Original **9-sinf PDF/bosma64**, laboratoriya20ning8-bandi suratida
+`m_s*c_s - m_k*c_k` yozilgan. Original **PDF/bosma58**, formula6 esa issiqlik
+balansidan kelib chiqadigan to‘g‘ri **plus**ni ko‘rsatadi. Suv ham,kalorimetr
+ham Tc danTf gacha isiyapti;ikkalasining qabul qilgan energiyasi qo‘shiladi:
+
+`ch = (mw*cw + mc*cc)*(Tf-Tc)/(mh*(Th-Tf))`, `Tc<Tf<Th`.
+
+Ikkala original tasvir ko‘rildi. Hisobiy regressiya: suvning mc ko‘paytmasi
+210J/K,kalorimetrniki178J/K,Tf-Tc10K,mh0.2kg,Th-Tf50K. To‘g‘ri
+natija **388J/(kg*K)**;minus varianti **32J/(kg*K)** chiqardi. Validator va
+server testlari minus formulani ham,uning sonli javobini ham rad qiladi.
+Ikkala manba sahifasi dars20ga bog‘langan;PDF va frozen xarita o‘zgarmadi.
+
+Bu agent bajargan manba/energiya-balans tekshiruvidir;mustaqil kalorimetriya
+mutaxassisi tasdig‘i bajarildi deyilmaydi. General publication oldidan shu
+review talab qilinadi. Raqamli laboratoriya jismoniy tajriba tasdig‘i emas.

@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "batch": "grade9_batch4",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-9",
+  "batch_file_sha256": "7b642a29b4031894c81c7d850b45025c8c4c644fbd4feb1afce95a39ba11f360",
+  "review_method": "Original supplied PDF segments and every cited rendered page visually re-read; cached OCR checked as search text against original images, with native-text and OCR hashes explicitly separate. Original explanations and problems; explicit independent numerical oracles and semantic answer-label review. Recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 53,
+      "printed_page": 53,
+      "text_sha256": "2f48d03b5a6da4d3ca8cbc963d7bb2d02256e8bbe8c5ed06e76be6ede405b9fd",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 53,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 9,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "21690b8c5b7a15f318329b3577d3af7fce8313f42a988cca482e592e0eae74e0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": 54,
+      "text_sha256": "89b8ac9e6a7f821dd4cd9578e1beab53d56f783818e3159d418a8bd512d115ac",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 54,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 10,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "9b7de477ecfe91baa107dc60dfac2efa6345ae629ef34aa96167a9b38bb48d04",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 55,
+      "text_sha256": "d3c92455f6fe5935d8f552806fab8bb150cc499c0a86b0a12c01a8cf8ca356eb",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 55,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 11,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "af00913fd8eda63935865749fe3dcd82bb989623364e29ad56a467a13db8afba",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 56,
+      "printed_page": 56,
+      "text_sha256": "6284a9746111647fc5538894b00286e42b6e37751224e213ac852ce0c4d2558d",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 56,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 12,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "d6a5262975055adb640e883d68737afd578ae3484588488a09f8e97588beb458",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 57,
+      "text_sha256": "0a6b5dc2992dec976d7d64f102fe6368d4f331710f66e43020833d0ea90fa801",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 57,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 13,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "fc4552c62da95ca7d891c65d7b6ec1acd5688c55f76c26b5caf3aaf2110679e0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 58,
+      "printed_page": 58,
+      "text_sha256": "41ea225d4735f6049f6929f79f16b671b2851bf220535f465f77ffc83e9c0af0",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 58,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 14,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "2018ff1076363bef11ad74186a9d4373c92e31d21405ae0750967da48e9461df",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 59,
+      "printed_page": 59,
+      "text_sha256": "cbf38f086e1fad30b8cec3e576f3dab3f714df777dc5a73f4480895633953886",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 59,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 15,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "58ace06d88c87adaae6d4d0e9c41076842c2a66cb4527c02b21ed9affcc43210",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 60,
+      "printed_page": 60,
+      "text_sha256": "5fe1ac8289bcc334c99b24f2504b80f0a6267d3569cba7f1c35bed1aab5e7383",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 60,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 16,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "7cbac8d36adf21bbcb30407d1b250d8774f9ef5971248ff8a767e6015f9eb713",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 61,
+      "printed_page": 61,
+      "text_sha256": "628a0499e2b74eb0e62ac3acff2266bccb9bfc8dd88c4482e7060503062e55fb",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 61,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 17,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "11ec6b3e0b04c5dbb0c600e3b26448b7ac9971db75f99349b8528804520e9e17",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 62,
+      "text_sha256": "84791ce2dcb13cdf58c5ea47c48b608121328374ebd1419ff7b62495067a4678",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 62,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 18,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "0dac9a55b6b5f7a840f1ec42e9132bae041f743dfdc8d5bdce1a0ef12bc50810",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": 63,
+      "text_sha256": "70cd0bce2b0feab4092385777909c57101946dc3b8cfb85a95ed69492e201566",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 63,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 19,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "6e337d8cf3ff0e8a119822a5673a51d3cd89ddfef38c6bd1c5f31beb4a5f38fd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 64,
+      "text_sha256": "bcead6d04fd3aad8852c1386e44b5443688fdf8a7bdbcd6f1c86547f9237e1fd",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 64,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 20,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "a3a60ad4f4379a4654bdeff6e1581a43fe58a28c57bcc6d5a122affa6f142544",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 65,
+      "printed_page": 65,
+      "text_sha256": "b775edcd75c342cbafe422ba4dc2e2e2c02e6ccdfd02226619e56438061a4aee",
+      "text_origin": "cached_ocr_checked_against_original_image",
+      "digital_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+      "source_segment": {
+        "pdf_page": 65,
+        "segment_file_name": "fizika_9_uzb_qism_2_pdf_45-88.pdf",
+        "segment_local_pdf_page": 21,
+        "segment_sha256": "0e69eeee466b60f2fdfc44f30c1582e13d5285dae546253656efc4a0e16a80fe"
+      },
+      "reviewed_render_sha256": "cc1b6d98c445aeb8477bbc5a516e6a5881df5df4788c752b67522962ebb1e9b7",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        53,
+        54,
+        55
+      ],
+      "decision": "Original A=p(V2-V1),A=nuR(T2-T1),A=mRDT/M and p–V areas verified. WorkBYgas signed;compressionnegative,workONgasopposite. Constant-p only,not replacing variable-p curve by rectangle. SignedDV not negative absolutevolume. Source55m16600*.032/(8.31*64)~.9987966kg≈1kg,rounded textbook result not exact1 at given constants."
+    },
+    {
+      "pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "decision": "Q is transferredenergy,not storedheatstateproperty. Q=mcDT signedTOBODY,cconstant andNOphasechange. Specific cJ/(kg*K),not Boltzmannk sameJ/K. Sourcecalorie4.19J and .24cal/J approximations not used as exact reciprocal universalregistry. Source57individualinternalU changes,systemTOTAL conserved only externalheat/worknegligible;closedmatteralone not enough. Original58 correctPLUS (mw*cw+mc*cc) independently read,heatbalance positive coldterms."
+    },
+    {
+      "pages": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "decision": "Source59mgh=>heating onlyif lostmechanicalenergyfully dissipated into SAMEwater;not automaticwarmingduringfreeflight. 9.81*210/4200=.4905K source. Source60DUendpointpathindependence vsworkpathdependence;3/2onlyMONATOMIC classicalideal. Source61equal-c/density additivewater-volumeapprox and stoppedbodykineticenergy fractions scoped;no physicalimpact/weaponexperimentassigned. Original61coldvolume85*(100-40)/(100-15)=60L,hot25L;impact.4*800^2/(2*460)≈278.2609K checked,notexact278."
+    },
+    {
+      "pages": [
+        56,
+        58,
+        63,
+        64
+      ],
+      "decision": "Practical19 providedconditionaldigitaltable,not realmeasurements. Cold.2kg303→309→313K,hot.1kg333→321→313K conserve same-c weightedenergy. Integer-K display means modelreadings,not infinitelyprecise equilibrationtime. No hotwater/polyethylenebag experimentassigned. Formula/constant links to17PDF56/58 retain samebatchcitationguard;source64nextlabnot used as19facts."
+    },
+    {
+      "pages": [
+        56,
+        58,
+        64,
+        65
+      ],
+      "decision": "PUBLISHED ERRATUM:original64lab c numerator(m_s*c_s−m_k*c_k) contradicts positiveheatbalance and original58correctplus. Use (mw*cw+mc*cc)*(Tf-Tc)/(mh*(Th-Tf)). Water AND calorimeterreceiveheat;exactregressioncase capacities210+178=388J/K yieldsch388J/(kg*K),wrongminuswould32. Both original pages cited. Tc<Tf<Th,masses/cpositive,NOphasechange/externalheat. Threeconditional c estimates mean389,not actualexperiment/materialidentity. Independentcalorimetryexpert required before generalpublication,notperformed."
+    },
+    {
+      "pages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "decision": "All13originalPDF/printedimages,part2local9–21/native/OCR/hashbindings checked before content freeze. Originalshortexplanations/examples/data and independentliteraloracles;frozenBiology/6–8/old9/website/Chemistry/production/AIExplain unchanged. Nextfuel21on65notcountedashereauthored. Private helper records performed review,not automatic scientific certification."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 16,
+      "topic_id": "physics-9-section-16",
+      "pdf_pages": [
+        53,
+        54,
+        55
+      ],
+      "printed_pages": [
+        53,
+        54,
+        55
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 5
+    },
+    {
+      "sequence": 17,
+      "topic_id": "physics-9-section-17",
+      "pdf_pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "printed_pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "cards": 6,
+      "formula_rules": 5,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 5
+    },
+    {
+      "sequence": 18,
+      "topic_id": "physics-9-section-18",
+      "pdf_pages": [
+        56,
+        60,
+        61,
+        62,
+        63
+      ],
+      "printed_pages": [
+        56,
+        60,
+        61,
+        62,
+        63
+      ],
+      "cards": 4,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 4
+    },
+    {
+      "sequence": 19,
+      "topic_id": "physics-9-section-19",
+      "pdf_pages": [
+        56,
+        58,
+        63,
+        64
+      ],
+      "printed_pages": [
+        56,
+        58,
+        63,
+        64
+      ],
+      "cards": 4,
+      "formula_rules": 2,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 20,
+      "topic_id": "physics-9-section-20",
+      "pdf_pages": [
+        56,
+        58,
+        64,
+        65
+      ],
+      "printed_pages": [
+        56,
+        58,
+        64,
+        65
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    }
+  ],
+  "source_kind": "ordered_pdf_segments",
+  "book_source_set_sha256": "5e6e62f4d483be9dab7a02d530095b1d6ce491e6a2423ebda9d685b0c4606176"
+}

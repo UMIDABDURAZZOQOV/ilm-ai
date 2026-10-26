@@ -24,6 +24,96 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "isobaric_gas_work": rule(
+        "A",
+        ["p", "V2", "V1"],
+        ["p*(V2-V1)", "(V2-V1)*p"],
+        "ISOBARIC pconstABSOLUTE,gas-BYworkA SIGNED,Vi>0;9PDF53–54.",
+    ),
+    "isobaric_amount_work": rule(
+        "A",
+        ["nu", "R", "T2", "T1"],
+        ["nu*R*(T2-T1)", "R*nu*(T2-T1)"],
+        "ISOBARIC SAMEamount/compositionIDEALgas,R8.31,TiKelvin>0,gas-BYwork SIGNED;9PDF54.",
+    ),
+    "isobaric_heated_mass": rule(
+        "m",
+        ["A", "M", "R", "DT"],
+        ["A*M/(R*DT)", "M*A/R/DT"],
+        "ISOBARIC HEATING idealgas,A>0,DT>0,Mmolar,R8.31;9PDF55.",
+    ),
+    "isobaric_signed_volume_change": rule(
+        "DV",
+        ["A", "p"],
+        ["A/p", "A*p^-1"],
+        "ISOBARIC pABSOLUTE>0,gas-BYworkA SIGNED,DV=V2-V1SIGNED not negativeabsolutevolume;9PDF53/55.",
+    ),
+    "sensible_heat": rule(
+        "Q",
+        ["m", "c", "T2", "T1"],
+        ["m*c*(T2-T1)", "c*m*(T2-T1)"],
+        "m/c>0,cCONSTANT,NOphasechange,TpositiveKelvin,QheatTOBODY SIGNED;9PDF56.",
+    ),
+    "specific_heat_from_change": rule(
+        "c",
+        ["Q", "m", "T2", "T1"],
+        ["Q/(m*(T2-T1))", "Q/m/(T2-T1)"],
+        "NOphasechange,nonzeroDT,Q SAMEsignDT,c>0;Q signedTOBODY;9PDF56.",
+    ),
+    "water_mix_temperature": rule(
+        "Tf",
+        ["mh", "Th", "mc", "Tc"],
+        ["(mh*Th+mc*Tc)/(mh+mc)", "(Th*mh+Tc*mc)/(mc+mh)"],
+        "TWOWATERSAMEconstantc,NOphasechange,positiveKelvinTh>Tc,m>0,negligiblevessel/externalheat/work;9PDF57–58.",
+    ),
+    "calorimeter_specific_heat": rule(
+        "ch",
+        ["mw", "cw", "mc", "cc", "Tf", "Tc", "mh", "Th"],
+        ["(mw*cw+mc*cc)*(Tf-Tc)/(mh*(Th-Tf))", "(mc*cc+mw*cw)*(Tf-Tc)/mh/(Th-Tf)"],
+        "COLDWATER+CALORIMETER BOTHreceiveheat =>PLUS;mh/mw/c>0,mc>=0,Tc<Tf<Th,noexternalheat/work,NOphasechange;9PDF58,CORRECTSPDF64MINUSerratum.",
+    ),
+    "fall_temperature_rise": rule(
+        "D",
+        ["g", "h", "c"],
+        ["g*h/c", "h*g/c"],
+        "LOSTmghALLconvertedINTOsamebodyinternalenergy,cconstNOphasechange,g9.81sourceapprox;not automaticwarmingduringfreeflight;9PDF59.",
+    ),
+    "mono_state_delta": rule(
+        "DU",
+        ["p2", "V2", "p1", "V1"],
+        ["3*(p2*V2-p1*V1)/2", "(p2*V2-p1*V1)*3/2"],
+        "ONLYMONATOMICCLASSICALIDEALgas SAMEamount,ABSOLUTEpressures,DU=U2-U1SIGNED;9PDF60.",
+    ),
+    "isobaric_work_initial_state": rule(
+        "A",
+        ["p", "V1", "T2", "T1"],
+        ["p*V1*(T2/T1-1)", "V1*p*(T2/T1-1)"],
+        "ISOBARIC SAMEideal gasamount/composition,pABSOLUTE,TiKelvin>0,gas-BYworkSIGNED;9PDF60.",
+    ),
+    "water_cold_volume": rule(
+        "Vcold",
+        ["Vtotal", "Th", "Tf", "Tc"],
+        ["Vtotal*(Th-Tf)/(Th-Tc)", "(Th-Tf)*Vtotal/(Th-Tc)"],
+        "TWOWATERSAMEconstantc/density,additivevolumes,Tc<Tf<Th,noexternal/vesselheat,NOphasechange;9PDF61.",
+    ),
+    "stopped_body_temperature": rule(
+        "D",
+        ["eta", "v", "c"],
+        ["(1-eta)*v^2/(2*c)", "v^2*(1-eta)/2/c"],
+        "STOPPEDBODY,noresidualkineticenergy,eta0..1 ENVIRONMENTshare,1-etatobody,cconstNOphasechange;NOexperiment;9PDF61.",
+    ),
+    "mean_specific_heat3": rule(
+        "cmean",
+        ["c1", "c2", "c3"],
+        ["(c1+c2+c3)/3", "(c3+c1+c2)/3"],
+        "ThreeprovidedconditionalSAME-MATERIALspecificheatestimates,positive,cmeanarithmeticmean,NOTrealexperimentclaim;9PDF64.",
+    ),
+    "calorimeter_received_heat": rule(
+        "Q",
+        ["mw", "cw", "mc", "cc", "Tf", "Tc"],
+        ["(mw*cw+mc*cc)*(Tf-Tc)", "(mc*cc+mw*cw)*(Tf-Tc)"],
+        "WATER+CALORIMETER BOTHreceiveheatPLUS,mw>0,mc>=0,positivec,Tf>TcKelvin,NOphasechange;9PDF58/64.",
+    ),
     "isobaric_volume": rule(
         "V2",
         ["V1", "T2", "T1"],
@@ -1768,6 +1858,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "specific_heat": "J/(kg*K)",
     "temperature": "K",
     "gas_constant": "J/(mol*K)",
     "amount": "mol",
@@ -2154,6 +2245,84 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "isobaric_gas_work":
+        return positive("p", "pressure") * (
+            positive("V2", "volume") - positive("V1", "volume")
+        ), "energy"
+    if name == "isobaric_amount_work":
+        return positive("nu", "amount") * gas_constant() * (
+            positive("T2", "temperature") - positive("T1", "temperature")
+        ), "energy"
+    if name == "isobaric_heated_mass":
+        return positive("A", "energy") * positive("M", "molar_mass") / (
+            gas_constant() * positive("DT", "temperature")
+        ), "mass"
+    if name == "isobaric_signed_volume_change":
+        return projection("A", "energy") / positive("p", "pressure"), "volume"
+    if name == "sensible_heat":
+        return positive("m", "mass") * positive("c", "specific_heat") * (
+            positive("T2", "temperature") - positive("T1", "temperature")
+        ), "energy"
+    if name == "specific_heat_from_change":
+        delta = positive("T2", "temperature") - positive("T1", "temperature")
+        heat = projection("Q", "energy")
+        if delta == 0 or heat * delta <= 0:
+            raise ValueError("heat_and_temperature_change_same_nonzero_sign")
+        return heat / (positive("m", "mass") * delta), "specific_heat"
+    if name == "water_mix_temperature":
+        mh, mc = positive("mh", "mass"), positive("mc", "mass")
+        hot, cold = positive("Th", "temperature"), positive("Tc", "temperature")
+        if hot <= cold:
+            raise ValueError("hot_temperature_exceeds_cold")
+        return (mh * hot + mc * cold) / (mh + mc), "temperature"
+    if name in {"calorimeter_specific_heat", "calorimeter_received_heat"}:
+        cold, final = positive("Tc", "temperature"), positive("Tf", "temperature")
+        if final <= cold:
+            raise ValueError("cold_components_must_receive_heat")
+        capacity = positive("mw", "mass") * positive("cw", "specific_heat") + value(
+            "mc", "mass"
+        ) * positive("cc", "specific_heat")
+        heat = capacity * (final - cold)
+        if name == "calorimeter_received_heat":
+            return heat, "energy"
+        hot = positive("Th", "temperature")
+        if hot <= final:
+            raise ValueError("hot_body_must_cool")
+        return heat / (positive("mh", "mass") * (hot - final)), "specific_heat"
+    if name == "fall_temperature_rise":
+        g = positive("g", "force_per_mass")
+        if g != Fraction("9.81"):
+            raise ValueError("explicit_source_gravity_9_81")
+        return g * value("h", "length") / positive("c", "specific_heat"), "temperature"
+    if name == "mono_state_delta":
+        return 3 * (
+            positive("p2", "pressure") * positive("V2", "volume")
+            - positive("p1", "pressure") * positive("V1", "volume")
+        ) / 2, "energy"
+    if name == "isobaric_work_initial_state":
+        return positive("p", "pressure") * positive("V1", "volume") * (
+            positive("T2", "temperature") / positive("T1", "temperature") - 1
+        ), "energy"
+    if name == "water_cold_volume":
+        hot, final, cold = (
+            positive("Th", "temperature"),
+            positive("Tf", "temperature"),
+            positive("Tc", "temperature"),
+        )
+        if not cold < final < hot:
+            raise ValueError("mixture_temperature_between_inputs")
+        return positive("Vtotal", "volume") * (hot - final) / (hot - cold), "volume"
+    if name == "stopped_body_temperature":
+        eta = value("eta", "dimensionless")
+        if eta > 1:
+            raise ValueError("energy_fraction_zero_to_one")
+        return (1 - eta) * value("v", "speed") ** 2 / (
+            2 * positive("c", "specific_heat")
+        ), "temperature"
+    if name == "mean_specific_heat3":
+        return sum(
+            (positive(k, "specific_heat") for k in ("c1", "c2", "c3")), Fraction()
+        ) / 3, "specific_heat"
     if name == "isobaric_volume":
         return positive("V1", "volume") * positive("T2", "temperature") / positive(
             "T1", "temperature"
