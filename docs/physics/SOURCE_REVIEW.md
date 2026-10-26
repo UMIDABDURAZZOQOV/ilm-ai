@@ -373,3 +373,42 @@ modullari uchun;arbitrarysignedradius/shaklga qo‘llanmaydi. Konveksning yig‘
 bo‘lishi tashqi muhit shartiga bog‘liq. Quyosh kuydirish,kuchli nur,shisha/igna
 qurilmasi yoki tibbiy amal topshirig‘i yo‘q. Noexpert/nativeAndroid/generalrelease
 claim;Biology,website,Chemistry,productionvaAIExplain o‘zgarmadi.
+
+## 9-sinf §51–55 — signed tasvir, asboblar va ko‘z (2026-10-26)
+
+PDF/bosma146–156 asl tasvirlari/OCR to‘liq ko‘rildi. Bir xil signed konvensiya:
+haqiqiy buyumd>0,yig‘uvchiF>0,sochuvchiF<0,haqiqiyf>0,mavhumf<0;
+1/F=1/d+1/f.147-sahifadagi signedF/fmanfiy degan matndan so‘ng -1/F=1/d-1/f
+formulasi berilishi modullar bilan ishlaganda mos,allaqachon signed sonlarga
+esa ikki marta minus qiladi. Yangi dars izchil signed tenglamadan foydalanadi.
+O‘lcham nisbati K=|f|/d,musbat fMagberilgan;tasvir orientatsiyasi alohida.
+d=Fuchun chekli fyo‘q. Ideal uzoq obyekt nuqtasimon tasviri barcha keng
+obyekt tasviri nuqta bo‘ladi degan universal da’vo qilinmaydi.
+
+149-dagi kattalashtirish masalasida haqiqiy/mavhum turi berilmasa,ikkita shox
+bo‘lishi mumkin:haqiqiy d=F*(1+1/K),mavhum d=F*(1-1/K). Yangi savollar
+shoxni aniq aytadi. F=.4/K4uchun .5mva.3m alohida mustaqil testlar bilan.
+53-lab shartli haqiqiy ekran:positive d/f.150dagi tartib Fbaholari→meanF→1/meanF;
+mean(1/F)bilan almashtirilmaydi. .15/.20/.25m→meanF.20/D5,individual Dlar
+mean47/9;bu farq regressionda tekshiriladi. Real lampa/linza/ekran amali yo‘q.
+
+151-dagi K=D0/Fko‘z bo‘shashgan/uzoq yakuniy tasvir yoki maktab yaqinlashuv
+modeli sifatida cheklangan;rasm/textyaqin nuqta holati uchun universal aniq
+formula deb olinmadi. D0=.25mshartli tayanch,har bir odamning o‘lchangan yaqin
+nuqtasi emas.153matnida obyektiv/okulyar nomlari152dagi84-rasm vazifalariga
+nisbatan almashgan. Yangi dars buyum yaqinidagi obyektiv oraliq haqiqiy tasvir
+hosil qilishi,ko‘z yaqinidagi okulyar lupa vazifasini ajratadi. K=lD0/(F1F2)
+katta ajralishdagi maktab yaqinlashuvi,har qanday haqiqiy mikroskopning aniq
+kattalashtirishi yoki resolution kafolati emas. Megapiksel katta bo‘lsa sifat
+har doim yaxshi va optik mikroskop100000marta universal degan jumlalar
+ko‘chirilmadi. Qo‘shimcha kitobdan tashqari formula talab qilinmadi.
+
+55faqat konseptual sxema:to‘r pardadagi haqiqiy/inverted/kichik tasvir,
+akkomodatsiya,ko‘z qismlari,binokulyar chuqurlik va oldin/ortda fokusning
+kitobdagi minus/plus tuzatish chizmasi. n=1.5inson gavhari universal constanta,
+to‘r parda oddiy sariq qoplama yoki ikki ko‘z tasvirlari aynan bir xil degan
+soddalashtirishlar tekshirilgan miqdoriy fakt qilinmadi.15–20cmbarcha odamga
+diagnostik chegara emas. Katta yoshdagi barcha o‘qish qiyinchiligini bir holatga
+tenglash yo‘q;tasvirlangan sxema shaxsga tashxis/ko‘zoynak retsepti emas.
+Mustaqil oftalmologik/pedagogik review bajarildi deyilmaydi. Biology406,oldingi
+curriculum/progress,Flutterbrand,website,Chemistry,production,AIExplain saqlandi.

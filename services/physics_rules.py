@@ -24,6 +24,78 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "thin_lens_signed_image": rule(
+        "f",
+        ["F", "d"],
+        ["F*d/(d-F)", "d*F/(d-F)"],
+        "THINparaxiallens,REALobjectd>0,FnonzeroSIGNED,fSIGNED,oneconsistent1/F=1/d+1/f,d!=F,no finitefocusatfInfinity;9PDF146–149.",
+    ),
+    "lens_magnification_magnitude": rule(
+        "K",
+        ["fMag", "d"],
+        ["fMag/d", "fMag*d^-1"],
+        "KphysicalSIZEratioPOSITIVE,fMag=|signedf|PROVIDED,dREALobjectpositive;notorientationmagnification;9PDF147.",
+    ),
+    "thin_lens_signed_focal": rule(
+        "F",
+        ["d", "f"],
+        ["d*f/(d+f)", "f*d/(d+f)"],
+        "THINparaxial,REALobjectd>0,fSIGNEDnonzero,d+fnonzero,uniform1/F=1/d+1/f;9PDF148–149.",
+    ),
+    "thin_lens_signed_power_distances": rule(
+        "D",
+        ["d", "f"],
+        ["1/d+1/f", "(d+f)/(d*f)"],
+        "THINparaxialREALobjectd>0,fSIGNED,finiteNONZEROpower,notmixedsignedandmodulusminus;9PDF149.",
+    ),
+    "converging_object_real_magnification": rule(
+        "d",
+        ["F", "K"],
+        ["F*(1+1/K)", "F+F/K"],
+        "CONVERGINGF>0REALimageandKPOSITIVEsize ratio>0,d>F,notvirtualbranch;9PDF148–149.",
+    ),
+    "converging_object_virtual_magnification": rule(
+        "d",
+        ["F", "K"],
+        ["F*(1-1/K)", "F-F/K"],
+        "CONVERGINGF>0VIRTUALuprightimage,KPOSITIVEsize ratio>1,0<d<F,explicitbranch;9PDF149M27ambiguityresolvedbyquestion.",
+    ),
+    "screen_lens_focal": rule(
+        "F",
+        ["d", "f"],
+        ["d*f/(d+f)", "f*d/(d+f)"],
+        "DIGITALREALSCREENimage,d/fPOSITIVE,convergingthinmodel,notvirtualnegativef;9PDF150.",
+    ),
+    "mean_focal3": rule(
+        "FMean",
+        ["F1", "F2", "F3"],
+        ["(F1+F2+F3)/3", "(F3+F1+F2)/3"],
+        "ThreePOSITIVEconditionalconverging-lens estimates,SAMEconditions,notphysicalmeasurementclaim;9PDF150.",
+    ),
+    "power_from_three_mean_focal": rule(
+        "D",
+        ["F1", "F2", "F3"],
+        ["3/(F1+F2+F3)", "((F1+F2+F3)/3)^-1"],
+        "Source150procedureINVERSEofMEANfocal,NOTmeanofindividualpowers,positiveF estimates;9PDF150.",
+    ),
+    "magnifier_reference_power": rule(
+        "K",
+        ["D0", "F"],
+        ["D0/F", "D0*F^-1"],
+        "CONVENTIONALD0=.25m,relaxedeye/schoolangularmagnificationmodel,notallfinalimage/accommodationconfigs;9PDF151.",
+    ),
+    "magnifier_reference_focal": rule(
+        "F",
+        ["D0", "K"],
+        ["D0/K", "D0*K^-1"],
+        "CONVENTIONALD0=.25m,relaxedeye/schoolmagnifiermodel,Kpositive,notuniversalindividualnearpoint;9PDF153.",
+    ),
+    "microscope_school_magnification": rule(
+        "K",
+        ["l", "D0", "F1", "F2"],
+        ["l*D0/(F1*F2)", "D0*l/F1/F2"],
+        "SCHOOLAPPROXIMATIONsource153,tubelargevsfoci,lstatedeffective/separationmodel,D0=.25m,Fpositive,notexactanyrealmicroscoperesolution;9PDF153.",
+    ),
     "index_equal_time_paths": rule(
         "n2",
         ["n1", "s1", "s2"],
@@ -2805,6 +2877,57 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "thin_lens_signed_image":
+        focal, d = projection("F", "length"), positive("d", "length")
+        if not focal or d == focal:
+            raise ValueError("no_finite_lens_image_for_these_givens")
+        return focal * d / (d - focal), "length"
+    if name == "lens_magnification_magnitude":
+        return positive("fMag", "length") / positive("d", "length"), "dimensionless"
+    if name in {"thin_lens_signed_focal", "thin_lens_signed_power_distances"}:
+        d, f = positive("d", "length"), projection("f", "length")
+        if not f or d + f == 0:
+            raise ValueError("finite_nonzero_lens_parameters_required")
+        return (
+            (d * f / (d + f), "length")
+            if name == "thin_lens_signed_focal"
+            else ((d + f) / (d * f), "optical_power")
+        )
+    if name in {
+        "converging_object_real_magnification",
+        "converging_object_virtual_magnification",
+    }:
+        focal, k = positive("F", "length"), positive("K", "dimensionless")
+        if name == "converging_object_virtual_magnification":
+            if k <= 1:
+                raise ValueError("converging_virtual_image_requires_K_greater_than_one")
+            return focal * (1 - 1 / k), "length"
+        return focal * (1 + 1 / k), "length"
+    if name == "screen_lens_focal":
+        d, f = positive("d", "length"), positive("f", "length")
+        return d * f / (d + f), "length"
+    if name in {"mean_focal3", "power_from_three_mean_focal"}:
+        total = sum(positive(x, "length") for x in ("F1", "F2", "F3"))
+        return (
+            (total / 3, "length")
+            if name == "mean_focal3"
+            else (3 / total, "optical_power")
+        )
+    if name in {
+        "magnifier_reference_power",
+        "magnifier_reference_focal",
+        "microscope_school_magnification",
+    }:
+        reference = positive("D0", "length")
+        if reference != Fraction(1, 4):
+            raise ValueError("source_near_reference_is_25cm")
+        if name == "magnifier_reference_power":
+            return reference / positive("F", "length"), "dimensionless"
+        if name == "magnifier_reference_focal":
+            return reference / positive("K", "dimensionless"), "length"
+        return positive("l", "length") * reference / (
+            positive("F1", "length") * positive("F2", "length")
+        ), "dimensionless"
     if name == "index_equal_time_paths":
         n1 = positive("n1", "dimensionless")
         n2 = n1 * positive("s1", "length") / positive("s2", "length")
