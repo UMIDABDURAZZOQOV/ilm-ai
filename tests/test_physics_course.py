@@ -773,6 +773,24 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (9, 46, 5): ("1.8", "1", "s1*n1/s2"),
+        (9, 46, 6): ("360000000", "km/h", "sinb*c/n1/sina"),
+        (9, 46, 7): ("40", "deg", "0.5*theta"),
+        (9, 46, 8): ("50", "cm", "d*2"),
+        (9, 47, 5): ("0.5", "1", "n2*n1^-1"),
+        (9, 48, 7): ("1.667", "1", "n2*sinCrit^-1"),
+        (9, 48, 8): ("648000000", "km/h", "sinCrit*c/n2"),
+        (9, 49, 5): ("1.5", "1", "sinExit*sinA^-1"),
+        (9, 49, 6): ("1.5", "1", "(nB+nA)/2"),
+        (9, 50, 5): ("-5", "1/m", "F^-1"),
+        (9, 50, 6): ("40", "cm", "D^-1"),
+        (9, 50, 7): ("16", "cm", "R1*R2/((n-1)*(R1+R2))"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -789,11 +807,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        212,
-        104,
+        217,
+        99,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 45, 0, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 50, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -803,7 +821,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 39
+    assert len(load_course()) == 40
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1000,7 +1018,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 2120
+        assert db.get(User, 1).xp_total == 2170
 
 
 @pytest.mark.parametrize(

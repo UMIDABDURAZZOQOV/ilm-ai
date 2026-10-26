@@ -24,6 +24,78 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "index_equal_time_paths": rule(
+        "n2",
+        ["n1", "s1", "s2"],
+        ["n1*s1/s2", "s1*n1/s2"],
+        "SAMEtime/samefrequencyordinarymedia,n1>=1,positivepaths,n2>=1;9PDF138.",
+    ),
+    "medium_speed_sine_data": rule(
+        "v2",
+        ["c", "sinb", "n1", "sina"],
+        ["c*sinb/(n1*sina)", "sinb*c/n1/sina"],
+        "PROVIDEDsinesnotangles,ordinaryn1>=1,transmittedray,n2>=1,0<sines<=1;9PDF139.",
+    ),
+    "half_reflection_angle": rule(
+        "alpha",
+        ["theta"],
+        ["theta/2", "0.5*theta"],
+        "DEGREES0<=theta<=180,thetaINTERIORgeometricanglebetweenincident/reflectedraysegmentsaroundnormal,notvelocityvectorangle;9PDF139.",
+    ),
+    "plane_mirror_separation": rule(
+        "s",
+        ["d"],
+        ["2*d", "d*2"],
+        "REALobjectdistanced>=0toFLATmirror,virtualimageequaldistancebehind,totalobjectimageseparation2d;9PDF139M25.",
+    ),
+    "critical_angle_sine": rule(
+        "sinCrit",
+        ["n2", "n1"],
+        ["n2/n1", "n2*n1^-1"],
+        "ORDINARYn1>n2>=1,criticalangleborderBETAninetydeg,notstrictTIRatborder,FRQasksSINnotangle;9PDF140.",
+    ),
+    "index_from_critical_sine": rule(
+        "n1",
+        ["n2", "sinCrit"],
+        ["n2/sinCrit", "n2*sinCrit^-1"],
+        "ORDINARYn2>=1,0<sinCrit<1,n1>n2,ACTUALcriticalnotjustTIRobserved;9PDF142.",
+    ),
+    "speed_from_critical_sine": rule(
+        "v1",
+        ["c", "sinCrit", "n2"],
+        ["c*sinCrit/n2", "sinCrit*c/n2"],
+        "ORDINARYn2>=1,0<sinCrit<1,cgiven,actualCRITICALsinnotarbitraryincident;9PDF142.",
+    ),
+    "prism_index_sine_data": rule(
+        "n",
+        ["sinExit", "sinA"],
+        ["sinExit/sinA", "sinExit*sinA^-1"],
+        "DIGITALspecifiednormalFIRSTfaceentry/exittoair,nAir1approx,sinExit=sin(A+gamma),sinA>0<=sinExit<=1,noarbitraryprismformula;9PDF143.",
+    ),
+    "mean_refractive_index2": rule(
+        "nMean",
+        ["nA", "nB"],
+        ["(nA+nB)/2", "(nB+nA)/2"],
+        "TwoPROVIDEDconditionalestimates SAMEordinarymaterial/wavelength/conditions,n>=1,notactualmeasurementclaim;9PDF143norttable.",
+    ),
+    "lens_signed_power": rule(
+        "D",
+        ["F"],
+        ["1/F", "F^-1"],
+        "THINparaxiallensSAMEexternalmedium,FnonzeroSIGNEDlength,DdptrSIGNED,negativeDdiverging;9PDF145.",
+    ),
+    "lens_signed_focal_length": rule(
+        "F",
+        ["D"],
+        ["1/D", "D^-1"],
+        "THINparaxiallensSAMEexternalmedium,DnonzeroSIGNEDopticalpower,FmSIGNED;9PDF145.",
+    ),
+    "biconvex_air_focal_length": rule(
+        "F",
+        ["n", "R1", "R2"],
+        ["1/((n-1)*(1/R1+1/R2))", "R1*R2/((n-1)*(R1+R2))"],
+        "ONLYTHINBICONVEXairnAir1/paraxial,n>1,R1/R2POSITIVEmagnitudes,notgeneralsignedlensmakeranyshape;9PDF145.",
+    ),
     "humidity_pressure_from_fraction": rule(
         "p",
         ["phi", "pSat"],
@@ -2733,6 +2805,68 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "index_equal_time_paths":
+        n1 = positive("n1", "dimensionless")
+        n2 = n1 * positive("s1", "length") / positive("s2", "length")
+        if min(n1, n2) < 1:
+            raise ValueError("ordinary_index_at_least_one")
+        return n2, "dimensionless"
+    if name == "medium_speed_sine_data":
+        incident, refracted = (
+            positive("sina", "dimensionless"),
+            positive("sinb", "dimensionless"),
+        )
+        n1 = positive("n1", "dimensionless")
+        if max(incident, refracted) > 1 or n1 < 1 or n1 * incident / refracted < 1:
+            raise ValueError("ordinary_index_or_sine_domain")
+        return positive("c", "speed") * refracted / (n1 * incident), "speed"
+    if name == "half_reflection_angle":
+        theta = value("theta", "angle_degrees")
+        if theta > 180:
+            raise ValueError("interior_ray_angle_zero_to_180")
+        return theta / 2, "angle_degrees"
+    if name == "plane_mirror_separation":
+        return 2 * value("d", "length"), "length"
+    if name == "critical_angle_sine":
+        inner, outer = positive("n1", "dimensionless"), positive("n2", "dimensionless")
+        if inner <= outer or outer < 1:
+            raise ValueError("critical_requires_higher_to_lower_index")
+        return outer / inner, "dimensionless"
+    if name in {"index_from_critical_sine", "speed_from_critical_sine"}:
+        sine = positive("sinCrit", "dimensionless")
+        outer = positive("n2", "dimensionless")
+        if sine >= 1 or outer < 1:
+            raise ValueError("critical_sine_open_interval")
+        if name == "index_from_critical_sine":
+            return outer / sine, "dimensionless"
+        return positive("c", "speed") * sine / outer, "speed"
+    if name == "prism_index_sine_data":
+        incident, exiting = (
+            positive("sinA", "dimensionless"),
+            positive("sinExit", "dimensionless"),
+        )
+        if incident > exiting or exiting > 1:
+            raise ValueError("specified_glass_air_prism_sine_domain")
+        return exiting / incident, "dimensionless"
+    if name == "mean_refractive_index2":
+        a, b = positive("nA", "dimensionless"), positive("nB", "dimensionless")
+        if min(a, b) < 1:
+            raise ValueError("ordinary_index_at_least_one")
+        return (a + b) / 2, "dimensionless"
+    if name in {"lens_signed_power", "lens_signed_focal_length"}:
+        optical = name == "lens_signed_power"
+        given = projection(
+            "F" if optical else "D", "length" if optical else "optical_power"
+        )
+        if not given:
+            raise ValueError("finite_nonzero_lens_parameter_required")
+        return 1 / given, "optical_power" if optical else "length"
+    if name == "biconvex_air_focal_length":
+        n = positive("n", "dimensionless")
+        if n <= 1:
+            raise ValueError("biconvex_in_air_requires_n_greater_than_one")
+        a, b = positive("R1", "length"), positive("R2", "length")
+        return a * b / ((n - 1) * (a + b)), "length"
     if name == "humidity_pressure_from_fraction":
         phi = value("phi", "dimensionless")
         if phi > 1:

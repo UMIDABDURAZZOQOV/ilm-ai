@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 212,
-  "remaining": 104,
+  "authored": 217,
+  "remaining": 99,
   "grades": [
     {
       "grade": 6,
@@ -50,16 +50,16 @@
     {
       "grade": 9,
       "source_sections": 59,
-      "authored": 45,
-      "remaining": 14,
-      "cards": 210,
-      "formula_entries": 174,
-      "examples": 47,
-      "assessments": 365,
-      "frq": 175,
-      "laboratories": 4,
+      "authored": 50,
+      "remaining": 9,
+      "cards": 232,
+      "formula_entries": 186,
+      "examples": 52,
+      "assessments": 399,
+      "frq": 187,
+      "laboratories": 5,
       "practicals": 2,
-      "next_section": 46
+      "next_section": 51
     },
     {
       "grade": 10,
@@ -90,34 +90,34 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 582,
+  "original_page_checks": 591,
   "date": "2026-10-26",
   "next": {
     "grade": 9,
-    "section": 46,
-    "pdf_page": 138,
-    "printed_page": 138
+    "section": 51,
+    "pdf_page": 146,
+    "printed_page": 146
   },
-  "unique_original_pages_reviewed": 558,
+  "unique_original_pages_reviewed": 566,
   "totals": {
-    "cards": 913,
-    "formula_entries": 467,
-    "examples": 231,
-    "assessments": 1482,
-    "frq": 530
+    "cards": 935,
+    "formula_entries": 479,
+    "examples": 236,
+    "assessments": 1516,
+    "frq": 542
   },
-  "executable_formula_families": 412,
+  "executable_formula_families": 424,
   "tests": {
-    "physics_biology_passed": 756,
+    "physics_biology_passed": 788,
     "postgres_opt_in_skipped": 2,
-    "backend_seconds": 132.13,
+    "backend_seconds": 141.03,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 67.79,
+    "postgresql_seconds": 72.88,
     "flutter_physics_passed": 24,
-    "flutter_seconds": 56,
-    "grade9_public_frq_drafts": 175,
-    "new_content_passed": 38,
-    "new_content_seconds": 3.02,
+    "flutter_seconds": 59,
+    "grade9_public_frq_drafts": 187,
+    "new_content_passed": 32,
+    "new_content_seconds": 2.86,
     "previous_full_backend_passed": 1296,
     "previous_full_flutter_passed": 150
   },

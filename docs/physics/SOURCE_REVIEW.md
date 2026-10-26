@@ -339,3 +339,37 @@ shu berilganlar uchun singan nur sifatida rad qilinadi. Muhitlar oddiy shaffof
 maktab modeli bilan chegaralangan;manba n/vjadvali yaxlitlangan. Bir jinsli
 geometrik nur modeli va parallel plastinka sharti boshqa holatlarga shartsiz
 umumlashtirilmadi. Mustaqil ekspert/Android/ommaviy release tasdiqlanmagan.
+
+## 9-sinf §46–50 — TIR, prizma va signed linza (2026-10-26)
+
+PDF/bosma138–146 ning barcha9asl tasviri/OCR tekshirildi.46da bir xil vaqtdagi
+s1/s2yo‘llar va n1*v1=n2*v2ishlatiladi. Normal ikki yonidagi nur kesmalari
+orasidagi ichki geometrik theta=2*alpha,tezlik vektorlari orasidagi boshqa
+burchak bilan almashtirilmaydi. Yassi ko‘zguda buyum/tasvir masofalari teng.
+
+140-sahifada n1=1.5dan n2=1ga,alpha30°uchun beta42°berilishi xato:
+sin(beta)=.75 → beta≈48.59037789°. alpha40°uchun≈74.61856831°(~75°),kritik
+burchak≈41.81031490°(~42°). Bu agentning mustaqil hisob tekshiruvi;pedagogik
+mutaxassis review’i bajarildi deyilmaydi. Yangi topshiriq bu xato42ni ko‘chirmaydi.
+TIRn1>n2va alpha>alphaCrit;chegarada tenglik beta90°holatini ajratadi.
+Tolada o‘zak nkatta va tushish burchagi sharti kerak;hamma nur yo‘qotishsiz
+kafolat bilan uzatiladi deyilmaydi.
+
+143-sahifadagi26-mashq4/5faqat «TIR kuzatildi»deydi,kritik burchakligi berilmagan.
+Noma’lum nyagona son emas:n2<n1*sina yoki n1>n2/sina. Yangi savollar aniq
+sinuslarda shu qat’iy chegarani tekshiradi;n1.5/sina.8→n2<1.2; n2=1.2/sina.75
+→n1>1.6. Sonli criticalFRQda esa aynan sinCritberilgan:5/3faqat oxirida.001gridga
+yaxlitlanadi. Sin37≈.6maktab yaqinlashuvi aniq trigonometrik tenglik emas.
+
+49-labning73-rasmida birinchi yuzaga normal kirish bor. Faqat shu geometriyada
+beta=A+gamma,n=sin(A+gamma)/sinA. FRQdagi sinExit/sinAochiq berilgan sinus
+sonlari;istalgan prizma burchagiga umumiy formula emas. Raqamli qayd/ikkita
+baho o‘rtachasi haqiqiy tajriba bajarilganini tasdiqlamaydi.
+
+50da yangi signedF/Dqoidalari mavjud6-sinfdagi faqatF>0/D>0qoidalarni saqlagan
+holda qo‘shildi. Sochuvchi F=-.2m→D=-5dptr. Eski lens_powerga manfiyFberish
+hanuz rad qilinadi. Havodagi yupqa bikonveks radius formulasi n>1va R1/R2musbat
+modullari uchun;arbitrarysignedradius/shaklga qo‘llanmaydi. Konveksning yig‘uvchi
+bo‘lishi tashqi muhit shartiga bog‘liq. Quyosh kuydirish,kuchli nur,shisha/igna
+qurilmasi yoki tibbiy amal topshirig‘i yo‘q. Noexpert/nativeAndroid/generalrelease
+claim;Biology,website,Chemistry,productionvaAIExplain o‘zgarmadi.
