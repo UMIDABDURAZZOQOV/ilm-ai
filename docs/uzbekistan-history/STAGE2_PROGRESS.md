@@ -1,18 +1,18 @@
 # Davom checkpointi
 
-2026-10-26. **Kurs tugallanmagan.** 7-sinf §1–20: **20 dars**, 151 karta, 20 original misol, 135 topshiriq (80 MCQ / 40 qisqa FRQ / 15 xronologiya), 20 avtomatik baholanmaydigan refleksiya/rubrika.
+2026-10-26. **Kurs tugallanmagan.** 7-sinf §1–25: **25 dars**, 191 karta, 25 original misol, 168 topshiriq (100 MCQ / 49 qisqa FRQ / 19 xronologiya), 25 avtomatik baholanmaydigan refleksiya/rubrika.
 
 | Sinf | Bob | Katalogdagi mavzu | Interaktiv dars | Qolgan |
 |---|---:|---:|---:|---:|
-| 7 | 6 | 42 | 20 | 22 |
+| 7 | 6 | 42 | 25 | 17 |
 | 8 | ? | ? | 0 | Noma’lum: PDF olinmagan |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
-To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 111 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
+To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 106 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
 
-Keyingi: **7-sinf §21, PDF/bosma 74 — Jaloliddin Manguberdi mohir sarkarda**. Hozirgacha yozilgan darslarni qaytadan yaratmang. 8-sinf manbasi olinmagan; boshqa fanlar yoki productionga tegmang.
+Keyingi: **7-sinf §26, PDF/bosma 91 — Movarounnahr va Xorazmning madaniy hayoti**. Hozirgacha yozilgan darslarni qaytadan yaratmang. 8-sinf manbasi olinmagan; boshqa fanlar yoki productionga tegmang.
 
 | 7-sinf darsi | Faktlar keltirilgan PDF/bosma sahifalar | Karta | Topshiriq |
 |---|---|---:|---:|
@@ -36,12 +36,17 @@ Keyingi: **7-sinf §21, PDF/bosma 74 — Jaloliddin Manguberdi mohir sarkarda**.
 | §18 Xorazmshoh va Chingizxon munosabatlari | 63–66 | 7 | 7 |
 | §19 Muhammad Xorazmshohning mamlakat mudofaasiga oid tadbirlari va uning oqibati | 66–70 | 8 | 7 |
 | §20 Jaloliddin Manguberdining Xorazm taxtiga o‘tirishi | 71–73 | 7 | 7 |
+| §21 Jaloliddin Manguberdi mohir sarkarda | 74–77 | 9 | 7 |
+| §22 Jaloliddin Manguberdi Vatan qahramoni | 78–81 | 7 | 7 |
+| §23 Chig‘atoy ulusining tashkil topishi | 82–84 | 8 | 7 |
+| §24 Ijtimoiy-iqtisodiy va madaniy hayot | 85–87 | 8 | 7 |
+| §25 Etnik jarayonlar va o‘zbek xalqining shakllanishi | 88–90 | 8 | 5 |
 
 Bu partiyalarda PDF va bosma raqamlar mos; ular har bir refda alohida saqlangan. Sahifa ichidagi boshlanish va navbatdagi sarlavhadan oldingi chegara JSON’da bor. Tafovut/ekspert qaydlari SOURCE_REVIEW.md’da.
 
-- backend: `57 passed, 1 skipped in 7.40s`.
-- postgres: `1 passed, 41 deselected in 8.08s`.
-- flutter: `01:27 +195: All tests passed!`.
-- analyze: `No issues found! (ran in 1.7s)`.
+- backend: `66 passed, 1 skipped in 10.97s`.
+- postgres: `1 passed, 50 deselected in 9.46s`.
+- flutter: `01:34 +204: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 - legacy_selected: `530 passed in 197.87s (0:03:17)`.
 - legacy_full: `2314 passed, 5 skipped, 2 deselected, 13 warnings in 536.55s (0:08:56)`.

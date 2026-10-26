@@ -41,7 +41,7 @@ SHA-256: `3b55065e7dac210e223344ca01697eb5c5bca314cf09095b3f4597784a35346a`.
 | 21 / 21 | uzh-7-chapter-3 | Jaloliddin Manguberdi mohir sarkarda | 74 / 74 | 78 |
 | 22 / 22 | uzh-7-chapter-3 | Jaloliddin Manguberdi Vatan qahramoni | 78 / 78 | 82 |
 | 23 / 23 | uzh-7-chapter-3 | Chig‘atoy ulusining tashkil topishi | 82 / 82 | 85 |
-| 24 / 24 | uzh-7-chapter-3 | Ijtimoiy-iqtisodiy hayot | 85 / 85 | 88 |
+| 24 / 24 | uzh-7-chapter-3 | Ijtimoiy-iqtisodiy va madaniy hayot (TOC: Ijtimoiy-iqtisodiy hayot) | 85 / 85 | 88 |
 | 25 / 25 | uzh-7-chapter-3 | Etnik jarayonlar va o‘zbek xalqining shakllanishi | 88 / 88 | 91 |
 | 26 / 26 | uzh-7-chapter-4 | Movarounnahr va Xorazmning madaniy hayoti | 91 / 91 | 98 |
 | 27 / 27 | uzh-7-chapter-4 | Adabiyot | 98 / 98 | 101 |

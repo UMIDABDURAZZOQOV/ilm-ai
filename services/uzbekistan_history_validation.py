@@ -16,7 +16,7 @@ from services.uzbekistan_history_sources import (
     validate_catalog,
 )
 
-BATCHES = {"grade7_batch1": (7, 1, 5), "grade7_batch2": (7, 6, 10), "grade7_batch3": (7, 11, 15), "grade7_batch4": (7, 16, 20)}
+BATCHES = {"grade7_batch1": (7, 1, 5), "grade7_batch2": (7, 6, 10), "grade7_batch3": (7, 11, 15), "grade7_batch4": (7, 16, 20), "grade7_batch5": (7, 21, 25)}
 fingerprint = digest
 
 
@@ -182,6 +182,10 @@ def validate_batch(doc):
                 q["fact_ids"] and set(q["fact_ids"]) <= taught, "question_untaught_fact"
             )
             require(
+                all(facts[f]["assertion_kind"] == "source_statement" for f in q["fact_ids"]),
+                "interpretation_requires_self_or_teacher_review",
+            )
+            require(
                 q["key"] == f"{lesson['key']}:q{question_number}",
                 "question_order_key",
             )
@@ -222,7 +226,8 @@ def validate_batch(doc):
                 options = q["public"]["options"]
                 require(
                     len(options) >= 3
-                    and len({o["id"] for o in options}) == len(options),
+                    and len({o["id"] for o in options}) == len(options)
+                    and len({o["label"].strip().casefold() for o in options}) == len(options),
                     "option_schema",
                 )
                 require(
@@ -236,6 +241,7 @@ def validate_batch(doc):
                     in {a for f in q["fact_ids"] for a in facts[f]["accepted_answers"]},
                     "choice_key_not_source_verified",
                 )
+                require(spec["verified_answer"] == expected, "feedback_key_not_verified_choice")
                 answer = {"choice_id": spec["expected"]}
             elif spec["kind"] == "short_text":
                 require(
@@ -244,7 +250,8 @@ def validate_batch(doc):
                 require(
                     set(spec["aliases"])
                     <= set(facts[q["fact_ids"][0]]["accepted_answers"])
-                    and spec["expected"] in spec["aliases"],
+                    and spec["expected"] in spec["aliases"]
+                    and spec["verified_answer"] in spec["aliases"],
                     "unreviewed_answer_alias",
                 )
                 require(
