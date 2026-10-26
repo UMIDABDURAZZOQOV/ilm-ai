@@ -93,7 +93,7 @@ UNITS = {
     "L": ("volume", Fraction(1, 1000)),
     "mL": ("volume", Fraction(1, 10**6)),
     "kg/m3": ("density", Fraction(1)),
-    "g/m3": ("density", Fraction(1,1000)),
+    "g/m3": ("density", Fraction(1, 1000)),
     # Degrees are separate from radian magnitudes; no inexact pi conversion.
     "°": ("angle_degrees", Fraction(1)),
     "deg": ("angle_degrees", Fraction(1)),
@@ -138,6 +138,8 @@ UNITS = {
     "cm/s2": ("acceleration", Fraction(1, 100)),
     "rad": ("angle", Fraction(1)),
     "rad/s": ("angular_speed", Fraction(1)),
+    # Grade10 PDF12: angular acceleration, distinct from rad/s and Hz.
+    "rad/s2": ("angular_acceleration", Fraction(1)),
     # Grade7 PDF84: spring stiffness and original SI-scaled answers.
     "N/m": ("stiffness", Fraction(1)),
     # Same physical force/length dimension: surface coefficient and energy/area.

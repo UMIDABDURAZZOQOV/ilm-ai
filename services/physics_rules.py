@@ -24,6 +24,86 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "kinematic_component_position": rule(
+        "x",
+        ["x0", "v0", "a", "t"],
+        ["x0+v0*t+a*t^2/2", "x0+t*v0+0.5*a*t^2"],
+        "One fixed classical axis, constant SIGNED acceleration/velocity/coordinate; t>=0; x is position, NOT unsigned path;10PDF7–8.",
+    ),
+    "velocity_component_sum": rule(
+        "v",
+        ["v1", "v2"],
+        ["v1+v2", "v2+v1"],
+        "Classical Galilean composition on ONE fixed axis; signed components, not sum of arbitrary vector magnitudes;10PDF7.",
+    ),
+    "river_downstream_time": rule(
+        "t",
+        ["s", "vb", "vc"],
+        ["s/(vb+vc)", "s/(vc+vb)"],
+        "Specified constant downstream classical model, vb>0 water-relative speed, vc>=0 current, s>=0; not any hydrodynamic condition;10PDF8.",
+    ),
+    "vertical_peak_height": rule(
+        "h",
+        ["v0", "g"],
+        ["v0^2/(2*g)", "v0*v0/(g*2)"],
+        "Vertical upward launch v0>0, no drag/buoyancy, constant given school g=10m/s2; height ABOVE launch;10PDF9.",
+    ),
+    "vertical_round_trip_time": rule(
+        "t",
+        ["v0", "g"],
+        ["2*v0/g", "v0/g*2"],
+        "Return to SAME launch height, no drag/buoyancy/obstacle, constant given g=10m/s2, v0>0;10PDF9.",
+    ),
+    "vertical_down_impact_speed": rule(
+        "v",
+        ["v0", "g", "h"],
+        ["sqrt(v0^2+2*g*h)", "(v0^2+2*h*g)^(1/2)"],
+        "DOWNWARD speed magnitude v0>=0, descent h>=0, no drag/buoyancy, given g=10m/s2;10PDF10; exact/root-grid rubric required.",
+        square_root=True,
+    ),
+    "angular_acceleration_component": rule(
+        "beta",
+        ["omega", "omega0", "t"],
+        ["(omega-omega0)/t", "(omega-omega0)*t^-1"],
+        "One fixed rotation axis, signed omega components, t>0; interval angular acceleration, rad/s2;10PDF12.",
+    ),
+    "angular_velocity_component": rule(
+        "omega",
+        ["omega0", "beta", "t"],
+        ["omega0+beta*t", "omega0+t*beta"],
+        "One fixed axis, CONSTANT signed beta, t>=0, signed omega; beta alone does not decide speed increase;10PDF13.",
+    ),
+    "angular_displacement_component": rule(
+        "phi",
+        ["omega0", "beta", "t"],
+        ["omega0*t+beta*t^2/2", "t*omega0+0.5*beta*t^2"],
+        "One fixed axis, CONSTANT signed beta, t>=0, signed angular displacement from initial angle;10PDF14.",
+    ),
+    "tangential_acceleration_component": rule(
+        "at",
+        ["beta", "R"],
+        ["beta*R", "R*beta"],
+        "Fixed radius R>0, signed tangential component consistent with rotation axis; not always same direction as velocity;10PDF14.",
+    ),
+    "orthogonal_acceleration_norm": rule(
+        "a",
+        ["at", "an"],
+        ["sqrt(at^2+an^2)", "(an^2+at^2)^0.5"],
+        "Orthogonal tangent/normal accelerations, signed at, provided normal magnitude an>=0; total magnitude;10PDF14.",
+        square_root=True,
+    ),
+    "nonslip_angular_ratio": rule(
+        "omega2",
+        ["omega1", "R1", "R2"],
+        ["omega1*R1/R2", "R1*omega1/R2"],
+        "Nonslip circular transmission, POSITIVE radius and angular speed magnitudes; direction handled separately;10PDF15–16.",
+    ),
+    "gear_frequency_ratio": rule(
+        "f2",
+        ["N1", "f1", "N2"],
+        ["N1*f1/N2", "f1*N1/N2"],
+        "Meshing ideal gears with POSITIVE WHOLE tooth counts, positive frequency magnitudes; opposite external rotation is separate;10PDF16.",
+    ),
     "photographed_object_height": rule(
         "H",
         ["d", "F", "h"],
@@ -2500,6 +2580,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "angular_acceleration": "rad/s2",
     "angle_degrees": "°",
     "specific_energy": "J/kg",
     "specific_heat": "J/(kg*K)",
@@ -2579,6 +2660,67 @@ def reviewed_calculation(question):
         if result != Fraction(981, 100):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
+
+    if name == "kinematic_component_position":
+        t = value("t", "time")
+        return (
+            projection("x0", "length")
+            + projection("v0", "speed") * t
+            + projection("a", "acceleration") * t**2 / 2
+        ), "length"
+    if name == "velocity_component_sum":
+        return projection("v1", "speed") + projection("v2", "speed"), "speed"
+    if name == "river_downstream_time":
+        return value("s", "length") / (
+            positive("vb", "speed") + value("vc", "speed")
+        ), "time"
+    if name in {
+        "vertical_peak_height",
+        "vertical_round_trip_time",
+        "vertical_down_impact_speed",
+    }:
+        g = positive("g", "acceleration")
+        if g != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        if name == "vertical_peak_height":
+            return positive("v0", "speed") ** 2 / (2 * g), "length"
+        if name == "vertical_round_trip_time":
+            return 2 * positive("v0", "speed") / g, "time"
+        return square_root_quantity(
+            value("v0", "speed") ** 2 + 2 * g * value("h", "length")
+        ), "speed"
+    if name == "angular_acceleration_component":
+        return (
+            projection("omega", "angular_speed") - projection("omega0", "angular_speed")
+        ) / positive("t", "time"), "angular_acceleration"
+    if name in {"angular_velocity_component", "angular_displacement_component"}:
+        w, beta, t = (
+            projection("omega0", "angular_speed"),
+            projection("beta", "angular_acceleration"),
+            value("t", "time"),
+        )
+        return (
+            (w + beta * t, "angular_speed")
+            if name == "angular_velocity_component"
+            else (w * t + beta * t**2 / 2, "angle")
+        )
+    if name == "tangential_acceleration_component":
+        return projection("beta", "angular_acceleration") * positive(
+            "R", "length"
+        ), "acceleration"
+    if name == "orthogonal_acceleration_norm":
+        return square_root_quantity(
+            projection("at", "acceleration") ** 2 + value("an", "acceleration") ** 2
+        ), "acceleration"
+    if name == "nonslip_angular_ratio":
+        return positive("omega1", "angular_speed") * positive(
+            "R1", "length"
+        ) / positive("R2", "length"), "angular_speed"
+    if name == "gear_frequency_ratio":
+        n1, n2 = positive("N1", "dimensionless"), positive("N2", "dimensionless")
+        if n1.denominator != 1 or n2.denominator != 1:
+            raise ValueError("whole_tooth_counts_required")
+        return n1 * positive("f1", "frequency") / n2, "frequency"
 
     if name == "double_wheel_gain":
         same_units("R1", "r1", "R2", "r2")

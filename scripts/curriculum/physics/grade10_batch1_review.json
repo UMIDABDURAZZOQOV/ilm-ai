@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch1",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "9ea1e5674b0d75c5f15d9ea8e352db98a55f0c45c59c17aab9238cb98f81dd5c",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "text_sha256": "71f0961a57e36856b9215e79ecb85ce886c4e2787ea675e4c394c0b5c76fae37",
+      "reviewed_render_sha256": "0a3cbecda7d06ebcdc6013b50233e632fe8c1b14130317137f4db00bdcfe52f3",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "text_sha256": "154a43606949becac10024a044ca2bc28799dde58bdfed80cc05b257fead1641",
+      "reviewed_render_sha256": "44ac94859f345d398d950a1526c467211ff3b4c778afc542e867ed909455a3ff",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "text_sha256": "aaa24b5ad4fe824b1a20c6e0e61f5a835d3d5907550e3a3c8784a49964aa26a3",
+      "reviewed_render_sha256": "7e3203328364a1bc1b06c061b010b865a82a8a05d3ee813135282d42380c18bf",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "text_sha256": "bcecb3cb5a4ad1b75fb59ef9ab56228f0c58592ce60809614efef8d67939deba",
+      "reviewed_render_sha256": "eb917b4180fbce8339fe352b4cf7fd23016aec545291bab1b9f2b1a795723206",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "text_sha256": "c4a0eefb0031f6533b19689104c82acabe31815d5eb4a57f3fb0e9458babda2f",
+      "reviewed_render_sha256": "42311ae85aa01e6ada5e621110eaf6f79e06caa73c13cda29a6fc437252862a5",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "text_sha256": "7e625839fa5fce5ef63914af5c3864a5bbf03dba255af89161219e611cb56233",
+      "reviewed_render_sha256": "006b2f6777951c132adbaa9d7b4cf67835a146697454e9dfc967b73763d95cd5",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 9,
+      "text_sha256": "1796b7782212da421717f6efdd379067c94839a5da3779c5350644c1af934f73",
+      "reviewed_render_sha256": "dfe138b68862729646fa2a26d1bbfcc5e66204258b59aa22140266476a546d66",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 10,
+      "text_sha256": "8ce75aaa3f037d77e56deea2bfcfdd90f6499cf2fbca725b62841339a9c85328",
+      "reviewed_render_sha256": "468e900f9b6e0481a616e84e210abd6b428fefe7a767c67684bd1d5fea318b3d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "text_sha256": "6cc267bd0921dd4ca6fc6bd049fd4a11d7969eb666af97cf2e29be0b1580fd13",
+      "reviewed_render_sha256": "8ed8dc650ea45518a2e4f2db23b14c1b46b102ed1ac85d83ea77767a0ed4a8b0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 12,
+      "text_sha256": "f89fba437eb27697cee8a8be41a69ccfd162a0f74ec481593d44cc5ed1e2fffd",
+      "reviewed_render_sha256": "63d6cc32bc9f5ad1840535f39ba526578a5db29a327f1633e649cd71a09f0904",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "text_sha256": "823c6a50ef91a1e2a65ba9912105a32b6635bc2807cd30573e3690c0eebc8956",
+      "reviewed_render_sha256": "cd823622191f71ecf3e8fa5d637f617d447249ab4b0d523d09342cd8df78b6fd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "text_sha256": "002ead498022ac4bf646fff3a6814814cd032773482c68adcf70696ad1d67862",
+      "reviewed_render_sha256": "e7ef270ffbe38ca77a8f00a434633df41196958fcaa20ea059f6c970f4431380",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 15,
+      "text_sha256": "a24eb123cbdcb9310935bcb52763aefba2b5f2fe6b38afc08b71a9d2d05be256",
+      "reviewed_render_sha256": "0ea3e709be6acd8b24213d979836059478094cc29862890ee7978d5822f1d1e0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 16,
+      "text_sha256": "415dd34d8dd7a4f4827046188e6f0922bc60ac2e09ec91f9a5a3b455f9f3272e",
+      "reviewed_render_sha256": "e8634cce2abc0c210f38f6efa069e218508ac1ed2d80a665ea7232d8d02d0f96",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "decision": "Researchmethods/model/idealisation/experiment/hypothesis/theory/domain/correspondence read. No hypothesisonceconfirmedbecomesinfalliblelaw claim; empiricalevidence/domain distinguished. Theorytestabilitynotallabstractquantitiesdirectlymeasured simplisticclaim. Classicalquantumlimitsnotjustsmallmassalonecriterion. No forcedformula/numericFRQsection1,meaningfulexperimentaldesign/orderconcepts."
+    },
+    {
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "decision": "Originalsignedcoordinatecomponents/vectoraddition1.1/1.2 read visually;source6s=v0t±at2/2 and'a<0minus' can doublecountsign. Newconstant-axis equations always +aSigned*t²/2. Indepmotion scopedclassicalgiven-model/forcecomponents,NOTallcoupledforcesorboatwaterrelativevelocityindependentunderanyhydrodynamics. Riverexample70+2kmh/36km=.5hcorrect;newproblemsoriginalcomponentdata. No skydiving/riverphysicaltrial."
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "decision": "Verticalmodelconstantg/noair/Archimedesneglected,upwardaxisv=v0-gt,displacement=v0t-gt²/2,topv0/g,hmaxv0²/2g,returntime2v0/gSAMEheightonly. VelocitySIGNEDreturnnegative vs speedmodulussame;gdoesnotbecomezeroattop. Downwardaxispositivepath/v² relation printed10–11. Source10g10sample15²+2*10*20=625→25 verified. Newgivensg10explicitto avoidlegacy9.81guardchanges;noactualthrow/building/droptrial."
+    },
+    {
+      "pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "decision": "Originalomega=DeltaPhi/DeltaT,beta=DeltaOmega/DeltaT,omega0+beta*t,phi=omega0*t+beta*t²/2,tangentiala=betaR andtotalnormsqrt(at²+an²) verified. Nativefontstripsfractions;everyoriginalimagechecked. Source14table'a/epsilon<0thenv0-a*t/omega0-eps*t' doublesnegativesifalreadySIGNED;new ALWAYS+signedaccel. Source14tangentialdirectionalwayssamevelocityfalsefordeceleration;signedatandperpendicularan distinguished. +betaaccelerates statement scopedpositiveomega/no reversal,notallnegativeaxisvectors. rad/s2newclosedangular_accel dimension,rad/snotHz,square-rootdefaultguardsnotrelaxed."
+    },
+    {
+      "pages": [
+        15,
+        16,
+        17
+      ],
+      "decision": "Friction/belt/gear diagramsoriginal1.6–1.9,RratioandN1*f1=N2*f2 read;nonslipcontactspeedMAGNITUDES equal,angularspeedinverseR,frequencyinverseWHOLEpositiveN. Externalgears/frictionrotateopposite,openbelt same/crossedopposite;ratioFRQs magnitudespositive notvector-directionformula. No live machine/tensionedbelt experiment,hand/trapping hazards notoperationaltask. Intro5paperheadingatPDF15/printed14,source6startsPDF17notauthoredthisbatch."
+    },
+    {
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "decision": "All14whole-PDF native-textSHA andactualimagesreviewed. Suppliedfizika_10_uzb.pdf SHA c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64;PDFpages=printed+1. No newOCRinvented,notsegmentedidentity. Eachcard/question/formula/solutionmustbindbothnumbers. Originalshortcontent,independentarithmetic/semantictests,noexpert/nativeAndroid/productionclaim. Frozen6–9/Biology406/website/Chemistry/production/AIExplainpreserved."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 1,
+      "topic_id": "physics-10-section-1",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "cards": 5,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 2,
+      "topic_id": "physics-10-section-2",
+      "pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "printed_pages": [
+        5,
+        6,
+        7
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 7,
+      "frq": 3
+    },
+    {
+      "sequence": 3,
+      "topic_id": "physics-10-section-3",
+      "pdf_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "printed_pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "cards": 5,
+      "formula_rules": 7,
+      "worked_examples": 2,
+      "assessments": 11,
+      "frq": 7
+    },
+    {
+      "sequence": 4,
+      "topic_id": "physics-10-section-4",
+      "pdf_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "printed_pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "cards": 5,
+      "formula_rules": 7,
+      "worked_examples": 1,
+      "assessments": 11,
+      "frq": 7
+    },
+    {
+      "sequence": 5,
+      "topic_id": "physics-10-section-5",
+      "pdf_pages": [
+        15,
+        16,
+        17
+      ],
+      "printed_pages": [
+        14,
+        15,
+        16
+      ],
+      "cards": 4,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 3
+    }
+  ]
+}

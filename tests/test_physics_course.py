@@ -821,6 +821,32 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (10, 2, 5): ("-7.2", "km/h", "v2+v1"),
+        (10, 2, 6): ("200", "cm", "x0+t*v0+0.5*a*t^2"),
+        (10, 2, 7): ("0.5", "h", "s/(vc+vb)"),
+        (10, 3, 5): ("-36", "km/h", "v0-g*t"),
+        (10, 3, 6): ("1500", "cm", "v0*t-g*t^2/2"),
+        (10, 3, 7): ("2.5", "s", "v0*g^-1"),
+        (10, 3, 8): ("3125", "cm", "v0*v0/(g*2)"),
+        (10, 3, 9): ("5", "s", "v0/g*2"),
+        (10, 3, 10): ("3000", "cm", "t*v0+0.5*g*t*t"),
+        (10, 3, 11): ("72", "km/h", "(v0^2+2*h*g)^(1/2)"),
+        (10, 4, 5): ("10.8", "km/h", "s*t^-1"),
+        (10, 4, 6): ("3", "rad/s", "phi*t^-1"),
+        (10, 4, 7): ("-2", "rad/s²", "(omega-omega0)*t^-1"),
+        (10, 4, 8): ("4", "rad/s", "omega0+t*beta"),
+        (10, 4, 9): ("10", "rad", "t*omega0+0.5*beta*t^2"),
+        (10, 4, 10): ("-200", "cm/s²", "R*beta"),
+        (10, 4, 11): ("500", "cm/s^2", "(an^2+at^2)^0.5"),
+        (10, 5, 6): ("12", "rad/s", "R1*omega1/R2"),
+        (10, 5, 7): ("0.002", "kHz", "f1*N1/N2"),
+        (10, 5, 8): ("4.32", "km/h", "R*omega"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -837,11 +863,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        226,
-        90,
+        231,
+        85,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 0, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 5, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -851,7 +877,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 42
+    assert len(load_course()) == 43
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1050,9 +1076,11 @@ def test_all_reviewed_http_content_and_replay(preview):
     grade9 = client.get(f"{PREFIX}/catalog?grade=9").json()
     assert grade9["grade_content_complete"] and len(grade9["lessons"]) == 59
     assert all(l["state"] == "completed" for l in grade9["lessons"])
-    assert not grade9["course_complete"]  # Grades10/11 still unimplemented.
+    assert not grade9[
+        "course_complete"
+    ]  # Grade10 is partial and grade11 is still unimplemented.
     with factory() as db:
-        assert db.get(User, 1).xp_total == 2260
+        assert db.get(User, 1).xp_total == 2310
 
 
 @pytest.mark.parametrize(

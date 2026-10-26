@@ -140,4 +140,5 @@ def test_grade9_all59_coverage_includes_every_mapped_lab_and_practical():
     for seq in [13, 19, 20, 25, 34, 42, 49, 53]:
         l = ls[seq - 1]
         assert not l["review"]["physical_experiment_completed"]
-    assert report()["authored"] == 226 and report()["remaining"] == 90
+    assert report()["authored"] >= 226
+    assert report()["remaining"] == 316 - report()["authored"]

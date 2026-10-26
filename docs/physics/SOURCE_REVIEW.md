@@ -444,3 +444,31 @@ taxminan yaratilmaydi. Institutlar kitobning tarixiy qaydi sifatida,asboblar
 vazifasi esa optika/yarimo‘tkazgich tadqiqotlari bilan bog‘lanadi. Distraktorlar
 shu fizik fan/asbob tushunchalaridan tuzildi,mahsulotning ichki texnik so‘zlari
 kontentga kiritilmadi. Expert/nativeAndroid/prodrelease bajarildi deyilmaydi.
+
+## 2026-10-26 — 10-sinf §1–5, PDF4–17 / bosma3–16
+
+Asl butun PDFning matn xeshlari va barcha14 sahifa tasvirlari qayta tekshirildi.
+Native matnda kasr/formula belgilarining bir qismi ajralib ketgan; formulalar
+matndan taxmin qilinmadi, tasvirdagi kasr va indekslar o‘qildi. Bibliografiya
+va manba SHA saqlandi. Bu sinfda PDF sahifasi bosma raqamdan1oldinda.
+
+- §1: gipotezaning bir tajribada tasdiqlanishi cheksiz xatosiz qonun degani
+  emas. Model, dalil, nazariya doirasi va moslik prinsipi farqlanadi.
+  Konseptual mavzuga sun’iy sonli FRQ yoki formula qo‘shilmadi.
+- PDF6 va14 jadvalida a/epsilon manfiy deb yozilgach yana minus qo‘llash
+  mumkin bo‘lgan noaniqlik bor. Yangi koordinata va aylanish proyeksiyalari
+  doim `+a*t²/2`, `omega0+beta*t` ko‘rinishida ishorali a/beta bilan ishlaydi.
+  Eski dars/qoida bytes va baholash chegaralari almashtirilmadi.
+- Vertikal model: qarshilik va ko‘taruvchi kuch tashlangan, doimiy g ochiq
+  berilgan; otilgan balandlikka qaytish sharti alohida. Cho‘qqida v nol,
+  g esa nol emas. v proyeksiyasi bilan uning musbat moduli boshqa kattalik.
+- PDF14 urinma tezlanish har doim tezlik bilan bir yo‘nalishda degan jumla
+  sekinlashishda o‘rinli emas. at ishorali, normal tarkib unga tik;
+  umumiy modul Pifagor orqali tekshiriladi. `rad/s²` alohida yopiq birlik.
+- Friksion/tasma/tishli nisbatlar sirpanmaslik va musbat modullar uchun.
+  Ochiq/kesishgan tasma va tashqi tishlashish yo‘nalishi alohida savollar.
+  Butun tishlar soni, nol radius/vaqt va noto‘g‘ri birliklar rad etiladi.
+
+Asl manba tekshiruvi muallifning tekshiruvidir; mustaqil pedagog/fan eksperti
+imzosi hamda native Android tajribasi deb ko‘rsatilmaydi. Fizika lokal/test
+preview holatida, ommaviy nashr yoqilmadi.
