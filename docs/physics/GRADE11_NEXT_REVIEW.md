@@ -1,3 +1,9 @@
+# Mualliflik davomi qolmadi —2026-10-26
+
+316/316 raqamlangan bo‘lim yozildi va lokal/test regressionlari o‘tdi. Keyingi bo‘lim yo‘q. [COURSE_COMPLETION.md](COURSE_COMPLETION.md) ekspertiza/Android/nashr cheklovlarini ko‘rsatadi. Quyidagi eski davom nuqtalari tarix uchun saqlangan.
+
+---
+
 # Keyingi: 11-sinf §41 — 2026-10-26
 
 11§41–45 all19 original mapped pages168–186 visually reviewed, native hashes matched;privateoriginaldraft prepared. No batch9 runtime at this checkpoint. Next11§41PDF168/bosma167.

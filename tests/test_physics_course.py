@@ -1120,16 +1120,101 @@ NUMERIC_ORACLES.update(
 )
 
 
-NUMERIC_ORACLES.update({(11, 21, 6): ('300', 'cm', 'v*nu^-1'), (11, 21, 7): ('100', 'MHz', 'v*Lw^-1'), (11, 21, 8): ('300000', 'km/s', 'nu*Lw'), (11, 22, 6): ('150', '%', 'v1*v2^-1'), (11, 22, 7): ('1000', 'mW/m2', 'Ewave/dt/S'), (11, 22, 8): ('600', 'mW/m2', 'c*wAvg'), (11, 22, 9): ('100', 'µW/m2', 'Pavg/R^2/p/4'), (11, 23, 6): ('3', 'km', 'tEcho*c/2'), (11, 23, 7): ('10', 'µs', 'R*2/c'), (11, 23, 8): ('1000', '1', 'tPulse*c/Lw'), (11, 25, 7): ('1', 'µm', 'Lw*m'), (11, 25, 8): ('1.25', 'µm', 'Lw*(m+1/2)'), (11, 25, 9): ('1', 'mm', '(R*Lw*m)^0.5'), (11, 25, 10): ('500', 'µm', '(R*Lw*(m+1/2))^0.5'), (11, 25, 11): ('600', 'nm', 'sinPhi*d/n'), (11, 25, 12): ('2', 'µm', 'Lw*n/sinPhi')})
+NUMERIC_ORACLES.update(
+    {
+        (11, 21, 6): ("300", "cm", "v*nu^-1"),
+        (11, 21, 7): ("100", "MHz", "v*Lw^-1"),
+        (11, 21, 8): ("300000", "km/s", "nu*Lw"),
+        (11, 22, 6): ("150", "%", "v1*v2^-1"),
+        (11, 22, 7): ("1000", "mW/m2", "Ewave/dt/S"),
+        (11, 22, 8): ("600", "mW/m2", "c*wAvg"),
+        (11, 22, 9): ("100", "µW/m2", "Pavg/R^2/p/4"),
+        (11, 23, 6): ("3", "km", "tEcho*c/2"),
+        (11, 23, 7): ("10", "µs", "R*2/c"),
+        (11, 23, 8): ("1000", "1", "tPulse*c/Lw"),
+        (11, 25, 7): ("1", "µm", "Lw*m"),
+        (11, 25, 8): ("1.25", "µm", "Lw*(m+1/2)"),
+        (11, 25, 9): ("1", "mm", "(R*Lw*m)^0.5"),
+        (11, 25, 10): ("500", "µm", "(R*Lw*(m+1/2))^0.5"),
+        (11, 25, 11): ("600", "nm", "sinPhi*d/n"),
+        (11, 25, 12): ("2", "µm", "Lw*n/sinPhi"),
+    }
+)
 
 
-NUMERIC_ORACLES.update({(11, 26, 6): ('600', 'nm', 'y*d/x/n'), (11, 26, 7): ('400', 'nm', 'd*y/(n*x)'), (11, 27, 6): ('150', '%', 'c*v^-1'), (11, 27, 7): ('50', 'cm', 'R/(n-1)/2'), (11, 28, 6): ('2', 'W/m2', 'cosA^2*Iin'), (11, 28, 7): ('36', '%', 'cosA*cosA'), (11, 30, 6): ('2', 'sr', 'S0*R^-2'), (11, 30, 7): ('60', 'cd', 'Phi*Omega^-1'), (11, 30, 8): ('6', 'lm', 'Omega*Iv'), (11, 30, 9): ('30', 'lx', 'Phi*S^-1'), (11, 30, 10): ('10', 'lx', 'cosA*Iv*r^-2')})
+NUMERIC_ORACLES.update(
+    {
+        (11, 26, 6): ("600", "nm", "y*d/x/n"),
+        (11, 26, 7): ("400", "nm", "d*y/(n*x)"),
+        (11, 27, 6): ("150", "%", "c*v^-1"),
+        (11, 27, 7): ("50", "cm", "R/(n-1)/2"),
+        (11, 28, 6): ("2", "W/m2", "cosA^2*Iin"),
+        (11, 28, 7): ("36", "%", "cosA*cosA"),
+        (11, 30, 6): ("2", "sr", "S0*R^-2"),
+        (11, 30, 7): ("60", "cd", "Phi*Omega^-1"),
+        (11, 30, 8): ("6", "lm", "Omega*Iv"),
+        (11, 30, 9): ("30", "lx", "Phi*S^-1"),
+        (11, 30, 10): ("10", "lx", "cosA*Iv*r^-2"),
+    }
+)
 
 
-NUMERIC_ORACLES.update({(11, 31, 6): ('40', 'cd', 'Iv2*(r1/r2)^2'), (11, 32, 6): ('7.5', 'ns', 'sqrt(tau0^2/(1-v^2/c^2))'), (11, 32, 7): ('120', 'cm', 'sqrt(l0^2*(1-v^2/c^2))'), (11, 32, 8): ('264705882', 'm/s', '(v+u)/(1+v*u/c^2)'), (11, 32, 9): ('0', 'm/s', '(u+v)/(1+u*v/c^2)'), (11, 33, 6): ('1.8e-10', 'J', 'c^2*m0'), (11, 33, 7): ('2.25e-10', 'J', 'sqrt(m0^2*c^4/(1-v^2/c^2))'), (11, 33, 8): ('4.5e-11', 'J', 'm0*c^2/sqrt(1-v^2/c^2)-m0*c^2'), (11, 33, 9): ('4.5e-19', 'kg*m/s', 'sqrt(m0^2*v^2/(1-v^2/c^2))'), (11, 34, 6): ('690', 'nm', 'b*T^-1'), (11, 34, 7): ('3000', 'K', 'b*Lpeak^-1'), (11, 34, 8): ('3.313e-19', 'J', 'nu*h'), (11, 34, 9): ('3e14', 'Hz', 'Eq*h^-1'), (11, 35, 6): ('3.313e-19', 'J', 'nu*h-A'), (11, 35, 7): ('3e14', 'Hz', 'A*h^-1'), (11, 35, 8): ('2000', 'mV', 'Kmax*e^-1')})
+NUMERIC_ORACLES.update(
+    {
+        (11, 31, 6): ("40", "cd", "Iv2*(r1/r2)^2"),
+        (11, 32, 6): ("7.5", "ns", "sqrt(tau0^2/(1-v^2/c^2))"),
+        (11, 32, 7): ("120", "cm", "sqrt(l0^2*(1-v^2/c^2))"),
+        (11, 32, 8): ("264705882", "m/s", "(v+u)/(1+v*u/c^2)"),
+        (11, 32, 9): ("0", "m/s", "(u+v)/(1+u*v/c^2)"),
+        (11, 33, 6): ("1.8e-10", "J", "c^2*m0"),
+        (11, 33, 7): ("2.25e-10", "J", "sqrt(m0^2*c^4/(1-v^2/c^2))"),
+        (11, 33, 8): ("4.5e-11", "J", "m0*c^2/sqrt(1-v^2/c^2)-m0*c^2"),
+        (11, 33, 9): ("4.5e-19", "kg*m/s", "sqrt(m0^2*v^2/(1-v^2/c^2))"),
+        (11, 34, 6): ("690", "nm", "b*T^-1"),
+        (11, 34, 7): ("3000", "K", "b*Lpeak^-1"),
+        (11, 34, 8): ("3.313e-19", "J", "nu*h"),
+        (11, 34, 9): ("3e14", "Hz", "Eq*h^-1"),
+        (11, 35, 6): ("3.313e-19", "J", "nu*h-A"),
+        (11, 35, 7): ("3e14", "Hz", "A*h^-1"),
+        (11, 35, 8): ("2000", "mV", "Kmax*e^-1"),
+    }
+)
 
 
-NUMERIC_ORACLES.update({(11, 36, 6): ('3.313e-19', 'J', 'c*h*Lw^-1'), (11, 36, 7): ('1.3252e-27', 'kg*m/s', 'h*Lw^-1'), (11, 36, 8): ('2', 'µPa', 'Iflux*c^-1'), (11, 36, 9): ('4', 'µPa', 'Iflux/c*2'), (11, 37, 6): ('4.2e-34', 'J*s', 'hbar*n'), (11, 37, 7): ('3e14', 'Hz', 'Ei/h-Ef/h'), (11, 37, 8): ('-5.44e-19', 'J', '-(Eion*n^-2)'), (11, 37, 9): ('0.4761', 'nm', 'n^2*a0'), (11, 39, 6): ('14', '1', '-Z+A'), (11, 39, 7): ('5.1e-26', 'g', 'mp*Z+mn*(A-Z)-mNuc'), (11, 39, 8): ('4.59e-12', 'J', 'c^2*Dm'), (11, 39, 9): ('1.1475e-12', 'J', 'Ebind*A^-1'), (11, 40, 6): ('879000', 'm/s', 'B*R*q/m')})
+NUMERIC_ORACLES.update(
+    {
+        (11, 36, 6): ("3.313e-19", "J", "c*h*Lw^-1"),
+        (11, 36, 7): ("1.3252e-27", "kg*m/s", "h*Lw^-1"),
+        (11, 36, 8): ("2", "µPa", "Iflux*c^-1"),
+        (11, 36, 9): ("4", "µPa", "Iflux/c*2"),
+        (11, 37, 6): ("4.2e-34", "J*s", "hbar*n"),
+        (11, 37, 7): ("3e14", "Hz", "Ei/h-Ef/h"),
+        (11, 37, 8): ("-5.44e-19", "J", "-(Eion*n^-2)"),
+        (11, 37, 9): ("0.4761", "nm", "n^2*a0"),
+        (11, 39, 6): ("14", "1", "-Z+A"),
+        (11, 39, 7): ("5.1e-26", "g", "mp*Z+mn*(A-Z)-mNuc"),
+        (11, 39, 8): ("4.59e-12", "J", "c^2*Dm"),
+        (11, 39, 9): ("1.1475e-12", "J", "Ebind*A^-1"),
+        (11, 40, 6): ("879000", "m/s", "B*R*q/m"),
+    }
+)
+
+
+NUMERIC_ORACLES.update(
+    {
+        (11, 41, 6): ("1200", "1", "N0/(2^(t/T))"),
+        (11, 41, 7): ("6.25", "%", "1/(2^(t/T))"),
+        (11, 41, 8): ("0.012", "kBq", "N*decayRate"),
+        (11, 41, 9): ("0.0231", "1/s", "ell2*T^-1"),
+        (11, 42, 6): ("206", "1", "-4+A"),
+        (11, 42, 7): ("82", "1", "-2+Z"),
+        (11, 42, 8): ("12", "1", "1+Z"),
+        (11, 42, 9): ("4.5e-13", "J", "c^2*(mIn-mOut)"),
+        (11, 43, 6): ("100", "%", "(nU*2-nD)/3"),
+        (11, 43, 7): ("1.08e-11", "J", "c^2*mParent/2"),
+        (11, 44, 6): ("1.92e-10", "J", "Qsingle*Nevents"),
+    }
+)
 
 
 def new_answer(lesson, q):
@@ -1148,11 +1233,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        311,
-        5,
+        316,
+        0,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 40]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 59, 45, 45]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -1162,7 +1247,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 59
+    assert len(load_course()) == 60
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -1260,7 +1345,7 @@ def test_all_seventeen_http_lessons_replay_append_and_private_keys(preview):
         "available",
         "locked",
     ]
-    assert not cat["course_complete"]
+    assert cat["course_complete"]
     assert cat["grade_content_complete"] and len(cat["lessons"]) == 61
     assert [
         r["state"] for r in client.get(f"{PREFIX}/catalog?grade=7").json()["lessons"]
@@ -1370,12 +1455,10 @@ def test_all_reviewed_http_content_and_replay(preview):
     assert grade11["available_grades"] == [6, 7, 8, 9, 10, 11]
     assert len(grade11["lessons"]) == report()["grades"][-1]["authored"]
     assert all(l["state"] == "completed" for l in grade11["lessons"])
-    assert not grade11["grade_content_complete"]
-    assert not grade9[
-        "course_complete"
-    ]  # Grade11 is partial; completed grades do not imply 316/316.
+    assert grade11["grade_content_complete"]
+    assert grade9["course_complete"]  # All six imported grades now cover 316 sections.
     with factory() as db:
-        assert db.get(User, 1).xp_total == 3110
+        assert db.get(User, 1).xp_total == 3160
 
 
 @pytest.mark.parametrize(

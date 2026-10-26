@@ -59,6 +59,16 @@ def lessons(db, grade=6):
 def catalog(db, uid, grade=6):
     if grade not in SOURCE_SECTIONS:
         raise HTTPException(422, "unsupported_physics_grade")
+    # Content coverage depends on the actual imported rows, independently of
+    # an individual learner's completion or a publication/release decision.
+    imported_sequences = {g: [] for g in SOURCE_SECTIONS}
+    for imported_grade, sequence in (
+        db.query(CurriculumLessonV2.grade, CurriculumLessonV2.sequence)
+        .filter_by(subject="fizika")
+        .order_by(CurriculumLessonV2.grade, CurriculumLessonV2.sequence)
+    ):
+        if imported_grade in imported_sequences:
+            imported_sequences[imported_grade].append(sequence)
     progress = {
         p.lesson_key: p for p in db.query(AssessmentV2Progress).filter_by(user_id=uid)
     }
@@ -90,16 +100,13 @@ def catalog(db, uid, grade=6):
         "publication": "local_test_preview_only",
         "source_sections": SOURCE_SECTIONS[grade],
         "implemented_sections": len(result),
-        "course_complete": False,
+        "course_complete": all(
+            imported_sequences[g] == list(range(1, total + 1))
+            for g, total in SOURCE_SECTIONS.items()
+        ),
         "grade_content_complete": [r["sequence"] for r in result]
         == list(range(1, SOURCE_SECTIONS[grade] + 1)),
-        "available_grades": [
-            g
-            for g in SOURCE_SECTIONS
-            if db.query(CurriculumLessonV2.key)
-            .filter_by(subject="fizika", grade=g, sequence=1)
-            .first()
-        ],
+        "available_grades": [g for g in SOURCE_SECTIONS if 1 in imported_sequences[g]],
         "lessons": result,
     }
 

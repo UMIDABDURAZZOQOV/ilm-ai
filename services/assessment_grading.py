@@ -79,6 +79,8 @@ UNITS = {
     "ms": ("time", Fraction(1, 1000)),
     "µs": ("time", Fraction(1, 10**6)),
     "ns": ("time", Fraction(1, 10**9)),
+    "Bq": ("activity", Fraction(1)),
+    "kBq": ("activity", Fraction(1000)),
     "µPa": ("pressure", Fraction(1, 10**6)),
     "J*s": ("action", Fraction(1)),
     "m*K": ("wien_constant", Fraction(1)),
@@ -500,6 +502,11 @@ def formula_ast(text, spec):
                     raise AnswerError("domain_error") from None
                 if exponent == Fraction(1, 2):
                     return ("power", left, ("number", "1/2"))
+            # Opt-in closed decay formulas may contain a symbolic exponent.
+            # This is structural comparison ONLY: no learner expression executes.
+            # Reviewed arithmetic separately bounds the fixed-base halfperiod.
+            if spec.get("allow_variable_power") is True and right[0] != "number":
+                return ("power", left, right)
             if (
                 right[0] != "number"
                 or Fraction(right[1]).denominator != 1

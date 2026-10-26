@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 311,
-  "remaining": 5,
+  "authored": 316,
+  "remaining": 0,
   "grades": [
     {
       "grade": 6,
@@ -78,50 +78,95 @@
     {
       "grade": 11,
       "source_sections": 45,
-      "authored": 40,
-      "remaining": 5,
-      "cards": 200,
-      "formula_entries": 114,
-      "examples": 40,
-      "assessments": 317,
-      "frq": 116,
+      "authored": 45,
+      "remaining": 0,
+      "cards": 225,
+      "formula_entries": 125,
+      "examples": 45,
+      "assessments": 354,
+      "frq": 127,
       "laboratories": 3,
       "practicals": 0,
-      "next_section": 41
+      "next_section": null
     }
   ],
-  "original_page_checks": 905,
   "date": "2026-10-26",
-  "next": {
-    "grade": 11,
-    "section": 41,
-    "pdf_page": 168,
-    "printed_page": 167
-  },
-  "unique_original_pages_reviewed": 872,
   "totals": {
-    "cards": 1388,
-    "formula_entries": 769,
-    "examples": 331,
-    "assessments": 2268,
-    "frq": 837
+    "cards": 1413,
+    "formula_entries": 780,
+    "examples": 336,
+    "assessments": 2305,
+    "frq": 848,
+    "laboratories": 31,
+    "practicals": 5
   },
-  "executable_formula_families": 654,
+  "executable_formula_families": 665,
+  "new_reviewed_formula_families": 660,
+  "legacy_v2_formula_families": 5,
+  "original_page_checks": 924,
+  "unique_original_pages_reviewed": 890,
+  "next": null,
   "tests": {
-    "physics_biology_passed": 2115,
-    "postgres_opt_in_skipped": 2,
-    "sandbox_deselected": 2,
-    "backend_seconds": 372.05,
-    "postgresql16_passed": 1,
-    "postgresql_seconds": 122.07,
-    "flutter_physics_passed": 28,
-    "flutter_seconds": 97,
-    "flutter_analyze": "No issues found (2.1s)",
-    "grade11_public_frq_drafts": 116,
-    "new_content_passed": 41,
-    "new_content_seconds": 3.37,
-    "previous_backend_except_two_sandbox_passed": 1913,
-    "previous_full_flutter_passed": 154
+    "backend_except_two_sandbox": {
+      "passed": 2272,
+      "seconds": 568.38,
+      "skipped": 4,
+      "deselected": 2,
+      "warnings": 13
+    },
+    "postgresql16": {
+      "passed": 1,
+      "seconds": 130.25
+    },
+    "flutter_full": {
+      "passed": 154,
+      "seconds": 117
+    },
+    "flutter_analyze": "No issues found (1.9s)",
+    "web_build": {
+      "passed": true,
+      "seconds": 59.9,
+      "target": "lib/main.dart",
+      "defines": {
+        "PHYSICS_PREVIEW": true,
+        "API_URL": "http://127.0.0.1:8887"
+      },
+      "browser_run": false
+    },
+    "final_five_section_tests": {
+      "passed": 39,
+      "seconds": 3.09
+    },
+    "coverage_and_missing_import_tests": {
+      "passed": 4,
+      "seconds": 32.01
+    },
+    "biology": {
+      "complete": true,
+      "books": 7,
+      "chapters": 46,
+      "introductions": 1,
+      "theory_lessons": 355,
+      "digital_activities": 51,
+      "cards": 2527,
+      "questions": 2609
+    },
+    "native_android": "not_run_sdk_and_adb_absent",
+    "independent_subject_pedagogy_review": "not_claimed",
+    "live_tcp_current316": "not_rerun"
   },
-  "native_android": "not_run_sdk_absent"
+  "branches": {
+    "backend": "feat/physics-curriculum-map",
+    "flutter": "feat/physics-first-batch"
+  },
+  "backend_parent_checkpoint": "a0c21c7",
+  "finalization_commit": "the commit containing this report",
+  "release_status": "local_test_preview_only; no production deploy/import/main merge/store release",
+  "limitations": [
+    "Independent scientific/pedagogical expert approval not claimed; source errata recorded in SOURCE_REVIEW.md.",
+    "Native Android SDK/adb absent; APK/physical device not run.",
+    "Two unchanged sandbox tests deselected: automatic approval review service usage limit prevented outside-Git tempdir execution. No guard bypass or weakening; prior pass is not current pass.",
+    "Original private PDFs are intentionally excluded from Git. Source-stage historical require-complete audit remains distinct from316authored-section coverage.",
+    "Whole half-life arithmetic supports exact whole periods; no general exponential/CAS solver or AI Explain."
+  ]
 }

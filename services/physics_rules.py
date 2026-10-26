@@ -11,19 +11,106 @@ from math import isqrt
 from services.assessment_grading import UNITS, numeric, square_root_quantity
 
 
-def rule(target, variables, equivalents, conditions, *, square_root=False):
+def rule(
+    target,
+    variables,
+    equivalents,
+    conditions,
+    *,
+    square_root=False,
+    variable_power=False,
+):
     result = {
         "target": target,
         "variables": variables,
         "equivalents": equivalents,
         "conditions": conditions,
     }
+    if variable_power:
+        result["allow_variable_power"] = True
     if square_root:
         result["allow_square_root"] = True
     return result
 
 
 REVIEWED_FORMULAS = {
+    "whole_half_life_remaining": rule(
+        "N",
+        ["N0", "t", "T"],
+        ["N0*2^(-t/T)", "N0/(2^(t/T))"],
+        "Expectedparentensemble,wholeperiod0<=t/T<=4096,positivewholeN0,notindividualtime;11PDF170.",
+        variable_power=True,
+    ),
+    "whole_half_life_fraction": rule(
+        "fRemain",
+        ["t", "T"],
+        ["2^(-t/T)", "1/(2^(t/T))"],
+        "Parentexpectedremainingfraction,wholeperiod0<=t/T<=4096;11PDF170.",
+        variable_power=True,
+    ),
+    "decay_activity_count": rule(
+        "Act",
+        ["decayRate", "N"],
+        ["decayRate*N", "N*decayRate"],
+        "Positive -dN/dt parentactivityBq,decayRatepositive1/s,Nnonnegativewhole,notdose;11PDF170.",
+        variable_power=False,
+    ),
+    "half_life_decay_constant": rule(
+        "decayRate",
+        ["ell2", "T"],
+        ["ell2/T", "ell2*T^-1"],
+        "ell2=.693explicitln2approx,T>0seconds,result1/snotcyclefrequency;11PDF170.",
+        variable_power=False,
+    ),
+    "alpha_daughter_mass_number": rule(
+        "Ad",
+        ["A", "Z"],
+        ["A-4", "-4+A"],
+        "Alpha bookkeeping,wholevalidnucleusA>=5,Z>=2,daughtervalid;11PDF172.",
+        variable_power=False,
+    ),
+    "alpha_daughter_charge_number": rule(
+        "Zd",
+        ["A", "Z"],
+        ["Z-2", "-2+Z"],
+        "Samealpha daughter,Z>=2andA-Z>=2;11PDF172.",
+        variable_power=False,
+    ),
+    "beta_minus_daughter_charge": rule(
+        "Zd",
+        ["A", "Z"],
+        ["Z+1", "1+Z"],
+        "BetaMINUSonly,parenthasneutron,Aunchanged,antineutrinonoted;11PDF173.",
+        variable_power=False,
+    ),
+    "reaction_rest_mass_q": rule(
+        "Q",
+        ["mIn", "mOut", "c"],
+        ["(mIn-mOut)*c^2", "c^2*(mIn-mOut)"],
+        "SIGNEDQfromconsistentcompleteRESTmassinventory,c3e8givenapprox,notreactionrateprediction;11PDF172.",
+        variable_power=False,
+    ),
+    "valence_ud_charge_ratio": rule(
+        "qOverE",
+        ["nU", "nD"],
+        ["(2*nU-nD)/3", "(nU*2-nD)/3"],
+        "ThreeVALENCEu/dquarkbookkeeping,nonnegativewholecounts,sum3;charge/eunitless;11PDF177.",
+        variable_power=False,
+    ),
+    "two_photon_rest_decay_energy": rule(
+        "Eq",
+        ["mParent", "c"],
+        ["mParent*c^2/2", "c^2*mParent/2"],
+        "ParentATREST,exactlyTWOphotons/oppositeequalenergies,mParent>0,c3e8;11PDF178.",
+        variable_power=False,
+    ),
+    "event_energy_total": rule(
+        "Etotal",
+        ["Nevents", "Qsingle"],
+        ["Nevents*Qsingle", "Qsingle*Nevents"],
+        "Abstractgivenenergy/event,wholecount,NOreactordesign/operatingprediction;11PDF180.",
+        variable_power=False,
+    ),
     "vacuum_photon_energy_wavelength": rule(
         "Eq",
         ["h", "c", "Lw"],
@@ -3846,6 +3933,7 @@ REVIEWED_FORMULAS = {
 DIMENSION_UNIT = {
     "irradiance": "W/m2",
     "action": "J*s",
+    "activity": "Bq",
     "solid_angle": "sr",
     "luminous_flux": "lm",
     "luminous_intensity": "cd",
@@ -3938,6 +4026,79 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name in {"whole_half_life_remaining", "whole_half_life_fraction"}:
+        n = value("t", "time") / positive("T", "time")
+        if n.denominator != 1 or n > 4096:
+            raise ValueError("authored_whole_halfperiod_0_to_4096_required")
+        fraction = Fraction(1, 2 ** int(n))
+        if name == "whole_half_life_fraction":
+            return fraction, "dimensionless"
+        count = positive("N0", "dimensionless")
+        if count.denominator != 1 or givens["N0"]["unit"] != "1":
+            raise ValueError("positive_whole_initial_parent_count_required")
+        return count * fraction, "dimensionless"
+    if name == "decay_activity_count":
+        n = value("N", "dimensionless")
+        if (
+            n.denominator != 1
+            or givens["N"]["unit"] != "1"
+            or givens["decayRate"]["unit"] != "1/s"
+        ):
+            raise ValueError("parent_count_and_reciprocal_second_required")
+        return positive("decayRate", "frequency") * n, "activity"
+    if name == "half_life_decay_constant":
+        ell2 = positive("ell2", "dimensionless")
+        if ell2 != Fraction("0.693"):
+            raise ValueError("explicit_ln2_book_approximation_required")
+        return ell2 / positive("T", "time"), "frequency"
+    if name in {
+        "alpha_daughter_mass_number",
+        "alpha_daughter_charge_number",
+        "beta_minus_daughter_charge",
+    }:
+        a, z = positive("A", "dimensionless"), value("Z", "dimensionless")
+        if (
+            a.denominator != 1
+            or z.denominator != 1
+            or z > a
+            or givens["A"]["unit"] != "1"
+            or givens["Z"]["unit"] != "1"
+        ):
+            raise ValueError("valid_whole_nuclear_counts_required")
+        if name == "beta_minus_daughter_charge":
+            if z >= a:
+                raise ValueError("beta_minus_parent_neutron_required")
+            return z + 1, "dimensionless"
+        if a < 5 or z < 2 or a - z < 2:
+            raise ValueError("alpha_daughter_bookkeeping_invalid")
+        return (
+            a - 4 if name == "alpha_daughter_mass_number" else z - 2
+        ), "dimensionless"
+    if name in {"reaction_rest_mass_q", "two_photon_rest_decay_energy"}:
+        c = positive("c", "speed")
+        if c != 300_000_000:
+            raise ValueError("explicit_air_vacuum_school_speed_required")
+        if name == "reaction_rest_mass_q":
+            return (
+                positive("mIn", "mass") - positive("mOut", "mass")
+            ) * c * c, "energy"
+        return positive("mParent", "mass") * c * c / 2, "energy"
+    if name == "valence_ud_charge_ratio":
+        u, d = value("nU", "dimensionless"), value("nD", "dimensionless")
+        if (
+            u.denominator != 1
+            or d.denominator != 1
+            or u + d != 3
+            or givens["nU"]["unit"] != "1"
+            or givens["nD"]["unit"] != "1"
+        ):
+            raise ValueError("three_whole_valence_u_d_required")
+        return (2 * u - d) / 3, "dimensionless"
+    if name == "event_energy_total":
+        n = value("Nevents", "dimensionless")
+        if n.denominator != 1 or givens["Nevents"]["unit"] != "1":
+            raise ValueError("whole_event_count_required")
+        return n * positive("Qsingle", "energy"), "energy"
     if name in {"vacuum_photon_energy_wavelength", "vacuum_photon_momentum"}:
         h = positive("h", "action")
         if h != Fraction("6.626e-34"):
