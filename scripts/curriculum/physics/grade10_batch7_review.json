@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "batch": "grade10_batch7",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-10",
+  "book_sha256": "c61fa29d1f1e52c6bb426bac72c3a1fa803d166b7c78a886ee1dbd80c839fa64",
+  "batch_file_sha256": "13e0d5dcf3642c425badfa1c9c722908926f4d8b3699e440243343cc24e38335",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 119,
+      "printed_page": 118,
+      "text_sha256": "f563c7a2fca18ad74008b3c3aa075bb252ca561534b4482030691c0637236b93",
+      "reviewed_render_sha256": "79a99939dfc1304d9b0519d08e697599b5b482d36ce3870fe194ab80d625fa29",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": 119,
+      "text_sha256": "6692645d72a04b724aa70e501e01a0a21759eea5def6f6d98c9d32592217ec91",
+      "reviewed_render_sha256": "ebe41e6bc40f7f03841320921963b1bbfae0ffbf879489d4464829c81908b8a7",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": 120,
+      "text_sha256": "ff10b9a57252ea214d1f6bba882b041a8abf6135e0cb02bae22f642d9cb811c2",
+      "reviewed_render_sha256": "6d862b10e1f9641914506a4df472bf9c7d56376923189f606dd206b34afab52f",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 122,
+      "printed_page": 121,
+      "text_sha256": "191ff885312d1332a43e0a9ef79a3f1ac1fe54c27069ea126631e7b8edf65655",
+      "reviewed_render_sha256": "2a9d56438f2d9f97202e3694220f88805c6aac590a747a34b1232fe2c6940d42",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 123,
+      "printed_page": 122,
+      "text_sha256": "bac94ea63316aec19eb2f0119b39af5ecf0f517245fcd4aa5387dd4b1a54f3ae",
+      "reviewed_render_sha256": "6c6651dd7ce527f3e209a2838e7a82e426370f50b2dc5184a7b60c042ee65fce",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 124,
+      "printed_page": 123,
+      "text_sha256": "28165d923f22f77a63f246a3a3209f497da14860bb9b04d66d4f91a4fa75fcab",
+      "reviewed_render_sha256": "ad7c8e4d78e0f7dfdc6b394ed07f4bf6b33c11211fec1239f2555bdb73a7afff",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 125,
+      "printed_page": 124,
+      "text_sha256": "935a1f3c9f10be9d82a84f0c8a523bfb8ecdfb2a91e25748231ee75d00202cb9",
+      "reviewed_render_sha256": "34e324892e27d9c677e6450d50c21083e100732e7ec7d6d06e621963bea0755e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 126,
+      "printed_page": 125,
+      "text_sha256": "f9d813334a6a3223534f67bfa5343f5d2515680bb3609a8bb5d737fa955ff952",
+      "reviewed_render_sha256": "6f8f62548463ecd4bfa7044fda9615aa8d1d937e2286ef6dcae0b80618203651",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 127,
+      "printed_page": 126,
+      "text_sha256": "3ce20aef21f6f0c18f831ccfc3de4354e353cbb5e89389ab2b0d95124fb9f6a7",
+      "reviewed_render_sha256": "9c5a533560ccc40ee6d6aa161a42cc485762de009e0d8a9d9a1ffec1d9e81854",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": 127,
+      "text_sha256": "edefa2322dd0edcf9fc12ea160c5e61262379175503dd1863aeafb20515e8d25",
+      "reviewed_render_sha256": "7fdad193691f6b8c4b7ba172c2ba5e5d20da168867a3640fab58114b042051fa",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 129,
+      "printed_page": 128,
+      "text_sha256": "82b0404021579a849b2a7fa5a630c77600de8e656c02f49f7073df1d077386a4",
+      "reviewed_render_sha256": "db6175734d1f7618d25674055aa9e624d37a48d484ff1fa27a59b03df6b42e06",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 133,
+      "printed_page": 132,
+      "text_sha256": "5cdd92b81f0d3b52441fae78a86172767d6b81c9c65a4008dd8616e4ea9dcbf6",
+      "reviewed_render_sha256": "02f1672144ed7e2fbc51651339d0d3804d88e32c988c1dd1d356b7843055b17d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 134,
+      "printed_page": 133,
+      "text_sha256": "933c81f5dbd50ed1cdb23e8bd1b70a71067e02bbe9bd0e38f3132f56a75c3a5e",
+      "reviewed_render_sha256": "b3a4a2d440b54f293ff18117b2856af870cb4813b8bcbdc6fda93f911f2eb3e0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 135,
+      "printed_page": 134,
+      "text_sha256": "950568ef1acfde1d1bd7c8fab50c04f3efd494b34deff46accb6834bb50fc795",
+      "reviewed_render_sha256": "c31b8cd71ecfbceb0be634fd9a663ac2f935ae5f1c7c031e6308582b9eb64548",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 136,
+      "printed_page": 135,
+      "text_sha256": "f0d8fe32ee604481e6ce18a2ab22144a0f634e0c753dfd156dc5c8a6fa9cc25a",
+      "reviewed_render_sha256": "f7c86c0281597bedbf531978bcaacdceeea339f1af700d8eafc437e0100e1344",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 137,
+      "printed_page": 136,
+      "text_sha256": "62c8884cc0ad244b04a503238f89686b5f4fb87712e34cb66c6f6b92e70ffa29",
+      "reviewed_render_sha256": "813b2a5a461a5c16c59d1ecb6741db6edbccea76cc47094be4b2314a3c7fc299",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        119,
+        120,
+        121
+      ],
+      "decision": "Native hashes and original images checked. Isolated conducting sphere in electrostatic equilibrium: interior E0, exterior radial point-charge magnitude at distance from CENTRE, just-outside surface r=R. Not uniformly volume-charged insulating sphere. Dielectric E0/eps for fixed free charges/homogeneous linear model, not fixed-voltage universal reduction. eps dimensionless>=1. Field strength vs dielectric polarization distinct."
+    },
+    {
+      "pages": [
+        121,
+        122,
+        123
+      ],
+      "decision": "Original formulas/images checked. Signed potential zero at infinity, phi=k*q/(eps*r), potential energy qTest*phi signed, potential independent of test charge. Source121 statement that field always resists bringing a test charge is false for opposite sign: attraction/repulsion distinguished. Source122 W_-q/q notation not copied as sign convention; use explicit SIGNED test charge. Equipotentials are 3D surfaces, circles are section. Source123 E=(phi1-phi2)/d is uniform field/component along oriented displacement ONLY, not arbitrary point-field finite difference. Conducting sphere interior phi same as surface but E0, r measured from centre; source30nC/5cm worked values5400/2700V consistent."
+    },
+    {
+      "pages": [
+        124,
+        125,
+        126
+      ],
+      "decision": "Original images checked. Electrostatic field work q*(phi_initial-phi_final)=W_initial-W_final=-DeltaW, path independent/static field and fixed endpoints. Source125 E*dx=phi2-phi1 and A=q(U2-U1) wording/sign convention conflicts source122; retain named INITIAL/FINAL and standard negative-gradient sign. Along-axis displacement SIGNED, q signed, cosPhi bounded[-1,1] only provided value, no general trig. Conservative field closed-loop work0 not nonconservative induction generalization."
+    },
+    {
+      "pages": [
+        126,
+        127,
+        128,
+        129
+      ],
+      "decision": "Original all1/2 coefficients and cap qoneplate/Ubetweenplates checked. Constant linearC/quasistaticcharging fromzero: W=qU/2=CU²/2=q²/(2C), isolatedconductor phi referencedinfinity. Fieldenergy w=eps0*eps*E²/2 in homogeneous LINEAR ideal parallelplate model, edgeeffects ignored. Generaldielectric/nonlinear/fixedCallconditionsnotassumed. Source129exercise5 midpoint +.4uC/-.6uC at.06m gives -30000V not -30V;exercise10 q2uC/W.5uJ gives4uF not16uF; keys not copied. Source128W/m³ vs J/m³ correctly energy density J/m³. Capacitorleakage not instantallidealmodels; no physical charging task."
+    },
+    {
+      "pages": [
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "decision": "Original images/native checked. Conductance gamma=1/R in S vs material conductivity S/m. Ohm I=G*U only fixed-temperature ohmic element. Source134 copper8.4e23m^-3 is not accepted as verified general concentration (typical free-electron model order10^28), no claim copied. Classical ballistic t/2 drift derivation only textbook simplified model, not universal collision-time factor. Transport current I=n*e*S*vdrift with supplied conditional n/e, e positive modulus1.6e-19, conventional current opposite electron drift. Source136 graph verticalU horizontalI slope R, not conductance. Material conductivity depends conditions; no DIY mains or clinical-water-quality claims."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 31,
+      "topic_id": "physics-10-section-31",
+      "pdf_pages": [
+        119,
+        120,
+        121
+      ],
+      "printed_pages": [
+        118,
+        119,
+        120
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 3
+    },
+    {
+      "sequence": 32,
+      "topic_id": "physics-10-section-32",
+      "pdf_pages": [
+        121,
+        122,
+        123
+      ],
+      "printed_pages": [
+        120,
+        121,
+        122
+      ],
+      "cards": 5,
+      "formula_rules": 5,
+      "worked_examples": 1,
+      "assessments": 10,
+      "frq": 5
+    },
+    {
+      "sequence": 33,
+      "topic_id": "physics-10-section-33",
+      "pdf_pages": [
+        124,
+        125,
+        126
+      ],
+      "printed_pages": [
+        123,
+        124,
+        125
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 3
+    },
+    {
+      "sequence": 34,
+      "topic_id": "physics-10-section-34",
+      "pdf_pages": [
+        126,
+        127,
+        128,
+        129
+      ],
+      "printed_pages": [
+        125,
+        126,
+        127,
+        128
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 35,
+      "topic_id": "physics-10-section-35",
+      "pdf_pages": [
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "printed_pages": [
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    }
+  ]
+}

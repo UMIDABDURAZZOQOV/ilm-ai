@@ -73,6 +73,13 @@ def expected_quantity(spec):
 # PDF12–14 (length/time), PDF21 (film V/S), PDF28 (front h/t),
 # PDF29–35 (mass, volume and density), PDF37–38 (laboratory volumes).
 UNITS = {
+    # Grade10 PDF133: element conductance, distinct from material S/m.
+    "S": ("conductance", Fraction(1)),
+    "mS": ("conductance", Fraction(1, 1000)),
+    # Grade10 PDF128: energy per volume in the linear dielectric model.
+    "J/m3": ("energy_density", Fraction(1)),
+    "mJ/m3": ("energy_density", Fraction(1, 1000)),
+    "µJ/m3": ("energy_density", Fraction(1, 10**6)),
     "m": ("length", Fraction(1)),
     "cm": ("length", Fraction(1, 100)),
     "mm": ("length", Fraction(1, 1000)),
@@ -166,6 +173,9 @@ UNITS = {
     "pN": ("force", Fraction(1, 10**12)),
     "N*m2/C2": ("coulomb_constant", Fraction(1)),
     "N/C": ("electric_field", Fraction(1)),
+    # Grade10 PDF117: equivalent electric-field units; preserve case.
+    "V/m": ("electric_field", Fraction(1)),
+    "kV/m": ("electric_field", Fraction(1000)),
     # Grade8 PDF42/48/51: current, resistance, resistivity and square millimetres.
     "A": ("current", Fraction(1)),
     "mA": ("current", Fraction(1, 1000)),

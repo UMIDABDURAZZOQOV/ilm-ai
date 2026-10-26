@@ -24,6 +24,102 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "sphere_exterior_field": rule(
+        "E",
+        ["k", "q", "r", "R"],
+        ["k*q/r^2", "k*q/(r*r)"],
+        "Isolated spherically symmetric CONDUCTOR in electrostatic equilibrium, VACUUM, q magnitude, r>=R>0 from CENTRE, at R exterior limit;10PDF119–120.",
+    ),
+    "signed_point_potential": rule(
+        "phi",
+        ["k", "q", "eps", "r"],
+        ["k*q/(eps*r)", "q*k/r/eps"],
+        "Point source in homogeneous linear dielectric eps>=1, SIGNED q, zero potential at INFINITY, r>0;10PDF121–122.",
+    ),
+    "signed_charge_potential_energy": rule(
+        "W",
+        ["qTest", "phi"],
+        ["qTest*phi", "phi*qTest"],
+        "SIGNED test charge and potential relative to SAME chosen zero, negligible test-source perturbation;10PDF121–122.",
+    ),
+    "signed_potential_difference": rule(
+        "U",
+        ["phi1", "phi2"],
+        ["phi1-phi2", "phi1+(-phi2)"],
+        "SIGNED electrostatic potentials SAME reference;1initial,2final;10PDF122.",
+    ),
+    "sphere_interior_potential": rule(
+        "phi",
+        ["k", "q", "R", "r"],
+        ["k*q/R", "q*k/R"],
+        "Isolated conducting sphere in VACUUM/electrostatic equilibrium, SIGNED q, zero infinity,0<=r<=R from centre; potential constant even though internal E0;10PDF123.",
+    ),
+    "uniform_field_potential_component": rule(
+        "Ex",
+        ["phi1", "phi2", "d"],
+        ["(phi1-phi2)/d", "phi1/d-phi2/d"],
+        "UNIFORM electrostatic field, d>0 displacement from point1 to2 along POSITIVE x, signed potentials same reference, not arbitrary finite difference of point field;10PDF123.",
+    ),
+    "electrostatic_work_potentials": rule(
+        "A",
+        ["q", "phiInitial", "phiFinal"],
+        ["q*(phiInitial-phiFinal)", "q*phiInitial-q*phiFinal"],
+        "Work BY electrostatic field, signed q and potentials, fixed source endpoints/reference, not external agent work;10PDF125–126 correcting source index ambiguity.",
+    ),
+    "electrostatic_uniform_work": rule(
+        "A",
+        ["q", "Ex", "dx"],
+        ["q*Ex*dx", "Ex*dx*q"],
+        "UNIFORM electrostatic field, signed charge/field/displacement components SAME oriented axis, dx not path length;10PDF125.",
+    ),
+    "electrostatic_cosine_data_work": rule(
+        "A",
+        ["q", "E", "s", "cosPhi"],
+        ["q*E*s*cosPhi", "s*E*cosPhi*q"],
+        "UNIFORM electrostatic field, signed q, nonnegative field/displacement magnitudes, PROVIDED cosine between FIELD and displacement[-1,1], not angle/force direction;10PDF125–126.",
+    ),
+    "capacitor_energy_qu": rule(
+        "W",
+        ["q", "U"],
+        ["q*U/2", "0.5*U*q"],
+        "Initially uncharged IDEAL LINEAR constantC quasistatic capacitor, q ONE-plate charge magnitude,U voltage magnitude, stored energy not constant-field transport qU;10PDF127.",
+    ),
+    "capacitor_energy_cu": rule(
+        "W",
+        ["C", "U"],
+        ["C*U^2/2", "0.5*U*U*C"],
+        "Ideal LINEAR constantC>0, voltage MAGNITUDE, stored electric energy, not all nonlinear media;10PDF127.",
+    ),
+    "capacitor_energy_qc": rule(
+        "W",
+        ["q", "C"],
+        ["q^2/(2*C)", "q*q/C/2"],
+        "Ideal LINEAR constantC>0, q ONE plate charge MAGNITUDE, stored energy;10PDF127.",
+    ),
+    "linear_electric_energy_density": rule(
+        "w",
+        ["e0", "eps", "E"],
+        ["e0*eps*E^2/2", "eps*e0*E*E/2"],
+        "Homogeneous LINEAR dielectric ideal parallel plates/edge effects ignored, eps>=1,e0=8.85e-12F/m given, energy per volume J/m3;10PDF128.",
+    ),
+    "electric_conductance": rule(
+        "G",
+        ["R"],
+        ["1/R", "R^-1"],
+        "Positive element resistance, G=source gamma in SIEMENS S, not material conductivity S/m;10PDF133.",
+    ),
+    "conductance_current": rule(
+        "I",
+        ["G", "U"],
+        ["G*U", "U*G"],
+        "Fixed-temperature OHMIC element, positive conductance G, current/voltage MAGNITUDES;10PDF135.",
+    ),
+    "drift_current_magnitude": rule(
+        "I",
+        ["n", "e", "S", "vDrift"],
+        ["n*e*S*vDrift", "e*n*vDrift*S"],
+        "Single-carrier uniform model, PROVIDED positive number density, e1.6e-19C positive modulus, area>0, drift speed MAGNITUDE not random speed, conventional I opposite electron drift;10PDF135.",
+    ),
     "mechanical_wavelength": rule(
         "Lw",
         ["v", "nu"],
@@ -2939,6 +3035,8 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "conductance": "S",
+    "energy_density": "J/m3",
     "angular_acceleration": "rad/s2",
     "angle_degrees": "°",
     "specific_energy": "J/kg",
@@ -3020,6 +3118,74 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name in {
+        "sphere_exterior_field",
+        "sphere_interior_potential",
+        "signed_point_potential",
+    }:
+        k = positive("k", "coulomb_constant")
+        if k != 9_000_000_000:
+            raise ValueError("explicit_vacuum_coulomb_constant")
+        r = value("r", "length")
+        if name == "signed_point_potential":
+            eps = positive("eps", "dimensionless")
+            if eps < 1 or r <= 0:
+                raise ValueError("positive_distance_ordinary_dielectric")
+            return k * projection("q", "charge") / (eps * r), "voltage"
+        R = positive("R", "length")
+        if name == "sphere_exterior_field":
+            if r < R:
+                raise ValueError("exterior_point_from_sphere_centre_required")
+            return k * value("q", "charge") / r**2, "electric_field"
+        if r > R:
+            raise ValueError("interior_point_from_sphere_centre_required")
+        return k * projection("q", "charge") / R, "voltage"
+    if name == "signed_charge_potential_energy":
+        return projection("qTest", "charge") * projection("phi", "voltage"), "energy"
+    if name in {"signed_potential_difference", "uniform_field_potential_component"}:
+        U = projection("phi1", "voltage") - projection("phi2", "voltage")
+        return (
+            (U, "voltage")
+            if name == "signed_potential_difference"
+            else (U / positive("d", "length"), "electric_field")
+        )
+    if name == "electrostatic_work_potentials":
+        return projection("q", "charge") * (
+            projection("phiInitial", "voltage") - projection("phiFinal", "voltage")
+        ), "energy"
+    if name == "electrostatic_uniform_work":
+        return projection("q", "charge") * projection(
+            "Ex", "electric_field"
+        ) * projection("dx", "length"), "energy"
+    if name == "electrostatic_cosine_data_work":
+        c = projection("cosPhi", "dimensionless")
+        if abs(c) > 1:
+            raise ValueError("provided_field_displacement_cosine_range")
+        return projection("q", "charge") * value("E", "electric_field") * value(
+            "s", "length"
+        ) * c, "energy"
+    if name == "capacitor_energy_qu":
+        return value("q", "charge") * value("U", "voltage") / 2, "energy"
+    if name == "capacitor_energy_cu":
+        return positive("C", "capacitance") * value("U", "voltage") ** 2 / 2, "energy"
+    if name == "capacitor_energy_qc":
+        return value("q", "charge") ** 2 / (2 * positive("C", "capacitance")), "energy"
+    if name == "linear_electric_energy_density":
+        e0, eps = positive("e0", "permittivity"), positive("eps", "dimensionless")
+        if e0 != Fraction("8.85e-12") or eps < 1:
+            raise ValueError("provided_permittivity_ordinary_linear_dielectric")
+        return e0 * eps * value("E", "electric_field") ** 2 / 2, "energy_density"
+    if name == "electric_conductance":
+        return 1 / positive("R", "resistance"), "conductance"
+    if name == "conductance_current":
+        return positive("G", "conductance") * value("U", "voltage"), "current"
+    if name == "drift_current_magnitude":
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_elementary_charge_modulus_required")
+        return positive("n", "number_density") * e * positive("S", "area") * value(
+            "vDrift", "speed"
+        ), "current"
     if name == "mechanical_wavelength":
         return positive("v", "speed") / positive("nu", "frequency"), "length"
     if name == "mechanical_wave_speed":

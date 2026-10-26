@@ -1,3 +1,20 @@
+# Keyingi: 10-sinf §36–40 — 2026-10-26
+
+261/316 bo‘lim. 13asl sahifa PDF137–149 tasvir/nativehashlari o‘qildi. Bu source tayyorgarligi, runtime darslari hali qo‘shilmagan.
+
+PDF137,138,139: Original images/native hashes checked. Current magnitude q/t, density I/S for area perpendicular to uniform current, vector direction conventional positive-charge flow; carrier density times drift speed distinct random speed. Circular S=pD²/4, Ddiameter,p3.14 explicitly approximate. No copying source138 household wire current ratings as wiring guidance/universal safe values. Thermal/magnetic/chemical effects conceptual by media, not all currents deposit ions.
+
+PDF139,140,141,142: Original images checked. EMF non-electrostatic work per positive charge in VOLTS, not newton force. Constant ideal EMF+series internal ohmic resistance model DISCHARGING into passive R: I=Emf/(R+r),terminalU=IR,eta=R/(R+r). Open-circuitUapproximatelyEmf for negligible voltmeter load; no charging-mode universal U<=Emf claim. Short circuit explanation only; no physical test or optimization endorsement. R/r nonnegative with total>0; efficiency/current examples positive resistances.
+
+PDF142,143,144,145: Original diagrams checked. Kirchhoff signed conservation conceptual. Identical cells same orientation/integern: series netEmf=nEmf,rnet=nr;parallelEmf unchanged,rnet=r/n. Exact formulas used. Approx parallel n-times current requires R<<r/n, not merely R<<r at arbitrary n. Unequal same-polarity source model high-impedance voltmeter, weightedU=(E1*r2+E2*r1)/(r1+r2); signed loopI=(E2-E1)/(r1+r2) under stated direction. Source145 worked table pairs E1=2/r1=.6 and E2=1.5/r2=.4 yield1.7V but printed1.8 uses swapped resistance pairing; new conditional pairs explicit. No instruction to parallel real batteries.
+
+PDF146,147,148: Original images/formulas checked. Source146 uses n=I/Ig then Ir/Ig=n and n+1 inconsistency. Define m=fullrange/originalrange consistently: shuntRs=Rg/(m-1),parallel; voltageRadd=Rg*(m-1),series. Calibration multiplier m, not source147 contradictory m+1. m>1 need not integer. Source147 sample Ig5A,Rg.12/Rs.04 gives20A correctly; new independent values. Modifications only abstract digital model, no mains meter construction.
+
+PDF148,149: Original digital EMF/internal-resistance lab and conditional table source checked. No physicalmeasurementclaim. Negligible voltmeter current, openUapproximatelyEmf, closedUload; r=(Emf-Uload)/I and Emf=Uload+I*r, Emf>Uload>0/currentpositive. Source149exercise10 .8mA/Rg1k gives additional resistances2.75/17.75/92.75/186.5k rather than printed9/49/249/499k; not copied. Exercise11 printed100kA not used as credible galvanometer current. Data made conditional, no live circuit or shorting task.
+
+---
+Tarixiy manba qaydlari quyida saqlandi.
+
 # Keyingi: 10-sinf §31–35 — 2026-10-26
 
 §26–30 tekshirildi:256/316. Keyingi §31PDF119/bosma118.
