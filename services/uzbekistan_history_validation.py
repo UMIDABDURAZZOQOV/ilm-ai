@@ -24,6 +24,7 @@ BATCHES = {
     "grade7_batch5": (7, 21, 25),
     "grade7_batch6": (7, 26, 30),
     "grade7_batch7": (7, 31, 35),
+    "grade7_batch8": (7, 36, 40),
 }
 
 fingerprint = digest
@@ -48,6 +49,17 @@ def chronology_bounds(time):
 
 
 def validate_ref(ref, book, topic, facts=None):
+    if ref["topic_id"] != topic["id"]:
+        prior = next((t for t in book["topics"] if t["id"] == ref["topic_id"]), None)
+        require(
+            prior is not None
+            and prior["sequence"] < topic["sequence"]
+            and ref.get("cross_topic_reference") == "reviewed_prior_context"
+            and ref.get("source_topic_sha256") == digest(prior)
+            and ref.get("source_title") == prior["title"],
+            "unreviewed_or_future_context_reference",
+        )
+        topic = prior
     require(
         ref["book_id"] == book["id"]
         and ref["grade"] == book["grade"]

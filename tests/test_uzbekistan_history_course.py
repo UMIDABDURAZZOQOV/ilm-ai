@@ -25,6 +25,7 @@ from services.uzbekistan_history_validation import (
     chronology_bounds,
     load_course,
     validate_batch,
+    validate_ref,
 )
 
 P = "/preview/uzbekistan-history/v2"
@@ -127,6 +128,19 @@ ORDER.update({31: ["e1", "e2", "e3"], 32: ["e1", "e2", "e3"],
     33: ["e1", "e2", "e3", "e4"], 34: ["e1", "e2", "e3", "e4", "e5"],
     35: ["e1", "e2", "e3", "e4"]})
 
+MCQ.update({
+    36: ["Shohrux", "1412-yil", "Tarnob", "Issiqko‘l"],
+    37: ["Abulxayrxon", "Abu Said", "Sulton Husayn Boyqaro", "Muhrdorlik"],
+    38: ["Banno", "Ustoz", "Tarxonlik yorlig‘i", "Hudud va savdo yo‘li alohida belgilangan"],
+    39: ["Saroymulkxonim", "Geometriya", "Shamsiddin Muhammad Xavofiy", "Buxoro"],
+    40: ["Samarqand", "Ziji jadidi Ko‘ragoniy", "G‘iyosiddin Jamshid", "Rasadxona"],
+})
+FRQ.update({36: ["Abdullatif", "Muhammad Miskin"], 37: ["Ubaydulloh Ahror", "Fayzulloh Abullays"],
+    38: ["Fulusi adliya", "Begor"], 39: ["Sanad", "Qozizoda Rumiy"],
+    40: ["Alouddin Ali Qushchi", "To'rt ulus tarixi"]})
+ORDER.update({36: ["e1", "e2", "e3", "e4", "e5", "e6"], 37: ["e1", "e2", "e3"],
+    39: ["e1", "e2", "e3"]})
+
 
 def course_lessons():
     return [l for d in load_course() for l in d["lessons"]]
@@ -156,7 +170,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 36))
+@pytest.mark.parametrize("seq", range(1, 41))
 def test_independent_source_answer_keys(seq):
     l = course_lessons()[seq - 1]
     for q, a in zip(l["assessments"], answers(l)):
@@ -267,6 +281,31 @@ def test_chronology_intervals_no_display_year_zero_or_elapsed_year_claim():
             chronology_bounds(t)
 
 
+@pytest.mark.parametrize("case", ["hash", "marker", "title", "future"])
+def test_prior_context_is_pinned_and_future_context_stays_blocked(case):
+    from services.uzbekistan_history_sources import digest, load_catalog
+
+    book = load_catalog()["books"][0]
+    lesson = course_lessons()[39]
+    topic = book["topics"][39]
+    ref = deepcopy(next(r for r in lesson["source_refs"] if r["topic_id"] != topic["id"]))
+    validate_ref(ref, book, topic, lesson["facts"])
+    if case == "hash":
+        ref["source_topic_sha256"] = "0" * 64
+    elif case == "marker":
+        ref["cross_topic_reference"] = "not_reviewed"
+    elif case == "title":
+        ref["source_title"] = "incorrect source paragraph"
+    else:
+        future = book["topics"][40]
+        ref.update(topic_id=future["id"], chapter_id=future["chapter_id"],
+                   source_topic_sha256=digest(future), source_title=future["title"],
+                   pdf_pages=[151], printed_pages=[151],
+                   native_text_sha256=[book["pages"][150]["native_text_sha256"]])
+    with pytest.raises(ValueError, match="unreviewed_or_future_context"):
+        validate_ref(ref, book, topic, lesson["facts"])
+
+
 @pytest.mark.parametrize(
     "case",
     [
@@ -360,8 +399,8 @@ def preview(tmp_path, monkeypatch):
                 User(id=2, name="QA2", email="uzh-qa2@example.test", xp_total=0),
             ]
         )
-        assert import_course(db) == {"created": 35, "skipped": 0}
-        assert import_course(db) == {"created": 0, "skipped": 35}
+        assert import_course(db) == {"created": 40, "skipped": 0}
+        assert import_course(db) == {"created": 0, "skipped": 40}
     app = FastAPI()
     app.include_router(router)
 
@@ -418,31 +457,32 @@ def complete_lesson(client, l, request=None):
     return a, r.json()
 
 
-def test_real_api_all_thirty_five_sources_xp_replay_and_legacy_preservation(preview):
+def test_real_api_all_forty_sources_xp_replay_and_legacy_preservation(preview):
     c, f = preview
     catalog = c.get(P + "/catalog").json()
     assert catalog["subject"] == "ozbekiston_tarixi" and catalog["book"]["grade"] == 7
     assert catalog["lessons"][0]["source_numbers"] == [1]
     assert catalog["book"]["isbn"] == "978-9943-26-656-8"
-    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 35
+    assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 40
     assert catalog["available_grades"] == [7] and catalog["blocked_grades"] == [8]
-    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 34
+    assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 39
     assert start(c, 2).status_code == 403
     for l in course_lessons():
         _, result = complete_lesson(c, l)
         assert result["xp_awarded"] == 10
     _, again = complete_lesson(c, load_course()[0]["lessons"][0])
-    assert again["xp_awarded"] == 0 and again["xp_total"] == 487
+    assert again["xp_awarded"] == 0 and again["xp_total"] == 537
     cat = c.get(P + "/catalog").json()
     assert not cat["course_complete"] and not cat["grade_content_complete"]
     assert cat["chapters"][0]["checkpoint_state"] == "completed"
     assert cat["chapters"][1]["checkpoint_state"] == "completed"
     assert cat["chapters"][2]["checkpoint_state"] == "completed"
     assert cat["chapters"][3]["checkpoint_state"] == "completed"
-    assert cat["chapters"][4]["checkpoint_state"] == "locked"
+    assert cat["chapters"][4]["checkpoint_state"] == "completed"
+    assert cat["chapters"][5]["checkpoint_state"] == "locked"
     with f() as db:
         assert (
-            db.get(User, 1).xp_total == 487 and db.query(HistoryProgress).count() == 35
+            db.get(User, 1).xp_total == 537 and db.query(HistoryProgress).count() == 40
         )
 
 
@@ -589,7 +629,7 @@ def test_parallel_completion_never_duplicates_xp(preview, different_attempts):
         assert db.get(User, 1).xp_total == 147
 
 
-def test_postgres_opt_in_fresh_schema_all_thirty_five_and_parallel_xp(monkeypatch):
+def test_postgres_opt_in_fresh_schema_all_forty_and_parallel_xp(monkeypatch):
     """Only an explicit loopback staging URL; never a production schema."""
     import os
     import secrets
@@ -619,8 +659,8 @@ def test_postgres_opt_in_fresh_schema_all_thirty_five_and_parallel_xp(monkeypatc
         with factory.begin() as db:
             db.add(User(id=1, name="QA", email="qa@example.test", xp_total=137))
             db.flush()
-            assert import_course(db) == {"created": 35, "skipped": 0}
-            assert import_course(db) == {"created": 0, "skipped": 35}
+            assert import_course(db) == {"created": 40, "skipped": 0}
+            assert import_course(db) == {"created": 0, "skipped": 40}
         monkeypatch.setenv("ENVIRONMENT", "test")
         monkeypatch.setenv("UZBEKISTAN_HISTORY_PREVIEW_ENABLED", "true")
         monkeypatch.setattr(tokens, "JWT_SECRET", "history-local-pg-test-only-key-over-32-characters")
@@ -650,9 +690,9 @@ def test_postgres_opt_in_fresh_schema_all_thirty_five_and_parallel_xp(monkeypatc
             assert [r.status_code for r in responses] == [200, 200]
             assert sorted(r.json()["xp_awarded"] for r in responses) == [0, 10]
             _, r = complete_lesson(c, load_course()[0]["lessons"][0])
-            assert r["xp_total"] == 487 and r["xp_awarded"] == 0
+            assert r["xp_total"] == 537 and r["xp_awarded"] == 0
         with factory() as db:
-            assert db.get(User, 1).xp_total == 487 and db.query(HistoryProgress).count() == 35
+            assert db.get(User, 1).xp_total == 537 and db.query(HistoryProgress).count() == 40
     finally:
         engine.dispose()
         with admin.begin() as conn:
