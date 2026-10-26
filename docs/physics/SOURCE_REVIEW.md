@@ -818,3 +818,26 @@ PDF112,113,114,115,116: Radiometric W/m² distinct photometric lm/cd/lx. Omega s
 Actual local PostgreSQL16: 301 dars import/reimport, 3010XP/replay, legacy137XP/3streak/2stars saqlandi. 11-sinfning87publicFRQdrafti320px/200%widgetrun bilan tekshirildi. Ruff va gitdiffcheck passed. Ikki o‘zgarmagan sandbox testi outside-Git tempdir escalation approval-review usage limit sabab ajratilgan; guard chetlab o‘tilmadi yoki yumshatilmadi, joriyda o‘tdi deyilmaydi. Oxirgi to‘liq backend1913 va fullFlutter154 §1–5checkpoint natijalari alohida; bu partiya Physics/Biology + FlutterPhysics tanlovini bajardi. NativeAndroid/liveTCP/newwebbuild/independentexpert/productionnotrun. EskiPhysics/BiologyimmutableJSON/website/Chemistry saqlandi.
 
 11§31–35 all20 original mapped pages (116–119,125–133,136–142) visually read and native hashes matched. No runtime batch7 content at this checkpoint. Next11§31PDF116/bosma115.
+
+
+## 11-sinf §31–35 — 2026-10-26
+
+**2026-10-26 — Fizika 11-sinf §31–35: 306/316 bo‘lim, 10 qolgan.** 6-sinf 61/61; 7-sinf 46/46; 8-sinf 60/60; 9-sinf 59/59; 10-sinf 45/45; 11-sinf 35/45. Jami 1363 karta, 756 formula yozuvi, 326 namuna, 2229 topshiriq, 824 FRQ. 882 asl sahifa tekshiruvi/849 noyob. Physics/Biology 2074 passed/2 PG opt-in skipped/2 sandbox deselected (375.32s); actual PG 1 passed (119.41s). Flutter Physics 28 passed (96s), analyze No issues found (2.1s); yangi 44 test (4.96s). Keyingi **11§36, PDF143/bosma142**. Local test preview; Biology406/veb/Kimyo/production saqlandi, native Android/ekspert/release bajarilmagan.
+
+Yangi: 23 karta/15 formula/5 namuna/41 topshiriq/16 FRQ. §31 PDF116–119; §32 PDF125–129; §33 PDF129–133; §34 PDF136–137; §35 PDF138–142. Butun manba kitobida PDF=bosma+1; original tasvirlar/native hashlar qayta tekshirildi.
+
+PDF116,117,118,119: Equal NORMAL illuminance balance Iv1/r1²=Iv2/r2² gives Iv1=Iv2*r1²/r2². Source117 visually has invertedratio; corrected notcopied. Source E=1/r² omits sourceintensity, use Ev=Iv/r². Digitalcomparison only, no mains/voltageexperiment. Exercisepages includedmappedrange butnotallendofchapterquestions separatecoverageclaims.
+
+PDF125,126,127,128,129: Inertialvacuum c same, Lorentz tables/signs viewed. Proper intervalsameclock, lengthparallelmotion simultaneous endpoints; not allobserverdimension contraction. Velocity collinear SIGNED (u+v)/(1+uv/c²),frame |v|<c, object|u|<=c, noresultsuperluminal; use explicitc3e8 approximation. Rational-root original examples use.6c/.8c, notfloatingtruth.
+
+PDF129,130,131,132,133: Historical velocity-dependent mass m=gamma*m0 is energy/c² convention, invariant restmassm0 unchanged. Prefer E=gamma*m0*c²,K=E-m0c²,p=gamma*m0v. Source kinetic classical1/2mv² mustnotbeusedallrelativisticspeeds. Source.89c lifetime5x answer inconsistent (gamma~2.19), no copiedkey; water/coal/petrol equalrestenergiesatideal1kg not equalchemicalusableenergy.
+
+PDF136,137: Wien lambda_peak*T=b for wavelength spectraldensity/thermalblackbodymodel, notuniversal allsources orfrequencydensity peak converted. Source b2.898e-3mK,h6.626e-34Js givenapprox not modernexactSI. PlanckE=hnu, classicalfailure doesnotmeanallclassicalphysicsinvalid. Source claimSunnotthermal atall misleading; steady energyinput permitsradiationnotisolatedequilibrium; avoidclaim.
+
+PDF138,139,140,141,142: Single-photon photoelectric Kmax=hnu-A>=0,thresholdnu0=A/h,stopUpositiveMODULUS=K/e; belowthresholdnoemissionnotnegativeK. Frequencycontrolsmaxenergy; intensitychangesnumberabove thresholdundermodel. Internalvs external effectdistinct; photonrestmass0, historicalE/c²notinvariantmass. h6.626e-34/e1.6e-19 explicitbookapproximations. No actualvacuum/highvoltageexperiment.
+
+15 closed families plus J*s and m*K unit dimensions. Signed collinear relativistic addition, exact rational/square-root proper-time and parallel-length checking, invariant rest mass/total/kinetic/momentum, Wien wavelength-density peak, quantum and threshold-safe photoelectric grading. Corrected equal-Ev source-distance ratio. 44 independent tests passed. Explicit rounded ratio tolerance fixed in new authored data without weakening grader or old content.
+
+Actual local PostgreSQL16: 306 dars import/reimport, 3060XP/replay, legacy137XP/3streak/2stars saqlandi. 11-sinfning103publicFRQdrafti320px/200%widgetrun bilan tekshirildi. Ruff va gitdiffcheck passed. Ikki o‘zgarmagan sandbox testi outside-Git tempdir escalation approval-review usage limit sabab ajratilgan; guard chetlab o‘tilmadi yoki yumshatilmadi, joriyda o‘tdi deyilmaydi. Oxirgi to‘liq backend1913 va fullFlutter154 §1–5checkpoint natijalari alohida; bu partiya Physics/Biology + FlutterPhysics tanlovini bajardi. NativeAndroid/liveTCP/newwebbuild/independentexpert/productionnotrun. EskiPhysics/BiologyimmutableJSON/website/Chemistry saqlandi.
+
+11§36–40 all23 original mapped pages143–148/152–168 re-read as images and native hashes matched. Private original draft prepared, no batch8 runtime at checkpoint. Next11§36PDF143/bosma142.

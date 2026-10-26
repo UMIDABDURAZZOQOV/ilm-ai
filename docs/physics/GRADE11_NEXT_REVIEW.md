@@ -1,3 +1,20 @@
+# Keyingi: 11-sinf §36 — 2026-10-26
+
+11§36–40 all23 original mapped pages143–148/152–168 re-read as images and native hashes matched. Private original draft prepared, no batch8 runtime at checkpoint. Next11§36PDF143/bosma142.
+
+PDF143,144,145,146,147,148: Vacuum photonE=hc/lambda,p=h/lambda,normalperfectabsorptionp=I/c/reflection2I/c checked. Source sunlight pressure/force number0.48µN wrongmagnitude/unitforgeneric sunlight notcopied. Source147workedtable lambda=nu/c typo corrected c/nu; h6.6e-63 exercise typo notcopied. No assumptionuniversalmediumphotonmomentum (Abraham/Minkowskiambiguity). LEDisnot automaticallysemiconductorlaser, emissionnotinternalphotoeffect inreversewording. PVefficiency/historyfiguresnotcurrentupperbounds. Original source faithful explanations/problems, noactualdevices.
+
+PDF152,153,154,155,156,157: Bohr stationary/transition postulates originalimageschecked. Source155radiuswritten n*h²eps/(pi*m*e²) missingn²; scientificcorrectionr_n=a0*n² recorded/used. Varyingclassicalorbitv=constant notgenerallycorrect, avoidclassicalcollapseargumentwiththatextraassumption. En=-Eion/n² hydrogenapprox,zeroionizationreference; npositivewhole. EmissionEi>Ef,negativeboundsallowed,photonpositive. Original unnamedgivenlevelmodel notclaimedactualelementlevels. hbar1.05e-34/h6.626e-34explicitbookapprox,not hidden exactconstants.
+
+PDF157,158,159,160,161: Laser conceptualonly/noartificialFRQ. Stimulatedvs spontaneous, pumping/metastable and rubyCr3+ chain reviewed. Notalllasers fixedpower/linewidth/polarization orallLEDlaser. Bookexactorders1e16–1e20W/m²not universalrequiredfacts. NoDIYlasers/isotopeseparation/surgicaloperationalinstructions; safeclassificationonly.
+
+PDF161,162,163,164: A,Z,Ncounts distinct masses; isotopes sameZvsisobars sameA. Dm=Zmp+(A-Z)mn-mNUCLEUS; atomicmassnot mixed. BoundenergyDm*c²,pernucleonE/A average. Source95%mass claim inaccurateapprox(usually>99.9%)excludednumericaltest. Source164 2.5MeV=(max2.5? actualtext8.7) chart not copieduniversalstabilitycriterion. Original givenA4Z2mp1.6726e-27mn1.6749e-27mNuc6.644e-27 ->Dm5.1e-29/E4.59e-12J independentexactdecimalbalance; masses declaredapproximatemodelnotnewmeasuredisotopeclaim.
+
+PDF165,166,167,168: Detector pulsecountvs spatialtrack,Geiger gasionization,cloud droplets,bubble superheatedliquid,scintillation light/photoemulsion reviewed. No perfectefficiency/zerodeadtime assumptions. Source168electronv~6e7 classical calculation needsrelativistic correction (~2%); neworiginal low-speedcase~8.79e5 chosen within existingexplicitpreview<3e6 guard,nottextbookfundamentalcutoff. qpositivechargeMODULUS/Bperpendicularuniform/Rcurvature. Rounded exact80000000/91 ->879000m/s at1000grid. Noactualradioactivesource/highvoltageexperiment.
+
+---
+Tarixiy qaydlar saqlandi.
+
 # Keyingi: 11-sinf §31 — 2026-10-26
 
 11§31–35 all20 original mapped pages (116–119,125–133,136–142) visually read and native hashes matched. No runtime batch7 content at this checkpoint. Next11§31PDF116/bosma115.

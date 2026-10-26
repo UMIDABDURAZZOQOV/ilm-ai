@@ -24,6 +24,111 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "equal_illuminance_source_intensity": rule(
+        "Iv1",
+        ["Iv2", "r1", "r2"],
+        ["Iv2*r1^2/r2^2", "Iv2*(r1/r2)^2"],
+        "Separate pointsources/NORMAL/equalEv,noabsorb;inversebookratio corrected;11PDF116–117.",
+        square_root=False,
+    ),
+    "proper_time_dilation": rule(
+        "tau",
+        ["tau0", "v", "c"],
+        ["tau0/sqrt(1-v^2/c^2)", "sqrt(tau0^2/(1-v^2/c^2))"],
+        "Sameclockproperinterval,tau0>0,|v|<c,c3e8given;11PDF128.",
+        square_root=True,
+    ),
+    "parallel_length_contraction": rule(
+        "l",
+        ["l0", "v", "c"],
+        ["l0*sqrt(1-v^2/c^2)", "sqrt(l0^2*(1-v^2/c^2))"],
+        "Parallelrodproperl0>0,simultaneousendsinobservingframe,|v|<c,c3e8;11PDF128.",
+        square_root=True,
+    ),
+    "collinear_relativistic_velocity": rule(
+        "w",
+        ["u", "v", "c"],
+        ["(u+v)/(1+u*v/c^2)", "(v+u)/(1+v*u/c^2)"],
+        "Signedcollinearframes,|v|<c,object|u|<=c,c3e8;11PDF128–129.",
+        square_root=False,
+    ),
+    "rest_mass_energy": rule(
+        "E0",
+        ["m0", "c"],
+        ["m0*c^2", "c^2*m0"],
+        "Invariantrestmassm0>0,c3e8schoolapprox,notchemicalyield;11PDF130.",
+        square_root=False,
+    ),
+    "relativistic_total_energy": rule(
+        "E",
+        ["m0", "v", "c"],
+        ["m0*c^2/sqrt(1-v^2/c^2)", "sqrt(m0^2*c^4/(1-v^2/c^2))"],
+        "Invariantrestmass>0,speed0<=v<c,c3e8,notrelativisticmassrestmassconfusion;11PDF130.",
+        square_root=True,
+    ),
+    "relativistic_kinetic_energy": rule(
+        "K",
+        ["m0", "v", "c"],
+        ["m0*c^2*(1/sqrt(1-v^2/c^2)-1)", "m0*c^2/sqrt(1-v^2/c^2)-m0*c^2"],
+        "E-E0,authoredexactrationalgammaonlycalculator,0<=v<c,c3e8;notclassicalK;11PDF131.",
+        square_root=True,
+    ),
+    "relativistic_momentum_magnitude": rule(
+        "pMom",
+        ["m0", "v", "c"],
+        ["m0*v/sqrt(1-v^2/c^2)", "sqrt(m0^2*v^2/(1-v^2/c^2))"],
+        "Magnitudeonlyv>=0,m0>0,c3e8,v<c;11PDF131.",
+        square_root=True,
+    ),
+    "wien_peak_wavelength": rule(
+        "Lpeak",
+        ["b", "T"],
+        ["b/T", "b*T^-1"],
+        "BlackbodyWAVELENGTHspectraldensitypeak,TKelvin>0,b2.898e-3explicitapprox;11PDF136.",
+        square_root=False,
+    ),
+    "wien_temperature": rule(
+        "T",
+        ["b", "Lpeak"],
+        ["b/Lpeak", "b*Lpeak^-1"],
+        "BlackbodyWAVELENGTHspectralpeak,Lpeak>0,b2.898e-3explicit;11PDF136.",
+        square_root=False,
+    ),
+    "photon_energy_frequency": rule(
+        "Eq",
+        ["h", "nu"],
+        ["h*nu", "nu*h"],
+        "Onephoton,EJ,nuHz,h6.626e-34explicitbookapprox;11PDF137.",
+        square_root=False,
+    ),
+    "photon_frequency_energy": rule(
+        "nu",
+        ["Eq", "h"],
+        ["Eq/h", "Eq*h^-1"],
+        "OnephotonpositiveE,h6.626e-34givenapprox;11PDF137.",
+        square_root=False,
+    ),
+    "photoelectric_maximum_energy": rule(
+        "Kmax",
+        ["h", "nu", "A"],
+        ["h*nu-A", "nu*h-A"],
+        "Singlephotonexternalmodel,hnu>=A>0,belowthresholdrejectednotnegativeK;h6.626e-34;11PDF140.",
+        square_root=False,
+    ),
+    "photoelectric_threshold_frequency": rule(
+        "nu0",
+        ["A", "h"],
+        ["A/h", "A*h^-1"],
+        "Positiveworkfunction,onephotonmodel,h6.626e-34approx;11PDF141.",
+        square_root=False,
+    ),
+    "photoelectric_stopping_magnitude": rule(
+        "Ustop",
+        ["Kmax", "e"],
+        ["Kmax/e", "Kmax*e^-1"],
+        "Kmax>=0,ePOSITIVE1.6e-19givenmodulus,UstopMODULUSnotpolarity;11PDF139.",
+        square_root=False,
+    ),
     "grating_small_angle_wavelength": rule(
         "Lw",
         ["d", "y", "n", "x"],
@@ -3760,6 +3865,82 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name == "equal_illuminance_source_intensity":
+        return value("Iv2", "luminous_intensity") * (
+            positive("r1", "length") / positive("r2", "length")
+        ) ** 2, "luminous_intensity"
+    if name in {
+        "proper_time_dilation",
+        "parallel_length_contraction",
+        "collinear_relativistic_velocity",
+        "rest_mass_energy",
+        "relativistic_total_energy",
+        "relativistic_kinetic_energy",
+        "relativistic_momentum_magnitude",
+    }:
+        c = positive("c", "speed")
+        if c != 300_000_000:
+            raise ValueError("explicit_relativistic_school_c_required")
+        if name == "rest_mass_energy":
+            return positive("m0", "mass") * c * c, "energy"
+        v = projection("v", "speed")
+        if abs(v) >= c:
+            raise ValueError("material_frame_speed_below_c_required")
+        g2 = 1 / (1 - v * v / (c * c))
+        if name == "collinear_relativistic_velocity":
+            u = projection("u", "speed")
+            if abs(u) > c:
+                raise ValueError("object_speed_at_most_c")
+            return (u + v) / (1 + u * v / (c * c)), "speed"
+        if name == "proper_time_dilation":
+            return square_root_quantity(positive("tau0", "time") ** 2 * g2), "time"
+        if name == "parallel_length_contraction":
+            return square_root_quantity(positive("l0", "length") ** 2 / g2), "length"
+        m = positive("m0", "mass")
+        if v < 0:
+            raise ValueError("speed_magnitude_not_signed_component")
+        if name == "relativistic_total_energy":
+            return square_root_quantity((m * c * c) ** 2 * g2), "energy"
+        if name == "relativistic_momentum_magnitude":
+            return square_root_quantity((m * v) ** 2 * g2), "momentum"
+        gamma = square_root_quantity(g2)
+        if not isinstance(gamma, Fraction):
+            raise ValueError("authored_exact_rational_gamma_required")
+        return m * c * c * (gamma - 1), "energy"
+    if name in {"wien_peak_wavelength", "wien_temperature"}:
+        b = positive("b", "wien_constant")
+        if b != Fraction("0.002898"):
+            raise ValueError("explicit_book_wien_approximation_required")
+        return (
+            (b / positive("T", "temperature"), "length")
+            if name == "wien_peak_wavelength"
+            else (b / positive("Lpeak", "length"), "temperature")
+        )
+    if name in {
+        "photon_energy_frequency",
+        "photon_frequency_energy",
+        "photoelectric_maximum_energy",
+        "photoelectric_threshold_frequency",
+    }:
+        h = positive("h", "action")
+        if h != Fraction("6.626e-34"):
+            raise ValueError("explicit_book_planck_approximation_required")
+        if name == "photon_frequency_energy":
+            return positive("Eq", "energy") / h, "frequency"
+        if name == "photoelectric_threshold_frequency":
+            return positive("A", "energy") / h, "frequency"
+        e = h * positive("nu", "frequency")
+        if name == "photon_energy_frequency":
+            return e, "energy"
+        a = positive("A", "energy")
+        if e < a:
+            raise ValueError("below_photoelectric_threshold_no_emission")
+        return e - a, "energy"
+    if name == "photoelectric_stopping_magnitude":
+        e = positive("e", "charge")
+        if e != Fraction("1.6e-19"):
+            raise ValueError("explicit_positive_e_modulus_required")
+        return value("Kmax", "energy") / e, "voltage"
     if name == "grating_small_angle_wavelength":
         n = positive("n", "dimensionless")
         x = positive("x", "length")
