@@ -24,8 +24,8 @@ relations. Complex interpretations/opinions are self-review or teacher-review;
 never fuzzy automatic true/false marking. BCE/CE arithmetic must reject display
 year zero and distinguish ordering from elapsed-year calculations.
 
-No history runtime/schema/UI adapter exists at this checkpoint. Before adding
-one, preserve authenticated identity, immutable server snapshots, private keys,
+The isolated history runtime/schema/UI adapter now exists for local QA. It
+preserves authenticated identity, immutable server snapshots, private keys,
 expiry, sequential submission, cross-account isolation and replay protections.
 Never expose grading specs/aliases/expected answers in start or local drafts.
 Use additive isolated tables and explicit reviewed manifest imports. No startup
@@ -44,6 +44,26 @@ Keep Uzbek authored content. UZ/RU/EN interface labels must remain functional;
 unreviewed translation is not published historical content. Reuse Ilmo and
 existing source/feedback/completion components. Provide grades 6–11, original
 chapter/topic order and separate bibliography once the reviewed UI adapter exists.
+
+## Implemented local adapter
+
+- `services/world_history_lessons.py`: exact page/region render digests, reviewed
+  facts/cards, per-question answer targets/aliases and source-activity coverage.
+  Two terms in one fact are not interchangeable aliases for every question.
+- Separate history model/curriculum/runtime modules: four isolated tables, explicit
+  immutable import, authenticated accounts, snapshots,24h expiry, ordered answers,
+ 60% completion and20XP first pass only. Shared account/session/event contract.
+- Session kind `history_assessment_v2` fits the existing24-character column.
+  The initial longer value failed real PostgreSQL; no common schema was changed.
+- `/preview/world_history/v2`: opt-in development/test local staging only.
+  Ordinary main/startup/other subject routers remain unchanged.
+- Explicit import CLI is DB/ORM-free by default; apply/schema steps require local QA.
+  Separate loopback server uses synthetic users and private defines outside Git.
+- Flutter `lib/world_history_preview_main.dart`: separate debug/loopback entry,
+  Ilmo/theme/source sheets/shared feedback/completion, six grades, original chapter
+  expansion, bibliography, theory/MCQ/typed FRQ, self-review and account/origin resume.
+- Source and schema checks remain mandatory. No production certification is
+  inherited from the unfinished Physics prototype.
 
 ## Mandatory continuation and acceptance
 

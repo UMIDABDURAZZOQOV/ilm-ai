@@ -39,7 +39,7 @@ def main():
                 'id': record['id'], 'kind': record['kind'], 'title': record['title'],
                 'source_record_id': record['id'], 'pdf_pages': record['pdf_pages'],
                 'printed_pages': record['printed_pages'], 'chapter_id': record['chapter_id'],
-                'interactive_status': 'not_implemented',
+                'interactive_status': record.get('interactive_status', 'not_implemented'),
             })
         all_numbered = [r['id'] for r in book['records']]
         for ancillary in book['ancillary_records']:
@@ -89,9 +89,10 @@ def main():
             })
         counts = Counter(f for page in features for f in page['features'])
         rows.append((grade, len(book['records']), len(units), book['pdf_page_count'], counts))
+    implemented = sum(u['interactive_status'] == 'reviewed_preview_ready' for b in catalog['books'] for u in b['teaching_units'])
     catalog.update(
         catalogue_complete=True, total_teaching_topics=sum(r[2] for r in rows),
-        remaining_lessons=sum(r[2] for r in rows),
+        implemented_lessons=implemented, remaining_lessons=sum(r[2] for r in rows)-implemented,
         note='Source/activity catalogue complete; no lesson or fact approved by this inventory. '
              '216 numbered blocks plus grade6 conclusion/final review and grade8 conclusion = 219 teaching units. '
              'Introductions/prefaces embed in first numbered unit; glossaries/indices/timelines/maps remain linked references. '
@@ -117,15 +118,15 @@ def main():
               'in `activity_bindings`; exact activity regions and factual claims must be checked',
               'when authoring that lesson. Interpretive/open responses use self/teacher review.',
               'Internet/media research prompts do not authorize importing outside facts.', '',
-              'All entries below are **not implemented**. Source pages are candidate spans;',
+              f'**Reviewed preview lessons: {implemented}; remaining: {219-implemented}.** Source pages are candidate spans;',
               'a shared final page can include the next heading. It is not blanket fact approval.', '']
     for book in catalog['books']:
         lines += [f"## Grade {book['grade']}: {book['title']} ({book['year']})", '',
-                  '| Order | ID | Source title | Printed/PDF pages |', '| ---: | --- | --- | --- |']
+                  '| Order | ID | Source title | Printed/PDF pages | Status |', '| ---: | --- | --- | --- | --- |']
         for unit in book['teaching_units']:
             pages_ = unit['pdf_pages']
             span = str(pages_[0]) if len(pages_) == 1 else f'{pages_[0]}–{pages_[-1]}'
-            lines.append(f"| {unit['sequence']} | {unit['id']} | {unit['title']} | {span} |")
+            lines.append(f"| {unit['sequence']} | {unit['id']} | {unit['title']} | {span} | {unit['interactive_status']} |")
         lines += ['', '### Supporting source records', '']
         for record in book['ancillary_records']:
             lines.append(f"- `{record['id']}`: {record['title']}, pages {', '.join(map(str, record['pdf_pages']))}; {record['coverage_decision']}.")
@@ -149,7 +150,7 @@ def main():
               '- Map captions, legends and territorial dates need exact review before assessment.',
               '- No original source images, extracted text or OCR are published in Git.', '']
     (ROOT / 'docs/world_history/PAGE_FEATURE_AUDIT.md').write_text('\n'.join(audit), encoding='utf8')
-    print({'teaching_units': catalog['total_teaching_topics'], 'page_images': len(pages), 'implemented': 0})
+    print({'teaching_units': catalog['total_teaching_topics'], 'page_images': len(pages), 'implemented': implemented})
 
 
 if __name__ == '__main__':

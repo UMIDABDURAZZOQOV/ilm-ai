@@ -2832,12 +2832,14 @@ Use only the user's six pinned history textbooks for all historical knowledge.
 Private exact copies: ../ilm-ai-world-history-sources/. Updated original folder:
 C:/Users/Page/Desktop/Jaxon-Tarixi/. Six books, 961 PDF pages; 216 numbered source
 blocks and 219 printed number labels (grade10 has 7–8,15–16,19–20 combined topics).
-Ancillary activities and exact total teaching lessons remain under audit.
+Full original-image feature and ancillary audit defines219 teaching units:
+grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-No implemented history lesson/runtime/UI at this initial checkpoint. Continue
-from docs/world_history/CHECKPOINT.md. Complete the source/activity inventory,
-then source-review and author grade6 §1 through the last grade11 topic in order.
+Batch01 has6 local-preview lessons, grade6§1–6:55 cards,39 MCQ,19 objective FRQ;
+213 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade6§7, original page32.
+Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
 interpretations, maps, answers or explanations. Distinguish source interpretation

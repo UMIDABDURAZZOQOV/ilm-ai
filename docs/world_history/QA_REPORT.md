@@ -33,3 +33,37 @@ historical baseline evidence, **not new Jahon tarixi test results**.
 - All687 protected files matched their baseline SHA-256 values.
 - Critical Ruff (`F821,F822,E9`) and `git diff --check` passed.
 - No history executable lesson, runtime, UI or DB import at this checkpoint.
+
+## Batch01 — grade6§1–6, 2026-10-26
+
+**Local preview only; the219-unit course remains incomplete.** Six lessons,
+55 original theory cards,92 fact records,39 MCQ,19 objective FRQ and6 ungraded
+self/teacher-review activities.213 units remain.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Full backend regression |2569 passed,4 skipped;71 files;2462.19s wall | First-lesson implementation snapshot, four isolated UTF-8 subprocess shards; frozen inputs preserved |
+| Current history/source/preservation tests |88 passed in100.73s | All6 current manifests, exact source regions/digests, question-specific targets/aliases, activities, immutable API/progress/XP |
+| Actual PostgreSQL |1 passed | Dedicated new history staging cluster; immutable import, snapshots, parallel first completion, all6 sequential lessons/120XP, old synthetic account preserved |
+| Actual loopback HTTP |6 grade catalogues,58 answers,120XP | Prerequisites, auth, private-key exclusion, replay, once-only completion; synthetic users only |
+| Full Flutter regression |632 passed,07:44 | Current six-lesson implementation and all existing UI/subject tests |
+| Targeted history widgets |23 passed,00:17 | Real API fixtures for§1–6, MCQ/FRQ, source sheet, resume/account switch, lost request, 320×568/200%, light/dark, UZ/RU/EN |
+| Full Flutter analysis |0 issues,183.2s | Entire history Flutter worktree |
+| Preservation |687 SHA-256 pins matched |406 Biology +268 Chemistry lesson files and13 existing backend runtime/model/router files |
+| Critical Ruff / Git whitespace |Passed | New history code and diffs |
+
+The broad backend run's4 opt-in PostgreSQL skips are **not passes**. History's
+real PostgreSQL scenario ran separately and passed. Initial broad-run Windows
+subprocess decoding failures were environmental: both Biology tests passed with
+`PYTHONUTF8=1`; the full UTF-8 rerun then passed without editing Biology.
+
+Real PostgreSQL caught an overlong session kind; it was shortened to
+`history_assessment_v2`, leaving the existing VARCHAR(24) schema intact.
+The private HTTP sandbox is intentionally SQLite; its legacy DB bootstrap message
+does not describe the separate real PostgreSQL test.
+
+Inspected widget renders include path/bibliography, first theory, correct/wrong
+feedback, scrollable explanation at200%, FRQ flow and self-review. Source PDF/map
+images were not bundled. Screenshots/logs/DBs/tokens stay private. No actual Android,
+IME/TalkBack, independent history-teacher sign-off or complete2026–2027 outcome
+equivalence is claimed. No production/main/deploy/real-user operation occurred.
