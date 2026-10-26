@@ -2,7 +2,7 @@
   "mapped_grades": 5,
   "catalogue_records": 327,
   "source_teaching_entries": 268,
-  "implemented_lessons": 235,
+  "implemented_lessons": 240,
   "grades": [
     {
       "grade": 7,
@@ -254,13 +254,8 @@
       "laboratories": 0,
       "practicals": 0,
       "source_teaching_entries": 33,
-      "implemented_lessons": 0,
+      "implemented_lessons": 5,
       "remaining_ids": [
-        "ch11-paragraph01",
-        "ch11-paragraph02",
-        "ch11-paragraph03",
-        "ch11-paragraph04",
-        "ch11-paragraph05",
         "ch11-paragraph06",
         "ch11-paragraph07",
         "ch11-paragraph08",
@@ -290,14 +285,20 @@
         "ch11-paragraph32",
         "ch11-paragraph33"
       ],
-      "pending_source_review_ids": [],
-      "source_review_complete": true,
+      "pending_source_review_ids": [
+        "ch11-p1-quantum-capacity-configuration-model-scope-review",
+        "ch11-p2-periodic-shorttable-trend-configuration-scope-review",
+        "ch11-p3-isotope-nuclear-charge-particle-count-scope-review",
+        "ch11-p4-bond-polarity-lattice-localgraph-scope-review",
+        "ch11-p5-mole-unit-mass-singleatom-scope-review"
+      ],
+      "source_review_complete": false,
       "course_ready": false
     }
   ],
   "integrated_source_activities": 9,
   "open_source_review_holds": 0,
-  "open_editorial_review_issues": 187,
+  "open_editorial_review_issues": 192,
   "reviewed_errata": 1,
   "full_fact_formula_review_complete": false,
   "original_pdf_pages_decoded": 817

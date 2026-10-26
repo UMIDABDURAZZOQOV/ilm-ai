@@ -220,6 +220,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch10-laboratory04': 'ch10-lab4-acid-kinetics-indicator-digital-scope-review',
     'ch10-laboratory05': 'ch10-lab5-glucose-iodine-reagent-balance-scope-review',
     'ch10-laboratory06': 'ch10-lab6-protein-biuret-observation-scope-review',
+    'ch11-paragraph01': 'ch11-p1-quantum-capacity-configuration-model-scope-review',
+    'ch11-paragraph02': 'ch11-p2-periodic-shorttable-trend-configuration-scope-review',
+    'ch11-paragraph03': 'ch11-p3-isotope-nuclear-charge-particle-count-scope-review',
+    'ch11-paragraph04': 'ch11-p4-bond-polarity-lattice-localgraph-scope-review',
+    'ch11-paragraph05': 'ch11-p5-mole-unit-mass-singleatom-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1070,6 +1075,21 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch10-laboratory06' in topic_ids:
             require('Biuret rangi oqsilni yagona isbotlaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'lab_biuret_color_is_not_unique_identity')
+        if 'ch11-paragraph01' in topic_ids:
+            require('n² ta pog‘onacha'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'quantum_shell_n_squared_is_orbitals_not_subshells')
+        if 'ch11-paragraph02' in topic_ids:
+            require('Barcha elementlarning eng yuqori oksidlanishi guruh raqamiga teng'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'periodic_group_is_not_universal_max_oxidation')
+        if 'ch11-paragraph03' in topic_ids:
+            require('Cr51 jami 78 ta zarracha'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'isotope_cr51_wrong_particle_sum_withheld')
+        if 'ch11-paragraph04' in topic_ids:
+            require('Suyuq simobda metall bog‘ yo‘q'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'bond_liquid_mercury_claim_withheld')
+        if 'ch11-paragraph05' in topic_ids:
+            require('Ag atom massasi 1.79e-24 g'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'mole_silver_wrong_single_atom_exponent_withheld')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

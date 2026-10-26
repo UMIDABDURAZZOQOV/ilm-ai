@@ -11,12 +11,12 @@ Individual lesson claims require their own reviewed source refs.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ch11-preface` | preface  | So‘zboshi | 3–4 | 3:full – 4:full | 3 | not_authored | — |
 | `ch11-chapter01` | chapter 1 | Atom va molekulalarning tuzilishi haqida tushunchalar. Davriy qonun | 4–31 | 4:full – 31:full | 4 | not_authored | — |
-| `ch11-paragraph01` | paragraph 1 | Atom tuzilishi | 4–11 | 4:full – 11:full | 4 | not_authored | — |
-| `ch11-paragraph02` | paragraph 2 | Davriy qonun. D.I. Mendeleyevning davriy sistemasi | 11–16 | 11:full – 16:full | 11 | not_authored | ch11-paragraph01 |
-| `ch11-paragraph03` | paragraph 3 | Atom tarkibi. Yadro reaksiyalari | 16–23 | 16:full – 23:full | 16 | not_authored | ch11-paragraph02 |
-| `ch11-paragraph04` | paragraph 4 | Kimyoviy bog‘lanish turlari. Kristall panjaralar | 23–31 | 23:full – 31:full | 23 | not_authored | ch11-paragraph03 |
+| `ch11-paragraph01` | paragraph 1 | Atom tuzilishi | 4–11 | 4:full – 11:full | 4 | reviewed local lesson; scoped editorial review remains open | — |
+| `ch11-paragraph02` | paragraph 2 | Davriy qonun. D.I. Mendeleyevning davriy sistemasi | 11–16 | 11:full – 16:full | 11 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph01 |
+| `ch11-paragraph03` | paragraph 3 | Atom tarkibi. Yadro reaksiyalari | 16–23 | 16:full – 23:full | 16 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph02 |
+| `ch11-paragraph04` | paragraph 4 | Kimyoviy bog‘lanish turlari. Kristall panjaralar | 23–31 | 23:full – 31:full | 23 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph03 |
 | `ch11-chapter02` | chapter 2 | Modda miqdori | 31–51 | 31:full – 51:full | 31 | not_authored | — |
-| `ch11-paragraph05` | paragraph 5 | Modda miqdori | 31–34 | 31:full – 34:full | 31 | not_authored | ch11-paragraph04 |
+| `ch11-paragraph05` | paragraph 5 | Modda miqdori | 31–34 | 31:full – 34:full | 31 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph04 |
 | `ch11-paragraph06` | paragraph 6 | Avogadro qonuni. Gazlar aralashmasi | 34–39 | 34:full – 39:full | 34 | not_authored | ch11-paragraph05 |
 | `ch11-paragraph07` | paragraph 7 | Ekvivalent | 39–45 | 39:full – 45:full | 39 | not_authored | ch11-paragraph06 |
 | `ch11-paragraph08` | paragraph 8 | Mendeleyev-Klapeyron tenglamasi | 45–51 | 45:full – 51:full | 45 | not_authored | ch11-paragraph07 |

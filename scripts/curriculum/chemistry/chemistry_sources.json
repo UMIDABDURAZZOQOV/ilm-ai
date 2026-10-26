@@ -18785,7 +18785,62 @@
             "record_id": "ch11-paragraph02",
             "printed_page": 11,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p1-quantum-capacity-configuration-model-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                5,
+                8,
+                9,
+                10,
+                11
+              ],
+              "pdf_pages": [
+                5,
+                8,
+                9,
+                10,
+                11
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed. Finite textbook-corroborated original tasks; uncertain/bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p1-quantum-capacity-configuration-model-scope-review-page5",
+                  "printed_page": 5,
+                  "reason": "n²subshell wording withheld;6 orbitalcount corroborates. Orbital probability not trajectory."
+                },
+                {
+                  "id": "ch11-p1-quantum-capacity-configuration-model-scope-review-page8",
+                  "printed_page": 8,
+                  "reason": "N repeated px prose notcopied; clearbox diagrams used."
+                },
+                {
+                  "id": "ch11-p1-quantum-capacity-configuration-model-scope-review-page9",
+                  "printed_page": 9,
+                  "reason": "3d period3 and uniqueelementfromonetuple withheld."
+                },
+                {
+                  "id": "ch11-p1-quantum-capacity-configuration-model-scope-review-page10",
+                  "printed_page": 10,
+                  "reason": "Sc formula/Zrgroup/Ge4s1 misprints withheld."
+                },
+                {
+                  "id": "ch11-p1-quantum-capacity-configuration-model-scope-review-page11",
+                  "printed_page": 11,
+                  "reason": "f14 missingchoices withheld; no allstateMadelunglaw."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -18826,7 +18881,46 @@
             "record_id": "ch11-paragraph03",
             "printed_page": 16,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p2-periodic-shorttable-trend-configuration-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                14,
+                15,
+                16
+              ],
+              "pdf_pages": [
+                14,
+                15,
+                16
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed. Finite textbook-corroborated original tasks; uncertain/bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p2-periodic-shorttable-trend-configuration-scope-review-page14",
+                  "printed_page": 14,
+                  "reason": "XeF4firsthistory/II-VIIItypical/actserieslayout and universalmaxoxidation claims withheld."
+                },
+                {
+                  "id": "ch11-p2-periodic-shorttable-trend-configuration-scope-review-page15",
+                  "printed_page": 15,
+                  "reason": "Mo42 explicitexception used, not blindMadelung."
+                },
+                {
+                  "id": "ch11-p2-periodic-shorttable-trend-configuration-scope-review-page16",
+                  "printed_page": 16,
+                  "reason": "MgAlSiP question versusNaMgAlSi workedset mismatch withheld; finiteprovidedset only."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -18867,7 +18961,78 @@
             "record_id": "ch11-paragraph04",
             "printed_page": 23,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "pdf_pages": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed. Finite textbook-corroborated original tasks; uncertain/bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review-page17",
+                  "printed_page": 17,
+                  "reason": "No H-allisotopesnoneutrons/electronmassfractionliteral."
+                },
+                {
+                  "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review-page18",
+                  "printed_page": 18,
+                  "reason": "K example notnaturalabundancelist."
+                },
+                {
+                  "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review-page19",
+                  "printed_page": 19,
+                  "reason": "Capture/beta+ boxlabels/gammaelementchange withheld; A/Z model only."
+                },
+                {
+                  "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review-page20",
+                  "printed_page": 20,
+                  "reason": "OutdatedZrange/restmass equals A claims withheld."
+                },
+                {
+                  "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review-page21",
+                  "printed_page": 21,
+                  "reason": "K40 Z16 typo/clinicaluse claims withheld."
+                },
+                {
+                  "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review-page22",
+                  "printed_page": 22,
+                  "reason": "Cr51 particle sum75 not78;34.615percentbadkey withheld; isotopewaterfinitecombinatorics."
+                },
+                {
+                  "id": "ch11-p3-isotope-nuclear-charge-particle-count-scope-review-page23",
+                  "printed_page": 23,
+                  "reason": "Ar=A/reversepercentrounding and FeCuunspecifiedA prompts withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -18908,7 +19073,54 @@
             "record_id": "ch11-chapter02",
             "printed_page": 31,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p4-bond-polarity-lattice-localgraph-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                26,
+                27,
+                29,
+                30
+              ],
+              "pdf_pages": [
+                26,
+                27,
+                29,
+                30
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed. Finite textbook-corroborated original tasks; uncertain/bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p4-bond-polarity-lattice-localgraph-scope-review-page26",
+                  "printed_page": 26,
+                  "reason": "LiquidHg no metallicbond falseclaim withheld."
+                },
+                {
+                  "id": "ch11-p4-bond-polarity-lattice-localgraph-scope-review-page27",
+                  "printed_page": 27,
+                  "reason": "Waterassociation notnewfixedformula;Odelta+ andquartzamorphoussand withheld."
+                },
+                {
+                  "id": "ch11-p4-bond-polarity-lattice-localgraph-scope-review-page29",
+                  "printed_page": 29,
+                  "reason": "IonicAlO fixedsigma/resonancefixedpi counts,kaliyCaOcaption,4.1-.7=3.3 withheld."
+                },
+                {
+                  "id": "ch11-p4-bond-polarity-lattice-localgraph-scope-review-page30",
+                  "printed_page": 30,
+                  "reason": "Electronegativity finitegivenvalues,no sharpuniversalcutoff."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch11-chapter02",
@@ -18987,7 +19199,46 @@
             "record_id": "ch11-paragraph06",
             "printed_page": 34,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p5-mole-unit-mass-singleatom-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                32,
+                33,
+                34
+              ],
+              "pdf_pages": [
+                32,
+                33,
+                34
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original supplied images reviewed. Finite textbook-corroborated original tasks; uncertain/bad literals withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p5-mole-unit-mass-singleatom-scope-review-page32",
+                  "printed_page": 32,
+                  "reason": "CO2 carbon22.27percent wrongliteral withheld; givenFeSmodel only."
+                },
+                {
+                  "id": "ch11-p5-mole-unit-mass-singleatom-scope-review-page33",
+                  "printed_page": 33,
+                  "reason": "Agsingleatommass1.79e-24 wrongexponent andoneatomcontainsNA wording withheld; no Ba137frommemory."
+                },
+                {
+                  "id": "ch11-p5-mole-unit-mass-singleatom-scope-review-page34",
+                  "printed_page": 34,
+                  "reason": "Na23/Cu64 explicitroundedM/NA models,notexactSIdefinition."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",

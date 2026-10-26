@@ -81,7 +81,7 @@ def test_batch38_preserves194_and_awards100xp_once(chemistry):
         db.get(User,1).xp_total=3880
     old={g:client.get(PREFIX+f'/catalog?grade={g}').json() for g in (7,8,9)}
     g10=client.get(PREFIX+'/catalog?grade=10').json()
-    assert g10['available_grades']==[7,8,9,10]
+    assert g10['available_grades']==sorted({l['grade'] for l in load_lessons() if l['sequence']==1})
     assert g10['lessons'][0]['state']=='available' and all(l['state']=='locked' for l in g10['lessons'][1:])
     for l in docs[194:199]:
         response=client.post(f"{PREFIX}/lessons/{l['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())})

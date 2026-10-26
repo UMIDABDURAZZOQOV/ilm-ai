@@ -8,14 +8,14 @@
 | 8 | 6 | 44 | 10 | 5 | 59 | 59 | 0 |
 | 9 | 5 | 41 | 17 | 3 | 61 | 61 | 0 |
 | 10 | 4 | 35 | 6 | 0 | 41 | 41 | 0 |
-| 11 | 8 | 33 | 0 | 0 | 33 | 0 | 33 |
-| Total | 29 | 204 | 49 | 15 | 268 | 235 | 33 |
+| 11 | 8 | 33 | 0 | 0 | 33 | 5 | 28 |
+| Total | 29 | 204 | 49 | 15 | 268 | 240 | 28 |
 
 All maps exist; all course-ready flags remain false. The327 catalogue records
 include containers,prefaces,reviews and child anchors. Only explicitly indexed,
 reviewed teaching entries count toward268. Open source issues also gate readiness.
 
-Total: 2268 cards; 3409 assessments: 940 concept_selection, 472 short_text, 952 numeric_value, 356 chemical_formula, 689 chemical_equation.
+Total: 2330 cards; 3485 assessments: 960 concept_selection, 485 short_text, 991 numeric_value, 359 chemical_formula, 690 chemical_equation.
 
 ## Initial §1
 
@@ -240,9 +240,14 @@ All35grade10paragraphs implemented;6source laboratory entries remain.
 38 cards;62 questions:24MCQ,11short,14numeric,5formula,8equation.
 All41 grade10 source teaching entries implemented, including all6laboratories.
 
+## Batch46:grade11§1–5
+
+62 cards;76 questions:20MCQ,13short,39numeric,3formula,1equation.
+First5/33 grade11 paragraphs implemented in original textbook order.
+
 ## Current continuation
 
-235/268 implemented;33 remain, all in grade11. Grade7 all74,grade8 all59,
-grade9 all61,grade10 all41. Grade11 firstfive private drafts validated.
-187editorialscopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
-ActualHTTP preserves229/4580XP and adds120XPonce→235/4700XP.
+240/268 implemented;28 remain, all in grade11§6–33. Grades7–10 all complete
+by source-entry count; independent review/readiness remains distinct.
+192editorialscopes,one finite reviewederratum,zero wholeholds;allreadyfalse.
+ActualHTTP preserves235/4700XP and adds100XPonce→240/4800XP.
