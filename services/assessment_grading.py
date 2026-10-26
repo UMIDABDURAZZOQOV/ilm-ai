@@ -73,6 +73,10 @@ def expected_quantity(spec):
 # PDF12–14 (length/time), PDF21 (film V/S), PDF28 (front h/t),
 # PDF29–35 (mass, volume and density), PDF37–38 (laboratory volumes).
 UNITS = {
+    # Grade11 PDF32: henry and explicit metric prefixes.
+    "H": ("inductance", Fraction(1)),
+    "mH": ("inductance", Fraction(1, 1000)),
+    "µH": ("inductance", Fraction(1, 10**6)),
     # Grade11 PDF7,10,13: oriented magnetic flux, moment and given mu0.
     "Wb": ("magnetic_flux", Fraction(1)),
     "mWb": ("magnetic_flux", Fraction(1, 1000)),

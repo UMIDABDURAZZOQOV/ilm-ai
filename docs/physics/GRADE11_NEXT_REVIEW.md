@@ -1,3 +1,20 @@
+# Keyingi: 11-sinf §11–15 — 2026-10-26
+
+281/316,35qolgan.15asl sahifa43–57 tasvirlari/nativehashlari qayta o‘qildi. Source review tayyorgarligi, yangiJSON/runtime hali yo‘q, mustaqil ekspert tasdig‘i emas.
+
+PDF43,44,45,46: Original idealLC energy exchange/Thomsonroot and sample checked. Uniform constantLINEARL/C,Rignored, T=2p sqrt(LC),nu=1/T, conservedW=q²/(2C)+LI²/2. Signedinstantq/I vs peakqm/Im distinct, capacitorplatecharge convention. Quarter-cycleenergyrotation conceptual, no real LC switching task. p3.14 explicitly approximate; exact root/rational round rules. Source46sample T.01256s/20uJ consistent.
+
+PDF46,47,48,49: Original qcos/Ucos/i phasegraphs read. Fix convention I=dq/dt INTO chosenpositiveplate; q=qmcos(theta) then I=-Imsin(theta)=Imcos(theta+pi/2). Source46 prints cos(theta+pi/2)=+sin(theta), wrong sign, while source47 Igraph negative afterqmaximum supports minus. Source48 text says I grows toward negativepeak: |I|/magneticenergy grows, signedI decreases. q/U samephase; current quartershift. Damping energy turnsheat, not disappearance; R-increasesperiod only underdampedmodel beforecritical, not allRstilloscillates. No invented exponential damping formula.
+
+PDF49,50,51,52: Original transistorfeedback/energysource diagram checked. Sustained selfoscillator uses externalDCenergy and phasedfeedback; no perpetualmotion. Source51 180deg is specific inverting-stage/coil convention, not universal totalfeedbackphase; suitable loopfeedback returnsenergy inphase. Transistor not only imaginable possible oscillator switch; no all-mechanical-MHz impossibility assertion. Unsupported universal eachorganresonance/psychologicalhealth claims not included. Conceptual no forced beta/medical/radiation/LLM/newgeneratorruntime.
+
+PDF52,53,54,55: Original pureactiveR sinusoid/phasor/RMS/power1/2 checked. FixedR,pureR,u/i samephase. Pinst=Um*Im*cosPhase² nonnegative and doubledfreq, Pavg=Um*Im/2; RMS=peak/sqrt2 only SINUSOID, not any waveform/universal lightbulb eyes16–20fps myth. Typed providedcos data not generaltrig. Peak/rms mixednotallowed in suppliedgivens. Source55average30W example interprets2A as amplitude, newprompts explicit. ExactirrationalRMS rubrics retain square and SI roundinggrid, not float expectedtruth.
+
+PDF56,57: Original idealcap derivative i=-UmC*omega*sin(theta)=Imcos(theta+pi/2) agrees fixed I=dq/dt convention. Current LEADS voltage90deg in steady sinusoidalidealcap; steadyDC current0aftercharging, not nevertransient. Xc=1/(omegaC)=1/(2pnuC),Im=Um*omegaC. omega rad/s vs nuHz,p3.14 explicit, Xcohms reactive not heatresistor; no claim passivecap dissipatesrmsUI. Source57sample50Hz50uF63.69ohm consistent approximate. No live mains construction.
+
+---
+Tarixiy §6–10 qaydlari saqlandi.
+
 # Keyingi: 11-sinf §6–10 — 2026-10-26
 
 276/316,40qolgan.18asl sahifa18–22/27–39 tasvirlari/nativehashlari o‘qildi. Bu source tayyorgarligi; keyingibatch2private draft/runtimehaliyo‘q, independentexpertapproval emas.

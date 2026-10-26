@@ -24,6 +24,103 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "lorentz_sine_magnitude": rule(
+        "F",
+        ["q", "v", "B", "sinAlpha"],
+        ["q*v*B*sinAlpha", "B*q*sinAlpha*v"],
+        "Magnetic force MAGNITUDE, q charge modulus, supplied sine[0,1] between velocity/B, direction sign separate;11PDF18.",
+    ),
+    "classical_magnetic_radius": rule(
+        "R",
+        ["m", "v", "q", "B"],
+        ["m*v/(q*B)", "v*m/B/q"],
+        "Only uniform B/perpendicular velocity/no otherforces/CLASSICAL slow particle, q modulus; authored preview speed below3e6m/s as conservative low-speed policy, not textbook universal cutoff;11PDF19.",
+    ),
+    "classical_magnetic_period": rule(
+        "T",
+        ["p", "m", "q", "B"],
+        ["2*p*m/(q*B)", "m*2*p/B/q"],
+        "Classical nonrelativistic perpendicular circular orbit in uniform B, q modulus, p3.14 explicit; speed independence only thismodel;11PDF20.",
+    ),
+    "classical_magnetic_speed": rule(
+        "v",
+        ["q", "B", "R", "m"],
+        ["q*B*R/m", "B*R*q/m"],
+        "Same classical perpendicularcircle, q modulus; authored preview result below3e6m/s conservative low-speed policy not universal cutoff;11PDF19–20.",
+    ),
+    "faraday_average_emf": rule(
+        "Emf",
+        ["n", "DPhi", "dt"],
+        ["-n*DPhi/dt", "-DPhi*n/dt"],
+        "AVERAGE over interval, npositiveWHOLE identical turns, SIGNED flux change PER TURN with fixed normal/circuit orientation, instantaneous only ifconstant rate;11PDF28.",
+    ),
+    "faraday_endpoints_emf": rule(
+        "Emf",
+        ["n", "Phi1", "Phi2", "dt"],
+        ["-n*(Phi2-Phi1)/dt", "n*(Phi1-Phi2)/dt"],
+        "Same perturnflux/orientation,1INITIAL2FINAL, averageEmf withdt>0,npositivewhole;11PDF28.",
+    ),
+    "induced_ohmic_average_current": rule(
+        "I",
+        ["Emf", "R"],
+        ["Emf/R", "Emf*R^-1"],
+        "SIGNED averageEmf/current, constant resistiveclosedcircuitR>0, INDUCTIVE transients explicitly negligible, not arbitrarycoilinstantaneousI;11PDF30.",
+    ),
+    "self_induction_average_emf": rule(
+        "Emf",
+        ["L", "DI", "dt"],
+        ["-L*DI/dt", "-DI*L/dt"],
+        "Constant LINEAR L>0, signed DI=I2-I1, average overdt>0, current/looporientation fixed;11PDF31.",
+    ),
+    "inductance_emf_magnitudes": rule(
+        "L",
+        ["Emag", "dt", "DImag"],
+        ["Emag*dt/DImag", "dt*Emag/DImag"],
+        "Constant LINEAR L, positive Emag/DImag are MAGNITUDES of selfEMF/currentCHANGE, not signed inputs;11PDF33.",
+    ),
+    "linear_flux_linkage": rule(
+        "Psi",
+        ["L", "I"],
+        ["L*I", "I*L"],
+        "Constant LINEARL, SIGNED I/fluxLINKAGE Psi=N*Phi not perturnPhi for multi-turncoil, consistent normal;11PDF31–32.",
+    ),
+    "long_solenoid_inductance": rule(
+        "L",
+        ["mu0", "muR", "n", "S", "l"],
+        ["mu0*muR*n^2*S/l", "S*n*n*muR*mu0/l"],
+        "LONG solenoid/homogeneous LINEAR core/fixed geometry/endignored, npositivewhole, muR>0 maybelow1, mu01.256e-6givenapprox;11PDF32. Not saturatedferrouniversal.",
+    ),
+    "linear_relative_magnetic_field": rule(
+        "B",
+        ["muR", "B0"],
+        ["muR*B0", "B0*muR"],
+        "Provided relative response in specified LINEAR state, SAME current/geometry, B0 vacuum magnitude, muRpositive may<1;11PDF34.",
+    ),
+    "relative_magnetic_ratio": rule(
+        "muR",
+        ["B", "B0"],
+        ["B/B0", "B*B0^-1"],
+        "Provided positive magnetic magnitudes SAMEcurrent/geometry/state, B0>0, ratio may<1 unlike dielectriceps>=1;11PDF34.",
+    ),
+    "linear_inductor_energy": rule(
+        "W",
+        ["L", "I"],
+        ["L*I^2/2", "I*I*L/2"],
+        "Constant LINEARL>0, signedI, STORED magnetic energy not allsourcework withRloss;11PDF36.",
+    ),
+    "inductor_current_magnitude": rule(
+        "I",
+        ["W", "L"],
+        ["sqrt(2*W/L)", "(2*W/L)^0.5"],
+        "Constant LINEARL>0, storedW>=0, result current MAGNITUDE energy doesnotfixdirection;11PDF37.",
+        square_root=True,
+    ),
+    "inductance_from_energy": rule(
+        "L",
+        ["W", "I"],
+        ["2*W/I^2", "W*2/(I*I)"],
+        "Constant LINEARmodel, storedW>0 and nonzeroSIGNEDI, not arbitrarynonlinearinductor;11PDF36,39.",
+    ),
     "uniform_oriented_magnetic_flux": rule(
         "Phi",
         ["B", "S", "cosAlpha"],
@@ -3228,6 +3325,7 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "inductance": "H",
     "magnetic_flux": "Wb",
     "permeability": "N/A2",
     "temperature_coefficient": "1/K",
@@ -3315,6 +3413,97 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name == "lorentz_sine_magnitude":
+        c = value("sinAlpha", "dimensionless")
+        v = value("v", "speed")
+        if c > 1 or v >= 299_792_458:
+            raise ValueError("valid_sine_and_subluminal_particle_speed")
+        return value("q", "charge") * v * value("B", "magnetic_induction") * c, "force"
+    if name in {
+        "classical_magnetic_radius",
+        "classical_magnetic_period",
+        "classical_magnetic_speed",
+    }:
+        m, q, B = (
+            positive("m", "mass"),
+            positive("q", "charge"),
+            positive("B", "magnetic_induction"),
+        )
+        if name == "classical_magnetic_period":
+            p = positive("p", "dimensionless")
+            if p != Fraction("3.14"):
+                raise ValueError("explicit_pi_approximation_required")
+            return 2 * p * m / (q * B), "time"
+        v = (
+            positive("v", "speed")
+            if name == "classical_magnetic_radius"
+            else q * B * positive("R", "length") / m
+        )
+        # Authored preview quality bound: avoid teaching a classical mass formula
+        # for fast relativistic particles. This is not a fundamental cutoff.
+        if v >= 3_000_000:
+            raise ValueError("classical_preview_low_speed_scope_required")
+        return (
+            (m * v / (q * B), "length")
+            if name == "classical_magnetic_radius"
+            else (v, "speed")
+        )
+    if name in {"faraday_average_emf", "faraday_endpoints_emf"}:
+        n = positive("n", "dimensionless")
+        if givens["n"]["unit"] != "1" or n.denominator != 1:
+            raise ValueError("positive_whole_turn_count_required")
+        dp = (
+            projection("DPhi", "magnetic_flux")
+            if name == "faraday_average_emf"
+            else projection("Phi2", "magnetic_flux")
+            - projection("Phi1", "magnetic_flux")
+        )
+        return -n * dp / positive("dt", "time"), "voltage"
+    if name == "induced_ohmic_average_current":
+        return projection("Emf", "voltage") / positive("R", "resistance"), "current"
+    if name == "self_induction_average_emf":
+        return -positive("L", "inductance") * projection("DI", "current") / positive(
+            "dt", "time"
+        ), "voltage"
+    if name == "inductance_emf_magnitudes":
+        return positive("Emag", "voltage") * positive("dt", "time") / positive(
+            "DImag", "current"
+        ), "inductance"
+    if name == "linear_flux_linkage":
+        return positive("L", "inductance") * projection("I", "current"), "magnetic_flux"
+    if name == "long_solenoid_inductance":
+        mu0 = positive("mu0", "permeability")
+        n = positive("n", "dimensionless")
+        if (
+            mu0 != Fraction("1.256e-6")
+            or n.denominator != 1
+            or givens["n"]["unit"] != "1"
+        ):
+            raise ValueError("explicit_mu0_and_positive_whole_turns_required")
+        return mu0 * positive("muR", "dimensionless") * n * n * positive(
+            "S", "area"
+        ) / positive("l", "length"), "inductance"
+    if name == "linear_relative_magnetic_field":
+        return positive("muR", "dimensionless") * value(
+            "B0", "magnetic_induction"
+        ), "magnetic_induction"
+    if name == "relative_magnetic_ratio":
+        return positive("B", "magnetic_induction") / positive(
+            "B0", "magnetic_induction"
+        ), "dimensionless"
+    if name == "linear_inductor_energy":
+        return positive("L", "inductance") * projection(
+            "I", "current"
+        ) ** 2 / 2, "energy"
+    if name == "inductor_current_magnitude":
+        return square_root_quantity(
+            2 * value("W", "energy") / positive("L", "inductance")
+        ), "current"
+    if name == "inductance_from_energy":
+        I = projection("I", "current")
+        if I == 0:
+            raise ValueError("nonzero_current_required_for_inductance_inverse")
+        return 2 * positive("W", "energy") / I**2, "inductance"
     if name == "uniform_oriented_magnetic_flux":
         c = projection("cosAlpha", "dimensionless")
         if abs(c) > 1:
