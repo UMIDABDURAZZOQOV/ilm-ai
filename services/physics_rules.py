@@ -8,7 +8,7 @@ recalculates answers from structured givens, independently of stored answers.
 from fractions import Fraction
 from math import isqrt
 
-from services.assessment_grading import UNITS, numeric
+from services.assessment_grading import UNITS, numeric, square_root_quantity
 
 
 def rule(target, variables, equivalents, conditions, *, square_root=False):
@@ -24,6 +24,153 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "kelvin_from_celsius": rule(
+        "T",
+        ["theta"],
+        ["theta+273.15", "273.15+theta"],
+        "9PDF22 exact273.15 relation,not rounded273;theta°C signed>=-273.15,answerK only.",
+    ),
+    "boltzmann_mean_energy": rule(
+        "E",
+        ["k", "T"],
+        ["3*k*T/2", "k*T*3/2"],
+        "CLASSICALidealgas,mean TRANSLATIONAL Eperparticle,k1.38e-23J/Ksourceapprox,T Kelvin>=0;9PDF23.",
+    ),
+    "thermal_pressure": rule(
+        "p",
+        ["n", "k", "T"],
+        ["n*k*T", "k*T*n"],
+        "IDEALgas,p ABSOLUTE,nnumberdensity,k1.38e-23,TKelvin>0;9PDF23.",
+    ),
+    "thermal_concentration": rule(
+        "n",
+        ["p", "k", "T"],
+        ["p/(k*T)", "p/k/T"],
+        "IDEALgas,p ABSOLUTE,k1.38e-23,TKelvin>0;9PDF23.",
+    ),
+    "gas_total_translation": rule(
+        "Etotal",
+        ["p", "V"],
+        ["3*p*V/2", "p*V*3/2"],
+        "TOTALTRANSLATIONAL kinetic energy,not arbitrary internalenergy,p ABSOLUTE,V>0;9PDF24.",
+    ),
+    "thermal_speed_particle": rule(
+        "v",
+        ["k", "T", "m0"],
+        ["sqrt(3*k*T/m0)", "(3*k*T/m0)^(1/2)"],
+        "IDEALgas RMS,k1.38e-23,m0kg>0,TKelvin>0;privateexactradicand+explicitrounding,9PDF25.",
+        square_root=True,
+    ),
+    "thermal_speed_molar": rule(
+        "v",
+        ["R", "T", "M"],
+        ["sqrt(3*R*T/M)", "(3*R*T/M)^0.5"],
+        "IDEALgas RMS,R8.31J/(mol*K)sourceapprox,Mkg/mol,TKelvin>0,explicitrounding;9PDF25.",
+        square_root=True,
+    ),
+    "particle_speed_energy": rule(
+        "v",
+        ["E", "m0"],
+        ["sqrt(2*E/m0)", "(2*E/m0)^(1/2)"],
+        "E singleparticle kineticenergy,m0>0;9PDF27.",
+        square_root=True,
+    ),
+    "gas_constant_product": rule(
+        "R",
+        ["k", "NA"],
+        ["k*NA", "NA*k"],
+        "k1.38e-23,NA6.02e23SOURCEapprox =>8.3076 before rounding8.31;9PDF25.",
+    ),
+    "stern_flight_speed": rule(
+        "v",
+        ["omega", "R", "r", "s"],
+        ["omega*R*(R-r)/s", "R*(R-r)*omega/s"],
+        "Shtern flightmodel,R OUTERradius,r INNERradius,R>r>0,omega rad/s>0,s>0;not automatically RMS;9PDF26–27.",
+    ),
+    "molar_speed_temperature": rule(
+        "T",
+        ["M", "v", "R"],
+        ["M*v^2/(3*R)", "M*v*v/(3*R)"],
+        "IDEALgas RMS,Mkg/mol,R8.31,TKelvin;9PDF25.",
+    ),
+    "equal_speed_temperature": rule(
+        "T1",
+        ["M1", "T2", "M2"],
+        ["M1*T2/M2", "T2*M1/M2"],
+        "Two idealgases SAME RMS,Mi>0,T2Kelvin>0;9PDF28.",
+    ),
+    "warming_initial_temperature": rule(
+        "T1",
+        ["DT", "v2", "v1"],
+        ["DT/((v2/v1)^2-1)", "DT/(v2^2/v1^2-1)"],
+        "SAME gas/composition,DT>0 temperatureDIFFERENCE,v2>v1>0 RMS;9PDF29.",
+    ),
+    "kinetic_temperature": rule(
+        "T",
+        ["E", "k"],
+        ["2*E/(3*k)", "2*E/3/k"],
+        "IDEALgas E meanTRANSLATIONALperparticle,k1.38e-23;9PDF29.",
+    ),
+    "ideal_pressure_amount": rule(
+        "p",
+        ["nu", "R", "T", "V"],
+        ["nu*R*T/V", "R*T*nu/V"],
+        "IDEALgas,nu mol,R8.31,TKelvin,V>0,p ABSOLUTE;9PDF30–31.",
+    ),
+    "ideal_volume_amount": rule(
+        "V",
+        ["nu", "R", "T", "p"],
+        ["nu*R*T/p", "T*R*nu/p"],
+        "IDEALgas,nu mol,R8.31,TKelvin,p ABSOLUTE>0;9PDF30–31.",
+    ),
+    "ideal_amount_state": rule(
+        "nu",
+        ["p", "V", "R", "T"],
+        ["p*V/(R*T)", "p*V/R/T"],
+        "IDEALgas,p ABSOLUTE,R8.31,TKelvin>0;9PDF30–31.",
+    ),
+    "ideal_mass_state": rule(
+        "m",
+        ["p", "V", "M", "R", "T"],
+        ["p*V*M/(R*T)", "M*p*V/R/T"],
+        "IDEALgas,Mkg/mol,p ABSOLUTE,R8.31,TKelvin>0;9PDF32.",
+    ),
+    "combined_state_pressure": rule(
+        "p2",
+        ["p1", "V1", "T2", "T1", "V2"],
+        ["p1*V1*T2/(T1*V2)", "p1*V1*T2/T1/V2"],
+        "IDEALgas SAMEamount/composition,pABSOLUTE,TKelvin>0,no leaks;9PDF31.",
+    ),
+    "isothermal_volume": rule(
+        "V2",
+        ["p1", "V1", "p2"],
+        ["p1*V1/p2", "V1*p1/p2"],
+        "IDEALgas SAMEamount/composition,Tconst,pABSOLUTE>0;9PDF33–34.",
+    ),
+    "isothermal_pressure": rule(
+        "p2",
+        ["p1", "V1", "V2"],
+        ["p1*V1/V2", "V1*p1/V2"],
+        "IDEALgas SAMEamount/composition,Tconst,pABSOLUTE>0,V2>0;9PDF33–34.",
+    ),
+    "isothermal_density": rule(
+        "rho2",
+        ["rho1", "p2", "p1"],
+        ["rho1*p2/p1", "p2*rho1/p1"],
+        "IDEALgas SAMEcomposition,Tconst,pABSOLUTE>0;9PDF34.",
+    ),
+    "isothermal_initial_pressure": rule(
+        "p1",
+        ["dp", "V2", "V1"],
+        ["dp*V2/(V1-V2)", "V2*dp/(V1-V2)"],
+        "ISOTHERMALcompression SAMEgas,V1>V2>0,dp>0 pressureINCREASE;9PDF35.",
+    ),
+    "isothermal_volume_increase": rule(
+        "V2",
+        ["p1", "V1", "dp"],
+        ["p1*V1/(p1+dp)", "V1*p1/(p1+dp)"],
+        "ISOTHERMAL SAMEgas,Tconst,dp>=0 pressureINCREASE,p1ABSOLUTE>0;9PDF34.",
+    ),
     "molecular_layer": rule(
         "d",
         ["V", "S"],
@@ -1495,6 +1642,8 @@ REVIEWED_FORMULAS = {
     ),
 }
 DIMENSION_UNIT = {
+    "temperature": "K",
+    "gas_constant": "J/(mol*K)",
     "amount": "mol",
     "molar_mass": "kg/mol",
     "number_density": "1/m3",
@@ -1751,6 +1900,117 @@ def reviewed_calculation(question):
         if name == "up_velocity":
             return v0 - g * t, "speed"
         return v0 * t - g * t * t / 2, "length"
+
+    def boltzmann():
+        k = positive("k", "boltzmann_constant")
+        if k != Fraction("1.38e-23"):
+            raise ValueError("explicit_source_boltzmann_approximation")
+        return k
+
+    def gas_constant():
+        r = positive("R", "gas_constant")
+        if r != Fraction("8.31"):
+            raise ValueError("explicit_source_gas_constant_approximation")
+        return r
+
+    if name == "kelvin_from_celsius":
+        result = projection("theta", "celsius_reading") + Fraction("273.15")
+        if result < 0:
+            raise ValueError("below_absolute_zero")
+        return result, "temperature"
+    if name == "boltzmann_mean_energy":
+        return 3 * boltzmann() * value("T", "temperature") / 2, "energy"
+    if name == "thermal_pressure":
+        return value("n", "number_density") * boltzmann() * positive(
+            "T", "temperature"
+        ), "pressure"
+    if name == "thermal_concentration":
+        return value("p", "pressure") / (
+            boltzmann() * positive("T", "temperature")
+        ), "number_density"
+    if name == "gas_total_translation":
+        return 3 * value("p", "pressure") * positive("V", "volume") / 2, "energy"
+    if name == "thermal_speed_particle":
+        return square_root_quantity(
+            3 * boltzmann() * positive("T", "temperature") / positive("m0", "mass")
+        ), "speed"
+    if name == "thermal_speed_molar":
+        return square_root_quantity(
+            3
+            * gas_constant()
+            * positive("T", "temperature")
+            / positive("M", "molar_mass")
+        ), "speed"
+    if name == "particle_speed_energy":
+        return square_root_quantity(
+            2 * value("E", "energy") / positive("m0", "mass")
+        ), "speed"
+    if name == "gas_constant_product":
+        if positive("NA", "avogadro_constant") != Fraction("6.02e23"):
+            raise ValueError("explicit_source_avogadro_approximation")
+        return boltzmann() * positive("NA", "avogadro_constant"), "gas_constant"
+    if name == "stern_flight_speed":
+        outer, inner = positive("R", "length"), positive("r", "length")
+        if outer <= inner:
+            raise ValueError("outer_radius_exceeds_inner")
+        return positive("omega", "angular_speed") * outer * (outer - inner) / positive(
+            "s", "length"
+        ), "speed"
+    if name == "molar_speed_temperature":
+        return positive("M", "molar_mass") * value("v", "speed") ** 2 / (
+            3 * gas_constant()
+        ), "temperature"
+    if name == "equal_speed_temperature":
+        return positive("M1", "molar_mass") * positive("T2", "temperature") / positive(
+            "M2", "molar_mass"
+        ), "temperature"
+    if name == "warming_initial_temperature":
+        v1, v2 = positive("v1", "speed"), positive("v2", "speed")
+        if v2 <= v1:
+            raise ValueError("warming_rms_speed_increase_required")
+        return positive("DT", "temperature") / ((v2 / v1) ** 2 - 1), "temperature"
+    if name == "kinetic_temperature":
+        return 2 * value("E", "energy") / (3 * boltzmann()), "temperature"
+    if name == "ideal_pressure_amount":
+        return positive("nu", "amount") * gas_constant() * positive(
+            "T", "temperature"
+        ) / positive("V", "volume"), "pressure"
+    if name == "ideal_volume_amount":
+        return positive("nu", "amount") * gas_constant() * positive(
+            "T", "temperature"
+        ) / positive("p", "pressure"), "volume"
+    if name == "ideal_amount_state":
+        return positive("p", "pressure") * positive("V", "volume") / (
+            gas_constant() * positive("T", "temperature")
+        ), "amount"
+    if name == "ideal_mass_state":
+        return positive("p", "pressure") * positive("V", "volume") * positive(
+            "M", "molar_mass"
+        ) / (gas_constant() * positive("T", "temperature")), "mass"
+    if name == "combined_state_pressure":
+        return positive("p1", "pressure") * positive("V1", "volume") * positive(
+            "T2", "temperature"
+        ) / (positive("T1", "temperature") * positive("V2", "volume")), "pressure"
+    if name == "isothermal_volume":
+        return positive("p1", "pressure") * positive("V1", "volume") / positive(
+            "p2", "pressure"
+        ), "volume"
+    if name == "isothermal_pressure":
+        return positive("p1", "pressure") * positive("V1", "volume") / positive(
+            "V2", "volume"
+        ), "pressure"
+    if name == "isothermal_density":
+        return positive("rho1", "density") * positive("p2", "pressure") / positive(
+            "p1", "pressure"
+        ), "density"
+    if name == "isothermal_initial_pressure":
+        v1, v2 = positive("V1", "volume"), positive("V2", "volume")
+        if v1 <= v2:
+            raise ValueError("compression_volume_decrease_required")
+        return positive("dp", "pressure") * v2 / (v1 - v2), "pressure"
+    if name == "isothermal_volume_increase":
+        p1 = positive("p1", "pressure")
+        return p1 * positive("V1", "volume") / (p1 + value("dp", "pressure")), "volume"
 
     def avogadro():
         result = positive("NA", "avogadro_constant")

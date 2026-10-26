@@ -574,6 +574,36 @@ NUMERIC_ORACLES.update(
 )
 
 
+NUMERIC_ORACLES.update(
+    {
+        (9, 6, 5): ("240", "K", "273.15+theta"),
+        (9, 6, 6): ("8.28e-21", "J", "k*T*3/2"),
+        (9, 6, 7): ("82.8", "kPa", "k*T*n"),
+        (9, 6, 8): ("3e25", "m⁻³", "p/k/T"),
+        (9, 6, 9): ("0.6", "kJ", "p*V*3/2"),
+        (9, 7, 5): ("0.6434", "km/s", "(3*k*T/m0)^(1/2)"),
+        (9, 7, 6): ("1797.48", "km/h", "(3*R*T/M)^0.5"),
+        (9, 7, 7): ("600", "m/s", "(2*E/m0)^(1/2)"),
+        (9, 7, 8): ("8.3076", "J/(mol*K)", "NA*k"),
+        (9, 7, 9): ("0.5", "km/s", "R*(R-r)*omega/s"),
+        (9, 7, 10): ("320.9", "K", "M*v*v/(3*R)"),
+        (9, 8, 5): ("500", "K", "T2*M1/M2"),
+        (9, 8, 6): ("60", "K", "DT/(v2^2/v1^2-1)"),
+        (9, 8, 7): ("300", "K", "2*E/3/k"),
+        (9, 9, 5): ("300", "kPa", "R*T*nu/V"),
+        (9, 9, 6): ("16.62", "L", "T*R*nu/p"),
+        (9, 9, 7): ("2", "mol", "p*V/R/T"),
+        (9, 9, 8): ("5.6", "g", "M*p*V/R/T"),
+        (9, 9, 9): ("300", "kPa", "p1*V1*T2/T1/V2"),
+        (9, 10, 5): ("0.6", "L", "V1*p1/p2"),
+        (9, 10, 6): ("300", "kPa", "V1*p1/V2"),
+        (9, 10, 7): ("0.003", "g/cm3", "p2*rho1/p1"),
+        (9, 10, 8): ("60", "kPa", "V2*dp/(V1-V2)"),
+        (9, 10, 9): ("4", "L", "V1*p1/(p1+dp)"),
+    }
+)
+
+
 def new_answer(lesson, q):
     if q["grading_spec"]["kind"] == "numeric_quantity":
         grade = int(lesson["topic_id"].split("-")[1])
@@ -590,11 +620,11 @@ def test_original_frozen_content_and_honest_course_coverage():
     )
     data = report()
     assert (data["authored"], data["remaining"], data["source_total"]) == (
-        172,
-        144,
+        177,
+        139,
         316,
     )
-    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 5, 0, 0]
+    assert [r["authored"] for r in data["grades"]] == [61, 46, 60, 10, 0, 0]
     row = data["grades"][0]
     assert (
         row["cards"],
@@ -604,7 +634,7 @@ def test_original_frozen_content_and_honest_course_coverage():
         row["practicals"],
     ) == (254, 394, 88, 7, 1)
     assert row["next_section"] is None
-    assert len(load_course()) == 31
+    assert len(load_course()) == 32
     with pytest.raises(ValueError, match="batch_not_reviewed"):
         load_batch("arbitrary_unreviewed_file")
 
@@ -801,7 +831,7 @@ def test_all_reviewed_http_content_and_replay(preview):
             assert result.status_code == 200 and result.json()["xp_awarded"] == 10
             assert finish(client, attempt).json() == result.json()
     with factory() as db:
-        assert db.get(User, 1).xp_total == 1720
+        assert db.get(User, 1).xp_total == 1770
 
 
 @pytest.mark.parametrize(

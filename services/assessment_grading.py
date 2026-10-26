@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import ast
 import re
+from dataclasses import dataclass
 from decimal import Decimal, InvalidOperation
 from fractions import Fraction
 from math import isqrt
@@ -17,28 +18,55 @@ class AnswerError(ValueError):
     pass
 
 
+@dataclass(frozen=True)
+class PositiveSquareRoot:
+    """Private exact irrational quantity, represented by its rational square."""
+
+    radicand: Fraction
+
+
+def square_root_quantity(radicand):
+    """No floating-point approximation or expression evaluation."""
+    if (
+        not isinstance(radicand, Fraction)
+        or radicand < 0
+        or radicand.numerator.bit_length() > 4096
+        or radicand.denominator.bit_length() > 4096
+    ):
+        raise AnswerError("invalid_expected_root")
+    top, bottom = isqrt(radicand.numerator), isqrt(radicand.denominator)
+    if top * top == radicand.numerator and bottom * bottom == radicand.denominator:
+        return Fraction(top, bottom)
+    return PositiveSquareRoot(radicand)
+
+
 def expected_quantity(spec):
     """Private optional exact ratio; legacy decimal rubrics retain their value.
 
     A repeating rational (for example M/(ZF)) must not be silently rounded
     before deciding the authored rounding interval. Neither field is public.
     """
-    if "expected_rational" not in spec:
+    root_mode = "expected_root_rational" in spec
+    if root_mode and "expected_rational" in spec:
+        raise AnswerError("ambiguous_expected_quantity")
+    if "expected_rational" not in spec and not root_mode:
         return Fraction(Decimal(spec["expected_si"]))
-    ratio = spec["expected_rational"]
+    error = "invalid_expected_root" if root_mode else "invalid_expected_rational"
+    ratio = spec["expected_root_rational" if root_mode else "expected_rational"]
     if not isinstance(ratio, dict) or set(ratio) != {"numerator", "denominator"}:
-        raise AnswerError("invalid_expected_rational")
+        raise AnswerError(error)
     for value in ratio.values():
         if (
             not isinstance(value, str)
             or len(value) > 128
             or not re.fullmatch(r"[+-]?[0-9]+", value)
         ):
-            raise AnswerError("invalid_expected_rational")
+            raise AnswerError(error)
     numerator, denominator = int(ratio["numerator"]), int(ratio["denominator"])
     if denominator <= 0:
-        raise AnswerError("invalid_expected_rational")
-    return Fraction(numerator, denominator)
+        raise AnswerError(error)
+    result = Fraction(numerator, denominator)
+    return square_root_quantity(result) if root_mode else result
 
 
 # Explicit registry, not a permissive expression parser. Source: grade 6
@@ -160,6 +188,11 @@ UNITS = {
     "mm3": ("volume", Fraction(1, 10**9)),
     "1/mol": ("avogadro_constant", Fraction(1)),
     "1/m3": ("number_density", Fraction(1)),
+    # Separate labelled scales: Celsius givens never silently become kelvins.
+    "K": ("temperature", Fraction(1)),
+    "°C": ("celsius_reading", Fraction(1)),
+    "J/K": ("boltzmann_constant", Fraction(1)),
+    "J/(mol*K)": ("gas_constant", Fraction(1)),
     # Grade8 PDF150/152: magnetic induction (not temperature).
     "T": ("magnetic_induction", Fraction(1)),
     "mT": ("magnetic_induction", Fraction(1, 1000)),
@@ -463,14 +496,37 @@ def grade_answer(spec, answer):
                 return "wrong_formula"
         actual_si = value * factor
         expected = expected_quantity(spec)
-        tolerance = max(
-            Fraction(Decimal(spec["abs_tol_si"])),
-            abs(expected) * Fraction(Decimal(spec["rel_tol"])),
-        )
+        if "expected_root_rational" in spec:
+            # New authored roots require explicit nearest-grid rounding. Do not
+            # substitute an approximate decimal as the grading truth. A rational
+            # learner answer a is valid iff sqrt(r) lies inside [a-h, a+h].
+            try:
+                grid = numeric(spec["rounding_increment_si"])
+                tolerance = numeric(spec["abs_tol_si"])
+                relative = numeric(spec["rel_tol"])
+                if grid <= 0 or tolerance != grid / 2 or relative != 0:
+                    raise AnswerError("invalid_root_rounding")
+            except (KeyError, ValueError, InvalidOperation, ZeroDivisionError):
+                raise AnswerError("invalid_root_rounding") from None
+        else:
+            tolerance = max(
+                Fraction(Decimal(spec["abs_tol_si"])),
+                abs(expected) * Fraction(Decimal(spec["rel_tol"])),
+            )
         if spec.get("rounding_increment_si"):
-            grid = Fraction(Decimal(spec["rounding_increment_si"]))
+            if "expected_root_rational" not in spec:
+                grid = Fraction(Decimal(spec["rounding_increment_si"]))
             if (actual_si / grid).denominator != 1:
                 return "rounding_requirement"
+        if isinstance(expected, PositiveSquareRoot):
+            if actual_si < 0:
+                return "sign_error"
+            lower, upper = max(Fraction(), actual_si - tolerance), actual_si + tolerance
+            return (
+                "correct"
+                if lower * lower <= expected.radicand <= upper * upper
+                else "out_of_tolerance"
+            )
         if abs(actual_si - expected) > tolerance:
             return (
                 "sign_error"

@@ -2,8 +2,8 @@
   "publication": "local_test_preview_only",
   "independent_expert": "not_claimed",
   "source_total": 316,
-  "authored": 172,
-  "remaining": 144,
+  "authored": 177,
+  "remaining": 139,
   "grades": [
     {
       "grade": 6,
@@ -50,16 +50,16 @@
     {
       "grade": 9,
       "source_sections": 59,
-      "authored": 5,
-      "remaining": 54,
-      "cards": 24,
-      "formula_entries": 24,
-      "examples": 6,
-      "assessments": 46,
-      "frq": 24,
+      "authored": 10,
+      "remaining": 49,
+      "cards": 49,
+      "formula_entries": 48,
+      "examples": 11,
+      "assessments": 90,
+      "frq": 48,
       "laboratories": 0,
       "practicals": 0,
-      "next_section": 6
+      "next_section": 11
     },
     {
       "grade": 10,
@@ -90,35 +90,35 @@
       "next_section": 1
     }
   ],
-  "original_page_checks": 477,
+  "original_page_checks": 492,
   "date": "2026-10-26",
   "next": {
     "grade": 9,
-    "section": 6,
-    "pdf_page": 21,
-    "printed_page": 21
+    "section": 11,
+    "pdf_page": 35,
+    "printed_page": 35
   },
-  "unique_original_pages_reviewed": 460,
+  "unique_original_pages_reviewed": 474,
   "totals": {
-    "cards": 727,
-    "formula_entries": 317,
-    "examples": 190,
-    "assessments": 1163,
-    "frq": 379
+    "cards": 752,
+    "formula_entries": 341,
+    "examples": 195,
+    "assessments": 1207,
+    "frq": 403
   },
-  "executable_formula_families": 271,
+  "executable_formula_families": 295,
   "tests": {
-    "physics_biology_passed": 451,
-    "postgres_opt_in_skipped": 2,
-    "backend_seconds": 99.79,
+    "full_backend_passed": 1092,
+    "full_backend_opt_in_skipped": 4,
+    "full_backend_warnings": 13,
+    "backend_seconds": 351.78,
     "postgresql16_passed": 1,
-    "postgresql_seconds": 51.02,
-    "flutter_physics_passed": 23,
-    "grade9_public_frq_drafts": 24,
-    "previous_full_backend_passed": 1000,
-    "previous_full_flutter_passed": 147,
-    "new_content_passed": 29,
-    "new_content_seconds": 3.05
+    "postgresql_seconds": 62.56,
+    "full_flutter_passed": 149,
+    "flutter_analyze": "No issues found (1.6s)",
+    "grade9_public_frq_drafts": 48,
+    "root_rational_content_tests_passed": 77,
+    "root_rational_content_seconds": 3.73
   },
   "native_android": "not_run_sdk_absent"
 }

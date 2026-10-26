@@ -125,6 +125,7 @@ def assert_private_absent(payload):
                 "grading_spec",
                 "expected_si",
                 "expected_rational",
+                "expected_root_rational",
                 "expected_choice",
                 "expected_order",
                 "choice_ids",
