@@ -1,68 +1,69 @@
 # Chemistry continuation checkpoint
 
-## Batch46 — 2026-10-26:grade11§1–5
+## Batch47 — 2026-10-26:grade11§6–10
 
-**240/268 implemented;28 remain. Grade11 first5/33 paragraphs.**
-Five lessons add62cards/76questions:20MCQ,13short,39numeric,3formula,1equation.
-Total2330cards/3485questions:960/485/991/359/690. Original4–34 scans reviewed.
-Common source/theory/MCQ/topic-appropriate FRQ/feedback/XP/progress/prerequisite
-contracts retained. Configuration, quantum and nuclearA/Z questions use words,
-MCQ or numbers; no new charged/nuclear/configuration formula parser. Nuclear
-cards are finite A/Z arithmetic, with no physical preparation/device advice.
+**245/268 implemented;23 remain. Grade11 first10/33 paragraphs.**
+Five lessons add53cards/64questions:21MCQ,11short,29numeric,3equation.
+Total2383cards/3549questions:981/496/1020/359/693. Original34–58 reviewed,
+shared boundary39/51 preserved. EqualT/P ideal-gas and roundedair29 models,
+reaction-specific equivalents, coherentR/temperatureunits, named electrolytes,
+alpha/ionic spectator and finite particlecounts use common ILM contracts.
+Charge diagrams are display/MCQ/count only; no new ionicformula parser.
 
-Five source scopes retain5n²subshell vs6orbitalcount,9period/configuration,
-10Zr/Ge/Sc and11missingf14choice issues;14historical/layout/generalizedoxidation
-claims;16radiusset mismatch;19capture/beta/gamma labels;21K40/medicalclaims;
-22Cr51sum75vs78/badpercentage;26liquidHg,27waterassociation/delta/quartz,
-29ionicbondcount/ENarithmetic;32CO2Cpercent and33Agsingleatomexponent.
-Clear local diagrams and exact supplied examples support finite originaltasks.
-192editorialscopes,one finite9§40erratum,zero wholeholds;allreadyfalse.
+Five editorialscopes retain34reciprocalVm/.5molparticlekey;36steamphase and
+15.7rounding;38volumeonlyM/.965rounding;40Vlegend,42g/eqamount,43wrong49;
+46Runitwording/Knotation,48roundedT,49M17uniqueidentity;52H2SO4weak/lamp
+dilution,53solubilitystrength/allorganicacid;54allconcentrationabsolutes,
+55conditional3/30thresholds,56kaliy/CaCl2name and58sourceboundary. Original
+textbook formulas/clearworkedexamples supportfinite tasks;badliteralswithheld.
+197editorialscopes,one finite9§40erratum,zero wholeholds;allreadyfalse.
 
-Target152pass/101.79s. Initial invocation named a nonexistent catalogtest file
-and collected no tests; corrected run used test_chemistry_sources.py. Full
-1763pass/1opt-inPGskip, all50Chemistryfiles once across4isolatedDB/processes.
-Frozen snapshot preserved;wall1193.91s;individualtimes inqa_batch46.json.
-ExistingStarlettewarning once/process(4total),criticalRuff/diffpassed.235prior
-lessonhashes andoriginal7§1bytes preserved;5PDFSHA/817pages auditpassed.
-Two older availability tests now assert the exact deterministic grade list from
-indexed firstlessons; their earlier lesson/progress assertions remain intact.
+Private draftreview initially rejected MCQanswersthatwerenot listed among
+their facts'verifiedanswers. After sourcecomparison those exact supported
+answers wereadded before firstreal serialization;validator stayed strict.
+Target115pass/74.36s. Full1792pass/1opt-inPGskip,all51Chemistryfiles once
+across4isolatedDB/processes;frozen snapshot unchanged;wall1661.83s.
+ExistingStarlettewarning once/process(4total). CriticalRuff/diffpassed.240prior
+lessonhashes/original7§1 preserved;5PDFSHA/817pages auditpasses.
 
-ActualHTTP76correctanswers preserve235/4700XP→240/4800XP,+100once. Completion
-replay identical;−0,5/−0.5 and3,82e−23/3.82e−23 equivalent. Privategrading
-hidden;grade7/8/9/10catalogs unchanged after newgradeimport.15sanitizedpublic
-fixtures only. OwnpreviewPID16732/loopback8903 synthetic900003;verify command
-before stopping. No realuserdata/main/AI/production changes.
+ActualHTTP64correctanswers preserve240/4800→245/4900XP,+100once;complete
+replay identical.11,2/11.2 and1505e20/1.505e23 equivalent. Privategradinghidden;
+grade7/8/9/10catalogs unchanged.15sanitizedpublicfixtures only. Ownpreview
+PID27884/loopback8903 synthetic900003;verify exactcommand beforestop.
 
-Flutter581tests/284s;analysis0issues/247.2s. Five320×568/200% scenarios
-pass/11s;20captures inspected, dark/light, negative spin, isotope mean and
-singleatom scientific notation, current11book and prior10book source locator.
-Continue pinned, feedback/source scroll,no overflowexceptions. Mockrouting11
-added;normal production learning/navigation unchanged. NativeAndroid/IME/
-TalkBack notcertified;learnercopy spacing review pending. Flutterb9d6a64
-pushed toChemistrybranch;backendcommit follows checkpoint. No rawPDF/OCR/
-fulltext/render/token/DBpush;Biology406/Physics/userdata preserved.
+Flutter586tests/438s;analysis0issues/91.7s. Five320×568/200% scenarios pass/19s,
+20captures inspected. Gasparticles,equivalentvolume,allCH4atoms,anionword
+andlongcarbonateequation;current/prior11booksource locator. Feedback and
+source scroll,Continuevisible,nooverflowexceptions. NativeAndroid/IME/TalkBack
+notcertified;copyspacingreviewpending. Fluttereade993 pushed Chemistry
+branch;backendcommit follows. No rawPDF/OCR/fulltext/render/token/DBpush;
+Biology406/Physics/realuserdata/main/AI/production preserved.
 
-Private47§6–10 drafts validated53cards/64questions:21MCQ11short29numeric3equation.
-Private48§11–15 drafts validated43cards/52questions:20MCQ11short21numeric.
-Original35–77 reviewed;notes retain gas/rounding/equivalent/unit/electrolyte,
-hydrolysis/pH/solubility/supersaturation/concentration discrepancies. No future
-drafts counted as indexed lessons, no independentteacher sign-off claimed.
+Future48§11–15 privatedrafts validated43cards/52questions:20MCQ11short21numeric.
+Future49§16–20 privatedrafts validated40cards/50questions:15MCQ6short27numeric
+2equation. Original59–94 reviewed;source notes preserve hydrolysis,purity,
+solubilityphase,basis,precipitatediagram,normalityunit andHNO375%badkey issues.
+Original95–116 also reviewed forfuture50;114Kexpression and115unequalrate
+interpretation conflicts retained forfuturecontrolledscope,clear113/115support.
+Futurecontent notindexed/countedasfinished;independentteacherreviewpending.
 
 ## Exact continuation
 
-Batch45backend38e2d9b/Flutter6566690. Batch46backendcommit follows.
-Do notrerun indexed46author/install/HTTP/doc scripts. Synthetic240/4800XP.
-Next47§6–10→245. Privateauthors47a–e require240baseline;real savesnotrun.
-53cards/64questions. private review47wrapper assumes235+46prelude;
-do notrerun unchanged at240. Add5finiteeditorialscopes/guards/tests,source
-audit,actualHTTP/mobile/target/fullQA,measureddocs,commit/push,continue.
-Current47 ranges6/34–39 and8/45–51 preserve shared boundarypages;read.
+Batch46backend199cad4/Flutterb9d6a64;batch47backendcommit follows.
+Do notrerun indexed47author/install/HTTP/doc scripts. Synthetic245/4900XP.
+Next48§11–15→250. Privateinstall_batch48.py prepared NOTEXECUTED;
+copy.local/test_chemistry_batch48.prepared.py to tests/test_chemistry_batch48.py
+then audit/target/full/actualHTTP/mobile/docs/commit/push andcontinue.
+Private48authors require245baseline. Oldreview48wrapper expects240+47prelude,
+do notrerununchanged at245.43cards/52questions;202scopesafterinstall.
 
-Then48§11–15→250. Privateauthors48a–e and review_batch48_drafts.py validated
-at240+47prelude.43cards/52questions,allMCQ/short/numeric appropriatefortopics.
-Source58–77 reviewed;notes.local/grade11_batch48_source_notes.md. Nophysical
-reagentinstructions/medicalpHdiagnosis. Keep S per100gsolvent separatefrom
-masspercentage per100gsolution;finite values andspecifiedrounding only.
+Then49§16–20→255. Privateauthors49a–e and review_batch49_drafts.py validated
+at245+48prelude;40cards/50questions. Original77–94 reviewed;notes
+.local/grade11_batch49_source_notes.md. No reactionsasphysicalrecipes.
+K39 firstexactproof nowlocated79(twoKmass78),useonlyproperlatercontext;
+BaM233/NaCl58.5explicit82,notBa137frommemory. NormalityErequiresreaction.
 
-Remaining28:47§6–10,48§11–15,49§16–20,50§21–25,51§26–33.
-Finish all268; do not confuse lesson count with scientificteacherreadiness.
+Remaining23=48five+49five+50§21–25five+51§26–33eight. Finishall268.
+Future50 original94–116 read. Sourceissues98rate
+time-sign,100universalorder/onlygas,103H2consumptionexceedsCl2,105universal
+gamma,106yeastbacteria and108–111stoichorder claims needfinitescope.

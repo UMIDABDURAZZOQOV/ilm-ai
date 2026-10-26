@@ -1,0 +1,162 @@
+{
+  "transport": "real loopback HTTP",
+  "synthetic_user": 900003,
+  "prior_completed_lessons_preserved": 240,
+  "prior_xp": 4800,
+  "added_lessons": 5,
+  "added_questions": 64,
+  "kinds": {
+    "concept_selection": 21,
+    "short_text": 11,
+    "numeric_value": 29,
+    "chemical_equation": 3
+  },
+  "added_xp": 100,
+  "total_xp": 4900,
+  "total_completed_lessons": 245,
+  "complete_replay_identical": true,
+  "private_grading_hidden": true,
+  "grade7_8_9_10_catalogs_unchanged": true,
+  "comma_decimal_replay_equivalent": true,
+  "scientific_decimal_replay_equivalent": true,
+  "exported_fixtures": "sanitized public gas Avogadro/equivalent mass/ideal PV/electrolyte ions/dissociation alpha catalogs,lessons,post-answer feedback",
+  "reviewed_on": "2026-10-26",
+  "implemented_lessons": 245,
+  "remaining_lessons": 23,
+  "backend_tests": {
+    "batch": 47,
+    "all_test_files": 51,
+    "all_test_files_run_once": true,
+    "workers": 4,
+    "passed": 1792,
+    "skipped": 1,
+    "wall_seconds": 1661.83,
+    "protected_snapshot_sha256": "1967ab60a1760d31f1e3cb49c7a93dc73309e855edfe6ad6630f1bdcdcfade2a",
+    "frozen_snapshot_preserved": true,
+    "results": [
+      {
+        "worker": 0,
+        "exit_code": 0,
+        "files": [
+          "tests\\test_chemistry_batch02.py",
+          "tests\\test_chemistry_batch06.py",
+          "tests\\test_chemistry_batch10.py",
+          "tests\\test_chemistry_batch14.py",
+          "tests\\test_chemistry_batch18.py",
+          "tests\\test_chemistry_batch22.py",
+          "tests\\test_chemistry_batch26.py",
+          "tests\\test_chemistry_batch30.py",
+          "tests\\test_chemistry_batch34.py",
+          "tests\\test_chemistry_batch38.py",
+          "tests\\test_chemistry_batch43.py",
+          "tests\\test_chemistry_batch47.py",
+          "tests\\test_chemistry_notation.py"
+        ],
+        "log": ".local\\batch47-parallel-full\\worker0\\pytest.log",
+        "wall_seconds": 1106.12,
+        "passed": 469,
+        "skipped": 0,
+        "warnings": 1,
+        "pytest_seconds": 1102.68
+      },
+      {
+        "worker": 1,
+        "exit_code": 0,
+        "files": [
+          "tests\\test_chemistry_batch03.py",
+          "tests\\test_chemistry_batch07.py",
+          "tests\\test_chemistry_batch11.py",
+          "tests\\test_chemistry_batch15.py",
+          "tests\\test_chemistry_batch19.py",
+          "tests\\test_chemistry_batch23.py",
+          "tests\\test_chemistry_batch27.py",
+          "tests\\test_chemistry_batch31.py",
+          "tests\\test_chemistry_batch35.py",
+          "tests\\test_chemistry_batch39.py",
+          "tests\\test_chemistry_batch44.py",
+          "tests\\test_chemistry_earlier_grade_sources.py",
+          "tests\\test_chemistry_postgres.py"
+        ],
+        "log": ".local\\batch47-parallel-full\\worker1\\pytest.log",
+        "wall_seconds": 1019.08,
+        "passed": 405,
+        "skipped": 1,
+        "warnings": 1,
+        "pytest_seconds": 1015.28
+      },
+      {
+        "worker": 2,
+        "exit_code": 0,
+        "files": [
+          "tests\\test_chemistry_batch04.py",
+          "tests\\test_chemistry_batch08.py",
+          "tests\\test_chemistry_batch12.py",
+          "tests\\test_chemistry_batch16.py",
+          "tests\\test_chemistry_batch20.py",
+          "tests\\test_chemistry_batch24.py",
+          "tests\\test_chemistry_batch28.py",
+          "tests\\test_chemistry_batch32.py",
+          "tests\\test_chemistry_batch36.py",
+          "tests\\test_chemistry_batch40.py",
+          "tests\\test_chemistry_batch45.py",
+          "tests\\test_chemistry_errata.py",
+          "tests\\test_chemistry_sources.py"
+        ],
+        "log": ".local\\batch47-parallel-full\\worker2\\pytest.log",
+        "wall_seconds": 1030.56,
+        "passed": 455,
+        "skipped": 0,
+        "warnings": 1,
+        "pytest_seconds": 1027.29
+      },
+      {
+        "worker": 3,
+        "exit_code": 0,
+        "files": [
+          "tests\\test_chemistry_batch05.py",
+          "tests\\test_chemistry_batch09.py",
+          "tests\\test_chemistry_batch13.py",
+          "tests\\test_chemistry_batch17.py",
+          "tests\\test_chemistry_batch21.py",
+          "tests\\test_chemistry_batch25.py",
+          "tests\\test_chemistry_batch29.py",
+          "tests\\test_chemistry_batch33.py",
+          "tests\\test_chemistry_batch37.py",
+          "tests\\test_chemistry_batch41.py",
+          "tests\\test_chemistry_batch46.py",
+          "tests\\test_chemistry_lesson.py"
+        ],
+        "log": ".local\\batch47-parallel-full\\worker3\\pytest.log",
+        "wall_seconds": 1661.22,
+        "passed": 463,
+        "skipped": 0,
+        "warnings": 1,
+        "pytest_seconds": 1657.47
+      }
+    ]
+  },
+  "targeted_tests": {
+    "passed": 115,
+    "seconds": 74.36
+  },
+  "flutter_tests": {
+    "passed": 586,
+    "seconds": 438
+  },
+  "flutter_analysis": {
+    "issues": 0,
+    "seconds": 91.7
+  },
+  "flutter_widgets": {
+    "passed": 5,
+    "seconds": 19,
+    "capture_paths_inspected": 20
+  },
+  "prior240_hashes_preserved": true,
+  "open_source_holds": 0,
+  "open_editorial_issues": 197,
+  "reviewed_errata": 1,
+  "copy_spacing_review_pending": true,
+  "production_operations": false,
+  "flutter_commit": "eade993"
+}

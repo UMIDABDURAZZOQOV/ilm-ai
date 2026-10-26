@@ -225,6 +225,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch11-paragraph03': 'ch11-p3-isotope-nuclear-charge-particle-count-scope-review',
     'ch11-paragraph04': 'ch11-p4-bond-polarity-lattice-localgraph-scope-review',
     'ch11-paragraph05': 'ch11-p5-mole-unit-mass-singleatom-scope-review',
+    'ch11-paragraph06': 'ch11-p6-gas-volume-density-rounding-model-scope-review',
+    'ch11-paragraph07': 'ch11-p7-equivalent-reaction-context-unit-scope-review',
+    'ch11-paragraph08': 'ch11-p8-ideal-gas-unit-temperature-identity-scope-review',
+    'ch11-paragraph09': 'ch11-p9-electrolyte-solubility-lamp-scope-review',
+    'ch11-paragraph10': 'ch11-p10-dissociation-degree-ionic-count-model-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1090,6 +1095,21 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch11-paragraph05' in topic_ids:
             require('Ag atom massasi 1.79e-24 g'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'mole_silver_wrong_single_atom_exponent_withheld')
+        if 'ch11-paragraph06' in topic_ids:
+            require('Molyar hajm 22.4 mol/L'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'gas_molar_volume_reciprocal_unit_withheld')
+        if 'ch11-paragraph07' in topic_ids:
+            require('Ekvivalent massa reaksiyaga hech qachon bog‘liq emas'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'equivalent_requires_reaction_context')
+        if 'ch11-paragraph08' in topic_ids:
+            require('Birlik o‘zgarsa fizik R doimiysi o‘zgaradi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'gas_R_physical_constant_not_changed_by_units')
+        if 'ch11-paragraph09' in topic_ids:
+            require('H2SO4 kuchsiz elektrolit'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'electrolyte_sulfuric_weak_literal_withheld')
+        if 'ch11-paragraph10' in topic_ids:
+            require('CaCl2 dan bitta xlorid ioni'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'dissociation_cacl2_chloride_count_withheld')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

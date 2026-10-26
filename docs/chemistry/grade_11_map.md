@@ -17,12 +17,12 @@ Individual lesson claims require their own reviewed source refs.
 | `ch11-paragraph04` | paragraph 4 | Kimyoviy bog‘lanish turlari. Kristall panjaralar | 23–31 | 23:full – 31:full | 23 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph03 |
 | `ch11-chapter02` | chapter 2 | Modda miqdori | 31–51 | 31:full – 51:full | 31 | not_authored | — |
 | `ch11-paragraph05` | paragraph 5 | Modda miqdori | 31–34 | 31:full – 34:full | 31 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph04 |
-| `ch11-paragraph06` | paragraph 6 | Avogadro qonuni. Gazlar aralashmasi | 34–39 | 34:full – 39:full | 34 | not_authored | ch11-paragraph05 |
-| `ch11-paragraph07` | paragraph 7 | Ekvivalent | 39–45 | 39:full – 45:full | 39 | not_authored | ch11-paragraph06 |
-| `ch11-paragraph08` | paragraph 8 | Mendeleyev-Klapeyron tenglamasi | 45–51 | 45:full – 51:full | 45 | not_authored | ch11-paragraph07 |
+| `ch11-paragraph06` | paragraph 6 | Avogadro qonuni. Gazlar aralashmasi | 34–39 | 34:full – 39:full | 34 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph05 |
+| `ch11-paragraph07` | paragraph 7 | Ekvivalent | 39–45 | 39:full – 45:full | 39 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph06 |
+| `ch11-paragraph08` | paragraph 8 | Mendeleyev-Klapeyron tenglamasi | 45–51 | 45:full – 51:full | 45 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph07 |
 | `ch11-chapter03` | chapter 3 | Kuchli va kuchsiz elektrolitlar. Dissotsiyalanish. Gidroliz | 51–62 | 51:full – 62:full | 51 | not_authored | — |
-| `ch11-paragraph09` | paragraph 9 | Kuchli va kuchsiz elektrolitlar haqida tushuncha | 51–54 | 51:full – 54:full | 51 | not_authored | ch11-paragraph08 |
-| `ch11-paragraph10` | paragraph 10 | Dissotsiatsiyalanish darajasi. Qisqa va to‘liq ionli tenglamalar | 54–58 | 54:full – 58:full | 54 | not_authored | ch11-paragraph09 |
+| `ch11-paragraph09` | paragraph 9 | Kuchli va kuchsiz elektrolitlar haqida tushuncha | 51–54 | 51:full – 54:full | 51 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph08 |
+| `ch11-paragraph10` | paragraph 10 | Dissotsiatsiyalanish darajasi. Qisqa va to‘liq ionli tenglamalar | 54–58 | 54:full – 58:full | 54 | reviewed local lesson; scoped editorial review remains open | ch11-paragraph09 |
 | `ch11-paragraph11` | paragraph 11 | Tuzlarning gidrolizi va undagi eritma muhiti | 58–62 | 58:full – 62:full | 58 | not_authored | ch11-paragraph10 |
 | `ch11-chapter04` | chapter 4 | Eritma | 62–98 | 62:full – 98:full | 62 | not_authored | — |
 | `ch11-paragraph12` | paragraph 12 | Eritma haqida tushuncha | 62–65 | 62:full – 65:full | 62 | not_authored | ch11-paragraph11 |

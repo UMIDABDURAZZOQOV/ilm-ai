@@ -19279,7 +19279,46 @@
             "record_id": "ch11-paragraph07",
             "printed_page": 39,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p6-gas-volume-density-rounding-model-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                34,
+                36,
+                38
+              ],
+              "pdf_pages": [
+                34,
+                36,
+                38
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original textbook images reviewed. Finite declared models and supplied data; bad literals/generalizations withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p6-gas-volume-density-rounding-model-scope-review-page34",
+                  "printed_page": 34,
+                  "reason": "Vm reciprocalunit and .5mol3.02e23 withheld; prior31 NA corroborates."
+                },
+                {
+                  "id": "ch11-p6-gas-volume-density-rounding-model-scope-review-page36",
+                  "printed_page": 36,
+                  "reason": "1molwaterlabel/steam-at-n.sh. and3/19 rounding15.7 withheld."
+                },
+                {
+                  "id": "ch11-p6-gas-volume-density-rounding-model-scope-review-page38",
+                  "printed_page": 38,
+                  "reason": "Volumealone cannotidentifyM;28/29 rounded.965 literal withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -19320,7 +19359,54 @@
             "record_id": "ch11-paragraph08",
             "printed_page": 45,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p7-equivalent-reaction-context-unit-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                40,
+                42,
+                43,
+                45
+              ],
+              "pdf_pages": [
+                40,
+                42,
+                43,
+                45
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original textbook images reviewed. Finite declared models and supplied data; bad literals/generalizations withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p7-equivalent-reaction-context-unit-scope-review-page40",
+                  "printed_page": 40,
+                  "reason": "Vlegend index typo;actualvalencecontext retained;ioncharge magnitude."
+                },
+                {
+                  "id": "ch11-p7-equivalent-reaction-context-unit-scope-review-page42",
+                  "printed_page": 42,
+                  "reason": "g/eq usedasamount notcopied;equivalentreactioncontext explicit."
+                },
+                {
+                  "id": "ch11-p7-equivalent-reaction-context-unit-scope-review-page43",
+                  "printed_page": 43,
+                  "reason": "Metalchloride expression49 wrong vsfinal9;finiteotherexample used."
+                },
+                {
+                  "id": "ch11-p7-equivalent-reaction-context-unit-scope-review-page45",
+                  "printed_page": 45,
+                  "reason": "No uniqueelementfromEalone;valenceIII/candidates explicit."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -19361,7 +19447,46 @@
             "record_id": "ch11-chapter03",
             "printed_page": 51,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p8-ideal-gas-unit-temperature-identity-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                46,
+                48,
+                49
+              ],
+              "pdf_pages": [
+                46,
+                48,
+                49
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original textbook images reviewed. Finite declared models and supplied data; bad literals/generalizations withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p8-ideal-gas-unit-temperature-identity-scope-review-page46",
+                  "printed_page": 46,
+                  "reason": "R numericalvalue changeswithunits notphysicalconstant;Knodegree;273schoolapprox."
+                },
+                {
+                  "id": "ch11-p8-ideal-gas-unit-temperature-identity-scope-review-page48",
+                  "printed_page": 48,
+                  "reason": "RoundedT300/t27 notexactwithgiven8.31,notallrealgaslaw."
+                },
+                {
+                  "id": "ch11-p8-ideal-gas-unit-temperature-identity-scope-review-page49",
+                  "printed_page": 49,
+                  "reason": "M17alone notuniqueunknownidentity;finitePV/particlemodels."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ch11-chapter03",
@@ -19440,7 +19565,46 @@
             "record_id": "ch11-paragraph10",
             "printed_page": 54,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p9-electrolyte-solubility-lamp-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                51,
+                52,
+                53
+              ],
+              "pdf_pages": [
+                51,
+                52,
+                53
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original textbook images reviewed. Finite declared models and supplied data; bad literals/generalizations withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p9-electrolyte-solubility-lamp-scope-review-page51",
+                  "printed_page": 51,
+                  "reason": "NaClassecondaryassociation notuniqueaqmolecule;electrodesignscope onlyshownexternallypoweredcell."
+                },
+                {
+                  "id": "ch11-p9-electrolyte-solubility-lamp-scope-review-page52",
+                  "printed_page": 52,
+                  "reason": "H2SO4 weakgroup/lampbrightnessdilutionabsolute withheld;53strongtable corroborates."
+                },
+                {
+                  "id": "ch11-p9-electrolyte-solubility-lamp-scope-review-page53",
+                  "printed_page": 53,
+                  "reason": "Solubility notstrength/allorganicacidsweak/waterzeroions withheld."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
@@ -19481,7 +19645,54 @@
             "record_id": "ch11-paragraph11",
             "printed_page": 58,
             "before_heading": true
-          }
+          },
+          "editorial_review_issues": [
+            {
+              "id": "ch11-p10-dissociation-degree-ionic-count-model-scope-review",
+              "status": "open_review",
+              "printed_pages": [
+                54,
+                55,
+                56,
+                58
+              ],
+              "pdf_pages": [
+                54,
+                55,
+                56,
+                58
+              ],
+              "regions": [
+                "full",
+                "full",
+                "full",
+                "full"
+              ],
+              "scope": "Original textbook images reviewed. Finite declared models and supplied data; bad literals/generalizations withheld. Independent teacher review pending.",
+              "withheld_claims": [
+                {
+                  "id": "ch11-p10-dissociation-degree-ionic-count-model-scope-review-page54",
+                  "printed_page": 54,
+                  "reason": "Allconcentrationscomplete/lampbrightnessconstant/weakonlydiluted withheld."
+                },
+                {
+                  "id": "ch11-p10-dissociation-degree-ionic-count-model-scope-review-page55",
+                  "printed_page": 55,
+                  "reason": "3/30percentclassification conditional,noboundarykeys;chargeequations notparser."
+                },
+                {
+                  "id": "ch11-p10-dissociation-degree-ionic-count-model-scope-review-page56",
+                  "printed_page": 56,
+                  "reason": "Kaliyname versusCaCl2diagram;CaCl2formalcountonly,no realequilibriumclaim."
+                },
+                {
+                  "id": "ch11-p10-dissociation-degree-ionic-count-model-scope-review-page58",
+                  "printed_page": 58,
+                  "reason": "Top§10CrIII sulfatecount separatefrom§11hydrolysisbody."
+                }
+              ]
+            }
+          ]
         },
         {
           "kind": "paragraph",
