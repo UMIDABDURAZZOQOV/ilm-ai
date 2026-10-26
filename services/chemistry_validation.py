@@ -204,6 +204,11 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch10-paragraph23': 'ch10-p23-phenol-caption-complex-identity-review',
     'ch10-paragraph24': 'ch10-p24-aldehyde-name-speciation-model-review',
     'ch10-paragraph25': 'ch10-p25-ketone-graph-family-quantity-review',
+    'ch10-paragraph26': 'ch10-p26-acid-name-coefficient-classification-review',
+    'ch10-paragraph27': 'ch10-p27-ether-isomer-hybrid-count-review',
+    'ch10-paragraph28': 'ch10-p28-ester-medium-identity-scope-review',
+    'ch10-paragraph29': 'ch10-p29-fat-composition-phase-hydrolysis-review',
+    'ch10-paragraph30': 'ch10-p30-carbohydrate-units-redox-scope-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -1006,6 +1011,21 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch10-paragraph25' in topic_ids:
             require('C6H12O yagona keton tuzilishi'.casefold() not in {a.casefold() for a in f['verified_answers']},
                     'ketone_amount_does_not_determine_unique_graph')
+        if 'ch10-paragraph26' in topic_ids:
+            require('2,2-metilbutan kislota'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'branched_acid_wrong_caption_is_withheld')
+        if 'ch10-paragraph27' in topic_ids:
+            require('Dimetilefir va metilpropilefir izomer'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'different_carbon_ether_pair_cannot_be_isomers')
+        if 'ch10-paragraph28' in topic_ids:
+            require('Ishqorli gidrolizda faqat erkin kislota'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'alkaline_ester_hydrolysis_requires_source_salt_products')
+        if 'ch10-paragraph29' in topic_ids:
+            require('Barcha o‘simlik yog‘lari suyuq'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'universal_fat_phase_claim_is_withheld')
+        if 'ch10-paragraph30' in topic_ids:
+            require('Fruktoza kumush ko‘zguni hech qachon bermaydi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'unverified_sugar_redox_exclusivity_is_withheld')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")

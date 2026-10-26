@@ -38,11 +38,11 @@ Individual lesson claims require their own reviewed source refs.
 | `ch10-paragraph23` | paragraph 23 | Fenollar va aromatik spirtlar. Olinishi va xossalari | 89–93 | 89:full – 93:full | 89 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph22 |
 | `ch10-paragraph24` | paragraph 24 | Oksobirikmalar. Aldegidlar. Olinishi va xossalari | 93–99 | 93:full – 99:full | 93 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph23 |
 | `ch10-paragraph25` | paragraph 25 | Ketonlar. Olinishi va xossalari | 99–102 | 99:full – 102:full | 99 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph24 |
-| `ch10-paragraph26` | paragraph 26 | Karbon kislotalar. Olinishi va xossalari | 102–107 | 102:full – 107:full | 102 | not_authored | ch10-paragraph25 |
-| `ch10-paragraph27` | paragraph 27 | Oddiy efirlar. Olinishi va xossalari | 107–109 | 107:full – 109:full | 107 | not_authored | ch10-paragraph26 |
-| `ch10-paragraph28` | paragraph 28 | Murakkab efirlar. Olinishi va xossalari. Ishlatilishi | 109–114 | 109:full – 114:full | 109 | not_authored | ch10-paragraph27 |
-| `ch10-paragraph29` | paragraph 29 | Yog‘lar. Olinishi va xossalari | 114–117 | 114:full – 117:full | 114 | not_authored | ch10-paragraph28 |
-| `ch10-paragraph30` | paragraph 30 | Uglevodlar. Monosaxaridlar. Olinishi va xossalari | 117–125 | 117:full – 125:full | 117 | not_authored | ch10-paragraph29 |
+| `ch10-paragraph26` | paragraph 26 | Karbon kislotalar. Olinishi va xossalari | 102–107 | 102:full – 107:full | 102 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph25 |
+| `ch10-paragraph27` | paragraph 27 | Oddiy efirlar. Olinishi va xossalari | 107–109 | 107:full – 109:full | 107 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph26 |
+| `ch10-paragraph28` | paragraph 28 | Murakkab efirlar. Olinishi va xossalari. Ishlatilishi | 109–114 | 109:full – 114:full | 109 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph27 |
+| `ch10-paragraph29` | paragraph 29 | Yog‘lar. Olinishi va xossalari | 114–117 | 114:full – 117:full | 114 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph28 |
+| `ch10-paragraph30` | paragraph 30 | Uglevodlar. Monosaxaridlar. Olinishi va xossalari | 117–125 | 117:full – 125:full | 117 | reviewed local lesson; scoped editorial review remains open | ch10-paragraph29 |
 | `ch10-paragraph31` | paragraph 31 | Disaxaridlar, Polisaxaridlar. Olinishi va xossalari | 125–131 | 125:full – 131:full | 125 | not_authored | ch10-paragraph30 |
 | `ch10-chapter04` | chapter 4 | Azotli organik birikmalar | 131–153 | 131:full – 153:full | 131 | not_authored | — |
 | `ch10-paragraph32` | paragraph 32 | Nitrobirikmalar. Olinishi va xossalari | 131–134 | 131:full – 134:full | 131 | not_authored | ch10-paragraph31 |
