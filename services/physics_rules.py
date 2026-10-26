@@ -24,6 +24,84 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "heat_cycle_rejected_heat": rule(
+        "Qc",
+        ["Qh", "eta"],
+        ["Qh*(1-eta)", "(1-eta)*Qh"],
+        "CYCLICheatengine,Qh>0,0<eta<1, Qc POSITIVE rejected magnitude;9PDF85.",
+    ),
+    "heat_cycle_work": rule(
+        "A",
+        ["Qh", "Qc"],
+        ["Qh-Qc", "Qh+(-Qc)"],
+        "CYCLICheatengine,DUcycle0,Qh/QcPOSITIVEreceived/rejectedmagnitudes,Qh>Qc>0,A_NET_BY>0;9PDF83–85.",
+    ),
+    "heat_cycle_efficiency": rule(
+        "eta",
+        ["Qh", "Qc"],
+        ["(Qh-Qc)/Qh", "1-Qc/Qh"],
+        "CYCLICheatengine,Qh>Qc>0,dimensionless0<eta<1,notpercentnumberunlessunit%;9PDF85.",
+    ),
+    "carnot_max_efficiency": rule(
+        "eta",
+        ["Th", "Tc"],
+        ["(Th-Tc)/Th", "1-Tc/Th"],
+        "REVERSIBLECARNOTmaximum betweenTWOreservoirs,Th>Tc>0K,notarbitraryrealengineequality;9PDF85.",
+    ),
+    "carnot_cycle_work": rule(
+        "A",
+        ["Th", "Tc", "Qh"],
+        ["Qh*(Th-Tc)/Th", "Qh*(1-Tc/Th)"],
+        "REVERSIBLECARNOTtworeservoirsTh>Tc>0K,Qh>0receivedmagnitude,netcyclework;9PDF86.",
+    ),
+    "cycle_efficiency_work_cold": rule(
+        "eta",
+        ["A", "Qc"],
+        ["A/(A+Qc)", "1-Qc/(A+Qc)"],
+        "CYCLICheatengine,A/Qc>0NETwork/rejectedheatmagnitudes,Qh=A+Qc;9PDF86.",
+    ),
+    "carnot_hot_temperature": rule(
+        "Th",
+        ["Tc", "eta"],
+        ["Tc/(1-eta)", "Tc*(1-eta)^-1"],
+        "REVERSIBLECARNOTtworeservoirs,Tc>0K,0<eta<1fraction,notordinaryrealengineinverse;9PDF87.",
+    ),
+    "cycle_work_cold_efficiency": rule(
+        "A",
+        ["eta", "Qc"],
+        ["eta*Qc/(1-eta)", "Qc*eta/(1-eta)"],
+        "CYCLICheatengine,Qc>0rejectedmagnitude,0<eta<1fraction;9PDF87.",
+    ),
+    "carnot_heat_temperature_ratio": rule(
+        "Qh",
+        ["Qc", "Th", "Tc"],
+        ["Qc*Th/Tc", "Th*Qc/Tc"],
+        "REVERSIBLECARNOTtworeservoirs,Qc>0rejectedmagnitude,Th>Tc>0K;9PDF87.",
+    ),
+    "fuel_power_efficiency": rule(
+        "eta",
+        ["P", "t", "m", "q"],
+        ["P*t/(m*q)", "t*P/m/q"],
+        "ProvidedconstantUSEFULP,completecombustionfuelm/q>0,time>0,0<P*t<m*q;9PDF89.",
+    ),
+    "fuel_heating_rise": rule(
+        "DT",
+        ["eta", "mf", "q", "mw", "c"],
+        ["eta*mf*q/(mw*c)", "mf*q*eta/mw/c"],
+        "SINGLEPHASEcconst,0<eta<1USEFULheatfraction,mfcompleteburning,NOphasechange,DT>0;9PDF89.",
+    ),
+    "fuel_travel_power": rule(
+        "P",
+        ["eta", "rho", "V", "q", "v", "s"],
+        ["eta*rho*V*q*v/s", "rho*V*q*eta*v/s"],
+        "CONSTANTspeedtravel,averageUSEFULpower,completecombustion,rho/V/q/v/s>0,0<eta<1;9PDF90.",
+    ),
+    "fuel_mass_power_time": rule(
+        "m",
+        ["P", "t", "eta", "q"],
+        ["P*t/(eta*q)", "t*P/eta/q"],
+        "CONSTANTUSEFULpower,completecombustionfuel,0<eta<1,q/time>0;9PDF90.",
+    ),
     "fuel_energy": rule(
         "Qfuel",
         ["q", "m"],
@@ -2354,6 +2432,70 @@ def reviewed_calculation(question):
             raise ValueError("particle_count_unit_one")
         return whole_count(value("N", "dimensionless"))
 
+    if name == "heat_cycle_rejected_heat":
+        eta = positive("eta", "dimensionless")
+        if eta >= 1:
+            raise ValueError("heat_engine_fraction_between_zero_and_one")
+        return positive("Qh", "energy") * (1 - eta), "energy"
+    if name in {"heat_cycle_work", "heat_cycle_efficiency"}:
+        hot, cold = positive("Qh", "energy"), positive("Qc", "energy")
+        if hot <= cold:
+            raise ValueError("engine_requires_positive_net_work")
+        return (
+            (hot - cold, "energy")
+            if name == "heat_cycle_work"
+            else ((hot - cold) / hot, "dimensionless")
+        )
+    if name in {
+        "carnot_max_efficiency",
+        "carnot_cycle_work",
+        "carnot_heat_temperature_ratio",
+    }:
+        hot, cold = positive("Th", "temperature"), positive("Tc", "temperature")
+        if hot <= cold:
+            raise ValueError("hot_reservoir_must_be_hotter")
+        eta = (hot - cold) / hot
+        if name == "carnot_max_efficiency":
+            return eta, "dimensionless"
+        if name == "carnot_cycle_work":
+            return positive("Qh", "energy") * eta, "energy"
+        return positive("Qc", "energy") * hot / cold, "energy"
+    if name == "cycle_efficiency_work_cold":
+        work, cold = positive("A", "energy"), positive("Qc", "energy")
+        return work / (work + cold), "dimensionless"
+    if name in {
+        "carnot_hot_temperature",
+        "cycle_work_cold_efficiency",
+        "fuel_heating_rise",
+        "fuel_travel_power",
+        "fuel_mass_power_time",
+    }:
+        eta = positive("eta", "dimensionless")
+        if eta >= 1:
+            raise ValueError("heat_engine_fraction_between_zero_and_one")
+        if name == "carnot_hot_temperature":
+            return positive("Tc", "temperature") / (1 - eta), "temperature"
+        if name == "cycle_work_cold_efficiency":
+            return eta * positive("Qc", "energy") / (1 - eta), "energy"
+        if name == "fuel_heating_rise":
+            return eta * positive("mf", "mass") * positive("q", "specific_energy") / (
+                positive("mw", "mass") * positive("c", "specific_heat")
+            ), "temperature"
+        if name == "fuel_travel_power":
+            return eta * positive("rho", "density") * positive(
+                "V", "volume"
+            ) * positive("q", "specific_energy") * positive("v", "speed") / positive(
+                "s", "length"
+            ), "power"
+        return positive("P", "power") * positive("t", "time") / (
+            eta * positive("q", "specific_energy")
+        ), "mass"
+    if name == "fuel_power_efficiency":
+        work = positive("P", "power") * positive("t", "time")
+        fuel = positive("m", "mass") * positive("q", "specific_energy")
+        if work >= fuel:
+            raise ValueError("heat_engine_requires_rejected_energy")
+        return work / fuel, "dimensionless"
     if name == "fuel_energy":
         return positive("q", "specific_energy") * value("m", "mass"), "energy"
     if name == "fuel_mass":

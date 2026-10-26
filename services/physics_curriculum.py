@@ -66,6 +66,7 @@ REVIEWED_BATCHES = {
     "grade9_batch3": (9, 11, 15),
     "grade9_batch4": (9, 16, 20),
     "grade9_batch5": (9, 21, 25),
+    "grade9_batch6": (9, 26, 30),
 }
 # Image-checked continuation missed by the old digital text boundary. Preserve
 # the frozen stage-one archive; permit only this explicitly documented page.

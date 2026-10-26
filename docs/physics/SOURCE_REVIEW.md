@@ -183,3 +183,33 @@ Ikkala manba sahifasi dars20ga bog‘langan;PDF va frozen xarita o‘zgarmadi.
 Bu agent bajargan manba/energiya-balans tekshiruvidir;mustaqil kalorimetriya
 mutaxassisi tasdig‘i bajarildi deyilmaydi. General publication oldidan shu
 review talab qilinadi. Raqamli laboratoriya jismoniy tajriba tasdig‘i emas.
+
+## 9-sinf §26–30 — issiqlik dvigatellari va manba tafovutlari (2026-10-26)
+
+PDF/bosma81–90 asl tasvirlari, formulalar va split-PDF88/89 chegarasi ko‘rildi.
+§26 va §29 konseptual; manbada bo‘lmagan formula yoki to‘rt takt diagrammasi
+qo‘shilmadi.81-sahifadagi qisqa so‘rish/yondirish bayoni to‘liq takt jadvali
+sifatida olinmadi; «oktan yonuvchi gaz» degan tasnif ham takrorlanmadi.
+
+84-sahifadagi siqilish ishining belgilari gaz BY ishi bilan tashqi kuch ON
+ishini aralashtirmasdan izohlandi. To‘liq siklda DU=0, A_BY=Qh-Qc; Qh/Qc
+musbat modullar. Karno ikki izoterma va ikki adiabatadan iborat qaytar model.
+85-sahifadagi FIK «faqat temperatura farqiga proporsional» jumlasi to‘liq emas:
+eta_max=(Th-Tc)/Th, Th ham kerak. Masalan,600/300K uchun0.5,1200/900K
+uchun0.25, farq ikkalasida300K. Bu ixtiyoriy real dvigatelning aynan FIK’i
+emas.86-sahifadagi273 yaqinlashuvi aniq273.15 bilan yashirin aralashtirilmadi;
+yangi masalalar Kelvin qiymatlarida.
+
+87–88-sahifalardagi tarixiy global sarf, quvvat va chiqindi raqamlari hozirgi
+statistika yoki yangi iqlim qonuni sifatida ishlatilmadi. Quyoshni barcha
+vaziyatda yagona yechim, barcha sovitkich moddalarini bir xil ozon yemiruvchi
+deb ko‘rsatadigan umumlashtirishlar ko‘chirilmadi. Asosiy ekologik tushunchalar
+manbaga bog‘langan; mustaqil ekologiya mutaxassisi review’i bajarildi deyilmaydi.
+
+89-sahifadagi kerosin q=46MJ/kg 66-sahifadagi42MJ/kg jadval bilan farq qiladi.
+Yangi suv isitish masalasida noma’lum turdagi yoqilg‘i uchun q=40MJ/kg **berilgan
+hisobiy parametr**; kerosin uchun yangi universal konstanta yaratilmagan.
+Foydali isitish energiyasi mexanik ish bilan teng nomlanmaydi.90-sahifadagi
+P=eta*rho*V*q*v/s o‘zgarmas tezlik/o‘rtacha foydali quvvat modelida qo‘llanadi.
+PDF, frozen xarita, oldingi darslar va Biology o‘zgartirilmadi. Barchasi lokal/test
+preview; mustaqil fan/pedagogik review va Android sinovi hali bajarilmagan.
