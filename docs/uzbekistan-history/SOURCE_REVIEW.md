@@ -23,3 +23,10 @@ Mustaqil tarix o‘qituvchisi,Android va2026–2027to‘liq dastur ekspertizasi 
 Keyingi §11 uchun asl37–41 ko‘rildi: 38-sahifada sulola almashish bayoni 749-yilga bog‘langan, ayni joyda Abul Abbos Saffoh hukmronligi 750–754 deb ko‘rsatilgan; 39-sahifa xulosasi ham 747–749ni beradi. Bu ichki xronologik tafovut. Sulola hokimiyatga kelgan yilini bir qiymatli avtomatik savolga aylantirmaslik kerak; 747 targ‘ibot, 751 Talos, 755 Abu Muslim qaydlarini alohida tekshirib ishlatish mumkin. Yetishmayotgan mustaqil dalilsiz “tuzatildi” deb aytilmaydi.
 
 §12 uchun 42-sahifada O‘g‘uz davlati IX oxiri–X boshida tashkil topishi va X asr birinchi choragida parchalanishi berilgan. Tugash asri mustaqil ekspertizaga qoldirildi, aniq sana kaliti qo‘yilmasin. Qarluqlar va o‘g‘uzlar haqida matndagi murakkab etnogenez xulosalari bir-to-bir avtomatik fakt testiga aylantirilmaydi.
+
+
+## §11–15: qabul qilingan tekshiruv chegaralari
+
+Asl37–55-sahifalar ko‘rildi; faktlarga38–54bog‘langan. 749/750ichki tafovut, o‘g‘uzlar tugash asri, birlamchi etnogenez da’volari, barcha mintaqa uchun “ilk madrasa” va barcha davrda bir xil soliq stavkasi kalitga olinmadi. Qarluqlar/o‘g‘uzlar/tohiriylar alohida markazlar bilan tushuntirildi. Rabotning oldingi shahar qismi va keyingi savdo yo‘li binosi ma’nolari farqlangan. Xronologiyada bu partiyadan boshlab ekrandagi event yorliqlari sanani oshkor qilmaydi; kartada o‘tilgan voqeani eslash talab etiladi. Original kartalar tarjima yoki ko‘chirilgan uzun darslik paragraflari emas.
+
+Keyingi §16–20 manba kuzatuvlari: asl55–74o‘qildi. 59-sahifa 1141Qatvon g‘alabasidan keyin Qoraxoniylar davlati tugashini aytadi. Siyosiy qaramlik va sulola tugashini aralashtirmaslik uchun bu xulosa mustaqil ekspertizaga qoldiriladi; jang qaydini alohida qo‘llash mumkin. 63-sahifadagi Temuchin tug‘ilish sanasining bahsli bo‘lishi sabab u avtomatik fakt kalitiga olinmasin. Qamal hikoyalaridagi qurbonlar soni, taxminiy qo‘shin miqdori, tarixiy shaxslarga nisbat berilgan nutqlar va rivoyatlarni mustaqil tasdiqlangan yagona dalil deb taqdim etmaymiz. Siyosiy sababni faqat bitta shaxsga yoki guruhga yuklovchi umumlashtirishdan saqlanamiz.

@@ -1,6 +1,6 @@
 # O‘zbekiston tarixi: manba katalogi va lokal/test kursi
 
-Joriy interaktiv qamrov 7-sinf §1–10 bilan cheklangan. **Barcha besh kitob tayyor emas.**
+Joriy interaktiv qamrov 7-sinf §1–15 bilan cheklangan. **Barcha besh kitob tayyor emas.**
 
 - [Joriy hisob va sinovlar](COURSE_COMPLETION.md)
 - [Aniq davom nuqtasi](STAGE2_PROGRESS.md)
