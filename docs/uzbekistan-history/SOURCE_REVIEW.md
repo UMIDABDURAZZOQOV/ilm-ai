@@ -67,3 +67,12 @@ Keyingi §36–42 uchun asl133–156to‘liq ko‘rildi. Qofiya/morfologiya juft
 §40da Ali Qushchining to‘liq Alouddin shakli oldingi §39ning147-sahifasida, qisqa nomi149da bor. Shu fakt uchun prior paragraph ref aniq §39 sarlavhasi, topic SHA va `reviewed_prior_context` belgisi bilan qo‘shildi. Validator faqat ayni kitobdagi oldin o‘qilgan paragrafga, uning sahifa chegarasi va xeshiga mos havolani qabul qiladi. Kelajak paragrafi, boshqa sarlavha/xesh yoki markersiz kontekst rad etiladi. Flutter manba oynasi bu147-sahifani §40 deb noto‘g‘ri nomlamaydi: asl «Ta’lim tizimi» sarlavhasini ko‘rsatadi. Bu mavjud r1 darslarini qayta yozish emas; yangi partiya hali muzlatilmasdan to‘g‘rilandi.
 
 §37da qo‘shni kelajak matndan olingan ortiqcha Bobur to‘liq ismi olib tashlandi; Abulqosim Bobur aynan joriy manba doirasida qoladi. §40 rasadxona joylashuvi savoli Samarqandni aniq belgilaydigan faktga bog‘landi, umumiy ilm markazlari faktiga emas. Barcha kalitlar mustaqil literal javoblar bilan testlanadi.
+
+
+## 2026-10-27: §41–42 — 7-sinf manba ketma-ketligi tugadi
+
+Asl150–156-sahifalar qayta tasvirdan ko‘rildi. §41 PDF150ning pastida boshlanadi,153dagi §42 sarlavhasigacha; §42 esa156oxirigacha. Bir sahifadagi ikki mavzuning bo‘lagi bir-biriga aralashtirilmadi. Durbek/Atoiy, Lutfiy, Jomiy/Navoiy, Mirxond/Xondamir asar va rollari manbadagi aynan shu bandlarga bog‘langan. Adabiy yuksak baholar universal shoirlar reytingi sifatida baholanmaydi. Mirxond1498vafoti va1523gacha asar qamrovi Xondamirning davom ettirishi bilan ajratildi; bundan soxta muallif umri chiqarilmaydi.
+
+Lavvohlik, sahhoflik, nasta’liq va Sultonali Mashhadiy nomi154asl tasviridan tekshirildi. Nasta’liqning global ixtiro ustuvorligi uchun mustaqil dalil tasdiqlandi deb aytilmaydi.1429Shohnoma qo‘lyozma nusxasining sanasi, asarning ilk yaratilish sanasi emas. Mahmud Muzahhib portretining nisbat berilishi shaxsning barcha fe’l-atvori tasvirdan isbotlandi degani emas.1997mukofot/2000xotirlash Behzodning o‘z davridan farqlangan. Siyosiy madh yoki darslikdagi yuz qiyofasidan ma’naviy xulosa chiqarish avtomatik testga kiritilmadi.
+
+7-sinf42paragraf manbaga bog‘langan lokal/test darsga aylantirildi. Bu mustaqil tarixchi tasdig‘i yoki barcha besh sinf yakuni emas.8-sinf manba fayli transferdan o‘tmaguncha uning birorta mavzu nomi, darsi yoki sanasi taxminan yaratilmaydi. [Manba davom handoffi](SOURCE_HANDOFF.md).

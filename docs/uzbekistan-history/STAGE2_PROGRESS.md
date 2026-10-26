@@ -1,18 +1,18 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan.** 7-sinf §1–40: **40 dars**, 307 karta, 40 original misol, 267 topshiriq (160 MCQ / 79 qisqa FRQ / 28 xronologiya), 40 avtomatik baholanmaydigan refleksiya/rubrika.
+2026-10-27. **Kurs tugallanmagan.** 7-sinf §1–42: **42 dars**, 325 karta, 42 original misol, 280 topshiriq (168 MCQ / 83 qisqa FRQ / 29 xronologiya), 42 avtomatik baholanmaydigan refleksiya/rubrika.
 
 | Sinf | Bob | Katalogdagi mavzu | Interaktiv dars | Qolgan |
 |---|---:|---:|---:|---:|
-| 7 | 6 | 42 | 40 | 2 |
+| 7 | 6 | 42 | 42 | 0 |
 | 8 | ? | ? | 0 | Noma’lum: PDF olinmagan |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
-To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 91 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
+To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 89 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
 
-Keyingi: **7-sinf §41, PDF/bosma 150 — Adabiyot**. Hozirgacha yozilgan darslarni qaytadan yaratmang. 8-sinf manbasi olinmagan; boshqa fanlar yoki productionga tegmang.
+Keyingi: **8-sinf: manba PDF segmentlari olinmaguncha bloklangan**. Hozirgacha yozilgan darslarni qaytadan yaratmang. 8-sinf manbasi olinmagan; boshqa fanlar yoki productionga tegmang.
 
 | 7-sinf darsi | Faktlar keltirilgan PDF/bosma sahifalar | Karta | Topshiriq |
 |---|---|---:|---:|
@@ -56,13 +56,17 @@ Keyingi: **7-sinf §41, PDF/bosma 150 — Adabiyot**. Hozirgacha yozilgan darsla
 | §38 Ijtimoiy-iqtisodiy taraqqiyot va bunyodkorlik | 141–145 | 8 | 6 |
 | §39 Ta’lim tizimi | 146–147 | 7 | 7 |
 | §40 Aniq fanlarning rivojlanishi | 147–150 | 8 | 6 |
+| §41 Adabiyot | 150–153 | 8 | 6 |
+| §42 Tasviriy san’at | 153–156 | 10 | 7 |
 
 Bu partiyalarda PDF va bosma raqamlar mos; ular har bir refda alohida saqlangan. Sahifa ichidagi boshlanish va navbatdagi sarlavhadan oldingi chegara JSON’da bor. Tafovut/ekspert qaydlari SOURCE_REVIEW.md’da.
 
-- backend: `92 passed, 1 skipped in 22.08s`.
-- postgres: `1 passed, 76 deselected in 13.74s`.
-- flutter: `01:20 +229: All tests passed!`.
-- analyze: `No issues found! (ran in 1.4s)`.
+- backend: `94 passed, 1 skipped in 23.72s`.
+- postgres: `1 passed, 78 deselected in 14.19s`.
+- flutter: `01:19 +235: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 - legacy_selected: `530 passed in 197.87s (0:03:17)`.
 - legacy_full: `2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)`.
-- flutter_history: `00:07 +77: All tests passed!`.
+- flutter_history: `00:08 +81: All tests passed!`.
+- web_build: `debug JS build/web passed; compile-only invalid placeholder, no browser/Android run`.
+- web_limit: `existing flutter_tts JS interop/Wasm dry-run warnings; Wasm not validated`.

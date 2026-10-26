@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-27",
+  "statistics": {
+    "lessons": 42,
+    "cards": 325,
+    "examples": 42,
+    "reflections": 42,
+    "mcq": 168,
+    "frq": 83,
+    "chronology": 29,
+    "questions": 280
+  },
+  "tests": {
+    "backend": "94 passed, 1 skipped in 23.72s",
+    "postgres": "1 passed, 78 deselected in 14.19s",
+    "flutter": "01:19 +235: All tests passed!",
+    "analyze": "No issues found! (ran in 1.5s)",
+    "legacy_selected": "530 passed in 197.87s (0:03:17)",
+    "legacy_full": "2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)",
+    "flutter_history": "00:08 +81: All tests passed!",
+    "web_build": "debug JS build/web passed; compile-only invalid placeholder, no browser/Android run",
+    "web_limit": "existing flutter_tts JS interop/Wasm dry-run warnings; Wasm not validated"
+  },
+  "source_audit": {
+    "available_books": 4,
+    "blocked_grades": [
+      8
+    ],
+    "catalogued_teaching_entries": 131,
+    "all_five_total": null,
+    "original_pages": 609,
+    "original_heading_images": 131,
+    "interactive_batches": [
+      {
+        "lessons": 5,
+        "cards": 34,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 32,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 41,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 9,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 31,
+        "frq": 10,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 2,
+        "cards": 18,
+        "assessments": 13,
+        "frq": 4,
+        "chronologies": 1
+      }
+    ],
+    "lesson_full_page_images": 150
+  },
+  "publication": "local_test_preview_only",
+  "course_complete": false,
+  "next_grade": 8,
+  "next_sequence": null,
+  "next_pdf_page": null
+}

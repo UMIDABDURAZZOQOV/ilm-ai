@@ -31,3 +31,8 @@ Normal app tokenlari ishlatilmaydi. Flutter ham flag, debug rejim, lokal/private
 ## Android integratsiyasi hali bajarilmagan
 
 Hozirgi Gradle QA package suffixi Physics uchun yozilgan. Uni History uchun tekshirmasdan APK o‘rnatmang: oddiy paket bilan bir xil ID chiqishi mumkin. Shared Gradle faylini parallel agent bilan konflikt qiladigan tarzda tahrirlamadik. Android SDK/adb bu muhitda yo‘q. Alohida `uzhistoryqa` application ID va label uchun integratsiya patchi/handoff, Android build va real telefonda QA talab qilinadi. Google login, TalkBack, native lifecycle yoki jismoniy telefon sinovlari shu preview natijalaridan kelib chiqib tasdiqlanmaydi.
+
+
+2026-10-27: konkret `docs/uzbekistan-history/ANDROID_QA_IDENTITY.patch` va `ANDROID_QA_HANDOFF.md` Flutter feature branchida saqlandi. Patch `git apply --check`dan o‘tdi, ammo shared Gradlega qo‘llanmadi va Android SDKda compile qilinmadi. U `.uzhistoryqa` ID/label/callback scheme hamda preview-release radini integratsiya review uchun tayyorlaydi. Shu review va haqiqiy SDK tekshiruvi tugamaguncha History APK normal app bilan to‘qnashmaydi deb da’vo qilinmaydi.
+
+42-darsning haqiqiy serverdan olingan public DTO/feedbacklari bilan Flutter widget oqimi MCQ→ikkita matnli FRQ→xronologiya→natija va tez ikki marta bosishda bitta jo‘natishni tekshiradi.320×568/200%matn ishlatilgan. Bu TestClientdan olingan kontraktning mock-transportdagi UI sinovi; haqiqiy telefon, brauzer HTTP end-to-end yoki Google OAuth sinovi emas. Web build compile-only yaroqsiz placeholder token bilan bajarildi, haqiqiy maxfiy token buildga kiritilmadi.

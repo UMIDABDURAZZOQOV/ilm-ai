@@ -1,28 +1,30 @@
 # O‘zbekiston tarixi — joriy kurs checkpointi
 
-2026-10-27. **Kurs tugallanmagan.** 7-sinf §1–40: **40 dars**, 307 karta, 40 original misol, 267 topshiriq (160 MCQ / 79 qisqa FRQ / 28 xronologiya), 40 avtomatik baholanmaydigan refleksiya/rubrika.
+2026-10-27. **Kurs tugallanmagan.** 7-sinf §1–42: **42 dars**, 325 karta, 42 original misol, 280 topshiriq (168 MCQ / 83 qisqa FRQ / 29 xronologiya), 42 avtomatik baholanmaydigan refleksiya/rubrika.
 
 | Sinf | Bob | Katalogdagi mavzu | Interaktiv dars | Qolgan |
 |---|---:|---:|---:|---:|
-| 7 | 6 | 42 | 40 | 2 |
+| 7 | 6 | 42 | 42 | 0 |
 | 8 | ? | ? | 0 | Noma’lum: PDF olinmagan |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
-To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 91 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
+To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 89 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
 
 ## Haqiqiy test natijalari
 
-- backend: `92 passed, 1 skipped in 22.08s`.
-- postgres: `1 passed, 76 deselected in 13.74s`.
-- flutter: `01:20 +229: All tests passed!`.
-- analyze: `No issues found! (ran in 1.4s)`.
+- backend: `94 passed, 1 skipped in 23.72s`.
+- postgres: `1 passed, 78 deselected in 14.19s`.
+- flutter: `01:19 +235: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 - legacy_selected: `530 passed in 197.87s (0:03:17)`.
 - legacy_full: `2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)`.
-- flutter_history: `00:07 +77: All tests passed!`.
+- flutter_history: `00:08 +81: All tests passed!`.
+- web_build: `debug JS build/web passed; compile-only invalid placeholder, no browser/Android run`.
+- web_limit: `existing flutter_tts JS interop/Wasm dry-run warnings; Wasm not validated`.
 
-Source audit: 609 asl native sahifa, 131 sarlavha tasviri va **143 to‘liq dars manba sahifasi tasviri** xeshdan tekshirildi. Bu barcha kitoblardagi har bir tarixiy da’vo mustaqil ekspert tomonidan tasdiqlandi degani emas. `legacy_full` §1–25 checkpointida; `legacy_selected` §1–15 ustida; eng yangi partiya `backend/postgres/flutter` bilan keyin tekshirildi.
+Source audit: 609 asl native sahifa, 131 sarlavha tasviri va **150 partiya-sahifa tasviri tekshiruvi (148 noyob manba sahifasi)** xeshdan tekshirildi. Bu barcha kitoblardagi har bir tarixiy da’vo mustaqil ekspert tomonidan tasdiqlandi degani emas. `legacy_full` §1–25 checkpointida; `legacy_selected` §1–15 ustida; eng yangi partiya `backend/postgres/flutter` bilan keyin tekshirildi.
 
 ## Tekshiruv chegaralari
 
@@ -34,6 +36,6 @@ Production router, fanlar katalogi, Google login, veb-sayt, Biology406 va Physic
 
 ## Git va davom
 
-Backend va Flutter: `feat/uzbekistan-history-curriculum`. Source checkpoint `d7d0510`; oldingi partiyalar `bf98c8c`/`a11c97d`/`4b51213`, Flutter `8490036`/`86402fc`/`bfef1a9`. Joriy partiya commitini `git log -1` va `git ls-remote` bilan tekshiring. Keyingi: **7-sinf §41, PDF/bosma 150 — Adabiyot**.
+Backend va Flutter: `feat/uzbekistan-history-curriculum`. Source checkpoint `d7d0510`; oldingi backend partiyalari `bf98c8c`/`a11c97d`/`4b51213`/`e9c8c9e`/`606d17d`/`4fdcc56`/`717d5ae`/`0661754`; Flutter `8490036`/`86402fc`/`bfef1a9`/`adaa2bb`/`0379d6b`/`eff2654`/`bdfa3ad`/`248e6e9`. Joriy partiya commitini `git log -1` va `git ls-remote` bilan tekshiring. Keyingi: **8-sinf: manba PDF segmentlari olinmaguncha bloklangan**.
 
-[Davom va dars manbalari](STAGE2_PROGRESS.md), [manba tafovutlari](SOURCE_REVIEW.md), [lokal QA chegaralari](LOCAL_QA.md).
+[Davom va dars manbalari](STAGE2_PROGRESS.md), [manba tafovutlari](SOURCE_REVIEW.md), [lokal QA chegaralari](LOCAL_QA.md), [8-sinf manba handoffi](SOURCE_HANDOFF.md).
