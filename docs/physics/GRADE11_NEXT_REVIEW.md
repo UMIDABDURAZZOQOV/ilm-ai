@@ -1,3 +1,20 @@
+# Keyingi: 11-sinf §16–20 — 2026-10-26
+
+286/316,30qolgan.15asl sahifa58–72 tasvirlari/nativehashlari qayta o‘qildi. Bu source review tayyorgarligi, yangiJSON/runtimehaliyo‘q. Mustaqilekspertapproval emas.
+
+PDF58,59,60: Original idealinductor phasor/reactance checked. Choose passive terminalvoltage uL=L*di/dt and i=Imcos(theta): uL=-omegaLImsin(theta)=Umcos(theta+pi/2); source58 derivative+sin/cosidentity sign inconsistent, source59 voltageLEADScurrent90 conclusion correct. SelfEmf=-Ldi/dt vs terminaluL opposite. XL=omegaL=2pnuL,Im=Um/XL onlyidealL/steadySINUSOID, noRloss; fieldenergyexchange not allheat.
+
+PDF60,61,62,63: Original SERIES RLC phasor/norm checked. Choose currentreference i=Imcos(theta), then totalu=Umcos(theta+phi); source60 gives bothcos withnooffset despitegenerallynonzerophase. Z=sqrt(R²+(XL-XC)²),Imax=Um/Z,voltagephasornorm NOTsumofmagnitudes. Source62tanphi denominator printedUm but correctUR (reactdiff/R nextcorrect); finite grader tanPhi=(XL-XC)/R signed/unbounded not sine/cosrange. No generalcomplexsolver/trigatan.
+
+PDF63,64,65: Original fixedseriesRLC resonance criteria/voltagemagnification checked. XL=XC,omegarez=1/sqrtLC, Zmin=R>0 and Ipeak=Um/R forfixedUm/R/L/C frequency-independentidealcomponents. Rlarge stillreactivecancellationexists but broadlessvisiblepeak, not mathematicallynoresonance. Voltageindividualcanexceedsupply whenQ=sqrt(L/C)/R>1, notforALLcircuits. Source65C50Hz.1H~101.4uF approximated100uF acceptable statedrounding; new rationalrounding explicit. Alllowvoltageconditionalno physicalovervoltagetask.
+
+PDF66,67: Original digitalresonance lab uses UL/UC vs frequency. Source66initialUC<UL thenincreasefrequencyuntilUC=UL is wrong fixedLC sweepdirection: above resonanceXL>XC, increasingf movesaway. Correct digitaltable beginsbelowresonanceUC>UL,passesUL=UCthenUL>UC. Original conditional data mathematically checked forR100ohm,L1H,C=1/(4*3.14²*100²)F,UsourceRMS1V:50HzUC1.33/UL.33;100Hz6.28/6.28;150Hz.79/1.77, rounded. No real instrument readings/20Vmeter or mainsinstruction claim. Sampledequalitywithinmodel, threepointsnotallcontinuouscurveproof.
+
+PDF67,68,69,70,71,72: Original sinusoidalRMSaveragepower/factor equations checked. Pavg=UeffIeffcosPhi, A=Pavg*t forsteadyintegercycles/wholeperiodaverage, passivefixedseriesRLCfactor0..1, R/Z notarbitraryactivegeneratorcosbound. Source67 usesu*i*t asworkonlysmallintervalapprox, notexactarbitrarytimephase; source68halfperiodpositive/halfnegative notuniversally foranyphi, onlyspecialreactivecase. Source70=.85cos policy not asserted universalcurrentlegalrequirement; noDIYcompensation. Source70sample cos~.5427 and P~132.5W correct reference but printedcos²/fractionderivation inconsistent notcopied. Source71q4LC1H/2.5uFomega~632rad/s not630e6;source71q6firstequalenergyt~3.925e-5s not39e-5; badkeysnotused. Average/reactiveenergyexchange and gridloss distinct.
+
+---
+Tarixiy source qaydlari saqlandi.
+
 # Keyingi: 11-sinf §11–15 — 2026-10-26
 
 281/316,35qolgan.15asl sahifa43–57 tasvirlari/nativehashlari qayta o‘qildi. Source review tayyorgarligi, yangiJSON/runtime hali yo‘q, mustaqil ekspert tasdig‘i emas.

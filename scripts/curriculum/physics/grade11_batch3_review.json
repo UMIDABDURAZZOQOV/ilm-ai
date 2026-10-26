@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "batch": "grade11_batch3",
+  "date": "2026-10-26",
+  "publication": "local_test_preview_only",
+  "independent_subject_expert": "not_claimed",
+  "ready_for_general_publication": false,
+  "book_id": "physics-uz-grade-11",
+  "book_sha256": "e9c174ab3d9c6e2d02d50a69c4eaa23b6f010ab433f2eb3044d41660010e4f64",
+  "batch_file_sha256": "c4ddb29232b3d67dd44aa62c0148c043edcf703870011823c29fffbf33d6c230",
+  "review_method": "Original supplied whole PDF and every cited page visually re-read. Native text hashes checked against original rendered formulas/indices/units; no invented OCR. Original explanations/problems, explicit independent numeric oracles and semantic choices. This recording tool does not perform scientific or pedagogical review.",
+  "renderer": {
+    "tool": "PyMuPDF",
+    "version": "1.26.6",
+    "scale": 2
+  },
+  "pages": [
+    {
+      "pdf_page": 43,
+      "printed_page": 42,
+      "text_sha256": "a79537712f699544488d1e54ddc81d10794ac512a3509a24960707848dec8512",
+      "reviewed_render_sha256": "1e3393156546e9a82d1eecfe8bc1b88537030613233fce72be3d6a1223cec158",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 43,
+      "text_sha256": "450ecd914085cfddd3e19c44118ce8ab9b952adafb1abdd5c547cf2159c77582",
+      "reviewed_render_sha256": "d01caf1affee9ab12e4b53df3c5810f461491a3e218ac703caeb7a1e65d12b6a",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 44,
+      "text_sha256": "cc3d102d64d79dc39e6c21b4a2e0d021d1f17558067da2b9cca8ec5e56eeb325",
+      "reviewed_render_sha256": "a581e47c5dc360ad60d9726cc7ea51bd0c6c3b96a803b6a39b45974372f43533",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": 45,
+      "text_sha256": "caa14fd8e0b401902c64d1a572d2cc230a92108ffc1503d021e42b661b2fbf6a",
+      "reviewed_render_sha256": "0e6b81bdee308456d7a0b3c9ebe041bca488c7d204b8aa8cc017f60747fd8895",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 47,
+      "printed_page": 46,
+      "text_sha256": "ef4bb8ea846fef7b9fc9a8b0415075c29ecd74007b69106095f7b002a72eabe9",
+      "reviewed_render_sha256": "168a23319f815e7599fc47fbe508469d69ee2ce878b7c2406d57e5508e0a802d",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": 47,
+      "text_sha256": "fe8a4fc2dd5152c80200aa310136a69ad4afa6b99bafa23085ef61ae80bb998f",
+      "reviewed_render_sha256": "5a06f22b8a3db075dec140e4e2161721ddf5ff7fbda20cebd69b8a39d3820ddd",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": 48,
+      "text_sha256": "487fae1fb2c5df06a139d25eaaa5211b4d7bc636504dee281d3c04c8e2d49851",
+      "reviewed_render_sha256": "70f95634591ccacbfcd0e0083f21fc02441390210273759bb0fcba8c0eecb363",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": 49,
+      "text_sha256": "0eebc8e38eeba38f7ef6ef121fd82ab1b2a77f080f07a56f53633444eb90fa46",
+      "reviewed_render_sha256": "cb47eeb7b59469543e35052dde327fe9cf50fc8806c3a56a391d4a6bf4486b3e",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 50,
+      "text_sha256": "3d3c48810fc5e568a8ae375a1213ff2e9be3747a843389bcf4862501e053c77f",
+      "reviewed_render_sha256": "c343381f4ea247d080c76f50e4c4dd8a9ae9f804907b2abb5ad5748eaf9e5cb0",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 51,
+      "text_sha256": "dd38ed6f5a5db92fc9994608229809fe1e766c3c18d3d15e68fed5c5741203df",
+      "reviewed_render_sha256": "fd81ac336779dc408c83188635d85ca1c08ce30e15f908898e7dda79870655ba",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": 52,
+      "text_sha256": "351d66f6f0bfff599539e37a02ea4d16352ae23aaa703ae3b17d4f9de123e352",
+      "reviewed_render_sha256": "9afbe05b486aff91066740c094ea6225bf43c2b77f64cf75a8f0f457942298b8",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": 53,
+      "text_sha256": "65fcf15f64e1bccb9add74ef1f21b333432c6841007603838926fff85c76842c",
+      "reviewed_render_sha256": "bb86243b2b42be357ee7f40df36a6a4c8ac49157a9fa6c474cc8749d4da69361",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 54,
+      "text_sha256": "a66c562b5678828bfa6a7a1e22fa69f2e1b481deef2d53ef84cb1be17210521d",
+      "reviewed_render_sha256": "1d1d299c66d057574967ff18a1045e4a3de015cfe1d9be452cbb531c22ac4953",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 56,
+      "printed_page": 55,
+      "text_sha256": "12078c1592223ff409f19a977839de092f6a809e76e062e35ed084518dbf0415",
+      "reviewed_render_sha256": "0df3727df141df47712d42cc6590f693ab511013ad668dfc78a6a06ccbd3a65b",
+      "original_text_and_image_checked": true
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 56,
+      "text_sha256": "1c3e2d4da7289d93a3bc48a46dd9c8771ad6afff86cadd275947b687d38161dc",
+      "reviewed_render_sha256": "35ff3f2d5dd88f0aac516f094eb7fd9ccf512e961c0987d206114b8421c5b7aa",
+      "original_text_and_image_checked": true
+    }
+  ],
+  "scientific_decisions": [
+    {
+      "pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "decision": "Original idealLC energy exchange/Thomsonroot and sample checked. Uniform constantLINEARL/C,Rignored, T=2p sqrt(LC),nu=1/T, conservedW=q²/(2C)+LI²/2. Signedinstantq/I vs peakqm/Im distinct, capacitorplatecharge convention. Quarter-cycleenergyrotation conceptual, no real LC switching task. p3.14 explicitly approximate; exact root/rational round rules. Source46sample T.01256s/20uJ consistent."
+    },
+    {
+      "pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "decision": "Original qcos/Ucos/i phasegraphs read. Fix convention I=dq/dt INTO chosenpositiveplate; q=qmcos(theta) then I=-Imsin(theta)=Imcos(theta+pi/2). Source46 prints cos(theta+pi/2)=+sin(theta), wrong sign, while source47 Igraph negative afterqmaximum supports minus. Source48 text says I grows toward negativepeak: |I|/magneticenergy grows, signedI decreases. q/U samephase; current quartershift. Damping energy turnsheat, not disappearance; R-increasesperiod only underdampedmodel beforecritical, not allRstilloscillates. No invented exponential damping formula."
+    },
+    {
+      "pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "decision": "Original transistorfeedback/energysource diagram checked. Sustained selfoscillator uses externalDCenergy and phasedfeedback; no perpetualmotion. Source51 180deg is specific inverting-stage/coil convention, not universal totalfeedbackphase; suitable loopfeedback returnsenergy inphase. Transistor not only imaginable possible oscillator switch; no all-mechanical-MHz impossibility assertion. Unsupported universal eachorganresonance/psychologicalhealth claims not included. Conceptual no forced beta/medical/radiation/LLM/newgeneratorruntime."
+    },
+    {
+      "pages": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "decision": "Original pureactiveR sinusoid/phasor/RMS/power1/2 checked. FixedR,pureR,u/i samephase. Pinst=Um*Im*cosPhase² nonnegative and doubledfreq, Pavg=Um*Im/2; RMS=peak/sqrt2 only SINUSOID, not any waveform/universal lightbulb eyes16–20fps myth. Typed providedcos data not generaltrig. Peak/rms mixednotallowed in suppliedgivens. Source55average30W example interprets2A as amplitude, newprompts explicit. ExactirrationalRMS rubrics retain square and SI roundinggrid, not float expectedtruth."
+    },
+    {
+      "pages": [
+        56,
+        57
+      ],
+      "decision": "Original idealcap derivative i=-UmC*omega*sin(theta)=Imcos(theta+pi/2) agrees fixed I=dq/dt convention. Current LEADS voltage90deg in steady sinusoidalidealcap; steadyDC current0aftercharging, not nevertransient. Xc=1/(omegaC)=1/(2pnuC),Im=Um*omegaC. omega rad/s vs nuHz,p3.14 explicit, Xcohms reactive not heatresistor; no claim passivecap dissipatesrmsUI. Source57sample50Hz50uF63.69ohm consistent approximate. No live mains construction."
+    }
+  ],
+  "physical_activity": {
+    "real_experiment_completion_claim": false,
+    "scope": "Digital plans, supplied observations and hypothetical records only; no physical laboratory completion or mains/heating experiment is claimed."
+  },
+  "lessons": [
+    {
+      "sequence": 11,
+      "topic_id": "physics-11-section-11",
+      "pdf_pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "printed_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    },
+    {
+      "sequence": 12,
+      "topic_id": "physics-11-section-12",
+      "pdf_pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "printed_pages": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "cards": 5,
+      "formula_rules": 3,
+      "worked_examples": 1,
+      "assessments": 8,
+      "frq": 3
+    },
+    {
+      "sequence": 13,
+      "topic_id": "physics-11-section-13",
+      "pdf_pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "printed_pages": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "cards": 5,
+      "formula_rules": 0,
+      "worked_examples": 1,
+      "assessments": 6,
+      "frq": 0
+    },
+    {
+      "sequence": 14,
+      "topic_id": "physics-11-section-14",
+      "pdf_pages": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "printed_pages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "cards": 5,
+      "formula_rules": 5,
+      "worked_examples": 1,
+      "assessments": 10,
+      "frq": 5
+    },
+    {
+      "sequence": 15,
+      "topic_id": "physics-11-section-15",
+      "pdf_pages": [
+        56,
+        57
+      ],
+      "printed_pages": [
+        55,
+        56
+      ],
+      "cards": 5,
+      "formula_rules": 4,
+      "worked_examples": 1,
+      "assessments": 9,
+      "frq": 4
+    }
+  ]
+}

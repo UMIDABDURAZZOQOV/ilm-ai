@@ -24,6 +24,95 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "ideal_lc_period": rule(
+        "T",
+        ["p", "L", "C"],
+        ["2*p*sqrt(L*C)", "sqrt(4*p^2*L*C)"],
+        "Ideal lossless constantLINEARLC,Rignored,p3.14explicit,positiveL/C, not arbitrarydampedcircuit;11PDF44.",
+        square_root=True,
+    ),
+    "ideal_lc_frequency": rule(
+        "nu",
+        ["p", "L", "C"],
+        ["1/(2*p*sqrt(L*C))", "sqrt(1/(4*p^2*L*C))"],
+        "Same idealLC,nufrequencyHz reciprocal ofperiod,p3.14explicit;11PDF44.",
+        square_root=True,
+    ),
+    "ideal_lc_total_energy": rule(
+        "W",
+        ["q", "C", "L", "I"],
+        ["q^2/(2*C)+L*I^2/2", "I^2*L/2+q*q/C/2"],
+        "Ideal constantLINEARLC/noRloss, qSIGNEDoneplate and ISIGNEDinstantaneous, not peak values;11PDF45.",
+    ),
+    "ideal_lc_max_current": rule(
+        "Imax",
+        ["Umax", "C", "L"],
+        ["Umax*sqrt(C/L)", "sqrt(Umax^2*C/L)"],
+        "Ideal constantLINEARLC,totalenergy conservation,Umaxpeakmagnitude, result Imaxmagnitude not simultaneousinstantaneousU/I;11PDF45.",
+        square_root=True,
+    ),
+    "cosine_charge_phase_value": rule(
+        "q",
+        ["qm", "cosPhase"],
+        ["qm*cosPhase", "cosPhase*qm"],
+        "Ideal q=qmcos(theta),positivepeakqm, suppliedSIGNEDcos[-1,1], qselectedplateSIGNED;11PDF46.",
+    ),
+    "cosine_voltage_phase_value": rule(
+        "U",
+        ["Um", "cosPhase"],
+        ["Um*cosPhase", "cosPhase*Um"],
+        "Ideal U=Umcos(theta), positivepeakUm,suppliedSIGNEDcos[-1,1], voltageSIGNED/sameplateconvention;11PDF46.",
+    ),
+    "cosine_charge_phase_current": rule(
+        "I",
+        ["Im", "sinPhase"],
+        ["-Im*sinPhase", "(-sinPhase)*Im"],
+        "Current I=dq/dt INTO chosenpositiveplate,q=qmcos(theta) hence I=-Imsin(theta),providedSIGNEDsin[-1,1],not sourcewrongplussin;11PDF46–47,56.",
+    ),
+    "sinusoidal_rms_voltage": rule(
+        "Urms",
+        ["Um"],
+        ["Um/sqrt(2)", "sqrt(Um^2/2)"],
+        "SINUSOIDAL waveform only, Umpeakmagnitude, RMS not signedmean, exactirrationalsquaredtruth with authoredrounding;11PDF55.",
+        square_root=True,
+    ),
+    "sinusoidal_rms_current": rule(
+        "Irms",
+        ["Im"],
+        ["Im/sqrt(2)", "sqrt(Im^2/2)"],
+        "SINUSOIDAL waveform only, Impeakmagnitude, RMS not signedmean, exactirrationalsquaredtruth/rounding;11PDF54.",
+        square_root=True,
+    ),
+    "pure_resistor_average_power": rule(
+        "Pavg",
+        ["Um", "Im"],
+        ["Um*Im/2", "Im*Um/2"],
+        "PURE fixedpositiveR/sinusoidal steadywave,u/i SAMEphase, BOTHpeakmagnitudes, not arbitraryRLC nor mixedRMS/peak;11PDF55.",
+    ),
+    "pure_resistor_phase_power": rule(
+        "P",
+        ["Um", "Im", "cosPhase"],
+        ["Um*Im*cosPhase^2", "Im*Um*cosPhase*cosPhase"],
+        "Same PUREresistor sinusoidalwave, providedSIGNEDcos[-1,1], instantaneous power nonnegative, not generic reactive phase;11PDF54.",
+    ),
+    "capacitive_reactance_angular": rule(
+        "Xc",
+        ["omega", "C"],
+        ["1/(omega*C)", "omega^-1*C^-1"],
+        "IDEAL capacitor/steadySINUSOID, omega angularfrequencyrad/s notHz,C>0, Xc reactiveohms not activeheatresistor;11PDF56.",
+    ),
+    "capacitive_reactance_frequency": rule(
+        "Xc",
+        ["p", "nu", "C"],
+        ["1/(2*p*nu*C)", "1/(C*nu*p*2)"],
+        "Same idealSINUSOID,nuHz,p3.14explicit,C>0,not omegaasHz;11PDF56–57.",
+    ),
+    "capacitive_peak_current": rule(
+        "Im",
+        ["Um", "omega", "C"],
+        ["Um*omega*C", "C*omega*Um"],
+        "IDEAL capacitor steadySINUSOID, Um/Impeakmagnitudes,omega rad/s,C>0,currentleadsvoltage;11PDF56.",
+    ),
     "lorentz_sine_magnitude": rule(
         "F",
         ["q", "v", "B", "sinAlpha"],
@@ -3413,6 +3502,68 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name in {"ideal_lc_period", "ideal_lc_frequency"}:
+        p = positive("p", "dimensionless")
+        if p != Fraction("3.14"):
+            raise ValueError("explicit_pi_approximation_required")
+        square = 4 * p * p * positive("L", "inductance") * positive("C", "capacitance")
+        return (
+            (square_root_quantity(square), "time")
+            if name == "ideal_lc_period"
+            else (square_root_quantity(1 / square), "frequency")
+        )
+    if name == "ideal_lc_total_energy":
+        return projection("q", "charge") ** 2 / (
+            2 * positive("C", "capacitance")
+        ) + positive("L", "inductance") * projection("I", "current") ** 2 / 2, "energy"
+    if name == "ideal_lc_max_current":
+        return square_root_quantity(
+            value("Umax", "voltage") ** 2
+            * positive("C", "capacitance")
+            / positive("L", "inductance")
+        ), "current"
+    if name in {
+        "cosine_charge_phase_value",
+        "cosine_voltage_phase_value",
+        "cosine_charge_phase_current",
+    }:
+        symbol = "sinPhase" if name == "cosine_charge_phase_current" else "cosPhase"
+        c = projection(symbol, "dimensionless")
+        if abs(c) > 1:
+            raise ValueError("provided_phase_function_range")
+        if name == "cosine_charge_phase_value":
+            return positive("qm", "charge") * c, "charge"
+        if name == "cosine_voltage_phase_value":
+            return positive("Um", "voltage") * c, "voltage"
+        return -positive("Im", "current") * c, "current"
+    if name in {"sinusoidal_rms_voltage", "sinusoidal_rms_current"}:
+        dimension, symbol = (
+            ("voltage", "Um") if name == "sinusoidal_rms_voltage" else ("current", "Im")
+        )
+        return square_root_quantity(value(symbol, dimension) ** 2 / 2), dimension
+    if name in {"pure_resistor_average_power", "pure_resistor_phase_power"}:
+        peak = value("Um", "voltage") * value("Im", "current")
+        if name == "pure_resistor_average_power":
+            return peak / 2, "power"
+        c = projection("cosPhase", "dimensionless")
+        if abs(c) > 1:
+            raise ValueError("provided_phase_function_range")
+        return peak * c * c, "power"
+    if name == "capacitive_reactance_angular":
+        return 1 / (
+            positive("omega", "angular_speed") * positive("C", "capacitance")
+        ), "resistance"
+    if name == "capacitive_reactance_frequency":
+        p = positive("p", "dimensionless")
+        if p != Fraction("3.14"):
+            raise ValueError("explicit_pi_approximation_required")
+        return 1 / (
+            2 * p * positive("nu", "frequency") * positive("C", "capacitance")
+        ), "resistance"
+    if name == "capacitive_peak_current":
+        return value("Um", "voltage") * positive("omega", "angular_speed") * positive(
+            "C", "capacitance"
+        ), "current"
     if name == "lorentz_sine_magnitude":
         c = value("sinAlpha", "dimensionless")
         v = value("v", "speed")
