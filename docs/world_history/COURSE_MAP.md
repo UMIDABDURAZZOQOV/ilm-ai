@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 11; remaining: 208.** Source pages are candidate spans;
+**Reviewed preview lessons: 16; remaining: 203.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -45,11 +45,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 9 | wh6-topic09 | Piramidalar va daxmalar | 37–40 | reviewed_preview_ready |
 | 10 | wh6-topic10 | Qadimgi Misr madaniyati | 40–43 | reviewed_preview_ready |
 | 11 | wh6-topic11 | Mesopotamiya sivilizatsiyalari | 43–49 | reviewed_preview_ready |
-| 12 | wh6-topic12 | Bobil podsholigi | 49–53 | not_implemented |
-| 13 | wh6-topic13 | Old Osiyo davlatlari | 53–57 | not_implemented |
-| 14 | wh6-topic14 | Ahamoniylar davlati | 57–61 | not_implemented |
-| 15 | wh6-topic15 | Qadimgi Hindiston sivilizatsiyasi | 61–65 | not_implemented |
-| 16 | wh6-topic16 | Miloddan avvalgi I ming yillikda Hindiston | 65–68 | not_implemented |
+| 12 | wh6-topic12 | Bobil podsholigi | 49–53 | reviewed_preview_ready |
+| 13 | wh6-topic13 | Old Osiyo davlatlari | 53–57 | reviewed_preview_ready |
+| 14 | wh6-topic14 | Ahamoniylar davlati | 57–61 | reviewed_preview_ready |
+| 15 | wh6-topic15 | Qadimgi Hindiston sivilizatsiyasi | 61–65 | reviewed_preview_ready |
+| 16 | wh6-topic16 | Miloddan avvalgi I ming yillikda Hindiston | 65–68 | reviewed_preview_ready |
 | 17 | wh6-topic17 | Qadimgi Xitoy sivilizatsiyalari | 68–72 | not_implemented |
 | 18 | wh6-topic18 | Miloddan avvalgi III-mil. II asrlarda Xitoy | 72–75 | not_implemented |
 | 19 | wh6-topic19 | O‘zbekiston hududidagi ilk davlatlar | 75–80 | not_implemented |

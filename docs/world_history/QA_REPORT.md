@@ -100,3 +100,37 @@ Inspected actual widget renders:§7 theory at200%,§10 feedback at200%,§11 resu
 FRQ and earlier shared-feedback scroll states. No PDF image was bundled.
 No actual Android/IME/TalkBack, independent teacher approval, full2026–2027
 equivalence, deployment, main merge or real-user access is claimed.
+
+## Batch03 — grade6§12–16, 2026-10-26/27
+
+Five additional lessons:46 original cards,78 fact records,29 MCQ and21 objective
+FRQ. Total **16/219 local-preview lessons**,145 cards,242 facts,97 MCQ,57 objective
+FRQ and16 self/teacher activities;203 units remain (30 in grade6).
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Current backend/source/preservation |104 passed in137.99s | All16 lessons, exact source regions/digests and answer targets, explicit Xattusa/Xatusa variants, rejection of unreviewed aliases, complete prerequisite/XP flow |
+| Actual PostgreSQL |1 passed in22.81s | Dedicated history staging; parallel first completion, all16 sequential lessons/320XP, old synthetic account preserved |
+| Actual loopback HTTP |6 grade catalogues,154 answers,320XP | Fresh synthetic learner; locked-next enforcement and idempotent completion; prior learner progress retained |
+| Targeted Flutter |43 passed in00:38 | Real API fixtures§1–16, new MCQ/objective FRQ, 320×568/200%, shared feedback and prior auth/resume/language checks |
+| Full Flutter regression |652 passed in03:41 | Entire current suite; common UI and existing subjects included |
+| Full Flutter analysis |0 issues in120.6s | Entire Flutter history worktree |
+| Preservation |687 SHA pins matched |406 Biology +268 Chemistry manifests and13 protected runtime files; prior11 history manifests unchanged |
+| Critical Ruff / whitespace |Passed | History source/tests and staged diffs |
+
+The original2569-pass full-backend snapshot is historical regression evidence,
+not a rerun for batch03. Current104 tests and the separate real PostgreSQL test
+were run after finalizing all new manifests and before publication. No history
+runtime/schema or ordinary application route was modified in this content batch.
+
+§14's unresolved shoh-yo‘li endpoints are absent from unqualified learner prose
+and automatic keys; the original discrepancy stays visible in fact-review notes.
+Other scoped issues: first-law/prior-law wording, legal-equality generalization,
+Misr annexation attribution, state-collapse causes, caste/varna simplification,
+literal divine/rebirth narratives, and exact calendar/innovation priorities.
+None is silently promoted to a reviewed correction or definitive answer.
+
+Inspected widget renders include§12 feedback at200%,§15 theory at200%,§16 resumed
+FRQ, plus prior source/feedback scroll states. No actual native Android, IME,
+TalkBack, independent teacher sign-off, full2026–2027 equivalence, production/main
+operation, raw-source publication or real-user access is claimed.

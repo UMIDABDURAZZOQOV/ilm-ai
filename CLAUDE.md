@@ -2836,9 +2836,9 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch02 has11 local-preview lessons, grade6§1–11:99 cards,68 MCQ,36 objective FRQ;
-208 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade6§12, original page49.
+Batch03 has16 local-preview lessons, grade6§1–16:145 cards,97 MCQ,57 objective FRQ;
+203 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade6§17, original page68.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,

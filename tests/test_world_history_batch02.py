@@ -13,8 +13,8 @@ from services.world_history_models import WorldHistoryProgress
 
 
 def test_batch02_complete_exact_page_and_taught_content_coverage():
-    lessons=load_lessons();assert len(lessons)==11
-    batch=lessons[6:]
+    lessons=load_lessons();assert len(lessons)>=11
+    batch=lessons[6:11]
     assert [d['sequence'] for d in batch]==list(range(7,12))
     assert [len(d['facts']) for d in batch]==[12,13,13,14,20]
     assert [len(d['content']['cards']) for d in batch]==[7,8,9,8,12]
@@ -52,7 +52,7 @@ def test_shumer_and_akkad_are_not_interchangeable_aliases():
 
 
 def test_all_eleven_real_lessons_unlock_in_order_and_award220_once(history):
-    client,factory,_=history;lessons=load_lessons()
+    client,factory,_=history;lessons=load_lessons()[:11]
     blocked=client.post(f"{PREFIX}/lessons/{lessons[6]['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())})
     assert blocked.status_code==403
     for d in lessons:
@@ -70,6 +70,7 @@ def test_all_eleven_real_lessons_unlock_in_order_and_award220_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==11
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==11 and catalog['source_sections']==46
-    assert all(row['state']=='completed' for row in catalog['lessons'])
+    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert all(row['state']=='completed' for row in catalog['lessons'][:11])
+    assert all(row['state']!='completed' for row in catalog['lessons'][11:])
     assert not catalog['course_complete'] and not catalog['grade_content_complete']
