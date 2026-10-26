@@ -1,3 +1,60 @@
+# Keyingi: 10-sinf §21–25 — 2026-10-26
+
+§16–20 yozildi; testlar joriy checkpointda. Keyingi **§21,PDF72/bosma71**.
+Asl17sahifa PDF72–75/79–91 nativehashlari va tasvirlari qayta o‘qildi.
+Bu tayyorgarlik, §21–25 interaktiv darslari hali yaratilmagan.
+
+- §21PDF72–75: source73 qanotning uzun yuqori yo‘li sabab havo albatta
+  tezroq borishi (equal transit time) izohi to‘g‘ri universal dalil emas;
+  havo zarralari bir vaqt uchrashishi shartligini kiritmang. Turbulence
+  doim liftni oshiradi deb aytmang. Bosim taqsimoti/Magnus oqim yo‘nalishi
+  bilan cheklangan konseptlar; manbada yo‘q liftcoefficientformulasi yo‘q.
+  Torricelli v=sqrt(2*g*depth) ideal katta idish/kichik teshik/sameoutsidep/
+  topvelocitynegligible/shuondagi chuqurlik, Hground−houtlet farqi.
+  Source74g10/sqrt90≈9.5 misoli izchil; trueexactgridprivate kerak.
+  Real oqim/dischargecoef va pressurisedDIY/weapon/bullet sinovi qo‘shmang.
+- §22PDF79–82: davriy harakatning hammasi sinusoidal/garmonik emas,
+  qaytaruvchi kuch va inertlikning o‘zi yetmaydi (linear F=−kx scope).
+  x signed proyeksiya, A>=0modul. x=A*sin(theta),v=A*omega*cos(theta),
+  a=−A*omega²*sin(theta)=−omega²*x izchil. PDF81(5.10) da cos xsin bilan
+  mos emas;PDF82minusomega²x to‘g‘ri. Graphphase/initialphase aniq berilsin.
+  Energiya sin²/cos² pulsatsiyalari x bilan aynan bir chastotali simple
+  sinus emas. omega=2*pi/T rad/s, nu=N/t Hz farqli, pi3.14 yaqinlashuvi
+  ochiq berilsin. No general trigsolver, providedsinPhase/cosPhasevalid
+  data yoki aniq phasecritical point bilan finite graders rejalansin.
+  PDF82A.05m,vmax.12m/s,x.03m:omega2.4,amax.288m/s²,
+  a=−.1728m/s² (bosilgan−.073 noto‘g‘ri),vmodul.096m/sizchil;
+  amax printedm/s emas m/s². Original givens va independent oracles.
+- §23PDF82–86: source5.11 staticma=−kx0 noto‘g‘ri to‘liq balans,
+  muvozanatda mg−k*x0=0, inkrement x EQUILIBRIUMdan bo‘lsa m*xddot=−kx.
+  Ideal masslessspring/linear/lowdamping omega=sqrt(k/m),T=2*pi*sqrt(m/k).
+  OriginalPDF84energy5.15–5.17 hammasida1/2 bor; native text buni yo‘qotgan,
+  buni kitob xatosi deb yozmang. Eski spring_energy rule qayta ishlatilishi
+  mumkin. Mathematicalpendulum smallangle6–8° approximate T=2*pi*sqrt(l/g),
+  omega=sqrt(g/l),l pivottoCOM; allangles/masses/air uchun aniq emas.
+  Restoringmg*sin tangentialcomponent, umumiy netvector deb emas.
+  PDF86 lengths-sum T=sqrt(T1²+T2²)3/4→5 source izchil.
+- §24PDF86–87: DIGITAL shartli l_thread+r,20/30/40count/timing data,
+  T=t/N va g=4*pi²*l/T². Npositivewhole,periodvsalltime,centrelength,
+  smallangle/idealapprox,pi given. Realstativ/sekundomer o‘lchovi bajarildi
+  deyilmasin. Gmean/absolutedev/relativepercent jadvali bor; formula/
+  printedcolumn native Ti ti textni originalrasm bilan ajratish kerak.
+- §25PDF87–91: forced/damped/resonant/selfoscillation konseptlari.
+  «Erkin tebranish amalda ishlatilmaydi»/«forced har qanday holatda
+  so‘nmaydi»/«hamma qo‘ng‘iroq universal bir xil» claims ko‘chirilmang.
+  Steadystate forcedfrequency driverga mos, transient emas. Resonance
+  omegaDriver≈omega0 kichikdamping/schoolmodel; umumiy dampedpeak
+  doim EXACTomega0 deb aytmang, manbada yo‘q responseformula qo‘shmang.
+  Selfoscillator feedback/energysourcefinite, perpetualmotion emas.
+  Source25formula yo‘q: majburan numericFRQ yasamang. Digital tasnif/
+  tartiblash/grafik tavsifi orqali obyektiv topshiriqlar bo‘lsin.
+
+Bu qaydlar expertapproval emas; yangi kontent sourcega qayta qo‘yib,
+privatekeys/XP/replay/Biology406/Web/Kimyo va production saqlansin.
+
+---
+Quyida §16–20 va §11–15 oldidan yozilgan tarixiy manba qaydlari saqlandi.
+
 # Keyingi: 10-sinf §16–20 — 2026-10-26
 
 §11–15 yozildi; testlar joriy checkpointda. Quyidagi §16–20 tayyorgarligi

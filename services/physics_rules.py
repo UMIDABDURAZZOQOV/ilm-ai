@@ -24,6 +24,94 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "elastic_collision_first": rule(
+        "u1",
+        ["m1", "v1", "m2", "v2"],
+        ["((m1-m2)*v1+2*m2*v2)/(m1+m2)", "(2*m2*v2+(m1-m2)*v1)/(m2+m1)"],
+        "Isolated 1D central perfectly ELASTIC collision, signed velocities same axis, positive masses, no external impulse;10PDF55eq3.15.",
+    ),
+    "elastic_collision_second": rule(
+        "u2",
+        ["m1", "v1", "m2", "v2"],
+        ["(2*m1*v1+(m2-m1)*v2)/(m1+m2)", "((m2-m1)*v2+2*m1*v1)/(m2+m1)"],
+        "Isolated 1D central perfectly ELASTIC collision, signed velocities same axis, positive masses, no external impulse;10PDF55eq3.15.",
+    ),
+    "inelastic_kinetic_loss": rule(
+        "loss",
+        ["m1", "v1", "m2", "v2"],
+        ["m1*m2*(v1-v2)^2/(2*(m1+m2))", "m2*m1*(v2-v1)^2/(2*(m2+m1))"],
+        "Isolated1D PERFECTLY INELASTIC sticking, signed velocities, positive masses, NONNEGATIVE loss Ki-Kf not signed deltaK; derived source54–55energy and momentum.",
+    ),
+    "symmetric_rope_tension": rule(
+        "T",
+        ["m", "g", "cosPhi"],
+        ["m*g/(2*cosPhi)", "g*m/(cosPhi*2)"],
+        "Static symmetric two massless ropes, phi EACH rope angle FROM VERTICAL, PROVIDED cosPhi in(0,1],g10given,m>0;10PDF63figure not ambiguous mutualangle prose.",
+    ),
+    "signed_torque_pair": rule(
+        "M",
+        ["F1", "l1", "F2", "l2"],
+        ["F1*l1-F2*l2", "l1*F1-l2*F2"],
+        "Fixedaxis,CLOCKWISE positive, F1 clockwise/F2 counterclockwise, nonnegative force magnitudes and positive perpendicular arms;10PDF64typo/sign corrected by definitions.",
+    ),
+    "couple_torque": rule(
+        "M",
+        ["F", "d"],
+        ["F*d", "d*F"],
+        "Equal opposite PARALLEL forces, d perpendicular separation BETWEEN action lines, positive couple moment MAGNITUDE, not each halflever;10PDF64.",
+    ),
+    "supporting_rope_force": rule(
+        "F",
+        ["P", "n"],
+        ["P/n", "P*n^-1"],
+        "Ideal massless frictionless pulley/rope, n positive WHOLE load-supporting rope segments, NOT count of fixed pulleys, positive load;10PDF66eq4.3.",
+    ),
+    "inside_loop_top_support": rule(
+        "N",
+        ["m", "v", "R", "g"],
+        ["m*(v^2/R-g)", "m*v^2/R-m*g"],
+        "INSIDE vertical circle TOP, inward/downward normal magnitude, gravity downward; v²/R>=g/contact, explicitg10, not convexbridge; source67–68Newton-consistentgeometry.",
+    ),
+    "convex_top_support": rule(
+        "N",
+        ["m", "v", "R", "g"],
+        ["m*(g-v^2/R)", "m*g-m*v^2/R"],
+        "OUTSIDE CONVEX arc TOP, upward normal magnitude, v²/R<=g contact, explicitg10, not inside-loop normal;10PDF67eq4.5with geometry clarified.",
+    ),
+    "loop_contact_radius_limit": rule(
+        "Rmax",
+        ["v", "g"],
+        ["v^2/g", "v*v/g"],
+        "INSIDE vertical loop TOP, given speed>0,g10, Rmax at N0; contact R<=Rmax, not allcontacts equality;10PDF68.",
+    ),
+    "incompressible_section_speed": rule(
+        "v2",
+        ["S1", "v1", "S2"],
+        ["S1*v1/S2", "v1*S1/S2"],
+        "Steady unbranched incompressible SAME density, positive mean section speed/areas, no source/sink;10PDF69–70eq4.7.",
+    ),
+    "bernoulli_horizontal_pressure_difference": rule(
+        "dp",
+        ["rho", "v1", "v2"],
+        ["rho*(v2^2-v1^2)/2", "rho*v2^2/2-rho*v1^2/2"],
+        "dp=p1-p2 SIGNED, SAMEheight/SAMEstreamline, stationary ideal incompressible no pump/viscousloss, positive density/speed magnitudes;10PDF71eq4.8.",
+    ),
+    "bernoulli_second_pressure": rule(
+        "p2",
+        ["p1", "rho", "g", "h1", "h2", "v1", "v2"],
+        [
+            "p1+rho*g*(h1-h2)+rho*(v1^2-v2^2)/2",
+            "p1+rho*g*h1-rho*g*h2+rho*v1^2/2-rho*v2^2/2",
+        ],
+        "ABSOLUTE pressures>=0, same streamline/stationary/ideal/incompressible/no pump orloss,g10, heights from SAMEdatum;10PDF71eq4.8.",
+    ),
+    "piston_efflux_speed": rule(
+        "v",
+        ["g", "h", "m", "rho", "S"],
+        ["sqrt(2*g*h+2*m*g/(rho*S))", "sqrt(2*g*(h+m/(rho*S)))"],
+        "Ideal incompressible steady initialefflux, negligible piston speed/large toparea vs outlet, same exterior pressure, frictionless piston with provided TOTAL piston/load mass m, explicitrho/g10;10PDF71model.",
+        square_root=True,
+    ),
     "circular_speed_local_gravity": rule(
         "v",
         ["g", "r"],
@@ -2803,6 +2891,84 @@ def reviewed_calculation(question):
         if result != Fraction(981, 100):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
+
+    if name in {
+        "elastic_collision_first",
+        "elastic_collision_second",
+        "inelastic_kinetic_loss",
+    }:
+        m1, m2 = positive("m1", "mass"), positive("m2", "mass")
+        v1, v2 = projection("v1", "speed"), projection("v2", "speed")
+        if name == "elastic_collision_first":
+            return ((m1 - m2) * v1 + 2 * m2 * v2) / (m1 + m2), "speed"
+        if name == "elastic_collision_second":
+            return (2 * m1 * v1 + (m2 - m1) * v2) / (m1 + m2), "speed"
+        return m1 * m2 * (v1 - v2) ** 2 / (2 * (m1 + m2)), "energy"
+    if name == "symmetric_rope_tension":
+        c = positive("cosPhi", "dimensionless")
+        if c > 1:
+            raise ValueError("vertical_reference_cosine_required")
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        return positive("m", "mass") * 10 / (2 * c), "force"
+    if name == "signed_torque_pair":
+        return value("F1", "force") * positive("l1", "length") - value(
+            "F2", "force"
+        ) * positive("l2", "length"), "torque"
+    if name == "couple_torque":
+        return positive("F", "force") * positive("d", "length"), "torque"
+    if name == "supporting_rope_force":
+        n = positive("n", "dimensionless")
+        if n.denominator != 1:
+            raise ValueError("whole_supporting_segment_count_required")
+        return positive("P", "force") / n, "force"
+    if name in {
+        "inside_loop_top_support",
+        "convex_top_support",
+        "loop_contact_radius_limit",
+    }:
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        v = positive("v", "speed")
+        if name == "loop_contact_radius_limit":
+            return v**2 / 10, "length"
+        difference = v**2 / positive("R", "length") - 10
+        if name == "convex_top_support":
+            difference = -difference
+        if difference < 0:
+            raise ValueError("contact_geometry_domain")
+        return positive("m", "mass") * difference, "force"
+    if name == "incompressible_section_speed":
+        return positive("S1", "area") * positive("v1", "speed") / positive(
+            "S2", "area"
+        ), "speed"
+    if name == "bernoulli_horizontal_pressure_difference":
+        return positive("rho", "density") * (
+            value("v2", "speed") ** 2 - value("v1", "speed") ** 2
+        ) / 2, "pressure"
+    if name == "bernoulli_second_pressure":
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        rho = positive("rho", "density")
+        p2 = (
+            value("p1", "pressure")
+            + rho * 10 * (value("h1", "length") - value("h2", "length"))
+            + rho * (value("v1", "speed") ** 2 - value("v2", "speed") ** 2) / 2
+        )
+        if p2 < 0:
+            raise ValueError("nonnegative_absolute_pressure_required")
+        return p2, "pressure"
+    if name == "piston_efflux_speed":
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        return square_root_quantity(
+            20
+            * (
+                value("h", "length")
+                + value("m", "mass")
+                / (positive("rho", "density") * positive("S", "area"))
+            )
+        ), "speed"
 
     if name == "circular_speed_local_gravity":
         return square_root_quantity(

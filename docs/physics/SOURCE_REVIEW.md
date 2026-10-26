@@ -542,3 +542,38 @@ real o‘lchov tasdig‘i yo‘q.0,01foiz punkti ulushda0,0001grid;8/11 va2/3
 aniq private truth,72,73%/66,67% yakuniy yaxlitlangan javoblar.
 Idealmu0 da eta1 mumkin,>1 rad etiladi. Eski JSON/review/qoida chegaralari
 saqlandi. Mustaqil fan eksperti, real laboratoriya/nativeAndroid bajarilmagan.
+
+## 2026-10-26 — 10-sinf §16–20, PDF54–57/60–72
+
+17asl sahifa native xeshlari, formulalari va rasmlari solishtirildi.
+Izolyatsiyalangan1D elastik modelda signed u1/u2, ikki impuls/energiya
+balansi tekshiriladi; elastiklik vaqtinchalik deformatsiya umuman yo‘qligi
+deb olinmaydi. Noelastik loss=Ki−Kf musbat, deltaK teskari ishorali.
+PDF56mashq3ning7,8m/s/200GJ birligi va PDF57mashq7 gravitywork+4J,
+mashq8 changeK+3J xatolari yangi kalitga ko‘chirilmadi.
+
+Static netF0 bilan umumiy rigidbody moment sharti ajratildi. Massa markazi
+hisobiy nuqta. Simmetrik arqonlarda phi HAR ARQONDAN VERTIKALGA:
+PDF62 o‘zaro60° matni bilan PDF63har biri60° sxemasi aralashmadi.
+Kuch yelkasi ta’sir CHIZIG‘IGACHA tik masofa. Clockwise musbat moment
+F1*l1−F2*l2; PDF64 oxirgiF2l2−F2l2 typo ko‘chirilmadi. Juft momentF*d,
+d ikkala chiziq orasida. F=P/n da n yukni ushlovchi butun ip segmentlari.
+Eski moment qoidasi o‘qdan o‘tgan kuchning nol yelka/momentini to‘g‘ri
+qabul qiladi: dastlabki testning nol yelkani rad etish talabi tuzatildi,
+production qoida o‘zgarmadi, alohida nol moment assertionsaqlanadi.
+
+Aylana radial kuch haqiqiy kuchlar yig‘indisi, bir jismdagi yangi NewtonIII
+centrifugal juft emas. PDF67normal formulasi geometrik shart bilan:
+ICHKI halqa topida N=m(v²/R−g),TASHQI qavariq topida N=m(g−v²/R).
+Har ikkisida N>=0 kontakt tekshiruvi. PDF68R=v²/g faqat N0chegarasi,
+contactR<=Rmax, tenglik barcha holatga majburlanmaydi. Operatsion chelak/
+moto/halqa qurish sinovi berilmagan; manbada yo‘q M=I*beta qo‘shilmadi.
+
+Statsionar/branchsiz oqimda mass conservation, siqilmas bir xilrho da
+S1v1=S2v2. Bernoulli bir oqim chizig‘i/ideal/siqilmas/statsionar/nasos va
+ishqalanish yo‘qotishisiz; balandlik ham ta’sir qiladi. PDF71bosim ishining
+plus typosi emas, izchil final4.8 ishlatiladi. Signed dp=p1−p2, absolyutp2
+manfiy bo‘lsa rad. Porshen modelida rho/g/yuza shartlari aniq;
+source4.9m/s soni noto‘g‘ri, yangi original m/h/S bilan exactsqrt5 va
+0,01m/sgrid. Umumiy trig/CAS/LLM yo‘q. Manba review muallif tekshiruvi,
+mustaqil ekspert/nativeAndroid/realphysicalexperiment/prodclaim emas.
