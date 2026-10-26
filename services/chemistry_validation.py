@@ -194,6 +194,16 @@ KNOWN_EDITORIAL_ISSUES = {
     'ch10-paragraph13': 'ch10-p13-alkene-phase-selectivity-polymer-review',
     'ch10-paragraph14': 'ch10-p14-diene-bond-header-products-review',
     'ch10-paragraph15': 'ch10-p15-alkyne-identity-incomplete-chains-review',
+    'ch10-paragraph16': 'ch10-p16-arene-selectivity-phase-routes-review',
+    'ch10-paragraph17': 'ch10-p17-hybrid-angle-local-model-review',
+    'ch10-paragraph18': 'ch10-p18-petroleum-fractions-caption-review',
+    'ch10-paragraph19': 'ch10-p19-gas-coal-division-data-review',
+    'ch10-paragraph20': 'ch10-p20-alcohol-definition-name-routes-review',
+    'ch10-paragraph21': 'ch10-p21-alcohol-phase-threshold-chains-review',
+    'ch10-paragraph22': 'ch10-p22-polyol-gemdiol-complex-scope-review',
+    'ch10-paragraph23': 'ch10-p23-phenol-caption-complex-identity-review',
+    'ch10-paragraph24': 'ch10-p24-aldehyde-name-speciation-model-review',
+    'ch10-paragraph25': 'ch10-p25-ketone-graph-family-quantity-review',
 }
 UNRESOLVED_PERCENTAGES = re.compile(r'(?<![0-9])(?:42[.,](?:88|86)|57[.,](?:12|14)|27[.,](?:29|27)|72[.,](?:71|73))(?![0-9])')
 
@@ -966,6 +976,36 @@ def validate_lesson(catalog, lesson, review, *, reviewed_context_topics=None):
         if 'ch10-paragraph15' in topic_ids:
             require(not any('pentin yagona tuzilish' in a.casefold() for a in f['verified_answers']),
                     'alkyne_gas_ratio_does_not_determine_unique_graph')
+        if 'ch10-paragraph16' in topic_ids:
+            require('Toluol har doim faqat tribrommahsulot'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'arene_sole_product_without_conditions_is_withheld')
+        if 'ch10-paragraph17' in topic_ids:
+            require('109.28'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'decimal_angle_copy_requires_review')
+        if 'ch10-paragraph18' in topic_ids:
+            require('Parafin va vazelin aynan bir modda'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'petroleum_product_synonym_error_is_withheld')
+        if 'ch10-paragraph19' in topic_ids:
+            require('22.4/67.2=3'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'reciprocal_volume_division_cannot_be_a_key')
+        if 'ch10-paragraph20' in topic_ids:
+            require('3-metilpentanon-1'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'terminal_ketone_misprint_is_withheld')
+        if 'ch10-paragraph21' in topic_ids:
+            require('140°C barcha spirtlar uchun aniq chegara'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'universal_dehydration_threshold_is_withheld')
+        if 'ch10-paragraph22' in topic_ids:
+            require('Bir C da ikki OH bo‘lishi mutlaqo mumkin emas'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'absolute_gemdiol_impossibility_is_withheld')
+        if 'ch10-paragraph23' in topic_ids:
+            require('Fe(C6H5O)3 har doim yagona kompleks'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'phenol_complex_schematic_is_not_unique_speciation')
+        if 'ch10-paragraph24' in topic_ids:
+            require('2-metilpropan'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'aldehyde_wrong_alkane_suffix_is_withheld')
+        if 'ch10-paragraph25' in topic_ids:
+            require('C6H12O yagona keton tuzilishi'.casefold() not in {a.casefold() for a in f['verified_answers']},
+                    'ketone_amount_does_not_determine_unique_graph')
     content = lesson.get("content", {})
     require(set(content) == {"cards", "formulas", "examples", "xp_reward", "source_refs"}
             and content["xp_reward"] == 20, "common_learning_content_required")
