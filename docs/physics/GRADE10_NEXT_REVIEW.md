@@ -1,3 +1,53 @@
+# Keyingi: 10-sinf §16–20 — 2026-10-26
+
+§11–15 yozildi; testlar joriy checkpointda. Quyidagi §16–20 tayyorgarligi
+interaktiv dars tayyorligi emas. Asl17sahifa PDF54–57/60–72 native xeshlari
+va tasvirlari o‘qildi. PDF=bosma+1. Keyingi **§16,PDF54/bosma53**.
+
+- §16: tashqi impuls0 va bir o‘qdagi signed tezliklar. Inelastic commonv,
+  elastic1D 3.15 tasvirlari tekshirildi. «Elastic deformatsiya umuman yo‘q»
+  emas; qaytuvchi deformatsiya bilan kinetik energiya tiklanishi farqlandi.
+  PDF56mashq3:6,6t/7,8m/s va200GJ mos emas,7,8km/s bilan mos. Taxminiy
+  birlik almashtirib savol ko‘chirmang. PDF57mashq7 gravitywork−4J,dU+4,
+  dK−4; bosilgan+4gravityworkxato. Mashq8 changeK−3J,loss3J. Signed
+  momentum va energiya balanslari independent oracle bilan tekshirilsin.
+- §17: netF0 umumiy rigidbodyda netmoment0 ni almashtirmaydi. Material
+  nuqta/concurrentforces/translationalbalance doirasi aniq bo‘lsin. Massa
+  markazi haqiqiy massa bitta nuqtada yig‘ilgan degani emas. Uch equilibrium
+  turi restoring/away/zero tangentialforce bilan. PDF62 «ikki arqon o‘zaro
+ 60°» lekin PDF63diagram/yechim har biri VERTIKALDAN60° olib100N qiladi;
+  yangi symmetricrope savolida burchak tayanchi/cosPhi aniq berilsin.
+- §18: yelka o‘qdan kuch TA’SIR CHIZIG‘IGACHA tik masofa. Couple M=F*d,
+  d ikki parallel chiziq oralig‘i,2F*d emas. Clockwisepositive bo‘lsa
+  M=F1*l1−F2*l2; PDF64 oxirgiF2l2−F2l2 typo va oldingi ishoralar noizchil.
+  PDF65 b/d diagramlarni textning2/3nomlari bilan ko‘r-ko‘rona tenglamang;
+  fulcrum/effort/load joylashuvi aniq bo‘lsin. F=P/n ideal modelda yukni
+  ushlab turgan IPSEGMENTLAR soni n, ko‘chmas bloklar soni emas.
+- §19: kitob aynan mv²/R markazga intilma kuch haqida; M=I*beta va yangi
+  inertsiya momenti mavzusi qo‘shilmasin. Centrifugal inertialforce bir
+  jismdagi NewtonIII ikkinchi real jufti emas. Inertial/rotating tavsiflar
+  ajratilsin. PDF67 topP geometriyasiz universal emas: ichki vertikalhalqa
+  tepasida N=mv²/R−mg, tashqi convexbridge tepasida N=mg−mv²/R.
+  Sonli contact savolida sirt/o‘q aniq. PDF68R=v²/g faqat N0 chegarasi;
+  ichki halqa contactR<=v²/g, har qanday kontaktda tenglik emas. Chelak
+  aylantirish/moto jismoniy tajribasi topshirilmasin.
+- §20: statsionar/branchsiz mass continuityrho*S*v; incompressible bir xil
+  rho bilan S*v const. Bernoulli same streamline/stationary/ideal/
+  incompressible/no pump/loss shartida; balandlik ham rol o‘ynaydi.
+  «Tezroq oqim har qanday holatda pastroq bosim» universal emas.
+  PDF71F1l1−F2l2 keyingi satrplus typo, to‘g‘ri (p1−p2)*V. Final4.8
+  izchil. Gazda siqiluvchanlikni istalgan tezlikda tashlab yubormang.
+  Reynolds soni manbada yo‘q, sun’iy qo‘shilmang. Pistonmisol m1kg,
+  S100cm²,h1m uchun rho1000,g9.8 bo‘lsa sqrt(21.56)≈4.643m/s,
+  bosilgan4.9emas. Savolda rho/g berilsin, bosim tayanchi absolute/gauge
+  bir xil va fizik jihatdan mumkin bo‘lsin. Pressurised DIY topshiriq yo‘q.
+
+§16–20 JSONlari hali yo‘q. Mustaqil ekspert/nativeAndroid/prod/nashr
+bajarilgan deyilmasin. Biology406/oldPhysics/progress/Web/Kimyo saqlansin.
+
+---
+Quyidagi §11–15 oldidan yozilgan tarixiy manba qaydlari saqlandi.
+
 # 10-sinf §11–15 uchun manba qaydlari — 2026-10-26
 
 Bu keyingi mualliflikka tayyorgarlik, interaktiv dars tayyorligi emas.

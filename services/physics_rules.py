@@ -24,6 +24,62 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "circular_speed_local_gravity": rule(
+        "v",
+        ["g", "r"],
+        ["sqrt(g*r)", "(r*g)^0.5"],
+        "Ideal circular orbit, g is LOCAL acceleration at orbital radius r, not surface g at arbitrary altitude; no drag;10PDF37.",
+        square_root=True,
+    ),
+    "circular_period_radius_scale": rule(
+        "T",
+        ["T1", "r", "R"],
+        ["T1*sqrt((r/R)^3)", "T1*sqrt(r^3/R^3)"],
+        "SAME central inverse-square field, ideal circular radii r>=R>0, T1 period at R, r measured from CENTER not altitude;10PDF37 eq2.6.",
+        square_root=True,
+    ),
+    "traction_net_acceleration": rule(
+        "a",
+        ["Ft", "Ff", "m"],
+        ["(Ft-Ff)/m", "(Ft-Ff)*m^-1"],
+        "Horizontal already-sliding body, Ft>=0 forward/Ff>=0 opposing force magnitudes, fixed forward axis, m>0; negative a is deceleration, not static-start criterion;10PDF41–42.",
+    ),
+    "ramp_slide_acceleration": rule(
+        "a",
+        ["g", "sinA", "mu", "cosA"],
+        ["g*(sinA-mu*cosA)", "g*sinA-g*mu*cosA"],
+        "Body ALREADY SLIDING DOWN acute ramp; mu KINETIC>=0, exact supplied sinA/cosA pair, g10 given, downhill signed a, not staticfriction onset;10PDF42–43.",
+    ),
+    "atwood_acceleration": rule(
+        "a",
+        ["m1", "m2", "g"],
+        ["g*(m2-m1)/(m1+m2)", "(m2-m1)*g/(m2+m1)"],
+        "IDEAL massless frictionless pulley/inextensible massless rope,m2>m1>0,g10given, acceleration MAGNITUDE;10PDF43–44.",
+    ),
+    "atwood_tension": rule(
+        "T",
+        ["m1", "m2", "g"],
+        ["2*m1*m2*g/(m1+m2)", "2*g*m2*m1/(m2+m1)"],
+        "IDEAL massless frictionless pulley/inextensible massless rope,m2>m1>0,g10given,SAME positive tension both sides;10PDF44eq2.14.",
+    ),
+    "ramp_input_work_cotangent": rule(
+        "At",
+        ["m", "g", "h", "mu", "cotA"],
+        ["m*g*h*(1+mu*cotA)", "m*g*h+m*g*h*mu*cotA"],
+        "CONSTANT SPEED upward, force parallel acute ramp, kineticmu>=0, cotA PROVIDEDpositive dimensionless notangle, h>0,g10given;10PDF51–52eq3.10.",
+    ),
+    "ramp_efficiency_cotangent": rule(
+        "eta",
+        ["mu", "cotA"],
+        ["1/(1+mu*cotA)", "(1+mu*cotA)^-1"],
+        "Constant speed/parallel pull/acute ramp/kineticmu>=0, cotA PROVIDEDpositive dimensionless, fraction notpercent;10PDF52eq3.11.",
+    ),
+    "ramp_parallel_pull": rule(
+        "F",
+        ["m", "g", "sinA", "mu", "cosA"],
+        ["m*g*(sinA+mu*cosA)", "m*g*sinA+m*g*mu*cosA"],
+        "CONSTANT SPEED upward/parallelpull, kineticmu>=0, exact supplied acute sinA/cosA pair,g10given,m>0;10PDF52eq3.12 finalscalar.",
+    ),
     "horizontal_flight_time": rule(
         "t",
         ["h", "g"],
@@ -2747,6 +2803,53 @@ def reviewed_calculation(question):
         if result != Fraction(981, 100):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
+
+    if name == "circular_speed_local_gravity":
+        return square_root_quantity(
+            positive("g", "acceleration") * positive("r", "length")
+        ), "speed"
+    if name == "circular_period_radius_scale":
+        r, radius = positive("r", "length"), positive("R", "length")
+        if r < radius:
+            raise ValueError("orbit_outside_reference_surface")
+        return square_root_quantity(
+            positive("T1", "time") ** 2 * (r / radius) ** 3
+        ), "time"
+    if name == "traction_net_acceleration":
+        return (value("Ft", "force") - value("Ff", "force")) / positive(
+            "m", "mass"
+        ), "acceleration"
+    if name in {"ramp_slide_acceleration", "ramp_parallel_pull"}:
+        sine, cosine = (
+            positive("sinA", "dimensionless"),
+            positive("cosA", "dimensionless"),
+        )
+        if sine >= 1 or cosine >= 1 or sine**2 + cosine**2 != 1:
+            raise ValueError("consistent_provided_acute_unit_circle_pair_required")
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        mu = value("mu", "dimensionless")
+        if name == "ramp_slide_acceleration":
+            return 10 * (sine - mu * cosine), "acceleration"
+        return positive("m", "mass") * 10 * (sine + mu * cosine), "force"
+    if name in {"atwood_acceleration", "atwood_tension"}:
+        m1, m2 = positive("m1", "mass"), positive("m2", "mass")
+        if m2 <= m1:
+            raise ValueError("atwood_second_mass_heavier")
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        return (
+            (10 * (m2 - m1) / (m1 + m2), "acceleration")
+            if name == "atwood_acceleration"
+            else (20 * m1 * m2 / (m1 + m2), "force")
+        )
+    if name in {"ramp_input_work_cotangent", "ramp_efficiency_cotangent"}:
+        factor = 1 + value("mu", "dimensionless") * positive("cotA", "dimensionless")
+        if name == "ramp_efficiency_cotangent":
+            return 1 / factor, "dimensionless"
+        if positive("g", "acceleration") != 10:
+            raise ValueError("explicit_grade10_gravity_10")
+        return positive("m", "mass") * 10 * positive("h", "length") * factor, "energy"
 
     horizontal = {
         "horizontal_flight_time",

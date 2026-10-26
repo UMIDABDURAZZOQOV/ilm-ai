@@ -513,3 +513,32 @@ PDF=bosma+1. Har kontent birligi tegishli paragraf sahifalariga bog‘landi.
 
 Bu manbaga tayangan muallif tekshiruvi; mustaqil ekspert tasdig‘i emas.
 Biologiya va oldingi Fizika darslarining immutable JSON/reviewlari saqlandi.
+
+## 2026-10-26 — 10-sinf §11–15, PDF36–45/48–53
+
+16 asl sahifaning native matni/formulalari/indekslari/tasvirlari qayta o‘qildi.
+Inersial tavsifda gravitatsiya markazga intilma tezlanishni beradi; ikkinchi
+haqiqiy centrifugal kuch bilan bekor bo‘lmaydi. v²=g*r da g orbitada, r
+markazdan. PDF38 h=6,6R≈42000km radius va balandlikni aralashtiradi:
+yangi dars r va h=r−R ni ajratadi, xato geostatsionar sonli kalit yo‘q.
+T=T1*sqrt((r/R)^3) bir xil markaziy maydondagi aylana orbitalar uchun.
+
+Tayanch P, gravitatsion mg va massa farqli; lift natijasi tezlik emas,
+tezlanishga bog‘liq. Erkin tushishda P0, massa/gravitatsiya0emas.
+Kontaktli modelda pastga a<=g. P/mg va mg/P teskari nisbatlari farqlandi.
+Tinch ishqalanish maksimalgacha moslashadi, doim mu*N emas; tenglik
+chegarasi o‘zi albatta tezlanib sirpanish emas. Yangi ramp savoli allaqachon
+sirpanish/kinetik mu uchun, manfiy a sekinlashish sifatida mumkin.
+Ideal Atwood shartlari va m2>m1 aniq. a,T har ikkala yukning Nyuton
+balansiga qo‘yib tekshirildi; T=m1g=m2g deb olinmadi.
+
+Ish Fpr*s signed, musbat proyeksiya aynan parallellik emas. Gravitywork
+mg(h1−h2),E=K+U; ishqalanishda mexanik E saqlanishini umumiy energiya
+saqlanishi bilan tenglashtirmaymiz. Ramp formulalari faqat tekis/parallel
+pull/kinetikmu. PDF52(3.9) oxirida h tushgan;3.10 mgh bilan izchil,
+yangi At shu3.10,eta3.11/finalscalarF3.12ga tayanadi. CotA tayyor
+birliksiz qiymat, gradus emas. Digital lab15 shartli P,F,h,l jadvali;
+real o‘lchov tasdig‘i yo‘q.0,01foiz punkti ulushda0,0001grid;8/11 va2/3
+aniq private truth,72,73%/66,67% yakuniy yaxlitlangan javoblar.
+Idealmu0 da eta1 mumkin,>1 rad etiladi. Eski JSON/review/qoida chegaralari
+saqlandi. Mustaqil fan eksperti, real laboratoriya/nativeAndroid bajarilmagan.
