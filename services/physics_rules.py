@@ -24,6 +24,101 @@ def rule(target, variables, equivalents, conditions, *, square_root=False):
 
 
 REVIEWED_FORMULAS = {
+    "inductive_reactance_angular": rule(
+        "XL",
+        ["omega", "L"],
+        ["omega*L", "L*omega"],
+        "IdealconstantL/steadySINUSOID,omega rad/s notHz,positiveL/omega,reactiveohms notheatR;11PDF59.",
+    ),
+    "inductive_reactance_frequency": rule(
+        "XL",
+        ["p", "nu", "L"],
+        ["2*p*nu*L", "L*nu*p*2"],
+        "Same idealL,nuHz,p3.14explicit approximation;11PDF60.",
+    ),
+    "inductive_peak_current": rule(
+        "Im",
+        ["Um", "omega", "L"],
+        ["Um/(omega*L)", "Um/L/omega"],
+        "IDEAL zeroR inductor steadySINUSOID,Um/Imamplitudes,omega rad/s,notDCtransient;11PDF59.",
+    ),
+    "cosine_inductor_voltage": rule(
+        "U",
+        ["Um", "sinPhase"],
+        ["-Um*sinPhase", "(-sinPhase)*Um"],
+        "Passive terminaluL=Ldi/dt,i=Imcos(theta),Umpositivepeak,suppliedSIGNEDsin[-1,1],voltageleadscurrent90,oppositeselfEMF;11PDF58–59.",
+    ),
+    "series_rlc_impedance": rule(
+        "Z",
+        ["R", "XL", "XC"],
+        ["sqrt(R^2+(XL-XC)^2)", "((XC-XL)^2+R^2)^0.5"],
+        "SERIES idealRLC steadySINUSOID,positivefixedR,nonnegativeXL/XCmagnitudes,notparallelcircuit;11PDF62.",
+        square_root=True,
+    ),
+    "series_rlc_peak_current": rule(
+        "Im",
+        ["Um", "R", "XL", "XC"],
+        ["Um/sqrt(R^2+(XL-XC)^2)", "sqrt(Um^2/(R^2+(XC-XL)^2))"],
+        "Same SERIESRLC,Um/Impeakmagnitudes,R>0,consistentreactances;11PDF62.",
+        square_root=True,
+    ),
+    "series_rlc_tangent": rule(
+        "tanPhi",
+        ["XL", "XC", "R"],
+        ["(XL-XC)/R", "XL/R-XC/R"],
+        "SERIES steadyRLC,voltagephaseRELATIVEcurrent, R>0,reactancemagnitudes, SIGNED tangent mayexceed1 NOTsine/cosine;11PDF62correctURdenominator.",
+    ),
+    "series_rlc_total_voltage": rule(
+        "Um",
+        ["UR", "UL", "UC"],
+        ["sqrt(UR^2+(UL-UC)^2)", "((UC-UL)^2+UR^2)^0.5"],
+        "SERIES steadyRLC,ALLvoltageAMPLITUDES,URinphasewithI/ULahead/UCbehind,notinstantaneoussigneds;11PDF62.",
+        square_root=True,
+    ),
+    "series_resonance_angular": rule(
+        "omega",
+        ["L", "C"],
+        ["1/sqrt(L*C)", "sqrt(1/(L*C))"],
+        "Series fixedidealRLC/drivingfrequency resonance XL=XC,constantL/C,omega rad/s notHz;11PDF64.",
+        square_root=True,
+    ),
+    "resonance_capacitance_frequency": rule(
+        "C",
+        ["p", "nu", "L"],
+        ["1/(4*p^2*nu^2*L)", "1/(L*(2*p*nu)^2)"],
+        "Same SERIESresonance,fixedL,nuHz,p3.14given,sig‘imSIroundingexplicit;11PDF65.",
+    ),
+    "resonant_component_voltage": rule(
+        "Ucomponent",
+        ["Um", "R", "L", "C"],
+        ["Um/R*sqrt(L/C)", "sqrt(Um^2*L/(R^2*C))"],
+        "SERIES idealRLC atRESONANCE,R>0,UminputAMPLITUDE, UL=UCcomponentamplitude opposedphasors,notallconditionsequality;11PDF64.",
+        square_root=True,
+    ),
+    "passive_ac_average_power": rule(
+        "Pavg",
+        ["U", "I", "cosPhi"],
+        ["U*I*cosPhi", "cosPhi*I*U"],
+        "PASSIVE steadySINUSOID,U/I BOTH RMS,providedpowerfactor0..1 notinstantaneouscosPhase,averageoverperiod;11PDF68.",
+    ),
+    "steady_ac_work": rule(
+        "A",
+        ["U", "I", "cosPhi", "t"],
+        ["U*I*cosPhi*t", "t*cosPhi*I*U"],
+        "Same passiveSINUSOID,RMSvalues,WHOLE cycles orlongsteadyaverageintervalt,notexactarbitraryfractionalphasework;11PDF68.",
+    ),
+    "series_rlc_power_factor": rule(
+        "cosPhi",
+        ["R", "Z"],
+        ["R/Z", "R*Z^-1"],
+        "PASSIVE seriesidealRLC/steadySINUSOID,0<=R<=Z,Z>0,dimensionlesscosfactor nottanphi;11PDF70.",
+    ),
+    "power_factor_from_rms": rule(
+        "cosPhi",
+        ["Pavg", "U", "I"],
+        ["Pavg/(U*I)", "Pavg/U/I"],
+        "PASSIVE steadySINUSOID,positiveRMSU/I,0<=Pavg<=U*I,notmixedpeak/RMS;11PDF68.",
+    ),
     "ideal_lc_period": rule(
         "T",
         ["p", "L", "C"],
@@ -3502,6 +3597,86 @@ def reviewed_calculation(question):
             raise ValueError("grade6_source_gravity_is_9_81")
         return result
 
+    if name in {
+        "inductive_reactance_angular",
+        "inductive_reactance_frequency",
+        "inductive_peak_current",
+    }:
+        L = positive("L", "inductance")
+        if name == "inductive_reactance_frequency":
+            p = positive("p", "dimensionless")
+            if p != Fraction("3.14"):
+                raise ValueError("explicit_pi_approximation_required")
+            return 2 * p * positive("nu", "frequency") * L, "resistance"
+        x = positive("omega", "angular_speed") * L
+        return (
+            (x, "resistance")
+            if name == "inductive_reactance_angular"
+            else (value("Um", "voltage") / x, "current")
+        )
+    if name == "cosine_inductor_voltage":
+        c = projection("sinPhase", "dimensionless")
+        if abs(c) > 1:
+            raise ValueError("provided_phase_function_range")
+        return -positive("Um", "voltage") * c, "voltage"
+    if name in {
+        "series_rlc_impedance",
+        "series_rlc_peak_current",
+        "series_rlc_tangent",
+    }:
+        R = positive("R", "resistance")
+        dx = value("XL", "resistance") - value("XC", "resistance")
+        if name == "series_rlc_tangent":
+            return dx / R, "dimensionless"
+        zsq = R * R + dx * dx
+        return (
+            (square_root_quantity(zsq), "resistance")
+            if name == "series_rlc_impedance"
+            else (square_root_quantity(value("Um", "voltage") ** 2 / zsq), "current")
+        )
+    if name == "series_rlc_total_voltage":
+        return square_root_quantity(
+            value("UR", "voltage") ** 2
+            + (value("UL", "voltage") - value("UC", "voltage")) ** 2
+        ), "voltage"
+    if name == "series_resonance_angular":
+        return square_root_quantity(
+            1 / (positive("L", "inductance") * positive("C", "capacitance"))
+        ), "angular_speed"
+    if name == "resonance_capacitance_frequency":
+        p = positive("p", "dimensionless")
+        if p != Fraction("3.14"):
+            raise ValueError("explicit_pi_approximation_required")
+        return 1 / (
+            4 * p * p * positive("nu", "frequency") ** 2 * positive("L", "inductance")
+        ), "capacitance"
+    if name == "resonant_component_voltage":
+        return square_root_quantity(
+            value("Um", "voltage") ** 2
+            * positive("L", "inductance")
+            / (positive("R", "resistance") ** 2 * positive("C", "capacitance"))
+        ), "voltage"
+    if name in {"passive_ac_average_power", "steady_ac_work"}:
+        c = value("cosPhi", "dimensionless")
+        if c > 1:
+            raise ValueError("passive_power_factor_range")
+        p = value("U", "voltage") * value("I", "current") * c
+        return (
+            (p, "power")
+            if name == "passive_ac_average_power"
+            else (p * value("t", "time"), "energy")
+        )
+    if name == "series_rlc_power_factor":
+        R, Z = value("R", "resistance"), positive("Z", "resistance")
+        if R > Z:
+            raise ValueError("passive_series_impedance_at_least_resistance")
+        return R / Z, "dimensionless"
+    if name == "power_factor_from_rms":
+        p = value("Pavg", "power")
+        ui = positive("U", "voltage") * positive("I", "current")
+        if p > ui:
+            raise ValueError("passive_average_power_cannot_exceed_rms_product")
+        return p / ui, "dimensionless"
     if name in {"ideal_lc_period", "ideal_lc_frequency"}:
         p = positive("p", "dimensionless")
         if p != Fraction("3.14"):

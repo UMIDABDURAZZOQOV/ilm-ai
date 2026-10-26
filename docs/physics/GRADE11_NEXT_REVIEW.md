@@ -1,3 +1,20 @@
+# Keyingi: 11-sinf §21 — 2026-10-26
+
+Keyingi11§21PDF77/bosma76. §21–25 original20sahifa77–96 nativehash/tasvirlari qayta o‘qildi, scientificnotes tayyor, JSON/runtimebatch5haliyo‘q. Emwave/relativeindex/intensity/radar/history/coherentinterference/Newtonrings/grating source tafovutlari GRADE11_NEXT_REVIEW.md da yozilgan. Oddiy bosqichda approval qayta so‘ralmasin. 25bo‘lim qolgan;316tugallangan emas.
+
+PDF77,78,79: Original images/native checked. EMsignal propagation distinct electron drift; c3e8 school VACUUM/airapprox, not every wire exactspeed. Hertz historical demonstration/Maxwell theory no sole-priority oversimplification. Wavev=lambda*nu andinverse, lambda inputASCII Lw (safe parserreservedlambda). Openoscillator radiation not allenergyperfectescape nor no closedcircuit everradiates. No spark/highvoltage radio experiment.
+
+PDF80,81,82,83,84: Original reflection/refraction/transversewave/intensity formulas read. Stationaryinterfacefrequencyunchanged, speed/wavelengthmaychange; source81lambda=c/nu limitedvacuum, use actualv inmedium as source83example. n21=v1/v2, epsratio assumes mu~1/nondispersiveordinarymedia. B/Etransverse for idealplanewave/farfield not arbitrarynearfield. Metalplate/dielectricreflection experiment particularfrequency, not metalscannottransmitanyfrequency/dielectricsneverreflect. Intensity W/(Sdt)=Pavg/S in W/m², averageenergydensityw J/m³ andI=w*c forvacuumunidirectionalplane wave. Inversesquare isotropicpointsourcefarfield/noabsorption only. Source83 I proportionalomega^4 requiresfixeddipoleamplitude/sourceconditions, not anyEMsignal/universalenergyvsfrequency, not used unqualified.
+
+PDF84,85,86,87,88: Original radio/modulation/detection/radar pages read. Information signal versus carrier; LCtuning,demodulation distinct roles, no receiverbuilding. Broadcastcanbeintercepted, source84 claimmessagescannotcaptured not copied. HistoricalPopov/Marconi reportedinsource not one-inventor universalpriorityclaim. RadarR=c*echoTime/2 specific monostaticroundtrip/boundedobjectmotion/vacuumapprox. Source88asksminimumrange but solves Lmax~37.5km; tau2us minrange~300m forTx/Rxblockedpulse model, maxunambig c/(2PRF)~37.5km(ignorepulsewidth;subtract gives37.2). Not copied conflated answer. Nperpulse=c*tPulse/lambda vs pulse repetitionrate separate. No operationalradar/targettracking hardware.
+
+PDF88,89,90,91: Original television blocks/history read. Analog camera electricalsignal/transmission/receiverseparation/screen/speaker preserved, diagramnotallmoderndigitalTVuniversalarchitecture. Source90TV50–230MHz and lineofsight givenhistoricalanalogband/model, not currentallTVfreq/globalrange. Source90–91 Tashkent1928Telefot/Grabovsky/Belyansky/1956centre/375mtower are SOURCE-reported historicalcase, not independentlyverifiedsoleglobalinvention or currentrank/channelcount; no unsupportednewhistory. Conceptualcourse,no artificialformula.
+
+PDF92,93,94,95,96: Original coherence/pathconditions/Newtonrings/grating images checked. Source92rainbow not same general thin-film interference mechanism (rainbow primarilyrefraction/reflection/dispersion), not copied. Equalfrequency/constantphase,LINEARsameuniformmedium/samepolarization/inphase sources for Delta=mLw constructive/(m+.5)Lw destructive; unknownstartingphase/unequalmedia notuniversal. Thinfilmreflectionphase matters. Newtonairfilm reflectednormal/smallgap Rcurvature: darksqrt(mLwR),brightsqrt((m+.5)LwR),mwhole>=0,nottransmission/liquidgeneral. Diffractionnoticeable a~lambda notstrictonlya<lambda. GratingNORMALincidence/monochromatic PRINCIPALmax d*sinPhi=nLw,nwhole>=0; source96half-integer universalgratingminima wrongformultislit not copied. Inverselambda/d requiresn>0/sin>0; no generaltrig/asin. Twoindependentthermalbulbs notstablecoherent, not blanketallseparatesourcesimpossible. No directlasereye/DIYbeam experiment.
+
+---
+Tarixiy qaydlar saqlandi.
+
 # Keyingi: 11-sinf §16–20 — 2026-10-26
 
 286/316,30qolgan.15asl sahifa58–72 tasvirlari/nativehashlari qayta o‘qildi. Bu source review tayyorgarligi, yangiJSON/runtimehaliyo‘q. Mustaqilekspertapproval emas.
