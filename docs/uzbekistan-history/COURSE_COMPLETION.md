@@ -1,32 +1,38 @@
-# O‘zbekiston tarixi — tugallanmagan kurs, birinchi interaktiv checkpoint
+# O‘zbekiston tarixi — joriy kurs checkpointi
 
-2026-10-26. **To‘liq kurs tayyor emas.** 7-sinfning §1–15 mavzusi uchun 15 dars yozildi: 114 karta, 15 original misol, 60 MCQ, 30 qisqa FRQ va 10 xronologiya topshirig‘i; 15 tahlil/rubrika avtomatik baholanmaydi.
+2026-10-26. **Kurs tugallanmagan.** 7-sinf §1–20: **20 dars**, 151 karta, 20 original misol, 135 topshiriq (80 MCQ / 40 qisqa FRQ / 15 xronologiya), 20 avtomatik baholanmaydigan refleksiya/rubrika.
 
-| Sinf | Bob | Kataloglangan mavzu | Interaktiv dars | Qolgan mavzu |
+| Sinf | Bob | Katalogdagi mavzu | Interaktiv dars | Qolgan |
 |---|---:|---:|---:|---:|
-| 7 | 6 | 42 | 15 | 27 |
-| 8 | ? | ? | 0 | PDF transferi bloklangan |
+| 7 | 6 | 42 | 20 | 22 |
+| 8 | ? | ? | 0 | Noma’lum: PDF olinmagan |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
-Mavjud 4 kitobda 131 ta o‘quv mavzu guruhi bor; beshala kitobning jami soni hali noma’lum. §4–5 va §35–36 birlashtirilgan 9-sinf mavzulari ikki marta sanalmagan. Barcha 609 mavjud PDF sahifasining native xeshlari, 131 sarlavha tasviri va birinchi darslarda ishlatilgan 49 to‘liq asl sahifa tasviri audit qilindi. Metadata yoki sarlavha auditi kitobdagi barcha tarixiy faktlar tekshirildi degani emas.
+To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 111 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
 
-## Bajarilgan tekshiruvlar
+## Haqiqiy test natijalari
 
-- Manba va interaktiv backend testlari: **52 passed, 1 opt-in PostgreSQL skipped, 6.33 s**.
-- Alohida real lokal PostgreSQL fresh schema: **1 passed, 36 deselected, 6.68 s**; 15 dars, qayta import/replay, 150 XP, yakunda 137→287 va parallel completion sinovi. Faqat yangi test schema yaratilib, so‘ng o‘chirildi; productionga tegilmadi.
-- Flutter: **176 passed, 87 s**, shundan 22 ta yangi History testi. 320×568 va 200% matn, qisqa FRQ inputi, xronologiya, sinf tanlash, 8-sinf empty state, source dialog, internet xatosi va retry tekshirildi. **Analyze: No issues found, 1.9 s.**
-- Source validator: 4 kitob / 609 sahifa / 131 sarlavha tasviri / 49 dars manba sahifasi; 100 topshiriq. Ruff toza. Mavjud 552 backend fayli xeshi saqlandi.
-- To‘liq backend regression birinchi partiya ustida: **2314 passed, 5 opt-in skipped, 2 sandbox deselected, 13 mavjud warning, 536.55 s**. Uchinchi partiya uchun keyin yuqoridagi 52 test va alohida PostgreSQL qayta bajarildi. O‘zgarmagan Biology/Physics fayllari 552 xeshli baseline bilan ham himoyalangan.
+- backend: `57 passed, 1 skipped in 7.40s`.
+- postgres: `1 passed, 41 deselected in 8.08s`.
+- flutter: `01:27 +195: All tests passed!`.
+- analyze: `No issues found! (ran in 1.7s)`.
+- legacy_selected: `530 passed in 197.87s (0:03:17)`.
+- legacy_full: `2314 passed, 5 skipped, 2 deselected, 13 warnings in 536.55s (0:08:56)`.
 
-## Chegaralar va ochiq masalalar
+Source audit: 609 asl native sahifa, 131 sarlavha tasviri va **68 to‘liq dars manba sahifasi tasviri** xeshdan tekshirildi. Bu barcha kitoblardagi har bir tarixiy da’vo mustaqil ekspert tomonidan tasdiqlandi degani emas. `legacy_full` birinchi5dars checkpointida; `legacy_selected` §1–15ustida; eng yangi partiya `backend/postgres/flutter` bilan keyin tekshirildi.
 
-8-sinf 45.4 MB skaner PDF’i 32 MiB transfer limitidan o‘tmadi. Uzluksiz kichik segmentlar kerak; OCR/manba tasviri hali olinmagan. 2026–2027 rasmiy dastur bilan moslik real proxy 403 sabab tasdiqlanmadi. Mustaqil tarix o‘qituvchisi, real Android, native accessibility va umumiy foydalanuvchi release’i hali tasdiqlanmagan. Bob belgisi alohida checkpoint testi emas.
+## Tekshiruv chegaralari
 
-History faqat izolyatsiyalangan lokal/test router va Flutter entrypointda. Production app/router/katalog, Google login, veb-sayt, Biology/Physics kontenti o‘zgarmadi. Chemistry va Jahon tarixi alohida ref/worktree holida saqlandi, bu branchga merge qilinmadi; bitta integrated branchda ularning regressioni tekshirildi deb da’vo qilinmaydi. Baza va server production import/deploy qilinmadi; main merge yo‘q.
+8-sinfning 45.4 MB skanerlangan PDF’i 32 MiB executor transfer limitidan o‘tmadi; uni to‘liq olingan, OCR qilingan yoki SHA tekshirilgan deb hisoblamaymiz. Sahifalar tartibi aniq ko‘rsatilgan, 32 MiB’dan kichik uzluksiz segmentlar kerak. 2026–2027 rasmiy dasturga moslik real proxy403 sabab tasdiqlanmadi. Mustaqil tarix o‘qituvchisi va real Android sinovi bajarilmagan. Android SDK/adb yo‘q; Gradle alohida History QA application ID integratsiyasi ham qolgan.
 
-Git: backend/Flutter `feat/uzbekistan-history-curriculum`; dastlabki manba checkpointi `d7d0510`; birinchi 5 dars backend `bf98c8c`, Flutter `8490036`. Ushbu partiya commit SHA sini `git log` orqali tekshiring (hujjat ichiga o‘z commit xeshini qo‘yish mumkin emas). Davom nuqtasi va aniq source chegaralari: [STAGE2_PROGRESS.md](STAGE2_PROGRESS.md). Lokal ishga tushirish chegaralari: [LOCAL_QA.md](LOCAL_QA.md).
+Barcha yangi darslar **lokal/test preview**, `course_ready=false`. Bob tugallanish belgisi alohida checkpoint quiz emas; alohida bob testlari hali yozilmagan. Erkin tarixiy tahlil uchun rubrika bor, lekin teacher workflow yoki avtomatik esse bahosi yo‘q. Hozirgi import faqat immutable `r1` darslar uchun; kelajak revision aktivlashtirish/unique constraint strategiyasi alohida integratsiya va migratsiya review talab qiladi. Mavjud revision yoki foydalanuvchi progressi qayta yozilmaydi.
 
+Production router, fanlar katalogi, Google login, veb-sayt, Biology406 va Physics316 kontenti o‘zgartirilmagan. 552 mavjud backend fayli xeshi tekshiriladi. Kimyo268 va Jahon tarixi parallel remote branchlari saqlandi, ushbu Physics-base branchga merge qilinmagan; barcha fanlar bitta integration branchida testlandi deb aytilmaydi. PDF/OCR/kitob tasviri/transkript Gitga qo‘shilmagan. Main merge, production DB/import/deploy va AI Tutor/Explain yo‘q.
 
-§11–15 checkpointi: yangi Flutter testlari va Biology/Physics regression qayta tekshiruvi hali ishlamoqda. Avvalgi §1–10 Flutter176passdan yangi partiya natijasini taxmin qilmang. Keyingi checkpointda haqiqiy natijalar yoziladi.
+## Git va davom
+
+Backend va Flutter: `feat/uzbekistan-history-curriculum`. Source checkpoint `d7d0510`; oldingi partiyalar `bf98c8c`/`a11c97d`/`4b51213`, Flutter `8490036`/`86402fc`/`bfef1a9`. Joriy partiya commitini `git log -1` va `git ls-remote` bilan tekshiring. Keyingi: **7-sinf §21, PDF/bosma 74 — Jaloliddin Manguberdi mohir sarkarda**.
+
+[Davom va dars manbalari](STAGE2_PROGRESS.md), [manba tafovutlari](SOURCE_REVIEW.md), [lokal QA chegaralari](LOCAL_QA.md).

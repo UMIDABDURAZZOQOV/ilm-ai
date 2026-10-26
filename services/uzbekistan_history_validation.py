@@ -16,7 +16,7 @@ from services.uzbekistan_history_sources import (
     validate_catalog,
 )
 
-BATCHES = {"grade7_batch1": (7, 1, 5), "grade7_batch2": (7, 6, 10), "grade7_batch3": (7, 11, 15)}
+BATCHES = {"grade7_batch1": (7, 1, 5), "grade7_batch2": (7, 6, 10), "grade7_batch3": (7, 11, 15), "grade7_batch4": (7, 16, 20)}
 fingerprint = digest
 
 
