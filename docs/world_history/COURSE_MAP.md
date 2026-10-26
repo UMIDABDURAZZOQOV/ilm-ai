@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 26; remaining: 193.** Source pages are candidate spans;
+**Reviewed preview lessons: 31; remaining: 188.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -60,11 +60,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 24 | wh6-topic24 | Afinada demokratiya | 93–98 | reviewed_preview_ready |
 | 25 | wh6-topic25 | Yunon-fors urushlari | 98–102 | reviewed_preview_ready |
 | 26 | wh6-topic26 | Yunonistonning Makedoniya tomonidan bosib olinishi | 102–104 | reviewed_preview_ready |
-| 27 | wh6-topic27 | Fuqaro tarbiyasi | 104–107 | not_implemented |
-| 28 | wh6-topic28 | Qadimgi Yunoniston madaniyati | 107–111 | not_implemented |
-| 29 | wh6-topic29 | Qadimgi Yunoniston olimlari va mutafakkirlari | 111–115 | not_implemented |
-| 30 | wh6-topic30 | Qadimgi Yunoniston afsonalari | 115–118 | not_implemented |
-| 31 | wh6-topic31 | O‘rta Osiyoda ahamoniylar hukmronligi | 118–123 | not_implemented |
+| 27 | wh6-topic27 | Fuqaro tarbiyasi | 104–107 | reviewed_preview_ready |
+| 28 | wh6-topic28 | Qadimgi Yunoniston madaniyati | 107–111 | reviewed_preview_ready |
+| 29 | wh6-topic29 | Qadimgi Yunoniston olimlari va mutafakkirlari | 111–115 | reviewed_preview_ready |
+| 30 | wh6-topic30 | Qadimgi Yunoniston afsonalari | 115–118 | reviewed_preview_ready |
+| 31 | wh6-topic31 | O‘rta Osiyoda ahamoniylar hukmronligi | 118–123 | reviewed_preview_ready |
 | 32 | wh6-topic32 | O‘rta Osiyo xalqlarining yunon-makedon istilochilariga qarshi kurashi | 123–129 | not_implemented |
 | 33 | wh6-topic33 | Salavkiylar davlati va Yunon-Baqtriya podsholigi | 129–133 | not_implemented |
 | 34 | wh6-topic34 | Qadimgi Xorazm, Qang‘ va Davan davlati | 133–137 | not_implemented |

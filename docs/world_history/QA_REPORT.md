@@ -197,3 +197,35 @@ runner and ship precision remain withheld/scoped; no external correction invente
 Source-review record contains the full decisions. Actual renders inspected:
 §24 feedback at200%,§26 resumed FRQ and§23 theory at200%; shared feedback scroll
 tests passed. No PDF images bundled, native run or teacher approval claimed.
+
+## Batch06 — grade6§27–31, 2026-10-27
+
+Five additional lessons:39 cards,79 fact records,30 MCQ and20 objective FRQ.
+Total **31/219 local-preview lessons**,260 cards,460 facts,181 MCQ,117 objective FRQ
+and31 ungraded activities;188 units remain (15 in grade6).
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Current backend/source/preservation |132 passed in583.39s | Eight history modules, all31 manifests; exact boundaries, aliases, objective chronology, source decisions, prerequisites and620XP once |
+| Actual PostgreSQL |1 passed in53.72s | Dedicated staging fresh schema; parallel first completion,31 sequential lessons and old synthetic account preservation |
+| Actual loopback HTTP |6 catalogues,298 answers,620XP | Fresh synthetic learner900066, prerequisites/replay and no previous-progress reset |
+| Targeted Flutter |73 passed in01:30 | Actual API fixtures§1–31, four original chapters, 320×568/200% theory/MCQ, resumed FRQ and previous account/language safeguards |
+| Full Flutter regression |682 passed in06:25 | Entire current suite, including existing subject/shared UI tests |
+| Full Flutter analysis |0 issues in128.6s | Entire current history Flutter worktree |
+| Preservation |687 baseline SHA pins matched |406 Biology/268 Chemistry manifests plus13 runtime files; all52 previous history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | Python-only history paths and git diff check |
+
+Earlier full backend2569/4-skipped evidence remains a baseline, not a batch06 rerun.
+No schema or shared/runtime/release route changed. Tool-generated Flutter plugin
+line-ending files restored separately. New public fixtures contain no private keys.
+
+Exact original104–122 topic regions reviewed. Whole next-topic pages115/118/123
+excluded from preceding lessons;107/111 shared regions explicit. Reviewed decisions
+cover Olympic dating/place conflation, Trojan-horse episode attribution, separate
+philosopher name pairs, all deity-table rows and conflicting campaign narratives.
+No external era/date correction or literal supernatural/scientific claim invented.
+
+Inspected actual widget renders:§27 theory at200%,§29 resumed FRQ,§31 feedback
+at200%. No native Android/IME/TalkBack, independent teacher sign-off or full2026–27
+programme equivalence claimed. No production/main/real-user operation or raw PDF,
+page-image/full-text/OCR publication occurred.

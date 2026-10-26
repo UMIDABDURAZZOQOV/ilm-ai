@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph30.json",
+  "lesson_sha256": "bd2ad940d208c277adb9140d86b7c8118e3aa547be35b1d9affb0308bfa8410f",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p30-page115",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic30",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 115,
+      "printed_page": 115,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "86c858ec1102d8fc0011c6a6f4e8e397e74334cc212e49e270cf313b85e185ca",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p30-page116",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic30",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 116,
+      "printed_page": 116,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "ccdf331682bf3c2a5375d3ed3cce3afa39dcc95d2612d0ef92051c44441a76cd",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p30-page117",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic30",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 117,
+      "printed_page": 117,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "40ae2700179e1eb0f9b8fcc066321dc31ecedff4d21c52ceaca5ea65da0b683b",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original115 below §30 through117 read;118 wholly new chapter/§31 excluded. Every table row and caption116/117 checked.",
+    "All divine identities/functions and mythic creatures assessed only as supplied narrative/table comprehension, never supernatural reality, modern science or personal faith.",
+    "Apollon light/music/poetry distinct from Gelios explicit Sun row; Afina deity distinct from city context; Olimp not Olimpiya alias.",
+    "Cosmogony, divine genealogy/actions, sacrifice/fear and human-like moral traits are attributed, not universal religious psychology or ritual instructions."
+  ],
+  "approved_fact_sha256": {
+    "myth": "8a1496ff150d42339e7b0f97a2b726ef7c35825ed9ab1ec1248576e19698bea7",
+    "sirens": "83f09831f5183c1a99f9e7a25c4231695ecfefdbb85f59e536cfd2b9cf617407",
+    "centaurs": "8ed83d99a3c579dce5cd6d64e4361cb61ff1777ea8ef14b9e7d032c1b9ce7dd4",
+    "cyclopes": "bf980a134d312a440323519f918951a619f413187c7bb55318c32d7528c03e87",
+    "titans": "965473ad43bb35f1c41e499f74c87d12e0564d4686202a9fe4386f364e031e86",
+    "heracles": "4426c7da458518009702d6c626be6a913782a4ef520f69683a82d72fe6f38ceb",
+    "olymp": "8beca4b97ab3c24237fe0414e3fa43b04f239259dfc3fd3e22258e64cc003526",
+    "zeus": "60f7890df5ad98aa2372845d0ddda14cf27ae86865e455c024558a47dbbba9d3",
+    "poseidon": "afea5549a3f19baabe2817766bb9a4ae74d0eee77fce228a0d1b1b49965d1946",
+    "hades": "654e338ec22ff8ca21dd9a7720efca49df91b7312c26e225f04b63e5873a9e46",
+    "athena": "7e5f78a3193765e99f98e4e99333928a9dd3508e854c2689c2bfff8122d2709b",
+    "apollo": "b7798bf990e2b858095df6027a93fd5999c393cca422b651fb6f4b1e39edf5f3",
+    "helios": "616bab12cecf2018dc8d07fb65154f7a76e30cf7d1e55fa6769999f3546fdcd9",
+    "demeter": "aeb0827af84e1548dd28308ebac1f10b31c6cebc4ba4e6142b5145642e49fe27",
+    "gaia": "3c7d9e1bcaef4fa353abedc040639edac6f4baf41770d6215125764760a60587",
+    "themis": "b52da9918f81ec0fe719729638dba9e947fe28d19c6f58530f58d93393cce972",
+    "hephaestus": "391fbdd8dc981493fd224c219d5f85298d57a24f357fd9fadbc92302323196ae",
+    "artemis": "f7d20269565502287b5149dfee8bcb4ebf0b39c07fd12350c560c4aa27ef77a5",
+    "ares": "df052af794a9e6a97766da40a2e2789b60158bd29c761394d8c1c533b8c7b594",
+    "dionysus": "b9f0c537ade45131db85387907a2b161ae580685f99b56c4e6eee18c2c8178db",
+    "spirits": "1c22045b6e29033f93703e592cc8a41025b8051a252f43f54915681d8bd77e76",
+    "religious-model": "453725094384b9de7e70abc2360946bc5767bf4183291acb5cb7f9c5a3187e18"
+  },
+  "approved_content_sha256": "6c2f8a179e6782f2682553b8c9d6cfc5b7fea483703fbead30053626af5c9891",
+  "approved_assessments_sha256": "3937116dd9368f393d5413d42a9a69cd6e8c95796492b3635931d5f32d76a506",
+  "approved_answer_targets": {
+    "world-history-6-p30-r1-q01": {
+      "fact_ids": [
+        "centaurs"
+      ],
+      "verified_answer": "Kentavrlar",
+      "aliases": []
+    },
+    "world-history-6-p30-r1-q02": {
+      "fact_ids": [
+        "poseidon"
+      ],
+      "verified_answer": "Poseydon",
+      "aliases": []
+    },
+    "world-history-6-p30-r1-q03": {
+      "fact_ids": [
+        "athena"
+      ],
+      "verified_answer": "Afina",
+      "aliases": []
+    },
+    "world-history-6-p30-r1-q04": {
+      "fact_ids": [
+        "hephaestus"
+      ],
+      "verified_answer": "Gefest",
+      "aliases": []
+    },
+    "world-history-6-p30-r1-q05": {
+      "fact_ids": [
+        "demeter"
+      ],
+      "verified_answer": "Demetra",
+      "aliases": []
+    },
+    "world-history-6-p30-r1-q06": {
+      "fact_ids": [
+        "helios"
+      ],
+      "verified_answer": "Gelios",
+      "aliases": []
+    },
+    "world-history-6-p30-r1-q07": {
+      "fact_ids": [
+        "poseidon"
+      ],
+      "verified_answer": "Poseydon",
+      "aliases": [
+        "Poseydon"
+      ]
+    },
+    "world-history-6-p30-r1-q08": {
+      "fact_ids": [
+        "themis"
+      ],
+      "verified_answer": "Femida",
+      "aliases": [
+        "Femida"
+      ]
+    },
+    "world-history-6-p30-r1-q09": {
+      "fact_ids": [
+        "cyclopes"
+      ],
+      "verified_answer": "Sikloplar",
+      "aliases": [
+        "Siklop",
+        "Sikloplar"
+      ]
+    },
+    "world-history-6-p30-r1-q10": {
+      "fact_ids": [
+        "apollo"
+      ],
+      "verified_answer": "Apollon",
+      "aliases": [
+        "Apollon"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 115,
+      "activity": "myth_creatures_recall",
+      "covered_by": [
+        "card1",
+        "card2",
+        "q01",
+        "q09"
+      ]
+    },
+    {
+      "pdf_page": 116,
+      "activity": "deities_table_first_page_and_captions",
+      "covered_by": [
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "card7",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q10"
+      ]
+    },
+    {
+      "pdf_page": 117,
+      "activity": "table_continuation_summary_and_three_tasks",
+      "covered_by": [
+        "card5",
+        "card6",
+        "card7",
+        "q08",
+        "reflection"
+      ]
+    }
+  ]
+}

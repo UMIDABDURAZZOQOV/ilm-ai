@@ -13,7 +13,7 @@ from services.world_history_models import WorldHistoryProgress
 
 
 def test_batch05_reviewed_counts_scope_and_source_decisions():
-    documents=load_lessons();assert len(documents)==26
+    documents=load_lessons();assert len(documents)>=26
     batch=documents[21:26]
     assert [len(d['facts']) for d in batch]==[19,11,14,13,11]
     assert [len(d['content']['cards']) for d in batch]==[9,6,8,6,6]
@@ -62,7 +62,7 @@ def test_reviewed_periek_spellings_do_not_accept_another_social_group():
 
 
 def test_all_twenty_six_prerequisites_and520_xp_once(history):
-    client,factory,_=history;documents=load_lessons()
+    client,factory,_=history;documents=load_lessons()[:26]
     assert client.post(f"{PREFIX}/lessons/{documents[21]['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())}).status_code==403
     for d in documents:
         response=client.post(f"{PREFIX}/lessons/{d['key']}/start",json={'assessment_version':2,'request_id':str(uuid4())})
@@ -79,6 +79,7 @@ def test_all_twenty_six_prerequisites_and520_xp_once(history):
         assert db.query(WorldHistoryProgress).filter_by(user_id=1).count()==26
         assert db.get(User,42).xp_total==137
     catalog=client.get(PREFIX+'/catalog').json()
-    assert catalog['implemented_sections']==26 and catalog['source_sections']==46
-    assert all(r['state']=='completed' for r in catalog['lessons'])
+    assert catalog['implemented_sections']==len(load_lessons()) and catalog['source_sections']==46
+    assert all(r['state']=='completed' for r in catalog['lessons'][:26])
+    assert all(r['state']!='completed' for r in catalog['lessons'][26:])
     assert not catalog['grade_content_complete'] and not catalog['course_complete']
