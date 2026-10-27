@@ -90,6 +90,8 @@ def test_all56_units1120_xp_once_preserve_grade6_and_existing_users(history):
     six=client.get(PREFIX+'/catalog',params={'grade':6}).json()
     seven=client.get(PREFIX+'/catalog',params={'grade':7}).json()
     assert six['grade_content_complete'] and not seven['grade_content_complete']
-    assert all(r['state']=='completed' for c in [six,seven] for r in c['lessons'])
-    assert seven['source_review_issue_count']==34 and seven['implemented_sections']==10
+    assert all(r['state']=='completed' for r in six['lessons'])
+    assert all(r['state']=='completed' for r in seven['lessons'][:10])
+    assert all(r['state']!='completed' for r in seven['lessons'][10:])
+    assert seven['source_review_issue_count']==44-len(seven['lessons'])
     assert not six['course_complete'] and not seven['course_complete']

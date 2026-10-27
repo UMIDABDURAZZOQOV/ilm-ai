@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 56; remaining: 163.** Source pages are candidate spans;
+**Reviewed preview lessons: 61; remaining: 158.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -105,11 +105,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 8 | wh7-topic08 | Sharqiy slavyanlar. Kiyev Rusi | 37–41 | reviewed_preview_ready |
 | 9 | wh7-topic09 | Yevropa xalqlari madaniyati | 41–47 | reviewed_preview_ready |
 | 10 | wh7-topic10 | Arabiston ilk o‘rta asrlar boshida | 47–51 | reviewed_preview_ready |
-| 11 | wh7-topic11 | Arab xalifaligi | 51–53 | not_implemented |
-| 12 | wh7-topic12 | Hindiston | 53–56 | not_implemented |
-| 13 | wh7-topic13 | Xitoy (IV–X asrlarda) | 56–59 | not_implemented |
-| 14 | wh7-topic14 | Osiyo mamlakatlari madaniyati | 59–65 | not_implemented |
-| 15 | wh7-topic15 | Yevropada o‘rta asr shaharlari | 65–70 | not_implemented |
+| 11 | wh7-topic11 | Arab xalifaligi | 51–53 | reviewed_preview_ready |
+| 12 | wh7-topic12 | Hindiston | 53–56 | reviewed_preview_ready |
+| 13 | wh7-topic13 | Xitoy (IV–X asrlarda) | 56–59 | reviewed_preview_ready |
+| 14 | wh7-topic14 | Osiyo mamlakatlari madaniyati | 59–65 | reviewed_preview_ready |
+| 15 | wh7-topic15 | Yevropada o‘rta asr shaharlari | 65–70 | reviewed_preview_ready |
 | 16 | wh7-topic16 | O‘rta asrlarda tovar ishlab chiqarishning yuksalishi. Bozor va yarmarkalar | 70–74 | not_implemented |
 | 17 | wh7-topic17 | Osiyo mamlakatlarining o‘rta asr shaharlari | 74–78 | not_implemented |
 | 18 | wh7-topic18 | O‘rta asrlarda xristianlik | 78–80 | not_implemented |

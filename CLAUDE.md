@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch11 has56 local-preview units: all grade6 plus grade7§1–10,
-437 cards,335 MCQ,215 objective FRQ;
-163 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade7§11–15, original51–70; private§11–15 validated, original51–70 read, not yet indexed.
+Batch12 has61 local-preview units: all grade6 plus grade7§1–15,
+476 cards,367 MCQ,235 objective FRQ;
+158 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade7§16–20, original70–86; private§16–18 drafted, original70–83 read, next author§19.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2865,3 +2865,7 @@ and withheld from automatic keys; no outside historical correction is invented.
 Batch11 review: source law40 death-penalty claim, Platon epithet42, alphabet
 creation46 and kvadrium45 spelling remain unassessed; no external repair or
 Greek-fire recipe. Religious belief never an automatic truth/loyalty judgment.
+
+Batch12 source limits: overallcaliphate630, Toriqname, ChandraguptaI dates/grass,
+Suyfounding/syan/mu, scientificworldfirst and newspaperpriority remain held.
+Three-field diagram66 exactrow verified; no explosives recipe or medical advice.

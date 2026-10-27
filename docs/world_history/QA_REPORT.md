@@ -425,3 +425,39 @@ remains baseline evidence, not a full backend rerun here. No source PDF/full
 text/OCR/page images, real-user data or keys in Git. Only history feature branches.
 Next batch12: grade7§11–15 original51–70 read; five private drafts validate,
 92 fact records/39 cards/52 questions, not yet indexed/imported.
+
+## Batch12 — grade7§11–15, 2026-10-27
+
+Five additional lessons:39 cards,92 fact records,32 MCQ and20 objective FRQ.
+Total **61/219 local-preview units**,476 cards,931 fact records,367 MCQ,235 objective
+FRQ and61 ungraded activities. Grade6 remains46/46; grade7 is15/44,29 remaining.
+There are158 units left across grades7–11. Counts include exact reused review facts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend |203 passed,596.73s wall | All14 history modules in four isolated subprocess shards;36/27/75/65 passes,420.92/374.75/392.89/593.00s each; no omitted module |
+| Actual PostgreSQL |1 passed in183.47s | Dedicated staging fresh schema, parallel completion and all61 units/1220XP once; previous synthetic user retained |
+| Actual loopback HTTP |6 catalogues,602 answers,1220XP | Fresh learner900126, prerequisites/replay and no previous learner reset |
+| Targeted Flutter/captures |138 passed in03:42 | API fixtures for61 units, grade7 chapter3, theory/MCQ200% and typed FRQ; actual renders written privately |
+| Full Flutter |747 passed in05:17 | Entire worktree suite, shared functions/other subjects included |
+| Full analysis |0 issues in173.3s | Entire current Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus112 earlier history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python only and Git diff checks |
+
+Four backend subprocesses use independent test databases/temp directories and
+fresh fixture auth; the dedicated PG and HTTP flows remain separate. This changes
+test orchestration only. Runtime, source strictness, auth and lesson bytes are not
+relaxed. Earlier cumulative completion tests retain their exact historical prefix;
+new61-unit flow checks1220XP and distinct grade progress. Grade7 is still incomplete.
+
+Original51–70 image-reviewed: all topic boundaries, institution/land/money/art
+terms and66 three-field diagram checked. Source errors and uncertain priorities
+stay in SOURCE_REVIEW, with no external historical correction, explosives recipe,
+medical procedure, compulsory religion or human-worth hierarchy.
+
+Actual renders inspected: grade7§11 feedback200%,§14 theory200%,§15 resumed FRQ
+with§15/65–66 source. Native Android/IME/TalkBack/independent teacher checks remain
+unperformed. Earlier2569-pass full backend snapshot is baseline evidence, not a
+full rerun. No PDF/full source text/OCR/page images, real-user data or keys in Git.
+Only history feature branches. Next:§16–20; original70–83 read, private§16–18
+drafted; author§19 then inspect84 onward for§20.
