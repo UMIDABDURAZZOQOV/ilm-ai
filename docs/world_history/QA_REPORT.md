@@ -607,3 +607,33 @@ unperformed. Earlier2569-pass full backend is baseline evidence, not full rerun.
 No PDF/full source text/OCR/page images, keys or real-user data in Git; only two
 history feature branches. Next:§36–40; original125–136 read, private§36–37 drafted,
 next author§38 using132–136 then read137–140 for§39–40.
+
+## Batch17 — grade7§36–40, 2026-10-27
+
+Five additional lessons:36 cards,82 fact records,36 MCQ and20 objective FRQ.
+Total **86/219 local-preview units**,644 cards,1304 fact records,533 MCQ,335 objective
+FRQ and86 ungraded activities. Grade6 remains46/46; grade7 is40/44,4 remaining.
+There are133 units left across grades7–11. Counts include reused final-review facts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend |267 passed,767.94s wall | All19 modules/four independent shards;62/47/101/57 passes,738.19/555.76/652.53/763.54s; none omitted |
+| Actual PostgreSQL |1 passed in139.92s | Dedicated fresh staging schema; parallel completion and all86 units/1720XP once, previous synthetic user retained |
+| Actual loopback HTTP |6 catalogues,868 answers,1720XP | Fresh learner900176; prerequisites/replay, no old learner reset |
+| Targeted Flutter/captures |188 passed in03:58 | All86 API fixtures,200% theory/MCQ,typed FRQ and prior safeguards |
+| Full Flutter |797 passed in05:13 | Entire worktree suite, sequential no-pub after targeted tests |
+| Full analysis |0 issues in224.0s | Entire Flutter worktree, no-pub |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus162 previous history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python only and Git diff checks |
+
+Every opening/closing shared page is bounded; chronology, titles, office names,
+full-name targets and distinct Korean polities remain source-specific. Tangun is
+explicit legend-comprehension, not factual founder biography or personal faith.
+The uncertain claims in SOURCE_REVIEW are absent from automatic answer keys.
+
+Actual renders inspected: grade7§37 theory200%,§39 feedback200%,§40 resumed FRQ
+with§40/139. Native Android/IME/TalkBack/independent teacher checks remain
+unperformed. Earlier2569-pass full backend is baseline evidence, not full rerun.
+No PDF/full source text/OCR/page images, keys or real-user data in Git; only two
+history feature branches. Next:§41–44; original140–146 read, private§41–42 drafted,
+then original147–154 plus155–156chronology. After grade7, continue grade8.

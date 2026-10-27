@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 81; remaining: 138.** Source pages are candidate spans;
+**Reviewed preview lessons: 86; remaining: 133.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -130,11 +130,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 33 | wh7-topic33 | Yevropada me’morchilik, san’at va adabiyot | 117–121 | reviewed_preview_ready |
 | 34 | wh7-topic34 | Saljuqiylar davlati | 121–122 | reviewed_preview_ready |
 | 35 | wh7-topic35 | Usmonli turklar davlati | 122–125 | reviewed_preview_ready |
-| 36 | wh7-topic36 | Mo‘g‘ullar davlati | 125–128 | not_implemented |
-| 37 | wh7-topic37 | Oltin O‘rda xonligi | 128–132 | not_implemented |
-| 38 | wh7-topic38 | Xitoy | 132–136 | not_implemented |
-| 39 | wh7-topic39 | Yaponiya | 136–138 | not_implemented |
-| 40 | wh7-topic40 | Koreya | 138–140 | not_implemented |
+| 36 | wh7-topic36 | Mo‘g‘ullar davlati | 125–128 | reviewed_preview_ready |
+| 37 | wh7-topic37 | Oltin O‘rda xonligi | 128–132 | reviewed_preview_ready |
+| 38 | wh7-topic38 | Xitoy | 132–136 | reviewed_preview_ready |
+| 39 | wh7-topic39 | Yaponiya | 136–138 | reviewed_preview_ready |
+| 40 | wh7-topic40 | Koreya | 138–140 | reviewed_preview_ready |
 | 41 | wh7-topic41 | Hindiston | 140–142 | not_implemented |
 | 42 | wh7-topic42 | Amerika o‘rta asrlarda | 142–146 | not_implemented |
 | 43 | wh7-topic43 | Afrika xalqlari o‘rta asrlarda | 146–151 | not_implemented |

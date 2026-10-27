@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch16 has81 local-preview units: all grade6 plus grade7§1–35,
-608 cards,497 MCQ,315 objective FRQ;
-138 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade7§36–40, original125–140; private§36–37 written, next author§38 using132–136.
+Batch17 has86 local-preview units: all grade6 plus grade7§1–40,
+644 cards,533 MCQ,335 objective FRQ;
+133 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade7§41–44, original140–154; private§41–42 written, next read147–154 and155–156chronology.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2888,3 +2888,10 @@ universals/Laaxdate/ChartresParis/Dogeclassification, singleSeljuk1038–1308
 polityscope, Bursaattribution/immediateIstanbulrename/tumorispelling and
 recruitment/armyuniversals held. Historicalbeliefs/causes ungraded; roles,
 ordinals, term meanings and source-year order use finite reviewed targets.
+
+Batch17 limits: Temuchinbirth/title/Qoraqurumfounding, Oqtoy1243death/Botudates/
+Islam1314, Yuan1279foundation/Meccavisit/cottonfirst, JapaneseemperorfromXII/
+xanke-ryoka/porcelain/Nagasakiport, ancientChosonsplit/PekchefirstIII–IV/
+all668unity/1231continuousconquest held. Folklorebelief not factualbiography;
+fullnames/titles/roles/polities are separate question-specific targets.
+Flutter targeted and full tests must run sequentially to avoid build asset races.
