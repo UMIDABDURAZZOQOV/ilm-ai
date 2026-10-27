@@ -205,3 +205,12 @@ Muxtoriyat uchun Tinishboyevdan Cho‘qayga rahbarlik almashishi, Kengash/Majlis
 31–60-asl sahifalar o‘qildi. BXSRning 1920-yil 6–8-oktabr qurultoyi bir necha kun davom etgan: 9-sinfdagi qisqa 6-oktabr qaydini yagona mutlaq kun qilib testlamaymiz. Fayzulla Xo‘jayevning Nozirlar Sho‘rosi va MIK rahbarlari turli lavozimlar. Buxoro/Xorazm xalq respublikalari va keyingi sotsialistik nomlari ajratildi. Xivaning egallanishi, xonning voz kechishi va revkom tuzilishi sanalari turli bosqichlar; ularning barchasi yagona 1 yoki 2-fevralga majburlanmagan.
 
 1924-yilgi chegaralanish komissiyalari, mahalliy qarorlar va markaziy tasdiq bir kunda davlat paydo bo‘lgan degan sodda hisobga keltirilmagan. Eski hujjatlardagi qirg‘iz/qoraqirg‘iz atamalari zamonaviy nomlar bilan kontekstda izohlangan. 1924-yil tuzilish qarori, 1925-yil O‘zbekiston ta’sis qurultoyi va 1926-yil Tojikiston ASSR qurultoyi yagona sana emas. Qoraqalpog‘istonning muxtor viloyat/ASSR maqomi va 1936-yil tarkibga kirishi farqlanadi. Davlat siyosati haqidagi bahsli niyatlar bitta obyektiv fikr kaliti emas. Zo‘ravonlikning tekshirilmagan talafot sonlari avtomatik savolga kiritilmadi.
+
+
+## 10-sinf §11–15 — kollektivlashtirish, ta’lim va qatag‘on
+
+61–86-asl sahifalar o‘qildi. Quloq yorlig‘i jinoyat isboti qilib baholanmaydi. Kolxoz/sovxoz, mulkni davlatga o‘tkazish va surgun alohida tushunchalar. Surgun, qamoq va o‘lim statistikasi mustaqil demografik/arxiv qiyosisiz aniq yagona hisobga aylantirilmadi. Oilaviy xotira/travmani oshkor qilish majburiy mashq emas.
+
+68-sahifadagi elektr stansiya quvvati uchun «482 mln kilovatt» yozuvi o‘lcham/miqyos tekshiruvini talab qiladi: savolga kiritilmadi, taxminiy yangi son bilan almashtirilmadi. «Birinchi» korxona ustuvorligi tashqi reviewga qoldirildi. Hujum kampaniyasining 1926-yilgi e’loni va 1927-yilgi ommaviy boshlanishi farqli. Ayollarning huquqi, mehnati va xavfsizligi kiyim yoki diniy e’tiqodini baholashga aylantirilmaydi. Kampaniya niyati haqidagi muallif xulosasi ochiq tahlil, obyektiv kalit emas.
+
+1929-lotin/1940-kirill tarixiy yozuv bosqichlari bugungi imlo qoidasi deb berilmagan. Fanlar komiteti, O‘zFAN va keyingi akademiya farqli. Qatag‘on ishlaridagi ayblov bilan haqiqiy ayb farqlanadi; 1938-yil oktabr ijro sanalari va umumiy sonlar mustaqil hujjatli ekspertizaga qoldirildi. Majmua2000 va muzey2002 ikki bosqichdir. Mustaqil tarix o‘qituvchisi ko‘rigi hali olinmagan.

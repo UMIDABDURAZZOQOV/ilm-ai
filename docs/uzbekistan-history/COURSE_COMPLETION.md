@@ -1,24 +1,24 @@
 # O‘zbekiston tarixi — joriy checkpoint
 
-2026-10-27. **Kurs tugallanmagan: 132/172 o‘quv birligi lokal/test preview’da.** Jami 999 karta, 809 topshiriq (477 MCQ / 262 qisqa FRQ / 70 xronologiya), 132 original misol va 132 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 137/172 o‘quv birligi lokal/test preview’da.** Jami 1033 karta, 837 topshiriq (492 MCQ / 272 qisqa FRQ / 73 xronologiya), 137 original misol va 137 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 | 325 | 280 | 83 |
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
 | 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
-| 10 | 6 | 28 | 10 | 18 | 62 | 54 | 20 |
+| 10 | 6 | 28 | 15 | 13 | 96 | 82 | 30 |
 | 11 | 9 | 22 | 0 | 22 | 0 | 0 | 0 |
 
 ## Joriy testlar
 
-- backend: `244 passed, 4 skipped in 203.54s (0:03:23)`.
-- postgres: `4 passed, 182 deselected in 70.89s (0:01:10)`.
-- flutter: `01:24 +328: All tests passed!`.
-- flutter_history: `00:18 +174: All tests passed!`.
+- backend: `249 passed, 4 skipped in 206.55s (0:03:26)`.
+- postgres: `4 passed, 187 deselected in 70.76s (0:01:10)`.
+- flutter: `01:26 +333: All tests passed!`.
+- flutter_history: `00:20 +179: All tests passed!`.
 - analyze: `No issues found! (ran in 1.5s)`.
 
-Source audit: 769 asl sahifa, 172 sarlavha va 527 partiya-sahifa tasviri. `--require-complete` manbalar mavjudligi uchun exit0, kurs/publicrelease tasdig‘i emas.
+Source audit: 769 asl sahifa, 172 sarlavha va 553 partiya-sahifa tasviri. `--require-complete` manbalar mavjudligi uchun exit0, kurs/publicrelease tasdig‘i emas.
 
 ## Tekshiruv chegaralari
 
@@ -32,4 +32,4 @@ Biology406/Physics316 va552eski backend fayli,7-sinf42r1 hamda oldingi4sourceboo
 
 ## Git va davom
 
-Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Partiya commitini remote SHA bilan tekshiring. **Keyingi: 10-sinf §11, PDF 61, bosma 61 — O‘zbekistonda qishloq xo‘jaligini kollektivlashtirish siyosati hamda quloqlarning surgun qilinishi.** Oddiy partiyalar uchun qayta ruxsat talab qilinmaydi.
+Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Partiya commitini remote SHA bilan tekshiring. **Keyingi: 10-sinf §16, PDF 87, bosma 87 — Ikkinchi jahon urushining boshlanishi hamda O‘zbekistonning urush girdobiga tortilishi.** Oddiy partiyalar uchun qayta ruxsat talab qilinmaydi.

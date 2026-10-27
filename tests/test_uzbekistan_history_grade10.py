@@ -55,6 +55,27 @@ def lessons():
     return [l for d in load_course() if d["grade"] == 10 for l in d["lessons"]]
 
 
+MCQ.update(
+    {
+        11: ["Sovxoz", "Natsionalizatsiya", "Majburiy mehnat posyolkalari"],
+        12: ["Industrlashtirish", "Bobon Mavlonbekov", "GESlar kaskadi"],
+        13: ["Artel", "Kooperatsiya", "Jahon Obidova"],
+        14: ["Otajon Hoshim", "Konservatoriya", "Lotin yozuvi"],
+        15: ["Botu", "Mirkomil Mirsharopov", "Shahidlar xotirasi"],
+    }
+)
+FRQ.update(
+    {
+        11: ["Kolxoz", "Ukraina"],
+        12: ["Toshkent to‘qimachilik kombinati", "Bobon Mavlonbekov"],
+        13: ["Hujum", "Ayollar klublari"],
+        14: ["O‘zFAN", "Kirill yozuvi"],
+        15: ["Mahmud Hodiyev", "31-avgust"],
+    }
+)
+ORDER.update({12: ["e1", "e2", "e3"], 14: ["e1", "e2", "e3"], 15: ["e1", "e2"]})
+
+
 def answers(lesson):
     """Literal original-page values; never read grading_spec to derive a key."""
     mc = short = 0
@@ -78,7 +99,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("sequence", range(1, 11))
+@pytest.mark.parametrize("sequence", range(1, 16))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):
