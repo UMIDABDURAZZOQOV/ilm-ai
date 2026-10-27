@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch12 has61 local-preview units: all grade6 plus grade7§1–15,
-476 cards,367 MCQ,235 objective FRQ;
-158 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade7§16–20, original70–86; private§16–18 drafted, original70–83 read, next author§19.
+Batch13 has66 local-preview units: all grade6 plus grade7§1–20,
+510 cards,399 MCQ,255 objective FRQ;
+153 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade7§21–25, original86–97; all5 private drafts validate, not yet indexed.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2869,3 +2869,7 @@ Greek-fire recipe. Religious belief never an automatic truth/loyalty judgment.
 Batch12 source limits: overallcaliphate630, Toriqname, ChandraguptaI dates/grass,
 Suyfounding/syan/mu, scientificworldfirst and newspaperpriority remain held.
 Three-field diagram66 exactrow verified; no explosives recipe or medical advice.
+
+Batch13 source review: market/bank/exchange priorities, Kioto chronology,
+firstEuropeIV and heretic/atheist/autodafe/indulgence simplifications held.
+Urban promises/motives ungraded; Ioanniy other-name target finite.

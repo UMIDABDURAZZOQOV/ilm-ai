@@ -461,3 +461,41 @@ unperformed. Earlier2569-pass full backend snapshot is baseline evidence, not a
 full rerun. No PDF/full source text/OCR/page images, real-user data or keys in Git.
 Only history feature branches. Next:§16–20; original70–83 read, private§16–18
 drafted; author§19 then inspect84 onward for§20.
+
+## Batch13 — grade7§16–20, 2026-10-27
+
+Five additional lessons:34 cards,77 fact records,32 MCQ and20 objective FRQ.
+Total **66/219 local-preview units**,510 cards,1008 fact records,399 MCQ,255 objective
+FRQ and66 ungraded activities. Grade6 remains46/46; grade7 is20/44,24 remaining.
+There are153 units left across grades7–11. Counts include exact reused review facts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend |217 passed,612.42s wall | All15 modules/four isolated subprocess shards;50/27/75/65 passes,425.40/225.57/268.36/607.04s; none omitted |
+| Actual PostgreSQL |1 passed in102.40s | Dedicated fresh staging schema, parallel completion and all66 units/1320XP once; previous synthetic user retained |
+| Actual loopback HTTP |6 catalogues,654 answers,1320XP | Fresh learner900136; prerequisites/replay, no old learner reset |
+| Targeted Flutter/captures |148 passed in03:43 | All66 API fixtures, theory/MCQ200%, typed FRQ and prior safeguard coverage |
+| Full Flutter |757 passed in04:54 | Entire suite, shared/other-subject functions included; successful no-pub rerun |
+| Full analysis |0 issues in183.1s | Entire Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus122 prior history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python files only and Git diff checks |
+
+Initial full Flutter invocation stopped before running tests because simultaneous
+dependency preparation could not delete ios/Flutter/ephemeral/Packages/.packages.
+Analysis completed successfully. With unchanged resolved dependencies, a sequential
+`flutter test --no-pub` rerun passed all757. No manual recursive deletion, package
+upgrade, production runtime change or failed-run-as-pass claim.
+
+Original70–86 reviewed with exact topic boundaries. Source market/bank priorities,
+Kioto chronology, ecclesiastical terminology and universal social claims remain
+scoped/withheld. Urban promises and complex motives are ungraded. No absent map,
+theological repair, religious hierarchy or practical combat content introduced.
+Question-specific aliases distinguish Ioanniy-other-name from Hospital identity.
+See SOURCE_REVIEW.md for exact original page decisions.
+
+Actual renders inspected: grade7§17 theory200%,§19 feedback200%,§20 typed FRQ
+with its own§20/83 source. Native Android/IME/TalkBack and independent teacher
+checks remain unperformed. Earlier2569-pass full backend is baseline evidence,
+not a full backend rerun. No PDF/full source text/OCR/page images, real-user data
+or keys in Git; only two history feature branches. Next:§21–25; original86–97
+read and five private drafts validate,68 fact records/31 cards/52 questions.

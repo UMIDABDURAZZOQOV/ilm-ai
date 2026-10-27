@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 61; remaining: 158.** Source pages are candidate spans;
+**Reviewed preview lessons: 66; remaining: 153.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -110,11 +110,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 13 | wh7-topic13 | Xitoy (IV–X asrlarda) | 56–59 | reviewed_preview_ready |
 | 14 | wh7-topic14 | Osiyo mamlakatlari madaniyati | 59–65 | reviewed_preview_ready |
 | 15 | wh7-topic15 | Yevropada o‘rta asr shaharlari | 65–70 | reviewed_preview_ready |
-| 16 | wh7-topic16 | O‘rta asrlarda tovar ishlab chiqarishning yuksalishi. Bozor va yarmarkalar | 70–74 | not_implemented |
-| 17 | wh7-topic17 | Osiyo mamlakatlarining o‘rta asr shaharlari | 74–78 | not_implemented |
-| 18 | wh7-topic18 | O‘rta asrlarda xristianlik | 78–80 | not_implemented |
-| 19 | wh7-topic19 | Salib yurishlari | 80–83 | not_implemented |
-| 20 | wh7-topic20 | Dastlabki salib yurishlari | 83–86 | not_implemented |
+| 16 | wh7-topic16 | O‘rta asrlarda tovar ishlab chiqarishning yuksalishi. Bozor va yarmarkalar | 70–74 | reviewed_preview_ready |
+| 17 | wh7-topic17 | Osiyo mamlakatlarining o‘rta asr shaharlari | 74–78 | reviewed_preview_ready |
+| 18 | wh7-topic18 | O‘rta asrlarda xristianlik | 78–80 | reviewed_preview_ready |
+| 19 | wh7-topic19 | Salib yurishlari | 80–83 | reviewed_preview_ready |
+| 20 | wh7-topic20 | Dastlabki salib yurishlari | 83–86 | reviewed_preview_ready |
 | 21 | wh7-topic21 | Keyingi salib yurishlari | 86–89 | not_implemented |
 | 22 | wh7-topic22 | Fransiyada markazlashgan davlatning tashkil topishi | 89–91 | not_implemented |
 | 23 | wh7-topic23 | General shtatlar | 91–93 | not_implemented |
