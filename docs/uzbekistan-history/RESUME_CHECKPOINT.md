@@ -1,16 +1,16 @@
 # Davom checkpointi — 2026-10-27
 
-2026-10-27. **Kurs tugallanmagan: 137/172 o‘quv birligi lokal/test preview’da.** Jami 1033 karta, 837 topshiriq (492 MCQ / 272 qisqa FRQ / 73 xronologiya), 137 original misol va 137 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 142/172 o‘quv birligi lokal/test preview’da.** Jami 1067 karta, 865 topshiriq (507 MCQ / 282 qisqa FRQ / 76 xronologiya), 142 original misol va 142 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 | 325 | 280 | 83 |
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
 | 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
-| 10 | 6 | 28 | 15 | 13 | 96 | 82 | 30 |
+| 10 | 6 | 28 | 20 | 8 | 130 | 110 | 40 |
 | 11 | 9 | 22 | 0 | 22 | 0 | 0 | 0 |
 
-**Keyingi: 10-sinf §16, PDF 87, bosma 87 — Ikkinchi jahon urushining boshlanishi hamda O‘zbekistonning urush girdobiga tortilishi.** Yo‘ldagi sequence=16.
+**Keyingi: 10-sinf §21, PDF 108, bosma 108 — Ziyolilarning qatag‘on qilinishi va sovet jamiyatida shaxsga sig‘inishning fosh qilinishi.** Yo‘ldagi sequence=21.
 
 Backend va Flutter branchi: feat/uzbekistan-history-curriculum. Worktreelar: /workspace/ilm-ai-uzbekistan-history va /workspace/ilm-ai-flutter-uzbekistan-history. Avval git status/worktree/log va remote SHA tekshirilsin; saqlanmagan ishlar overwrite yoki reset qilinmasin. Tayyor R1 darslarni qayta yaratmang.
 
@@ -18,10 +18,10 @@ PDF manbalar /workspace/attachments ichida, xususiy sahifa tasvirlari /workspace
 
 Har 5–10 dars: original manba, karta/MCQ/FRQ, mustaqil literal javob orakuli, validator, SQLite/API, lokal PostgreSQL fresh schema, yangi public DTO capture, Flutter widget/analyze/full, hujjat, commit/push. Capture tugamasdan Flutter fixture testini kengaytirmang. Javob kaliti va tokenlar mijozga chiqarilmasin. Oddiy partiyalarda tasdiq kutmang. Boshqa fanlar, veb, production va main mergega tegmang.
 
-- backend: `249 passed, 4 skipped in 206.55s (0:03:26)`.
-- postgres: `4 passed, 187 deselected in 70.76s (0:01:10)`.
-- flutter: `01:26 +333: All tests passed!`.
-- flutter_history: `00:20 +179: All tests passed!`.
+- backend: `254 passed, 4 skipped in 231.48s (0:03:51)`.
+- postgres: `4 passed, 192 deselected in 79.85s (0:01:19)`.
+- flutter: `01:28 +338: All tests passed!`.
+- flutter_history: `00:20 +184: All tests passed!`.
 - analyze: `No issues found! (ran in 1.5s)`.
 
 ## Tekshiruv chegaralari

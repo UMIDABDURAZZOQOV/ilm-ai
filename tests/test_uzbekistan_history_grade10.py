@@ -99,7 +99,28 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("sequence", range(1, 16))
+MCQ.update(
+    {
+        16: ["Polsha", "Evakuatsiya", "Usmon Yusupov"],
+        17: ["Bekobod", "Sanitar poyezd", "Kartochka tizimi"],
+        18: ["Zebo G‘aniyeva", "Kavaleriya", "Motamsaro ona"],
+        19: ["Hamid Olimjon", "Toshkent", "Anna Axmatova"],
+        20: ["Monokultura", "Guliston", "Toshkent traktor zavodi"],
+    }
+)
+FRQ.update(
+    {
+        16: ["Molotov-Ribbentrop pakti", "Toshkent aviatsiya zavodi"],
+        17: ["Bahri Akramova", "Qrim tatarlari"],
+        18: ["Qo‘chqor Turdiyev", "Xotira va Qadrlash kuni"],
+        19: ["Toshmuhammad Qori-Niyoziy", "Biz g‘alaba qozonamiz"],
+        20: ["Mirzacho‘l", "Kartochka tizimi"],
+    }
+)
+ORDER.update({16: ["e1", "e2"], 18: ["e1", "e2", "e3"], 20: ["e1", "e2", "e3"]})
+
+
+@pytest.mark.parametrize("sequence", range(1, 21))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):

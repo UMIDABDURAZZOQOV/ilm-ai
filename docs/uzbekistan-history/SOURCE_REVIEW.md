@@ -214,3 +214,12 @@ Muxtoriyat uchun Tinishboyevdan Cho‘qayga rahbarlik almashishi, Kengash/Majlis
 68-sahifadagi elektr stansiya quvvati uchun «482 mln kilovatt» yozuvi o‘lcham/miqyos tekshiruvini talab qiladi: savolga kiritilmadi, taxminiy yangi son bilan almashtirilmadi. «Birinchi» korxona ustuvorligi tashqi reviewga qoldirildi. Hujum kampaniyasining 1926-yilgi e’loni va 1927-yilgi ommaviy boshlanishi farqli. Ayollarning huquqi, mehnati va xavfsizligi kiyim yoki diniy e’tiqodini baholashga aylantirilmaydi. Kampaniya niyati haqidagi muallif xulosasi ochiq tahlil, obyektiv kalit emas.
 
 1929-lotin/1940-kirill tarixiy yozuv bosqichlari bugungi imlo qoidasi deb berilmagan. Fanlar komiteti, O‘zFAN va keyingi akademiya farqli. Qatag‘on ishlaridagi ayblov bilan haqiqiy ayb farqlanadi; 1938-yil oktabr ijro sanalari va umumiy sonlar mustaqil hujjatli ekspertizaga qoldirildi. Majmua2000 va muzey2002 ikki bosqichdir. Mustaqil tarix o‘qituvchisi ko‘rigi hali olinmagan.
+
+
+## 10-sinf §16–20 — urush va tiklanish
+
+87–108-asl sahifalar o‘qildi. Jahon urushining 1939-yil boshlanishi, sovet–fin urushi va Germaniyaning SSSRga 1941-yil hujumi farqlanadi. Evakuatsiya bilan etnik guruhlarni majburan ko‘chirish bir xil deb berilmaydi. Urush qatnashchilari, talafot, evakuatsiya va asrab olingan bolalar soni vaqt o‘tishi bilan aniqlashtirilishi mumkin: 2017-yilgi sonlar yakuniy zamonaviy hisob sifatida testlanmadi. 90-sahifadagi oltin-kumush miqdori/ko‘lami ham avtomatik kalit emas. Bolalar mehnati va majburiy mehnat rag‘batlantirilmaydi.
+
+99-sahifadagi M. Cho‘qayning 1942-yil legion tuzilishidagi ishtiroki haqidagi bayon tarixiy xronologiya va shaxsning umr sanalari bilan mustaqil qiyosni talab qiladi. Ushbu da’vo tasdiqlangan fakt yoki savol kalitiga aylantirilmadi, tekshirilmagan muqobil sana bilan almashtirilmadi. Asirlik barcha shaxslar xiyonat qilganining isboti emas. Rahimovning 1945-yilgi vafoti va 1965-yilgi mukofoti turli voqealar. Germaniyaning taslim bo‘lish sanasida vaqt mintaqasi farqi avtomatik universal sana savoliga majburlanmagan.
+
+1943-yil akademiya avvalgi komitet/filialdan farqlanadi. Badiiy urush asari voqea stenogrammasi emas. §20 tanasi 1961 va1969-yillarga ham o‘tadi: bob nomining1945–1959oraliqi sabab bu davom tashlab ketilmadi. Monokultura, zavod, kartochka bekor qilinishi va sug‘orish qarorining natijasi alohida ko‘rib chiqiladi. Mustaqil pedagogik review hali yo‘q.
