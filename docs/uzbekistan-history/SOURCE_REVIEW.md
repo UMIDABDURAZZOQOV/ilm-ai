@@ -122,3 +122,11 @@ Qoraqalpoq etnogenezi va etnonim ilk uchrashi haqidagi mutlaq xulosalar,110dagi 
 Asl113–133sahifalar o‘qildi. Jiyen Jirov, Ajiniyoz/Zevar va Berdaq/Berdimurod nomlari, og‘zaki ijod bilan arxiv manbasi farqlangan.117dagi1827tug‘ilish va1998«170yillik» qaydlari arifmetik mos kelmaydi; qaysi sana tarixan to‘g‘riligi mustaqil dalilsiz taxmin qilinmadi, yosh/yubiley avtomatik kalit emas.
 
 1709davlat boshlanishi,1805xon unvoni,1822vorislik va1842tiklanish alohida voqealar. Oltin beshik rivoyati nasabning mustaqil tasdig‘i deb baholanmaydi.1852zo‘ravonlik voqeasi neytral refleksiya uchun, etnik jamoani ayblash yoki qirg‘inni ma’qullash savoli uchun emas. Qo‘qon mehtarining devonbegi o‘rinbosarligi Xivadagi mehtar bosh vazirligi bilan aynan tenglashtirilmagan. Harbiy qism, mansab, ta’minot solig‘i va botmon birligi turli turdagi atama sifatida o‘rgatiladi.
+
+## 8-sinf §36–40 va raqamsiz yakuniy faoliyat — 2026-10-27
+
+Asl133–156to‘liq o‘qildi; barcha40raqamlangan paragraf va153–156dagi alohida yakuniy mustaqil dars jami41birlik. §41o‘ylab topilmadi: API yakuniy faoliyatga source_numbers=null beradi. Qism4ning153yuqori qismi§40davomi, yakuniy sarlavha pastki qismdan; citation chegaralari saqlandi.
+
+Davlat/xususiy/vaqf yer, xos/taqiq/chek, yollanma ishchi/ijarachi, soliq va boj vakolati farqlangan.140xaritada talash yer va taxminiy chegara mutlaq hudud deb o‘qilmaydi. Asar,taxallus,tarixchi,xattot va me’moriy inshootga alohida manba berildi; asar matni ko‘chirilmagan.149dagi BMT binosi/iqtibos joylashuvi haqidagi tashqi da’vo mustaqil tekshiruvga qoldirildi va dars kalitiga kirmadi.
+
+§40dagi siyosiy nutq, badiiy roman qahramoni so‘zi, iqtisodiy sabablar talqini va tarixiy fakt bir xil isbot deb olinmaydi.2035maqsadi2019nashrdagi kelajak bayoni,2026natijasi emas. Yakuniy faoliyat uch davlatni rubrika bilan qiyoslashni so‘raydi; ochiq tahlil/esse bitta matn kaliti bilan avtomatik baholanmaydi. Uning obyektiv mashqlari oldin o‘qilgan aniq paragrafning source_title/topicSHA/pixelSHA/boundary refi bilan bog‘langan.7-sinf42r1 saqlandi.

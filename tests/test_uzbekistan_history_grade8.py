@@ -104,17 +104,103 @@ FRQ.update(
 )
 ORDER[20] = ["e2", "e3", "e1"]
 
-MCQ.update({21:['Muhammadniyoz Nishotiy','Ahmad Donish','Shahrisabz'],22:['Elbarsxon','Urganch','Arabshohiylar','Shahar nomi'],23:['Arab Muhammadxon','Anushaxon','Nodirshoh'],24:['Muhammad Amin','Eltuzar','Talash yerlar'],25:['Mehtar','Shig‘ovul','Yasovulboshi','Oliy Kengash']})
-FRQ.update({21:['Shashmaqom','Juvayniy'],22:['Umar','Amudaryo'],23:['Inoq','Bekovich-Cherkasskiy'],24:['Muhammad Rahimxon 1','Toshhovli'],25:['Muftiy','Xon navkarlari']})
-ORDER.update({21:['e1','e2','e3'],23:['e1','e2','e3'],24:['e1','e2','e3','e4']})
+MCQ.update(
+    {
+        21: ["Muhammadniyoz Nishotiy", "Ahmad Donish", "Shahrisabz"],
+        22: ["Elbarsxon", "Urganch", "Arabshohiylar", "Shahar nomi"],
+        23: ["Arab Muhammadxon", "Anushaxon", "Nodirshoh"],
+        24: ["Muhammad Amin", "Eltuzar", "Talash yerlar"],
+        25: ["Mehtar", "Shig‘ovul", "Yasovulboshi", "Oliy Kengash"],
+    }
+)
+FRQ.update(
+    {
+        21: ["Shashmaqom", "Juvayniy"],
+        22: ["Umar", "Amudaryo"],
+        23: ["Inoq", "Bekovich-Cherkasskiy"],
+        24: ["Muhammad Rahimxon 1", "Toshhovli"],
+        25: ["Muftiy", "Xon navkarlari"],
+    }
+)
+ORDER.update(
+    {21: ["e1", "e2", "e3"], 23: ["e1", "e2", "e3"], 24: ["e1", "e2", "e3", "e4"]}
+)
 
-MCQ.update({26:['Bevatan','Dishan qal’a','Otliq','Begar'],27:['V. Perovskiy','Majburiyatlar akti','Marv'],28:['Munis','Abulg‘oziy Bahodirxon','Xattot','Munis'],29:['Arxiv hujjatlari','Toshkent','Vamberi'],30:['Abdullaxon II','Oydosbiy','Ovul']})
-FRQ.update({26:["Ichan qal'a","Salg'ut"],27:['Danilevskiy','Bojxona'],28:['Ogahiy','Vaqf'],29:['Muravyov','Peterburg'],30:['Biylarog‘asi','Janadaryo']})
-ORDER.update({27:['e2','e3','e1'],29:['e3','e1','e2'],30:['e1','e2']})
+MCQ.update(
+    {
+        26: ["Bevatan", "Dishan qal’a", "Otliq", "Begar"],
+        27: ["V. Perovskiy", "Majburiyatlar akti", "Marv"],
+        28: ["Munis", "Abulg‘oziy Bahodirxon", "Xattot", "Munis"],
+        29: ["Arxiv hujjatlari", "Toshkent", "Vamberi"],
+        30: ["Abdullaxon II", "Oydosbiy", "Ovul"],
+    }
+)
+FRQ.update(
+    {
+        26: ["Ichan qal'a", "Salg'ut"],
+        27: ["Danilevskiy", "Bojxona"],
+        28: ["Ogahiy", "Vaqf"],
+        29: ["Muravyov", "Peterburg"],
+        30: ["Biylarog‘asi", "Janadaryo"],
+    }
+)
+ORDER.update({27: ["e2", "e3", "e1"], 29: ["e3", "e1", "e2"], 30: ["e1", "e2"]})
 
-MCQ.update({31:['Ajiniyoz','Jiyen Jirov','Xo‘jayli','Og‘zaki ijod'],32:['Shohruxbiy','Abdurahimbiy','Abdulkarimbiy'],33:['Olimxon','Madalixon','Sheralixon'],34:['Mingboshi','Devonbegi','Mirza','Ulamo'],35:['Olimxon','Sipoh','Yovar','Qo‘rboshi']})
-FRQ.update({31:['Berdaq','Bo‘zatov'],32:['Tepa qo‘rg‘on','1776'],33:['1805','Musulmonqul'],34:['Dasturxonchi','Umaro'],35:['Miltiq puli','Botmon']})
-ORDER.update({32:['e1','e2'],33:['e1','e2','e3','e4']})
+MCQ.update(
+    {
+        31: ["Ajiniyoz", "Jiyen Jirov", "Xo‘jayli", "Og‘zaki ijod"],
+        32: ["Shohruxbiy", "Abdurahimbiy", "Abdulkarimbiy"],
+        33: ["Olimxon", "Madalixon", "Sheralixon"],
+        34: ["Mingboshi", "Devonbegi", "Mirza", "Ulamo"],
+        35: ["Olimxon", "Sipoh", "Yovar", "Qo‘rboshi"],
+    }
+)
+FRQ.update(
+    {
+        31: ["Berdaq", "Bo‘zatov"],
+        32: ["Tepa qo‘rg‘on", "1776"],
+        33: ["1805", "Musulmonqul"],
+        34: ["Dasturxonchi", "Umaro"],
+        35: ["Miltiq puli", "Botmon"],
+    }
+)
+ORDER.update({32: ["e1", "e2"], 33: ["e1", "e2", "e3", "e4"]})
+
+MCQ.update(
+    {
+        36: ["Xos mulk", "Koranda", "Qashqar"],
+        37: ["Orenburg", "Pekin", "Talash yerlar"],
+        38: ["Amiriy", "Gulxaniy", "Shohlar maqbarasi", "Mohlaroyim"],
+        39: [
+            "Dilshod otin",
+            "Sa’diy Sheroziy",
+            "Mutavalli",
+            "Qur’onni qoida bilan o‘qish ilmi",
+        ],
+        40: [
+            "Manufaktura",
+            "Og‘ir sanoat",
+            "Badiiy roman",
+            "Maqsad bayonini natija tasdig‘i deb olmaymiz",
+        ],
+        41: [
+            "Buxoro — qo‘shbegi; Qo‘qon — mingboshi",
+            "Mehnat majburiyati",
+            "Rivoyat mazmuni",
+        ],
+    }
+)
+FRQ.update(
+    {
+        36: ["Xiroj", "Chorsu"],
+        37: ["Raim", "Bojsiz savdo"],
+        38: ["Uvaysiy", "Umarnoma"],
+        39: ["Arifmetika", "Haftiyak"],
+        40: ["Bug‘ mashinasi", "Sarmoya"],
+        41: ["Mehtar", "Qo‘qon"],
+    }
+)
+ORDER.update({36: ["e1", "e2"], 37: ["e1", "e2", "e3", "e4", "e5"]})
 
 
 def lessons():
@@ -145,7 +231,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 36))
+@pytest.mark.parametrize("seq", range(1, 42))
 def test_image_checked_independent_keys_wrong_choices_and_aliases(seq):
     lesson = lessons()[seq - 1]
     for q, answer in zip(lesson["assessments"], answers(lesson)):
@@ -237,13 +323,24 @@ def test_grade8_catalogue_and_separate_prerequisites_preserve_grade7(history_pre
     assert catalog["source_sections"] == 41 and catalog["implemented_sections"] == len(
         lessons()
     )
-    assert catalog["blocked_grades"] == [] and not catalog["grade_content_complete"]
+    assert catalog["blocked_grades"] == [] and catalog["grade_content_complete"]
     assert start(client, 2).status_code == 403
     for lesson in lessons():
         _, r = finish(client, lesson)
         assert r["xp_awarded"] == 10
     _, r = finish(client, lessons()[0])
     assert r["xp_awarded"] == 0
+    finished = client.get(P + "/catalog?grade=8").json()
+    assert len(finished["chapters"]) == 4
+    assert all(ch["checkpoint_state"] == "completed" for ch in finished["chapters"])
+    assert all(
+        ch["checkpoint_kind"] == "chapter_completion_marker_not_separate_quiz"
+        for ch in finished["chapters"]
+    )
+    final = finished["lessons"][-1]
+    assert final["sequence"] == 41 and final["source_numbers"] is None
+    assert "Yakuniy" in final["title"]
+    assert not finished["course_ready"] and not finished["course_complete"]
     g7_after = client.get(P + "/catalog?grade=7").json()
     assert [
         (l["key"], l["state"], l["best_score_pct"]) for l in g7_after["lessons"]
@@ -453,10 +550,18 @@ def test_original_joined_name_is_accepted_only_in_new_reviewed_snapshots(
         assert db.get(User, 1).xp_total == 287
 
 
-@pytest.mark.parametrize('case',['content','source'])
+@pytest.mark.parametrize("case", ["content", "source"])
 def test_new_snapshot_spelling_review_is_bound_to_imported_question(case):
     from services.uzbekistan_history_sources import digest
     from services.uzbekistan_history_spelling import new_attempt_spec
-    lesson=lessons()[14];question=lesson['assessments'][3]
+
+    lesson = lessons()[14]
+    question = lesson["assessments"][3]
     with pytest.raises(ValueError):
-        new_attempt_spec(lesson['key'],'0'*64 if case=='content' else digest(lesson),question['key'],question['grading_spec'],[] if case=='source' else question['source_refs'])
+        new_attempt_spec(
+            lesson["key"],
+            "0" * 64 if case == "content" else digest(lesson),
+            question["key"],
+            question["grading_spec"],
+            [] if case == "source" else question["source_refs"],
+        )
