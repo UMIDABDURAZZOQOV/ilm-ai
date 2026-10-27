@@ -100,3 +100,10 @@ Asl57–75tasvirlari ko‘rildi; Buxoro amirligi lavozimlari oldingi xonlikdagi 
 Skanerlashga aloqador real yozuv muammolari ham tekshirildi: native matnning watermark bo‘lishi,159imprint varag‘ining raqamsizligi va Latin/Cyrillic o‘xshash belgilar. Aralash alifboli bitta so‘z validator tomonidan rad etiladi; alohida to‘liq Cyrillic so‘zlar noto‘g‘ri «aralash» deb belgilanmaydi.
 
 55–56asl tasvirida **Dinnosirbek** birga yozilgan, muzlatilgan§15r1kartasi/javobi esa **Din Nosirbek** bo‘shliq bilan berilgan edi. R1JSON yoki eski sessiyalar qayta yozilmadi. `spelling_reviews.json` aniq savol,lesson content SHA va original pixel ref bilan bog‘langan tor imlo review’ni saqlaydi. Yangi snapshotga faqat ayni harflarning manbada tekshirilgan bo‘shliq/chiziqcha muqobili qo‘shiladi. Yangi shaxs,sana yoki fuzzy moslikka ruxsat yo‘q. Eski noto‘g‘ri javob/replay5/6holicha qolishi,yangiDinnosirbek6/6bo‘lishi vaXPfaqatbir marta hisoblanishi real API testida tasdiqlandi. Kalit yoki alias mijoz DTOsiga chiqarilmaydi.
+
+
+## 8-sinf §21–25 — 2026-10-27
+
+Asl75–94to‘liq ko‘rildi.1778doston,1803–1804ta’lim qaydi va2018maqom anjumani turli davrlardir. Ta’limga berilgan talab barcha fuqarolar uni amalda bajargani haqidagi mustaqil dalil deb olinmaydi. Xorazm uchun Vazir→Urganch va keyingiUrganch→Xiva ko‘chishlari ajratildi. Inoq mansab egasi,guruhning o‘z nomi emas:83sahifadagi «har bir guruhga inoq tayinlandi» iborasi draft muallifligida qayta tekshirildi.
+
+1761inoq lavozimi,1770amaldagi ta’sir,1804Eltuzarning rasmiy xon unvoni va1806Muhammad RahimxonI davri alohida qaydlar. I/1raqamli to‘g‘ri nom muqobillari oldindan tasdiqlangan.87xaritadagi talash yer shartli belgisi bir tomonning shubhasiz doimiy hududi deb talqin qilinmaydi.91dagi umumiy maydon miqdori va90dagi Atrek uzunligi mustaqil tekshiruvga qoldirildi, avtomatik kalit emas. Xiva davlat mansablari Buxorodagi bir xil nomga ega mansabga aynan ko‘chirilmagan.7-sinf42r1 o‘zgarmadi; keyingi26–30uchun94–113asl tasvirlari ko‘rildi.

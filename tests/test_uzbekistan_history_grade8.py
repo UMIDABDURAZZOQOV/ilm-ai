@@ -104,6 +104,10 @@ FRQ.update(
 )
 ORDER[20] = ["e2", "e3", "e1"]
 
+MCQ.update({21:['Muhammadniyoz Nishotiy','Ahmad Donish','Shahrisabz'],22:['Elbarsxon','Urganch','Arabshohiylar','Shahar nomi'],23:['Arab Muhammadxon','Anushaxon','Nodirshoh'],24:['Muhammad Amin','Eltuzar','Talash yerlar'],25:['Mehtar','Shig‘ovul','Yasovulboshi','Oliy Kengash']})
+FRQ.update({21:['Shashmaqom','Juvayniy'],22:['Umar','Amudaryo'],23:['Inoq','Bekovich-Cherkasskiy'],24:['Muhammad Rahimxon 1','Toshhovli'],25:['Muftiy','Xon navkarlari']})
+ORDER.update({21:['e1','e2','e3'],23:['e1','e2','e3'],24:['e1','e2','e3','e4']})
+
 
 def lessons():
     return [l for d in load_course() if d["grade"] == 8 for l in d["lessons"]]
@@ -133,7 +137,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 21))
+@pytest.mark.parametrize("seq", range(1, 26))
 def test_image_checked_independent_keys_wrong_choices_and_aliases(seq):
     lesson = lessons()[seq - 1]
     for q, answer in zip(lesson["assessments"], answers(lesson)):
