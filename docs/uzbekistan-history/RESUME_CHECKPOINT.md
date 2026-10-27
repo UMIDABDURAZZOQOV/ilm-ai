@@ -1,6 +1,6 @@
 # Davom checkpointi — 2026-10-27
 
-2026-10-27. **Kurs tugallanmagan: 160/172 o‘quv birligi lokal/test preview’da.** Jami 1197 karta, 963 topshiriq (561 MCQ / 318 qisqa FRQ / 84 xronologiya), 160 original misol va 160 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 165/172 o‘quv birligi lokal/test preview’da.** Jami 1230 karta, 989 topshiriq (576 MCQ / 328 qisqa FRQ / 85 xronologiya), 165 original misol va 165 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -8,9 +8,9 @@
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
 | 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
 | 10 | 6 | 28 | 28 | 0 | 184 | 155 | 56 |
-| 11 | 9 | 22 | 10 | 12 | 76 | 53 | 20 |
+| 11 | 9 | 22 | 15 | 7 | 109 | 79 | 30 |
 
-**Keyingi: 11-sinf §11, PDF 75, bosma 75 — Oliy ta’lim va undan keyingi ta’limning takomillashtirilishi.** Yo‘ldagi sequence=11.
+**Keyingi: 11-sinf §16, PDF 102, bosma 102 — O‘zbekistonda madaniyat va san’at.** Yo‘ldagi sequence=16.
 
 Backend va Flutter branchi: feat/uzbekistan-history-curriculum. Worktreelar: /workspace/ilm-ai-uzbekistan-history va /workspace/ilm-ai-flutter-uzbekistan-history. Avval git status/worktree/log va remote SHA tekshirilsin; saqlanmagan ishlar overwrite yoki reset qilinmasin. Tayyor R1 darslarni qayta yaratmang.
 
@@ -18,11 +18,11 @@ PDF manbalar /workspace/attachments ichida, xususiy sahifa tasvirlari /workspace
 
 Har 5–10 dars: original manba, karta/MCQ/FRQ, mustaqil literal javob orakuli, validator, SQLite/API, lokal PostgreSQL fresh schema, yangi public DTO capture, Flutter widget/analyze/full, hujjat, commit/push. Capture tugamasdan Flutter fixture testini kengaytirmang. Javob kaliti va tokenlar mijozga chiqarilmasin. Oddiy partiyalarda tasdiq kutmang. Boshqa fanlar, veb, production va main mergega tegmang.
 
-- backend: `273 passed, 5 skipped in 272.66s (0:04:32)`.
-- postgres: `5 passed, 211 deselected in 93.22s (0:01:33)`.
-- flutter: `01:29 +357: All tests passed!`.
-- flutter_history: `00:22 +203: All tests passed!`.
-- analyze: `No issues found! (ran in 1.5s)`.
+- backend: `278 passed, 5 skipped in 277.13s (0:04:37)`.
+- postgres: `5 passed, 216 deselected in 94.79s (0:01:34)`.
+- flutter: `01:23 +362: All tests passed!`.
+- flutter_history: `00:22 +208: All tests passed!`.
+- analyze: `No issues found! (ran in 1.6s)`.
 
 ## Tekshiruv chegaralari
 

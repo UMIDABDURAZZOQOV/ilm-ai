@@ -253,3 +253,8 @@ Birinchi test shablonida baho100 o‘rniga110 va XP10 o‘rniga11 kutishi aniqla
 ## 11-sinf partiya2: mavzu6–10
 
 Asl sahifalar va chegaralar [11-sinf source review](GRADE11_SOURCE_REVIEW.md) bilan tekshirildi. Bahsli raqam, siyosiy talqin va amaldagi huquqqa tenglashtirilgan eski qoida savol kaliti emas. Joriy backend/SQLite/API,5ta lokal PostgreSQL, Flutter widget/analyze/full natijalari [checkpoint](checkpoints/grade11_batch2.json)da. Oldingi darslar va boshqa fanlar o‘zgarmadi. O‘qituvchi, haqiqiy Android va umumiy nashr tasdig‘i yo‘q.
+
+
+## 11-sinf partiya3: mavzu11–15
+
+Asl sahifalar va chegaralar [11-sinf source review](GRADE11_SOURCE_REVIEW.md) bilan tekshirildi. Bahsli raqam, siyosiy talqin va amaldagi huquqqa tenglashtirilgan eski qoida savol kaliti emas. Joriy backend/SQLite/API,5ta lokal PostgreSQL, Flutter widget/analyze/full natijalari [checkpoint](checkpoints/grade11_batch3.json)da. Oldingi darslar va boshqa fanlar o‘zgarmadi. O‘qituvchi, haqiqiy Android va umumiy nashr tasdig‘i yo‘q.
