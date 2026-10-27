@@ -166,3 +166,9 @@ Asl 61–78-sahifalar o‘qildi. 1878 Mingtepa/Yetimxon, 1880 O‘ratepa soliq t
 1898 Andijon, Muhammad Ali/Dukchi eshon, kazarma va katorga tushunchalari manbadan tekshirildi. Rahbarning diniy obro‘si yoki «mo‘jiza» haqidagi muallif bahosi e’tiqodni avtomatik baholash kaliti emas. Hukm, almashtirish va ijro sonlari ekspertga qoldirildi. Qurolli harakatni qanday yaxshilash topshirig‘i berilmagan, oddiy aholi bilan qatnashchi tenglashtirilmagan.
 
 §20 umumlashtirishida ochiq tarixiy ahamiyat tahlili rubrikali self/teacher review uchun. Uning qisqa obyektiv mashqlari avval tekshirilgan §17–19 manbalariga `reviewed_prior_context`, topic SHA va aniq sahifa chegarasi bilan bog‘langan; bitta talqinni to‘g‘ri siyosiy fikr qilib baholamaydi. §21 Quyi Amudaryo/Orol, ulus, aris, beklarbegi, xo‘jalik, sud va urf-odatlarni ajratadi. Etnik nomdan barcha oilalarning kasbi yoki e’tiqodi chiqarilmaydi. 78-sahifaning yuqorisi §21 davomi, pastidagi §22 keyingi dars; chegarasi saqlandi.
+
+## 9-sinf §22–26
+
+78–93 asl tasvirlari o‘qildi. Qozon puli/ushr/solg‘ut va mehnat majburiyati farqlanadi; Ernazarbiy, keyingi Qo‘ng‘irot va Bobo Go‘klan harakatlari bir davr emas. Amudaryo o‘ng/chap sohili hamda Sirdaryo viloyati/Amudaryo bo‘limi darajalari alohida. Tanobning83dagi tarixiy miqdori barcha davr uchun universal birlik qilib testlanmagan. Badiiy doston qahramoni bilan tarixiy shaxs ajratildi; Ajiniyozning otasiga oid8/9yozuv variantlari kalit emas.
+
+1884Bog‘chasaroy maktabi va1888muallimlar qo‘llanmasi sanalari asl88dan tekshirildi. Jadid maktablarining mutlaq birinchi/ikkinchi ustuvorligi tashqi qiyosga qoldirildi. Dasturdagi parlament, til va milliy tashkilot talablari bajarilgan natija sifatida berilmadi. Ta’lim statistikasi hudud va yil kesimida farqlangan. Siyosiy yoki diniy talqin erkin refleksiya, bir qiymatli avtomatik javob emas.

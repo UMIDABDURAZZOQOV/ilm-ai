@@ -1,16 +1,16 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan: 103/172 o‘quv birligi lokal/test preview’da.** Jami 807 karta, 643 topshiriq (376 MCQ / 204 qisqa FRQ / 63 xronologiya), 103 original misol va 103 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 108/172 o‘quv birligi lokal/test preview’da.** Jami 839 karta, 673 topshiriq (394 MCQ / 214 qisqa FRQ / 65 xronologiya), 108 original misol va 108 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 | 325 | 280 | 83 |
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
-| 9 | 9 | 39 | 20 | 19 | 163 | 118 | 39 |
+| 9 | 9 | 39 | 25 | 14 | 195 | 148 | 49 |
 | 10 | 6 | 28 | 0 | 28 | 0 | 0 | 0 |
 | 11 | 9 | 22 | 0 | 22 | 0 | 0 | 0 |
 
-**Keyingi: 9-sinf §22, PDF 78, bosma 78 — Soliq va majburiyatlar. Xalq qo‘zg‘olonlari.**
+**Keyingi: 9-sinf §27, PDF 93, bosma 93 — Jadidchilik harakati namoyandalari va ularning faoliyati.**
 
 | Joriy sinf mavzusi | Fakt manba sahifalari | Karta | Savol |
 |---|---|---:|---:|
@@ -34,11 +34,16 @@
 | §19 Andijon qo‘zg‘oloni | 67–72 | 8 | 6 |
 | §20 Milliy-ozodlik harakatlarining ahamiyati | 62–74 | 6 | 4 |
 | §21 XIX asrning ikkinchi yarmi – XX asr boshlarida qoraqalpoqlarning hududiy joylashuvi va ijtimoiy hayoti | 75–78 | 8 | 6 |
+| §22 Soliq va majburiyatlar. Xalq qo‘zg‘olonlari | 78–81 | 7 | 6 |
+| §23 Qoraqalpoqlar Turkiston general-gubernatorligi tarkibida | 81–83 | 6 | 6 |
+| §24 XIX asrning ikkinchi yarmi – XX asr boshlarida qoraqalpoqlar madaniyati | 84–86 | 6 | 6 |
+| §25 Jadidchilik harakatining vujudga kelishi | 87–90 | 7 | 6 |
+| §26 Jadidlarning dasturiy maqsad va vazifalari | 91–92 | 6 | 6 |
 
-- backend: `214 passed, 3 skipped in 142.46s (0:02:22)`.
-- postgres: `3 passed, 152 deselected in 47.87s`.
-- flutter: `01:17 +298: All tests passed!`.
-- flutter_history: `00:15 +144: All tests passed!`.
-- analyze: `No issues found! (ran in 1.4s)`.
+- backend: `219 passed, 3 skipped in 148.17s (0:02:28)`.
+- postgres: `3 passed, 157 deselected in 46.81s`.
+- flutter: `01:22 +303: All tests passed!`.
+- flutter_history: `00:16 +149: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 
 [8-sinf frozen full-regression](checkpoints/grade8_validation.json).
