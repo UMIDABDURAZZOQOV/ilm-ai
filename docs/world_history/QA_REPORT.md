@@ -716,3 +716,32 @@ featurebranches; no mainmerge,deploy,other-subject runtime or production databas
 
 Next batch20:grade8§6–10. Original3–37 read;§6 private draft not indexed. Read38
 onward for§7–10. All ambiguous source details stay in SOURCE_REVIEW, not keys.
+
+## Batch20 — grade8§6–10, 2026-10-27
+
+Five lessons add36 cards,61 fact records,42 MCQ and20 objective FRQ. Total
+**100/219 local-preview lessons**,756 cards,1520 fact records,657 MCQ,391 FRQ,
+100 self/teacher activities. Grade6/7 complete content presence46/44;grade8 is10/33.
+**119 remain:** grade8=23,grade9=41,grade10=26,grade11=29. Acceptance flags false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |303 passed,1347.83s wall | All22 modules/four isolated shards75/58/101/69;1262.78/855.01/784.73/1343.65s |
+| Actual PostgreSQL |1 passed in200.62s | Fresh dedicatedschema/parallel completion/all100units2000XP/replay |
+| Actual HTTP |6 catalogues,1048 answers,2000XP | Freshsynthetic900206/prerequisites/replay/noexistinguserreset |
+| Targeted Flutter |219 passed in06:37 | All100publicAPI snapshots/200% theoryMCQ/typedFRQ/grade8draftsource |
+| Full Flutter |828 passed in09:32 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0 issues in219.1s | EntireFlutterworktree |
+| Preservation |687 baseline pins and190 previoushistoryfiles unchanged | Frozen other-subject/runtime and earlierlesson/review bytes |
+| Ruff/whitespace/stagedaudit |Passed | HistoryPython criticalerrors/history-only textfiles/noJWTprivateDB |
+
+Scoped source limits in SOURCE_REVIEW; calendarlabels/imperialmapcolour areas/
+politicalcausation never replace reviewedfactevidence. Tests reject expanded shared
+regions,incorrect maprenderdigest,unassessed chronology keys,regnalordinal aliases
+and mixing Konsul with Konsullik. All previous95 lesson/review pairs immutable.
+Actual captures inspected:§6darktheory200%,§8darksharedfeedback200%,§10typedFRQ
+withitsown49/53source. Independentteacher/nativeAndroid/IME/TalkBack remain
+unperformed. Earlier2569-pass fullbackend is baseline evidence,notthisrerun.
+No mainmerge/deploy/productionDB/AIfeature/rawPDFimagesOCR/realuserdata in Git.
+Only thetwohistoryfeaturebranches. Nextbatch21 grade8§11–15; original3–65read,
+private§11written butnotindexed; author12 next, then66onward. Do notcountprivatedrafts asready.

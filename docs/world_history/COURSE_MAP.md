@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 95; remaining: 124.** Source pages are candidate spans;
+**Reviewed preview lessons: 100; remaining: 119.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -155,11 +155,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 3 | wh8-topic03 | Yevropada Reformatsiya | 18–22 | reviewed_preview_ready |
 | 4 | wh8-topic04 | G‘arbiy Yevropada Yangi davr madaniyatining shakllanishi | 22–28 | reviewed_preview_ready |
 | 5 | wh8-topic05 | Angliyada qirol hokimiyatining kuchayishi. XVII asrdagi Angliya burjua inqilobi | 28–34 | reviewed_preview_ready |
-| 6 | wh8-topic06 | XVI–XVIII asrlarda xalqaro munosabatlar | 34–37 | not_implemented |
-| 7 | wh8-topic07 | Fransiyada mutlaq monarxiya. Buyuk fransuz burjua inqilobi | 37–42 | not_implemented |
-| 8 | wh8-topic08 | Buyuk fransuz burjua inqilobining yakunlanishi va tarixiy ahamiyati | 42–45 | not_implemented |
-| 9 | wh8-topic09 | XVI–XVIII asrlarda Germaniya imperiyasi | 45–49 | not_implemented |
-| 10 | wh8-topic10 | XVI–XVIII asrlarda Rossiya imperiyasi | 49–54 | not_implemented |
+| 6 | wh8-topic06 | XVI–XVIII asrlarda xalqaro munosabatlar | 34–37 | reviewed_preview_ready |
+| 7 | wh8-topic07 | Fransiyada mutlaq monarxiya. Buyuk fransuz burjua inqilobi | 37–42 | reviewed_preview_ready |
+| 8 | wh8-topic08 | Buyuk fransuz burjua inqilobining yakunlanishi va tarixiy ahamiyati | 42–45 | reviewed_preview_ready |
+| 9 | wh8-topic09 | XVI–XVIII asrlarda Germaniya imperiyasi | 45–49 | reviewed_preview_ready |
+| 10 | wh8-topic10 | XVI–XVIII asrlarda Rossiya imperiyasi | 49–54 | reviewed_preview_ready |
 | 11 | wh8-topic11 | XVIII asrda Shimoliy Amerika. Amerika Qo‘shma Shtatlarining tashkil topishi...................... | 54–59 | not_implemented |
 | 12 | wh8-topic12 | Ma’rifat asri | 59–65 | not_implemented |
 | 13 | wh8-topic13 | XVI–XVIII asrlarda Osiyo mamlakatlari rivojlanishining asosiy xususiyatlari | 65–69 | not_implemented |

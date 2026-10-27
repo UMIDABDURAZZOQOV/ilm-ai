@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch19 has95 local-preview units: all grade6/7 plus grade8§1–5,
-720 cards,615 MCQ,371 objective FRQ;
-124 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade8§6–10; original3–37 read, private§6 written, next38 onward.
+Batch20 has100 local-preview units: all grade6/7 plus grade8§1–10,
+756 cards,657 MCQ,391 objective FRQ;
+119 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade8§11–15; original3–65 read, private§11 written, author12 next, then66 onward.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2911,3 +2911,10 @@ Source holds: Genoabankfirst/priceuniversals,1526peasantsending,indulgence
 simplification,Galileoheliocentricpriority/Brunoeternalcosmos,GeorgeIancestry/
 lastOrange1714 and unsupportedLilbernprompt. No outside correction, AI feature
 or production claim. Counts95/219,124left; currentQA in QA_REPORT.
+
+Batch20 source limits: Westphaliaallhostilityended/Crimeanlegalscope,France
+ValmyRepublicsame-daychronology,Directoryappointment,Germanallpowerlessunity/
+1683firstunanimity,Peter1689firstaccession/serftransferoneNov26/map52Crimea
+annexationlegend. Finite office vs collective (Konsul/Konsullik), regnalordinals
+and original page regions tested. No published earlier lesson/review rewrites.
+Current100/219,119left; measuredQA in QA_REPORT. Grade8§11 is only a private draft.

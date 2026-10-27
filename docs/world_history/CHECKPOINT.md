@@ -1,19 +1,19 @@
-# Jahon tarixi continuation checkpoint — batch19
+# Jahon tarixi continuation checkpoint — batch20
 
 2026-10-27. **Task incomplete. Continue autonomously through grade11.**
 
 ## Exact progress
 
-- 219 teaching units; **95 reviewed local-preview lessons;124 remain**.
-- Last ready: grade8§5 “Angliyada qirol hokimiyatining kuchayishi. XVII asrdagi Angliya burjua inqilobi”,28 below§5–34 above§6.
+- 219 teaching units; **100 reviewed local-preview lessons;119 remain**.
+- Last ready: grade8§10 “XVI–XVIII asrlarda Rossiya imperiyasi”,49 below§10–53;54 wholly§11 excluded.
 - Keys: `world-history-6-p01-r1` through `world-history-6-p46-r1`, plus grade7
-  `world-history-7-p01-r1` through `world-history-7-p44-r1`, plus grade8§1–5.
-- 720 cards,1459 reviewed fact records,615 MCQ,371 objective FRQ,95 self/teacher activities.
+  `world-history-7-p01-r1` through `world-history-7-p44-r1`, plus grade8§1–10.
+- 756 cards,1520 reviewed fact records,657 MCQ,391 objective FRQ,100 self/teacher activities.
 - Grade6 has46/46 units ready:44 numbered paragraphs plus conclusion/final review.
   Twelve fact records in the final review reuse exact previously reviewed knowledge;
   total records are not a count of unique historical facts.
-- Grade7 has44/44 units ready;0 remain. Grade8 has5/33 ready;28 remain.
-  Grades9/10/11 have41/26/29 remaining. Grade8§6 private draft is not indexed.
+- Grade7 has44/44 units ready;0 remain. Grade8 has10/33 ready;23 remain.
+  Grades9/10/11 have41/26/29 remaining. Grade8§11 private draft is not indexed.
 - 961 pages decoded/rendered; every original image inspected for feature presence.
   Bibliography/contents and216 body headings cross-checked. No blanket fact approval.
 - 219 units =216 numbered blocks plus grade6 conclusion/final review and grade8
@@ -44,13 +44,13 @@
   source sheets, Ilmo, theory, MCQ, typed FRQ, shared feedback/results and resume.
 - Full backend first-lesson baseline: **2569 passed,4 skipped**, all71 files,
   four isolated UTF-8 subprocess shards; frozen inputs preserved.
-- Current ninety-five-unit targeted suite: **290 passed**, four isolated subprocess
-  shards,905.50s wall time; twenty-one modules, no tests omitted.
-- Real isolated PostgreSQL: **1 passed in96.82s**, parallel completion and95
-  sequential units/1900XP once only. Broad-suite opt-in skips are not passes.
-- Actual loopback HTTP:6 catalogues,986 answers, prerequisites/replay and once-only
-  1900XP; fresh synthetic account only. No existing learner reset.
-- Current Flutter: **209 history widgets passed in04:05**, **818 full tests passed in05:54**, full analysis **0 issues in160.7s**. Exact scope: QA_REPORT.md.
+- Current hundred-unit targeted suite: **303 passed**, four isolated subprocess
+  shards,1347.83s wall time; twenty-two modules, no tests omitted.
+- Real isolated PostgreSQL: **1 passed in200.62s**, parallel completion and100
+  sequential units/2000XP once only. Broad-suite opt-in skips are not passes.
+- Actual loopback HTTP:6 catalogues,1048 answers, prerequisites/replay and once-only
+  2000XP; fresh synthetic account only. No existing learner reset.
+- Current Flutter: **219 history widgets passed in06:37**, **828 full tests passed in09:32**, full analysis **0 issues in219.1s**. Exact scope: QA_REPORT.md.
 - Windows subprocess Unicode failures were fixed with `PYTHONUTF8=1`, without
   Biology edits. Use that setting in later backend QA.
 - Screenshots are real Flutter widget renders, not native Android. Independent
@@ -185,12 +185,12 @@
 
 ## Next exact work
 
-1. Finish/persist batch19 QA/Git checkpoint if not already in latest branch log.
+1. Finish/persist batch20 QA/Git checkpoint if not already in latest branch log.
    Commit/push only the two history feature branches.
-2. Continue batch20 **grade8§6–10**. Original3–37 read;§1–5 indexed/imported.
-   Private§6 written but not indexed; read38 onward for§7–10. Grade8 first
-   prerequisite empty and progress independent. Keep book order and exact
-   regions; do not promote source errors or external film/web content. Keep grade selection and progress independent;
+2. Continue batch21 **grade8§11–15**. Original3–65 read;§1–10 indexed/imported.
+   Private§11 written but not indexed; author§12 from reviewed59–64, then read66 onward for§13–15. Preserve empty
+   first prerequisite/independent progress. Source58 map chronology and59
+   FederalKonvent definition remain held; do not import external corrections. Keep grade selection and progress independent;
    author in book order through grade11.
 3. Reuse common-v2 and mandatory source/fact/per-question-target validators.
    Inspect each original image/map legend, not merely OCR/embedded text.
@@ -202,7 +202,7 @@
 
 Private authoring helpers: `.local/`. **Do not rerun** one-time
 `author_history_first.py`, `integrate_history_batch01.py`, `integrate_history_batch02.py`,
-`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`, `integrate_history_batch10.py`, `integrate_history_batch11.py`, `integrate_history_batch12.py`, `integrate_history_batch13.py`, `integrate_history_batch14.py`, `integrate_history_batch15.py`, `integrate_history_batch16.py`, `integrate_history_batch17.py`, `integrate_history_batch18.py`, `integrate_history_batch19.py`,
+`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`, `integrate_history_batch10.py`, `integrate_history_batch11.py`, `integrate_history_batch12.py`, `integrate_history_batch13.py`, `integrate_history_batch14.py`, `integrate_history_batch15.py`, `integrate_history_batch16.py`, `integrate_history_batch17.py`, `integrate_history_batch18.py`, `integrate_history_batch19.py`, `integrate_history_batch20.py`,
 `finalize_unpublished_history14.py`, or old initial catalogue
 builders: they could reset the current allowlist. Update future helper review
 output to include `approved_answer_targets` and checked activity targets.
