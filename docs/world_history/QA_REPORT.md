@@ -229,3 +229,38 @@ Inspected actual widget renders:§27 theory at200%,§29 resumed FRQ,§31 feedbac
 at200%. No native Android/IME/TalkBack, independent teacher sign-off or full2026–27
 programme equivalence claimed. No production/main/real-user operation or raw PDF,
 page-image/full-text/OCR publication occurred.
+
+## Batch07 — grade6§32–36, 2026-10-27
+
+Five additional lessons:37 cards,75 fact records,30 MCQ and20 objective FRQ.
+Total **36/219 local-preview lessons**,297 cards,535 facts,211 MCQ,137 objective FRQ
+and36 ungraded activities;183 units remain (10 in grade6).
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Final backend/source/preservation |142 passed in353.78s | Nine history modules;36 manifests, exact regions/aliases, chronology, source decisions, owner/snapshot/prerequisite/replay and720XP once |
+| JWT fixture regression |2 passed in19.15s | Fresh signed default token per request; explicit expired JWT remains401, normal signed JWT200; production auth/TTL unchanged |
+| Actual PostgreSQL |1 passed in69.87s | Dedicated staging; parallel completion and36 sequential lessons, old synthetic learner retained |
+| Actual loopback HTTP |6 catalogues,348 answers,720XP | Fresh synthetic learner900076; prior learner accounts not reset |
+| Targeted Flutter |83 passed in00:52 | Actual API fixtures§1–36, source/MCQ/resumed FRQ, 320×568/200% and earlier account/language guards |
+| Full Flutter regression |692 passed in02:57 | Entire current Flutter worktree suite |
+| Full Flutter analysis |0 issues in88.9s | Entire current Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime retained; all62 prior history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | Python-only history paths and staged diff check |
+
+The initial backend run had140 passes and one401 failure after a long wall-clock
+delay expired its default test JWT (10518.24s elapsed). The test fixture now signs
+a fresh default token for each request and preserves explicitly provided owner or
+expired tokens. It bypasses no signature/expiry/owner checks, extends no production
+TTL and changes no runtime file. The two focused cases and the full142-test rerun
+passed. The failed first run is not claimed as a pass. Earlier full2569 backend
+results remain historical baseline evidence, not a rerun in this batch.
+
+Original123–144 regions reviewed, shared137 explicit, whole next-topic129/133/142/
+145 excluded where appropriate.134 calendar CEI/BCEI contradiction, successor and
+military era compression, script genealogy, coin/chess priority and route precision
+are withheld or attributed. No outside replacement facts or guessed map routes.
+Actual widget renders inspected:§34 feedback at200%,§35 theory at200%,§36 resumed
+FRQ. No native/independent-teacher or
+production acceptance is claimed. Original PDF/page/OCR and private tokens stay out
+of Git; only public API payloads are Flutter fixtures.

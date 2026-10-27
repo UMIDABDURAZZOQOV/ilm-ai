@@ -10,6 +10,8 @@ from uuid import uuid4
 
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
+import httpx
+import jwt
 import pytest
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import sessionmaker
@@ -60,7 +62,16 @@ def history(tmp_path, monkeypatch):
         with factory() as db:
             yield db
     app.dependency_overrides[database.get_db] = get_db
-    with TestClient(app, headers={'Authorization': f'Bearer {tokens.create_access_token(1)}'}) as client:
+    class FreshHistoryAuth(httpx.Auth):
+        def auth_flow(self, request):
+            # Keep real JWT verification; long/suspended runs need a fresh default.
+            # Explicit owner/expired-token headers must retain their exact meaning.
+            if 'Authorization' not in request.headers:
+                request.headers['Authorization'] = f'Bearer {tokens.create_access_token(1)}'
+            yield request
+
+    with TestClient(app) as client:
+        client.auth = FreshHistoryAuth()
         yield client, factory, monkeypatch
     engine.dispose()
 
@@ -71,6 +82,13 @@ def start(client, request_id=None):
         'assessment_version': 2, 'request_id': str(request_id or uuid4())})
     assert response.status_code == 200, response.text
     return response.json()
+
+
+def test_history_fixture_preserves_explicit_expired_jwt_rejection(history):
+    client, _, _ = history
+    expired = jwt.encode({'sub': '1', 'iat': 0, 'exp': 1}, tokens.JWT_SECRET, algorithm='HS256')
+    assert client.get(PREFIX + '/catalog', headers={'Authorization': f'Bearer {expired}'}).status_code == 401
+    assert client.get(PREFIX + '/catalog').status_code == 200
 
 
 def answer_for(q, correct=True):

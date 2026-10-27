@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade6_paragraph36.json",
+  "lesson_sha256": "472cae3a4da8681739ea06ad2e24aba2e475e573f4d986dfebf2c7c9e71161cb",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh6-p36-page142",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic36",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 142,
+      "printed_page": 142,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "2b6e6d3f13d2a1b68831f264913cfaac3e9a1ca7863ce9f1716f0211b008904d",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p36-page143",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic36",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 143,
+      "printed_page": 143,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "c040d00084250d6dfffb3a1f1d8fbc96af4c1803355ef571ff840a67581df192",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh6-p36-page144",
+      "book_id": "world-history-6-uz-2017",
+      "topic_id": "wh6-topic36",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "pdf_page": 144,
+      "printed_page": 144,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "4a8d0b75793b163f95bb2acfca5bf1539a4d758e657712dbc3a5e13957adab09",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original142 below §36 through144 read;145 wholly new chapter/§37 excluded. Original142 map caption/labels inspected.",
+    "Buyuk meridional naming, exact12000km, abrupt XVI endpoint and global first utterance priority withheld;1877/Rixtgofen textbook association retained.",
+    "Map Chayan versus body Sian not silently accepted as aliases; no exact navigable route, simultaneous political frontier or modern sovereignty invented.",
+    "Chjan Syan narrative does not discover uninhabited cities; exact ten-year detention, sole path creation and all-northern-China alfalfa diffusion not automatic keys.",
+    "Commodity direction is not first domestication/origin or exclusive global source. Left chess caption belongs prior material and is not an approved Silk Road invention claim."
+  ],
+  "approved_fact_sha256": {
+    "network": "43dc70196269cd41bff0b96285bbe36380f69afe8f652128a9cd19b4d52f9cd0",
+    "period": "b1fe47052a1d91989ea92f9ba7740890152843f75312faa0ddd6bf5f9d7c762d",
+    "richthofen": "a00fceddac92f951eba5045ccd6138eb3c689fea28e1cd4210aa238f62b50ea1",
+    "route": "4430d94ee79ff37bdc669dc1eb7d4f85af8e6f27b2c48553d5a90e7527930552",
+    "distance": "e3efe0e24c2f919b49821c0c1a74ffc846df0301f6caf1c136f5807301484f17",
+    "cities": "68626d58294a2407844dbfda0b813e29ecef1d4e239220a76312bf514fab7dfe",
+    "sogdian": "b521c993a05c63f21eb65b55fbc8710624605850e2b917d6bb4683804f462804",
+    "horses": "bfa6490a28dc903ccc6219203b270c1d8996f28016b51657651913bffe9f4ea5",
+    "imports": "038c0768e16b3cbd876b541b1f8a6f2296870aad9775c9f20bacdb1c88f5e38f",
+    "zhang": "a6e120a016c68a8c403d29894c502be5fede6693b323583d7406ede250476f4f",
+    "journey": "3005ea473b359bc35ae3847c9496a82dbc592e5b69da3ed62eb44b388cc81bc6",
+    "importance": "a93667be93bedc696a94648e82bcd7a9ec1b6bb8276e4671b2de1a1a6a538554",
+    "map": "59dc357f8818ea65fbc457ebfe638ad7b7fafd6fa38c20b7c0cf463c5ea4c25b"
+  },
+  "approved_content_sha256": "de93ac3c53824dca2c198b99641c11b40a43d4dfa0f29921e9342a1b98726261",
+  "approved_assessments_sha256": "775b291246b6223de0715f3096d610657940a09d0165de2dc39a4c08b97d66d8",
+  "approved_answer_targets": {
+    "world-history-6-p36-r1-q01": {
+      "fact_ids": [
+        "richthofen"
+      ],
+      "verified_answer": "F. Rixtgofen",
+      "aliases": []
+    },
+    "world-history-6-p36-r1-q02": {
+      "fact_ids": [
+        "cities"
+      ],
+      "verified_answer": "Samarqand, Buxoro, Termiz",
+      "aliases": []
+    },
+    "world-history-6-p36-r1-q03": {
+      "fact_ids": [
+        "horses"
+      ],
+      "verified_answer": "Farg‘ona",
+      "aliases": []
+    },
+    "world-history-6-p36-r1-q04": {
+      "fact_ids": [
+        "horses"
+      ],
+      "verified_answer": "Badaxshon",
+      "aliases": []
+    },
+    "world-history-6-p36-r1-q05": {
+      "fact_ids": [
+        "imports"
+      ],
+      "verified_answer": "Xitoy",
+      "aliases": []
+    },
+    "world-history-6-p36-r1-q06": {
+      "fact_ids": [
+        "zhang"
+      ],
+      "verified_answer": "Chjan Syan",
+      "aliases": []
+    },
+    "world-history-6-p36-r1-q07": {
+      "fact_ids": [
+        "zhang"
+      ],
+      "verified_answer": "Chjan Syan",
+      "aliases": [
+        "Chjan Syan"
+      ]
+    },
+    "world-history-6-p36-r1-q08": {
+      "fact_ids": [
+        "richthofen"
+      ],
+      "verified_answer": "F. Rixtgofen",
+      "aliases": [
+        "F. Rixtgofen",
+        "Rixtgofen"
+      ]
+    },
+    "world-history-6-p36-r1-q09": {
+      "fact_ids": [
+        "horses"
+      ],
+      "verified_answer": "Badaxshon",
+      "aliases": [
+        "Badaxshon"
+      ]
+    },
+    "world-history-6-p36-r1-q10": {
+      "fact_ids": [
+        "imports"
+      ],
+      "verified_answer": "Xitoy",
+      "aliases": [
+        "Xitoy"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 142,
+      "activity": "naming_recall_and_network_map",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "q01",
+        "q02",
+        "q08",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 143,
+      "activity": "chjan_syan_recall_and_commodities",
+      "covered_by": [
+        "card4",
+        "card5",
+        "card6",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q09",
+        "q10",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 144,
+      "activity": "summary_and_five_tasks",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5",
+        "card6",
+        "card7",
+        "reflection"
+      ]
+    }
+  ]
+}

@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 31; remaining: 188.** Source pages are candidate spans;
+**Reviewed preview lessons: 36; remaining: 183.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -65,11 +65,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 29 | wh6-topic29 | Qadimgi Yunoniston olimlari va mutafakkirlari | 111–115 | reviewed_preview_ready |
 | 30 | wh6-topic30 | Qadimgi Yunoniston afsonalari | 115–118 | reviewed_preview_ready |
 | 31 | wh6-topic31 | O‘rta Osiyoda ahamoniylar hukmronligi | 118–123 | reviewed_preview_ready |
-| 32 | wh6-topic32 | O‘rta Osiyo xalqlarining yunon-makedon istilochilariga qarshi kurashi | 123–129 | not_implemented |
-| 33 | wh6-topic33 | Salavkiylar davlati va Yunon-Baqtriya podsholigi | 129–133 | not_implemented |
-| 34 | wh6-topic34 | Qadimgi Xorazm, Qang‘ va Davan davlati | 133–137 | not_implemented |
-| 35 | wh6-topic35 | Kushon davlati | 137–142 | not_implemented |
-| 36 | wh6-topic36 | Buyuk Ipak yo‘li | 142–145 | not_implemented |
+| 32 | wh6-topic32 | O‘rta Osiyo xalqlarining yunon-makedon istilochilariga qarshi kurashi | 123–129 | reviewed_preview_ready |
+| 33 | wh6-topic33 | Salavkiylar davlati va Yunon-Baqtriya podsholigi | 129–133 | reviewed_preview_ready |
+| 34 | wh6-topic34 | Qadimgi Xorazm, Qang‘ va Davan davlati | 133–137 | reviewed_preview_ready |
+| 35 | wh6-topic35 | Kushon davlati | 137–142 | reviewed_preview_ready |
+| 36 | wh6-topic36 | Buyuk Ipak yo‘li | 142–145 | reviewed_preview_ready |
 | 37 | wh6-topic37 | Qadimgi Italiya | 145–148 | not_implemented |
 | 38 | wh6-topic38 | Rim respublikasi | 148–152 | not_implemented |
 | 39 | wh6-topic39 | Rim respublikasining hayoti | 152–155 | not_implemented |
