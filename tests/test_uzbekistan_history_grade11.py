@@ -116,7 +116,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("sequence", range(1, 16))
+@pytest.mark.parametrize("sequence", range(1, 21))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):

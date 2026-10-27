@@ -1,6 +1,6 @@
 # O‘zbekiston tarixi — joriy checkpoint
 
-2026-10-27. **Kurs tugallanmagan: 165/172 o‘quv birligi lokal/test preview’da.** Jami 1230 karta, 989 topshiriq (576 MCQ / 328 qisqa FRQ / 85 xronologiya), 165 original misol va 165 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 170/172 o‘quv birligi lokal/test preview’da.** Jami 1263 karta, 1015 topshiriq (591 MCQ / 338 qisqa FRQ / 86 xronologiya), 170 original misol va 170 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -8,17 +8,17 @@
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
 | 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
 | 10 | 6 | 28 | 28 | 0 | 184 | 155 | 56 |
-| 11 | 9 | 22 | 15 | 7 | 109 | 79 | 30 |
+| 11 | 9 | 22 | 20 | 2 | 142 | 105 | 40 |
 
 ## Joriy testlar
 
-- backend: `278 passed, 5 skipped in 277.13s (0:04:37)`.
-- postgres: `5 passed, 216 deselected in 94.79s (0:01:34)`.
-- flutter: `01:23 +362: All tests passed!`.
-- flutter_history: `00:22 +208: All tests passed!`.
-- analyze: `No issues found! (ran in 1.6s)`.
+- backend: `283 passed, 5 skipped in 299.71s (0:04:59)`.
+- postgres: `5 passed, 221 deselected in 96.24s (0:01:36)`.
+- flutter: `01:33 +367: All tests passed!`.
+- flutter_history: `00:25 +213: All tests passed!`.
+- analyze: `No issues found! (ran in 1.7s)`.
 
-Source audit: 769 asl sahifa, 172 sarlavha va 707 partiya-sahifa tasviri. `--require-complete` manbalar mavjudligi uchun exit0, kurs/publicrelease tasdig‘i emas.
+Source audit: 769 asl sahifa, 172 sarlavha va 734 partiya-sahifa tasviri. `--require-complete` manbalar mavjudligi uchun exit0, kurs/publicrelease tasdig‘i emas.
 
 ## Tekshiruv chegaralari
 
@@ -32,4 +32,4 @@ Biology406/Physics316 va552eski backend fayli,7-sinf42r1 hamda oldingi4sourceboo
 
 ## Git va davom
 
-Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Partiya commitini remote SHA bilan tekshiring. **Keyingi: 11-sinf §16, PDF 102, bosma 102 — O‘zbekistonda madaniyat va san’at.** Oddiy partiyalar uchun qayta ruxsat talab qilinmaydi.
+Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Partiya commitini remote SHA bilan tekshiring. **Keyingi: 11-sinf §21, PDF 129, bosma 129 — O‘zbekistonning Birlashgan Millatlar Tashkiloti doirasidagi faoliyati va tinchlikparvar tashqi siyosati.** Oddiy partiyalar uchun qayta ruxsat talab qilinmaydi.

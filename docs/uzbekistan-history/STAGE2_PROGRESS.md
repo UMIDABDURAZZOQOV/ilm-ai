@@ -1,6 +1,6 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan: 165/172 o‘quv birligi lokal/test preview’da.** Jami 1230 karta, 989 topshiriq (576 MCQ / 328 qisqa FRQ / 85 xronologiya), 165 original misol va 165 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 170/172 o‘quv birligi lokal/test preview’da.** Jami 1263 karta, 1015 topshiriq (591 MCQ / 338 qisqa FRQ / 86 xronologiya), 170 original misol va 170 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -8,9 +8,9 @@
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
 | 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
 | 10 | 6 | 28 | 28 | 0 | 184 | 155 | 56 |
-| 11 | 9 | 22 | 15 | 7 | 109 | 79 | 30 |
+| 11 | 9 | 22 | 20 | 2 | 142 | 105 | 40 |
 
-**Keyingi: 11-sinf §16, PDF 102, bosma 102 — O‘zbekistonda madaniyat va san’at.**
+**Keyingi: 11-sinf §21, PDF 129, bosma 129 — O‘zbekistonning Birlashgan Millatlar Tashkiloti doirasidagi faoliyati va tinchlikparvar tashqi siyosati.**
 
 | Joriy sinf mavzusi | Fakt manba sahifalari | Karta | Savol |
 |---|---|---:|---:|
@@ -29,11 +29,16 @@
 | §13 O‘zbekiston Respublikasida jismoniy tarbiya va sportning rivojlanishi | 85–90 | 6 | 5 |
 | §14 O‘zbekistonda yoshlar siyosati | 90–94 | 6 | 5 |
 | §15 O‘zbekistonda ma’naviy va tarixiy merosning tiklanishi | 95–101 | 9 | 6 |
+| §16 O‘zbekistonda madaniyat va san’at | 102–108 | 8 | 5 |
+| §17 O‘zbekiston Respublikasi tashqi siyosiy faoliyatining shakllanishi va uning ustuvor yo‘nalishlari | 109–113 | 6 | 5 |
+| §18 O‘zbekistonning Markaziy Osiyo mamlakatlari bilan o‘zaro hamkorligi | 113–119 | 6 | 5 |
+| §19 O‘zbekiston Respublikasining Rossiya, Xitoy va AQSh bilan o‘zaro munosabatlari | 120–123 | 6 | 6 |
+| §20 O‘zbekistonning Yaponiya, Hindiston va Koreya Respublikasi bilan ikki tomonlama aloqalarining rivojlanishi | 124–128 | 7 | 5 |
 
-- backend: `278 passed, 5 skipped in 277.13s (0:04:37)`.
-- postgres: `5 passed, 216 deselected in 94.79s (0:01:34)`.
-- flutter: `01:23 +362: All tests passed!`.
-- flutter_history: `00:22 +208: All tests passed!`.
-- analyze: `No issues found! (ran in 1.6s)`.
+- backend: `283 passed, 5 skipped in 299.71s (0:04:59)`.
+- postgres: `5 passed, 221 deselected in 96.24s (0:01:36)`.
+- flutter: `01:33 +367: All tests passed!`.
+- flutter_history: `00:25 +213: All tests passed!`.
+- analyze: `No issues found! (ran in 1.7s)`.
 
 [8-sinf frozen full-regression](checkpoints/grade8_validation.json).
