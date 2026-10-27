@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 100; remaining: 119.** Source pages are candidate spans;
+**Reviewed preview lessons: 105; remaining: 114.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -160,11 +160,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 8 | wh8-topic08 | Buyuk fransuz burjua inqilobining yakunlanishi va tarixiy ahamiyati | 42–45 | reviewed_preview_ready |
 | 9 | wh8-topic09 | XVI–XVIII asrlarda Germaniya imperiyasi | 45–49 | reviewed_preview_ready |
 | 10 | wh8-topic10 | XVI–XVIII asrlarda Rossiya imperiyasi | 49–54 | reviewed_preview_ready |
-| 11 | wh8-topic11 | XVIII asrda Shimoliy Amerika. Amerika Qo‘shma Shtatlarining tashkil topishi...................... | 54–59 | not_implemented |
-| 12 | wh8-topic12 | Ma’rifat asri | 59–65 | not_implemented |
-| 13 | wh8-topic13 | XVI–XVIII asrlarda Osiyo mamlakatlari rivojlanishining asosiy xususiyatlari | 65–69 | not_implemented |
-| 14 | wh8-topic14 | XVI–XVIII asrlarda Xitoy | 69–73 | not_implemented |
-| 15 | wh8-topic15 | XVI–XVIII asrlarda Hindiston | 73–79 | not_implemented |
+| 11 | wh8-topic11 | XVIII asrda Shimoliy Amerika. Amerika Qo‘shma Shtatlarining tashkil topishi...................... | 54–59 | reviewed_preview_ready |
+| 12 | wh8-topic12 | Ma’rifat asri | 59–65 | reviewed_preview_ready |
+| 13 | wh8-topic13 | XVI–XVIII asrlarda Osiyo mamlakatlari rivojlanishining asosiy xususiyatlari | 65–69 | reviewed_preview_ready |
+| 14 | wh8-topic14 | XVI–XVIII asrlarda Xitoy | 69–73 | reviewed_preview_ready |
+| 15 | wh8-topic15 | XVI–XVIII asrlarda Hindiston | 73–79 | reviewed_preview_ready |
 | 16 | wh8-topic16 | XVI–XVIII asrlarda Yaponiya va Koreya | 79–84 | not_implemented |
 | 17 | wh8-topic17 | XVI–XVIII asrlarda Usmoniylar imperiyasi | 84–88 | not_implemented |
 | 18 | wh8-topic18 | XVI–XVIII asrlarda Eron | 88–92 | not_implemented |

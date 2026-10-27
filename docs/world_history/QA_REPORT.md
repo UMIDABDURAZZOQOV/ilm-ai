@@ -745,3 +745,34 @@ unperformed. Earlier2569-pass fullbackend is baseline evidence,notthisrerun.
 No mainmerge/deploy/productionDB/AIfeature/rawPDFimagesOCR/realuserdata in Git.
 Only thetwohistoryfeaturebranches. Nextbatch21 grade8§11–15; original3–65read,
 private§11written butnotindexed; author12 next, then66onward. Do notcountprivatedrafts asready.
+
+## Batch21 — grade8§11–15, 2026-10-27
+
+Five lessons add37 cards,63 fact records,39 MCQ and19 objective FRQ. Total
+**105/219 local-preview lessons**,793 cards,1583 fact records,696 MCQ,410 FRQ,
+105 self/teacher activities. Grade6/7 complete content presence46/44;grade8 is15/33.
+**114 remain:** grade8=18,grade9=41,grade10=26,grade11=29. Acceptance flags false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |317 passed,383.08s wall | All23 modules/four isolated shards75/72/101/69;379.17/380.31/279.43/381.44s |
+| Actual PostgreSQL |1 passed in85.06s | Fresh dedicatedschema/parallel completion/all105units2100XP/replay |
+| Actual HTTP |6 catalogues,1106 answers,2100XP | Freshsynthetic900216/prerequisites/replay/noexistinguserreset |
+| Targeted Flutter |229 passed in01:30 | All105publicAPI snapshots/200% theoryMCQ/typedFRQ/grade8source |
+| Full Flutter |838 passed in03:12 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0 issues in144.0s | EntireFlutterworktree |
+| Preservation |687 baseline pins and200 previoushistoryfiles unchanged | Frozen other-subject/runtime and earlierlesson/review bytes |
+| Ruff/whitespace/stagedaudit |Passed | HistoryPython criticalerrors/history-only textfiles/noJWTprivateDB |
+
+Source limits in SOURCE_REVIEW: constitutional vocabulary, mapregion identifiers,
+patron versus dedicatee, finite full names and attributed cultural models remain
+distinct. All prior100 lesson/review pairs immutable. Actual widget captures:
+§11 lighttheory200%,§13 lightsharedfeedback200%,§15 typedFRQsource/resume.
+Independentteacher/nativeAndroid/IME/TalkBack remain unperformed. Earlier2569-pass
+fullbackend is baseline evidence,notthisrerun. No production/userdata/AIfeature.
+The first attempt to launch full Flutter was not executed: automatic approval
+review could not initialize because the disk was full. Removed only completed
+first-baseline pytest scratch directories after resolving their absolute paths;
+preserved reports/logs/source images and all user/progress databases. Then reran
+the same authorized analysis/test commands successfully through approval review.
+Nextbatch22 grade8§16–20; original3–84read,private§16written butnotindexed.

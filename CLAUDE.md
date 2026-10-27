@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch20 has100 local-preview units: all grade6/7 plus grade8§1–10,
-756 cards,657 MCQ,391 objective FRQ;
-119 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade8§11–15; original3–65 read, private§11 written, author12 next, then66 onward.
+Batch21 has105 local-preview units: all grade6/7 plus grade8§1–15,
+793 cards,696 MCQ,410 objective FRQ;
+114 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade8§16–20; original3–84 read, private§16 written, next85 onward.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2918,3 +2918,10 @@ ValmyRepublicsame-daychronology,Directoryappointment,Germanallpowerlessunity/
 annexationlegend. Finite office vs collective (Konsul/Konsullik), regnalordinals
 and original page regions tested. No published earlier lesson/review rewrites.
 Current100/219,119left; measuredQA in QA_REPORT. Grade8§11 is only a private draft.
+
+Batch21 checkpoint:105/219,114left; grade8 has15/33. All source facts use the
+provided 2019 textbook. Source59 FederalKonvent definition,63–64 artwork-title
+variant,65–69 universal civilizational/religious rankings,Chin ending date/first
+Russian contact,75 religious-policy wording and77 map-label placement are held.
+No external date/author repairs or mandatory belief/ethics scoring. Measured QA
+in QA_REPORT. Next batch22§16–20; private§16 is not a ready lesson.
