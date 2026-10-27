@@ -178,3 +178,9 @@ Asl 61–78-sahifalar o‘qildi. 1878 Mingtepa/Yetimxon, 1880 O‘ratepa soliq t
 93–108asl sahifalar tekshirildi. Behbudiy/Munavvarqori/Avloniy asarlari, matbuot va xayriya jamiyati vazifalari ajratilgan.98dagi mutlaq ilk advokat va100dagi Muxtoriyat«72kun» soni tashqi tekshiruvga qoldirildi. Muxtoriyat markazi/tashkilot/delegat/federatsiya/avtonomiya tushunchalari manbadan o‘rgatiladi; diniy-siyosiy qarashlar shaxsiy e’tiqod testi emas.
 
 1914favqulodda holat,1915paxta narxi va1916farmon turli chora. Viloyatlarga reja haqiqatan ketgan ishchilar ro‘yxati emas. Xo‘jand, Toshkent va vodiy voqealari bir xil joy/yil nomiga qo‘shilmagan. Rizvonbibi Ahmadjonova, Damin kulol, Nazirxo‘ja va Abdurahmon jevachi rollari asl tasvirdan tekshirildi. Harbiy zo‘ravonlik talafot sonlari yagona aniq statistika qilib testlanmagan; zamonaviy taktik tavsiya berilmaydi.
+
+## 9-sinf §32–37
+
+108–134asl tasvirlar tekshirildi.1916yo‘qotishlaridagi109sahifa«673ming» va«300ming» raqamlari mustaqil demografik/arxiv qiyosiga qoldirildi; darsda aniq tasdiqlangan yakuniy hisob qilinmagan. Doston muallifi va janri badiiy xotira sifatida o‘rgatiladi. Buxoro118farmonining va’dalari amaldagi natija emas. BXSR e’lon sanasining120dagi6-oktabr qaydi tashqi qiyosga qoldirildi; avtomatik kalitda yil/davlat nomi ishlatiladi.
+
+Xivaning35–36paragraflari birlashtirilgan: yer, boshqaruv, soliq, sanoat, uy hunarmandchiligi va savdo qamrab olindi. Sindikat/monopoliya/kasanachilik turli tushunchalar. Transport yilining «qurilish boshlandi» va «tayyor bo‘ldi» ma’nolari tashqi tekshiruvsiz tenglashtirilmadi.1913Islomxo‘ja o‘limi motivlari qat’iy isbot kaliti emas.1917manifest,Majlis,1918Junaidxon ta’siri va1920XXSR voqealari farqlangan.134xaritada temiryo‘l chizig‘i davlat chegarasi emas.
