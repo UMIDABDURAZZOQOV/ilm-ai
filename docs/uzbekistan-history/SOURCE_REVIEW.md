@@ -241,3 +241,10 @@ Farg‘ona1989 va O‘sh/O‘zgan1990 voqealari joy/yil bo‘yicha ajratildi. Sa
 Birlik/Erk tashkil topishi va rahbarlari faktlari muallifning keyingi siyosiy bahosidan ajratildi. Muxolifatga salbiy yoki ijobiy munosabat avtomatik javob kaliti emas.1990mart prezidentlik,1990iyun Deklaratsiya,1991avgust qonun va1991dekabr saylov to‘rt bosqichdir.1991SSSR tugashi uchun25/26dekabr rasmiy jarayon bosqichlari bo‘yicha tashqi qiyos zarur; yagona kun kaliti qo‘yilmadi. Davlatchilik yoshi, mustamlaka davrini hisoblash yoki shaxsiy siyosiy baho savollarga majburlanmadi.
 
 10-sinfning barcha28mavzusi katalog tartibida qamraldi. Mustaqil pedagogik tekshiruv va umumiy mobil/production integratsiyasi hali ochiq. Yangi Flutter10-sinf smoke testida scroll animatsiyasi tugashini kutish qo‘shildi; bu test harness tuzatishi, tasdiqlangan ilova navigatsiyasi xatosi deb ko‘rsatilmaydi.
+
+
+## 11-sinf partiya1: mavzu1–5
+
+Asl sahifalar va chegaralar [11-sinf source review](GRADE11_SOURCE_REVIEW.md) bilan tekshirildi. Bahsli raqam, siyosiy talqin va amaldagi huquqqa tenglashtirilgan eski qoida savol kaliti emas. Joriy backend/SQLite/API,5ta lokal PostgreSQL, Flutter widget/analyze/full natijalari [checkpoint](checkpoints/grade11_batch1.json)da. Oldingi darslar va boshqa fanlar o‘zgarmadi. O‘qituvchi, haqiqiy Android va umumiy nashr tasdig‘i yo‘q.
+
+Birinchi test shablonida baho100 o‘rniga110 va XP10 o‘rniga11 kutishi aniqlandi; faqat test kutilmalari tuzatildi va barcha gate qayta bajarildi. Runtime XP yoki eski progress qiymatlari o‘zgartirilmadi.
