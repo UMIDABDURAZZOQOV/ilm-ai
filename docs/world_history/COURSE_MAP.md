@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 105; remaining: 114.** Source pages are candidate spans;
+**Reviewed preview lessons: 110; remaining: 109.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -165,11 +165,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 13 | wh8-topic13 | XVI–XVIII asrlarda Osiyo mamlakatlari rivojlanishining asosiy xususiyatlari | 65–69 | reviewed_preview_ready |
 | 14 | wh8-topic14 | XVI–XVIII asrlarda Xitoy | 69–73 | reviewed_preview_ready |
 | 15 | wh8-topic15 | XVI–XVIII asrlarda Hindiston | 73–79 | reviewed_preview_ready |
-| 16 | wh8-topic16 | XVI–XVIII asrlarda Yaponiya va Koreya | 79–84 | not_implemented |
-| 17 | wh8-topic17 | XVI–XVIII asrlarda Usmoniylar imperiyasi | 84–88 | not_implemented |
-| 18 | wh8-topic18 | XVI–XVIII asrlarda Eron | 88–92 | not_implemented |
-| 19 | wh8-topic19 | XVI–XVIII asrlarda Afrika mamlakatlari | 92–97 | not_implemented |
-| 20 | wh8-topic20 | 1800–1870-yillarda Buyuk Britaniya | 97–101 | not_implemented |
+| 16 | wh8-topic16 | XVI–XVIII asrlarda Yaponiya va Koreya | 79–84 | reviewed_preview_ready |
+| 17 | wh8-topic17 | XVI–XVIII asrlarda Usmoniylar imperiyasi | 84–88 | reviewed_preview_ready |
+| 18 | wh8-topic18 | XVI–XVIII asrlarda Eron | 88–92 | reviewed_preview_ready |
+| 19 | wh8-topic19 | XVI–XVIII asrlarda Afrika mamlakatlari | 92–97 | reviewed_preview_ready |
+| 20 | wh8-topic20 | 1800–1870-yillarda Buyuk Britaniya | 97–101 | reviewed_preview_ready |
 | 21 | wh8-topic21 | 1800–1870-yillarda Fransiya | 101–107 | not_implemented |
 | 22 | wh8-topic22 | 1800–1870-yillarda Germaniya va Italiya | 107–110 | not_implemented |
 | 23 | wh8-topic23 | 1800–1870-yillarda Rossiya | 110–115 | not_implemented |

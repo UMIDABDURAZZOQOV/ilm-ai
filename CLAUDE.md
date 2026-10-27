@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch21 has105 local-preview units: all grade6/7 plus grade8§1–15,
-793 cards,696 MCQ,410 objective FRQ;
-114 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade8§16–20; original3–84 read, private§16 written, next85 onward.
+Batch22 has110 local-preview units: all grade6/7 plus grade8§1–20,
+832 cards,735 MCQ,430 objective FRQ;
+109 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade8§21–25; original3–101 read, next102 onward.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2925,3 +2925,11 @@ variant,65–69 universal civilizational/religious rankings,Chin ending date/fir
 Russian contact,75 religious-policy wording and77 map-label placement are held.
 No external date/author repairs or mandatory belief/ethics scoring. Measured QA
 in QA_REPORT. Next batch22§16–20; private§16 is not a ready lesson.
+
+Batch22 checkpoint:110/219,109left; grade8 has20/33. All source facts use the
+provided 2019 textbook.83 shogun/xokku and82 Yongjo wording/dates,88 Safavid1502/
+89 directTabriz→Isfahon/90 lastSafavid andZand chronology,93 Frenchwithdrawal,
+95–96 slave-trade estimates,97/100 world-first railway and99 labour-hour scope
+remain held. Dominion is not independence. Racist ideology/cultural judgments
+never become scientific truths or automatic opinion keys. QA in QA_REPORT.
+Next batch23§21–25 in original order. No private draft counts as ready.

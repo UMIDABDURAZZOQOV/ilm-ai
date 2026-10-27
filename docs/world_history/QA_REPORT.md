@@ -776,3 +776,33 @@ first-baseline pytest scratch directories after resolving their absolute paths;
 preserved reports/logs/source images and all user/progress databases. Then reran
 the same authorized analysis/test commands successfully through approval review.
 Nextbatch22 grade8§16–20; original3–84read,private§16written butnotindexed.
+
+## Batch22 — grade8§16–20, 2026-10-27
+
+Five lessons add39 cards,65 fact records,39 MCQ and20 objective FRQ. Total
+**110/219 local-preview lessons**,832 cards,1648 fact records,735 MCQ,430 FRQ,
+110 self/teacher activities. Grade6/7 complete content presence46/44;grade8 is20/33.
+**109 remain:** grade8=13,grade9=41,grade10=26,grade11=29. Acceptance flags false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |331 passed,933.89s wall | All24 modules/four isolated shards75/72/101/83;750.26/739.71/436.63/931.17s |
+| Actual PostgreSQL |1 passed in80.70s | Fresh dedicatedschema/parallel completion/all110units2200XP/replay |
+| Actual HTTP |6 catalogues,1165 answers,2200XP | Freshsynthetic900226/prerequisites/replay/noexistinguserreset |
+| Targeted Flutter |239 passed in02:59 | All110publicAPI snapshots/200% theoryMCQ/typedFRQ/grade8source |
+| Full Flutter |848 passed in06:16 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0 issues in66.8s | EntireFlutterworktree |
+| Preservation |687 baseline pins and210 previoushistoryfiles unchanged | Other-subject/runtime and priorlesson/review bytes |
+| Ruff/whitespace/stagedaudit |Passed | HistoryPython criticalerrors/history-only textfiles/noJWTprivateDB |
+
+Source review holds in SOURCE_REVIEW. Tests reject broad office aliases, partial
+names, switching regnal name with literary name, dominion with independence,
+grading racist ideology as truth, modified source-render digest and broadened
+shared opening/closing regions. Validator caught97 chapter-opening page scope
+before publication; private source scope narrowed to below_topic_heading.
+All105 prior lesson/review pairs immutable. Actual widget captures inspected:
+§16 darktheory200%,§17 lightsharedfeedback200%,§20 typedFRQsource/resume.
+Independentteacher/nativeAndroid/IME/TalkBack remain unperformed. Earlier2569-pass
+fullbackend is baseline evidence,notthisrerun. No production DB/userdata/deploy/AI.
+No textbookPDF/images/OCR in Git. Only two history feature branches.
+Nextbatch23 grade8§21–25; original3–101read, next102 onward. No private work counted ready.
