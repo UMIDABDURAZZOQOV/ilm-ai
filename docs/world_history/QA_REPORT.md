@@ -570,3 +570,40 @@ remain unperformed. The earlier2569-pass full backend is baseline evidence,
 not a full backend rerun. No PDF/full source text/OCR/page images, keys or real-user
 data in Git. Only two history feature branches. Next:§31–35; original112–118
 read, private§31–32 drafted, next119 for§33 then121–125 for§34–35.
+
+## Batch16 — grade7§31–35, 2026-10-27
+
+Five additional lessons:34 cards,74 fact records,34 MCQ and20 objective FRQ.
+Total **81/219 local-preview units**,608 cards,1222 fact records,497 MCQ,315 objective
+FRQ and81 ungraded activities. Grade6 remains46/46; grade7 is35/44,9 remaining.
+There are138 units left across grades7–11. Counts include reused final-review facts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend |253 passed,351.41s wall | All18 modules/four independent shards;62/47/87/57 passes,348.72/290.74/260.83/348.15s; none omitted |
+| Actual PostgreSQL |1 passed in71.66s | Dedicated fresh staging schema; parallel completion and all81 units/1620XP once, previous synthetic user retained |
+| Actual loopback HTTP |6 catalogues,812 answers,1620XP | Fresh learner900166; prerequisites/replay, no old learner reset |
+| Targeted Flutter/captures |178 passed in00:59 | All81 API fixtures,chapter5,200% theory/MCQ,typed FRQ and prior safeguards |
+| Full Flutter |787 passed in07:30 | Entire worktree suite, successful sequential no-pub rerun |
+| Full analysis |0 issues in196.4s | Entire Flutter worktree, no-pub |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus152 previous history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python only and Git diff checks |
+
+Initial simultaneous targeted/full Flutter startup hit a NativeAssetsManifest.json
+copy collision in build/unit_test_assets before the full suite ran. The targeted
+run passed178. After it finished, a sequential full no-pub rerun passed787. No
+dependency upgrade, manual recursive delete or failed-run-as-pass claim. Future
+Flutter targeted and full test commands must run sequentially; no-pub alone does
+not isolate their generated build output.
+
+Shared page bounds retain chapter4→5 and exclude117/121 from the prior lessons.
+Per-question targets distinguish Donskoy, electedrektor/appointedkansler, artterms,
+RomanIV/MehmetII/Yildirim; source-year order1402before1453 is taught explicitly.
+Uncertain source claims remain in SOURCE_REVIEW, without outside replacements.
+
+Actual renders inspected: grade7§32 theory200%,§34 feedback200%,§35 resumed FRQ
+with§35/123–124. Native Android/IME/TalkBack/independent teacher checks remain
+unperformed. Earlier2569-pass full backend is baseline evidence, not full rerun.
+No PDF/full source text/OCR/page images, keys or real-user data in Git; only two
+history feature branches. Next:§36–40; original125–136 read, private§36–37 drafted,
+next author§38 using132–136 then read137–140 for§39–40.

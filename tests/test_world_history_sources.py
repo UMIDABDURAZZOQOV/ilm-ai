@@ -59,8 +59,8 @@ def test_complete_catalog_has_219_ordered_units_and_all_961_page_reviews():
     document = require_complete_catalog(load_catalog())
     assert [b['total_teaching_topics'] for b in document['books']] == [46, 44, 33, 41, 26, 29]
     assert sum(len(b['page_feature_inventory']) for b in document['books']) == 961
-    assert document['implemented_lessons'] == 76
-    assert document['remaining_lessons'] == 143
+    assert document['implemented_lessons'] == 81
+    assert document['remaining_lessons'] == 138
     assert all(b['course_ready'] is False and b['content_reviewed'] is False for b in document['books'])
 
 

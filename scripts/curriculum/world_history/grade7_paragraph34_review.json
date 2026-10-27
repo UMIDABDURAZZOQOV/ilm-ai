@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph34.json",
+  "lesson_sha256": "612b31b30d91d6d7956ece458992df1bc7d1935a4a7785c1add315718e6211a4",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh7-p34-page121",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic34",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 121,
+      "printed_page": 121,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "189fa7498e83d0d27cc828cd5f06800077c5184d2e0f07407b94d5e54a233409",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh7-p34-page122",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic34",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 122,
+      "printed_page": 122,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "6ff652a56b32868986713e54f2b117bb3f1f08556c74ad6c34a99056f74ee3e3",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original121 below§34 through122 above§35 read;121definitionbox and122fourtasks inspected. Vchapter heading retained, no supporting image invented.",
+    "Saljuqbek/Toğrulbek namecontexts,AlpArslon/Mansikert1071/RomanIVDiogen andIqto serviceuse checked. Definition1038–1308scope versus AsiaMinorfoundingquestion unresolved, not an automatically approved singlepolitytimeline. No outsideGreatSeljuk/Rumdates inserted.",
+    "AllAsiaMinorconqueredXI/allByzantinearmymercenary/noresistance,universalfirstsettlement/onlyfeudalstage/allstate-landoridenticaltax systems and exactethnicbirthdate held. Social/economic/ethnogenesis explanations ungraded.",
+    "1243invasion andXIVearlyfragmentation kept withAsiaMinorscope; no absentbattle name. No ethnicpurity, currentland/taxlegalclaims or practicalwarfare."
+  ],
+  "approved_fact_sha256": {
+    "seljuk": "31a161ab628c83041141ad848892ba3d15b95a4824c61c52a38ac7a6d81cb6f3",
+    "tughril": "de8e2e3d9f7eae06581db511b879d99023b59f5133f3bc80d7baa71976ed392a",
+    "manzikert": "19b54e3c836ac07f0cb5e2f16236e28772c7c8c7ef90f6d2bc59ceaeb24b91d4",
+    "roman": "0e2647da67064b7cb5c90ad91fbfece940d6d99238159ffa998dfb4124afea98",
+    "emirs": "a389353959e853d48d65a26aa1a78a89ec9431bc342ed4fee9de5fafff5bde10",
+    "economy": "9fbe655f542c5d6469fe1174905867ce9962b97b5de2bbbca034fde1ce651309",
+    "iqta": "ed61c460fe92b0915f69464484e1bd5a9435e218f0345d04f59232c9a53a8ea2",
+    "ethnogenesis": "3c4aa581164aa70d44644b3e04d4d945e385fa63c1034db8e21d7c9107751043",
+    "invasion": "687aeb530005c8ba5488b64fb27f7b71e92285e6d68ba9c9c13e7d7c9302212b"
+  },
+  "approved_content_sha256": "4d11216250c9d20fc7f750d5b2242d1fefe5cecb8a82b789a26fe07ee1924c41",
+  "approved_assessments_sha256": "e55c99269d22389e9722d1cf5a9d6b535677c873180261fe25418f73198ed9f6",
+  "approved_answer_targets": {
+    "world-history-7-p34-r1-q01": {
+      "fact_ids": [
+        "seljuk"
+      ],
+      "verified_answer": "Saljuqbek",
+      "aliases": []
+    },
+    "world-history-7-p34-r1-q02": {
+      "fact_ids": [
+        "manzikert"
+      ],
+      "verified_answer": "Mansikert",
+      "aliases": []
+    },
+    "world-history-7-p34-r1-q03": {
+      "fact_ids": [
+        "roman"
+      ],
+      "verified_answer": "Roman IV Diogen",
+      "aliases": []
+    },
+    "world-history-7-p34-r1-q04": {
+      "fact_ids": [
+        "iqta"
+      ],
+      "verified_answer": "Iqto‘",
+      "aliases": []
+    },
+    "world-history-7-p34-r1-q05": {
+      "fact_ids": [
+        "manzikert"
+      ],
+      "verified_answer": "Mansikert",
+      "aliases": [
+        "Mansikert"
+      ]
+    },
+    "world-history-7-p34-r1-q06": {
+      "fact_ids": [
+        "manzikert"
+      ],
+      "verified_answer": "Alp Arslon",
+      "aliases": [
+        "Alp Arslon"
+      ]
+    },
+    "world-history-7-p34-r1-q07": {
+      "fact_ids": [
+        "roman"
+      ],
+      "verified_answer": "Roman IV Diogen",
+      "aliases": [
+        "Roman IV Diogen"
+      ]
+    },
+    "world-history-7-p34-r1-q08": {
+      "fact_ids": [
+        "iqta"
+      ],
+      "verified_answer": "Iqto‘",
+      "aliases": [
+        "Iqto‘"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 121,
+      "activity": "chapter5_heading_dynasty_box_mansikert_and_social_system",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q08",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 122,
+      "activity": "iqta_ethnogenesis_decline_and_four_tasks_above_next_heading",
+      "covered_by": [
+        "card4",
+        "card5",
+        "q04",
+        "q08",
+        "reflection"
+      ]
+    }
+  ]
+}

@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch15 has76 local-preview units: all grade6 plus grade7§1–30,
-574 cards,463 MCQ,295 objective FRQ;
-143 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade7§31–35, original112–125; private§31–32 written, next original119 for§33.
+Batch16 has81 local-preview units: all grade6 plus grade7§1–35,
+608 cards,497 MCQ,315 objective FRQ;
+138 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade7§36–40, original125–140; private§36–37 written, next author§38 using132–136.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2882,3 +2882,9 @@ Batch15 source limits: charter/signature/firstcensus, Tylerprofession/warcounts,
 Habsburg1437/369years/universitypriority, Monomakhfather/Novgorodfoundation/
 Yuriallcityfoundation1147 and unresolvedYaroslavidentity held. No outside
 repair or ice-breakinglegend; objective name/ordinal/role targets remain finite.
+
+Batch16 source limits: Paris/Sorbon founding/Gutenberg1445, architectural
+universals/Laaxdate/ChartresParis/Dogeclassification, singleSeljuk1038–1308
+polityscope, Bursaattribution/immediateIstanbulrename/tumorispelling and
+recruitment/armyuniversals held. Historicalbeliefs/causes ungraded; roles,
+ordinals, term meanings and source-year order use finite reviewed targets.

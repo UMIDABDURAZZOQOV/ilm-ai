@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 76; remaining: 143.** Source pages are candidate spans;
+**Reviewed preview lessons: 81; remaining: 138.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -125,11 +125,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 28 | wh7-topic28 | Germaniya | 104–108 | reviewed_preview_ready |
 | 29 | wh7-topic29 | Rus knyazliklari | 108–110 | reviewed_preview_ready |
 | 30 | wh7-topic30 | Ruslarning bosqinchilarga qarshi kurashi | 110–112 | reviewed_preview_ready |
-| 31 | wh7-topic31 | Rus knyazliklarida markazlashish jarayonlari | 112–113 | not_implemented |
-| 32 | wh7-topic32 | Yevropa madaniyati | 113–117 | not_implemented |
-| 33 | wh7-topic33 | Yevropada me’morchilik, san’at va adabiyot | 117–121 | not_implemented |
-| 34 | wh7-topic34 | Saljuqiylar davlati | 121–122 | not_implemented |
-| 35 | wh7-topic35 | Usmonli turklar davlati | 122–125 | not_implemented |
+| 31 | wh7-topic31 | Rus knyazliklarida markazlashish jarayonlari | 112–113 | reviewed_preview_ready |
+| 32 | wh7-topic32 | Yevropa madaniyati | 113–117 | reviewed_preview_ready |
+| 33 | wh7-topic33 | Yevropada me’morchilik, san’at va adabiyot | 117–121 | reviewed_preview_ready |
+| 34 | wh7-topic34 | Saljuqiylar davlati | 121–122 | reviewed_preview_ready |
+| 35 | wh7-topic35 | Usmonli turklar davlati | 122–125 | reviewed_preview_ready |
 | 36 | wh7-topic36 | Mo‘g‘ullar davlati | 125–128 | not_implemented |
 | 37 | wh7-topic37 | Oltin O‘rda xonligi | 128–132 | not_implemented |
 | 38 | wh7-topic38 | Xitoy | 132–136 | not_implemented |

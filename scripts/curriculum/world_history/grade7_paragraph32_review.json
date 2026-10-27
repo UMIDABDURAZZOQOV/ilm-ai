@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph32.json",
+  "lesson_sha256": "9dceb5c2f25d31d6fdb439731c0354bb241e5bde0ed5e503105bc0a46abfb802",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh7-p32-page113",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic32",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 113,
+      "printed_page": 113,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "593de7f24e23babc6e41ca66c0d1142d656ca8fd5239e6d8ce277c9960d8d126",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh7-p32-page114",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic32",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 114,
+      "printed_page": 114,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "b86358c6d581dd915a1e9dbf087c23cfc9ce63ca1ec53b2a01f0f2b3a58a5908",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh7-p32-page115",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic32",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 115,
+      "printed_page": 115,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "6ab08e68a671f6d6bb7819553e139a9b1d0a6ab1b42338a0249332faba9ef48c",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh7-p32-page116",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic32",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 116,
+      "printed_page": 116,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "41ca00a9b35ccd3976f93a30461845be106074c8dc3e2b2e4bfdd09e2b6f6d9e",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original113 below§32 through116 read;95Parislectureminiature/96Oxford/97RojerBekon captions,115universitybox and116fivetasks inspected.117 wholly§33 excluded despite catalogue interval.",
+    "MarkoPolo/book,UzoqSharqXitoy,university/cityexamples,magistr/shkolyar/kollegiya/Sorbon/dekan/rektor/kansler andGutenberg/BekonOxford associations checked. Question-specific electedrektor target not kansler.",
+    "All40elderly/exactlifespan/childdeathcauses,worldfirstuniversities/SpainXII–XIII dates,PariswholeuniversityfoundedbyRoberdeSorbon,allcharterfullindependence/30000students andGutenberg1445 priority held; no outside dates or biography repair.",
+    "Bacon onlymethodproved/technologyactuallybuilt/universalchurchpersecution held; astrology/alchemy attempts not efficacy or modernscience. No chemistry recipes, medical advice, copiedlong passages or external fact additions."
+  ],
+  "approved_fact_sha256": {
+    "worldview": "1ad0154224176cb98960f29cd4da04146d978f248c7e90b2b88904009b3d2df8",
+    "contact": "3c69476f8c99fd83711569eefa29c40c950e7af07f27cfd796602f49f0834c22",
+    "polo": "a931af1162a92c3889b91fe638b6ca007c0ede6a439f7ef53d194daf3066c9b0",
+    "schools": "d3a459c11703608a123902b8f4a74cfe00020ef5cab9843d8aa27bc1635b0fa5",
+    "university": "24bc8314a54c1f5e29dcf9ac52aebc6c39076aca59b41e5781119ffddd935030",
+    "examples": "de318d7fe47faef05ab8934da20e5b2f5054f4a1900755f7476ff6d57a3b77b2",
+    "cities": "b5c086c39bc15ec65f6d596a0fc45e47c038b67d4f3b7dad56b25724eccc6a64",
+    "magistr": "7952b7cfeeb0b3c36104514940df927600df7da6f6d2d0d539d40cdadef63d3e",
+    "scholar": "df00f48712fd5a4fdb6b7be4c7e5d5d015674dcc07f7d0f1ae6f0dfb7c5c1179",
+    "college": "79b2c86b4cbbe477b0888f0e6d398d83f8aeec7ffa517a0863e7d34ce5832270",
+    "dean": "f7821e000a1f1e936fb206bcd510b9f0379519cb16e713758eeff3cff1aa5d42",
+    "rector": "1f8ced23557a8d7399fda0ed105f6249f2cd495acb8eafcd67566bbb89234cd2",
+    "books": "23f629378dbc3e90b0a22a0e02e1b175359b8d3dc118aa73a53308db6bc90a2c",
+    "gutenberg": "8299a04c86bb2dcadbbbc4b4b5bb6a94cc5b66711a760253ac588b0c3365937e",
+    "bacon": "897c9c56d019abaaaacf9e49e847dd6a3553d643606ef95ad42426c4245df966",
+    "belief": "ae718c50ca7fffd322e8e056f3bfc5bd765b11738a61b4bde313213f26f01511"
+  },
+  "approved_content_sha256": "a32aa2945df3bbe3dd9c1928afdbb09acea5f04b9aa0aced384ec0e423d4a812",
+  "approved_assessments_sha256": "4ade210a9b4b7b6d657194d38c458655b9b459aca7424328bf40b0eafed30c13",
+  "approved_answer_targets": {
+    "world-history-7-p32-r1-q01": {
+      "fact_ids": [
+        "polo"
+      ],
+      "verified_answer": "Marko Polo",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q02": {
+      "fact_ids": [
+        "university"
+      ],
+      "verified_answer": "Universitet",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q03": {
+      "fact_ids": [
+        "magistr"
+      ],
+      "verified_answer": "Magistrlar",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q04": {
+      "fact_ids": [
+        "scholar"
+      ],
+      "verified_answer": "Shkolyarlar",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q05": {
+      "fact_ids": [
+        "dean"
+      ],
+      "verified_answer": "Dekan",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q06": {
+      "fact_ids": [
+        "gutenberg"
+      ],
+      "verified_answer": "Iogann Gutenberg",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q07": {
+      "fact_ids": [
+        "bacon"
+      ],
+      "verified_answer": "Oksford",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q08": {
+      "fact_ids": [
+        "cities"
+      ],
+      "verified_answer": "Angliya",
+      "aliases": []
+    },
+    "world-history-7-p32-r1-q09": {
+      "fact_ids": [
+        "scholar"
+      ],
+      "verified_answer": "Shkolyarlar",
+      "aliases": [
+        "Shkolyarlar"
+      ]
+    },
+    "world-history-7-p32-r1-q10": {
+      "fact_ids": [
+        "dean"
+      ],
+      "verified_answer": "Dekan",
+      "aliases": [
+        "Dekan"
+      ]
+    },
+    "world-history-7-p32-r1-q11": {
+      "fact_ids": [
+        "rector"
+      ],
+      "verified_answer": "Rektor",
+      "aliases": [
+        "Rektor"
+      ]
+    },
+    "world-history-7-p32-r1-q12": {
+      "fact_ids": [
+        "gutenberg"
+      ],
+      "verified_answer": "Iogann Gutenberg",
+      "aliases": [
+        "Iogann Gutenberg"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 113,
+      "activity": "worldview_opening",
+      "covered_by": [
+        "card1",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 114,
+      "activity": "captions95_96_travel_school_university",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "q01",
+        "q02",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 115,
+      "activity": "university_box_roles_collegia_faculties_and_books",
+      "covered_by": [
+        "card4",
+        "card5",
+        "card6",
+        "card7",
+        "q03",
+        "q04",
+        "q05",
+        "q08",
+        "q09",
+        "q10",
+        "q11",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 116,
+      "activity": "caption97_gutenberg_bacon_historical_aims_and_five_tasks",
+      "covered_by": [
+        "card7",
+        "card8",
+        "q06",
+        "q07",
+        "q12",
+        "reflection"
+      ]
+    }
+  ]
+}

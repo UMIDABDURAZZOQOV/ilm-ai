@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade7_paragraph31.json",
+  "lesson_sha256": "83843ec3b60e77dceba39021ac8a683c8576678a7193296b3e4f0d55128abf3f",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh7-p31-page112",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic31",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 112,
+      "printed_page": 112,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "8adce824b448e2a8e9cf58447b766150c9611c9ebe2e21af95b5e8881306ce5c",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh7-p31-page113",
+      "book_id": "world-history-7-uz-2017",
+      "topic_id": "wh7-topic31",
+      "sha256": "4d057e61fa891875aeaad991adc5d77c6b8bdad7b9abe9a5eebf55bcf6efec11",
+      "pdf_page": 113,
+      "printed_page": 113,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "593de7f24e23babc6e41ca66c0d1142d656ca8fd5239e6d8ce277c9960d8d126",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original112 below§31 through113 above§32 read;93DmitriyDonskoy/94AmirTemur captions,threequestions andTimurdiscussionbox inspected.",
+    "TverMoscow,IvanKalita1325–1340,Voje1378,DmitriyIvanovich/KulikovoDon1380/Mamay/Donskoy,Toxtamishlater andTimurQunduzcha1391/Tarak1395/IvanIII1480Moscowtribute associations checked. No outside Ugra name, river spelling, exact battle day or implied immediate liberation added.",
+    "FirsteverVojevictory/all20yearHordeconflict/allRusuniformrule/permanentKulikovoindependence held. Complex economic and Timurrole causal evaluations ungraded;1480end conventional textbook periodization.",
+    "No current territorial/ethnic legitimacy or superiority, tactical instructions, required patriotic belief or addition of separate Uzbekistan-history course; supplied Central Asian material retained."
+  ],
+  "approved_fact_sha256": {
+    "growth": "bde4c25ebafc24057493b9df812106ebc9d125a7161c4d299cf73068963f2c71",
+    "resistance": "72c8b3da5466f76bc39b0f32bd85077f7151d7950e6147436d4d4fd0cc022d66",
+    "centres": "5193db057075a964569947b2d5752068b79e92fddd790108525a32b65eae481a",
+    "kalita": "694b1180883199a49acdcd3a787616914da81e114c5e26f4ef25800c996ca134",
+    "horde_conflict": "b782e1ad488c8d2bd98784cb497948762b4a62ec30fd122349a4ef37ae21f42c",
+    "vozha": "b067c536701a0090b10261e65496c0bf0f8ef90d840744bca73d413109d6c017",
+    "kulikovo": "5a9eccc3ec5d4139da2767059f888ffb36cb9547030ca5f4fb47707ac834c23f",
+    "donskoy": "1f17fd837683f2d842479a3ad21480daa5d476abb79da4a9ba6e3dd895c4507e",
+    "tokhtamysh": "94df50df5569bcd34d11766c6f7add2dc12003135f6c56a161ab2be5f82b04fe",
+    "timur": "375ce9bd87951e76bff67a5500063a407b8f3c8acdb8a74a86c71249a2ec476a",
+    "timur_role": "9102d002835f910bfaa75f7e92b2d16668df9150c52eb3b9538470016516fd00",
+    "ivan3": "6f22d5879b6138acdb7693d9498f6b0936dc33cb3177db04bc513bd657144d02",
+    "periodization": "f41149bffe2f9b5618d265782af9e9bc7f7b72c60b6af69a99a334a98283a39a"
+  },
+  "approved_content_sha256": "ecc134f20605a634557bc108db5fc0b63987575a69101e8f5d07f41a35f87f2e",
+  "approved_assessments_sha256": "232ff276f2aa5b8fa64f100ea5e50745dc17e65d2077d7449819d78e54a3f0bc",
+  "approved_answer_targets": {
+    "world-history-7-p31-r1-q01": {
+      "fact_ids": [
+        "centres"
+      ],
+      "verified_answer": "Tver va Moskva",
+      "aliases": []
+    },
+    "world-history-7-p31-r1-q02": {
+      "fact_ids": [
+        "kalita"
+      ],
+      "verified_answer": "Ivan Kalita",
+      "aliases": []
+    },
+    "world-history-7-p31-r1-q03": {
+      "fact_ids": [
+        "vozha"
+      ],
+      "verified_answer": "Voje",
+      "aliases": []
+    },
+    "world-history-7-p31-r1-q04": {
+      "fact_ids": [
+        "kulikovo"
+      ],
+      "verified_answer": "Kulikovo",
+      "aliases": []
+    },
+    "world-history-7-p31-r1-q05": {
+      "fact_ids": [
+        "timur"
+      ],
+      "verified_answer": "Amir Temur",
+      "aliases": []
+    },
+    "world-history-7-p31-r1-q06": {
+      "fact_ids": [
+        "ivan3"
+      ],
+      "verified_answer": "Ivan III",
+      "aliases": []
+    },
+    "world-history-7-p31-r1-q07": {
+      "fact_ids": [
+        "kalita"
+      ],
+      "verified_answer": "Ivan Kalita",
+      "aliases": [
+        "Ivan Kalita"
+      ]
+    },
+    "world-history-7-p31-r1-q08": {
+      "fact_ids": [
+        "donskoy"
+      ],
+      "verified_answer": "Donskoy",
+      "aliases": [
+        "Donskoy"
+      ]
+    },
+    "world-history-7-p31-r1-q09": {
+      "fact_ids": [
+        "timur"
+      ],
+      "verified_answer": "Qunduzcha",
+      "aliases": [
+        "Qunduzcha"
+      ]
+    },
+    "world-history-7-p31-r1-q10": {
+      "fact_ids": [
+        "ivan3"
+      ],
+      "verified_answer": "Ivan III",
+      "aliases": [
+        "Ivan III"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 112,
+      "activity": "caption93_factors_centres_kalita_vozha_kulikovo",
+      "covered_by": [
+        "card1",
+        "card2",
+        "card3",
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q07",
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 113,
+      "activity": "caption94_kulikovo_aftermath_timur_ivan3_and_four_tasks",
+      "covered_by": [
+        "card4",
+        "card5",
+        "card6",
+        "q05",
+        "q06",
+        "q08",
+        "q09",
+        "q10",
+        "reflection"
+      ]
+    }
+  ]
+}
