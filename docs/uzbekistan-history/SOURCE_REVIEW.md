@@ -230,3 +230,14 @@ Muxtoriyat uchun Tinishboyevdan Cho‘qayga rahbarlik almashishi, Kengash/Majlis
 108–127-asl sahifalar o‘qildi. Qatag‘on, ozod etilish va oqlanish turli huquqiy holatlar. Rahbarlarning lavozimi va davri ajratildi. Rashidov, Nasriddinova va boshqa shaxslar haqidagi siyosiy maqtov/tanqid obyektiv kalit emas. Nasriddinova uchun «butun Sharqda birinchi» mutlaq ustuvorlik savolga kiritilmadi.1977-yilgi SSSR Konstitutsiyasi bugungi O‘zbekiston huquqi emas. Transport, sanoat va kadr siyosatini barcha etnik guruh a’zolarining umumiy niyatiga aylantirish yo‘q.
 
 Gazli/Navoiy/Muruntov bosqichlari manbadan tekshirildi. Zaxira, dollar bahosi, jahon o‘rni va «eng yirik» da’volari mustaqil qiyossiz doimiy reyting deb berilmaydi. Orolning uch bo‘lagi, qurigan maydoni va sog‘liq statistikasi nashr davridagi qaydlar: bugungi ekologik/tibbiy o‘lchov deb testlanmadi. Orolqumning «dunyodagi eng yosh» ustuvorligi avtomatik kalit emas. Defoliatsiya atamasi tarixiy izoh, zaharli modda ishlatish/davolash yo‘riqnomasi emas.125–126sahifalar tasvirlari o‘sha davrni ko‘rsatadi; bugungi foto deb berilmadi. Mundarijadagi§25uchun132xatosi emas, haqiqiy123sahifa sarlavhasi ishlatiladi. Ilgari saqlangan source map o‘zgartirilmadi.
+
+
+## 10-sinf §26–28 — mustaqillik arafasi
+
+128–140-asl sahifalar o‘qildi. Paxta ishi tergovi, haqiqiy korrupsiya, asossiz ayblov va etnik umumlashtirish farqlanadi;40ming/5ming kabi umumiy ko‘rsatkichlar mustaqil arxiv qiyosisiz yagona aniq kalit emas. Sanksiya atamasi bu paragrafda vakolatli organ tasdig‘i ma’nosida, boshqa mavzudagi jazo ma’nosi bilan universal tenglashtirilmaydi.
+
+Farg‘ona1989 va O‘sh/O‘zgan1990 voqealari joy/yil bo‘yicha ajratildi. Sabablar haqidagi hukumat yoki muallif izohi yagona isbotlangan fitna sifatida berilmaydi; barcha o‘zbeklar, mesxeti turklari yoki qirg‘izlarga kollektiv ayb qo‘yilmaydi. Talafot sonlari ekspertga qoldirildi.1989til qonuni boshqa tillar huquqini inkor etuvchi qoida qilib talqin qilinmadi.
+
+Birlik/Erk tashkil topishi va rahbarlari faktlari muallifning keyingi siyosiy bahosidan ajratildi. Muxolifatga salbiy yoki ijobiy munosabat avtomatik javob kaliti emas.1990mart prezidentlik,1990iyun Deklaratsiya,1991avgust qonun va1991dekabr saylov to‘rt bosqichdir.1991SSSR tugashi uchun25/26dekabr rasmiy jarayon bosqichlari bo‘yicha tashqi qiyos zarur; yagona kun kaliti qo‘yilmadi. Davlatchilik yoshi, mustamlaka davrini hisoblash yoki shaxsiy siyosiy baho savollarga majburlanmadi.
+
+10-sinfning barcha28mavzusi katalog tartibida qamraldi. Mustaqil pedagogik tekshiruv va umumiy mobil/production integratsiyasi hali ochiq. Yangi Flutter10-sinf smoke testida scroll animatsiyasi tugashini kutish qo‘shildi; bu test harness tuzatishi, tasdiqlangan ilova navigatsiyasi xatosi deb ko‘rsatilmaydi.

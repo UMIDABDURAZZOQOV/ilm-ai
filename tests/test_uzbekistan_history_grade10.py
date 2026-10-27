@@ -141,7 +141,24 @@ FRQ.update(
 ORDER.update({21: ["e1", "e2", "e3"], 23: ["e1", "e2", "e3"], 24: ["e1", "e2", "e3"]})
 
 
-@pytest.mark.parametrize("sequence", range(1, 26))
+MCQ.update(
+    {
+        26: ["Mixail Gorbachyov", "Rafiq Nishonov", "Sanksiya"],
+        27: ["Quvasoy", "Partokratik", "O‘zbek tili"],
+        28: ["Abdurahim Po‘latov", "Erk", "Referendum"],
+    }
+)
+FRQ.update(
+    {
+        26: ["Izolyator", "Gdlyan"],
+        27: ["21 oktabr", "Internatsionalizm"],
+        28: ["Favqulodda Holat Davlat Komiteti", "31 avgust"],
+    }
+)
+ORDER.update({27: ["e1", "e2"], 28: ["e1", "e2", "e3"]})
+
+
+@pytest.mark.parametrize("sequence", range(1, 29))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):

@@ -1,16 +1,16 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan: 147/172 o‘quv birligi lokal/test preview’da.** Jami 1098 karta, 893 topshiriq (522 MCQ / 292 qisqa FRQ / 79 xronologiya), 147 original misol va 147 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 150/172 o‘quv birligi lokal/test preview’da.** Jami 1121 karta, 910 topshiriq (531 MCQ / 298 qisqa FRQ / 81 xronologiya), 150 original misol va 150 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 | 325 | 280 | 83 |
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
 | 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
-| 10 | 6 | 28 | 25 | 3 | 161 | 138 | 50 |
+| 10 | 6 | 28 | 28 | 0 | 184 | 155 | 56 |
 | 11 | 9 | 22 | 0 | 22 | 0 | 0 | 0 |
 
-**Keyingi: 10-sinf §26, PDF 128, bosma 128 — O‘zbekistonda paxta ishi va uning oqibatlari.**
+**Keyingi: 11-sinf §1, PDF 5, bosma 5 — O‘zbekiston Respublikasi mustaqilligining qo‘lga kiritilishi.**
 
 | Joriy sinf mavzusi | Fakt manba sahifalari | Karta | Savol |
 |---|---|---:|---:|
@@ -39,11 +39,14 @@
 | §23 O‘zbekistonning siyosiy hayotidagi o‘zgarishlar hamda sovetlarning partiya organlariga qaramligi | 116–119 | 7 | 6 |
 | §24 O‘zbekistonda yoqilg‘i va tog‘-kon sanoatining vujudga keltirilishi hamda aholi milliy tarkibidagi o‘zgarishlar | 120–123 | 6 | 6 |
 | §25 O‘zbekistonda ekologik vaziyatning og‘irlashishi va Orol fojiasi | 123–127 | 6 | 5 |
+| §26 O‘zbekistonda paxta ishi va uning oqibatlari | 128–130 | 7 | 5 |
+| §27 Qayta qurish siyosati va uning inqirozi. Farg‘ona fojialari | 131–134 | 7 | 6 |
+| §28 O‘zbekiston mustaqillikka erishish ostonasida | 135–140 | 9 | 6 |
 
-- backend: `259 passed, 4 skipped in 230.98s (0:03:50)`.
-- postgres: `4 passed, 197 deselected in 80.23s (0:01:20)`.
-- flutter: `01:24 +343: All tests passed!`.
-- flutter_history: `00:20 +189: All tests passed!`.
-- analyze: `No issues found! (ran in 1.6s)`.
+- backend: `262 passed, 4 skipped in 244.14s (0:04:04)`.
+- postgres: `4 passed, 200 deselected in 82.44s (0:01:22)`.
+- flutter: `01:28 +346: All tests passed!`.
+- flutter_history: `00:24 +192: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 
 [8-sinf frozen full-regression](checkpoints/grade8_validation.json).
