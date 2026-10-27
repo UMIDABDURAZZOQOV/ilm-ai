@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch22 has110 local-preview units: all grade6/7 plus grade8§1–20,
-832 cards,735 MCQ,430 objective FRQ;
-109 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade8§21–25; original3–101 read, next102 onward.
+Batch23 has115 local-preview units: all grade6/7 plus grade8§1–25,
+872 cards,775 MCQ,454 objective FRQ;
+104 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade8§26–30; original3–138 read, private§26–27 strictvalidated, author28 next then139 onward.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2933,3 +2933,11 @@ provided 2019 textbook.83 shogun/xokku and82 Yongjo wording/dates,88 Safavid1502
 remain held. Dominion is not independence. Racist ideology/cultural judgments
 never become scientific truths or automatic opinion keys. QA in QA_REPORT.
 Next batch23§21–25 in original order. No private draft counts as ready.
+
+Batch23 checkpoint:115/219,104left; grade8 has25/33. Source106 February
+exactday/105 HolyAlliancecongressplace/112 N.Muravyovpunishment/114 musicgenre/
+118 amendment-equality and Homestead chronology/122 Mexico slaverytiming/125
+only1860growth and emigration wording held. Literature vs opera authors, regnal
+names and historic unions have finite per-question targets. No outside repairs,
+biological colonial labels or automatic opinion scores. QA in QA_REPORT. Next
+batch24§26–30; private§26 is not ready/imported.

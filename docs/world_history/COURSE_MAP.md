@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 110; remaining: 109.** Source pages are candidate spans;
+**Reviewed preview lessons: 115; remaining: 104.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -170,11 +170,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 18 | wh8-topic18 | XVI–XVIII asrlarda Eron | 88–92 | reviewed_preview_ready |
 | 19 | wh8-topic19 | XVI–XVIII asrlarda Afrika mamlakatlari | 92–97 | reviewed_preview_ready |
 | 20 | wh8-topic20 | 1800–1870-yillarda Buyuk Britaniya | 97–101 | reviewed_preview_ready |
-| 21 | wh8-topic21 | 1800–1870-yillarda Fransiya | 101–107 | not_implemented |
-| 22 | wh8-topic22 | 1800–1870-yillarda Germaniya va Italiya | 107–110 | not_implemented |
-| 23 | wh8-topic23 | 1800–1870-yillarda Rossiya | 110–115 | not_implemented |
-| 24 | wh8-topic24 | 1800–1870-yillarda Amerika Qo‘shma Shtatlari | 115–120 | not_implemented |
-| 25 | wh8-topic25 | Lotin Amerikasi xalqlarining milliy-ozodlik kurashi | 120–126 | not_implemented |
+| 21 | wh8-topic21 | 1800–1870-yillarda Fransiya | 101–107 | reviewed_preview_ready |
+| 22 | wh8-topic22 | 1800–1870-yillarda Germaniya va Italiya | 107–110 | reviewed_preview_ready |
+| 23 | wh8-topic23 | 1800–1870-yillarda Rossiya | 110–115 | reviewed_preview_ready |
+| 24 | wh8-topic24 | 1800–1870-yillarda Amerika Qo‘shma Shtatlari | 115–120 | reviewed_preview_ready |
+| 25 | wh8-topic25 | Lotin Amerikasi xalqlarining milliy-ozodlik kurashi | 120–126 | reviewed_preview_ready |
 | 26 | wh8-topic26 | 1800–1870-yillarda Hindiston | 126–130 | not_implemented |
 | 27 | wh8-topic27 | 1800–1870-yillarda Xitoy | 130–134 | not_implemented |
 | 28 | wh8-topic28 | 1800–1870-yillarda Yaponiya | 134–138 | not_implemented |

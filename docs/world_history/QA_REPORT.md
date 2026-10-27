@@ -806,3 +806,41 @@ Independentteacher/nativeAndroid/IME/TalkBack remain unperformed. Earlier2569-pa
 fullbackend is baseline evidence,notthisrerun. No production DB/userdata/deploy/AI.
 No textbookPDF/images/OCR in Git. Only two history feature branches.
 Nextbatch23 grade8§21–25; original3–101read, next102 onward. No private work counted ready.
+
+## Batch23 — grade8§21–25, 2026-10-28
+
+Five lessons add40 cards,67 fact records,40 MCQ and24 objective FRQ. Total
+**115/219 local-preview lessons**,872 cards,1715 fact records,775 MCQ,454 FRQ,
+115 self/teacher activities. Grade6/7 complete content presence46/44;grade8 is25/33.
+**104 remain:** grade8=8,grade9=41,grade10=26,grade11=29. Acceptance flags false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |345 passed,1810.48s wall | All25 modules/four isolated shards75/72/115/83;1508.92/1478.99/1340.48/1807.5s |
+| Actual PostgreSQL |1 passed in206.92s | Fresh dedicatedschema/parallel completion/all115units2300XP/replay |
+| Actual HTTP |6 catalogues,1229 answers,2300XP | Freshsynthetic900236/prerequisites/replay/noexistinguserreset |
+| Targeted Flutter |249 passed in05:45 | All115publicAPI snapshots/200% theoryMCQ/typedFRQ/grade8source |
+| Full Flutter |858 passed in05:38 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0 issues in187.5s | EntireFlutterworktree |
+| Preservation |687 baseline pins and220 previoushistoryfiles unchanged | Other-subject/runtime and priorlesson/review bytes |
+| Ruff/whitespace/stagedaudit |Passed | HistoryPython criticalerrors/history-only textfiles/noJWTprivateDB |
+
+Source limits in SOURCE_REVIEW. Tests reject incorrect regnalordinal, partial
+names, switching literary and opera authors, historicalunion with presentstate,
+grading colonial social categories as biological facts, altered original render
+digest and broadened shared page regions. Full names and Morelos continuation
+relation are explicitly taught before FRQ, not merely present in answer keys.
+All110 prior lesson/review pairs immutable. Actual captures inspected:§21 light
+theory200%,§23 lightsharedfeedback200%,§25 typedFRQsource/resume.
+Independentteacher/nativeAndroid/IME/TalkBack remain unperformed. Earlier2569-pass
+fullbackend is baseline evidence,notthisrerun. No production DB/deploy/AI/userdata.
+No textbookPDF/images/OCR in Git. Only two history feature branches.
+Nextbatch24 grade8§26–30; original3–138read/private§26–27 strictvalidated notindexed.
+
+Precommit audit found initial grade8 catalogue exported during an unfinished
+import still listed20 lessons, while completed API flow correctly covered25.
+After importer completion, fresh synthetic900237 re-exported allsix initial
+catalogues; verified grade8=25 before rerunning targeted and full Flutter suites
+sequentially. Original synthetic900236 progress/results retained. Private HTTP
+export helper now asserts each grade count against validated lesson index before
+writing fixtures. Import command must finish before dependent HTTP QA starts.

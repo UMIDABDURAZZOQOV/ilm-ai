@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "lesson_file": "grade8_paragraph22.json",
+  "lesson_sha256": "82ac02b4f7d0d2b0d05e87b4be98483f054ec02521a7cba73cdaaa3f0bc9d050",
+  "review_method": "original_page_images_and_embedded_text",
+  "reviewer": "Codex source-image review; not independent history-teacher sign-off",
+  "source_pages": [
+    {
+      "review_id": "wh8-p22-page107",
+      "book_id": "world-history-8-uz-2019",
+      "topic_id": "wh8-topic22",
+      "sha256": "bb3b3f91bd01f239a626768d1b7e4f279374e63275eca41b7858765ee987e806",
+      "pdf_page": 107,
+      "printed_page": 107,
+      "region": "below_topic_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "0e83649844ad5e943533ce587232ee8331e177700382d2d5b209ca26e17ecfe1",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh8-p22-page108",
+      "book_id": "world-history-8-uz-2019",
+      "topic_id": "wh8-topic22",
+      "sha256": "bb3b3f91bd01f239a626768d1b7e4f279374e63275eca41b7858765ee987e806",
+      "pdf_page": 108,
+      "printed_page": 108,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "ab7f33153b63429e39a522ebd4bcf4c023c4e7b8007519805981f5240d9dd396",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh8-p22-page109",
+      "book_id": "world-history-8-uz-2019",
+      "topic_id": "wh8-topic22",
+      "sha256": "bb3b3f91bd01f239a626768d1b7e4f279374e63275eca41b7858765ee987e806",
+      "pdf_page": 109,
+      "printed_page": 109,
+      "region": "topic_body",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "cf132ee169407ef3751f94d694183c43f26d9e273ec2374228d2865d9e5e94eb",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    },
+    {
+      "review_id": "wh8-p22-page110",
+      "book_id": "world-history-8-uz-2019",
+      "topic_id": "wh8-topic22",
+      "sha256": "bb3b3f91bd01f239a626768d1b7e4f279374e63275eca41b7858765ee987e806",
+      "pdf_page": 110,
+      "printed_page": 110,
+      "region": "above_next_heading",
+      "verification": "page_image_reviewed",
+      "page_image_sha256": "974abc46b340a5d28c6dbdc8b051fafb643eb468b901d272c836d7038fcf53e3",
+      "reviewed_on": "2026-10-27",
+      "scope": "Original image read; named topic region only, no adjacent paragraph claims."
+    }
+  ],
+  "original_authorship": true,
+  "historical_review_notes": [
+    "Original107below§22–110above§23 read;107recall/108Cavourportrait/109Bismarkportraitandcallout/110fillinsdefinitionfourquestionsVennvirtualtour covered.",
+    "108Prussian1848constitution narrowyear only.109GermanyEmpirealreadyexists/PrussianBismarkchancellortitle/1866vs1867federationformalconstitution chronology/1919sameconstitutionunbroken held, no absent1871date invented.",
+    "1861Italykingdom distinctfrom1866Venice1870Rome. Allpeopleunanimousliberation/threeleadersliteralbodymetaphor/allunificationsolecapitalism/Prussianhonour/colonialismnecessary not automaticfacts. Causeandethics teacher-only."
+  ],
+  "approved_fact_sha256": {
+    "causes": "683bb03ae56ba838f5aa063201d94cac010fb8091ffd7948199db486a4881601",
+    "berlin": "830350137d3d1533632361c00cef9f2885c0ea340e315da22a2015bf6e57505d",
+    "constitution": "a347292fde1f539bf2e0337f84d5342022c29422cf663fece591da0c895d1fba",
+    "italy": "cfc8600b67d99159390f6d145e554c0b247912564e189fe3ecaeb040a5466ebc",
+    "cavour": "b66578c67e817d0724854f3a0f3599cbb4e743cfe33e958c1ed044d069a7c1c3",
+    "garibaldi": "a0914639b9e631d9142c913329bd46d14a087aad2c6dddbe17a2b524f5e69339",
+    "mazzini": "5365e1ffeabf98933235830231b4cdc2e27f5284e91e44502945eb5d09a07545",
+    "territories": "56f55aaec6b82aa21d8e23168acc451d8d079c7996c59bb9c5b1e8d8f56750a4",
+    "parliament": "0cb2cb12f7dd87ea88f0e26461c19344aa53ca484444ae59bc2e9b15703774b3",
+    "bismarck": "4ed22e5ed193653e4ff1431928645232f33d4463505d446f1e71646182e6d2a3",
+    "politics": "901c9c633a1b704de0c4d9140f1f613c33a5522c2e0845b2746bc86c1b9297ad"
+  },
+  "approved_content_sha256": "8ec15ce455ba784c997ea2a1ef709d4b74866b6b08b2a164fe2a8a0e87e15fd4",
+  "approved_assessments_sha256": "eac6fa04989957579a7f0c6e33723ec480b7cdc22654d4dae9472fb41945be12",
+  "approved_answer_targets": {
+    "world-history-8-p22-r1-q01": {
+      "fact_ids": [
+        "berlin"
+      ],
+      "verified_answer": "Berlin",
+      "aliases": []
+    },
+    "world-history-8-p22-r1-q02": {
+      "fact_ids": [
+        "italy"
+      ],
+      "verified_answer": "1861-yil",
+      "aliases": []
+    },
+    "world-history-8-p22-r1-q03": {
+      "fact_ids": [
+        "cavour"
+      ],
+      "verified_answer": "Kamillo Kavur",
+      "aliases": []
+    },
+    "world-history-8-p22-r1-q04": {
+      "fact_ids": [
+        "mazzini"
+      ],
+      "verified_answer": "Juzeppe Madzini",
+      "aliases": []
+    },
+    "world-history-8-p22-r1-q05": {
+      "fact_ids": [
+        "territories"
+      ],
+      "verified_answer": "Rim",
+      "aliases": []
+    },
+    "world-history-8-p22-r1-q06": {
+      "fact_ids": [
+        "bismarck"
+      ],
+      "verified_answer": "Otto fon Bismark",
+      "aliases": []
+    },
+    "world-history-8-p22-r1-q07": {
+      "fact_ids": [
+        "garibaldi"
+      ],
+      "verified_answer": "Juzeppe Garibaldi",
+      "aliases": [
+        "Juzeppe Garibaldi"
+      ]
+    },
+    "world-history-8-p22-r1-q08": {
+      "fact_ids": [
+        "cavour"
+      ],
+      "verified_answer": "Kamillo Kavur",
+      "aliases": [
+        "Kamillo Kavur"
+      ]
+    },
+    "world-history-8-p22-r1-q09": {
+      "fact_ids": [
+        "mazzini"
+      ],
+      "verified_answer": "Juzeppe Madzini",
+      "aliases": [
+        "Juzeppe Madzini"
+      ]
+    },
+    "world-history-8-p22-r1-q10": {
+      "fact_ids": [
+        "bismarck"
+      ],
+      "verified_answer": "Otto fon Bismark",
+      "aliases": [
+        "Otto fon Bismark"
+      ]
+    }
+  },
+  "source_activity_coverage": [
+    {
+      "pdf_page": 107,
+      "activity": "below_topic22_causes_recall_1847crisis",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 108,
+      "activity": "berlin_constitution_italy_cavourportrait_garibaldi_mazzini",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 109,
+      "activity": "italyparliament_venice_rome_bismarkportrait_federation_callout",
+      "covered_by": [
+        "reflection"
+      ]
+    },
+    {
+      "pdf_page": 110,
+      "activity": "above_topic23_fillins_definition_fourquestions_Venn_virtualtour",
+      "covered_by": [
+        "reflection"
+      ]
+    }
+  ]
+}
