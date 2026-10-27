@@ -32,7 +32,7 @@
 
 - 9-sinf Algebra va 11-sinf I qism: fayllar biriktirilgan, lekin `download_file` 32 MiB chegarasi bilan rad etdi. Ular `transfer_blocked_32_MiB`; SHA/sahifa soni to‘qilmadi. Asl PDF sahifa oraliqlari saqlangan 32 MiBdan kichik segmentlar kerak. Foydalanuvchi ro‘yxatidagi 240/192 sahifa manbaning o‘zi bilan hali tasdiqlanmagan.
 - 6-sinf II qism, 7–10-sinf alohida Geometriya: `source_missing`. Mavjud Algebra kitoblari ularning o‘rnini bosmaydi.
-- 3390 umumiy sahifa — foydalanuvchi bergan taxminiy/ro‘yxatdagi umumiy son. Olinmagan ikki PDF tasdiqlanmaguncha to‘liq inventar tekshirildi deyilmaydi.
+- 3390 umumiy sahifa — foydalanuvchi bergan ro‘yxatidagi umumiy son. Olinmagan ikki PDF tasdiqlanmaguncha to‘liq inventar tekshirildi deyilmaydi.
 
 Bibliografiya maydonlarining aksariyati native/OCR qatlamidan tekshirish uchun olindi. Faqat 1-sinf I qism PDF3 va 8-sinf PDF1–2 bibliografiyasi asl tasvirda ko‘rildi; qolganlari `extracted_not_yet_visually_confirmed`. ISBN checksum alohida belgi, manba tasdig‘i emas. 1-sinf III qism 2024-yilgi 2-nashr bo‘lib, 2023-qismlarga bir xil nashr sifatida qo‘shilmadi. 8-sinf asosan skan: native qatlamdagi eduportal watermark o‘quv matni emas. 11-sinf II qismda algebra/analiz va geometriya mualliflari alohida.
 

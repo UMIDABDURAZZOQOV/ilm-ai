@@ -1,5 +1,27 @@
 # Ilm AI — Project Context (for Claude)
 
+**2026-10-27 — Matematika 1–11: birinchi tekshirilgan partiya.**
+`feat/mathematics-curriculum` uchun alohida backend/Flutter worktreelari yaratildi.
+23 ta PDF va 2958 sahifa olindi. 9-sinf Algebra va 11-sinf I qism transferda
+32 MiB chegarasi bilan bloklangan; 6-sinf II qism va 7–10-sinf Geometriya manbalari yo‘q.
+1-sinf I qismda 41 ta mundarija lokatori, dastlabki 5 ta manbali interaktiv dars mavjud:
+29 karta, 5 misol/15 qadam, 15 guided + 5 MCQ + 5 FRQ + 5 transfer, 5 boshlang‘ich model.
+PDF 55–56 bosma 52–53 ning takror skani; alohida mavzu deb sanalmadi.
+Qo‘lyozma javoblar kalit sifatida ishlatilmadi. Math v1 API va 4 ta jadval alohida;
+chegaralangan exact Fraction parser, bosqichli ishoralar, ordered retry, snapshot,
+JWT egaligi, takroriy XP himoyasi va origin/UID bo‘yicha qoralama saqlanishi ishlaydi.
+Umumiy backend: `2567 passed, 10 skipped, 2 deselected, 13 warnings in 1028.07s (0:17:08)`.
+So‘nggi alohida Math: `47 passed, 1 skipped in 2.80s`; lokal PG: `1 passed in 3.03s`.
+Flutter: `01:51 +382: All tests passed!`; `No issues found! (ran in 1.2s)`.
+Debug JS build 41.0 sekundda o‘tdi; yaroqsiz compile-only placeholder ishlatildi.
+Real Android, o‘qituvchi ko‘rigi, pilot va rasmiy dastur mosligi tasdiqlanmagan.
+To‘liq Matematika kursi **tugallanmagan**; jami mavzular/qolganlar hali noma’lum.
+Keyingi: 1-sinf I qism, 6-mavzu, PDF 15–16. Backend code `e60cdee90b1ec3538e08bf6b8c76806d66e2e16b`,
+Flutter `86e7d303c4f28b4239e5234c0a386b5004dc1ea1` GitHub feature branchlariga push qilindi. Mavjud fanlar,
+normal app/API/auth, frontend, umumiy Gradle va production o‘zgartirilmagan.
+[QA](docs/mathematics/QA_REPORT.md), [davom](docs/mathematics/RESUME_CHECKPOINT.md),
+[qamrov](docs/mathematics/CURRICULUM_COVERAGE.md), [qabul holati](docs/mathematics/COURSE_COMPLETION.md).
+
 **2026-10-27 — O‘zbekiston tarixi, yakuniy kontent 172/172.**
 7/8/9/10/11-sinflar: 42/41/39/28/22; 34 bob, 1 280 karta, 1 027 topshiriq
 (597 MCQ / 342 qisqa FRQ / 88 xronologiya), 172 misol va 172 self/teacher refleksiya.

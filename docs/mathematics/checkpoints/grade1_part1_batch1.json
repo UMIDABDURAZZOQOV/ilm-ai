@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-27",
+  "branch": "feat/mathematics-curriculum",
+  "backend_code_commit": "e60cdee90b1ec3538e08bf6b8c76806d66e2e16b",
+  "flutter_code_commit": "86e7d303c4f28b4239e5234c0a386b5004dc1ea1",
+  "publication": "local_test_preview_only",
+  "course_ready": false,
+  "completed_lessons": 5,
+  "full_topic_total": null,
+  "remaining_topic_total": null,
+  "available_source_pdfs": 23,
+  "available_source_pages": 2958,
+  "toc_mapped_grade1_part1": 41,
+  "theory_cards": 29,
+  "worked_examples": 5,
+  "worked_example_steps": 15,
+  "guided_questions": 15,
+  "mcq_phase": 5,
+  "frq_phase": 5,
+  "transfer_phase": 5,
+  "questions": 30,
+  "interactive_elementary_models": 5,
+  "source_audit": {
+    "available_pdfs": 23,
+    "available_pages": 2958,
+    "body_image_reviewed_topics": 5,
+    "reviewed_body_pages": 10,
+    "interactive_lessons": 5,
+    "theory_cards": 29,
+    "questions": 30,
+    "blocked_sources": [
+      {
+        "book_id": "math-uz-g9-p1",
+        "grade": 9,
+        "part": 1,
+        "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g11-p1",
+        "grade": 11,
+        "part": 1,
+        "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+        "status": "transfer_blocked_32_MiB",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g6-p2",
+        "grade": 6,
+        "part": 2,
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g7-geometry",
+        "grade": 7,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g8-geometry",
+        "grade": 8,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g9-geometry",
+        "grade": 9,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      },
+      {
+        "book_id": "math-uz-g10-geometry",
+        "grade": 10,
+        "domain": "geometry",
+        "status": "source_missing",
+        "sha256": null,
+        "pdf_pages": null
+      }
+    ],
+    "full_curriculum_topic_count": null,
+    "course_ready": false
+  },
+  "tests": {
+    "backend_regression": "2567 passed, 10 skipped, 2 deselected, 13 warnings in 1028.07s (0:17:08)",
+    "math_latest": "47 passed, 1 skipped in 2.80s",
+    "postgres": "1 passed in 3.03s",
+    "flutter_full": "01:51 +382: All tests passed!",
+    "flutter_math": "00:14 +13: All tests passed!",
+    "analyze": "No issues found! (ran in 1.2s)"
+  },
+  "web_build": "Debug JS build passed in41.0s with invalid compile-only placeholder; no real JWT embedded",
+  "android": "SDK/adb unavailable; not run; separate unapplied Gradle identity handoff",
+  "independent_teacher_review": "not_verified",
+  "child_pilot": "not_verified",
+  "official_2026_2027_alignment": "not_verified",
+  "protected_worktrees": {
+    "ilm-ai": "e2aab00ecac29294600a3ac4e5e95d5299c3eeaf",
+    "ilm-ai-flutter": "ba2e0e213aa47e8a2968fcbc1dc2b06b018e393d",
+    "ilm-ai-frontend": "054f0cea9b78a9c791cba5aa478fc3769cbd85b8",
+    "ilm-ai-uzbekistan-history": "1a4f9823f52cd2bbd738efab5437ecb3b201275d",
+    "ilm-ai-flutter-uzbekistan-history": "fa6c305c4a56b16f397aa5d73f40b8040f016ed3"
+  },
+  "log_sha256": {
+    "backend_regression": "a8ceb5cfbb2dcfa14fa97c0cadfb338e3649f040d323e7d278763752ffb66640",
+    "math_latest": "2a004c6addaa6f6706326061f48dce01da41b586d4c9680b184aab12b024cc88",
+    "postgres": "7f0ace10eedfb07ace18a0ef6dc2ac8d19d6c6e0784eab34dbdb4dabdf58b44c",
+    "flutter_full": "4ae056133abde92de1618c57698aa9675e383649e714551381f13fc4f1fcfdb1",
+    "flutter_math": "e880fc77d9109f64438702d51a14906d3d5933d494f866fa2cecceb8cc1072e4",
+    "analyze": "cb08cee8e4088fec68e1edb66d815335a97c842cf97f1fd41be7c1d1f0cfda69",
+    "source": "b1609433d357627cde495cecbe485aa9050783ea5f792868674399ca06205a07",
+    "web": "d936afb440639687aa197589af1045b03f7019bdb1e40998833a39b46c4dbdcd",
+    "doctor": "5dfcc0868fdf5393703d103750b905eab7f21254137871696decf25ef46db768",
+    "lint": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+  },
+  "test_scope_note": "Full regression collected before new source/setup guard tests were added; final Math suite independently includes those four guards and refreshed source examples. Two standalone sandbox positive tests were excluded without bypassing their Git-directory guard. Opt-in PostgreSQL ran separately in our own random staging schema. No integrated Chemistry/WorldHistory branch claim.",
+  "next_step": {
+    "grade": 1,
+    "part": 1,
+    "source_number": 6,
+    "title": "Vaqt bo‘yicha ketma-ketlik",
+    "pdf_pages": [
+      15,
+      16
+    ],
+    "printed_pages_from_toc": [
+      14,
+      15
+    ]
+  }
+}
