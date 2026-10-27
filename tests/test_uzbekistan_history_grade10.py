@@ -25,7 +25,30 @@ FRQ = {
     4: ["Yangi iqtisodiy siyosat", "Pud"],
     5: ["Qo‘rboshi", "Madaminbek"],
 }
-ORDER = {}
+MCQ.update(
+    {
+        6: ["Fayzulla Xo‘jayev", "Qiziltepa", "Konstitutsiya"],
+        7: ["Bobooxun Salimov", "Polvonniyoz Yusupov", "Xalq dorilfununi"],
+        8: ["Mulla Abdulqahhor", "Cho‘lpon", "Junaidxon"],
+        9: ["Turor Risqulov", "O‘zbekiston SSR", "Qozoqlar"],
+        10: ["Yo‘ldosh Oxunboboyev", "Toshkent", "Qo‘shchi"],
+    }
+)
+FRQ.update(
+    {
+        6: ["Mirzo Salimbek", "Sitorai Mohi Xosa"],
+        7: ["Junaidxon", "Polvonniyoz Yusupov"],
+        8: ["Anvar Posho", "Afg‘oniston"],
+        9: ["Fayzulla Xo‘jayev", "Tojikiston ASSR"],
+        10: ["Fayzulla Xo‘jayev", "Qoraqalpog‘iston ASSR"],
+    }
+)
+ORDER = {
+    6: ["e1", "e2", "e3"],
+    7: ["e1", "e2", "e3", "e4"],
+    9: ["e1", "e2"],
+    10: ["e1", "e2", "e3", "e4"],
+}
 
 
 def lessons():
@@ -33,7 +56,7 @@ def lessons():
 
 
 def answers(lesson):
-    """Literal values checked on PDF5–31; never read grading_spec to derive a key."""
+    """Literal original-page values; never read grading_spec to derive a key."""
     mc = short = 0
     result = []
     for q in lesson["assessments"]:
@@ -55,7 +78,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("sequence", range(1, 6))
+@pytest.mark.parametrize("sequence", range(1, 11))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):

@@ -198,3 +198,10 @@ Xivaning35–36paragraflari birlashtirilgan: yer, boshqaruv, soliq, sanoat, uy h
 5–31-asl sahifalar o‘qildi. Fevral/oktabr voqealari uchun eski va yangi taqvim yozuvi bir xil hodisaning ikki sanasi bo‘lishi mumkin. 1917-yil Turkiston komitetida ayrim turkiy xalqlar vakillari bo‘lgan; «mahalliy aholidan hech kim yo‘q» degan umumiy da’vo qilinmaydi. Keyingi o‘lka XKS tarkibidagi vakillik masalasi aynan shu idoraga tegishli.
 
 Muxtoriyat uchun Tinishboyevdan Cho‘qayga rahbarlik almashishi, Kengash/Majlis va vazirliklar farqlanadi. «72 kun» kalendar/voqea chegarasi va talafot sonlari mustaqil ekspertizaga qoldirilgan, avtomatik kalit emas. Qo‘qon hujumidagi muayyan qurolli tuzilmalar faoliyati barcha armanlar yoki boshqa etnik guruhlarning kollektiv aybi sifatida berilmaydi. NEP, oziq-ovqat solig‘i va harbiy kommunizm davlat tuzilmasi nomi bilan aralashtirilmagan. Qo‘rboshi atamasining davrga qarab vazifasi o‘zgargani manbaga xos izohlanadi; harakat nomi barcha ishtirokchilarning bir xil niyatini isbotlamaydi.
+
+
+## 10-sinf §6–10 — Buxoro, Xorazm va chegaralanish
+
+31–60-asl sahifalar o‘qildi. BXSRning 1920-yil 6–8-oktabr qurultoyi bir necha kun davom etgan: 9-sinfdagi qisqa 6-oktabr qaydini yagona mutlaq kun qilib testlamaymiz. Fayzulla Xo‘jayevning Nozirlar Sho‘rosi va MIK rahbarlari turli lavozimlar. Buxoro/Xorazm xalq respublikalari va keyingi sotsialistik nomlari ajratildi. Xivaning egallanishi, xonning voz kechishi va revkom tuzilishi sanalari turli bosqichlar; ularning barchasi yagona 1 yoki 2-fevralga majburlanmagan.
+
+1924-yilgi chegaralanish komissiyalari, mahalliy qarorlar va markaziy tasdiq bir kunda davlat paydo bo‘lgan degan sodda hisobga keltirilmagan. Eski hujjatlardagi qirg‘iz/qoraqirg‘iz atamalari zamonaviy nomlar bilan kontekstda izohlangan. 1924-yil tuzilish qarori, 1925-yil O‘zbekiston ta’sis qurultoyi va 1926-yil Tojikiston ASSR qurultoyi yagona sana emas. Qoraqalpog‘istonning muxtor viloyat/ASSR maqomi va 1936-yil tarkibga kirishi farqlanadi. Davlat siyosati haqidagi bahsli niyatlar bitta obyektiv fikr kaliti emas. Zo‘ravonlikning tekshirilmagan talafot sonlari avtomatik savolga kiritilmadi.
