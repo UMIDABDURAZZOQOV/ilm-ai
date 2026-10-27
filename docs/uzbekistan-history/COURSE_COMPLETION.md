@@ -34,3 +34,8 @@ Biology406/Physics316 va552eski backend fayli,7-sinfning42r1darsi hamda oldingi4
 ## Git va davom
 
 Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Avvalgi7-sinf backend `e293e48`,Flutter `f90637e` saqlandi. Ushbu checkpoint commitini remote SHA bilan tekshiring. **Keyingi: 9-sinf §1, PDF/bosma 5 — XIX asr o‘rtalarida O‘rta Osiyo davlatlarining hududi va aholisi (asl sahifalarni tekshirib davom eting).** Partiyalar orasida ruxsat talab qilinmaydi. [Manba auditi](GRADE8_SOURCE_REVIEW.md), [to‘liq xarita](COURSE_MAP.md), [davom](STAGE2_PROGRESS.md).
+
+
+## 8-sinf to‘liq regression dalili
+
+2429 passed, 6 skipped, 2 deselected, 13 warnings in 599.35s (0:09:59). Alohida PG2passed; Flutter277passed/analyze0. DebugJSwebbuildpassed; Android va teacher tasdig‘i yo‘q. [Logxeshlar va frozen content commitlar](checkpoints/grade8_validation.json).
