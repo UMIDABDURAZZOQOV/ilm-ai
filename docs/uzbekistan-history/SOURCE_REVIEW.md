@@ -86,3 +86,8 @@ To‘rtta40sahifalik segment olindi,160sahifa/printed footer tartibi va barcha41
 ## 8-sinf §6–10 — 2026-10-27
 
 Asl19–34tasvirlari o‘qildi, kartalar19–33dagi o‘z paragraf bandlariga bog‘landi. Abdullaxon II ning1556amaldagi hokimiyati va1583rasmiy xonligi ajratildi; Jonibek/Boqi/Vali Muhammad rollari va bir xil ismli Ubaydullaxonlar adashtirilmadi.1708pul islohotidan1709Farg‘ona voqeasining barcha sababi avtomatik chiqarilmadi. Dargoh,devon,parvonachi,dodxoh,mirob kabi rollar aniq vazifalar bilan berilgan; boshqa davrga aynan ko‘chirilmagan. Harbiy bo‘lim faqat darslikdagi tarixiy atamalar va vazifalarga asoslangan.7-sinfningimmutable42darsi o‘zgarmagan. Keyingi§11–15uchun asl34–57ko‘rildi; hali registered darslar emas.
+
+
+## 8-sinf §11–15 — 2026-10-27
+
+Asl34–57to‘liq tasvirlari ko‘rildi; yerning huquqi,daromad va soliq bazasi farqlangan. Xiroj stavkalari universal yoki bugungi soliq qoidasi sifatida berilmadi. Elchi sanasi bilan muallifning xalqaro manfaatlar haqidagi talqini ajratildi. Bir xil «Shayboniynoma» sarlavhasi uchun Binoiy va Muhammad Solih asarlari farqlanib, savolda til aniqlashtirildi. Yalangto‘sh bilan bog‘liq47-sahifadagi asr iborasi mustaqil me’morchilik tarixi ekspertizasiga qoldirildi; bino davri uchun bahsli asr avtomatik kalit emas. Mang‘itlar unvonini barcha hukmdor/davr uchun «xon emas amir» deb umumlashtirish ham kalitga kiritilmadi.1756hokimiyat almashishi alohida tekshirilgan qayd bo‘lib qoladi.153dagi nashr davri maqsadlari bajarilgan zamonaviy faktga aylantirilmaydi. Keyingi§16–20uchun asl57–75ko‘rildi, kontent hali validatorga ro‘yxatlanmagan.
