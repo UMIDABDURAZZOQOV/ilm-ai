@@ -844,3 +844,36 @@ catalogues; verified grade8=25 before rerunning targeted and full Flutter suites
 sequentially. Original synthetic900236 progress/results retained. Private HTTP
 export helper now asserts each grade count against validated lesson index before
 writing fixtures. Import command must finish before dependent HTTP QA starts.
+
+## Batch24 — grade8§26–30, 2026-10-28
+
+Five lessons add35 cards,49 fact records,28 MCQ and20 objective FRQ. Total
+**120/219 local-preview lessons**,907 cards,1764 fact records,803 MCQ,474 FRQ,
+120 self/teacher activities. Grade6/7 complete content presence46/44;grade8 is30/33.
+**99 remain:** grade8=3,grade9=41,grade10=26,grade11=29. Acceptance flags false.
+
+| Check | Actual result | Scope |
+| --- | --- | --- |
+| All history backend |359 passed,1411.56s wall | All26 modules/four isolated shards89/72/115/83;1368.41/1028.23/975.15/1407.0s |
+| Actual PostgreSQL |1 passed in159.20s | Fresh dedicatedschema/parallel completion/all120units2400XP/replay |
+| Actual HTTP |6 catalogues,1277 answers,2400XP | Freshsynthetic900246/prerequisites/replay/noexistinguserreset |
+| Targeted Flutter |259 passed in05:12 | All120publicAPI snapshots/200% theoryMCQ/typedFRQ/initialcatalogueguard |
+| Full Flutter |868 passed in06:41 | Entireworktree sequential no-pub aftertargeted |
+| Full analysis |0 issues in251.5s | EntireFlutterworktree |
+| Preservation |687 baseline pins and230 previoushistoryfiles unchanged | Other-subject/runtime and priorlesson/review bytes |
+| Ruff/whitespace/stagedaudit |Passed | HistoryPython criticalerrors/history-only textfiles/noJWTprivateDB |
+
+Tests reject partial names, king/regent/title substitutions, broad sameperson
+aliases when a prompt requests another name, imperialdivinity/superiority as an
+automatictruth, alteredmaprender and broadenedregions. Sipohiy is explicitly
+scoped to the current chapter. FirstOpiumWar interval is marked bookperiodization.
+Importer completion was awaited before dependent HTTP export. Private exporter
+asserted allsix grade counts; Flutter now compares initial and latest completed
+grade8 implemented counts and row counts. Both snapshots contain30 lessons.
+All115 prior lesson/review pairs immutable. Actual captures inspected:§26 dark
+theory200%,§27 lightsharedfeedback200%,§30 typedFRQsource/resume.
+Independentteacher/nativeAndroid/IME/TalkBack remain unperformed. Earlier2569-pass
+fullbackend is baseline evidence,notthisrerun. No production DB/deploy/AI/userdata.
+No textbookPDF/images/OCR in Git. Only two history feature branches.
+Nextbatch25 grade8§31–33 then grade9§1–2; grade8 original3–156 read and private
+lastthree strictvalidated, notindexed. Scannedgrade9originalfactreview next.

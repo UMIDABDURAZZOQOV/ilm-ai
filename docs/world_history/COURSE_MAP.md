@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 115; remaining: 104.** Source pages are candidate spans;
+**Reviewed preview lessons: 120; remaining: 99.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -175,11 +175,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 23 | wh8-topic23 | 1800–1870-yillarda Rossiya | 110–115 | reviewed_preview_ready |
 | 24 | wh8-topic24 | 1800–1870-yillarda Amerika Qo‘shma Shtatlari | 115–120 | reviewed_preview_ready |
 | 25 | wh8-topic25 | Lotin Amerikasi xalqlarining milliy-ozodlik kurashi | 120–126 | reviewed_preview_ready |
-| 26 | wh8-topic26 | 1800–1870-yillarda Hindiston | 126–130 | not_implemented |
-| 27 | wh8-topic27 | 1800–1870-yillarda Xitoy | 130–134 | not_implemented |
-| 28 | wh8-topic28 | 1800–1870-yillarda Yaponiya | 134–138 | not_implemented |
-| 29 | wh8-topic29 | 1800–1870-yillarda Koreya | 138–142 | not_implemented |
-| 30 | wh8-topic30 | 1800–1870-yillarda Usmoniylar imperiyasi | 142–145 | not_implemented |
+| 26 | wh8-topic26 | 1800–1870-yillarda Hindiston | 126–130 | reviewed_preview_ready |
+| 27 | wh8-topic27 | 1800–1870-yillarda Xitoy | 130–134 | reviewed_preview_ready |
+| 28 | wh8-topic28 | 1800–1870-yillarda Yaponiya | 134–138 | reviewed_preview_ready |
+| 29 | wh8-topic29 | 1800–1870-yillarda Koreya | 138–142 | reviewed_preview_ready |
+| 30 | wh8-topic30 | 1800–1870-yillarda Usmoniylar imperiyasi | 142–145 | reviewed_preview_ready |
 | 31 | wh8-topic31 | 1800–1870-yillarda Eron va Afg‘oniston | 145–151 | not_implemented |
 | 32 | wh8-topic32 | 1800–1870-yillarda Afrika xalqlari | 151–155 | not_implemented |
 | 33 | wh8-conclusion | Xulosa | 156 | not_implemented |

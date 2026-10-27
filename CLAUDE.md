@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch23 has115 local-preview units: all grade6/7 plus grade8§1–25,
-872 cards,775 MCQ,454 objective FRQ;
-104 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade8§26–30; original3–138 read, private§26–27 strictvalidated, author28 next then139 onward.
+Batch24 has120 local-preview units: all grade6/7 plus grade8§1–30,
+907 cards,803 MCQ,474 objective FRQ;
+99 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at batch25 grade8§31–33 then grade9§1–2; grade8 original3–156 read, private31–33 strictvalidated, audit grade9 originals next.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2941,3 +2941,12 @@ only1860growth and emigration wording held. Literature vs opera authors, regnal
 names and historic unions have finite per-question targets. No outside repairs,
 biological colonial labels or automatic opinion scores. QA in QA_REPORT. Next
 batch24§26–30; private§26 is not ready/imported.
+
+Batch24 checkpoint:120/219,99left; grade8 has30/33.127 cartridge composition
+rumour/onlyIndianorganization,129 companylegalend/firsteducation,132 Yansziprovince/
+statefoundation/mapcaption and133 suicideclaim,136 sameyearcoronation/agrarian
+fractions,137 divineorigin/nationalsuperiority,141 latercoloniallifespan,144 Paris
+property-rights scope held. Treaty context and regent/king/name targets remain
+finite. Original3–156 grade8 deeply read, private31–33 strictvalidated, notready.
+Next five-lesson batch: grade8 remainingthree, then grade9 firsttwo; scanned
+grade9 requires original image fact checks. QA in QA_REPORT.
