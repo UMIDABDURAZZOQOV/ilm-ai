@@ -35,6 +35,7 @@ BATCHES = {
     "grade8_batch6": (8, 26, 30),
     "grade8_batch7": (8, 31, 35),
     "grade8_batch8": (8, 36, 41),
+    "grade9_batch1": (9, 1, 5),
 }
 
 fingerprint = digest

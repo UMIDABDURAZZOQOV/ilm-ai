@@ -130,3 +130,13 @@ Asl133–156to‘liq o‘qildi; barcha40raqamlangan paragraf va153–156dagi alo
 Davlat/xususiy/vaqf yer, xos/taqiq/chek, yollanma ishchi/ijarachi, soliq va boj vakolati farqlangan.140xaritada talash yer va taxminiy chegara mutlaq hudud deb o‘qilmaydi. Asar,taxallus,tarixchi,xattot va me’moriy inshootga alohida manba berildi; asar matni ko‘chirilmagan.149dagi BMT binosi/iqtibos joylashuvi haqidagi tashqi da’vo mustaqil tekshiruvga qoldirildi va dars kalitiga kirmadi.
 
 §40dagi siyosiy nutq, badiiy roman qahramoni so‘zi, iqtisodiy sabablar talqini va tarixiy fakt bir xil isbot deb olinmaydi.2035maqsadi2019nashrdagi kelajak bayoni,2026natijasi emas. Yakuniy faoliyat uch davlatni rubrika bilan qiyoslashni so‘raydi; ochiq tahlil/esse bitta matn kaliti bilan avtomatik baholanmaydi. Uning obyektiv mashqlari oldin o‘qilgan aniq paragrafning source_title/topicSHA/pixelSHA/boundary refi bilan bog‘langan.7-sinf42r1 saqlandi.
+
+## 9-sinf birinchi partiya — §1–3, §4–5 va §6
+
+Asl5–23sahifalar o‘qildi. Beshta o‘quv birligi oltita paragraf raqamini qamraydi:§4–5kitobning o‘zida bir mavzu. Tarixiy hududlar hozirgi davlat chegaralari emas;6xaritadagi talash/qaram yer va7aholi taxminlari mutlaq doimiy huquq yoki shaxsning etnik kasbini belgilovchi kalit bo‘lmaydi.
+
+8–9dagi mansab tavsiflari 8-sinfdagi ayrim ierarxiyalardan farq qiladi: Xivada oliy amaldor devonbegi, Qo‘qonda yuqori harbiy amirlashkar, mingboshilar esa qismlar rahbari sifatida berilgan;8-sinfda mehtar/mingboshi rollari boshqacha umumlashtirilgan. Qaysi davr yoki manbada vakolat aynan qanday bo‘lganini mustaqil tarixchi bilan qiyoslash kerak. Shu tafovutlar mutlaq bir qiymatli savol qilinmadi;8-sinf r1/progress qayta yozilmadi. Solg‘ut(9-sinf11) va salg‘ut(8-sinf95) yozuvlari manba bo‘yicha saqlanadi.
+
+Madaniyat mavzusi XIXo‘rtasi sarlavhasiga ega bo‘lsa ham16–18dagi1871/XXasr misollari keyingi davr qaydi deb ochiq farqlangan.1871madrasa qaydi qurilish bosqichi/aniq tugash sanasining tashqi tasdig‘i emas. «Xudoyiqul anvar» nomi16asl tasviridan o‘qildi; muallif/asar yozilishi va tasvirlangan voqea davri almashtirilmagan.
+
+20dagi Britaniya missiyalari sanalari, ayniqsaAbbot1843, mustaqil xronologik qiyosga qoldirilgan; boshqa sana o‘ylab topilmadi va avtomatik kalit emas.21/23dagi1847–1865birinchi bosqich hamda umumlashtirishdagi1864–1885boshlanish tafovuti saqlandi, yagona boshlanish yiliga majburlanmadi. Hududiy istilo yoki hukumat qarori bugungi butun xalqning kollektiv aybi qilib ko‘rsatilmaydi. Rasmiy bahona, muallif talqini va hujjatli voqea farqlanadi. Keyingi§7–11uchun23–38asl sahifalar ko‘rildi; hali ro‘yxatlanmagan qoralama.

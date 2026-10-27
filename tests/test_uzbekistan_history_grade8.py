@@ -389,8 +389,13 @@ def test_postgres_grade8_owned_schema_replay_parallel_and_grade7_preserved(monke
                 User(id=1, name="Local QA", email="uzh8-qa@example.test", xp_total=137)
             )
             db.flush()
-            assert import_course(db)["created"] == 42 + len(lessons())
-            assert import_course(db) == {"created": 0, "skipped": 42 + len(lessons())}
+            assert import_course(db)["created"] == sum(
+                len(d["lessons"]) for d in load_course()
+            )
+            assert import_course(db) == {
+                "created": 0,
+                "skipped": sum(len(d["lessons"]) for d in load_course()),
+            }
         monkeypatch.setenv("ENVIRONMENT", "test")
         monkeypatch.setenv("UZBEKISTAN_HISTORY_PREVIEW_ENABLED", "true")
         monkeypatch.setattr(

@@ -699,7 +699,9 @@ def test_gate_and_wrong_subject_keys(preview, monkeypatch):
         == 404
     )
     assert c.get(P + "/catalog?grade=6").status_code == 422
-    assert c.get(P + "/catalog?grade=9").json()["lessons"] == []
+    for grade in range(9, 12):
+        count = sum(len(d["lessons"]) for d in load_course() if d["grade"] == grade)
+        assert len(c.get(P + f"/catalog?grade={grade}").json()["lessons"]) == count
     monkeypatch.setenv("ENVIRONMENT", "production")
     assert c.get(P + "/catalog").status_code == 404
 
