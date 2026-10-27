@@ -263,3 +263,8 @@ Asl sahifalar va chegaralar [11-sinf source review](GRADE11_SOURCE_REVIEW.md) bi
 ## 11-sinf partiya4: mavzu16–20
 
 Asl sahifalar va chegaralar [11-sinf source review](GRADE11_SOURCE_REVIEW.md) bilan tekshirildi. Bahsli raqam, siyosiy talqin va amaldagi huquqqa tenglashtirilgan eski qoida savol kaliti emas. Joriy backend/SQLite/API,5ta lokal PostgreSQL, Flutter widget/analyze/full natijalari [checkpoint](checkpoints/grade11_batch4.json)da. Oldingi darslar va boshqa fanlar o‘zgarmadi. O‘qituvchi, haqiqiy Android va umumiy nashr tasdig‘i yo‘q.
+
+
+## 11-sinf partiya5: mavzu21–22
+
+Asl sahifalar va chegaralar [11-sinf source review](GRADE11_SOURCE_REVIEW.md) bilan tekshirildi. Bahsli raqam, siyosiy talqin va amaldagi huquqqa tenglashtirilgan eski qoida savol kaliti emas. Joriy backend/SQLite/API,5ta lokal PostgreSQL, Flutter widget/analyze/full natijalari [checkpoint](checkpoints/grade11_batch5.json)da. Oldingi darslar va boshqa fanlar o‘zgarmadi. O‘qituvchi, haqiqiy Android va umumiy nashr tasdig‘i yo‘q.

@@ -1,6 +1,6 @@
 # Davom checkpointi — 2026-10-27
 
-2026-10-27. **Kurs tugallanmagan: 170/172 o‘quv birligi lokal/test preview’da.** Jami 1263 karta, 1015 topshiriq (591 MCQ / 338 qisqa FRQ / 86 xronologiya), 170 original misol va 170 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kontent qamrovi to‘liq: 172/172 o‘quv birligi lokal/test preview’da.** Jami 1280 karta, 1027 topshiriq (597 MCQ / 342 qisqa FRQ / 88 xronologiya), 172 original misol va 172 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -8,9 +8,9 @@
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
 | 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
 | 10 | 6 | 28 | 28 | 0 | 184 | 155 | 56 |
-| 11 | 9 | 22 | 20 | 2 | 142 | 105 | 40 |
+| 11 | 9 | 22 | 22 | 0 | 159 | 117 | 44 |
 
-**Keyingi: 11-sinf §21, PDF 129, bosma 129 — O‘zbekistonning Birlashgan Millatlar Tashkiloti doirasidagi faoliyati va tinchlikparvar tashqi siyosati.** Yo‘ldagi sequence=21.
+**Keyingi: Barcha katalog birliklari yozildi; yakuniy audit/review hali talab qilinadi..** Yo‘ldagi sequence=None.
 
 Backend va Flutter branchi: feat/uzbekistan-history-curriculum. Worktreelar: /workspace/ilm-ai-uzbekistan-history va /workspace/ilm-ai-flutter-uzbekistan-history. Avval git status/worktree/log va remote SHA tekshirilsin; saqlanmagan ishlar overwrite yoki reset qilinmasin. Tayyor R1 darslarni qayta yaratmang.
 
@@ -18,11 +18,11 @@ PDF manbalar /workspace/attachments ichida, xususiy sahifa tasvirlari /workspace
 
 Har 5–10 dars: original manba, karta/MCQ/FRQ, mustaqil literal javob orakuli, validator, SQLite/API, lokal PostgreSQL fresh schema, yangi public DTO capture, Flutter widget/analyze/full, hujjat, commit/push. Capture tugamasdan Flutter fixture testini kengaytirmang. Javob kaliti va tokenlar mijozga chiqarilmasin. Oddiy partiyalarda tasdiq kutmang. Boshqa fanlar, veb, production va main mergega tegmang.
 
-- backend: `283 passed, 5 skipped in 299.71s (0:04:59)`.
-- postgres: `5 passed, 221 deselected in 96.24s (0:01:36)`.
-- flutter: `01:33 +367: All tests passed!`.
-- flutter_history: `00:25 +213: All tests passed!`.
-- analyze: `No issues found! (ran in 1.7s)`.
+- backend: `285 passed, 5 skipped in 304.03s (0:05:04)`.
+- postgres: `5 passed, 223 deselected in 105.29s (0:01:45)`.
+- flutter: `01:21 +369: All tests passed!`.
+- flutter_history: `00:22 +215: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 
 ## Tekshiruv chegaralari
 
