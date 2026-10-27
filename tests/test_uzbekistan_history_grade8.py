@@ -35,6 +35,10 @@ ORDER = {
     5: ["e1", "e2", "e3"],
 }
 
+MCQ.update({6:['Muhammad Islom','Abdulmo‘min','Boqi Muhammad'],7:['Boqi Muhammad','Balx','Subhonqulixon'],8:['Farg‘ona vodiysi','Abulfayzxon','Parokandalik'],9:['Devonbegi','Parvonachi','Amlok','Qozikalon'],10:['Qalb','Jevachi','Sadoq','Yalovbardor']})
+FRQ.update({6:['1583','Iskandar Sulton'],7:['Zuhrabegim','Toshkent'],8:['1708','Muhammad Hakimbiy'],9:['Dodxoh','Mirob'],10:['Tavochi',"To'fandoz"]})
+ORDER.update({6:['e1','e2','e3','e4'],7:['e1','e2','e3','e4'],8:['e1','e2','e3']})
+
 
 def lessons():
     return [l for d in load_course() if d["grade"] == 8 for l in d["lessons"]]
@@ -64,7 +68,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 6))
+@pytest.mark.parametrize("seq", range(1, 11))
 def test_image_checked_independent_keys_wrong_choices_and_aliases(seq):
     lesson = lessons()[seq - 1]
     for q, answer in zip(lesson["assessments"], answers(lesson)):

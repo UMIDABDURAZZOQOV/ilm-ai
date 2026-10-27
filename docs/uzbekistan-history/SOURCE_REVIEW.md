@@ -81,3 +81,8 @@ Lavvohlik, sahhoflik, nasta’liq va Sultonali Mashhadiy nomi154asl tasviridan t
 ## 2026-10-27 — 8-sinf manba to‘sig‘i yopildi
 
 To‘rtta40sahifalik segment olindi,160sahifa/printed footer tartibi va barcha41sarlavha asl tasvirdan tekshirildi. Katalog endi5kitob,34bob,172o‘quv birligi;8-sinf40paragraf+1yakuniy faoliyat.7-sinfdagi42r1 va boshqa4book obyektlari o‘zgarmadi. Native watermark OCR fakt tasdig‘i emas; scanned ref uchun asl pixelSHA talab qilinadi. [SHA, mapping va xronologik noaniqliklar](GRADE8_SOURCE_REVIEW.md). Eski «8-sinf olinmagan» qaydlari o‘sha checkpoint tarixi, joriy blok emas.
+
+
+## 8-sinf §6–10 — 2026-10-27
+
+Asl19–34tasvirlari o‘qildi, kartalar19–33dagi o‘z paragraf bandlariga bog‘landi. Abdullaxon II ning1556amaldagi hokimiyati va1583rasmiy xonligi ajratildi; Jonibek/Boqi/Vali Muhammad rollari va bir xil ismli Ubaydullaxonlar adashtirilmadi.1708pul islohotidan1709Farg‘ona voqeasining barcha sababi avtomatik chiqarilmadi. Dargoh,devon,parvonachi,dodxoh,mirob kabi rollar aniq vazifalar bilan berilgan; boshqa davrga aynan ko‘chirilmagan. Harbiy bo‘lim faqat darslikdagi tarixiy atamalar va vazifalarga asoslangan.7-sinfningimmutable42darsi o‘zgarmagan. Keyingi§11–15uchun asl34–57ko‘rildi; hali registered darslar emas.
