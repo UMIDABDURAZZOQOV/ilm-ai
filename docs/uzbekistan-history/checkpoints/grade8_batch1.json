@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-27",
+  "statistics": {
+    "lessons": 47,
+    "cards": 358,
+    "questions": 310,
+    "examples": 47,
+    "reflections": 47,
+    "mcq": 183,
+    "frq": 93,
+    "chronologies": 34
+  },
+  "tests": {
+    "backend": "112 passed, 2 skipped in 42.13s",
+    "postgres": "2 passed, 87 deselected in 20.27s",
+    "flutter": "01:24 +241: All tests passed!",
+    "flutter_history": "00:10 +87: All tests passed!",
+    "analyze": "No issues found! (ran in 1.5s)",
+    "biology_targeted": "36 passed in 21.46s"
+  },
+  "source_audit": {
+    "available_books": 5,
+    "blocked_grades": [],
+    "catalogued_teaching_entries": 172,
+    "all_five_total": 172,
+    "original_pages": 769,
+    "original_heading_images": 172,
+    "interactive_batches": [
+      {
+        "lessons": 5,
+        "cards": 34,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 32,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 41,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 9,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 31,
+        "frq": 10,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 2,
+        "cards": 18,
+        "assessments": 13,
+        "frq": 4,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 33,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 5
+      }
+    ],
+    "lesson_full_page_images": 165
+  },
+  "course_complete": false,
+  "publication": "local_test_preview_only",
+  "next_grade": 8,
+  "next_sequence": 6,
+  "next_pdf_page": 19
+}

@@ -1,6 +1,6 @@
 # O‘zbekiston tarixi: manba xaritasi
 
-Katalog interaktiv tayyorlik emas. To‘rtta o‘qilgan kitobda131mavzu guruhi;8-sinf olinmagani uchun barcha besh kitobning jami noma’lum. Birlashtirilgan9-sinf§4–5va§35–36 alohida takror darslarga ajratilmagan.
+Katalog interaktiv tayyorlik emas. Beshala kitobda172o‘quv birligi:8-sinf40raqamlangan paragraf+1yakuniy mustaqil dars. Jami34bob. Birlashtirilgan9-sinf§4–5va§35–36 alohida takror darslarga ajratilmagan.
 
 | Sinf | Bob | Mavzu guruhi | Raqamlangan paragraf | PDF sahifa |
 |---|---:|---:|---:|---:|
@@ -8,7 +8,7 @@ Katalog interaktiv tayyorlik emas. To‘rtta o‘qilgan kitobda131mavzu guruhi;8
 | 9 | 9 | 39 | 41 | 160 |
 | 10 | 6 | 28 | 28 | 144 |
 | 11 | 9 | 22 | 22 | 144 |
-| 8 | noma’lum | noma’lum | noma’lum |160 kutilmoqda,olinmagan |
+| 8 | 4 | 41 | 40 | 160 |
 
 ## 7-sinf
 
@@ -184,3 +184,52 @@ SHA-256: `485d04513a799d22ad935c9298d4ccf8dc7976396762717c877acbe9ca6d205d`.
 | 22 / 22 | uzh-11-chapter-9 | O‘zbekistonning mintaqaviy tashkilotlar doirasida ko‘ptomonlama hamkorligi | 136 / 136 | 140 |
 
 Oxirgi sahifa keyingi mavzu bilan bir xil bo‘lsa, `end_boundary.y` yangi sarlavhadan oldingi qismni bildiradi. To‘liq sahifadagi keyingi mavzu faktlari avtomatik ruxsat etilmaydi.
+
+
+## 8-sinf — 2026-10-27 segmentlar bilan qo‘shilgan xarita
+
+O‘zbekiston tarixi; Usmon Jo‘rayev, Qamar Usmonov, Gulira’no Jo‘rayeva, Naim Norqulov; O‘qituvchi NMIU,2019; ISBN 978-9943-22-371-4. [Segment SHA va scan auditi](GRADE8_SOURCE_REVIEW.md).
+
+| §/faoliyat | Bob | Mavzu | PDF/bosma boshi | PDF oxiri (keyingi headinggacha) |
+|---|---:|---|---:|---:|
+| 1 | 1 | Dashti Qipchoqdagi siyosiy vaziyat | 5 | 8 |
+| 2 | 1 | Movarounnahr va Xurosondagi siyosiy vaziyat | 8 | 11 |
+| 3 | 1 | Zahiriddin Muhammad Bobur va Muhammad Shayboniyxon munosabatlari | 11 | 13 |
+| 4 | 1 | Movarounnahr va Xurosonda shayboniylar hukmronligining o‘rnatilishi | 13 | 17 |
+| 5 | 2 | Buxoro xonligining tashkil topishi | 17 | 19 |
+| 6 | 2 | Abdullaxon II davrida Buxoro xonligining yuksalishi | 19 | 21 |
+| 7 | 2 | Buxoro xonligida ashtarxoniylar sulolasi hukmronligining o‘rnatilishi | 21 | 25 |
+| 8 | 2 | Buxoro xonligida markaziy hokimiyatning zaiflashuvi | 25 | 28 |
+| 9 | 2 | Buxoro xonligida davlat boshqaruvi | 28 | 31 |
+| 10 | 2 | Buxoro xonligida harbiy ish | 31 | 34 |
+| 11 | 2 | Buxoro xonligida ijtimoiy-iqtisodiy hayot | 34 | 38 |
+| 12 | 2 | Buxoro xonligining tashqi siyosati | 38 | 43 |
+| 13 | 2 | Buxoro xonligida madaniy hayot | 43 | 50 |
+| 14 | 2 | Buxoro amirligining tashkil topishi | 50 | 55 |
+| 15 | 2 | Amirlikda markaziy hokimiyatning mustahkamlanishi | 55 | 57 |
+| 16 | 2 | Buxoro amirligida davlat boshqaruvi | 57 | 61 |
+| 17 | 2 | Buxoro amirligida harbiy ish | 61 | 65 |
+| 18 | 2 | Buxoro amirligida ijtimoiy-iqtisodiy hayot | 65 | 68 |
+| 19 | 2 | Amirlik shaharlari. Ichki va tashqi savdo | 68 | 71 |
+| 20 | 2 | Buxoro amirligining tashqi siyosati | 71 | 75 |
+| 21 | 2 | Buxoro amirligida madaniy hayot | 75 | 80 |
+| 22 | 3 | Xiva xonligining tashkil topishi | 80 | 82 |
+| 23 | 3 | XVII–XVIII asrning birinchi yarmida xonlikdagi siyosiy ahvol | 82 | 86 |
+| 24 | 3 | Xiva xonligida qo‘ng‘irotlar sulolasi hukmronligining o‘rnatilishi. XVIII asr oxiri – XIX asr birinchi yarmida xonlikning siyosiy ahvoli | 86 | 90 |
+| 25 | 3 | Xiva xonligida davlat boshqaruvi | 90 | 94 |
+| 26 | 3 | Xiva xonligida ijtimoiy-iqtisodiy hayot. Shaharlar hayoti | 94 | 99 |
+| 27 | 3 | Xiva xonligining tashqi siyosati | 99 | 103 |
+| 28 | 3 | Xiva xonligida madaniy hayot | 103 | 106 |
+| 29 | 3 | Xiva xonligi tarixi bo‘yicha manbalar | 106 | 110 |
+| 30 | 3 | XVI–XIX asrning birinchi yarmida qoraqalpoqlar | 110 | 113 |
+| 31 | 3 | Qoraqalpoqlarda madaniy va ma’naviy hayot | 113 | 118 |
+| 32 | 4 | Qo‘qon xonligining tashkil topishi | 118 | 120 |
+| 33 | 4 | XVIII asrning ikkinchi yarmi – XIX asrning birinchi yarmida Qo‘qon xonligida siyosiy ahvol | 120 | 126 |
+| 34 | 4 | Qo‘qon xonligida davlat boshqaruvi | 126 | 129 |
+| 35 | 4 | Qo‘qon xonligida harbiy ish | 129 | 133 |
+| 36 | 4 | Qo‘qon xonligida ijtimoiy-iqtisodiy hayot | 133 | 137 |
+| 37 | 4 | Qo‘qon xonligining tashqi siyosati | 137 | 142 |
+| 38 | 4 | Qo‘qon xonligida madaniy hayot | 142 | 147 |
+| 39 | 4 | Qo‘qon xonligida ta’lim | 147 | 150 |
+| 40 | 4 | O‘zbek davlatlarining taraqqiyotda orqada qolish sabablari va oqibatlari | 150 | 153 |
+| Yakuniy faoliyat | 4 | Yakuniy dars (mustaqil ishlash) | 153 | 156 |

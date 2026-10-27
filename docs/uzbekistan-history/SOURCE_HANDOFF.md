@@ -1,5 +1,7 @@
 # 8-sinf manbasini davom ettirish — 2026-10-27
 
+**2026-10-27: bu manba to‘sig‘i yopildi.** To‘rtta segment haqiqatan olindi va tekshirildi. Quyidagi eski matn tarixiy checkpoint sifatida saqlandi; joriy davom nuqtasi [STAGE2_PROGRESS.md](STAGE2_PROGRESS.md), yangi manba auditi [GRADE8_SOURCE_REVIEW.md](GRADE8_SOURCE_REVIEW.md).
+
 Joriy haqiqiy manba to‘sig‘i: `ozbekiston_tarixi_8_uzb.pdf`, attachment `file_000000009ed0824399cda20ac00057a3`, foydalanuvchi bildirgan45.4 MB/160sahifa. Executor `download_file`32MiBdan katta faylni ko‘chirmaydi. Windowsdagi `C:\Users\Page\Desktop\O'zbekiston Tarixi` bu cloud muhitida mavjud emas. Fayl baytlari olinmagan: SHA, muallif/ISBN, bob/mavzu soni, OCR yoki fakt tasdig‘i yo‘q. Jami besh kitob mavzu soni ham noma’lum.
 
 Kerakli uzluksiz segmentlar: **PDF1–40,41–80,81–120,121–160**; har biri32MiBdan kichik. Bular bosma emas, asl PDF indekslari. Agar bir segment katta chiqsa uni yanada kichik, chegaralari aniq bo‘lgan qismlarga ajratish mumkin. Asl PDF, qismlar va OCR hech qachon Gitga qo‘shilmaydi.

@@ -32,6 +32,57 @@ def load_catalog():
     return json.loads((DIRECTORY / "sources.json").read_text())
 
 
+def validate_segment_manifest(manifest):
+    """Segment byte identity and image mapping; never infer an unsplit PDF hash."""
+    require(
+        manifest["original_unsplit_sha256"] is None, "untransferred_unsplit_identity"
+    )
+    require(manifest["pdf_pages"] == 160, "segment_expected_page_count")
+    sequence = []
+    segments = {}
+    for part in manifest["segments"]:
+        require(
+            Path(part["file_name"]).name == part["file_name"]
+            and len(part["sha256"]) == 64
+            and 0 < part["size_bytes"] < 32 * 1024 * 1024,
+            "segment_identity",
+        )
+        first, last = part["first_pdf_page"], part["last_pdf_page"]
+        require(last - first + 1 == part["pdf_page_count"], "segment_count")
+        require(part["file_name"] not in segments, "duplicate_segment")
+        segments[part["file_name"]] = part
+        sequence.extend(range(first, last + 1))
+    require(sequence == list(range(1, 161)), "segment_gap_overlap_or_order")
+    require(
+        [p["pdf_page"] for p in manifest["pages"]] == sequence, "segment_page_mapping"
+    )
+    seen = set()
+    for page in manifest["pages"]:
+        part = segments.get(page["segment_file_name"])
+        require(
+            part is not None
+            and 1 <= page["segment_pdf_page"] <= part["pdf_page_count"]
+            and page["pdf_page"]
+            == part["first_pdf_page"] + page["segment_pdf_page"] - 1,
+            "segment_local_page_mapping",
+        )
+        require(
+            len(page["image_sha256"]) == 64 and page["image_sha256"] not in seen,
+            "duplicate_or_missing_page_image",
+        )
+        seen.add(page["image_sha256"])
+        n = page["pdf_page"]
+        require(
+            page["printed_page"] == (n if 3 <= n <= 159 else None),
+            "segment_printed_mapping",
+        )
+        require(page["image_matrix"] == [1.4, 1.4], "segment_image_render")
+    require(
+        manifest["continuity_review"]["all_numbered_footers_visually_checked"] is True,
+        "segment_footer_review_missing",
+    )
+
+
 def validate_catalog(catalog):
     require(
         catalog["schema_version"] == 1 and catalog["subject"] == SUBJECT,
@@ -51,6 +102,29 @@ def validate_catalog(catalog):
     count = 0
     for book in catalog["books"]:
         grade = book["grade"]
+        if book.get("source_kind") == "reassembled_uploaded_segments":
+            require(
+                book["source_manifest_file"] == "grade8_segments.json" and grade == 8,
+                "unsupported_segment_manifest",
+            )
+            manifest = json.loads(
+                (DIRECTORY / book["source_manifest_file"]).read_text()
+            )
+            validate_segment_manifest(manifest)
+            require(
+                digest(manifest) == book["source_manifest_sha256"]
+                and manifest["derived_pdf_sha256"] == book["sha256"]
+                and book["original_unsplit_sha256"] is None,
+                "segment_manifest_digest",
+            )
+            require(
+                all(
+                    a["image_sha256"] == b.get("image_sha256")
+                    and a["printed_page"] == b["printed_page"]
+                    for a, b in zip(manifest["pages"], book["pages"])
+                ),
+                "segment_book_page_evidence",
+            )
         require(
             book["id"] == f"uzbekistan-history-uz-grade-{grade}"
             and book["subject"] == SUBJECT,
@@ -178,6 +252,32 @@ def verify_originals(catalog, directory):
     validate_catalog(catalog)
     count = 0
     for book in catalog["books"]:
+        if book.get("source_kind") == "reassembled_uploaded_segments":
+            manifest = json.loads(
+                (DIRECTORY / book["source_manifest_file"]).read_text()
+            )
+            for part in manifest["segments"]:
+                originals = [
+                    p
+                    for p in Path(directory).rglob(part["file_name"])
+                    if hashlib.sha256(p.read_bytes()).hexdigest() == part["sha256"]
+                ]
+                require(bool(originals), "pinned_segment_not_available")
+                with fitz.open(originals[0]) as segment:
+                    require(
+                        len(segment) == part["pdf_page_count"],
+                        "segment_actual_page_count",
+                    )
+                    for local, page in enumerate(segment, 1):
+                        evidence = manifest["pages"][part["first_pdf_page"] + local - 2]
+                        pixels = page.get_pixmap(matrix=fitz.Matrix(1.4, 1.4)).tobytes(
+                            "png"
+                        )
+                        require(
+                            hashlib.sha256(pixels).hexdigest()
+                            == evidence["image_sha256"],
+                            "original_segment_page_image_changed",
+                        )
         matches = [
             p
             for p in Path(directory).rglob(book["file_name"])
@@ -192,6 +292,14 @@ def verify_originals(catalog, directory):
                     == audit["native_text_sha256"],
                     "original_native_text_changed",
                 )
+                if book.get("source_kind") == "reassembled_uploaded_segments":
+                    pixels = page.get_pixmap(matrix=fitz.Matrix(1.4, 1.4)).tobytes(
+                        "png"
+                    )
+                    require(
+                        hashlib.sha256(pixels).hexdigest() == audit["image_sha256"],
+                        "reassembled_page_differs_from_original_segment",
+                    )
                 count += 1
             for topic in book["topics"]:
                 review = topic["heading_image_review"]

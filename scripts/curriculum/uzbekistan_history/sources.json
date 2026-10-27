@@ -3,7 +3,7 @@
   "subject": "ozbekiston_tarixi",
   "language": "uz",
   "publication": "not_published",
-  "complete_source_catalog": false,
+  "complete_source_catalog": true,
   "books": [
     {
       "id": "uzbekistan-history-uz-grade-7",
@@ -4321,6 +4321,4953 @@
         "chapters": 6,
         "teaching_entries": 42,
         "numbered_paragraphs": 42
+      },
+      "catalog_verification": "all_topic_heading_images_and_toc_checked_not_full_fact_review"
+    },
+    {
+      "id": "uzbekistan-history-uz-grade-8",
+      "subject": "ozbekiston_tarixi",
+      "grade": 8,
+      "file_name": "ozbekiston_tarixi_8_uzb.pdf",
+      "sha256": "756c63e79c3008fc3445a686e591012f059de5ae3757a5f2f2725f91986e076f",
+      "size_bytes": 47478963,
+      "pdf_page_count": 160,
+      "title": "O‘zbekiston tarixi",
+      "authors": [
+        "Usmon Jo‘rayev",
+        "Qamar Usmonov",
+        "Gulira’no Jo‘rayeva",
+        "Naim Norqulov"
+      ],
+      "year": 2019,
+      "edition": "Qayta ishlangan va to‘ldirilgan 4-nashr",
+      "publisher": "O‘qituvchi NMIU",
+      "isbn": "978-9943-22-371-4",
+      "bibliography_review": {
+        "pdf_pages": [
+          1,
+          2,
+          159
+        ],
+        "verification": "original_image_checked_ocr_locator_only",
+        "note": "Printed title, copyright and imprint images checked. Native layer contains only eduportal watermark."
+      },
+      "source_kind": "reassembled_uploaded_segments",
+      "original_unsplit_sha256": null,
+      "source_manifest_file": "grade8_segments.json",
+      "source_manifest_sha256": "bc101f373bef66e04ebbce1ec2a728a6de881a6176c2479593861bfa8745a4e8",
+      "toc_pdf_pages": [
+        157,
+        158
+      ],
+      "additional_sections": [
+        {
+          "kind": "introduction",
+          "pdf_pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "kind": "imprint",
+          "pdf_pages": [
+            159
+          ]
+        },
+        {
+          "kind": "rental_form_not_curriculum",
+          "pdf_pages": [
+            160
+          ]
+        }
+      ],
+      "source_notes": [
+        "Four uploaded original segments, 40 pages each; reconstructed file SHA is not the untransferred whole-original SHA.",
+        "Every original printed footer 3–159 visually checked; leaves1,2,160 unnumbered.",
+        "Forty numbered paragraphs plus one explicitly labelled final independent lesson; no duplicated headers counted.",
+        "OCR is private locator only. Native text is watermark, not textbook teaching text."
+      ],
+      "chapters": [
+        {
+          "id": "uzh-8-chapter-1",
+          "order": 1,
+          "title": "XV asrning oxiri – XVI asrning boshlarida Movarounnahr va Xurosondagi siyosiy vaziyat",
+          "toc_pdf_page": 157
+        },
+        {
+          "id": "uzh-8-chapter-2",
+          "order": 2,
+          "title": "Buxoro xonligi va Buxoro amirligi",
+          "toc_pdf_page": 157
+        },
+        {
+          "id": "uzh-8-chapter-3",
+          "order": 3,
+          "title": "Xiva xonligi",
+          "toc_pdf_page": 158
+        },
+        {
+          "id": "uzh-8-chapter-4",
+          "order": 4,
+          "title": "XVIII–XIX asrning birinchi yarmida Qo‘qon xonligi",
+          "toc_pdf_page": 158
+        }
+      ],
+      "topics": [
+        {
+          "id": "uzh-8-topic-1",
+          "sequence": 1,
+          "chapter_id": "uzh-8-chapter-1",
+          "source_numbers": [
+            1
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Dashti Qipchoqdagi siyosiy vaziyat",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 5,
+          "pdf_page": 5,
+          "printed_page": 5,
+          "heading_start_excerpt": "1-§. Dashti Qipchoqdagi siyosiy vaziyat",
+          "heading_bbox": [
+            90,
+            256.6,
+            500,
+            301.6
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 8,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-2",
+            "pdf_page": 8,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              252.60000000000002,
+              575.0,
+              336.6
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "f01261be36eb6daf5bf977dc73ececa4e8071fe8be9c4baf0bf9386522cf9f32",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-2",
+          "sequence": 2,
+          "chapter_id": "uzh-8-chapter-1",
+          "source_numbers": [
+            2
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Movarounnahr va Xurosondagi siyosiy vaziyat",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 8,
+          "pdf_page": 8,
+          "printed_page": 8,
+          "heading_start_excerpt": "2-§. Movarounnahr va Xurosondagi siyosiy vaziyat",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 11,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-3",
+            "pdf_page": 11,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "7ff9ee191de9d0f9748b2f84a38e637ec1a39f3ad33eba201484e1971cb5cc14",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-3",
+          "sequence": 3,
+          "chapter_id": "uzh-8-chapter-1",
+          "source_numbers": [
+            3
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Zahiriddin Muhammad Bobur va Muhammad Shayboniyxon munosabatlari",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 11,
+          "pdf_page": 11,
+          "printed_page": 11,
+          "heading_start_excerpt": "3-§. Zahiriddin Muhammad Bobur va Muhammad Shayboniyxon munosabatlari",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 13,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-4",
+            "pdf_page": 13,
+            "y": 442.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "184ce0609c630b5bb6d6eccad380e12bc0a864cd586ac2cadd1ed9c3714514b4",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-4",
+          "sequence": 4,
+          "chapter_id": "uzh-8-chapter-1",
+          "source_numbers": [
+            4
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Movarounnahr va Xurosonda shayboniylar hukmronligining o‘rnatilishi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 13,
+          "pdf_page": 13,
+          "printed_page": 13,
+          "heading_start_excerpt": "4-§. Movarounnahr va Xurosonda shayboniylar hukmronligining o‘rnatilishi",
+          "heading_bbox": [
+            90,
+            442.3,
+            500,
+            487.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 17,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-5",
+            "pdf_page": 17,
+            "y": 248
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              438.3,
+              575.0,
+              522.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "7a230e8904cd53095ac9fd128875c4fca387aa4646dcd36885cd5722ff2c2775",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-5",
+          "sequence": 5,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            5
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligining tashkil topishi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 17,
+          "pdf_page": 17,
+          "printed_page": 17,
+          "heading_start_excerpt": "5-§. Buxoro xonligining tashkil topishi",
+          "heading_bbox": [
+            90,
+            248,
+            500,
+            293
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 19,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-6",
+            "pdf_page": 19,
+            "y": 348.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              244.0,
+              575.0,
+              328.0
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "629590237cd252208775754c6aa4ce66e74585c1c0e2c323babfbad845f1e47d",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-6",
+          "sequence": 6,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            6
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Abdullaxon II davrida Buxoro xonligining yuksalishi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 19,
+          "pdf_page": 19,
+          "printed_page": 19,
+          "heading_start_excerpt": "6-§. Abdullaxon II davrida Buxoro xonligining yuksalishi",
+          "heading_bbox": [
+            90,
+            348.7,
+            500,
+            393.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 21,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-7",
+            "pdf_page": 21,
+            "y": 548
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              344.7,
+              575.0,
+              428.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "ba77a3b6e3ee65d3fa6f32db07f7af1b1cdc633e432a75bac4377c9b9ecc9476",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-7",
+          "sequence": 7,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            7
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligida ashtarxoniylar sulolasi hukmronligining o‘rnatilishi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 21,
+          "pdf_page": 21,
+          "printed_page": 21,
+          "heading_start_excerpt": "7-§. Buxoro xonligida ashtarxoniylar sulolasi hukmronligining o‘rnatilishi",
+          "heading_bbox": [
+            90,
+            548,
+            500,
+            593
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 25,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-8",
+            "pdf_page": 25,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              544.0,
+              575.0,
+              628.0
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "3ba82005be7897d928d7218d72f4516684cd5e0d08b4b3d02cb467da3ad937f6",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-8",
+          "sequence": 8,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            8
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligida markaziy hokimiyatning zaiflashuvi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 25,
+          "pdf_page": 25,
+          "printed_page": 25,
+          "heading_start_excerpt": "8-§. Buxoro xonligida markaziy hokimiyatning zaiflashuvi",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 28,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-9",
+            "pdf_page": 28,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "7438bd7e0d5f4282d0c4c6bc0cafaf22918d5a507e1f3de975d209b84756cd2f",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-9",
+          "sequence": 9,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            9
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligida davlat boshqaruvi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 28,
+          "pdf_page": 28,
+          "printed_page": 28,
+          "heading_start_excerpt": "9-§. Buxoro xonligida davlat boshqaruvi",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 31,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-10",
+            "pdf_page": 31,
+            "y": 374.4
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "cb8aa4a1bda1e0e6fbc03bed07fa0b21858b0453f9885d9f7a0a55c8e60b39a5",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-10",
+          "sequence": 10,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            10
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligida harbiy ish",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 31,
+          "pdf_page": 31,
+          "printed_page": 31,
+          "heading_start_excerpt": "10-§. Buxoro xonligida harbiy ish",
+          "heading_bbox": [
+            90,
+            374.4,
+            500,
+            419.4
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 34,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-11",
+            "pdf_page": 34,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              370.4,
+              575.0,
+              454.4
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "fcf4249395ae951a020d773216499a1faf5fecfd1965cfff696cc5b207ff4480",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-11",
+          "sequence": 11,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            11
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligida ijtimoiy-iqtisodiy hayot",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 34,
+          "pdf_page": 34,
+          "printed_page": 34,
+          "heading_start_excerpt": "11-§. Buxoro xonligida ijtimoiy-iqtisodiy hayot",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 38,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-12",
+            "pdf_page": 38,
+            "y": 550.1
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "c2c9fe0739a09ddc98976d8d2d2d0df4c6b44b2e9defe8f9b808e0d62f9b221e",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-12",
+          "sequence": 12,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            12
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligining tashqi siyosati",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 38,
+          "pdf_page": 38,
+          "printed_page": 38,
+          "heading_start_excerpt": "12-§. Buxoro xonligining tashqi siyosati",
+          "heading_bbox": [
+            90,
+            550.1,
+            500,
+            595.1
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 43,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-13",
+            "pdf_page": 43,
+            "y": 487.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              546.1,
+              575.0,
+              630.1
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "6a5d8493b5ffcf2176783fee7ee8efb5e6f5f96ea8d81ffa69babfe513ddc357",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-13",
+          "sequence": 13,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            13
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro xonligida madaniy hayot",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 43,
+          "pdf_page": 43,
+          "printed_page": 43,
+          "heading_start_excerpt": "13-§. Buxoro xonligida madaniy hayot",
+          "heading_bbox": [
+            90,
+            487.3,
+            500,
+            532.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 50,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-14",
+            "pdf_page": 50,
+            "y": 391.6
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              483.3,
+              575.0,
+              567.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "1c66eb62a97666a51d0800e39dd03cc24d5c490bbc6b1fc9054afc271da93be5",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-14",
+          "sequence": 14,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            14
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro amirligining tashkil topishi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 50,
+          "pdf_page": 50,
+          "printed_page": 50,
+          "heading_start_excerpt": "14-§. Buxoro amirligining tashkil topishi",
+          "heading_bbox": [
+            90,
+            391.6,
+            500,
+            436.6
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 55,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-15",
+            "pdf_page": 55,
+            "y": 236.6
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              387.6,
+              575.0,
+              471.6
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "0de84beedd35135478dd8eb0cf7f59aebfbcf62047d960e98d8a7ec7dea95eee",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-15",
+          "sequence": 15,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            15
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Amirlikda markaziy hokimiyatning mustahkamlanishi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 55,
+          "pdf_page": 55,
+          "printed_page": 55,
+          "heading_start_excerpt": "15-§. Amirlikda markaziy hokimiyatning mustahkamlanishi",
+          "heading_bbox": [
+            90,
+            236.6,
+            500,
+            281.6
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 57,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-16",
+            "pdf_page": 57,
+            "y": 469.4
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              232.6,
+              575.0,
+              316.6
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "b311c44a73c138812d22fbe4ea2caf4db900e0cf873d29cca9d8604ec3a5877a",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-16",
+          "sequence": 16,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            16
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro amirligida davlat boshqaruvi",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 57,
+          "pdf_page": 57,
+          "printed_page": 57,
+          "heading_start_excerpt": "16-§. Buxoro amirligida davlat boshqaruvi",
+          "heading_bbox": [
+            90,
+            469.4,
+            500,
+            514.4
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 61,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-17",
+            "pdf_page": 61,
+            "y": 528
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              465.4,
+              575.0,
+              549.4
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "6079ea06102a99bcf28739985fe50e0e274c662eb3be0b74c9e220890c9c78bd",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-17",
+          "sequence": 17,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            17
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro amirligida harbiy ish",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 61,
+          "pdf_page": 61,
+          "printed_page": 61,
+          "heading_start_excerpt": "17-§. Buxoro amirligida harbiy ish",
+          "heading_bbox": [
+            90,
+            528,
+            500,
+            573
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 65,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-18",
+            "pdf_page": 65,
+            "y": 318.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              524.0,
+              575.0,
+              608.0
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "ed19c8b87fc583d2fe5ec9bea5486682c653798c9775ffdcf94d840a7d14c669",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-18",
+          "sequence": 18,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            18
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro amirligida ijtimoiy-iqtisodiy hayot",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 65,
+          "pdf_page": 65,
+          "printed_page": 65,
+          "heading_start_excerpt": "18-§. Buxoro amirligida ijtimoiy-iqtisodiy hayot",
+          "heading_bbox": [
+            90,
+            318.7,
+            500,
+            363.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 68,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-19",
+            "pdf_page": 68,
+            "y": 348.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              314.7,
+              575.0,
+              398.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "75aee85e629df5ac2fec7989dc57941592610433107fcd421ee19707a9f1b00f",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-19",
+          "sequence": 19,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            19
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Amirlik shaharlari. Ichki va tashqi savdo",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 68,
+          "pdf_page": 68,
+          "printed_page": 68,
+          "heading_start_excerpt": "19-§. Amirlik shaharlari. Ichki va tashqi savdo",
+          "heading_bbox": [
+            90,
+            348.7,
+            500,
+            393.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 71,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-20",
+            "pdf_page": 71,
+            "y": 528.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              344.7,
+              575.0,
+              428.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "05db87be3db9a0336d7a011d66b23545b9a53eac0f0fd4fc8057e3922e5e0a98",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-20",
+          "sequence": 20,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            20
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro amirligining tashqi siyosati",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 71,
+          "pdf_page": 71,
+          "printed_page": 71,
+          "heading_start_excerpt": "20-§. Buxoro amirligining tashqi siyosati",
+          "heading_bbox": [
+            90,
+            528.7,
+            500,
+            573.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 75,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-21",
+            "pdf_page": 75,
+            "y": 517.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              524.7,
+              575.0,
+              608.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "19e3dcebdcb57b76b4c7e2b134388b988e595b9df30d150eac498eb309b6d40e",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-21",
+          "sequence": 21,
+          "chapter_id": "uzh-8-chapter-2",
+          "source_numbers": [
+            21
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Buxoro amirligida madaniy hayot",
+          "toc_pdf_page": 157,
+          "toc_printed_start": 75,
+          "pdf_page": 75,
+          "printed_page": 75,
+          "heading_start_excerpt": "21-§. Buxoro amirligida madaniy hayot",
+          "heading_bbox": [
+            90,
+            517.3,
+            500,
+            562.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 80,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-22",
+            "pdf_page": 80,
+            "y": 260.9
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              513.3,
+              575.0,
+              597.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "a7ddfb66ef7c28ec06e51d90be0d1631eab253b06a2071ca458d389c9c074a44",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-22",
+          "sequence": 22,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            22
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Xiva xonligining tashkil topishi",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 80,
+          "pdf_page": 80,
+          "printed_page": 80,
+          "heading_start_excerpt": "22-§. Xiva xonligining tashkil topishi",
+          "heading_bbox": [
+            90,
+            260.9,
+            500,
+            305.9
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 82,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-23",
+            "pdf_page": 82,
+            "y": 410.9
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              256.9,
+              575.0,
+              340.9
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "12874c6cc2c679e4cb76b2bbdc9f8e69ed5519d09719f45f165bb9cce3dde718",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-23",
+          "sequence": 23,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            23
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "XVII–XVIII asrning birinchi yarmida xonlikdagi siyosiy ahvol",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 82,
+          "pdf_page": 82,
+          "printed_page": 82,
+          "heading_start_excerpt": "23-§. XVII–XVIII asrning birinchi yarmida xonlikdagi siyosiy ahvol",
+          "heading_bbox": [
+            90,
+            410.9,
+            500,
+            455.9
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 86,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-24",
+            "pdf_page": 86,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              406.9,
+              575.0,
+              490.9
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "fcb3ac7f8cc632f0e97b32955c40c0fdd896c8534fd7adc1ef7909b8f26a9eaf",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-24",
+          "sequence": 24,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            24
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Xiva xonligida qo‘ng‘irotlar sulolasi hukmronligining o‘rnatilishi. XVIII asr oxiri – XIX asr birinchi yarmida xonlikning siyosiy ahvoli",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 86,
+          "pdf_page": 86,
+          "printed_page": 86,
+          "heading_start_excerpt": "24-§. Xiva xonligida qo‘ng‘irotlar sulolasi hukmronligining o‘rnatilishi. XVIII asr oxiri – XIX asr birinchi yarmida xonlikning siyosiy ahvoli",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 90,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-25",
+            "pdf_page": 90,
+            "y": 538
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "76f66b2cf73b775a745667a078f01c2daaccd64b1f8e3302d1664f2f6bf22eb4",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog.",
+          "toc_title": "Xiva xonligida qo‘ng‘irotlar sulolasi hukmronligining o‘rnatilishi. XVIII asri – XIX asr birinchi yarmida xonlikning siyosiy ahvoli"
+        },
+        {
+          "id": "uzh-8-topic-25",
+          "sequence": 25,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            25
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Xiva xonligida davlat boshqaruvi",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 90,
+          "pdf_page": 90,
+          "printed_page": 90,
+          "heading_start_excerpt": "25-§. Xiva xonligida davlat boshqaruvi",
+          "heading_bbox": [
+            90,
+            538,
+            500,
+            583
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 94,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-26",
+            "pdf_page": 94,
+            "y": 363
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              534.0,
+              575.0,
+              618.0
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "3b01c74c82674820d2263c25b53e857709b57849d9ae64725a934b3622163b72",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-26",
+          "sequence": 26,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            26
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Xiva xonligida ijtimoiy-iqtisodiy hayot. Shaharlar hayoti",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 94,
+          "pdf_page": 94,
+          "printed_page": 94,
+          "heading_start_excerpt": "26-§. Xiva xonligida ijtimoiy-iqtisodiy hayot. Shaharlar hayoti",
+          "heading_bbox": [
+            90,
+            363,
+            500,
+            408
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 99,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-27",
+            "pdf_page": 99,
+            "y": 398.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              359.0,
+              575.0,
+              443.0
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "b6615975dbcf1a8d4a2582ee5cd26f20bd49c30c7ebfe9a5034735e79ca3be42",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-27",
+          "sequence": 27,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            27
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Xiva xonligining tashqi siyosati",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 99,
+          "pdf_page": 99,
+          "printed_page": 99,
+          "heading_start_excerpt": "27-§. Xiva xonligining tashqi siyosati",
+          "heading_bbox": [
+            90,
+            398.7,
+            500,
+            443.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 103,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-28",
+            "pdf_page": 103,
+            "y": 433
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              394.7,
+              575.0,
+              478.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "450e02c184657484be07c5068cfe64d2dd20d6a4e4a88f26c60cb700829ba225",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-28",
+          "sequence": 28,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            28
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Xiva xonligida madaniy hayot",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 103,
+          "pdf_page": 103,
+          "printed_page": 103,
+          "heading_start_excerpt": "28-§. Xiva xonligida madaniy hayot",
+          "heading_bbox": [
+            90,
+            433,
+            500,
+            478
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 106,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-29",
+            "pdf_page": 106,
+            "y": 379.4
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              429.0,
+              575.0,
+              513.0
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "9c62e0d9452b1d2c78d895458e7306dd697fce5d55355c5713bc0f8bfe325da5",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-29",
+          "sequence": 29,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            29
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Xiva xonligi tarixi bo‘yicha manbalar",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 106,
+          "pdf_page": 106,
+          "printed_page": 106,
+          "heading_start_excerpt": "29-§. Xiva xonligi tarixi bo‘yicha manbalar",
+          "heading_bbox": [
+            90,
+            379.4,
+            500,
+            424.4
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 110,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-30",
+            "pdf_page": 110,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              375.4,
+              575.0,
+              459.4
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "cb3ca617eaafc748a0538d3a1af4b56f9494dc10a818a2d9015abb7f887c6d83",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-30",
+          "sequence": 30,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            30
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "XVI–XIX asrning birinchi yarmida qoraqalpoqlar",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 110,
+          "pdf_page": 110,
+          "printed_page": 110,
+          "heading_start_excerpt": "30-§. XVI–XIX asrning birinchi yarmida qoraqalpoqlar",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 113,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-31",
+            "pdf_page": 113,
+            "y": 528.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "bced887ec39f879a989a889e2852c4dcd8e4d9250c8edcdb9baa0a2d2bae3f2c",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-31",
+          "sequence": 31,
+          "chapter_id": "uzh-8-chapter-3",
+          "source_numbers": [
+            31
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qoraqalpoqlarda madaniy va ma’naviy hayot",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 113,
+          "pdf_page": 113,
+          "printed_page": 113,
+          "heading_start_excerpt": "31-§. Qoraqalpoqlarda madaniy va ma’naviy hayot",
+          "heading_bbox": [
+            90,
+            528.7,
+            500,
+            573.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 118,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-32",
+            "pdf_page": 118,
+            "y": 259.4
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              524.7,
+              575.0,
+              608.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "70c9b05b2e9167e1710b29c57abe47d53465d4bcc62c395577de2a7899d895a1",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-32",
+          "sequence": 32,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            32
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qo‘qon xonligining tashkil topishi",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 118,
+          "pdf_page": 118,
+          "printed_page": 118,
+          "heading_start_excerpt": "32-§. Qo‘qon xonligining tashkil topishi",
+          "heading_bbox": [
+            90,
+            259.4,
+            500,
+            304.4
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 120,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-33",
+            "pdf_page": 120,
+            "y": 525.1
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              255.39999999999998,
+              575.0,
+              339.4
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "bea4440fc7e3c36faaf8be5afb55e3e99f5d3c2b0fb5f7ffb9cea907c45c1b6d",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-33",
+          "sequence": 33,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            33
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "XVIII asrning ikkinchi yarmi – XIX asrning birinchi yarmida Qo‘qon xonligida siyosiy ahvol",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 120,
+          "pdf_page": 120,
+          "printed_page": 120,
+          "heading_start_excerpt": "33-§. XVIII asrning ikkinchi yarmi – XIX asrning birinchi yarmida Qo‘qon xonligida siyosiy ahvol",
+          "heading_bbox": [
+            90,
+            525.1,
+            500,
+            570.1
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 126,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-34",
+            "pdf_page": 126,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              521.1,
+              575.0,
+              605.1
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "af83c2352fc6e873bf6a0e33e30a771cfa556e6aba5fa90e1888e3ca56f4014f",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-34",
+          "sequence": 34,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            34
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qo‘qon xonligida davlat boshqaruvi",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 126,
+          "pdf_page": 126,
+          "printed_page": 126,
+          "heading_start_excerpt": "34-§. Qo‘qon xonligida davlat boshqaruvi",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 129,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-35",
+            "pdf_page": 129,
+            "y": 518.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "f4ff75b5393c4c65a638a5a3e6815e12efae9c563b572559a282f47828e5b84c",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-35",
+          "sequence": 35,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            35
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qo‘qon xonligida harbiy ish",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 129,
+          "pdf_page": 129,
+          "printed_page": 129,
+          "heading_start_excerpt": "35-§. Qo‘qon xonligida harbiy ish",
+          "heading_bbox": [
+            90,
+            518.7,
+            500,
+            563.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 133,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-36",
+            "pdf_page": 133,
+            "y": 344.4
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              514.7,
+              575.0,
+              598.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "ece206c5711f656ae0dc77a3e472b4d513abfebe016d9d51a609d35aff13c189",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-36",
+          "sequence": 36,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            36
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qo‘qon xonligida ijtimoiy-iqtisodiy hayot",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 133,
+          "pdf_page": 133,
+          "printed_page": 133,
+          "heading_start_excerpt": "36-§. Qo‘qon xonligida ijtimoiy-iqtisodiy hayot",
+          "heading_bbox": [
+            90,
+            344.4,
+            500,
+            389.4
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 137,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-37",
+            "pdf_page": 137,
+            "y": 248.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              340.4,
+              575.0,
+              424.4
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "158c195250ae097f4a87c8ad71c70cd443742b5dce1173dc73d8458fb593c775",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-37",
+          "sequence": 37,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            37
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qo‘qon xonligining tashqi siyosati",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 137,
+          "pdf_page": 137,
+          "printed_page": 137,
+          "heading_start_excerpt": "37-§. Qo‘qon xonligining tashqi siyosati",
+          "heading_bbox": [
+            90,
+            248.7,
+            500,
+            293.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 142,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-38",
+            "pdf_page": 142,
+            "y": 203
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              244.7,
+              575.0,
+              328.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "ec6fb4321a5ca182373248f194ede9d8ba6e0138b8ad7726d07b2e233c05f961",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-38",
+          "sequence": 38,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            38
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qo‘qon xonligida madaniy hayot",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 142,
+          "pdf_page": 142,
+          "printed_page": 142,
+          "heading_start_excerpt": "38-§. Qo‘qon xonligida madaniy hayot",
+          "heading_bbox": [
+            90,
+            203,
+            500,
+            248
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 147,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-39",
+            "pdf_page": 147,
+            "y": 202.3
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              199.0,
+              575.0,
+              283.0
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "119c2dd6912558f028371178fc07207812ec227bbddd1368e728f2521de30454",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-39",
+          "sequence": 39,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            39
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "Qo‘qon xonligida ta’lim",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 147,
+          "pdf_page": 147,
+          "printed_page": 147,
+          "heading_start_excerpt": "39-§. Qo‘qon xonligida ta’lim",
+          "heading_bbox": [
+            90,
+            202.3,
+            500,
+            247.3
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 150,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-40",
+            "pdf_page": 150,
+            "y": 288.7
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              198.3,
+              575.0,
+              282.3
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "56ee82dedec5456ee4d214dd76cb60989d2b333776c70a63a4af6bca588eea58",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-40",
+          "sequence": 40,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [
+            40
+          ],
+          "entry_kind": "numbered_paragraph",
+          "title": "O‘zbek davlatlarining taraqqiyotda orqada qolish sabablari va oqibatlari",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 150,
+          "pdf_page": 150,
+          "printed_page": 150,
+          "heading_start_excerpt": "40-§. O‘zbek davlatlarining taraqqiyotda orqada qolish sabablari va oqibatlari",
+          "heading_bbox": [
+            90,
+            288.7,
+            500,
+            333.7
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 153,
+          "end_boundary": {
+            "next_topic_id": "uzh-8-topic-41",
+            "pdf_page": 153,
+            "y": 390.1
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              284.7,
+              575.0,
+              368.7
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "f9427e10090d7fd5e2dac4a7376fa44e195c91ae209cdd7474f2dc18027209bd",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        },
+        {
+          "id": "uzh-8-topic-41",
+          "sequence": 41,
+          "chapter_id": "uzh-8-chapter-4",
+          "source_numbers": [],
+          "entry_kind": "independent_review_activity",
+          "title": "Yakuniy dars (mustaqil ishlash)",
+          "toc_pdf_page": 158,
+          "toc_printed_start": 153,
+          "pdf_page": 153,
+          "printed_page": 153,
+          "heading_start_excerpt": "Yakuniy dars (mustaqil ishlash)",
+          "heading_bbox": [
+            90,
+            390.1,
+            500,
+            435.1
+          ],
+          "verification": "original_heading_image_and_toc_checked",
+          "facts_reviewed": false,
+          "pdf_end": 156,
+          "end_boundary": {
+            "next_topic_id": null,
+            "pdf_page": 156,
+            "y": 660
+          },
+          "toc_body_page_match": true,
+          "heading_image_review": {
+            "clip": [
+              20.0,
+              386.1,
+              575.0,
+              470.1
+            ],
+            "matrix": [
+              1.8,
+              1.8
+            ],
+            "sha256": "90dc63499907f359ea21f7b8f1e91feddd57b87def44de5434a714ab14317aa0",
+            "verification": "original_heading_image_checked",
+            "review_note": "All original heading bands and TOC images visually checked; OCR not treated as approval."
+          },
+          "review_note": "Boundary and title from original image; full fact review is per lesson, not inferred from catalog."
+        }
+      ],
+      "pages": [
+        {
+          "pdf_page": 1,
+          "printed_page": null,
+          "printed_page_verification": "unnumbered_leaf_original_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "9c89b44c00f92f88bc4aca358779333c54e3e1033385eb7e64b9b7c9ea1f6567",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 1,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": null,
+          "printed_page_verification": "unnumbered_leaf_original_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "1a107e2c7722f70438219e565e20e7986c465c9d27c381a5ec2450e838ee0cd6",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 2,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 3,
+          "printed_page": 3,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "d19d3841c1aacf61dfeb93080c4f8534656392e275a878f1dabd7eac7419aecc",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 3,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": 4,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "d12bb084a54724b580475b53e4f39516860b56acc921031904dc63359cafd437",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 4,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 5,
+          "printed_page": 5,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "155235511e4c766d5597fc3e42191b397f43f1aa0dd10d2819676de57a21d092",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 5,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-1"
+          ]
+        },
+        {
+          "pdf_page": 6,
+          "printed_page": 6,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "dc488c47931cb4b58a910f7ad5dc2935998cd1570ce5889bf193f4adc5d1f090",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 6,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": 7,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "6b4990e2996fd9dcb5749f546e36531628719e27e21e423ad6204c3c1f3f4796",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 7,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 8,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "ccff956bc3da2ae5f7cc6490a10a060e4b18d0d3c5f3211eb048dde6d01ee3f5",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 8,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-2"
+          ]
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": 9,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "666e779d1908dd8a442bd733c7f6cc28b5e5d28c84be7dfbdfb7d3afd180fb66",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 9,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": 10,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "926abeacdd11772f87fa01afe5d41a86b1bc8e7906faf7ea036354fc2d798cd6",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 10,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": 11,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7b9ae94ceba61ebcf0f2161f8e2d5d41f769779ba6c8c2bd64e678d34e2d4b15",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 11,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-3"
+          ]
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": 12,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "520e4b7802da9479fe5a4998f83d6421577efdc20d888ad484894e977d332426",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 12,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": 13,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f5bcc5823c248c2ff5f6ff7a7ca9de4debaa0fb7b186addfb606b59101df123e",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 13,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-4"
+          ]
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": 14,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "0caae226b39b8841aeec31d427ee90922e5986253189c3b5bf7a536ddfd2d5e5",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 14,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": 15,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7198e47cdb561d02587020b73108aa9d1e79ed185c2869978c7bc64259854d2c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 15,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 16,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "42f5d4ef5ba2ba986552a4b0bfdc2648f158334e5dacd5e2f28ec7203ab84b50",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 16,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 17,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "2d9348088449dae106b16ea938c66676f144f5b676e83c8316a292f0ba423597",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 17,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-5"
+          ]
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 18,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "592a12b9f13f42121e433b734a3c4290996683290ac3217f34ba4a2bf7331ae3",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 18,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 19,
+          "printed_page": 19,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c2ff09becc1267ba02a38af1a875abf51dead0352c53585634f18d18980d230d",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 19,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-6"
+          ]
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "ae5f88ffa9a911cf0344463e65bad36201bc0568124534d1e62649753d79fffb",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 20,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": 21,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "4bbe0c9585a28933f97cea00453ec041c1d271d7695dcd7481ab1298c24ab39c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 21,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-7"
+          ]
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": 22,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7901e5df849cef3cfd5de0078aff0210d6da5acfb016a066b6ba9160b03265f8",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 22,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 23,
+          "printed_page": 23,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "ef3eb7abe60fce872b53373ec0da98c49ac6abd2cc0cf01d8fdf9563d3df23d2",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 23,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 24,
+          "printed_page": 24,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7694b07933259b1ae60eee7605f9c862edf2cfce7ec55a2ab5f62524c72ba746",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 24,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": 25,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f0a126e88801d11281bc426b1a26df0c34f21fcb82b317f3894a457b9b4b5fb6",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 25,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-8"
+          ]
+        },
+        {
+          "pdf_page": 26,
+          "printed_page": 26,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "02aa5869b2bc51b93a312d1259e49465307e551b97b870b45a468d186c2ed7a5",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 26,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 27,
+          "printed_page": 27,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "2b37345266b33a159a56409777df2b9ed4667e94fecff454caf737d858815837",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 27,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": 28,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "cbdfa9d13147ff87f4e3d6a66d916961dc5319c49b91e52ba8cb79b114809a94",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 28,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-9"
+          ]
+        },
+        {
+          "pdf_page": 29,
+          "printed_page": 29,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "0c2389b7ece3442cb17df7b8643f977342d7a55fa60516a542db3392b1d68189",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 29,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 30,
+          "printed_page": 30,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "3cd3592b1b1b062a8b037857bd57ef2d9aa903b4fb7681dfe68acb189f15ce80",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 30,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 31,
+          "printed_page": 31,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "d4bc71d982dfb5d50f2aaf0d5e45f86bb12c9736f7f3a079917b654240982899",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 31,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-10"
+          ]
+        },
+        {
+          "pdf_page": 32,
+          "printed_page": 32,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f7c1a16767e96efaf67b1cf8f60ba08d6d482571353cf8d8f18d4abc9ac2b7de",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 32,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 33,
+          "printed_page": 33,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "512c380e9ee2555133affad7971ae051deb9a563004eb0cde00a355363a184ae",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 33,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 34,
+          "printed_page": 34,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "cbb45a51eeafacdd0a7f07bb46677649aead3ef60fd6ffe557bf10ccad21b2d4",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 34,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-11"
+          ]
+        },
+        {
+          "pdf_page": 35,
+          "printed_page": 35,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "d8250a2716d29836370aa6cefd89466299819e52036e26a5d929efb041dd1f1b",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 35,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": 36,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "059cefbbff63ad06e49bc19bbe033feecdd196f91d1c2c949459afe282600314",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 36,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 37,
+          "printed_page": 37,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c01d13aeee2a16223023f2c10a2e2ea531d102c6e7fb37ef6e6af790c8b20b43",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 37,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 38,
+          "printed_page": 38,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "96eb9a3f684490ef927c6ff7c324da973290c68afff34a80191a8e5465ff38d7",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 38,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-12"
+          ]
+        },
+        {
+          "pdf_page": 39,
+          "printed_page": 39,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "be02b021bdfaba0635dc9aef5884689037d3e7bf1a268d455a4b9990d59085be",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 39,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 40,
+          "printed_page": 40,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "280703395ed485321b06acffee6707ef17b2d5073c362e51518296c6e1aa22c2",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_01_pdf_001-040.pdf",
+          "segment_pdf_page": 40,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 41,
+          "printed_page": 41,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a55f76cf691907bc47763b88e5dc2e5c640eb7c2e6a9413e5da57b581da42be1",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 1,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 42,
+          "printed_page": 42,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "5a8d03e5048758ef19a1d58448248b914a6205a0c49cf48a9bf78719c6496d4a",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 2,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 43,
+          "printed_page": 43,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "aa110405494adf11faeebd8c7c819071426216f2d5f73b02e2ce8aa09fa96355",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 3,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-13"
+          ]
+        },
+        {
+          "pdf_page": 44,
+          "printed_page": 44,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a323b695d9f76cc1d8110b27ca5c8d90f96b21144fe54b30fb4c8113c0169d4b",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 4,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 45,
+          "printed_page": 45,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "371749dfca3698915008f4eccdae297025e877616d5936b867b4327858863c87",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 5,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 46,
+          "printed_page": 46,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c15abf47b84ed5e069e1b49433d45229086669ece30585d9a5a43c332cd9ef61",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 6,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 47,
+          "printed_page": 47,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "d237fa1ec1cfab48b6d2961bfc0ca4f0e86e76dee7f36a817555ea0b3c31f005",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 7,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 48,
+          "printed_page": 48,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "99006cd27bdaec4e020cc227c0c9c07f6d1f18dcce47bb7ad5f6e081799a90cf",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 8,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "8479d5722107330f323260942d100d657208abde9a17dcd25a680811c0f7b30c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 9,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 50,
+          "printed_page": 50,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "0aaeacf8b05b44c72e59ddb96d56750b01ea038d268473612a36430bde3f6c22",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 10,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-14"
+          ]
+        },
+        {
+          "pdf_page": 51,
+          "printed_page": 51,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "68e85d1a0bb0c9746947d92fe7d272b1a825fc0eac767491818eb944c5da5d53",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 11,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 52,
+          "printed_page": 52,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f777a08d1813c2fce1ca860b93e37404b7a7b3b9171c151df599035487c9cf27",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 12,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 53,
+          "printed_page": 53,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a9714cb71bab7416516b3769b09c4d1173ca56b604db20a23d0915ecfeb37fba",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 13,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": 54,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "b98bcc0a4f1e0424f144b7811000159a432bd8f572f344978b090a86e2c8f7d5",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 14,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 55,
+          "printed_page": 55,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "656664160059e91077788cb654cba787dc6a95d287600318171cb52fdc1c7234",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 15,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-15"
+          ]
+        },
+        {
+          "pdf_page": 56,
+          "printed_page": 56,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "2ec074a2563a5cf1439fe3891b609d0a7ed6f56a3a7ebcef3a5537a113a295a7",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 16,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 57,
+          "printed_page": 57,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f42b248f2e693f42131aa1c437f1a9087c78745c3a07d6d32fc46010d81e85ee",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 17,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-16"
+          ]
+        },
+        {
+          "pdf_page": 58,
+          "printed_page": 58,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "b14f83b286ea68e7b5b1e31ed1f041a87694241b9a12079548f29b0e6361fe82",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 18,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 59,
+          "printed_page": 59,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "4854fc530216f79ecf0297609c47ee8b5380ea52d03ab3b96450c726030db38d",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 19,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 60,
+          "printed_page": 60,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "bf49748e59b89cb7515b265909baadb75608dfe88970975e0327afb74861a612",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 20,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 61,
+          "printed_page": 61,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "50556ee07cdca518fe17463d0eb3a08440cc2719fd0e35005f5e014f94e4c49c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 21,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-17"
+          ]
+        },
+        {
+          "pdf_page": 62,
+          "printed_page": 62,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "e77d74625065139119ade1c271efe71ac36710e3db8023911fed9e342a9acbd0",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 22,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 63,
+          "printed_page": 63,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a8c00bcc6c4f077ab93958132aecc0e40fa2869ed5ce5b48733af7e09c0670d1",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 23,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 64,
+          "printed_page": 64,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "cb42f66d097d40dc29d6f29121d50f7b5a60fffc6494aa170bccff660779e1c8",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 24,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 65,
+          "printed_page": 65,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7e2a9330861944eed4b736ef8de10f5559f3cadfecc7d0a9ebe26261e835d3bc",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 25,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-18"
+          ]
+        },
+        {
+          "pdf_page": 66,
+          "printed_page": 66,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c0eef9d7e076029b91c1ffd4213be3b62f9534f1672475da9f134ff224e0c319",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 26,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 67,
+          "printed_page": 67,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a96bfe93691e461ccb82a7b8dcd46f9e782eb4394c2f4edb8acadec7f0f73055",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 27,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 68,
+          "printed_page": 68,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a4c84ccedcba1f58fed0006676fe9e6500337a3603fc6b91c3ca7ea2529b929e",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 28,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-19"
+          ]
+        },
+        {
+          "pdf_page": 69,
+          "printed_page": 69,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "b4b611db552d977d72075d58e9157e3891fb8290a96a27d5c0294e966241af6d",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 29,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 70,
+          "printed_page": 70,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "6283d68709200903002aa8f9e0d95711629f7945316049b396fb3b368681efa4",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 30,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 71,
+          "printed_page": 71,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a9a9cb6ec035cd8886906a07aadbb3247b6cad7bce941687b61fcc8d0eeda7d2",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 31,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-20"
+          ]
+        },
+        {
+          "pdf_page": 72,
+          "printed_page": 72,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "18e833041e7cff2921cfa21466dc9f645c6b2fd10c2ab22e9b25553fe07f41d6",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 32,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 73,
+          "printed_page": 73,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "83876cb61133cb132e0631b6e316b4cf496dacd7481c568231b8d585b627dcbd",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 33,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 74,
+          "printed_page": 74,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f5042167fd7e63d98ce909ec36269016032aaa5e7e4a7a608a9919d8c5149ca1",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 34,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 75,
+          "printed_page": 75,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "077789661d8e64cf79953e5efbbc839ee1c1c84e2d90a16e5b1a2fe76e593864",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 35,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-21"
+          ]
+        },
+        {
+          "pdf_page": 76,
+          "printed_page": 76,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "13e2953b57b377ae03ec49a4fec92a25f79b3d2c949c4cf6f9fff7d7d89c9b13",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 36,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 77,
+          "printed_page": 77,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "60cbd20a7faef8ce871d503255022caf8108eb31a7a8e52d94c6e56f9f2326d8",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 37,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 78,
+          "printed_page": 78,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c4bfab62603a81a8a02f1058ca76548d879a8f394d3cec9b215c3af0d3400335",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 38,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 79,
+          "printed_page": 79,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "11098f0d4cb0876c5c6b9a21df41ca1530c8f645fbf195e8d2fa98b0b6b7fe47",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 39,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": 80,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "d17e1c04b702b83d1a277cea6927e70fa14353662b1b68a9750e79fa509f9f9f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_02_pdf_041-080.pdf",
+          "segment_pdf_page": 40,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-22"
+          ]
+        },
+        {
+          "pdf_page": 81,
+          "printed_page": 81,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "8776f35d302b3dbdfe36b03c05ac8bae8346962e0086406d184eb592b3f084a3",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 1,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 82,
+          "printed_page": 82,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "66827b5300a7006e0fcde49b1ab0a0b6224766e7c1bc13da0028869094bc76df",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 2,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-23"
+          ]
+        },
+        {
+          "pdf_page": 83,
+          "printed_page": 83,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "1d8bde9673e2ca08c549163bb33cd0e11cd8abf018980576ef5fdbef0ba31f2e",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 3,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 84,
+          "printed_page": 84,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "08e7b481b2b5b0721afe32095cb102a158c5ca52efea3e7c1291c35b14ce194f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 4,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 85,
+          "printed_page": 85,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "be074a6768cf2e4e21ca0b6e655db9a232aea8aab308d2a85fdaa4bcc846bcfe",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 5,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 86,
+          "printed_page": 86,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "8c1a775084270d52954385dd219e11d1df1992437e5a938c4a382e2ae710b9af",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 6,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-24"
+          ]
+        },
+        {
+          "pdf_page": 87,
+          "printed_page": 87,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "cc28612bd90179a6f72a823df916f3d593b249bbb993937a93ddf4501ced1956",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 7,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 88,
+          "printed_page": 88,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "8244f9b844819693297345e8a5b47f870b668888c9b608addf648997968280a6",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 8,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 89,
+          "printed_page": 89,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "2e47394f753cb0481c76b9d2b10d3841ec910bb87997f67500534259b2e3b991",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 9,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 90,
+          "printed_page": 90,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "661d0864bca672dd4af0528ed9e4d5f623d186d97a902c1340925ce9f13e4016",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 10,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-25"
+          ]
+        },
+        {
+          "pdf_page": 91,
+          "printed_page": 91,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a16788229e8a759325fb5308c73b6acfa3328d01ea1ce64b49ab04dcbbea03fa",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 11,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 92,
+          "printed_page": 92,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f2bf279e46ec064d4d09aded762d5c34cae6efa673c99b62414efb2f709ebe07",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 12,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 93,
+          "printed_page": 93,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7e258825774fa309e1d1447b546b5e1604d107196140db5308695335af0e26c1",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 13,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 94,
+          "printed_page": 94,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "1be25df2bbd468236e7d3f4f6cdd48c3149506808d1be72e33cd735051359244",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 14,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-26"
+          ]
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "90b65a912ae570846bd77cb50f827b2bacfb6864cdbc64fc786a277ccf88e9e4",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 15,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 96,
+          "printed_page": 96,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c8f87b3ca90d964fc62348f825e3f1bc6d142892b479f07d674d76a35f9ea464",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 16,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 97,
+          "printed_page": 97,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7c16c837cd4339097a3811a4980cc3050a186824e2b9cf3627d9af7e9eb76176",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 17,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 98,
+          "printed_page": 98,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "7a5d22814ac0d1d8e1896ad1ebc51da86490c5bbad42dbe9cbad68f2c0f9a572",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 18,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 99,
+          "printed_page": 99,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "e5e02b23ae83725e3dcafbf16fd538495277aa4512bc4bbb953b164117cdc958",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 19,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-27"
+          ]
+        },
+        {
+          "pdf_page": 100,
+          "printed_page": 100,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c326c2ad6dc28208c8afd26c479164e0ad7ae39f1df3851c95bf37efb8d5b192",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 20,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 101,
+          "printed_page": 101,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "4177b303883050734c1e3ef4b79e4c933266f4a44f8a404e5573b4f265f2ece3",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 21,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": 102,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "6d365dc2fece2d06bf39a2600f697d55f582a6b9373dbfc6e9c083898fb7d72e",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 22,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 103,
+          "printed_page": 103,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "10ced86a0c4d03d04ecdd2831f2e9d7b674a607ed25e60457106d28a09dd4f5c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 23,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-28"
+          ]
+        },
+        {
+          "pdf_page": 104,
+          "printed_page": 104,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "dc6563d034d609c17f48af95eb2b4abb6998826fb673178f2b53ecf53d144c2f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 24,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 105,
+          "printed_page": 105,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "e3e408dd3a0ee986adfe3d7cd262e1aaf2a51f0b25609feb52dce2eb2b047047",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 25,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 106,
+          "printed_page": 106,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c12170f7994f0bccb9fdda34593a29595b1a44893029dc6f68fc818c78f5194f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 26,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-29"
+          ]
+        },
+        {
+          "pdf_page": 107,
+          "printed_page": 107,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "e2f24e6970a3975af2b3375430752a76702077b54ecba69bb07cafb82c5b8666",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 27,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 108,
+          "printed_page": 108,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "d1da316d88e7f3443006ac8f1832b219be0d6aa8b847611a31eafa54dd2a6a82",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 28,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 109,
+          "printed_page": 109,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "8bff8e30f4582a1264b5968020b24a19e5b3dc3f3349c05161d9f74c256aaa86",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 29,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 110,
+          "printed_page": 110,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "b01a3235b98ca63e1dd2e2ae580418b336b62eadc79bfa37e3d9a11314077f75",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 30,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-30"
+          ]
+        },
+        {
+          "pdf_page": 111,
+          "printed_page": 111,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "5c7dcc3be185dc1e05aa9026bd23064eca821bfc8098be2269c7d61f8a96e1a1",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 31,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": 112,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "ae8821d2365d8d09106f8e722f79b22c5f8d895833f54b61e890687d35d7de2f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 32,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 113,
+          "printed_page": 113,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "8fdc92ff16b8838c95fa5fb1f5fb7cf7747bd946187f758af35a039874e62ddd",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 33,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-31"
+          ]
+        },
+        {
+          "pdf_page": 114,
+          "printed_page": 114,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "1b618b7d5384a8e83b15e878e03b7a01bdb627ae1e53222bccbf9b6739071094",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 34,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 115,
+          "printed_page": 115,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a3b0e056ffbd19434f090e534bbd8c56905c41fb7158727da919b262024db2ba",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 35,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 116,
+          "printed_page": 116,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "43b3f2d27da2fc8be4a886112a5a5a1dc03032e5b3808b4d30cf92258e7f572f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 36,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 117,
+          "printed_page": 117,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "9ae94f375b61dde2a6b7533ca631fd2404728779db9168cf8cb958cc9419f4fa",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 37,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 118,
+          "printed_page": 118,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "0ce6d3af3ab01bbcf744edd1b3404a13bb62790b24175876d13529f68fffec8f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 38,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-32"
+          ]
+        },
+        {
+          "pdf_page": 119,
+          "printed_page": 119,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "1e714bf6dd0a510bf8f4784f77e6a2edaa0d8513b00cda6602508bb0332c394c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 39,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 120,
+          "printed_page": 120,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "44a71965cd6d74070623e273f532c0516a4191c1c4457136f64f1654fff66f25",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_03_pdf_081-120.pdf",
+          "segment_pdf_page": 40,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-33"
+          ]
+        },
+        {
+          "pdf_page": 121,
+          "printed_page": 121,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "eea8c1fd361d8b8f4d63e61d841f1af44c530d37e84f29fbd0bb8293a9b14c0c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 1,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 122,
+          "printed_page": 122,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "9ef6e425bf7f55a2edac71e85a040c0e21dd32b7bd2fbc01707d6c459c960ec7",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 2,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 123,
+          "printed_page": 123,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "63d5ff5a7ad15b24c233320009378e5d8c6e24680610a71a361532fbc76e6f0e",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 3,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 124,
+          "printed_page": 124,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "28634d9e9073cf3d23c9458b6d031f15282a841ca9eb1c057f54e0901a80f879",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 4,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 125,
+          "printed_page": 125,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "04774fe4d5dd265391800f2697419e8e304e9f15073f6c170bbf010cb5bea194",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 5,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 126,
+          "printed_page": 126,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "5637464e95117a17fb680f5abee323485ab9d71a6889aab0decd343e192faf18",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 6,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-34"
+          ]
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c5d439a52c6354d9ddf72928110ce72edc40999641321ddbfa80abe03ea47d13",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 7,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 128,
+          "printed_page": 128,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "964cc5439ce57afecdf6470dba52105d8dfd7e275504f98c707ec12e415713a3",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 8,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 129,
+          "printed_page": 129,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "14645b11911b4e74e70dc9d020154d236bde5a784b68404b2974be85ecb97134",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 9,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-35"
+          ]
+        },
+        {
+          "pdf_page": 130,
+          "printed_page": 130,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a4fc30e71a990b1d10cd42ad31b06d357b653e8e7b861046de7bbb473903a10f",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 10,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 131,
+          "printed_page": 131,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "951777ae14db293e486abf80a196dc8c64f493c0f96c29bd59819a959164c7d4",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 11,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 132,
+          "printed_page": 132,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "cf52a0abf4c600859f5f6453973106085ab0e78549f987550d7b5723f8467488",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 12,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 133,
+          "printed_page": 133,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "b723b66dbc94ec00a68a08762960366dbeb999ee972ece1aa552aa1170f3bb06",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 13,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-36"
+          ]
+        },
+        {
+          "pdf_page": 134,
+          "printed_page": 134,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a457ca73e8bb2cf89c0c9855f22c362dd87a75b5e48dd417581d1a10db2150ff",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 14,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": 135,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "830b8065fa7ec1ec38fc1d7a9ab2cac677f6b352ea4f235764f190b99a3f737b",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 15,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 136,
+          "printed_page": 136,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "70e2bfcf26ee46d6ccebe72472c51d8e12b6a317f47b329b5645cef96b49b874",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 16,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 137,
+          "printed_page": 137,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "f420ef4556261a8fcc7a05969cf2621bba9d605e7b0d06bf4cf9c5ae111542e5",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 17,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-37"
+          ]
+        },
+        {
+          "pdf_page": 138,
+          "printed_page": 138,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "28bde22ded4ce7d05ceb2f51188831a5790155e268233ede34c0bf3e8124972e",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 18,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 139,
+          "printed_page": 139,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "8c2398eb9efddae9e68c6ab7e41476e2a078b3cc874634b640ab3a9708122265",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 19,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": 140,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "164d375982c08663b20b3b95f30fbd7ee1d18741696a2472f0ec7ff4549c8876",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 20,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": 141,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "20460c220a4a293a9b9f4422df3f7445f835f22fd59f38511d4df25a3fc03c05",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 21,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 142,
+          "printed_page": 142,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "a572dafbd3fb52baae469ccd044b2db5598ebe4c93464a61a6f800e5560f9a41",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 22,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-38"
+          ]
+        },
+        {
+          "pdf_page": 143,
+          "printed_page": 143,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "9cf48650e889dcd3cba724042389c39098165ca19007f2f47a9b64998a8cef0a",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 23,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": 144,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "9e6493ddd4f8a6845c2660e27e6c703b254a74257048a1bf467959303917cfa5",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 24,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 145,
+          "printed_page": 145,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "3d9c4fe73a5e0fab6d4cdaf236732641173df0020044343202014cbeab889f3e",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 25,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 146,
+          "printed_page": 146,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "802609febb371f3960ee284be3ea952ac261ac32e0f246e7729a3e8550a09be9",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 26,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 147,
+          "printed_page": 147,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "52937be72bad31760ee55ef8337892d1d7d2848206b92b3b3a63af220d9492df",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 27,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-39"
+          ]
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": 148,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "0eeb5b8e135437f37e73345d99ed9b91fb7a3e3e3d1128189e1c3ef19224c2af",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 28,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 149,
+          "printed_page": 149,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "cce213ef7a31bccbbee368a29bd48350a2689c0dc47df689be4861abc7fbd635",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 29,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 150,
+          "printed_page": 150,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "30a9b3d5641832236da585cd87cc549ea8e7312d6da5582b456a185368b4a196",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 30,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-40"
+          ]
+        },
+        {
+          "pdf_page": 151,
+          "printed_page": 151,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "c5e4e736a6d31e46531a489dc2fbdcd7814c9ed03b8cb59bf1faffd83543c607",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 31,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 152,
+          "printed_page": 152,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "614ac1e36fe84f4f4a89bcad52d00048a5f56d25ac94b494c4c62528afc59178",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 32,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 153,
+          "printed_page": 153,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "78ed8478d5a5a21ace34100d760a0156a6b540e8bb428ffbe44a11064eb5426c",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 33,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": [
+            "uzh-8-topic-41"
+          ]
+        },
+        {
+          "pdf_page": 154,
+          "printed_page": 154,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "3b7366c62021cb0790c3c061ca38a66e5fb2e48bf6d3a744421603fcb1f4c649",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 34,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 155,
+          "printed_page": 155,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "392ca89930c36c801ea998e58be3eb9d4e57abd5815791cfda782fed88b32f38",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 35,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 156,
+          "printed_page": 156,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "405aadf3de0d10feedf64901a39d8113faf420faefc00b0edb29a57382700a08",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 36,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 157,
+          "printed_page": 157,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "9d0164a17e139abea8f91f6225ba6afc54e303747d0d495c828640d46416e8cb",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 37,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 158,
+          "printed_page": 158,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "048c193ce69a65a7c172a92aa6f9c747346ad87165814eead04c9ed1ff52d3bb",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 38,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 159,
+          "printed_page": 159,
+          "printed_page_verification": "original_footer_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "302540eacb90ff225d13a6a0e31ea667057d022ce53edeea2fabd4ea4225a6f0",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 39,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        },
+        {
+          "pdf_page": 160,
+          "printed_page": null,
+          "printed_page_verification": "unnumbered_leaf_original_image_checked",
+          "native_text_sha256": "e362c7f175c567aa31baca6968745e52494a1ce65a921f1f73d1428e24de306b",
+          "native_text_role": "watermark_only_not_teaching_text",
+          "image_sha256": "0750a4455f859b428ce2f7cb3d5f950e3d764e229761611ef4eb170add24c546",
+          "image_matrix": [
+            1.4,
+            1.4
+          ],
+          "segment_file_name": "ozbekiston_tarixi_8_uzb_qism_04_pdf_121-160.pdf",
+          "segment_pdf_page": 40,
+          "feature_audit": {
+            "status": "private_ocr_locator_only_not_fact_review"
+          },
+          "topic_heading_starts": []
+        }
+      ],
+      "counts": {
+        "chapters": 4,
+        "teaching_entries": 41,
+        "numbered_paragraphs": 40
       },
       "catalog_verification": "all_topic_heading_images_and_toc_checked_not_full_fact_review"
     },
@@ -15087,18 +20034,7 @@
       "catalog_verification": "all_topic_heading_images_and_toc_checked_not_full_fact_review"
     }
   ],
-  "blocked_books": [
-    {
-      "grade": 8,
-      "file_name": "ozbekiston_tarixi_8_uzb.pdf",
-      "expected_pdf_pages": 160,
-      "expected_year": 2019,
-      "status": "not_transferred",
-      "reason": "Uploaded whole file exceeds32MiBexecutortransferlimit",
-      "sha256": null,
-      "required_segments": "Contiguous original pages1–160;eachsegmentbelow32MiB;wholeSHAonlyifactualwholefileavailable"
-    }
-  ],
-  "known_catalogued_teaching_entries": 131,
-  "all_five_book_teaching_total": null
+  "blocked_books": [],
+  "known_catalogued_teaching_entries": 172,
+  "all_five_book_teaching_total": 172
 }

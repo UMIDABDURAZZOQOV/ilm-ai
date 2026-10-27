@@ -7,18 +7,18 @@ import pytest
 from services.uzbekistan_history_sources import load_catalog, validate_catalog
 
 
-def test_four_supplied_books_are_real_and_eighth_grade_remains_blocked():
+def test_all_five_supplied_books_have_verified_catalogue_identity():
     d = load_catalog()
     r = validate_catalog(d)
     assert r == {
-        "available_books": 4,
-        "blocked_grades": [8],
-        "catalogued_teaching_entries": 131,
-        "all_five_total": None,
+        "available_books": 5,
+        "blocked_grades": [],
+        "catalogued_teaching_entries": 172,
+        "all_five_total": 172,
     }
-    assert [b["pdf_page_count"] for b in d["books"]] == [161, 160, 144, 144]
-    assert [b["counts"]["teaching_entries"] for b in d["books"]] == [42, 39, 28, 22]
-    assert [b["counts"]["chapters"] for b in d["books"]] == [6, 9, 6, 9]
+    assert [b["pdf_page_count"] for b in d["books"]] == [161, 160, 160, 144, 144]
+    assert [b["counts"]["teaching_entries"] for b in d["books"]] == [42, 41, 39, 28, 22]
+    assert [b["counts"]["chapters"] for b in d["books"]] == [6, 4, 9, 6, 9]
     assert all(not t["facts_reviewed"] for b in d["books"] for t in b["topics"])
 
 
@@ -79,7 +79,7 @@ def test_tamper_is_rejected(change):
     elif change == "bad_source_sha":
         b["sha256"] = "wrong"
     elif change == "fake_complete":
-        d["complete_source_catalog"] = True
+        d["complete_source_catalog"] = False
     elif change == "invented_total":
         d["all_five_book_teaching_total"] = 200
     elif change == "wrong_subject":
@@ -112,3 +112,61 @@ def test_parallel_source_baseline_is_unchanged():
             hashlib.sha256((root / record["path"]).read_bytes()).hexdigest()
             == record["sha256"]
         ), record["path"]
+
+
+@pytest.mark.parametrize(
+    "case",
+    [
+        "gap",
+        "overlap",
+        "order",
+        "local_page",
+        "duplicate_image",
+        "printed",
+        "unsplit",
+        "footer",
+    ],
+)
+def test_scanned_segment_mapping_is_not_approved_by_ocr(case):
+    import json
+
+    from services.uzbekistan_history_sources import DIRECTORY, validate_segment_manifest
+
+    manifest = json.loads((DIRECTORY / "grade8_segments.json").read_text())
+    validate_segment_manifest(manifest)
+    if case == "gap":
+        manifest["segments"][1]["first_pdf_page"] = 42
+    elif case == "overlap":
+        manifest["segments"][1]["first_pdf_page"] = 40
+    elif case == "order":
+        manifest["segments"].reverse()
+    elif case == "local_page":
+        manifest["pages"][40]["segment_pdf_page"] = 2
+    elif case == "duplicate_image":
+        manifest["pages"][40]["image_sha256"] = manifest["pages"][39]["image_sha256"]
+    elif case == "printed":
+        manifest["pages"][40]["printed_page"] = 40
+    elif case == "unsplit":
+        manifest["original_unsplit_sha256"] = manifest["derived_pdf_sha256"]
+    else:
+        manifest["continuity_review"]["all_numbered_footers_visually_checked"] = False
+    with pytest.raises(ValueError):
+        validate_segment_manifest(manifest)
+
+
+def test_frozen_grade7_and_four_previous_source_objects_are_byte_preserved():
+    import hashlib
+    import json
+
+    from services.uzbekistan_history_sources import DIRECTORY, digest
+
+    baseline = json.loads((DIRECTORY / "grade7_preservation.json").read_text())
+    root = DIRECTORY.parents[2]
+    for record in baseline["files"]:
+        assert (
+            hashlib.sha256((root / record["path"]).read_bytes()).hexdigest()
+            == record["sha256"]
+        )
+    for book in load_catalog()["books"]:
+        if str(book["grade"]) in baseline["source_books"]:
+            assert digest(book) == baseline["source_books"][str(book["grade"])]

@@ -1,14 +1,12 @@
-# O‘zbekiston tarixi: manba katalogi va lokal/test kursi
+# O‘zbekiston tarixi — manbali lokal/test kurs
 
-Joriy interaktiv qamrov 7-sinf §1–42. **Besh kitobli kurs tugallanmagan.**
+2026-10-27. **Kurs tugallanmagan: 47/172 o‘quv birligi lokal/test preview’da.** 7-sinf42/42 o‘zgarmadi; 8-sinf5/41. Jami 358 karta, 310 topshiriq (183 MCQ / 93 qisqa FRQ / 34 xronologiya), 47 original misol va 47 baholanmaydigan refleksiya.
 
-- [Joriy hisob va sinovlar](COURSE_COMPLETION.md)
-- [Aniq davom nuqtasi va darslar](STAGE2_PROGRESS.md)
-- [Lokal preview, API va Android chegaralari](LOCAL_QA.md)
-- [8-sinf manba transferi va keyingi sessiya handoffi](SOURCE_HANDOFF.md)
-- [Manba katalogi](COURSE_MAP.md)
-- [Manba va tafovutlar auditi](SOURCE_REVIEW.md)
-- [Arxitektura va parallel fanlar izolyatsiyasi](ARCHITECTURE.md)
-- [2026–2027 dastur auditi](CURRICULUM_ALIGNMENT_2026_2027.md)
-
-Validator: `python -m scripts.audit_uzbekistan_history_sources --pdf-dir /PRIVATE/ATTACHMENTS --include-lessons`. Besh kitob to‘liqligini talab qilish uchun `--require-complete`: 8-sinf yo‘qligida ataylab exit2. PDF/OCR/kitob rasmlari Gitga qo‘shilmaydi.
+- [Joriy qamrov va testlar](COURSE_COMPLETION.md)
+- [Davom nuqtasi](STAGE2_PROGRESS.md)
+- [Barcha besh kitob xaritasi](COURSE_MAP.md)
+- [8-sinf segment va scan auditi](GRADE8_SOURCE_REVIEW.md)
+- [Manba tafovutlari](SOURCE_REVIEW.md)
+- [Lokal QA](LOCAL_QA.md)
+- [Arxitektura](ARCHITECTURE.md)
+- [Rasmiy dastur auditi — ochiq](CURRICULUM_ALIGNMENT_2026_2027.md)

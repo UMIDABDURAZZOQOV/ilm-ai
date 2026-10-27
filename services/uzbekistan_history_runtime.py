@@ -107,7 +107,7 @@ def catalog(db, uid, grade=7):
             {
                 "key": lesson.key,
                 "sequence": lesson.sequence,
-                "source_numbers": source_numbers.get(lesson.topic_id, []),
+                "source_numbers": source_numbers.get(lesson.topic_id) or None,
                 "title": lesson.title,
                 "state": "completed" if done else ("available" if ready else "locked"),
                 "best_score_pct": progress[lesson.key].best_score_pct

@@ -76,3 +76,8 @@ Asl150–156-sahifalar qayta tasvirdan ko‘rildi. §41 PDF150ning pastida boshl
 Lavvohlik, sahhoflik, nasta’liq va Sultonali Mashhadiy nomi154asl tasviridan tekshirildi. Nasta’liqning global ixtiro ustuvorligi uchun mustaqil dalil tasdiqlandi deb aytilmaydi.1429Shohnoma qo‘lyozma nusxasining sanasi, asarning ilk yaratilish sanasi emas. Mahmud Muzahhib portretining nisbat berilishi shaxsning barcha fe’l-atvori tasvirdan isbotlandi degani emas.1997mukofot/2000xotirlash Behzodning o‘z davridan farqlangan. Siyosiy madh yoki darslikdagi yuz qiyofasidan ma’naviy xulosa chiqarish avtomatik testga kiritilmadi.
 
 7-sinf42paragraf manbaga bog‘langan lokal/test darsga aylantirildi. Bu mustaqil tarixchi tasdig‘i yoki barcha besh sinf yakuni emas.8-sinf manba fayli transferdan o‘tmaguncha uning birorta mavzu nomi, darsi yoki sanasi taxminan yaratilmaydi. [Manba davom handoffi](SOURCE_HANDOFF.md).
+
+
+## 2026-10-27 — 8-sinf manba to‘sig‘i yopildi
+
+To‘rtta40sahifalik segment olindi,160sahifa/printed footer tartibi va barcha41sarlavha asl tasvirdan tekshirildi. Katalog endi5kitob,34bob,172o‘quv birligi;8-sinf40paragraf+1yakuniy faoliyat.7-sinfdagi42r1 va boshqa4book obyektlari o‘zgarmadi. Native watermark OCR fakt tasdig‘i emas; scanned ref uchun asl pixelSHA talab qilinadi. [SHA, mapping va xronologik noaniqliklar](GRADE8_SOURCE_REVIEW.md). Eski «8-sinf olinmagan» qaydlari o‘sha checkpoint tarixi, joriy blok emas.

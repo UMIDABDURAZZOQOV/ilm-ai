@@ -1,74 +1,30 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan.** 7-sinf §1–42: **42 dars**, 325 karta, 42 original misol, 280 topshiriq (168 MCQ / 83 qisqa FRQ / 29 xronologiya), 42 avtomatik baholanmaydigan refleksiya/rubrika.
+2026-10-27. **Kurs tugallanmagan: 47/172 o‘quv birligi lokal/test preview’da.** 7-sinf42/42 o‘zgarmadi; 8-sinf5/41. Jami 358 karta, 310 topshiriq (183 MCQ / 93 qisqa FRQ / 34 xronologiya), 47 original misol va 47 baholanmaydigan refleksiya.
 
-| Sinf | Bob | Katalogdagi mavzu | Interaktiv dars | Qolgan |
+| Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan |
 |---|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 |
-| 8 | ? | ? | 0 | Noma’lum: PDF olinmagan |
+| 8 | 4 | 41 | 5 | 36 |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
-To‘rtta mavjud darslikda 131 ta mavzu guruhi kataloglangan; 89 tasi hali darsga aylantirilmagan. Beshala kitob jami **noma’lum**. 9-sinf §4–5 va §35–36 birlashtirilgan bo‘limlar alohida ikki marta sanalmaydi. Manba inventari tayyor darslar soni emas.
+**Keyingi: 8-sinf §6, PDF/bosma 19 — Abdullaxon II davrida Buxoro xonligining yuksalishi.** Manba yetishmovchiligi yopildi; eski SOURCE_HANDOFF matni tarixiy qayd.7-sinfni qayta yaratmang.8dan keyin9→10→11 ketma-ket davom eting.
 
-Keyingi: **8-sinf: manba PDF segmentlari olinmaguncha bloklangan**. Hozirgacha yozilgan darslarni qaytadan yaratmang. 8-sinf manbasi olinmagan; boshqa fanlar yoki productionga tegmang.
-
-| 7-sinf darsi | Faktlar keltirilgan PDF/bosma sahifalar | Karta | Topshiriq |
+| 8-sinf darsi | PDF/bosma sahifalar | Karta | Topshiriq |
 |---|---|---:|---:|
-| §1 Ijtimoiy-iqtisodiy o‘zgarishlar | 6–8 | 7 | 6 |
-| §2 Ilk o‘rta asrlarda Xorazm, Xioniylar, Kidariylar davlatlari | 8–10 | 7 | 7 |
-| §3 Eftallar davlati. Eftallar davrida ijtimoiy-iqtisodiy va madaniy hayot | 11–13 | 7 | 7 |
-| §4 O‘rta Osiyo xalqlari Turk xoqonligi davrida | 14–16 | 7 | 7 |
-| §5 G‘arbiy turk xoqonligi | 17–18 | 6 | 7 |
-| §6 Mahalliy hokimliklarning tashkil topishi | 19–22 | 8 | 6 |
-| §7 VI–VII asrlarda madaniy hayot | 22–26 | 7 | 6 |
-| §8 Movarounnahrda Arab xalifaligining o‘rnatilishi | 27–30 | 8 | 7 |
-| §9 Movarounnahrda Islom dinining yoyilishi | 31–33 | 7 | 6 |
-| §10 Xalifalikka qarshi xalq noroziligi | 33–37 | 9 | 7 |
-| §11 Abbosiylar davrida Xuroson va Movarounnahr | 38–40 | 8 | 7 |
-| §12 Qarluqlar, o‘g‘uzlar, tohiriylar | 41–44 | 7 | 7 |
-| §13 Somoniylar | 45–47 | 8 | 7 |
-| §14 Somoniylar davrida ijtimoiy-iqtisodiy hayot | 48–52 | 10 | 6 |
-| §15 G‘aznaviylar | 53–54 | 8 | 7 |
-| §16 Qoraxoniylar | 55–59 | 8 | 7 |
-| §17 Xorazm davlati va uning yuksalishi | 60–62 | 7 | 7 |
-| §18 Xorazmshoh va Chingizxon munosabatlari | 63–66 | 7 | 7 |
-| §19 Muhammad Xorazmshohning mamlakat mudofaasiga oid tadbirlari va uning oqibati | 66–70 | 8 | 7 |
-| §20 Jaloliddin Manguberdining Xorazm taxtiga o‘tirishi | 71–73 | 7 | 7 |
-| §21 Jaloliddin Manguberdi mohir sarkarda | 74–77 | 9 | 7 |
-| §22 Jaloliddin Manguberdi Vatan qahramoni | 78–81 | 7 | 7 |
-| §23 Chig‘atoy ulusining tashkil topishi | 82–84 | 8 | 7 |
-| §24 Ijtimoiy-iqtisodiy va madaniy hayot | 85–87 | 8 | 7 |
-| §25 Etnik jarayonlar va o‘zbek xalqining shakllanishi | 88–90 | 8 | 5 |
-| §26 Movarounnahr va Xorazmning madaniy hayoti | 91–97 | 8 | 6 |
-| §27 Adabiyot | 98–101 | 6 | 6 |
-| §28 Diniy bilimlarning rivojlanishi | 101–105 | 8 | 6 |
-| §29 Me’morchilik, san’at va musiqa | 106–108 | 7 | 6 |
-| §30 XIV asrning o‘rtalarida Movarounnahrda ijtimoiy-siyosiy vaziyat | 109–113 | 8 | 7 |
-| §31 Amir Temur – markazlashgan davlat asoschisi | 114–116 | 7 | 7 |
-| §32 Amir Temur saltanatining tashkil topishi | 116–121 | 8 | 7 |
-| §33 Amir Temurning tashqi siyosati | 123–126 | 8 | 7 |
-| §34 Amir Temurning jahon tarixida tutgan o‘rni | 127–130 | 8 | 7 |
-| §35 Temuriylar davridagi siyosiy jarayonlar | 131–133 | 8 | 7 |
-| §36 Mirzo Ulug‘bekning hukmronligi davrida Movarounnahr | 133–136 | 8 | 7 |
-| §37 Temuriylar saltanatining inqirozga yuz tutishi | 137–140 | 9 | 7 |
-| §38 Ijtimoiy-iqtisodiy taraqqiyot va bunyodkorlik | 141–145 | 8 | 6 |
-| §39 Ta’lim tizimi | 146–147 | 7 | 7 |
-| §40 Aniq fanlarning rivojlanishi | 147–150 | 8 | 6 |
-| §41 Adabiyot | 150–153 | 8 | 6 |
-| §42 Tasviriy san’at | 153–156 | 10 | 7 |
+| §1 Dashti Qipchoqdagi siyosiy vaziyat | 5–7 | 7 | 6 |
+| §2 Movarounnahr va Xurosondagi siyosiy vaziyat | 8–10 | 7 | 6 |
+| §3 Zahiriddin Muhammad Bobur va Muhammad Shayboniyxon munosabatlari | 11–13 | 6 | 6 |
+| §4 Movarounnahr va Xurosonda shayboniylar hukmronligining o‘rnatilishi | 14–16 | 7 | 6 |
+| §5 Buxoro xonligining tashkil topishi | 17–19 | 6 | 6 |
 
-Bu partiyalarda PDF va bosma raqamlar mos; ular har bir refda alohida saqlangan. Sahifa ichidagi boshlanish va navbatdagi sarlavhadan oldingi chegara JSON’da bor. Tafovut/ekspert qaydlari SOURCE_REVIEW.md’da.
-
-- backend: `94 passed, 1 skipped in 23.72s`.
-- backend_full_current: `2366 passed, 5 skipped, 2 deselected, 13 warnings in 505.90s (0:08:25)`.
-- sandbox_negative_guard: `1 passed in 0.81s`.
-- postgres: `1 passed, 78 deselected in 14.19s`.
-- flutter: `01:19 +235: All tests passed!`.
+- backend: `112 passed, 2 skipped in 42.13s`.
+- postgres: `2 passed, 87 deselected in 20.27s`.
+- flutter: `01:24 +241: All tests passed!`.
+- flutter_history: `00:10 +87: All tests passed!`.
 - analyze: `No issues found! (ran in 1.5s)`.
-- legacy_selected: `530 passed in 197.87s (0:03:17)`.
-- legacy_full: `2335 passed, 5 skipped, 2 deselected, 13 warnings in 553.66s (0:09:13)`.
-- flutter_history: `00:08 +81: All tests passed!`.
-- web_build: `debug JS build/web passed; compile-only invalid placeholder, no browser/Android run`.
-- web_limit: `existing flutter_tts JS interop/Wasm dry-run warnings; Wasm not validated`.
+- biology_targeted: `36 passed in 21.46s`.
+
+[7-sinf42darsning saqlangan dalillari](checkpoints/grade7_validation.json).

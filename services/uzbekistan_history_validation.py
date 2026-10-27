@@ -26,6 +26,7 @@ BATCHES = {
     "grade7_batch7": (7, 31, 35),
     "grade7_batch8": (7, 36, 40),
     "grade7_batch9": (7, 41, 42),
+    "grade8_batch1": (8, 1, 5),
 }
 
 fingerprint = digest
@@ -90,11 +91,23 @@ def validate_ref(ref, book, topic, facts=None):
         == [book["pages"][p - 1]["native_text_sha256"] for p in pages],
         "reference_native_hash",
     )
+    scanned = book.get("source_kind") == "reassembled_uploaded_segments"
     require(
-        ref["verification"] == "original_text_and_image_checked"
+        ref["verification"]
+        == (
+            "original_image_checked_ocr_locator_only"
+            if scanned
+            else "original_text_and_image_checked"
+        )
         and bool(ref["review_note"]),
         "reference_review",
     )
+    if scanned:
+        require(
+            ref.get("page_image_sha256")
+            == [book["pages"][p - 1]["image_sha256"] for p in pages],
+            "scanned_reference_image_evidence",
+        )
     require(
         bool(ref["fact_id"]) and (facts is None or ref["fact_id"] in facts),
         "reference_fact_identity",
@@ -181,7 +194,8 @@ def validate_batch(doc):
         taught = set()
         expected_refs = [r for fact in facts.values() for r in fact["source_refs"]]
         require(
-            {digest(r) for r in lesson["source_refs"]} == {digest(r) for r in expected_refs},
+            {digest(r) for r in lesson["source_refs"]}
+            == {digest(r) for r in expected_refs},
             "lesson_source_coverage",
         )
         for card in lesson["cards"]:
@@ -189,7 +203,8 @@ def validate_batch(doc):
                 card["fact_ids"]
                 and set(card["fact_ids"]) <= facts.keys()
                 and card["body"]
-                and {r["fact_id"] for r in card["source_refs"]} == set(card["fact_ids"]),
+                and {r["fact_id"] for r in card["source_refs"]}
+                == set(card["fact_ids"]),
                 "untaught_card_fact",
             )
             taught.update(card["fact_ids"])
@@ -201,7 +216,8 @@ def validate_batch(doc):
                 block["fact_ids"]
                 and set(block["fact_ids"]) <= taught
                 and block["body"]
-                and {r["fact_id"] for r in block["source_refs"]} == set(block["fact_ids"]),
+                and {r["fact_id"] for r in block["source_refs"]}
+                == set(block["fact_ids"]),
                 "example_or_reflection_untaught",
             )
             for ref in block["source_refs"]:
@@ -211,7 +227,10 @@ def validate_batch(doc):
                 q["fact_ids"] and set(q["fact_ids"]) <= taught, "question_untaught_fact"
             )
             require(
-                all(facts[f]["assertion_kind"] == "source_statement" for f in q["fact_ids"]),
+                all(
+                    facts[f]["assertion_kind"] == "source_statement"
+                    for f in q["fact_ids"]
+                ),
                 "interpretation_requires_self_or_teacher_review",
             )
             require(
@@ -260,7 +279,8 @@ def validate_batch(doc):
                 require(
                     len(options) >= 3
                     and len({o["id"] for o in options}) == len(options)
-                    and len({o["label"].strip().casefold() for o in options}) == len(options),
+                    and len({o["label"].strip().casefold() for o in options})
+                    == len(options),
                     "option_schema",
                 )
                 require(
@@ -274,7 +294,10 @@ def validate_batch(doc):
                     in {a for f in q["fact_ids"] for a in facts[f]["accepted_answers"]},
                     "choice_key_not_source_verified",
                 )
-                require(spec["verified_answer"] == expected, "feedback_key_not_verified_choice")
+                require(
+                    spec["verified_answer"] == expected,
+                    "feedback_key_not_verified_choice",
+                )
                 answer = {"choice_id": spec["expected"]}
             elif spec["kind"] == "short_text":
                 require(
@@ -392,11 +415,21 @@ def load_course():
             )
         result.append(doc)
     all_lessons = [lesson for doc in result for lesson in doc["lessons"]]
-    require(len({l["topic_id"] for l in all_lessons}) == len(all_lessons), "duplicate_batch_topic")
+    require(
+        len({l["topic_id"] for l in all_lessons}) == len(all_lessons),
+        "duplicate_batch_topic",
+    )
     questions = [q for l in all_lessons for q in l["assessments"]]
-    require(len({q["key"] for q in questions}) == len(questions), "duplicate_batch_question")
-    require(len({q["public"]["prompt"] for q in questions}) == len(questions), "duplicate_batch_prompt")
+    require(
+        len({q["key"] for q in questions}) == len(questions), "duplicate_batch_question"
+    )
+    require(
+        len({q["public"]["prompt"] for q in questions}) == len(questions),
+        "duplicate_batch_prompt",
+    )
     for grade in {d["grade"] for d in result}:
-        seq = [l["sequence"] for d in result if d["grade"] == grade for l in d["lessons"]]
+        seq = [
+            l["sequence"] for d in result if d["grade"] == grade for l in d["lessons"]
+        ]
         require(seq == list(range(1, max(seq) + 1)), "cross_batch_source_gap")
     return result

@@ -55,104 +55,213 @@ FRQ = {
 }
 ORDER = {2: ["e1", "e2"], 3: ["e1", "e2", "e3"], 4: ["e1", "e2", "e3"], 5: ["e2", "e1"]}
 
-MCQ.update({
-    6: ["Boj to‘lash va ichki boshqaruvning saqlanishi", "Zarafshon va Qashqadaryo", "Koson, Axsikat, Quva", "Ko‘handiz yoki ark"],
-    7: ["Sug‘d va xorazm yozuvlari", "Charm, yog‘och va sopol", "Varaxsha", "Bir nechta diniy an’ana mavjud bo‘lgan"],
-    8: ["Daryoning narigi tomoni", "Marv", "Buxoro", "Iqto"],
-    9: ["Jizya", "Xiroj", "Dastlabki yillarda", "Quva va Afrosiyob"],
-    10: ["G‘urak va Divashtich", "Oq libos", "Niqobdor", "Rofe ibn Lays"],
-})
-FRQ.update({6: ["Tunkat", "Rabot"], 7: ["Mug' qal'asi", "Choch raqsi"],
-    8: ["Qutayba ibn Muslim", "G'urak"], 9: ["Zakot", "Jizya"],
-    10: ["Hoshim ibn Hakim", "Som qal'asi"]})
+MCQ.update(
+    {
+        6: [
+            "Boj to‘lash va ichki boshqaruvning saqlanishi",
+            "Zarafshon va Qashqadaryo",
+            "Koson, Axsikat, Quva",
+            "Ko‘handiz yoki ark",
+        ],
+        7: [
+            "Sug‘d va xorazm yozuvlari",
+            "Charm, yog‘och va sopol",
+            "Varaxsha",
+            "Bir nechta diniy an’ana mavjud bo‘lgan",
+        ],
+        8: ["Daryoning narigi tomoni", "Marv", "Buxoro", "Iqto"],
+        9: ["Jizya", "Xiroj", "Dastlabki yillarda", "Quva va Afrosiyob"],
+        10: ["G‘urak va Divashtich", "Oq libos", "Niqobdor", "Rofe ibn Lays"],
+    }
+)
+FRQ.update(
+    {
+        6: ["Tunkat", "Rabot"],
+        7: ["Mug' qal'asi", "Choch raqsi"],
+        8: ["Qutayba ibn Muslim", "G'urak"],
+        9: ["Zakot", "Jizya"],
+        10: ["Hoshim ibn Hakim", "Som qal'asi"],
+    }
+)
 ORDER.update({8: ["e1", "e2", "e3"], 10: ["e1", "e2", "e3"]})
 
-MCQ.update({
-    11: ["Abu Muslim", "Abbosiylar", "Talos vodiysi", "Vazir ul-vuzaro"],
-    12: ["Suyob", "Yangikent", "Tohir ibn Husayn", "Nishopur"],
-    13: ["Samarqand", "Ismoil Somoniy", "Buxoro", "Farjak madrasasi"],
-    14: ["Samarqand", "Chek", "Mulki sultoniy", "Vaqf yerlari"],
-    15: ["G‘azna", "Xorazm", "Firdavsiy", "Rais"],
-})
-FRQ.update({11: ["Amirul-umaro", "Devon al mashriq"], 12: ["Xutba", "Ya'qub ibn Lays"],
-    13: ["Vazir", "Hojib"], 14: ["Falslar", "Qo'shchi"], 15: ["Alptegin", "Abu Rayhon Beruniy"]})
+MCQ.update(
+    {
+        11: ["Abu Muslim", "Abbosiylar", "Talos vodiysi", "Vazir ul-vuzaro"],
+        12: ["Suyob", "Yangikent", "Tohir ibn Husayn", "Nishopur"],
+        13: ["Samarqand", "Ismoil Somoniy", "Buxoro", "Farjak madrasasi"],
+        14: ["Samarqand", "Chek", "Mulki sultoniy", "Vaqf yerlari"],
+        15: ["G‘azna", "Xorazm", "Firdavsiy", "Rais"],
+    }
+)
+FRQ.update(
+    {
+        11: ["Amirul-umaro", "Devon al mashriq"],
+        12: ["Xutba", "Ya'qub ibn Lays"],
+        13: ["Vazir", "Hojib"],
+        14: ["Falslar", "Qo'shchi"],
+        15: ["Alptegin", "Abu Rayhon Beruniy"],
+    }
+)
 ORDER.update({n: ["e1", "e2", "e3"] for n in [11, 12, 13, 15]})
 
-MCQ.update({
-    16: ["Horun Bug‘roxon", "Nasr Eloqxon", "Bolasog‘un va Samarqand", "Qatvon"],
-    17: ["Ma’mun ibn Muhammad", "Otsiz", "Takash", "Xorazmshoh"],
-    18: ["Temuchin", "Bahouddin Roziy", "Buxoro", "Inolchiq"],
-    19: ["Kuchlarni turli shaharlarga bo‘lish", "O‘tror", "Temur Malik", "Urganch"],
-    20: ["Jaloliddin Manguberdi", "Valiyon qal’asi", "Parvon", "Sultonband"],
-})
-FRQ.update({16: ["Iqto", "Dehqon"], 17: ["Urganch", "Anushtegin"],
-    18: ["Mahmud Yalavoch", "O'tror"], 19: ["Temur Malik", "Najmiddin Kubro"],
-    20: ["Hind daryosi", "Ashura oroli"]})
+MCQ.update(
+    {
+        16: ["Horun Bug‘roxon", "Nasr Eloqxon", "Bolasog‘un va Samarqand", "Qatvon"],
+        17: ["Ma’mun ibn Muhammad", "Otsiz", "Takash", "Xorazmshoh"],
+        18: ["Temuchin", "Bahouddin Roziy", "Buxoro", "Inolchiq"],
+        19: ["Kuchlarni turli shaharlarga bo‘lish", "O‘tror", "Temur Malik", "Urganch"],
+        20: ["Jaloliddin Manguberdi", "Valiyon qal’asi", "Parvon", "Sultonband"],
+    }
+)
+FRQ.update(
+    {
+        16: ["Iqto", "Dehqon"],
+        17: ["Urganch", "Anushtegin"],
+        18: ["Mahmud Yalavoch", "O'tror"],
+        19: ["Temur Malik", "Najmiddin Kubro"],
+        20: ["Hind daryosi", "Ashura oroli"],
+    }
+)
 ORDER.update({n: ["e1", "e2", "e3"] for n in [16, 17, 18, 19]})
 ORDER[20] = ["e1", "e2"]
 
-MCQ.update({
-    21: ["Tabriz", "Garni", "Isfahon", "Arzinjon"],
-    22: ["Nasaviy", "Maqsud Shayxzoda", "Ibn al-Asir", "Tarixiy drama"],
-    23: ["Xo‘jand", "Qopchur", "Kalon", "Torob"],
-    24: ["Ma’sudbek", "Kebek", "Mulki devon", "Suyurg‘ol"],
-    25: ["Movarounnahr, Xorazm va Yettisuv", "Qovunchi madaniyati", "Sug‘d va turk tillari", "Etnik jarayon"],
-})
-FRQ.update({21: ["Xalifa Nosir", "G'iyosiddin Pirshoh"], 22: ["Juvayniy", "Jaloliddin Manguberdi ordeni"],
-    23: ["Mahmud Torobiy", "Barot"], 24: ["Yomlar", "Qarshi"], 25: ["Turkiston"]})
-ORDER.update({21: ["e1", "e2", "e3", "e4"], 22: ["e1", "e2", "e3", "e4"],
-    23: ["e1", "e2"], 24: ["e1", "e2", "e3"]})
+MCQ.update(
+    {
+        21: ["Tabriz", "Garni", "Isfahon", "Arzinjon"],
+        22: ["Nasaviy", "Maqsud Shayxzoda", "Ibn al-Asir", "Tarixiy drama"],
+        23: ["Xo‘jand", "Qopchur", "Kalon", "Torob"],
+        24: ["Ma’sudbek", "Kebek", "Mulki devon", "Suyurg‘ol"],
+        25: [
+            "Movarounnahr, Xorazm va Yettisuv",
+            "Qovunchi madaniyati",
+            "Sug‘d va turk tillari",
+            "Etnik jarayon",
+        ],
+    }
+)
+FRQ.update(
+    {
+        21: ["Xalifa Nosir", "G'iyosiddin Pirshoh"],
+        22: ["Juvayniy", "Jaloliddin Manguberdi ordeni"],
+        23: ["Mahmud Torobiy", "Barot"],
+        24: ["Yomlar", "Qarshi"],
+        25: ["Turkiston"],
+    }
+)
+ORDER.update(
+    {
+        21: ["e1", "e2", "e3", "e4"],
+        22: ["e1", "e2", "e3", "e4"],
+        23: ["e1", "e2"],
+        24: ["e1", "e2", "e3"],
+    }
+)
 
-MCQ.update({
-    26: ["Bag‘dod", "Al-Xorazmiy", "Ahmad al-Farg‘oniy", "Abu Nasr Farobiy"],
-    27: ["Mahmud az-Zamaxshariy", "Yusuf Xos Hojib", "Mahmud Koshg‘ariy", "Ahmad Yugnakiy"],
-    28: ["Imom al-Buxoriy", "Abu Mansur al-Moturidiy", "Burhoniddin al-Marg‘inoniy", "Fiqh"],
-    29: ["Xonbandi", "Xattotlik", "Olti maqom", "Yog‘och sinch"],
-    30: ["Xoja Ilg‘or", "Dorug‘a", "Loy jangi", "Samarqand"],
-})
-FRQ.update({26: ["Ibn Sino", "Beruniy"], 27: ["Xos Hojib", "Koshg'ar"],
-    28: ["Ahmad Yassaviy", "Bahouddin Naqshband"], 29: ["Ismoil Somoniy", "12 asr"],
-    30: ["Mavlonozoda", "Abu Bakr Kalaviy"]})
+MCQ.update(
+    {
+        26: ["Bag‘dod", "Al-Xorazmiy", "Ahmad al-Farg‘oniy", "Abu Nasr Farobiy"],
+        27: [
+            "Mahmud az-Zamaxshariy",
+            "Yusuf Xos Hojib",
+            "Mahmud Koshg‘ariy",
+            "Ahmad Yugnakiy",
+        ],
+        28: [
+            "Imom al-Buxoriy",
+            "Abu Mansur al-Moturidiy",
+            "Burhoniddin al-Marg‘inoniy",
+            "Fiqh",
+        ],
+        29: ["Xonbandi", "Xattotlik", "Olti maqom", "Yog‘och sinch"],
+        30: ["Xoja Ilg‘or", "Dorug‘a", "Loy jangi", "Samarqand"],
+    }
+)
+FRQ.update(
+    {
+        26: ["Ibn Sino", "Beruniy"],
+        27: ["Xos Hojib", "Koshg'ar"],
+        28: ["Ahmad Yassaviy", "Bahouddin Naqshband"],
+        29: ["Ismoil Somoniy", "12 asr"],
+        30: ["Mavlonozoda", "Abu Bakr Kalaviy"],
+    }
+)
 ORDER[30] = ["e1", "e2", "e3", "e4"]
 
-MCQ.update({
-    31: ["Movarounnahr amiri", "Samarqand", "1372-yil", "Hirot"],
-    32: ["Devonbegi", "Tavochi", "Tuman", "Suyurg‘ol"],
-    33: ["Barquq", "Klavixo", "Mironshoh", "Samarqand"],
-    34: ["I.M. Mo‘minov", "Xristofor Marlo", "Toshkent", "1995-yil"],
-    35: ["Pirmuhammad", "Xalil Sulton", "Hirot", "Samarqand"],
-})
-FRQ.update({31: ["Sayyid Baraka", "Bayroq va nog'ora"], 32: ["Hazora", "Qo'shun"],
-    33: ["Muhammad Qozi", "Karl VI"], 34: ["Perondino", "Sevilya"], 35: ["Qora Yusuf", "Xudoydod"]})
-ORDER.update({31: ["e1", "e2", "e3"], 32: ["e1", "e2", "e3"],
-    33: ["e1", "e2", "e3", "e4"], 34: ["e1", "e2", "e3", "e4", "e5"],
-    35: ["e1", "e2", "e3", "e4"]})
+MCQ.update(
+    {
+        31: ["Movarounnahr amiri", "Samarqand", "1372-yil", "Hirot"],
+        32: ["Devonbegi", "Tavochi", "Tuman", "Suyurg‘ol"],
+        33: ["Barquq", "Klavixo", "Mironshoh", "Samarqand"],
+        34: ["I.M. Mo‘minov", "Xristofor Marlo", "Toshkent", "1995-yil"],
+        35: ["Pirmuhammad", "Xalil Sulton", "Hirot", "Samarqand"],
+    }
+)
+FRQ.update(
+    {
+        31: ["Sayyid Baraka", "Bayroq va nog'ora"],
+        32: ["Hazora", "Qo'shun"],
+        33: ["Muhammad Qozi", "Karl VI"],
+        34: ["Perondino", "Sevilya"],
+        35: ["Qora Yusuf", "Xudoydod"],
+    }
+)
+ORDER.update(
+    {
+        31: ["e1", "e2", "e3"],
+        32: ["e1", "e2", "e3"],
+        33: ["e1", "e2", "e3", "e4"],
+        34: ["e1", "e2", "e3", "e4", "e5"],
+        35: ["e1", "e2", "e3", "e4"],
+    }
+)
 
-MCQ.update({
-    36: ["Shohrux", "1412-yil", "Tarnob", "Issiqko‘l"],
-    37: ["Abulxayrxon", "Abu Said", "Sulton Husayn Boyqaro", "Muhrdorlik"],
-    38: ["Banno", "Ustoz", "Tarxonlik yorlig‘i", "Hudud va savdo yo‘li alohida belgilangan"],
-    39: ["Saroymulkxonim", "Geometriya", "Shamsiddin Muhammad Xavofiy", "Buxoro"],
-    40: ["Samarqand", "Ziji jadidi Ko‘ragoniy", "G‘iyosiddin Jamshid", "Rasadxona"],
-})
-FRQ.update({36: ["Abdullatif", "Muhammad Miskin"], 37: ["Ubaydulloh Ahror", "Fayzulloh Abullays"],
-    38: ["Fulusi adliya", "Begor"], 39: ["Sanad", "Qozizoda Rumiy"],
-    40: ["Alouddin Ali Qushchi", "To'rt ulus tarixi"]})
-ORDER.update({36: ["e1", "e2", "e3", "e4", "e5", "e6"], 37: ["e1", "e2", "e3"],
-    39: ["e1", "e2", "e3"]})
+MCQ.update(
+    {
+        36: ["Shohrux", "1412-yil", "Tarnob", "Issiqko‘l"],
+        37: ["Abulxayrxon", "Abu Said", "Sulton Husayn Boyqaro", "Muhrdorlik"],
+        38: [
+            "Banno",
+            "Ustoz",
+            "Tarxonlik yorlig‘i",
+            "Hudud va savdo yo‘li alohida belgilangan",
+        ],
+        39: ["Saroymulkxonim", "Geometriya", "Shamsiddin Muhammad Xavofiy", "Buxoro"],
+        40: ["Samarqand", "Ziji jadidi Ko‘ragoniy", "G‘iyosiddin Jamshid", "Rasadxona"],
+    }
+)
+FRQ.update(
+    {
+        36: ["Abdullatif", "Muhammad Miskin"],
+        37: ["Ubaydulloh Ahror", "Fayzulloh Abullays"],
+        38: ["Fulusi adliya", "Begor"],
+        39: ["Sanad", "Qozizoda Rumiy"],
+        40: ["Alouddin Ali Qushchi", "To'rt ulus tarixi"],
+    }
+)
+ORDER.update(
+    {
+        36: ["e1", "e2", "e3", "e4", "e5", "e6"],
+        37: ["e1", "e2", "e3"],
+        39: ["e1", "e2", "e3"],
+    }
+)
 
 
-MCQ.update({
-    41: ["Durbek", "Alisher Navoiy", "Mirxond", "Xondamir"],
-    42: ["Lavvohlik", "Sahhoflik", "Nasta’liq", "Kamoliddin Behzod"],
-})
-FRQ.update({41: ["Abdurahmon Jomiy", "Lutfiy"],
-    42: ["Mahmud Muzahhib", "Sultonali Mashhadiy"]})
+MCQ.update(
+    {
+        41: ["Durbek", "Alisher Navoiy", "Mirxond", "Xondamir"],
+        42: ["Lavvohlik", "Sahhoflik", "Nasta’liq", "Kamoliddin Behzod"],
+    }
+)
+FRQ.update(
+    {41: ["Abdurahmon Jomiy", "Lutfiy"], 42: ["Mahmud Muzahhib", "Sultonali Mashhadiy"]}
+)
 ORDER[42] = ["e1", "e2", "e3"]
 
 
 def course_lessons():
-    return [l for d in load_course() for l in d["lessons"]]
+    return [l for d in load_course() if d["grade"] == 7 for l in d["lessons"]]
 
 
 def answers(lesson):
@@ -257,22 +366,36 @@ def test_legacy_century_answer_replay_survives_new_attempt_normalization(preview
         assert r.status_code == 200
         saved = r.json()
     assert saved is not None and not saved["is_correct"]
-    old_result = c.post(f"{P}/attempts/{old['attempt_id']}/complete", json={"assessment_version": 2}).json()
+    old_result = c.post(
+        f"{P}/attempts/{old['attempt_id']}/complete", json={"assessment_version": 2}
+    ).json()
     assert old_result["score"] == 5 and old_result["xp_awarded"] == 10
     fresh = start(c, 29).json()
     for q, answer in zip(lesson["assessments"], answers(lesson)):
         if q == lesson["assessments"][-1]:
             answer = {"value": "XII"}
-        r = c.post(f"{P}/attempts/{fresh['attempt_id']}/answers", json={
-            "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
-        })
+        r = c.post(
+            f"{P}/attempts/{fresh['attempt_id']}/answers",
+            json={
+                "assessment_version": 2,
+                "assessment_key": q["key"],
+                "answer": answer,
+            },
+        )
         assert r.status_code == 200 and r.json()["is_correct"]
-    new_result = c.post(f"{P}/attempts/{fresh['attempt_id']}/complete", json={"assessment_version": 2}).json()
+    new_result = c.post(
+        f"{P}/attempts/{fresh['attempt_id']}/complete", json={"assessment_version": 2}
+    ).json()
     assert new_result["score"] == 6 and new_result["xp_awarded"] == 0
     q = lesson["assessments"][-1]
-    replay = c.post(f"{P}/attempts/{old['attempt_id']}/answers", json={
-        "assessment_version": 2, "assessment_key": q["key"], "answer": {"value": "12"},
-    })
+    replay = c.post(
+        f"{P}/attempts/{old['attempt_id']}/answers",
+        json={
+            "assessment_version": 2,
+            "assessment_key": q["key"],
+            "answer": {"value": "12"},
+        },
+    )
     assert replay.status_code == 200 and replay.json() == saved
     with factory() as db:
         assert db.get(StudySession, old["attempt_id"]).response == old_result
@@ -297,7 +420,9 @@ def test_prior_context_is_pinned_and_future_context_stays_blocked(case):
     book = load_catalog()["books"][0]
     lesson = course_lessons()[39]
     topic = book["topics"][39]
-    ref = deepcopy(next(r for r in lesson["source_refs"] if r["topic_id"] != topic["id"]))
+    ref = deepcopy(
+        next(r for r in lesson["source_refs"] if r["topic_id"] != topic["id"])
+    )
     validate_ref(ref, book, topic, lesson["facts"])
     if case == "hash":
         ref["source_topic_sha256"] = "0" * 64
@@ -307,10 +432,15 @@ def test_prior_context_is_pinned_and_future_context_stays_blocked(case):
         ref["source_title"] = "incorrect source paragraph"
     else:
         future = book["topics"][40]
-        ref.update(topic_id=future["id"], chapter_id=future["chapter_id"],
-                   source_topic_sha256=digest(future), source_title=future["title"],
-                   pdf_pages=[151], printed_pages=[151],
-                   native_text_sha256=[book["pages"][150]["native_text_sha256"]])
+        ref.update(
+            topic_id=future["id"],
+            chapter_id=future["chapter_id"],
+            source_topic_sha256=digest(future),
+            source_title=future["title"],
+            pdf_pages=[151],
+            printed_pages=[151],
+            native_text_sha256=[book["pages"][150]["native_text_sha256"]],
+        )
     with pytest.raises(ValueError, match="unreviewed_or_future_context"):
         validate_ref(ref, book, topic, lesson["facts"])
 
@@ -357,7 +487,11 @@ def test_source_tamper_fails_closed(case):
             if f["assertion_kind"] == "source_interpretation"
         )["accepted_answers"] = ["one opinion"]
     elif case == "interpreted_chronology":
-        dated = next(f for f in d["lessons"][1]["facts"].values() if f.get("time", {}).get("start_year") == 456)
+        dated = next(
+            f
+            for f in d["lessons"][1]["facts"].values()
+            if f.get("time", {}).get("start_year") == 456
+        )
         dated["assertion_kind"] = "source_interpretation"
         dated["accepted_answers"] = []
     elif case == "missing_card_refs":
@@ -368,7 +502,9 @@ def test_source_tamper_fails_closed(case):
         l["source_refs"] = []
     elif case == "mislinked_example":
         example = l["examples"][0]
-        unrelated = next(f for fid, f in l["facts"].items() if fid not in example["fact_ids"])
+        unrelated = next(
+            f for fid, f in l["facts"].items() if fid not in example["fact_ids"]
+        )
         example["source_refs"] = deepcopy(unrelated["source_refs"])
     elif case == "feedback_key":
         l["assessments"][0]["grading_spec"]["verified_answer"] = "unverified claim"
@@ -408,8 +544,14 @@ def preview(tmp_path, monkeypatch):
                 User(id=2, name="QA2", email="uzh-qa2@example.test", xp_total=0),
             ]
         )
-        assert import_course(db) == {"created": 42, "skipped": 0}
-        assert import_course(db) == {"created": 0, "skipped": 42}
+        assert import_course(db) == {
+            "created": sum(len(d["lessons"]) for d in load_course()),
+            "skipped": 0,
+        }
+        assert import_course(db) == {
+            "created": 0,
+            "skipped": sum(len(d["lessons"]) for d in load_course()),
+        }
     app = FastAPI()
     app.include_router(router)
 
@@ -473,7 +615,10 @@ def test_real_api_all_forty_two_sources_xp_replay_and_legacy_preservation(previe
     assert catalog["lessons"][0]["source_numbers"] == [1]
     assert catalog["book"]["isbn"] == "978-9943-26-656-8"
     assert catalog["source_sections"] == 42 and catalog["implemented_sections"] == 42
-    assert catalog["available_grades"] == [7] and catalog["blocked_grades"] == [8]
+    assert (
+        catalog["available_grades"] == sorted({d["grade"] for d in load_course()})
+        and catalog["blocked_grades"] == []
+    )
     assert [r["state"] for r in catalog["lessons"]] == ["available"] + ["locked"] * 41
     assert start(c, 2).status_code == 403
     for l in course_lessons():
@@ -559,7 +704,15 @@ def test_gate_and_wrong_subject_keys(preview, monkeypatch):
     assert c.get(P + "/catalog").status_code == 404
 
 
-def test_missing_grade8_is_not_an_empty_verified_book(preview):
+def test_missing_grade8_is_not_an_empty_verified_book(preview, monkeypatch):
+    from services import uzbekistan_history_runtime as runtime
+
+    source = deepcopy(runtime.load_catalog())
+    source["books"] = [b for b in source["books"] if b["grade"] != 8]
+    source["blocked_books"] = [
+        {"grade": 8, "status": "not_transferred", "sha256": None}
+    ]
+    monkeypatch.setattr(runtime, "load_catalog", lambda: source)
     c, _ = preview
     d = c.get(P + "/catalog?grade=8").json()
     assert d["book"] is None and d["source_sections"] is None
@@ -567,25 +720,47 @@ def test_missing_grade8_is_not_an_empty_verified_book(preview):
     assert not d["grade_content_complete"] and not d["course_ready"]
 
 
-def test_failed_lesson_never_unlocks_or_awards_xp_and_client_cannot_claim_correctness(preview):
+def test_failed_lesson_never_unlocks_or_awards_xp_and_client_cannot_claim_correctness(
+    preview,
+):
     c, factory = preview
     lesson = course_lessons()[0]
     a = start(c).json()
     q = lesson["assessments"][0]
-    forged = c.post(f"{P}/attempts/{a['attempt_id']}/answers", json={
-        "assessment_version": 2, "assessment_key": q["key"],
-        "answer": {**answers(lesson)[0], "is_correct": True},
-    })
+    forged = c.post(
+        f"{P}/attempts/{a['attempt_id']}/answers",
+        json={
+            "assessment_version": 2,
+            "assessment_key": q["key"],
+            "answer": {**answers(lesson)[0], "is_correct": True},
+        },
+    )
     assert forged.status_code == 422
     for q, correct in zip(lesson["assessments"], answers(lesson)):
-        wrong = {"choice_id": next(o["id"] for o in q["public"]["options"]
-                                  if o["id"] != correct["choice_id"])} if q["response_kind"] == "concept_selection" else {"value": "boshqa atama"}
-        r = c.post(f"{P}/attempts/{a['attempt_id']}/answers", json={
-            "assessment_version": 2, "assessment_key": q["key"], "answer": wrong,
-        })
+        wrong = (
+            {
+                "choice_id": next(
+                    o["id"]
+                    for o in q["public"]["options"]
+                    if o["id"] != correct["choice_id"]
+                )
+            }
+            if q["response_kind"] == "concept_selection"
+            else {"value": "boshqa atama"}
+        )
+        r = c.post(
+            f"{P}/attempts/{a['attempt_id']}/answers",
+            json={
+                "assessment_version": 2,
+                "assessment_key": q["key"],
+                "answer": wrong,
+            },
+        )
         assert r.status_code == 200 and not r.json()["is_correct"]
         assert r.json()["feedback"] and r.json()["source_refs"]
-    r = c.post(f"{P}/attempts/{a['attempt_id']}/complete", json={"assessment_version": 2}).json()
+    r = c.post(
+        f"{P}/attempts/{a['attempt_id']}/complete", json={"assessment_version": 2}
+    ).json()
     assert not r["passed"] and r["score"] == 0 and r["xp_awarded"] == 0
     assert start(c, 2).status_code == 403
     with factory() as db:
@@ -623,13 +798,27 @@ def test_parallel_completion_never_duplicates_xp(preview, different_attempts):
     attempts = [a, start(c).json()] if different_attempts else [a]
     for attempt in attempts:
         for q, answer in zip(l["assessments"], answers(l)):
-            assert c.post(f"{P}/attempts/{attempt['attempt_id']}/answers", json={
-                "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
-            }).status_code == 200
+            assert (
+                c.post(
+                    f"{P}/attempts/{attempt['attempt_id']}/answers",
+                    json={
+                        "assessment_version": 2,
+                        "assessment_key": q["key"],
+                        "answer": answer,
+                    },
+                ).status_code
+                == 200
+            )
     with ThreadPoolExecutor(max_workers=2) as pool:
-        responses = list(pool.map(lambda attempt: c.post(
-            f"{P}/attempts/{attempt['attempt_id']}/complete", json={"assessment_version": 2}
-        ), attempts if different_attempts else [a, a]))
+        responses = list(
+            pool.map(
+                lambda attempt: c.post(
+                    f"{P}/attempts/{attempt['attempt_id']}/complete",
+                    json={"assessment_version": 2},
+                ),
+                attempts if different_attempts else [a, a],
+            )
+        )
     assert [r.status_code for r in responses] == [200, 200]
     if different_attempts:
         assert sorted(r.json()["xp_awarded"] for r in responses) == [0, 10]
@@ -669,11 +858,19 @@ def test_postgres_opt_in_fresh_schema_all_forty_and_parallel_xp(monkeypatch):
         with factory.begin() as db:
             db.add(User(id=1, name="QA", email="qa@example.test", xp_total=137))
             db.flush()
-            assert import_course(db) == {"created": 42, "skipped": 0}
-            assert import_course(db) == {"created": 0, "skipped": 42}
+            assert import_course(db) == {
+                "created": sum(len(d["lessons"]) for d in load_course()),
+                "skipped": 0,
+            }
+            assert import_course(db) == {
+                "created": 0,
+                "skipped": sum(len(d["lessons"]) for d in load_course()),
+            }
         monkeypatch.setenv("ENVIRONMENT", "test")
         monkeypatch.setenv("UZBEKISTAN_HISTORY_PREVIEW_ENABLED", "true")
-        monkeypatch.setattr(tokens, "JWT_SECRET", "history-local-pg-test-only-key-over-32-characters")
+        monkeypatch.setattr(
+            tokens, "JWT_SECRET", "history-local-pg-test-only-key-over-32-characters"
+        )
         app = FastAPI()
         app.include_router(router)
 
@@ -682,7 +879,9 @@ def test_postgres_opt_in_fresh_schema_all_forty_and_parallel_xp(monkeypatch):
                 yield db
 
         app.dependency_overrides[database.get_db] = get_db
-        with TestClient(app, headers={"Authorization": "Bearer " + tokens.create_access_token(1)}) as c:
+        with TestClient(
+            app, headers={"Authorization": "Bearer " + tokens.create_access_token(1)}
+        ) as c:
             for l in course_lessons()[:-1]:
                 _, r = complete_lesson(c, l)
                 assert r["xp_awarded"] == 10
@@ -690,19 +889,36 @@ def test_postgres_opt_in_fresh_schema_all_forty_and_parallel_xp(monkeypatch):
             attempts = [start(c, l["sequence"]).json() for _ in range(2)]
             for attempt in attempts:
                 for q, answer in zip(l["assessments"], answers(l)):
-                    assert c.post(f"{P}/attempts/{attempt['attempt_id']}/answers", json={
-                        "assessment_version": 2, "assessment_key": q["key"], "answer": answer,
-                    }).status_code == 200
+                    assert (
+                        c.post(
+                            f"{P}/attempts/{attempt['attempt_id']}/answers",
+                            json={
+                                "assessment_version": 2,
+                                "assessment_key": q["key"],
+                                "answer": answer,
+                            },
+                        ).status_code
+                        == 200
+                    )
             with ThreadPoolExecutor(max_workers=2) as pool:
-                responses = list(pool.map(lambda attempt: c.post(
-                    f"{P}/attempts/{attempt['attempt_id']}/complete", json={"assessment_version": 2}
-                ), attempts))
+                responses = list(
+                    pool.map(
+                        lambda attempt: c.post(
+                            f"{P}/attempts/{attempt['attempt_id']}/complete",
+                            json={"assessment_version": 2},
+                        ),
+                        attempts,
+                    )
+                )
             assert [r.status_code for r in responses] == [200, 200]
             assert sorted(r.json()["xp_awarded"] for r in responses) == [0, 10]
             _, r = complete_lesson(c, load_course()[0]["lessons"][0])
             assert r["xp_total"] == 557 and r["xp_awarded"] == 0
         with factory() as db:
-            assert db.get(User, 1).xp_total == 557 and db.query(HistoryProgress).count() == 42
+            assert (
+                db.get(User, 1).xp_total == 557
+                and db.query(HistoryProgress).count() == 42
+            )
     finally:
         engine.dispose()
         with admin.begin() as conn:
