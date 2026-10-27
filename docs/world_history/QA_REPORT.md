@@ -264,3 +264,31 @@ Actual widget renders inspected:§34 feedback at200%,§35 theory at200%,§36 res
 FRQ. No native/independent-teacher or
 production acceptance is claimed. Original PDF/page/OCR and private tokens stay out
 of Git; only public API payloads are Flutter fixtures.
+
+## Batch08 — grade6§37–41, 2026-10-27
+
+Five additional lessons:32 cards,67 fact records,30 MCQ and20 objective FRQ.
+Total **41/219 local-preview lessons**,329 cards,602 facts,241 MCQ,157 objective FRQ
+and41 ungraded activities;178 units remain (5 in grade6).
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Backend/source/preservation |152 passed in434.92s | Ten history modules;41 manifests, exact source/regions/keys/aliases, prerequisites, replay and820XP once |
+| Actual PostgreSQL |1 passed in55.41s | Dedicated history staging fresh schema; parallel completion and41 sequential lessons, old synthetic learner retained |
+| Actual loopback HTTP |6 catalogues,398 answers,820XP | Fresh synthetic learner900086; prior progress never reset |
+| Targeted Flutter |93 passed in01:03 | Actual API fixtures§1–41, source/MCQ/resumed FRQ,320×568/200%, previous account/language guards |
+| Full Flutter regression |702 passed in03:23 | Entire current Flutter suite |
+| Full Flutter analysis |0 issues in101.8s | Entire current Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus all72 prior history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | Python-only history files and staged diff |
+
+Earlier full2569 backend results remain historical baseline evidence. No shared
+runtime/schema or production route changed. Actual widget renders inspected:
+§38 feedback200%,§40 theory200%,§41 resumed FRQ. No native Android/IME/TalkBack,
+independent teacher or production acceptance claimed.
+
+Original145–164 exact topic regions reviewed; founding legend, constitutional
+universals, religious/divination claims, army-era compression, battle precision,
+slave-status stereotypes and thumb gestures scoped/withheld. No absent map route,
+external replacement date, raw textbook image/OCR, private key or real-user data
+published. Only history feature branches receive these changes.

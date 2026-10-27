@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 36; remaining: 183.** Source pages are candidate spans;
+**Reviewed preview lessons: 41; remaining: 178.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -70,11 +70,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 34 | wh6-topic34 | Qadimgi Xorazm, Qang‘ va Davan davlati | 133–137 | reviewed_preview_ready |
 | 35 | wh6-topic35 | Kushon davlati | 137–142 | reviewed_preview_ready |
 | 36 | wh6-topic36 | Buyuk Ipak yo‘li | 142–145 | reviewed_preview_ready |
-| 37 | wh6-topic37 | Qadimgi Italiya | 145–148 | not_implemented |
-| 38 | wh6-topic38 | Rim respublikasi | 148–152 | not_implemented |
-| 39 | wh6-topic39 | Rim respublikasining hayoti | 152–155 | not_implemented |
-| 40 | wh6-topic40 | O‘rtayer dengizida hukmronlik uchun kurash | 155–160 | not_implemented |
-| 41 | wh6-topic41 | Qullar va gladiatorlar | 160–164 | not_implemented |
+| 37 | wh6-topic37 | Qadimgi Italiya | 145–148 | reviewed_preview_ready |
+| 38 | wh6-topic38 | Rim respublikasi | 148–152 | reviewed_preview_ready |
+| 39 | wh6-topic39 | Rim respublikasining hayoti | 152–155 | reviewed_preview_ready |
+| 40 | wh6-topic40 | O‘rtayer dengizida hukmronlik uchun kurash | 155–160 | reviewed_preview_ready |
+| 41 | wh6-topic41 | Qullar va gladiatorlar | 160–164 | reviewed_preview_ready |
 | 42 | wh6-topic42 | Rim respublikasining qulashi | 164–168 | not_implemented |
 | 43 | wh6-topic43 | Rim imperiyasining qulashi va zavolga yuz tutishi | 168–172 | not_implemented |
 | 44 | wh6-topic44 | Qadimgi Rim madaniyati | 172–178 | not_implemented |

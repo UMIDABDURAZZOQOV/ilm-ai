@@ -1,0 +1,2817 @@
+{
+  "schema_version": 1,
+  "assessment_version": 2,
+  "subject": "jahon_tarixi",
+  "grade": 6,
+  "sequence": 37,
+  "key": "world-history-6-p37-r1",
+  "revision": 1,
+  "topic_id": "wh6-topic37",
+  "book_id": "world-history-6-uz-2017",
+  "title": "Qadimgi Italiya",
+  "language": "uz",
+  "authorship": "original_fact_based_adaptation",
+  "prerequisite_ids": [
+    "wh6-topic36"
+  ],
+  "source_context_ids": [],
+  "source_refs": [
+    {
+      "book_id": "world-history-6-uz-2017",
+      "book_title": "Tarix. Qadimgi dunyo",
+      "authors": [
+        "A. S. Sagdullayev",
+        "V. A. Kostetskiy"
+      ],
+      "year": 2017,
+      "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "grade": 6,
+      "chapter_id": "wh6-chapter05",
+      "topic_id": "wh6-topic37",
+      "topic_title": "Qadimgi Italiya",
+      "paragraph": 37,
+      "printed_pages": [
+        145
+      ],
+      "pdf_pages": [
+        145
+      ],
+      "regions": [
+        "below_topic_heading"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "wh6-p37-page145"
+    },
+    {
+      "book_id": "world-history-6-uz-2017",
+      "book_title": "Tarix. Qadimgi dunyo",
+      "authors": [
+        "A. S. Sagdullayev",
+        "V. A. Kostetskiy"
+      ],
+      "year": 2017,
+      "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "grade": 6,
+      "chapter_id": "wh6-chapter05",
+      "topic_id": "wh6-topic37",
+      "topic_title": "Qadimgi Italiya",
+      "paragraph": 37,
+      "printed_pages": [
+        146
+      ],
+      "pdf_pages": [
+        146
+      ],
+      "regions": [
+        "topic_body"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "wh6-p37-page146"
+    },
+    {
+      "book_id": "world-history-6-uz-2017",
+      "book_title": "Tarix. Qadimgi dunyo",
+      "authors": [
+        "A. S. Sagdullayev",
+        "V. A. Kostetskiy"
+      ],
+      "year": 2017,
+      "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+      "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+      "grade": 6,
+      "chapter_id": "wh6-chapter05",
+      "topic_id": "wh6-topic37",
+      "topic_title": "Qadimgi Italiya",
+      "paragraph": 37,
+      "printed_pages": [
+        147
+      ],
+      "pdf_pages": [
+        147
+      ],
+      "regions": [
+        "topic_body"
+      ],
+      "verification": "page_image_reviewed",
+      "review_id": "wh6-p37-page147"
+    }
+  ],
+  "facts": {
+    "peninsula": {
+      "fact_id": "peninsula",
+      "claim": "Qadimgi Italiya Apennin yarimoroli bilan bog‘langan.",
+      "verified_answers": [
+        "Apennin"
+      ],
+      "approved_aliases": [
+        "Apennin"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            145
+          ],
+          "pdf_pages": [
+            145
+          ],
+          "regions": [
+            "below_topic_heading"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page145"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": true,
+      "review_note": "Exact original image read; original paraphrase; no OCR-only approval."
+    },
+    "climate": {
+      "fact_id": "climate",
+      "claim": "Kitob dehqonchilik va chorvachilikni tabiiy sharoit bilan tushuntiradi; iliq iqlim, yog‘in va unumdor tuproqni umumlashtiradi.",
+      "verified_answers": [],
+      "approved_aliases": [],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            145
+          ],
+          "pdf_pages": [
+            145
+          ],
+          "regions": [
+            "below_topic_heading"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page145"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "attributed_textbook_interpretation",
+      "automatic_assessment_allowed": false,
+      "review_note": "No every-season/no-drought/no-cold universal or modern climate forecast; largest Po-on-peninsula precision withheld."
+    },
+    "peoples": {
+      "fact_id": "peoples",
+      "claim": "Ligurlar va italiklar Italiyadagi qadimgi aholi nomlari sifatida berilgan; etrusklar yarimorolning shimoli-g‘arbi bilan bog‘langan.",
+      "verified_answers": [
+        "Ligurlar",
+        "Italiklar",
+        "Etrusklar"
+      ],
+      "approved_aliases": [
+        "Ligur",
+        "Ligurlar",
+        "Italik",
+        "Italiklar",
+        "Etrusk",
+        "Etrusklar"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            145
+          ],
+          "pdf_pages": [
+            145
+          ],
+          "regions": [
+            "below_topic_heading"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page145"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": true,
+      "review_note": "Textbook group/location names, not immutable occupations, superior origins or modern ethnic identity."
+    },
+    "name": {
+      "fact_id": "name",
+      "claim": "Italiya nomi kitobda buzoqchalar o‘lkasi mazmunida izohlangan.",
+      "verified_answers": [],
+      "approved_aliases": [],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            145
+          ],
+          "pdf_pages": [
+            145
+          ],
+          "regions": [
+            "below_topic_heading"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page145"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": false,
+      "review_note": "Textbook gloss, not certified Greek vitulus derivation or linguistic origin proof."
+    },
+    "carthage": {
+      "fact_id": "carthage",
+      "claim": "Karfagen Afrikaning shimoliy sohilidagi Finikiya koloniyasi sifatida, etrusklar bilan yunonlarga qarshi aloqalar bayonida berilgan.",
+      "verified_answers": [
+        "Karfagen"
+      ],
+      "approved_aliases": [
+        "Karfagen"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": true,
+      "review_note": "City/source association, not entire war chronology or one universal cause of conflict."
+    },
+    "tiber": {
+      "fact_id": "tiber",
+      "claim": "Rim Tibr daryosi bo‘yidagi manzilgohlar bilan bog‘langan.",
+      "verified_answers": [
+        "Tibr"
+      ],
+      "approved_aliases": [
+        "Tibr"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": true,
+      "review_note": "Exact original image read; original paraphrase; no OCR-only approval."
+    },
+    "hills": {
+      "fact_id": "hills",
+      "claim": "Rim yetti tepalik bilan, Kapitoliy esa qal’a qurilgan tepalik bilan bog‘langan.",
+      "verified_answers": [
+        "Kapitoliy"
+      ],
+      "approved_aliases": [
+        "Kapitoliy"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": true,
+      "review_note": "Named-hill association; no precise city boundary at every period or proven first foundation date."
+    },
+    "twins": {
+      "fact_id": "twins",
+      "claim": "Rimning asos solinishi haqidagi rivoyatda Romul va Rem ismli aka-uka, Ona bo‘ri hamda cho‘pon obrazi berilgan.",
+      "verified_answers": [
+        "Romul",
+        "Rem"
+      ],
+      "approved_aliases": [
+        "Romul",
+        "Rem"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": true,
+      "review_note": "Legend comprehension, not literal animal-nursing biological/historical proof or endorsement of abandonment/fratricide."
+    },
+    "foundation": {
+      "fact_id": "foundation",
+      "claim": "Miloddan avvalgi 753-yil Rimga asos solingan an’anaviy sana sifatida qabul qilingani kitobda aytiladi.",
+      "verified_answers": [],
+      "approved_aliases": [],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "textbook_periodization",
+      "automatic_assessment_allowed": false,
+      "review_note": "Conventional legendary date, not independently verified day/year of city construction."
+    },
+    "tarquin": {
+      "fact_id": "tarquin",
+      "claim": "Mag‘rur Tarkviniy hokimiyatni egallagan va keyin shahardan quvilgan hukmdor sifatida berilgan.",
+      "verified_answers": [
+        "Tarkviniy"
+      ],
+      "approved_aliases": [
+        "Tarkviniy",
+        "Mag‘rur Tarkviniy"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": true,
+      "review_note": "Book narrative, not sole causation or exact authenticated speech."
+    },
+    "republic": {
+      "fact_id": "republic",
+      "claim": "Kitob podsho hokimiyatining ag‘darilishi va miloddan avvalgi 509-yilni Rim respublikasi boshlanishi bilan bog‘laydi.",
+      "verified_answers": [],
+      "approved_aliases": [],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "textbook_periodization",
+      "automatic_assessment_allowed": false,
+      "review_note": "Traditional transition narrative, not all people had equal franchise or an instantaneous fully modern republic."
+    },
+    "map": {
+      "fact_id": "map",
+      "claim": "145-betdagi Qadimgi Italiya xaritasida Rim, Neapol, Sitsiliya, Sardiniya va boshqa joylar ko‘rsatilgan.",
+      "verified_answers": [],
+      "approved_aliases": [],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            145
+          ],
+          "pdf_pages": [
+            145
+          ],
+          "regions": [
+            "below_topic_heading"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page145"
+        }
+      ],
+      "verification": "page_image_reviewed",
+      "claim_kind": "source_fact",
+      "automatic_assessment_allowed": false,
+      "review_note": "Original map labels/caption read; no modern border/era precision or new sovereignty claim."
+    }
+  },
+  "content": {
+    "cards": [
+      {
+        "title": "Apennin va tabiiy sharoit",
+        "body": "Qadimgi Italiya Apennin yarimoroli bilan bog‘langan. Kitob unumdor tuproq va iqlimni dehqonchilik hamda chorvachilik bilan tushuntiradi. Bu umumiy tavsifni har bir joyda doim bir xil ob-havo bo‘lgan degan xulosaga aylantirmang.",
+        "fact_ids": [
+          "peninsula",
+          "climate"
+        ],
+        "source_refs": [
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              145
+            ],
+            "pdf_pages": [
+              145
+            ],
+            "regions": [
+              "below_topic_heading"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page145"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              147
+            ],
+            "pdf_pages": [
+              147
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page147"
+          }
+        ]
+      },
+      {
+        "title": "Aholi va nomlar",
+        "body": "Ligurlar, italiklar va etrusklar kitobda qadimgi aholi nomlari sifatida berilgan. Etrusklar shimoli-g‘arb bilan bog‘langan. Italiya nomi buzoqchalar o‘lkasi mazmunida izohlanadi; bu kitobdagi nom talqinidir.",
+        "fact_ids": [
+          "peoples",
+          "name"
+        ],
+        "source_refs": [
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              145
+            ],
+            "pdf_pages": [
+              145
+            ],
+            "regions": [
+              "below_topic_heading"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page145"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              146
+            ],
+            "pdf_pages": [
+              146
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page146"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              147
+            ],
+            "pdf_pages": [
+              147
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page147"
+          }
+        ]
+      },
+      {
+        "title": "Xaritadagi qo‘shnilar",
+        "body": "145-bet xaritasida Italiya va orollarni ko‘rsating. Keyingi matnda Karfagen Afrikaning shimolidagi Finikiya koloniyasi sifatida eslatilgan. Tarixiy joy nomi bilan bugungi davlat chegarasini ajrating.",
+        "fact_ids": [
+          "map",
+          "carthage"
+        ],
+        "source_refs": [
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              145
+            ],
+            "pdf_pages": [
+              145
+            ],
+            "regions": [
+              "below_topic_heading"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page145"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              146
+            ],
+            "pdf_pages": [
+              146
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page146"
+          }
+        ]
+      },
+      {
+        "title": "Tibr va Kapitoliy",
+        "body": "Rim Tibr bo‘yidagi manzilgohlar bilan bog‘langan. Kitob shaharni yetti tepalikda tasvirlaydi. Kapitoliy qal’a qurilgan tepalik sifatida berilgan: daryo nomi va tepalik nomi boshqa-boshqa.",
+        "fact_ids": [
+          "tiber",
+          "hills"
+        ],
+        "source_refs": [
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              146
+            ],
+            "pdf_pages": [
+              146
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page146"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              147
+            ],
+            "pdf_pages": [
+              147
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page147"
+          }
+        ]
+      },
+      {
+        "title": "Romul va Rem rivoyati",
+        "body": "Romul, Rem, Ona bo‘ri va cho‘pon Rim haqidagi rivoyat qahramonlaridir. Miloddan avvalgi 753-yil shu asos solinish an’anasi bilan bog‘langan. Rivoyat va an’anaviy sana shahar paydo bo‘lishining barcha tafsilotini mustaqil isbotlamaydi.",
+        "fact_ids": [
+          "twins",
+          "foundation"
+        ],
+        "source_refs": [
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              146
+            ],
+            "pdf_pages": [
+              146
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page146"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              147
+            ],
+            "pdf_pages": [
+              147
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page147"
+          }
+        ]
+      },
+      {
+        "title": "Tarkviniy va boshqaruv o‘zgarishi",
+        "body": "Kitob Mag‘rur Tarkviniyning hokimiyatni egallashi va keyin quvilishini hikoya qiladi. Podsho hokimiyatining tugashi Rim respublikasi boshlanishi, an’anaviy miloddan avvalgi 509-yil bilan bog‘langan.",
+        "fact_ids": [
+          "tarquin",
+          "republic"
+        ],
+        "source_refs": [
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              147
+            ],
+            "pdf_pages": [
+              147
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page147"
+          }
+        ]
+      }
+    ],
+    "formulas": [],
+    "source_refs": [
+      {
+        "book_id": "world-history-6-uz-2017",
+        "book_title": "Tarix. Qadimgi dunyo",
+        "authors": [
+          "A. S. Sagdullayev",
+          "V. A. Kostetskiy"
+        ],
+        "year": 2017,
+        "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+        "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+        "grade": 6,
+        "chapter_id": "wh6-chapter05",
+        "topic_id": "wh6-topic37",
+        "topic_title": "Qadimgi Italiya",
+        "paragraph": 37,
+        "printed_pages": [
+          145
+        ],
+        "pdf_pages": [
+          145
+        ],
+        "regions": [
+          "below_topic_heading"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "wh6-p37-page145"
+      },
+      {
+        "book_id": "world-history-6-uz-2017",
+        "book_title": "Tarix. Qadimgi dunyo",
+        "authors": [
+          "A. S. Sagdullayev",
+          "V. A. Kostetskiy"
+        ],
+        "year": 2017,
+        "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+        "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+        "grade": 6,
+        "chapter_id": "wh6-chapter05",
+        "topic_id": "wh6-topic37",
+        "topic_title": "Qadimgi Italiya",
+        "paragraph": 37,
+        "printed_pages": [
+          146
+        ],
+        "pdf_pages": [
+          146
+        ],
+        "regions": [
+          "topic_body"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "wh6-p37-page146"
+      },
+      {
+        "book_id": "world-history-6-uz-2017",
+        "book_title": "Tarix. Qadimgi dunyo",
+        "authors": [
+          "A. S. Sagdullayev",
+          "V. A. Kostetskiy"
+        ],
+        "year": 2017,
+        "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+        "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+        "grade": 6,
+        "chapter_id": "wh6-chapter05",
+        "topic_id": "wh6-topic37",
+        "topic_title": "Qadimgi Italiya",
+        "paragraph": 37,
+        "printed_pages": [
+          147
+        ],
+        "pdf_pages": [
+          147
+        ],
+        "regions": [
+          "topic_body"
+        ],
+        "verification": "page_image_reviewed",
+        "review_id": "wh6-p37-page147"
+      }
+    ],
+    "xp_reward": 20,
+    "reflections": [
+      {
+        "title": "Xarita, rivoyat va sana",
+        "body": "147-bet to‘rtta topshirig‘idan foydalaning. Italiya geografiyasi va aholi nomlarini xarita hamda matndan ko‘rsating. Ona bo‘ri timsolini rivoyat bilan bog‘lab izohlang; an’anaviy sana, arxeologik manzilgoh tavsifi va afsonaviy hikoyani alohida dalil turlari sifatida ajrating.",
+        "grading": "self_or_teacher_review",
+        "automatic_score": false,
+        "fact_ids": [
+          "peninsula",
+          "climate",
+          "peoples",
+          "name",
+          "map",
+          "tiber",
+          "hills",
+          "twins",
+          "foundation",
+          "republic"
+        ],
+        "source_refs": [
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              145
+            ],
+            "pdf_pages": [
+              145
+            ],
+            "regions": [
+              "below_topic_heading"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page145"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              147
+            ],
+            "pdf_pages": [
+              147
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page147"
+          },
+          {
+            "book_id": "world-history-6-uz-2017",
+            "book_title": "Tarix. Qadimgi dunyo",
+            "authors": [
+              "A. S. Sagdullayev",
+              "V. A. Kostetskiy"
+            ],
+            "year": 2017,
+            "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+            "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+            "grade": 6,
+            "chapter_id": "wh6-chapter05",
+            "topic_id": "wh6-topic37",
+            "topic_title": "Qadimgi Italiya",
+            "paragraph": 37,
+            "printed_pages": [
+              146
+            ],
+            "pdf_pages": [
+              146
+            ],
+            "regions": [
+              "topic_body"
+            ],
+            "verification": "page_image_reviewed",
+            "review_id": "wh6-p37-page146"
+          }
+        ]
+      }
+    ]
+  },
+  "assessments": [
+    {
+      "key": "world-history-6-p37-r1-q01",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Qadimgi Italiya qaysi yarimorol bilan bog‘langan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Bolqon"
+          },
+          {
+            "id": "b",
+            "label": "Apennin"
+          },
+          {
+            "id": "c",
+            "label": "Hindiston"
+          },
+          {
+            "id": "d",
+            "label": "Sinay"
+          }
+        ]
+      },
+      "fact_ids": [
+        "peninsula"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            145
+          ],
+          "pdf_pages": [
+            145
+          ],
+          "regions": [
+            "below_topic_heading"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page145"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Apennin",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Qadimgi Italiya Apennin yarimoroli bilan bog‘langan.",
+            "fact_ids": [
+              "peninsula"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  145
+                ],
+                "pdf_pages": [
+                  145
+                ],
+                "regions": [
+                  "below_topic_heading"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page145"
+              },
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  147
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q02",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Rim qaysi daryo bo‘yida rivojlangan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Po"
+          },
+          {
+            "id": "b",
+            "label": "Nil"
+          },
+          {
+            "id": "c",
+            "label": "Tibr"
+          },
+          {
+            "id": "d",
+            "label": "Oks"
+          }
+        ]
+      },
+      "fact_ids": [
+        "tiber"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Tibr",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Rim Tibr daryosi bo‘yidagi manzilgohlar bilan bog‘langan.",
+            "fact_ids": [
+              "tiber"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              },
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  147
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q03",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Qal’a qurilgan tepalik nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Kapitoliy"
+          },
+          {
+            "id": "b",
+            "label": "Olimp"
+          },
+          {
+            "id": "c",
+            "label": "Olimpiya"
+          },
+          {
+            "id": "d",
+            "label": "Akropol"
+          }
+        ]
+      },
+      "fact_ids": [
+        "hills"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Kapitoliy",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Rim yetti tepalik bilan, Kapitoliy esa qal’a qurilgan tepalik bilan bog‘langan.",
+            "fact_ids": [
+              "hills"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              },
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  147
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "a",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q04",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Afrikaning shimolidagi Finikiya koloniyasi sifatida qaysi shahar berilgan?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Rim"
+          },
+          {
+            "id": "b",
+            "label": "Pirey"
+          },
+          {
+            "id": "c",
+            "label": "Miken"
+          },
+          {
+            "id": "d",
+            "label": "Karfagen"
+          }
+        ]
+      },
+      "fact_ids": [
+        "carthage"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        }
+      ],
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Karfagen",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Karfagen Afrikaning shimoliy sohilidagi Finikiya koloniyasi sifatida, etrusklar bilan yunonlarga qarshi aloqalar bayonida berilgan.",
+            "fact_ids": [
+              "carthage"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              }
+            ]
+          }
+        ],
+        "expected": "d",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q05",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Kitobda Italiya shimoli-g‘arbiga bog‘langan aholi nomi qaysi?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Ligurlar"
+          },
+          {
+            "id": "b",
+            "label": "Etrusklar"
+          },
+          {
+            "id": "c",
+            "label": "Ilotlar"
+          },
+          {
+            "id": "d",
+            "label": "Meteklar"
+          }
+        ]
+      },
+      "fact_ids": [
+        "peoples"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            145
+          ],
+          "pdf_pages": [
+            145
+          ],
+          "regions": [
+            "below_topic_heading"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page145"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Etrusklar",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Ligurlar va italiklar Italiyadagi qadimgi aholi nomlari sifatida berilgan; etrusklar yarimorolning shimoli-g‘arbi bilan bog‘langan.",
+            "fact_ids": [
+              "peoples"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  145
+                ],
+                "pdf_pages": [
+                  145
+                ],
+                "regions": [
+                  "below_topic_heading"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page145"
+              },
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              },
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  147
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "b",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q06",
+      "response_kind": "concept_selection",
+      "public": {
+        "prompt": "Rivoyatda Rem bilan birga berilgan egizak kim?",
+        "options": [
+          {
+            "id": "a",
+            "label": "Spitaman"
+          },
+          {
+            "id": "b",
+            "label": "Tarkviniy"
+          },
+          {
+            "id": "c",
+            "label": "Romul"
+          },
+          {
+            "id": "d",
+            "label": "Perikl"
+          }
+        ]
+      },
+      "fact_ids": [
+        "twins"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        }
+      ],
+      "grading_spec": {
+        "kind": "concept_selection",
+        "verified_answer": "Romul",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Rimning asos solinishi haqidagi rivoyatda Romul va Rem ismli aka-uka, Ona bo‘ri hamda cho‘pon obrazi berilgan.",
+            "fact_ids": [
+              "twins"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              }
+            ]
+          }
+        ],
+        "expected": "c",
+        "choice_ids": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q07",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Rim shahri qaysi daryo bo‘yida rivojlangan? Daryo nomini yozing.",
+        "input_label": "Bitta atamani yozing.",
+        "max_length": 80
+      },
+      "fact_ids": [
+        "tiber"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Tibr",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Rim Tibr daryosi bo‘yidagi manzilgohlar bilan bog‘langan.",
+            "fact_ids": [
+              "tiber"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              },
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  147
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "Tibr",
+        "aliases": [
+          "Tibr"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q08",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Qal’a bilan bog‘langan Rim tepaligi nomini yozing.",
+        "input_label": "Bitta atamani yozing.",
+        "max_length": 80
+      },
+      "fact_ids": [
+        "hills"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        },
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Kapitoliy",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Rim yetti tepalik bilan, Kapitoliy esa qal’a qurilgan tepalik bilan bog‘langan.",
+            "fact_ids": [
+              "hills"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              },
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  147
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "Kapitoliy",
+        "aliases": [
+          "Kapitoliy"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q09",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Rivoyatdagi Romulning aka-ukasi nomini yozing.",
+        "input_label": "Bitta atamani yozing.",
+        "max_length": 80
+      },
+      "fact_ids": [
+        "twins"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            146
+          ],
+          "pdf_pages": [
+            146
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page146"
+        }
+      ],
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Rem",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Rimning asos solinishi haqidagi rivoyatda Romul va Rem ismli aka-uka, Ona bo‘ri hamda cho‘pon obrazi berilgan.",
+            "fact_ids": [
+              "twins"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  146
+                ],
+                "pdf_pages": [
+                  146
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page146"
+              }
+            ]
+          }
+        ],
+        "expected": "Rem",
+        "aliases": [
+          "Rem"
+        ]
+      }
+    },
+    {
+      "key": "world-history-6-p37-r1-q10",
+      "response_kind": "short_text",
+      "public": {
+        "prompt": "Shahardan quvilgan hukmdorning kitobda berilgan nomini yozing.",
+        "input_label": "Bitta atamani yozing.",
+        "max_length": 80
+      },
+      "fact_ids": [
+        "tarquin"
+      ],
+      "source_refs": [
+        {
+          "book_id": "world-history-6-uz-2017",
+          "book_title": "Tarix. Qadimgi dunyo",
+          "authors": [
+            "A. S. Sagdullayev",
+            "V. A. Kostetskiy"
+          ],
+          "year": 2017,
+          "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+          "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+          "grade": 6,
+          "chapter_id": "wh6-chapter05",
+          "topic_id": "wh6-topic37",
+          "topic_title": "Qadimgi Italiya",
+          "paragraph": 37,
+          "printed_pages": [
+            147
+          ],
+          "pdf_pages": [
+            147
+          ],
+          "regions": [
+            "topic_body"
+          ],
+          "verification": "page_image_reviewed",
+          "review_id": "wh6-p37-page147"
+        }
+      ],
+      "grading_spec": {
+        "kind": "short_text",
+        "verified_answer": "Tarkviniy",
+        "feedback": {
+          "correct": "To‘g‘ri!",
+          "incorrect": "Yana bir bor ko‘rib chiqamiz.",
+          "invalid_answer": "Javobni ko‘rsatilgan shaklda kiriting.",
+          "answer_required": "Avval javob kiriting."
+        },
+        "solution": [
+          {
+            "body": "Mag‘rur Tarkviniy hokimiyatni egallagan va keyin shahardan quvilgan hukmdor sifatida berilgan.",
+            "fact_ids": [
+              "tarquin"
+            ],
+            "source_refs": [
+              {
+                "book_id": "world-history-6-uz-2017",
+                "book_title": "Tarix. Qadimgi dunyo",
+                "authors": [
+                  "A. S. Sagdullayev",
+                  "V. A. Kostetskiy"
+                ],
+                "year": 2017,
+                "file_name": "qadimgi_dunyo_tarixi_6_uzb.pdf",
+                "sha256": "aae8c182fb084bd58f98d06bd46542d5f33aeda9787dc6ba2946323257036b6d",
+                "grade": 6,
+                "chapter_id": "wh6-chapter05",
+                "topic_id": "wh6-topic37",
+                "topic_title": "Qadimgi Italiya",
+                "paragraph": 37,
+                "printed_pages": [
+                  147
+                ],
+                "pdf_pages": [
+                  147
+                ],
+                "regions": [
+                  "topic_body"
+                ],
+                "verification": "page_image_reviewed",
+                "review_id": "wh6-p37-page147"
+              }
+            ]
+          }
+        ],
+        "expected": "Tarkviniy",
+        "aliases": [
+          "Tarkviniy",
+          "Mag‘rur Tarkviniy"
+        ]
+      }
+    }
+  ],
+  "publication": "local_test_preview_only"
+}
