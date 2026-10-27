@@ -82,7 +82,8 @@ def test_all71_units1420_xp_once_preserve_grade_history_and_old_user(history):
         assert db.get(User,42).xp_total==137
     six=client.get(PREFIX+'/catalog',params={'grade':6}).json()
     seven=client.get(PREFIX+'/catalog',params={'grade':7}).json()
-    assert six['grade_content_complete'] and not seven['grade_content_complete']
+    assert six['grade_content_complete']
+    assert seven['grade_content_complete']==(seven['implemented_sections']==44)
     assert all(r['state']=='completed' for r in six['lessons'])
     assert all(r['state']=='completed' for r in seven['lessons'][:25])
     assert all(r['state']!='completed' for r in seven['lessons'][25:])

@@ -1,18 +1,19 @@
-# Jahon tarixi continuation checkpoint — batch17
+# Jahon tarixi continuation checkpoint — batch18
 
 2026-10-27. **Task incomplete. Continue autonomously through grade11.**
 
 ## Exact progress
 
-- 219 teaching units; **86 reviewed local-preview lessons;133 remain**.
-- Last ready: grade7§40 “Koreya”,138 below§40–140 above§41.
+- 219 teaching units; **90 reviewed local-preview lessons;129 remain**.
+- Last ready: grade7§44 “Osiyo, Amerika va Afrika xalqlari madaniyati”,151–154 plus scoped chronology155–156.
 - Keys: `world-history-6-p01-r1` through `world-history-6-p46-r1`, plus grade7
-  `world-history-7-p01-r1` through `world-history-7-p40-r1`.
-- 644 cards,1304 reviewed fact records,533 MCQ,335 objective FRQ,86 self/teacher activities.
+  `world-history-7-p01-r1` through `world-history-7-p44-r1`.
+- 675 cards,1374 reviewed fact records,569 MCQ,351 objective FRQ,90 self/teacher activities.
 - Grade6 has46/46 units ready:44 numbered paragraphs plus conclusion/final review.
   Twelve fact records in the final review reuse exact previously reviewed knowledge;
   total records are not a count of unique historical facts.
-- Grade7 has40/44 units ready;4 remain in this grade. Grades8–11 remain unimplemented.
+- Grade7 has44/44 units ready;0 remain in this grade. Grade8 first private draft
+  is written but not indexed/imported; grades8–11 have129 units remaining.
 - 961 pages decoded/rendered; every original image inspected for feature presence.
   Bibliography/contents and216 body headings cross-checked. No blanket fact approval.
 - 219 units =216 numbered blocks plus grade6 conclusion/final review and grade8
@@ -43,13 +44,13 @@
   source sheets, Ilmo, theory, MCQ, typed FRQ, shared feedback/results and resume.
 - Full backend first-lesson baseline: **2569 passed,4 skipped**, all71 files,
   four isolated UTF-8 subprocess shards; frozen inputs preserved.
-- Current eighty-six-unit targeted suite: **267 passed**, four isolated subprocess
-  shards,767.94s wall time; nineteen modules, no tests omitted.
-- Real isolated PostgreSQL: **1 passed in139.92s**, parallel completion and86
-  sequential units/1720XP once only. Broad-suite opt-in skips are not passes.
-- Actual loopback HTTP:6 catalogues,868 answers, prerequisites/replay and once-only
-  1720XP; fresh synthetic account only. No existing learner reset.
-- Current Flutter: **188 history widgets passed in03:58**, **797 full tests passed in05:13**, full analysis **0 issues in224.0s**. Exact scope: QA_REPORT.md.
+- Current ninety-unit targeted suite: **278 passed**, four isolated subprocess
+  shards,435.95s wall time; twenty modules, no tests omitted.
+- Real isolated PostgreSQL: **1 passed in117.37s**, parallel completion and90
+  sequential units/1800XP once only. Broad-suite opt-in skips are not passes.
+- Actual loopback HTTP:6 catalogues,920 answers, prerequisites/replay and once-only
+  1800XP; fresh synthetic account only. No existing learner reset.
+- Current Flutter: **197 history widgets passed in02:31**, **806 full tests passed in05:40**, full analysis **0 issues in74.8s**. Exact scope: QA_REPORT.md.
 - Windows subprocess Unicode failures were fixed with `PYTHONUTF8=1`, without
   Biology edits. Use that setting in later backend QA.
 - Screenshots are real Flutter widget renders, not native Android. Independent
@@ -173,18 +174,24 @@
   §39 emperorfromXII/xanke-ryoka/medievalporcelain/Nagasakiport held.
   §40 Chosonliterallegend/directthreewaysplit/PekchefirstIII–IV/all668unity/
   continuous1231–1368conquest held. No outside date or name repairs.
+- Grade7§41 directXiljiy→Tugluq/allIndiaunity, §42 TenochtitlanXII/floatfields/
+  metalabsence/banana/universalshares, §43 Gana1076/MaliVIII–XV/Niara/Almi/
+  LalibelaAksumera and racialdevelopmentranking held. §44 SejongPulguksa/
+  firstuniversity/rainprediction/Mayaheliocentricclaim/photobuildingidentity/
+  firstzero and binaryIncawriting claims held.48chronology entries reviewed
+  without promoting any repeated error; see GRADE7_REFERENCE_REVIEW.md.
 - Grade11 UN body109/111 remains unresolved; no accepted key. “Today” claims keep
  2018 publication scope. Preserve all open review records.
 
 ## Next exact work
 
-1. Finish/persist batch17 QA/Git checkpoint if not already in latest branch log.
+1. Finish/persist batch18 QA/Git checkpoint if not already in latest branch log.
    Commit/push only the two history feature branches.
-2. Continue batch18 **grade7§41–44**, starting§41 on original140.
-   Original3–146 read;§1–40 indexed/imported. Private§41–42 written,
-   not indexed/imported. Next read147–154 for§43–44 and155–156 chronology.
-   At grade7 content completion, make earlier tests derive content availability
-   independently of their frozen learner-progress prefix; then start grade8. Keep grade selection and progress independent;
+2. Continue batch19 **grade8§1–5**, starting§1 on original7 with intro3–6.
+   Grade7 all44 indexed/imported, chronology48 entries reviewed. Grade8 original
+   3–13 read; private§1 written (23 facts/11 cards/14 questions), not indexed.
+   Next read14–34 for§2–5. Preserve empty first prerequisite and independent
+   grade8 progress; extend debug tests with grade8 fixtures and bibliography. Keep grade selection and progress independent;
    author in book order through grade11.
 3. Reuse common-v2 and mandatory source/fact/per-question-target validators.
    Inspect each original image/map legend, not merely OCR/embedded text.
@@ -196,7 +203,7 @@
 
 Private authoring helpers: `.local/`. **Do not rerun** one-time
 `author_history_first.py`, `integrate_history_batch01.py`, `integrate_history_batch02.py`,
-`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`, `integrate_history_batch10.py`, `integrate_history_batch11.py`, `integrate_history_batch12.py`, `integrate_history_batch13.py`, `integrate_history_batch14.py`, `integrate_history_batch15.py`, `integrate_history_batch16.py`, `integrate_history_batch17.py`,
+`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`, `integrate_history_batch10.py`, `integrate_history_batch11.py`, `integrate_history_batch12.py`, `integrate_history_batch13.py`, `integrate_history_batch14.py`, `integrate_history_batch15.py`, `integrate_history_batch16.py`, `integrate_history_batch17.py`, `integrate_history_batch18.py`,
 `finalize_unpublished_history14.py`, or old initial catalogue
 builders: they could reset the current allowlist. Update future helper review
 output to include `approved_answer_targets` and checked activity targets.

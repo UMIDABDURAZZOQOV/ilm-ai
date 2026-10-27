@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 86; remaining: 133.** Source pages are candidate spans;
+**Reviewed preview lessons: 90; remaining: 129.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -135,10 +135,10 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 38 | wh7-topic38 | Xitoy | 132–136 | reviewed_preview_ready |
 | 39 | wh7-topic39 | Yaponiya | 136–138 | reviewed_preview_ready |
 | 40 | wh7-topic40 | Koreya | 138–140 | reviewed_preview_ready |
-| 41 | wh7-topic41 | Hindiston | 140–142 | not_implemented |
-| 42 | wh7-topic42 | Amerika o‘rta asrlarda | 142–146 | not_implemented |
-| 43 | wh7-topic43 | Afrika xalqlari o‘rta asrlarda | 146–151 | not_implemented |
-| 44 | wh7-topic44 | Osiyo, Amerika va Afrika xalqlari madaniyati | 151–154 | not_implemented |
+| 41 | wh7-topic41 | Hindiston | 140–142 | reviewed_preview_ready |
+| 42 | wh7-topic42 | Amerika o‘rta asrlarda | 142–146 | reviewed_preview_ready |
+| 43 | wh7-topic43 | Afrika xalqlari o‘rta asrlarda | 146–151 | reviewed_preview_ready |
+| 44 | wh7-topic44 | Osiyo, Amerika va Afrika xalqlari madaniyati | 151–154 | reviewed_preview_ready |
 
 ### Supporting source records
 

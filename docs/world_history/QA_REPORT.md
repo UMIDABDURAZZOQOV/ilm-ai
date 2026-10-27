@@ -637,3 +637,45 @@ unperformed. Earlier2569-pass full backend is baseline evidence, not full rerun.
 No PDF/full source text/OCR/page images, keys or real-user data in Git; only two
 history feature branches. Next:§41–44; original140–146 read, private§41–42 drafted,
 then original147–154 plus155–156chronology. After grade7, continue grade8.
+
+## Batch18 — grade7§41–44 and chronology reference, 2026-10-27
+
+Four remaining grade7 lessons:31 cards,70 fact records,36 MCQ and16 objective FRQ.
+Total **90/219 local-preview units**,675 cards,1374 fact records,569 MCQ,351 objective
+FRQ and90 ungraded activities. Grade6 remains46/46; grade7 is44/44,0 remaining.
+Grades8–11 have129 units left. Counts include reused final-review facts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend |278 passed,435.95s wall | All20 modules/four independent shards;62/58/101/57 passes,428.60/432.07/385.06/419.83s; none omitted |
+| Actual PostgreSQL |1 passed in117.37s | Dedicated fresh staging schema; parallel completion and all90 units/1800XP once, previous synthetic user retained |
+| Actual loopback HTTP |6 catalogues,920 answers,1800XP | Fresh learner900186; prerequisites/replay, no old learner reset |
+| Targeted Flutter/captures |197 passed in02:31 | All90 API fixtures,200% theory/MCQ,typed FRQ,completed7→8 and bibliography; successful rerun |
+| Full Flutter |806 passed in05:40 | Entire worktree suite, sequential no-pub after targeted tests |
+| Full analysis |0 issues in74.8s | Entire Flutter worktree, after final test-helper changes |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus172 previous history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python only and Git diff checks |
+
+Nine earlier backend tests now derive grade7 content availability from the current
+catalogue while preserving their frozen learner prefix, once-onlyXP and unfinished
+learner-progress assertions. Content presence44/44 is separate from global course
+acceptance and learner completion. Both grade6 and7 presence complete; grade8
+pending/source records retain their own bibliography and independent progress.
+
+The first targeted Flutter run had194passes/3failures in test helpers: title-only
+selection confused the two Hindiston lessons, and a bibliography assertion ran
+before its expansion. Helpers now resolve lesson_key→sequence→chapter and check
+the actual start request, then expand bibliography. The full197-test rerun passed.
+No runtime/auth/subject manifest change or failed-run-as-pass claim.
+
+All48 original155–156chronology entries reviewed with exact image pins and scoped
+dispositions in GRADE7_REFERENCE_REVIEW.md. Lesson44 reference is ungraded; a list
+repeating an error cannot promote it. Original source errors/caption mismatches
+remain in SOURCE_REVIEW. Grade7 presence complete is not independent acceptance.
+
+Actual renders inspected: grade7§41 theory200%,§44 resumed FRQ with§44/151 and
+completed7→8 with its own2019bibliography. Native Android/IME/TalkBack/independent
+teacher checks remain unperformed. Earlier2569-pass full backend is baseline
+evidence, not full rerun. No rawbook/OCR/images, keys or real-user data in Git.
+Only two history feature branches. Next:grade8§1–5; original3–13 read, first private
+draft23facts/11cards/14questions, then original14–34 for§2–5.

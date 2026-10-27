@@ -81,7 +81,8 @@ def test_all61_units1220_xp_once_keep_separate_grade_progress_and_old_user(histo
         assert db.get(User,42).xp_total==137
     six=client.get(PREFIX+'/catalog',params={'grade':6}).json()
     seven=client.get(PREFIX+'/catalog',params={'grade':7}).json()
-    assert six['grade_content_complete'] and not seven['grade_content_complete']
+    assert six['grade_content_complete']
+    assert seven['grade_content_complete']==(seven['implemented_sections']==44)
     assert all(r['state']=='completed' for r in six['lessons'])
     assert all(r['state']=='completed' for r in seven['lessons'][:15])
     assert all(r['state']!='completed' for r in seven['lessons'][15:])

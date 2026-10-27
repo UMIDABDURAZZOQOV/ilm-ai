@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch17 has86 local-preview units: all grade6 plus grade7§1–40,
-644 cards,533 MCQ,335 objective FRQ;
-133 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade7§41–44, original140–154; private§41–42 written, next read147–154 and155–156chronology.
+Batch18 has90 local-preview units: all grade6 and all44 grade7 units,
+675 cards,569 MCQ,351 objective FRQ;
+129 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade8§1–5; original3–13 read and private§1 drafted, next14–34 for§2–5.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2895,3 +2895,12 @@ xanke-ryoka/porcelain/Nagasakiport, ancientChosonsplit/PekchefirstIII–IV/
 all668unity/1231continuousconquest held. Folklorebelief not factualbiography;
 fullnames/titles/roles/polities are separate question-specific targets.
 Flutter targeted and full tests must run sequentially to avoid build asset races.
+
+Grade7 presence is complete, not course acceptance. All48 chronology entries
+reviewed with exact155–156 image pins; see GRADE7_REFERENCE_REVIEW.md. Repeated
+source errors never become independent evidence. Lastbatch source limits in
+SOURCE_REVIEW. Grade8 first prerequisite stays empty and progress independent.
+Test helpers resolve lessons by lesson_key→sequence→chapter, not duplicate titles
+(Hindiston occurs twice), and expand bibliography before checking its text.
+Earlier tests preserve frozen learner/XP prefixes while catalogue availability
+is computed from current content presence. No runtime/auth/other-subject edit.

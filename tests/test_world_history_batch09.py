@@ -145,6 +145,7 @@ def test_all_forty_six_ordered_units_and920_xp_once_preserve_old_accounts(histor
     assert all(r['state']=='completed' for r in completed['lessons'])
     next_grade=client.get(PREFIX+'/catalog',params={'grade':7}).json()
     assert next_grade['grade']==7 and next_grade['implemented_sections']==sum(d['grade']==7 for d in load_lessons()) and next_grade['source_sections']==44
-    assert not next_grade['grade_content_complete'] and not next_grade['course_complete']
+    assert next_grade['grade_content_complete']==(next_grade['implemented_sections']==44)
+    assert not next_grade['course_complete']
     assert next_grade['lessons'][0]['state']=='available' and all(r['state']=='locked' for r in next_grade['lessons'][1:])
     assert len(next_grade['source_units'])==44 and next_grade['bibliography']['year']==2017
