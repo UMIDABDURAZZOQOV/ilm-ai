@@ -223,3 +223,10 @@ Muxtoriyat uchun Tinishboyevdan Cho‘qayga rahbarlik almashishi, Kengash/Majlis
 99-sahifadagi M. Cho‘qayning 1942-yil legion tuzilishidagi ishtiroki haqidagi bayon tarixiy xronologiya va shaxsning umr sanalari bilan mustaqil qiyosni talab qiladi. Ushbu da’vo tasdiqlangan fakt yoki savol kalitiga aylantirilmadi, tekshirilmagan muqobil sana bilan almashtirilmadi. Asirlik barcha shaxslar xiyonat qilganining isboti emas. Rahimovning 1945-yilgi vafoti va 1965-yilgi mukofoti turli voqealar. Germaniyaning taslim bo‘lish sanasida vaqt mintaqasi farqi avtomatik universal sana savoliga majburlanmagan.
 
 1943-yil akademiya avvalgi komitet/filialdan farqlanadi. Badiiy urush asari voqea stenogrammasi emas. §20 tanasi 1961 va1969-yillarga ham o‘tadi: bob nomining1945–1959oraliqi sabab bu davom tashlab ketilmadi. Monokultura, zavod, kartochka bekor qilinishi va sug‘orish qarorining natijasi alohida ko‘rib chiqiladi. Mustaqil pedagogik review hali yo‘q.
+
+
+## 10-sinf §21–25 — siyosiy boshqaruv, sanoat va Orol
+
+108–127-asl sahifalar o‘qildi. Qatag‘on, ozod etilish va oqlanish turli huquqiy holatlar. Rahbarlarning lavozimi va davri ajratildi. Rashidov, Nasriddinova va boshqa shaxslar haqidagi siyosiy maqtov/tanqid obyektiv kalit emas. Nasriddinova uchun «butun Sharqda birinchi» mutlaq ustuvorlik savolga kiritilmadi.1977-yilgi SSSR Konstitutsiyasi bugungi O‘zbekiston huquqi emas. Transport, sanoat va kadr siyosatini barcha etnik guruh a’zolarining umumiy niyatiga aylantirish yo‘q.
+
+Gazli/Navoiy/Muruntov bosqichlari manbadan tekshirildi. Zaxira, dollar bahosi, jahon o‘rni va «eng yirik» da’volari mustaqil qiyossiz doimiy reyting deb berilmaydi. Orolning uch bo‘lagi, qurigan maydoni va sog‘liq statistikasi nashr davridagi qaydlar: bugungi ekologik/tibbiy o‘lchov deb testlanmadi. Orolqumning «dunyodagi eng yosh» ustuvorligi avtomatik kalit emas. Defoliatsiya atamasi tarixiy izoh, zaharli modda ishlatish/davolash yo‘riqnomasi emas.125–126sahifalar tasvirlari o‘sha davrni ko‘rsatadi; bugungi foto deb berilmadi. Mundarijadagi§25uchun132xatosi emas, haqiqiy123sahifa sarlavhasi ishlatiladi. Ilgari saqlangan source map o‘zgartirilmadi.
