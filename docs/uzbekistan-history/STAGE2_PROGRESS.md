@@ -1,16 +1,16 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan: 118/172 o‘quv birligi lokal/test preview’da.** Jami 907 karta, 731 topshiriq (431 MCQ / 234 qisqa FRQ / 66 xronologiya), 118 original misol va 118 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 122/172 o‘quv birligi lokal/test preview’da.** Jami 937 karta, 755 topshiriq (447 MCQ / 242 qisqa FRQ / 66 xronologiya), 122 original misol va 122 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 | 325 | 280 | 83 |
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
-| 9 | 9 | 39 | 35 | 4 | 263 | 206 | 69 |
+| 9 | 9 | 39 | 39 | 0 | 293 | 230 | 77 |
 | 10 | 6 | 28 | 0 | 28 | 0 | 0 | 0 |
 | 11 | 9 | 22 | 0 | 22 | 0 | 0 | 0 |
 
-**Keyingi: 9-sinf §38, PDF 135, bosma 135 — Ta’lim tizimi. Matbuot.**
+**Keyingi: 10-sinf §1, PDF 5, bosma 5 — Turkiston o‘lkasi 1917-yil fevral – oktyabr oralig‘ida.**
 
 | Joriy sinf mavzusi | Fakt manba sahifalari | Karta | Savol |
 |---|---|---:|---:|
@@ -49,11 +49,15 @@
 | §34 Yosh buxoroliklar faoliyati va Buxoro amirligining tugatilishi | 117–120 | 7 | 6 |
 | §35–36 XIX asr oxiri – XX asr boshlarida Xiva xonligining davlat tuzumi va ijtimoiy-iqtisodiy ahvoli | 121–129 | 9 | 6 |
 | §37 Xiva xonligining tugatilishi | 129–134 | 8 | 6 |
+| §38 Ta’lim tizimi. Matbuot | 135–138 | 8 | 6 |
+| §39 Turkistonda ilm-fan taraqqiyoti | 139–143 | 8 | 6 |
+| §40 Teatr va musiqa san’ati | 144–149 | 7 | 6 |
+| §41 Me’morchilik va tasviriy san’at | 150–154 | 7 | 6 |
 
-- backend: `229 passed, 3 skipped in 159.26s (0:02:39)`.
-- postgres: `3 passed, 167 deselected in 50.81s`.
-- flutter: `01:27 +313: All tests passed!`.
-- flutter_history: `00:16 +159: All tests passed!`.
-- analyze: `No issues found! (ran in 1.4s)`.
+- backend: `233 passed, 3 skipped in 187.00s (0:03:07)`.
+- postgres: `3 passed, 171 deselected in 63.95s (0:01:03)`.
+- flutter: `01:29 +317: All tests passed!`.
+- flutter_history: `00:17 +163: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 
 [8-sinf frozen full-regression](checkpoints/grade8_validation.json).

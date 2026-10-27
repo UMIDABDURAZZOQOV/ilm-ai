@@ -184,3 +184,11 @@ Asl 61–78-sahifalar o‘qildi. 1878 Mingtepa/Yetimxon, 1880 O‘ratepa soliq t
 108–134asl tasvirlar tekshirildi.1916yo‘qotishlaridagi109sahifa«673ming» va«300ming» raqamlari mustaqil demografik/arxiv qiyosiga qoldirildi; darsda aniq tasdiqlangan yakuniy hisob qilinmagan. Doston muallifi va janri badiiy xotira sifatida o‘rgatiladi. Buxoro118farmonining va’dalari amaldagi natija emas. BXSR e’lon sanasining120dagi6-oktabr qaydi tashqi qiyosga qoldirildi; avtomatik kalitda yil/davlat nomi ishlatiladi.
 
 Xivaning35–36paragraflari birlashtirilgan: yer, boshqaruv, soliq, sanoat, uy hunarmandchiligi va savdo qamrab olindi. Sindikat/monopoliya/kasanachilik turli tushunchalar. Transport yilining «qurilish boshlandi» va «tayyor bo‘ldi» ma’nolari tashqi tekshiruvsiz tenglashtirilmadi.1913Islomxo‘ja o‘limi motivlari qat’iy isbot kaliti emas.1917manifest,Majlis,1918Junaidxon ta’siri va1920XXSR voqealari farqlangan.134xaritada temiryo‘l chizig‘i davlat chegarasi emas.
+
+## 9-sinf §38–41 — madaniyat bo‘limining yakuni
+
+135–154-sahifalarning asl tasvirlari o‘qildi. Maktab, madrasa, gimnaziya va yangi usul maktabi; gazeta va jurnal; badiiy asar va tarixiy tadqiqot farqlanadi. Ilmiy muassasa yoki ta’lim tarmog‘iga oid tarixiy ma’lumot bugungi holat sifatida berilmaydi. Til, diniy qarash va siyosiy talqin shaxsiy e’tiqodni avtomatik baholash mezoni emas.
+
+145-sahifadagi 1910–1912 gastrol bayoni bilan «Arshin mol olon» asarining yaratilish xronologiyasi o‘rtasidagi tafovut mustaqil tekshiruvga qoldirildi: gastrol yili savol kalitiga kiritilmadi. Qodiriyning dastlabki nasri uchun 142-sahifadagi aniq yil, «birinchi» aktrisa/fotograf kabi mutlaq ustuvorlik da’volari ham avtomatik kalit emas. Muayyan faoliyat, asar, cholg‘u va muallifni ajratish mashqlari manbadan tekshirildi.
+
+149-sahifadagi maqomga oid tarixiy farmon bugungi ijro qoidasi yoki jazo tavsiyasi emas. 154-sahifadagi oq va qizil rang talqinlari muayyan me’moriy-madaniy kontekstga tegishli, barcha xalqlar uchun universal qonun emas. Qurilish vazifasi, me’mor, joy va bezak tasviri alohida o‘rgatiladi. 39 o‘quv birligi barcha 41 paragraf raqamini qamraydi; §4–5 va §35–36 birlashtirilgan mavzular ikki marta sanalmadi. Mustaqil tarix o‘qituvchisi tasdig‘i hali olinmagan.

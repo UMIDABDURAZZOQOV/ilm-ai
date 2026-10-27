@@ -188,6 +188,33 @@ FRQ.update(
     }
 )
 
+MCQ.update(
+    {
+        36: ["Jurnal", "Toshkent", "Otinlar", "Ona tili"],
+        37: [
+            "Mulla Olim Maxdum hoji",
+            "Vyatkin",
+            "Abdulla Qodiriy",
+            "Muhammad Yusuf Bayoniy",
+        ],
+        38: ["Kachal Polvon", "Turon", "Xudoybergan Devonov", "G‘ijjak"],
+        39: [
+            "Amirning yozgi qarorgohi",
+            "Shirin Murodov",
+            "Xiva",
+            "Kema va temiryo‘l tasvirlari",
+        ],
+    }
+)
+FRQ.update(
+    {
+        36: ["Taraqqiy", "Gimnaziya"],
+        37: ["Meteorologiya", "Felyeton"],
+        38: ["Muhammad Rahimxon II", "Nay"],
+        39: ["Islomxo‘ja", "Buxoro"],
+    }
+)
+
 
 def lessons():
     return [l for d in load_course() if d["grade"] == 9 for l in d["lessons"]]
@@ -216,7 +243,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("sequence", range(1, 36))
+@pytest.mark.parametrize("sequence", range(1, 40))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):
@@ -281,7 +308,8 @@ def test_grade9_original_numbering_independent_progress_replay_and_old_grades(pr
     catalog = client.get(P + "/catalog?grade=9").json()
     assert catalog["source_sections"] == 39
     assert catalog["implemented_sections"] == len(lessons())
-    assert not catalog["grade_content_complete"] and not catalog["course_ready"]
+    assert catalog["grade_content_complete"] is (len(lessons()) == 39)
+    assert not catalog["course_ready"]
     assert catalog["lessons"][3]["source_numbers"] == [4, 5]
     assert start(client, lessons()[1]).status_code == 403
     for l in lessons():
@@ -297,6 +325,10 @@ def test_grade9_original_numbering_independent_progress_replay_and_old_grades(pr
     assert done["chapters"][2]["checkpoint_state"] == (
         "completed" if len(lessons()) >= 15 else "locked"
     )
+    if len(lessons()) == 39:
+        assert len(done["chapters"]) == 9
+        assert all(ch["checkpoint_state"] == "completed" for ch in done["chapters"])
+        assert done["lessons"][-1]["source_numbers"] == [41]
     with factory() as db:
         assert db.get(User, 1).xp_total == 147 + 10 * len(lessons())
         assert db.get(HistoryProgress, (1, "uzh-7-1-r1")).completed_at is not None
