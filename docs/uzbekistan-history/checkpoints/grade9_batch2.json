@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-27",
+  "grade": 9,
+  "batch": 2,
+  "statistics": {
+    "lessons": 93,
+    "cards": 730,
+    "questions": 585,
+    "mcq": 342,
+    "frq": 185,
+    "chronologies": 58,
+    "examples": 93,
+    "reflections": 93
+  },
+  "per_grade": {
+    "7": {
+      "lessons": 42,
+      "cards": 325,
+      "questions": 280,
+      "mcq": 168,
+      "frq": 83,
+      "chronologies": 29,
+      "examples": 42,
+      "reflections": 42,
+      "chapters": 6,
+      "source_units": 42,
+      "remaining": 0
+    },
+    "8": {
+      "lessons": 41,
+      "cards": 319,
+      "questions": 245,
+      "mcq": 140,
+      "frq": 82,
+      "chronologies": 23,
+      "examples": 41,
+      "reflections": 41,
+      "chapters": 4,
+      "source_units": 41,
+      "remaining": 0
+    },
+    "9": {
+      "lessons": 10,
+      "cards": 86,
+      "questions": 60,
+      "mcq": 34,
+      "frq": 20,
+      "chronologies": 6,
+      "examples": 10,
+      "reflections": 10,
+      "chapters": 9,
+      "source_units": 39,
+      "remaining": 29
+    },
+    "10": {
+      "lessons": 0,
+      "cards": 0,
+      "questions": 0,
+      "mcq": 0,
+      "frq": 0,
+      "chronologies": 0,
+      "examples": 0,
+      "reflections": 0,
+      "chapters": 6,
+      "source_units": 28,
+      "remaining": 28
+    },
+    "11": {
+      "lessons": 0,
+      "cards": 0,
+      "questions": 0,
+      "mcq": 0,
+      "frq": 0,
+      "chronologies": 0,
+      "examples": 0,
+      "reflections": 0,
+      "chapters": 9,
+      "source_units": 22,
+      "remaining": 22
+    }
+  },
+  "tests": {
+    "backend": "204 passed, 3 skipped in 123.75s (0:02:03)",
+    "postgres": "3 passed, 142 deselected in 41.48s",
+    "flutter": "01:20 +288: All tests passed!",
+    "flutter_history": "00:15 +134: All tests passed!",
+    "analyze": "No issues found! (ran in 1.6s)"
+  },
+  "source_audit": {
+    "available_books": 5,
+    "blocked_grades": [],
+    "catalogued_teaching_entries": 172,
+    "all_five_total": 172,
+    "original_pages": 769,
+    "original_heading_images": 172,
+    "interactive_batches": [
+      {
+        "lessons": 5,
+        "cards": 34,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 32,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 41,
+        "assessments": 34,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 9,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 37,
+        "assessments": 31,
+        "frq": 10,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 35,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 33,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 2,
+        "cards": 18,
+        "assessments": 13,
+        "frq": 4,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 33,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 5
+      },
+      {
+        "lessons": 5,
+        "cards": 36,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 5,
+        "cards": 43,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 4
+      },
+      {
+        "lessons": 5,
+        "cards": 39,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 1
+      },
+      {
+        "lessons": 5,
+        "cards": 38,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 3
+      },
+      {
+        "lessons": 5,
+        "cards": 40,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 6,
+        "cards": 50,
+        "assessments": 35,
+        "frq": 12,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 44,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 2
+      },
+      {
+        "lessons": 5,
+        "cards": 42,
+        "assessments": 30,
+        "frq": 10,
+        "chronologies": 4
+      }
+    ],
+    "lesson_full_page_images": 352
+  },
+  "log_sha256": {
+    "backend": "8136ebe209990a706cee001c7200ad991e665a4d3a78570a3522998cab6b872c",
+    "postgres": "69cf26584412deb78180e1ee9d6a4f8c423ef0bd5f8333a2144548caba6021b2",
+    "flutter": "621874384bc487b0ad542987598556509380903560297b91efa9c292da3ab966",
+    "flutter_history": "7f5f3a6f88fbb75e663dc140c4b72f3de70fab493c9700dba6e1c1307aa8b031",
+    "analyze": "9ddf111d6888aa89d6b5c34223e0875dbdd3df808e5244f1751dabc95b7a7db6",
+    "source": "a5ce153c60a0fe3e9e3ac95b47dbff89ea8b61086c1630c286869ad5413651b0"
+  },
+  "course_complete": false,
+  "publication": "local_test_preview_only",
+  "next_grade": 9,
+  "next_sequence": 11,
+  "next_source_numbers": [
+    12
+  ],
+  "next_pdf_page": 39
+}
