@@ -172,3 +172,9 @@ Asl 61–78-sahifalar o‘qildi. 1878 Mingtepa/Yetimxon, 1880 O‘ratepa soliq t
 78–93 asl tasvirlari o‘qildi. Qozon puli/ushr/solg‘ut va mehnat majburiyati farqlanadi; Ernazarbiy, keyingi Qo‘ng‘irot va Bobo Go‘klan harakatlari bir davr emas. Amudaryo o‘ng/chap sohili hamda Sirdaryo viloyati/Amudaryo bo‘limi darajalari alohida. Tanobning83dagi tarixiy miqdori barcha davr uchun universal birlik qilib testlanmagan. Badiiy doston qahramoni bilan tarixiy shaxs ajratildi; Ajiniyozning otasiga oid8/9yozuv variantlari kalit emas.
 
 1884Bog‘chasaroy maktabi va1888muallimlar qo‘llanmasi sanalari asl88dan tekshirildi. Jadid maktablarining mutlaq birinchi/ikkinchi ustuvorligi tashqi qiyosga qoldirildi. Dasturdagi parlament, til va milliy tashkilot talablari bajarilgan natija sifatida berilmadi. Ta’lim statistikasi hudud va yil kesimida farqlangan. Siyosiy yoki diniy talqin erkin refleksiya, bir qiymatli avtomatik javob emas.
+
+## 9-sinf §27–31
+
+93–108asl sahifalar tekshirildi. Behbudiy/Munavvarqori/Avloniy asarlari, matbuot va xayriya jamiyati vazifalari ajratilgan.98dagi mutlaq ilk advokat va100dagi Muxtoriyat«72kun» soni tashqi tekshiruvga qoldirildi. Muxtoriyat markazi/tashkilot/delegat/federatsiya/avtonomiya tushunchalari manbadan o‘rgatiladi; diniy-siyosiy qarashlar shaxsiy e’tiqod testi emas.
+
+1914favqulodda holat,1915paxta narxi va1916farmon turli chora. Viloyatlarga reja haqiqatan ketgan ishchilar ro‘yxati emas. Xo‘jand, Toshkent va vodiy voqealari bir xil joy/yil nomiga qo‘shilmagan. Rizvonbibi Ahmadjonova, Damin kulol, Nazirxo‘ja va Abdurahmon jevachi rollari asl tasvirdan tekshirildi. Harbiy zo‘ravonlik talafot sonlari yagona aniq statistika qilib testlanmagan; zamonaviy taktik tavsiya berilmaydi.

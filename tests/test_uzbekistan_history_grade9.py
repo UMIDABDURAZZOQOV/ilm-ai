@@ -134,6 +134,31 @@ FRQ.update(
 )
 ORDER.update({21: ["e1", "e2", "e3"], 24: ["e1", "e2"]})
 
+MCQ.update(
+    {
+        26: [
+            "Munavvarqori Abdurashidxonov",
+            "Abdulla Avloniy",
+            "Turkiya",
+            "Mirkomil Mirmo‘minboyev",
+        ],
+        27: ["Qo‘qon", "Delegat", "Lev Tolstoy", "Matbuot erkinligi"],
+        28: ["Antanta", "Nikolay II", "Paxta"],
+        29: ["Xo‘jand", "Beshyog‘och", "Namangan", "Samarqand"],
+        30: ["Damin kulol", "Yig‘ilish joyi", "Abdurahmon jevachi", "Zomin"],
+    }
+)
+FRQ.update(
+    {
+        26: ["Senzura", "Behbudiya"],
+        27: ["Avtonomiya", "Musulmon markaziy sho‘rosi"],
+        28: ["Favqulodda muhofaza holati", "Front orti xizmatlari"],
+        29: ["Gippius", "Rizvonbibi Ahmadjonova"],
+        30: ["Jevachi", "Mirzayor Xudoyorov"],
+    }
+)
+ORDER.update({28: ["e1", "e2", "e3"]})
+
 
 def lessons():
     return [l for d in load_course() if d["grade"] == 9 for l in d["lessons"]]
@@ -162,7 +187,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("sequence", range(1, 26))
+@pytest.mark.parametrize("sequence", range(1, 31))
 def test_literal_original_page_answer_keys_and_wrong_answers(sequence):
     lesson = lessons()[sequence - 1]
     for q, value in zip(lesson["assessments"], answers(lesson)):

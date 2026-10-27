@@ -1,6 +1,6 @@
 # O‘zbekiston tarixi — manbali lokal/test kurs
 
-2026-10-27. **Kurs tugallanmagan: 108/172 o‘quv birligi lokal/test preview’da.** Jami 839 karta, 673 topshiriq (394 MCQ / 214 qisqa FRQ / 65 xronologiya), 108 original misol va 108 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 113/172 o‘quv birligi lokal/test preview’da.** Jami 870 karta, 703 topshiriq (413 MCQ / 224 qisqa FRQ / 66 xronologiya), 113 original misol va 113 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 - [Qamrov va testlar](COURSE_COMPLETION.md)
 - [Davom](STAGE2_PROGRESS.md)
