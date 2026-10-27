@@ -36,3 +36,17 @@ Hozirgi Gradle QA package suffixi Physics uchun yozilgan. Uni History uchun teks
 2026-10-27: konkret `docs/uzbekistan-history/ANDROID_QA_IDENTITY.patch` va `ANDROID_QA_HANDOFF.md` Flutter feature branchida saqlandi. Patch `git apply --check`dan o‘tdi, ammo shared Gradlega qo‘llanmadi va Android SDKda compile qilinmadi. U `.uzhistoryqa` ID/label/callback scheme hamda preview-release radini integratsiya review uchun tayyorlaydi. Shu review va haqiqiy SDK tekshiruvi tugamaguncha History APK normal app bilan to‘qnashmaydi deb da’vo qilinmaydi.
 
 42-darsning haqiqiy serverdan olingan public DTO/feedbacklari bilan Flutter widget oqimi MCQ→ikkita matnli FRQ→xronologiya→natija va tez ikki marta bosishda bitta jo‘natishni tekshiradi.320×568/200%matn ishlatilgan. Bu TestClientdan olingan kontraktning mock-transportdagi UI sinovi; haqiqiy telefon, brauzer HTTP end-to-end yoki Google OAuth sinovi emas. Web build compile-only yaroqsiz placeholder token bilan bajarildi, haqiqiy maxfiy token buildga kiritilmadi.
+
+
+## 172 darsli yakuniy lokal QA
+
+2026-10-27: 7/8/9/10/11-sinflarning42/41/39/28/22birligi import qilinadi.
+Bitta test akkauntida barcha1027javob va172dars yakuni,34bob belgisi,
+137→1857XP,shu kuni3streak,qayta ochish va0XP replay tekshirildi:
+`tests/test_uzbekistan_history_completion.py` — **3 passed in35.72s**.
+`course_content_complete=true` barcha importlar mavjudligini bildiradi;
+`course_ready=false` mustaqil review va umumiy nashr tasdig‘i yo‘qligini saqlaydi.
+
+Oxirgi FlutterdebugJavaScriptbuild41.7sekundda o‘tdi. Buildga faqat yaroqsiz
+compile-onlyplaceholder kiritildi,haqiqiytestJWT emas. SDKdoctor AndroidSDK
+yo‘qligini yana tasdiqladi;APK/TalkBack/realtelefon natijasi da’vo qilinmaydi.

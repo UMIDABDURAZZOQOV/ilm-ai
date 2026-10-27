@@ -70,6 +70,23 @@ def catalog(db, uid, grade=7):
         .first()
     ]
     source = load_catalog()
+    # Imported content coverage is distinct from teacher/release approval.
+    imported = {}
+    for imported_grade, sequence in (
+        db.query(HistoryLesson.grade, HistoryLesson.sequence)
+        .filter(HistoryLesson.subject == "ozbekiston_tarixi")
+        .all()
+    ):
+        imported.setdefault(imported_grade, []).append(sequence)
+    expected = {
+        book["grade"]: [topic["sequence"] for topic in book["topics"]]
+        for book in source["books"]
+    }
+    all_content_complete = (
+        not source["blocked_books"]
+        and set(expected) == set(range(7, 12)) == set(imported)
+        and all(sorted(imported[g]) == expected[g] for g in expected)
+    )
     if grade == 8 and any(b["grade"] == 8 for b in source["blocked_books"]):
         return {
             "assessment_version": 2,
@@ -82,6 +99,7 @@ def catalog(db, uid, grade=7):
             "source_sections": None,
             "implemented_sections": 0,
             "course_complete": False,
+            "course_content_complete": all_content_complete,
             "course_ready": False,
             "grade_content_complete": False,
             "source_status": "blocked_missing_source",
@@ -93,7 +111,7 @@ def catalog(db, uid, grade=7):
         }
     if grade not in SOURCE_SECTIONS:
         raise HTTPException(422, "unsupported_uzbekistan_history_grade")
-    source_book = next(b for b in load_catalog()["books"] if b["grade"] == grade)
+    source_book = next(b for b in source["books"] if b["grade"] == grade)
     source_numbers = {t["id"]: t["source_numbers"] for t in source_book["topics"]}
     progress = {
         p.lesson_key: p for p in db.query(HistoryProgress).filter_by(user_id=uid)
@@ -132,6 +150,7 @@ def catalog(db, uid, grade=7):
         "source_sections": SOURCE_SECTIONS[grade],
         "implemented_sections": len(result),
         "course_complete": False,
+        "course_content_complete": all_content_complete,
         "independent_review_pending": True,
         "course_ready": False,
         "grade_options": list(range(7, 12)),
@@ -277,7 +296,13 @@ def start(db, uid, key, request_id):
                     "public": deepcopy(q.public_prompt),
                     # Freeze normalization with each new attempt. Previously
                     # saved snapshots omit this and retain revision 1 replay.
-                    "grading_spec": new_attempt_spec(lesson.key, lesson.content_sha256, q.key, q.grading_spec, q.source_refs),
+                    "grading_spec": new_attempt_spec(
+                        lesson.key,
+                        lesson.content_sha256,
+                        q.key,
+                        q.grading_spec,
+                        q.source_refs,
+                    ),
                     "source_refs": q.source_refs,
                 }
                 for q in questions

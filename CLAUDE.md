@@ -1,5 +1,17 @@
 # Ilm AI — Project Context (for Claude)
 
+**2026-10-27 — O‘zbekiston tarixi172/172 uchun butun kurs QA:** yangi
+`tests/test_uzbekistan_history_completion.py` **3 passed in35.72s**. Bitta
+lokal test akkaunti barcha172dars/1027topshiriqni tugatdi;eski137XPga1720XP
+qo‘shilib1857bo‘ldi,shu kuni3streak va34bob belgisi saqlandi,qayta ochish/replay0XP
+tasdiqlandi. `uzbekistan_history_runtime.py`da qo‘shimcha
+`course_content_complete` haqiqiy5sinf importi/manba mavjudligidan hisoblanadi;
+publication/readyfalse hamda normalAPI/Googlelogin/DBschema o‘zgarmadi.
+Yo‘q import yoki manba yolg‘on qamrov tasdig‘i bermaydi. RasmiydasturURLs27-oktabrda
+yana403;teacher/realAndroid/normalmobileintegrationhaliopen. DebugJSpreviewbuild
+passed41.7s,haqiqiytokenishlatilmadi. Yakuniy keng regression hali alohida qayd qilinadi.
+
+
 **2026-10-27 — O‘zbekiston tarixi 11-sinf partiya5:** 172/172dars,1280karta,1027topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `285 passed, 5 skipped in 304.03s (0:05:04)`;localPG `5 passed, 223 deselected in 105.29s (0:01:45)`;Flutter `01:21 +369: All tests passed!`,`No issues found! (ran in 1.5s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **Barcha katalog birliklari yozildi; yakuniy audit/review hali talab qilinadi.**. [Dalillar](docs/uzbekistan-history/checkpoints/grade11_batch5.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
 
 **2026-10-27 — O‘zbekiston tarixi 11-sinf partiya4:** 170/172dars,1263karta,1015topshiriq.7-sinf42r1/8-sinf41dars saqlandi. Joriybackend `283 passed, 5 skipped in 299.71s (0:04:59)`;localPG `5 passed, 221 deselected in 96.24s (0:01:36)`;Flutter `01:33 +367: All tests passed!`,`No issues found! (ran in 1.7s)`. Aslsahifalarpixel/nativeSHA bilan qayta tekshirildi;bahsli talqinlarobyektivkalitemas. PDF/boshqafan/veb/production/maintegilmadi,releaseyo‘q. Keyingi **11-sinf §21, PDF 129, bosma 129 — O‘zbekistonning Birlashgan Millatlar Tashkiloti doirasidagi faoliyati va tinchlikparvar tashqi siyosati**. [Dalillar](docs/uzbekistan-history/checkpoints/grade11_batch4.json),[davom](docs/uzbekistan-history/STAGE2_PROGRESS.md).
