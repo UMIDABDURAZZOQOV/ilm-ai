@@ -1,25 +1,25 @@
 # O‘zbekiston tarixi — joriy checkpoint
 
-2026-10-27. **Kurs tugallanmagan: 67/172 o‘quv birligi lokal/test preview’da.** 7-sinf42/42 o‘zgarmadi; 8-sinf25/41. Jami 514 karta, 430 topshiriq (252 MCQ / 133 qisqa FRQ / 45 xronologiya), 67 original misol va 67 baholanmaydigan refleksiya.
+2026-10-27. **Kurs tugallanmagan: 72/172 o‘quv birligi lokal/test preview’da.** 7-sinf42/42 o‘zgarmadi; 8-sinf30/41. Jami 554 karta, 460 topshiriq (269 MCQ / 143 qisqa FRQ / 48 xronologiya), 72 original misol va 72 baholanmaydigan refleksiya.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan |
 |---|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 |
-| 8 | 4 | 41 | 25 | 16 |
+| 8 | 4 | 41 | 30 | 11 |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
 ## Haqiqiy test natijalari
 
-- backend: `177 passed, 2 skipped in 88.88s (0:01:28)`.
-- postgres: `2 passed, 115 deselected in 28.16s`.
-- flutter: `01:21 +261: All tests passed!`.
-- flutter_history: `00:12 +107: All tests passed!`.
-- analyze: `No issues found! (ran in 1.4s)`.
+- backend: `182 passed, 2 skipped in 91.11s (0:01:31)`.
+- postgres: `2 passed, 120 deselected in 32.11s`.
+- flutter: `01:23 +266: All tests passed!`.
+- flutter_history: `00:12 +112: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 - biology_targeted: `included in current combined backend command: test_biology_curriculum.py + test_biology_segments.py`.
 
-Source audit: 769 asl PDF sahifasi, 172 original sarlavha tasviri; 243 partiya-sahifa tasviri tekshiruvi. `--require-complete` endi haqiqatan exit0: yetishmagan8-sinf manbasi olindi. Bu kurs tayyorligi mezoni emas.
+Source audit: 769 asl PDF sahifasi, 172 original sarlavha tasviri; 263 partiya-sahifa tasviri tekshiruvi. `--require-complete` endi haqiqatan exit0: yetishmagan8-sinf manbasi olindi. Bu kurs tayyorligi mezoni emas.
 
 7-sinfdagi oldingi full backend2366passed/5skipped/2deselected/13warning; bu tarixiy checkpoint. Yangi8-sinf kontenti uchun yuqoridagi joriy targeted testlar haqiqiy bajarildi. Flutter full to‘plami eski Physics/brand testlarini ham o‘z ichiga oladi. Mustaqil fan branchlari integrated regressiondan o‘tdi deb aytilmaydi.
 
@@ -33,4 +33,4 @@ Biology406/Physics316 va552eski backend fayli,7-sinfning42r1darsi hamda oldingi4
 
 ## Git va davom
 
-Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Avvalgi7-sinf backend `e293e48`,Flutter `f90637e` saqlandi. Ushbu checkpoint commitini remote SHA bilan tekshiring. **Keyingi: 8-sinf §26, PDF/bosma 94 — Xiva xonligida ijtimoiy-iqtisodiy hayot. Shaharlar hayoti.** Partiyalar orasida ruxsat talab qilinmaydi. [Manba auditi](GRADE8_SOURCE_REVIEW.md), [to‘liq xarita](COURSE_MAP.md), [davom](STAGE2_PROGRESS.md).
+Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Avvalgi7-sinf backend `e293e48`,Flutter `f90637e` saqlandi. Ushbu checkpoint commitini remote SHA bilan tekshiring. **Keyingi: 8-sinf §31, PDF/bosma 113 — Qoraqalpoqlarda madaniy va ma’naviy hayot.** Partiyalar orasida ruxsat talab qilinmaydi. [Manba auditi](GRADE8_SOURCE_REVIEW.md), [to‘liq xarita](COURSE_MAP.md), [davom](STAGE2_PROGRESS.md).

@@ -107,3 +107,12 @@ Skanerlashga aloqador real yozuv muammolari ham tekshirildi: native matnning wat
 Asl75–94to‘liq ko‘rildi.1778doston,1803–1804ta’lim qaydi va2018maqom anjumani turli davrlardir. Ta’limga berilgan talab barcha fuqarolar uni amalda bajargani haqidagi mustaqil dalil deb olinmaydi. Xorazm uchun Vazir→Urganch va keyingiUrganch→Xiva ko‘chishlari ajratildi. Inoq mansab egasi,guruhning o‘z nomi emas:83sahifadagi «har bir guruhga inoq tayinlandi» iborasi draft muallifligida qayta tekshirildi.
 
 1761inoq lavozimi,1770amaldagi ta’sir,1804Eltuzarning rasmiy xon unvoni va1806Muhammad RahimxonI davri alohida qaydlar. I/1raqamli to‘g‘ri nom muqobillari oldindan tasdiqlangan.87xaritadagi talash yer shartli belgisi bir tomonning shubhasiz doimiy hududi deb talqin qilinmaydi.91dagi umumiy maydon miqdori va90dagi Atrek uzunligi mustaqil tekshiruvga qoldirildi, avtomatik kalit emas. Xiva davlat mansablari Buxorodagi bir xil nomga ega mansabga aynan ko‘chirilmagan.7-sinf42r1 o‘zgarmadi; keyingi26–30uchun94–113asl tasvirlari ko‘rildi.
+
+
+## 8-sinf §26–30 — 2026-10-27
+
+Asl94–113ko‘rildi. Xiva yer ijarachisi bevatan/koranda/vaqfchi bilan mutavalli boshqaruvchisi farqlangan; salg‘ut/begar soliq-mehnat vazifalari aralashmagan. Ko‘hna/YangiUrganch va Ichan/Dishanqal’a bir xil joy nomi muqobillari emas. Elchi,harbiy ekspeditsiya va shartnoma turi alohida baholanadi.
+
+Firdavs ul-iqbol uchun107dagi «300yil» hamda1572–1825oraliq ichki tafovut: oddiy ayirma253,inclusive hisob254; hech biri300emas. Qaysi tarixiy boshlanish sanasi to‘g‘riligi tashqi dalilsiz o‘zgartirilmadi; davomiylik avtomatik kalitga kiritilmadi. Muallif,asar davri,arxivning ko‘chirilishi va keyingi tadqiqot sanalari farqlangan.
+
+Qoraqalpoq etnogenezi va etnonim ilk uchrashi haqidagi mutlaq xulosalar,110dagi to‘g‘on–daryo o‘zani sababini bitta buyruqqa yuklash mustaqil ekspertizaga qoldirilgan.1598yorliq aynan darslikdagi qayd sifatida,eng qadimgi barcha hujjatlarning yakuniy isboti sifatida emas. Bo‘lim sarlavhasi XIXbirinchi yarmini aytsa ham112da1859boshqaruv qaydi borligi ochiq ajratildi; tarixiy sanani sarlavhaga moslab orqaga surmadik. Keyingi31–35uchun113–133asl sahifalar ko‘rildi.

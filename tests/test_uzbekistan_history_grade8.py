@@ -108,6 +108,10 @@ MCQ.update({21:['Muhammadniyoz Nishotiy','Ahmad Donish','Shahrisabz'],22:['Elbar
 FRQ.update({21:['Shashmaqom','Juvayniy'],22:['Umar','Amudaryo'],23:['Inoq','Bekovich-Cherkasskiy'],24:['Muhammad Rahimxon 1','Toshhovli'],25:['Muftiy','Xon navkarlari']})
 ORDER.update({21:['e1','e2','e3'],23:['e1','e2','e3'],24:['e1','e2','e3','e4']})
 
+MCQ.update({26:['Bevatan','Dishan qal’a','Otliq','Begar'],27:['V. Perovskiy','Majburiyatlar akti','Marv'],28:['Munis','Abulg‘oziy Bahodirxon','Xattot','Munis'],29:['Arxiv hujjatlari','Toshkent','Vamberi'],30:['Abdullaxon II','Oydosbiy','Ovul']})
+FRQ.update({26:["Ichan qal'a","Salg'ut"],27:['Danilevskiy','Bojxona'],28:['Ogahiy','Vaqf'],29:['Muravyov','Peterburg'],30:['Biylarog‘asi','Janadaryo']})
+ORDER.update({27:['e2','e3','e1'],29:['e3','e1','e2'],30:['e1','e2']})
+
 
 def lessons():
     return [l for d in load_course() if d["grade"] == 8 for l in d["lessons"]]
@@ -137,7 +141,7 @@ def answers(lesson):
     return result
 
 
-@pytest.mark.parametrize("seq", range(1, 26))
+@pytest.mark.parametrize("seq", range(1, 31))
 def test_image_checked_independent_keys_wrong_choices_and_aliases(seq):
     lesson = lessons()[seq - 1]
     for q, answer in zip(lesson["assessments"], answers(lesson)):

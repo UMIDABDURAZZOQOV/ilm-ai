@@ -1,16 +1,16 @@
 # Davom checkpointi
 
-2026-10-27. **Kurs tugallanmagan: 67/172 o‘quv birligi lokal/test preview’da.** 7-sinf42/42 o‘zgarmadi; 8-sinf25/41. Jami 514 karta, 430 topshiriq (252 MCQ / 133 qisqa FRQ / 45 xronologiya), 67 original misol va 67 baholanmaydigan refleksiya.
+2026-10-27. **Kurs tugallanmagan: 72/172 o‘quv birligi lokal/test preview’da.** 7-sinf42/42 o‘zgarmadi; 8-sinf30/41. Jami 554 karta, 460 topshiriq (269 MCQ / 143 qisqa FRQ / 48 xronologiya), 72 original misol va 72 baholanmaydigan refleksiya.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan |
 |---|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 |
-| 8 | 4 | 41 | 25 | 16 |
+| 8 | 4 | 41 | 30 | 11 |
 | 9 | 9 | 39 | 0 | 39 |
 | 10 | 6 | 28 | 0 | 28 |
 | 11 | 9 | 22 | 0 | 22 |
 
-**Keyingi: 8-sinf §26, PDF/bosma 94 — Xiva xonligida ijtimoiy-iqtisodiy hayot. Shaharlar hayoti.** Manba yetishmovchiligi yopildi; eski SOURCE_HANDOFF matni tarixiy qayd.7-sinfni qayta yaratmang.8dan keyin9→10→11 ketma-ket davom eting.
+**Keyingi: 8-sinf §31, PDF/bosma 113 — Qoraqalpoqlarda madaniy va ma’naviy hayot.** Manba yetishmovchiligi yopildi; eski SOURCE_HANDOFF matni tarixiy qayd.7-sinfni qayta yaratmang.8dan keyin9→10→11 ketma-ket davom eting.
 
 | 8-sinf darsi | PDF/bosma sahifalar | Karta | Topshiriq |
 |---|---|---:|---:|
@@ -39,12 +39,17 @@
 | §23 XVII–XVIII asrning birinchi yarmida xonlikdagi siyosiy ahvol | 82–85 | 7 | 6 |
 | §24 Xiva xonligida qo‘ng‘irotlar sulolasi hukmronligining o‘rnatilishi. XVIII asr oxiri – XIX asr birinchi yarmida xonlikning siyosiy ahvoli | 86–90 | 7 | 6 |
 | §25 Xiva xonligida davlat boshqaruvi | 90–93 | 8 | 6 |
+| §26 Xiva xonligida ijtimoiy-iqtisodiy hayot. Shaharlar hayoti | 94–99 | 9 | 6 |
+| §27 Xiva xonligining tashqi siyosati | 99–103 | 7 | 6 |
+| §28 Xiva xonligida madaniy hayot | 104–106 | 8 | 6 |
+| §29 Xiva xonligi tarixi bo‘yicha manbalar | 106–109 | 8 | 6 |
+| §30 XVI–XIX asrning birinchi yarmida qoraqalpoqlar | 110–113 | 8 | 6 |
 
-- backend: `177 passed, 2 skipped in 88.88s (0:01:28)`.
-- postgres: `2 passed, 115 deselected in 28.16s`.
-- flutter: `01:21 +261: All tests passed!`.
-- flutter_history: `00:12 +107: All tests passed!`.
-- analyze: `No issues found! (ran in 1.4s)`.
+- backend: `182 passed, 2 skipped in 91.11s (0:01:31)`.
+- postgres: `2 passed, 120 deselected in 32.11s`.
+- flutter: `01:23 +266: All tests passed!`.
+- flutter_history: `00:12 +112: All tests passed!`.
+- analyze: `No issues found! (ran in 1.5s)`.
 - biology_targeted: `included in current combined backend command: test_biology_curriculum.py + test_biology_segments.py`.
 
 [7-sinf42darsning saqlangan dalillari](checkpoints/grade7_validation.json).
