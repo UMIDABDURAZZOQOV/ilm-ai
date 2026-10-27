@@ -2836,10 +2836,10 @@ Full original-image feature and ancillary audit defines219 teaching units:
 grades6–11 have46/44/33/41/26/29. See COURSE_MAP.md and PAGE_FEATURE_AUDIT.md.
 The scanned grade9 has no text layer: OCR is locator only, not fact approval.
 
-Batch10 has51 local-preview units: all grade6 plus grade7§1–5,
-400 cards,303 MCQ,195 objective FRQ;
-168 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
-Continue from docs/world_history/CHECKPOINT.md at grade7§6, original page29 below its heading; next original image30.
+Batch11 has56 local-preview units: all grade6 plus grade7§1–10,
+437 cards,335 MCQ,215 objective FRQ;
+163 units remain. Isolated API/importer/Flutter debug entrypoint are implemented.
+Continue from docs/world_history/CHECKPOINT.md at grade7§11–15, original51–70; private§11–15 validated, original51–70 read, not yet indexed.
 Completed inventory and scoped image review are not independent teacher approval.
 Follow the common ILM theory/MCQ/objective FRQ/feedback/XP/progress/prerequisite/
 save-resume/replay contract. No AI Tutor/Explain/translation or unreviewed dates,
@@ -2861,3 +2861,7 @@ definition approval. Grade6 content presence complete is not course acceptance.
 Grade7 first prerequisite is empty; grade-scoped progress and shared once-only XP
 are tested. Allod etymology16/17 and Gerbert/Silvestr ordinal29 remain unresolved
 and withheld from automatic keys; no outside historical correction is invented.
+
+Batch11 review: source law40 death-penalty claim, Platon epithet42, alphabet
+creation46 and kvadrium45 spelling remain unassessed; no external repair or
+Greek-fire recipe. Religious belief never an automatic truth/loyalty judgment.

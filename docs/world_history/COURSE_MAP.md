@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 51; remaining: 168.** Source pages are candidate spans;
+**Reviewed preview lessons: 56; remaining: 163.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -100,11 +100,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 3 | wh7-topic03 | Franklar imperiyasi | 17–21 | reviewed_preview_ready |
 | 4 | wh7-topic04 | Britaniyadan Angliyaga | 21–26 | reviewed_preview_ready |
 | 5 | wh7-topic05 | Muqaddas Rim imperiyasi | 26–29 | reviewed_preview_ready |
-| 6 | wh7-topic06 | Vizantiya: G‘arb va Sharq orasida | 29–33 | not_implemented |
-| 7 | wh7-topic07 | Slavyanlar va ularda davlatlarning tashkil topishi | 33–37 | not_implemented |
-| 8 | wh7-topic08 | Sharqiy slavyanlar. Kiyev Rusi | 37–41 | not_implemented |
-| 9 | wh7-topic09 | Yevropa xalqlari madaniyati | 41–47 | not_implemented |
-| 10 | wh7-topic10 | Arabiston ilk o‘rta asrlar boshida | 47–51 | not_implemented |
+| 6 | wh7-topic06 | Vizantiya: G‘arb va Sharq orasida | 29–33 | reviewed_preview_ready |
+| 7 | wh7-topic07 | Slavyanlar va ularda davlatlarning tashkil topishi | 33–37 | reviewed_preview_ready |
+| 8 | wh7-topic08 | Sharqiy slavyanlar. Kiyev Rusi | 37–41 | reviewed_preview_ready |
+| 9 | wh7-topic09 | Yevropa xalqlari madaniyati | 41–47 | reviewed_preview_ready |
+| 10 | wh7-topic10 | Arabiston ilk o‘rta asrlar boshida | 47–51 | reviewed_preview_ready |
 | 11 | wh7-topic11 | Arab xalifaligi | 51–53 | not_implemented |
 | 12 | wh7-topic12 | Hindiston | 53–56 | not_implemented |
 | 13 | wh7-topic13 | Xitoy (IV–X asrlarda) | 56–59 | not_implemented |

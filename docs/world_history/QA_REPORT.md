@@ -383,3 +383,45 @@ No actual Android/IME/TalkBack or independent teacher sign-off claimed. Earlier
 No original PDF/full text/OCR/page images, private keys or real-user data in Git.
 Only the two history feature branches are committed/pushed. Next: grade7§6–10;
 §6 original29–33 read and its private draft validated, next original34 for§7.
+
+## Batch11 — grade7§6–10, 2026-10-27
+
+Five additional lessons:37 cards,84 fact records,32 MCQ and20 objective FRQ.
+Total **56/219 local-preview units**,437 cards,839 fact records,335 MCQ,215 objective
+FRQ and56 ungraded activities. Grade6 remains46/46; grade7 is10/44,34 remaining.
+There are163 units left across grades7–11. Repeated final-review facts remain
+included in record counts; these are not unique-fact totals.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| Focused new backend |12 passed in87.70s | Five source manifests, seven shared-region mutations, finite targets/holds and all56-unit completion |
+| All history backend/source/preservation |190 passed in1225.33s | Thirteen history modules, all56 manifests, earlier source/runtime regressions |
+| Actual PostgreSQL |1 passed in80.38s | Dedicated staging fresh schema; parallel completion, all56 units/1120XP once and old synthetic user retained |
+| Actual loopback HTTP |6 catalogues,550 answers,1120XP | Fresh learner900116; prerequisites/replay; no previous learner reset |
+| Targeted Flutter |128 passed in01:36 | All56 API fixtures, grade7 chapter2, theory/MCQ200%, typed FRQ and earlier safeguards |
+| Actual capture subset |20 passed in02:03 | Grade7§1–10 theory/feedback200% and FRQ renders written privately |
+| Full Flutter regression |737 passed in08:24 | Entire current worktree suite, other subjects/shared functions included |
+| Full Flutter analysis |0 issues in238.1s | Entire current Flutter worktree |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus102 previous history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python files only and diff checks |
+
+Initial Flutter run found23 failures in test expectations/helpers: public start
+snapshots do not contain sequence, and chapter1 no longer contains pending rows
+once§1–9 are ready. The helper now resolves source-unit title and opens its actual
+chapter; pending assertion opens chapter2. No production snapshot/schema change.
+Rerun128/128 and full737/737 passed; the failed run is not claimed as acceptance.
+
+Original29–50 read with exact boundary regions;37,47 and51 wholly belonging to
+next topics are excluded where applicable. Source law40 death-penalty assertion,
+Platon epithet42, alphabet creation46 and kvadrium45 spelling remain unassessed.
+No external correction, Greek-fire recipe, religious loyalty/truth score or
+unprovided map fact was introduced. Question-specific aliases reject Yasrib when
+the prompt explicitly asks for its other nameMadina. More in SOURCE_REVIEW.md.
+
+Actual renders inspected: grade7§6 theory200%,§9 feedback200%,§10 resumed FRQ
+with its own§10/50 source. Text is scrollable. No native Android/IME/TalkBack or
+independent teacher sign-off claimed. Earlier2569-pass full backend snapshot
+remains baseline evidence, not a full backend rerun here. No source PDF/full
+text/OCR/page images, real-user data or keys in Git. Only history feature branches.
+Next batch12: grade7§11–15 original51–70 read; five private drafts validate,
+92 fact records/39 cards/52 questions, not yet indexed/imported.

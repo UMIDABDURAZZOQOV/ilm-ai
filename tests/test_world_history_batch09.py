@@ -112,7 +112,7 @@ def test_catalog_finalizer_preserves_only_explicit_ancillary_readiness(tmp_path,
         (data/name).write_text(json.dumps(value),encoding='utf8')
     monkeypatch.setattr(module,'DATA',data);monkeypatch.setattr(module,'ROOT',tmp_path)
     module.main();result=read_json(data/'world_history_sources.json')
-    assert result['implemented_lessons']==51 and result['remaining_lessons']==168
+    assert result['implemented_lessons']==catalog['implemented_lessons'] and result['remaining_lessons']==catalog['remaining_lessons']
     assert all(u['interactive_status']=='reviewed_preview_ready' for u in result['books'][0]['teaching_units'])
     ancillary={a['id']:a for a in result['books'][0]['ancillary_records']}
     for identifier in ['wh6-conclusion','wh6-final-review']:
@@ -144,7 +144,7 @@ def test_all_forty_six_ordered_units_and920_xp_once_preserve_old_accounts(histor
     assert completed['implemented_sections']==completed['source_sections']==46
     assert all(r['state']=='completed' for r in completed['lessons'])
     next_grade=client.get(PREFIX+'/catalog',params={'grade':7}).json()
-    assert next_grade['grade']==7 and next_grade['implemented_sections']==5 and next_grade['source_sections']==44
+    assert next_grade['grade']==7 and next_grade['implemented_sections']==sum(d['grade']==7 for d in load_lessons()) and next_grade['source_sections']==44
     assert not next_grade['grade_content_complete'] and not next_grade['course_complete']
     assert next_grade['lessons'][0]['state']=='available' and all(r['state']=='locked' for r in next_grade['lessons'][1:])
     assert len(next_grade['source_units'])==44 and next_grade['bibliography']['year']==2017
