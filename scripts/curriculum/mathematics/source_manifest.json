@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "subject": "mathematics",
+  "language": "uz",
+  "books": [
+    {
+      "book_id": "math-uz-g1-p1",
+      "grade": 1,
+      "part": 1,
+      "original_filename": "1-sinf 1-Sinf Matematika (1-qism).pdf",
+      "pdf_pages": 94,
+      "size_bytes": 3468463,
+      "sha256": "6302c51539e707637b170058a8c9f13329f372a08510742215cb573d015aaf90",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 91,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova",
+          "Y. V. Zemlina"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-7207-7-0",
+        "verification": "pdf3_image_reviewed"
+      },
+      "topic_count": null,
+      "curriculum_map_status": "first_5_topics_body_image_reviewed_remaining_pending",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          94
+        ],
+        "kind": "complete_supplied_file"
+      },
+      "topic_count_from_toc": 41
+    },
+    {
+      "book_id": "math-uz-g1-p2",
+      "grade": 1,
+      "part": 2,
+      "original_filename": "1-sinf 1-Sinf Matematika (2-qism).pdf",
+      "pdf_pages": 72,
+      "size_bytes": 3676851,
+      "sha256": "b45a8a2927f087b976a4c7a0213a8c3ec3f968b736b2a9c057308a8892757c05",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 71,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova",
+          "Y. V. Zemlina"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9702-5-0",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          72
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g1-p3",
+      "grade": 1,
+      "part": 3,
+      "original_filename": "1-sinf 1-Sinf Matematika (3-qism).pdf",
+      "pdf_pages": 84,
+      "size_bytes": 9306490,
+      "sha256": "46183895898c54f0554bdc47238b2d9ae8312225712618f20d9a9c9c467b0adf",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 82,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2024,
+        "isbn": "978-9943-9706-5-6",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          84
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g1-p4",
+      "grade": 1,
+      "part": 4,
+      "original_filename": "1-sinf 1-Sinf Matematika (4-qism).pdf",
+      "pdf_pages": 74,
+      "size_bytes": 2232249,
+      "sha256": "ad74352212d1b91604b14b9f24307a37d0181ccab5f1fc2b38ad61c12fe52fb3",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 73,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova",
+          "Y. V. Zemlina"
+        ],
+        "publisher": "Nashriyot nomi [source placeholder; review required]",
+        "year": 2023,
+        "isbn": "978-9943-9707-2-4",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          74
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g2-p1",
+      "grade": 2,
+      "part": 1,
+      "original_filename": "2-sinf 2-Sinf Matematika (1-qism).pdf",
+      "pdf_pages": 100,
+      "size_bytes": 2721236,
+      "sha256": "31124258de8a1432c1ce15006ff6465f818cf9c10fa86cbaf5dc6566c4c64f54",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 99,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova",
+          "Y. V. Zemlina"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9687-2-1",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          100
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g2-p2",
+      "grade": 2,
+      "part": 2,
+      "original_filename": "2-sinf 2-Sinf Matematika (2-qism).pdf",
+      "pdf_pages": 82,
+      "size_bytes": 2539747,
+      "sha256": "1acb4fd5b341567a30a91f48dd336fa224bca9717d9b2d6f667e25abef5faefa",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 81,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova",
+          "Y. V. Zemlina"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9703-6-6",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          82
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g2-p3",
+      "grade": 2,
+      "part": 3,
+      "original_filename": "2-sinf 2-Sinf Matematika (3-qism).pdf",
+      "pdf_pages": 106,
+      "size_bytes": 3121510,
+      "sha256": "b744781a1f2c4fad1e10743798a943e42e76e03790032361e19d3b12d544c07d",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 105,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova",
+          "Y. V. Zemlina"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9713-3-2",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          106
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g2-p4",
+      "grade": 2,
+      "part": 4,
+      "original_filename": "2-sinf 2-Sinf Matematika (4-qism).pdf",
+      "pdf_pages": 86,
+      "size_bytes": 2401908,
+      "sha256": "52d82e4928fc5c8ae7257e4a9d32c6d5a68e446e1b3a91e11fb44f401303a843",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 85,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9714-0-0",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          86
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g3-p1",
+      "grade": 3,
+      "part": 1,
+      "original_filename": "3-sinf 3-Sinf Matematika (1-qism).pdf",
+      "pdf_pages": 132,
+      "size_bytes": 3622449,
+      "sha256": "625c00619f74a3e46a63d3bd5e071413612fc6a9c8c160e8ad29ea299ffae8ab",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 131,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9684-5-5",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          132
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g3-p2",
+      "grade": 3,
+      "part": 2,
+      "original_filename": "3-sinf 3-Sinf Matematika (2-qism).pdf",
+      "pdf_pages": 102,
+      "size_bytes": 2953967,
+      "sha256": "a991c7f241d7c1946f48fa8c5473eb8618204ba3983cacf5866455e6a809dd9d",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 101,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9704-7-2",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          102
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g3-p3",
+      "grade": 3,
+      "part": 3,
+      "original_filename": "3-sinf 3-Sinf Matematika (3-qism).pdf",
+      "pdf_pages": 134,
+      "size_bytes": 4031318,
+      "sha256": "7b29f4e08ba30db9f46f5ea94d27a73ba1d8c8fa038a7ecef3c8c44a642069c0",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 133,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9716-3-9",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          134
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g3-p4",
+      "grade": 3,
+      "part": 4,
+      "original_filename": "3-sinf 3-Sinf Matematika (4-qism).pdf",
+      "pdf_pages": 106,
+      "size_bytes": 3169595,
+      "sha256": "e771a3bc4cbaf5b6b30330619866cf64da687950e1207f2bbc7f0ef90d91b7e8",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 105,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9717-0-7",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          106
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g4-p1",
+      "grade": 4,
+      "part": 1,
+      "original_filename": "4-sinf 4-Sinf Matematika (1-qism).pdf",
+      "pdf_pages": 130,
+      "size_bytes": 3700941,
+      "sha256": "809e281562d72089efd56f059773edabc71880651a23b5bf0e096ff25d3df261",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 128,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-994343697-0-4",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": false
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          130
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g4-p2",
+      "grade": 4,
+      "part": 2,
+      "original_filename": "4-sinf 4-Sinf Matematika (2-qism).pdf",
+      "pdf_pages": 102,
+      "size_bytes": 2964783,
+      "sha256": "d689670a713c8f64f54db3a4f0d708e65d319bdcbfe7a3d51266d05097c34224",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 101,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9705-8-8",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          102
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g4-p3",
+      "grade": 4,
+      "part": 3,
+      "original_filename": "4-sinf 4-Sinf Matematika (3-qism).pdf",
+      "pdf_pages": 122,
+      "size_bytes": 3328450,
+      "sha256": "e3b10fa5243be0083b8b1200a3e0191e467903ecbd3f722baac672bbd9a05951",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 120,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9710-3-5",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          122
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g4-p4",
+      "grade": 4,
+      "part": 4,
+      "original_filename": "4-sinf 4-Sinf Matematika (4-qism).pdf",
+      "pdf_pages": 94,
+      "size_bytes": 2882738,
+      "sha256": "868d265ced5ffa6737f92ea0fe42d4fc2208611e94457d64c44116bae549b4d0",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 93,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "I. V. Repyova"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2023,
+        "isbn": "978-9943-9711-0-3",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          94
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g5-p1",
+      "grade": 5,
+      "part": 1,
+      "original_filename": "5-sinf 5-Sinf Matematika (1-qism).pdf",
+      "pdf_pages": 180,
+      "size_bytes": 13450856,
+      "sha256": "95ae68ac96f084d489fd598565f103faa086a1023bdcd9027ae3aaa35120db20",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 178,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "Erik Chan Chun Ming"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2024,
+        "isbn": "978-9943-07-959-5",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          180
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g5-p2",
+      "grade": 5,
+      "part": 2,
+      "original_filename": "5-sinf 5-Sinf Matematika (2-qism).pdf",
+      "pdf_pages": 164,
+      "size_bytes": 19164348,
+      "sha256": "cdabfd34aba41b6d25117f7ca3ecffa74529886ee4b9eed39b4e0c1a929b2696",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 163,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "Erik Chan Chun Ming"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2024,
+        "isbn": "978-9943-07-960-1",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          164
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g6-p1",
+      "grade": 6,
+      "part": 1,
+      "original_filename": "6-sinf 6-Sinf Matematika (1-qism).pdf",
+      "pdf_pages": 178,
+      "size_bytes": 13215336,
+      "sha256": "f29bd504cf38a39b3df7bdbc064a3ed84933286e3fe49b1098e60eb7b6e99b05",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 175,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "Erik Chan Chun Ming"
+        ],
+        "publisher": "Novda Edutainment",
+        "year": 2024,
+        "isbn": "978-9943-07-965-6",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          178
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g7-p1",
+      "grade": 7,
+      "part": 1,
+      "original_filename": "7-sinf 7-Sinf Algebra.pdf",
+      "pdf_pages": 192,
+      "size_bytes": 27426164,
+      "sha256": "116c53b469e62d8425e200a48eee5e7b9308a659b37192a6c976f97456758b30",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 192,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "Abbos Akmalov",
+          "Jamoladdin Saparboyev",
+          "Dilmurod Boytillayev",
+          "Ergash Karimov",
+          "Muradjan Xodjaniyazov"
+        ],
+        "publisher": "Respublika ta’lim markazi",
+        "year": 2022,
+        "isbn": "978-9943-8352-9-0",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          192
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g8-p1",
+      "grade": 8,
+      "part": 1,
+      "original_filename": "8-sinf 8-Sinf Algebra.pdf",
+      "pdf_pages": 240,
+      "size_bytes": 31060856,
+      "sha256": "ab4e74d3eebb194afc6d65563d95c6a524489035ad6c0a3a8b4c555c08ab1f7f",
+      "source_type": "scanned_with_watermark",
+      "meaningful_text_pages": 0,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "Sh. A. Alimov",
+          "O. R. Xolmuhamedov",
+          "M. A. Mirzaahmedov"
+        ],
+        "publisher": "O‘qituvchi",
+        "year": 2019,
+        "isbn": "978-9943-5025-8-1",
+        "edition": "Qayta ishlangan 4-nashr",
+        "verification": "pdf1_2_image_reviewed"
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          240
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g10-p1",
+      "grade": 10,
+      "part": 1,
+      "original_filename": "10-sinf 10-Sinf Matematika (Algebra).pdf",
+      "pdf_pages": 192,
+      "size_bytes": 14243530,
+      "sha256": "16178da705b7122b11499123edf27289cba0361df2d9e10588b494d169601588",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 192,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "Adilbek Zaitov",
+          "Ra’no Hamrayeva",
+          "Kalmurza Sagidullayev",
+          "Umid Rahmonov",
+          "Baxtiyor Abdiyev",
+          "Baljan Urinbayeva"
+        ],
+        "publisher": "Respublika ta’lim markazi",
+        "year": 2022,
+        "isbn": "978-9943-0000-0-0",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "isbn13_checksum_valid": false
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          192
+        ],
+        "kind": "complete_supplied_file"
+      }
+    },
+    {
+      "book_id": "math-uz-g11-p2",
+      "grade": 11,
+      "part": 2,
+      "original_filename": "11-sinf 11-Sinf Matematika 2-qism.pdf",
+      "pdf_pages": 192,
+      "size_bytes": 4103891,
+      "sha256": "8eba610412e17fdf761eb9503033b770cab42b885e8f89dff8c639edc06c8952",
+      "source_type": "native_or_ocr_layer_requires_visual_check",
+      "meaningful_text_pages": 192,
+      "availability": "available",
+      "bibliography": {
+        "authors": [
+          "M. A. Mirzaahmedov",
+          "Sh. N. Ismailov",
+          "A. Q. Amanov",
+          "B. Q. Xaydarov"
+        ],
+        "publisher": "Zamin Nashr",
+        "year": 2018,
+        "isbn": "978-9943-5127-5-7",
+        "verification": "extracted_not_yet_visually_confirmed",
+        "author_roles": {
+          "algebra_analysis": [
+            "M. A. Mirzaahmedov",
+            "Sh. N. Ismailov",
+            "A. Q. Amanov"
+          ],
+          "geometry": [
+            "B. Q. Xaydarov"
+          ]
+        },
+        "isbn13_checksum_valid": true
+      },
+      "topic_count": null,
+      "curriculum_map_status": "pending_full_body_review",
+      "segment": {
+        "original_pdf_pages": [
+          1,
+          192
+        ],
+        "kind": "complete_supplied_file"
+      }
+    }
+  ],
+  "blocked_sources": [
+    {
+      "book_id": "math-uz-g9-p1",
+      "grade": 9,
+      "part": 1,
+      "original_filename": "9-sinf 9-Sinf Algebra.pdf",
+      "status": "transfer_blocked_32_MiB",
+      "sha256": null,
+      "pdf_pages": null
+    },
+    {
+      "book_id": "math-uz-g11-p1",
+      "grade": 11,
+      "part": 1,
+      "original_filename": "11-sinf 11-Sinf Matematika 1-qism.pdf",
+      "status": "transfer_blocked_32_MiB",
+      "sha256": null,
+      "pdf_pages": null
+    },
+    {
+      "book_id": "math-uz-g6-p2",
+      "grade": 6,
+      "part": 2,
+      "status": "source_missing",
+      "sha256": null,
+      "pdf_pages": null
+    },
+    {
+      "book_id": "math-uz-g7-geometry",
+      "grade": 7,
+      "domain": "geometry",
+      "status": "source_missing",
+      "sha256": null,
+      "pdf_pages": null
+    },
+    {
+      "book_id": "math-uz-g8-geometry",
+      "grade": 8,
+      "domain": "geometry",
+      "status": "source_missing",
+      "sha256": null,
+      "pdf_pages": null
+    },
+    {
+      "book_id": "math-uz-g9-geometry",
+      "grade": 9,
+      "domain": "geometry",
+      "status": "source_missing",
+      "sha256": null,
+      "pdf_pages": null
+    },
+    {
+      "book_id": "math-uz-g10-geometry",
+      "grade": 10,
+      "domain": "geometry",
+      "status": "source_missing",
+      "sha256": null,
+      "pdf_pages": null
+    }
+  ],
+  "available_pdf_count": 23,
+  "available_pdf_pages": 2958,
+  "claimed_uploaded_total_pages": 3390,
+  "full_curriculum_topic_count": null,
+  "all_grades_complete": false
+}
