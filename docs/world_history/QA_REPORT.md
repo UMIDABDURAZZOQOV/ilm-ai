@@ -499,3 +499,40 @@ checks remain unperformed. Earlier2569-pass full backend is baseline evidence,
 not a full backend rerun. No PDF/full source text/OCR/page images, real-user data
 or keys in Git; only two history feature branches. Next:§21–25; original86–97
 read and five private drafts validate,68 fact records/31 cards/52 questions.
+
+## Batch14 — grade7§21–25, 2026-10-27
+
+Five additional lessons:31 cards,68 fact records,32 MCQ and20 objective FRQ.
+Total **71/219 local-preview units**,541 cards,1076 fact records,431 MCQ,275 objective
+FRQ and71 ungraded activities. Grade6 remains46/46; grade7 is25/44,19 remaining.
+There are148 units left across grades7–11. Counts include reused final-review facts.
+
+| Check | Measured result | Scope |
+| --- | --- | --- |
+| All history backend |229 passed,603.81s wall | All16 modules/four independent shards;50/47/75/57 passes,449.03/430.33/247.40/599.44s; none omitted |
+| Actual PostgreSQL |1 passed in118.08s | Dedicated fresh staging schema; parallel completion and all71 units/1420XP once, previous synthetic user retained |
+| Actual loopback HTTP |6 catalogues,706 answers,1420XP | Fresh learner900146; prerequisites/replay, no old learner reset |
+| Targeted Flutter/captures |158 passed in02:48 | All71 API fixtures, chapter4,200% theory/MCQ,typed FRQ and earlier safeguards |
+| Full Flutter |767 passed in04:46 | Entire worktree suite, no-pub with unchanged dependencies |
+| Full analysis |0 issues in164.4s | Entire Flutter worktree, no-pub |
+| Preservation |687 baseline SHA pins matched | Existing subjects/runtime plus132 previous history lesson/review files byte-identical |
+| Critical Ruff / whitespace |Passed | History Python only and Git diff checks |
+
+The completed-grade6 transition test now resolves the next pending source unit's
+actual chapter from the catalogue. This retains a pending-row assertion after
+chapter3 becomes fully reviewed and chapter4 contains the next pending unit.
+Source-unit chapter/title navigation is checked for new§22–25. No runtime, auth,
+release route, subject manifest or real-user progress changed.
+
+Original86–97 reviewed. Difficult chronology/king ordinals and source claims stay
+scoped: Latin empire, French centralization, estates, HundredYearsWar and Joan.
+The erroneous/uncertain formulations in SOURCE_REVIEW are not correct-answer
+keys; no outside historical replacement is invented. 89 and98 are excluded from
+the previous whole-page topics. All original questions/activities remain linked.
+
+Actual renders inspected: grade7§22 theory200%,§24 feedback200%,§25 resumed FRQ
+with§25/96–97. Native Android/IME/TalkBack/independent teacher checks remain
+unperformed. Earlier2569-pass full backend is baseline evidence, not full rerun.
+No PDF/full source text/OCR/page images, keys or real-user data in Git; only two
+history feature branches. Next:§26–30; original98–108 read, private§26–28 written,
+next original109 for§29 and110 for§30.

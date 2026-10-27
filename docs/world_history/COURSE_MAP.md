@@ -27,7 +27,7 @@ in `activity_bindings`; exact activity regions and factual claims must be checke
 when authoring that lesson. Interpretive/open responses use self/teacher review.
 Internet/media research prompts do not authorize importing outside facts.
 
-**Reviewed preview lessons: 66; remaining: 153.** Source pages are candidate spans;
+**Reviewed preview lessons: 71; remaining: 148.** Source pages are candidate spans;
 a shared final page can include the next heading. It is not blanket fact approval.
 
 ## Grade 6: Tarix. Qadimgi dunyo (2017)
@@ -115,11 +115,11 @@ a shared final page can include the next heading. It is not blanket fact approva
 | 18 | wh7-topic18 | O‘rta asrlarda xristianlik | 78–80 | reviewed_preview_ready |
 | 19 | wh7-topic19 | Salib yurishlari | 80–83 | reviewed_preview_ready |
 | 20 | wh7-topic20 | Dastlabki salib yurishlari | 83–86 | reviewed_preview_ready |
-| 21 | wh7-topic21 | Keyingi salib yurishlari | 86–89 | not_implemented |
-| 22 | wh7-topic22 | Fransiyada markazlashgan davlatning tashkil topishi | 89–91 | not_implemented |
-| 23 | wh7-topic23 | General shtatlar | 91–93 | not_implemented |
-| 24 | wh7-topic24 | Yuz yillik urushning boshlanishi va uning dastlabki davri | 93–95 | not_implemented |
-| 25 | wh7-topic25 | Fransiyada mutlaq monarxiya | 95–98 | not_implemented |
+| 21 | wh7-topic21 | Keyingi salib yurishlari | 86–89 | reviewed_preview_ready |
+| 22 | wh7-topic22 | Fransiyada markazlashgan davlatning tashkil topishi | 89–91 | reviewed_preview_ready |
+| 23 | wh7-topic23 | General shtatlar | 91–93 | reviewed_preview_ready |
+| 24 | wh7-topic24 | Yuz yillik urushning boshlanishi va uning dastlabki davri | 93–95 | reviewed_preview_ready |
+| 25 | wh7-topic25 | Fransiyada mutlaq monarxiya | 95–98 | reviewed_preview_ready |
 | 26 | wh7-topic26 | Angliyada markazlashgan davlatning tashkil topishi | 98–102 | not_implemented |
 | 27 | wh7-topic27 | Angliya o‘rta asrlar so‘ngida | 102–104 | not_implemented |
 | 28 | wh7-topic28 | Germaniya | 104–108 | not_implemented |

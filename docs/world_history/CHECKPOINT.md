@@ -1,18 +1,18 @@
-# Jahon tarixi continuation checkpoint — batch13
+# Jahon tarixi continuation checkpoint — batch14
 
 2026-10-27. **Task incomplete. Continue autonomously through grade11.**
 
 ## Exact progress
 
-- 219 teaching units; **66 reviewed local-preview lessons;153 remain**.
-- Last ready: grade7§20 “Dastlabki salib yurishlari”,83–86 above§21.
+- 219 teaching units; **71 reviewed local-preview lessons;148 remain**.
+- Last ready: grade7§25 “Fransiyada mutlaq monarxiya”,95–97.
 - Keys: `world-history-6-p01-r1` through `world-history-6-p46-r1`, plus grade7
-  `world-history-7-p01-r1` through `world-history-7-p20-r1`.
-- 510 cards,1008 reviewed fact records,399 MCQ,255 objective FRQ,66 self/teacher activities.
+  `world-history-7-p01-r1` through `world-history-7-p25-r1`.
+- 541 cards,1076 reviewed fact records,431 MCQ,275 objective FRQ,71 self/teacher activities.
 - Grade6 has46/46 units ready:44 numbered paragraphs plus conclusion/final review.
   Twelve fact records in the final review reuse exact previously reviewed knowledge;
   total records are not a count of unique historical facts.
-- Grade7 has20/44 units ready;24 remain in this grade. Grades8–11 remain unimplemented.
+- Grade7 has25/44 units ready;19 remain in this grade. Grades8–11 remain unimplemented.
 - 961 pages decoded/rendered; every original image inspected for feature presence.
   Bibliography/contents and216 body headings cross-checked. No blanket fact approval.
 - 219 units =216 numbered blocks plus grade6 conclusion/final review and grade8
@@ -43,13 +43,13 @@
   source sheets, Ilmo, theory, MCQ, typed FRQ, shared feedback/results and resume.
 - Full backend first-lesson baseline: **2569 passed,4 skipped**, all71 files,
   four isolated UTF-8 subprocess shards; frozen inputs preserved.
-- Current sixty-six-unit targeted suite: **217 passed**, four isolated subprocess
-  shards,612.42s wall time; fifteen modules, no tests omitted.
-- Real isolated PostgreSQL: **1 passed in102.40s**, parallel completion and66
-  sequential units/1320XP once only. Broad-suite opt-in skips are not passes.
-- Actual loopback HTTP:6 catalogues,654 answers, prerequisites/replay and once-only
-  1320XP; fresh synthetic account only. No existing learner reset.
-- Current Flutter: **148 history widgets passed in03:43**, **757 full tests passed in04:54**, full analysis **0 issues in183.1s**. Exact scope: QA_REPORT.md.
+- Current seventy-one-unit targeted suite: **229 passed**, four isolated subprocess
+  shards,603.81s wall time; sixteen modules, no tests omitted.
+- Real isolated PostgreSQL: **1 passed in118.08s**, parallel completion and71
+  sequential units/1420XP once only. Broad-suite opt-in skips are not passes.
+- Actual loopback HTTP:6 catalogues,706 answers, prerequisites/replay and once-only
+  1420XP; fresh synthetic account only. No existing learner reset.
+- Current Flutter: **158 history widgets passed in02:48**, **767 full tests passed in04:46**, full analysis **0 issues in164.4s**. Exact scope: QA_REPORT.md.
 - Windows subprocess Unicode failures were fixed with `PYTHONUTF8=1`, without
   Biology edits. Use that setting in later backend QA.
 - Screenshots are real Flutter widget renders, not native Android. Independent
@@ -152,17 +152,21 @@
 - Grade7§19 promised afterlife/wealth and motives attributed; precise UrbanII1095
   Klermon identity checked. §20 Hospital/Ioanniy aliases are question-specific,
   prince/ruler ordinals distinct, casualty/exactuniversalclaims unassessed.
+- Grade7§21 debt/recapture anecdotes and1269/absolutelast endpoint held.
+  §22 completed-France chronology/instantTuluza, §23 firstchurchtax/taxuniversals
+  and literalAvignonimprisonment held. §24 PhilipIV immediate noheirs and Crecy
+  numbers held. §25 treaty1420 wording/1453formalpeace,Joanage/coronation
+  compression and1491instantlegalunion held; no outside repair.
 - Grade11 UN body109/111 remains unresolved; no accepted key. “Today” claims keep
  2018 publication scope. Preserve all open review records.
 
 ## Next exact work
 
-1. Finish/persist batch13 QA/Git checkpoint if not already in latest branch log.
+1. Finish/persist batch14 QA/Git checkpoint if not already in latest branch log.
    Commit/push only the two history feature branches.
-2. Continue batch14 **grade7§21–25**, starting§21 on original86 below its heading.
-   Original3–98 read;§1–20 indexed/imported. All private§21–25 drafts validate
-   (68 fact records/31 cards/52 questions), not yet indexed/imported.
-   §26 original98 read; after batch14 continue original99 onward. Keep grade selection and progress independent;
+2. Continue batch15 **grade7§26–30**, starting§26 on original98.
+   Original3–108 read;§1–25 indexed/imported. Private§26–28 written,
+   not indexed/imported. Next original109 for§29, then§30 on110. Keep grade selection and progress independent;
    author in book order through grade11.
 3. Reuse common-v2 and mandatory source/fact/per-question-target validators.
    Inspect each original image/map legend, not merely OCR/embedded text.
@@ -174,7 +178,7 @@
 
 Private authoring helpers: `.local/`. **Do not rerun** one-time
 `author_history_first.py`, `integrate_history_batch01.py`, `integrate_history_batch02.py`,
-`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`, `integrate_history_batch10.py`, `integrate_history_batch11.py`, `integrate_history_batch12.py`, `integrate_history_batch13.py`,
+`integrate_history_batch03.py`, `integrate_history_batch04.py`, `integrate_history_batch05.py`, `integrate_history_batch06.py`, `integrate_history_batch07.py`, `integrate_history_batch08.py`, `integrate_history_batch09.py`, `integrate_history_batch10.py`, `integrate_history_batch11.py`, `integrate_history_batch12.py`, `integrate_history_batch13.py`, `integrate_history_batch14.py`,
 `finalize_unpublished_history14.py`, or old initial catalogue
 builders: they could reset the current allowlist. Update future helper review
 output to include `approved_answer_targets` and checked activity targets.
