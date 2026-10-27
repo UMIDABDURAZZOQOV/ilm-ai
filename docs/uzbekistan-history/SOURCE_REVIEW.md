@@ -156,3 +156,13 @@ Keyingi§12–16uchun39–61asl sahifalar to‘liq ko‘rildi, yangi partiya hal
 1865muvaqqatnizom/1877shaharDumasi/1886yangiNizom/1898sudpalatasi izchil ajratildi.1886qonun tasdig‘i bilan44sxemadagi1887amalgaoshish sanasi yagona «tuzilgan yil»ga majburlanmadi. Apellatsiya,uyezd,volost,ispravnik,sudpalatasi tarixiy ma’noda,bugungi huquqiy maslahat emas. Siyosiy hukumat/ma’muriyat qarori barcha ko‘chib kelgan odamning shaxsiy niyati deb ko‘rsatilmagan.
 
 Vaqf daromadi,yer huquqi va foydalanish, kredit va soliq imtiyozi alohida tushuncha. Girs56raqamlari/Avliyoota«ilk»/Orenburg1905aniq tugash sanasi tashqi review talab qiladi, avtomatik kalitga kiritilmadi.1888Samarqand va1899Andijon qaydlari57–60tasvirlaridan tekshirildi. Temiryo‘lningharbiy va iqtisodiy vazifalari,paxtayetishtirish/dastlabkiqaytaishlash/tayyormato turli bosqichlar. Muallifning iqtisodiy bahosi obyektiv kalit emas. Keyingi§17–21uchun61–78asl sahifalar o‘qildi, keyingi partiya hali ro‘yxatlanmagan.
+
+## 9-sinf to‘rtinchi partiya — §17–21
+
+Asl 61–78-sahifalar o‘qildi. 1878 Mingtepa/Yetimxon, 1880 O‘ratepa soliq talabi, 1882 Namangan, 1885 Andijon/Darvishxon va 1896 mahalliy mansab saylovi bir xil voqea deb birlashtirilmagan. Muallifning iqtisodiy sabab va jazo siyosati haqidagi talqini obyektiv kalit emas.
+
+1892 Toshkent voqeasining «Vabo isyoni»/«Toshotar» nomlari bir hodisaga tegishli. 65-sahifadagi zaharlanish da’volari aynan mish-mish sifatida berilgan; dars tibbiy isbot yoki bugungi sanitariya tavsiyasi sifatida ularni takrorlamaydi. Avvalgi Inomxo‘ja va keyingi Muhammad Yoqub rollari farqlangan; taxminiy olomon soni yagona aniq hisob qilib olinmagan.
+
+1898 Andijon, Muhammad Ali/Dukchi eshon, kazarma va katorga tushunchalari manbadan tekshirildi. Rahbarning diniy obro‘si yoki «mo‘jiza» haqidagi muallif bahosi e’tiqodni avtomatik baholash kaliti emas. Hukm, almashtirish va ijro sonlari ekspertga qoldirildi. Qurolli harakatni qanday yaxshilash topshirig‘i berilmagan, oddiy aholi bilan qatnashchi tenglashtirilmagan.
+
+§20 umumlashtirishida ochiq tarixiy ahamiyat tahlili rubrikali self/teacher review uchun. Uning qisqa obyektiv mashqlari avval tekshirilgan §17–19 manbalariga `reviewed_prior_context`, topic SHA va aniq sahifa chegarasi bilan bog‘langan; bitta talqinni to‘g‘ri siyosiy fikr qilib baholamaydi. §21 Quyi Amudaryo/Orol, ulus, aris, beklarbegi, xo‘jalik, sud va urf-odatlarni ajratadi. Etnik nomdan barcha oilalarning kasbi yoki e’tiqodi chiqarilmaydi. 78-sahifaning yuqorisi §21 davomi, pastidagi §22 keyingi dars; chegarasi saqlandi.

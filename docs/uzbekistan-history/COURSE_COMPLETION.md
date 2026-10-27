@@ -1,24 +1,24 @@
 # O‘zbekiston tarixi — joriy checkpoint
 
-2026-10-27. **Kurs tugallanmagan: 98/172 o‘quv birligi lokal/test preview’da.** Jami 770 karta, 615 topshiriq (359 MCQ / 195 qisqa FRQ / 61 xronologiya), 98 original misol va 98 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
+2026-10-27. **Kurs tugallanmagan: 103/172 o‘quv birligi lokal/test preview’da.** Jami 807 karta, 643 topshiriq (376 MCQ / 204 qisqa FRQ / 63 xronologiya), 103 original misol va 103 avtomatik baholanmaydigan refleksiya. 7-sinf42/42 immutable;8-sinf40paragraf+1raqamsizyakuniyfaoliyat=41/41 saqlandi.
 
 | Sinf | Bob | O‘quv birligi | Lokal/test dars | Qolgan | Karta | Savol | Qisqa FRQ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 7 | 6 | 42 | 42 | 0 | 325 | 280 | 83 |
 | 8 | 4 | 41 | 41 | 0 | 319 | 245 | 82 |
-| 9 | 9 | 39 | 15 | 24 | 126 | 90 | 30 |
+| 9 | 9 | 39 | 20 | 19 | 163 | 118 | 39 |
 | 10 | 6 | 28 | 0 | 28 | 0 | 0 | 0 |
 | 11 | 9 | 22 | 0 | 22 | 0 | 0 | 0 |
 
 ## Joriy testlar
 
-- backend: `209 passed, 3 skipped in 131.19s (0:02:11)`.
-- postgres: `3 passed, 147 deselected in 41.91s`.
-- flutter: `01:21 +293: All tests passed!`.
-- flutter_history: `00:14 +139: All tests passed!`.
+- backend: `214 passed, 3 skipped in 142.46s (0:02:22)`.
+- postgres: `3 passed, 152 deselected in 47.87s`.
+- flutter: `01:17 +298: All tests passed!`.
+- flutter_history: `00:15 +144: All tests passed!`.
 - analyze: `No issues found! (ran in 1.4s)`.
 
-Source audit: 769 asl sahifa, 172 sarlavha va 374 partiya-sahifa tasviri. `--require-complete` manbalar mavjudligi uchun exit0, kurs/publicrelease tasdig‘i emas.
+Source audit: 769 asl sahifa, 172 sarlavha va 392 partiya-sahifa tasviri. `--require-complete` manbalar mavjudligi uchun exit0, kurs/publicrelease tasdig‘i emas.
 
 ## Tekshiruv chegaralari
 
@@ -32,4 +32,4 @@ Biology406/Physics316 va552eski backend fayli,7-sinf42r1 hamda oldingi4sourceboo
 
 ## Git va davom
 
-Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Partiya commitini remote SHA bilan tekshiring. **Keyingi: 9-sinf §17, PDF 61, bosma 61 — Turkistonda milliy-ozodlik harakatlarining boshlanishi va uning sabablari.** Oddiy partiyalar uchun qayta ruxsat talab qilinmaydi.
+Ikkala repo branchi `feat/uzbekistan-history-curriculum`. Partiya commitini remote SHA bilan tekshiring. **Keyingi: 9-sinf §22, PDF 78, bosma 78 — Soliq va majburiyatlar. Xalq qo‘zg‘olonlari.** Oddiy partiyalar uchun qayta ruxsat talab qilinmaydi.
